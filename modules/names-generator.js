@@ -332,7 +332,16 @@ window.Names = (function () {
       {name: "Kuki-Chin", i: 62, min: 4, max: 12, d: "lnrt", m: 0, b: "Falam,Hakha,Thantlang,Tedim,Tonzang,Paletwa,Matupi,Mindat,Kanpetlet,Tonzang,Tamu,Kalemyo,Mawlaik,Aizawl,Lunglei,Champhai,Kolasib,Serchhip,Lawngtlai,Saiha,Churachandpur,Singngat,Sugnu,Moreh,Saitual,Mamit"},
       {name: "Boro-Garo", i: 63, min: 4, max: 12, d: "lnrt", m: 0, b: "Kokrajhar,Gossaigaon,Bijni,Bongaigaon,Barpeta,Nalbari,Goalpara,Dudhnoi,Dhubri,Guwahati,Dispur,Tamulpur,Udalguri,Tezpur,Tura,Williamnagar,Resubelpara,Baghmara,Ampati,Rongjeng,Mendipathar,Damra,Rongram,Dalu"},
       {name: "Jingpho-Luish", i: 64, min: 4, max: 12, d: "lnrt", m: 0, b: "Myitkyina,Mogaung,Mohnyin,Hpakant,Bhamo,Waingmaw,Putao,Sumprabum,Machanbaw,Tanai,Sinbo,Myitsone,Ruili,Longchuan,Yingjiang,Lianghe,Luxi,Tengchong,Baoshan,Kunming"},
-      {name: "Arunachal", i: 65, min: 4, max: 12, d: "lnrt", m: 0, b: "Itanagar,Naharlagun,Ziro,Daporijo,Aalo,Pasighat,Roing,Tezu,Anini,Yingkiong,Along,Basar,Likabali,Seppa,Bomdila,Tawang,Namsai,Changlang,Khonsa,Jairampur,Doimukh,Dirang,Bhalukpong,Rupa,Ruksin,Nongstoin"}
+      {name: "Arunachal", i: 65, min: 4, max: 12, d: "lnrt", m: 0, b: "Itanagar,Naharlagun,Ziro,Daporijo,Aalo,Pasighat,Roing,Tezu,Anini,Yingkiong,Along,Basar,Likabali,Seppa,Bomdila,Tawang,Namsai,Changlang,Khonsa,Jairampur,Doimukh,Dirang,Bhalukpong,Rupa,Ruksin,Nongstoin"},
+      {name: "Mandarin", i: 66, min: 5, max: 10, d: "", m: 0, b: "Beijing,Tianjin,Shijiazhuang,Zhengzhou,Wuhan,Changsha,Nanchang,Nanjing,Hefei,Jinan,Lanzhou,Xi'an,Chengdu,Chongqing,Kunming,Guiyang,Shenyang,Harbin,Changchun,Luoyang,Baoji,Xinyang,Xiangyang,Suizhou,Handan,Baoding,Cangzhou,Anyang,Kaifeng,Huaihua"},
+      {name: "Gan", i: 67, min: 5, max: 10, d: "", m: 0, b: "Nanchang,Jiujiang,Ganzhou,Yichun,Jingdezhen,Fuzhou,Yingtan,Shangrao,Ji'an,Pingxiang,Xinyu,Ruijin,Nankang,Longnan,Huichang,Xinfeng,Yudu,Dayu,Chongyi,Xingan"},
+      {name: "Min", i: 68, min: 5, max: 10, d: "", m: 0, b: "Fuzhou,Xiamen,Quanzhou,Putian,Zhangzhou,Longyan,Nanping,Shaowu,Jinjiang,Shishi,Yongchun,Chaozhou,Shantou,Kaohsiung,Tainan,Taichung,Hsinchu,Keelung,Magong,Kinmen"},
+      {name: "Wu", i: 69, min: 5, max: 10, d: "", m: 0, b: "Shanghai,Suzhou,Wuxi,Changzhou,Nanjing,Hangzhou,Ningbo,Shaoxing,Jiaxing,Huzhou,Taizhou,Ruian,Cixi,Yuyao,Zhoushan,Jinhua,Lishui,Songjiang,Kunshan,Taicang"},
+      {name: "Xiang", i: 70, min: 5, max: 10, d: "", m: 0, b: "Changsha,Hengyang,Xiangtan,Zhuzhou,Chenzhou,Yueyang,Changde,Jishou,Yiyang,Huaihua,Shaoyang,Loudi,Yongzhou,Zixing,Leiyang,Ningxiang,Liling,Xiangxiang,Liuyang,Miluo"},
+      {name: "Jin", i: 71, min: 5, max: 10, d: "", m: 0, b: "Taiyuan,Datong,Changzhi,Jincheng,Yuncheng,Linfen,Luliang,Jinzhong,Xinzhou,Houma,Hejin,Gujiao,Gaoping,Yuanping,Xiaoyi,Fenyang,Huozhou,Huairen,Wutai,Linjiang"},
+      {name: "Hui", i: 72, min: 5, max: 10, d: "", m: 0, b: "Huangshan,Shexian,Xiuning,Jixi,Qimen,Huizhou,Tunxi,Ningguo,Chizhou,Anqing,Wuhu,Ma'anshan,Tongling,Xuancheng,Dangtu,Wanzhi,Jingde,Shitai,Qianshan,Yixian"},
+      {name: "Pinghua", i: 73, min: 5, max: 10, d: "", m: 0, b: "Nanning,Liuzhou,Guilin,Wuzhou,Guigang,Laibin,Hezhou,Yulin,Qinzhou,Beihai,Fangchenggang,Chongzuo,Baise,Hechi,Lingui,Lingchuan,Pingle,Zhaoping,Tengxian,Luzhai"},
+      {name: "Hakka", i: 74, min: 5, max: 10, d: "", m: 0, b: "Meizhou,Heyuan,Huizhou,Longchuan,Xingning,Dapu,Fengshun,Jiaoling,Wuhua,Pingyuan,Longyan,Yongding,Changting,Shanghang,Liancheng,Xinfeng,Nanxiong,Guangning,Fogang"}
     ];
   };
 
