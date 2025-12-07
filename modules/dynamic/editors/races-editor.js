@@ -4,7 +4,7 @@ addListeners();
 export function open() {
   closeDialogs("#racesEditor, .stable");
 
-  if (!pack || !pack.cultures || !pack.cultures.length) {
+  if (!pack || !pack.races || pack.races.length <= 1) {
     alertMessage.innerHTML = /* html */ `No races are defined for this map. Races are only available for High Fantasy and Dark Fantasy culture sets.`;
     $("#alert").dialog({
       resizable: false,

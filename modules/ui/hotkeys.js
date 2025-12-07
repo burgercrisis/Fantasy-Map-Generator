@@ -41,6 +41,7 @@ function handleKeyup(event) {
   else if (shift && code === "KeyP") editProvinces();
   else if (shift && code === "KeyD") editDiplomacy();
   else if (shift && code === "KeyC") editCultures();
+  else if (shift && code === "KeyX") editRaces();
   else if (shift && code === "KeyN") editNamesbase();
   else if (shift && code === "KeyZ") editZones();
   else if (shift && code === "KeyR") editReligions();

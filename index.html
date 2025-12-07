@@ -567,6 +567,13 @@
               <u>C</u>ultures
             </li>
             <li
+              id="toggleRaces"
+              data-tip="Races: click to toggle, drag to raise or lower the layer. Ctrl + click to edit layer style"
+              onclick="toggleRaces(event)"
+            >
+              Races
+            </li>
+            <li
               id="toggleStates"
               data-tip="States: click to toggle, drag to raise or lower the layer. Ctrl + click to edit layer style"
               data-shortcut="S"
@@ -2029,6 +2036,9 @@
             </button>
             <button id="editCulturesButton" data-tip="Click to open Cultures Editor" data-shortcut="Shift + C">
               Cultures
+            </button>
+            <button id="editRacesButton" data-tip="Click to open Races Editor" data-shortcut="Shift + X">
+              Races
             </button>
             <button
               id="editDiplomacyButton"

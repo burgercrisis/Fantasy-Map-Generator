@@ -195,6 +195,7 @@ function drawLayers() {
   if (layerIsOn("toggleRelief")) drawReliefIcons();
   if (layerIsOn("toggleReligions")) drawReligions();
   if (layerIsOn("toggleCultures")) drawCultures();
+  if (layerIsOn("toggleRaces")) drawRaces();
   if (layerIsOn("toggleStates")) drawStates();
   if (layerIsOn("toggleProvinces")) drawProvinces();
   if (layerIsOn("toggleZones")) drawZones();
@@ -488,6 +489,44 @@ function drawCultures() {
   byId("cults").innerHTML = bodyPaths.join("");
 
   TIME && console.timeEnd("drawCultures");
+}
+
+function toggleRaces(event) {
+  const racesData = pack.races?.filter(r => r.i && !r.removed);
+  const hasRaceCells = pack.cells && pack.cells.race;
+  const empty = !races.selectAll("path").size();
+  if (empty && racesData && racesData.length && hasRaceCells) {
+    turnButtonOn("toggleRaces");
+    drawRaces();
+    if (event && isCtrlClick(event)) editStyle("cults");
+  } else {
+    if (event && isCtrlClick(event)) return editStyle("cults");
+    races.selectAll("path").remove();
+    turnButtonOff("toggleRaces");
+  }
+}
+
+function drawRaces() {
+  TIME && console.time("drawRaces");
+  const {cells, races: racesData} = pack;
+  if (!racesData || racesData.length <= 1 || !cells || !cells.race) {
+    byId("races").innerHTML = "";
+    TIME && console.timeEnd("drawRaces");
+    return;
+  }
+
+  const bodyPaths = new Array(racesData.length - 1);
+  const isolines = getIsolines(pack, cellId => cells.race[cellId], {fill: true, waterGap: true});
+  Object.entries(isolines).forEach(([index, {fill, waterGap}]) => {
+    const race = racesData[index];
+    if (!race || !race.i || race.removed) return;
+    const color = race.color || "#888888";
+    bodyPaths.push(getGappedFillPaths("race", fill, waterGap, color, index));
+  });
+
+  byId("races").innerHTML = bodyPaths.join("");
+
+  TIME && console.timeEnd("drawRaces");
 }
 
 function toggleReligions(event) {

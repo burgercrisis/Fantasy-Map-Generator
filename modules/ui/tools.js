@@ -11,6 +11,7 @@ toolsContent.addEventListener("click", function (event) {
   if (button === "editHeightmapButton") editHeightmap();
   else if (button === "editBiomesButton") editBiomes();
   else if (button === "editStatesButton") editStates();
+  else if (button === "editRacesButton") editRaces();
   else if (button === "editProvincesButton") editProvinces();
   else if (button === "editDiplomacyButton") editDiplomacy();
   else if (button === "editCulturesButton") editCultures();

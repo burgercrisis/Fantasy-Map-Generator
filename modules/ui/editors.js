@@ -1303,6 +1303,12 @@ async function editCultures() {
   Editor.open();
 }
 
+async function editRaces() {
+  if (customization) return;
+  const Editor = await import("../dynamic/editors/races-editor.js?v=1.108.1");
+  Editor.open();
+}
+
 async function editReligions() {
   if (customization) return;
   const Editor = await import("../dynamic/editors/religions-editor.js?v=1.104.0");

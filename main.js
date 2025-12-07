@@ -59,6 +59,7 @@ let rivers = viewbox.append("g").attr("id", "rivers");
 let terrain = viewbox.append("g").attr("id", "terrain");
 let relig = viewbox.append("g").attr("id", "relig");
 let cults = viewbox.append("g").attr("id", "cults");
+let races = viewbox.append("g").attr("id", "races");
 let regions = viewbox.append("g").attr("id", "regions");
 let statesBody = regions.append("g").attr("id", "statesBody");
 let statesHalo = regions.append("g").attr("id", "statesHalo");
@@ -653,6 +654,7 @@ async function generate(options) {
     BurgsAndStates.generate();
     Routes.generate();
     Religions.generate();
+    assignRaces();
     BurgsAndStates.defineStateForms();
     Provinces.generate();
     Provinces.getPoles();
@@ -1231,6 +1233,152 @@ function showStatistics() {
   mapId = Date.now(); // unique map id is it's creation date number
   mapHistory.push({seed, width: graphWidth, height: graphHeight, template: heightmap, created: mapId});
   INFO && console.info(stats);
+}
+
+function assignRaces() {
+  if (!pack || !pack.cultures) return;
+
+  const culturesSetElement = byId("culturesSet");
+  const culturesSetValue = culturesSetElement ? culturesSetElement.value : null;
+  const isFantasy = culturesSetValue === "highFantasy" || culturesSetValue === "darkFantasy";
+
+  function clearRaces() {
+    pack.races = [];
+
+    if (pack.cultures) pack.cultures.forEach(c => c && delete c.race);
+    if (pack.states) pack.states.forEach(s => s && delete s.race);
+    if (pack.provinces) pack.provinces.forEach(p => p && delete p.race);
+    if (pack.burgs) pack.burgs.forEach(b => b && delete b.race);
+    if (pack.religions) pack.religions.forEach(r => r && delete r.race);
+  }
+
+  if (!isFantasy) {
+    clearRaces();
+    return;
+  }
+
+  const fantasyRaceBases = {
+    Elf: [33],
+    "Dark Elf": [34],
+    Dwarf: [35],
+    Goblin: [36],
+    Orc: [37],
+    Giant: [38],
+    Draconic: [39],
+    Arachnid: [40],
+    Serpent: [41]
+  };
+
+  function getRaceNameForCulture(culture) {
+    if (!culture || !culture.i || culture.removed) return null;
+    const base = culture.base;
+
+    for (const [raceName, bases] of Object.entries(fantasyRaceBases)) {
+      if (bases.includes(base)) return raceName;
+    }
+
+    return "Human";
+  }
+
+  const races = [{i: 0, name: "None"}];
+  const raceIndexByName = new Map();
+  const raceColorById = {};
+
+  function getRaceIdByName(name) {
+    if (!name) return 0;
+    const existing = raceIndexByName.get(name);
+    if (existing) return existing;
+
+    const id = races.length;
+    raceIndexByName.set(name, id);
+    races.push({i: id, name, expansionism: 1});
+    return id;
+  }
+
+  pack.cultures.forEach(culture => {
+    if (!culture) return;
+    if (!culture.i || culture.removed) {
+      culture.race = 0;
+      return;
+    }
+
+    const raceName = getRaceNameForCulture(culture);
+    const raceId = getRaceIdByName(raceName);
+    culture.race = raceId;
+
+    if (!raceColorById[raceId] && culture.color) {
+      raceColorById[raceId] = culture.color;
+    }
+  });
+
+  races.forEach(race => {
+    if (!race.i) return;
+    race.color = raceColorById[race.i] || "#888888";
+    if (race.expansionism == null) race.expansionism = 1;
+  });
+
+  function getRaceFromCultureId(cultureId) {
+    const culture = pack.cultures && pack.cultures[cultureId];
+    return culture && culture.race ? culture.race : 0;
+  }
+
+  if (pack.states) {
+    pack.states.forEach(state => {
+      if (!state) return;
+      if (!state.i || state.removed) {
+        state.race = 0;
+        return;
+      }
+      state.race = getRaceFromCultureId(state.culture);
+    });
+  }
+
+  if (pack.provinces && pack.states) {
+    pack.provinces.forEach(province => {
+      if (!province) return;
+      if (!province.i || province.removed) {
+        province.race = 0;
+        return;
+      }
+      const state = pack.states[province.state];
+      province.race = state && state.race ? state.race : 0;
+    });
+  }
+
+  if (pack.burgs) {
+    pack.burgs.forEach(burg => {
+      if (!burg) return;
+      if (!burg.i || burg.removed) {
+        burg.race = 0;
+        return;
+      }
+      burg.race = getRaceFromCultureId(burg.culture);
+    });
+  }
+
+  if (pack.religions) {
+    pack.religions.forEach(religion => {
+      if (!religion) return;
+      if (!religion.i || religion.removed) {
+        religion.race = 0;
+        return;
+      }
+      religion.race = getRaceFromCultureId(religion.culture);
+    });
+  }
+
+  if (pack.cells && pack.cells.culture && pack.cells.i) {
+    const raceArray = new Uint16Array(pack.cells.i.length);
+    for (const i of pack.cells.i) {
+      const cultureId = pack.cells.culture[i];
+      const culture = pack.cultures && pack.cultures[cultureId];
+      const raceId = culture && culture.race ? culture.race : 0;
+      raceArray[i] = raceId;
+    }
+    pack.cells.race = raceArray;
+  }
+
+  pack.races = races;
 }
 
 const regenerateMap = debounce(async function (options) {

@@ -543,7 +543,18 @@ window.Cultures = (function () {
 
     while (queue.length) {
       const {cellId, priority, cultureId} = queue.pop();
-      const {type, expansionism} = cultures[cultureId];
+      const culture = cultures[cultureId];
+      if (!culture || !culture.i || culture.removed) continue;
+
+      const {type, expansionism} = culture;
+      const baseExpansionism = expansionism || 1;
+      let effectiveExpansionism = baseExpansionism;
+
+      if (pack.races && culture.race) {
+        const race = pack.races[culture.race];
+        const raceExpansionism = race && race.expansionism ? race.expansionism : 1;
+        effectiveExpansionism = baseExpansionism * raceExpansionism || 1;
+      }
 
       cells.c[cellId].forEach(neibCellId => {
         if (hasLocked) {
@@ -558,7 +569,8 @@ window.Cultures = (function () {
         const riverCost = getRiverCost(cells.r[neibCellId], neibCellId, type);
         const typeCost = getTypeCost(cells.t[neibCellId], type);
 
-        const cellCost = (biomeCost + biomeChangeCost + heightCost + riverCost + typeCost) / expansionism;
+        const cellCost =
+          (biomeCost + biomeChangeCost + heightCost + riverCost + typeCost) / effectiveExpansionism;
         const totalCost = priority + cellCost;
 
         if (totalCost > maxExpansionCost) return;
