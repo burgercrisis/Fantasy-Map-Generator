@@ -650,6 +650,7 @@ async function generate(options) {
 
     rankCells();
     Cultures.generate();
+    initializeRacesForExpansion();
     Cultures.expand();
     BurgsAndStates.generate();
     Routes.generate();
@@ -1235,12 +1236,144 @@ function showStatistics() {
   INFO && console.info(stats);
 }
 
-function assignRaces() {
-  if (!pack || !pack.cultures) return;
-
+function isFantasyCulturesSet() {
   const culturesSetElement = byId("culturesSet");
   const culturesSetValue = culturesSetElement ? culturesSetElement.value : null;
-  const isFantasy = culturesSetValue === "highFantasy" || culturesSetValue === "darkFantasy";
+  return culturesSetValue === "highFantasy" || culturesSetValue === "darkFantasy";
+}
+
+const fantasyRaceBases = {
+  Elf: [33],
+  "Dark Elf": [34],
+  Dwarf: [35],
+  Goblin: [36],
+  Orc: [37],
+  Giant: [38],
+  Draconic: [39],
+  Arachnid: [40],
+  Serpent: [41],
+  Halfling: [43],
+  Gnome: [44],
+  "Half-Elf": [45],
+  "Half-Orc": [46],
+  Tiefling: [47],
+  Aasimar: [48],
+  Hobgoblin: [49],
+  Goliath: [50],
+  Lizardfolk: [51],
+  Shifter: [52],
+  Gnoll: [53],
+  Bugbear: [54],
+  Tabaxi: [55],
+  Warforged: [56],
+  Kenku: [57],
+  Aarakocra: [58],
+  Dragonborn: [59],
+  Triton: [60]
+};
+
+function defineRaceExpansionism(name) {
+  const sizeVarietyElement = byId("sizeVariety");
+  const variety =
+    (sizeVarietyElement && (sizeVarietyElement.valueAsNumber || +sizeVarietyElement.value)) || 1;
+
+  let base = 1;
+
+  if (name === "Elf") base = 0.8;
+  else if (name === "Dark Elf") base = 0.9;
+  else if (name === "Dwarf") base = 0.7;
+  else if (name === "Goblin") base = 1.3;
+  else if (name === "Orc") base = 1.6;
+  else if (name === "Giant") base = 0.5;
+  else if (name === "Draconic") base = 0.6;
+  else if (name === "Arachnid") base = 1.1;
+  else if (name === "Serpent") base = 1.2;
+  else if (name === "Halfling") base = 0.9;
+  else if (name === "Gnome") base = 0.8;
+  else if (name === "Half-Elf") base = 1.1;
+  else if (name === "Half-Orc") base = 1.4;
+  else if (name === "Tiefling") base = 1.0;
+  else if (name === "Aasimar") base = 0.9;
+  else if (name === "Hobgoblin") base = 1.5;
+  else if (name === "Goliath") base = 0.8;
+  else if (name === "Lizardfolk") base = 1.2;
+  else if (name === "Shifter") base = 1.2;
+  else if (name === "Gnoll") base = 1.3;
+  else if (name === "Bugbear") base = 1.1;
+  else if (name === "Tabaxi") base = 1.2;
+  else if (name === "Warforged") base = 1.0;
+  else if (name === "Kenku") base = 1.0;
+  else if (name === "Aarakocra") base = 0.9;
+  else if (name === "Dragonborn") base = 1.3;
+  else if (name === "Triton") base = 0.8;
+  else if (name === "Human") base = 1;
+
+  const randomFactor = (Math.random() * variety) / 2 + 1;
+  return rn(randomFactor * base, 1);
+}
+
+function getRaceNameForCulture(culture) {
+  if (!culture || !culture.i || culture.removed) return null;
+  const base = culture.base;
+
+  for (const [raceName, bases] of Object.entries(fantasyRaceBases)) {
+    if (bases.includes(base)) return raceName;
+  }
+
+  return "Human";
+}
+
+function initializeRacesForExpansion() {
+  if (!pack || !pack.cultures) return;
+  if (!isFantasyCulturesSet()) return;
+
+  const existingRaces = pack.races || [];
+  const races = [{i: 0, name: "None"}];
+  const raceIndexByName = new Map();
+  const raceColorById = {};
+
+  existingRaces.forEach(race => {
+    if (!race || !race.i) return;
+    races[race.i] = {i: race.i, name: race.name, color: race.color, expansionism: race.expansionism};
+    raceIndexByName.set(race.name, race.i);
+    if (race.color) raceColorById[race.i] = race.color;
+  });
+
+  pack.cultures.forEach(culture => {
+    if (!culture) return;
+    if (!culture.i || culture.removed) {
+      culture.race = 0;
+      return;
+    }
+
+    const raceName = getRaceNameForCulture(culture);
+    let raceId = raceIndexByName.get(raceName);
+
+    if (!raceId) {
+      raceId = races.length;
+      raceIndexByName.set(raceName, raceId);
+      const expansionism = defineRaceExpansionism(raceName);
+      races[raceId] = {i: raceId, name: raceName, expansionism};
+    }
+
+    culture.race = raceId;
+
+    if (!raceColorById[raceId] && culture.color) {
+      raceColorById[raceId] = culture.color;
+    }
+  });
+
+  races.forEach(race => {
+    if (!race || !race.i) return;
+    race.color = raceColorById[race.i] || race.color || "#888888";
+    if (race.expansionism == null) race.expansionism = 1;
+  });
+
+  pack.races = races;
+}
+
+function assignRaces() {
+  if (!pack || !pack.cultures) return;
 
   function clearRaces() {
     pack.races = [];
@@ -1252,93 +1385,12 @@ function assignRaces() {
     if (pack.religions) pack.religions.forEach(r => r && delete r.race);
   }
 
-  if (!isFantasy) {
+  if (!isFantasyCulturesSet()) {
     clearRaces();
     return;
   }
 
-  const fantasyRaceBases = {
-    Elf: [33],
-    "Dark Elf": [34],
-    Dwarf: [35],
-    Goblin: [36],
-    Orc: [37],
-    Giant: [38],
-    Draconic: [39],
-    Arachnid: [40],
-    Serpent: [41]
-  };
-
-  function defineRaceExpansionism(name) {
-    const sizeVarietyElement = byId("sizeVariety");
-    const variety =
-      (sizeVarietyElement && (sizeVarietyElement.valueAsNumber || +sizeVarietyElement.value)) || 1;
-
-    let base = 1;
-
-    if (name === "Elf") base = 0.8;
-    else if (name === "Dark Elf") base = 0.9;
-    else if (name === "Dwarf") base = 0.7;
-    else if (name === "Goblin") base = 1.3;
-    else if (name === "Orc") base = 1.6;
-    else if (name === "Giant") base = 0.5;
-    else if (name === "Draconic") base = 0.6;
-    else if (name === "Arachnid") base = 1.1;
-    else if (name === "Serpent") base = 1.2;
-    else if (name === "Human") base = 1;
-
-    const randomFactor = (Math.random() * variety) / 2 + 1;
-    return rn(randomFactor * base, 1);
-  }
-
-  function getRaceNameForCulture(culture) {
-    if (!culture || !culture.i || culture.removed) return null;
-    const base = culture.base;
-
-    for (const [raceName, bases] of Object.entries(fantasyRaceBases)) {
-      if (bases.includes(base)) return raceName;
-    }
-
-    return "Human";
-  }
-
-  const races = [{i: 0, name: "None"}];
-  const raceIndexByName = new Map();
-  const raceColorById = {};
-
-  function getRaceIdByName(name) {
-    if (!name) return 0;
-    const existing = raceIndexByName.get(name);
-    if (existing) return existing;
-
-    const id = races.length;
-    raceIndexByName.set(name, id);
-    const expansionism = defineRaceExpansionism(name);
-    races.push({i: id, name, expansionism});
-    return id;
-  }
-
-  pack.cultures.forEach(culture => {
-    if (!culture) return;
-    if (!culture.i || culture.removed) {
-      culture.race = 0;
-      return;
-    }
-
-    const raceName = getRaceNameForCulture(culture);
-    const raceId = getRaceIdByName(raceName);
-    culture.race = raceId;
-
-    if (!raceColorById[raceId] && culture.color) {
-      raceColorById[raceId] = culture.color;
-    }
-  });
-
-  races.forEach(race => {
-    if (!race.i) return;
-    race.color = raceColorById[race.i] || "#888888";
-    if (race.expansionism == null) race.expansionism = 1;
-  });
+  initializeRacesForExpansion();
 
   function getRaceFromCultureId(cultureId) {
     const culture = pack.cultures && pack.cultures[cultureId];
@@ -1400,8 +1452,6 @@ function assignRaces() {
     }
     pack.cells.race = raceArray;
   }
-
-  pack.races = races;
 }
 
 const regenerateMap = debounce(async function (options) {

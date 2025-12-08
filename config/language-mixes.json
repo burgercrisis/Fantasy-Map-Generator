@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Yoruba",
     "iso": "yor",
@@ -565,5 +565,565 @@
     "region": "Central Asia",
     "category": "Indo-Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tajik_language"
+  },
+  {
+    "name": "Yiddish",
+    "iso": "yiddish",
+    "region": "Europe",
+    "category": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yiddish"
+  },
+  {
+    "name": "Ladino",
+    "iso": "ladino",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Judaeo-Spanish"
+  },
+  {
+    "name": "Occitan",
+    "iso": "occitan",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Occitan_language"
+  },
+  {
+    "name": "Sardinian",
+    "iso": "sardinian",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sardinian_language"
+  },
+  {
+    "name": "Romansh",
+    "iso": "romansh",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romansh_language"
+  },
+  {
+    "name": "Frisian",
+    "iso": "frisian",
+    "region": "Europe",
+    "category": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frisian_languages"
+  },
+  {
+    "name": "Faroese",
+    "iso": "faroese",
+    "region": "Europe",
+    "category": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Faroese_language"
+  },
+  {
+    "name": "Abkhaz",
+    "iso": "abkhaz",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abkhaz_language"
+  },
+  {
+    "name": "Chechen",
+    "iso": "chechen",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+    "name": "Ingush",
+    "iso": "ingush",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ingush_language"
+  },
+  {
+    "name": "Ossetian",
+    "iso": "ossetian",
+    "region": "Caucasus",
+    "category": "Indo-Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ossetian_language"
+  },
+  {
+    "name": "Circassian",
+    "iso": "circassian",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Circassian_languages"
+  },
+  {
+    "name": "Turkmen",
+    "iso": "turkmen",
+    "region": "Central Asia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Turkmen_language"
+  },
+  {
+    "name": "Tatar",
+    "iso": "tatar",
+    "region": "Eurasia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tatar_language"
+  },
+  {
+    "name": "Tongan",
+    "iso": "tongan",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tongan_language"
+  },
+  {
+    "name": "Tahitian",
+    "iso": "tahitian",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tahitian_language"
+  },
+  {
+    "name": "Marshallese",
+    "iso": "marshallese",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marshallese_language"
+  },
+  {
+    "name": "Palauan",
+    "iso": "palauan",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palauan_language"
+  },
+  {
+    "name": "Chamorro",
+    "iso": "chamorro",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chamorro_language"
+  },
+  {
+    "name": "Kiribati",
+    "iso": "kiribati",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gilbertese_language"
+  },
+  {
+    "name": "Rarotongan",
+    "iso": "rarotongan",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rarotongan_language"
+  },
+  {
+    "name": "Thai",
+    "iso": "thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thai_language"
+  },
+  {
+    "name": "Lao",
+    "iso": "lao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lao_language"
+  },
+  {
+    "name": "Marathi",
+    "iso": "marathi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marathi_language"
+  },
+  {
+    "name": "Kannada",
+    "iso": "kannada",
+    "region": "Asia",
+    "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kannada_language"
+  },
+  {
+    "name": "Malayalam",
+    "iso": "malayalam",
+    "region": "Asia",
+    "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malayalam"
+  },
+  {
+    "name": "Odia",
+    "iso": "odia",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Odia_language"
+  },
+  {
+    "name": "Assamese",
+    "iso": "assamese",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Assamese_language"
+  },
+  {
+    "name": "Haitian Creole",
+    "iso": "haitian-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Haitian_Creole"
+  },
+  {
+    "name": "Jamaican Creole",
+    "iso": "jamaican-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jamaican_Patois"
+  },
+  {
+    "name": "Cape Verdean Creole",
+    "iso": "cape-verdean-creole",
+    "region": "Atlantic",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cape_Verdean_Creole"
+  },
+  {
+    "name": "Mauritian Creole",
+    "iso": "mauritian-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mauritian_Creole"
+  },
+  {
+    "name": "Seychellois Creole",
+    "iso": "seychellois-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seychellois_Creole"
+  },
+  {
+    "name": "Tok Pisin",
+    "iso": "tok-pisin",
+    "region": "Pacific",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tok_Pisin"
+  },
+  {
+    "name": "Papiamento",
+    "iso": "papiamento",
+    "region": "Caribbean",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Papiamento"
+  },
+  {
+    "name": "Azerbaijani",
+    "iso": "azerbaijani",
+    "region": "Caucasus",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Azerbaijani_language"
+  },
+  {
+    "name": "Belarusian",
+    "iso": "belarusian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Belarusian_language"
+  },
+  {
+    "name": "Slovene",
+    "iso": "slovene",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language"
+  },
+  {
+    "name": "Afrikaans",
+    "iso": "afrikaans",
+    "region": "Africa",
+    "category": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Afrikaans"
+  },
+  {
+    "name": "Malagasy",
+    "iso": "malagasy",
+    "region": "Africa",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language"
+  },
+  {
+    "name": "Romani",
+    "iso": "romani",
+    "region": "Europe",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romani_language"
+  },
+  {
+    "name": "Mi'kmaq",
+    "iso": "mikmaq",
+    "region": "North America",
+    "category": "Algic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mi%27kmaq_language"
+  },
+  {
+    "name": "Galician",
+    "iso": "galician",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Galician_language"
+  },
+  {
+    "name": "Macedonian",
+    "iso": "macedonian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Macedonian_language"
+  },
+  {
+    "name": "Northern Sami",
+    "iso": "northern-sami",
+    "region": "Europe",
+    "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Northern_Sami"
+  },
+  {
+    "name": "Ainu",
+    "iso": "ainu",
+    "region": "Asia",
+    "category": "Japonic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ainu_language"
+  },
+  {
+    "name": "Buryat",
+    "iso": "buryat",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buryat_language"
+  },
+  {
+    "name": "Zarma",
+    "iso": "zarma",
+    "region": "Africa",
+    "category": "Songhay",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zarma_language"
+  },
+  {
+    "name": "Manx",
+    "iso": "manx",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manx_language"
+  },
+  {
+    "name": "Corsican",
+    "iso": "corsican",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Corsican_language"
+  },
+  {
+    "name": "Sicilian",
+    "iso": "sicilian",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_language"
+  },
+  {
+    "name": "Bashkir",
+    "iso": "bashkir",
+    "region": "Asia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bashkir_language"
+  },
+  {
+    "name": "Chuvash",
+    "iso": "chuvash",
+    "region": "Europe",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chuvash_language"
+  },
+  {
+    "name": "Udmurt",
+    "iso": "udmurt",
+    "region": "Europe",
+    "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Udmurt_language"
+  },
+  {
+    "name": "Ndebele",
+    "iso": "ndebele",
+    "region": "Africa",
+    "category": "Bantu",
+    "wikipedia": "https://en.wikipedia.org/wiki/Northern_Ndebele_language"
+  },
+  {
+    "name": "Comorian",
+    "iso": "comorian",
+    "region": "Indian Ocean",
+    "category": "Bantu",
+    "wikipedia": "https://en.wikipedia.org/wiki/Comorian_language"
+  },
+  {
+    "name": "Asturian",
+    "iso": "asturian",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asturian_language"
+  },
+  {
+    "name": "Aragonese",
+    "iso": "aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aragonese_language"
+  },
+  {
+    "name": "Kashmiri",
+    "iso": "kashmiri",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kashmiri_language"
+  },
+  {
+    "name": "Sindhi",
+    "iso": "sindhi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sindhi_language"
+  },
+  {
+    "name": "Balochi",
+    "iso": "balochi",
+    "region": "Asia",
+    "category": "Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Balochi_language"
+  },
+  {
+    "name": "Sranan",
+    "iso": "sranan",
+    "region": "South America",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sranan_Tongo"
+  },
+  {
+    "name": "Arawak",
+    "iso": "arawak",
+    "region": "South America",
+    "category": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arawak_language"
+  },
+  {
+    "name": "Luxembourgish",
+    "iso": "luxembourgish",
+    "region": "Europe",
+    "category": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luxembourgish"
+  },
+  {
+    "name": "Silesian",
+    "iso": "silesian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silesian_language"
+  },
+  {
+    "name": "Nogai",
+    "iso": "nogai",
+    "region": "Caucasus",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nogai_language"
+  },
+  {
+    "name": "Kalmyk",
+    "iso": "kalmyk",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kalmyk_language"
+  },
+  {
+    "name": "Sango",
+    "iso": "sango",
+    "region": "Africa",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sango_language"
+  },
+  {
+    "name": "Fon",
+    "iso": "fon-lang",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fon_language"
+  },
+  {
+    "name": "Innu",
+    "iso": "innu",
+    "region": "North America",
+    "category": "Algonquian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Innu_language"
+  },
+  {
+    "name": "Friulian",
+    "iso": "friulian-lang",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Friulian_language"
+  },
+  {
+    "name": "Ladin",
+    "iso": "ladin-lang",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ladin_language"
+  },
+  {
+    "name": "Walloon",
+    "iso": "walloon-lang",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walloon_language"
+  },
+  {
+    "name": "Sundanese",
+    "iso": "sundanese-lang",
+    "region": "Asia",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sundanese_language"
+  },
+  {
+    "name": "Cebuano",
+    "iso": "cebuano-lang",
+    "region": "Asia",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language"
+  },
+  {
+    "name": "Greenlandic",
+    "iso": "greenlandic-lang",
+    "region": "Arctic",
+    "category": "Eskimo-Aleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/Greenlandic_language"
+  },
+  {
+    "name": "Neapolitan",
+    "iso": "neapolitan-lang",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neapolitan_language"
+  },
+  {
+    "name": "Newaric",
+    "iso": "newaric",
+    "region": "Himalayas",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Newaric_languages"
+  },
+  {
+    "name": "Nungish",
+    "iso": "nungish",
+    "region": "Burma/China borderlands",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nungish_languages"
+  },
+  {
+    "name": "Proto-Karenic",
+    "iso": "proto-karenic",
+    "region": "Sino-Tibetan",
+    "category": "Proto-language",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages"
   }
 ]

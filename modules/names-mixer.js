@@ -3,12 +3,20 @@
 (function () {
   if (!window.Names) return;
 
-  // internal cache for ISO→base mapping loaded from config/language-mixer-map.json
+  // internal cache for ISO→base mapping. Prefer a preloaded JS map (window.languageMixerMap)
+  // and fall back to a tiny JSON fetch for older setups.
   let _languageMixerMap = null;
 
   function loadLanguageMixerMapSync() {
     if (_languageMixerMap) return _languageMixerMap;
 
+    // Preferred path: map preloaded via config/language-mixer-map.js
+    if (Array.isArray(window.languageMixerMap)) {
+      _languageMixerMap = window.languageMixerMap;
+      return _languageMixerMap;
+    }
+
+    // Fallback: legacy synchronous JSON load (kept for compatibility)
     try {
       const xhr = new XMLHttpRequest();
       xhr.open("GET", "config/language-mixer-map.json", false); // synchronous on purpose (tiny file, used rarely)

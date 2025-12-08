@@ -320,7 +320,8 @@ function editNamesbase() {
   async function loadMixerCatalog() {
     if (mixer.catalog) return mixer.catalog;
     if (window.languageMixerCatalog) {
-      mixer.catalog = window.languageMixerCatalog;
+      // Ensure the preloaded catalog is sorted the same way as fetched data
+      mixer.catalog = window.languageMixerCatalog.sort((a, b) => (a.region + a.name).localeCompare(b.region + b.name));
       return mixer.catalog;
     }
 

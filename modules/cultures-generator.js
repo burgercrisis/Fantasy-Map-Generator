@@ -368,6 +368,132 @@ window.Cultures = (function () {
         {name: "Rake (Drakonic)", base: 39, odd: 0.7, sort: i => -s[i], shield: "fantasy2"}, // Draconic
         {name: "Arago (Arachnid)", base: 40, odd: 0.7, sort: i => t[i] - s[i], shield: "horsehead2"}, // Arachnid
         {name: "Aj'Snaga (Serpents)", base: 41, odd: 0.7, sort: i => n(i) / bd(i, [12], 10), shield: "fantasy1"}, // Serpents
+        {
+          name: "Shirefolk (Halfling)",
+          base: 43,
+          odd: 0.8,
+          sort: i => n(i) / td(i, 12),
+          shield: "square"
+        },
+        {
+          name: "Whisperdelve (Gnomish)",
+          base: 44,
+          odd: 0.7,
+          sort: i => n(i) + h[i],
+          shield: "diamond"
+        },
+        {
+          name: "Letharim (Half-Elven)",
+          base: 45,
+          odd: 0.9,
+          sort: i => (n(i) / bd(i, [6, 7, 8, 9], 8)) * t[i],
+          shield: "fantasy5"
+        },
+        {
+          name: "Gor-Khaal (Half-Orcish)",
+          base: 46,
+          odd: 0.7,
+          sort: i => (h[i] * t[i]) / bd(i, [1, 2, 10, 11], 8),
+          shield: "moriaOrc"
+        },
+        {
+          name: "Ashborn (Tiefling)",
+          base: 47,
+          odd: 0.6,
+          sort: i => n(i) / (bd(i, [1, 2, 3], 8) * td(i, 28)),
+          shield: "fantasy2"
+        },
+        {
+          name: "Dawnmarked (Aasimar)",
+          base: 48,
+          odd: 0.5,
+          sort: i => n(i) / (bd(i, [4, 6, 8], 6) * td(i, 16)),
+          shield: "pavise"
+        },
+        {
+          name: "Dharg Legion (Hobgoblin)",
+          base: 49,
+          odd: 0.8,
+          sort: i => (n(i) * t[i]) / (bd(i, [3, 4, 5, 6], 8) * td(i, 15)),
+          shield: "gonfalon"
+        },
+        {
+          name: "Skyborn Tribes (Goliath)",
+          base: 50,
+          odd: 0.6,
+          sort: i => (n(i) + h[i]) / (bd(i, [9, 10], 6) * td(i, 0)),
+          shield: "pavise"
+        },
+        {
+          name: "Ssarth Swampclans (Lizardfolk)",
+          base: 51,
+          odd: 0.7,
+          sort: i => n(i) / (bd(i, [7, 12], 20) * td(i, 27)),
+          shield: "square"
+        },
+        {
+          name: "Moonscar (Shifter)",
+          base: 52,
+          odd: 0.7,
+          sort: i => (n(i) * t[i]) / (bd(i, [3, 5, 6, 7, 8], 6) * td(i, 14)),
+          shield: "fantasy4"
+        },
+        {
+          name: "Carruth Packs (Gnoll)",
+          base: 53,
+          odd: 0.7,
+          sort: i => n(i) / (bd(i, [3, 4], 10) * td(i, 26)),
+          shield: "square"
+        },
+        {
+          name: "Grimwood Clans (Bugbear)",
+          base: 54,
+          odd: 0.6,
+          sort: i => n(i) / (bd(i, [5, 6], 8) * td(i, 14)),
+          shield: "hessen"
+        },
+        {
+          name: "Zahari Pride (Tabaxi)",
+          base: 55,
+          odd: 0.5,
+          sort: i => n(i) / (bd(i, [5, 7], 8) * td(i, 28)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Cogsforge Legion (Warforged)",
+          base: 56,
+          odd: 0.4,
+          sort: i => n(i) / (bd(i, [3, 4, 6, 8], 4) * td(i, 16)),
+          shield: "fantasy5"
+        },
+        {
+          name: "Ravenflock (Kenku)",
+          base: 57,
+          odd: 0.5,
+          sort: i => n(i) / (bd(i, [6, 8, 12], 8) * td(i, 10)),
+          shield: "banner"
+        },
+        {
+          name: "Skyspiral Aeries (Aarakocra)",
+          base: 58,
+          odd: 0.4,
+          sort: i => (n(i) + h[i]) / (bd(i, [3, 4, 9, 10], 6) * td(i, -2)),
+          shield: "oldFrench"
+        },
+        {
+          name: "Ashscale Concord (Dragonborn)",
+          base: 59,
+          odd: 0.4,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 2, 3], 8) * td(i, 24)),
+          shield: "fantasy2"
+        },
+        {
+          name: "Tideborn Courts (Triton)",
+          base: 60,
+          odd: 0.3,
+          sort: i => n(i) / (sf(i, 10) * td(i, 18)),
+          shield: "swiss"
+        },
         // fantasy human
         {name: "Anor (Human)", base: 32, odd: 1, sort: i => n(i) / td(i, 10), shield: "fantasy5"},
         {name: "Dail (Human)", base: 32, odd: 1, sort: i => n(i) / td(i, 13), shield: "roman"},
@@ -451,7 +577,133 @@ window.Cultures = (function () {
         {name: "Yotunn", base: 38, odd: 0.8, sort: i => td(i, -10), shield: "pavise"}, // Giant
         {name: "Drake", base: 39, odd: 0.9, sort: i => -s[i], shield: "fantasy2"}, // Draconic
         {name: "Rakhnid", base: 40, odd: 0.9, sort: i => t[i] - s[i], shield: "horsehead2"}, // Arachnid
-        {name: "Aj'Snaga", base: 41, odd: 0.9, sort: i => n(i) / bd(i, [12], 10), shield: "fantasy1"} // Serpents
+        {name: "Aj'Snaga", base: 41, odd: 0.9, sort: i => n(i) / bd(i, [12], 10), shield: "fantasy1"}, // Serpents
+        {
+          name: "Shirefolk",
+          base: 43,
+          odd: 0.3,
+          sort: i => n(i) / td(i, 12),
+          shield: "square"
+        },
+        {
+          name: "Whisperdelve",
+          base: 44,
+          odd: 0.3,
+          sort: i => n(i) + h[i],
+          shield: "diamond"
+        },
+        {
+          name: "Letharim",
+          base: 45,
+          odd: 0.3,
+          sort: i => (n(i) / bd(i, [6, 7, 8, 9], 8)) * t[i],
+          shield: "fantasy5"
+        },
+        {
+          name: "Gor-Khaal",
+          base: 46,
+          odd: 0.3,
+          sort: i => (h[i] * t[i]) / bd(i, [1, 2, 10, 11], 8),
+          shield: "moriaOrc"
+        },
+        {
+          name: "Ashborn",
+          base: 47,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [1, 2, 3], 8) * td(i, 28)),
+          shield: "fantasy2"
+        },
+        {
+          name: "Dawnmarked",
+          base: 48,
+          odd: 0.2,
+          sort: i => n(i) / (bd(i, [4, 6, 8], 6) * td(i, 16)),
+          shield: "pavise"
+        },
+        {
+          name: "Dharg Legion",
+          base: 49,
+          odd: 0.2,
+          sort: i => (n(i) * t[i]) / (bd(i, [3, 4, 5, 6], 8) * td(i, 15)),
+          shield: "gonfalon"
+        },
+        {
+          name: "Skyborn Tribes",
+          base: 50,
+          odd: 0.2,
+          sort: i => (n(i) + h[i]) / (bd(i, [9, 10], 6) * td(i, 0)),
+          shield: "pavise"
+        },
+        {
+          name: "Ssarth Swampclans",
+          base: 51,
+          odd: 0.2,
+          sort: i => n(i) / (bd(i, [7, 12], 20) * td(i, 27)),
+          shield: "square"
+        },
+        {
+          name: "Moonscar",
+          base: 52,
+          odd: 0.2,
+          sort: i => (n(i) * t[i]) / (bd(i, [3, 5, 6, 7, 8], 6) * td(i, 14)),
+          shield: "fantasy4"
+        },
+        {
+          name: "Carruth Packs",
+          base: 53,
+          odd: 0.2,
+          sort: i => n(i) / (bd(i, [3, 4], 10) * td(i, 26)),
+          shield: "square"
+        },
+        {
+          name: "Grimwood Clans",
+          base: 54,
+          odd: 0.2,
+          sort: i => n(i) / (bd(i, [5, 6], 8) * td(i, 14)),
+          shield: "hessen"
+        },
+        {
+          name: "Zahari Pride",
+          base: 55,
+          odd: 0.15,
+          sort: i => n(i) / (bd(i, [5, 7], 8) * td(i, 28)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Cogsforge Legion",
+          base: 56,
+          odd: 0.15,
+          sort: i => n(i) / (bd(i, [3, 4, 6, 8], 4) * td(i, 16)),
+          shield: "fantasy5"
+        },
+        {
+          name: "Ravenflock",
+          base: 57,
+          odd: 0.15,
+          sort: i => n(i) / (bd(i, [6, 8, 12], 8) * td(i, 10)),
+          shield: "banner"
+        },
+        {
+          name: "Skyspiral Aeries",
+          base: 58,
+          odd: 0.12,
+          sort: i => (n(i) + h[i]) / (bd(i, [3, 4, 9, 10], 6) * td(i, -2)),
+          shield: "oldFrench"
+        },
+        {
+          name: "Ashscale Concord",
+          base: 59,
+          odd: 0.12,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 2, 3], 8) * td(i, 24)),
+          shield: "fantasy2"
+        },
+        {
+          name: "Tideborn Courts",
+          base: 60,
+          odd: 0.1,
+          sort: i => n(i) / (sf(i, 10) * td(i, 18)),
+          shield: "swiss"
+        }
       ];
     }
 
