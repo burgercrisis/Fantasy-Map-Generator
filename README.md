@@ -16,6 +16,7 @@ Planned:
 
 - get gemini api working, maybe add more ai apis
 
+- improve everything
 
 
 Above is my description of what I'm doing to Azgaars dankness
@@ -52,6 +53,7 @@ _Inspiration:_
 - Amit Patel's [_Polygonal Map Generation for Games_](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation)
 
 - Scott Turner's [_Here Dragons Abound_](https://heredragonsabound.blogspot.com)
+
 
 
 
