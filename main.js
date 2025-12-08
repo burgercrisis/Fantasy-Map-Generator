@@ -1269,6 +1269,28 @@ function assignRaces() {
     Serpent: [41]
   };
 
+  function defineRaceExpansionism(name) {
+    const sizeVarietyElement = byId("sizeVariety");
+    const variety =
+      (sizeVarietyElement && (sizeVarietyElement.valueAsNumber || +sizeVarietyElement.value)) || 1;
+
+    let base = 1;
+
+    if (name === "Elf") base = 0.8;
+    else if (name === "Dark Elf") base = 0.9;
+    else if (name === "Dwarf") base = 0.7;
+    else if (name === "Goblin") base = 1.3;
+    else if (name === "Orc") base = 1.6;
+    else if (name === "Giant") base = 0.5;
+    else if (name === "Draconic") base = 0.6;
+    else if (name === "Arachnid") base = 1.1;
+    else if (name === "Serpent") base = 1.2;
+    else if (name === "Human") base = 1;
+
+    const randomFactor = (Math.random() * variety) / 2 + 1;
+    return rn(randomFactor * base, 1);
+  }
+
   function getRaceNameForCulture(culture) {
     if (!culture || !culture.i || culture.removed) return null;
     const base = culture.base;
@@ -1291,7 +1313,8 @@ function assignRaces() {
 
     const id = races.length;
     raceIndexByName.set(name, id);
-    races.push({i: id, name, expansionism: 1});
+    const expansionism = defineRaceExpansionism(name);
+    races.push({i: id, name, expansionism});
     return id;
   }
 

@@ -1,0 +1,569 @@
+﻿[
+  {
+    "name": "Yoruba",
+    "iso": "yor",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language"
+  },
+  {
+    "name": "Berber",
+    "iso": "ber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Berber_languages"
+  },
+  {
+    "name": "Arabic",
+    "iso": "ara",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arabic"
+  },
+  {
+    "name": "Japanese",
+    "iso": "jpn",
+    "region": "Asia",
+    "category": "Japonic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language"
+  },
+  {
+    "name": "Finnish",
+    "iso": "fin",
+    "region": "Europe",
+    "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Finnish_language"
+  },
+  {
+    "name": "Quechua",
+    "iso": "que",
+    "region": "South America",
+    "category": "Quechuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quechuan_languages"
+  },
+  {
+    "name": "Nahuatl",
+    "iso": "nah",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nahuatl"
+  },
+  {
+    "name": "Hindi",
+    "iso": "hin",
+    "region": "Asia",
+    "category": "Indo-European",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hindi"
+  },
+  {
+    "name": "Gaelic",
+    "iso": "gla",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Gaelic"
+  },
+  {
+    "name": "Swahili",
+    "iso": "swa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Swahili_language"
+  },
+  {
+    "name": "Vietnamese",
+    "iso": "vie",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vietnamese_language"
+  },
+  {
+    "name": "Inuktitut",
+    "iso": "iku",
+    "region": "Arctic",
+    "category": "EskimoΓÇôAleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inuktitut"
+  },
+  {
+    "name": "Guarani",
+    "iso": "guarani",
+    "region": "South America",
+    "category": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guarani_language"
+  },
+  {
+    "name": "Southern Quechua",
+    "iso": "southern-quechua",
+    "region": "South America",
+    "category": "Quechuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Southern_Quechua"
+  },
+  {
+    "name": "Aymara",
+    "iso": "aymara",
+    "region": "South America",
+    "category": "Aymaran",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aymara_language"
+  },
+  {
+    "name": "Q'eqchi'",
+    "iso": "qeqchi",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Q'eqchi'_language"
+  },
+  {
+    "name": "K'iche'",
+    "iso": "kiche",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/K'iche'_language"
+  },
+  {
+    "name": "Yucatec Maya",
+    "iso": "yucatec-maya",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yucatec_Maya_language"
+  },
+  {
+    "name": "Mam",
+    "iso": "mam",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mam_language"
+  },
+  {
+    "name": "Tzeltal",
+    "iso": "tzeltal",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tzeltal_language"
+  },
+  {
+    "name": "Mixtec",
+    "iso": "mixtec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mixtec_language"
+  },
+  {
+    "name": "Tzotzil",
+    "iso": "tzotzil",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tzotzil_language"
+  },
+  {
+    "name": "Zapotec",
+    "iso": "zapotec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zapotec_languages"
+  },
+  {
+    "name": "Kichwa",
+    "iso": "kichwa",
+    "region": "South America",
+    "category": "Quechuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kichwa_language"
+  },
+  {
+    "name": "Wayuu",
+    "iso": "wayuu",
+    "region": "South America",
+    "category": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wayuu_language"
+  },
+  {
+    "name": "Kaqchikel",
+    "iso": "kaqchikel",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaqchikel_language"
+  },
+  {
+    "name": "Otomi",
+    "iso": "otomi",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Otomi_languages"
+  },
+  {
+    "name": "Totonac",
+    "iso": "totonac",
+    "region": "Mesoamerica",
+    "category": "Totonacan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Totonac_language"
+  },
+  {
+    "name": "Mapudungun",
+    "iso": "mapudungun",
+    "region": "South America",
+    "category": "Araucanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mapuche_language"
+  },
+  {
+    "name": "Ch'ol",
+    "iso": "chol",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch'ol_language"
+  },
+  {
+    "name": "Mazatec",
+    "iso": "mazatec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mazatec_language"
+  },
+  {
+    "name": "Q'anjob'al",
+    "iso": "qanjobal",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Q'anjob'al_language"
+  },
+  {
+    "name": "Huastec",
+    "iso": "huastec",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wastek_language"
+  },
+  {
+    "name": "Navajo",
+    "iso": "navajo",
+    "region": "North America",
+    "category": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Navajo_language"
+  },
+  {
+    "name": "Miskito",
+    "iso": "miskito",
+    "region": "Central America",
+    "category": "Misumalpan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miskito_language"
+  },
+  {
+    "name": "Cree",
+    "iso": "cree",
+    "region": "North America",
+    "category": "Algonquian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cree_language"
+  },
+  {
+    "name": "Ojibwe",
+    "iso": "ojibwe",
+    "region": "North America",
+    "category": "Algonquian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ojibwe_language"
+  },
+  {
+    "name": "Kalaallisut",
+    "iso": "kalaallisut",
+    "region": "Arctic",
+    "category": "EskimoΓÇôAleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/Greenlandic_language"
+  },
+  {
+    "name": "Garifuna",
+    "iso": "garifuna",
+    "region": "Caribbean",
+    "category": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Garifuna_language"
+  },
+  {
+    "name": "Tikuna",
+    "iso": "tikuna",
+    "region": "South America",
+    "category": "TicunaΓÇôYuri",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ticuna_language"
+  },
+  {
+    "name": "Huichol",
+    "iso": "huichol",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Huichol_language"
+  },
+  {
+    "name": "Yaqui",
+    "iso": "yaqui",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yaqui_language"
+  },
+  {
+    "name": "Cherokee",
+    "iso": "cherokee",
+    "region": "North America",
+    "category": "Iroquoian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cherokee_language"
+  },
+  {
+    "name": "Tagalog",
+    "iso": "tagalog",
+    "region": "Asia-Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tagalog_language"
+  },
+  {
+    "name": "Indonesian",
+    "iso": "indonesian",
+    "region": "Asia-Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indonesian_language"
+  },
+  {
+    "name": "Malay",
+    "iso": "malay",
+    "region": "Asia-Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malay_language"
+  },
+  {
+    "name": "Māori",
+    "iso": "maori",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+  },
+  {
+    "name": "Samoan",
+    "iso": "samoan",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samoan_language"
+  },
+  {
+    "name": "Fijian",
+    "iso": "fijian",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fijian_language"
+  },
+  {
+    "name": "Tamil",
+    "iso": "tamil",
+    "region": "Asia",
+    "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tamil_language"
+  },
+  {
+    "name": "Telugu",
+    "iso": "telugu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Telugu_language"
+  },
+  {
+    "name": "Bengali",
+    "iso": "bengali",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bengali_language"
+  },
+  {
+    "name": "Punjabi",
+    "iso": "punjabi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Punjabi_language"
+  },
+  {
+    "name": "Urdu",
+    "iso": "urdu",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Urdu"
+  },
+  {
+    "name": "Gujarati",
+    "iso": "gujarati",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gujarati_language"
+  },
+  {
+    "name": "Sinhala",
+    "iso": "sinhala",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sinhalese_language"
+  },
+  {
+    "name": "Welsh",
+    "iso": "welsh",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language"
+  },
+  {
+    "name": "Breton",
+    "iso": "breton",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Breton_language"
+  },
+  {
+    "name": "Cornish",
+    "iso": "cornish",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cornish_language"
+  },
+  {
+    "name": "Albanian",
+    "iso": "albanian",
+    "region": "Europe",
+    "category": "Indo-European",
+    "wikipedia": "https://en.wikipedia.org/wiki/Albanian_language"
+  },
+  {
+    "name": "Kurdish",
+    "iso": "kurdish",
+    "region": "Middle East",
+    "category": "Indo-Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_languages"
+  },
+  {
+    "name": "Pashto",
+    "iso": "pashto",
+    "region": "Asia",
+    "category": "Indo-Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pashto"
+  },
+  {
+    "name": "Persian",
+    "iso": "persian",
+    "region": "Middle East",
+    "category": "Indo-Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persian_language"
+  },
+  {
+    "name": "Lithuanian",
+    "iso": "lithuanian",
+    "region": "Europe",
+    "category": "Baltic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lithuanian_language"
+  },
+  {
+    "name": "Latvian",
+    "iso": "latvian",
+    "region": "Europe",
+    "category": "Baltic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Latvian_language"
+  },
+  {
+    "name": "Estonian",
+    "iso": "estonian",
+    "region": "Europe",
+    "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Estonian_language"
+  },
+  {
+    "name": "Basque",
+    "iso": "eus",
+    "region": "Europe",
+    "category": "Language isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basque_language"
+  },
+  {
+    "name": "Lakota",
+    "iso": "lakota",
+    "region": "North America",
+    "category": "Siouan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lakota_language"
+  },
+  {
+    "name": "Dakota",
+    "iso": "dakota",
+    "region": "North America",
+    "category": "Siouan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dakota_language"
+  },
+  {
+    "name": "Blackfoot",
+    "iso": "blackfoot",
+    "region": "North America",
+    "category": "Algonquian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blackfoot_language"
+  },
+  {
+    "name": "Mohawk",
+    "iso": "mohawk",
+    "region": "North America",
+    "category": "Iroquoian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mohawk_language"
+  },
+  {
+    "name": "Tlingit",
+    "iso": "tlingit",
+    "region": "North America",
+    "category": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tlingit_language"
+  },
+  {
+    "name": "Haida",
+    "iso": "haida",
+    "region": "North America",
+    "category": "Language isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Haida_language"
+  },
+  {
+    "name": "Salish",
+    "iso": "salish",
+    "region": "North America",
+    "category": "Salishan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salishan_languages"
+  },
+  {
+    "name": "Georgian",
+    "iso": "georgian",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georgian_language"
+  },
+  {
+    "name": "Armenian",
+    "iso": "armenian",
+    "region": "Caucasus",
+    "category": "Indo-European",
+    "wikipedia": "https://en.wikipedia.org/wiki/Armenian_language"
+  },
+  {
+    "name": "Kazakh",
+    "iso": "kazakh",
+    "region": "Central Asia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazakh_language"
+  },
+  {
+    "name": "Uzbek",
+    "iso": "uzbek",
+    "region": "Central Asia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uzbek_language"
+  },
+  {
+    "name": "Kyrgyz",
+    "iso": "kyrgyz",
+    "region": "Central Asia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kyrgyz_language"
+  },
+  {
+    "name": "Uyghur",
+    "iso": "uyghur",
+    "region": "Central Asia",
+    "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uyghur_language"
+  },
+  {
+    "name": "Tajik",
+    "iso": "tajik",
+    "region": "Central Asia",
+    "category": "Indo-Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tajik_language"
+  }
+]

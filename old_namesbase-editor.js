@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 function editNamesbase() {
   if (customization) return;
   closeDialogs("#namesbaseEditor, .stable");
@@ -21,6 +21,26 @@ function editNamesbase() {
   document.getElementById("namesbaseDefault").addEventListener("click", namesbaseRestoreDefault);
   document.getElementById("namesbaseDownload").addEventListener("click", namesbaseDownload);
 
+  const mixerCategorySelect = byId("namesbaseMixerCategory");
+  const mixerLanguageSelect = byId("namesbaseMixerLanguage");
+  const mixerAddButton = byId("namesbaseMixerAdd");
+  const mixerEvenButton = byId("namesbaseMixerEven");
+  const mixerSelectionBody = byId("namesbaseMixerSelection");
+  const mixerCountInput = byId("namesbaseMixerCount");
+  const mixerGenerateButton = byId("namesbaseMixerGenerate");
+  const mixerResultArea = byId("namesbaseMixerResult");
+  const mixerInsertButton = byId("namesbaseMixerInsert");
+  const mixerInsertMode = byId("namesbaseMixerInsertMode");
+  const mixerStatus = byId("namesbaseMixerStatus");
+
+  const mixer = {
+    catalog: null,
+    languages: [],
+    generating: false
+  };
+
+  if (mixerLanguageSelect) initLanguageMixer();
+
   const uploader = document.getElementById("namesbaseToLoad");
   document.getElementById("namesbaseUpload").addEventListener("click", () => {
     uploader.addEventListener("change", e => uploadFile(e.target, d => namesbaseUpload(d, true)), {once: true});
@@ -35,28 +55,6 @@ function editNamesbase() {
     openURL("https://cartographyassets.com/asset-category/specific-assets/azgaars-generator/namebases/");
   });
   document.getElementById("namesbaseSpeak").addEventListener("click", () => speak(namesbaseExamples.textContent));
-
-  // Language Mixer references
-  const mixerCategorySelect = byId("namesbaseMixerCategory");
-  const mixerLanguageSelect = byId("namesbaseMixerLanguage");
-  const mixerAddButton = byId("namesbaseMixerAdd");
-  const mixerEvenButton = byId("namesbaseMixerEven");
-  const mixerSelectionBody = byId("namesbaseMixerSelection");
-  const mixerCountInput = byId("namesbaseMixerCount");
-  const mixerGenerateButton = byId("namesbaseMixerGenerate");
-  const mixerGenerateLocalButton = byId("namesbaseMixerGenerateLocal");
-  const mixerResultArea = byId("namesbaseMixerResult");
-  const mixerInsertButton = byId("namesbaseMixerInsert");
-  const mixerInsertMode = byId("namesbaseMixerInsertMode");
-  const mixerStatus = byId("namesbaseMixerStatus");
-
-  const mixer = {
-    catalog: null,
-    languages: [],
-    generating: false
-  };
-
-  if (mixerLanguageSelect) initLanguageMixer();
 
   createBasesList();
   updateInputs();
@@ -304,11 +302,6 @@ function editNamesbase() {
       generateMixerNames();
     });
 
-    mixerGenerateLocalButton?.addEventListener("click", e => {
-      e.preventDefault();
-      generateMixerNamesLocal();
-    });
-
     mixerInsertButton?.addEventListener("click", e => {
       e.preventDefault();
       insertMixerNamesIntoBase();
@@ -374,7 +367,7 @@ function editNamesbase() {
   function formatMixerLabel(meta) {
     if (!meta) return "";
     const parts = [meta.name || meta.iso];
-    if (meta.region) parts.push(`• ${meta.region}`);
+    if (meta.region) parts.push(` ${meta.region}`);
     const badge = formatMixerTagBadge(meta, true);
     return badge ? `${parts.join(" ")} ${badge}` : parts.join(" ");
   }
@@ -383,7 +376,9 @@ function editNamesbase() {
     if (!mixerLanguageSelect || !mixer.catalog) return;
     mixerLanguageSelect.innerHTML = "";
     const selectedCategory = mixerCategorySelect?.value || "";
-    const options = selectedCategory ? mixer.catalog.filter(lang => lang.category === selectedCategory) : mixer.catalog;
+    const options = selectedCategory
+      ? mixer.catalog.filter(lang => lang.category === selectedCategory)
+      : mixer.catalog;
     options.forEach(lang => {
       const option = document.createElement("option");
       option.value = lang.iso;
@@ -418,7 +413,7 @@ function editNamesbase() {
       row.innerHTML = `
         <td>
           <div>${meta?.name || lang.iso} ${formatMixerTagBadge(meta)}</div>
-          <small>${[meta?.category, meta?.subgroup].filter(Boolean).join(" • ")}</small>
+          <small>${[meta?.category, meta?.subgroup].filter(Boolean).join(" ΓÇó ")}</small>
         </td>
         <td>${meta?.region || ""}</td>
         <td>
@@ -524,41 +519,6 @@ Guidelines:
     }
   }
 
-  function generateMixerNamesLocal() {
-    if (!mixer.languages.length) return tip("Please add at least one language", false, "error");
-
-    const isoWeights = mixer.languages.reduce((acc, lang) => {
-      if (lang.weight > 0) acc[lang.iso] = lang.weight;
-      return acc;
-    }, {});
-
-    if (!Object.keys(isoWeights).length) {
-      return tip("Weights must be greater than zero", false, "error");
-    }
-
-    const count = clamp(+mixerCountInput.value || 40, 5, 200);
-    mixerCountInput.value = count;
-
-    if (!Names.getMixedByIso) {
-      setMixerStatus("Local Markov mixer not loaded. Please refresh the page.", "error");
-      return;
-    }
-
-    try {
-      const names = Names.getMixedByIso(isoWeights, {count});
-      if (!names || !names.length) {
-        setMixerStatus("No names generated. Check language mapping.", "error");
-        return;
-      }
-
-      mixerResultArea.value = names.join(", ");
-      setMixerStatus(`Generated ${names.length} mixed names locally.`, "success");
-    } catch (error) {
-      setMixerStatus(error.message || "Failed to generate local names", "error");
-      ERROR && console.error("Local mixer error:", error);
-    }
-  }
-
   function insertMixerNamesIntoBase() {
     const text = mixerResultArea.value;
     const names = parseMixerNames(text);
@@ -587,7 +547,7 @@ Guidelines:
     return text
       .split(/\r?\n|,/)
       .map(n => n.trim())
-      .map(n => n.replace(/^[\d\.\-\)\(]+/, ""))
+      .map(n => n.replace(/^[\d\.\-\)\(]+/, "")) // remove numbering
       .filter(n => n.length > 1);
   }
 

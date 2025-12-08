@@ -34,7 +34,7 @@ export function open() {
 
 function insertEditorHtml() {
   const editorHtml = /* html */ `<div id="racesEditor" class="dialog stable">
-    <div id="racesHeader" class="header" style="grid-template-columns: 9em 5em 4em 6em 6em 5em 5em 5em 5em">
+    <div id="racesHeader" class="header" style="grid-template-columns: 8em 4em 4em 6em 5em 4em 4em 4em 4em">
       <div data-tip="Click to sort by race name" class="sortable alphabetically icon-sort-name-down" data-sortby="name">Race&nbsp;</div>
       <div data-tip="Click to sort by race expansion factor" class="sortable" data-sortby="expansionism">Expansion&nbsp;</div>
       <div data-tip="Click to sort by cells count" class="sortable hide" data-sortby="cells">Cells&nbsp;</div>
