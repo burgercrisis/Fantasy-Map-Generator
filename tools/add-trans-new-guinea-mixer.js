@@ -22,6 +22,10 @@ const PAPUAN_BASES = [25, 194, 195, 263];
 
 // Additional broader set for the overall Papuan family
 const PAPUAN_FAMILY_BASES = [25, 193, 194, 195, 196, 197, 198, 263];
+const PNG_HIGHLAND_BASES = [263];
+const WEST_PAPUAN_INDONESIAN_BASES = [263, 194, 195];
+const TIMOR_ALOR_BASES = [194, 195];
+const SE_PAPUAN_COASTAL_BASES = [263, 196, 198];
 
 // Nodes to ensure exist in language-mixes.json, with their desired mapping bases.
 // These are the family / branch nodes from your Trans–New Guinea list, not every leaf.
@@ -41,7 +45,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: [194, 195, 263]
+    bases: WEST_PAPUAN_INDONESIAN_BASES
   },
   {
     name: "West Trans–New Guinea languages",
@@ -49,7 +53,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: [194, 195, 263]
+    bases: WEST_PAPUAN_INDONESIAN_BASES
   },
   {
     name: "Dani",
@@ -57,7 +61,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Paniai Lakes",
@@ -65,7 +69,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: [263, 194]
   },
   {
     name: "West Bomberai",
@@ -73,7 +77,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: WEST_PAPUAN_INDONESIAN_BASES
   },
   {
     name: "Timor–Alor–Pantar",
@@ -81,7 +85,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: [194, 195, 263]
+    bases: TIMOR_ALOR_BASES
   },
   {
     name: "East Timor (Papuan)",
@@ -89,7 +93,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: [194, 195, 263]
+    bases: TIMOR_ALOR_BASES
   },
   {
     name: "Alor–Pantar",
@@ -97,7 +101,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: [194, 195, 263]
+    bases: TIMOR_ALOR_BASES
   },
   {
     name: "Central and South New Guinea languages",
@@ -105,7 +109,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Asmat–Kamoro",
@@ -113,7 +117,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: WEST_PAPUAN_INDONESIAN_BASES
   },
   {
     name: "Greater Awyu",
@@ -121,7 +125,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: WEST_PAPUAN_INDONESIAN_BASES
   },
   {
     name: "Ok–Oksapmin",
@@ -129,7 +133,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Bayono–Awbono",
@@ -137,7 +141,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: WEST_PAPUAN_INDONESIAN_BASES
   },
   {
     name: "Kutubuan languages",
@@ -145,7 +149,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Chimbu–Wahgi languages",
@@ -153,7 +157,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Kainantu–Goroka languages",
@@ -161,7 +165,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Trans–New Guinea",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Madang languages",
@@ -169,7 +173,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Papuan",
-    bases: PAPUAN_BASES
+    bases: PNG_HIGHLAND_BASES
   },
   {
     name: "Finisterre–Huon languages",
@@ -177,7 +181,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Papuan",
-    bases: PAPUAN_BASES
+    bases: SE_PAPUAN_COASTAL_BASES
   },
   {
     name: "Southeast Papuan languages",
@@ -185,7 +189,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Papuan",
-    bases: PAPUAN_BASES
+    bases: SE_PAPUAN_COASTAL_BASES
   },
   {
     name: "Anim languages",
@@ -193,7 +197,7 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Papuan",
-    bases: PAPUAN_BASES
+    bases: SE_PAPUAN_COASTAL_BASES
   },
   {
     name: "Inland Gulf",
@@ -201,7 +205,424 @@ const papuanNodes = [
     region: "Pacific",
     category: "Papuan",
     family: "Papuan",
-    bases: PAPUAN_BASES
+    bases: SE_PAPUAN_COASTAL_BASES
+  }
+];
+
+function slugifyIso(name) {
+  if (!name) return "";
+  return name
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ɨ/g, "i")
+    .replace(/[^a-zA-Z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .toLowerCase();
+}
+
+const papuanLeafGroups = [
+  {
+    parentIso: "dani",
+    family: "Dani",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Grand Valley Dani",
+      "Hupla",
+      "Nduga",
+      "Nggem",
+      "Silimo",
+      "Walak",
+      "Wano",
+      "Western Dani",
+      "Yali"
+    ]
+  },
+  {
+    parentIso: "paniai-lakes",
+    family: "Paniai Lakes",
+    bases: [263, 194],
+    leaves: ["Auye", "Dao", "Ekari", "Moni", "Wolani"]
+  },
+  {
+    parentIso: "west-bomberai",
+    family: "West Bomberai",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: ["Baham", "Iha", "Karas"]
+  },
+  {
+    parentIso: "timor-alor-pantar",
+    family: "Timor–Alor–Pantar",
+    bases: TIMOR_ALOR_BASES,
+    leaves: ["Bunak"]
+  },
+  {
+    parentIso: "east-timor-papuan",
+    family: "East Timor Papuan",
+    bases: TIMOR_ALOR_BASES,
+    leaves: ["Fataluku", "Makalero", "Makasae", "Oirata", "Rusenu"]
+  },
+  {
+    parentIso: "alor-pantar",
+    family: "Alor–Pantar",
+    bases: TIMOR_ALOR_BASES,
+    leaves: [
+      "Abui",
+      "Adang",
+      "Blagar",
+      "Kafoa",
+      "Kamang",
+      "Klon",
+      "Kui",
+      "Kula",
+      "Retta",
+      "Sawila",
+      "Wersing",
+      "Kaera",
+      "Nedebang",
+      "Teiwa",
+      "Western Pantar"
+    ]
+  },
+  {
+    parentIso: "asmat-kamoro",
+    family: "Asmat–Kamoro",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: [
+      "Asmat",
+      "Asmat Citak",
+      "Sabakor",
+      "Buruwai",
+      "Kamberau",
+      "Kamoro",
+      "Sempan"
+    ]
+  },
+  {
+    parentIso: "greater-awyu",
+    family: "Greater Awyu",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: [
+      "Awyu–Dumut",
+      "Aghu",
+      "Mandobo",
+      "Kombai–Wanggom",
+      "Pisa",
+      "Sawi",
+      "Shiaxa",
+      "Wambon",
+      "Becking–Dawi",
+      "Komyandaret",
+      "Korowai",
+      "Tsaukambo"
+    ]
+  },
+  {
+    parentIso: "ok-oksapmin",
+    family: "Ok–Oksapmin",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Western",
+      "Burumakok",
+      "Kopkaka",
+      "Lowland Iwur",
+      "Muyu",
+      "Ninggerum",
+      "Yonggom",
+      "Mountain",
+      "Bimin",
+      "Faiwol",
+      "Mian",
+      "Setaman",
+      "Suganga",
+      "Tifal",
+      "Telefol",
+      "Urapmin",
+      "Nakai",
+      "Ngalum",
+      "Oksapmin",
+      "Tangko"
+    ]
+  },
+  {
+    parentIso: "bayono-awbono",
+    family: "Bayono–Awbono",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: [
+      "Bayono",
+      "Awbono",
+      "Densar",
+      "Kovojab",
+      "Komolom",
+      "Koneraw",
+      "Mombum",
+      "Somahai",
+      "Momina",
+      "Momuna"
+    ]
+  },
+  {
+    parentIso: "kutubuan-languages",
+    family: "Kutubuan",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: ["Foe", "Fiwaga", "Fasu", "Some", "Namumi"]
+  },
+  {
+    parentIso: "chimbu-wahgi-languages",
+    family: "Chimbu–Wahgi",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Jimi",
+      "Kandawo",
+      "Maring",
+      "Narak",
+      "Wahgi",
+      "Nii",
+      "Chimbu",
+      "Chuave",
+      "Dom",
+      "Golin",
+      "Kuman",
+      "Nomane",
+      "Salt-Yui",
+      "Sinasina",
+      "Hagen",
+      "Kaguel",
+      "Melpa",
+      "Tembagla"
+    ]
+  },
+  {
+    parentIso: "kainantu-goroka-languages",
+    family: "Kainantu–Goroka",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Goroka",
+      "Gahuku",
+      "Alekano",
+      "Dano",
+      "Tokano",
+      "Abaga",
+      "Inoke-Yate",
+      "Kamono",
+      "Kanite",
+      "Ke’yagana",
+      "Yagaria",
+      "Benabena",
+      "Fore",
+      "Gende",
+      "Gimi",
+      "Isabi",
+      "Siane",
+      "Yaweyuha",
+      "Kainantu",
+      "Tairora",
+      "Binumarien",
+      "Kambaira",
+      "Tairoa",
+      "Waffa",
+      "Gauwa",
+      "Agarabi",
+      "Awa",
+      "Awiyaana",
+      "Gadsup",
+      "Kosena",
+      "Ontenu",
+      "Oweina",
+      "Usarufa",
+      "Kenati"
+    ]
+  },
+  {
+    parentIso: "southeast-papuan-languages",
+    family: "Southeast Papuan",
+    bases: SE_PAPUAN_COASTAL_BASES,
+    leaves: [
+      "Grass Koiari",
+      "Mountain Koiari",
+      "Koitabu",
+      "Barai",
+      "Namiae",
+      "Ese Ömie",
+      "Humene",
+      "Uare",
+      "Mulaha",
+      "Doromu",
+      "Maria",
+      "Moikodi",
+      "Aneme Wake",
+      "Bariji",
+      "Nawaru",
+      "Yareba",
+      "Bauwaki",
+      "Domu",
+      "Binahari",
+      "Morawa",
+      "Mailu",
+      "Laua",
+      "Daga",
+      "Mapena",
+      "Maiwa",
+      "Dima",
+      "Ginuman",
+      "Kanasi",
+      "Onjob",
+      "Umanakaina",
+      "Turaka"
+    ]
+  },
+  {
+    parentIso: "anim-languages",
+    family: "Anim",
+    bases: SE_PAPUAN_COASTAL_BASES,
+    leaves: [
+      "Tirio (Lower Fly)",
+      "Baramu",
+      "Bitur",
+      "Makayam",
+      "Were",
+      "Boazi (Lake Murray)",
+      "Boazi",
+      "Zimakani",
+      "Bipim",
+      "Marind",
+      "Yaqay"
+    ]
+  },
+  {
+    parentIso: "inland-gulf",
+    family: "Inland Gulf",
+    bases: SE_PAPUAN_COASTAL_BASES,
+    leaves: ["Ipiko", "Foia Foia", "Hoia Hoia", "Mubami"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Angan",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Akoye",
+      "Angaataha",
+      "Ankave",
+      "Hamtai",
+      "Kamasa",
+      "Kawacha",
+      "Menya",
+      "Safeyoka",
+      "Simbari",
+      "Susuami",
+      "Tainae",
+      "Yagwoia",
+      "Yipma"
+    ]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Awin–Pa",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: ["Awin", "Pa"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Binanderean",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Baruga",
+      "Binandere",
+      "Ewage",
+      "Korafe",
+      "Orokaiva",
+      "Suena",
+      "Yekora",
+      "Zia"
+    ]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Bosavi",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Aimele",
+      "Beami",
+      "Edolo",
+      "Kaluli",
+      "Kasua",
+      "Onobasulu",
+      "Sonia"
+    ]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Duna–Pogaya",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: ["Duna", "Pogaya"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "East Strickland",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: ["Fembe", "Gobasi", "Konai", "Kubo", "Odoodee", "Samo"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Engan",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: [
+      "Angal",
+      "Bisorio",
+      "Enga",
+      "Huli",
+      "Ipili",
+      "Kewa",
+      "Kyaka",
+      "Lembena",
+      "Samberigi"
+    ]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Gogodala–Suki",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: ["Suki", "Gogodala", "Ari", "Waruna"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Goilalan",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: ["Fuyug", "Tauade", "Biangai", "Kunimaipa", "Weri"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Kayagaric",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: [
+      "Atohwaim (Kaugat)",
+      "Yogo (Tamagario)",
+      "Kayagar (Kaygir)",
+      "Tamagario"
+    ]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Kiwaian",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: ["Bami", "Kerewo", "Kiwai", "Morigi", "Waboda"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Kolopom",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: ["Kimaama (Kimaghama)", "Riantana", "Ndom"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Turama–Kikorian",
+    bases: WEST_PAPUAN_INDONESIAN_BASES,
+    leaves: ["Ikobi", "Omati", "Rumu"]
+  },
+  {
+    parentIso: "papuan-family",
+    family: "Papuan isolates",
+    bases: PNG_HIGHLAND_BASES,
+    leaves: ["Moraori", "Wiru"]
   }
 ];
 
@@ -238,6 +659,49 @@ function main() {
       map.push(entry);
       mapByIso.set(node.iso, entry);
       mapsAdded++;
+    }
+  }
+
+  for (const group of papuanLeafGroups) {
+    if (!group || !Array.isArray(group.leaves)) continue;
+    const parentIso = group.parentIso || null;
+    const parent = parentIso ? mixesByIso.get(parentIso) : null;
+    const parentMap = parentIso ? mapByIso.get(parentIso) : null;
+    const groupBases = Array.isArray(group.bases) && group.bases.length ? group.bases.slice() : null;
+    const family = group.family || (parent && parent.family) || "Papuan";
+
+    for (const leafName of group.leaves) {
+      if (!leafName) continue;
+      const iso = slugifyIso(leafName);
+      if (!iso) continue;
+
+      if (!mixesByIso.has(iso)) {
+        const entry = {
+          name: leafName,
+          iso,
+          region: "Pacific",
+          category: "Papuan",
+          family
+        };
+        mixes.push(entry);
+        mixesByIso.set(iso, entry);
+        mixesAdded++;
+      }
+
+      if (!mapByIso.has(iso)) {
+        let bases = groupBases;
+        if (!bases) {
+          if (parentMap && Array.isArray(parentMap.bases) && parentMap.bases.length) {
+            bases = parentMap.bases.slice();
+          } else {
+            bases = PAPUAN_BASES.slice();
+          }
+        }
+        const entry = {iso, bases};
+        map.push(entry);
+        mapByIso.set(iso, entry);
+        mapsAdded++;
+      }
     }
   }
 

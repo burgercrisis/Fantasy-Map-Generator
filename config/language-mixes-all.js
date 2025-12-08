@@ -111,7 +111,8 @@
     "iso": "akan",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Akan_language",
+    "family": "Akan"
   },
   {
     "name": "Aku",
@@ -339,7 +340,8 @@
     "iso": "bambara",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bambara_language",
+    "family": "Mande"
   },
   {
     "name": "Bambassi",
@@ -510,13 +512,6 @@
     "family": "Niger-Congo"
   },
   {
-    "name": "Beni Snous dialect",
-    "iso": "beni-snous-dialect",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Zenati Berber"
-  },
-  {
     "name": "Berber",
     "iso": "ber",
     "region": "Africa",
@@ -543,7 +538,7 @@
     "iso": "bete",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Kru"
   },
   {
     "name": "Bhaca",
@@ -551,13 +546,6 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
-  },
-  {
-    "name": "Bhojpuri",
-    "iso": "bhojpuri",
-    "region": "Africa",
-    "category": "Indo-European",
-    "family": "Indo-European"
   },
   {
     "name": "Bidiyo language",
@@ -1100,7 +1088,7 @@
     "iso": "dida",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Kru"
   },
   {
     "name": "Dinka",
@@ -1257,6 +1245,13 @@
     "family": "Kx'a"
   },
   {
+    "name": "El Molo",
+    "iso": "el-molo",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
     "name": "Eman",
     "iso": "eman",
     "region": "Africa",
@@ -1289,7 +1284,7 @@
     "iso": "ewe",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Gbe"
   },
   {
     "name": "Ewondo",
@@ -1353,7 +1348,7 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Fon_language",
-    "family": "Niger-Congo"
+    "family": "Gbe"
   },
   {
     "name": "Fongoro",
@@ -1367,7 +1362,8 @@
     "iso": "fula",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Fula_language",
+    "family": "Senegambian (Atlantic)"
   },
   {
     "name": "Fungor",
@@ -1416,7 +1412,7 @@
     "iso": "ga",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Ga–Dangme"
   },
   {
     "name": "Ga'anda language",
@@ -1553,7 +1549,7 @@
     "iso": "gola",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Mel"
   },
   {
     "name": "Gonga",
@@ -1703,6 +1699,13 @@
     "family": "Chadic"
   },
   {
+    "name": "Hozo",
+    "iso": "hozo",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
     "name": "Huba language",
     "iso": "huba-language",
     "region": "Africa",
@@ -1728,7 +1731,8 @@
     "iso": "igbo",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Igbo_language",
+    "family": "Igboid"
   },
   {
     "name": "Jalaa",
@@ -2016,7 +2020,7 @@
     "iso": "limba",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Mel"
   },
   {
     "name": "Lingala",
@@ -2101,7 +2105,8 @@
     "iso": "mandinka",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mandinka_language",
+    "family": "Mande"
   },
   {
     "name": "Mantsi language (Nigeria)",
@@ -2343,7 +2348,7 @@
     "iso": "moore",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Gur"
   },
   {
     "name": "Mozabite language",
@@ -2388,7 +2393,7 @@
     "iso": "mumuye",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Adamawa"
   },
   {
     "name": "Mundat language",
@@ -2593,7 +2598,7 @@
     "iso": "nyabwa",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Kru"
   },
   {
     "name": "Nyam language",
@@ -2773,6 +2778,13 @@
     "family": "Chadic"
   },
   {
+    "name": "Qwara",
+    "iso": "qwara",
+    "region": "Africa",
+    "category": "Semitic",
+    "family": "Semitic"
+  },
+  {
     "name": "Rendille–Boni",
     "iso": "rendille-boni",
     "region": "Africa",
@@ -2848,6 +2860,13 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Seze",
+    "iso": "seze",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
     "name": "Sha language",
     "iso": "sha-chadic-language",
     "region": "Africa",
@@ -2869,13 +2888,6 @@
     "family": "Chadic"
   },
   {
-    "name": "Sheliff Basin Berber",
-    "iso": "sheliff-basin-berber",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Zenati Berber"
-  },
-  {
     "name": "Shenwa language",
     "iso": "shenwa-language",
     "region": "Africa",
@@ -2890,10 +2902,19 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Siri (Chadic)",
+    "iso": "siri",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siri_language",
+    "family": "Chadic"
+  },
+  {
     "name": "Siri language",
     "iso": "siri-chadic-language",
     "region": "Africa",
     "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siri_language",
     "family": "Chadic"
   },
   {
@@ -2922,7 +2943,7 @@
     "iso": "soninke",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Mande"
   },
   {
     "name": "South Bauchi",
@@ -3045,13 +3066,6 @@
     "family": "Chadic"
   },
   {
-    "name": "Tawellemmet language",
-    "iso": "tawellemmet-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Tuareg Berber"
-  },
-  {
     "name": "Tera language",
     "iso": "tera-chadic-language",
     "region": "Africa",
@@ -3071,13 +3085,6 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Tuareg Berber"
-  },
-  {
-    "name": "Tidikelt language",
-    "iso": "tidikelt-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Zenati Berber"
   },
   {
     "name": "Tobanga language",
@@ -3127,13 +3134,6 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
-  },
-  {
-    "name": "Tuwat language",
-    "iso": "tuwat-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Zenati Berber"
   },
   {
     "name": "Ubi language",
@@ -3222,7 +3222,8 @@
     "iso": "wolof",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Wolof_language",
+    "family": "Senegambian (Atlantic)"
   },
   {
     "name": "Wuzlam language",
@@ -3258,7 +3259,7 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
-    "family": "Niger-Congo"
+    "family": "Yoruboid"
   },
   {
     "name": "Zari",
@@ -3360,6 +3361,27 @@
     "family": "Kx'a"
   },
   {
+    "name": "Tawellemmet Language",
+    "iso": "tawellemmet-language",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Tidikelt Language",
+    "iso": "tidikelt-language",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Tuwat Language",
+    "iso": "tuwat-language",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
     "name": "Akkadian",
     "iso": "akkadian",
     "category": "Afroasiatic",
@@ -3381,17 +3403,17 @@
     "name": "Inuktitut",
     "iso": "iku",
     "region": "Arctic",
-    "category": "EskimoΓÇôAleut",
+    "category": "Eskimo–Aleut",
     "wikipedia": "https://en.wikipedia.org/wiki/Inuktitut",
-    "family": "EskimoΓÇôAleut"
+    "family": "Eskimo–Aleut"
   },
   {
     "name": "Kalaallisut",
     "iso": "kalaallisut",
     "region": "Arctic",
-    "category": "EskimoΓÇôAleut",
+    "category": "Eskimo–Aleut",
     "wikipedia": "https://en.wikipedia.org/wiki/Greenlandic_language",
-    "family": "EskimoΓÇôAleut"
+    "family": "Eskimo–Aleut"
   },
   {
     "name": "Naukan",
@@ -3415,7 +3437,7 @@
     "family": "Yupik"
   },
   {
-    "name": "A'ou",
+    "name": "A Ou",
     "iso": "a-ou",
     "region": "Asia",
     "category": "Tai-Kadai",
@@ -3429,7 +3451,7 @@
     "family": "Tai-Kadai"
   },
   {
-    "name": "Ai-Cham",
+    "name": "Ai Cham",
     "iso": "ai-cham",
     "region": "Asia",
     "category": "Tai-Kadai",
@@ -3449,6 +3471,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Alak",
+    "iso": "alak-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "iso": "alar-tunka-buryat",
@@ -3497,6 +3526,7 @@
     "iso": "altai",
     "region": "Asia",
     "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Altai_languages",
     "family": "Turkic"
   },
   {
@@ -3562,6 +3592,14 @@
     "region": "Asia",
     "category": "Dravidian",
     "family": "South Dravidian"
+  },
+  {
+    "name": "Awadhi",
+    "iso": "awadhi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Awadhi_language",
+    "family": "Indo-Aryan"
   },
   {
     "iso": "baarin",
@@ -3646,6 +3684,7 @@
     "iso": "balti",
     "region": "Asia",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Balti_language",
     "family": "Sino-Tibetan"
   },
   {
@@ -3761,11 +3800,19 @@
     "family": "South Dravidian"
   },
   {
-    "name": "Biao",
+    "name": "Bhojpuri",
+    "iso": "bhojpuri",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bhojpuri_language",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Biao Kam Sui",
     "iso": "biao-kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Bidau Creole Portuguese",
@@ -3783,6 +3830,7 @@
     "iso": "bikol",
     "region": "Asia",
     "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bikol_languages",
     "family": "Austronesian"
   },
   {
@@ -3790,6 +3838,7 @@
     "iso": "bodo",
     "region": "Asia",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boro_language_(India)",
     "family": "Sino-Tibetan"
   },
   {
@@ -3811,7 +3860,7 @@
     "iso": "bouhin",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Hlai"
   },
   {
     "name": "Bouyei",
@@ -3828,11 +3877,34 @@
     "family": "North Dravidian"
   },
   {
+    "name": "Braj",
+    "iso": "braj",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Braj_Bhasha",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Brao",
+    "iso": "brao-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Bru",
     "iso": "bru",
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Katuic"
+  },
+  {
+    "name": "Bundeli",
+    "iso": "bundeli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bundeli_language",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Buryat",
@@ -3847,7 +3919,7 @@
     "iso": "buyang",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Camorta Nicobarese",
@@ -3879,7 +3951,7 @@
     "iso": "cao-miao",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Car Nicobarese",
@@ -3908,7 +3980,7 @@
     "iso": "chadong",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "iso": "chakhar",
@@ -3943,6 +4015,7 @@
     "iso": "chhattisgarhi",
     "region": "Asia",
     "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chhattisgarhi_language",
     "family": "Indo-Aryan"
   },
   {
@@ -3957,6 +4030,7 @@
     "iso": "chin",
     "region": "Asia",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kuki-Chin_languages",
     "family": "Sino-Tibetan"
   },
   {
@@ -3968,6 +4042,14 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Chittagonian",
+    "iso": "chittagonian",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chittagonian_language",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Cholanaikkan",
@@ -3982,6 +4064,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Pearic"
+  },
+  {
+    "name": "Chrau",
+    "iso": "chrau-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "iso": "classical-mongolian",
@@ -4003,6 +4092,13 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Cua",
+    "iso": "cua-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Cun Hlai",
@@ -4077,6 +4173,14 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Dogri",
+    "iso": "dogri",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogri_language",
+    "family": "Indo-Aryan"
+  },
+  {
     "iso": "dongxiang",
     "name": "Dongxiang",
     "region": "Asia",
@@ -4100,6 +4204,13 @@
       "historical",
       "hypothetical"
     ]
+  },
+  {
+    "name": "Duan (Bahnaric)",
+    "iso": "duan-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Duruwa",
@@ -4141,11 +4252,11 @@
     "family": "Mongolic"
   },
   {
-    "name": "En",
+    "name": "En Kra",
     "iso": "en-kra",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Eravallan",
@@ -4180,7 +4291,7 @@
     "iso": "gelao",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Gondi",
@@ -4220,7 +4331,7 @@
     "iso": "ha-em",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Hlai"
   },
   {
     "name": "Hachijo",
@@ -4234,7 +4345,7 @@
     "iso": "hagei",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "iso": "hailar-dagur",
@@ -4242,6 +4353,13 @@
     "region": "Asia",
     "category": "Mongolic",
     "family": "Mongolic"
+  },
+  {
+    "name": "Halang",
+    "iso": "halang-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Hezhang Buyi",
@@ -4254,22 +4372,23 @@
     "name": "Hindi",
     "iso": "hin",
     "region": "Asia",
-    "category": "Indo-European",
+    "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Hindi",
-    "family": "Indo-European"
+    "family": "Indo-Aryan"
   },
   {
     "name": "Hlai",
     "iso": "hlai",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Hlai"
   },
   {
     "name": "Ho (Munda)",
     "iso": "ho-munda",
     "region": "Asia",
     "category": "Austroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ho_language",
     "family": "Munda"
   },
   {
@@ -4277,6 +4396,7 @@
     "iso": "hokchiu",
     "region": "Asia",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fuqing_dialect",
     "family": "Sino-Tibetan"
   },
   {
@@ -4312,6 +4432,7 @@
     "iso": "ibanag",
     "region": "Asia",
     "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ibanag_language",
     "family": "Austronesian"
   },
   {
@@ -4319,6 +4440,7 @@
     "iso": "ilocano",
     "region": "Asia",
     "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ilocano_language",
     "family": "Austronesian"
   },
   {
@@ -4373,6 +4495,13 @@
     "family": "Japanese dialects"
   },
   {
+    "name": "Jeh",
+    "iso": "jeh-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Jeseri",
     "iso": "jeseri",
     "region": "Asia",
@@ -4394,6 +4523,20 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Jru'",
+    "iso": "jru-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Juk",
+    "iso": "juk-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Jurchen",
     "iso": "jurchen",
     "region": "Asia",
@@ -4409,6 +4552,13 @@
     "region": "Asia",
     "category": "Tungusic",
     "family": "Jurchenic"
+  },
+  {
+    "name": "Kaco'",
+    "iso": "kaco-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Kadar",
@@ -4454,18 +4604,18 @@
     "family": "Tai-Kadai"
   },
   {
-    "name": "Kam (Dong)",
+    "name": "Kam Dong",
     "iso": "kam-dong",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
-    "name": "Kam-Sui",
+    "name": "Kam Sui",
     "iso": "kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Kam-Tai",
@@ -4501,6 +4651,7 @@
     "iso": "kapampangan",
     "region": "Asia",
     "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kapampangan_language",
     "family": "Austronesian"
   },
   {
@@ -4508,6 +4659,7 @@
     "iso": "karakalpak",
     "region": "Asia",
     "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karakalpak_language",
     "family": "Turkic"
   },
   {
@@ -4540,6 +4692,13 @@
     "family": "Katuic"
   },
   {
+    "name": "Katua",
+    "iso": "katua-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Katuic languages",
     "iso": "katuic",
     "region": "Asia",
@@ -4548,6 +4707,13 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Kayong",
+    "iso": "kayong-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Kenaboi",
@@ -4564,6 +4730,7 @@
     "iso": "khakas",
     "region": "Asia",
     "category": "Turkic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khakas_language",
     "family": "Turkic"
   },
   {
@@ -4703,6 +4870,13 @@
     "family": "South Dravidian"
   },
   {
+    "name": "Koho",
+    "iso": "koho-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Kolami",
     "iso": "kolami",
     "region": "Asia",
@@ -4715,6 +4889,14 @@
     "region": "Asia",
     "category": "Dravidian",
     "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Konkani",
+    "iso": "konkani",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Konkani_language",
+    "family": "Indo-Aryan"
   },
   {
     "name": "Koraga",
@@ -4752,8 +4934,11 @@
     "name": "Kra",
     "iso": "kra",
     "region": "Asia",
-    "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "category": "Austroasiatic",
+    "family": "Bahnaric",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kristang",
@@ -4886,21 +5071,21 @@
     "iso": "lachi",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Laha",
     "iso": "laha",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
-    "name": "Lakkia",
+    "name": "Lakkia Kam Sui",
     "iso": "lakkia-kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Lao",
@@ -4940,7 +5125,21 @@
     "iso": "lauhut",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Hlai"
+  },
+  {
+    "name": "Laven",
+    "iso": "laven-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Lavi",
+    "iso": "lavi-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Longsang Zhuang",
@@ -4982,6 +5181,7 @@
     "iso": "magahi",
     "region": "Asia",
     "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Magahi_language",
     "family": "Indo-Aryan"
   },
   {
@@ -4989,6 +5189,7 @@
     "iso": "maguindanao",
     "region": "Asia",
     "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maguindanao_language",
     "family": "Austronesian"
   },
   {
@@ -4999,11 +5200,19 @@
     "family": "Aslian"
   },
   {
-    "name": "Mak",
+    "name": "Maithili",
+    "iso": "maithili",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maithili_language",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Mak Kam Sui",
     "iso": "mak-kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Mala Malasar",
@@ -5114,7 +5323,7 @@
     "iso": "maonan",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Marathi",
@@ -5145,6 +5354,13 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Mel-Khaonh",
+    "iso": "mel-khaonh-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "iso": "middle-mongol",
@@ -5224,6 +5440,13 @@
     "family": "Shirongolic"
   },
   {
+    "name": "Monom",
+    "iso": "monom-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Moyfaw",
     "iso": "moyfaw",
     "region": "Asia",
@@ -5242,14 +5465,14 @@
     "iso": "mulam",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
-    "name": "Mulao (Kra)",
+    "name": "Mulao Kra",
     "iso": "mulao-kra",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Mullu Kurumba",
@@ -5430,11 +5653,11 @@
     "family": "Tai-Kadai"
   },
   {
-    "name": "Nuoxi (Naxi Yao)",
+    "name": "Nuoxi Naxi Yao",
     "iso": "nuoxi-naxi-yao",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Nyah Kur",
@@ -5442,6 +5665,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Monic"
+  },
+  {
+    "name": "Nyaheun",
+    "iso": "nyaheun-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Odia",
@@ -5457,6 +5687,13 @@
     "region": "Asia",
     "category": "Mongolic",
     "family": "Oirat-Kalmyk"
+  },
+  {
+    "name": "Oi",
+    "iso": "oi-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "iso": "oirat",
@@ -5555,7 +5792,7 @@
     "iso": "paha",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Paliyan",
@@ -5569,6 +5806,7 @@
     "iso": "pangasinan",
     "region": "Asia",
     "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pangasinan_language",
     "family": "Austronesian"
   },
   {
@@ -5709,10 +5947,11 @@
     "iso": "proto-hlai",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Hlai_language",
+    "family": "Hlai",
     "tags": [
-      "extinct",
-      "unclassified"
+      "proto",
+      "extinct"
     ]
   },
   {
@@ -5731,10 +5970,11 @@
     "iso": "proto-kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Kam%E2%80%93Sui_language",
+    "family": "Kam-Sui",
     "tags": [
-      "extinct",
-      "unclassified"
+      "proto",
+      "extinct"
     ]
   },
   {
@@ -5742,10 +5982,11 @@
     "iso": "proto-kra",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Kra_language",
+    "family": "Kra",
     "tags": [
-      "extinct",
-      "unclassified"
+      "proto",
+      "extinct"
     ]
   },
   {
@@ -5753,10 +5994,11 @@
     "iso": "proto-kra-dai",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Kra%E2%80%93Dai_language",
+    "family": "Kra-Dai",
     "tags": [
-      "extinct",
-      "unclassified"
+      "proto",
+      "extinct"
     ]
   },
   {
@@ -5786,10 +6028,11 @@
     "iso": "proto-tai",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Tai_language",
+    "family": "Tai",
     "tags": [
-      "extinct",
-      "unclassified"
+      "proto",
+      "extinct"
     ]
   },
   {
@@ -5812,14 +6055,14 @@
     "iso": "qabiao",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Qau",
     "iso": "qau",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Qifu",
@@ -5833,11 +6076,33 @@
     ]
   },
   {
+    "name": "Ra'ong",
+    "iso": "ra-ong-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Rajasthani",
+    "iso": "rajasthani",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rajasthani_languages",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Ravula",
     "iso": "ravula",
     "region": "Asia",
     "category": "Dravidian",
     "family": "South Dravidian"
+  },
+  {
+    "name": "Rengao",
+    "iso": "rengao-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "iso": "rouran",
@@ -5950,6 +6215,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Sapuan",
+    "iso": "sapuan-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "iso": "sart-kalmyk",
@@ -6164,11 +6436,25 @@
     "family": "Tai-Kadai"
   },
   {
-    "name": "Sui",
+    "name": "Stieng",
+    "iso": "stieng-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Su'",
+    "iso": "su-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Sui Lang",
     "iso": "sui-lang",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
   },
   {
     "name": "Sula Malay",
@@ -6327,12 +6613,33 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Takua",
+    "iso": "takua-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
     "name": "Tamil",
     "iso": "tamil",
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tamil_language",
     "family": "Dravidian"
+  },
+  {
+    "name": "Tampuan",
+    "iso": "tampuan-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Tariang",
+    "iso": "tariang-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Tay (Tai)",
@@ -6353,7 +6660,7 @@
     "iso": "telue",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Telugu",
@@ -6407,11 +6714,18 @@
     "family": "Tai-Kadai"
   },
   {
-    "name": "Then",
+    "name": "Then Kam Sui",
     "iso": "then-kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kam-Sui"
+  },
+  {
+    "name": "Thmon",
+    "iso": "thmon-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Toda",
@@ -6419,6 +6733,13 @@
     "region": "Asia",
     "category": "Dravidian",
     "family": "South Dravidian"
+  },
+  {
+    "name": "Todrah",
+    "iso": "todrah-bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
   },
   {
     "name": "Tokunoshima",
@@ -6439,7 +6760,7 @@
     "iso": "tongzha",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Hlai"
   },
   {
     "iso": "torgut",
@@ -6542,7 +6863,7 @@
     "iso": "vandu",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "family": "Kra"
   },
   {
     "name": "Vietnamese",
@@ -6723,6 +7044,7 @@
     "iso": "adnyamathanha",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adnyamathanha_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -6730,6 +7052,7 @@
     "iso": "anindilyakwa",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anindilyakwa_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -6737,6 +7060,7 @@
     "iso": "bardi",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bardi_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -6744,6 +7068,7 @@
     "iso": "bundjalung",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yugambeh%E2%80%93Bundjalung_languages",
     "family": "Australian Aboriginal"
   },
   {
@@ -6751,6 +7076,7 @@
     "iso": "burarra",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burarra_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7337,6 +7663,16 @@
     "family": "Northwest Caucasian"
   },
   {
+    "name": "Adjaran Georgian",
+    "iso": "adjaran-georgian",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "family": "Georgian dialects",
+    "tags": [
+      "dialect"
+    ]
+  },
+  {
     "name": "Adyghe",
     "iso": "adyghe",
     "region": "Caucasus",
@@ -7401,6 +7737,28 @@
     "family": "Kartvelian"
   },
   {
+    "name": "Georgian dialects",
+    "iso": "georgian-dialects",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "family": "Kartvelian",
+    "tags": [
+      "family",
+      "dialect"
+    ]
+  },
+  {
+    "name": "Georgian–Zan",
+    "iso": "karto-zan",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georgian%E2%80%93Zan_languages",
+    "family": "Georgian–Zan",
+    "tags": [
+      "family"
+    ]
+  },
+  {
     "name": "Ingush",
     "iso": "ingush",
     "region": "Caucasus",
@@ -7428,6 +7786,16 @@
     "family": "Northwest Caucasian"
   },
   {
+    "name": "Kartvelian languages",
+    "iso": "kartvelian-languages",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "family": "Kartvelian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
     "name": "Laz",
     "iso": "laz",
     "region": "Caucasus",
@@ -7452,6 +7820,18 @@
     "family": "Turkic"
   },
   {
+    "name": "Old Georgian",
+    "iso": "old-georgian",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Old_Georgian",
+    "family": "Kartvelian",
+    "tags": [
+      "historical",
+      "extinct"
+    ]
+  },
+  {
     "name": "Ossetian",
     "iso": "ossetian",
     "region": "Caucasus",
@@ -7460,12 +7840,47 @@
     "family": "Indo-Iranian"
   },
   {
+    "name": "Proto-Georgian–Zan",
+    "iso": "proto-georgian-zan",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georgian–Zan_languages",
+    "family": "Proto-Georgian–Zan",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Kartvelian",
+    "iso": "proto-kartvelian",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Kartvelian_language",
+    "family": "Proto-Kartvelian",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
     "name": "Svan",
     "iso": "svan",
     "region": "Caucasus",
     "category": "Kartvelian",
     "wikipedia": "https://en.wikipedia.org/wiki/Svan_language",
     "family": "Kartvelian"
+  },
+  {
+    "name": "Zan languages",
+    "iso": "zan",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zan_languages",
+    "family": "Georgian–Zan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Miskito",
@@ -8146,7 +8561,8 @@
     "iso": "akkala-sami",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akkala_Sami",
+    "family": "Sami",
     "tags": [
       "extinct"
     ]
@@ -8237,7 +8653,7 @@
     "iso": "bjarmian-s-mi",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct",
+    "family": "Sami",
     "tags": [
       "extinct"
     ]
@@ -8442,6 +8858,7 @@
     "iso": "enets",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enets_language",
     "family": "Enets"
   },
   {
@@ -8449,6 +8866,7 @@
     "iso": "erzya",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Erzya_language",
     "family": "Erzya"
   },
   {
@@ -8512,6 +8930,7 @@
     "iso": "hill-mari",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hill_Mari_language",
     "family": "Hill Mari"
   },
   {
@@ -8533,6 +8952,7 @@
     "iso": "inari-sami",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inari_Sami_language",
     "family": "Inari Sami"
   },
   {
@@ -8606,7 +9026,7 @@
     "iso": "kainuu-sami",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct",
+    "family": "Sami",
     "tags": [
       "extinct"
     ]
@@ -8657,6 +9077,7 @@
     "iso": "karelian",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karelian_language",
     "family": "Karelian Proper"
   },
   {
@@ -8685,7 +9106,7 @@
     "iso": "kemi-sami",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct",
+    "family": "Sami",
     "tags": [
       "extinct"
     ]
@@ -8740,6 +9161,7 @@
     "iso": "komi-permyak",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Komi-Permyak_language",
     "family": "Komi-Permyak"
   },
   {
@@ -8754,6 +9176,7 @@
     "iso": "komi-zyryan",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Komi-Zyrian_language",
     "family": "Komi-Zyryan"
   },
   {
@@ -8837,14 +9260,15 @@
     "iso": "kven",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kven_language",
     "family": "Kven"
   },
   {
     "name": "Laiuse Romani",
     "iso": "laiuse-romani",
     "region": "Eurasia",
-    "category": "Uralic",
-    "family": "Others"
+    "category": "Indo-Aryan",
+    "family": "Romani"
   },
   {
     "name": "Leivu",
@@ -8879,6 +9303,7 @@
     "iso": "livonian",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Livonian_language",
     "family": "Livonian",
     "tags": [
       "extinct"
@@ -8961,6 +9386,7 @@
     "iso": "lule-sami",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lule_Sami_language",
     "family": "Lule Sami"
   },
   {
@@ -9009,6 +9435,7 @@
     "iso": "meadow-mari",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Meadow_Mari_language",
     "family": "Meadow Mari"
   },
   {
@@ -9023,6 +9450,7 @@
     "iso": "me-nkieli",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Me%C3%A4nkieli",
     "family": "Meänkieli"
   },
   {
@@ -9030,7 +9458,7 @@
     "iso": "merya",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct/Unclassified",
+    "family": "Unclassified Uralic",
     "tags": [
       "extinct"
     ]
@@ -9040,7 +9468,7 @@
     "iso": "meshcherian",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct/Unclassified",
+    "family": "Unclassified Uralic",
     "tags": [
       "extinct"
     ]
@@ -9077,6 +9505,7 @@
     "iso": "moksha",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moksha_language",
     "family": "Moksha"
   },
   {
@@ -9091,7 +9520,7 @@
     "iso": "muromian",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct/Unclassified",
+    "family": "Unclassified Uralic",
     "tags": [
       "extinct"
     ]
@@ -9108,6 +9537,7 @@
     "iso": "nenets",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nenets_languages",
     "family": "Nenets"
   },
   {
@@ -9122,6 +9552,7 @@
     "iso": "nganasan",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nganasan_language",
     "family": "Nganasan"
   },
   {
@@ -9334,6 +9765,7 @@
     "iso": "pite-sami",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pite_Sami_language",
     "family": "Pite Sami"
   },
   {
@@ -9523,6 +9955,7 @@
     "iso": "selkup",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Selkup_language",
     "family": "Selkup"
   },
   {
@@ -9600,6 +10033,7 @@
     "iso": "skolt-sami",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Skolt_Sami",
     "family": "Skolt Sami"
   },
   {
@@ -9871,6 +10305,7 @@
     "iso": "ter-sami",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ter_Sami_language",
     "family": "Ter Sami"
   },
   {
@@ -9986,6 +10421,7 @@
     "iso": "ume-sami",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ume_Sami_language",
     "family": "Ume Sami"
   },
   {
@@ -10098,6 +10534,7 @@
     "iso": "veps",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Veps_language",
     "family": "Veps"
   },
   {
@@ -10133,6 +10570,7 @@
     "iso": "votic",
     "region": "Eurasia",
     "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Votic_language",
     "family": "Votic"
   },
   {
@@ -10258,7 +10696,13 @@
     "iso": "aas-whistled",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Gascon Occitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aas,_Pyr%C3%A9n%C3%A9es-Atlantiques#Whistled_language",
+    "tags": [
+      "occitan",
+      "gascon",
+      "whistled"
+    ]
   },
   {
     "name": "Abruzzese",
@@ -10301,7 +10745,12 @@
     "iso": "algherese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Eastern"
+    "family": "Catalan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Algherese_Catalan",
+    "tags": [
+      "catalan",
+      "sardinia"
+    ]
   },
   {
     "name": "Ancona",
@@ -10361,7 +10810,13 @@
     "iso": "aranese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Gascon Occitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aranese",
+    "tags": [
+      "occitan",
+      "gascon",
+      "aranese"
+    ]
   },
   {
     "name": "Ardennais",
@@ -10432,14 +10887,24 @@
     "iso": "auvergnat",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Occitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Auvergnat_dialect",
+    "tags": [
+      "occitan",
+      "auvergnat"
+    ]
   },
   {
     "name": "Balearic",
     "iso": "balearic",
     "region": "Europe",
     "category": "Romance",
-    "family": "Eastern"
+    "family": "Catalan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Balearic_Catalan",
+    "tags": [
+      "catalan",
+      "balearic_islands"
+    ]
   },
   {
     "name": "Banat",
@@ -10482,7 +10947,13 @@
     "iso": "b-arnese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Gascon Occitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/B%C3%A9arnese_dialect",
+    "tags": [
+      "occitan",
+      "gascon",
+      "bearn"
+    ]
   },
   {
     "name": "Belarusian",
@@ -11310,6 +11781,7 @@
     "iso": "hun",
     "category": "Uralic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hungarian_language",
     "family": "Hungarian"
   },
   {
@@ -12438,6 +12910,22 @@
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Serbo-Croatian",
     "family": "Western South Slavic"
+  },
+  {
+    "name": "Sicilian",
+    "iso": "sicilian",
+    "region": "Europe",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_language",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Silesian",
+    "iso": "silesian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silesian_language",
+    "family": "Lechitic"
   },
   {
     "name": "Slovak",
@@ -17077,18 +17565,163 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Abaga",
+    "iso": "abaga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Abui",
+    "iso": "abui",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Adang",
+    "iso": "adang",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
     "name": "Admiralty",
     "iso": "admiralty",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Agarabi",
+    "iso": "agarabi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Aghu",
+    "iso": "aghu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Aimele",
+    "iso": "aimele",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
+  },
+  {
+    "name": "Akoye",
+    "iso": "akoye",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Alekano",
+    "iso": "alekano",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Alor–Pantar",
+    "iso": "alor-pantar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Aneme Wake",
+    "iso": "aneme-wake",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Angaataha",
+    "iso": "angaataha",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Angal",
+    "iso": "angal",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Anim languages",
+    "iso": "anim-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Ankave",
+    "iso": "ankave",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Ari",
+    "iso": "ari",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Gogodala–Suki"
   },
   {
     "name": "Aru",
     "iso": "aru",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Asmat",
+    "iso": "asmat",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
+    "name": "Asmat Citak",
+    "iso": "asmat-citak",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
+    "name": "Asmat–Kamoro",
+    "iso": "asmat-kamoro",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Atohwaim (Kaugat)",
+    "iso": "atohwaim-kaugat",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kayagaric"
   },
   {
     "name": "Australian Kriol",
@@ -17102,11 +17735,66 @@
     "lexifier": "English"
   },
   {
+    "name": "Auye",
+    "iso": "auye",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Paniai Lakes"
+  },
+  {
+    "name": "Awa",
+    "iso": "awa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Awbono",
+    "iso": "awbono",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Awin",
+    "iso": "awin",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Awin–Pa"
+  },
+  {
     "name": "Awin-Pa",
     "iso": "awin-pa",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Awiyaana",
+    "iso": "awiyaana",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Awyu–Dumut",
+    "iso": "awyu-dumut",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Baham",
+    "iso": "baham",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "West Bomberai"
   },
   {
     "name": "Bali Sasak Sumbawa",
@@ -17116,11 +17804,49 @@
     "family": "Austronesian"
   },
   {
+    "name": "Bami",
+    "iso": "bami",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kiwaian"
+  },
+  {
+    "name": "Barai",
+    "iso": "barai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Baramu",
+    "iso": "baramu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
+  },
+  {
+    "name": "Bariji",
+    "iso": "bariji",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
     "name": "Barito",
     "iso": "barito",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Baruga",
+    "iso": "baruga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
   },
   {
     "name": "Basap",
@@ -17134,7 +17860,62 @@
     "iso": "batanic",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Bauwaki",
+    "iso": "bauwaki",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Bayono",
+    "iso": "bayono",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Bayono–Awbono",
+    "iso": "bayono-awbono",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Beami",
+    "iso": "beami",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
+  },
+  {
+    "name": "Becking–Dawi",
+    "iso": "becking-dawi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Benabena",
+    "iso": "benabena",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Biangai",
+    "iso": "biangai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Goilalan"
   },
   {
     "name": "Bima",
@@ -17144,11 +17925,49 @@
     "family": "Austronesian"
   },
   {
+    "name": "Bimin",
+    "iso": "bimin",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Binahari",
+    "iso": "binahari",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Binandere",
+    "iso": "binandere",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
     "name": "Binanderean",
     "iso": "binanderean",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Binumarien",
+    "iso": "binumarien",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Bipim",
+    "iso": "bipim",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
   },
   {
     "name": "Bislama",
@@ -17161,6 +17980,41 @@
       "pidgin"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Bisorio",
+    "iso": "bisorio",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Bitur",
+    "iso": "bitur",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
+  },
+  {
+    "name": "Blagar",
+    "iso": "blagar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Boazi",
+    "iso": "boazi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
+  },
+  {
+    "name": "Boazi (Lake Murray)",
+    "iso": "boazi-lake-murray",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
   },
   {
     "name": "Bonin English",
@@ -17179,7 +18033,17 @@
     "iso": "bosavi",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Bunak",
+    "iso": "bunak",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Timor–Alor–Pantar"
   },
   {
     "name": "Bungku-Tolaki",
@@ -17196,53 +18060,98 @@
     "family": "Austronesian"
   },
   {
+    "name": "Burumakok",
+    "iso": "burumakok",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Buruwai",
+    "iso": "buruwai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
     "name": "Celebic",
     "iso": "celebic",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Cenderawasih",
     "iso": "cenderawasih",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Central and South New Guinea languages",
+    "iso": "central-south-new-guinea",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Central Luzon",
     "iso": "central-luzon",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Central Maluku",
     "iso": "central-maluku",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Central Pacific",
     "iso": "central-pacific",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Central South Sulawesi",
     "iso": "central-south-sulawesi",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Central Vanuatu",
     "iso": "central-vanuatu",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Chamorro",
@@ -17253,25 +18162,131 @@
     "family": "Micronesian"
   },
   {
+    "name": "Chimbu",
+    "iso": "chimbu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Chimbu–Wahgi languages",
+    "iso": "chimbu-wahgi-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Chuave",
+    "iso": "chuave",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Daga",
+    "iso": "daga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Dani",
+    "iso": "dani",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Dano",
+    "iso": "dano",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Densar",
+    "iso": "densar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Dima",
+    "iso": "dima",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Dom",
+    "iso": "dom",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Domu",
+    "iso": "domu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Doromu",
+    "iso": "doromu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Duna",
+    "iso": "duna",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Duna–Pogaya"
+  },
+  {
     "name": "Duna-Pogaya",
     "iso": "duna-pogaya",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "East Formosan",
     "iso": "east-formosan",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "East Strickland",
     "iso": "east-strickland",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "East Timor (Papuan)",
+    "iso": "east-timor-papuan",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Eastern Oceanic",
@@ -17279,6 +18294,27 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Edolo",
+    "iso": "edolo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
+  },
+  {
+    "name": "Ekari",
+    "iso": "ekari",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Paniai Lakes"
+  },
+  {
+    "name": "Enga",
+    "iso": "enga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
   },
   {
     "name": "Engan",
@@ -17300,12 +18336,68 @@
     "lexifier": "English"
   },
   {
+    "name": "Ese Ömie",
+    "iso": "ese-omie",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Ewage",
+    "iso": "ewage",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
+    "name": "Faiwol",
+    "iso": "faiwol",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Fasu",
+    "iso": "fasu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kutubuan"
+  },
+  {
+    "name": "Fataluku",
+    "iso": "fataluku",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Timor Papuan"
+  },
+  {
+    "name": "Fembe",
+    "iso": "fembe",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Strickland"
+  },
+  {
     "name": "Fijian",
     "iso": "fijian",
     "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Fijian_language",
     "family": "Austronesian"
+  },
+  {
+    "name": "Finisterre–Huon languages",
+    "iso": "finisterre-huon-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Papuan"
+  },
+  {
+    "name": "Fiwaga",
+    "iso": "fiwaga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kutubuan"
   },
   {
     "name": "Flores-Lembata",
@@ -17315,11 +18407,95 @@
     "family": "Austronesian"
   },
   {
+    "name": "Foe",
+    "iso": "foe",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kutubuan"
+  },
+  {
+    "name": "Foia Foia",
+    "iso": "foia-foia",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Inland Gulf"
+  },
+  {
+    "name": "Fore",
+    "iso": "fore",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
     "name": "Formosan",
     "iso": "formosan",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Fuyug",
+    "iso": "fuyug",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Goilalan"
+  },
+  {
+    "name": "Gadsup",
+    "iso": "gadsup",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Gahuku",
+    "iso": "gahuku",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Gauwa",
+    "iso": "gauwa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Gende",
+    "iso": "gende",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Gimi",
+    "iso": "gimi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Ginuman",
+    "iso": "ginuman",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Gobasi",
+    "iso": "gobasi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Strickland"
+  },
+  {
+    "name": "Gogodala",
+    "iso": "gogodala",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Gogodala–Suki"
   },
   {
     "name": "Gogodala-Suki",
@@ -17334,6 +18510,41 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Papuan"
+  },
+  {
+    "name": "Golin",
+    "iso": "golin",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Goroka",
+    "iso": "goroka",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Grand Valley Dani",
+    "iso": "grand-valley-dani",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Grass Koiari",
+    "iso": "grass-koiari",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Greater Awyu",
+    "iso": "greater-awyu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
   },
   {
     "name": "Greater Barito",
@@ -17357,11 +18568,25 @@
     "family": "Austronesian"
   },
   {
+    "name": "Hagen",
+    "iso": "hagen",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
     "name": "Halmahera Sea",
     "iso": "halmahera-sea",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Hamtai",
+    "iso": "hamtai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
   },
   {
     "name": "Hawaiian Pidgin",
@@ -17375,12 +18600,89 @@
     "lexifier": "English"
   },
   {
+    "name": "Hoia Hoia",
+    "iso": "hoia-hoia",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Inland Gulf"
+  },
+  {
+    "name": "Huli",
+    "iso": "huli",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Humene",
+    "iso": "humene",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Hupla",
+    "iso": "hupla",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Iha",
+    "iso": "iha",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "West Bomberai"
+  },
+  {
+    "name": "Ikobi",
+    "iso": "ikobi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Turama–Kikorian"
+  },
+  {
     "name": "Indonesian",
     "iso": "indonesian",
     "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Indonesian_language",
     "family": "Austronesian"
+  },
+  {
+    "name": "Inland Gulf",
+    "iso": "inland-gulf",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Papuan"
+  },
+  {
+    "name": "Inoke-Yate",
+    "iso": "inoke-yate",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Ipiko",
+    "iso": "ipiko",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Inland Gulf"
+  },
+  {
+    "name": "Ipili",
+    "iso": "ipili",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Isabi",
+    "iso": "isabi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
   },
   {
     "name": "Javanese",
@@ -17390,6 +18692,34 @@
     "family": "Austronesian"
   },
   {
+    "name": "Jimi",
+    "iso": "jimi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Kaera",
+    "iso": "kaera",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Kafoa",
+    "iso": "kafoa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Kaguel",
+    "iso": "kaguel",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
     "name": "Kaili-Wolio",
     "iso": "kaili-wolio",
     "region": "Pacific",
@@ -17397,11 +18727,123 @@
     "family": "Austronesian"
   },
   {
+    "name": "Kainantu",
+    "iso": "kainantu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kainantu–Goroka languages",
+    "iso": "kainantu-goroka-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
     "name": "Kalamian",
     "iso": "kalamian",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Kaluli",
+    "iso": "kaluli",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
+  },
+  {
+    "name": "Kamang",
+    "iso": "kamang",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Kamasa",
+    "iso": "kamasa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Kambaira",
+    "iso": "kambaira",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kamberau",
+    "iso": "kamberau",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
+    "name": "Kamono",
+    "iso": "kamono",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kamoro",
+    "iso": "kamoro",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
+    "name": "Kanasi",
+    "iso": "kanasi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Kandawo",
+    "iso": "kandawo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Kanite",
+    "iso": "kanite",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Karas",
+    "iso": "karas",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "West Bomberai"
+  },
+  {
+    "name": "Kasua",
+    "iso": "kasua",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
+  },
+  {
+    "name": "Kawacha",
+    "iso": "kawacha",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Kayagar (Kaygir)",
+    "iso": "kayagar-kaygir",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kayagaric"
   },
   {
     "name": "Kayagaric",
@@ -17418,11 +18860,46 @@
     "family": "Austronesian"
   },
   {
+    "name": "Ke’yagana",
+    "iso": "ke-yagana",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
     "name": "Kei-Tanimbar",
     "iso": "kei-tanimbar",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Kenati",
+    "iso": "kenati",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kerewo",
+    "iso": "kerewo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kiwaian"
+  },
+  {
+    "name": "Kewa",
+    "iso": "kewa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Kimaama (Kimaghama)",
+    "iso": "kimaama-kimaghama",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kolopom"
   },
   {
     "name": "Kiribati",
@@ -17433,11 +18910,32 @@
     "family": "Micronesian"
   },
   {
+    "name": "Kiwai",
+    "iso": "kiwai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kiwaian"
+  },
+  {
     "name": "Kiwaian",
     "iso": "kiwaian",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Papuan"
+  },
+  {
+    "name": "Klon",
+    "iso": "klon",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Koitabu",
+    "iso": "koitabu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
   },
   {
     "name": "Kolopom",
@@ -17447,11 +18945,130 @@
     "family": "Papuan"
   },
   {
+    "name": "Kombai–Wanggom",
+    "iso": "kombai-wanggom",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Komolom",
+    "iso": "komolom",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Komyandaret",
+    "iso": "komyandaret",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Konai",
+    "iso": "konai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Strickland"
+  },
+  {
+    "name": "Koneraw",
+    "iso": "koneraw",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Kopkaka",
+    "iso": "kopkaka",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Korafe",
+    "iso": "korafe",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
+    "name": "Korowai",
+    "iso": "korowai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Kosena",
+    "iso": "kosena",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kovojab",
+    "iso": "kovojab",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
     "name": "Kowiai",
     "iso": "kowiai",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Kubo",
+    "iso": "kubo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Strickland"
+  },
+  {
+    "name": "Kui",
+    "iso": "kui",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Kula",
+    "iso": "kula",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Kuman",
+    "iso": "kuman",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Kunimaipa",
+    "iso": "kunimaipa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Goilalan"
+  },
+  {
+    "name": "Kutubuan languages",
+    "iso": "kutubuan-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Kyaka",
+    "iso": "kyaka",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
   },
   {
     "name": "Lampung",
@@ -17468,11 +19085,39 @@
     "family": "Austronesian"
   },
   {
+    "name": "Laua",
+    "iso": "laua",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Lembena",
+    "iso": "lembena",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Lowland Iwur",
+    "iso": "lowland-iwur",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
     "name": "Loyalties-New Caledonia",
     "iso": "loyalties-new-caledonia",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Madang languages",
+    "iso": "madang-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Papuan"
   },
   {
     "name": "Madurese",
@@ -17482,11 +19127,46 @@
     "family": "Austronesian"
   },
   {
+    "name": "Mailu",
+    "iso": "mailu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Maiwa",
+    "iso": "maiwa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Makalero",
+    "iso": "makalero",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Timor Papuan"
+  },
+  {
+    "name": "Makasae",
+    "iso": "makasae",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Timor Papuan"
+  },
+  {
     "name": "Makassar",
     "iso": "makassar-branch",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Makayam",
+    "iso": "makayam",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
   },
   {
     "name": "Malay",
@@ -17511,12 +19191,47 @@
     "family": "Austronesian"
   },
   {
+    "name": "Mandobo",
+    "iso": "mandobo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
     "name": "Māori",
     "iso": "maori",
     "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
     "family": "Austronesian"
+  },
+  {
+    "name": "Mapena",
+    "iso": "mapena",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Maria",
+    "iso": "maria",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Marind",
+    "iso": "marind",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
+  },
+  {
+    "name": "Maring",
+    "iso": "maring",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
   },
   {
     "name": "Marshallese",
@@ -17545,11 +19260,32 @@
     "lexifier": "English"
   },
   {
+    "name": "Melpa",
+    "iso": "melpa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Menya",
+    "iso": "menya",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
     "name": "Meso-Melanesian",
     "iso": "meso-melanesian",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Mian",
+    "iso": "mian",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
   },
   {
     "name": "Micronesian",
@@ -17566,11 +19302,46 @@
     "family": "Austronesian"
   },
   {
+    "name": "Moikodi",
+    "iso": "moikodi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
     "name": "Moklenic",
     "iso": "moklenic",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Mombum",
+    "iso": "mombum",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Momina",
+    "iso": "momina",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Momuna",
+    "iso": "momuna",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Moni",
+    "iso": "moni",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Paniai Lakes"
   },
   {
     "name": "Moraori",
@@ -17580,6 +19351,48 @@
     "family": "Papuan"
   },
   {
+    "name": "Morawa",
+    "iso": "morawa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Morigi",
+    "iso": "morigi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kiwaian"
+  },
+  {
+    "name": "Mountain",
+    "iso": "mountain",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Mountain Koiari",
+    "iso": "mountain-koiari",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Mubami",
+    "iso": "mubami",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Inland Gulf"
+  },
+  {
+    "name": "Mulaha",
+    "iso": "mulaha",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
     "name": "Muna-Buton",
     "iso": "muna-buton",
     "region": "Pacific",
@@ -17587,11 +19400,81 @@
     "family": "Austronesian"
   },
   {
+    "name": "Muyu",
+    "iso": "muyu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Nakai",
+    "iso": "nakai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Namiae",
+    "iso": "namiae",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Namumi",
+    "iso": "namumi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kutubuan"
+  },
+  {
+    "name": "Narak",
+    "iso": "narak",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
     "name": "Nasal",
     "iso": "nasal",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Nawaru",
+    "iso": "nawaru",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Ndom",
+    "iso": "ndom",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kolopom"
+  },
+  {
+    "name": "Nduga",
+    "iso": "nduga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Nedebang",
+    "iso": "nedebang",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Ngalum",
+    "iso": "ngalum",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
   },
   {
     "name": "Ngatikese Creole",
@@ -17603,6 +19486,34 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Nggem",
+    "iso": "nggem",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Nii",
+    "iso": "nii",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Ninggerum",
+    "iso": "ninggerum",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Nomane",
+    "iso": "nomane",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
   },
   {
     "name": "North Borneo",
@@ -17675,6 +19586,83 @@
     "family": "Austronesian"
   },
   {
+    "name": "Odoodee",
+    "iso": "odoodee",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Strickland"
+  },
+  {
+    "name": "Oirata",
+    "iso": "oirata",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Timor Papuan"
+  },
+  {
+    "name": "Ok–Oksapmin",
+    "iso": "ok-oksapmin",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Oksapmin",
+    "iso": "oksapmin",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Omati",
+    "iso": "omati",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Turama–Kikorian"
+  },
+  {
+    "name": "Onjob",
+    "iso": "onjob",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Onobasulu",
+    "iso": "onobasulu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
+  },
+  {
+    "name": "Ontenu",
+    "iso": "ontenu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Orokaiva",
+    "iso": "orokaiva",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
+    "name": "Oweina",
+    "iso": "oweina",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Pa",
+    "iso": "pa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Awin–Pa"
+  },
+  {
     "name": "Paiwan",
     "iso": "paiwan",
     "region": "Pacific",
@@ -17688,6 +19676,23 @@
     "category": "Micronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Palauan_language",
     "family": "Micronesian"
+  },
+  {
+    "name": "Paniai Lakes",
+    "iso": "paniai-lakes",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Papuan family",
+    "iso": "papuan-family",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Papuan Tip",
@@ -17716,6 +19721,13 @@
     "lexifier": "English"
   },
   {
+    "name": "Pisa",
+    "iso": "pisa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
     "name": "Pitcairn-Norfolk",
     "iso": "pitcairn-norfolk",
     "region": "Pacific",
@@ -17725,6 +19737,13 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Pogaya",
+    "iso": "pogaya",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Duna–Pogaya"
   },
   {
     "name": "Puyuma",
@@ -17749,11 +19768,39 @@
     "family": "Austronesian"
   },
   {
+    "name": "Retta",
+    "iso": "retta",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Riantana",
+    "iso": "riantana",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kolopom"
+  },
+  {
     "name": "Rukai",
     "iso": "rukai",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Rumu",
+    "iso": "rumu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Turama–Kikorian"
+  },
+  {
+    "name": "Rusenu",
+    "iso": "rusenu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Timor Papuan"
   },
   {
     "name": "Sabahan",
@@ -17763,11 +19810,46 @@
     "family": "Austronesian"
   },
   {
+    "name": "Sabakor",
+    "iso": "sabakor",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
+    "name": "Safeyoka",
+    "iso": "safeyoka",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Salt-Yui",
+    "iso": "salt-yui",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
     "name": "Saluan-Banggai",
     "iso": "saluan-banggai",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Samberigi",
+    "iso": "samberigi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Engan"
+  },
+  {
+    "name": "Samo",
+    "iso": "samo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "East Strickland"
   },
   {
     "name": "Samoan",
@@ -17785,6 +19867,20 @@
     "family": "Austronesian"
   },
   {
+    "name": "Sawi",
+    "iso": "sawi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Sawila",
+    "iso": "sawila",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
     "name": "Seko-Badaic",
     "iso": "seko-badaic",
     "region": "Pacific",
@@ -17799,11 +19895,60 @@
     "family": "Austronesian"
   },
   {
+    "name": "Sempan",
+    "iso": "sempan",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Asmat–Kamoro"
+  },
+  {
+    "name": "Setaman",
+    "iso": "setaman",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Shiaxa",
+    "iso": "shiaxa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
     "name": "SHWNG",
     "iso": "shwng",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Siane",
+    "iso": "siane",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Silimo",
+    "iso": "silimo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Simbari",
+    "iso": "simbari",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Sinasina",
+    "iso": "sinasina",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
   },
   {
     "name": "Singlish",
@@ -17815,6 +19960,27 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Somahai",
+    "iso": "somahai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Some",
+    "iso": "some",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kutubuan"
+  },
+  {
+    "name": "Sonia",
+    "iso": "sonia",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi"
   },
   {
     "name": "South Mindanao",
@@ -17838,6 +20004,13 @@
     "family": "Austronesian"
   },
   {
+    "name": "Southeast Papuan languages",
+    "iso": "southeast-papuan-languages",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Papuan"
+  },
+  {
     "name": "Southeast Solomonic",
     "iso": "southeast-solomonic",
     "region": "Pacific",
@@ -17859,6 +20032,27 @@
     "family": "Austronesian"
   },
   {
+    "name": "Suena",
+    "iso": "suena",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
+    "name": "Suganga",
+    "iso": "suganga",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Suki",
+    "iso": "suki",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Gogodala–Suki"
+  },
+  {
     "name": "Sumatran",
     "iso": "sumatran",
     "region": "Pacific",
@@ -17871,6 +20065,13 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Susuami",
+    "iso": "susuami",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
   },
   {
     "name": "Tagalog",
@@ -17889,6 +20090,69 @@
     "family": "Polynesian"
   },
   {
+    "name": "Tainae",
+    "iso": "tainae",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Tairoa",
+    "iso": "tairoa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Tairora",
+    "iso": "tairora",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Tamagario",
+    "iso": "tamagario",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kayagaric"
+  },
+  {
+    "name": "Tangko",
+    "iso": "tangko",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Tauade",
+    "iso": "tauade",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Goilalan"
+  },
+  {
+    "name": "Teiwa",
+    "iso": "teiwa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "Telefol",
+    "iso": "telefol",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Tembagla",
+    "iso": "tembagla",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
     "name": "Temotu",
     "iso": "temotu",
     "region": "Pacific",
@@ -17896,11 +20160,32 @@
     "family": "Austronesian"
   },
   {
+    "name": "Tifal",
+    "iso": "tifal",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Timor–Alor–Pantar",
+    "iso": "timor-alor-pantar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
     "name": "Timoric",
     "iso": "timoric",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Tirio (Lower Fly)",
+    "iso": "tirio-lower-fly",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
   },
   {
     "name": "Tok Pisin",
@@ -17914,6 +20199,13 @@
       "pidgin"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Tokano",
+    "iso": "tokano",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
   },
   {
     "name": "Tomini-Tolitoli",
@@ -17942,11 +20234,32 @@
     "lexifier": "English"
   },
   {
+    "name": "Trans–New Guinea languages",
+    "iso": "trans-new-guinea",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Tsaukambo",
+    "iso": "tsaukambo",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
     "name": "Tsouic",
     "iso": "tsouic",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Turaka",
+    "iso": "turaka",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
   },
   {
     "name": "Turama-Kikorian",
@@ -17956,11 +20269,137 @@
     "family": "Papuan"
   },
   {
+    "name": "Uare",
+    "iso": "uare",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Umanakaina",
+    "iso": "umanakaina",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Urapmin",
+    "iso": "urapmin",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Usarufa",
+    "iso": "usarufa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
     "name": "Vanuatu",
     "iso": "vanuatu",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Waboda",
+    "iso": "waboda",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kiwaian"
+  },
+  {
+    "name": "Waffa",
+    "iso": "waffa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Wahgi",
+    "iso": "wahgi",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Chimbu–Wahgi"
+  },
+  {
+    "name": "Walak",
+    "iso": "walak",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Wambon",
+    "iso": "wambon",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Greater Awyu"
+  },
+  {
+    "name": "Wano",
+    "iso": "wano",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Waruna",
+    "iso": "waruna",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Gogodala–Suki"
+  },
+  {
+    "name": "Were",
+    "iso": "were",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
+  },
+  {
+    "name": "Weri",
+    "iso": "weri",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Goilalan"
+  },
+  {
+    "name": "Wersing",
+    "iso": "wersing",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
+    "name": "West Bomberai",
+    "iso": "west-bomberai",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "West Trans–New Guinea languages",
+    "iso": "west-trans-new-guinea",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Western",
+    "iso": "western",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Western Dani",
+    "iso": "western-dani",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
   },
   {
     "name": "Western Malayo-Polynesian",
@@ -17977,11 +20416,109 @@
     "family": "Austronesian"
   },
   {
+    "name": "Western Pantar",
+    "iso": "western-pantar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Alor–Pantar"
+  },
+  {
     "name": "Wiru",
     "iso": "wiru",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Papuan"
+  },
+  {
+    "name": "Wolani",
+    "iso": "wolani",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Paniai Lakes"
+  },
+  {
+    "name": "Yagaria",
+    "iso": "yagaria",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Yagwoia",
+    "iso": "yagwoia",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Yali",
+    "iso": "yali",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Dani"
+  },
+  {
+    "name": "Yaqay",
+    "iso": "yaqay",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
+  },
+  {
+    "name": "Yareba",
+    "iso": "yareba",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Southeast Papuan"
+  },
+  {
+    "name": "Yaweyuha",
+    "iso": "yaweyuha",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Yekora",
+    "iso": "yekora",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
+    "name": "Yipma",
+    "iso": "yipma",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Angan"
+  },
+  {
+    "name": "Yogo (Tamagario)",
+    "iso": "yogo-tamagario",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kayagaric"
+  },
+  {
+    "name": "Yonggom",
+    "iso": "yonggom",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Zia",
+    "iso": "zia",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Binanderean"
+  },
+  {
+    "name": "Zimakani",
+    "iso": "zimakani",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Anim"
   },
   {
     "name": "Sercquiais",
@@ -19100,9 +21637,9 @@
     "name": "Tikuna",
     "iso": "tikuna",
     "region": "South America",
-    "category": "TicunaΓÇôYuri",
+    "category": "Ticuna–Yuri",
     "wikipedia": "https://en.wikipedia.org/wiki/Ticuna_language",
-    "family": "TicunaΓÇôYuri"
+    "family": "Ticuna–Yuri"
   },
   {
     "name": "Wayuu",

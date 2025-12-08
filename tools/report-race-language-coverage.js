@@ -95,22 +95,33 @@ function loadRaceLanguageProfiles() {
 function buildRaceFilterSets(raceLanguageProfiles) {
   const categories = new Set();
   const families = new Set();
+  let hasWildcard = false;
 
   for (const profile of Object.values(raceLanguageProfiles)) {
     if (!profile || typeof profile !== "object") continue;
     if (Array.isArray(profile.categories)) {
       for (const c of profile.categories) {
-        if (typeof c === "string" && c) categories.add(c);
+        if (typeof c !== "string" || !c) continue;
+        if (c === "*") {
+          hasWildcard = true;
+        } else {
+          categories.add(c);
+        }
       }
     }
     if (Array.isArray(profile.families)) {
       for (const f of profile.families) {
-        if (typeof f === "string" && f) families.add(f);
+        if (typeof f !== "string" || !f) continue;
+        if (f === "*") {
+          hasWildcard = true;
+        } else {
+          families.add(f);
+        }
       }
     }
   }
 
-  return {categories, families};
+  return {categories, families, hasWildcard};
 }
 
 function main() {
@@ -128,7 +139,11 @@ function main() {
   }
 
   const raceProfiles = loadRaceLanguageProfiles();
-  const {categories: raceCategories, families: raceFamilies} = buildRaceFilterSets(raceProfiles);
+  const {
+    categories: raceCategories,
+    families: raceFamilies,
+    hasWildcard
+  } = buildRaceFilterSets(raceProfiles);
 
   const raceEligible = [];
   const raceUnused = [];
@@ -147,7 +162,7 @@ function main() {
 
     const matchesCategory = category && raceCategories.has(category);
     const matchesFamily = family && raceFamilies.has(family);
-    const eligible = matchesCategory || matchesFamily;
+    const eligible = hasWildcard || matchesCategory || matchesFamily;
 
     let mapped = null;
     if (mapByIso.size) {

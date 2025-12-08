@@ -231,7 +231,11 @@ const AFRICA_ROWS = [
   {name: "Gwari", family: "Niger–Congo (Probable)"},
   {name: "Gyong", family: "Niger–Congo (Probable)"},
   {name: "Hakaona", family: "Niger–Congo (Probable)"},
-  {name: "Hanga", family: "Niger–Congo (Probable)"}
+  {name: "Hanga", family: "Niger–Congo (Probable)"},
+  {name: "El Molo", family: "Nilo-Saharan (Probable)"},
+  {name: "Qwara", family: "Afroasiatic"},
+  {name: "Hozo", family: "Nilo-Saharan (Probable)"},
+  {name: "Seze", family: "Nilo-Saharan (Probable)"}
 ];
 
 function ensureCatalogAndMap() {

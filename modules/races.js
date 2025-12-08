@@ -279,6 +279,10 @@ const raceLanguageProfiles = {
   Starspawn: {
     categories: ["Sino-Tibetan", "Uralic", "Dravidian"],
     families: []
+  },
+  Human: {
+    categories: ["*"],
+    families: ["*"]
   }
 };
 
@@ -316,11 +320,21 @@ function getRaceLanguageIsoWeights(raceName) {
 
   const categorySet = new Set(profile.categories || []);
   const familySet = new Set(profile.families || []);
+  const useAllCategories = categorySet.has("*");
+  const useAllFamilies = familySet.has("*");
+  const useAll = useAllCategories || useAllFamilies;
+  if (useAllCategories) categorySet.delete("*");
+  if (useAllFamilies) familySet.delete("*");
   const isoWeights = {};
 
   catalog.forEach(lang => {
     if (!lang || !lang.iso) return;
     if (lang.tags && lang.tags.includes("family")) return; // skip family-only macros
+
+    if (useAll) {
+      isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
+      return;
+    }
 
     const catOk = categorySet.size && categorySet.has(lang.category);
     const effectiveFamily = lang.family || lang.category;
