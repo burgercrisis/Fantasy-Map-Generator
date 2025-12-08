@@ -2893,6 +2893,1362 @@
     "bases": [
       195
     ]
+  },
+  {
+    "iso": "aboriginal-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "afro-seminole-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "agalega-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "aku",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "alentejan",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "aleppine-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "algonquian-basque-pidgin",
+    "bases": [
+      20
+    ]
+  },
+  {
+    "iso": "american-indian-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "anatolian-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "angolar-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "anguillian-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "annobonese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "antillean-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "ara",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "australian-kriol",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "badong-yao",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "baghdadi-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "bahamian-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "bajan-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "bamboo-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "barikanchi-pidgin",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "barlavento-creoles",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "barranquenho",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "basque-icelandic-pidgin",
+    "bases": [
+      20
+    ]
+  },
+  {
+    "iso": "belizean-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "bengali-portuguese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "ber",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "bidau-creole-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "bimbashi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "bislama",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "bocas-del-toro-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "bongor-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "bonin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "bourbonnais-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "brazilian-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "broome-pearling-lugger-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "butler-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "cameroonian-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "cameroonian-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "cannanore-portuguese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "central-atlas-tamazight",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "central-transdanubian",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "chagossian-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "chinese-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "cilician-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "cochin-portuguese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "cs-ng-",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "cypriot-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "cypriot-maronite-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "daman",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "daman-and-diu-portuguese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "damascene-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "deu",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "diu",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "dominican-creole-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "e",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "ell",
+    "bases": [
+      7
+    ]
+  },
+  {
+    "iso": "eng",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "english-based-caribbean-creoles-family",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "english-based-pacific-creoles-family",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "eskimo-trade-jargon",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "estremenho",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "european-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "eus",
+    "bases": [
+      20
+    ]
+  },
+  {
+    "iso": "fogo-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "forro-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "fra",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "fran-ais-tirailleur",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "french-guianese-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "gadal",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "ghanaian-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "gilit-dialects",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "gle",
+    "bases": [
+      22
+    ]
+  },
+  {
+    "iso": "grenadian-creole-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "grenadian-creole-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "guinea-bissau-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "gullah",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "guyanese-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "hawaiian-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "hawaiian-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "hezhou",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "hokkaido-ainu",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "hokkaido-dialects",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "hun",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "indo-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "indo-portuguese-creole-of-bombay",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "iraqi-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ita",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "italian-eritrean",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "japanese-bamboo-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "japanese-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "jewish-baghdadi-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "jordanian-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "jpn",
+    "bases": [
+      12
+    ]
+  },
+  {
+    "iso": "juba-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-baghdadi",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "judeo-iraqi-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "judeo-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "judeo-syrian-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "kabyle",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "kanbun-kundoku",
+    "bases": [
+      12
+    ]
+  },
+  {
+    "iso": "karip-na-french-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "khuzestani-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "kiautschou-pidgin-german",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "kikar",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "korean-bamboo-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "korlai-portuguese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "krio",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "kristang",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "kru-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "kuril-ainu",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "kuril-dialects",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "kyakhta-russian-chinese-pidgin",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "lebanese-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "leeward-caribbean-creole-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "levantine-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "liberian-interior-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "liberian-kreyol",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "limonese-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "lingling",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "louisiana-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "macanese-patois",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "manglish",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "maojia",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "mardijker-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "maridi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "melanesian-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "merico",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "mesopotamian-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "micronesian-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "minderico",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "mineiro",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "miskito-coast-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "missingsch",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "modern-palestinian-judeo-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "montserrat-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "nah",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "namibian-black-german",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "nauru-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "ngatikese-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "nigerian-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "north-levantine-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "north-mesopotamian-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "northeast-hungary",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "northern-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "nubi",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "old-hungarian",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "oliventine",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "pal-c",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "palestinian-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "papua-new-guinea-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "papuan-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "pichinglis",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "pidgin-hawaiian",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "pijin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "pitcairn-norfolk",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "por",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "port-jackson-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "portugis",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "principense-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "proto-ainu",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "proto-hokkaido-kuril",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "proto-sakhalin",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "qeltu-dialects",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "que",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "queensland-kanaka-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "r-union-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "rama-cay-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "rodriguan-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "s-o-nicolau-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "s-o-vicente-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "saint-kitts-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "saint-lucian-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "sakhalin-ainu",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "sakhalin-dialects",
+    "bases": [
+      275
+    ]
+  },
+  {
+    "iso": "samoan-plantation-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "san-andres-providencia-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "santiago-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "santo-ant-o-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "settler-swahili",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "shawi-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "shawiya",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "she-chinese",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "shilha",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "simplified-italian-of-libya",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "simplified-italian-of-somalia",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "singlish",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "solombala-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "solomon-islands-pijin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "sotavento-creoles",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "south-levantine-arabic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "south-mesopotamian-arabic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "southern-great-plain",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "southern-transdanubian",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "sri-lankan-portuguese-creole",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "swa",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "sz-kely",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "t-y-b-i-pidgin-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "tangwang",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "tansi",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "tarifit",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tayo-creole",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "thai-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "tisza-k-r-s",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "tobagonian-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "torres-strait-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "transylvanian-plain",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "trinidadian-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "tuareg-tamasheq",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tur",
+    "bases": [
+      16
+    ]
+  },
+  {
+    "iso": "turks-and-caicos-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "turku-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "unserdeutsch",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "uruguayan-portuguese",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "vie",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vincentian-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "virgin-islands-creole",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "waxiang",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "west-african-pidgin-english",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "western-transdanubian",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "xieheyu",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "yeheni",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "yilan-creole-japanese",
+    "bases": [
+      12
+    ]
+  },
+  {
+    "iso": "yokohama-pidgin-japanese",
+    "bases": [
+      12
+    ]
+  },
+  {
+    "iso": "younian",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "yue",
+    "bases": [
+      30
+    ]
   }
 ];
 })();

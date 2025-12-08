@@ -439,173 +439,6 @@
     "family": "Niger-Congo"
   },
   {
-    "name": "Afar",
-    "iso": "afar",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Afroasiatic family",
-    "iso": "afroasiatic-family",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "tags": [
-      "family"
-    ],
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Amh",
-    "iso": "amh",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Ancient Egyptian",
-    "iso": "ancient-egyptian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Aramaic",
-    "iso": "aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Assyrian Neo Aramaic",
-    "iso": "assyrian-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Beja",
-    "iso": "beja",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Coptic",
-    "iso": "coptic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Gamo Gofa Dawro",
-    "iso": "gamo-gofa-dawro",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Ganza",
-    "iso": "ganza",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Geez",
-    "iso": "geez",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Hadiyya",
-    "iso": "hadiyya",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Hau",
-    "iso": "hau",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Heb",
-    "iso": "heb",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Maltese",
-    "iso": "maltese",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Mehri",
-    "iso": "mehri",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Orm",
-    "iso": "orm",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Sidama",
-    "iso": "sidama",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Som",
-    "iso": "som",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Tigre",
-    "iso": "tigre",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Tir",
-    "iso": "tir",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Ugaritic",
-    "iso": "ugaritic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Other Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Wolaitta",
-    "iso": "wolaitta",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
     "name": "Akkadian",
     "iso": "akkadian",
     "category": "Afroasiatic",
@@ -659,30 +492,6 @@
     "region": "Arctic",
     "category": "Eskimo-Aleut",
     "family": "Yupik"
-  },
-  {
-    "name": "Indonesian",
-    "iso": "indonesian",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Indonesian_language",
-    "family": "Austronesian"
-  },
-  {
-    "name": "Malay",
-    "iso": "malay",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Malay_language",
-    "family": "Austronesian"
-  },
-  {
-    "name": "Tagalog",
-    "iso": "tagalog",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tagalog_language",
-    "family": "Austronesian"
   },
   {
     "name": "Ainu",
@@ -1572,14 +1381,6 @@
     "lexifier": "Portuguese"
   },
   {
-    "name": "Nungish",
-    "iso": "nungish",
-    "region": "Sino-Tibetan region",
-    "category": "Sino-Tibetan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nungish_languages",
-    "family": "Sino-Tibetan"
-  },
-  {
     "name": "Anguillian Creole",
     "iso": "anguillian-creole",
     "region": "Caribbean",
@@ -1643,7 +1444,8 @@
     "tags": [
       "family",
       "creole"
-    ]
+    ],
+    "lexifier": "English"
   },
   {
     "name": "Garifuna",
@@ -6911,14 +6713,6 @@
     "lexifier": "Portuguese"
   },
   {
-    "name": "Newaric",
-    "iso": "newaric",
-    "region": "Sino-Tibetan region",
-    "category": "Sino-Tibetan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Newaric_languages",
-    "family": "Sino-Tibetan"
-  },
-  {
     "name": "Agalega Creole",
     "iso": "agalega-creole",
     "region": "Indian Ocean",
@@ -7155,6 +6949,23 @@
     "family": "Peninsular"
   },
   {
+    "name": "Afar",
+    "iso": "afar",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Afroasiatic family",
+    "iso": "afroasiatic-family",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "tags": [
+      "family"
+    ],
+    "family": "Afroasiatic"
+  },
+  {
     "name": "Aleppine Arabic",
     "iso": "aleppine-arabic",
     "region": "Middle East",
@@ -7174,6 +6985,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
+  },
+  {
+    "name": "Amh",
+    "iso": "amh",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Amharic",
@@ -7214,6 +7032,13 @@
     "family": "Mesopotamian"
   },
   {
+    "name": "Ancient Egyptian",
+    "iso": "ancient-egyptian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
     "name": "Ancient North Arabian",
     "iso": "ancient-north-arabian",
     "region": "Middle East",
@@ -7236,6 +7061,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Arabic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Aramaic",
+    "iso": "aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
@@ -7264,6 +7096,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Assyrian Neo Aramaic",
+    "iso": "assyrian-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
   },
   {
     "name": "Awsānian",
@@ -7340,6 +7179,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Modern South Arabian"
+  },
+  {
+    "name": "Beja",
+    "iso": "beja",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -7468,6 +7314,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Middle Aramaic"
+  },
+  {
+    "name": "Coptic",
+    "iso": "coptic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Corfiot Maltese",
@@ -7677,6 +7530,27 @@
     ]
   },
   {
+    "name": "Gamo Gofa Dawro",
+    "iso": "gamo-gofa-dawro",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Ganza",
+    "iso": "ganza",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Geez",
+    "iso": "geez",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
     "name": "Geʽez",
     "iso": "ge-ez",
     "region": "Middle East",
@@ -7733,6 +7607,13 @@
     "family": "Peninsular"
   },
   {
+    "name": "Hadiyya",
+    "iso": "hadiyya",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
     "name": "Hadramautic",
     "iso": "hadramautic",
     "region": "Middle East",
@@ -7786,6 +7667,20 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Middle Aramaic"
+  },
+  {
+    "name": "Hau",
+    "iso": "hau",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Heb",
+    "iso": "heb",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Hebrew",
@@ -8160,6 +8055,13 @@
     "family": "Maghrebi"
   },
   {
+    "name": "Maltese",
+    "iso": "maltese",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
     "name": "Maltralian",
     "iso": "maltralian",
     "region": "Middle East",
@@ -8193,6 +8095,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "South Canaanite"
+  },
+  {
+    "name": "Mehri",
+    "iso": "mehri",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
   },
   {
     "name": "Mesmes",
@@ -8410,6 +8319,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Peninsular"
+  },
+  {
+    "name": "Orm",
+    "iso": "orm",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Palestinian Arabic",
@@ -8687,6 +8603,13 @@
     "family": "Maghrebi"
   },
   {
+    "name": "Sidama",
+    "iso": "sidama",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
     "name": "Silt'e",
     "iso": "silte",
     "region": "Middle East",
@@ -8699,6 +8622,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Outer"
+  },
+  {
+    "name": "Som",
+    "iso": "som",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Soqotri",
@@ -8828,6 +8758,13 @@
     ]
   },
   {
+    "name": "Tigre",
+    "iso": "tigre",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Ethiopic"
+  },
+  {
     "name": "Tigrinya",
     "iso": "tigrinya",
     "region": "Middle East",
@@ -8840,6 +8777,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Peninsular"
+  },
+  {
+    "name": "Tir",
+    "iso": "tir",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Trans-Zab",
@@ -8868,6 +8812,16 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Central Neo-Aramaic"
+  },
+  {
+    "name": "Ugaritic",
+    "iso": "ugaritic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Canaanite",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Ulbare",
@@ -8917,6 +8871,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
+  },
+  {
+    "name": "Wolaitta",
+    "iso": "wolaitta",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
   },
   {
     "name": "Wolane",
@@ -9678,6 +9639,17 @@
       "pidgin"
     ],
     "lexifier": "Gwich'in"
+  },
+  {
+    "name": "Macanese Patois",
+    "iso": "macanese-patois",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ],
+    "lexifier": "Portuguese"
   },
   {
     "name": "Madras Bashai",
@@ -10617,28 +10589,6 @@
     "family": "Uto-Aztecan"
   },
   {
-    "name": "Macanese Patois",
-    "iso": "macanese-patois",
-    "region": "Misc",
-    "category": "Creole",
-    "family": "Portuguese-based",
-    "tags": [
-      "creole"
-    ],
-    "lexifier": "Portuguese"
-  },
-  {
-    "name": "English-based Pacific creoles family",
-    "iso": "english-based-pacific-creoles-family",
-    "region": "Pacific",
-    "category": "Creole",
-    "family": "English-based",
-    "tags": [
-      "family",
-      "creole"
-    ]
-  },
-  {
     "name": "Australian Kriol",
     "iso": "australian-kriol",
     "region": "Pacific",
@@ -10682,6 +10632,18 @@
     "family": "Micronesian"
   },
   {
+    "name": "English-based Pacific creoles family",
+    "iso": "english-based-pacific-creoles-family",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "family",
+      "creole"
+    ],
+    "lexifier": "English"
+  },
+  {
     "name": "Fijian",
     "iso": "fijian",
     "region": "Pacific",
@@ -10701,12 +10663,28 @@
     "lexifier": "English"
   },
   {
+    "name": "Indonesian",
+    "iso": "indonesian",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indonesian_language",
+    "family": "Austronesian"
+  },
+  {
     "name": "Kiribati",
     "iso": "kiribati",
     "region": "Pacific",
     "category": "Micronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Gilbertese_language",
     "family": "Micronesian"
+  },
+  {
+    "name": "Malay",
+    "iso": "malay",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malay_language",
+    "family": "Austronesian"
   },
   {
     "name": "Māori",
@@ -10803,6 +10781,14 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Tagalog",
+    "iso": "tagalog",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tagalog_language",
+    "family": "Austronesian"
   },
   {
     "name": "Tahitian",
@@ -11498,6 +11484,22 @@
     "family": "Sino-Tibetan"
   },
   {
+    "name": "Newaric",
+    "iso": "newaric",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Newaric_languages",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Nungish",
+    "iso": "nungish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nungish_languages",
+    "family": "Sino-Tibetan"
+  },
+  {
     "name": "Ole",
     "iso": "ole",
     "region": "Sino-Tibetan region",
@@ -11560,6 +11562,18 @@
     "iso": "proto-tibeto-burman",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ],
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Proto-Karenic",
+    "iso": "proto-karenic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages",
     "tags": [
       "extinct",
       "unclassified"
@@ -11746,18 +11760,6 @@
     "iso": "zho",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
-  },
-  {
-    "name": "Proto-Karenic",
-    "iso": "proto-karenic",
-    "region": "Sino-Tibetan region",
-    "category": "Sino-Tibetan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages",
-    "tags": [
-      "extinct",
-      "unclassified"
-    ],
     "family": "Sino-Tibetan"
   },
   {

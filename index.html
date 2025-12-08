@@ -4935,6 +4935,13 @@
             </label>
             <button id="namesbaseMixerAdd" class="icon-plus" data-tip="Add selected language to the mix"></button>
             <button id="namesbaseMixerEven" class="icon-adjust" data-tip="Distribute weights evenly"></button>
+            <button
+              id="namesbaseMixerAddRandom"
+              class="icon-button-die"
+              data-tip="Add a random language matching the current filters to the mix"
+            >
+              Add random language
+            </button>
           </div>
 
           <div style="max-height: 12em; overflow-y: auto; border: 1px solid #999; border-radius: 4px">
@@ -4973,13 +4980,6 @@
               data-tip="Generate names locally on your device using the Markov mixer and the current language mix. No external AI or web access."
             >
               Generate (Local)
-            </button>
-            <button
-              id="namesbaseMixerAddRandom"
-              class="icon-button-die"
-              data-tip="Add a random language matching the current filters to the mix"
-            >
-              Add random language
             </button>
           </div>
 
@@ -5031,6 +5031,7 @@
               <select id="namesbaseMixerInsertMode">
                 <option value="append">Append to existing data</option>
                 <option value="replace">Replace names data</option>
+                <option value="new">Add new language</option>
               </select>
             </label>
             <button id="namesbaseMixerInsert" class="icon-download" data-tip="Insert generated names into the current namesbase">

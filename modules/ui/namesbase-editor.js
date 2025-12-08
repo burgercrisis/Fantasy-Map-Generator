@@ -71,8 +71,9 @@ function editNamesbase() {
 
   function getRandomWeightNearOne() {
     const u = (Math.random() + Math.random() + Math.random()) / 3;
-    const value = Math.round(1 + (u - 0.5) * 4);
-    return value < 1 ? 1 : value > 1000 ? 1000 : value;
+    const raw = 1 + (u - 0.5) * 4;
+    const value = Math.round(raw * 100) / 100;
+    return clamp(value, 0.01, 1000);
   }
 
   if (mixerLanguageSelect) initLanguageMixer();
@@ -625,7 +626,7 @@ function editNamesbase() {
         </td>
         <td>${meta?.region || ""}</td>
         <td>
-          <input type="number" min="1" max="1000" value="${lang.weight}" class="namesbaseMixerWeight" style="width:5em" />
+          <input type="number" min="0.01" max="1000" step="0.01" value="${lang.weight.toFixed(2)}" class="namesbaseMixerWeight" style="width:5em" />
         </td>
         <td>
           <button class="icon-shuffle namesbaseMixerRandomizeWeight" data-iso="${lang.iso}" data-tip="Randomize weight"></button>
@@ -639,8 +640,13 @@ function editNamesbase() {
       input.addEventListener("input", function () {
         const iso = this.closest("tr").dataset.iso;
         const lang = mixer.languages.find(l => l.iso === iso);
-        const value = +this.value;
-        lang.weight = value > 0 ? value : 1;
+        let value = parseFloat(this.value);
+        if (isNaN(value)) value = 1;
+        if (value <= 0) value = 0.01;
+        if (value > 1000) value = 1000;
+        value = Math.round(value * 100) / 100;
+        lang.weight = value;
+        this.value = value.toFixed(2);
       });
     });
 
@@ -659,7 +665,7 @@ function editNamesbase() {
         const newWeight = getRandomWeightNearOne();
         lang.weight = newWeight;
         const input = button.closest("tr").querySelector(".namesbaseMixerWeight");
-        if (input) input.value = newWeight;
+        if (input) input.value = newWeight.toFixed(2);
       });
     });
   }
@@ -674,6 +680,83 @@ function editNamesbase() {
 
   function getMixerMeta(iso) {
     return mixer.catalog?.find(lang => lang.iso === iso);
+  }
+
+  function generateMixerLanguageName() {
+    if (!mixer.languages.length) return "";
+
+    const samples = mixer.languages
+      .map(lang => {
+        const meta = getMixerMeta(lang.iso);
+        return (meta && meta.name) || lang.iso || "";
+      })
+      .map(n => String(n).trim())
+      .filter(Boolean);
+
+    if (!samples.length) return "";
+
+    // If there is only one sample, just reuse it
+    if (samples.length === 1) return samples[0];
+
+    const text = samples.join(",");
+    let chain;
+    try {
+      chain = Names.calculateChain(text);
+    } catch (error) {
+      ERROR && console.error("Failed to calculate mixer language name chain", error);
+      return "";
+    }
+
+    if (!chain || chain[""] === undefined) return "";
+
+    const min = 4;
+    const max = 14;
+
+    function pickRandom(list) {
+      if (!Array.isArray(list) || !list.length) return "";
+      return list[Math.floor(Math.random() * list.length)] || "";
+    }
+
+    let v = chain[""];
+    let cur = pickRandom(v);
+    let w = "";
+
+    for (let i = 0; i < 30; i++) {
+      if (cur === "") {
+        if (w.length < min) {
+          cur = "";
+          w = "";
+          v = chain[""];
+        } else break;
+      } else {
+        if (w.length + cur.length > max) {
+          if (w.length < min) w += cur;
+          break;
+        } else {
+          const lastChar = cur.charAt(cur.length - 1) || "";
+          v = chain[lastChar] || chain[""];
+        }
+      }
+
+      w += cur;
+      cur = pickRandom(v);
+    }
+
+    let name = w.trim();
+    if (!name || name.length < 3) return "";
+
+    // Normalize casing: title-case, keep internal spaces/hyphens
+    name = name
+      .split(/([\s-]+)/)
+      .map((part, idx) => {
+        if (/^[\s-]+$/.test(part)) return part;
+        if (!part) return part;
+        const lower = part.toLowerCase();
+        return lower.charAt(0).toUpperCase() + lower.slice(1);
+      })
+      .join("");
+
+    return name;
   }
 
   async function generateMixerNames() {
@@ -804,6 +887,35 @@ Guidelines:
 
     const textarea = document.getElementById("namesbaseTextarea");
     const mode = mixerInsertMode.value;
+
+    const uniqueNewNames = Array.from(new Set(names)).filter(Boolean);
+
+    if (mode === "new") {
+      if (!uniqueNewNames.length) return tip("No generated names to insert", false, "warn");
+
+      const base = nameBases.length;
+      const selectedIndex = +document.getElementById("namesbaseSelect").value || 0;
+      const sourceBase = nameBases[selectedIndex];
+
+      const fallbackName = sourceBase && sourceBase.name ? `${sourceBase.name} mix` : "Base" + base;
+      const generatedName = generateMixerLanguageName();
+      const baseName = generatedName || fallbackName;
+      const min = sourceBase && typeof sourceBase.min === "number" ? sourceBase.min : 5;
+      const max = sourceBase && typeof sourceBase.max === "number" ? sourceBase.max : 12;
+      const d = sourceBase && typeof sourceBase.d === "string" ? sourceBase.d : "";
+      const m = sourceBase && typeof sourceBase.m === "number" ? sourceBase.m : 0;
+      const b = uniqueNewNames.join(", ");
+
+      nameBases.push({name: baseName, min, max, d, m, b});
+
+      createBasesList();
+      const select = document.getElementById("namesbaseSelect");
+      select.value = base;
+      updateInputs();
+
+      setMixerStatus(`${names.length} names added as a new language.`, "success");
+      return;
+    }
 
     const existing = textarea.value
       ? textarea.value

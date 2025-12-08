@@ -42,6 +42,67 @@ const explicitIsoBaseMap = {
   "pretoria-sotho": 152
 };
 
+// Fallback mapping from common language tokens to base indices. This
+// helps auto-map dialects and regional varieties like "Bolivian Spanish"
+// or "Chilean Arabic" even when their names do not directly match a
+// namebase entry.
+const tokenBaseIndexMap = {
+  // Romance / Latin
+  spanish: 4,
+  castilian: 4,
+  latin: 4,
+  portuguese: 13,
+  french: 2,
+  italian: 3,
+  catalan: 2,
+
+  // Germanic
+  german: 0,
+  dutch: 0,
+  english: 1,
+  swedish: 6,
+  norwegian: 6,
+  danish: 6,
+  finnish: 9,
+  icelandic: 6,
+
+  // Slavic / related
+  russian: 5,
+  ukrainian: 5,
+  polish: 5,
+  czech: 5,
+  serbian: 5,
+  bulgarian: 5,
+
+  // Semitic
+  arabic: 18,
+  aramaic: 23,
+  hebrew: 23,
+  akkadian: 23,
+  mesopotamian: 23,
+
+  // Uralic / Finnic / Sami buckets
+  sami: 9,
+  uralic: 9,
+
+  // Other families / regions with dedicated bases
+  basque: 20,
+  celtic: 22,
+  nigerian: 21,
+  quechua: 27,
+  nahuatl: 14,
+  swahili: 28,
+  mongolian: 31,
+  chinese: 11,
+  cantonese: 30,
+  japanese: 12,
+  korean: 10,
+  vietnamese: 29,
+  turkish: 16,
+  berber: 17,
+  hawaiian: 25
+};
+
 function readJson(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8").replace(/^\uFEFF/, "");
@@ -55,20 +116,34 @@ function writeJson(relPath, data) {
 }
 
 function loadNamebases() {
-  const file = path.join(root, "modules", "namebases-fantasy.js");
-  const src = fs.readFileSync(file, "utf8");
+  const files = [
+    path.join(root, "modules", "namebases-real.js"),
+    path.join(root, "modules", "namebases-fantasy.js"),
+    path.join(root, "modules", "namebases-creole.js")
+  ];
 
   const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
   const byName = new Map();
   const indices = new Set();
 
-  let m;
-  while ((m = re.exec(src))) {
-    const name = m[1];
-    const index = Number(m[2]);
-    if (!Number.isNaN(index)) {
-      byName.set(name.toLowerCase(), index);
-      indices.add(index);
+  for (const file of files) {
+    let src;
+    try {
+      src = fs.readFileSync(file, "utf8");
+    } catch (e) {
+      console.error("Failed to read namebases file", file, e.message || e);
+      continue;
+    }
+
+    let m;
+    while ((m = re.exec(src))) {
+      const name = m[1];
+      const index = Number(m[2]);
+      if (!Number.isNaN(index)) {
+        const key = name.toLowerCase();
+        if (!byName.has(key)) byName.set(key, index);
+        indices.add(index);
+      }
     }
   }
 
@@ -80,6 +155,46 @@ function main() {
   let map = readJson("config/language-mixer-map.json");
 
   const namebases = loadNamebases();
+
+  function resolveBaseByNameLike(name) {
+    if (!name) return null;
+    const raw = String(name).trim();
+    if (!raw) return null;
+    const lower = raw.toLowerCase();
+    const variants = [];
+    if (lower) variants.push(lower);
+
+    const stripped = lower.replace(/\s+(language|languages|creole|creoles|family|group|dialect|dialects)$/g, "").trim();
+    if (stripped && stripped !== lower && !variants.includes(stripped)) variants.push(stripped);
+
+    const dehyphen = lower.replace(/[-–]+/g, " ").trim();
+    if (dehyphen && !variants.includes(dehyphen)) variants.push(dehyphen);
+
+    for (const key of variants) {
+      const idx = namebases.byName.get(key);
+      if (typeof idx === "number") return idx;
+    }
+
+    return null;
+  }
+
+  function resolveBaseByTokens(text) {
+    if (!text) return null;
+    const raw = String(text).toLowerCase();
+    if (!raw) return null;
+    const tokens = raw.split(/[^a-z]+/g).filter(Boolean);
+    let resolved = null;
+    for (const token of tokens) {
+      const idx = tokenBaseIndexMap[token];
+      if (typeof idx !== "number") continue;
+      if (resolved == null) {
+        resolved = idx;
+      } else if (resolved !== idx) {
+        return null;
+      }
+    }
+    return resolved;
+  }
 
   // First, normalize the existing map: drop any bases that do not
   // correspond to a real namebase index. If an entry ends up with no
@@ -121,18 +236,15 @@ function main() {
   function findBaseIndexForLang(lang) {
     if (!lang) return null;
 
-    // 0) Explicit overrides by ISO.
     if (lang.iso && Object.prototype.hasOwnProperty.call(explicitIsoBaseMap, lang.iso)) {
       return explicitIsoBaseMap[lang.iso];
     }
 
-    // 1) Direct namebase by exact name match.
     if (lang.name) {
-      const idx = namebases.byName.get(lang.name.toLowerCase());
-      if (typeof idx === "number") return idx;
+      const byName = namebases.byName.get(lang.name.toLowerCase());
+      if (typeof byName === "number") return byName;
     }
 
-    // 2) Try lexifier: reuse the same base index as the lexifier language.
     const lex = lang.lexifier || null;
     if (lex) {
       const lexMeta = mixes.find(m => m.name === lex || m.iso === (lex.iso || lex));
@@ -142,9 +254,11 @@ function main() {
           return lexMap.bases[0];
         }
       }
+
+      const lexIdx = resolveBaseByNameLike(lex);
+      if (typeof lexIdx === "number") return lexIdx;
     }
 
-    // 3) Try family (e.g. Kongo-based -> Kongo).
     const family = lang.family || "";
     if (family) {
       const familyKey = family.replace(/-based$/i, "").trim();
@@ -156,8 +270,32 @@ function main() {
             return famMap.bases[0];
           }
         }
+
+        const famIdx = resolveBaseByNameLike(familyKey);
+        if (typeof famIdx === "number") return famIdx;
       }
     }
+
+    const isoIdx = resolveBaseByNameLike(lang.iso || "");
+    if (typeof isoIdx === "number") return isoIdx;
+
+    const familyIdx = resolveBaseByNameLike(lang.family || "");
+    if (typeof familyIdx === "number") return familyIdx;
+
+    const categoryIdx = resolveBaseByNameLike(lang.category || "");
+    if (typeof categoryIdx === "number") return categoryIdx;
+
+    const nameTokenIdx = resolveBaseByTokens(lang.name || "");
+    if (typeof nameTokenIdx === "number") return nameTokenIdx;
+
+    const lexTokenIdx = resolveBaseByTokens(lang.lexifier || "");
+    if (typeof lexTokenIdx === "number") return lexTokenIdx;
+
+    const familyTokenIdx = resolveBaseByTokens(lang.family || "");
+    if (typeof familyTokenIdx === "number") return familyTokenIdx;
+
+    const isoTokenIdx = resolveBaseByTokens(lang.iso || "");
+    if (typeof isoTokenIdx === "number") return isoTokenIdx;
 
     return null;
   }

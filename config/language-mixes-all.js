@@ -1449,7 +1449,8 @@
     "tags": [
       "family",
       "creole"
-    ]
+    ],
+    "lexifier": "English"
   },
   {
     "name": "Garifuna",
@@ -10644,7 +10645,8 @@
     "tags": [
       "family",
       "creole"
-    ]
+    ],
+    "lexifier": "English"
   },
   {
     "name": "Fijian",

@@ -70,7 +70,7 @@ async function generateWithOpenAI({key, model, prompt, temperature, onContent}) 
 
 async function generateWithGemini({key, model, prompt, temperature, onContent, webAccess}) {
   const url =
-    "https://generativelanguage.googleapis.com/v1beta/models/" +
+    "https://generativelanguage.googleapis.com/v1/models/" +
     encodeURIComponent(model) +
     ":streamGenerateContent?key=" +
     encodeURIComponent(key);
