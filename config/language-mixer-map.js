@@ -1092,6 +1092,24 @@
     ]
   },
   {
+    "iso": "daco-romanian",
+    "bases": [
+      43
+    ]
+  },
+  {
+    "iso": "northern-romanian",
+    "bases": [
+      43
+    ]
+  },
+  {
+    "iso": "eastern-romanian",
+    "bases": [
+      43
+    ]
+  },
+  {
     "iso": "rup",
     "bases": [
       44

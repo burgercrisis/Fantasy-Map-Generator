@@ -1142,26 +1142,44 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Romansh_language"
   },
   {
-    "name": "Ron",
+    "name": "Romanian (Daco-Romanian)",
     "iso": "ron",
     "region": "Europe",
     "category": "Romance"
   },
   {
-    "name": "Ruo",
-    "iso": "ruo",
+    "name": "Daco-Romanian",
+    "iso": "daco-romanian",
     "region": "Europe",
     "category": "Romance"
   },
   {
-    "name": "Rup",
+    "name": "Northern Romanian",
+    "iso": "northern-romanian",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Eastern Romanian",
+    "iso": "eastern-romanian",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Aromanian",
     "iso": "rup",
     "region": "Europe",
     "category": "Romance"
   },
   {
-    "name": "Ruq",
+    "name": "Megleno-Romanian",
     "iso": "ruq",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Istro-Romanian",
+    "iso": "ruo",
     "region": "Europe",
     "category": "Romance"
   },

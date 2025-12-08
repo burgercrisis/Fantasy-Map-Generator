@@ -648,6 +648,34 @@ window.Cultures = (function () {
           sort: i => n(i) / (bd(i, [1, 2, 3], 8) * td(i, 26)),
           shield: "fantasy2"
         },
+        {
+          name: "Oni Warbands (Oni)",
+          base: 83,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [4, 6, 9], 8) * td(i, 4)),
+          shield: "oldFrench"
+        },
+        {
+          name: "Foxfire Clans (Kitsune)",
+          base: 84,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [4, 6, 8, 9], 10) * td(i, 8)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Abyssal Deepkin (Deepkin)",
+          base: 85,
+          odd: 0.2,
+          sort: i => n(i) / (sf(i, 10) * bd(i, [3, 5, 7, 12], 8) * td(i, 20)),
+          shield: "swiss"
+        },
+        {
+          name: "Starspawn Conclaves (Starspawn)",
+          base: 86,
+          odd: 0.15,
+          sort: i => (n(i) + h[i]) / (bd(i, [2, 9, 10], 10) * td(i, -10)),
+          shield: "banner"
+        },
         // fantasy human
         {name: "Anor (Human)", base: 32, odd: 1, sort: i => n(i) / td(i, 10), shield: "fantasy5"},
         {name: "Dail (Human)", base: 32, odd: 1, sort: i => n(i) / td(i, 13), shield: "roman"},
@@ -1011,6 +1039,34 @@ window.Cultures = (function () {
           odd: 0.1,
           sort: i => n(i) / (bd(i, [1, 2, 3], 8) * td(i, 26)),
           shield: "fantasy2"
+        },
+        {
+          name: "Oni Warhosts",
+          base: 83,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [4, 6, 9], 8) * td(i, 2)),
+          shield: "oldFrench"
+        },
+        {
+          name: "Foxfire Courts",
+          base: 84,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [4, 6, 8, 9], 10) * td(i, 8)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Abyssal Deepkin",
+          base: 85,
+          odd: 0.08,
+          sort: i => n(i) / (sf(i, 10) * bd(i, [3, 5, 7, 12], 8) * td(i, 22)),
+          shield: "swiss"
+        },
+        {
+          name: "Starspawn Covens",
+          base: 86,
+          odd: 0.08,
+          sort: i => (n(i) + h[i]) / (bd(i, [2, 9, 10], 12) * td(i, -12)),
+          shield: "banner"
         }
       ];
     }
