@@ -44,6 +44,7 @@
     "iso": "african-romance",
     "region": "Africa",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/African_Romance",
     "family": "Latin",
     "tags": [
       "extinct"
@@ -179,7 +180,10 @@
     "iso": "angas-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Aringa",
@@ -298,7 +302,10 @@
     "iso": "bade-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Baka",
@@ -495,21 +502,21 @@
     "iso": "bemba",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Bembe (Congo)",
     "iso": "bembe-congo",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Bembe (DRC)",
     "iso": "bembe-drc",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Berber",
@@ -608,7 +615,10 @@
     "iso": "biu-mandara-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Biu–Mandara",
@@ -671,7 +681,10 @@
     "iso": "bole-tangale-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Bole–Tangale",
@@ -1214,7 +1227,10 @@
     "iso": "east-zenati-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Zenati Berber"
+    "family": "Zenati Berber",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Eastern Berber",
@@ -1257,6 +1273,14 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Equatoguinean Spanish",
+    "iso": "equatoguinean-spanish",
+    "region": "Africa",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Equatoguinean_Spanish",
+    "family": "Spanish"
   },
   {
     "name": "Esimbi",
@@ -1661,7 +1685,10 @@
     "iso": "hausa-gwandara-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Hausa–Gwandara",
@@ -2549,7 +2576,10 @@
     "iso": "north-bauchi-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "North Giziga language",
@@ -2584,7 +2614,10 @@
     "iso": "northern-berber-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Northern Berber"
+    "family": "Northern Berber",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Nteng language",
@@ -2731,7 +2764,8 @@
     "family": "Proto-Berber",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -2742,7 +2776,8 @@
     "family": "Chadic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -2753,7 +2788,8 @@
     "family": "Chadic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -2761,7 +2797,10 @@
     "iso": "psikye-dialect",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Putai language",
@@ -2810,7 +2849,10 @@
     "iso": "ron-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Saba language",
@@ -2818,6 +2860,13 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Saharan Spanish",
+    "iso": "saharan-spanish",
+    "region": "Africa",
+    "category": "Romance",
+    "family": "Spanish"
   },
   {
     "name": "Saho–Afar",
@@ -2899,7 +2948,7 @@
     "iso": "shona",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Siri (Chadic)",
@@ -2929,7 +2978,10 @@
     "iso": "somali-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Cushitic"
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Somrai language",
@@ -2957,7 +3009,10 @@
     "iso": "south-bauchi-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "South Cushitic",
@@ -3087,6 +3142,13 @@
     "family": "Tuareg Berber"
   },
   {
+    "name": "Tetuani",
+    "iso": "tetuani",
+    "region": "Africa",
+    "category": "Romance",
+    "family": "Judeo-Spanish"
+  },
+  {
     "name": "Tobanga language",
     "iso": "tobanga-language",
     "region": "Africa",
@@ -3126,7 +3188,10 @@
     "iso": "tuareg-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Tuareg Berber"
+    "family": "Tuareg Berber",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Tumak language",
@@ -3194,7 +3259,10 @@
     "iso": "west-chadic-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Chadic"
+    "family": "Chadic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Western Berber",
@@ -3208,7 +3276,10 @@
     "iso": "western-berber-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Western Berber"
+    "family": "Western Berber",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Western Somali",
@@ -3255,7 +3326,7 @@
   },
   {
     "name": "Yoruba",
-    "iso": "yor",
+    "iso": "yoruba",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
@@ -3263,7 +3334,7 @@
   },
   {
     "name": "Yoruba",
-    "iso": "yoruba",
+    "iso": "yor",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
@@ -3310,7 +3381,10 @@
     "iso": "zenati-languages",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Zenati Berber"
+    "family": "Zenati Berber",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Zirenkel language",
@@ -3695,7 +3769,7 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Balti_language",
-    "family": "Sino-Tibetan"
+    "family": "Bodish"
   },
   {
     "name": "Banda Malay",
@@ -3849,7 +3923,7 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Boro_language_(India)",
-    "family": "Sino-Tibetan"
+    "family": "Boro-Garo"
   },
   {
     "iso": "bonan",
@@ -4042,7 +4116,7 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kuki-Chin_languages",
-    "family": "Sino-Tibetan"
+    "family": "Kuki-Chin"
   },
   {
     "name": "Chinese Kyakala",
@@ -4409,7 +4483,7 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Fuqing_dialect",
-    "family": "Sino-Tibetan"
+    "family": "Min"
   },
   {
     "name": "Hokkaido Ainu",
@@ -4423,7 +4497,10 @@
     "iso": "hokkaido-dialects",
     "region": "Asia",
     "category": "Ainu",
-    "family": "Hokkaido"
+    "family": "Hokkaido",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Holiya",
@@ -4493,7 +4570,7 @@
   },
   {
     "name": "Japanese",
-    "iso": "jpn",
+    "iso": "jpn-lang",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
@@ -4501,7 +4578,7 @@
   },
   {
     "name": "Japanese",
-    "iso": "jpn-lang",
+    "iso": "jpn",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
@@ -4512,7 +4589,10 @@
     "iso": "japanese-dialects",
     "region": "Asia",
     "category": "Japonic",
-    "family": "Japanese dialects"
+    "family": "Japanese dialects",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Jeh",
@@ -4664,7 +4744,7 @@
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Kannada_language",
-    "family": "Dravidian"
+    "family": "South Dravidian"
   },
   {
     "name": "Kapampangan",
@@ -4800,6 +4880,7 @@
     "iso": "kha",
     "category": "Austroasiatic",
     "region": "Asia",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language",
     "family": "Khasic"
   },
   {
@@ -4821,6 +4902,7 @@
     "iso": "khm",
     "category": "Austroasiatic",
     "region": "Asia",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khmer_language",
     "family": "Khmeric"
   },
   {
@@ -5055,7 +5137,8 @@
     "category": "Ainu",
     "family": "Kuril",
     "tags": [
-      "extinct"
+      "extinct",
+      "dialect"
     ]
   },
   {
@@ -5279,7 +5362,7 @@
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malayalam",
-    "family": "Dravidian"
+    "family": "South Dravidian"
   },
   {
     "name": "Malto",
@@ -5428,6 +5511,7 @@
     "iso": "mnw",
     "category": "Austroasiatic",
     "region": "Asia",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mon_language",
     "family": "Monic"
   },
   {
@@ -5516,6 +5600,7 @@
     "iso": "mundari",
     "region": "Asia",
     "category": "Austroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mundari_language",
     "family": "Munda"
   },
   {
@@ -5909,6 +5994,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Philippine Spanish",
+    "iso": "philippine-spanish",
+    "region": "Asia",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
     "name": "Phu Thai",
     "iso": "phu-thai",
     "region": "Asia",
@@ -5948,7 +6040,8 @@
     "family": "Proto",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -5959,7 +6052,8 @@
     "family": "Proto",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -5971,7 +6065,8 @@
     "family": "Hlai",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -5982,7 +6077,8 @@
     "family": "Proto",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -5994,7 +6090,8 @@
     "family": "Kam-Sui",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -6006,7 +6103,8 @@
     "family": "Kra",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -6018,7 +6116,8 @@
     "family": "Kra-Dai",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -6040,7 +6139,8 @@
     "family": "Proto",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -6052,7 +6152,8 @@
     "family": "Tai",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -6185,7 +6286,8 @@
     "category": "Ainu",
     "family": "Sakhalin",
     "tags": [
-      "extinct"
+      "extinct",
+      "dialect"
     ]
   },
   {
@@ -6228,6 +6330,7 @@
     "iso": "sat",
     "category": "Austroasiatic",
     "region": "Asia",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santali_language",
     "family": "Munda"
   },
   {
@@ -6646,7 +6749,7 @@
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tamil_language",
-    "family": "Dravidian"
+    "family": "South Dravidian"
   },
   {
     "name": "Tampuan",
@@ -6689,7 +6792,7 @@
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Telugu_language",
-    "family": "Dravidian"
+    "family": "South-Central Dravidian"
   },
   {
     "name": "Temiar",
@@ -6816,7 +6919,10 @@
     "iso": "tungusic-languages",
     "region": "Asia",
     "category": "Tungusic",
-    "family": "Tungusic"
+    "family": "Tungusic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Turung",
@@ -7911,7 +8017,8 @@
     "family": "Proto-Georgian–Zan",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -7923,7 +8030,8 @@
     "family": "Proto-Kartvelian",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -8062,7 +8170,8 @@
     "iso": "yue",
     "category": "Sino-Tibetan",
     "region": "East Asia",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Cantonese",
+    "family": "Yue"
   },
   {
     "name": "Chinese Korean",
@@ -8334,7 +8443,10 @@
     "iso": "middle-korean",
     "region": "East Asia",
     "category": "Koreanic",
-    "family": "Koreanic"
+    "family": "Koreanic",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Mo Piu",
@@ -8392,7 +8504,8 @@
     "category": "Koreanic",
     "family": "Koreanic",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -8424,7 +8537,8 @@
     "family": "Hmong-Mien",
     "tags": [
       "extinct",
-      "proto"
+      "proto",
+      "historical"
     ]
   },
   {
@@ -8435,7 +8549,8 @@
     "family": "Hmong-Mien",
     "tags": [
       "extinct",
-      "proto"
+      "proto",
+      "historical"
     ]
   },
   {
@@ -8446,7 +8561,8 @@
     "family": "Koreanic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -8457,7 +8573,8 @@
     "family": "Hmong-Mien",
     "tags": [
       "extinct",
-      "proto"
+      "proto",
+      "historical"
     ]
   },
   {
@@ -8656,13 +8773,6 @@
     "family": "North Estonian"
   },
   {
-    "name": "American Finnish",
-    "iso": "american-finnish",
-    "region": "Eurasia",
-    "category": "Uralic",
-    "family": "Standard"
-  },
-  {
     "name": "Åsele",
     "iso": "-sele",
     "region": "Eurasia",
@@ -8709,7 +8819,13 @@
     "iso": "bjarmian-finnic",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Others"
+    "family": "Finnic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bjarmian_languages",
+    "tags": [
+      "finnic",
+      "bjarmian",
+      "extinct"
+    ]
   },
   {
     "name": "Bjarmian Sámi",
@@ -8827,7 +8943,7 @@
     "iso": "colloquial-finnish",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Standard"
+    "family": "Finnish"
   },
   {
     "name": "Core Mansi",
@@ -8944,7 +9060,7 @@
     "iso": "fingelska",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Standard"
+    "family": "Finnish"
   },
   {
     "name": "Finnmark Sami",
@@ -9541,7 +9657,10 @@
     "iso": "middle-botnian",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Western Dialects"
+    "family": "Western Dialects",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Middle Konda",
@@ -9550,7 +9669,8 @@
     "category": "Uralic",
     "family": "Eastern Mansi",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9560,7 +9680,8 @@
     "category": "Uralic",
     "family": "Western Mansi",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9752,7 +9873,10 @@
     "iso": "old-hungarian",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Hungarian"
+    "family": "Hungarian",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Old Komi",
@@ -9761,7 +9885,8 @@
     "category": "Uralic",
     "family": "Old Komi",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9860,7 +9985,8 @@
     "family": "Proto-Finnic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9871,7 +9997,8 @@
     "family": "Proto-Hungarian",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9882,7 +10009,8 @@
     "family": "Proto-Finnic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9893,7 +10021,8 @@
     "family": "Proto-Mari",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9904,7 +10033,8 @@
     "family": "Proto-Mordvinic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9915,7 +10045,8 @@
     "family": "Proto-Ob-Ugric",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9926,7 +10057,8 @@
     "family": "Proto-Permic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9937,7 +10069,8 @@
     "family": "Proto-Sami",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9948,7 +10081,8 @@
     "family": "Proto-Samoyedic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -9958,7 +10092,9 @@
     "category": "Uralic",
     "family": "Extinct/Unclassified",
     "tags": [
-      "extinct"
+      "extinct",
+      "proto",
+      "historical"
     ]
   },
   {
@@ -10075,7 +10211,7 @@
     "iso": "siberian-finnish",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Standard"
+    "family": "Finnish"
   },
   {
     "name": "Siberian Ingrian Finnish",
@@ -10274,7 +10410,7 @@
     "iso": "standard-finnish",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Standard"
+    "family": "Finnish"
   },
   {
     "name": "Surgut Khanty",
@@ -10534,6 +10670,17 @@
     "region": "Eurasia",
     "category": "Uralic",
     "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Uralic",
+    "iso": "uralic-family",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uralic_languages",
+    "tags": [
+      "family"
+    ],
+    "family": "Uralic"
   },
   {
     "name": "Uralic-Yukaghir",
@@ -11240,6 +11387,7 @@
     "iso": "castilian",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Castilian_Spanish",
     "family": "Spanish"
   },
   {
@@ -11261,6 +11409,7 @@
     "iso": "cat",
     "category": "Romance",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catalan_language",
     "family": "Eastern"
   },
   {
@@ -11334,34 +11483,6 @@
     "family": "Aragonese"
   },
   {
-    "name": "Chiac",
-    "iso": "chiac",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
-    "name": "Chilean Spanish",
-    "iso": "chilean-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
-    "name": "Chilote",
-    "iso": "chilote",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
-    "name": "Chipilo",
-    "iso": "chipilo",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Venetian"
-  },
-  {
     "name": "Chuvash",
     "iso": "chuvash",
     "region": "Europe",
@@ -11375,13 +11496,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Neapolitan"
-  },
-  {
-    "name": "Colombian Spanish",
-    "iso": "colombian-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
   },
   {
     "name": "Comasco-Lecchese",
@@ -11516,6 +11630,7 @@
     "tags": [
       "family"
     ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Eastern_Romance_languages",
     "family": "Romance"
   },
   {
@@ -11523,13 +11638,15 @@
     "iso": "eastern-romanian",
     "region": "Europe",
     "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects"
   },
   {
     "name": "Ecuadorian Spanish",
     "iso": "ecuadorian-spanish",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ecuadorian_Spanish",
     "family": "Latin American"
   },
   {
@@ -11561,13 +11678,6 @@
     "family": "Galician"
   },
   {
-    "name": "Equatoguinean Spanish",
-    "iso": "equatoguinean-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Spanish"
-  },
-  {
     "name": "Estonian",
     "iso": "estonian",
     "region": "Europe",
@@ -11580,6 +11690,7 @@
     "iso": "estremenho",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Estremenho_dialect",
     "family": "Portuguese"
   },
   {
@@ -11587,6 +11698,7 @@
     "iso": "european-portuguese",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/European_Portuguese",
     "family": "Portuguese"
   },
   {
@@ -11638,7 +11750,7 @@
     "region": "Europe",
     "category": "Uralic",
     "wikipedia": "https://en.wikipedia.org/wiki/Finnish_language",
-    "family": "Standard"
+    "family": "Finnish"
   },
   {
     "name": "Fiuman",
@@ -11683,13 +11795,6 @@
     "family": "Mixed"
   },
   {
-    "name": "Franco-Ontarian",
-    "iso": "franco-ontarian",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Franco-Provençal",
     "iso": "franco-proven-al",
     "region": "Europe",
@@ -11701,14 +11806,8 @@
     "iso": "fra",
     "category": "Romance",
     "region": "Europe",
-    "family": "European"
-  },
-  {
-    "name": "Frenchville French",
-    "iso": "frenchville-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "US"
+    "wikipedia": "https://en.wikipedia.org/wiki/French_language",
+    "family": "Oïl Dialects"
   },
   {
     "name": "Frisian",
@@ -11761,21 +11860,21 @@
     "iso": "gallo-italic-of-basilicata",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Gallo-Italic"
   },
   {
     "name": "Gallo-Italic of Sicily",
     "iso": "gallo-italic-of-sicily",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Gallo-Italic"
   },
   {
     "name": "Gallo-Picene",
     "iso": "gallo-picene",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Gallo-Italic"
   },
   {
     "name": "Gallurese",
@@ -11895,14 +11994,15 @@
     "iso": "ita",
     "category": "Romance",
     "region": "Europe",
-    "family": "Standard"
+    "wikipedia": "https://en.wikipedia.org/wiki/Italian_language",
+    "family": "Italian"
   },
   {
     "name": "Italo-Australian",
     "iso": "italo-australian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Standard"
+    "family": "Italian"
   },
   {
     "name": "Jauer",
@@ -11923,77 +12023,97 @@
     "iso": "jersey-legal-french",
     "region": "Europe",
     "category": "Romance",
-    "family": "European"
-  },
-  {
-    "name": "Joual",
-    "iso": "joual",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
+    "family": "Oïl Dialects"
   },
   {
     "name": "Judeo-Aragonese",
     "iso": "judeo-aragonese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Aragonese"
+    "family": "Aragonese",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Catalan",
     "iso": "judeo-catalan",
     "region": "Europe",
     "category": "Romance",
-    "family": "Judeo-Catalan"
+    "family": "Judeo-Catalan",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Gascon",
     "iso": "judeo-gascon",
     "region": "Europe",
     "category": "Romance",
-    "family": "Judeo-Occitan"
+    "family": "Judeo-Occitan",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Italian",
     "iso": "judeo-italian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Judeo-Italian"
+    "family": "Judeo-Italian",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Mantuan",
     "iso": "judeo-mantuan",
     "region": "Europe",
     "category": "Romance",
-    "family": "Judeo-Italian"
+    "family": "Judeo-Italian",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Piedmontese",
     "iso": "judeo-piedmontese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Piedmontese"
+    "family": "Piedmontese",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Portuguese",
     "iso": "judeo-portuguese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Portuguese"
+    "family": "Portuguese",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Provençal",
     "iso": "judeo-proven-al",
     "region": "Europe",
     "category": "Romance",
-    "family": "Judeo-Occitan"
+    "family": "Judeo-Occitan",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Spanish",
     "iso": "judeo-spanish",
     "region": "Europe",
     "category": "Romance",
-    "family": "Judeo-Spanish"
+    "family": "Judeo-Spanish",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Kashubian",
@@ -12038,17 +12158,11 @@
     "iso": "lat",
     "category": "Romance",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Latin",
     "tags": [
       "classical"
     ],
     "family": "Romance"
-  },
-  {
-    "name": "Latin American Spanish",
-    "iso": "latin-american-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
   },
   {
     "name": "Latvian",
@@ -12063,7 +12177,7 @@
     "iso": "law-french",
     "region": "Europe",
     "category": "Romance",
-    "family": "European"
+    "family": "Oïl Dialects"
   },
   {
     "name": "Leonese",
@@ -12116,13 +12230,6 @@
     "family": "Oïl Dialects"
   },
   {
-    "name": "Louisiana French",
-    "iso": "louisiana-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "US"
-  },
-  {
     "name": "Lower Sorbian",
     "iso": "lower-sorbian",
     "region": "Europe",
@@ -12161,13 +12268,6 @@
     "family": "Central Italian"
   },
   {
-    "name": "Magoua",
-    "iso": "magoua",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Mallorcan",
     "iso": "mallorcan",
     "region": "Europe",
@@ -12179,7 +12279,7 @@
     "iso": "maltese-italian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Standard"
+    "family": "Italian"
   },
   {
     "name": "Manduriano",
@@ -12236,7 +12336,7 @@
     "iso": "meridional-french",
     "region": "Europe",
     "category": "Romance",
-    "family": "European"
+    "family": "Oïl Dialects"
   },
   {
     "name": "Messinese",
@@ -12244,20 +12344,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Sicilian"
-  },
-  {
-    "name": "Métis French",
-    "iso": "m-tis-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
-    "name": "Mexican Spanish",
-    "iso": "mexican-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
   },
   {
     "name": "Milanese",
@@ -12274,25 +12360,11 @@
     "family": "Portuguese"
   },
   {
-    "name": "Mineiro",
-    "iso": "mineiro",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Portuguese"
-  },
-  {
     "name": "Mirandese",
     "iso": "mirandese",
     "region": "Europe",
     "category": "Romance",
     "family": "Astur-Leonese"
-  },
-  {
-    "name": "Missouri French",
-    "iso": "missouri-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "US"
   },
   {
     "name": "Moldavian",
@@ -12348,13 +12420,6 @@
     "family": "Spanish"
   },
   {
-    "name": "Muskrat French",
-    "iso": "muskrat-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Navarrese",
     "iso": "navarrese",
     "region": "Europe",
@@ -12375,20 +12440,6 @@
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Neapolitan_language",
     "family": "Neapolitan"
-  },
-  {
-    "name": "New England French",
-    "iso": "new-england-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "US"
-  },
-  {
-    "name": "Newfoundland French",
-    "iso": "newfoundland-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
   },
   {
     "name": "Niçard",
@@ -12476,7 +12527,8 @@
     "category": "Romance",
     "family": "Old Catalan",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -12485,7 +12537,10 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
-    "family": "Eastern South Slavic"
+    "family": "Eastern South Slavic",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Old Gallo-Romance",
@@ -12494,7 +12549,8 @@
     "category": "Romance",
     "family": "Old",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -12502,14 +12558,20 @@
     "iso": "old-leonese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Astur-Leonese"
+    "family": "Astur-Leonese",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Old Lombard",
     "iso": "old-lombard",
     "region": "Europe",
     "category": "Romance",
-    "family": "Eastern Lombard"
+    "family": "Eastern Lombard",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Old Occitan",
@@ -12518,7 +12580,8 @@
     "category": "Romance",
     "family": "Old Occitan",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -12526,7 +12589,10 @@
     "iso": "old-romagnol",
     "region": "Europe",
     "category": "Romance",
-    "family": "Emilian-Romagnol"
+    "family": "Emilian-Romagnol",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Old Spanish",
@@ -12535,7 +12601,8 @@
     "category": "Romance",
     "family": "Old Spanish",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -12598,13 +12665,6 @@
     "family": "Sicilian"
   },
   {
-    "name": "Paraguayan Spanish",
-    "iso": "paraguayan-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
     "name": "Parmigiano",
     "iso": "parmigiano",
     "region": "Europe",
@@ -12626,32 +12686,11 @@
     "family": "Oïl Dialects"
   },
   {
-    "name": "Peruvian Ribereño",
-    "iso": "peruvian-ribere-o",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
-    "name": "Peruvian Spanish",
-    "iso": "peruvian-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
     "name": "Pesciatino",
     "iso": "pesciatino",
     "region": "Europe",
     "category": "Romance",
     "family": "Dialects"
-  },
-  {
-    "name": "Philippine Spanish",
-    "iso": "philippine-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Spanish"
   },
   {
     "name": "Picard",
@@ -12731,6 +12770,7 @@
     "iso": "por",
     "category": "Romance",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Portuguese_language",
     "family": "Portuguese"
   },
   {
@@ -12740,7 +12780,9 @@
     "category": "Romance",
     "family": "Eastern Romance",
     "tags": [
-      "reconstructed"
+      "reconstructed",
+      "proto",
+      "historical"
     ]
   },
   {
@@ -12748,9 +12790,12 @@
     "iso": "proto-romance",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Proto-Romance_language",
     "family": "Romance",
     "tags": [
-      "reconstructed"
+      "reconstructed",
+      "proto",
+      "historical"
     ]
   },
   {
@@ -12765,7 +12810,7 @@
     "iso": "pugliese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Neapolitan"
   },
   {
     "name": "Putèr",
@@ -12775,18 +12820,11 @@
     "family": "Romansh"
   },
   {
-    "name": "Quebec French",
-    "iso": "quebec-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Regional Italian",
     "iso": "regional-italian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Standard"
+    "family": "Italian"
   },
   {
     "name": "Rémois",
@@ -12815,13 +12853,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Aragonese"
-  },
-  {
-    "name": "Rioplatense Spanish",
-    "iso": "rioplatense-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
   },
   {
     "name": "Riunorese",
@@ -12857,6 +12888,7 @@
     "iso": "romanian",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_language",
     "family": "Daco-Romanian"
   },
   {
@@ -12904,13 +12936,6 @@
     "family": "Central Italian"
   },
   {
-    "name": "Saharan Spanish",
-    "iso": "saharan-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Spanish"
-  },
-  {
     "name": "Saintongeais",
     "iso": "saintongeais",
     "region": "Europe",
@@ -12944,7 +12969,8 @@
     "iso": "sardo-corsican",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sardo-Corsican_languages",
+    "family": "Sardo-Corsican"
   },
   {
     "name": "Sassarese",
@@ -13034,7 +13060,7 @@
     "iso": "south-lucanian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Neapolitan"
   },
   {
     "name": "Southeast Metafonetica",
@@ -13076,6 +13102,7 @@
     "iso": "spa",
     "category": "Romance",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spanish_language",
     "family": "Spanish"
   },
   {
@@ -13083,14 +13110,14 @@
     "iso": "standard-french",
     "region": "Europe",
     "category": "Romance",
-    "family": "European"
+    "family": "Oïl Dialects"
   },
   {
     "name": "Standard Italian",
     "iso": "standard-italian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Standard"
+    "family": "Italian"
   },
   {
     "name": "Surmiran",
@@ -13125,7 +13152,7 @@
     "iso": "swiss-italian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Standard"
+    "family": "Italian"
   },
   {
     "name": "Tabarchino",
@@ -13147,13 +13174,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Neapolitan"
-  },
-  {
-    "name": "Tetuani",
-    "iso": "tetuani",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Judeo-Spanish"
   },
   {
     "name": "Ticinese",
@@ -13228,20 +13248,6 @@
     "family": "Sorbian"
   },
   {
-    "name": "Uruguayan Portuguese",
-    "iso": "uruguayan-portuguese",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Portuguese"
-  },
-  {
-    "name": "Uruguayan Spanish",
-    "iso": "uruguayan-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
     "name": "Valdôtain",
     "iso": "vald-tain",
     "region": "Europe",
@@ -13282,13 +13288,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Venetian"
-  },
-  {
-    "name": "Venezuelan Spanish",
-    "iso": "venezuelan-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
   },
   {
     "name": "Versiliese",
@@ -13560,6 +13559,14 @@
     "lexifier": "French"
   },
   {
+    "name": "Latin American Spanish",
+    "iso": "latin-american-spanish",
+    "region": "Latin America",
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spanish_language_in_the_Americas",
+    "family": "Latin American"
+  },
+  {
     "name": "Ch'ol",
     "iso": "chol",
     "region": "Mesoamerica",
@@ -13698,7 +13705,7 @@
     "iso": "afar",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Cushitic"
   },
   {
     "name": "Afroasiatic family",
@@ -13781,7 +13788,10 @@
     "iso": "ancient-egyptian",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Egyptian",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Ancient North Arabian",
@@ -13790,7 +13800,8 @@
     "category": "Afroasiatic",
     "family": "North Arabian",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -13920,14 +13931,14 @@
   },
   {
     "name": "Baṭḥari",
-    "iso": "bathari",
+    "iso": "ba-ari",
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Modern South Arabian"
   },
   {
     "name": "Baṭḥari",
-    "iso": "ba-ari",
+    "iso": "bathari",
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Modern South Arabian"
@@ -13937,7 +13948,7 @@
     "iso": "beja",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Cushitic"
   },
   {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -14006,7 +14017,10 @@
     "iso": "central-hilali-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Central Semitic",
@@ -14065,21 +14079,27 @@
     "iso": "classical-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Literary"
+    "family": "Literary",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Classical Syriac",
     "iso": "classical-syriac",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Middle Aramaic"
+    "family": "Middle Aramaic",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Coptic",
     "iso": "coptic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Egyptian"
   },
   {
     "name": "Corfiot Maltese",
@@ -14093,7 +14113,10 @@
     "iso": "cottonera-dialect",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Cypriot Arabic",
@@ -14193,7 +14216,10 @@
     "iso": "eastern-hilali-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Eastern Middle Aramaic",
@@ -14207,7 +14233,10 @@
     "iso": "eastern-pre-hilali-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Eblaite",
@@ -14283,7 +14312,10 @@
     "iso": "fessi-dialect",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Gafat",
@@ -14299,7 +14331,8 @@
     "category": "Afroasiatic",
     "family": "Western Aramaic",
     "tags": [
-      "extinct"
+      "extinct",
+      "dialect"
     ]
   },
   {
@@ -14335,14 +14368,20 @@
     "iso": "gilit-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Mesopotamian"
+    "family": "Mesopotamian",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Gozitan dialects",
     "iso": "gozitan-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Gulf Arabic",
@@ -14384,7 +14423,7 @@
     "iso": "hadiyya",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Cushitic"
   },
   {
     "name": "Hadramautic",
@@ -14446,14 +14485,14 @@
     "iso": "hau",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Chadic"
   },
   {
     "name": "Heb",
     "iso": "heb",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Hebrew"
   },
   {
     "name": "Hebrew",
@@ -14481,7 +14520,10 @@
     "iso": "hilalian-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Himyaritic",
@@ -14517,7 +14559,8 @@
     "category": "Afroasiatic",
     "family": "Other Arabic",
     "tags": [
-      "extinct"
+      "extinct",
+      "dialect"
     ]
   },
   {
@@ -14629,77 +14672,110 @@
     "iso": "judeo-algerian-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Arabic",
     "iso": "judeo-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Arabic"
+    "family": "Arabic",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Baghdadi",
     "iso": "judeo-baghdadi",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Mesopotamian"
+    "family": "Mesopotamian",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Egyptian Arabic",
     "iso": "judeo-egyptian-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
+    "family": "Egypto-Sudanic",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Fessi",
     "iso": "judeo-fessi",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Iraqi Arabic",
     "iso": "judeo-iraqi-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Mesopotamian"
+    "family": "Mesopotamian",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Moroccan Arabic",
     "iso": "judeo-moroccan-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Syrian Arabic",
     "iso": "judeo-syrian-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Levantine"
+    "family": "Levantine",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Tripolitanian Arabic",
     "iso": "judeo-tripolitanian-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Tunisian Arabic",
     "iso": "judeo-tunisian-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Judeo-Yemeni Arabic",
     "iso": "judeo-yemeni-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Peninsular"
+    "family": "Peninsular",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Kashkadarian Arabic",
@@ -14832,7 +14908,10 @@
     "iso": "maghrebi-judeo-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Maltese",
@@ -14860,7 +14939,10 @@
     "iso": "maqil-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Mashriqi Arabic",
@@ -14909,7 +14991,10 @@
     "iso": "middle-aramaic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Middle Aramaic"
+    "family": "Middle Aramaic",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Minaean",
@@ -14954,7 +15039,10 @@
     "iso": "modern-palestinian-judeo-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Levantine"
+    "family": "Levantine",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Modern South Arabian",
@@ -15060,7 +15148,8 @@
     "category": "Afroasiatic",
     "family": "East Semitic",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15070,7 +15159,8 @@
     "category": "Afroasiatic",
     "family": "North Arabian",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15080,7 +15170,8 @@
     "category": "Afroasiatic",
     "family": "Old Aramaic",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15088,7 +15179,10 @@
     "iso": "old-hijazi-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Peninsular"
+    "family": "Peninsular",
+    "tags": [
+      "historical"
+    ]
   },
   {
     "name": "Old South Arabian",
@@ -15097,7 +15191,8 @@
     "category": "Afroasiatic",
     "family": "Old South Arabian",
     "tags": [
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15112,7 +15207,7 @@
     "iso": "orm",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Cushitic"
   },
   {
     "name": "Other Semitic",
@@ -15195,14 +15290,20 @@
     "iso": "pre-hilalian-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Pre-Hilalian Urban Arabic dialects",
     "iso": "pre-hilalian-urban-arabic-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Proto-Afroasiatic",
@@ -15212,7 +15313,8 @@
     "family": "Proto-Afroasiatic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15223,7 +15325,8 @@
     "family": "Proto-Arabic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15234,7 +15337,8 @@
     "family": "Proto-Semitic",
     "tags": [
       "proto",
-      "extinct"
+      "extinct",
+      "historical"
     ]
   },
   {
@@ -15276,14 +15380,20 @@
     "iso": "qeltu-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Mesopotamian"
+    "family": "Mesopotamian",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Qormi dialect",
     "iso": "qormi-dialect",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Razihi",
@@ -15434,7 +15544,7 @@
     "iso": "sidama",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Cushitic"
   },
   {
     "name": "Silt'e",
@@ -15455,7 +15565,7 @@
     "iso": "som",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Cushitic"
   },
   {
     "name": "Soqotri",
@@ -15518,7 +15628,10 @@
     "iso": "sulaym-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Sureth",
@@ -15568,7 +15681,8 @@
     "category": "Afroasiatic",
     "family": "Other Arabic",
     "tags": [
-      "extinct"
+      "extinct",
+      "dialect"
     ]
   },
   {
@@ -15617,7 +15731,7 @@
     "iso": "tir",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "North Ethiopic"
   },
   {
     "name": "Trans-Zab",
@@ -15690,7 +15804,10 @@
     "iso": "western-hilali-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Western Middle Aramaic",
@@ -15711,14 +15828,17 @@
     "iso": "western-pre-hilali-dialects",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Wolaitta",
     "iso": "wolaitta",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Omotic"
   },
   {
     "name": "Wolane",
@@ -15746,7 +15866,10 @@
     "iso": "zabidi-dialect",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Peninsular"
+    "family": "Peninsular",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Zakho",
@@ -15767,7 +15890,10 @@
     "iso": "-ejtun-dialect",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Maghrebi"
+    "family": "Maghrebi",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Zway",
@@ -15783,7 +15909,8 @@
     "category": "Afroasiatic",
     "family": "Other Arabic",
     "tags": [
-      "extinct"
+      "extinct",
+      "dialect"
     ]
   },
   {
@@ -16797,7 +16924,8 @@
     "category": "Mixed",
     "family": "Mixed",
     "tags": [
-      "mixed"
+      "mixed",
+      "family"
     ],
     "lexifier": "Romani"
   },
@@ -17232,7 +17360,10 @@
     "iso": "beni-snous-dialect",
     "region": "North Africa",
     "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Ber family",
@@ -17242,7 +17373,7 @@
     "tags": [
       "family"
     ],
-    "family": "Afroasiatic"
+    "family": "Berber"
   },
   {
     "name": "Central Atlas Tamazight",
@@ -17312,7 +17443,10 @@
     "iso": "judeo-berber",
     "region": "North Africa",
     "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "tags": [
+      "judeo"
+    ]
   },
   {
     "name": "Kabyle",
@@ -17445,7 +17579,10 @@
     "iso": "western-algerian-zenatic-dialects",
     "region": "North Africa",
     "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Zurg language",
@@ -17473,6 +17610,13 @@
     "lexifier": "English"
   },
   {
+    "name": "American Finnish",
+    "iso": "american-finnish",
+    "region": "North America",
+    "category": "Uralic",
+    "family": "Finnish"
+  },
+  {
     "name": "Athabaskan",
     "iso": "athabaskan",
     "region": "North America",
@@ -17494,6 +17638,20 @@
     "category": "Iroquoian",
     "wikipedia": "https://en.wikipedia.org/wiki/Cherokee_language",
     "family": "Iroquoian"
+  },
+  {
+    "name": "Chiac",
+    "iso": "chiac",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Chipilo",
+    "iso": "chipilo",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Venetian"
   },
   {
     "name": "Cree",
@@ -17520,6 +17678,20 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Franco-Ontarian",
+    "iso": "franco-ontarian",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Frenchville French",
+    "iso": "frenchville-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "US"
   },
   {
     "name": "Gullah",
@@ -17557,12 +17729,47 @@
     "family": "Algonquian"
   },
   {
+    "name": "Joual",
+    "iso": "joual",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
     "name": "Lakota",
     "iso": "lakota",
     "region": "North America",
     "category": "Siouan",
     "wikipedia": "https://en.wikipedia.org/wiki/Lakota_language",
     "family": "Siouan"
+  },
+  {
+    "name": "Louisiana French",
+    "iso": "louisiana-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "US"
+  },
+  {
+    "name": "Magoua",
+    "iso": "magoua",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Métis French",
+    "iso": "m-tis-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Mexican Spanish",
+    "iso": "mexican-spanish",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Latin American"
   },
   {
     "name": "Mi'kmaq",
@@ -17573,12 +17780,26 @@
     "family": "Algic"
   },
   {
+    "name": "Missouri French",
+    "iso": "missouri-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "US"
+  },
+  {
     "name": "Mohawk",
     "iso": "mohawk",
     "region": "North America",
     "category": "Iroquoian",
     "wikipedia": "https://en.wikipedia.org/wiki/Mohawk_language",
     "family": "Iroquoian"
+  },
+  {
+    "name": "Muskrat French",
+    "iso": "muskrat-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
   },
   {
     "name": "Na-Dene",
@@ -17604,12 +17825,33 @@
     "family": "Na-Dene"
   },
   {
+    "name": "New England French",
+    "iso": "new-england-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "US"
+  },
+  {
+    "name": "Newfoundland French",
+    "iso": "newfoundland-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
     "name": "Ojibwe",
     "iso": "ojibwe",
     "region": "North America",
     "category": "Algonquian",
     "wikipedia": "https://en.wikipedia.org/wiki/Ojibwe_language",
     "family": "Algonquian"
+  },
+  {
+    "name": "Quebec French",
+    "iso": "quebec-french",
+    "region": "North America",
+    "category": "Romance",
+    "family": "Canadian"
   },
   {
     "name": "Salish",
@@ -20142,7 +20384,10 @@
     "iso": "southeast-papuan-languages",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Southeast Solomonic",
@@ -20372,7 +20617,10 @@
     "iso": "trans-new-guinea",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Trans–New Guinea"
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Tsaukambo",
@@ -20519,7 +20767,10 @@
     "iso": "west-trans-new-guinea",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Trans–New Guinea"
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Western",
@@ -20656,7 +20907,9 @@
   },
   {
     "name": "Sercquiais",
-    "iso": "sercquiais"
+    "iso": "sercquiais",
+    "category": "Unclassified",
+    "family": "Unclassified"
   },
   {
     "name": "Alyutor",
@@ -20882,7 +21135,8 @@
     "iso": "bai",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bai_language",
+    "family": "Bai"
   },
   {
     "name": "Baram Thangmi",
@@ -20910,21 +21164,24 @@
     "iso": "bodish",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bodish_languages",
+    "family": "Bodish"
   },
   {
     "name": "Boro Garo",
     "iso": "boro-garo",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Boro%E2%80%93Garo_languages",
+    "family": "Boro–Garo"
   },
   {
     "name": "Burmish",
     "iso": "burmish",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Burmish_languages",
+    "family": "Burmish"
   },
   {
     "name": "Burmo Qiangic",
@@ -21057,14 +21314,16 @@
     "iso": "gyalrongic",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Gyalrongic_languages",
+    "family": "Gyalrongic"
   },
   {
     "name": "Hakka",
     "iso": "hakka",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "family": "Hakka"
   },
   {
     "name": "Hkongso",
@@ -21376,7 +21635,9 @@
     "category": "Sino-Tibetan",
     "tags": [
       "extinct",
-      "unclassified"
+      "unclassified",
+      "proto",
+      "historical"
     ],
     "family": "Sino-Tibetan"
   },
@@ -21387,7 +21648,9 @@
     "category": "Sino-Tibetan",
     "tags": [
       "extinct",
-      "unclassified"
+      "unclassified",
+      "proto",
+      "historical"
     ],
     "family": "Sino-Tibetan"
   },
@@ -21398,7 +21661,9 @@
     "category": "Sino-Tibetan",
     "tags": [
       "extinct",
-      "unclassified"
+      "unclassified",
+      "proto",
+      "historical"
     ],
     "family": "Sino-Tibetan"
   },
@@ -21409,7 +21674,9 @@
     "category": "Sino-Tibetan",
     "tags": [
       "extinct",
-      "unclassified"
+      "unclassified",
+      "proto",
+      "historical"
     ],
     "family": "Sino-Tibetan"
   },
@@ -21420,7 +21687,9 @@
     "category": "Sino-Tibetan",
     "tags": [
       "extinct",
-      "unclassified"
+      "unclassified",
+      "proto",
+      "historical"
     ],
     "family": "Sino-Tibetan"
   },
@@ -21432,7 +21701,9 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages",
     "tags": [
       "extinct",
-      "unclassified"
+      "unclassified",
+      "proto",
+      "historical"
     ],
     "family": "Sino-Tibetan"
   },
@@ -21497,7 +21768,10 @@
     "iso": "sino-tibetan-family",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "family": "Sino-Tibetan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Songlin",
@@ -21683,6 +21957,27 @@
     ]
   },
   {
+    "name": "Chilean Spanish",
+    "iso": "chilean-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Chilote",
+    "iso": "chilote",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Colombian Spanish",
+    "iso": "colombian-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
     "name": "Guarani",
     "iso": "guarani",
     "region": "South America",
@@ -21747,6 +22042,13 @@
     "lexifier": "English"
   },
   {
+    "name": "Mineiro",
+    "iso": "mineiro",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
     "name": "Ndyuka",
     "iso": "ndyuka",
     "region": "South America",
@@ -21758,12 +22060,40 @@
     "lexifier": "English"
   },
   {
+    "name": "Paraguayan Spanish",
+    "iso": "paraguayan-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Peruvian Ribereño",
+    "iso": "peruvian-ribere-o",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Peruvian Spanish",
+    "iso": "peruvian-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
     "name": "Quechua",
     "iso": "que",
     "region": "South America",
     "category": "Quechuan",
     "wikipedia": "https://en.wikipedia.org/wiki/Quechuan_languages",
     "family": "Quechuan"
+  },
+  {
+    "name": "Rioplatense Spanish",
+    "iso": "rioplatense-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
   },
   {
     "name": "Saramaccan",
@@ -21811,6 +22141,27 @@
     "category": "Ticuna–Yuri",
     "wikipedia": "https://en.wikipedia.org/wiki/Ticuna_language",
     "family": "Ticuna–Yuri"
+  },
+  {
+    "name": "Uruguayan Portuguese",
+    "iso": "uruguayan-portuguese",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Uruguayan Spanish",
+    "iso": "uruguayan-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Venezuelan Spanish",
+    "iso": "venezuelan-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American"
   },
   {
     "name": "Wayuu",

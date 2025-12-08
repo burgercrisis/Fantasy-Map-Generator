@@ -259,11 +259,6 @@ window.Names = (function () {
     else if (suffix === "land" && name.length > 6) name = name.slice(0, -(name.length - 5));
     return validateSuffix(name, suffix);
   }
-
-<<<<<<< Updated upstream
-    const getNameBases = function () {
-    return window.defaultNameBases;
-=======
   const getNameBases = function () {
     // name, min length, max length, letters to allow duplication, multi-word name rate [deprecated]
     // prettier-ignore
@@ -326,7 +321,6 @@ window.Names = (function () {
       {name: "Bai", i: 52, min: 4, max: 12, d: "lnrt", m: 0, b: "Dali,Xiaguan,Eryuan,Jianchuan,Heqing,Midu,Weishan,Yunlong,Yangbi,Fengyi,Nuodeng,Shaxi,Xizhou,Cangshan,Baoshan,Lijiang,Shangri-La,Nanjian,Binchuan"},
       {name: "Tujia", i: 53, min: 4, max: 12, d: "lnrt", m: 0, b: "Jishou,Zhangjiajie,Enshi,Laifeng,Longshan,Guzhang,Baojing,Yongshun,Sangzhi,Shimen,Chengbu,Xupu,Yuanling,Huaihua,Hecheng,Tongren,Lixian,Dayong,Fenghuang,Luxi,Mayang,Hongjiang"}
     ];
->>>>>>> Stashed changes
   };
 
   return {
@@ -337,7 +331,7 @@ window.Names = (function () {
     getState,
     updateChain,
     clearChains,
-    getNameBases,
+    getNameBases: () => window.defaultNameBases,
     getMapName,
     calculateChain
   };

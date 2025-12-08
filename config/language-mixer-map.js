@@ -1845,12 +1845,6 @@
     ]
   },
   {
-    "iso": "chinese-kyakala",
-    "bases": [
-      31
-    ]
-  },
-  {
     "iso": "chinese-pidgin-english",
     "bases": [
       1
@@ -2397,21 +2391,6 @@
     "iso": "eastern-hilali-dialects",
     "bases": [
       18
-    ]
-  },
-  {
-    "iso": "eastern-himalayas",
-    "bases": [
-      47,
-      65,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
     ]
   },
   {
@@ -9688,6 +9667,12 @@
     "iso": "sino-tibetan-family",
     "bases": [
       11
+    ]
+  },
+  {
+    "iso": "eastern-himalayas",
+    "bases": [
+      65
     ]
   },
   {
@@ -21919,126 +21904,6 @@
     ]
   },
   {
-    "iso": "yor",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "yoruba",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "niger-congo-family",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "igbo",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "fula",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "wolof",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "akan",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "bambara",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "mandinka",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "soninke",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "ewe",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "ga",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "fon",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "bete",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "nyabwa",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "dida",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "mumuye",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "moore",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "limba",
-    "bases": [
-      21
-    ]
-  },
-  {
-    "iso": "gola",
-    "bases": [
-      21
-    ]
-  },
-  {
     "iso": "lingala",
     "bases": [
       28
@@ -22294,12 +22159,6 @@
     "iso": "koreanic-family",
     "bases": [
       10
-    ]
-  },
-  {
-    "iso": "hin",
-    "bases": [
-      24
     ]
   },
   {
@@ -22573,6 +22432,24 @@
     "iso": "heb",
     "bases": [
       42
+    ]
+  },
+  {
+    "iso": "yoruba",
+    "bases": [
+      112
+    ]
+  },
+  {
+    "iso": "chinese-kyakala",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "uralic-family",
+    "bases": [
+      9
     ]
   }
 ];
