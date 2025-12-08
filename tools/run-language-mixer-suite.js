@@ -5,6 +5,8 @@
 //   - tools/fix-language-mixer-mappings.js
 //   - tools/check-language-mixer-coverage.js
 //   - tools/check-language-mixer-failures.js
+//   - optionally tools/report-language-mixer-name-counts.js
+//   - tools/generate-language-mixer.js (rebuilds mixer bundles)
 // and then print a short summary of each tool's stdout.
 //
 // You can control which tools run and whether summaries are truncated
@@ -59,7 +61,9 @@ function main() {
   // Simple tooltip / help output.
   if (args.includes("--help") || args.includes("-h")) {
     console.log("Usage: node tools/run-language-mixer-suite.js [options]\n");
-    console.log("Runs the core language mixer maintenance tools and prints a summary of each.\n");
+    console.log(
+      "Runs the core language mixer maintenance tools, regenerates the mixer bundles, and prints a summary of each.\n"
+    );
     console.log("Options:");
     console.log("  --no-fix           Skip fix-language-mixer-mappings.js");
     console.log("  --no-coverage      Skip check-language-mixer-coverage.js");
@@ -97,12 +101,14 @@ function main() {
   const coverageOutput = runCoverage ? runScript("check-language-mixer-coverage.js") : "";
   const failuresOutput = runFailures ? runScript("check-language-mixer-failures.js") : "";
   const nameCountsOutput = runNameCounts ? runScript("report-language-mixer-name-counts.js", nameCountsArgs) : "";
+  const generateOutput = runScript("generate-language-mixer.js");
 
   console.log("\n=== Combined summaries ===\n");
   if (runFix) summarize("fix-language-mixer-mappings.js", fixOutput, showFull);
   if (runCoverage) summarize("check-language-mixer-coverage.js", coverageOutput, showFull);
   if (runFailures) summarize("check-language-mixer-failures.js", failuresOutput, showFull);
   if (runNameCounts) summarize("report-language-mixer-name-counts.js", nameCountsOutput, showFull);
+  summarize("generate-language-mixer.js", generateOutput, showFull);
 }
 
 if (require.main === module) {
