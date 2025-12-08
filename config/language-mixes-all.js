@@ -3422,6 +3422,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Ahom",
+    "iso": "ahom",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Ai-Cham",
     "iso": "ai-cham",
     "region": "Asia",
@@ -3435,6 +3442,13 @@
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Ainu_language",
     "family": "Japonic"
+  },
+  {
+    "name": "Aiton",
+    "iso": "aiton",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "iso": "alar-tunka-buryat",
@@ -3461,6 +3475,13 @@
     ]
   },
   {
+    "name": "Allar",
+    "iso": "allar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Alor Malay",
     "iso": "alor-malay",
     "region": "Asia",
@@ -3470,6 +3491,13 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Altai",
+    "iso": "altai",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
   },
   {
     "iso": "altai-uriankhai",
@@ -3504,6 +3532,13 @@
     "family": "Mongolic"
   },
   {
+    "name": "Aranadan",
+    "iso": "aranadan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Aslian languages",
     "iso": "aslians",
     "region": "Asia",
@@ -3522,6 +3557,13 @@
     "family": "Indo-Aryan"
   },
   {
+    "name": "Attapady Kurumba",
+    "iso": "attapady-kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "iso": "baarin",
     "name": "Baarin Mongol",
     "region": "Asia",
@@ -3538,6 +3580,13 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Badaga",
+    "iso": "badaga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Bahnar",
@@ -3591,6 +3640,13 @@
     "category": "Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Balochi_language",
     "family": "Iranian"
+  },
+  {
+    "name": "Balti",
+    "iso": "balti",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
   },
   {
     "name": "Banda Malay",
@@ -3661,6 +3717,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Beary",
+    "iso": "beary",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Bengali",
     "iso": "bengali",
     "region": "Asia",
@@ -3691,6 +3754,13 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Betta Kurumba",
+    "iso": "betta-kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Biao",
     "iso": "biao-kam-sui",
     "region": "Asia",
@@ -3707,6 +3777,20 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Bikol",
+    "iso": "bikol",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Bodo",
+    "iso": "bodo",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
   },
   {
     "iso": "bonan",
@@ -3728,6 +3812,20 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Bouyei",
+    "iso": "bouyei",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Brahui",
+    "iso": "brahui",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
   },
   {
     "name": "Bru",
@@ -3770,6 +3868,13 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Cao Lan",
+    "iso": "cao-lan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Cao Miao",
     "iso": "cao-miao",
     "region": "Asia",
@@ -3790,6 +3895,13 @@
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language",
     "family": "Austronesian"
+  },
+  {
+    "name": "Central Tai",
+    "iso": "central-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Chadong",
@@ -3820,6 +3932,34 @@
     "family": "Nicobarese"
   },
   {
+    "name": "Chenchu",
+    "iso": "chenchu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Chhattisgarhi",
+    "iso": "chhattisgarhi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Chiang Saen",
+    "iso": "chiang-saen",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Chin",
+    "iso": "chin",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
     "name": "Chinese Kyakala",
     "iso": "chinese-kyakala",
     "region": "Asia",
@@ -3828,6 +3968,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Cholanaikkan",
+    "iso": "cholanaikkan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Unclassified Dravidian"
   },
   {
     "name": "Chong",
@@ -3860,6 +4007,13 @@
   {
     "name": "Cun Hlai",
     "iso": "cun-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Dai Zhuang",
+    "iso": "dai-zhuang",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
@@ -3948,6 +4102,20 @@
     ]
   },
   {
+    "name": "Duruwa",
+    "iso": "duruwa",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
+    "name": "E (Tai)",
+    "iso": "e-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Eastern Indonesian Malay",
     "iso": "eastern-indonesian-malay",
     "region": "Asia",
@@ -3980,6 +4148,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Eravallan",
+    "iso": "eravallan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Even",
     "iso": "even",
     "region": "Asia",
@@ -4006,6 +4181,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Gondi",
+    "iso": "gondi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
   },
   {
     "name": "Gorap",
@@ -4062,6 +4244,13 @@
     "family": "Mongolic"
   },
   {
+    "name": "Hezhang Buyi",
+    "iso": "hezhang-buyi",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Hindi",
     "iso": "hin",
     "region": "Asia",
@@ -4084,6 +4273,13 @@
     "family": "Munda"
   },
   {
+    "name": "Hokchiu",
+    "iso": "hokchiu",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
     "name": "Hokkaido Ainu",
     "iso": "hokkaido-ainu",
     "region": "Asia",
@@ -4098,11 +4294,32 @@
     "family": "Hokkaido"
   },
   {
+    "name": "Holiya",
+    "iso": "holiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Hre",
     "iso": "hre",
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Bahnaric"
+  },
+  {
+    "name": "Ibanag",
+    "iso": "ibanag",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Ilocano",
+    "iso": "ilocano",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
   },
   {
     "name": "Indo-Portuguese",
@@ -4127,6 +4344,20 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Irula",
+    "iso": "irula",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Isan",
+    "iso": "isan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Japanese",
     "iso": "jpn",
     "region": "Asia",
@@ -4140,6 +4371,13 @@
     "region": "Asia",
     "category": "Japonic",
     "family": "Japanese dialects"
+  },
+  {
+    "name": "Jeseri",
+    "iso": "jeseri",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Jiamao",
@@ -4173,12 +4411,47 @@
     "family": "Jurchenic"
   },
   {
+    "name": "Kadar",
+    "iso": "kadar-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kaikadi",
+    "iso": "kaikadi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kakkala",
+    "iso": "kakkala",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Unclassified Dravidian"
+  },
+  {
+    "name": "Kalanadi",
+    "iso": "kalanadi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Kalmyk",
     "iso": "kalmyk",
     "region": "Asia",
     "category": "Mongolic",
     "wikipedia": "https://en.wikipedia.org/wiki/Kalmyk_language",
     "family": "Mongolic"
+  },
+  {
+    "name": "Kaloeng",
+    "iso": "kaloeng",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Kam (Dong)",
@@ -4195,11 +4468,25 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Kam-Tai",
+    "iso": "kam-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "iso": "kangjia",
     "name": "Kangjia",
     "region": "Asia",
     "category": "Mongolic",
     "family": "Shirongolic"
+  },
+  {
+    "name": "Kanikkaran",
+    "iso": "kanikkaran",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Kannada",
@@ -4208,6 +4495,20 @@
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Kannada_language",
     "family": "Dravidian"
+  },
+  {
+    "name": "Kapampangan",
+    "iso": "kapampangan",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Karakalpak",
+    "iso": "karakalpak",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
   },
   {
     "name": "Kashmiri",
@@ -4259,6 +4560,13 @@
     ]
   },
   {
+    "name": "Khakas",
+    "iso": "khakas",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
     "iso": "khalkha",
     "name": "Khalkha Mongolian",
     "region": "Asia",
@@ -4271,6 +4579,20 @@
     "region": "Asia",
     "category": "Mongolic",
     "family": "Mongolic"
+  },
+  {
+    "name": "Khamti",
+    "iso": "khamti",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Khamyang",
+    "iso": "khamyang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "iso": "kharchin-khorchin",
@@ -4299,6 +4621,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Khmeric"
+  },
+  {
+    "name": "Khirwar",
+    "iso": "khirwar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Unclassified Dravidian"
   },
   {
     "name": "Khmer",
@@ -4346,6 +4675,13 @@
     "family": "Oirat-Kalmyk"
   },
   {
+    "name": "Khun",
+    "iso": "khun",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Kikai",
     "iso": "kikai",
     "region": "Asia",
@@ -4360,6 +4696,34 @@
     "family": "Ewenic"
   },
   {
+    "name": "Kodava",
+    "iso": "kodava",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kolami",
+    "iso": "kolami",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
+    "name": "Konda",
+    "iso": "konda-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Koraga",
+    "iso": "koraga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Korlai Portuguese Creole",
     "iso": "korlai-portuguese-creole",
     "region": "Asia",
@@ -4369,6 +4733,20 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Kota",
+    "iso": "kota-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Koya",
+    "iso": "koya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
   },
   {
     "name": "Kra",
@@ -4389,6 +4767,41 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Kuan",
+    "iso": "kuan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Kudiya",
+    "iso": "kudiya-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kui",
+    "iso": "kui-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Kumbaran",
+    "iso": "kumbaran",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kunduvadi",
+    "iso": "kunduvadi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Kunigami",
     "iso": "kunigami",
     "region": "Asia",
@@ -4405,6 +4818,20 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Kurambhag Paharia",
+    "iso": "kurambhag-paharia",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
+  },
+  {
+    "name": "Kurichiya",
+    "iso": "kurichiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Kuril Ainu",
@@ -4425,6 +4852,27 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Kurukh",
+    "iso": "kurukh",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
+  },
+  {
+    "name": "Kurumba",
+    "iso": "kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kuvi",
+    "iso": "kuvi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
   },
   {
     "name": "Kuy",
@@ -4463,6 +4911,20 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Lao Nyo",
+    "iso": "lao-nyo",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Lao-Phutai",
+    "iso": "lao-phutai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Larantuka Malay",
     "iso": "larantuka-malay",
     "region": "Asia",
@@ -4476,6 +4938,13 @@
   {
     "name": "Lauhut",
     "iso": "lauhut",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Longsang Zhuang",
+    "iso": "longsang-zhuang",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
@@ -4502,6 +4971,27 @@
     "family": "Southern Ryukyuan"
   },
   {
+    "name": "Madiya",
+    "iso": "madiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Magahi",
+    "iso": "magahi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Maguindanao",
+    "iso": "maguindanao",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
     "name": "Mah Meri",
     "iso": "mah-meri",
     "region": "Asia",
@@ -4516,6 +5006,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Mala Malasar",
+    "iso": "mala-malasar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Malaccan Creole Malay",
     "iso": "malaccan-creole-malay",
     "region": "Asia",
@@ -4527,12 +5024,40 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Malankuravan",
+    "iso": "malankuravan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Malapandaram",
+    "iso": "malapandaram",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Malasar",
+    "iso": "malasar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Malayalam",
     "iso": "malayalam",
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malayalam",
     "family": "Dravidian"
+  },
+  {
+    "name": "Malto",
+    "iso": "malto",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
   },
   {
     "name": "Manado Malay",
@@ -4551,6 +5076,13 @@
     "region": "Asia",
     "category": "Tungusic",
     "family": "Jurchenic"
+  },
+  {
+    "name": "Manda",
+    "iso": "manda-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
   },
   {
     "name": "Mang",
@@ -4625,6 +5157,13 @@
     ]
   },
   {
+    "name": "Min Zhuang",
+    "iso": "min-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Miyakoan",
     "iso": "miyakoan",
     "region": "Asia",
@@ -4692,6 +5231,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Muduga",
+    "iso": "muduga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Mulam",
     "iso": "mulam",
     "region": "Asia",
@@ -4704,6 +5250,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Mullu Kurumba",
+    "iso": "mullu-kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Munda languages",
@@ -4723,11 +5276,39 @@
     "family": "Munda"
   },
   {
+    "name": "Muria",
+    "iso": "muria",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Muthuvan",
+    "iso": "muthuvan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Myang Zhuang",
+    "iso": "myang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Nadou",
     "iso": "nadou",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Naiki",
+    "iso": "naiki",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
   },
   {
     "name": "Nanai",
@@ -4775,6 +5356,13 @@
     ]
   },
   {
+    "name": "Nong Zhuang",
+    "iso": "nong-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "iso": "nonni-dagur",
     "name": "Nonni Dagur",
     "region": "Asia",
@@ -4807,11 +5395,39 @@
     "family": "Khmeric"
   },
   {
+    "name": "Northern Tai",
+    "iso": "northern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Northern Thai",
+    "iso": "northern-thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Northern Tungusic",
     "iso": "northern-tungusic",
     "region": "Asia",
     "category": "Tungusic",
     "family": "Northern Tungusic"
+  },
+  {
+    "name": "Northwestern Tai",
+    "iso": "northwestern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Nung (Tai)",
+    "iso": "nung-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Nuoxi (Naxi Yao)",
@@ -4886,6 +5502,13 @@
     ]
   },
   {
+    "name": "Ollari",
+    "iso": "ollari",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
     "name": "Orang Pulo",
     "iso": "orang-pulo",
     "region": "Asia",
@@ -4921,11 +5544,39 @@
     "family": "Ewenic"
   },
   {
+    "name": "Pa Di",
+    "iso": "pa-di",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Paha",
     "iso": "paha",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Paliyan",
+    "iso": "paliyan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Pangasinan",
+    "iso": "pangasinan",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Paniya",
+    "iso": "paniya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Papuan Malay",
@@ -4939,6 +5590,13 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Pardhan",
+    "iso": "pardhan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
     "name": "Pashto",
     "iso": "pashto",
     "region": "Asia",
@@ -4947,11 +5605,32 @@
     "family": "Indo-Iranian"
   },
   {
+    "name": "Pathiya",
+    "iso": "pathiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Pattapu",
+    "iso": "pattapu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Pear",
     "iso": "pear",
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Pearic"
+  },
+  {
+    "name": "Pengo",
+    "iso": "pengo",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
   },
   {
     "name": "Peranakan",
@@ -4963,6 +5642,27 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Phake",
+    "iso": "phake",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Phu Thai",
+    "iso": "phu-thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Phuan",
+    "iso": "phuan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Pnar",
@@ -5005,6 +5705,17 @@
     ]
   },
   {
+    "name": "Proto-Hlai",
+    "iso": "proto-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
     "name": "Proto-Hokkaido-Kuril",
     "iso": "proto-hokkaido-kuril",
     "region": "Asia",
@@ -5013,6 +5724,39 @@
     "tags": [
       "proto",
       "extinct"
+    ]
+  },
+  {
+    "name": "Proto-KamSui",
+    "iso": "proto-kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto-Kra",
+    "iso": "proto-kra",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto-KraDai",
+    "iso": "proto-kra-dai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
     ]
   },
   {
@@ -5038,12 +5782,30 @@
     ]
   },
   {
+    "name": "Proto-Tai",
+    "iso": "proto-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
     "name": "Punjabi",
     "iso": "punjabi",
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Punjabi_language",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Pyang Zhuang",
+    "iso": "pyang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Qabiao",
@@ -5069,6 +5831,13 @@
       "historical",
       "hypothetical"
     ]
+  },
+  {
+    "name": "Ravula",
+    "iso": "ravula",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "iso": "rouran",
@@ -5105,6 +5874,13 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Saek",
+    "iso": "saek",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Sakhalin Ainu",
@@ -5169,6 +5945,13 @@
     "family": "Munda"
   },
   {
+    "name": "Sapa",
+    "iso": "sapa",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "iso": "sart-kalmyk",
     "name": "Sart Kalmyk",
     "region": "Asia",
@@ -5227,6 +6010,13 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Shan",
+    "iso": "shan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "iso": "shilingol-khalkha",
     "name": "Shilingol / Xilingol Khalkha",
     "region": "Asia",
@@ -5250,6 +6040,13 @@
       "historical",
       "hypothetical"
     ]
+  },
+  {
+    "name": "Sholaga",
+    "iso": "sholaga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Shompen",
@@ -5310,11 +6107,32 @@
     "family": "Nicobarese"
   },
   {
+    "name": "Southern Tai",
+    "iso": "southern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Southern Thai",
+    "iso": "southern-thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Southern Tungusic",
     "iso": "southern-tungusic",
     "region": "Asia",
     "category": "Tungusic",
     "family": "Southern Tungusic"
+  },
+  {
+    "name": "Southwestern Tai",
+    "iso": "southwestern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Sri Lankan Malay",
@@ -5337,6 +6155,13 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Standard Zhuang",
+    "iso": "standard-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Sui",
@@ -5383,12 +6208,145 @@
     ]
   },
   {
+    "name": "Tai",
+    "iso": "tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Daeng",
+    "iso": "tai-daeng",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Dam",
+    "iso": "tai-dam",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Don",
+    "iso": "tai-don",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Hang Tong",
+    "iso": "tai-hang-tong",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Hongjin",
+    "iso": "tai-hongjin",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Khang",
+    "iso": "tai-khang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Laing",
+    "iso": "tai-laing",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Long",
+    "iso": "tai-long",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Lue",
+    "iso": "tai-lue",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Meuay",
+    "iso": "tai-meuay",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Muong Vat",
+    "iso": "tai-muong-vat",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Nuea",
+    "iso": "tai-nuea",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Pao",
+    "iso": "tai-pao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Thanh",
+    "iso": "tai-thanh",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Ya",
+    "iso": "tai-ya",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Yo (Nyaw)",
+    "iso": "tai-yo",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Tamil",
     "iso": "tamil",
     "region": "Asia",
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tamil_language",
     "family": "Dravidian"
+  },
+  {
+    "name": "Tay (Tai)",
+    "iso": "tay-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tay Tac",
+    "iso": "tay-tac",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Telue",
@@ -5420,6 +6378,13 @@
     "family": "Nicobarese"
   },
   {
+    "name": "Thachanadan",
+    "iso": "thachanadan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Thai",
     "iso": "thai",
     "region": "Asia",
@@ -5428,11 +6393,32 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Thai (Siamese)",
+    "iso": "thai-siamese",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Thai Song",
+    "iso": "thai-song",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Then",
     "iso": "then-kam-sui",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Toda",
+    "iso": "toda",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Tokunoshima",
@@ -5470,11 +6456,32 @@
     "family": "Shirongolic"
   },
   {
+    "name": "Tsun-Lao",
+    "iso": "tsun-lao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tulu",
+    "iso": "tulu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Tungusic languages",
     "iso": "tungusic-languages",
     "region": "Asia",
     "category": "Tungusic",
     "family": "Tungusic"
+  },
+  {
+    "name": "Turung",
+    "iso": "turung",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Tuyuhun",
@@ -5588,11 +6595,25 @@
     "family": "Vietic"
   },
   {
+    "name": "Vishavan",
+    "iso": "vishavan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "War Khasi",
     "iso": "kha-war",
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Khasic"
+  },
+  {
+    "name": "Wayanad Chetti",
+    "iso": "wayanad-chetti",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
   },
   {
     "name": "Western Khmer",
@@ -5616,6 +6637,27 @@
     "family": "Yaeyama Ryukyuan"
   },
   {
+    "name": "Yang Zhuang",
+    "iso": "yang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yei Zhuang",
+    "iso": "yei-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yerukala",
+    "iso": "yerukala",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Yonaguni",
     "iso": "yonaguni",
     "region": "Asia",
@@ -5623,11 +6665,25 @@
     "family": "Yaeyama Ryukyuan"
   },
   {
+    "name": "Yong",
+    "iso": "yong",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
     "name": "Yoron",
     "iso": "yoron",
     "region": "Asia",
     "category": "Japonic",
     "family": "Amami Ryukyuan"
+  },
+  {
+    "name": "Yoy",
+    "iso": "yoy",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
   },
   {
     "name": "Yuanmen Hlai",
@@ -5661,6 +6717,335 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Adnyamathanha",
+    "iso": "adnyamathanha",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Anindilyakwa",
+    "iso": "anindilyakwa",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Bardi",
+    "iso": "bardi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Bundjalung",
+    "iso": "bundjalung",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Burarra",
+    "iso": "burarra",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Dhuwal",
+    "iso": "dhuwal",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Djaru",
+    "iso": "djaru",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Djinang",
+    "iso": "djinang",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Gamilaraay",
+    "iso": "gamilaraay",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Githabul",
+    "iso": "githabul",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Gooniyandi",
+    "iso": "gooniyandi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Gurindji",
+    "iso": "gurindji",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Guugu Yimidhirr",
+    "iso": "guugu-yimidhirr",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Iwaidja",
+    "iso": "iwaidja",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kaytetye",
+    "iso": "kaytetye",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kija",
+    "iso": "kija",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kukatja",
+    "iso": "kukatja",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kuku Yalanji",
+    "iso": "kuku-yalanji",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kunwinjku",
+    "iso": "kunwinjku",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kuuk Thaayore",
+    "iso": "kuuk-thaayore",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Luritja",
+    "iso": "luritja",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Manytjilyitjarra",
+    "iso": "manytjilyitjarra",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Martu Wangka",
+    "iso": "martu-wangka",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Maung",
+    "iso": "maung",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Miriwoong",
+    "iso": "miriwoong",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Murrinh Patha",
+    "iso": "murrinh-patha",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Ngaanyatjarra",
+    "iso": "ngaanyatjarra",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Ngarrindjeri",
+    "iso": "ngarrindjeri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Noongar",
+    "iso": "noongar",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Nunggubuyu",
+    "iso": "nunggubuyu",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Nyangumarta",
+    "iso": "nyangumarta",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "palawa kani",
+    "iso": "palawa-kani",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Panyjima",
+    "iso": "panyjima",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Pintupi",
+    "iso": "pintupi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Pitjantjatjara",
+    "iso": "pitjantjatjara",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Tiwi",
+    "iso": "tiwi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Upper Arrernte",
+    "iso": "upper-arrernte",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wajarri",
+    "iso": "wajarri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Walmatjarri",
+    "iso": "walmatjarri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wangkatha",
+    "iso": "wangkatha",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Warlpiri",
+    "iso": "warlpiri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Warumungu",
+    "iso": "warumungu",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wik Mungkan",
+    "iso": "wik-mungkan",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wiradjuri",
+    "iso": "wiradjuri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Yankunytjatjara",
+    "iso": "yankunytjatjara",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Yinjibarndi",
+    "iso": "yinjibarndi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Yugambeh",
+    "iso": "yugambeh",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
   },
   {
     "name": "Anguillian Creole",
@@ -12686,6 +14071,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
+  },
+  {
+    "name": "Judeo-Arabic",
+    "iso": "judeo-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Arabic"
   },
   {
     "name": "Judeo-Baghdadi",

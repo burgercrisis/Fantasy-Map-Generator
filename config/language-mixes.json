@@ -12749,6 +12749,13 @@
     "family": "Levantine"
   },
   {
+    "name": "Judeo-Arabic",
+    "iso": "judeo-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Arabic"
+  },
+  {
     "name": "Judeo-Algerian Arabic",
     "iso": "judeo-algerian-arabic",
     "region": "Middle East",
@@ -19169,5 +19176,110 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Altai",
+    "iso": "altai",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
+    "name": "Balti",
+    "iso": "balti",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Bikol",
+    "iso": "bikol",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Bodo",
+    "iso": "bodo",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Chhattisgarhi",
+    "iso": "chhattisgarhi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Chin",
+    "iso": "chin",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Hokchiu",
+    "iso": "hokchiu",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Ibanag",
+    "iso": "ibanag",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Ilocano",
+    "iso": "ilocano",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Kapampangan",
+    "iso": "kapampangan",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Karakalpak",
+    "iso": "karakalpak",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
+    "name": "Khakas",
+    "iso": "khakas",
+    "region": "Asia",
+    "category": "Turkic",
+    "family": "Turkic"
+  },
+  {
+    "name": "Magahi",
+    "iso": "magahi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Maguindanao",
+    "iso": "maguindanao",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Pangasinan",
+    "iso": "pangasinan",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian"
   }
 ]
