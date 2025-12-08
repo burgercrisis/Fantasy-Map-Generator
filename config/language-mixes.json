@@ -2022,7 +2022,7 @@
     "iso": "lingala",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Lowland East Cushitic",
@@ -2036,7 +2036,7 @@
     "iso": "luganda",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Maaka language",
@@ -3232,7 +3232,7 @@
     "iso": "xhosa",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Yedina language",
@@ -3522,7 +3522,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Altai_languages",
-    "family": "Turkic"
+    "family": "Siberian Turkic"
   },
   {
     "iso": "altai-uriankhai",
@@ -3720,7 +3720,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Bashkir_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Batek",
@@ -4655,7 +4655,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Karakalpak_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Kashmiri",
@@ -4726,7 +4726,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Khakas_language",
-    "family": "Turkic"
+    "family": "Siberian Turkic"
   },
   {
     "iso": "khalkha",
@@ -7079,6 +7079,7 @@
     "iso": "dhuwal",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dhuwal_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7086,6 +7087,7 @@
     "iso": "djaru",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Djaru_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7093,6 +7095,7 @@
     "iso": "djinang",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Djinang_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7100,6 +7103,7 @@
     "iso": "gamilaraay",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gamilaraay_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7107,6 +7111,7 @@
     "iso": "githabul",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Githabul_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7114,6 +7119,7 @@
     "iso": "gooniyandi",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guniyandi_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7121,6 +7127,7 @@
     "iso": "gurindji",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gurindji_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7128,6 +7135,7 @@
     "iso": "guugu-yimidhirr",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guugu_Yimithirr_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7135,6 +7143,7 @@
     "iso": "iwaidja",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iwaidja_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7142,6 +7151,7 @@
     "iso": "kaytetye",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaytetye_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7689,7 +7699,7 @@
     "region": "Caucasus",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Azerbaijani_language",
-    "family": "Turkic"
+    "family": "Oghuz Turkic"
   },
   {
     "name": "Bats",
@@ -7812,7 +7822,7 @@
     "region": "Caucasus",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Nogai_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Old Georgian",
@@ -7891,7 +7901,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Kazakh_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Kyrgyz",
@@ -7899,7 +7909,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Kyrgyz_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Tajik",
@@ -7915,7 +7925,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Turkmen_language",
-    "family": "Turkic"
+    "family": "Oghuz Turkic"
   },
   {
     "name": "Uyghur",
@@ -7923,7 +7933,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Uyghur_language",
-    "family": "Turkic"
+    "family": "Karluk Turkic"
   },
   {
     "name": "Uzbek",
@@ -7931,7 +7941,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Uzbek_language",
-    "family": "Turkic"
+    "family": "Karluk Turkic"
   },
   {
     "name": "Badong Yao",
@@ -10266,7 +10276,7 @@
     "region": "Eurasia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Tatar_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Tavastian",
@@ -11291,7 +11301,7 @@
     "region": "Europe",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Chuvash_language",
-    "family": "Turkic"
+    "family": "Oghur Turkic"
   },
   {
     "name": "Cilentan",
@@ -15562,7 +15572,7 @@
     "iso": "tur",
     "category": "Turkic",
     "region": "Middle East",
-    "family": "Turkic"
+    "family": "Oghuz Turkic"
   },
   {
     "name": "Turoyo",

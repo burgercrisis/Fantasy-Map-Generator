@@ -1391,14 +1391,14 @@
     "iso": "fut",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Grassfields Bantoid"
   },
   {
     "name": "Fwe",
     "iso": "fwe",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Fyer language",
@@ -2027,7 +2027,7 @@
     "iso": "lingala",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Lowland East Cushitic",
@@ -2041,7 +2041,7 @@
     "iso": "luganda",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Maaka language",
@@ -3007,7 +3007,7 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Swahili_language",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Tagdal language",
@@ -3237,7 +3237,7 @@
     "iso": "xhosa",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "family": "Bantu"
   },
   {
     "name": "Yedina language",
@@ -3527,7 +3527,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Altai_languages",
-    "family": "Turkic"
+    "family": "Siberian Turkic"
   },
   {
     "iso": "altai-uriankhai",
@@ -3725,7 +3725,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Bashkir_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Batek",
@@ -4660,7 +4660,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Karakalpak_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Kashmiri",
@@ -4731,7 +4731,7 @@
     "region": "Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Khakas_language",
-    "family": "Turkic"
+    "family": "Siberian Turkic"
   },
   {
     "iso": "khalkha",
@@ -7694,7 +7694,7 @@
     "region": "Caucasus",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Azerbaijani_language",
-    "family": "Turkic"
+    "family": "Oghuz Turkic"
   },
   {
     "name": "Bats",
@@ -7817,7 +7817,7 @@
     "region": "Caucasus",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Nogai_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Old Georgian",
@@ -7896,7 +7896,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Kazakh_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Kyrgyz",
@@ -7904,7 +7904,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Kyrgyz_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Tajik",
@@ -7920,7 +7920,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Turkmen_language",
-    "family": "Turkic"
+    "family": "Oghuz Turkic"
   },
   {
     "name": "Uyghur",
@@ -7928,7 +7928,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Uyghur_language",
-    "family": "Turkic"
+    "family": "Karluk Turkic"
   },
   {
     "name": "Uzbek",
@@ -7936,7 +7936,7 @@
     "region": "Central Asia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Uzbek_language",
-    "family": "Turkic"
+    "family": "Karluk Turkic"
   },
   {
     "name": "Badong Yao",
@@ -10271,7 +10271,7 @@
     "region": "Eurasia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Tatar_language",
-    "family": "Turkic"
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Tavastian",
@@ -11296,7 +11296,7 @@
     "region": "Europe",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Chuvash_language",
-    "family": "Turkic"
+    "family": "Oghur Turkic"
   },
   {
     "name": "Cilentan",
@@ -15567,7 +15567,7 @@
     "iso": "tur",
     "category": "Turkic",
     "region": "Middle East",
-    "family": "Turkic"
+    "family": "Oghuz Turkic"
   },
   {
     "name": "Turoyo",
@@ -18293,7 +18293,10 @@
     "iso": "eastern-oceanic",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Edolo",
@@ -18321,7 +18324,10 @@
     "iso": "engan-languages",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "English-based Pacific creoles family",
@@ -18390,7 +18396,10 @@
     "iso": "finisterre-huon-languages",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Fiwaga",
@@ -18432,7 +18441,10 @@
     "iso": "formosan",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Fuyug",
@@ -18502,14 +18514,20 @@
     "iso": "gogodala-suki",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Goilalan",
     "iso": "goilalan",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Golin",
@@ -18544,28 +18562,40 @@
     "iso": "greater-awyu",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Trans–New Guinea"
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Greater Barito",
     "iso": "greater-barito",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Greater Central Philippine",
     "iso": "greater-central-philippine",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Greater North Borneo",
     "iso": "greater-north-borneo",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Hagen",
@@ -18579,7 +18609,10 @@
     "iso": "halmahera-sea",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Hamtai",
@@ -18654,7 +18687,10 @@
     "iso": "inland-gulf",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Inoke-Yate",
@@ -18738,7 +18774,10 @@
     "iso": "kainantu-goroka-languages",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Trans–New Guinea"
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kalamian",
@@ -18850,7 +18889,10 @@
     "iso": "kayagaric",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kayan-Murik",
@@ -18921,7 +18963,10 @@
     "iso": "kiwaian",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Klon",
@@ -18942,7 +18987,10 @@
     "iso": "kolopom",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kombai–Wanggom",
@@ -19061,7 +19109,10 @@
     "iso": "kutubuan-languages",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Trans–New Guinea"
+    "family": "Trans–New Guinea",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kyaka",
@@ -19117,7 +19168,10 @@
     "iso": "madang-languages",
     "region": "Pacific",
     "category": "Papuan",
-    "family": "Papuan"
+    "family": "Papuan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Madurese",
@@ -19278,7 +19332,10 @@
     "iso": "meso-melanesian",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Mian",
@@ -19292,7 +19349,10 @@
     "iso": "micronesian",
     "region": "Pacific",
     "category": "Micronesian",
-    "family": "Micronesian"
+    "family": "Micronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Minahasan",
@@ -19583,7 +19643,10 @@
     "iso": "oceanic",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Odoodee",
