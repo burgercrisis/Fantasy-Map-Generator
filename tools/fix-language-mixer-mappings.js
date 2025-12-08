@@ -59,6 +59,26 @@ const explicitIsoBaseMap = {
   "naukan": 19,
   "sirenik": 19,
   "yuit": 19,
+  "almosan": 19,
+  "chukotko-kamchatkan-amuric": 19,
+  "den-yeniseian": 19,
+  "karasuk": 19,
+  "athabaskan": 19,
+  "eyak": 19,
+  "alyutor": 19,
+  "arin": 19,
+  "assan": 19,
+  "chukchi": 19,
+  "chuvan": 19,
+  "jie": 19,
+  "kerek": 19,
+  "ket": 19,
+  "koryak": 19,
+  "kott": 19,
+  "nivkh": 19,
+  "omok": 19,
+  "pumpokol": 19,
+  "yugh": 19,
 
   // Hmong-Mien / Yao languages
   "iu-mien": 11,
@@ -110,6 +130,8 @@ const explicitIsoBaseMap = {
   gumer: 23,
   gura: 23,
   gyeto: 23,
+  inor: 23,
+  "inneqor": 23,
   kishite: 23,
   "sebat-bet": 23,
   ulbare: 23,
@@ -150,6 +172,19 @@ const explicitIsoBaseMap = {
   muromian: 9,
   yurats: 9,
   "uralo-siberian": 9,
+  "laiuse-romani": 270,
+  bangime: 21,
+  bayot: 21,
+  jalaa: 21,
+  laal: 21,
+  mpre: 21,
+  omaio: 28,
+  ongota: 28,
+  shabo: 28,
+  she: 11,
+  kenaboi: 195,
+  kwaza: 173,
+  "xoc-": 173,
 
   // Tungusic / Jurchenic / Nanaic / Ewenic / Udegeic cluster (approximate to Mongolian base)
   alchuka: 31,
@@ -169,7 +204,41 @@ const explicitIsoBaseMap = {
   xibe: 31,
 
   // Koreanic macro ISO
-  kor: 10
+  kor: 10,
+
+  "cauque-mayan-language": 170,
+  "l-ngua-geral-amaz-nica": 173,
+  "l-ngua-geral-paulista": 173,
+  "media-lengua": 27,
+  "maritime-polynesian-pidgin": 25,
+  "mbugu": 28,
+
+  "bolze": 2,
+  "petuh": 2,
+  "cocoliche": 4,
+  "mediterranean-lingua-franca": 4,
+
+  "broken-slavey": 19,
+  "loucheux-jargon": 19,
+  "nootka-jargon": 19,
+  "pidgin-delaware": 172,
+  "mobilian-jargon": 172,
+  "russenorsk": 6,
+
+  "arafundi-enga-pidgin": 25,
+  "duvle-wano-pidgin": 25,
+  "kwoma-manambu-pidgin": 25,
+  "mekeo-pidgins": 25,
+  "pidgin-iha": 25,
+  "pidgin-ngarluma": 25,
+  "pidgin-onin": 25,
+
+  "dao": 29,
+  "camtho": 28,
+  "ewondo-populaire": 28,
+  "international-sign": 1,
+  "kyowa-go": 11,
+  "ndyuka-tiriy-pidgin": 173
 };
 
 // Fallback mapping from common language tokens to base indices. This
@@ -396,7 +465,13 @@ const tokenBaseIndexMap = {
   katuic: 29,
   khmuic: 29,
   pearic: 179,
-  pakanic: 29
+  pakanic: 29,
+  chadic: 132,
+  zenati: 17,
+  zenaga: 17,
+  tuareg: 17,
+  tamazight: 17,
+  amazigh: 17
 };
 
 function readJson(relPath) {

@@ -13,6 +13,13 @@
     "family": "Germanic"
   },
   {
+    "name": "Agaw",
+    "iso": "agaw",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Akan",
     "iso": "akan",
     "region": "Africa",
@@ -29,6 +36,34 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Angas",
+    "iso": "angas",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Aroid",
+    "iso": "aroid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Atlas Berber",
+    "iso": "atlas-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Atlas Berber"
+  },
+  {
+    "name": "Bade",
+    "iso": "bade-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Bambara",
@@ -67,6 +102,20 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Biu–Mandara",
+    "iso": "biu-mandara",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bole–Tangale",
+    "iso": "bole-tangale",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
     "name": "Cameroonian Pidgin",
     "iso": "cameroonian-pidgin",
     "region": "Africa",
@@ -90,6 +139,41 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Dizoid",
+    "iso": "dizoid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Dullay",
+    "iso": "dullay",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "East Chadic",
+    "iso": "east-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "East Zenati",
+    "iso": "east-zenati",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Eastern Berber",
+    "iso": "eastern-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Eastern Berber"
   },
   {
     "name": "Ewe",
@@ -137,6 +221,27 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Gonga",
+    "iso": "gonga",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Hausa–Gwandara",
+    "iso": "hausa-gwandara",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Highland East Cushitic",
+    "iso": "highland-east-cushitic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Igbo",
@@ -189,6 +294,16 @@
     "lexifier": "English"
   },
   {
+    "name": "Kujargé",
+    "iso": "kujarge",
+    "region": "Africa",
+    "category": "Unclassified",
+    "family": "Unclassified",
+    "tags": [
+      "unclassified"
+    ]
+  },
+  {
     "name": "Laal",
     "iso": "laal",
     "region": "Africa",
@@ -221,11 +336,25 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Lowland East Cushitic",
+    "iso": "lowland-east-cushitic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Luganda",
     "iso": "luganda",
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Macro-Somali",
+    "iso": "macro-somali",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Malagasy",
@@ -243,6 +372,48 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Mao Omotic",
+    "iso": "mao-omotic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Marba",
+    "iso": "marba",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Masa (macro)",
+    "iso": "masa-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Masa North",
+    "iso": "masa-north",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Masa South",
+    "iso": "masa-south",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Massa",
+    "iso": "massa-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
     "name": "Merico",
     "iso": "merico",
     "region": "Africa",
@@ -252,6 +423,13 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Mesme",
+    "iso": "mesme",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Moore",
@@ -278,12 +456,33 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Musey",
+    "iso": "musey",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Mzab–Wargla Berber",
+    "iso": "mzab-wargla",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
     "name": "Ndebele",
     "iso": "ndebele",
     "region": "Africa",
     "category": "Bantu",
     "wikipedia": "https://en.wikipedia.org/wiki/Northern_Ndebele_language",
     "family": "Bantu"
+  },
+  {
+    "name": "Ngeté-Herdé",
+    "iso": "ngete-herde",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Niger Congo family",
@@ -308,6 +507,27 @@
     "lexifier": "English"
   },
   {
+    "name": "North Bauchi",
+    "iso": "north-bauchi",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "North Omotic",
+    "iso": "north-omotic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Northern Berber",
+    "iso": "northern-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Northern Berber"
+  },
+  {
     "name": "Nyabwa",
     "iso": "nyabwa",
     "region": "Africa",
@@ -322,11 +542,39 @@
     "family": "Unclassified"
   },
   {
+    "name": "Ometo",
+    "iso": "ometo",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Omo–Tana",
+    "iso": "omo-tana",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Ongota",
     "iso": "ongota",
     "region": "Africa",
     "category": "Unclassified",
     "family": "Unclassified"
+  },
+  {
+    "name": "Oromoid",
+    "iso": "oromoid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Peve",
+    "iso": "peve",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Pichinglis",
@@ -338,6 +586,38 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Proto-Berber",
+    "iso": "proto-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Proto-Berber",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Rendille–Boni",
+    "iso": "rendille-boni",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Ron",
+    "iso": "ron-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Saho–Afar",
+    "iso": "saho-afar",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Sango",
@@ -373,11 +653,32 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Somali languages",
+    "iso": "somali-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
     "name": "Soninke",
     "iso": "soninke",
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "South Bauchi",
+    "iso": "south-bauchi",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "South Cushitic",
+    "iso": "south-cushitic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Swahili",
@@ -395,6 +696,13 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Tuareg Berber",
+    "iso": "tuareg-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
     "name": "West African Pidgin English",
     "iso": "west-african-pidgin-english",
     "region": "Africa",
@@ -405,6 +713,27 @@
       "pidgin"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "West Chadic",
+    "iso": "west-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Western Berber",
+    "iso": "western-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Western Berber"
+  },
+  {
+    "name": "Western Somali",
+    "iso": "somali-western",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Wolof",
@@ -437,11 +766,25 @@
     "family": "Songhay"
   },
   {
+    "name": "Zenati Berber",
+    "iso": "zenati-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
     "name": "Zulu",
     "iso": "zulu",
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Zumaya",
+    "iso": "zumaya",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
   },
   {
     "name": "Akkadian",
@@ -543,7 +886,10 @@
     "iso": "aslians",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Aslian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Assamese",
@@ -569,14 +915,17 @@
     "iso": "bahnar",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Bahnaric"
   },
   {
     "name": "Bahnaric languages",
     "iso": "bahnaric",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Bahnaric",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Bala",
@@ -631,7 +980,7 @@
     "iso": "batek",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Aslian"
   },
   {
     "name": "Bengali",
@@ -679,7 +1028,7 @@
     "iso": "bru",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Katuic"
   },
   {
     "name": "Buryat",
@@ -688,6 +1037,13 @@
     "category": "Mongolic",
     "wikipedia": "https://en.wikipedia.org/wiki/Buryat_language",
     "family": "Mongolic"
+  },
+  {
+    "name": "Camorta Nicobarese",
+    "iso": "camorta-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
   },
   {
     "name": "Cannanore Portuguese Creole",
@@ -705,7 +1061,7 @@
     "iso": "car-nicobarese",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Nicobarese"
   },
   {
     "name": "Cebuano",
@@ -714,6 +1070,13 @@
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language",
     "family": "Austronesian"
+  },
+  {
+    "name": "Chaura Nicobarese",
+    "iso": "chaura-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
   },
   {
     "name": "Chinese Kyakala",
@@ -730,7 +1093,7 @@
     "iso": "chong",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Pearic"
   },
   {
     "name": "Cochin Portuguese Creole",
@@ -788,6 +1151,17 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Duan",
+    "iso": "duan",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
     "name": "Eastern Indonesian Malay",
     "iso": "eastern-indonesian-malay",
     "region": "Asia",
@@ -828,7 +1202,7 @@
     "iso": "gta",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Munda"
   },
   {
     "name": "Gujarati",
@@ -851,7 +1225,7 @@
     "iso": "ho-munda",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Munda"
   },
   {
     "name": "Hokkaido Ainu",
@@ -872,7 +1246,7 @@
     "iso": "hre",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Bahnaric"
   },
   {
     "name": "Indo-Portuguese",
@@ -939,18 +1313,35 @@
     "family": "Indo-Aryan"
   },
   {
+    "name": "Kasong",
+    "iso": "kasong",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Katchal Nicobarese",
+    "iso": "katchal-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
     "name": "Katu",
     "iso": "katu",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Katuic"
   },
   {
     "name": "Katuic languages",
     "iso": "katuic",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Katuic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kenaboi",
@@ -967,42 +1358,45 @@
     "iso": "kharia",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Munda"
   },
   {
     "name": "Khasi",
     "iso": "kha",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Khasic"
   },
   {
     "name": "Khe Khmer",
     "iso": "khm-khe",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khmeric"
   },
   {
     "name": "Khmer",
     "iso": "khm",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Khmeric"
   },
   {
     "name": "Khmu",
     "iso": "khmu",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khmuic"
   },
   {
     "name": "Khmuic languages",
     "iso": "khmuic",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khmuic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Kili",
@@ -1069,7 +1463,7 @@
     "iso": "kuy",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Katuic"
   },
   {
     "name": "Lao",
@@ -1095,7 +1489,14 @@
     "iso": "kha-lyngngam",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khasic"
+  },
+  {
+    "name": "Mah Meri",
+    "iso": "mah-meri",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
   },
   {
     "name": "Malaccan Creole Malay",
@@ -1139,7 +1540,7 @@
     "iso": "mang",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Pakanic"
   },
   {
     "name": "Manglish",
@@ -1187,14 +1588,14 @@
     "iso": "mnong",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Bahnaric"
   },
   {
     "name": "Mon",
     "iso": "mnw",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Monic"
   },
   {
     "name": "Mongolian",
@@ -1209,14 +1610,17 @@
     "iso": "munda",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Munda",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Mundari",
     "iso": "mundari",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Munda"
   },
   {
     "name": "Nanai",
@@ -1224,6 +1628,13 @@
     "region": "Asia",
     "category": "Tungusic",
     "family": "Nanaic"
+  },
+  {
+    "name": "Nancowry Nicobarese",
+    "iso": "nancowry-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
   },
   {
     "name": "Negidal",
@@ -1237,7 +1648,10 @@
     "iso": "nicobarese",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Nicobarese",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "North Moluccan Malay",
@@ -1255,14 +1669,14 @@
     "iso": "khm-northern",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khmeric"
   },
   {
     "name": "Nyah Kur",
     "iso": "nyah-kur",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Monic"
   },
   {
     "name": "Odia",
@@ -1271,6 +1685,28 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Odia_language",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Old Khitan",
+    "iso": "old-khitan",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Old Serbi",
+    "iso": "old-serbi",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
   },
   {
     "name": "Orang Pulo",
@@ -1324,7 +1760,7 @@
     "iso": "pear",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Pearic"
   },
   {
     "name": "Peranakan",
@@ -1342,7 +1778,7 @@
     "iso": "kha-pnar",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khasic"
   },
   {
     "name": "Portugis",
@@ -1371,7 +1807,7 @@
     "iso": "proto-austroasiatic",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic",
+    "family": "Proto",
     "tags": [
       "proto",
       "extinct"
@@ -1408,6 +1844,24 @@
     "family": "Indo-Aryan"
   },
   {
+    "name": "Qifu",
+    "iso": "qifu",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Sa-och",
+    "iso": "sa-och",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
     "name": "Sabah Malay",
     "iso": "sabah-malay",
     "region": "Asia",
@@ -1439,25 +1893,58 @@
     ]
   },
   {
+    "name": "Samre",
+    "iso": "samre",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
     "name": "Santali",
     "iso": "sat",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Munda"
   },
   {
     "name": "Sedang",
     "iso": "sedang",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Bahnaric"
   },
   {
     "name": "Semai",
     "iso": "semai",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Aslian"
+  },
+  {
+    "name": "Semaq Beri",
+    "iso": "semaq-beri",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Semelai",
+    "iso": "semelai",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Serbi–Mongolic family",
+    "iso": "serbi-mongolic-family",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Serbi–Mongolic",
+    "tags": [
+      "family",
+      "historical",
+      "hypothetical"
+    ]
   },
   {
     "name": "Serui Malay",
@@ -1469,6 +1956,24 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Shirwi",
+    "iso": "shirwi",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Shompen",
+    "iso": "shompen",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
   },
   {
     "name": "Sindhi",
@@ -1485,6 +1990,20 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Sinhalese_language",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Somray",
+    "iso": "somray",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Southern Nicobarese",
+    "iso": "southern-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
   },
   {
     "name": "Sri Lankan Malay",
@@ -1528,6 +2047,24 @@
     "family": "Austronesian"
   },
   {
+    "name": "Suoy",
+    "iso": "suoy",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Tabghach",
+    "iso": "tabghach",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
     "name": "Tamil",
     "iso": "tamil",
     "region": "Asia",
@@ -1544,12 +2081,37 @@
     "family": "Dravidian"
   },
   {
+    "name": "Temiar",
+    "iso": "temiar",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Teressa Nicobarese",
+    "iso": "teressa-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
     "name": "Thai",
     "iso": "thai",
     "region": "Asia",
     "category": "Tai-Kadai",
     "wikipedia": "https://en.wikipedia.org/wiki/Thai_language",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tuyuhun",
+    "iso": "tuyuhun",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
   },
   {
     "name": "Udege",
@@ -1586,63 +2148,63 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Vietnamese_language",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "Vietnamese (Central)",
     "iso": "vie-central",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "Vietnamese (Hue)",
     "iso": "vie-hue",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "Vietnamese (in China)",
     "iso": "vie-china",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "Vietnamese (in the US)",
     "iso": "vie-us",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "Vietnamese (Northern)",
     "iso": "vie-northern",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "Vietnamese (Southern)",
     "iso": "vie-southern",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Vietic"
   },
   {
     "name": "War Khasi",
     "iso": "kha-war",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khasic"
   },
   {
     "name": "Western Khmer",
     "iso": "khm-western",
     "region": "Asia",
     "category": "Austroasiatic",
-    "family": "Austroasiatic"
+    "family": "Khmeric"
   },
   {
     "name": "Xibe",
@@ -1937,11 +2499,27 @@
     "lexifier": "English"
   },
   {
+    "name": "Abaza",
+    "iso": "abaza",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abaza_language",
+    "family": "Northwest Caucasian"
+  },
+  {
     "name": "Abkhaz",
     "iso": "abkhaz",
     "region": "Caucasus",
     "category": "Northwest Caucasian",
     "wikipedia": "https://en.wikipedia.org/wiki/Abkhaz_language",
+    "family": "Northwest Caucasian"
+  },
+  {
+    "name": "Adyghe",
+    "iso": "adyghe",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adyghe_language",
     "family": "Northwest Caucasian"
   },
   {
@@ -1959,6 +2537,22 @@
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Azerbaijani_language",
     "family": "Turkic"
+  },
+  {
+    "name": "Bats",
+    "iso": "bats",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bats_language",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Bzyb",
+    "iso": "bzyb",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bzyp_dialect",
+    "family": "Northwest Caucasian"
   },
   {
     "name": "Chechen",
@@ -2002,6 +2596,14 @@
     "tags": [
       "judeo"
     ]
+  },
+  {
+    "name": "Kabardian",
+    "iso": "kabardian",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kabardian_language",
+    "family": "Northwest Caucasian"
   },
   {
     "name": "Laz",
@@ -2108,6 +2710,16 @@
     "lexifier": "Chinese"
   },
   {
+    "name": "Baekje Korean",
+    "iso": "baekje-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Biao Min",
     "iso": "biao-min",
     "region": "East Asia",
@@ -2136,11 +2748,35 @@
     "family": "Bu–Nao"
   },
   {
+    "name": "Buyeo Korean",
+    "iso": "buyeo-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Cantonese",
     "iso": "yue",
     "category": "Sino-Tibetan",
     "region": "East Asia",
     "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Chinese Korean",
+    "iso": "chinese-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Chungcheong Korean",
+    "iso": "chungcheong-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
   },
   {
     "name": "Dongjia",
@@ -2157,6 +2793,30 @@
     "family": "Mienic"
   },
   {
+    "name": "Early Modern Korean",
+    "iso": "early-modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Gangwon Korean",
+    "iso": "gangwon-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Gaya Korean",
+    "iso": "gaya-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Gejia",
     "iso": "gejia",
     "region": "East Asia",
@@ -2164,11 +2824,59 @@
     "family": "West Hmongic"
   },
   {
+    "name": "Goguryeo Korean",
+    "iso": "goguryeo-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Goryeo Korean",
+    "iso": "goryeo-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Middle Korean"
+  },
+  {
     "name": "Guiyang",
     "iso": "guiyang",
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "West Hmongic"
+  },
+  {
+    "name": "Gyeonggi / Seoul Korean",
+    "iso": "gyeonggi-seoul-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Gyeongsang Korean",
+    "iso": "gyeongsang-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Hamgyong Korean",
+    "iso": "hamgyong-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Han (Samhan)",
+    "iso": "han-samhan",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Ancient Koreanic",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Hm Nai",
@@ -2199,11 +2907,53 @@
     "family": "West Hmongic"
   },
   {
+    "name": "Hwanghae Korean",
+    "iso": "hwanghae-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
     "name": "Iu Mien",
     "iso": "iu-mien",
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "Mienic"
+  },
+  {
+    "name": "Jeju language",
+    "iso": "jeju-language",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Jeolla Korean",
+    "iso": "jeolla-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Joseon Korean (Early Modern)",
+    "iso": "joseon-early-modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Early Modern Korean"
+  },
+  {
+    "name": "Joseon Korean (Middle)",
+    "iso": "joseon-middle-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Middle Korean"
+  },
+  {
+    "name": "Joseon Korean (Modern)",
+    "iso": "joseon-modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Modern Korean"
   },
   {
     "name": "Kim Mun",
@@ -2255,6 +3005,16 @@
     "family": "West Hmongic"
   },
   {
+    "name": "Mahan Korean",
+    "iso": "mahan-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Maojia",
     "iso": "maojia",
     "region": "East Asia",
@@ -2270,11 +3030,32 @@
     "family": "West Hmongic"
   },
   {
+    "name": "Middle Korean",
+    "iso": "middle-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
     "name": "Mo Piu",
     "iso": "mo-piu",
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "West Hmongic"
+  },
+  {
+    "name": "Modern Korean",
+    "iso": "modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Munhwao (Standard North Korean)",
+    "iso": "munhwao",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
   },
   {
     "name": "Ná-Meo",
@@ -2291,11 +3072,28 @@
     "family": "Bu–Nao"
   },
   {
+    "name": "North Korean",
+    "iso": "north-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Modern Korean"
+  },
+  {
     "name": "Numao",
     "iso": "numao",
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "Bu–Nao"
+  },
+  {
+    "name": "Old Korean",
+    "iso": "old-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Pa Na",
@@ -2341,6 +3139,17 @@
     ]
   },
   {
+    "name": "Proto-Koreanic",
+    "iso": "proto-koreanic",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
     "name": "Proto-Mienic",
     "iso": "proto-mienic",
     "region": "East Asia",
@@ -2350,6 +3159,30 @@
       "extinct",
       "proto"
     ]
+  },
+  {
+    "name": "Puyeo",
+    "iso": "puyo",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Ancient Koreanic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Pyojuneo (Standard Korean)",
+    "iso": "pyojuneo",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Pyongan Korean",
+    "iso": "pyongan-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
   },
   {
     "name": "Raojia",
@@ -2381,11 +3214,28 @@
     "lexifier": "Chinese"
   },
   {
+    "name": "Silla Korean",
+    "iso": "silla-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Small Flowery",
     "iso": "small-flowery",
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "West Hmongic"
+  },
+  {
+    "name": "South Korean",
+    "iso": "south-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Modern Korean"
   },
   {
     "name": "Xixiu",
@@ -2409,12 +3259,36 @@
     "family": "Mienic"
   },
   {
+    "name": "Ye-Maek",
+    "iso": "ye-maek",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Ancient Koreanic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Yeheni",
     "iso": "yeheni",
     "region": "East Asia",
     "category": "Mixed",
     "family": "Hmong-Mien",
     "lexifier": "Chinese"
+  },
+  {
+    "name": "Yeongdong Korean",
+    "iso": "yeongdong-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Yeongseo Korean",
+    "iso": "yeongseo-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
   },
   {
     "name": "Younian",
@@ -2430,6 +3304,20 @@
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "Sheic"
+  },
+  {
+    "name": "Yukjin Korean",
+    "iso": "yukjin-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Zainichi Korean",
+    "iso": "zainichi-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
   },
   {
     "name": "Akkala Sami",
@@ -3055,6 +3943,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Koryo-mar",
+    "iso": "koryo-mar",
+    "region": "Eurasia",
+    "category": "Koreanic",
+    "family": "Koreanic"
   },
   {
     "name": "Kosa-Kama",
@@ -4773,7 +5668,7 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Belarusian_language",
-    "family": "Slavic"
+    "family": "East Slavic"
   },
   {
     "name": "Benasquese",
@@ -4823,6 +5718,14 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Emilian-Romagnol"
+  },
+  {
+    "name": "Bosnian",
+    "iso": "bosnian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bosnian_language",
+    "family": "Western South Slavic"
   },
   {
     "name": "Bourbonnais",
@@ -4879,7 +5782,7 @@
     "iso": "bul",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Eastern South Slavic"
   },
   {
     "name": "Burgundian",
@@ -5165,11 +6068,19 @@
     "family": "Daco-Romanian"
   },
   {
+    "name": "Croatian",
+    "iso": "croatian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Croatian_language",
+    "family": "Western South Slavic"
+  },
+  {
     "name": "Czech",
     "iso": "ces",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Czech-Slovak"
   },
   {
     "name": "Daco-Romanian",
@@ -5703,6 +6614,14 @@
     "family": "Judeo-Spanish"
   },
   {
+    "name": "Kashubian",
+    "iso": "kashubian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kashubian_language",
+    "family": "Lechitic"
+  },
+  {
     "name": "Ladin",
     "iso": "ladin-lang",
     "region": "Europe",
@@ -5820,6 +6739,14 @@
     "region": "Europe",
     "category": "Romance",
     "family": "US"
+  },
+  {
+    "name": "Lower Sorbian",
+    "iso": "lower-sorbian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lower_Sorbian_language",
+    "family": "Sorbian"
   },
   {
     "name": "Lucchese",
@@ -6007,6 +6934,14 @@
     "family": "Ligurian"
   },
   {
+    "name": "Montenegrin",
+    "iso": "montenegrin",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Montenegrin_language",
+    "family": "Western South Slavic"
+  },
+  {
     "name": "Moselle Romance",
     "iso": "moselle-romance",
     "region": "Europe",
@@ -6161,6 +7096,14 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Old Church Slavonic",
+    "iso": "old-church-slavonic",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "family": "Eastern South Slavic"
   },
   {
     "name": "Old Gallo-Romance",
@@ -6347,6 +7290,14 @@
     "family": "Dialects"
   },
   {
+    "name": "Podlachian",
+    "iso": "podlachian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Podlachian_dialects",
+    "family": "East Slavic"
+  },
+  {
     "name": "Poitevin",
     "iso": "poitevin",
     "region": "Europe",
@@ -6361,11 +7312,27 @@
     "family": "Oïl Dialects"
   },
   {
+    "name": "Polabian",
+    "iso": "polabian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Polabian_language",
+    "family": "Lechitic"
+  },
+  {
     "name": "Polish",
     "iso": "pol",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Lechitic"
+  },
+  {
+    "name": "Pomeranian",
+    "iso": "pomeranian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pomeranian_language",
+    "family": "Lechitic"
   },
   {
     "name": "Portuguese",
@@ -6507,7 +7474,15 @@
     "iso": "rus",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "East Slavic"
+  },
+  {
+    "name": "Rusyn",
+    "iso": "rusyn",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rusyn_language",
+    "family": "East Slavic"
   },
   {
     "name": "Sabino",
@@ -6585,7 +7560,15 @@
     "iso": "srp",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Western South Slavic"
+  },
+  {
+    "name": "Serbo-Croatian",
+    "iso": "serbo-croatian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "family": "Western South Slavic"
   },
   {
     "name": "Sercquiais",
@@ -6608,7 +7591,15 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Silesian_language",
-    "family": "Slavic"
+    "family": "Lechitic"
+  },
+  {
+    "name": "Slovak",
+    "iso": "slovak",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slovak_language",
+    "family": "Czech-Slovak"
   },
   {
     "name": "Slovene",
@@ -6616,7 +7607,15 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language",
-    "family": "Slavic"
+    "family": "Western South Slavic"
+  },
+  {
+    "name": "Slovincian",
+    "iso": "slovincian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slovincian_language",
+    "family": "Lechitic"
   },
   {
     "name": "Somontanés",
@@ -6806,7 +7805,7 @@
     "iso": "ukr",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "East Slavic"
   },
   {
     "name": "Umbrian",
@@ -6814,6 +7813,14 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Central Italian"
+  },
+  {
+    "name": "Upper Sorbian",
+    "iso": "upper-sorbian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upper_Sorbian_language",
+    "family": "Sorbian"
   },
   {
     "name": "Uruguayan Portuguese",
@@ -6935,6 +7942,14 @@
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language",
     "family": "Celtic"
+  },
+  {
+    "name": "West Polesian",
+    "iso": "west-polesian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/West_Polesian_microlanguage",
+    "family": "East Slavic"
   },
   {
     "name": "West Walloon",
@@ -7575,6 +8590,13 @@
     "family": "Maghrebi"
   },
   {
+    "name": "Central Semitic",
+    "iso": "central-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Chadian Arabic",
     "iso": "chadian-arabic",
     "region": "Middle East",
@@ -7734,6 +8756,13 @@
     "family": "Transversal"
   },
   {
+    "name": "East Semitic",
+    "iso": "east-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Eastern Egyptian Bedawi Arabic",
     "iso": "eastern-egyptian-bedawi-arabic",
     "region": "Middle East",
@@ -7777,6 +8806,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "South Canaanite"
+  },
+  {
+    "name": "Egyptian",
+    "iso": "egyptian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egyptian"
   },
   {
     "name": "Egyptian Arabic",
@@ -8585,6 +9621,13 @@
     "family": "Northwest Arabian"
   },
   {
+    "name": "Northwest Semitic",
+    "iso": "northwest-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Old Akkadian",
     "iso": "old-akkadian",
     "region": "Middle East",
@@ -8644,6 +9687,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
+  },
+  {
+    "name": "Other Semitic",
+    "iso": "other-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
   },
   {
     "name": "Palestinian Arabic",
@@ -8727,6 +9777,39 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
+  },
+  {
+    "name": "Proto-Afroasiatic",
+    "iso": "proto-afroasiatic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Proto-Afroasiatic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Arabic",
+    "iso": "proto-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Proto-Arabic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Semitic",
+    "iso": "proto-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Proto-Semitic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
   },
   {
     "name": "Punic",
@@ -8984,6 +10067,13 @@
     "family": "Mesopotamian"
   },
   {
+    "name": "South Semitic",
+    "iso": "south-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
     "name": "Sudanese Arabic",
     "iso": "sudanese-arabic",
     "region": "Middle East",
@@ -9154,6 +10244,13 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Outer"
+  },
+  {
+    "name": "West Semitic",
+    "iso": "west-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
   },
   {
     "name": "Western Egyptian Bedawi Arabic",
@@ -10859,6 +11956,13 @@
     "family": "Iroquoian"
   },
   {
+    "name": "Na-Dene",
+    "iso": "na-dene",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
     "name": "Nahuatl",
     "iso": "nah",
     "region": "North America",
@@ -11183,6 +12287,20 @@
     "family": "Chukotkan"
   },
   {
+    "name": "Chukotkan",
+    "iso": "chukotkan",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotkan"
+  },
+  {
+    "name": "Chukotko-Kamchatkan",
+    "iso": "chukotko-kamchatkan",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotko-Kamchatkan"
+  },
+  {
     "name": "Chuvan",
     "iso": "chuvan",
     "region": "Siberia",
@@ -11210,6 +12328,13 @@
     "family": "Itelmen"
   },
   {
+    "name": "Itelmen (Western Kamchadal)",
+    "iso": "western-itelmen",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Itelmen"
+  },
+  {
     "name": "Jie",
     "iso": "jie",
     "region": "Siberia",
@@ -11218,6 +12343,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Kamchatkan",
+    "iso": "kamchatkan",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Kamchatkan"
   },
   {
     "name": "Kerek",
@@ -11305,11 +12437,11 @@
     "family": "Yukaghir"
   },
   {
-    "name": "Western Itelmen",
-    "iso": "western-itelmen",
+    "name": "Yeniseian",
+    "iso": "yeniseian",
     "region": "Siberia",
-    "category": "Chukotko-Kamchatkan",
-    "family": "Itelmen"
+    "category": "Yeniseian",
+    "family": "Yeniseian"
   },
   {
     "name": "Yugh",

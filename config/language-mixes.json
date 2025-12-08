@@ -2491,6 +2491,299 @@
     "family": "Koreanic"
   },
   {
+    "name": "Proto-Koreanic",
+    "iso": "proto-koreanic",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Puyŏ",
+    "iso": "puyo",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Ancient Koreanic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Ye-Maek",
+    "iso": "ye-maek",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Ancient Koreanic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Han (Samhan)",
+    "iso": "han-samhan",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Ancient Koreanic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Korean",
+    "iso": "old-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Baekje Korean",
+    "iso": "baekje-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Buyeo Korean",
+    "iso": "buyeo-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Gaya Korean",
+    "iso": "gaya-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Goguryeo Korean",
+    "iso": "goguryeo-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Mahan Korean",
+    "iso": "mahan-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Silla Korean",
+    "iso": "silla-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Old Korean",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Middle Korean",
+    "iso": "middle-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Goryeo Korean",
+    "iso": "goryeo-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Middle Korean"
+  },
+  {
+    "name": "Joseon Korean (Middle)",
+    "iso": "joseon-middle-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Middle Korean"
+  },
+  {
+    "name": "Early Modern Korean",
+    "iso": "early-modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Joseon Korean (Early Modern)",
+    "iso": "joseon-early-modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Early Modern Korean"
+  },
+  {
+    "name": "Modern Korean",
+    "iso": "modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Joseon Korean (Modern)",
+    "iso": "joseon-modern-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Modern Korean"
+  },
+  {
+    "name": "South Korean",
+    "iso": "south-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Modern Korean"
+  },
+  {
+    "name": "Pyojuneo (Standard Korean)",
+    "iso": "pyojuneo",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "North Korean",
+    "iso": "north-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Modern Korean"
+  },
+  {
+    "name": "Munhwaŏ (Standard North Korean)",
+    "iso": "munhwao",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Chungcheong Korean",
+    "iso": "chungcheong-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Gangwon Korean",
+    "iso": "gangwon-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Yeongdong Korean",
+    "iso": "yeongdong-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Yeongseo Korean",
+    "iso": "yeongseo-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Gyeonggi / Seoul Korean",
+    "iso": "gyeonggi-seoul-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Gyeongsang Korean",
+    "iso": "gyeongsang-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Jeolla Korean",
+    "iso": "jeolla-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "South Korean"
+  },
+  {
+    "name": "Hamgyŏng Korean",
+    "iso": "hamgyong-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Hwanghae Korean",
+    "iso": "hwanghae-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Pyongan Korean",
+    "iso": "pyongan-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Yukjin Korean",
+    "iso": "yukjin-dialect",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "North Korean"
+  },
+  {
+    "name": "Chinese Korean",
+    "iso": "chinese-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Koryo-mar",
+    "iso": "koryo-mar",
+    "region": "Eurasia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Zainichi Korean",
+    "iso": "zainichi-korean",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
+    "name": "Jeju language",
+    "iso": "jeju-language",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "family": "Koreanic"
+  },
+  {
     "name": "Lingling",
     "iso": "lingling",
     "region": "East Asia",
@@ -5027,7 +5320,7 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Belarusian_language",
-    "family": "Slavic"
+    "family": "East Slavic"
   },
   {
     "name": "Benasquese",
@@ -5133,7 +5426,7 @@
     "iso": "bul",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Eastern South Slavic"
   },
   {
     "name": "Burgundian",
@@ -5423,7 +5716,7 @@
     "iso": "ces",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Czech-Slovak"
   },
   {
     "name": "Daco-Romanian",
@@ -6619,7 +6912,7 @@
     "iso": "pol",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Lechitic"
   },
   {
     "name": "Portuguese",
@@ -6761,7 +7054,7 @@
     "iso": "rus",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "East Slavic"
   },
   {
     "name": "Sabino",
@@ -6839,7 +7132,7 @@
     "iso": "srp",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "Western South Slavic"
   },
   {
     "name": "Sercquiais",
@@ -6862,7 +7155,7 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Silesian_language",
-    "family": "Slavic"
+    "family": "Lechitic"
   },
   {
     "name": "Slovene",
@@ -6870,7 +7163,7 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language",
-    "family": "Slavic"
+    "family": "Western South Slavic"
   },
   {
     "name": "Somontanés",
@@ -7060,7 +7353,7 @@
     "iso": "ukr",
     "category": "Slavic",
     "region": "Europe",
-    "family": "Slavic"
+    "family": "East Slavic"
   },
   {
     "name": "Umbrian",
@@ -11005,6 +11298,13 @@
     "lexifier": "English"
   },
   {
+    "name": "Na-Dene",
+    "iso": "na-dene",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
     "name": "Athabaskan",
     "iso": "athabaskan",
     "region": "North America",
@@ -11559,7 +11859,7 @@
     "family": "Yukaghir"
   },
   {
-    "name": "Western Itelmen",
+    "name": "Itelmen (Western Kamchadal)",
     "iso": "western-itelmen",
     "region": "Siberia",
     "category": "Chukotko-Kamchatkan",
@@ -11571,6 +11871,34 @@
     "region": "Siberia",
     "category": "Yeniseian",
     "family": "Northern"
+  },
+  {
+    "name": "Yeniseian",
+    "iso": "yeniseian",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Yeniseian"
+  },
+  {
+    "name": "Chukotko-Kamchatkan",
+    "iso": "chukotko-kamchatkan",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotko-Kamchatkan"
+  },
+  {
+    "name": "Kamchatkan",
+    "iso": "kamchatkan",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Kamchatkan"
+  },
+  {
+    "name": "Chukotkan",
+    "iso": "chukotkan",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotkan"
   },
   {
     "name": "Angami Pochuri",
@@ -12673,5 +13001,550 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Proto-Afroasiatic",
+    "iso": "proto-afroasiatic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Proto-Afroasiatic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Berber",
+    "iso": "proto-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Proto-Berber",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Semitic",
+    "iso": "proto-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Proto-Semitic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Arabic",
+    "iso": "proto-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Proto-Arabic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Eastern Berber",
+    "iso": "eastern-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Eastern Berber"
+  },
+  {
+    "name": "Northern Berber",
+    "iso": "northern-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Northern Berber"
+  },
+  {
+    "name": "Atlas Berber",
+    "iso": "atlas-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Atlas Berber"
+  },
+  {
+    "name": "Zenati Berber",
+    "iso": "zenati-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "East Zenati",
+    "iso": "east-zenati",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Mzab–Wargla Berber",
+    "iso": "mzab-wargla",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Tuareg Berber",
+    "iso": "tuareg-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Western Berber",
+    "iso": "western-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Western Berber"
+  },
+  {
+    "name": "Biu–Mandara",
+    "iso": "biu-mandara",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "East Chadic",
+    "iso": "east-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "West Chadic",
+    "iso": "west-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Angas",
+    "iso": "angas",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bade",
+    "iso": "bade-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bole–Tangale",
+    "iso": "bole-tangale",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Hausa–Gwandara",
+    "iso": "hausa-gwandara",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "North Bauchi",
+    "iso": "north-bauchi",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ron",
+    "iso": "ron-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "South Bauchi",
+    "iso": "south-bauchi",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Masa (macro)",
+    "iso": "masa-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Masa North",
+    "iso": "masa-north",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Marba",
+    "iso": "marba",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Massa",
+    "iso": "massa-chadic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Musey",
+    "iso": "musey",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Zumaya",
+    "iso": "zumaya",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Masa South",
+    "iso": "masa-south",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Mesme",
+    "iso": "mesme",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ngeté-Herdé",
+    "iso": "ngete-herde",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Peve",
+    "iso": "peve",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Agaw",
+    "iso": "agaw",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Dullay",
+    "iso": "dullay",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Highland East Cushitic",
+    "iso": "highland-east-cushitic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Lowland East Cushitic",
+    "iso": "lowland-east-cushitic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Omo–Tana",
+    "iso": "omo-tana",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Macro-Somali",
+    "iso": "macro-somali",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Rendille–Boni",
+    "iso": "rendille-boni",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Somali languages",
+    "iso": "somali-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Western Somali",
+    "iso": "somali-western",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Oromoid",
+    "iso": "oromoid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Saho–Afar",
+    "iso": "saho-afar",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "South Cushitic",
+    "iso": "south-cushitic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Aroid",
+    "iso": "aroid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Dizoid",
+    "iso": "dizoid",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Mao Omotic",
+    "iso": "mao-omotic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "North Omotic",
+    "iso": "north-omotic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Gonga",
+    "iso": "gonga",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "Ometo",
+    "iso": "ometo",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Omotic"
+  },
+  {
+    "name": "East Semitic",
+    "iso": "east-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
+    "name": "West Semitic",
+    "iso": "west-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
+    "name": "Central Semitic",
+    "iso": "central-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
+    "name": "Northwest Semitic",
+    "iso": "northwest-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
+    "name": "South Semitic",
+    "iso": "south-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
+    "name": "Other Semitic",
+    "iso": "other-semitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Semitic"
+  },
+  {
+    "name": "Egyptian",
+    "iso": "egyptian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egyptian"
+  },
+  {
+    "name": "Kujargé",
+    "iso": "kujarge",
+    "region": "Africa",
+    "category": "Unclassified",
+    "family": "Unclassified",
+    "tags": [
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Rusyn",
+    "iso": "rusyn",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rusyn_language",
+    "family": "East Slavic"
+  },
+  {
+    "name": "Podlachian",
+    "iso": "podlachian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Podlachian_dialects",
+    "family": "East Slavic"
+  },
+  {
+    "name": "West Polesian",
+    "iso": "west-polesian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/West_Polesian_microlanguage",
+    "family": "East Slavic"
+  },
+  {
+    "name": "Old Church Slavonic",
+    "iso": "old-church-slavonic",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "family": "Eastern South Slavic"
+  },
+  {
+    "name": "Serbo-Croatian",
+    "iso": "serbo-croatian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "family": "Western South Slavic"
+  },
+  {
+    "name": "Croatian",
+    "iso": "croatian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Croatian_language",
+    "family": "Western South Slavic"
+  },
+  {
+    "name": "Bosnian",
+    "iso": "bosnian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bosnian_language",
+    "family": "Western South Slavic"
+  },
+  {
+    "name": "Montenegrin",
+    "iso": "montenegrin",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Montenegrin_language",
+    "family": "Western South Slavic"
+  },
+  {
+    "name": "Slovak",
+    "iso": "slovak",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slovak_language",
+    "family": "Czech-Slovak"
+  },
+  {
+    "name": "Polabian",
+    "iso": "polabian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Polabian_language",
+    "family": "Lechitic"
+  },
+  {
+    "name": "Pomeranian",
+    "iso": "pomeranian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pomeranian_language",
+    "family": "Lechitic"
+  },
+  {
+    "name": "Kashubian",
+    "iso": "kashubian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kashubian_language",
+    "family": "Lechitic"
+  },
+  {
+    "name": "Slovincian",
+    "iso": "slovincian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slovincian_language",
+    "family": "Lechitic"
+  },
+  {
+    "name": "Lower Sorbian",
+    "iso": "lower-sorbian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lower_Sorbian_language",
+    "family": "Sorbian"
+  },
+  {
+    "name": "Upper Sorbian",
+    "iso": "upper-sorbian",
+    "region": "Europe",
+    "category": "Slavic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upper_Sorbian_language",
+    "family": "Sorbian"
   }
 ]

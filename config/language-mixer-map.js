@@ -1731,7 +1731,25 @@
     ]
   },
   {
+    "iso": "abaza",
+    "bases": [
+      237
+    ]
+  },
+  {
+    "iso": "bzyb",
+    "bases": [
+      237
+    ]
+  },
+  {
     "iso": "chechen",
+    "bases": [
+      238
+    ]
+  },
+  {
+    "iso": "bats",
     "bases": [
       238
     ]
@@ -1750,6 +1768,18 @@
   },
   {
     "iso": "circassian",
+    "bases": [
+      241
+    ]
+  },
+  {
+    "iso": "adyghe",
+    "bases": [
+      241
+    ]
+  },
+  {
+    "iso": "kabardian",
     "bases": [
       241
     ]
@@ -1968,6 +1998,62 @@
     "iso": "mongolian",
     "bases": [
       31
+    ]
+  },
+  {
+    "iso": "old-serbi",
+    "bases": [
+      31,
+      276,
+      296
+    ]
+  },
+  {
+    "iso": "qifu",
+    "bases": [
+      31,
+      276,
+      296
+    ]
+  },
+  {
+    "iso": "duan",
+    "bases": [
+      31,
+      276,
+      296
+    ]
+  },
+  {
+    "iso": "tabghach",
+    "bases": [
+      31,
+      276,
+      296
+    ]
+  },
+  {
+    "iso": "tuyuhun",
+    "bases": [
+      31,
+      276,
+      296
+    ]
+  },
+  {
+    "iso": "old-khitan",
+    "bases": [
+      31,
+      276,
+      296
+    ]
+  },
+  {
+    "iso": "shirwi",
+    "bases": [
+      31,
+      276,
+      296
     ]
   },
   {
@@ -4017,6 +4103,12 @@
     ]
   },
   {
+    "iso": "she",
+    "bases": [
+      11
+    ]
+  },
+  {
     "iso": "she-chinese",
     "bases": [
       11
@@ -5907,6 +5999,36 @@
     ]
   },
   {
+    "iso": "samre",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "somray",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "kasong",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "sa-och",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "suoy",
+    "bases": [
+      179
+    ]
+  },
+  {
     "iso": "kha-pnar",
     "bases": [
       182
@@ -5974,6 +6096,30 @@
     ]
   },
   {
+    "iso": "temiar",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "mah-meri",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "semelai",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "semaq-beri",
+    "bases": [
+      195
+    ]
+  },
+  {
     "iso": "semai",
     "bases": [
       195
@@ -5981,6 +6127,55 @@
   },
   {
     "iso": "car-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "chaura-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "teressa-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "nancowry-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "camorta-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "katchal-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "southern-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "shompen",
     "bases": [
       29,
       195
@@ -6075,6 +6270,3804 @@
       180,
       181,
       182
+    ]
+  },
+  {
+    "iso": "abruzzese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "pingtang",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "ber-family",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "koreanic-family",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "sinitic",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "sino-tibetan-family",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "zho",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "old-occitan",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "proto-finnic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-hungarian",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "proto-karelian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "-arsusi",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "-ejtun-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "ammonite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "amorite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ancient-north-arabian",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "aws-nian",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "ba-ari",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "central-hilali-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "corfiot-maltese",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "cottonera-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "dadanitic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "dumaitic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "eastern-hilali-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "eastern-pre-hilali-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "edomite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "faifi",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "fessi-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "gozitan-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hadramautic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hasaitic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hilalian-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "himyaritic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hismaic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hoby-t",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-fessi",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "maltralian",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "maqil-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "minaean",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "moabite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "modern-south-arabian",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "north-canaanite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "old-south-arabian",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "philistine",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "phoenician",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "pre-hilalian-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "punic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "qatabanian",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "qormi-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "razihi",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "rijal-alma",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sabaic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "safaitic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "shehri",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "soqotri",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "south-canaanite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "south-gileadite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "sulaym-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sutean",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "taymanitic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "thamudic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "thamudic-b",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "western-hilali-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "western-pre-hilali-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "biao-mon",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "judeo-gascon",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "judeo-proven-al",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "mon-gasque",
+    "bases": [
+      180
+    ]
+  },
+  {
+    "iso": "serbi-mongolic-family",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "west-walloon",
+    "bases": [
+      302
+    ]
+  },
+  {
+    "iso": "wisconsin-walloon",
+    "bases": [
+      302
+    ]
+  },
+  {
+    "iso": "alutaguse",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "bjarmian-finnic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "central-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "central-veps",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "central-vychegda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "chipilo",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "courland-livonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "eastern-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "eastern-mari",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "eastern-savonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "eastern-south-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "eastern-votic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "fiuman",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "heart-tavastian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "hill-mari",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "insular-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "izhma",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "karelian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "karelian-proper",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kiknur",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kochevo",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "komi-permyak",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "komi-yodzyak",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "komi-zyryan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kosa-kama",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kozymodemyan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kraasna",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "krevinian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kudymkar-inva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kukkuzi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "leivu",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "lipsha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "livonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lower-inva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lower-vychegda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ludza",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "luza-letka",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "meadow-mari",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "meadow-mari-proper",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "mulgi",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "mysy",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "nerdva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "north-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "northeastern-coastal-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "northern-karelian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-savonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-veps",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northwestern-mari",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "old-komi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "on",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "pechora",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-mari",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-mordvinic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-ob-ugric",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-permic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-samoyedic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "salaca-livonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "sanchursk",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "savonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "sernur-morkin",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "seto",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "sharanga",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "south-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "southeastern-tavastian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-karelian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-savonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-tavastian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-veps",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "syktyvkar",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "talian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "tartu",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "tavastian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tonshaevo",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "triestine",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "tuscan",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "tuzha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "udora",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "upper-lupya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "upper-sysola",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "upper-vychegda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "v-rmland-savonian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "v-ro",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "venetian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "veps",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "volga",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "votic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "vym",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "western-estonian",
+    "bases": [
+      215
+    ]
+  },
+  {
+    "iso": "western-votic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "yaran",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "yaransk",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "yazva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "yoshkar-olin",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "zyuzdino",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "atlym",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "atlym-nizyam-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "avam",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "bergamasque",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "berjozov",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "big-flowery",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "bolognese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "brianz-",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "brigasc",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "bustocco-legnanese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "canz-s",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "central-erzya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "central-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "central-moksha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "central-selkup",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "chusovaya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "cingali",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "comasco-lecchese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "core-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "cremish",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "cremun-s",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "dongjia",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "eastern-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "eastern-lombard",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "eastern-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "emilian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "enets",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "erzya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "far-eastern-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ferrarese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "forest-enets",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "forest-nenets",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "forlivese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "gallo-italic-of-basilicata",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "gallo-italic-of-sicily",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "gejia",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "genoese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "guiyang",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "hmong",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "huishui",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "intemelio",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "judeo-piedmontese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "jugan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "jukonda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kazym",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "konda-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "krasnojarsk-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ligurian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "likrisovskoe",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lower-demjanka",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lower-konda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lower-lozva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "luobohe",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "malij-jugan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "mashan",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "middle-konda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "middle-lozva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "milanese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "mo-piu",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "moksha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "nenets",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "nganasan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "nizyam",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "north-vagilsk",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-erzya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-selkup",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "novarese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "ob-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "obdorsk",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "old-lombard",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "old-romagnol",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "ossolano",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "parmigiano",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "pavese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "pelym",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "piedmontese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "pim",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-hmong-mien",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "proto-hmongic",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "proto-mienic",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "romagnol",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "royasc",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "salym-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "sammarinese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "selkup",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "sherkal",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "shoksha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "small-flowery",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "sosva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "south-vagilsk",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southeastern-erzya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southeastern-moksha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-selkup",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-yukaghir",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "surgut-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "sygva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tabarchino",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "tagil",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tavda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ticinese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "tremjugan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tundra-enets",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tundra-nenets",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tundra-yukaghir",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tura",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "upper-demjanka",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "upper-konda",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "upper-lozva",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "vadey",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "vakh",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "varesino",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "vartovskoe",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "vasjugan",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "verkhne-kalimsk",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "vishera",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "western-erzya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "western-khanty",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "western-lombard",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "western-mansi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "western-moksha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "xixiu",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "anglo-norman",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "arpitan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "bourbonnais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "faetar",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "franco-ontarian",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "franco-proven-al",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "gallo",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "gallo-picene",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "gaumais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "limousin",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "lorrain",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "norman",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "old-gallo-romance",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "picard",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "poitevin",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "poitevin-saintongeais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "saintongeais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "savoyard",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "vald-tain",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "amharic-argobba",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "argobba",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "dahalik",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "east-gurage",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ge-ez",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "harari",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "harari-east-gurage",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "sebat-bet-gurage",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "west-gurage",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ala-satakunta",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "bercian",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "cantabrian",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "extremaduran",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "hmu",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "leonese",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "manduriano",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "mayennais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "mentonasc",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "mesmes",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "mesqan",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "middle-botnian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "mirandese",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "moselle-romance",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "muher",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "n-meo",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "northern-botnian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "old-leonese",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "pa-uezu",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "palra",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "per-pohjola",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "pesciatino",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "pistoiese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "pori-region",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "porvoo",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "pugliese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "riberan",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "riunorese",
+    "bases": [
+      286
+    ]
+  },
+  {
+    "iso": "ruija",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "salentino",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "savonlinna",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "senese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "silte",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "soddo",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "somero-region",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-botnian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "torne-valley",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tornio",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "turku-highlands",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "valencian",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "versiliese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "viareggino",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "vivaro-alpine",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "vosgien",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "welche",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "western-uusimaa",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "wolane",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "yangchun-pai-yao",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "yl-satakunta",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "zay",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "andalusi-romance",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "balearic",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "calabro",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "central-southern-calabrian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "dalmatian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "grossetano",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "istriot",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "lucchese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "mallorcan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "menorcan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "mozarabic",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "pisano-livornese",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "south-lucanian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "central-finland",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "central-ludic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "hevaha",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "iku",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "ingrian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kalaallisut",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "kuu-rv-ludic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kven",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "livvi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lower-luga",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ludic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "northern-ludic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "orodezhi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "p-ij-nne-tavastia",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "soikkola",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "acadian",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "angevin",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "aranese",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "ardennais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "aretino-chianaiolo",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "auvergnat",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "berrichon",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "brayon",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "burgundian",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "cauchois",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "champenois",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "chiac",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "cotentinais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "frainc-comtou",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "gardiol",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "gascon",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "guern-siais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "italo-australian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "italo-paulista",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "itelmen",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "iu-mien",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "j-rriais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "joual",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "kim-mun",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "kiong-nai",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "landese",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "languedocien",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "magoua",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "numao",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "orl-anais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "pa-hng",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "pa-na",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "paydret",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "proven-al",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "r-mois",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "raojia",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "ribagor-an",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "sanqiao",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "sardo-corsican",
+    "bases": [
+      233
+    ]
+  },
+  {
+    "iso": "sercquiais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "southern-itelmen",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "western-itelmen",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "xong",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "younuo",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "eastern-itelmen",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "assyrian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "babylonian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "chaha",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "dilmunite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "eblaite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "endegen",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ezha",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "gafat",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "gumer",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "gura",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "gyeto",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "kishite",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "sebat-bet",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ulbare",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "zabidi-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "zway",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "biao-min",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "bunu",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "dzao-min",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "hm-nai",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "nao-klao",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "algherese",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "augeron",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "auregnais",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "b-arnese",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "basilicatine",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "florentine",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "ni-ard",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "naukan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "sirenik",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "yuit",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "aas-whistled",
+    "bases": [
+      232
+    ]
+  },
+  {
+    "iso": "bjarmian-s-mi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "fingelska",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "hollola",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "iitti",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "j-llivaara",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kainuu",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kamas",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kamassian-proper",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "karagas",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kemi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kemij-rvi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "keuruu-evij-rvi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "koibal",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "lemi-region",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "mator",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "mator-proper",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "me-nkieli",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "merya",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "meshcherian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "muromian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proper-southeastern",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "uralo-siberian",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "yurats",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "alchuka",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "bala",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "even",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "evenki",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "jurchen",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "kili",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "kor",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "proto-koreanic",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "puyo",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "ye-maek",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "han-samhan",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "old-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "baekje-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "buyeo-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "gaya-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "goguryeo-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "mahan-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "silla-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "middle-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "goryeo-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "joseon-middle-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "early-modern-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "joseon-early-modern-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "modern-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "joseon-modern-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "south-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "pyojuneo",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "north-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "munhwao",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "chungcheong-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "gangwon-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "yeongdong-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "yeongseo-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "gyeonggi-seoul-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "gyeongsang-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "jeolla-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "hamgyong-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "hwanghae-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "pyongan-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "yukjin-dialect",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "chinese-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "koryo-mar",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "zainichi-korean",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "jeju-language",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "manchu",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "nanai",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "negidal",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "oroch",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "oroqen",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "taygi",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "udege",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "uilta",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "ulch",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "xibe",
+    "bases": [
+      31
+    ]
+  },
+  {
+    "iso": "almosan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "alyutor",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "arin",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "assan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "athabaskan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "chukchi",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "chukotko-kamchatkan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "kamchatkan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "chukotkan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "chukotko-kamchatkan-amuric",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "chuvan",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "den-yeniseian",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "na-dene",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "yeniseian",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "eyak",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "jie",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "karasuk",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "kerek",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "ket",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "koryak",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "kott",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "nivkh",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "omok",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "pumpokol",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "yugh",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "cauque-mayan-language",
+    "bases": [
+      170
+    ]
+  },
+  {
+    "iso": "l-ngua-geral-amaz-nica",
+    "bases": [
+      173
+    ]
+  },
+  {
+    "iso": "l-ngua-geral-paulista",
+    "bases": [
+      173
+    ]
+  },
+  {
+    "iso": "maritime-polynesian-pidgin",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "mbugu",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "media-lengua",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "bolze",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "cocoliche",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "mediterranean-lingua-franca",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "petuh",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "broken-slavey",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "loucheux-jargon",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "mobilian-jargon",
+    "bases": [
+      172
+    ]
+  },
+  {
+    "iso": "nootka-jargon",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "pidgin-delaware",
+    "bases": [
+      172
+    ]
+  },
+  {
+    "iso": "russenorsk",
+    "bases": [
+      6
+    ]
+  },
+  {
+    "iso": "arafundi-enga-pidgin",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "camtho",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "dao",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "duvle-wano-pidgin",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "ewondo-populaire",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "international-sign",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "kwoma-manambu-pidgin",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "kyowa-go",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "mekeo-pidgins",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "ndyuka-tiriy-pidgin",
+    "bases": [
+      173
+    ]
+  },
+  {
+    "iso": "pidgin-iha",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "pidgin-ngarluma",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "pidgin-onin",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "laiuse-romani",
+    "bases": [
+      270
+    ]
+  },
+  {
+    "iso": "inneqor",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "inor",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "bangime",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "bayot",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "jalaa",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "kenaboi",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "kwaza",
+    "bases": [
+      173
+    ]
+  },
+  {
+    "iso": "laal",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "mpre",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "omaio",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "ongota",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "shabo",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "xoc-",
+    "bases": [
+      173
+    ]
+  },
+  {
+    "iso": "rusyn",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "podlachian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "west-polesian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "old-church-slavonic",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "serbo-croatian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "croatian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "bosnian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "montenegrin",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "slovak",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "polabian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "pomeranian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "kashubian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "slovincian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "lower-sorbian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "upper-sorbian",
+    "bases": [
+      5
     ]
   }
 ];
