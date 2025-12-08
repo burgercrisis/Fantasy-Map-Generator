@@ -1539,11 +1539,740 @@
     "family": "Chadic"
   },
   {
+    "name": "Ajawa language",
+    "iso": "ajawa-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Angas languages",
+    "iso": "angas-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Auyokawa language",
+    "iso": "auyokawa-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bade language",
+    "iso": "bade-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bade languages",
+    "iso": "bade-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Beele language",
+    "iso": "beele-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Belneng language",
+    "iso": "belneng-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Boghom language",
+    "iso": "boghom-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bole language",
+    "iso": "bole-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bole-Tangale languages",
+    "iso": "bole-tangale-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Bure language",
+    "iso": "bure-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Cakfem-Mushere language",
+    "iso": "cakfem-mushere-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Chakato language",
+    "iso": "chakato-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ciwogai language",
+    "iso": "ciwogai-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Dass language",
+    "iso": "dass-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Dazawa language",
+    "iso": "dazawa-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Deno language",
+    "iso": "deno-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Diri language",
+    "iso": "diri-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Duhwa language",
+    "iso": "duhwa-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Duwai language",
+    "iso": "duwai-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Fyer language",
+    "iso": "fyer-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Galambu language",
+    "iso": "galambu-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Gera language",
+    "iso": "gera-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Geruma language",
+    "iso": "geruma-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Giiwo language",
+    "iso": "giiwo-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Goemai language",
+    "iso": "goemai-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Goji language",
+    "iso": "goji-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Guruntum language",
+    "iso": "guruntum-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Gwandara language",
+    "iso": "gwandara-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Hausa-Gwandara languages",
+    "iso": "hausa-gwandara-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Jibyal language",
+    "iso": "jibyal-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Jimi language (Nigeria)",
+    "iso": "jimi-language-nigeria",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kanakuru language",
+    "iso": "kanakuru-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Karai-karai",
+    "iso": "karai-karai",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kariya language",
+    "iso": "kariya-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kholok language",
+    "iso": "kholok-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kir-Balar language",
+    "iso": "kir-balar-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Koenoem language",
+    "iso": "koenoem-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kubi language",
+    "iso": "kubi-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kulere language",
+    "iso": "kulere-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kulung language (West Chadic)",
+    "iso": "kulung-west-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kutto language",
+    "iso": "kutto-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Kwaami language",
+    "iso": "kwaami-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Maaka language",
+    "iso": "maaka-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Mantsi language (Nigeria)",
+    "iso": "mantsi-language-nigeria",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Mburku language",
+    "iso": "mburku-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Miler language",
+    "iso": "miler-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Miship language",
+    "iso": "miship-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Miya language",
+    "iso": "miya-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Montol language",
+    "iso": "montol-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Mundat language",
+    "iso": "mundat-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Mwaghavul language",
+    "iso": "mwaghavul-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ngamo language",
+    "iso": "ngamo-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ngas language",
+    "iso": "ngas-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ngizim language",
+    "iso": "ngizim-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "North Bauchi languages",
+    "iso": "north-bauchi-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Nteng language",
+    "iso": "nteng-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Nyam language",
+    "iso": "nyam-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Pali language (Chadic)",
+    "iso": "pali-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Pan language",
+    "iso": "pan-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Paa language",
+    "iso": "paa-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Pero language",
+    "iso": "pero-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Piya language",
+    "iso": "piya-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Poki language",
+    "iso": "poki-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Proto-Ron",
+    "iso": "proto-ron",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Warji",
+    "iso": "proto-warji",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Pyapun language",
+    "iso": "pyapun-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ron language",
+    "iso": "ron-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Ron languages",
+    "iso": "ron-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Sha language",
+    "iso": "sha-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Siri language",
+    "iso": "siri-chadic-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "South Bauchi languages",
+    "iso": "south-bauchi-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Tal language",
+    "iso": "tal-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Tambas language",
+    "iso": "tambas-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Tangale language",
+    "iso": "tangale-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Teshenawa language",
+    "iso": "teshenawa-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Warji language",
+    "iso": "warji-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "West Chadic languages",
+    "iso": "west-chadic-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Yiwom language",
+    "iso": "yiwom-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
+    "name": "Zumbun language",
+    "iso": "zumbun-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Chadic"
+  },
+  {
     "name": "Western Berber",
     "iso": "western-berber",
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Western Berber"
+  },
+  {
+    "name": "Tetserret language",
+    "iso": "tetserret-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Western Berber languages",
+    "iso": "western-berber-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Western Berber"
+  },
+  {
+    "name": "Zenaga language",
+    "iso": "zenaga-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenaga Berber"
+  },
+  {
+    "name": "Tuareg languages",
+    "iso": "tuareg-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Air Tamajeq language",
+    "iso": "air-tamajeq-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Tagdal language",
+    "iso": "tagdal-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Tamahaq language",
+    "iso": "tamahaq-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Tamasheq language",
+    "iso": "tamasheq-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Tawellemmet language",
+    "iso": "tawellemmet-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Tuareg Berber"
+  },
+  {
+    "name": "Northern Berber languages",
+    "iso": "northern-berber-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Northern Berber"
+  },
+  {
+    "name": "Standard Algerian Berber",
+    "iso": "standard-algerian-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Northern Berber"
+  },
+  {
+    "name": "Standard Moroccan Amazigh",
+    "iso": "standard-moroccan-amazigh",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Northern Berber"
+  },
+  {
+    "name": "East Zenati languages",
+    "iso": "east-zenati-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Eastern Morocco Zenati",
+    "iso": "eastern-morocco-zenati",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Mozabite language",
+    "iso": "mozabite-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Shenwa language",
+    "iso": "shenwa-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Zenati languages",
+    "iso": "zenati-languages",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Beni Snous dialect",
+    "iso": "beni-snous-dialect",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Sheliff Basin Berber",
+    "iso": "sheliff-basin-berber",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Tidikelt language",
+    "iso": "tidikelt-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Tuwat language",
+    "iso": "tuwat-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Zenati Berber"
+  },
+  {
+    "name": "Awjila language",
+    "iso": "awjila-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Eastern Berber"
+  },
+  {
+    "name": "Nafusi language",
+    "iso": "nafusi-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Eastern Berber"
   },
   {
     "name": "Western Somali",
@@ -2665,6 +3394,726 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Kam-Sui",
+    "iso": "kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Mulam",
+    "iso": "mulam",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Kam (Dong)",
+    "iso": "kam-dong",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Cao Miao",
+    "iso": "cao-miao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Nuoxi (Naxi Yao)",
+    "iso": "nuoxi-naxi-yao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Then",
+    "iso": "then-kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Maonan",
+    "iso": "maonan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Chadong",
+    "iso": "chadong",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Sui",
+    "iso": "sui-lang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Mak",
+    "iso": "mak-kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Ai-Cham",
+    "iso": "ai-cham",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Biao",
+    "iso": "biao-kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Lakkia",
+    "iso": "lakkia-kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Hlai",
+    "iso": "hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Bouhin",
+    "iso": "bouhin",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Ha Em",
+    "iso": "ha-em",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Lauhut",
+    "iso": "lauhut",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tongzha",
+    "iso": "tongzha",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Zandui",
+    "iso": "zandui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Baoting Hlai",
+    "iso": "baoting-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Cun Hlai",
+    "iso": "cun-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Nadou",
+    "iso": "nadou",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Changjiang Hlai",
+    "iso": "changjiang-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Moyfaw",
+    "iso": "moyfaw",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Baisha Hlai",
+    "iso": "baisha-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yuanmen Hlai",
+    "iso": "yuanmen-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Jiamao",
+    "iso": "jiamao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Be-Jizhao",
+    "iso": "be-jizhao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Be",
+    "iso": "be-lang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Jizhao",
+    "iso": "jizhao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai",
+    "iso": "tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Northern Tai",
+    "iso": "northern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Central Tai",
+    "iso": "central-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Southwestern Tai",
+    "iso": "southwestern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Northwestern Tai",
+    "iso": "northwestern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Lao-Phutai",
+    "iso": "lao-phutai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Southern Tai",
+    "iso": "southern-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Kam-Tai",
+    "iso": "kam-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Standard Zhuang",
+    "iso": "standard-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Bouyei",
+    "iso": "bouyei",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Hezhang Buyi",
+    "iso": "hezhang-buyi",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yei Zhuang",
+    "iso": "yei-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Longsang Zhuang",
+    "iso": "longsang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "E (Tai)",
+    "iso": "e-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Saek",
+    "iso": "saek",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Yo (Nyaw)",
+    "iso": "tai-yo",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yoy",
+    "iso": "yoy",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Pao",
+    "iso": "tai-pao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Nong Zhuang",
+    "iso": "nong-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Dai Zhuang",
+    "iso": "dai-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Min Zhuang",
+    "iso": "min-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yang Zhuang",
+    "iso": "yang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Pyang Zhuang",
+    "iso": "pyang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Myang Zhuang",
+    "iso": "myang-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Nung (Tai)",
+    "iso": "nung-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tay (Tai)",
+    "iso": "tay-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tsun-Lao",
+    "iso": "tsun-lao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Shan",
+    "iso": "shan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Ya",
+    "iso": "tai-ya",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Nuea",
+    "iso": "tai-nuea",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Long",
+    "iso": "tai-long",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Hongjin",
+    "iso": "tai-hongjin",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Khamti",
+    "iso": "khamti",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Laing",
+    "iso": "tai-laing",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Phake",
+    "iso": "phake",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Aiton",
+    "iso": "aiton",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Khamyang",
+    "iso": "khamyang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Ahom",
+    "iso": "ahom",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Turung",
+    "iso": "turung",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Phu Thai",
+    "iso": "phu-thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Isan",
+    "iso": "isan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Lao Nyo",
+    "iso": "lao-nyo",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Kaloeng",
+    "iso": "kaloeng",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Chiang Saen",
+    "iso": "chiang-saen",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Thai (Siamese)",
+    "iso": "thai-siamese",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Northern Thai",
+    "iso": "northern-thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Daeng",
+    "iso": "tai-daeng",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Meuay",
+    "iso": "tai-meuay",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Don",
+    "iso": "tai-don",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Hang Tong",
+    "iso": "tai-hang-tong",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Lue",
+    "iso": "tai-lue",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Yong",
+    "iso": "yong",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Dam",
+    "iso": "tai-dam",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Khun",
+    "iso": "khun",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Phuan",
+    "iso": "phuan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Thai Song",
+    "iso": "thai-song",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tay Tac",
+    "iso": "tay-tac",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Southern Thai",
+    "iso": "southern-thai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Sapa",
+    "iso": "sapa",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Pa Di",
+    "iso": "pa-di",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Muong Vat",
+    "iso": "tai-muong-vat",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Thanh",
+    "iso": "tai-thanh",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Khang",
+    "iso": "tai-khang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Kuan",
+    "iso": "kuan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Cao Lan",
+    "iso": "cao-lan",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai"
+  },
+  {
+    "name": "Proto-KraDai",
+    "iso": "proto-kra-dai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto-Kra",
+    "iso": "proto-kra",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto-Tai",
+    "iso": "proto-tai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto-KamSui",
+    "iso": "proto-kam-sui",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto-Hlai",
+    "iso": "proto-hlai",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai-Kadai",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
     "name": "Larantuka Malay",
     "iso": "larantuka-malay",
     "region": "Asia",
@@ -3515,6 +4964,447 @@
     "category": "Dravidian",
     "wikipedia": "https://en.wikipedia.org/wiki/Telugu_language",
     "family": "Dravidian"
+  },
+  {
+    "name": "Brahui",
+    "iso": "brahui",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
+  },
+  {
+    "name": "Kurukh",
+    "iso": "kurukh",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
+  },
+  {
+    "name": "Malto",
+    "iso": "malto",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
+  },
+  {
+    "name": "Kurambhag Paharia",
+    "iso": "kurambhag-paharia",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian"
+  },
+  {
+    "name": "Kolami",
+    "iso": "kolami",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
+    "name": "Duruwa",
+    "iso": "duruwa",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
+    "name": "Ollari",
+    "iso": "ollari",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
+    "name": "Naiki",
+    "iso": "naiki",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Central Dravidian"
+  },
+  {
+    "name": "Gondi",
+    "iso": "gondi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Kui",
+    "iso": "kui-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Koya",
+    "iso": "koya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Madiya",
+    "iso": "madiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Kuvi",
+    "iso": "kuvi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Pengo",
+    "iso": "pengo",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Pardhan",
+    "iso": "pardhan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Chenchu",
+    "iso": "chenchu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Konda",
+    "iso": "konda-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Muria",
+    "iso": "muria",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Manda",
+    "iso": "manda-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Tulu",
+    "iso": "tulu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Beary",
+    "iso": "beary",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Pattapu",
+    "iso": "pattapu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Irula",
+    "iso": "irula",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kurumba",
+    "iso": "kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Badaga",
+    "iso": "badaga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kodava",
+    "iso": "kodava",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Jeseri",
+    "iso": "jeseri",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Yerukala",
+    "iso": "yerukala",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Betta Kurumba",
+    "iso": "betta-kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kurichiya",
+    "iso": "kurichiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Ravula",
+    "iso": "ravula",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Mullu Kurumba",
+    "iso": "mullu-kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Sholaga",
+    "iso": "sholaga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kaikadi",
+    "iso": "kaikadi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Paniya",
+    "iso": "paniya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kanikkaran",
+    "iso": "kanikkaran",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Malankuravan",
+    "iso": "malankuravan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Muthuvan",
+    "iso": "muthuvan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Koraga",
+    "iso": "koraga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kumbaran",
+    "iso": "kumbaran",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Paliyan",
+    "iso": "paliyan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Malasar",
+    "iso": "malasar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Malapandaram",
+    "iso": "malapandaram",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Eravallan",
+    "iso": "eravallan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Wayanad Chetti",
+    "iso": "wayanad-chetti",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Muduga",
+    "iso": "muduga",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Thachanadan",
+    "iso": "thachanadan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kadar",
+    "iso": "kadar-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kudiya",
+    "iso": "kudiya-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Toda",
+    "iso": "toda",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Attapady Kurumba",
+    "iso": "attapady-kurumba",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kunduvadi",
+    "iso": "kunduvadi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Mala Malasar",
+    "iso": "mala-malasar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Pathiya",
+    "iso": "pathiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kota",
+    "iso": "kota-dravidian",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Kalanadi",
+    "iso": "kalanadi",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Holiya",
+    "iso": "holiya",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Allar",
+    "iso": "allar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Aranadan",
+    "iso": "aranadan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Vishavan",
+    "iso": "vishavan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
+    "name": "Khirwar",
+    "iso": "khirwar",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Unclassified Dravidian"
+  },
+  {
+    "name": "Cholanaikkan",
+    "iso": "cholanaikkan",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Unclassified Dravidian"
+  },
+  {
+    "name": "Kakkala",
+    "iso": "kakkala",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "Unclassified Dravidian"
   },
   {
     "name": "Temiar",
@@ -15517,7 +17407,7 @@
     "family": "Austronesian"
   },
   {
-    "name": "BaliSasakSumbawa",
+    "name": "Bali Sasak Sumbawa",
     "iso": "bali-sasak-sumbawa",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15643,14 +17533,14 @@
     "family": "Austronesian"
   },
   {
-    "name": "MelanauKajang",
+    "name": "Melanau-Kajang",
     "iso": "melanau-kajang",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
   },
   {
-    "name": "KayanMurik",
+    "name": "Kayan-Murik",
     "iso": "kayan-murik",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15664,7 +17554,7 @@
     "family": "Austronesian"
   },
   {
-    "name": "MalayoChamic",
+    "name": "Malayo-Chamic",
     "iso": "malayo-chamic",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15692,35 +17582,35 @@
     "family": "Austronesian"
   },
   {
-    "name": "BungkuTolaki",
+    "name": "Bungku-Tolaki",
     "iso": "bungku-tolaki",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
   },
   {
-    "name": "MunaButon",
+    "name": "Muna-Buton",
     "iso": "muna-buton",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
   },
   {
-    "name": "SaluanBanggai",
+    "name": "Saluan-Banggai",
     "iso": "saluan-banggai",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
   },
   {
-    "name": "TominiTolitoli",
+    "name": "Tomini-Tolitoli",
     "iso": "tomini-tolitoli",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
   },
   {
-    "name": "KailiWolio",
+    "name": "Kaili-Wolio",
     "iso": "kaili-wolio",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15741,7 +17631,7 @@
     "family": "Austronesian"
   },
   {
-    "name": "SekoBadaic",
+    "name": "Seko-Badaic",
     "iso": "seko-badaic",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15769,14 +17659,14 @@
     "family": "Austronesian"
   },
   {
-    "name": "SumbaFlores",
+    "name": "Sumba-Flores",
     "iso": "sumba-flores",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
   },
   {
-    "name": "FloresLembata",
+    "name": "Flores-Lembata",
     "iso": "flores-lembata",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15790,7 +17680,7 @@
     "family": "Austronesian"
   },
   {
-    "name": "KeiTanimbar",
+    "name": "Kei-Tanimbar",
     "iso": "kei-tanimbar",
     "region": "Pacific",
     "category": "Austronesian",
@@ -15965,10 +17855,1319 @@
     "family": "Austronesian"
   },
   {
-    "name": "LoyaltiesNew Caledonia",
+    "name": "Loyalties-New Caledonia",
     "iso": "loyalties-new-caledonia",
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Bundjalung",
+    "iso": "bundjalung",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Yugambeh",
+    "iso": "yugambeh",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Githabul",
+    "iso": "githabul",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wiradjuri",
+    "iso": "wiradjuri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Gamilaraay",
+    "iso": "gamilaraay",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Ngarrindjeri",
+    "iso": "ngarrindjeri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Adnyamathanha",
+    "iso": "adnyamathanha",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Yankunytjatjara",
+    "iso": "yankunytjatjara",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Pitjantjatjara",
+    "iso": "pitjantjatjara",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kuku Yalanji",
+    "iso": "kuku-yalanji",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Guugu Yimidhirr",
+    "iso": "guugu-yimidhirr",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kuuk Thaayore",
+    "iso": "kuuk-thaayore",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wik Mungkan",
+    "iso": "wik-mungkan",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Noongar",
+    "iso": "noongar",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wangkatha",
+    "iso": "wangkatha",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Ngaanyatjarra",
+    "iso": "ngaanyatjarra",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Manytjilyitjarra",
+    "iso": "manytjilyitjarra",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Martu Wangka",
+    "iso": "martu-wangka",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Panyjima",
+    "iso": "panyjima",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Yinjibarndi",
+    "iso": "yinjibarndi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Nyangumarta",
+    "iso": "nyangumarta",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Bardi",
+    "iso": "bardi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wajarri",
+    "iso": "wajarri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Pintupi",
+    "iso": "pintupi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kukatja",
+    "iso": "kukatja",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Walmatjarri",
+    "iso": "walmatjarri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Gooniyandi",
+    "iso": "gooniyandi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Djaru",
+    "iso": "djaru",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kija",
+    "iso": "kija",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Miriwoong",
+    "iso": "miriwoong",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Luritja",
+    "iso": "luritja",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Upper Arrernte",
+    "iso": "upper-arrernte",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Warlpiri",
+    "iso": "warlpiri",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kaytetye",
+    "iso": "kaytetye",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Warumungu",
+    "iso": "warumungu",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Gurindji",
+    "iso": "gurindji",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Murrinh Patha",
+    "iso": "murrinh-patha",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Tiwi",
+    "iso": "tiwi",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Iwaidja",
+    "iso": "iwaidja",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Maung",
+    "iso": "maung",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kunwinjku",
+    "iso": "kunwinjku",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Burarra",
+    "iso": "burarra",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Dhuwal",
+    "iso": "dhuwal",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Djinang",
+    "iso": "djinang",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Nunggubuyu",
+    "iso": "nunggubuyu",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Anindilyakwa",
+    "iso": "anindilyakwa",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "palawa kani",
+    "iso": "palawa-kani",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "ǂKxʼaoǁʼae",
+    "iso": "kx-ao-ae",
+    "region": "Africa",
+    "category": "Kx'a",
+    "family": "Kx'a"
+  },
+  {
+    "name": "ǂʼAmkoe",
+    "iso": "amkoe",
+    "region": "Africa",
+    "category": "Kx'a",
+    "family": "Kx'a"
+  },
+  {
+    "name": "Abon",
+    "iso": "abon",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Abron",
+    "iso": "abron",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Acheron",
+    "iso": "acheron",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Adara",
+    "iso": "adara",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Aghem",
+    "iso": "aghem",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Aiki",
+    "iso": "aiki",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Aja",
+    "iso": "aja",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Aka",
+    "iso": "aka",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Ambo",
+    "iso": "ambo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Amdang",
+    "iso": "amdang",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Ambele",
+    "iso": "ambele",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Amira",
+    "iso": "amira",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Anaang",
+    "iso": "anaang",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Áncá",
+    "iso": "anca",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Asoa",
+    "iso": "asoa",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Atsam",
+    "iso": "atsam",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Aringa",
+    "iso": "aringa",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Avokaya",
+    "iso": "avokaya",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Awing",
+    "iso": "awing",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Baba",
+    "iso": "baba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Babanki",
+    "iso": "babanki",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Baca",
+    "iso": "baca",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bacama",
+    "iso": "bacama",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Baka",
+    "iso": "baka",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Barambu",
+    "iso": "barambu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bariba",
+    "iso": "bariba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Balo",
+    "iso": "balo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bamali",
+    "iso": "bamali",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bambassi",
+    "iso": "bambassi",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Bambalang",
+    "iso": "bambalang",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bamukumbit",
+    "iso": "bamukumbit",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bamum",
+    "iso": "bamum",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bamwe",
+    "iso": "bamwe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bangala",
+    "iso": "bangala",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bangi",
+    "iso": "bangi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bangolan",
+    "iso": "bangolan",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bassari",
+    "iso": "bassari",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Batu",
+    "iso": "batu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bebe",
+    "iso": "bebe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Beba",
+    "iso": "beba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Beli",
+    "iso": "beli",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Bemba",
+    "iso": "bemba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bembe (Congo)",
+    "iso": "bembe-congo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bembe (DRC)",
+    "iso": "bembe-drc",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Berta",
+    "iso": "berta",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Besme",
+    "iso": "besme",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bhaca",
+    "iso": "bhaca",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bhojpuri",
+    "iso": "bhojpuri",
+    "region": "Africa",
+    "category": "Indo-European",
+    "family": "Indo-European"
+  },
+  {
+    "name": "Bina",
+    "iso": "bina",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Binza",
+    "iso": "binza",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Birri",
+    "iso": "birri",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Biseni",
+    "iso": "biseni",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bissa",
+    "iso": "bissa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bitare",
+    "iso": "bitare",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bobo",
+    "iso": "bobo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bole (Afroasiatic)",
+    "iso": "bole-afroasiatic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Bole (Niger–Congo)",
+    "iso": "bole-niger-congo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bolon",
+    "iso": "bolon",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bomboli–Bozaba",
+    "iso": "bomboli-bozaba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bomboma",
+    "iso": "bomboma",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bomitaba",
+    "iso": "bomitaba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bomu",
+    "iso": "bomu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bongili",
+    "iso": "bongili",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bongo",
+    "iso": "bongo",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Bonjo",
+    "iso": "bonjo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bono (Ghana-Ivory Coast)",
+    "iso": "bono-ghana-ivory-coast",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bono (Nigeria)",
+    "iso": "bono-nigeria",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Boon",
+    "iso": "boon",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Boko",
+    "iso": "boko",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Boze",
+    "iso": "boze",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bozo",
+    "iso": "bozo",
+    "region": "Africa",
+    "category": "Mande",
+    "family": "Mande"
+  },
+  {
+    "name": "Bube",
+    "iso": "bube",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Budza",
+    "iso": "budza",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Buli",
+    "iso": "buli",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bukusu",
+    "iso": "bukusu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bulu",
+    "iso": "bulu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bum",
+    "iso": "bum",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Buru–Angwe",
+    "iso": "buru-angwe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Busa",
+    "iso": "busa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bushong",
+    "iso": "bushong",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Buu",
+    "iso": "buu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Buyu",
+    "iso": "buyu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Bwela",
+    "iso": "bwela",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Caka",
+    "iso": "caka",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Cebaara",
+    "iso": "cebaara",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Central Banda",
+    "iso": "central-banda",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Chewa",
+    "iso": "chewa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Chopi",
+    "iso": "chopi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Chung",
+    "iso": "chung",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dagaare",
+    "iso": "dagaare",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dagbani",
+    "iso": "dagbani",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dangme",
+    "iso": "dangme",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Daza",
+    "iso": "daza",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Dciriku",
+    "iso": "dciriku",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dendi",
+    "iso": "dendi",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Dengese",
+    "iso": "dengese",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Defaka",
+    "iso": "defaka",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dinka",
+    "iso": "dinka",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Djimini",
+    "iso": "djimini",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Doghose",
+    "iso": "doghose",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dogoso",
+    "iso": "dogoso",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Doko",
+    "iso": "doko",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dongo",
+    "iso": "dongo",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Dyula",
+    "iso": "dyula",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dzando",
+    "iso": "dzando",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Dzodinka",
+    "iso": "dzodinka",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Ebira",
+    "iso": "ebira",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Ekoka ǃKung",
+    "iso": "ekoka-kung",
+    "region": "Africa",
+    "category": "Kx'a",
+    "family": "Kx'a"
+  },
+  {
+    "name": "Eman",
+    "iso": "eman",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Esimbi",
+    "iso": "esimbi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Eton",
+    "iso": "eton",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Evant",
+    "iso": "evant",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Ewondo",
+    "iso": "ewondo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fang (Equatorial Guinea and Gabon)",
+    "iso": "fang-equatorial-guinea-and-gabon",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fang (Cameroon)",
+    "iso": "fang-cameroon",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fanji",
+    "iso": "fanji",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Farefare",
+    "iso": "farefare",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Feʼfeʼ",
+    "iso": "fe-fe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fio",
+    "iso": "fio",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fongoro",
+    "iso": "fongoro",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Fungor",
+    "iso": "fungor",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fur",
+    "iso": "fur",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Furu",
+    "iso": "furu",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Fut",
+    "iso": "fut",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Fwe",
+    "iso": "fwe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Gǀui",
+    "iso": "g-ui",
+    "region": "Africa",
+    "category": "Khoe-Kwadi",
+    "family": "Khoe-Kwadi"
+  },
+  {
+    "name": "Gendza",
+    "iso": "gendza",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Gengele Creole",
+    "iso": "gengele-creole",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Geme",
+    "iso": "geme",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Ghomalaʼ",
+    "iso": "ghomala",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Gikuyu",
+    "iso": "gikuyu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Goundo",
+    "iso": "goundo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Gourmanché",
+    "iso": "gourmanche",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Gumuz",
+    "iso": "gumuz",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Gwari",
+    "iso": "gwari",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Gyong",
+    "iso": "gyong",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Hakaona",
+    "iso": "hakaona",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Hanga",
+    "iso": "hanga",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
   }
 ]

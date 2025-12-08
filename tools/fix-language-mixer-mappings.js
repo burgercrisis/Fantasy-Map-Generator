@@ -123,19 +123,19 @@ const explicitIsoBaseMap = {
   babylonian: 23,
   eblaite: 23,
   dilmunite: 23,
-  // Gurage / Outer Ethio-Semitic lects → use Amharic/Ethiopic base (133)
-  chaha: 133,
-  endegen: 133,
-  ezha: 133,
-  gafat: 133,
-  gumer: 133,
-  gura: 133,
-  gyeto: 133,
-  inor: 133,
-  "inneqor": 133,
-  "sebat-bet": 133,
-  ulbare: 133,
-  zway: 133,
+  // Gurage / Outer Ethio-Semitic lects → use dedicated Gurage base (311)
+  chaha: 311,
+  endegen: 311,
+  ezha: 311,
+  gafat: 311,
+  gumer: 311,
+  gura: 311,
+  gyeto: 311,
+  inor: 311,
+  "inneqor": 311,
+  "sebat-bet": 311,
+  ulbare: 311,
+  zway: 311,
   // Other East Semitic entries keep the general Semitic base
   kishite: 23,
   bathari: 136,
@@ -286,12 +286,13 @@ const tokenBaseIndexMap = {
   arabian: 18,
   maghrebi: 18,
   levantine: 18,
-  // Ethiopic / Amharic / Gurage cluster → prefer Amharic base (133)
+  // Ethiopic / Amharic cluster → prefer Amharic base (133)
   ethiopic: 133,
   amharic: 133,
-  gurage: 133,
   harari: 133,
   argobba: 133,
+  // Gurage keywords → dedicated Gurage base (311)
+  gurage: 311,
 
   // Uralic / Finnic / Sami buckets
   sami: 9,
@@ -470,7 +471,9 @@ const tokenBaseIndexMap = {
   khmuic: 29,
   pearic: 179,
   pakanic: 29,
+  dravidian: 199,
   chadic: 132,
+  berber: 17,
   zenati: 17,
   zenaga: 17,
   tuareg: 17,

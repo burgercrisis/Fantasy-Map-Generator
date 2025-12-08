@@ -1174,7 +1174,8 @@
   {
     "iso": "bolze",
     "bases": [
-      2
+      2,
+      0
     ]
   },
   {
@@ -1204,7 +1205,8 @@
   {
     "iso": "bonin-english",
     "bases": [
-      1
+      1,
+      12
     ]
   },
   {
@@ -1217,12 +1219,6 @@
     "iso": "boro-garo",
     "bases": [
       63
-    ]
-  },
-  {
-    "iso": "bosnian",
-    "bases": [
-      5
     ]
   },
   {
@@ -1320,12 +1316,6 @@
     "iso": "bukovinian",
     "bases": [
       43
-    ]
-  },
-  {
-    "iso": "bul",
-    "bases": [
-      5
     ]
   },
   {
@@ -1503,6 +1493,7 @@
   {
     "iso": "cappadocian-greek",
     "bases": [
+      7,
       16
     ]
   },
@@ -1552,7 +1543,8 @@
   {
     "iso": "cauque-mayan-language",
     "bases": [
-      170
+      158,
+      165
     ]
   },
   {
@@ -1736,12 +1728,6 @@
     "iso": "central-vychegda",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "ces",
-    "bases": [
-      5
     ]
   },
   {
@@ -2120,12 +2106,6 @@
     ]
   },
   {
-    "iso": "croatian",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "cs-ng-",
     "bases": [
       15
@@ -2140,7 +2120,8 @@
   {
     "iso": "cypriot-maronite-arabic",
     "bases": [
-      18
+      18,
+      7
     ]
   },
   {
@@ -2946,7 +2927,8 @@
   {
     "iso": "gadal",
     "bases": [
-      18
+      277,
+      17
     ]
   },
   {
@@ -4276,12 +4258,6 @@
     ]
   },
   {
-    "iso": "kashubian",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "kasong",
     "bases": [
       179
@@ -4881,13 +4857,15 @@
   {
     "iso": "l-ngua-geral-amaz-nica",
     "bases": [
-      173
+      173,
+      13
     ]
   },
   {
     "iso": "l-ngua-geral-paulista",
     "bases": [
-      173
+      173,
+      13
     ]
   },
   {
@@ -4899,7 +4877,8 @@
   {
     "iso": "labrador-inuit-pidgin-french",
     "bases": [
-      2
+      2,
+      19
     ]
   },
   {
@@ -4942,6 +4921,314 @@
     "iso": "lao",
     "bases": [
       252
+    ]
+  },
+  {
+    "iso": "kra",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "laha",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "lachi",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "paha",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "buyang",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "en-kra",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "qabiao",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "gelao",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "vandu",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "a-ou",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "mulao-kra",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "hagei",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "telue",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "qau",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "kam-sui",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "mulam",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "kam-dong",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "cao-miao",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "nuoxi-naxi-yao",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "then-kam-sui",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "maonan",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "chadong",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "sui-lang",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "mak-kam-sui",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "ai-cham",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "biao-kam-sui",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "lakkia-kam-sui",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "hlai",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "bouhin",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "ha-em",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "lauhut",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "tongzha",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "zandui",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "baoting-hlai",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "cun-hlai",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "nadou",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "changjiang-hlai",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "moyfaw",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "baisha-hlai",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "yuanmen-hlai",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "jiamao",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "be-jizhao",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "be-lang",
+    "bases": [
+      11,
+      29
+    ]
+  },
+  {
+    "iso": "jizhao",
+    "bases": [
+      11,
+      29
     ]
   },
   {
@@ -5230,12 +5517,6 @@
     "iso": "lower-luga",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "lower-sorbian",
-    "bases": [
-      5
     ]
   },
   {
@@ -5702,7 +5983,8 @@
   {
     "iso": "mbugu",
     "bases": [
-      28
+      28,
+      130
     ]
   },
   {
@@ -5726,7 +6008,8 @@
   {
     "iso": "media-lengua",
     "bases": [
-      27
+      27,
+      4
     ]
   },
   {
@@ -5744,7 +6027,7 @@
   {
     "iso": "mednyj-aleut",
     "bases": [
-      5
+      19
     ]
   },
   {
@@ -5846,7 +6129,8 @@
   {
     "iso": "michif",
     "bases": [
-      2
+      2,
+      186
     ]
   },
   {
@@ -6140,12 +6424,6 @@
     "iso": "monguor",
     "bases": [
       31
-    ]
-  },
-  {
-    "iso": "montenegrin",
-    "bases": [
-      5
     ]
   },
   {
@@ -6923,12 +7201,6 @@
     ]
   },
   {
-    "iso": "old-church-slavonic",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "old-gallo-romance",
     "bases": [
       2
@@ -7495,12 +7767,6 @@
     ]
   },
   {
-    "iso": "podlachian",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "poitevin",
     "bases": [
       2
@@ -7510,24 +7776,6 @@
     "iso": "poitevin-saintongeais",
     "bases": [
       2
-    ]
-  },
-  {
-    "iso": "pol",
-    "bases": [
-      5
-    ]
-  },
-  {
-    "iso": "polabian",
-    "bases": [
-      5
-    ]
-  },
-  {
-    "iso": "pomeranian",
-    "bases": [
-      5
     ]
   },
   {
@@ -8276,21 +8524,9 @@
     ]
   },
   {
-    "iso": "rus",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "russenorsk",
     "bases": [
       6
-    ]
-  },
-  {
-    "iso": "rusyn",
-    "bases": [
-      5
     ]
   },
   {
@@ -8673,12 +8909,6 @@
     ]
   },
   {
-    "iso": "serbo-croatian",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "sercquiais",
     "bases": [
       2
@@ -8954,21 +9184,9 @@
     ]
   },
   {
-    "iso": "slovak",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "slovene",
     "bases": [
       267
-    ]
-  },
-  {
-    "iso": "slovincian",
-    "bases": [
-      5
     ]
   },
   {
@@ -9349,12 +9567,6 @@
     ]
   },
   {
-    "iso": "srp",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "standard-finnish",
     "bases": [
       9
@@ -9540,12 +9752,6 @@
     "iso": "tahitian",
     "bases": [
       245
-    ]
-  },
-  {
-    "iso": "taimyr-pidgin-russian",
-    "bases": [
-      5
     ]
   },
   {
@@ -10159,12 +10365,6 @@
     ]
   },
   {
-    "iso": "ukr",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "ulaanchab",
     "bases": [
       31
@@ -10222,12 +10422,6 @@
     "iso": "upper-lupya",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "upper-sorbian",
-    "bases": [
-      5
     ]
   },
   {
@@ -10546,12 +10740,6 @@
     "iso": "west-himalayish",
     "bases": [
       54
-    ]
-  },
-  {
-    "iso": "west-polesian",
-    "bases": [
-      5
     ]
   },
   {
@@ -11708,110 +11896,6383 @@
   },
   {
     "iso": "formosan",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "bunun",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "paiwan",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "puyuma",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "rukai",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "tsouic",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "northern-formosan",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "east-formosan",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "malayo-polynesian",
-    "bases": [195]
+    "bases": [
+      195
+    ]
   },
   {
     "iso": "western-malayo-polynesian",
-    "bases": [195]
+    "bases": [
+      195
+    ]
   },
   {
     "iso": "sumatran",
-    "bases": [195]
+    "bases": [
+      195
+    ]
   },
   {
     "iso": "northwest-sumatra-barrier-islands",
-    "bases": [195]
+    "bases": [
+      195
+    ]
   },
   {
     "iso": "nasal",
-    "bases": [195]
+    "bases": [
+      195
+    ]
   },
   {
     "iso": "lampung",
-    "bases": [195]
+    "bases": [
+      195
+    ]
   },
   {
     "iso": "javanese",
-    "bases": [194]
+    "bases": [
+      194
+    ]
   },
   {
     "iso": "madurese",
-    "bases": [194]
+    "bases": [
+      194
+    ]
   },
   {
     "iso": "bali-sasak-sumbawa",
-    "bases": [194, 195]
+    "bases": [
+      194,
+      195
+    ]
   },
   {
     "iso": "philippine",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "batanic",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "northern-luzon",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "central-luzon",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "northern-mindoro",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "greater-central-philippine",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "kalamian",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "south-mindanao",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "sangiric",
-    "bases": [193]
+    "bases": [
+      193
+    ]
   },
   {
     "iso": "minahasan",
-    "bases": [193]
+    "bases": [
+      193
+    ]
+  },
+  {
+    "iso": "greater-barito",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "barito",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "basap",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "greater-north-borneo",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "north-borneo",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "sabahan",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "north-sarawakan",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "melanau-kajang",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "kayan-murik",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "land-dayak",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "malayo-chamic",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "rejang",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "moklenic",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "celebic",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "bungku-tolaki",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "muna-buton",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "saluan-banggai",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "tomini-tolitoli",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "kaili-wolio",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "south-sulawesi",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "makassar-branch",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "seko-badaic",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "northern-south-sulawesi",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "central-south-sulawesi",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "bima",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "sumba-flores",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "flores-lembata",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "selaru",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "kei-tanimbar",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "aru",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "timoric",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "kowiai",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "central-maluku",
+    "bases": [
+      194
+    ]
+  },
+  {
+    "iso": "eastern-oceanic",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "shwng",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "halmahera-sea",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "cenderawasih",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "oceanic",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "admiralty",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "st-matthias",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "temotu",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "southeast-solomonic",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "micronesian",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "central-pacific",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "western-oceanic",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "meso-melanesian",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "north-new-guinea",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "papuan-tip",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "southern-oceanic",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "vanuatu",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "north-vanuatu",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "central-vanuatu",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "south-vanuatu",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "loyalties-new-caledonia",
+    "bases": [
+      197,
+      198
+    ]
+  },
+  {
+    "iso": "air-tamajeq-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "ajawa-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "angas-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "auyokawa-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "awjila-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "bade-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "bade-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "barein-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "beele-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "belneng-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "bidiyo-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "birgit-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "boghom-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "bole-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "bole-tangale-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "boor-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "bure-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "cakfem-mushere-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "chakato-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ciwogai-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "dangaleat-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "dass-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "dazawa-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "deno-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "diri-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "duhwa-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "duwai-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "east-zenati-languages",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "eastern-morocco-zenati",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "fyer-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "gadang-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "galambu-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "gera-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "geruma-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "giiwo-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "goemai-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "goji-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "guruntum-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "gwandara-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "hausa-gwandara-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "jelkung-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "jibyal-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "jimi-language-nigeria",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "jonkor-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kabalai-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kajakse-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kanakuru-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "karai-karai",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kariya-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kera-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kholok-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kimre-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kir-balar-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "koenoem-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kubi-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kulere-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kulung-west-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kutto-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kwaami-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kwang-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "lele-language-chad",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "maaka-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mabire-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mantsi-language-nigeria",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "masmaje-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mawa-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mburku-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "migaama-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "miler-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "miltu-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mire-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "miship-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "miya-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mogum-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mokilko-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "montol-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mozabite-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "mubi-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mundat-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "mwaghavul-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "nafusi-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "nancere-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ndam-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ngamo-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ngas-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ngizim-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "north-bauchi-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "northern-berber-languages",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "nteng-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "nyam-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "paa-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "pali-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "pan-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "pero-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "piya-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "poki-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "proto-ron",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "proto-warji",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "pyapun-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ron-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "ron-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "saba-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "sarua-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "sha-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "shenwa-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "siri-chadic-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "sokoro-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "somrai-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "south-bauchi-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "southern-gabri-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "standard-algerian-berber",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "standard-moroccan-amazigh",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tagdal-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tal-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tamahaq-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tamasheq-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tambas-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tamki-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tangale-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tawellemmet-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "teshenawa-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tetserret-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tidikelt-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tobanga-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "toram-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tuareg-languages",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tumak-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "tuwat-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "ubi-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "warji-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "west-chadic-languages",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "western-berber-languages",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "yiwom-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "zenaga-language",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "zenati-languages",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "zirenkel-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "zumbun-language",
+    "bases": [
+      132
+    ]
+  },
+  {
+    "iso": "kx-ao-ae",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "amkoe",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "abon",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "abron",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "acheron",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "adara",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "aghem",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "aiki",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "aja",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "aka",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "ambo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "amdang",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "ambele",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "amira",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "anaang",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "anca",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "asoa",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "atsam",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "aringa",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "avokaya",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "awing",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "baba",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "babanki",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "baca",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bacama",
+    "bases": [
+      17,
+      18,
+      23,
+      42,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145
+    ]
+  },
+  {
+    "iso": "baka",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "barambu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bariba",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "balo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bamali",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bambassi",
+    "bases": [
+      17,
+      18,
+      23,
+      42,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145
+    ]
+  },
+  {
+    "iso": "bambalang",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bamukumbit",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bamum",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bamwe",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bangala",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bangi",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bangolan",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bassari",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "batu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bebe",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "beba",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "beli",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bemba",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bembe-congo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bembe-drc",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "berta",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "besme",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bhaca",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bhojpuri",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bina",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "binza",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "birri",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "biseni",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bissa",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bitare",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bobo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bole-afroasiatic",
+    "bases": [
+      17,
+      18,
+      23,
+      42,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145
+    ]
+  },
+  {
+    "iso": "bole-niger-congo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bolon",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bomboli-bozaba",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bomboma",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bomitaba",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bomu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bongili",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bongo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bonjo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bono-ghana-ivory-coast",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bono-nigeria",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "boon",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "boko",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "boze",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bozo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bube",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "budza",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "buli",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bukusu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bulu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bum",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "buru-angwe",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "busa",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bushong",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "buu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "buyu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bwela",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "caka",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "cebaara",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "central-banda",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "chewa",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "chopi",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "chung",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dagaare",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dagbani",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dangme",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "daza",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dciriku",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dendi",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dengese",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "defaka",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dinka",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "djimini",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "doghose",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dogoso",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "doko",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dongo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dyula",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dzando",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "dzodinka",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "ebira",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "ekoka-kung",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "eman",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "esimbi",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "eton",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "evant",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "ewondo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fang-equatorial-guinea-and-gabon",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fang-cameroon",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fanji",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "farefare",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fe-fe",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fio",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fongoro",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fungor",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fur",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "furu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fut",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "fwe",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "g-ui",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gendza",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gengele-creole",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "geme",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "ghomala",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gikuyu",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "goundo",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gourmanche",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gumuz",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gwari",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "gyong",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "hakaona",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "hanga",
+    "bases": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156
+    ]
+  },
+  {
+    "iso": "bul",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "ces",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "pol",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "rus",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "slovak",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "srp",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "taimyr-pidgin-russian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "ukr",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "bundjalung",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "yugambeh",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "githabul",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "wiradjuri",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "gamilaraay",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "ngarrindjeri",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "adnyamathanha",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "yankunytjatjara",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "pitjantjatjara",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "kuku-yalanji",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "guugu-yimidhirr",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "kuuk-thaayore",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "wik-mungkan",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "noongar",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "wangkatha",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "ngaanyatjarra",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "manytjilyitjarra",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "martu-wangka",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "panyjima",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "yinjibarndi",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "nyangumarta",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "bardi",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "wajarri",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "pintupi",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "kukatja",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "walmatjarri",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "gooniyandi",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "djaru",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "kija",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "miriwoong",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "luritja",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "upper-arrernte",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "warlpiri",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "kaytetye",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "warumungu",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "gurindji",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "murrinh-patha",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "tiwi",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "iwaidja",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "maung",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "kunwinjku",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "burarra",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "dhuwal",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "djinang",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "nunggubuyu",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "anindilyakwa",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "palawa-kani",
+    "bases": [
+      196
+    ]
   }
 ]
