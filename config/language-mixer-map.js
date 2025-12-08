@@ -1965,6 +1965,12 @@
     ]
   },
   {
+    "iso": "mongolian",
+    "bases": [
+      31
+    ]
+  },
+  {
     "iso": "zarma",
     "bases": [
       277
@@ -2392,6 +2398,30 @@
   },
   {
     "iso": "georgian",
+    "bases": [
+      223
+    ]
+  },
+  {
+    "iso": "svan",
+    "bases": [
+      223
+    ]
+  },
+  {
+    "iso": "mingrelian",
+    "bases": [
+      223
+    ]
+  },
+  {
+    "iso": "laz",
+    "bases": [
+      223
+    ]
+  },
+  {
+    "iso": "judaeo-georgian",
     "bases": [
       223
     ]
@@ -4248,6 +4278,1803 @@
     "iso": "yue",
     "bases": [
       30
+    ]
+  },
+  {
+    "iso": "-ayyi-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "-azd-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "-sele",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "adeni-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "akkadian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "akkala-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "algerian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "algerian-saharan-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "american-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ancona",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "andalusi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "andalusian",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "arabic-javanese-of-klego",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "argentinian-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "armazic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "bahraini-gulf-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "bahrani-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "bakhtiari-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "bareqi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "barwar",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "barzani-jewish-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "berbice",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "betanure-jewish-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "biblical-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "biblical-hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "bohtan-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "bolivian-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "borgarm-let",
+    "bases": [
+      6
+    ]
+  },
+  {
+    "iso": "bozal-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "bukharian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "bul",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "cairene-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "canaano-akkadian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "canadian-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "canarian",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "cappadocian-greek",
+    "bases": [
+      16
+    ]
+  },
+  {
+    "iso": "cast-o",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "castilian",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "castrapo",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "cat",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "central-asian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "central-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "central-italian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "central-marchigiano",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "central-northern-lazian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "ces",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "chadian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "chaldean-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "chavacano",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "chilean-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "chilote",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "chinese-kyakala",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "christian-palestinian-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "christian-urmi-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "classical-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "classical-syriac",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "colloquial-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "colombian-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "dhofari-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "djibouti-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "duhok",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "eastern-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "eastern-egyptian-bedawi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "eastern-middle-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "ecuadorian-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "egyptian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "egypto-sudanic-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "emirati-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "equatoguinean-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "fabriano",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "fin",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "frenchville-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "g-llivare",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "galilean-dialect",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "gulf-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "gurindji-kriol",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "hadhrami-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "haketia",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "hassaniya-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hatran-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "hejazi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hertevin-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "hu-ayl-dialect",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hulaul-",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "imperial-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "inari-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "inter-zab",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "inuktitut-english-pidgin",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "israelian-hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "j-kk-kaska",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "j-mtland",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "javindo",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "jebli-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "jersey-dutch",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "jersey-legal-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "jewish-assyrian-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "jewish-babylonian-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "jewish-palestinian-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "jijel-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-algerian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "judeo-egyptian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-italian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "judeo-mantuan",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "judeo-moroccan-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "judeo-tripolitanian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-tunisian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "judeo-yemeni-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "kainuu-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kashkadarian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "kemi-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "khorasani-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "kildin-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "koy-sanjaq-christian-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "koy-sanjaq-jewish-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "kuwaiti-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "labrador-inuit-pidgin-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "lat",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "latin-american-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "law-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "lebanese-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "levantine-bedawi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "libyan-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "light-warlpiri",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "lish-n-did-n",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "lishana-deni",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "lishanid-noshan",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "llanito",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "louisiana-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "lule-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "luokta-m-vas",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "m-tis-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "macerata",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "maghrebi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "maghrebi-judeo-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "maltese-italian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "mandaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "mashriqi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "medieval-hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "mednyj-aleut",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "meridional-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "mexican-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "michif",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "middle-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "mishnaic-hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "missouri-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "mla-s-",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "modern-hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "modern-standard-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "mohawk-dutch",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "moroccan-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "murcian",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "muskrat-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "nabataean-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "nabataean-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "najdi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "negerhollands",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "negro-dutch",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "neo-mandaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "new-england-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "newfoundland-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "nld",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "northern-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "northwest-arabian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "northwestern-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "old-akkadian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "old-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "old-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "old-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "old-hijazi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "old-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "omani-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "palenquero",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "palestinian-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "palmyrene-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "paraguayan-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "peninsular-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "peruvian-ribere-o",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "peruvian-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "petjo",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "philippine-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "pite-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "pol",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "pre-classical-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "pre-hilalian-urban-arabic-dialects",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "proto-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "proto-uralic",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "qaraqosh-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "qatari-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "quebec-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "regional-italian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "rioplatense-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "romanesco",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "roquetas-pidgin-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "rus",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "s-rkaitum",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "sa-idi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sabino",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "saharan-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "samalian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "samaritan-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "samaritan-hebrew",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "san-ani-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sanandaj",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "semisjaur-njarg",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "senaya-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "serri",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "shihhi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "shirvani-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "siberian-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "siberian-ingrian-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "siculo-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sirkas",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "skepi-dutch-creole",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "skolt-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southeastern-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southern-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "southwestern-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "spa",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "srp",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "standard-finnish",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "standard-french",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "standard-italian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "sudanese-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sudanese-chadian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sureth",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "svaipa",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "swe",
+    "bases": [
+      6
+    ]
+  },
+  {
+    "iso": "swiss-italian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "ta-izzi-adeni-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "ta-izzi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "taimyr-pidgin-russian",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "te-parau-tinito",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "ter-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "tetuani",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "tihamiyya-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "tinglish",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "trans-zab",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "tunisian-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "tuorpon",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "turoyo",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "tuscia",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "tysfjord",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "ukr",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "umbrian",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "ume-sami",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "uralic-yukaghir",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "uruguayan-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "venezuelan-spanish",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "western-catalan",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "western-egyptian-bedawi-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "western-middle-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "western-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "wutunhua",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "yafii-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "yemeni-arabic",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "zakho",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "vie-northern",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-central",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-southern",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-hue",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-china",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-us",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "khm-northern",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "khm-western",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "khm-khe",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "nyah-kur",
+    "bases": [
+      180
+    ]
+  },
+  {
+    "iso": "pear",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "chong",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "kha-pnar",
+    "bases": [
+      182
+    ]
+  },
+  {
+    "iso": "kha-lyngngam",
+    "bases": [
+      182
+    ]
+  },
+  {
+    "iso": "kha-war",
+    "bases": [
+      182
+    ]
+  },
+  {
+    "iso": "munda",
+    "bases": [
+      181
+    ]
+  },
+  {
+    "iso": "ho-munda",
+    "bases": [
+      181
+    ]
+  },
+  {
+    "iso": "mundari",
+    "bases": [
+      181
+    ]
+  },
+  {
+    "iso": "kharia",
+    "bases": [
+      181
+    ]
+  },
+  {
+    "iso": "gta",
+    "bases": [
+      181
+    ]
+  },
+  {
+    "iso": "aslians",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "batek",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "semai",
+    "bases": [
+      195
+    ]
+  },
+  {
+    "iso": "car-nicobarese",
+    "bases": [
+      29,
+      195
+    ]
+  },
+  {
+    "iso": "bahnaric",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "katuic",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "khmuic",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "bahnar",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "sedang",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "hre",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "mnong",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "katu",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "bru",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "kuy",
+    "bases": [
+      29,
+      179
+    ]
+  },
+  {
+    "iso": "khmu",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "mang",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "proto-austroasiatic",
+    "bases": [
+      29,
+      179,
+      180,
+      181,
+      182
     ]
   }
 ];

@@ -878,14 +878,14 @@
     "iso": "kha",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Khasic"
   },
   {
     "name": "Khmer",
     "iso": "khm",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Khmeric"
   },
   {
     "name": "Kili",
@@ -1049,7 +1049,104 @@
     "iso": "mnw",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Monic"
+  },
+  {
+    "name": "Mongolian",
+    "iso": "mongolian",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mongolian_language",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Serbi–Mongolic family",
+    "iso": "serbi-mongolic-family",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Serbi–Mongolic",
+    "tags": [
+      "family",
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Old Serbi",
+    "iso": "old-serbi",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Qifu",
+    "iso": "qifu",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Duan",
+    "iso": "duan",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Tabghach",
+    "iso": "tabghach",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Tuyuhun",
+    "iso": "tuyuhun",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Old Khitan",
+    "iso": "old-khitan",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
+  },
+  {
+    "name": "Shirwi",
+    "iso": "shirwi",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Para-Mongolic",
+    "tags": [
+      "historical",
+      "hypothetical"
+    ]
   },
   {
     "name": "Nanai",
@@ -1230,7 +1327,7 @@
     "iso": "sat",
     "category": "Austroasiatic",
     "region": "Asia",
-    "family": "Austroasiatic"
+    "family": "Munda"
   },
   {
     "name": "Serui Malay",
@@ -1359,7 +1456,407 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Vietnamese_language",
-    "family": "Austroasiatic"
+    "family": "Vietic"
+  },
+  {
+    "name": "Vietnamese (Northern)",
+    "iso": "vie-northern",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Vietic"
+  },
+  {
+    "name": "Vietnamese (Central)",
+    "iso": "vie-central",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Vietic"
+  },
+  {
+    "name": "Vietnamese (Southern)",
+    "iso": "vie-southern",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Vietic"
+  },
+  {
+    "name": "Vietnamese (Hue)",
+    "iso": "vie-hue",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Vietic"
+  },
+  {
+    "name": "Vietnamese (in China)",
+    "iso": "vie-china",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Vietic"
+  },
+  {
+    "name": "Vietnamese (in the US)",
+    "iso": "vie-us",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Vietic"
+  },
+  {
+    "name": "Northern Khmer",
+    "iso": "khm-northern",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khmeric"
+  },
+  {
+    "name": "Western Khmer",
+    "iso": "khm-western",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khmeric"
+  },
+  {
+    "name": "Khe Khmer",
+    "iso": "khm-khe",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khmeric"
+  },
+  {
+    "name": "Nyah Kur",
+    "iso": "nyah-kur",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Monic"
+  },
+  {
+    "name": "Pear",
+    "iso": "pear",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Chong",
+    "iso": "chong",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Samre",
+    "iso": "samre",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Somray",
+    "iso": "somray",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Kasong",
+    "iso": "kasong",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Sa-och",
+    "iso": "sa-och",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Suoy",
+    "iso": "suoy",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pearic"
+  },
+  {
+    "name": "Pnar",
+    "iso": "kha-pnar",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khasic"
+  },
+  {
+    "name": "Lyngngam",
+    "iso": "kha-lyngngam",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khasic"
+  },
+  {
+    "name": "War Khasi",
+    "iso": "kha-war",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khasic"
+  },
+  {
+    "name": "Munda languages",
+    "iso": "munda",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Ho (Munda)",
+    "iso": "ho-munda",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda"
+  },
+  {
+    "name": "Mundari",
+    "iso": "mundari",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda"
+  },
+  {
+    "name": "Kharia",
+    "iso": "kharia",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda"
+  },
+  {
+    "name": "Gta",
+    "iso": "gta",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda"
+  },
+  {
+    "name": "Aslian languages",
+    "iso": "aslians",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Nicobarese languages",
+    "iso": "nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Batek",
+    "iso": "batek",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Temiar",
+    "iso": "temiar",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Mah Meri",
+    "iso": "mah-meri",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Semelai",
+    "iso": "semelai",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Semaq Beri",
+    "iso": "semaq-beri",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Semai",
+    "iso": "semai",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Aslian"
+  },
+  {
+    "name": "Car Nicobarese",
+    "iso": "car-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Chaura Nicobarese",
+    "iso": "chaura-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Teressa Nicobarese",
+    "iso": "teressa-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Nancowry Nicobarese",
+    "iso": "nancowry-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Camorta Nicobarese",
+    "iso": "camorta-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Katchal Nicobarese",
+    "iso": "katchal-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Southern Nicobarese",
+    "iso": "southern-nicobarese",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Shompen",
+    "iso": "shompen",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Nicobarese"
+  },
+  {
+    "name": "Bahnaric languages",
+    "iso": "bahnaric",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Katuic languages",
+    "iso": "katuic",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Katuic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Khmuic languages",
+    "iso": "khmuic",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khmuic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Bahnar",
+    "iso": "bahnar",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Sedang",
+    "iso": "sedang",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Hre",
+    "iso": "hre",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Mnong",
+    "iso": "mnong",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Bahnaric"
+  },
+  {
+    "name": "Katu",
+    "iso": "katu",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Katuic"
+  },
+  {
+    "name": "Bru",
+    "iso": "bru",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Katuic"
+  },
+  {
+    "name": "Kuy",
+    "iso": "kuy",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Katuic"
+  },
+  {
+    "name": "Khmu",
+    "iso": "khmu",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Khmuic"
+  },
+  {
+    "name": "Mang",
+    "iso": "mang",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pakanic"
+  },
+  {
+    "name": "Proto-Austroasiatic",
+    "iso": "proto-austroasiatic",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Proto",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
   },
   {
     "name": "Xibe",
@@ -1662,6 +2159,22 @@
     "family": "Northwest Caucasian"
   },
   {
+    "name": "Abaza",
+    "iso": "abaza",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abaza_language",
+    "family": "Northwest Caucasian"
+  },
+  {
+    "name": "Bzyb",
+    "iso": "bzyb",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bzyp_dialect",
+    "family": "Northwest Caucasian"
+  },
+  {
     "name": "Armenian",
     "iso": "armenian",
     "region": "Caucasus",
@@ -1694,6 +2207,22 @@
     "family": "Northwest Caucasian"
   },
   {
+    "name": "Adyghe",
+    "iso": "adyghe",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adyghe_language",
+    "family": "Northwest Caucasian"
+  },
+  {
+    "name": "Kabardian",
+    "iso": "kabardian",
+    "region": "Caucasus",
+    "category": "Northwest Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kabardian_language",
+    "family": "Northwest Caucasian"
+  },
+  {
     "name": "Georgian",
     "iso": "georgian",
     "region": "Caucasus",
@@ -1710,6 +2239,41 @@
     "family": "Northeast Caucasian"
   },
   {
+    "name": "Bats",
+    "iso": "bats",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bats_language",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Judaeo-Georgian",
+    "iso": "judaeo-georgian",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Judaeo-Georgian",
+    "family": "Kartvelian",
+    "tags": [
+      "judeo"
+    ]
+  },
+  {
+    "name": "Laz",
+    "iso": "laz",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laz_language",
+    "family": "Kartvelian"
+  },
+  {
+    "name": "Mingrelian",
+    "iso": "mingrelian",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mingrelian_language",
+    "family": "Kartvelian"
+  },
+  {
     "name": "Nogai",
     "iso": "nogai",
     "region": "Caucasus",
@@ -1724,6 +2288,14 @@
     "category": "Indo-Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Ossetian_language",
     "family": "Indo-Iranian"
+  },
+  {
+    "name": "Svan",
+    "iso": "svan",
+    "region": "Caucasus",
+    "category": "Kartvelian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Svan_language",
+    "family": "Kartvelian"
   },
   {
     "name": "Miskito",

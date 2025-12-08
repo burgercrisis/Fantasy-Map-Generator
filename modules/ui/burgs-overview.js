@@ -318,11 +318,18 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
         const capital = b.capital;
         const province = pack.cells.province[b.cell];
         const parent = province ? province + states.length - 1 : b.state;
+        const culture = pack.cultures && pack.cultures[b.culture];
+        const languageBase = culture && typeof culture.base === "number" ? culture.base : 0;
+        const raceOriginal = b.race || (culture && culture.race) || 0;
         return {
           id,
           i: b.i,
           state: b.state,
           culture: b.culture,
+          language: languageBase,
+          race: raceOriginal,
+          languageBase,
+          raceOriginal,
           province,
           parent,
           name: b.name,
@@ -349,13 +356,19 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
     const treeLayout = d3.pack().size([w, h]).padding(3);
 
     // prepare svg
+    const hasRaces = pack.races && pack.races.length > 1;
+    const racesOption = hasRaces ? '<option value="races">Group by race</option>' : "";
+
     alertMessage.innerHTML = /* html */ `<select id="burgsTreeType" style="display:block; margin-left:13px; font-size:11px">
       <option value="states" selected>Group by state</option>
       <option value="cultures">Group by culture</option>
       <option value="parent">Group by province and state</option>
       <option value="provinces">Group by province</option>
+      <option value="languages">Group by language</option>
+      ${racesOption}
     </select>`;
     alertMessage.innerHTML += `<div id='burgsInfo' class='chartInfo'>&#8205;</div>`;
+    alertMessage.innerHTML += `<div id='burgsLegend' class='chartInfo'>&#8205;</div>`;
     const svg = d3
       .select("#alertMessage")
       .insert("svg", "#burgsInfo")
@@ -364,7 +377,6 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
       .attr("height", height - 10)
       .attr("stroke-width", 2);
     const graph = svg.append("g").attr("transform", `translate(-50, -10)`);
-    byId("burgsTreeType").addEventListener("change", updateChart);
 
     treeLayout(root);
 
@@ -381,13 +393,50 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
       .on("mouseleave", d => hideInfo(event, d))
       .on("click", d => zoomTo(d.data.x, d.data.y, 8, 2000));
 
+    const typeSelect = byId("burgsTreeType");
+    if (typeSelect) {
+      typeSelect.addEventListener("change", function () {
+        try {
+          localStorage.setItem("burgsTreeType", this.value);
+        } catch (error) {
+          ERROR && console.error("Cannot store burgsTreeType in localStorage", error);
+        }
+        updateChart.call(this);
+      });
+
+      try {
+        const storedType = localStorage.getItem("burgsTreeType");
+        if (storedType && storedType !== typeSelect.value) {
+          const optionExists = typeSelect.querySelector(`option[value="${storedType}"]`);
+          if (optionExists) {
+            typeSelect.value = storedType;
+            updateChart.call(typeSelect);
+          }
+        }
+      } catch (error) {
+        ERROR && console.error("Cannot restore burgsTreeType from localStorage", error);
+      }
+    }
+
     function showInfo(ev, d) {
       d3.select(ev.target).transition().duration(1500).attr("stroke", "#c13119");
       const name = d.data.name;
-      const parent = d.parent.data.name;
+      const parentName = d.parent && d.parent.data ? d.parent.data.name : "";
       const population = si(d.value * populationRate * urbanization);
 
-      burgsInfo.innerHTML = /* html */ `${name}. ${parent}. Population: ${population}`;
+      const typeSelect = byId("burgsTreeType");
+      const mode = typeSelect ? typeSelect.value : "states";
+
+      let groupLabel = parentName;
+      if (parentName) {
+        if (mode === "states") groupLabel = `State: ${parentName}`;
+        else if (mode === "cultures") groupLabel = `Culture: ${parentName}`;
+        else if (mode === "provinces") groupLabel = `Province: ${parentName}`;
+        else if (mode === "languages") groupLabel = `Language: ${parentName}`;
+        else if (mode === "races") groupLabel = `Race: ${parentName}`;
+      }
+
+      burgsInfo.innerHTML = /* html */ `${name}. ${groupLabel}. Population: ${population}`;
       burgHighlightOn(ev);
       tip("Click to zoom into view");
     }
@@ -435,24 +484,126 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
           return {id: p.i ? p.i : 0, province: p.i ? 0 : null, color, name};
         });
 
+      const getLanguagesData = () => {
+        const cultures = pack.cultures;
+        if (!cultures || !cultures.length) return getStatesData();
+
+        const baseIds = new Set();
+        cultures.forEach(c => {
+          if (!c || !c.i || c.removed) return;
+          const baseId = typeof c.base === "number" ? c.base : 0;
+          baseIds.add(baseId);
+        });
+
+        if (!baseIds.size) return getStatesData();
+
+        const hasNameBases = typeof nameBases !== "undefined" && Array.isArray(nameBases) && nameBases.length;
+        const languages = [];
+        const languageIndexByBase = new Map();
+
+        languages.push({id: 0, language: null, color: "#ccc", name: "Languages"});
+
+        Array.from(baseIds)
+          .sort((a, b) => a - b)
+          .forEach(baseId => {
+            const id = languages.length;
+
+            let name = "";
+            if (hasNameBases && nameBases[baseId]) name = nameBases[baseId].name || "";
+            if (!name) name = `Language ${baseId}`;
+
+            let color = "#ccc";
+            const sampleCulture = cultures.find(
+              c => c && !c.removed && typeof c.base === "number" && c.base === baseId && c.color
+            );
+            if (sampleCulture) color = sampleCulture.color;
+
+            languages.push({id, language: 0, color, name});
+            languageIndexByBase.set(baseId, id);
+          });
+
+        burgs.forEach(b => {
+          const baseId = b.languageBase; // original culture.base or 0
+          const mappedId = languageIndexByBase.get(baseId);
+          b.language = mappedId !== undefined ? mappedId : 0;
+        });
+
+        return languages;
+      };
+
+      const getRacesData = () => {
+        const racesSource = (pack.races || []).filter(r => r && r.i && !r.removed);
+        if (!racesSource.length) return getStatesData();
+
+        const racesData = [];
+        const raceIndexById = new Map();
+
+        racesData.push({id: 0, race: null, color: "#888888", name: "Races"});
+
+        racesSource.forEach(r => {
+          const id = racesData.length;
+          const color = r.color || "#888888";
+          const name = r.name;
+          racesData.push({id, race: 0, color, name});
+          raceIndexById.set(r.i, id);
+        });
+
+        burgs.forEach(b => {
+          const raceId = b.raceOriginal || 0;
+          const mappedId = raceIndexById.get(raceId);
+          b.race = mappedId !== undefined ? mappedId : 0;
+        });
+
+        return racesData;
+      };
+
       const value = d => {
         if (this.value === "states") return d.state;
         if (this.value === "cultures") return d.culture;
         if (this.value === "parent") return d.parent;
         if (this.value === "provinces") return d.province;
+        if (this.value === "languages") return d.language;
+        if (this.value === "races") return d.race;
       };
 
       const mapping = {
         states: getStatesData,
         cultures: getCulturesData,
         parent: getParentData,
-        provinces: getProvincesData
+        provinces: getProvincesData,
+        languages: getLanguagesData,
+        races: getRacesData
       };
 
-      const base = mapping[this.value]();
+      const getBase = mapping[this.value] || getStatesData;
+      const base = getBase();
       burgs.forEach(b => (b.id = b.i + base.length - 1));
 
       const data = base.concat(burgs);
+
+      const burgsLegend = byId("burgsLegend");
+      if (burgsLegend) {
+        if (this.value === "languages" || this.value === "races") {
+          const legendData = base
+            .filter(d => d.id && (this.value === "languages" ? d.language === 0 : d.race === 0))
+            .map(d => [d.color, d.name]);
+
+          if (legendData.length) {
+            const title = this.value === "languages" ? "Languages" : "Races";
+            const items = legendData
+              .map(([color, name]) => `<span style="display:inline-flex;align-items:center;margin-right:0.75em;">
+                  <span style="display:inline-block;width:0.8em;height:0.8em;border-radius:50%;background:${color};margin-right:0.25em;"></span>
+                  <span>${name}</span>
+                </span>`)
+              .join("");
+            burgsLegend.innerHTML = `${title}: ${items}`;
+          } else {
+            burgsLegend.innerHTML = "&#8205;";
+          }
+        } else {
+          burgsLegend.innerHTML = "&#8205;";
+        }
+      }
 
       const root = d3
         .stratify()

@@ -39,7 +39,17 @@ const root = path.resolve(__dirname, "..");
 const explicitIsoBaseMap = {
   // Pretoria Sotho is a Sotho-Tswana-based creole. Reuse the Tswana
   // base (index 152) so local mixing can work.
-  "pretoria-sotho": 152
+  "pretoria-sotho": 152,
+  "ber-family": 17,
+  "koreanic-family": 10,
+  "sinitic": 11,
+  "sino-tibetan-family": 11,
+  "zho": 11,
+  "abaza": 241,
+  "bzyb": 241,
+  "adyghe": 241,
+  "kabardian": 241,
+  "bats": 239
 };
 
 // Fallback mapping from common language tokens to base indices. This
@@ -80,10 +90,22 @@ const tokenBaseIndexMap = {
   hebrew: 23,
   akkadian: 23,
   mesopotamian: 23,
+  canaanite: 23,
+  arabian: 18,
+  maghrebi: 18,
+  levantine: 18,
 
   // Uralic / Finnic / Sami buckets
   sami: 9,
   uralic: 9,
+  finnic: 9,
+  mari: 9,
+  mordvin: 9,
+  mordvinic: 9,
+  komi: 9,
+  permic: 9,
+  ugric: 9,
+  samoyedic: 9,
 
   // Other families / regions with dedicated bases
   basque: 20,
@@ -93,6 +115,7 @@ const tokenBaseIndexMap = {
   nahuatl: 14,
   swahili: 28,
   mongolian: 31,
+  mongolic: 31,
   chinese: 11,
   cantonese: 30,
   japanese: 12,
@@ -100,7 +123,91 @@ const tokenBaseIndexMap = {
   vietnamese: 29,
   turkish: 16,
   berber: 17,
-  hawaiian: 25
+  hawaiian: 25,
+
+  // Specific dialects / clusters
+  abruzzese: 3,
+  italian: 3,
+  italic: 3,
+  lombard: 3,
+  ligurian: 3,
+  emilian: 3,
+  romagnol: 3,
+  piedmontese: 3,
+  arpitan: 2,
+  franco: 2,
+  gallo: 2,
+  norman: 2,
+  picard: 2,
+  poitevin: 2,
+  saintongeais: 2,
+  lorrain: 2,
+  limousin: 2,
+  gaumais: 2,
+  bourbonnais: 2,
+
+  // Hmong-Mien approximated via Chinese-style base
+  hmong: 11,
+  hmongic: 11,
+  walloon: 302,
+  friulian: 300,
+  ladin: 301,
+  occitan: 232,
+  sardinian: 233,
+  romansh: 234,
+  frisian: 235,
+
+  // Finnic / Estonian cluster
+  estonian: 215,
+  finnic: 9,
+  karelian: 9,
+  veps: 9,
+  votic: 9,
+  livonian: 9,
+  savonian: 9,
+  tavastian: 9,
+
+  // Uralic Siberian cluster (approximate to Finnic/Uralic bucket)
+  khanty: 9,
+  mansi: 9,
+  nenets: 9,
+  selkup: 9,
+  enets: 9,
+  nganasan: 9,
+  yukaghir: 9,
+
+  // Volga-Finnic / Permic / Mordvin cluster (approximate to Uralic bucket)
+  komi: 9,
+  udmurt: 9,
+  mari: 9,
+  mordvin: 9,
+  erzya: 9,
+  moksha: 9,
+
+  // Ancient North Arabian / Canaanite scripts
+  safaitic: 23,
+  taymanitic: 23,
+  thamudic: 23,
+
+  // Additional Italo-Romance dialect bucket
+  tuscan: 3,
+  venetian: 3,
+
+  // Austroasiatic families / branches
+  vietic: 29,
+  khmer: 179,
+  khmeric: 179,
+  mon: 180,
+  monic: 180,
+  munda: 181,
+  khasic: 182,
+  aslian: 195,
+  nicobarese: 195,
+  bahnaric: 29,
+  katuic: 29,
+  khmuic: 29,
+  pearic: 179,
+  pakanic: 29
 };
 
 function readJson(relPath) {
@@ -169,6 +276,18 @@ function main() {
 
     const dehyphen = lower.replace(/[-–]+/g, " ").trim();
     if (dehyphen && !variants.includes(dehyphen)) variants.push(dehyphen);
+
+    const prefixStripped = lower
+      .replace(/^(proto|old|middle|ancient)\s+/, "")
+      .replace(/^(proto|old|middle|ancient)-/, "")
+      .trim();
+    if (prefixStripped && prefixStripped !== lower && !variants.includes(prefixStripped)) {
+      variants.push(prefixStripped);
+      const prefixDehyphen = prefixStripped.replace(/[-–]+/g, " ").trim();
+      if (prefixDehyphen && prefixDehyphen !== prefixStripped && !variants.includes(prefixDehyphen)) {
+        variants.push(prefixDehyphen);
+      }
+    }
 
     for (const key of variants) {
       const idx = namebases.byName.get(key);

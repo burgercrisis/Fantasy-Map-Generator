@@ -4929,6 +4929,9 @@
                 <option value="hypothetical">Hypothetical</option>
               </select>
             </label>
+          </div>
+
+          <div style="display: flex; flex-wrap: nowrap; gap: 0.5em; align-items: center; margin-bottom: 0.4em">
             <label style="display: flex; align-items: center; gap: 0.3em">
               Language:
               <select id="namesbaseMixerLanguage" style="min-width: 18em"></select>
@@ -4939,9 +4942,12 @@
               id="namesbaseMixerAddRandom"
               class="icon-button-die"
               data-tip="Add a random language matching the current filters to the mix"
-            >
-              Add random language
-            </button>
+            ></button>
+            <button
+              id="namesbaseMixerRandomizeAll"
+              class="icon-shuffle"
+              data-tip="Randomize weights for all languages in the mix"
+            ></button>
           </div>
 
           <div style="max-height: 12em; overflow-y: auto; border: 1px solid #999; border-radius: 4px">

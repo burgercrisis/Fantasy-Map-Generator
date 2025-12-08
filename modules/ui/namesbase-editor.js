@@ -44,6 +44,7 @@ function editNamesbase() {
   const mixerAddButton = byId("namesbaseMixerAdd");
   const mixerEvenButton = byId("namesbaseMixerEven");
   const mixerAddRandomButton = byId("namesbaseMixerAddRandom");
+  const mixerRandomizeAllButton = byId("namesbaseMixerRandomizeAll");
   const mixerSelectionBody = byId("namesbaseMixerSelection");
   const mixerCountInput = byId("namesbaseMixerCount");
   const mixerGenerateButton = byId("namesbaseMixerGenerate");
@@ -70,8 +71,17 @@ function editNamesbase() {
   }
 
   function getRandomWeightNearOne() {
-    const u = (Math.random() + Math.random() + Math.random()) / 3;
-    const raw = 1 + (u - 0.5) * 4;
+    const r = Math.random();
+    let raw;
+
+    if (r < 0.98) {
+      const u = (Math.random() + Math.random() + Math.random()) / 3;
+      raw = 1 + (u - 0.5) * 1.2;
+    } else {
+      const exp = Math.random() * 3;
+      raw = Math.pow(10, exp);
+    }
+
     const value = Math.round(raw * 100) / 100;
     return clamp(value, 0.01, 1000);
   }
@@ -332,6 +342,11 @@ function editNamesbase() {
     mixerAddRandomButton?.addEventListener("click", e => {
       e.preventDefault();
       addRandomLanguageToMixFromFilters();
+    });
+
+    mixerRandomizeAllButton?.addEventListener("click", e => {
+      e.preventDefault();
+      randomizeAllMixerWeights();
     });
 
     mixerGenerateButton?.addEventListener("click", e => {
@@ -675,6 +690,16 @@ function editNamesbase() {
       return tip("Add languages before distributing weights", false, "warn");
     }
     mixer.languages.forEach(lang => (lang.weight = 1));
+    renderMixerSelection();
+  }
+
+  function randomizeAllMixerWeights() {
+    if (!mixer.languages.length) {
+      return tip("Add languages before randomizing weights", false, "warn");
+    }
+    mixer.languages.forEach(lang => {
+      lang.weight = getRandomWeightNearOne();
+    });
     renderMixerSelection();
   }
 
