@@ -4951,10 +4951,18 @@
               Target names:
               <input id="namesbaseMixerCount" type="number" min="5" max="200" value="40" style="width: 5em" />
             </label>
-            <button id="namesbaseMixerGenerate" class="icon-robot" data-tip="Generate names with AI mix">
+            <button
+              id="namesbaseMixerGenerate"
+              class="icon-robot"
+              data-tip="Generate names with external AI models (GPT, Claude, Gemini, Ollama) based on the current language mix. Requires an API key and may use web access when enabled."
+            >
               Generate with AI
             </button>
-            <button id="namesbaseMixerGenerateLocal" class="icon-cog" data-tip="Generate names locally via Markov">
+            <button
+              id="namesbaseMixerGenerateLocal"
+              class="icon-cog"
+              data-tip="Generate names locally on your device using the Markov mixer and the current language mix. No external AI or web access."
+            >
               Generate (Local)
             </button>
           </div>
@@ -4984,6 +4992,13 @@
                 class="icon-help-circled"
                 data-tip="Click to see the usage instructions"
               ></button>
+            </label>
+            <label
+              for="namesbaseAiWebAccess"
+              data-tip="When supported by the selected provider, allows the model to use web search to fetch fresh information (currently effective for Gemini models)."
+            >
+              <input id="namesbaseAiWebAccess" type="checkbox" />
+              Web access
             </label>
           </div>
 
@@ -5134,6 +5149,13 @@
                 class="icon-help-circled"
                 data-tip="Click to see the usage instructions"
               />
+            </label>
+            <label
+              for="aiGeneratorWebAccess"
+              data-tip="When supported by the selected provider, allows the model to use web search to fetch fresh information (currently effective for Gemini models)."
+            >
+              <input id="aiGeneratorWebAccess" type="checkbox" />
+              Web access
             </label>
           </div>
         </div>

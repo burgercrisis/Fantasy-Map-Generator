@@ -580,6 +580,27 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Greenlandic_language"
   },
   {
+    "name": "Naukan",
+    "iso": "naukan",
+    "region": "Arctic",
+    "category": "Eskimo-Aleut",
+    "family": "Yupik"
+  },
+  {
+    "name": "Sirenik",
+    "iso": "sirenik",
+    "region": "Arctic",
+    "category": "Eskimo-Aleut",
+    "family": "Yupik"
+  },
+  {
+    "name": "Yuit",
+    "iso": "yuit",
+    "region": "Arctic",
+    "category": "Eskimo-Aleut",
+    "family": "Yupik"
+  },
+  {
     "name": "Indonesian",
     "iso": "indonesian",
     "region": "Asia-Pacific",
@@ -606,6 +627,16 @@
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Ainu_language"
+  },
+  {
+    "name": "Alchuka",
+    "iso": "alchuka",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Jurchenic",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Alor Malay",
@@ -642,6 +673,16 @@
     "family": "Malay-based",
     "tags": [
       "creole"
+    ]
+  },
+  {
+    "name": "Bala",
+    "iso": "bala",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Jurchenic",
+    "tags": [
+      "extinct"
     ]
   },
   {
@@ -740,6 +781,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language"
   },
   {
+    "name": "Chinese Kyakala",
+    "iso": "chinese-kyakala",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Jurchenic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Cochin Portuguese Creole",
     "iso": "cochin-portuguese-creole",
     "region": "Asia",
@@ -800,6 +851,20 @@
     ]
   },
   {
+    "name": "Even",
+    "iso": "even",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Ewenic"
+  },
+  {
+    "name": "Evenki",
+    "iso": "evenki",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Ewenic"
+  },
+  {
     "name": "Gorap",
     "iso": "gorap",
     "region": "Asia",
@@ -822,6 +887,20 @@
     "region": "Asia",
     "category": "Indo-European",
     "wikipedia": "https://en.wikipedia.org/wiki/Hindi"
+  },
+  {
+    "name": "Hokkaido Ainu",
+    "iso": "hokkaido-ainu",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Hokkaido"
+  },
+  {
+    "name": "Hokkaido dialects",
+    "iso": "hokkaido-dialects",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Hokkaido"
   },
   {
     "name": "Indo-Portuguese",
@@ -849,6 +928,16 @@
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language"
+  },
+  {
+    "name": "Jurchen",
+    "iso": "jurchen",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Jurchenic",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Kalmyk",
@@ -894,6 +983,13 @@
     "region": "Asia"
   },
   {
+    "name": "Kili",
+    "iso": "kili",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Ewenic"
+  },
+  {
     "name": "Korlai Portuguese Creole",
     "iso": "korlai-portuguese-creole",
     "region": "Asia",
@@ -921,6 +1017,26 @@
     "family": "Malay-based",
     "tags": [
       "creole"
+    ]
+  },
+  {
+    "name": "Kuril Ainu",
+    "iso": "kuril-ainu",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Kuril",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kuril dialects",
+    "iso": "kuril-dialects",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Kuril",
+    "tags": [
+      "extinct"
     ]
   },
   {
@@ -968,6 +1084,13 @@
     ]
   },
   {
+    "name": "Manchu",
+    "iso": "manchu",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Jurchenic"
+  },
+  {
     "name": "Manglish",
     "iso": "manglish",
     "region": "Asia",
@@ -1011,6 +1134,20 @@
     "region": "Asia"
   },
   {
+    "name": "Nanai",
+    "iso": "nanai",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Nanaic"
+  },
+  {
+    "name": "Negidal",
+    "iso": "negidal",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Ewenic"
+  },
+  {
     "name": "North Moluccan Malay",
     "iso": "north-moluccan-malay",
     "region": "Asia",
@@ -1036,6 +1173,23 @@
     "tags": [
       "creole"
     ]
+  },
+  {
+    "name": "Oroch",
+    "iso": "oroch",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Udegheic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Oroqen",
+    "iso": "oroqen",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Ewenic"
   },
   {
     "name": "Papuan Malay",
@@ -1075,6 +1229,39 @@
     ]
   },
   {
+    "name": "Proto-Ainu",
+    "iso": "proto-ainu",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Proto",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Hokkaido-Kuril",
+    "iso": "proto-hokkaido-kuril",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Proto",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Sakhalin",
+    "iso": "proto-sakhalin",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Proto",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
     "name": "Punjabi",
     "iso": "punjabi",
     "region": "Asia",
@@ -1089,6 +1276,26 @@
     "family": "Malay-based",
     "tags": [
       "creole"
+    ]
+  },
+  {
+    "name": "Sakhalin Ainu",
+    "iso": "sakhalin-ainu",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Sakhalin",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Sakhalin dialects",
+    "iso": "sakhalin-dialects",
+    "region": "Asia",
+    "category": "Ainu",
+    "family": "Sakhalin",
+    "tags": [
+      "extinct"
     ]
   },
   {
@@ -1180,6 +1387,27 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Thai_language"
   },
   {
+    "name": "Udege",
+    "iso": "udege",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Udegheic"
+  },
+  {
+    "name": "Uilta",
+    "iso": "uilta",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Nanaic"
+  },
+  {
+    "name": "Ulch",
+    "iso": "ulch",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Nanaic"
+  },
+  {
     "name": "Urdu",
     "iso": "urdu",
     "region": "Asia",
@@ -1192,6 +1420,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Vietnamese_language"
+  },
+  {
+    "name": "Xibe",
+    "iso": "xibe",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Jurchenic"
   },
   {
     "name": "Cape Verdean Creole",
@@ -1884,11 +2119,2136 @@
     "family": "Sheic"
   },
   {
+    "name": "Akkala Sami",
+    "iso": "akkala-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Ala-Satakunta",
+    "iso": "ala-satakunta",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Almosan",
+    "iso": "almosan",
+    "region": "Eurasia",
+    "category": "Hypothetical",
+    "family": "Proposed Groupings",
+    "tags": [
+      "hypothetical",
+      "proto"
+    ]
+  },
+  {
+    "name": "Alutaguse",
+    "iso": "alutaguse",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "American Finnish",
+    "iso": "american-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Standard"
+  },
+  {
+    "name": "Åsele",
+    "iso": "-sele",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Sami"
+  },
+  {
+    "name": "Atlym",
+    "iso": "atlym",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Khanty"
+  },
+  {
+    "name": "Atlym-Nizyam Khanty",
+    "iso": "atlym-nizyam-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Khanty"
+  },
+  {
+    "name": "Avam",
+    "iso": "avam",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Nganasan"
+  },
+  {
+    "name": "Berjozov",
+    "iso": "berjozov",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Khanty"
+  },
+  {
+    "name": "Besermyan",
+    "iso": "besermyan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Udmurt"
+  },
+  {
+    "name": "Bjarmian Finnic",
+    "iso": "bjarmian-finnic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Others"
+  },
+  {
+    "name": "Bjarmian Sámi",
+    "iso": "bjarmian-s-mi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Central Erzya",
+    "iso": "central-erzya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Erzya"
+  },
+  {
+    "name": "Central Estonian",
+    "iso": "central-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "Central Finland",
+    "iso": "central-finland",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Central Ludic",
+    "iso": "central-ludic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ludic"
+  },
+  {
+    "name": "Central Mansi",
+    "iso": "central-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Core Mansi"
+  },
+  {
+    "name": "Central Moksha",
+    "iso": "central-moksha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Moksha"
+  },
+  {
+    "name": "Central Selkup",
+    "iso": "central-selkup",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Selkup"
+  },
+  {
+    "name": "Central Transdanubian",
+    "iso": "central-transdanubian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Central Veps",
+    "iso": "central-veps",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Veps"
+  },
+  {
+    "name": "Central Vychegda",
+    "iso": "central-vychegda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Chukotko-Kamchatkan-Amuric",
+    "iso": "chukotko-kamchatkan-amuric",
+    "region": "Eurasia",
+    "category": "Hypothetical",
+    "family": "Proposed Groupings",
+    "tags": [
+      "hypothetical",
+      "proto"
+    ]
+  },
+  {
+    "name": "Chusovaya",
+    "iso": "chusovaya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Cingali",
+    "iso": "cingali",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Khanty",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Colloquial Finnish",
+    "iso": "colloquial-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Standard"
+  },
+  {
+    "name": "Core Mansi",
+    "iso": "core-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Core Mansi"
+  },
+  {
+    "name": "Courland Livonian",
+    "iso": "courland-livonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Livonian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Csángó",
+    "iso": "cs-ng-",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Dené-Yeniseian",
+    "iso": "den-yeniseian",
+    "region": "Eurasia",
+    "category": "Hypothetical",
+    "family": "Proposed Groupings",
+    "tags": [
+      "hypothetical",
+      "proto"
+    ]
+  },
+  {
+    "name": "Eastern Estonian",
+    "iso": "eastern-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "Eastern Khanty",
+    "iso": "eastern-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Eastern Mansi",
+    "iso": "eastern-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Eastern Mari",
+    "iso": "eastern-mari",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Mari"
+  },
+  {
+    "name": "Eastern Savonian",
+    "iso": "eastern-savonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Eastern South Estonian",
+    "iso": "eastern-south-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Eastern Votic",
+    "iso": "eastern-votic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Votic"
+  },
+  {
+    "name": "Enets",
+    "iso": "enets",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Enets"
+  },
+  {
+    "name": "Erzya",
+    "iso": "erzya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Erzya"
+  },
+  {
+    "name": "Far Eastern Khanty",
+    "iso": "far-eastern-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Far Eastern Khanty"
+  },
+  {
+    "name": "Fingelska",
+    "iso": "fingelska",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Standard"
+  },
+  {
+    "name": "Finnmark Sami",
+    "iso": "finnmark-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Sami"
+  },
+  {
+    "name": "Forest Enets",
+    "iso": "forest-enets",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Enets"
+  },
+  {
+    "name": "Forest Nenets",
+    "iso": "forest-nenets",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Nenets"
+  },
+  {
+    "name": "Gällivare",
+    "iso": "g-llivare",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Heart Tavastian",
+    "iso": "heart-tavastian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Hevaha",
+    "iso": "hevaha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ingrian"
+  },
+  {
+    "name": "Hill Mari",
+    "iso": "hill-mari",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hill Mari"
+  },
+  {
+    "name": "Hollola",
+    "iso": "hollola",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Iitti",
+    "iso": "iitti",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Inari Sami",
+    "iso": "inari-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Inari Sami"
+  },
+  {
+    "name": "Ingrian",
+    "iso": "ingrian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ingrian"
+  },
+  {
+    "name": "Insular Estonian",
+    "iso": "insular-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "Izhma",
+    "iso": "izhma",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Jåkkåkaska",
+    "iso": "j-kk-kaska",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Jällivaara",
+    "iso": "j-llivaara",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Jämtland",
+    "iso": "j-mtland",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Sami"
+  },
+  {
+    "name": "Jugan",
+    "iso": "jugan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Jukonda",
+    "iso": "jukonda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kainuu",
+    "iso": "kainuu",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Kainuu Sami",
+    "iso": "kainuu-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kamas",
+    "iso": "kamas",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Kamas",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kamassian proper",
+    "iso": "kamassian-proper",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Kamas",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Karagas",
+    "iso": "karagas",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Mator",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Karasuk",
+    "iso": "karasuk",
+    "region": "Eurasia",
+    "category": "Hypothetical",
+    "family": "Proposed Groupings",
+    "tags": [
+      "hypothetical",
+      "proto"
+    ]
+  },
+  {
+    "name": "Karelian",
+    "iso": "karelian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Karelian Proper"
+  },
+  {
+    "name": "Karelian proper",
+    "iso": "karelian-proper",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Karelian Proper"
+  },
+  {
+    "name": "Kazym",
+    "iso": "kazym",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Khanty"
+  },
+  {
+    "name": "Kemi",
+    "iso": "kemi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Kemi Sami",
+    "iso": "kemi-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kemijärvi",
+    "iso": "kemij-rvi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Keuruu-Evijärvi",
+    "iso": "keuruu-evij-rvi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Kiknur",
+    "iso": "kiknur",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Kildin Sami",
+    "iso": "kildin-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Kildin Sami"
+  },
+  {
+    "name": "Kochevo",
+    "iso": "kochevo",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Koibal",
+    "iso": "koibal",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Kamas",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Komi-Permyak",
+    "iso": "komi-permyak",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Komi-Yodzyak",
+    "iso": "komi-yodzyak",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Yodzyak"
+  },
+  {
+    "name": "Komi-Zyryan",
+    "iso": "komi-zyryan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Konda Khanty",
+    "iso": "konda-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Khanty",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kosa-Kama",
+    "iso": "kosa-kama",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Kozymodemyan",
+    "iso": "kozymodemyan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hill Mari"
+  },
+  {
+    "name": "Kraasna",
+    "iso": "kraasna",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Krasnojarsk Khanty",
+    "iso": "krasnojarsk-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Khanty",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Krevinian",
+    "iso": "krevinian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Votic"
+  },
+  {
+    "name": "Kudymkar-Inva",
+    "iso": "kudymkar-inva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Kukkuzi",
+    "iso": "kukkuzi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Votic"
+  },
+  {
+    "name": "Kuuďärv Ludic",
+    "iso": "kuu-rv-ludic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ludic"
+  },
+  {
+    "name": "Kven",
+    "iso": "kven",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Kven"
+  },
+  {
+    "name": "Laiuse Romani",
+    "iso": "laiuse-romani",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Others"
+  },
+  {
+    "name": "Leivu",
+    "iso": "leivu",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Lemi region",
+    "iso": "lemi-region",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southeastern Dialects"
+  },
+  {
+    "name": "Likrisovskoe",
+    "iso": "likrisovskoe",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Lipsha",
+    "iso": "lipsha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Livonian",
+    "iso": "livonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Livonian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Livvi",
+    "iso": "livvi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Livvi"
+  },
+  {
+    "name": "Lower Demjanka",
+    "iso": "lower-demjanka",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Khanty",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Lower Inva",
+    "iso": "lower-inva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Lower Konda",
+    "iso": "lower-konda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Lower Lozva",
+    "iso": "lower-lozva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Lower Luga",
+    "iso": "lower-luga",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ingrian"
+  },
+  {
+    "name": "Lower Vychegda",
+    "iso": "lower-vychegda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Ludic",
+    "iso": "ludic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ludic"
+  },
+  {
+    "name": "Ludza",
+    "iso": "ludza",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Lule Sami",
+    "iso": "lule-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Luokta-Mávas",
+    "iso": "luokta-m-vas",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Pite Sami"
+  },
+  {
+    "name": "Luza-Letka",
+    "iso": "luza-letka",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Malij Jugan",
+    "iso": "malij-jugan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Mator",
+    "iso": "mator",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Mator",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Mator proper",
+    "iso": "mator-proper",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Mator",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Meadow Mari",
+    "iso": "meadow-mari",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meadow Mari"
+  },
+  {
+    "name": "Meadow Mari Proper",
+    "iso": "meadow-mari-proper",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meadow Mari"
+  },
+  {
+    "name": "Meänkieli",
+    "iso": "me-nkieli",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meänkieli"
+  },
+  {
+    "name": "Merya",
+    "iso": "merya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct/Unclassified",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Meshcherian",
+    "iso": "meshcherian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct/Unclassified",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Middle Botnian",
+    "iso": "middle-botnian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Middle Konda",
+    "iso": "middle-konda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Middle Lozva",
+    "iso": "middle-lozva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Moksha",
+    "iso": "moksha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Moksha"
+  },
+  {
+    "name": "Mulgi",
+    "iso": "mulgi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Muromian",
+    "iso": "muromian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct/Unclassified",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Mysy",
+    "iso": "mysy",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Nenets",
+    "iso": "nenets",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Nenets"
+  },
+  {
+    "name": "Nerdva",
+    "iso": "nerdva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Nganasan",
+    "iso": "nganasan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Nganasan"
+  },
+  {
+    "name": "Nizyam",
+    "iso": "nizyam",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Khanty"
+  },
+  {
+    "name": "North Estonian",
+    "iso": "north-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "North Vagilsk",
+    "iso": "north-vagilsk",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Northeast Hungary",
+    "iso": "northeast-hungary",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Northeastern coastal Estonian",
+    "iso": "northeastern-coastal-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "Northern Botnian",
+    "iso": "northern-botnian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Northern Erzya",
+    "iso": "northern-erzya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Erzya"
+  },
+  {
+    "name": "Northern Karelian",
+    "iso": "northern-karelian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Karelian Proper"
+  },
+  {
+    "name": "Northern Khanty",
+    "iso": "northern-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Khanty"
+  },
+  {
+    "name": "Northern Ludic",
+    "iso": "northern-ludic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ludic"
+  },
+  {
+    "name": "Northern Mansi",
+    "iso": "northern-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Mansi"
+  },
+  {
+    "name": "Northern Savonian",
+    "iso": "northern-savonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Northern Selkup",
+    "iso": "northern-selkup",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Selkup"
+  },
+  {
+    "name": "Northern Udmurt",
+    "iso": "northern-udmurt",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Udmurt"
+  },
+  {
+    "name": "Northern Veps",
+    "iso": "northern-veps",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Veps"
+  },
+  {
+    "name": "Northwestern Mari",
+    "iso": "northwestern-mari",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Ob Mansi",
+    "iso": "ob-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Mansi"
+  },
+  {
+    "name": "Obdorsk",
+    "iso": "obdorsk",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Khanty"
+  },
+  {
+    "name": "Old Hungarian",
+    "iso": "old-hungarian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Old Komi",
+    "iso": "old-komi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Old Komi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "On",
+    "iso": "on",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Orodezhi",
+    "iso": "orodezhi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ingrian"
+  },
+  {
+    "name": "Päijänne Tavastia",
+    "iso": "p-ij-nne-tavastia",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Palóc",
+    "iso": "pal-c",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Pechora",
+    "iso": "pechora",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Pelym",
+    "iso": "pelym",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Peräpohjola",
+    "iso": "per-pohjola",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Pim",
+    "iso": "pim",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Pite Sami",
+    "iso": "pite-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Pite Sami"
+  },
+  {
+    "name": "Pori region",
+    "iso": "pori-region",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Porvoo",
+    "iso": "porvoo",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Proper Southeastern",
+    "iso": "proper-southeastern",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southeastern Dialects"
+  },
+  {
+    "name": "Proto-Finnic",
+    "iso": "proto-finnic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Finnic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Hungarian",
+    "iso": "proto-hungarian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Hungarian",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Karelian",
+    "iso": "proto-karelian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Finnic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Mari",
+    "iso": "proto-mari",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Mari",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Mordvinic",
+    "iso": "proto-mordvinic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Mordvinic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Ob-Ugric",
+    "iso": "proto-ob-ugric",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Ob-Ugric",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Permic",
+    "iso": "proto-permic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Permic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Sami",
+    "iso": "proto-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Sami",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Samoyedic",
+    "iso": "proto-samoyedic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Proto-Samoyedic",
+    "tags": [
+      "proto",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Proto-Uralic",
+    "iso": "proto-uralic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Extinct/Unclassified",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Ruija",
+    "iso": "ruija",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Salaca Livonian",
+    "iso": "salaca-livonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Livonian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Salym Khanty",
+    "iso": "salym-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Khanty"
+  },
+  {
+    "name": "Sanchursk",
+    "iso": "sanchursk",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Savonian",
+    "iso": "savonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Savonlinna",
+    "iso": "savonlinna",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Sea Sami",
+    "iso": "sea-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Sami"
+  },
+  {
+    "name": "Selkup",
+    "iso": "selkup",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Selkup"
+  },
+  {
+    "name": "Semisjaur-Njarg",
+    "iso": "semisjaur-njarg",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Pite Sami"
+  },
+  {
+    "name": "Sernur-Morkin",
+    "iso": "sernur-morkin",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meadow Mari"
+  },
+  {
+    "name": "Serri",
+    "iso": "serri",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Seto",
+    "iso": "seto",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Sharanga",
+    "iso": "sharanga",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Sherkal",
+    "iso": "sherkal",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Khanty"
+  },
+  {
+    "name": "Shoksha",
+    "iso": "shoksha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Erzya"
+  },
+  {
+    "name": "Siberian Finnish",
+    "iso": "siberian-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Standard"
+  },
+  {
+    "name": "Siberian Ingrian Finnish",
+    "iso": "siberian-ingrian-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ingrian"
+  },
+  {
+    "name": "Sirkas",
+    "iso": "sirkas",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Skolt Sami",
+    "iso": "skolt-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Skolt Sami"
+  },
+  {
+    "name": "Soikkola",
+    "iso": "soikkola",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ingrian"
+  },
+  {
+    "name": "Somero region",
+    "iso": "somero-region",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Sörkaitum",
+    "iso": "s-rkaitum",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Sosva",
+    "iso": "sosva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Mansi"
+  },
+  {
+    "name": "South Estonian",
+    "iso": "south-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "South Vagilsk",
+    "iso": "south-vagilsk",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Southeastern Erzya",
+    "iso": "southeastern-erzya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Erzya"
+  },
+  {
+    "name": "Southeastern Finnish",
+    "iso": "southeastern-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southeastern Dialects"
+  },
+  {
+    "name": "Southeastern Moksha",
+    "iso": "southeastern-moksha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Moksha"
+  },
+  {
+    "name": "Southeastern Tavastian",
+    "iso": "southeastern-tavastian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Southern Botnian",
+    "iso": "southern-botnian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Southern Great Plain",
+    "iso": "southern-great-plain",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Southern Karelian",
+    "iso": "southern-karelian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Karelian Proper"
+  },
+  {
+    "name": "Southern Khanty",
+    "iso": "southern-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Khanty",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Southern Mansi",
+    "iso": "southern-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Southern Sami",
+    "iso": "southern-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Sami"
+  },
+  {
+    "name": "Southern Savonian",
+    "iso": "southern-savonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Southern Selkup",
+    "iso": "southern-selkup",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Selkup"
+  },
+  {
+    "name": "Southern Tavastian",
+    "iso": "southern-tavastian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Southern Transdanubian",
+    "iso": "southern-transdanubian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Southern Udmurt",
+    "iso": "southern-udmurt",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Udmurt"
+  },
+  {
+    "name": "Southern Veps",
+    "iso": "southern-veps",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Veps"
+  },
+  {
+    "name": "Southwestern Finnish",
+    "iso": "southwestern-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Standard Finnish",
+    "iso": "standard-finnish",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Standard"
+  },
+  {
+    "name": "Surgut Khanty",
+    "iso": "surgut-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Svaipa",
+    "iso": "svaipa",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Pite Sami"
+  },
+  {
+    "name": "Sygva",
+    "iso": "sygva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Mansi"
+  },
+  {
+    "name": "Syktyvkar",
+    "iso": "syktyvkar",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Székely",
+    "iso": "sz-kely",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Tagil",
+    "iso": "tagil",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Tartu",
+    "iso": "tartu",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
     "name": "Tatar",
     "iso": "tatar",
     "region": "Eurasia",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Tatar_language"
+  },
+  {
+    "name": "Tavastian",
+    "iso": "tavastian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Tavda",
+    "iso": "tavda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Taygi",
+    "iso": "taygi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Mator",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Ter Sami",
+    "iso": "ter-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ter Sami"
+  },
+  {
+    "name": "Tisza-Körös",
+    "iso": "tisza-k-r-s",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Tonshaevo",
+    "iso": "tonshaevo",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Torne Sami",
+    "iso": "torne-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Sami"
+  },
+  {
+    "name": "Torne Valley",
+    "iso": "torne-valley",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meänkieli"
+  },
+  {
+    "name": "Tornio",
+    "iso": "tornio",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Transylvanian Plain",
+    "iso": "transylvanian-plain",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Tremjugan",
+    "iso": "tremjugan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Khanty"
+  },
+  {
+    "name": "Tundra Enets",
+    "iso": "tundra-enets",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Enets"
+  },
+  {
+    "name": "Tundra Nenets",
+    "iso": "tundra-nenets",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Nenets"
+  },
+  {
+    "name": "Tuorpon",
+    "iso": "tuorpon",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Tura",
+    "iso": "tura",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Turku highlands",
+    "iso": "turku-highlands",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Tuzha",
+    "iso": "tuzha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Tysfjord",
+    "iso": "tysfjord",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Lule Sami"
+  },
+  {
+    "name": "Udora",
+    "iso": "udora",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Ume Sami",
+    "iso": "ume-sami",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Ume Sami"
+  },
+  {
+    "name": "Upper Demjanka",
+    "iso": "upper-demjanka",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Southern Khanty",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Upper Konda",
+    "iso": "upper-konda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Upper Lozva",
+    "iso": "upper-lozva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northern Mansi"
+  },
+  {
+    "name": "Upper Lupya",
+    "iso": "upper-lupya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Permyak"
+  },
+  {
+    "name": "Upper Sysola",
+    "iso": "upper-sysola",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Upper Vychegda",
+    "iso": "upper-vychegda",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Uralic-Yukaghir",
+    "iso": "uralic-yukaghir",
+    "region": "Eurasia",
+    "category": "Hypothetical",
+    "family": "Proposed Groupings",
+    "tags": [
+      "hypothetical",
+      "proto"
+    ]
+  },
+  {
+    "name": "Uralo-Siberian",
+    "iso": "uralo-siberian",
+    "region": "Eurasia",
+    "category": "Hypothetical",
+    "family": "Proposed Groupings",
+    "tags": [
+      "hypothetical",
+      "proto"
+    ]
+  },
+  {
+    "name": "Vadey",
+    "iso": "vadey",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Nganasan"
+  },
+  {
+    "name": "Vakh",
+    "iso": "vakh",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Far Eastern Khanty"
+  },
+  {
+    "name": "Värmland Savonian",
+    "iso": "v-rmland-savonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Eastern Dialects"
+  },
+  {
+    "name": "Vartovskoe",
+    "iso": "vartovskoe",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Far Eastern Khanty"
+  },
+  {
+    "name": "Vasjugan",
+    "iso": "vasjugan",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Far Eastern Khanty"
+  },
+  {
+    "name": "Veps",
+    "iso": "veps",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Veps"
+  },
+  {
+    "name": "Verkhne-Kalimsk",
+    "iso": "verkhne-kalimsk",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Far Eastern Khanty"
+  },
+  {
+    "name": "Vishera",
+    "iso": "vishera",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Core Mansi"
+  },
+  {
+    "name": "Volga",
+    "iso": "volga",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meadow Mari"
+  },
+  {
+    "name": "Võro",
+    "iso": "v-ro",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "South Estonian"
+  },
+  {
+    "name": "Votic",
+    "iso": "votic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Votic"
+  },
+  {
+    "name": "Vym",
+    "iso": "vym",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Zyryan"
+  },
+  {
+    "name": "Western Erzya",
+    "iso": "western-erzya",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Erzya"
+  },
+  {
+    "name": "Western Estonian",
+    "iso": "western-estonian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "North Estonian"
+  },
+  {
+    "name": "Western Khanty",
+    "iso": "western-khanty",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Khanty"
+  },
+  {
+    "name": "Western Mansi",
+    "iso": "western-mansi",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Mansi",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Western Moksha",
+    "iso": "western-moksha",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Moksha"
+  },
+  {
+    "name": "Western Transdanubian",
+    "iso": "western-transdanubian",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Western Uusimaa",
+    "iso": "western-uusimaa",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Western Votic",
+    "iso": "western-votic",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Votic"
+  },
+  {
+    "name": "Yaran",
+    "iso": "yaran",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Hill Mari"
+  },
+  {
+    "name": "Yaransk",
+    "iso": "yaransk",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Northwestern Mari"
+  },
+  {
+    "name": "Yazva",
+    "iso": "yazva",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Yodzyak"
+  },
+  {
+    "name": "Ylä-Satakunta",
+    "iso": "yl-satakunta",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Western Dialects"
+  },
+  {
+    "name": "Yoshkar-Olin",
+    "iso": "yoshkar-olin",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Meadow Mari"
+  },
+  {
+    "name": "Yurats",
+    "iso": "yurats",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Yurats",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Zyuzdino",
+    "iso": "zyuzdino",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "family": "Komi-Yodzyak"
+  },
+  {
+    "name": "Aas whistled",
+    "iso": "aas-whistled",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Abruzzese",
+    "iso": "abruzzese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Acadian",
+    "iso": "acadian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Aeolian",
+    "iso": "aeolian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
   },
   {
     "name": "Albanian",
@@ -1898,12 +4258,106 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Albanian_language"
   },
   {
+    "name": "Alentejan",
+    "iso": "alentejan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Algherese",
+    "iso": "algherese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Ancona",
+    "iso": "ancona",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Andalusi Romance",
+    "iso": "andalusi-romance",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Mozarabic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Andalusian",
+    "iso": "andalusian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Angevin",
+    "iso": "angevin",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Anglo-Norman",
+    "iso": "anglo-norman",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Ansó",
+    "iso": "ans-",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
     "name": "Aragonese",
     "iso": "aragonese",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Aragonese_language",
-    "family": "Iberian Romance"
+    "family": "Aragonese"
+  },
+  {
+    "name": "Aranese",
+    "iso": "aranese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Ardennais",
+    "iso": "ardennais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Aretino-Chianaiolo",
+    "iso": "aretino-chianaiolo",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Argentinian Spanish",
+    "iso": "argentinian-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Arianese",
+    "iso": "arianese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
   },
   {
     "name": "Aromanian",
@@ -1913,12 +4367,75 @@
     "category": "Romance"
   },
   {
+    "name": "Arpitan",
+    "iso": "arpitan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Arpitan"
+  },
+  {
     "name": "Asturian",
     "iso": "asturian",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Asturian_language",
-    "family": "Iberian Romance"
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Augeron",
+    "iso": "augeron",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Auregnais",
+    "iso": "auregnais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Auvergnat",
+    "iso": "auvergnat",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Balearic",
+    "iso": "balearic",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Banat",
+    "iso": "banat",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
+    "name": "Barese",
+    "iso": "barese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Barranquenho",
+    "iso": "barranquenho",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Basilicatine",
+    "iso": "basilicatine",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
   },
   {
     "name": "Basque",
@@ -1926,6 +4443,13 @@
     "region": "Europe",
     "category": "Language isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Basque_language"
+  },
+  {
+    "name": "Béarnese",
+    "iso": "b-arnese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
   },
   {
     "name": "Belarusian",
@@ -1936,12 +4460,103 @@
     "family": "Slavic"
   },
   {
+    "name": "Benasquese",
+    "iso": "benasquese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Benevento",
+    "iso": "benevento",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Bercian",
+    "iso": "bercian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Bergamasque",
+    "iso": "bergamasque",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern Lombard"
+  },
+  {
+    "name": "Berrichon",
+    "iso": "berrichon",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Bolivian Spanish",
+    "iso": "bolivian-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Bolognese",
+    "iso": "bolognese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
+    "name": "Bourbonnais",
+    "iso": "bourbonnais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Brayon",
+    "iso": "brayon",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Brazilian Portuguese",
+    "iso": "brazilian-portuguese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
     "name": "Breton",
     "iso": "breton",
     "region": "Europe",
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Breton_language",
     "family": "Celtic"
+  },
+  {
+    "name": "Brianzöö",
+    "iso": "brianz-",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Brigasc",
+    "iso": "brigasc",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
+  },
+  {
+    "name": "Bukovinian",
+    "iso": "bukovinian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
   },
   {
     "name": "Bulgarian",
@@ -1951,11 +4566,207 @@
     "family": "Slavic"
   },
   {
+    "name": "Burgundian",
+    "iso": "burgundian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Bustocco-Legnanese",
+    "iso": "bustocco-legnanese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Cadorino",
+    "iso": "cadorino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ladin"
+  },
+  {
+    "name": "Calabro",
+    "iso": "calabro",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Calabrian"
+  },
+  {
+    "name": "Campano",
+    "iso": "campano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Campidanese",
+    "iso": "campidanese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sardinian"
+  },
+  {
+    "name": "Canadian French",
+    "iso": "canadian-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Canarian",
+    "iso": "canarian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Cantabrian",
+    "iso": "cantabrian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Canzés",
+    "iso": "canz-s",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Castelmezzano",
+    "iso": "castelmezzano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Castilian",
+    "iso": "castilian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Castrapo",
+    "iso": "castrapo",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Castúo",
+    "iso": "cast-o",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
     "name": "Catalan",
     "iso": "cat",
     "category": "Romance",
     "region": "Europe",
-    "family": "Iberian Romance"
+    "family": "Eastern"
+  },
+  {
+    "name": "Cauchois",
+    "iso": "cauchois",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Central Aragonese",
+    "iso": "central-aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Central Catalan",
+    "iso": "central-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Central Italian",
+    "iso": "central-italian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Central Marchigiano",
+    "iso": "central-marchigiano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Central Metafonetica",
+    "iso": "central-metafonetica",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Central-Northern Lazian",
+    "iso": "central-northern-lazian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Central-Southern Calabrian",
+    "iso": "central-southern-calabrian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Calabrian"
+  },
+  {
+    "name": "Champenois",
+    "iso": "champenois",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Cheso",
+    "iso": "cheso",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Chiac",
+    "iso": "chiac",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Chilean Spanish",
+    "iso": "chilean-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Chilote",
+    "iso": "chilote",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Chipilo",
+    "iso": "chipilo",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Venetian"
   },
   {
     "name": "Chuvash",
@@ -1963,6 +4774,27 @@
     "region": "Europe",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Chuvash_language"
+  },
+  {
+    "name": "Cilentan",
+    "iso": "cilentan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Colombian Spanish",
+    "iso": "colombian-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Comasco-Lecchese",
+    "iso": "comasco-lecchese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
   },
   {
     "name": "Cornish",
@@ -1978,7 +4810,42 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Corsican_language",
-    "family": "Italo-Romance"
+    "family": "Corsican"
+  },
+  {
+    "name": "Cosentino",
+    "iso": "cosentino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Cotentinais",
+    "iso": "cotentinais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Cremish",
+    "iso": "cremish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern Lombard"
+  },
+  {
+    "name": "Cremunés",
+    "iso": "cremun-s",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Southwestern Lombard"
+  },
+  {
+    "name": "Crișana",
+    "iso": "cri-ana",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
   },
   {
     "name": "Czech",
@@ -1988,11 +4855,56 @@
     "family": "Slavic"
   },
   {
+    "name": "Daco-Romanian",
+    "iso": "daco-romanian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
+    "name": "Dalmatian",
+    "iso": "dalmatian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dalmatian Romance",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Dutch",
     "iso": "nld",
     "category": "Germanic",
     "region": "Europe",
     "family": "Germanic"
+  },
+  {
+    "name": "Eastern Aragonese",
+    "iso": "eastern-aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Eastern Catalan",
+    "iso": "eastern-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Eastern Lombard",
+    "iso": "eastern-lombard",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern Lombard"
+  },
+  {
+    "name": "Eastern Nonmetafonetica",
+    "iso": "eastern-nonmetafonetica",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
   },
   {
     "name": "Eastern Romance",
@@ -2011,6 +4923,20 @@
     "category": "Romance"
   },
   {
+    "name": "Ecuadorian Spanish",
+    "iso": "ecuadorian-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Emilian",
+    "iso": "emilian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
     "name": "English",
     "iso": "eng",
     "category": "Germanic",
@@ -2018,11 +4944,75 @@
     "family": "Germanic"
   },
   {
+    "name": "Ennese",
+    "iso": "ennese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Eonavian",
+    "iso": "eonavian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Galician"
+  },
+  {
+    "name": "Equatoguinean Spanish",
+    "iso": "equatoguinean-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
     "name": "Estonian",
     "iso": "estonian",
     "region": "Europe",
     "category": "Uralic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Estonian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Estonian_language",
+    "family": "North Estonian"
+  },
+  {
+    "name": "Estremenho",
+    "iso": "estremenho",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "European Portuguese",
+    "iso": "european-portuguese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Extremaduran",
+    "iso": "extremaduran",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Fabriano",
+    "iso": "fabriano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Faetar",
+    "iso": "faetar",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Arpitan"
+  },
+  {
+    "name": "Fala",
+    "iso": "fala",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Galician"
   },
   {
     "name": "Faroese",
@@ -2033,17 +5023,82 @@
     "family": "Germanic"
   },
   {
+    "name": "Ferrarese",
+    "iso": "ferrarese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
     "name": "Finnish",
     "iso": "fin",
     "region": "Europe",
     "category": "Uralic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Finnish_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Finnish_language",
+    "family": "Standard"
+  },
+  {
+    "name": "Fiuman",
+    "iso": "fiuman",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Venetian"
+  },
+  {
+    "name": "Florentine",
+    "iso": "florentine",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Forlivese",
+    "iso": "forlivese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
+    "name": "Fornes",
+    "iso": "fornes",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Friulian"
+  },
+  {
+    "name": "Frainc-Comtou",
+    "iso": "frainc-comtou",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Franco-Ontarian",
+    "iso": "franco-ontarian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Franco-Provençal",
+    "iso": "franco-proven-al",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Arpitan"
   },
   {
     "name": "French",
     "iso": "fra",
     "category": "Romance",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "European"
+  },
+  {
+    "name": "Frenchville French",
+    "iso": "frenchville-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "US"
   },
   {
     "name": "Frisian",
@@ -2059,7 +5114,7 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Friulian_language",
-    "family": "Italo-Romance"
+    "family": "Friulian"
   },
   {
     "name": "Gaelic",
@@ -2075,7 +5130,77 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Galician_language",
-    "family": "Iberian Romance"
+    "family": "Galician"
+  },
+  {
+    "name": "Galician-Asturian",
+    "iso": "galician-asturian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Galician"
+  },
+  {
+    "name": "Gallo",
+    "iso": "gallo",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Gallo-Italic of Basilicata",
+    "iso": "gallo-italic-of-basilicata",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Gallo-Italic of Sicily",
+    "iso": "gallo-italic-of-sicily",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Gallo-Picene",
+    "iso": "gallo-picene",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Gallurese",
+    "iso": "gallurese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Corsican"
+  },
+  {
+    "name": "Gardiol",
+    "iso": "gardiol",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Gascon",
+    "iso": "gascon",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Gaumais",
+    "iso": "gaumais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Genoese",
+    "iso": "genoese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
   },
   {
     "name": "German",
@@ -2091,10 +5216,39 @@
     "region": "Europe"
   },
   {
+    "name": "Grossetano",
+    "iso": "grossetano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Guernésiais",
+    "iso": "guern-siais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Haketia",
+    "iso": "haketia",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Spanish"
+  },
+  {
     "name": "Hungarian",
     "iso": "hun",
     "category": "Uralic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Hungarian"
+  },
+  {
+    "name": "Intemelio",
+    "iso": "intemelio",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
   },
   {
     "name": "Irish",
@@ -2102,6 +5256,20 @@
     "category": "Celtic",
     "region": "Europe",
     "family": "Celtic"
+  },
+  {
+    "name": "Irpino",
+    "iso": "irpino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Istriot",
+    "iso": "istriot",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Istriot"
   },
   {
     "name": "Istro-Romanian",
@@ -2115,7 +5283,105 @@
     "iso": "ita",
     "category": "Romance",
     "region": "Europe",
-    "family": "Italo-Romance"
+    "family": "Standard"
+  },
+  {
+    "name": "Italo-Australian",
+    "iso": "italo-australian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Standard"
+  },
+  {
+    "name": "Jauer",
+    "iso": "jauer",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
+  },
+  {
+    "name": "Jèrriais",
+    "iso": "j-rriais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Jersey Legal French",
+    "iso": "jersey-legal-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "European"
+  },
+  {
+    "name": "Joual",
+    "iso": "joual",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Judeo-Aragonese",
+    "iso": "judeo-aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Judeo-Catalan",
+    "iso": "judeo-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Catalan"
+  },
+  {
+    "name": "Judeo-Gascon",
+    "iso": "judeo-gascon",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Occitan"
+  },
+  {
+    "name": "Judeo-Italian",
+    "iso": "judeo-italian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Italian"
+  },
+  {
+    "name": "Judeo-Mantuan",
+    "iso": "judeo-mantuan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Italian"
+  },
+  {
+    "name": "Judeo-Piedmontese",
+    "iso": "judeo-piedmontese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Piedmontese"
+  },
+  {
+    "name": "Judeo-Portuguese",
+    "iso": "judeo-portuguese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Judeo-Provençal",
+    "iso": "judeo-proven-al",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Occitan"
+  },
+  {
+    "name": "Judeo-Spanish",
+    "iso": "judeo-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Spanish"
   },
   {
     "name": "Ladin",
@@ -2123,7 +5389,7 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Ladin_language",
-    "family": "Italo-Romance"
+    "family": "Ladin"
   },
   {
     "name": "Ladino",
@@ -2131,7 +5397,21 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Judaeo-Spanish",
-    "family": "Iberian Romance"
+    "family": "Judeo-Spanish"
+  },
+  {
+    "name": "Landese",
+    "iso": "landese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Languedocien",
+    "iso": "languedocien",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
   },
   {
     "name": "Latin",
@@ -2143,6 +5423,13 @@
     ]
   },
   {
+    "name": "Latin American Spanish",
+    "iso": "latin-american-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
     "name": "Latvian",
     "iso": "latvian",
     "region": "Europe",
@@ -2150,11 +5437,74 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Latvian_language"
   },
   {
+    "name": "Law French",
+    "iso": "law-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "European"
+  },
+  {
+    "name": "Leonese",
+    "iso": "leonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Ligurian",
+    "iso": "ligurian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
+  },
+  {
+    "name": "Limousin",
+    "iso": "limousin",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
     "name": "Lithuanian",
     "iso": "lithuanian",
     "region": "Europe",
     "category": "Baltic",
     "wikipedia": "https://en.wikipedia.org/wiki/Lithuanian_language"
+  },
+  {
+    "name": "Llanito",
+    "iso": "llanito",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Logudorese",
+    "iso": "logudorese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sardinian"
+  },
+  {
+    "name": "Lorrain",
+    "iso": "lorrain",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Louisiana French",
+    "iso": "louisiana-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "US"
+  },
+  {
+    "name": "Lucchese",
+    "iso": "lucchese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
   },
   {
     "name": "Luxembourgish",
@@ -2173,12 +5523,61 @@
     "family": "Slavic"
   },
   {
+    "name": "Macerata",
+    "iso": "macerata",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Magoua",
+    "iso": "magoua",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Mallorcan",
+    "iso": "mallorcan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Maltese Italian",
+    "iso": "maltese-italian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Standard"
+  },
+  {
+    "name": "Manduriano",
+    "iso": "manduriano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Salentino"
+  },
+  {
     "name": "Manx",
     "iso": "manx",
     "region": "Europe",
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Manx_language",
     "family": "Celtic"
+  },
+  {
+    "name": "Maramureș",
+    "iso": "maramure-",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
+    "name": "Mayennais",
+    "iso": "mayennais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
   },
   {
     "name": "Megleno-Romanian",
@@ -2188,12 +5587,211 @@
     "category": "Romance"
   },
   {
+    "name": "Menorcan",
+    "iso": "menorcan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Mentonasc",
+    "iso": "mentonasc",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Meridional French",
+    "iso": "meridional-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "European"
+  },
+  {
+    "name": "Messinese",
+    "iso": "messinese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Métis French",
+    "iso": "m-tis-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Mexican Spanish",
+    "iso": "mexican-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Milanese",
+    "iso": "milanese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Minderico",
+    "iso": "minderico",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Mineiro",
+    "iso": "mineiro",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Mirandese",
+    "iso": "mirandese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Missouri French",
+    "iso": "missouri-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "US"
+  },
+  {
+    "name": "Moldavian",
+    "iso": "moldavian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
+    "name": "Molisan",
+    "iso": "molisan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Monégasque",
+    "iso": "mon-gasque",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
+  },
+  {
+    "name": "Moselle Romance",
+    "iso": "moselle-romance",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Mozarabic",
+    "iso": "mozarabic",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Mozarabic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Murcian",
+    "iso": "murcian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Muskrat French",
+    "iso": "muskrat-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Navarrese",
+    "iso": "navarrese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Navarro-Aragonese",
+    "iso": "navarro-aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
     "name": "Neapolitan",
     "iso": "neapolitan-lang",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Neapolitan_language",
-    "family": "Italo-Romance"
+    "family": "Neapolitan"
+  },
+  {
+    "name": "New England French",
+    "iso": "new-england-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "US"
+  },
+  {
+    "name": "Newfoundland French",
+    "iso": "newfoundland-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Niçard",
+    "iso": "ni-ard",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Nones",
+    "iso": "nones",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ladin"
+  },
+  {
+    "name": "Norman",
+    "iso": "norman",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Northern Calabrian",
+    "iso": "northern-calabrian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Northern Catalan",
+    "iso": "northern-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern"
+  },
+  {
+    "name": "Northern Portuguese",
+    "iso": "northern-portuguese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
   },
   {
     "name": "Northern Romanian",
@@ -2207,14 +5805,238 @@
     "iso": "northern-sami",
     "region": "Europe",
     "category": "Uralic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Northern_Sami"
+    "wikipedia": "https://en.wikipedia.org/wiki/Northern_Sami",
+    "family": "Northern Sami"
+  },
+  {
+    "name": "Northwestern Catalan",
+    "iso": "northwestern-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western"
+  },
+  {
+    "name": "Novarese",
+    "iso": "novarese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Southwestern Lombard"
   },
   {
     "name": "Occitan",
     "iso": "occitan",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Occitan_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Occitan_language",
+    "family": "Dialects"
+  },
+  {
+    "name": "Old Catalan",
+    "iso": "old-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Old Catalan",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Gallo-Romance",
+    "iso": "old-gallo-romance",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Old",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Leonese",
+    "iso": "old-leonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Old Lombard",
+    "iso": "old-lombard",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Eastern Lombard"
+  },
+  {
+    "name": "Old Occitan",
+    "iso": "old-occitan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Old Occitan",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Romagnol",
+    "iso": "old-romagnol",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
+    "name": "Old Spanish",
+    "iso": "old-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Old Spanish",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Oliventine",
+    "iso": "oliventine",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Oltenian",
+    "iso": "oltenian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
+    "name": "Orléanais",
+    "iso": "orl-anais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Ossolano",
+    "iso": "ossolano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Paḷḷuezu",
+    "iso": "pa-uezu",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Palra",
+    "iso": "palra",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Pantesco",
+    "iso": "pantesco",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Paraguayan Spanish",
+    "iso": "paraguayan-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Parmigiano",
+    "iso": "parmigiano",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
+    "name": "Pavese",
+    "iso": "pavese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Southwestern Lombard"
+  },
+  {
+    "name": "Paydret",
+    "iso": "paydret",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Peruvian Ribereño",
+    "iso": "peruvian-ribere-o",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Peruvian Spanish",
+    "iso": "peruvian-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Pesciatino",
+    "iso": "pesciatino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Philippine Spanish",
+    "iso": "philippine-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Picard",
+    "iso": "picard",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Piedmontese",
+    "iso": "piedmontese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Piedmontese"
+  },
+  {
+    "name": "Pisano-Livornese",
+    "iso": "pisano-livornese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Pistoiese",
+    "iso": "pistoiese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Poitevin",
+    "iso": "poitevin",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Poitevin-Saintongeais",
+    "iso": "poitevin-saintongeais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
   },
   {
     "name": "Polish",
@@ -2228,7 +6050,98 @@
     "iso": "por",
     "category": "Romance",
     "region": "Europe",
-    "family": "Iberian Romance"
+    "family": "Portuguese"
+  },
+  {
+    "name": "Provençal",
+    "iso": "proven-al",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Pugliese",
+    "iso": "pugliese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Putèr",
+    "iso": "put-r",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
+  },
+  {
+    "name": "Quebec French",
+    "iso": "quebec-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Regional Italian",
+    "iso": "regional-italian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Standard"
+  },
+  {
+    "name": "Rémois",
+    "iso": "r-mois",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Ribagorçan",
+    "iso": "ribagor-an",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western"
+  },
+  {
+    "name": "Riberan",
+    "iso": "riberan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Riojan",
+    "iso": "riojan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Rioplatense Spanish",
+    "iso": "rioplatense-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Riunorese",
+    "iso": "riunorese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Astur-Leonese"
+  },
+  {
+    "name": "Romagnol",
+    "iso": "romagnol",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
+    "name": "Romanesco",
+    "iso": "romanesco",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
   },
   {
     "name": "Romani",
@@ -2236,6 +6149,13 @@
     "region": "Europe",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Romani_language"
+  },
+  {
+    "name": "Romanian",
+    "iso": "romanian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
   },
   {
     "name": "Romanian (Daco-Romanian)",
@@ -2250,7 +6170,14 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Romansh_language",
-    "family": "Italo-Romance"
+    "family": "Romansh"
+  },
+  {
+    "name": "Royasc",
+    "iso": "royasc",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
   },
   {
     "name": "Russian",
@@ -2260,12 +6187,75 @@
     "family": "Slavic"
   },
   {
+    "name": "Sabino",
+    "iso": "sabino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Saharan Spanish",
+    "iso": "saharan-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Spanish"
+  },
+  {
+    "name": "Saintongeais",
+    "iso": "saintongeais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Salentino",
+    "iso": "salentino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Salentino"
+  },
+  {
+    "name": "Sammarinese",
+    "iso": "sammarinese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Emilian-Romagnol"
+  },
+  {
     "name": "Sardinian",
     "iso": "sardinian",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Sardinian_language",
-    "family": "Italo-Romance"
+    "family": "Sardinian"
+  },
+  {
+    "name": "Sardo-Corsican",
+    "iso": "sardo-corsican",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Sassarese",
+    "iso": "sassarese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Corsican"
+  },
+  {
+    "name": "Savoyard",
+    "iso": "savoyard",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Arpitan"
+  },
+  {
+    "name": "Senese",
+    "iso": "senese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
   },
   {
     "name": "Serbian",
@@ -2275,12 +6265,19 @@
     "family": "Slavic"
   },
   {
+    "name": "Sercquiais",
+    "iso": "sercquiais",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
     "name": "Sicilian",
     "iso": "sicilian",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_language",
-    "family": "Italo-Romance"
+    "family": "Sicilian"
   },
   {
     "name": "Silesian",
@@ -2299,11 +6296,95 @@
     "family": "Slavic"
   },
   {
+    "name": "Somontanés",
+    "iso": "somontan-s",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "South Lucanian",
+    "iso": "south-lucanian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Others"
+  },
+  {
+    "name": "Southeast Metafonetica",
+    "iso": "southeast-metafonetica",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Southern Aragonese",
+    "iso": "southern-aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Southern Cilentan",
+    "iso": "southern-cilentan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Cilentan"
+  },
+  {
+    "name": "Southern Latian",
+    "iso": "southern-latian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Southern Laziale",
+    "iso": "southern-laziale",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
     "name": "Spanish",
     "iso": "spa",
     "category": "Romance",
     "region": "Europe",
-    "family": "Iberian Romance"
+    "family": "Spanish"
+  },
+  {
+    "name": "Standard French",
+    "iso": "standard-french",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "European"
+  },
+  {
+    "name": "Standard Italian",
+    "iso": "standard-italian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Standard"
+  },
+  {
+    "name": "Surmiran",
+    "iso": "surmiran",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
+  },
+  {
+    "name": "Sursilvan",
+    "iso": "sursilvan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
+  },
+  {
+    "name": "Sutsilvan",
+    "iso": "sutsilvan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
   },
   {
     "name": "Swedish",
@@ -2313,11 +6394,89 @@
     "family": "Germanic"
   },
   {
+    "name": "Swiss Italian",
+    "iso": "swiss-italian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Standard"
+  },
+  {
+    "name": "Tabarchino",
+    "iso": "tabarchino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Ligurian"
+  },
+  {
+    "name": "Talian",
+    "iso": "talian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Venetian"
+  },
+  {
+    "name": "Tarantino",
+    "iso": "tarantino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Tetuani",
+    "iso": "tetuani",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Judeo-Spanish"
+  },
+  {
+    "name": "Ticinese",
+    "iso": "ticinese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Transylvanian",
+    "iso": "transylvanian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
+    "name": "Triestine",
+    "iso": "triestine",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Venetian"
+  },
+  {
+    "name": "Tuatschin",
+    "iso": "tuatschin",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
+  },
+  {
+    "name": "Tuscan",
+    "iso": "tuscan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Tuscia",
+    "iso": "tuscia",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
     "name": "Udmurt",
     "iso": "udmurt",
     "region": "Europe",
     "category": "Uralic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Udmurt_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Udmurt_language",
+    "family": "Udmurt"
   },
   {
     "name": "Ukrainian",
@@ -2327,11 +6486,124 @@
     "family": "Slavic"
   },
   {
+    "name": "Umbrian",
+    "iso": "umbrian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Central Italian"
+  },
+  {
+    "name": "Uruguayan Portuguese",
+    "iso": "uruguayan-portuguese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Portuguese"
+  },
+  {
+    "name": "Uruguayan Spanish",
+    "iso": "uruguayan-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Valdôtain",
+    "iso": "vald-tain",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Arpitan"
+  },
+  {
+    "name": "Valencian",
+    "iso": "valencian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western"
+  },
+  {
+    "name": "Vallader",
+    "iso": "vallader",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Romansh"
+  },
+  {
+    "name": "Varesino",
+    "iso": "varesino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Vastese",
+    "iso": "vastese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Neapolitan"
+  },
+  {
+    "name": "Venetian",
+    "iso": "venetian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Venetian"
+  },
+  {
+    "name": "Venezuelan Spanish",
+    "iso": "venezuelan-spanish",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Latin American"
+  },
+  {
+    "name": "Versiliese",
+    "iso": "versiliese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Viareggino",
+    "iso": "viareggino",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Vivaro-Alpine",
+    "iso": "vivaro-alpine",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Dialects"
+  },
+  {
+    "name": "Vosgien",
+    "iso": "vosgien",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Wallachian",
+    "iso": "wallachian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Daco-Romanian"
+  },
+  {
     "name": "Walloon",
     "iso": "walloon-lang",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Walloon_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Walloon_language",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Welche",
+    "iso": "welche",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
   },
   {
     "name": "Welsh",
@@ -2340,6 +6612,48 @@
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language",
     "family": "Celtic"
+  },
+  {
+    "name": "West Walloon",
+    "iso": "west-walloon",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
+  },
+  {
+    "name": "Western Aragonese",
+    "iso": "western-aragonese",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Aragonese"
+  },
+  {
+    "name": "Western Catalan",
+    "iso": "western-catalan",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western"
+  },
+  {
+    "name": "Western Lombard",
+    "iso": "western-lombard",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Western Lombard"
+  },
+  {
+    "name": "Western Sicilian",
+    "iso": "western-sicilian",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Sicilian"
+  },
+  {
+    "name": "Wisconsin Walloon",
+    "iso": "wisconsin-walloon",
+    "region": "Europe",
+    "category": "Romance",
+    "family": "Oïl Dialects"
   },
   {
     "name": "Yiddish",
@@ -5780,6 +10094,13 @@
     ]
   },
   {
+    "name": "Athabaskan",
+    "iso": "athabaskan",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
     "name": "Blackfoot",
     "iso": "blackfoot",
     "region": "North America",
@@ -5806,6 +10127,16 @@
     "region": "North America",
     "category": "Siouan",
     "wikipedia": "https://en.wikipedia.org/wiki/Dakota_language"
+  },
+  {
+    "name": "Eyak",
+    "iso": "eyak",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Gullah",
@@ -5892,7 +10223,8 @@
     "iso": "tlingit",
     "region": "North America",
     "category": "Na-Dene",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tlingit_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Tlingit_language",
+    "family": "Na-Dene"
   },
   {
     "name": "Yaqui",
@@ -6095,6 +10427,176 @@
     "tags": [
       "creole"
     ]
+  },
+  {
+    "name": "Alyutor",
+    "iso": "alyutor",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotkan"
+  },
+  {
+    "name": "Arin",
+    "iso": "arin",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Southern",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Assan",
+    "iso": "assan",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Southern",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Chukchi",
+    "iso": "chukchi",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotkan"
+  },
+  {
+    "name": "Chuvan",
+    "iso": "chuvan",
+    "region": "Siberia",
+    "category": "Yukaghir",
+    "family": "Extinct",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Eastern Itelmen",
+    "iso": "eastern-itelmen",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Itelmen",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Itelmen",
+    "iso": "itelmen",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Itelmen"
+  },
+  {
+    "name": "Jie",
+    "iso": "jie",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Southern",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Kerek",
+    "iso": "kerek",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotkan",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Ket",
+    "iso": "ket",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Northern"
+  },
+  {
+    "name": "Koryak",
+    "iso": "koryak",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Chukotkan"
+  },
+  {
+    "name": "Kott",
+    "iso": "kott",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Southern",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Nivkh",
+    "iso": "nivkh",
+    "region": "Siberia",
+    "category": "Nivkh",
+    "family": "Nivkh"
+  },
+  {
+    "name": "Omok",
+    "iso": "omok",
+    "region": "Siberia",
+    "category": "Yukaghir",
+    "family": "Extinct",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Pumpokol",
+    "iso": "pumpokol",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Southern",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Southern Itelmen",
+    "iso": "southern-itelmen",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Itelmen",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Southern Yukaghir",
+    "iso": "southern-yukaghir",
+    "region": "Siberia",
+    "category": "Yukaghir",
+    "family": "Yukaghir"
+  },
+  {
+    "name": "Tundra Yukaghir",
+    "iso": "tundra-yukaghir",
+    "region": "Siberia",
+    "category": "Yukaghir",
+    "family": "Yukaghir"
+  },
+  {
+    "name": "Western Itelmen",
+    "iso": "western-itelmen",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Itelmen"
+  },
+  {
+    "name": "Yugh",
+    "iso": "yugh",
+    "region": "Siberia",
+    "category": "Yeniseian",
+    "family": "Northern"
   },
   {
     "name": "Angami Pochuri",

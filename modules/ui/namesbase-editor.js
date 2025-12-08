@@ -54,6 +54,7 @@ function editNamesbase() {
   const mixerAiTemperatureInput = byId("namesbaseAiTemperature");
   const mixerAiKeyInput = byId("namesbaseAiKey");
   const mixerAiKeyHelpButton = byId("namesbaseAiKeyHelp");
+  const mixerAiWebAccessInput = byId("namesbaseAiWebAccess");
 
   const mixer = {
     catalog: null,
@@ -297,6 +298,7 @@ function editNamesbase() {
     });
 
     mixerCategorySelect?.addEventListener("change", () => {
+      renderMixerFamilies();
       renderMixerLanguageOptions();
     });
 
@@ -358,12 +360,17 @@ function editNamesbase() {
       const temperature = localStorage.getItem("fmg-ai-temperature");
       mixerAiTemperatureInput.value = temperature !== null ? temperature : "1";
 
+      const webAccess = typeof getStoredAiWebAccess === "function" ? getStoredAiWebAccess() : localStorage.getItem("fmg-ai-web-access") === "1";
+      if (mixerAiWebAccessInput) mixerAiWebAccessInput.checked = webAccess;
+
       const modelSelect = byId("aiGeneratorModel");
       const temperatureInput = byId("aiGeneratorTemperature");
       const keyInput = byId("aiGeneratorKey");
       if (modelSelect && storedModel) modelSelect.value = storedModel;
       if (temperatureInput && temperature !== null) temperatureInput.value = temperature;
       if (keyInput && key) keyInput.value = key;
+      const webAccessCheckbox = byId("aiGeneratorWebAccess");
+      if (webAccessCheckbox) webAccessCheckbox.checked = webAccess;
     }
 
     function saveToStorage() {
@@ -379,17 +386,23 @@ function editNamesbase() {
         localStorage.setItem("fmg-ai-temperature", temperatureNumber);
       }
 
+      const webAccess = !!(mixerAiWebAccessInput && mixerAiWebAccessInput.checked);
+      localStorage.setItem("fmg-ai-web-access", webAccess ? "1" : "0");
+
       const modelSelect = byId("aiGeneratorModel");
       const temperatureInput = byId("aiGeneratorTemperature");
       const keyInput = byId("aiGeneratorKey");
       if (modelSelect && model) modelSelect.value = model;
       if (temperatureInput && !isNaN(temperatureNumber)) temperatureInput.value = String(temperatureNumber);
       if (keyInput) keyInput.value = mixerAiKeyInput.value;
+      const webAccessCheckbox = byId("aiGeneratorWebAccess");
+      if (webAccessCheckbox) webAccessCheckbox.checked = webAccess;
     }
 
     mixerAiModelSelect.addEventListener("change", saveToStorage);
     mixerAiTemperatureInput.addEventListener("change", saveToStorage);
     mixerAiKeyInput.addEventListener("change", saveToStorage);
+    if (mixerAiWebAccessInput) mixerAiWebAccessInput.addEventListener("change", saveToStorage);
 
     if (mixerAiKeyHelpButton) {
       mixerAiKeyHelpButton.addEventListener("click", function () {
@@ -447,15 +460,15 @@ function editNamesbase() {
 
   function renderMixerFamilies() {
     if (!mixerFamilySelect || !mixer.catalog) return;
+    const selectedCategory = mixerCategorySelect?.value || "";
+    let source = mixer.catalog;
+    if (selectedCategory) source = source.filter(lang => lang.category === selectedCategory);
     const families = Array.from(
       new Set(
-        mixer.catalog
-          .map(lang => lang.family || lang.category)
-          .filter(Boolean)
+        source.map(lang => lang.family || lang.category).filter(Boolean)
       )
-    ).sort((a, b) =>
-      a.localeCompare(b)
-    );
+    ).sort((a, b) => a.localeCompare(b));
+    const previousValue = mixerFamilySelect.value;
     mixerFamilySelect.innerHTML = "";
     const allOption = document.createElement("option");
     allOption.value = "";
@@ -467,6 +480,9 @@ function editNamesbase() {
       option.textContent = family;
       mixerFamilySelect.append(option);
     });
+    if (previousValue && families.includes(previousValue)) {
+      mixerFamilySelect.value = previousValue;
+    }
   }
 
   function formatMixerTagBadge(meta, inline = false) {
@@ -477,6 +493,9 @@ function editNamesbase() {
     if (meta.tags.includes("mixed")) tags.push("mixed");
     if (meta.tags.includes("creole")) tags.push("creole");
     if (meta.tags.includes("unclassified")) tags.push("unclassified");
+    if (meta.tags.includes("hypothetical")) tags.push("hypothetical");
+    if (meta.tags.includes("proto")) tags.push("proto");
+    if (meta.tags.includes("family")) tags.push("family");
     if (!tags.length) return "";
     const label = `[${tags.join(", ")}]`;
     if (inline) return label;
@@ -599,14 +618,17 @@ function editNamesbase() {
       .map(lang => {
         const meta = getMixerMeta(lang.iso);
         const pct = Math.round((lang.weight / totalWeight) * 100);
+        const lexifier = meta?.lexifier ? `, lexifier ${meta.lexifier}` : "";
         return `${meta?.name || lang.iso} (${pct}% mix, region ${meta?.region || "N/A"}, category ${
           meta?.category || "N/A"
-        })`;
+        }${lexifier})`;
       })
       .join("; ");
 
     const prompt = `
 Generate ${count} unique fantasy place names. Names must feel like a blend of these language families with the given weights: ${breakdown}.
+
+Before you generate anything, infer for each source language its typical phonology, prosody, morphology type, and place-name patterns using its name, family, region, and any tools or web access you have. Do this analysis internally; do not output it directly.
 
 When blending, mix the underlying linguistic features of the source languages, not just their spelling. Explicitly consider:
 - Phonology and phonotactics: typical vowels, consonants, nasals, clusters, syllable shapes, stress patterns, and any vowel/consonant harmony.
@@ -625,6 +647,7 @@ Guidelines:
     `.trim();
 
     const temperature = +localStorage.getItem("fmg-ai-temperature") || 0.9;
+    const webAccess = typeof getStoredAiWebAccess === "function" ? getStoredAiWebAccess() : localStorage.getItem("fmg-ai-web-access") === "1";
     mixer.generating = true;
     mixerGenerateButton.disabled = true;
     setMixerStatus("Generating names...", "info");
@@ -636,6 +659,7 @@ Guidelines:
         key,
         prompt,
         temperature,
+        webAccess,
         onContent: content => {
           mixerResultArea.value += content;
         }

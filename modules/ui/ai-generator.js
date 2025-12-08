@@ -12,6 +12,10 @@ const PROVIDERS = {
   ollama: {
     keyLink: "https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Ollama-text-generation",
     generate: generateWithOllama
+  },
+  gemini: {
+    keyLink: "https://aistudio.google.com/app/apikey",
+    generate: generateWithGemini
   }
 };
 
@@ -31,6 +35,9 @@ const MODELS = {
   "claude-3-5-haiku-latest": "anthropic",
   "claude-3-5-sonnet-latest": "anthropic",
   "claude-3-opus-latest": "anthropic",
+   "gemini-1.5-flash-latest": "gemini",
+   "gemini-1.5-pro-latest": "gemini",
+   "gemini-1.0-pro-latest": "gemini",
   "ollama (local models)": "ollama"
 };
 
@@ -56,6 +63,42 @@ async function generateWithOpenAI({key, model, prompt, temperature, onContent}) 
   const getContent = json => {
     const content = json.choices?.[0]?.delta?.content;
     if (content) onContent(content);
+  };
+
+  await handleStream(response, getContent);
+}
+
+async function generateWithGemini({key, model, prompt, temperature, onContent, webAccess}) {
+  const url =
+    "https://generativelanguage.googleapis.com/v1beta/models/" +
+    encodeURIComponent(model) +
+    ":streamGenerateContent?key=" +
+    encodeURIComponent(key);
+
+  const body = {
+    contents: [{role: "user", parts: [{text: prompt}]}],
+    generationConfig: {temperature},
+    systemInstruction: {role: "system", parts: [{text: SYSTEM_MESSAGE}]}
+  };
+
+  if (webAccess) {
+    body.tools = [{googleSearchRetrieval: {}}];
+  }
+
+  const response = await fetch(url, {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify(body)
+  });
+
+  const getContent = json => {
+    const candidates = json.candidates || [];
+    candidates.forEach(candidate => {
+      const parts = (candidate.content && candidate.content.parts) || [];
+      parts.forEach(part => {
+        if (part.text) onContent(part.text);
+      });
+    });
   };
 
   await handleStream(response, getContent);
@@ -145,6 +188,51 @@ async function handleStream(response, getContent) {
   }
 }
 
+function getAiProviderForModel(model) {
+  if (!model || typeof MODELS !== "object" || !MODELS) return null;
+  return MODELS[model] || null;
+}
+
+function getStoredAiModel() {
+  const stored = localStorage.getItem("fmg-ai-model");
+  if (stored && typeof MODELS === "object" && MODELS && MODELS[stored]) {
+    return stored;
+  }
+  return typeof DEFAULT_MODEL !== "undefined" ? DEFAULT_MODEL : stored;
+}
+
+function getStoredAiKey() {
+  const model = getStoredAiModel();
+  const provider = getAiProviderForModel(model);
+  if (!provider) return "";
+  return localStorage.getItem(`fmg-ai-kl-${provider}`) || "";
+}
+
+function getStoredAiWebAccess() {
+  return localStorage.getItem("fmg-ai-web-access") === "1";
+}
+
+async function requestAiCompletion({model, key, prompt, temperature, onContent, webAccess}) {
+  const finalModel = model || getStoredAiModel();
+  const provider = getAiProviderForModel(finalModel);
+  if (!provider || !PROVIDERS[provider]) {
+    throw new Error("Selected AI model is not supported");
+  }
+
+  const finalKey = key != null && key !== "" ? key : getStoredAiKey();
+  const storedTemp = +localStorage.getItem("fmg-ai-temperature") || 1;
+  const finalTemperature = typeof temperature === "number" && !Number.isNaN(temperature) ? temperature : storedTemp;
+
+  await PROVIDERS[provider].generate({
+    key: finalKey,
+    model: finalModel,
+    prompt,
+    temperature: finalTemperature,
+    onContent,
+    webAccess: !!webAccess
+  });
+}
+
 function generateWithAi(defaultPrompt, onApply) {
   updateValues();
 
@@ -177,6 +265,75 @@ function generateWithAi(defaultPrompt, onApply) {
     openURL(PROVIDERS[provider].keyLink);
   });
 
+  const modelSelect = byId("aiGeneratorModel");
+  const temperatureInput = byId("aiGeneratorTemperature");
+  const keyInput = byId("aiGeneratorKey");
+  const webAccessCheckbox = byId("aiGeneratorWebAccess");
+
+  function syncGeneratorControlsToMixer() {
+    const mixerModelSelect = document.getElementById("namesbaseAiModel");
+    const mixerTemperatureInput = document.getElementById("namesbaseAiTemperature");
+    const mixerKeyInput = document.getElementById("namesbaseAiKey");
+    const mixerWebAccessInput = document.getElementById("namesbaseAiWebAccess");
+
+    const model = modelSelect ? modelSelect.value : "";
+    const temperatureValue = temperatureInput ? temperatureInput.value : "";
+    const keyValue = keyInput ? keyInput.value : "";
+    const webAccess = !!(webAccessCheckbox && webAccessCheckbox.checked);
+
+    if (
+      mixerModelSelect &&
+      model &&
+      typeof MODELS === "object" &&
+      MODELS &&
+      MODELS[model]
+    ) {
+      mixerModelSelect.value = model;
+    }
+
+    if (mixerTemperatureInput && temperatureValue !== "") {
+      mixerTemperatureInput.value = temperatureValue;
+    }
+
+    if (mixerKeyInput) {
+      mixerKeyInput.value = keyValue;
+    }
+
+    if (mixerWebAccessInput) {
+      mixerWebAccessInput.checked = webAccess;
+    }
+  }
+
+  function onGeneratorControlsChange() {
+    if (modelSelect && typeof MODELS === "object" && MODELS) {
+      const model = modelSelect.value;
+      if (model && MODELS[model]) {
+        localStorage.setItem("fmg-ai-model", model);
+        const provider = MODELS[model];
+        if (provider && keyInput) {
+          localStorage.setItem(`fmg-ai-kl-${provider}`, keyInput.value || "");
+        }
+      }
+    }
+
+    if (temperatureInput) {
+      const t = temperatureInput.valueAsNumber;
+      if (!Number.isNaN(t)) {
+        localStorage.setItem("fmg-ai-temperature", t);
+      }
+    }
+
+    const webAccess = !!(webAccessCheckbox && webAccessCheckbox.checked);
+    localStorage.setItem("fmg-ai-web-access", webAccess ? "1" : "0");
+
+    syncGeneratorControlsToMixer();
+  }
+
+  if (modelSelect) modelSelect.addEventListener("change", onGeneratorControlsChange);
+  if (temperatureInput) temperatureInput.addEventListener("change", onGeneratorControlsChange);
+  if (keyInput) keyInput.addEventListener("change", onGeneratorControlsChange);
+  if (webAccessCheckbox) webAccessCheckbox.addEventListener("change", onGeneratorControlsChange);
+
   function updateValues() {
     byId("aiGeneratorResult").value = "";
     byId("aiGeneratorPrompt").value = defaultPrompt;
@@ -190,6 +347,11 @@ function generateWithAi(defaultPrompt, onApply) {
 
     const provider = MODELS[select.value];
     byId("aiGeneratorKey").value = localStorage.getItem(`fmg-ai-kl-${provider}`) || "";
+
+    const webAccessCheckbox = byId("aiGeneratorWebAccess");
+    if (webAccessCheckbox) {
+      webAccessCheckbox.checked = getStoredAiWebAccess();
+    }
   }
 
   async function generate(button) {
@@ -210,6 +372,10 @@ function generateWithAi(defaultPrompt, onApply) {
     if (isNaN(temperature)) return tip("Temperature must be a number", true, "error", 4000);
     localStorage.setItem("fmg-ai-temperature", temperature);
 
+    const webAccessCheckbox = byId("aiGeneratorWebAccess");
+    const webAccess = !!(webAccessCheckbox && webAccessCheckbox.checked);
+    localStorage.setItem("fmg-ai-web-access", webAccess ? "1" : "0");
+
     try {
       button.disabled = true;
       const resultArea = byId("aiGeneratorResult");
@@ -217,7 +383,7 @@ function generateWithAi(defaultPrompt, onApply) {
       resultArea.value = "";
       const onContent = content => (resultArea.value += content);
 
-      await PROVIDERS[provider].generate({key, model, prompt, temperature, onContent});
+      await PROVIDERS[provider].generate({key, model, prompt, temperature, onContent, webAccess});
     } catch (error) {
       return tip(error.message, true, "error", 4000);
     } finally {
