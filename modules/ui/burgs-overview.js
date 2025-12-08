@@ -353,11 +353,14 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
     const margin = {top: 0, right: -50, bottom: -10, left: -50};
     const w = width - margin.left - margin.right;
     const h = height - margin.top - margin.bottom;
-    const treeLayout = d3.pack().size([w, h]).padding(3);
+    const treeLayout = d3.pack().size([w, h]).padding(6);
 
     // prepare svg
     const hasRaces = pack.races && pack.races.length > 1;
-    const racesOption = hasRaces ? '<option value="races">Group by race</option>' : "";
+    const racesOptions = hasRaces
+      ? `<option value="races">Group by race</option>
+         <option value="raceLanguage">Group by race and language</option>`
+      : "";
 
     alertMessage.innerHTML = /* html */ `<select id="burgsTreeType" style="display:block; margin-left:13px; font-size:11px">
       <option value="states" selected>Group by state</option>
@@ -365,10 +368,13 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
       <option value="parent">Group by province and state</option>
       <option value="provinces">Group by province</option>
       <option value="languages">Group by language</option>
-      ${racesOption}
+      <option value="stateLanguage">Group by state and language</option>
+      <option value="cultureLanguage">Group by culture and language</option>
+      <option value="provinceLanguage">Group by province and language</option>
+      ${racesOptions}
     </select>`;
     alertMessage.innerHTML += `<div id='burgsInfo' class='chartInfo'>&#8205;</div>`;
-    alertMessage.innerHTML += `<div id='burgsLegend' class='chartInfo'>&#8205;</div>`;
+    alertMessage.innerHTML += `<div id='burgsLegend' class='chartInfo' style="max-width:${width}px;margin:2px auto 0;display:flex;flex-wrap:wrap;justify-content:center;column-gap:0.75em;row-gap:0.25em;white-space:normal;">&#8205;</div>`;
     const svg = d3
       .select("#alertMessage")
       .insert("svg", "#burgsInfo")
@@ -434,6 +440,10 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
         else if (mode === "provinces") groupLabel = `Province: ${parentName}`;
         else if (mode === "languages") groupLabel = `Language: ${parentName}`;
         else if (mode === "races") groupLabel = `Race: ${parentName}`;
+        else if (mode === "stateLanguage") groupLabel = `State / language: ${parentName}`;
+        else if (mode === "cultureLanguage") groupLabel = `Culture / language: ${parentName}`;
+        else if (mode === "provinceLanguage") groupLabel = `Province / language: ${parentName}`;
+        else if (mode === "raceLanguage") groupLabel = `Race / language: ${parentName}`;
       }
 
       burgsInfo.innerHTML = /* html */ `${name}. ${groupLabel}. Population: ${population}`;
@@ -557,6 +567,150 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
         return racesData;
       };
 
+      const getStateLanguageData = () => {
+        const languages = getLanguagesData();
+        const languagesById = new Map(languages.map(l => [l.id, l]));
+
+        const combos = [{id: 0, stateLanguage: null, color: "#ccc", name: "States / languages"}];
+        const comboIndex = new Map();
+
+        burgs.forEach(b => {
+          const stateId = b.state;
+          const langId = b.language;
+          if (!stateId || !langId) {
+            b.stateLanguage = 0;
+            return;
+          }
+
+          const key = stateId + ":" + langId;
+          if (!comboIndex.has(key)) {
+            const state = pack.states[stateId];
+            const lang = languagesById.get(langId);
+            if (!state || !lang) {
+              b.stateLanguage = 0;
+              return;
+            }
+            const id = combos.length;
+            const name = `${state.fullName || state.name} / ${lang.name}`;
+            const color = lang.color || state.color || "#ccc";
+            combos.push({id, stateLanguage: 0, color, name});
+            comboIndex.set(key, id);
+          }
+
+          b.stateLanguage = comboIndex.get(key) || 0;
+        });
+
+        return combos;
+      };
+
+      const getCultureLanguageData = () => {
+        const languages = getLanguagesData();
+        const languagesById = new Map(languages.map(l => [l.id, l]));
+
+        const combos = [{id: 0, cultureLanguage: null, color: "#ccc", name: "Cultures / languages"}];
+        const comboIndex = new Map();
+
+        burgs.forEach(b => {
+          const cultureId = b.culture;
+          const langId = b.language;
+          if (!cultureId || !langId) {
+            b.cultureLanguage = 0;
+            return;
+          }
+
+          const key = cultureId + ":" + langId;
+          if (!comboIndex.has(key)) {
+            const culture = pack.cultures[cultureId];
+            const lang = languagesById.get(langId);
+            if (!culture || !lang) {
+              b.cultureLanguage = 0;
+              return;
+            }
+            const id = combos.length;
+            const name = `${culture.name} / ${lang.name}`;
+            const color = lang.color || culture.color || "#ccc";
+            combos.push({id, cultureLanguage: 0, color, name});
+            comboIndex.set(key, id);
+          }
+
+          b.cultureLanguage = comboIndex.get(key) || 0;
+        });
+
+        return combos;
+      };
+
+      const getProvinceLanguageData = () => {
+        const languages = getLanguagesData();
+        const languagesById = new Map(languages.map(l => [l.id, l]));
+
+        const combos = [{id: 0, provinceLanguage: null, color: "#ccc", name: "Provinces / languages"}];
+        const comboIndex = new Map();
+
+        burgs.forEach(b => {
+          const provinceId = b.province;
+          const langId = b.language;
+          if (!provinceId || !langId) {
+            b.provinceLanguage = 0;
+            return;
+          }
+
+          const key = provinceId + ":" + langId;
+          if (!comboIndex.has(key)) {
+            const province = pack.provinces[provinceId];
+            const lang = languagesById.get(langId);
+            if (!province || !lang) {
+              b.provinceLanguage = 0;
+              return;
+            }
+            const id = combos.length;
+            const name = `${province.fullName || province.name} / ${lang.name}`;
+            const color = lang.color || province.color || "#ccc";
+            combos.push({id, provinceLanguage: 0, color, name});
+            comboIndex.set(key, id);
+          }
+
+          b.provinceLanguage = comboIndex.get(key) || 0;
+        });
+
+        return combos;
+      };
+
+      const getRaceLanguageData = () => {
+        const languages = getLanguagesData();
+        const languagesById = new Map(languages.map(l => [l.id, l]));
+
+        const combos = [{id: 0, raceLanguage: null, color: "#888888", name: "Races / languages"}];
+        const comboIndex = new Map();
+
+        burgs.forEach(b => {
+          const raceId = b.race;
+          const langId = b.language;
+          if (!raceId || !langId) {
+            b.raceLanguage = 0;
+            return;
+          }
+
+          const key = raceId + ":" + langId;
+          if (!comboIndex.has(key)) {
+            const race = (pack.races || []).find(r => r && r.i === raceId);
+            const lang = languagesById.get(langId);
+            if (!race || !lang) {
+              b.raceLanguage = 0;
+              return;
+            }
+            const id = combos.length;
+            const name = `${race.name} / ${lang.name}`;
+            const color = lang.color || race.color || "#888888";
+            combos.push({id, raceLanguage: 0, color, name});
+            comboIndex.set(key, id);
+          }
+
+          b.raceLanguage = comboIndex.get(key) || 0;
+        });
+
+        return combos;
+      };
+
       const value = d => {
         if (this.value === "states") return d.state;
         if (this.value === "cultures") return d.culture;
@@ -564,6 +718,10 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
         if (this.value === "provinces") return d.province;
         if (this.value === "languages") return d.language;
         if (this.value === "races") return d.race;
+        if (this.value === "stateLanguage") return d.stateLanguage;
+        if (this.value === "cultureLanguage") return d.cultureLanguage;
+        if (this.value === "provinceLanguage") return d.provinceLanguage;
+        if (this.value === "raceLanguage") return d.raceLanguage;
       };
 
       const mapping = {
@@ -572,7 +730,11 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
         parent: getParentData,
         provinces: getProvincesData,
         languages: getLanguagesData,
-        races: getRacesData
+        races: getRacesData,
+        stateLanguage: getStateLanguageData,
+        cultureLanguage: getCultureLanguageData,
+        provinceLanguage: getProvinceLanguageData,
+        raceLanguage: getRaceLanguageData
       };
 
       const getBase = mapping[this.value] || getStatesData;

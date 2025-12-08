@@ -1,3 +1,28 @@
+So far what I've done is:
+
+- Add a language mixer which can be used to "mix" different languages using the Markov system Azgaar implemented; this can be used to generate novel "languages" for placenames that truly do not exist, but may feel like they do. 
+
+
+- Add a small fantasy race system. It has some campaign setting sets, and integrates alongside the cultures system.
+
+
+Planned:
+
+- Add The underdark
+
+- Add individuals
+
+- Add a full on 3.5, pathfinder and 5.0 dnd character generation system implemented into the individuals
+
+- get gemini api working, maybe add more ai apis
+
+
+
+Above is my description of what I'm doing to Azgaars dankness
+
+Below is the original description from Azgaar
+
+
 # Fantasy Map Generator
 
 Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy writers, game masters, and cartographers create and edit fantasy maps.
@@ -27,3 +52,6 @@ _Inspiration:_
 - Amit Patel's [_Polygonal Map Generation for Games_](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation)
 
 - Scott Turner's [_Here Dragons Abound_](https://heredragonsabound.blogspot.com)
+
+
+
