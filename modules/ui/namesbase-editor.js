@@ -56,6 +56,11 @@ function editNamesbase() {
     generating: false
   };
 
+  function clamp(value, min, max) {
+    const v = isNaN(value) ? min : value;
+    return Math.min(max, Math.max(min, v));
+  }
+
   if (mixerLanguageSelect) initLanguageMixer();
 
   createBasesList();
