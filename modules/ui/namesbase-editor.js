@@ -39,9 +39,11 @@ function editNamesbase() {
   // Language Mixer references
   const mixerCategorySelect = byId("namesbaseMixerCategory");
   const mixerFamilySelect = byId("namesbaseMixerFamily");
+  const mixerTagFilterSelect = byId("namesbaseMixerTagFilter");
   const mixerLanguageSelect = byId("namesbaseMixerLanguage");
   const mixerAddButton = byId("namesbaseMixerAdd");
   const mixerEvenButton = byId("namesbaseMixerEven");
+  const mixerAddRandomButton = byId("namesbaseMixerAddRandom");
   const mixerSelectionBody = byId("namesbaseMixerSelection");
   const mixerCountInput = byId("namesbaseMixerCount");
   const mixerGenerateButton = byId("namesbaseMixerGenerate");
@@ -65,6 +67,12 @@ function editNamesbase() {
   function clamp(value, min, max) {
     const v = isNaN(value) ? min : value;
     return Math.min(max, Math.max(min, v));
+  }
+
+  function getRandomWeightNearOne() {
+    const u = (Math.random() + Math.random() + Math.random()) / 3;
+    const value = Math.round(1 + (u - 0.5) * 4);
+    return value < 1 ? 1 : value > 1000 ? 1000 : value;
   }
 
   if (mixerLanguageSelect) initLanguageMixer();
@@ -306,6 +314,10 @@ function editNamesbase() {
       renderMixerLanguageOptions();
     });
 
+    mixerTagFilterSelect?.addEventListener("change", () => {
+      renderMixerLanguageOptions();
+    });
+
     mixerAddButton?.addEventListener("click", e => {
       e.preventDefault();
       addLanguageToMix(mixerLanguageSelect.value);
@@ -314,6 +326,11 @@ function editNamesbase() {
     mixerEvenButton?.addEventListener("click", e => {
       e.preventDefault();
       distributeMixerWeights();
+    });
+
+    mixerAddRandomButton?.addEventListener("click", e => {
+      e.preventDefault();
+      addRandomLanguageToMixFromFilters();
     });
 
     mixerGenerateButton?.addEventListener("click", e => {
@@ -333,6 +350,43 @@ function editNamesbase() {
 
     initMixerAiControls();
     renderMixerSelection();
+  }
+
+  async function addRandomLanguageToMixFromFilters() {
+    await loadMixerCatalog();
+    if (!mixer.catalog || !mixer.catalog.length) return;
+
+    const selectedCategory = mixerCategorySelect?.value || "";
+    const selectedFamily = mixerFamilySelect?.value || "";
+    const selectedTagFilter = mixerTagFilterSelect?.value || "";
+
+    let options = mixer.catalog;
+    if (selectedCategory) options = options.filter(lang => lang.category === selectedCategory);
+    if (selectedFamily) options = options.filter(lang => lang.family === selectedFamily);
+    if (selectedTagFilter === "isolate") {
+      options = options.filter(lang => lang.category === "Language isolate");
+    } else if (selectedTagFilter === "unclassified") {
+      options = options.filter(
+        lang =>
+          lang.category === "Unclassified" || (Array.isArray(lang.tags) && lang.tags.indexOf("unclassified") !== -1)
+      );
+    } else if (selectedTagFilter === "hypothetical") {
+      options = options.filter(
+        lang =>
+          lang.category === "Hypothetical" || (Array.isArray(lang.tags) && lang.tags.indexOf("hypothetical") !== -1)
+      );
+    }
+
+    const usedIsos = new Set(mixer.languages.map(l => l.iso));
+    options = options.filter(lang => !(Array.isArray(lang.tags) && lang.tags.includes("family")) && !usedIsos.has(lang.iso));
+
+    if (!options.length) {
+      return tip("No more matching languages to add for the current filters", false, "warn");
+    }
+
+    const randomIndex = Math.floor(Math.random() * options.length);
+    const iso = options[randomIndex].iso;
+    addLanguageToMix(iso);
   }
 
   function initMixerAiControls() {
@@ -515,9 +569,23 @@ function editNamesbase() {
     mixerLanguageSelect.innerHTML = "";
     const selectedCategory = mixerCategorySelect?.value || "";
     const selectedFamily = mixerFamilySelect?.value || "";
+    const selectedTagFilter = mixerTagFilterSelect?.value || "";
     let options = mixer.catalog;
     if (selectedCategory) options = options.filter(lang => lang.category === selectedCategory);
     if (selectedFamily) options = options.filter(lang => lang.family === selectedFamily);
+    if (selectedTagFilter === "isolate") {
+      options = options.filter(lang => lang.category === "Language isolate");
+    } else if (selectedTagFilter === "unclassified") {
+      options = options.filter(
+        lang =>
+          lang.category === "Unclassified" || (Array.isArray(lang.tags) && lang.tags.indexOf("unclassified") !== -1)
+      );
+    } else if (selectedTagFilter === "hypothetical") {
+      options = options.filter(
+        lang =>
+          lang.category === "Hypothetical" || (Array.isArray(lang.tags) && lang.tags.indexOf("hypothetical") !== -1)
+      );
+    }
     options.forEach(lang => {
       if (lang.tags && lang.tags.includes("family")) return; // skip family-only pseudo-languages
       const option = document.createElement("option");
@@ -560,6 +628,7 @@ function editNamesbase() {
           <input type="number" min="1" max="1000" value="${lang.weight}" class="namesbaseMixerWeight" style="width:5em" />
         </td>
         <td>
+          <button class="icon-shuffle namesbaseMixerRandomizeWeight" data-iso="${lang.iso}" data-tip="Randomize weight"></button>
           <button class="icon-trash-empty namesbaseMixerRemove" data-iso="${lang.iso}" data-tip="Remove language"></button>
         </td>
       `;
@@ -579,6 +648,18 @@ function editNamesbase() {
       button.addEventListener("click", () => {
         mixer.languages = mixer.languages.filter(l => l.iso !== button.dataset.iso);
         renderMixerSelection();
+      });
+    });
+
+    mixerSelectionBody.querySelectorAll(".namesbaseMixerRandomizeWeight").forEach(button => {
+      button.addEventListener("click", () => {
+        const iso = button.closest("tr").dataset.iso;
+        const lang = mixer.languages.find(l => l.iso === iso);
+        if (!lang) return;
+        const newWeight = getRandomWeightNearOne();
+        lang.weight = newWeight;
+        const input = button.closest("tr").querySelector(".namesbaseMixerWeight");
+        if (input) input.value = newWeight;
       });
     });
   }
@@ -628,7 +709,14 @@ function editNamesbase() {
     const prompt = `
 Generate ${count} unique fantasy place names. Names must feel like a blend of these language families with the given weights: ${breakdown}.
 
-Before you generate anything, infer for each source language its typical phonology, prosody, morphology type, and place-name patterns using its name, family, region, and any tools or web access you have. Do this analysis internally; do not output it directly.
+Some sources are creoles, mixed languages, proto or hypothetical reconstructions, or family-level groupings, and may show tags such as [creole], [mixed], [proto], [hypothetical], [family] and an optional lexifier field. Interpret them as follows:
+- Lexifier: If a source lists a lexifier (for example "lexifier English" or "lexifier Quechua–Spanish"), bias surface phonology and vocabulary toward those lexifier languages, with other sources influencing structure and secondary flavor.
+- Creole / pidgin: Sources tagged as creole or pidgin should still sound strongly like their lexifier language(s), with only subtle substrate influence rather than a generic global mix.
+- Mixed: Sources tagged as mixed already blend multiple lineages; keep that blended character but still respect the given region, family and lexifier information.
+- Proto / hypothetical: Sources tagged as proto or hypothetical represent reconstructed or proposed stages; use them to shape patterns and phonotactics, but do not output obviously real-world historical names.
+- Family: Sources tagged as family (for example "Romance", "Uralic" or "English-based Caribbean creoles family") represent broad family style rather than a single language; treat them as high-level stylistic umbrellas informed by their typical member languages.
+
+Before you generate anything, infer for each source language its typical phonology, prosody, morphology type, and place-name patterns using its name, family, region, tags and any tools or web access you have. Do this analysis internally; do not output it directly.
 
 When blending, mix the underlying linguistic features of the source languages, not just their spelling. Explicitly consider:
 - Phonology and phonotactics: typical vowels, consonants, nasals, clusters, syllable shapes, stress patterns, and any vowel/consonant harmony.

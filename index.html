@@ -4921,6 +4921,15 @@
               <select id="namesbaseMixerFamily" style="min-width: 12em"></select>
             </label>
             <label style="display: flex; align-items: center; gap: 0.3em">
+              Type:
+              <select id="namesbaseMixerTagFilter" style="min-width: 11em">
+                <option value="">All types</option>
+                <option value="isolate">Language isolates</option>
+                <option value="unclassified">Unclassified</option>
+                <option value="hypothetical">Hypothetical</option>
+              </select>
+            </label>
+            <label style="display: flex; align-items: center; gap: 0.3em">
               Language:
               <select id="namesbaseMixerLanguage" style="min-width: 18em"></select>
             </label>
@@ -4964,6 +4973,13 @@
               data-tip="Generate names locally on your device using the Markov mixer and the current language mix. No external AI or web access."
             >
               Generate (Local)
+            </button>
+            <button
+              id="namesbaseMixerAddRandom"
+              class="icon-button-die"
+              data-tip="Add a random language matching the current filters to the mix"
+            >
+              Add random language
             </button>
           </div>
 

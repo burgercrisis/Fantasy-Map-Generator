@@ -1,0 +1,13 @@
+{
+  "name": "fantasy-map-generator",
+  "private": true,
+  "scripts": {
+    "generate:language-mixer": "node tools/generate-language-mixer.js",
+    "diff:families": "node tools/diff-language-families.js",
+    "mixer:check-and-generate": "node tools/diff-language-families.js && node tools/generate-language-mixer.js",
+    "mixer:coverage": "node tools/check-language-mixer-coverage.js",
+    "mixer:lexifier-auto": "node tools/add-lexifier.js",
+    "mixer:qa": "node tools/diff-language-families.js && node tools/check-language-mixer-coverage.js",
+    "mixer:full": "node tools/add-lexifier.js && node tools/diff-language-families.js && node tools/generate-language-mixer.js"
+  }
+}

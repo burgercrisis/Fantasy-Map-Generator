@@ -67,6 +67,92 @@ const FAMILY_CONFIGS = [
   }
 ];
 
+function mostCommon(values) {
+  if (!Array.isArray(values) || !values.length) return null;
+  const counts = new Map();
+  for (const v of values) {
+    if (!v) continue;
+    counts.set(v, (counts.get(v) || 0) + 1);
+  }
+  let best = null;
+  let bestCount = 0;
+  for (const [v, c] of counts) {
+    if (c > bestCount) {
+      best = v;
+      bestCount = c;
+    }
+  }
+  return best;
+}
+
+function buildDynamicFamilyConfigs(map, mixesByIso) {
+  const staticFamilyIsos = new Set(FAMILY_CONFIGS.map(f => f.familyIso));
+  const dynamic = [];
+
+  for (const entry of map) {
+    if (!entry || typeof entry.iso !== "string") continue;
+    const iso = entry.iso;
+    if (!iso.endsWith("-family")) continue;
+    if (staticFamilyIsos.has(iso)) continue;
+    if (!Array.isArray(entry.bases) || !entry.bases.length) continue;
+
+    let category = null;
+    let defaultRegion = "";
+
+    const existingMeta = mixesByIso.get(iso);
+    if (existingMeta) {
+      if (existingMeta.category) category = existingMeta.category;
+      if (existingMeta.region) defaultRegion = existingMeta.region;
+    }
+
+    // If we still don't have a category, infer it from member entries.
+    if (!category) {
+      const baseSet = new Set(entry.bases);
+      const memberIsos = new Set();
+
+      for (const e of map) {
+        if (!Array.isArray(e.bases) || !e.bases.length) continue;
+        let allIn = true;
+        for (const b of e.bases) {
+          if (!baseSet.has(b)) {
+            allIn = false;
+            break;
+          }
+        }
+        if (!allIn) continue;
+        memberIsos.add(e.iso);
+      }
+
+      const memberCategories = [];
+      const memberRegions = [];
+      for (const mIso of memberIsos) {
+        const meta = mixesByIso.get(mIso);
+        if (!meta) continue;
+        if (meta.category) memberCategories.push(meta.category);
+        if (meta.region) memberRegions.push(meta.region);
+      }
+
+      category = mostCommon(memberCategories);
+      const inferredRegion = mostCommon(memberRegions);
+      if (!defaultRegion && inferredRegion) defaultRegion = inferredRegion;
+    }
+
+    // If we still cannot infer a reasonable category, skip this family.
+    if (!category) continue;
+
+    dynamic.push({familyIso: iso, category, defaultRegion});
+  }
+
+  if (dynamic.length) {
+    console.log(
+      "Discovered dynamic families:",
+      dynamic.map(f => f.familyIso).join(", ")
+    );
+  }
+
+  return dynamic;
+}
+
 function main() {
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
@@ -74,10 +160,13 @@ function main() {
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
 
+  const dynamicConfigs = buildDynamicFamilyConfigs(map, mixesByIso);
+  const allConfigs = FAMILY_CONFIGS.concat(dynamicConfigs);
+
   let totalAdded = 0;
   let totalUpdated = 0;
 
-  for (const fam of FAMILY_CONFIGS) {
+  for (const fam of allConfigs) {
     const familyEntry = mapByIso.get(fam.familyIso);
     if (!familyEntry || !Array.isArray(familyEntry.bases)) {
       console.warn("Family ISO not found or has no bases:", fam.familyIso);

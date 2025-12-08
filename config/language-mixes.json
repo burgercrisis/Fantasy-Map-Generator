@@ -43,8 +43,8 @@
     "name": "Bayot",
     "iso": "bayot",
     "region": "Africa",
-    "category": "Language isolate",
-    "family": "Language isolate"
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
   },
   {
     "name": "Berber",
@@ -144,8 +144,8 @@
     "name": "Jalaa",
     "iso": "jalaa",
     "region": "Africa",
-    "category": "Language isolate",
-    "family": "Language isolate",
+    "category": "Unclassified",
+    "family": "Unclassified",
     "tags": [
       "extinct"
     ]
@@ -187,8 +187,8 @@
     "name": "Laal",
     "iso": "laal",
     "region": "Africa",
-    "category": "Language isolate",
-    "family": "Language isolate"
+    "category": "Unclassified",
+    "family": "Unclassified"
   },
   {
     "name": "Liberian Kreyol",
@@ -259,8 +259,8 @@
     "name": "Mpre",
     "iso": "mpre",
     "region": "Africa",
-    "category": "Language isolate",
-    "family": "Language isolate",
+    "category": "Unclassified",
+    "family": "Unclassified",
     "tags": [
       "extinct"
     ]
@@ -357,8 +357,8 @@
     "name": "Shabo",
     "iso": "shabo",
     "region": "Africa",
-    "category": "Unclassified",
-    "family": "Unclassified"
+    "category": "Language isolate",
+    "family": "Language isolate"
   },
   {
     "name": "Shona",
@@ -441,14 +441,14 @@
   {
     "name": "Afar",
     "iso": "afar",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Afroasiatic family",
     "iso": "afroasiatic-family",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "tags": [
       "family"
@@ -458,140 +458,140 @@
   {
     "name": "Amh",
     "iso": "amh",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Ancient Egyptian",
     "iso": "ancient-egyptian",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Aramaic",
     "iso": "aramaic",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Assyrian Neo Aramaic",
     "iso": "assyrian-neo-aramaic",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Northeastern Neo-Aramaic"
   },
   {
     "name": "Beja",
     "iso": "beja",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Coptic",
     "iso": "coptic",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Gamo Gofa Dawro",
     "iso": "gamo-gofa-dawro",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Ganza",
     "iso": "ganza",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Geez",
     "iso": "geez",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Hadiyya",
     "iso": "hadiyya",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Hau",
     "iso": "hau",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Heb",
     "iso": "heb",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Maltese",
     "iso": "maltese",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
   },
   {
     "name": "Mehri",
     "iso": "mehri",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Modern South Arabian"
   },
   {
     "name": "Orm",
     "iso": "orm",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Sidama",
     "iso": "sidama",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Som",
     "iso": "som",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Tigre",
     "iso": "tigre",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "North Ethiopic"
   },
   {
     "name": "Tir",
     "iso": "tir",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
   {
     "name": "Ugaritic",
     "iso": "ugaritic",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Other Canaanite",
     "tags": [
@@ -601,7 +601,7 @@
   {
     "name": "Wolaitta",
     "iso": "wolaitta",
-    "region": "Afroasiatic region",
+    "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Afroasiatic"
   },
@@ -663,7 +663,7 @@
   {
     "name": "Indonesian",
     "iso": "indonesian",
-    "region": "Asia-Pacific",
+    "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Indonesian_language",
     "family": "Austronesian"
@@ -671,7 +671,7 @@
   {
     "name": "Malay",
     "iso": "malay",
-    "region": "Asia-Pacific",
+    "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malay_language",
     "family": "Austronesian"
@@ -679,7 +679,7 @@
   {
     "name": "Tagalog",
     "iso": "tagalog",
-    "region": "Asia-Pacific",
+    "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tagalog_language",
     "family": "Austronesian"
@@ -1574,7 +1574,7 @@
   {
     "name": "Nungish",
     "iso": "nungish",
-    "region": "Burma/China borderlands",
+    "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Nungish_languages",
     "family": "Sino-Tibetan"
@@ -1635,6 +1635,17 @@
     "lexifier": "English"
   },
   {
+    "name": "English-based Caribbean creoles family",
+    "iso": "english-based-caribbean-creoles-family",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "family",
+      "creole"
+    ]
+  },
+  {
     "name": "Garifuna",
     "iso": "garifuna",
     "region": "Caribbean",
@@ -1671,7 +1682,8 @@
     "region": "Caribbean",
     "category": "Creole",
     "wikipedia": "https://en.wikipedia.org/wiki/Jamaican_Patois",
-    "family": "Creole"
+    "family": "Creole",
+    "lexifier": "English"
   },
   {
     "name": "Jamaican Maroon Creole",
@@ -1972,7 +1984,8 @@
     "iso": "badong-yao",
     "region": "East Asia",
     "category": "Mixed",
-    "family": "Hmong-Mien"
+    "family": "Hmong-Mien",
+    "lexifier": "Chinese"
   },
   {
     "name": "Biao Min",
@@ -2111,7 +2124,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "Luobohe",
@@ -2125,7 +2139,8 @@
     "iso": "maojia",
     "region": "East Asia",
     "category": "Mixed",
-    "family": "Hmong-Mien"
+    "family": "Hmong-Mien",
+    "lexifier": "Chinese"
   },
   {
     "name": "Mashan",
@@ -2242,7 +2257,8 @@
     "iso": "she-chinese",
     "region": "East Asia",
     "category": "Mixed",
-    "family": "Hmong-Mien"
+    "family": "Hmong-Mien",
+    "lexifier": "Chinese"
   },
   {
     "name": "Small Flowery",
@@ -2277,14 +2293,16 @@
     "iso": "yeheni",
     "region": "East Asia",
     "category": "Mixed",
-    "family": "Hmong-Mien"
+    "family": "Hmong-Mien",
+    "lexifier": "Chinese"
   },
   {
     "name": "Younian",
     "iso": "younian",
     "region": "East Asia",
     "category": "Mixed",
-    "family": "Hmong-Mien"
+    "family": "Hmong-Mien",
+    "lexifier": "Chinese"
   },
   {
     "name": "Younuo",
@@ -6895,7 +6913,7 @@
   {
     "name": "Newaric",
     "iso": "newaric",
-    "region": "Himalayas",
+    "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Newaric_languages",
     "family": "Sino-Tibetan"
@@ -8985,7 +9003,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Basque"
   },
   {
     "name": "American Indian Pidgin English",
@@ -9017,7 +9036,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Arabic-Javanese"
   },
   {
     "name": "Arafundi-Enga Pidgin",
@@ -9027,7 +9047,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Arafundi-Enga"
   },
   {
     "name": "Bamboo English",
@@ -9037,7 +9058,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "English"
   },
   {
     "name": "Barikanchi Pidgin",
@@ -9047,7 +9069,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Hausa"
   },
   {
     "name": "Basque-Icelandic pidgin",
@@ -9057,7 +9080,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Basque"
   },
   {
     "name": "Berbice",
@@ -9078,7 +9102,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Arabic"
   },
   {
     "name": "Bolze",
@@ -9088,7 +9113,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "German-French"
   },
   {
     "name": "Bongor Arabic",
@@ -9099,7 +9125,8 @@
     "tags": [
       "pidgin",
       "extinct"
-    ]
+    ],
+    "lexifier": "Arabic"
   },
   {
     "name": "Borgarmålet",
@@ -9109,7 +9136,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Swedish"
   },
   {
     "name": "Bozal Spanish",
@@ -9131,7 +9159,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Ojibwe"
   },
   {
     "name": "Broken Slavey",
@@ -9141,7 +9170,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Slavey"
   },
   {
     "name": "Broome Pearling Lugger Pidgin",
@@ -9151,7 +9181,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "English"
   },
   {
     "name": "Butler English",
@@ -9183,7 +9214,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Nguni"
   },
   {
     "name": "Cappadocian Greek",
@@ -9193,7 +9225,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Greek-Turkish"
   },
   {
     "name": "Cauque Mayan language",
@@ -9203,7 +9236,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Mayan"
   },
   {
     "name": "Chavacano",
@@ -9235,7 +9269,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Italian-Spanish"
   },
   {
     "name": "Cypriot Maronite-Arabic",
@@ -9245,7 +9280,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Arabic"
   },
   {
     "name": "Dao",
@@ -9255,7 +9291,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Dao"
   },
   {
     "name": "Duvle-Wano Pidgin",
@@ -9265,7 +9302,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Duvle-Wano"
   },
   {
     "name": "E",
@@ -9275,7 +9313,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "Eskimo Trade Jargon",
@@ -9285,7 +9324,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Inuit"
   },
   {
     "name": "Ewondo Populaire",
@@ -9295,7 +9335,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Ewondo"
   },
   {
     "name": "Fanagalo",
@@ -9305,7 +9346,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Zulu"
   },
   {
     "name": "Français Tirailleur",
@@ -9315,7 +9357,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "French"
   },
   {
     "name": "Gadal",
@@ -9325,7 +9368,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Arabic"
   },
   {
     "name": "Gurindji Kriol",
@@ -9335,7 +9379,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Gurindji-English"
   },
   {
     "name": "Haflong Hindi",
@@ -9345,7 +9390,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Hindi"
   },
   {
     "name": "Hawaiian Pidgin English",
@@ -9366,7 +9412,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "International Sign",
@@ -9376,7 +9423,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Sign Language"
   },
   {
     "name": "Inuktitut-English Pidgin",
@@ -9386,7 +9434,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Inuktitut-English"
   },
   {
     "name": "Italian Eritrean",
@@ -9396,7 +9445,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Italian"
   },
   {
     "name": "Italo-Paulista",
@@ -9406,7 +9456,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Italian-Portuguese"
   },
   {
     "name": "Japanese Bamboo English",
@@ -9482,7 +9533,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "German"
   },
   {
     "name": "KiKAR",
@@ -9492,7 +9544,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Swahili"
   },
   {
     "name": "Kituba",
@@ -9535,7 +9588,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Kwoma-Manambu"
   },
   {
     "name": "Kyakhta Russian-Chinese Pidgin",
@@ -9545,7 +9599,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "Kyowa-go",
@@ -9555,7 +9610,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Japanese-Chinese"
   },
   {
     "name": "Labrador Inuit Pidgin French",
@@ -9565,7 +9621,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Inuit-French"
   },
   {
     "name": "Liberian Interior Pidgin English",
@@ -9586,7 +9643,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Warlpiri-English"
   },
   {
     "name": "Língua Geral Amazônica",
@@ -9596,7 +9654,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Tupian"
   },
   {
     "name": "Língua Geral Paulista",
@@ -9606,7 +9665,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Tupian"
   },
   {
     "name": "Loucheux Jargon",
@@ -9616,7 +9676,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Gwich'in"
   },
   {
     "name": "Madras Bashai",
@@ -9626,7 +9687,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Tamil"
   },
   {
     "name": "Makassar Malay",
@@ -9636,7 +9698,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Malay"
   },
   {
     "name": "Maridi Arabic",
@@ -9647,7 +9710,8 @@
     "tags": [
       "pidgin",
       "extinct"
-    ]
+    ],
+    "lexifier": "Arabic"
   },
   {
     "name": "Maritime Polynesian Pidgin",
@@ -9657,7 +9721,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Polynesian"
   },
   {
     "name": "Mbugu",
@@ -9667,7 +9732,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Bantu-Cushitic"
   },
   {
     "name": "Media Lengua",
@@ -9677,7 +9743,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Quechua-Spanish"
   },
   {
     "name": "Mediterranean Lingua Franca",
@@ -9687,7 +9754,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Romance"
   },
   {
     "name": "Mednyj Aleut",
@@ -9697,7 +9765,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Aleut-Russian"
   },
   {
     "name": "Mekeo pidgins",
@@ -9707,7 +9776,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Mekeo"
   },
   {
     "name": "Michif",
@@ -9717,7 +9787,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Cree-French"
   },
   {
     "name": "Micronesian Pidgin English",
@@ -9738,7 +9809,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "German"
   },
   {
     "name": "Mobilian Jargon",
@@ -9748,7 +9820,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Mobilian"
   },
   {
     "name": "Mohawk Dutch",
@@ -9780,7 +9853,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "German"
   },
   {
     "name": "Nauru Pidgin English",
@@ -9801,7 +9875,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Ndyuka-Tiriyó"
   },
   {
     "name": "Nefamese",
@@ -9811,7 +9886,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Assamese"
   },
   {
     "name": "Negerhollands",
@@ -9843,7 +9919,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Nootka"
   },
   {
     "name": "Nubi",
@@ -9908,7 +9985,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Romani"
   },
   {
     "name": "Petjo",
@@ -9929,7 +10007,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "German-French"
   },
   {
     "name": "Pidgin Delaware",
@@ -9939,7 +10018,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Delaware"
   },
   {
     "name": "Pidgin Hawaiian",
@@ -9949,7 +10029,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Hawaiian"
   },
   {
     "name": "Pidgin Iha",
@@ -9959,7 +10040,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Iha"
   },
   {
     "name": "Pidgin Ngarluma",
@@ -9969,7 +10051,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Ngarluma"
   },
   {
     "name": "Pidgin Onin",
@@ -9979,7 +10062,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Onin"
   },
   {
     "name": "Pidgin Wolof",
@@ -9989,7 +10073,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Wolof"
   },
   {
     "name": "Port Jackson Pidgin English",
@@ -10032,7 +10117,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Spanish"
   },
   {
     "name": "Russenorsk",
@@ -10042,7 +10128,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Russian-Norwegian"
   },
   {
     "name": "Samoan Plantation Pidgin",
@@ -10063,7 +10150,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Swahili"
   },
   {
     "name": "Simplified Italian of Libya",
@@ -10073,7 +10161,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Italian"
   },
   {
     "name": "Simplified Italian of Somalia",
@@ -10083,7 +10172,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Italian"
   },
   {
     "name": "Skepi Dutch Creole",
@@ -10126,7 +10216,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Russian"
   },
   {
     "name": "Tangwang",
@@ -10148,7 +10239,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "Tây Bồi Pidgin French",
@@ -10158,7 +10250,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "French"
   },
   {
     "name": "Te Parau Tinito",
@@ -10168,7 +10261,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Chinese-Tahitian"
   },
   {
     "name": "Thai Pidgin English",
@@ -10189,7 +10283,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Thai-English"
   },
   {
     "name": "Tsotsitaal",
@@ -10211,7 +10306,8 @@
     "tags": [
       "pidgin",
       "extinct"
-    ]
+    ],
+    "lexifier": "Arabic"
   },
   {
     "name": "Unserdeutsch",
@@ -10243,7 +10339,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "West Greenlandic Pidgin",
@@ -10253,7 +10350,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Greenlandic"
   },
   {
     "name": "Wutunhua",
@@ -10263,7 +10361,8 @@
     "family": "Mixed",
     "tags": [
       "mixed"
-    ]
+    ],
+    "lexifier": "Chinese-Tibetan"
   },
   {
     "name": "Xieheyu",
@@ -10273,7 +10372,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Chinese"
   },
   {
     "name": "Yilan Creole Japanese",
@@ -10294,7 +10394,8 @@
     "family": "Pidgin",
     "tags": [
       "pidgin"
-    ]
+    ],
+    "lexifier": "Japanese"
   },
   {
     "name": "Ber family",
@@ -10518,13 +10619,24 @@
   {
     "name": "Macanese Patois",
     "iso": "macanese-patois",
-    "region": "Others",
+    "region": "Misc",
     "category": "Creole",
     "family": "Portuguese-based",
     "tags": [
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "English-based Pacific creoles family",
+    "iso": "english-based-pacific-creoles-family",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "family",
+      "creole"
+    ]
   },
   {
     "name": "Australian Kriol",
@@ -11639,7 +11751,7 @@
   {
     "name": "Proto-Karenic",
     "iso": "proto-karenic",
-    "region": "Sino-Tibetan",
+    "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages",
     "tags": [
@@ -11706,8 +11818,8 @@
     "name": "Kwaza",
     "iso": "kwaza",
     "region": "South America",
-    "category": "Language isolate",
-    "family": "Language isolate"
+    "category": "Unclassified",
+    "family": "Unclassified"
   },
   {
     "name": "Kwinti",
@@ -11783,7 +11895,8 @@
     "region": "South America",
     "category": "Creole",
     "wikipedia": "https://en.wikipedia.org/wiki/Sranan_Tongo",
-    "family": "Creole"
+    "family": "Creole",
+    "lexifier": "English"
   },
   {
     "name": "Sranan Tongo",
@@ -11816,8 +11929,8 @@
     "name": "Xocó",
     "iso": "xoc-",
     "region": "South America",
-    "category": "Language isolate",
-    "family": "Language isolate",
+    "category": "Unclassified",
+    "family": "Unclassified",
     "tags": [
       "extinct"
     ]
