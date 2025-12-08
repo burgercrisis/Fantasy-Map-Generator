@@ -4959,6 +4959,34 @@
             </button>
           </div>
 
+          <div style="display: flex; flex-wrap: wrap; gap: 1em; align-items: center; margin-top: 0.5em">
+            <label for="namesbaseAiModel">
+              Model:
+              <select id="namesbaseAiModel"></select>
+            </label>
+            <label
+              for="namesbaseAiTemperature"
+              data-tip="Temperature controls response randomness; higher values mean more creativity, lower values mean more predictability"
+            >
+              Temperature:
+              <input id="namesbaseAiTemperature" type="number" min="-1" max="2" step=".1" class="icon-key" />
+            </label>
+            <label for="namesbaseAiKey">
+              Key:
+              <input
+                id="namesbaseAiKey"
+                placeholder="Enter API key"
+                class="icon-key"
+                data-tip="Enter API key. Note: the Generator doesn't store the key or any generated data"
+              />
+              <button
+                id="namesbaseAiKeyHelp"
+                class="icon-help-circled"
+                data-tip="Click to see the usage instructions"
+              ></button>
+            </label>
+          </div>
+
           <textarea
             id="namesbaseMixerResult"
             rows="5"

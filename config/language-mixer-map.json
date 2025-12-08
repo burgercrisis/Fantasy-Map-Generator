@@ -240,12 +240,6 @@
     ]
   },
   {
-    "iso": "basque",
-    "bases": [
-      20
-    ]
-  },
-  {
     "iso": "welsh",
     "bases": [
       206
@@ -337,12 +331,6 @@
   },
   {
     "iso": "yor",
-    "bases": [
-      112
-    ]
-  },
-  {
-    "iso": "yoruba",
     "bases": [
       112
     ]
@@ -745,12 +733,6 @@
     "iso": "akkadian",
     "bases": [
       23
-    ]
-  },
-  {
-    "iso": "jpn-lang",
-    "bases": [
-      12
     ]
   },
   {

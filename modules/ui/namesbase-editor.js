@@ -50,6 +50,10 @@ function editNamesbase() {
   const mixerInsertButton = byId("namesbaseMixerInsert");
   const mixerInsertMode = byId("namesbaseMixerInsertMode");
   const mixerStatus = byId("namesbaseMixerStatus");
+  const mixerAiModelSelect = byId("namesbaseAiModel");
+  const mixerAiTemperatureInput = byId("namesbaseAiTemperature");
+  const mixerAiKeyInput = byId("namesbaseAiKey");
+  const mixerAiKeyHelpButton = byId("namesbaseAiKeyHelp");
 
   const mixer = {
     catalog: null,
@@ -325,7 +329,79 @@ function editNamesbase() {
       insertMixerNamesIntoBase();
     });
 
+    initMixerAiControls();
     renderMixerSelection();
+  }
+
+  function initMixerAiControls() {
+    if (!mixerAiModelSelect || !mixerAiTemperatureInput || !mixerAiKeyInput) return;
+
+    function loadFromStorage() {
+      mixerAiModelSelect.options.length = 0;
+      if (typeof MODELS === "object" && MODELS) {
+        Object.keys(MODELS).forEach(model => mixerAiModelSelect.options.add(new Option(model, model)));
+      }
+
+      let storedModel = localStorage.getItem("fmg-ai-model");
+      if (!storedModel || (typeof MODELS === "object" && MODELS && !MODELS[storedModel])) {
+        storedModel = typeof DEFAULT_MODEL !== "undefined" ? DEFAULT_MODEL : storedModel;
+      }
+      if (storedModel) mixerAiModelSelect.value = storedModel;
+
+      let provider = null;
+      if (storedModel && typeof MODELS === "object" && MODELS) {
+        provider = MODELS[storedModel];
+      }
+      const key = provider ? localStorage.getItem(`fmg-ai-kl-${provider}`) || "" : "";
+      mixerAiKeyInput.value = key;
+
+      const temperature = localStorage.getItem("fmg-ai-temperature");
+      mixerAiTemperatureInput.value = temperature !== null ? temperature : "1";
+
+      const modelSelect = byId("aiGeneratorModel");
+      const temperatureInput = byId("aiGeneratorTemperature");
+      const keyInput = byId("aiGeneratorKey");
+      if (modelSelect && storedModel) modelSelect.value = storedModel;
+      if (temperatureInput && temperature !== null) temperatureInput.value = temperature;
+      if (keyInput && key) keyInput.value = key;
+    }
+
+    function saveToStorage() {
+      const model = mixerAiModelSelect.value;
+      if (model && typeof MODELS === "object" && MODELS && MODELS[model]) {
+        localStorage.setItem("fmg-ai-model", model);
+        const provider = MODELS[model];
+        localStorage.setItem(`fmg-ai-kl-${provider}`, mixerAiKeyInput.value || "");
+      }
+
+      const temperatureNumber = mixerAiTemperatureInput.valueAsNumber;
+      if (!isNaN(temperatureNumber)) {
+        localStorage.setItem("fmg-ai-temperature", temperatureNumber);
+      }
+
+      const modelSelect = byId("aiGeneratorModel");
+      const temperatureInput = byId("aiGeneratorTemperature");
+      const keyInput = byId("aiGeneratorKey");
+      if (modelSelect && model) modelSelect.value = model;
+      if (temperatureInput && !isNaN(temperatureNumber)) temperatureInput.value = String(temperatureNumber);
+      if (keyInput) keyInput.value = mixerAiKeyInput.value;
+    }
+
+    mixerAiModelSelect.addEventListener("change", saveToStorage);
+    mixerAiTemperatureInput.addEventListener("change", saveToStorage);
+    mixerAiKeyInput.addEventListener("change", saveToStorage);
+
+    if (mixerAiKeyHelpButton) {
+      mixerAiKeyHelpButton.addEventListener("click", function () {
+        const model = mixerAiModelSelect.value;
+        if (!model || typeof MODELS !== "object" || !MODELS || !PROVIDERS) return;
+        const provider = MODELS[model];
+        if (!provider || !PROVIDERS[provider]) return;
+        openURL(PROVIDERS[provider].keyLink);
+      });
+    }
+
+    loadFromStorage();
   }
 
   async function loadMixerCatalog() {
@@ -371,7 +447,13 @@ function editNamesbase() {
 
   function renderMixerFamilies() {
     if (!mixerFamilySelect || !mixer.catalog) return;
-    const families = Array.from(new Set(mixer.catalog.map(lang => lang.family).filter(Boolean))).sort((a, b) =>
+    const families = Array.from(
+      new Set(
+        mixer.catalog
+          .map(lang => lang.family || lang.category)
+          .filter(Boolean)
+      )
+    ).sort((a, b) =>
       a.localeCompare(b)
     );
     mixerFamilySelect.innerHTML = "";
@@ -525,11 +607,21 @@ function editNamesbase() {
 
     const prompt = `
 Generate ${count} unique fantasy place names. Names must feel like a blend of these language families with the given weights: ${breakdown}.
+
+When blending, mix the underlying linguistic features of the source languages, not just their spelling. Explicitly consider:
+- Phonology and phonotactics: typical vowels, consonants, nasals, clusters, syllable shapes, stress patterns, and any vowel/consonant harmony.
+- Prosodic "slantings": preferred syllable openings and closings, and the typical onset/coda clusters each language family favors.
+- Morphology and word structure: isolating vs agglutinative vs fusional vs polysynthetic tendencies, common affixes or compounding patterns, and typical place-name morphemes.
+- Syntax and grammar "feel": how multi-word names are ordered (e.g. modifiers vs heads, honorifics, and formals) so the overall structure matches the families and regions.
+- Lexicon and semantics: roots and morphemes that feel typical for place names in those language families and regions, without copying real-world toponyms.
+
 Guidelines:
 - Return a comma-separated list only, no numbering or extra prose.
 - Names should be 1-3 words, title case, 3-16 characters per word.
 - Avoid diacritics that are not ASCII.
+- Avoid adding generic global English or Latinate flavor unless those languages are explicitly part of the mix.
 - Do not repeat names, and keep them pronounceable.
+- Do not output any explanations or metadata, only the names.
     `.trim();
 
     const temperature = +localStorage.getItem("fmg-ai-temperature") || 0.9;

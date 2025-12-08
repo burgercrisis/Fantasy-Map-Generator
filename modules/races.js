@@ -323,7 +323,8 @@ function getRaceLanguageIsoWeights(raceName) {
     if (lang.tags && lang.tags.includes("family")) return; // skip family-only macros
 
     const catOk = categorySet.size && categorySet.has(lang.category);
-    const famOk = familySet.size && lang.family && familySet.has(lang.family);
+    const effectiveFamily = lang.family || lang.category;
+    const famOk = familySet.size && effectiveFamily && familySet.has(effectiveFamily);
     if (!catOk && !famOk) return;
 
     isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;

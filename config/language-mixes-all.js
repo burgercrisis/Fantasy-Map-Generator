@@ -9,7 +9,8 @@
     "iso": "afrikaans",
     "region": "Africa",
     "category": "Germanic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Afrikaans"
+    "wikipedia": "https://en.wikipedia.org/wiki/Afrikaans",
+    "family": "Germanic"
   },
   {
     "name": "Akan",
@@ -18,15 +19,40 @@
     "category": "Niger-Congo"
   },
   {
+    "name": "Aku",
+    "iso": "aku",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Bambara",
     "iso": "bambara",
     "region": "Africa",
     "category": "Niger-Congo"
   },
   {
+    "name": "Bangime",
+    "iso": "bangime",
+    "region": "Africa",
+    "category": "Language isolate",
+    "family": "Language isolate"
+  },
+  {
+    "name": "Bayot",
+    "iso": "bayot",
+    "region": "Africa",
+    "category": "Language isolate",
+    "family": "Language isolate"
+  },
+  {
     "name": "Berber",
     "iso": "ber",
     "region": "Africa",
+    "family": "Berber",
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Berber_languages"
   },
@@ -35,6 +61,16 @@
     "iso": "bete",
     "region": "Africa",
     "category": "Niger-Congo"
+  },
+  {
+    "name": "Cameroonian Pidgin",
+    "iso": "cameroonian-pidgin",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Chichewa",
@@ -56,16 +92,10 @@
   },
   {
     "name": "Fon",
-    "iso": "fon-lang",
+    "iso": "fon",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Fon_language"
-  },
-  {
-    "name": "Fon",
-    "iso": "fon",
-    "region": "Africa",
-    "category": "Niger-Congo"
   },
   {
     "name": "Fula",
@@ -80,6 +110,16 @@
     "category": "Niger-Congo"
   },
   {
+    "name": "Ghanaian Pidgin English",
+    "iso": "ghanaian-pidgin-english",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Gola",
     "iso": "gola",
     "region": "Africa",
@@ -90,6 +130,16 @@
     "iso": "igbo",
     "region": "Africa",
     "category": "Niger-Congo"
+  },
+  {
+    "name": "Jalaa",
+    "iso": "jalaa",
+    "region": "Africa",
+    "category": "Language isolate",
+    "family": "Language isolate",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Kikuyu",
@@ -108,6 +158,34 @@
     "iso": "kongo",
     "region": "Africa",
     "category": "Niger-Congo"
+  },
+  {
+    "name": "Krio",
+    "iso": "krio",
+    "region": "Africa",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Krio_language",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Laal",
+    "iso": "laal",
+    "region": "Africa",
+    "category": "Language isolate",
+    "family": "Language isolate"
+  },
+  {
+    "name": "Liberian Kreyol",
+    "iso": "liberian-kreyol",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Limba",
@@ -141,10 +219,30 @@
     "category": "Niger-Congo"
   },
   {
+    "name": "Merico",
+    "iso": "merico",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Moore",
     "iso": "moore",
     "region": "Africa",
     "category": "Niger-Congo"
+  },
+  {
+    "name": "Mpre",
+    "iso": "mpre",
+    "region": "Africa",
+    "category": "Language isolate",
+    "family": "Language isolate",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Mumuye",
@@ -169,23 +267,69 @@
     ]
   },
   {
+    "name": "Nigerian Pidgin",
+    "iso": "nigerian-pidgin",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ]
+  },
+  {
     "name": "Nyabwa",
     "iso": "nyabwa",
     "region": "Africa",
     "category": "Niger-Congo"
   },
   {
+    "name": "Omaio",
+    "iso": "omaio",
+    "region": "Africa",
+    "category": "Unclassified",
+    "family": "Unclassified"
+  },
+  {
+    "name": "Ongota",
+    "iso": "ongota",
+    "region": "Africa",
+    "category": "Unclassified",
+    "family": "Unclassified"
+  },
+  {
+    "name": "Pichinglis",
+    "iso": "pichinglis",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Sango",
     "iso": "sango",
     "region": "Africa",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sango_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sango_language",
+    "family": "Ngbandi-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Sesotho",
     "iso": "sesotho",
     "region": "Africa",
     "category": "Niger-Congo"
+  },
+  {
+    "name": "Shabo",
+    "iso": "shabo",
+    "region": "Africa",
+    "category": "Unclassified",
+    "family": "Unclassified"
   },
   {
     "name": "Shona",
@@ -213,6 +357,17 @@
     "category": "Niger-Congo"
   },
   {
+    "name": "West African Pidgin English",
+    "iso": "west-african-pidgin-english",
+    "region": "Africa",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ]
+  },
+  {
     "name": "Wolof",
     "iso": "wolof",
     "region": "Africa",
@@ -230,12 +385,6 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language"
-  },
-  {
-    "name": "Yoruba",
-    "iso": "yoruba",
-    "region": "Africa",
-    "category": "Niger-Congo"
   },
   {
     "name": "Zarma",
@@ -287,7 +436,8 @@
     "name": "Assyrian Neo Aramaic",
     "iso": "assyrian-neo-aramaic",
     "region": "Afroasiatic region",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
   },
   {
     "name": "Beja",
@@ -341,13 +491,15 @@
     "name": "Maltese",
     "iso": "maltese",
     "region": "Afroasiatic region",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
   },
   {
     "name": "Mehri",
     "iso": "mehri",
     "region": "Afroasiatic region",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
   },
   {
     "name": "Orm",
@@ -371,7 +523,8 @@
     "name": "Tigre",
     "iso": "tigre",
     "region": "Afroasiatic region",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "family": "North Ethiopic"
   },
   {
     "name": "Tir",
@@ -383,7 +536,11 @@
     "name": "Ugaritic",
     "iso": "ugaritic",
     "region": "Afroasiatic region",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "family": "Other Canaanite",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Wolaitta",
@@ -398,7 +555,8 @@
     "region": "Ancient Mesopotamia",
     "tags": [
       "extinct"
-    ]
+    ],
+    "family": "East Semitic"
   },
   {
     "name": "Greenlandic",
@@ -450,6 +608,26 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ainu_language"
   },
   {
+    "name": "Alor Malay",
+    "iso": "alor-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Ambonese Malay",
+    "iso": "ambonese-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Assamese",
     "iso": "assamese",
     "region": "Asia",
@@ -457,11 +635,41 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Assamese_language"
   },
   {
+    "name": "Baba Malay",
+    "iso": "baba-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Balinese Malay",
+    "iso": "balinese-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Balochi",
     "iso": "balochi",
     "region": "Asia",
     "category": "Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Balochi_language"
+  },
+  {
+    "name": "Banda Malay",
+    "iso": "banda-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Bashkir",
@@ -478,6 +686,36 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Bengali_language"
   },
   {
+    "name": "Bengali Portuguese Creole",
+    "iso": "bengali-portuguese-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Betawi",
+    "iso": "betawi",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bidau Creole Portuguese",
+    "iso": "bidau-creole-portuguese",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Buryat",
     "iso": "buryat",
     "region": "Asia",
@@ -485,11 +723,91 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Buryat_language"
   },
   {
+    "name": "Cannanore Portuguese Creole",
+    "iso": "cannanore-portuguese-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Cebuano",
     "iso": "cebuano-lang",
     "region": "Asia",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language"
+  },
+  {
+    "name": "Cochin Portuguese Creole",
+    "iso": "cochin-portuguese-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Daman",
+    "iso": "daman",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Daman and Diu Portuguese Creole",
+    "iso": "daman-and-diu-portuguese-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Dili Malay",
+    "iso": "dili-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Diu",
+    "iso": "diu",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Eastern Indonesian Malay",
+    "iso": "eastern-indonesian-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Gorap",
+    "iso": "gorap",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Gujarati",
@@ -506,17 +824,31 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Hindi"
   },
   {
+    "name": "Indo-Portuguese",
+    "iso": "indo-portuguese",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Indo-Portuguese Creole of Bombay",
+    "iso": "indo-portuguese-creole-of-bombay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Japanese",
     "iso": "jpn",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language"
-  },
-  {
-    "name": "Japanese",
-    "iso": "jpn-lang",
-    "category": "Japonic",
-    "region": "Asia"
   },
   {
     "name": "Kalmyk",
@@ -540,6 +872,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Kashmiri_language"
   },
   {
+    "name": "Kenaboi",
+    "iso": "kenaboi",
+    "region": "Asia",
+    "category": "Unclassified",
+    "family": "Unclassified",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Khasi",
     "iso": "kha",
     "category": "Austroasiatic",
@@ -552,11 +894,61 @@
     "region": "Asia"
   },
   {
+    "name": "Korlai Portuguese Creole",
+    "iso": "korlai-portuguese-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Kristang",
+    "iso": "kristang",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Kupang Malay",
+    "iso": "kupang-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Lao",
     "iso": "lao",
     "region": "Asia",
     "category": "Tai-Kadai",
     "wikipedia": "https://en.wikipedia.org/wiki/Lao_language"
+  },
+  {
+    "name": "Larantuka Malay",
+    "iso": "larantuka-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Malaccan Creole Malay",
+    "iso": "malaccan-creole-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Malayalam",
@@ -566,6 +958,26 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Malayalam"
   },
   {
+    "name": "Manado Malay",
+    "iso": "manado-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Manglish",
+    "iso": "manglish",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Marathi",
     "iso": "marathi",
     "region": "Asia",
@@ -573,10 +985,40 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Marathi_language"
   },
   {
+    "name": "Mardijker Creole",
+    "iso": "mardijker-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Maumere Malay",
+    "iso": "maumere-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Mon",
     "iso": "mnw",
     "category": "Austroasiatic",
     "region": "Asia"
+  },
+  {
+    "name": "North Moluccan Malay",
+    "iso": "north-moluccan-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Odia",
@@ -586,11 +1028,51 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Odia_language"
   },
   {
+    "name": "Orang Pulo",
+    "iso": "orang-pulo",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Papuan Malay",
+    "iso": "papuan-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Pashto",
     "iso": "pashto",
     "region": "Asia",
     "category": "Indo-Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Pashto"
+  },
+  {
+    "name": "Peranakan",
+    "iso": "peranakan",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Portugis",
+    "iso": "portugis",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Punjabi",
@@ -600,10 +1082,30 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Punjabi_language"
   },
   {
+    "name": "Sabah Malay",
+    "iso": "sabah-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Santali",
     "iso": "sat",
     "category": "Austroasiatic",
     "region": "Asia"
+  },
+  {
+    "name": "Serui Malay",
+    "iso": "serui-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Sindhi",
@@ -618,6 +1120,36 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Sinhalese_language"
+  },
+  {
+    "name": "Sri Lankan Malay",
+    "iso": "sri-lankan-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Sri Lankan Portuguese Creole",
+    "iso": "sri-lankan-portuguese-creole",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Sula Malay",
+    "iso": "sula-malay",
+    "region": "Asia",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Sundanese",
@@ -666,7 +1198,11 @@
     "iso": "cape-verdean-creole",
     "region": "Atlantic",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cape_Verdean_Creole"
+    "wikipedia": "https://en.wikipedia.org/wiki/Cape_Verdean_Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Nungish",
@@ -676,6 +1212,56 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Nungish_languages"
   },
   {
+    "name": "Anguillian Creole",
+    "iso": "anguillian-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bahamian Creole",
+    "iso": "bahamian-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bajan Creole",
+    "iso": "bajan-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Belizean Creole",
+    "iso": "belizean-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bocas del Toro Creole",
+    "iso": "bocas-del-toro-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Garifuna",
     "iso": "garifuna",
     "region": "Caribbean",
@@ -683,11 +1269,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Garifuna_language"
   },
   {
+    "name": "Grenadian Creole English",
+    "iso": "grenadian-creole-english",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Haitian Creole",
     "iso": "haitian-creole",
     "region": "Caribbean",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Haitian_Creole"
+    "wikipedia": "https://en.wikipedia.org/wiki/Haitian_Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Jamaican Creole",
@@ -697,11 +1297,155 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Jamaican_Patois"
   },
   {
+    "name": "Jamaican Maroon Creole",
+    "iso": "jamaican-maroon-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Jamaican Patois",
+    "iso": "jamaican-patois",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Leeward Caribbean Creole English",
+    "iso": "leeward-caribbean-creole-english",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Limonese Creole",
+    "iso": "limonese-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Miskito Coast Creole",
+    "iso": "miskito-coast-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Montserrat Creole",
+    "iso": "montserrat-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Papiamento",
     "iso": "papiamento",
     "region": "Caribbean",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Papiamento"
+    "wikipedia": "https://en.wikipedia.org/wiki/Papiamento",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Rama Cay Creole",
+    "iso": "rama-cay-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Saint Kitts Creole",
+    "iso": "saint-kitts-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "San Andrés-Providencia Creole",
+    "iso": "san-andres-providencia-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Tobagonian Creole",
+    "iso": "tobagonian-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Trinidadian Creole",
+    "iso": "trinidadian-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Turks and Caicos Creole",
+    "iso": "turks-and-caicos-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Vincentian Creole",
+    "iso": "vincentian-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Virgin Islands Creole",
+    "iso": "virgin-islands-creole",
+    "region": "Caribbean",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Abkhaz",
@@ -816,15 +1560,128 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Uzbek_language"
   },
   {
+    "name": "Badong Yao",
+    "iso": "badong-yao",
+    "region": "East Asia",
+    "category": "Mixed",
+    "family": "Hmong-Mien"
+  },
+  {
+    "name": "Biao Min",
+    "iso": "biao-min",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic"
+  },
+  {
+    "name": "Biao Mon",
+    "iso": "biao-mon",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic"
+  },
+  {
+    "name": "Big Flowery",
+    "iso": "big-flowery",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Bunu",
+    "iso": "bunu",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Bu–Nao"
+  },
+  {
     "name": "Cantonese",
     "iso": "yue",
     "category": "Sino-Tibetan",
     "region": "East Asia"
   },
   {
+    "name": "Dongjia",
+    "iso": "dongjia",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Dzao Min",
+    "iso": "dzao-min",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic"
+  },
+  {
+    "name": "Gejia",
+    "iso": "gejia",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Guiyang",
+    "iso": "guiyang",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Hm Nai",
+    "iso": "hm-nai",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Bahengic"
+  },
+  {
+    "name": "Hmong",
+    "iso": "hmong",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Hmu",
+    "iso": "hmu",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmuic"
+  },
+  {
+    "name": "Huishui",
+    "iso": "huishui",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Iu Mien",
+    "iso": "iu-mien",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic"
+  },
+  {
+    "name": "Kim Mun",
+    "iso": "kim-mun",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic"
+  },
+  {
+    "name": "Kiong Nai",
+    "iso": "kiong-nai",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Sheic"
+  },
+  {
     "name": "Kor",
     "iso": "kor",
     "region": "East Asia",
+    "family": "Koreanic",
     "category": "Koreanic"
   },
   {
@@ -835,6 +1692,196 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Lingling",
+    "iso": "lingling",
+    "region": "East Asia",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Luobohe",
+    "iso": "luobohe",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Maojia",
+    "iso": "maojia",
+    "region": "East Asia",
+    "category": "Mixed",
+    "family": "Hmong-Mien"
+  },
+  {
+    "name": "Mashan",
+    "iso": "mashan",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Mo Piu",
+    "iso": "mo-piu",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Ná-Meo",
+    "iso": "n-meo",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmuic"
+  },
+  {
+    "name": "Nao Klao",
+    "iso": "nao-klao",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Bu–Nao"
+  },
+  {
+    "name": "Numao",
+    "iso": "numao",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Bu–Nao"
+  },
+  {
+    "name": "Pa Na",
+    "iso": "pa-na",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Sheic"
+  },
+  {
+    "name": "Pa-Hng",
+    "iso": "pa-hng",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Bahengic"
+  },
+  {
+    "name": "Pingtang",
+    "iso": "pingtang",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Proto-Hmong-Mien",
+    "iso": "proto-hmong-mien",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmong-Mien",
+    "tags": [
+      "extinct",
+      "proto"
+    ]
+  },
+  {
+    "name": "Proto-Hmongic",
+    "iso": "proto-hmongic",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmong-Mien",
+    "tags": [
+      "extinct",
+      "proto"
+    ]
+  },
+  {
+    "name": "Proto-Mienic",
+    "iso": "proto-mienic",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmong-Mien",
+    "tags": [
+      "extinct",
+      "proto"
+    ]
+  },
+  {
+    "name": "Raojia",
+    "iso": "raojia",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmuic"
+  },
+  {
+    "name": "Sanqiao",
+    "iso": "sanqiao",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmuic"
+  },
+  {
+    "name": "She",
+    "iso": "she",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Sheic"
+  },
+  {
+    "name": "She Chinese",
+    "iso": "she-chinese",
+    "region": "East Asia",
+    "category": "Mixed",
+    "family": "Hmong-Mien"
+  },
+  {
+    "name": "Small Flowery",
+    "iso": "small-flowery",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Xixiu",
+    "iso": "xixiu",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "West Hmongic"
+  },
+  {
+    "name": "Xong",
+    "iso": "xong",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Xong"
+  },
+  {
+    "name": "Yangchun Pai Yao",
+    "iso": "yangchun-pai-yao",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic"
+  },
+  {
+    "name": "Yeheni",
+    "iso": "yeheni",
+    "region": "East Asia",
+    "category": "Mixed",
+    "family": "Hmong-Mien"
+  },
+  {
+    "name": "Younian",
+    "iso": "younian",
+    "region": "East Asia",
+    "category": "Mixed",
+    "family": "Hmong-Mien"
+  },
+  {
+    "name": "Younuo",
+    "iso": "younuo",
+    "region": "East Asia",
+    "category": "Hmong-Mien",
+    "family": "Sheic"
   },
   {
     "name": "Tatar",
@@ -855,14 +1902,23 @@
     "iso": "aragonese",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Aragonese_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Aragonese_language",
+    "family": "Iberian Romance"
+  },
+  {
+    "name": "Aromanian",
+    "iso": "rup",
+    "region": "Europe",
+    "family": "Eastern Romance",
+    "category": "Romance"
   },
   {
     "name": "Asturian",
     "iso": "asturian",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Asturian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Asturian_language",
+    "family": "Iberian Romance"
   },
   {
     "name": "Basque",
@@ -872,36 +1928,34 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Basque_language"
   },
   {
-    "name": "Basque",
-    "iso": "basque",
-    "category": "Language isolate",
-    "region": "Europe"
-  },
-  {
     "name": "Belarusian",
     "iso": "belarusian",
     "region": "Europe",
     "category": "Slavic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Belarusian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Belarusian_language",
+    "family": "Slavic"
   },
   {
     "name": "Breton",
     "iso": "breton",
     "region": "Europe",
     "category": "Celtic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Breton_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Breton_language",
+    "family": "Celtic"
   },
   {
     "name": "Bulgarian",
     "iso": "bul",
     "category": "Slavic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Slavic"
   },
   {
     "name": "Catalan",
     "iso": "cat",
     "category": "Romance",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Iberian Romance"
   },
   {
     "name": "Chuvash",
@@ -915,29 +1969,33 @@
     "iso": "cornish",
     "region": "Europe",
     "category": "Celtic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cornish_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Cornish_language",
+    "family": "Celtic"
   },
   {
     "name": "Corsican",
     "iso": "corsican",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Corsican_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Corsican_language",
+    "family": "Italo-Romance"
   },
   {
     "name": "Czech",
     "iso": "ces",
     "category": "Slavic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Slavic"
   },
   {
     "name": "Dutch",
     "iso": "nld",
     "category": "Germanic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Germanic"
   },
   {
-    "name": "Eastern Romance family",
+    "name": "Eastern Romance",
     "iso": "eastern-romance-family",
     "region": "Europe",
     "category": "Romance",
@@ -946,10 +2004,18 @@
     ]
   },
   {
+    "name": "Eastern Romanian",
+    "iso": "eastern-romanian",
+    "region": "Europe",
+    "family": "Eastern Romance",
+    "category": "Romance"
+  },
+  {
     "name": "English",
     "iso": "eng",
     "category": "Germanic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Germanic"
   },
   {
     "name": "Estonian",
@@ -963,7 +2029,8 @@
     "iso": "faroese",
     "region": "Europe",
     "category": "Germanic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Faroese_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Faroese_language",
+    "family": "Germanic"
   },
   {
     "name": "Finnish",
@@ -983,34 +2050,39 @@
     "iso": "frisian",
     "region": "Europe",
     "category": "Germanic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Frisian_languages"
+    "wikipedia": "https://en.wikipedia.org/wiki/Frisian_languages",
+    "family": "Germanic"
   },
   {
     "name": "Friulian",
     "iso": "friulian-lang",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Friulian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Friulian_language",
+    "family": "Italo-Romance"
   },
   {
     "name": "Gaelic",
     "iso": "gla",
     "region": "Europe",
     "category": "Celtic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Gaelic"
+    "wikipedia": "https://en.wikipedia.org/wiki/Scottish_Gaelic",
+    "family": "Celtic"
   },
   {
     "name": "Galician",
     "iso": "galician",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Galician_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Galician_language",
+    "family": "Iberian Romance"
   },
   {
     "name": "German",
     "iso": "deu",
     "category": "Germanic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Germanic"
   },
   {
     "name": "Greek",
@@ -1028,27 +2100,38 @@
     "name": "Irish",
     "iso": "gle",
     "category": "Celtic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Celtic"
+  },
+  {
+    "name": "Istro-Romanian",
+    "iso": "ruo",
+    "region": "Europe",
+    "family": "Eastern Romance",
+    "category": "Romance"
   },
   {
     "name": "Italian",
     "iso": "ita",
     "category": "Romance",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Italo-Romance"
   },
   {
     "name": "Ladin",
     "iso": "ladin-lang",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ladin_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ladin_language",
+    "family": "Italo-Romance"
   },
   {
     "name": "Ladino",
     "iso": "ladino",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Judaeo-Spanish"
+    "wikipedia": "https://en.wikipedia.org/wiki/Judaeo-Spanish",
+    "family": "Iberian Romance"
   },
   {
     "name": "Latin",
@@ -1078,28 +2161,46 @@
     "iso": "luxembourgish",
     "region": "Europe",
     "category": "Germanic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Luxembourgish"
+    "wikipedia": "https://en.wikipedia.org/wiki/Luxembourgish",
+    "family": "Germanic"
   },
   {
     "name": "Macedonian",
     "iso": "macedonian",
     "region": "Europe",
     "category": "Slavic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Macedonian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Macedonian_language",
+    "family": "Slavic"
   },
   {
     "name": "Manx",
     "iso": "manx",
     "region": "Europe",
     "category": "Celtic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Manx_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Manx_language",
+    "family": "Celtic"
+  },
+  {
+    "name": "Megleno-Romanian",
+    "iso": "ruq",
+    "region": "Europe",
+    "family": "Eastern Romance",
+    "category": "Romance"
   },
   {
     "name": "Neapolitan",
     "iso": "neapolitan-lang",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Neapolitan_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Neapolitan_language",
+    "family": "Italo-Romance"
+  },
+  {
+    "name": "Northern Romanian",
+    "iso": "northern-romanian",
+    "region": "Europe",
+    "family": "Eastern Romance",
+    "category": "Romance"
   },
   {
     "name": "Northern Sami",
@@ -1119,13 +2220,15 @@
     "name": "Polish",
     "iso": "pol",
     "category": "Slavic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Slavic"
   },
   {
     "name": "Portuguese",
     "iso": "por",
     "category": "Romance",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Iberian Romance"
   },
   {
     "name": "Romani",
@@ -1135,13 +2238,6 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Romani_language"
   },
   {
-    "name": "Romansh",
-    "iso": "romansh",
-    "region": "Europe",
-    "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Romansh_language"
-  },
-  {
     "name": "Romanian (Daco-Romanian)",
     "iso": "ron",
     "region": "Europe",
@@ -1149,91 +2245,72 @@
     "category": "Romance"
   },
   {
-    "name": "Northern Romanian",
-    "iso": "northern-romanian",
+    "name": "Romansh",
+    "iso": "romansh",
     "region": "Europe",
-    "family": "Eastern Romance",
-    "category": "Romance"
-  },
-  {
-    "name": "Eastern Romanian",
-    "iso": "eastern-romanian",
-    "region": "Europe",
-    "family": "Eastern Romance",
-    "category": "Romance"
-  },
-  {
-    "name": "Aromanian",
-    "iso": "rup",
-    "region": "Europe",
-    "family": "Eastern Romance",
-    "category": "Romance"
-  },
-  {
-    "name": "Megleno-Romanian",
-    "iso": "ruq",
-    "region": "Europe",
-    "family": "Eastern Romance",
-    "category": "Romance"
-  },
-  {
-    "name": "Istro-Romanian",
-    "iso": "ruo",
-    "region": "Europe",
-    "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romansh_language",
+    "family": "Italo-Romance"
   },
   {
     "name": "Russian",
     "iso": "rus",
     "category": "Slavic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Slavic"
   },
   {
     "name": "Sardinian",
     "iso": "sardinian",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sardinian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sardinian_language",
+    "family": "Italo-Romance"
   },
   {
     "name": "Serbian",
     "iso": "srp",
     "category": "Slavic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Slavic"
   },
   {
     "name": "Sicilian",
     "iso": "sicilian",
     "region": "Europe",
     "category": "Romance",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_language",
+    "family": "Italo-Romance"
   },
   {
     "name": "Silesian",
     "iso": "silesian",
     "region": "Europe",
     "category": "Slavic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Silesian_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Silesian_language",
+    "family": "Slavic"
   },
   {
     "name": "Slovene",
     "iso": "slovene",
     "region": "Europe",
     "category": "Slavic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language",
+    "family": "Slavic"
   },
   {
     "name": "Spanish",
     "iso": "spa",
     "category": "Romance",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Iberian Romance"
   },
   {
     "name": "Swedish",
     "iso": "swe",
     "category": "Germanic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Germanic"
   },
   {
     "name": "Udmurt",
@@ -1246,7 +2323,8 @@
     "name": "Ukrainian",
     "iso": "ukr",
     "category": "Slavic",
-    "region": "Europe"
+    "region": "Europe",
+    "family": "Slavic"
   },
   {
     "name": "Walloon",
@@ -1260,14 +2338,56 @@
     "iso": "welsh",
     "region": "Europe",
     "category": "Celtic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Welsh_language",
+    "family": "Celtic"
   },
   {
     "name": "Yiddish",
     "iso": "yiddish",
     "region": "Europe",
     "category": "Germanic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Yiddish"
+    "wikipedia": "https://en.wikipedia.org/wiki/Yiddish",
+    "family": "Germanic"
+  },
+  {
+    "name": "Angolar Creole",
+    "iso": "angolar-creole",
+    "region": "Gulf of Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Annobonese Creole",
+    "iso": "annobonese-creole",
+    "region": "Gulf of Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Forro Creole",
+    "iso": "forro-creole",
+    "region": "Gulf of Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Principense Creole",
+    "iso": "principense-creole",
+    "region": "Gulf of Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Newaric",
@@ -1275,6 +2395,46 @@
     "region": "Himalayas",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Newaric_languages"
+  },
+  {
+    "name": "Agalega Creole",
+    "iso": "agalega-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bourbonnais Creole",
+    "iso": "bourbonnais-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Chagossian Creole",
+    "iso": "chagossian-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Cocos Malay",
+    "iso": "cocos-malay",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "Malay-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Comorian",
@@ -1288,14 +2448,52 @@
     "iso": "mauritian-creole",
     "region": "Indian Ocean",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mauritian_Creole"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mauritian_Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Réunion Creole",
+    "iso": "r-union-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Rodriguan Creole",
+    "iso": "rodriguan-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Seychellois Creole",
     "iso": "seychellois-creole",
     "region": "Indian Ocean",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Seychellois_Creole"
+    "wikipedia": "https://en.wikipedia.org/wiki/Seychellois_Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Tayo Creole",
+    "iso": "tayo-creole",
+    "region": "Indian Ocean",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Ch'ol",
@@ -1403,11 +2601,927 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Zapotec_languages"
   },
   {
+    "name": "Adeni Arabic",
+    "iso": "adeni-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Aleppine Arabic",
+    "iso": "aleppine-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Algerian Arabic",
+    "iso": "algerian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Algerian Saharan Arabic",
+    "iso": "algerian-saharan-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Amharic",
+    "iso": "amharic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Amharic-Argobba",
+    "iso": "amharic-argobba",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Ammonite",
+    "iso": "ammonite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Amorite",
+    "iso": "amorite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Anatolian Arabic",
+    "iso": "anatolian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Ancient North Arabian",
+    "iso": "ancient-north-arabian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Andalusi Arabic",
+    "iso": "andalusi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
     "name": "Arabic",
     "iso": "ara",
     "region": "Middle East",
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Arabic"
+  },
+  {
+    "name": "Argobba",
+    "iso": "argobba",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Armazic",
+    "iso": "armazic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Assyrian",
+    "iso": "assyrian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Awsānian",
+    "iso": "aws-nian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Babylonian",
+    "iso": "babylonian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Baghdadi Arabic",
+    "iso": "baghdadi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Bahraini Gulf Arabic",
+    "iso": "bahraini-gulf-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Bahrani Arabic",
+    "iso": "bahrani-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Bakhtiari Arabic",
+    "iso": "bakhtiari-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Asian"
+  },
+  {
+    "name": "Bareqi Arabic",
+    "iso": "bareqi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Barwar",
+    "iso": "barwar",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Barzani Jewish Neo-Aramaic",
+    "iso": "barzani-jewish-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Baṭḥari",
+    "iso": "ba-ari",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
+  },
+  {
+    "name": "Betanure Jewish Neo-Aramaic",
+    "iso": "betanure-jewish-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Biblical Aramaic",
+    "iso": "biblical-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Biblical Hebrew",
+    "iso": "biblical-hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Bohtan Neo-Aramaic",
+    "iso": "bohtan-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Bukharian Arabic",
+    "iso": "bukharian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Asian"
+  },
+  {
+    "name": "Cairene Arabic",
+    "iso": "cairene-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Canaano-Akkadian",
+    "iso": "canaano-akkadian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Central Asian Arabic",
+    "iso": "central-asian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Asian"
+  },
+  {
+    "name": "Central Hilali dialects",
+    "iso": "central-hilali-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Chadian Arabic",
+    "iso": "chadian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Chaha",
+    "iso": "chaha",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Chaldean Neo-Aramaic",
+    "iso": "chaldean-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Christian Palestinian Aramaic",
+    "iso": "christian-palestinian-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Christian Urmi Neo-Aramaic",
+    "iso": "christian-urmi-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Cilician Arabic",
+    "iso": "cilician-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Classical Arabic",
+    "iso": "classical-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Literary"
+  },
+  {
+    "name": "Classical Syriac",
+    "iso": "classical-syriac",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Corfiot Maltese",
+    "iso": "corfiot-maltese",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Cottonera Dialect",
+    "iso": "cottonera-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Cypriot Arabic",
+    "iso": "cypriot-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Dadanitic",
+    "iso": "dadanitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Dahalik",
+    "iso": "dahalik",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Damascene Arabic",
+    "iso": "damascene-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Dhofari Arabic",
+    "iso": "dhofari-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Dilmunite",
+    "iso": "dilmunite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Djibouti Arabic",
+    "iso": "djibouti-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Duhok",
+    "iso": "duhok",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Dumaitic",
+    "iso": "dumaitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "East Gurage",
+    "iso": "east-gurage",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Eastern Egyptian Bedawi Arabic",
+    "iso": "eastern-egyptian-bedawi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northwest Arabian"
+  },
+  {
+    "name": "Eastern Hilali dialects",
+    "iso": "eastern-hilali-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Eastern Middle Aramaic",
+    "iso": "eastern-middle-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Eastern pre-Hilali Dialects",
+    "iso": "eastern-pre-hilali-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Eblaite",
+    "iso": "eblaite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Edomite",
+    "iso": "edomite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Egyptian Arabic",
+    "iso": "egyptian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Egypto-Sudanic Arabic",
+    "iso": "egypto-sudanic-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Emirati Arabic",
+    "iso": "emirati-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Endegen",
+    "iso": "endegen",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Ezha",
+    "iso": "ezha",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Faifi",
+    "iso": "faifi",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Fessi dialect",
+    "iso": "fessi-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Gafat",
+    "iso": "gafat",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Galilean dialect",
+    "iso": "galilean-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Geʽez",
+    "iso": "ge-ez",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Gilit Dialects",
+    "iso": "gilit-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Gozitan dialects",
+    "iso": "gozitan-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Gulf Arabic",
+    "iso": "gulf-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Gumer",
+    "iso": "gumer",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Gura",
+    "iso": "gura",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Gyeto",
+    "iso": "gyeto",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Hadhrami Arabic",
+    "iso": "hadhrami-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Hadramautic",
+    "iso": "hadramautic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Harari",
+    "iso": "harari",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Harari-East Gurage",
+    "iso": "harari-east-gurage",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Ḥarsusi",
+    "iso": "-arsusi",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
+  },
+  {
+    "name": "Hasaitic",
+    "iso": "hasaitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Hassaniya Arabic",
+    "iso": "hassaniya-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Hatran Aramaic",
+    "iso": "hatran-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Hebrew",
+    "iso": "hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Hebrew"
+  },
+  {
+    "name": "Hejazi Arabic",
+    "iso": "hejazi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Hertevin Neo-Aramaic",
+    "iso": "hertevin-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Hilalian dialects",
+    "iso": "hilalian-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Himyaritic",
+    "iso": "himyaritic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Hismaic",
+    "iso": "hismaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Hobyót",
+    "iso": "hoby-t",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
+  },
+  {
+    "name": "Huḏayl dialect",
+    "iso": "hu-ayl-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Arabic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Hulaulá",
+    "iso": "hulaul-",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Imperial Aramaic",
+    "iso": "imperial-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Inneqor",
+    "iso": "inneqor",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Inor",
+    "iso": "inor",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Inter-Zab",
+    "iso": "inter-zab",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Iraqi Arabic",
+    "iso": "iraqi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Israelian Hebrew",
+    "iso": "israelian-hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Hebrew"
+  },
+  {
+    "name": "Jebli Arabic",
+    "iso": "jebli-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Jewish Assyrian Neo-Aramaic",
+    "iso": "jewish-assyrian-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Jewish Babylonian Aramaic",
+    "iso": "jewish-babylonian-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Southeastern Aramaic"
+  },
+  {
+    "name": "Jewish Baghdadi Arabic",
+    "iso": "jewish-baghdadi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Jewish Palestinian Aramaic",
+    "iso": "jewish-palestinian-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Jijel Arabic",
+    "iso": "jijel-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Jordanian Arabic",
+    "iso": "jordanian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Judeo-Algerian Arabic",
+    "iso": "judeo-algerian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Judeo-Baghdadi",
+    "iso": "judeo-baghdadi",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Judeo-Egyptian Arabic",
+    "iso": "judeo-egyptian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Judeo-Fessi",
+    "iso": "judeo-fessi",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Judeo-Iraqi Arabic",
+    "iso": "judeo-iraqi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Judeo-Moroccan Arabic",
+    "iso": "judeo-moroccan-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Judeo-Syrian Arabic",
+    "iso": "judeo-syrian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Judeo-Tripolitanian Arabic",
+    "iso": "judeo-tripolitanian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Judeo-Tunisian Arabic",
+    "iso": "judeo-tunisian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Judeo-Yemeni Arabic",
+    "iso": "judeo-yemeni-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Kashkadarian Arabic",
+    "iso": "kashkadarian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Asian"
+  },
+  {
+    "name": "Khorasani Arabic",
+    "iso": "khorasani-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Asian"
+  },
+  {
+    "name": "Khuzestani Arabic",
+    "iso": "khuzestani-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Kishite",
+    "iso": "kishite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Koy Sanjaq Christian Neo-Aramaic",
+    "iso": "koy-sanjaq-christian-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Koy Sanjaq Jewish Neo-Aramaic",
+    "iso": "koy-sanjaq-jewish-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
   },
   {
     "name": "Kurdish",
@@ -1417,6 +3531,369 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_languages"
   },
   {
+    "name": "Kuwaiti Arabic",
+    "iso": "kuwaiti-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Lebanese Arabic",
+    "iso": "lebanese-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Lebanese Aramaic",
+    "iso": "lebanese-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Levantine Arabic",
+    "iso": "levantine-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Levantine Bedawi Arabic",
+    "iso": "levantine-bedawi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northwest Arabian"
+  },
+  {
+    "name": "Libyan Arabic",
+    "iso": "libyan-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Lishán Didán",
+    "iso": "lish-n-did-n",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Lishana Deni",
+    "iso": "lishana-deni",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Lishanid Noshan",
+    "iso": "lishanid-noshan",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Maghrebi Arabic",
+    "iso": "maghrebi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Maghrebi Judeo-Arabic",
+    "iso": "maghrebi-judeo-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Maltralian",
+    "iso": "maltralian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Mandaic",
+    "iso": "mandaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Southeastern Aramaic"
+  },
+  {
+    "name": "Maqil dialects",
+    "iso": "maqil-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Mashriqi Arabic",
+    "iso": "mashriqi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Medieval Hebrew",
+    "iso": "medieval-hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Mesmes",
+    "iso": "mesmes",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Mesopotamian Arabic",
+    "iso": "mesopotamian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Mesqan",
+    "iso": "mesqan",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Middle Aramaic",
+    "iso": "middle-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Minaean",
+    "iso": "minaean",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Mishnaic Hebrew",
+    "iso": "mishnaic-hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Mlaḥsô",
+    "iso": "mla-s-",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Neo-Aramaic"
+  },
+  {
+    "name": "Moabite",
+    "iso": "moabite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Modern Hebrew",
+    "iso": "modern-hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Hebrew"
+  },
+  {
+    "name": "Modern Palestinian Judeo-Arabic",
+    "iso": "modern-palestinian-judeo-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Modern South Arabian",
+    "iso": "modern-south-arabian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
+  },
+  {
+    "name": "Modern Standard Arabic",
+    "iso": "modern-standard-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Literary"
+  },
+  {
+    "name": "Moroccan Arabic",
+    "iso": "moroccan-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Muher",
+    "iso": "muher",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Nabataean Arabic",
+    "iso": "nabataean-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Nabataean Aramaic",
+    "iso": "nabataean-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Najdi Arabic",
+    "iso": "najdi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Neo-Mandaic",
+    "iso": "neo-mandaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Southeastern Aramaic"
+  },
+  {
+    "name": "North Canaanite",
+    "iso": "north-canaanite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "North Levantine Arabic",
+    "iso": "north-levantine-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "North Mesopotamian Arabic",
+    "iso": "north-mesopotamian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Northwest Arabian Arabic",
+    "iso": "northwest-arabian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northwest Arabian"
+  },
+  {
+    "name": "Old Akkadian",
+    "iso": "old-akkadian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "East Semitic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Arabic",
+    "iso": "old-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Aramaic",
+    "iso": "old-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Old Hijazi Arabic",
+    "iso": "old-hijazi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Old South Arabian",
+    "iso": "old-south-arabian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Omani Arabic",
+    "iso": "omani-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Palestinian Arabic",
+    "iso": "palestinian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Palestinian Aramaic",
+    "iso": "palestinian-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Palmyrene Aramaic",
+    "iso": "palmyrene-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Peninsular Arabic",
+    "iso": "peninsular-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
     "name": "Persian",
     "iso": "persian",
     "region": "Middle East",
@@ -1424,10 +3901,1822 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Persian_language"
   },
   {
+    "name": "Philistine",
+    "iso": "philistine",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Phoenician",
+    "iso": "phoenician",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Pre-classical Arabic",
+    "iso": "pre-classical-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Pre-Hilalian dialects",
+    "iso": "pre-hilalian-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Pre-Hilalian Urban Arabic dialects",
+    "iso": "pre-hilalian-urban-arabic-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Punic",
+    "iso": "punic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Qaraqosh Neo-Aramaic",
+    "iso": "qaraqosh-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Qatabanian",
+    "iso": "qatabanian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Qatari Arabic",
+    "iso": "qatari-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Qeltu Dialects",
+    "iso": "qeltu-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Qormi dialect",
+    "iso": "qormi-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Razihi",
+    "iso": "razihi",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Rijal Alma",
+    "iso": "rijal-alma",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Sabaic",
+    "iso": "sabaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old South Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Safaitic",
+    "iso": "safaitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Saʽidi Arabic",
+    "iso": "sa-idi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Samalian",
+    "iso": "samalian",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Old Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Samaritan Aramaic",
+    "iso": "samaritan-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Aramaic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Samaritan Hebrew",
+    "iso": "samaritan-hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "Sanandaj",
+    "iso": "sanandaj",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Sanʽani Arabic",
+    "iso": "san-ani-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Sebat Bet",
+    "iso": "sebat-bet",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Sebat Bet Gurage",
+    "iso": "sebat-bet-gurage",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Senaya Neo-Aramaic",
+    "iso": "senaya-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Shawi Arabic",
+    "iso": "shawi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Shehri",
+    "iso": "shehri",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
+  },
+  {
+    "name": "Shihhi Arabic",
+    "iso": "shihhi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Shirvani Arabic",
+    "iso": "shirvani-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Asian"
+  },
+  {
+    "name": "Siculo-Arabic",
+    "iso": "siculo-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Silt'e",
+    "iso": "silte",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Soddo",
+    "iso": "soddo",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Soqotri",
+    "iso": "soqotri",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Modern South Arabian"
+  },
+  {
+    "name": "South Canaanite",
+    "iso": "south-canaanite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "South Gileadite",
+    "iso": "south-gileadite",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
+  },
+  {
+    "name": "South Levantine Arabic",
+    "iso": "south-levantine-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "South Mesopotamian Arabic",
+    "iso": "south-mesopotamian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Mesopotamian"
+  },
+  {
+    "name": "Sudanese Arabic",
+    "iso": "sudanese-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Sudanese-Chadian Arabic",
+    "iso": "sudanese-chadian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Sulaym dialects",
+    "iso": "sulaym-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Sureth",
+    "iso": "sureth",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Sutean",
+    "iso": "sutean",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Taʽizzi Arabic",
+    "iso": "ta-izzi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Taʽizzi-Adeni Arabic",
+    "iso": "ta-izzi-adeni-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Taymanitic",
+    "iso": "taymanitic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Canaanite",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Ṭayyiˀ dialect",
+    "iso": "-ayyi-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Arabic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Thamudic",
+    "iso": "thamudic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Thamudic B",
+    "iso": "thamudic-b",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Arabian",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Tigrinya",
+    "iso": "tigrinya",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Tihamiyya Arabic",
+    "iso": "tihamiyya-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Trans-Zab",
+    "iso": "trans-zab",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Tunisian Arabic",
+    "iso": "tunisian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
     "name": "Turkish",
     "iso": "tur",
     "category": "Turkic",
     "region": "Middle East"
+  },
+  {
+    "name": "Turoyo",
+    "iso": "turoyo",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Central Neo-Aramaic"
+  },
+  {
+    "name": "Ulbare",
+    "iso": "ulbare",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "West Gurage",
+    "iso": "west-gurage",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Western Egyptian Bedawi Arabic",
+    "iso": "western-egyptian-bedawi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
+    "name": "Western Hilali dialects",
+    "iso": "western-hilali-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Western Middle Aramaic",
+    "iso": "western-middle-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Middle Aramaic"
+  },
+  {
+    "name": "Western Neo-Aramaic",
+    "iso": "western-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Western Neo-Aramaic"
+  },
+  {
+    "name": "Western pre-Hilali dialects",
+    "iso": "western-pre-hilali-dialects",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Wolane",
+    "iso": "wolane",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Yafi'i Arabic",
+    "iso": "yafii-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Yemeni Arabic",
+    "iso": "yemeni-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Zabidi dialect",
+    "iso": "zabidi-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Peninsular"
+  },
+  {
+    "name": "Zakho",
+    "iso": "zakho",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Northeastern Neo-Aramaic"
+  },
+  {
+    "name": "Zay",
+    "iso": "zay",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "Żejtun dialect",
+    "iso": "-ejtun-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
+    "name": "Zway",
+    "iso": "zway",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Transversal"
+  },
+  {
+    "name": "ˀAzd dialect",
+    "iso": "-azd-dialect",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Other Arabic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Aboriginal Pidgin English",
+    "iso": "aboriginal-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Algonquian-Basque pidgin",
+    "iso": "algonquian-basque-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "American Indian Pidgin English",
+    "iso": "american-indian-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Andaman Creole Hindi",
+    "iso": "andaman-creole-hindi",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Hindi-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Arabic-Javanese of Klego",
+    "iso": "arabic-javanese-of-klego",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Arafundi-Enga Pidgin",
+    "iso": "arafundi-enga-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Bamboo English",
+    "iso": "bamboo-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Barikanchi Pidgin",
+    "iso": "barikanchi-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Basque-Icelandic pidgin",
+    "iso": "basque-icelandic-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Berbice",
+    "iso": "berbice",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bimbashi Arabic",
+    "iso": "bimbashi-arabic",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Bolze",
+    "iso": "bolze",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Bongor Arabic",
+    "iso": "bongor-arabic",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other Arabic",
+    "tags": [
+      "pidgin",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Borgarmålet",
+    "iso": "borgarm-let",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Bozal Spanish",
+    "iso": "bozal-spanish",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Spanish-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Broken Oghibbeway",
+    "iso": "broken-oghibbeway",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Broken Slavey",
+    "iso": "broken-slavey",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Broome Pearling Lugger Pidgin",
+    "iso": "broome-pearling-lugger-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Butler English",
+    "iso": "butler-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Cameroonian Pidgin English",
+    "iso": "cameroonian-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Camtho",
+    "iso": "camtho",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Cappadocian Greek",
+    "iso": "cappadocian-greek",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Cauque Mayan language",
+    "iso": "cauque-mayan-language",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Chavacano",
+    "iso": "chavacano",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Spanish-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Chinese Pidgin English",
+    "iso": "chinese-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Cocoliche",
+    "iso": "cocoliche",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Cypriot Maronite-Arabic",
+    "iso": "cypriot-maronite-arabic",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Dao",
+    "iso": "dao",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Duvle-Wano Pidgin",
+    "iso": "duvle-wano-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "E",
+    "iso": "e",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Eskimo Trade Jargon",
+    "iso": "eskimo-trade-jargon",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Ewondo Populaire",
+    "iso": "ewondo-populaire",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Fanagalo",
+    "iso": "fanagalo",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Français Tirailleur",
+    "iso": "fran-ais-tirailleur",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Gadal",
+    "iso": "gadal",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Gurindji Kriol",
+    "iso": "gurindji-kriol",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Haflong Hindi",
+    "iso": "haflong-hindi",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Hawaiian Pidgin English",
+    "iso": "hawaiian-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Hezhou",
+    "iso": "hezhou",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "International Sign",
+    "iso": "international-sign",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Inuktitut-English Pidgin",
+    "iso": "inuktitut-english-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Italian Eritrean",
+    "iso": "italian-eritrean",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Italo-Paulista",
+    "iso": "italo-paulista",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Japanese Bamboo English",
+    "iso": "japanese-bamboo-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Japanese Pidgin English",
+    "iso": "japanese-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Javindo",
+    "iso": "javindo",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Jersey Dutch",
+    "iso": "jersey-dutch",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Juba Arabic",
+    "iso": "juba-arabic",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Arabic-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Kanbun Kundoku",
+    "iso": "kanbun-kundoku",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Japanese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Kiautschou Pidgin German",
+    "iso": "kiautschou-pidgin-german",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "KiKAR",
+    "iso": "kikar",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Kituba",
+    "iso": "kituba",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Kongo-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Korean Bamboo English",
+    "iso": "korean-bamboo-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Kru Pidgin English",
+    "iso": "kru-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Kwoma-Manambu Pidgin",
+    "iso": "kwoma-manambu-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Kyakhta Russian-Chinese Pidgin",
+    "iso": "kyakhta-russian-chinese-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Kyowa-go",
+    "iso": "kyowa-go",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Labrador Inuit Pidgin French",
+    "iso": "labrador-inuit-pidgin-french",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Liberian Interior Pidgin English",
+    "iso": "liberian-interior-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Light Warlpiri",
+    "iso": "light-warlpiri",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Língua Geral Amazônica",
+    "iso": "l-ngua-geral-amaz-nica",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Língua Geral Paulista",
+    "iso": "l-ngua-geral-paulista",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Loucheux Jargon",
+    "iso": "loucheux-jargon",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Madras Bashai",
+    "iso": "madras-bashai",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Makassar Malay",
+    "iso": "makassar-malay",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Maridi Arabic",
+    "iso": "maridi-arabic",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other Arabic",
+    "tags": [
+      "pidgin",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Maritime Polynesian Pidgin",
+    "iso": "maritime-polynesian-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Mbugu",
+    "iso": "mbugu",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Media Lengua",
+    "iso": "media-lengua",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Mediterranean Lingua Franca",
+    "iso": "mediterranean-lingua-franca",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Mednyj Aleut",
+    "iso": "mednyj-aleut",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Mekeo pidgins",
+    "iso": "mekeo-pidgins",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Michif",
+    "iso": "michif",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Micronesian Pidgin English",
+    "iso": "micronesian-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Missingsch",
+    "iso": "missingsch",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Mobilian Jargon",
+    "iso": "mobilian-jargon",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Mohawk Dutch",
+    "iso": "mohawk-dutch",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Nagamese",
+    "iso": "nagamese",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Assamese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Namibian Black German",
+    "iso": "namibian-black-german",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Nauru Pidgin English",
+    "iso": "nauru-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Ndyuka-Tiriyó Pidgin",
+    "iso": "ndyuka-tiriy-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Nefamese",
+    "iso": "nefamese",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Negerhollands",
+    "iso": "negerhollands",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Negro Dutch",
+    "iso": "negro-dutch",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Nootka Jargon",
+    "iso": "nootka-jargon",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Nubi",
+    "iso": "nubi",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Arabic-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Oorlams Creole",
+    "iso": "oorlams-creole",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Afrikaans-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Palenquero",
+    "iso": "palenquero",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Spanish-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Papua New Guinea Pidgin",
+    "iso": "papua-new-guinea-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Papuan Pidgin English",
+    "iso": "papuan-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Para-Romani languages",
+    "iso": "para-romani-languages",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Petjo",
+    "iso": "petjo",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Petuh",
+    "iso": "petuh",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Pidgin Delaware",
+    "iso": "pidgin-delaware",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pidgin Hawaiian",
+    "iso": "pidgin-hawaiian",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pidgin Iha",
+    "iso": "pidgin-iha",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pidgin Ngarluma",
+    "iso": "pidgin-ngarluma",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pidgin Onin",
+    "iso": "pidgin-onin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pidgin Wolof",
+    "iso": "pidgin-wolof",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Port Jackson Pidgin English",
+    "iso": "port-jackson-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pretoria Sotho",
+    "iso": "pretoria-sotho",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Sotho-Tswana-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Queensland Kanaka English",
+    "iso": "queensland-kanaka-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Roquetas Pidgin Spanish",
+    "iso": "roquetas-pidgin-spanish",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Russenorsk",
+    "iso": "russenorsk",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Samoan Plantation Pidgin",
+    "iso": "samoan-plantation-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Settler Swahili",
+    "iso": "settler-swahili",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Simplified Italian of Libya",
+    "iso": "simplified-italian-of-libya",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Simplified Italian of Somalia",
+    "iso": "simplified-italian-of-somalia",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Skepi Dutch Creole",
+    "iso": "skepi-dutch-creole",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Dutch-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Solombala-English",
+    "iso": "solombala-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Solomon Islands Pijin",
+    "iso": "solomon-islands-pijin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Taimyr Pidgin Russian",
+    "iso": "taimyr-pidgin-russian",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Tangwang",
+    "iso": "tangwang",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Chinese-based",
+    "tags": [
+      "creole",
+      "mixed"
+    ]
+  },
+  {
+    "name": "Tansi",
+    "iso": "tansi",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Tây Bồi Pidgin French",
+    "iso": "t-y-b-i-pidgin-french",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Te Parau Tinito",
+    "iso": "te-parau-tinito",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Thai Pidgin English",
+    "iso": "thai-pidgin-english",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Tinglish",
+    "iso": "tinglish",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Tsotsitaal",
+    "iso": "tsotsitaal",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Tswana-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Turku Arabic",
+    "iso": "turku-arabic",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other Arabic",
+    "tags": [
+      "pidgin",
+      "extinct"
+    ]
+  },
+  {
+    "name": "Unserdeutsch",
+    "iso": "unserdeutsch",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "German-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Vedda language",
+    "iso": "vedda-language",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Sinhala-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Waxiang",
+    "iso": "waxiang",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "West Greenlandic Pidgin",
+    "iso": "west-greenlandic-pidgin",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Wutunhua",
+    "iso": "wutunhua",
+    "region": "Misc",
+    "category": "Mixed",
+    "family": "Mixed",
+    "tags": [
+      "mixed"
+    ]
+  },
+  {
+    "name": "Xieheyu",
+    "iso": "xieheyu",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Yilan Creole Japanese",
+    "iso": "yilan-creole-japanese",
+    "region": "Misc",
+    "category": "Creole",
+    "family": "Japanese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Yokohama Pidgin Japanese",
+    "iso": "yokohama-pidgin-japanese",
+    "region": "Misc",
+    "category": "Pidgin",
+    "family": "Other",
+    "tags": [
+      "pidgin"
+    ]
   },
   {
     "name": "Ber family",
@@ -1442,37 +5731,53 @@
     "name": "Central Atlas Tamazight",
     "iso": "central-atlas-tamazight",
     "region": "North Africa",
+    "family": "Berber",
     "category": "Afroasiatic"
   },
   {
     "name": "Kabyle",
     "iso": "kabyle",
     "region": "North Africa",
+    "family": "Berber",
     "category": "Afroasiatic"
   },
   {
     "name": "Shawiya",
     "iso": "shawiya",
     "region": "North Africa",
+    "family": "Berber",
     "category": "Afroasiatic"
   },
   {
     "name": "Shilha",
     "iso": "shilha",
     "region": "North Africa",
+    "family": "Berber",
     "category": "Afroasiatic"
   },
   {
     "name": "Tarifit",
     "iso": "tarifit",
     "region": "North Africa",
+    "family": "Berber",
     "category": "Afroasiatic"
   },
   {
     "name": "Tuareg Tamasheq",
     "iso": "tuareg-tamasheq",
     "region": "North Africa",
+    "family": "Berber",
     "category": "Afroasiatic"
+  },
+  {
+    "name": "Afro-Seminole Creole",
+    "iso": "afro-seminole-creole",
+    "region": "North America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Blackfoot",
@@ -1501,6 +5806,16 @@
     "region": "North America",
     "category": "Siouan",
     "wikipedia": "https://en.wikipedia.org/wiki/Dakota_language"
+  },
+  {
+    "name": "Gullah",
+    "iso": "gullah",
+    "region": "North America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Haida",
@@ -1587,6 +5902,48 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Yaqui_language"
   },
   {
+    "name": "Macanese Patois",
+    "iso": "macanese-patois",
+    "region": "Others",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Australian Kriol",
+    "iso": "australian-kriol",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Bislama",
+    "iso": "bislama",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Bonin English",
+    "iso": "bonin-english",
+    "region": "Pacific",
+    "category": "Mixed",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "mixed"
+    ]
+  },
+  {
     "name": "Chamorro",
     "iso": "chamorro",
     "region": "Pacific",
@@ -1599,6 +5956,16 @@
     "region": "Pacific",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Fijian_language"
+  },
+  {
+    "name": "Hawaiian Pidgin",
+    "iso": "hawaiian-pidgin",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Kiribati",
@@ -1622,11 +5989,52 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Marshallese_language"
   },
   {
+    "name": "Melanesian Pidgin",
+    "iso": "melanesian-pidgin",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Ngatikese Creole",
+    "iso": "ngatikese-creole",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Palauan",
     "iso": "palauan",
     "region": "Pacific",
     "category": "Micronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Palauan_language"
+  },
+  {
+    "name": "Pijin",
+    "iso": "pijin",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ]
+  },
+  {
+    "name": "Pitcairn-Norfolk",
+    "iso": "pitcairn-norfolk",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Rarotongan",
@@ -1643,6 +6051,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Samoan_language"
   },
   {
+    "name": "Singlish",
+    "iso": "singlish",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Tahitian",
     "iso": "tahitian",
     "region": "Pacific",
@@ -1654,7 +6072,12 @@
     "iso": "tok-pisin",
     "region": "Pacific",
     "category": "Creole",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tok_Pisin"
+    "wikipedia": "https://en.wikipedia.org/wiki/Tok_Pisin",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ]
   },
   {
     "name": "Tongan",
@@ -1662,6 +6085,16 @@
     "region": "Pacific",
     "category": "Polynesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tongan_language"
+  },
+  {
+    "name": "Torres Strait Creole",
+    "iso": "torres-strait-creole",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Angami Pochuri",
@@ -2307,6 +6740,16 @@
     ]
   },
   {
+    "name": "Aluku",
+    "iso": "aluku",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Arawak",
     "iso": "arawak",
     "region": "South America",
@@ -2328,11 +6771,38 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Guarani_language"
   },
   {
+    "name": "Guyanese Creole",
+    "iso": "guyanese-creole",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Kichwa",
     "iso": "kichwa",
     "region": "South America",
     "category": "Quechuan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kichwa_language"
+  },
+  {
+    "name": "Kwaza",
+    "iso": "kwaza",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Language isolate"
+  },
+  {
+    "name": "Kwinti",
+    "iso": "kwinti",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Mapudungun",
@@ -2342,11 +6812,41 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mapuche_language"
   },
   {
+    "name": "Matawai",
+    "iso": "matawai",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Ndyuka",
+    "iso": "ndyuka",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Quechua",
     "iso": "que",
     "region": "South America",
     "category": "Quechuan",
     "wikipedia": "https://en.wikipedia.org/wiki/Quechuan_languages"
+  },
+  {
+    "name": "Saramaccan",
+    "iso": "saramaccan",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Southern Quechua",
@@ -2363,6 +6863,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Sranan_Tongo"
   },
   {
+    "name": "Sranan Tongo",
+    "iso": "sranan-tongo",
+    "region": "South America",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
     "name": "Tikuna",
     "iso": "tikuna",
     "region": "South America",
@@ -2375,6 +6885,166 @@
     "region": "South America",
     "category": "Arawakan",
     "wikipedia": "https://en.wikipedia.org/wiki/Wayuu_language"
+  },
+  {
+    "name": "Xocó",
+    "iso": "xoc-",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Language isolate",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Antillean Creole",
+    "iso": "antillean-creole",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Dominican Creole French",
+    "iso": "dominican-creole-french",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "French Guianese Creole",
+    "iso": "french-guianese-creole",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Grenadian Creole French",
+    "iso": "grenadian-creole-french",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Karipúna French Creole",
+    "iso": "karip-na-french-creole",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Louisiana Creole",
+    "iso": "louisiana-creole",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Saint Lucian Creole",
+    "iso": "saint-lucian-creole",
+    "region": "The Americas",
+    "category": "Creole",
+    "family": "French-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Barlavento Creoles",
+    "iso": "barlavento-creoles",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Fogo Creole",
+    "iso": "fogo-creole",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Guinea-Bissau Creole",
+    "iso": "guinea-bissau-creole",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Santiago Creole",
+    "iso": "santiago-creole",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Santo Antão Creole",
+    "iso": "santo-ant-o-creole",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "São Nicolau Creole",
+    "iso": "s-o-nicolau-creole",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "São Vicente Creole",
+    "iso": "s-o-vicente-creole",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
+  },
+  {
+    "name": "Sotavento Creoles",
+    "iso": "sotavento-creoles",
+    "region": "Upper Guinea",
+    "category": "Creole",
+    "family": "Portuguese-based",
+    "tags": [
+      "creole"
+    ]
   }
 ];
 })();
