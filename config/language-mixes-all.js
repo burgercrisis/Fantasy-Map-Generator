@@ -3262,6 +3262,14 @@
     "family": "Yoruboid"
   },
   {
+    "name": "Yoruba",
+    "iso": "yoruba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
+    "family": "Yoruboid"
+  },
+  {
     "name": "Zari",
     "iso": "zari-chadic",
     "region": "Africa",
@@ -3448,14 +3456,16 @@
     "iso": "ahom",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ahom_language",
+    "family": "Tai"
   },
   {
     "name": "Ai Cham",
     "iso": "ai-cham",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ai-Cham_language",
+    "family": "Kam-Sui"
   },
   {
     "name": "Ainu",
@@ -3599,7 +3609,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Awadhi_language",
-    "family": "Indo-Aryan"
+    "family": "Eastern Hindi"
   },
   {
     "iso": "baarin",
@@ -3768,7 +3778,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Bengali_language",
-    "family": "Indo-Aryan"
+    "family": "Bengali–Assamese"
   },
   {
     "name": "Bengali Portuguese Creole",
@@ -3805,7 +3815,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Bhojpuri_language",
-    "family": "Indo-Aryan"
+    "family": "Bihari"
   },
   {
     "name": "Biao Kam Sui",
@@ -3882,7 +3892,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Braj_Bhasha",
-    "family": "Indo-Aryan"
+    "family": "Western Hindi"
   },
   {
     "name": "Brao",
@@ -3904,7 +3914,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Bundeli_language",
-    "family": "Indo-Aryan"
+    "family": "Western Hindi"
   },
   {
     "name": "Buryat",
@@ -4016,14 +4026,15 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Chhattisgarhi_language",
-    "family": "Indo-Aryan"
+    "family": "Eastern Hindi"
   },
   {
     "name": "Chiang Saen",
     "iso": "chiang-saen",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "wikipedia": "https://en.wikipedia.org/wiki/Southwestern_Tai_languages",
+    "family": "Tai"
   },
   {
     "name": "Chin",
@@ -4049,7 +4060,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Chittagonian_language",
-    "family": "Indo-Aryan"
+    "family": "Bengali–Assamese"
   },
   {
     "name": "Cholanaikkan",
@@ -4178,7 +4189,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Dogri_language",
-    "family": "Indo-Aryan"
+    "family": "Western Pahari"
   },
   {
     "iso": "dongxiang",
@@ -4366,7 +4377,8 @@
     "iso": "hezhang-buyi",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hezhang_Buyi_language",
+    "family": "Kra"
   },
   {
     "name": "Hindi",
@@ -4374,7 +4386,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Hindi",
-    "family": "Indo-Aryan"
+    "family": "Western Hindi"
   },
   {
     "name": "Hlai",
@@ -4482,6 +4494,14 @@
   {
     "name": "Japanese",
     "iso": "jpn",
+    "region": "Asia",
+    "category": "Japonic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
+    "family": "Japonic"
+  },
+  {
+    "name": "Japanese",
+    "iso": "jpn-lang",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
@@ -4896,7 +4916,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Konkani_language",
-    "family": "Indo-Aryan"
+    "family": "Marathi–Konkani"
   },
   {
     "name": "Koraga",
@@ -5182,7 +5202,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Magahi_language",
-    "family": "Indo-Aryan"
+    "family": "Bihari"
   },
   {
     "name": "Maguindanao",
@@ -5205,7 +5225,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Maithili_language",
-    "family": "Indo-Aryan"
+    "family": "Bihari"
   },
   {
     "name": "Mak Kam Sui",
@@ -5331,7 +5351,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Marathi_language",
-    "family": "Indo-Aryan"
+    "family": "Marathi–Konkani"
   },
   {
     "name": "Mardijker Creole",
@@ -6041,14 +6061,15 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Punjabi_language",
-    "family": "Indo-Aryan"
+    "family": "Punjabi–Lahnda"
   },
   {
     "name": "Pyang Zhuang",
     "iso": "pyang-zhuang",
     "region": "Asia",
     "category": "Tai-Kadai",
-    "family": "Tai-Kadai"
+    "wikipedia": "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "family": "Tai"
   },
   {
     "name": "Qabiao",
@@ -6088,7 +6109,7 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Rajasthani_languages",
-    "family": "Indo-Aryan"
+    "family": "Rajasthani"
   },
   {
     "name": "Ravula",
@@ -7084,6 +7105,7 @@
     "iso": "dhuwal",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dhuwal_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7091,6 +7113,7 @@
     "iso": "djaru",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Djaru_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7098,6 +7121,7 @@
     "iso": "djinang",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Djinang_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7105,6 +7129,7 @@
     "iso": "gamilaraay",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gamilaraay_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7112,6 +7137,7 @@
     "iso": "githabul",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Githabul_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7119,6 +7145,7 @@
     "iso": "gooniyandi",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guniyandi_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7126,6 +7153,7 @@
     "iso": "gurindji",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gurindji_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7133,6 +7161,7 @@
     "iso": "guugu-yimidhirr",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guugu_Yimithirr_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7140,6 +7169,7 @@
     "iso": "iwaidja",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iwaidja_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7147,6 +7177,7 @@
     "iso": "kaytetye",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaytetye_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7154,6 +7185,7 @@
     "iso": "kija",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gija_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7161,6 +7193,7 @@
     "iso": "kukatja",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kukatja_(Western_Australia)",
     "family": "Australian Aboriginal"
   },
   {
@@ -7168,6 +7201,7 @@
     "iso": "kuku-yalanji",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guugu_Yalandji_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7175,6 +7209,7 @@
     "iso": "kunwinjku",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kunwinjku_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7182,6 +7217,7 @@
     "iso": "kuuk-thaayore",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kuuk_Thaayorre_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7189,6 +7225,7 @@
     "iso": "luritja",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luritja_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7196,6 +7233,7 @@
     "iso": "manytjilyitjarra",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manyjilyjarra_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7203,6 +7241,7 @@
     "iso": "martu-wangka",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martu_Wangka_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7210,6 +7249,7 @@
     "iso": "maung",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maung_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7217,6 +7257,7 @@
     "iso": "miriwoong",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miriwoong_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7224,6 +7265,7 @@
     "iso": "murrinh-patha",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Murrinh-patha_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7231,6 +7273,7 @@
     "iso": "ngaanyatjarra",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ngaanyatjarra_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7238,6 +7281,7 @@
     "iso": "ngarrindjeri",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ngarrindjeri_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7245,6 +7289,7 @@
     "iso": "noongar",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Noongar_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7252,6 +7297,7 @@
     "iso": "nunggubuyu",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nunggubuyu_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7259,6 +7305,7 @@
     "iso": "nyangumarta",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nyangumarta_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7266,6 +7313,7 @@
     "iso": "palawa-kani",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palawa_kani",
     "family": "Australian Aboriginal"
   },
   {
@@ -7273,6 +7321,7 @@
     "iso": "panyjima",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Panyjima_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7280,6 +7329,7 @@
     "iso": "pintupi",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pintupi_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7287,6 +7337,7 @@
     "iso": "pitjantjatjara",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pitjantjatjara_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7294,6 +7345,7 @@
     "iso": "tiwi",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tiwi_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7301,6 +7353,7 @@
     "iso": "upper-arrernte",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arrernte_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7308,6 +7361,7 @@
     "iso": "wajarri",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wajarri_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7315,6 +7369,7 @@
     "iso": "walmatjarri",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walmajarri_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7322,6 +7377,7 @@
     "iso": "wangkatha",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wangkatha",
     "family": "Australian Aboriginal"
   },
   {
@@ -7329,6 +7385,7 @@
     "iso": "warlpiri",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Warlpiri_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7336,6 +7393,7 @@
     "iso": "warumungu",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Warumungu_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7343,6 +7401,7 @@
     "iso": "wik-mungkan",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wik_Mungkan_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7350,6 +7409,7 @@
     "iso": "wiradjuri",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wiradjuri_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7357,6 +7417,7 @@
     "iso": "yankunytjatjara",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yankunytjatjara_dialect",
     "family": "Australian Aboriginal"
   },
   {
@@ -7364,6 +7425,7 @@
     "iso": "yinjibarndi",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yinjibarndi_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -7371,6 +7433,7 @@
     "iso": "yugambeh",
     "region": "Australia",
     "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yugambeh_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -10709,7 +10772,13 @@
     "iso": "abruzzese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Neapolitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abruzzese",
+    "tags": [
+      "italo-dalmatian",
+      "neapolitan",
+      "abruzzo"
+    ]
   },
   {
     "name": "Acadian",
@@ -10774,7 +10843,12 @@
     "iso": "andalusian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Spanish"
+    "family": "Spanish",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andalusian_Spanish",
+    "tags": [
+      "spanish",
+      "andalusia"
+    ]
   },
   {
     "name": "Angevin",
@@ -10830,14 +10904,12 @@
     "iso": "aretino-chianaiolo",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
-  },
-  {
-    "name": "Argentinian Spanish",
-    "iso": "argentinian-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
+    "family": "Tuscan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuscan_dialect",
+    "tags": [
+      "tuscan",
+      "italo-romance"
+    ]
   },
   {
     "name": "Arianese",
@@ -10925,14 +10997,27 @@
     "iso": "barranquenho",
     "region": "Europe",
     "category": "Romance",
-    "family": "Portuguese"
+    "family": "Portuguese",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barranquenho",
+    "tags": [
+      "portuguese",
+      "spanish",
+      "mixed",
+      "barrancos"
+    ]
   },
   {
     "name": "Basilicatine",
     "iso": "basilicatine",
     "region": "Europe",
     "category": "Romance",
-    "family": "Others"
+    "family": "Neapolitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Italo-Dalmatian_languages",
+    "tags": [
+      "italo-dalmatian",
+      "neapolitan",
+      "basilicata"
+    ]
   },
   {
     "name": "Basque",
@@ -10999,13 +11084,6 @@
     "family": "Oïl Dialects"
   },
   {
-    "name": "Bolivian Spanish",
-    "iso": "bolivian-spanish",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Latin American"
-  },
-  {
     "name": "Bolognese",
     "iso": "bolognese",
     "region": "Europe",
@@ -11033,13 +11111,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Canadian"
-  },
-  {
-    "name": "Brazilian Portuguese",
-    "iso": "brazilian-portuguese",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Portuguese"
   },
   {
     "name": "Breton",
@@ -13665,7 +13736,7 @@
     "iso": "amh",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Transversal"
   },
   {
     "name": "Amharic",
@@ -13735,14 +13806,14 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Arabic",
-    "family": "Afroasiatic"
+    "family": "Arabic"
   },
   {
     "name": "Aramaic",
     "iso": "aramaic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Aramaic"
   },
   {
     "name": "Argobba",
@@ -14236,21 +14307,21 @@
     "iso": "gamo-gofa-dawro",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Omotic"
   },
   {
     "name": "Ganza",
     "iso": "ganza",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Omotic"
   },
   {
     "name": "Geez",
     "iso": "geez",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "North Ethiopic"
   },
   {
     "name": "Geʽez",
@@ -21567,12 +21638,49 @@
     "family": "Arawakan"
   },
   {
+    "name": "Argentinian Spanish",
+    "iso": "argentinian-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rioplatense_Spanish",
+    "tags": [
+      "spanish",
+      "rioplatense",
+      "argentina"
+    ]
+  },
+  {
     "name": "Aymara",
     "iso": "aymara",
     "region": "South America",
     "category": "Aymaran",
     "wikipedia": "https://en.wikipedia.org/wiki/Aymara_language",
     "family": "Aymaran"
+  },
+  {
+    "name": "Bolivian Spanish",
+    "iso": "bolivian-spanish",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bolivian_Spanish",
+    "tags": [
+      "spanish",
+      "bolivia"
+    ]
+  },
+  {
+    "name": "Brazilian Portuguese",
+    "iso": "brazilian-portuguese",
+    "region": "South America",
+    "category": "Romance",
+    "family": "Portuguese",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brazilian_Portuguese",
+    "tags": [
+      "portuguese",
+      "brazil"
+    ]
   },
   {
     "name": "Guarani",

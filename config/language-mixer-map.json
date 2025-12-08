@@ -1,5 +1,4 @@
 [
-<<<<<<< Updated upstream
   {
     "iso": "-arsusi",
     "bases": [
@@ -21661,180 +21660,914 @@
     "bases": [
       201
     ]
+  },
+  {
+    "iso": "deu",
+    "bases": [
+      0
+    ]
+  },
+  {
+    "iso": "eng",
+    "bases": [
+      1
+    ]
+  },
+  {
+    "iso": "fra",
+    "bases": [
+      2
+    ]
+  },
+  {
+    "iso": "ita",
+    "bases": [
+      3
+    ]
+  },
+  {
+    "iso": "spa",
+    "bases": [
+      4
+    ]
+  },
+  {
+    "iso": "rus",
+    "bases": [
+      5
+    ]
+  },
+  {
+    "iso": "swe",
+    "bases": [
+      6
+    ]
+  },
+  {
+    "iso": "ell",
+    "bases": [
+      7
+    ]
+  },
+  {
+    "iso": "lat",
+    "bases": [
+      8
+    ]
+  },
+  {
+    "iso": "fin",
+    "bases": [
+      9
+    ]
+  },
+  {
+    "iso": "kor",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "zho",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "sino-tibetan-family",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "sinitic",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "mandarin",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "gan",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "min",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "wu",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "xiang",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "jin",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "hui",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "pinghua",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "hakka",
+    "bases": [
+      11
+    ]
+  },
+  {
+    "iso": "yue",
+    "bases": [
+      30
+    ]
+  },
+  {
+    "iso": "jpn",
+    "bases": [
+      12
+    ]
+  },
+  {
+    "iso": "por",
+    "bases": [
+      13
+    ]
+  },
+  {
+    "iso": "nah",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "hun",
+    "bases": [
+      15
+    ]
+  },
+  {
+    "iso": "tur",
+    "bases": [
+      16
+    ]
+  },
+  {
+    "iso": "ber",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "ara",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "pol",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "ces",
+    "bases": [
+      20
+    ]
+  },
+  {
+    "iso": "nld",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "cat",
+    "bases": [
+      22
+    ]
+  },
+  {
+    "iso": "bul",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "srp",
+    "bases": [
+      24
+    ]
+  },
+  {
+    "iso": "ukr",
+    "bases": [
+      25
+    ]
+  },
+  {
+    "iso": "gle",
+    "bases": [
+      26
+    ]
+  },
+  {
+    "iso": "que",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "swa",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "vie",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "yor",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "yoruba",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "niger-congo-family",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "igbo",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "fula",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "wolof",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "akan",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "bambara",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "mandinka",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "soninke",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "ewe",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "ga",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "fon",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "bete",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "nyabwa",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "dida",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "mumuye",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "moore",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "limba",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "gola",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "lingala",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "kinyarwanda",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "shona",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "zulu",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "xhosa",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "sesotho",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "tswana",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "kongo",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "luganda",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "chichewa",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "kikuyu",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "afroasiatic-family",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "som",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "orm",
+    "bases": [
+      28
+    ]
+  },
+  {
+    "iso": "hau",
+    "bases": [
+      21
+    ]
+  },
+  {
+    "iso": "ber-family",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tuareg-tamasheq",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "shilha",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "kabyle",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "central-atlas-tamazight",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "shawiya",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tarifit",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "amh",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "tir",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "tigre",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "mehri",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "maltese",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "geez",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "beja",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "afar",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "hadiyya",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "sidama",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "wolaitta",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "gamo-gofa-dawro",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "ganza",
+    "bases": [
+      18
+    ]
+  },
+  {
+    "iso": "aramaic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "assyrian-neo-aramaic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "ugaritic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "ancient-egyptian",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "coptic",
+    "bases": [
+      42
+    ]
+  },
+  {
+    "iso": "akkadian",
+    "bases": [
+      23
+    ]
+  },
+  {
+    "iso": "jpn-lang",
+    "bases": [
+      12
+    ]
+  },
+  {
+    "iso": "koreanic-family",
+    "bases": [
+      10
+    ]
+  },
+  {
+    "iso": "hin",
+    "bases": [
+      24
+    ]
+  },
+  {
+    "iso": "gla",
+    "bases": [
+      22
+    ]
+  },
+  {
+    "iso": "khm",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "mnw",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "sat",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "kha",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "iku",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "guarani",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "southern-quechua",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "aymara",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "kichwa",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "wayuu",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "mapudungun",
+    "bases": [
+      27
+    ]
+  },
+  {
+    "iso": "qeqchi",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "kiche",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "yucatec-maya",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "mam",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "tzeltal",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "mixtec",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "tzotzil",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "zapotec",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "kaqchikel",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "otomi",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "totonac",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "chol",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "mazatec",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "qanjobal",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "huastec",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "navajo",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "eastern-romance-family",
+    "bases": [
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "iso": "ron",
+    "bases": [
+      43
+    ]
+  },
+  {
+    "iso": "rup",
+    "bases": [
+      44
+    ]
+  },
+  {
+    "iso": "ruq",
+    "bases": [
+      45
+    ]
+  },
+  {
+    "iso": "ruo",
+    "bases": [
+      46
+    ]
+  },
+  {
+    "iso": "tibetic",
+    "bases": [
+      47
+    ]
+  },
+  {
+    "iso": "bodish",
+    "bases": [
+      47
+    ]
+  },
+  {
+    "iso": "east-bodish",
+    "bases": [
+      47
+    ]
+  },
+  {
+    "iso": "burmish",
+    "bases": [
+      48
+    ]
+  },
+  {
+    "iso": "lolo-burmese",
+    "bases": [
+      48
+    ]
+  },
+  {
+    "iso": "newaric",
+    "bases": [
+      49
+    ]
+  },
+  {
+    "iso": "newar",
+    "bases": [
+      49
+    ]
+  },
+  {
+    "iso": "meitei",
+    "bases": [
+      50
+    ]
+  },
+  {
+    "iso": "karenic",
+    "bases": [
+      51
+    ]
+  },
+  {
+    "iso": "bai",
+    "bases": [
+      52
+    ]
+  },
+  {
+    "iso": "tujia",
+    "bases": [
+      53
+    ]
+  },
+  {
+    "iso": "heb",
+    "bases": [
+      42
+    ]
   }
-=======
-  {"iso": "deu", "bases": [0]},
-  {"iso": "eng", "bases": [1]},
-  {"iso": "fra", "bases": [2]},
-  {"iso": "ita", "bases": [3]},
-  {"iso": "spa", "bases": [4]},
-  {"iso": "rus", "bases": [5]},
-  {"iso": "swe", "bases": [6]},
-  {"iso": "ell", "bases": [7]},
-  {"iso": "lat", "bases": [8]},
-  {"iso": "fin", "bases": [9]},
-  {"iso": "kor", "bases": [10]},
-  {"iso": "zho", "bases": [11]},
-  {"iso": "sino-tibetan-family", "bases": [11]},
-  {"iso": "sinitic", "bases": [11]},
-  {"iso": "mandarin", "bases": [11]},
-  {"iso": "gan", "bases": [11]},
-  {"iso": "min", "bases": [11]},
-  {"iso": "wu", "bases": [11]},
-  {"iso": "xiang", "bases": [11]},
-  {"iso": "jin", "bases": [11]},
-  {"iso": "hui", "bases": [11]},
-  {"iso": "pinghua", "bases": [11]},
-  {"iso": "hakka", "bases": [11]},
-  {"iso": "yue", "bases": [30]},
-  {"iso": "jpn", "bases": [12]},
-  {"iso": "por", "bases": [13]},
-  {"iso": "nah", "bases": [14]},
-  {"iso": "hun", "bases": [15]},
-  {"iso": "tur", "bases": [16]},
-  {"iso": "ber", "bases": [17]},
-  {"iso": "ara", "bases": [18]},
-  {"iso": "pol", "bases": [19]},
-  {"iso": "ces", "bases": [20]},
-  {"iso": "nld", "bases": [21]},
-  {"iso": "cat", "bases": [22]},
-  {"iso": "bul", "bases": [23]},
-  {"iso": "srp", "bases": [24]},
-  {"iso": "ukr", "bases": [25]},
-  {"iso": "gle", "bases": [26]},
-  {"iso": "que", "bases": [27]},
-  {"iso": "swa", "bases": [28]},
-  {"iso": "vie", "bases": [29]},
-  {"iso": "yor", "bases": [21]},
-  {"iso": "yoruba", "bases": [21]},
-
-  {"iso": "niger-congo-family", "bases": [21]},
-  {"iso": "igbo", "bases": [21]},
-  {"iso": "fula", "bases": [21]},
-  {"iso": "wolof", "bases": [21]},
-  {"iso": "akan", "bases": [21]},
-  {"iso": "bambara", "bases": [21]},
-  {"iso": "mandinka", "bases": [21]},
-  {"iso": "soninke", "bases": [21]},
-  {"iso": "ewe", "bases": [21]},
-  {"iso": "ga", "bases": [21]},
-  {"iso": "fon", "bases": [21]},
-  {"iso": "bete", "bases": [21]},
-  {"iso": "nyabwa", "bases": [21]},
-  {"iso": "dida", "bases": [21]},
-  {"iso": "mumuye", "bases": [21]},
-  {"iso": "moore", "bases": [21]},
-  {"iso": "limba", "bases": [21]},
-  {"iso": "gola", "bases": [21]},
-
-  {"iso": "lingala", "bases": [28]},
-  {"iso": "kinyarwanda", "bases": [28]},
-  {"iso": "shona", "bases": [28]},
-  {"iso": "zulu", "bases": [28]},
-  {"iso": "xhosa", "bases": [28]},
-  {"iso": "sesotho", "bases": [28]},
-  {"iso": "tswana", "bases": [28]},
-  {"iso": "kongo", "bases": [28]},
-  {"iso": "luganda", "bases": [28]},
-  {"iso": "chichewa", "bases": [28]},
-  {"iso": "kikuyu", "bases": [28]},
-
-  {"iso": "afroasiatic-family", "bases": [18]},
-  {"iso": "som", "bases": [28]},
-  {"iso": "orm", "bases": [28]},
-  {"iso": "hau", "bases": [21]},
-
-  {"iso": "ber-family", "bases": [17]},
-  {"iso": "tuareg-tamasheq", "bases": [17]},
-  {"iso": "shilha", "bases": [17]},
-  {"iso": "kabyle", "bases": [17]},
-  {"iso": "central-atlas-tamazight", "bases": [17]},
-  {"iso": "shawiya", "bases": [17]},
-  {"iso": "tarifit", "bases": [17]},
-
-  {"iso": "amh", "bases": [18]},
-  {"iso": "tir", "bases": [18]},
-  {"iso": "tigre", "bases": [18]},
-  {"iso": "mehri", "bases": [18]},
-  {"iso": "maltese", "bases": [18]},
-  {"iso": "geez", "bases": [18]},
-  {"iso": "beja", "bases": [18]},
-  {"iso": "afar", "bases": [18]},
-  {"iso": "hadiyya", "bases": [18]},
-  {"iso": "sidama", "bases": [18]},
-  {"iso": "wolaitta", "bases": [18]},
-  {"iso": "gamo-gofa-dawro", "bases": [18]},
-  {"iso": "ganza", "bases": [18]},
-
-  {"iso": "aramaic", "bases": [42]},
-  {"iso": "assyrian-neo-aramaic", "bases": [42]},
-  {"iso": "ugaritic", "bases": [42]},
-  {"iso": "ancient-egyptian", "bases": [42]},
-  {"iso": "coptic", "bases": [42]},
-
-  {"iso": "akkadian", "bases": [23]},
-
-  {"iso": "jpn-lang", "bases": [12]},
-  {"iso": "koreanic-family", "bases": [10]},
-
-  {"iso": "hin", "bases": [24]},
-  {"iso": "gla", "bases": [22]},
-
-  {"iso": "khm", "bases": [29]},
-  {"iso": "mnw", "bases": [29]},
-  {"iso": "sat", "bases": [29]},
-  {"iso": "kha", "bases": [29]},
-
-  {"iso": "iku", "bases": [19]},
-
-  {"iso": "guarani", "bases": [27]},
-  {"iso": "southern-quechua", "bases": [27]},
-  {"iso": "aymara", "bases": [27]},
-  {"iso": "kichwa", "bases": [27]},
-  {"iso": "wayuu", "bases": [27]},
-  {"iso": "mapudungun", "bases": [27]},
-
-  {"iso": "qeqchi", "bases": [14]},
-  {"iso": "kiche", "bases": [14]},
-  {"iso": "yucatec-maya", "bases": [14]},
-  {"iso": "mam", "bases": [14]},
-  {"iso": "tzeltal", "bases": [14]},
-  {"iso": "mixtec", "bases": [14]},
-  {"iso": "tzotzil", "bases": [14]},
-  {"iso": "zapotec", "bases": [14]},
-  {"iso": "kaqchikel", "bases": [14]},
-  {"iso": "otomi", "bases": [14]},
-  {"iso": "totonac", "bases": [14]},
-  {"iso": "chol", "bases": [14]},
-  {"iso": "mazatec", "bases": [14]},
-  {"iso": "qanjobal", "bases": [14]},
-  {"iso": "huastec", "bases": [14]},
-  {"iso": "navajo", "bases": [14]},
-
-  {"iso": "eastern-romance-family", "bases": [43, 44, 45, 46]},
-  {"iso": "ron", "bases": [43]},
-  {"iso": "rup", "bases": [44]},
-  {"iso": "ruq", "bases": [45]},
-  {"iso": "ruo", "bases": [46]},
-
-  {"iso": "tibetic", "bases": [47]},
-  {"iso": "bodish", "bases": [47]},
-  {"iso": "east-bodish", "bases": [47]},
-
-  {"iso": "burmish", "bases": [48]},
-  {"iso": "lolo-burmese", "bases": [48]},
-
-  {"iso": "newaric", "bases": [49]},
-  {"iso": "newar", "bases": [49]},
-
-  {"iso": "meitei", "bases": [50]},
-
-  {"iso": "karenic", "bases": [51]},
-
-  {"iso": "bai", "bases": [52]},
-
-  {"iso": "tujia", "bases": [53]},
-
-  {"iso": "heb", "bases": [42]}
->>>>>>> Stashed changes
 ]

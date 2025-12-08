@@ -1,6 +1,7 @@
 "use strict";
 
 const fantasyRaceBases = {
+  Human: [32],
   Elf: [33],
   "Dark Elf": [34],
   Dwarf: [35],
@@ -281,8 +282,8 @@ const raceLanguageProfiles = {
     families: []
   },
   Human: {
-    categories: ["*"],
-    families: ["*"]
+    categories: [],
+    families: []
   }
 };
 
@@ -355,9 +356,8 @@ function getRaceLanguageIsoWeights(raceName) {
 function generateRaceLanguageNames(raceName, options) {
   const count = (options && options.count) || 40;
 
-  const isoWeights = typeof Names !== "undefined" && Names.getMixedByIso
-    ? getRaceLanguageIsoWeights(raceName)
-    : null;
+  const canMix = raceName !== "Human" && typeof Names !== "undefined" && Names.getMixedByIso;
+  const isoWeights = canMix ? getRaceLanguageIsoWeights(raceName) : null;
 
   if (isoWeights && Names && typeof Names.getMixedByIso === "function") {
     try {
