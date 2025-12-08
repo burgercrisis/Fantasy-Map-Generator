@@ -494,6 +494,160 @@ window.Cultures = (function () {
           sort: i => n(i) / (sf(i, 10) * td(i, 18)),
           shield: "swiss"
         },
+        {
+          name: "Ssserathi Coil (Yuan-ti)",
+          base: 61,
+          odd: 0.4,
+          sort: i => n(i) / (bd(i, [5, 7, 12], 8) * td(i, 26)),
+          shield: "fantasy1"
+        },
+        {
+          name: "Deepwild Clans (Firbolg)",
+          base: 62,
+          odd: 0.4,
+          sort: i => n(i) / (bd(i, [6, 8, 9], 8) * td(i, 8)),
+          shield: "pavise"
+        },
+        {
+          name: "Astral Concord (Gith)",
+          base: 63,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 2, 9, 10], 8) * td(i, 0)),
+          shield: "banner"
+        },
+        {
+          name: "Elemental Diaspora (Genasi)",
+          base: 64,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [1, 3, 7, 10], 8) * td(i, 20)),
+          shield: "diamond"
+        },
+        {
+          name: "Veilbound (Changeling)",
+          base: 65,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [4, 6, 8, 12], 6) * td(i, 16)),
+          shield: "fantasy4"
+        },
+        {
+          name: "Wildsong Courts (Satyr)",
+          base: 66,
+          odd: 0.35,
+          sort: i => n(i) / (bd(i, [4, 6, 8], 6) * td(i, 14)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Labyrinth Clans (Minotaur)",
+          base: 67,
+          odd: 0.3,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 3, 4], 8) * td(i, 22)),
+          shield: "square"
+        },
+        {
+          name: "Dreambound Orders (Kalashtar)",
+          base: 68,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [4, 9, 10], 8) * td(i, 8)),
+          shield: "banner"
+        },
+        {
+          name: "Redscale Warrens (Kobold)",
+          base: 69,
+          odd: 0.4,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 2, 3, 4], 8) * td(i, 18)),
+          shield: "fantasy2"
+        },
+        {
+          name: "Deepforge Clans (Duergar)",
+          base: 70,
+          odd: 0.3,
+          sort: i => (n(i) + h[i]) / (bd(i, [2, 9, 10], 8) * td(i, 0)),
+          shield: "erebor"
+        },
+        {
+          name: "Crimson Courts (Dhampir)",
+          base: 71,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [4, 6, 12], 8) * td(i, 10)),
+          shield: "fantasy4"
+        },
+        {
+          name: "Gravesworn Host (Reborn)",
+          base: 72,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [3, 4, 6, 10], 8) * td(i, 6)),
+          shield: "square"
+        },
+        {
+          name: "Shadowfell Vanguard (Shadar-kai)",
+          base: 73,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [9, 10, 12], 8) * td(i, 0)),
+          shield: "banner"
+        },
+        {
+          name: "Hexweald Covens (Hexblood)",
+          base: 74,
+          odd: 0.25,
+          sort: i => n(i) / (bd(i, [6, 8, 12], 6) * td(i, 12)),
+          shield: "fantasy1"
+        },
+        {
+          name: "Stormhoof Clans (Centaur)",
+          base: 75,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [3, 4, 5], 8) * td(i, 16)),
+          shield: "wedged"
+        },
+        {
+          name: "Sunmane Prides (Leonin)",
+          base: 76,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [3, 1, 5], 8) * td(i, 24)),
+          shield: "square"
+        },
+        {
+          name: "Ivory Concord (Loxodon)",
+          base: 77,
+          odd: 0.25,
+          sort: i => n(i) / (bd(i, [4, 6, 8], 8) * td(i, 18)),
+          shield: "pavise"
+        },
+        {
+          name: "Springstep Warrens (Harengon)",
+          base: 78,
+          odd: 0.3,
+          sort: i => n(i) / (bd(i, [4, 6, 12], 8) * td(i, 14)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Shellhaven Enclaves (Tortle)",
+          base: 79,
+          odd: 0.25,
+          sort: i => n(i) / (sf(i, 10) * bd(i, [3, 5, 7], 8) * td(i, 24)),
+          shield: "swiss"
+        },
+        {
+          name: "Starborne Company (Giff)",
+          base: 80,
+          odd: 0.2,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 3, 4], 8) * td(i, 18)),
+          shield: "banner"
+        },
+        {
+          name: "Duskwind Aeries (Owlin)",
+          base: 81,
+          odd: 0.25,
+          sort: i => (n(i) + h[i]) / (bd(i, [6, 8, 9], 8) * td(i, 8)),
+          shield: "oldFrench"
+        },
+        {
+          name: "Sandstrider Clutches (Thri-Kreen)",
+          base: 82,
+          odd: 0.25,
+          sort: i => n(i) / (bd(i, [1, 2, 3], 8) * td(i, 26)),
+          shield: "fantasy2"
+        },
         // fantasy human
         {name: "Anor (Human)", base: 32, odd: 1, sort: i => n(i) / td(i, 10), shield: "fantasy5"},
         {name: "Dail (Human)", base: 32, odd: 1, sort: i => n(i) / td(i, 13), shield: "roman"},
@@ -703,6 +857,160 @@ window.Cultures = (function () {
           odd: 0.1,
           sort: i => n(i) / (sf(i, 10) * td(i, 18)),
           shield: "swiss"
+        },
+        {
+          name: "Ssserathi Coil",
+          base: 61,
+          odd: 0.15,
+          sort: i => n(i) / (bd(i, [5, 7, 12], 8) * td(i, 26)),
+          shield: "fantasy1"
+        },
+        {
+          name: "Deepwild Clans",
+          base: 62,
+          odd: 0.15,
+          sort: i => n(i) / (bd(i, [6, 8, 9], 8) * td(i, 8)),
+          shield: "pavise"
+        },
+        {
+          name: "Astral Concord",
+          base: 63,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 2, 9, 10], 8) * td(i, 0)),
+          shield: "banner"
+        },
+        {
+          name: "Elemental Diaspora",
+          base: 64,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [1, 3, 7, 10], 8) * td(i, 20)),
+          shield: "diamond"
+        },
+        {
+          name: "Veilbound",
+          base: 65,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [4, 6, 8, 12], 6) * td(i, 16)),
+          shield: "fantasy4"
+        },
+        {
+          name: "Wildsong Courts",
+          base: 66,
+          odd: 0.12,
+          sort: i => n(i) / (bd(i, [4, 6, 8], 6) * td(i, 14)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Labyrinth Clans",
+          base: 67,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 3, 4], 8) * td(i, 22)),
+          shield: "square"
+        },
+        {
+          name: "Dreambound Orders",
+          base: 68,
+          odd: 0.08,
+          sort: i => (n(i) + h[i]) / (bd(i, [4, 9, 10], 8) * td(i, 8)),
+          shield: "banner"
+        },
+        {
+          name: "Redscale Warrens",
+          base: 69,
+          odd: 0.15,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 2, 3, 4], 8) * td(i, 18)),
+          shield: "fantasy2"
+        },
+        {
+          name: "Deepforge Clans",
+          base: 70,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [2, 9, 10], 8) * td(i, 0)),
+          shield: "erebor"
+        },
+        {
+          name: "Crimson Courts",
+          base: 71,
+          odd: 0.12,
+          sort: i => n(i) / (bd(i, [4, 6, 12], 8) * td(i, 10)),
+          shield: "fantasy4"
+        },
+        {
+          name: "Gravesworn Host",
+          base: 72,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [3, 4, 6, 10], 8) * td(i, 6)),
+          shield: "square"
+        },
+        {
+          name: "Shadowfell Vanguard",
+          base: 73,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [9, 10, 12], 8) * td(i, 0)),
+          shield: "banner"
+        },
+        {
+          name: "Hexweald Covens",
+          base: 74,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [6, 8, 12], 6) * td(i, 12)),
+          shield: "fantasy1"
+        },
+        {
+          name: "Stormhoof Clans",
+          base: 75,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [3, 4, 5], 8) * td(i, 16)),
+          shield: "wedged"
+        },
+        {
+          name: "Sunmane Prides",
+          base: 76,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [3, 1, 5], 8) * td(i, 24)),
+          shield: "square"
+        },
+        {
+          name: "Ivory Concord",
+          base: 77,
+          odd: 0.08,
+          sort: i => n(i) / (bd(i, [4, 6, 8], 8) * td(i, 18)),
+          shield: "pavise"
+        },
+        {
+          name: "Springstep Warrens",
+          base: 78,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [4, 6, 12], 8) * td(i, 14)),
+          shield: "fantasy3"
+        },
+        {
+          name: "Shellhaven Enclaves",
+          base: 79,
+          odd: 0.08,
+          sort: i => n(i) / (sf(i, 10) * bd(i, [3, 5, 7], 8) * td(i, 24)),
+          shield: "swiss"
+        },
+        {
+          name: "Starborne Company",
+          base: 80,
+          odd: 0.08,
+          sort: i => (n(i) + h[i]) / (bd(i, [1, 3, 4], 8) * td(i, 18)),
+          shield: "banner"
+        },
+        {
+          name: "Duskwind Aeries",
+          base: 81,
+          odd: 0.1,
+          sort: i => (n(i) + h[i]) / (bd(i, [6, 8, 9], 8) * td(i, 8)),
+          shield: "oldFrench"
+        },
+        {
+          name: "Sandstrider Clutches",
+          base: 82,
+          odd: 0.1,
+          sort: i => n(i) / (bd(i, [1, 2, 3], 8) * td(i, 26)),
+          shield: "fantasy2"
         }
       ];
     }

@@ -12,11 +12,47 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Afrikaans"
   },
   {
+    "name": "Akan",
+    "iso": "akan",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Bambara",
+    "iso": "bambara",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
     "name": "Berber",
     "iso": "ber",
     "region": "Africa",
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Berber_languages"
+  },
+  {
+    "name": "Bete",
+    "iso": "bete",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Chichewa",
+    "iso": "chichewa",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Dida",
+    "iso": "dida",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Ewe",
+    "iso": "ewe",
+    "region": "Africa",
+    "category": "Niger-Congo"
   },
   {
     "name": "Fon",
@@ -26,11 +62,95 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Fon_language"
   },
   {
+    "name": "Fon",
+    "iso": "fon",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Fula",
+    "iso": "fula",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Ga",
+    "iso": "ga",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Gola",
+    "iso": "gola",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Igbo",
+    "iso": "igbo",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Kikuyu",
+    "iso": "kikuyu",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Kinyarwanda",
+    "iso": "kinyarwanda",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Kongo",
+    "iso": "kongo",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Limba",
+    "iso": "limba",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Lingala",
+    "iso": "lingala",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Luganda",
+    "iso": "luganda",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
     "name": "Malagasy",
     "iso": "malagasy",
     "region": "Africa",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language"
+  },
+  {
+    "name": "Mandinka",
+    "iso": "mandinka",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Moore",
+    "iso": "moore",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Mumuye",
+    "iso": "mumuye",
+    "region": "Africa",
+    "category": "Niger-Congo"
   },
   {
     "name": "Ndebele",
@@ -40,11 +160,44 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Northern_Ndebele_language"
   },
   {
+    "name": "Niger Congo family",
+    "iso": "niger-congo-family",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Nyabwa",
+    "iso": "nyabwa",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
     "name": "Sango",
     "iso": "sango",
     "region": "Africa",
     "category": "Creole",
     "wikipedia": "https://en.wikipedia.org/wiki/Sango_language"
+  },
+  {
+    "name": "Sesotho",
+    "iso": "sesotho",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Shona",
+    "iso": "shona",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Soninke",
+    "iso": "soninke",
+    "region": "Africa",
+    "category": "Niger-Congo"
   },
   {
     "name": "Swahili",
@@ -54,6 +207,24 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Swahili_language"
   },
   {
+    "name": "Tswana",
+    "iso": "tswana",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Wolof",
+    "iso": "wolof",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Xhosa",
+    "iso": "xhosa",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
     "name": "Yoruba",
     "iso": "yor",
     "region": "Africa",
@@ -61,11 +232,173 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language"
   },
   {
+    "name": "Yoruba",
+    "iso": "yoruba",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
     "name": "Zarma",
     "iso": "zarma",
     "region": "Africa",
     "category": "Songhay",
     "wikipedia": "https://en.wikipedia.org/wiki/Zarma_language"
+  },
+  {
+    "name": "Zulu",
+    "iso": "zulu",
+    "region": "Africa",
+    "category": "Niger-Congo"
+  },
+  {
+    "name": "Afar",
+    "iso": "afar",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Afroasiatic family",
+    "iso": "afroasiatic-family",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Amh",
+    "iso": "amh",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Ancient Egyptian",
+    "iso": "ancient-egyptian",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Aramaic",
+    "iso": "aramaic",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Assyrian Neo Aramaic",
+    "iso": "assyrian-neo-aramaic",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Beja",
+    "iso": "beja",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Coptic",
+    "iso": "coptic",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Gamo Gofa Dawro",
+    "iso": "gamo-gofa-dawro",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Ganza",
+    "iso": "ganza",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Geez",
+    "iso": "geez",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Hadiyya",
+    "iso": "hadiyya",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Hau",
+    "iso": "hau",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Heb",
+    "iso": "heb",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Maltese",
+    "iso": "maltese",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Mehri",
+    "iso": "mehri",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Orm",
+    "iso": "orm",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Sidama",
+    "iso": "sidama",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Som",
+    "iso": "som",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Tigre",
+    "iso": "tigre",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Tir",
+    "iso": "tir",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Ugaritic",
+    "iso": "ugaritic",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Wolaitta",
+    "iso": "wolaitta",
+    "region": "Afroasiatic region",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Akkadian",
+    "iso": "akkadian",
+    "category": "Afroasiatic",
+    "region": "Ancient Mesopotamia",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Greenlandic",
@@ -180,6 +513,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language"
   },
   {
+    "name": "Japanese",
+    "iso": "jpn-lang",
+    "category": "Japonic",
+    "region": "Asia"
+  },
+  {
     "name": "Kalmyk",
     "iso": "kalmyk",
     "region": "Asia",
@@ -199,6 +538,18 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kashmiri_language"
+  },
+  {
+    "name": "Khasi",
+    "iso": "kha",
+    "category": "Austroasiatic",
+    "region": "Asia"
+  },
+  {
+    "name": "Khmer",
+    "iso": "khm",
+    "category": "Austroasiatic",
+    "region": "Asia"
   },
   {
     "name": "Lao",
@@ -222,6 +573,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Marathi_language"
   },
   {
+    "name": "Mon",
+    "iso": "mnw",
+    "category": "Austroasiatic",
+    "region": "Asia"
+  },
+  {
     "name": "Odia",
     "iso": "odia",
     "region": "Asia",
@@ -241,6 +598,12 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Punjabi_language"
+  },
+  {
+    "name": "Santali",
+    "iso": "sat",
+    "category": "Austroasiatic",
+    "region": "Asia"
   },
   {
     "name": "Sindhi",
@@ -453,6 +816,27 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Uzbek_language"
   },
   {
+    "name": "Cantonese",
+    "iso": "yue",
+    "category": "Sino-Tibetan",
+    "region": "East Asia"
+  },
+  {
+    "name": "Kor",
+    "iso": "kor",
+    "region": "East Asia",
+    "category": "Koreanic"
+  },
+  {
+    "name": "Koreanic family",
+    "iso": "koreanic-family",
+    "region": "East Asia",
+    "category": "Koreanic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
     "name": "Tatar",
     "iso": "tatar",
     "region": "Eurasia",
@@ -488,6 +872,12 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Basque_language"
   },
   {
+    "name": "Basque",
+    "iso": "basque",
+    "category": "Language isolate",
+    "region": "Europe"
+  },
+  {
     "name": "Belarusian",
     "iso": "belarusian",
     "region": "Europe",
@@ -500,6 +890,18 @@
     "region": "Europe",
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Breton_language"
+  },
+  {
+    "name": "Bulgarian",
+    "iso": "bul",
+    "category": "Slavic",
+    "region": "Europe"
+  },
+  {
+    "name": "Catalan",
+    "iso": "cat",
+    "category": "Romance",
+    "region": "Europe"
   },
   {
     "name": "Chuvash",
@@ -523,6 +925,33 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Corsican_language"
   },
   {
+    "name": "Czech",
+    "iso": "ces",
+    "category": "Slavic",
+    "region": "Europe"
+  },
+  {
+    "name": "Dutch",
+    "iso": "nld",
+    "category": "Germanic",
+    "region": "Europe"
+  },
+  {
+    "name": "Eastern Romance family",
+    "iso": "eastern-romance-family",
+    "region": "Europe",
+    "category": "Romance",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "English",
+    "iso": "eng",
+    "category": "Germanic",
+    "region": "Europe"
+  },
+  {
     "name": "Estonian",
     "iso": "estonian",
     "region": "Europe",
@@ -542,6 +971,12 @@
     "region": "Europe",
     "category": "Uralic",
     "wikipedia": "https://en.wikipedia.org/wiki/Finnish_language"
+  },
+  {
+    "name": "French",
+    "iso": "fra",
+    "category": "Romance",
+    "region": "Europe"
   },
   {
     "name": "Frisian",
@@ -572,6 +1007,36 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Galician_language"
   },
   {
+    "name": "German",
+    "iso": "deu",
+    "category": "Germanic",
+    "region": "Europe"
+  },
+  {
+    "name": "Greek",
+    "iso": "ell",
+    "category": "Indo-European",
+    "region": "Europe"
+  },
+  {
+    "name": "Hungarian",
+    "iso": "hun",
+    "category": "Uralic",
+    "region": "Europe"
+  },
+  {
+    "name": "Irish",
+    "iso": "gle",
+    "category": "Celtic",
+    "region": "Europe"
+  },
+  {
+    "name": "Italian",
+    "iso": "ita",
+    "category": "Romance",
+    "region": "Europe"
+  },
+  {
     "name": "Ladin",
     "iso": "ladin-lang",
     "region": "Europe",
@@ -584,6 +1049,15 @@
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Judaeo-Spanish"
+  },
+  {
+    "name": "Latin",
+    "iso": "lat",
+    "category": "Romance",
+    "region": "Europe",
+    "tags": [
+      "classical"
+    ]
   },
   {
     "name": "Latvian",
@@ -642,6 +1116,18 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Occitan_language"
   },
   {
+    "name": "Polish",
+    "iso": "pol",
+    "category": "Slavic",
+    "region": "Europe"
+  },
+  {
+    "name": "Portuguese",
+    "iso": "por",
+    "category": "Romance",
+    "region": "Europe"
+  },
+  {
     "name": "Romani",
     "iso": "romani",
     "region": "Europe",
@@ -656,11 +1142,47 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Romansh_language"
   },
   {
+    "name": "Ron",
+    "iso": "ron",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Ruo",
+    "iso": "ruo",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Rup",
+    "iso": "rup",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Ruq",
+    "iso": "ruq",
+    "region": "Europe",
+    "category": "Romance"
+  },
+  {
+    "name": "Russian",
+    "iso": "rus",
+    "category": "Slavic",
+    "region": "Europe"
+  },
+  {
     "name": "Sardinian",
     "iso": "sardinian",
     "region": "Europe",
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Sardinian_language"
+  },
+  {
+    "name": "Serbian",
+    "iso": "srp",
+    "category": "Slavic",
+    "region": "Europe"
   },
   {
     "name": "Sicilian",
@@ -684,11 +1206,29 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Slovene_language"
   },
   {
+    "name": "Spanish",
+    "iso": "spa",
+    "category": "Romance",
+    "region": "Europe"
+  },
+  {
+    "name": "Swedish",
+    "iso": "swe",
+    "category": "Germanic",
+    "region": "Europe"
+  },
+  {
     "name": "Udmurt",
     "iso": "udmurt",
     "region": "Europe",
     "category": "Uralic",
     "wikipedia": "https://en.wikipedia.org/wiki/Udmurt_language"
+  },
+  {
+    "name": "Ukrainian",
+    "iso": "ukr",
+    "category": "Slavic",
+    "region": "Europe"
   },
   {
     "name": "Walloon",
@@ -864,6 +1404,57 @@
     "region": "Middle East",
     "category": "Indo-Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Persian_language"
+  },
+  {
+    "name": "Turkish",
+    "iso": "tur",
+    "category": "Turkic",
+    "region": "Middle East"
+  },
+  {
+    "name": "Ber family",
+    "iso": "ber-family",
+    "region": "North Africa",
+    "category": "Afroasiatic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Central Atlas Tamazight",
+    "iso": "central-atlas-tamazight",
+    "region": "North Africa",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Kabyle",
+    "iso": "kabyle",
+    "region": "North Africa",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Shawiya",
+    "iso": "shawiya",
+    "region": "North Africa",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Shilha",
+    "iso": "shilha",
+    "region": "North Africa",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Tarifit",
+    "iso": "tarifit",
+    "region": "North Africa",
+    "category": "Afroasiatic"
+  },
+  {
+    "name": "Tuareg Tamasheq",
+    "iso": "tuareg-tamasheq",
+    "region": "North Africa",
+    "category": "Afroasiatic"
   },
   {
     "name": "Blackfoot",
@@ -1055,11 +1646,647 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Tongan_language"
   },
   {
+    "name": "Angami Pochuri",
+    "iso": "angami-pochuri",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Ao",
+    "iso": "ao",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Arunachal",
+    "iso": "arunachal",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Bai",
+    "iso": "bai",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Baram Thangmi",
+    "iso": "baram-thangmi",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Basum",
+    "iso": "basum",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Bhujel",
+    "iso": "bhujel",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Bodish",
+    "iso": "bodish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Boro Garo",
+    "iso": "boro-garo",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Burmish",
+    "iso": "burmish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Burmo Qiangic",
+    "iso": "burmo-qiangic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Cai Long",
+    "iso": "cai-long",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Caijia",
+    "iso": "caijia",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Central Tibeto Burman",
+    "iso": "central-tibeto-burman",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Chamdo",
+    "iso": "chamdo",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Chepang",
+    "iso": "chepang",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Chepangic",
+    "iso": "chepangic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Dhimal",
+    "iso": "dhimal",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Dhimalish",
+    "iso": "dhimalish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Dura Tandrange",
+    "iso": "dura-tandrange",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "East Bodish",
+    "iso": "east-bodish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Eastern Himalayas",
+    "iso": "eastern-himalayas",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Ersuic",
+    "iso": "ersuic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Gan",
+    "iso": "gan",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Gong",
+    "iso": "gong",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Gongduk",
+    "iso": "gongduk",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Greater Magaric",
+    "iso": "greater-magaric",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Greater Siangic",
+    "iso": "greater-siangic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Gyalrongic",
+    "iso": "gyalrongic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Hakka",
+    "iso": "hakka",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Hkongso",
+    "iso": "hkongso",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Hrusish",
+    "iso": "hrusish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Hruso",
+    "iso": "hruso",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Hui",
+    "iso": "hui",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Idu Taraon",
+    "iso": "idu-taraon",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Jin",
+    "iso": "jin",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Jingpho Luish",
+    "iso": "jingpho-luish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Karbi",
+    "iso": "karbi",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Karenic",
+    "iso": "karenic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Kathu",
+    "iso": "kathu",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Kham",
+    "iso": "kham",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Kho Bwa",
+    "iso": "kho-bwa",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Kiranti",
+    "iso": "kiranti",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Konyak",
+    "iso": "konyak",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Koro",
+    "iso": "koro",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Kuki Chin",
+    "iso": "kuki-chin",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Kuki Chin Naga",
+    "iso": "kuki-chin-naga",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Lepcha",
+    "iso": "lepcha",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Lhokpu",
+    "iso": "lhokpu",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Lolo Burmese",
+    "iso": "lolo-burmese",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Loloish",
+    "iso": "loloish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Longjia Luren",
+    "iso": "longjia-luren",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Macro Bai",
+    "iso": "macro-bai",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Magar",
+    "iso": "magar",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Magaric",
+    "iso": "magaric",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Mahakiranti",
+    "iso": "mahakiranti",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Mandarin",
+    "iso": "mandarin",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Meitei",
+    "iso": "meitei",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Mijiic",
+    "iso": "mijiic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Miju Meyor",
+    "iso": "miju-meyor",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Milang",
+    "iso": "milang",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Min",
+    "iso": "min",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Mondzish",
+    "iso": "mondzish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Mru",
+    "iso": "mru",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Mruic",
+    "iso": "mruic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Naga",
+    "iso": "naga",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Naic",
+    "iso": "naic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Nam",
+    "iso": "nam",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Newar",
+    "iso": "newar",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Ole",
+    "iso": "ole",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Pinghua",
+    "iso": "pinghua",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Proto Hakka",
+    "iso": "proto-hakka",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto Loloish",
+    "iso": "proto-loloish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto Min",
+    "iso": "proto-min",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto Sino Tibetan",
+    "iso": "proto-sino-tibetan",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Proto Tibeto Burman",
+    "iso": "proto-tibeto-burman",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Puroik",
+    "iso": "puroik",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Pyu",
+    "iso": "pyu",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Qiangic",
+    "iso": "qiangic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Raji Raute",
+    "iso": "raji-raute",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Rung",
+    "iso": "rung",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Sal",
+    "iso": "sal",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Siangic",
+    "iso": "siangic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Sinitic",
+    "iso": "sinitic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Sino Tibetan Family",
+    "iso": "sino-tibetan-family",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Songlin",
+    "iso": "songlin",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Taman",
+    "iso": "taman",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tamangic",
+    "iso": "tamangic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tangkhulic",
+    "iso": "tangkhulic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tani",
+    "iso": "tani",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tibetic",
+    "iso": "tibetic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tibeto Burman",
+    "iso": "tibeto-burman",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tibeto Kanauri",
+    "iso": "tibeto-kanauri",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Toto",
+    "iso": "toto",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tshangla",
+    "iso": "tshangla",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Tujia",
+    "iso": "tujia",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "West Himalayish",
+    "iso": "west-himalayish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Western Himalayas",
+    "iso": "western-himalayas",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Wu",
+    "iso": "wu",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Xiang",
+    "iso": "xiang",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Zeme",
+    "iso": "zeme",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
+    "name": "Zho",
+    "iso": "zho",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan"
+  },
+  {
     "name": "Proto-Karenic",
     "iso": "proto-karenic",
     "region": "Sino-Tibetan",
-    "category": "Proto-language",
-    "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages"
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karenic_languages",
+    "tags": [
+      "extinct",
+      "unclassified"
+    ]
   },
   {
     "name": "Arawak",

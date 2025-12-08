@@ -1674,6 +1674,28 @@
               <td></td>
             </tr>
 
+            <tr data-tip="Select which fantasy races are available for new maps (fantasy culture sets only)">
+              <td>
+                <i data-locked="0" id="lock_racesSet" class="icon-lock-open"></i>
+              </td>
+              <td>Races set</td>
+              <td>
+                <select id="racesSet" data-stored="racesSet">
+                  <option value="all" selected>All fantasy races</option>
+                  <option value="classic">Classic fantasy</option>
+                  <option value="dark">Dark &amp; monstrous</option>
+                  <option value="undead">Undead &amp; gothic</option>
+                  <option value="primal">Primal &amp; wilderness</option>
+                  <option value="beastfolk">Beastfolk &amp; animalkin</option>
+                  <option value="fey">Fey &amp; sylvan</option>
+                  <option value="planar">Planar &amp; elemental</option>
+                  <option value="underdark">Underdark / subterranean</option>
+                  <option value="eberron">Magitech / Eberron-like</option>
+                </select>
+              </td>
+              <td></td>
+            </tr>
+
             <tr data-tip="Define how many states and capitals should be generated">
               <td>
                 <i data-locked="0" id="lock_statesNumber" class="icon-lock-open"></i>
@@ -1681,6 +1703,16 @@
               <td>States number</td>
               <td colspan="2">
                 <slider-input id="statesNumber" data-stored="statesNumber" min="0" max="100"></slider-input>
+              </td>
+            </tr>
+
+            <tr data-tip="Define maximum number of non-Human races to be generated (fantasy culture sets only)">
+              <td>
+                <i data-locked="0" id="lock_racesNumber" class="icon-lock-open"></i>
+              </td>
+              <td>Races number</td>
+              <td colspan="2">
+                <slider-input id="racesNumber" data-stored="racesNumber" min="0" max="30"></slider-input>
               </td>
             </tr>
 

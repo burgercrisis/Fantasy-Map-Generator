@@ -1269,8 +1269,193 @@ const fantasyRaceBases = {
   Kenku: [57],
   Aarakocra: [58],
   Dragonborn: [59],
-  Triton: [60]
+  Triton: [60],
+  "Yuan-ti": [61],
+  Firbolg: [62],
+  Gith: [63],
+  Genasi: [64],
+  Changeling: [65],
+  Satyr: [66],
+  Minotaur: [67],
+  Kalashtar: [68],
+  Kobold: [69],
+  Duergar: [70],
+  Dhampir: [71],
+  Reborn: [72],
+  "Shadar-kai": [73],
+  Hexblood: [74],
+  Centaur: [75],
+  Leonin: [76],
+  Loxodon: [77],
+  Harengon: [78],
+  Tortle: [79],
+  Giff: [80],
+  Owlin: [81],
+  "Thri-Kreen": [82]
 };
+
+function getRacesSetFilter(value) {
+  switch (value) {
+    case "classic":
+      return new Set([
+        "Elf",
+        "Dark Elf",
+        "Dwarf",
+        "Halfling",
+        "Gnome",
+        "Half-Elf",
+        "Half-Orc",
+        "Goblin",
+        "Orc",
+        "Giant",
+        "Dragonborn",
+        "Satyr",
+        "Minotaur"
+      ]);
+    case "dark":
+      return new Set([
+        "Dark Elf",
+        "Goblin",
+        "Orc",
+        "Hobgoblin",
+        "Gnoll",
+        "Bugbear",
+        "Arachnid",
+        "Serpent",
+        "Lizardfolk",
+        "Shifter",
+        "Kenku",
+        "Yuan-ti",
+        "Gith",
+        "Dragonborn",
+        "Kobold",
+        "Duergar",
+        "Minotaur",
+        "Dhampir",
+        "Reborn",
+        "Shadar-kai",
+        "Hexblood"
+      ]);
+    case "primal":
+      return new Set([
+        "Elf",
+        "Dark Elf",
+        "Firbolg",
+        "Goliath",
+        "Lizardfolk",
+        "Shifter",
+        "Gnoll",
+        "Bugbear",
+        "Tabaxi",
+        "Kenku",
+        "Aarakocra",
+        "Triton",
+        "Satyr",
+        "Minotaur",
+        "Centaur",
+        "Leonin",
+        "Loxodon",
+        "Harengon",
+        "Tortle",
+        "Owlin",
+        "Thri-Kreen"
+      ]);
+    case "planar":
+      return new Set([
+        "Tiefling",
+        "Aasimar",
+        "Gith",
+        "Genasi",
+        "Draconic",
+        "Dragonborn",
+        "Yuan-ti",
+        "Triton",
+        "Aarakocra",
+        "Kalashtar",
+        "Shadar-kai",
+        "Hexblood"
+      ]);
+    case "eberron":
+      return new Set([
+        "Warforged",
+        "Shifter",
+        "Changeling",
+        "Gnome",
+        "Halfling",
+        "Half-Elf",
+        "Half-Orc",
+        "Orc",
+        "Goblin",
+        "Hobgoblin",
+        "Dragonborn",
+        "Kalashtar",
+        "Kobold",
+        "Dhampir",
+        "Reborn",
+        "Hexblood"
+      ]);
+    case "fey":
+      return new Set([
+        "Elf",
+        "Dark Elf",
+        "Firbolg",
+        "Satyr",
+        "Harengon",
+        "Hexblood",
+        "Shadar-kai",
+        "Aarakocra",
+        "Kenku",
+        "Owlin",
+        "Centaur",
+        "Goliath",
+        "Changeling",
+        "Kalashtar"
+      ]);
+    case "beastfolk":
+      return new Set([
+        "Goliath",
+        "Lizardfolk",
+        "Shifter",
+        "Gnoll",
+        "Bugbear",
+        "Tabaxi",
+        "Leonin",
+        "Loxodon",
+        "Kenku",
+        "Aarakocra",
+        "Owlin",
+        "Centaur",
+        "Tortle",
+        "Giff",
+        "Thri-Kreen",
+        "Kobold"
+      ]);
+    case "underdark":
+      return new Set([
+        "Dark Elf",
+        "Duergar",
+        "Kobold",
+        "Yuan-ti",
+        "Thri-Kreen",
+        "Arachnid",
+        "Serpent",
+        "Goblin",
+        "Bugbear",
+        "Gith"
+      ]);
+    case "undead":
+      return new Set([
+        "Dhampir",
+        "Reborn",
+        "Shadar-kai",
+        "Hexblood",
+        "Dark Elf",
+        "Tiefling"
+      ]);
+    default:
+      return null; // 'all' or unknown => no filtering
+  }
+}
 
 function defineRaceExpansionism(name) {
   const sizeVarietyElement = byId("sizeVariety");
@@ -1306,6 +1491,28 @@ function defineRaceExpansionism(name) {
   else if (name === "Aarakocra") base = 0.9;
   else if (name === "Dragonborn") base = 1.3;
   else if (name === "Triton") base = 0.8;
+  else if (name === "Yuan-ti") base = 1.1;
+  else if (name === "Firbolg") base = 0.7;
+  else if (name === "Gith") base = 1.2;
+  else if (name === "Genasi") base = 1.1;
+  else if (name === "Changeling") base = 1.0;
+  else if (name === "Satyr") base = 1.1;
+  else if (name === "Minotaur") base = 1.4;
+  else if (name === "Kalashtar") base = 0.8;
+  else if (name === "Kobold") base = 1.3;
+  else if (name === "Duergar") base = 0.7;
+  else if (name === "Dhampir") base = 1.2;
+  else if (name === "Reborn") base = 1.0;
+  else if (name === "Shadar-kai") base = 0.9;
+  else if (name === "Hexblood") base = 1.1;
+  else if (name === "Centaur") base = 1.2;
+  else if (name === "Leonin") base = 1.1;
+  else if (name === "Loxodon") base = 0.9;
+  else if (name === "Harengon") base = 1.3;
+  else if (name === "Tortle") base = 0.8;
+  else if (name === "Giff") base = 1.0;
+  else if (name === "Owlin") base = 1.0;
+  else if (name === "Thri-Kreen") base = 1.3;
   else if (name === "Human") base = 1;
 
   const randomFactor = (Math.random() * variety) / 2 + 1;
@@ -1332,6 +1539,40 @@ function initializeRacesForExpansion() {
   const raceIndexByName = new Map();
   const raceColorById = {};
 
+  const isFirstInitialization = existingRaces.length <= 1;
+
+  let allowedRaces = null;
+  if (isFirstInitialization) {
+    const racesSetElement = byId("racesSet");
+    const racesSetValue = racesSetElement ? racesSetElement.value : "all";
+    const racesSetFilter = getRacesSetFilter(racesSetValue);
+
+    const racesNumberElement = byId("racesNumber");
+    const racesLimitRaw =
+      (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
+    const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
+
+    if (racesSetFilter && maxNonHumanRaces === Infinity) {
+      // Only restrict by races set, no count limit
+      allowedRaces = racesSetFilter;
+    } else if (maxNonHumanRaces !== Infinity) {
+      const raceNeedCounts = new Map();
+      pack.cultures.forEach(culture => {
+        if (!culture || !culture.i || culture.removed) return;
+        const raceName = getRaceNameForCulture(culture);
+        if (!raceName || raceName === "Human") return;
+        if (racesSetFilter && !racesSetFilter.has(raceName)) return;
+        raceNeedCounts.set(raceName, (raceNeedCounts.get(raceName) || 0) + 1);
+      });
+
+      const sortedRaceNames = Array.from(raceNeedCounts.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(entry => entry[0]);
+
+      allowedRaces = new Set(sortedRaceNames.slice(0, maxNonHumanRaces));
+    }
+  }
+
   existingRaces.forEach(race => {
     if (!race || !race.i) return;
     races[race.i] = {i: race.i, name: race.name, color: race.color, expansionism: race.expansionism};
@@ -1346,7 +1587,11 @@ function initializeRacesForExpansion() {
       return;
     }
 
-    const raceName = getRaceNameForCulture(culture);
+    let raceName = getRaceNameForCulture(culture);
+
+    if (isFirstInitialization && raceName && raceName !== "Human" && allowedRaces) {
+      if (!allowedRaces.has(raceName)) raceName = "Human";
+    }
     let raceId = raceIndexByName.get(raceName);
 
     if (!raceId) {
