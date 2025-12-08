@@ -38,6 +38,7 @@ function editNamesbase() {
 
   // Language Mixer references
   const mixerCategorySelect = byId("namesbaseMixerCategory");
+  const mixerFamilySelect = byId("namesbaseMixerFamily");
   const mixerLanguageSelect = byId("namesbaseMixerLanguage");
   const mixerAddButton = byId("namesbaseMixerAdd");
   const mixerEvenButton = byId("namesbaseMixerEven");
@@ -287,10 +288,15 @@ function editNamesbase() {
   function initLanguageMixer() {
     loadMixerCatalog().then(() => {
       renderMixerCategories();
+      renderMixerFamilies();
       renderMixerLanguageOptions();
     });
 
     mixerCategorySelect?.addEventListener("change", () => {
+      renderMixerLanguageOptions();
+    });
+
+    mixerFamilySelect?.addEventListener("change", () => {
       renderMixerLanguageOptions();
     });
 
@@ -363,6 +369,24 @@ function editNamesbase() {
     });
   }
 
+  function renderMixerFamilies() {
+    if (!mixerFamilySelect || !mixer.catalog) return;
+    const families = Array.from(new Set(mixer.catalog.map(lang => lang.family).filter(Boolean))).sort((a, b) =>
+      a.localeCompare(b)
+    );
+    mixerFamilySelect.innerHTML = "";
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = "All families";
+    mixerFamilySelect.append(allOption);
+    families.forEach(family => {
+      const option = document.createElement("option");
+      option.value = family;
+      option.textContent = family;
+      mixerFamilySelect.append(option);
+    });
+  }
+
   function formatMixerTagBadge(meta, inline = false) {
     if (!meta || !meta.tags || !meta.tags.length) return "";
     const tags = [];
@@ -389,8 +413,12 @@ function editNamesbase() {
     if (!mixerLanguageSelect || !mixer.catalog) return;
     mixerLanguageSelect.innerHTML = "";
     const selectedCategory = mixerCategorySelect?.value || "";
-    const options = selectedCategory ? mixer.catalog.filter(lang => lang.category === selectedCategory) : mixer.catalog;
+    const selectedFamily = mixerFamilySelect?.value || "";
+    let options = mixer.catalog;
+    if (selectedCategory) options = options.filter(lang => lang.category === selectedCategory);
+    if (selectedFamily) options = options.filter(lang => lang.family === selectedFamily);
     options.forEach(lang => {
+      if (lang.tags && lang.tags.includes("family")) return; // skip family-only pseudo-languages
       const option = document.createElement("option");
       option.value = lang.iso;
       option.textContent = formatMixerLabel(lang);

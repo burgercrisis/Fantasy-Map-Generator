@@ -1145,42 +1145,42 @@
     "name": "Romanian (Daco-Romanian)",
     "iso": "ron",
     "region": "Europe",
-    "category": "Romance"
-  },
-  {
-    "name": "Daco-Romanian",
-    "iso": "daco-romanian",
-    "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Northern Romanian",
     "iso": "northern-romanian",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Eastern Romanian",
     "iso": "eastern-romanian",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Aromanian",
     "iso": "rup",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Megleno-Romanian",
     "iso": "ruq",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Istro-Romanian",
     "iso": "ruo",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {

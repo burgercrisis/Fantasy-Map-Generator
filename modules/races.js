@@ -56,6 +56,315 @@ const fantasyRaceBases = {
   Starspawn: [86]
 };
 
+// Optional language mixer profiles per race. These define which real-world
+// language categories / families a race should draw from when using the
+// Markov mixer (Names.getMixedByIso) to generate fresh race languages.
+//
+// Semantics:
+// - categories: array of language catalog categories (e.g. "Romance").
+// - families: array of language families (e.g. "Eastern Romance").
+// - A language is eligible if (category ∈ categories) OR (family ∈ families).
+// - If no eligible languages are found or mixer is unavailable, we fall back
+//   to the classic fantasy namebase defined in fantasyRaceBases.
+
+const raceLanguageProfiles = {
+  Elf: {
+    categories: ["Romance", "Celtic", "Uralic"],
+    families: ["Eastern Romance"]
+  },
+  "Dark Elf": {
+    categories: ["Slavic", "Germanic", "Romance"],
+    families: ["Eastern Romance"]
+  },
+  Dwarf: {
+    categories: ["Germanic", "Celtic", "Slavic"],
+    families: []
+  },
+  Halfling: {
+    categories: ["Germanic", "Celtic", "Romance"],
+    families: []
+  },
+  Gnome: {
+    categories: ["Germanic", "Celtic", "Uralic"],
+    families: []
+  },
+  "Half-Elf": {
+    categories: ["Romance", "Germanic", "Celtic"],
+    families: ["Eastern Romance"]
+  },
+  "Half-Orc": {
+    categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
+    families: []
+  },
+  Goblin: {
+    categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
+    families: []
+  },
+  Orc: {
+    categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
+    families: []
+  },
+  Giant: {
+    categories: ["Germanic", "Slavic", "Iranian"],
+    families: []
+  },
+  Draconic: {
+    categories: ["Sino-Tibetan", "Japonic", "Koreanic"],
+    families: []
+  },
+  Dragonborn: {
+    categories: ["Sino-Tibetan", "Japonic", "Koreanic"],
+    families: []
+  },
+  Arachnid: {
+    categories: ["Afroasiatic", "Sino-Tibetan", "Indo-Aryan"],
+    families: []
+  },
+  Serpent: {
+    categories: ["Afroasiatic", "Sino-Tibetan", "Indo-Aryan"],
+    families: []
+  },
+  Tiefling: {
+    categories: ["Romance", "Afroasiatic"],
+    families: []
+  },
+  Aasimar: {
+    categories: ["Romance", "Germanic"],
+    families: []
+  },
+  Hobgoblin: {
+    categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
+    families: []
+  },
+  Goliath: {
+    categories: ["Germanic", "Slavic", "Iranian"],
+    families: []
+  },
+  Lizardfolk: {
+    categories: ["Niger-Congo", "Afroasiatic", "Austronesian"],
+    families: []
+  },
+  Shifter: {
+    categories: ["Celtic", "Germanic", "Niger-Congo"],
+    families: []
+  },
+  Gnoll: {
+    categories: ["Afroasiatic", "Niger-Congo"],
+    families: []
+  },
+  Bugbear: {
+    categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
+    families: []
+  },
+  Tabaxi: {
+    categories: ["Niger-Congo", "Afroasiatic", "Austronesian"],
+    families: []
+  },
+  Warforged: {
+    categories: ["Germanic", "Slavic", "Sino-Tibetan"],
+    families: []
+  },
+  Kenku: {
+    categories: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan"],
+    families: []
+  },
+  Aarakocra: {
+    categories: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan"],
+    families: []
+  },
+  Triton: {
+    categories: ["Austronesian", "Romance"],
+    families: []
+  },
+  "Yuan-ti": {
+    categories: ["Sino-Tibetan", "Indo-Aryan"],
+    families: []
+  },
+  Firbolg: {
+    categories: ["Celtic", "Germanic"],
+    families: []
+  },
+  Gith: {
+    categories: ["Sino-Tibetan", "Uralic", "Dravidian"],
+    families: []
+  },
+  Genasi: {
+    categories: ["Sino-Tibetan", "Indo-Aryan", "Iranian"],
+    families: []
+  },
+  Changeling: {
+    categories: ["Romance", "Germanic", "Slavic"],
+    families: []
+  },
+  Satyr: {
+    categories: ["Celtic", "Romance"],
+    families: []
+  },
+  Minotaur: {
+    categories: ["Greek", "Romance", "Iranian"],
+    families: []
+  },
+  Kalashtar: {
+    categories: ["Indo-Aryan", "Iranian"],
+    families: []
+  },
+  Kobold: {
+    categories: ["Slavic", "Sino-Tibetan"],
+    families: []
+  },
+  Duergar: {
+    categories: ["Germanic", "Slavic"],
+    families: []
+  },
+  Dhampir: {
+    categories: ["Slavic", "Romance"],
+    families: []
+  },
+  Reborn: {
+    categories: ["Slavic", "Germanic", "Sino-Tibetan"],
+    families: []
+  },
+  "Shadar-kai": {
+    categories: ["Slavic", "Germanic", "Romance"],
+    families: []
+  },
+  Hexblood: {
+    categories: ["Slavic", "Germanic", "Romance"],
+    families: []
+  },
+  Centaur: {
+    categories: ["Greek", "Romance", "Iranian"],
+    families: []
+  },
+  Leonin: {
+    categories: ["Niger-Congo", "Afroasiatic"],
+    families: []
+  },
+  Loxodon: {
+    categories: ["Indo-Aryan", "Dravidian"],
+    families: []
+  },
+  Harengon: {
+    categories: ["Celtic", "Germanic"],
+    families: []
+  },
+  Tortle: {
+    categories: ["Austronesian", "Dravidian"],
+    families: []
+  },
+  Giff: {
+    categories: ["Germanic", "Romance"],
+    families: []
+  },
+  Owlin: {
+    categories: ["Uralic", "Sino-Tibetan"],
+    families: []
+  },
+  "Thri-Kreen": {
+    categories: ["Afroasiatic", "Sino-Tibetan"],
+    families: []
+  },
+  Oni: {
+    categories: ["Japonic", "Koreanic"],
+    families: []
+  },
+  Kitsune: {
+    categories: ["Japonic", "Koreanic"],
+    families: []
+  },
+  Deepkin: {
+    categories: ["Austronesian", "Sino-Tibetan"],
+    families: []
+  },
+  Starspawn: {
+    categories: ["Sino-Tibetan", "Uralic", "Dravidian"],
+    families: []
+  }
+};
+
+function getRaceLanguageProfile(raceName) {
+  return raceLanguageProfiles[raceName] || null;
+}
+
+function loadLanguageMixerCatalogForRaces() {
+  if (Array.isArray(window.languageMixerCatalog)) return window.languageMixerCatalog;
+
+  // Fallback: try to synchronously load the JSON catalog if the JS bundle
+  // was not preloaded for some reason.
+  try {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "config/language-mixes.json", false);
+    xhr.send(null);
+    if (xhr.status >= 200 && xhr.status < 300 && xhr.responseText) {
+      const data = JSON.parse(xhr.responseText.replace(/^\uFEFF/, ""));
+      window.languageMixerCatalog = data;
+      return data;
+    }
+  } catch (e) {
+    console.error("Races: failed to load language-mixes.json", e);
+  }
+
+  return Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
+}
+
+function getRaceLanguageIsoWeights(raceName) {
+  const profile = getRaceLanguageProfile(raceName);
+  if (!profile) return null;
+
+  const catalog = loadLanguageMixerCatalogForRaces();
+  if (!Array.isArray(catalog) || !catalog.length) return null;
+
+  const categorySet = new Set(profile.categories || []);
+  const familySet = new Set(profile.families || []);
+  const isoWeights = {};
+
+  catalog.forEach(lang => {
+    if (!lang || !lang.iso) return;
+    if (lang.tags && lang.tags.includes("family")) return; // skip family-only macros
+
+    const catOk = categorySet.size && categorySet.has(lang.category);
+    const famOk = familySet.size && lang.family && familySet.has(lang.family);
+    if (!catOk && !famOk) return;
+
+    isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
+  });
+
+  return Object.keys(isoWeights).length ? isoWeights : null;
+}
+
+// Generate fresh Markov-mixed language samples for a race. This uses
+// Names.getMixedByIso with iso weights derived from the race profile.
+// If no suitable languages are found or the mixer is unavailable, falls
+// back to the classic fantasy namebase defined for the race.
+
+function generateRaceLanguageNames(raceName, options) {
+  const count = (options && options.count) || 40;
+
+  const isoWeights = typeof Names !== "undefined" && Names.getMixedByIso
+    ? getRaceLanguageIsoWeights(raceName)
+    : null;
+
+  if (isoWeights && Names && typeof Names.getMixedByIso === "function") {
+    try {
+      const names = Names.getMixedByIso(isoWeights, {count});
+      if (Array.isArray(names) && names.length) return names;
+    } catch (error) {
+      ERROR && console.error("Race mixer error for", raceName, error);
+    }
+  }
+
+  // Fallback: classic fantasy base for the race
+  const bases = fantasyRaceBases[raceName];
+  if (!bases || !bases.length || !Names || typeof Names.getBase !== "function") return [];
+
+  const baseIndex = bases[0];
+  const result = [];
+  for (let i = 0; i < count; i++) {
+    result.push(Names.getBase(baseIndex));
+  }
+  return result;
+}
+
 function getRacesSetFilter(value) {
   switch (value) {
     case "classic":

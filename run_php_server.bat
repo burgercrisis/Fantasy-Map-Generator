@@ -1,3 +1,3 @@
-start chrome.exe http://localhost:3000/
+start chrome.exe http://localhost:3003/
 @echo off
-php -S localhost:3000
+php -S localhost:3003

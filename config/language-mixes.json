@@ -1140,42 +1140,42 @@
     "name": "Romanian (Daco-Romanian)",
     "iso": "ron",
     "region": "Europe",
-    "category": "Romance"
-  },
-  {
-    "name": "Daco-Romanian",
-    "iso": "daco-romanian",
-    "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Northern Romanian",
     "iso": "northern-romanian",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Eastern Romanian",
     "iso": "eastern-romanian",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Aromanian",
     "iso": "rup",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Megleno-Romanian",
     "iso": "ruq",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
     "name": "Istro-Romanian",
     "iso": "ruo",
     "region": "Europe",
+    "family": "Eastern Romance",
     "category": "Romance"
   },
   {
@@ -2370,5 +2370,438 @@
     "region": "South America",
     "category": "Arawakan",
     "wikipedia": "https://en.wikipedia.org/wiki/Wayuu_language"
+  },
+  {
+    "name": "Krio",
+    "iso": "krio",
+    "region": "Africa",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Krio_language"
+  },
+  {
+    "name": "Aku",
+    "iso": "aku",
+    "region": "Africa",
+    "category": "Creole"
+  },
+  {
+    "name": "Merico",
+    "iso": "merico",
+    "region": "Africa",
+    "category": "Creole"
+  },
+  {
+    "name": "West African Pidgin English",
+    "iso": "west-african-pidgin-english",
+    "region": "Africa",
+    "category": "Pidgin"
+  },
+  {
+    "name": "Cameroonian Pidgin",
+    "iso": "cameroonian-pidgin",
+    "region": "Africa",
+    "category": "Pidgin"
+  },
+  {
+    "name": "Pichinglis",
+    "iso": "pichinglis",
+    "region": "Africa",
+    "category": "Pidgin"
+  },
+  {
+    "name": "Ghanaian Pidgin English",
+    "iso": "ghanaian-pidgin-english",
+    "region": "Africa",
+    "category": "Pidgin"
+  },
+  {
+    "name": "Liberian Kreyol",
+    "iso": "liberian-kreyol",
+    "region": "Africa",
+    "category": "Creole"
+  },
+  {
+    "name": "Nigerian Pidgin",
+    "iso": "nigerian-pidgin",
+    "region": "Africa",
+    "category": "Pidgin"
+  },
+  {
+    "name": "Bajan Creole",
+    "iso": "bajan-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Grenadian Creole English",
+    "iso": "grenadian-creole-english",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Gullah",
+    "iso": "gullah",
+    "region": "North America",
+    "category": "Creole"
+  },
+  {
+    "name": "Afro-Seminole Creole",
+    "iso": "afro-seminole-creole",
+    "region": "North America",
+    "category": "Creole"
+  },
+  {
+    "name": "Guyanese Creole",
+    "iso": "guyanese-creole",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Kwinti",
+    "iso": "kwinti",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Leeward Caribbean Creole English",
+    "iso": "leeward-caribbean-creole-english",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Anguillian Creole",
+    "iso": "anguillian-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Montserrat Creole",
+    "iso": "montserrat-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Saint Kitts Creole",
+    "iso": "saint-kitts-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Ndyuka",
+    "iso": "ndyuka",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Aluku",
+    "iso": "aluku",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Saramaccan",
+    "iso": "saramaccan",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Matawai",
+    "iso": "matawai",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Sranan Tongo",
+    "iso": "sranan-tongo",
+    "region": "South America",
+    "category": "Creole"
+  },
+  {
+    "name": "Tobagonian Creole",
+    "iso": "tobagonian-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Trinidadian Creole",
+    "iso": "trinidadian-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Vincentian Creole",
+    "iso": "vincentian-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Virgin Islands Creole",
+    "iso": "virgin-islands-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Bahamian Creole",
+    "iso": "bahamian-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Belizean Creole",
+    "iso": "belizean-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Jamaican Maroon Creole",
+    "iso": "jamaican-maroon-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Jamaican Patois",
+    "iso": "jamaican-patois",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Bocas del Toro Creole",
+    "iso": "bocas-del-toro-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Limonese Creole",
+    "iso": "limonese-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Miskito Coast Creole",
+    "iso": "miskito-coast-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Rama Cay Creole",
+    "iso": "rama-cay-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "San Andrés-Providencia Creole",
+    "iso": "san-andres-providencia-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Turks and Caicos Creole",
+    "iso": "turks-and-caicos-creole",
+    "region": "Caribbean",
+    "category": "Creole"
+  },
+  {
+    "name": "Bislama",
+    "iso": "bislama",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Pijin",
+    "iso": "pijin",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Australian Kriol",
+    "iso": "australian-kriol",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Bonin English",
+    "iso": "bonin-english",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Hawaiian Pidgin",
+    "iso": "hawaiian-pidgin",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Melanesian Pidgin",
+    "iso": "melanesian-pidgin",
+    "region": "Pacific",
+    "category": "Pidgin"
+  },
+  {
+    "name": "Ngatikese Creole",
+    "iso": "ngatikese-creole",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Pitcairn-Norfolk",
+    "iso": "pitcairn-norfolk",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Singlish",
+    "iso": "singlish",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Torres Strait Creole",
+    "iso": "torres-strait-creole",
+    "region": "Pacific",
+    "category": "Creole"
+  },
+  {
+    "name": "Manglish",
+    "iso": "manglish",
+    "region": "Asia",
+    "category": "Creole"
+  },
+  {
+    "name": "Baba Malay",
+    "iso": "baba-malay",
+    "region": "Asia",
+    "category": "Creole"
+  },
+  {
+    "name": "Peranakan",
+    "iso": "peranakan",
+    "region": "Asia",
+    "category": "Creole"
+  },
+  {
+    "name": "Balinese Malay",
+    "iso": "balinese-malay",
+    "region": "Asia",
+    "category": "Creole"
+  },
+  {
+    "name": "Betawi",
+    "iso": "betawi",
+    "region": "Asia",
+    "category": "Creole"
+  },
+  {
+    "name": "Cocos Malay",
+    "iso": "cocos-malay",
+    "region": "Indian Ocean",
+    "category": "Creole"
+  },
+  {
+    "name": "Eastern Indonesian Malay",
+    "iso": "eastern-indonesian-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Alor Malay",
+    "iso": "alor-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Ambonese Malay",
+    "iso": "ambonese-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Banda Malay",
+    "iso": "banda-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Dili Malay",
+    "iso": "dili-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Gorap",
+    "iso": "gorap",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Kupang Malay",
+    "iso": "kupang-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Larantuka Malay",
+    "iso": "larantuka-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Manado Malay",
+    "iso": "manado-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Maumere Malay",
+    "iso": "maumere-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "North Moluccan Malay",
+    "iso": "north-moluccan-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Sula Malay",
+    "iso": "sula-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Papuan Malay",
+    "iso": "papuan-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Serui Malay",
+    "iso": "serui-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Malaccan Creole Malay",
+    "iso": "malaccan-creole-malay",
+    "region": "Asia",
+    "category": "Creole"
+  },
+  {
+    "name": "Orang Pulo",
+    "iso": "orang-pulo",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Sabah Malay",
+    "iso": "sabah-malay",
+    "region": "Asia",
+    "category": "Malay-based"
+  },
+  {
+    "name": "Sri Lankan Malay",
+    "iso": "sri-lankan-malay",
+    "region": "Asia",
+    "category": "Creole"
   }
 ]

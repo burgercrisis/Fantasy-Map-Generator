@@ -2423,5 +2423,437 @@
     "bases": [
       306
     ]
+  },
+  {
+    "iso": "krio",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "aku",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "merico",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "west-african-pidgin-english",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "cameroonian-pidgin",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "pichinglis",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "ghanaian-pidgin-english",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "liberian-kreyol",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "nigerian-pidgin",
+    "bases": [
+      307
+    ]
+  },
+  {
+    "iso": "bajan-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "grenadian-creole-english",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "gullah",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "afro-seminole-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "guyanese-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "kwinti",
+    "bases": [
+      291
+    ]
+  },
+  {
+    "iso": "leeward-caribbean-creole-english",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "anguillian-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "montserrat-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "saint-kitts-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "ndyuka",
+    "bases": [
+      291
+    ]
+  },
+  {
+    "iso": "aluku",
+    "bases": [
+      291
+    ]
+  },
+  {
+    "iso": "saramaccan",
+    "bases": [
+      291
+    ]
+  },
+  {
+    "iso": "matawai",
+    "bases": [
+      291
+    ]
+  },
+  {
+    "iso": "sranan-tongo",
+    "bases": [
+      291
+    ]
+  },
+  {
+    "iso": "tobagonian-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "trinidadian-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "vincentian-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "virgin-islands-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "bahamian-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "belizean-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "jamaican-maroon-creole",
+    "bases": [
+      259
+    ]
+  },
+  {
+    "iso": "jamaican-patois",
+    "bases": [
+      259
+    ]
+  },
+  {
+    "iso": "bocas-del-toro-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "limonese-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "miskito-coast-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "rama-cay-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "san-andres-providencia-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "turks-and-caicos-creole",
+    "bases": [
+      308
+    ]
+  },
+  {
+    "iso": "bislama",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "pijin",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "australian-kriol",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "bonin-english",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "hawaiian-pidgin",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "melanesian-pidgin",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "ngatikese-creole",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "pitcairn-norfolk",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "singlish",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "torres-strait-creole",
+    "bases": [
+      309
+    ]
+  },
+  {
+    "iso": "manglish",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "baba-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "peranakan",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "balinese-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "betawi",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "cocos-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "eastern-indonesian-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "alor-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "ambonese-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "banda-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "dili-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "gorap",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "kupang-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "larantuka-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "manado-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "maumere-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "north-moluccan-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "sula-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "papuan-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "serui-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "malaccan-creole-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "orang-pulo",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "sabah-malay",
+    "bases": [
+      310
+    ]
+  },
+  {
+    "iso": "sri-lankan-malay",
+    "bases": [
+      310
+    ]
   }
 ]
