@@ -11348,6 +11348,18 @@
     "family": "Celtic"
   },
   {
+    "name": "Gaulish",
+    "iso": "gaulish",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaulish_language",
+    "family": "Celtic",
+    "tags": [
+      "extinct",
+      "historical"
+    ]
+  },
+  {
     "name": "Brianzöö",
     "iso": "brianz-",
     "region": "Europe",
@@ -12285,6 +12297,18 @@
     "category": "Baltic",
     "wikipedia": "https://en.wikipedia.org/wiki/Latvian_language",
     "family": "Baltic"
+  },
+  {
+    "name": "Old Prussian",
+    "iso": "old-prussian",
+    "region": "Europe",
+    "category": "Baltic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Old_Prussian_language",
+    "family": "Baltic",
+    "tags": [
+      "extinct",
+      "historical"
+    ]
   },
   {
     "name": "Law French",
@@ -16470,6 +16494,78 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Cahuilla",
+    "iso": "cahuilla",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cahuilla_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Shoshoni",
+    "iso": "shoshoni",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoshoni_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Comanche",
+    "iso": "comanche",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Comanche_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Ute",
+    "iso": "ute",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ute_dialect",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Pima Bajo",
+    "iso": "pima-bajo",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pima_Bajo_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Southern Tepehuan",
+    "iso": "southern-tepehuan",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Mayo",
+    "iso": "mayo",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mayo_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Cora",
+    "iso": "cora",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cora_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Pipil (Nawat)",
+    "iso": "pipil",
+    "region": "Central America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nawat_language_(typological_overview)",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Innu",
     "iso": "innu",
     "region": "North America",
@@ -16542,6 +16638,28 @@
     "category": "Algic",
     "wikipedia": "https://en.wikipedia.org/wiki/Mi%27kmaq_language",
     "family": "Algic"
+  },
+  {
+    "name": "Wiyot",
+    "iso": "wiyot",
+    "region": "North America",
+    "category": "Algic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wiyot_language",
+    "family": "Algic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Yurok",
+    "iso": "yurok",
+    "region": "North America",
+    "category": "Algic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yurok_language",
+    "family": "Algic",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Missouri French",
@@ -20844,6 +20962,14 @@
     "region": "South America",
     "category": "Araucanian",
     "wikipedia": "https://en.wikipedia.org/wiki/Mapuche_language",
+    "family": "Araucanian"
+  },
+  {
+    "name": "Huilliche",
+    "iso": "huilliche",
+    "region": "South America",
+    "category": "Araucanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Huilliche_language",
     "family": "Araucanian"
   },
   {

@@ -1184,6 +1184,105 @@ Run this to compare how narrow or broad different races' language palettes are.
 
 ---
 
+## Experimental Markov helpers
+
+These helpers are **standalone Node scripts** for exploring compound / blended Markov behavior. They do **not** affect the in-browser generator or any bundles; they only print to stdout.
+
+### `experiment-compound-markov.js`
+
+**Purpose**
+
+Single-base experiment for **compound vs plain** Markov generation, driven by base length statistics.
+
+**Inputs**
+
+- `modules/namebases-real.js`
+- `modules/namebases-fantasy.js`
+- `modules/namebases-creole.js`
+- `modules/namebases-all.js` (via `window.defaultNameBases`)
+
+**Outputs**
+
+- Console-only sample names and per-base length summary (min / max / mean / quartiles).
+
+**Usage**
+
+```bash
+node tools/experiment-compound-markov.js --base=353,354 --count=40 --min=10 --max=30 --mode=auto --seed=1
+```
+
+Key options:
+
+- `--base=IDX[,IDX...]` – one or more base indices to test.
+- `--count=N` – how many names to generate per base (default `20`).
+- `--min=INT`, `--max=INT` – target length band; when this is much larger than the base’s natural length, compound mode will tend to kick in.
+- `--mode=plain|compound|auto` – force plain, force compound, or let the helper decide.
+- `--seed=INT` – deterministic RNG seed.
+
+### `experiment-compound-markov-v2.js`
+
+**Purpose**
+
+Refined compound helper that uses **better length statistics** and a more conservative auto/compound decision. Intended as the main playground for long-form place names from one or more bases.
+
+**Inputs / behavior**
+
+- Loads `window.defaultNameBases` from the same four namebase modules as above.
+- Builds a Markov chain per requested base and computes per-base length stats.
+- When `--mode=auto`, only compounds when the requested `--min` is clearly above the base’s natural range.
+
+**Usage**
+
+```bash
+node tools/experiment-compound-markov-v2.js --base=353,354 --count=40 --min=15 --max=50 --mode=auto --seed=1
+```
+
+Options mirror the v1 helper:
+
+- `--base=IDX[,IDX...]`
+- `--count=N`
+- `--min=INT`, `--max=INT`
+- `--mode=plain|compound|auto` (default `auto`)
+- `--seed=INT`
+
+### `experiment-compound-markov-blend.js`
+
+**Purpose**
+
+Blended compound helper: lets a **single name** contain segments from **multiple bases** (e.g. Kx’a + Germanic in one string), with boundary smoothing and optional spaces/hyphens for romanized segments.
+
+**Inputs**
+
+- Same namebase modules as the other experiment helpers.
+
+**Outputs**
+
+- Console-only output. Each line is tagged with the base indices that actually contributed to that name (e.g. `[353+354+0]`).
+
+**Usage**
+
+```bash
+node tools/experiment-compound-markov-blend.js --base=353,354,0,1,6 --count=40 --min=15 --max=50 --seed=1
+```
+
+Notes:
+
+- Always operates in a **blended** mode (no plain vs compound switch).
+- Uses per-base stats to pick reasonable segment lengths, then stitches segments with `smoothJoin` to avoid ugly boundaries.
+
+### `experiment-compound-markov-mix.js` and `experiment-compound-markov-mix2.js`
+
+**Purpose / status**
+
+Earlier scratch variants exploring similar ideas (multi-segment names, length-aware compounding, etc.). They are not wired into any pnpm scripts or orchestrators and can be treated as low-level experiments.
+
+If you want a clean starting point today, prefer:
+
+- `experiment-compound-markov-v2.js` for **single-base compound** tuning.
+- `experiment-compound-markov-blend.js` for **multi-base blended** tuning.
+
+---
+
 ## Quick-Start Sequences
 
 ### Adding or expanding languages for the mixer

@@ -21232,5 +21232,94 @@
     "bases": [
       130
     ]
+  },
+  {
+    "iso": "cahuilla",
+    "bases": [
+      190
+    ]
+  },
+  {
+    "iso": "shoshoni",
+    "bases": [
+      190
+    ]
+  },
+  {
+    "iso": "comanche",
+    "bases": [
+      190
+    ]
+  },
+  {
+    "iso": "ute",
+    "bases": [
+      190
+    ]
+  },
+  {
+    "iso": "pima-bajo",
+    "bases": [
+      191
+    ]
+  },
+  {
+    "iso": "southern-tepehuan",
+    "bases": [
+      191
+    ]
+  },
+  {
+    "iso": "mayo",
+    "bases": [
+      191
+    ]
+  },
+  {
+    "iso": "cora",
+    "bases": [
+      191
+    ]
+  },
+  {
+    "iso": "pipil",
+    "bases": [
+      14
+    ]
+  },
+  {
+    "iso": "wiyot",
+    "bases": [
+      186,
+      187
+    ]
+  },
+  {
+    "iso": "yurok",
+    "bases": [
+      186,
+      187
+    ]
+  },
+  {
+    "iso": "huilliche",
+    "bases": [
+      178,
+      27
+    ]
+  },
+  {
+    "iso": "old-prussian",
+    "bases": [
+      213,
+      214
+    ]
+  },
+  {
+    "iso": "gaulish",
+    "bases": [
+      206,
+      207
+    ]
   }
 ]
