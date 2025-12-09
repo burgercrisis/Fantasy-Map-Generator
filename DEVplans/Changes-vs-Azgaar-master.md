@@ -1,0 +1,162 @@
+# Changes vs Azgaar `master`
+
+This document summarizes the main differences between this fork (branch `Burgers-Stuff-He-Did-To-Azgaars`) and upstream `Azgaar/Fantasy-Map-Generator` `master` as of the latest merge base.
+
+The goal is to give a quick orientation for what has been added or changed, without duplicating all commit messages.
+
+---
+
+## 1. High‑Level Overview
+
+- **Language mixer system** for building synthetic languages and name sets by mixing real languages via the existing Markov generator.
+- **Fantasy race system** integrated with cultures and map generation.
+- **AI text generator integration** (OpenAI / Anthropic / Gemini / Ollama) wired into the UI and synced with the Namesbase editor.
+- **Planning documents** for future systems: Underdark, Individuals, and Character generation.
+- **Extensive language & namebase expansions** plus a toolbox of helper scripts for maintaining language mappings, coverage, and data quality.
+- **Minor UI and tooling adjustments** to surface the above features.
+
+---
+
+## 2. New Planning & Design Documents
+
+New high‑level design docs under `DEVplans/`:
+
+- **`DEVplans/Underdark.md`**  
+  Describes the plan for adding an Underdark layer / subsystem to the world (structure, integration points, future UI).
+
+- **`DEVplans/Individuals.md`**  
+  Developer guide for a scalable Individuals & Population system (IDs/seeding, schemas, overrides, time evolution, APIs, roadmap).
+
+- **`DEVplans/Characters.md`**  
+  Planning document for a deeper character system tied into Individuals (incl. D&D / Pathfinder style character generation hooks).
+
+These are additive; upstream does not ship these design docs.
+
+---
+
+## 3. Language Mixer & Language Data
+
+New functionality to procedurally **mix languages** and generate novel name styles:
+
+- **Config & data files** (large changes):
+  - `config/language-mixer-map.js` and `config/language-mixer-map.json`
+  - `config/language-mixes-all.js` and `config/language-mixes.json`
+- **Generator logic:**
+  - `modules/names-mixer.js` – core mixer logic over Azgaar’s Markov system.
+  - Updates to `modules/names-generator.js` and `modules/namebases-*.js` (real, fantasy, creole, all) to plug the mixer into existing name generation.
+- **Data expansions:**
+  - Many new languages and families (e.g. additional Romance, Uralic, Creole, Hmong‑Mien, Sinitic, African languages, etc.).
+  - Improved coverage and fallback rules so more cultures/races have appropriate name pools.
+
+Behavioral impact vs upstream:
+
+- More **language diversity** and finer mapping between cultures/races and name sets.
+- Ability to define **synthetic mixed languages** for worlds that don’t map cleanly to any single real‑world language.
+
+---
+
+## 4. Fantasy Race System
+
+New race system layered on top of/alongside cultures:
+
+- **New modules:**
+  - `modules/races.js` – race definitions, relationships to cultures, and generation logic.
+  - `modules/dynamic/editors/races-editor.js` – UI/editor for configuring and exploring races.
+- **Integration points:**
+  - Changes in `modules/cultures-generator.js` and related files so that expansionism, culture generation, and naming can respect race information.
+
+Effects vs upstream:
+
+- Worlds can distinguish **fantasy races** in addition to cultures.
+- Race settings influence cultural expansion and name selection, enabling campaign‑setting‑style worlds.
+
+---
+
+## 5. AI Text Generator & Namesbase Integration
+
+New AI workflow for generating descriptive text directly inside the app:
+
+- **New UI module:**
+  - `modules/ui/ai-generator.js` – central AI dialog and request pipeline.
+- **Supported providers & models:**
+  - OpenAI (Chat Completions; e.g. `gpt-4o-mini`, `gpt-4o`, etc.).
+  - Anthropic (Messages API; several Claude models).
+  - Google Gemini (models like `gemini-1.5-flash-latest`, with optional web access).
+  - Ollama (local models via the Ollama HTTP API).
+- **Features:**
+  - Streaming responses with a shared system prompt ("I’m working on my fantasy map.").
+  - Per‑provider API key storage in `localStorage`.
+  - Temperature and model selection with persistence.
+  - Optional **web access toggle** for Gemini requests.
+
+**Namesbase editor integration:**
+
+- The AI dialog’s controls synchronize with the Namesbase editor’s AI controls (model, key, temperature, web‑access flag), so both UIs share configuration.
+
+Compared to upstream, this fork adds a full **multi‑provider AI text generation pipeline** and related UI.
+
+---
+
+## 6. UI & UX Adjustments
+
+Selected UI changes on top of upstream behavior:
+
+- **Burgs overview:**
+  - `modules/ui/burgs-overview.js` enhanced with more grouping options (e.g. by state/language, culture/language, etc.) and improved legend / layout to better visualize language & race distributions.
+
+- **Namesbase editor & tools wiring:**
+  - `modules/ui/namesbase-editor.js`, `modules/ui/editors.js`, `modules/ui/tools.js`, `modules/ui/hotkeys.js`, and `modules/ui/layers.js` touched to:
+    - Expose the language mixer, race editor, and AI generator.
+    - Add or adjust hotkeys and layer visibility related to the new systems where appropriate.
+
+- **Page shell / bootstrapping:**
+  - `index.html`, `main.js`, and `old_index.html` updated to include the new dialogs/scripts and keep a copy of the old layout for reference.
+
+These changes are mostly **additive wiring** for new systems; core map editing UX from upstream remains recognizable.
+
+---
+
+## 7. Helper Tools & Maintenance Scripts
+
+A large set of maintenance scripts under `tools/` has been added or expanded. Highlights include:
+
+- **Language family & mapping maintenance:**
+  - `add-african-languages.js`, `add-trans-new-guinea-mixer.js`, `update-*.js` for specific families (Afroasiatic, Austroasiatic, Austronesian, Dravidian, Indo‑Aryan, Kartvelian, Niger‑Congo, Romance, Turkic, Uralic, etc.).
+  - `fill-all-missing-mixes.js`, `fill-family-mixes.js`, `fill-mongolic-mixes.js`, `fill-sino-tibetan-mixes.js`, etc., to auto‑populate language mixer entries.
+
+- **Quality & coverage reports:**
+  - `check-language-mixer-coverage.js`, `check-special-families.js`.
+  - `report-language-mixer-duplicates.js`, `report-language-mixer-name-counts.js`, `report-namebase-duplicates.js`.
+  - `report-race-language-coverage.js` to compare race profiles with language availability.
+
+- **Mixer tooling:**
+  - `generate-language-mixer.js` and `run-language-mixer-suite.js` to build/import/update language mixer data and run a full maintenance pipeline.
+  - `dedupe-namebase-duplicates.js` and `fix-language-mixer-mappings.js` to clean and normalize data.
+
+Compared to upstream, this fork includes a **much richer internal toolbox** for keeping language and race data consistent, deduplicated, and well‑covered.
+
+---
+
+## 8. Miscellaneous Changes
+
+Smaller changes vs upstream include:
+
+- **Documentation:**
+  - Top of `README.md` updated with a brief summary of this fork’s goals and links to the new DEVplans docs.
+- **Local server scripts:**
+  - `run_php_server.bat` and `run_python_server.bat` tweaked for local workflow (ports/paths). Behavior is still "start a simple local web server" but tuned for this fork.
+- **`package.json`:**
+  - Light updates to scripts/dependencies to support the new workflow and tooling (while still remaining a static‑site style project).
+
+---
+
+## 9. Conceptual Summary
+
+Relative to upstream `master`, this fork focuses on:
+
+- **Deeper world‑building knobs** (races, language diversity, planned Individuals/Underdark/Characters systems).
+- **More flexible name generation** via the language mixer and greatly expanded language data.
+- **AI‑assisted content creation** integrated directly into the UI.
+- **Internal tooling** to keep the above systems maintainable over time.
+
+This document should be updated if/when new large‑scope features land in this branch so downstream users can quickly see what diverges from Azgaar’s original generator.
