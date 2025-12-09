@@ -1,4 +1,5 @@
 # Individuals System  Developer Guide
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 This document outlines the plan for implementing the **Individuals & Population** system in the Fantasy Map Generator. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re-designing the feature.
 

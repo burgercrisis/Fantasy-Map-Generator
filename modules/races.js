@@ -90,8 +90,8 @@ const raceLanguageProfiles = {
     families: ["Germanic", "Celtic"]
   },
   "Half-Elf": {
-    categories: ["Romance", "Germanic", "Celtic"],
-    families: ["Romance", "Germanic", "Celtic"]
+    categories: ["Romance", "Germanic", "Celtic", "Uralic"],
+    families: ["Romance", "Germanic", "Celtic", "Uralic", "Sami"]
   },
   "Half-Orc": {
     categories: ["Slavic", "Afroasiatic"],
@@ -220,7 +220,9 @@ const raceLanguageProfiles = {
       "Siouan",
       "Algonquian",
       "Na-Dene",
-      "Eskimo–Aleut"
+      "Eskimo–Aleut",
+      "Iroquoian",
+      "Misumalpan"
     ],
     families: [
       "Algic",
@@ -229,7 +231,9 @@ const raceLanguageProfiles = {
       "Siouan",
       "Algonquian",
       "Na-Dene",
-      "Eskimo–Aleut"
+      "Eskimo–Aleut",
+      "Iroquoian",
+      "Misumalpan"
     ]
   },
   Aarakocra: {
@@ -268,8 +272,8 @@ const raceLanguageProfiles = {
     families: ["Celtic", "Germanic", "Uralic", "Sami"]
   },
   Gith: {
-    categories: ["Sino-Tibetan", "Turkic", "Mongolic"],
-    families: ["Sino-Tibetan", "Turkic", "Mongolic"]
+    categories: ["Turkic", "Mongolic", "Indo-Iranian"],
+    families: ["Turkic", "Mongolic", "Indo-Iranian", "Iranian", "Indo-Aryan"]
   },
   Genasi: {
     categories: ["Indo-Aryan", "Iranian"],
@@ -326,7 +330,9 @@ const raceLanguageProfiles = {
       "Mande",
       "Khoe-Kwadi",
       "Kx'a",
-      "Songhay"
+      "Songhay",
+      "Khoe",
+      "Tuu"
     ],
     families: [
       "Niger-Congo",
@@ -336,7 +342,9 @@ const raceLanguageProfiles = {
       "Mande",
       "Khoe-Kwadi",
       "Kx'a",
-      "Songhay"
+      "Songhay",
+      "Khoe",
+      "Tuu"
     ]
   },
   Loxodon: {

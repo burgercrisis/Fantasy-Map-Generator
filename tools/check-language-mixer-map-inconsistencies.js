@@ -76,21 +76,29 @@ function parseArgs(argv) {
   const category = getValue("--category");
   const region = getValue("--region");
   const limitArg = getValue("--limit");
+  const baseArg = getValue("--base");
   const showAllBases = args.includes("--show-all-bases");
   const help = args.includes("--help") || args.includes("-h");
 
   const limit = limitArg ? parseInt(limitArg, 10) : null;
+  const basesFilter = baseArg
+    ? baseArg
+        .split(",")
+        .map(s => parseInt(s, 10))
+        .filter(n => !Number.isNaN(n))
+    : null;
 
-  return {family, category, region, limit, showAllBases, help};
+  return {family, category, region, limit, showAllBases, basesFilter, help};
 }
 
 function printUsage() {
   console.log("Usage: node tools/check-language-mixer-map-inconsistencies.js [options]\n");
   console.log("Options:");
   console.log("  --family=NAME       Filter mixes by family (e.g. Germanic, Romance, Uralic).");
-   console.log("  --category=NAME     Filter mixes by category (e.g. Slavic, Afroasiatic, Austronesian).");
+  console.log("  --category=NAME     Filter mixes by category (e.g. Slavic, Afroasiatic, Austronesian).");
   console.log("  --region=NAME       Filter mixes by region (e.g. Africa, Eurasia, Americas).");
   console.log("  --limit=N           Limit number of mixes considered after filters.");
+  console.log("  --base=IDX[,IDX...] Restrict base-usage report to one or more base indices (e.g. 18 or 18,23,42).");
   console.log("  --show-all-bases    Also print bases that do not look suspicious.\n");
   console.log("Examples:");
   console.log("  node tools/check-language-mixer-map-inconsistencies.js");
@@ -99,7 +107,7 @@ function printUsage() {
 }
 
 function main() {
-  const {family, category, region, limit, showAllBases, help} = parseArgs(process.argv);
+  const {family, category, region, limit, showAllBases, basesFilter, help} = parseArgs(process.argv);
   if (help) {
     printUsage();
     return;
@@ -232,7 +240,12 @@ function main() {
     const regDistinct = regEntries.length;
 
     const isSuspicious = famDistinct > 1 || regDistinct > 1;
-    if (!isSuspicious && !showAllBases) continue;
+
+    if (Array.isArray(basesFilter) && basesFilter.length && !basesFilter.includes(u.idx)) {
+      continue;
+    }
+
+    if (!basesFilter && !isSuspicious && !showAllBases) continue;
 
     console.log(`  [${u.idx}] ${name}`);
     console.log("    families:", famDistinct ? famLabels.join(", ") : "(none)");

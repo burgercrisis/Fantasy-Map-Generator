@@ -1,8 +1,14 @@
 # Characters System – Developer Guide
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 This document outlines the plan for implementing the **D&D / d20 character & NPC system** on top of the Individuals system. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re-designing the feature.
 
 This layer provides full rules support (starting with D&D 3.5) with the option to switch to 5e, Pathfinder 1e, Pathfinder 2e, or a generic d20-like mode.
+
+Related devplans:
+- [Individuals System – Developer Guide](Individuals.md) – core people model that Characters extends.
+- [Races & Languages – System Rules](Races-Languages-Rules.md) – how race and language tags are assigned in world data and can feed into character flavor.
+- [Evolving Simulation – Developer Guide](Evolving-Simulation.md) – evolving history layer that uses Individuals for rulers and events; Characters can be attached to notable Individuals from that history.
 
 ---
 
@@ -37,7 +43,7 @@ This layer provides full rules support (starting with D&D 3.5) with the option t
 
 ### 1.1 Relationship to Individuals
 
-- Base layer: **Individuals** (see `DEVplans/Individuals.md`).
+- Base layer: **Individuals** (see [Individuals System – Developer Guide](Individuals.md)).
   - Each Individual has:
     - `id` (personId),
     - race/culture/occupation/classScore, importance tier, etc.

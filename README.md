@@ -8,21 +8,23 @@ So far what I've done is:
 - [More detail](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Changes-vs-Azgaar-master.md)
 
 
-Planned:
+Planned (rough priority order for this fork):
 
-- 1. [Add The underdark](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Underdark.md)
+- **0. Current focus:** [Languages, mixer behavior across languages, and races/languages wiring](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/aadc13466e02a3a63315b49bd3a75678e32c4b8b/DEVplans/Races-Languages-Rules.md)
 
-- 2. [Add individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Individuals.md)
+- **1. Next major feature:** [Add the Underdark](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Underdark.md)
 
-- 3. [Add a full on 3.5, pathfinder and 5.0 dnd character generation system implemented into the individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Characters.md)
+- **2. Then:** [Add Individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Individuals.md)
 
-- 4. [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
+- **3. After Individuals:** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Characters.md)
 
-- 5. [Evolving simulation knobs & choices / knn-iffication](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation-Choices.md)
+- **4. Later:** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
 
-- get gemini api working, maybe add more ai apis
+- **5. Fine-tuning:** [Evolving simulation knobs & choices / k-NN-iffication](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation-Choices.md)
 
-- improve everything
+- **6. Nice-to-have:** get Gemini API working, maybe add more AI APIs.
+
+- **7. Always:** improve everything.
 
 
 Status items:

@@ -21,13 +21,13 @@ The goal is to give a quick orientation for what has been added or changed, with
 
 New high‑level design docs under `DEVplans/`:
 
-- **`DEVplans/Underdark.md`**  
+- **[Underdark Feature – Developer Guide](Underdark.md)**  
   Describes the plan for adding an Underdark layer / subsystem to the world (structure, integration points, future UI).
 
-- **`DEVplans/Individuals.md`**  
+- **[Individuals System – Developer Guide](Individuals.md)**  
   Developer guide for a scalable Individuals & Population system (IDs/seeding, schemas, overrides, time evolution, APIs, roadmap).
 
-- **`DEVplans/Characters.md`**  
+- **[Characters System – Developer Guide](Characters.md)**  
   Planning document for a deeper character system tied into Individuals (incl. D&D / Pathfinder style character generation hooks).
 
 These are additive; upstream does not ship these design docs.

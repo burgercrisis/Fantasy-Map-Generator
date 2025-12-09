@@ -1,4 +1,5 @@
 # Evolving Simulation – Design Choices
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 _Last updated: WIP – high-level decisions and open options for simulation systems._
 
@@ -9,7 +10,7 @@ This document captures the **chosen designs** and key **alternatives** for sever
 - Culture / religion diffusion
 - Realm events & narrative engine
 
-It is meant to be a quick reference when implementing or revisiting these systems.
+It complements [Evolving Simulation – Developer Guide](Evolving-Simulation.md) (overall architecture and schemas) and is meant to be a quick reference when implementing or revisiting these systems. Language-system-specific k-NN and Markov tooling lives in [Language System Status – Markov & Mixer §7](Languages-Status.md#7-planned-tooling-extensions-markov-similarity-and-ux-helpers).
 
 ---
 
@@ -124,7 +125,7 @@ It is meant to be a quick reference when implementing or revisiting these system
 ### 3.1 Chosen direction – staged approach
 
 - **Stage 1: Rule-based + event-driven, minimal Markov**
-  - For each simulation **era**:
+  - On each **user-initiated time advance** (whatever span in months/years was chosen):
     - Run a small number of rounds of **localized diffusion**:
       - Each cell’s culture/religion is slightly pulled toward neighbor distributions within a fixed radius.
       - Use low diffusion rates to avoid rapid homogenization.
@@ -132,6 +133,7 @@ It is meant to be a quick reference when implementing or revisiting these system
       - Wars / conquests that flip or partially convert regions.
       - Schisms / reforms that introduce new cultural or religious centers.
     - Use **roads and rivers as multipliers** on diffusion probability (faster spread along routes).
+    - Certain events can additionally trigger **extra localized diffusion passes** focused on directly involved realms/regions.
 - **Stage 2: Soft Markov model (if needed)**
   - Store culture / religion as **probability vectors** per cell.
   - Periodically apply Markov-like neighbor mixing.
@@ -139,28 +141,29 @@ It is meant to be a quick reference when implementing or revisiting these system
 
 ### 3.2 Intended algorithm – Stage 1 sketch
 
-- For each **user-advanced era step**:
+- For each **user-initiated time advance**:
   1. **Localized diffusion**:
      - For each cell, compute a tentative new culture/religion by:
        - Taking a weighted average of neighbors’ current identities (weights boosted for road/river neighbors).
        - Blending a fraction (e.g. 10–20%) of that into the cell.
      - Scale diffusion strength by realm stats (population, tech, centralization) within a band of **0.25×–3.5×** relative to the base rate so stronger realms spread faster but weaker ones still have visible influence.
-     - Work from a snapshot of the era’s starting state to avoid order-dependence.
+     - Work from a snapshot of the time-step’s starting state to avoid order-dependence.
   2. **Apply events**:
      - Process queued events (wars, migrations, schisms). Each event may:
        - Change the primary culture/religion in a contiguous region.
        - Spawn a new center with a radiating influence.
        - Temporarily increase diffusion rate in conflict zones.
 
-- Era advancement is **interactive and discrete**: the user clicks to advance the simulation by a chosen number of eras (one era, several eras, or all remaining), rather than the system advancing continuously in real time.
-- Keep **default number of eras small** (e.g. 5–20 major eras), not per-year, so histories stay legible while still allowing the user to stack multiple era steps per click if desired.
+- Time advancement is **interactive and discrete**: each click advances the simulation by a user-chosen span of time (from months up to many years), rather than the system advancing continuously in real time.
+- Named **ages** are narrative bands with individually defined start and end years. They are shown on a separate Ages screen that lists each age, its span, and highlights where the current year falls.
+- Ages are **not** the unit of advancement: advancing time moves the current year forward by the chosen step size; ages are overlays used for labeling and summarizing history.
 - Make the evolution **replayable from a seed** so users can regenerate consistent histories.
 
 ### 3.3 Stage 2 outline (soft Markov)
 
 - Once basic behavior is stable:
   - Represent each cell’s culture/religion as a vector `p` over identities.
-  - Each era, update `p` using a combination of:
+  - On each coarse time step, update `p` using a combination of:
     - Neighbor mixing (graph-based Markov step).
     - Exogenous shocks from events.
   - After updates, derive a primary identity (argmax of `p`) for rendering and downstream systems.
@@ -186,7 +189,7 @@ It is meant to be a quick reference when implementing or revisiting these system
 
 ### 4.2 Intended behavior
 
-- Each simulation era (or coarse time step):
+- Each coarse simulation time step:
   1. For each realm, evaluate its current **state** and **inputs** (neighbors, economy, stability, etc.).
   2. Possibly transition to a new state using FSM rules.
   3. Within the resulting state, sample from that state’s **event table** to generate 0+ concrete events:
@@ -224,7 +227,7 @@ This section lists additional choice points not yet locked in. They can be decid
 
 ### 5.3 Culture / religion diffusion
 
-- Exact set of **default eras** and the UI for choosing how many eras to advance per click (single era vs multiple vs "to end").
+- Exact set of **default ages** (names and year spans) and how the Ages screen presents them alongside the time-step UI.
 - Tuning and validating the chosen **0.25×–3.5×** modulation range for population / tech / centralization in real maps.
 - Whether to expose an **"aggressiveness" slider** per culture/religion for user control.
 
@@ -254,10 +257,9 @@ These are the concrete options currently preferred when implementing the systems
   - **Sea lane visualization**: draw maritime routes using a style consistent with existing route layers (e.g. lighter/dashed lines that sit visually between rivers and land roads), and follow the app’s current color and zoom behavior conventions rather than inventing a wholly new look.
 
 - **Culture / religion diffusion**
-  - **Era UI**: start with **4–8 named eras** and a simple control such as:
-    - `Advance: [1 era] [+5 eras] [All remaining]`.
+  - **Age & time UI**: start with **4–8 named ages** with individually defined start and end years, plus a years-first control where each click advances by a user-chosen span (from months up to many years). Provide a separate Ages screen that lists each age, its span, and shows where the current year falls.
   - **Aggressiveness exposure**: keep the per-culture/religion "aggressiveness" factor **internal** at first (configurable via JSON/tools only); consider adding a UI slider later in an "Advanced" panel once behavior is stable.
-  - **Era naming**: choose **historically grounded, setting-appropriate era names** (e.g. "Age of Expansion", "Age of Fracture", etc.) instead of generic numbered eras, tuned to the tech level / flavor of the world being simulated.
+  - **Age naming**: choose **historically grounded, setting-appropriate age names** (e.g. "Age of Expansion", "Age of Fracture", etc.) instead of generic numbered ages, tuned to the tech level / flavor of the world being simulated.
 
 - **Realm events & narrative**
   - **FSM state scope**: start with a **small set of 5–6 realm states**; add more only if concrete needs appear in practice.

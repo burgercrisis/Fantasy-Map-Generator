@@ -1,4 +1,5 @@
 # Underdark Feature – Developer Guide
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 This document outlines the plan for implementing the Underdark system in the Fantasy Map Generator. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re‑designing the feature.
 
@@ -17,7 +18,7 @@ This document outlines the plan for implementing the Underdark system in the Fan
 - Provide:
   - Complexity slider.
   - Entrances density slider.
-  - Cult density + tie‑to‑surface slider.
+  - Cult density + tie‑to‑surface slider (ties into surface religions & diffusion; see [Evolving Simulation – Design Choices §3](Evolving-Simulation-Choices.md#3-culture--religion-diffusion)).
   - Anomaly density slider.
 - Allow minimal editing:
   - Mark/unmark settlements in caverns.
@@ -265,7 +266,7 @@ const underdarkRuntime = {
 };
 ```
 
-Implementation detail: `underdarkRuntime` can live in a global variable or in a dedicated namespace object, similar to how other generator outputs are handled.
+Implementation detail: `underdarkRuntime` can live in a global variable or in a dedicated namespace object, similar to how other generator outputs are handled. Faction `sourceCulture` and cult/religion pointers are expected to align with the race and tag mapping described in [Races & Languages – System Rules §7.3 Evolving Simulation & Underdark](Races-Languages-Rules.md#73-evolving-simulation--underdark).
 
 ---
 

@@ -1,8 +1,9 @@
 # Language System Status – Markov & Mixer
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 _Last updated: WIP pass with blended Markov and mixer tooling_
 
-This document captures where the language system work currently stands so this project can be picked up later without re‑reverse‑engineering everything.
+This document captures where the language system work currently stands so this project can be picked up later without re‑reverse‑engineering everything. It assumes the core design goal that each language ultimately has its own linguistically and regionally appropriate base or tuned mix in the namebase/mixer layer; [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) describes how that goal is consumed on the race side.
 
 ## 1. Infrastructure status
 
@@ -320,6 +321,39 @@ Takeaway:
 - The **Na-Dene** meta-entry has been remapped from Inuit **19** to a more appropriate **Navajo (172) + Tlingit (220)** blend, and **Wayuu** no longer collapses onto Quechua 27.
 - Remaining macro hubs in the Americas (e.g. Huichol/Yaqui for Uto-Aztecan, Cree/Ojibwe for Algic/Algonquian) are **intentional macro-family anchors**, not clear mismatches, and can be split further only if we want finer-grained intra-family contrast.
 
+### 2.12 Papuan & Pacific Austronesian (second-pass)
+
+Representative bases / mappings (via `profile-language-mixes`):
+
+- **Papuan macro-family and sub-bases**:
+  - **Papuan macro**: base **360 (Papuan)** – a real-world Papuan anchor seeded with highlands towns (Tari, Mendi, Goroka, Kainantu, etc.) and used by meta-entries such as `papuan-family`, `trans-new-guinea`, and other Papuan macros alongside contact lexifiers.
+  - **Engan cluster**: base **365 (Engan Papuan)** – seeded from Enga Province towns (Wabag, Wapenamanda, Laiagam, Kompiam, Porgera, etc.); `engan-languages` now maps to **[365, 195]** (Engan Papuan + Malay) instead of riding only on Malay 195.
+  - **Dani / Baliem cluster**: base **366 (Dani Papuan)** – seeded from Baliem Valley / Dani-region towns (Wamena, Kurima, Bokondini, Karubaga, Tiom, Ninia, Yiwika, etc.); `dani`, `grand-valley-dani`, `hupla`, `nduga`, `nggem`, `silimo`, `walak`, `wano`, and `yali` now map to **[366, 263]** (Dani Papuan + Tok Pisin) instead of pure Tok Pisin 263.
+
+- **Eastern Indonesian Austronesian**:
+  - **Eastern Indonesian**: base **367 (Eastern Indonesian)** – seeded from Sulawesi and Nusa Tenggara towns (Makassar, Manado, Kendari, Maumere, Ende, Kupang, Waingapu, Labuan Bajo, etc.).
+  - The following Austronesian macros, previously pure **194 (Indonesian)**, now blend **[367, 194]**: `tomini-tolitoli`, `south-sulawesi`, `central-south-sulawesi`, `saluan-banggai`, `kaili-wolio`, `makassar-branch`, `muna-buton`, `seko-badaic`, `bima`, `sumba-flores`, `flores-lembata`, and `selaru`. Neighboring macros such as `bungku-tolaki`, `northern-south-sulawesi`, `kei-tanimbar`, and `kowiai` remain on pure 194 for now.
+
+- **Vanuatu / Solomons (Southern Melanesia)**:
+  - **Melanesian Vanuatu**: base **368 (Melanesian Vanuatu)** – seeded from Vanuatu and nearby Melanesian towns (Port Vila, Luganville, Isangel, Lenakel, Auki, Honiara, Gizo, Munda, Tulagi, etc.).
+  - Vanuatu- and Solomons-related macros `vanuatu`, `north-vanuatu`, `central-vanuatu`, `south-vanuatu`, `temotu`, and `southeast-solomonic` now use **[368, 197, 198]** (Melanesian Vanuatu + Samoan 197 + Fijian 198) instead of pure `[197, 198]`.
+
+- **Micronesia & Central Pacific hubs**:
+  - **Micronesian**: base **369 (Micronesian)** – seeded from Micronesian / Marshallese / Kiribati / Marianas / Palauan towns (Palikir, Kolonia, Majuro, Tarawa, Saipan, Tinian, Koror, Ngerulmud, etc.); the `micronesian` macro now blends **[369, 198]** instead of pure 198.
+  - **Central Pacific**: base **370 (Central Pacific)** – seeded from Samoa, Tonga, and French Polynesia (Apia, Nuku'alofa, Papeete, Faaa, Uturoa, Taiohae, etc.); the `central-pacific` macro now uses **[370, 197, 198]** instead of just `[197, 198]`.
+
+- **New Caledonia / Loyalty Islands**:
+  - **New Caledonia**: base **371 (New Caledonia)** – seeded from New Caledonian and Loyalty Islands towns (Noumea, Dumbea, Kone, Koumac, Poindimie, Lifou, We, Mare, Tadine, Ouvea, Fayaoue, etc.).
+  - The `loyalties-new-caledonia` macro now uses **[371, 197, 198]**, providing a region-specific Melanesian flavor layered with Samoan/Fijian lexifier influence.
+
+Takeaway:
+
+- Papuan languages no longer ride purely on **Malay 195** or **Tok Pisin 263**, nor on unrelated Slavic or click bases; instead they use a dedicated Papuan macro base **360** and sub-bases **365 (Engan)** and **366 (Dani)** blended with appropriate lexifiers.
+- In particular, Papuan macro entries such as `central-south-new-guinea`, `asmat-kamoro`, `greater-awyu`, `bayono-awbono`, `asmat`, and `asmat-citak` have been moved off the Czech–Slovak base **315** onto **360 (Papuan)**; 315 is now reserved for Czech/Slovak only.
+- Eastern Indonesian Austronesian macros have moved off generic **Indonesian 194** as a sole base and now share a regional **Eastern Indonesian 367** anchor blended with 194, improving intra-Pacific contrast.
+- Vanuatu / Solomons, Micronesian, Central Pacific, and New Caledonian clusters now each have **regional Melanesian / Micronesian / Polynesian bases** (368–371) layered with Samoan/Fijian 197/198, reducing overuse of those hubs as universal oceanic stand-ins.
+- These changes keep 194/195/197/198/263 as intentional **lexifier / macro hubs**, but shift much of the stylistic burden onto regional bases that better reflect the actual language families and geographies.
+
 ## 3. Not-unique-enough clusters (current suspects)
 
 These are **not necessarily bugs**; many are intentional macro-lexifiers. But they are the main places where stylistic uniqueness is likely to be weak.
@@ -412,6 +446,10 @@ When this work resumes, a practical order of operations:
      - A short **per-family summary** (status, key bases, known hubs).
      - A clear list of **intentional shared bases vs accidental reuse**.
 
+6. **Grow coverage via Wikipedia language lists**
+   - After the current backlog of in-progress families and languages documented in this file is finished, continue adding missing languages from Wikipedia’s language lists into `language-mixes.json` / `language-mixer-map.json`.
+   - Treat each new language with the same per-language rigor (seed curation, base choice, `min/max/d` tuning, and mixer-map QA); avoid bulk-adding large blocks of languages onto a single hub base without review.
+
 ---
 
 ## 6. Quick checklist for whoever picks this up
@@ -432,7 +470,7 @@ This file should be updated as major families are completed so it remains the si
 
 ## 7. Planned tooling extensions (Markov, similarity, and UX helpers)
 
-These are higher-level tools and helpers that sit on top of the existing Markov bases / mixer and are intended to make language work faster, safer, and more consistent across the app.
+These are higher-level tools and helpers that sit on top of the existing Markov bases / mixer and are intended to make language work faster, safer, and more consistent across the app. Map- and simulation-side nearest-neighbor uses (e.g. smoothing helpers, label-density suggestions) are documented separately in [Evolving Simulation – Design Choices §3](Evolving-Simulation-Choices.md#3-culture--religion-diffusion).
 
 ### 7.1 Language similarity search (k-NN on language features)
 

@@ -14585,13 +14585,6 @@
     "family": "Western Aramaic"
   },
   {
-    "name": "Western Neo-Aramaic",
-    "iso": "western-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Western Neo-Aramaic"
-  },
-  {
     "name": "Western pre-Hilali dialects",
     "iso": "western-pre-hilali-dialects",
     "region": "Middle East",

@@ -1,4 +1,5 @@
 # Races & Languages – System Rules
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 _Developer-facing summary of how fantasy races are defined, how they attach to cultures / world data, and how they select languages via the Markov mixer._
 
@@ -19,7 +20,12 @@ Key files:
 - `config/language-mixes.json`
 - `config/language-mixer-map.json`
 - `tools/mixer-races/*.js`
-- `DEVplans/Individuals.md`, `DEVplans/Characters.md`, `DEVplans/Evolving-Simulation*.md`
+- [Individuals System – Developer Guide](Individuals.md), [Characters System – Developer Guide](Characters.md), [Evolving Simulation – Developer Guide](Evolving-Simulation.md), [Evolving Simulation – Design Choices](Evolving-Simulation-Choices.md)
+
+At a high level:
+- [Language System Status – Markov & Mixer](Languages-Status.md) tracks the underlying language bases, mixer mappings, and tuning tools.
+- This file explains how fantasy races sit on top of that language layer and how race + language tags are exposed to Individuals, Characters, and the Evolving Simulation.
+- You should be able to understand race behaviour from this file alone; the other devplans are optional deep dives when you need more context.
 
 ---
 
@@ -443,7 +449,7 @@ Together, these tools:
 
 ### 7.1 Individuals
 
-From `DEVplans/Individuals.md`:
+From [Individuals System – Developer Guide](Individuals.md):
 
 - `IndividualBase` includes:
   - `raceId: string` (intended to align with the race system).
@@ -457,7 +463,7 @@ Intended mapping:
 
 ### 7.2 Characters (D&D / d20 layer)
 
-From `DEVplans/Characters.md`:
+From [Characters System – Developer Guide](Characters.md):
 
 - Characters are **views** over Individuals for specific RPG systems.
 - Race / culture / religion fields are inputs to:
@@ -483,6 +489,7 @@ Design intent:
   - Drive different expansion or conflict behaviors.
   - Bias where certain races’ cultures or cult centers appear.
   - Provide hooks for story / lore generation tied to race-specific language flavors.
+- For the evolving simulation specifically, early versions should treat race as a **light modifier** rather than a primary driver: existing race expansionism values and a small number of hazard/weight multipliers can depend on race, but core war, trade, and culture/religion diffusion rules remain primarily culture/state/religion-driven. Stronger race coupling can be added later if it proves useful.
 
 ---
 
@@ -520,3 +527,6 @@ This document should be updated whenever:
 
 - **Individuals / Characters wiring**
   - (Recommendation): Defer wiring until Individuals v1 is implemented; then use the rules in this document as the canonical spec for mapping `cells.race` / `culture.race` into Individuals and Characters.
+
+- **Language coverage roadmap**
+  - Race–language behavior assumes the underlying language system will keep expanding coverage via the plan in [Language System Status – Markov & Mixer §5](Languages-Status.md#5-planned-next-steps-when-resuming), including growing coverage via Wikipedia’s language lists with the same per-language rigor.

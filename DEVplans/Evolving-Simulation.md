@@ -1,15 +1,30 @@
-# Evolving Simulation  Developer Guide
+# Evolving Simulation 13 Developer Guide
+_Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
 This document outlines the plan for implementing an **Evolving World Simulation** layer in the Fantasy Map Generator. The focus is on **wars**, **rulers & dynasties**, **borders & territory**, **trade & politics**, and **burg lifecycle** (founding, growth, ruin, refounding).
 
 The goal is the same spirit as `Individuals.md`: a high-level, code-oriented guide that can be implemented in phases without re‑designing the feature every time.
 
--
+Use this file when you need to:
+- Understand the overall architecture, data shapes, and time model for the evolving history layer.
+- See how wars, rulers, borders, trade, and relationship events are represented and updated over time.
+
+Related devplans (optional deep dives):
+- [Evolving Simulation – Design Choices](Evolving-Simulation-Choices.md) – concrete algorithm and UX choices for smoothing, roads/trade, diffusion, and realm FSM/events.
+- [Language System Status – Markov & Mixer](Languages-Status.md) – status and tooling for Markov bases and the language mixer that feed cultures and races.
+- [Races & Languages – System Rules](Races-Languages-Rules.md) – how fantasy races attach to cultures and languages, and how those tags are exposed to the sim.
+- [Characters System – Developer Guide](Characters.md) – D&D/d20 character layer on top of Individuals, which can consume history outputs.
+
 ## 0. Goals & Constraints
 
 - Represent **centuries of evolving history** without simulating every year or storing full per-year snapshots, while allowing **zoomed-in detail** for major wars, campaigns, and famous battles.
 - Support:
   - **Wars** that start, escalate, split into campaigns, spawn famous battles, and end with clear victors/losers.
+- **Rulers** who are always real Individuals: they are born, live, take thrones, suffer succession crises, and die with full life events.
+- **Borders & territory** that grow and shrink through wars, campaigns, and politics.
+- **Trade routes & politics** that form a rich graph and respond to geography, states, wars, and economic waves.
+- **Burg lifecycle**: founded, upgraded, sacked, abandoned, refounded.
+- **Relationship drama**: structured relationship events (lovers, heirs, rivals, allies) tied directly to Individuals and history.
   - **Rulers** who are always real Individuals: they are born, live, take thrones, suffer succession crises, and die with full life events.
   - **Borders & territory** that grow and shrink through wars, campaigns, and politics.
   - **Trade routes & politics** that form a rich graph and respond to geography, states, wars, and economic waves.
@@ -86,7 +101,7 @@ Optional later:
 
 - The world already has a single authoritative `currentYear`.
 - History advances in **discrete jumps** (consistent with Individuals):
-  - User chooses `deltaYears` (e.g. +1 / +5 / +10 / +50 for long bake).
+  - User chooses `deltaYears` (e.g. fractions of a year for month-scale arcs up to +1 / +5 / +10 / +50 years for long bakes).
   - System advances `currentYear` and runs **history update passes**.
 
 Proposed entry point (pseudocode):
@@ -114,6 +129,7 @@ function advanceWorldYears(deltaYears) {
   - Many small ticks ≈ smoother changes and more visible micro-events.
   - Few big ticks ≈ more abstract, event-heavy timeline.
   - Some event types (e.g. famous battles) can be throttled or summarized when ticks are large.
+  - Named **ages** are variable-length narrative bands defined as `YearRange`s over `currentYear`. A separate Ages view/screen lists each age, its span, and shows where the current year falls; ages are labels only and never force a fixed tick size. Details of the Age & time UI live in [Evolving Simulation – Design Choices §3](Evolving-Simulation-Choices.md#3-culture--religion-diffusion).
 
 ### 2.3 Event-based evolution
 
