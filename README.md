@@ -10,23 +10,26 @@ So far what I've done is:
 
 Planned:
 
-- [Add The underdark](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Underdark.md)
+- 1. [Add The underdark](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Underdark.md)
 
-- [Add individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Individuals.md)
+- 2. [Add individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Individuals.md)
 
-- [Add a full on 3.5, pathfinder and 5.0 dnd character generation system implemented into the individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Characters.md)
+- 3. [Add a full on 3.5, pathfinder and 5.0 dnd character generation system implemented into the individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Characters.md)
 
-- [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
+- 4. [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
 
-- [Language system status and tooling extensions](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Languages-Status.md)
-
-- [Evolving simulation knobs & choices](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation-Choices.md)
+- 5. [Evolving simulation knobs & choices / knn-iffication](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation-Choices.md)
 
 - get gemini api working, maybe add more ai apis
 
 - improve everything
 
 
+Status items:
+
+- [Language system status and tooling extensions](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Languages-Status.md)
+
+- [Guidelines for races/languages](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Races-Languages-Rules.md)
 Above is my description of what I'm doing to Azgaars dankness
 
 Below is the original description from Azgaar

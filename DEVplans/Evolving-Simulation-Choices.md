@@ -236,3 +236,33 @@ This section lists additional choice points not yet locked in. They can be decid
 - How deeply to integrate the event log into other systems (e.g. naming, map overlays, AI text).
 
 This file should be updated as simulation features are implemented, so it remains the single entry point for high-level evolving-simulation design decisions.
+
+---
+
+## 6. Explicit user-chosen recommendations (summary)
+
+These are the concrete options currently preferred when implementing the systems above:
+
+- **Biomes & climate**
+  - **Climate + biome smoothing**: use both climate smoothing and biome smoothing in **light form** (A + B), with small diffusion steps and a single pass of conservative majority-vote smoothing on biomes.
+  - **Rivers/veg feedback**: start with **no automatic rebuild**; optionally add a "Rebuild rivers/veg for this region" tool later instead of tying it to every smoothing action.
+  - **Locked biome UX**: if feasible, implement **both** per-cell brush locking (paint-as-locked) and region-level "Lock biome" actions, so users can protect tiny micro-biomes and large hand-shaped regions without extra friction.
+
+- **Roads & trade**
+  - **Route thinning**: thin redundant routes using a **usage-based heuristic**, dropping edges used in fewer than a small `k` paths (initially `k ≈ 2`) to remove "one-off" edges.
+  - **Sea lanes**: treat **sea/coastal trade lanes as cheap edges** only for **major ports and coastal capitals**, keeping the model simple but still capturing key maritime trade corridors.
+  - **Sea lane visualization**: draw maritime routes using a style consistent with existing route layers (e.g. lighter/dashed lines that sit visually between rivers and land roads), and follow the app’s current color and zoom behavior conventions rather than inventing a wholly new look.
+
+- **Culture / religion diffusion**
+  - **Era UI**: start with **4–8 named eras** and a simple control such as:
+    - `Advance: [1 era] [+5 eras] [All remaining]`.
+  - **Aggressiveness exposure**: keep the per-culture/religion "aggressiveness" factor **internal** at first (configurable via JSON/tools only); consider adding a UI slider later in an "Advanced" panel once behavior is stable.
+  - **Era naming**: choose **historically grounded, setting-appropriate era names** (e.g. "Age of Expansion", "Age of Fracture", etc.) instead of generic numbered eras, tuned to the tech level / flavor of the world being simulated.
+
+- **Realm events & narrative**
+  - **FSM state scope**: start with a **small set of 5–6 realm states**; add more only if concrete needs appear in practice.
+  - **v1 structural events**: allow only a minimal whitelist of structural changes at first:
+    - Major war outcome → **border shift & vassalage** updates.
+    - Sack of burg → **temporary population drop** and a **ruin flag**.
+    - Defer heavier changes such as mass migrations or realm splits to later passes.
+  - **Religious FSM timing**: defer adding separate FSMs for major religions **until** the realm FSM and culture/religion diffusion systems are stable and there is a clear need for independent religious state tracking.

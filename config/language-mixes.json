@@ -1264,6 +1264,20 @@
     "family": "Kx'a"
   },
   {
+    "name": "Taa",
+    "iso": "taa",
+    "region": "Africa",
+    "category": "Tuu",
+    "family": "Tuu"
+  },
+  {
+    "name": "Nǁng",
+    "iso": "nng",
+    "region": "Africa",
+    "category": "Tuu",
+    "family": "Tuu"
+  },
+  {
     "name": "El Molo",
     "iso": "el-molo",
     "region": "Africa",
@@ -1670,6 +1684,20 @@
     "region": "Africa",
     "category": "Khoe-Kwadi",
     "family": "Khoe-Kwadi"
+  },
+  {
+    "name": "Nama",
+    "iso": "naq",
+    "region": "Africa",
+    "category": "Khoe",
+    "family": "Khoe"
+  },
+  {
+    "name": "Naro",
+    "iso": "nhr",
+    "region": "Africa",
+    "category": "Khoe",
+    "family": "Khoe"
   },
   {
     "name": "Hakaona",

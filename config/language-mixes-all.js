@@ -2471,11 +2471,25 @@
     "family": "Eastern Berber"
   },
   {
+    "name": "Nama",
+    "iso": "naq",
+    "region": "Africa",
+    "category": "Khoe",
+    "family": "Khoe"
+  },
+  {
     "name": "Nancere language",
     "iso": "nancere-language",
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Naro",
+    "iso": "nhr",
+    "region": "Africa",
+    "category": "Khoe",
+    "family": "Khoe"
   },
   {
     "name": "Ndam language",
@@ -2638,6 +2652,13 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Nǁng",
+    "iso": "nng",
+    "region": "Africa",
+    "category": "Tuu",
+    "family": "Tuu"
   },
   {
     "name": "Omaio",
@@ -3061,6 +3082,13 @@
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Swahili_language",
     "family": "Bantu"
+  },
+  {
+    "name": "Taa",
+    "iso": "taa",
+    "region": "Africa",
+    "category": "Tuu",
+    "family": "Tuu"
   },
   {
     "name": "Tagdal language",

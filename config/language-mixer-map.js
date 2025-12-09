@@ -12687,6 +12687,48 @@
     ]
   },
   {
+    "iso": "taa",
+    "bases": [
+      356
+    ]
+  },
+  {
+    "iso": "nng",
+    "bases": [
+      357
+    ]
+  },
+  {
+    "iso": "naq",
+    "bases": [
+      358
+    ]
+  },
+  {
+    "iso": "nhr",
+    "bases": [
+      359
+    ]
+  },
+  {
+    "iso": "ju-hoan",
+    "bases": [
+      362
+    ]
+  },
+  {
+    "iso": "hadza",
+    "bases": [
+      363
+    ]
+  },
+  {
+    "iso": "sandawe",
+    "bases": [
+      364
+    ]
+  },
+  {
     "iso": "abon",
     "bases": [
       112,
@@ -16857,35 +16899,7 @@
   {
     "iso": "g-ui",
     "bases": [
-      112,
-      113,
-      114,
-      115,
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      124,
-      125,
-      126,
-      127,
-      128,
-      129,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-      152,
-      153,
-      154,
-      155,
-      156
+      361
     ]
   },
   {
@@ -18037,18 +18051,21 @@
   {
     "iso": "awin-pa",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "binanderean",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "bosavi",
     "bases": [
+      360,
       195
     ]
   },
@@ -18067,30 +18084,35 @@
   {
     "iso": "duna-pogaya",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "east-strickland",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "engan-languages",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "gogodala-suki",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "goilalan",
     "bases": [
+      360,
       195
     ]
   },
@@ -18103,18 +18125,21 @@
   {
     "iso": "kayagaric",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "kiwaian",
     "bases": [
+      360,
       195
     ]
   },
   {
     "iso": "kolopom",
     "bases": [
+      360,
       195
     ]
   },
@@ -18133,6 +18158,7 @@
   {
     "iso": "moraori",
     "bases": [
+      360,
       195
     ]
   },
@@ -18181,6 +18207,7 @@
   {
     "iso": "turama-kikorian",
     "bases": [
+      360,
       195
     ]
   },
@@ -18199,6 +18226,7 @@
   {
     "iso": "wiru",
     "bases": [
+      360,
       195
     ]
   },
@@ -18508,6 +18536,7 @@
   {
     "iso": "papuan-family",
     "bases": [
+      360,
       25,
       193,
       194,
@@ -18521,7 +18550,7 @@
   {
     "iso": "trans-new-guinea",
     "bases": [
-      315,
+      360,
       263,
       194,
       195
@@ -18530,7 +18559,7 @@
   {
     "iso": "west-trans-new-guinea",
     "bases": [
-      315,
+      360,
       263,
       194,
       195
@@ -18539,12 +18568,14 @@
   {
     "iso": "dani",
     "bases": [
+      360,
       263
     ]
   },
   {
     "iso": "paniai-lakes",
     "bases": [
+      360,
       263,
       194
     ]
@@ -18645,6 +18676,7 @@
   {
     "iso": "finisterre-huon-languages",
     "bases": [
+      360,
       263,
       196,
       198
@@ -18653,6 +18685,7 @@
   {
     "iso": "southeast-papuan-languages",
     "bases": [
+      360,
       263,
       196,
       198
@@ -18661,6 +18694,7 @@
   {
     "iso": "anim-languages",
     "bases": [
+      360,
       263,
       196,
       198
@@ -18669,6 +18703,7 @@
   {
     "iso": "inland-gulf",
     "bases": [
+      360,
       263,
       196,
       198
@@ -18677,6 +18712,7 @@
   {
     "iso": "grand-valley-dani",
     "bases": [
+      360,
       263
     ]
   },
