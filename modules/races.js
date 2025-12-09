@@ -138,8 +138,8 @@ const raceLanguageProfiles = {
     families: ["Slavic", "Afroasiatic", "Niger-Congo", "Turkic"]
   },
   Goliath: {
-    categories: ["Germanic", "Slavic", "Iranian"],
-    families: ["Germanic", "Slavic", "Iranian", "Turkic"]
+    categories: ["Germanic", "Slavic", "Iranian", "Kartvelian", "Northeast Caucasian"],
+    families: ["Germanic", "Slavic", "Iranian", "Turkic", "Kartvelian", "Northeast Caucasian"]
   },
   Lizardfolk: {
     categories: ["Niger-Congo", "Afroasiatic", "Austronesian"],
@@ -166,12 +166,12 @@ const raceLanguageProfiles = {
     families: ["Germanic", "Slavic", "Sino-Tibetan", "English-based", "German-based"]
   },
   Kenku: {
-    categories: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan"],
-    families: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan", "Austronesian", "Micronesian", "Polynesian"]
+    categories: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan", "Algic"],
+    families: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan", "Austronesian", "Micronesian", "Polynesian", "Algic"]
   },
   Aarakocra: {
-    categories: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan"],
-    families: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan", "Austronesian", "Micronesian", "Polynesian"]
+    categories: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan", "Algic"],
+    families: ["Niger-Congo", "Afroasiatic", "Sino-Tibetan", "Austronesian", "Micronesian", "Polynesian", "Algic"]
   },
   Triton: {
     categories: ["Austronesian", "Romance"],
@@ -191,7 +191,7 @@ const raceLanguageProfiles = {
   },
   Genasi: {
     categories: ["Sino-Tibetan", "Indo-Aryan", "Iranian"],
-    families: ["Sino-Tibetan", "Indo-Aryan", "Iranian", "Dravidian"]
+    families: ["Sino-Tibetan", "Indo-Aryan", "Iranian", "Indo-Iranian", "Dravidian"]
   },
   Changeling: {
     categories: ["Romance", "Germanic", "Slavic"],
@@ -203,11 +203,11 @@ const raceLanguageProfiles = {
   },
   Minotaur: {
     categories: ["Greek", "Romance", "Iranian"],
-    families: ["Romance", "Sardinian", "Tuscan", "Neapolitan"]
+    families: ["Romance", "Sardinian", "Tuscan", "Neapolitan", "Indo-European"]
   },
   Kalashtar: {
     categories: ["Indo-Aryan", "Iranian"],
-    families: ["Indo-Aryan", "Iranian", "Dravidian", "Punjabi–Lahnda"]
+    families: ["Indo-Aryan", "Iranian", "Indo-Iranian", "Dravidian", "Punjabi–Lahnda"]
   },
   Kobold: {
     categories: ["Slavic", "Sino-Tibetan"],
@@ -282,8 +282,8 @@ const raceLanguageProfiles = {
     families: ["Sino-Tibetan", "Uralic", "Dravidian", "Turkic", "Mongolic", "Nivkh", "Yeniseian", "Yukaghir", "Eskimo–Aleut", "Tungusic"]
   },
   AnyLanguage: {
-    categories: ["*"],
-    families: ["*"]
+    categories: [],
+    families: []
   },
   Human: {
     categories: [],

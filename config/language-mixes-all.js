@@ -5,6 +5,10 @@
 (function(){
   window.languageMixerCatalog = [
   {
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
+  },
+  {
     "name": "Abon",
     "iso": "abon",
     "region": "Africa",
@@ -77,7 +81,7 @@
     "iso": "aiki",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Maban"
   },
   {
     "name": "Air Tamajeq language",
@@ -145,7 +149,7 @@
     "iso": "amdang",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Fur"
   },
   {
     "name": "Amira",
@@ -274,7 +278,7 @@
     "iso": "bacama",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Chadic"
   },
   {
     "name": "Bacama language",
@@ -355,7 +359,8 @@
     "iso": "bambassi",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bambassi_language",
+    "family": "Omotic"
   },
   {
     "name": "Bamukumbit",
@@ -531,7 +536,7 @@
     "iso": "berta",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Berta"
   },
   {
     "name": "Besme",
@@ -660,7 +665,7 @@
     "iso": "bole-afroasiatic",
     "region": "Africa",
     "category": "Afroasiatic",
-    "family": "Afroasiatic"
+    "family": "Chadic"
   },
   {
     "name": "Bole (Niger–Congo)",
@@ -740,7 +745,7 @@
     "iso": "bongo",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Central Sudanic"
   },
   {
     "name": "Bonjo",
@@ -1045,7 +1050,7 @@
     "iso": "daza",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Saharan"
   },
   {
     "name": "Dazawa language",
@@ -1108,7 +1113,7 @@
     "iso": "dinka",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Nilotic"
   },
   {
     "name": "Diri language",
@@ -1264,8 +1269,8 @@
     "name": "El Molo",
     "iso": "el-molo",
     "region": "Africa",
-    "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "category": "Afroasiatic",
+    "family": "Cushitic"
   },
   {
     "name": "Eman",
@@ -1622,7 +1627,7 @@
     "iso": "gumuz",
     "region": "Africa",
     "category": "Nilo-Saharan",
-    "family": "Nilo-Saharan"
+    "family": "Gumuz"
   },
   {
     "name": "Guruntum language",
@@ -1909,7 +1914,8 @@
     "iso": "kinyarwanda",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Kinyarwanda",
+    "family": "Bantu"
   },
   {
     "name": "Kir-Balar language",
@@ -1937,7 +1943,8 @@
     "iso": "kongo",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Kongo_language",
+    "family": "Bantu"
   },
   {
     "name": "Krio",
@@ -2866,7 +2873,12 @@
     "iso": "saharan-spanish",
     "region": "Africa",
     "category": "Romance",
-    "family": "Spanish"
+    "wikipedia": "https://en.wikipedia.org/wiki/Saharan_Spanish",
+    "family": "Spanish",
+    "tags": [
+      "spanish",
+      "western-sahara"
+    ]
   },
   {
     "name": "Saho–Afar",
@@ -3121,6 +3133,14 @@
     "family": "Chadic"
   },
   {
+    "name": "Tawellemmet Language",
+    "iso": "tawellemmet-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tawellemmet_language",
+    "family": "Tuareg Berber"
+  },
+  {
     "name": "Tera language",
     "iso": "tera-chadic-language",
     "region": "Africa",
@@ -3147,6 +3167,14 @@
     "region": "Africa",
     "category": "Romance",
     "family": "Judeo-Spanish"
+  },
+  {
+    "name": "Tidikelt Language",
+    "iso": "tidikelt-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tidikelt_language",
+    "family": "Zenati Berber"
   },
   {
     "name": "Tobanga language",
@@ -3199,6 +3227,14 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Tuwat Language",
+    "iso": "tuwat-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuwat_language",
+    "family": "Zenati Berber"
   },
   {
     "name": "Ubi language",
@@ -3326,15 +3362,15 @@
   },
   {
     "name": "Yoruba",
-    "iso": "yoruba",
+    "iso": "yor",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
     "family": "Yoruboid"
   },
   {
-    "name": "Yoruba",
-    "iso": "yor",
+    "name": "Yoruba (alt code)",
+    "iso": "yoruba",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
@@ -3412,7 +3448,8 @@
     "iso": "zulu",
     "region": "Africa",
     "category": "Niger-Congo",
-    "family": "Niger-Congo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Zulu_language",
+    "family": "Bantu"
   },
   {
     "name": "Zumaya",
@@ -3441,27 +3478,6 @@
     "region": "Africa",
     "category": "Kx'a",
     "family": "Kx'a"
-  },
-  {
-    "name": "Tawellemmet Language",
-    "iso": "tawellemmet-language",
-    "region": "Afroasiatic region",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Tidikelt Language",
-    "iso": "tidikelt-language",
-    "region": "Afroasiatic region",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
-  },
-  {
-    "name": "Tuwat Language",
-    "iso": "tuwat-language",
-    "region": "Afroasiatic region",
-    "category": "Afroasiatic",
-    "family": "Afroasiatic"
   },
   {
     "name": "Akkadian",
@@ -4570,15 +4586,15 @@
   },
   {
     "name": "Japanese",
-    "iso": "jpn-lang",
+    "iso": "jpn",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
     "family": "Japonic"
   },
   {
-    "name": "Japanese",
-    "iso": "jpn",
+    "name": "Japanese (macro entry)",
+    "iso": "jpn-lang",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
@@ -5068,7 +5084,7 @@
     "family": "South Dravidian"
   },
   {
-    "name": "Kui",
+    "name": "Kui (Dravidian)",
     "iso": "kui-dravidian",
     "region": "Asia",
     "category": "Dravidian",
@@ -5998,7 +6014,12 @@
     "iso": "philippine-spanish",
     "region": "Asia",
     "category": "Romance",
-    "family": "Spanish"
+    "wikipedia": "https://en.wikipedia.org/wiki/Philippine_Spanish",
+    "family": "Spanish",
+    "tags": [
+      "spanish",
+      "philippines"
+    ]
   },
   {
     "name": "Phu Thai",
@@ -11631,7 +11652,7 @@
       "family"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/Eastern_Romance_languages",
-    "family": "Romance"
+    "family": "Eastern Romance"
   },
   {
     "name": "Eastern Romanian",
@@ -11764,7 +11785,7 @@
     "iso": "florentine",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Tuscan"
   },
   {
     "name": "Forlivese",
@@ -12258,7 +12279,7 @@
     "region": "Europe",
     "category": "Slavic",
     "wikipedia": "https://en.wikipedia.org/wiki/Macedonian_language",
-    "family": "Slavic"
+    "family": "Eastern South Slavic"
   },
   {
     "name": "Macerata",
@@ -12991,7 +13012,7 @@
     "iso": "senese",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Tuscan"
   },
   {
     "name": "Serbian",
@@ -13110,6 +13131,7 @@
     "iso": "standard-french",
     "region": "Europe",
     "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/French_language",
     "family": "Oïl Dialects"
   },
   {
@@ -13208,7 +13230,7 @@
     "iso": "tuscan",
     "region": "Europe",
     "category": "Romance",
-    "family": "Dialects"
+    "family": "Tuscan"
   },
   {
     "name": "Tuscia",
@@ -13448,6 +13470,197 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Afar",
+    "iso": "afar",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Afar_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Amh",
+    "iso": "amh",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "South Ethiopic"
+  },
+  {
+    "name": "Amharic",
+    "iso": "amharic",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amharic",
+    "family": "South Ethiopic"
+  },
+  {
+    "name": "Amharic-Argobba",
+    "iso": "amharic-argobba",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Argobba",
+    "iso": "argobba",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Argobba_language",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Beja",
+    "iso": "beja",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beja_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Dahalik",
+    "iso": "dahalik",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dahalik_language",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Harari",
+    "iso": "harari",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harari_language",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Harari-East Gurage",
+    "iso": "harari-east-gurage",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Inneqor",
+    "iso": "inneqor",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Gurage"
+  },
+  {
+    "name": "Inor",
+    "iso": "inor",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inor_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Mesmes",
+    "iso": "mesmes",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mesmes_language",
+    "family": "West Gurage",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Mesqan",
+    "iso": "mesqan",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mesqan_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Muher",
+    "iso": "muher",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muher_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Oromo",
+    "iso": "oromo",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oromo_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Sebat Bet",
+    "iso": "sebat-bet",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Sebat Bet Gurage",
+    "iso": "sebat-bet-gurage",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sebat_Bet_Gurage_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Somali",
+    "iso": "somali",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Somali_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Tigre",
+    "iso": "tigre",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tigre_language",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Tigrinya",
+    "iso": "tigrinya",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tigrinya_language",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Ulbare",
+    "iso": "ulbare",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "West Gurage"
+  },
+  {
+    "name": "West Gurage",
+    "iso": "west-gurage",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gurage_languages",
+    "tags": [
+      "family"
+    ],
+    "family": "Gurage"
+  },
+  {
+    "name": "Wolaitta",
+    "iso": "wolaitta",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wolaitta_language",
+    "family": "Omotic"
+  },
+  {
+    "name": "Wolane",
+    "iso": "wolane",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Gurage"
   },
   {
     "name": "Agalega Creole",
@@ -13701,13 +13914,6 @@
     "family": "Peninsular"
   },
   {
-    "name": "Afar",
-    "iso": "afar",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
-  },
-  {
     "name": "Afroasiatic family",
     "iso": "afroasiatic-family",
     "region": "Middle East",
@@ -13737,27 +13943,6 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
-  },
-  {
-    "name": "Amh",
-    "iso": "amh",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "Amharic",
-    "iso": "amharic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "Amharic-Argobba",
-    "iso": "amharic-argobba",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
   },
   {
     "name": "Ammonite",
@@ -13824,14 +14009,8 @@
     "iso": "aramaic",
     "region": "Middle East",
     "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aramaic",
     "family": "Aramaic"
-  },
-  {
-    "name": "Argobba",
-    "iso": "argobba",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
   },
   {
     "name": "Armazic",
@@ -13930,25 +14109,18 @@
     "family": "Northeastern Neo-Aramaic"
   },
   {
-    "name": "Baṭḥari",
-    "iso": "ba-ari",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Baṭḥari",
+    "name": "Bathari",
     "iso": "bathari",
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Modern South Arabian"
   },
   {
-    "name": "Beja",
-    "iso": "beja",
+    "name": "Baṭḥari",
+    "iso": "ba-ari",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Cushitic"
+    "family": "Modern South Arabian"
   },
   {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -14095,13 +14267,6 @@
     ]
   },
   {
-    "name": "Coptic",
-    "iso": "coptic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egyptian"
-  },
-  {
     "name": "Corfiot Maltese",
     "iso": "corfiot-maltese",
     "region": "Middle East",
@@ -14136,1618 +14301,6 @@
     ]
   },
   {
-    "name": "Dahalik",
-    "iso": "dahalik",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Damascene Arabic",
-    "iso": "damascene-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "Dhofari Arabic",
-    "iso": "dhofari-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Dilmunite",
-    "iso": "dilmunite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "East Semitic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Djibouti Arabic",
-    "iso": "djibouti-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Duhok",
-    "iso": "duhok",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Dumaitic",
-    "iso": "dumaitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "East Gurage",
-    "iso": "east-gurage",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "East Semitic",
-    "iso": "east-semitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Semitic"
-  },
-  {
-    "name": "Eastern Egyptian Bedawi Arabic",
-    "iso": "eastern-egyptian-bedawi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northwest Arabian"
-  },
-  {
-    "name": "Eastern Hilali dialects",
-    "iso": "eastern-hilali-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Eastern Middle Aramaic",
-    "iso": "eastern-middle-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Middle Aramaic"
-  },
-  {
-    "name": "Eastern pre-Hilali Dialects",
-    "iso": "eastern-pre-hilali-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Eblaite",
-    "iso": "eblaite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "East Semitic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Edomite",
-    "iso": "edomite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "Egyptian",
-    "iso": "egyptian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egyptian"
-  },
-  {
-    "name": "Egyptian Arabic",
-    "iso": "egyptian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Egypto-Sudanic Arabic",
-    "iso": "egypto-sudanic-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Emirati Arabic",
-    "iso": "emirati-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Endegen",
-    "iso": "endegen",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Ezha",
-    "iso": "ezha",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Faifi",
-    "iso": "faifi",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Fessi dialect",
-    "iso": "fessi-dialect",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Gafat",
-    "iso": "gafat",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Galilean dialect",
-    "iso": "galilean-dialect",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Western Aramaic",
-    "tags": [
-      "extinct",
-      "dialect"
-    ]
-  },
-  {
-    "name": "Gamo Gofa Dawro",
-    "iso": "gamo-gofa-dawro",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Omotic"
-  },
-  {
-    "name": "Ganza",
-    "iso": "ganza",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Omotic"
-  },
-  {
-    "name": "Geez",
-    "iso": "geez",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Geʽez",
-    "iso": "ge-ez",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Gilit Dialects",
-    "iso": "gilit-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Gozitan dialects",
-    "iso": "gozitan-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Gulf Arabic",
-    "iso": "gulf-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Gumer",
-    "iso": "gumer",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Gura",
-    "iso": "gura",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Gyeto",
-    "iso": "gyeto",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Hadhrami Arabic",
-    "iso": "hadhrami-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Hadiyya",
-    "iso": "hadiyya",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
-  },
-  {
-    "name": "Hadramautic",
-    "iso": "hadramautic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Harari",
-    "iso": "harari",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "Harari-East Gurage",
-    "iso": "harari-east-gurage",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "Ḥarsusi",
-    "iso": "-arsusi",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Hasaitic",
-    "iso": "hasaitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Hassaniya Arabic",
-    "iso": "hassaniya-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Hatran Aramaic",
-    "iso": "hatran-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Middle Aramaic"
-  },
-  {
-    "name": "Hau",
-    "iso": "hau",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Chadic"
-  },
-  {
-    "name": "Heb",
-    "iso": "heb",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Hebrew"
-  },
-  {
-    "name": "Hebrew",
-    "iso": "hebrew",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Hebrew"
-  },
-  {
-    "name": "Hejazi Arabic",
-    "iso": "hejazi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Hertevin Neo-Aramaic",
-    "iso": "hertevin-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Hilalian dialects",
-    "iso": "hilalian-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Himyaritic",
-    "iso": "himyaritic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Hismaic",
-    "iso": "hismaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Hobyót",
-    "iso": "hoby-t",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Huḏayl dialect",
-    "iso": "hu-ayl-dialect",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Other Arabic",
-    "tags": [
-      "extinct",
-      "dialect"
-    ]
-  },
-  {
-    "name": "Hulaulá",
-    "iso": "hulaul-",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Imperial Aramaic",
-    "iso": "imperial-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old Aramaic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Inneqor",
-    "iso": "inneqor",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "Inor",
-    "iso": "inor",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Inter-Zab",
-    "iso": "inter-zab",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Iraqi Arabic",
-    "iso": "iraqi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "Israelian Hebrew",
-    "iso": "israelian-hebrew",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Hebrew"
-  },
-  {
-    "name": "Jebli Arabic",
-    "iso": "jebli-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Jewish Assyrian Neo-Aramaic",
-    "iso": "jewish-assyrian-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Jewish Babylonian Aramaic",
-    "iso": "jewish-babylonian-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Southeastern Aramaic"
-  },
-  {
-    "name": "Jewish Baghdadi Arabic",
-    "iso": "jewish-baghdadi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "Jewish Palestinian Aramaic",
-    "iso": "jewish-palestinian-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Western Aramaic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Jijel Arabic",
-    "iso": "jijel-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Jordanian Arabic",
-    "iso": "jordanian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "Judeo-Algerian Arabic",
-    "iso": "judeo-algerian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Arabic",
-    "iso": "judeo-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Arabic",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Baghdadi",
-    "iso": "judeo-baghdadi",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Egyptian Arabic",
-    "iso": "judeo-egyptian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Fessi",
-    "iso": "judeo-fessi",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Iraqi Arabic",
-    "iso": "judeo-iraqi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Moroccan Arabic",
-    "iso": "judeo-moroccan-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Syrian Arabic",
-    "iso": "judeo-syrian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Tripolitanian Arabic",
-    "iso": "judeo-tripolitanian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Tunisian Arabic",
-    "iso": "judeo-tunisian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Judeo-Yemeni Arabic",
-    "iso": "judeo-yemeni-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Kashkadarian Arabic",
-    "iso": "kashkadarian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Central Asian"
-  },
-  {
-    "name": "Khorasani Arabic",
-    "iso": "khorasani-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Central Asian"
-  },
-  {
-    "name": "Khuzestani Arabic",
-    "iso": "khuzestani-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "Kishite",
-    "iso": "kishite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "East Semitic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Koy Sanjaq Christian Neo-Aramaic",
-    "iso": "koy-sanjaq-christian-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Koy Sanjaq Jewish Neo-Aramaic",
-    "iso": "koy-sanjaq-jewish-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Kurdish",
-    "iso": "kurdish",
-    "region": "Middle East",
-    "category": "Indo-Iranian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_languages",
-    "family": "Indo-Iranian"
-  },
-  {
-    "name": "Kuwaiti Arabic",
-    "iso": "kuwaiti-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Lebanese Arabic",
-    "iso": "lebanese-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "Lebanese Aramaic",
-    "iso": "lebanese-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Western Aramaic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Levantine Arabic",
-    "iso": "levantine-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "Levantine Bedawi Arabic",
-    "iso": "levantine-bedawi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northwest Arabian"
-  },
-  {
-    "name": "Libyan Arabic",
-    "iso": "libyan-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Lishán Didán",
-    "iso": "lish-n-did-n",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Lishana Deni",
-    "iso": "lishana-deni",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Lishanid Noshan",
-    "iso": "lishanid-noshan",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Maghrebi Arabic",
-    "iso": "maghrebi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Maghrebi Judeo-Arabic",
-    "iso": "maghrebi-judeo-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Maltese",
-    "iso": "maltese",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Maltralian",
-    "iso": "maltralian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Mandaic",
-    "iso": "mandaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Southeastern Aramaic"
-  },
-  {
-    "name": "Maqil dialects",
-    "iso": "maqil-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Mashriqi Arabic",
-    "iso": "mashriqi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Medieval Hebrew",
-    "iso": "medieval-hebrew",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "Mehri",
-    "iso": "mehri",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Mesmes",
-    "iso": "mesmes",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Mesopotamian Arabic",
-    "iso": "mesopotamian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "Mesqan",
-    "iso": "mesqan",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Middle Aramaic",
-    "iso": "middle-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Middle Aramaic",
-    "tags": [
-      "historical"
-    ]
-  },
-  {
-    "name": "Minaean",
-    "iso": "minaean",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Mishnaic Hebrew",
-    "iso": "mishnaic-hebrew",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "Mlaḥsô",
-    "iso": "mla-s-",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Central Neo-Aramaic"
-  },
-  {
-    "name": "Moabite",
-    "iso": "moabite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "Modern Hebrew",
-    "iso": "modern-hebrew",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Hebrew"
-  },
-  {
-    "name": "Modern Palestinian Judeo-Arabic",
-    "iso": "modern-palestinian-judeo-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine",
-    "tags": [
-      "judeo"
-    ]
-  },
-  {
-    "name": "Modern South Arabian",
-    "iso": "modern-south-arabian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Modern Standard Arabic",
-    "iso": "modern-standard-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Literary"
-  },
-  {
-    "name": "Moroccan Arabic",
-    "iso": "moroccan-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Muher",
-    "iso": "muher",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Nabataean Arabic",
-    "iso": "nabataean-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Nabataean Aramaic",
-    "iso": "nabataean-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Middle Aramaic"
-  },
-  {
-    "name": "Najdi Arabic",
-    "iso": "najdi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Neo-Mandaic",
-    "iso": "neo-mandaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Southeastern Aramaic"
-  },
-  {
-    "name": "North Canaanite",
-    "iso": "north-canaanite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "North Levantine Arabic",
-    "iso": "north-levantine-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "North Mesopotamian Arabic",
-    "iso": "north-mesopotamian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "Northwest Arabian Arabic",
-    "iso": "northwest-arabian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northwest Arabian"
-  },
-  {
-    "name": "Northwest Semitic",
-    "iso": "northwest-semitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Semitic"
-  },
-  {
-    "name": "Old Akkadian",
-    "iso": "old-akkadian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "East Semitic",
-    "tags": [
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Old Arabic",
-    "iso": "old-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Old Aramaic",
-    "iso": "old-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old Aramaic",
-    "tags": [
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Old Hijazi Arabic",
-    "iso": "old-hijazi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular",
-    "tags": [
-      "historical"
-    ]
-  },
-  {
-    "name": "Old South Arabian",
-    "iso": "old-south-arabian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Omani Arabic",
-    "iso": "omani-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Orm",
-    "iso": "orm",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
-  },
-  {
-    "name": "Other Semitic",
-    "iso": "other-semitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Semitic"
-  },
-  {
-    "name": "Palestinian Arabic",
-    "iso": "palestinian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "Palestinian Aramaic",
-    "iso": "palestinian-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Western Aramaic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Palmyrene Aramaic",
-    "iso": "palmyrene-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Middle Aramaic"
-  },
-  {
-    "name": "Peninsular Arabic",
-    "iso": "peninsular-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Persian",
-    "iso": "persian",
-    "region": "Middle East",
-    "category": "Indo-Iranian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Persian_language",
-    "family": "Indo-Iranian"
-  },
-  {
-    "name": "Philistine",
-    "iso": "philistine",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Phoenician",
-    "iso": "phoenician",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Pre-classical Arabic",
-    "iso": "pre-classical-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Pre-Hilalian dialects",
-    "iso": "pre-hilalian-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Pre-Hilalian Urban Arabic dialects",
-    "iso": "pre-hilalian-urban-arabic-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Proto-Afroasiatic",
-    "iso": "proto-afroasiatic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Proto-Afroasiatic",
-    "tags": [
-      "proto",
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Proto-Arabic",
-    "iso": "proto-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Proto-Arabic",
-    "tags": [
-      "proto",
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Proto-Semitic",
-    "iso": "proto-semitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Proto-Semitic",
-    "tags": [
-      "proto",
-      "extinct",
-      "historical"
-    ]
-  },
-  {
-    "name": "Punic",
-    "iso": "punic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Qaraqosh Neo-Aramaic",
-    "iso": "qaraqosh-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Qatabanian",
-    "iso": "qatabanian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Qatari Arabic",
-    "iso": "qatari-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Qeltu Dialects",
-    "iso": "qeltu-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Qormi dialect",
-    "iso": "qormi-dialect",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Razihi",
-    "iso": "razihi",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Rijal Alma",
-    "iso": "rijal-alma",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Sabaic",
-    "iso": "sabaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old South Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Safaitic",
-    "iso": "safaitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Saʽidi Arabic",
-    "iso": "sa-idi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Samalian",
-    "iso": "samalian",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Old Aramaic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Samaritan Aramaic",
-    "iso": "samaritan-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Western Aramaic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Samaritan Hebrew",
-    "iso": "samaritan-hebrew",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "Sanandaj",
-    "iso": "sanandaj",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Sanʽani Arabic",
-    "iso": "san-ani-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Sebat Bet",
-    "iso": "sebat-bet",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Sebat Bet Gurage",
-    "iso": "sebat-bet-gurage",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Senaya Neo-Aramaic",
-    "iso": "senaya-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Shawi Arabic",
-    "iso": "shawi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "Shehri",
-    "iso": "shehri",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "Shihhi Arabic",
-    "iso": "shihhi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Shirvani Arabic",
-    "iso": "shirvani-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Central Asian"
-  },
-  {
-    "name": "Siculo-Arabic",
-    "iso": "siculo-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
-    "name": "Sidama",
-    "iso": "sidama",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
-  },
-  {
-    "name": "Silt'e",
-    "iso": "silte",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "Soddo",
-    "iso": "soddo",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
-    "name": "Som",
-    "iso": "som",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
-  },
-  {
-    "name": "Soqotri",
-    "iso": "soqotri",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
-    "name": "South Canaanite",
-    "iso": "south-canaanite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "South Gileadite",
-    "iso": "south-gileadite",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "South Canaanite"
-  },
-  {
-    "name": "South Levantine Arabic",
-    "iso": "south-levantine-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Levantine"
-  },
-  {
-    "name": "South Mesopotamian Arabic",
-    "iso": "south-mesopotamian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Mesopotamian"
-  },
-  {
-    "name": "South Semitic",
-    "iso": "south-semitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Semitic"
-  },
-  {
-    "name": "Sudanese Arabic",
-    "iso": "sudanese-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Sudanese-Chadian Arabic",
-    "iso": "sudanese-chadian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Sulaym dialects",
-    "iso": "sulaym-dialects",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi",
-    "tags": [
-      "dialect"
-    ]
-  },
-  {
-    "name": "Sureth",
-    "iso": "sureth",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Sutean",
-    "iso": "sutean",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Other Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Taʽizzi Arabic",
-    "iso": "ta-izzi-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Taʽizzi-Adeni Arabic",
-    "iso": "ta-izzi-adeni-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Taymanitic",
-    "iso": "taymanitic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Other Canaanite",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Ṭayyiˀ dialect",
-    "iso": "-ayyi-dialect",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Other Arabic",
-    "tags": [
-      "extinct",
-      "dialect"
-    ]
-  },
-  {
-    "name": "Thamudic",
-    "iso": "thamudic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Thamudic B",
-    "iso": "thamudic-b",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Arabian",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Tigre",
-    "iso": "tigre",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Tigrinya",
-    "iso": "tigrinya",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Tihamiyya Arabic",
-    "iso": "tihamiyya-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Peninsular"
-  },
-  {
-    "name": "Tir",
-    "iso": "tir",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Trans-Zab",
-    "iso": "trans-zab",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Northeastern Neo-Aramaic"
-  },
-  {
-    "name": "Tunisian Arabic",
-    "iso": "tunisian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
     "name": "Turkish",
     "iso": "tur",
     "category": "Turkic",
@@ -15770,20 +14323,6 @@
     "tags": [
       "extinct"
     ]
-  },
-  {
-    "name": "Ulbare",
-    "iso": "ulbare",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
-  },
-  {
-    "name": "West Gurage",
-    "iso": "west-gurage",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
   },
   {
     "name": "West Semitic",
@@ -15832,20 +14371,6 @@
     "tags": [
       "dialect"
     ]
-  },
-  {
-    "name": "Wolaitta",
-    "iso": "wolaitta",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Omotic"
-  },
-  {
-    "name": "Wolane",
-    "iso": "wolane",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Transversal"
   },
   {
     "name": "Yafi'i Arabic",
@@ -17383,6 +15908,14 @@
     "category": "Afroasiatic"
   },
   {
+    "name": "Coptic",
+    "iso": "coptic",
+    "region": "North Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coptic_language",
+    "family": "Egyptian"
+  },
+  {
     "name": "Douiret language",
     "iso": "douiret",
     "region": "North Africa",
@@ -17400,22 +15933,25 @@
     "name": "Ghadames language",
     "iso": "ghadames",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghadam%C3%A8s_language",
+    "family": "Berber"
   },
   {
     "name": "Ghomara language",
     "iso": "ghomara",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghomara_language",
+    "family": "Berber"
   },
   {
     "name": "Guanche language",
     "iso": "guanche",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guanche_language",
+    "family": "Berber"
   },
   {
     "name": "Gurara language",
@@ -17452,8 +15988,9 @@
     "name": "Kabyle",
     "iso": "kabyle",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kabyle_language",
+    "family": "Berber"
   },
   {
     "name": "Lisan al-Gharbi",
@@ -17508,15 +16045,17 @@
     "name": "Shilha",
     "iso": "shilha",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shilha_language",
+    "family": "Berber"
   },
   {
     "name": "Siwi language",
     "iso": "siwi",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siwi_language",
+    "family": "Berber"
   },
   {
     "name": "Sokna language",
@@ -17536,8 +16075,9 @@
     "name": "Tarifit",
     "iso": "tarifit",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tarifit",
+    "family": "Berber"
   },
   {
     "name": "Tawellemmet language",
@@ -17557,8 +16097,9 @@
     "name": "Tuareg Tamasheq",
     "iso": "tuareg-tamasheq",
     "region": "North Africa",
-    "family": "Berber",
-    "category": "Afroasiatic"
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tamasheq_language",
+    "family": "Berber"
   },
   {
     "name": "Tugurt language",
@@ -17644,7 +16185,13 @@
     "iso": "chiac",
     "region": "North America",
     "category": "Romance",
-    "family": "Canadian"
+    "family": "Canadian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chiac",
+    "tags": [
+      "french",
+      "acadian",
+      "new-brunswick"
+    ]
   },
   {
     "name": "Chipilo",
@@ -17684,14 +16231,24 @@
     "iso": "franco-ontarian",
     "region": "North America",
     "category": "Romance",
-    "family": "Canadian"
+    "family": "Canadian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Franco-Ontarians",
+    "tags": [
+      "french",
+      "ontario"
+    ]
   },
   {
     "name": "Frenchville French",
     "iso": "frenchville-french",
     "region": "North America",
     "category": "Romance",
-    "family": "US"
+    "family": "US",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frenchville_French",
+    "tags": [
+      "french",
+      "pennsylvania"
+    ]
   },
   {
     "name": "Gullah",
@@ -17748,14 +16305,24 @@
     "iso": "louisiana-french",
     "region": "North America",
     "category": "Romance",
-    "family": "US"
+    "family": "US",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louisiana_French",
+    "tags": [
+      "french",
+      "louisiana"
+    ]
   },
   {
     "name": "Magoua",
     "iso": "magoua",
     "region": "North America",
     "category": "Romance",
-    "family": "Canadian"
+    "family": "Canadian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Magoua_dialect",
+    "tags": [
+      "french",
+      "quebec"
+    ]
   },
   {
     "name": "Métis French",
@@ -17769,7 +16336,12 @@
     "iso": "mexican-spanish",
     "region": "North America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mexican_Spanish",
+    "tags": [
+      "spanish",
+      "mexico"
+    ]
   },
   {
     "name": "Mi'kmaq",
@@ -17784,7 +16356,12 @@
     "iso": "missouri-french",
     "region": "North America",
     "category": "Romance",
-    "family": "US"
+    "family": "US",
+    "wikipedia": "https://en.wikipedia.org/wiki/Missouri_French",
+    "tags": [
+      "french",
+      "missouri"
+    ]
   },
   {
     "name": "Mohawk",
@@ -17799,7 +16376,13 @@
     "iso": "muskrat-french",
     "region": "North America",
     "category": "Romance",
-    "family": "Canadian"
+    "family": "Canadian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muskrat_French",
+    "tags": [
+      "french",
+      "michigan",
+      "ontario"
+    ]
   },
   {
     "name": "Na-Dene",
@@ -17829,14 +16412,25 @@
     "iso": "new-england-french",
     "region": "North America",
     "category": "Romance",
-    "family": "US"
+    "family": "US",
+    "wikipedia": "https://en.wikipedia.org/wiki/New_England_French",
+    "tags": [
+      "french",
+      "new-england",
+      "us"
+    ]
   },
   {
     "name": "Newfoundland French",
     "iso": "newfoundland-french",
     "region": "North America",
     "category": "Romance",
-    "family": "Canadian"
+    "family": "Canadian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Newfoundland_French",
+    "tags": [
+      "french",
+      "newfoundland"
+    ]
   },
   {
     "name": "Ojibwe",
@@ -17851,7 +16445,12 @@
     "iso": "quebec-french",
     "region": "North America",
     "category": "Romance",
-    "family": "Canadian"
+    "family": "Canadian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quebec_French",
+    "tags": [
+      "french",
+      "quebec"
+    ]
   },
   {
     "name": "Salish",
@@ -19390,7 +17989,7 @@
     "family": "East Strickland"
   },
   {
-    "name": "Kui",
+    "name": "Kui (Alor–Pantar)",
     "iso": "kui",
     "region": "Pacific",
     "category": "Papuan",
@@ -21961,7 +20560,12 @@
     "iso": "chilean-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chilean_Spanish",
+    "tags": [
+      "spanish",
+      "chile"
+    ]
   },
   {
     "name": "Chilote",
@@ -21975,7 +20579,12 @@
     "iso": "colombian-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Colombian_Spanish",
+    "tags": [
+      "spanish",
+      "colombia"
+    ]
   },
   {
     "name": "Guarani",
@@ -22064,21 +20673,37 @@
     "iso": "paraguayan-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paraguayan_Spanish",
+    "tags": [
+      "spanish",
+      "paraguay"
+    ]
   },
   {
     "name": "Peruvian Ribereño",
     "iso": "peruvian-ribere-o",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peruvian_Spanish",
+    "tags": [
+      "spanish",
+      "peru",
+      "coastal"
+    ]
   },
   {
     "name": "Peruvian Spanish",
     "iso": "peruvian-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peruvian_Spanish",
+    "tags": [
+      "spanish",
+      "peru"
+    ]
   },
   {
     "name": "Quechua",
@@ -22093,7 +20718,14 @@
     "iso": "rioplatense-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rioplatense_Spanish",
+    "tags": [
+      "spanish",
+      "rioplatense",
+      "argentina",
+      "uruguay"
+    ]
   },
   {
     "name": "Saramaccan",
@@ -22147,21 +20779,36 @@
     "iso": "uruguayan-portuguese",
     "region": "South America",
     "category": "Romance",
-    "family": "Portuguese"
+    "family": "Portuguese",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uruguayan_Portuguese",
+    "tags": [
+      "portuguese",
+      "uruguay"
+    ]
   },
   {
     "name": "Uruguayan Spanish",
     "iso": "uruguayan-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uruguayan_Spanish",
+    "tags": [
+      "spanish",
+      "uruguay"
+    ]
   },
   {
     "name": "Venezuelan Spanish",
     "iso": "venezuelan-spanish",
     "region": "South America",
     "category": "Romance",
-    "family": "Latin American"
+    "family": "Latin American",
+    "wikipedia": "https://en.wikipedia.org/wiki/Venezuelan_Spanish",
+    "tags": [
+      "spanish",
+      "venezuela"
+    ]
   },
   {
     "name": "Wayuu",

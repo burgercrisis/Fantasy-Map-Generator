@@ -321,5 +321,9 @@ window.fantasyNameBases = [
       {name: "Pangasinan", i: 345, min: 4, max: 12, d: "lnrt", m: 0, b: "Dagupan,San Carlos,Urdaneta,Lingayen,Calasiao,Alaminos,Binmaley,Manaoag,Bayambang,Malasiqui,Bugallon,Santa Barbara,Tayug,Binalonan,Sta. Barbara,Aguilar"},
       {name: "North Borneo", i: 346, min: 4, max: 12, d: "lnrt", m: 0, b: "Kota Kinabalu,Sandakan,Tawau,Lahad Datu,Keningau,Labuan,Kuching,Miri,Sibu,Bintulu,Limbang,Kapit,Bandar Seri Begawan,Beaufort,Tenom"},
       {name: "Barito", i: 347, min: 4, max: 12, d: "lnrt", m: 0, b: "Palangkaraya,Banjarmasin,Sampit,Pangkalan Bun,Muara Teweh,Kuala Kapuas,Buntok,Amuntai,Martapura,Kandangan,Barabai"},
-      {name: "South Sulawesi", i: 348, min: 4, max: 12, d: "lnrt", m: 0, b: "Makassar,Parepare,Palopo,Bone,Sengkang,Watampone,Sinjai,Bulukumba,Bantaeng,Jeneponto,Maros,Pangkajene,Enrekang,Pinrang"}
+      {name: "South Sulawesi", i: 348, min: 4, max: 12, d: "lnrt", m: 0, b: "Makassar,Parepare,Palopo,Bone,Sengkang,Watampone,Sinjai,Bulukumba,Bantaeng,Jeneponto,Maros,Pangkajene,Enrekang,Pinrang"},
+      {name: "Maghrebi Arabic", i: 349, min: 4, max: 12, d: "lnrt", m: 0, b: "Casablanca,Rabat,Fez,Meknes,Tangier,Tetouan,Algiers,Oran,Constantine,Annaba,Tripoli,Benghazi,Tunis,Sfax,Sousse,Nador,Oujda,Tlemcen"},
+      {name: "Egyptian Arabic", i: 350, min: 4, max: 12, d: "lnrt", m: 0, b: "Cairo,Alexandria,Giza,Shubra El Kheima,Port Said,Suez,Mansoura,Tanta,Asyut,Aswan,Luxor,Zagazig,Damietta,Banha,Minya,Gharbia,Fayoum,Ismailia"},
+      {name: "Levantine Arabic", i: 351, min: 4, max: 12, d: "lnrt", m: 0, b: "Beirut,Tripoli,Tyre,Saida,Amman,Zarqa,Irbid,Jerusalem,Bethlehem,Ramallah,Nablus,Hebron,Damascus,Aleppo,Homs,Hama,Latakia,Tartus"},
+      {name: "Gulf Arabic", i: 352, min: 4, max: 12, d: "lnrt", m: 0, b: "Riyadh,Jeddah,Dammam,Khobar,Doha,Dubai,Abu Dhabi,Sharjah,Manama,Kuwait City,Muscat,Salalah,Basra,Al Ain,Ajman,Ras Al Khaimah,Fujairah"}
   ];

@@ -22381,18 +22381,6 @@
     ]
   },
   {
-    "iso": "burmish",
-    "bases": [
-      48
-    ]
-  },
-  {
-    "iso": "lolo-burmese",
-    "bases": [
-      48
-    ]
-  },
-  {
     "iso": "newaric",
     "bases": [
       49
@@ -22450,6 +22438,18 @@
     "iso": "uralic-family",
     "bases": [
       9
+    ]
+  },
+  {
+    "iso": "oromo",
+    "bases": [
+      131
+    ]
+  },
+  {
+    "iso": "somali",
+    "bases": [
+      130
     ]
   }
 ];
