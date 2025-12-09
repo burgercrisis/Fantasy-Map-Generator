@@ -107,10 +107,14 @@ function main() {
   const familyDiffOutput = runFamilyDiff ? runScript("diff-language-families.js") : "";
   const coverageOutput = runCoverage ? runScript("check-language-mixer-coverage.js") : "";
   const failuresOutput = runFailures ? runScript("check-language-mixer-failures.js") : "";
-  const nameDupsOutput = runNameDups ? runScript("check-language-mixer-name-duplicates.js") : "";
-  const fuzzyDupsOutput = runFuzzyDups ? runScript("report-language-mixer-duplicates.js") : "";
+  const nameDupsOutput = runNameDups
+    ? runScript("../mixer-diagnostics/check-language-mixer-name-duplicates.js")
+    : "";
+  const fuzzyDupsOutput = runFuzzyDups
+    ? runScript("../mixer-diagnostics/report-language-mixer-duplicates.js")
+    : "";
   const baseClustersOutput = runBaseClusters
-    ? runScript("report-language-mixer-base-clusters.js", baseClustersArgs)
+    ? runScript("../mixer-diagnostics/report-language-mixer-base-clusters.js", baseClustersArgs)
     : "";
 
   console.log("\n=== Diagnostics summaries ===\n");

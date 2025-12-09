@@ -33,7 +33,7 @@ and prints short summaries of each tool’s stdout.
 **Usage**
 
 ```bash
-node tools/run-language-mixer-suite.js [options]
+node tools/mixer-core/run-language-mixer-suite.js [options]
 ```
 
 Useful options:
@@ -79,7 +79,7 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
 **Typical command**
 
 ```bash
-node tools/fix-language-mixer-mappings.js
+node tools/mixer-core/fix-language-mixer-mappings.js
 ```
 
 Run this after you add or reorganize languages in `language-mixes.json`, or after tweaking lexifiers/families.
@@ -109,7 +109,7 @@ Compares ISO coverage between the mixer catalog and the mapping so you can see w
 **Usage**
 
 ```bash
-node tools/check-language-mixer-coverage.js
+node tools/mixer-core/check-language-mixer-coverage.js
 ```
 
 Run this to understand coverage gaps before/after mapping changes.
@@ -144,7 +144,7 @@ Static analysis for catalog languages that would fail in the local mixer because
 **Usage**
 
 ```bash
-node tools/check-language-mixer-failures.js
+node tools/mixer-core/check-language-mixer-failures.js
 ```
 
 ---
@@ -173,7 +173,7 @@ Shows how many (raw and unique) names each mixer language effectively has availa
 **Usage**
 
 ```bash
-node tools/report-language-mixer-name-counts.js [--include-families] [--sort=FIELD]
+node tools/mixer-core/report-language-mixer-name-counts.js [--include-families] [--sort=FIELD]
 ```
 
 Common `--sort` fields: `unique`, `raw`, `bases`, `duplicates`, `dupRatio`, `iso`, `name`, `region`, `family`, `category`.
@@ -203,16 +203,16 @@ Ad-hoc mixer generator for inspecting **sample names** by language ISO or by raw
 
 ```bash
 # Generate 10 samples per mapped base for a mixer language
-node tools/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1
+node tools/mixer-core/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1
 
 # Generate 40 samples cycling between specific bases
-node tools/generate-language-samples.js --base=353,354 --count=40 --seed=42
+node tools/mixer-core/generate-language-samples.js --base=353,354 --count=40 --seed=42
 
 # Placename / length analysis for a mixer language
-node tools/generate-language-samples.js --iso=kx-ao-ae --per-base=100 --analyze-lengths
+node tools/mixer-core/generate-language-samples.js --iso=kx-ao-ae --per-base=100 --analyze-lengths
 
 # Placename / length analysis for raw bases
-node tools/generate-language-samples.js --base=353,354 --count=200 --analyze-lengths
+node tools/mixer-core/generate-language-samples.js --base=353,354 --count=200 --analyze-lengths
 ```
 
 Key options:
@@ -246,7 +246,7 @@ Builds the lightweight JS bundles that the browser actually loads for the Langua
 **Usage**
 
 ```bash
-node tools/generate-language-mixer.js
+node tools/mixer-core/generate-language-mixer.js
 ```
 
 Run this after **any** change to `language-mixes.json` or `language-mixer-map.json` so the UI sees the new data.
@@ -274,7 +274,7 @@ Compares `family` values between the JSON catalog and the generated `language-mi
 **Usage**
 
 ```bash
-node tools/diff-language-families.js
+node tools/mixer-core/diff-language-families.js
 ```
 
 Use this after regenerating the bundle if you suspect drift between JSON and what’s shipped.
@@ -311,7 +311,7 @@ Infers and fills in `lexifier` for creole/pidgin/mixed languages in the catalog.
 **Usage**
 
 ```bash
-node tools/add-lexifier.js
+node tools/mixer-catalog/add-lexifier.js
 ```
 
 Run this before `fix-language-mixer-mappings.js` to give it better hints for creoles and mixed lects.
@@ -338,7 +338,7 @@ Backfills missing or generic family metadata using existing categories.
 **Usage**
 
 ```bash
-node tools/fix-missing-families.js
+node tools/mixer-catalog/fix-missing-families.js
 ```
 
 Use this as a cleanup step when you’ve imported or bulk-edited languages with incomplete family data.
@@ -366,7 +366,7 @@ Normalizes Romance entries conservatively.
 **Usage**
 
 ```bash
-node tools/update-romance.js
+node tools/mixer-regions/update-romance.js
 ```
 
 Run this after adding or editing Romance languages to keep metadata consistent.
@@ -399,7 +399,7 @@ Ensures that languages belonging to selected base families in the mixer map all 
 **Usage**
 
 ```bash
-node tools/fill-family-mixes.js
+node tools/mixer-catalog/fill-family-mixes.js
 ```
 
 Use this when you’re trying to densify a whole family in the mixer dropdown.
@@ -428,7 +428,7 @@ Fills catalog coverage for all Sino–Tibetan entries implied by the mixer map.
 **Usage**
 
 ```bash
-node tools/fill-sino-tibetan-mixes.js
+node tools/mixer-catalog/fill-sino-tibetan-mixes.js
 ```
 
 Useful once you’ve defined Sino–Tibetan bases and want the UI catalog to match.
@@ -456,7 +456,7 @@ Backfills catalog entries for **every** ISO present in the mixer map but missing
 **Usage**
 
 ```bash
-node tools/fill-all-missing-mixes.js
+node tools/mixer-catalog/fill-all-missing-mixes.js
 ```
 
 Run this after you’ve expanded the mixer map when you want basic, auto-generated catalog entries for all mapped ISOs.
@@ -484,7 +484,7 @@ Final clean-up pass for a curated list of important ISOs: if they’re in the ma
 **Usage**
 
 ```bash
-node tools/fill-missing-mixes-explicit.js
+node tools/mixer-catalog/fill-missing-mixes-explicit.js
 ```
 
 Run this after `fill-family-mixes.js` (and any other family-specific fillers) **if you choose not to run** `fill-all-missing-mixes.js`, but still want the curated set of important ISOs to be covered with rich metadata.
@@ -514,7 +514,7 @@ Adds a curated set of underrepresented African languages to the mixer catalog an
 **Usage**
 
 ```bash
-node tools/add-african-languages.js
+node tools/mixer-catalog/add-african-languages.js
 ```
 
 Run this when expanding African coverage using the curated list of languages.
@@ -541,7 +541,7 @@ Expands the Papuan / Trans–New Guinea side of the mixer by adding family nodes
 **Usage**
 
 ```bash
-node tools/add-trans-new-guinea-mixer.js
+node tools/mixer-catalog/add-trans-new-guinea-mixer.js
 ```
 
 Use this after defining Papuan namebases when you want the Trans–New Guinea hierarchy represented in the mixer.
@@ -568,7 +568,7 @@ Adds and tunes Mongolic and closely related varieties in both the catalog and mi
 **Usage**
 
 ```bash
-node tools/fill-mongolic-mixes.js
+node tools/mixer-catalog/fill-mongolic-mixes.js
 ```
 
 Run this when working on Mongolic coverage so catalog and mappings stay in sync.
@@ -602,7 +602,7 @@ Scans all default namebases and reports internal duplicate place names per base 
 **Usage**
 
 ```bash
-node tools/report-namebase-duplicates.js
+node tools/mixer-namebases/report-namebase-duplicates.js
 ```
 
 Use this to identify messy bases before deduplication.
@@ -631,7 +631,7 @@ Automatically deduplicates the `b: "..."` name lists for a fixed set of base ind
 **Usage**
 
 ```bash
-node tools/dedupe-namebase-duplicates.js
+node tools/mixer-namebases/dedupe-namebase-duplicates.js
 ```
 
 Use this after reviewing `report-namebase-duplicates.js` to safely clean specific bases.
@@ -664,7 +664,7 @@ It then prints a short summary of each tools stdout.
 **Usage**
 
 ```bash
-node tools/run-language-mixer-health.js [options]
+node tools/mixer-core/run-language-mixer-health.js [options]
 ```
 
 Options:
@@ -702,7 +702,7 @@ Reports **exact** duplicate language names in `config/language-mixes.json` (byte
 **Usage**
 
 ```bash
-node tools/check-language-mixer-name-duplicates.js
+node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js
 ```
 
 Use this when you want a strict view of name collisions, complementary to the normalized-name clusters below.
@@ -729,7 +729,7 @@ Finds potentially non-unique languages in the catalog by:
 **Usage**
 
 ```bash
-node tools/report-language-mixer-duplicates.js
+node tools/mixer-diagnostics/report-language-mixer-duplicates.js
 ```
 
 Use this when refactoring or de-duplicating the catalog; it provides a broader, fuzzier picture than the exact-name checker.
@@ -754,7 +754,7 @@ Shows clusters of catalog languages that share **identical** `bases[]` sets in `
 **Usage**
 
 ```bash
-node tools/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...]
+node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...]
 ```
 
 Useful for spotting over-dense mappings (many languages all reusing the same base set) or opportunities to split clusters.
@@ -784,7 +784,7 @@ Summarizes coverage and metadata quality for several special language groups in 
 **Usage**
 
 ```bash
-node tools/check-special-families.js
+node tools/mixer-diagnostics/check-special-families.js
 ```
 
 Run this before or after regional updaters when you want to see which special families still need metadata attention.
@@ -810,7 +810,7 @@ Removes mapping entries whose ISO does **not** exist in the catalog, keeping `co
 **Usage**
 
 ```bash
-node tools/clean-language-mixer-map.js
+node tools/mixer-diagnostics/clean-language-mixer-map.js
 ```
 
 Run this after larger catalog refactors to prevent orphaned mapping entries, then regenerate bundles with `generate-language-mixer.js`.
@@ -837,7 +837,7 @@ Refines African language mappings that still point at generic Niger–Congo / Af
 **Usage**
 
 ```bash
-node tools/retune-african-mappings.js
+node tools/mixer-diagnostics/retune-african-mappings.js
 ```
 
 Use this after broad African family expansions to clean up overly generic mappings.
@@ -874,7 +874,7 @@ Adds consistent semantic tags (e.g. `family`, `dialect`, `proto`, `historical`, 
 **Usage**
 
 ```bash
-node tools/update-language-tags.js
+node tools/mixer-regions/update-language-tags.js
 ```
 
 Run this after adding or renaming macro entries so their tags stay consistent.
@@ -895,7 +895,7 @@ Normalizes Afroasiatic entries.
 **Usage**
 
 ```bash
-node tools/update-afroasiatic.js
+node tools/mixer-regions/update-afroasiatic.js
 ```
 
 ---
@@ -914,7 +914,7 @@ Normalizes Austroasiatic and related subfamilies (Aslian, Munda, Bahnaric, Katui
 **Usage**
 
 ```bash
-node tools/update-austroasiatic.js
+node tools/mixer-regions/update-austroasiatic.js
 ```
 
 ---
@@ -933,7 +933,7 @@ Normalizes Austronesian entries.
 **Usage**
 
 ```bash
-node tools/update-austronesian.js
+node tools/mixer-regions/update-austronesian.js
 ```
 
 ---
@@ -952,7 +952,7 @@ Normalizes Dravidian entries.
 **Usage**
 
 ```bash
-node tools/update-dravidian.js
+node tools/mixer-regions/update-dravidian.js
 ```
 
 ---
@@ -971,7 +971,7 @@ Normalizes Hmong–Mien entries.
 **Usage**
 
 ```bash
-node tools/update-hmong-mien.js
+node tools/mixer-regions/update-hmong-mien.js
 ```
 
 ---
@@ -990,7 +990,7 @@ Normalizes Indo-Aryan entries.
 **Usage**
 
 ```bash
-node tools/update-indo-aryan.js
+node tools/mixer-regions/update-indo-aryan.js
 ```
 
 ---
@@ -1009,7 +1009,7 @@ Normalizes Kartvelian (South Caucasian) entries.
 **Usage**
 
 ```bash
-node tools/update-kartvelian.js
+node tools/mixer-regions/update-kartvelian.js
 ```
 
 ---
@@ -1028,7 +1028,7 @@ Normalizes Niger–Congo entries.
 **Usage**
 
 ```bash
-node tools/update-niger-congo.js
+node tools/mixer-regions/update-niger-congo.js
 ```
 
 ---
@@ -1047,7 +1047,7 @@ Normalizes Turkic entries.
 **Usage**
 
 ```bash
-node tools/update-turkic.js
+node tools/mixer-regions/update-turkic.js
 ```
 
 ---
@@ -1066,7 +1066,7 @@ Normalizes Uralic entries (including Finnic, Sami, Samoyedic, Ugric, etc.).
 **Usage**
 
 ```bash
-node tools/update-uralic.js
+node tools/mixer-regions/update-uralic.js
 ```
 
 ---
@@ -1093,7 +1093,7 @@ By default it runs, in order:
 **Usage**
 
 ```bash
-node tools/run-race-language-suite.js [options]
+node tools/mixer-races/run-race-language-suite.js [options]
 ```
 
 Options:
@@ -1127,7 +1127,7 @@ For each fantasy race, reports how many catalog languages it can reach via its `
 **Usage**
 
 ```bash
-node tools/report-per-race-language-coverage.js
+node tools/mixer-races/report-per-race-language-coverage.js
 ```
 
 ---
@@ -1152,7 +1152,7 @@ Shows which catalog languages are **eligible** for at least one race profile vs.
 **Usage**
 
 ```bash
-node tools/report-race-language-coverage.js
+node tools/mixer-races/report-race-language-coverage.js
 ```
 
 Run this when designing new races or adjusting profiles so you can target currently-unused languages.
@@ -1177,7 +1177,7 @@ Summarizes how broad each race's language palette is (how many ISOs, how many re
 **Usage**
 
 ```bash
-node tools/report-race-language-palettes.js
+node tools/mixer-races/report-race-language-palettes.js
 ```
 
 Run this to compare how narrow or broad different races' language palettes are.
@@ -1208,7 +1208,7 @@ Single-base experiment for **compound vs plain** Markov generation, driven by ba
 **Usage**
 
 ```bash
-node tools/experiment-compound-markov.js --base=353,354 --count=40 --min=10 --max=30 --mode=auto --seed=1
+node tools/mixer-experiments/experiment-compound-markov.js --base=353,354 --count=40 --min=10 --max=30 --mode=auto --seed=1
 ```
 
 Key options:
@@ -1234,7 +1234,7 @@ Refined compound helper that uses **better length statistics** and a more conser
 **Usage**
 
 ```bash
-node tools/experiment-compound-markov-v2.js --base=353,354 --count=40 --min=15 --max=50 --mode=auto --seed=1
+node tools/mixer-experiments/experiment-compound-markov-v2.js --base=353,354 --count=40 --min=15 --max=50 --mode=auto --seed=1
 ```
 
 Options mirror the v1 helper:
@@ -1262,7 +1262,7 @@ Blended compound helper: lets a **single name** contain segments from **multiple
 **Usage**
 
 ```bash
-node tools/experiment-compound-markov-blend.js --base=353,354,0,1,6 --count=40 --min=15 --max=50 --seed=1
+node tools/mixer-experiments/experiment-compound-markov-blend.js --base=353,354,0,1,6 --count=40 --min=15 --max=50 --seed=1
 ```
 
 Notes:
@@ -1289,32 +1289,32 @@ If you want a clean starting point today, prefer:
 
 1. Edit `config/language-mixes.json` and/or `config/language-mixer-map.json` (and possibly namebases).
 2. Run catalog shapers as needed, e.g.:
-   - `node tools/add-lexifier.js`
-   - `node tools/fix-missing-families.js`
-   - `node tools/update-romance.js` (or future regional scripts)
+   - `node tools/mixer-catalog/add-lexifier.js`
+   - `node tools/mixer-catalog/fix-missing-families.js`
+   - `node tools/mixer-regions/update-romance.js` (or future regional scripts)
 3. Run mapping + coverage tools:
-   - `node tools/fix-language-mixer-mappings.js`
-   - `node tools/fill-family-mixes.js`
-   - `node tools/fill-sino-tibetan-mixes.js`
+   - `node tools/mixer-core/fix-language-mixer-mappings.js`
+   - `node tools/mixer-catalog/fill-family-mixes.js`
+   - `node tools/mixer-catalog/fill-sino-tibetan-mixes.js`
    - (optional) family/region-specific passes such as:
-     - `node tools/fill-mongolic-mixes.js`
-     - `node tools/add-african-languages.js`
-     - `node tools/add-trans-new-guinea-mixer.js`
+     - `node tools/mixer-catalog/fill-mongolic-mixes.js`
+     - `node tools/mixer-catalog/add-african-languages.js`
+     - `node tools/mixer-catalog/add-trans-new-guinea-mixer.js`
    - then choose **one** of:
-     - `node tools/fill-all-missing-mixes.js` – backfill every mapped ISO with at least basic metadata.
-     - `node tools/fill-missing-mixes-explicit.js` – only add the curated set of important ISOs using hand-picked metadata.
+     - `node tools/mixer-catalog/fill-all-missing-mixes.js` – backfill every mapped ISO with at least basic metadata.
+     - `node tools/mixer-catalog/fill-missing-mixes-explicit.js` – only add the curated set of important ISOs using hand-picked metadata.
 4. Sanity check:
-   - `node tools/check-language-mixer-coverage.js`
-   - `node tools/check-language-mixer-failures.js`
-   - `node tools/report-language-mixer-name-counts.js --sort=unique`
-   - `node tools/run-language-mixer-health.js` (read-only diagnostics)
+   - `node tools/mixer-core/check-language-mixer-coverage.js`
+   - `node tools/mixer-core/check-language-mixer-failures.js`
+   - `node tools/mixer-core/report-language-mixer-name-counts.js --sort=unique`
+   - `node tools/mixer-core/run-language-mixer-health.js` (read-only diagnostics)
 5. Regenerate bundles:
-   - `node tools/generate-language-mixer.js`
+   - `node tools/mixer-core/generate-language-mixer.js`
 
 Or, for a condensed pass:
 
 ```bash
-node tools/run-language-mixer-suite.js --name-counts --name-counts-sort=unique
+node tools/mixer-core/run-language-mixer-suite.js --name-counts --name-counts-sort=unique
 ```
 
 For a **read-only diagnostics-only** pass (no writes to config files):
@@ -1322,14 +1322,14 @@ For a **read-only diagnostics-only** pass (no writes to config files):
 ```bash
 pnpm run mixer:health
 # or:
-# node tools/run-language-mixer-health.js
+# node tools/mixer-core/run-language-mixer-health.js
 ```
 
 ### Playbook: Common Mixer & Race Workflows
 
 - **Mixer – full maintenance (mutating)**  
   Use the orchestrator directly or via npm/pnpm:
-  - `node tools/run-language-mixer-suite.js --name-counts --name-counts-sort=unique`
+  - `node tools/mixer-core/run-language-mixer-suite.js --name-counts --name-counts-sort=unique`
   - `pnpm run generate:language-mixer`
   - `pnpm run mixer:full`
 

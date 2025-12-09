@@ -246,8 +246,16 @@ window.Names = (function () {
       tip("Namebase is not found", false, "error");
       return "";
     }
-    const min = nameBases[base].min - 1;
-    const max = Math.max(nameBases[base].max - 3, min);
+    let min;
+    let max;
+    if (typeof getUseCaseRange === "function") {
+      const range = getUseCaseRange(base, "map");
+      min = range.min;
+      max = range.max;
+    } else {
+      min = nameBases[base].min - 1;
+      max = Math.max(nameBases[base].max - 3, min);
+    }
     const baseName = getBase(base, min, max, "", 0);
     const name = P(0.7) ? addSuffix(baseName) : baseName;
     mapName.value = name;
@@ -258,6 +266,62 @@ window.Names = (function () {
     if (suffix === "ia" && name.length > 6) name = name.slice(0, -(name.length - 3));
     else if (suffix === "land" && name.length > 6) name = name.slice(0, -(name.length - 5));
     return validateSuffix(name, suffix);
+  }
+  function getUseCaseRange(base, useCase) {
+    const b = nameBases && nameBases[base];
+    if (!b || typeof b.min !== "number" || typeof b.max !== "number") {
+      return {min: 4, max: 10};
+    }
+
+    const homeMin = b.min;
+    const homeMax = b.max;
+    const span = homeMax - homeMin || 1;
+    const mid = homeMin + span / 2;
+
+    let min = homeMin;
+    let max = homeMax;
+
+    switch (useCase) {
+      case "map":
+        min = Math.max(homeMin, Math.round(mid));
+        max = Math.min(homeMax + 3, homeMin + span + 4);
+        break;
+      case "state":
+        min = Math.max(homeMin, Math.round(mid));
+        max = Math.min(homeMax + 2, homeMin + span + 3);
+        break;
+      case "capital":
+        min = Math.max(homeMin, Math.round(homeMin + span * 0.6));
+        max = homeMax + 1;
+        break;
+      case "town":
+      case "city":
+      case "settlement":
+        min = homeMin;
+        max = homeMax;
+        break;
+      case "village":
+      case "hamlet":
+        min = homeMin;
+        max = Math.max(homeMin + 1, Math.round(mid));
+        break;
+      case "culture":
+      case "people":
+        min = Math.max(homeMin, Math.floor(homeMin + span * 0.3));
+        max = Math.min(homeMax, Math.round(homeMin + span * 0.9));
+        break;
+      case "religion":
+      case "faith":
+      case "deity":
+        min = Math.max(homeMin, Math.round(mid));
+        max = homeMax + 3;
+        break;
+      default:
+        break;
+    }
+
+    if (max < min) max = min;
+    return {min, max};
   }
   const getNameBases = function () {
     // name, min length, max length, letters to allow duplication, multi-word name rate [deprecated]

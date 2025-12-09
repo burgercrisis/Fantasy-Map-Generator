@@ -6,7 +6,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const {META} = require("./_meta-fill-missing-mixes");
+const {META} = require("../mixer-meta/_meta-fill-missing-mixes");
 
 const root = path.resolve(__dirname, "..");
 

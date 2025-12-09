@@ -138,7 +138,14 @@ window.BurgsAndStates = (() => {
           if (burgsTree.find(x, y, s) !== undefined) continue; // to close to existing burg
           const burg = burgs.length;
           const culture = cells.culture[cell];
-          const name = Names.getCulture(culture);
+          let name;
+          const baseIndex = cultures[culture] && cultures[culture].base;
+          if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+            const range = Names.getUseCaseRange(baseIndex, "town");
+            name = Names.getCulture(culture, range.min, range.max);
+          } else {
+            name = Names.getCulture(culture);
+          }
           burgs.push({cell, x, y, state: 0, i: burg, culture, name, capital: 0, feature: cells.f[cell]});
           burgsTree.add([x, y]);
           cells.burg[cell] = burg;

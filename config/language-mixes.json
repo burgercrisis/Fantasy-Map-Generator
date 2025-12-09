@@ -932,6 +932,13 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Chadian Arabic",
+    "iso": "chadian-arabic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
+  },
+  {
     "name": "Chakato language",
     "iso": "chakato-language",
     "region": "Africa",
@@ -1703,17 +1710,6 @@
     "family": "Chadic"
   },
   {
-    "name": "Highland East Cushitic",
-    "iso": "highland-east-cushitic",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Highland_East_Cushitic_languages",
-    "family": "Cushitic",
-    "tags": [
-      "family"
-    ]
-  },
-  {
     "name": "Hina language",
     "iso": "hina-language",
     "region": "Africa",
@@ -2061,17 +2057,6 @@
     "family": "Bantu"
   },
   {
-    "name": "Lowland East Cushitic",
-    "iso": "lowland-east-cushitic",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lowland_East_Cushitic_languages",
-    "family": "Cushitic",
-    "tags": [
-      "family"
-    ]
-  },
-  {
     "name": "Luganda",
     "iso": "luganda",
     "region": "Africa",
@@ -2091,17 +2076,6 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
-  },
-  {
-    "name": "Macro-Somali",
-    "iso": "macro-somali",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Somali_languages",
-    "family": "Cushitic",
-    "tags": [
-      "family"
-    ]
   },
   {
     "name": "Mada language",
@@ -3140,6 +3114,14 @@
     "family": "Chadic"
   },
   {
+    "name": "Tawellemmet Berber",
+    "iso": "tawellemmet-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tawellemmet_language",
+    "family": "Tuareg Berber"
+  },
+  {
     "name": "Tera language",
     "iso": "tera-chadic-language",
     "region": "Africa",
@@ -3154,6 +3136,14 @@
     "family": "Chadic"
   },
   {
+    "name": "Tetserret",
+    "iso": "tetserret",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetserret_language",
+    "family": "Western Berber"
+  },
+  {
     "name": "Tetserret language",
     "iso": "tetserret-language",
     "region": "Africa",
@@ -3166,6 +3156,14 @@
     "region": "Africa",
     "category": "Romance",
     "family": "Judeo-Spanish"
+  },
+  {
+    "name": "Tidikelt Berber",
+    "iso": "tidikelt-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tidikelt_language",
+    "family": "Zenati Berber"
   },
   {
     "name": "Tobanga language",
@@ -3218,6 +3216,14 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Tuwat Berber",
+    "iso": "tuwat-language",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuwat_language",
+    "family": "Zenati Berber"
   },
   {
     "name": "Ubi language",
@@ -3301,25 +3307,6 @@
     ]
   },
   {
-    "name": "Zenaga",
-    "iso": "zenaga",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Zenaga_language",
-    "family": "Western Berber",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Tetserret",
-    "iso": "tetserret",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tetserret_language",
-    "family": "Western Berber"
-  },
-  {
     "name": "Western Somali",
     "iso": "somali-western",
     "region": "Africa",
@@ -3364,16 +3351,16 @@
     "family": "Chadic"
   },
   {
-    "name": "Yoruba (alt code)",
-    "iso": "yoruba",
+    "name": "Yoruba",
+    "iso": "yor",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
     "family": "Yoruboid"
   },
   {
-    "name": "Yoruba",
-    "iso": "yor",
+    "name": "Yoruba (alt code)",
+    "iso": "yoruba",
     "region": "Africa",
     "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Yoruba_language",
@@ -3400,6 +3387,17 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Zenaga",
+    "iso": "zenaga",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zenaga_language",
+    "family": "Western Berber",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Zenaga language",
@@ -3483,28 +3481,25 @@
     "family": "Kx'a"
   },
   {
-    "name": "Tawellemmet Berber",
-    "iso": "tawellemmet-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tawellemmet_language",
-    "family": "Tuareg Berber"
+    "name": "Acadian",
+    "iso": "acadian",
+    "region": "Americas",
+    "category": "Romance",
+    "family": "Canadian"
   },
   {
-    "name": "Tidikelt Berber",
-    "iso": "tidikelt-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tidikelt_language",
-    "family": "Zenati Berber"
+    "name": "Brayon",
+    "iso": "brayon",
+    "region": "Americas",
+    "category": "Romance",
+    "family": "Canadian"
   },
   {
-    "name": "Tuwat Berber",
-    "iso": "tuwat-language",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tuwat_language",
-    "family": "Zenati Berber"
+    "name": "Canadian French",
+    "iso": "canadian-french",
+    "region": "Americas",
+    "category": "Romance",
+    "family": "Canadian"
   },
   {
     "name": "Akkadian",
@@ -4614,16 +4609,16 @@
     "family": "Tai-Kadai"
   },
   {
-    "name": "Japanese (macro entry)",
-    "iso": "jpn-lang",
+    "name": "Japanese",
+    "iso": "jpn",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
     "family": "Japonic"
   },
   {
-    "name": "Japanese",
-    "iso": "jpn",
+    "name": "Japanese (macro entry)",
+    "iso": "jpn-lang",
     "region": "Asia",
     "category": "Japonic",
     "wikipedia": "https://en.wikipedia.org/wiki/Japanese_language",
@@ -5651,6 +5646,14 @@
     "category": "Austroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Mundari_language",
     "family": "Munda"
+  },
+  {
+    "name": "Muong",
+    "iso": "muong",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muong_language",
+    "family": "Vietic"
   },
   {
     "name": "Muria",
@@ -7056,14 +7059,6 @@
     "family": "Vietic"
   },
   {
-    "name": "Muong",
-    "iso": "muong",
-    "region": "Asia",
-    "category": "Austroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Muong_language",
-    "family": "Vietic"
-  },
-  {
     "name": "Vietnamese (Central)",
     "iso": "vie-central",
     "region": "Asia",
@@ -8125,6 +8120,14 @@
     "family": "Misumalpan"
   },
   {
+    "name": "Pipil (Nawat)",
+    "iso": "pipil",
+    "region": "Central America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nawat_language_(typological_overview)",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Kazakh",
     "iso": "kazakh",
     "region": "Central Asia",
@@ -8798,17 +8801,6 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "Koreanic"
-  },
-  {
-    "name": "Uralic",
-    "iso": "uralic-family",
-    "region": "Eurasia",
-    "category": "Uralic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Uralic_languages",
-    "tags": [
-      "family"
-    ],
-    "family": "Uralic"
   },
   {
     "name": "Akkala Sami",
@@ -10746,6 +10738,17 @@
     "family": "Komi-Zyryan"
   },
   {
+    "name": "Uralic",
+    "iso": "uralic-family",
+    "region": "Eurasia",
+    "category": "Uralic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uralic_languages",
+    "tags": [
+      "family"
+    ],
+    "family": "Uralic"
+  },
+  {
     "name": "Uralic-Yukaghir",
     "iso": "uralic-yukaghir",
     "region": "Eurasia",
@@ -10991,13 +10994,6 @@
     ]
   },
   {
-    "name": "Acadian",
-    "iso": "acadian",
-    "region": "Americas",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Aeolian",
     "iso": "aeolian",
     "region": "Europe",
@@ -11149,7 +11145,7 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al",
     "tags": [
       "arpitan",
-      "franco-proven\u00e7al",
+      "franco-provençal",
       "gallo-romance",
       "alps"
     ]
@@ -11333,31 +11329,12 @@
     "family": "Oïl Dialects"
   },
   {
-    "name": "Brayon",
-    "iso": "brayon",
-    "region": "Americas",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Breton",
     "iso": "breton",
     "region": "Europe",
     "category": "Celtic",
     "wikipedia": "https://en.wikipedia.org/wiki/Breton_language",
     "family": "Celtic"
-  },
-  {
-    "name": "Gaulish",
-    "iso": "gaulish",
-    "region": "Europe",
-    "category": "Celtic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gaulish_language",
-    "family": "Celtic",
-    "tags": [
-      "extinct",
-      "historical"
-    ]
   },
   {
     "name": "Brianzöö",
@@ -11444,13 +11421,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Sardinian"
-  },
-  {
-    "name": "Canadian French",
-    "iso": "canadian-french",
-    "region": "Americas",
-    "category": "Romance",
-    "family": "Canadian"
   },
   {
     "name": "Canarian",
@@ -12005,6 +11975,18 @@
     "family": "Dialects"
   },
   {
+    "name": "Gaulish",
+    "iso": "gaulish",
+    "region": "Europe",
+    "category": "Celtic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaulish_language",
+    "family": "Celtic",
+    "tags": [
+      "extinct",
+      "historical"
+    ]
+  },
+  {
     "name": "Gaumais",
     "iso": "gaumais",
     "region": "Europe",
@@ -12297,18 +12279,6 @@
     "category": "Baltic",
     "wikipedia": "https://en.wikipedia.org/wiki/Latvian_language",
     "family": "Baltic"
-  },
-  {
-    "name": "Old Prussian",
-    "iso": "old-prussian",
-    "region": "Europe",
-    "category": "Baltic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Old_Prussian_language",
-    "family": "Baltic",
-    "tags": [
-      "extinct",
-      "historical"
-    ]
   },
   {
     "name": "Law French",
@@ -12738,6 +12708,18 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Old Occitan",
+    "tags": [
+      "extinct",
+      "historical"
+    ]
+  },
+  {
+    "name": "Old Prussian",
+    "iso": "old-prussian",
+    "region": "Europe",
+    "category": "Baltic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Old_Prussian_language",
+    "family": "Baltic",
     "tags": [
       "extinct",
       "historical"
@@ -13639,6 +13621,237 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Afar",
+    "iso": "afar",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Afar_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Amh",
+    "iso": "amh",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "South Ethiopic"
+  },
+  {
+    "name": "Amharic",
+    "iso": "amharic",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amharic",
+    "family": "South Ethiopic"
+  },
+  {
+    "name": "Amharic-Argobba",
+    "iso": "amharic-argobba",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Argobba",
+    "iso": "argobba",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Argobba_language",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Beja",
+    "iso": "beja",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beja_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Chaha",
+    "iso": "chaha",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
+    "name": "Dahalik",
+    "iso": "dahalik",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dahalik_language",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Harari",
+    "iso": "harari",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harari_language",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Harari-East Gurage",
+    "iso": "harari-east-gurage",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Harari-Argobba Ethio-Semitic"
+  },
+  {
+    "name": "Highland East Cushitic",
+    "iso": "highland-east-cushitic",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Highland_East_Cushitic_languages",
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Inneqor",
+    "iso": "inneqor",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Gurage"
+  },
+  {
+    "name": "Inor",
+    "iso": "inor",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inor_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Lowland East Cushitic",
+    "iso": "lowland-east-cushitic",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lowland_East_Cushitic_languages",
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Macro-Somali",
+    "iso": "macro-somali",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Somali_languages",
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Mesmes",
+    "iso": "mesmes",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mesmes_language",
+    "family": "West Gurage",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Mesqan",
+    "iso": "mesqan",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mesqan_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Muher",
+    "iso": "muher",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muher_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Oromo",
+    "iso": "oromo",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oromo_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Sebat Bet",
+    "iso": "sebat-bet",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Sebat Bet Gurage",
+    "iso": "sebat-bet-gurage",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sebat_Bet_Gurage_language",
+    "family": "West Gurage"
+  },
+  {
+    "name": "Somali",
+    "iso": "somali",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Somali_language",
+    "family": "Cushitic"
+  },
+  {
+    "name": "Tigre",
+    "iso": "tigre",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tigre_language",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Tigrinya",
+    "iso": "tigrinya",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tigrinya_language",
+    "family": "North Ethiopic"
+  },
+  {
+    "name": "Ulbare",
+    "iso": "ulbare",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "West Gurage"
+  },
+  {
+    "name": "West Gurage",
+    "iso": "west-gurage",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gurage_languages",
+    "tags": [
+      "family"
+    ],
+    "family": "Gurage"
+  },
+  {
+    "name": "Wolaitta",
+    "iso": "wolaitta",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wolaitta_language",
+    "family": "Omotic"
+  },
+  {
+    "name": "Wolane",
+    "iso": "wolane",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Gurage"
+  },
+  {
     "name": "Agalega Creole",
     "iso": "agalega-creole",
     "region": "Indian Ocean",
@@ -13890,14 +14103,6 @@
     "family": "Peninsular"
   },
   {
-    "name": "Afar",
-    "iso": "afar",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Afar_language",
-    "family": "Cushitic"
-  },
-  {
     "name": "Afroasiatic family",
     "iso": "afroasiatic-family",
     "region": "Middle East",
@@ -13927,44 +14132,6 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Maghrebi"
-  },
-  {
-    "name": "Amh",
-    "iso": "amh",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "South Ethiopic"
-  },
-  {
-    "name": "Amharic",
-    "iso": "amharic",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Amharic",
-    "family": "South Ethiopic"
-  },
-  {
-    "name": "Oromo",
-    "iso": "oromo",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Oromo_language",
-    "family": "Cushitic"
-  },
-  {
-    "name": "Somali",
-    "iso": "somali",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Somali_language",
-    "family": "Cushitic"
-  },
-  {
-    "name": "Amharic-Argobba",
-    "iso": "amharic-argobba",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "Harari-Argobba Ethio-Semitic"
   },
   {
     "name": "Ammonite",
@@ -14035,14 +14202,6 @@
     "family": "Aramaic"
   },
   {
-    "name": "Argobba",
-    "iso": "argobba",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Argobba_language",
-    "family": "Harari-Argobba Ethio-Semitic"
-  },
-  {
     "name": "Armazic",
     "iso": "armazic",
     "region": "Middle East",
@@ -14051,14 +14210,6 @@
     "tags": [
       "extinct"
     ]
-  },
-  {
-    "name": "Western Neo-Aramaic",
-    "iso": "western-neo-aramaic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Western_Neo-Aramaic",
-    "family": "Western Aramaic"
   },
   {
     "name": "Assyrian",
@@ -14147,13 +14298,6 @@
     "family": "Northeastern Neo-Aramaic"
   },
   {
-    "name": "Baṭḥari",
-    "iso": "ba-ari",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Modern South Arabian"
-  },
-  {
     "name": "Bathari",
     "iso": "bathari",
     "region": "Middle East",
@@ -14161,12 +14305,11 @@
     "family": "Modern South Arabian"
   },
   {
-    "name": "Beja",
-    "iso": "beja",
-    "region": "Horn of Africa",
+    "name": "Baṭḥari",
+    "iso": "ba-ari",
+    "region": "Middle East",
     "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Beja_language",
-    "family": "Cushitic"
+    "family": "Modern South Arabian"
   },
   {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -14251,20 +14394,6 @@
     ]
   },
   {
-    "name": "Chadian Arabic",
-    "iso": "chadian-arabic",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Chaha",
-    "iso": "chaha",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "Outer"
-  },
-  {
     "name": "Chaldean Neo-Aramaic",
     "iso": "chaldean-neo-aramaic",
     "region": "Middle East",
@@ -14316,18 +14445,6 @@
     ]
   },
   {
-    "name": "Coptic",
-    "iso": "coptic",
-    "region": "North Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Coptic_language",
-    "family": "Egyptian",
-    "tags": [
-      "historical",
-      "extinct"
-    ]
-  },
-  {
     "name": "Corfiot Maltese",
     "iso": "corfiot-maltese",
     "region": "Middle East",
@@ -14362,102 +14479,6 @@
     ]
   },
   {
-    "name": "Dahalik",
-    "iso": "dahalik",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dahalik_language",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Harari",
-    "iso": "harari",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Harari_language",
-    "family": "Harari-Argobba Ethio-Semitic"
-  },
-  {
-    "name": "Harari-East Gurage",
-    "iso": "harari-east-gurage",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "Harari-Argobba Ethio-Semitic"
-  },
-  {
-    "name": "Inneqor",
-    "iso": "inneqor",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "Gurage"
-  },
-  {
-    "name": "Inor",
-    "iso": "inor",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Inor_language",
-    "family": "West Gurage"
-  },
-  {
-    "name": "Mesmes",
-    "iso": "mesmes",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mesmes_language",
-    "family": "West Gurage",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Mesqan",
-    "iso": "mesqan",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mesqan_language",
-    "family": "West Gurage"
-  },
-  {
-    "name": "Muher",
-    "iso": "muher",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Muher_language",
-    "family": "West Gurage"
-  },
-  {
-    "name": "Sebat Bet",
-    "iso": "sebat-bet",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "West Gurage"
-  },
-  {
-    "name": "Sebat Bet Gurage",
-    "iso": "sebat-bet-gurage",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sebat_Bet_Gurage_language",
-    "family": "West Gurage"
-  },
-  {
-    "name": "Tigre",
-    "iso": "tigre",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tigre_language",
-    "family": "North Ethiopic"
-  },
-  {
-    "name": "Tigrinya",
-    "iso": "tigrinya",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tigrinya_language",
-    "family": "North Ethiopic"
-  },
-  {
     "name": "Maghrebi Arabic",
     "iso": "maghrebi-arabic",
     "region": "Middle East",
@@ -14487,24 +14508,6 @@
     "tags": [
       "extinct"
     ]
-  },
-  {
-    "name": "Ulbare",
-    "iso": "ulbare",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "West Gurage"
-  },
-  {
-    "name": "West Gurage",
-    "iso": "west-gurage",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gurage_languages",
-    "tags": [
-      "family"
-    ],
-    "family": "Gurage"
   },
   {
     "name": "West Semitic",
@@ -14545,6 +14548,14 @@
     "iso": "western-neo-aramaic",
     "region": "Middle East",
     "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Western_Neo-Aramaic",
+    "family": "Western Aramaic"
+  },
+  {
+    "name": "Western Neo-Aramaic",
+    "iso": "western-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
     "family": "Western Neo-Aramaic"
   },
   {
@@ -14556,21 +14567,6 @@
     "tags": [
       "dialect"
     ]
-  },
-  {
-    "name": "Wolaitta",
-    "iso": "wolaitta",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wolaitta_language",
-    "family": "Omotic"
-  },
-  {
-    "name": "Wolane",
-    "iso": "wolane",
-    "region": "Horn of Africa",
-    "category": "Afroasiatic",
-    "family": "Gurage"
   },
   {
     "name": "Yafi'i Arabic",
@@ -16108,6 +16104,18 @@
     "category": "Afroasiatic"
   },
   {
+    "name": "Coptic",
+    "iso": "coptic",
+    "region": "North Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coptic_language",
+    "family": "Egyptian",
+    "tags": [
+      "historical",
+      "extinct"
+    ]
+  },
+  {
     "name": "Douiret language",
     "iso": "douiret",
     "region": "North Africa",
@@ -16365,6 +16373,14 @@
     "family": "Algonquian"
   },
   {
+    "name": "Cahuilla",
+    "iso": "cahuilla",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cahuilla_language",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Cherokee",
     "iso": "cherokee",
     "region": "North America",
@@ -16391,6 +16407,22 @@
     "region": "North America",
     "category": "Romance",
     "family": "Venetian"
+  },
+  {
+    "name": "Comanche",
+    "iso": "comanche",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Comanche_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Cora",
+    "iso": "cora",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cora_language",
+    "family": "Uto-Aztecan"
   },
   {
     "name": "Cree",
@@ -16470,99 +16502,11 @@
     "family": "Uto-Aztecan"
   },
   {
-    "name": "O'odham",
-    "iso": "oodham",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/O%27odham_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Tarahumara",
-    "iso": "tarahumara",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tarahumara_language",
-    "family": "Uto-Aztecan"
-  },
-  {
     "name": "Huichol",
     "iso": "huichol",
     "region": "North America",
     "category": "Uto-Aztecan",
     "wikipedia": "https://en.wikipedia.org/wiki/Huichol_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Cahuilla",
-    "iso": "cahuilla",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cahuilla_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Shoshoni",
-    "iso": "shoshoni",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Shoshoni_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Comanche",
-    "iso": "comanche",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Comanche_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Ute",
-    "iso": "ute",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ute_dialect",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Pima Bajo",
-    "iso": "pima-bajo",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Pima_Bajo_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Southern Tepehuan",
-    "iso": "southern-tepehuan",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Mayo",
-    "iso": "mayo",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mayo_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Cora",
-    "iso": "cora",
-    "region": "North America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cora_language",
-    "family": "Uto-Aztecan"
-  },
-  {
-    "name": "Pipil (Nawat)",
-    "iso": "pipil",
-    "region": "Central America",
-    "category": "Uto-Aztecan",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nawat_language_(typological_overview)",
     "family": "Uto-Aztecan"
   },
   {
@@ -16613,6 +16557,14 @@
     ]
   },
   {
+    "name": "Mayo",
+    "iso": "mayo",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mayo_language",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Métis French",
     "iso": "m-tis-french",
     "region": "North America",
@@ -16638,28 +16590,6 @@
     "category": "Algic",
     "wikipedia": "https://en.wikipedia.org/wiki/Mi%27kmaq_language",
     "family": "Algic"
-  },
-  {
-    "name": "Wiyot",
-    "iso": "wiyot",
-    "region": "North America",
-    "category": "Algic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wiyot_language",
-    "family": "Algic",
-    "tags": [
-      "extinct"
-    ]
-  },
-  {
-    "name": "Yurok",
-    "iso": "yurok",
-    "region": "North America",
-    "category": "Algic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Yurok_language",
-    "family": "Algic",
-    "tags": [
-      "extinct"
-    ]
   },
   {
     "name": "Missouri French",
@@ -16743,12 +16673,28 @@
     ]
   },
   {
+    "name": "O'odham",
+    "iso": "oodham",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/O%27odham_language",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Ojibwe",
     "iso": "ojibwe",
     "region": "North America",
     "category": "Algonquian",
     "wikipedia": "https://en.wikipedia.org/wiki/Ojibwe_language",
     "family": "Algonquian"
+  },
+  {
+    "name": "Pima Bajo",
+    "iso": "pima-bajo",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pima_Bajo_language",
+    "family": "Uto-Aztecan"
   },
   {
     "name": "Quebec French",
@@ -16771,6 +16717,30 @@
     "family": "Salishan"
   },
   {
+    "name": "Shoshoni",
+    "iso": "shoshoni",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoshoni_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Southern Tepehuan",
+    "iso": "southern-tepehuan",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tepehu%C3%A1n_language",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Tarahumara",
+    "iso": "tarahumara",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tarahumara_language",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Tlingit",
     "iso": "tlingit",
     "region": "North America",
@@ -16779,12 +16749,42 @@
     "family": "Na-Dene"
   },
   {
+    "name": "Ute",
+    "iso": "ute",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ute_dialect",
+    "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Wiyot",
+    "iso": "wiyot",
+    "region": "North America",
+    "category": "Algic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wiyot_language",
+    "family": "Algic",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Yaqui",
     "iso": "yaqui",
     "region": "North America",
     "category": "Uto-Aztecan",
     "wikipedia": "https://en.wikipedia.org/wiki/Yaqui_language",
     "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Yurok",
+    "iso": "yurok",
+    "region": "North America",
+    "category": "Algic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yurok_language",
+    "family": "Algic",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Abaga",
@@ -20931,6 +20931,14 @@
     "lexifier": "English"
   },
   {
+    "name": "Huilliche",
+    "iso": "huilliche",
+    "region": "South America",
+    "category": "Araucanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Huilliche_language",
+    "family": "Araucanian"
+  },
+  {
     "name": "Kichwa",
     "iso": "kichwa",
     "region": "South America",
@@ -20962,14 +20970,6 @@
     "region": "South America",
     "category": "Araucanian",
     "wikipedia": "https://en.wikipedia.org/wiki/Mapuche_language",
-    "family": "Araucanian"
-  },
-  {
-    "name": "Huilliche",
-    "iso": "huilliche",
-    "region": "South America",
-    "category": "Araucanian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Huilliche_language",
     "family": "Araucanian"
   },
   {

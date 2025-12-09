@@ -13,14 +13,14 @@
 // This is a dev-only tool; it does not affect the in-browser generator.
 //
 // Usage examples (from project root):
-//   node tools/check-namebase-lengths.js --count=80
-//   node tools/check-namebase-lengths.js --base=0,1,6,14,27,353,354 --count=80 --seed=1 --show-all
+//   node tools/mixer-namebases/check-namebase-lengths.js --count=80
+//   node tools/mixer-namebases/check-namebase-lengths.js --base=0,1,6,14,27,353,354 --count=80 --seed=1 --show-all
 
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "..", "..");
 
 function loadSandboxWithNames() {
   const sandbox = {
@@ -50,6 +50,14 @@ function loadSandboxWithNames() {
 
   const bases = sandbox.window && sandbox.window.defaultNameBases;
   const Names = sandbox.window && sandbox.window.Names;
+
+  // Ensure the Markov generator sees the same bases as the UI.
+  // In the browser, nameBases is wired from defaultNameBases; we mirror that here
+  // so Names.getBase uses the correct source.
+  if (Array.isArray(bases)) {
+    if (!sandbox.nameBases) sandbox.nameBases = bases;
+    if (!sandbox.window.nameBases) sandbox.window.nameBases = bases;
+  }
 
   if (!Array.isArray(bases)) {
     throw new Error("defaultNameBases not populated in sandbox");
@@ -198,7 +206,7 @@ function parseArgs(argv) {
 }
 
 function printUsage() {
-  console.log("Usage: node tools/check-namebase-lengths.js [options]\n");
+  console.log("Usage: node tools/mixer-namebases/check-namebase-lengths.js [options]\n");
   console.log("Options:");
   console.log("  --base=IDX[,IDX...]   Optional subset of base indices to check.");
   console.log("  --count=N            How many generated names per base (default 80).");
@@ -206,8 +214,10 @@ function printUsage() {
   console.log("  --show-all           Print stats for all checked bases, not just outliers.");
   console.log("  --help, -h           Show this help.\n");
   console.log("Examples:");
-  console.log("  node tools/check-namebase-lengths.js --count=80");
-  console.log("  node tools/check-namebase-lengths.js --base=0,1,6,14,27,353,354 --count=80 --seed=1 --show-all");
+  console.log("  node tools/mixer-namebases/check-namebase-lengths.js --count=80");
+  console.log(
+    "  node tools/mixer-namebases/check-namebase-lengths.js --base=0,1,6,14,27,353,354 --count=80 --seed=1 --show-all",
+  );
 }
 
 function main() {

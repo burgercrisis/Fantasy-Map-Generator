@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "..", "..");
 const file = path.join(root, "config", "language-mixes.json");
 
 const raw = fs.readFileSync(file, "utf8").replace(/^\uFEFF/, "");

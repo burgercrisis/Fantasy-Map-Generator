@@ -14,7 +14,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const root = __dirname ? path.resolve(__dirname, "..") : process.cwd();
+const root = __dirname ? path.resolve(__dirname, "..", "..") : process.cwd();
 
 function readJson(relativePath) {
   const full = path.join(root, relativePath);
