@@ -16,6 +16,8 @@ Planned:
 
 - [Add a full on 3.5, pathfinder and 5.0 dnd character generation system implemented into the individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Characters.md)
 
+- [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
+
 - get gemini api working, maybe add more ai apis
 
 - improve everything

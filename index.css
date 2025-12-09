@@ -493,6 +493,7 @@ button.options:hover {
 
 input[type="color"] {
   -webkit-appearance: none;
+  appearance: none;
   cursor: pointer;
   border: 1px solid #a9a9a9;
 }
@@ -1455,6 +1456,7 @@ div.states div {
 div.states .biomeHabitability {
   width: 4em;
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 div.states > .statePopulation {
@@ -1678,6 +1680,7 @@ div.states > div.biomeArea {
 
 #militaryBody div.states > input {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 #militaryBody div.states > input,
@@ -1786,6 +1789,7 @@ div.editorLine {
   width: 22px;
   font-size: 9px;
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 #pickerSpaces input::-webkit-inner-spin-button,

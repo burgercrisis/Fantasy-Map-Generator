@@ -789,7 +789,7 @@
     "name": "Bozo",
     "iso": "bozo",
     "region": "Africa",
-    "category": "Mande",
+    "category": "Niger-Congo",
     "family": "Mande"
   },
   {
@@ -935,6 +935,13 @@
     "region": "Africa",
     "category": "Niger-Congo",
     "family": "Niger-Congo"
+  },
+  {
+    "name": "Chadian Arabic",
+    "iso": "chadian-arabic",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Egypto-Sudanic"
   },
   {
     "name": "Chakato language",
@@ -2481,7 +2488,7 @@
     "name": "Ndebele",
     "iso": "ndebele",
     "region": "Africa",
-    "category": "Bantu",
+    "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Northern_Ndebele_language",
     "family": "Bantu"
   },
@@ -2805,7 +2812,7 @@
     "name": "Qwara",
     "iso": "qwara",
     "region": "Africa",
-    "category": "Semitic",
+    "category": "Afroasiatic",
     "family": "Semitic"
   },
   {
@@ -3134,6 +3141,14 @@
     "family": "Chadic"
   },
   {
+    "name": "Tetserret",
+    "iso": "tetserret",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetserret_language",
+    "family": "Western Berber"
+  },
+  {
     "name": "Tetserret language",
     "iso": "tetserret-language",
     "region": "Africa",
@@ -3379,6 +3394,17 @@
     "family": "Chadic"
   },
   {
+    "name": "Zenaga",
+    "iso": "zenaga",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zenaga_language",
+    "family": "Western Berber",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Zenaga language",
     "iso": "zenaga-language",
     "region": "Africa",
@@ -3458,6 +3484,27 @@
     "region": "Africa",
     "category": "Kx'a",
     "family": "Kx'a"
+  },
+  {
+    "name": "Acadian",
+    "iso": "acadian",
+    "region": "Americas",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Brayon",
+    "iso": "brayon",
+    "region": "Americas",
+    "category": "Romance",
+    "family": "Canadian"
+  },
+  {
+    "name": "Canadian French",
+    "iso": "canadian-french",
+    "region": "Americas",
+    "category": "Romance",
+    "family": "Canadian"
   },
   {
     "name": "Akkadian",
@@ -5036,8 +5083,8 @@
     "name": "Kra",
     "iso": "kra",
     "region": "Asia",
-    "category": "Austroasiatic",
-    "family": "Bahnaric",
+    "category": "Tai-Kadai",
+    "family": "Kra",
     "tags": [
       "family"
     ]
@@ -5604,6 +5651,14 @@
     "category": "Austroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Mundari_language",
     "family": "Munda"
+  },
+  {
+    "name": "Muong",
+    "iso": "muong",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muong_language",
+    "family": "Vietic"
   },
   {
     "name": "Muria",
@@ -8021,7 +8076,7 @@
     "iso": "proto-georgian-zan",
     "region": "Caucasus",
     "category": "Kartvelian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Georgian–Zan_languages",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georgian%E2%80%93Zan_languages",
     "family": "Proto-Georgian–Zan",
     "tags": [
       "proto",
@@ -10098,7 +10153,7 @@
     "iso": "proto-uralic",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Extinct/Unclassified",
+    "family": "Uralic",
     "tags": [
       "extinct",
       "proto",
@@ -10932,15 +10987,8 @@
     "tags": [
       "italo-dalmatian",
       "neapolitan",
-      "abruzzo"
+      "basilicata"
     ]
-  },
-  {
-    "name": "Acadian",
-    "iso": "acadian",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
   },
   {
     "name": "Aeolian",
@@ -11278,13 +11326,6 @@
     "family": "Oïl Dialects"
   },
   {
-    "name": "Brayon",
-    "iso": "brayon",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
-  },
-  {
     "name": "Breton",
     "iso": "breton",
     "region": "Europe",
@@ -11377,13 +11418,6 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Sardinian"
-  },
-  {
-    "name": "Canadian French",
-    "iso": "canadian-french",
-    "region": "Europe",
-    "category": "Romance",
-    "family": "Canadian"
   },
   {
     "name": "Canarian",
@@ -12218,7 +12252,8 @@
     "region": "Europe",
     "wikipedia": "https://en.wikipedia.org/wiki/Latin",
     "tags": [
-      "classical"
+      "classical",
+      "historical"
     ],
     "family": "Romance"
   },
@@ -12617,7 +12652,8 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
     "family": "Eastern South Slavic",
     "tags": [
-      "historical"
+      "historical",
+      "extinct"
     ]
   },
   {
@@ -13604,6 +13640,13 @@
     "family": "Cushitic"
   },
   {
+    "name": "Chaha",
+    "iso": "chaha",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Outer"
+  },
+  {
     "name": "Dahalik",
     "iso": "dahalik",
     "region": "Horn of Africa",
@@ -13829,7 +13872,7 @@
     "name": "Comorian",
     "iso": "comorian",
     "region": "Indian Ocean",
-    "category": "Bantu",
+    "category": "Niger-Congo",
     "wikipedia": "https://en.wikipedia.org/wiki/Comorian_language",
     "family": "Bantu"
   },
@@ -14318,21 +14361,10 @@
     "iso": "central-semitic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Semitic"
-  },
-  {
-    "name": "Chadian Arabic",
-    "iso": "chadian-arabic",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Egypto-Sudanic"
-  },
-  {
-    "name": "Chaha",
-    "iso": "chaha",
-    "region": "Middle East",
-    "category": "Afroasiatic",
-    "family": "Outer"
+    "family": "Semitic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Chaldean Neo-Aramaic",
@@ -14455,7 +14487,10 @@
     "iso": "west-semitic",
     "region": "Middle East",
     "category": "Afroasiatic",
-    "family": "Semitic"
+    "family": "Semitic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Western Egyptian Bedawi Arabic",
@@ -14480,6 +14515,14 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Middle Aramaic"
+  },
+  {
+    "name": "Western Neo-Aramaic",
+    "iso": "western-neo-aramaic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Western_Neo-Aramaic",
+    "family": "Western Aramaic"
   },
   {
     "name": "Western Neo-Aramaic",
@@ -16039,7 +16082,11 @@
     "region": "North Africa",
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Coptic_language",
-    "family": "Egyptian"
+    "family": "Egyptian",
+    "tags": [
+      "historical",
+      "extinct"
+    ]
   },
   {
     "name": "Douiret language",
@@ -16863,7 +16910,10 @@
     "iso": "bali-sasak-sumbawa",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Bami",
@@ -17112,7 +17162,10 @@
     "iso": "bungku-tolaki",
     "region": "Pacific",
     "category": "Austronesian",
-    "family": "Austronesian"
+    "family": "Austronesian",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Bunun",
@@ -20496,21 +20549,30 @@
     "iso": "sal",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "family": "Sino-Tibetan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Siangic",
     "iso": "siangic",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "family": "Sino-Tibetan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Sinitic",
     "iso": "sinitic",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
-    "family": "Sino-Tibetan"
+    "family": "Sino-Tibetan",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Sino Tibetan Family",
@@ -21062,7 +21124,8 @@
     "category": "Creole",
     "family": "Portuguese-based",
     "tags": [
-      "creole"
+      "creole",
+      "family"
     ],
     "lexifier": "Portuguese"
   },
@@ -21139,7 +21202,8 @@
     "category": "Creole",
     "family": "Portuguese-based",
     "tags": [
-      "creole"
+      "creole",
+      "family"
     ],
     "lexifier": "Portuguese"
   }

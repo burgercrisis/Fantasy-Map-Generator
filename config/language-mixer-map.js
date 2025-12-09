@@ -532,6 +532,12 @@
     ]
   },
   {
+    "iso": "western-neo-aramaic",
+    "bases": [
+      23
+    ]
+  },
+  {
     "iso": "armenian",
     "bases": [
       224
@@ -599,6 +605,18 @@
   },
   {
     "iso": "atlas-berber",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "zenaga",
+    "bases": [
+      17
+    ]
+  },
+  {
+    "iso": "tetserret",
     "bases": [
       17
     ]
@@ -10408,6 +10426,18 @@
   },
   {
     "iso": "yeniseian",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "southern-yukaghir",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "tundra-yukaghir",
     "bases": [
       19
     ]
@@ -20685,6 +20715,48 @@
   },
   {
     "iso": "vie",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-central",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-hue",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-china",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-us",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-northern",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "vie-southern",
+    "bases": [
+      29
+    ]
+  },
+  {
+    "iso": "muong",
     "bases": [
       29
     ]

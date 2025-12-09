@@ -79,19 +79,19 @@ const raceLanguageProfiles = {
   },
   Dwarf: {
     categories: ["Germanic", "Celtic", "Slavic"],
-    families: ["Germanic", "Slavic", "Baltic", "Uralic"]
+    families: ["Germanic", "Slavic", "Baltic"]
   },
   Halfling: {
     categories: ["Germanic", "Celtic", "Romance"],
     families: ["Germanic", "Celtic", "Romance"]
   },
   Gnome: {
-    categories: ["Germanic", "Celtic", "Uralic"],
-    families: ["Germanic", "Celtic", "Uralic"]
+    categories: ["Germanic", "Celtic"],
+    families: ["Germanic", "Celtic"]
   },
   "Half-Elf": {
     categories: ["Romance", "Germanic", "Celtic"],
-    families: ["Romance", "Germanic", "Celtic", "Uralic"]
+    families: ["Romance", "Germanic", "Celtic"]
   },
   "Half-Orc": {
     categories: ["Slavic", "Afroasiatic"],
@@ -139,16 +139,16 @@ const raceLanguageProfiles = {
     families: ["Afroasiatic", "Semitic"]
   },
   Serpent: {
-    categories: ["Sino-Tibetan", "Indo-Aryan", "Dravidian"],
-    families: ["Sino-Tibetan", "Indo-Aryan", "Dravidian"]
+    categories: ["Indo-Aryan", "Dravidian"],
+    families: ["Indo-Aryan", "Dravidian"]
   },
   Tiefling: {
     categories: ["Afroasiatic"],
     families: ["Romance", "Semitic", "Arabic"]
   },
   Aasimar: {
-    categories: ["Romance", "Germanic"],
-    families: ["Romance", "Germanic", "Semitic"]
+    categories: ["Romance"],
+    families: ["Romance", "Semitic", "Arabic"]
   },
   Hobgoblin: {
     categories: ["Slavic", "Germanic"],
@@ -191,8 +191,6 @@ const raceLanguageProfiles = {
   },
   Tabaxi: {
     categories: [
-      "Niger-Congo",
-      "Afroasiatic",
       "Tupian",
       "Quechuan",
       "Ticuna–Yuri",
@@ -201,14 +199,9 @@ const raceLanguageProfiles = {
       "Arawakan",
       "Aymaran",
       "Araucanian",
-      "Oto-Manguean",
-      "Iroquoian",
-      "Misumalpan"
+      "Oto-Manguean"
     ],
     families: [
-      "Niger-Congo",
-      "Bantu",
-      "Afroasiatic",
       "Tupian",
       "Quechuan",
       "Ticuna–Yuri",
@@ -268,19 +261,19 @@ const raceLanguageProfiles = {
   },
   "Yuan-ti": {
     categories: ["Sino-Tibetan", "Tai-Kadai"],
-    families: ["Sino-Tibetan", "Tai-Kadai", "Dravidian"]
+    families: ["Sino-Tibetan", "Tai-Kadai"]
   },
   Firbolg: {
     categories: ["Celtic", "Germanic"],
     families: ["Celtic", "Germanic", "Uralic", "Sami"]
   },
   Gith: {
-    categories: ["Sino-Tibetan", "Uralic", "Turkic", "Mongolic"],
-    families: ["Sino-Tibetan", "Uralic", "Turkic", "Mongolic"]
+    categories: ["Sino-Tibetan", "Turkic", "Mongolic"],
+    families: ["Sino-Tibetan", "Turkic", "Mongolic"]
   },
   Genasi: {
     categories: ["Indo-Aryan", "Iranian"],
-    families: ["Indo-Aryan", "Iranian", "Indo-Iranian", "Dravidian"]
+    families: ["Indo-Aryan", "Iranian", "Indo-Iranian"]
   },
   Changeling: {
     categories: ["Romance", "Germanic", "Slavic"],
@@ -291,16 +284,16 @@ const raceLanguageProfiles = {
     families: ["Celtic", "Romance", "Sardinian", "Tuscan", "Neapolitan"]
   },
   Minotaur: {
-    categories: ["Greek", "Romance", "Iranian"],
-    families: ["Romance", "Sardinian", "Tuscan", "Neapolitan", "Indo-European"]
+    categories: ["Greek", "Romance"],
+    families: ["Greek", "Romance", "Sardinian", "Tuscan", "Neapolitan", "Indo-European"]
   },
   Kalashtar: {
     categories: ["Indo-Aryan", "Iranian"],
-    families: ["Indo-Aryan", "Iranian", "Indo-Iranian", "Dravidian", "Punjabi–Lahnda"]
+    families: ["Indo-Aryan", "Iranian", "Indo-Iranian", "Punjabi–Lahnda"]
   },
   Kobold: {
-    categories: ["Slavic", "Sino-Tibetan", "Turkic", "Japonic", "Koreanic"],
-    families: ["Slavic", "Germanic", "Sino-Tibetan", "Tai-Kadai", "Japonic", "Koreanic"]
+    categories: ["Sino-Tibetan", "Tai-Kadai", "Japonic", "Koreanic"],
+    families: ["Sino-Tibetan", "Tai-Kadai", "Japonic", "Koreanic"]
   },
   Duergar: {
     categories: ["Germanic", "Slavic"],
@@ -311,8 +304,8 @@ const raceLanguageProfiles = {
     families: ["Slavic", "Romani", "Baltic"]
   },
   Reborn: {
-    categories: ["Slavic", "Germanic", "Sino-Tibetan", "Unclassified"],
-    families: ["Slavic", "Germanic", "Sino-Tibetan", "Romani", "Unclassified"]
+    categories: ["Slavic", "Germanic", "Unclassified"],
+    families: ["Slavic", "Germanic", "Romani", "Unclassified"]
   },
   "Shadar-kai": {
     categories: ["Slavic", "Germanic"],
@@ -323,8 +316,8 @@ const raceLanguageProfiles = {
     families: ["Slavic", "Germanic", "Baltic", "Romani", "Celtic"]
   },
   Centaur: {
-    categories: ["Greek", "Romance", "Iranian"],
-    families: ["Romance", "Sardinian", "Tuscan", "Neapolitan"]
+    categories: ["Greek", "Iranian"],
+    families: ["Greek", "Iranian", "Sardinian", "Tuscan", "Neapolitan"]
   },
   Leonin: {
     categories: [
@@ -347,12 +340,12 @@ const raceLanguageProfiles = {
     ]
   },
   Loxodon: {
-    categories: ["Indo-Aryan", "Dravidian"],
-    families: ["Indo-Aryan", "Dravidian", "Marathi–Konkani", "Bihari"]
+    categories: ["Dravidian"],
+    families: ["Dravidian", "Marathi–Konkani", "Bihari"]
   },
   Harengon: {
-    categories: ["Celtic", "Germanic", "Romance"],
-    families: ["Celtic", "Germanic", "Uralic", "Sami", "Romance"]
+    categories: ["Celtic", "Germanic", "Uralic"],
+    families: ["Celtic", "Germanic", "Uralic", "Sami"]
   },
   Tortle: {
     categories: ["Austronesian", "Papuan", "Australian Aboriginal"],

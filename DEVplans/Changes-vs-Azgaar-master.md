@@ -127,13 +127,21 @@ A large set of maintenance scripts under `tools/` has been added or expanded. Hi
 - **Quality & coverage reports:**
   - `check-language-mixer-coverage.js`, `check-special-families.js`.
   - `report-language-mixer-duplicates.js`, `report-language-mixer-name-counts.js`, `report-namebase-duplicates.js`.
-  - `report-race-language-coverage.js` to compare race profiles with language availability.
+  - `report-race-language-coverage.js`, `report-per-race-language-coverage.js`, and `report-race-language-palettes.js` to compare race profiles with language availability and palette breadth.
 
-- **Mixer tooling:**
+- **Mixer tooling & orchestrators:**
   - `generate-language-mixer.js` and `run-language-mixer-suite.js` to build/import/update language mixer data and run a full maintenance pipeline.
+  - `run-language-mixer-health.js` as a **read‑only diagnostics orchestrator** (family drift, coverage, mapping failures, duplicate languages, base clusters). Exposed via the `mixer:health` npm script.
   - `dedupe-namebase-duplicates.js` and `fix-language-mixer-mappings.js` to clean and normalize data.
 
-Compared to upstream, this fork includes a **much richer internal toolbox** for keeping language and race data consistent, deduplicated, and well‑covered.
+- **Race tooling & orchestrators:**
+  - `run-race-language-suite.js` to run `check-race-language-profiles.js`, `report-per-race-language-coverage.js`, `report-race-language-coverage.js`, and `report-race-language-palettes.js` in one go. Exposed via the `mixer:race-suite` npm script.
+
+- **Recommended QA cadence (this fork vs upstream):**
+  - Run `pnpm run mixer:health` **after each substantial mixer edit or family batch** (e.g. a Romance or Uralic pass), and at least **once per mixer‑editing session** before committing.
+  - Run `pnpm run mixer:race-suite` **after each change to raceLanguageProfiles or race definitions**, and at minimum **before any release** or major world‑building milestone that touches races.
+
+Compared to upstream, this fork includes a **much richer internal toolbox** for keeping language and race data consistent, deduplicated, and well‑covered, plus explicit QA workflows wired into npm scripts.
 
 ---
 

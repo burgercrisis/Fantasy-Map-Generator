@@ -182,6 +182,51 @@ Use this when balancing coverage (e.g. finding languages with very few names or 
 
 ---
 
+### `generate-language-samples.js`
+
+**Purpose**
+
+Ad-hoc mixer generator for inspecting **sample names** by language ISO or by raw base indices. Useful for quickly validating new mappings (e.g. Kx'a click+tone bases) and, with `--analyze-lengths`, for tuning **placename length settings** (`min` / `max`) per base.
+
+**Inputs**
+
+- `config/language-mixer-map.json`
+- `config/language-mixes.json`
+- `modules/namebases-real.js`, `modules/namebases-fantasy.js`, `modules/namebases-creole.js`, `modules/namebases-all.js`
+
+**Outputs**
+
+- Console samples grouped by base index.
+- When `--analyze-lengths` is set, per-base length statistics and **suggested** `min` / `max` values. This script is read-only; it does **not** modify any files.
+
+**Usage**
+
+```bash
+# Generate 10 samples per mapped base for a mixer language
+node tools/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1
+
+# Generate 40 samples cycling between specific bases
+node tools/generate-language-samples.js --base=353,354 --count=40 --seed=42
+
+# Placename / length analysis for a mixer language
+node tools/generate-language-samples.js --iso=kx-ao-ae --per-base=100 --analyze-lengths
+
+# Placename / length analysis for raw bases
+node tools/generate-language-samples.js --base=353,354 --count=200 --analyze-lengths
+```
+
+Key options:
+
+- `--iso=ID` – generate via mixer ISO (e.g. `amkoe`, `ekoka-kung`, `vie-central`), printing a block per mapped base.
+- `--base=IDX[,IDX...]` – generate directly from one or more base indices (the `i` values from `namebases-*.js`).
+- `--per-base=N` – when using `--iso`, number of names to print **and** (with `--analyze-lengths`) number of samples per base for length stats (default `10`).
+- `--count=N` – when using `--base`, total number of names to generate across all bases (default `20`).
+- `--seed=INT` – seed for deterministic output.
+- `--min=INT`, `--max=INT` – temporary overrides for length during generation (useful for experimenting with placename length ranges without editing namebases).
+- `--analyze-lengths` – additionally compute and print per-base length distribution (min, max, mean, quartiles) and **suggested** `min` / `max` values you can copy back into `modules/namebases-*.js` for more realistic placename lengths.
+
+---
+
 ### `generate-language-mixer.js`
 
 **Purpose**
@@ -1207,3 +1252,13 @@ pnpm run mixer:health
   For individual reports:
   - Coverage summary: `pnpm run mixer:race-coverage`
   - Per-race counts: `pnpm run mixer:race-per-coverage`
+
+### Mixer & Race QA Checklist (before commit / release)
+
+- **If you changed mixer catalog, mapping, or mixer helpers**  
+  - Run `pnpm run mixer:health` and address any reported issues (family drift, coverage gaps, mapping failures, suspicious duplicates, over-dense base clusters).
+  - Rebuild bundles if mixer data changed: `pnpm run generate:language-mixer`.
+
+- **If you changed races or raceLanguageProfiles**  
+  - Run `pnpm run mixer:race-suite` and fix any reported profile or coverage issues before committing.
+  - Optionally rerun `pnpm run mixer:race-suite` before tagging a release or world-building milestone that touches races.

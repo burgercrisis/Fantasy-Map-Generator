@@ -431,8 +431,8 @@ interface RelationshipEvent extends HistoryEventMeta {
   // Usually 2 people, but keep it flexible for groups/factions.
   personIds: PersonId[];
 
-  // Optional numeric strength for systems that want it (0..1 or 0..100)
-  strength?: number;
+  // 0..100 numeric strength; higher = stronger bond or hostility (see tiers below)
+  strength?: number; // default thresholds and behavior rules defined in systems section
 
   description?: string; // short human-readable summary
 
@@ -512,7 +512,12 @@ interface Storyline {
   - Ruler life events (accession, marriage, abdication, death) are also stored as Individuals `LifeEvent`s.
 - Succession rules & crises:
   - Each culture/state chooses a **succession preset** (e.g. primogeniture, elective, tanistry) from a small menu.
-  - Presets are backed by **scriptable rule definitions** in data (conditions, weights, tags) so advanced worlds/mods can customize behavior.
+  - Presets are backed by a **rich data DSL** in JSON (conditions, weights, tags) so behavior is transparent and editable without code.
+  - The DSL supports **complex predicates**:
+    - culture tags and subcultures,
+    - race and religion tags,
+    - relationship tiers/strengths between claimants and key figures.
+  - The data DSL is designed to be **forward-compatible** with optional internal script hooks later (e.g. advanced mod packs can plug in code-based rules on top, without breaking existing data), while keeping all logic fully deterministic and engine-local (no external AI calls).
   - When multiple strong claimants exist under the active rule, spawn special events:
     - Civil wars or contested wars tagged as succession conflicts.
     - Relationship events marking key rivalries and alliances.
@@ -558,6 +563,27 @@ interface Storyline {
 - These events:
   - Explain why some regions feel rich in ruins.
   - Provide hooks for stories, quests, or notes.
+
+### 4.6 Relationship dynamics & tiers
+
+- Relationship `strength` is interpreted on a **0–100 scale** and mapped into tiers:
+  - 0–24: acquaintance / distant.
+  - 25–49: **friend** / mild ally.
+  - 50–74: **close friend** / strong ally.
+  - 75–89: **lover** / very strong ally.
+  - 90–100: **devoted** (soulmate, sworn brother, bitter arch-enemy if negative variants are ever added).
+- Tiers are the **main thing surfaced in UI** (names, icons, and color), with numeric strength shown only in detailed views.
+- Basic behavior rules (configurable per culture / race / religion / world):
+  - Certain event types **require minimum tiers**:
+    - Marriage / formal lover status requires at least the **lover** tier.
+    - Blood-oath allies require **close friend** or higher.
+  - If strength drops **below the minimum tier** for a relationship type:
+    - There is a seeded chance each tick for that relationship to **cool or break** (e.g. lovers separating, friends drifting apart).
+    - Some arcs may resist breaking (e.g. political marriages, dynastic alliances).
+  - Positive events (shared victories, gifts, rescues) tend to **raise strength**.
+  - Negative events (betrayal, dishonor, rival claims) tend to **lower strength** and may spawn or strengthen **rival** arcs instead.
+- Cultures/races/religions can **tune thresholds** slightly (e.g. some treat "lover" at 60+, others at 80+), and the succession DSL can read these tiers when evaluating claimants.
+- Storylines usually consist of **2–5 events** for local drama, plus **frequent overlapping arcs** in dense worlds and occasional **long dynastic arcs** spanning many rulers and wars.
 
 ---
 
@@ -712,46 +738,21 @@ function advanceWorldYears(deltaYears: number): void; // history-core hooks in
 
 ## 9. Open Design Choices
 
-This section assumes the following **defaults** are chosen:
+This section records additional **high-level defaults** for how the system is exposed to users and modders:
 
-- Succession uses **per-culture presets** backed by **scriptable rules**.
-- Relationships form a **scored graph** and can cluster into **storylines/arcs**.
+- Succession uses **per-culture presets** backed by a **rich data DSL**, forward-compatible with optional internal script hooks later.
+- Relationships form a **0–100 scored graph** with **tiered labels** (friend, lover, sworn enemy, etc.) and basic behavior rules.
 - Battles/campaigns use a **hybrid** visibility model (timeline + map + blurbs).
 - Trade is a **rich route graph** modulated by per-world **scenario knobs**.
-- Tick UX is **advanced** (slider + optional auto-advance with pause rules).
-- Performance vs detail uses a **continuous slider**, not just three presets.
+- Tick UX is **advanced** (slider + optional auto-advance with pause rules), with **auto-advance off by default**.
+- Performance vs detail uses a **non-linear continuous slider**, not just three presets.
 - The history layer is a **toybox** with rich editing tools.
-
-The remaining choices are second-level dials on top of these defaults.
-
-- **[Succession scripting format]**
-  - Data DSL: succession rules expressed as structured JSON/DSL (conditions, weights, tags) with no executable code.
-  - Script hooks: allow limited scripted expressions (e.g. small JS snippets) for modders.
-  - Hybrid: core rules in data DSL, optional advanced hooks for scripts.
-
-- **[Relationship strength scale]**
-  - 0..1 float: simple, easy to combine with other probabilities.
-  - 0..100 integer: more intuitive for UI sliders/bars.
-  - Tiered: map numeric values into named tiers (acquaintance / friend / close friend / lover / sworn enemy) for UI.
-
-- **[Storyline structure]**
-  - Short arcs: 2–5 events per storyline, focused on local drama.
-  - Mixed: short arcs plus occasional long-running dynastic arcs.
-  - Long arcs: multi-generation epics spanning many rulers and wars.
-
-- **[Tick auto-advance defaults]**
-  - Off by default: user must explicitly enable auto-advance per session.
-  - On with conservative pauses: auto-advance until "big" events (wars, successions, storyline climaxes) then stop.
-  - Profile-based: presets like "Calm", "Busy", "Chaotic" that set which events can auto-skip.
-
-- **[Performance slider mapping]**
-  - Linear: slider value maps linearly to event budgets per century.
-  - Non-linear: low slider values keep things very quiet; high values explode into dense history.
-  - Per-system weighting: the single slider feeds a global budget but allocates differently to wars/battles/relationships/trade.
-
-- **[Editor priority]**
-  - War & border editor first: focus on drawing/editing conflicts and territorial changes.
-  - Rulers & dynasties editor first: focus on succession trees and titles.
-  - Relationship & storyline inspector first: focus on personal drama and arcs.
-  - Trade route editor first: focus on economic world-shaping.
+- First editor emphasis is on **wars & borders**, building on existing map/state structures; other editors (rulers, relationships, trade) follow.
+- The succession DSL is **rich**, with complex predicates using culture/race/religion tags and relationship tiers.
+- Relationship tier thresholds can be **tuned per culture/race/religion**, and those tiers are read by the succession DSL.
+- Storylines tend toward **dense, overlapping arcs** in deep worlds, with occasional long dynastic epics.
+- At large tick sizes, clusters of minor events are **summarized** into blurbs rather than all being shown individually.
+- **Modding surface area**: provide **in-editor tools** for editing a safe subset of DSL rules, thresholds, and scenario knobs, while keeping advanced/unsafe rules in JSON/DSL files only.
+- **Storyline tagging & filtering**: use **rich tags** (e.g. betrayal, exile, ruin, crusade, rebellion, plague) to enable fine-grained filters and overlays.
+- **Summarization style**: use **template-based blurbs** by default, with a **switch in the options panel** to fall back to data-only logs when desired; both modes are fully deterministic and rely only on internal scripting, not external AI.
 

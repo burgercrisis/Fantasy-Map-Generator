@@ -1,13 +1,15 @@
 "use strict";
 
 // Helper CLI to generate sample names from mixer entries or bases.
-//
+//@
 // Usage (from project root):
 //   node tools/generate-language-samples.js --iso=amkoe --per-base=10 [--seed=123]
 //   node tools/generate-language-samples.js --base=353,354 --count=30 [--seed=123]
-//
+//@
 // This is intended for quick inspection of language mixes, e.g. validating
-// new namebases or mixer mappings like Kx'a click+tone entries.
+// new namebases or mixer mappings like Kx'a click+tone entries. With
+// --analyze-lengths it can also act as a placename length tuner by printing
+// suggested min/max values per base based on generated samples.
 
 const fs = require("fs");
 const path = require("path");
@@ -151,65 +153,126 @@ function generateFromBaseConfig(baseConfig, rng, opts) {
     throw new Error("Namebase " + (baseConfig.i != null ? baseConfig.i : "?") + " is incorrect (no starting chain)");
   }
 
-  const min = opts && typeof opts.min === "number" ? opts.min : baseConfig.min;
-  const max = opts && typeof opts.max === "number" ? opts.max : baseConfig.max;
+  const requestedMin = opts && typeof opts.min === "number" ? opts.min : baseConfig.min;
+  const requestedMax = opts && typeof opts.max === "number" ? opts.max : baseConfig.max;
   const dupl = opts && typeof opts.dupl === "string" ? opts.dupl : baseConfig.d || "";
 
-  let v = chain[""];
-  let cur = ra(v, rng);
-  let w = "";
+  function generateOne(minLen, maxLen) {
+    let v = chain[""];
+    let cur = ra(v, rng);
+    let w = "";
 
-  for (let i = 0; i < 20; i++) {
-    if (cur === "") {
-      // end of word
-      if (w.length < min) {
-        cur = "";
-        w = "";
-        v = chain[""];
-      } else break;
-    } else {
-      if (w.length + cur.length > max) {
-        // word too long
-        if (w.length < min) w += cur;
-        break;
+    for (let i = 0; i < 20; i++) {
+      if (cur === "") {
+        // end of word
+        if (w.length < minLen) {
+          cur = "";
+          w = "";
+          v = chain[""];
+        } else break;
       } else {
-        v = chain[last(cur)] || chain[""];
+        if (w.length + cur.length > maxLen) {
+          // word too long
+          if (w.length < minLen) w += cur;
+          break;
+        } else {
+          v = chain[last(cur)] || chain[""];
+        }
       }
+
+      w += cur;
+      cur = ra(v, rng);
     }
 
-    w += cur;
-    cur = ra(v, rng);
+    const l = last(w); // last letter
+    if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
+
+    let name = [...w].reduce(function (r, c, i, d) {
+      if (c === d[i + 1] && !dupl.includes(c)) return r;
+      if (!r.length) return c.toUpperCase();
+      if (r.slice(-1) === "-" && c === " ") return r;
+      if (r.slice(-1) === " ") return r + c.toUpperCase();
+      if (r.slice(-1) === "-") return r + c.toUpperCase();
+      if (c === "a" && d[i + 1] === "e") return r;
+      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+      return r + c;
+    }, "");
+
+    if (name.split(" ").some(part => part.length < 2)) {
+      name = name
+        .split(" ")
+        .map((p, i) => (i ? p.toLowerCase() : p))
+        .join("");
+    }
+
+    if (name.length < 2) {
+      const seeds = (baseConfig.b || "").split(",").map(n => n.trim()).filter(Boolean);
+      name = seeds.length ? ra(seeds, rng) : name;
+    }
+
+    return name;
   }
 
-  // parse word to get a final name (adapted from Names.getBase)
-  const l = last(w); // last letter
-  if (l === "'" || l === " " || l === "-") w = w.slice(0, -1); // not allow some characters at the end
+  let name = generateOne(requestedMin, requestedMax);
 
-  let name = [...w].reduce(function (r, c, i, d) {
-    if (c === d[i + 1] && !dupl.includes(c)) return r; // duplication is not allowed
-    if (!r.length) return c.toUpperCase();
-    if (r.slice(-1) === "-" && c === " ") return r; // remove space after hyphen
-    if (r.slice(-1) === " ") return r + c.toUpperCase(); // capitalize letter after space
-    if (r.slice(-1) === "-") return r + c.toUpperCase(); // capitalize letter after hyphen
-    if (c === "a" && d[i + 1] === "e") return r; // "ae" => "e"
-    if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r; // remove three same letters in a row
-    return r + c;
-  }, "");
+  const isKxa = baseConfig.i === 353 || baseConfig.i === 354;
+  if (isKxa && typeof requestedMin === "number" && name.length < requestedMin) {
+    const targetMin = requestedMin;
+    const targetMax = requestedMax;
+    const segmentMin = baseConfig.min;
+    const segmentMax = baseConfig.max;
 
-  // join the word if any part has only 1 letter
-  if (name.split(" ").some(part => part.length < 2)) {
-    name = name
-      .split(" ")
-      .map((p, i) => (i ? p.toLowerCase() : p))
-      .join("");
-  }
+    const parts = [name];
+    let total = name.length;
+    let guard = 0;
 
-  if (name.length < 2) {
-    const seeds = (baseConfig.b || "").split(",").map(n => n.trim()).filter(Boolean);
-    name = seeds.length ? ra(seeds, rng) : name;
+    while (total < targetMin && guard < 5) {
+      const seg = generateOne(segmentMin, segmentMax);
+      parts.push(seg);
+      total += seg.length;
+      guard++;
+    }
+
+    const compound = parts.join("");
+    if (compound.length >= targetMin && compound.length <= targetMax) {
+      name = compound;
+    }
   }
 
   return name;
+}
+
+function computeLengthStats(names) {
+  const lengths = names
+    .map(n => (typeof n === "string" ? n.trim() : ""))
+    .filter(Boolean)
+    .map(n => n.length);
+
+  const count = lengths.length;
+  if (!count) return {count: 0};
+
+  lengths.sort((a, b) => a - b);
+  const minLen = lengths[0];
+  const maxLen = lengths[count - 1];
+  const sum = lengths.reduce((a, b) => a + b, 0);
+  const mean = sum / count;
+
+  const quantile = q => {
+    if (!count) return 0;
+    const idx = Math.floor(q * (count - 1));
+    return lengths[idx];
+  };
+
+  const p10 = quantile(0.1);
+  const p25 = quantile(0.25);
+  const p50 = quantile(0.5);
+  const p75 = quantile(0.75);
+  const p90 = quantile(0.9);
+
+  const suggestedMin = Math.max(2, p25);
+  const suggestedMax = Math.max(suggestedMin, p90);
+
+  return {count, minLen, maxLen, mean, p10, p25, p50, p75, p90, suggestedMin, suggestedMax};
 }
 
 function parseArgs(argv) {
@@ -239,8 +302,10 @@ function parseArgs(argv) {
     : [];
 
   const help = args.includes("--help") || args.includes("-h");
+  const analyzeLengths = args.includes("--analyze-lengths");
+  const printPatch = args.includes("--print-patch");
 
-  return {iso, baseIndices, count, perBase, seed, min, max, help};
+  return {iso, baseIndices, count, perBase, seed, min, max, analyzeLengths, printPatch, help};
 }
 
 function printUsage() {
@@ -254,7 +319,11 @@ function printUsage() {
   console.log("Other:");
   console.log("  --seed=INT            Seed for deterministic output.");
   console.log("  --min=INT             Override minimum length.");
-  console.log("  --max=INT             Override maximum length.\n");
+  console.log("  --max=INT             Override maximum length.");
+  console.log("  --analyze-lengths     Also print length stats and suggested min/max per base; useful for placename tuning.");
+  console.log(
+    "  --print-patch         With --analyze-lengths, also emit JSON min/max patch suggestions per base.\\n"
+  );
   console.log("Examples:");
   console.log("  node tools/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1");
   console.log("  node tools/generate-language-samples.js --iso=kx-ao-ae --per-base=10");
@@ -262,7 +331,9 @@ function printUsage() {
 }
 
 function main() {
-  const {iso, baseIndices, count, perBase, seed, min, max, help} = parseArgs(process.argv);
+  const {iso, baseIndices, count, perBase, seed, min, max, analyzeLengths, printPatch, help} = parseArgs(
+    process.argv
+  );
 
   if (help || (!iso && (!baseIndices || !baseIndices.length))) {
     printUsage();
@@ -299,6 +370,8 @@ function main() {
     const indices = entry.bases;
     const per = perBase && perBase > 0 ? perBase : 10;
 
+    const patches = analyzeLengths && printPatch ? [] : null;
+
     console.log(`=== Samples for ${iso} | ${lang.name || ""} ===`);
     console.log(`Mapped bases: ${indices.join(", ")}`);
     console.log("");
@@ -310,11 +383,58 @@ function main() {
         continue;
       }
       console.log(`-- Base ${idx} | ${baseConfig.name || "(unnamed)"} --`);
+      const samples = [];
       for (let i = 0; i < per; i++) {
         const name = generateFromBaseConfig(baseConfig, rng, overrides);
+        samples.push(name);
         console.log("  ", name);
       }
+      if (analyzeLengths) {
+        const stats = computeLengthStats(samples);
+        if (stats.count) {
+          console.log(
+            `  [lengths] count=${stats.count} min=${stats.minLen} max=${stats.maxLen} ` +
+              `mean=${stats.mean.toFixed(2)} p25=${stats.p25} p75=${stats.p75} p90=${stats.p90}`
+          );
+          console.log(
+            `  [suggested min/max] ${stats.suggestedMin}-${stats.suggestedMax} ` +
+              `(current: ${baseConfig.min}-${baseConfig.max})`
+          );
+          if (patches) {
+            const currentMin = baseConfig.min;
+            const currentMax = baseConfig.max;
+            if (
+              typeof currentMin === "number" &&
+              typeof currentMax === "number" &&
+              (currentMin !== stats.suggestedMin || currentMax !== stats.suggestedMax)
+            ) {
+              patches.push({
+                i: baseConfig.i,
+                name: baseConfig.name || null,
+                from: {min: currentMin, max: currentMax},
+                to: {min: stats.suggestedMin, max: stats.suggestedMax},
+                stats: {
+                  minLen: stats.minLen,
+                  maxLen: stats.maxLen,
+                  mean: Number(stats.mean.toFixed(2)),
+                  p25: stats.p25,
+                  p75: stats.p75,
+                  p90: stats.p90
+                }
+              });
+            }
+          }
+        } else {
+          console.log("  [lengths] no non-empty samples");
+        }
+      }
       console.log("");
+    }
+
+    if (patches && patches.length) {
+      console.log("");
+      console.log("=== Suggested min/max patch (JSON) ===");
+      console.log(JSON.stringify(patches, null, 2));
     }
 
     return;
@@ -335,10 +455,70 @@ function main() {
     console.log("=== Samples for bases:", baseIndices.join(", "), "===");
     console.log("");
 
+    const samplesByBase = analyzeLengths ? new Map() : null;
+    const patches = analyzeLengths && printPatch ? [] : null;
+
     for (let i = 0; i < total; i++) {
       const choice = resolvedBases[i % resolvedBases.length];
       const name = generateFromBaseConfig(choice.base, rng, overrides);
+      if (samplesByBase) {
+        if (!samplesByBase.has(choice.idx)) samplesByBase.set(choice.idx, []);
+        samplesByBase.get(choice.idx).push(name);
+      }
       console.log(`[${choice.idx}] ${name}`);
+    }
+
+    if (analyzeLengths) {
+      console.log("");
+      console.log("=== Length analysis ===");
+      for (const {idx, base} of resolvedBases) {
+        const samples = (samplesByBase && samplesByBase.get(idx)) || [];
+        const stats = computeLengthStats(samples);
+        if (!stats.count) {
+          console.log(`Base ${idx}: no non-empty samples`);
+          continue;
+        }
+        console.log(`Base ${idx} | ${base.name || "(unnamed)"}`);
+        console.log(
+          `  [lengths] count=${stats.count} min=${stats.minLen} max=${stats.maxLen} ` +
+            `mean=${stats.mean.toFixed(2)} p25=${stats.p25} p75=${stats.p75} p90=${stats.p90}`
+        );
+        console.log(
+          `  [suggested min/max] ${stats.suggestedMin}-${stats.suggestedMax} ` +
+            `(current: ${base.min}-${base.max})`
+        );
+
+        if (patches) {
+          const currentMin = base.min;
+          const currentMax = base.max;
+          if (
+            typeof currentMin === "number" &&
+            typeof currentMax === "number" &&
+            (currentMin !== stats.suggestedMin || currentMax !== stats.suggestedMax)
+          ) {
+            patches.push({
+              i: base.i,
+              name: base.name || null,
+              from: {min: currentMin, max: currentMax},
+              to: {min: stats.suggestedMin, max: stats.suggestedMax},
+              stats: {
+                minLen: stats.minLen,
+                maxLen: stats.maxLen,
+                mean: Number(stats.mean.toFixed(2)),
+                p25: stats.p25,
+                p75: stats.p75,
+                p90: stats.p90
+              }
+            });
+          }
+        }
+      }
+
+      if (patches && patches.length) {
+        console.log("");
+        console.log("=== Suggested min/max patch (JSON) ===");
+        console.log(JSON.stringify(patches, null, 2));
+      }
     }
   }
 }

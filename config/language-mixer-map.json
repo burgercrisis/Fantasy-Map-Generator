@@ -10426,6 +10426,18 @@
     ]
   },
   {
+    "iso": "southern-yukaghir",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "tundra-yukaghir",
+    "bases": [
+      19
+    ]
+  },
+  {
     "iso": "yeongdong-dialect",
     "bases": [
       10
