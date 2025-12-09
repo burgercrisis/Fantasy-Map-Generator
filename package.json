@@ -8,6 +8,11 @@
     "mixer:coverage": "node tools/check-language-mixer-coverage.js",
     "mixer:lexifier-auto": "node tools/add-lexifier.js",
     "mixer:qa": "node tools/diff-language-families.js && node tools/check-language-mixer-coverage.js",
-    "mixer:full": "node tools/add-lexifier.js && node tools/diff-language-families.js && node tools/generate-language-mixer.js"
+    "mixer:full": "node tools/add-lexifier.js && node tools/diff-language-families.js && node tools/generate-language-mixer.js",
+    "mixer:namedups": "node tools/check-language-mixer-name-duplicates.js",
+    "mixer:failures": "node tools/check-language-mixer-failures.js",
+    "mixer:race-coverage": "node tools/report-race-language-coverage.js",
+    "mixer:race-per-coverage": "node tools/report-per-race-language-coverage.js",
+    "mixer:clean-map": "node tools/clean-language-mixer-map.js"
   }
 }

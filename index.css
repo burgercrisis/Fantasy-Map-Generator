@@ -1401,6 +1401,11 @@ div.header > div:first-child {
   margin-left: 1.8em;
 }
 
+#racesHeader {
+  column-gap: 0.6em;
+  width: max-content;
+}
+
 .sortable {
   cursor: pointer;
 }

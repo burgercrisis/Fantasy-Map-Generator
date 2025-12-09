@@ -34,7 +34,7 @@ export function open() {
 
 function insertEditorHtml() {
   const editorHtml = /* html */ `<div id="racesEditor" class="dialog stable">
-    <div id="racesHeader" class="header" style="grid-template-columns: 8em 4em 4em 6em 5em 4em 4em 4em 4em">
+    <div id="racesHeader" class="header" style="grid-template-columns: 9em 6em 4em 6em 7em 5em 5em 5em 3em; grid-column-gap: 0.4em">
       <div data-tip="Click to sort by race name" class="sortable alphabetically icon-sort-name-down" data-sortby="name">Race&nbsp;</div>
       <div data-tip="Click to sort by race expansion factor" class="sortable" data-sortby="expansionism">Expansion&nbsp;</div>
       <div data-tip="Click to sort by cells count" class="sortable hide" data-sortby="cells">Cells&nbsp;</div>
@@ -209,13 +209,13 @@ function racesEditorAddLines(stats) {
       <fill-box fill="${r.color || "#888888"}"></fill-box>
       <input data-tip="Race name. Click and type to change" class="raceName" style="width: 8em"
         value="${r.name}" autocorrect="off" spellcheck="false" />
-      <input data-tip="Race expansion factor. Multiplies culture expansionism when recalculating cultures" class="raceExpansion" style="width: 4em" type="number" min="0" max="99" step=".1" value="${expansionism}">
+      <input data-tip="Race expansion factor. Multiplies culture expansionism when recalculating cultures" class="raceExpansion" style="width: 6em" type="number" min="0" max="99" step=".1" value="${expansionism}">
       <div data-tip="Cells count" class="raceCells hide" style="width: 4em">${s.cells}</div>
       <div data-tip="Land area" class="raceArea hide" style="width: 6em">${si(area)} ${unit}</div>
-      <div data-tip="${populationTip}" class="racePopulation hide" style="width: 5em">${si(population)}</div>
-      <div data-tip="Cultures count" class="raceCultures" style="width: 4em">${s.cultures}</div>
-      <div data-tip="States count" class="raceStates" style="width: 4em">${s.states}</div>
-      <div data-tip="Burgs count" class="raceBurgs" style="width: 4em">${s.burgs}</div>
+      <div data-tip="${populationTip}" class="racePopulation hide" style="width: 7em">${si(population)}</div>
+      <div data-tip="Cultures count" class="raceCultures" style="width: 5em">${s.cultures}</div>
+      <div data-tip="States count" class="raceStates" style="width: 5em">${s.states}</div>
+      <div data-tip="Burgs count" class="raceBurgs" style="width: 5em">${s.burgs}</div>
     </div>`;
   }
 

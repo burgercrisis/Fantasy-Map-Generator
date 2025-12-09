@@ -5,10 +5,6 @@
 (function(){
   window.languageMixerCatalog = [
   {
-    "category": "Afroasiatic",
-    "family": "Maghrebi"
-  },
-  {
     "name": "Abon",
     "iso": "abon",
     "region": "Africa",
@@ -1313,6 +1309,7 @@
     "iso": "ewe",
     "region": "Africa",
     "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ewe_language",
     "family": "Gbe"
   },
   {
@@ -1441,6 +1438,7 @@
     "iso": "ga",
     "region": "Africa",
     "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ga_language",
     "family": "Ga–Dangme"
   },
   {
@@ -1708,13 +1706,6 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
-  },
-  {
-    "name": "Highland East Cushitic",
-    "iso": "highland-east-cushitic",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
   },
   {
     "name": "Hina language",
@@ -2064,13 +2055,6 @@
     "family": "Bantu"
   },
   {
-    "name": "Lowland East Cushitic",
-    "iso": "lowland-east-cushitic",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
-  },
-  {
     "name": "Luganda",
     "iso": "luganda",
     "region": "Africa",
@@ -2090,13 +2074,6 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
-  },
-  {
-    "name": "Macro-Somali",
-    "iso": "macro-somali",
-    "region": "Africa",
-    "category": "Afroasiatic",
-    "family": "Cushitic"
   },
   {
     "name": "Mada language",
@@ -2382,6 +2359,7 @@
     "iso": "moore",
     "region": "Africa",
     "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mossi_language",
     "family": "Gur"
   },
   {
@@ -3007,6 +2985,7 @@
     "iso": "soninke",
     "region": "Africa",
     "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soninke_language",
     "family": "Mande"
   },
   {
@@ -3133,7 +3112,7 @@
     "family": "Chadic"
   },
   {
-    "name": "Tawellemmet Language",
+    "name": "Tawellemmet Berber",
     "iso": "tawellemmet-language",
     "region": "Africa",
     "category": "Afroasiatic",
@@ -3169,7 +3148,7 @@
     "family": "Judeo-Spanish"
   },
   {
-    "name": "Tidikelt Language",
+    "name": "Tidikelt Berber",
     "iso": "tidikelt-language",
     "region": "Africa",
     "category": "Afroasiatic",
@@ -3229,7 +3208,7 @@
     "family": "Chadic"
   },
   {
-    "name": "Tuwat Language",
+    "name": "Tuwat Berber",
     "iso": "tuwat-language",
     "region": "Africa",
     "category": "Afroasiatic",
@@ -3344,6 +3323,7 @@
     "iso": "xhosa",
     "region": "Africa",
     "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Xhosa_language",
     "family": "Bantu"
   },
   {
@@ -3974,6 +3954,7 @@
     "iso": "brahui",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brahui_language",
     "family": "North Dravidian"
   },
   {
@@ -4399,6 +4380,7 @@
     "iso": "gondi",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gondi_language",
     "family": "South-Central Dravidian"
   },
   {
@@ -4985,6 +4967,7 @@
     "iso": "kodava",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kodava_language",
     "family": "South Dravidian"
   },
   {
@@ -4999,6 +4982,7 @@
     "iso": "kolami",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kolami_language",
     "family": "Central Dravidian"
   },
   {
@@ -5162,6 +5146,7 @@
     "iso": "kurukh",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kurukh_language",
     "family": "North Dravidian"
   },
   {
@@ -5385,6 +5370,7 @@
     "iso": "malto",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malto_language",
     "family": "North Dravidian"
   },
   {
@@ -6933,6 +6919,7 @@
     "iso": "tulu",
     "region": "Asia",
     "category": "Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tulu_language",
     "family": "South Dravidian"
   },
   {
@@ -11091,14 +11078,26 @@
     "iso": "rup",
     "region": "Europe",
     "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aromanian_language",
+    "tags": [
+      "eastern-romance",
+      "balkans"
+    ]
   },
   {
     "name": "Arpitan",
     "iso": "arpitan",
     "region": "Europe",
     "category": "Romance",
-    "family": "Arpitan"
+    "family": "Arpitan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al",
+    "tags": [
+      "arpitan",
+      "franco-provençal",
+      "gallo-romance",
+      "alps"
+    ]
   },
   {
     "name": "Asturian",
@@ -11151,7 +11150,12 @@
     "iso": "banat",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "banat"
+    ]
   },
   {
     "name": "Barese",
@@ -11317,13 +11321,19 @@
     "iso": "bukovinian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "bukovina"
+    ]
   },
   {
     "name": "Bulgarian",
     "iso": "bul",
     "category": "Slavic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bulgarian_language",
     "family": "Eastern South Slavic"
   },
   {
@@ -11574,7 +11584,12 @@
     "iso": "cri-ana",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "crisana"
+    ]
   },
   {
     "name": "Croatian",
@@ -11589,6 +11604,7 @@
     "iso": "ces",
     "category": "Slavic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Czech_language",
     "family": "Czech-Slovak"
   },
   {
@@ -11604,8 +11620,11 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Dalmatian Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dalmatian_language",
     "tags": [
-      "extinct"
+      "extinct",
+      "italo-dalmatian",
+      "dalmatia"
     ]
   },
   {
@@ -12008,7 +12027,12 @@
     "iso": "ruo",
     "region": "Europe",
     "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Istro-Romanian_language",
+    "tags": [
+      "eastern-romance",
+      "croatia"
+    ]
   },
   {
     "name": "Italian",
@@ -12037,14 +12061,27 @@
     "iso": "j-rriais",
     "region": "Europe",
     "category": "Romance",
-    "family": "Oïl Dialects"
+    "family": "Oïl Dialects",
+    "wikipedia": "https://en.wikipedia.org/wiki/J%C3%A8rriais",
+    "tags": [
+      "french",
+      "norman",
+      "channel-islands",
+      "jersey"
+    ]
   },
   {
     "name": "Jersey Legal French",
     "iso": "jersey-legal-french",
     "region": "Europe",
     "category": "Romance",
-    "family": "Oïl Dialects"
+    "family": "Oïl Dialects",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jersey_Legal_French",
+    "tags": [
+      "french",
+      "legal",
+      "jersey"
+    ]
   },
   {
     "name": "Judeo-Aragonese",
@@ -12322,7 +12359,12 @@
     "iso": "maramure-",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "maramures"
+    ]
   },
   {
     "name": "Mayennais",
@@ -12336,7 +12378,12 @@
     "iso": "ruq",
     "region": "Europe",
     "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Megleno-Romanian_language",
+    "tags": [
+      "eastern-romance",
+      "balkans"
+    ]
   },
   {
     "name": "Menorcan",
@@ -12392,7 +12439,12 @@
     "iso": "moldavian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "moldavia"
+    ]
   },
   {
     "name": "Molisan",
@@ -12509,7 +12561,12 @@
     "iso": "northern-romanian",
     "region": "Europe",
     "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "northern"
+    ]
   },
   {
     "name": "Northern Sami",
@@ -12638,7 +12695,12 @@
     "iso": "oltenian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "oltenia"
+    ]
   },
   {
     "name": "Orléanais",
@@ -12776,6 +12838,7 @@
     "iso": "pol",
     "category": "Slavic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Polish_language",
     "family": "Lechitic"
   },
   {
@@ -12917,7 +12980,12 @@
     "iso": "ron",
     "region": "Europe",
     "family": "Eastern Romance",
-    "category": "Romance"
+    "category": "Romance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_language",
+    "tags": [
+      "romanian",
+      "daco-romanian"
+    ]
   },
   {
     "name": "Romansh",
@@ -12939,6 +13007,7 @@
     "iso": "rus",
     "category": "Slavic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Russian_language",
     "family": "East Slavic"
   },
   {
@@ -13019,6 +13088,7 @@
     "iso": "srp",
     "category": "Slavic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Serbian_language",
     "family": "Western South Slavic"
   },
   {
@@ -13209,7 +13279,12 @@
     "iso": "transylvanian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Romanian_dialects",
+    "tags": [
+      "romanian",
+      "transylvania"
+    ]
   },
   {
     "name": "Triestine",
@@ -13230,7 +13305,12 @@
     "iso": "tuscan",
     "region": "Europe",
     "category": "Romance",
-    "family": "Tuscan"
+    "family": "Tuscan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuscan_dialects",
+    "tags": [
+      "tuscan",
+      "italo-romance"
+    ]
   },
   {
     "name": "Tuscia",
@@ -13252,6 +13332,7 @@
     "iso": "ukr",
     "category": "Slavic",
     "region": "Europe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ukrainian_language",
     "family": "East Slavic"
   },
   {
@@ -13344,7 +13425,12 @@
     "iso": "wallachian",
     "region": "Europe",
     "category": "Romance",
-    "family": "Daco-Romanian"
+    "family": "Daco-Romanian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wallachian_dialect",
+    "tags": [
+      "romanian",
+      "wallachia"
+    ]
   },
   {
     "name": "Walloon",
@@ -13541,6 +13627,17 @@
     "family": "Harari-Argobba Ethio-Semitic"
   },
   {
+    "name": "Highland East Cushitic",
+    "iso": "highland-east-cushitic",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Highland_East_Cushitic_languages",
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
     "name": "Inneqor",
     "iso": "inneqor",
     "region": "Horn of Africa",
@@ -13554,6 +13651,28 @@
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Inor_language",
     "family": "West Gurage"
+  },
+  {
+    "name": "Lowland East Cushitic",
+    "iso": "lowland-east-cushitic",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lowland_East_Cushitic_languages",
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "name": "Macro-Somali",
+    "iso": "macro-somali",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Somali_languages",
+    "family": "Cushitic",
+    "tags": [
+      "family"
+    ]
   },
   {
     "name": "Mesmes",
@@ -14299,6 +14418,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Maghrebi Arabic",
+    "iso": "maghrebi-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "Maghrebi"
   },
   {
     "name": "Turkish",

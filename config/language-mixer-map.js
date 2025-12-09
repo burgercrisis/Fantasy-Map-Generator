@@ -5,18 +5,6 @@
 (function(){
   window.languageMixerMap = [
   {
-    "iso": "-arsusi",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "-ayyi-dialect",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "-azd-dialect",
     "bases": [
       18
@@ -2161,12 +2149,6 @@
     ]
   },
   {
-    "iso": "damascene-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
     "iso": "dao",
     "bases": [
       29
@@ -2204,12 +2186,6 @@
     ]
   },
   {
-    "iso": "dhofari-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "dida",
     "bases": [
       125
@@ -2222,12 +2198,6 @@
     ]
   },
   {
-    "iso": "dilmunite",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "diu",
     "bases": [
       13
@@ -2237,12 +2207,6 @@
     "iso": "dizoid",
     "bases": [
       145
-    ]
-  },
-  {
-    "iso": "djibouti-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -2280,21 +2244,9 @@
     ]
   },
   {
-    "iso": "duhok",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "dullay",
     "bases": [
       141
-    ]
-  },
-  {
-    "iso": "dumaitic",
-    "bases": [
-      18
     ]
   },
   {
@@ -2340,18 +2292,6 @@
     ]
   },
   {
-    "iso": "east-gurage",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "east-semitic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "east-zenati",
     "bases": [
       17
@@ -2376,21 +2316,9 @@
     ]
   },
   {
-    "iso": "eastern-egyptian-bedawi-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "eastern-estonian",
     "bases": [
       215
-    ]
-  },
-  {
-    "iso": "eastern-hilali-dialects",
-    "bases": [
-      18
     ]
   },
   {
@@ -2430,21 +2358,9 @@
     ]
   },
   {
-    "iso": "eastern-middle-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "eastern-nonmetafonetica",
     "bases": [
       280
-    ]
-  },
-  {
-    "iso": "eastern-pre-hilali-dialects",
-    "bases": [
-      18
     ]
   },
   {
@@ -2488,39 +2404,9 @@
     ]
   },
   {
-    "iso": "eblaite",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "ecuadorian-spanish",
     "bases": [
       4
-    ]
-  },
-  {
-    "iso": "edomite",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "egyptian",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "egyptian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "egypto-sudanic-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -2539,18 +2425,6 @@
     "iso": "emilian",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "emirati-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "endegen",
-    "bases": [
-      23
     ]
   },
   {
@@ -2680,12 +2554,6 @@
     ]
   },
   {
-    "iso": "ezha",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "fabriano",
     "bases": [
       3
@@ -2695,12 +2563,6 @@
     "iso": "faetar",
     "bases": [
       2
-    ]
-  },
-  {
-    "iso": "faifi",
-    "bases": [
-      18
     ]
   },
   {
@@ -2731,12 +2593,6 @@
     "iso": "ferrarese",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "fessi-dialect",
-    "bases": [
-      18
     ]
   },
   {
@@ -2904,12 +2760,6 @@
     ]
   },
   {
-    "iso": "gafat",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "galician",
     "bases": [
       272
@@ -2919,12 +2769,6 @@
     "iso": "galician-asturian",
     "bases": [
       272
-    ]
-  },
-  {
-    "iso": "galilean-dialect",
-    "bases": [
-      23
     ]
   },
   {
@@ -2958,12 +2802,6 @@
     ]
   },
   {
-    "iso": "gamo-gofa-dawro",
-    "bases": [
-      144
-    ]
-  },
-  {
     "iso": "gan",
     "bases": [
       67
@@ -2973,12 +2811,6 @@
     "iso": "gangwon-dialect",
     "bases": [
       10
-    ]
-  },
-  {
-    "iso": "ganza",
-    "bases": [
-      145
     ]
   },
   {
@@ -3012,18 +2844,6 @@
     ]
   },
   {
-    "iso": "ge-ez",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "geez",
-    "bases": [
-      138
-    ]
-  },
-  {
     "iso": "gejia",
     "bases": [
       11
@@ -3045,12 +2865,6 @@
     "iso": "ghanaian-pidgin-english",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "gilit-dialects",
-    "bases": [
-      23
     ]
   },
   {
@@ -3105,12 +2919,6 @@
     "iso": "goryeo-korean",
     "bases": [
       10
-    ]
-  },
-  {
-    "iso": "gozitan-dialects",
-    "bases": [
-      18
     ]
   },
   {
@@ -3189,27 +2997,9 @@
     ]
   },
   {
-    "iso": "gulf-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "gullah",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "gumer",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "gura",
-    "bases": [
-      23
     ]
   },
   {
@@ -3243,33 +3033,9 @@
     ]
   },
   {
-    "iso": "gyeto",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "hachijo",
     "bases": [
       12
-    ]
-  },
-  {
-    "iso": "hadhrami-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "hadiyya",
-    "bases": [
-      141
-    ]
-  },
-  {
-    "iso": "hadramautic",
-    "bases": [
-      18
     ]
   },
   {
@@ -3334,30 +3100,6 @@
     ]
   },
   {
-    "iso": "hasaitic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "hassaniya-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "hatran-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "hau",
-    "bases": [
-      132
-    ]
-  },
-  {
     "iso": "hausa-gwandara",
     "bases": [
       132
@@ -3382,30 +3124,6 @@
     ]
   },
   {
-    "iso": "heb",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "hebrew",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "hejazi-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "hertevin-neo-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "hevaha",
     "bases": [
       9
@@ -3425,33 +3143,15 @@
     ]
   },
   {
-    "iso": "hilalian-dialects",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "hill-mari",
     "bases": [
       9
     ]
   },
   {
-    "iso": "himyaritic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "hin",
     "bases": [
       183
-    ]
-  },
-  {
-    "iso": "hismaic",
-    "bases": [
-      18
     ]
   },
   {
@@ -3482,12 +3182,6 @@
     "iso": "ho-munda",
     "bases": [
       181
-    ]
-  },
-  {
-    "iso": "hoby-t",
-    "bases": [
-      18
     ]
   },
   {
@@ -3528,12 +3222,6 @@
     ]
   },
   {
-    "iso": "hu-ayl-dialect",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "huastec",
     "bases": [
       171
@@ -3555,12 +3243,6 @@
     "iso": "huishui",
     "bases": [
       11
-    ]
-  },
-  {
-    "iso": "hulaul-",
-    "bases": [
-      23
     ]
   },
   {
@@ -3597,12 +3279,6 @@
     "iso": "iku",
     "bases": [
       19
-    ]
-  },
-  {
-    "iso": "imperial-aramaic",
-    "bases": [
-      23
     ]
   },
   {
@@ -3672,12 +3348,6 @@
     ]
   },
   {
-    "iso": "inter-zab",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "international-sign",
     "bases": [
       1
@@ -3690,21 +3360,9 @@
     ]
   },
   {
-    "iso": "iraqi-arabic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "irpino",
     "bases": [
       306
-    ]
-  },
-  {
-    "iso": "israelian-hebrew",
-    "bases": [
-      23
     ]
   },
   {
@@ -3834,12 +3492,6 @@
     ]
   },
   {
-    "iso": "jebli-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "jeju-language",
     "bases": [
       10
@@ -3864,39 +3516,9 @@
     ]
   },
   {
-    "iso": "jewish-assyrian-neo-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "jewish-babylonian-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "jewish-baghdadi-arabic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "jewish-palestinian-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "jie",
     "bases": [
       19
-    ]
-  },
-  {
-    "iso": "jijel-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -3909,12 +3531,6 @@
     "iso": "jingpho-luish",
     "bases": [
       64
-    ]
-  },
-  {
-    "iso": "jordanian-arabic",
-    "bases": [
-      42
     ]
   },
   {
@@ -3960,27 +3576,9 @@
     ]
   },
   {
-    "iso": "judeo-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "judeo-algerian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "judeo-aragonese",
     "bases": [
       287
-    ]
-  },
-  {
-    "iso": "judeo-baghdadi",
-    "bases": [
-      23
     ]
   },
   {
@@ -3990,27 +3588,9 @@
     ]
   },
   {
-    "iso": "judeo-egyptian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "judeo-fessi",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "judeo-gascon",
     "bases": [
       232
-    ]
-  },
-  {
-    "iso": "judeo-iraqi-arabic",
-    "bases": [
-      23
     ]
   },
   {
@@ -4023,12 +3603,6 @@
     "iso": "judeo-mantuan",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "judeo-moroccan-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -4053,30 +3627,6 @@
     "iso": "judeo-spanish",
     "bases": [
       4
-    ]
-  },
-  {
-    "iso": "judeo-syrian-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "judeo-tripolitanian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "judeo-tunisian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "judeo-yemeni-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -4221,12 +3771,6 @@
     "iso": "karip-na-french-creole",
     "bases": [
       2
-    ]
-  },
-  {
-    "iso": "kashkadarian-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -4420,12 +3964,6 @@
     ]
   },
   {
-    "iso": "khorasani-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "khorchin",
     "bases": [
       31
@@ -4442,12 +3980,6 @@
     "bases": [
       296,
       31
-    ]
-  },
-  {
-    "iso": "khuzestani-arabic",
-    "bases": [
-      23
     ]
   },
   {
@@ -4532,12 +4064,6 @@
     "iso": "kiribati",
     "bases": [
       249
-    ]
-  },
-  {
-    "iso": "kishite",
-    "bases": [
-      23
     ]
   },
   {
@@ -4649,18 +4175,6 @@
     ]
   },
   {
-    "iso": "koy-sanjaq-christian-neo-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "koy-sanjaq-jewish-neo-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "kozymodemyan",
     "bases": [
       9
@@ -4754,12 +4268,6 @@
     ]
   },
   {
-    "iso": "kurdish",
-    "bases": [
-      210
-    ]
-  },
-  {
     "iso": "kuril-ainu",
     "bases": [
       275
@@ -4775,12 +4283,6 @@
     "iso": "kuu-rv-ludic",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "kuwaiti-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -5784,18 +5286,6 @@
     ]
   },
   {
-    "iso": "lebanese-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "lebanese-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "leeward-caribbean-creole-english",
     "bases": [
       1
@@ -5826,18 +5316,6 @@
     ]
   },
   {
-    "iso": "levantine-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "levantine-bedawi-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "lhokpu",
     "bases": [
       111
@@ -5853,12 +5331,6 @@
     "iso": "liberian-kreyol",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "libyan-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -5913,24 +5385,6 @@
     "iso": "lipsha",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "lish-n-did-n",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "lishana-deni",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "lishanid-noshan",
-    "bases": [
-      23
     ]
   },
   {
@@ -6181,12 +5635,6 @@
     ]
   },
   {
-    "iso": "maghrebi-judeo-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "magoua",
     "bases": [
       2
@@ -6263,21 +5711,9 @@
     ]
   },
   {
-    "iso": "maltese",
-    "bases": [
-      137
-    ]
-  },
-  {
     "iso": "maltese-italian",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "maltralian",
-    "bases": [
-      18
     ]
   },
   {
@@ -6296,12 +5732,6 @@
     "iso": "manchu",
     "bases": [
       31
-    ]
-  },
-  {
-    "iso": "mandaic",
-    "bases": [
-      23
     ]
   },
   {
@@ -6371,12 +5801,6 @@
     ]
   },
   {
-    "iso": "maqil-dialects",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "maramure-",
     "bases": [
       43
@@ -6440,12 +5864,6 @@
     "iso": "mashan",
     "bases": [
       11
-    ]
-  },
-  {
-    "iso": "mashriqi-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -6529,12 +5947,6 @@
     ]
   },
   {
-    "iso": "medieval-hebrew",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "mediterranean-lingua-franca",
     "bases": [
       4
@@ -6544,12 +5956,6 @@
     "iso": "mednyj-aleut",
     "bases": [
       19
-    ]
-  },
-  {
-    "iso": "mehri",
-    "bases": [
-      136
     ]
   },
   {
@@ -6619,12 +6025,6 @@
     ]
   },
   {
-    "iso": "mesopotamian-arabic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "mesqan",
     "bases": [
       18
@@ -6653,12 +6053,6 @@
     "iso": "micronesian-pidgin-english",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "middle-aramaic",
-    "bases": [
-      23
     ]
   },
   {
@@ -6730,12 +6124,6 @@
     ]
   },
   {
-    "iso": "minaean",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "minderico",
     "bases": [
       13
@@ -6757,12 +6145,6 @@
     "iso": "mirandese",
     "bases": [
       286
-    ]
-  },
-  {
-    "iso": "mishnaic-hebrew",
-    "bases": [
-      23
     ]
   },
   {
@@ -6802,12 +6184,6 @@
     ]
   },
   {
-    "iso": "mla-s-",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "mnong",
     "bases": [
       29,
@@ -6827,45 +6203,15 @@
     ]
   },
   {
-    "iso": "moabite",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "mobilian-jargon",
     "bases": [
       172
     ]
   },
   {
-    "iso": "modern-hebrew",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "modern-korean",
     "bases": [
       10
-    ]
-  },
-  {
-    "iso": "modern-palestinian-judeo-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "modern-south-arabian",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "modern-standard-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -6952,12 +6298,6 @@
     "iso": "moore",
     "bases": [
       127
-    ]
-  },
-  {
-    "iso": "moroccan-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -7075,18 +6415,6 @@
     ]
   },
   {
-    "iso": "nabataean-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "nabataean-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "naga",
     "bases": [
       61
@@ -7108,12 +6436,6 @@
     "iso": "naic",
     "bases": [
       60
-    ]
-  },
-  {
-    "iso": "najdi-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -7241,12 +6563,6 @@
     "iso": "nenets",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "neo-mandaic",
-    "bases": [
-      23
     ]
   },
   {
@@ -7407,12 +6723,6 @@
     ]
   },
   {
-    "iso": "north-canaanite",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "north-estonian",
     "bases": [
       215
@@ -7422,18 +6732,6 @@
     "iso": "north-korean",
     "bases": [
       10
-    ]
-  },
-  {
-    "iso": "north-levantine-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "north-mesopotamian-arabic",
-    "bases": [
-      23
     ]
   },
   {
@@ -7575,18 +6873,6 @@
     ]
   },
   {
-    "iso": "northwest-arabian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "northwest-semitic",
-    "bases": [
-      42
-    ]
-  },
-  {
     "iso": "northwestern-catalan",
     "bases": [
       2
@@ -7693,24 +6979,6 @@
     ]
   },
   {
-    "iso": "old-akkadian",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "old-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "old-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "old-catalan",
     "bases": [
       2
@@ -7720,12 +6988,6 @@
     "iso": "old-gallo-romance",
     "bases": [
       2
-    ]
-  },
-  {
-    "iso": "old-hijazi-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -7787,12 +7049,6 @@
     ]
   },
   {
-    "iso": "old-south-arabian",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "old-spanish",
     "bases": [
       4
@@ -7820,12 +7076,6 @@
     "iso": "omaio",
     "bases": [
       28
-    ]
-  },
-  {
-    "iso": "omani-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -7883,12 +7133,6 @@
     ]
   },
   {
-    "iso": "orm",
-    "bases": [
-      131
-    ]
-  },
-  {
     "iso": "oroch",
     "bases": [
       31
@@ -7922,16 +7166,6 @@
     "iso": "ossolano",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "other-semitic",
-    "bases": [
-      18,
-      23,
-      42,
-      133,
-      138
     ]
   },
   {
@@ -7980,24 +7214,6 @@
     "iso": "palenquero",
     "bases": [
       4
-    ]
-  },
-  {
-    "iso": "palestinian-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
-    "iso": "palestinian-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "palmyrene-aramaic",
-    "bases": [
-      23
     ]
   },
   {
@@ -8097,12 +7313,6 @@
     ]
   },
   {
-    "iso": "peninsular-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "per-pohjola",
     "bases": [
       9
@@ -8112,12 +7322,6 @@
     "iso": "peranakan",
     "bases": [
       195
-    ]
-  },
-  {
-    "iso": "persian",
-    "bases": [
-      212
     ]
   },
   {
@@ -8160,18 +7364,6 @@
     "iso": "philippine-spanish",
     "bases": [
       4
-    ]
-  },
-  {
-    "iso": "philistine",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "phoenician",
-    "bases": [
-      23
     ]
   },
   {
@@ -8319,24 +7511,6 @@
     ]
   },
   {
-    "iso": "pre-classical-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "pre-hilalian-dialects",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "pre-hilalian-urban-arabic-dialects",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "pretoria-sotho",
     "bases": [
       152
@@ -8355,41 +7529,9 @@
     ]
   },
   {
-    "iso": "proto-afroasiatic",
-    "bases": [
-      17,
-      18,
-      23,
-      42,
-      130,
-      131,
-      132,
-      133,
-      134,
-      135,
-      136,
-      137,
-      138,
-      139,
-      140,
-      141,
-      142,
-      143,
-      144,
-      145
-    ]
-  },
-  {
     "iso": "proto-ainu",
     "bases": [
       275
-    ]
-  },
-  {
-    "iso": "proto-arabic",
-    "bases": [
-      18,
-      42
     ]
   },
   {
@@ -8543,14 +7685,6 @@
     "iso": "proto-samoyedic",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "proto-semitic",
-    "bases": [
-      18,
-      23,
-      42
     ]
   },
   {
@@ -8709,12 +7843,6 @@
     ]
   },
   {
-    "iso": "punic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "punjabi",
     "bases": [
       202
@@ -8763,30 +7891,6 @@
     ]
   },
   {
-    "iso": "qaraqosh-neo-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "qatabanian",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "qatari-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "qeltu-dialects",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "qeqchi",
     "bases": [
       157
@@ -8811,12 +7915,6 @@
     "bases": [
       31,
       11
-    ]
-  },
-  {
-    "iso": "qormi-dialect",
-    "bases": [
-      18
     ]
   },
   {
@@ -8874,12 +7972,6 @@
     ]
   },
   {
-    "iso": "razihi",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "regional-italian",
     "bases": [
       3
@@ -8901,12 +7993,6 @@
     "iso": "riberan",
     "bases": [
       286
-    ]
-  },
-  {
-    "iso": "rijal-alma",
-    "bases": [
-      18
     ]
   },
   {
@@ -9064,12 +8150,6 @@
     ]
   },
   {
-    "iso": "sa-idi-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "sa-och",
     "bases": [
       179
@@ -9082,21 +8162,9 @@
     ]
   },
   {
-    "iso": "sabaic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "sabino",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "safaitic",
-    "bases": [
-      18
     ]
   },
   {
@@ -9173,24 +8241,6 @@
     ]
   },
   {
-    "iso": "samalian",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "samaritan-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "samaritan-hebrew",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "sammarinese",
     "bases": [
       3
@@ -9218,18 +8268,6 @@
     "iso": "san-andres-providencia-creole",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "san-ani-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "sanandaj",
-    "bases": [
-      23
     ]
   },
   {
@@ -9401,12 +8439,6 @@
     ]
   },
   {
-    "iso": "senaya-neo-aramaic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "senese",
     "bases": [
       3
@@ -9479,12 +8511,6 @@
     ]
   },
   {
-    "iso": "shawi-arabic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "shawiya",
     "bases": [
       17
@@ -9503,21 +8529,9 @@
     ]
   },
   {
-    "iso": "shehri",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "sherkal",
     "bases": [
       9
-    ]
-  },
-  {
-    "iso": "shihhi-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -9537,12 +8551,6 @@
     "bases": [
       31,
       296
-    ]
-  },
-  {
-    "iso": "shirvani-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -9598,18 +8606,6 @@
     ]
   },
   {
-    "iso": "siculo-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "sidama",
-    "bases": [
-      142
-    ]
-  },
-  {
     "iso": "silesian",
     "bases": [
       294
@@ -9619,12 +8615,6 @@
     "iso": "silla-korean",
     "bases": [
       10
-    ]
-  },
-  {
-    "iso": "silte",
-    "bases": [
-      18
     ]
   },
   {
@@ -9712,12 +8702,6 @@
     ]
   },
   {
-    "iso": "soddo",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "soikkola",
     "bases": [
       9
@@ -9733,12 +8717,6 @@
     "iso": "solomon-islands-pijin",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "som",
-    "bases": [
-      130
     ]
   },
   {
@@ -9790,12 +8768,6 @@
     ]
   },
   {
-    "iso": "soqotri",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "sosva",
     "bases": [
       9
@@ -9814,12 +8786,6 @@
     ]
   },
   {
-    "iso": "south-canaanite",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "south-cushitic",
     "bases": [
       141
@@ -9832,43 +8798,15 @@
     ]
   },
   {
-    "iso": "south-gileadite",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "south-korean",
     "bases": [
       10
     ]
   },
   {
-    "iso": "south-levantine-arabic",
-    "bases": [
-      42
-    ]
-  },
-  {
     "iso": "south-lucanian",
     "bases": [
       3
-    ]
-  },
-  {
-    "iso": "south-mesopotamian-arabic",
-    "bases": [
-      23
-    ]
-  },
-  {
-    "iso": "south-semitic",
-    "bases": [
-      136,
-      133,
-      134,
-      135,
-      138
     ]
   },
   {
@@ -10101,27 +9039,9 @@
     ]
   },
   {
-    "iso": "sudanese-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "sudanese-chadian-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "sula-malay",
     "bases": [
       195
-    ]
-  },
-  {
-    "iso": "sulaym-dialects",
-    "bases": [
-      18
     ]
   },
   {
@@ -10134,12 +9054,6 @@
     "iso": "suoy",
     "bases": [
       179
-    ]
-  },
-  {
-    "iso": "sureth",
-    "bases": [
-      23
     ]
   },
   {
@@ -10158,12 +9072,6 @@
     "iso": "sursilvan",
     "bases": [
       234
-    ]
-  },
-  {
-    "iso": "sutean",
-    "bases": [
-      23
     ]
   },
   {
@@ -10224,18 +9132,6 @@
     "iso": "t-y-b-i-pidgin-french",
     "bases": [
       2
-    ]
-  },
-  {
-    "iso": "ta-izzi-adeni-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "ta-izzi-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -10368,12 +9264,6 @@
     ]
   },
   {
-    "iso": "taymanitic",
-    "bases": [
-      23
-    ]
-  },
-  {
     "iso": "tayo-creole",
     "bases": [
       2
@@ -10426,18 +9316,6 @@
     "iso": "thai-pidgin-english",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "thamudic",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "thamudic-b",
-    "bases": [
-      18
     ]
   },
   {
@@ -10531,12 +9409,6 @@
     ]
   },
   {
-    "iso": "tihamiyya-arabic",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "tikuna",
     "bases": [
       189
@@ -10546,12 +9418,6 @@
     "iso": "tinglish",
     "bases": [
       1
-    ]
-  },
-  {
-    "iso": "tir",
-    "bases": [
-      134
     ]
   },
   {
@@ -10642,12 +9508,6 @@
     "iso": "totonac",
     "bases": [
       167
-    ]
-  },
-  {
-    "iso": "trans-zab",
-    "bases": [
-      23
     ]
   },
   {
@@ -10744,12 +9604,6 @@
     "iso": "tungusic-languages",
     "bases": [
       31
-    ]
-  },
-  {
-    "iso": "tunisian-arabic",
-    "bases": [
-      18
     ]
   },
   {
@@ -21850,12 +20704,6 @@
     ]
   },
   {
-    "iso": "nld",
-    "bases": [
-      21
-    ]
-  },
-  {
     "iso": "cat",
     "bases": [
       22
@@ -21976,24 +20824,6 @@
     ]
   },
   {
-    "iso": "som",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "orm",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "hau",
-    "bases": [
-      21
-    ]
-  },
-  {
     "iso": "ber-family",
     "bases": [
       17
@@ -22042,31 +20872,7 @@
     ]
   },
   {
-    "iso": "tir",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "tigre",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "mehri",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "maltese",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "geez",
     "bases": [
       18
     ]
@@ -22084,31 +20890,7 @@
     ]
   },
   {
-    "iso": "hadiyya",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "sidama",
-    "bases": [
-      18
-    ]
-  },
-  {
     "iso": "wolaitta",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "gamo-gofa-dawro",
-    "bases": [
-      18
-    ]
-  },
-  {
-    "iso": "ganza",
     "bases": [
       18
     ]
@@ -22414,12 +21196,6 @@
     "iso": "tujia",
     "bases": [
       53
-    ]
-  },
-  {
-    "iso": "heb",
-    "bases": [
-      42
     ]
   },
   {
