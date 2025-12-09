@@ -8,9 +8,9 @@ So far what I've done is:
 
 Planned:
 
-- Add The underdark
+- [Add The underdark](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Underdark.md)
 
-- Add individuals
+- [Add individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Individuals.md)
 
 - Add a full on 3.5, pathfinder and 5.0 dnd character generation system implemented into the individuals
 
