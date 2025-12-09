@@ -18,6 +18,10 @@ Planned:
 
 - [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
 
+- [Language system status and tooling extensions](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Languages-Status.md)
+
+- [Evolving simulation knobs & choices](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation-Choices.md)
+
 - get gemini api working, maybe add more ai apis
 
 - improve everything

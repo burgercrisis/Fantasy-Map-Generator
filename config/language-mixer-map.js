@@ -134,7 +134,7 @@
   {
     "iso": "agalega-creole",
     "bases": [
-      2
+      261
     ]
   },
   {
@@ -438,7 +438,7 @@
   {
     "iso": "antillean-creole",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -738,7 +738,7 @@
   {
     "iso": "bahamian-creole",
     "bases": [
-      1
+      259
     ]
   },
   {
@@ -776,7 +776,7 @@
   {
     "iso": "bajan-creole",
     "bases": [
-      1
+      259
     ]
   },
   {
@@ -969,7 +969,7 @@
   {
     "iso": "belizean-creole",
     "bases": [
-      1
+      259
     ]
   },
   {
@@ -1235,7 +1235,7 @@
   {
     "iso": "bourbonnais-creole",
     "bases": [
-      2
+      262
     ]
   },
   {
@@ -1738,7 +1738,7 @@
   {
     "iso": "chagossian-creole",
     "bases": [
-      2
+      261
     ]
   },
   {
@@ -2230,7 +2230,7 @@
   {
     "iso": "dominican-creole-french",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -2652,7 +2652,7 @@
   {
     "iso": "fogo-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -2688,7 +2688,7 @@
   {
     "iso": "forro-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -2731,7 +2731,7 @@
   {
     "iso": "french-guianese-creole",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -2969,7 +2969,7 @@
   {
     "iso": "grenadian-creole-french",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -2999,7 +2999,7 @@
   {
     "iso": "guinea-bissau-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -3794,7 +3794,7 @@
   {
     "iso": "karip-na-french-creole",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -5474,7 +5474,7 @@
   {
     "iso": "louisiana-creole",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -5756,12 +5756,6 @@
     "iso": "manchu",
     "bases": [
       31
-    ]
-  },
-  {
-    "iso": "mandarin",
-    "bases": [
-      66
     ]
   },
   {
@@ -6435,7 +6429,8 @@
   {
     "iso": "na-dene",
     "bases": [
-      19
+      172,
+      220
     ]
   },
   {
@@ -6629,7 +6624,7 @@
   {
     "iso": "ngatikese-creole",
     "bases": [
-      1
+      309
     ]
   },
   {
@@ -6688,7 +6683,7 @@
   {
     "iso": "nigerian-pidgin",
     "bases": [
-      1
+      307
     ]
   },
   {
@@ -7399,7 +7394,7 @@
   {
     "iso": "pichinglis",
     "bases": [
-      1
+      307
     ]
   },
   {
@@ -7447,7 +7442,7 @@
   {
     "iso": "pijin",
     "bases": [
-      1
+      309
     ]
   },
   {
@@ -7483,7 +7478,7 @@
   {
     "iso": "pitcairn-norfolk",
     "bases": [
-      1
+      309
     ]
   },
   {
@@ -7543,7 +7538,7 @@
   {
     "iso": "principense-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -7968,7 +7963,7 @@
   {
     "iso": "r-union-creole",
     "bases": [
-      2
+      262
     ]
   },
   {
@@ -7980,7 +7975,7 @@
   {
     "iso": "rama-cay-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
@@ -8040,7 +8035,7 @@
   {
     "iso": "rodriguan-creole",
     "bases": [
-      2
+      261
     ]
   },
   {
@@ -8158,13 +8153,13 @@
   {
     "iso": "s-o-nicolau-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
     "iso": "s-o-vicente-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -8206,13 +8201,13 @@
   {
     "iso": "saint-kitts-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
     "iso": "saint-lucian-creole",
     "bases": [
-      2
+      258
     ]
   },
   {
@@ -8291,7 +8286,7 @@
   {
     "iso": "san-andres-providencia-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
@@ -8343,13 +8338,13 @@
   {
     "iso": "santiago-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
     "iso": "santo-ant-o-creole",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -8662,7 +8657,7 @@
   {
     "iso": "singlish",
     "bases": [
-      1
+      309
     ]
   },
   {
@@ -8800,7 +8795,7 @@
   {
     "iso": "sotavento-creoles",
     "bases": [
-      13
+      260
     ]
   },
   {
@@ -9290,7 +9285,7 @@
   {
     "iso": "tayo-creole",
     "bases": [
-      2
+      262
     ]
   },
   {
@@ -9459,7 +9454,7 @@
   {
     "iso": "tobagonian-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
@@ -9519,7 +9514,7 @@
   {
     "iso": "torres-strait-creole",
     "bases": [
-      1
+      309
     ]
   },
   {
@@ -9561,7 +9556,7 @@
   {
     "iso": "trinidadian-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
@@ -9657,7 +9652,7 @@
   {
     "iso": "turks-and-caicos-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
@@ -10025,13 +10020,13 @@
   {
     "iso": "vincentian-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
     "iso": "virgin-islands-creole",
     "bases": [
-      1
+      308
     ]
   },
   {
@@ -10109,7 +10104,7 @@
   {
     "iso": "west-african-pidgin-english",
     "bases": [
-      1
+      307
     ]
   },
   {
@@ -12682,15 +12677,13 @@
   {
     "iso": "kx-ao-ae",
     "bases": [
-      353,
       354
     ]
   },
   {
     "iso": "amkoe",
     "bases": [
-      353,
-      354
+      355
     ]
   },
   {
@@ -16280,8 +16273,7 @@
   {
     "iso": "ekoka-kung",
     "bases": [
-      353,
-      354
+      353
     ]
   },
   {
@@ -17637,7 +17629,7 @@
   {
     "iso": "ces",
     "bases": [
-      5
+      315
     ]
   },
   {
@@ -17931,7 +17923,7 @@
   {
     "iso": "pol",
     "bases": [
-      5
+      314
     ]
   },
   {
@@ -17955,13 +17947,13 @@
   {
     "iso": "slovak",
     "bases": [
-      5
+      315
     ]
   },
   {
     "iso": "srp",
     "bases": [
-      5
+      316
     ]
   },
   {
@@ -18063,13 +18055,13 @@
   {
     "iso": "bosnian",
     "bases": [
-      5
+      316
     ]
   },
   {
     "iso": "croatian",
     "bases": [
-      5
+      316
     ]
   },
   {
@@ -18105,7 +18097,7 @@
   {
     "iso": "kashubian",
     "bases": [
-      5
+      314
     ]
   },
   {
@@ -18135,7 +18127,7 @@
   {
     "iso": "montenegrin",
     "bases": [
-      5
+      316
     ]
   },
   {
@@ -18159,13 +18151,13 @@
   {
     "iso": "polabian",
     "bases": [
-      5
+      314
     ]
   },
   {
     "iso": "pomeranian",
     "bases": [
-      5
+      314
     ]
   },
   {
@@ -18177,13 +18169,13 @@
   {
     "iso": "serbo-croatian",
     "bases": [
-      5
+      316
     ]
   },
   {
     "iso": "slovincian",
     "bases": [
-      5
+      314
     ]
   },
   {
@@ -18529,6 +18521,7 @@
   {
     "iso": "trans-new-guinea",
     "bases": [
+      315,
       263,
       194,
       195
@@ -18537,6 +18530,7 @@
   {
     "iso": "west-trans-new-guinea",
     "bases": [
+      315,
       263,
       194,
       195
@@ -18587,12 +18581,14 @@
   {
     "iso": "central-south-new-guinea",
     "bases": [
+      315,
       263
     ]
   },
   {
     "iso": "asmat-kamoro",
     "bases": [
+      315,
       263,
       194,
       195
@@ -18601,6 +18597,7 @@
   {
     "iso": "greater-awyu",
     "bases": [
+      315,
       263,
       194,
       195
@@ -18615,6 +18612,7 @@
   {
     "iso": "bayono-awbono",
     "bases": [
+      315,
       263,
       194,
       195
@@ -18932,6 +18930,7 @@
   {
     "iso": "asmat",
     "bases": [
+      315,
       263,
       194,
       195
@@ -18940,6 +18939,7 @@
   {
     "iso": "asmat-citak",
     "bases": [
+      315,
       263,
       194,
       195
@@ -20504,12 +20504,6 @@
     ]
   },
   {
-    "iso": "rus",
-    "bases": [
-      5
-    ]
-  },
-  {
     "iso": "swe",
     "bases": [
       6
@@ -20660,21 +20654,9 @@
     ]
   },
   {
-    "iso": "ces",
-    "bases": [
-      20
-    ]
-  },
-  {
     "iso": "cat",
     "bases": [
       22
-    ]
-  },
-  {
-    "iso": "ukr",
-    "bases": [
-      25
     ]
   },
   {
@@ -20741,72 +20723,6 @@
     "iso": "muong",
     "bases": [
       29
-    ]
-  },
-  {
-    "iso": "lingala",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "kinyarwanda",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "shona",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "zulu",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "xhosa",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "sesotho",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "tswana",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "kongo",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "luganda",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "chichewa",
-    "bases": [
-      28
-    ]
-  },
-  {
-    "iso": "kikuyu",
-    "bases": [
-      28
     ]
   },
   {
@@ -20972,12 +20888,6 @@
     ]
   },
   {
-    "iso": "guarani",
-    "bases": [
-      27
-    ]
-  },
-  {
     "iso": "southern-quechua",
     "bases": [
       27
@@ -20993,114 +20903,6 @@
     "iso": "kichwa",
     "bases": [
       27
-    ]
-  },
-  {
-    "iso": "wayuu",
-    "bases": [
-      27
-    ]
-  },
-  {
-    "iso": "mapudungun",
-    "bases": [
-      27
-    ]
-  },
-  {
-    "iso": "qeqchi",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "kiche",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "yucatec-maya",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "mam",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "tzeltal",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "mixtec",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "tzotzil",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "zapotec",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "kaqchikel",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "otomi",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "totonac",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "chol",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "mazatec",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "qanjobal",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "huastec",
-    "bases": [
-      14
-    ]
-  },
-  {
-    "iso": "navajo",
-    "bases": [
-      14
     ]
   },
   {

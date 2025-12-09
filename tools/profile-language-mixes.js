@@ -163,13 +163,14 @@ function parseArgs(argv) {
 
   const iso = getValue("--iso");
   const family = getValue("--family");
+  const category = getValue("--category");
   const region = getValue("--region");
   const limitArg = getValue("--limit");
   const help = args.includes("--help") || args.includes("-h");
 
   const limit = limitArg ? parseInt(limitArg, 10) : null;
 
-  return {iso, family, region, limit, help};
+  return {iso, family, category, region, limit, help};
 }
 
 function printUsage() {
@@ -177,6 +178,7 @@ function printUsage() {
   console.log("Options:");
   console.log("  --iso=ID            Profile a single ISO/mix (e.g. afrikaans, kx'a-ao-ae).");
   console.log("  --family=NAME       Filter by family (e.g. Romance, Germanic, Uralic).");
+  console.log("  --category=NAME     Filter by category (e.g. Slavic, Afroasiatic, Austronesian).");
   console.log("  --region=NAME       Filter by region (e.g. Africa, Eurasia, Americas).");
   console.log("  --limit=N           Limit number of entries printed (after filters).\n");
   console.log("Examples:");
@@ -186,7 +188,7 @@ function printUsage() {
 }
 
 function main() {
-  const {iso, family, region, limit, help} = parseArgs(process.argv);
+  const {iso, family, category, region, limit, help} = parseArgs(process.argv);
   if (help) {
     printUsage();
     return;
@@ -227,6 +229,7 @@ function main() {
       if (!mapEntry || !Array.isArray(mapEntry.bases) || !mapEntry.bases.length) continue;
 
       if (family && mix.family !== family) continue;
+      if (category && mix.category !== category) continue;
       if (region && mix.region !== region) continue;
 
       targets.push({iso: mIso, mix, mapEntry});

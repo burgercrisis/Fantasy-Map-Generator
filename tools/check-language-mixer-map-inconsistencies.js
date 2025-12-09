@@ -73,6 +73,7 @@ function parseArgs(argv) {
   }
 
   const family = getValue("--family");
+  const category = getValue("--category");
   const region = getValue("--region");
   const limitArg = getValue("--limit");
   const showAllBases = args.includes("--show-all-bases");
@@ -80,13 +81,14 @@ function parseArgs(argv) {
 
   const limit = limitArg ? parseInt(limitArg, 10) : null;
 
-  return {family, region, limit, showAllBases, help};
+  return {family, category, region, limit, showAllBases, help};
 }
 
 function printUsage() {
   console.log("Usage: node tools/check-language-mixer-map-inconsistencies.js [options]\n");
   console.log("Options:");
   console.log("  --family=NAME       Filter mixes by family (e.g. Germanic, Romance, Uralic).");
+   console.log("  --category=NAME     Filter mixes by category (e.g. Slavic, Afroasiatic, Austronesian).");
   console.log("  --region=NAME       Filter mixes by region (e.g. Africa, Eurasia, Americas).");
   console.log("  --limit=N           Limit number of mixes considered after filters.");
   console.log("  --show-all-bases    Also print bases that do not look suspicious.\n");
@@ -97,7 +99,7 @@ function printUsage() {
 }
 
 function main() {
-  const {family, region, limit, showAllBases, help} = parseArgs(process.argv);
+  const {family, category, region, limit, showAllBases, help} = parseArgs(process.argv);
   if (help) {
     printUsage();
     return;
@@ -126,6 +128,7 @@ function main() {
   for (const [iso, mix] of mixByIso.entries()) {
     const mapEntry = mapByIso.get(iso) || null;
     if (family && mix.family !== family) continue;
+    if (category && mix.category !== category) continue;
     if (region && mix.region !== region) continue;
     isoEntries.push({iso, mix, mapEntry});
   }

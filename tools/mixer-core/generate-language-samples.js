@@ -15,7 +15,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "../..");
 
 function readJson(relPath) {
   const full = path.join(root, relPath);
@@ -215,7 +215,7 @@ function generateFromBaseConfig(baseConfig, rng, opts) {
 
   let name = generateOne(requestedMin, requestedMax);
 
-  const isKxa = baseConfig.i === 353 || baseConfig.i === 354;
+  const isKxa = baseConfig.i === 353 || baseConfig.i === 354 || baseConfig.i === 355;
   if (isKxa && typeof requestedMin === "number" && name.length < requestedMin) {
     const targetMin = requestedMin;
     const targetMax = requestedMax;
