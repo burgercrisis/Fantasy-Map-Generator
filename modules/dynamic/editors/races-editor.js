@@ -187,6 +187,31 @@ function racesEditorAddLines(stats) {
 
     const expansionism = r.expansionism ?? 1;
 
+    let languageMixerTip = "";
+    if (typeof getRaceLanguageProfile === "function") {
+      const profile = getRaceLanguageProfile(r.name);
+      if (profile && typeof profile === "object") {
+        const categories = Array.isArray(profile.categories) ? profile.categories.filter(Boolean) : [];
+        const families = Array.isArray(profile.families) ? profile.families.filter(Boolean) : [];
+        let approxCount = null;
+        if (typeof getRaceLanguageIsoWeights === "function") {
+          try {
+            const isoWeights = getRaceLanguageIsoWeights(r.name);
+            if (isoWeights && typeof isoWeights === "object") {
+              approxCount = Object.keys(isoWeights).length;
+            }
+          } catch (e) {}
+        }
+        const parts = [];
+        if (categories.length) parts.push(`Categories: ${categories.join(", ")}`);
+        if (families.length) parts.push(`Families: ${families.join(", ")}`);
+        if (approxCount != null) parts.push(`Approx mixer languages: ${approxCount}`);
+        if (parts.length) {
+          languageMixerTip = parts.join(" • ");
+        }
+      }
+    }
+
     totalArea += area;
     totalPopulation += population;
     totalCultures += s.cultures;
@@ -205,6 +230,8 @@ function racesEditorAddLines(stats) {
       data-cultures="${s.cultures}"
       data-states="${s.states}"
       data-burgs="${s.burgs}"
+      data-languages-tip="${languageMixerTip}"
+      data-tip="${languageMixerTip}"
     >
       <fill-box fill="${r.color || "#888888"}"></fill-box>
       <input data-tip="Race name. Click and type to change" class="raceName" style="width: 8em"

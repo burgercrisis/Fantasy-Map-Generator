@@ -11,8 +11,10 @@
     "mixer:full": "node tools/add-lexifier.js && node tools/diff-language-families.js && node tools/generate-language-mixer.js",
     "mixer:namedups": "node tools/check-language-mixer-name-duplicates.js",
     "mixer:failures": "node tools/check-language-mixer-failures.js",
+    "mixer:health": "node tools/run-language-mixer-health.js",
     "mixer:race-coverage": "node tools/report-race-language-coverage.js",
     "mixer:race-per-coverage": "node tools/report-per-race-language-coverage.js",
+    "mixer:race-suite": "node tools/run-race-language-suite.js",
     "mixer:clean-map": "node tools/clean-language-mixer-map.js"
   }
 }

@@ -70,8 +70,8 @@ const fantasyRaceBases = {
 
 const raceLanguageProfiles = {
   Elf: {
-    categories: ["Romance", "Celtic", "Uralic"],
-    families: ["Romance", "Celtic", "Uralic", "Sami"]
+    categories: ["Celtic", "Uralic"],
+    families: ["Celtic", "Uralic", "Sami"]
   },
   "Dark Elf": {
     categories: ["Slavic", "Germanic", "Romance"],
@@ -94,12 +94,12 @@ const raceLanguageProfiles = {
     families: ["Romance", "Germanic", "Celtic", "Uralic"]
   },
   "Half-Orc": {
-    categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
+    categories: ["Slavic", "Afroasiatic"],
     families: ["Slavic", "Afroasiatic", "Niger-Congo", "Semitic"]
   },
   Goblin: {
-    categories: ["Afroasiatic", "Niger-Congo"],
-    families: ["Afroasiatic", "Niger-Congo", "Semitic"]
+    categories: ["Niger-Congo"],
+    families: ["Niger-Congo", "Bantu"]
   },
   Orc: {
     categories: ["Slavic", "Niger-Congo"],
@@ -112,46 +112,35 @@ const raceLanguageProfiles = {
   Draconic: {
     categories: [
       "Sino-Tibetan",
-      "Japonic",
-      "Koreanic",
       "Mongolic",
-      "Tai-Kadai",
-      "Turkic",
-      "Hmong-Mien"
+      "Turkic"
     ],
-    families: ["Sino-Tibetan", "Japonic", "Koreanic", "Mongolic", "Turkic", "Tai-Kadai"]
+    families: ["Sino-Tibetan", "Mongolic", "Turkic"]
   },
   Dragonborn: {
     categories: [
       "Sino-Tibetan",
-      "Japonic",
-      "Koreanic",
       "Mongolic",
-      "Tai-Kadai",
       "Turkic",
-      "Hmong-Mien",
       "Indo-Aryan",
       "Iranian"
     ],
     families: [
       "Sino-Tibetan",
-      "Japonic",
-      "Koreanic",
       "Mongolic",
       "Turkic",
-      "Tai-Kadai",
       "Indo-Aryan",
       "Indo-Iranian",
       "Iranian"
     ]
   },
   Arachnid: {
-    categories: ["Afroasiatic", "Sino-Tibetan", "Indo-Aryan"],
-    families: ["Afroasiatic", "Semitic", "Sino-Tibetan", "Indo-Aryan"]
+    categories: ["Afroasiatic"],
+    families: ["Afroasiatic", "Semitic"]
   },
   Serpent: {
-    categories: ["Afroasiatic", "Sino-Tibetan", "Indo-Aryan", "Dravidian"],
-    families: ["Afroasiatic", "Semitic", "Sino-Tibetan", "Indo-Aryan", "Dravidian"]
+    categories: ["Sino-Tibetan", "Indo-Aryan", "Dravidian"],
+    families: ["Sino-Tibetan", "Indo-Aryan", "Dravidian"]
   },
   Tiefling: {
     categories: ["Afroasiatic"],
@@ -162,8 +151,8 @@ const raceLanguageProfiles = {
     families: ["Romance", "Germanic", "Semitic"]
   },
   Hobgoblin: {
-    categories: ["Slavic", "Afroasiatic"],
-    families: ["Slavic", "Afroasiatic", "Turkic", "Semitic"]
+    categories: ["Slavic", "Germanic"],
+    families: ["Slavic", "Germanic", "Turkic"]
   },
   Goliath: {
     categories: [
@@ -185,39 +174,16 @@ const raceLanguageProfiles = {
     ]
   },
   Lizardfolk: {
-    categories: [
-      "Niger-Congo",
-      "Afroasiatic",
-      "Austronesian",
-      "Nilo-Saharan",
-      "Tupian",
-      "Quechuan",
-      "Arawakan",
-      "Mayan",
-      "Algic",
-      "Iroquoian"
-    ],
-    families: [
-      "Niger-Congo",
-      "Bantu",
-      "Afroasiatic",
-      "Austronesian",
-      "Nilo-Saharan",
-      "Tupian",
-      "Quechuan",
-      "Arawakan",
-      "Mayan",
-      "Algic",
-      "Iroquoian"
-    ]
+    categories: ["Niger-Congo", "Afroasiatic", "Nilo-Saharan"],
+    families: ["Niger-Congo", "Bantu", "Afroasiatic", "Nilo-Saharan"]
   },
   Shifter: {
     categories: ["Celtic", "Germanic", "Niger-Congo"],
     families: ["Celtic", "Germanic", "Niger-Congo", "Bantu"]
   },
   Gnoll: {
-    categories: ["Afroasiatic", "Niger-Congo", "Nilo-Saharan"],
-    families: ["Afroasiatic", "Niger-Congo", "Nilo-Saharan", "Semitic"]
+    categories: ["Afroasiatic", "Nilo-Saharan"],
+    families: ["Afroasiatic", "Nilo-Saharan", "Semitic"]
   },
   Bugbear: {
     categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
@@ -227,7 +193,6 @@ const raceLanguageProfiles = {
     categories: [
       "Niger-Congo",
       "Afroasiatic",
-      "Austronesian",
       "Tupian",
       "Quechuan",
       "Ticuna–Yuri",
@@ -237,7 +202,6 @@ const raceLanguageProfiles = {
       "Aymaran",
       "Araucanian",
       "Oto-Manguean",
-      "Algic",
       "Iroquoian",
       "Misumalpan"
     ],
@@ -245,7 +209,6 @@ const raceLanguageProfiles = {
       "Niger-Congo",
       "Bantu",
       "Afroasiatic",
-      "Austronesian",
       "Tupian",
       "Quechuan",
       "Ticuna–Yuri",
@@ -258,9 +221,6 @@ const raceLanguageProfiles = {
   },
   Kenku: {
     categories: [
-      "Niger-Congo",
-      "Afroasiatic",
-      "Sino-Tibetan",
       "Algic",
       "Uto-Aztecan",
       "Salishan",
@@ -270,12 +230,6 @@ const raceLanguageProfiles = {
       "Eskimo–Aleut"
     ],
     families: [
-      "Niger-Congo",
-      "Afroasiatic",
-      "Sino-Tibetan",
-      "Austronesian",
-      "Micronesian",
-      "Polynesian",
       "Algic",
       "Uto-Aztecan",
       "Salishan",
@@ -309,8 +263,8 @@ const raceLanguageProfiles = {
     ]
   },
   Triton: {
-    categories: ["Austronesian", "Romance", "Papuan"],
-    families: ["Austronesian", "Micronesian", "Polynesian", "Papuan", "Romance"]
+    categories: ["Austronesian", "Papuan"],
+    families: ["Austronesian", "Micronesian", "Polynesian", "Papuan"]
   },
   "Yuan-ti": {
     categories: ["Sino-Tibetan", "Tai-Kadai"],
@@ -321,8 +275,8 @@ const raceLanguageProfiles = {
     families: ["Celtic", "Germanic", "Uralic", "Sami"]
   },
   Gith: {
-    categories: ["Sino-Tibetan", "Uralic", "Dravidian", "Turkic"],
-    families: ["Sino-Tibetan", "Uralic", "Dravidian", "Turkic", "Mongolic"]
+    categories: ["Sino-Tibetan", "Uralic", "Turkic", "Mongolic"],
+    families: ["Sino-Tibetan", "Uralic", "Turkic", "Mongolic"]
   },
   Genasi: {
     categories: ["Indo-Aryan", "Iranian"],
@@ -354,19 +308,19 @@ const raceLanguageProfiles = {
   },
   Dhampir: {
     categories: ["Slavic", "Romance"],
-    families: ["Slavic", "Romance", "Romani", "Baltic"]
+    families: ["Slavic", "Romani", "Baltic"]
   },
   Reborn: {
     categories: ["Slavic", "Germanic", "Sino-Tibetan", "Unclassified"],
     families: ["Slavic", "Germanic", "Sino-Tibetan", "Romani", "Unclassified"]
   },
   "Shadar-kai": {
-    categories: ["Slavic", "Germanic", "Romance"],
+    categories: ["Slavic", "Germanic"],
     families: ["Slavic", "Germanic", "Romance", "Baltic", "Romani"]
   },
   Hexblood: {
     categories: ["Slavic", "Germanic", "Romance", "Celtic"],
-    families: ["Slavic", "Germanic", "Romance", "Baltic", "Romani", "Celtic"]
+    families: ["Slavic", "Germanic", "Baltic", "Romani", "Celtic"]
   },
   Centaur: {
     categories: ["Greek", "Romance", "Iranian"],
@@ -375,7 +329,6 @@ const raceLanguageProfiles = {
   Leonin: {
     categories: [
       "Niger-Congo",
-      "Afroasiatic",
       "Nilo-Saharan",
       "Mande",
       "Khoe-Kwadi",
@@ -385,7 +338,6 @@ const raceLanguageProfiles = {
     families: [
       "Niger-Congo",
       "Bantu",
-      "Afroasiatic",
       "Nilo-Saharan",
       "Semitic",
       "Mande",
@@ -403,27 +355,26 @@ const raceLanguageProfiles = {
     families: ["Celtic", "Germanic", "Uralic", "Sami", "Romance"]
   },
   Tortle: {
-    categories: ["Austronesian", "Dravidian", "Papuan", "Australian Aboriginal"],
+    categories: ["Austronesian", "Papuan", "Australian Aboriginal"],
     families: [
       "Austronesian",
       "Micronesian",
       "Polynesian",
       "Papuan",
-      "Dravidian",
       "Australian Aboriginal"
     ]
   },
   Giff: {
-    categories: ["Germanic", "Romance", "Pidgin", "Creole", "Mixed"],
+    categories: ["Germanic", "Romance", "Creole", "Pidgin"],
     families: ["Germanic", "Romance", "English-based", "French-based", "Pidgin"]
   },
   Owlin: {
     categories: ["Uralic", "Sino-Tibetan"],
-    families: ["Uralic", "Sami", "Sino-Tibetan", "Mongolic"]
+    families: ["Uralic", "Sami", "Sino-Tibetan"]
   },
   "Thri-Kreen": {
-    categories: ["Afroasiatic", "Sino-Tibetan"],
-    families: ["Afroasiatic", "Semitic", "Sino-Tibetan", "Niger-Congo"]
+    categories: ["Afroasiatic", "Nilo-Saharan"],
+    families: ["Afroasiatic", "Semitic", "Berber", "Chadic", "Nilo-Saharan"]
   },
   Oni: {
     categories: ["Japonic", "Koreanic", "Austroasiatic", "Hmong-Mien", "Ainu"],
@@ -436,7 +387,6 @@ const raceLanguageProfiles = {
   Deepkin: {
     categories: [
       "Austronesian",
-      "Sino-Tibetan",
       "Papuan",
       "Australian Aboriginal",
       "Eskimo-Aleut"
@@ -446,17 +396,12 @@ const raceLanguageProfiles = {
       "Micronesian",
       "Polynesian",
       "Papuan",
-      "Sino-Tibetan",
       "Australian Aboriginal",
       "Eskimo-Aleut"
     ]
   },
   Starspawn: {
     categories: [
-      "Sino-Tibetan",
-      "Uralic",
-      "Dravidian",
-      "Mongolic",
       "Tungusic",
       "Yeniseian",
       "Yukaghir",
@@ -466,11 +411,6 @@ const raceLanguageProfiles = {
       "Eskimo-Aleut"
     ],
     families: [
-      "Sino-Tibetan",
-      "Uralic",
-      "Dravidian",
-      "Turkic",
-      "Mongolic",
       "Nivkh",
       "Yeniseian",
       "Yukaghir",

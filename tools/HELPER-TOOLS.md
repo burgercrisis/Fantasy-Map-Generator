@@ -116,7 +116,7 @@ Run this to understand coverage gaps before/after mapping changes.
 
 ---
 
-### `check-language-mixer-failures.js` / `check-markov-mixer-failures.js`
+### `check-language-mixer-failures.js`
 
 **Purpose**
 
@@ -145,11 +145,7 @@ Static analysis for catalog languages that would fail in the local mixer because
 
 ```bash
 node tools/check-language-mixer-failures.js
-# or (legacy alias)
-node tools/check-markov-mixer-failures.js
 ```
-
-Prefer `check-language-mixer-failures.js`; `check-markov-mixer-failures.js` is a near-duplicate kept for backwards compatibility.
 
 ---
 
@@ -418,7 +414,9 @@ Backfills catalog entries for **every** ISO present in the mixer map but missing
 node tools/fill-all-missing-mixes.js
 ```
 
-Run this after you’ve expanded the mixer map and want basic, auto-generated catalog entries for all mapped ISOs.
+Run this after you’ve expanded the mixer map when you want basic, auto-generated catalog entries for all mapped ISOs.
+
+Note: `fill-missing-mixes-explicit.js` is a narrower, curated-only variant that uses the same META table but only touches a fixed set of important ISOs.
 
 ---
 
@@ -435,7 +433,7 @@ Final clean-up pass for a curated list of important ISOs: if they’re in the ma
 
 **Behavior**
 
-- Uses a `META` object (same shape as in `fill-all-missing-mixes.js`) to describe a specific set of languages.
+- Uses the same `META` object as in `fill-all-missing-mixes.js` to describe a specific set of languages.
 - Adds catalog entries only when an ISO is **both** in the map and missing from the catalog.
 
 **Usage**
@@ -444,7 +442,91 @@ Final clean-up pass for a curated list of important ISOs: if they’re in the ma
 node tools/fill-missing-mixes-explicit.js
 ```
 
-Run this after `fill-family-mixes`/`fill-all-missing-mixes` to ensure a few stubborn, high-priority entries are covered nicely.
+Run this after `fill-family-mixes.js` (and any other family-specific fillers) **if you choose not to run** `fill-all-missing-mixes.js`, but still want the curated set of important ISOs to be covered with rich metadata.
+
+If you already ran `fill-all-missing-mixes.js`, this script will typically be a no-op because those ISOs will already be present in the catalog.
+
+---
+
+### `add-african-languages.js`
+
+**Purpose**
+
+Adds a curated set of underrepresented African languages to the mixer catalog and, where possible, wires them into the mapping using existing Niger–Congo / Afroasiatic family bases.
+
+**Inputs / Outputs**
+
+- Reads & overwrites `config/language-mixes.json`
+- Reads & overwrites `config/language-mixer-map.json`
+
+**Behavior**
+
+- For each language in an internal `AFRICA_ROWS` list:
+  - Creates a catalog entry with `region: "Africa"` and inferred `category` / `family`.
+  - If possible, copies `bases[]` from existing `niger-congo-family` or `afroasiatic-family` map entries.
+- Skips any language that already exists in the catalog.
+
+**Usage**
+
+```bash
+node tools/add-african-languages.js
+```
+
+Run this when expanding African coverage using the curated list of languages.
+
+---
+
+### `add-trans-new-guinea-mixer.js`
+
+**Purpose**
+
+Expands the Papuan / Trans–New Guinea side of the mixer by adding family nodes and leaf languages, and wiring them to appropriate Papuan namebase clusters.
+
+**Inputs / Outputs**
+
+- Reads & overwrites `config/language-mixes.json`
+- Reads & overwrites `config/language-mixer-map.json`
+
+**Behavior**
+
+- Ensures a set of Papuan family/branch nodes (e.g. `papuan-family`, `trans-new-guinea`, `timor-alor-pantar`) exist in the catalog and map.
+- Adds many leaf languages under these branches with sensible `region`, `category: "Papuan"`, and `family` values.
+- Chooses `bases[]` from several Papuan base clusters (highlands, coastal, etc.) depending on the subgroup.
+
+**Usage**
+
+```bash
+node tools/add-trans-new-guinea-mixer.js
+```
+
+Use this after defining Papuan namebases when you want the Trans–New Guinea hierarchy represented in the mixer.
+
+---
+
+### `fill-mongolic-mixes.js`
+
+**Purpose**
+
+Adds and tunes Mongolic and closely related varieties in both the catalog and mixer map, giving them consistent metadata and appropriate Mongolic base indices.
+
+**Inputs / Outputs**
+
+- Reads & overwrites `config/language-mixes.json`
+- Reads & overwrites `config/language-mixer-map.json`
+
+**Behavior**
+
+- Upserts a large set of Mongolic entries (Khalkha, Oirat-Kalmyk, Buryat, Dagur, Yugur, Shirongolic, Baoanic, Santa/Dongxiang, historical Mongolic, etc.).
+- For each ISO in a `MONGOLIC_BASES` table, overwrites or creates a mapping entry with the desired `bases[]` (typically combinations of Mongolian, Buryat, Kalmyk, and Chinese indices).
+- Re-sorts both catalog and map for stable output.
+
+**Usage**
+
+```bash
+node tools/fill-mongolic-mixes.js
+```
+
+Run this when working on Mongolic coverage so catalog and mappings stay in sync.
 
 ---
 
@@ -511,31 +593,549 @@ Use this after reviewing `report-namebase-duplicates.js` to safely clean specifi
 
 ---
 
-## Regional / Family Updaters (Stubs & Future Work)
+## Mixer Diagnostics & Cleanup
 
-These scripts are reserved for more specialized normalization or expansion passes. Some are currently empty stubs, included here for completeness.
+These helpers report on the health and structure of the mixer catalog and mapping, and a few perform focused clean-up passes.
+
+### `run-language-mixer-health.js`
+
+**Purpose**
+
+Runs a read-only diagnostics suite over the mixer catalog and mapping, aggregating the outputs of several health checks into a single summarized report.
+
+**What it runs**
+
+By default it runs, in order:
+
+- `diff-language-families.js`
+- `check-language-mixer-coverage.js`
+- `check-language-mixer-failures.js`
+- `check-language-mixer-name-duplicates.js`
+- `report-language-mixer-duplicates.js`
+- `report-language-mixer-base-clusters.js`
+
+It then prints a short summary of each tools stdout.
+
+**Usage**
+
+```bash
+node tools/run-language-mixer-health.js [options]
+```
+
+Options:
+
+- `--no-family-diff`  skip `diff-language-families.js`
+- `--no-coverage`  skip `check-language-mixer-coverage.js`
+- `--no-failures`  skip `check-language-mixer-failures.js`
+- `--no-name-dups`  skip `check-language-mixer-name-duplicates.js`
+- `--no-fuzzy-dups`  skip `report-language-mixer-duplicates.js`
+- `--no-base-clusters`  skip `report-language-mixer-base-clusters.js`
+- `--full-output`  show full stdout from each tool instead of only the first paragraph
+- `--base-min-size=N`  forward `--min-size=N` to `report-language-mixer-base-clusters.js`
+- `--base-family=VALUE`  forward `--family=VALUE` to `report-language-mixer-base-clusters.js`
+- `--base-category=VALUE`  forward `--category=VALUE` to `report-language-mixer-base-clusters.js`
+- `--base-region=VALUE`  forward `--region=VALUE` to `report-language-mixer-base-clusters.js`
+
+Use this when you want a quick, read-only health snapshot without running any mutating helpers.
+
+---
+
+### `check-language-mixer-name-duplicates.js`
+
+**Purpose**
+
+Reports **exact** duplicate language names in `config/language-mixes.json` (byte-for-byte identical `name` strings after trimming).
+
+**Inputs**
+
+- `config/language-mixes.json`
+
+**Outputs**
+
+- Console report listing each duplicated name and the corresponding catalog entries (ISO, region, family, category, tags).
+
+**Usage**
+
+```bash
+node tools/check-language-mixer-name-duplicates.js
+```
+
+Use this when you want a strict view of name collisions, complementary to the normalized-name clusters below.
+
+---
+
+### `report-language-mixer-duplicates.js`
+
+**Purpose**
+
+Finds potentially non-unique languages in the catalog by:
+
+- Detecting duplicate ISO codes.
+- Grouping entries that normalize to the same language name (after stripping generic suffixes and parentheses), while skipping groups that are clearly pure family macros.
+
+**Inputs**
+
+- `config/language-mixes.json`
+
+**Outputs**
+
+- Console report with duplicate ISOs and normalized-name clusters, indicating which entries are higher-level families vs. concrete languages.
+
+**Usage**
+
+```bash
+node tools/report-language-mixer-duplicates.js
+```
+
+Use this when refactoring or de-duplicating the catalog; it provides a broader, fuzzier picture than the exact-name checker.
+
+---
+
+### `report-language-mixer-base-clusters.js`
+
+**Purpose**
+
+Shows clusters of catalog languages that share **identical** `bases[]` sets in `config/language-mixer-map.json`.
+
+**Inputs**
+
+- `config/language-mixer-map.json`
+- `config/language-mixes.json`
+
+**Outputs**
+
+- Console report listing, for each base-set cluster above a configurable size, the shared `bases[]` and all member languages (ISO, name, region, family, category, tags).
+
+**Usage**
+
+```bash
+node tools/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...]
+```
+
+Useful for spotting over-dense mappings (many languages all reusing the same base set) or opportunities to split clusters.
+
+---
+
+### `check-special-families.js`
+
+**Purpose**
+
+Summarizes coverage and metadata quality for several special language groups in the catalog:
+
+- Hmong–Mien / Yao
+- Isolates / unclassified
+- Paleosiberian / Arctic fringe families
+- Uralic and related branches
+
+**Inputs**
+
+- `config/language-mixes.json`
+
+**Outputs**
+
+- Per-group counts and how many entries are missing `region`, `family`, or `category`, plus small samples.
+- A combined summary across all groups.
+
+**Usage**
+
+```bash
+node tools/check-special-families.js
+```
+
+Run this before or after regional updaters when you want to see which special families still need metadata attention.
+
+---
+
+### `clean-language-mixer-map.js`
+
+**Purpose**
+
+Removes mapping entries whose ISO does **not** exist in the catalog, keeping `config/language-mixer-map.json` aligned with `config/language-mixes.json`.
+
+**Inputs / Outputs**
+
+- Reads & overwrites `config/language-mixer-map.json`
+- Reads `config/language-mixes.json`
+
+**Behavior**
+
+- Builds the set of catalog ISOs, then filters the mapping to only those.
+- Prints how many entries were kept vs. dropped and shows a sample of dropped entries.
+
+**Usage**
+
+```bash
+node tools/clean-language-mixer-map.js
+```
+
+Run this after larger catalog refactors to prevent orphaned mapping entries, then regenerate bundles with `generate-language-mixer.js`.
+
+---
+
+### `retune-african-mappings.js`
+
+**Purpose**
+
+Refines African language mappings that still point at generic Niger–Congo / Afroasiatic family bases, replacing them with more specific African base indices where possible.
+
+**Inputs / Outputs**
+
+- Reads & overwrites `config/language-mixer-map.json`
+- Reads `config/language-mixes.json`
+
+**Behavior**
+
+- Detects map entries whose `bases[]` exactly match certain generic African family base sets.
+- Uses token heuristics over the language's name/family/category (Bambara, Hausa, Yoruba, etc.) to choose a more specific base index.
+- Updates `bases[]` to that specific index and prints a list of retuned mappings.
+
+**Usage**
+
+```bash
+node tools/retune-african-mappings.js
+```
+
+Use this after broad African family expansions to clean up overly generic mappings.
+
+---
+
+### `fix-language-mixer-mappings.head.js`
+
+**Purpose / status**
+
+Historical/experimental variant of `fix-language-mixer-mappings.js` kept for reference. It is **not** used by `run-language-mixer-suite.js` and is generally not part of the normal workflow.
+
+Prefer `fix-language-mixer-mappings.js` unless you have a specific reason to inspect or compare this older variant.
+
+---
+
+## Regional / Family Updaters
+
+These helpers normalize `category`, `family`, and `region` metadata for specific macrofamilies in `config/language-mixes.json`. All of them read & overwrite that file and re-sort entries by `region + name`.
+
+### `update-language-tags.js`
+
+**Purpose**
+
+Adds consistent semantic tags (e.g. `family`, `dialect`, `proto`, `historical`, `judeo`) based on the language's name and ISO.
+
+**Behavior**
+
+- Marks obvious family/group entries with `"family"`.
+- Tags dialect collections with `"dialect"`.
+- Tags proto / historical varieties with `"proto"` and/or `"historical"`.
+- Tags Judaeo-/Judeo- varieties with `"judeo"`.
+
+**Usage**
+
+```bash
+node tools/update-language-tags.js
+```
+
+Run this after adding or renaming macro entries so their tags stay consistent.
+
+---
+
+### `update-afroasiatic.js`
+
+**Purpose**
+
+Normalizes Afroasiatic entries.
+
+**Behavior**
+
+- Targets entries where `category === "Afroasiatic"` or `family === "Afroasiatic"` when `category` is missing.
+- Ensures `category: "Afroasiatic"`, `family: "Afroasiatic"` (when family is missing/"Other"/"Unclassified"), and `region: "Afroasiatic region"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-afroasiatic.js
+```
+
+---
+
+### `update-austroasiatic.js`
+
+**Purpose**
+
+Normalizes Austroasiatic and related subfamilies (Aslian, Munda, Bahnaric, Katuic, Nicobarese, Pearic, Khmeric, Khmuic, Pakanic, Khasic).
+
+**Behavior**
+
+- Targets entries whose category is "Austroasiatic" or whose family is one of those Austroasiatic subfamilies.
+- Ensures `category: "Austroasiatic"`, `family: "Austroasiatic"` (when missing/"Other"/"Unclassified"), and `region: "Asia"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-austroasiatic.js
+```
+
+---
+
+### `update-austronesian.js`
+
+**Purpose**
+
+Normalizes Austronesian entries.
+
+**Behavior**
+
+- Targets entries where `category === "Austronesian"` or `family === "Austronesian"` when `category` is missing.
+- Ensures `category: "Austronesian"`, `family: "Austronesian"` (when missing/"Other"/"Unclassified"), and, if `region` is missing, sets it to `"Pacific"`.
+
+**Usage**
+
+```bash
+node tools/update-austronesian.js
+```
+
+---
+
+### `update-dravidian.js`
+
+**Purpose**
+
+Normalizes Dravidian entries.
+
+**Behavior**
+
+- Targets entries where `category === "Dravidian"` or `family === "Dravidian"` when `category` is missing.
+- Ensures `category: "Dravidian"`, `family: "Dravidian"` (when missing/"Other"/"Unclassified"), and `region: "Asia"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-dravidian.js
+```
+
+---
 
 ### `update-hmong-mien.js`
 
-- **Current state:** empty stub (no implementation yet).
-- **Intended role:** future helper to normalize/expand Hmong–Mien and related entries in `language-mixes.json`.
+**Purpose**
 
-### `update-isolates.js`
+Normalizes Hmong–Mien entries.
 
-- **Current state:** empty stub.
-- **Intended role:** future helper for language isolates (e.g. Basque, etc.), potentially harmonizing categories/regions.
+**Behavior**
 
-### `update-paleosiberian.js`
+- Targets entries where `category === "Hmong-Mien"` or `family === "Hmong-Mien"` when `category` is missing.
+- Ensures `category: "Hmong-Mien"`, `family: "Hmong-Mien"` (when missing/"Other"/"Unclassified"), and `region: "East Asia"` when missing.
 
-- **Current state:** empty stub.
-- **Intended role:** future helper for Paleosiberian / Paleo-Siberian groupings in the catalog.
+**Usage**
+
+```bash
+node tools/update-hmong-mien.js
+```
+
+---
+
+### `update-indo-aryan.js`
+
+**Purpose**
+
+Normalizes Indo-Aryan entries.
+
+**Behavior**
+
+- Targets entries where `category === "Indo-Aryan"` or `family` contains "Indo-Aryan" when `category` is missing.
+- Ensures `category: "Indo-Aryan"`, `family: "Indo-Aryan"` (when missing/"Other"/"Unclassified"), and `region: "Asia"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-indo-aryan.js
+```
+
+---
+
+### `update-kartvelian.js`
+
+**Purpose**
+
+Normalizes Kartvelian (South Caucasian) entries.
+
+**Behavior**
+
+- Targets entries where `category === "Kartvelian"` or `family === "Kartvelian"` when `category` is missing.
+- Ensures `category: "Kartvelian"`, `family: "Kartvelian"` (when missing/"Other"/"Unclassified"), and `region: "Caucasus"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-kartvelian.js
+```
+
+---
+
+### `update-niger-congo.js`
+
+**Purpose**
+
+Normalizes Niger–Congo entries.
+
+**Behavior**
+
+- Targets entries where `category === "Niger-Congo"` or `family === "Niger-Congo"` when `category` is missing.
+- Ensures `category: "Niger-Congo"`, `family: "Niger-Congo"` (when missing/"Other"/"Unclassified"), and `region: "Africa"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-niger-congo.js
+```
+
+---
+
+### `update-turkic.js`
+
+**Purpose**
+
+Normalizes Turkic entries.
+
+**Behavior**
+
+- Targets entries where `category === "Turkic"` or `family` contains "Turkic" when `category` is missing.
+- Ensures `category: "Turkic"`, `family: "Turkic"` (when missing/"Other"/"Unclassified"), and `region: "Asia"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-turkic.js
+```
+
+---
 
 ### `update-uralic.js`
 
-- **Current state:** empty stub.
-- **Intended role:** future normalization and expansion for Uralic families and branches.
+**Purpose**
 
-When these gain implementations they should be documented here in the same style as `update-romance.js`.
+Normalizes Uralic entries (including Finnic, Sami, Samoyedic, Ugric, etc.).
+
+**Behavior**
+
+- Targets entries where `category === "Uralic"` or `family` mentions Uralic-related branches (Finnic, Sami/Saami, Khanty, Mansi, Nenets, Nganasan, Selkup, Enets, Mari, Mordvin, Komi, Udmurt, Karelian, Veps, Votic, Livonian, Hungarian, etc.) when `category` is missing.
+- Ensures `category: "Uralic"`, `family: "Uralic"` (when missing/"Other"/"Unclassified"), and `region: "Eurasia"` when missing.
+
+**Usage**
+
+```bash
+node tools/update-uralic.js
+```
+
+---
+
+## Race Language Coverage & Palettes
+
+These read-only helpers inspect how fantasy race language profiles interact with the mixer catalog.
+
+### `run-race-language-suite.js`
+
+**Purpose**
+
+Runs a small suite of race-related language diagnostics and prints summarized outputs from multiple helpers.
+
+**What it runs**
+
+By default it runs, in order:
+
+- `check-race-language-profiles.js`
+- `report-per-race-language-coverage.js`
+- `report-race-language-coverage.js`
+- `report-race-language-palettes.js`
+
+**Usage**
+
+```bash
+node tools/run-race-language-suite.js [options]
+```
+
+Options:
+
+- `--no-profiles`  skip `check-race-language-profiles.js`
+- `--no-per`  skip `report-per-race-language-coverage.js`
+- `--no-coverage`  skip `report-race-language-coverage.js`
+- `--no-palettes`  skip `report-race-language-palettes.js`
+- `--full-output`  show full stdout from each tool instead of only the first paragraph
+
+Use this when tuning raceLanguageProfiles or race palettes and you want a single command to run the core race diagnostics.
+
+---
+
+### `report-per-race-language-coverage.js`
+
+**Purpose**
+
+For each fantasy race, reports how many catalog languages it can reach via its `raceLanguageProfiles` (categories/families) and what percentage of the real (non-macro) catalog that represents.
+
+**Inputs**
+
+- `config/language-mixes.json`
+- `modules/races.js` (parses the `raceLanguageProfiles` object literal)
+
+**Outputs**
+
+- Total count of real catalog entries (excluding family macros).
+- Per-race language counts and percentages, warning if any race effectively has 100% coverage.
+
+**Usage**
+
+```bash
+node tools/report-per-race-language-coverage.js
+```
+
+---
+
+### `report-race-language-coverage.js`
+
+**Purpose**
+
+Shows which catalog languages are **eligible** for at least one race profile vs. those that are **never** selected by any race, and whether the unused languages already have mappings.
+
+**Inputs**
+
+- `config/language-mixes.json`
+- `config/language-mixer-map.json` (optional; used to flag mapped vs unmapped)
+- `modules/races.js`
+
+**Outputs**
+
+- Counts of catalog languages covered vs. uncovered by race profiles.
+- Detailed list of uncovered languages (ISO, name, region, family, category, mapped?).
+
+**Usage**
+
+```bash
+node tools/report-race-language-coverage.js
+```
+
+Run this when designing new races or adjusting profiles so you can target currently-unused languages.
+
+---
+
+### `report-race-language-palettes.js`
+
+**Purpose**
+
+Summarizes how broad each race's language palette is (how many ISOs, how many regions/categories/families it spans).
+
+**Inputs**
+
+- `config/language-mixes.json`
+- `modules/races.js`
+
+**Outputs**
+
+- For each race: ISO count plus distinct region, category, and family counts; ranked by ISO count.
+
+**Usage**
+
+```bash
+node tools/report-race-language-palettes.js
+```
+
+Run this to compare how narrow or broad different races' language palettes are.
 
 ---
 
@@ -552,12 +1152,18 @@ When these gain implementations they should be documented here in the same style
    - `node tools/fix-language-mixer-mappings.js`
    - `node tools/fill-family-mixes.js`
    - `node tools/fill-sino-tibetan-mixes.js`
-   - `node tools/fill-all-missing-mixes.js`
-   - `node tools/fill-missing-mixes-explicit.js`
+   - (optional) family/region-specific passes such as:
+     - `node tools/fill-mongolic-mixes.js`
+     - `node tools/add-african-languages.js`
+     - `node tools/add-trans-new-guinea-mixer.js`
+   - then choose **one** of:
+     - `node tools/fill-all-missing-mixes.js` – backfill every mapped ISO with at least basic metadata.
+     - `node tools/fill-missing-mixes-explicit.js` – only add the curated set of important ISOs using hand-picked metadata.
 4. Sanity check:
    - `node tools/check-language-mixer-coverage.js`
    - `node tools/check-language-mixer-failures.js`
    - `node tools/report-language-mixer-name-counts.js --sort=unique`
+   - `node tools/run-language-mixer-health.js` (read-only diagnostics)
 5. Regenerate bundles:
    - `node tools/generate-language-mixer.js`
 
@@ -566,3 +1172,38 @@ Or, for a condensed pass:
 ```bash
 node tools/run-language-mixer-suite.js --name-counts --name-counts-sort=unique
 ```
+
+For a **read-only diagnostics-only** pass (no writes to config files):
+
+```bash
+pnpm run mixer:health
+# or:
+# node tools/run-language-mixer-health.js
+```
+
+### Playbook: Common Mixer & Race Workflows
+
+- **Mixer – full maintenance (mutating)**  
+  Use the orchestrator directly or via npm/pnpm:
+  - `node tools/run-language-mixer-suite.js --name-counts --name-counts-sort=unique`
+  - `pnpm run generate:language-mixer`
+  - `pnpm run mixer:full`
+
+- **Mixer – read-only health checks**  
+  Quickly inspect families, coverage, failures, and base clusters without writing files:
+  - `pnpm run mixer:health`
+
+- **Mixer – targeted checks & cleanup**  
+  When focusing on one concern:
+  - Coverage drift only: `pnpm run mixer:coverage`
+  - Family drift only: `pnpm run diff:families`
+  - Name duplicates only: `pnpm run mixer:namedups`
+  - Failures only: `pnpm run mixer:failures`
+  - Clean orphaned mappings: `pnpm run mixer:clean-map`
+
+- **Races – coverage & palettes**  
+  For a full snapshot of race language behavior:
+  - `pnpm run mixer:race-suite`
+  For individual reports:
+  - Coverage summary: `pnpm run mixer:race-coverage`
+  - Per-race counts: `pnpm run mixer:race-per-coverage`

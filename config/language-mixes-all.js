@@ -16396,6 +16396,14 @@
     "family": "Language isolate"
   },
   {
+    "name": "Hopi",
+    "iso": "hopi",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hopi_language",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Huichol",
     "iso": "huichol",
     "region": "North America",
@@ -16559,6 +16567,14 @@
     ]
   },
   {
+    "name": "O'odham",
+    "iso": "oodham",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/O%27odham_language",
+    "family": "Uto-Aztecan"
+  },
+  {
     "name": "Ojibwe",
     "iso": "ojibwe",
     "region": "North America",
@@ -16585,6 +16601,14 @@
     "category": "Salishan",
     "wikipedia": "https://en.wikipedia.org/wiki/Salishan_languages",
     "family": "Salishan"
+  },
+  {
+    "name": "Tarahumara",
+    "iso": "tarahumara",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tarahumara_language",
+    "family": "Uto-Aztecan"
   },
   {
     "name": "Tlingit",
