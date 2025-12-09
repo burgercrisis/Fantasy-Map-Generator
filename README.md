@@ -5,6 +5,8 @@ So far what I've done is:
 
 - Add a small fantasy race system. It has some campaign setting sets, and integrates alongside the cultures system.
 
+- [More detail](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Changes-vs-Azgaar-master.md)
+
 
 Planned:
 
