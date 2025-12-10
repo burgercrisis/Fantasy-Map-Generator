@@ -1,0 +1,22 @@
+{
+  "title": "Wikipedia: Indigenous languages of the Americas – macro-family subset",
+  "source": "https://en.wikipedia.org/wiki/Indigenous_languages_of_the_Americas",
+  "items": [
+    { "name": "Nahuatl", "iso": "nah" },
+    { "name": "Quechua", "iso": "que" },
+    { "name": "Guarani", "iso": "guarani" },
+    { "name": "Aymara", "iso": "aymara" },
+    { "name": "Mapudungun", "iso": "mapudungun" },
+    { "name": "Tikuna", "iso": "tikuna" },
+    { "name": "Navajo", "iso": "navajo" },
+    { "name": "Cree", "iso": "cree" },
+    { "name": "Ojibwe", "iso": "ojibwe" },
+    { "name": "Tlingit", "iso": "tlingit" },
+    { "name": "Salish", "iso": "salish" },
+    { "name": "Wayuu", "iso": "wayuu" },
+    { "name": "Cherokee", "iso": "cherokee" },
+    { "name": "Mazatec", "iso": "mazatec" },
+    { "name": "Huastec", "iso": "huastec" },
+    { "name": "Mi'kmaq", "iso": "mikmaq" }
+  ]
+}

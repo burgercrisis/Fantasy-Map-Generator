@@ -76,6 +76,7 @@ Status:
 Takeaway:
 - Core Romance macro-family is in **good shape** for fantasy-mapping use.
 - If needed, we can later split e.g. **Latin vs modern Romance** more cleanly, or add a second Spanish/Portuguese base if they feel too samey across regions.
+- **Linked Wikipedia lists:** planned *Languages of Europe* subset (see §8.7 once created).
 
 ### 2.2 Uralic / Finnic cluster
 
@@ -91,6 +92,7 @@ Takeaway:
 - `i:9` currently acts as a **macro-Finnic / generic Uralic** base.
 - We explicitly accepted this as a **macro-family anchor**, not a bug, but it reduces differentiation across Uralic sub-branches.
 - Future enhancement: introduce **one or two additional Uralic bases** (e.g. East Uralic vs Finnic) if we want sharper internal contrast.
+- **Linked Wikipedia lists:** planned *Languages of Europe* subset (see §8.7 once created).
 
 ### 2.3 Germanic cluster
 
@@ -114,6 +116,7 @@ Takeaway:
 - Germanic macro-family is in **usable** shape.
 - Some internal asymmetry (e.g. English being the most conservative on duplication) is currently accepted for flavor.
 - No immediate `min/max` changes applied; we treat `d:"lnrt"` as the default for **new Germanic-like bases**.
+- **Linked Wikipedia lists:** planned *Languages of Europe* subset (see §8.7 once created).
 
 ### 2.4 Semitic / Afroasiatic (Levantine + surrounds)
 
@@ -131,6 +134,7 @@ Status:
 Takeaway:
 - Semitic macro-family is **serviceable**; names feel distinct from Indo-European clusters.
 - Arabic and Mesopotamian act as broad central anchors for many related ISOs in the mixer.
+- **Linked Wikipedia lists:** planned *Languages of West Asia* subset (see §8.8 once created).
 
 ### 2.5 Nahuatl & Quechua
 
@@ -184,6 +188,7 @@ Takeaway:
   - split East Slavic further (e.g. Russian vs Ukrainian vs Belarusian),
   - give Sorbian and border lects (Podlachian / West Polesian) blended or dedicated bases,
   - and tighten duplication / length settings once more gameplay feedback is available.
+- **Linked Wikipedia lists:** planned *Languages of Europe* subset (see §8.7 once created).
 
 ### 2.7 East Asia (Sinitic / Japonic / Koreanic & neighbors)
 
@@ -464,10 +469,10 @@ When this work resumes, a practical order of operations:
      - A clear list of **intentional shared bases vs accidental reuse**.
 
 6. **Grow coverage via Wikipedia language lists**
-   - For this project, a Wikipedia language list is considered **fully represented** only when every leaf language on that list:
+   - For this project, a Wikipedia-derived language list JSON is considered **fully represented** only when every language encoded in that JSON:
      - has a catalog entry in `config/language-mixes.json`, and
-     - has at least one mapping in `config/language-mixer-map.json` (i.e. participates in the namebase/mixer layer), or is explicitly documented here as an intentional omission.
-   - **Current status (as of 2025-12-10): no specific Wikipedia language list is yet fully represented end-to-end.** Languages have been added in curated clusters from multiple lists (e.g. high-speaker Indo-Aryan varieties, African families, Papuan and Mongolic branches), but even headline lists such as *List of languages by number of native speakers* still have unrepresented entries.
+     - has at least one mapping in `config/language-mixer-map.json` (i.e. participates in the namebase/mixer layer).
+   - **Current status (as of 2025-12-10): the JSON lists in §8.1–§8.3 are fully represented at the JSON level (all of their items are wired end-to-end), but the broader Wikipedia tables they are drawn from still have additional entries that are not yet encoded or wired.** Languages have been added in curated clusters from multiple lists (e.g. high-speaker Indo-Aryan varieties, African families, Papuan and Mongolic branches), and even headline lists such as *List of languages by number of native speakers* still have unrepresented entries beyond the current JSON subsets.
    - After the current backlog of in-progress families and languages documented in this file is finished, continue adding missing languages from Wikipedia’s language lists into `language-mixes.json` / `language-mixer-map.json`.
    - As individual lists are completed in the strict sense above, record them here in a short sub-bullet list under this item (list name, scope, and date completed) so future passes know exactly which lists are fully wired.
    - Treat each new language with the same per-language rigor (seed curation, base choice, `min/max/d` tuning, and mixer-map QA); avoid bulk-adding large blocks of languages onto a single hub base without review.
@@ -604,6 +609,7 @@ This section tracks the specific Wikipedia-derived language lists that currently
 This registry also notes **planned future list JSONs** (marked as such) so regional coverage goals stay visible even before the corresponding files are created.
 
 Coverage numbers and completion tiers should be updated manually from `report-wikipedia-list-coverage.js` runs as work progresses; see [§5.6 Grow coverage via Wikipedia language lists](#5-planned-next-steps-when-resuming) for the precise definition of "fully represented".
+In this project, coverage for a list JSON is always computed over **all** of its items; we do not use the script's `skip` mechanism, and every encoded language is treated as required.
 
 ### 8.1 Languages of Africa – major languages subset
 
@@ -619,7 +625,7 @@ Coverage numbers and completion tiers should be updated manually from `report-wi
 - **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
-- **Snapshot from last run (considered items only):**
+- **Snapshot from last run (all list items):**
   - `fully wired:` 33
   - `missing catalog:` 0
   - `missing map:` 0
@@ -629,7 +635,7 @@ Coverage numbers and completion tiers should be updated manually from `report-wi
 
 - **Notes / next steps:**
   - Use this list as the primary checklist for ensuring that major African languages are both present in `language-mixes.json` and mapped in `language-mixer-map.json`.
-  - As individual entries are intentionally skipped or deferred, document them here so the overall coverage status remains clear.
+  - If any language from this list is temporarily left unwired in future passes, document it here (and in §5.6 if relevant) so the gap stays visible until it is resolved.
 
 ### 8.2 List of languages by number of native speakers (seed subset)
 
@@ -645,7 +651,7 @@ Coverage numbers and completion tiers should be updated manually from `report-wi
 - **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
-- **Snapshot from last run (considered items only):**
+- **Snapshot from last run (all list items):**
   - `fully wired:` 109
   - `missing catalog:` 0
   - `missing map:` 0
@@ -671,7 +677,7 @@ Coverage numbers and completion tiers should be updated manually from `report-wi
 - **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
-- **Snapshot from last run (considered items only):**
+- **Snapshot from last run (all list items):**
   - `fully wired:` 11
   - `missing catalog:` 0
   - `missing map:` 0
@@ -681,7 +687,7 @@ Coverage numbers and completion tiers should be updated manually from `report-wi
 
 - **Notes / next steps:**
   - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
-  - As with other lists, explicitly note any intentional omissions so that "fully represented" status remains well defined.
+  - As with other lists, explicitly note any remaining unwired languages or planned JSON expansions so that "fully represented" status remains well defined.
 
 ### 8.4 Planned – Languages of South Asia
 

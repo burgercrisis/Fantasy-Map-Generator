@@ -1,0 +1,26 @@
+{
+  "title": "Wikipedia: Languages of Oceania – Papuan & Pacific subset",
+  "source": "https://en.wikipedia.org/wiki/Languages_of_Oceania",
+  "items": [
+    { "name": "Tok Pisin" },
+    { "name": "Enga" },
+    { "name": "Dani" },
+    { "name": "Fijian" },
+    { "name": "Samoan" },
+    { "name": "Tongan" },
+    { "name": "Maori" },
+    { "name": "Hawaiian" },
+    { "name": "Tahitian" },
+    { "name": "Gilbertese" },
+    { "name": "Marshallese" },
+    { "name": "Palauan" },
+    { "name": "Rapa Nui" },
+    { "name": "Rarotongan" },
+    { "name": "Niuean" },
+    { "name": "Rotuman" },
+    { "name": "Motu" },
+    { "name": "Hiri Motu" },
+    { "name": "Bislama" },
+    { "name": "Pijin" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Wikipedia: Languages of South Asia – regional subset",
+  "source": "https://en.wikipedia.org/wiki/Languages_of_South_Asia",
+  "items": [
+    { "name": "Hindi", "iso": "hin" },
+    { "name": "Urdu", "iso": "urdu" },
+    { "name": "Bengali" },
+    { "name": "Punjabi", "iso": "punjabi" },
+    { "name": "Marathi" },
+    { "name": "Gujarati" },
+    { "name": "Nepali" },
+    { "name": "Sinhala", "iso": "sinhala" },
+    { "name": "Tamil", "iso": "tamil" },
+    { "name": "Telugu" },
+    { "name": "Kannada", "iso": "kannada" },
+    { "name": "Malayalam", "iso": "malayalam" },
+    { "name": "Odia", "iso": "odia" },
+    { "name": "Assamese", "iso": "assamese" },
+    { "name": "Bhojpuri", "iso": "bhojpuri" },
+    { "name": "Maithili", "iso": "maithili" },
+    { "name": "Pashto", "iso": "pashto" },
+    { "name": "Sindhi", "iso": "sindhi" }
+  ]
+}

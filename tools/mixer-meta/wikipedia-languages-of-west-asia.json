@@ -1,0 +1,20 @@
+{
+  "title": "Wikipedia: Languages of West Asia – regional subset",
+  "source": "https://en.wikipedia.org/wiki/West_Asia",
+  "items": [
+    { "name": "Arabic", "iso": "ara" },
+    { "name": "Turkish" },
+    { "name": "Iranian Persian" },
+    { "name": "Kurdish" },
+    { "name": "Azerbaijani", "iso": "azerbaijani" },
+    { "name": "Hebrew" },
+    { "name": "Armenian", "iso": "armenian" },
+    { "name": "Georgian", "iso": "georgian" },
+    { "name": "Pashto", "iso": "pashto" },
+    { "name": "Tajik", "iso": "tajik" },
+    { "name": "Uyghur", "iso": "uyghur" },
+    { "name": "Western Neo-Aramaic", "iso": "western-neo-aramaic" },
+    { "name": "Assyrian Neo-Aramaic" },
+    { "name": "Sorani Kurdish" }
+  ]
+}
