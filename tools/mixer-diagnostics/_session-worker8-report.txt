@@ -1,0 +1,124 @@
+﻿=== Language Mixer base-set clusters (catalog languages only) ===
+Considered catalog languages (after filters): 748
+Total distinct base sets (all sizes): 706
+Clusters with identical base sets (size >= 2): 25
+Total language entries participating in these clusters: 67
+Columns: iso | name | region | family | category | tags (comma-separated); bases are shared per cluster.
+
+-- bases=[195,360] | members=10 --
+awin-pa | Awin-Pa | Pacific | Papuan | Papuan | family
+binanderean | Binanderean | Pacific | Papuan | Papuan | family
+bosavi | Bosavi | Pacific | Papuan | Papuan | family
+duna-pogaya | Duna-Pogaya | Pacific | Papuan | Papuan | family
+east-strickland | East Strickland | Pacific | Papuan | Papuan | family
+gogodala-suki | Gogodala-Suki | Pacific | Papuan | Papuan | family
+goilalan | Goilalan | Pacific | Papuan | Papuan | family
+kayagaric | Kayagaric | Pacific | Papuan | Papuan | family
+kiwaian | Kiwaian | Pacific | Papuan | Papuan | family
+kolopom | Kolopom | Pacific | Papuan | Papuan | family
+
+-- bases=[9] | members=10 --
+-sele | ├àsele | Eurasia | Southern Sami | Uralic | 
+akkala-sami | Akkala Sami | Eurasia | Sami | Uralic | extinct
+ala-satakunta | Ala-Satakunta | Eurasia | Western Dialects | Uralic | 
+erzya | Erzya | Eurasia | Erzya | Uralic | 
+moksha | Moksha | Eurasia | Moksha | Uralic | 
+komi-zyryan | Komi-Zyryan | Eurasia | Komi-Zyryan | Uralic | 
+nenets | Nenets | Eurasia | Nenets | Uralic | 
+uralic-family | Uralic | Eurasia | Uralic | Uralic | family
+estonian | Estonian | Europe | North Estonian | Uralic | 
+fin | Finnish | Europe | Finnish | Uralic | 
+
+-- bases=[47] | members=3 --
+tibetic | Tibetic | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+bodish | Bodish | Sino-Tibetan region | Bodish | Sino-Tibetan | 
+east-bodish | East Bodish | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+
+-- bases=[194,195] | members=2 --
+east-timor-papuan | East Timor (Papuan) | Pacific | TransΓÇôNew Guinea | Papuan | family
+alor-pantar | AlorΓÇôPantar | Pacific | TransΓÇôNew Guinea | Papuan | family
+
+-- bases=[194,195,367] | members=2 --
+indonesian | Indonesian | Pacific | Austronesian | Austronesian | 
+aru | Aru | Pacific | Austronesian | Austronesian | family
+
+-- bases=[194,263,360,366] | members=2 --
+bayono-awbono | BayonoΓÇôAwbono | Pacific | TransΓÇôNew Guinea | Papuan | family
+oksapmin | Oksapmin | Pacific | OkΓÇôOksapmin | Papuan | 
+
+-- bases=[195,263,360,366] | members=2 --
+asmat-citak | Asmat Citak | Pacific | AsmatΓÇôKamoro | Papuan | 
+bimin | Bimin | Pacific | OkΓÇôOksapmin | Papuan | 
+
+-- bases=[201] | members=2 --
+chittagonian | Chittagonian | Asia | BengaliΓÇôAssamese | Indo-Aryan | 
+bengali | Bengali | Asia | BengaliΓÇôAssamese | Indo-Aryan | 
+
+-- bases=[225,227] | members=2 --
+altai | Altai | Asia | Siberian Turkic | Turkic | 
+khakas | Khakas | Asia | Siberian Turkic | Turkic | 
+
+-- bases=[254,255,372] | members=2 --
+kunduvadi | Kunduvadi | Asia | South Dravidian | Dravidian | 
+tulu | Tulu | Asia | South Dravidian | Dravidian | 
+
+-- bases=[258] | members=2 --
+antillean-creole | Antillean Creole | The Americas | French-based | Creole | creole
+haitian-creole | Haitian Creole | Caribbean | French-based | Creole | creole
+
+-- bases=[263,360,370] | members=2 --
+kandawo | Kandawo | Pacific | ChimbuΓÇôWahgi | Papuan | 
+motu | Motu | Pacific | Austronesian | Austronesian | 
+
+-- bases=[29,193,251] | members=2 --
+mnw | Mon | Southeast Asia | Monic | Austroasiatic | 
+halang-bahnaric | Halang | Asia | Bahnaric | Austroasiatic | 
+
+-- bases=[29,194,195,251] | members=2 --
+jeh-bahnaric | Jeh | Asia | Bahnaric | Austroasiatic | 
+kaco-bahnaric | Kaco' | Asia | Bahnaric | Austroasiatic | 
+
+-- bases=[30] | members=2 --
+yue | Cantonese | East Asia | Yue | Sino-Tibetan | 
+guarani | Guarani | South America | Tupian | Tupian | 
+
+-- bases=[31] | members=2 --
+chinese-kyakala | Chinese Kyakala | Asia | Jurchenic | Tungusic | extinct
+kor | Kor | East Asia | Koreanic | Koreanic | 
+
+-- bases=[31,296] | members=2 --
+alasha | Alasha Mongol | Asia | Mongolic | Mongolic | 
+altai-uriankhai | Altai Uriankhai | Asia | Oirat-Kalmyk | Mongolic | 
+
+-- bases=[314] | members=2 --
+lithuanian | Lithuanian | Europe | Baltic | Baltic | 
+latvian | Latvian | Europe | Baltic | Baltic | 
+
+-- bases=[314,316] | members=2 --
+pol | Polish | Europe | Lechitic | Slavic | 
+croatian | Croatian | Europe | Western South Slavic | Slavic | 
+
+-- bases=[329] | members=2 --
+lower-sorbian | Lower Sorbian | Europe | Sorbian | Slavic | 
+upper-sorbian | Upper Sorbian | Europe | Sorbian | Slavic | 
+
+-- bases=[383] | members=2 --
+athabaskan | Athabaskan | North America | Na-Dene | Na-Dene | 
+navajo | Navajo | North America | Na-Dene | Na-Dene | 
+
+-- bases=[394] | members=2 --
+seri | Seri | North America | Seri isolate | Language isolate | 
+gle | Irish | Europe | Celtic | Celtic | 
+
+-- bases=[4,17,18,22] | members=2 --
+algerian-saharan-arabic | Algerian Saharan Arabic | Middle East | Maghrebi | Afroasiatic | 
+saharan-spanish | Saharan Spanish | Africa | Spanish | Romance | spanish,western-sahara
+
+-- bases=[4,18,140] | members=2 --
+tetuani | Tetuani | Africa | Judeo-Spanish | Romance | 
+andalusi-arabic | Andalusi Arabic | Middle East | Maghrebi | Afroasiatic | 
+
+-- bases=[49] | members=2 --
+newaric | Newaric | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+newar | Newar | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+

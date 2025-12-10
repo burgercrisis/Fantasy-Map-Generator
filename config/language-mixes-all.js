@@ -2134,6 +2134,14 @@
     "family": "Austronesian"
   },
   {
+    "name": "Malagasy",
+    "iso": "mlg",
+    "region": "Africa",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language"
+  },
+  {
     "name": "Malgbe language",
     "iso": "malgbe-language",
     "region": "Africa",
@@ -3960,8 +3968,11 @@
     "region": "Asia",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angolar",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -4004,8 +4015,11 @@
     "region": "Asia",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angolar",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -4119,8 +4133,11 @@
     "region": "Asia",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angolar",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -8895,6 +8912,14 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "Koreanic"
+  },
+  {
+    "name": "Zhuang",
+    "iso": "zha",
+    "region": "East Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zhuang_language"
   },
   {
     "name": "Akkala Sami",
@@ -13676,8 +13701,11 @@
     "region": "Gulf of Guinea",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angolar",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -13687,8 +13715,11 @@
     "region": "Gulf of Guinea",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fa%27_d%27Amb%C3%B4",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -13698,8 +13729,11 @@
     "region": "Gulf of Guinea",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Forro_language",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -13709,8 +13743,11 @@
     "region": "Gulf of Guinea",
     "category": "Creole",
     "family": "Portuguese-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Principense_language",
     "tags": [
-      "creole"
+      "creole",
+      "portuguese-based",
+      "gulf-of-guinea"
     ],
     "lexifier": "Portuguese"
   },
@@ -14079,6 +14116,14 @@
     "family": "Mayan"
   },
   {
+    "name": "Huave",
+    "iso": "huave",
+    "region": "Mesoamerica",
+    "category": "Language isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Huave_language",
+    "family": "Huave isolate"
+  },
+  {
     "name": "K'iche'",
     "iso": "kiche",
     "region": "Mesoamerica",
@@ -14125,6 +14170,14 @@
     "category": "Oto-Manguean",
     "wikipedia": "https://en.wikipedia.org/wiki/Otomi_languages",
     "family": "Oto-Manguean"
+  },
+  {
+    "name": "Purépecha",
+    "iso": "purepecha",
+    "region": "Mesoamerica",
+    "category": "Language isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language",
+    "family": "Purépecha isolate"
   },
   {
     "name": "Q'anjob'al",
@@ -16819,6 +16872,14 @@
     "family": "Salishan"
   },
   {
+    "name": "Seri",
+    "iso": "seri",
+    "region": "North America",
+    "category": "Language isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seri_language",
+    "family": "Seri isolate"
+  },
+  {
     "name": "Shoshoni",
     "iso": "shoshoni",
     "region": "North America",
@@ -18867,6 +18928,14 @@
     "family": "Austronesian"
   },
   {
+    "name": "Nauruan",
+    "iso": "nauruan",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nauruan_language",
+    "family": "Micronesian"
+  },
+  {
     "name": "Nawaru",
     "iso": "nawaru",
     "region": "Pacific",
@@ -19663,6 +19732,14 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Tokelauan",
+    "iso": "tokelauan",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tokelauan_language",
+    "family": "Polynesian"
+  },
+  {
     "name": "Tomini-Tolitoli",
     "iso": "tomini-tolitoli",
     "region": "Pacific",
@@ -19725,6 +19802,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Papuan"
+  },
+  {
+    "name": "Tuvaluan",
+    "iso": "tuvaluan",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuvaluan_language",
+    "family": "Polynesian"
   },
   {
     "name": "Uare",
@@ -21321,6 +21406,174 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Khasi",
+    "iso": "kha",
+    "region": "South Asia",
+    "category": "Austroasiatic",
+    "family": "Khasic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language"
+  },
+  {
+    "name": "Meitei",
+    "iso": "mni",
+    "region": "South Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Meitei_language"
+  },
+  {
+    "name": "Mizo",
+    "iso": "lus",
+    "region": "South Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mizo_language"
+  },
+  {
+    "name": "Acehnese",
+    "iso": "ace",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Acehnese_language"
+  },
+  {
+    "name": "Balinese",
+    "iso": "ban",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Balinese_language"
+  },
+  {
+    "name": "Buginese",
+    "iso": "bug",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buginese_language"
+  },
+  {
+    "name": "Burmese",
+    "iso": "burmese",
+    "region": "Southeast Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burmese_language"
+  },
+  {
+    "name": "Cebuano",
+    "iso": "ceb",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cebuano_language"
+  },
+  {
+    "name": "Cham",
+    "iso": "cja",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cham_language"
+  },
+  {
+    "name": "Filipino",
+    "iso": "filipino",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Filipino_language"
+  },
+  {
+    "name": "Hmong",
+    "iso": "hmn",
+    "region": "Southeast Asia",
+    "category": "Hmong-Mien",
+    "family": "Hmongic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hmong_language"
+  },
+  {
+    "name": "Javanese",
+    "iso": "jav",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Javanese_language"
+  },
+  {
+    "name": "Kachin",
+    "iso": "kac",
+    "region": "Southeast Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibeto-Burman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kachin_language"
+  },
+  {
+    "name": "Karen",
+    "iso": "kar",
+    "region": "Southeast Asia",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karen_languages"
+  },
+  {
+    "name": "Madurese",
+    "iso": "mad",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Madurese_language"
+  },
+  {
+    "name": "Makassarese",
+    "iso": "mak",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Makassarese_language"
+  },
+  {
+    "name": "Mien",
+    "iso": "mji",
+    "region": "Southeast Asia",
+    "category": "Hmong-Mien",
+    "family": "Mienic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mien_language"
+  },
+  {
+    "name": "Mon",
+    "iso": "mnw",
+    "region": "Southeast Asia",
+    "category": "Austroasiatic",
+    "family": "Monic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mon_language"
+  },
+  {
+    "name": "Shan",
+    "iso": "shn",
+    "region": "Southeast Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shan_language"
+  },
+  {
+    "name": "Sundanese",
+    "iso": "sun",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sundanese_language"
+  },
+  {
+    "name": "Toba Batak",
+    "iso": "bbc",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toba_Batak_language"
   },
   {
     "name": "Antillean Creole",

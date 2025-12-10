@@ -361,7 +361,9 @@ window.fantasyNameBases = [
 
   {name: "Apache", i: 416, min: 4, max: 12, d: "lnrt", m: 0, b: "Whiteriver,San Carlos,Mescalero,Fort Apache,Chinle,Lukachukai,Window Rock,Shiprock,Cibecue,Carrizo,Cedar Creek,Peridot,Globe,Claypool,Miami,Safford,Thatcher,Pima,Bylas,San Simon,Alpine,Springerville,Eagar,Show Low,Pinetop,Lakeside,Heber,Holbrook,Gallup,Grants,Crownpoint,Dulce,Towaoc,Mesilla,Silver City,Las Cruces"},
 
-  {name: "Hawaiian", i: 417, min: 4, max: 12, d: "lnrt", m: 0, b: "Honolulu,Hilo,Kailua,Kaneohe,Kapolei,Pearl City,Waipahu,Mililani,Waimea,Lihue,Princeville,Hanalei,Poipu,Koloa,Lanai City,Lahaina,Kahului,Maalaea,Wailuku,Wailea,Kihei,Makawao,Paia,Hana,Waianae,Haleiwa,Kaunakakai,Kealakekua,Waikoloa,Waimea-Kohala"}
+  {name: "Hawaiian", i: 417, min: 4, max: 12, d: "lnrt", m: 0, b: "Honolulu,Hilo,Kailua,Kaneohe,Kapolei,Pearl City,Waipahu,Mililani,Waimea,Lihue,Princeville,Hanalei,Poipu,Koloa,Lanai City,Lahaina,Kahului,Maalaea,Wailuku,Wailea,Kihei,Makawao,Paia,Hana,Waianae,Haleiwa,Kaunakakai,Kealakekua,Waikoloa,Waimea-Kohala"},
 
+  {name: "Tokelauan", i: 418, min: 4, max: 12, d: "lnrt", m: 0, b: "Atafu,Fakaofo,Nukunonu,Fale,Tokelau,Atafu Village,Fakaofo Village,Nukunonu Village,Fenuafala,Fale islet"},
+  {name: "Nauruan", i: 419, min: 4, max: 12, d: "lnrt", m: 0, b: "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren"}
 
 ];

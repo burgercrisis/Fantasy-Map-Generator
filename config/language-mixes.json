@@ -19234,6 +19234,22 @@
     "family": "Polynesian"
   },
   {
+    "name": "Tokelauan",
+    "iso": "tokelauan",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tokelauan_language",
+    "family": "Polynesian"
+  },
+  {
+    "name": "Nauruan",
+    "iso": "nauruan",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nauruan_language",
+    "family": "Micronesian"
+  },
+  {
     "name": "Motu",
     "iso": "motu",
     "region": "Pacific",
