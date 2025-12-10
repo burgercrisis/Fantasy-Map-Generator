@@ -10,7 +10,7 @@ You are Cascade, working on the Fantasy-Map-Generator language mixer.
 Systematically take **every language from every targeted Wikipedia language list** and:
 
 1. Add it to the language catalog (`config/language-mixes.json`) with metadata and a Wikipedia URL.
-2. Give it a **unique Markov base or tuned mix that reflects that language itself**, not just a generic macro hub.
+2. Give it a **unique Markov base or tuned mix that reflects that language itself**, not just a generic macro hub, and ensure its `bases[]` signature in the mixer map is **globally unique** (no other language shares the same base/mix array).
 3. Wire it into the mixer map ([config/language-mixer-map.json](cci:7://file:///e:/code/Fantasy-Map-Generator/config/language-mixer-map.json:0:0-0:0)) so it participates in the name system.
 4. Ensure that **at least one race** can actually use that language in the mixer (via `raceLanguageProfiles` in [modules/races.js](cci:7://file:///e:/code/Fantasy-Map-Generator/modules/races.js:0:0-0:0)).
 5. Keep doing this in batches **until there are no more languages left on the lists**, responding to my `continue` requests without re‑asking for choices.
@@ -64,7 +64,8 @@ For each target language from the queue:
      - Backfill missing `region`, `category`, `family`, `wikipedia`, `tags` as needed, staying consistent with existing conventions.
 
 3. **Unique base / Markov design**
-   - **Goal:** give this language a **unique base index or clearly unique blend** that actually feels like that language.
+   - **Goal:** give this language a **unique base index or clearly unique blend** that actually feels like that language, and results in a `bases[]` combination that no other language uses.
+   - When proposing or editing mappings for a **new** Wikipedia-list language, do **not** commit any change while its candidate `bases[]` is identical to an existing language’s mapping; instead, adjust the base choice or mix design until the new language’s `bases[]` is globally unique at commit time.
    - Steps:
      - Inspect current base inventory to find the **next free base index**.
      - Decide whether this base should be:
@@ -83,9 +84,10 @@ For each target language from the queue:
 4. **Mixer map wiring ([language-mixer-map.json](cci:7://file:///e:/code/Fantasy-Map-Generator/config/language-mixer-map.json:0:0-0:0))**
    - Ensure there is a **map entry**:
      - `iso`: the catalog iso.
-     - `bases`: an array that includes the **newly created base index** (and any justified blended bases).
+     - `bases`: an array that includes the **newly created base index** (and any justified blended bases) and is **not identical** to any other language’s `bases[]` set.
    - Avoid:
      - Collapsing onto unrelated macro hubs (e.g. generic English, Malay, Tok Pisin) unless historically justified **and** the new dedicated base is clearly present.
+     - Using lexifier or macro-hub bases (e.g. English, Malay, Tok Pisin, major trade languages) as the **sole** `bases[]` array for more than one language; they should appear only as ingredients in otherwise unique mixes.
    - Re‑run relevant mixer diagnostics (e.g. `check-language-mixer-map-inconsistencies.js`, [check-language-mixer-coverage.js](cci:7://file:///e:/code/Fantasy-Map-Generator/tools/mixer-core/check-language-mixer-coverage.js:0:0-0:0)) and resolve obvious issues for the new entries.
 
 5. **Race coverage (ensure at least one race uses it)**

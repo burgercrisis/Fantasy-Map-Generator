@@ -19126,6 +19126,63 @@
     "family": "Polynesian"
   },
   {
+    "name": "Maori",
+    "iso": "maori",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+    "family": "Polynesian"
+  },
+  {
+    "name": "Hawaiian",
+    "iso": "hawaiian",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "family": "Polynesian"
+  },
+  {
+    "name": "Rapa Nui",
+    "iso": "rapa-nui",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rapa_Nui_language",
+    "family": "Polynesian"
+  },
+  {
+    "name": "Niuean",
+    "iso": "niuean",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niuean_language",
+    "family": "Polynesian"
+  },
+  {
+    "name": "Rotuman",
+    "iso": "rotuman",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rotuman_language",
+    "family": "Polynesian"
+  },
+  {
+    "name": "Motu",
+    "iso": "motu",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Motu_language",
+    "family": "Austronesian"
+  },
+  {
+    "name": "Hiri Motu",
+    "iso": "hiri-motu",
+    "region": "Pacific",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiri_Motu",
+    "family": "Motu-based",
+    "tags": ["creole"]
+  },
+  {
     "name": "Rejang",
     "iso": "rejang",
     "region": "Pacific",

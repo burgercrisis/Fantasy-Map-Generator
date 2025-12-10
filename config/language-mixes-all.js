@@ -17929,6 +17929,14 @@
     "family": "Angan"
   },
   {
+    "name": "Hawaiian",
+    "iso": "hawaiian",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "family": "Polynesian"
+  },
+  {
     "name": "Hawaiian Pidgin",
     "iso": "hawaiian-pidgin",
     "region": "Pacific",
@@ -17938,6 +17946,17 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Hiri Motu",
+    "iso": "hiri-motu",
+    "region": "Pacific",
+    "category": "Creole",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiri_Motu",
+    "family": "Motu-based",
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Hoia Hoia",
@@ -18559,6 +18578,14 @@
     "family": "Greater Awyu"
   },
   {
+    "name": "Maori",
+    "iso": "maori",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+    "family": "Polynesian"
+  },
+  {
     "name": "Māori",
     "iso": "maori",
     "region": "Pacific",
@@ -18732,6 +18759,14 @@
     "family": "Kiwaian"
   },
   {
+    "name": "Motu",
+    "iso": "motu",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Motu_language",
+    "family": "Austronesian"
+  },
+  {
     "name": "Mountain",
     "iso": "mountain",
     "region": "Pacific",
@@ -18874,6 +18909,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Niuean",
+    "iso": "niuean",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niuean_language",
+    "family": "Polynesian"
   },
   {
     "name": "Nomane",
@@ -19123,6 +19166,14 @@
     "family": "Austronesian"
   },
   {
+    "name": "Rapa Nui",
+    "iso": "rapa-nui",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rapa_Nui_language",
+    "family": "Polynesian"
+  },
+  {
     "name": "Rarotongan",
     "iso": "rarotongan",
     "region": "Pacific",
@@ -19150,6 +19201,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Kolopom"
+  },
+  {
+    "name": "Rotuman",
+    "iso": "rotuman",
+    "region": "Pacific",
+    "category": "Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rotuman_language",
+    "family": "Polynesian"
   },
   {
     "name": "Rukai",

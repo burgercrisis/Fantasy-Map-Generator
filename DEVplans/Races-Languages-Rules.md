@@ -93,8 +93,8 @@ Design implication:
 
 - At the level of the **language mixer** and **namebases**, the design intent is that each language (ISO entry or synthetic mixer language) ultimately has a **unique, linguistically appropriate base or tuned mix**.
 - Bases and mixes should reflect the language’s own **family, region, and cultural context**, not generic or unrelated sources.
-- Shared bases or heavy reuse are allowed **only when historically or typologically justified** (e.g. closely related dialect clusters or deliberate conlangs / creoles); otherwise, suspicious shared-base clusters should be treated as data debt to fix.
-- All the race and culture mapping described in this document assumes that these underlying bases are accurate; passes over `language-mixer-map.json`, `language-mixes*.json`, and the mixer QA tools are used to enforce this over time.
+- In intermediate states, shared bases or heavy reuse may appear (e.g. while wiring new families or lexifier hubs), but under the current design these are always treated as **temporary per-language uniqueness debt**, not acceptable long-term behavior: in the end-state, no two languages should share an identical `bases[]` set, even when they are historically related.
+- All the race and culture mapping described in this document assumes that these underlying bases are accurate; passes over `language-mixer-map.json`, `language-mixes*.json`, and the mixer QA tools are used to enforce this over time by surfacing and burning down shared-base clusters.
 
 ---
 

@@ -525,7 +525,9 @@
   {
     "iso": "amharic",
     "bases": [
-      133
+      2,
+      133,
+      140
     ]
   },
   {
@@ -5396,13 +5398,16 @@
   {
     "iso": "eravallan",
     "bases": [
-      255
+      253,
+      255,
+      372
     ]
   },
   {
     "iso": "gondi",
     "bases": [
-      374
+      374,
+      375
     ]
   },
   {
@@ -5553,7 +5558,10 @@
   {
     "iso": "kurichiya",
     "bases": [
-      255
+      253,
+      254,
+      255,
+      374
     ]
   },
   {
@@ -5579,6 +5587,8 @@
   {
     "iso": "madiya",
     "bases": [
+      199,
+      372,
       374
     ]
   },
@@ -5612,7 +5622,10 @@
   {
     "iso": "malasar",
     "bases": [
-      255
+      253,
+      255,
+      374,
+      375
     ]
   },
   {
@@ -5630,7 +5643,10 @@
   {
     "iso": "muduga",
     "bases": [
-      255
+      253,
+      254,
+      255,
+      375
     ]
   },
   {
@@ -5651,7 +5667,11 @@
   {
     "iso": "muthuvan",
     "bases": [
-      255
+      253,
+      255,
+      372,
+      374,
+      375
     ]
   },
   {
@@ -5669,13 +5689,21 @@
   {
     "iso": "paliyan",
     "bases": [
-      255
+      254,
+      255,
+      372,
+      374,
+      375
     ]
   },
   {
     "iso": "paniya",
     "bases": [
-      255
+      199,
+      253,
+      255,
+      374,
+      375
     ]
   },
   {
@@ -9587,48 +9615,61 @@
   {
     "iso": "cahuilla",
     "bases": [
+      14,
       190
     ]
   },
   {
     "iso": "shoshoni",
     "bases": [
+      14,
+      186,
       190
     ]
   },
   {
     "iso": "comanche",
     "bases": [
+      186,
       190
     ]
   },
   {
     "iso": "ute",
     "bases": [
+      186,
+      187,
       190
     ]
   },
   {
     "iso": "pima-bajo",
     "bases": [
+      14,
       191
     ]
   },
   {
     "iso": "southern-tepehuan",
     "bases": [
+      13,
+      14,
+      186,
       191
     ]
   },
   {
     "iso": "mayo",
     "bases": [
+      13,
       191
     ]
   },
   {
     "iso": "cora",
     "bases": [
+      13,
+      14,
       191
     ]
   },
@@ -10144,8 +10185,119 @@
   {
     "iso": "romanian",
     "bases": [
-      43,
-      46
+      43
+    ]
+  },
+  {
+    "iso": "tok-pisin",
+    "bases": [
+      263
+    ]
+  },
+  {
+    "iso": "fijian",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "samoan",
+    "bases": [
+      197
+    ]
+  },
+  {
+    "iso": "tongan",
+    "bases": [
+      244
+    ]
+  },
+  {
+    "iso": "tahitian",
+    "bases": [
+      245
+    ]
+  },
+  {
+    "iso": "marshallese",
+    "bases": [
+      246
+    ]
+  },
+  {
+    "iso": "palauan",
+    "bases": [
+      247
+    ]
+  },
+  {
+    "iso": "rarotongan",
+    "bases": [
+      250
+    ]
+  },
+  {
+    "iso": "kiribati",
+    "bases": [
+      249
+    ]
+  },
+  {
+    "iso": "maori",
+    "bases": [
+      196
+    ]
+  },
+  {
+    "iso": "hawaiian",
+    "bases": [
+      245
+    ]
+  },
+  {
+    "iso": "rapa-nui",
+    "bases": [
+      245
+    ]
+  },
+  {
+    "iso": "niuean",
+    "bases": [
+      244
+    ]
+  },
+  {
+    "iso": "rotuman",
+    "bases": [
+      198
+    ]
+  },
+  {
+    "iso": "motu",
+    "bases": [
+      198,
+      263
+    ]
+  },
+  {
+    "iso": "hiri-motu",
+    "bases": [
+      1,
+      263
+    ]
+  },
+  {
+    "iso": "bislama",
+    "bases": [
+      1,
+      263
+    ]
+  },
+  {
+    "iso": "pijin",
+    "bases": [
+      1,
+      263
     ]
   },
   {
