@@ -14,7 +14,7 @@ Related devplans (optional deep dives):
 - [Language System Status – Markov & Mixer](Languages-Status.md) – status and tooling for Markov bases and the language mixer that feed cultures and races.
 - [Races & Languages – System Rules](Races-Languages-Rules.md) – how fantasy races attach to cultures and languages, and how those tags are exposed to the sim.
 - [Characters System – Developer Guide](Characters.md) – D&D/d20 character layer on top of Individuals, which can consume history outputs.
-- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helper scripts and QA workflows for the language mixer and race language palettes.
+- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helper scripts and QA workflows for the language mixer and race language palettes; you’ll mainly reuse the race coverage/palette reporters (`report-race-language-coverage.js`, `report-per-race-language-coverage.js`, `report-race-language-palettes.js`) when adjusting long-term linguistic flavor used by the sim.
 
 ### Section index
 

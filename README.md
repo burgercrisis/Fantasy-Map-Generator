@@ -31,7 +31,7 @@ Status items:
 
 - [Language system status and tooling extensions](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Languages-Status.md)
 - [Guidelines for races/languages](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Races-Languages-Rules.md)
-- [Language mixer helper tools & workflows](tools/HELPER-TOOLS.md)
+- [Language mixer helper tools & workflows](tools/HELPER-TOOLS.md)  CLI scripts for Markov/mixer QA, coverage checks, and race language palettes.
 Above is my description of what I'm doing to Azgaars dankness
 
 Below is the original description from Azgaar

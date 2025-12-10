@@ -3,7 +3,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 This document outlines the plan for implementing the **Individuals & Population** system in the Fantasy Map Generator. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re-designing the feature.
 
-For language mixer helper scripts and workflows, see [tools/HELPER-TOOLS.md](../tools/HELPER-TOOLS.md).
+For language mixer helper scripts and workflows  especially the race language coverage/palette reporters such as `report-race-language-coverage.js` and `report-race-language-palettes.js` that shape upstream flavor for Individuals  see [tools/HELPER-TOOLS.md](../tools/HELPER-TOOLS.md).
 
 ### Section index
 

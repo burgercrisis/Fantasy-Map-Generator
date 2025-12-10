@@ -73,5 +73,6 @@ window.realWorldNameBases = [
       {name: "Mandara Chadic", i: 384, min: 4, max: 11, d: "lnrt", m: 0, b: "Maroua,Mokolo,Mora,Kousseri,Yagoua,Garoua,Guider,Kaele,Pouss,Bogo,Fotokol,Tokombere,Hina,Bourrha,Koza,Zama,Kerawa,Gwoza,Mubi,Madagali,Bama,Banki"},
       {name: "Bauchi Chadic", i: 385, min: 4, max: 11, d: "lnrt", m: 0, b: "Bauchi,Toro,Dass,Bogoro,Tafawa Balewa,Kirfi,Alkaleri,Shira,Giade,Katagum,Jama'are,Itas,Ganjuwa,Warji,Ningi,Azare,Miyaa,Dogon Ruwa,Gombe,Kaltungo,Billiri,Dukku"},
       {name: "East Chadic", i: 386, min: 4, max: 11, d: "lnrt", m: 0, b: "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Abéché,Mongo,Bitkine,Massaguet,Bousso,Fianga,Béré"},
-      {name: "Chenchu-Yerukala Dravidian", i: 387, min: 5, max: 11, d: "lnrt", m: 0, b: "Nallamala,Srisailam,Atmakur,Kurnool,Nandyal,Adoni,Macherla,Miryalaguda,Suryapet,Khammam,Palvancha,Bhadrachalam,Manuguru,Aswaraopeta,Kothagudem,Warangal,Hanamkonda,Parkal,Jangaon,Siddipet,Karimnagar,Jagtial"}
+      {name: "Chenchu-Yerukala Dravidian", i: 387, min: 5, max: 11, d: "lnrt", m: 0, b: "Nallamala,Srisailam,Atmakur,Kurnool,Nandyal,Adoni,Macherla,Miryalaguda,Suryapet,Khammam,Palvancha,Bhadrachalam,Manuguru,Aswaraopeta,Kothagudem,Warangal,Hanamkonda,Parkal,Jangaon,Siddipet,Karimnagar,Jagtial"},
+      {name: "Kwaza-Xocó Amazonian", i: 388, min: 4, max: 12, d: "lnrt", m: 0, b: "Porto Velho,Ji-Paraná,Cacoal,Vilhena,Guajará-Mirim,Ariquemes,Humaitá,Altamira,Santarém,Itaituba,Marabá,Araguaína,Palmas,Aracaju,Propriá,Penedo,Paulo Afonso,Delmiro Gouveia"}
 ];

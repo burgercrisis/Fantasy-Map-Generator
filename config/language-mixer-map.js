@@ -25,6 +25,7 @@
   {
     "iso": "aas-whistled",
     "bases": [
+      2,
       232
     ]
   },
@@ -55,12 +56,15 @@
   {
     "iso": "abruzzese",
     "bases": [
-      3
+      3,
+      4,
+      306
     ]
   },
   {
     "iso": "acadian",
     "bases": [
+      1,
       2
     ]
   },
@@ -79,6 +83,7 @@
   {
     "iso": "aeolian",
     "bases": [
+      3,
       280
     ]
   },
@@ -91,7 +96,8 @@
   {
     "iso": "african-romance",
     "bases": [
-      4
+      4,
+      8
     ]
   },
   {
@@ -208,6 +214,8 @@
   {
     "iso": "alentejan",
     "bases": [
+      2,
+      4,
       13
     ]
   },
@@ -232,7 +240,8 @@
   {
     "iso": "algherese",
     "bases": [
-      4
+      4,
+      233
     ]
   },
   {
@@ -360,7 +369,8 @@
   {
     "iso": "ancona",
     "bases": [
-      3
+      3,
+      4
     ]
   },
   {
@@ -372,13 +382,16 @@
   {
     "iso": "andalusi-romance",
     "bases": [
-      4
+      4,
+      18
     ]
   },
   {
     "iso": "andalusian",
     "bases": [
-      4
+      3,
+      4,
+      13
     ]
   },
   {
@@ -396,20 +409,23 @@
   {
     "iso": "angas",
     "bases": [
-      112,
+      120,
       132
     ]
   },
   {
     "iso": "angevin",
     "bases": [
-      2
+      2,
+      8
     ]
   },
   {
     "iso": "anglo-norman",
     "bases": [
-      2
+      1,
+      2,
+      4
     ]
   },
   {
@@ -433,6 +449,7 @@
   {
     "iso": "ans-",
     "bases": [
+      3,
       287
     ]
   },
@@ -469,6 +486,7 @@
   {
     "iso": "aragonese",
     "bases": [
+      4,
       287
     ]
   },
@@ -481,6 +499,8 @@
   {
     "iso": "aranese",
     "bases": [
+      2,
+      4,
       232
     ]
   },
@@ -493,19 +513,25 @@
   {
     "iso": "ardennais",
     "bases": [
-      2
+      2,
+      8,
+      13
     ]
   },
   {
     "iso": "aretino-chianaiolo",
     "bases": [
-      3
+      2,
+      3,
+      306
     ]
   },
   {
     "iso": "argentinian-spanish",
     "bases": [
-      4
+      4,
+      8,
+      13
     ]
   },
   {
@@ -517,6 +543,7 @@
   {
     "iso": "arianese",
     "bases": [
+      4,
       306
     ]
   },
@@ -553,7 +580,9 @@
   {
     "iso": "arpitan",
     "bases": [
-      2
+      2,
+      232,
+      286
     ]
   },
   {
@@ -720,8 +749,8 @@
   {
     "iso": "bade-chadic",
     "bases": [
-      113,
-      132
+      132,
+      146
     ]
   },
   {
@@ -1176,8 +1205,8 @@
   {
     "iso": "bole-tangale",
     "bases": [
-      114,
-      132
+      132,
+      147
     ]
   },
   {
@@ -4347,7 +4376,7 @@
   {
     "iso": "kwaza",
     "bases": [
-      173
+      388
     ]
   },
   {
@@ -5884,6 +5913,20 @@
     ]
   },
   {
+    "iso": "masa-chadic",
+    "bases": [
+      132,
+      148
+    ]
+  },
+  {
+    "iso": "masa-north",
+    "bases": [
+      132,
+      149
+    ]
+  },
+  {
     "iso": "masa-south",
     "bases": [
       132,
@@ -6173,7 +6216,7 @@
   {
     "iso": "xoc-",
     "bases": [
-      173
+      388
     ]
   },
   {
@@ -6588,6 +6631,7 @@
   {
     "iso": "fali-of-mubi",
     "bases": [
+      126,
       132
     ]
   },
@@ -6654,60 +6698,86 @@
   {
     "iso": "gude-language",
     "bases": [
+      127,
       132
     ]
   },
   {
     "iso": "gudu-language",
     "bases": [
+      128,
       132
     ]
   },
   {
     "iso": "guduf-gava-language",
     "bases": [
+      126,
+      129,
       132
-    ]
-  },
-  {
-    "iso": "gurara",
-    "bases": [
-      17
     ]
   },
   {
     "iso": "gvoko-language",
     "bases": [
+      112,
+      113,
+      116,
+      132
+    ]
+  },
+  {
+    "iso": "gwandara-language",
+    "bases": [
+      112,
+      114,
+      117,
       132
     ]
   },
   {
     "iso": "hdi-language",
     "bases": [
+      112,
+      114,
+      116,
       132
     ]
   },
   {
     "iso": "hina-language",
     "bases": [
+      126,
+      128,
+      129,
       132
     ]
   },
   {
     "iso": "holma-language",
     "bases": [
+      127,
+      128,
+      129,
       132
     ]
   },
   {
     "iso": "huba-language",
     "bases": [
+      126,
+      127,
+      129,
       132
     ]
   },
   {
     "iso": "hwana-language",
     "bases": [
+      126,
+      127,
+      128,
+      129,
       132
     ]
   },
@@ -7963,24 +8033,36 @@
   {
     "iso": "goemai-language",
     "bases": [
+      112,
+      116,
+      117,
       132
     ]
   },
   {
     "iso": "goji-language",
     "bases": [
+      113,
+      116,
+      117,
       132
     ]
   },
   {
     "iso": "guruntum-language",
     "bases": [
+      114,
+      116,
+      117,
       132
     ]
   },
   {
     "iso": "gwandara-language",
     "bases": [
+      113,
+      117,
+      129,
       132
     ]
   },
@@ -13304,7 +13386,7 @@
   {
     "iso": "brahui",
     "bases": [
-      199
+      388
     ]
   },
   {
@@ -13334,7 +13416,7 @@
   {
     "iso": "duruwa",
     "bases": [
-      199
+      389
     ]
   },
   {
@@ -13412,7 +13494,7 @@
   {
     "iso": "kolami",
     "bases": [
-      199
+      389
     ]
   },
   {
@@ -13466,7 +13548,7 @@
   {
     "iso": "kurambhag-paharia",
     "bases": [
-      199
+      388
     ]
   },
   {
@@ -13478,7 +13560,7 @@
   {
     "iso": "kurukh",
     "bases": [
-      199
+      388
     ]
   },
   {
@@ -13526,7 +13608,7 @@
   {
     "iso": "malto",
     "bases": [
-      199
+      388
     ]
   },
   {
@@ -13562,13 +13644,13 @@
   {
     "iso": "naiki",
     "bases": [
-      199
+      389
     ]
   },
   {
     "iso": "ollari",
     "bases": [
-      199
+      389
     ]
   },
   {

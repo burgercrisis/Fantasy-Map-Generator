@@ -9,7 +9,7 @@ Related devplans:
 - [Individuals System – Developer Guide](Individuals.md) – core people model that Characters extends.
 - [Races & Languages – System Rules](Races-Languages-Rules.md) – how race and language tags are assigned in world data and can feed into character flavor.
 - [Evolving Simulation – Developer Guide](Evolving-Simulation.md) – evolving history layer that uses Individuals for rulers and events; Characters can be attached to notable Individuals from that history.
-- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helpers and QA workflows for the language mixer and race language palettes.
+- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helpers and QA workflows for the language mixer and race language palettes; in particular the `report-race-language-coverage.js`, `report-per-race-language-coverage.js`, and `report-race-language-palettes.js` tools when tuning character race flavor.
 
 ### Section index
 

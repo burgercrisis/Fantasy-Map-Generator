@@ -33,7 +33,7 @@ Key files:
 - `config/language-mixes.json`
 - `config/language-mixer-map.json`
 - `tools/mixer-races/*.js`
-- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md)
+- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md)  especially the `mixer-races` QA helpers (`check-race-language-profiles.js`, `report-race-language-coverage.js`, `report-per-race-language-coverage.js`, `report-race-language-palettes.js`, `list-race-languages.js`).
 - [Individuals System – Developer Guide](Individuals.md), [Characters System – Developer Guide](Characters.md), [Evolving Simulation – Developer Guide](Evolving-Simulation.md), [Evolving Simulation – Design Choices](Evolving-Simulation-Choices.md)
 
 At a high level:
