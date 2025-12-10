@@ -3,6 +3,18 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 _Design note for adding min–max range controls (dual-handle sliders) to numeric Options for world generation: states, cultures, races, towns, religions. Includes a per-control toggle between single and range mode and a layout that matches the mockup._
 
+### Section index
+
+- [0. Goals & constraints](#0-goals--constraints)
+- [1. UX and layout](#1-ux-and-layout)
+- [2. Options schema and data model](#2-options-schema-and-data-model)
+- [3. Generator semantics](#3-generator-semantics)
+- [4. UI implementation details](#4-ui-implementation-details)
+- [5. Backwards compatibility & testing](#5-backwards-compatibility--testing)
+- [6. Implementation phases](#6-implementation-phases)
+- [7. Open design choices](#7-open-design-choices)
+- [8. Current decisions](#8-current-decisions)
+
 ---
 
 ## 0. Goals & constraints

@@ -4,6 +4,18 @@ This document summarizes the main differences between this fork (branch `Burgers
 
 The goal is to give a quick orientation for what has been added or changed, without duplicating all commit messages.
 
+### Section index
+
+- [1. High‑Level Overview](#1-high-level-overview)
+- [2. New Planning & Design Documents](#2-new-planning--design-documents)
+- [3. Language Mixer & Language Data](#3-language-mixer--language-data)
+- [4. Fantasy Race System](#4-fantasy-race-system)
+- [5. AI Text Generator & Namesbase Integration](#5-ai-text-generator--namesbase-integration)
+- [6. UI & UX Adjustments](#6-ui--ux-adjustments)
+- [7. Helper Tools & Maintenance Scripts](#7-helper-tools--maintenance-scripts)
+- [8. Miscellaneous Changes](#8-miscellaneous-changes)
+- [9. Conceptual Summary](#9-conceptual-summary)
+
 ---
 
 ## 1. High‑Level Overview
