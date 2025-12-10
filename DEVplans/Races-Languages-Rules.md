@@ -3,6 +3,19 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 _Developer-facing summary of how fantasy races are defined, how they attach to cultures / world data, and how they select languages via the Markov mixer._
 
+### Section index
+
+- [0. Scope & goals](#0-scope--goals)
+- [1. Core race definitions](#1-core-race-definitions)
+- [2. From cultures to races](#2-from-cultures-to-races)
+- [3. Race expansionism](#3-race-expansionism)
+- [4. Race propagation through world data](#4-race-propagation-through-world-data)
+- [5. Race language palettes & Markov mixer](#5-race-language-palettes--markov-mixer)
+- [6. Visualization & analysis tools](#6-visualization--analysis-tools)
+- [7. Integration with Individuals, Characters, and Evolving Simulation](#7-integration-with-individuals-characters-and-evolving-simulation)
+- [8. Summary](#8-summary)
+- [9. Current design choices](#9-current-design-choices)
+
 ---
 
 ## 0. Scope & goals
@@ -20,6 +33,7 @@ Key files:
 - `config/language-mixes.json`
 - `config/language-mixer-map.json`
 - `tools/mixer-races/*.js`
+- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md)
 - [Individuals System – Developer Guide](Individuals.md), [Characters System – Developer Guide](Characters.md), [Evolving Simulation – Developer Guide](Evolving-Simulation.md), [Evolving Simulation – Design Choices](Evolving-Simulation-Choices.md)
 
 At a high level:

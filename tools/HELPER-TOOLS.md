@@ -8,6 +8,17 @@ All scripts are intended to be run **from the project root** unless stated other
 node tools/<script-name>.js [options]
 ```
 
+### Section index
+
+- [Language Mixer – Core Maintenance](#language-mixer--core-maintenance)
+- [Catalog Shaping (language-mixes.json)](#catalog-shaping-language-mixesjson)
+- [Namebase Maintenance](#namebase-maintenance)
+- [Mixer Diagnostics & Cleanup](#mixer-diagnostics--cleanup)
+- [Regional / Family Updaters](#regional--family-updaters)
+- [Race Language Coverage & Palettes](#race-language-coverage--palettes)
+- [Experimental Markov helpers](#experimental-markov-helpers)
+- [Quick-Start Sequences](#quick-start-sequences)
+
 ---
 
 ## Language Mixer – Core Maintenance
@@ -493,6 +504,21 @@ If you already ran `fill-all-missing-mixes.js`, this script will typically be a 
 
 ---
 
+### `_meta-fill-missing-mixes.js` (META table)
+
+**Purpose**
+
+Shared internal `META` table used by `fill-all-missing-mixes.js` and `fill-missing-mixes-explicit.js` to attach nicer names, categories, regions, and tags to important ISOs when backfilling `config/language-mixes.json`.
+
+**Location / usage**
+
+- Lives at `tools/mixer-meta/_meta-fill-missing-mixes.js`.
+- Exported as `META` and imported by the two fillers above.
+- You typically edit this table when adding or retuning curated ISOs (e.g. making sure big languages like `akkadian`, `lat`, `deu`, `yue`, etc. get good display names and metadata).
+- It is *not* intended to be run directly as a script.
+
+---
+
 ### `add-african-languages.js`
 
 **Purpose**
@@ -638,6 +664,42 @@ Use this after reviewing `report-namebase-duplicates.js` to safely clean specifi
 
 ---
 
+### `check-namebase-lengths.js`
+
+**Purpose**
+
+Checks whether each base's configured `min` / `max` length range matches how its seed names and generated names actually behave, and flags bases whose real lengths look like outliers.
+
+**Inputs**
+
+- `modules/namebases-real.js`
+- `modules/namebases-fantasy.js`
+- `modules/namebases-creole.js`
+- `modules/namebases-all.js`
+- `modules/names-generator.js`
+
+**Outputs**
+
+- Console report for bases whose seed / generated length stats do not line up well with the configured `min` / `max`.
+
+**Behavior**
+
+- Loads `defaultNameBases` and the Markov generator (`Names.getBase`) into a sandbox.
+- For each base (or selected bases):
+  - Computes seed-based length stats from the raw `b` blob.
+  - Generates a configurable number of sample names via `Names.getBase` and computes generated length stats.
+  - Compares seed + generated stats against the configured `min` / `max` and reports bases whose ranges look suspicious.
+
+**Usage**
+
+```bash
+node tools/mixer-namebases/check-namebase-lengths.js [--base=IDX[,IDX...]] [--count=N] [--seed=INT] [--show-all]
+```
+
+Run this after you tune namebase `min` / `max` values or when investigating odd-length behavior in generated names.
+
+---
+
 ## Mixer Diagnostics & Cleanup
 
 These helpers report on the health and structure of the mixer catalog and mapping, and a few perform focused clean-up passes.
@@ -758,6 +820,108 @@ node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=
 ```
 
 Useful for spotting over-dense mappings (many languages all reusing the same base set) or opportunities to split clusters.
+
+---
+
+### `select-language-mixer-base-batch.js`
+
+**Purpose**
+
+Flattens all languages that share identical `bases[]` sets into a single ordered "issue list" and selects a worker-specific batch, so multiple people or runs can split the work of giving each language a unique base set.
+
+**Inputs**
+
+- `config/language-mixer-map.json`
+- `config/language-mixes.json`
+
+**Outputs**
+
+- Console summary of cluster sizes and total "issue" languages.
+- A per-worker batch listing:
+  - global index
+  - ISO and name
+  - region, family, category, tags
+  - shared `bases[]` set
+
+**Behavior**
+
+- Groups catalog languages by normalized base-set key (sorted unique `bases[]`).
+- Keeps only clusters whose size is at least `--min-size` (default `2`).
+- Applies optional filters on family, category, and region, and can skip entire base sets via `--skip-base-sets`.
+- Flattens the remaining clusters into a deterministic list and slices out the requested worker batch.
+
+**Usage**
+
+```bash
+node tools/mixer-diagnostics/select-language-mixer-base-batch.js \
+  [--include-families] [--min-size=N] [--family=VAL] [--category=VAL] [--region=VAL] \
+  [--worker=N] [--batch-size=N] [--skip-base-sets="9;140;18,23"]
+```
+
+Use this together with `report-language-mixer-base-clusters.js` when you are systematically de-duplicating base-set clusters across many languages.
+
+---
+
+### `check-language-mixer-map-inconsistencies.js`
+
+**Purpose**
+
+Runs a sanity sweep over the mixer catalog and mapping to surface coverage mismatches and bases that are reused across many unrelated families or regions.
+
+**Inputs**
+
+- `config/language-mixes.json`
+- `config/language-mixer-map.json`
+- `modules/namebases-real.js`, `modules/namebases-fantasy.js`, `modules/namebases-creole.js`, `modules/namebases-all.js`
+
+**Outputs**
+
+- Console report including:
+  - Catalog languages (after filters) with no mapping or with empty `bases[]`.
+  - Map entries that have no corresponding catalog mix under the current filters.
+  - For each base index that appears in the filtered set, a summary of which families, regions, and ISOs use it, with emphasis on bases shared across multiple families/regions.
+
+**Usage**
+
+```bash
+node tools/check-language-mixer-map-inconsistencies.js \
+  [--family=NAME] [--category=NAME] [--region=NAME] [--limit=N] \
+  [--base=IDX[,IDX...]] [--show-all-bases]
+```
+
+Run this when you want to investigate suspicious base reuse (e.g. a base shared between distant families) or coverage mismatches for a particular family/region.
+
+---
+
+### `profile-language-mixes.js`
+
+**Purpose**
+
+Profiles mixer languages (by ISO) to show which bases they use, how long their seed names are, how that compares to configured `min` / `max`, and what their overall script/character profile looks like.
+
+**Inputs**
+
+- `config/language-mixes.json`
+- `config/language-mixer-map.json`
+- `modules/namebases-real.js`, `modules/namebases-fantasy.js`, `modules/namebases-creole.js`, `modules/namebases-all.js`
+
+**Outputs**
+
+- Console report with, for each matching ISO:
+  - region, family, category
+  - mapped base indices and names
+  - aggregated seed-length stats across all bases
+  - per-base configured `min` / `max` vs seed stats
+  - a lightweight script/character summary (ASCII-only, extended, clicks, punctuation hints, etc.).
+
+**Usage**
+
+```bash
+node tools/profile-language-mixes.js \
+  [--iso=ID] [--family=NAME] [--category=NAME] [--region=NAME] [--limit=N]
+```
+
+Use this when you are tuning length settings, verifying that mapped bases match the intended script/feel, or comparing closely related mixes within a family.
 
 ---
 
@@ -1108,6 +1272,36 @@ Use this when tuning raceLanguageProfiles or race palettes and you want a single
 
 ---
 
+### `check-race-language-profiles.js`
+
+**Purpose**
+
+Lints `raceLanguageProfiles` in `modules/races.js` to enforce two invariants:
+
+- No race uses wildcard `"*"` in `categories` or `families`.
+- No two races share an identical combination of `categories` and `families`.
+
+If any problems are found, the script prints details and exits with a non-zero status (suitable for CI).
+
+**Inputs**
+
+- `modules/races.js` (parses the `raceLanguageProfiles` object literal directly).
+
+**Outputs**
+
+- Console summary of how many races have profiles, how many use wildcards, and how many duplicate profiles exist.
+- Detailed lists of offending races for each invariant.
+
+**Usage**
+
+```bash
+node tools/mixer-races/check-race-language-profiles.js
+```
+
+Run this after editing `raceLanguageProfiles` to ensure each race has a distinct, explicit subset of the mixer catalog.
+
+---
+
 ### `report-per-race-language-coverage.js`
 
 **Purpose**
@@ -1181,6 +1375,33 @@ node tools/mixer-races/report-race-language-palettes.js
 ```
 
 Run this to compare how narrow or broad different races' language palettes are.
+
+---
+
+### `list-race-languages.js`
+
+**Purpose**
+
+Lists the actual mixer catalog languages (ISOs) each race can draw from under `raceLanguageProfiles`, using the same matching logic as `getRaceLanguageIsoWeights`.
+
+**Inputs**
+
+- `config/language-mixes.json`
+- `modules/races.js` (parses `raceLanguageProfiles`).
+
+**Outputs**
+
+- For each race:
+  - Summary line with total ISO count and distinct region/category/family counts.
+  - Detailed table: `iso | name | region | family | category | weight`.
+
+**Usage**
+
+```bash
+node tools/mixer-races/list-race-languages.js [--race=Name]
+```
+
+Run this when you want to inspect the exact palette for a specific race (or all races) and see which regions/families it actually pulls from.
 
 ---
 
@@ -1280,6 +1501,40 @@ If you want a clean starting point today, prefer:
 
 - `experiment-compound-markov-v2.js` for **single-base compound** tuning.
 - `experiment-compound-markov-blend.js` for **multi-base blended** tuning.
+
+---
+
+### `markov-full-upgrade-tester.js`
+
+**Purpose**
+
+Standalone playground for a "full-upgrade" Markov generator that can blend segments from multiple bases into a single long-form name, while:
+
+- Respecting requested length bands more often than not.
+- Avoiding overly repetitive click+root patterns.
+- Using base-level length statistics to choose reasonable segment sizes.
+
+**Inputs**
+
+- `modules/namebases-real.js`
+- `modules/namebases-fantasy.js`
+- `modules/namebases-creole.js`
+- `modules/namebases-all.js`
+
+**Outputs**
+
+- Console-only output:
+  - A block of blended sample names, each tagged with the base indices that contributed segments (e.g. `[353+354+0]`).
+  - Summary statistics over generated name lengths (min, max, mean, quartiles).
+
+**Usage**
+
+```bash
+node tools/mixer-experiments/markov-full-upgrade-tester.js \
+  --base=IDX[,IDX...] [--count=N] [--min=INT] [--max=INT] [--segments=INT] [--seed=INT]
+```
+
+Use this when experimenting with new long-form, multi-base name behavior before wiring anything into the in-browser generator.
 
 ---
 

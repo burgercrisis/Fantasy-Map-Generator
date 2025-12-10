@@ -1264,6 +1264,13 @@
     "family": "Kx'a"
   },
   {
+    "name": "Juǀʼhoan",
+    "iso": "ju-hoan",
+    "region": "Africa",
+    "category": "Kx'a",
+    "family": "Kx'a"
+  },
+  {
     "name": "Taa",
     "iso": "taa",
     "region": "Africa",
@@ -1276,6 +1283,20 @@
     "region": "Africa",
     "category": "Tuu",
     "family": "Tuu"
+  },
+  {
+    "name": "Hadza",
+    "iso": "hadza",
+    "region": "Africa",
+    "category": "Isolate",
+    "family": "Hadza isolate"
+  },
+  {
+    "name": "Sandawe",
+    "iso": "sandawe",
+    "region": "Africa",
+    "category": "Isolate",
+    "family": "Sandawe isolate"
   },
   {
     "name": "El Molo",

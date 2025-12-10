@@ -325,5 +325,7 @@ window.fantasyNameBases = [
       {name: "Maghrebi Arabic", i: 349, min: 4, max: 12, d: "lnrt", m: 0, b: "Casablanca,Rabat,Fez,Meknes,Tangier,Tetouan,Algiers,Oran,Constantine,Annaba,Tripoli,Benghazi,Tunis,Sfax,Sousse,Nador,Oujda,Tlemcen"},
       {name: "Egyptian Arabic", i: 350, min: 4, max: 12, d: "lnrt", m: 0, b: "Cairo,Alexandria,Giza,Shubra El Kheima,Port Said,Suez,Mansoura,Tanta,Asyut,Aswan,Luxor,Zagazig,Damietta,Banha,Minya,Gharbia,Fayoum,Ismailia"},
       {name: "Levantine Arabic", i: 351, min: 4, max: 12, d: "lnrt", m: 0, b: "Beirut,Tripoli,Tyre,Saida,Amman,Zarqa,Irbid,Jerusalem,Bethlehem,Ramallah,Nablus,Hebron,Damascus,Aleppo,Homs,Hama,Latakia,Tartus"},
-      {name: "Gulf Arabic", i: 352, min: 4, max: 12, d: "lnrt", m: 0, b: "Riyadh,Jeddah,Dammam,Khobar,Doha,Dubai,Abu Dhabi,Sharjah,Manama,Kuwait City,Muscat,Salalah,Basra,Al Ain,Ajman,Ras Al Khaimah,Fujairah"}
+      {name: "Gulf Arabic", i: 352, min: 4, max: 12, d: "lnrt", m: 0, b: "Riyadh,Jeddah,Dammam,Khobar,Doha,Dubai,Abu Dhabi,Sharjah,Manama,Kuwait City,Muscat,Salalah,Basra,Al Ain,Ajman,Ras Al Khaimah,Fujairah"},
+      {name: "North Dravidian", i: 353, min: 5, max: 12, d: "lnrt", m: 0, b: "Quetta,Kalat,Khuzdar,Mastung,Nushki,Kharan,Sibi,Zhob,Kohlu,Barkhan,Ranchi,Gumla,Lohardaga,Simdega,Daltonganj,Latehar,Hazaribagh,Ambikapur,Sundargarh,Chaibasa,Khunti"},
+      {name: "Central Dravidian", i: 354, min: 5, max: 12, d: "lnrt", m: 0, b: "Nagpur,Gondia,Balaghat,Bhandara,Raipur,Bilaspur,Jagdalpur,Koraput,Jeypore,Nabarangpur,Dantewada,Bastar,Kondagaon,Dhamtari,Kanker,Kawardha,Bijapur,Malkangiri,KoraputTown,JagdalpurTown"}
   ];

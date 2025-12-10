@@ -1677,6 +1677,13 @@
     "family": "Khoe-Kwadi"
   },
   {
+    "name": "Hadza",
+    "iso": "hadza",
+    "region": "Africa",
+    "category": "Isolate",
+    "family": "Hadza isolate"
+  },
+  {
     "name": "Hakaona",
     "iso": "hakaona",
     "region": "Africa",
@@ -1836,6 +1843,13 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Chadic"
+  },
+  {
+    "name": "Juǀʼhoan",
+    "iso": "ju-hoan",
+    "region": "Africa",
+    "category": "Kx'a",
+    "family": "Kx'a"
   },
   {
     "name": "Kabalai language",
@@ -2892,6 +2906,13 @@
     "region": "Africa",
     "category": "Afroasiatic",
     "family": "Cushitic"
+  },
+  {
+    "name": "Sandawe",
+    "iso": "sandawe",
+    "region": "Africa",
+    "category": "Isolate",
+    "family": "Sandawe isolate"
   },
   {
     "name": "Sango",

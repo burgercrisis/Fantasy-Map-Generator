@@ -5,6 +5,16 @@ _Last updated: WIP pass with blended Markov and mixer tooling_
 
 This document captures where the language system work currently stands so this project can be picked up later without re‑reverse‑engineering everything. It assumes the core design goal that each language ultimately has its own linguistically and regionally appropriate base or tuned mix in the namebase/mixer layer; [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) describes how that goal is consumed on the race side.
 
+### Section index
+
+- [1. Infrastructure status](#1-infrastructure-status)
+- [2. Families / bases already reviewed](#2-families--bases-already-reviewed)
+- [3. Not-unique-enough clusters (current suspects)](#3-not-unique-enough-clusters-current-suspects)
+- [4. Work not yet done / future passes](#4-work-not-yet-done--future-passes)
+- [5. Planned next steps when resuming](#5-planned-next-steps-when-resuming)
+- [6. Quick checklist for whoever picks this up](#6-quick-checklist-for-whoever-picks-this-up)
+- [7. Planned tooling extensions (Markov, similarity, and UX helpers)](#7-planned-tooling-extensions-markov-similarity-and-ux-helpers)
+
 ## 1. Infrastructure status
 
 - **Blended Markov generator**
@@ -43,6 +53,8 @@ This document captures where the language system work currently stands so this p
       - Bases used across **multiple families/regions** (potential style-collapsing hubs).
 
 These tools are the main entry points for future tuning passes.
+
+For a full index of helper scripts and workflows, see [tools/HELPER-TOOLS.md](../tools/HELPER-TOOLS.md).
 
 ---
 
