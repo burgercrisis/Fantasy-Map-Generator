@@ -1752,6 +1752,14 @@
     "family": "Chadic"
   },
   {
+    "name": "Hausa",
+    "iso": "hausa",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hausa_language",
+    "family": "Chadic"
+  },
+  {
     "name": "Hdi language",
     "iso": "hdi-language",
     "region": "Africa",
@@ -3848,6 +3856,14 @@
     "region": "Asia",
     "category": "Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Balochi_language",
+    "family": "Iranian"
+  },
+  {
+    "name": "Iranian Persian",
+    "iso": "iranian-persian",
+    "region": "Asia",
+    "category": "Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persian_language",
     "family": "Iranian"
   },
   {
@@ -14167,6 +14183,14 @@
     "region": "Middle East",
     "category": "Afroasiatic",
     "family": "Levantine"
+  },
+  {
+    "name": "Egyptian Arabic",
+    "iso": "egyptian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_Arabic",
+    "family": "Egyptian Arabic"
   },
   {
     "name": "Algerian Arabic",

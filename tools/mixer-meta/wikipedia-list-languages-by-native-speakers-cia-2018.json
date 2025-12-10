@@ -1,0 +1,17 @@
+{
+  "title": "Wikipedia: List of languages by number of native speakers – CIA World Factbook 2018 subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers",
+  "items": [
+    { "name": "Mandarin Chinese", "iso": "mandarin" },
+    { "name": "Spanish" },
+    { "name": "English" },
+    { "name": "Arabic", "iso": "ara" },
+    { "name": "Hindi", "iso": "hin" },
+    { "name": "Bengali" },
+    { "name": "Portuguese" },
+    { "name": "Russian" },
+    { "name": "Japanese", "iso": "jpn-lang" },
+    { "name": "Western Punjabi", "iso": "punjabi" },
+    { "name": "Javanese" }
+  ]
+}

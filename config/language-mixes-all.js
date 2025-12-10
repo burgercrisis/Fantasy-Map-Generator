@@ -1698,6 +1698,14 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Hausa",
+    "iso": "hausa",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hausa_language",
+    "family": "Chadic"
+  },
+  {
     "name": "Hausa-Gwandara languages",
     "iso": "hausa-gwandara-languages",
     "region": "Africa",
@@ -4647,6 +4655,14 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Iranian Persian",
+    "iso": "iranian-persian",
+    "region": "Asia",
+    "category": "Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persian_language",
+    "family": "Iranian"
   },
   {
     "name": "Irula",
@@ -14531,6 +14547,14 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Egyptian Arabic",
+    "iso": "egyptian-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_Arabic",
+    "family": "Egyptian Arabic"
   },
   {
     "name": "Maghrebi Arabic",
