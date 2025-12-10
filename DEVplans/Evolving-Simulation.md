@@ -14,6 +14,20 @@ Related devplans (optional deep dives):
 - [Language System Status – Markov & Mixer](Languages-Status.md) – status and tooling for Markov bases and the language mixer that feed cultures and races.
 - [Races & Languages – System Rules](Races-Languages-Rules.md) – how fantasy races attach to cultures and languages, and how those tags are exposed to the sim.
 - [Characters System – Developer Guide](Characters.md) – D&D/d20 character layer on top of Individuals, which can consume history outputs.
+- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helper scripts and QA workflows for the language mixer and race language palettes.
+
+### Section index
+
+- [0. Goals & Constraints](#0-goals--constraints)
+- [1. High-Level Architecture](#1-high-level-architecture)
+- [2. Time & Tick Model](#2-time--tick-model)
+- [3. Data Schemas (Conceptual)](#3-data-schemas-conceptual)
+- [4. Systems & Rules (Conceptual)](#4-systems--rules-conceptual)
+- [5. Persistence & Determinism](#5-persistence--determinism)
+- [6. Public API Surface (v1)](#6-public-api-surface-v1)
+- [7. Implementation Roadmap (Phases)](#7-implementation-roadmap-phases)
+- [8. Notes & Design Principles](#8-notes--design-principles)
+- [9. Open Design Choices](#9-open-design-choices)
 
 ## 0. Goals & Constraints
 

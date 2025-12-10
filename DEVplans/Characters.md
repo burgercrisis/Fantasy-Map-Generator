@@ -9,6 +9,18 @@ Related devplans:
 - [Individuals System – Developer Guide](Individuals.md) – core people model that Characters extends.
 - [Races & Languages – System Rules](Races-Languages-Rules.md) – how race and language tags are assigned in world data and can feed into character flavor.
 - [Evolving Simulation – Developer Guide](Evolving-Simulation.md) – evolving history layer that uses Individuals for rulers and events; Characters can be attached to notable Individuals from that history.
+- [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helpers and QA workflows for the language mixer and race language palettes.
+
+### Section index
+
+- [0. Goals & Constraints](#0-goals--constraints)
+- [1. High-Level Architecture](#1-high-level-architecture)
+- [2. Data Files Layout (Rules & Characters)](#2-data-files-layout-rules--characters)
+- [3. Mapping Individuals → Characters (Occupation/ClassScore → Class/Level)](#3-mapping-individuals--characters-occupationclassscore--classlevel)
+- [4. Abilities, Saves, Skills – ID Strategy](#4-abilities-saves-skills--id-strategy)
+- [5. Quick View vs Full View](#5-quick-view-vs-full-view)
+- [6. Core APIs (Conceptual)](#6-core-apis-conceptual)
+- [7. Implementation Roadmap](#7-implementation-roadmap)
 
 ---
 

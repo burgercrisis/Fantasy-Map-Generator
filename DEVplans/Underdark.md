@@ -3,6 +3,18 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 This document outlines the plan for implementing the Underdark system in the Fantasy Map Generator. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re‑designing the feature.
 
+### Section index
+
+- [0. Goals & Constraints](#0-goals--constraints)
+- [1. High-Level Architecture](#1-high-level-architecture)
+- [2. Data Structures](#2-data-structures)
+- [3. Integration Points](#3-integration-points)
+- [4. UI Plan (Skeleton Only)](#4-ui-plan-skeleton-only)
+- [5. Generation Pipeline (Conceptual)](#5-generation-pipeline-conceptual)
+- [6. Editing Behavior (Minimal MVP)](#6-editing-behavior-minimal-mvp)
+- [7. Reroll & Regeneration Policies](#7-reroll--regeneration-policies)
+- [8. Phased Implementation Checklist](#8-phased-implementation-checklist)
+
 ---
 
 ## 0. Goals & Constraints

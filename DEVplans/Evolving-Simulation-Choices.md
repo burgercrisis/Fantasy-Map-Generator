@@ -14,6 +14,17 @@ It complements [Evolving Simulation – Developer Guide](Evolving-Simulation.md)
 
 ---
 
+### Section index
+
+- [1. Biome / climate smoothing with neighbors](#1-biome--climate-smoothing-with-neighbors)
+- [2. Roads / trade network](#2-roads--trade-network)
+- [3. Culture / religion diffusion](#3-culture--religion-diffusion)
+- [4. Realm events & narrative engine](#4-realm-events--narrative-engine)
+- [5. Remaining open choices (high-level)](#5-remaining-open-choices-high-level)
+- [6. Explicit user-chosen recommendations (summary)](#6-explicit-user-chosen-recommendations-summary)
+
+---
+
 ## 1. Biome / climate smoothing with neighbors
 
 ### 1.1 Chosen direction

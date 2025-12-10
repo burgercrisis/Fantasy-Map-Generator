@@ -3,6 +3,20 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 This document outlines the plan for implementing the **Individuals & Population** system in the Fantasy Map Generator. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re-designing the feature.
 
+For language mixer helper scripts and workflows, see [tools/HELPER-TOOLS.md](../tools/HELPER-TOOLS.md).
+
+### Section index
+
+- [0. Goals & Constraints](#0-goals--constraints)
+- [1. High-Level Architecture](#1-high-level-architecture)
+- [2. IDs & Seeding](#2-ids--seeding)
+- [3. Data Schemas (Conceptual)](#3-data-schemas-conceptual)
+- [4. Per-Settlement Overrides Files](#4-per-settlement-overrides-files)
+- [5. Time & Evolution](#5-time--evolution)
+- [6. Indexing & Hard Fields](#6-indexing--hard-fields)
+- [7. Public API Surface (v1)](#7-public-api-surface-v1)
+- [8. Implementation Roadmap (Phases)](#8-implementation-roadmap-phases)
+
 ---
 
 ## 0. Goals & Constraints
