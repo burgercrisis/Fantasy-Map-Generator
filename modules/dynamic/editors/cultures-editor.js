@@ -344,12 +344,17 @@ function cultureChangeName() {
   );
 }
 
-function cultureRegenerateName() {
+function regenerateCultureName() {
   const cultureId = +this.parentNode.dataset.id;
   const base = pack.cultures[cultureId].base;
   if (!nameBases[base]) return tip("Namesbase is not defined, please select a valid namesbase", false, "error", 5000);
-
-  const name = Names.getCultureShort(cultureId);
+  let name;
+  if (typeof Names.getUseCaseRange === "function") {
+    const range = Names.getUseCaseRange(base, "culture");
+    name = Names.getCulture(cultureId, range.min, range.max, "");
+  } else {
+    name = Names.getCultureShort(cultureId);
+  }
   this.parentNode.querySelector("input.cultureName").value = name;
   pack.cultures[cultureId].name = name;
 }

@@ -615,7 +615,7 @@ window.Religions = (function () {
         .map(religion => {
           // and filter their origins to locked religions
           let newOrigin = religion.origins.filter(n => lockedReligions.some(({i: index}) => index === n));
-          if (newOrigin === []) newOrigin = [0];
+          if (!newOrigin.length) newOrigin = [0];
           return {...religion, origins: newOrigin};
         })
         .sort((a, b) => a.i - b.i);
@@ -865,7 +865,14 @@ window.Religions = (function () {
       return;
     }
     const meaning = generateMeaning();
-    const cultureName = Names.getCulture(culture, null, null, "", 0.8);
+    const base = pack.cultures[culture] && pack.cultures[culture].base;
+    let cultureName;
+    if (typeof base === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(base, "deity");
+      cultureName = Names.getCulture(culture, range.min, range.max, "");
+    } else {
+      cultureName = Names.getCulture(culture, null, null, "", 0.8);
+    }
     return cultureName + ", The " + meaning;
   };
 
@@ -894,7 +901,15 @@ window.Religions = (function () {
   function generateReligionName(variety, form, deity, center) {
     const {cells, cultures, burgs, states} = pack;
 
-    const random = () => Names.getCulture(cells.culture[center], null, null, "", 0);
+    const random = () => {
+      const cultureId = cells.culture[center];
+      const base = cultures[cultureId] && cultures[cultureId].base;
+      if (typeof base === "number" && typeof Names.getUseCaseRange === "function") {
+        const range = Names.getUseCaseRange(base, "religion");
+        return Names.getCulture(cultureId, range.min, range.max, "");
+      }
+      return Names.getCulture(cultureId, null, null, "", 0);
+    };
     const type = rw(types[form]);
     const supreme = deity.split(/[ ,]+/)[0];
     const culture = cultures[cells.culture[center]].name;

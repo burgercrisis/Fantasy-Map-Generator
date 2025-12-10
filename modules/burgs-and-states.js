@@ -81,7 +81,13 @@ window.BurgsAndStates = (() => {
         // burgs data
         b.i = b.state = i;
         b.culture = cells.culture[b.cell];
-        b.name = Names.getCultureShort(b.culture);
+        const baseIndex = cultures[b.culture] && cultures[b.culture].base;
+        if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+          const range = Names.getUseCaseRange(baseIndex, "capital");
+          b.name = Names.getCulture(b.culture, range.min, range.max);
+        } else {
+          b.name = Names.getCultureShort(b.culture);
+        }
         b.feature = cells.f[b.cell];
         b.capital = 1;
 

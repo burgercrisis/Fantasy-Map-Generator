@@ -315,8 +315,16 @@ function recreateStates() {
 
     // create new state
     const culture = capital.culture;
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    let cultureBaseName;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "state");
+      cultureBaseName = Names.getCulture(culture, range.min, range.max, "");
+    } else {
+      cultureBaseName = Names.getCulture(culture, 3, 6, "", 0);
+    }
     const basename =
-      capital.name.length < 9 && capital.cell % 5 === 0 ? capital.name : Names.getCulture(culture, 3, 6, "", 0);
+      capital.name.length < 9 && capital.cell % 5 === 0 ? capital.name : cultureBaseName;
     const name = Names.getState(basename, culture);
     const nomadic = [1, 2, 3, 4].includes(pack.cells.biome[capital.cell]);
     const type = nomadic
@@ -591,7 +599,14 @@ function addLabelOnClick() {
   // get culture in clicked point to generate a name
   const cell = findCell(point[0], point[1]);
   const culture = pack.cells.culture[cell];
-  const name = Names.getCulture(culture);
+  const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+  let name;
+  if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+    const range = Names.getUseCaseRange(baseIndex, "town");
+    name = Names.getCulture(culture, range.min, range.max);
+  } else {
+    name = Names.getCulture(culture);
+  }
   const id = getNextId("label");
 
   // use most recently selected label group

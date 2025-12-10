@@ -459,7 +459,12 @@ When this work resumes, a practical order of operations:
      - A clear list of **intentional shared bases vs accidental reuse**.
 
 6. **Grow coverage via Wikipedia language lists**
+   - For this project, a Wikipedia language list is considered **fully represented** only when every leaf language on that list:
+     - has a catalog entry in `config/language-mixes.json`, and
+     - has at least one mapping in `config/language-mixer-map.json` (i.e. participates in the namebase/mixer layer), or is explicitly documented here as an intentional omission.
+   - **Current status (as of 2025-12-10): no specific Wikipedia language list is yet fully represented end-to-end.** Languages have been added in curated clusters from multiple lists (e.g. high-speaker Indo-Aryan varieties, African families, Papuan and Mongolic branches), but even headline lists such as *List of languages by number of native speakers* still have unrepresented entries.
    - After the current backlog of in-progress families and languages documented in this file is finished, continue adding missing languages from Wikipedia’s language lists into `language-mixes.json` / `language-mixer-map.json`.
+   - As individual lists are completed in the strict sense above, record them here in a short sub-bullet list under this item (list name, scope, and date completed) so future passes know exactly which lists are fully wired.
    - Treat each new language with the same per-language rigor (seed curation, base choice, `min/max/d` tuning, and mixer-map QA); avoid bulk-adding large blocks of languages onto a single hub base without review.
 
 ---

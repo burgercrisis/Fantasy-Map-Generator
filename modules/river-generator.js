@@ -439,7 +439,13 @@ window.Rivers = (function () {
   };
 
   const getName = function (cell) {
-    return Names.getCulture(pack.cells.culture[cell]);
+    const culture = pack.cells.culture[cell];
+    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      return Names.getCulture(culture, range.min, range.max);
+    }
+    return Names.getCulture(culture);
   };
 
   // weighted arrays of river type names

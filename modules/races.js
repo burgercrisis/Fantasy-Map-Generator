@@ -82,8 +82,8 @@ const raceLanguageProfiles = {
     families: ["Germanic", "Slavic", "Baltic"]
   },
   Halfling: {
-    categories: ["Germanic", "Celtic", "Romance"],
-    families: ["Germanic", "Celtic", "Romance"]
+    categories: ["Romance", "Celtic", "Germanic"],
+    families: ["Romance", "Celtic", "Germanic", "Sardinian", "Tuscan", "Neapolitan"]
   },
   Gnome: {
     categories: ["Germanic", "Celtic"],
@@ -113,9 +113,11 @@ const raceLanguageProfiles = {
     categories: [
       "Sino-Tibetan",
       "Mongolic",
-      "Turkic"
+      "Tai-Kadai",
+      "Japonic",
+      "Koreanic"
     ],
-    families: ["Sino-Tibetan", "Mongolic", "Turkic"]
+    families: ["Sino-Tibetan", "Mongolic", "Tai-Kadai", "Japonic", "Koreanic"]
   },
   Dragonborn: {
     categories: [
@@ -143,12 +145,12 @@ const raceLanguageProfiles = {
     families: ["Indo-Aryan", "Dravidian"]
   },
   Tiefling: {
-    categories: ["Afroasiatic"],
-    families: ["Romance", "Semitic", "Arabic"]
+    categories: ["Afroasiatic", "Iranian"],
+    families: ["Semitic", "Arabic", "Iranian"]
   },
   Aasimar: {
-    categories: ["Romance"],
-    families: ["Romance", "Semitic", "Arabic"]
+    categories: ["Romance", "Greek"],
+    families: ["Romance", "Greek", "Sardinian", "Tuscan", "Neapolitan"]
   },
   Hobgoblin: {
     categories: ["Slavic", "Germanic"],
@@ -205,7 +207,12 @@ const raceLanguageProfiles = {
       "Tupian",
       "Quechuan",
       "Ticuna–Yuri",
-      "Totonacan"
+      "Totonacan",
+      "Mayan",
+      "Arawakan",
+      "Aymaran",
+      "Araucanian",
+      "Oto-Manguean"
     ]
   },
   Warforged: {

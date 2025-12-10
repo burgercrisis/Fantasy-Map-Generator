@@ -104,7 +104,17 @@ class Battle {
       return river.name + " " + river.type;
     };
     const river = !burg && cells.r[i] ? getRiver(cells.r[i]) : null;
-    const proper = burg || river ? null : Names.getCulture(cells.culture[this.cell]);
+    let proper = null;
+    if (!burg && !river) {
+      const culture = cells.culture[this.cell];
+      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+      if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+        const range = Names.getUseCaseRange(baseIndex, "town");
+        proper = Names.getCulture(culture, range.min, range.max);
+      } else {
+        proper = Names.getCulture(culture);
+      }
+    }
     return burg ? burg : river ? river : proper;
   }
 

@@ -136,7 +136,14 @@ function addBurg(point) {
   const cellId = findCell(x, y);
   const i = pack.burgs.length;
   const culture = cells.culture[cellId];
-  const name = Names.getCulture(culture);
+  const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+  let name;
+  if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+    const range = Names.getUseCaseRange(baseIndex, "town");
+    name = Names.getCulture(culture, range.min, range.max);
+  } else {
+    name = Names.getCulture(culture);
+  }
   const state = cells.state[cellId];
   const feature = cells.f[cellId];
 

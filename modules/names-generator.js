@@ -397,6 +397,7 @@ window.Names = (function () {
     clearChains,
     getNameBases: () => window.defaultNameBases,
     getMapName,
+    getUseCaseRange,
     calculateChain
   };
 })();
