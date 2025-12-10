@@ -1,0 +1,22 @@
+{
+  "title": "Wikipedia: Tungusic languages – language-level snapshot",
+  "source": "https://en.wikipedia.org/wiki/Tungusic_languages",
+  "items": [
+    { "name": "Evenki", "iso": "evenki" },
+    { "name": "Even", "iso": "even" },
+    { "name": "Negidal", "iso": "negidal" },
+    { "name": "Oroqen", "iso": "oroqen" },
+    { "name": "Kili", "iso": "kili" },
+    { "name": "Oroch", "iso": "oroch" },
+    { "name": "Udege", "iso": "udege" },
+    { "name": "Nanai", "iso": "nanai" },
+    { "name": "Orok", "iso": "orok" },
+    { "name": "Ulch", "iso": "ulch" },
+    { "name": "Manchu", "iso": "manchu" },
+    { "name": "Xibe", "iso": "xibe" },
+    { "name": "Jurchen", "iso": "jurchen" },
+    { "name": "Chinese Kyakala", "iso": "chinese-kyakala" },
+    { "name": "Bala", "iso": "bala" },
+    { "name": "Alchuka", "iso": "alchuka" }
+  ]
+}

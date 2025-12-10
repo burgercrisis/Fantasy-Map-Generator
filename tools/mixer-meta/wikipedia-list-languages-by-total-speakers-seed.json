@@ -1,0 +1,24 @@
+{
+  "title": "Wikipedia: List of languages by total number of speakers – seed subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers",
+  "items": [
+    { "name": "English" },
+    { "name": "Mandarin Chinese" },
+    { "name": "Hindi" },
+    { "name": "Spanish" },
+    { "name": "French" },
+    { "name": "Arabic" },
+    { "name": "Bengali" },
+    { "name": "Portuguese" },
+    { "name": "Russian" },
+    { "name": "Indonesian" },
+    { "name": "Urdu" },
+    { "name": "Japanese" },
+    { "name": "German" },
+    { "name": "Persian" },
+    { "name": "Swahili" },
+    { "name": "Turkish" },
+    { "name": "Vietnamese" },
+    { "name": "Korean" }
+  ]
+}

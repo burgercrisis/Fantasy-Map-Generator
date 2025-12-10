@@ -1,0 +1,16 @@
+{
+  "title": "Wikipedia: List of lingua francas – seed subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_lingua_francas",
+  "items": [
+    {"name": "English"},
+    {"name": "French"},
+    {"name": "Spanish"},
+    {"name": "Arabic"},
+    {"name": "Russian"},
+    {"name": "Swahili"},
+    {"name": "Malay"},
+    {"name": "Hindustani"},
+    {"name": "Mandarin"},
+    {"name": "Tok Pisin"}
+  ]
+}

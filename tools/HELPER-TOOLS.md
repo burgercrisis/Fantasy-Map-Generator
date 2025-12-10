@@ -959,25 +959,27 @@ Run this before or after regional updaters when you want to see which special fa
 
 **Purpose**
 
-Removes mapping entries whose ISO does **not** exist in the catalog, keeping `config/language-mixer-map.json` aligned with `config/language-mixes.json`.
+Reports mapping entries whose ISO does **not** exist in the catalog so you can see which rows in `config/language-mixer-map.json` are "orphaned" relative to `config/language-mixes.json`. Under the no-deletion policy for languages this script is diagnostic-only by default.
 
 **Inputs / Outputs**
 
-- Reads & overwrites `config/language-mixer-map.json`
-- Reads `config/language-mixes.json`
+- Reads `config/language-mixes.json` and `config/language-mixer-map.json`
+- By default (no flags) it does **not** modify any files; it only prints counts and a sample of orphaned mappings.
 
 **Behavior**
 
-- Builds the set of catalog ISOs, then filters the mapping to only those.
-- Prints how many entries were kept vs. dropped and shows a sample of dropped entries.
+- Builds the set of catalog ISOs and compares it to the mapping.
+- Prints how many entries in the map do **not** have a corresponding catalog entry and shows a sample of those entries.
+- When run with `--apply`, rewrites `config/language-mixer-map.json` to keep only entries whose ISOs exist in the catalog (this is a destructive operation and should be used sparingly, if at all).
 
 **Usage**
 
 ```bash
-node tools/mixer-diagnostics/clean-language-mixer-map.js
+node tools/mixer-diagnostics/clean-language-mixer-map.js        # dry run, report only
+node tools/mixer-diagnostics/clean-language-mixer-map.js --apply # rewrite map to drop orphaned rows
 ```
 
-Run this after larger catalog refactors to prevent orphaned mapping entries, then regenerate bundles with `generate-language-mixer.js`.
+Under the current no-deletion invariant for languages, you should generally use the **dry run** mode as a diagnostic to understand map/catalog mismatches. If you ever choose to run with `--apply`, treat it as an explicit, high-scrutiny refactor step and immediately regenerate bundles with `generate-language-mixer.js` and re-run coverage/uniqueness diagnostics.
 
 ---
 

@@ -1,0 +1,16 @@
+{
+  "title": "Wikipedia: List of languages by number of phonemes – seed subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_phonemes",
+  "items": [
+    { "name": "Rotokas", "iso": "rotokas" },
+    { "name": "Pirahã", "iso": "piraha" },
+    { "name": "Hawaiian" },
+    { "name": "Japanese" },
+    { "name": "Spanish" },
+    { "name": "English" },
+    { "name": "German" },
+    { "name": "Russian" },
+    { "name": "Mandarin Chinese", "iso": "mandarin" },
+    { "name": "Taa" }
+  ]
+}

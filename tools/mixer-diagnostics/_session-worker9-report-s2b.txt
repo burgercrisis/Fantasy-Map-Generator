@@ -1,0 +1,34 @@
+﻿=== Language Mixer base-set clusters (catalog languages only) ===
+Considered catalog languages (after filters): 703
+Total distinct base sets (all sizes): 691
+Clusters with identical base sets (size >= 2): 5
+Total language entries participating in these clusters: 17
+Columns: iso | name | region | family | category | tags (comma-separated); bases are shared per cluster.
+
+-- bases=[9] | members=9 --
+-sele | ├àsele | Eurasia | Southern Sami | Uralic | 
+akkala-sami | Akkala Sami | Eurasia | Sami | Uralic | extinct
+ala-satakunta | Ala-Satakunta | Eurasia | Western Dialects | Uralic | 
+erzya | Erzya | Eurasia | Erzya | Uralic | 
+moksha | Moksha | Eurasia | Moksha | Uralic | 
+komi-zyryan | Komi-Zyryan | Eurasia | Komi-Zyryan | Uralic | 
+nenets | Nenets | Eurasia | Nenets | Uralic | 
+estonian | Estonian | Europe | North Estonian | Uralic | 
+fin | Finnish | Europe | Finnish | Uralic | 
+
+-- bases=[263,360,370] | members=2 --
+kandawo | Kandawo | Pacific | ChimbuΓÇôWahgi | Papuan | 
+motu | Motu | Pacific | Austronesian | Austronesian | 
+
+-- bases=[30] | members=2 --
+yue | Cantonese | East Asia | Yue | Sino-Tibetan | 
+guarani | Guarani | South America | Tupian | Tupian | 
+
+-- bases=[383] | members=2 --
+athabaskan | Athabaskan | North America | Na-Dene | Na-Dene | 
+navajo | Navajo | North America | Na-Dene | Na-Dene | 
+
+-- bases=[394] | members=2 --
+seri | Seri | North America | Seri isolate | Language isolate | 
+gle | Irish | Europe | Celtic | Celtic | 
+

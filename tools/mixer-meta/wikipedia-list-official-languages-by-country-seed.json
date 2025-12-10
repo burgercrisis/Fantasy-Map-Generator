@@ -1,0 +1,18 @@
+{
+  "title": "Wikipedia: List of official languages by country and territory – seed subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory",
+  "items": [
+    { "name": "English" },
+    { "name": "French" },
+    { "name": "Spanish" },
+    { "name": "Arabic" },
+    { "name": "Russian" },
+    { "name": "Mandarin Chinese", "iso": "mandarin" },
+    { "name": "Portuguese" },
+    { "name": "German" },
+    { "name": "Hindi" },
+    { "name": "Bengali" },
+    { "name": "Malay" },
+    { "name": "Swahili" }
+  ]
+}

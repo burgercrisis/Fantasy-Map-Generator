@@ -6029,6 +6029,14 @@
     ]
   },
   {
+    "name": "Orok",
+    "iso": "orok",
+    "region": "Asia",
+    "category": "Tungusic",
+    "family": "Nanaic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uilta_language"
+  },
+  {
     "name": "Oroqen",
     "iso": "oroqen",
     "region": "Asia",
@@ -13382,6 +13390,29 @@
     "family": "Spanish"
   },
   {
+    "name": "Swedish",
+    "iso": "swe",
+    "category": "Germanic",
+    "region": "Europe",
+    "family": "North Germanic"
+  },
+  {
+    "name": "Norwegian",
+    "iso": "norwegian",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "North Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norwegian_language"
+  },
+  {
+    "name": "Danish",
+    "iso": "danish",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "North Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Danish_language"
+  },
+  {
     "name": "Standard French",
     "iso": "standard-french",
     "region": "Europe",
@@ -14167,6 +14198,102 @@
     "family": "Oto-Manguean"
   },
   {
+    "name": "Oirat",
+    "iso": "oirat",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oirat_language",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Bonan",
+    "iso": "bonan",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bonan_language",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Mogholi",
+    "iso": "mogholi",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mogholi_language",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Daur",
+    "iso": "daur",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daur_language",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Santa Mongol",
+    "iso": "santa-mongol",
+    "region": "Asia",
+    "category": "Mongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santa_language",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Central Zapotec",
+    "iso": "central-zapotec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Central_Zapotec",
+    "family": "Oto-Manguean"
+  },
+  {
+    "name": "Isthmus Zapotec",
+    "iso": "isthmus-zapotec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isthmus_Zapotec",
+    "family": "Oto-Manguean"
+  },
+  {
+    "name": "Sierra Juarez Zapotec",
+    "iso": "sierra-juarez-zapotec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sierra_Ju%C3%A1rez_Zapotec",
+    "family": "Oto-Manguean"
+  },
+  {
+    "name": "Trique",
+    "iso": "trique",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trique_language",
+    "family": "Oto-Manguean"
+  },
+  {
+    "name": "Amuzgo",
+    "iso": "amuzgo",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amuzgo_language",
+    "family": "Oto-Manguean"
+  },
+  {
+    "name": "Chinantec",
+    "iso": "chinantec",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chinantecan_languages",
+    "family": "Oto-Manguean"
+  },
+  {
+    "name": "Matlatzinca",
+    "iso": "matlatzinca",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Matlatzinca_language",
+    "family": "Oto-Manguean"
+  },
+  {
     "name": "Q'anjob'al",
     "iso": "qanjobal",
     "region": "Mesoamerica",
@@ -14204,6 +14331,30 @@
     "region": "Mesoamerica",
     "category": "Mayan",
     "wikipedia": "https://en.wikipedia.org/wiki/Tzotzil_language",
+    "family": "Mayan"
+  },
+  {
+    "name": "Poqomchi'",
+    "iso": "poqomchi",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Poqomchi'_language",
+    "family": "Mayan"
+  },
+  {
+    "name": "Poqomam",
+    "iso": "poqomam",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Poqomam_language",
+    "family": "Mayan"
+  },
+  {
+    "name": "Itza'",
+    "iso": "itza",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Itza'_language",
     "family": "Mayan"
   },
   {
@@ -14251,6 +14402,14 @@
     "iso": "aleppine-arabic",
     "region": "Middle East",
     "category": "Afroasiatic",
+    "family": "Levantine"
+  },
+  {
+    "name": "Levantine Arabic",
+    "iso": "levantine-arabic",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Levantine_Arabic",
     "family": "Levantine"
   },
   {
@@ -18601,6 +18760,14 @@
     "family": "Austronesian"
   },
   {
+    "name": "Minangkabau",
+    "iso": "minangkabau",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Minangkabau_language"
+  },
+  {
     "name": "Malayo-Chamic",
     "iso": "malayo-chamic",
     "region": "Pacific",
@@ -19154,11 +19321,32 @@
     "lexifier": "English"
   },
   {
+    "name": "Cook Islands Māori Pidgin",
+    "iso": "cook-islands-maori-pidgin",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "tags": [
+      "creole",
+      "pidgin"
+    ],
+    "lexifier": "English",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maritime_Polynesian_Pidgin"
+  },
+  {
     "name": "Pisa",
     "iso": "pisa",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Greater Awyu"
+  },
+  {
+    "name": "Pirahã",
+    "iso": "piraha",
+    "region": "South America",
+    "category": "Amazonian",
+    "family": "Muran",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pirah%C3%A3_language"
   },
   {
     "name": "Pitcairn-Norfolk",
@@ -19192,6 +19380,14 @@
     "category": "Polynesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Rarotongan_language",
     "family": "Polynesian"
+  },
+  {
+    "name": "Rotokas",
+    "iso": "rotokas",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "North Bougainville",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rotokas_language"
   },
   {
     "name": "Maori",
@@ -21598,6 +21794,22 @@
     "category": "Austronesian",
     "family": "Malayo-Polynesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language"
+  },
+  {
+    "name": "Ilocano",
+    "iso": "ilocano",
+    "region": "Asia",
+    "category": "Austronesian",
+    "family": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ilocano_language"
+  },
+  {
+    "name": "Hiligaynon",
+    "iso": "hiligaynon",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiligaynon_language"
   },
   {
     "name": "Hmong",

@@ -1,0 +1,16 @@
+{
+  "title": "Wikipedia: List of Oto-Manguean languages – language-level snapshot",
+  "source": "https://en.wikipedia.org/wiki/Oto-Manguean_languages",
+  "items": [
+    { "name": "Central Zapotec", "iso": "central-zapotec" },
+    { "name": "Isthmus Zapotec", "iso": "isthmus-zapotec" },
+    { "name": "Sierra Juarez Zapotec", "iso": "sierra-juarez-zapotec" },
+    { "name": "Mixtec", "iso": "mixtec" },
+    { "name": "Trique", "iso": "trique" },
+    { "name": "Amuzgo", "iso": "amuzgo" },
+    { "name": "Mazatec", "iso": "mazatec" },
+    { "name": "Chinantec", "iso": "chinantec" },
+    { "name": "Otomi", "iso": "otomi" },
+    { "name": "Matlatzinca", "iso": "matlatzinca" }
+  ]
+}

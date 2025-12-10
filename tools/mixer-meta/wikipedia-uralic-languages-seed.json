@@ -1,0 +1,16 @@
+{
+  "title": "Wikipedia: List of Uralic languages – seed subset",
+  "source": "https://en.wikipedia.org/wiki/Uralic_languages",
+  "items": [
+    { "name": "Finnish" },
+    { "name": "Estonian" },
+    { "name": "Karelian" },
+    { "name": "Northern Sami" },
+    { "name": "Erzya" },
+    { "name": "Moksha" },
+    { "name": "Komi", "iso": "komi-zyryan" },
+    { "name": "Udmurt" },
+    { "name": "Mari", "iso": "eastern-mari" },
+    { "name": "Hungarian" }
+  ]
+}

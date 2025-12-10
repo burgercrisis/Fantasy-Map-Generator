@@ -12,7 +12,7 @@
     { "name": "Aleut", "iso": "ale" },
     { "name": "Yupik", "iso": "yup" },
     { "name": "Inuit", "iso": "iku" },
-    { "name": "Athabaskan", "iso": "ath" },
+    { "name": "Athabaskan", "iso": "athabaskan" },
     { "name": "Apache", "iso": "apa" }
   ]
 }

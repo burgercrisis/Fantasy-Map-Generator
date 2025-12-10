@@ -1,0 +1,30 @@
+{
+  "title": "Wikipedia: List of Indo-European languages – seed subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_Indo-European_languages",
+  "items": [
+    { "name": "English" },
+    { "name": "German" },
+    { "name": "Dutch" },
+    { "name": "Afrikaans" },
+    { "name": "Spanish" },
+    { "name": "Portuguese" },
+    { "name": "French" },
+    { "name": "Italian" },
+    { "name": "Romanian" },
+    { "name": "Russian" },
+    { "name": "Ukrainian" },
+    { "name": "Polish" },
+    { "name": "Czech" },
+    { "name": "Serbo-Croatian" },
+    { "name": "Hindi" },
+    { "name": "Urdu" },
+    { "name": "Bengali" },
+    { "name": "Punjabi" },
+    { "name": "Marathi" },
+    { "name": "Gujarati" },
+    { "name": "Persian", "iso": "iranian-persian" },
+    { "name": "Kurdish", "iso": "kurdish" },
+    { "name": "Greek" },
+    { "name": "Irish" }
+  ]
+}

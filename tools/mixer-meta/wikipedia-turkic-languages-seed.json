@@ -1,0 +1,16 @@
+{
+  "title": "Wikipedia: List of Turkic languages – seed subset",
+  "source": "https://en.wikipedia.org/wiki/Turkic_languages",
+  "items": [
+    { "name": "Turkish" },
+    { "name": "Azerbaijani" },
+    { "name": "Kazakh" },
+    { "name": "Uzbek" },
+    { "name": "Kyrgyz" },
+    { "name": "Turkmen" },
+    { "name": "Tatar" },
+    { "name": "Bashkir" },
+    { "name": "Uyghur" },
+    { "name": "Chuvash" }
+  ]
+}

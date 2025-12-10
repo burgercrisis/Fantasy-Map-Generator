@@ -91,9 +91,11 @@ Design implication:
 
 ### 1.3 Language base uniqueness intent
 
-- At the level of the **language mixer** and **namebases**, the design intent is that each language (ISO entry or synthetic mixer language) ultimately has a **unique, linguistically appropriate base or tuned mix**.
+- At the level of the **language mixer** and **namebases**, the long-term design intent is that each non-sentinel language (ISO entry or synthetic mixer language) has a **dedicated, linguistically appropriate base**: for a normal, non-hybrid language this usually means a **single-base** `[X]` array whose Markov chain is tuned to that language’s own seeds.
+- Multi-base `[X,Y,...]` mixes are primarily reserved for **genuinely hybrid / contact / creole / mixed** languages and for a small number of explicitly broad macro entries; even then, each such language must still end up with a **globally unique** `bases[]` set.
 - Bases and mixes should reflect the language’s own **family, region, and cultural context**, not generic or unrelated sources.
 - In intermediate states, shared bases or heavy reuse may appear (e.g. while wiring new families or lexifier hubs), but under the current design these are always treated as **temporary per-language uniqueness debt**, not acceptable long-term behavior: in the end-state, no two languages should share an identical `bases[]` set, even when they are historically related.
+- Paying down this uniqueness debt will routinely involve **introducing new bases** (for example, by splitting over-broad macro hubs into multiple more precise bases) in addition to reassigning mixes; those base-creation steps are coordinated with the language devplans rather than being left as perpetual shared clusters.
 - All the race and culture mapping described in this document assumes that these underlying bases are accurate; passes over `language-mixer-map.json`, `language-mixes*.json`, and the mixer QA tools are used to enforce this over time by surfacing and burning down shared-base clusters.
 
 ---

@@ -77,20 +77,24 @@ The high-level rules you must respect:
 
 2. Follow these design guidelines from the devplans:
 
-   - **Keep anchors realistic**:
-     - If the current shared base is historically plausible as a lexifier (e.g. Malay, English, Arabic, Swahili, Tamil), keep it as **one ingredient** in daughter mixes, not the sole base.
-   - **Express relationships via mixes**, not sharing:
-     - Related languages should show **overlapping but non-identical** `[bases]` arrays, e.g. siblings sharing 1–2 bases but differing in at least one.
-   - **Respect region and script**:
-     - Avoid mixes that cross obviously unrelated regions or scripts unless the language is **explicitly** a cross-region contact language.
-   - **Use existing bases first**:
-     - Prefer combinations of existing bases over inventing new ones.
-     - If you truly need a new base, that work should be coordinated with the base-creation devplans, not ad hoc here.
+  - **Default: dedicated base per language**:
+    - For non-hybrid languages, the long-term target is a **single-base** `[X]` array anchored on a base tuned to that language’s own family / region / script.
+    - Multi-base `[X,Y,...]` mixes are primarily for **genuinely hybrid / contact / creole / mixed** languages and for a small number of deliberately broad macro entries.
+  - **Keep anchors realistic**:
+    - If the current shared base is historically plausible as a lexifier (e.g. Malay, English, Arabic, Swahili, Tamil), it can stay as **one ingredient** in daughter mixes, but it should not be the only thing giving them flavor long term.
+  - **Create new bases when needed**:
+    - If no existing base gives a language an accurate, distinctive flavor, plan to **introduce a new base** (or split an over-broad macro base) with its own seeds and settings rather than leaving that language permanently piggy-backing on unrelated neighbors.
+    - Base creation work (new indices, seeds, `min/max/d` tuning, and potentially sharding into additional `namebases-*` files to keep load manageable) should follow the base-creation devplans, but it is an expected part of paying down shared-base uniqueness debt, not something to avoid.
+  - **Express relationships via overlaps, not identical arrays**:
+    - Related languages should show **overlapping but non-identical** `[bases]` arrays, e.g. siblings sharing 1–2 bases but differing in at least one.
+  - **Respect region and script**:
+    - Avoid mixes that cross obviously unrelated regions or scripts unless the language is **explicitly** a cross-region contact language.
 
-3. Sanity-check uniqueness:
+3. Sanity-check uniqueness and base counts:
 
    - Before editing files, quickly scan `language-mixer-map.json` (or rerun the cluster report on a scratch copy) to ensure your proposed `[bases]` arrays are **not already in use** elsewhere.
-   - Aim for **small mixes** (2–4 bases) unless the language is genuinely a heavy contact / creole case.
+   - For straightforward genealogical languages, try to converge them toward **single-base** `[X]` arrays as you work through clusters.
+   - When a language is genuinely hybrid / creole / mixed, aim for **small mixes** (typically **2–4 bases**); larger mixes should be rare and strongly justified by the contact situation.
 
 ---
 
@@ -104,8 +108,8 @@ The high-level rules you must respect:
 
 2. If any mapped language is **missing a catalog entry** in `config/language-mixes.json`:
 
-   - Either add the missing catalog entry in line with existing patterns, or
-   - Remove / correct the mapping if it was spurious.
+   - Either add the missing catalog entry in line with existing patterns, or, if the mapping looks spurious, change it to point at the correct ISO instead of deleting it.
+   - Under the no-deletion policy for languages, do **not** drop catalog or mapping rows as part of declustering; fixes always happen via additions and base/metadata adjustments.
    - Ensure `language-mixes.json` and `language-mixer-map.json` stay in sync for every ISO.
 
 3. Save both files when done.

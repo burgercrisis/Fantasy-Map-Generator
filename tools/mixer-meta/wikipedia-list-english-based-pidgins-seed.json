@@ -1,0 +1,14 @@
+{
+  "title": "Wikipedia: List of English-based pidgins – seed subset",
+  "source": "https://en.wikipedia.org/wiki/List_of_English-based_pidgins",
+  "items": [
+    { "name": "Tok Pisin" },
+    { "name": "Bislama" },
+    { "name": "Nigerian Pidgin" },
+    { "name": "Krio" },
+    { "name": "Hawaiian Pidgin" },
+    { "name": "Singlish" },
+    { "name": "Jamaican Patois" },
+    { "name": "Cook Islands Māori Pidgin", "iso": "cook-islands-maori-pidgin" }
+  ]
+}

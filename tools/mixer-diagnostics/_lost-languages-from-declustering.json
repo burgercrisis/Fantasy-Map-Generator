@@ -1,0 +1,6247 @@
+{
+  "generatedFrom": {
+    "repoRoot": "E:\\code\\Fantasy-Map-Generator",
+    "baselineRevision": "HEAD~1",
+    "description": "Languages that had map and/or catalog entries before the declustering commit but no longer do in the current working copy."
+  },
+  "summary": {
+    "lostCount": 325,
+    "lostMapOnly": 325,
+    "lostCatalogOnly": 0,
+    "lostBoth": 0,
+    "lostMapButStillInCatalog": 0
+  },
+  "languages": [
+    {
+      "iso": "abon",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Abon",
+      "nameNow": "Abon",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        114
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "abron",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Abron",
+      "nameNow": "Abron",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        115
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "acheron",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Acheron",
+      "nameNow": "Acheron",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        116
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "adara",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Adara",
+      "nameNow": "Adara",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        117
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "adnyamathanha",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Adnyamathanha",
+      "nameNow": "Adnyamathanha",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        132,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "afade-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Afade language",
+      "nameNow": "Afade language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aghem",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aghem",
+      "nameNow": "Aghem",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        118
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aiki",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aiki",
+      "nameNow": "Aiki",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Maban",
+      "familyNow": "Maban",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        112,
+        113,
+        119
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aja",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aja",
+      "nameNow": "Aja",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        112,
+        113,
+        120
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aka",
+      "nameNow": "Aka",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        121
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "allar",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Allar",
+      "nameNow": "Allar",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        255
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aluku",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aluku",
+      "nameNow": "Aluku",
+      "regionBefore": "South America",
+      "regionNow": "South America",
+      "familyBefore": "English-based",
+      "familyNow": "English-based",
+      "categoryBefore": "Creole",
+      "categoryNow": "Creole",
+      "basesBefore": [
+        291
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ambele",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ambele",
+      "nameNow": "Ambele",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        120,
+        146,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ambo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ambo",
+      "nameNow": "Ambo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        122
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "amdang",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Amdang",
+      "nameNow": "Amdang",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Fur",
+      "familyNow": "Fur",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        112,
+        113,
+        123
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "amira",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Amira",
+      "nameNow": "Amira",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        121,
+        147,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "amkoe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "ǂʼAmkoe",
+      "nameNow": "ǂʼAmkoe",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Kx'a",
+      "familyNow": "Kx'a",
+      "categoryBefore": "Kx'a",
+      "categoryNow": "Kx'a",
+      "basesBefore": [
+        355
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "anaang",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Anaang",
+      "nameNow": "Anaang",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        122,
+        148,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "anca",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Áncá",
+      "nameNow": "Áncá",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        123,
+        149,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "anindilyakwa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Anindilyakwa",
+      "nameNow": "Anindilyakwa",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        3,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aranadan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aranadan",
+      "nameNow": "Aranadan",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        254,
+        255
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "aringa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Aringa",
+      "nameNow": "Aringa",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        118,
+        126,
+        152,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "asoa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Asoa",
+      "nameNow": "Asoa",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        116,
+        124,
+        150,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "atsam",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Atsam",
+      "nameNow": "Atsam",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        125,
+        151,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "attapady-kurumba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Attapady Kurumba",
+      "nameNow": "Attapady Kurumba",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        255,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "avokaya",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Avokaya",
+      "nameNow": "Avokaya",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        119,
+        127,
+        153,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "awing",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Awing",
+      "nameNow": "Awing",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        128,
+        154,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "baba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Baba",
+      "nameNow": "Baba",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        121,
+        129,
+        155,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "babanki",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Babanki",
+      "nameNow": "Babanki",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        121,
+        146,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "baca",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Baca",
+      "nameNow": "Baca",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        122,
+        147,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bacama",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bacama",
+      "nameNow": "Bacama",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        132,
+        146
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bacama-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bacama language",
+      "nameNow": "Bacama language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "badaga",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Badaga",
+      "nameNow": "Badaga",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        254
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "baka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Baka",
+      "nameNow": "Baka",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        114,
+        123,
+        148,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "baldemu-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Baldemu language",
+      "nameNow": "Baldemu language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "balo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Balo",
+      "nameNow": "Balo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        124,
+        149,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bamali",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bamali",
+      "nameNow": "Bamali",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        125,
+        150,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bambalang",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bambalang",
+      "nameNow": "Bambalang",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        126,
+        151,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bambassi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bambassi",
+      "nameNow": "Bambassi",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Omotic",
+      "familyNow": "Omotic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        145
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bamukumbit",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bamukumbit",
+      "nameNow": "Bamukumbit",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        127,
+        152,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bamum",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bamum",
+      "nameNow": "Bamum",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        128,
+        153,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bamwe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bamwe",
+      "nameNow": "Bamwe",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        129,
+        154,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bana-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bana language",
+      "nameNow": "Bana language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bangala",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bangala",
+      "nameNow": "Bangala",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        122,
+        146,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bangi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bangi",
+      "nameNow": "Bangi",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        146,
+        147,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bangolan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bangolan",
+      "nameNow": "Bangolan",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        146,
+        149,
+        150
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "barambu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Barambu",
+      "nameNow": "Barambu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        146,
+        151,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bardi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bardi",
+      "nameNow": "Bardi",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        3,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bariba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bariba",
+      "nameNow": "Bariba",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        146,
+        153,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bassari",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bassari",
+      "nameNow": "Bassari",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        147,
+        148,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bata-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bata language",
+      "nameNow": "Bata language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "batu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Batu",
+      "nameNow": "Batu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        147,
+        149,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "beary",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Beary",
+      "nameNow": "Beary",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        254,
+        255,
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "beba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Beba",
+      "nameNow": "Beba",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        148,
+        150,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bebe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bebe",
+      "nameNow": "Bebe",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        149,
+        152,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "beli",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Beli",
+      "nameNow": "Beli",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        120,
+        150,
+        154,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bemba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bemba",
+      "nameNow": "Bemba",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Bantu",
+      "familyNow": "Bantu",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        377
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bembe-congo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bembe (Congo)",
+      "nameNow": "Bembe (Congo)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Bantu",
+      "familyNow": "Bantu",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        377
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bembe-drc",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bembe (DRC)",
+      "nameNow": "Bembe (DRC)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Bantu",
+      "familyNow": "Bantu",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        377
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "beni-snous-dialect",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Beni Snous dialect",
+      "nameNow": "Beni Snous dialect",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        23
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "berta",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Berta",
+      "nameNow": "Berta",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Berta",
+      "familyNow": "Berta",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        378
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "besme",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Besme",
+      "nameNow": "Besme",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        378
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "betta-kurumba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Betta Kurumba",
+      "nameNow": "Betta Kurumba",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        253,
+        254
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bhaca",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bhaca",
+      "nameNow": "Bhaca",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        121,
+        151,
+        152,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bhojpuri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bhojpuri",
+      "nameNow": "Bhojpuri",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "Bihari",
+      "familyNow": "Bihari",
+      "categoryBefore": "Indo-Aryan",
+      "categoryNow": "Indo-Aryan",
+      "basesBefore": [
+        183,
+        199,
+        201,
+        202
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bina",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bina",
+      "nameNow": "Bina",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        122,
+        146,
+        147,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "binza",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Binza",
+      "nameNow": "Binza",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        123,
+        146,
+        149,
+        150
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "birri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Birri",
+      "nameNow": "Birri",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        124,
+        146,
+        151,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "biseni",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Biseni",
+      "nameNow": "Biseni",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        125,
+        146,
+        153,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bissa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bissa",
+      "nameNow": "Bissa",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        126,
+        147,
+        148,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bitare",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bitare",
+      "nameNow": "Bitare",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        127,
+        147,
+        149,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "biu-mandara-languages",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Biu-Mandara languages",
+      "nameNow": "Biu-Mandara languages",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        132,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bobo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bobo",
+      "nameNow": "Bobo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        128,
+        148,
+        150,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "boga-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Boga language",
+      "nameNow": "Boga language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "boko",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Boko",
+      "nameNow": "Boko",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        129,
+        149,
+        152,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bole-afroasiatic",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bole (Afroasiatic)",
+      "nameNow": "Bole (Afroasiatic)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        113,
+        120,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bole-niger-congo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bole (Niger–Congo)",
+      "nameNow": "Bole (Niger–Congo)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        122,
+        150,
+        154,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bolon",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bolon",
+      "nameNow": "Bolon",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        123,
+        151,
+        152,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bomboli-bozaba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bomboli–Bozaba",
+      "nameNow": "Bomboli–Bozaba",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        123,
+        146,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bomboma",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bomboma",
+      "nameNow": "Bomboma",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        124,
+        141,
+        385,
+        17,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bomitaba",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bomitaba",
+      "nameNow": "Bomitaba",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        125,
+        142,
+        385,
+        18,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bomu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bomu",
+      "nameNow": "Bomu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        126,
+        149,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bongili",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bongili",
+      "nameNow": "Bongili",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        127,
+        150,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bongo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bongo",
+      "nameNow": "Bongo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Central Sudanic",
+      "familyNow": "Central Sudanic",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        117,
+        128,
+        151,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bonjo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bonjo",
+      "nameNow": "Bonjo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        129,
+        152,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bono-ghana-ivory-coast",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bono (Ghana-Ivory Coast)",
+      "nameNow": "Bono (Ghana-Ivory Coast)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        121,
+        153,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bono-nigeria",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bono (Nigeria)",
+      "nameNow": "Bono (Nigeria)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        122,
+        154,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "boon",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Boon",
+      "nameNow": "Boon",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        121,
+        123,
+        155,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "boze",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Boze",
+      "nameNow": "Boze",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        146,
+        147,
+        149
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bozo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bozo",
+      "nameNow": "Bozo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Mande",
+      "familyNow": "Mande",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        146,
+        148,
+        150
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "brahui",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Brahui",
+      "nameNow": "Brahui",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "North Dravidian",
+      "familyNow": "North Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        24,
+        388
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bube",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bube",
+      "nameNow": "Bube",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        146,
+        149,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "budza",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Budza",
+      "nameNow": "Budza",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        146,
+        150,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bukusu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bukusu",
+      "nameNow": "Bukusu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        147,
+        150,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bul",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bulgarian",
+      "nameNow": "Bulgarian",
+      "regionBefore": "Europe",
+      "regionNow": "Europe",
+      "familyBefore": "Eastern South Slavic",
+      "familyNow": "Eastern South Slavic",
+      "categoryBefore": "Slavic",
+      "categoryNow": "Slavic",
+      "basesBefore": [
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "buli",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Buli",
+      "nameNow": "Buli",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        147,
+        149,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bulu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bulu",
+      "nameNow": "Bulu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        148,
+        149,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bum",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bum",
+      "nameNow": "Bum",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        148,
+        151,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bundjalung",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bundjalung",
+      "nameNow": "Bundjalung",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        3,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bura-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bura language",
+      "nameNow": "Bura language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        132,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "burarra",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Burarra",
+      "nameNow": "Burarra",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "buru-angwe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Buru–Angwe",
+      "nameNow": "Buru–Angwe",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        149,
+        150,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "busa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Busa",
+      "nameNow": "Busa",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        121,
+        150,
+        151,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bushong",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bushong",
+      "nameNow": "Bushong",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        124,
+        146,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "buu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Buu",
+      "nameNow": "Buu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        125,
+        147,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "buwal-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Buwal language",
+      "nameNow": "Buwal language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        113,
+        132,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "buyu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Buyu",
+      "nameNow": "Buyu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        126,
+        148,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "bwela",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Bwela",
+      "nameNow": "Bwela",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        127,
+        149,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "caka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Caka",
+      "nameNow": "Caka",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        128,
+        150,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "cebaara",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Cebaara",
+      "nameNow": "Cebaara",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        129,
+        151,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "central-banda",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Central Banda",
+      "nameNow": "Central Banda",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        121,
+        147,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ces",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Czech",
+      "nameNow": "Czech",
+      "regionBefore": "Europe",
+      "regionNow": "Europe",
+      "familyBefore": "Czech-Slovak",
+      "familyNow": "Czech-Slovak",
+      "categoryBefore": "Slavic",
+      "categoryNow": "Slavic",
+      "basesBefore": [
+        315
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "chenchu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Chenchu",
+      "nameNow": "Chenchu",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South-Central Dravidian",
+      "familyNow": "South-Central Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        387
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "chewa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Chewa",
+      "nameNow": "Chewa",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        122,
+        148,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "cholanaikkan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Cholanaikkan",
+      "nameNow": "Cholanaikkan",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "Unclassified Dravidian",
+      "familyNow": "Unclassified Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "chopi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Chopi",
+      "nameNow": "Chopi",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        123,
+        149,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "chung",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Chung",
+      "nameNow": "Chung",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        121,
+        124,
+        150,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "cibak-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Cibak language",
+      "nameNow": "Cibak language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        114,
+        132,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "cineni-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Cineni language",
+      "nameNow": "Cineni language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "cuvok-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Cuvok language",
+      "nameNow": "Cuvok language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        113,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "daba-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Daba language",
+      "nameNow": "Daba language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        114,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dagaare",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dagaare",
+      "nameNow": "Dagaare",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        121,
+        147,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dagbani",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dagbani",
+      "nameNow": "Dagbani",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        122,
+        148,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dangme",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dangme",
+      "nameNow": "Dangme",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        123,
+        149,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "daza",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Daza",
+      "nameNow": "Daza",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Saharan",
+      "familyNow": "Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        115,
+        124,
+        150,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dciriku",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dciriku",
+      "nameNow": "Dciriku",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        125,
+        147,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "defaka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Defaka",
+      "nameNow": "Defaka",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        128,
+        147,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dendi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dendi",
+      "nameNow": "Dendi",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        117,
+        126,
+        141,
+        384,
+        17,
+        148,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dengese",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dengese",
+      "nameNow": "Dengese",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        127,
+        142,
+        384,
+        18,
+        149,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dghwede-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dghwede language",
+      "nameNow": "Dghwede language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        115,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dhuwal",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dhuwal",
+      "nameNow": "Dhuwal",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        3,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dinka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dinka",
+      "nameNow": "Dinka",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilotic",
+      "familyNow": "Nilotic",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        120,
+        129,
+        148,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "djaru",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Djaru",
+      "nameNow": "Djaru",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        2,
+        3,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "djimini",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Djimini",
+      "nameNow": "Djimini",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        122,
+        149,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "djinang",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Djinang",
+      "nameNow": "Djinang",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        3,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "doghose",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Doghose",
+      "nameNow": "Doghose",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        147,
+        151,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dogoso",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dogoso",
+      "nameNow": "Dogoso",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        147,
+        152,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "doko",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Doko",
+      "nameNow": "Doko",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        147,
+        153,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dongo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dongo",
+      "nameNow": "Dongo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        115,
+        147,
+        154,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "douiret",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Douiret language",
+      "nameNow": "Douiret language",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        42
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dugwor-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dugwor language",
+      "nameNow": "Dugwor language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "duruwa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Duruwa",
+      "nameNow": "Duruwa",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "Central Dravidian",
+      "familyNow": "Central Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        389
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dyula",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dyula",
+      "nameNow": "Dyula",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        148,
+        151,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dzando",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dzando",
+      "nameNow": "Dzando",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        148,
+        152,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "dzodinka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Dzodinka",
+      "nameNow": "Dzodinka",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        148,
+        153,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ebira",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ebira",
+      "nameNow": "Ebira",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        149,
+        151,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ekoka-kung",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ekoka ǃKung",
+      "nameNow": "Ekoka ǃKung",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Kx'a",
+      "familyNow": "Kx'a",
+      "categoryBefore": "Kx'a",
+      "categoryNow": "Kx'a",
+      "basesBefore": [
+        353
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "eman",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Eman",
+      "nameNow": "Eman",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        149,
+        152,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "eravallan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Eravallan",
+      "nameNow": "Eravallan",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        255,
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "esimbi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Esimbi",
+      "nameNow": "Esimbi",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        121,
+        149,
+        153,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "eton",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Eton",
+      "nameNow": "Eton",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        124,
+        150,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "evant",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Evant",
+      "nameNow": "Evant",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        113,
+        125,
+        151,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ewondo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ewondo",
+      "nameNow": "Ewondo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        114,
+        126,
+        152,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fali-of-mubi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fali of Mubi",
+      "nameNow": "Fali of Mubi",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        126,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fang-cameroon",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fang (Cameroon)",
+      "nameNow": "Fang (Cameroon)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        128,
+        151,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fang-equatorial-guinea-and-gabon",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fang (Equatorial Guinea and Gabon)",
+      "nameNow": "Fang (Equatorial Guinea and Gabon)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        127,
+        150,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fanji",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fanji",
+      "nameNow": "Fanji",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        129,
+        152,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "farefare",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Farefare",
+      "nameNow": "Farefare",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        121,
+        150,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fe-fe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Feʼfeʼ",
+      "nameNow": "Feʼfeʼ",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        119,
+        122,
+        151,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fio",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fio",
+      "nameNow": "Fio",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        120,
+        123,
+        152,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fongoro",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fongoro",
+      "nameNow": "Fongoro",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        112,
+        124,
+        149,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fungor",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fungor",
+      "nameNow": "Fungor",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        118,
+        146,
+        150
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fur",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fur",
+      "nameNow": "Fur",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        113,
+        119,
+        147,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "furu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Furu",
+      "nameNow": "Furu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Nilo-Saharan",
+      "familyNow": "Nilo-Saharan",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        114,
+        120,
+        148,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fut",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fut",
+      "nameNow": "Fut",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Grassfields Bantoid",
+      "familyNow": "Grassfields Bantoid",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        115,
+        121,
+        149,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "fwe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Fwe",
+      "nameNow": "Fwe",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Bantu",
+      "familyNow": "Bantu",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        28,
+        377
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "g-ui",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gǀui",
+      "nameNow": "Gǀui",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Khoe-Kwadi",
+      "familyNow": "Khoe-Kwadi",
+      "categoryBefore": "Khoe-Kwadi",
+      "categoryNow": "Khoe-Kwadi",
+      "basesBefore": [
+        361
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gaanda-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ga'anda language",
+      "nameNow": "Ga'anda language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        116,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gamilaraay",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gamilaraay",
+      "nameNow": "Gamilaraay",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gawar-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gawar language",
+      "nameNow": "Gawar language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        113,
+        116,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "geji",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Geji",
+      "nameNow": "Geji",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        114,
+        116,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "geme",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Geme",
+      "nameNow": "Geme",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        116,
+        122,
+        150,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gendza",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gendza",
+      "nameNow": "Gendza",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        117,
+        123,
+        151,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gengele-creole",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gengele Creole",
+      "nameNow": "Gengele Creole",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        118,
+        124,
+        152,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ghomala",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ghomalaʼ",
+      "nameNow": "Ghomalaʼ",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        124
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gidar-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gidar language",
+      "nameNow": "Gidar language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        117,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gikuyu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gikuyu",
+      "nameNow": "Gikuyu",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        125
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "githabul",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Githabul",
+      "nameNow": "Githabul",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        3,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "glavda-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Glavda language",
+      "nameNow": "Glavda language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        117,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gondi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gondi",
+      "nameNow": "Gondi",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South-Central Dravidian",
+      "familyNow": "South-Central Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        374,
+        375
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gooniyandi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gooniyandi",
+      "nameNow": "Gooniyandi",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        2,
+        4,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "goundo",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Goundo",
+      "nameNow": "Goundo",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        126
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gourmanche",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gourmanché",
+      "nameNow": "Gourmanché",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        127
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gude-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gude language",
+      "nameNow": "Gude language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        127,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gudu-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gudu language",
+      "nameNow": "Gudu language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        128,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "guduf-gava-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Guduf-Gava language",
+      "nameNow": "Guduf-Gava language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        126,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gumuz",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gumuz",
+      "nameNow": "Gumuz",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Gumuz",
+      "familyNow": "Gumuz",
+      "categoryBefore": "Nilo-Saharan",
+      "categoryNow": "Nilo-Saharan",
+      "basesBefore": [
+        112,
+        113,
+        128
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gurindji",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gurindji",
+      "nameNow": "Gurindji",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        130,
+        133,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "guugu-yimidhirr",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Guugu Yimidhirr",
+      "nameNow": "Guugu Yimidhirr",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gvoko-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gvoko language",
+      "nameNow": "Gvoko language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        113,
+        116,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gwandara-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gwandara language",
+      "nameNow": "Gwandara language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        114,
+        117,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gwari",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gwari",
+      "nameNow": "Gwari",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        129
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "gyong",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Gyong",
+      "nameNow": "Gyong",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        146
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "hadza",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Hadza",
+      "nameNow": "Hadza",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Hadza isolate",
+      "familyNow": "Hadza isolate",
+      "categoryBefore": "Isolate",
+      "categoryNow": "Isolate",
+      "basesBefore": [
+        363
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "hakaona",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Hakaona",
+      "nameNow": "Hakaona",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        147
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "hanga",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Hanga",
+      "nameNow": "Hanga",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Niger-Congo",
+      "familyNow": "Niger-Congo",
+      "categoryBefore": "Niger-Congo",
+      "categoryNow": "Niger-Congo",
+      "basesBefore": [
+        112,
+        113,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "hdi-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Hdi language",
+      "nameNow": "Hdi language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        114,
+        116,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "hina-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Hina language",
+      "nameNow": "Hina language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        126,
+        128,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "holiya",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Holiya",
+      "nameNow": "Holiya",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "holma-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Holma language",
+      "nameNow": "Holma language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        127,
+        128,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "huba-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Huba language",
+      "nameNow": "Huba language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        126,
+        127,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "hwana-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Hwana language",
+      "nameNow": "Hwana language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        126,
+        127,
+        128,
+        129,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "irula",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Irula",
+      "nameNow": "Irula",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "iwaidja",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Iwaidja",
+      "nameNow": "Iwaidja",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        131,
+        133,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "jerba-berber",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Jerba Berber",
+      "nameNow": "Jerba Berber",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        135
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "jeseri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Jeseri",
+      "nameNow": "Jeseri",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        255
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "jina-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Jina language",
+      "nameNow": "Jina language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        112,
+        118,
+        120,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ju-chadic",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ju (Chadic)",
+      "nameNow": "Ju (Chadic)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        113,
+        118,
+        121,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ju-hoan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Juǀʼhoan",
+      "nameNow": "Juǀʼhoan",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Kx'a",
+      "familyNow": "Kx'a",
+      "categoryBefore": "Kx'a",
+      "categoryNow": "Kx'a",
+      "basesBefore": [
+        362
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kadar-dravidian",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kadar",
+      "nameNow": "Kadar",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        254,
+        255
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kaikadi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kaikadi",
+      "nameNow": "Kaikadi",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        254
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kakkala",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kakkala",
+      "nameNow": "Kakkala",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "Unclassified Dravidian",
+      "familyNow": "Unclassified Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kalanadi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kalanadi",
+      "nameNow": "Kalanadi",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        254,
+        255
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kamwe-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kamwe language",
+      "nameNow": "Kamwe language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        114,
+        118,
+        122,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kanikkaran",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kanikkaran",
+      "nameNow": "Kanikkaran",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        255,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kaytetye",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kaytetye",
+      "nameNow": "Kaytetye",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        130,
+        131,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "khirwar",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Khirwar",
+      "nameNow": "Khirwar",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "Unclassified Dravidian",
+      "familyNow": "Unclassified Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kija",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kija",
+      "nameNow": "Kija",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kirya-konzal-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kirya-Konzal language",
+      "nameNow": "Kirya-Konzal language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        118,
+        123,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kodava",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kodava",
+      "nameNow": "Kodava",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        253,
+        254,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kolami",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kolami",
+      "nameNow": "Kolami",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "Central Dravidian",
+      "familyNow": "Central Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        389
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "koraga",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Koraga",
+      "nameNow": "Koraga",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        253,
+        254,
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kota-dravidian",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kota",
+      "nameNow": "Kota",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        254,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kudiya-dravidian",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kudiya",
+      "nameNow": "Kudiya",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        254,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kui-dravidian",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kui (Dravidian)",
+      "nameNow": "Kui (Dravidian)",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South-Central Dravidian",
+      "familyNow": "South-Central Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        375
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kukatja",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kukatja",
+      "nameNow": "Kukatja",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        2,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kuku-yalanji",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kuku Yalanji",
+      "nameNow": "Kuku Yalanji",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        3,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kumbaran",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kumbaran",
+      "nameNow": "Kumbaran",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        255,
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kunwinjku",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kunwinjku",
+      "nameNow": "Kunwinjku",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kuuk-thaayore",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Kuuk Thaayore",
+      "nameNow": "Kuuk Thaayore",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        133,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "kx-ao-ae",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "ǂKxʼaoǁʼae",
+      "nameNow": "ǂKxʼaoǁʼae",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Kx'a",
+      "familyNow": "Kx'a",
+      "categoryBefore": "Kx'a",
+      "categoryNow": "Kx'a",
+      "basesBefore": [
+        354
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "lagwan-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Lagwan language",
+      "nameNow": "Lagwan language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        118,
+        124,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "lamang-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Lamang language",
+      "nameNow": "Lamang language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        117,
+        118,
+        125,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "lisan-al-gharbi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Lisan al-Gharbi",
+      "nameNow": "Lisan al-Gharbi",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        130,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "luritja",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Luritja",
+      "nameNow": "Luritja",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        4,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mada-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mada language",
+      "nameNow": "Mada language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        147
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mafa-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mafa language",
+      "nameNow": "Mafa language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "majera-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Majera language",
+      "nameNow": "Majera language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        149
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "malgbe-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Malgbe language",
+      "nameNow": "Malgbe language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "manytjilyitjarra",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Manytjilyitjarra",
+      "nameNow": "Manytjilyitjarra",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        133,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "margi-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Margi language",
+      "nameNow": "Margi language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "margi-south-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Margi South language",
+      "nameNow": "Margi South language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "martu-wangka",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Martu Wangka",
+      "nameNow": "Martu Wangka",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        311,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "maslam-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Maslam language",
+      "nameNow": "Maslam language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        115,
+        132,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "matal-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Matal language",
+      "nameNow": "Matal language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        146
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "matmata-berber",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Matmata Berber",
+      "nameNow": "Matmata Berber",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        130,
+        136
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "maung",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Maung",
+      "nameNow": "Maung",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mazagway-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mazagway language",
+      "nameNow": "Mazagway language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mbara-language-chad",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mbara language (Chad)",
+      "nameNow": "Mbara language (Chad)",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        149
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mbudum-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mbudum language",
+      "nameNow": "Mbudum language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mbuko-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mbuko language",
+      "nameNow": "Mbuko language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mefele-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mefele language",
+      "nameNow": "Mefele language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "merey-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Merey language",
+      "nameNow": "Merey language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132,
+        155
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "miriwoong",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Miriwoong",
+      "nameNow": "Miriwoong",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        3,
+        13,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mofu-gudur-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mofu-Gudur language",
+      "nameNow": "Mofu-Gudur language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        117,
+        132,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "moloko-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Moloko language",
+      "nameNow": "Moloko language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        117,
+        132,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mpade-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mpade language",
+      "nameNow": "Mpade language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        117,
+        132,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "mser-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Mser language",
+      "nameNow": "Mser language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        120,
+        132,
+        146
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "murrinh-patha",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Murrinh Patha",
+      "nameNow": "Murrinh Patha",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        131,
+        132,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "musgu-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Musgu language",
+      "nameNow": "Musgu language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        120,
+        132,
+        149
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "muskum-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Muskum language",
+      "nameNow": "Muskum language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        120,
+        132,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "muyang-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Muyang language",
+      "nameNow": "Muyang language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        120,
+        132,
+        152
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "naq",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Nama",
+      "nameNow": "Nama",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Khoe",
+      "familyNow": "Khoe",
+      "categoryBefore": "Khoe",
+      "categoryNow": "Khoe",
+      "basesBefore": [
+        358
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ngaanyatjarra",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ngaanyatjarra",
+      "nameNow": "Ngaanyatjarra",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        132,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ngarrindjeri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ngarrindjeri",
+      "nameNow": "Ngarrindjeri",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        29,
+        193,
+        194,
+        195
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "nggwahyi-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Nggwahyi language",
+      "nameNow": "Nggwahyi language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        146,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ngwaba-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ngwaba language",
+      "nameNow": "Ngwaba language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        146,
+        151
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "nhr",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Naro",
+      "nameNow": "Naro",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Khoe",
+      "familyNow": "Khoe",
+      "categoryBefore": "Khoe",
+      "categoryNow": "Khoe",
+      "basesBefore": [
+        359
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "nng",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Nǁng",
+      "nameNow": "Nǁng",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Tuu",
+      "familyNow": "Tuu",
+      "categoryBefore": "Tuu",
+      "categoryNow": "Tuu",
+      "basesBefore": [
+        357
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "noongar",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Noongar",
+      "nameNow": "Noongar",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        130,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "north-giziga-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "North Giziga language",
+      "nameNow": "North Giziga language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        146,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "north-mofu-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "North Mofu language",
+      "nameNow": "North Mofu language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        146,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "nunggubuyu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Nunggubuyu",
+      "nameNow": "Nunggubuyu",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "nyangumarta",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Nyangumarta",
+      "nameNow": "Nyangumarta",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "nzanyi-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Nzanyi language",
+      "nameNow": "Nzanyi language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        147,
+        148
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "ouargli",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Ouargli language",
+      "nameNow": "Ouargli language",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        130,
+        138
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "palawa-kani",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "palawa kani",
+      "nameNow": "palawa kani",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        2,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "paniya",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Paniya",
+      "nameNow": "Paniya",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        199,
+        253,
+        255,
+        374,
+        375
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "panyjima",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Panyjima",
+      "nameNow": "Panyjima",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        133,
+        311,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "pardhan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Pardhan",
+      "nameNow": "Pardhan",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South-Central Dravidian",
+      "familyNow": "South-Central Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        374
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "parkwa-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Parkwa language",
+      "nameNow": "Parkwa language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        147,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "pathiya",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Pathiya",
+      "nameNow": "Pathiya",
+      "regionBefore": "Asia",
+      "regionNow": "Asia",
+      "familyBefore": "South Dravidian",
+      "familyNow": "South Dravidian",
+      "categoryBefore": "Dravidian",
+      "categoryNow": "Dravidian",
+      "basesBefore": [
+        253,
+        254,
+        255,
+        372
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "pintupi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Pintupi",
+      "nameNow": "Pintupi",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "pitjantjatjara",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Pitjantjatjara",
+      "nameNow": "Pitjantjatjara",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        2,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "polci",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Polci",
+      "nameNow": "Polci",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        148,
+        149
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "psikye-dialect",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Psikye dialect",
+      "nameNow": "Psikye dialect",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        148,
+        153
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "putai-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Putai language",
+      "nameNow": "Putai language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        148,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sandawe",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sandawe",
+      "nameNow": "Sandawe",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Sandawe isolate",
+      "familyNow": "Sandawe isolate",
+      "categoryBefore": "Isolate",
+      "categoryNow": "Isolate",
+      "basesBefore": [
+        364
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sanhaja-de-srair",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sanhaja de Srair language",
+      "nameNow": "Sanhaja de Srair language",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        130,
+        139
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "saya-chadic",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Saya",
+      "nameNow": "Saya",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        149,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sened",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sened language",
+      "nameNow": "Sened language",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        130,
+        140
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sharwa-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sharwa language",
+      "nameNow": "Sharwa language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        149,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sheliff-basin-berber",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sheliff Basin Berber",
+      "nameNow": "Sheliff Basin Berber",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        2,
+        17
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sokna",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sokna language",
+      "nameNow": "Sokna language",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        4,
+        17,
+        18
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "south-giziga-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "South Giziga language",
+      "nameNow": "South Giziga language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        151,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "south-oran-figuig-berber",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "South Oran and Figuig Berber",
+      "nameNow": "South Oran and Figuig Berber",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        13,
+        17
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "sukur-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Sukur language",
+      "nameNow": "Sukur language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        151,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "taa",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Taa",
+      "nameNow": "Taa",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Tuu",
+      "familyNow": "Tuu",
+      "categoryBefore": "Tuu",
+      "categoryNow": "Tuu",
+      "basesBefore": [
+        356
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "tala-chadic",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Tala",
+      "nameNow": "Tala",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        152,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "tawellemmet",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Tawellemmet language",
+      "nameNow": "Tawellemmet language",
+      "regionBefore": "North Africa",
+      "regionNow": "North Africa",
+      "familyBefore": "Berber",
+      "familyNow": "Berber",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        130,
+        141
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "tera-chadic-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Tera language",
+      "nameNow": "Tera language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        153,
+        154
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "tsuvan-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Tsuvan language",
+      "nameNow": "Tsuvan language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        132,
+        153,
+        156
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "upper-arrernte",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Upper Arrernte",
+      "nameNow": "Upper Arrernte",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        1,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "vame-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Vame language",
+      "nameNow": "Vame language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        2,
+        138,
+        384
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "vemgo-mabas-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Vemgo-Mabas language",
+      "nameNow": "Vemgo-Mabas language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        4,
+        139,
+        384
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "wajarri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Wajarri",
+      "nameNow": "Wajarri",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        2,
+        3,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "walmatjarri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Walmatjarri",
+      "nameNow": "Walmatjarri",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        2,
+        4,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "wandala-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Wandala language",
+      "nameNow": "Wandala language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        13,
+        140,
+        384
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "wangkatha",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Wangkatha",
+      "nameNow": "Wangkatha",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        131,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "warlpiri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Warlpiri",
+      "nameNow": "Warlpiri",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        132,
+        133,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "warumungu",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Warumungu",
+      "nameNow": "Warumungu",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        130,
+        132,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "wik-mungkan",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Wik Mungkan",
+      "nameNow": "Wik Mungkan",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        311,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "wiradjuri",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Wiradjuri",
+      "nameNow": "Wiradjuri",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        131,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "wuzlam-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Wuzlam language",
+      "nameNow": "Wuzlam language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        141,
+        384
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "yankunytjatjara",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Yankunytjatjara",
+      "nameNow": "Yankunytjatjara",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        130,
+        131,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "yedina-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Yedina language",
+      "nameNow": "Yedina language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        42,
+        144,
+        386
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "yinjibarndi",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Yinjibarndi",
+      "nameNow": "Yinjibarndi",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        133,
+        311,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "yugambeh",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Yugambeh",
+      "nameNow": "Yugambeh",
+      "regionBefore": "Australia",
+      "regionNow": "Australia",
+      "familyBefore": "Australian Aboriginal",
+      "familyNow": "Australian Aboriginal",
+      "categoryBefore": "Australian Aboriginal",
+      "categoryNow": "Australian Aboriginal",
+      "basesBefore": [
+        23,
+        130,
+        312
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zari-chadic",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zari",
+      "nameNow": "Zari",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        17,
+        141,
+        385
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zeem-chadic",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zeem",
+      "nameNow": "Zeem",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        18,
+        142,
+        385
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zirenkel-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zirenkel language",
+      "nameNow": "Zirenkel language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        116,
+        132
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zumaya",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zumaya",
+      "nameNow": "Zumaya",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        386
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zumbun-language",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zumbun language",
+      "nameNow": "Zumbun language",
+      "regionBefore": "Africa",
+      "regionNow": "Africa",
+      "familyBefore": "Chadic",
+      "familyNow": "Chadic",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        385
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zway",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zway",
+      "nameNow": "Zway",
+      "regionBefore": "Middle East",
+      "regionNow": "Middle East",
+      "familyBefore": "Transversal",
+      "familyNow": "Transversal",
+      "categoryBefore": "Afroasiatic",
+      "categoryNow": "Afroasiatic",
+      "basesBefore": [
+        23,
+        112,
+        145
+      ],
+      "basesNow": []
+    },
+    {
+      "iso": "zyuzdino",
+      "hadMapBefore": true,
+      "hasMapNow": false,
+      "nameBefore": "Zyuzdino",
+      "nameNow": "Zyuzdino",
+      "regionBefore": "Eurasia",
+      "regionNow": "Eurasia",
+      "familyBefore": "Komi-Yodzyak",
+      "familyNow": "Komi-Yodzyak",
+      "categoryBefore": "Uralic",
+      "categoryNow": "Uralic",
+      "basesBefore": [
+        9
+      ],
+      "basesNow": []
+    }
+  ]
+}

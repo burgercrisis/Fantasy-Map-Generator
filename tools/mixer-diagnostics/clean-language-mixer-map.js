@@ -1,14 +1,21 @@
 "use strict";
 
-// Clean up config/language-mixer-map.json by removing entries whose ISO
-// does not exist in config/language-mixes.json. This keeps the mixer map
-// aligned with the catalog while preserving all catalog-mapped languages.
+// Diagnostic helper for config/language-mixer-map.json: finds entries whose ISO
+// does not exist in config/language-mixes.json so you can see which mappings
+// are "orphaned" relative to the current catalog.
+//
+// Under the no-deletion policy for languages, this script is **read-only by
+// default**: it reports how many entries would be dropped and shows a sample,
+// but it does **not** modify any files unless you pass `--apply`.
 //
 // Usage (from project root):
-//   node tools/clean-language-mixer-map.js
+//   node tools/mixer-diagnostics/clean-language-mixer-map.js [--apply]
 //
-// After running this, you should regenerate the mixer bundles:
-//   node tools/generate-language-mixer.js
+// When `--apply` is provided, the script will rewrite
+// config/language-mixer-map.json to keep only ISOs that exist in the catalog.
+// This should be used sparingly and never as part of routine uniqueness passes.
+// After an applied run, regenerate the mixer bundles with:
+//   node tools/mixer-core/generate-language-mixer.js
 
 const fs = require("fs");
 const path = require("path");
@@ -28,6 +35,8 @@ function writeJson(relPath, data) {
 }
 
 function main() {
+  const apply = process.argv.includes("--apply");
+
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
@@ -50,14 +59,18 @@ function main() {
     }
   }
 
-  writeJson("config/language-mixer-map.json", kept);
+  if (apply) {
+    writeJson("config/language-mixer-map.json", kept);
+  } else {
+    console.log("[dry-run] Not writing config/language-mixer-map.json; pass --apply to rewrite the file.");
+  }
 
   console.log("Total map entries before:", map.length);
-  console.log("Total map entries after:", kept.length);
+  console.log("Total map entries after (if applied):", kept.length);
   console.log("Dropped entries:", dropped.length);
 
   if (dropped.length) {
-    console.log("\nSample of dropped entries (up to 50):");
+    console.log("\nSample of entries that would be dropped (up to 50):");
     dropped.slice(0, 50).forEach(e => {
       console.log(` - ${e.iso}, bases=${JSON.stringify(e.bases || [])}`);
     });
