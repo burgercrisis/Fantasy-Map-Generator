@@ -17,6 +17,9 @@
     { "name": "Cherokee", "iso": "cherokee" },
     { "name": "Mazatec", "iso": "mazatec" },
     { "name": "Huastec", "iso": "huastec" },
-    { "name": "Mi'kmaq", "iso": "mikmaq" }
+    { "name": "Mi'kmaq", "iso": "mikmaq" },
+    { "name": "Purépecha", "iso": "purepecha" },
+    { "name": "Seri", "iso": "seri" },
+    { "name": "Huave", "iso": "huave" }
   ]
 }

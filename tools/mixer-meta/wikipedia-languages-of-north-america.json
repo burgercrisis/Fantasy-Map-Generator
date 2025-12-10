@@ -1,0 +1,18 @@
+{
+  "title": "Wikipedia: Languages of North America",
+  "source": "https://en.wikipedia.org/wiki/Languages_of_North_America",
+  "items": [
+    { "name": "English", "iso": "eng" },
+    { "name": "Spanish", "iso": "spa" },
+    { "name": "French", "iso": "fra" },
+    { "name": "Navajo", "iso": "navajo" },
+    { "name": "Cree", "iso": "cree" },
+    { "name": "Ojibwe", "iso": "ojibwe" },
+    { "name": "Cherokee", "iso": "cherokee" },
+    { "name": "Aleut", "iso": "ale" },
+    { "name": "Yupik", "iso": "yup" },
+    { "name": "Inuit", "iso": "iku" },
+    { "name": "Athabaskan", "iso": "ath" },
+    { "name": "Apache", "iso": "apa" }
+  ]
+}

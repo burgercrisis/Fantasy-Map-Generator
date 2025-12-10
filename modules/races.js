@@ -73,6 +73,10 @@ const raceLanguageProfiles = {
     categories: ["Celtic", "Uralic"],
     families: ["Celtic", "Uralic", "Sami"]
   },
+  Seafarer: {
+    categories: ["Creole"],
+    families: ["Portuguese-based"]
+  },
   "Dark Elf": {
     categories: ["Slavic", "Germanic", "Romance"],
     families: ["Slavic", "Germanic", "Romance", "Baltic"]
@@ -212,7 +216,10 @@ const raceLanguageProfiles = {
       "Arawakan",
       "Aymaran",
       "Araucanian",
-      "Oto-Manguean"
+      "Oto-Manguean",
+      "Purépecha isolate",
+      "Seri isolate",
+      "Huave isolate"
     ]
   },
   Warforged: {
@@ -267,7 +274,7 @@ const raceLanguageProfiles = {
     ]
   },
   Triton: {
-    categories: ["Austronesian", "Papuan"],
+    categories: ["Austronesian", "Papuan", "Creole"],
     families: ["Austronesian", "Micronesian", "Polynesian", "Papuan"]
   },
   "Yuan-ti": {

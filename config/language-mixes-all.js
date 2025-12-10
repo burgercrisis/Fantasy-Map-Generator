@@ -5226,6 +5226,14 @@
     "family": "North Dravidian"
   },
   {
+    "name": "Kurdish",
+    "iso": "kurdish",
+    "region": "Asia",
+    "category": "Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_languages",
+    "family": "Kurdish"
+  },
+  {
     "name": "Kurichiya",
     "iso": "kurichiya",
     "region": "Asia",
@@ -6615,6 +6623,14 @@
     "region": "Asia",
     "category": "Mongolic",
     "family": "Mongolic"
+  },
+  {
+    "name": "Sorani Kurdish",
+    "iso": "sorani-kurdish",
+    "region": "Asia",
+    "category": "Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Central_Kurdish",
+    "family": "Kurdish"
   },
   {
     "name": "Southern Amami",
@@ -14563,6 +14579,13 @@
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Egyptian_Arabic",
     "family": "Egyptian Arabic"
+  },
+  {
+    "name": "Hebrew",
+    "iso": "hebrew",
+    "region": "Middle East",
+    "category": "Afroasiatic",
+    "family": "South Canaanite"
   },
   {
     "name": "Maghrebi Arabic",

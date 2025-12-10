@@ -5,16 +5,16 @@
     { "name": "Arabic", "iso": "ara" },
     { "name": "Turkish" },
     { "name": "Iranian Persian" },
-    { "name": "Kurdish" },
+    { "name": "Kurdish", "iso": "kurdish" },
     { "name": "Azerbaijani", "iso": "azerbaijani" },
-    { "name": "Hebrew" },
+    { "name": "Hebrew", "iso": "hebrew" },
     { "name": "Armenian", "iso": "armenian" },
     { "name": "Georgian", "iso": "georgian" },
     { "name": "Pashto", "iso": "pashto" },
     { "name": "Tajik", "iso": "tajik" },
     { "name": "Uyghur", "iso": "uyghur" },
     { "name": "Western Neo-Aramaic", "iso": "western-neo-aramaic" },
-    { "name": "Assyrian Neo-Aramaic" },
-    { "name": "Sorani Kurdish" }
+    { "name": "Assyrian Neo-Aramaic", "iso": "assyrian-neo-aramaic" },
+    { "name": "Sorani Kurdish", "iso": "sorani-kurdish" }
   ]
 }

@@ -327,5 +327,41 @@ window.fantasyNameBases = [
       {name: "Levantine Arabic", i: 351, min: 4, max: 12, d: "lnrt", m: 0, b: "Beirut,Tripoli,Tyre,Saida,Amman,Zarqa,Irbid,Jerusalem,Bethlehem,Ramallah,Nablus,Hebron,Damascus,Aleppo,Homs,Hama,Latakia,Tartus"},
       {name: "Gulf Arabic", i: 352, min: 4, max: 12, d: "lnrt", m: 0, b: "Riyadh,Jeddah,Dammam,Khobar,Doha,Dubai,Abu Dhabi,Sharjah,Manama,Kuwait City,Muscat,Salalah,Basra,Al Ain,Ajman,Ras Al Khaimah,Fujairah"},
       {name: "North Dravidian", i: 388, min: 5, max: 12, d: "lnrt", m: 0, b: "Quetta,Kalat,Khuzdar,Mastung,Nushki,Kharan,Sibi,Zhob,Kohlu,Barkhan,Ranchi,Gumla,Lohardaga,Simdega,Daltonganj,Latehar,Hazaribagh,Ambikapur,Sundargarh,Chaibasa,Khunti"},
-      {name: "Central Dravidian", i: 389, min: 5, max: 12, d: "lnrt", m: 0, b: "Nagpur,Gondia,Balaghat,Bhandara,Raipur,Bilaspur,Jagdalpur,Koraput,Jeypore,Nabarangpur,Dantewada,Bastar,Kondagaon,Dhamtari,Kanker,Kawardha,Bijapur,Malkangiri,KoraputTown,JagdalpurTown"}
-  ];
+      {name: "Central Dravidian", i: 389, min: 5, max: 12, d: "lnrt", m: 0, b: "Nagpur,Gondia,Balaghat,Bhandara,Raipur,Bilaspur,Jagdalpur,Koraput,Jeypore,Nabarangpur,Dantewada,Bastar,Kondagaon,Dhamtari,Kanker,Kawardha,Bijapur,Malkangiri,KoraputTown,JagdalpurTown"},
+      {name: "Burmese", i: 390, min: 4, max: 12, d: "lnrt", m: 0, b: "Yangon,Mandalay,Naypyidaw,Mawlamyine,Bago,Pathein,Monywa,Myitkyina,Sittwe,Taunggyi,Lashio,Kyaingtong,Mogok,Pathein,Hpa-An,Pyinmana,Meiktila,Taungoo,Pyay"},
+      {name: "Filipino", i: 391, min: 4, max: 12, d: "lnrt", m: 0, b: "Manila,Quezon City,Caloocan,Davao,Cebu City,Zamboanga,Antipolo,Taguig,Pasig,Cagayan de Oro,Parañaque,Valenzuela,Makati,Bacoor,General Santos,Iloilo City,Cavite,Angeles"},
+      {name: "Cebuano", i: 392, min: 4, max: 12, d: "lnrt", m: 0, b: "Cebu City,Mandaue,Lapu-Lapu,Talisay,Carcar,Naga,Danao,Bogo,Toledo,Mandaue City,Consolacion,Balamban,Barili,Aloguinsan,Argao,Bohol,Siquijor,Negros,Oriental"},
+      {name: "Javanese", i: 393, min: 4, max: 12, d: "lnrt", m: 0, b: "Jakarta,Surabaya,Bandung,Bekasi,Semarang,Tangerang,Depok,Medan,Palembang,South Tangerang,Makassar,Batam,Pekanbaru,Bandar Lampung,Bogor,Malang,Yogyakarta"},
+      {name: "Sundanese", i: 394, min: 4, max: 12, d: "lnrt", m: 0, b: "Bandung,Bogor,Bekasi,Depok,Cimahi,Tasikmalaya,Cirebon,Banjar,Sukabumi,Purwakarta,Subang,Karawang,Ciamis,Cianjur,Garut,TasikmalayaCity,Sumedang"},
+      {name: "Malagasy", i: 395, min: 4, max: 12, d: "lnrt", m: 0, b: "Antananarivo,Toamasina,Antsirabe,Mahajanga,Fianarantsoa,Toliara,Antsiranana,Ambovombe,Mandritsara,Miandrivazo,Ambatondrazaka,Ambatolampy,Ambilobe,Antalaha,Mandoto,Mantasoa"},
+      {name: "Hmong", i: 396, min: 4, max: 12, d: "lnrt", m: 0, b: "Hanoi,Hai Phong,Da Nang,Can Tho,Bien Hoa,Hue,Vung Tau,Nha Trang,Quy Nhon,Buon Ma Thuot,Dong Hoi,Thai Nguyen,Long Xuyen,Rach Gia,My Tho,Cao Lanh,Tam Ky"},
+      {name: "Mien", i: 397, min: 4, max: 12, d: "lnrt", m: 0, b: "Kunming,Qujing,Yuxi,Baoshan,Zhaotong,Lijiang,Pu'er,Lincang,Chuxiong,Honghe,Wenshan,Dali,Diqing,Dehong,Nujiang,LincangCity,Shangri-La"},
+      {name: "Zhuang", i: 398, min: 4, max: 12, d: "lnrt", m: 0, b: "Nanning,Guilin,Liuzhou,Wuzhou,Yulin,Beihai,Qinzhou,Fangchenggang,Guigang,Hezhou,Laibin,Chongzuo,Baise,Hechi,Youjiang,Pingguo,Tiandeng"},
+      {name: "Shan", i: 399, min: 4, max: 12, d: "lnrt", m: 0, b: "Taunggyi,Lashio,Kyaingtong,Mong Hsat,Mong Yawng,Mong La,Kunlong,Mong Hsat,Mong Kung,Mong Pan,Mong Ping,Mong Ton,Mong Yawng,Namhsan,Namtu,Tachileik"},
+      {name: "Karen", i: 400, min: 4, max: 12, d: "lnrt", m: 0, b: "Pa-An,Hpa-An,Mawlamyine,Myawaddy,Kawkareik,Thandaung,Kyaing Tong,Myainggalay,Kya-in,HPa-an,Pha-an,Kya-in-Seikkyi,Kyaikmaraw,Pa-an,Hpa-an"},
+      {name: "Mon", i: 401, min: 4, max: 12, d: "lnrt", m: 0, b: "Mawlamyine,Mottama,Thaton,Ye,Kyaikmaraw,Kyaikto,Bilin,Paung,Mudon,Kyaikkami,Setse,Thanbyuzayat, YeTown,MawlamyineCity,ThatonTown"},
+      {name: "Cham", i: 402, min: 4, max: 12, d: "lnrt", m: 0, b: "Phan Rang-Thap Cham,Nha Trang,Phan Thiet,Da Nang,Hoi An,Quy Nhon,Tam Ky,Quang Ngai,Da Lat,Buon Ma Thuot,Pleiku,Kon Tum,Dong Ha,Vinh,Haiphong"},
+      {name: "Acehnese", i: 403, min: 4, max: 12, d: "lnrt", m: 0, b: "Banda Aceh,Sabang,Lhokseumawe,Langsa,Bireuen,Banda Aceh City,SabangCity,LhokseumaweCity,LangsaCity,BireuenCity,Calang,Meulaboh,Tapaktuan,Singkil,Subulussalam"},
+      {name: "Balinese", i: 404, min: 4, max: 12, d: "lnrt", m: 0, b: "Denpasar,Kuta,Singaraja,Gianyar,Nusa Dua,Seminyak,Ubud,Canggu,Jimbaran,Tanah Lot,Sanur,Kuta Beach,Legian,Nusa Dua Beach,Uluwatu,Tampaksiring"},
+      {name: "Madurese", i: 405, min: 4, max: 12, d: "lnrt", m: 0, b: "Bangkalan,Pamekasan,Sampang,Sumenep,Kamal,BangkalanMadura,PamekasanMadura,SampangMadura,SumenepMadura,KepulauanKangean,GiliRaja,Sapeken,Sapudi,Raas,Masalembu"},
+      {name: "Buginese", i: 406, min: 4, max: 12, d: "lnrt", m: 0, b: "Makassar,Parepare,Palopo,Bone,Sengkang,Watampone,Sinjai,Bulukumba,Bantaeng,Jeneponto,Maros,Pangkajene,Enrekang,Pinrang,Barru,Sidenreng"},
+      {name: "Makassarese", i: 407, min: 4, max: 12, d: "lnrt", m: 0, b: "Makassar,Parepare,Palopo,Bone,Sengkang,Watampone,Sinjai,Bulukumba,Bantaeng,Jeneponto,Maros,Pangkajene,Enrekang,Pinrang,Barru,Sidenreng"},
+      {name: "Toba Batak", i: 408, min: 4, max: 12, d: "lnrt", m: 0, b: "Medan,Siantar,Tebingtinggi,Pematangsiantar,Padangsidimpuan,Sibolga,Tanjungbalai,Binjai,Gunungsitoli,Bandar,Padang,Bukittinggi,Payakumbuh,Pariaman,Solok"},
+      {name: "Kachin", i: 409, min: 4, max: 12, d: "lnrt", m: 0, b: "Myitkyina,Bhamo,Mohnyin,Putao,Mogok,Mong Ko,Mong Yang,Mong Hsu,Mong Kung,Mong Lwe,Mong Nawng,Mong Ping,Mong Yawng,Mong La,Kunlong"},
+      {name: "Mizo", i: 410, min: 4, max: 12, d: "lnrt", m: 0, b: "Aizawl,Lunglei,Champhai,Saitual,Kolasib,Mamit,Serchhip,Lawngtlai,SaitualTown,ChamphaiTown,KolasibTown,MamitTown,SerchhipTown,LawngtlaiTown"},
+      {name: "Meitei", i: 411, min: 4, max: 12, d: "lnrt", m: 0, b: "Imphal,Thoubal,Kakching,Lamphelpat,Sekmai,Bishnupur,Nambol,Wangoi,Mayang Imphal,Andro,Samurou,Khongjom,Yairipok,Hiyangthang,Leimakhong,Porompat"},
+      {name: "Khasi", i: 412, min: 4, max: 12, d: "lnrt", m: 0, b: "Shillong,Tura,Nongstoin,Jowai,Mawkyrwat,Mairang,Nongpoh,Bhoirymbong,Mawphlang,Mawsynram,Pynursla,Mawlam,Mawryngkneng,MawsynramTown,ShillongCity"}
+  ,
+
+  {name: "Aleut", i: 413, min: 4, max: 12, d: "lnrt", m: 0, b: "Unalaska,Akutan,Atka,Adak,Nikolski,King Cove,False Pass,Sand Point,Cold Bay,Dutch Harbor,Akutan,Biorka,Chernofski,Kaguyak,Kashega,Kinak,Makushin,Morzhovoi,Nazan,Pauloff,Popof,Qagan Toyagungin,Reef Bay,Sedanka,Squaw Harbor,Tanax Angunax, Tigalda,Unga,Uyak,Voznesenka"},
+
+  {name: "Yupik", i: 414, min: 4, max: 12, d: "lnrt", m: 0, b: "Bethel,Dillingham,Ekwok,Emmonak,Hooper Bay,Kotlik,Kwethluk,Napaskiak,Nunapitchuk,Oscarville,Pilot Station,Platinum,Quinhagak,Red Devil,Sleetmute,Stebbins,Togiak,Toksook Bay,Tuluksak,Tuntutuliak,Tununak,Nightmute,Chefornak,Chevak,Kongiganak,Kwigillingok,Mekoryuk,Newtok,Akiachak,Akiak"},
+
+  {name: "Athabaskan", i: 415, min: 4, max: 12, d: "lnrt", m: 0, b: "Fairbanks,Anchorage,Juneau,Sitka,Ketchikan,Wrangell,Petersburg,Cordova,Valdez,Seward,Homer,Kenai,Soldotna,Wasilla,Palmer,Eagle River,Chugiak,Kodiak,Bethel,Nome,Barrow,Kotzebue,Prudhoe Bay,Deadhorse,Fort Yukon,Tanana,Nenana,Healy,Cantwell,Paxson,Glennallen,Copper Center,Chitina,McCarthy,Kennicott,Nabesna,Slana,Tetlin,Tok,Northway,Alcan Border,Beaver Creek,Burwash Landing, Destruction Bay,Haines Junction,Kluane Lake,Mayo,Old Crow,Pelly Crossing,Ross River,Teslin,Watson Lake,Whitehorse,Carmacks,Faro,Ross River,Tagish,Atlin,Carcross,Champagne,Haines,Skagway,Yakutat,Annette Island,Craig,Hollis,Hydaburg,Kasaan,Ketchikan,Klawock,Metlakatla,Thorne Bay,Coffman Cove,Edna Bay,Naukati Bay,Point Baker,Port Protection,Whale Pass,Angoon,Elfin Cove,Gustavus,Hoonah,Pelican,Port Alexander,Sitka,Tenakee Springs,Baranof Warm Springs,Chichagof,Kupreanof,Mitkof,Petersburg,Port Alexander,Wrangell"},
+
+  {name: "Apache", i: 416, min: 4, max: 12, d: "lnrt", m: 0, b: "Whiteriver,San Carlos,Mescalero,Fort Apache,Chinle,Lukachukai,Window Rock,Shiprock,Cibecue,Carrizo,Cedar Creek,Peridot,Globe,Claypool,Miami,Safford,Thatcher,Pima,Bylas,San Simon,Alpine,Springerville,Eagar,Show Low,Pinetop,Lakeside,Heber,Holbrook,Gallup,Grants,Crownpoint,Dulce,Towaoc,Mesilla,Silver City,Las Cruces"},
+
+  {name: "Hawaiian", i: 417, min: 4, max: 12, d: "lnrt", m: 0, b: "Honolulu,Hilo,Kailua,Kaneohe,Kapolei,Pearl City,Waipahu,Mililani,Waimea,Lihue,Princeville,Hanalei,Poipu,Koloa,Lanai City,Lahaina,Kahului,Maalaea,Wailuku,Wailea,Kihei,Makawao,Paia,Hana,Waianae,Haleiwa,Kaunakakai,Kealakekua,Waikoloa,Waimea-Kohala"}
+
+
+];

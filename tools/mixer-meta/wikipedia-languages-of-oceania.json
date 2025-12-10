@@ -21,6 +21,9 @@
     { "name": "Motu", "iso": "motu" },
     { "name": "Hiri Motu", "iso": "hiri-motu" },
     { "name": "Bislama" },
-    { "name": "Pijin" }
+    { "name": "Pijin" },
+    { "name": "Tuvaluan", "iso": "tuvaluan" },
+    { "name": "Tokelauan", "iso": "tokelauan" },
+    { "name": "Nauruan", "iso": "nauruan" }
   ]
 }
