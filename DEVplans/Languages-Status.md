@@ -14,6 +14,7 @@ This document captures where the language system work currently stands so this p
 - [5. Planned next steps when resuming](#5-planned-next-steps-when-resuming)
 - [6. Quick checklist for whoever picks this up](#6-quick-checklist-for-whoever-picks-this-up)
 - [7. Planned tooling extensions (Markov, similarity, and UX helpers)](#7-planned-tooling-extensions-markov-similarity-and-ux-helpers)
+ - [8. Wikipedia language list coverage registry](#8-wikipedia-language-list-coverage-registry)
 
 ## 1. Infrastructure status
 
@@ -247,6 +248,7 @@ Takeaway:
 - A core set of major Sub-Saharan languages (Yoruba, Igbo, Somali, Amharic, Lingala, Kinyarwanda, Shona, Zulu, Xhosa, Sesotho, Tswana, **Kongo, Luganda, Chichewa, Kikuyu**) now each have **dedicated, well-anchored bases** with sensible length bands.
 - Swahili (28) is moving back toward its role as a **trade/lexifier hub** rather than a generic stand-in for unrelated Bantu languages.
 - Many **smaller African lects** (additional Bantu and Atlantic–Congo families) still map directly to Swahili 28 or other hubs and remain candidates for future passes to introduce language-specific bases and tuned length/duplication profiles.
+ - **Linked Wikipedia lists:** *Languages of Africa – major languages subset* (see §8.1).
 
 ---
 
@@ -280,6 +282,7 @@ Takeaway:
 - Future passes should consider:
   - introducing additional Dravidian bases for major subgroups (e.g. Gondi-like cluster vs generic Telugu; select Malayalam-based minorities vs core Malayalam),
   - and tightening length and duplication settings per base once more targeted seeds are available.
+ - **Linked Wikipedia lists:** *List of languages by number of native speakers* subsets (see §8.2 and §8.3).
 
 ### 2.10 Lexifier-based creoles (English / French / Portuguese)
 
@@ -332,6 +335,7 @@ Takeaway:
 - Core American indigenous families now use **dedicated or clearly related macro-family bases** (14, 27, 172, 178, 186–187, 189, 190–191, 192, 222, 173, 177) instead of generic European hubs.
 - The **Na-Dene** meta-entry has been remapped from Inuit **19** to a more appropriate **Navajo (172) + Tlingit (220)** blend, and **Wayuu** no longer collapses onto Quechua 27.
 - Remaining macro hubs in the Americas (e.g. Huichol/Yaqui for Uto-Aztecan, Cree/Ojibwe for Algic/Algonquian) are **intentional macro-family anchors**, not clear mismatches, and can be split further only if we want finer-grained intra-family contrast.
+ - **Linked Wikipedia lists:** planned *Indigenous languages of the Americas* subset (see §8.5 once created).
 
 ### 2.12 Papuan & Pacific Austronesian (second-pass)
 
@@ -365,6 +369,7 @@ Takeaway:
 - Eastern Indonesian Austronesian macros have moved off generic **Indonesian 194** as a sole base and now share a regional **Eastern Indonesian 367** anchor blended with 194, improving intra-Pacific contrast.
 - Vanuatu / Solomons, Micronesian, Central Pacific, and New Caledonian clusters now each have **regional Melanesian / Micronesian / Polynesian bases** (368–371) layered with Samoan/Fijian 197/198, reducing overuse of those hubs as universal oceanic stand-ins.
 - These changes keep 194/195/197/198/263 as intentional **lexifier / macro hubs**, but shift much of the stylistic burden onto regional bases that better reflect the actual language families and geographies.
+ - **Linked Wikipedia lists:** planned *Languages of Oceania* subset (see §8.6 once created).
 
 ## 3. Not-unique-enough clusters (current suspects)
 
@@ -589,3 +594,176 @@ These are higher-level tools and helpers that sit on top of the existing Markov 
 
 - Needs careful UX so that helpers feel like suggestions, not fights against direct user control.
 - Smoothing must be conservative by default to avoid erasing deliberate high-contrast edits.
+
+---
+
+## 8. Wikipedia language list coverage registry
+
+This section tracks the specific Wikipedia-derived language lists that currently drive language catalog and mixer coverage. For each list we record where its JSON lives, the source URL, which parts of the language system it primarily informs, and how to re-run the coverage script.
+
+This registry also notes **planned future list JSONs** (marked as such) so regional coverage goals stay visible even before the corresponding files are created.
+
+Coverage numbers and completion tiers should be updated manually from `report-wikipedia-list-coverage.js` runs as work progresses; see [§5.6 Grow coverage via Wikipedia language lists](#5-planned-next-steps-when-resuming) for the precise definition of "fully represented".
+
+### 8.1 Languages of Africa – major languages subset
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-africa-major.json`
+- **Title:** `Wikipedia: Languages of Africa – major languages subset`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Africa>
+- **Scope:** Hand-picked major African languages from the "Languages of Africa" article; focuses on high-impact Afroasiatic and Niger–Congo languages.
+- **Primary families / regions touched:** Sub-Saharan Africa (Bantu, Atlantic–Congo, Cushitic, Chadic) and Afroasiatic macro entries; see [§2.8 Sub-Saharan Africa (first Bantu split)](#28-sub-saharan-africa-first-bantu-split) and related African notes.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-africa-major.json`
+
+- **Status tier:** **Complete**
+- **Last run:** 2025-12-10
+
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 33
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+
+- **Notes / next steps:**
+  - Use this list as the primary checklist for ensuring that major African languages are both present in `language-mixes.json` and mapped in `language-mixer-map.json`.
+  - As individual entries are intentionally skipped or deferred, document them here so the overall coverage status remains clear.
+
+### 8.2 List of languages by number of native speakers (seed subset)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-languages-by-native-speakers.json`
+- **Title:** `Wikipedia: List of languages by number of native speakers (seed subset)`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers>
+- **Scope:** A curated subset of high-speaker languages from the global "List of languages by number of native speakers" article, used as a headline driver for worldwide coverage.
+- **Primary families / regions touched:** Global macro-families (Indo-European, Sinitic, Japonic, Koreanic, Afroasiatic, Dravidian, Austronesian, etc.); ties into multiple summaries in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed).
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-languages-by-native-speakers.json`
+
+- **Status tier:** **Complete**
+- **Last run:** 2025-12-10
+
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 109
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+
+- **Notes / next steps:**
+  - Track which high-speaker languages are still missing catalog or mixer entries, and prioritize them for future passes.
+  - When expanding the subset (e.g. adding more entries from the full Wikipedia table), update the JSON and re-run the coverage script, then refresh the snapshot here.
+
+### 8.3 List of languages by number of native speakers – CIA World Factbook 2018 subset
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-languages-by-native-speakers-cia-2018.json`
+- **Title:** `Wikipedia: List of languages by number of native speakers – CIA World Factbook 2018 subset`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers>
+- **Scope:** Alternate subset of the same Wikipedia article, reflecting the CIA World Factbook 2018 numbers; used as an additional cross-check on coverage for key global languages.
+- **Primary families / regions touched:** Overlaps heavily with §8.2 but may differ in language ordering and a few inclusions; again spans multiple macro-families.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-languages-by-native-speakers-cia-2018.json`
+
+- **Status tier:** **Complete**
+- **Last run:** 2025-12-10
+
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 11
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+
+- **Notes / next steps:**
+  - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
+  - As with other lists, explicitly note any intentional omissions so that "fully represented" status remains well defined.
+
+### 8.4 Planned – Languages of South Asia
+
+- **Planned JSON file:** `tools/mixer-meta/wikipedia-languages-of-south-asia.json`
+- **Title (planned):** `Wikipedia: Languages of South Asia – regional subset`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_South_Asia>
+- **Scope:** Regional overview of major languages and families across South Asia (Indo-Aryan, Dravidian, Iranian, Nuristani, Tibeto-Burman, etc.).
+- **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, and neighbors); see [§2.9 South Asia (Indo-Aryan / Dravidian)](#29-south-asia-indo-aryan--dravidian) and the South Asia items in §4.
+
+- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+
+- **How to re-run coverage (once created):**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
+
+- **Notes / next steps:**
+  - When South Asia work resumes, derive a compact subset of key South Asian languages from the article above and encode it into the planned JSON.
+  - Use the resulting coverage report to identify remaining Indo-Aryan / Dravidian languages that still need catalog and mixer entries.
+
+### 8.5 Planned – Indigenous languages of the Americas
+
+- **Planned JSON file:** `tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
+- **Title (planned):** `Wikipedia: Indigenous languages of the Americas – macro-family subset`
+- **Source:** <https://en.wikipedia.org/wiki/Indigenous_languages_of_the_Americas>
+- **Scope:** High-level representation of major indigenous language families and isolates across North, Central, and South America (e.g. Algic, Na-Dene, Uto-Aztecan, Quechuan, Arawakan/Tupi–Guarani).
+- **Primary families / regions touched:** Americas (indigenous & contact zones); see [§2.11 Americas (indigenous & contact zones)](#211-americas-indigenous--contact-zones).
+
+- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+
+- **How to re-run coverage (once created):**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
+
+- **Notes / next steps:**
+  - When extending indigenous American coverage, select a manageable subset of representative families and well-attested languages from the article and encode them into the planned JSON.
+  - Use coverage reports to highlight remaining gaps in North and South American families beyond the current macro bases.
+
+### 8.6 Planned – Languages of Oceania
+
+- **Planned JSON file:** `tools/mixer-meta/wikipedia-languages-of-oceania.json`
+- **Title (planned):** `Wikipedia: Languages of Oceania – Papuan & Pacific subset`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Oceania>
+- **Scope:** Overview of Papuan and Austronesian languages across Melanesia, Micronesia, and Polynesia, including Trans–New Guinea and Oceanic branches.
+- **Primary families / regions touched:** Papuan & Pacific Austronesian region; see [§2.12 Papuan & Pacific Austronesian (second-pass)](#212-papuan--pacific-austronesian-second-pass).
+
+- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+
+- **How to re-run coverage (once created):**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
+
+- **Notes / next steps:**
+  - Use this list as a driver for further Papuan and Oceanic coverage beyond the current macro bases (360–371) and lexifier hubs.
+  - When the JSON exists, run coverage periodically to monitor which Papuan/Oceanic clusters still lack catalog or mixer entries.
+
+### 8.7 Planned – Languages of Europe
+
+- **Planned JSON file:** `tools/mixer-meta/wikipedia-languages-of-europe.json`
+- **Title (planned):** `Wikipedia: Languages of Europe – regional subset`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Europe>
+- **Scope:** Overview of major language families and key standard languages across Europe (Romance, Germanic, Slavic, Celtic, Hellenic/Greek, Albanian, Armenian, Baltic, Uralic, Basque, and others).
+- **Primary families / regions touched:** European families documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed) (Romance, Germanic, Slavic & East European cluster, Celtic branches, Uralic entries, etc.).
+
+- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+
+- **How to re-run coverage (once created):**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
+
+- **Notes / next steps:**
+  - When extending or revisiting European families, derive a compact subset of representative European languages from the article above and encode it into the planned JSON.
+  - Use coverage reports to cross-check that each major European standard language has both catalog and mixer entries and that coverage is balanced across Western, Central, Northern, and Eastern Europe.
+
+### 8.8 Planned – Languages of West Asia
+
+- **Planned JSON file:** `tools/mixer-meta/wikipedia-languages-of-west-asia.json`
+- **Title (planned):** `Wikipedia: Languages of West Asia – regional subset`
+- **Source:** <https://en.wikipedia.org/wiki/West_Asia>
+- **Scope:** Overview of major language families and key languages across West Asia (Anatolia, the Levant, Mesopotamia, the Arabian Peninsula, the Caucasus, and Iran), including Semitic, Iranian, Turkic, Kartvelian, Armenian, and related branches.
+- **Primary families / regions touched:** West Asian families and neighbors documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed), including Central Semitic, Iranian, Caucasian, and adjacent Indo-European and Turkic clusters.
+
+- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+
+- **How to re-run coverage (once created):**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-west-asia.json`
+
+- **Notes / next steps:**
+  - When focusing on West Asian families, select a manageable subset of representative languages from the article above (and related language-family pages) and encode them into the planned JSON.
+  - Use coverage reports to highlight remaining gaps in Semitic, Iranian, Caucasian, and Turkic clusters, especially where languages are still riding shared macro hubs or lack mixer mappings.
