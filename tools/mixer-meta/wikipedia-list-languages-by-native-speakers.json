@@ -162,6 +162,14 @@
     { "name": "Udmurt", "iso": "udmurt" },
     { "name": "Komi-Zyryan", "iso": "komi-zyryan" },
     { "name": "Northern Sami", "iso": "northern-sami" },
-    { "name": "Nenets", "iso": "nenets" }
+    { "name": "Nenets", "iso": "nenets" },
+    { "name": "Karelian", "iso": "karelian" },
+    { "name": "Eastern Mari", "iso": "eastern-mari" },
+    { "name": "Hill Mari", "iso": "hill-mari" },
+    { "name": "Enets", "iso": "enets" },
+    { "name": "Forest Nenets", "iso": "forest-nenets" },
+    { "name": "Eastern Khanty", "iso": "eastern-khanty" },
+    { "name": "Eastern Mansi", "iso": "eastern-mansi" },
+    { "name": "Central Mansi", "iso": "central-mansi" }
   ]
 }

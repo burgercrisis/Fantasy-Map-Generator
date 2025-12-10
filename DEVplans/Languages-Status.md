@@ -3,7 +3,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 _Last updated: WIP pass with blended Markov and mixer tooling_
 
-This document captures where the language system work currently stands so this project can be picked up later without re‑reverse‑engineering everything. It assumes the core design goal that each language ultimately has its own linguistically and regionally appropriate base or tuned mix in the namebase/mixer layer; [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) describes how that goal is consumed on the race side.
+This document captures where the language system work currently stands so this project can be picked up later without re‑reverse‑engineering everything. It assumes the core design goal that **every language entry** ultimately has its own linguistically and regionally appropriate base or tuned mix in the namebase/mixer layer; any present-day sharing of identical bases or `[bases]` arrays is treated as **temporary uniqueness debt**, not an acceptable end state. [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) describes how that goal is consumed on the race side.
 
 ### Section index
 
@@ -71,11 +71,11 @@ Representative bases:
 Status:
 - Length ranges (`min/max`) broadly match seed distributions; most are already quite tight around their medians.
 - Duplication patterns reflect Romance flavors reasonably (e.g. French allowing `nlrs` doubles, Italian `cltr`).
-- Many Romance dialects and offshoots in `language-mixer-map` map back onto the same few bases (Spanish, Portuguese, French, Italian, Occitan, Sardinian, Neapolitan). This is **intended** to some extent, but reduces fine-grained uniqueness between closely-related dialects.
+- Many Romance dialects and offshoots in `language-mixer-map` still map back onto the same few bases (Spanish, Portuguese, French, Italian, Occitan, Sardinian, Neapolitan). Under the updated uniqueness rule, this is treated explicitly as **uniqueness debt**, not an acceptable end state: long-term, each Romance language or major lect should have its own base or tuned mix so closely-related dialects diverge instead of collapsing.
 
 Takeaway:
-- Core Romance macro-family is in **good shape** for fantasy-mapping use.
-- If needed, we can later split e.g. **Latin vs modern Romance** more cleanly, or add a second Spanish/Portuguese base if they feel too samey across regions.
+- Core Romance macro-family is in **good shape** for fantasy-mapping use at a coarse level (seed quality, duplication, and high-level flavor), but iso/dialect-level uniqueness remains a planned backlog item.
+- Next Romance work should focus on splitting shared bases (e.g. more carefully separating **Latin vs modern Romance** and carving out additional Spanish/Portuguese/French/Italian-derived bases) until each mapped Romance language has a unique base or mix signature.
 - **Linked Wikipedia lists:** planned *Languages of Europe* subset (see §8.7 once created).
 
 ### 2.2 Uralic / Finnic cluster
@@ -89,9 +89,9 @@ Status:
 - Mixer map shows base `9` reused across multiple Uralic branches and even some neighboring contact zones.
 
 Takeaway:
-- `i:9` currently acts as a **macro-Finnic / generic Uralic** base.
-- We explicitly accepted this as a **macro-family anchor**, not a bug, but it reduces differentiation across Uralic sub-branches.
-- Future enhancement: introduce **one or two additional Uralic bases** (e.g. East Uralic vs Finnic) if we want sharper internal contrast.
+- `i:9` currently acts as a **macro-Finnic / generic Uralic** base reused across multiple Uralic branches and some contact zones.
+- Under the explicit per-language uniqueness rule, this shared 9 is treated as **uniqueness debt**, not an accepted macro-family anchor; in the end-state, each Uralic language (or at minimum each major subgroup) should have its own base or tuned mix instead of riding a single shared 9.
+- Future enhancement: introduce **multiple Uralic bases** (e.g. East Uralic vs Finnic vs Sámi-flavored) and progressively remap languages off 9 until all Uralic entries have distinct base or mix signatures.
 - **Linked Wikipedia lists:** planned *Languages of Europe* subset (see §8.7 once created).
 
 ### 2.3 Germanic cluster
@@ -282,35 +282,12 @@ Representative bases / mappings (via `profile-language-mixes`):
 Takeaway:
 
 - Core Indo-Aryan standards have **one-to-one bases** with reasonable `min/max` bands; they are not acting as problematic hubs.
-- Dravidian currently leans on a small set of **macro-family bases** (Tamil 199, Telugu 200, Kannada 254, Malayalam 255) reused across many lects; this is acceptable as a first-pass but limits fine-grained uniqueness between Dravidian varieties.
-- Initial tuning on **Tamil (199)** (raising `min` from `4` to `5`) ensures generated names better reflect the observed Tamil length distribution while maintaining the existing macro-hub behavior.
-- Future passes should consider:
-  - introducing additional Dravidian bases for major subgroups (e.g. Gondi-like cluster vs generic Telugu; select Malayalam-based minorities vs core Malayalam),
-  - and tightening length and duplication settings per base once more targeted seeds are available.
+- Dravidian currently leans on a small set of **macro-family bases** (Tamil 199, Telugu 200, Kannada 254, Malayalam 255) reused across many lects; under the explicit per-language uniqueness rule, this is treated as **uniqueness debt**, not an acceptable end state, because many distinct Dravidian languages still share identical bases.
+- Initial tuning on **Tamil (199)** (raising `min` from `4` to `5`) ensures generated names better reflect the observed Tamil length distribution, but it does **not** change the requirement that each Dravidian language should ultimately have its own base or tuned mix rather than sharing these macro-hubs.
+- Future passes should therefore:
+  - introduce additional Dravidian bases for major subgroups (e.g. Gondi-like cluster vs generic Telugu; select Malayalam-based minorities vs core Malayalam),
+  - progressively remap languages off the shared 199/200/254/255 hubs until each mapped Dravidian entry has a unique base or mix signature, and tighten length and duplication settings per base once more targeted seeds are available.
  - **Linked Wikipedia lists:** *List of languages by number of native speakers* subsets (see §8.2 and §8.3).
-
-### 2.10 Lexifier-based creoles (English / French / Portuguese)
-
-Representative bases / mappings (via `profile-language-mixes`):
-
-- **English-based creoles**:
-  - **West African**: `nigerian-pidgin`, `pichinglis`, `west-african-pidgin-english` 																																																																																																																																																																																																																																																																																																																																										 																																																																																																																																																																																																																																								 																																																														 																																																														 																																																														 																																																								 	→ base **307 (West African English Creole)**.
-  - **Caribbean**: `bahamian-creole`, `bajan-creole`, `belizean-creole`, `trinidadian-creole`, `tobagonian-creole`, `saint-kitts-creole`, `vincentian-creole`, `virgin-islands-creole`, `turks-and-caicos-creole`, `san-andres-providencia-creole`, `rama-cay-creole` → bases **259 (Jamaican Creole)** and **308 (Caribbean English Creole)**.
-  - **Pacific**: `tok-pisin` → base **263 (Tok Pisin)**; `pijin`, `ngatikese-creole`, `pitcairn-norfolk`, `singlish`, `torres-strait-creole` → base **309 (Pacific English Creole)**.
-  - **Suriname / Guianas**: `sranan-tongo`, `saramaccan`, `ndyuka` → base **291 (Sranan)**.
-
-- **French-based creoles**:
-  - **Caribbean / Americas**: `antillean-creole`, `dominican-creole-french`, `french-guianese-creole`, `grenadian-creole-french`, `karip-na-french-creole`, `louisiana-creole`, `saint-lucian-creole` → base **258 (Haitian Creole)**.
-  - **Indian Ocean**: `agalega-creole`, `chagossian-creole`, `rodriguan-creole` → base **261 (Mauritian Creole)**; `bourbonnais-creole`, `r-union-creole`, `tayo-creole` → base **262 (Seychellois Creole)**.
-
-- **Portuguese-based creoles**:
-  - **Upper Guinea / Gulf of Guinea**: `guinea-bissau-creole`, `fogo-creole`, `santiago-creole`, `santo-ant-o-creole`, `s-o-nicolau-creole`, `s-o-vicente-creole`, `sotavento-creoles`, `forro-creole`, `principense-creole` → base **260 (Cape Verdean Creole)**.
-  - **Caribbean**: `papiamento` → base **264 (Papiamento)**.
-
-Takeaway:
-
-- English-, French-, and Portuguese-based creoles no longer ride directly on lexifier bases **1 (English)**, **2 (French)**, or **13 (Portuguese)**.
-- Instead they use **dedicated creole bases** (259, 291, 307–309, 258, 260–262, 264) with length bands and punctuation tuned to creole city / place-name seeds, giving much stronger regional flavor and reducing hub overuse.
 
 ### 2.11 Americas (indigenous & contact zones)
 
@@ -339,7 +316,7 @@ Takeaway:
 
 - Core American indigenous families now use **dedicated or clearly related macro-family bases** (14, 27, 172, 178, 186–187, 189, 190–191, 192, 222, 173, 177) instead of generic European hubs.
 - The **Na-Dene** meta-entry has been remapped from Inuit **19** to a more appropriate **Navajo (172) + Tlingit (220)** blend, and **Wayuu** no longer collapses onto Quechua 27.
-- Remaining macro hubs in the Americas (e.g. Huichol/Yaqui for Uto-Aztecan, Cree/Ojibwe for Algic/Algonquian) are **intentional macro-family anchors**, not clear mismatches, and can be split further only if we want finer-grained intra-family contrast.
+- Remaining macro hubs in the Americas (e.g. Huichol/Yaqui for Uto-Aztecan, Cree/Ojibwe for Algic/Algonquian) are currently **macro-family anchors** rather than clear mismatches, but they still represent outstanding **per-language uniqueness debt**: the plan is to split these further so that each mapped language ends up with its own base or tuned mix, not a permanently shared macro hub.
  - **Linked Wikipedia lists:** planned *Indigenous languages of the Americas* subset (see §8.5 once created).
 
 ### 2.12 Papuan & Pacific Austronesian (second-pass)
@@ -362,25 +339,19 @@ Representative bases / mappings (via `profile-language-mixes`):
 - **Micronesia & Central Pacific hubs**:
   - **Micronesian**: base **369 (Micronesian)** – seeded from Micronesian / Marshallese / Kiribati / Marianas / Palauan towns (Palikir, Kolonia, Majuro, Tarawa, Saipan, Tinian, Koror, Ngerulmud, etc.); the `micronesian` macro now blends **[369, 198]** instead of pure 198.
   - **Central Pacific**: base **370 (Central Pacific)** – seeded from Samoa, Tonga, and French Polynesia (Apia, Nuku'alofa, Papeete, Faaa, Uturoa, Taiohae, etc.); the `central-pacific` macro now uses **[370, 197, 198]** instead of just `[197, 198]`.
-
-- **New Caledonia / Loyalty Islands**:
   - **New Caledonia**: base **371 (New Caledonia)** – seeded from New Caledonian and Loyalty Islands towns (Noumea, Dumbea, Kone, Koumac, Poindimie, Lifou, We, Mare, Tadine, Ouvea, Fayaoue, etc.).
   - The `loyalties-new-caledonia` macro now uses **[371, 197, 198]**, providing a region-specific Melanesian flavor layered with Samoan/Fijian lexifier influence.
 
-Takeaway:
+  Takeaway:
 
-- Papuan languages no longer ride purely on **Malay 195** or **Tok Pisin 263**, nor on unrelated Slavic or click bases; instead they use a dedicated Papuan macro base **360** and sub-bases **365 (Engan)** and **366 (Dani)** blended with appropriate lexifiers.
-- In particular, Papuan macro entries such as `central-south-new-guinea`, `asmat-kamoro`, `greater-awyu`, `bayono-awbono`, `asmat`, and `asmat-citak` have been moved off the Czech–Slovak base **315** onto **360 (Papuan)**; 315 is now reserved for Czech/Slovak only.
-- Eastern Indonesian Austronesian macros have moved off generic **Indonesian 194** as a sole base and now share a regional **Eastern Indonesian 367** anchor blended with 194, improving intra-Pacific contrast.
-- Vanuatu / Solomons, Micronesian, Central Pacific, and New Caledonian clusters now each have **regional Melanesian / Micronesian / Polynesian bases** (368–371) layered with Samoan/Fijian 197/198, reducing overuse of those hubs as universal oceanic stand-ins.
-- These changes keep 194/195/197/198/263 as intentional **lexifier / macro hubs**, but shift much of the stylistic burden onto regional bases that better reflect the actual language families and geographies.
- - **Linked Wikipedia lists:** planned *Languages of Oceania* subset (see §8.6 once created).
+  - Papuan languages no longer ride purely on **Malay 195** or **Tok Pisin 263**, nor on unrelated Slavic or click bases; instead they use a dedicated Papuan macro base **360** and sub-bases **365 (Engan)** and **366 (Dani)** blended with appropriate lexifiers, as a stepping stone toward each Papuan language having its own regional base or distinct mix.
+  - In particular, Papuan macro entries such as `central-south-new-guinea`, `asmat-kamoro`, `greater-awyu`, `bayono-awbono`, `asmat`, and `asmat-citak` have been moved off the Czech–Slovak base **315** onto **360 (Papuan)**; 315 is now reserved for Czech/Slovak only.
+  - Eastern Indonesian Austronesian macros have moved off generic **Indonesian 194** as a sole base and now share a regional **Eastern Indonesian 367** anchor blended with 194, improving intra-Pacific contrast.
+  - Vanuatu / Solomons, Micronesian, Central Pacific, and New Caledonian clusters now each have **regional Melanesian / Micronesian / Polynesian bases** (368–371) layered with Samoan/Fijian 197/198, reducing overuse of those hubs as universal oceanic stand-ins.
+  - These changes keep 194/195/197/198/263 as intentional **lexifier / macro hubs** for mixes, but the end-state rule is that no Papuan or Pacific language should permanently use them as a sole or identical `[bases]` array; regional bases should carry the distinctive style, with lexifiers only as ingredients.
+  - **Linked Wikipedia lists:** planned *Languages of Oceania* subset (see §8.6 once created).
 
-## 3. Not-unique-enough clusters (current suspects)
-
-These are **not necessarily bugs**; many are intentional macro-lexifiers. But they are the main places where stylistic uniqueness is likely to be weak.
-
-### 3.1 High-degree lexifiers in `language-mixer-map`
+  ### 3.1 High-degree lexifiers in `language-mixer-map`
 
 Based on `check-language-mixer-map-inconsistencies` runs, the following bases show up across many families/regions:
 
@@ -398,20 +369,20 @@ Based on `check-language-mixer-map-inconsistencies` runs, the following bases sh
 - **Other hubs** seen in the sweeps: **Swahili (28)**, **Thai (251)**, **Lao (252)**, **Maori (196)**, **Samoan (197)**, **Fijian (198)**, **Sranan (291)**, **Greenlandic (305)**, **Neapolitan (306)**, **Occitan (232)**, **Sardinian (233)**, **Northern Sami (274)**, **Ainu (275)**, **Buryat (276)**, **Kalmyk (296)**, **Zarma (277)**, **Udmurt (283)**, etc.
 
 Current stance:
-- Many of these are **intentionally broad** (lexifiers or macro-family anchors).
-- They are likely to produce **similar-feeling names** across related ISOs and should be revisited if we want finer-grained differences between, say, regional dialects or closely related creoles.
+- Many of these are **historically plausible but intentionally broad** lexifiers or macro-family anchors, in the sense that they are reasonable seeds.
+- However, under the per-language uniqueness rule, any language that still *shares* an identical lexifier base or `[bases]` array with others is carrying **uniqueness debt**. These hubs must be revisited and split until each dependent language has its own base or mix signature, with lexifiers kept only as ingredients rather than sole or fully shared bases.
 
 ### 3.2 Single-base macro-families
 
 - **Uralic (base 9)**
   - Single Finnic/Uralic base covers Finnish, Karelian, Veps, multiple Sámi dialects, and more.
-  - Accepted for now as a macro-family choice; uniqueness between Uralic sub-branches is limited.
+  - Previously treated as an acceptable macro-family choice; under the current rule it is flagged as high-priority **uniqueness debt**: these languages must be split onto multiple bases or tuned mixes so they no longer share a single 9.
 - **Central Semitic (bases 18, 23, 42)**
-  - Arabic / Mesopotamian / Levantine bases underpin many historical and modern Semitic ISOs.
-  - Stylistic differences across dialects and historical layers may blur.
+  - Arabic / Mesopotamian / Levantine bases currently underpin many historical and modern Semitic ISOs and act as shared anchors.
+  - This is directionally plausible but still violates per-language uniqueness; over time those ISOs should be given distinct bases or mix signatures so that dialect and historical-layer differences show up clearly.
 - **Romance dialect continuum**
   - Romance dialects (e.g. various regional Spanish, Portuguese, French, Italian varieties) mostly map back to one of a few central bases.
-  - Good enough for macro flavor; not unique at fine ISO granularity.
+  - Historically this was considered “good enough” for macro flavor; now it is explicitly tracked as uniqueness debt, to be resolved by carving out additional Romance bases and/or distinct mixes per language so no two mapped Romance entries share an identical base or `[bases]` array.
 
 ---
 
@@ -469,10 +440,6 @@ When this work resumes, a practical order of operations:
      - A clear list of **intentional shared bases vs accidental reuse**.
 
 6. **Grow coverage via Wikipedia language lists**
-   - For this project, a Wikipedia-derived language list JSON is considered **fully represented** only when every language encoded in that JSON:
-     - has a catalog entry in `config/language-mixes.json`, and
-     - has at least one mapping in `config/language-mixer-map.json` (i.e. participates in the namebase/mixer layer).
-   - **Current status (as of 2025-12-10): the JSON lists in §8.1–§8.3 are fully represented at the JSON level (all of their items are wired end-to-end), but the broader Wikipedia tables they are drawn from still have additional entries that are not yet encoded or wired.** Languages have been added in curated clusters from multiple lists (e.g. high-speaker Indo-Aryan varieties, African families, Papuan and Mongolic branches), and even headline lists such as *List of languages by number of native speakers* still have unrepresented entries beyond the current JSON subsets.
    - After the current backlog of in-progress families and languages documented in this file is finished, continue adding missing languages from Wikipedia’s language lists into `language-mixes.json` / `language-mixer-map.json`.
    - As individual lists are completed in the strict sense above, record them here in a short sub-bullet list under this item (list name, scope, and date completed) so future passes know exactly which lists are fully wired.
    - Treat each new language with the same per-language rigor (seed curation, base choice, `min/max/d` tuning, and mixer-map QA); avoid bulk-adding large blocks of languages onto a single hub base without review.
@@ -689,39 +656,56 @@ In this project, coverage for a list JSON is always computed over **all** of its
   - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
   - As with other lists, explicitly note any remaining unwired languages or planned JSON expansions so that "fully represented" status remains well defined.
 
-### 8.4 Planned – Languages of South Asia
+### 8.4 Languages of South Asia – regional subset
 
-- **Planned JSON file:** `tools/mixer-meta/wikipedia-languages-of-south-asia.json`
-- **Title (planned):** `Wikipedia: Languages of South Asia – regional subset`
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-south-asia.json`
+- **Title:** `Wikipedia: Languages of South Asia – regional subset`
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_South_Asia>
 - **Scope:** Regional overview of major languages and families across South Asia (Indo-Aryan, Dravidian, Iranian, Nuristani, Tibeto-Burman, etc.).
 - **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, and neighbors); see [§2.9 South Asia (Indo-Aryan / Dravidian)](#29-south-asia-indo-aryan--dravidian) and the South Asia items in §4.
 
-- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+- **Status tier:** **Complete**
+- **Last run:** 2025-12-10
 
-- **How to re-run coverage (once created):**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 18
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+
+- **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
 
 - **Notes / next steps:**
-  - When South Asia work resumes, derive a compact subset of key South Asian languages from the article above and encode it into the planned JSON.
-  - Use the resulting coverage report to identify remaining Indo-Aryan / Dravidian languages that still need catalog and mixer entries.
+  - Use this list as a driver for Indo-Aryan / Dravidian completeness checks in South Asia and to highlight any further missing catalog or mixer entries.
 
-### 8.5 Planned – Indigenous languages of the Americas
+### 8.5 Indigenous languages of the Americas – macro-family subset
 
-- **Planned JSON file:** `tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
-- **Title (planned):** `Wikipedia: Indigenous languages of the Americas – macro-family subset`
+- **JSON file:** `tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
+- **Title:** `Wikipedia: Indigenous languages of the Americas – macro-family subset`
 - **Source:** <https://en.wikipedia.org/wiki/Indigenous_languages_of_the_Americas>
 - **Scope:** High-level representation of major indigenous language families and isolates across North, Central, and South America (e.g. Algic, Na-Dene, Uto-Aztecan, Quechuan, Arawakan/Tupi–Guarani).
 - **Primary families / regions touched:** Americas (indigenous & contact zones); see [§2.11 Americas (indigenous & contact zones)](#211-americas-indigenous--contact-zones).
 
-- **Status:** _Planned – JSON file not yet created; coverage script not yet wired._
+- **Status tier:** **Complete**
+- **Last run:** 2025-12-10
 
-- **How to re-run coverage (once created):**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 16
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+
+- **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
 - **Notes / next steps:**
-  - When extending indigenous American coverage, select a manageable subset of representative families and well-attested languages from the article and encode them into the planned JSON.
-  - Use coverage reports to highlight remaining gaps in North and South American families beyond the current macro bases.
+  - Treat this list as a compact checklist for key indigenous families (Nahuatl, Quechua, Guarani, Aymara, Mapudungun, Tikuna, Na-Dene macros, Salishan, Wayuu, Cherokee, etc.).
+  - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 ### 8.6 Planned – Languages of Oceania
 

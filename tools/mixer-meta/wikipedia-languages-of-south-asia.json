@@ -8,7 +8,7 @@
     { "name": "Punjabi", "iso": "punjabi" },
     { "name": "Marathi" },
     { "name": "Gujarati" },
-    { "name": "Nepali" },
+    { "name": "Nepali", "iso": "nepali" },
     { "name": "Sinhala", "iso": "sinhala" },
     { "name": "Tamil", "iso": "tamil" },
     { "name": "Telugu" },

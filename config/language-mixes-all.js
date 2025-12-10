@@ -5796,6 +5796,14 @@
     "family": "Ewenic"
   },
   {
+    "name": "Nepali",
+    "iso": "nepali",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nepali_language",
+    "family": "Eastern Pahari"
+  },
+  {
     "name": "Nicobarese languages",
     "iso": "nicobarese",
     "region": "Asia",
