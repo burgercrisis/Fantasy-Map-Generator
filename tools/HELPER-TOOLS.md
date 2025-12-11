@@ -727,7 +727,7 @@ By default it runs, in order:
 - `report-language-mixer-duplicates.js`
 - `report-language-mixer-base-clusters.js`
 
-It then prints a short summary of each tools stdout.
+It then prints a short summary of each tool’s stdout.
 
 **Usage**
 
@@ -775,7 +775,8 @@ Reports coverage for a single Wikipedia language list JSON by checking, for each
   - If `skip: true`, marks it as `skipped` (not counted toward coverage).
   - Otherwise resolves `iso` (from `item.iso` or by matching `name` against the catalog).
   - Classifies status as `full`, `missing-catalog`, `missing-map`, `missing-both`, `unmatched`, or `ambiguous`.
-- Aggregates counts and prints a coverage summary plus per-category lists of problem items.
+- Aggregates counts and prints a coverage summary plus grouped per-category lists of problem items for all non-`full` statuses (`missing-catalog`, `missing-map`, `missing-both`, `unmatched`, `ambiguous`).
+- Computes and prints a `Nonunique Bases` line, counting how many **considered** list items map to ISOs that do **not** have a globally unique `bases[]` set in the mixer map (family-macro catalog entries tagged with `"family"` are excluded from this uniqueness check).
 
 **Usage**
 
@@ -809,7 +810,7 @@ Computes coverage for a Wikipedia list JSON (using the same logic as `report-wik
 
 - Resolves list items exactly as `report-wikipedia-list-coverage.js` does, including `skip: true` handling.
 - Locates the `- **JSON file:** \`...\`` line in the devplan and the following `- **Snapshot from last run (all list items):` block.
-- Rewrites the per-status counts (`fully wired`, `missing catalog`, `missing map`, `missing both`, `unmatched`, `ambiguous`) based on the current run.
+- Rewrites the per-status counts (`fully wired`, `missing catalog`, `missing map`, `missing both`, `unmatched`, `ambiguous`) based on the current run, and, when present, refreshes the `Nonunique Bases` line using the same logic as `report-wikipedia-list-coverage.js`.
 
 **Usage**
 
@@ -827,9 +828,110 @@ Run this **instead of manually editing coverage snapshots** whenever you change 
   - **Truly unreconstructible extinct languages** (no speakers and not meaningfully studied) may be omitted; extinct languages that are still studied or partly reconstructible **are in scope** and should be included.
 - Historical `*-seed` / `*-subset` JSONs are deprecated and removed; helpers and coverage snapshots operate only on the canonical full-list JSONs.
 - Once a language exists in the mixer catalog or map, these helpers must **never remove it**; coverage work is additive and driven by wiring missing languages, not by deleting them.
-- In this project, a list item is not considered **fully wired** until it has a catalog entry, a mixer-map entry, and a **globally unique `bases[]` array** (subject only to explicitly documented historical exceptions); use these helpers to move each language all the way to that state, not to perform coverage-only passes.
+- In this project, a list item is not considered **fully wired** until it has a catalog entry, a mixer-map entry, and a **globally unique `bases[]` array** (subject only to explicitly documented historical exceptions); use these helpers to move each language all the way to that state, not to perform coverage-only passes. The `Nonunique Bases` metric surfaced by these helpers is a per-list snapshot of how many in-scope items still lack globally unique `bases[]` signatures.
 
 Use this helper as the final step in a Wikipedia list workflow: first sync the JSON to the live article, then wire missing languages in catalog/map, and finally re-run this script to refresh the devplan snapshot.
+
+---
+
+### `report-wikipedia-list-base-uniqueness.js`
+
+**Purpose**
+
+Summarizes base-set uniqueness and remaining shared-base debt for a single Wikipedia language list JSON, using the global mixer map.
+
+**Inputs / Outputs**
+
+- Input JSON format matches `report-wikipedia-list-coverage.js`:
+  - an array of `{ name, iso?, skip? }`, or
+  - an object `{ title, source, items }` with that array under `items`.
+- Reads (without writing):
+  - `config/language-mixes.json`
+  - `config/language-mixer-map.json`
+- Prints a console summary including:
+  - wiring status counts (full / missing-catalog / missing-map / missing-both / unmatched / ambiguous),
+  - a **global base-index snapshot**:
+    - `Nonunique Bases (non-skipped items): N` – how many list items **do not** have any base index that is globally unique to their ISO in the mixer map (family-macro catalog entries tagged with `"family"` are excluded from the uniqueness check),
+  - and, for full items only, base-set uniqueness:
+    - `unique bases: X`
+    - `clustered bases: Y`
+  - plus an optional per-language dump of clustered full items.
+
+**Behavior**
+
+- Resolves list items exactly as `report-wikipedia-list-coverage.js` does, including `skip: true` handling.
+- For **all non-skipped items**, computes `Nonunique Bases` as:
+  - total non-skipped list items minus those whose ISO has at least one base index that is used **only** by that ISO in `language-mixer-map.json` (with family-macro catalog entries ignored).
+- For items with status `full`, groups mixer-map entries by normalized `bases[]` set to distinguish:
+  - languages whose `bases[]` set is globally unique, and
+  - languages still sitting in shared base-set clusters.
+
+**Usage**
+
+```bash
+node tools/mixer-core/report-wikipedia-list-base-uniqueness.js path/to/list.json
+```
+
+Use this alongside `report-wikipedia-list-coverage.js` when you want a per-list view of how many languages are still sharing bases globally (`Nonunique Bases`) and which fully wired items remain in shared `bases[]` clusters.
+
+---
+
+### `run-wikipedia-list-helpers.js`
+
+**Purpose**
+
+Runs the Wikipedia list helpers across **all** JSONs registered in the §8 "Wikipedia language list coverage registry" of `DEVplans/Languages-Status.md` (or an alternate devplan you specify).
+
+**Inputs / Outputs**
+
+- Reads:
+  - `DEVplans/Languages-Status.md` (or another devplan if you pass it) to discover all `- **JSON file:** \`...json\`` entries under the Wikipedia registry.
+  - For each discovered JSON:
+    - the list JSON itself,
+    - `config/language-mixes.json`,
+    - `config/language-mixer-map.json`.
+- Writes:
+  - When enabled, calls `update-wikipedia-list-coverage-in-devplan.js` to refresh the per-list `Snapshot from last run` block in the devplan for each JSON.
+- Prints:
+  - A list of all discovered JSON paths (optionally filtered),
+  - For each JSON, the stdout from:
+    - `update-wikipedia-list-coverage-in-devplan.js` (if not disabled),
+    - `report-wikipedia-list-base-uniqueness.js` (if not disabled), including the per-list `Nonunique Bases` line.
+
+**Behavior**
+
+- Parses the target devplan for all lines of the form:
+  - `- **JSON file:** \`tools/mixer-meta/whatever.json\``
+- Optionally filters this set via `--filter=SUBSTR` on the JSON path.
+- For each matching JSON that actually exists on disk, runs (unless disabled):
+  - `update-wikipedia-list-coverage-in-devplan.js <json> <DEVPLAN_REL>` – refreshes the snapshot block for that list,
+  - `report-wikipedia-list-base-uniqueness.js <json>` – prints wiring counts, base-set uniqueness, and the global `Nonunique Bases (non-skipped items)` snapshot for the list.
+
+**Usage**
+
+```bash
+node tools/mixer-core/run-wikipedia-list-helpers.js [DEVPLAN_REL] [options]
+
+# Typical: run for all lists in the main devplan
+node tools/mixer-core/run-wikipedia-list-helpers.js
+
+# Preview which JSONs would be touched, without running helpers
+node tools/mixer-core/run-wikipedia-list-helpers.js --list-only
+
+# Restrict to JSONs whose path contains "europe" or "north-america"
+node tools/mixer-core/run-wikipedia-list-helpers.js --filter=europe
+node tools/mixer-core/run-wikipedia-list-helpers.js --filter=north-america
+```
+
+Options:
+
+- `DEVPLAN_REL` – optional first argument; defaults to `DEVplans/Languages-Status.md`.
+- `--list-only` – only list discovered JSON paths and exit; do **not** run any helpers.
+- `--no-devplan` – skip `update-wikipedia-list-coverage-in-devplan.js` (no devplan writes; only base-uniqueness reports).
+- `--no-base-uniqueness` – skip `report-wikipedia-list-base-uniqueness.js` (devplan snapshots only).
+- `--filter=SUBSTR` – only process JSON paths that contain the given substring.
+
+Use this orchestrator when you want to refresh **all** Wikipedia list snapshots and/or base-uniqueness summaries in one pass, instead of running the helpers manually per JSON.
 
 ---
 

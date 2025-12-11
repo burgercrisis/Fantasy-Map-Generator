@@ -514,6 +514,12 @@ function main() {
   const mixes = readJson("config/language-mixes.json");
   let map = readJson("config/language-mixer-map.json");
 
+  const originalIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+
   const namebases = loadNamebases();
 
   function resolveBaseByNameLike(name) {
@@ -582,6 +588,7 @@ function main() {
     const bases = Array.isArray(entry.bases) ? entry.bases.filter(b => validBaseIndices.has(b)) : [];
     if (!bases.length) {
       droppedIsos.push(entry.iso);
+      normalizedMap.push({iso: entry.iso, bases: []});
       continue;
     }
     normalizedMap.push({iso: entry.iso, bases});
@@ -589,7 +596,7 @@ function main() {
 
   if (droppedIsos.length) {
     console.log(
-      "Dropped mappings with invalid base indices:",
+      "Cleared invalid base indices for mappings (now unresolved):",
       droppedIsos.length,
       "=>",
       droppedIsos.join(", ")
@@ -598,9 +605,13 @@ function main() {
 
   map = normalizedMap;
 
-  const mappedIsos = new Set(map.map(e => e.iso));
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
+  const mappedIsos = new Set(
+    map
+      .filter(e => Array.isArray(e.bases) && e.bases.length)
+      .map(e => e.iso)
+  );
 
   const added = [];
   const unresolved = [];
@@ -674,7 +685,10 @@ function main() {
 
   for (const lang of mixes) {
     if (!lang || !lang.iso) continue;
-    if (mappedIsos.has(lang.iso)) continue; // already mapped
+
+    const existing = mapByIso.get(lang.iso) || null;
+    const hasBases = existing && Array.isArray(existing.bases) && existing.bases.length;
+    if (hasBases) continue; // already mapped
 
     const baseIndex = findBaseIndexForLang(lang);
     if (baseIndex == null) {
@@ -682,7 +696,14 @@ function main() {
       continue;
     }
 
-    map.push({iso: lang.iso, bases: [baseIndex]});
+    if (existing) {
+      existing.bases = [baseIndex];
+    } else {
+      const entry = {iso: lang.iso, bases: [baseIndex]};
+      map.push(entry);
+      mapByIso.set(lang.iso, entry);
+    }
+
     mappedIsos.add(lang.iso);
     added.push({iso: lang.iso, base: baseIndex, name: lang.name || ""});
   }
@@ -695,6 +716,20 @@ function main() {
     newEntries.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
 
     const combined = staticEntries.concat(newEntries);
+
+    const combinedIsos = new Set(
+      combined.filter(e => e && e.iso).map(e => String(e.iso))
+    );
+    for (const iso of originalIsos) {
+      if (!combinedIsos.has(iso)) {
+        console.error(
+          "fix-language-mixer-mappings: refusing to write config/language-mixer-map.json; would drop ISO",
+          iso
+        );
+        return;
+      }
+    }
+
     writeJson("config/language-mixer-map.json", combined);
   } else {
     console.log("No new mappings added.");

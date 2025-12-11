@@ -364,6 +364,17 @@ function ensureCatalogAndMap(options) {
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
+   const originalMixIsos = new Set(
+     Array.isArray(mixes)
+       ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+       : []
+   );
+   const originalMapIsos = new Set(
+     Array.isArray(map)
+       ? map.filter(e => e && e.iso).map(e => String(e.iso))
+       : []
+   );
+
   const existingByName = new Map(mixes.map(m => [String(m.name || "").toLowerCase(), m]));
   const existingIsos = new Set(mixes.map(m => m.iso));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
@@ -428,12 +439,42 @@ function ensureCatalogAndMap(options) {
     console.log("  Would add mappings:", addedMappings.length);
   } else {
     if (addedMixes.length) {
+      const finalMixIsos = new Set(
+        Array.isArray(mixes)
+          ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+          : []
+      );
+      for (const iso of originalMixIsos) {
+        if (!finalMixIsos.has(iso)) {
+          console.error(
+            "[add-african-languages] refusing to write config/language-mixes.json; would drop ISO",
+            iso
+          );
+          return;
+        }
+      }
+
       writeJson("config/language-mixes.json", mixes);
     } else {
       console.log("No new catalog entries added.");
     }
 
     if (addedMappings.length) {
+      const finalMapIsos = new Set(
+        Array.isArray(map)
+          ? map.filter(e => e && e.iso).map(e => String(e.iso))
+          : []
+      );
+      for (const iso of originalMapIsos) {
+        if (!finalMapIsos.has(iso)) {
+          console.error(
+            "[add-african-languages] refusing to write config/language-mixer-map.json; would drop ISO",
+            iso
+          );
+          return;
+        }
+      }
+
       writeJson("config/language-mixer-map.json", map);
     } else {
       console.log("No new mapping entries added.");

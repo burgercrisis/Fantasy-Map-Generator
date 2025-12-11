@@ -77,6 +77,51 @@ function buildIndexes(mixes, map) {
   return { byIso, byNameLower, mapIsos };
 }
 
+function buildIsoHasUniqueBaseMap(mixes, map) {
+  const mixByIso = new Map();
+  for (const lang of mixes) {
+    if (!lang || !lang.iso) continue;
+    mixByIso.set(String(lang.iso), lang);
+  }
+
+  const baseToIsos = new Map(); // baseIndex => Set(iso)
+
+  for (const entry of map) {
+    if (!entry || !entry.iso) continue;
+    const iso = String(entry.iso);
+    const lang = mixByIso.get(iso) || null;
+    const tags = lang && Array.isArray(lang.tags) ? lang.tags : [];
+    if (tags.includes("family")) continue; // skip family-macro catalog entries
+
+    const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
+    if (!basesSource.length) continue;
+
+    const uniqueBases = Array.from(new Set(basesSource.map(b => Number(b)))).filter(
+      b => !Number.isNaN(b)
+    );
+    if (!uniqueBases.length) continue;
+
+    for (const base of uniqueBases) {
+      let set = baseToIsos.get(base);
+      if (!set) {
+        set = new Set();
+        baseToIsos.set(base, set);
+      }
+      set.add(iso);
+    }
+  }
+
+  const isoHasUniqueBase = new Map();
+  for (const isos of baseToIsos.values()) {
+    if (isos.size === 1) {
+      const onlyIso = isos.values().next().value;
+      isoHasUniqueBase.set(onlyIso, true);
+    }
+  }
+
+  return isoHasUniqueBase;
+}
+
 function resolveItem(item, indexes) {
   const { byIso, byNameLower, mapIsos } = indexes;
 
@@ -217,6 +262,7 @@ function main() {
 
   const indexes = buildIndexes(mixes, map);
   const { isoToClusterSize } = buildBaseClusters(mixes, map);
+  const isoHasUniqueBase = buildIsoHasUniqueBaseMap(mixes, map);
 
   let totalItems = 0;
   let skipped = 0;
@@ -230,6 +276,8 @@ function main() {
   let uniqueBases = 0;
   let clusteredBases = 0;
 
+  let withUniqueBase = 0;
+
   const clusteredDetails = [];
 
   for (const item of list.items) {
@@ -241,6 +289,11 @@ function main() {
     }
 
     totalItems++;
+
+    const isoForUniq = res.iso != null ? String(res.iso) : null;
+    if (isoForUniq && isoHasUniqueBase.get(isoForUniq)) {
+      withUniqueBase++;
+    }
 
     switch (res.status) {
       case "full": {
@@ -276,6 +329,8 @@ function main() {
     }
   }
 
+  const nonuniqueBases = totalItems - withUniqueBase;
+
   console.log("=== Wikipedia list base-uniqueness summary ===");
   console.log("List:", list.title || "(no title)");
   if (list.source) console.log("Source:", list.source);
@@ -290,6 +345,10 @@ function main() {
   console.log("  missing-both:", missingBoth);
   console.log("  unmatched:", unmatched);
   console.log("  ambiguous:", ambiguous);
+  console.log("");
+
+  console.log("Global base-index uniqueness snapshot for this list:");
+  console.log("  Nonunique Bases (non-skipped items):", nonuniqueBases);
   console.log("");
 
   console.log("Base-set uniqueness among full items:");

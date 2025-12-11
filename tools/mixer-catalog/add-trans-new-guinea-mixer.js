@@ -630,6 +630,17 @@ function main() {
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
+  const originalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  const originalMapIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
 
@@ -707,12 +718,43 @@ function main() {
 
   if (mixesAdded) {
     // Keep overall sort roughly stable: same as existing file order, new entries just appended.
+
+    const finalMixIsos = new Set(
+      Array.isArray(mixes)
+        ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+        : []
+    );
+    for (const iso of originalMixIsos) {
+      if (!finalMixIsos.has(iso)) {
+        console.error(
+          "[add-trans-new-guinea-mixer] refusing to write config/language-mixes.json; would drop ISO",
+          iso
+        );
+        return;
+      }
+    }
+
     writeJson("config/language-mixes.json", mixes);
   } else {
     console.log("No new catalog entries added to language-mixes.json");
   }
 
   if (mapsAdded) {
+    const finalMapIsos = new Set(
+      Array.isArray(map)
+        ? map.filter(e => e && e.iso).map(e => String(e.iso))
+        : []
+    );
+    for (const iso of originalMapIsos) {
+      if (!finalMapIsos.has(iso)) {
+        console.error(
+          "[add-trans-new-guinea-mixer] refusing to write config/language-mixer-map.json; would drop ISO",
+          iso
+        );
+        return;
+      }
+    }
+
     writeJson("config/language-mixer-map.json", map);
   } else {
     console.log("No new mappings added to language-mixer-map.json");

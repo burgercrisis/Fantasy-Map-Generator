@@ -127,6 +127,12 @@ function main() {
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
+  const originalIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
 
@@ -177,6 +183,21 @@ function main() {
   if (!updated.length) {
     console.log("No African mappings needed retuning.");
     return;
+  }
+
+  const finalIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  for (const iso of originalIsos) {
+    if (!finalIsos.has(iso)) {
+      console.error(
+        "[retune-african-mappings] refusing to write config/language-mixer-map.json; would drop ISO",
+        iso
+      );
+      return;
+    }
   }
 
   writeJson("config/language-mixer-map.json", map);

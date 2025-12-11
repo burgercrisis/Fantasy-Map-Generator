@@ -667,9 +667,14 @@ async function showHierarchy() {
 
 function recalculateCultures(force) {
   if (force || culturesAutoChange.checked) {
+    if (typeof initializeRacesForExpansion === "function") {
+      initializeRacesForExpansion({forceFilterFromUi: true});
+    }
+
     Cultures.expand();
     drawCultures();
     pack.burgs.forEach(b => (b.culture = pack.cells.culture[b.cell]));
+    if (typeof assignRaces === "function") assignRaces();
     refreshCulturesEditor();
   }
 }

@@ -40,6 +40,12 @@ function main() {
   const snapshot = readJson("tools/mixer-diagnostics/_lost-languages-from-declustering.json");
   const map = readJson("config/language-mixer-map.json");
 
+  const originalIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+
   const lost = Array.isArray(snapshot.languages) ? snapshot.languages : [];
   const existingIsos = new Set();
 
@@ -69,6 +75,21 @@ function main() {
     map.push({iso, bases});
     existingIsos.add(iso);
     added++;
+  }
+
+  const finalIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  for (const iso of originalIsos) {
+    if (!finalIsos.has(iso)) {
+      console.error(
+        "[restore-lost-language-mappings] refusing to write config/language-mixer-map.json; would drop ISO",
+        iso
+      );
+      return;
+    }
   }
 
   writeJson("config/language-mixer-map.json", map);

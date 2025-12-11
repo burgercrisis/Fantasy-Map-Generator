@@ -529,9 +529,16 @@ function regenerateReligions() {
 
 function regenerateCultures() {
   Cultures.generate();
+
+  if (typeof initializeRacesForExpansion === "function") {
+    initializeRacesForExpansion({forceFilterFromUi: true});
+  }
+
   Cultures.expand();
   BurgsAndStates.updateCultures();
   Religions.updateCultures();
+
+  if (typeof assignRaces === "function") assignRaces();
 
   layerIsOn("toggleCultures") ? drawCultures() : toggleCultures();
   refreshAllEditors();

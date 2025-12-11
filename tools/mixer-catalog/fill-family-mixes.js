@@ -157,6 +157,12 @@ function main() {
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
 
+  const originalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
 
@@ -238,6 +244,21 @@ function main() {
     const bk = (b.region || "") + (b.name || "");
     return ak.localeCompare(bk);
   });
+
+  const finalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  for (const iso of originalMixIsos) {
+    if (!finalMixIsos.has(iso)) {
+      console.error(
+        "[fill-family-mixes] refusing to write config/language-mixes.json; would drop ISO",
+        iso
+      );
+      return;
+    }
+  }
 
   writeJson("config/language-mixes.json", mixes);
   console.log("Total added", totalAdded, "updated", totalUpdated);

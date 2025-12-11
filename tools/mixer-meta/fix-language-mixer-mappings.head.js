@@ -1137,6 +1137,12 @@ function main() {
   const mixes = readJson("config/language-mixes.json");
   let map = readJson("config/language-mixer-map.json");
 
+  const originalIsos = new Set(
+    Array.isArray(map)
+      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+
   const namebases = loadNamebases();
 
   function resolveBaseByNameLike(name) {
@@ -1322,6 +1328,20 @@ function main() {
     newEntries.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
 
     const combined = staticEntries.concat(newEntries);
+
+    const combinedIsos = new Set(
+      combined.filter(e => e && e.iso).map(e => String(e.iso))
+    );
+    for (const iso of originalIsos) {
+      if (!combinedIsos.has(iso)) {
+        console.error(
+          "[fix-language-mixer-mappings.head] refusing to write config/language-mixer-map.json; would drop ISO",
+          iso
+        );
+        return;
+      }
+    }
+
     writeJson("config/language-mixer-map.json", combined);
   } else {
     console.log("No new mappings added.");

@@ -208,6 +208,9 @@ const raceLanguageProfiles = {
       "Tucanoan",
       "Arauan",
       "Saliban",
+      "Guahiboan",
+      "Macro-Jê",
+      "Nadahup",
       "Aymaran",
       "Araucanian",
       "Oto-Manguean"
@@ -224,13 +227,24 @@ const raceLanguageProfiles = {
       "Tucanoan",
       "Arauan",
       "Saliban",
+      "Witotoan",
       "Aymaran",
       "Araucanian",
       "Oto-Manguean",
       "Purépecha isolate",
       "Seri isolate",
       "Huave isolate",
-      "Muran"
+      "Camsa isolate",
+      "Cayubaba isolate",
+      "Muran",
+      "Warao",
+      "Yanomaman",
+      "Puinave isolate",
+      "Guahiboan",
+      "Barbacoan",
+      "Macro-Jê",
+      "Nadahup",
+      "Tacanan"
     ]
   },
   Warforged: {
@@ -247,7 +261,10 @@ const raceLanguageProfiles = {
       "Na-Dene",
       "Eskimo–Aleut",
       "Iroquoian",
-      "Misumalpan"
+      "Misumalpan",
+      "Keresan",
+      "Kiowa–Tanoan",
+      "Yuman"
     ],
     families: [
       "Algic",
@@ -258,7 +275,10 @@ const raceLanguageProfiles = {
       "Na-Dene",
       "Eskimo–Aleut",
       "Iroquoian",
-      "Misumalpan"
+      "Misumalpan",
+      "Keresan",
+      "Kiowa–Tanoan",
+      "Yuman"
     ]
   },
   Aarakocra: {
@@ -269,7 +289,8 @@ const raceLanguageProfiles = {
       "Siouan",
       "Algonquian",
       "Na-Dene",
-      "Eskimo–Aleut"
+      "Eskimo–Aleut",
+      "Yuman"
     ],
     families: [
       "Austronesian",
@@ -602,7 +623,6 @@ function getRacesSetFilter(value) {
     case "primal":
       return new Set([
         "Elf",
-        "Dark Elf",
         "Firbolg",
         "Goliath",
         "Lizardfolk",
@@ -622,9 +642,7 @@ function getRacesSetFilter(value) {
         "Tortle",
         "Owlin",
         "Thri-Kreen",
-        "Oni",
-        "Kitsune",
-        "Deepkin"
+        "Kitsune"
       ]);
     case "planar":
       return new Set([
@@ -664,19 +682,16 @@ function getRacesSetFilter(value) {
     case "fey":
       return new Set([
         "Elf",
-        "Dark Elf",
         "Firbolg",
         "Satyr",
         "Harengon",
         "Hexblood",
-        "Shadar-kai",
-        "Aarakocra",
-        "Kenku",
-        "Owlin",
-        "Centaur",
-        "Goliath",
+        "Gnome",
+        "Halfling",
+        "Shifter",
         "Changeling",
-        "Kalashtar",
+        "Centaur",
+        "Owlin",
         "Kitsune"
       ]);
     case "beastfolk":
@@ -719,9 +734,7 @@ function getRacesSetFilter(value) {
         "Dhampir",
         "Reborn",
         "Shadar-kai",
-        "Hexblood",
-        "Dark Elf",
-        "Tiefling"
+        "Hexblood"
       ]);
     default:
       return null;
@@ -805,7 +818,7 @@ function getRaceNameForCulture(culture) {
   return "Human";
 }
 
-function initializeRacesForExpansion() {
+function initializeRacesForExpansion(options) {
   if (!pack || !pack.cultures) return;
   if (!isFantasyCulturesSet()) return;
 
@@ -815,9 +828,11 @@ function initializeRacesForExpansion() {
   const raceColorById = {};
 
   const isFirstInitialization = existingRaces.length <= 1;
+  const forceFilterFromUi = options && options.forceFilterFromUi;
+  const shouldApplyFilter = isFirstInitialization || forceFilterFromUi;
 
   let allowedRaces = null;
-  if (isFirstInitialization) {
+  if (shouldApplyFilter) {
     const racesSetElement = byId("racesSet");
     const racesSetValue = racesSetElement ? racesSetElement.value : "all";
     const racesSetFilter = getRacesSetFilter(racesSetValue);
@@ -863,7 +878,7 @@ function initializeRacesForExpansion() {
 
     let raceName = getRaceNameForCulture(culture);
 
-    if (isFirstInitialization && raceName && raceName !== "Human" && allowedRaces) {
+    if (shouldApplyFilter && raceName && raceName !== "Human" && allowedRaces) {
       if (!allowedRaces.has(raceName)) raceName = "Human";
     }
     let raceId = raceIndexByName.get(raceName);

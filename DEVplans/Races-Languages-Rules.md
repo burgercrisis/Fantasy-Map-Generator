@@ -144,21 +144,24 @@ Interpretation:
 - `getRacesSetFilter(value)` returns a `Set` of **race names** permitted for that theme.
 - Additionally, the `racesNumber` UI field can constrain the **maximum number of non-human races**.
 
-Behavior on first initialization (`initializeRacesForExpansion`):
+Behavior in `initializeRacesForExpansion(options)`:
 
 1. Determine whether this is the **first** race initialization for the world:
    - `isFirstInitialization = existingRaces.length <= 1`.
-2. If first-time:
+2. Compute whether the UI filters should be applied:
+   - `forceFilterFromUi = !!(options && options.forceFilterFromUi)`.
+   - `shouldApplyFilter = isFirstInitialization || forceFilterFromUi`.
+3. If `shouldApplyFilter` is true:
    - Read `racesSet` → optional set of allowed race names.
    - Read `racesNumber` → `maxNonHumanRaces` (or `Infinity` if 0 / not set).
-3. Build `allowedRaces`:
+4. Build `allowedRaces` when `shouldApplyFilter` is true:
    - If a `racesSet` is chosen and `maxNonHumanRaces` is unlimited → `allowedRaces = racesSetFilter`.
    - If `maxNonHumanRaces` is finite:
      - Scan all cultures, compute `raceNeedCounts[raceName]` by counting how many cultures **would** use that race.
      - Sort races by count descending.
      - Keep only the top `maxNonHumanRaces` non-human races.
      - `allowedRaces` becomes that subset.
-4. When assigning a culture’s race **during first initialization**:
+5. When assigning a culture’s race while `shouldApplyFilter` is true:
    - Start from `raceName = getRaceNameForCulture(culture)`.
    - If `raceName` is non-human and not in `allowedRaces` → **forced to `"Human"`**.
 
@@ -167,12 +170,45 @@ Later initializations:
 - Existing `pack.races` entries are preserved (id, name, color, expansionism) and reused.
 - New races are only introduced as needed for cultures that don’t yet have a race entry.
 
+Typical callers:
+
+- **New map generation**: calls `initializeRacesForExpansion()` once during the main pipeline; this is treated as first initialization and therefore always applies the current `racesSet` / `racesNumber` filters.
+- **Races Editor → Recalculate**: calls `initializeRacesForExpansion({forceFilterFromUi: true})` before `Cultures.expand()` and `assignRaces()` so that changes to `racesSet` / `racesNumber` are re-applied.
+- **Tools → Regenerate Cultures**: calls `initializeRacesForExpansion({forceFilterFromUi: true})` between `Cultures.generate()` and `Cultures.expand()`.
+- **Cultures Editor → Recalculate Cultures**: calls `initializeRacesForExpansion({forceFilterFromUi: true})` before `Cultures.expand()` when recalc/auto-apply is triggered.
+
 Result:
 
 - The world ends up with:
-  - A limited, theme-appropriate set of fantasy races (if user constrained them), or
+  - A limited, theme-appropriate set of fantasy races (if the user constrained them), or
   - The full set implied by `fantasyRaceBases`.
 - Human is the fallback and can become the **dominant race** in worlds with few explicit fantasy namebases.
+- `racesSet` / `racesNumber` behave like **locking filters**: once set (and typically locked in the options UI), they are respected by all of the above flows that call `initializeRacesForExpansion`.
+
+### 2.4 QA scenarios for `racesSet` / `racesNumber` and locking
+
+The following smoke tests verify that the `Races set` and `Races number` UI fields (plus their lock icons) are correctly respected across generation and recalc flows:
+
+- **New map generation**
+  - Pick a clearly themed `racesSet` (e.g. `fey`) and a small `racesNumber` (e.g. 3), then lock both controls.
+  - Generate several new maps.
+  - Open the Races Editor and confirm that:
+    - Only races from the chosen set appear as non-human.
+    - The number of distinct non-human races on the map does not exceed `racesNumber`.
+
+- **Races Editor → Recalculate**
+  - On an existing fantasy map, change `racesSet` and/or `racesNumber` to a noticeably different configuration, then lock them.
+  - Open the Races Editor and press **Recalculate**.
+  - Verify that the non-human race list and per-race cell counts update to match the new filter (no "stray" races outside the selected set).
+
+- **Tools → Regenerate Cultures**
+  - With `racesSet` / `racesNumber` set and locked, open the Tools panel and use **Regenerate Cultures**.
+  - After regeneration, confirm in the Races Editor and on the map layer that only allowed races are present and that previously filtered-out races have not reappeared.
+
+- **Cultures Editor → Recalculate Cultures / auto-apply**
+  - With `racesSet` / `racesNumber` configured, open the Cultures Editor.
+  - Enable `auto-apply` or click **Recalculate** after changing expansionism / types.
+  - Confirm that the resulting race distribution still respects the UI filters (no new non-human races outside the chosen set appear).
 
 ---
 
@@ -218,11 +254,10 @@ Usage:
 
 ### 4.1 Assignment entry point: `assignRaces()`
 
-- `assignRaces()` is the main procedure that assigns races across the world.
-- It does:
-  1. Clear existing race data if fantasy races are disabled.
-  2. Initialize races for expansion (`initializeRacesForExpansion`).
-  3. Propagate race ids from cultures to states, provinces, burgs, religions, and cells.
+- `assignRaces()` is the main procedure that **propagates** races across the world.
+- It assumes that `initializeRacesForExpansion` has already built or updated `pack.races` and `culture.race` for the current world (see §2.3), and then:
+  1. Clears existing race data if fantasy races are disabled.
+  2. Propagates race ids from cultures to states, provinces, burgs, religions, and cells.
 
 #### 4.1.1 Clearing when fantasy races are off
 
@@ -551,6 +586,11 @@ This document should be updated whenever:
   - (Current practice): Even extremely small or typologically exotic languages that have their own namebases (like Hadza and Sandawe click bases) should be **fully wired** on the mixer side: each gets a catalog entry, a dedicated base or unique `bases[]` mix, and must still pass global base-uniqueness checks.
   - (Current practice): On the race side, these isolates are attached only to a very small number of thematically appropriate non-human races rather than being added to broad human palettes. For example, `Gnoll` currently includes `Hadza isolate` and `Sandawe isolate` in its `families` filter to surface those click isolates without making them globally common.
   - (Recommendation): Future tiny / fringe isolates that gain dedicated bases should follow the same pattern: fully wired in the mixer, but either left race-unused or attached sparingly to a small set of monster / beastfolk races where the flavor fits, instead of inflating generic race language coverage.
+
+- **Races-set locking & recalc flows**
+  - (Current behavior): `initializeRacesForExpansion(options)` now supports a `forceFilterFromUi` flag that re-applies the current `racesSet` / `racesNumber` filters even after the first initialization. New map generation calls the initializer once with default options; Races Editor **Recalculate**, Tools **Regenerate Cultures**, and Cultures Editor **Recalculate Cultures** all call `initializeRacesForExpansion({forceFilterFromUi: true})` before culture expansion and `assignRaces()`.
+  - (Current behavior): `assignRaces()` no longer calls `initializeRacesForExpansion` internally; it only propagates existing `culture.race` values to states, provinces, burgs, religions, and cells.
+  - (Recommendation): Any future flow that regenerates or substantially reshapes cultures and is expected to respect `racesSet` / `racesNumber` should follow the same pattern: explicitly invoke `initializeRacesForExpansion({forceFilterFromUi: true})` before `Cultures.expand()` and `assignRaces()`, or document why that flow intentionally ignores the filters.
 
 - **Arcana Unearthed race integration**
   - This fork currently wires a small set of **Arcana Unearthed** ancestries as full fantasy races in `modules/races.js`:

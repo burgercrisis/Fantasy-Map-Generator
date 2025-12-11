@@ -55,6 +55,29 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
       - ISOs with **base mapping but no mix entry**.
       - Bases used across **multiple families/regions** (potential style-collapsing hubs).
 
+  - **Language mixer safety invariants (append-only registries)**
+    - As of 2025-12-11, all Node helpers that write `config/language-mixer-map.json` or
+      `config/language-mixes.json` are hardened with "no-drop-ISO" guards:
+      each script snapshots the original ISO set on load and **refuses to write** if any
+      original ISO would be missing in the output.
+    - Combined with the project rule that these JSONs are append-only registries, this
+      makes silent language deletion via helper scripts mechanically impossible; future
+      changes may only add new languages or adjust existing `bases[]` / metadata.
+
+  - **Post-restore + fixer diagnostics snapshot (2025-12-11)**
+    - `merge-language-mixer-from-head` and `restore-lost-language-mappings` now report
+      zero additions needed from HEAD / snapshot: all languages present in git HEAD and
+      in `_lost-languages-from-declustering.json` are present in the current
+      `language-mixer-map.json`.
+    - A one-off guarded run of `fix-language-mixer-mappings.js` on the restored map
+      increased the number of mapped ISOs from 1,538 to 2,303 while preserving the
+      original ISO set (`missing_count=0`, `added_count=765` when comparing before/after
+      snapshots). This confirms the fixer no longer causes ISO loss and only adds or
+      adjusts mappings.
+    - `report-language-mixer-iso-diff-vs-head` confirms there are no ISOs that exist in
+      HEAD but are missing in the current map; the current map is a strict superset of
+      HEAD by construction.
+
   - `softmods/softmod-language-loader.js` + `softmods/test-softmods-languages.js`
     - Node-only softmod prototype for merging extra language bundles from
       `mods/**/languages*.js` on top of an in-memory copy of the canonical
@@ -488,13 +511,9 @@ When this work resumes, a practical order of operations:
    - **Recommended workflow:** For each family or region, perform a **family-by-family uniqueness pass** using `/language-uniqueness` and `/languages-unique2–10` to identify and split shared-base clusters, followed by **targeted cluster cleanup** via `/decluster-language-bases` to address any remaining uniqueness debt.
 
 6. **Grow coverage via Wikipedia language lists**
-   - Use the registry in §8 to track which Wikipedia-derived list JSONs exist and how fully they are wired; when creating a new regional list, add it there and run `report-wikipedia-list-coverage.js` to keep the snapshot fresh.
-   - When extending an existing list (e.g. adding more rows from the underlying Wikipedia tables), update the JSON, re-run coverage, and refresh the corresponding §8.x snapshot so future passes know exactly which lists are fully wired.
+   - Use the registry in §8 as the single source of truth for which Wikipedia-derived list JSONs exist, how to re-run `report-wikipedia-list-coverage.js` / `update-wikipedia-list-coverage-in-devplan.js`, and what "fully represented" means.
+   - When creating or extending a regional list JSON, update it, re-run coverage, and refresh the corresponding §8.x snapshot so future passes know exactly which lists are fully wired.
    - Treat each new language with the same per-language rigor (seed curation, base choice, `min/max/d` tuning, and mixer-map QA); avoid bulk-adding large blocks of languages onto a single hub base without review.
-   - For each language that appears in a Wikipedia-derived list JSON, **"fully represented"** in this devplan means all of the following are true:
-     - **Catalog & mixer presence:** it has a `config/language-mixes.json` catalog entry (with region/family/category metadata and a `wikipedia` URL where applicable) and a corresponding `config/language-mixer-map.json` entry.
-     - **Base uniqueness:** its `bases[]` array in `language-mixer-map.json` is globally unique (subject only to explicitly documented historical exceptions such as the Uralic base‑9 Finnic/Volgaic cluster in §2.2) and does not participate in any remaining accidental shared-base clusters surfaced by `tools/mixer-core/report-language-mixer-base-clusters.js` and the `/languages-unique*` workflows.
-     - **Race reachability:** at least one non‑Human race can reach the language via `raceLanguageProfiles` (see [Races & Languages – System Rules §5.2–§5.3](Races-Languages-Rules.md#52-race-language-profiles-racelanguageprofiles)), as reported by the mixer‑races tools (`tools/mixer-races/report-race-language-coverage.js`, `tools/mixer-races/report-per-race-language-coverage.js`, and related helpers).
 
 ---
 
@@ -623,12 +642,11 @@ These are higher-level tools and helpers that sit on top of the existing Markov 
 
 ## 8. Wikipedia language list coverage registry
 
-This section tracks the specific Wikipedia-derived language lists that currently drive language catalog and mixer coverage. For each list we record where its JSON lives, the source URL, which parts of the language system it primarily informs, and how to re-run the wiring and base-uniqueness scripts.
+This section tracks the Wikipedia-derived language lists that drive language catalog and mixer coverage. For each list we record its JSON path, source URL, what part of the system it informs, and how to re-run the coverage / base-uniqueness helpers. The registry also notes **planned** list JSONs so regional coverage goals stay visible before the corresponding files exist.
 
-This registry also notes **planned future list JSONs** (marked as such) so regional coverage goals stay visible even before the corresponding files are created.
+Coverage numbers and completion tiers are refreshed by `tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js`; do **not** hand-edit the per-list `Snapshot from last run` blocks. Per-list base-uniqueness can be summarized via `tools/mixer-core/report-wikipedia-list-base-uniqueness.js`. See [§5.6 Grow coverage via Wikipedia language lists](#5-planned-next-steps-when-resuming) for the precise definition of "fully represented" across **catalog presence**, **mixer-map wiring and base uniqueness**, and **race reachability**.
 
-Coverage numbers and completion tiers are refreshed by running `tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js` against the canonical full-list JSON for each article; do **not** hand-edit the per-list `Snapshot from last run` blocks. Base-set uniqueness per list can be summarized via `tools/mixer-core/report-wikipedia-list-base-uniqueness.js`. See [§5.6 Grow coverage via Wikipedia language lists](#5-planned-next-steps-when-resuming) for the precise definition of "fully represented" across **catalog presence**, **mixer-map wiring and base uniqueness**, and **race reachability**.
-In this project, coverage for a list JSON is computed over **all** of its in-scope items; `skip: true` is reserved for global exceptions such as sign languages and truly unreconstructible extinct entries, which are excluded from coverage percentages. Per-language base-uniqueness and race-coverage status are enforced and inspected via the global mixer and race tools described elsewhere in this document (including the base-cluster diagnostics and the new per-list base-uniqueness helper), rather than being repeated per list in §8. Snapshot blocks for each list may optionally include `unique bases` / `clustered bases` counts copied from `report-wikipedia-list-base-uniqueness.js` alongside the existing wiring legend.
+In this project, coverage for a list JSON is computed over **all** in-scope items; `skip: true` is reserved for global exceptions such as sign languages and truly unreconstructible extinct entries, which are excluded from coverage percentages. Base-uniqueness and race-coverage status are enforced via the global mixer and race tools described elsewhere in this document (including the base-cluster diagnostics and the per-list base-uniqueness helper) rather than being repeated per list in §8. Snapshot blocks may optionally include `unique bases` / `clustered bases` counts from `report-wikipedia-list-base-uniqueness.js` and/or a `Nonunique Bases` line produced by the coverage helpers (`report-wikipedia-list-coverage.js` / `update-wikipedia-list-coverage-in-devplan.js`), alongside the existing wiring legend.
 
 ### 8.1 Languages of Africa – major languages subset
 
@@ -655,13 +673,13 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 - **Status tier:** **In progress (full table)** – this JSON tracks **every language row** from the Wikipedia table; coverage and base-uniqueness snapshots for this full list should be refreshed after each major African mixer pass.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 249
+  - `fully wired:` 277
   - `missing catalog:` 0
-  - `missing map:` 28
+  - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 273
+  - `Nonunique Bases:` 272
 
 - **Notes / next steps:**
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
@@ -688,6 +706,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 151
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -714,6 +733,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 8
 
 - **Notes / next steps:**
   - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
@@ -737,6 +757,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 14
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
@@ -756,12 +777,13 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 50
+  - `fully wired:` 87
   - `missing catalog:` 0
-  - `missing map:` 23
+  - `missing map:` 26
   - `missing both:` 0
-  - `unmatched:` 170
+  - `unmatched:` 130
   - `ambiguous:` 0
+  - `Nonunique Bases:` 233
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -788,6 +810,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 22
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
@@ -808,12 +831,13 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 102
+  - `fully wired:` 122
   - `missing catalog:` 0
-  - `missing map:` 5
+  - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 67
-  - `ambiguous:` 1
+  - `unmatched:` 53
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 153
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
@@ -840,6 +864,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 10
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-west-asia.json`
@@ -866,6 +891,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 9
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-north-america.json`
@@ -877,6 +903,130 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 ### 8.10 Languages of Southeast Asia – regional subset
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-southeast-asia.json`
+
+### 8.11 Languages of Asia – official languages table
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-asia-official-languages.json`
+- **Title:** `Wikipedia: Languages of Asia – official languages table`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Asia>
+- **Scope:** Snapshot of the country-level official-languages table from the "Languages of Asia" article. Each distinct official or co-official language name in the table appears once in this JSON as a checklist entry, without attempting to re-encode per-country status.
+- **Primary families / regions touched:** Pan-Asian macro coverage (Indo-European, Afroasiatic, Turkic, Dravidian, Sino-Tibetan, Austroasiatic, Austronesian, Koreanic, Japonic, etc.), overlapping with the global speaker-count lists (§8.2–§8.3) and the South Asia / East Asia mixer work in §2.7 and §2.9.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-asia-official-languages.json`
+
+- **Status tier:** **In progress (full table)** – this JSON tracks every language row from the Asia official-languages table; coverage snapshots should be refreshed after each major Asia mixer pass.
+
+### 8.12 East Asian languages – classification proposals (macro helper)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-east-asian-languages-classifications.json`
+- **Title:** `Wikipedia: East Asian languages – classification proposals`
+- **Source:** <https://en.wikipedia.org/wiki/East_Asian_languages>
+- **Scope:** Macro-family and proposal-level nodes (Starosta, van Driem, Larish, and related Sino-Austronesian/Formosan branches) from the "East Asian languages" article. All rows are marked `skip: true` and serve purely as a typological map over families and proposed macro-groups; they are not counted as coverage items.
+- **Primary families / regions touched:** East Asian macro zone (Sino-Tibetan, Austroasiatic, Austronesian, Kra–Dai, Hmong–Mien, Koreanic, Japonic) plus Formosan branch labels and Sino-Austronesian proposals; complements the concrete Formosan helpers and East Asia mixer notes in §2.7.
+
+- **Coverage / uniqueness role:** **Classification-only helper** – used as a structural index and for human reasoning about macro proposals. All concrete language names referenced here are backed by non-skip helpers (Formosan lists and the Gongduk helper in §8.19); this JSON itself is excluded from coverage percentages and base-uniqueness targets.
+
+### 8.13 Languages of China – spoken languages snapshot
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json`
+- **Title:** `Wikipedia: Languages of China – spoken languages snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_China>
+- **Scope:** Full snapshot of the "Spoken languages" section in the "Languages of China" article, including families, branches, and named lects (Sinitic varieties, Tibeto-Burman branches, Turkic, Mongolic, Tungusic, Koreanic, Indo-European, Formosan, Tsat, etc.). Each family/branch or named language in that section appears once as a row.
+- **Primary families / regions touched:** East and Inner Asia (Sino-Tibetan, Turkic, Mongolic, Tungusic, Koreanic, Indo-European, Austronesian, plus Formosan and mixed lects) as actually spoken in China; ties into the East Asia bases in §2.7.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json`
+
+- **Status tier:** **In progress (full section)** – this JSON mirrors every row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
+
+### 8.14 Languages of Bangladesh – regional snapshot
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-bangladesh.json`
+- **Title:** `Wikipedia: Languages of Bangladesh – Indo-Aryan and non-Indo-Aryan snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Bangladesh>
+- **Scope:** Snapshot of the detailed Indo-Aryan and non-Indo-Aryan language sections from the "Languages of Bangladesh" article, including Bengali-branch standards, tribal Indo-Aryan lects, Austroasiatic, Dravidian, and Tibeto-Burman languages explicitly listed there.
+- **Primary families / regions touched:** South Asia (Indo-Aryan, Austroasiatic, Dravidian, Tibeto-Burman) as realized in Bangladesh; complements §2.9 and the South Asia regional list in §8.4.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-bangladesh.json`
+
+- **Status tier:** **In progress (full section)** – this JSON encodes every language row from the Bangladesh article’s language listings; use it to track Bangladesh-specific coverage and base-uniqueness.
+
+### 8.15 Languages of India – census tables snapshot
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-india-census.json`
+- **Title:** `Wikipedia: Languages of India – census tables snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_India>
+- **Scope:** Name-only snapshot of the languages and mother tongues enumerated in the 2011 Census tables in the "Languages of India" article (first/second/third-language counts and the detailed mother-tongue tables). Each distinct language or mother-tongue name in those excerpts appears once in this JSON.
+- **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, Tibeto-Burman, Austroasiatic, and contact varieties) as represented in the Indian census; complements §2.9 and the South Asia regional subset in §8.4, but follows the census rather than the regional overview groupings.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-india-census.json`
+
+- **Status tier:** **In progress (full table)** – use this JSON as the authoritative snapshot for the India census excerpt; refresh coverage snapshots after adding new catalog/mixer entries for Indian census languages.
+
+### 8.16 Languages of Nepal – census tables snapshot
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-nepal-census.json`
+- **Title:** `Wikipedia: Languages of Nepal – census tables snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Nepal>
+- **Scope:** Snapshot of the 2011 and 2021 census tables in the "Languages of Nepal" article, including both first-language and second-language tables. Each language or mother-tongue name in the pasted census tables appears once as a row.
+- **Primary families / regions touched:** Himalayan South Asia (Indo-Aryan, Tibeto-Burman, Austroasiatic, Dravidian, and contact varieties) in Nepal; complements the Nepal-related notes under §2.9 and §2.7.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-nepal-census.json`
+
+- **Status tier:** **In progress (full table)** – treat this JSON as the canonical representation of the Nepal census excerpt; use coverage reports to drive catalog/mixer additions for under-documented Nepali languages.
+
+### 8.17 Languages of Pakistan – established languages table
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-pakistan-established.json`
+- **Title:** `Wikipedia: Languages of Pakistan – established languages`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Pakistan>
+- **Scope:** Snapshot of the "Established languages" table from the "Languages of Pakistan" article. Each named established language or variety in that table appears once as an item; province-level breakdown is not repeated in the JSON.
+- **Primary families / regions touched:** West and South Asia (Indo-Aryan, Iranian, Dravidian, Turkic, Sino-Tibetan, and isolates) as realized in Pakistan; complements §8.8 and the South Asia work in §2.9.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-pakistan-established.json`
+
+- **Status tier:** **In progress (full table)** – use this JSON as the authoritative representation of the Pakistan "Established languages" table and as a checklist for ensuring each such lect is represented in the catalog and mixer-map.
+
+### 8.18 Global language families – macro classification snapshot
+
+- **JSON file:** `tools/mixer-meta/wikipedia-language-families-global.json`
+- **Title:** `Wikipedia: List of language families – global snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_language_families>
+- **Scope:** Macro-family list derived from the global "List of language families" article. Each row in the spoken-language-families table is represented once as a `skip: true` classification item in this JSON; no member languages are enumerated here.
+- **Primary families / regions touched:** All major language families across Africa, Eurasia, the Americas, and Oceania (Afroasiatic, Niger–Congo branches, Nilo-Saharan groupings, Indo-European, Uralic, Turkic, Sino-Tibetan, Austronesian, Papuan groupings, Pama–Nyungan, American families, etc.).
+
+- **Coverage / uniqueness role:** **Classification-only helper** – used as a global macro-family index. Since it encodes families rather than languages, it is excluded from coverage percentages and base-uniqueness targets; concrete languages are tracked via the per-region and per-family helpers elsewhere in §8.
+
+### 8.19 Gongduk language – Bhutan Sino-Tibetan microfamily sentinel
+
+- **JSON file:** `tools/mixer-meta/wikipedia-gongduk-language.json`
+- **Title:** `Wikipedia: Gongduk language – Bhutan Sino-Tibetan microfamily representative`
+- **Source:** <https://en.wikipedia.org/wiki/Gongduk_language>
+- **Scope:** Singleton helper for the Gongduk language of Bhutan, used as a concrete representative for the Gongduk microfamily referenced in East Asian/Sino-Tibetan classification proposals.
+- **Primary families / regions touched:** Sino-Tibetan / East Himalayan fringe; complements the East Asian classification helper in §8.12 and the East Asia coverage in §2.7.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-gongduk-language.json`
+
+- **Status tier:** **In progress (single-language helper)** – coverage here is trivial but this JSON ensures Gongduk is treated as a concrete language row, not just a classification-only node.
+
+### 8.20 Malayo-Polynesian & Oceanic named languages – Blust (1999) snapshot
+
+- **JSON file:** `tools/mixer-meta/wikipedia-malayo-polynesian-oceanic-languages-blust-1999.json`
+- **Title:** `Wikipedia: Malayo-Polynesian and Oceanic named languages – Blust (1999) snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/Malayo-Polynesian_languages>; <https://en.wikipedia.org/wiki/Oceanic_languages>
+- **Scope:** Small helper listing the explicitly named languages that appear inside the Blust (1999) Malayo-Polynesian and Oceanic subgroup trees (e.g. Umiray Dumaget, Manide–Alabat, Ati, Klata, Enggano, Rejang, Sundanese, Javanese, Madurese, Palauan, Chamorro, Kowiai, Yapese, Rotuman). These rows back the skip-marked Blust subgroup JSONs so that each named language also has a non-skip helper entry.
+- **Primary families / regions touched:** Malayo-Polynesian and Oceanic Austronesian coverage in Island Southeast Asia and the Pacific; complements the Oceania regional subset in §8.6 and the Austronesian work in §2.12.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-malayo-polynesian-oceanic-languages-blust-1999.json`
+
+- **Status tier:** **In progress (named-language subset)** – this helper exists to ensure that languages mentioned only in classification trees are still represented as normal coverage items.
 
 ### 8.31 Uralic languages – seed subset (historical view)
 
@@ -901,13 +1051,13 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 86
+  - `fully wired:` 44
   - `missing catalog:` 0
-  - `missing map:` 77
+  - `missing map:` 139
   - `missing both:` 0
-  - `unmatched:` 76
+  - `unmatched:` 74
   - `ambiguous:` 0
-  - `Nonunique Bases:` 239
+  - `Nonunique Bases:` 257
 
 ### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
 
@@ -942,9 +1092,9 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all named English-based pidgins in the current article. It is a typological driver for English-lexifier contact coverage and does not override the global uniqueness rules for bases.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 13
+  - `fully wired:` 14
   - `missing catalog:` 0
-  - `missing map:` 17
+  - `missing map:` 16
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
@@ -973,12 +1123,13 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 
 - **Status tier:** **In progress (full article)** – this JSON tracks every language row in the current Wikipedia phoneme-count list; since it is typological, there is no separate uniqueness-target here beyond the global base-uniqueness rules.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 16
+  - `fully wired:` 39
   - `missing catalog:` 0
-  - `missing map:` 19
+  - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 37
+  - `unmatched:` 33
   - `ambiguous:` 0
+  - `Nonunique Bases:` 62
 
 ### 8.34 Mutually intelligible languages – seed subset (view over full list)
 
@@ -1003,12 +1154,13 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all languages mentioned in the current mutual-intelligibility list; uniqueness decisions still follow the global base-uniqueness rules, with this list acting as a reminder where near-identical bases or mixes may be justified.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 64
+  - `fully wired:` 75
   - `missing catalog:` 0
-  - `missing map:` 4
+  - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 37
-  - `ambiguous:` 2
+  - `unmatched:` 32
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 93
 
 ### 8.35 Official languages by institution – seed subset (view over full list)
 
@@ -1039,6 +1191,7 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
+  - `Nonunique Bases:` 30
 
 ### 8.37 Lingua francas – full article list
 
@@ -1053,9 +1206,10 @@ In this project, coverage for a list JSON is computed over **all** of its in-sco
 
 - **Status tier:** **In progress (full article)** – this JSON tracks every language heading in the `List of lingua francas` article. Sign languages (e.g. Plains Sign Language / "Hand Talk") are present in the JSON as `skip: true` entries and are excluded from coverage percentages per the global sign-language exception.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 49
+  - `fully wired:` 55
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 21
-  - `ambiguous:` 1
+  - `unmatched:` 16
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 63

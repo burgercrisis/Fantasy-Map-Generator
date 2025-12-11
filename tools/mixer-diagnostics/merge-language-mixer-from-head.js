@@ -43,9 +43,11 @@ function main() {
   }
 
   const byIsoCurrent = new Map();
+  const originalIsos = new Set();
   for (const entry of current) {
     if (!entry || !entry.iso) continue;
     const iso = String(entry.iso);
+    originalIsos.add(iso);
     if (!byIsoCurrent.has(iso)) byIsoCurrent.set(iso, entry);
   }
 
@@ -57,6 +59,21 @@ function main() {
     current.push(entry);
     byIsoCurrent.set(iso, entry);
     added++;
+  }
+
+  const finalIsos = new Set();
+  for (const entry of current) {
+    if (!entry || !entry.iso) continue;
+    finalIsos.add(String(entry.iso));
+  }
+  for (const iso of originalIsos) {
+    if (!finalIsos.has(iso)) {
+      console.error(
+        "[merge-language-mixer-from-head] refusing to write config/language-mixer-map.json; would drop ISO",
+        iso
+      );
+      return;
+    }
   }
 
   const outPath = path.join(root, rel);

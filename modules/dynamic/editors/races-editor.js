@@ -384,6 +384,10 @@ async function uploadRacesData() {
 }
 
 function recalculateRaces() {
+  if (typeof initializeRacesForExpansion === "function") {
+    initializeRacesForExpansion({forceFilterFromUi: true});
+  }
+
   Cultures.expand();
   drawCultures();
 
@@ -394,7 +398,8 @@ function recalculateRaces() {
     });
   }
 
-  updateCellRacesFromCultures();
+  if (typeof assignRaces === "function") assignRaces();
+  else updateCellRacesFromCultures();
 
   const stats = collectRaceStatistics();
   racesEditorAddLines(stats);
