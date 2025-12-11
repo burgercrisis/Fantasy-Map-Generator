@@ -1,7 +1,7 @@
 # Language System Status – Markov & Mixer
 _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
 
- _Last updated: Worker 2–3 shared-base cleanup passes (Romance, Papuan/Oceania, Afroasiatic, South Asia, West Asia, English-based creoles, SE Asia base-29) + Worker 4 /languages-unique4 batch #3 (Mongolic/Koreanic + Baltic/Slavic micro-clusters) + Worker 6 /languages-unique6 batch (SE Asia 29/Bahnaric + South-Central Dravidian + South Slavic micro-cluster) + Worker 7 /languages-unique7 batch (Papuan macros + Romance/Celtic micro-cluster) + Worker 8 /languages-unique8 batch (Bantu Bemba/Bembe/Fwe, South-Central Dravidian 376, North Dravidian/Brahui 388, Papuan [195,360] macros; non-Uralic base clusters fully resolved) + Worker 9 Algic / Basque contact & Eastern Indonesian / Papuan Tip micro-pass + Worker 9 /languages-unique9 continuation batch (South-Central Dravidian 376/387 + Philippine [193,195] trio + Papuan 360/195 macro hubs + small Indo-Aryan/Creole splits) – 2025-12-10_
+ _Last updated: Worker 2–3 shared-base cleanup passes (Romance, Papuan/Oceania, Afroasiatic, South Asia, West Asia, English-based creoles, SE Asia base-29) + Worker 4 /languages-unique4 batch #3 (Mongolic/Koreanic + Baltic/Slavic micro-clusters) + Worker 5 /languages-unique5 pass (Hausa/Chadic base-132 cluster + Pan-African 112–156 cleanup) + Worker 6 /languages-unique6 batch (SE Asia 29/Bahnaric + South-Central Dravidian + South Slavic micro-cluster) + Worker 7 /languages-unique7 batch (Papuan macros + Romance/Celtic micro-cluster) + Worker 8 /languages-unique8 batch (Bantu Bemba/Bembe/Fwe, South-Central Dravidian 376, North Dravidian/Brahui 388, Papuan [195,360] macros; non-Uralic base clusters fully resolved) + Worker 9 Algic / Basque contact & Eastern Indonesian / Papuan Tip micro-pass + Worker 9 /languages-unique9 continuation batch (South-Central Dravidian 376/387 + Philippine [193,195] trio + Papuan 360/195 macro hubs + small Indo-Aryan/Creole splits) + `/decluster-language-bases` Aslian/Malay [195] micro-pass + Wikipedia §8.2 native-speakers seed subset batch‑1 wiring (all list items fully wired; per-list base-uniqueness clean except Uralic [9] macro cluster and a small Swedish `swe` cluster-of-three) – 2025-12-10_
 
 This document captures where the language system work currently stands so this project can be picked up later without re‑reverse‑engineering everything. It assumes the core design goal that **every language entry** ultimately has its own linguistically and regionally appropriate **dedicated base** in the namebase/mixer layer (a single-base `[X]` array for normal, non-hybrid languages) or, where the language is genuinely hybrid / creole / mixed, a **unique tuned mix**. Any present-day sharing of identical bases or `[bases]` arrays is treated as **temporary per-language uniqueness debt**, not an acceptable end state, and paying that debt down will routinely involve **introducing new bases and splitting over-broad hubs** rather than leaving long-term shared clusters in place. [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) describes how that goal is consumed on the race side.
 
@@ -54,6 +54,17 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
       - ISOs with **mix entry but no base mapping**.
       - ISOs with **base mapping but no mix entry**.
       - Bases used across **multiple families/regions** (potential style-collapsing hubs).
+
+  - `softmods/softmod-language-loader.js` + `softmods/test-softmods-languages.js`
+    - Node-only softmod prototype for merging extra language bundles from
+      `mods/**/languages*.js` on top of an in-memory copy of the canonical
+      catalog and mixer-map.
+    - Currently exercised with a **Blue Rose** dummy bundle
+      (`mods/blue-rose/languages-blue-rose.js`) and an **Arcana Unearthed**
+      bundle (`mods/arcana-unearthed/languages-au.js`).
+    - These softmod bundles are kept out of `language-mixes.json` /
+      `language-mixer-map.json` and do **not** affect coverage percentages or
+      base-uniqueness metrics; they are purely local experiments.
 
  These tools are the main entry points for future tuning passes.
 
@@ -251,6 +262,46 @@ Changes applied in `language-mixer-map.json`:
   - `kongo`, `luganda`, `chichewa`, and `kikuyu` previously also had trailing Swahili-28 mappings in addition to their dedicated bases **153 (Kongo)**, **154 (Luganda)**, **155 (Chichewa)**, **156 (Kikuyu)**.
   - These Swahili duplicates have now been removed so they consistently use only their own Bantu bases, with shared settings `min=4, max=12, d="lnrt"` and city seeds drawn from their respective core regions.
 
+- Post-coverage wiring for additional African lects:
+  - **Sekele** (`sekele`, Kx'a / Northern ǃKung) now maps to a dedicated Kx'a click blend `[353,354]`, alongside **Ekoka ǃKung** (`ekoka-kung` → `[353]`) and **ǂ’Amkoe** (`amkoe` → `[355]`), and distinct from the pure **Taa** / **Nǁng** / **Nama** / **Naro** click bases `[356–359,361]`.
+  - **Sena** (`sena`, Bantu; Mozambique/Malawi) now has a unique Southeastern Bantu mix `[148,155]` anchored on **Shona (148)** and **Chichewa (155)** rather than riding on a generic Swahili or undifferentiated Pan-African hub.
+  - **Tumbuka** (`tumbuka`, Bantu; Malawi/Zambia) now uses a SE Bantu/Zambezi blend `[155,377]` combining **Chichewa (155)** with the regional **Bemba–Bembe–Fwe** cluster base **377**, reflecting its close ties to Chichewa and neighboring Zambian lects.
+  - **Tonga (Zimbabwe, Zambia, and Mozambique)** (`tonga-zimbabwe-zambia-and-mozambique`) now has a Southern/Zambezi Bantu mix `[148,149,377]` tying **Shona (148)** and **Zulu (149)** into the **Bemba–Bembe–Fwe** basin **377**.
+  - **Tonga (Mozambique)** (`tonga-mozambique`) now uses `[148,149,155]`, blending **Shona (148)** and **Zulu (149)** with **Chichewa (155)** to reflect its SE Mozambique contact zone.
+  - **Tonga (Malawi)** (`tonga-malawi`) now uses `[148,155,377]`, emphasizing **Shona (148)**, **Chichewa (155)**, and the **Bemba–Bembe–Fwe** cluster **377** across the Malawi–Zambia corridor.
+  - **Soli** (`soli`, Botatwe Bantu; Zambia) now has `[149,155,377]`, a Botatwe/Zambezi blend over **Zulu (149)**, **Chichewa (155)**, and **Bemba–Bembe–Fwe (377)** alongside neighboring Tonga and Tumbuka.
+  - **Tswa** (`tswa`, Tswa–Ronga Bantu; Mozambique) now uses `[148,150,152]`, a Tswa–Ronga SE Bantu mix anchored on **Shona (148)** plus **Xhosa (150)** and **Tswana (152)**.
+  - **Tsonga or Xitsonga** (`tsonga-or-xitsonga`, Tswa–Ronga Bantu; Mozambique/South Africa) now uses `[149,150,152]`, a slightly more Nguni-leaning Tswa–Ronga blend combining **Zulu (149)**, **Xhosa (150)**, and **Tswana (152)**.
+  - **Swazi** (`swazi`, Nguni Bantu; Eswatini/South Africa) now has `[149,150]`, a compact Nguni mix over **Zulu (149)** and **Xhosa (150)**.
+  - **Southern Ndebele** (`southern-ndebele`, Nguni Bantu; South Africa) now uses `[149,151]`, reflecting a Zulu–Sesotho contact blend.
+  - **Sumayela Ndebele** (`sumayela-ndebele`, Nguni Bantu; South Africa) now uses `[149,152]`, a Zulu–Tswana-flavored Nguni mix.
+  - **Sotho** (`sotho`, Sotho-Tswana Bantu; Southern Africa) now has `[151,152]`, a macro-Sotho mix spanning **Sesotho (151)** and **Tswana (152)**.
+  - **Sepedi** (`sepedi`, Northern Sotho/Pedi; South Africa) now uses `[149,151,152]`, adding a Zulu contact component to the core Sotho–Tswana band.
+  - **Setlôkwa** (`setlokwa`, Sotho-Tswana Bantu; South Africa/Botswana) now uses `[150,151,152]`, a slightly more eastern Sotho–Tswana blend incorporating **Xhosa (150)**.
+  - **Totela** (`totela`, Lozi-related Bantu; Namibia/Zambia) now uses `[149,152,377]`, a Zambezi blend combining **Zulu (149)**, **Tswana (152)**, and the regional **Bemba–Bembe–Fwe** basin base **377**.
+  - **Tshiluba / Luba-Kasai** (`tshiluba`, DRC Bantu) now uses `[146,153]`, a Congolese mix anchored on **Lingala (146)** and **Kongo (153)**.
+  - **Umbundu** (`umbundu`, South Mbundu Bantu; Angola) now uses `[146,149,153]`, bridging **Lingala/Kongo (146/153)** with a southern Bantu component **Zulu (149)**.
+  - **Venda / Tshivenda** (`venda` / `tshivenda`, Southern Bantu; South Africa/Zimbabwe) now use `[148,151,152]`, a Venda–Sotho–Shona mix combining **Shona (148)** with the **Sesotho/Tswana (151/152)** band.
+  - **Suku** (`suku`, Yaka-branch Bantu; DRC) now uses `[146,153,377]`, tying the **Lingala/Kongo (146/153)** zone into the **Bemba–Bembe–Fwe (377)** basin.
+  - **Shi / Mashi** (`shi`, South Kivu Bantu; DRC) now uses `[146,147,153]`, a Great Lakes–Congo mix over **Lingala (146)**, **Kinyarwanda (147)**, and **Kongo (153)**.
+  - **Shanjo** (`shanjo`, Zambia Bantu) now uses `[148,152,377]`, a Zambezi blend over **Shona (148)**, **Tswana (152)**, and **Bemba–Bembe–Fwe (377)**.
+  - **Simaa** (`simaa`, Kavango–Southwest Bantu; Zambia) now uses `[148,151,377]`, linking **Shona (148)** and **Sesotho (151)** into the **Bemba–Bembe–Fwe (377)** corridor.
+  - **Yeyi** (`yeyi`, Okavango Bantu with clicks; Namibia/Botswana) now uses `[152,353,358]`, combining **Tswana (152)** with **Kx'a Click A (353)** and **Nama Click (358)** to reflect its Bantu-with-clicks profile.
+  - **Zemba / Dhimba** (`zemba`, Herero-related Bantu; Angola/Namibia) now uses `[149,153,377]`, a southwestern Bantu blend tying **Zulu (149)**, **Kongo (153)**, and the **Bemba–Bembe–Fwe (377)** basin.
+  - **Songhoyboro Ciine** (`songhoyboro-ciine`, Southern Songhay; Niger) now uses `[277,132]`, a Sahelian mix anchored on **Zarma Songhay (277)** with a strong **Hausa (132)** contact component.
+  - **Tadaksahak** (`tadaksahak`, Northern Songhay; Mali/Niger) now uses `[277,18,132]`, blending **Zarma Songhay (277)** with **Maghrebi Arabic (18)** and **Hausa (132)** to reflect its Tuareg/Arabic contact.
+  - **Tasawaq** (`tasawaq`, Northern Songhay; Niger) now uses `[277,18]`, a Songhay–Arabic mix over **Zarma (277)** and **Maghrebi Arabic (18)**.
+  - **Tagdal** (`tagdal`, Northern Songhay; Niger) now uses `[277,18,17]`, a more Berber-leaning Northern Songhay blend combining **Zarma (277)** with **Maghrebi Arabic (18,17)**.
+  - **Susu** (`susu`, coastal Mande; Guinea/Sierra Leone) now uses `[112,277]`, a coastal trade mix anchored on **Yoruba (112)** with a **Zarma Songhay (277)** Sahel influence.
+  - **Supyire** (`supyire`, Northern Senufo; Mali) now uses `[112,132,277]`, reflecting **Yoruba (112)** + **Hausa (132)** + **Zarma (277)** contact in the northern Senufo zone.
+  - **Twi / Akan** (`twi`, Akan dialect cluster; Ghana) now uses `[112,113,277]`, a Ghanaian macro-mix combining **Yoruba (112)**, **Igbo (113)**, and a lighter **Zarma (277)** Sahel component.
+  - **Yalunka** (`yalunka`, Mande; Guinea/Sierra Leone/Mali/Senegal) now uses `[113,277]`, a Mande/Sahel mix over **Igbo (113)** and **Zarma Songhay (277)**, paralleling its close relationship with Susu.
+
+  - **South Banda** (`south-banda`, Banda/Ubangian; CAR/DRC) now uses `[297,146]`, mixing **Sango (297)** with **Lingala (146)**.
+  - **West Banda** (`west-banda`, Banda/Ubangian; CAR) now uses `[297,153]`, mixing **Sango (297)** with **Kongo (153)**.
+  - **Wongo** (`wongo`, Bantu; DRC) now uses `[146,152,153]`, a central Bantu blend over **Lingala (146)**, **Tswana (152)**, and **Kongo (153)**.
+  - **Wushi** (`wushi`, Grassfields Bantu; Cameroon) now uses `[112,146,152]`, tying **Yoruba (112)** into a **Lingala (146)** + **Tswana (152)** central/hinterland band.
+
 Takeaway:
 
 - A core set of major Sub-Saharan languages (Yoruba, Igbo, Somali, Amharic, Lingala, Kinyarwanda, Shona, Zulu, Xhosa, Sesotho, Tswana, **Kongo, Luganda, Chichewa, Kikuyu**) now each have **dedicated, well-anchored bases** with sensible length bands.
@@ -319,8 +370,6 @@ Representative clusters addressed so far (using `report-language-mixer-base-clus
 
 - **Worker‑4 tail micro-batch (Na‑Dene / Irish Gaelic / Seri):** the final `/languages-unique4` micro-pass cleaned up the remaining `[383]` / `[394]` duplicates by (a) keeping **Irish** `gle` as the canonical pure `[394]` Celtic entry while moving **Seri** off `[394]` onto a Seri‑anchored Mesoamerican mix `[396,14]` (Seri base 396 plus Nahuatl 14), and (b) giving **Navajo** a Na‑Dene–Mesoamerican contact mix `[383,14]` so that the Almosan/Na‑Dene cluster now consists of unique combinations `[383]` (Athabaskan macro), `[19,383]` (Almosan), `[19,275,383]` (Inuktitut `iku`), and `[383,14]` (Navajo) instead of sharing a bare `[383]` key.
 
-- **Worker‑6 shared-base cleanup (/languages-unique6 – SE Asia 29/Bahnaric + South-Central Dravidian + South Slavic micro-cluster):** targeted the sixth duplicate-base batch from `select-language-mixer-base-batch` by (a) de-clustering the SE Asia base‑29 / Bahnaric / Munda tail so that **Malayo‑Chamic** now rides a unique Austronesian mix `[29,194,195,367]` and **Santali** (`sat`) and **Jru’ Bahnaric** (`jru-bahnaric`) use distinct 29‑anchored `[29,195,251]` and `[29,193,194,251]` combinations instead of sharing `[29,194,195]`; (b) giving **Chenchu** a South‑Central Dravidian mix `[374,387]` instead of pure `[387]`, consistent with the `[199/253/254/255/372–375/387]` Dravidian palette; and (c) nudging the South Slavic BCS cluster so **Serbian** now uses `[315,316]` and **Croatian** uses `[314,315,316]` while `serbo-croatian` remains the sole pure‑`[316]` macro anchor.
-
 - **SE Asia 29/Bahnaric follow-up micro-batch (post `/languages-unique6`):** extended the SE Asia base‑29 cleanup by de-clustering the remaining Bahnaric tail so that **Halang** (`halang-bahnaric`) now uses `[29,193,251,367]` and **Kaco'** (`kaco-bahnaric`) now uses `[29,194,251,367]`, leaving `mnw`, `duan-bahnaric`, `jeh-bahnaric`, `jru-bahnaric`, and `juk-bahnaric` on distinct 29‑anchored mixes and eliminating the last `[29,193,251]` / `[29,194,195,251]` duplicates in that cluster.
 
 Takeaway:
@@ -328,11 +377,7 @@ Takeaway:
 - The high-level rule from [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) is now being enforced family-by-family: shared `[bases]` arrays are treated as **per-language uniqueness debt** and worked down via targeted cluster passes.
 - Future passes should continue this workflow: run cluster reports, pick the largest remaining cluster (subject to historically approved exceptions like the Uralic base-9 Finnic/Volgaic group), design per-language mixes consistent with family and region, and re-profile with the mixer QA tools.
 
- - As of the latest diagnostics run, the **only remaining repeated base-set** in `language-mixer-map` is the intentionally accepted Uralic `[9]` Finnic/Volgaic cluster (Åsele `-sele`, `akkala-sami`, `ala-satakunta`, `erzya`, `estonian`, `fin`, `komi-zyryan`, `moksha`, `nenets`); all other shared `[bases]` arrays surfaced by the mixer tools have been de-clustered into unique per-language bases or tuned mixes.
-
 ---
-
-Last updated: 2023-02-20; 2025-12-10 (Worker‑5 `/languages-unique5` pass; `/decluster-language-bases` Aslian/Malay [195] micro-pass)
 Representative bases / mappings (via `profile-language-mixes.js` and `report-language-mixer-base-clusters.js`):
 
 - **Hausa / Chadic cluster (base 132 as anchor)**:
@@ -582,8 +627,8 @@ This section tracks the specific Wikipedia-derived language lists that currently
 
 This registry also notes **planned future list JSONs** (marked as such) so regional coverage goals stay visible even before the corresponding files are created.
 
-Coverage numbers and completion tiers should be updated manually from `report-wikipedia-list-coverage.js` runs as work progresses; base-set uniqueness per list can be summarized via `tools/mixer-core/report-wikipedia-list-base-uniqueness.js`. See [§5.6 Grow coverage via Wikipedia language lists](#5-planned-next-steps-when-resuming) for the precise definition of "fully represented" across **catalog presence**, **mixer-map wiring and base uniqueness**, and **race reachability**.
-In this project, coverage for a list JSON is always computed over **all** of its items; we do not use the script's `skip` mechanism, and every encoded language is treated as required. Per-language base-uniqueness and race-coverage status are enforced and inspected via the global mixer and race tools described elsewhere in this document (including the base-cluster diagnostics and the new per-list base-uniqueness helper), rather than being repeated per list in §8. Snapshot blocks for each list may optionally include `unique bases` / `clustered bases` counts copied from `report-wikipedia-list-base-uniqueness.js` alongside the existing wiring legend.
+Coverage numbers and completion tiers are refreshed by running `tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js` against the canonical full-list JSON for each article; do **not** hand-edit the per-list `Snapshot from last run` blocks. Base-set uniqueness per list can be summarized via `tools/mixer-core/report-wikipedia-list-base-uniqueness.js`. See [§5.6 Grow coverage via Wikipedia language lists](#5-planned-next-steps-when-resuming) for the precise definition of "fully represented" across **catalog presence**, **mixer-map wiring and base uniqueness**, and **race reachability**.
+In this project, coverage for a list JSON is computed over **all** of its in-scope items; `skip: true` is reserved for global exceptions such as sign languages and truly unreconstructible extinct entries, which are excluded from coverage percentages. Per-language base-uniqueness and race-coverage status are enforced and inspected via the global mixer and race tools described elsewhere in this document (including the base-cluster diagnostics and the new per-list base-uniqueness helper), rather than being repeated per list in §8. Snapshot blocks for each list may optionally include `unique bases` / `clustered bases` counts copied from `report-wikipedia-list-base-uniqueness.js` alongside the existing wiring legend.
 
 ### 8.1 Languages of Africa – major languages subset
 
@@ -592,26 +637,35 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_Africa>
 - **Scope:** Hand-picked major African languages from the "Languages of Africa" article; focuses on high-impact Afroasiatic and Niger–Congo languages.
 - **Primary families / regions touched:** Sub-Saharan Africa (Bantu, Atlantic–Congo, Cushitic, Chadic) and Afroasiatic macro entries; see [§2.8 Sub-Saharan Africa (first Bantu split)](#28-sub-saharan-africa-first-bantu-split) and related African notes.
+- **Extended long-tail driver:** `tools/mixer-catalog/add-african-languages.js` contains an `AFRICA_ROWS` array derived from the long `Language / Family / speakers / status` table in the same Wikipedia article. It backfills any of those rows that are missing from `config/language-mixes.json`, inferring `category` / `family` / `region` from the Wikipedia family column.
+
+- **Coverage tracking:** this subset is a **view over the full Languages-of-Africa table**, not an independent driver. All coverage status and wiring/uniqueness metrics for these languages are tracked via the full-table JSON in §8.1b (`wikipedia-languages-of-africa-full.json`); we no longer maintain a separate 33-item coverage snapshot for this subset.
+
+### 8.1b Languages of Africa – full table snapshot (AFRICA_ROWS)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-africa-full.json`
+- **Title:** `Wikipedia: Languages of Africa – full table snapshot`
+- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Africa>
+- **Scope:** Full language-level snapshot of the long `Language / Family / speakers / status` table in the "Languages of Africa" article. Every row from that table is encoded once in this JSON via its Wikipedia name, using the same `AFRICA_ROWS` source data that drives `add-african-languages.js`.
+- **Primary families / regions touched:** All African families represented in the table (Niger–Congo, Afroasiatic, Nilo-Saharan, Mande, Ubangian, Khoe–Kwadi, Kx'a, Tuu, etc.) across the whole continent; this is the canonical **"all languages on the Languages-of-Africa list"** coverage driver.
 
 - **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-africa-major.json`
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-africa-full.json`
 
-- **Status tier:** **Complete**
-- **Last run:** 2025-12-10
+- **Status tier:** **In progress (full table)** – this JSON tracks **every language row** from the Wikipedia table; coverage and base-uniqueness snapshots for this full list should be refreshed after each major African mixer pass.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 33
+  - `fully wired:` 249
   - `missing catalog:` 0
-  - `missing map:` 0
+  - `missing map:` 28
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `unique bases:` 32
-  - `clustered bases:` 1
+  - `Nonunique Bases:` 273
 
 - **Notes / next steps:**
-  - Use this list as the primary checklist for ensuring that major African languages are both present in `language-mixes.json` and mapped in `language-mixer-map.json`.
-  - If any language from this list is temporarily left unwired in future passes, document it here (and in §5.6 if relevant) so the gap stays visible until it is resolved.
+  - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
+  - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
 ### 8.2 List of languages by number of native speakers (seed subset)
 
@@ -624,22 +678,20 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-languages-by-native-speakers.json`
 
-- **Status tier:** **Complete**
+- **Status tier:** **In progress (full article)**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 160
+  - `fully wired:` 175
   - `missing catalog:` 0
-  - `missing map:` 13
+  - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
-  - `ambiguous:` 1
-  - `unique bases:` 130
-  - `clustered bases:` 30
+  - `ambiguous:` 0
 
 - **Notes / next steps:**
-  - Track which high-speaker languages are still missing catalog or mixer entries, and prioritize them for future passes.
-  - When expanding the subset (e.g. adding more entries from the full Wikipedia table), update the JSON and re-run the coverage script, then refresh the snapshot here.
+  - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
+  - As of the latest run, all 173 list items are fully wired (catalog + mixer-map); per-list base-uniqueness is clean except for the intentionally accepted Uralic base‑9 Finnic/Volgaic macro cluster and a small Swedish (`swe`) cluster-of-three, which should be treated as minor remaining uniqueness debt for a future micro-pass.
 
 ### 8.3 List of languages by number of native speakers – CIA World Factbook 2018 subset
 
@@ -652,18 +704,16 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-languages-by-native-speakers-cia-2018.json`
 
-- **Status tier:** **Complete**
+- **Status tier:** **In progress (full article)**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 10
+  - `fully wired:` 11
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
-  - `ambiguous:` 1
-  - `unique bases:` 8
-  - `clustered bases:` 2
+  - `ambiguous:` 0
 
 - **Notes / next steps:**
   - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
@@ -681,14 +731,12 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 15
+  - `fully wired:` 18
   - `missing catalog:` 0
-  - `missing map:` 3
+  - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `unique bases:` 12
-  - `clustered bases:` 3
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
@@ -708,14 +756,12 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 19
+  - `fully wired:` 50
   - `missing catalog:` 0
-  - `missing map:` 0
+  - `missing map:` 23
   - `missing both:` 0
-  - `unmatched:` 0
+  - `unmatched:` 170
   - `ambiguous:` 0
-  - `unique bases:` 16
-  - `clustered bases:` 3
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -742,8 +788,6 @@ In this project, coverage for a list JSON is always computed over **all** of its
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `unique bases:` 22
-  - `clustered bases:` 1
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
@@ -752,10 +796,10 @@ In this project, coverage for a list JSON is always computed over **all** of its
   - Use this list as a driver for further Papuan and Oceanic coverage beyond the current macro bases (360–371) and lexifier hubs.
   - When the JSON is expanded or refined, run coverage again to confirm that all new Papuan/Oceanic items have both catalog and mixer entries.
 
-### 8.7 Languages of Europe – regional subset
+### 8.7 Languages of Europe – full table snapshot
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-europe.json`
-- **Title:** `Wikipedia: Languages of Europe – regional subset`
+- **Title:** `Wikipedia: Languages of Europe – full table snapshot`
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_Europe>
 - **Scope:** Overview of major language families and key standard languages across Europe (Romance, Germanic, Slavic, Celtic, Hellenic/Greek, Albanian, Armenian, Baltic, Uralic, Basque, and others).
 - **Primary families / regions touched:** European families documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed) (Romance, Germanic, Slavic & East European cluster, Celtic branches, Uralic entries, etc.).
@@ -764,14 +808,12 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 43
+  - `fully wired:` 102
   - `missing catalog:` 0
-  - `missing map:` 0
+  - `missing map:` 5
   - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 32
-  - `clustered bases:` 11
+  - `unmatched:` 67
+  - `ambiguous:` 1
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
@@ -792,14 +834,12 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 11
+  - `fully wired:` 14
   - `missing catalog:` 0
-  - `missing map:` 3
+  - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `unique bases:` 11
-  - `clustered bases:` 0
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-west-asia.json`
@@ -820,14 +860,12 @@ In this project, coverage for a list JSON is always computed over **all** of its
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 8
+  - `fully wired:` 12
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 4
+  - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `unique bases:` 7
-  - `clustered bases:` 1
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-north-america.json`
@@ -839,720 +877,185 @@ In this project, coverage for a list JSON is always computed over **all** of its
 ### 8.10 Languages of Southeast Asia – regional subset
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-southeast-asia.json`
-- **Title:** `Wikipedia: Languages of Southeast Asia – regional subset`
-- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Southeast_Asia`
-- **Scope:** Regional overview of major language families and standards across mainland and maritime Southeast Asia (Austroasiatic, Tai–Kadai, Hmong–Mien, Sino-Tibetan branches, and Austronesian clusters around Indonesia, Malaysia, the Philippines, etc.).
-- **Primary families / regions touched:** Southeast Asia (mainland + island arcs); ties into the Vietic/Bahnaric / base-29 work in [§2.7 East Asia (Sinitic / Japonic / Koreanic & neighbors)](#27-east-asia-sinitic--japonic--koreanic--neighbors) and the broader Austronesian and Papuan passes in [§2.12 Papuan & Pacific Austronesian (second-pass)](#212-papuan--pacific-austronesian-second-pass).
 
-- **Status tier:** **In progress** – JSON exists and a first coverage/uniqueness snapshot has been captured, but many entries are still missing mixer-map wiring.
-- **Last run:** 2025-12-10
+### 8.31 Uralic languages – seed subset (historical view)
 
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 8
-  - `missing catalog:` 0
-  - `missing map:` 24
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 7
-  - `clustered bases:` 1
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-southeast-asia.json`
-
-- **Notes / next steps:**
-  - Use this list as the main checklist for Southeast Asian languages beyond the core Vietic / Vietnamese base-29 cluster, especially for Tai–Kadai, Austroasiatic, and island Austronesian families not yet fully represented in the mixer.
-  - Prioritize wiring missing-map entries in `config/language-mixer-map.json` until the `missing map` count here reaches zero and all list languages have catalog + mixer entries with globally unique base sets.
-
-### 8.11 Global and typological reference lists (from "Languages used on the Internet")
-
-The Wikipedia article **"Languages used on the Internet"** links to a set of **global "list-of-lists" pages** that we treat as background references for coverage planning, classification, and typology. They are *not* all backed by dedicated JSON snapshots; this subsection records how we currently use them.
-
-- **Global by country / polity**
-  - `List of official languages by country and territory`, `List of official languages`, `List of official languages by institution` – used as high-level checks on which languages are politically central worldwide; curated seed subsets of the country/territory table and the institution list are now tracked via §8.22 and §8.35, and all three lists inform which standards we prioritize in the catalog and which languages we expect to appear in the regional lists above.
-  - `Number of languages by country` – reference for where very high language-density regions (e.g. parts of Africa, Papua New Guinea, Indonesia) deserve extra attention; coverage is implemented via the regional JSON subsets in §8.1, §8.4–§8.6, and §8.10 rather than a direct import of this list.
-
-- **By name / endonym**
-  - `List of language names (native names)` – reference for endonyms and orthography when filling `name` vs `iso` and `wikipedia` fields in `language-mixes.json`; no JSON snapshot, but useful when deciding whether catalog entries should prefer exonyms vs autonyms.
-
-- **Phylogenetic classification**
-  - `List of language families (phylogenetic)` – background check on our `family` vs `category` labeling; we align our families with this taxonomy where practical.
-  - Primary-family lists:
-    - `List of Afro-Asiatic languages`, `List of Austronesian languages`, `List of Indo-European languages`, `List of Mayan languages`, `List of Mongolic languages`, `List of Oto-Manguean languages`, `List of Tungusic languages`, `List of Turkic languages`, `List of Uralic languages`.
-    - These are **reference-only** at full granularity: we do not mirror them 1:1 as JSON. Instead, where helpful (currently for Indo-European, Afro-Asiatic, Austronesian, Mayan, Mongolic, Oto-Manguean, Tungusic, Turkic, and Uralic), we maintain small **seed subset JSONs** (`tools/mixer-meta/wikipedia-*-languages-seed.json`) as separate §8.* entries that explicitly point back to these lists and are intended to be fully representative at the "headline family / standard" level (i.e. they should include every major branch or standard singled out in the article’s overview, even though they are not exhaustive per-language mirrors).
-
-- **Chronology and counts**
-  - `List of languages by first written accounts` – primarily historical; a curated seed subset is now tracked via §8.18, but the full chronology remains reference-only for now.
-  - `List of languages by total number of speakers` – overlaps heavily with the native-speaker lists already captured in §8.2–§8.3; a curated seed subset is now tracked via §8.20 and used as an additional sanity check on global headline coverage.
-  - `List of languages by number of words according to authoritative dictionaries` – typological curiosity; a curated seed subset is now tracked via §8.32 and can inform future experiments if we ever tune duplication / length heuristics by lexical size.
-  - `List of languages by number of phonemes` – typological curiosity; a curated seed subset is now tracked via §8.33 and can inform future experiments if we ever tune duplication / length heuristics by phonological complexity.
-
-- **Regional language overviews**
-  - `Languages of Africa`, `Indigenous languages of the Americas`, `Languages of Oceania`, `Languages of Europe`, `Languages of North America`, `Languages of South Asia`, `Languages of Southeast Asia` – all explicitly represented via regional JSON subsets and registry entries in §8.1, §8.4–§8.7, §8.9, and §8.10.
-  - `Languages of Asia`, `Languages of South America`, `Languages of Russia` – high-level umbrellas that now have curated seed JSONs and registry entries in §8.15–§8.17; we still lean on the more focused regional subsets (South/West/Southeast Asia, Indigenous Americas, North America, Oceania, Europe) for detailed coverage.
-  - `East Asian languages` – broad umbrella for Sinitic, Japonic, Koreanic, Tai–Kadai, and neighboring families; a curated seed subset is now tracked via §8.19, but the full article remains a background reference for East Asia work in §2.7.
-  - `List of Native American languages acquired by children` – developmental / sociolinguistic reference; a curated seed subset is now tracked via §8.21 and helps flag indigenous languages with ongoing child acquisition when expanding Americas coverage in §2.11.
-
- - **Lingua francas, contact varieties, and constructed languages**
-  - `List of lingua francas` – background source for which languages we treat as **macro lexifiers** or hub bases (e.g. English, Malay, Tok Pisin, Swahili, Arabic); decisions are reflected in base usage and mixer maps, not in a separate JSON.
-  - `List of mutually intelligible languages` – reference for overlap and dialect-continuum behavior between closely related standards; a curated seed subset is now tracked via §8.34, and while we do not currently encode mutual-intelligibility graphs in data, it can inform future choices about how aggressively we split or share bases between near-identical standards or pluricentric norms.
-  - `List of creole languages`, `List of mixed languages`, `List of pidgins, creoles, mixed languages and cants based on Indo-European languages`, `List of English-based pidgins` – primary conceptual sources for which catalog entries get `tags: ["creole"]` / `["mixed"]` and for how we design their `[bases]` (lexifier vs substrate). A general creole/mixed/pidgin seed subset is tracked via §8.13, and a focused English-based pidgin seed subset is tracked via §8.36; any future creole/pidgin coverage files should be registered here.
-  - `List of constructed languages` – long-tail reference for explicit conlangs; a curated seed subset is now tracked via §8.14.
-
-In short, every Wikipedia list pointed to from **"Languages used on the Internet"** is either:
-
-- already represented by a concrete JSON subset and a §8.* registry entry (including the lingua-franca, creole/mixed/pidgin, and constructed-language seed subsets in §8.12–§8.14), or
-- explicitly documented here as a **reference-only source** with notes on how (or whether) it should influence future coverage work.
-
-### 8.12 Lingua francas – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-lingua-francas-seed.json`
-- **Title:** `Wikipedia: List of lingua francas – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_lingua_francas>
-- **Scope:** Compact set of modern and historical lingua francas used as **global or regional trade / contact languages** (English, French, Spanish, Arabic, Russian, Swahili, Malay, Hindustani, Mandarin, Tok Pisin).
-- **Primary families / regions touched:** Global cross-family hubs (Indo-European, Afroasiatic, Austronesian, etc.); overlaps heavily with languages already covered in §8.1–§8.10 but focuses specifically on their **lexifier / lingua-franca roles**.
-
-- **Status tier:** **In progress** – several entries are still missing mixer-map wiring or catalog ISOs.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 8
-  - `missing catalog:` 0
-  - `missing map:` 1
-  - `missing both:` 0
-  - `unmatched:` 1
-  - `ambiguous:` 0
-  - `unique bases:` 8
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-lingua-francas-seed.json`
-
-- **Notes / next steps:**
-  - Wire any missing-map entries (e.g. Malay) into `config/language-mixer-map.json` with appropriate lexifier bases, then re-run coverage until `missing map` hits zero.
-  - Decide whether to keep Hindustani as a single umbrella entry or split into Hindi/Urdu-style ISOs for mixer purposes, then add the necessary catalog + map entries so no items remain `unmatched`.
-
-### 8.13 Creole / mixed / pidgin languages – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-creoles-mixed-pidgins-seed.json`
-- **Title:** `Wikipedia: Creole, mixed, and pidgin languages – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_creole_languages>
-- **Scope:** Seed subset of contact varieties drawn from the Wikipedia lists of **creole, mixed, and pidgin languages** (Haitian Creole, Jamaican Patois, Nigerian Pidgin, Tok Pisin, Bislama, Papiamento, Cape Verdean Creole, Sranan Tongo).
-- **Primary families / regions touched:** Atlantic and Pacific contact zones; heavily overlaps with English-based and Portuguese/Spanish-based creoles already present in the catalog.
-
-- **Status tier:** **In progress** – many entries still rely on catalog-only wiring without mixer-map bases.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 3
-  - `missing catalog:` 0
-  - `missing map:` 5
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 2
-  - `clustered bases:` 1
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-creoles-mixed-pidgins-seed.json`
-
-- **Notes / next steps:**
-  - Introduce or refine dedicated creole/mixed `[bases]` arrays for Jamaican Patois, Nigerian Pidgin, Papiamento, Cape Verdean Creole, and Sranan Tongo so they no longer show up as `missing map`.
-  - Use the cluster report to make sure Haitian Creole’s base set is intentionally shared (if at all) and not an accidental reuse.
-
-### 8.14 Constructed languages – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-constructed-languages-seed.json`
-- **Title:** `Wikipedia: List of constructed languages – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_constructed_languages>
-- **Scope:** Small illustrative subset of conlangs from the broader Wikipedia list (Esperanto, Ido, Interlingua, Quenya, Sindarin, Klingon, Dothraki), intended as a **future playground** for explicit conlang support.
-- **Primary families / regions touched:** N/A – these are non-natural languages; current catalog/mixer wiring for them is intentionally **absent**.
-
-- **Status tier:** **Planned** – the seed list exists, but none of these languages are wired into the catalog or mixer yet.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 0
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 7
-  - `ambiguous:` 0
-  - `unique bases:` 0
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-constructed-languages-seed.json`
-
-- **Notes / next steps:**
-  - Only start wiring these once there is a concrete design for exposing conlangs in the generator; at that point, add `language-mixes.json` catalog entries and new fantasy or hybrid bases so they transition from `unmatched` to `fully wired` with unique `[bases]`.
-
-### 8.15 Languages of Asia – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-asia-seed.json`
-- **Title:** `Wikipedia: Languages of Asia – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Asia>
-- **Scope:** Seed subset of major Asian languages across East, South, Southeast, Central, and West Asia (Sinitic, Japonic, Koreanic, Tai–Kadai, Austroasiatic, Austronesian, Indo-Aryan, Dravidian, Turkic, Iranian, Semitic, etc.).
-- **Primary families / regions touched:** Asia-wide macro coverage; complements the regional JSON subsets for South Asia (§8.4), Southeast Asia (§8.10), West Asia (§8.8), and the Americas/Oceania lists.
-
-- **Status tier:** **In progress** – several items are still missing mixer-map wiring, ISOs, or have ambiguous catalog matches.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 24
-  - `missing catalog:` 0
-  - `missing map:` 5
-  - `missing both:` 0
-  - `unmatched:` 4
-  - `ambiguous:` 1
-  - `unique bases:` 23
-  - `clustered bases:` 1
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-asia-seed.json`
-
-- **Notes / next steps:**
-  - Add `iso` fields for items like "Mandarin Chinese", "Korean", "Tibetan", and "Persian" so they resolve cleanly to existing catalog entries instead of remaining `unmatched`.
-  - Wire missing-map entries (Burmese, Malay, Filipino, Nepali, Hebrew) into `config/language-mixer-map.json` with appropriate regionally tuned bases, and if necessary split any remaining accidental base clusters such as the Cantonese (`yue`) cluster reported here.
-
-### 8.16 Languages of South America – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-south-america-seed.json`
-- **Title:** `Wikipedia: Languages of South America – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/Languages_of_South_America>
-- **Scope:** Seed subset of major South American contact and indigenous languages (Spanish, Portuguese, Quechua, Aymara, Guarani, Mapudungun, Wayuu, Kichwa, Asháninka, Shipibo-Conibo, Warao, Yanomami).
-- **Primary families / regions touched:** Romance macro-languages plus key indigenous families and isolates in the Americas; complements the Indigenous Americas list in §8.5.
-
-- **Status tier:** **In progress** – some items still lack catalog wiring.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 8
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 4
-  - `ambiguous:` 0
-  - `unique bases:` 7
-  - `clustered bases:` 1
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-america-seed.json`
-
-- **Notes / next steps:**
-  - Ensure catalog entries exist for Asháninka, Shipibo-Conibo, Warao, and Yanomami (or adjust names/ISOs so they match existing entries) so they move out of the `unmatched` bucket.
-  - Use the base-uniqueness cluster info (e.g. Guarani) to confirm which shared bases are intentional versus accidental and split any remaining over-broad hubs.
-
-### 8.17 Languages of Russia – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-languages-of-russia-seed.json`
-- **Title:** `Wikipedia: Languages of Russia – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/Languages_of_Russia>
-- **Scope:** Seed subset of state and regional languages in the Russian Federation (Russian, Tatar, Bashkir, Chechen, Avar, Ossetian, Chuvash, Udmurt, Komi, Mari, Yakut, Buryat).
-- **Primary families / regions touched:** Slavic, Turkic, Northeast Caucasian, Iranian, Uralic, Mongolic branches within Eurasia.
-
-- **Status tier:** **In progress** – most non-Russian items are present in the catalog but still missing mixer-map wiring or ISOs.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 2
-  - `missing catalog:` 0
-  - `missing map:` 6
-  - `missing both:` 0
-  - `unmatched:` 4
-  - `ambiguous:` 0
-  - `unique bases:` 2
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-russia-seed.json`
-
-- **Notes / next steps:**
-  - Add or refine mixer-map entries for Tatar, Bashkir, Chechen, Ossetian, Chuvash, and Buryat so they no longer appear as `missing map`.
-  - Introduce or confirm catalog entries (with appropriate ISOs) for Avar, Komi, Mari, Yakut, and related lects so they stop appearing as `unmatched`.
-
-### 8.18 First written accounts – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-first-written-accounts-seed.json`
-- **Title:** `Wikipedia: List of languages by first written accounts – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_first_written_accounts>
-- **Scope:** Compact historical subset of languages with very early written attestations (Sumerian, Egyptian, Akkadian, Hittite, Classical Chinese, Classical Greek, Latin, Sanskrit, Tamil, Hebrew, Aramaic).
-- **Primary families / regions touched:** Ancient Afroasiatic, Indo-European, Dravidian, and East Asian standards; used today mainly as a historical reference for potential "ancient vs modern" flavor splits.
-
-- **Status tier:** **In progress** – only a minority of these have present-day catalog/mixer wiring.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 4
-  - `missing catalog:` 0
-  - `missing map:` 1
-  - `missing both:` 0
-  - `unmatched:` 6
-  - `ambiguous:` 0
-  - `unique bases:` 4
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-first-written-accounts-seed.json`
-
-- **Notes / next steps:**
-  - Decide which of these ancient standards deserve explicit catalog entries and dedicated or hybrid bases; as they are added, move them from `unmatched` to `fully wired` and keep their bases globally unique where they intersect with modern descendants.
-
-### 8.19 East Asian languages – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-east-asian-languages-seed.json`
-- **Title:** `Wikipedia: East Asian languages – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/East_Asian_languages>
-- **Scope:** Seed subset of East Asian languages from the broader umbrella article, focusing on major Sinitic lects and neighboring families (Mandarin, Cantonese, Wu, Hokkien, Hakka, Japanese, Korean, Vietnamese, Thai, Lao, Khmer, Burmese, Tibetan, Mongolian).
-- **Primary families / regions touched:** East Asia and adjacent Southeast Asian families; overlaps with the Asia-wide seed list in §8.15 and the regional South/Southeast Asia lists.
-
-- **Status tier:** **In progress** – several items still lack ISOs or mixer-map wiring.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 8
-  - `missing catalog:` 0
-  - `missing map:` 1
-  - `missing both:` 0
-  - `unmatched:` 5
-  - `ambiguous:` 0
-  - `unique bases:` 8
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-east-asian-languages-seed.json`
-
-- **Notes / next steps:**
-  - Add `iso` fields for items like "Mandarin Chinese", "Wu Chinese", "Hokkien", "Korean", and "Tibetan" so they resolve to existing catalog entries instead of staying `unmatched`.
-  - Wire Burmese into `config/language-mixer-map.json` with an appropriate base or mix so it no longer appears as `missing map`, and verify that the resulting base sets stay globally unique.
-
-### 8.20 Total speakers – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-list-languages-by-total-speakers-seed.json`
-- **Title:** `Wikipedia: List of languages by total number of speakers – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers>
-- **Scope:** Seed subset of the global "total speakers" list, overlapping heavily with the native-speaker subsets in §8.2–§8.3 but focusing specifically on **total** speaker counts (L1+L2) for headline languages.
-- **Primary families / regions touched:** Global macro-families (Indo-European, Sinitic, Afroasiatic, etc.), acting as a cross-check on the high-speaker coverage driven by §8.2–§8.3.
-
-- **Status tier:** **In progress** – most items are wired, but a few still rely on name-only matching.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 15
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 3
-  - `ambiguous:` 0
-  - `unique bases:` 15
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-languages-by-total-speakers-seed.json`
-
-- **Notes / next steps:**
-  - Add `iso` fields for Mandarin Chinese, Persian, and Korean so they resolve to existing catalog entries instead of staying `unmatched`, then re-run coverage to confirm all items are `fully wired` with globally unique `bases[]`.
-
-### 8.21 Native American languages acquired by children – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-native-american-languages-acquired-by-children-seed.json`
-- **Title:** `Wikipedia: List of Native American languages acquired by children – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_Native_American_languages_acquired_by_children>
-- **Scope:** Seed subset of Native American languages that still have documented child acquisition, drawn from the corresponding Wikipedia list (Navajo, Cherokee, Cree, Ojibwe, Inuktitut, Guarani, Quechua, Aymara, Mapudungun, Nahuatl).
-- **Primary families / regions touched:** North and South American indigenous families (Athabaskan, Algonquian, Inuit-Yupik, Uto-Aztecan, Quechuan, Aymaran, Mapuche, Tupi-Guarani), overlapping with the Indigenous Americas coverage in §8.5 and the regional Americas bases in §2.11.
-
-- **Status tier:** **Complete** – all seed items currently have catalog and mixer-map wiring with unique base sets.
-- **Last run:** 2025-12-10
-
--- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 10
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-native-american-languages-acquired-by-children-seed.json`
-
-- **Notes / next steps:**
-  - Keep this list in sync with any future changes to the Americas coverage in §2.11 and the Indigenous Americas JSON in §8.5; if additional child-acquired languages are added to the Wikipedia list and the catalog, extend this seed JSON and re-run coverage so the snapshot remains accurate.
-
-### 8.22 Official languages by country and territory – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-list-official-languages-by-country-seed.json`
-- **Title:** `Wikipedia: List of official languages by country and territory – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory>
-- **Scope:** Seed subset of globally important **official languages** drawn from the country/territory table (English, French, Spanish, Arabic, Russian, Mandarin Chinese, Portuguese, German, Hindi, Bengali, Malay, Swahili).
-- **Primary families / regions touched:** Global macro-families with strong official status across multiple states (Indo-European, Afroasiatic, Sinitic, Austronesian, etc.); overlaps heavily with the native-speaker and total-speakers seeds in §8.2–§8.3 and §8.20.
-
-- **Status tier:** **Complete for current seed set** – all tracked official-language seeds now have catalog entries, mixer-map wiring, and unique base signatures.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 12
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 12
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-- **Primary families / regions touched:** Indo-European branches across Europe and South Asia (Germanic, Romance, Slavic, Indo-Aryan, Iranian, Celtic), overlapping with many other regional and global seed lists in §8.
-
-- **Status tier:** **Complete for current seed set** – all tracked Indo-European seeds now have catalog entries, mixer-map wiring, and unique base signatures.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 24
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 24
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indo-european-languages-seed.json`
-
-- **Notes / next steps:**
-  - Future Indo-European coverage changes (adding new standards or dialect groups) should extend this seed JSON and re-run coverage so the snapshot remains accurate.
-- **Source:** <https://en.wikipedia.org/wiki/List_of_Afroasiatic_languages>
-- **Scope:** Seed subset of Afro-Asiatic languages drawn from the broader family list (Arabic macro-lects, Ethio-Semitic standards, Cushitic and Chadic representatives, Berber/Kabyle, and Hebrew).
-- **Primary families / regions touched:** Afro-Asiatic branches across North Africa, the Horn of Africa, the Sahel, and the Levant (Semitic, Cushitic, Chadic, Berber), complementing the African regional lists in §8.1 and the West Asia list in §8.8.
-
-- **Status tier:** **Complete for current seed set** – all tracked Afro-Asiatic seeds now have catalog entries, mixer-map wiring, and unique base signatures.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 12
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 12
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-afro-asiatic-languages-seed.json`
-
-- **Notes / next steps:**
-  - Add or refine mixer-map entries for Maghrebi Arabic and Hebrew so they no longer appear as `missing map`, and add an `iso` field for Levantine Arabic so it resolves cleanly to the correct catalog entry instead of staying `unmatched`.
-
-### 8.25 Austronesian languages – language-level snapshot
-
-- **JSON file:** `tools/mixer-meta/wikipedia-austronesian-languages-seed.json`
-- **Title:** `Wikipedia: List of Austronesian languages – language-level snapshot`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_Austronesian_languages>
-- **Scope:** Language-level snapshot of Austronesian languages from the list page, including all Austronesian official languages (sovereign states and territories) and all Austronesian languages with at least 3 million native speakers (Malay/Indonesian standards, Javanese, Sundanese, Madurese, Minangkabau, Tagalog/Filipino, Cebuano, Ilocano, Hiligaynon, Malagasy, Batak, Bugis, Bikol, Banjar, Waray, Acehnese, Balinese), while explicitly excluding the separate "Dialects of major Austronesian languages" and "Creoles and pidgins based on Austronesian languages" subsections, which are tracked via other JSONs.
-- **Primary families / regions touched:** Maritime Southeast Asia and the Pacific (Malay/Indonesian, Philippine, and Oceanic branches, plus Micronesian and Polynesian representatives), complementing the South/Southeast Asia and Oceania regional lists in §8.4, §8.6, and §8.10.
-
-- **Status tier:** **In progress (language-level snapshot)** – core Austronesian standards in the snapshot are fully wired, but several additional languages are still catalog-only or lack `iso` wiring.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 26
-  - `missing catalog:` 0
-  - `missing map:` 4
-  - `missing both:` 0
-  - `unmatched:` 12
-  - `ambiguous:` 0
-  - `unique bases:` 26
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-austronesian-languages-seed.json`
-
-- **Notes / next steps:**
-  - Add mixer-map entries for **Filipino** (`filipino`), **Chamorro** (`chamorro`), **Acehnese** (`ace`), and **Balinese** (`ban`) so they no longer appear as `missing map`, giving each a globally unique Austronesian `bases[]` array consistent with the existing Malay/Indonesian, Philippine, and Micronesian/Oceanic mappings.
-  - For the remaining `unmatched` items (**Malaysian Malay**, **Gilbertese**, **Tetum**, **Carolinian**, **Cook Islands Maori**, **Kanak**, **Sonsorolese**, **Tobian**, **Batak**, **Bugis**, **Banjar**, **Waray**), either add corresponding entries to `config/language-mixes.json` with appropriate `iso` codes and metadata or consciously treat them as future coverage debt; after any additions, re-run coverage and update the snapshot so the JSON remains a faithful 1:1 language-level mirror of the Wikipedia list.
-
-### 8.26 Mayan languages – language-level snapshot
-
-- **JSON file:** `tools/mixer-meta/wikipedia-mayan-languages-seed.json`
-- **Title:** `Wikipedia: List of Mayan languages – language-level snapshot`
-- **Source:** <https://en.wikipedia.org/wiki/List_of_Mayan_languages>
-- **Scope:** Language-level snapshot of the Mayan family from the list page, including all named Mayan languages in the main "Languages" section (Yucatec Maya, K'iche', Kaqchikel, Q'eqchi', Mam, Q'anjob'al, Tzeltal, Tzotzil, Chol, Poqomchi', Poqomam, Itza', plus Achi, Akatek, Awakatek, Chicomuceltec, Chontal, Chuj, Ch'olti', Ch'orti', Coxoh, Ixil, Jakaltek, Lacandon, Mocho', Mopan, Sakapultek, Sipakapense, Tektitek, Tenek, Tojol-ab'al, Tz'utujil, and Uspantek).
-- **Primary families / regions touched:** Mayan branch of the Americas (Mesoamerica and surrounding regions), complementing the Indigenous Americas and South America lists in §8.5 and §8.16.
-
-- **Status tier:** **In progress (language-level snapshot)** – the core 12 Mayan standards used in the original seed are fully wired; the additional languages from the full list are currently catalog-unbacked and show up as unmatched names.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 12
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 21
-  - `ambiguous:` 0
-  - `unique bases:` 12
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-mayan-languages-seed.json`
-
-- **Notes / next steps:**
-  - The 12 fully wired Mayan languages already have catalog entries, mixer-map wiring, and unique base signatures. For the remaining 21 unmatched languages (Achi, Akatek, Awakatek, Chicomuceltec, Chontal, Chuj, Ch'olti', Ch'orti', Coxoh, Ixil, Jakaltek, Lacandon, Mocho', Mopan, Sakapultek, Sipakapense, Tektitek, Tenek, Tojol-ab'al, Tz'utujil, Uspantek), either add corresponding catalog entries with appropriate `iso` codes and metadata or treat them as future coverage debt; after any additions, re-run coverage and update the snapshot so this JSON remains a faithful 1:1 language-level mirror of the Wikipedia list.
-
-### 8.27 Mongolic languages – language-level snapshot
-
-- **JSON file:** `tools/mixer-meta/wikipedia-mongolic-languages-seed.json`
-- **Title:** `Wikipedia: Mongolic languages – language-level snapshot`
-- **Source:** <https://en.wikipedia.org/wiki/Mongolic_languages>
-- **Scope:** Language-level snapshot of the contemporary Mongolic languages from the classification section (Dagur, Khamnigan Mongol, Buryat, Mongolian, Ordos, Kalmyk, Oirat, Shira Yugur, Shirongol, Monguor, Mongghul, Mangghuer, Baoanic, Bonan, Santa/Dongxiang, Kangjia, Moghol), excluding the separate mixed Sinitic–Mongolic languages (Tangwang, Wutun) which are tracked elsewhere.
-- **Primary families / regions touched:** Mongolic branch across Central and Northeast Asia (Dagur, Central Mongolic, Southern Mongolic/Shirongolic, Baoanic), complementing the Asia-wide and Russia seeds in §8.15–§8.17 and the East Asian seed in §8.19.
-
-- **Status tier:** **In progress (language-level snapshot)** – a core subset of Mongolic languages are fully wired, but many Southern/Shirongolic and Dagur/Ordos varieties are still catalog-only with no mixer-map entries.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 7
-  - `missing catalog:` 0
-  - `missing map:` 8
-  - `missing both:` 2
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 7
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-mongolic-languages-seed.json`
-
-- **Notes / next steps:**
-  - Add or refine mixer-map entries for **Dagur** (`dagur`), **Ordos** (`ordos`), **Shira Yugur** (`shira-yugur`), **Monguor** (`monguor`), **Mongghul** (`mongghul`), **Mangghuer** (`mangghuer`), **Kangjia** (`kangjia`), and **Moghol** (`moghol`) so they no longer appear as `missing map`, giving each a unique Mongolic `bases[]` combination consistent with the existing Mongolian/Oirat/Kalmyk/Dagur/Shirongolic palette.
-  - For **Shirongol** (`shirongol`) and **Baoanic** (`baoanic`), which are currently `missing both`, either add corresponding catalog entries in `config/language-mixes.json` (with appropriate metadata tying them into the Shirongolic/Baoanic subgroups) or treat them as future coverage debt; after any additions and new mappings, re-run coverage and update this snapshot so the Mongolic JSON remains a faithful 1:1 language-level mirror of the Wikipedia classification.
-
-### 8.28 Oto-Manguean languages – language-level snapshot
-
-- **JSON file:** `tools/mixer-meta/wikipedia-oto-manguean-languages-seed.json`
-- **Title:** `Wikipedia: List of Oto-Manguean languages – language-level snapshot`
-- **Source:** <https://en.wikipedia.org/wiki/Oto-Manguean_languages>
-- **Scope:** Language-level snapshot of the major Oto-Manguean branches highlighted in the article (Central Zapotec, Isthmus Zapotec, Sierra Juarez Zapotec, Mixtec, Trique, Amuzgo, Mazatec, Chinantec, Otomi, Matlatzinca), treated here as 10 macro-languages rather than the full dialect-level grid.
-- **Primary families / regions touched:** Oto-Manguean branch of Mesoamerica, complementing the Mayan snapshot and the Indigenous Americas lists in §8.5 and §8.16.
-
-- **Status tier:** **Fully wired (language-level snapshot)** – all 10 macro Oto-Manguean branches in this snapshot now have catalog entries and mixer-map wiring.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 7
-  - `clustered bases:` 3
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-oto-manguean-languages-seed.json`
-
-- **Notes / next steps:**
-  - If you later refine this snapshot from macro-branches to individual ISO-level languages, extend or split the JSON items accordingly, then re-run coverage and base-uniqueness so each new entry gains catalog presence and an Oto-Manguean-appropriate `bases[]` array consistent with its branch (Zapotec, Mixtec, Mazatec, Otomi, etc.).
-
-### 8.29 Tungusic languages – language-level snapshot
-
-- **JSON file:** `tools/mixer-meta/wikipedia-tungusic-languages-seed.json`
-- **Title:** `Wikipedia: Tungusic languages – language-level snapshot`
-- **Source:** <https://en.wikipedia.org/wiki/Tungusic_languages>
-- **Scope:** Language-level snapshot of the Tungusic classification page: includes each Tungusic language explicitly listed in the article (Evenki, Even, Negidal, Oroqen, Kili, Oroch, Udege, Nanai, Orok, Ulch, Manchu, Xibe, Jurchen, Chinese Kyakala, Bala, Alchuka) while intentionally excluding lower-level dialect and subdialect nodes such as regional varieties of Evenki or Nanai.
-- **Primary families / regions touched:** Tungusic branch across Siberia, Manchuria, and the Russian Far East, complementing the Mongolic and Russia seeds in §8.17 and §8.27 and the East Asian seed in §8.19.
-
-- **Status tier:** **Fully wired (language-level snapshot)** – all 16 Tungusic languages in the classification snapshot now have catalog entries and mixer-map `bases[]` arrays.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 16
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 16
-  - `clustered bases:` 0
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-tungusic-languages-seed.json`
-
-- **Notes / next steps:**
-  - Tungusic is now fully represented in the mixer (catalog + map) as a language-level snapshot of the classification page, with globally unique Tungusic-anchored `bases[]` arrays centered on base 380 and appropriate East Asian neighbors. Future work here is mostly qualitative (seed tuning, `min/max/d` calibration, and race coverage checks) rather than structural wiring.
-
-### 8.30 Turkic languages – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-turkic-languages-seed.json`
-- **Title:** `Wikipedia: List of Turkic languages – seed subset`
-- **Source:** <https://en.wikipedia.org/wiki/Turkic_languages>
-- **Scope:** Seed subset of Turkic languages drawn from the broader family list (Turkish, Azerbaijani, Kazakh, Uzbek, Kyrgyz, Turkmen, Tatar, Bashkir, Uyghur, Chuvash).
-- **Primary families / regions touched:** Turkic branch across Anatolia, Central Asia, and the Volga–Ural region, complementing the West Asia, Russia, and Asia-wide seeds in §8.8, §8.15–§8.17.
-
-- **Status tier:** **Fully wired** – all 10 seed items now have catalog entries and dedicated Turkic bases in the mixer map.
-- **Last run:** 2025-12-10
-
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 7
-  - `clustered bases:` 3
-
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-turkic-languages-seed.json`
-
-- **Notes / next steps:**
-  - Turkic seeds are now fully represented in the mixer (catalog + map) with dedicated single-base Turkic entries for Turkish, Azerbaijani, Kazakh, Uzbek, Kyrgyz, Turkmen, Tatar, Bashkir, Uyghur, and Chuvash. Future work is mostly qualitative (seed lists, `min/max/d` tuning, and race coverage checks) rather than structural wiring.
-
-### 8.31 Uralic languages – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-uralic-languages-seed.json`
+- **JSON file:** *(historical seed JSON, now removed; this entry is a view only – coverage and wiring are tracked via the full-family JSON in §8.31b)*
 - **Title:** `Wikipedia: List of Uralic languages – seed subset`
 - **Source:** <https://en.wikipedia.org/wiki/Uralic_languages>
 - **Scope:** Seed subset of Uralic languages drawn from the broader family list (Finnish, Estonian, Karelian, Northern Sami, Erzya, Moksha, Komi, Udmurt, Mari, Hungarian).
 - **Primary families / regions touched:** Uralic branches across Northern and Eastern Europe (Finnic, Sami, Mordvinic, Permic, Mari, Ugric), complementing the Europe and Russia seeds in §8.7 and §8.17 and the Uralic notes in §2.x.
 
-- **Status tier:** **Fully wired** – all 10 seed items now have catalog entries and mixer-map `bases[]` arrays; the only shared base-set is the historically sanctioned base‑9 Finnic/Volgaic cluster.
-- **Last run:** 2025-12-10
+- **Coverage tracking:** This seed subset is a convenience view over the broader `List of Uralic languages` article. Coverage and wiring/uniqueness metrics are tracked via the full-family entry in §8.31b (`wikipedia-uralic-languages-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
 
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 3
-  - `clustered bases:` 4
+### 8.31b Uralic languages – full family list
+
+- **JSON file:** `tools/mixer-meta/wikipedia-uralic-languages-full.json`
+- **Title:** `Wikipedia: List of Uralic languages – full family list`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_Uralic_languages>
+- **Scope:** Full set of Uralic languages and major lects that have their own Wikipedia language or dialect entries in the `List of Uralic languages` article (Samoyedic, Ob‑Ugric, Permic, Mari, Mordvinic, Finnic, Sami, plus a few unclassified extinct lects).
+- **Primary families / regions touched:** Entire Uralic family across Northern and Eastern Europe and Western Siberia; overlaps with the Europe, Russia, and phoneme-count lists elsewhere in §8.
 
 - **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-uralic-languages-seed.json`
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-uralic-languages-full.json`
 
-- **Notes / next steps:**
-  - Add or refine a mixer-map entry for Karelian so it no longer appears as `missing map`, and add `iso` fields (with matching catalog entries) for Komi and Mari so they resolve cleanly instead of remaining `unmatched`.
-  - Treat the base‑9 Finnic/Volgaic cluster (Finnish, Estonian, Erzya, Moksha, etc.) as a **documented historical exception** per §2.x and the Uralic notes, while keeping other shared-base clusters flagged here on the usual uniqueness‑debt list.
+- **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 86
+  - `missing catalog:` 0
+  - `missing map:` 77
+  - `missing both:` 0
+  - `unmatched:` 76
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 239
 
-### 8.32 Dictionary word-count languages – seed subset
+### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
 
-- **JSON file:** `tools/mixer-meta/wikipedia-languages-by-dictionary-word-count-seed.json`
+- **JSON file:** *(historical seed JSON, now removed; this entry is an archived view only and does not drive coverage helpers)*
 - **Title:** `Wikipedia: List of languages by number of words according to authoritative dictionaries – seed subset`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_words_according_to_dictionaries>
 - **Scope:** Seed subset of languages from the dictionary word-count list, focusing on major standards with large authoritative dictionaries across multiple families (English, German, Russian, French, Spanish, Italian, Chinese, Japanese, Arabic, Turkish).
 - **Primary families / regions touched:** Global macro-families (Indo-European, Sinitic, Japonic, Afroasiatic, Turkic), providing a typological lens on lexical inventory size rather than direct coverage drivers.
 
-- **Status tier:** **Fully wired** – all 10 seed items now have catalog entries and mixer-map `bases[]` arrays.
-- **Last run:** 2025-12-10
+- **Coverage / archival status:** This entry is an archived snapshot of a historical version of the `List of languages by number of words according to authoritative dictionaries` article. The original table is no longer present on Wikipedia, so we do not maintain a separate full-list JSON or auto-updated coverage snapshot here. Treat this seed JSON as a qualitative reference only; structural coverage work is driven instead by the active speaker-count and other Wikipedia language lists in §8.
 
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 10
-  - `clustered bases:` 0
+### 8.36 English-based pidgins – seed subset (view over full list)
 
-- **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-by-dictionary-word-count-seed.json`
-
-- **Notes / next steps:**
-  - Dictionary word-count seeds are now fully represented in the mixer (catalog + map). Future work here is mostly qualitative (ensuring base choices and length/duplication settings feel right for each language) rather than structural wiring.
-
-### 8.36 English-based pidgins – seed subset
-
-- **JSON file:** `tools/mixer-meta/wikipedia-list-english-based-pidgins-seed.json`
+- **JSON file:** *(historical seed JSON, now removed; this entry is a convenience view only – coverage and wiring are tracked via the full-list JSON in §8.36b)*
 - **Title:** `Wikipedia: List of English-based pidgins – seed subset`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_English-based_pidgins>
 - **Scope:** Seed subset of English-based pidgins drawn from the corresponding Wikipedia list (Tok Pisin, Bislama, Nigerian Pidgin, Krio, Hawaiian Pidgin, Singlish, Jamaican Patois, Cook Islands Māori Pidgin).
 - **Primary families / regions touched:** English-lexifier contact varieties across the Pacific, Atlantic, and Africa (Tok Pisin, Bislama, Krio, Jamaican Patois, Nigerian Pidgin, etc.), complementing the broader creole/mixed/pidgin seed in §8.13.
 
-- **Status tier:** **Fully wired** – all 8 seed items now have catalog entries and mixer-map `bases[]` arrays.
-  - English-based pidgin seeds are now fully represented in the mixer (catalog + map) with distinct English-plus-contact `bases[]` mixes for each variety (Pacific, West African, Caribbean, and Singapore). Future work here is mostly qualitative (reviewing base choices and `min/max/d` tuning, and race coverage) rather than structural wiring.
+- **Coverage tracking:** This seed subset is a convenience view over the broader `List of English-based pidgins` article. Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.36b (`wikipedia-list-english-based-pidgins-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
 
-### 8.33 Phoneme-count languages – seed subset
+### 8.36b English-based pidgins – full article list
 
-- **JSON file:** `tools/mixer-meta/wikipedia-languages-by-phoneme-count-seed.json`
+- **JSON file:** `tools/mixer-meta/wikipedia-list-english-based-pidgins-full.json`
+- **Title:** `Wikipedia: List of English-based pidgins – full article list`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_English-based_pidgins>
+- **Scope:** Full set of English-lexifier pidgins and pidgin/creole contact lects listed in the article (English-based contact languages in Africa, the Pacific, the Americas, and elsewhere) that have some documentation as stable contact languages.
+- **Primary families / regions touched:** Global, with strong coverage in West Africa, the Caribbean, and the Pacific; overlaps the broader creole/mixed language work in §8.13.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-english-based-pidgins-full.json`
+
+- **Status tier:** **In progress (full article)** – this JSON tracks all named English-based pidgins in the current article. It is a typological driver for English-lexifier contact coverage and does not override the global uniqueness rules for bases.
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 13
+  - `missing catalog:` 0
+  - `missing map:` 17
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 30
+
+### 8.33 Phoneme-count languages – seed subset (view over full list)
+
+- **JSON file:** *(historical seed JSON, now removed; this entry is a typological view only – coverage and wiring are tracked via the full-article JSON in §8.33b)*
 - **Title:** `Wikipedia: List of languages by number of phonemes – seed subset`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_phonemes>
 - **Scope:** Seed subset of languages from the phoneme-count list, sampling extremes and mid-range systems (Rotokas, Pirahã, Hawaiian, Japanese, Spanish, English, German, Russian, Mandarin Chinese, Taa).
 - **Primary families / regions touched:** Global cross-family sample (Papuan, Austronesian, Japonic, Indo-European, Afroasiatic, etc.), intended primarily as a typological reference for future phonology-aware tuning rather than a direct coverage driver.
+ 
+- **Coverage tracking:** This seed subset is a typological view over the `List of languages by number of phonemes` article (extremes + mid-range systems). Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.33b (`wikipedia-languages-by-phoneme-count-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
 
-- **Status tier:** **Fully wired** – all 10 seed items now have catalog entries and mixer-map `bases[]` arrays.
-- **Last run:** 2025-12-10
+### 8.33b Phoneme-count languages – full article list
 
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 10
-  - `clustered bases:` 0
+- **JSON file:** `tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json`
+- **Title:** `Wikipedia: List of languages by number of phonemes – full article list`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_phonemes>
+- **Scope:** Full list of languages currently enumerated in the `List of languages by number of phonemes` article (standard dialects only), including both low-phoneme and high-phoneme systems (Arabic, Archi, Rotokas, Ubykh, Vietnamese, etc.).
+- **Primary families / regions touched:** Cross-family sample spanning Afroasiatic, Indo-European, Uralic, Austronesian, Sino-Tibetan, Koreanic, Japonic, Nilo-Saharan, North Bougainville, Northwest Caucasian, and others; used as a typological lens rather than a primary coverage driver.
 
 - **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-by-phoneme-count-seed.json`
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json`
 
-- **Notes / next steps:**
-  - Phoneme-count seeds are now fully represented in the mixer (catalog + map) with globally unique `bases[]` arrays for each language. Future work here is mostly qualitative (reviewing base choices and `min/max/d` tuning, and race coverage) rather than structural wiring.
-  - Add `iso` fields (with matching catalog entries) for Rotokas and Pirahã so they no longer appear as `unmatched`, then re-run coverage to confirm that all items are `fully wired` with globally unique `bases[]`.
+- **Status tier:** **In progress (full article)** – this JSON tracks every language row in the current Wikipedia phoneme-count list; since it is typological, there is no separate uniqueness-target here beyond the global base-uniqueness rules.
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 16
+  - `missing catalog:` 0
+  - `missing map:` 19
+  - `missing both:` 0
+  - `unmatched:` 37
+  - `ambiguous:` 0
 
-### 8.34 Mutually intelligible languages – seed subset
+### 8.34 Mutually intelligible languages – seed subset (view over full list)
 
-- **JSON file:** `tools/mixer-meta/wikipedia-mutually-intelligible-languages-seed.json`
+- **JSON file:** *(historical seed JSON, now removed; this entry is a focused view only – coverage and wiring are tracked via the full-article JSON in §8.34b)*
 - **Title:** `Wikipedia: List of mutually intelligible languages – seed subset`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_mutually_intelligible_languages>
 - **Scope:** Seed subset of mutually intelligible standards drawn from the broader list (Swedish, Norwegian, Danish, Czech, Slovak, Serbian, Croatian, Hindi, Urdu, Portuguese), used as a qualitative check on where bases or mixes might reasonably be shared or closely related.
 - **Primary families / regions touched:** Germanic and Slavic branches of Indo-European plus Hindustani and Lusophone standards, overlapping with European and South Asian coverage elsewhere in §2.x and §8.
 
-- **Status tier:** **Fully wired** – all 10 seed items now have catalog entries and mixer-map `bases[]` arrays.
-- **Last run:** 2025-12-10
+- **Coverage tracking:** This seed subset is a focused view over the broader `List of mutually intelligible languages` article (headline Germanic/Romance/Slavic/Hindustani pairs). Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.34b (`wikipedia-mutually-intelligible-languages-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
 
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 10
-  - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
-  - `ambiguous:` 0
-  - `unique bases:` 10
-  - `clustered bases:` 0
+### 8.34b Mutually intelligible languages – full article list
+
+- **JSON file:** `tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json`
+- **Title:** `Wikipedia: List of mutually intelligible languages – full article list`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_mutually_intelligible_languages>
+- **Scope:** Full set of languages currently named in the `List of mutually intelligible languages` article, across all families (Afroasiatic, Atlantic–Congo, Austronesian, Indo-European, Kra–Dai, Sino-Tibetan, Turkic, Uralic, Tungusic, etc.), treating each language that appears in at least one mutual-intelligibility pair or cluster as a row in this JSON.
+- **Primary families / regions touched:** Cross-family sample spanning Europe, the Middle East, South Asia, Southeast Asia, and Africa; used as a typological guardrail for where shared bases or very-close mixes might be acceptable.
 
 - **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-mutually-intelligible-languages-seed.json`
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json`
 
-- **Notes / next steps:**
-  - Treat the shared base cluster among Swedish (`swe`), Norwegian (`norwegian`), and Danish (`danish`) as a deliberately documented case of near‑mutual intelligibility, and use this list as a guardrail when deciding whether to keep or split shared bases among closely related standards in other families.
+- **Status tier:** **In progress (full article)** – this JSON tracks all languages mentioned in the current mutual-intelligibility list; uniqueness decisions still follow the global base-uniqueness rules, with this list acting as a reminder where near-identical bases or mixes may be justified.
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 64
+  - `missing catalog:` 0
+  - `missing map:` 4
+  - `missing both:` 0
+  - `unmatched:` 37
+  - `ambiguous:` 2
 
-### 8.35 Official languages by institution – seed subset
+### 8.35 Official languages by institution – seed subset (view over full list)
 
-- **JSON file:** `tools/mixer-meta/wikipedia-list-official-languages-by-institution-seed.json`
+- **JSON file:** *(historical seed JSON, now removed; this entry is a convenience view only – coverage and wiring are tracked via the full-article JSON in §8.35b)*
 - **Title:** `Wikipedia: List of official languages by institution – seed subset`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_official_languages_by_institution>
 - **Scope:** Seed subset of institution-level official languages drawn from the article (UN, EU, AU, etc.), focusing on globally central standards (English, French, Spanish, Arabic, Russian, Chinese, German, Portuguese, Italian, Japanese).
 - **Primary families / regions touched:** Global macro-families with strong institutional presence (Indo-European, Sinitic, Afroasiatic, etc.), overlapping with the country/territory seed in §8.22 and the speaker-count seeds in §8.2–§8.3 and §8.20.
 
-- **Status tier:** **Fully wired** – all 10 seed items now have catalog entries and mixer-map `bases[]` arrays.
-- **Last run:** 2025-12-10
+- **Coverage tracking:** This seed subset is a convenience view over the broader `List of official languages of international organizations` article. Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.35b (`wikipedia-list-official-languages-by-institution-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
 
+### 8.35b Official languages by institution – full article list
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-official-languages-by-institution-full.json`
+- **Title:** `Wikipedia: List of official languages by institution – full article list`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_official_languages_of_international_organizations>
+- **Scope:** Full set of languages that appear as official or working languages in the `List of official languages of international organizations` article (UN, AU, EU, ASEAN, OAS, etc.). Each distinct language name used in the tables is represented once in this JSON.
+- **Primary families / regions touched:** Global macro-families with strong institutional presence (Indo-European, Sinitic, Afroasiatic, Niger–Congo, Austronesian, etc.), overlapping heavily with the country/territory list and the speaker-count lists.
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-official-languages-by-institution-full.json`
+
+- **Status tier:** **In progress (full article)** – this JSON tracks all languages mentioned in the official-languages-by-institution article; uniqueness and coverage are enforced via the usual mixer rules, with this list acting as a high-level coverage sanity check for globally central standards.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 10
+  - `fully wired:` 34
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `unique bases:` 10
-  - `clustered bases:` 0
+
+### 8.37 Lingua francas – full article list
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-lingua-francas-full.json`
+- **Title:** `Wikipedia: List of lingua francas – full article list`
+- **Source:** <https://en.wikipedia.org/wiki/List_of_lingua_francas>
+- **Scope:** Full list of languages explicitly called out as lingua francas in the article (Africa, Asia, Europe, pre-Columbian Americas, plus pidgins/creoles), with one entry per language (e.g. Arabic, Hausa, Hindustani, Indonesian, English, French, Quechua, Tok Pisin, etc.).
+- **Primary families / regions touched:** Cross-family sample spanning Afroasiatic, Niger–Congo, Indo-European, Dravidian, Sinitic, Japonic, Koreanic, Austronesian, Papuan, and indigenous American families, plus several major pidgins/creoles.
 
 - **How to re-run coverage:**
-  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-official-languages-by-institution-seed.json`
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-lingua-francas-full.json`
 
-- **Notes / next steps:**
-  - Official-languages-by-institution seeds are now fully represented in the mixer (catalog + map). Future work here is mostly qualitative (ensuring base choices and `min/max/d` tuning feel right, and checking race coverage) rather than structural wiring.
+- **Status tier:** **In progress (full article)** – this JSON tracks every language heading in the `List of lingua francas` article. Sign languages (e.g. Plains Sign Language / "Hand Talk") are present in the JSON as `skip: true` entries and are excluded from coverage percentages per the global sign-language exception.
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 49
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 21
+  - `ambiguous:` 1

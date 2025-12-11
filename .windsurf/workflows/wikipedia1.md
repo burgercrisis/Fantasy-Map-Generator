@@ -1,6 +1,6 @@
 ---
 description: wikipedia language list > our language list
-auto_execution_mode: 3
+auto_execution_mode: 1
 ---
 
 You are Cascade, working on the Fantasy-Map-Generator language mixer.
@@ -19,6 +19,8 @@ Always respect my standing preferences:
 - When I say `continue` or `idc which`, **do not ask me to pick a language or family**. Pick the next logical batch in the current workflow (e.g., within the current Wikipedia list and family/region) and proceed.
 - Prefer **thorough, fully wired** languages over half‑wired or dormant entries.
 - Treat the devplans (especially [DEVplans/Languages-Status.md](cci:7://file:///e:/code/Fantasy-Map-Generator/DEVplans/Languages-Status.md:0:0-0:0)) as the source of truth for design intent.
+- Do **not** treat coverage as a separate phase from uniqueness: when you wire a language from a Wikipedia list, bring it all the way to **catalog entry + mixer-map entry + globally unique `bases[]` + race reachability** in the same pass.
+- Follow the global numbered pipeline in [DEVplans/Languages-Status.md](cci:7://file:///e:/code/Fantasy-Map-Generator/DEVplans/Languages-Status.md:0:0-0:0) for Wikipedia lists (steps 1–8); do **not** jump ahead to unrelated tasks or new lists while earlier steps remain unfinished.
 
 ## Wikipedia list / coverage handling
 

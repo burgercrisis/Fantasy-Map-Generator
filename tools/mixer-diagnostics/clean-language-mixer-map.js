@@ -60,9 +60,13 @@ function main() {
   }
 
   if (apply) {
-    writeJson("config/language-mixer-map.json", kept);
+    console.log(
+      "[no-op] --apply requested, but this tool is now diagnostic-only and will not rewrite config/language-mixer-map.json."
+    );
   } else {
-    console.log("[dry-run] Not writing config/language-mixer-map.json; pass --apply to rewrite the file.");
+    console.log(
+      "[dry-run] Not writing config/language-mixer-map.json; pass --apply was previously used to rewrite the file, but is now disabled."
+    );
   }
 
   console.log("Total map entries before:", map.length);

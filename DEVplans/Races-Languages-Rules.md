@@ -546,3 +546,18 @@ This document should be updated whenever:
 
 - **Language coverage roadmap**
   - Race–language behavior assumes the underlying language system will keep expanding coverage via the plan in [Language System Status – Markov & Mixer §5](Languages-Status.md#5-planned-next-steps-when-resuming), including growing coverage via Wikipedia’s language lists with the same per-language rigor.
+
+- **Tiny isolates and exotic micro-bases (e.g. Hadza / Sandawe click isolates)**
+  - (Current practice): Even extremely small or typologically exotic languages that have their own namebases (like Hadza and Sandawe click bases) should be **fully wired** on the mixer side: each gets a catalog entry, a dedicated base or unique `bases[]` mix, and must still pass global base-uniqueness checks.
+  - (Current practice): On the race side, these isolates are attached only to a very small number of thematically appropriate non-human races rather than being added to broad human palettes. For example, `Gnoll` currently includes `Hadza isolate` and `Sandawe isolate` in its `families` filter to surface those click isolates without making them globally common.
+  - (Recommendation): Future tiny / fringe isolates that gain dedicated bases should follow the same pattern: fully wired in the mixer, but either left race-unused or attached sparingly to a small set of monster / beastfolk races where the flavor fits, instead of inflating generic race language coverage.
+
+- **Arcana Unearthed race integration**
+  - This fork currently wires a small set of **Arcana Unearthed** ancestries as full fantasy races in `modules/races.js`:
+    - Player-facing AU ancestries: `Loresong Faen`, `Quickling Faen`, `Spryte`, `Litorian`, `Mojh`, `Sibeccai`, `Verrik`.
+    - AU-flavored antagonist / monster races: `Dramojh`, `Ratmen`, `Chorram`, `Shadow Troll`.
+  - These races each have:
+    - A `fantasyRaceBases` entry, usually reusing existing smallfolk / fey, leonine, draconic, jackal/beastfolk, psionic, goblinoid, or giant/troll bases rather than introducing new fantasy bases.
+    - A `raceLanguageProfiles` entry that biases them toward appropriate mixer palettes (Celtic/Uralic small-fey, African macro-families for leonine / jackal folk, East-Asian + Indo-Iranian for Mojh / Dramojh, Indo-Aryan / Iranian / Afroasiatic for Verrik, Slavic/Germanic/Romance/Romani for Ratmen, etc.).
+  - `getRacesSetFilter("arcanaUnearthed")` defines a dedicated AU race preset containing AU PC races **plus** Dramojh / Ratmen / Chorram / Shadow Troll, and the same AU races are also blended into existing themed sets (`fey`, `beastfolk`, `primal`, `dark`, `planar`, `underdark`) where their flavor fits.
+  - For a detailed content-level breakdown of these AU races and their intended niches, see [Content – Arcana Unearthed Races](Content.md), especially §7 “Implementation status in this fork”.

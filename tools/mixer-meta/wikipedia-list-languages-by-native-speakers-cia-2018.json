@@ -12,6 +12,6 @@
     { "name": "Russian" },
     { "name": "Japanese", "iso": "jpn-lang" },
     { "name": "Western Punjabi", "iso": "punjabi" },
-    { "name": "Javanese" }
+    { "name": "Javanese", "iso": "jav" }
   ]
 }

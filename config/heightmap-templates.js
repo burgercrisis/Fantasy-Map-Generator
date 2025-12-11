@@ -64,6 +64,17 @@ const heightmapTemplates = (function () {
     Strait 2 vertical 0 0
     Strait 2 horizontal 0 0`;
 
+  const barrierIslands = `Range 3-4 15-25 5-25 10-90
+    Smooth 2 0 0 0
+    Trough 3-4 20-30 25-40 10-90
+    Range 4-6 25-35 40-55 10-90
+    Trough 2-3 15-25 45-60 10-90
+    Range 2-3 18-24 60-75 10-90
+    Smooth 2 0 0 0
+    Multiply 0.8 land 0 0
+    Strait 1-2 vertical 0 0
+    Mask 3 0 0 0`;
+
   const atoll = `Hill 1 75-80 50-60 45-55
     Hill 1.5 30-50 25-75 30-70
     Hill .5 30-50 25-35 30-70
@@ -83,6 +94,15 @@ const heightmapTemplates = (function () {
     Trough 3-6 40-50 0-100 0-10
     Trough 3-6 40-50 0-100 90-100`;
 
+  const bay = `Range 3-5 25-55 20-80 5-20
+    Range 3-5 25-55 20-80 80-95
+    Hill 4-6 30-50 25-75 0-10
+    Hill 4-6 30-50 25-75 90-100
+    Multiply 0.9 land 0 0
+    Smooth 1 0 0 0
+    Trough 4-6 20-35 55-100 20-80
+    Pit 3-5 15-25 65-95 35-65`;
+
   const peninsula = `Range 2-3 20-35 40-50 0-15
     Add 5 all 0 0
     Hill 1 90-100 10-90 0-5
@@ -91,6 +111,17 @@ const heightmapTemplates = (function () {
     Hill 1-2 3-5 5-95 40-60
     Trough 5-6 10-25 5-95 5-95
     Smooth 3 0 0 0
+    Invert 0.4 both 0 0`;
+
+  const cape = `Range 2-3 15-25 40-55 0-12
+    Add 5 all 0 0
+    Hill 1 90-100 10-90 0-5
+    Add 13 all 0 0
+    Hill 3-4 2-4 5-95 82-100
+    Hill 1-2 3-5 5-95 40-60
+    Trough 3-4 10-18 10-35 8-32
+    Smooth 4 0 0 0
+    Smooth 2 0 0 0
     Invert 0.4 both 0 0`;
 
   const pangea = `Hill 1-2 25-40 15-50 0-10
@@ -129,6 +160,16 @@ const heightmapTemplates = (function () {
     Hill 3-4 60-85 20-80 95-100
     Smooth 3 0 0 0`;
 
+  const dryLakes = `Hill 1-3 20-30 30-70 30-70
+    Hill 2-4 60-85 0-5 0-100
+    Hill 2-4 60-85 95-100 0-100
+    Hill 3-4 60-85 20-80 0-5
+    Hill 3-4 60-85 20-80 95-100
+    Pit 2-3 35-45 45-55 45-55
+    Pit 4-6 25-35 40-60 35-65
+    Pit 4-6 18-28 30-70 30-70
+    Smooth 3 0 0 0`;
+
   const oldWorld = `Range 3 70 15-85 20-80
     Hill 2-3 50-70 15-45 20-80
     Hill 2-3 50-70 65-85 20-80
@@ -153,14 +194,18 @@ const heightmapTemplates = (function () {
     lowIsland: {id: 2, name: "Low Island", template: lowIsland, probability: 9},
     continents: {id: 3, name: "Continents", template: continents, probability: 16},
     archipelago: {id: 4, name: "Archipelago", template: archipelago, probability: 18},
-    atoll: {id: 5, name: "Atoll", template: atoll, probability: 1},
-    mediterranean: {id: 6, name: "Mediterranean", template: mediterranean, probability: 5},
-    peninsula: {id: 7, name: "Peninsula", template: peninsula, probability: 3},
-    pangea: {id: 8, name: "Pangea", template: pangea, probability: 5},
-    isthmus: {id: 9, name: "Isthmus", template: isthmus, probability: 2},
-    shattered: {id: 10, name: "Shattered", template: shattered, probability: 7},
-    taklamakan: {id: 11, name: "Taklamakan", template: taklamakan, probability: 1},
-    oldWorld: {id: 12, name: "Old World", template: oldWorld, probability: 8},
-    fractious: {id: 13, name: "Fractious", template: fractious, probability: 3}
+    barrierIslands: {id: 5, name: "Barrier Islands", template: barrierIslands, probability: 4},
+    atoll: {id: 6, name: "Atoll", template: atoll, probability: 1},
+    mediterranean: {id: 7, name: "Mediterranean", template: mediterranean, probability: 5},
+    bay: {id: 16, name: "Bay", template: bay, probability: 3},
+    peninsula: {id: 8, name: "Peninsula", template: peninsula, probability: 3},
+    cape: {id: 17, name: "Cape", template: cape, probability: 2},
+    pangea: {id: 9, name: "Pangea", template: pangea, probability: 5},
+    isthmus: {id: 10, name: "Isthmus", template: isthmus, probability: 2},
+    shattered: {id: 11, name: "Shattered", template: shattered, probability: 7},
+    taklamakan: {id: 12, name: "Taklamakan", template: taklamakan, probability: 1},
+    oldWorld: {id: 13, name: "Old World", template: oldWorld, probability: 8},
+    fractious: {id: 14, name: "Fractious", template: fractious, probability: 3},
+    dryLakes: {id: 15, name: "Dry Lakes", template: dryLakes, probability: 1}
   };
 })();

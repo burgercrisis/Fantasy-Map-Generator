@@ -1,0 +1,31 @@
+{
+  "title": "Wikipedia: Oceanic subgroups – Blust (1999)",
+  "source": "https://en.wikipedia.org/wiki/Oceanic_languages",
+  "items": [
+    { "name": "Oceanic", "skip": true },
+    { "name": "Yapese language", "skip": true },
+    { "name": "Admiralty languages", "skip": true },
+    { "name": "St Matthias languages", "skip": true },
+    { "name": "Western Oceanic linkage", "skip": true },
+    { "name": "Meso-Melanesian linkage", "skip": true },
+    { "name": "New Guinea Oceanic linkage", "skip": true },
+    { "name": "North New Guinea linkage", "skip": true },
+    { "name": "Papuan Tip languages", "skip": true },
+    { "name": "Temotu languages", "skip": true },
+    { "name": "Southeast Solomonic languages", "skip": true },
+    { "name": "Southern Oceanic linkage", "skip": true },
+    { "name": "North Vanuatu linkage", "skip": true },
+    { "name": "Nuclear Southern Oceanic linkage", "skip": true },
+    { "name": "Central Vanuatu linkage", "skip": true },
+    { "name": "South Vanuatu languages", "skip": true },
+    { "name": "Loyalties-New Caledonia languages", "skip": true },
+    { "name": "Micronesian languages", "skip": true },
+    { "name": "Central Pacific languages", "skip": true },
+    { "name": "Western Central Pacific linkage", "skip": true },
+    { "name": "Rotuman language", "skip": true },
+    { "name": "Western Fijian languages", "skip": true },
+    { "name": "Eastern Central Pacific linkage", "skip": true },
+    { "name": "Eastern Fijian languages", "skip": true },
+    { "name": "Polynesian languages", "skip": true }
+  ]
+}

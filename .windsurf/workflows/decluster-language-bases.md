@@ -1,6 +1,6 @@
 ---
 description: Decluster shared language bases
-auto_execution_mode: 3
+auto_execution_mode: 1
 ---
 
 Use this workflow when you want to **break up a specific shared-base cluster** in the language mixer so that each mapped language ends up with its own **unique, linguistically appropriate `[bases]` array**, in line with:

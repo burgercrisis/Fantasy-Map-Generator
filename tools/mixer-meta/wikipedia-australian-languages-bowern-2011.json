@@ -1,0 +1,30 @@
+{
+  "title": "Wikipedia: Australian language groupings - Bowern (2011)",
+  "source": "https://en.wikipedia.org/wiki/Australian_Aboriginal_languages",
+  "items": [
+    { "name": "Tiwi" },
+    { "name": "Giimbiyu" },
+    { "name": "Marrgu" },
+    { "name": "Wagiman" },
+    { "name": "Wardaman" },
+
+    { "name": "Bunuban" },
+    { "name": "Daly" },
+    { "name": "Iwaidjan" },
+    { "name": "Jarrakan" },
+    { "name": "Nyulnyulan" },
+    { "name": "Worrorran" },
+
+    { "name": "Mirndi" },
+    { "name": "Darwin Region" },
+    { "name": "Macro-Gunwinyguan languages" },
+
+    { "name": "Greater Pama-Nyungan" },
+    { "name": "Tangkic" },
+    { "name": "Garawan" },
+    { "name": "Pama-Nyungan proper" },
+    { "name": "Western and Northern Tasmanian" },
+    { "name": "Northeastern Tasmanian" },
+    { "name": "Eastern Tasmanian" }
+  ]
+}

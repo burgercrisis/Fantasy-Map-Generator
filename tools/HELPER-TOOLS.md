@@ -525,10 +525,14 @@ Shared internal `META` table used by `fill-all-missing-mixes.js` and `fill-missi
 
 Adds a curated set of underrepresented African languages to the mixer catalog and, where possible, wires them into the mapping using existing Niger–Congo / Afroasiatic family bases.
 
+- Internally this script uses an `AFRICA_ROWS` table derived from the long `Language / Family / speakers / status` list in the Wikipedia *[Languages of Africa](https://en.wikipedia.org/wiki/Languages_of_Africa)* article (the same table referenced in §8.1 of `DEVplans/Languages-Status.md`).
+
+When the Wikipedia table changes (e.g. new rows added or family labels updated), `AFRICA_ROWS` should be refreshed against that source so the helper continues to reflect the full list while remaining **append-only** with respect to the catalog and mixer map.
+
 **Inputs / Outputs**
 
-- Reads & overwrites `config/language-mixes.json`
-- Reads & overwrites `config/language-mixer-map.json`
+- Reads `config/language-mixes.json` and `config/language-mixer-map.json`
+- When run with `--apply`, overwrites those files to append new entries
 
 **Behavior**
 
@@ -536,14 +540,16 @@ Adds a curated set of underrepresented African languages to the mixer catalog an
   - Creates a catalog entry with `region: "Africa"` and inferred `category` / `family`.
   - If possible, copies `bases[]` from existing `niger-congo-family` or `afroasiatic-family` map entries.
 - Skips any language that already exists in the catalog.
+ - Runs in **dry-run mode by default**, reporting how many catalog/mapping entries it would add without writing any files.
 
 **Usage**
 
 ```bash
-node tools/mixer-catalog/add-african-languages.js
+node tools/mixer-catalog/add-african-languages.js           # dry-run only (no writes)
+node tools/mixer-catalog/add-african-languages.js --apply   # append new catalog + map entries
 ```
 
-Run this when expanding African coverage using the curated list of languages.
+Run this when expanding African coverage using the curated list of languages. The recommended workflow is to run the script **without** `--apply` first to inspect the summary, and only then re-run it with `--apply` once you are satisfied with the proposed additions.
 
 ---
 
@@ -744,6 +750,86 @@ Options:
 - `--base-region=VALUE`  forward `--region=VALUE` to `report-language-mixer-base-clusters.js`
 
 Use this when you want a quick, read-only health snapshot without running any mutating helpers.
+
+---
+
+### `report-wikipedia-list-coverage.js`
+
+**Purpose**
+
+Reports coverage for a single Wikipedia language list JSON by checking, for each listed language, whether it has entries in `config/language-mixes.json` and `config/language-mixer-map.json`.
+
+**Inputs / Outputs**
+
+- Input JSON may be either:
+  - an array of `{ name, iso?, skip? }` items, or
+  - an object `{ title, source, items }` where `items` is that array.
+- Reads (without writing):
+  - `config/language-mixes.json`
+  - `config/language-mixer-map.json`
+- Prints a console summary plus per-item detail for missing / unmatched / ambiguous entries.
+
+**Behavior**
+
+- For each item:
+  - If `skip: true`, marks it as `skipped` (not counted toward coverage).
+  - Otherwise resolves `iso` (from `item.iso` or by matching `name` against the catalog).
+  - Classifies status as `full`, `missing-catalog`, `missing-map`, `missing-both`, `unmatched`, or `ambiguous`.
+- Aggregates counts and prints a coverage summary plus per-category lists of problem items.
+
+**Usage**
+
+```bash
+node tools/mixer-core/report-wikipedia-list-coverage.js path/to/list.json
+```
+
+Use this when iterating on a specific Wikipedia list JSON and you want a quick read-only view of what is wired vs missing before updating any devplans.
+
+---
+
+### `update-wikipedia-list-coverage-in-devplan.js`
+
+**Purpose**
+
+Computes coverage for a Wikipedia list JSON (using the same logic as `report-wikipedia-list-coverage.js`) and automatically refreshes the corresponding `Snapshot from last run` block in `DEVplans/Languages-Status.md` for that list.
+
+**Inputs / Outputs**
+
+- Arguments:
+  - `<list-json-rel-path>` – relative path to the list JSON under the project root.
+  - `[DEVPLAN_REL]` – optional devplan Markdown path (defaults to `DEVplans/Languages-Status.md`).
+- Reads (without writing):
+  - the list JSON (array or `{ title, source, items }`).
+  - `config/language-mixes.json`
+  - `config/language-mixer-map.json`
+- Writes:
+  - updates the snapshot lines under the `- **JSON file:**` entry matching the list path in the target devplan.
+
+**Behavior**
+
+- Resolves list items exactly as `report-wikipedia-list-coverage.js` does, including `skip: true` handling.
+- Locates the `- **JSON file:** \`...\`` line in the devplan and the following `- **Snapshot from last run (all list items):` block.
+- Rewrites the per-status counts (`fully wired`, `missing catalog`, `missing map`, `missing both`, `unmatched`, `ambiguous`) based on the current run.
+
+**Usage**
+
+```bash
+node tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js \
+  tools/mixer-meta/wikipedia-languages-of-africa-full.json
+```
+
+Run this **instead of manually editing coverage snapshots** whenever you change a list JSON or after wiring more languages; it keeps `Languages-Status.md` in sync with the actual mixer catalog/map.
+
+**Global policy for Wikipedia list JSONs**
+
+- For each Wikipedia **language list article**, there should be **one canonical full-list JSON** (e.g. `*-full.json`) that contains **every language row from the article**, subject to these exceptions:
+  - **Sign languages** are tracked but excluded from coverage by marking them with `"skip": true`.
+  - **Truly unreconstructible extinct languages** (no speakers and not meaningfully studied) may be omitted; extinct languages that are still studied or partly reconstructible **are in scope** and should be included.
+- Historical `*-seed` / `*-subset` JSONs are deprecated and removed; helpers and coverage snapshots operate only on the canonical full-list JSONs.
+- Once a language exists in the mixer catalog or map, these helpers must **never remove it**; coverage work is additive and driven by wiring missing languages, not by deleting them.
+- In this project, a list item is not considered **fully wired** until it has a catalog entry, a mixer-map entry, and a **globally unique `bases[]` array** (subject only to explicitly documented historical exceptions); use these helpers to move each language all the way to that state, not to perform coverage-only passes.
+
+Use this helper as the final step in a Wikipedia list workflow: first sync the JSON to the live article, then wire missing languages in catalog/map, and finally re-run this script to refresh the devplan snapshot.
 
 ---
 

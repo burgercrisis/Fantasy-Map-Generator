@@ -1191,37 +1191,41 @@ function main() {
     return resolved;
   }
 
-  // First, normalize the existing map: drop any bases that do not
-  // correspond to a real namebase index. If an entry ends up with no
-  // valid bases, treat it as unmapped so we can try to infer a better
-  // mapping (e.g. Alor Malay should reuse the Malay base instead of an
-  // old, now-missing Malaccan base).
+  // First, normalize the existing map: filter out bases that do not
+  // correspond to a real namebase index. If an entry ends up with no valid
+  // bases, keep the ISO but leave bases[] empty so it is treated as
+  // unmapped and can be re-inferred.
   const validBaseIndices = namebases.indices;
-  const normalizedMap = [];
+  const sanitizedMap = [];
   const droppedIsos = [];
 
   for (const entry of map) {
     if (!entry || !entry.iso) continue;
-    const bases = Array.isArray(entry.bases) ? entry.bases.filter(b => validBaseIndices.has(b)) : [];
-    if (!bases.length) {
-      droppedIsos.push(entry.iso);
-      continue;
+    const iso = entry.iso;
+    const hadBases = Array.isArray(entry.bases) && entry.bases.length > 0;
+    const bases = Array.isArray(entry.bases)
+      ? entry.bases.filter(b => validBaseIndices.has(b))
+      : [];
+    if (!bases.length && hadBases) {
+      droppedIsos.push(iso);
     }
-    normalizedMap.push({iso: entry.iso, bases});
+    sanitizedMap.push({iso, bases});
   }
 
   if (droppedIsos.length) {
     console.log(
-      "Dropped mappings with invalid base indices:",
+      "Normalized mappings with invalid base indices to empty bases (will be re-inferred):",
       droppedIsos.length,
       "=>",
       droppedIsos.join(", ")
     );
   }
 
-  map = normalizedMap;
+  map = sanitizedMap;
 
-  const mappedIsos = new Set(map.map(e => e.iso));
+  const mappedIsos = new Set(
+    map.filter(e => Array.isArray(e.bases) && e.bases.length).map(e => e.iso)
+  );
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
 

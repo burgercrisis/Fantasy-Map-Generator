@@ -3585,6 +3585,30 @@
     "family": "Eskimo–Aleut"
   },
   {
+    "name": "Inuinnaqtun",
+    "iso": "inuinnaqtun",
+    "region": "Arctic",
+    "category": "Eskimo–Aleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inuinnaqtun",
+    "family": "Eskimo–Aleut"
+  },
+  {
+    "name": "Inuvialuktun",
+    "iso": "inuvialuktun",
+    "region": "Arctic",
+    "category": "Eskimo–Aleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inuvialuktun",
+    "family": "Eskimo–Aleut"
+  },
+  {
+    "name": "Iñupiaq",
+    "iso": "inupiaq",
+    "region": "Arctic",
+    "category": "Eskimo–Aleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/I%C3%B1upiaq_language",
+    "family": "Eskimo–Aleut"
+  },
+  {
     "name": "Kalaallisut",
     "iso": "kalaallisut",
     "region": "Arctic",
@@ -3888,6 +3912,14 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Balti_language",
+    "family": "Bodish"
+  },
+  {
+    "name": "Standard Tibetan",
+    "iso": "tibetan",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Standard_Tibetan",
     "family": "Bodish"
   },
   {
@@ -4621,6 +4653,14 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Fuqing_dialect",
+    "family": "Min"
+  },
+  {
+    "name": "Hokkien",
+    "iso": "hokkien",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hokkien",
     "family": "Min"
   },
   {
@@ -8280,6 +8320,14 @@
     "category": "Indo-Iranian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tajik_language",
     "family": "Indo-Iranian"
+  },
+  {
+    "name": "Persian",
+    "iso": "persian",
+    "region": "West Asia",
+    "category": "Iranian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persian_language",
+    "family": "Iranian"
   },
   {
     "name": "Turkmen",
@@ -14366,6 +14414,149 @@
     "family": "Mayan"
   },
   {
+    "name": "Achi",
+    "iso": "acr",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Akatek",
+    "iso": "knj",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Chuj",
+    "iso": "cac",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Ixil",
+    "iso": "ixl",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Tz'utujil",
+    "iso": "tzj",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Uspantek",
+    "iso": "usp",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Awakatek",
+    "iso": "agu",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Chicomuceltec",
+    "iso": "cob",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Chontal Maya",
+    "iso": "chf",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Jakaltek",
+    "iso": "jac",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Lacandon",
+    "iso": "lac",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Mocho'",
+    "iso": "mhc",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Mopan",
+    "iso": "mop",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Sakapultek",
+    "iso": "quv",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Tektitek",
+    "iso": "ttc",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Tojol-ab'al",
+    "iso": "toj",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Ch'olti'",
+    "iso": "cholti-classic",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Classic_Maya_language"
+  },
+  {
+    "name": "Ch'orti'",
+    "iso": "caa",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%27orti%27_language"
+  },
+  {
+    "name": "Coxoh",
+    "iso": "coxoh-maya",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan"
+  },
+  {
+    "name": "Sipakapense",
+    "iso": "qum",
+    "region": "Mesoamerica",
+    "category": "Mayan",
+    "family": "Mayan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sipakapense_language"
+  },
+  {
     "name": "Zapotec",
     "iso": "zapotec",
     "region": "Mesoamerica",
@@ -14965,6 +15156,39 @@
     "family": "English-based",
     "tags": [
       "pidgin"
+    ],
+    "lexifier": "English"
+  },
+  {
+    "name": "New Zealand Pidgin English",
+    "iso": "new-zealand-pidgin-english",
+    "region": "Pacific",
+    "category": "Pidgin",
+    "family": "English-based",
+    "tags": [
+      "pidgin"
+    ],
+    "lexifier": "English"
+  },
+  {
+    "name": "Spanglish",
+    "iso": "spanglish",
+    "region": "Americas",
+    "category": "Mixed",
+    "family": "English-based",
+    "tags": [
+      "mixed"
+    ],
+    "lexifier": "English"
+  },
+  {
+    "name": "Franglish",
+    "iso": "franglish",
+    "region": "Europe",
+    "category": "Mixed",
+    "family": "English-based",
+    "tags": [
+      "mixed"
     ],
     "lexifier": "English"
   },
@@ -19460,7 +19684,9 @@
     "category": "Creole",
     "wikipedia": "https://en.wikipedia.org/wiki/Hiri_Motu",
     "family": "Motu-based",
-    "tags": ["creole"]
+    "tags": [
+      "creole"
+    ]
   },
   {
     "name": "Rejang",
@@ -21339,6 +21565,14 @@
     "family": "Tupian"
   },
   {
+    "name": "Nheengatu",
+    "iso": "nheengatu",
+    "region": "South America",
+    "category": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nheengatu",
+    "family": "Tupian"
+  },
+  {
     "name": "Guyanese Creole",
     "iso": "guyanese-creole",
     "region": "South America",
@@ -21569,6 +21803,38 @@
     "category": "Arawakan",
     "wikipedia": "https://en.wikipedia.org/wiki/Wayuu_language",
     "family": "Arawakan"
+  },
+  {
+    "name": "Wapishana",
+    "iso": "wapishana",
+    "region": "South America",
+    "category": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wapishana_language",
+    "family": "Arawakan"
+  },
+  {
+    "name": "Macushi",
+    "iso": "macushi",
+    "region": "South America",
+    "category": "Cariban",
+    "wikipedia": "https://en.wikipedia.org/wiki/Macushi_language",
+    "family": "Cariban"
+  },
+  {
+    "name": "Waiwai",
+    "iso": "waiwai",
+    "region": "South America",
+    "category": "Cariban",
+    "wikipedia": "https://en.wikipedia.org/wiki/Waiwai_language",
+    "family": "Cariban"
+  },
+  {
+    "name": "Yukpa",
+    "iso": "yukpa",
+    "region": "South America",
+    "category": "Cariban",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yukpa_language",
+    "family": "Cariban"
   },
   {
     "name": "Xocó",
@@ -21916,6 +22182,70 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Toba_Batak_language"
   },
   {
+    "name": "Malaysian Malay",
+    "iso": "malaysian-malay",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malaysian_Malay"
+  },
+  {
+    "name": "Tetum",
+    "iso": "tetum",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetum_language"
+  },
+  {
+    "name": "Carolinian",
+    "iso": "carolinian",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "family": "Micronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carolinian_language"
+  },
+  {
+    "name": "Kanak",
+    "iso": "kanak",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Kanak languages",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kanak_languages"
+  },
+  {
+    "name": "Sonsorolese",
+    "iso": "sonsorolese",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "family": "Sonsorolese",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonsorolese_language"
+  },
+  {
+    "name": "Tobian",
+    "iso": "tobian",
+    "region": "Pacific",
+    "category": "Micronesian",
+    "family": "Tobian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tobian_language"
+  },
+  {
+    "name": "Banjar",
+    "iso": "banjar",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Banjar_language"
+  },
+  {
+    "name": "Waray",
+    "iso": "waray",
+    "region": "Southeast Asia",
+    "category": "Austronesian",
+    "family": "Malayo-Polynesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Waray_language"
+  },
+  {
     "name": "Kachin",
     "iso": "kac",
     "region": "Southeast Asia",
@@ -21946,5 +22276,853 @@
     "category": "Austroasiatic",
     "family": "Khasic",
     "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language"
+  },
+  {
+    "name": "Aleut",
+    "iso": "ale",
+    "region": "Arctic",
+    "category": "Eskimo-Aleut",
+    "family": "Aleut",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aleut_language"
+  },
+  {
+    "name": "Yupik",
+    "iso": "yup",
+    "region": "Arctic",
+    "category": "Eskimo-Aleut",
+    "family": "Yupik",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yupik_languages"
+  },
+  {
+    "name": "Apache",
+    "iso": "apa",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Apache_languages"
+  },
+  {
+    "name": "Shirongol",
+    "iso": "shirongol",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Shirongolic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shirongolic_languages"
+  },
+  {
+    "name": "Baoanic",
+    "iso": "baoanic",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Baoanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Baoan_language"
+  },
+  {
+    "name": "Ashaninka",
+    "iso": "ashaninka",
+    "region": "South America",
+    "category": "Arawakan",
+    "family": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ashaninka_language"
+  },
+  {
+    "name": "Shipibo-Conibo",
+    "iso": "shipibo-conibo",
+    "region": "South America",
+    "category": "Panoan",
+    "family": "Panoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shipibo_language"
+  },
+  {
+    "name": "Kashinawa",
+    "iso": "kashinawa",
+    "region": "South America",
+    "category": "Panoan",
+    "family": "Panoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kashinawa_language"
+  },
+  {
+    "name": "Yaminawa",
+    "iso": "yaminawa",
+    "region": "South America",
+    "category": "Panoan",
+    "family": "Panoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yaminawa_language"
+  },
+  {
+    "name": "Piapoco",
+    "iso": "piapoco",
+    "region": "South America",
+    "category": "Arawakan",
+    "family": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Piapoco_language"
+  },
+  {
+    "name": "Piaroa",
+    "iso": "piaroa",
+    "region": "South America",
+    "category": "Saliban",
+    "family": "Saliban",
+    "wikipedia": "https://en.wikipedia.org/wiki/Piaroa_language"
+  },
+  {
+    "name": "Macuna",
+    "iso": "macuna",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Macuna_language"
+  },
+  {
+    "name": "Kanamari",
+    "iso": "kanamari",
+    "region": "South America",
+    "category": "Arauan",
+    "family": "Arauan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kanamari_language"
+  },
+  {
+    "name": "Warao",
+    "iso": "warao",
+    "region": "South America",
+    "category": "Isolate",
+    "family": "Warao",
+    "wikipedia": "https://en.wikipedia.org/wiki/Warao_language"
+  },
+  {
+    "name": "Yanomami",
+    "iso": "yanomami",
+    "region": "South America",
+    "category": "Yanomaman",
+    "family": "Yanomaman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yanomami_language"
+  },
+  {
+    "name": "Saari",
+    "iso": "saari",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:asj"
+  },
+  {
+    "name": "Saba",
+    "iso": "saba",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Saho",
+    "iso": "saho",
+    "region": "Horn of Africa",
+    "category": "Afroasiatic",
+    "family": "Cushitic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saho_language"
+  },
+  {
+    "name": "Samwe",
+    "iso": "samwe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:wbf"
+  },
+  {
+    "name": "Sakata",
+    "iso": "sakata",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sekele",
+    "iso": "sekele",
+    "region": "Africa",
+    "category": "Kx'a",
+    "family": "Kx'a"
+  },
+  {
+    "name": "Sena",
+    "iso": "sena",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Senara",
+    "iso": "senara",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Senara_language"
+  },
+  {
+    "name": "Sengele",
+    "iso": "sengele",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sepedi",
+    "iso": "sepedi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Setlôkwa",
+    "iso": "setlokwa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Shanjo",
+    "iso": "shanjo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Shi",
+    "iso": "shi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Shwai",
+    "iso": "shwai",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sighu",
+    "iso": "sighu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sighu_language"
+  },
+  {
+    "name": "Simaa",
+    "iso": "simaa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sinyar",
+    "iso": "sinyar",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sinyar_language"
+  },
+  {
+    "name": "Siwu",
+    "iso": "siwu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siwu_language"
+  },
+  {
+    "name": "Soli",
+    "iso": "soli",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sotho",
+    "iso": "sotho",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "South Banda",
+    "iso": "south-banda",
+    "region": "Africa",
+    "category": "Ubangian",
+    "family": "Ubangian"
+  },
+  {
+    "name": "Southeast Ijo",
+    "iso": "southeast-ijo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Southern Birifor",
+    "iso": "southern-birifor",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Southern_Birifor_language"
+  },
+  {
+    "name": "Suba",
+    "iso": "suba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Suba_language"
+  },
+  {
+    "name": "Suba-Simbiti",
+    "iso": "suba-simbiti",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Suba-Simbiti_language"
+  },
+  {
+    "name": "Sucite",
+    "iso": "sucite",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Suku",
+    "iso": "suku",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sukur",
+    "iso": "sukur",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Supyire",
+    "iso": "supyire",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Sumayela Ndebele",
+    "iso": "sumayela-ndebele",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Susu",
+    "iso": "susu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Suwu",
+    "iso": "suwu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:szv"
+  },
+  {
+    "name": "Songhoyboro Ciine",
+    "iso": "songhoyboro-ciine",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Southern Ndebele",
+    "iso": "southern-ndebele",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Surbakhal",
+    "iso": "surbakhal",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Surbakhal_language"
+  },
+  {
+    "name": "Syer-Tenyer",
+    "iso": "syer-tenyer",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Syer-Tenyer_language"
+  },
+  {
+    "name": "Swazi",
+    "iso": "swazi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tadaksahak",
+    "iso": "tadaksahak",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Tagdal",
+    "iso": "tagdal",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Tagoi",
+    "iso": "tagoi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tagoi_language"
+  },
+  {
+    "name": "Tagwana",
+    "iso": "tagwana",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Talodi",
+    "iso": "talodi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Talodi_language"
+  },
+  {
+    "name": "Talni",
+    "iso": "talni",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Talni_language"
+  },
+  {
+    "name": "Tasawaq",
+    "iso": "tasawaq",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Teda",
+    "iso": "teda",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Tegali",
+    "iso": "tegali",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tegali_language"
+  },
+  {
+    "name": "Tegem",
+    "iso": "tegem",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tegem_language"
+  },
+  {
+    "name": "Tembo",
+    "iso": "tembo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tembo_(Kitembo)_language"
+  },
+  {
+    "name": "Tetela",
+    "iso": "tetela",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetela_language"
+  },
+  {
+    "name": "Tikar",
+    "iso": "tikar",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tikar_language"
+  },
+  {
+    "name": "Tiro",
+    "iso": "tiro",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tiro_language"
+  },
+  {
+    "name": "Tima",
+    "iso": "tima",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tima_language"
+  },
+  {
+    "name": "Tiv",
+    "iso": "tiv",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tiv_language"
+  },
+  {
+    "name": "Tocho",
+    "iso": "tocho",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tocho_language"
+  },
+  {
+    "name": "Tondi Songway Kiini",
+    "iso": "tondi-songway-kiini",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tondi_Songway_Kiini"
+  },
+  {
+    "name": "Tonga (Zimbabwe, Zambia, and Mozambique)",
+    "iso": "tonga-zimbabwe-zambia-and-mozambique",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tonga (Mozambique)",
+    "iso": "tonga-mozambique",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tonga (Malawi)",
+    "iso": "tonga-malawi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Totela",
+    "iso": "totela",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tsamai",
+    "iso": "tsamai",
+    "region": "Africa",
+    "category": "Afroasiatic",
+    "family": "Afroasiatic"
+  },
+  {
+    "name": "Tsotsitaal and Camtho, aka Iscamtho",
+    "iso": "tsotsitaal-and-camtho-aka-iscamtho",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tshiluba",
+    "iso": "tshiluba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tsonga or Xitsonga",
+    "iso": "tsonga-or-xitsonga",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tshivenda",
+    "iso": "tshivenda",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tswa",
+    "iso": "tswa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tulishi",
+    "iso": "tulishi",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tulishi_language"
+  },
+  {
+    "name": "Tumbuka",
+    "iso": "tumbuka",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tumtum",
+    "iso": "tumtum",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tumtum_language"
+  },
+  {
+    "name": "Twi",
+    "iso": "twi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Tyap",
+    "iso": "tyap",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Uduk",
+    "iso": "uduk",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Umbundu",
+    "iso": "umbundu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Venda",
+    "iso": "venda",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Vengo",
+    "iso": "vengo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Viemo",
+    "iso": "viemo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Viti",
+    "iso": "viti",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Vori",
+    "iso": "vori",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Voro",
+    "iso": "voro",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Wannu",
+    "iso": "wannu",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Wali (Ghana)",
+    "iso": "wali-ghana",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Wali (Sudan)",
+    "iso": "wali-sudan",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Wapan",
+    "iso": "wapan",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Weh",
+    "iso": "weh",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Werni",
+    "iso": "werni",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "West Banda",
+    "iso": "west-banda",
+    "region": "Africa",
+    "category": "Ubangian",
+    "family": "Ubangian"
+  },
+  {
+    "name": "Wongo",
+    "iso": "wongo",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Wushi",
+    "iso": "wushi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yamba",
+    "iso": "yamba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yangere",
+    "iso": "yangere",
+    "region": "Africa",
+    "category": "Ubangian",
+    "family": "Ubangian"
+  },
+  {
+    "name": "Yalunka",
+    "iso": "yalunka",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yela-Kela",
+    "iso": "yela-kela",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yemba",
+    "iso": "yemba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yeyi",
+    "iso": "yeyi",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yobe",
+    "iso": "yobe",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Yulu",
+    "iso": "yulu",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Zaghawa",
+    "iso": "zaghawa",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Nilo-Saharan"
+  },
+  {
+    "name": "Zande",
+    "iso": "zande",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Zemba",
+    "iso": "zemba",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Zhire",
+    "iso": "zhire",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
+  },
+  {
+    "name": "Zhoa",
+    "iso": "zhoa",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "family": "Niger-Congo"
   }
 ]

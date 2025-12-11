@@ -167,6 +167,9 @@ Smaller changes vs upstream include:
   - `run_php_server.bat` and `run_python_server.bat` tweaked for local workflow (ports/paths). Behavior is still "start a simple local web server" but tuned for this fork.
 - **`package.json`:**
   - Light updates to scripts/dependencies to support the new workflow and tooling (while still remaining a static‑site style project).
+ - **Heightmap templates:**
+  - Added a new procedural `Barrier Islands` heightmap template in `config/heightmap-templates.js`, exposing a coastal layout with offshore barrier chains alongside the existing island/continent templates.
+  - Added a new procedural `Bay` heightmap template in `config/heightmap-templates.js`, shaping a semi-enclosed sea with land-wrapped coasts and a narrow outer opening.
 
 ---
 

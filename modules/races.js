@@ -189,7 +189,7 @@ const raceLanguageProfiles = {
   },
   Gnoll: {
     categories: ["Afroasiatic", "Nilo-Saharan"],
-    families: ["Afroasiatic", "Nilo-Saharan", "Semitic"]
+    families: ["Afroasiatic", "Nilo-Saharan", "Semitic", "Hadza isolate", "Sandawe isolate"]
   },
   Bugbear: {
     categories: ["Slavic", "Afroasiatic", "Niger-Congo"],
@@ -203,6 +203,11 @@ const raceLanguageProfiles = {
       "Totonacan",
       "Mayan",
       "Arawakan",
+      "Cariban",
+      "Panoan",
+      "Tucanoan",
+      "Arauan",
+      "Saliban",
       "Aymaran",
       "Araucanian",
       "Oto-Manguean"
@@ -214,12 +219,18 @@ const raceLanguageProfiles = {
       "Totonacan",
       "Mayan",
       "Arawakan",
+      "Cariban",
+      "Panoan",
+      "Tucanoan",
+      "Arauan",
+      "Saliban",
       "Aymaran",
       "Araucanian",
       "Oto-Manguean",
       "Purépecha isolate",
       "Seri isolate",
-      "Huave isolate"
+      "Huave isolate",
+      "Muran"
     ]
   },
   Warforged: {
@@ -897,8 +908,6 @@ function assignRaces() {
     clearRaces();
     return;
   }
-
-  initializeRacesForExpansion();
 
   function getRaceFromCultureId(cultureId) {
     const culture = pack.cultures && pack.cultures[cultureId];

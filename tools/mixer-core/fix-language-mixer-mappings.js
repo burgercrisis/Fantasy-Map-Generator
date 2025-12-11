@@ -27,7 +27,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "..", "..");
 
 // Explicit overrides where we know exactly which base index to use.
 // This is useful for creoles that clearly belong to a specific

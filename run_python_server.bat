@@ -1,3 +1,3 @@
-start chrome.exe http://localhost:3003/
+start chrome.exe http://localhost:3000/
 @echo off
-python -m http.server 3003
+python -m http.server 3000

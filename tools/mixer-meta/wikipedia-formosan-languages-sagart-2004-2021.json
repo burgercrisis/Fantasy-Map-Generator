@@ -1,0 +1,54 @@
+{
+  "title": "Wikipedia: Formosan and Austronesian branches - Sagart (2004, 2021)",
+  "source": "https://en.wikipedia.org/wiki/Formosan_languages",
+  "items": [
+    { "name": "Austronesian", "skip": true },
+
+    { "name": "Saisiyat" },
+    { "name": "Luilang" },
+    { "name": "Pazeh" },
+    { "name": "Kulon" },
+
+    { "name": "Pituish", "skip": true },
+    { "name": "Favorlang-Taokas", "skip": true },
+    { "name": "Favorlang" },
+    { "name": "Taokas" },
+
+    { "name": "Limaish", "skip": true },
+    { "name": "Thao-Atayalic", "skip": true },
+    { "name": "Thao" },
+    { "name": "Atayal" },
+    { "name": "Seediq" },
+
+    { "name": "Enemish", "skip": true },
+    { "name": "Siraya" },
+
+    { "name": "Walu-Siwaish", "skip": true },
+    { "name": "Papora-Hoanya", "skip": true },
+    { "name": "Papora" },
+    { "name": "Hoanya" },
+
+    { "name": "Bunun" },
+    { "name": "Rukai-Tsouic", "skip": true },
+    { "name": "Rukai" },
+    { "name": "Tsouic", "skip": true },
+    { "name": "Tsou" },
+    { "name": "Saaroa" },
+    { "name": "Kanakanavu" },
+
+    { "name": "East Western Plains (EWS)", "skip": true },
+    { "name": "Kavalanic languages", "skip": true },
+    { "name": "Kavalan" },
+    { "name": "Basay" },
+
+    { "name": "Puluqish", "skip": true },
+    { "name": "Northern (Ami-Puyuma)", "skip": true },
+    { "name": "Amis" },
+    { "name": "Puyuma" },
+    { "name": "Paiwan" },
+
+    { "name": "Southern Austronesian", "skip": true },
+    { "name": "Kra-Dai", "skip": true },
+    { "name": "Malayo-Polynesian", "skip": true }
+  ]
+}

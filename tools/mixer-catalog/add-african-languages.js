@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "..", "..");
 
 function readJson(relPath) {
   const full = path.join(root, relPath);
@@ -235,10 +235,132 @@ const AFRICA_ROWS = [
   {name: "El Molo", family: "Nilo-Saharan (Probable)"},
   {name: "Qwara", family: "Afroasiatic"},
   {name: "Hozo", family: "Nilo-Saharan (Probable)"},
-  {name: "Seze", family: "Nilo-Saharan (Probable)"}
+  {name: "Seze", family: "Nilo-Saharan (Probable)"},
+  {name: "Saari", family: "Niger–Congo (Probable)"},
+  {name: "Saba", family: "Afroasiatic"},
+  {name: "Saho", family: "Niger–Congo (Probable)"},
+  {name: "Samo", family: "Niger–Congo (Probable)"},
+  {name: "Samwe", family: "Niger–Congo (Probable)"},
+  {name: "Sakata", family: "Niger–Congo (Probable)"},
+  {name: "Saya", family: "Niger–Congo (Probable)"},
+  {name: "Sekele", family: "Kxʼa"},
+  {name: "Sena", family: "Niger–Congo (Probable)"},
+  {name: "Senara", family: "Niger–Congo (Probable)"},
+  {name: "Sengele", family: "Niger–Congo (Probable)"},
+  {name: "Sepedi", family: "Niger–Congo (Probable)"},
+  {name: "Sesotho", family: "Niger–Congo (Probable)"},
+  {name: "Setlôkwa", family: "Niger–Congo (Probable)"},
+  {name: "Seychellois Creole", family: "French Creole"},
+  {name: "Shabo", family: "Language isolate or possible Nilo-Saharan"},
+  {name: "Shanjo", family: "Niger–Congo (Probable)"},
+  {name: "Shi", family: "Niger–Congo (Probable)"},
+  {name: "Shona", family: "Niger–Congo (Probable)"},
+  {name: "Shwai", family: "Niger–Congo (Probable)"},
+  {name: "Sighu", family: "Niger–Congo (Probable)"},
+  {name: "Simaa", family: "Niger–Congo (Probable)"},
+  {name: "Sinyar", family: "Nilo-Saharan (Probable)"},
+  {name: "Siwu", family: "Nilo-Saharan (Probable)"},
+  {name: "Somali", family: "Afroasiatic"},
+  {name: "Soninke", family: "Niger–Congo (Probable)"},
+  {name: "Soli", family: "Niger–Congo (Probable)"},
+  {name: "Sotho", family: "Niger–Congo (Probable)"},
+  {name: "South Banda", family: "Ubangian"},
+  {name: "Southeast Ijo", family: "Niger–Congo (Probable)"},
+  {name: "Southern Birifor", family: "Niger–Congo (Probable)"},
+  {name: "Suba", family: "Niger–Congo (Probable)"},
+  {name: "Suba-Simbiti", family: "Niger–Congo (Probable)"},
+  {name: "Sucite", family: "Niger–Congo (Probable)"},
+  {name: "Suku", family: "Niger–Congo (Probable)"},
+  {name: "Sukur", family: "Afroasiatic"},
+  {name: "Supyire", family: "Niger–Congo (Probable)"},
+  {name: "Sumayela Ndebele", family: "Niger–Congo (Probable)"},
+  {name: "Susu", family: "Niger–Congo (Probable)"},
+  {name: "Suwu", family: "Niger–Congo (Probable)"},
+  {name: "Spanish", family: "Indo-European"},
+  {name: "Songhoyboro Ciine", family: "Nilo-Saharan (Probable)"},
+  {name: "Southern Ndebele", family: "Niger–Congo"},
+  {name: "Surbakhal", family: "Nilo-Saharan (Probable)"},
+  {name: "Syer-Tenyer", family: "Niger–Congo (Probable)"},
+  {name: "Swahili", family: "Niger–Congo (Probable)"},
+  {name: "Swazi", family: "Niger–Congo (Probable)"},
+  {name: "Taa", family: "Tuu"},
+  {name: "Tadaksahak", family: "Nilo-Saharan (Probable)"},
+  {name: "Tagdal", family: "Nilo-Saharan (Probable)"},
+  {name: "Tagoi", family: "Niger–Congo (Probable)"},
+  {name: "Tagwana", family: "Niger–Congo (Probable)"},
+  {name: "Talodi", family: "Niger–Congo (Probable)"},
+  {name: "Talni", family: "Niger–Congo (Probable)"},
+  {name: "Tamil", family: "Dravidian"},
+  {name: "Tasawaq", family: "Nilo-Saharan (Probable)"},
+  {name: "Teda", family: "Nilo-Saharan (Probable)"},
+  {name: "Tegali", family: "Niger–Congo (Probable)"},
+  {name: "Tegem", family: "Niger–Congo (Probable)"},
+  {name: "Telugu", family: "Dravidian"},
+  {name: "Tembo", family: "Niger–Congo (Probable)"},
+  {name: "Tetela", family: "Niger–Congo (Probable)"},
+  {name: "Tigrinya", family: "Afroasiatic"},
+  {name: "Tikar", family: "Niger–Congo (Probable)"},
+  {name: "Tiro", family: "Niger–Congo (Probable)"},
+  {name: "Tima", family: "Niger–Congo (Probable)"},
+  {name: "Tiv", family: "Niger–Congo (Probable)"},
+  {name: "Tocho", family: "Niger–Congo (Probable)"},
+  {name: "Tondi Songway Kiini", family: "Nilo-Saharan (Probable)"},
+  {name: "Tonga (Zimbabwe, Zambia, and Mozambique)", family: "Niger–Congo (Probable)"},
+  {name: "Tonga (Mozambique)", family: "Niger–Congo (Probable)"},
+  {name: "Tonga (Malawi)", family: "Niger–Congo (Probable)"},
+  {name: "Totela", family: "Niger–Congo (Probable)"},
+  {name: "Tsamai", family: "Afroasiatic"},
+  {name: "Tsotsitaal and Camtho, aka Iscamtho", family: "Niger–Congo (Probable)"},
+  {name: "Tshiluba", family: "Niger–Congo (Probable)"},
+  {name: "Tsonga or Xitsonga", family: "Niger–Congo (Probable)"},
+  {name: "Tshivenda", family: "Niger–Congo (Probable)"},
+  {name: "Tswa", family: "Niger–Congo (Probable)"},
+  {name: "Tswana", family: "Niger–Congo (Probable)"},
+  {name: "Tulishi", family: "Nilo-Saharan"},
+  {name: "Tumbuka", family: "Niger–Congo (Probable)"},
+  {name: "Tumtum", family: "Nilo-Saharan (Probable)"},
+  {name: "Twi", family: "Niger–Congo (Probable)"},
+  {name: "Tyap", family: "Niger–Congo (Probable)"},
+  {name: "Uduk", family: "Nilo-Saharan (Probable)"},
+  {name: "Umbundu", family: "Niger–Congo (Probable)"},
+  {name: "Venda", family: "Niger–Congo (Probable)"},
+  {name: "Vengo", family: "Niger–Congo (Probable)"},
+  {name: "Viemo", family: "Niger–Congo (Probable)"},
+  {name: "Viti", family: "Niger–Congo (Probable)"},
+  {name: "Vori", family: "Niger–Congo (Probable)"},
+  {name: "Voro", family: "Niger–Congo (Probable)"},
+  {name: "Wannu", family: "Niger–Congo (Probable)"},
+  {name: "Wali (Ghana)", family: "Niger–Congo (Probable)"},
+  {name: "Wali (Sudan)", family: "Nilo-Saharan (Probable)"},
+  {name: "Wapan", family: "Niger–Congo (Probable)"},
+  {name: "Weh", family: "Niger–Congo (Probable)"},
+  {name: "Werni", family: "Niger–Congo (Probable)"},
+  {name: "West Banda", family: "Ubangian"},
+  {name: "Wolof", family: "Niger–Congo (Probable)"},
+  {name: "Wongo", family: "Niger–Congo (Probable)"},
+  {name: "Wushi", family: "Niger–Congo (Probable)"},
+  {name: "Xhosa", family: "Niger–Congo (Probable)"},
+  {name: "Yamba", family: "Niger–Congo (Probable)"},
+  {name: "Yangere", family: "Ubangian"},
+  {name: "Yalunka", family: "Niger–Congo (Probable)"},
+  {name: "Yela-Kela", family: "Niger–Congo (Probable)"},
+  {name: "Yemba", family: "Niger–Congo (Probable)"},
+  {name: "Yeyi", family: "Niger–Congo (Probable)"},
+  {name: "Yobe", family: "Niger–Congo (Probable)"},
+  {name: "Yoruba", family: "Niger–Congo (Probable)"},
+  {name: "Yulu", family: "Nilo-Saharan (Probable)"},
+  {name: "Zaghawa", family: "Nilo-Saharan (Probable)"},
+  {name: "Zande", family: "Niger–Congo (Probable)"},
+  {name: "Zarma", family: "Nilo-Saharan (Probable)"},
+  {name: "Zemba", family: "Niger–Congo (Probable)"},
+  {name: "Zhire", family: "Niger–Congo (Probable)"},
+  {name: "Zhoa", family: "Niger–Congo (Probable)"},
+  {name: "Zulu", family: "Niger–Congo (Probable)"}
 ];
 
-function ensureCatalogAndMap() {
+function ensureCatalogAndMap(options) {
+  const opts = options || {};
+  const apply = !!opts.apply;
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
@@ -300,20 +422,35 @@ function ensureCatalogAndMap() {
     }
   }
 
-  if (addedMixes.length) {
-    writeJson("config/language-mixes.json", mixes);
+  if (!apply) {
+    console.log("[add-african-languages] Dry run only (no files written). Pass --apply to write changes.");
+    console.log("  Would add mixes:", addedMixes.length);
+    console.log("  Would add mappings:", addedMappings.length);
   } else {
-    console.log("No new catalog entries added.");
-  }
+    if (addedMixes.length) {
+      writeJson("config/language-mixes.json", mixes);
+    } else {
+      console.log("No new catalog entries added.");
+    }
 
-  if (addedMappings.length) {
-    writeJson("config/language-mixer-map.json", map);
-  } else {
-    console.log("No new mapping entries added.");
-  }
+    if (addedMappings.length) {
+      writeJson("config/language-mixer-map.json", map);
+    } else {
+      console.log("No new mapping entries added.");
+    }
 
-  console.log("Added mixes:", addedMixes.length);
-  console.log("Added mappings:", addedMappings.length);
+    console.log("Added mixes:", addedMixes.length);
+    console.log("Added mappings:", addedMappings.length);
+  }
 }
 
-if (require.main === module) ensureCatalogAndMap();
+if (require.main === module) {
+  const args = process.argv.slice(2);
+  const apply = args.includes("--apply");
+  if (!apply) {
+    console.log("[add-african-languages] Running in dry-run mode. No changes will be written without --apply.");
+  }
+  ensureCatalogAndMap({apply});
+}
+
+module.exports = {AFRICA_ROWS, ensureCatalogAndMap};

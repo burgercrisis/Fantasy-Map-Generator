@@ -55,6 +55,68 @@ function buildIndexes(mixes, map) {
   return { byIso, byNameLower, mapIsos };
 }
 
+function buildIsoHasUniqueBaseMap(mixes, map) {
+  const mixByIso = new Map();
+  for (const lang of mixes) {
+    if (!lang || !lang.iso) continue;
+    mixByIso.set(String(lang.iso), lang);
+  }
+
+  const baseToIsos = new Map(); // baseIndex => Set(iso)
+
+  for (const entry of map) {
+    if (!entry || !entry.iso) continue;
+    const iso = String(entry.iso);
+    const lang = mixByIso.get(iso) || null;
+    const tags = lang && Array.isArray(lang.tags) ? lang.tags : [];
+    if (tags.includes("family")) continue; // skip family-macro catalog entries
+
+    const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
+    if (!basesSource.length) continue;
+
+    const uniqueBases = Array.from(new Set(basesSource.map(b => Number(b)))).filter(
+      b => !Number.isNaN(b)
+    );
+    if (!uniqueBases.length) continue;
+
+    for (const base of uniqueBases) {
+      let set = baseToIsos.get(base);
+      if (!set) {
+        set = new Set();
+        baseToIsos.set(base, set);
+      }
+      set.add(iso);
+    }
+  }
+
+  const isoHasUniqueBase = new Map();
+  for (const isos of baseToIsos.values()) {
+    if (isos.size === 1) {
+      const onlyIso = isos.values().next().value;
+      isoHasUniqueBase.set(onlyIso, true);
+    }
+  }
+
+  return isoHasUniqueBase;
+}
+
+function computeNonuniqueBases(results, isoHasUniqueBase) {
+  let considered = 0;
+  let withUniqueBase = 0;
+
+  for (const r of results) {
+    if (r.status === "skipped") continue;
+    considered++;
+
+    const iso = r.iso != null ? String(r.iso) : null;
+    if (iso && isoHasUniqueBase.get(iso)) {
+      withUniqueBase++;
+    }
+  }
+
+  return considered - withUniqueBase;
+}
+
 function resolveItem(item, indexes) {
   const { byIso, byNameLower, mapIsos } = indexes;
 
@@ -130,7 +192,7 @@ function resolveItem(item, indexes) {
   };
 }
 
-function summarizeResults(listMeta, results) {
+function summarizeResults(listMeta, results, nonuniqueBases) {
   const total = results.length;
   let skipped = 0;
   let full = 0;
@@ -182,6 +244,9 @@ function summarizeResults(listMeta, results) {
   console.log(`  missing both:      ${missingBoth}`);
   console.log(`  unmatched name:    ${unmatched}`);
   console.log(`  ambiguous matches: ${ambiguous}`);
+  if (typeof nonuniqueBases === "number") {
+    console.log(`  Nonunique Bases:   ${nonuniqueBases}`);
+  }
 
   const sections = [
     { label: "Missing from catalog", key: "missing-catalog" },
@@ -220,13 +285,25 @@ function main() {
     process.exit(0);
   }
 
-  const listMeta = loadList(args[0]);
+  const listPathArg = args[0];
+  const baseName = path.basename(listPathArg);
+  if (/seed|major|subset/i.test(baseName)) {
+    console.warn(
+      "WARNING: This JSON looks like a seed/subset/major snapshot (" +
+        baseName +
+        "). Per project rules, coverage decisions should be based on the canonical full-list JSON instead."
+    );
+  }
+
+  const listMeta = loadList(listPathArg);
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
   const indexes = buildIndexes(mixes, map);
 
   const results = listMeta.items.map(item => resolveItem(item || {}, indexes));
-  summarizeResults(listMeta, results);
+  const isoHasUniqueBase = buildIsoHasUniqueBaseMap(mixes, map);
+  const nonuniqueBases = computeNonuniqueBases(results, isoHasUniqueBase);
+  summarizeResults(listMeta, results, nonuniqueBases);
 }
 
 if (require.main === module) {

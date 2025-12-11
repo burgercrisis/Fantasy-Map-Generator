@@ -1,0 +1,46 @@
+{
+  "title": "Wikipedia: Formosan language families - Blust (1999)",
+  "source": "https://en.wikipedia.org/wiki/Formosan_languages",
+  "items": [
+    { "name": "Formosan", "skip": true },
+    { "name": "Tsouic", "skip": true },
+    { "name": "Tsou language" },
+    { "name": "Saaroa language" },
+    { "name": "Kanakanavu language" },
+
+    { "name": "Western Plains", "skip": true },
+    { "name": "Thao language" },
+
+    { "name": "Central Western Plains", "skip": true },
+    { "name": "Babuza language" },
+    { "name": "Favorlang language" },
+    { "name": "Papora-Hoanya language" },
+
+    { "name": "Northwest Formosan", "skip": true },
+    { "name": "Saisiyat language" },
+    { "name": "Pazeh language" },
+    { "name": "Kulon language" },
+
+    { "name": "Atayalic", "skip": true },
+    { "name": "Atayal language" },
+    { "name": "Seediq language" },
+
+    { "name": "East Formosan", "skip": true },
+    { "name": "Northern Kavalanic languages", "skip": true },
+    { "name": "Basay language" },
+    { "name": "Kavalan language" },
+    { "name": "Ketagalan language" },
+
+    { "name": "Central (Ami)", "skip": true },
+    { "name": "Amis language" },
+    { "name": "Sakizaya language" },
+    { "name": "Siraya language" },
+
+    { "name": "Bunun language" },
+    { "name": "Rukai language" },
+    { "name": "Puyuma language" },
+    { "name": "Paiwan language" },
+
+    { "name": "Malayo-Polynesian", "skip": true }
+  ]
+}
