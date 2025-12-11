@@ -113,3 +113,17 @@ Output location:
 - When **Wrap lines** is enabled, any line that ends with digits and has a run of `.` immediately before the page number (e.g., `Chapter One .......................... 12`) is **pre-trimmed** so that the visible part of the line (including the number) does not exceed the configured max line length.
 - Only the dot run is shortened; the label text and trailing number are preserved.
 - This trimming runs before the generic word-wrapping reflow, to help keep TOC-style entries on a single line instead of wrapping awkwardly.
+
+## 9. Developer test harness
+
+- The main `PdfSplitter` WinForms project also exposes a small **console harness** for testing the wrapping / leader-trimming behavior without running the GUI.
+- Usage (from repo root):
+  - `dotnet run --project .\pdf_splitter\PdfSplitter.csproj -- --wrap-test 40 "CREDITS .........................................1"`
+    - First argument after `--wrap-test` is the wrap width.
+    - Remaining arguments are joined into the input text.
+- If you pass only `--wrap-test` with no extra args, the harness runs in **interactive mode**, prompting for a width and multi-line input (terminated by an empty line) and then printing the wrapped output.
+
+- Additionally, the `wrap_harness` console project provides a **TOC-focused harness** for experimenting with leader trimming and multi-line TOC merges:
+  - `dotnet run --project .\pdf_splitter\wrap_harness\PdfSplitter.Harness.csproj -- toc 40`
+    - Prompts for multi-line TOC input (end with an empty line), then runs `WrapText` and the TOC merge pass (`MergeTocLinesInPages`) and prints the transformed output.
+    - You can also pass the width inline as `toc <width>` or omit it and enter it interactively.
