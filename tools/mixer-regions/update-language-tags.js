@@ -70,6 +70,11 @@ function normalizeTags(entry) {
 
 function main() {
   const mixes = readJson("config/language-mixes.json");
+  const originalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
   let updated = 0;
 
   for (const entry of mixes) {
@@ -81,6 +86,20 @@ function main() {
     const bk = (b.region || "") + (b.name || "");
     return ak.localeCompare(bk);
   });
+  const finalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  for (const iso of originalMixIsos) {
+    if (!finalMixIsos.has(iso)) {
+      console.error(
+        "[update-language-tags] refusing to write config/language-mixes.json; would drop ISO",
+        iso
+      );
+      return;
+    }
+  }
 
   writeJson("config/language-mixes.json", mixes);
   console.log("Entries with tags updated:", updated);

@@ -45,6 +45,11 @@ function normalizeKartvelianEntry(entry) {
 function main() {
   const mixes = readJson("config/language-mixes.json");
   let updated = 0;
+  const originalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
   for (const entry of mixes) {
     if (!isKartvelianEntry(entry)) continue;
     if (normalizeKartvelianEntry(entry)) updated++;
@@ -54,6 +59,21 @@ function main() {
     const bk = (b.region || "") + (b.name || "");
     return ak.localeCompare(bk);
   });
+  const finalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  for (const iso of originalMixIsos) {
+    if (!finalMixIsos.has(iso)) {
+      console.error(
+        "[update-kartvelian] refusing to write config/language-mixes.json; would drop ISO",
+        iso
+      );
+      return;
+    }
+  }
+
   writeJson("config/language-mixes.json", mixes);
   console.log("Kartvelian entries updated:", updated);
 }

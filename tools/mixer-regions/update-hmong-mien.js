@@ -54,6 +54,26 @@ function main() {
     const bk = (b.region || "") + (b.name || "");
     return ak.localeCompare(bk);
   });
+  const originalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  const finalMixIsos = new Set(
+    Array.isArray(mixes)
+      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      : []
+  );
+  for (const iso of originalMixIsos) {
+    if (!finalMixIsos.has(iso)) {
+      console.error(
+        "[update-hmong-mien] refusing to write config/language-mixes.json; would drop ISO",
+        iso
+      );
+      return;
+    }
+  }
+
   writeJson("config/language-mixes.json", mixes);
   console.log("Hmong-Mien entries updated:", updated);
 }
