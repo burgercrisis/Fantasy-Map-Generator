@@ -16,7 +16,7 @@
     { "name": "Chinese", "iso": "zho" },
     { "name": "Mandarin Chinese", "iso": "mandarin" },
     { "name": "Beijing Mandarin", "iso": "beijing-mandarin" },
-    { "name": "Standard Chinese", "iso": "mandarin" },
+    { "name": "Standard Chinese", "iso": "mandarin", "skip": true },
     { "name": "Singaporean Mandarin", "iso": "singaporean-mandarin" },
     { "name": "Malaysian Mandarin", "iso": "malaysian-mandarin" },
     { "name": "Taiwanese Mandarin", "iso": "taiwanese-mandarin" },

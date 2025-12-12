@@ -147,6 +147,9 @@ const explicitIsoBaseMap = {
   "nao-klao": 11,
   "bunu": 11,
 
+  // Austroasiatic: Palaungic (China list)
+  rbb: 29,
+
   // Romance / dialect clusters with clear bases
   "italo-australian": 3,
   "italo-paulista": 3,

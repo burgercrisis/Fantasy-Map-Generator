@@ -1189,7 +1189,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Status tier:** **In progress (full section)** – this JSON tracks every language row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 165
+  - `fully wired:` 164
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
@@ -1208,6 +1208,12 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - ✅ 2025-12-12 uniqueness micro-pass (verified): resolved the Hlai `bases=[318]` cluster (Hlai now `clusterSize=1` in the China list), reducing per-list base-set `clustered bases` from **44** to **43** (suite still green, 0 failures).
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): resolved the `bases=[11,67,68]` size-3 collision cluster by moving `nao-klao` and `shao-jiang-min` onto unique `[11,67,68,...]` mixes (kept `jiaoliao-mandarin` as the anchor). Current China per-list base-set snapshot: `unique bases=130`, `clustered bases=35`, `Nonunique Bases=159`; `run-language-mixer-suite` is green (**0** failures).
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the Eastern Yugur size-4 collision by keeping `eastern-yugur` as the `bases=[296,381]` anchor and moving `altai-uriankhai`, `oirat-mongolian`, and `rouran` onto unique `[296,381,...]` mixes. Suite remained green.
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the `bases=[11,67,68]` cluster (`jiaoliao-mandarin`, `nao-klao`, `shao-jiang-min`) by keeping `jiaoliao-mandarin` as anchor and moving `nao-klao` and `shao-jiang-min` onto unique `[11,67,68,...]` mixes. Suite remained green.
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): resolved the Mandarin alias + anchor collision by keeping `mandarin` as pure `bases=[11]`, moving `maojia` and `waxiang` off the anchor onto unique `[11,...]` mixes, and marking the duplicate China-list `Standard Chinese` (iso=`mandarin`) row as `skip: true`. Current China per-list base-set snapshot: `unique bases=134`, `clustered bases=30`, `Nonunique Bases=158`; `run-language-mixer-suite` is green (**0** failures).
 
 ### 8.14 Languages of Bangladesh – regional snapshot
 
