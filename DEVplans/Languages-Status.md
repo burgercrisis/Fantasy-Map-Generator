@@ -61,6 +61,10 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
   - ✅ Final Tai-Kadai cleanup reduced **all** Tai-Kadai identical base-set clusters of size **≥ 3** to **0** (`report-language-mixer-base-clusters --category=tai-kadai --min-size=3`), and `run-language-mixer-health` remains green.
   - ✅ Both batches are repeatable via helpers (`tools/mixer-core/decluster-tai-kadai-530.js`, `tools/mixer-core/decluster-tai-kadai-251-252.js`) and the suite remains green.
 
+- ✅ **2025-12-12 Papuan hub decluster (verified):** burned down the shared `bases=[360]` mega-cluster in `config/language-mixer-map.json` to **0** remaining exact `[360]` singletons via repeatable helpers (`tools/mixer-core/decluster-papuan-360-batch1.js` … `batch4.js`). `run-language-mixer-health` remains green.
+
+- ✅ **2025-12-12 mixer-map ISO dedupe (verified):** removed accidental duplicate ISO rows (e.g. `hokkien`, `min`, `proto-min`, `teochew-min`) by running `tools/mixer-core/dedupe-language-mixer-map-isos.js` (keeps the first row per ISO). `check-language-mixer-map-duplicate-isos` is green.
+
 - ✅ **2025-12-12 mixer-map hygiene (verified):** removed a duplicate `mogholi` row in `config/language-mixer-map.json` (the incorrect duplicate included base `11`). `check-language-mixer-map-duplicate-isos` is green and `run-language-mixer-health` is green.
 
 - ✅ **2025-12-12 policy update (uniqueness enforcement):** "Allowed clusters" are now permitted **only** when the sharing is linguistically defensible (e.g. true alias entries for the *same language* or items excluded from coverage like `skip: true`). Broad macro hubs (e.g. Hausa-as-Chadic, generic Uralic base-9, Mandarin-as-all-Sinitic) are no longer treated as acceptable end-state behavior; any identical shared `bases[]` arrays among non-skipped languages are treated as **uniqueness debt** to be burned down.
@@ -1169,13 +1173,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Status tier:** **In progress (full section)** – this JSON tracks every language row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 163
+  - `fully wired:` 165
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 157
+  - `Nonunique Bases:` 159
 
 - **Status notes:** Coverage is now complete for this list (`fully wired` = 100% of considered). Next work is base-uniqueness declustering (still high `Nonunique Bases`) and confirming/adjusting race reachability where needed. ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the Koreanic `bases=[10]` mega-cluster (kept `kor` as the anchor while moving dialect/lect entries onto unique `[10,...]` mixes); per-list base-set uniqueness moved from `clustered bases=60` to `clustered bases=58` and `run-language-mixer-suite` is green (**0** failures).
 
