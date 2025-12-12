@@ -500,6 +500,15 @@ Takeaway:
   - ✅ `iranun` now uses `[193,195,304,367]` (Tagalog + Malay + Cebuano + Eastern Indonesian)
   This removes the prior clusters `[193,195,304]`, `[193,195,367]`, `[193,304,367]`, and `[195,304,346]` as verified by `report-language-mixer-base-clusters --region='Southeast Asia'`.
 
+  - ✅ Blocked-195 Batch 1 (doc correction): the repo does **not** currently define namebases `i=539–542`, so those remaps are not applied.
+    - Current mixer-map (verified):
+      - `mardijker-creole`→`[13,195,367]`
+      - `tetum`→`[13,195,367]`
+      - `sat`→`[29,195,251]`
+      - `rbb`→`[29,251,195]`
+
+  - ✅ Health unblock (verified): added the missing mixer map entry for catalog ISO `dre` (Dolpo) by wiring it to an existing Tibetic base-set `dre`→`[47,54,58]`.
+
 ### 2.8 Sub-Saharan Africa (first Bantu split)
 
 Representative bases / mappings (via `profile-language-mixes`):
@@ -1309,11 +1318,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 139
+  - `fully wired:` 144
   - `missing catalog:` 0
-  - `missing map:` 1
+  - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 4
+  - `unmatched:` 0
   - `ambiguous:` 0
   - `Nonunique Bases:` 140
 
