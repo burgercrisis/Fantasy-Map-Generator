@@ -87,12 +87,14 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
     - `sammarinese` moved off `[3,301]` to `[3,8,279,301]`.
   - Post-pass Romance cluster snapshot:
     - `--min-size=14`: **0** clusters remain.
-    - `--min-size=8`: **3** clusters remain (25 members total), led by `[3]` (9), `[3,8]` (8), and `[8,233]` (8).
+    - `--min-size=8`: **2** clusters remain (16 members total), led by `[3,8]` (8) and `[8,233]` (8).
 
 - ✅ **2025-12-12 Romance uniqueness batches (verified):**
   - Declustering removed the `bases=[287]` Aragonese cluster (kept `central-aragonese` as `[287]`, moved the other lects onto unique `[287,...]` mixes).
   - Declustering removed the `bases=[2,279]` French+Corsican cluster (kept `cauchois` as `[2,279]`, moved the other lects onto unique `[2,279,...]` mixes).
   - Declustering removed the Romance dialect `bases=[2]` French cluster (kept `standard-french` as `[2]`, moved the other Romance dialects onto unique `[2,...]` mixes). Note: `[2]` remains used by French-based creoles/pidgins outside the Romance filter.
+  - Declustering removed the Romance `bases=[3]` Italian hub (kept `ita` as `[3]`, moved other lects onto unique `[3,...]` mixes).
+  - Fixed a mixer regression where catalog ISO `dre` (Dolpo) was missing from `language-mixer-map.json` by wiring it to an existing Tibetic base-set.
 
 This document captures where the language system work currently stands so this project can be picked up later without re–reverse–engineering everything. It assumes the core design goal that **every language entry** ultimately has its own linguistically and regionally appropriate **dedicated base** in the namebase/mixer layer (a single-base `[X]` array for normal, non-hybrid languages) or, where the language is genuinely hybrid / creole / mixed, a **unique tuned mix**. Any present-day sharing of identical bases or `[bases]` arrays is treated as **temporary per-language uniqueness debt**, not an acceptable end state, and paying that debt down will routinely involve **introducing new bases and splitting over-broad hubs** rather than leaving long-term shared clusters in place. [Races & Languages – System Rules §1.3](Races-Languages-Rules.md#13-language-base-uniqueness-intent) describes how that goal is consumed on the race side.
 
