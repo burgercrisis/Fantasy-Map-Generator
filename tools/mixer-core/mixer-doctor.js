@@ -113,6 +113,8 @@ function main() {
   fs.writeFileSync(logPath, "", "utf8");
   appendLog("mixer-doctor run " + new Date().toISOString() + "\n\n");
 
+  let hadFailure = false;
+
   const haveBaselines = listBaselines(baselineDir).length > 0;
   if (haveBaselines) {
     const args = [
@@ -127,7 +129,10 @@ function main() {
     if (res.stderr) appendLog("\n[stderr]\n" + res.stderr + "\n");
     appendLog("\n");
 
-    if (!res.ok) process.exitCode = 1;
+    if (!res.ok) {
+      hadFailure = true;
+      process.exitCode = 1;
+    }
   } else {
     appendLog("No baseline snapshots found; skipping baseline loss check.\n\n");
   }
@@ -138,7 +143,10 @@ function main() {
     appendLog(res.stdout || "");
     if (res.stderr) appendLog("\n[stderr]\n" + res.stderr + "\n");
     appendLog("\n");
-    if (!res.ok) process.exitCode = 1;
+    if (!res.ok) {
+      hadFailure = true;
+      process.exitCode = 1;
+    }
   }
 
   {
@@ -147,7 +155,10 @@ function main() {
     appendLog(res.stdout || "");
     if (res.stderr) appendLog("\n[stderr]\n" + res.stderr + "\n");
     appendLog("\n");
-    if (!res.ok) process.exitCode = 1;
+    if (!res.ok) {
+      hadFailure = true;
+      process.exitCode = 1;
+    }
   }
 
   {
@@ -156,10 +167,13 @@ function main() {
     appendLog(res.stdout || "");
     if (res.stderr) appendLog("\n[stderr]\n" + res.stderr + "\n");
     appendLog("\n");
-    if (!res.ok) process.exitCode = 1;
+    if (!res.ok) {
+      hadFailure = true;
+      process.exitCode = 1;
+    }
   }
 
-  {
+  if (!hadFailure) {
     const isoSets = snapshotIsoSets();
     const stamp = nowStamp();
     const baselineRel = "tools/mixer-diagnostics/baselines/baseline-" + stamp + ".json";
@@ -170,10 +184,16 @@ function main() {
     };
     writeJson(baselineRel, baselineData);
     rotateBaselines(baselineDir, opts.maxBaselines);
+  } else {
+    appendLog("Skipping baseline snapshot due to prior failures.\n");
   }
 
   console.log("Wrote tools/mixer-diagnostics/_mixer-doctor-summary.txt");
-  console.log("Wrote baseline snapshot in tools/mixer-diagnostics/baselines/");
+  if (!hadFailure) {
+    console.log("Wrote baseline snapshot in tools/mixer-diagnostics/baselines/");
+  } else {
+    console.log("Skipped baseline snapshot (failures detected)");
+  }
 }
 
 if (require.main === module) {

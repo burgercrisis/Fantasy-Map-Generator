@@ -13,6 +13,22 @@ function parseArgs(argv) {
   };
 }
 
+function discoverAllWikiMetaJsonPaths() {
+  const dirRel = "tools/mixer-meta";
+  const dirFull = path.join(root, dirRel);
+  if (!fs.existsSync(dirFull)) return [];
+
+  const names = fs.readdirSync(dirFull);
+  const out = [];
+
+  for (const name of names) {
+    if (!/^wikipedia.*\.json$/i.test(name)) continue;
+    out.push(`${dirRel}/${name}`);
+  }
+
+  return out.sort((a, b) => a.localeCompare(b));
+}
+
 function normalizeLabel(input) {
   return String(input || "")
     .toLowerCase()
@@ -43,16 +59,36 @@ function parseWikiListPathsFromDevplan(devplanRelPath) {
   return Array.from(new Set(out));
 }
 
+function readUtf8Clean(fullPath) {
+  const buf = fs.readFileSync(fullPath);
+  return buf
+    .toString("utf8")
+    .replace(/^\uFEFF/, "")
+    .replace(/\u0000/g, "");
+}
+
 function loadWikiList(fileArg) {
   const full = path.isAbsolute(fileArg) ? fileArg : path.join(root, fileArg);
-  const data = JSON.parse(fs.readFileSync(full, "utf8").replace(/^\uFEFF/, ""));
+  let data;
+  try {
+    data = JSON.parse(readUtf8Clean(full));
+  } catch (err) {
+    console.warn(
+      "Skipping malformed wiki list JSON:",
+      fileArg,
+      "-",
+      err && err.message ? err.message : err
+    );
+    return null;
+  }
 
   if (Array.isArray(data)) {
     return {title: path.basename(full), source: "", items: data};
   }
 
   if (!data || !Array.isArray(data.items)) {
-    throw new Error(`List JSON must be an array or an object with an 'items' array: ${fileArg}`);
+    console.warn("Skipping wiki list JSON with unexpected structure (missing items[]):", fileArg);
+    return null;
   }
 
   return {
@@ -354,7 +390,18 @@ function main() {
       continue;
     }
     const meta = loadWikiList(relPath);
+    if (!meta) continue;
     wikiLists.push({relPath, meta});
+  }
+
+  const wikiOnlyPaths = discoverAllWikiMetaJsonPaths();
+  const wikiOnlyLists = [];
+  for (const relPath of wikiOnlyPaths) {
+    const full = path.join(root, relPath);
+    if (!fs.existsSync(full)) continue;
+    const meta = loadWikiList(relPath);
+    if (!meta) continue;
+    wikiOnlyLists.push({relPath, meta});
   }
 
   const validBaseIndices = loadValidBaseIndices();
@@ -369,7 +416,7 @@ function main() {
 
   const indexes = {byIso: catalogByIso, byNameLower};
 
-  for (const {relPath, meta} of wikiLists) {
+  for (const {relPath, meta} of wikiOnlyLists) {
     for (const item of meta.items || []) {
       const resolved = resolveWikiItemToIso(item, indexes);
       if (resolved.status === "skipped") continue;
@@ -422,6 +469,17 @@ function main() {
         });
         continue;
       }
+    }
+  }
+
+  for (const {relPath, meta} of wikiLists) {
+    for (const item of meta.items || []) {
+      const resolved = resolveWikiItemToIso(item, indexes);
+      if (resolved.status === "skipped") continue;
+      if (!resolved.iso) continue;
+
+      const iso = String(resolved.iso);
+      if (!catalogByIso.has(iso)) continue;
 
       let arr = wikiDirectByIso.get(iso);
       if (!arr) {

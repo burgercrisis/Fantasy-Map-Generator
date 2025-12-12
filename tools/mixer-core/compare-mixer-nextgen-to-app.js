@@ -2753,7 +2753,7 @@ function printUsage() {
   console.log("  --base=IDX[,IDX...]   Compare directly from base indices.");
   console.log("  --count=N             Number of samples per generator (default 40).");
   console.log("  --print=N             How many samples to print in diff view (default 10).");
-  console.log("  --v=LIST              Which mixer versions to run (default all): 1=legacy, 2=current, 3=nextgen, 4=nextgenSyll, 5=nextgenSyllProv, 6=nextgenSyllLing, 7=nextgenSyllLingV7, 8=nextgenSyllLingV8, 9=nextgenSyllLingV9. Example: --v=1,4");
+  console.log("  --v=LIST              Which mixer versions to run (default all): 1=legacy, 2=current, 3=nextgen, 4=nextgenSyll, 5=nextgenSyllProv, 6=syllLing_fixedSwitch, 7=syllLing_rampedSwitch, 8=syllLing_weightedSwitchTarget, 9=syllLing_weightedPerStep. Example: --v=1,4");
   console.log("  --seed=INT            Seed for deterministic output.");
   console.log("  --min=INT             Override minimum length.");
   console.log("  --max=INT             Override maximum length.");
@@ -3026,10 +3026,10 @@ function main() {
   if (wantNextgen) sampleModes.push({name: "nextgen", rows: nextgenSamples});
   if (wantNextgenSyll) sampleModes.push({name: "nextgenSyll", rows: nextgenSyllSamples});
   if (wantNextgenSyllProv) sampleModes.push({name: "nextgenSyllProv", rows: nextgenSyllProvSamples});
-  if (wantNextgenSyllLing) sampleModes.push({name: "nextgenSyllLing", rows: nextgenSyllLingSamples});
-  if (wantNextgenSyllLingV7) sampleModes.push({name: "nextgenSyllLingV7", rows: nextgenSyllLingV7Samples});
-  if (wantNextgenSyllLingV8) sampleModes.push({name: "nextgenSyllLingV8", rows: nextgenSyllLingV8Samples});
-  if (wantNextgenSyllLingV9) sampleModes.push({name: "nextgenSyllLingV9", rows: nextgenSyllLingV9Samples});
+  if (wantNextgenSyllLing) sampleModes.push({name: "syllLing_fixedSwitch", rows: nextgenSyllLingSamples});
+  if (wantNextgenSyllLingV7) sampleModes.push({name: "syllLing_rampedSwitch", rows: nextgenSyllLingV7Samples});
+  if (wantNextgenSyllLingV8) sampleModes.push({name: "syllLing_weightedSwitchTarget", rows: nextgenSyllLingV8Samples});
+  if (wantNextgenSyllLingV9) sampleModes.push({name: "syllLing_weightedPerStep", rows: nextgenSyllLingV9Samples});
 
   for (let i = 0; i < lines; i++) {
     console.log(`#${i + 1}`);
@@ -3071,26 +3071,26 @@ function main() {
   });
 
   if (wantNextgenSyllLing) reportModes.push({
-    name: "nextgenSyllLing",
-    title: "=== Helper-only nextgenSyllLing ===",
+    name: "syllLing_fixedSwitch",
+    title: "=== Helper-only syllLing_fixedSwitch (fixed switchProb) ===",
     samples: nextgenSyllLingSamples
   });
 
   if (wantNextgenSyllLingV7) reportModes.push({
-    name: "nextgenSyllLingV7",
-    title: "=== Helper-only nextgenSyllLingV7 ===",
+    name: "syllLing_rampedSwitch",
+    title: "=== Helper-only syllLing_rampedSwitch (anti-streak ramp) ===",
     samples: nextgenSyllLingV7Samples
   });
 
   if (wantNextgenSyllLingV8) reportModes.push({
-    name: "nextgenSyllLingV8",
-    title: "=== Helper-only nextgenSyllLingV8 ===",
+    name: "syllLing_weightedSwitchTarget",
+    title: "=== Helper-only syllLing_weightedSwitchTarget (ramped + weighted switch target) ===",
     samples: nextgenSyllLingV8Samples
   });
 
   if (wantNextgenSyllLingV9) reportModes.push({
-    name: "nextgenSyllLingV9",
-    title: "=== Helper-only nextgenSyllLingV9 ===",
+    name: "syllLing_weightedPerStep",
+    title: "=== Helper-only syllLing_weightedPerStep (per-step weighted + cooldown) ===",
     samples: nextgenSyllLingV9Samples
   });
 
@@ -3155,10 +3155,10 @@ function main() {
   const chosenCoverageModes = [
     {name: "nextgenSyll", enabled: wantNextgenSyll, samples: nextgenSyllSamples},
     {name: "nextgenSyllProv", enabled: wantNextgenSyllProv, samples: nextgenSyllProvSamples},
-    {name: "nextgenSyllLing", enabled: wantNextgenSyllLing, samples: nextgenSyllLingSamples},
-    {name: "nextgenSyllLingV7", enabled: wantNextgenSyllLingV7, samples: nextgenSyllLingV7Samples},
-    {name: "nextgenSyllLingV8", enabled: wantNextgenSyllLingV8, samples: nextgenSyllLingV8Samples},
-    {name: "nextgenSyllLingV9", enabled: wantNextgenSyllLingV9, samples: nextgenSyllLingV9Samples}
+    {name: "syllLing_fixedSwitch", enabled: wantNextgenSyllLing, samples: nextgenSyllLingSamples},
+    {name: "syllLing_rampedSwitch", enabled: wantNextgenSyllLingV7, samples: nextgenSyllLingV7Samples},
+    {name: "syllLing_weightedSwitchTarget", enabled: wantNextgenSyllLingV8, samples: nextgenSyllLingV8Samples},
+    {name: "syllLing_weightedPerStep", enabled: wantNextgenSyllLingV9, samples: nextgenSyllLingV9Samples}
   ].filter(m => m.enabled && Array.isArray(m.samples) && m.samples.some(r => Array.isArray(r.chosenBases) && r.chosenBases.length));
 
   if (chosenCoverageModes.length) {

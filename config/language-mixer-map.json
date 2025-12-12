@@ -5144,6 +5144,12 @@
     ]
   },
   {
+    "iso": "kra-family",
+    "bases": [
+      317
+    ]
+  },
+  {
     "iso": "macro-zhuang",
     "bases": [
       252,
@@ -23587,6 +23593,18 @@
   },
   {
     "iso": "ghale",
+    "bases": [
+      55
+    ]
+  },
+  {
+    "iso": "ghh",
+    "bases": [
+      55
+    ]
+  },
+  {
+    "iso": "ghe",
     "bases": [
       55
     ]

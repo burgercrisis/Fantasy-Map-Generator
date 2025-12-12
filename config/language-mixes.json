@@ -5303,7 +5303,7 @@
   },
   {
     "name": "Kra",
-    "iso": "kra",
+    "iso": "kra-family",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Kra",
@@ -25117,11 +25117,35 @@
     "family": "Tamangic"
   },
   {
+    "name": "Northern Ghale",
+    "iso": "ghh",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
+    "name": "Southern Ghale",
+    "iso": "ghe",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
     "name": "Kumhali",
-    "iso": "kumhali",
+    "iso": "kra",
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Kumhali (alias)",
+    "iso": "kumhali",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "tags": [
+      "alias"
+    ]
   },
   {
     "name": "Rana Tharu",

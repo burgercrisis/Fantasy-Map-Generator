@@ -51,8 +51,39 @@
       "workerId": 13,
       "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
       "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-12T05:35:00Z",
+      "finishedAt": "2025-12-12T15:06:25Z",
+      "note": "Nepal census list is fully wired (144/144 considered). Remaining research targets are ISO upgrades for Done and Malpande; Ghale split handled by keeping ghale aggregate and adding ghh/ghe; kra collision resolved via kra-family."
+    },
+    {
+      "workerId": 14,
+      "target": "tools/mixer-meta/wikipedia-languages-of-europe.json",
+      "scope": "coverage_then_uniqueness_then_race",
       "status": "in_progress",
-      "startedAt": "2025-12-12T05:35:00Z"
+      "startedAt": "2025-12-12T15:05:00Z"
+    },
+    {
+      "workerId": 15,
+      "target": "tools/mixer-meta/wikipedia-languages-of-bangladesh.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-12T15:05:00Z"
+    },
+    {
+      "workerId": 16,
+      "target": "tools/mixer-meta/wikipedia-languages-of-pakistan-established.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-12T15:06:00Z"
+    },
+    {
+      "workerId": 17,
+      "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "stalled",
+      "startedAt": "2025-12-12T15:12:00Z",
+      "note": "Entry appeared during claim-file patching; treat as unowned/stalled unless a real worker picks it up"
     }
   ]
 }
