@@ -87,7 +87,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
     - `sammarinese` moved off `[3,301]` to `[3,8,279,301]`.
   - Post-pass Romance cluster snapshot:
     - `--min-size=14`: **0** clusters remain.
-    - `--min-size=8`: **2** clusters remain (16 members total), led by `[3,8]` (8) and `[8,233]` (8).
+    - `--min-size=8`: **1** cluster remains (8 members total), `[8,233]` (8).
 
 - ✅ **2025-12-12 Romance uniqueness batches (verified):**
   - Declustering removed the `bases=[287]` Aragonese cluster (kept `central-aragonese` as `[287]`, moved the other lects onto unique `[287,...]` mixes).
@@ -1206,6 +1206,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - ✅ 2025-12-12 uniqueness micro-pass (verified): broke the remaining Mongolic collision by moving `torgut` off the shared `[276,296,381]` base-set, reducing per-list base-set `clustered bases` from **46** to **44** (suite still green, 0 failures).
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): resolved the Hlai `bases=[318]` cluster (Hlai now `clusterSize=1` in the China list), reducing per-list base-set `clustered bases` from **44** to **43** (suite still green, 0 failures).
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): resolved the `bases=[11,67,68]` size-3 collision cluster by moving `nao-klao` and `shao-jiang-min` onto unique `[11,67,68,...]` mixes (kept `jiaoliao-mandarin` as the anchor). Current China per-list base-set snapshot: `unique bases=130`, `clustered bases=35`, `Nonunique Bases=159`; `run-language-mixer-suite` is green (**0** failures).
 
 ### 8.14 Languages of Bangladesh – regional snapshot
 
