@@ -1082,13 +1082,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 138
+  - `fully wired:` 168
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 37
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 162
+  - `Nonunique Bases:` 157
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
