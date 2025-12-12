@@ -4959,15 +4959,15 @@
     "family": "Baoanic"
   },
   {
-    "iso": "bonan-manegacha-dialect",
+    "iso": "bonan-manegacha",
     "name": "Bonan Manegacha",
     "region": "Asia",
     "category": "Mongolic",
     "family": "Baoanic"
   },
   {
-    "iso": "bonan-manegacha",
-    "name": "Bonan Manegacha",
+    "iso": "bonan-manegacha-dialect",
+    "name": "Bonan Manegacha lect",
     "region": "Asia",
     "category": "Mongolic",
     "family": "Baoanic"
@@ -6050,7 +6050,7 @@
     "family": "Mongolic"
   },
   {
-    "name": "Khorchin Mongol (alias)",
+    "name": "Khorchin Mongol alias",
     "iso": "khorchin-mongol",
     "region": "Asia",
     "category": "Mongolic",
@@ -6197,7 +6197,7 @@
     "family": "South Dravidian"
   },
   {
-    "name": "Kui (Dravidian)",
+    "name": "Kui Dravidian",
     "iso": "kui-dravidian",
     "region": "Asia",
     "category": "Dravidian",
@@ -20216,7 +20216,7 @@
     "family": "East Strickland"
   },
   {
-    "name": "Kui (Alor–Pantar)",
+    "name": "Kui Alor-Pantar",
     "iso": "kui",
     "region": "Pacific",
     "category": "Papuan",
@@ -21915,13 +21915,6 @@
     "family": "Itelmen"
   },
   {
-    "name": "Itelmen (Western Kamchadal)",
-    "iso": "western-itelmen",
-    "region": "Siberia",
-    "category": "Chukotko-Kamchatkan",
-    "family": "Itelmen"
-  },
-  {
     "name": "Jie",
     "iso": "jie",
     "region": "Siberia",
@@ -22024,6 +22017,13 @@
     "family": "Yukaghir"
   },
   {
+    "name": "Western Itelmen",
+    "iso": "western-itelmen",
+    "region": "Siberia",
+    "category": "Chukotko-Kamchatkan",
+    "family": "Itelmen"
+  },
+  {
     "name": "Yeniseian",
     "iso": "yeniseian",
     "region": "Siberia",
@@ -22095,15 +22095,15 @@
     "family": "Sino-Tibetan"
   },
   {
-    "name": "Bijiang Bai dialect",
-    "iso": "bijiang-bai-dialect",
+    "name": "Bijiang Bai language",
+    "iso": "bijiang-bai-language",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Bai"
   },
   {
-    "name": "Bijiang Bai language",
-    "iso": "bijiang-bai-language",
+    "name": "Bijiang Bai lect",
+    "iso": "bijiang-bai-dialect",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Bai"
@@ -22203,15 +22203,15 @@
     "family": "Gyalrongic"
   },
   {
-    "name": "Dali Bai dialect",
-    "iso": "dali-bai-dialect",
+    "name": "Dali Bai language",
+    "iso": "dali-bai-language",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Bai"
   },
   {
-    "name": "Dali Bai language",
-    "iso": "dali-bai-language",
+    "name": "Dali Bai lect",
+    "iso": "dali-bai-dialect",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Bai"
@@ -23047,15 +23047,15 @@
     "family": "Sino-Tibetan"
   },
   {
-    "name": "Yitdut Bai dialect",
-    "iso": "yitdut-bai-dialect",
+    "name": "Yitdut Bai language",
+    "iso": "yitdut-bai-language",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Bai"
   },
   {
-    "name": "Yitdut Bai language",
-    "iso": "yitdut-bai-language",
+    "name": "Yitdut Bai lect",
+    "iso": "yitdut-bai-dialect",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Bai"

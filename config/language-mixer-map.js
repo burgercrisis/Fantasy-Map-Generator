@@ -539,7 +539,8 @@
   {
     "iso": "central-erzya",
     "bases": [
-      429
+      429,
+      430
     ]
   },
   {
@@ -579,6 +580,8 @@
   {
     "iso": "central-moksha",
     "bases": [
+      9,
+      283,
       430
     ]
   },
@@ -20970,7 +20973,6 @@
       193,
       195,
       304,
-      346,
       194
     ]
   },
@@ -21588,13 +21590,6 @@
     ]
   },
   {
-    "iso": "judeo-proven-al",
-    "bases": [
-      2,
-      380
-    ]
-  },
-  {
     "iso": "jurchenic",
     "bases": [
       380
@@ -21860,23 +21855,9 @@
     ]
   },
   {
-    "iso": "kim-mun",
-    "bases": [
-      11,
-      69
-    ]
-  },
-  {
     "iso": "kimre-language",
     "bases": [
       132
-    ]
-  },
-  {
-    "iso": "kiong-nai",
-    "bases": [
-      11,
-      70
     ]
   },
   {
