@@ -25173,6 +25173,44 @@
     "family": "Tibetic"
   },
   {
+    "name": "Kewat",
+    "iso": "kyv",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Kewarat",
+    "iso": "x-nepal-kewarat",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "tags": [
+      "alias"
+    ]
+  },
+  {
+    "name": "Done",
+    "iso": "x-nepal-done",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Malpande",
+    "iso": "x-nepal-malpande",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Bankariya",
+    "iso": "x-nepal-bankariya",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
     "name": "Aghul",
     "iso": "agx",
     "region": "Caucasus",

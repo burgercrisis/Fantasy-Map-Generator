@@ -3602,6 +3602,46 @@
     ]
   },
   {
+    "iso": "kyv",
+    "bases": [
+      183,
+      201,
+      257
+    ]
+  },
+  {
+    "iso": "x-nepal-kewarat",
+    "bases": [
+      183,
+      201,
+      257
+    ]
+  },
+  {
+    "iso": "x-nepal-done",
+    "bases": [
+      183,
+      201,
+      257
+    ]
+  },
+  {
+    "iso": "x-nepal-malpande",
+    "bases": [
+      183,
+      201,
+      257
+    ]
+  },
+  {
+    "iso": "x-nepal-bankariya",
+    "bases": [
+      183,
+      201,
+      257
+    ]
+  },
+  {
     "iso": "guinea-bissau-creole",
     "bases": [
       8,

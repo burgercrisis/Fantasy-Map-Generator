@@ -398,6 +398,7 @@ function main() {
 
   const wikiDirectByIso = new Map();
   const unregisteredWikiMeta = [];
+  const wikiOnlyRows = [];
 
   const indexes = {byIso: catalogByIso, byNameLower};
 
@@ -416,10 +417,45 @@ function main() {
             detail: resolved.detail || ""
           });
         }
+
+        wikiOnlyRows.push({
+          list: relPath,
+          list_title: meta.title,
+          list_source: meta.source,
+          name: resolved.name,
+          iso: "",
+          status: resolved.status,
+          detail: resolved.detail || "",
+          candidates: "",
+          in_catalog: false,
+          in_mixer_map: false
+        });
         continue;
       }
 
       const iso = String(resolved.iso);
+
+      const inCatalog = catalogByIso.has(iso);
+      const inMap = mapByIso.has(iso);
+
+      // Wikipedia item refers to an ISO we don't have in the app catalog.
+      // Keep it in a dedicated "wiki-only" output for backlogging.
+      if (!inCatalog) {
+        wikiOnlyRows.push({
+          list: relPath,
+          list_title: meta.title,
+          list_source: meta.source,
+          name: resolved.name,
+          iso,
+          status: "missing-catalog",
+          detail: inMap ? "Present in mixer map but missing from catalog" : "Missing from both catalog and mixer map",
+          candidates: "",
+          in_catalog: false,
+          in_mixer_map: inMap
+        });
+        continue;
+      }
+
       let arr = wikiDirectByIso.get(iso);
       if (!arr) {
         arr = [];
@@ -567,6 +603,25 @@ function main() {
 
   writeFile("tools/mixer-diagnostics/language-integration-table.tsv", toTsv(rows, columns));
   writeFile("tools/mixer-diagnostics/language-integration-table.json", JSON.stringify({rows, columns, unregisteredWikiMeta}, null, 2) + "\n");
+
+  const wikiOnlyColumns = [
+    "list",
+    "list_title",
+    "list_source",
+    "name",
+    "iso",
+    "status",
+    "detail",
+    "candidates",
+    "in_catalog",
+    "in_mixer_map"
+  ];
+
+  writeFile("tools/mixer-diagnostics/wiki-only-language-items.tsv", toTsv(wikiOnlyRows, wikiOnlyColumns));
+  writeFile(
+    "tools/mixer-diagnostics/wiki-only-language-items.json",
+    JSON.stringify({rows: wikiOnlyRows, columns: wikiOnlyColumns}, null, 2) + "\n"
+  );
 }
 
 main();
