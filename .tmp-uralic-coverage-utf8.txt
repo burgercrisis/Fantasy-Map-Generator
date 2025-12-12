@@ -1,0 +1,90 @@
+﻿List title: Wikipedia: List of Uralic languages ΓÇô full family list
+Source: https://en.wikipedia.org/wiki/List_of_Uralic_languages
+Total items: 297
+  considered: 257
+  skipped:    40
+
+Coverage summary (considered items only):
+  fully wired:       183 (71.2% of considered)
+  missing catalog:   0
+  missing map:       0
+  missing both:      0
+  unmatched name:    74
+  ambiguous matches: 0
+  Nonunique Bases:   257
+
+Unmatched items (no iso / name not found):
+  - Ob ΓÇô No iso provided and name did not match any catalog entry
+  - Obdorsk Khanty ΓÇô No iso provided and name did not match any catalog entry
+  - Krasnojarsk ΓÇô No iso provided and name did not match any catalog entry
+  - Eastern-Meadow Mari ΓÇô No iso provided and name did not match any catalog entry
+  - Transitional Meadow Mari-Hill Mari ΓÇô No iso provided and name did not match any catalog entry
+  - Yaransk dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Kiknur subdialect ΓÇô No iso provided and name did not match any catalog entry
+  - Tuzha subdialect ΓÇô No iso provided and name did not match any catalog entry
+  - Sanchursk subdialect ΓÇô No iso provided and name did not match any catalog entry
+  - Tonshaevo dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Lipsha dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Sharanga dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Erzya Central group (E-I) ΓÇô No iso provided and name did not match any catalog entry
+  - Erzya Western group (E-II) ΓÇô No iso provided and name did not match any catalog entry
+  - Erzya Northern group (E-III) ΓÇô No iso provided and name did not match any catalog entry
+  - Erzya Southeastern group (E-IV) ΓÇô No iso provided and name did not match any catalog entry
+  - Moksha Central group (M-I) ΓÇô No iso provided and name did not match any catalog entry
+  - Moksha Western group (M-II) ΓÇô No iso provided and name did not match any catalog entry
+  - Moksha South-Eastern group (M-III) ΓÇô No iso provided and name did not match any catalog entry
+  - Gulf of Riga Finnic ΓÇô No iso provided and name did not match any catalog entry
+  - Gulf of Finland Finnic ΓÇô No iso provided and name did not match any catalog entry
+  - Central Finnic ΓÇô No iso provided and name did not match any catalog entry
+  - Alutaguse dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Coastal ΓÇô No iso provided and name did not match any catalog entry
+  - Standard Finnish - Yleiskieli ΓÇô No iso provided and name did not match any catalog entry
+  - Colloquial Finnish - Puhekieli - spoken language ΓÇô No iso provided and name did not match any catalog entry
+  - Southwestern dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Southern dialect group ΓÇô No iso provided and name did not match any catalog entry
+  - Northern dialect group ΓÇô No iso provided and name did not match any catalog entry
+  - Southwestern transitional dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Pori region dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Ala-Satakunta dialects ΓÇô No iso provided and name did not match any catalog entry
+  - dialects of Turku highlands ΓÇô No iso provided and name did not match any catalog entry
+  - Somero region dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Western Uusimaa dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Tavastian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Yl├ñ-Satakunta dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Heart Tavastian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Southern Tavastian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Southeastern Tavastian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Hollola dialect group ΓÇô No iso provided and name did not match any catalog entry
+  - Porvoo dialect group ΓÇô No iso provided and name did not match any catalog entry
+  - Iitti dialect group ΓÇô No iso provided and name did not match any catalog entry
+  - Southern Botnian (Ostrobothnian) dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Middle and Northern Botnian (Ostrobothnian) dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Middle Botnian (Ostrobothnian) dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Northern Botnian (Ostrobothnian) dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Per├ñpohjola dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Tornio dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Kemi dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Kemij├ñrvi dialects ΓÇô No iso provided and name did not match any catalog entry
+  - J├ñllivaara dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Ruija dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Northern Savonian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Southern Savonian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Middle dialects of Savonlinna region ΓÇô No iso provided and name did not match any catalog entry
+  - Eastern Savonian dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Kainuu dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Central Finland dialects ΓÇô No iso provided and name did not match any catalog entry
+  - P├ñij├ñnne Tavastia dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Keuruu-Evij├ñrvi dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Savonian dialects of V├ñrmland ΓÇô No iso provided and name did not match any catalog entry
+  - V├ñrmland Savonian dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Proper Southeastern dialects ΓÇô No iso provided and name did not match any catalog entry
+  - Middle dialects of Lemi region ΓÇô No iso provided and name did not match any catalog entry
+  - Soikkola dialect ΓÇô No iso provided and name did not match any catalog entry
+  - Vepsian ΓÇô No iso provided and name did not match any catalog entry
+  - TiszaΓÇôK├╢r├╢s ΓÇô No iso provided and name did not match any catalog entry
+  - Central Transdanubian ΓÇô Little Hungarian Plain ΓÇô No iso provided and name did not match any catalog entry
+  - Peninsular (Kola Sami) ΓÇô No iso provided and name did not match any catalog entry
+  - J├ñkk├ñkaska ΓÇô No iso provided and name did not match any catalog entry
+  - Luokta-M├Ñvas ΓÇô No iso provided and name did not match any catalog entry
+  - ├äsele dialect ΓÇô No iso provided and name did not match any catalog entry
+  - J├ñmtland dialect ΓÇô No iso provided and name did not match any catalog entry

@@ -1,0 +1,221 @@
+﻿=== Markov mixer failure check ===
+Total catalog entries: 3030
+Languages that will fail in local mixer (no usable bases): 95
+  - Missing mapping entries: 55
+  - Mapped but bases array empty: 0
+  - Mapped but all bases invalid: 40
+
+-- Missing mapping for catalog languages (no entry in language-mixer-map.json) --
+ - bonan-manegacha-dialect (Bonan (Manegacha)), region=Asia, category=Mongolic
+ - oirat-mongolian (Oirat Mongolian), region=Asia, category=Mongolic
+ - proto-austroasiatic (Proto-Austroasiatic), region=Asia, category=Austroasiatic
+ - tiwi (Tiwi), region=Australia, category=Australian Aboriginal
+ - big-flowery (Big Flowery), region=East Asia, category=Hmong-Mien
+ - dongjia (Dongjia), region=East Asia, category=Hmong-Mien
+ - gejia (Gejia), region=East Asia, category=Hmong-Mien
+ - guiyang (Guiyang), region=East Asia, category=Hmong-Mien
+ - hmu (Hmu), region=East Asia, category=Hmong-Mien
+ - huishui (Huishui), region=East Asia, category=Hmong-Mien
+ - luobohe (Luobohe), region=East Asia, category=Hmong-Mien
+ - mashan (Mashan), region=East Asia, category=Hmong-Mien
+ - mo-piu (Mo Piu), region=East Asia, category=Hmong-Mien
+ - n-meo (N├í-Meo), region=East Asia, category=Hmong-Mien
+ - pingtang (Pingtang), region=East Asia, category=Hmong-Mien
+ - proto-hmong-mien (Proto-Hmong-Mien), region=East Asia, category=Hmong-Mien
+ - proto-hmongic (Proto-Hmongic), region=East Asia, category=Hmong-Mien
+ - proto-mienic (Proto-Mienic), region=East Asia, category=Hmong-Mien
+ - small-flowery (Small Flowery), region=East Asia, category=Hmong-Mien
+ - xixiu (Xixiu), region=East Asia, category=Hmong-Mien
+ - yangchun-pai-yao (Yangchun Pai Yao), region=East Asia, category=Hmong-Mien
+ - qoqmoncaq (Qoqmoncaq), region=Misc, category=Mixed
+ - na-dene (Na-Dene), region=North America, category=Na-Dene
+ - maori-ascii (Maori), region=Pacific, category=Polynesian
+ - southern-yukaghir (Southern Yukaghir), region=Siberia, category=Yukaghir
+ - tundra-yukaghir (Tundra Yukaghir), region=Siberia, category=Yukaghir
+ - baram-thangmi (Baram Thangmi), region=Sino-Tibetan region, category=Sino-Tibetan
+ - burmo-qiangic (Burmo Qiangic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - central-tibeto-burman (Central Tibeto Burman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - chamdo (Chamdo), region=Sino-Tibetan region, category=Sino-Tibetan
+ - chepangic (Chepangic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - dhimalish (Dhimalish), region=Sino-Tibetan region, category=Sino-Tibetan
+ - eastern-himalayas (Eastern Himalayas), region=Sino-Tibetan region, category=Sino-Tibetan
+ - greater-magaric (Greater Magaric), region=Sino-Tibetan region, category=Sino-Tibetan
+ - greater-siangic (Greater Siangic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - hkongso (Hkongso), region=Sino-Tibetan region, category=Sino-Tibetan
+ - hrusish (Hrusish), region=Sino-Tibetan region, category=Sino-Tibetan
+ - kuki-chin-naga (Kuki Chin Naga), region=Sino-Tibetan region, category=Sino-Tibetan
+ - longjia-luren (Longjia Luren), region=Sino-Tibetan region, category=Sino-Tibetan
+ - macro-bai (Macro Bai), region=Sino-Tibetan region, category=Sino-Tibetan
+ - magaric (Magaric), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mahakiranti (Mahakiranti), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mijiic (Mijiic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - milang (Milang), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mruic (Mruic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - proto-sino-tibetan (Proto Sino Tibetan), region=Sino-Tibetan region, category=Sino-Tibetan
+ - proto-tibeto-burman (Proto Tibeto Burman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - pyu (Pyu), region=Sino-Tibetan region, category=Sino-Tibetan
+ - rung (Rung), region=Sino-Tibetan region, category=Sino-Tibetan
+ - taman (Taman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - tibeto-burman (Tibeto Burman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - tibeto-kanauri (Tibeto Kanauri), region=Sino-Tibetan region, category=Sino-Tibetan
+ - western-himalayas (Western Himalayas), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mnw-native-speakers (Mon (native-speakers subset)), region=Southeast Asia, category=Austroasiatic
+ - kha-native-speakers (Khasi (native-speakers subset)), region=South Asia, category=Austroasiatic
+
+-- Entries where all mapped bases point to non-existent indices --
+ - air-tamajeq-language (Air Tamajeq language), bases=[333], invalid=[333]
+ - atlas-berber (Atlas Berber), bases=[331], invalid=[331]
+ - awjila-language (Awjila language), bases=[331], invalid=[331]
+ - east-zenati (East Zenati), bases=[332], invalid=[332]
+ - eastern-berber (Eastern Berber), bases=[331], invalid=[331]
+ - eastern-morocco-zenati (Eastern Morocco Zenati), bases=[332], invalid=[332]
+ - mzab-wargla (MzabΓÇôWargla Berber), bases=[332], invalid=[332]
+ - northern-berber (Northern Berber), bases=[331], invalid=[331]
+ - shenwa-language (Shenwa language), bases=[332], invalid=[332]
+ - standard-algerian-berber (Standard Algerian Berber), bases=[331], invalid=[331]
+ - tagdal-language (Tagdal language), bases=[333], invalid=[333]
+ - tamahaq-language (Tamahaq language), bases=[333], invalid=[333]
+ - tetserret-language (Tetserret language), bases=[333], invalid=[333]
+ - tidikelt-language (Tidikelt Berber), bases=[332], invalid=[332]
+ - tuareg-berber (Tuareg Berber), bases=[333], invalid=[333]
+ - tuwat-language (Tuwat Berber), bases=[332], invalid=[332]
+ - western-berber (Western Berber), bases=[331], invalid=[331]
+ - zenaga-language (Zenaga language), bases=[331], invalid=[331]
+ - bahnar (Bahnar), bases=[334], invalid=[334]
+ - bru (Bru), bases=[335], invalid=[335]
+ - chenchu (Chenchu), bases=[339], invalid=[339]
+ - chong (Chong), bases=[337], invalid=[337]
+ - hre (Hre), bases=[334], invalid=[334]
+ - ibanag (Ibanag), bases=[341], invalid=[341]
+ - kapampangan (Kapampangan), bases=[343], invalid=[343]
+ - kasong (Kasong), bases=[337], invalid=[337]
+ - katu (Katu), bases=[335], invalid=[335]
+ - khmu (Khmu), bases=[336], invalid=[336]
+ - kuy (Kuy), bases=[335], invalid=[335]
+ - mang (Mang), bases=[338], invalid=[338]
+ - mnong (Mnong), bases=[334], invalid=[334]
+ - pangasinan (Pangasinan), bases=[345], invalid=[345]
+ - pear (Pear), bases=[337], invalid=[337]
+ - sa-och (Sa-och), bases=[337], invalid=[337]
+ - samre (Samre), bases=[337], invalid=[337]
+ - sedang (Sedang), bases=[334], invalid=[334]
+ - somray (Somray), bases=[337], invalid=[337]
+ - suoy (Suoy), bases=[337], invalid=[337]
+ - lower-sorbian (Lower Sorbian), bases=[329,330], invalid=[329,330]
+ - egyptian-arabic (Egyptian Arabic), bases=[350], invalid=[350]
+
+-- Entries with a mix of valid and invalid base indices (will work, but mapping is messy) --
+ - standard-moroccan-amazigh (Standard Moroccan Amazigh), bases=[17,18,331], invalid=[331]
+ - tausug (Tausug), bases=[195,304,344], invalid=[344]
+ - erzya (Erzya), bases=[321,429], invalid=[321]
+ - moksha (Moksha), bases=[321,430], invalid=[321]
+ - northern-erzya (Northern Erzya), bases=[321,429,9], invalid=[321]
+ - southeastern-moksha (Southeastern Moksha), bases=[321,430,9], invalid=[321]
+ - western-erzya (Western Erzya), bases=[321,429,283], invalid=[321]
+ - western-moksha (Western Moksha), bases=[321,430,283], invalid=[321]
+ - montenegrin (Montenegrin), bases=[316,330], invalid=[330]
+ - podlachian (Podlachian), bases=[5,314,330], invalid=[330]
+ - pomeranian (Pomeranian), bases=[314,329], invalid=[329]
+ - rusyn (Rusyn), bases=[5,330], invalid=[330]
+ - slovincian (Slovincian), bases=[5,314,316,329], invalid=[329]
+ - upper-sorbian (Upper Sorbian), bases=[314,329,330], invalid=[329,330]
+
+-- Suggested explicitIsoBaseMap snippet for unresolved ISO codes (fill in base indices) --
+const explicitIsoBaseMap = {
+  "air-tamajeq-language": /* TODO baseIndex */ 0, // Air Tamajeq language
+  "atlas-berber": /* TODO baseIndex */ 0, // Atlas Berber
+  "awjila-language": /* TODO baseIndex */ 0, // Awjila language
+  "bahnar": /* TODO baseIndex */ 0, // Bahnar
+  "baram-thangmi": /* TODO baseIndex */ 0, // Baram Thangmi
+  "big-flowery": /* TODO baseIndex */ 0, // Big Flowery
+  "bonan-manegacha-dialect": /* TODO baseIndex */ 0, // Bonan (Manegacha)
+  "bru": /* TODO baseIndex */ 0, // Bru
+  "burmo-qiangic": /* TODO baseIndex */ 0, // Burmo Qiangic
+  "central-tibeto-burman": /* TODO baseIndex */ 0, // Central Tibeto Burman
+  "chamdo": /* TODO baseIndex */ 0, // Chamdo
+  "chenchu": /* TODO baseIndex */ 0, // Chenchu
+  "chepangic": /* TODO baseIndex */ 0, // Chepangic
+  "chong": /* TODO baseIndex */ 0, // Chong
+  "dhimalish": /* TODO baseIndex */ 0, // Dhimalish
+  "dongjia": /* TODO baseIndex */ 0, // Dongjia
+  "east-zenati": /* TODO baseIndex */ 0, // East Zenati
+  "eastern-berber": /* TODO baseIndex */ 0, // Eastern Berber
+  "eastern-himalayas": /* TODO baseIndex */ 0, // Eastern Himalayas
+  "eastern-morocco-zenati": /* TODO baseIndex */ 0, // Eastern Morocco Zenati
+  "egyptian-arabic": /* TODO baseIndex */ 0, // Egyptian Arabic
+  "gejia": /* TODO baseIndex */ 0, // Gejia
+  "greater-magaric": /* TODO baseIndex */ 0, // Greater Magaric
+  "greater-siangic": /* TODO baseIndex */ 0, // Greater Siangic
+  "guiyang": /* TODO baseIndex */ 0, // Guiyang
+  "hkongso": /* TODO baseIndex */ 0, // Hkongso
+  "hmu": /* TODO baseIndex */ 0, // Hmu
+  "hre": /* TODO baseIndex */ 0, // Hre
+  "hrusish": /* TODO baseIndex */ 0, // Hrusish
+  "huishui": /* TODO baseIndex */ 0, // Huishui
+  "ibanag": /* TODO baseIndex */ 0, // Ibanag
+  "kapampangan": /* TODO baseIndex */ 0, // Kapampangan
+  "kasong": /* TODO baseIndex */ 0, // Kasong
+  "katu": /* TODO baseIndex */ 0, // Katu
+  "kha-native-speakers": /* TODO baseIndex */ 0, // Khasi (native-speakers subset)
+  "khmu": /* TODO baseIndex */ 0, // Khmu
+  "kuki-chin-naga": /* TODO baseIndex */ 0, // Kuki Chin Naga
+  "kuy": /* TODO baseIndex */ 0, // Kuy
+  "longjia-luren": /* TODO baseIndex */ 0, // Longjia Luren
+  "lower-sorbian": /* TODO baseIndex */ 0, // Lower Sorbian
+  "luobohe": /* TODO baseIndex */ 0, // Luobohe
+  "macro-bai": /* TODO baseIndex */ 0, // Macro Bai
+  "magaric": /* TODO baseIndex */ 0, // Magaric
+  "mahakiranti": /* TODO baseIndex */ 0, // Mahakiranti
+  "mang": /* TODO baseIndex */ 0, // Mang
+  "maori-ascii": /* TODO baseIndex */ 0, // Maori
+  "mashan": /* TODO baseIndex */ 0, // Mashan
+  "mijiic": /* TODO baseIndex */ 0, // Mijiic
+  "milang": /* TODO baseIndex */ 0, // Milang
+  "mnong": /* TODO baseIndex */ 0, // Mnong
+  "mnw-native-speakers": /* TODO baseIndex */ 0, // Mon (native-speakers subset)
+  "mo-piu": /* TODO baseIndex */ 0, // Mo Piu
+  "mruic": /* TODO baseIndex */ 0, // Mruic
+  "mzab-wargla": /* TODO baseIndex */ 0, // MzabΓÇôWargla Berber
+  "n-meo": /* TODO baseIndex */ 0, // N├í-Meo
+  "na-dene": /* TODO baseIndex */ 0, // Na-Dene
+  "northern-berber": /* TODO baseIndex */ 0, // Northern Berber
+  "oirat-mongolian": /* TODO baseIndex */ 0, // Oirat Mongolian
+  "pangasinan": /* TODO baseIndex */ 0, // Pangasinan
+  "pear": /* TODO baseIndex */ 0, // Pear
+  "pingtang": /* TODO baseIndex */ 0, // Pingtang
+  "proto-austroasiatic": /* TODO baseIndex */ 0, // Proto-Austroasiatic
+  "proto-hmong-mien": /* TODO baseIndex */ 0, // Proto-Hmong-Mien
+  "proto-hmongic": /* TODO baseIndex */ 0, // Proto-Hmongic
+  "proto-mienic": /* TODO baseIndex */ 0, // Proto-Mienic
+  "proto-sino-tibetan": /* TODO baseIndex */ 0, // Proto Sino Tibetan
+  "proto-tibeto-burman": /* TODO baseIndex */ 0, // Proto Tibeto Burman
+  "pyu": /* TODO baseIndex */ 0, // Pyu
+  "qoqmoncaq": /* TODO baseIndex */ 0, // Qoqmoncaq
+  "rung": /* TODO baseIndex */ 0, // Rung
+  "sa-och": /* TODO baseIndex */ 0, // Sa-och
+  "samre": /* TODO baseIndex */ 0, // Samre
+  "sedang": /* TODO baseIndex */ 0, // Sedang
+  "shenwa-language": /* TODO baseIndex */ 0, // Shenwa language
+  "small-flowery": /* TODO baseIndex */ 0, // Small Flowery
+  "somray": /* TODO baseIndex */ 0, // Somray
+  "southern-yukaghir": /* TODO baseIndex */ 0, // Southern Yukaghir
+  "standard-algerian-berber": /* TODO baseIndex */ 0, // Standard Algerian Berber
+  "suoy": /* TODO baseIndex */ 0, // Suoy
+  "tagdal-language": /* TODO baseIndex */ 0, // Tagdal language
+  "tamahaq-language": /* TODO baseIndex */ 0, // Tamahaq language
+  "taman": /* TODO baseIndex */ 0, // Taman
+  "tetserret-language": /* TODO baseIndex */ 0, // Tetserret language
+  "tibeto-burman": /* TODO baseIndex */ 0, // Tibeto Burman
+  "tibeto-kanauri": /* TODO baseIndex */ 0, // Tibeto Kanauri
+  "tidikelt-language": /* TODO baseIndex */ 0, // Tidikelt Berber
+  "tiwi": /* TODO baseIndex */ 0, // Tiwi
+  "tuareg-berber": /* TODO baseIndex */ 0, // Tuareg Berber
+  "tundra-yukaghir": /* TODO baseIndex */ 0, // Tundra Yukaghir
+  "tuwat-language": /* TODO baseIndex */ 0, // Tuwat Berber
+  "western-berber": /* TODO baseIndex */ 0, // Western Berber
+  "western-himalayas": /* TODO baseIndex */ 0, // Western Himalayas
+  "xixiu": /* TODO baseIndex */ 0, // Xixiu
+  "yangchun-pai-yao": /* TODO baseIndex */ 0, // Yangchun Pai Yao
+  "zenaga-language": /* TODO baseIndex */ 0, // Zenaga language
+};
+

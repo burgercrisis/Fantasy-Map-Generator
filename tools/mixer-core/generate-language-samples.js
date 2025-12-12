@@ -305,6 +305,34 @@ function classifyOnsets(blob) {
 }
 
 const CLICK_CHARS = "ǀǁǂǃ";
+const CLICK_SMOOTH_PREFIXES = ["h", "ʼ", "kh", "qh", "sk", "ts", "tl", "ng", "x", "g", "n"];
+const CLICK_BRIDGE_VOWELS = ["a", "e", "i", "o", "u", "aa", "oa", "ua", "ia", "ai", "ei", "ao"];
+const CLICK_SUFFIXES = ["ka", "na", "sa", "sha", "ra", "ma", "ta", "la", "xa", "na", "za"];
+const CLICK_ACCENTS = [
+  ["a", "á"],
+  ["e", "é"],
+  ["i", "í"],
+  ["o", "ó"],
+  ["u", "ú"],
+  ["a", "â"],
+  ["o", "ô"]
+];
+
+function pickRandom(arr, rng) {
+  if (!Array.isArray(arr) || !arr.length) return "";
+  const idx = Math.floor(rng() * arr.length);
+  return arr[idx];
+}
+
+function applyAccent(str, rng) {
+  for (const [plain, accented] of CLICK_ACCENTS) {
+    const idx = str.indexOf(plain);
+    if (idx !== -1 && rng() < 0.7) {
+      return str.slice(0, idx) + accented + str.slice(idx + plain.length);
+    }
+  }
+  return str;
+}
 
 function isClickHeavyLanguage(blob) {
   const names = (blob || "")
@@ -365,33 +393,64 @@ function isRepetitiveClickPattern(segInfos) {
 
 function softenClickRuns(segs, rng) {
   if (!Array.isArray(segs) || segs.length < 2) return;
-  const roll = () => (typeof rng === "function" ? rng() : Math.random());
+  const pickPrefix = () => pickRandom(CLICK_SMOOTH_PREFIXES, rng);
 
-  for (let i = 1; i < segs.length; i++) {
-    const prev = segs[i - 1];
-    const curr = segs[i];
-    if (!prev || !curr) continue;
-    if (!prev.shape || !curr.shape) continue;
-    if (!prev.shape.isClickSegment || !curr.shape.isClickSegment) continue;
+  const appendWithConnector = (base, addition) => {
+    if (!addition) return base;
+    if (!base) return addition;
+    const connector = pickRandom(["", "", "-", " ", "’"], rng);
+    if (!connector) return base + addition;
+    if (connector.trim() === "-" || connector.trim() === "’") return base + connector + addition;
+    return `${base}${connector}${addition.charAt(0).toUpperCase()}${addition.slice(1)}`;
+  };
 
-    // Skip occasionally so we still get full click compounds sometimes
-    if (roll() < 0.25) continue;
-
-    const stripped = curr.text.replace(/^[ǀǁǂǃ]+/u, "");
-    if (!stripped) continue;
-
-    // Occasionally keep a softened click marker rather than removing entirely
-    let softened = stripped;
-    if (roll() < 0.4) {
-      softened = stripped[0].toUpperCase() + stripped.slice(1);
-    } else {
-      softened = stripped[0].toLowerCase() + stripped.slice(1);
+  let run = 0;
+  for (let i = 0; i < segs.length; i++) {
+    const seg = segs[i];
+    if (!seg || !seg.shape) {
+      run = 0;
+      continue;
     }
 
-    segs[i] = Object.assign({}, curr, {
+    if (!seg.shape.isClickSegment) {
+      run = 0;
+      continue;
+    }
+
+    run++;
+    if (run === 1 && rng() < 0.5) continue;
+
+    const stripped = seg.text.replace(/^[ǀǁǂǃ]+/u, "");
+    if (!stripped) continue;
+
+    let softenedCore = stripped;
+    if (rng() < 0.5) softenedCore = applyAccent(softenedCore, rng);
+    if (run >= 3 && softenedCore.length > 3 && rng() < 0.6) {
+      const splitPoint = 1 + Math.floor(rng() * Math.max(1, softenedCore.length - 2));
+      const bridge = pickRandom(CLICK_BRIDGE_VOWELS, rng);
+      softenedCore = `${softenedCore.slice(0, splitPoint)}${bridge}${softenedCore.slice(splitPoint)}`;
+    }
+
+    const prefix = rng() < 0.75 ? pickPrefix() : "";
+    const bridgeVowel = rng() < 0.6 ? pickRandom(CLICK_BRIDGE_VOWELS, rng) : "";
+    const suffix = rng() < 0.5 ? pickRandom(CLICK_SUFFIXES, rng) : "";
+
+    let softened = "";
+    softened = appendWithConnector(softened, prefix);
+    softened = appendWithConnector(softened, bridgeVowel);
+    softened = appendWithConnector(softened, softenedCore);
+    if (suffix) softened = appendWithConnector(softened, suffix);
+
+    if (rng() < 0.3) {
+      softened = softened.charAt(0).toUpperCase() + softened.slice(1);
+    }
+
+    segs[i] = Object.assign({}, seg, {
       text: softened,
-      shape: getSegmentShape(softened, curr.ctx)
+      shape: getSegmentShape(softened, seg.ctx)
     });
+
+    run = rng() < 0.25 ? run : 0;
   }
 }
 
@@ -582,6 +641,8 @@ function generateBlendedName(contexts, rng, opts) {
         segInfos: [{text: fallbackText, ctx, shape}]
       };
     }
+
+    softenClickRuns(segs, rng);
 
     let compound = segs[0].text;
     for (let i = 1; i < segs.length; i++) {

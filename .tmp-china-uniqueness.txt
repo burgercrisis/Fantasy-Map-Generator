@@ -1,0 +1,37 @@
+﻿=== Wikipedia list base-uniqueness summary ===
+List: Wikipedia: Languages of China ΓÇô spoken languages
+Source: https://en.wikipedia.org/wiki/Languages_of_China
+List items (excluding explicit skip): 194
+Skipped items: 29
+
+Wiring status (same categories as report-wikipedia-list-coverage.js):
+  full: 88
+  missing-catalog: 0
+  missing-map: 0
+  missing-both: 0
+  unmatched: 106
+  ambiguous: 0
+
+Global base-index uniqueness snapshot for this list:
+  Nonunique Bases (non-skipped items): 188
+
+Base-set uniqueness among full items:
+  unique bases: 74
+  clustered bases: 14
+
+Clustered full items (share their bases[] with at least one other catalog language):
+  iso | name | clusterSize
+  bola | Bola | 2
+  daur | Daur | 4
+  eastern-yugur | Eastern Yugur | 6
+  gelao | Gelao | 14
+  hokkien | Hokkien | 3
+  jingpho | Jingpho | 2
+  khams-tibetan | Khams Tibetan | 2
+  maonan | Maonan | 15
+  mongolian | Mongolian | 6
+  she | She | 31
+  tibetan | Central Tibetan (Standard Tibetan) | 2
+  torgut | Torgut Oirat | 4
+  yeniseian | Yeniseian | 32
+  yi | Yi | 2

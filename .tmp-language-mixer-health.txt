@@ -1,0 +1,2311 @@
+﻿Running language mixer health diagnostics...
+
+
+=== Diagnostics summaries ===
+
+=== diff-language-families.js summary ===
+Total entries in JSON: 3023
+Total entries in language-mixes-all.js: 3023
+
+Entries where family is only in language-mixes-all.js or JSON is missing entry: 0
+
+Entries where family is only in JSON (no family in language-mixes-all.js): 0
+
+Entries where family differs between JSON and language-mixes-all.js: 0
+
+OK: No family values exist only in language-mixes-all.js, and no mismatches versus JSON.
+
+=== check-language-mixer-coverage.js summary ===
+Total ISO codes in mixer map: 2523
+Total ISO codes in mixer catalog: 3016
+ISOs in map but missing from catalog (won't appear in dropdown): 0
+
+
+ISOs in catalog but missing from map (no local Markov mapping): 493
+a-ou, admiralty, ahom, aiton, aws-nian, baarin, bahraini-gulf-arabic, bahrani-arabic, baisha-hlai, bakhtiari-arabic, bali-sasak-sumbawa, baoan, baoting-hlai, baram-thangmi, bareqi-arabic, bargut-buryat, barwar, barzani-jewish-neo-aramaic, basap, batanic, bayat-oirat, be-jizhao, berbice, bercian, bergamasque, berrichon, betanure-jewish-neo-aramaic, biblical-aramaic, big-flowery, bima, bohtan-neo-aramaic, bolivian-spanish, bolognese, bonan-kangjia, bonan-manegacha, bourbonnais, brianz-, brigasc, bukharian-arabic, bukovinian, bunun, burgundian, burmo-qiangic, bustocco-legnanese, cairene-arabic, canaano-akkadian, cantabrian, canz-s, cao-lan, cappadocian-greek, cauchois, cenderawasih, central-asian-arabic, central-catalan, central-finland, central-hilali-dialects, central-luzon, central-marchigiano, central-northern-lazian, central-semitic, central-south-sulawesi, central-southern-calabrian, central-tai, central-tibeto-burman, central-vanuatu, chadian-arabic, chakhar, chaldean-neo-aramaic, chamdo, champenois, changjiang-hlai, chepangic, chiac, chiang-saen, chilean-spanish, chilote, chinese-korean, chipilo, christian-palestinian-aramaic, christian-urmi-neo-aramaic, chungcheong-dialect, classical-arabic, classical-mongolian, classical-syriac, colombian-spanish, comasco-lecchese, corfiot-maltese, cotentinais, cottonera-dialect, cremish, cremun-s, cri-ana, cun-hlai, daco-romanian, dadanitic, dai-zhuang, darkhad, dhimalish, dongjia, dorbet-oirat, duan, e-tai, early-modern-korean, eastern-catalan, eastern-himalayas, eastern-lombard, eastern-oceanic, eastern-romanian, eastern-savonian, ecuadorian-spanish, ekhirit-bulagat-buryat, fabriano, faetar, ferrarese, fiuman, flores-lembata, forlivese, frainc-comtou, franco-italian, franco-ontarian, franco-proven-al, frenchville-french, gallo, gallo-italic-of-basilicata, gallo-italic-of-sicily, gallo-picene, gangwon-dialect, gardiol, gascon, gaumais, gejia, genoese, greater-barito, greater-central-philippine, greater-magaric, greater-north-borneo, greater-siangic, grossetano, guern-siais, guiyang, gurindji-kriol, gyeonggi-seoul-dialect, gyeongsang-dialect, hailar-dagur, haketia, halmahera-sea, hamgyong-dialect, han-samhan, heart-tavastian, hkongso, hmu, hrusish, huishui, hwanghae-dialect, intemelio, inuktitut-english-pidgin, javindo, jeju-language, jeolla-dialect, jersey-dutch, jersey-legal-french, jiamao, jizhao, joseon-early-modern-korean, joseon-modern-korean, judeo-catalan, judeo-gascon, judeo-mantuan, judeo-piedmontese, judeo-proven-al, kaili-wolio, kalamian, kaloeng, kam-tai, kayan-murik, kei-tanimbar, khalkha, khamti, khamyang, kharchin-khorchin, khorchin, khori-buryat, khoton, khun, kikai, koryo-mar, kuan, kujarge, kuki-chin-naga, kunigami, labrador-inuit-pidgin-french, lampung, land-dayak, lao-nyo, lao-phutai, latin-american-spanish, law-french, leonese, light-warlpiri, limousin, longjia-luren, longsang-zhuang, lorrain, louisiana-french, lower-uda-buryat, loyalties-new-caledonia, lucchese, luobohe, m-tis-french, macerata, macro-bai, macro-yaeyama, magaric, mahakiranti, makassar-branch, malayo-polynesian, manduriano, maramure-, mashan, mayennais, mednyj-aleut, melanau-kajang, mentonasc, meridional-french, meso-melanesian, mexican-spanish, michif, middle-botnian, middle-mongol, mijiic, milanese, milang, min-zhuang, minahasan, missouri-french, miyakoan, mo-piu, modern-korean, mohawk-dutch, moklenic, moldavian, mongghuor, moyfaw, mozarabic, mruic, muna-buton, munhwao, muskrat-french, myang-zhuang, n-meo, na-dene, nadou, nantoq-baoan, nasal, negerhollands, negro-dutch, new-england-french, newfoundland-french, niger-congo-family, nong-zhuang, nonni-dagur, north-estonian, north-korean, north-new-guinea, north-sarawakan, north-vanuatu, northern-botnian, northern-catalan, northern-formosan, northern-khalkha, northern-luzon, northern-mindoro, northern-romanian, northern-savonian, northern-south-sulawesi, northern-tai, northwest-sumatra-barrier-islands, northwestern-catalan, northwestern-tai, novarese, nung-tai, oceanic, oeld, okinoerabu, old-catalan, old-gallo-romance, old-khitan, old-leonese, old-lombard, old-romagnol, old-serbi, old-spanish, oltenian, ossolano, p-ij-nne-tavastia, pa-di, pa-uezu, paiwan, palra, paraguayan-spanish, parmigiano, pavese, paydret, per-pohjola, peruvian-ribere-o, peruvian-spanish, pesciatino, petjo, phake, philippine, phu-thai, phuan, pingtang, pistoiese, poitevin, pori-region, porvoo, proto-austroasiatic, proto-eastern-romance, proto-hmong-mien, proto-hmongic, proto-koreanic, proto-kra-dai, proto-mienic, proto-mongolic, proto-mordvinic, proto-permic, proto-romance, proto-sami, proto-sino-tibetan, proto-tai, proto-tibeto-burman, puyo, puyuma, pyang-zhuang, pyojuneo, pyongan-dialect, pyu, qifu, qoqmoncaq, quebec-french, rejang, ribagor-an, riberan, rioplatense-spanish, riunorese, romanesco, rouran, royasc, ruija, rukai, rung, ryukyuan, sabahan, sabino, saek, saintongeais, sal, salentino, saluan-banggai, sammarinese, sangiric, sapa, sart-kalmyk, savonian, savonlinna, savoyard, seko-badaic, selaru, senese, serbi-mongolic-family, shilingol-khalkha, shirwi, shwng, siangic, skepi-dutch-creole, small-flowery, somero-region, sonid, south-korean, south-mindanao, south-vanuatu, southeast-solomonic, southeastern-finnish, southeastern-tavastian, southern-amami, southern-botnian, southern-khalkha, southern-oceanic, southern-savonian, southern-tai, southern-tavastian, southern-yukaghir, southwestern-finnish, southwestern-tai, st-matthias, standard-french, standard-zhuang, sumatran, sumba-flores, tabarchino, tabghach, tai-daeng, tai-dam, tai-don, tai-hang-tong, tai-hongjin, tai-khang, tai-laing, tai-long, tai-meuay, tai-muong-vat, tai-nuea, tai-pao, tai-thanh, tai-ya, tai-yo, talian, taman, tavastian, tay-tac, tay-tai, te-parau-tinito, temotu, thai-siamese, thai-song, tibeto-burman, tibeto-kanauri, ticinese, timoric, tinglish, tiwi, tokunoshima, tomini-tolitoli, tongren-bonan, tornio, transylvanian, triestine, tsouic, tsun-lao, tundra-yukaghir, turku-highlands, turoyo, turung, tuscia, tuyuhun, ulaanchab, umbrian, uralic-yukaghir, uruguayan-spanish, v-rmland-savonian, vald-tain, vanuatu, varesino, venezuelan-spanish, versiliese, viareggino, vivaro-alpine, vosgien, wallachian, welche, west-semitic, west-walloon, western-catalan, western-hilali-dialects, western-himalayas, western-malayo-polynesian, western-middle-aramaic, western-oceanic, western-pre-hilali-dialects, western-uusimaa, wisconsin-walloon, wutunhua, xixiu, yaeyama, yafii-arabic, yang-zhuang, yangchun-pai-yao, ye-maek, yei-zhuang, yemeni-arabic, yeongdong-dialect, yeongseo-dialect, yl-satakunta, yonaguni, yong, yoron, yoy, yuanmen-hlai, yukjin-dialect, zainichi-korean, zakhchin, zandui
+
+=== check-language-mixer-failures.js summary ===
+=== Markov mixer failure check ===
+Total catalog entries: 3023
+Languages that will fail in local mixer (no usable bases): 475
+  - Missing mapping entries: 473
+  - Mapped but bases array empty: 2
+  - Mapped but all bases invalid: 0
+
+-- Missing mapping for catalog languages (no entry in language-mixer-map.json) --
+ - chadian-arabic (Chadian Arabic), region=Africa, category=Afroasiatic
+ - kujarge (Kujarg├⌐), region=Africa, category=Unclassified
+ - a-ou (A Ou), region=Asia, category=Tai-Kadai
+ - ahom (Ahom), region=Asia, category=Tai-Kadai
+ - aiton (Aiton), region=Asia, category=Tai-Kadai
+ - baarin (Baarin Mongol), region=Asia, category=Mongolic
+ - baisha-hlai (Baisha Hlai), region=Asia, category=Tai-Kadai
+ - baoan (Baoan), region=Asia, category=Mongolic
+ - baoting-hlai (Baoting Hlai), region=Asia, category=Tai-Kadai
+ - bargut-buryat (Bargut Buryat), region=Asia, category=Mongolic
+ - bayat-oirat (Bayat Oirat), region=Asia, category=Mongolic
+ - be-jizhao (Be-Jizhao), region=Asia, category=Tai-Kadai
+ - bonan-manegacha (Bonan Manegacha), region=Asia, category=Mongolic
+ - cao-lan (Cao Lan), region=Asia, category=Tai-Kadai
+ - central-tai (Central Tai), region=Asia, category=Tai-Kadai
+ - chakhar (Chakhar Mongol), region=Asia, category=Mongolic
+ - changjiang-hlai (Changjiang Hlai), region=Asia, category=Tai-Kadai
+ - chiang-saen (Chiang Saen), region=Asia, category=Tai-Kadai
+ - classical-mongolian (Classical Mongolian), region=Asia, category=Mongolic
+ - cun-hlai (Cun Hlai), region=Asia, category=Tai-Kadai
+ - dai-zhuang (Dai Zhuang), region=Asia, category=Tai-Kadai
+ - darkhad (Darkhad Mongolian), region=Asia, category=Mongolic
+ - dorbet-oirat (Dorbet Oirat), region=Asia, category=Mongolic
+ - duan (Duan), region=Asia, category=Mongolic
+ - e-tai (E (Tai)), region=Asia, category=Tai-Kadai
+ - ekhirit-bulagat-buryat (Ekhirit-Bulagat Buryat), region=Asia, category=Mongolic
+ - hailar-dagur (Hailar Dagur), region=Asia, category=Mongolic
+ - jiamao (Jiamao), region=Asia, category=Tai-Kadai
+ - jizhao (Jizhao), region=Asia, category=Tai-Kadai
+ - kaloeng (Kaloeng), region=Asia, category=Tai-Kadai
+ - kam-tai (Kam-Tai), region=Asia, category=Tai-Kadai
+ - khalkha (Khalkha Mongolian), region=Asia, category=Mongolic
+ - khamti (Khamti), region=Asia, category=Tai-Kadai
+ - khamyang (Khamyang), region=Asia, category=Tai-Kadai
+ - kharchin-khorchin (Kharchin / Khorchin Mongol), region=Asia, category=Mongolic
+ - khorchin (Khorchin Mongol), region=Asia, category=Mongolic
+ - khori-buryat (Khori Buryat), region=Asia, category=Mongolic
+ - khoton (Khoton), region=Asia, category=Mongolic
+ - khun (Khun), region=Asia, category=Tai-Kadai
+ - kikai (Kikai), region=Asia, category=Japonic
+ - kuan (Kuan), region=Asia, category=Tai-Kadai
+ - kunigami (Kunigami), region=Asia, category=Japonic
+ - lao-nyo (Lao Nyo), region=Asia, category=Tai-Kadai
+ - lao-phutai (Lao-Phutai), region=Asia, category=Tai-Kadai
+ - longsang-zhuang (Longsang Zhuang), region=Asia, category=Tai-Kadai
+ - lower-uda-buryat (Lower Uda Buryat), region=Asia, category=Mongolic
+ - macro-yaeyama (Macro-Yaeyama), region=Asia, category=Japonic
+ - middle-mongol (Middle Mongol), region=Asia, category=Mongolic
+ - min-zhuang (Min Zhuang), region=Asia, category=Tai-Kadai
+ - miyakoan (Miyakoan), region=Asia, category=Japonic
+ - mongghuor (Mongghuor), region=Asia, category=Mongolic
+ - moyfaw (Moyfaw), region=Asia, category=Tai-Kadai
+ - myang-zhuang (Myang Zhuang), region=Asia, category=Tai-Kadai
+ - nadou (Nadou), region=Asia, category=Tai-Kadai
+ - nantoq-baoan (Nantoq Baoan), region=Asia, category=Mongolic
+ - nong-zhuang (Nong Zhuang), region=Asia, category=Tai-Kadai
+ - nonni-dagur (Nonni Dagur), region=Asia, category=Mongolic
+ - northern-khalkha (Northern Khalkha), region=Asia, category=Mongolic
+ - northern-tai (Northern Tai), region=Asia, category=Tai-Kadai
+ - northwestern-tai (Northwestern Tai), region=Asia, category=Tai-Kadai
+ - nung-tai (Nung (Tai)), region=Asia, category=Tai-Kadai
+ - oeld (Oeld), region=Asia, category=Mongolic
+ - okinoerabu (Okinoerabu), region=Asia, category=Japonic
+ - old-khitan (Old Khitan), region=Asia, category=Mongolic
+ - old-serbi (Old Serbi), region=Asia, category=Mongolic
+ - pa-di (Pa Di), region=Asia, category=Tai-Kadai
+ - phake (Phake), region=Asia, category=Tai-Kadai
+ - phu-thai (Phu Thai), region=Asia, category=Tai-Kadai
+ - phuan (Phuan), region=Asia, category=Tai-Kadai
+ - proto-austroasiatic (Proto-Austroasiatic), region=Asia, category=Austroasiatic
+ - proto-kra-dai (Proto-KraDai), region=Asia, category=Tai-Kadai
+ - proto-mongolic (Proto-Mongolic), region=Asia, category=Mongolic
+ - proto-tai (Proto-Tai), region=Asia, category=Tai-Kadai
+ - pyang-zhuang (Pyang Zhuang), region=Asia, category=Tai-Kadai
+ - qifu (Qifu), region=Asia, category=Mongolic
+ - rouran (Rouran), region=Asia, category=Mongolic
+ - ryukyuan (Ryukyuan), region=Asia, category=Japonic
+ - saek (Saek), region=Asia, category=Tai-Kadai
+ - sapa (Sapa), region=Asia, category=Tai-Kadai
+ - sart-kalmyk (Sart Kalmyk), region=Asia, category=Mongolic
+ - shilingol-khalkha (Shilingol / Xilingol Khalkha), region=Asia, category=Mongolic
+ - shirwi (Shirwi), region=Asia, category=Mongolic
+ - sonid (Sonid Mongol), region=Asia, category=Mongolic
+ - southern-amami (Southern Amami), region=Asia, category=Japonic
+ - southern-khalkha (Southern Khalkha), region=Asia, category=Mongolic
+ - southern-tai (Southern Tai), region=Asia, category=Tai-Kadai
+ - southwestern-tai (Southwestern Tai), region=Asia, category=Tai-Kadai
+ - standard-zhuang (Standard Zhuang), region=Asia, category=Tai-Kadai
+ - tabghach (Tabghach), region=Asia, category=Mongolic
+ - tai-daeng (Tai Daeng), region=Asia, category=Tai-Kadai
+ - tai-dam (Tai Dam), region=Asia, category=Tai-Kadai
+ - tai-don (Tai Don), region=Asia, category=Tai-Kadai
+ - tai-hang-tong (Tai Hang Tong), region=Asia, category=Tai-Kadai
+ - tai-hongjin (Tai Hongjin), region=Asia, category=Tai-Kadai
+ - tai-khang (Tai Khang), region=Asia, category=Tai-Kadai
+ - tai-laing (Tai Laing), region=Asia, category=Tai-Kadai
+ - tai-long (Tai Long), region=Asia, category=Tai-Kadai
+ - tai-meuay (Tai Meuay), region=Asia, category=Tai-Kadai
+ - tai-muong-vat (Tai Muong Vat), region=Asia, category=Tai-Kadai
+ - tai-nuea (Tai Nuea), region=Asia, category=Tai-Kadai
+ - tai-pao (Tai Pao), region=Asia, category=Tai-Kadai
+ - tai-thanh (Tai Thanh), region=Asia, category=Tai-Kadai
+ - tai-ya (Tai Ya), region=Asia, category=Tai-Kadai
+ - tai-yo (Tai Yo (Nyaw)), region=Asia, category=Tai-Kadai
+ - tay-tai (Tay (Tai)), region=Asia, category=Tai-Kadai
+ - tay-tac (Tay Tac), region=Asia, category=Tai-Kadai
+ - thai-siamese (Thai (Siamese)), region=Asia, category=Tai-Kadai
+ - thai-song (Thai Song), region=Asia, category=Tai-Kadai
+ - tokunoshima (Tokunoshima), region=Asia, category=Japonic
+ - tongren-bonan (Tongren Bonan), region=Asia, category=Mongolic
+ - bonan-kangjia (Transitional Bonan-Kangjia), region=Asia, category=Mongolic
+ - tsun-lao (Tsun-Lao), region=Asia, category=Tai-Kadai
+ - turung (Turung), region=Asia, category=Tai-Kadai
+ - tuyuhun (Tuyuhun), region=Asia, category=Mongolic
+ - ulaanchab (Ulaanchab Mongol), region=Asia, category=Mongolic
+ - yaeyama (Yaeyama), region=Asia, category=Japonic
+ - yang-zhuang (Yang Zhuang), region=Asia, category=Tai-Kadai
+ - yei-zhuang (Yei Zhuang), region=Asia, category=Tai-Kadai
+ - yonaguni (Yonaguni), region=Asia, category=Japonic
+ - yong (Yong), region=Asia, category=Tai-Kadai
+ - yoron (Yoron), region=Asia, category=Japonic
+ - yoy (Yoy), region=Asia, category=Tai-Kadai
+ - yuanmen-hlai (Yuanmen Hlai), region=Asia, category=Tai-Kadai
+ - zakhchin (Zakhchin), region=Asia, category=Mongolic
+ - zandui (Zandui), region=Asia, category=Tai-Kadai
+ - tiwi (Tiwi), region=Australia, category=Australian Aboriginal
+ - big-flowery (Big Flowery), region=East Asia, category=Hmong-Mien
+ - chinese-korean (Chinese Korean), region=East Asia, category=Koreanic
+ - chungcheong-dialect (Chungcheong Korean), region=East Asia, category=Koreanic
+ - dongjia (Dongjia), region=East Asia, category=Hmong-Mien
+ - early-modern-korean (Early Modern Korean), region=East Asia, category=Koreanic
+ - gangwon-dialect (Gangwon Korean), region=East Asia, category=Koreanic
+ - gejia (Gejia), region=East Asia, category=Hmong-Mien
+ - guiyang (Guiyang), region=East Asia, category=Hmong-Mien
+ - gyeonggi-seoul-dialect (Gyeonggi / Seoul Korean), region=East Asia, category=Koreanic
+ - gyeongsang-dialect (Gyeongsang Korean), region=East Asia, category=Koreanic
+ - hamgyong-dialect (Hamgy┼Ång Korean), region=East Asia, category=Koreanic
+ - han-samhan (Han (Samhan)), region=East Asia, category=Koreanic
+ - hmu (Hmu), region=East Asia, category=Hmong-Mien
+ - huishui (Huishui), region=East Asia, category=Hmong-Mien
+ - hwanghae-dialect (Hwanghae Korean), region=East Asia, category=Koreanic
+ - jeju-language (Jeju language), region=East Asia, category=Koreanic
+ - jeolla-dialect (Jeolla Korean), region=East Asia, category=Koreanic
+ - joseon-early-modern-korean (Joseon Korean (Early Modern)), region=East Asia, category=Koreanic
+ - joseon-modern-korean (Joseon Korean (Modern)), region=East Asia, category=Koreanic
+ - luobohe (Luobohe), region=East Asia, category=Hmong-Mien
+ - mashan (Mashan), region=East Asia, category=Hmong-Mien
+ - mo-piu (Mo Piu), region=East Asia, category=Hmong-Mien
+ - modern-korean (Modern Korean), region=East Asia, category=Koreanic
+ - munhwao (Munhwa┼Å (Standard North Korean)), region=East Asia, category=Koreanic
+ - n-meo (N├í-Meo), region=East Asia, category=Hmong-Mien
+ - north-korean (North Korean), region=East Asia, category=Koreanic
+ - pingtang (Pingtang), region=East Asia, category=Hmong-Mien
+ - proto-hmong-mien (Proto-Hmong-Mien), region=East Asia, category=Hmong-Mien
+ - proto-hmongic (Proto-Hmongic), region=East Asia, category=Hmong-Mien
+ - proto-koreanic (Proto-Koreanic), region=East Asia, category=Koreanic
+ - proto-mienic (Proto-Mienic), region=East Asia, category=Hmong-Mien
+ - puyo (Puy┼Å), region=East Asia, category=Koreanic
+ - pyojuneo (Pyojuneo (Standard Korean)), region=East Asia, category=Koreanic
+ - pyongan-dialect (Pyongan Korean), region=East Asia, category=Koreanic
+ - small-flowery (Small Flowery), region=East Asia, category=Hmong-Mien
+ - south-korean (South Korean), region=East Asia, category=Koreanic
+ - xixiu (Xixiu), region=East Asia, category=Hmong-Mien
+ - yangchun-pai-yao (Yangchun Pai Yao), region=East Asia, category=Hmong-Mien
+ - ye-maek (Ye-Maek), region=East Asia, category=Koreanic
+ - yeongdong-dialect (Yeongdong Korean), region=East Asia, category=Koreanic
+ - yeongseo-dialect (Yeongseo Korean), region=East Asia, category=Koreanic
+ - yukjin-dialect (Yukjin Korean), region=East Asia, category=Koreanic
+ - zainichi-korean (Zainichi Korean), region=East Asia, category=Koreanic
+ - central-finland (Central Finland), region=Eurasia, category=Uralic
+ - eastern-savonian (Eastern Savonian), region=Eurasia, category=Uralic
+ - heart-tavastian (Heart Tavastian), region=Eurasia, category=Uralic
+ - koryo-mar (Koryo-mar), region=Eurasia, category=Koreanic
+ - middle-botnian (Middle Botnian), region=Eurasia, category=Uralic
+ - north-estonian (North Estonian), region=Eurasia, category=Uralic
+ - northern-botnian (Northern Botnian), region=Eurasia, category=Uralic
+ - northern-savonian (Northern Savonian), region=Eurasia, category=Uralic
+ - p-ij-nne-tavastia (P├ñij├ñnne Tavastia), region=Eurasia, category=Uralic
+ - per-pohjola (Per├ñpohjola), region=Eurasia, category=Uralic
+ - pori-region (Pori region), region=Eurasia, category=Uralic
+ - porvoo (Porvoo), region=Eurasia, category=Uralic
+ - proto-mordvinic (Proto-Mordvinic), region=Eurasia, category=Uralic
+ - proto-permic (Proto-Permic), region=Eurasia, category=Uralic
+ - proto-sami (Proto-Sami), region=Eurasia, category=Uralic
+ - ruija (Ruija), region=Eurasia, category=Uralic
+ - savonian (Savonian), region=Eurasia, category=Uralic
+ - savonlinna (Savonlinna), region=Eurasia, category=Uralic
+ - somero-region (Somero region), region=Eurasia, category=Uralic
+ - southeastern-finnish (Southeastern Finnish), region=Eurasia, category=Uralic
+ - southeastern-tavastian (Southeastern Tavastian), region=Eurasia, category=Uralic
+ - southern-botnian (Southern Botnian), region=Eurasia, category=Uralic
+ - southern-savonian (Southern Savonian), region=Eurasia, category=Uralic
+ - southern-tavastian (Southern Tavastian), region=Eurasia, category=Uralic
+ - southwestern-finnish (Southwestern Finnish), region=Eurasia, category=Uralic
+ - tavastian (Tavastian), region=Eurasia, category=Uralic
+ - tornio (Tornio), region=Eurasia, category=Uralic
+ - turku-highlands (Turku highlands), region=Eurasia, category=Uralic
+ - uralic-yukaghir (Uralic-Yukaghir), region=Eurasia, category=Hypothetical
+ - v-rmland-savonian (V├ñrmland Savonian), region=Eurasia, category=Uralic
+ - western-uusimaa (Western Uusimaa), region=Eurasia, category=Uralic
+ - yl-satakunta (Yl├ñ-Satakunta), region=Eurasia, category=Uralic
+ - bercian (Bercian), region=Europe, category=Romance
+ - bergamasque (Bergamasque), region=Europe, category=Romance
+ - berrichon (Berrichon), region=Europe, category=Romance
+ - bolognese (Bolognese), region=Europe, category=Romance
+ - bourbonnais (Bourbonnais), region=Europe, category=Romance
+ - brianz- (Brianz├╢├╢), region=Europe, category=Romance
+ - brigasc (Brigasc), region=Europe, category=Romance
+ - bukovinian (Bukovinian), region=Europe, category=Romance
+ - burgundian (Burgundian), region=Europe, category=Romance
+ - bustocco-legnanese (Bustocco-Legnanese), region=Europe, category=Romance
+ - cantabrian (Cantabrian), region=Europe, category=Romance
+ - canz-s (Canz├⌐s), region=Europe, category=Romance
+ - cauchois (Cauchois), region=Europe, category=Romance
+ - central-catalan (Central Catalan), region=Europe, category=Romance
+ - central-marchigiano (Central Marchigiano), region=Europe, category=Romance
+ - central-northern-lazian (Central-Northern Lazian), region=Europe, category=Romance
+ - central-southern-calabrian (Central-Southern Calabrian), region=Europe, category=Romance
+ - champenois (Champenois), region=Europe, category=Romance
+ - comasco-lecchese (Comasco-Lecchese), region=Europe, category=Romance
+ - cotentinais (Cotentinais), region=Europe, category=Romance
+ - cremish (Cremish), region=Europe, category=Romance
+ - cremun-s (Cremun├⌐s), region=Europe, category=Romance
+ - cri-ana (Cri╚Öana), region=Europe, category=Romance
+ - daco-romanian (Daco-Romanian), region=Europe, category=Romance
+ - eastern-catalan (Eastern Catalan), region=Europe, category=Romance
+ - eastern-lombard (Eastern Lombard), region=Europe, category=Romance
+ - eastern-romanian (Eastern Romanian), region=Europe, category=Romance
+ - ecuadorian-spanish (Ecuadorian Spanish), region=Europe, category=Romance
+ - fabriano (Fabriano), region=Europe, category=Romance
+ - faetar (Faetar), region=Europe, category=Romance
+ - ferrarese (Ferrarese), region=Europe, category=Romance
+ - fiuman (Fiuman), region=Europe, category=Romance
+ - forlivese (Forlivese), region=Europe, category=Romance
+ - frainc-comtou (Frainc-Comtou), region=Europe, category=Romance
+ - franco-italian (Franco-Italian), region=Europe, category=Romance
+ - franco-proven-al (Franco-Proven├ºal), region=Europe, category=Romance
+ - gallo (Gallo), region=Europe, category=Romance
+ - gallo-italic-of-basilicata (Gallo-Italic of Basilicata), region=Europe, category=Romance
+ - gallo-italic-of-sicily (Gallo-Italic of Sicily), region=Europe, category=Romance
+ - gallo-picene (Gallo-Picene), region=Europe, category=Romance
+ - gardiol (Gardiol), region=Europe, category=Romance
+ - gascon (Gascon), region=Europe, category=Romance
+ - gaumais (Gaumais), region=Europe, category=Romance
+ - genoese (Genoese), region=Europe, category=Romance
+ - grossetano (Grossetano), region=Europe, category=Romance
+ - guern-siais (Guern├⌐siais), region=Europe, category=Romance
+ - haketia (Haketia), region=Europe, category=Romance
+ - intemelio (Intemelio), region=Europe, category=Romance
+ - jersey-legal-french (Jersey Legal French), region=Europe, category=Romance
+ - judeo-catalan (Judeo-Catalan), region=Europe, category=Romance
+ - judeo-gascon (Judeo-Gascon), region=Europe, category=Romance
+ - judeo-mantuan (Judeo-Mantuan), region=Europe, category=Romance
+ - judeo-piedmontese (Judeo-Piedmontese), region=Europe, category=Romance
+ - judeo-proven-al (Judeo-Proven├ºal), region=Europe, category=Romance
+ - law-french (Law French), region=Europe, category=Romance
+ - leonese (Leonese), region=Europe, category=Romance
+ - limousin (Limousin), region=Europe, category=Romance
+ - lorrain (Lorrain), region=Europe, category=Romance
+ - lucchese (Lucchese), region=Europe, category=Romance
+ - macerata (Macerata), region=Europe, category=Romance
+ - manduriano (Manduriano), region=Europe, category=Romance
+ - maramure- (Maramure╚Ö), region=Europe, category=Romance
+ - mayennais (Mayennais), region=Europe, category=Romance
+ - mentonasc (Mentonasc), region=Europe, category=Romance
+ - meridional-french (Meridional French), region=Europe, category=Romance
+ - milanese (Milanese), region=Europe, category=Romance
+ - moldavian (Moldavian), region=Europe, category=Romance
+ - mozarabic (Mozarabic), region=Europe, category=Romance
+ - northern-catalan (Northern Catalan), region=Europe, category=Romance
+ - northern-romanian (Northern Romanian), region=Europe, category=Romance
+ - northwestern-catalan (Northwestern Catalan), region=Europe, category=Romance
+ - novarese (Novarese), region=Europe, category=Romance
+ - old-catalan (Old Catalan), region=Europe, category=Romance
+ - old-gallo-romance (Old Gallo-Romance), region=Europe, category=Romance
+ - old-leonese (Old Leonese), region=Europe, category=Romance
+ - old-lombard (Old Lombard), region=Europe, category=Romance
+ - old-romagnol (Old Romagnol), region=Europe, category=Romance
+ - old-spanish (Old Spanish), region=Europe, category=Romance
+ - oltenian (Oltenian), region=Europe, category=Romance
+ - ossolano (Ossolano), region=Europe, category=Romance
+ - pa-uezu (Paß╕╖ß╕╖uezu), region=Europe, category=Romance
+ - palra (Palra), region=Europe, category=Romance
+ - parmigiano (Parmigiano), region=Europe, category=Romance
+ - pavese (Pavese), region=Europe, category=Romance
+ - paydret (Paydret), region=Europe, category=Romance
+ - pesciatino (Pesciatino), region=Europe, category=Romance
+ - pistoiese (Pistoiese), region=Europe, category=Romance
+ - poitevin (Poitevin), region=Europe, category=Romance
+ - proto-eastern-romance (Proto-Eastern Romance), region=Europe, category=Romance
+ - proto-romance (Proto-Romance), region=Europe, category=Romance
+ - ribagor-an (Ribagor├ºan), region=Europe, category=Romance
+ - riberan (Riberan), region=Europe, category=Romance
+ - riunorese (Riunorese), region=Europe, category=Romance
+ - romanesco (Romanesco), region=Europe, category=Romance
+ - royasc (Royasc), region=Europe, category=Romance
+ - sabino (Sabino), region=Europe, category=Romance
+ - saintongeais (Saintongeais), region=Europe, category=Romance
+ - salentino (Salentino), region=Europe, category=Romance
+ - sammarinese (Sammarinese), region=Europe, category=Romance
+ - savoyard (Savoyard), region=Europe, category=Romance
+ - senese (Senese), region=Europe, category=Romance
+ - standard-french (Standard French), region=Europe, category=Romance
+ - tabarchino (Tabarchino), region=Europe, category=Romance
+ - talian (Talian), region=Europe, category=Romance
+ - ticinese (Ticinese), region=Europe, category=Romance
+ - transylvanian (Transylvanian), region=Europe, category=Romance
+ - triestine (Triestine), region=Europe, category=Romance
+ - tuscia (Tuscia), region=Europe, category=Romance
+ - umbrian (Umbrian), region=Europe, category=Romance
+ - vald-tain (Vald├┤tain), region=Europe, category=Romance
+ - varesino (Varesino), region=Europe, category=Romance
+ - versiliese (Versiliese), region=Europe, category=Romance
+ - viareggino (Viareggino), region=Europe, category=Romance
+ - vivaro-alpine (Vivaro-Alpine), region=Europe, category=Romance
+ - vosgien (Vosgien), region=Europe, category=Romance
+ - wallachian (Wallachian), region=Europe, category=Romance
+ - welche (Welche), region=Europe, category=Romance
+ - west-walloon (West Walloon), region=Europe, category=Romance
+ - western-catalan (Western Catalan), region=Europe, category=Romance
+ - wisconsin-walloon (Wisconsin Walloon), region=Europe, category=Romance
+ - latin-american-spanish (Latin American Spanish), region=Latin America, category=Romance
+ - aws-nian (Aws─ünian), region=Middle East, category=Afroasiatic
+ - bahraini-gulf-arabic (Bahraini Gulf Arabic), region=Middle East, category=Afroasiatic
+ - bahrani-arabic (Bahrani Arabic), region=Middle East, category=Afroasiatic
+ - bakhtiari-arabic (Bakhtiari Arabic), region=Middle East, category=Afroasiatic
+ - bareqi-arabic (Bareqi Arabic), region=Middle East, category=Afroasiatic
+ - barwar (Barwar), region=Middle East, category=Afroasiatic
+ - barzani-jewish-neo-aramaic (Barzani Jewish Neo-Aramaic), region=Middle East, category=Afroasiatic
+ - betanure-jewish-neo-aramaic (Betanure Jewish Neo-Aramaic), region=Middle East, category=Afroasiatic
+ - biblical-aramaic (Biblical Aramaic), region=Middle East, category=Afroasiatic
+ - bohtan-neo-aramaic (Bohtan Neo-Aramaic), region=Middle East, category=Afroasiatic
+ - bukharian-arabic (Bukharian Arabic), region=Middle East, category=Afroasiatic
+ - cairene-arabic (Cairene Arabic), region=Middle East, category=Afroasiatic
+ - canaano-akkadian (Canaano-Akkadian), region=Middle East, category=Afroasiatic
+ - central-asian-arabic (Central Asian Arabic), region=Middle East, category=Afroasiatic
+ - central-hilali-dialects (Central Hilali dialects), region=Middle East, category=Afroasiatic
+ - chaldean-neo-aramaic (Chaldean Neo-Aramaic), region=Middle East, category=Afroasiatic
+ - christian-palestinian-aramaic (Christian Palestinian Aramaic), region=Middle East, category=Afroasiatic
+ - christian-urmi-neo-aramaic (Christian Urmi Neo-Aramaic), region=Middle East, category=Afroasiatic
+ - classical-arabic (Classical Arabic), region=Middle East, category=Afroasiatic
+ - classical-syriac (Classical Syriac), region=Middle East, category=Afroasiatic
+ - corfiot-maltese (Corfiot Maltese), region=Middle East, category=Afroasiatic
+ - cottonera-dialect (Cottonera Dialect), region=Middle East, category=Afroasiatic
+ - dadanitic (Dadanitic), region=Middle East, category=Afroasiatic
+ - turoyo (Turoyo), region=Middle East, category=Afroasiatic
+ - western-hilali-dialects (Western Hilali dialects), region=Middle East, category=Afroasiatic
+ - western-middle-aramaic (Western Middle Aramaic), region=Middle East, category=Afroasiatic
+ - western-pre-hilali-dialects (Western pre-Hilali dialects), region=Middle East, category=Afroasiatic
+ - yafii-arabic (Yafi'i Arabic), region=Middle East, category=Afroasiatic
+ - yemeni-arabic (Yemeni Arabic), region=Middle East, category=Afroasiatic
+ - berbice (Berbice), region=Misc, category=Creole
+ - cappadocian-greek (Cappadocian Greek), region=Misc, category=Mixed
+ - gurindji-kriol (Gurindji Kriol), region=Misc, category=Mixed
+ - inuktitut-english-pidgin (Inuktitut-English Pidgin), region=Misc, category=Pidgin
+ - javindo (Javindo), region=Misc, category=Creole
+ - jersey-dutch (Jersey Dutch), region=Misc, category=Creole
+ - labrador-inuit-pidgin-french (Labrador Inuit Pidgin French), region=Misc, category=Pidgin
+ - light-warlpiri (Light Warlpiri), region=Misc, category=Mixed
+ - mednyj-aleut (Mednyj Aleut), region=Misc, category=Mixed
+ - michif (Michif), region=Misc, category=Mixed
+ - mohawk-dutch (Mohawk Dutch), region=Misc, category=Creole
+ - negerhollands (Negerhollands), region=Misc, category=Creole
+ - negro-dutch (Negro Dutch), region=Misc, category=Creole
+ - petjo (Petjo), region=Misc, category=Creole
+ - qoqmoncaq (Qoqmoncaq), region=Misc, category=Mixed
+ - skepi-dutch-creole (Skepi Dutch Creole), region=Misc, category=Creole
+ - te-parau-tinito (Te Parau Tinito), region=Misc, category=Pidgin
+ - tinglish (Tinglish), region=Misc, category=Pidgin
+ - wutunhua (Wutunhua), region=Misc, category=Mixed
+ - chiac (Chiac), region=North America, category=Romance
+ - chipilo (Chipilo), region=North America, category=Romance
+ - franco-ontarian (Franco-Ontarian), region=North America, category=Romance
+ - frenchville-french (Frenchville French), region=North America, category=Romance
+ - louisiana-french (Louisiana French), region=North America, category=Romance
+ - m-tis-french (M├⌐tis French), region=North America, category=Romance
+ - mexican-spanish (Mexican Spanish), region=North America, category=Romance
+ - missouri-french (Missouri French), region=North America, category=Romance
+ - muskrat-french (Muskrat French), region=North America, category=Romance
+ - na-dene (Na-Dene), region=North America, category=Na-Dene
+ - new-england-french (New England French), region=North America, category=Romance
+ - newfoundland-french (Newfoundland French), region=North America, category=Romance
+ - quebec-french (Quebec French), region=North America, category=Romance
+ - basap (Basap), region=Pacific, category=Austronesian
+ - bima (Bima), region=Pacific, category=Austronesian
+ - bunun (Bunun), region=Pacific, category=Austronesian
+ - flores-lembata (Flores-Lembata), region=Pacific, category=Austronesian
+ - kaili-wolio (Kaili-Wolio), region=Pacific, category=Austronesian
+ - kalamian (Kalamian), region=Pacific, category=Austronesian
+ - kayan-murik (Kayan-Murik), region=Pacific, category=Austronesian
+ - kei-tanimbar (Kei-Tanimbar), region=Pacific, category=Austronesian
+ - lampung (Lampung), region=Pacific, category=Austronesian
+ - land-dayak (Land Dayak), region=Pacific, category=Austronesian
+ - loyalties-new-caledonia (Loyalties-New Caledonia), region=Pacific, category=Austronesian
+ - makassar-branch (Makassar), region=Pacific, category=Austronesian
+ - malayo-polynesian (Malayo-Polynesian), region=Pacific, category=Austronesian
+ - melanau-kajang (Melanau-Kajang), region=Pacific, category=Austronesian
+ - minahasan (Minahasan), region=Pacific, category=Austronesian
+ - moklenic (Moklenic), region=Pacific, category=Austronesian
+ - muna-buton (Muna-Buton), region=Pacific, category=Austronesian
+ - nasal (Nasal), region=Pacific, category=Austronesian
+ - north-new-guinea (North New Guinea), region=Pacific, category=Austronesian
+ - north-sarawakan (North Sarawakan), region=Pacific, category=Austronesian
+ - north-vanuatu (North Vanuatu), region=Pacific, category=Austronesian
+ - northern-formosan (Northern Formosan), region=Pacific, category=Austronesian
+ - northern-luzon (Northern Luzon), region=Pacific, category=Austronesian
+ - northern-mindoro (Northern Mindoro), region=Pacific, category=Austronesian
+ - northern-south-sulawesi (Northern South Sulawesi), region=Pacific, category=Austronesian
+ - northwest-sumatra-barrier-islands (Northwest Sumatra Barrier Islands), region=Pacific, category=Austronesian
+ - paiwan (Paiwan), region=Pacific, category=Austronesian
+ - philippine (Philippine), region=Pacific, category=Austronesian
+ - puyuma (Puyuma), region=Pacific, category=Austronesian
+ - rejang (Rejang), region=Pacific, category=Austronesian
+ - rukai (Rukai), region=Pacific, category=Austronesian
+ - sabahan (Sabahan), region=Pacific, category=Austronesian
+ - saluan-banggai (Saluan-Banggai), region=Pacific, category=Austronesian
+ - sangiric (Sangiric), region=Pacific, category=Austronesian
+ - seko-badaic (Seko-Badaic), region=Pacific, category=Austronesian
+ - selaru (Selaru), region=Pacific, category=Austronesian
+ - shwng (SHWNG), region=Pacific, category=Austronesian
+ - south-mindanao (South Mindanao), region=Pacific, category=Austronesian
+ - south-vanuatu (South Vanuatu), region=Pacific, category=Austronesian
+ - southeast-solomonic (Southeast Solomonic), region=Pacific, category=Austronesian
+ - southern-oceanic (Southern Oceanic), region=Pacific, category=Austronesian
+ - st-matthias (St. Matthias), region=Pacific, category=Austronesian
+ - sumatran (Sumatran), region=Pacific, category=Austronesian
+ - sumba-flores (Sumba-Flores), region=Pacific, category=Austronesian
+ - temotu (Temotu), region=Pacific, category=Austronesian
+ - timoric (Timoric), region=Pacific, category=Austronesian
+ - tomini-tolitoli (Tomini-Tolitoli), region=Pacific, category=Austronesian
+ - tsouic (Tsouic), region=Pacific, category=Austronesian
+ - vanuatu (Vanuatu), region=Pacific, category=Austronesian
+ - western-malayo-polynesian (Western Malayo-Polynesian), region=Pacific, category=Austronesian
+ - western-oceanic (Western Oceanic), region=Pacific, category=Austronesian
+ - southern-yukaghir (Southern Yukaghir), region=Siberia, category=Yukaghir
+ - tundra-yukaghir (Tundra Yukaghir), region=Siberia, category=Yukaghir
+ - baram-thangmi (Baram Thangmi), region=Sino-Tibetan region, category=Sino-Tibetan
+ - burmo-qiangic (Burmo Qiangic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - central-tibeto-burman (Central Tibeto Burman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - chamdo (Chamdo), region=Sino-Tibetan region, category=Sino-Tibetan
+ - chepangic (Chepangic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - dhimalish (Dhimalish), region=Sino-Tibetan region, category=Sino-Tibetan
+ - eastern-himalayas (Eastern Himalayas), region=Sino-Tibetan region, category=Sino-Tibetan
+ - greater-magaric (Greater Magaric), region=Sino-Tibetan region, category=Sino-Tibetan
+ - greater-siangic (Greater Siangic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - hkongso (Hkongso), region=Sino-Tibetan region, category=Sino-Tibetan
+ - hrusish (Hrusish), region=Sino-Tibetan region, category=Sino-Tibetan
+ - kuki-chin-naga (Kuki Chin Naga), region=Sino-Tibetan region, category=Sino-Tibetan
+ - longjia-luren (Longjia Luren), region=Sino-Tibetan region, category=Sino-Tibetan
+ - macro-bai (Macro Bai), region=Sino-Tibetan region, category=Sino-Tibetan
+ - magaric (Magaric), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mahakiranti (Mahakiranti), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mijiic (Mijiic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - milang (Milang), region=Sino-Tibetan region, category=Sino-Tibetan
+ - mruic (Mruic), region=Sino-Tibetan region, category=Sino-Tibetan
+ - proto-sino-tibetan (Proto Sino Tibetan), region=Sino-Tibetan region, category=Sino-Tibetan
+ - proto-tibeto-burman (Proto Tibeto Burman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - pyu (Pyu), region=Sino-Tibetan region, category=Sino-Tibetan
+ - rung (Rung), region=Sino-Tibetan region, category=Sino-Tibetan
+ - taman (Taman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - tibeto-burman (Tibeto Burman), region=Sino-Tibetan region, category=Sino-Tibetan
+ - tibeto-kanauri (Tibeto Kanauri), region=Sino-Tibetan region, category=Sino-Tibetan
+ - western-himalayas (Western Himalayas), region=Sino-Tibetan region, category=Sino-Tibetan
+ - bolivian-spanish (Bolivian Spanish), region=South America, category=Romance
+ - chilean-spanish (Chilean Spanish), region=South America, category=Romance
+ - chilote (Chilote), region=South America, category=Romance
+ - colombian-spanish (Colombian Spanish), region=South America, category=Romance
+ - paraguayan-spanish (Paraguayan Spanish), region=South America, category=Romance
+ - peruvian-ribere-o (Peruvian Ribere├▒o), region=South America, category=Romance
+ - peruvian-spanish (Peruvian Spanish), region=South America, category=Romance
+ - rioplatense-spanish (Rioplatense Spanish), region=South America, category=Romance
+ - uruguayan-spanish (Uruguayan Spanish), region=South America, category=Romance
+ - venezuelan-spanish (Venezuelan Spanish), region=South America, category=Romance
+
+-- Entries with empty bases array (cannot build mixed base) --
+ - apa (Apache), bases=[]
+ - ashaninka (Ashaninka), bases=[]
+
+-- Suggested explicitIsoBaseMap snippet for unresolved ISO codes (fill in base indices) --
+const explicitIsoBaseMap = {
+  "a-ou": /* TODO baseIndex */ 0, // A Ou
+  "ahom": /* TODO baseIndex */ 0, // Ahom
+  "aiton": /* TODO baseIndex */ 0, // Aiton
+  "apa": /* TODO baseIndex */ 0, // Apache
+  "ashaninka": /* TODO baseIndex */ 0, // Ashaninka
+  "aws-nian": /* TODO baseIndex */ 0, // Aws─ünian
+  "baarin": /* TODO baseIndex */ 0, // Baarin Mongol
+  "bahraini-gulf-arabic": /* TODO baseIndex */ 0, // Bahraini Gulf Arabic
+  "bahrani-arabic": /* TODO baseIndex */ 0, // Bahrani Arabic
+  "baisha-hlai": /* TODO baseIndex */ 0, // Baisha Hlai
+  "bakhtiari-arabic": /* TODO baseIndex */ 0, // Bakhtiari Arabic
+  "baoan": /* TODO baseIndex */ 0, // Baoan
+  "baoting-hlai": /* TODO baseIndex */ 0, // Baoting Hlai
+  "baram-thangmi": /* TODO baseIndex */ 0, // Baram Thangmi
+  "bareqi-arabic": /* TODO baseIndex */ 0, // Bareqi Arabic
+  "bargut-buryat": /* TODO baseIndex */ 0, // Bargut Buryat
+  "barwar": /* TODO baseIndex */ 0, // Barwar
+  "barzani-jewish-neo-aramaic": /* TODO baseIndex */ 0, // Barzani Jewish Neo-Aramaic
+  "basap": /* TODO baseIndex */ 0, // Basap
+  "bayat-oirat": /* TODO baseIndex */ 0, // Bayat Oirat
+  "be-jizhao": /* TODO baseIndex */ 0, // Be-Jizhao
+  "berbice": /* TODO baseIndex */ 0, // Berbice
+  "bercian": /* TODO baseIndex */ 0, // Bercian
+  "bergamasque": /* TODO baseIndex */ 0, // Bergamasque
+  "berrichon": /* TODO baseIndex */ 0, // Berrichon
+  "betanure-jewish-neo-aramaic": /* TODO baseIndex */ 0, // Betanure Jewish Neo-Aramaic
+  "biblical-aramaic": /* TODO baseIndex */ 0, // Biblical Aramaic
+  "big-flowery": /* TODO baseIndex */ 0, // Big Flowery
+  "bima": /* TODO baseIndex */ 0, // Bima
+  "bohtan-neo-aramaic": /* TODO baseIndex */ 0, // Bohtan Neo-Aramaic
+  "bolivian-spanish": /* TODO baseIndex */ 0, // Bolivian Spanish
+  "bolognese": /* TODO baseIndex */ 0, // Bolognese
+  "bonan-kangjia": /* TODO baseIndex */ 0, // Transitional Bonan-Kangjia
+  "bonan-manegacha": /* TODO baseIndex */ 0, // Bonan Manegacha
+  "bourbonnais": /* TODO baseIndex */ 0, // Bourbonnais
+  "brianz-": /* TODO baseIndex */ 0, // Brianz├╢├╢
+  "brigasc": /* TODO baseIndex */ 0, // Brigasc
+  "bukharian-arabic": /* TODO baseIndex */ 0, // Bukharian Arabic
+  "bukovinian": /* TODO baseIndex */ 0, // Bukovinian
+  "bunun": /* TODO baseIndex */ 0, // Bunun
+  "burgundian": /* TODO baseIndex */ 0, // Burgundian
+  "burmo-qiangic": /* TODO baseIndex */ 0, // Burmo Qiangic
+  "bustocco-legnanese": /* TODO baseIndex */ 0, // Bustocco-Legnanese
+  "cairene-arabic": /* TODO baseIndex */ 0, // Cairene Arabic
+  "canaano-akkadian": /* TODO baseIndex */ 0, // Canaano-Akkadian
+  "cantabrian": /* TODO baseIndex */ 0, // Cantabrian
+  "canz-s": /* TODO baseIndex */ 0, // Canz├⌐s
+  "cao-lan": /* TODO baseIndex */ 0, // Cao Lan
+  "cappadocian-greek": /* TODO baseIndex */ 0, // Cappadocian Greek
+  "cauchois": /* TODO baseIndex */ 0, // Cauchois
+  "central-asian-arabic": /* TODO baseIndex */ 0, // Central Asian Arabic
+  "central-catalan": /* TODO baseIndex */ 0, // Central Catalan
+  "central-finland": /* TODO baseIndex */ 0, // Central Finland
+  "central-hilali-dialects": /* TODO baseIndex */ 0, // Central Hilali dialects
+  "central-marchigiano": /* TODO baseIndex */ 0, // Central Marchigiano
+  "central-northern-lazian": /* TODO baseIndex */ 0, // Central-Northern Lazian
+  "central-southern-calabrian": /* TODO baseIndex */ 0, // Central-Southern Calabrian
+  "central-tai": /* TODO baseIndex */ 0, // Central Tai
+  "central-tibeto-burman": /* TODO baseIndex */ 0, // Central Tibeto Burman
+  "chadian-arabic": /* TODO baseIndex */ 0, // Chadian Arabic
+  "chakhar": /* TODO baseIndex */ 0, // Chakhar Mongol
+  "chaldean-neo-aramaic": /* TODO baseIndex */ 0, // Chaldean Neo-Aramaic
+  "chamdo": /* TODO baseIndex */ 0, // Chamdo
+  "champenois": /* TODO baseIndex */ 0, // Champenois
+  "changjiang-hlai": /* TODO baseIndex */ 0, // Changjiang Hlai
+  "chepangic": /* TODO baseIndex */ 0, // Chepangic
+  "chiac": /* TODO baseIndex */ 0, // Chiac
+  "chiang-saen": /* TODO baseIndex */ 0, // Chiang Saen
+  "chilean-spanish": /* TODO baseIndex */ 0, // Chilean Spanish
+  "chilote": /* TODO baseIndex */ 0, // Chilote
+  "chinese-korean": /* TODO baseIndex */ 0, // Chinese Korean
+  "chipilo": /* TODO baseIndex */ 0, // Chipilo
+  "christian-palestinian-aramaic": /* TODO baseIndex */ 0, // Christian Palestinian Aramaic
+  "christian-urmi-neo-aramaic": /* TODO baseIndex */ 0, // Christian Urmi Neo-Aramaic
+  "chungcheong-dialect": /* TODO baseIndex */ 0, // Chungcheong Korean
+  "classical-arabic": /* TODO baseIndex */ 0, // Classical Arabic
+  "classical-mongolian": /* TODO baseIndex */ 0, // Classical Mongolian
+  "classical-syriac": /* TODO baseIndex */ 0, // Classical Syriac
+  "colombian-spanish": /* TODO baseIndex */ 0, // Colombian Spanish
+  "comasco-lecchese": /* TODO baseIndex */ 0, // Comasco-Lecchese
+  "corfiot-maltese": /* TODO baseIndex */ 0, // Corfiot Maltese
+  "cotentinais": /* TODO baseIndex */ 0, // Cotentinais
+  "cottonera-dialect": /* TODO baseIndex */ 0, // Cottonera Dialect
+  "cremish": /* TODO baseIndex */ 0, // Cremish
+  "cremun-s": /* TODO baseIndex */ 0, // Cremun├⌐s
+  "cri-ana": /* TODO baseIndex */ 0, // Cri╚Öana
+  "cun-hlai": /* TODO baseIndex */ 0, // Cun Hlai
+  "daco-romanian": /* TODO baseIndex */ 0, // Daco-Romanian
+  "dadanitic": /* TODO baseIndex */ 0, // Dadanitic
+  "dai-zhuang": /* TODO baseIndex */ 0, // Dai Zhuang
+  "darkhad": /* TODO baseIndex */ 0, // Darkhad Mongolian
+  "dhimalish": /* TODO baseIndex */ 0, // Dhimalish
+  "dongjia": /* TODO baseIndex */ 0, // Dongjia
+  "dorbet-oirat": /* TODO baseIndex */ 0, // Dorbet Oirat
+  "duan": /* TODO baseIndex */ 0, // Duan
+  "e-tai": /* TODO baseIndex */ 0, // E (Tai)
+  "early-modern-korean": /* TODO baseIndex */ 0, // Early Modern Korean
+  "eastern-catalan": /* TODO baseIndex */ 0, // Eastern Catalan
+  "eastern-himalayas": /* TODO baseIndex */ 0, // Eastern Himalayas
+  "eastern-lombard": /* TODO baseIndex */ 0, // Eastern Lombard
+  "eastern-romanian": /* TODO baseIndex */ 0, // Eastern Romanian
+  "eastern-savonian": /* TODO baseIndex */ 0, // Eastern Savonian
+  "ecuadorian-spanish": /* TODO baseIndex */ 0, // Ecuadorian Spanish
+  "ekhirit-bulagat-buryat": /* TODO baseIndex */ 0, // Ekhirit-Bulagat Buryat
+  "fabriano": /* TODO baseIndex */ 0, // Fabriano
+  "faetar": /* TODO baseIndex */ 0, // Faetar
+  "ferrarese": /* TODO baseIndex */ 0, // Ferrarese
+  "fiuman": /* TODO baseIndex */ 0, // Fiuman
+  "flores-lembata": /* TODO baseIndex */ 0, // Flores-Lembata
+  "forlivese": /* TODO baseIndex */ 0, // Forlivese
+  "frainc-comtou": /* TODO baseIndex */ 0, // Frainc-Comtou
+  "franco-italian": /* TODO baseIndex */ 0, // Franco-Italian
+  "franco-ontarian": /* TODO baseIndex */ 0, // Franco-Ontarian
+  "franco-proven-al": /* TODO baseIndex */ 0, // Franco-Proven├ºal
+  "frenchville-french": /* TODO baseIndex */ 0, // Frenchville French
+  "gallo": /* TODO baseIndex */ 0, // Gallo
+  "gallo-italic-of-basilicata": /* TODO baseIndex */ 0, // Gallo-Italic of Basilicata
+  "gallo-italic-of-sicily": /* TODO baseIndex */ 0, // Gallo-Italic of Sicily
+  "gallo-picene": /* TODO baseIndex */ 0, // Gallo-Picene
+  "gangwon-dialect": /* TODO baseIndex */ 0, // Gangwon Korean
+  "gardiol": /* TODO baseIndex */ 0, // Gardiol
+  "gascon": /* TODO baseIndex */ 0, // Gascon
+  "gaumais": /* TODO baseIndex */ 0, // Gaumais
+  "gejia": /* TODO baseIndex */ 0, // Gejia
+  "genoese": /* TODO baseIndex */ 0, // Genoese
+  "greater-magaric": /* TODO baseIndex */ 0, // Greater Magaric
+  "greater-siangic": /* TODO baseIndex */ 0, // Greater Siangic
+  "grossetano": /* TODO baseIndex */ 0, // Grossetano
+  "guern-siais": /* TODO baseIndex */ 0, // Guern├⌐siais
+  "guiyang": /* TODO baseIndex */ 0, // Guiyang
+  "gurindji-kriol": /* TODO baseIndex */ 0, // Gurindji Kriol
+  "gyeonggi-seoul-dialect": /* TODO baseIndex */ 0, // Gyeonggi / Seoul Korean
+  "gyeongsang-dialect": /* TODO baseIndex */ 0, // Gyeongsang Korean
+  "hailar-dagur": /* TODO baseIndex */ 0, // Hailar Dagur
+  "haketia": /* TODO baseIndex */ 0, // Haketia
+  "hamgyong-dialect": /* TODO baseIndex */ 0, // Hamgy┼Ång Korean
+  "han-samhan": /* TODO baseIndex */ 0, // Han (Samhan)
+  "heart-tavastian": /* TODO baseIndex */ 0, // Heart Tavastian
+  "hkongso": /* TODO baseIndex */ 0, // Hkongso
+  "hmu": /* TODO baseIndex */ 0, // Hmu
+  "hrusish": /* TODO baseIndex */ 0, // Hrusish
+  "huishui": /* TODO baseIndex */ 0, // Huishui
+  "hwanghae-dialect": /* TODO baseIndex */ 0, // Hwanghae Korean
+  "intemelio": /* TODO baseIndex */ 0, // Intemelio
+  "inuktitut-english-pidgin": /* TODO baseIndex */ 0, // Inuktitut-English Pidgin
+  "javindo": /* TODO baseIndex */ 0, // Javindo
+  "jeju-language": /* TODO baseIndex */ 0, // Jeju language
+  "jeolla-dialect": /* TODO baseIndex */ 0, // Jeolla Korean
+  "jersey-dutch": /* TODO baseIndex */ 0, // Jersey Dutch
+  "jersey-legal-french": /* TODO baseIndex */ 0, // Jersey Legal French
+  "jiamao": /* TODO baseIndex */ 0, // Jiamao
+  "jizhao": /* TODO baseIndex */ 0, // Jizhao
+  "joseon-early-modern-korean": /* TODO baseIndex */ 0, // Joseon Korean (Early Modern)
+  "joseon-modern-korean": /* TODO baseIndex */ 0, // Joseon Korean (Modern)
+  "judeo-catalan": /* TODO baseIndex */ 0, // Judeo-Catalan
+  "judeo-gascon": /* TODO baseIndex */ 0, // Judeo-Gascon
+  "judeo-mantuan": /* TODO baseIndex */ 0, // Judeo-Mantuan
+  "judeo-piedmontese": /* TODO baseIndex */ 0, // Judeo-Piedmontese
+  "judeo-proven-al": /* TODO baseIndex */ 0, // Judeo-Proven├ºal
+  "kaili-wolio": /* TODO baseIndex */ 0, // Kaili-Wolio
+  "kalamian": /* TODO baseIndex */ 0, // Kalamian
+  "kaloeng": /* TODO baseIndex */ 0, // Kaloeng
+  "kam-tai": /* TODO baseIndex */ 0, // Kam-Tai
+  "kayan-murik": /* TODO baseIndex */ 0, // Kayan-Murik
+  "kei-tanimbar": /* TODO baseIndex */ 0, // Kei-Tanimbar
+  "khalkha": /* TODO baseIndex */ 0, // Khalkha Mongolian
+  "khamti": /* TODO baseIndex */ 0, // Khamti
+  "khamyang": /* TODO baseIndex */ 0, // Khamyang
+  "kharchin-khorchin": /* TODO baseIndex */ 0, // Kharchin / Khorchin Mongol
+  "khorchin": /* TODO baseIndex */ 0, // Khorchin Mongol
+  "khori-buryat": /* TODO baseIndex */ 0, // Khori Buryat
+  "khoton": /* TODO baseIndex */ 0, // Khoton
+  "khun": /* TODO baseIndex */ 0, // Khun
+  "kikai": /* TODO baseIndex */ 0, // Kikai
+  "koryo-mar": /* TODO baseIndex */ 0, // Koryo-mar
+  "kuan": /* TODO baseIndex */ 0, // Kuan
+  "kujarge": /* TODO baseIndex */ 0, // Kujarg├⌐
+  "kuki-chin-naga": /* TODO baseIndex */ 0, // Kuki Chin Naga
+  "kunigami": /* TODO baseIndex */ 0, // Kunigami
+  "labrador-inuit-pidgin-french": /* TODO baseIndex */ 0, // Labrador Inuit Pidgin French
+  "lampung": /* TODO baseIndex */ 0, // Lampung
+  "land-dayak": /* TODO baseIndex */ 0, // Land Dayak
+  "lao-nyo": /* TODO baseIndex */ 0, // Lao Nyo
+  "lao-phutai": /* TODO baseIndex */ 0, // Lao-Phutai
+  "latin-american-spanish": /* TODO baseIndex */ 0, // Latin American Spanish
+  "law-french": /* TODO baseIndex */ 0, // Law French
+  "leonese": /* TODO baseIndex */ 0, // Leonese
+  "light-warlpiri": /* TODO baseIndex */ 0, // Light Warlpiri
+  "limousin": /* TODO baseIndex */ 0, // Limousin
+  "longjia-luren": /* TODO baseIndex */ 0, // Longjia Luren
+  "longsang-zhuang": /* TODO baseIndex */ 0, // Longsang Zhuang
+  "lorrain": /* TODO baseIndex */ 0, // Lorrain
+  "louisiana-french": /* TODO baseIndex */ 0, // Louisiana French
+  "lower-uda-buryat": /* TODO baseIndex */ 0, // Lower Uda Buryat
+  "loyalties-new-caledonia": /* TODO baseIndex */ 0, // Loyalties-New Caledonia
+  "lucchese": /* TODO baseIndex */ 0, // Lucchese
+  "luobohe": /* TODO baseIndex */ 0, // Luobohe
+  "m-tis-french": /* TODO baseIndex */ 0, // M├⌐tis French
+  "macerata": /* TODO baseIndex */ 0, // Macerata
+  "macro-bai": /* TODO baseIndex */ 0, // Macro Bai
+  "macro-yaeyama": /* TODO baseIndex */ 0, // Macro-Yaeyama
+  "magaric": /* TODO baseIndex */ 0, // Magaric
+  "mahakiranti": /* TODO baseIndex */ 0, // Mahakiranti
+  "makassar-branch": /* TODO baseIndex */ 0, // Makassar
+  "malayo-polynesian": /* TODO baseIndex */ 0, // Malayo-Polynesian
+  "manduriano": /* TODO baseIndex */ 0, // Manduriano
+  "maramure-": /* TODO baseIndex */ 0, // Maramure╚Ö
+  "mashan": /* TODO baseIndex */ 0, // Mashan
+  "mayennais": /* TODO baseIndex */ 0, // Mayennais
+  "mednyj-aleut": /* TODO baseIndex */ 0, // Mednyj Aleut
+  "melanau-kajang": /* TODO baseIndex */ 0, // Melanau-Kajang
+  "mentonasc": /* TODO baseIndex */ 0, // Mentonasc
+  "meridional-french": /* TODO baseIndex */ 0, // Meridional French
+  "mexican-spanish": /* TODO baseIndex */ 0, // Mexican Spanish
+  "michif": /* TODO baseIndex */ 0, // Michif
+  "middle-botnian": /* TODO baseIndex */ 0, // Middle Botnian
+  "middle-mongol": /* TODO baseIndex */ 0, // Middle Mongol
+  "mijiic": /* TODO baseIndex */ 0, // Mijiic
+  "milanese": /* TODO baseIndex */ 0, // Milanese
+  "milang": /* TODO baseIndex */ 0, // Milang
+  "min-zhuang": /* TODO baseIndex */ 0, // Min Zhuang
+  "minahasan": /* TODO baseIndex */ 0, // Minahasan
+  "missouri-french": /* TODO baseIndex */ 0, // Missouri French
+  "miyakoan": /* TODO baseIndex */ 0, // Miyakoan
+  "mo-piu": /* TODO baseIndex */ 0, // Mo Piu
+  "modern-korean": /* TODO baseIndex */ 0, // Modern Korean
+  "mohawk-dutch": /* TODO baseIndex */ 0, // Mohawk Dutch
+  "moklenic": /* TODO baseIndex */ 0, // Moklenic
+  "moldavian": /* TODO baseIndex */ 0, // Moldavian
+  "mongghuor": /* TODO baseIndex */ 0, // Mongghuor
+  "moyfaw": /* TODO baseIndex */ 0, // Moyfaw
+  "mozarabic": /* TODO baseIndex */ 0, // Mozarabic
+  "mruic": /* TODO baseIndex */ 0, // Mruic
+  "muna-buton": /* TODO baseIndex */ 0, // Muna-Buton
+  "munhwao": /* TODO baseIndex */ 0, // Munhwa┼Å (Standard North Korean)
+  "muskrat-french": /* TODO baseIndex */ 0, // Muskrat French
+  "myang-zhuang": /* TODO baseIndex */ 0, // Myang Zhuang
+  "n-meo": /* TODO baseIndex */ 0, // N├í-Meo
+  "na-dene": /* TODO baseIndex */ 0, // Na-Dene
+  "nadou": /* TODO baseIndex */ 0, // Nadou
+  "nantoq-baoan": /* TODO baseIndex */ 0, // Nantoq Baoan
+  "nasal": /* TODO baseIndex */ 0, // Nasal
+  "negerhollands": /* TODO baseIndex */ 0, // Negerhollands
+  "negro-dutch": /* TODO baseIndex */ 0, // Negro Dutch
+  "new-england-french": /* TODO baseIndex */ 0, // New England French
+  "newfoundland-french": /* TODO baseIndex */ 0, // Newfoundland French
+  "nong-zhuang": /* TODO baseIndex */ 0, // Nong Zhuang
+  "nonni-dagur": /* TODO baseIndex */ 0, // Nonni Dagur
+  "north-estonian": /* TODO baseIndex */ 0, // North Estonian
+  "north-korean": /* TODO baseIndex */ 0, // North Korean
+  "north-new-guinea": /* TODO baseIndex */ 0, // North New Guinea
+  "north-sarawakan": /* TODO baseIndex */ 0, // North Sarawakan
+  "north-vanuatu": /* TODO baseIndex */ 0, // North Vanuatu
+  "northern-botnian": /* TODO baseIndex */ 0, // Northern Botnian
+  "northern-catalan": /* TODO baseIndex */ 0, // Northern Catalan
+  "northern-formosan": /* TODO baseIndex */ 0, // Northern Formosan
+  "northern-khalkha": /* TODO baseIndex */ 0, // Northern Khalkha
+  "northern-luzon": /* TODO baseIndex */ 0, // Northern Luzon
+  "northern-mindoro": /* TODO baseIndex */ 0, // Northern Mindoro
+  "northern-romanian": /* TODO baseIndex */ 0, // Northern Romanian
+  "northern-savonian": /* TODO baseIndex */ 0, // Northern Savonian
+  "northern-south-sulawesi": /* TODO baseIndex */ 0, // Northern South Sulawesi
+  "northern-tai": /* TODO baseIndex */ 0, // Northern Tai
+  "northwest-sumatra-barrier-islands": /* TODO baseIndex */ 0, // Northwest Sumatra Barrier Islands
+  "northwestern-catalan": /* TODO baseIndex */ 0, // Northwestern Catalan
+  "northwestern-tai": /* TODO baseIndex */ 0, // Northwestern Tai
+  "novarese": /* TODO baseIndex */ 0, // Novarese
+  "nung-tai": /* TODO baseIndex */ 0, // Nung (Tai)
+  "oeld": /* TODO baseIndex */ 0, // Oeld
+  "okinoerabu": /* TODO baseIndex */ 0, // Okinoerabu
+  "old-catalan": /* TODO baseIndex */ 0, // Old Catalan
+  "old-gallo-romance": /* TODO baseIndex */ 0, // Old Gallo-Romance
+  "old-khitan": /* TODO baseIndex */ 0, // Old Khitan
+  "old-leonese": /* TODO baseIndex */ 0, // Old Leonese
+  "old-lombard": /* TODO baseIndex */ 0, // Old Lombard
+  "old-romagnol": /* TODO baseIndex */ 0, // Old Romagnol
+  "old-serbi": /* TODO baseIndex */ 0, // Old Serbi
+  "old-spanish": /* TODO baseIndex */ 0, // Old Spanish
+  "oltenian": /* TODO baseIndex */ 0, // Oltenian
+  "ossolano": /* TODO baseIndex */ 0, // Ossolano
+  "p-ij-nne-tavastia": /* TODO baseIndex */ 0, // P├ñij├ñnne Tavastia
+  "pa-di": /* TODO baseIndex */ 0, // Pa Di
+  "pa-uezu": /* TODO baseIndex */ 0, // Paß╕╖ß╕╖uezu
+  "paiwan": /* TODO baseIndex */ 0, // Paiwan
+  "palra": /* TODO baseIndex */ 0, // Palra
+  "paraguayan-spanish": /* TODO baseIndex */ 0, // Paraguayan Spanish
+  "parmigiano": /* TODO baseIndex */ 0, // Parmigiano
+  "pavese": /* TODO baseIndex */ 0, // Pavese
+  "paydret": /* TODO baseIndex */ 0, // Paydret
+  "per-pohjola": /* TODO baseIndex */ 0, // Per├ñpohjola
+  "peruvian-ribere-o": /* TODO baseIndex */ 0, // Peruvian Ribere├▒o
+  "peruvian-spanish": /* TODO baseIndex */ 0, // Peruvian Spanish
+  "pesciatino": /* TODO baseIndex */ 0, // Pesciatino
+  "petjo": /* TODO baseIndex */ 0, // Petjo
+  "phake": /* TODO baseIndex */ 0, // Phake
+  "philippine": /* TODO baseIndex */ 0, // Philippine
+  "phu-thai": /* TODO baseIndex */ 0, // Phu Thai
+  "phuan": /* TODO baseIndex */ 0, // Phuan
+  "pingtang": /* TODO baseIndex */ 0, // Pingtang
+  "pistoiese": /* TODO baseIndex */ 0, // Pistoiese
+  "poitevin": /* TODO baseIndex */ 0, // Poitevin
+  "pori-region": /* TODO baseIndex */ 0, // Pori region
+  "porvoo": /* TODO baseIndex */ 0, // Porvoo
+  "proto-austroasiatic": /* TODO baseIndex */ 0, // Proto-Austroasiatic
+  "proto-eastern-romance": /* TODO baseIndex */ 0, // Proto-Eastern Romance
+  "proto-hmong-mien": /* TODO baseIndex */ 0, // Proto-Hmong-Mien
+  "proto-hmongic": /* TODO baseIndex */ 0, // Proto-Hmongic
+  "proto-koreanic": /* TODO baseIndex */ 0, // Proto-Koreanic
+  "proto-kra-dai": /* TODO baseIndex */ 0, // Proto-KraDai
+  "proto-mienic": /* TODO baseIndex */ 0, // Proto-Mienic
+  "proto-mongolic": /* TODO baseIndex */ 0, // Proto-Mongolic
+  "proto-mordvinic": /* TODO baseIndex */ 0, // Proto-Mordvinic
+  "proto-permic": /* TODO baseIndex */ 0, // Proto-Permic
+  "proto-romance": /* TODO baseIndex */ 0, // Proto-Romance
+  "proto-sami": /* TODO baseIndex */ 0, // Proto-Sami
+  "proto-sino-tibetan": /* TODO baseIndex */ 0, // Proto Sino Tibetan
+  "proto-tai": /* TODO baseIndex */ 0, // Proto-Tai
+  "proto-tibeto-burman": /* TODO baseIndex */ 0, // Proto Tibeto Burman
+  "puyo": /* TODO baseIndex */ 0, // Puy┼Å
+  "puyuma": /* TODO baseIndex */ 0, // Puyuma
+  "pyang-zhuang": /* TODO baseIndex */ 0, // Pyang Zhuang
+  "pyojuneo": /* TODO baseIndex */ 0, // Pyojuneo (Standard Korean)
+  "pyongan-dialect": /* TODO baseIndex */ 0, // Pyongan Korean
+  "pyu": /* TODO baseIndex */ 0, // Pyu
+  "qifu": /* TODO baseIndex */ 0, // Qifu
+  "qoqmoncaq": /* TODO baseIndex */ 0, // Qoqmoncaq
+  "quebec-french": /* TODO baseIndex */ 0, // Quebec French
+  "rejang": /* TODO baseIndex */ 0, // Rejang
+  "ribagor-an": /* TODO baseIndex */ 0, // Ribagor├ºan
+  "riberan": /* TODO baseIndex */ 0, // Riberan
+  "rioplatense-spanish": /* TODO baseIndex */ 0, // Rioplatense Spanish
+  "riunorese": /* TODO baseIndex */ 0, // Riunorese
+  "romanesco": /* TODO baseIndex */ 0, // Romanesco
+  "rouran": /* TODO baseIndex */ 0, // Rouran
+  "royasc": /* TODO baseIndex */ 0, // Royasc
+  "ruija": /* TODO baseIndex */ 0, // Ruija
+  "rukai": /* TODO baseIndex */ 0, // Rukai
+  "rung": /* TODO baseIndex */ 0, // Rung
+  "ryukyuan": /* TODO baseIndex */ 0, // Ryukyuan
+  "sabahan": /* TODO baseIndex */ 0, // Sabahan
+  "sabino": /* TODO baseIndex */ 0, // Sabino
+  "saek": /* TODO baseIndex */ 0, // Saek
+  "saintongeais": /* TODO baseIndex */ 0, // Saintongeais
+  "salentino": /* TODO baseIndex */ 0, // Salentino
+  "saluan-banggai": /* TODO baseIndex */ 0, // Saluan-Banggai
+  "sammarinese": /* TODO baseIndex */ 0, // Sammarinese
+  "sangiric": /* TODO baseIndex */ 0, // Sangiric
+  "sapa": /* TODO baseIndex */ 0, // Sapa
+  "sart-kalmyk": /* TODO baseIndex */ 0, // Sart Kalmyk
+  "savonian": /* TODO baseIndex */ 0, // Savonian
+  "savonlinna": /* TODO baseIndex */ 0, // Savonlinna
+  "savoyard": /* TODO baseIndex */ 0, // Savoyard
+  "seko-badaic": /* TODO baseIndex */ 0, // Seko-Badaic
+  "selaru": /* TODO baseIndex */ 0, // Selaru
+  "senese": /* TODO baseIndex */ 0, // Senese
+  "shilingol-khalkha": /* TODO baseIndex */ 0, // Shilingol / Xilingol Khalkha
+  "shirwi": /* TODO baseIndex */ 0, // Shirwi
+  "shwng": /* TODO baseIndex */ 0, // SHWNG
+  "skepi-dutch-creole": /* TODO baseIndex */ 0, // Skepi Dutch Creole
+  "small-flowery": /* TODO baseIndex */ 0, // Small Flowery
+  "somero-region": /* TODO baseIndex */ 0, // Somero region
+  "sonid": /* TODO baseIndex */ 0, // Sonid Mongol
+  "south-korean": /* TODO baseIndex */ 0, // South Korean
+  "south-mindanao": /* TODO baseIndex */ 0, // South Mindanao
+  "south-vanuatu": /* TODO baseIndex */ 0, // South Vanuatu
+  "southeast-solomonic": /* TODO baseIndex */ 0, // Southeast Solomonic
+  "southeastern-finnish": /* TODO baseIndex */ 0, // Southeastern Finnish
+  "southeastern-tavastian": /* TODO baseIndex */ 0, // Southeastern Tavastian
+  "southern-amami": /* TODO baseIndex */ 0, // Southern Amami
+  "southern-botnian": /* TODO baseIndex */ 0, // Southern Botnian
+  "southern-khalkha": /* TODO baseIndex */ 0, // Southern Khalkha
+  "southern-oceanic": /* TODO baseIndex */ 0, // Southern Oceanic
+  "southern-savonian": /* TODO baseIndex */ 0, // Southern Savonian
+  "southern-tai": /* TODO baseIndex */ 0, // Southern Tai
+  "southern-tavastian": /* TODO baseIndex */ 0, // Southern Tavastian
+  "southern-yukaghir": /* TODO baseIndex */ 0, // Southern Yukaghir
+  "southwestern-finnish": /* TODO baseIndex */ 0, // Southwestern Finnish
+  "southwestern-tai": /* TODO baseIndex */ 0, // Southwestern Tai
+  "st-matthias": /* TODO baseIndex */ 0, // St. Matthias
+  "standard-french": /* TODO baseIndex */ 0, // Standard French
+  "standard-zhuang": /* TODO baseIndex */ 0, // Standard Zhuang
+  "sumatran": /* TODO baseIndex */ 0, // Sumatran
+  "sumba-flores": /* TODO baseIndex */ 0, // Sumba-Flores
+  "tabarchino": /* TODO baseIndex */ 0, // Tabarchino
+  "tabghach": /* TODO baseIndex */ 0, // Tabghach
+  "tai-daeng": /* TODO baseIndex */ 0, // Tai Daeng
+  "tai-dam": /* TODO baseIndex */ 0, // Tai Dam
+  "tai-don": /* TODO baseIndex */ 0, // Tai Don
+  "tai-hang-tong": /* TODO baseIndex */ 0, // Tai Hang Tong
+  "tai-hongjin": /* TODO baseIndex */ 0, // Tai Hongjin
+  "tai-khang": /* TODO baseIndex */ 0, // Tai Khang
+  "tai-laing": /* TODO baseIndex */ 0, // Tai Laing
+  "tai-long": /* TODO baseIndex */ 0, // Tai Long
+  "tai-meuay": /* TODO baseIndex */ 0, // Tai Meuay
+  "tai-muong-vat": /* TODO baseIndex */ 0, // Tai Muong Vat
+  "tai-nuea": /* TODO baseIndex */ 0, // Tai Nuea
+  "tai-pao": /* TODO baseIndex */ 0, // Tai Pao
+  "tai-thanh": /* TODO baseIndex */ 0, // Tai Thanh
+  "tai-ya": /* TODO baseIndex */ 0, // Tai Ya
+  "tai-yo": /* TODO baseIndex */ 0, // Tai Yo (Nyaw)
+  "talian": /* TODO baseIndex */ 0, // Talian
+  "taman": /* TODO baseIndex */ 0, // Taman
+  "tavastian": /* TODO baseIndex */ 0, // Tavastian
+  "tay-tac": /* TODO baseIndex */ 0, // Tay Tac
+  "tay-tai": /* TODO baseIndex */ 0, // Tay (Tai)
+  "te-parau-tinito": /* TODO baseIndex */ 0, // Te Parau Tinito
+  "temotu": /* TODO baseIndex */ 0, // Temotu
+  "thai-siamese": /* TODO baseIndex */ 0, // Thai (Siamese)
+  "thai-song": /* TODO baseIndex */ 0, // Thai Song
+  "tibeto-burman": /* TODO baseIndex */ 0, // Tibeto Burman
+  "tibeto-kanauri": /* TODO baseIndex */ 0, // Tibeto Kanauri
+  "ticinese": /* TODO baseIndex */ 0, // Ticinese
+  "timoric": /* TODO baseIndex */ 0, // Timoric
+  "tinglish": /* TODO baseIndex */ 0, // Tinglish
+  "tiwi": /* TODO baseIndex */ 0, // Tiwi
+  "tokunoshima": /* TODO baseIndex */ 0, // Tokunoshima
+  "tomini-tolitoli": /* TODO baseIndex */ 0, // Tomini-Tolitoli
+  "tongren-bonan": /* TODO baseIndex */ 0, // Tongren Bonan
+  "tornio": /* TODO baseIndex */ 0, // Tornio
+  "transylvanian": /* TODO baseIndex */ 0, // Transylvanian
+  "triestine": /* TODO baseIndex */ 0, // Triestine
+  "tsouic": /* TODO baseIndex */ 0, // Tsouic
+  "tsun-lao": /* TODO baseIndex */ 0, // Tsun-Lao
+  "tundra-yukaghir": /* TODO baseIndex */ 0, // Tundra Yukaghir
+  "turku-highlands": /* TODO baseIndex */ 0, // Turku highlands
+  "turoyo": /* TODO baseIndex */ 0, // Turoyo
+  "turung": /* TODO baseIndex */ 0, // Turung
+  "tuscia": /* TODO baseIndex */ 0, // Tuscia
+  "tuyuhun": /* TODO baseIndex */ 0, // Tuyuhun
+  "ulaanchab": /* TODO baseIndex */ 0, // Ulaanchab Mongol
+  "umbrian": /* TODO baseIndex */ 0, // Umbrian
+  "uralic-yukaghir": /* TODO baseIndex */ 0, // Uralic-Yukaghir
+  "uruguayan-spanish": /* TODO baseIndex */ 0, // Uruguayan Spanish
+  "v-rmland-savonian": /* TODO baseIndex */ 0, // V├ñrmland Savonian
+  "vald-tain": /* TODO baseIndex */ 0, // Vald├┤tain
+  "vanuatu": /* TODO baseIndex */ 0, // Vanuatu
+  "varesino": /* TODO baseIndex */ 0, // Varesino
+  "venezuelan-spanish": /* TODO baseIndex */ 0, // Venezuelan Spanish
+  "versiliese": /* TODO baseIndex */ 0, // Versiliese
+  "viareggino": /* TODO baseIndex */ 0, // Viareggino
+  "vivaro-alpine": /* TODO baseIndex */ 0, // Vivaro-Alpine
+  "vosgien": /* TODO baseIndex */ 0, // Vosgien
+  "wallachian": /* TODO baseIndex */ 0, // Wallachian
+  "welche": /* TODO baseIndex */ 0, // Welche
+  "west-walloon": /* TODO baseIndex */ 0, // West Walloon
+  "western-catalan": /* TODO baseIndex */ 0, // Western Catalan
+  "western-hilali-dialects": /* TODO baseIndex */ 0, // Western Hilali dialects
+  "western-himalayas": /* TODO baseIndex */ 0, // Western Himalayas
+  "western-malayo-polynesian": /* TODO baseIndex */ 0, // Western Malayo-Polynesian
+  "western-middle-aramaic": /* TODO baseIndex */ 0, // Western Middle Aramaic
+  "western-oceanic": /* TODO baseIndex */ 0, // Western Oceanic
+  "western-pre-hilali-dialects": /* TODO baseIndex */ 0, // Western pre-Hilali dialects
+  "western-uusimaa": /* TODO baseIndex */ 0, // Western Uusimaa
+  "wisconsin-walloon": /* TODO baseIndex */ 0, // Wisconsin Walloon
+  "wutunhua": /* TODO baseIndex */ 0, // Wutunhua
+  "xixiu": /* TODO baseIndex */ 0, // Xixiu
+  "yaeyama": /* TODO baseIndex */ 0, // Yaeyama
+  "yafii-arabic": /* TODO baseIndex */ 0, // Yafi'i Arabic
+  "yang-zhuang": /* TODO baseIndex */ 0, // Yang Zhuang
+  "yangchun-pai-yao": /* TODO baseIndex */ 0, // Yangchun Pai Yao
+  "ye-maek": /* TODO baseIndex */ 0, // Ye-Maek
+  "yei-zhuang": /* TODO baseIndex */ 0, // Yei Zhuang
+  "yemeni-arabic": /* TODO baseIndex */ 0, // Yemeni Arabic
+  "yeongdong-dialect": /* TODO baseIndex */ 0, // Yeongdong Korean
+  "yeongseo-dialect": /* TODO baseIndex */ 0, // Yeongseo Korean
+  "yl-satakunta": /* TODO baseIndex */ 0, // Yl├ñ-Satakunta
+  "yonaguni": /* TODO baseIndex */ 0, // Yonaguni
+  "yong": /* TODO baseIndex */ 0, // Yong
+  "yoron": /* TODO baseIndex */ 0, // Yoron
+  "yoy": /* TODO baseIndex */ 0, // Yoy
+  "yuanmen-hlai": /* TODO baseIndex */ 0, // Yuanmen Hlai
+  "yukjin-dialect": /* TODO baseIndex */ 0, // Yukjin Korean
+  "zainichi-korean": /* TODO baseIndex */ 0, // Zainichi Korean
+  "zakhchin": /* TODO baseIndex */ 0, // Zakhchin
+  "zandui": /* TODO baseIndex */ 0, // Zandui
+};
+
+=== check-language-mixer-name-duplicates.js summary ===
+=== Exact duplicate language names in catalog ===
+Total catalog entries: 3023
+Names with duplicates: 12
+
+Name: Cebuano (count=2)
+  - iso=cebuano-lang, region=Asia, family=Austronesian, category=Austronesian, tags=
+  - iso=ceb, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Name: Hmong (count=2)
+  - iso=hmong, region=East Asia, family=West Hmongic, category=Hmong-Mien, tags=
+  - iso=hmn, region=Southeast Asia, family=Hmongic, category=Hmong-Mien, tags=
+
+Name: Ilocano (count=2)
+  - iso=ilocano, region=Asia, family=Austronesian, category=Austronesian, tags=
+  - iso=ilocano, region=Asia, family=Austronesian, category=Austronesian, tags=
+
+Name: Javanese (count=2)
+  - iso=javanese, region=Pacific, family=Austronesian, category=Austronesian, tags=
+  - iso=jav, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Name: Khasi (count=2)
+  - iso=kha, region=Asia, family=Khasic, category=Austroasiatic, tags=
+  - iso=kha, region=South Asia, family=Khasic, category=Austroasiatic, tags=
+
+Name: Madurese (count=2)
+  - iso=madurese, region=Pacific, family=Austronesian, category=Austronesian, tags=
+  - iso=mad, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Name: Malagasy (count=2)
+  - iso=malagasy, region=Africa, family=Austronesian, category=Austronesian, tags=
+  - iso=mlg, region=Africa, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Name: Meitei (count=2)
+  - iso=meitei, region=Sino-Tibetan region, family=Sino-Tibetan, category=Sino-Tibetan, tags=
+  - iso=mni, region=South Asia, family=Tibeto-Burman, category=Sino-Tibetan, tags=
+
+Name: Mon (count=2)
+  - iso=mnw, region=Asia, family=Monic, category=Austroasiatic, tags=
+  - iso=mnw, region=Southeast Asia, family=Monic, category=Austroasiatic, tags=
+
+Name: Shan (count=2)
+  - iso=shan, region=Asia, family=Tai-Kadai, category=Tai-Kadai, tags=
+  - iso=shn, region=Southeast Asia, family=Tai, category=Tai-Kadai, tags=
+
+Name: Sundanese (count=2)
+  - iso=sundanese-lang, region=Asia, family=Austronesian, category=Austronesian, tags=
+  - iso=sun, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Name: Swedish (count=2)
+  - iso=swe, region=Europe, family=North Germanic, category=Germanic, tags=
+  - iso=swe, region=Europe, family=Germanic, category=Germanic, tags=
+
+=== report-language-mixer-duplicates.js summary ===
+Total catalog entries: 3023
+
+=== ISO duplicates ===
+ISO: swe (count=2)
+  - name=Swedish, region=Europe, family=North Germanic, category=Germanic, tags=
+  - name=Swedish, region=Europe, family=Germanic, category=Germanic, tags=
+
+ISO: oirat (count=2)
+  - name=Oirat Mongolian, region=Asia, family=Oirat-Kalmyk, category=Mongolic, tags=
+  - name=Oirat, region=Asia, family=Oirat-Kalmyk, category=Mongolic, tags=
+
+ISO: bonan (count=2)
+  - name=Bonan (Manegacha), region=Asia, family=Baoanic, category=Mongolic, tags=
+  - name=Bonan, region=Asia, family=Baoanic, category=Mongolic, tags=
+
+ISO: maori (count=2)
+  - name=M─üori, region=Pacific, family=Polynesian, category=Austronesian, tags=
+  - name=Maori, region=Pacific, family=Polynesian, category=Polynesian, tags=
+
+ISO: ilocano (count=2)
+  - name=Ilocano, region=Asia, family=Austronesian, category=Austronesian, tags=
+  - name=Ilocano, region=Asia, family=Austronesian, category=Austronesian, tags=
+
+ISO: mnw (count=2)
+  - name=Mon, region=Asia, family=Monic, category=Austroasiatic, tags=
+  - name=Mon, region=Southeast Asia, family=Monic, category=Austroasiatic, tags=
+
+ISO: kha (count=2)
+  - name=Khasi, region=Asia, family=Khasic, category=Austroasiatic, tags=
+  - name=Khasi, region=South Asia, family=Khasic, category=Austroasiatic, tags=
+
+
+=== Normalized-name clusters (excluding purely higher-level families) ===
+Key: "angas" (entries=2)
+          iso=angas, name=Angas, region=Africa, family=Chadic, category=Afroasiatic, tags=
+  [HIGHER] iso=angas-languages, name=Angas languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+
+Key: "bacama" (entries=2)
+          iso=bacama, name=Bacama, region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=bacama-language, name=Bacama language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+
+Key: "bade" (entries=3)
+          iso=bade-chadic, name=Bade, region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=bade-language, name=Bade language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+  [HIGHER] iso=bade-languages, name=Bade languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+
+Key: "bembe" (entries=2)
+          iso=bembe-congo, name=Bembe (Congo), region=Africa, family=Bantu, category=Niger-Congo, tags=
+          iso=bembe-drc, name=Bembe (DRC), region=Africa, family=Bantu, category=Niger-Congo, tags=
+
+Key: "bijiang bai" (entries=2)
+          iso=bijiang-bai-language, name=Bijiang Bai language, region=Sino-Tibetan region, family=Bai, category=Sino-Tibetan, tags=
+          iso=bijiang-bai-dialect, name=Bijiang Bai dialect, region=Sino-Tibetan region, family=Bai, category=Sino-Tibetan, tags=
+
+Key: "biu-mandara" (entries=2)
+  [HIGHER] iso=biu-mandara-languages, name=Biu-Mandara languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+          iso=biu-mandara, name=BiuΓÇôMandara, region=Africa, family=Chadic, category=Afroasiatic, tags=
+
+Key: "boazi" (entries=2)
+          iso=boazi, name=Boazi, region=Pacific, family=Anim, category=Papuan, tags=
+          iso=boazi-lake-murray, name=Boazi (Lake Murray), region=Pacific, family=Anim, category=Papuan, tags=
+
+Key: "bole" (entries=3)
+          iso=bole-afroasiatic, name=Bole (Afroasiatic), region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=bole-niger-congo, name=Bole (NigerΓÇôCongo), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+          iso=bole-chadic-language, name=Bole language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+
+Key: "bole-tangale" (entries=2)
+  [HIGHER] iso=bole-tangale-languages, name=Bole-Tangale languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+          iso=bole-tangale, name=BoleΓÇôTangale, region=Africa, family=Chadic, category=Afroasiatic, tags=
+
+Key: "bonan" (entries=2)
+          iso=bonan, name=Bonan (Manegacha), region=Asia, family=Baoanic, category=Mongolic, tags=
+          iso=bonan, name=Bonan, region=Asia, family=Baoanic, category=Mongolic, tags=
+
+Key: "bono" (entries=2)
+          iso=bono-ghana-ivory-coast, name=Bono (Ghana-Ivory Coast), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+          iso=bono-nigeria, name=Bono (Nigeria), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+
+Key: "cebuano" (entries=2)
+          iso=cebuano-lang, name=Cebuano, region=Asia, family=Austronesian, category=Austronesian, tags=
+          iso=ceb, name=Cebuano, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Key: "dali bai" (entries=2)
+          iso=dali-bai-language, name=Dali Bai language, region=Sino-Tibetan region, family=Bai, category=Sino-Tibetan, tags=
+          iso=dali-bai-dialect, name=Dali Bai dialect, region=Sino-Tibetan region, family=Bai, category=Sino-Tibetan, tags=
+
+Key: "duan" (entries=2)
+          iso=duan, name=Duan, region=Asia, family=Para-Mongolic, category=Mongolic, tags=historical,hypothetical
+          iso=duan-bahnaric, name=Duan (Bahnaric), region=Asia, family=Bahnaric, category=Austroasiatic, tags=
+
+Key: "e" (entries=2)
+          iso=e-tai, name=E (Tai), region=Asia, family=Tai-Kadai, category=Tai-Kadai, tags=
+          iso=e, name=E, region=Misc, family=Mixed, category=Mixed, tags=mixed
+
+Key: "east zenati" (entries=2)
+          iso=east-zenati, name=East Zenati, region=Africa, family=Zenati Berber, category=Afroasiatic, tags=
+  [HIGHER] iso=east-zenati-languages, name=East Zenati languages, region=Africa, family=Zenati Berber, category=Afroasiatic, tags=family
+
+Key: "fang" (entries=2)
+          iso=fang-cameroon, name=Fang (Cameroon), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+          iso=fang-equatorial-guinea-and-gabon, name=Fang (Equatorial Guinea and Gabon), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+
+Key: "georgian" (entries=2)
+          iso=georgian, name=Georgian, region=Caucasus, family=Kartvelian, category=Kartvelian, tags=
+  [HIGHER] iso=georgian-dialects, name=Georgian dialects, region=Caucasus, family=Kartvelian, category=Kartvelian, tags=family,dialect
+
+Key: "hausa-gwandara" (entries=2)
+  [HIGHER] iso=hausa-gwandara-languages, name=Hausa-Gwandara languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+          iso=hausa-gwandara, name=HausaΓÇôGwandara, region=Africa, family=Chadic, category=Afroasiatic, tags=
+
+Key: "hmong" (entries=2)
+          iso=hmong, name=Hmong, region=East Asia, family=West Hmongic, category=Hmong-Mien, tags=
+          iso=hmn, name=Hmong, region=Southeast Asia, family=Hmongic, category=Hmong-Mien, tags=
+
+Key: "ilocano" (entries=2)
+          iso=ilocano, name=Ilocano, region=Asia, family=Austronesian, category=Austronesian, tags=
+          iso=ilocano, name=Ilocano, region=Asia, family=Austronesian, category=Austronesian, tags=
+
+Key: "itelmen" (entries=2)
+          iso=itelmen, name=Itelmen, region=Siberia, family=Itelmen, category=Chukotko-Kamchatkan, tags=
+          iso=western-itelmen, name=Itelmen (Western Kamchadal), region=Siberia, family=Itelmen, category=Chukotko-Kamchatkan, tags=
+
+Key: "japanese" (entries=3)
+          iso=jpn, name=Japanese, region=Asia, family=Japonic, category=Japonic, tags=
+          iso=jpn-lang, name=Japanese (macro entry), region=Asia, family=Japonic, category=Japonic, tags=
+  [HIGHER] iso=japanese-dialects, name=Japanese dialects, region=Asia, family=Japanese dialects, category=Japonic, tags=dialect
+
+Key: "javanese" (entries=2)
+          iso=javanese, name=Javanese, region=Pacific, family=Austronesian, category=Austronesian, tags=
+          iso=jav, name=Javanese, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Key: "jimi" (entries=3)
+          iso=jimi-language-cameroon, name=Jimi language (Cameroon), region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=jimi-language-nigeria, name=Jimi language (Nigeria), region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=jimi, name=Jimi, region=Pacific, family=ChimbuΓÇôWahgi, category=Papuan, tags=
+
+Key: "joseon korean" (entries=3)
+          iso=joseon-early-modern-korean, name=Joseon Korean (Early Modern), region=East Asia, family=Early Modern Korean, category=Koreanic, tags=
+          iso=joseon-middle-korean, name=Joseon Korean (Middle), region=East Asia, family=Middle Korean, category=Koreanic, tags=
+          iso=joseon-modern-korean, name=Joseon Korean (Modern), region=East Asia, family=Modern Korean, category=Koreanic, tags=
+
+Key: "khasi" (entries=2)
+          iso=kha, name=Khasi, region=Asia, family=Khasic, category=Austroasiatic, tags=
+          iso=kha, name=Khasi, region=South Asia, family=Khasic, category=Austroasiatic, tags=
+
+Key: "kui" (entries=2)
+          iso=kui-dravidian, name=Kui (Dravidian), region=Asia, family=South-Central Dravidian, category=Dravidian, tags=
+          iso=kui, name=Kui (AlorΓÇôPantar), region=Pacific, family=AlorΓÇôPantar, category=Papuan, tags=
+
+Key: "madurese" (entries=2)
+          iso=madurese, name=Madurese, region=Pacific, family=Austronesian, category=Austronesian, tags=
+          iso=mad, name=Madurese, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Key: "malagasy" (entries=2)
+          iso=malagasy, name=Malagasy, region=Africa, family=Austronesian, category=Austronesian, tags=
+          iso=mlg, name=Malagasy, region=Africa, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Key: "meitei" (entries=2)
+          iso=meitei, name=Meitei, region=Sino-Tibetan region, family=Sino-Tibetan, category=Sino-Tibetan, tags=
+          iso=mni, name=Meitei, region=South Asia, family=Tibeto-Burman, category=Sino-Tibetan, tags=
+
+Key: "mon" (entries=2)
+          iso=mnw, name=Mon, region=Asia, family=Monic, category=Austroasiatic, tags=
+          iso=mnw, name=Mon, region=Southeast Asia, family=Monic, category=Austroasiatic, tags=
+
+Key: "north bauchi" (entries=2)
+          iso=north-bauchi, name=North Bauchi, region=Africa, family=Chadic, category=Afroasiatic, tags=
+  [HIGHER] iso=north-bauchi-languages, name=North Bauchi languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+
+Key: "northern berber" (entries=2)
+          iso=northern-berber, name=Northern Berber, region=Africa, family=Northern Berber, category=Afroasiatic, tags=
+  [HIGHER] iso=northern-berber-languages, name=Northern Berber languages, region=Africa, family=Northern Berber, category=Afroasiatic, tags=family
+
+Key: "nung" (entries=2)
+          iso=nung-tai, name=Nung (Tai), region=Asia, family=Tai-Kadai, category=Tai-Kadai, tags=
+          iso=nung, name=Nung, region=Sino-Tibetan region, family=Sino-Tibetan, category=Sino-Tibetan, tags=
+
+Key: "romanian" (entries=2)
+          iso=romanian, name=Romanian, region=Europe, family=Daco-Romanian, category=Romance, tags=
+          iso=ron, name=Romanian (Daco-Romanian), region=Europe, family=Eastern Romance, category=Romance, tags=romanian,daco-romanian
+
+Key: "ron" (entries=3)
+          iso=ron-chadic, name=Ron, region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=ron-language, name=Ron language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+  [HIGHER] iso=ron-languages, name=Ron languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+
+Key: "saba" (entries=2)
+          iso=saba-chadic-language, name=Saba language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=saba, name=Saba, region=Africa, family=Afroasiatic, category=Afroasiatic, tags=
+
+Key: "shan" (entries=2)
+          iso=shan, name=Shan, region=Asia, family=Tai-Kadai, category=Tai-Kadai, tags=
+          iso=shn, name=Shan, region=Southeast Asia, family=Tai, category=Tai-Kadai, tags=
+
+Key: "siri" (entries=2)
+          iso=siri, name=Siri (Chadic), region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=siri-chadic-language, name=Siri language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+
+Key: "somali" (entries=2)
+  [HIGHER] iso=somali-languages, name=Somali languages, region=Africa, family=Cushitic, category=Afroasiatic, tags=family
+          iso=somali, name=Somali, region=Horn of Africa, family=Cushitic, category=Afroasiatic, tags=
+
+Key: "south bauchi" (entries=2)
+          iso=south-bauchi, name=South Bauchi, region=Africa, family=Chadic, category=Afroasiatic, tags=
+  [HIGHER] iso=south-bauchi-languages, name=South Bauchi languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+
+Key: "sukur" (entries=2)
+          iso=sukur-language, name=Sukur language, region=Africa, family=Chadic, category=Afroasiatic, tags=
+          iso=sukur, name=Sukur, region=Africa, family=Afroasiatic, category=Afroasiatic, tags=
+
+Key: "sundanese" (entries=2)
+          iso=sundanese-lang, name=Sundanese, region=Asia, family=Austronesian, category=Austronesian, tags=
+          iso=sun, name=Sundanese, region=Southeast Asia, family=Malayo-Polynesian, category=Austronesian, tags=
+
+Key: "swedish" (entries=2)
+          iso=swe, name=Swedish, region=Europe, family=North Germanic, category=Germanic, tags=
+          iso=swe, name=Swedish, region=Europe, family=Germanic, category=Germanic, tags=
+
+Key: "tagdal" (entries=2)
+          iso=tagdal-language, name=Tagdal language, region=Africa, family=Tuareg Berber, category=Afroasiatic, tags=
+          iso=tagdal, name=Tagdal, region=Africa, family=Nilo-Saharan, category=Nilo-Saharan, tags=
+
+Key: "tetserret" (entries=2)
+          iso=tetserret, name=Tetserret, region=Africa, family=Western Berber, category=Afroasiatic, tags=
+          iso=tetserret-language, name=Tetserret language, region=Africa, family=Tuareg Berber, category=Afroasiatic, tags=
+
+Key: "thai" (entries=2)
+          iso=thai, name=Thai, region=Asia, family=Tai-Kadai, category=Tai-Kadai, tags=
+          iso=thai-siamese, name=Thai (Siamese), region=Asia, family=Tai-Kadai, category=Tai-Kadai, tags=
+
+Key: "tonga" (entries=3)
+          iso=tonga-zimbabwe-zambia-and-mozambique, name=Tonga (Zimbabwe, Zambia, and Mozambique), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+          iso=tonga-mozambique, name=Tonga (Mozambique), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+          iso=tonga-malawi, name=Tonga (Malawi), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+
+Key: "vietnamese" (entries=7)
+          iso=vie, name=Vietnamese, region=Asia, family=Vietic, category=Austroasiatic, tags=
+          iso=vie-central, name=Vietnamese (Central), region=Asia, family=Vietic, category=Austroasiatic, tags=
+          iso=vie-hue, name=Vietnamese (Hue), region=Asia, family=Vietic, category=Austroasiatic, tags=
+          iso=vie-china, name=Vietnamese (in China), region=Asia, family=Vietic, category=Austroasiatic, tags=
+          iso=vie-us, name=Vietnamese (in the US), region=Asia, family=Vietic, category=Austroasiatic, tags=
+          iso=vie-northern, name=Vietnamese (Northern), region=Asia, family=Vietic, category=Austroasiatic, tags=
+          iso=vie-southern, name=Vietnamese (Southern), region=Asia, family=Vietic, category=Austroasiatic, tags=
+
+Key: "wali" (entries=2)
+          iso=wali-ghana, name=Wali (Ghana), region=Africa, family=Niger-Congo, category=Niger-Congo, tags=
+          iso=wali-sudan, name=Wali (Sudan), region=Africa, family=Nilo-Saharan, category=Nilo-Saharan, tags=
+
+Key: "west chadic" (entries=2)
+          iso=west-chadic, name=West Chadic, region=Africa, family=Chadic, category=Afroasiatic, tags=
+  [HIGHER] iso=west-chadic-languages, name=West Chadic languages, region=Africa, family=Chadic, category=Afroasiatic, tags=family
+
+Key: "western berber" (entries=2)
+          iso=western-berber, name=Western Berber, region=Africa, family=Western Berber, category=Afroasiatic, tags=
+  [HIGHER] iso=western-berber-languages, name=Western Berber languages, region=Africa, family=Western Berber, category=Afroasiatic, tags=family
+
+Key: "yitdut bai" (entries=2)
+          iso=yitdut-bai-language, name=Yitdut Bai language, region=Sino-Tibetan region, family=Bai, category=Sino-Tibetan, tags=
+          iso=yitdut-bai-dialect, name=Yitdut Bai dialect, region=Sino-Tibetan region, family=Bai, category=Sino-Tibetan, tags=
+
+Key: "yoruba" (entries=2)
+          iso=yor, name=Yoruba, region=Africa, family=Yoruboid, category=Niger-Congo, tags=
+          iso=yoruba, name=Yoruba (alt code), region=Africa, family=Yoruboid, category=Niger-Congo, tags=
+
+Key: "zenaga" (entries=2)
+          iso=zenaga, name=Zenaga, region=Africa, family=Western Berber, category=Afroasiatic, tags=extinct
+          iso=zenaga-language, name=Zenaga language, region=Africa, family=Zenaga Berber, category=Afroasiatic, tags=
+
+=== report-language-mixer-base-clusters.js summary ===
+=== Language Mixer base-set clusters (catalog languages only) ===
+Considered catalog languages (after filters): 2441
+Total distinct base sets (all sizes): 1741
+Clusters with identical base sets (size >= 2): 96
+Total language entries participating in these clusters: 796
+Columns: iso | name | region | family | category | tags (comma-separated); bases are shared per cluster.
+
+-- bases=[132] | members=121 --
+hausa | Hausa | Africa | Chadic | Afroasiatic | 
+ajawa-language | Ajawa language | Africa | Chadic | Afroasiatic | 
+angas | Angas | Africa | Chadic | Afroasiatic | 
+auyokawa-language | Auyokawa language | Africa | Chadic | Afroasiatic | 
+bade-language | Bade language | Africa | Chadic | Afroasiatic | 
+barein-language | Barein language | Africa | Chadic | Afroasiatic | 
+beele-language | Beele language | Africa | Chadic | Afroasiatic | 
+belneng-language | Belneng language | Africa | Chadic | Afroasiatic | 
+bidiyo-language | Bidiyo language | Africa | Chadic | Afroasiatic | 
+birgit-language | Birgit language | Africa | Chadic | Afroasiatic | 
+biu-mandara | BiuΓÇôMandara | Africa | Chadic | Afroasiatic | 
+boghom-language | Boghom language | Africa | Chadic | Afroasiatic | 
+bole-chadic-language | Bole language | Africa | Chadic | Afroasiatic | 
+bole-tangale | BoleΓÇôTangale | Africa | Chadic | Afroasiatic | 
+boor-language | Boor language | Africa | Chadic | Afroasiatic | 
+bure-chadic-language | Bure language | Africa | Chadic | Afroasiatic | 
+cakfem-mushere-language | Cakfem-Mushere language | Africa | Chadic | Afroasiatic | 
+chakato-language | Chakato language | Africa | Chadic | Afroasiatic | 
+ciwogai-language | Ciwogai language | Africa | Chadic | Afroasiatic | 
+dangaleat-language | Dangal├⌐at language | Africa | Chadic | Afroasiatic | 
+dass-language | Dass language | Africa | Chadic | Afroasiatic | 
+dazawa-language | Dazawa language | Africa | Chadic | Afroasiatic | 
+deno-language | Deno language | Africa | Chadic | Afroasiatic | 
+diri-language | Diri language | Africa | Chadic | Afroasiatic | 
+duhwa-language | Duhwa language | Africa | Chadic | Afroasiatic | 
+duwai-language | Duwai language | Africa | Chadic | Afroasiatic | 
+fyer-language | Fyer language | Africa | Chadic | Afroasiatic | 
+gadang-language | Gadang language | Africa | Chadic | Afroasiatic | 
+galambu-language | Galambu language | Africa | Chadic | Afroasiatic | 
+gera-language | Gera language | Africa | Chadic | Afroasiatic | 
+geruma-language | Geruma language | Africa | Chadic | Afroasiatic | 
+giiwo-language | Giiwo language | Africa | Chadic | Afroasiatic | 
+goemai-language | Goemai language | Africa | Chadic | Afroasiatic | 
+goji-language | Goji language | Africa | Chadic | Afroasiatic | 
+guruntum-language | Guruntum language | Africa | Chadic | Afroasiatic | 
+hausa-gwandara | HausaΓÇôGwandara | Africa | Chadic | Afroasiatic | 
+hya-language | Hya language | Africa | Chadic | Afroasiatic | 
+jara-language | Jara language | Africa | Chadic | Afroasiatic | 
+jelkung-language | Jelkung language | Africa | Chadic | Afroasiatic | 
+jibyal-language | Jibyal language | Africa | Chadic | Afroasiatic | 
+jilbe-language | Jilbe language | Africa | Chadic | Afroasiatic | 
+jimi-language-cameroon | Jimi language (Cameroon) | Africa | Chadic | Afroasiatic | 
+jimi-language-nigeria | Jimi language (Nigeria) | Africa | Chadic | Afroasiatic | 
+jonkor-language | Jonkor language | Africa | Chadic | Afroasiatic | 
+kabalai-language | Kabalai language | Africa | Chadic | Afroasiatic | 
+kajakse-language | Kajakse language | Africa | Chadic | Afroasiatic | 
+kanakuru-language | Kanakuru language | Africa | Chadic | Afroasiatic | 
+karai-karai | Karai-karai | Africa | Chadic | Afroasiatic | 
+kariya-language | Kariya language | Africa | Chadic | Afroasiatic | 
+kera-chadic-language | Kera language | Africa | Chadic | Afroasiatic | 
+kholok-language | Kholok language | Africa | Chadic | Afroasiatic | 
+kimre-language | Kimr├⌐ language | Africa | Chadic | Afroasiatic | 
+kir-balar-language | Kir-Balar language | Africa | Chadic | Afroasiatic | 
+koenoem-language | Koenoem language | Africa | Chadic | Afroasiatic | 
+kubi-language | Kubi language | Africa | Chadic | Afroasiatic | 
+kulere-language | Kulere language | Africa | Chadic | Afroasiatic | 
+kulung-west-chadic-language | Kulung language (West Chadic) | Africa | Chadic | Afroasiatic | 
+kutto-language | Kutto language | Africa | Chadic | Afroasiatic | 
+kwaami-language | Kwaami language | Africa | Chadic | Afroasiatic | 
+kwang-chadic-language | Kwang language | Africa | Chadic | Afroasiatic | 
+lele-language-chad | Lele language (Chad) | Africa | Chadic | Afroasiatic | 
+maaka-language | Maaka language | Africa | Chadic | Afroasiatic | 
+mabire-language | Mabire language | Africa | Chadic | Afroasiatic | 
+mantsi-language-nigeria | Mantsi language (Nigeria) | Africa | Chadic | Afroasiatic | 
+marba | Marba | Africa | Chadic | Afroasiatic | 
+mawa-chadic-language | Mawa language | Africa | Chadic | Afroasiatic | 
+mburku-language | Mburku language | Africa | Chadic | Afroasiatic | 
+mesme | Mesme | Africa | Chadic | Afroasiatic | 
+migaama-language | Migaama language | Africa | Chadic | Afroasiatic | 
+miler-language | Miler language | Africa | Chadic | Afroasiatic | 
+miltu-language | Miltu language | Africa | Chadic | Afroasiatic | 
+mire-language | Mire language | Africa | Chadic | Afroasiatic | 
+miship-language | Miship language | Africa | Chadic | Afroasiatic | 
+miya-language | Miya language | Africa | Chadic | Afroasiatic | 
+mogum-language | Mogum language | Africa | Chadic | Afroasiatic | 
+mokilko-language | Mokilko language | Africa | Chadic | Afroasiatic | 
+montol-language | Montol language | Africa | Chadic | Afroasiatic | 
+mubi-chadic-language | Mubi language | Africa | Chadic | Afroasiatic | 
+mundat-language | Mundat language | Africa | Chadic | Afroasiatic | 
+musey | Musey | Africa | Chadic | Afroasiatic | 
+mwaghavul-language | Mwaghavul language | Africa | Chadic | Afroasiatic | 
+nancere-language | Nancere language | Africa | Chadic | Afroasiatic | 
+ndam-language | Ndam language | Africa | Chadic | Afroasiatic | 
+ngamo-language | Ngamo language | Africa | Chadic | Afroasiatic | 
+ngas-language | Ngas language | Africa | Chadic | Afroasiatic | 
+ngete-herde | Nget├⌐-Herd├⌐ | Africa | Chadic | Afroasiatic | 
+ngizim-language | Ngizim language | Africa | Chadic | Afroasiatic | 
+north-bauchi | North Bauchi | Africa | Chadic | Afroasiatic | 
+nteng-language | Nteng language | Africa | Chadic | Afroasiatic | 
+nyam-language | Nyam language | Africa | Chadic | Afroasiatic | 
+paa-chadic-language | Paa language | Africa | Chadic | Afroasiatic | 
+pali-chadic-language | Pali language (Chadic) | Africa | Chadic | Afroasiatic | 
+pan-chadic-language | Pan language | Africa | Chadic | Afroasiatic | 
+pero-language | Pero language | Africa | Chadic | Afroasiatic | 
+peve | Peve | Africa | Chadic | Afroasiatic | 
+piya-language | Piya language | Africa | Chadic | Afroasiatic | 
+poki-language | Poki language | Africa | Chadic | Afroasiatic | 
+proto-ron | Proto-Ron | Africa | Chadic | Afroasiatic | proto,extinct,historical
+proto-warji | Proto-Warji | Africa | Chadic | Afroasiatic | proto,extinct,historical
+pyapun-language | Pyapun language | Africa | Chadic | Afroasiatic | 
+ron-chadic | Ron | Africa | Chadic | Afroasiatic | 
+ron-language | Ron language | Africa | Chadic | Afroasiatic | 
+saba-chadic-language | Saba language | Africa | Chadic | Afroasiatic | 
+sarua-language | Sarua language | Africa | Chadic | Afroasiatic | 
+sha-chadic-language | Sha language | Africa | Chadic | Afroasiatic | 
+siri-chadic-language | Siri language | Africa | Chadic | Afroasiatic | 
+south-bauchi | South Bauchi | Africa | Chadic | Afroasiatic | 
+southern-gabri-language | Southern Gabri language | Africa | Chadic | Afroasiatic | 
+tal-language | Tal language | Africa | Chadic | Afroasiatic | 
+tambas-language | Tambas language | Africa | Chadic | Afroasiatic | 
+tamki-language | Tamki language | Africa | Chadic | Afroasiatic | 
+teshenawa-language | Teshenawa language | Africa | Chadic | Afroasiatic | 
+tobanga-language | Tobanga language | Africa | Chadic | Afroasiatic | 
+toram-language | Toram language | Africa | Chadic | Afroasiatic | 
+tumak-language | Tumak language | Africa | Chadic | Afroasiatic | 
+ubi-language | Ubi language | Africa | Chadic | Afroasiatic | 
+warji-language | Warji language | Africa | Chadic | Afroasiatic | 
+west-chadic | West Chadic | Africa | Chadic | Afroasiatic | 
+yiwom-language | Yiwom language | Africa | Chadic | Afroasiatic | 
+zizilivakan-language | Zizilivakan language | Africa | Chadic | Afroasiatic | 
+zulgo-gemzek-language | Zulgo-Gemzek language | Africa | Chadic | Afroasiatic | 
+
+-- bases=[9] | members=76 --
+-sele | ├àsele | Eurasia | Southern Sami | Uralic | 
+akkala-sami | Akkala Sami | Eurasia | Sami | Uralic | extinct
+ala-satakunta | Ala-Satakunta | Eurasia | Western Dialects | Uralic | 
+komi-zyryan | Komi-Zyryan | Eurasia | Komi-Zyryan | Uralic | 
+nenets | Nenets | Eurasia | Nenets | Uralic | 
+zyuzdino | Zyuzdino | Eurasia | Komi-Yodzyak | Uralic | 
+ingrian | Ingrian | Eurasia | Ingrian | Uralic | 
+kven | Kven | Eurasia | Kven | Uralic | 
+livonian | Livonian | Eurasia | Livonian | Uralic | extinct
+ludic | Ludic | Eurasia | Ludic | Uralic | 
+me-nkieli | Me├ñnkieli | Eurasia | Me├ñnkieli | Uralic | 
+v-ro | V├╡ro | Eurasia | South Estonian | Uralic | 
+votic | Votic | Eurasia | Votic | Uralic | 
+veps | Veps | Eurasia | Veps | Uralic | 
+estonian | Estonian | Europe | North Estonian | Uralic | 
+karelian | Karelian | Eurasia | Karelian Proper | Uralic | 
+eastern-mari | Eastern Mari | Eurasia | Eastern Mari | Uralic | 
+fin | Finnish | Europe | Finnish | Uralic | 
+american-finnish | American Finnish | North America | Finnish | Uralic | 
+bjarmian-finnic | Bjarmian Finnic | Eurasia | Finnic | Uralic | finnic,bjarmian,extinct
+bjarmian-s-mi | Bjarmian S├ími | Eurasia | Sami | Uralic | extinct
+central-ludic | Central Ludic | Eurasia | Ludic | Uralic | 
+central-veps | Central Veps | Eurasia | Veps | Uralic | 
+central-vychegda | Central Vychegda | Eurasia | Komi-Zyryan | Uralic | 
+colloquial-finnish | Colloquial Finnish | Eurasia | Finnish | Uralic | 
+courland-livonian | Courland Livonian | Eurasia | Livonian | Uralic | extinct
+eastern-votic | Eastern Votic | Eurasia | Votic | Uralic | 
+fingelska | Fingelska | Eurasia | Finnish | Uralic | 
+hevaha | Hevaha | Eurasia | Ingrian | Uralic | 
+hollola | Hollola | Eurasia | Western Dialects | Uralic | 
+iitti | Iitti | Eurasia | Western Dialects | Uralic | 
+j-llivaara | J├ñllivaara | Eurasia | Western Dialects | Uralic | 
+kainuu | Kainuu | Eurasia | Eastern Dialects | Uralic | 
+kamas | Kamas | Eurasia | Kamas | Uralic | extinct
+kamassian-proper | Kamassian proper | Eurasia | Kamas | Uralic | extinct
+karagas | Karagas | Eurasia | Mator | Uralic | extinct
+kemi | Kemi | Eurasia | Western Dialects | Uralic | 
+kemij-rvi | Kemij├ñrvi | Eurasia | Western Dialects | Uralic | 
+keuruu-evij-rvi | Keuruu-Evij├ñrvi | Eurasia | Eastern Dialects | Uralic | 
+koibal | Koibal | Eurasia | Kamas | Uralic | extinct
+krevinian | Krevinian | Eurasia | Votic | Uralic | 
+kukkuzi | Kukkuzi | Eurasia | Votic | Uralic | 
+kuu-rv-ludic | Kuu─Å├ñrv Ludic | Eurasia | Ludic | Uralic | 
+lemi-region | Lemi region | Eurasia | Southeastern Dialects | Uralic | 
+lower-luga | Lower Luga | Eurasia | Ingrian | Uralic | 
+lower-vychegda | Lower Vychegda | Eurasia | Komi-Zyryan | Uralic | 
+luza-letka | Luza-Letka | Eurasia | Komi-Zyryan | Uralic | 
+mator | Mator | Eurasia | Mator | Uralic | extinct
+mator-proper | Mator proper | Eurasia | Mator | Uralic | extinct
+merya | Merya | Eurasia | Unclassified Uralic | Uralic | extinct
+meshcherian | Meshcherian | Eurasia | Unclassified Uralic | Uralic | extinct
+muromian | Muromian | Eurasia | Unclassified Uralic | Uralic | extinct
+northern-ludic | Northern Ludic | Eurasia | Ludic | Uralic | 
+northern-veps | Northern Veps | Eurasia | Veps | Uralic | 
+orodezhi | Orodezhi | Eurasia | Ingrian | Uralic | 
+pechora | Pechora | Eurasia | Komi-Zyryan | Uralic | 
+proper-southeastern | Proper Southeastern | Eurasia | Southeastern Dialects | Uralic | 
+proto-finnic | Proto-Finnic | Eurasia | Proto-Finnic | Uralic | proto,extinct,historical
+proto-karelian | Proto-Karelian | Eurasia | Proto-Finnic | Uralic | proto,extinct,historical
+proto-uralic | Proto-Uralic | Eurasia | Uralic | Uralic | extinct,proto,historical
+salaca-livonian | Salaca Livonian | Eurasia | Livonian | Uralic | extinct
+siberian-finnish | Siberian Finnish | Eurasia | Finnish | Uralic | 
+siberian-ingrian-finnish | Siberian Ingrian Finnish | Eurasia | Ingrian | Uralic | 
+soikkola | Soikkola | Eurasia | Ingrian | Uralic | 
+southern-veps | Southern Veps | Eurasia | Veps | Uralic | 
+standard-finnish | Standard Finnish | Eurasia | Finnish | Uralic | 
+taygi | Taygi | Eurasia | Mator | Uralic | extinct
+torne-valley | Torne Valley | Eurasia | Me├ñnkieli | Uralic | 
+tundra-nenets | Tundra Nenets | Eurasia | Nenets | Uralic | 
+udora | Udora | Eurasia | Komi-Zyryan | Uralic | 
+upper-sysola | Upper Sysola | Eurasia | Komi-Zyryan | Uralic | 
+upper-vychegda | Upper Vychegda | Eurasia | Komi-Zyryan | Uralic | 
+uralo-siberian | Uralo-Siberian | Eurasia | Proposed Groupings | Hypothetical | hypothetical,proto
+vym | Vym | Eurasia | Komi-Zyryan | Uralic | 
+western-votic | Western Votic | Eurasia | Votic | Uralic | 
+yurats | Yurats | Eurasia | Yurats | Uralic | extinct
+
+-- bases=[19] | members=34 --
+almosan | Almosan | Eurasia | Proposed Groupings | Hypothetical | hypothetical,proto
+kalaallisut | Kalaallisut | Arctic | EskimoΓÇôAleut | EskimoΓÇôAleut | 
+assan | Assan | Siberia | Southern | Yeniseian | extinct
+athabaskan | Athabaskan | North America | Na-Dene | Na-Dene | 
+broken-slavey | Broken Slavey | Misc | Pidgin | Pidgin | pidgin
+chukchi | Chukchi | Siberia | Chukotkan | Chukotko-Kamchatkan | 
+chukotkan | Chukotkan | Siberia | Chukotkan | Chukotko-Kamchatkan | 
+chukotko-kamchatkan | Chukotko-Kamchatkan | Siberia | Chukotko-Kamchatkan | Chukotko-Kamchatkan | 
+chukotko-kamchatkan-amuric | Chukotko-Kamchatkan-Amuric | Eurasia | Proposed Groupings | Hypothetical | hypothetical,proto
+chuvan | Chuvan | Siberia | Extinct | Yukaghir | extinct
+den-yeniseian | Den├⌐-Yeniseian | Eurasia | Proposed Groupings | Hypothetical | hypothetical,proto
+eskimo-trade-jargon | Eskimo Trade Jargon | Misc | Pidgin | Pidgin | pidgin
+eyak | Eyak | North America | Na-Dene | Na-Dene | extinct
+itelmen | Itelmen | Siberia | Itelmen | Chukotko-Kamchatkan | 
+jie | Jie | Siberia | Southern | Yeniseian | extinct
+kamchatkan | Kamchatkan | Siberia | Kamchatkan | Chukotko-Kamchatkan | 
+karasuk | Karasuk | Eurasia | Proposed Groupings | Hypothetical | hypothetical,proto
+kerek | Kerek | Siberia | Chukotkan | Chukotko-Kamchatkan | extinct
+ket | Ket | Siberia | Northern | Yeniseian | 
+koryak | Koryak | Siberia | Chukotkan | Chukotko-Kamchatkan | 
+kott | Kott | Siberia | Southern | Yeniseian | extinct
+loucheux-jargon | Loucheux Jargon | Misc | Pidgin | Pidgin | pidgin
+naukan | Naukan | Arctic | Yupik | Eskimo-Aleut | 
+nivkh | Nivkh | Siberia | Nivkh | Nivkh | 
+nootka-jargon | Nootka Jargon | Misc | Pidgin | Pidgin | pidgin
+omok | Omok | Siberia | Extinct | Yukaghir | extinct
+pumpokol | Pumpokol | Siberia | Southern | Yeniseian | extinct
+sirenik | Sirenik | Arctic | Yupik | Eskimo-Aleut | 
+southern-itelmen | Southern Itelmen | Siberia | Itelmen | Chukotko-Kamchatkan | extinct
+western-itelmen | Itelmen (Western Kamchadal) | Siberia | Itelmen | Chukotko-Kamchatkan | 
+yeniseian | Yeniseian | Siberia | Yeniseian | Yeniseian | 
+yugh | Yugh | Siberia | Northern | Yeniseian | 
+yuit | Yuit | Arctic | Yupik | Eskimo-Aleut | 
+eastern-itelmen | Eastern Itelmen | Siberia | Itelmen | Chukotko-Kamchatkan | extinct
+
+-- bases=[360] | members=33 --
+aneme-wake | Aneme Wake | Pacific | Southeast Papuan | Papuan | 
+barai | Barai | Pacific | Southeast Papuan | Papuan | 
+bariji | Bariji | Pacific | Southeast Papuan | Papuan | 
+bauwaki | Bauwaki | Pacific | Southeast Papuan | Papuan | 
+binahari | Binahari | Pacific | Southeast Papuan | Papuan | 
+bipim | Bipim | Pacific | Anim | Papuan | 
+bitur | Bitur | Pacific | Anim | Papuan | 
+boazi | Boazi | Pacific | Anim | Papuan | 
+boazi-lake-murray | Boazi (Lake Murray) | Pacific | Anim | Papuan | 
+daga | Daga | Pacific | Southeast Papuan | Papuan | 
+dima | Dima | Pacific | Southeast Papuan | Papuan | 
+domu | Domu | Pacific | Southeast Papuan | Papuan | 
+foia-foia | Foia Foia | Pacific | Inland Gulf | Papuan | 
+ginuman | Ginuman | Pacific | Southeast Papuan | Papuan | 
+hamtai | Hamtai | Pacific | Angan | Papuan | 
+hoia-hoia | Hoia Hoia | Pacific | Inland Gulf | Papuan | 
+humene | Humene | Pacific | Southeast Papuan | Papuan | 
+ipiko | Ipiko | Pacific | Inland Gulf | Papuan | 
+kanasi | Kanasi | Pacific | Southeast Papuan | Papuan | 
+korafe | Korafe | Pacific | Binanderean | Papuan | 
+laua | Laua | Pacific | Southeast Papuan | Papuan | 
+mailu | Mailu | Pacific | Southeast Papuan | Papuan | 
+maiwa | Maiwa | Pacific | Southeast Papuan | Papuan | 
+makayam | Makayam | Pacific | Anim | Papuan | 
+mapena | Mapena | Pacific | Southeast Papuan | Papuan | 
+maria | Maria | Pacific | Southeast Papuan | Papuan | 
+marind | Marind | Pacific | Anim | Papuan | 
+suena | Suena | Pacific | Binanderean | Papuan | 
+uare | Uare | Pacific | Southeast Papuan | Papuan | 
+were | Were | Pacific | Anim | Papuan | 
+yaqay | Yaqay | Pacific | Anim | Papuan | 
+yareba | Yareba | Pacific | Southeast Papuan | Papuan | 
+zimakani | Zimakani | Pacific | Anim | Papuan | 
+
+-- bases=[11] | members=31 --
+mandarin | Mandarin | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+badong-yao | Badong Yao | East Asia | Hmong-Mien | Mixed | 
+biao-min | Biao Min | East Asia | Mienic | Hmong-Mien | 
+bunu | Bunu | East Asia | BuΓÇôNao | Hmong-Mien | 
+dzao-min | Dzao Min | East Asia | Mienic | Hmong-Mien | 
+e | E | Misc | Mixed | Mixed | mixed
+hezhou | Hezhou | Misc | Mixed | Mixed | mixed
+hm-nai | Hm Nai | East Asia | Bahengic | Hmong-Mien | 
+iu-mien | Iu Mien | East Asia | Mienic | Hmong-Mien | 
+kim-mun | Kim Mun | East Asia | Mienic | Hmong-Mien | 
+kiong-nai | Kiong Nai | East Asia | Sheic | Hmong-Mien | 
+kyakhta-russian-chinese-pidgin | Kyakhta Russian-Chinese Pidgin | Misc | Pidgin | Pidgin | pidgin
+kyowa-go | Kyowa-go | Misc | Pidgin | Pidgin | pidgin
+lingling | Lingling | East Asia | Mixed | Mixed | mixed
+maojia | Maojia | East Asia | Hmong-Mien | Mixed | 
+nao-klao | Nao Klao | East Asia | BuΓÇôNao | Hmong-Mien | 
+numao | Numao | East Asia | BuΓÇôNao | Hmong-Mien | 
+pa-hng | Pa-Hng | East Asia | Bahengic | Hmong-Mien | 
+pa-na | Pa Na | East Asia | Sheic | Hmong-Mien | 
+raojia | Raojia | East Asia | Hmuic | Hmong-Mien | 
+sanqiao | Sanqiao | East Asia | Hmuic | Hmong-Mien | 
+she | She | East Asia | Sheic | Hmong-Mien | 
+she-chinese | She Chinese | East Asia | Hmong-Mien | Mixed | 
+tangwang | Tangwang | Misc | Chinese-based | Mixed | creole,mixed
+tansi | Tansi | Misc | Mixed | Mixed | mixed
+waxiang | Waxiang | Misc | Mixed | Mixed | mixed
+xieheyu | Xieheyu | Misc | Pidgin | Pidgin | pidgin
+xong | Xong | East Asia | Xong | Hmong-Mien | 
+yeheni | Yeheni | East Asia | Hmong-Mien | Mixed | 
+younian | Younian | East Asia | Hmong-Mien | Mixed | 
+younuo | Younuo | East Asia | Sheic | Hmong-Mien | 
+
+-- bases=[195] | members=30 --
+batek | Batek | Asia | Aslian | Austroasiatic | 
+camorta-nicobarese | Camorta Nicobarese | Asia | Nicobarese | Austroasiatic | 
+car-nicobarese | Car Nicobarese | Asia | Nicobarese | Austroasiatic | 
+chaura-nicobarese | Chaura Nicobarese | Asia | Nicobarese | Austroasiatic | 
+cocos-malay | Cocos Malay | Indian Ocean | Malay-based | Creole | creole
+katchal-nicobarese | Katchal Nicobarese | Asia | Nicobarese | Austroasiatic | 
+kenaboi | Kenaboi | Asia | Unclassified | Unclassified | extinct
+kupang-malay | Kupang Malay | Asia | Malay-based | Creole | creole
+larantuka-malay | Larantuka Malay | Asia | Malay-based | Creole | creole
+mah-meri | Mah Meri | Asia | Aslian | Austroasiatic | 
+makassar-malay | Makassar Malay | Misc | Mixed | Mixed | mixed
+malaccan-creole-malay | Malaccan Creole Malay | Asia | Malay-based | Creole | creole
+manado-malay | Manado Malay | Asia | Malay-based | Creole | creole
+maumere-malay | Maumere Malay | Asia | Malay-based | Creole | creole
+nancowry-nicobarese | Nancowry Nicobarese | Asia | Nicobarese | Austroasiatic | 
+north-moluccan-malay | North Moluccan Malay | Asia | Malay-based | Creole | creole
+orang-pulo | Orang Pulo | Asia | Malay-based | Creole | creole
+papuan-malay | Papuan Malay | Asia | Malay-based | Creole | creole
+peranakan | Peranakan | Asia | Malay-based | Creole | creole
+sabah-malay | Sabah Malay | Asia | Malay-based | Creole | creole
+semai | Semai | Asia | Aslian | Austroasiatic | 
+semaq-beri | Semaq Beri | Asia | Aslian | Austroasiatic | 
+semelai | Semelai | Asia | Aslian | Austroasiatic | 
+serui-malay | Serui Malay | Asia | Malay-based | Creole | creole
+shompen | Shompen | Asia | Nicobarese | Austroasiatic | 
+southern-nicobarese | Southern Nicobarese | Asia | Nicobarese | Austroasiatic | 
+sri-lankan-malay | Sri Lankan Malay | Asia | Malay-based | Creole | creole
+sula-malay | Sula Malay | Asia | Malay-based | Creole | creole
+temiar | Temiar | Asia | Aslian | Austroasiatic | 
+teressa-nicobarese | Teressa Nicobarese | Asia | Nicobarese | Austroasiatic | 
+
+-- bases=[2] | members=26 --
+augeron | Augeron | Europe | O├»l Dialects | Romance | 
+auregnais | Auregnais | Europe | O├»l Dialects | Romance | 
+bolze | Bolze | Misc | Mixed | Mixed | mixed
+bourbonnais-creole | Bourbonnais Creole | Indian Ocean | French-based | Creole | creole
+chagossian-creole | Chagossian Creole | Indian Ocean | French-based | Creole | creole
+dominican-creole-french | Dominican Creole French | The Americas | French-based | Creole | creole
+fran-ais-tirailleur | Fran├ºais Tirailleur | Misc | Pidgin | Pidgin | pidgin
+french-guianese-creole | French Guianese Creole | The Americas | French-based | Creole | creole
+grenadian-creole-french | Grenadian Creole French | The Americas | French-based | Creole | creole
+j-rriais | J├¿rriais | Europe | O├»l Dialects | Romance | french,norman,channel-islands,jersey
+joual | Joual | North America | Canadian | Romance | 
+karip-na-french-creole | Karip├║na French Creole | The Americas | French-based | Creole | creole
+landese | Landese | Europe | Dialects | Romance | 
+louisiana-creole | Louisiana Creole | The Americas | French-based | Creole | creole
+magoua | Magoua | North America | Canadian | Romance | french,quebec
+moselle-romance | Moselle Romance | Europe | O├»l Dialects | Romance | 
+orl-anais | Orl├⌐anais | Europe | O├»l Dialects | Romance | 
+petuh | Petuh | Misc | Mixed | Mixed | mixed
+poitevin-saintongeais | Poitevin-Saintongeais | Europe | O├»l Dialects | Romance | 
+r-mois | R├⌐mois | Europe | O├»l Dialects | Romance | 
+r-union-creole | R├⌐union Creole | Indian Ocean | French-based | Creole | creole
+rodriguan-creole | Rodriguan Creole | Indian Ocean | French-based | Creole | creole
+saint-lucian-creole | Saint Lucian Creole | The Americas | French-based | Creole | creole
+sercquiais | Sercquiais |  | Unclassified | Unclassified | 
+t-y-b-i-pidgin-french | T├óy Bß╗ôi Pidgin French | Misc | Pidgin | Pidgin | pidgin
+tayo-creole | Tayo Creole | Indian Ocean | French-based | Creole | creole
+
+-- bases=[13] | members=25 --
+galician | Galician | Europe | Galician | Romance | 
+bidau-creole-portuguese | Bidau Creole Portuguese | Asia | Portuguese-based | Creole | creole,portuguese-based,gulf-of-guinea
+brazilian-portuguese | Brazilian Portuguese | South America | Portuguese | Romance | portuguese,brazil
+cannanore-portuguese-creole | Cannanore Portuguese Creole | Asia | Portuguese-based | Creole | creole,portuguese-based,gulf-of-guinea
+daman | Daman | Asia | Portuguese-based | Creole | creole
+daman-and-diu-portuguese-creole | Daman and Diu Portuguese Creole | Asia | Portuguese-based | Creole | creole
+diu | Diu | Asia | Portuguese-based | Creole | creole
+eonavian | Eonavian | Europe | Galician | Romance | 
+estremenho | Estremenho | Europe | Portuguese | Romance | 
+european-portuguese | European Portuguese | Europe | Portuguese | Romance | 
+fogo-creole | Fogo Creole | Upper Guinea | Portuguese-based | Creole | creole
+galician-asturian | Galician-Asturian | Europe | Galician | Romance | 
+indo-portuguese | Indo-Portuguese | Asia | Portuguese-based | Creole | creole
+indo-portuguese-creole-of-bombay | Indo-Portuguese Creole of Bombay | Asia | Portuguese-based | Creole | creole
+judeo-portuguese | Judeo-Portuguese | Europe | Portuguese | Romance | judeo
+kristang | Kristang | Asia | Portuguese-based | Creole | creole
+mineiro | Mineiro | South America | Portuguese | Romance | 
+northern-portuguese | Northern Portuguese | Europe | Portuguese | Romance | 
+oliventine | Oliventine | Europe | Portuguese | Romance | 
+portugis | Portugis | Asia | Portuguese-based | Creole | creole
+s-o-nicolau-creole | S├úo Nicolau Creole | Upper Guinea | Portuguese-based | Creole | creole
+s-o-vicente-creole | S├úo Vicente Creole | Upper Guinea | Portuguese-based | Creole | creole
+santiago-creole | Santiago Creole | Upper Guinea | Portuguese-based | Creole | creole
+santo-ant-o-creole | Santo Ant├úo Creole | Upper Guinea | Portuguese-based | Creole | creole
+uruguayan-portuguese | Uruguayan Portuguese | South America | Portuguese | Romance | portuguese,uruguay
+
+-- bases=[308] | members=18 --
+bahamian-creole | Bahamian Creole | Caribbean | English-based | Creole | creole
+bajan-creole | Bajan Creole | Caribbean | English-based | Creole | creole
+belizean-creole | Belizean Creole | Caribbean | English-based | Creole | creole
+bocas-del-toro-creole | Bocas del Toro Creole | Caribbean | English-based | Creole | creole
+grenadian-creole-english | Grenadian Creole English | Caribbean | English-based | Creole | creole
+jamaican-maroon-creole | Jamaican Maroon Creole | Caribbean | English-based | Creole | creole
+leeward-caribbean-creole-english | Leeward Caribbean Creole English | Caribbean | English-based | Creole | creole
+limonese-creole | Limonese Creole | Caribbean | English-based | Creole | creole
+miskito-coast-creole | Miskito Coast Creole | Caribbean | English-based | Creole | creole
+montserrat-creole | Montserrat Creole | Caribbean | English-based | Creole | creole
+rama-cay-creole | Rama Cay Creole | Caribbean | English-based | Creole | creole
+saint-kitts-creole | Saint Kitts Creole | Caribbean | English-based | Creole | creole
+san-andres-providencia-creole | San Andr├⌐s-Providencia Creole | Caribbean | English-based | Creole | creole
+tobagonian-creole | Tobagonian Creole | Caribbean | English-based | Creole | creole
+trinidadian-creole | Trinidadian Creole | Caribbean | English-based | Creole | creole
+turks-and-caicos-creole | Turks and Caicos Creole | Caribbean | English-based | Creole | creole
+vincentian-creole | Vincentian Creole | Caribbean | English-based | Creole | creole
+virgin-islands-creole | Virgin Islands Creole | Caribbean | English-based | Creole | creole
+
+-- bases=[306] | members=17 --
+neapolitan-lang | Neapolitan | Europe | Neapolitan | Romance | 
+barese | Barese | Europe | Neapolitan | Romance | 
+benevento | Benevento | Europe | Neapolitan | Romance | 
+campano | Campano | Europe | Neapolitan | Romance | 
+castelmezzano | Castelmezzano | Europe | Neapolitan | Romance | 
+cilentan | Cilentan | Europe | Neapolitan | Romance | 
+cosentino | Cosentino | Europe | Neapolitan | Romance | 
+irpino | Irpino | Europe | Neapolitan | Romance | 
+molisan | Molisan | Europe | Neapolitan | Romance | 
+northern-calabrian | Northern Calabrian | Europe | Neapolitan | Romance | 
+pugliese | Pugliese | Europe | Neapolitan | Romance | 
+south-lucanian | South Lucanian | Europe | Neapolitan | Romance | 
+southern-cilentan | Southern Cilentan | Europe | Cilentan | Romance | 
+southern-latian | Southern Latian | Europe | Neapolitan | Romance | 
+southern-laziale | Southern Laziale | Europe | Neapolitan | Romance | 
+tarantino | Tarantino | Europe | Neapolitan | Romance | 
+vastese | Vastese | Europe | Neapolitan | Romance | 
+
+-- bases=[316] | members=15 --
+ai-cham | Ai Cham | Asia | Kam-Sui | Tai-Kadai | 
+biao-kam-sui | Biao Kam Sui | Asia | Kam-Sui | Tai-Kadai | 
+serbo-croatian | Serbo-Croatian | Europe | Western South Slavic | Slavic | 
+cao-miao | Cao Miao | Asia | Kam-Sui | Tai-Kadai | 
+chadong | Chadong | Asia | Kam-Sui | Tai-Kadai | 
+kam-dong | Kam Dong | Asia | Kam-Sui | Tai-Kadai | 
+kam-sui | Kam Sui | Asia | Kam-Sui | Tai-Kadai | 
+lakkia-kam-sui | Lakkia Kam Sui | Asia | Kam-Sui | Tai-Kadai | 
+mak-kam-sui | Mak Kam Sui | Asia | Kam-Sui | Tai-Kadai | 
+maonan | Maonan | Asia | Kam-Sui | Tai-Kadai | 
+mulam | Mulam | Asia | Kam-Sui | Tai-Kadai | 
+nuoxi-naxi-yao | Nuoxi Naxi Yao | Asia | Kam-Sui | Tai-Kadai | 
+proto-kam-sui | Proto-KamSui | Asia | Kam-Sui | Tai-Kadai | proto,extinct,historical
+sui-lang | Sui Lang | Asia | Kam-Sui | Tai-Kadai | 
+then-kam-sui | Then Kam Sui | Asia | Kam-Sui | Tai-Kadai | 
+
+-- bases=[317] | members=14 --
+buyang | Buyang | Asia | Kra | Tai-Kadai | 
+en-kra | En Kra | Asia | Kra | Tai-Kadai | 
+gelao | Gelao | Asia | Kra | Tai-Kadai | 
+hagei | Hagei | Asia | Kra | Tai-Kadai | 
+hezhang-buyi | Hezhang Buyi | Asia | Kra | Tai-Kadai | 
+lachi | Lachi | Asia | Kra | Tai-Kadai | 
+laha | Laha | Asia | Kra | Tai-Kadai | 
+mulao-kra | Mulao Kra | Asia | Kra | Tai-Kadai | 
+paha | Paha | Asia | Kra | Tai-Kadai | 
+proto-kra | Proto-Kra | Asia | Kra | Tai-Kadai | proto,extinct,historical
+qabiao | Qabiao | Asia | Kra | Tai-Kadai | 
+qau | Qau | Asia | Kra | Tai-Kadai | 
+telue | Telue | Asia | Kra | Tai-Kadai | 
+vandu | Vandu | Asia | Kra | Tai-Kadai | 
+
+-- bases=[15] | members=13 --
+hun | Hungarian | Europe | Hungarian | Uralic | 
+central-transdanubian | Central Transdanubian | Eurasia | Hungarian | Uralic | 
+cs-ng- | Cs├íng├│ | Eurasia | Hungarian | Uralic | 
+northeast-hungary | Northeast Hungary | Eurasia | Hungarian | Uralic | 
+old-hungarian | Old Hungarian | Eurasia | Hungarian | Uralic | historical
+pal-c | Pal├│c | Eurasia | Hungarian | Uralic | 
+proto-hungarian | Proto-Hungarian | Eurasia | Proto-Hungarian | Uralic | proto,extinct,historical
+southern-great-plain | Southern Great Plain | Eurasia | Hungarian | Uralic | 
+southern-transdanubian | Southern Transdanubian | Eurasia | Hungarian | Uralic | 
+sz-kely | Sz├⌐kely | Eurasia | Hungarian | Uralic | 
+tisza-k-r-s | Tisza-K├╢r├╢s | Eurasia | Hungarian | Uralic | 
+transylvanian-plain | Transylvanian Plain | Eurasia | Hungarian | Uralic | 
+western-transdanubian | Western Transdanubian | Eurasia | Hungarian | Uralic | 
+
+-- bases=[3] | members=12 --
+basilicatine | Basilicatine | Europe | Neapolitan | Romance | italo-dalmatian,neapolitan,basilicata
+florentine | Florentine | Europe | Tuscan | Romance | 
+italian-eritrean | Italian Eritrean | Misc | Pidgin | Pidgin | pidgin
+italo-australian | Italo-Australian | Europe | Italian | Romance | 
+italo-paulista | Italo-Paulista | Misc | Pidgin | Pidgin | pidgin
+maltese-italian | Maltese Italian | Europe | Italian | Romance | 
+pisano-livornese | Pisano-Livornese | Europe | Dialects | Romance | 
+regional-italian | Regional Italian | Europe | Italian | Romance | 
+simplified-italian-of-libya | Simplified Italian of Libya | Misc | Pidgin | Pidgin | pidgin
+simplified-italian-of-somalia | Simplified Italian of Somalia | Misc | Pidgin | Pidgin | pidgin
+standard-italian | Standard Italian | Europe | Italian | Romance | 
+swiss-italian | Swiss Italian | Europe | Italian | Romance | 
+
+-- bases=[10] | members=11 --
+kor | Kor | East Asia | Koreanic | Koreanic | 
+baekje-korean | Baekje Korean | East Asia | Old Korean | Koreanic | extinct
+buyeo-korean | Buyeo Korean | East Asia | Old Korean | Koreanic | extinct
+gaya-korean | Gaya Korean | East Asia | Old Korean | Koreanic | extinct
+goguryeo-korean | Goguryeo Korean | East Asia | Old Korean | Koreanic | extinct
+goryeo-korean | Goryeo Korean | East Asia | Middle Korean | Koreanic | 
+joseon-middle-korean | Joseon Korean (Middle) | East Asia | Middle Korean | Koreanic | 
+mahan-korean | Mahan Korean | East Asia | Old Korean | Koreanic | extinct
+middle-korean | Middle Korean | East Asia | Koreanic | Koreanic | historical
+old-korean | Old Korean | East Asia | Koreanic | Koreanic | extinct,historical
+silla-korean | Silla Korean | East Asia | Old Korean | Koreanic | extinct
+
+-- bases=[287] | members=11 --
+benasquese | Benasquese | Europe | Aragonese | Romance | 
+central-aragonese | Central Aragonese | Europe | Aragonese | Romance | 
+cheso | Cheso | Europe | Aragonese | Romance | 
+eastern-aragonese | Eastern Aragonese | Europe | Aragonese | Romance | 
+judeo-aragonese | Judeo-Aragonese | Europe | Aragonese | Romance | judeo
+navarrese | Navarrese | Europe | Aragonese | Romance | 
+navarro-aragonese | Navarro-Aragonese | Europe | Aragonese | Romance | 
+riojan | Riojan | Europe | Aragonese | Romance | 
+somontan-s | Somontan├⌐s | Europe | Aragonese | Romance | 
+southern-aragonese | Southern Aragonese | Europe | Aragonese | Romance | 
+western-aragonese | Western Aragonese | Europe | Aragonese | Romance | 
+
+-- bases=[275] | members=10 --
+ainu | Ainu | Asia | Japonic | Japonic | 
+hokkaido-ainu | Hokkaido Ainu | Asia | Hokkaido | Ainu | 
+hokkaido-dialects | Hokkaido dialects | Asia | Hokkaido | Ainu | dialect
+kuril-ainu | Kuril Ainu | Asia | Kuril | Ainu | extinct
+kuril-dialects | Kuril dialects | Asia | Kuril | Ainu | extinct,dialect
+proto-ainu | Proto-Ainu | Asia | Proto | Ainu | proto,extinct,historical
+proto-hokkaido-kuril | Proto-Hokkaido-Kuril | Asia | Proto | Ainu | proto,extinct,historical
+proto-sakhalin | Proto-Sakhalin | Asia | Proto | Ainu | proto,extinct,historical
+sakhalin-ainu | Sakhalin Ainu | Asia | Sakhalin | Ainu | extinct
+sakhalin-dialects | Sakhalin dialects | Asia | Sakhalin | Ainu | extinct,dialect
+
+-- bases=[311] | members=10 --
+chaha | Chaha | Horn of Africa | Outer | Afroasiatic | 
+inneqor | Inneqor | Horn of Africa | Gurage | Afroasiatic | 
+inor | Inor | Horn of Africa | West Gurage | Afroasiatic | 
+sebat-bet | Sebat Bet | Horn of Africa | West Gurage | Afroasiatic | 
+ulbare | Ulbare | Horn of Africa | West Gurage | Afroasiatic | 
+wolane | Wolane | Horn of Africa | Gurage | Afroasiatic | 
+mesmes | Mesmes | Horn of Africa | West Gurage | Afroasiatic | extinct
+mesqan | Mesqan | Horn of Africa | West Gurage | Afroasiatic | 
+muher | Muher | Horn of Africa | West Gurage | Afroasiatic | 
+sebat-bet-gurage | Sebat Bet Gurage | Horn of Africa | West Gurage | Afroasiatic | 
+
+-- bases=[18] | members=9 --
+bimbashi-arabic | Bimbashi Arabic | Misc | Pidgin | Pidgin | pidgin
+bongor-arabic | Bongor Arabic | Misc | Other Arabic | Pidgin | pidgin,extinct
+cypriot-maronite-arabic | Cypriot Maronite-Arabic | Misc | Mixed | Mixed | mixed
+gadal | Gadal | Misc | Mixed | Mixed | mixed
+juba-arabic | Juba Arabic | Misc | Arabic-based | Creole | creole
+maridi-arabic | Maridi Arabic | Misc | Other Arabic | Pidgin | pidgin,extinct
+nubi | Nubi | Misc | Arabic-based | Creole | creole
+turku-arabic | Turku Arabic | Misc | Other Arabic | Pidgin | pidgin,extinct
+zabidi-dialect | Zabidi dialect | Middle East | Peninsular | Afroasiatic | dialect
+
+-- bases=[25] | members=9 --
+arafundi-enga-pidgin | Arafundi-Enga Pidgin | Misc | Pidgin | Pidgin | pidgin
+duvle-wano-pidgin | Duvle-Wano Pidgin | Misc | Pidgin | Pidgin | pidgin
+kwoma-manambu-pidgin | Kwoma-Manambu Pidgin | Misc | Pidgin | Pidgin | pidgin
+maritime-polynesian-pidgin | Maritime Polynesian Pidgin | Misc | Pidgin | Pidgin | pidgin
+mekeo-pidgins | Mekeo pidgins | Misc | Pidgin | Pidgin | pidgin
+pidgin-hawaiian | Pidgin Hawaiian | Misc | Pidgin | Pidgin | pidgin
+pidgin-iha | Pidgin Iha | Misc | Pidgin | Pidgin | pidgin
+pidgin-ngarluma | Pidgin Ngarluma | Misc | Pidgin | Pidgin | pidgin
+pidgin-onin | Pidgin Onin | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[234] | members=8 --
+romansh | Romansh | Europe | Romansh | Romance | 
+jauer | Jauer | Europe | Romansh | Romance | 
+put-r | Put├¿r | Europe | Romansh | Romance | 
+surmiran | Surmiran | Europe | Romansh | Romance | 
+sursilvan | Sursilvan | Europe | Romansh | Romance | 
+sutsilvan | Sutsilvan | Europe | Romansh | Romance | 
+tuatschin | Tuatschin | Europe | Romansh | Romance | 
+vallader | Vallader | Europe | Romansh | Romance | 
+
+-- bases=[280] | members=8 --
+sicilian | Sicilian | Europe | Sicilian | Romance | 
+central-metafonetica | Central Metafonetica | Europe | Sicilian | Romance | 
+eastern-nonmetafonetica | Eastern Nonmetafonetica | Europe | Sicilian | Romance | 
+ennese | Ennese | Europe | Sicilian | Romance | 
+messinese | Messinese | Europe | Sicilian | Romance | 
+pantesco | Pantesco | Europe | Sicilian | Romance | 
+southeast-metafonetica | Southeast Metafonetica | Europe | Sicilian | Romance | 
+western-sicilian | Western Sicilian | Europe | Sicilian | Romance | 
+
+-- bases=[426] | members=8 --
+kudymkar-inva | Kudymkar-Inva | Eurasia | Komi-Permyak | Uralic | 
+kochevo | Kochevo | Eurasia | Komi-Permyak | Uralic | 
+komi-permyak | Komi-Permyak | Eurasia | Komi-Permyak | Uralic | 
+kosa-kama | Kosa-Kama | Eurasia | Komi-Permyak | Uralic | 
+mysy | Mysy | Eurasia | Komi-Permyak | Uralic | 
+nerdva | Nerdva | Eurasia | Komi-Permyak | Uralic | 
+on | On | Eurasia | Komi-Permyak | Uralic | 
+upper-lupya | Upper Lupya | Eurasia | Komi-Permyak | Uralic | 
+
+-- bases=[140] | members=7 --
+dullay | Dullay | Africa | Cushitic | Afroasiatic | 
+omo-tana | OmoΓÇôTana | Africa | Cushitic | Afroasiatic | 
+oromoid | Oromoid | Africa | Cushitic | Afroasiatic | 
+rendille-boni | RendilleΓÇôBoni | Africa | Cushitic | Afroasiatic | 
+saho-afar | SahoΓÇôAfar | Africa | Cushitic | Afroasiatic | 
+somali-western | Western Somali | Africa | Cushitic | Afroasiatic | 
+south-cushitic | South Cushitic | Africa | Cushitic | Afroasiatic | 
+
+-- bases=[232] | members=7 --
+occitan | Occitan | Europe | Dialects | Romance | 
+auvergnat | Auvergnat | Europe | Occitan | Romance | occitan,auvergnat
+b-arnese | B├⌐arnese | Europe | Gascon Occitan | Romance | occitan,gascon,bearn
+languedocien | Languedocien | Europe | Dialects | Romance | 
+ni-ard | Ni├ºard | Europe | Dialects | Romance | 
+old-occitan | Old Occitan | Europe | Old Occitan | Romance | extinct,historical
+proven-al | Proven├ºal | Europe | Dialects | Romance | 
+
+-- bases=[28] | members=7 --
+camtho | Camtho | Misc | Pidgin | Pidgin | pidgin
+ewondo-populaire | Ewondo Populaire | Misc | Pidgin | Pidgin | pidgin
+kikar | KiKAR | Misc | Pidgin | Pidgin | pidgin
+mbugu | Mbugu | Misc | Mixed | Mixed | mixed
+omaio | Omaio | Africa | Unclassified | Unclassified | 
+ongota | Ongota | Africa | Unclassified | Unclassified | 
+settler-swahili | Settler Swahili | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[310] | members=7 --
+baba-malay | Baba Malay | Asia | Malay-based | Creole | creole
+balinese-malay | Balinese Malay | Asia | Malay-based | Creole | creole
+banda-malay | Banda Malay | Asia | Malay-based | Creole | creole
+betawi | Betawi | Asia | Malay-based | Creole | creole
+dili-malay | Dili Malay | Asia | Malay-based | Creole | creole
+eastern-indonesian-malay | Eastern Indonesian Malay | Asia | Malay-based | Creole | creole
+gorap | Gorap | Asia | Malay-based | Creole | creole
+
+-- bases=[331] | members=7 --
+atlas-berber | Atlas Berber | Africa | Atlas Berber | Afroasiatic | 
+awjila-language | Awjila language | Africa | Eastern Berber | Afroasiatic | 
+eastern-berber | Eastern Berber | Africa | Eastern Berber | Afroasiatic | 
+northern-berber | Northern Berber | Africa | Northern Berber | Afroasiatic | 
+standard-algerian-berber | Standard Algerian Berber | Africa | Northern Berber | Afroasiatic | 
+western-berber | Western Berber | Africa | Western Berber | Afroasiatic | 
+zenaga-language | Zenaga language | Africa | Zenaga Berber | Afroasiatic | 
+
+-- bases=[337] | members=7 --
+chong | Chong | Asia | Pearic | Austroasiatic | 
+kasong | Kasong | Asia | Pearic | Austroasiatic | 
+pear | Pear | Asia | Pearic | Austroasiatic | 
+sa-och | Sa-och | Asia | Pearic | Austroasiatic | 
+samre | Samre | Asia | Pearic | Austroasiatic | 
+somray | Somray | Asia | Pearic | Austroasiatic | 
+suoy | Suoy | Asia | Pearic | Austroasiatic | 
+
+-- bases=[380] | members=7 --
+alchuka | Alchuka | Asia | Jurchenic | Tungusic | extinct
+ewenic | Ewenic | Asia | Ewenic | Tungusic | 
+jurchenic | Jurchenic | Asia | Jurchenic | Tungusic | 
+nanaic | Nanaic | Asia | Nanaic | Tungusic | 
+northern-tungusic | Northern Tungusic | Asia | Northern Tungusic | Tungusic | 
+southern-tungusic | Southern Tungusic | Asia | Southern Tungusic | Tungusic | 
+udegheic | Udegheic | Asia | Udegheic | Tungusic | 
+
+-- bases=[12] | members=6 --
+jpn | Japanese | Asia | Japonic | Japonic | 
+hachijo | Hachijo | Asia | Japanese dialects | Japonic | 
+japanese-dialects | Japanese dialects | Asia | Japanese dialects | Japonic | dialect
+kanbun-kundoku | Kanbun Kundoku | Misc | Japanese-based | Creole | creole
+yilan-creole-japanese | Yilan Creole Japanese | Misc | Japanese-based | Creole | creole
+yokohama-pidgin-japanese | Yokohama Pidgin Japanese | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[173] | members=6 --
+guarani | Guarani | South America | Tupian | Tupian | 
+kwaza | Kwaza | South America | Unclassified | Unclassified | 
+l-ngua-geral-amaz-nica | L├¡ngua Geral Amaz├┤nica | Misc | Mixed | Mixed | mixed
+l-ngua-geral-paulista | L├¡ngua Geral Paulista | Misc | Mixed | Mixed | mixed
+ndyuka-tiriy-pidgin | Ndyuka-Tiriy├│ Pidgin | Misc | Pidgin | Pidgin | pidgin
+xoc- | Xoc├│ | South America | Unclassified | Unclassified | extinct
+
+-- bases=[223] | members=6 --
+georgian | Georgian | Caucasus | Kartvelian | Kartvelian | 
+adjaran-georgian | Adjaran Georgian | Caucasus | Georgian dialects | Kartvelian | dialect
+judaeo-georgian | Judaeo-Georgian | Caucasus | Kartvelian | Kartvelian | judeo
+old-georgian | Old Georgian | Caucasus | Kartvelian | Kartvelian | historical,extinct
+proto-georgian-zan | Proto-GeorgianΓÇôZan | Caucasus | Proto-GeorgianΓÇôZan | Kartvelian | proto,extinct,historical
+proto-kartvelian | Proto-Kartvelian | Caucasus | Proto-Kartvelian | Kartvelian | proto,extinct,historical
+
+-- bases=[318] | members=6 --
+bouhin | Bouhin | Asia | Hlai | Tai-Kadai | 
+ha-em | Ha Em | Asia | Hlai | Tai-Kadai | 
+hlai | Hlai | Asia | Hlai | Tai-Kadai | 
+lauhut | Lauhut | Asia | Hlai | Tai-Kadai | 
+proto-hlai | Proto-Hlai | Asia | Hlai | Tai-Kadai | proto,extinct,historical
+tongzha | Tongzha | Asia | Hlai | Tai-Kadai | 
+
+-- bases=[332] | members=6 --
+east-zenati | East Zenati | Africa | Zenati Berber | Afroasiatic | 
+eastern-morocco-zenati | Eastern Morocco Zenati | Africa | Zenati Berber | Afroasiatic | 
+mzab-wargla | MzabΓÇôWargla Berber | Africa | Zenati Berber | Afroasiatic | 
+shenwa-language | Shenwa language | Africa | Zenati Berber | Afroasiatic | 
+tidikelt-language | Tidikelt Berber | Africa | Zenati Berber | Afroasiatic | 
+tuwat-language | Tuwat Berber | Africa | Zenati Berber | Afroasiatic | 
+
+-- bases=[381] | members=6 --
+mongolian | Mongolian | Asia | Mongolic | Mongolic | 
+eastern-yugur | Eastern Yugur | Asia | Southern Mongolic | Mongolic | 
+santa | Santa / Sarta (Dongxiang) | Asia | Southern Mongolic | Mongolic | 
+santa-sijiaji | Santa Sijiaji | Asia | Southern Mongolic | Mongolic | 
+santa-suonanba | Santa Suonanba | Asia | Southern Mongolic | Mongolic | 
+santa-wangjiaji | Santa Wangjiaji | Asia | Southern Mongolic | Mongolic | 
+
+-- bases=[144] | members=5 --
+dizoid | Dizoid | Africa | Omotic | Afroasiatic | 
+gonga | Gonga | Africa | Omotic | Afroasiatic | 
+mao-omotic | Mao Omotic | Africa | Omotic | Afroasiatic | 
+north-omotic | North Omotic | Africa | Omotic | Afroasiatic | 
+ometo | Ometo | Africa | Omotic | Afroasiatic | 
+
+-- bases=[21] | members=5 --
+bangime | Bangime | Africa | Language isolate | Language isolate | 
+bayot | Bayot | Africa | Niger-Congo | Niger-Congo | 
+jalaa | Jalaa | Africa | Unclassified | Unclassified | extinct
+laal | Laal | Africa | Unclassified | Unclassified | 
+mpre | Mpre | Africa | Unclassified | Unclassified | extinct
+
+-- bases=[312] | members=5 --
+kunwinjku | Kunwinjku | Australia | Australian Aboriginal | Australian Aboriginal | 
+maung | Maung | Australia | Australian Aboriginal | Australian Aboriginal | 
+nunggubuyu | Nunggubuyu | Australia | Australian Aboriginal | Australian Aboriginal | 
+harari | Harari | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
+harari-east-gurage | Harari-East Gurage | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
+
+-- bases=[333] | members=5 --
+air-tamajeq-language | Air Tamajeq language | Africa | Tuareg Berber | Afroasiatic | 
+tagdal-language | Tagdal language | Africa | Tuareg Berber | Afroasiatic | 
+tamahaq-language | Tamahaq language | Africa | Tuareg Berber | Afroasiatic | 
+tetserret-language | Tetserret language | Africa | Tuareg Berber | Afroasiatic | 
+tuareg-berber | Tuareg Berber | Africa | Tuareg Berber | Afroasiatic | 
+
+-- bases=[6] | members=5 --
+borgarm-let | Borgarm├Ñlet | Misc | Pidgin | Pidgin | pidgin
+swe | Swedish | Europe | Germanic | Germanic | 
+norwegian | Norwegian | Europe | North Germanic | Germanic | 
+danish | Danish | Europe | North Germanic | Germanic | 
+russenorsk | Russenorsk | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[0] | members=4 --
+kiautschou-pidgin-german | Kiautschou Pidgin German | Misc | Pidgin | Pidgin | pidgin
+missingsch | Missingsch | Misc | Mixed | Mixed | mixed
+namibian-black-german | Namibian Black German | Misc | Pidgin | Pidgin | pidgin
+unserdeutsch | Unserdeutsch | Misc | German-based | Creole | creole
+
+-- bases=[154] | members=4 --
+lusoga | Lusoga | Africa | Bantu | Niger-Congo | 
+nkore | Nkore | Africa | Bantu | Niger-Congo | 
+kiga | Kiga | Africa | Bantu | Niger-Congo | 
+luganda | Luganda | Africa | Bantu | Niger-Congo | 
+
+-- bases=[23] | members=4 --
+ammonite | Ammonite | Middle East | South Canaanite | Afroasiatic | 
+babylonian | Babylonian | Middle East | East Semitic | Afroasiatic | extinct
+baghdadi-arabic | Baghdadi Arabic | Middle East | Mesopotamian | Afroasiatic | 
+western-egyptian-bedawi-arabic | Western Egyptian Bedawi Arabic | Middle East | Egypto-Sudanic | Afroasiatic | 
+
+-- bases=[274] | members=4 --
+northern-sami | Northern Sami | Europe | Northern Sami | Uralic | 
+finnmark-sami | Finnmark Sami | Eurasia | Northern Sami | Uralic | 
+sea-sami | Sea Sami | Eurasia | Northern Sami | Uralic | 
+torne-sami | Torne Sami | Eurasia | Northern Sami | Uralic | 
+
+-- bases=[276,296,381] | members=4 --
+mogholi | Mogholi | Asia | Mongolic | Mongolic | 
+moghol | Moghol / Mogholi | Asia | Mongolic | Mongolic | historical
+daur | Daur | Asia | Mongolic | Mongolic | 
+torgut | Torgut Oirat | Asia | Oirat-Kalmyk | Mongolic | 
+
+-- bases=[307] | members=4 --
+cameroonian-pidgin | Cameroonian Pidgin | Africa | English-based | Creole | creole
+liberian-kreyol | Liberian Kreyol | Africa | English-based | Creole | creole
+merico | Merico | Africa | English-based | Creole | creole
+pichinglis | Pichinglis | Africa | English-based | Creole | creole
+
+-- bases=[320] | members=4 --
+meadow-mari | Meadow Mari | Eurasia | Meadow Mari | Uralic | 
+proto-mari | Proto-Mari | Eurasia | Proto-Mari | Uralic | proto,extinct,historical
+sernur-morkin | Sernur-Morkin | Eurasia | Meadow Mari | Uralic | 
+volga | Volga | Eurasia | Meadow Mari | Uralic | 
+
+-- bases=[334] | members=4 --
+bahnar | Bahnar | Asia | Bahnaric | Austroasiatic | 
+hre | Hre | Asia | Bahnaric | Austroasiatic | 
+mnong | Mnong | Asia | Bahnaric | Austroasiatic | 
+sedang | Sedang | Asia | Bahnaric | Austroasiatic | 
+
+-- bases=[13,18,141,434] | members=3 --
+ara | Arabic | Middle East | Arabic | Afroasiatic | 
+tunisian-arabic | Tunisian Arabic | Africa | Arabic | Afroasiatic | 
+libyan-arabic | Libyan Arabic | Africa | Arabic | Afroasiatic | 
+
+-- bases=[172] | members=3 --
+navajo | Navajo | North America | Na-Dene | Na-Dene | 
+mobilian-jargon | Mobilian Jargon | Misc | Pidgin | Pidgin | pidgin
+pidgin-delaware | Pidgin Delaware | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[179] | members=3 --
+khm-khe | Khe Khmer | Asia | Khmeric | Austroasiatic | 
+khm-northern | Northern Khmer | Asia | Khmeric | Austroasiatic | 
+khm-western | Western Khmer | Asia | Khmeric | Austroasiatic | 
+
+-- bases=[180] | members=3 --
+biao-mon | Biao Mon | East Asia | Mienic | Hmong-Mien | 
+mon-gasque | Mon├⌐gasque | Europe | Ligurian | Romance | 
+nyah-kur | Nyah Kur | Asia | Monic | Austroasiatic | 
+
+-- bases=[182] | members=3 --
+kha-lyngngam | Lyngngam | Asia | Khasic | Austroasiatic | 
+kha-pnar | Pnar | Asia | Khasic | Austroasiatic | 
+kha-war | War Khasi | Asia | Khasic | Austroasiatic | 
+
+-- bases=[193,195,304] | members=3 --
+ceb | Cebuano | Southeast Asia | Malayo-Polynesian | Austronesian | 
+iban | Iban | Southeast Asia | Malayo-Polynesian | Austronesian | 
+iranun | Iranun | Southeast Asia | Philippine | Austronesian | 
+
+-- bases=[301] | members=3 --
+ladin-lang | Ladin | Europe | Ladin | Romance | 
+cadorino | Cadorino | Europe | Ladin | Romance | 
+nones | Nones | Europe | Ladin | Romance | 
+
+-- bases=[335] | members=3 --
+bru | Bru | Asia | Katuic | Austroasiatic | 
+katu | Katu | Asia | Katuic | Austroasiatic | 
+kuy | Kuy | Asia | Katuic | Austroasiatic | 
+
+-- bases=[375] | members=3 --
+kui-dravidian | Kui (Dravidian) | Asia | South-Central Dravidian | Dravidian | 
+kuvi | Kuvi | Asia | South-Central Dravidian | Dravidian | 
+naiki | Naiki | Asia | Central Dravidian | Dravidian | 
+
+-- bases=[389] | members=3 --
+duruwa | Duruwa | Asia | Central Dravidian | Dravidian | 
+kolami | Kolami | Asia | Central Dravidian | Dravidian | 
+purepecha | Pur├⌐pecha | Mesoamerica | Pur├⌐pecha isolate | Language isolate | 
+
+-- bases=[68] | members=3 --
+hokchiu | Hokchiu | Asia | Min | Sino-Tibetan | 
+hokkien | Hokkien | East Asia | Min | Sino-Tibetan | 
+min | Min | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+
+-- bases=[1] | members=2 --
+eng | English | Europe | Germanic | Germanic | 
+international-sign | International Sign | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[106,107] | members=2 --
+proto-loloish | Proto Loloish | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | extinct,unclassified,proto,historical
+yi | Yi | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+
+-- bases=[13,195,367] | members=2 --
+tetum | Tetum | Southeast Asia | Malayo-Polynesian | Austronesian | 
+mardijker-creole | Mardijker Creole | Asia | Portuguese-based | Creole | creole
+
+-- bases=[147] | members=2 --
+kirundi | Kirundi | Africa | Bantu | Niger-Congo | 
+kinyarwanda | Kinyarwanda | Africa | Bantu | Niger-Congo | 
+
+-- bases=[16] | members=2 --
+tur | Turkish | Middle East | Oghuz Turkic | Turkic | 
+crimean-tatar | Crimean Tatar | Eurasia | Kipchak Turkic | Turkic | 
+
+-- bases=[17] | members=2 --
+gurara | Gurara language | North Africa | Berber | Afroasiatic | 
+proto-berber | Proto-Berber | Africa | Proto-Berber | Afroasiatic | proto,extinct,historical
+
+-- bases=[17,42,142] | members=2 --
+assyrian-neo-aramaic | Assyrian Neo Aramaic | Middle East | Northeastern Neo-Aramaic | Afroasiatic | 
+zakho | Zakho | Middle East | Northeastern Neo-Aramaic | Afroasiatic | 
+
+-- bases=[170] | members=2 --
+qanjobal | Q'anjob'al | Mesoamerica | Mayan | Mayan | 
+cauque-mayan-language | Cauque Mayan language | Misc | Mixed | Mixed | mixed
+
+-- bases=[181] | members=2 --
+gta | Gta | Asia | Munda | Austroasiatic | 
+ho-munda | Ho (Munda) | Asia | Munda | Austroasiatic | 
+
+-- bases=[186,187] | members=2 --
+wiyot | Wiyot | North America | Algic | Algic | extinct
+broken-oghibbeway | Broken Oghibbeway | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[193,195,367] | members=2 --
+banjar | Banjar | Southeast Asia | Malayo-Polynesian | Austronesian | 
+maranao | Maranao | Southeast Asia | Philippine | Austronesian | 
+
+-- bases=[193,304,367] | members=2 --
+filipino | Filipino | Southeast Asia | Malayo-Polynesian | Austronesian | 
+kasiguranin | Kasiguranin | Southeast Asia | Philippine | Austronesian | 
+
+-- bases=[195,304,346] | members=2 --
+berau-malay | Berau Malay | Southeast Asia | Malayo-Polynesian | Austronesian | 
+sarawakian-malay | Sarawakian Malay | Southeast Asia | Malayo-Polynesian | Austronesian | 
+
+-- bases=[20] | members=2 --
+eus | Basque | Europe | Language isolate | Language isolate | 
+basque-icelandic-pidgin | Basque-Icelandic pidgin | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[233,279] | members=2 --
+gallurese | Gallurese | Europe | Corsican | Romance | 
+sardo-corsican | Sardo-Corsican | Europe | Sardo-Corsican | Romance | 
+
+-- bases=[237] | members=2 --
+abkhaz | Abkhaz | Caucasus | Northwest Caucasian | Northwest Caucasian | 
+bzyb | Bzyb | Caucasus | Northwest Caucasian | Northwest Caucasian | 
+
+-- bases=[241] | members=2 --
+adyghe | Adyghe | Caucasus | Northwest Caucasian | Northwest Caucasian | 
+circassian | Circassian | Caucasus | Northwest Caucasian | Northwest Caucasian | 
+
+-- bases=[261] | members=2 --
+agalega-creole | Agalega Creole | Indian Ocean | French-based | Creole | creole
+mauritian-creole | Mauritian Creole | Indian Ocean | French-based | Creole | creole
+
+-- bases=[265] | members=2 --
+azerbaijani | Azerbaijani | Caucasus | Oghuz Turkic | Turkic | 
+gagauz | Gagauz | Europe | Oghuz Turkic | Turkic | 
+
+-- bases=[270] | members=2 --
+romani | Romani | Europe | Indo-Aryan | Indo-Aryan | 
+laiuse-romani | Laiuse Romani | Eurasia | Romani | Indo-Aryan | 
+
+-- bases=[291] | members=2 --
+aluku | Aluku | South America | English-based | Creole | creole
+sranan | Sranan | South America | Creole | Creole | 
+
+-- bases=[3,8] | members=2 --
+tuscan | Tuscan | Europe | Tuscan | Romance | tuscan,italo-romance
+pannonian-latin | Pannonian Latin | Europe | Latin | Romance | extinct
+
+-- bases=[300] | members=2 --
+friulian-lang | Friulian | Europe | Friulian | Romance | 
+fornes | Fornes | Europe | Friulian | Romance | 
+
+-- bases=[305] | members=2 --
+greenlandic-lang | Greenlandic | Arctic | Eskimo-Aleut | Eskimo-Aleut | 
+west-greenlandic-pidgin | West Greenlandic Pidgin | Misc | Pidgin | Pidgin | pidgin
+
+-- bases=[386] | members=2 --
+zumaya | Zumaya | Africa | Chadic | Afroasiatic | 
+east-chadic | East Chadic | Africa | Chadic | Afroasiatic | 
+
+-- bases=[42] | members=2 --
+cilician-arabic | Cilician Arabic | Middle East | Levantine | Afroasiatic | 
+cypriot-arabic | Cypriot Arabic | Middle East | Levantine | Afroasiatic | 
+
+-- bases=[421] | members=2 --
+shipibo-conibo | Shipibo-Conibo | South America | Panoan | Panoan | 
+kashinawa | Kashinawa | South America | Panoan | Panoan | 
+
+-- bases=[422] | members=2 --
+kanamari | Kanamari | South America | Arauan | Arauan | 
+warao | Warao | South America | Warao | Isolate | 
+
+-- bases=[47] | members=2 --
+tibetic | Tibetic | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+tibetan | Standard Tibetan | Asia | Bodish | Sino-Tibetan | 
+
+-- bases=[47,81,96] | members=2 --
+dzongkha | Dzongkha | Asia | Bodish | Sino-Tibetan | 
+khams-tibetan | Khams Tibetan | Asia | Bodish | Sino-Tibetan | 
+
+-- bases=[51] | members=2 --
+karenic | Karenic | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+proto-karenic | Proto-Karenic | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | extinct,unclassified,proto,historical
+
+-- bases=[55] | members=2 --
+burushaski | Burushaski | Asia | Language isolate | Language isolate | 
+tamangic | Tamangic | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+
+-- bases=[62] | members=2 --
+chin | Chin | Asia | Kuki-Chin | Sino-Tibetan | 
+kuki-chin | Kuki Chin | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+
+-- bases=[63] | members=2 --
+boro-garo | Boro Garo | Sino-Tibetan region | BoroΓÇôGaro | Sino-Tibetan | 
+bodo | Bodo | Asia | Boro-Garo | Sino-Tibetan | 
+
+-- bases=[64,105] | members=2 --
+bola | Bola | Sino-Tibetan region | Burmish | Sino-Tibetan | 
+jingpho | Jingpho | Sino-Tibetan region | Sino-Tibetan | Sino-Tibetan | 
+
+-- bases=[9,425] | members=2 --
+western-estonian | Western Estonian | Eurasia | North Estonian | Uralic | 
+leivu | Leivu | Eurasia | South Estonian | Uralic |
+

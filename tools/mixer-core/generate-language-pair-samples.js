@@ -473,6 +473,43 @@ function generateBlendedName(contexts, rng, opts) {
       guard++;
     }
 
+    const hasMultipleIsos = new Set(contexts.map(c => c.iso)).size > 1;
+    if (
+      hasMultipleIsos &&
+      segs.length &&
+      new Set(segs.map(s => s.ctx.iso)).size < 2 &&
+      segs.length < maxSegments
+    ) {
+      const usedIso = segs[0].ctx.iso;
+      const candidates = contexts.filter(c => c.iso !== usedIso);
+      const ctx = candidates.length ? ra(candidates, rng) : ra(contexts, rng);
+      const stats = ctx.stats;
+      const base = ctx.base;
+      let segMean;
+      if (stats && typeof stats.mean === "number") {
+        segMean = stats.mean;
+      } else if (typeof base.min === "number" && typeof base.max === "number") {
+        segMean = (base.min + base.max) / 2;
+      } else {
+        segMean = 4;
+      }
+      const jitter = (rng() - 0.5) * 2;
+      const jitteredMean = Math.max(2, segMean + jitter);
+      const baseMax = typeof base.max === "number" ? base.max : Math.round(jitteredMean + 4);
+      const segMin = Math.max(2, Math.min(Math.round(jitteredMean), baseMax));
+      const segMax = Math.max(segMin + 1, Math.min(baseMax, Math.round(jitteredMean + 2)));
+      const segText = generatePlainNameFromContext(ctx, rng, {
+        min: segMin,
+        max: segMax,
+        dupl: base.d || ""
+      });
+      if (segText) {
+        const shape = getSegmentShape(segText, ctx);
+        segs.push({text: segText, ctx, shape});
+        total += segText.length;
+      }
+    }
+
     if (!segs.length) {
       const ctx = ra(contexts, rng);
       const base = ctx.base;
@@ -731,12 +768,6 @@ function main() {
     console.log("");
   }
 
-  console.log("=== Full language pair mix scan ===");
-  console.log("Catalog entries considered:", filteredEntries.length);
-  console.log("Entries with usable bases:", usableEntries.length);
-  console.log("Pairs evaluated:", evaluatedPairs, "/", totalPairsPossible);
-  console.log("Pairs with monolingual-only outputs:", failures.length);
-  console.log("");
   const neverMixed = Array.from(isoMixStats.entries())
     .filter(([, stats]) => stats.tested && !stats.mixed)
     .map(([iso]) => iso)
@@ -749,6 +780,12 @@ function main() {
     }
     console.log("");
   }
+  console.log("=== Full language pair mix scan ===");
+  console.log("Catalog entries considered:", filteredEntries.length);
+  console.log("Entries with usable bases:", usableEntries.length);
+  console.log("Pairs evaluated:", evaluatedPairs, "/", totalPairsPossible);
+  console.log("Pairs with monolingual-only outputs:", failures.length);
+  console.log("");
   console.log("Total monolingual pair failures:", failures.length);
 }
 

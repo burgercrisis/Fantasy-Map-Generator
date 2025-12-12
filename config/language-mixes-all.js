@@ -2034,6 +2034,13 @@
     "family": "Chadic"
   },
   {
+    "name": "Kunama",
+    "iso": "kunama",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Kunama"
+  },
+  {
     "name": "Kutto language",
     "iso": "kutto-language",
     "region": "Africa",
@@ -2175,19 +2182,19 @@
   },
   {
     "name": "Malagasy",
-    "iso": "malagasy",
-    "region": "Africa",
-    "category": "Austronesian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language",
-    "family": "Austronesian"
-  },
-  {
-    "name": "Malagasy",
     "iso": "mlg",
     "region": "Africa",
     "category": "Austronesian",
     "family": "Malayo-Polynesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language"
+  },
+  {
+    "name": "Malagasy (macro entry)",
+    "iso": "malagasy",
+    "region": "Africa",
+    "category": "Austronesian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language",
+    "family": "Malayo-Polynesian"
   },
   {
     "name": "Malgbe language",
@@ -4802,6 +4809,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Bargut",
+    "iso": "bargut",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
     "iso": "bargut-buryat",
     "name": "Bargut Buryat",
     "region": "Asia",
@@ -4945,7 +4959,7 @@
     "family": "Baoanic"
   },
   {
-    "iso": "bonan",
+    "iso": "bonan-manegacha-dialect",
     "name": "Bonan (Manegacha)",
     "region": "Asia",
     "category": "Mongolic",
@@ -5076,7 +5090,7 @@
     "family": "Nicobarese"
   },
   {
-    "name": "Cebuano",
+    "name": "Cebuano (native-speakers subset)",
     "iso": "cebuano-lang",
     "region": "Asia",
     "category": "Austronesian",
@@ -5393,6 +5407,13 @@
     "family": "Southern Mongolic"
   },
   {
+    "name": "Ekherit Bulagat Buryat",
+    "iso": "ekherit-bulagat-buryat",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
     "iso": "ekhirit-bulagat-buryat",
     "name": "Ekhirit-Bulagat Buryat",
     "region": "Asia",
@@ -5605,12 +5626,16 @@
     "family": "Austronesian"
   },
   {
-    "name": "Ilocano",
-    "iso": "ilocano",
+    "name": "Ilocano (native-speakers subset)",
+    "iso": "ilocano-native-speakers",
     "region": "Asia",
     "category": "Austronesian",
     "family": "Austronesian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ilocano_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ilocano_language",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Indo-Portuguese",
@@ -6025,6 +6050,13 @@
     "family": "Mongolic"
   },
   {
+    "name": "Khorchin Mongol (alias)",
+    "iso": "khorchin-mongol",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
     "iso": "khori-buryat",
     "name": "Khori Buryat",
     "region": "Asia",
@@ -6377,6 +6409,13 @@
     "region": "Asia",
     "category": "Japonic",
     "family": "Southern Ryukyuan"
+  },
+  {
+    "name": "Macro-Zhuang",
+    "iso": "macro-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Zhuang"
   },
   {
     "name": "Madiya",
@@ -6948,11 +6987,12 @@
     "family": "Oirat-Kalmyk"
   },
   {
-    "iso": "oirat",
+    "iso": "oirat-mongolian",
     "name": "Oirat Mongolian",
     "region": "Asia",
     "category": "Mongolic",
-    "family": "Oirat-Kalmyk"
+    "family": "Oirat-Kalmyk",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oirat_language"
   },
   {
     "name": "Okinawan",
@@ -7590,7 +7630,7 @@
     "lexifier": "Malay"
   },
   {
-    "name": "Shan",
+    "name": "Shan (macro entry)",
     "iso": "shan",
     "region": "Asia",
     "category": "Tai-Kadai",
@@ -7800,7 +7840,7 @@
     "lexifier": "Malay"
   },
   {
-    "name": "Sundanese",
+    "name": "Sundanese (native-speakers subset)",
     "iso": "sundanese-lang",
     "region": "Asia",
     "category": "Austronesian",
@@ -7924,6 +7964,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Tai Song",
+    "iso": "tai-song",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai"
+  },
+  {
     "name": "Tai Thanh",
     "iso": "tai-thanh",
     "region": "Asia",
@@ -7936,6 +7983,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Tai Yao",
+    "iso": "tai-yao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai"
   },
   {
     "name": "Tai Yo (Nyaw)",
@@ -9596,7 +9650,7 @@
     "family": "Bahengic"
   },
   {
-    "name": "Hmong",
+    "name": "Hmong (macro entry)",
     "iso": "hmong",
     "region": "East Asia",
     "category": "Hmong-Mien",
@@ -14681,6 +14735,14 @@
     "family": "Italian"
   },
   {
+    "name": "Standard Swedish",
+    "iso": "swe",
+    "category": "Germanic",
+    "region": "Europe",
+    "family": "North Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Swedish_language"
+  },
+  {
     "name": "Surmiran",
     "iso": "surmiran",
     "region": "Europe",
@@ -14710,18 +14772,15 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Swabian_German"
   },
   {
-    "name": "Swedish",
-    "iso": "swe",
+    "name": "Swedish (native-speakers subset)",
+    "iso": "swedish-native-speakers",
     "category": "Germanic",
     "region": "Europe",
-    "family": "North Germanic"
-  },
-  {
-    "name": "Swedish",
-    "iso": "swe",
-    "category": "Germanic",
-    "region": "Europe",
-    "family": "Germanic"
+    "family": "Germanic",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Swiss German",
@@ -19793,7 +19852,7 @@
     "family": "Kainantu–Goroka"
   },
   {
-    "name": "Javanese",
+    "name": "Javanese (macro entry)",
     "iso": "javanese",
     "region": "Pacific",
     "category": "Austronesian",
@@ -20254,7 +20313,7 @@
     ]
   },
   {
-    "name": "Madurese",
+    "name": "Madurese (macro entry)",
     "iso": "madurese",
     "region": "Pacific",
     "category": "Austronesian",
@@ -20333,11 +20392,14 @@
   },
   {
     "name": "Maori",
-    "iso": "maori",
+    "iso": "maori-ascii",
     "region": "Pacific",
     "category": "Polynesian",
     "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
-    "family": "Polynesian"
+    "family": "Polynesian",
+    "tags": [
+      "alias"
+    ]
   },
   {
     "name": "Māori",
@@ -22528,7 +22590,7 @@
     "family": "Sino-Tibetan"
   },
   {
-    "name": "Meitei",
+    "name": "Meitei (macro entry)",
     "iso": "meitei",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
@@ -23692,12 +23754,16 @@
     "family": "Cariban"
   },
   {
-    "name": "Khasi",
-    "iso": "kha",
+    "name": "Khasi (native-speakers subset)",
+    "iso": "kha-native-speakers",
     "region": "South Asia",
     "category": "Austroasiatic",
     "family": "Khasic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Meitei",
@@ -23916,12 +23982,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Minangkabau_language"
   },
   {
-    "name": "Mon",
-    "iso": "mnw",
+    "name": "Mon (native-speakers subset)",
+    "iso": "mnw-native-speakers",
     "region": "Southeast Asia",
     "category": "Austroasiatic",
     "family": "Monic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mon_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mon_language",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Rakhine",

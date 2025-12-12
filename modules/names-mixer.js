@@ -83,7 +83,34 @@
     return (c >= "A" && c <= "Z") || (c >= "a" && c <= "z");
   }
 
-  const CLICKS = "";
+  const CLICKS = "ǀǁǂǃ";
+  const CLICK_SMOOTH_PREFIXES = ["h", "ʼ", "kh", "qh", "sk", "ts", "tl", "ng", "x", "g", "n"];
+  const CLICK_BRIDGE_VOWELS = ["a", "e", "i", "o", "u", "aa", "oa", "ua", "ia", "ai", "ei", "ao"];
+  const CLICK_SUFFIXES = ["ka", "na", "sa", "sha", "sa", "ra", "ma", "ta", "la", "xa", "na", "za"];
+  const CLICK_ACCENTS = [
+    ["a", "á"],
+    ["e", "é"],
+    ["i", "í"],
+    ["o", "ó"],
+    ["u", "ú"],
+    ["a", "â"],
+    ["o", "ô"]
+  ];
+
+  function pickRandom(arr) {
+    if (!Array.isArray(arr) || !arr.length) return "";
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  function applyAccent(str) {
+    for (const [plain, accented] of CLICK_ACCENTS) {
+      const idx = str.indexOf(plain);
+      if (idx !== -1) {
+        return str.slice(0, idx) + accented + str.slice(idx + plain.length);
+      }
+    }
+    return str;
+  }
 
   function isClickHeavyLanguage(blob) {
     const names = (blob || "")
@@ -145,29 +172,62 @@
   function softenClickRuns(segs) {
     if (!Array.isArray(segs) || segs.length < 2) return;
 
-    for (let i = 1; i < segs.length; i++) {
-      const prev = segs[i - 1];
-      const curr = segs[i];
-      if (!prev || !curr) continue;
-      if (!prev.shape || !curr.shape) continue;
-      if (!prev.shape.isClickSegment || !curr.shape.isClickSegment) continue;
+    const appendWithConnector = (base, addition) => {
+      if (!addition) return base;
+      if (!base) return addition;
+      const connector = pickRandom(["", "", "-", " ", "’"]);
+      if (!connector) return base + addition;
+      if (connector.trim() === "-" || connector.trim() === "’") return base + connector + addition;
+      return `${base}${connector}${addition.charAt(0).toUpperCase()}${addition.slice(1)}`;
+    };
 
-      if (Math.random() < 0.25) continue;
-
-      const stripped = curr.text.replace(/^[ǀǁǂǃ]+/u, "");
-      if (!stripped) continue;
-
-      let softened;
-      if (Math.random() < 0.4) {
-        softened = stripped[0].toUpperCase() + stripped.slice(1);
-      } else {
-        softened = stripped[0].toLowerCase() + stripped.slice(1);
+    let run = 0;
+    for (let i = 0; i < segs.length; i++) {
+      const seg = segs[i];
+      if (!seg || !seg.shape) {
+        run = 0;
+        continue;
       }
 
-      segs[i] = Object.assign({}, curr, {
+      if (!seg.shape.isClickSegment) {
+        run = 0;
+        continue;
+      }
+
+      run++;
+      if (run === 1 && Math.random() < 0.5) continue;
+
+      const stripped = seg.text.replace(/^[ǀǁǂǃ]+/u, "");
+      if (!stripped) continue;
+
+      let softenedCore = stripped;
+      if (Math.random() < 0.5) softenedCore = applyAccent(softenedCore);
+      if (run >= 3 && softenedCore.length > 3 && Math.random() < 0.6) {
+        const splitPoint = 1 + Math.floor(Math.random() * Math.max(1, softenedCore.length - 2));
+        const bridge = pickRandom(CLICK_BRIDGE_VOWELS);
+        softenedCore = `${softenedCore.slice(0, splitPoint)}${bridge}${softenedCore.slice(splitPoint)}`;
+      }
+
+      const prefix = Math.random() < 0.75 ? pickRandom(CLICK_SMOOTH_PREFIXES) : "";
+      const bridgeVowel = Math.random() < 0.6 ? pickRandom(CLICK_BRIDGE_VOWELS) : "";
+      const suffix = Math.random() < 0.5 ? pickRandom(CLICK_SUFFIXES) : "";
+
+      let softened = "";
+      softened = appendWithConnector(softened, prefix);
+      softened = appendWithConnector(softened, bridgeVowel);
+      softened = appendWithConnector(softened, softenedCore);
+      if (suffix) softened = appendWithConnector(softened, suffix);
+
+      if (Math.random() < 0.3) {
+        softened = softened.charAt(0).toUpperCase() + softened.slice(1);
+      }
+
+      segs[i] = Object.assign({}, seg, {
         text: softened,
-        shape: getSegmentShape(softened, curr.ctx)
+        shape: getSegmentShape(softened, seg.ctx)
       });
+
+      run = Math.random() < 0.25 ? run : 0;
     }
   }
 

@@ -2156,12 +2156,12 @@
     "family": "Chadic"
   },
   {
-    "name": "Malagasy",
+    "name": "Malagasy (macro entry)",
     "iso": "malagasy",
     "region": "Africa",
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language",
-    "family": "Austronesian"
+    "family": "Malayo-Polynesian"
   },
   {
     "name": "Maltese",
@@ -4140,7 +4140,7 @@
     "family": "Boro-Garo"
   },
   {
-    "iso": "bonan",
+    "iso": "bonan-manegacha-dialect",
     "name": "Bonan (Manegacha)",
     "region": "Asia",
     "category": "Mongolic",
@@ -4271,7 +4271,7 @@
     "family": "Nicobarese"
   },
   {
-    "name": "Cebuano",
+    "name": "Cebuano (native-speakers subset)",
     "iso": "cebuano-lang",
     "region": "Asia",
     "category": "Austronesian",
@@ -6096,11 +6096,12 @@
     "family": "Bahnaric"
   },
   {
-    "iso": "oirat",
+    "iso": "oirat-mongolian",
     "name": "Oirat Mongolian",
     "region": "Asia",
     "category": "Mongolic",
-    "family": "Oirat-Kalmyk"
+    "family": "Oirat-Kalmyk",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oirat_language"
   },
   {
     "name": "Okinawan",
@@ -6714,7 +6715,7 @@
     "lexifier": "Malay"
   },
   {
-    "name": "Shan",
+    "name": "Shan (macro entry)",
     "iso": "shan",
     "region": "Asia",
     "category": "Tai-Kadai",
@@ -6900,7 +6901,7 @@
     "lexifier": "Malay"
   },
   {
-    "name": "Sundanese",
+    "name": "Sundanese (native-speakers subset)",
     "iso": "sundanese-lang",
     "region": "Asia",
     "category": "Austronesian",
@@ -8708,7 +8709,7 @@
     "family": "Bahengic"
   },
   {
-    "name": "Hmong",
+    "name": "Hmong (macro entry)",
     "iso": "hmong",
     "region": "East Asia",
     "category": "Hmong-Mien",
@@ -13735,11 +13736,12 @@
     "family": "Spanish"
   },
   {
-    "name": "Swedish",
+    "name": "Standard Swedish",
     "iso": "swe",
     "category": "Germanic",
     "region": "Europe",
-    "family": "North Germanic"
+    "family": "North Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Swedish_language"
   },
   {
     "name": "Norwegian",
@@ -13794,11 +13796,15 @@
     "family": "Romansh"
   },
   {
-    "name": "Swedish",
-    "iso": "swe",
+    "name": "Swedish (native-speakers subset)",
+    "iso": "swedish-native-speakers",
     "category": "Germanic",
     "region": "Europe",
-    "family": "Germanic"
+    "family": "Germanic",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Swiss Italian",
@@ -18819,7 +18825,7 @@
     "family": "Kainantu–Goroka"
   },
   {
-    "name": "Javanese",
+    "name": "Javanese (macro entry)",
     "iso": "javanese",
     "region": "Pacific",
     "category": "Austronesian",
@@ -19272,7 +19278,7 @@
     ]
   },
   {
-    "name": "Madurese",
+    "name": "Madurese (macro entry)",
     "iso": "madurese",
     "region": "Pacific",
     "category": "Austronesian",
@@ -19960,11 +19966,14 @@
   },
   {
     "name": "Maori",
-    "iso": "maori",
+    "iso": "maori-ascii",
     "region": "Pacific",
     "category": "Polynesian",
     "wikipedia": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
-    "family": "Polynesian"
+    "family": "Polynesian",
+    "tags": [
+      "alias"
+    ]
   },
   {
     "name": "Hawaiian",
@@ -21658,7 +21667,7 @@
     "family": "Sino-Tibetan"
   },
   {
-    "name": "Meitei",
+    "name": "Meitei (macro entry)",
     "iso": "meitei",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
@@ -22730,12 +22739,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Malagasy_language"
   },
   {
-    "name": "Ilocano",
-    "iso": "ilocano",
+    "name": "Ilocano (native-speakers subset)",
+    "iso": "ilocano-native-speakers",
     "region": "Asia",
     "category": "Austronesian",
     "family": "Austronesian",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ilocano_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ilocano_language",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Hiligaynon",
@@ -22786,12 +22799,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Karen_languages"
   },
   {
-    "name": "Mon",
-    "iso": "mnw",
+    "name": "Mon (native-speakers subset)",
+    "iso": "mnw-native-speakers",
     "region": "Southeast Asia",
     "category": "Austroasiatic",
     "family": "Monic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mon_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mon_language",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Cham",
@@ -22954,12 +22971,16 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Meitei_language"
   },
   {
-    "name": "Khasi",
-    "iso": "kha",
+    "name": "Khasi (native-speakers subset)",
+    "iso": "kha-native-speakers",
     "region": "South Asia",
     "category": "Austroasiatic",
     "family": "Khasic",
-    "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language"
+    "wikipedia": "https://en.wikipedia.org/wiki/Khasi_language",
+    "tags": [
+      "wikipedia-native-speakers",
+      "subset"
+    ]
   },
   {
     "name": "Aleut",
@@ -24132,6 +24153,55 @@
     "category": "Afroasiatic",
     "wikipedia": "https://en.wikipedia.org/wiki/Libyan_Arabic",
     "family": "Arabic"
+  },
+  {
+    "name": "Kunama",
+    "iso": "kunama",
+    "region": "Africa",
+    "category": "Nilo-Saharan",
+    "family": "Kunama"
+  },
+  {
+    "name": "Bargut",
+    "iso": "bargut",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Ekherit Bulagat Buryat",
+    "iso": "ekherit-bulagat-buryat",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Khorchin Mongol (alias)",
+    "iso": "khorchin-mongol",
+    "region": "Asia",
+    "category": "Mongolic",
+    "family": "Mongolic"
+  },
+  {
+    "name": "Macro-Zhuang",
+    "iso": "macro-zhuang",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Zhuang"
+  },
+  {
+    "name": "Tai Song",
+    "iso": "tai-song",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai"
+  },
+  {
+    "name": "Tai Yao",
+    "iso": "tai-yao",
+    "region": "Asia",
+    "category": "Tai-Kadai",
+    "family": "Tai"
   },
   {
     "name": "Crimean Tatar",

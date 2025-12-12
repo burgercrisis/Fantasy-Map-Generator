@@ -1,0 +1,49 @@
+﻿List title: Wikipedia: List of languages by number of phonemes ΓÇô full article list
+Source: https://en.wikipedia.org/wiki/List_of_languages_by_number_of_phonemes
+Total items: 72
+  considered: 72
+  skipped:    0
+
+Coverage summary (considered items only):
+  fully wired:       39 (54.2% of considered)
+  missing catalog:   0
+  missing map:       0
+  missing both:      0
+  unmatched name:    33
+  ambiguous matches: 0
+  Nonunique Bases:   64
+
+Unmatched items (no iso / name not found):
+  - Ω₧îAreΩ₧îare ΓÇô No iso provided and name did not match any catalog entry
+  - Bintulu ΓÇô No iso provided and name did not match any catalog entry
+  - Bukawa ΓÇô No iso provided and name did not match any catalog entry
+  - C├¿muh├« ΓÇô No iso provided and name did not match any catalog entry
+  - Cheke Holo ΓÇô No iso provided and name did not match any catalog entry
+  - Classical Tibetan ΓÇô No iso provided and name did not match any catalog entry
+  - Dawan ΓÇô No iso provided and name did not match any catalog entry
+  - Enggano ΓÇô No iso provided and name did not match any catalog entry
+  - Garo ΓÇô No iso provided and name did not match any catalog entry
+  - Gilbertese ΓÇô No iso provided and name did not match any catalog entry
+  - Hamer ΓÇô No iso provided and name did not match any catalog entry
+  - Kelabit ΓÇô No iso provided and name did not match any catalog entry
+  - Kilivila ΓÇô No iso provided and name did not match any catalog entry
+  - Kosraean ΓÇô No iso provided and name did not match any catalog entry
+  - Lahu ΓÇô No iso provided and name did not match any catalog entry
+  - Lauje ΓÇô No iso provided and name did not match any catalog entry
+  - Lisu ΓÇô No iso provided and name did not match any catalog entry
+  - Lonwolwol ΓÇô No iso provided and name did not match any catalog entry
+  - Mongsen Ao ΓÇô No iso provided and name did not match any catalog entry
+  - Muna ΓÇô No iso provided and name did not match any catalog entry
+  - Narom ΓÇô No iso provided and name did not match any catalog entry
+  - Nemi ΓÇô No iso provided and name did not match any catalog entry
+  - Nuaulu ΓÇô No iso provided and name did not match any catalog entry
+  - Nuer ΓÇô No iso provided and name did not match any catalog entry
+  - Sa╩╝ban ΓÇô No iso provided and name did not match any catalog entry
+  - Saaroa ΓÇô No iso provided and name did not match any catalog entry
+  - Thao ΓÇô No iso provided and name did not match any catalog entry
+  - Ubykh ΓÇô No iso provided and name did not match any catalog entry
+  - Vaeakau-Taumako ΓÇô No iso provided and name did not match any catalog entry
+  - Waimoa ΓÇô No iso provided and name did not match any catalog entry
+  - Wambule ΓÇô No iso provided and name did not match any catalog entry
+  - Wayan ΓÇô No iso provided and name did not match any catalog entry
+  - Wolio ΓÇô No iso provided and name did not match any catalog entry
