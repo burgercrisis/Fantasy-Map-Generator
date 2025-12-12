@@ -5350,6 +5350,13 @@
     "family": "Bahnaric"
   },
   {
+    "name": "Chulung",
+    "iso": "cur",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "iso": "classical-mongolian",
     "name": "Classical Mongolian",
     "region": "Asia",
@@ -5515,6 +5522,13 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Dogri_language",
     "family": "Western Pahari"
+  },
+  {
+    "name": "Dolpo",
+    "iso": "dre",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
   },
   {
     "iso": "dongxiang",
@@ -6949,6 +6963,13 @@
     "lexifier": "Malay"
   },
   {
+    "name": "Manang (Manange)",
+    "iso": "nmm",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
     "name": "Manchu",
     "iso": "manchu",
     "region": "Asia",
@@ -7969,6 +7990,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Pearic"
+  },
+  {
+    "name": "Saam",
+    "iso": "raq",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Sabah Malay",

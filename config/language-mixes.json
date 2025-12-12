@@ -25143,5 +25143,33 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Doteli"
+  },
+  {
+    "name": "Manang (Manange)",
+    "iso": "nmm",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
+    "name": "Saam",
+    "iso": "raq",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Chulung",
+    "iso": "cur",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Dolpo",
+    "iso": "dre",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
   }
 ]
