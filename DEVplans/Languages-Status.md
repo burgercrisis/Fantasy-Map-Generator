@@ -15,6 +15,12 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 - ✅ **2025-12-12 language integration table (decision recorded):** `tools/mixer-core/generate-language-integration-table.js` writes `tools/mixer-diagnostics/language-integration-table.(tsv|json)` and `tools/mixer-diagnostics/wiki-only-language-items.(tsv|json)`. Per decision, the main table’s `wiki_lists*` columns remain **devplan-driven** (registry in `DEVplans/Languages-Status.md`), while the wiki-only output scans **all** `tools/mixer-meta/wikipedia*.json` files to track the backlog.
 
+- ✅ **2025-12-12 Wikipedia registry refresh (one command):** `pnpm run mixer:wiki-refresh` auto-registers any missing `tools/mixer-meta/wikipedia*.json` into §8.99 and then refreshes all per-list snapshot blocks across the registry, including a persisted **Base-set uniqueness details** subsection per list.
+
+- ✅ **2025-12-12 Wikipedia base-uniqueness format (decision recorded):** Per-list **Base-set uniqueness details** in the devplan remain **compact** (counts + histogram + clustered ISO summary), not a full cluster-by-cluster breakdown.
+
+- ✅ **2025-12-12 workflow guardrail (git safety):** Added explicit rules in `.windsurf/rules/languages-wiki.md` to forbid destructive git operations without explicit user approval and to prefer commit-splitting (interactive staging / stage-hunks) over reverting when the working tree is large.
+
 - ✅ **2025-12-12 Wikipedia Uralic full-list pass (historical snapshot):** Claimed `tools/mixer-meta/wikipedia-uralic-languages-full.json` in `tools/mixer-diagnostics/_wiki_multiagent_claims.json` and ran the per-list reports. Earlier snapshot (prior to the coverage pass below): `fully wired=183` (considered), `unmatched=74`, `Nonunique Bases=257` (with `unique bases=106`, `clustered bases=77). Archived evidence: `tools/mixer-diagnostics/tmp/.tmp-uralic-coverage-utf8.txt`.
 
 - ✅ **2025-12-12 Wikipedia Uralic full-list coverage pass (verified):** `tools/mixer-meta/wikipedia-uralic-languages-full.json` now resolves to `unmatched=0` (all non-skip list items are mapped to real catalog ISOs), and the §8.31b snapshot is refreshed via `update-wikipedia-list-coverage-in-devplan` (no hand-edited counts). In parallel, a first uniqueness burn-down batch split the Northern Sami `[274]` cluster, declustered the Komi-Permyak `[426]` lect cluster into unique `[426,...]` mixes, reduced the Hungarian `[15]` mega-cluster to a small remainder, and peeled a first mini-batch of Finnish dialect lects off the massive Finnic `[9]` hub by assigning unique Finnic-anchored mixes.
@@ -971,13 +977,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 175
+  - `fully wired:` 176
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 163
+  - `Nonunique Bases:` 168
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -1059,13 +1065,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 23
+  - `fully wired:` 132
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 0
+  - `unmatched:` 111
   - `ambiguous:` 0
-  - `Nonunique Bases:` 22
+  - `Nonunique Bases:` 235
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
@@ -1272,7 +1278,17 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-pakistan-established.json`
 
-- **Status tier:** **In progress (full table)** – use this JSON as the authoritative representation of the Pakistan "Established languages" table and as a checklist for ensuring each such lect is represented in the catalog and mixer-map.
+- ✅ **Status tier:** **Complete**
+- **Last run:** 2025-12-12
+
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 78 (100.0%)
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `skipped:` 1
 
 ### 8.18 Global language families – macro classification snapshot
 
@@ -1333,13 +1349,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 144
+  - `fully wired:` 38
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 0
+  - `unmatched:` 4
   - `ambiguous:` 0
-  - `Nonunique Bases:` 140
+  - `Nonunique Bases:` 42
 
 ### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
 
@@ -1405,13 +1421,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (full article)** – this JSON tracks every language row in the current Wikipedia phoneme-count list; since it is typological, there is no separate uniqueness-target here beyond the global base-uniqueness rules.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 41
+  - `fully wired:` 72
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 31
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 67
+  - `Nonunique Bases:` 65
+
+- ✅ **2025-12-12 status:** Coverage for this list is now fully wired (**72/72**). Added missing ISO bindings in `tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json` and appended the required catalog + mixer-map entries (append-only invariant preserved). Suite + devplan snapshot refreshed.
 
 ### 8.34 Mutually intelligible languages – seed subset (view over full list)
 
@@ -1442,8 +1460,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 101
-  - **Coverage notes (2025-12-11):** all 107 mutually intelligible list items are now fully wired in catalog + mixer. Previously-unmatched Akha/Honi/Hani, Dungan/Central Plains Mandarin, Northeastern Neo-Aramaic, and the Zakho Jewish/Christian Neo-Aramaic pair now resolve via explicit `iso` mappings pointing at existing `hani`, `mandarin`, and `assyrian-neo-aramaic`, plus a new `zakho` mixer entry that shares the `assyrian-neo-aramaic` base mix.
+  - `Nonunique Bases:` 96
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 98
+  - `clustered bases:` 26
+  - `clustered full items:` 26
+  - `cluster size histogram:` size2=17, size3=5, size4+=4
+  - `clustered isos:` aht(37), eyak(37), kalaallisut(37), tfn(37), arp(3), cho(3), cree(3), navajo(3), purepecha(3), ayo(2), cay(2), cro(2), ems(2), gub(2), gum(2), iku(2), kanamari(2), kashinawa(2), kwi(2), mixe(2), mohawk(2), mot(2), qanjobal(2), wayuu(2), yup(2), zoq(2)
 
 ### 8.35 Official languages by institution – seed subset (view over full list)
 
@@ -1466,7 +1489,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-list-official-languages-by-institution-full.json`
 
-- **Status tier:** **In progress (full article)** – this JSON tracks all languages mentioned in the official-languages-by-institution article; uniqueness and coverage are enforced via the usual mixer rules, with this list acting as a high-level coverage sanity check for globally central standards.
+- **Status tier:** ✅ **Complete (full article)** – verified `fully wired=34/34` and list-base-set uniqueness now reports `clustered bases=0` for the list’s full items.
 - **Snapshot from last run (all list items):**
   - `fully wired:` 34
   - `missing catalog:` 0
@@ -1474,7 +1497,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 34
+  - `Nonunique Bases:` 33
 
 - **Uniqueness notes:** Under the stricter "linguistically defensible" policy, any `Nonunique Bases` count here indicates remaining uniqueness debt in the list items (excluding any `skip: true` entries). Large lexifiers or regional hubs may still appear as **ingredients** in mixes, but identical shared `bases[]` arrays among distinct non-skipped languages are not treated as acceptable end state.
 
@@ -1497,9 +1520,415 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 67
+  - `Nonunique Bases:` 66
 
 - **Uniqueness notes:** Under the stricter "linguistically defensible" policy, any `Nonunique Bases` count here indicates remaining uniqueness debt in the list items (excluding any `skip: true` entries). Lexifiers and regional hubs may still appear as **ingredients** in mixes, but identical shared `bases[]` arrays among distinct non-skipped languages are not treated as acceptable end state.
 
 ### 9. Mixer restore snapshots
  - ✅ **2025-12-12 verification:** Current `config/language-mixer-map.json` and `config/language-mixes.json` contain all `iso` entries from the `config/*before-*.json` snapshot files (`language-mixer-map.before-restore.json`, `language-mixer-map.before-fix.json`, `language-mixes.before-restore.json`); snapshot ISO diff shows `missing=0` for each.
+
+
+### 8.99 Auto-registered wiki lists (untriaged)
+
+- **Status:** Auto-populated registry entries for wiki JSONs that exist on disk but have not been triaged into the curated sections above.
+- **Note:** Snapshot blocks are maintained by tooling; do not hand-edit counts.
+
+#### Wikipedia: Australian creoles
+
+- **JSON file:** `tools/mixer-meta/wikipedia-australian-creoles.json`
+- **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 1
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 1
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 34
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Australian language families and isolates
+
+- **JSON file:** `tools/mixer-meta/wikipedia-australian-families-and-isolates.json`
+- **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 1
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 31
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 31
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 1
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Australian language groupings - Bowern (2011)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-australian-languages-bowern-2011.json`
+- **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 1
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 20
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 20
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 1
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-australian-languages-living-2019.json`
+- **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 46
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 2
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 47
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 43
+  - `clustered bases:` 3
+  - `clustered full items:` 3
+  - `cluster size histogram:` size2=0, size3=0, size4+=3
+  - `clustered isos:` kunwinjku(5), maung(5), nunggubuyu(5)
+
+#### Wikipedia: Formosan language families - Blust (1999)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-formosan-languages-blust-1999.json`
+- **Source:** https://en.wikipedia.org/wiki/Formosan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 22
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 22
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Formosan language families - Li (2008)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-formosan-languages-li-2008.json`
+- **Source:** https://en.wikipedia.org/wiki/Formosan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 5
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 22
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 27
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 5
+  - `clustered full items:` 5
+  - `cluster size histogram:` size2=0, size3=0, size4+=5
+  - `clustered isos:` bunun(13), paiwan(13), puyuma(13), ssf(13), sxr(13)
+
+#### Wikipedia: Formosan and Austronesian branches - Sagart (2004, 2021)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-formosan-languages-sagart-2004-2021.json`
+- **Source:** https://en.wikipedia.org/wiki/Formosan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 6
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 16
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 22
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 6
+  - `clustered full items:` 6
+  - `cluster size histogram:` size2=0, size3=0, size4+=6
+  - `clustered isos:` bunun(13), paiwan(13), puyuma(13), rukai(13), ssf(13), sxr(13)
+
+#### Wikipedia: List of constructed languages  seed subset
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-constructed-languages.json`
+- **Source:** https://en.wikipedia.org/wiki/List_of_constructed_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 7
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 7
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Creole, mixed, and pidgin languages  seed subset
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-creoles-and-mixed-languages.json`
+- **Source:** https://en.wikipedia.org/wiki/List_of_creole_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 8
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 8
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 8
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Creole, mixed, and pidgin languages  seed subset
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-creoles-and-mixed-languages.utf8.json`
+- **Source:** https://en.wikipedia.org/wiki/List_of_creole_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 8
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 8
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 8
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: List of lingua francas  seed subset
+
+- **JSON file:** `tools/mixer-meta/wikipedia-list-lingua-francas.json`
+- **Source:** https://en.wikipedia.org/wiki/List_of_lingua_francas
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 10
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 9
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 10
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Malayo-Polynesian subgroups - Blust (1999)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-malayo-polynesian-subgroups-blust-1999.json`
+- **Source:** https://en.wikipedia.org/wiki/Malayo-Polynesian_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 0
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Oceanic subgroups – Blust (1999)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-oceanic-languages-blust-1999.json`
+- **Source:** https://en.wikipedia.org/wiki/Oceanic_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 0
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families - Foley (2003)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-foley-2003.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 11
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 11
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families and isolates - Glottolog 4.0
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-glottolog-4.0.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 4
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 130
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 134
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 4
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families and isolates - Palmer (2018)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-palmer-2018.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 2
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 77
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 79
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 2
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families - Ross (2005)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-ross-2005.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 32
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 32
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families - Usher & Suter (2024)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-usher-suter-2024.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 1
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 26
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 27
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 1
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families - Wichmann (2013)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-wichmann-2013.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 8
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 98
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 106
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 8
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
+
+#### Wikipedia: Papuan language families - Wurm (1975)
+
+- **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-wurm-1975.json`
+- **Source:** https://en.wikipedia.org/wiki/Papuan_languages
+- **Status tier:** **Untriaged (auto-registered)**
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 0
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 19
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 19
+- **Base-set uniqueness details (full items):**
+  - `unique bases:` 0
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
