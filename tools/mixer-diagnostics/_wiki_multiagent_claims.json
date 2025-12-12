@@ -67,8 +67,10 @@
       "workerId": 15,
       "target": "tools/mixer-meta/wikipedia-languages-of-bangladesh.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-12T15:05:00Z"
+      "status": "complete",
+      "startedAt": "2025-12-12T15:05:00Z",
+      "finishedAt": "2025-12-12T23:12:00Z",
+      "note": "Coverage fully wired (considered=39, skipped=3, unmatched=0, missing=0). Per-list base-set uniqueness burned down to clustered bases=0; run-language-mixer-suite green; check-language-mixer-coverage 0/0."
     },
     {
       "workerId": 16,

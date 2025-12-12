@@ -1239,7 +1239,28 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-bangladesh.json`
 
-- **Status tier:** **In progress (full section)** – this JSON encodes every language row from the Bangladesh article’s language listings; use it to track Bangladesh-specific coverage and base-uniqueness.
+- **How to re-run base-uniqueness:**
+  - `node tools/mixer-core/report-wikipedia-list-base-uniqueness.js tools/mixer-meta/wikipedia-languages-of-bangladesh.json`
+
+- **How to re-run full suite:**
+  - `node tools/mixer-core/run-language-mixer-suite.js`
+
+- ✅ **Status tier:** **Complete**
+- **Last run:** 2025-12-12
+
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 39 (100.0%)
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `skipped:` 3
+  - `Nonunique Bases:` 39
+
+- **Base-set uniqueness (full items only):**
+  - `unique bases:` 39
+  - `clustered bases:` 0
 
 ### 8.15 Languages of India – census tables snapshot
 
@@ -1349,13 +1370,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 38
+  - `fully wired:` 78
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 4
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 42
+  - `Nonunique Bases:` 78
 
 ### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
 
