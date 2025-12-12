@@ -9836,6 +9836,27 @@
     "family": "Northwest Caucasian"
   },
   {
+    "name": "Aghul",
+    "iso": "agx",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Akhvakh",
+    "iso": "akv",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Andi",
+    "iso": "ani",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
     "name": "Archi",
     "iso": "aqc",
     "region": "Caucasus",
@@ -9852,12 +9873,26 @@
     "family": "Indo-European"
   },
   {
+    "name": "Avar",
+    "iso": "ava",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
     "name": "Azerbaijani",
     "iso": "azerbaijani",
     "region": "Caucasus",
     "category": "Turkic",
     "wikipedia": "https://en.wikipedia.org/wiki/Azerbaijani_language",
     "family": "Oghuz Turkic"
+  },
+  {
+    "name": "Bagvalal",
+    "iso": "kva",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
   },
   {
     "name": "Bats",
@@ -9868,12 +9903,33 @@
     "family": "Northeast Caucasian"
   },
   {
+    "name": "Bezhta",
+    "iso": "kap",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Botlikh",
+    "iso": "bph",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
     "name": "Bzyb",
     "iso": "bzyb",
     "region": "Caucasus",
     "category": "Northwest Caucasian",
     "wikipedia": "https://en.wikipedia.org/wiki/Bzyp_dialect",
     "family": "Northwest Caucasian"
+  },
+  {
+    "name": "Chamalal",
+    "iso": "cji",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
   },
   {
     "name": "Chechen",
@@ -9930,6 +9986,27 @@
     ]
   },
   {
+    "name": "Godoberi",
+    "iso": "gdo",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Hinuq",
+    "iso": "gin",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Hunzib",
+    "iso": "huz",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
     "name": "Ingush",
     "iso": "ingush",
     "region": "Caucasus",
@@ -9957,6 +10034,27 @@
     "family": "Northwest Caucasian"
   },
   {
+    "name": "Kaitag",
+    "iso": "xdq",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Karachay-Balkar",
+    "iso": "krc",
+    "region": "Caucasus",
+    "category": "Turkic",
+    "family": "Kipchak Turkic"
+  },
+  {
+    "name": "Karata",
+    "iso": "kpt",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
     "name": "Kartvelian languages",
     "iso": "kartvelian-languages",
     "region": "Caucasus",
@@ -9965,6 +10063,34 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Khwarshi",
+    "iso": "khv",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Kubachi",
+    "iso": "ugh",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Kumyk",
+    "iso": "kum",
+    "region": "Caucasus",
+    "category": "Turkic",
+    "family": "Kipchak Turkic"
+  },
+  {
+    "name": "Lak",
+    "iso": "lbe",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
   },
   {
     "name": "Laz",
@@ -10045,6 +10171,13 @@
     ]
   },
   {
+    "name": "Rutul",
+    "iso": "rut",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
     "name": "Svan",
     "iso": "svan",
     "region": "Caucasus",
@@ -10058,6 +10191,27 @@
     "region": "Caucasus",
     "category": "Northeast Caucasian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tabasaran_language",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Tat",
+    "iso": "ttt",
+    "region": "Caucasus",
+    "category": "Iranian",
+    "family": "Iranian"
+  },
+  {
+    "name": "Tindi",
+    "iso": "tin",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Tsez",
+    "iso": "ddo",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
     "family": "Northeast Caucasian"
   },
   {
@@ -13776,6 +13930,13 @@
     "family": "Neapolitan"
   },
   {
+    "name": "Cimbrian",
+    "iso": "cim",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
     "name": "Comasco-Lecchese",
     "iso": "comasco-lecchese",
     "region": "Europe",
@@ -13943,6 +14104,13 @@
     "category": "Romance",
     "wikipedia": "https://en.wikipedia.org/wiki/Ecuadorian_Spanish",
     "family": "Latin American"
+  },
+  {
+    "name": "Elfdalian",
+    "iso": "ovd",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "North Germanic"
   },
   {
     "name": "Emilian",
@@ -15783,6 +15951,13 @@
     "family": "Central Italian"
   },
   {
+    "name": "Upper Saxon",
+    "iso": "sxu",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
     "name": "Upper Sorbian",
     "iso": "upper-sorbian",
     "region": "Europe",
@@ -15962,11 +16137,32 @@
     "family": "Oïl Dialects"
   },
   {
+    "name": "Wymysorys",
+    "iso": "wym",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
+    "name": "Yenish",
+    "iso": "yec",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
     "name": "Yiddish",
     "iso": "yiddish",
     "region": "Europe",
     "category": "Germanic",
     "wikipedia": "https://en.wikipedia.org/wiki/Yiddish",
+    "family": "Germanic"
+  },
+  {
+    "name": "Zeelandic",
+    "iso": "zea",
+    "region": "Europe",
+    "category": "Germanic",
     "family": "Germanic"
   },
   {

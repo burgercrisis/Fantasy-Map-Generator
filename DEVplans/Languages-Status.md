@@ -935,6 +935,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-africa-full.json`
 
 - **Status tier:** **In progress (full table)** – this JSON tracks **every language row** from the Wikipedia table; coverage and base-uniqueness snapshots for this full list should be refreshed after each major African mixer pass.
+- **Last run:** 2025-12-12
 
 - **Snapshot from last run (all list items):**
   - `fully wired:` 277
@@ -944,6 +945,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `Nonunique Bases:` 274
+  - `clustered bases:` 0
+  - `zeroRaceCount:` 0
 
 - **Notes / next steps:**
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.

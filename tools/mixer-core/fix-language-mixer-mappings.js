@@ -421,6 +421,19 @@ const explicitIsoBaseMap = {
   "palawa-kani": 313,
 };
 
+const explicitIsoBasesMap = {
+  "international-sign": [1, 198],
+  "haklau-min": [68, 29, 70],
+  "macro-bai": [52, 68],
+  bola: [105, 64, 108],
+  nung: [64, 81, 105],
+  mxj: [64, 96, 105],
+  numao: [11, 67, 69, 70],
+  tangwang: [11, 47, 29, 70],
+  "tai-meuay": [252, 318, 530, 317],
+  kharia: [29, 193, 251, 252]
+};
+
 function readJson(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8");
@@ -448,7 +461,7 @@ const tokenBaseIndexMap = {
   khasic: 182,
   aslian: 195,
   nicobarese: 195,
-  bahnaric: 334,
+  bahnaric: 179,
   katuic: 335,
   khmuic: 336,
   pearic: 337,
@@ -585,6 +598,7 @@ function main() {
   const validBaseIndices = namebases.indices;
   const normalizedMap = [];
   const droppedIsos = [];
+  let didMutateMap = false;
 
   for (const entry of map) {
     if (!entry || !entry.iso) continue;
@@ -598,6 +612,7 @@ function main() {
   }
 
   if (droppedIsos.length) {
+    didMutateMap = true;
     console.log(
       "Cleared invalid base indices for mappings (now unresolved):",
       droppedIsos.length,
@@ -610,6 +625,26 @@ function main() {
 
   const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
+
+  for (const [iso, rawBases] of Object.entries(explicitIsoBasesMap)) {
+    const bases = Array.isArray(rawBases) ? rawBases.filter(b => validBaseIndices.has(b)) : [];
+    if (!bases.length) continue;
+
+    const existing = mapByIso.get(iso);
+    if (existing) {
+      const before = JSON.stringify(existing.bases || []);
+      const after = JSON.stringify(bases);
+      if (before !== after) {
+        existing.bases = bases;
+        didMutateMap = true;
+      }
+    } else {
+      const entry = {iso, bases};
+      map.push(entry);
+      mapByIso.set(iso, entry);
+      didMutateMap = true;
+    }
+  }
   const mappedIsos = new Set(
     map
       .filter(e => Array.isArray(e.bases) && e.bases.length)
@@ -711,14 +746,17 @@ function main() {
     added.push({iso: lang.iso, base: baseIndex, name: lang.name || ""});
   }
 
-  if (added.length) {
+  const shouldWrite = added.length || didMutateMap;
+  if (shouldWrite) {
     // Keep original order + new entries sorted by iso for stability.
-    const staticEntries = map.filter(e => !added.some(a => a.iso === e.iso));
-    const newEntries = map.filter(e => added.some(a => a.iso === e.iso));
+    const staticEntries = added.length ? map.filter(e => !added.some(a => a.iso === e.iso)) : map;
+    const newEntries = added.length ? map.filter(e => added.some(a => a.iso === e.iso)) : [];
 
-    newEntries.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
+    if (added.length) {
+      newEntries.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
+    }
 
-    const combined = staticEntries.concat(newEntries);
+    const combined = added.length ? staticEntries.concat(newEntries) : staticEntries;
 
     const combinedIsos = new Set(
       combined.filter(e => e && e.iso).map(e => String(e.iso))
@@ -735,7 +773,7 @@ function main() {
 
     writeJson("config/language-mixer-map.json", combined);
   } else {
-    console.log("No new mappings added.");
+    console.log("No changes to language-mixer-map.json");
   }
 
   console.log("Automatically added mappings:", added.length);

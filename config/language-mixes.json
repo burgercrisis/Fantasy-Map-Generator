@@ -25171,5 +25171,201 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "family": "Tibetic"
+  },
+  {
+    "name": "Aghul",
+    "iso": "agx",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Akhvakh",
+    "iso": "akv",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Andi",
+    "iso": "ani",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Avar",
+    "iso": "ava",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Bagvalal",
+    "iso": "kva",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Bezhta",
+    "iso": "kap",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Botlikh",
+    "iso": "bph",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Chamalal",
+    "iso": "cji",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Cimbrian",
+    "iso": "cim",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
+    "name": "Elfdalian",
+    "iso": "ovd",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "North Germanic"
+  },
+  {
+    "name": "Godoberi",
+    "iso": "gdo",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Hinuq",
+    "iso": "gin",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Hunzib",
+    "iso": "huz",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Kaitag",
+    "iso": "xdq",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Karata",
+    "iso": "kpt",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Karachay-Balkar",
+    "iso": "krc",
+    "region": "Caucasus",
+    "category": "Turkic",
+    "family": "Kipchak Turkic"
+  },
+  {
+    "name": "Khwarshi",
+    "iso": "khv",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Kubachi",
+    "iso": "ugh",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Kumyk",
+    "iso": "kum",
+    "region": "Caucasus",
+    "category": "Turkic",
+    "family": "Kipchak Turkic"
+  },
+  {
+    "name": "Lak",
+    "iso": "lbe",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Rutul",
+    "iso": "rut",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Tat",
+    "iso": "ttt",
+    "region": "Caucasus",
+    "category": "Iranian",
+    "family": "Iranian"
+  },
+  {
+    "name": "Tindi",
+    "iso": "tin",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Tsez",
+    "iso": "ddo",
+    "region": "Caucasus",
+    "category": "Northeast Caucasian",
+    "family": "Northeast Caucasian"
+  },
+  {
+    "name": "Upper Saxon",
+    "iso": "sxu",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
+    "name": "Wymysorys",
+    "iso": "wym",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
+    "name": "Yenish",
+    "iso": "yec",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
+  },
+  {
+    "name": "Zeelandic",
+    "iso": "zea",
+    "region": "Europe",
+    "category": "Germanic",
+    "family": "Germanic"
   }
 ]

@@ -180,8 +180,8 @@ const raceLanguageProfiles = {
     ]
   },
   Lizardfolk: {
-    categories: ["Niger-Congo", "Afroasiatic", "Nilo-Saharan"],
-    families: ["Niger-Congo", "Bantu", "Afroasiatic", "Nilo-Saharan"]
+    categories: ["Niger-Congo", "Afroasiatic", "Nilo-Saharan", "Ubangian"],
+    families: ["Niger-Congo", "Bantu", "Afroasiatic", "Nilo-Saharan", "Ubangian"]
   },
   Shifter: {
     categories: ["Celtic", "Germanic", "Niger-Congo"],
