@@ -1,0 +1,21 @@
+﻿=== Wikipedia list base-uniqueness summary ===
+List: Wikipedia: List of mutually intelligible languages ΓÇô full article list
+Source: https://en.wikipedia.org/wiki/List_of_mutually_intelligible_languages
+List items (excluding explicit skip): 107
+
+Wiring status (same categories as report-wikipedia-list-coverage.js):
+  full: 107
+  missing-catalog: 0
+  missing-map: 0
+  missing-both: 0
+  unmatched: 0
+  ambiguous: 0
+
+Global base-index uniqueness snapshot for this list:
+  Nonunique Bases (non-skipped items): 96
+
+Base-set uniqueness among full items:
+  unique bases: 107
+  clustered bases: 0
+
+All full items from this list currently have globally unique base sets.

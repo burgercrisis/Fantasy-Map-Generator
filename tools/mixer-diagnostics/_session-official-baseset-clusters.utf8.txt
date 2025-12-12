@@ -1,0 +1,38 @@
+﻿=== filipino ===
+Filipino
+bases=[193,304,367]
+clusterSize=2
+  filipino | Filipino
+  ibanag | Ibanag
+
+=== fin ===
+Finnish
+bases=[6,9]
+clusterSize=1
+  fin | Finnish
+
+=== guarani ===
+Guarani
+bases=[173]
+clusterSize=6
+  guarani | Guarani
+  kwaza | Kwaza
+  l-ngua-geral-amaz-nica | L├¡ngua Geral Amaz├┤nica
+  l-ngua-geral-paulista | L├¡ngua Geral Paulista
+  ndyuka-tiriy-pidgin | Ndyuka-Tiriy├│ Pidgin
+  xoc- | Xoc├│
+
+=== jpn ===
+Japanese
+bases=[12]
+clusterSize=9
+  hachijo | Hachijo
+  japanese-dialects | Japanese regional lects
+  jpn | Japanese
+  kanbun-kundoku | Kanbun Kundoku
+  okinoerabu | Okinoerabu
+  southern-amami | Southern Amami
+  tokunoshima | Tokunoshima
+  yilan-creole-japanese | Yilan Creole Japanese
+  yokohama-pidgin-japanese | Yokohama Pidgin Japanese
+

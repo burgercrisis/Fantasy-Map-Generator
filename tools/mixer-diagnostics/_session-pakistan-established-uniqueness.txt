@@ -1,0 +1,63 @@
+﻿=== Wikipedia list base-uniqueness summary ===
+List: Wikipedia: Languages of Pakistan ΓÇô established languages
+Source: https://en.wikipedia.org/wiki/Languages_of_Pakistan
+List items (excluding explicit skip): 79
+
+Wiring status (same categories as report-wikipedia-list-coverage.js):
+  full: 71
+  missing-catalog: 0
+  missing-map: 0
+  missing-both: 0
+  unmatched: 8
+  ambiguous: 0
+
+Global base-index uniqueness snapshot for this list:
+  Nonunique Bases (non-skipped items): 79
+
+Base-set uniqueness among full items:
+  unique bases: 30
+  clustered bases: 41
+
+Clustered full items (share their bases[] with at least one other catalog language):
+  iso | name | clusterSize
+  balti | Balti | 2
+  bcc | Balochi, Sulaimani | 7
+  bgn | Balochi, Makrani | 7
+  bgp | Balochi, Rakhshani | 7
+  bgq | Bagri | 8
+  bhe | Bhaya | 2
+  bsh | Kati | 2
+  burushaski | Burushaski | 12
+  ghr | Ghera | 8
+  gig | Goaria | 4
+  gujarati | Gujarati | 2
+  gwc | Gawri | 2
+  gwf | Gowro | 2
+  gwt | Gawar-Bati | 2
+  haz | Hazaragi | 7
+  hnd | Hindko, Southern | 8
+  hno | Hindko, Northern | 8
+  jdg | Jadgali | 7
+  jnd | Jandavra | 8
+  jog | Jogi | 4
+  kbu | Kabutra | 8
+  mby | Memoni | 3
+  mki | Dhatki | 2
+  nlm | Mankiyali | 3
+  odk | Oadki | 3
+  pbt | Pashto, Southern | 7
+  phl | Palula | 2
+  phr | Pahari-Pothwari | 10
+  plk | Shina, Kohistani | 2
+  pst | Pashto, Central | 2
+  scl | Shina | 2
+  shd | Kundal Shahi | 2
+  trw | Torwali | 3
+  vgr | Vaghri | 3
+  waziri-pashto | Waziri | 7
+  wne | Waneci | 2
+  wry | Marwari | 4
+  wtm | Mewati | 8
+  xhe | Khetrani | 2
+  xka | Kalkoti | 3
+  xvi | Kamviri | 2

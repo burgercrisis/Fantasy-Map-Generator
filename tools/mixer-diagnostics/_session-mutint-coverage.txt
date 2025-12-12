@@ -1,0 +1,14 @@
+﻿List title: Wikipedia: List of mutually intelligible languages ΓÇô full article list
+Source: https://en.wikipedia.org/wiki/List_of_mutually_intelligible_languages
+Total items: 107
+  considered: 107
+  skipped:    0
+
+Coverage summary (considered items only):
+  fully wired:       107 (100.0% of considered)
+  missing catalog:   0
+  missing map:       0
+  missing both:      0
+  unmatched name:    0
+  ambiguous matches: 0
+  Nonunique Bases:   96
