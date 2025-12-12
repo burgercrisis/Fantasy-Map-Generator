@@ -36,6 +36,36 @@ const path = require("path");
 
 const root = path.resolve(__dirname, "..", "..");
 
+function loadBaseIndexToNameMap() {
+  const files = [
+    path.join(root, "modules", "namebases-real.js"),
+    path.join(root, "modules", "namebases-fantasy.js"),
+    path.join(root, "modules", "namebases-creole.js")
+  ];
+
+  const byIndex = new Map();
+  const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
+
+  for (const file of files) {
+    let src;
+    try {
+      src = fs.readFileSync(file, "utf8");
+    } catch (e) {
+      continue;
+    }
+
+    let m;
+    while ((m = re.exec(src))) {
+      const name = m[1];
+      const idx = Number(m[2]);
+      if (Number.isNaN(idx)) continue;
+      if (!byIndex.has(idx)) byIndex.set(idx, name);
+    }
+  }
+
+  return byIndex;
+}
+
 function readJson(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8").replace(/^\uFEFF/, "");
@@ -70,6 +100,7 @@ function main() {
 
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
+  const baseIndexToName = loadBaseIndexToNameMap();
 
   const mixByIso = new Map();
   for (const lang of mixes) {
@@ -160,7 +191,13 @@ function main() {
 
   for (const group of multiClusters) {
     const basesLabel = `[` + group.key + `]`;
-    console.log(`-- bases=${basesLabel} | members=${group.entries.length} --`);
+    const baseNamesLabel = group.key
+      .split(",")
+      .map(s => Number(s))
+      .filter(n => !Number.isNaN(n))
+      .map(n => baseIndexToName.get(n) || "?")
+      .join(",");
+    console.log(`-- bases=${basesLabel} | base_names=[${baseNamesLabel}] | members=${group.entries.length} --`);
     for (const meta of group.entries) {
       const tagsStr = meta.tags && meta.tags.length ? meta.tags.join(",") : "";
       console.log(

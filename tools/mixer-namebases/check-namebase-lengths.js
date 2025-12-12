@@ -29,6 +29,25 @@ function loadSandboxWithNames() {
     // prevent UI-dependent code from throwing
     ERROR: false,
     WARN: false,
+    VOWELS:
+      "aeiouyɑ'əøɛœæɶɒɨɪɔɐʊɤɯаоиеёэыуюяàèìòùỳẁȁȅȉȍȕáéíóúýẃőűâêîôûŷŵäëïöüÿẅãẽĩõũỹąęįǫųāēīōūȳăĕĭŏŭǎěǐǒǔȧėȯẏẇạẹịọụỵẉḛḭṵṳ",
+    vowel: function (c) {
+      return sandbox.VOWELS.includes(c);
+    },
+    last: function (str) {
+      return str && str.length ? str[str.length - 1] : "";
+    },
+    ra: function (arr) {
+      if (!Array.isArray(arr) || !arr.length) return "";
+      return arr[Math.floor(Math.random() * arr.length)];
+    },
+    capitalize: function (s) {
+      if (!s || typeof s !== "string") return s;
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    },
+    P: function (prob) {
+      return Math.random() < prob;
+    },
     tip: function () {},
     pack: {cultures: {}, states: {}},
   };

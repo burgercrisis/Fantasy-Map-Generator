@@ -25,7 +25,7 @@
     { "name": "Dogri" },
     { "name": "Dzongkha", "iso": "dzongkha" },
     { "name": "Filipino (Tagalog)", "iso": "filipino" },
-    { "name": "Formosan" },
+    { "name": "Formosan", "skip": true },
     { "name": "Georgian" },
     { "name": "Gujarati" },
     { "name": "Hakka" },

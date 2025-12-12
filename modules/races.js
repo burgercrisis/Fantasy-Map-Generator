@@ -189,7 +189,7 @@ const raceLanguageProfiles = {
   },
   Gnoll: {
     categories: ["Afroasiatic", "Nilo-Saharan"],
-    families: ["Afroasiatic", "Nilo-Saharan", "Semitic", "Hadza isolate", "Sandawe isolate"]
+    families: ["Afroasiatic", "Nilo-Saharan", "Semitic", "Hadza isolate", "Sandawe isolate", "Kusunda"]
   },
   Bugbear: {
     categories: ["Slavic", "Afroasiatic", "Niger-Congo"],

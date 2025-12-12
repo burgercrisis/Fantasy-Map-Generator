@@ -10,4 +10,4 @@ Use this workflow together with `/wikipedia1` when working on the **List of lang
    - Use coverage helpers on this JSON.
    - For each language, ensure **catalog entry + mixer-map entry + globally unique `bases[]` + race reachability**.
    - Re-run `update-wikipedia-list-coverage-in-devplan.js` for this JSON to refresh §8.2 in `DEVplans/Languages-Status.md`.
-3. On `continue`, take the next batch of not-yet-full languages from this list.
+3. On `continue`, take the next batch of not-yet-full (coverage) languages from this list.

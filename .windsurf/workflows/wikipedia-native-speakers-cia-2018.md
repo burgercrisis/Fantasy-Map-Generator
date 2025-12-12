@@ -7,4 +7,4 @@ Use this workflow together with `/wikipedia1` when working on the **CIA World Fa
 
 1. Treat `tools/mixer-meta/wikipedia-list-languages-by-native-speakers-cia-2018.json` as the **current list JSON**.
 2. Follow `/wikipedia1` exactly for this JSON and update §8.3 in `DEVplans/Languages-Status.md`.
-3. On `continue`, take the next batch of not-yet-full languages from this CIA subset.
+3. On `continue`, take the next batch of not-yet-full (coverage) languages from this CIA subset.

@@ -4516,6 +4516,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Achhami (Doteli)",
+    "iso": "achhami-doteli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Doteli"
+  },
+  {
     "name": "Ahom",
     "iso": "ahom",
     "region": "Asia",
@@ -4643,6 +4650,13 @@
     "family": "Mongolic"
   },
   {
+    "name": "Angika",
+    "iso": "anp",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bihari"
+  },
+  {
     "name": "Aranadan",
     "iso": "aranadan",
     "region": "Asia",
@@ -4739,6 +4753,27 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Baitadeli (Doteli)",
+    "iso": "baitadeli-doteli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Doteli"
+  },
+  {
+    "name": "Bajhangi (Doteli)",
+    "iso": "bajhangi-doteli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Doteli"
+  },
+  {
+    "name": "Bajjika",
+    "iso": "vjk",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bihari"
+  },
+  {
     "name": "Bala",
     "iso": "bala",
     "region": "Asia",
@@ -4785,6 +4820,13 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Bantawa",
+    "iso": "bap",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "iso": "baoan",
@@ -4866,6 +4908,13 @@
     "family": "South Dravidian"
   },
   {
+    "name": "Belhare",
+    "iso": "byw",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "name": "Bengali",
     "iso": "bengali",
     "region": "Asia",
@@ -4943,12 +4992,26 @@
     "family": "Austronesian"
   },
   {
+    "name": "Blang",
+    "iso": "blr",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Palaungic"
+  },
+  {
     "name": "Bodo",
     "iso": "bodo",
     "region": "Asia",
     "category": "Sino-Tibetan",
     "wikipedia": "https://en.wikipedia.org/wiki/Boro_language_(India)",
     "family": "Boro-Garo"
+  },
+  {
+    "name": "Bolyu",
+    "iso": "ply",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pakanic"
   },
   {
     "name": "Bonan",
@@ -5015,6 +5078,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Katuic"
+  },
+  {
+    "name": "Bugan",
+    "iso": "bbh",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Pakanic"
   },
   {
     "name": "Bundeli",
@@ -5119,11 +5189,32 @@
     "family": "Mongolic"
   },
   {
+    "name": "Chakma",
+    "iso": "ccp",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Eastern Indo-Aryan"
+  },
+  {
+    "name": "Chamling",
+    "iso": "rab",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "name": "Changjiang Hlai",
     "iso": "changjiang-hlai",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Chantyal",
+    "iso": "chx",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
   },
   {
     "name": "Chaura Nicobarese",
@@ -5172,6 +5263,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Chintang",
+    "iso": "ctn",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Chittagonian",
@@ -5267,6 +5365,20 @@
     "lexifier": "Portuguese"
   },
   {
+    "name": "Danuwar",
+    "iso": "dwz",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Unclassified Indo-Aryan"
+  },
+  {
+    "name": "Darchuleli (Doteli)",
+    "iso": "darchuleli-doteli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Doteli"
+  },
+  {
     "name": "Dari",
     "iso": "dari",
     "region": "Asia",
@@ -5349,6 +5461,13 @@
     "family": "Oirat-Kalmyk"
   },
   {
+    "name": "Doteli",
+    "iso": "dty",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Central Pahari"
+  },
+  {
     "name": "Duan",
     "iso": "duan",
     "region": "Asia",
@@ -5365,6 +5484,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Bahnaric"
+  },
+  {
+    "name": "Dumi",
+    "iso": "dus",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Duruwa",
@@ -5456,6 +5582,13 @@
     "family": "Ewenic"
   },
   {
+    "name": "Garhwali",
+    "iso": "gbm",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Central Pahari"
+  },
+  {
     "name": "Gelao",
     "iso": "gelao",
     "region": "Asia",
@@ -5497,6 +5630,13 @@
     "family": "Indo-Aryan"
   },
   {
+    "name": "Gurung",
+    "iso": "gvr",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Gurungic"
+  },
+  {
     "name": "Ha Em",
     "iso": "ha-em",
     "region": "Asia",
@@ -5530,6 +5670,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Bahnaric"
+  },
+  {
+    "name": "Haryanvi",
+    "iso": "bgc",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Western Hindi"
   },
   {
     "name": "Hezhang Buyi",
@@ -5608,6 +5755,20 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Bahnaric"
+  },
+  {
+    "name": "Hu (Angku, Kon Keu)",
+    "iso": "kkn",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Angkuic"
+  },
+  {
+    "name": "Hyolmo (Yolmo)",
+    "iso": "scp",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
   },
   {
     "name": "Ibanag",
@@ -5727,6 +5888,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Jirel",
+    "iso": "jul",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
   },
   {
     "name": "Jizhao",
@@ -5947,6 +6115,13 @@
     "family": "Siberian Turkic"
   },
   {
+    "name": "Khaling",
+    "iso": "klr",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "iso": "khalkha",
     "name": "Khalkha Mongolian",
     "region": "Asia",
@@ -6107,6 +6282,13 @@
     "family": "Bahnaric"
   },
   {
+    "name": "Koi",
+    "iso": "kkt",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "name": "Kolami",
     "iso": "kolami",
     "region": "Asia",
@@ -6135,6 +6317,13 @@
     "region": "Asia",
     "category": "Dravidian",
     "family": "South Dravidian"
+  },
+  {
+    "name": "Korku",
+    "iso": "kfq",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda"
   },
   {
     "name": "Korlai Portuguese Creole",
@@ -6197,11 +6386,32 @@
     "family": "South Dravidian"
   },
   {
+    "name": "Kui (India)",
+    "iso": "kxu",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "South Dravidian"
+  },
+  {
     "name": "Kui Dravidian",
     "iso": "kui-dravidian",
     "region": "Asia",
     "category": "Dravidian",
     "family": "South-Central Dravidian"
+  },
+  {
+    "name": "Kulung",
+    "iso": "kle",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Kumaoni",
+    "iso": "kfy",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Central Pahari"
   },
   {
     "name": "Kumbaran",
@@ -6294,6 +6504,13 @@
     "family": "South Dravidian"
   },
   {
+    "name": "Kusunda",
+    "iso": "kgg",
+    "region": "Asia",
+    "category": "Kusunda isolate",
+    "family": "Kusunda"
+  },
+  {
     "name": "Kuvi",
     "iso": "kuvi",
     "region": "Asia",
@@ -6313,6 +6530,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Kra"
+  },
+  {
+    "name": "Ladakhi",
+    "iso": "lbj",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
   },
   {
     "name": "Laha",
@@ -6383,6 +6607,13 @@
     "family": "Bahnaric"
   },
   {
+    "name": "Limbu",
+    "iso": "lif",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "name": "Longsang Zhuang",
     "iso": "longsang-zhuang",
     "region": "Asia",
@@ -6431,6 +6662,20 @@
     "category": "Indo-Aryan",
     "wikipedia": "https://en.wikipedia.org/wiki/Magahi_language",
     "family": "Bihari"
+  },
+  {
+    "name": "Magar (Dhut)",
+    "iso": "mgp",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Magaric"
+  },
+  {
+    "name": "Magar Kham",
+    "iso": "kip",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Magaric"
   },
   {
     "name": "Maguindanao",
@@ -6518,6 +6763,13 @@
     "family": "North Dravidian"
   },
   {
+    "name": "Man Met (Kemie)",
+    "iso": "kfj",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Angkuic"
+  },
+  {
     "name": "Manado Malay",
     "iso": "manado-malay",
     "region": "Asia",
@@ -6592,6 +6844,13 @@
       "creole"
     ],
     "lexifier": "Portuguese"
+  },
+  {
+    "name": "Marwari",
+    "iso": "wry",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Rajasthani"
   },
   {
     "name": "Maumere Malay",
@@ -6785,6 +7044,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Nachhiring",
+    "iso": "ncd",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Nadou",
@@ -7093,6 +7359,13 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Kra"
+  },
+  {
+    "name": "Palaung",
+    "iso": "rbb",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Palaungic"
   },
   {
     "name": "Paliyan",
@@ -7427,6 +7700,13 @@
     "family": "Bahnaric"
   },
   {
+    "name": "Riang",
+    "iso": "ril",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Palaungic"
+  },
+  {
     "name": "Rohingya",
     "iso": "rohingya",
     "region": "Asia",
@@ -7637,6 +7917,13 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Sherpa",
+    "iso": "xsr",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
     "iso": "shilingol-khalkha",
     "name": "Shilingol / Xilingol Khalkha",
     "region": "Asia",
@@ -7712,6 +7999,13 @@
     "region": "Asia",
     "category": "Mongolic",
     "family": "Mongolic"
+  },
+  {
+    "name": "Sora (Savara)",
+    "iso": "srb",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda"
   },
   {
     "name": "Sorani Kurdish",
@@ -7846,6 +8140,13 @@
     "category": "Austronesian",
     "wikipedia": "https://en.wikipedia.org/wiki/Sundanese_language",
     "family": "Austronesian"
+  },
+  {
+    "name": "Sunuwar",
+    "iso": "suz",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Suoy",
@@ -8006,6 +8307,13 @@
     "family": "Bahnaric"
   },
   {
+    "name": "Tamang",
+    "iso": "tge",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
     "name": "Tamil",
     "iso": "tamil",
     "region": "Asia",
@@ -8110,6 +8418,20 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Thakali",
+    "iso": "ths",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
+    "name": "Tharu languages",
+    "iso": "the",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Tharu"
+  },
+  {
     "name": "Then Kam Sui",
     "iso": "then-kam-sui",
     "region": "Asia",
@@ -8122,6 +8444,13 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Bahnaric"
+  },
+  {
+    "name": "Thulung",
+    "iso": "tdh",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Toda",
@@ -8232,6 +8561,13 @@
     ]
   },
   {
+    "name": "U (Pouma)",
+    "iso": "u-pouma",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Angkuic"
+  },
+  {
     "name": "Udege",
     "iso": "udege",
     "region": "Asia",
@@ -8339,6 +8675,20 @@
     "family": "South Dravidian"
   },
   {
+    "name": "Wa",
+    "iso": "wbm",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Waic"
+  },
+  {
+    "name": "Wambule",
+    "iso": "wme",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
     "name": "War Khasi",
     "iso": "kha-war",
     "region": "Asia",
@@ -8372,6 +8722,13 @@
     "region": "Asia",
     "category": "Japonic",
     "family": "Yaeyama Ryukyuan"
+  },
+  {
+    "name": "Yakkha",
+    "iso": "lmh",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
   },
   {
     "name": "Yakut",
@@ -9425,6 +9782,13 @@
     "family": "Kipchak Turkic"
   },
   {
+    "name": "Sarikoli",
+    "iso": "sarikoli",
+    "region": "Central Asia",
+    "category": "Iranian",
+    "family": "Pamir"
+  },
+  {
     "name": "Sogdian",
     "iso": "sogdian",
     "region": "Central Asia",
@@ -9465,6 +9829,13 @@
     "family": "Karluk Turkic"
   },
   {
+    "name": "Wakhi",
+    "iso": "wakhi",
+    "region": "Central Asia",
+    "category": "Iranian",
+    "family": "Pamir"
+  },
+  {
     "name": "Badong Yao",
     "iso": "badong-yao",
     "region": "East Asia",
@@ -9481,6 +9852,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Beijing Mandarin",
+    "iso": "beijing-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
   },
   {
     "name": "Biao Min",
@@ -9529,6 +9907,20 @@
     "family": "Yue"
   },
   {
+    "name": "Central Min",
+    "iso": "central-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
+    "name": "Central Plains Mandarin",
+    "iso": "central-plains-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
     "name": "Chinese Korean",
     "iso": "chinese-korean",
     "region": "East Asia",
@@ -9562,6 +9954,20 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "Koreanic"
+  },
+  {
+    "name": "Eastern Min",
+    "iso": "eastern-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
+    "name": "Fuyu Kyrgyz",
+    "iso": "fuyu-kyrgyz",
+    "region": "East Asia",
+    "category": "Turkic",
+    "family": "Kipchak Turkic"
   },
   {
     "name": "Gangwon Korean",
@@ -9626,6 +10032,20 @@
     "family": "South Korean"
   },
   {
+    "name": "Hainanese",
+    "iso": "hainanese",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
+    "name": "Haklau Min",
+    "iso": "haklau-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
     "name": "Hamgyŏng Korean",
     "iso": "hamgyong-dialect",
     "region": "East Asia",
@@ -9686,6 +10106,13 @@
     "family": "North Korean"
   },
   {
+    "name": "Ili Turki",
+    "iso": "ili-turki",
+    "region": "East Asia",
+    "category": "Turkic",
+    "family": "Karluk Turkic"
+  },
+  {
     "name": "Iu Mien",
     "iso": "iu-mien",
     "region": "East Asia",
@@ -9705,6 +10132,20 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "South Korean"
+  },
+  {
+    "name": "Jiaoliao Mandarin",
+    "iso": "jiaoliao-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
+    "name": "Jilu Mandarin",
+    "iso": "jilu-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
   },
   {
     "name": "Joseon Korean Early Modern",
@@ -9759,6 +10200,20 @@
     "family": "Koreanic"
   },
   {
+    "name": "Lan-Yin Mandarin",
+    "iso": "lan-yin-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
+    "name": "Leizhou Min",
+    "iso": "leizhou-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
     "name": "Lingling",
     "iso": "lingling",
     "region": "East Asia",
@@ -9768,6 +10223,13 @@
       "mixed"
     ],
     "lexifier": "Chinese"
+  },
+  {
+    "name": "Lower Yangtze Mandarin",
+    "iso": "lower-yangtze-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
   },
   {
     "name": "Luobohe",
@@ -9785,6 +10247,13 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Malaysian Mandarin",
+    "iso": "malaysian-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
   },
   {
     "name": "Maojia",
@@ -9852,6 +10321,20 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "Modern Korean"
+  },
+  {
+    "name": "Northeastern Mandarin",
+    "iso": "northeastern-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
+    "name": "Northern Min",
+    "iso": "northern-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
   },
   {
     "name": "Numao",
@@ -9941,6 +10424,13 @@
     ]
   },
   {
+    "name": "Pu–Xian Min",
+    "iso": "pu-xian-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
     "name": "Puyŏ",
     "iso": "puyo",
     "region": "East Asia",
@@ -9972,11 +10462,32 @@
     "family": "Hmuic"
   },
   {
+    "name": "Salar",
+    "iso": "salar",
+    "region": "East Asia",
+    "category": "Turkic",
+    "family": "Oghuz Turkic"
+  },
+  {
     "name": "Sanqiao",
     "iso": "sanqiao",
     "region": "East Asia",
     "category": "Hmong-Mien",
     "family": "Hmuic"
+  },
+  {
+    "name": "Shanghainese",
+    "iso": "shanghainese",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Wu"
+  },
+  {
+    "name": "Shao–Jiang Min",
+    "iso": "shao-jiang-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
   },
   {
     "name": "She",
@@ -10004,6 +10515,13 @@
     ]
   },
   {
+    "name": "Singaporean Mandarin",
+    "iso": "singaporean-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
     "name": "Small Flowery",
     "iso": "small-flowery",
     "region": "East Asia",
@@ -10016,6 +10534,55 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "Modern Korean"
+  },
+  {
+    "name": "Southern Min",
+    "iso": "southern-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
+    "name": "Southwestern Mandarin",
+    "iso": "southwestern-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
+    "name": "Suzhounese",
+    "iso": "suzhounese",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Wu"
+  },
+  {
+    "name": "Taishanese",
+    "iso": "taishanese",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Yue"
+  },
+  {
+    "name": "Taiwanese Mandarin",
+    "iso": "taiwanese-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin"
+  },
+  {
+    "name": "Teochew Min",
+    "iso": "teochew-min",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Min"
+  },
+  {
+    "name": "Wenzhounese",
+    "iso": "wenzhounese",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Wu"
   },
   {
     "name": "Xixiu",
@@ -22117,6 +22684,13 @@
     "family": "Bodish"
   },
   {
+    "name": "Bokar",
+    "iso": "bokar",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Tani"
+  },
+  {
     "name": "Bola",
     "iso": "bola",
     "region": "Sino-Tibetan region",
@@ -22217,6 +22791,13 @@
     "family": "Bai"
   },
   {
+    "name": "Damu",
+    "iso": "damu",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Tani"
+  },
+  {
     "name": "Derung",
     "iso": "derung",
     "region": "Sino-Tibetan region",
@@ -22233,6 +22814,13 @@
   {
     "name": "Dhimalish",
     "iso": "dhimalish",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Digaro Mishmi",
+    "iso": "mhu",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
@@ -22368,6 +22956,13 @@
   {
     "name": "Hui",
     "iso": "hui",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Idu Mishmi",
+    "iso": "clk",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
@@ -22599,6 +23194,13 @@
   {
     "name": "Mijiic",
     "iso": "mijiic",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Miju",
+    "iso": "mxj",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
@@ -22891,6 +23493,13 @@
     ]
   },
   {
+    "name": "Shaozhou Tuhua",
+    "iso": "shaozhou-tuhua",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Chinese"
+  },
+  {
     "name": "Siangic",
     "iso": "siangic",
     "region": "Sino-Tibetan region",
@@ -23033,6 +23642,13 @@
     "family": "Sino-Tibetan"
   },
   {
+    "name": "Xiangnan Tuhua",
+    "iso": "xiangnan-tuhua",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Chinese"
+  },
+  {
     "name": "Xiangyun Bai dialect",
     "iso": "xiangyun-bai-dialect",
     "region": "Sino-Tibetan region",
@@ -23066,6 +23682,13 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Burmish"
+  },
+  {
+    "name": "Zakhring",
+    "iso": "zkr",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Sino-Tibetan"
   },
   {
     "name": "Zeme",

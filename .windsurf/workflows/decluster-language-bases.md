@@ -13,7 +13,7 @@ The high-level rules you must respect:
 - **Per-language uniqueness**: in the end-state, no two non-sentinel mixer languages should share an **identical** `bases[]` set.
 - **Historical / regional plausibility**: bases and mixes must reflect each languages **family, region, and role** (lexifier vs local, contact zone, etc.).
 - **Race compatibility**: changes should keep race palettes and coverage sane; rely on family/category/tag metadata so race tools continue to work.
-- **Documented exceptions**: some shared-base clusters are treated as **historically acceptable** (e.g. the core Finnic/Volgaic base-9 macro cluster); do **not** decluster those unless the devplans are updated.
+- **No broad exceptions**: identical shared `bases[]` arrays are treated as uniqueness debt unless the sharing is linguistically defensible (e.g. true aliases for the *same* language, or `skip: true` classification items in a Wikipedia list JSON).
 
 ---
 
@@ -30,15 +30,13 @@ The high-level rules you must respect:
    - Prefer **large clusters** or those that:
      - mix **multiple families or regions**, or
      - are called out in [Languages-Status §3–4](../DEVplans/Languages-Status.md#3-not-unique-enough-clusters-current-suspects) as **uniqueness debt**.
-   - Cross-check against any **explicit exceptions**, for example:
-     - The **Finnic/Volgaic base-9 Uralic macro cluster** that is documented as historically acceptable.
-   - If the cluster is marked in the devplans as **already resolved or intentionally shared**, **skip it** and pick another.
+   - If the cluster is marked as an **alias-of-the-same-language** case, confirm it is truly an alias and document that fact; otherwise treat it as a declustering target.
 
 3. **Scope the work**:
 
    - Decide whether you are:
      - burning down the **entire cluster**, or
-     - only splitting the worst offenders and leaving a small, well-justified shared core (e.g. a macro entry + its standard).
+     - splitting a **small batch** first (recommended) and iterating until the cluster is gone.
    - Keep the scope small enough to complete in one session (e.g. **5–15 languages**), but large enough to meaningfully reduce uniqueness debt on that base.
 
 ---
@@ -62,8 +60,7 @@ The high-level rules you must respect:
 
 3. Identify **which entries can remain shared** (if any):
 
-   - Macro/family entries marked with `tags` like `"family"` may be allowed to share with their **single standard** in tightly controlled cases.
-   - If devplans explicitly permit a macro + standard pair to share a base, you may keep that as the **minimal shared core**, but only if it is called out in documentation.
+  - Only allow sharing when it is linguistically defensible as *the same language* (true alias/alternate ISO entry), or when a list item is explicitly excluded from coverage via `skip: true`.
 
 ---
 
@@ -124,7 +121,7 @@ The high-level rules you must respect:
    node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families
    ```
 
-   - The target cluster should either disappear or shrink to the small, intentional core (if you kept a documented macro + standard pair).
+   - The target cluster should disappear (or remain only among `skip: true` items, if applicable).
 
 2. **Run the inconsistency checker** to ensure you did not introduce broken mappings:
 
@@ -162,13 +159,9 @@ Because race language palettes depend on the language mixer catalogs, large decl
    - Note which **base(s)** and **families/regions** you declustered.
    - Summarize the before/after cluster situation (e.g. [29] cluster split; only `vie` remains pure-29, others now use unique 29-anchored mixes).
 
-2. If the declustering establishes a **new permanent exception** (e.g. a macro + standard you intentionally keep sharing a base), document that explicitly in:
-
-   - `Languages-Status.md` §3 (not-unique-enough clusters / exceptions), and
-   - `Races-Languages-Rules.md` §1.3 if it changes the global uniqueness policy.
+  2. If you believe a shared `bases[]` case is truly linguistically defensible (e.g. an alias entry for the same language), document that explicitly in `DEVplans/Languages-Status.md` and ensure the relevant list JSON marks any non-language classification items as `skip: true`.
 
 3. Commit your changes with a message that mentions:
 
    - The base(s) you declustered.
    - The families/regions affected.
-   - Any new exceptions you introduced.

@@ -14,5 +14,34 @@
     return ai - bi;
   });
 
-  window.defaultNameBases = all;
+  const maxIndex = all.reduce((max, b) => {
+    if (!b || typeof b.i !== "number" || !Number.isFinite(b.i)) return max;
+    return b.i > max ? b.i : max;
+  }, 0);
+
+  const byIndex = new Array(maxIndex + 1);
+  const collisions = [];
+
+  for (const b of all) {
+    if (!b || typeof b.i !== "number" || !Number.isFinite(b.i)) continue;
+    const i = b.i;
+    if (byIndex[i]) {
+      collisions.push({i, existing: byIndex[i].name, incoming: b.name});
+      continue;
+    }
+    byIndex[i] = b;
+  }
+
+  if (collisions.length) {
+    console.warn(
+      "Namebase index collisions detected. Only the first base per index is used:",
+      collisions
+    );
+  }
+
+  window.defaultNameBases = byIndex;
+  window.defaultNameBaseIds = byIndex.reduce((ids, b, i) => {
+    if (b) ids.push(i);
+    return ids;
+  }, []);
 })();

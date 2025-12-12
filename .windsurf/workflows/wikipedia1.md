@@ -32,7 +32,7 @@ Always respect my standing preferences:
 
 2. **Coverage detection**
    - Use [tools/mixer-core/report-wikipedia-list-coverage.js](cci:7://file:///e:/code/Fantasy-Map-Generator/tools/mixer-core/report-wikipedia-list-coverage.js:0:0-0:0) against the provided JSON list snapshot to classify each item:
-     - `full` – in both `language-mixes.json` and [language-mixer-map.json](cci:7://file:///e:/code/Fantasy-Map-Generator/config/language-mixer-map.json:0:0-0:0).
+     - `full` – in both `language-mixes.json` and [language-mixer-map.json](cci:7://file:///e:/code/Fantasy-Map-Generator/config/language-mixer-map.json:0:0-0:0). (**Note:** this is a *coverage* status only; it does not imply globally unique `bases[]` or race reachability.)
      - `missing-catalog`, `missing-map`, `missing-both`.
      - `unmatched` or `ambiguous` (name/iso issues).
    - Maintain an internal queue of all non‑skipped items that are **not yet `full`**.
@@ -41,8 +41,11 @@ Always respect my standing preferences:
      - Prefer to group by **family / region** so base design work is coherent.
 
 3. **When a list becomes fully wired**
-   - Once all non‑skipped items are `full`:
-     - Tell me that the list is fully represented per the definition in [Languages-Status.md](cci:7://file:///e:/code/Fantasy-Map-Generator/DEVplans/Languages-Status.md:0:0-0:0).
+   - Once all non‑skipped items are `full` (coverage: catalog + mixer-map):
+     - Run the list-level checks for the remaining requirements of being **fully represented**:
+       - base uniqueness / uniqueness debt via `report-wikipedia-list-base-uniqueness.js` (and/or the `Nonunique Bases` metric), and
+       - race reachability via `tools/mixer-races/report-wikipedia-list-race-coverage.js`.
+     - Only then tell me that the list is fully represented per the definition in [Languages-Status.md](cci:7://file:///e:/code/Fantasy-Map-Generator/DEVplans/Languages-Status.md:0:0-0:0).
      - Suggest a short entry I can add under the “Grow coverage via Wikipedia language lists” section (list name, scope, date).
 
 ## Per‑language workflow (for each item in a batch)
@@ -88,7 +91,7 @@ For each target language from the queue:
      - `iso`: the catalog iso.
      - `bases`: an array that includes the **newly created base index** (and any justified blended bases) and is **not identical** to any other language’s `bases[]` set.
    - Avoid:
-     - Collapsing onto unrelated macro hubs (e.g. generic English, Malay, Tok Pisin) unless historically justified **and** the new dedicated base is clearly present.
+     - Collapsing onto unrelated macro hubs (e.g. generic English, Malay, Tok Pisin). Lexifiers can appear as **ingredients**, but identical shared `bases[]` arrays among distinct non-skipped languages are not allowed.
      - Using lexifier or macro-hub bases (e.g. English, Malay, Tok Pisin, major trade languages) as the **sole** `bases[]` array for more than one language; they should appear only as ingredients in otherwise unique mixes.
    - Re‑run relevant mixer diagnostics (e.g. `check-language-mixer-map-inconsistencies.js`, [check-language-mixer-coverage.js](cci:7://file:///e:/code/Fantasy-Map-Generator/tools/mixer-core/check-language-mixer-coverage.js:0:0-0:0)) and resolve obvious issues for the new entries.
 

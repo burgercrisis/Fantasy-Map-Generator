@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "claims": [
+    {
+      "workerId": 2,
+      "target": "tools/mixer-meta/wikipedia-uralic-languages-full.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-12T04:12:00Z",
+      "finishedAt": "2025-12-12T04:40:00Z"
+    },
+    {
+      "workerId": 10,
+      "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "stalled",
+      "startedAt": "2025-12-12T04:10:00Z"
+    },
+    {
+      "workerId": 3,
+      "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-12T04:45:00Z",
+      "finishedAt": "2025-12-12T05:57:00Z"
+    },
+    {
+      "workerId": 1,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-12T04:03:00Z"
+    },
+    {
+      "workerId": 11,
+      "target": "tools/mixer-meta/wikipedia-languages-of-asia-official-languages.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-12T05:05:00Z",
+      "finishedAt": "2025-12-12T05:08:00Z"
+    },
+    {
+      "workerId": 12,
+      "target": "tools/mixer-meta/wikipedia-languages-of-india-census.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "stalled",
+      "startedAt": "2025-12-12T05:12:00Z",
+      "note": "Needs manual edit: add iso bindings for Haryanvi(bgc), Marwari(wry), Garhwali(gbm), Kumauni(kfy), Chakma(ccp), Ladakhi(lbj), Korku(kfq), Savara(srb) in tools/mixer-meta/wikipedia-languages-of-india-census.json"
+    },
+    {
+      "workerId": 13,
+      "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-12T05:35:00Z"
+    }
+  ]
+}

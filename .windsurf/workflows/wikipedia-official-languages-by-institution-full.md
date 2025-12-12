@@ -8,3 +8,5 @@ Use this workflow together with `/wikipedia1` for **official languages by instit
 1. Target JSON: `tools/mixer-meta/wikipedia-list-official-languages-by-institution-full.json`.
 2. Apply `/wikipedia1`: for each institutional language, ensure **catalog + mixer-map + unique `bases[]` + race reachability**.
 3. Re-run the devplan helper for this JSON to keep §8.35b snapshots current as you expand wiring.
+
+When selecting the “next batch”, treat `full` / “not-yet-full” as a **coverage** status (catalog + mixer-map). Uniqueness debt and race reachability are tracked separately and still need to be resolved before calling the list “fully represented”.

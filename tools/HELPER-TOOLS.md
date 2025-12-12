@@ -16,7 +16,9 @@ node tools/<script-name>.js [options]
 - [Mixer Diagnostics & Cleanup](#mixer-diagnostics--cleanup)
 - [Regional / Family Updaters](#regional--family-updaters)
 - [Race Language Coverage & Palettes](#race-language-coverage--palettes)
+- [Softmods (mod bundles)](#softmods-mod-bundles)
 - [Experimental Markov helpers](#experimental-markov-helpers)
+- [Root-level helper scripts](#root-level-helper-scripts)
 - [Quick-Start Sequences](#quick-start-sequences)
 
 ---
@@ -277,6 +279,61 @@ Key options:
 - `--verbose` – emit an extra line as soon as a monolingual pair is detected (helpful during tuning).
 
 Run this after large mapping sweeps to surface pairs/ISOs that remain monolingual even though they should be blending, then use the per-ISO “never mixed” list as the backlog for rewiring bases.
+
+---
+
+### `compare-language-generators.js`
+
+**Purpose**
+
+Compares two versions of blended name generation (legacy vs current) for a specific mixer ISO or an explicit list of base indices.
+
+**Inputs**
+
+- `config/language-mixer-map.json` (when `--iso` is used)
+- `modules/namebases-real.js`, `modules/namebases-fantasy.js`, `modules/namebases-creole.js`, `modules/namebases-all.js`
+
+**Outputs**
+
+- Console-only report: length stats, uniqueness stats, overlap counts, and sample names for each generator.
+
+**Usage**
+
+```bash
+node tools/mixer-core/compare-language-generators.js --iso=amkoe --count=20 --seed=1
+node tools/mixer-core/compare-language-generators.js --base=353,354 --count=20 --seed=42
+```
+
+---
+
+### `compare-mixer-nextgen-to-app.js`
+
+**Purpose**
+
+Compares three generators side-by-side:
+
+- App generator with `legacyChain: true`
+- App generator with `legacyChain: false`
+- A helper-only “nextgen” generator implemented in this script
+
+This is useful when evaluating potential generator upgrades against the current in-app behavior.
+
+**Inputs**
+
+- `config/language-mixer-map.json` (when `--iso` is used)
+- `modules/names-mixer.js` + its dependencies (loaded in a Node `vm` sandbox)
+- Namebases (`modules/namebases-*.js` + `modules/namebases-all.js`)
+
+**Outputs**
+
+- Console-only report: summary stats for each generator and a first-N sample diff.
+
+**Usage**
+
+```bash
+node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=amkoe --count=40 --seed=1
+node tools/mixer-core/compare-mixer-nextgen-to-app.js --base=353,354 --count=40 --seed=42 --min=15 --max=50
+```
 
 ---
 
@@ -838,6 +895,94 @@ Use this when you want a quick, read-only health snapshot without running any mu
 
 ---
 
+### `check-language-mixer-map-duplicate-isos.js`
+
+**Purpose**
+
+Read-only helper that reports duplicate ISO rows inside `config/language-mixer-map.json`.
+
+**Inputs / Outputs**
+
+- Reads `config/language-mixer-map.json`.
+- Prints a console report (no files changed).
+
+**Usage**
+
+```bash
+node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js
+```
+
+---
+
+### `dedupe-language-mixer-map-duplicate-isos.js`
+
+**Purpose**
+
+Removes **exact duplicate rows** in `config/language-mixer-map.json` (same `iso` and same `bases[]`).
+
+This helper is conservative:
+
+- Dry-run by default.
+- With `--apply`, it only removes exact duplicates.
+- If the same ISO appears with **different** base arrays, it does not modify those rows and instead reports them for manual resolution.
+
+**Inputs / Outputs**
+
+- Reads `config/language-mixer-map.json`.
+- With `--apply`, rewrites `config/language-mixer-map.json` (while guarding against ISO loss).
+
+**Usage**
+
+```bash
+node tools/mixer-diagnostics/dedupe-language-mixer-map-duplicate-isos.js
+node tools/mixer-diagnostics/dedupe-language-mixer-map-duplicate-isos.js --apply
+```
+
+---
+
+### `report-language-mixer-iso-diff-vs-head.js`
+
+**Purpose**
+
+Reports ISO set differences between the current working copy of `config/language-mixer-map.json` and `HEAD:config/language-mixer-map.json`.
+
+**Inputs / Outputs**
+
+- Reads current `config/language-mixer-map.json`.
+- Reads `HEAD:config/language-mixer-map.json` via `git show`.
+- Prints a console summary (no files changed).
+
+**Usage**
+
+```bash
+node tools/mixer-diagnostics/report-language-mixer-iso-diff-vs-head.js
+```
+
+---
+
+### `merge-language-mixer-from-head.js`
+
+**Purpose**
+
+One-shot helper to merge `HEAD`'s `config/language-mixer-map.json` into the working copy in an append-only way:
+
+- For each ISO present in HEAD but missing in the current file, append the HEAD entry.
+- Never deletes or overwrites existing rows.
+
+**Inputs / Outputs**
+
+- Reads current `config/language-mixer-map.json`.
+- Reads `HEAD:config/language-mixer-map.json` via `git show`.
+- Rewrites current `config/language-mixer-map.json` (append-only).
+
+**Usage**
+
+```bash
+node tools/mixer-diagnostics/merge-language-mixer-from-head.js
+```
+
+---
+
 ### `report-wikipedia-list-coverage.js`
 
 **Purpose**
@@ -913,7 +1058,7 @@ Run this **instead of manually editing coverage snapshots** whenever you change 
   - **Truly unreconstructible extinct languages** (no speakers and not meaningfully studied) may be omitted; extinct languages that are still studied or partly reconstructible **are in scope** and should be included.
 - Historical `*-seed` / `*-subset` JSONs are deprecated and removed; helpers and coverage snapshots operate only on the canonical full-list JSONs.
 - Once a language exists in the mixer catalog or map, these helpers must **never remove it**; coverage work is additive and driven by wiring missing languages, not by deleting them.
-- In this project, a list item is not considered **fully wired** until it has a catalog entry, a mixer-map entry, and a **globally unique `bases[]` array** (subject only to explicitly documented historical exceptions); use these helpers to move each language all the way to that state, not to perform coverage-only passes. The `Nonunique Bases` metric surfaced by these helpers is a per-list snapshot of how many in-scope items still lack globally unique `bases[]` signatures.
+- In this project, a list item is not considered **fully wired** until it has a catalog entry, a mixer-map entry, and a **globally unique `bases[]` array**. Shared `bases[]` arrays are treated as uniqueness debt unless the sharing is linguistically defensible as the *same language* via a true alias, or the row is explicitly excluded from coverage via `skip: true`. The `Nonunique Bases` metric surfaced by these helpers is a per-list snapshot of how many in-scope items still lack globally unique `bases[]` signatures.
 
 Use this helper as the final step in a Wikipedia list workflow: first sync the JSON to the live article, then wire missing languages in catalog/map, and finally re-run this script to refresh the devplan snapshot.
 
@@ -958,6 +1103,73 @@ node tools/mixer-core/report-wikipedia-list-base-uniqueness.js path/to/list.json
 ```
 
 Use this alongside `report-wikipedia-list-coverage.js` when you want a per-list view of how many languages are still sharing bases globally (`Nonunique Bases`) and which fully wired items remain in shared `bases[]` clusters.
+
+---
+
+### `report-wikipedia-list-mixer-bases.js`
+
+**Purpose**
+
+For each resolved Wikipedia list item, prints its ISO, its `bases[]` signature in the mixer map, and the size/membership of the global base-set cluster it belongs to.
+
+This is useful for quickly spotting where a list’s “fully wired” items are still sitting in large global base clusters.
+
+**Inputs / Outputs**
+
+- Reads (without writing):
+  - list JSON (`tools/mixer-meta/*.json`)
+  - `config/language-mixes.json`
+  - `config/language-mixer-map.json`
+- Console-only TSV output.
+
+**Usage**
+
+```bash
+node tools/mixer-core/report-wikipedia-list-mixer-bases.js tools/mixer-meta/wikipedia-languages-of-africa-full.json
+```
+
+---
+
+### `check-official-languages-unique-bases.js`
+
+**Purpose**
+
+Quick uniqueness audit for the institutional languages list (`wikipedia-list-official-languages-by-institution-full.json`): reports which of those languages still share the same sorted `bases[]` set with other ISOs in the global mixer map.
+
+**Inputs / Outputs**
+
+- Reads (without writing):
+  - `tools/mixer-meta/wikipedia-list-official-languages-by-institution-full.json`
+  - `config/language-mixes.json`
+  - `config/language-mixer-map.json`
+- Console report only.
+
+**Usage**
+
+```bash
+node tools/mixer-meta/check-official-languages-unique-bases.js
+```
+
+---
+
+### `generate-wikipedia-languages-of-africa-full.js`
+
+**Purpose**
+
+Regenerates `tools/mixer-meta/wikipedia-languages-of-africa-full.json` from the `AFRICA_ROWS` table embedded in `tools/mixer-catalog/add-african-languages.js`.
+
+This is primarily for keeping the list JSON in sync with the internal curated table.
+
+**Inputs / Outputs**
+
+- Reads `tools/mixer-catalog/add-african-languages.js` (imports `AFRICA_ROWS`).
+- Writes `tools/mixer-meta/wikipedia-languages-of-africa-full.json`.
+
+**Usage**
+
+```bash
+node tools/mixer-meta/generate-wikipedia-languages-of-africa-full.js
+```
 
 ---
 
@@ -1749,6 +1961,76 @@ Run this when you want to inspect the exact palette for a specific race (or all 
 
 ---
 
+### `report-wikipedia-list-race-coverage.js`
+
+**Purpose**
+
+For each item in a Wikipedia list JSON, reports how many fantasy races can reach that language under `raceLanguageProfiles` (and which races).
+
+This is useful when you’re tuning race palettes and want to ensure that “important” lists of languages are actually reachable by at least one race.
+
+**Inputs / Outputs**
+
+- Reads (without writing):
+  - the list JSON
+  - `config/language-mixes.json`
+  - `modules/races.js` (extracts `raceLanguageProfiles`)
+- Console-only TSV output.
+
+**Usage**
+
+```bash
+node tools/mixer-races/report-wikipedia-list-race-coverage.js tools/mixer-meta/wikipedia-languages-of-africa-full.json
+```
+
+---
+
+## Softmods (mod bundles)
+
+These helpers are for **sandboxing modded content** (races/languages) without changing core files. They load bundles from `mods/<modId>/` using `mods/mods.json` (or an explicit mod list).
+
+### `softmod-race-loader.js`
+
+**Purpose**
+
+Loads and merges `races*.js` bundles from enabled mods under `mods/<modId>/`, producing merged `fantasyRaceBases`, `raceLanguageProfiles`, race sets, and expansionism overrides.
+
+This module is intended to be imported by test/sandbox scripts rather than run directly.
+
+### `softmod-language-loader.js`
+
+**Purpose**
+
+Loads and merges `languages*.js` bundles from enabled mods under `mods/<modId>/`, producing merged language catalog entries, mixer-map entries, and any `postMixedLanguages` additions.
+
+This module is intended to be imported by test/sandbox scripts rather than run directly.
+
+### `test-softmods-races.js`
+
+**Purpose**
+
+Sandbox preview runner that loads a fixed set of mods (currently `arcana-unearthed` and `blue-rose`), merges their race data into core, and prints a summary of new races, set changes, and coverage gaps.
+
+**Usage**
+
+```bash
+node tools/softmods/test-softmods-races.js
+```
+
+### `test-softmods-languages.js`
+
+**Purpose**
+
+Sandbox preview runner that loads a fixed set of mods (currently `arcana-unearthed` and `blue-rose`), merges their language data into core, and prints a summary of new language ISOs and mapping coverage.
+
+**Usage**
+
+```bash
+node tools/softmods/test-softmods-languages.js
+```
+
+---
+
 ## Experimental Markov helpers
 
 These helpers are **standalone Node scripts** for exploring compound / blended Markov behavior. They do **not** affect the in-browser generator or any bundles; they only print to stdout.
@@ -1886,6 +2168,40 @@ node tools/mixer-experiments/markov-full-upgrade-tester.js \
 ```
 
 Use this when experimenting with new long-form, multi-base name behavior before wiring anything into the in-browser generator.
+
+---
+
+## Root-level helper scripts
+
+These helpers live at the project root (not under `tools/`). They are typically one-off utilities.
+
+### `fix-bases.js`
+
+**Purpose**
+
+One-off normalizer for `config/language-mixer-map.json` that rewrites multi-line `bases` arrays to remove duplicates (preserving first occurrence order as encountered in the file).
+
+**Inputs / Outputs**
+
+- Reads and rewrites `config/language-mixer-map.json`.
+
+**Usage**
+
+```bash
+node fix-bases.js
+```
+
+### `run_python_server.bat` / `run_python_server.sh`
+
+**Purpose**
+
+Convenience wrappers to start a local Python dev server for the project.
+
+### `run_php_server.bat`
+
+**Purpose**
+
+Convenience wrapper to start a local PHP dev server for the project.
 
 ---
 
