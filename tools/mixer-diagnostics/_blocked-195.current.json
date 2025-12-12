@@ -1,0 +1,1174 @@
+{
+  "generatedAt": "2025-12-12T12:51:06.513Z",
+  "blockedCount": 68,
+  "blocked": [
+    {
+      "iso": "abui",
+      "bases": [
+        25,
+        194,
+        195,
+        198,
+        263
+      ],
+      "reducedBases": [
+        25,
+        194,
+        198,
+        263
+      ],
+      "collidesWith": [
+        "yagaria"
+      ]
+    },
+    {
+      "iso": "angal",
+      "bases": [
+        195,
+        198,
+        263,
+        366
+      ],
+      "reducedBases": [
+        198,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "fore"
+      ]
+    },
+    {
+      "iso": "asmat",
+      "bases": [
+        25,
+        194,
+        195,
+        263,
+        360
+      ],
+      "reducedBases": [
+        25,
+        194,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "melpa"
+      ]
+    },
+    {
+      "iso": "asmat-citak",
+      "bases": [
+        195,
+        263,
+        360,
+        368
+      ],
+      "reducedBases": [
+        263,
+        360,
+        368
+      ],
+      "collidesWith": [
+        "tangko"
+      ]
+    },
+    {
+      "iso": "asmat-kamoro",
+      "bases": [
+        194,
+        195,
+        198,
+        263,
+        360
+      ],
+      "reducedBases": [
+        194,
+        198,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "western"
+      ]
+    },
+    {
+      "iso": "australian-kriol",
+      "bases": [
+        1,
+        195,
+        312
+      ],
+      "reducedBases": [
+        1,
+        312
+      ],
+      "collidesWith": [
+        "nyangumarta"
+      ]
+    },
+    {
+      "iso": "awiyaana",
+      "bases": [
+        25,
+        195,
+        263,
+        368
+      ],
+      "reducedBases": [
+        25,
+        263,
+        368
+      ],
+      "collidesWith": [
+        "mombum"
+      ]
+    },
+    {
+      "iso": "banjar",
+      "bases": [
+        193,
+        194,
+        195,
+        367
+      ],
+      "reducedBases": [
+        193,
+        194,
+        367
+      ],
+      "collidesWith": [
+        "formosan"
+      ]
+    },
+    {
+      "iso": "bbh",
+      "bases": [
+        29,
+        179,
+        195,
+        251
+      ],
+      "reducedBases": [
+        29,
+        179,
+        251
+      ],
+      "collidesWith": [
+        "ply"
+      ]
+    },
+    {
+      "iso": "becking-dawi",
+      "bases": [
+        193,
+        195,
+        263
+      ],
+      "reducedBases": [
+        193,
+        263
+      ],
+      "collidesWith": [
+        "aghu"
+      ]
+    },
+    {
+      "iso": "benabena",
+      "bases": [
+        25,
+        195,
+        197,
+        263
+      ],
+      "reducedBases": [
+        25,
+        197,
+        263
+      ],
+      "collidesWith": [
+        "salt-yui"
+      ]
+    },
+    {
+      "iso": "bimin",
+      "bases": [
+        195,
+        263,
+        360,
+        367
+      ],
+      "reducedBases": [
+        263,
+        360,
+        367
+      ],
+      "collidesWith": [
+        "motu"
+      ]
+    },
+    {
+      "iso": "ceb",
+      "bases": [
+        193,
+        195,
+        304
+      ],
+      "reducedBases": [
+        193,
+        304
+      ],
+      "collidesWith": [
+        "bikol",
+        "kapampangan"
+      ]
+    },
+    {
+      "iso": "east-timor-papuan",
+      "bases": [
+        194,
+        195,
+        360,
+        367
+      ],
+      "reducedBases": [
+        194,
+        360,
+        367
+      ],
+      "collidesWith": [
+        "kowiai"
+      ]
+    },
+    {
+      "iso": "gadsup",
+      "bases": [
+        195,
+        198,
+        263
+      ],
+      "reducedBases": [
+        198,
+        263
+      ],
+      "collidesWith": [
+        "waffa"
+      ]
+    },
+    {
+      "iso": "gahuku",
+      "bases": [
+        194,
+        195,
+        263,
+        366
+      ],
+      "reducedBases": [
+        194,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "foe"
+      ]
+    },
+    {
+      "iso": "gogodala",
+      "bases": [
+        195,
+        263,
+        369
+      ],
+      "reducedBases": [
+        263,
+        369
+      ],
+      "collidesWith": [
+        "awyu-dumut"
+      ]
+    },
+    {
+      "iso": "golin",
+      "bases": [
+        193,
+        195,
+        197,
+        263
+      ],
+      "reducedBases": [
+        193,
+        197,
+        263
+      ],
+      "collidesWith": [
+        "jimi"
+      ]
+    },
+    {
+      "iso": "greater-awyu",
+      "bases": [
+        195,
+        263,
+        360,
+        365
+      ],
+      "reducedBases": [
+        263,
+        360,
+        365
+      ],
+      "collidesWith": [
+        "wiru"
+      ]
+    },
+    {
+      "iso": "ipili",
+      "bases": [
+        195,
+        197,
+        263
+      ],
+      "reducedBases": [
+        197,
+        263
+      ],
+      "collidesWith": [
+        "atohwaim-kaugat"
+      ]
+    },
+    {
+      "iso": "iranun",
+      "bases": [
+        193,
+        195,
+        304,
+        367
+      ],
+      "reducedBases": [
+        193,
+        304,
+        367
+      ],
+      "collidesWith": [
+        "filipino",
+        "ibanag"
+      ]
+    },
+    {
+      "iso": "juk-bahnaric",
+      "bases": [
+        29,
+        195
+      ],
+      "reducedBases": [
+        29
+      ],
+      "collidesWith": [
+        "rbb",
+        "rbb"
+      ]
+    },
+    {
+      "iso": "kamoro",
+      "bases": [
+        195,
+        263,
+        371
+      ],
+      "reducedBases": [
+        263,
+        371
+      ],
+      "collidesWith": [
+        "bami"
+      ]
+    },
+    {
+      "iso": "kanite",
+      "bases": [
+        25,
+        194,
+        195,
+        263
+      ],
+      "reducedBases": [
+        25,
+        194,
+        263
+      ],
+      "collidesWith": [
+        "kuman"
+      ]
+    },
+    {
+      "iso": "kasua",
+      "bases": [
+        195,
+        263,
+        368
+      ],
+      "reducedBases": [
+        263,
+        368
+      ],
+      "collidesWith": [
+        "awbono"
+      ]
+    },
+    {
+      "iso": "kenati",
+      "bases": [
+        193,
+        195,
+        263,
+        369
+      ],
+      "reducedBases": [
+        193,
+        263,
+        369
+      ],
+      "collidesWith": [
+        "buruwai"
+      ]
+    },
+    {
+      "iso": "kerewo",
+      "bases": [
+        195,
+        263,
+        370
+      ],
+      "reducedBases": [
+        263,
+        370
+      ],
+      "collidesWith": [
+        "baham"
+      ]
+    },
+    {
+      "iso": "kfj",
+      "bases": [
+        29,
+        195,
+        251,
+        401
+      ],
+      "reducedBases": [
+        29,
+        251,
+        401
+      ],
+      "collidesWith": [
+        "mnw",
+        "ril"
+      ]
+    },
+    {
+      "iso": "khm",
+      "bases": [
+        29,
+        193,
+        195
+      ],
+      "reducedBases": [
+        29,
+        193
+      ],
+      "collidesWith": [
+        "ilocano"
+      ]
+    },
+    {
+      "iso": "kopkaka",
+      "bases": [
+        194,
+        195,
+        263,
+        370
+      ],
+      "reducedBases": [
+        194,
+        263,
+        370
+      ],
+      "collidesWith": [
+        "karas"
+      ]
+    },
+    {
+      "iso": "kubo",
+      "bases": [
+        195,
+        197,
+        263,
+        371
+      ],
+      "reducedBases": [
+        197,
+        263,
+        371
+      ],
+      "collidesWith": [
+        "kiwai"
+      ]
+    },
+    {
+      "iso": "lembena",
+      "bases": [
+        195,
+        263,
+        368,
+        369
+      ],
+      "reducedBases": [
+        263,
+        368,
+        369
+      ],
+      "collidesWith": [
+        "korowai"
+      ]
+    },
+    {
+      "iso": "madang-languages",
+      "bases": [
+        195,
+        360,
+        366
+      ],
+      "reducedBases": [
+        360,
+        366
+      ],
+      "collidesWith": [
+        "chimbu-wahgi-languages",
+        "hamtai"
+      ]
+    },
+    {
+      "iso": "maranao",
+      "bases": [
+        193,
+        195,
+        367
+      ],
+      "reducedBases": [
+        193,
+        367
+      ],
+      "collidesWith": [
+        "pangasinan"
+      ]
+    },
+    {
+      "iso": "morigi",
+      "bases": [
+        193,
+        194,
+        195,
+        263
+      ],
+      "reducedBases": [
+        193,
+        194,
+        263
+      ],
+      "collidesWith": [
+        "hagen"
+      ]
+    },
+    {
+      "iso": "ndom",
+      "bases": [
+        194,
+        195,
+        197,
+        263
+      ],
+      "reducedBases": [
+        194,
+        197,
+        263
+      ],
+      "collidesWith": [
+        "inoke-yate"
+      ]
+    },
+    {
+      "iso": "ngarrindjeri",
+      "bases": [
+        29,
+        193,
+        194,
+        195
+      ],
+      "reducedBases": [
+        29,
+        193,
+        194
+      ],
+      "collidesWith": [
+        "kha"
+      ]
+    },
+    {
+      "iso": "nggem",
+      "bases": [
+        25,
+        195,
+        263,
+        366
+      ],
+      "reducedBases": [
+        25,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "chuave"
+      ]
+    },
+    {
+      "iso": "ninggerum",
+      "bases": [
+        195,
+        263,
+        366,
+        368
+      ],
+      "reducedBases": [
+        263,
+        366,
+        368
+      ],
+      "collidesWith": [
+        "fasu"
+      ]
+    },
+    {
+      "iso": "nomane",
+      "bases": [
+        25,
+        195,
+        263
+      ],
+      "reducedBases": [
+        25,
+        263
+      ],
+      "collidesWith": [
+        "bayono"
+      ]
+    },
+    {
+      "iso": "omati",
+      "bases": [
+        194,
+        195,
+        198,
+        263
+      ],
+      "reducedBases": [
+        194,
+        198,
+        263
+      ],
+      "collidesWith": [
+        "fuyug"
+      ]
+    },
+    {
+      "iso": "pa",
+      "bases": [
+        25,
+        195,
+        263,
+        369
+      ],
+      "reducedBases": [
+        25,
+        263,
+        369
+      ],
+      "collidesWith": [
+        "komolom"
+      ]
+    },
+    {
+      "iso": "pisa",
+      "bases": [
+        194,
+        195,
+        263,
+        368
+      ],
+      "reducedBases": [
+        194,
+        263,
+        368
+      ],
+      "collidesWith": [
+        "chimbu"
+      ]
+    },
+    {
+      "iso": "retta",
+      "bases": [
+        193,
+        194,
+        195
+      ],
+      "reducedBases": [
+        193,
+        194
+      ],
+      "collidesWith": [
+        "bunun",
+        "kalamian",
+        "northern-formosan",
+        "northern-luzon",
+        "northern-mindoro",
+        "paiwan",
+        "philippine",
+        "puyuma",
+        "rukai",
+        "south-mindanao",
+        "tsouic",
+        "greater-central-philippine",
+        "batanic",
+        "central-luzon"
+      ]
+    },
+    {
+      "iso": "riantana",
+      "bases": [
+        194,
+        195,
+        263,
+        369
+      ],
+      "reducedBases": [
+        194,
+        263,
+        369
+      ],
+      "collidesWith": [
+        "iha"
+      ]
+    },
+    {
+      "iso": "rumu",
+      "bases": [
+        194,
+        195,
+        263,
+        371
+      ],
+      "reducedBases": [
+        194,
+        263,
+        371
+      ],
+      "collidesWith": [
+        "kamberau"
+      ]
+    },
+    {
+      "iso": "sabakor",
+      "bases": [
+        193,
+        194,
+        195,
+        263,
+        360
+      ],
+      "reducedBases": [
+        193,
+        194,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "telefol"
+      ]
+    },
+    {
+      "iso": "samberigi",
+      "bases": [
+        195,
+        263,
+        360,
+        370
+      ],
+      "reducedBases": [
+        263,
+        360,
+        370
+      ],
+      "collidesWith": [
+        "kandawo"
+      ]
+    },
+    {
+      "iso": "sawi",
+      "bases": [
+        193,
+        194,
+        195,
+        263,
+        366
+      ],
+      "reducedBases": [
+        193,
+        194,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "mian"
+      ]
+    },
+    {
+      "iso": "sempan",
+      "bases": [
+        193,
+        194,
+        195,
+        197,
+        263
+      ],
+      "reducedBases": [
+        193,
+        194,
+        197,
+        263
+      ],
+      "collidesWith": [
+        "gobasi"
+      ]
+    },
+    {
+      "iso": "shiaxa",
+      "bases": [
+        193,
+        194,
+        195,
+        198,
+        263
+      ],
+      "reducedBases": [
+        193,
+        194,
+        198,
+        263
+      ],
+      "collidesWith": [
+        "momuna"
+      ]
+    },
+    {
+      "iso": "siane",
+      "bases": [
+        25,
+        195,
+        198,
+        263
+      ],
+      "reducedBases": [
+        25,
+        198,
+        263
+      ],
+      "collidesWith": [
+        "sinasina"
+      ]
+    },
+    {
+      "iso": "silimo",
+      "bases": [
+        25,
+        193,
+        195,
+        263,
+        366
+      ],
+      "reducedBases": [
+        25,
+        193,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "grand-valley-dani"
+      ]
+    },
+    {
+      "iso": "singlish",
+      "bases": [
+        1,
+        11,
+        195
+      ],
+      "reducedBases": [
+        1,
+        11
+      ],
+      "collidesWith": [
+        "javindo",
+        "petjo",
+        "xieheyu"
+      ]
+    },
+    {
+      "iso": "susuami",
+      "bases": [
+        195,
+        263,
+        366,
+        370
+      ],
+      "reducedBases": [
+        263,
+        366,
+        370
+      ],
+      "collidesWith": [
+        "maring"
+      ]
+    },
+    {
+      "iso": "tembagla",
+      "bases": [
+        25,
+        195,
+        263,
+        360
+      ],
+      "reducedBases": [
+        25,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "gende"
+      ]
+    },
+    {
+      "iso": "tokano",
+      "bases": [
+        25,
+        193,
+        195,
+        263
+      ],
+      "reducedBases": [
+        25,
+        193,
+        263
+      ],
+      "collidesWith": [
+        "dom"
+      ]
+    },
+    {
+      "iso": "trans-new-guinea",
+      "bases": [
+        194,
+        195,
+        263,
+        360
+      ],
+      "reducedBases": [
+        194,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "paniai-lakes"
+      ]
+    },
+    {
+      "iso": "urapmin",
+      "bases": [
+        193,
+        195,
+        263,
+        360
+      ],
+      "reducedBases": [
+        193,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "gimi"
+      ]
+    },
+    {
+      "iso": "usarufa",
+      "bases": [
+        25,
+        193,
+        194,
+        195,
+        263,
+        360,
+        366
+      ],
+      "reducedBases": [
+        25,
+        193,
+        194,
+        263,
+        360,
+        366
+      ],
+      "collidesWith": [
+        "akoye"
+      ]
+    },
+    {
+      "iso": "waboda",
+      "bases": [
+        193,
+        195,
+        198,
+        263
+      ],
+      "reducedBases": [
+        193,
+        198,
+        263
+      ],
+      "collidesWith": [
+        "huli"
+      ]
+    },
+    {
+      "iso": "walak",
+      "bases": [
+        25,
+        194,
+        195,
+        263,
+        366
+      ],
+      "reducedBases": [
+        25,
+        194,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "hupla"
+      ]
+    },
+    {
+      "iso": "wambon",
+      "bases": [
+        193,
+        195,
+        263,
+        366
+      ],
+      "reducedBases": [
+        193,
+        263,
+        366
+      ],
+      "collidesWith": [
+        "faiwol"
+      ]
+    },
+    {
+      "iso": "waruna",
+      "bases": [
+        193,
+        195,
+        263,
+        368
+      ],
+      "reducedBases": [
+        193,
+        263,
+        368
+      ],
+      "collidesWith": [
+        "nii"
+      ]
+    },
+    {
+      "iso": "west-bomberai",
+      "bases": [
+        193,
+        195,
+        263,
+        370
+      ],
+      "reducedBases": [
+        193,
+        263,
+        370
+      ],
+      "collidesWith": [
+        "densar"
+      ]
+    },
+    {
+      "iso": "western-pantar",
+      "bases": [
+        25,
+        193,
+        194,
+        195,
+        263
+      ],
+      "reducedBases": [
+        25,
+        193,
+        194,
+        263
+      ],
+      "collidesWith": [
+        "dano"
+      ]
+    },
+    {
+      "iso": "yagwoia",
+      "bases": [
+        195,
+        198,
+        263,
+        360
+      ],
+      "reducedBases": [
+        198,
+        263,
+        360
+      ],
+      "collidesWith": [
+        "anim-languages"
+      ]
+    },
+    {
+      "iso": "yogo-tamagario",
+      "bases": [
+        193,
+        195,
+        263,
+        371
+      ],
+      "reducedBases": [
+        193,
+        263,
+        371
+      ],
+      "collidesWith": [
+        "kimaama-kimaghama"
+      ]
+    }
+  ]
+}

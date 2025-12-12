@@ -162,10 +162,12 @@
       "name": "Bemba"
     },
     {
-      "name": "Bembe (Congo)"
+      "name": "Bembe (Congo)",
+      "iso": "bembe-congo"
     },
     {
-      "name": "Bembe (DRC)"
+      "name": "Bembe (DRC)",
+      "iso": "bembe-drc"
     },
     {
       "name": "Berber"
@@ -204,10 +206,12 @@
       "name": "Bobo"
     },
     {
-      "name": "Bole (Afroasiatic)"
+      "name": "Bole (Afroasiatic)",
+      "iso": "bole-afroasiatic"
     },
     {
-      "name": "Bole (Niger–Congo)"
+      "name": "Bole (Niger–Congo)",
+      "iso": "bole-niger-congo"
     },
     {
       "name": "Bolon"
@@ -234,10 +238,12 @@
       "name": "Bonjo"
     },
     {
-      "name": "Bono (Ghana-Ivory Coast)"
+      "name": "Bono (Ghana-Ivory Coast)",
+      "iso": "bono-ghana-ivory-coast"
     },
     {
-      "name": "Bono (Nigeria)"
+      "name": "Bono (Nigeria)",
+      "iso": "bono-nigeria"
     },
     {
       "name": "Boon"
@@ -384,10 +390,12 @@
       "name": "Ewondo"
     },
     {
-      "name": "Fang (Equatorial Guinea and Gabon)"
+      "name": "Fang (Equatorial Guinea and Gabon)",
+      "iso": "fang-equatorial-guinea-and-gabon"
     },
     {
-      "name": "Fang (Cameroon)"
+      "name": "Fang (Cameroon)",
+      "iso": "fang-cameroon"
     },
     {
       "name": "Fanji"
@@ -681,13 +689,16 @@
       "name": "Tondi Songway Kiini"
     },
     {
-      "name": "Tonga (Zimbabwe, Zambia, and Mozambique)"
+      "name": "Tonga (Zimbabwe, Zambia, and Mozambique)",
+      "iso": "tonga-zimbabwe-zambia-and-mozambique"
     },
     {
-      "name": "Tonga (Mozambique)"
+      "name": "Tonga (Mozambique)",
+      "iso": "tonga-mozambique"
     },
     {
-      "name": "Tonga (Malawi)"
+      "name": "Tonga (Malawi)",
+      "iso": "tonga-malawi"
     },
     {
       "name": "Totela"
@@ -756,10 +767,12 @@
       "name": "Wannu"
     },
     {
-      "name": "Wali (Ghana)"
+      "name": "Wali (Ghana)",
+      "iso": "wali-ghana"
     },
     {
-      "name": "Wali (Sudan)"
+      "name": "Wali (Sudan)",
+      "iso": "wali-sudan"
     },
     {
       "name": "Wapan"
