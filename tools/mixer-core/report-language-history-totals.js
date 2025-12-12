@@ -13,17 +13,22 @@ const fs = require("fs");
 const path = require("path");
 const cp = require("child_process");
 
-const root = path.resolve(__dirname, "..", "..");
+const {root, writeJson} = require("./_report-utils");
 
-function run(cmd) {
-  return cp.execSync(cmd, {cwd: root, encoding: "utf8"});
+function run(cmd, opts) {
+  const silentStderr = !!(opts && opts.silentStderr);
+  return cp.execSync(cmd, {
+    cwd: root,
+    encoding: "utf8",
+    stdio: silentStderr ? ["ignore", "pipe", "ignore"] : undefined,
+  });
 }
 
 function readJsonAtRevision(rev, relPath) {
   const repoPath = relPath.replace(/\\/g, "/");
   const cmd = `git show ${rev}:${repoPath}`;
   try {
-    const raw = run(cmd).replace(/^\uFEFF/, "");
+    const raw = run(cmd, {silentStderr: true}).replace(/^\uFEFF/, "");
     return JSON.parse(raw);
   } catch (e) {
     // File may not exist or may not be JSON at that revision; skip.
@@ -125,12 +130,7 @@ function main() {
     },
   };
 
-  const outDir = path.join(root, "tools", "mixer-diagnostics");
-  fs.mkdirSync(outDir, {recursive: true});
-  const outPath = path.join(outDir, "_language-history-totals.json");
-  fs.writeFileSync(outPath, JSON.stringify(summary, null, 2) + "\n", "utf8");
-
-  console.log("Wrote", path.relative(root, outPath).replace(/\\/g, "/"));
+  writeJson("tools/mixer-diagnostics/_language-history-totals.json", summary);
   console.log("Commits scanned:", summary.commitsScanned);
   console.log("History totals:");
   console.log("  catalog ISOs:", summary.history.mixTotal);

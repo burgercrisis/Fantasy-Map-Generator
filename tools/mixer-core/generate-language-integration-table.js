@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
- const {root, readText, readJson, writeText, writeJson, toTsv} = require("./_report-utils");
+const {root, readText, readJson, writeText, writeJson, toTsv} = require("./_report-utils");
 
 function parseArgs(argv) {
   const args = argv.slice(2);

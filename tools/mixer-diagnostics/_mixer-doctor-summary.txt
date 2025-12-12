@@ -1,0 +1,72 @@
+mixer-doctor run 2025-12-12T14:48:10.878Z
+
+=== report-lost-language-mappings (baselines) ===
+Wrote tools/mixer-diagnostics/_lost-languages-from-baselines.json
+Lost languages total: 0
+Lost from catalog: 0
+Lost from map: 0
+Lost from all: 0
+Baselines used: 1
+
+=== run-language-mixer-health ===
+Running language mixer health diagnostics...
+
+
+=== Diagnostics summaries ===
+
+=== diff-language-families.js summary ===
+Total entries in JSON: 3199
+Total entries in language-mixes-all.js: 3193
+
+=== check-language-mixer-coverage.js summary ===
+Total ISO codes in mixer map: 3199
+Total ISO codes in mixer catalog: 3199
+ISOs in map but missing from catalog (won't appear in dropdown): 0
+
+=== check-language-mixer-failures.js summary ===
+=== Markov mixer failure check ===
+Total catalog entries: 3199
+Languages that will fail in local mixer (no usable bases): 0
+  - Missing mapping entries: 0
+  - Mapped but bases array empty: 0
+  - Mapped but all bases invalid: 0
+
+=== check-language-mixer-name-duplicates.js summary ===
+=== Exact duplicate language names in catalog ===
+Total catalog entries: 3199
+Names with duplicates: 0
+
+=== report-language-mixer-duplicates.js summary ===
+Total catalog entries: 3199
+
+=== report-language-mixer-base-clusters.js summary ===
+=== Language Mixer base-set clusters (catalog languages only) ===
+Considered catalog languages (after filters): 3099
+Total distinct base sets (all sizes): 2280
+Clusters with identical base sets (size >= 2): 245
+Total language entries participating in these clusters: 1064
+Columns: iso | name | region | family | category | tags (comma-separated); bases are shared per cluster.
+
+
+=== generate-language-integration-table ===
+Wrote tools/mixer-diagnostics/language-integration-table.tsv
+Wrote tools/mixer-diagnostics/language-integration-table.json
+Wrote tools/mixer-diagnostics/wiki-only-language-items.tsv
+Wrote tools/mixer-diagnostics/wiki-only-language-items.json
+
+=== report-language-history-totals ===
+Wrote tools/mixer-diagnostics/_language-history-totals.json
+Commits scanned: 61
+History totals:
+  catalog ISOs: 3379
+  map ISOs: 3379
+  all ISOs: 3379
+Current totals:
+  catalog ISOs: 3199
+  map ISOs: 3199
+  all ISOs: 3199
+Loss counts (history minus current):
+  from catalog: 180
+  from map: 180
+  from all: 180
+

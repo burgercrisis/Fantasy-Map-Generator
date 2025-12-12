@@ -1,0 +1,17 @@
+{
+  "generatedFrom": {
+    "repoRoot": "E:\\code\\Fantasy-Map-Generator",
+    "baselineDir": "tools/mixer-diagnostics/baselines",
+    "baselineFile": null,
+    "maxBaselines": 5
+  },
+  "summary": {
+    "baselinesConsidered": 1,
+    "baselinesUsed": 1,
+    "lostCount": 0,
+    "lostFromCatalog": 0,
+    "lostFromMap": 0,
+    "lostFromAll": 0
+  },
+  "languages": []
+}

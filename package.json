@@ -12,6 +12,7 @@
     "mixer:namedups": "node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js",
     "mixer:failures": "node tools/mixer-core/check-language-mixer-failures.js",
     "mixer:health": "node tools/mixer-core/run-language-mixer-health.js",
+    "mixer:doctor": "node tools/mixer-core/mixer-doctor.js",
     "mixer:integration-table": "node tools/mixer-core/generate-language-integration-table.js",
     "mixer:race-coverage": "node tools/mixer-races/report-race-language-coverage.js",
     "mixer:race-per-coverage": "node tools/mixer-races/report-per-race-language-coverage.js",

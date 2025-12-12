@@ -2389,54 +2389,6 @@
       "in_mixer_map": false
     },
     {
-      "list": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
-      "list_title": "Wikipedia: Languages of Nepal – census tables snapshot",
-      "list_source": "https://en.wikipedia.org/wiki/Languages_of_Nepal",
-      "name": "Kewarat",
-      "iso": "",
-      "status": "unmatched",
-      "detail": "No iso provided and name did not match any catalog entry",
-      "candidates": "",
-      "in_catalog": false,
-      "in_mixer_map": false
-    },
-    {
-      "list": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
-      "list_title": "Wikipedia: Languages of Nepal – census tables snapshot",
-      "list_source": "https://en.wikipedia.org/wiki/Languages_of_Nepal",
-      "name": "Done",
-      "iso": "",
-      "status": "unmatched",
-      "detail": "No iso provided and name did not match any catalog entry",
-      "candidates": "",
-      "in_catalog": false,
-      "in_mixer_map": false
-    },
-    {
-      "list": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
-      "list_title": "Wikipedia: Languages of Nepal – census tables snapshot",
-      "list_source": "https://en.wikipedia.org/wiki/Languages_of_Nepal",
-      "name": "Malpande",
-      "iso": "",
-      "status": "unmatched",
-      "detail": "No iso provided and name did not match any catalog entry",
-      "candidates": "",
-      "in_catalog": false,
-      "in_mixer_map": false
-    },
-    {
-      "list": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
-      "list_title": "Wikipedia: Languages of Nepal – census tables snapshot",
-      "list_source": "https://en.wikipedia.org/wiki/Languages_of_Nepal",
-      "name": "Bankariya",
-      "iso": "",
-      "status": "unmatched",
-      "detail": "No iso provided and name did not match any catalog entry",
-      "candidates": "",
-      "in_catalog": false,
-      "in_mixer_map": false
-    },
-    {
       "list": "tools/mixer-meta/wikipedia-languages-of-pakistan-established.json",
       "list_title": "Wikipedia: Languages of Pakistan – established languages",
       "list_source": "https://en.wikipedia.org/wiki/Languages_of_Pakistan",

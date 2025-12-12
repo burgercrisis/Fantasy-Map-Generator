@@ -48,7 +48,158 @@ function indexByIso(arr) {
   return map;
 }
 
+function parseArgs(argv) {
+  const args = argv.slice(2);
+
+  function findValue(prefix) {
+    const hit = args.find(a => a.startsWith(prefix + "="));
+    if (!hit) return null;
+    return hit.slice(prefix.length + 1);
+  }
+
+  const baselineDir = findValue("--baseline-dir");
+  const baselineFile = findValue("--baseline-file");
+  const maxBaselinesRaw = findValue("--max-baselines");
+  const maxBaselines = maxBaselinesRaw != null && maxBaselinesRaw !== "" ? Number(maxBaselinesRaw) : 5;
+
+  return {
+    baselineDir,
+    baselineFile,
+    maxBaselines: Number.isFinite(maxBaselines) && maxBaselines > 0 ? maxBaselines : 5,
+    strict: args.includes("--strict")
+  };
+}
+
+function listBaselineFiles(baselineDir, maxBaselines) {
+  const fullDir = path.isAbsolute(baselineDir) ? baselineDir : path.join(root, baselineDir);
+  if (!fs.existsSync(fullDir)) return [];
+
+  const files = fs
+    .readdirSync(fullDir)
+    .filter(f => /^baseline-\d{8}-\d{6}\.json$/i.test(f))
+    .sort((a, b) => b.localeCompare(a))
+    .slice(0, maxBaselines)
+    .map(f => path.join(fullDir, f));
+
+  return files;
+}
+
+function indexIsoSet(arr) {
+  const set = new Set();
+  if (!Array.isArray(arr)) return set;
+  for (const v of arr) {
+    if (v == null) continue;
+    const s = String(v);
+    if (!s) continue;
+    set.add(s);
+  }
+  return set;
+}
+
+function diffSet(a, b) {
+  const out = [];
+  for (const v of a) {
+    if (!b.has(v)) out.push(v);
+  }
+  return out;
+}
+
 function main() {
+  const opts = parseArgs(process.argv);
+
+  if (opts.baselineDir || opts.baselineFile) {
+    const currentMap = readJson("config/language-mixer-map.json");
+    const currentMixes = readJson("config/language-mixes.json");
+
+    const currentMapByIso = indexByIso(currentMap);
+    const currentMixByIso = indexByIso(currentMixes);
+
+    const currentMapIsos = new Set(currentMapByIso.keys());
+    const currentCatalogIsos = new Set(currentMixByIso.keys());
+    const currentAllIsos = new Set([...currentCatalogIsos, ...currentMapIsos]);
+
+    const baselineFiles = opts.baselineFile
+      ? [path.isAbsolute(opts.baselineFile) ? opts.baselineFile : path.join(root, opts.baselineFile)]
+      : listBaselineFiles(opts.baselineDir, opts.maxBaselines);
+
+    const lossesByIso = new Map();
+    const baselinesUsed = [];
+
+    for (const file of baselineFiles) {
+      if (!fs.existsSync(file)) continue;
+      let snap;
+      try {
+        snap = JSON.parse(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, ""));
+      } catch {
+        continue;
+      }
+
+      const baseCatalog = indexIsoSet(snap && snap.catalogIsos ? snap.catalogIsos : []);
+      const baseMap = indexIsoSet(snap && snap.mapIsos ? snap.mapIsos : []);
+      const baseAll = indexIsoSet(
+        snap && snap.allIsos
+          ? snap.allIsos
+          : Array.from(new Set([...baseCatalog, ...baseMap]))
+      );
+
+      if (!baseAll.size) continue;
+      baselinesUsed.push(file);
+
+      const missingAll = diffSet(baseAll, currentAllIsos);
+      const missingCatalog = diffSet(baseCatalog, currentCatalogIsos);
+      const missingMap = diffSet(baseMap, currentMapIsos);
+
+      function recordMissing(iso, kind) {
+        const rec = lossesByIso.get(iso) || {iso, missing: {catalog: false, map: false, all: false}, baselines: []};
+        rec.missing[kind] = true;
+        if (!rec.baselines.includes(file)) rec.baselines.push(file);
+        lossesByIso.set(iso, rec);
+      }
+
+      for (const iso of missingAll) recordMissing(iso, "all");
+      for (const iso of missingCatalog) recordMissing(iso, "catalog");
+      for (const iso of missingMap) recordMissing(iso, "map");
+    }
+
+    const list = Array.from(lossesByIso.values()).sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
+
+    const summary = {
+      baselinesConsidered: baselineFiles.length,
+      baselinesUsed: baselinesUsed.length,
+      lostCount: list.length,
+      lostFromCatalog: list.filter(r => r.missing && r.missing.catalog).length,
+      lostFromMap: list.filter(r => r.missing && r.missing.map).length,
+      lostFromAll: list.filter(r => r.missing && r.missing.all).length,
+    };
+
+    const out = {
+      generatedFrom: {
+        repoRoot: root,
+        baselineDir: opts.baselineDir || null,
+        baselineFile: opts.baselineFile || null,
+        maxBaselines: opts.maxBaselines,
+      },
+      summary,
+      languages: list,
+    };
+
+    const outPath = path.join(root, "tools", "mixer-diagnostics", "_lost-languages-from-baselines.json");
+    fs.writeFileSync(outPath, JSON.stringify(out, null, 2) + "\n", "utf8");
+
+    console.log("Wrote", path.relative(root, outPath).replace(/\\/g, "/"));
+    console.log("Lost languages total:", summary.lostCount);
+    console.log("Lost from catalog:", summary.lostFromCatalog);
+    console.log("Lost from map:", summary.lostFromMap);
+    console.log("Lost from all:", summary.lostFromAll);
+    console.log("Baselines used:", summary.baselinesUsed);
+
+    if (opts.strict && summary.lostCount > 0) {
+      process.exitCode = 1;
+    }
+
+    return;
+  }
+
   const oldMap = readJsonFromGit("HEAD~1", "config/language-mixer-map.json");
   const newMap = readJson("config/language-mixer-map.json");
   const oldMixes = readJsonFromGit("HEAD~1", "config/language-mixes.json");
