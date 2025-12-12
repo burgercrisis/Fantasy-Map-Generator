@@ -15,9 +15,9 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 - ✅ **2025-12-12 Wikipedia Uralic full-list coverage pass (verified):** `tools/mixer-meta/wikipedia-uralic-languages-full.json` now resolves to `unmatched=0` (all non-skip list items are mapped to real catalog ISOs), and the §8.31b snapshot is refreshed via `update-wikipedia-list-coverage-in-devplan` (no hand-edited counts). In parallel, a first uniqueness burn-down batch split the Northern Sami `[274]` cluster, declustered the Komi-Permyak `[426]` lect cluster into unique `[426,...]` mixes, reduced the Hungarian `[15]` mega-cluster to a small remainder, and peeled a first mini-batch of Finnish dialect lects off the massive Finnic `[9]` hub by assigning unique Finnic-anchored mixes.
 
-- ✅ **2025-12-12 stability verification:** `run-language-mixer-health` remains green (**3030** catalog entries, **3030** map rows, **0** missing mappings, **0** Markov failures, **0** duplicate names); `check-language-mixer-map-duplicate-isos` reports **0** duplicate ISO rows.
+- ✅ **2025-12-12 stability verification:** `run-language-mixer-health` remains green (**3161** catalog entries, **3161** map rows, **0** missing mappings, **0** Markov failures, **0** duplicate names); `check-language-mixer-map-duplicate-isos` reports **0** duplicate ISO rows.
 
-- ✅ **2025-12-12 Uralic uniqueness (verified):** Uralic `bases[]` declustering pass resolved **all size≥3 identical base-set clusters** except the intentional Finnic hub `bases=[9]` (now **47** members); `run-language-mixer-suite` is green (**0** failures) and the §8.31b snapshot for `tools/mixer-meta/wikipedia-uralic-languages-full.json` was refreshed via `update-wikipedia-list-coverage-in-devplan`.
+- ✅ **2025-12-12 Uralic uniqueness (verified):** Uralic `bases[]` declustering pass resolved **all size≥3 identical base-set clusters** except the intentional Finnic hub `bases=[9]` (now **24** members); `run-language-mixer-suite` is green (**0** failures) and the §8.31b snapshot for `tools/mixer-meta/wikipedia-uralic-languages-full.json` was refreshed via `update-wikipedia-list-coverage-in-devplan`.
 
 - ✅ **2025-12-12 mixer comparison harness:** Added `tools/mixer-core/compare-mixer-nextgen-to-app.js` to compare **app legacyChain**, **app current**, and a **helper-only nextgen** mixer implementation side-by-side for the same inputs/seed. Initial smoke test with `--base="353" --count=10 --seed=42 --min=15 --max=50` showed app current and nextgen broadly aligned on length bands, while legacyChain produced much shorter names (expected given legacy behavior).
   - ✅ **ISO verification (seed=1, count=40):**
@@ -34,9 +34,33 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
     - ✅ `akoye`: app current ↔ nextgen exact overlap **12/40** (legacy ↔ current **0/40**)
     - ✅ `asmat`: app current ↔ nextgen exact overlap **7/40** (legacy ↔ current **0/40**)
     - ✅ `bunak`: app current ↔ nextgen exact overlap **38/40** (legacy ↔ current **0/40**)
+  - ✅ **2025-12-12 nextgenSyll pair coverage debugging:** Missing co-occur pairs (e.g. `[4,5]` in `--base=1-10 --count=300 --seed=1 --v=4`) were caused by the **segment→base attribution heuristic** collapsing segments onto one base, not by base selection. Added a “chosen bases, pre-attribution” pair-coverage section, which reports **45/45 (100%)** for the same run.
+  - ✅ **2025-12-12 provenance syllable mixer (tester, v=5):** Added `--v=5` (`nextgenSyllProv`) to the comparator. This version generates syllable segments from per-base chains while recording base provenance (ground-truth `baseSeq`, no post-hoc attribution). Verified with `--base=1-10 --count=300 --seed=1 --v=5`: **pair coverage 45/45 (100%)** and **chosenBases coverage 45/45 (100%)**.
   - ✅ **Comparator UX:** Sample diff now prints before the stats/overlap report, and sample lines include per-name base tags (segment order) for **app current** and **nextgen**.
   - ✅ **Comparator UX (audit view):** Sample diff now prints per-sample `segs:` + `name:` blocks so you can audit exactly which segments were stitched in **app current** and **nextgen** runs.
   - ✅ **Comparator enforcement (Option 2):** Comparator supports `--min-unique-bases=N` and defaults to requiring **2** unique bases per generated name when the selected ISO maps to multiple bases (enforced for **app current** and **nextgen**; legacy remains a single mixed-chain).
+
+- ✅ **2025-12-12 Cape Verde Creoles (195 decluster, verified):** burned down the shared `[13,195,308]` cluster by dedicating bases `[523–524]`:
+  - ✅ `barlavento-creoles`→`[523]` (Barlavento Creoles)
+  - ✅ `fogo-creole`→`[524]` (Fogo Creole)
+
+- ✅ **2025-12-12 Nenets invalid-base repair (verified):** `nenets` no longer points at missing base `323`; added dedicated Nenets base `[525]` and remapped `nenets`→`[525]`. `check-language-mixer-failures` and `check-language-mixer-coverage` are green.
+
+- ✅ **2025-12-12 Austroasiatic (195 decluster, verified):** burned down the shared `[29,193,195,251]` cluster by dedicating bases `[526–527]`:
+  - ✅ `juk-bahnaric`→`[526]` (Juk)
+  - ✅ `wbm`→`[527]` (Wa)
+
+- ✅ **2025-12-12 namebase collision refactor (verified):** eliminated the historical `i` collisions at **314/315/316/399** by moving the colliding fantasy bases to new indices (**Zhuang=530**, **Papuan=531**, **Shan=532**, **Kam-Sui=533**) and adding a dedicated **Tiwi=534** base. A helper (`tools/mixer-core/retarget-collided-namebase-indices.js`) retargeted affected `language-mixer-map.json` rows, and `run-language-mixer-health` remains green (**0 failures**, **0 missing mappings**).
+
+- ✅ **2025-12-12 Tai-Kadai uniqueness batches (verified):**
+  - Declustering removed the `bases=[530]` mega-cluster (33 members) by assigning unique Tai-Kadai-plausible mixes.
+  - Declustering removed the `bases=[251,252]` Thai/Lao cluster (21 members) by assigning unique Tai-Kadai-plausible mixes.
+  - Follow-up declustering removed the `bases=[317]` Kra cluster (kept `kra` as `[317]`, moved the other lects onto unique `[317,...]` mixes).
+  - Follow-up declustering removed the `bases=[318]` Hlai cluster (kept `hlai` as `[318]`, moved the other lects onto unique `[318,...]` mixes).
+  - ✅ Final Tai-Kadai cleanup reduced **all** Tai-Kadai identical base-set clusters of size **≥ 3** to **0** (`report-language-mixer-base-clusters --category=tai-kadai --min-size=3`), and `run-language-mixer-health` remains green.
+  - Both batches are repeatable via helpers (`tools/mixer-core/decluster-tai-kadai-530.js`, `tools/mixer-core/decluster-tai-kadai-251-252.js`) and the suite remains green.
+
+- ✅ **2025-12-12 mixer-map hygiene (verified):** removed a duplicate `mogholi` row in `config/language-mixer-map.json` (the incorrect duplicate included base `11`). `check-language-mixer-map-duplicate-isos` is green and `run-language-mixer-health` is green.
 
 - ✅ **2025-12-12 policy update (uniqueness enforcement):** "Allowed clusters" are now permitted **only** when the sharing is linguistically defensible (e.g. true alias entries for the *same language* or items excluded from coverage like `skip: true`). Broad macro hubs (e.g. Hausa-as-Chadic, generic Uralic base-9, Mandarin-as-all-Sinitic) are no longer treated as acceptable end-state behavior; any identical shared `bases[]` arrays among non-skipped languages are treated as **uniqueness debt** to be burned down.
 
@@ -154,7 +178,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - **2025‑12‑11 micro-pass (small-cluster burn-down, batch 3):** eliminated a large set of 2–4 member collisions by moving list-aliases, regional lects, and contact varieties onto unique mixes (including Catalan/Aragonese overlaps, Bantu micro-pairs, Romani micro-variants, and several pidgins). After this pass, `report-wikipedia-list-base-uniqueness.js` reports:
   - Native-speakers helper: **unique bases 156 / clustered bases 21**
   - Europe helper: **unique bases 112 / clustered bases 26**
-  - `check-language-mixer-map-duplicate-isos.js`: **Duplicate ISO codes: 0** (3030 rows / 3030 unique ISOs)
+  - ✅ **2025-12-12 verification:** `check-language-mixer-map-duplicate-isos.js` reports **Duplicate ISO codes: 0** (**3161** rows / **3161** unique ISOs)
  set.
   - **Post-restore + fixer diagnostics snapshot (2025-12-11)**
     - `merge-language-mixer-from-head` and `restore-lost-language-mappings` now report
@@ -179,7 +203,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
     - **2025-12-11 deeper diagnostics pass:**
       - `check-language-mixer-coverage`: map has 2,932 unique ISOs; catalog has 3,025; **catalog missing from map = 93**; **map missing from catalog = 0**.
       - `check-language-mixer-failures`: **116 total failures** (76 missing mapping + 40 “all bases invalid”; 0 empty-base entries).
-      - `check-language-mixer-map-duplicate-isos`: fixed an accidental duplicate ISO mapping for `ilocano-native-speakers`; verified **Duplicate ISO codes: 0**.
+      - ✅ **2025-12-12 verification:** `check-language-mixer-map-duplicate-isos` reports **Duplicate ISO codes: 0**.
   - `softmods/softmod-language-loader.js` + `softmods/test-softmods-languages.js`
     - Node-only softmod prototype for merging extra language bundles from
       `mods/**/languages*.js` on top of an in-memory copy of the canonical
@@ -211,7 +235,7 @@ Status:
 - Length ranges (`min/max`) broadly match seed distributions; most are already quite tight around their medians.
 - Duplication patterns reflect Romance flavors reasonably (e.g. French allowing `nlrs` doubles, Italian `cltr`).
 - Earlier, many Romance dialects and offshoots in `language-mixer-map` all mapped back onto the same few bases (Spanish, Portuguese, French, Italian, Occitan, Sardinian, Neapolitan). A dedicated multi-batch **Worker‑3 uniqueness pass** has since burned down most of that debt: the majority of mapped Romance languages now have globally unique `[bases]` arrays, with only a short tail of shared-base clusters left for follow-up.
-
+@@
 Takeaway:
 - Core Romance macro-family is in **good shape** for fantasy-mapping use at a coarse level (seed quality, duplication, and high-level flavor), and a substantial slice of the previously-documented iso/dialect-level uniqueness debt has already been paid down via the Worker‑3 pass.
 - Remaining Romance work should focus on the small number of still-shared base clusters surfaced by `report-language-mixer-base-clusters` (currently concentrated around bases 3, 13, 22, 43, and 44) until each mapped Romance language has a unique base or mix signature.
@@ -219,10 +243,10 @@ Takeaway:
 - ✅ **2025‑12‑11 micro-pass:** `gallurese` now uses a mixed base set **[279, 233]** (Corsican + Sardinian) instead of sharing pure Corsican base 279. On the `Languages of Europe` helper, this raised **unique bases** among fully wired items from 85 to 86 and reduced **clustered bases** from 37 to 36, while keeping the ISO set unchanged.
  - **2025‑12‑11 micro-pass:** `pannonian-latin` now uses a mixed base set **[8, 3]** (Latin + Italian) instead of sharing the pure Latin base `[8]` with `lat`. On the `Languages of Europe` helper, this further increases the number of unique Romance `[bases]` signatures and reduces one of the remaining 2‑language Romance micro-clusters, without changing the ISO set.
  - **2025‑12‑11 micro-pass (Portuguese creoles, batch 1):** `bengali-portuguese-creole`, `cochin-portuguese-creole`, and `sri-lankan-portuguese-creole` now use `[13,183,256]` (Portuguese + Hindi + Odia), `[13,199,255]` (Portuguese + Tamil + Malayalam), and `[13,199,205]` (Portuguese + Tamil + Sinhala) instead of pure `[13]`, splitting the South Asian Portuguese-creole tail off the base‑13 macro-cluster while keeping core Portuguese standards on pure `[13]`.
- - **2025‑12‑11 micro-pass (Portuguese creoles, batch 2):** `korlai-portuguese-creole`, `kristang`, `macanese-patois`, and `mardijker-creole` now use `[13,183,253]` (Portuguese + Hindi + Marathi), `[13,195,304]` (Portuguese + Malay + Tagalog/Philippine), `[11,13,30]` (Portuguese + Mandarin + Cantonese), and `[13,195,367]` (Portuguese + Malay + Eastern Indonesian) instead of pure `[13]`, peeling off a second wave of non-European Portuguese creoles from the base‑13 macro-cluster while keeping core Portuguese standards canonical.
+ - ✅ **2025‑12‑11 micro-pass (Portuguese creoles, batch 2):** `korlai-portuguese-creole`, `kristang`, `macanese-patois`, and `mardijker-creole` now use `[13,183,253]` (Portuguese + Hindi + Marathi), `[13,304]` (Portuguese + Tagalog/Philippine), `[11,13,30]` (Portuguese + Mandarin + Cantonese), and `[13,195,367]` (Portuguese + Malay + Eastern Indonesian) instead of pure `[13]`, peeling off a second wave of non-European Portuguese creoles from the base‑13 macro-cluster while keeping core Portuguese standards canonical.
  - **2025‑12‑11 micro-pass (Portuguese creoles, batch 3):** Cape Verdean macro entries `barlavento-creoles`, `sotavento-creoles`, `fogo-creole`, and `santiago-creole` now use `[13,195,308]`, `[13,195,346]`, `[13,195,308,346]`, and `[13,195,308,367]` instead of pure `[13]`, giving each macro a distinct Portuguese-anchored creole signature and further shrinking the base‑13 cluster.
  - **2025‑12‑11 micro-pass (Spanish-contact creoles):** `chavacano` now uses `[4,193]` (Spanish + Tagalog) instead of pure Spanish `[4]`, `palenquero` uses `[4,153]` (Spanish + Kongo) instead of `[4]`, and `roquetas-pidgin-spanish` uses `[1,4,13]` (English + Spanish + Portuguese) instead of `[4]`, shrinking the pure‑Spanish `[4]` cluster while keeping `spa` as the canonical pure `[4]` Castilian/Spanish base.
-- **2025‑12‑11 micro-pass (Spanish-contact lects, batch 2):** `cocoliche` now uses `[3,4,286]` (Italian + Spanish + Asturian/West Iberian) instead of pure `[4]`, `llanito` uses `[1,4,231]` (English + Spanish + Judeo‑Spanish) instead of `[4]`, and `mediterranean-lingua-franca` uses `[2,3,4,18]` (French + Italian + Spanish + Maghrebi Arabic) instead of `[4]`, further shrinking the pure‑Spanish `[4]` dialect/lect cluster while keeping `spa` as the only pure `[4]` Castilian/Spanish standard.
+ - **2025‑12‑11 micro-pass (Spanish-contact lects, batch 2):** `cocoliche` now uses `[3,4,286]` (Italian + Spanish + Asturian/West Iberian) instead of pure `[4]`, `llanito` uses `[1,4,231]` (English + Spanish + Judeo‑Spanish) instead of `[4]`, and `mediterranean-lingua-franca` uses `[2,3,4,18]` (French + Italian + Spanish + Maghrebi Arabic) instead of `[4]`, further shrinking the pure‑Spanish `[4]` dialect/lect cluster while keeping `spa` as the only pure `[4]` Castilian/Spanish standard.
 - **2025‑12‑11 micro-pass (Spanish dialects, batch 3):** remaining Spanish dialect lects `canarian`, `cast-o`, `castilian`, `castrapo`, `mallorcan`, `menorcan`, and `murcian` have been moved off pure `[4]` onto unique Spanish‑anchored mixes `[2,4,286]`, `[3,4,232]`, `[2,3,4]`, `[2,4,232,286]`, `[3,4,233]`, `[2,4,233]`, and `[4,8,233]` respectively, leaving `spa` as the sole pure‑`[4]` Castilian/Spanish standard while preserving fine-grained dialect distinctions.
 - **2025‑12‑11 micro-pass (Scandinavian + Portuguese cluster trim):** `norwegian` now mixes `[6,236]` and `danish` `[0,6,235]`, breaking the pure `[6]` Scandinavian cluster; `vosgien` moved to `[2,279]` to free the `[2,233]` mix for standard French; `brazilian-portuguese` now uses `[13,233]` to express its Sardinian/Azorean substrate instead of sharing pure `[13]`. CLI helper `generate-language-pair-samples.js` now also reports per-run “never mixed” ISOs so these rewires can be prioritized directly from helper output.
 - **2025‑12‑11 micro-pass (Eastern Romance split):** cleared the `[8,233]` cluster by remapping `eastern-romanian` to `[8,233,43]` and `northern-romanian` to `[43,233]`, keeping `lat` `[8]` canonical and using Roman base `43` to differentiate the two Eastern Romance lects.
@@ -245,7 +269,7 @@ Takeaway:
 - **Linked Wikipedia lists:** *Languages of Europe* subset (see §8.7).
 - **2025‑12‑11 micro-pass (Udmurt/Besermyan):** `besermyan` now uses `[283,438]`, adding a Finnic/Sámi-flavored layer **438** on top of the Udmurt base **283**, while `udmurt` remains the sole pure-`[283]` Udmurt standard.
 - ✅ **2025‑12‑11 micro-pass (South Estonian / Kraasna):** `south-estonian` remains on pure `[424]` as the South Estonian anchor, while `kraasna` now uses `[424,283,425]`, adding Udmurt **283** and North-Estonian **425** layers so that it no longer shares a pure `[424]` key with `south-estonian` or collide with the existing South Estonian dialect mixes.
-- **2025‑12‑11 verification:** `report-language-mixer-base-clusters --category=Uralic` now shows a remaining `[9]` hub cluster (**47** members); under the current policy this is treated as remaining uniqueness debt to split rather than an intentional end-state.
+- **2025‑12‑11 verification:** `report-language-mixer-base-clusters --category=Uralic` shows the remaining `[9]` hub cluster (currently **24** members) and no other size≥3 clusters; under the current policy this is treated as remaining uniqueness debt to split rather than an intentional end-state.
 
 ### 2.3 Germanic cluster
 
@@ -967,7 +991,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Scope:** Regional overview of major languages and families across South Asia (Indo-Aryan, Dravidian, Iranian, Nuristani, Tibeto-Burman, etc.).
 - **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, and neighbors); see [§2.9 South Asia (Indo-Aryan / Dravidian)](#29-south-asia-indo-aryan--dravidian) and the South Asia items in §4.
 
-- ? **Status tier:** **Complete**
+- ✅ **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
@@ -1003,7 +1027,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Scope:** Overview of Papuan and Austronesian languages across Melanesia, Micronesia, and Polynesia, including Trans–New Guinea and Oceanic branches.
 - **Primary families / regions touched:** Papuan & Pacific Austronesian region; see [§2.12 Papuan & Pacific Austronesian (second-pass)](#212-papuan--pacific-austronesian-second-pass).
 
-- ? **Status tier:** **Complete**
+- ✅ **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
@@ -1030,7 +1054,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Scope:** Overview of major language families and key standard languages across Europe (Romance, Germanic, Slavic, Celtic, Hellenic/Greek, Albanian, Armenian, Baltic, Uralic, Basque, and others).
 - **Primary families / regions touched:** European families documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed) (Romance, Germanic, Slavic & East European cluster, Celtic branches, Uralic entries, etc.).
 
-- ? **Status tier:** **Complete**
+- **Status tier:** **In progress (full table snapshot)**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
@@ -1057,7 +1081,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Scope:** Overview of major language families and key languages across West Asia (Anatolia, the Levant, Mesopotamia, the Arabian Peninsula, the Caucasus, and Iran), including Semitic, Iranian, Turkic, Kartvelian, Armenian, and related branches.
 - **Primary families / regions touched:** West Asian families and neighbors documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed), including Central Semitic, Iranian, Caucasian, and adjacent Indo-European and Turkic clusters.
 
-- ? **Status tier:** **Complete**
+- ✅ **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
@@ -1084,7 +1108,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Scope:** Regional overview of major languages and families across North America (English, Spanish, French, Na-Dene / Athabaskan, Algonquian, Eskimo–Aleut, etc.), with a focus on representative standards and macro entries.
 - **Primary families / regions touched:** North American indigenous & contact zones; ties into [§2.11 Americas (indigenous & contact zones)](#211-americas-indigenous--contact-zones) and the Na-Dene / Algonquian / Eskimo–Aleut notes there.
 
-- ? **Status tier:** **Complete**
+- ✅ **Status tier:** **Complete**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
@@ -1141,18 +1165,26 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json`
 
-- **Status tier:** **In progress (full section)** – this JSON mirrors every row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
+- **Status tier:** **In progress (full section)** – this JSON tracks every language row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 168
+  - `fully wired:` 165
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 163
+  - `Nonunique Bases:` 159
 
-- **Status notes:** Coverage is now complete for this list (`fully wired` = 100% of considered). Next work is base-uniqueness declustering (still high `Nonunique Bases`) and confirming/adjusting race reachability where needed.
+- **Status notes:** Coverage is now complete for this list (`fully wired` = 100% of considered). Next work is base-uniqueness declustering (still high `Nonunique Bases`) and confirming/adjusting race reachability where needed. ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the Koreanic `bases=[10]` mega-cluster (kept `kor` as the anchor while moving dialect/lect entries onto unique `[10,...]` mixes); per-list base-set uniqueness moved from `clustered bases=60` to `clustered bases=58` and `run-language-mixer-suite` is green (**0** failures).
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the `mang` item off the shared `[179,251]` base-set, reducing per-list base-set `clustered bases` from **47** to **46** (suite still green, 0 failures).
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): broke the remaining Mongolic collision by moving `torgut` off the shared `[276,296,381]` base-set, reducing per-list base-set `clustered bases` from **46** to **44** (suite still green, 0 failures).
+
+- ✅ 2025-12-12 uniqueness micro-pass (verified): resolved the Hlai `bases=[318]` cluster (Hlai now `clusterSize=1` in the China list), reducing per-list base-set `clustered bases` from **44** to **43** (suite still green, 0 failures).
 
 ### 8.14 Languages of Bangladesh – regional snapshot
 
@@ -1265,13 +1297,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 223
+  - `fully wired:` 125
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 0
+  - `unmatched:` 19
   - `ambiguous:` 0
-  - `Nonunique Bases:` 222
+  - `Nonunique Bases:` 140
 
 ### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
 
@@ -1434,4 +1466,4 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Uniqueness notes:** Under the stricter "linguistically defensible" policy, any `Nonunique Bases` count here indicates remaining uniqueness debt in the list items (excluding any `skip: true` entries). Lexifiers and regional hubs may still appear as **ingredients** in mixes, but identical shared `bases[]` arrays among distinct non-skipped languages are not treated as acceptable end state.
 
 ### 9. Mixer restore snapshots
- - 2025-12-11: Verified that live `language-mixer-map.json` and `language-mixes.json` contain all `iso` entries from the `before-*` snapshot JSONs; no languages or catalog entries were lost, only base/mix adjustments.
+ - ✅ **2025-12-12 verification:** Current `config/language-mixer-map.json` and `config/language-mixes.json` contain all `iso` entries from the `config/*before-*.json` snapshot files (`language-mixer-map.before-restore.json`, `language-mixer-map.before-fix.json`, `language-mixes.before-restore.json`); snapshot ISO diff shows `missing=0` for each.

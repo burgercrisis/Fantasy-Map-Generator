@@ -181,5 +181,15 @@ window.realWorldNameBases = [
       {name: "Madurese", i: 519, min: 4, max: 11, d: "lnrt", m: 0, b: "Bangkalan,Sampang,Pamekasan,Sumenep,Kamal,Socah,Blega,Banyuates,Ketapang,Tanjungbumi,Kalianget,Sapudi,Kangean"},
       {name: "North New Guinea", i: 520, min: 4, max: 11, d: "lnrt", m: 0, b: "Jayapura,Sentani,Genyem,Sarmi,Serui,Biak,Manokwari,Sorong,Nabire,Timika,Wewak,Vanimo,Aitape,Lae,Madang"},
       {name: "Sawila", i: 521, min: 4, max: 11, d: "lnrt", m: 0, b: "Kalabahi,Alor,Alor Kecil,Alor Besar,Teluk Mutiara,Bukapiting,Baranusa,Pantar,Marisa,Atambua,Kupang,Larantuka"},
-      {name: "Halmahera Sea", i: 522, min: 4, max: 11, d: "lnrt", m: 0, b: "Ternate,Tidore,Sofifi,Weda,Tobelo,Galela,Sanana,Bacan,Obi,Morotai,Patani,Buli,Gebe,Seram,Ambon"}
+      {name: "Halmahera Sea", i: 522, min: 4, max: 11, d: "lnrt", m: 0, b: "Ternate,Tidore,Sofifi,Weda,Tobelo,Galela,Sanana,Bacan,Obi,Morotai,Patani,Buli,Gebe,Seram,Ambon"},
+      {name: "Barlavento Creoles", i: 523, min: 4, max: 11, d: "lnrt", m: 0, b: "Cape Verde,Santo Antao,Ribeira Grande,Porto Novo,Sao Vicente,Mindelo,Sao Nicolau,Ribeira Brava,Sal,Espargos,Santa Maria,Boa Vista,Sal Rei"},
+      {name: "Fogo Creole", i: 524, min: 4, max: 11, d: "lnrt", m: 0, b: "Fogo,Sao Filipe,Mosteiros,Chã das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna"},
+      {name: "Nenets", i: 525, min: 4, max: 11, d: "lnrt", m: 0, b: "Nenets,Okrug,Naryan-Mar,Salekhard,Yamal,Obdorsk,Ob River,Pechora River,Kara Sea,Novaya Zemlya,Vorkuta,Dudinka,Tazovsky,Urengoy"},
+      {name: "Juk (Bahnaric)", i: 526, min: 4, max: 11, d: "lnrt", m: 0, b: "Gia Lai,Kon Tum,Pleiku,Kon Tum City,An Khe,Ayun Pa,Chu Se,Dak Doa,Dak Lak,Buon Ma Thuot,Mang Yang,Cambodia,Ratanakiri,Stung Treng"},
+      {name: "Wa", i: 527, min: 4, max: 11, d: "lnrt", m: 0, b: "Wa State,Panghsang,Pangkham,Mongmao,Shan State,Kengtung,Lashio,Muse,Namhsan,Hopang,Menglian,Cangyuan,Lincang,Yunnan"},
+      {name: "Tiwi", i: 534, min: 4, max: 11, d: "lnrt", m: 0, b: "Wurrumiyanga,Nguiu,Pirlangimpi,Milikapiti,Snake Bay,Garden Point,Bathurst Island,Melville Island,Pickertaramoor,Ranku,Kulama,Putjamirra,Andranangoo,Apsley Strait,Fort Dundas"},
+      {name: "Ari (Papuan)", i: 535, min: 4, max: 11, d: "lnrt", m: 0, b: "Western Province,Daru,Kiunga,Fly River,Ok Tedi,Tabubil,Balimo,Bamu River,Lake Murray,Nomad District,Mabudauan,Kundiawa,Port Moresby"},
+      {name: "Maguindanao", i: 536, min: 4, max: 11, d: "lnrt", m: 0, b: "Cotabato City,Maguindanao,Sultan Kudarat,Shariff Aguak,Datu Odin Sinsuat,Parang,Buluan,Talayan,Datu Piang,Upi,Midsayap,Pikit,Tacurong,General Santos"},
+      {name: "Sotavento Creoles", i: 537, min: 4, max: 11, d: "lnrt", m: 0, b: "Santiago,Praia,Cidade Velha,Assomada,Santa Catarina,Tarrafal,Sao Domingos,Sao Lourenco dos Orgaos,Maio,Porto Ingles,Vila do Maio,Brava,Nova Sintra,Furna"},
+      {name: "Sundanese", i: 538, min: 4, max: 11, d: "lnrt", m: 0, b: "Bandung,Bogor,Sukabumi,Cianjur,Tasikmalaya,Garut,Sumedang,Subang,Majalengka,Cirebon,Indramayu,Purwakarta,Karawang,Depok,Bekasi,Serang"}
     ];

@@ -24849,5 +24849,299 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "family": "Kiranti"
+  },
+  {
+    "name": "Rajbanshi",
+    "iso": "rjs",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bengali–Assamese"
+  },
+  {
+    "name": "Majhi",
+    "iso": "mjz",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bihari"
+  },
+  {
+    "name": "Thangmi (Thami)",
+    "iso": "thf",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Newaric"
+  },
+  {
+    "name": "Bote",
+    "iso": "bmj",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Unclassified Indo-Aryan"
+  },
+  {
+    "name": "Darai",
+    "iso": "dry",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Unclassified Indo-Aryan"
+  },
+  {
+    "name": "Yamphu",
+    "iso": "ybi",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Mewahang",
+    "iso": "emg",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Puma",
+    "iso": "pum",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Athpahariya (Athpare)",
+    "iso": "aph",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Kagate (Syuba)",
+    "iso": "syw",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Raute",
+    "iso": "rau",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Raji–Raute"
+  },
+  {
+    "name": "Kaike (Magar Kaike)",
+    "iso": "kzq",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
+    "name": "Baram",
+    "iso": "brd",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Newaric"
+  },
+  {
+    "name": "Lohorung",
+    "iso": "lrr",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Tilung",
+    "iso": "tij",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Sadri",
+    "iso": "sck",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bihari"
+  },
+  {
+    "name": "Kurmali",
+    "iso": "kyw",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bihari"
+  },
+  {
+    "name": "Nar Phu",
+    "iso": "npa",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
+    "name": "Dura",
+    "iso": "drq",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Magaric"
+  },
+  {
+    "name": "Byangsi",
+    "iso": "bee",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "West Himalayish"
+  },
+  {
+    "name": "Pahari (Sino-Tibetan)",
+    "iso": "phj",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Newaric"
+  },
+  {
+    "name": "Lhowa (Lhopa)",
+    "iso": "loy",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Lhomi",
+    "iso": "lhm",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Tichurong",
+    "iso": "tcn",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Koch",
+    "iso": "kdq",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Boro-Garo"
+  },
+  {
+    "name": "Nubri",
+    "iso": "kte",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Mugom–Karmarong",
+    "iso": "muk",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Walungge",
+    "iso": "ola",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic"
+  },
+  {
+    "name": "Vayu",
+    "iso": "vay",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Jumli",
+    "iso": "jml",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Eastern Pahari"
+  },
+  {
+    "name": "Boro (Bodo)",
+    "iso": "brx",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Boro-Garo"
+  },
+  {
+    "name": "Sonha",
+    "iso": "soi",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Western Hindi"
+  },
+  {
+    "name": "Jerung (Jero)",
+    "iso": "jee",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Dhuleli",
+    "iso": "dhuleli",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "West Himalayish"
+  },
+  {
+    "name": "Bahing",
+    "iso": "bhj",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Dungmali",
+    "iso": "raa",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Sampang",
+    "iso": "rav",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Kiranti"
+  },
+  {
+    "name": "Ghale",
+    "iso": "ghale",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tamangic"
+  },
+  {
+    "name": "Kumhali",
+    "iso": "kumhali",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan"
+  },
+  {
+    "name": "Rana Tharu",
+    "iso": "thr",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Tharu"
+  },
+  {
+    "name": "Bajureli (Doteli)",
+    "iso": "bajureli-doteli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Doteli"
+  },
+  {
+    "name": "Dadeldhuri (Doteli)",
+    "iso": "dadeldhuri-doteli",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Doteli"
   }
 ]

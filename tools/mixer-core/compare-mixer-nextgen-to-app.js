@@ -1157,6 +1157,7 @@ function runNextgenSyllableChain({baseIndices, count, seed, min, max, weights, m
   const names = [];
   const segTextLists = [];
   const baseSeqs = [];
+  const chosenBasesList = [];
 
   const availableUniqueBases = Array.from(new Set(contexts.map(c => c.idx))).length;
   const requiredUniqueBases =
@@ -1168,6 +1169,7 @@ function runNextgenSyllableChain({baseIndices, count, seed, min, max, weights, m
 
   for (let i = 0; i < count; i++) {
     const chosenBases = pickUniqueBasesFromContexts(contexts, rng, minUniqueBases);
+    chosenBasesList.push(chosenBases);
     const chain = calculateMixedChainFromBaseIndices(chosenBases, bases, chosenBases.map(() => 1));
 
     const baseMins = chosenBases.map(idx => (bases[idx] && typeof bases[idx].min === "number" ? bases[idx].min : 4));
@@ -1188,7 +1190,192 @@ function runNextgenSyllableChain({baseIndices, count, seed, min, max, weights, m
     baseSeqs.push(baseSeq);
   }
 
-  return {names, segTextLists, baseSeqs};
+  return {names, segTextLists, baseSeqs, chosenBasesList};
+}
+
+function runNextgenSyllableProvenance({baseIndices, count, seed, min, max, weights, minUniqueBases}) {
+  const rng = makeMulberry32(seed);
+  const bases = loadDefaultNameBases();
+  const contexts = buildWeightedContexts(baseIndices, bases, weights);
+  if (!contexts.length) return {names: [], segTextLists: [], baseSeqs: [], chosenBasesList: []};
+
+  const names = [];
+  const segTextLists = [];
+  const baseSeqs = [];
+  const chosenBasesList = [];
+
+  const availableUniqueBases = Array.from(new Set(contexts.map(c => c.idx))).length;
+  const requiredUniqueBases =
+    typeof minUniqueBases === "number"
+      ? Math.max(1, Math.min(minUniqueBases, availableUniqueBases || 1))
+      : availableUniqueBases > 1
+        ? 2
+        : 1;
+
+  const isVowelChar = ch => typeof ch === "string" && ch.length && VOWELS.includes(ch);
+  const boundaryPenalty = (prevSeg, nextSeg) => {
+    const a = last(prevSeg);
+    const b = nextSeg && nextSeg.length ? nextSeg[0] : "";
+    if (!a || !b) return 0;
+    if (a === "'" || a === " " || a === "-") return 0;
+    if (b === "'" || b === " " || b === "-") return 0;
+    if (isVowelChar(a) && isVowelChar(b)) return 2;
+    if (!isVowelChar(a) && !isVowelChar(b) && a === b) return 1;
+    return 0;
+  };
+
+  const pickDifferentBase = (choices, current) => {
+    const others = Array.isArray(choices) ? choices.filter(x => x !== current) : [];
+    if (!others.length) return current;
+    return others[Math.floor(rng() * others.length)];
+  };
+
+  const pickNextSegFromBase = (chain, prevChar, prevSeg) => {
+    const arr = (chain && (chain[prevChar] || chain[""])) || [];
+    if (!Array.isArray(arr) || !arr.length) return "";
+
+    let best = arr[Math.floor(rng() * arr.length)];
+    let bestPenalty = boundaryPenalty(prevSeg, best);
+    for (let t = 0; t < 2; t++) {
+      const cand = arr[Math.floor(rng() * arr.length)];
+      const p = boundaryPenalty(prevSeg, cand);
+      if (p < bestPenalty) {
+        best = cand;
+        bestPenalty = p;
+        if (bestPenalty === 0) break;
+      }
+    }
+
+    return best;
+  };
+
+  function attempt(chosenBases, requestedMin, requestedMax) {
+    const baseChains = new Map(
+      chosenBases.map(idx => {
+        const base = bases[idx];
+        const blob = base && typeof base.b === "string" ? base.b : "";
+        return [idx, calculateChainFromBlob(blob)];
+      })
+    );
+
+    const segs = [];
+    const baseSeq = [];
+    let w = "";
+
+    let currentBase = chosenBases[Math.floor(rng() * chosenBases.length)];
+    let spanLeft = 1 + Math.floor(rng() * 3);
+    const usedBases = new Set();
+
+    for (let i = 0; i < 20; i++) {
+      const remainingBudget = requestedMax - w.length;
+      if (remainingBudget <= 0) break;
+
+      if (spanLeft <= 0) {
+        const mustSwitchForUniq = usedBases.size < requiredUniqueBases && chosenBases.length > usedBases.size;
+        const doSwitch = mustSwitchForUniq || rng() > 0.75;
+        if (doSwitch) currentBase = pickDifferentBase(chosenBases, currentBase);
+        spanLeft = 1 + Math.floor(rng() * 3);
+      }
+
+      const prevSeg = segs.length ? segs[segs.length - 1] : "";
+      const prevChar = segs.length ? last(prevSeg) : "";
+      const chain = baseChains.get(currentBase);
+      let cur = pickNextSegFromBase(chain, prevChar, prevSeg);
+
+      if (cur === "") {
+        if (w.length < requestedMin) {
+          w = "";
+          segs.length = 0;
+          baseSeq.length = 0;
+          usedBases.clear();
+          currentBase = chosenBases[Math.floor(rng() * chosenBases.length)];
+          spanLeft = 1 + Math.floor(rng() * 3);
+          continue;
+        }
+        break;
+      }
+
+      if (w.length + cur.length > requestedMax) {
+        if (w.length < requestedMin) {
+          segs.push(cur);
+          baseSeq.push(currentBase);
+          w += cur;
+        }
+        break;
+      }
+
+      segs.push(cur);
+      baseSeq.push(currentBase);
+      if (cur !== " " && cur !== "-" && cur !== "'") usedBases.add(currentBase);
+      w += cur;
+      spanLeft--;
+    }
+
+    const l = last(w);
+    if (l === "'" || l === " " || l === "-") {
+      w = w.slice(0, -1);
+      if (segs.length) {
+        segs.pop();
+        baseSeq.pop();
+      }
+    }
+
+    let name = [...w].reduce(function (r, c, i, d) {
+      if (c === d[i + 1] && !"".includes(c)) return r;
+      if (!r.length) return c.toUpperCase();
+      if (r.slice(-1) === "-" && c === " ") return r;
+      if (r.slice(-1) === " ") return r + c.toUpperCase();
+      if (r.slice(-1) === "-") return r + c.toUpperCase();
+      if (c === "a" && d[i + 1] === "e") return r;
+      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+      return r + c;
+    }, "");
+
+    if (name.split(" ").some(part => part.length < 2)) {
+      name = name
+        .split(" ")
+        .map((p, i) => (i ? p.toLowerCase() : p))
+        .join("");
+    }
+
+    return {text: name, segTexts: segs, baseSeq};
+  }
+
+  for (let i = 0; i < count; i++) {
+    const chosenBases = pickUniqueBasesFromContexts(contexts, rng, minUniqueBases);
+    chosenBasesList.push(chosenBases);
+
+    const baseMins = chosenBases.map(idx => (bases[idx] && typeof bases[idx].min === "number" ? bases[idx].min : 4));
+    const baseMaxs = chosenBases.map(idx => (bases[idx] && typeof bases[idx].max === "number" ? bases[idx].max : 10));
+    const fallbackMin = baseMins.length ? Math.min(...baseMins) : 4;
+    const fallbackMax = baseMaxs.length ? Math.max(...baseMaxs) : Math.max(fallbackMin + 4, 10);
+    const requestedMin = typeof min === "number" ? min : fallbackMin * requiredUniqueBases;
+    const requestedMax = typeof max === "number" ? max : fallbackMax * requiredUniqueBases;
+
+    let best = null;
+    let bestDelta = Infinity;
+    const target = (requestedMin + requestedMax) / 2;
+    for (let t = 0; t < 5; t++) {
+      const candidate = attempt(chosenBases, requestedMin, requestedMax);
+      const len = candidate.text.length;
+      if (len >= requestedMin && len <= requestedMax) {
+        best = candidate;
+        break;
+      }
+      const delta = Math.abs(len - target);
+      if (delta < bestDelta) {
+        bestDelta = delta;
+        best = candidate;
+      }
+    }
+
+    const res = best || attempt(chosenBases, requestedMin, requestedMax);
+    names.push(res.text);
+    segTextLists.push(Array.isArray(res.segTexts) ? res.segTexts : []);
+    baseSeqs.push(Array.isArray(res.baseSeq) ? res.baseSeq : []);
+  }
+
+  return {names, segTextLists, baseSeqs, chosenBasesList};
 }
 
 function runNextgenMoraWideChain({baseIndices, count, seed, min, max, weights, minUniqueBases}) {
@@ -1304,6 +1491,111 @@ function computeLengthStats(samples) {
   return {count, minLen, maxLen, mean, p25: q(0.25), p75: q(0.75), p90: q(0.9)};
 }
 
+function countPossiblePairs(uniqueBases) {
+  const n = Array.isArray(uniqueBases) ? uniqueBases.length : 0;
+  if (n < 2) return 0;
+  return (n * (n - 1)) / 2;
+}
+
+function computeObservedCooccurPairs(samples) {
+  const pairs = new Set();
+  if (!Array.isArray(samples)) return pairs;
+
+  for (const row of samples) {
+    const seq = row && Array.isArray(row.baseSeq) ? row.baseSeq : [];
+    const uniq = Array.from(new Set(seq.filter(n => typeof n === "number" && !Number.isNaN(n))));
+    if (uniq.length < 2) continue;
+    uniq.sort((a, b) => a - b);
+    for (let i = 0; i < uniq.length; i++) {
+      for (let j = i + 1; j < uniq.length; j++) {
+        pairs.add(`${uniq[i]},${uniq[j]}`);
+      }
+    }
+  }
+
+  return pairs;
+}
+
+function computeCooccurGraph(samples) {
+  const neighbors = new Map();
+  const usedCounts = new Map();
+  if (!Array.isArray(samples)) return {neighbors, usedCounts};
+
+  for (const row of samples) {
+    const seq = row && Array.isArray(row.baseSeq) ? row.baseSeq : [];
+    const uniq = Array.from(new Set(seq.filter(n => typeof n === "number" && !Number.isNaN(n))));
+    if (!uniq.length) continue;
+
+    for (const b of uniq) {
+      usedCounts.set(b, (usedCounts.get(b) || 0) + 1);
+      if (!neighbors.has(b)) neighbors.set(b, new Set());
+    }
+
+    if (uniq.length < 2) continue;
+    uniq.sort((a, b) => a - b);
+    for (let i = 0; i < uniq.length; i++) {
+      for (let j = i + 1; j < uniq.length; j++) {
+        const a = uniq[i];
+        const b = uniq[j];
+        neighbors.get(a).add(b);
+        neighbors.get(b).add(a);
+      }
+    }
+  }
+
+  return {neighbors, usedCounts};
+}
+
+function computeMissingPairs(baseUniverse, observedPairs, limit) {
+  const bases = Array.isArray(baseUniverse) ? baseUniverse.slice() : [];
+  bases.sort((a, b) => a - b);
+  const observed = observedPairs instanceof Set ? observedPairs : new Set();
+  const out = [];
+  const max = typeof limit === "number" ? limit : 50;
+
+  for (let i = 0; i < bases.length; i++) {
+    for (let j = i + 1; j < bases.length; j++) {
+      const a = bases[i];
+      const b = bases[j];
+      const key = `${a},${b}`;
+      if (!observed.has(key)) {
+        out.push([a, b]);
+        if (out.length >= max) return {pairs: out, truncated: true};
+      }
+    }
+  }
+
+  return {pairs: out, truncated: false};
+}
+
+function formatPairLines(pairs, opts) {
+  const options = opts || {};
+  const perLine = typeof options.perLine === "number" ? Math.max(1, options.perLine) : 12;
+  const maxLines = typeof options.maxLines === "number" ? Math.max(1, options.maxLines) : 10;
+
+  const tokens = Array.isArray(pairs) ? pairs.map(([a, b]) => `[${a},${b}]`) : [];
+  if (!tokens.length) return [];
+
+  const lines = [];
+  for (let i = 0; i < tokens.length; i += perLine) {
+    lines.push(tokens.slice(i, i + perLine).join(" "));
+    if (lines.length >= maxLines) {
+      if (i + perLine < tokens.length) lines[lines.length - 1] += " ...";
+      break;
+    }
+  }
+
+  return lines;
+}
+
+function formatBaseList(list, limit) {
+  const max = typeof limit === "number" ? limit : 40;
+  if (!Array.isArray(list) || !list.length) return "[]";
+  if (list.length <= max) return `[${list.join(",")}]`;
+  const head = list.slice(0, max).join(",");
+  return `[${head},... +${list.length - max} more]`;
+}
+
 function parseArgs(argv) {
   const args = argv.slice(2);
 
@@ -1315,6 +1607,7 @@ function parseArgs(argv) {
   const iso = getValue("--iso");
   const baseArg = null;
   const countArg = getValue("--count");
+  const printArg = getValue("--print");
   const seedArg = getValue("--seed");
   const minArg = getValue("--min");
   const maxArg = getValue("--max");
@@ -1349,15 +1642,78 @@ function parseArgs(argv) {
   }
 
   const baseCsv = collectCsvAfter(["--base"]);
+  const vCsv = collectCsvAfter(["--v"]);
 
-  const baseIndices = baseCsv
-    ? baseCsv
-        .split(/[\s,]+/)
-        .map(s => s.trim())
-        .filter(Boolean)
-        .map(s => parseInt(s, 10))
-        .filter(n => !Number.isNaN(n))
-    : [];
+  function parseBaseList(expr) {
+    if (expr == null) return [];
+    const parts = String(expr)
+      .split(/[\s,]+/)
+      .map(s => s.trim())
+      .filter(Boolean);
+
+    const out = [];
+    const seen = new Set();
+
+    const push = n => {
+      if (Number.isNaN(n)) return;
+      if (seen.has(n)) return;
+      seen.add(n);
+      out.push(n);
+    };
+
+    for (const part of parts) {
+      const m = part.match(/^(-?\d+)\s*-\s*(-?\d+)$/);
+      if (m) {
+        const a = parseInt(m[1], 10);
+        const b = parseInt(m[2], 10);
+        if (Number.isNaN(a) || Number.isNaN(b)) continue;
+        const step = a <= b ? 1 : -1;
+        for (let x = a; step > 0 ? x <= b : x >= b; x += step) push(x);
+        continue;
+      }
+
+      push(parseInt(part, 10));
+    }
+
+    return out;
+  }
+
+  const baseIndices = parseBaseList(baseCsv);
+
+  function parseVersionList(expr) {
+    if (expr == null) return [1, 2, 3, 4];
+    const parts = String(expr)
+      .split(/[,\s]+/)
+      .map(s => s.trim())
+      .filter(Boolean);
+
+    const out = [];
+    const seen = new Set();
+    const push = n => {
+      if (Number.isNaN(n)) return;
+      if (n < 1 || n > 5) return;
+      if (seen.has(n)) return;
+      seen.add(n);
+      out.push(n);
+    };
+
+    for (const part of parts) {
+      const m = part.match(/^(\d+)\s*-\s*(\d+)$/);
+      if (m) {
+        const a = parseInt(m[1], 10);
+        const b = parseInt(m[2], 10);
+        if (Number.isNaN(a) || Number.isNaN(b)) continue;
+        const step = a <= b ? 1 : -1;
+        for (let x = a; step > 0 ? x <= b : x >= b; x += step) push(x);
+        continue;
+      }
+      push(parseInt(part, 10));
+    }
+
+    return out;
+  }
+
+  const versions = parseVersionList(vCsv);
 
   const weights = weightsArg
     ? weightsArg
@@ -1368,6 +1724,7 @@ function parseArgs(argv) {
     : null;
 
   const count = countArg ? parseInt(countArg, 10) : 40;
+  const print = printArg != null ? parseInt(printArg, 10) : 10;
   const seed = seedArg != null ? parseInt(seedArg, 10) : null;
   const min = minArg != null ? parseInt(minArg, 10) : null;
   const max = maxArg != null ? parseInt(maxArg, 10) : null;
@@ -1376,7 +1733,7 @@ function parseArgs(argv) {
 
   const help = args.includes("--help") || args.includes("-h");
 
-  return {iso, baseIndices, count, seed, min, max, maxSegments, weights, minUniqueBases, help};
+  return {iso, baseIndices, count, print, versions, seed, min, max, maxSegments, weights, minUniqueBases, help};
 }
 
 function printUsage() {
@@ -1385,6 +1742,8 @@ function printUsage() {
   console.log("  --iso=ID              Use mixer-map bases for ISO (e.g. amkoe).");
   console.log("  --base=IDX[,IDX...]   Compare directly from base indices.");
   console.log("  --count=N             Number of samples per generator (default 40).");
+  console.log("  --print=N             How many samples to print in diff view (default 10).");
+  console.log("  --v=LIST              Which mixer versions to run (default all): 1=legacy, 2=current, 3=nextgen, 4=nextgenSyll, 5=nextgenSyllProv. Example: --v=1,4");
   console.log("  --seed=INT            Seed for deterministic output.");
   console.log("  --min=INT             Override minimum length.");
   console.log("  --max=INT             Override maximum length.");
@@ -1397,11 +1756,24 @@ function printUsage() {
 }
 
 function main() {
-  const {iso, baseIndices, count, seed, min, max, maxSegments, weights, minUniqueBases, help} = parseArgs(process.argv);
+  const {iso, baseIndices, count, print, versions, seed, min, max, maxSegments, weights, minUniqueBases, help} = parseArgs(process.argv);
   if (help || (!iso && (!baseIndices || !baseIndices.length))) {
     printUsage();
     return;
   }
+
+  if (!versions || !versions.length) {
+    console.error("No valid versions selected via --v (expected 1-4)");
+    process.exitCode = 1;
+    return;
+  }
+
+  const selected = new Set(versions);
+  const wantLegacy = selected.has(1);
+  const wantCurrent = selected.has(2);
+  const wantNextgen = selected.has(3);
+  const wantNextgenSyll = selected.has(4);
+  const wantNextgenSyllProv = selected.has(5);
 
   let indices = baseIndices;
   if (iso) {
@@ -1424,79 +1796,117 @@ function main() {
         ? 2
         : 1;
 
-  const legacySamples = runAppMixer({
-    baseIndices: indices,
-    count,
-    seed,
-    min,
-    max,
-    maxSegments,
-    weights,
-    legacyChain: true
-  });
-
-  const currentSamples = runAppMixer({
-    baseIndices: indices,
-    count,
-    seed,
-    min,
-    max,
-    maxSegments,
-    weights,
-    minUniqueBases: effectiveMinUniqueBases,
-    legacyChain: false
-  });
-
-  const nextgen = runNextgenMixer({
-    baseIndices: indices,
-    count,
-    seed,
-    min,
-    max,
-    maxSegments,
-    weights,
-    minUniqueBases: effectiveMinUniqueBases
-  });
-
-  const nextgenSyllable = runNextgenSyllableChain({
-    baseIndices: indices,
-    count,
-    seed,
-    min,
-    max,
-    weights,
-    minUniqueBases: effectiveMinUniqueBases
-  });
-
-  const legacy = normalizeCapturedSamples(legacySamples);
   const bases = loadDefaultNameBases();
-  const current = normalizeCapturedSamples(currentSamples);
-  const nextgenSamples = nextgen.names.map((text, i) => ({
-    text,
-    baseSeq: Array.isArray(nextgen.baseSeqs) ? nextgen.baseSeqs[i] || [] : []
-  }));
+  const legacySamples = wantLegacy
+    ? runAppMixer({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        maxSegments,
+        weights,
+        legacyChain: true
+      })
+    : [];
 
-  const nextgenSegs = Array.isArray(nextgen.segTextLists) ? nextgen.segTextLists : [];
-  nextgenSamples.forEach((row, i) => {
-    row.segTexts = Array.isArray(nextgenSegs[i]) ? nextgenSegs[i] : [];
-  });
+  const currentSamples = wantCurrent
+    ? runAppMixer({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        maxSegments,
+        weights,
+        minUniqueBases: effectiveMinUniqueBases,
+        legacyChain: false
+      })
+    : [];
 
-  const nextgenSyllSamples = nextgenSyllable.names.map((text, i) => ({
-    text,
-    baseSeq: Array.isArray(nextgenSyllable.baseSeqs) ? nextgenSyllable.baseSeqs[i] || [] : [],
-    segTexts: Array.isArray(nextgenSyllable.segTextLists) ? nextgenSyllable.segTextLists[i] || [] : []
-  }));
+  const nextgen = wantNextgen
+    ? runNextgenMixer({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        maxSegments,
+        weights,
+        minUniqueBases: effectiveMinUniqueBases
+      })
+    : {names: [], baseSeqs: [], segTextLists: []};
 
-  legacy.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
-  current.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
-  nextgenSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
-  nextgenSyllSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
+  const nextgenSyllableProv = wantNextgenSyllProv
+    ? runNextgenSyllableProvenance({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        weights,
+        minUniqueBases: effectiveMinUniqueBases
+      })
+    : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
+
+  const nextgenSyllable = wantNextgenSyll
+    ? runNextgenSyllableChain({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        weights,
+        minUniqueBases: effectiveMinUniqueBases
+      })
+    : {names: [], baseSeqs: [], segTextLists: []};
+
+  const legacy = wantLegacy ? normalizeCapturedSamples(legacySamples) : [];
+  const current = wantCurrent ? normalizeCapturedSamples(currentSamples) : [];
+  const nextgenSamples = wantNextgen
+    ? nextgen.names.map((text, i) => ({
+        text,
+        baseSeq: Array.isArray(nextgen.baseSeqs) ? nextgen.baseSeqs[i] || [] : []
+      }))
+    : [];
+
+  if (wantNextgen) {
+    const nextgenSegs = Array.isArray(nextgen.segTextLists) ? nextgen.segTextLists : [];
+    nextgenSamples.forEach((row, i) => {
+      row.segTexts = Array.isArray(nextgenSegs[i]) ? nextgenSegs[i] : [];
+    });
+  }
+
+  const nextgenSyllSamples = wantNextgenSyll
+    ? nextgenSyllable.names.map((text, i) => ({
+        text,
+        baseSeq: Array.isArray(nextgenSyllable.baseSeqs) ? nextgenSyllable.baseSeqs[i] || [] : [],
+        segTexts: Array.isArray(nextgenSyllable.segTextLists) ? nextgenSyllable.segTextLists[i] || [] : [],
+        chosenBases: Array.isArray(nextgenSyllable.chosenBasesList) ? nextgenSyllable.chosenBasesList[i] || [] : []
+      }))
+    : [];
+
+  const nextgenSyllProvSamples = wantNextgenSyllProv
+    ? nextgenSyllableProv.names.map((text, i) => ({
+        text,
+        baseSeq: Array.isArray(nextgenSyllableProv.baseSeqs) ? nextgenSyllableProv.baseSeqs[i] || [] : [],
+        segTexts: Array.isArray(nextgenSyllableProv.segTextLists) ? nextgenSyllableProv.segTextLists[i] || [] : [],
+        chosenBases: Array.isArray(nextgenSyllableProv.chosenBasesList) ? nextgenSyllableProv.chosenBasesList[i] || [] : []
+      }))
+    : [];
+
+  if (wantLegacy) legacy.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
+  if (wantCurrent) current.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
+  if (wantNextgen) nextgenSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
+  if (wantNextgenSyll) nextgenSyllSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
+  if (wantNextgenSyllProv) nextgenSyllProvSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
 
   console.log(`Compared mixers for ${iso ? "iso=" + iso : "bases=" + indices.join(",")}`);
   console.log("");
 
-  const lines = Math.min(10, count);
-  console.log("=== Sample diff (first 10) ===");
+  const safePrint = typeof print === "number" && !Number.isNaN(print) ? Math.max(0, Math.min(print, count)) : Math.min(10, count);
+  const lines = safePrint;
+  console.log(`=== Sample diff (showing ${lines}/${count}) ===`);
 
   function fmtSegs(segTexts) {
     if (!Array.isArray(segTexts) || !segTexts.length) return "";
@@ -1508,88 +1918,170 @@ function main() {
     return " " + seq.map(b => `[${b}]`).join(" ");
   }
 
+  const sampleModes = [];
+  if (wantLegacy) sampleModes.push({name: "legacy", rows: legacy});
+  if (wantCurrent) sampleModes.push({name: "current", rows: current});
+  if (wantNextgen) sampleModes.push({name: "nextgen", rows: nextgenSamples});
+  if (wantNextgenSyll) sampleModes.push({name: "nextgenSyll", rows: nextgenSyllSamples});
+  if (wantNextgenSyllProv) sampleModes.push({name: "nextgenSyllProv", rows: nextgenSyllProvSamples});
+
   for (let i = 0; i < lines; i++) {
-    const legacyRow = legacy[i] || {text: "", baseSeq: [], segTexts: []};
-    const curRow = current[i] || {text: "", baseSeq: [], segTexts: []};
-    const ngRow = nextgenSamples[i] || {text: "", baseSeq: [], segTexts: []};
-    const ngSylRow = nextgenSyllSamples[i] || {text: "", baseSeq: [], segTexts: []};
     console.log(`#${i + 1}`);
-
-    console.log(`  legacy:`);
-    console.log(`    segs: ${fmtSegs(legacyRow.segTexts)}`);
-    console.log(`    name: ${legacyRow.text || ""}${fmtSeq(legacyRow.baseSeq)}`);
-
-    console.log(`  current:`);
-    console.log(`    segs: ${fmtSegs(curRow.segTexts)}`);
-    console.log(`    name: ${curRow.text || ""}${fmtSeq(curRow.baseSeq)}`);
-
-    console.log(`  nextgen:`);
-    console.log(`    segs: ${fmtSegs(ngRow.segTexts)}`);
-    console.log(`    name: ${ngRow.text || ""}${fmtSeq(ngRow.baseSeq)}`);
-
-    console.log(`  nextgenSyll:`);
-    console.log(`    segs: ${fmtSegs(ngSylRow.segTexts)}`);
-    console.log(`    name: ${ngSylRow.text || ""}${fmtSeq(ngSylRow.baseSeq)}`);
+    for (const mode of sampleModes) {
+      const row = (mode.rows && mode.rows[i]) || {text: "", baseSeq: [], segTexts: []};
+      console.log(`  ${mode.name}:`);
+      console.log(`    segs: ${fmtSegs(row.segTexts)}`);
+      console.log(`    name: ${row.text || ""}${fmtSeq(row.baseSeq)}`);
+    }
   }
 
   console.log("");
 
-  const legacyTexts = legacy.map(s => s.text);
-  const currentTexts = current.map(s => s.text);
-  const nextgenTexts = nextgenSamples.map(s => s.text);
-  const nextgenSyllTexts = nextgenSyllSamples.map(s => s.text);
+  const reportModes = [];
+  if (wantLegacy) reportModes.push({
+    name: "legacy",
+    title: "=== App legacyChain ===",
+    samples: legacy
+  });
+  if (wantCurrent) reportModes.push({
+    name: "current",
+    title: "=== App current ===",
+    samples: current
+  });
+  if (wantNextgen) reportModes.push({
+    name: "nextgen",
+    title: "=== Helper-only nextgen ===",
+    samples: nextgenSamples
+  });
+  if (wantNextgenSyll) reportModes.push({
+    name: "nextgenSyll",
+    title: "=== Helper-only nextgenSyll ===",
+    samples: nextgenSyllSamples
+  });
+  if (wantNextgenSyllProv) reportModes.push({
+    name: "nextgenSyllProv",
+    title: "=== Helper-only nextgenSyllProv ===",
+    samples: nextgenSyllProvSamples
+  });
 
-  const legacyStats = computeLengthStats(legacyTexts);
-  const currentStats = computeLengthStats(currentTexts);
-  const nextgenStats = computeLengthStats(nextgenTexts);
-  const nextgenSyllStats = computeLengthStats(nextgenSyllTexts);
+  const reportModeTexts = reportModes.map(m => ({
+    name: m.name,
+    title: m.title,
+    samples: m.samples,
+    texts: (m.samples || []).map(s => (s && s.text ? s.text : ""))
+  }));
 
-  console.log("=== App legacyChain ===");
-  console.log(
-    `count=${legacyStats.count} min=${legacyStats.minLen} max=${legacyStats.maxLen} mean=${legacyStats.mean?.toFixed?.(2)}`
-  );
-  console.log(`unique names: ${new Set(legacyTexts).size}/${legacyTexts.length}`);
+  for (const m of reportModeTexts) {
+    const stats = computeLengthStats(m.texts);
+    console.log(m.title);
+    console.log(
+      `count=${stats.count} min=${stats.minLen} max=${stats.maxLen} mean=${stats.mean?.toFixed?.(2)}`
+    );
+    console.log(`unique names: ${new Set(m.texts).size}/${m.texts.length}`);
+    console.log("");
+  }
+
+  if (reportModeTexts.length > 1) {
+    const overlap = (a, b) => {
+      const setB = new Set(b);
+      return a.filter(x => setB.has(x)).length;
+    };
+
+    for (let i = 0; i < reportModeTexts.length; i++) {
+      for (let j = i + 1; j < reportModeTexts.length; j++) {
+        const a = reportModeTexts[i];
+        const b = reportModeTexts[j];
+        console.log(`overlap ${a.name} ↔ ${b.name} (exact) = ${overlap(a.texts, b.texts)}/${count}`);
+      }
+    }
+  }
+
+  const baseUniverseForPairs = Array.from(new Set(indices)).sort((a, b) => a - b);
+  const possiblePairs = countPossiblePairs(baseUniverseForPairs);
+  const pairModes = reportModes.map(m => ({name: m.name, samples: m.samples}));
+
   console.log("");
+  console.log("=== Pair coverage (co-occur) ===");
+  if (!possiblePairs) {
+    console.log("possible pairs: n/a (need at least 2 unique bases)");
+  } else {
+    console.log(`possible pairs: ${possiblePairs}`);
+    for (const mode of pairModes) {
+      const observed = computeObservedCooccurPairs(mode.samples);
+      const pct = ((observed.size / possiblePairs) * 100).toFixed(1);
+      console.log(`${mode.name}: ${observed.size}/${possiblePairs} (${pct}%)`);
 
-  console.log("=== App current ===");
-  console.log(
-    `count=${currentStats.count} min=${currentStats.minLen} max=${currentStats.maxLen} mean=${currentStats.mean?.toFixed?.(2)}`
-  );
-  console.log(`unique names: ${new Set(currentTexts).size}/${currentTexts.length}`);
+      const missingCount = possiblePairs - observed.size;
+      if (missingCount > 0) {
+        const missing = computeMissingPairs(baseUniverseForPairs, observed, 80);
+        console.log(`${mode.name} missing pairs (${missingCount}):`);
+        const lines = formatPairLines(missing.pairs, {perLine: 12, maxLines: 10});
+        for (const line of lines) console.log(`  ${line}`);
+        if (missing.truncated) console.log("  ...");
+      }
+    }
+  }
+
+  const chosenCoverageModes = [
+    {name: "nextgenSyll", enabled: wantNextgenSyll, samples: nextgenSyllSamples},
+    {name: "nextgenSyllProv", enabled: wantNextgenSyllProv, samples: nextgenSyllProvSamples}
+  ].filter(m => m.enabled && Array.isArray(m.samples) && m.samples.some(r => Array.isArray(r.chosenBases) && r.chosenBases.length));
+
+  if (chosenCoverageModes.length) {
+    console.log("");
+    console.log("=== Pair coverage (chosen bases, pre-attribution) ===");
+    if (!possiblePairs) {
+      console.log("possible pairs: n/a (need at least 2 unique bases)");
+    } else {
+      console.log(`possible pairs: ${possiblePairs}`);
+      for (const m of chosenCoverageModes) {
+        const chosenPairSamples = m.samples.map(r => ({baseSeq: Array.isArray(r.chosenBases) ? r.chosenBases : []}));
+        const observedChosen = computeObservedCooccurPairs(chosenPairSamples);
+        const pctChosen = ((observedChosen.size / possiblePairs) * 100).toFixed(1);
+        console.log(`${m.name} chosenBases: ${observedChosen.size}/${possiblePairs} (${pctChosen}%)`);
+
+        const missingCount = possiblePairs - observedChosen.size;
+        if (missingCount > 0) {
+          const missing = computeMissingPairs(baseUniverseForPairs, observedChosen, 80);
+          console.log(`${m.name} chosenBases missing pairs (${missingCount}):`);
+          const lines = formatPairLines(missing.pairs, {perLine: 12, maxLines: 10});
+          for (const line of lines) console.log(`  ${line}`);
+          if (missing.truncated) console.log("  ...");
+        }
+      }
+    }
+  }
+
+  const baseUniverse = Array.from(new Set(indices)).sort((a, b) => a - b);
+  const modes = reportModes.map(m => ({name: m.name, samples: m.samples}));
+
   console.log("");
+  console.log("=== Bases that did not mix (co-occur) ===");
+  for (const mode of modes) {
+    const {neighbors, usedCounts} = computeCooccurGraph(mode.samples);
+    const unused = baseUniverse.filter(b => !(usedCounts.get(b) > 0));
+    const usedButUnmixed = baseUniverse.filter(b => (usedCounts.get(b) > 0) && ((neighbors.get(b)?.size || 0) === 0));
+    const neverMixed = baseUniverse.filter(b => (neighbors.get(b)?.size || 0) === 0);
 
-  console.log("=== Helper-only nextgen ===");
-  console.log(
-    `count=${nextgenStats.count} min=${nextgenStats.minLen} max=${nextgenStats.maxLen} mean=${nextgenStats.mean?.toFixed?.(2)}`
-  );
-  console.log(`unique names: ${new Set(nextgenTexts).size}/${nextgenTexts.length}`);
-  console.log("");
-
-  console.log("=== Helper-only nextgenSyll ===");
-  console.log(
-    `count=${nextgenSyllStats.count} min=${nextgenSyllStats.minLen} max=${nextgenSyllStats.maxLen} mean=${nextgenSyllStats.mean?.toFixed?.(2)}`
-  );
-  console.log(`unique names: ${new Set(nextgenSyllTexts).size}/${nextgenSyllTexts.length}`);
-  console.log("");
-
-  const overlap = (a, b) => {
-    const setB = new Set(b);
-    return a.filter(x => setB.has(x)).length;
-  };
-
-  console.log(`overlap legacy ↔ current (exact) = ${overlap(legacyTexts, currentTexts)}/${count}`);
-  console.log(`overlap legacy ↔ nextgen (exact) = ${overlap(legacyTexts, nextgenTexts)}/${count}`);
-  console.log(`overlap current ↔ nextgen (exact) = ${overlap(currentTexts, nextgenTexts)}/${count}`);
-  console.log(`overlap legacy ↔ nextgenSyll (exact) = ${overlap(legacyTexts, nextgenSyllTexts)}/${count}`);
-  console.log(`overlap current ↔ nextgenSyll (exact) = ${overlap(currentTexts, nextgenSyllTexts)}/${count}`);
-  console.log(`overlap nextgen ↔ nextgenSyll (exact) = ${overlap(nextgenTexts, nextgenSyllTexts)}/${count}`);
+    console.log(`${mode.name}:`);
+    console.log(`  neverMixed: ${neverMixed.length}/${baseUniverse.length} ${formatBaseList(neverMixed)}`);
+    console.log(`  usedButUnmixed: ${usedButUnmixed.length}/${baseUniverse.length} ${formatBaseList(usedButUnmixed)}`);
+    console.log(`  unused: ${unused.length}/${baseUniverse.length} ${formatBaseList(unused)}`);
+  }
 }
 
 if (require.main === module) {
   try {
     main();
   } catch (err) {
-    console.error("Error while comparing mixers:", err && err.message ? err.message : err);
+    console.error(
+      "Error while comparing mixers:",
+      err && err.stack
+        ? err.stack
+        : err && err.message
+          ? err.message
+          : err
+    );
     process.exitCode = 1;
   }
 }
