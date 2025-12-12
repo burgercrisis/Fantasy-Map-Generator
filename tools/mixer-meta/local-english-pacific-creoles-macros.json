@@ -1,0 +1,12 @@
+{
+  "title": "Local: English-based Pacific creoles and macros",
+  "source": "local-helper",
+  "items": [
+    { "name": "Australian Kriol", "iso": "australian-kriol" },
+    { "name": "Melanesian Pidgin", "iso": "melanesian-pidgin" },
+    { "name": "Torres Strait Creole", "iso": "torres-strait-creole" },
+    { "name": "Pitcairn-Norfolk", "iso": "pitcairn-norfolk" },
+    { "name": "English-based Pacific creoles family", "iso": "english-based-pacific-creoles-family" },
+    { "name": "Manglish", "iso": "manglish" }
+  ]
+}

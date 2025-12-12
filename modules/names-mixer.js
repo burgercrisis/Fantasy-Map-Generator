@@ -142,6 +142,35 @@
     return false;
   }
 
+  function softenClickRuns(segs) {
+    if (!Array.isArray(segs) || segs.length < 2) return;
+
+    for (let i = 1; i < segs.length; i++) {
+      const prev = segs[i - 1];
+      const curr = segs[i];
+      if (!prev || !curr) continue;
+      if (!prev.shape || !curr.shape) continue;
+      if (!prev.shape.isClickSegment || !curr.shape.isClickSegment) continue;
+
+      if (Math.random() < 0.25) continue;
+
+      const stripped = curr.text.replace(/^[ǀǁǂǃ]+/u, "");
+      if (!stripped) continue;
+
+      let softened;
+      if (Math.random() < 0.4) {
+        softened = stripped[0].toUpperCase() + stripped.slice(1);
+      } else {
+        softened = stripped[0].toLowerCase() + stripped.slice(1);
+      }
+
+      segs[i] = Object.assign({}, curr, {
+        text: softened,
+        shape: getSegmentShape(softened, curr.ctx)
+      });
+    }
+  }
+
   function smoothJoin(a, b, onsetSet) {
     if (!a) return b;
     if (!b) return a;
@@ -322,6 +351,8 @@
           ]
         };
       }
+
+      softenClickRuns(segs);
 
       let compound = segs[0].text;
       for (let i = 1; i < segs.length; i++) {

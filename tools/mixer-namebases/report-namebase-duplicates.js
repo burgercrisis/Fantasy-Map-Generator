@@ -7,7 +7,8 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
-const root = path.resolve(__dirname, "..");
+// __dirname => tools/mixer-namebases; need project root to reach modules/
+const root = path.resolve(__dirname, "..", "..");
 
 function loadDefaultNameBases() {
   const sandbox = {window: {}};

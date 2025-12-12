@@ -320,12 +320,26 @@ function editLabel() {
     if (elSelected.attr("id").slice(0, 10) === "stateLabel") {
       const id = +elSelected.attr("id").slice(10);
       const culture = pack.states[id].culture;
-      name = Names.getState(Names.getCulture(culture, 4, 7, ""), culture);
+      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+
+      if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+        const range = Names.getUseCaseRange(baseIndex, "state");
+        name = Names.getState(Names.getCulture(culture, range.min, range.max, ""), culture);
+      } else {
+        name = Names.getState(Names.getCulture(culture), culture);
+      }
     } else {
       const box = elSelected.node().getBBox();
       const cell = findCell((box.x + box.width) / 2, (box.y + box.height) / 2);
       const culture = pack.cells.culture[cell];
-      name = Names.getCulture(culture);
+      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+
+      if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
+        const range = Names.getUseCaseRange(baseIndex, "town");
+        name = Names.getCulture(culture, range.min, range.max);
+      } else {
+        name = Names.getCulture(culture);
+      }
     }
     byId("labelText").value = name;
     changeText();

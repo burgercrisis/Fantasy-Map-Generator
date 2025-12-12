@@ -275,6 +275,374 @@ function computeLengthStats(names) {
   return {count, minLen, maxLen, mean, p10, p25, p50, p75, p90, suggestedMin, suggestedMax};
 }
 
+function computeSeedStats(blob) {
+  const names = (blob || "")
+    .split(",")
+    .map(n => n.trim())
+    .filter(Boolean);
+  if (!names.length) return null;
+
+  const lengths = names.map(n => n.length).sort((a, b) => a - b);
+  const count = lengths.length;
+  const minLen = lengths[0];
+  const maxLen = lengths[count - 1];
+  const sum = lengths.reduce((a, b) => a + b, 0);
+  const mean = sum / count;
+  return {count, minLen, maxLen, mean};
+}
+
+function classifyOnsets(blob) {
+  const names = (blob || "")
+    .split(",")
+    .map(n => n.trim().toLowerCase())
+    .filter(Boolean);
+  const set = new Set();
+  for (const name of names) {
+    const ch = name[0];
+    if (ch) set.add(ch);
+  }
+  return set;
+}
+
+const CLICK_CHARS = "ǀǁǂǃ";
+
+function isClickHeavyLanguage(blob) {
+  const names = (blob || "")
+    .split(",")
+    .map(n => n.trim())
+    .filter(Boolean);
+  if (!names.length) return false;
+
+  let initialClicks = 0;
+  let anyClicks = 0;
+  for (const n of names) {
+    const first = n[0];
+    if (first && CLICK_CHARS.includes(first)) initialClicks++;
+    if ([...n].some(ch => CLICK_CHARS.includes(ch))) anyClicks++;
+  }
+
+  const fracInitial = initialClicks / names.length;
+  const fracAny = anyClicks / names.length;
+  return fracInitial >= 0.25 || fracAny >= 0.5;
+}
+
+function getSegmentShape(text, ctx) {
+  const trimmed = (text || "").trim();
+  const len = trimmed.length;
+  const first = trimmed[0] || "";
+  const isClickSegment = !!first && CLICK_CHARS.includes(first);
+  let lenBucket;
+  if (len <= 4) lenBucket = "S";
+  else if (len <= 8) lenBucket = "M";
+  else lenBucket = "L";
+  return {
+    len,
+    lenBucket,
+    isClickSegment,
+    baseIndex: ctx.idx,
+    isClickLanguage: ctx.isClickHeavy
+  };
+}
+
+function isRepetitiveClickPattern(segInfos) {
+  const clickSegs = segInfos.filter(s => s.shape.isClickSegment);
+  if (clickSegs.length < 3) return false;
+
+  let run = 1;
+  for (let i = 1; i < segInfos.length; i++) {
+    const prev = segInfos[i - 1].shape;
+    const cur = segInfos[i].shape;
+    if (prev.isClickSegment && cur.isClickSegment && prev.lenBucket === cur.lenBucket) {
+      run++;
+      if (run >= 3) return true;
+    } else {
+      run = 1;
+    }
+  }
+
+  return false;
+}
+
+function softenClickRuns(segs, rng) {
+  if (!Array.isArray(segs) || segs.length < 2) return;
+  const roll = () => (typeof rng === "function" ? rng() : Math.random());
+
+  for (let i = 1; i < segs.length; i++) {
+    const prev = segs[i - 1];
+    const curr = segs[i];
+    if (!prev || !curr) continue;
+    if (!prev.shape || !curr.shape) continue;
+    if (!prev.shape.isClickSegment || !curr.shape.isClickSegment) continue;
+
+    // Skip occasionally so we still get full click compounds sometimes
+    if (roll() < 0.25) continue;
+
+    const stripped = curr.text.replace(/^[ǀǁǂǃ]+/u, "");
+    if (!stripped) continue;
+
+    // Occasionally keep a softened click marker rather than removing entirely
+    let softened = stripped;
+    if (roll() < 0.4) {
+      softened = stripped[0].toUpperCase() + stripped.slice(1);
+    } else {
+      softened = stripped[0].toLowerCase() + stripped.slice(1);
+    }
+
+    segs[i] = Object.assign({}, curr, {
+      text: softened,
+      shape: getSegmentShape(softened, curr.ctx)
+    });
+  }
+}
+
+function isAsciiLetter(c) {
+  return (c >= "A" && c <= "Z") || (c >= "a" && c <= "z");
+}
+
+function smoothJoin(a, b, onsetSet, rng) {
+  if (!a) return b;
+  if (!b) return a;
+
+  const la = a[a.length - 1];
+  const fb = b[0];
+  const laLower = la ? la.toLowerCase() : "";
+  const fbLower = fb ? fb.toLowerCase() : "";
+
+  const onsetHas = ch => (onsetSet ? onsetSet.has(ch.toLowerCase()) : false);
+  const roll = () => (typeof rng === "function" ? rng() : Math.random());
+
+  if (!vowel(laLower) && laLower === fbLower && onsetHas(laLower)) {
+    return a + b.slice(1);
+  }
+
+  if (vowel(laLower) && !vowel(fbLower) && onsetHas(fbLower)) {
+    if (roll() < 0.7) return a + b.slice(1);
+  }
+
+  const laIsAscii = isAsciiLetter(la);
+  const fbIsAscii = isAsciiLetter(fb);
+  if (laIsAscii && fbIsAscii && fb >= "A" && fb <= "Z") {
+    const r = roll();
+    if (r < 0.6) {
+      return a + " " + b;
+    }
+    if (r < 0.8) {
+      return a + "-" + b;
+    }
+    return a + fb.toLowerCase() + b.slice(1);
+  }
+
+  if (vowel(laLower) && vowel(fbLower)) {
+    return a + b.slice(1);
+  }
+
+  return a + b;
+}
+
+function normalizeWeights(length, weights) {
+  if (!Array.isArray(weights) || weights.length !== length) {
+    return Array.from({length}, () => 1);
+  }
+  return weights.map(w => {
+    const n = parseInt(w, 10);
+    if (!Number.isFinite(n) || n <= 0) return 1;
+    return n;
+  });
+}
+
+function buildBlendedContexts(baseIndices, baseByIndex, weights) {
+  if (!Array.isArray(baseIndices) || !baseIndices.length) return [];
+  const normalized = normalizeWeights(baseIndices.length, weights);
+  const contexts = [];
+
+  baseIndices.forEach((baseIndex, idx) => {
+    const base = baseByIndex.get(baseIndex);
+    if (!base || !base.b) return;
+
+    const stats = computeSeedStats(base.b);
+    const onsetSet = classifyOnsets(base.b);
+    const clickHeavy = isClickHeavyLanguage(base.b);
+
+    const weight = normalized[idx];
+    for (let k = 0; k < weight; k++) {
+      contexts.push({
+        idx: baseIndex,
+        base,
+        stats,
+        onsetSet,
+        isClickHeavy: clickHeavy
+      });
+    }
+  });
+
+  return contexts;
+}
+
+function generatePlainNameFromContext(ctx, rng, opts) {
+  const base = ctx && ctx.base;
+  if (!base) return "";
+  const overrides = Object.assign({}, opts || {});
+  return generateFromBaseConfig(base, rng, overrides);
+}
+
+function generateBlendedName(contexts, rng, opts) {
+  if (!Array.isArray(contexts) || !contexts.length) {
+    return {text: "", bases: []};
+  }
+
+  const globalMin = opts && typeof opts.min === "number" ? opts.min : null;
+  const globalMax = opts && typeof opts.max === "number" ? opts.max : null;
+  const maxSegments =
+    opts && typeof opts.maxSegments === "number" && opts.maxSegments > 0 ? opts.maxSegments : 4;
+  const availableUniqueBases = Array.from(new Set(contexts.map(c => c.idx))).length;
+  let requiredUniqueBases =
+    opts && typeof opts.minUniqueBases === "number"
+      ? Math.max(1, Math.min(opts.minUniqueBases, availableUniqueBases || 1))
+      : availableUniqueBases > 1
+        ? 2
+        : 1;
+
+  const fallbackMin = Math.min(...contexts.map(c => c.base.min || 4));
+  const fallbackMax = Math.max(...contexts.map(c => c.base.max || fallbackMin + 4));
+
+  const requestedMin = globalMin != null ? globalMin : fallbackMin;
+  const requestedMax = globalMax != null ? globalMax : fallbackMax;
+  const targetLen = (requestedMin + requestedMax) / 2;
+
+  function buildOnce() {
+    const segs = [];
+    const usedBaseIdxs = new Set();
+    let total = 0;
+    let guard = 0;
+
+    while ((total < requestedMin || usedBaseIdxs.size < requiredUniqueBases) && guard < maxSegments) {
+      let pool = contexts;
+
+      if (segs.length >= 2) {
+        const last1 = segs[segs.length - 1].shape;
+        const last2 = segs[segs.length - 2].shape;
+        if (last1.isClickLanguage && last2.isClickLanguage) {
+          const nonClick = contexts.filter(c => !c.isClickHeavy);
+          if (nonClick.length) pool = nonClick;
+        }
+      }
+
+      if (requiredUniqueBases > 1 && usedBaseIdxs.size < requiredUniqueBases) {
+        const unused = pool.filter(c => !usedBaseIdxs.has(c.idx));
+        if (unused.length) pool = unused;
+      }
+
+      const ctx = ra(pool, rng);
+      if (!ctx) break;
+
+      const stats = ctx.stats;
+      const base = ctx.base;
+      let segMean;
+      if (stats && typeof stats.mean === "number") {
+        segMean = stats.mean;
+      } else if (typeof base.min === "number" && typeof base.max === "number") {
+        segMean = (base.min + base.max) / 2;
+      } else {
+        segMean = 4;
+      }
+
+      const jitter = (rng() - 0.5) * 2;
+      const jitteredMean = Math.max(2, segMean + jitter);
+
+      const baseMax = typeof base.max === "number" ? base.max : Math.round(jitteredMean + 4);
+      const segMin = Math.max(2, Math.min(Math.round(jitteredMean), baseMax));
+      const segMax = Math.max(segMin + 1, Math.min(baseMax, Math.round(jitteredMean + 2)));
+
+      const segText = generatePlainNameFromContext(ctx, rng, {
+        min: segMin,
+        max: segMax,
+        dupl: base.d || ""
+      });
+
+      if (!segText) break;
+
+      const shape = getSegmentShape(segText, ctx);
+      segs.push({text: segText, ctx, shape});
+      total += segText.length;
+      usedBaseIdxs.add(ctx.idx);
+      guard++;
+    }
+
+    if (!segs.length) {
+      const ctx = ra(contexts, rng);
+      const base = ctx.base;
+      const fallbackText = generatePlainNameFromContext(ctx, rng, {
+        min: requestedMin,
+        max: requestedMax,
+        dupl: base.d || ""
+      });
+      const shape = getSegmentShape(fallbackText, ctx);
+      return {
+        text: fallbackText,
+        segInfos: [{text: fallbackText, ctx, shape}]
+      };
+    }
+
+    let compound = segs[0].text;
+    for (let i = 1; i < segs.length; i++) {
+      const seg = segs[i];
+      compound = smoothJoin(compound, seg.text, seg.ctx.onsetSet, rng);
+    }
+
+    return {
+      text: compound,
+      segInfos: segs
+    };
+  }
+
+  function scoreCandidate(text, segInfos) {
+    const len = text.length;
+    let penalty = 0;
+
+    if (len < requestedMin) penalty += (requestedMin - len) * 2;
+    if (len > requestedMax) penalty += (len - requestedMax) * 2;
+
+    const deltaToTarget = Math.abs(len - targetLen);
+    penalty += deltaToTarget;
+
+    if (isRepetitiveClickPattern(segInfos)) penalty += 50;
+
+    return {len, penalty};
+  }
+
+  let best = null;
+  let bestScore = Infinity;
+  const attempts = 6;
+
+  for (let i = 0; i < attempts; i++) {
+      const {text, segInfos} = buildOnce();
+      const {penalty} = scoreCandidate(text, segInfos);
+      if (penalty < bestScore) {
+        bestScore = penalty;
+        best = {text, segInfos};
+    }
+    const len = text.length;
+    if (len >= requestedMin && len <= requestedMax && !isRepetitiveClickPattern(segInfos)) {
+      best = {text, segInfos};
+      break;
+    }
+  }
+
+  if (!best) {
+    const ctx = ra(contexts, rng);
+    const base = ctx.base;
+    const fallbackText = generatePlainNameFromContext(ctx, rng, {
+      min: requestedMin,
+      max: requestedMax,
+      dupl: base.d || ""
+    });
+    return {text: fallbackText, bases: [ctx.idx]};
+  }
+
+  const usedIdxs = Array.from(new Set(best.segInfos.map(s => s.ctx.idx))).sort((a, b) => a - b);
+  return {text: best.text, bases: usedIdxs};
+}
+
 function parseArgs(argv) {
   const args = argv.slice(2);
 
@@ -290,22 +658,33 @@ function parseArgs(argv) {
   const seedArg = getValue("--seed");
   const minArg = getValue("--min");
   const maxArg = getValue("--max");
+  const weightsArg = getValue("--weights");
+  const maxSegmentsArg = getValue("--max-segments");
 
   const count = countArg ? parseInt(countArg, 10) : null;
   const perBase = perBaseArg ? parseInt(perBaseArg, 10) : null;
   const seed = seedArg != null ? parseInt(seedArg, 10) : null;
   const min = minArg != null ? parseInt(minArg, 10) : null;
   const max = maxArg != null ? parseInt(maxArg, 10) : null;
+  const maxSegments = maxSegmentsArg != null ? parseInt(maxSegmentsArg, 10) : null;
 
   const baseIndices = baseArg
     ? baseArg.split(",").map(s => s.trim()).filter(Boolean).map(s => parseInt(s, 10)).filter(n => !Number.isNaN(n))
     : [];
 
+  const weights = weightsArg
+    ? weightsArg
+        .split(",")
+        .map(s => s.trim())
+        .filter(Boolean)
+        .map(s => parseInt(s, 10))
+    : null;
+
   const help = args.includes("--help") || args.includes("-h");
   const analyzeLengths = args.includes("--analyze-lengths");
   const printPatch = args.includes("--print-patch");
 
-  return {iso, baseIndices, count, perBase, seed, min, max, analyzeLengths, printPatch, help};
+  return {iso, baseIndices, count, perBase, seed, min, max, maxSegments, weights, analyzeLengths, printPatch, help};
 }
 
 function printUsage() {
@@ -320,9 +699,11 @@ function printUsage() {
   console.log("  --seed=INT            Seed for deterministic output.");
   console.log("  --min=INT             Override minimum length.");
   console.log("  --max=INT             Override maximum length.");
+  console.log("  --weights=a,b,c       Optional weights for blended --base runs (matches number of indices).");
+  console.log("  --max-segments=N      Upper bound on how many segments can be stitched inside a blended name (default 4).");
   console.log("  --analyze-lengths     Also print length stats and suggested min/max per base; useful for placename tuning.");
   console.log(
-    "  --print-patch         With --analyze-lengths, also emit JSON min/max patch suggestions per base.\\n"
+    "  --print-patch         With --analyze-lengths, also emit JSON min/max patch suggestions per base.\n"
   );
   console.log("Examples:");
   console.log("  node tools/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1");
@@ -331,9 +712,20 @@ function printUsage() {
 }
 
 function main() {
-  const {iso, baseIndices, count, perBase, seed, min, max, analyzeLengths, printPatch, help} = parseArgs(
-    process.argv
-  );
+  const {
+    iso,
+    baseIndices,
+    count,
+    perBase,
+    seed,
+    min,
+    max,
+    maxSegments,
+    weights,
+    analyzeLengths,
+    printPatch,
+    help
+  } = parseArgs(process.argv);
 
   if (help || (!iso && (!baseIndices || !baseIndices.length))) {
     printUsage();
@@ -344,9 +736,12 @@ function main() {
   const bases = loadDefaultNameBases();
   const baseByIndex = buildBaseIndexMap(bases);
 
-  const overrides = {};
-  if (typeof min === "number" && !Number.isNaN(min)) overrides.min = min;
-  if (typeof max === "number" && !Number.isNaN(max)) overrides.max = max;
+  const baseOverrides = {};
+  if (typeof min === "number" && !Number.isNaN(min)) baseOverrides.min = min;
+  if (typeof max === "number" && !Number.isNaN(max)) baseOverrides.max = max;
+
+  const blendOverrides = Object.assign({}, baseOverrides);
+  if (typeof maxSegments === "number" && maxSegments > 0) blendOverrides.maxSegments = maxSegments;
 
   if (iso) {
     const mixes = readJson("config/language-mixes.json");
@@ -385,7 +780,7 @@ function main() {
       console.log(`-- Base ${idx} | ${baseConfig.name || "(unnamed)"} --`);
       const samples = [];
       for (let i = 0; i < per; i++) {
-        const name = generateFromBaseConfig(baseConfig, rng, overrides);
+        const name = generateFromBaseConfig(baseConfig, rng, baseOverrides);
         samples.push(name);
         console.log("  ", name);
       }
@@ -442,82 +837,120 @@ function main() {
 
   if (baseIndices && baseIndices.length) {
     const total = count && count > 0 ? count : 20;
-    const resolvedBases = baseIndices
-      .map(idx => ({idx, base: baseByIndex.get(idx)}))
-      .filter(x => !!x.base);
 
-    if (!resolvedBases.length) {
-      console.error("No valid bases resolved from --base argument");
+    if (baseIndices.length === 1) {
+      const idx = baseIndices[0];
+      const base = baseByIndex.get(idx);
+      if (!base) {
+        console.error("Base", idx, "not found in defaultNameBases");
+        process.exitCode = 1;
+        return;
+      }
+
+      console.log("=== Samples for base:", idx, "===");
+      console.log("");
+
+      const samples = analyzeLengths ? [] : null;
+      for (let i = 0; i < total; i++) {
+        const name = generateFromBaseConfig(base, rng, baseOverrides);
+        if (samples) samples.push(name);
+        console.log(`[${idx}] ${name}`);
+      }
+
+      if (analyzeLengths && samples) {
+        console.log("");
+        console.log("=== Length analysis ===");
+        const stats = computeLengthStats(samples);
+        if (stats.count) {
+          console.log(`Base ${idx} | ${base.name || "(unnamed)"}`);
+          console.log(
+            `  [lengths] count=${stats.count} min=${stats.minLen} max=${stats.maxLen} ` +
+              `mean=${stats.mean.toFixed(2)} p25=${stats.p25} p75=${stats.p75} p90=${stats.p90}`
+          );
+          console.log(
+            `  [suggested min/max] ${stats.suggestedMin}-${stats.suggestedMax} ` +
+              `(current: ${base.min}-${base.max})`
+          );
+
+          if (printPatch) {
+            const currentMin = base.min;
+            const currentMax = base.max;
+            if (
+              typeof currentMin === "number" &&
+              typeof currentMax === "number" &&
+              (currentMin !== stats.suggestedMin || currentMax !== stats.suggestedMax)
+            ) {
+              const patch = [
+                {
+                  i: base.i,
+                  name: base.name || null,
+                  from: {min: currentMin, max: currentMax},
+                  to: {min: stats.suggestedMin, max: stats.suggestedMax},
+                  stats: {
+                    minLen: stats.minLen,
+                    maxLen: stats.maxLen,
+                    mean: Number(stats.mean.toFixed(2)),
+                    p25: stats.p25,
+                    p75: stats.p75,
+                    p90: stats.p90
+                  }
+                }
+              ];
+              console.log("");
+              console.log("=== Suggested min/max patch (JSON) ===");
+              console.log(JSON.stringify(patch, null, 2));
+            }
+          }
+        } else {
+          console.log("No non-empty samples generated for base", idx);
+        }
+      }
+      return;
+    }
+
+    const contexts = buildBlendedContexts(baseIndices, baseByIndex, weights);
+    if (!contexts.length) {
+      console.error("Failed to build blended contexts — ensure all bases exist and have seeds");
       process.exitCode = 1;
       return;
     }
 
-    console.log("=== Samples for bases:", baseIndices.join(", "), "===");
+    console.log("=== Blended samples for bases:", baseIndices.join(", "), "===");
     console.log("");
 
-    const samplesByBase = analyzeLengths ? new Map() : null;
-    const patches = analyzeLengths && printPatch ? [] : null;
+    const blendedSamples = analyzeLengths ? [] : null;
+    const baseUsage = new Map();
 
     for (let i = 0; i < total; i++) {
-      const choice = resolvedBases[i % resolvedBases.length];
-      const name = generateFromBaseConfig(choice.base, rng, overrides);
-      if (samplesByBase) {
-        if (!samplesByBase.has(choice.idx)) samplesByBase.set(choice.idx, []);
-        samplesByBase.get(choice.idx).push(name);
-      }
-      console.log(`[${choice.idx}] ${name}`);
+      const result = generateBlendedName(contexts, rng, blendOverrides);
+      const text = result && result.text ? result.text : "";
+      const used = result && Array.isArray(result.bases) && result.bases.length ? result.bases : [];
+      const key = used.length ? used.join("+") : baseIndices.join("+");
+      baseUsage.set(key, (baseUsage.get(key) || 0) + 1);
+      if (blendedSamples) blendedSamples.push(text);
+      console.log(`[${key}] ${text}`);
     }
 
-    if (analyzeLengths) {
+    if (analyzeLengths && blendedSamples) {
       console.log("");
-      console.log("=== Length analysis ===");
-      for (const {idx, base} of resolvedBases) {
-        const samples = (samplesByBase && samplesByBase.get(idx)) || [];
-        const stats = computeLengthStats(samples);
-        if (!stats.count) {
-          console.log(`Base ${idx}: no non-empty samples`);
-          continue;
-        }
-        console.log(`Base ${idx} | ${base.name || "(unnamed)"}`);
+      console.log("=== Blended length analysis ===");
+      const stats = computeLengthStats(blendedSamples);
+      if (stats.count) {
         console.log(
-          `  [lengths] count=${stats.count} min=${stats.minLen} max=${stats.maxLen} ` +
-            `mean=${stats.mean.toFixed(2)} p25=${stats.p25} p75=${stats.p75} p90=${stats.p90}`
+          `count=${stats.count} min=${stats.minLen} max=${stats.maxLen} mean=${stats.mean.toFixed(2)} ` +
+            `p25=${stats.p25} p75=${stats.p75} p90=${stats.p90}`
         );
-        console.log(
-          `  [suggested min/max] ${stats.suggestedMin}-${stats.suggestedMax} ` +
-            `(current: ${base.min}-${base.max})`
-        );
-
-        if (patches) {
-          const currentMin = base.min;
-          const currentMax = base.max;
-          if (
-            typeof currentMin === "number" &&
-            typeof currentMax === "number" &&
-            (currentMin !== stats.suggestedMin || currentMax !== stats.suggestedMax)
-          ) {
-            patches.push({
-              i: base.i,
-              name: base.name || null,
-              from: {min: currentMin, max: currentMax},
-              to: {min: stats.suggestedMin, max: stats.suggestedMax},
-              stats: {
-                minLen: stats.minLen,
-                maxLen: stats.maxLen,
-                mean: Number(stats.mean.toFixed(2)),
-                p25: stats.p25,
-                p75: stats.p75,
-                p90: stats.p90
-              }
-            });
-          }
-        }
+        console.log(`suggested blended min/max: ${stats.suggestedMin}-${stats.suggestedMax}`);
+      } else {
+        console.log("No non-empty blended samples generated");
       }
 
-      if (patches && patches.length) {
+      if (baseUsage.size) {
         console.log("");
-        console.log("=== Suggested min/max patch (JSON) ===");
-        console.log(JSON.stringify(patches, null, 2));
+        console.log("=== Segment usage breakdown ===");
+        for (const [key, value] of baseUsage.entries()) {
+          console.log(`  [${key}] ${value}`);
+        }
       }
     }
   }
