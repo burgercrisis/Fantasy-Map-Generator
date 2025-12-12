@@ -11,11 +11,11 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 - ✅ **2025-12-12 health+coverage verification:** After final cleanup (including removing the last stray invalid base reference), `check-language-mixer-failures` reports **0 failures** and `check-language-mixer-coverage` reports **0 catalog ISOs missing from map**.
 
-- **2025-12-12 Wikipedia Uralic full-list pass (historical snapshot):** Claimed `tools/mixer-meta/wikipedia-uralic-languages-full.json` in `tools/mixer-diagnostics/_wiki_multiagent_claims.json` and ran the per-list reports. Earlier snapshot (prior to the coverage pass below): `fully wired=183` (considered), `unmatched=74`, `Nonunique Bases=257` (with `unique bases=106`, `clustered bases=77). Early triage suggests many unmatched rows are Finnish dialect-group headings with no ISO and need either explicit `skip: true` (if purely classificatory headings) or new catalog+map entries (if we want them represented as distinguishable lects).
+- ✅ **2025-12-12 Wikipedia Uralic full-list pass (historical snapshot):** Claimed `tools/mixer-meta/wikipedia-uralic-languages-full.json` in `tools/mixer-diagnostics/_wiki_multiagent_claims.json` and ran the per-list reports. Earlier snapshot (prior to the coverage pass below): `fully wired=183` (considered), `unmatched=74`, `Nonunique Bases=257` (with `unique bases=106`, `clustered bases=77). Archived evidence: `tools/mixer-diagnostics/tmp/.tmp-uralic-coverage-utf8.txt`.
 
 - ✅ **2025-12-12 Wikipedia Uralic full-list coverage pass (verified):** `tools/mixer-meta/wikipedia-uralic-languages-full.json` now resolves to `unmatched=0` (all non-skip list items are mapped to real catalog ISOs), and the §8.31b snapshot is refreshed via `update-wikipedia-list-coverage-in-devplan` (no hand-edited counts). In parallel, a first uniqueness burn-down batch split the Northern Sami `[274]` cluster, declustered the Komi-Permyak `[426]` lect cluster into unique `[426,...]` mixes, reduced the Hungarian `[15]` mega-cluster to a small remainder, and peeled a first mini-batch of Finnish dialect lects off the massive Finnic `[9]` hub by assigning unique Finnic-anchored mixes.
 
-- ✅ **2025-12-12 stability verification:** `run-language-mixer-health` remains green (**3161** catalog entries, **3161** map rows, **0** missing mappings, **0** Markov failures, **0** duplicate names); `check-language-mixer-map-duplicate-isos` reports **0** duplicate ISO rows.
+- ✅ **2025-12-12 stability verification:** `run-language-mixer-health` remains green (**3162** catalog entries, **3162** map rows, **0** missing mappings, **0** Markov failures, **0** duplicate names); `check-language-mixer-map-duplicate-isos` reports **0** duplicate ISO rows.
 
 - ✅ **2025-12-12 Uralic uniqueness (verified):** Uralic `bases[]` declustering pass resolved **all size≥3 identical base-set clusters** except the intentional Finnic hub `bases=[9]` (now **24** members); `run-language-mixer-suite` is green (**0** failures) and the §8.31b snapshot for `tools/mixer-meta/wikipedia-uralic-languages-full.json` was refreshed via `update-wikipedia-list-coverage-in-devplan`.
 
@@ -36,6 +36,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
     - ✅ `bunak`: app current ↔ nextgen exact overlap **38/40** (legacy ↔ current **0/40**)
   - ✅ **2025-12-12 nextgenSyll pair coverage debugging:** Missing co-occur pairs (e.g. `[4,5]` in `--base=1-10 --count=300 --seed=1 --v=4`) were caused by the **segment→base attribution heuristic** collapsing segments onto one base, not by base selection. Added a “chosen bases, pre-attribution” pair-coverage section, which reports **45/45 (100%)** for the same run.
   - ✅ **2025-12-12 provenance syllable mixer (tester, v=5):** Added `--v=5` (`nextgenSyllProv`) to the comparator. This version generates syllable segments from per-base chains while recording base provenance (ground-truth `baseSeq`, no post-hoc attribution). Verified with `--base=1-10 --count=300 --seed=1 --v=5`: **pair coverage 45/45 (100%)** and **chosenBases coverage 45/45 (100%)**.
+  - ✅ **2025-12-12 linguistic syllable mixer (tester, v=6):** Added `--v=6` (`nextgenSyllLing`) to the comparator. This version keeps provenance-based `baseSeq` but uses linguistic heuristics (span switching, `smoothJoin` + onset sets, click-pattern avoidance, and base-switch penalties). Verified with `--base=1-10 --count=300 --seed=1 --v=6`: **pair coverage 45/45 (100%)** and **chosenBases coverage 45/45 (100%)**. For large base universes (e.g. `--base=1-100` with small `--count`), pair coverage is mainly limited by which base-pairs are sampled/selected (chosenBases), not by attribution.
   - ✅ **Comparator UX:** Sample diff now prints before the stats/overlap report, and sample lines include per-name base tags (segment order) for **app current** and **nextgen**.
   - ✅ **Comparator UX (audit view):** Sample diff now prints per-sample `segs:` + `name:` blocks so you can audit exactly which segments were stitched in **app current** and **nextgen** runs.
   - ✅ **Comparator enforcement (Option 2):** Comparator supports `--min-unique-bases=N` and defaults to requiring **2** unique bases per generated name when the selected ISO maps to multiple bases (enforced for **app current** and **nextgen**; legacy remains a single mixed-chain).
@@ -58,7 +59,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
   - Follow-up declustering removed the `bases=[317]` Kra cluster (kept `kra` as `[317]`, moved the other lects onto unique `[317,...]` mixes).
   - Follow-up declustering removed the `bases=[318]` Hlai cluster (kept `hlai` as `[318]`, moved the other lects onto unique `[318,...]` mixes).
   - ✅ Final Tai-Kadai cleanup reduced **all** Tai-Kadai identical base-set clusters of size **≥ 3** to **0** (`report-language-mixer-base-clusters --category=tai-kadai --min-size=3`), and `run-language-mixer-health` remains green.
-  - Both batches are repeatable via helpers (`tools/mixer-core/decluster-tai-kadai-530.js`, `tools/mixer-core/decluster-tai-kadai-251-252.js`) and the suite remains green.
+  - ✅ Both batches are repeatable via helpers (`tools/mixer-core/decluster-tai-kadai-530.js`, `tools/mixer-core/decluster-tai-kadai-251-252.js`) and the suite remains green.
 
 - ✅ **2025-12-12 mixer-map hygiene (verified):** removed a duplicate `mogholi` row in `config/language-mixer-map.json` (the incorrect duplicate included base `11`). `check-language-mixer-map-duplicate-isos` is green and `run-language-mixer-health` is green.
 
@@ -1168,13 +1169,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Status tier:** **In progress (full section)** – this JSON tracks every language row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 165
+  - `fully wired:` 163
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 159
+  - `Nonunique Bases:` 157
 
 - **Status notes:** Coverage is now complete for this list (`fully wired` = 100% of considered). Next work is base-uniqueness declustering (still high `Nonunique Bases`) and confirming/adjusting race reachability where needed. ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the Koreanic `bases=[10]` mega-cluster (kept `kor` as the anchor while moving dialect/lect entries onto unique `[10,...]` mixes); per-list base-set uniqueness moved from `clustered bases=60` to `clustered bases=58` and `run-language-mixer-suite` is green (**0** failures).
 
