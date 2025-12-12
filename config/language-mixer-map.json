@@ -3636,9 +3636,7 @@
   {
     "iso": "x-nepal-bankariya",
     "bases": [
-      183,
-      201,
-      257
+      77
     ]
   },
   {
@@ -16897,6 +16895,12 @@
   },
   {
     "iso": "chepang",
+    "bases": [
+      77
+    ]
+  },
+  {
+    "iso": "cdm",
     "bases": [
       77
     ]

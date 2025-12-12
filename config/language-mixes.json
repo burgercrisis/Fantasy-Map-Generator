@@ -25208,7 +25208,17 @@
     "iso": "x-nepal-bankariya",
     "region": "Asia",
     "category": "Indo-Aryan",
-    "family": "Indo-Aryan"
+    "family": "Indo-Aryan",
+    "tags": [
+      "alias"
+    ]
+  },
+  {
+    "name": "Chepang (ISO)",
+    "iso": "cdm",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Chepangic"
   },
   {
     "name": "Aghul",

@@ -4,23 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
-const root = path.resolve(__dirname, "..", "..");
-
-function readText(relPath) {
-  const full = path.isAbsolute(relPath) ? relPath : path.join(root, relPath);
-  return fs.readFileSync(full, "utf8").replace(/^\uFEFF/, "");
-}
-
-function readJson(relPath) {
-  return JSON.parse(readText(relPath));
-}
-
-function writeFile(relPath, contents) {
-  const full = path.join(root, relPath);
-  fs.mkdirSync(path.dirname(full), {recursive: true});
-  fs.writeFileSync(full, contents, "utf8");
-  console.log("Wrote", relPath.replace(/\\/g, "/"));
-}
+ const {root, readText, readJson, writeText, writeJson, toTsv} = require("./_report-utils");
 
 function parseArgs(argv) {
   const args = argv.slice(2);
@@ -348,23 +332,6 @@ function inferWikiListsForMix(mix, lists) {
   return {paths: Array.from(inferredPaths).sort(), reasons: Array.from(new Set(reasons)).sort()};
 }
 
-function toTsv(rows, columns) {
-  const header = columns.join("\t");
-
-  function esc(value) {
-    if (value == null) return "";
-    const s = String(value);
-    return s.replace(/\r?\n/g, " ");
-  }
-
-  const lines = [header];
-  for (const row of rows) {
-    lines.push(columns.map(c => esc(row[c])).join("\t"));
-  }
-
-  return lines.join("\n") + "\n";
-}
-
 function main() {
   const opts = parseArgs(process.argv);
 
@@ -601,8 +568,8 @@ function main() {
     "wiki_items_count"
   ];
 
-  writeFile("tools/mixer-diagnostics/language-integration-table.tsv", toTsv(rows, columns));
-  writeFile("tools/mixer-diagnostics/language-integration-table.json", JSON.stringify({rows, columns, unregisteredWikiMeta}, null, 2) + "\n");
+  writeText("tools/mixer-diagnostics/language-integration-table.tsv", toTsv(rows, columns));
+  writeJson("tools/mixer-diagnostics/language-integration-table.json", {rows, columns, unregisteredWikiMeta});
 
   const wikiOnlyColumns = [
     "list",
@@ -617,11 +584,8 @@ function main() {
     "in_mixer_map"
   ];
 
-  writeFile("tools/mixer-diagnostics/wiki-only-language-items.tsv", toTsv(wikiOnlyRows, wikiOnlyColumns));
-  writeFile(
-    "tools/mixer-diagnostics/wiki-only-language-items.json",
-    JSON.stringify({rows: wikiOnlyRows, columns: wikiOnlyColumns}, null, 2) + "\n"
-  );
+  writeText("tools/mixer-diagnostics/wiki-only-language-items.tsv", toTsv(wikiOnlyRows, wikiOnlyColumns));
+  writeJson("tools/mixer-diagnostics/wiki-only-language-items.json", {rows: wikiOnlyRows, columns: wikiOnlyColumns});
 }
 
 main();

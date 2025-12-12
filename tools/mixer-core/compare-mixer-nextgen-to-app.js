@@ -1410,6 +1410,555 @@ function runNextgenSyllableLinguistic({baseIndices, count, seed, min, max, weigh
   return {names, segTextLists, baseSeqs, chosenBasesList};
 }
 
+function runNextgenSyllableLinguisticV8({baseIndices, count, seed, min, max, weights, minUniqueBases}) {
+  const rng = makeMulberry32(seed);
+  const bases = loadDefaultNameBases();
+  const contexts = buildWeightedContexts(baseIndices, bases, weights);
+  if (!contexts.length) return {names: [], segTextLists: [], baseSeqs: [], chosenBasesList: []};
+
+  const names = [];
+  const segTextLists = [];
+  const baseSeqs = [];
+  const chosenBasesList = [];
+
+  const availableUniqueBases = Array.from(new Set(contexts.map(c => c.idx))).length;
+  const requiredUniqueBases =
+    typeof minUniqueBases === "number"
+      ? Math.max(1, Math.min(minUniqueBases, availableUniqueBases || 1))
+      : availableUniqueBases > 1
+        ? 2
+        : 1;
+
+  const ctxByIdx = new Map(contexts.map(c => [c.idx, c]));
+
+  const isVowelChar = ch => typeof ch === "string" && ch.length && VOWELS.includes(ch);
+  const boundaryPenalty = (prevSeg, nextSeg) => {
+    const a = last(prevSeg);
+    const b = nextSeg && nextSeg.length ? nextSeg[0] : "";
+    if (!a || !b) return 0;
+    if (a === "'" || a === " " || a === "-") return 0;
+    if (b === "'" || b === " " || b === "-") return 0;
+    if (isVowelChar(a) && isVowelChar(b)) return 2;
+    if (!isVowelChar(a) && !isVowelChar(b) && a === b) return 1;
+    return 0;
+  };
+
+  const baseSwitchPenalty = (prevCtx, nextCtx) => {
+    if (!prevCtx || !nextCtx) return 0;
+    if (prevCtx.idx === nextCtx.idx) return 0;
+    const a = !!prevCtx.isClickHeavy;
+    const b = !!nextCtx.isClickHeavy;
+    if (a !== b) return 3;
+    return 0;
+  };
+
+  const pickNextSegFromBase = (chain, prevChar, prevSeg) => {
+    const arr = (chain && (chain[prevChar] || chain[""])) || [];
+    if (!Array.isArray(arr) || !arr.length) return "";
+
+    let best = arr[Math.floor(rng() * arr.length)];
+    let bestPenalty = boundaryPenalty(prevSeg, best);
+    for (let t = 0; t < 2; t++) {
+      const cand = arr[Math.floor(rng() * arr.length)];
+      const p = boundaryPenalty(prevSeg, cand);
+      if (p < bestPenalty) {
+        best = cand;
+        bestPenalty = p;
+        if (bestPenalty === 0) break;
+      }
+    }
+    return best;
+  };
+
+  const onsetOverlapScore = (a, b) => {
+    const setA = a && a.onsetSet ? a.onsetSet : null;
+    const setB = b && b.onsetSet ? b.onsetSet : null;
+    if (!setA || !setB || !setA.size || !setB.size) return 1;
+    let common = 0;
+    const [small, large] = setA.size <= setB.size ? [setA, setB] : [setB, setA];
+    for (const x of small) if (large.has(x)) common++;
+    const denom = Math.max(1, Math.min(setA.size, setB.size));
+    const ratio = common / denom;
+    return 0.5 + 0.5 * ratio;
+  };
+
+  const weightedPick = (items, ws) => {
+    if (!Array.isArray(items) || !items.length) return null;
+    const weightsArr = Array.isArray(ws) && ws.length === items.length ? ws : items.map(() => 1);
+    let total = 0;
+    for (const w of weightsArr) total += Math.max(0, +w || 0);
+    if (total <= 0) return items[Math.floor(rng() * items.length)];
+    let r = rng() * total;
+    for (let i = 0; i < items.length; i++) {
+      r -= Math.max(0, +weightsArr[i] || 0);
+      if (r <= 0) return items[i];
+    }
+    return items[items.length - 1];
+  };
+
+  const pickWeightedDifferentBase = (choices, current, prevBase) => {
+    const others = Array.isArray(choices) ? choices.filter(x => x !== current) : [];
+    if (!others.length) return current;
+
+    const prevCtx = prevBase != null ? ctxByIdx.get(prevBase) : null;
+    const weights = others.map(idx => {
+      const nextCtx = ctxByIdx.get(idx);
+      let w = 1;
+      if (baseSwitchPenalty(prevCtx, nextCtx) >= 3) w *= 0.25;
+      w *= onsetOverlapScore(prevCtx, nextCtx);
+      return w;
+    });
+
+    const picked = weightedPick(others, weights);
+    return picked == null ? current : picked;
+  };
+
+  function attempt(chosenBases, requestedMin, requestedMax) {
+    const baseChains = new Map(
+      chosenBases.map(idx => {
+        const base = bases[idx];
+        const blob = base && typeof base.b === "string" ? base.b : "";
+        return [idx, calculateChainFromBlob(blob)];
+      })
+    );
+
+    const segs = [];
+    const segInfos = [];
+    const baseSeq = [];
+    const usedBases = new Set();
+    let compound = "";
+
+    let currentBase = chosenBases[Math.floor(rng() * chosenBases.length)];
+    let lastNonSpacerBase = null;
+    let runLen = 0;
+
+    const maxSegs = 20;
+    for (let i = 0; i < maxSegs; i++) {
+      const remainingBudget = requestedMax - compound.length;
+      if (remainingBudget <= 0) break;
+
+      const prevSeg = segs.length ? segs[segs.length - 1] : "";
+      const prevChar = segs.length ? last(prevSeg) : "";
+      const prevBase = baseSeq.length ? baseSeq[baseSeq.length - 1] : null;
+      const prevCtx = prevBase != null ? ctxByIdx.get(prevBase) : null;
+
+      if (chosenBases.length > 1 && i > 0) {
+        const baseSwitchBaseProb = 0.12;
+        const baseSwitchRamp = 0.18;
+        const baseSwitchCap = 0.85;
+        const effectiveRun = runLen > 0 ? runLen : 1;
+        let switchProb = baseSwitchBaseProb + baseSwitchRamp * Math.max(0, effectiveRun - 1);
+        if (switchProb > baseSwitchCap) switchProb = baseSwitchCap;
+        if (effectiveRun >= 4) switchProb = 1;
+
+        if (rng() < switchProb) {
+          const nextBase = pickWeightedDifferentBase(chosenBases, currentBase, lastNonSpacerBase);
+          const nextCtx = ctxByIdx.get(nextBase);
+          const p = baseSwitchPenalty(prevCtx, nextCtx);
+          if (p < 3 || rng() < 0.2) currentBase = nextBase;
+        }
+      }
+
+      const ctx = ctxByIdx.get(currentBase);
+      const chain = baseChains.get(currentBase);
+      const cur = pickNextSegFromBase(chain, prevChar, prevSeg);
+      if (cur === "") {
+        if (compound.length < requestedMin) {
+          compound = "";
+          segs.length = 0;
+          segInfos.length = 0;
+          baseSeq.length = 0;
+          usedBases.clear();
+          currentBase = chosenBases[Math.floor(rng() * chosenBases.length)];
+          lastNonSpacerBase = null;
+          runLen = 0;
+          continue;
+        }
+        break;
+      }
+
+      if (compound.length + cur.length > requestedMax) {
+        if (compound.length < requestedMin) {
+          segs.push(cur);
+          baseSeq.push(currentBase);
+          if (cur !== " " && cur !== "-" && cur !== "'") {
+            usedBases.add(currentBase);
+            if (lastNonSpacerBase === currentBase) runLen++;
+            else {
+              lastNonSpacerBase = currentBase;
+              runLen = 1;
+            }
+          }
+          compound = smoothJoin(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set(), rng);
+          if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
+        }
+        break;
+      }
+
+      segs.push(cur);
+      baseSeq.push(currentBase);
+      if (cur !== " " && cur !== "-" && cur !== "'") {
+        usedBases.add(currentBase);
+        if (lastNonSpacerBase === currentBase) runLen++;
+        else {
+          lastNonSpacerBase = currentBase;
+          runLen = 1;
+        }
+      }
+      compound = smoothJoin(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set(), rng);
+      if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
+
+      if (typeof isRepetitiveClickPattern === "function" && isRepetitiveClickPattern(segInfos)) {
+        if (compound.length < requestedMin) {
+          compound = "";
+          segs.length = 0;
+          segInfos.length = 0;
+          baseSeq.length = 0;
+          usedBases.clear();
+          currentBase = chosenBases[Math.floor(rng() * chosenBases.length)];
+          lastNonSpacerBase = null;
+          runLen = 0;
+          continue;
+        }
+        break;
+      }
+    }
+
+    const l = last(compound);
+    if (l === "'" || l === " " || l === "-") {
+      compound = compound.slice(0, -1);
+      if (segs.length) {
+        segs.pop();
+        baseSeq.pop();
+      }
+    }
+
+    let name = [...compound].reduce(function (r, c, i, d) {
+      if (c === d[i + 1] && !"".includes(c)) return r;
+      if (!r.length) return c.toUpperCase();
+      if (r.slice(-1) === "-" && c === " ") return r;
+      if (r.slice(-1) === " ") return r + c.toUpperCase();
+      if (r.slice(-1) === "-") return r + c.toUpperCase();
+      if (c === "a" && d[i + 1] === "e") return r;
+      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+      return r + c;
+    }, "");
+
+    if (name.split(" ").some(part => part.length < 2)) {
+      name = name
+        .split(" ")
+        .map((p, i) => (i ? p.toLowerCase() : p))
+        .join("");
+    }
+
+    return {text: name, segTexts: segs, baseSeq, usedBasesCount: usedBases.size};
+  }
+
+  for (let i = 0; i < count; i++) {
+    const chosenBases = pickUniqueBasesFromContexts(contexts, rng, minUniqueBases);
+    chosenBasesList.push(chosenBases);
+
+    const baseMins = chosenBases.map(idx => (bases[idx] && typeof bases[idx].min === "number" ? bases[idx].min : 4));
+    const baseMaxs = chosenBases.map(idx => (bases[idx] && typeof bases[idx].max === "number" ? bases[idx].max : 10));
+    const fallbackMin = baseMins.length ? Math.min(...baseMins) : 4;
+    const fallbackMax = baseMaxs.length ? Math.max(...baseMaxs) : Math.max(fallbackMin + 4, 10);
+    const requestedMin = typeof min === "number" ? min : fallbackMin * requiredUniqueBases;
+    const requestedMax = typeof max === "number" ? max : fallbackMax * requiredUniqueBases;
+
+    let best = null;
+    let bestDelta = Infinity;
+    const target = (requestedMin + requestedMax) / 2;
+    for (let t = 0; t < 8; t++) {
+      const candidate = attempt(chosenBases, requestedMin, requestedMax);
+      const len = candidate.text.length;
+      const uniqOk = candidate.usedBasesCount >= Math.min(requiredUniqueBases, chosenBases.length);
+      if (len >= requestedMin && len <= requestedMax && uniqOk) {
+        best = candidate;
+        break;
+      }
+      const delta = Math.abs(len - target) + (uniqOk ? 0 : 1000);
+      if (delta < bestDelta) {
+        bestDelta = delta;
+        best = candidate;
+      }
+    }
+
+    const res = best || attempt(chosenBases, requestedMin, requestedMax);
+    names.push(res.text);
+    segTextLists.push(Array.isArray(res.segTexts) ? res.segTexts : []);
+    baseSeqs.push(Array.isArray(res.baseSeq) ? res.baseSeq : []);
+  }
+
+  return {names, segTextLists, baseSeqs, chosenBasesList};
+}
+
+function runNextgenSyllableLinguisticV9({baseIndices, count, seed, min, max, weights, minUniqueBases}) {
+  const rng = makeMulberry32(seed);
+  const bases = loadDefaultNameBases();
+  const contexts = buildWeightedContexts(baseIndices, bases, weights);
+  if (!contexts.length) return {names: [], segTextLists: [], baseSeqs: [], chosenBasesList: []};
+
+  const names = [];
+  const segTextLists = [];
+  const baseSeqs = [];
+  const chosenBasesList = [];
+
+  const availableUniqueBases = Array.from(new Set(contexts.map(c => c.idx))).length;
+  const requiredUniqueBases =
+    typeof minUniqueBases === "number"
+      ? Math.max(1, Math.min(minUniqueBases, availableUniqueBases || 1))
+      : availableUniqueBases > 1
+        ? 2
+        : 1;
+
+  const ctxByIdx = new Map(contexts.map(c => [c.idx, c]));
+
+  const isVowelChar = ch => typeof ch === "string" && ch.length && VOWELS.includes(ch);
+  const boundaryPenalty = (prevSeg, nextSeg) => {
+    const a = last(prevSeg);
+    const b = nextSeg && nextSeg.length ? nextSeg[0] : "";
+    if (!a || !b) return 0;
+    if (a === "'" || a === " " || a === "-") return 0;
+    if (b === "'" || b === " " || b === "-") return 0;
+    if (isVowelChar(a) && isVowelChar(b)) return 2;
+    if (!isVowelChar(a) && !isVowelChar(b) && a === b) return 1;
+    return 0;
+  };
+
+  const baseSwitchPenalty = (prevCtx, nextCtx) => {
+    if (!prevCtx || !nextCtx) return 0;
+    if (prevCtx.idx === nextCtx.idx) return 0;
+    const a = !!prevCtx.isClickHeavy;
+    const b = !!nextCtx.isClickHeavy;
+    if (a !== b) return 3;
+    return 0;
+  };
+
+  const pickNextSegFromBase = (chain, prevChar, prevSeg) => {
+    const arr = (chain && (chain[prevChar] || chain[""])) || [];
+    if (!Array.isArray(arr) || !arr.length) return "";
+
+    let best = arr[Math.floor(rng() * arr.length)];
+    let bestPenalty = boundaryPenalty(prevSeg, best);
+    for (let t = 0; t < 2; t++) {
+      const cand = arr[Math.floor(rng() * arr.length)];
+      const p = boundaryPenalty(prevSeg, cand);
+      if (p < bestPenalty) {
+        best = cand;
+        bestPenalty = p;
+        if (bestPenalty === 0) break;
+      }
+    }
+    return best;
+  };
+
+  const onsetOverlapScore = (a, b) => {
+    const setA = a && a.onsetSet ? a.onsetSet : null;
+    const setB = b && b.onsetSet ? b.onsetSet : null;
+    if (!setA || !setB || !setA.size || !setB.size) return 1;
+    let common = 0;
+    const [small, large] = setA.size <= setB.size ? [setA, setB] : [setB, setA];
+    for (const x of small) if (large.has(x)) common++;
+    const denom = Math.max(1, Math.min(setA.size, setB.size));
+    const ratio = common / denom;
+    return 0.5 + 0.5 * ratio;
+  };
+
+  const weightedPick = (items, ws) => {
+    if (!Array.isArray(items) || !items.length) return null;
+    const weightsArr = Array.isArray(ws) && ws.length === items.length ? ws : items.map(() => 1);
+    let total = 0;
+    for (const w of weightsArr) total += Math.max(0, +w || 0);
+    if (total <= 0) return items[Math.floor(rng() * items.length)];
+    let r = rng() * total;
+    for (let i = 0; i < items.length; i++) {
+      r -= Math.max(0, +weightsArr[i] || 0);
+      if (r <= 0) return items[i];
+    }
+    return items[items.length - 1];
+  };
+
+  function attempt(chosenBases, requestedMin, requestedMax) {
+    const baseChains = new Map(
+      chosenBases.map(idx => {
+        const base = bases[idx];
+        const blob = base && typeof base.b === "string" ? base.b : "";
+        return [idx, calculateChainFromBlob(blob)];
+      })
+    );
+
+    const segs = [];
+    const segInfos = [];
+    const baseSeq = [];
+    const usedBases = new Set();
+    let compound = "";
+
+    let lastNonSpacerBase = null;
+    let prevNonSpacerBase = null;
+    let runLen = 0;
+    const maxSegs = 20;
+
+    for (let i = 0; i < maxSegs; i++) {
+      const remainingBudget = requestedMax - compound.length;
+      if (remainingBudget <= 0) break;
+
+      const prevSeg = segs.length ? segs[segs.length - 1] : "";
+      const prevChar = segs.length ? last(prevSeg) : "";
+
+      const prevCtx = lastNonSpacerBase != null ? ctxByIdx.get(lastNonSpacerBase) : null;
+      const candidates = chosenBases.slice();
+      const weights = candidates.map(idx => {
+        const nextCtx = ctxByIdx.get(idx);
+        let w = 1;
+
+        if (lastNonSpacerBase != null && idx === lastNonSpacerBase) {
+          const effectiveRun = runLen > 0 ? runLen : 1;
+          if (effectiveRun >= 4) return 0;
+          w *= Math.pow(0.35, Math.max(0, effectiveRun - 1));
+        }
+
+        if (prevNonSpacerBase != null && idx === prevNonSpacerBase) w *= 0.7;
+        if (prevCtx && nextCtx && baseSwitchPenalty(prevCtx, nextCtx) >= 3) w *= 0.25;
+        w *= onsetOverlapScore(prevCtx, nextCtx);
+        return w;
+      });
+
+      const currentBase = weightedPick(candidates, weights);
+      const ctx = currentBase != null ? ctxByIdx.get(currentBase) : null;
+      const chain = currentBase != null ? baseChains.get(currentBase) : null;
+      const cur = pickNextSegFromBase(chain, prevChar, prevSeg);
+      if (cur === "") {
+        if (compound.length < requestedMin) {
+          compound = "";
+          segs.length = 0;
+          segInfos.length = 0;
+          baseSeq.length = 0;
+          usedBases.clear();
+          lastNonSpacerBase = null;
+          prevNonSpacerBase = null;
+          runLen = 0;
+          continue;
+        }
+        break;
+      }
+
+      if (compound.length + cur.length > requestedMax) {
+        if (compound.length < requestedMin) {
+          segs.push(cur);
+          baseSeq.push(currentBase);
+          if (cur !== " " && cur !== "-" && cur !== "'") {
+            usedBases.add(currentBase);
+            if (lastNonSpacerBase === currentBase) runLen++;
+            else {
+              prevNonSpacerBase = lastNonSpacerBase;
+              lastNonSpacerBase = currentBase;
+              runLen = 1;
+            }
+          }
+          compound = smoothJoin(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set(), rng);
+          if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
+        }
+        break;
+      }
+
+      segs.push(cur);
+      baseSeq.push(currentBase);
+      if (cur !== " " && cur !== "-" && cur !== "'") {
+        usedBases.add(currentBase);
+        if (lastNonSpacerBase === currentBase) runLen++;
+        else {
+          prevNonSpacerBase = lastNonSpacerBase;
+          lastNonSpacerBase = currentBase;
+          runLen = 1;
+        }
+      }
+      compound = smoothJoin(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set(), rng);
+      if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
+
+      if (typeof isRepetitiveClickPattern === "function" && isRepetitiveClickPattern(segInfos)) {
+        if (compound.length < requestedMin) {
+          compound = "";
+          segs.length = 0;
+          segInfos.length = 0;
+          baseSeq.length = 0;
+          usedBases.clear();
+          lastNonSpacerBase = null;
+          prevNonSpacerBase = null;
+          runLen = 0;
+          continue;
+        }
+        break;
+      }
+    }
+
+    const l = last(compound);
+    if (l === "'" || l === " " || l === "-") {
+      compound = compound.slice(0, -1);
+      if (segs.length) {
+        segs.pop();
+        baseSeq.pop();
+      }
+    }
+
+    let name = [...compound].reduce(function (r, c, i, d) {
+      if (c === d[i + 1] && !"".includes(c)) return r;
+      if (!r.length) return c.toUpperCase();
+      if (r.slice(-1) === "-" && c === " ") return r;
+      if (r.slice(-1) === " ") return r + c.toUpperCase();
+      if (r.slice(-1) === "-") return r + c.toUpperCase();
+      if (c === "a" && d[i + 1] === "e") return r;
+      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+      return r + c;
+    }, "");
+
+    if (name.split(" ").some(part => part.length < 2)) {
+      name = name
+        .split(" ")
+        .map((p, i) => (i ? p.toLowerCase() : p))
+        .join("");
+    }
+
+    return {text: name, segTexts: segs, baseSeq, usedBasesCount: usedBases.size};
+  }
+
+  for (let i = 0; i < count; i++) {
+    const chosenBases = pickUniqueBasesFromContexts(contexts, rng, minUniqueBases);
+    chosenBasesList.push(chosenBases);
+
+    const baseMins = chosenBases.map(idx => (bases[idx] && typeof bases[idx].min === "number" ? bases[idx].min : 4));
+    const baseMaxs = chosenBases.map(idx => (bases[idx] && typeof bases[idx].max === "number" ? bases[idx].max : 10));
+    const fallbackMin = baseMins.length ? Math.min(...baseMins) : 4;
+    const fallbackMax = baseMaxs.length ? Math.max(...baseMaxs) : Math.max(fallbackMin + 4, 10);
+    const requestedMin = typeof min === "number" ? min : fallbackMin * requiredUniqueBases;
+    const requestedMax = typeof max === "number" ? max : fallbackMax * requiredUniqueBases;
+
+    let best = null;
+    let bestDelta = Infinity;
+    const target = (requestedMin + requestedMax) / 2;
+    for (let t = 0; t < 8; t++) {
+      const candidate = attempt(chosenBases, requestedMin, requestedMax);
+      const len = candidate.text.length;
+      const uniqOk = candidate.usedBasesCount >= Math.min(requiredUniqueBases, chosenBases.length);
+      if (len >= requestedMin && len <= requestedMax && uniqOk) {
+        best = candidate;
+        break;
+      }
+      const delta = Math.abs(len - target) + (uniqOk ? 0 : 1000);
+      if (delta < bestDelta) {
+        bestDelta = delta;
+        best = candidate;
+      }
+    }
+
+    const res = best || attempt(chosenBases, requestedMin, requestedMax);
+    names.push(res.text);
+    segTextLists.push(Array.isArray(res.segTexts) ? res.segTexts : []);
+    baseSeqs.push(Array.isArray(res.baseSeq) ? res.baseSeq : []);
+  }
+
+  return {names, segTextLists, baseSeqs, chosenBasesList};
+}
+
 function runNextgenSyllableProvenance({baseIndices, count, seed, min, max, weights, minUniqueBases}) {
   const rng = makeMulberry32(seed);
   const bases = loadDefaultNameBases();
@@ -1898,7 +2447,7 @@ function parseArgs(argv) {
   const baseIndices = parseBaseList(baseCsv);
 
   function parseVersionList(expr) {
-    if (expr == null) return [1, 2, 3, 4, 5, 6];
+    if (expr == null) return [1, 2, 3, 4, 5, 6, 8, 9];
     const parts = String(expr)
       .split(/[,\s]+/)
       .map(s => s.trim())
@@ -1908,7 +2457,8 @@ function parseArgs(argv) {
     const seen = new Set();
     const push = n => {
       if (Number.isNaN(n)) return;
-      if (n < 1 || n > 6) return;
+      if (n === 7) n = 6;
+      if (!(n >= 1 && n <= 6) && n !== 8 && n !== 9) return;
       if (seen.has(n)) return;
       seen.add(n);
       out.push(n);
@@ -1960,7 +2510,7 @@ function printUsage() {
   console.log("  --base=IDX[,IDX...]   Compare directly from base indices.");
   console.log("  --count=N             Number of samples per generator (default 40).");
   console.log("  --print=N             How many samples to print in diff view (default 10).");
-  console.log("  --v=LIST              Which mixer versions to run (default all): 1=legacy, 2=current, 3=nextgen, 4=nextgenSyll, 5=nextgenSyllProv, 6=nextgenSyllLing. Example: --v=1,4");
+  console.log("  --v=LIST              Which mixer versions to run (default all): 1=legacy, 2=current, 3=nextgen, 4=nextgenSyll, 5=nextgenSyllProv, 6=nextgenSyllLing (v7 alias), 8=nextgenSyllLingV8, 9=nextgenSyllLingV9. Example: --v=1,4");
   console.log("  --seed=INT            Seed for deterministic output.");
   console.log("  --min=INT             Override minimum length.");
   console.log("  --max=INT             Override maximum length.");
@@ -1980,7 +2530,7 @@ function main() {
   }
 
   if (!versions || !versions.length) {
-    console.error("No valid versions selected via --v (expected 1-6)");
+    console.error("No valid versions selected via --v (expected 1-6,8-9)");
     process.exitCode = 1;
     return;
   }
@@ -1991,7 +2541,9 @@ function main() {
   const wantNextgen = selected.has(3);
   const wantNextgenSyll = selected.has(4);
   const wantNextgenSyllProv = selected.has(5);
-  const wantNextgenSyllLing = selected.has(6);
+  const wantNextgenSyllLing = selected.has(6) || selected.has(7);
+  const wantNextgenSyllLingV8 = selected.has(8);
+  const wantNextgenSyllLingV9 = selected.has(9);
 
   let indices = baseIndices;
   if (iso) {
@@ -2079,6 +2631,30 @@ function main() {
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
+  const nextgenSyllableLingV8 = wantNextgenSyllLingV8
+    ? runNextgenSyllableLinguisticV8({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        weights,
+        minUniqueBases: effectiveMinUniqueBases
+      })
+    : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
+
+  const nextgenSyllableLingV9 = wantNextgenSyllLingV9
+    ? runNextgenSyllableLinguisticV9({
+        baseIndices: indices,
+        count,
+        seed,
+        min,
+        max,
+        weights,
+        minUniqueBases: effectiveMinUniqueBases
+      })
+    : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
+
   const nextgenSyllable = wantNextgenSyll
     ? runNextgenSyllableChain({
         baseIndices: indices,
@@ -2134,12 +2710,32 @@ function main() {
       }))
     : [];
 
+  const nextgenSyllLingV8Samples = wantNextgenSyllLingV8
+    ? nextgenSyllableLingV8.names.map((text, i) => ({
+        text,
+        baseSeq: Array.isArray(nextgenSyllableLingV8.baseSeqs) ? nextgenSyllableLingV8.baseSeqs[i] || [] : [],
+        segTexts: Array.isArray(nextgenSyllableLingV8.segTextLists) ? nextgenSyllableLingV8.segTextLists[i] || [] : [],
+        chosenBases: Array.isArray(nextgenSyllableLingV8.chosenBasesList) ? nextgenSyllableLingV8.chosenBasesList[i] || [] : []
+      }))
+    : [];
+
+  const nextgenSyllLingV9Samples = wantNextgenSyllLingV9
+    ? nextgenSyllableLingV9.names.map((text, i) => ({
+        text,
+        baseSeq: Array.isArray(nextgenSyllableLingV9.baseSeqs) ? nextgenSyllableLingV9.baseSeqs[i] || [] : [],
+        segTexts: Array.isArray(nextgenSyllableLingV9.segTextLists) ? nextgenSyllableLingV9.segTextLists[i] || [] : [],
+        chosenBases: Array.isArray(nextgenSyllableLingV9.chosenBasesList) ? nextgenSyllableLingV9.chosenBasesList[i] || [] : []
+      }))
+    : [];
+
   if (wantLegacy) legacy.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
   if (wantCurrent) current.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
   if (wantNextgen) nextgenSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
   if (wantNextgenSyll) nextgenSyllSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
   if (wantNextgenSyllProv) nextgenSyllProvSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
   if (wantNextgenSyllLing) nextgenSyllLingSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
+  if (wantNextgenSyllLingV8) nextgenSyllLingV8Samples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
+  if (wantNextgenSyllLingV9) nextgenSyllLingV9Samples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
 
   console.log(`Compared mixers for ${iso ? "iso=" + iso : "bases=" + indices.join(",")}`);
   console.log("");
@@ -2165,6 +2761,8 @@ function main() {
   if (wantNextgenSyll) sampleModes.push({name: "nextgenSyll", rows: nextgenSyllSamples});
   if (wantNextgenSyllProv) sampleModes.push({name: "nextgenSyllProv", rows: nextgenSyllProvSamples});
   if (wantNextgenSyllLing) sampleModes.push({name: "nextgenSyllLing", rows: nextgenSyllLingSamples});
+  if (wantNextgenSyllLingV8) sampleModes.push({name: "nextgenSyllLingV8", rows: nextgenSyllLingV8Samples});
+  if (wantNextgenSyllLingV9) sampleModes.push({name: "nextgenSyllLingV9", rows: nextgenSyllLingV9Samples});
 
   for (let i = 0; i < lines; i++) {
     console.log(`#${i + 1}`);
@@ -2209,6 +2807,18 @@ function main() {
     name: "nextgenSyllLing",
     title: "=== Helper-only nextgenSyllLing ===",
     samples: nextgenSyllLingSamples
+  });
+
+  if (wantNextgenSyllLingV8) reportModes.push({
+    name: "nextgenSyllLingV8",
+    title: "=== Helper-only nextgenSyllLingV8 ===",
+    samples: nextgenSyllLingV8Samples
+  });
+
+  if (wantNextgenSyllLingV9) reportModes.push({
+    name: "nextgenSyllLingV9",
+    title: "=== Helper-only nextgenSyllLingV9 ===",
+    samples: nextgenSyllLingV9Samples
   });
 
   const reportModeTexts = reportModes.map(m => ({
@@ -2272,7 +2882,9 @@ function main() {
   const chosenCoverageModes = [
     {name: "nextgenSyll", enabled: wantNextgenSyll, samples: nextgenSyllSamples},
     {name: "nextgenSyllProv", enabled: wantNextgenSyllProv, samples: nextgenSyllProvSamples},
-    {name: "nextgenSyllLing", enabled: wantNextgenSyllLing, samples: nextgenSyllLingSamples}
+    {name: "nextgenSyllLing", enabled: wantNextgenSyllLing, samples: nextgenSyllLingSamples},
+    {name: "nextgenSyllLingV8", enabled: wantNextgenSyllLingV8, samples: nextgenSyllLingV8Samples},
+    {name: "nextgenSyllLingV9", enabled: wantNextgenSyllLingV9, samples: nextgenSyllLingV9Samples}
   ].filter(m => m.enabled && Array.isArray(m.samples) && m.samples.some(r => Array.isArray(r.chosenBases) && r.chosenBases.length));
 
   if (chosenCoverageModes.length) {
