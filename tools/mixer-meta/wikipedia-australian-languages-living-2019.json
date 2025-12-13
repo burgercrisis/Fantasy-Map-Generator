@@ -2,7 +2,7 @@
   "title": "Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)",
   "source": "https://en.wikipedia.org/wiki/Australian_Aboriginal_languages",
   "items": [
-    { "name": "Yugambeh-Bundjalung" },
+    { "name": "Yugambeh-Bundjalung", "iso": "bundjalung", "skip": true },
     { "name": "Bundjalung" },
     { "name": "Yugambeh" },
     { "name": "Githabul" },
@@ -10,7 +10,7 @@
     { "name": "Gamilaraay" },
 
     { "name": "Ngarrindjeri" },
-    { "name": "Adyamathanha" },
+    { "name": "Adyamathanha", "iso": "adnyamathanha" },
     { "name": "Yankunytjatjara" },
     { "name": "Pitjantjatjara" },
 

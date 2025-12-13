@@ -7,9 +7,9 @@
     { "name": "Proto-Austronesian", "skip": true },
 
     { "name": "Rukai", "skip": true },
-    { "name": "Mantauran Rukai" },
-    { "name": "Maga-Tona Rukai" },
-    { "name": "Budai-Labuan-Taromak Rukai" },
+    { "name": "Mantauran Rukai", "iso": "rukai-mantauran" },
+    { "name": "Maga-Tona Rukai", "iso": "rukai-maga-tona" },
+    { "name": "Budai-Labuan-Taromak Rukai", "iso": "rukai-budai-labuan-taromak" },
 
     { "name": "F1 (unnamed branch)", "skip": true },
 
@@ -31,13 +31,13 @@
 
     { "name": "West Coast (Papora-Hoanya-Babuza-Taokas)", "skip": true },
     { "name": "Babuza" },
-    { "name": "Papora" },
-    { "name": "Hoanya" },
-    { "name": "Taokas" },
+    { "name": "Papora", "iso": "papora" },
+    { "name": "Hoanya", "iso": "hoanya" },
+    { "name": "Taokas", "iso": "taokas" },
 
     { "name": "Atayalic", "skip": true },
-    { "name": "Squliq Atayal" },
-    { "name": "Ts'ole' Atayal" },
+    { "name": "Squliq Atayal", "iso": "atayal-squliq" },
+    { "name": "Ts'ole' Atayal", "iso": "atayal-tsole" },
     { "name": "Seediq" },
 
     { "name": "East Formosan", "skip": true },
@@ -48,13 +48,13 @@
     { "name": "Siraya-Amis-Nataoran", "skip": true },
     { "name": "Siraya" },
     { "name": "Amis" },
-    { "name": "Nataoran" },
+    { "name": "Nataoran", "iso": "ais" },
     { "name": "Sakizaya" },
 
     { "name": "Southern Formosan (uncertain)", "skip": true },
     { "name": "Bunun" },
-    { "name": "Isbukun Bunun" },
-    { "name": "Northern and Central Bunun" },
+    { "name": "Isbukun Bunun", "iso": "bunun-isbukun" },
+    { "name": "Northern and Central Bunun", "iso": "bunun-northern-central" },
 
     { "name": "Paiwan-Puyuma (uncertain)", "skip": true },
     { "name": "Paiwan" },

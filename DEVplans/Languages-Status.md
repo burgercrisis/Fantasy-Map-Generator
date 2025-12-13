@@ -1622,9 +1622,9 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 20
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 20
+  - `Nonunique Bases:` 1
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 1
   - `clustered bases:` 0
@@ -1638,11 +1638,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
 - **Status tier:** **Untriaged (auto-registered)**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 46
+  - `fully wired:` 47
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 2
+  - `unmatched:` 0
   - `ambiguous:` 0
   - `Nonunique Bases:` 47
 - **Base-set uniqueness details (full items):**
@@ -1658,13 +1658,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Source:** https://en.wikipedia.org/wiki/Formosan_languages
 - **Status tier:** **Untriaged (auto-registered)**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 0
+  - `fully wired:` 21
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 22
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 22
+  - `Nonunique Bases:` 21
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 0
   - `clustered bases:` 0

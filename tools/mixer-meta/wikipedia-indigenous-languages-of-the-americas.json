@@ -38,7 +38,7 @@
     { "name": "Chinanteco" },
     { "name": "Chipewyan" },
     { "name": "Chiquitano" },
-    { "name": "Chocho" },
+    { "name": "Chocho", "iso": "coz" },
     { "name": "Choctaw" },
     { "name": "Chontal Maya" },
     { "name": "Chontal of Oaxaca" },

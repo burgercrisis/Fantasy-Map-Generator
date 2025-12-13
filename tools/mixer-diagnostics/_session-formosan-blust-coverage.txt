@@ -1,38 +1,14 @@
 ﻿List title: Wikipedia: Formosan language families - Blust (1999)
 Source: https://en.wikipedia.org/wiki/Formosan_languages
 Total items: 32
-  considered: 22
-  skipped:    10
+  considered: 21
+  skipped:    11
 
 Coverage summary (considered items only):
-  fully wired:       0 (0.0% of considered)
+  fully wired:       21 (100.0% of considered)
   missing catalog:   0
   missing map:       0
   missing both:      0
-  unmatched name:    22
+  unmatched name:    0
   ambiguous matches: 0
-  Nonunique Bases:   22
-
-Unmatched items (no iso / name not found):
-  - Tsou language ΓÇô No iso provided and name did not match any catalog entry
-  - Saaroa language ΓÇô No iso provided and name did not match any catalog entry
-  - Kanakanavu language ΓÇô No iso provided and name did not match any catalog entry
-  - Thao language ΓÇô No iso provided and name did not match any catalog entry
-  - Babuza language ΓÇô No iso provided and name did not match any catalog entry
-  - Favorlang language ΓÇô No iso provided and name did not match any catalog entry
-  - Papora-Hoanya language ΓÇô No iso provided and name did not match any catalog entry
-  - Saisiyat language ΓÇô No iso provided and name did not match any catalog entry
-  - Pazeh language ΓÇô No iso provided and name did not match any catalog entry
-  - Kulon language ΓÇô No iso provided and name did not match any catalog entry
-  - Atayal language ΓÇô No iso provided and name did not match any catalog entry
-  - Seediq language ΓÇô No iso provided and name did not match any catalog entry
-  - Basay language ΓÇô No iso provided and name did not match any catalog entry
-  - Kavalan language ΓÇô No iso provided and name did not match any catalog entry
-  - Ketagalan language ΓÇô No iso provided and name did not match any catalog entry
-  - Amis language ΓÇô No iso provided and name did not match any catalog entry
-  - Sakizaya language ΓÇô No iso provided and name did not match any catalog entry
-  - Siraya language ΓÇô No iso provided and name did not match any catalog entry
-  - Bunun language ΓÇô No iso provided and name did not match any catalog entry
-  - Rukai language ΓÇô No iso provided and name did not match any catalog entry
-  - Puyuma language ΓÇô No iso provided and name did not match any catalog entry
-  - Paiwan language ΓÇô No iso provided and name did not match any catalog entry
+  Nonunique Bases:   21

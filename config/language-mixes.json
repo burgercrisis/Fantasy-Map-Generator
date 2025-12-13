@@ -7961,6 +7961,62 @@
     "family": "Australian Aboriginal"
   },
   {
+    "name": "Gaagudju",
+    "iso": "gbu",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaagudju_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Kungarakany",
+    "iso": "ggk",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kungarakany_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Laragia",
+    "iso": "lrg",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laragiya_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Minkin",
+    "iso": "xxm",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Minkin_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Umbugarla",
+    "iso": "umr",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Umbugarla_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wadjiginy",
+    "iso": "wdj",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wadjiginy_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wagiman",
+    "iso": "waq",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wagiman_language",
+    "family": "Australian Aboriginal"
+  },
+  {
     "name": "Upper Arrernte",
     "iso": "upper-arrernte",
     "region": "Australia",

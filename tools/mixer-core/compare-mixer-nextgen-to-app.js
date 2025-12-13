@@ -1477,7 +1477,6 @@ function runNextgenSyllableLinguisticV7({baseIndices, count, seed, min, max, wei
   };
 
   function attempt(chosenBases, requestedMin, requestedMax) {
-    const targetUniqueBases = computeTargetUniqueBases(chosenBases, requestedMin, requestedMax);
     const baseChains = new Map(
       chosenBases.map(idx => {
         const base = bases[idx];
@@ -1628,8 +1627,6 @@ function runNextgenSyllableLinguisticV7({baseIndices, count, seed, min, max, wei
     const requestedMin = typeof min === "number" ? min : fallbackMin * requiredUniqueBases;
     const requestedMax = typeof max === "number" ? max : fallbackMax * requiredUniqueBases;
 
-    const targetUniqueBases = computeTargetUniqueBases(chosenBases, requestedMin, requestedMax);
-
     let best = null;
     let bestDelta = Infinity;
     const target = (requestedMin + requestedMax) / 2;
@@ -1637,8 +1634,11 @@ function runNextgenSyllableLinguisticV7({baseIndices, count, seed, min, max, wei
       const candidate = attempt(chosenBases, requestedMin, requestedMax);
       const len = candidate.text.length;
       const uniqOk = candidate.usedBasesCount >= Math.min(requiredUniqueBases, chosenBases.length);
-      const divPenalty = diversityPenalty(candidate.usedBasesCount, targetUniqueBases);
-      const delta = Math.abs(len - target) + divPenalty + (uniqOk ? 0 : 1000);
+      if (len >= requestedMin && len <= requestedMax && uniqOk) {
+        best = candidate;
+        break;
+      }
+      const delta = Math.abs(len - target) + (uniqOk ? 0 : 1000);
       if (delta < bestDelta) {
         bestDelta = delta;
         best = candidate;
@@ -2503,26 +2503,18 @@ function runNextgenSyllableLinguisticV11({baseIndices, count, seed, min, max, we
   const baseUniverse = Array.from(new Set(contexts.map(c => c.idx))).filter(n => typeof n === "number" && !Number.isNaN(n));
   const availableUniqueBases = baseUniverse.length;
 
-  const requiredUniqueBases =
+  const inferredMinUniqueBases =
     typeof minUniqueBases === "number"
       ? Math.max(1, Math.min(minUniqueBases, availableUniqueBases || 1))
-      : availableUniqueBases > 1
-        ? 2
-        : 1;
+      : availableUniqueBases >= 12
+        ? 4
+        : availableUniqueBases >= 6
+          ? 3
+          : availableUniqueBases > 1
+            ? 2
+            : 1;
 
-  const pickBasePool = () => {
-    const pool = baseUniverse.slice();
-    if (pool.length <= requiredUniqueBases) return pool;
-
-    const targetPoolSize = Math.min(pool.length, Math.max(requiredUniqueBases, Math.round(Math.sqrt(pool.length) * 2)));
-    for (let i = pool.length - 1; i > 0; i--) {
-      const j = Math.floor(rng() * (i + 1));
-      const tmp = pool[i];
-      pool[i] = pool[j];
-      pool[j] = tmp;
-    }
-    return pool.slice(0, targetPoolSize);
-  };
+  const requiredUniqueBases = inferredMinUniqueBases;
   const ctxByIdx = new Map(contexts.map(c => [c.idx, c]));
 
   const isVowelChar = ch => typeof ch === "string" && ch.length && VOWELS.includes(ch);
@@ -2703,11 +2695,9 @@ function runNextgenSyllableLinguisticV11({baseIndices, count, seed, min, max, we
         const chain = baseChains.get(idx);
         let w = 1;
 
-        if (usedBases.size < targetUniqueBases) {
-          if (!usedBases.has(idx)) w *= 2.2;
-          else w *= 0.65;
-        } else {
-          if (!usedBases.has(idx)) w *= 0.85;
+        if (usedBases.size < requiredUniqueBases) {
+          if (!usedBases.has(idx)) w *= 2.5;
+          else w *= 0.5;
         }
 
         if (lastNonSpacerBase != null && idx === lastNonSpacerBase) {
@@ -2827,7 +2817,7 @@ function runNextgenSyllableLinguisticV11({baseIndices, count, seed, min, max, we
   }
 
   for (let i = 0; i < count; i++) {
-    const chosenBases = pickBasePool();
+    const chosenBases = baseUniverse.slice();
     chosenBasesList.push(chosenBases);
 
     const baseMins = chosenBases.map(idx => (bases[idx] && typeof bases[idx].min === "number" ? bases[idx].min : 4));
