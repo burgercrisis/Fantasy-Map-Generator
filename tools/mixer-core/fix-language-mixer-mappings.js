@@ -464,7 +464,23 @@ const explicitIsoBasesMap = {
   rajasthani: [183, 202, 289],
   bodo: [61, 63],
   dis: [63, 64],
-  rah: [63, 65]
+  rah: [63, 65],
+
+  aranese: [2, 4, 232, 731],
+  "eastern-aragonese": [4, 287, 685],
+  "western-aragonese": [272, 287, 686],
+  "southern-aragonese": [13, 287, 687],
+  "navarro-aragonese": [4, 232, 287, 688],
+  "judeo-aragonese": [4, 231, 287, 689],
+
+  "anatolian-arabic": [22, 23, 143, 676],
+  "andalusi-arabic": [4, 18, 140, 677],
+  "baghdadi-arabic": [23, 678],
+  "bahraini-gulf-arabic": [18, 679],
+  "bakhtiari-arabic": [18, 680],
+  "bukharian-arabic": [18, 681],
+  "cairene-arabic": [18, 682],
+  "central-asian-arabic": [18, 17, 683]
 };
 
 function readJson(relPath) {

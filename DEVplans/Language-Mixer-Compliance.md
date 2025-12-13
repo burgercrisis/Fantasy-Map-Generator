@@ -38,6 +38,20 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Stalled batches: 1 (worker1; superseded by later completed claim)
   - Dedicated base indices added/wired in this pass include: 539–563, 567–596, 597–601
 
+- ✅ 2025-12-13: Additional completed NO_UNIQ_BASE mini-batches added dedicated bases 602–769 (see `_no_uniq_base_claims.json`), including the Romance batch `workerId: 24` (acadian->765, aeolian->766, african-romance->767, alentejan->768, algherese->769).
+
+- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 25` completed (ancona->770, andalusi-romance->771, andalusian->772, ans-->773, aretino-chianaiolo->774).
+
+- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 26` completed (argentinian-spanish->775, arpitan->776, asturian->777, auvergnat->778, balearic->779).
+
+- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 27` completed (banat->780, barranquenho->781, benasquese->782, bercian->783, bergamasque->784).
+
+- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 28` completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
+
+- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 29` completed (brigasc->790, british-latin->791, bukovinian->792, canz-s->793, central-northern-lazian->794).
+
+- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 30` completed (cheso->795, chiac->796, chilean-spanish->797, chilote->798, chipilo->799).
+
 ## Routine checks
 
 - Seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):

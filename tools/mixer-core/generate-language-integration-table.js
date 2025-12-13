@@ -274,6 +274,7 @@ function buildIsoHasUniqueBaseMap(mixes, map) {
     const lang = mixByIso.get(iso) || null;
     const tags = lang && Array.isArray(lang.tags) ? lang.tags : [];
     if (tags.includes("family")) continue;
+    if (tags.includes("subset")) continue;
 
     const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
     if (!basesSource.length) continue;
@@ -588,6 +589,8 @@ function main() {
     const mix = catalogByIso.get(r.iso) || null;
     const isFamilyMacro = !!(mix && Array.isArray(mix.tags) && mix.tags.includes("family"));
     if (isFamilyMacro) continue;
+    const isSubsetAlias = !!(mix && Array.isArray(mix.tags) && mix.tags.includes("subset"));
+    if (isSubsetAlias) continue;
 
     clusterCounts.set(r.base_set_key, (clusterCounts.get(r.base_set_key) || 0) + 1);
   }

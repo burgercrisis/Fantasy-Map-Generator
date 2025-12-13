@@ -281,7 +281,6 @@ window.realWorldNameBases = [
       {name: "Aleppine Arabic", i: 617, min: 4, max: 11, d: "lnrt", m: 0, b: "Aleppo,Al-Bab,Azaz,Manbij,Jarabulus,Idlib,Ariha,Jisr ash-Shughur,Hama,Homs,Latakia,Tartus"},
       {name: "Algerian Arabic", i: 618, min: 4, max: 11, d: "lnrt", m: 0, b: "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou"},
       {name: "Algerian Saharan Arabic", i: 619, min: 4, max: 11, d: "lnrt", m: 0, b: "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun"},
-
       {name: "Tsimané", i: 625, min: 4, max: 11, d: "lnrt", m: 0, b: "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui"},
       {name: "Cavineña", i: 626, min: 4, max: 11, d: "lnrt", m: 0, b: "Riberalta,Guayaramerin,Cobija,Puerto Rico,El Sena,Porvenir,Filadelfia,San Lorenzo,Palos Blancos,Caranavi,Yolosa,Apolo"},
       {name: "Kallawaya", i: 627, min: 4, max: 11, d: "lnrt", m: 0, b: "Charazani,Curva,Chajaya,Amarete,Kaata,Carabuco,Achacachi,Sorata,La Paz,Copacabana,Titicaca,Ancoraimes"},
@@ -295,6 +294,7 @@ window.realWorldNameBases = [
       {name: "Aragonese", i: 635, min: 4, max: 11, d: "lnrt", m: 0, b: "Huesca,Jaca,Sabinanigo,Barbastro,Monzon,Fraga,Teruel,Zaragoza,Alcaniz,Ainsa,Benasque,Anso"},
       {name: "Central Aragonese", i: 636, min: 4, max: 11, d: "lnrt", m: 0, b: "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla"},
       {name: "Castilian", i: 637, min: 4, max: 11, d: "lnrt", m: 0, b: "Burgos,Valladolid,Salamanca,Segovia,Avila,Soria,Palencia,Leon,Zamora,Toledo,Cuenca,Guadalajara"},
+      {name: "Castelmezzano", i: 638, min: 4, max: 11, d: "lnrt", m: 0, b: "Castelmezzano,Pietrapertosa,Potenza,Matera,Tricarico,Avigliano,Pignola,Vaglio Basilicata,Tito,Laurenzago,Albano di Lucania,Anzi"},
       {name: "Castelmezzano", i: 638, min: 4, max: 11, d: "lnrt", m: 0, b: "Castelmezzano,Pietrapertosa,Potenza,Matera,Tricarico,Avigliano,Pignola,Vaglio Basilicata,Tito,Laurenzana,Albano di Lucania,Anzi"},
       {name: "Central Italian", i: 639, min: 4, max: 11, d: "lnrt", m: 0, b: "Rome,Perugia,Assisi,Spoleto,Terni,Viterbo,Rieti,Foligno,Orvieto,Gubbio,Narni,Civitavecchia"},
       {name: "Central Marchigiano", i: 640, min: 4, max: 11, d: "lnrt", m: 0, b: "Ancona,Jesi,Senigallia,Fabriano,Macerata,Civitanova Marche,Fermo,Ascoli Piceno,Recanati,Osimo,Urbino,Pesaro"},

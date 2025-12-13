@@ -93,6 +93,7 @@ function buildIsoHasUniqueBaseMap(mixes, map) {
     const lang = mixByIso.get(iso) || null;
     const tags = lang && Array.isArray(lang.tags) ? lang.tags : [];
     if (tags.includes("family")) continue; // skip family-macro catalog entries
+    if (tags.includes("subset")) continue;
 
     const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
     if (!basesSource.length) continue;
@@ -216,6 +217,7 @@ function buildBaseClusters(mixes, map) {
     const tags = Array.isArray(lang.tags) ? lang.tags : [];
     const isFamilyMacro = tags.includes("family");
     if (isFamilyMacro) continue; // mirror base-cluster tooling: skip family macros
+    if (tags.includes("subset")) continue;
 
     const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
     if (!basesSource.length) continue; // nothing to cluster on

@@ -13118,7 +13118,10 @@
     "iso": "meadow-mari-proper",
     "region": "Eurasia",
     "category": "Uralic",
-    "family": "Meadow Mari"
+    "family": "Meadow Mari",
+    "tags": [
+      "subset"
+    ]
   },
   {
     "name": "Meänkieli",
@@ -15336,7 +15339,10 @@
     "iso": "franco-proven-al",
     "region": "Europe",
     "category": "Romance",
-    "family": "Arpitan"
+    "family": "Arpitan",
+    "tags": [
+      "subset"
+    ]
   },
   {
     "name": "Franglish",
@@ -16115,7 +16121,10 @@
     "iso": "nones",
     "region": "Europe",
     "category": "Romance",
-    "family": "Ladin"
+    "family": "Ladin",
+    "tags": [
+      "subset"
+    ]
   },
   {
     "name": "Norman",

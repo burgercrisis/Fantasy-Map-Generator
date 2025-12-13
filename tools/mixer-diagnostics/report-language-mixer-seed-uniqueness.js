@@ -61,6 +61,7 @@ function parseArgs(argv) {
   const onlyFailures = args.includes("--only-failures");
 
   const onlyArg = args.find(a => a.startsWith("--only="));
+  const onlyIsosArg = args.find(a => a.startsWith("--only-isos="));
   const onlyIsos = onlyArg
     ? onlyArg
         .split("=")
@@ -69,7 +70,15 @@ function parseArgs(argv) {
         .split(",")
         .map(s => s.trim())
         .filter(Boolean)
-    : [];
+    : onlyIsosArg
+      ? onlyIsosArg
+          .split("=")
+          .slice(1)
+          .join("=")
+          .split(",")
+          .map(s => s.trim())
+          .filter(Boolean)
+      : [];
 
   const limitArg = args.find(a => a.startsWith("--limit="));
   const limit = limitArg ? parseInt(limitArg.split("=")[1], 10) : 60;
@@ -87,6 +96,7 @@ function printUsage() {
   console.log("  --include-families   Include tags:[\"family\"] catalog entries in the report.");
   console.log("  --only-failures      Print only rows that fail at least one rule.");
   console.log("  --only=iso1,iso2     Restrict targets to the specified ISO codes.");
+  console.log("  --only-isos=iso1,iso2 Alias for --only=.");
   console.log("  --limit=N            Max rows to print (default: 60).");
 }
 

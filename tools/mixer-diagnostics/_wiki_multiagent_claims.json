@@ -63,8 +63,9 @@
       "workerId": 34,
       "target": "tools/mixer-meta/wikipedia-languages-of-southeast-asia.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-13T15:02:00Z"
+      "status": "complete",
+      "startedAt": "2025-12-13T15:02:00Z",
+      "finishedAt": "2025-12-13T15:10:00Z"
     },
     {
       "workerId": 33,
@@ -72,6 +73,22 @@
       "scope": "coverage_then_uniqueness_then_race",
       "status": "in_progress",
       "startedAt": "2025-12-13T14:59:00Z"
+    },
+    {
+      "workerId": 35,
+      "target": "tools/mixer-meta/wikipedia-languages-of-asia-official-languages.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-13T15:26:30Z",
+      "finishedAt": "2025-12-13T15:38:00Z"
+    },
+    {
+      "workerId": 36,
+      "target": "tools/mixer-meta/wikipedia-list-languages-by-native-speakers.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-13T16:02:00Z",
+      "finishedAt": "2025-12-13T18:10:00Z"
     }
   ]
 }

@@ -71,6 +71,7 @@ function buildIsoHasUniqueBaseMap(mixes, map) {
     const lang = mixByIso.get(iso) || null;
     const tags = lang && Array.isArray(lang.tags) ? lang.tags : [];
     if (tags.includes("family")) continue; // skip family-macro catalog entries
+    if (tags.includes("subset")) continue;
 
     const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
     if (!basesSource.length) continue;
