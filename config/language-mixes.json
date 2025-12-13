@@ -27386,5 +27386,33 @@
     "region": "Central America",
     "category": "Chibchan",
     "family": "Chibchan"
+  },
+  {
+    "name": "Tukano",
+    "iso": "tuo",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
+  },
+  {
+    "name": "Wanano",
+    "iso": "gvc",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
+  },
+  {
+    "name": "Tatuyo",
+    "iso": "tav",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
+  },
+  {
+    "name": "Siriano",
+    "iso": "sri",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
   }
 ]

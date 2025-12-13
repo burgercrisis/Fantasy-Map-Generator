@@ -25915,15 +25915,66 @@
     ]
   },
   {
+    "iso": "dgr",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "kuu",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "tau",
+    "bases": [
+      19
+    ]
+  },
+  {
+    "iso": "mik",
+    "bases": [
+      186
+    ]
+  },
+  {
+    "iso": "pbb",
+    "bases": [
+      27,
+      173
+    ]
+  },
+  {
+    "iso": "ona",
+    "bases": [
+      178
+    ]
+  },
+  {
+    "iso": "yuz",
+    "bases": [
+      173,
+      421,
+      423
+    ]
+  },
+  {
+    "iso": "rma",
+    "bases": [
+      185
+    ]
+  },
+  {
     "iso": "katuic",
     "bases": [
-      335
+      179
     ]
   },
   {
     "iso": "khmuic",
     "bases": [
-      336
+      179
     ]
   }
 ];

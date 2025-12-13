@@ -121,6 +121,19 @@ These are **derived artifacts** and must be regenerated after any catalog/map ed
 - Goal: no two distinct mixer languages should share an identical `bases[]` array.
 - If identical sharing exists, it must be treated as **uniqueness debt** and burned down over time by introducing new dedicated bases
 
+### 4.1b Option 2: per-language globally-unique base index ("unique words" anchor)
+
+- In addition to `bases[]`-set uniqueness, each **non-family** mixer language should have at least one **globally unique base index** (an `i` value referenced by exactly one non-family ISO in `config/language-mixer-map.json`).
+- Rationale: related languages can share ingredients, but each language should still have a dedicated anchor representing words / spellings / phonotactics that are unique to that language.
+- Practical implementation pattern:
+  - Add a dedicated namebase in `modules/namebases-real.js` with a new unique `i`.
+  - Append that `i` to the language’s `bases[]` mapping.
+
+Important nuance:
+
+- A base index being globally unique guarantees a unique *pointer*.
+- To better match the “unique words” intent, the dedicated base’s seed list (`b`) should ideally include at least some language-specific seed items (i.e., not only reusing seed strings that already exist in other bases). If this is not possible immediately, a derived seed list (copied/curated from the language’s existing mapped bases) is acceptable as a placeholder, but should be treated as quality debt until language-specific seeds are introduced.
+
 ### 4.2 Linguistic plausibility
 
 - `bases[]` should be individually plausible (for each individual language/dialect) with respect to:
@@ -227,7 +240,7 @@ Reference index:
   - Always prioritize expressing uniqueness through new bases dedicated individually towards linguistic accuracy to the best of the ability online research and knowledge allows.
 
 - **Family macro semantics**
-  - `tags: ["family"]` entries are required to have mappings, these will be used later.
+  - `tags: ["family"]` entries are organization-only and are not required to have mappings (they are expected to be skipped by the UI and by “failure” checks).
 
 - **How “synthetic ISO keys” should be formatted**
   - Naming rules for synthetic ISO keys should be formalized as `["language"]` an if there are multiple languages with distinctive names, `["language"]-["family"]`

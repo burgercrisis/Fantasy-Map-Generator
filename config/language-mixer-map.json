@@ -25910,18 +25910,6 @@
     ]
   },
   {
-    "iso": "katuic",
-    "bases": [
-      335
-    ]
-  },
-  {
-    "iso": "khmuic",
-    "bases": [
-      336
-    ]
-  },
-  {
     "iso": "dgr",
     "bases": [
       19
@@ -25970,6 +25958,46 @@
     "iso": "rma",
     "bases": [
       185
+    ]
+  },
+  {
+    "iso": "tuo",
+    "bases": [
+      422,
+      421
+    ]
+  },
+  {
+    "iso": "gvc",
+    "bases": [
+      422,
+      421
+    ]
+  },
+  {
+    "iso": "tav",
+    "bases": [
+      422,
+      421
+    ]
+  },
+  {
+    "iso": "sri",
+    "bases": [
+      422,
+      421
+    ]
+  },
+  {
+    "iso": "katuic",
+    "bases": [
+      179
+    ]
+  },
+  {
+    "iso": "khmuic",
+    "bases": [
+      179
     ]
   }
 ]

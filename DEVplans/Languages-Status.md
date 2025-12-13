@@ -971,21 +971,21 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 170 (77.3%)
+  - `fully wired:` 178 (80.9%)
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 50
+  - `unmatched:` 42
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 212
+  - `Nonunique Bases:` 213
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 98
-  - `clustered bases:` 72
-  - `clustered full items:` 72
-  - `cluster size histogram:` size2=17, size3=13, size4+=42
-  - `clustered isos:` aht(42), chp(42), eyak(42), gwi(42), haa(42), hoi(42), ing(42), kalaallisut(42), koy(42), tfn(42), ano(12), cag(12), con(12), enl(12), fun(12), ito(12), kanamari(12), lec(12), moc(12), noa(12), cay(6), coe(6), cub(6), des(6), ite(6), jup(6), macuna(6), mohawk(6), one(6), ono(6), see(6), tus(6), coc(5), coj(5), klb(5), mov(5), yum(5), cax(4), cbg(4), piaroa(4), xav(4), xer(4), aro(3), arp(3), cav(3), cho(3), ese(3), guarani(3), jiv(3), kog(3), mot(3), mus(3), myu(3), purepecha(3), wayuu(3), ayo(2), coz(2), cro(2), cui(2), gub(2), guh(2), gum(2), ixc(2), kashinawa(2), kwi(2), mapudungun(2), mixe(2), nah(2), qanjobal(2), tcb(2), var(2), yag(2)
+  - `unique bases:` 97
+  - `clustered bases:` 81
+  - `clustered full items:` 81
+  - `cluster size histogram:` size2=15, size3=13, size4+=53
+  - `clustered isos:` aht(45), chp(45), dgr(45), eyak(45), gwi(45), haa(45), hoi(45), ing(45), kalaallisut(45), koy(45), kuu(45), tau(45), tfn(45), ano(12), cag(12), con(12), enl(12), fun(12), ito(12), kanamari(12), lec(12), moc(12), noa(12), cay(6), coe(6), cub(6), des(6), ite(6), jup(6), macuna(6), mohawk(6), one(6), ono(6), see(6), tus(6), coc(5), coj(5), klb(5), mov(5), yum(5), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), xav(4), xer(4), yuz(4), guarani(3), gum(3), jiv(3), kog(3), kwi(3), mapudungun(3), mot(3), myu(3), ona(3), pbb(3), purepecha(3), wayuu(3), yag(3), ayo(2), coz(2), cro(2), cui(2), gub(2), guh(2), ixc(2), kashinawa(2), miskito(2), mixe(2), nah(2), qanjobal(2), rma(2), tcb(2), var(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -1701,8 +1701,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unique bases:` 66
   - `clustered bases:` 3
   - `clustered full items:` 3
-  - `cluster size histogram:` size2=2, size3=0, size4+=1
-  - `clustered isos:` nepali(10), mapudungun(2), nah(2)
+  - `cluster size histogram:` size2=1, size3=1, size4+=1
+  - `clustered isos:` nepali(10), mapudungun(3), nah(2)
 
 - **Uniqueness notes:** Under the stricter "linguistically defensible" policy, any `Nonunique Bases` count here indicates remaining uniqueness debt in the list items (excluding any `skip: true` entries). Lexifiers and regional hubs may still appear as **ingredients** in mixes, but identical shared `bases[]` arrays among distinct non-skipped languages are not treated as acceptable end state.
 

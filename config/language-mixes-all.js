@@ -11301,6 +11301,13 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Rama",
+    "iso": "rma",
+    "region": "Central America",
+    "category": "Chibchan",
+    "family": "Chibchan"
+  },
+  {
     "name": "Wounaan",
     "iso": "noa",
     "region": "Central America",
@@ -20735,6 +20742,13 @@
     "family": "Algic"
   },
   {
+    "name": "Mikasuki",
+    "iso": "mik",
+    "region": "North America",
+    "category": "Muskogean",
+    "family": "Muskogean"
+  },
+  {
     "name": "Missouri French",
     "iso": "missouri-french",
     "region": "North America",
@@ -20956,6 +20970,13 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Tłįchǫ",
+    "iso": "dgr",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
     "name": "Tlingit",
     "iso": "tlingit",
     "region": "North America",
@@ -20970,6 +20991,20 @@
     "category": "Iroquoian",
     "family": "Iroquoian",
     "wikipedia": "https://en.wikipedia.org/wiki/Tuscarora_language"
+  },
+  {
+    "name": "Upper Kuskokwim",
+    "iso": "kuu",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
+    "name": "Upper Tanana",
+    "iso": "tau",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
   },
   {
     "name": "Ute",
@@ -26547,6 +26582,20 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Nivacl%C3%A9_language"
   },
   {
+    "name": "Ona",
+    "iso": "ona",
+    "region": "South America",
+    "category": "Chonan",
+    "family": "Chonan"
+  },
+  {
+    "name": "Páez",
+    "iso": "pbb",
+    "region": "South America",
+    "category": "Paezan",
+    "family": "Paezan"
+  },
+  {
     "name": "Paraguayan Spanish",
     "iso": "paraguayan-spanish",
     "region": "South America",
@@ -26849,6 +26898,13 @@
     "category": "Cariban",
     "wikipedia": "https://en.wikipedia.org/wiki/Yukpa_language",
     "family": "Cariban"
+  },
+  {
+    "name": "Yuracaré",
+    "iso": "yuz",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Yuracaré isolate"
   },
   {
     "name": "Khasi native-speakers subset",
