@@ -1273,7 +1273,25 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-india-census.json`
 
-- **Status tier:** **In progress (full table)** – use this JSON as the authoritative snapshot for the India census excerpt; refresh coverage snapshots after adding new catalog/mixer entries for Indian census languages.
+- **How to re-run base-set uniqueness:**
+  - `node tools/mixer-core/report-wikipedia-list-base-uniqueness.js tools/mixer-meta/wikipedia-languages-of-india-census.json`
+
+- ✅ **Status tier:** **Coverage complete; uniqueness pending**
+- **Last run:** 2025-12-13
+
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 90 (100.0%)
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 0
+  - `ambiguous:` 0
+  - `skipped:` 3
+  - `Nonunique Bases:` 87
+
+- **Base-set uniqueness (full items only):**
+  - `unique bases:` 41
+  - `clustered bases:` 49
 
 ### 8.16 Languages of Nepal – census tables snapshot
 
