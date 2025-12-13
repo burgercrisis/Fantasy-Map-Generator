@@ -215,6 +215,8 @@ All commands should be run from the repo root. Prefer **pnpm**.
   - `pnpm exec node tools/mixer-core/generate-language-samples.js --iso=<iso> --per-base=10 --seed=1`
 - For blending quality regressions:
   - `pnpm exec node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=<iso> --count=40 --seed=1`
+- Track seed-uniqueness goal compliance (explicit goal, not a suite hard gate):
+  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 ---
 
