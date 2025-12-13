@@ -2,60 +2,11 @@
   "version": 1,
   "claims": [
     {
-      "workerId": 2,
-      "target": "tools/mixer-meta/wikipedia-uralic-languages-full.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T04:12:00Z",
-      "finishedAt": "2025-12-12T04:40:00Z"
-    },
-    {
-      "workerId": 10,
-      "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "stalled",
-      "startedAt": "2025-12-12T04:10:00Z"
-    },
-    {
       "workerId": 3,
       "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
       "scope": "coverage_then_uniqueness_then_race",
       "status": "in_progress",
       "startedAt": "2025-12-12T04:45:00Z"
-    },
-    {
-      "workerId": 1,
-      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T04:03:00Z",
-      "finishedAt": "2025-12-12T12:37:57Z"
-    },
-    {
-      "workerId": 11,
-      "target": "tools/mixer-meta/wikipedia-languages-of-asia-official-languages.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T05:05:00Z",
-      "finishedAt": "2025-12-12T05:08:00Z"
-    },
-    {
-      "workerId": 12,
-      "target": "tools/mixer-meta/wikipedia-languages-of-india-census.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T05:12:00Z",
-      "finishedAt": "2025-12-13T16:15:00Z",
-      "note": "Resolved: list is now fully wired"
-    },
-    {
-      "workerId": 13,
-      "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T05:35:00Z",
-      "finishedAt": "2025-12-12T15:06:25Z",
-      "note": "Nepal census list is fully wired (144/144 considered). Remaining research targets are ISO upgrades for Done and Malpande; Ghale split handled by keeping ghale aggregate and adding ghh/ghe; kra collision resolved via kra-family."
     },
     {
       "workerId": 14,
@@ -65,109 +16,11 @@
       "startedAt": "2025-12-12T15:05:00Z"
     },
     {
-      "workerId": 15,
-      "target": "tools/mixer-meta/wikipedia-languages-of-bangladesh.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T15:05:00Z",
-      "finishedAt": "2025-12-12T23:12:00Z",
-      "note": "Coverage fully wired (considered=39, skipped=3, unmatched=0, missing=0). Per-list base-set uniqueness burned down to clustered bases=0; run-language-mixer-suite green; check-language-mixer-coverage 0/0."
-    },
-    {
-      "workerId": 16,
-      "target": "tools/mixer-meta/wikipedia-languages-of-pakistan-established.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T15:06:00Z",
-      "finishedAt": "2025-12-12T22:51:17Z",
-      "note": "Coverage fully wired (considered=78, skipped=1, unmatched=0, missing=0). Base-uniqueness and race coverage reports generated; uniqueness debt remains (clustered base-sets) but coverage is complete."
-    },
-    {
-      "workerId": 17,
-      "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "stalled",
-      "startedAt": "2025-12-12T15:12:00Z",
-      "note": "Entry appeared during claim-file patching; treat as unowned/stalled unless a real worker picks it up"
-    },
-    {
-      "workerId": 22,
-      "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T15:12:00Z",
-      "finishedAt": "2025-12-12T15:12:00Z",
-      "note": "Coverage wired to 72/72 (unmatched=0) by adding missing catalog+map entries and ISO bindings; suite green; devplan snapshot refreshed"
-    },
-    {
-      "workerId": 18,
-      "target": "tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T15:12:45Z",
-      "finishedAt": "2025-12-12T15:15:45Z",
-      "note": "Restored clean working tree after accidental suite run; then declustered small collisions (croatian, lusoga/nkore/kiga, central-estonian, kashubian, simplified-italian-of-libya/somalia). Verified per-list: coverage full=107/107, clustered full items reduced to 8 (remaining: ces, chittagonian, deu, fin/karelian, ita, nld, swe). Updated DEVplans snapshot via update-wikipedia-list-coverage-in-devplan."
-    },
-    {
-      "workerId": 19,
-      "target": "tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json",
-      "scope": "uniqueness_microclusters",
-      "status": "complete",
-      "startedAt": "2025-12-12T15:18:00Z",
-      "finishedAt": "2025-12-12T15:22:30Z",
-      "note": "Declustered remaining small collisions affecting this list by moving sxu/wym/yec off deu's [0,230], moving zea off nld's [0,2], moving ovd off swe's [6], moving kashubian off ces's [314,315], and moving italian-eritrean/italo-paulista off ita's [3]. Verified per-list base-uniqueness: unique=103, clustered=4 (remaining: chittagonian triad; fin/karelian hub; swe pair). Updated DEVplans snapshot via update-wikipedia-list-coverage-in-devplan."
-    },
-    {
-      "workerId": 20,
-      "target": "tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json",
-      "scope": "uniqueness_microclusters",
-      "status": "complete",
-      "startedAt": "2025-12-12T22:00:00Z",
-      "finishedAt": "2025-12-12T22:15:41Z",
-      "note": "Declustered remaining small collisions affecting this list by moving ccp off chittagonian's [201,257] to [201,257,183] (Hindi), moving rjs off [201,257] to [201,257,202] (Punjabi), and moving ovd off swe's [6] to [6,235] (Nordic+Frisian). Resolved a conflicting duplicate ISO row by removing the stray sinasina [25,198,263] entry and keeping sinasina as [360] (Papuan). Verified: check-language-mixer-map-duplicate-isos reports 0 duplicates; per-list base-uniqueness now shows only fin+karelian remaining clustered (Finnic hub size 25); race coverage report generated; DEVplans snapshot refreshed via update-wikipedia-list-coverage-in-devplan."
-    },
-    {
-      "workerId": 21,
-      "target": "tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json",
-      "scope": "uniqueness_finnic_hub",
-      "status": "complete",
-      "startedAt": "2025-12-12T22:16:00Z",
-      "finishedAt": "2025-12-12T22:26:04Z",
-      "note": "Resolved the remaining mutually-intelligible list cluster caused by the Finnic base hub: changed fin from [9] to [6,9] (Nordic+Finnic contact) and changed karelian from [9] to [5,9] (Slavic+Finnic contact). Re-ran per-list base-uniqueness: unique bases=107, clustered bases=0. Refreshed DEVplans snapshot via update-wikipedia-list-coverage-in-devplan."
-    },
-    {
-      "workerId": 23,
-      "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
-      "scope": "uniqueness_microbatch",
-      "status": "complete",
-      "startedAt": "2025-12-12T15:40:00Z",
-      "finishedAt": "2025-12-12T15:55:00Z",
-      "note": "Uniqueness microbatch: added explicitIsoBasesMap overrides so suite preserves declustering and stays green. Post-pass phoneme-count per-list base-set snapshot: unique=65, clustered=7 (remaining clusters: hausa 121, wme 24, hun 2, law 2, mnb 2, nxl 2, wlo 2). Refreshed DEVplans snapshot via update-wikipedia-list-coverage-in-devplan."
-    },
-    {
-      "workerId": 23,
-      "target": "tools/mixer-meta/wikipedia-list-official-languages-by-institution-full.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-12T22:30:00Z",
-      "finishedAt": "2025-12-12T23:00:00Z",
-      "note": "Verified coverage is fully wired (34/34, unmatched=0, missing=0). Reduced base-set collisions impacting this list by declustering non-list languages off the anchors (Filipino, Guarani, Japanese). Final per-list base-uniqueness: unique bases=34, clustered bases=0. Race coverage OK. Refreshed DEVplans snapshot via update-wikipedia-list-coverage-in-devplan."
-    },
-    {
       "workerId": 25,
       "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
       "scope": "uniqueness_hausa_hub_micro",
       "status": "in_progress",
       "startedAt": "2025-12-12T16:35:00Z"
-    },
-    {
-      "workerId": 26,
-      "target": "tools/mixer-meta/wikipedia-languages-of-india-census.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-13T03:05:00Z",
-      "finishedAt": "2025-12-13T17:55:00Z",
-      "note": "Coverage complete (87/87 considered): bound remaining ISO codes and wired missing catalog/map entries; suite green"
     },
     {
       "workerId": 27,
@@ -176,24 +29,6 @@
       "status": "in_progress",
       "startedAt": "2025-12-13T03:45:00Z",
       "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed"
-    },
-    {
-      "workerId": 28,
-      "target": "tools/mixer-meta/wikipedia-australian-creoles.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-13T16:17:00Z",
-      "finishedAt": "2025-12-13T17:05:00Z",
-      "note": "Coverage complete (1/1): bound Kriol -> rop and wired catalog+map"
-    },
-    {
-      "workerId": 26,
-      "target": "tools/mixer-meta/wikipedia-australian-families-and-isolates.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-13T17:20:00Z",
-      "finishedAt": "2025-12-13T18:05:00Z",
-      "note": "Coverage complete (8/8 considered): marked grouping rows as skip, bound isolate ISO codes, added missing catalog+map entries; suite green"
     },
     {
       "workerId": 29,
@@ -216,33 +51,6 @@
       "status": "in_progress",
       "startedAt": "2025-12-13T00:45:00Z",
       "note": "Claimed for next coverage + uniqueness + race pass"
-    },
-    {
-      "workerId": 32,
-      "target": "tools/mixer-meta/wikipedia-formosan-languages-li-2008.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-13T03:35:52Z",
-      "finishedAt": "2025-12-13T03:35:52Z",
-      "note": "Coverage fully wired (considered=27, unmatched=0, missing=0). Per-list base-set uniqueness: unique bases=27, clustered bases=0. Race coverage OK. Suite green."
-    },
-    {
-      "workerId": 33,
-      "target": "tools/mixer-meta/wikipedia-formosan-languages-sagart-2004-2021.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-13T03:46:53Z",
-      "finishedAt": "2025-12-13T03:54:17Z",
-      "note": "Coverage fully wired (considered=22, unmatched=0, missing=0). Bound Luilang -> kae, added Favorlang (favorlang) catalog+map entry, declustered kae and rukai. Per-list base-set uniqueness: unique bases=22, clustered bases=0. Race coverage OK. Suite green."
-    },
-    {
-      "workerId": 34,
-      "target": "tools/mixer-meta/wikipedia-formosan-languages-blust-1999.json",
-      "scope": "coverage_then_uniqueness_then_race",
-      "status": "complete",
-      "startedAt": "2025-12-13T04:00:33Z",
-      "finishedAt": "2025-12-13T04:02:07Z",
-      "note": "Coverage fully wired (considered=21, unmatched=0, missing=0). Per-list base-set uniqueness: unique bases=21, clustered bases=0. Race coverage OK."
     }
   ]
 }

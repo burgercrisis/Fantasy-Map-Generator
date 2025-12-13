@@ -49,6 +49,7 @@ function normalizeName(value) {
 function buildCatalogIndex(mixes) {
   const byNormName = new Map();
   const byNameLower = new Map();
+  const catalog = [];
 
   for (const m of mixes) {
     if (!m || !m.iso || !m.name) continue;
@@ -67,16 +68,43 @@ function buildCatalogIndex(mixes) {
     const arr = byNormName.get(k) || [];
     arr.push({iso, name});
     byNormName.set(k, arr);
+    catalog.push({iso, name, norm: k, tokens: new Set(k.split(" ").filter(Boolean))});
   }
 
-  return {byNormName, byNameLower};
+  return {byNormName, byNameLower, catalog};
+}
+
+function jaccard(a, b) {
+  if (!a.size && !b.size) return 1;
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const t of a) {
+    if (b.has(t)) inter++;
+  }
+  const union = a.size + b.size - inter;
+  return union ? inter / union : 0;
+}
+
+function tokenSimilarity(a, b) {
+  if (!a.size && !b.size) return 1;
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const t of a) {
+    if (b.has(t)) inter++;
+  }
+  const minSize = Math.min(a.size, b.size);
+  const overlap = minSize ? inter / minSize : 0;
+  const jac = jaccard(a, b);
+  return Math.max(jac, overlap);
 }
 
 function main() {
   const argv = process.argv.slice(2);
   const listPath = argv[0];
   if (!listPath || listPath.startsWith("--")) {
-    console.error("Usage: node tools/mixer-core/suggest-wikipedia-list-iso-bindings.js <LIST_JSON_PATH> [--limit=N] [--json]");
+    console.error(
+      "Usage: node tools/mixer-core/suggest-wikipedia-list-iso-bindings.js <LIST_JSON_PATH> [--limit=N] [--json] [--only-unresolved] [--fuzzy] [--fuzzy-min=0.75] [--fuzzy-margin=0.10] [--require-map]"
+    );
     process.exitCode = 1;
     return;
   }
@@ -85,11 +113,22 @@ function main() {
   const limit = limitArg ? Math.max(0, Number(limitArg.slice("--limit=".length)) || 0) : 50;
   const asJson = argv.includes("--json");
   const onlyUnresolved = argv.includes("--only-unresolved");
+  const fuzzy = argv.includes("--fuzzy");
+  const fuzzyMinArg = argv.find(a => a.startsWith("--fuzzy-min="));
+  const fuzzyMin = fuzzyMinArg
+    ? Math.max(0, Math.min(1, Number(fuzzyMinArg.slice("--fuzzy-min=".length)) || 0))
+    : 0.75;
+  const fuzzyMarginArg = argv.find(a => a.startsWith("--fuzzy-margin="));
+  const fuzzyMargin = fuzzyMarginArg
+    ? Math.max(0, Math.min(1, Number(fuzzyMarginArg.slice("--fuzzy-margin=".length)) || 0))
+    : 0.1;
+  const requireMap = argv.includes("--require-map");
 
   const list = loadList(listPath);
   const mixes = readJson("config/language-mixes.json");
+  const mapIsos = requireMap || fuzzy ? new Set(readJson("config/language-mixer-map.json").map(e => String(e.iso))) : null;
 
-  const {byNormName, byNameLower} = buildCatalogIndex(mixes);
+  const {byNormName, byNameLower, catalog} = buildCatalogIndex(mixes);
 
   const existingIsos = new Set();
   for (const it of list.items) {
@@ -100,6 +139,7 @@ function main() {
 
   const suggestions = [];
   const ambiguous = [];
+  const fuzzySuggestions = [];
 
   for (const it of list.items) {
     if (!it || it.skip) continue;
@@ -117,15 +157,43 @@ function main() {
     const candidates = byNormName.get(k) || [];
     if (candidates.length === 1) {
       if (existingIsos.has(candidates[0].iso)) continue;
+      if (mapIsos && !mapIsos.has(candidates[0].iso)) continue;
       suggestions.push({name: String(it.name), iso: candidates[0].iso, catalogName: candidates[0].name});
     } else if (candidates.length > 1) {
       ambiguous.push({name: String(it.name), candidates: candidates.map(c => ({iso: c.iso, name: c.name}))});
+    } else if (fuzzy) {
+      const tokens = new Set(k.split(" ").filter(Boolean));
+      let best = null;
+      let bestScore = 0;
+      let secondScore = 0;
+
+      for (const c of catalog) {
+        if (mapIsos && !mapIsos.has(c.iso)) continue;
+        const score = tokenSimilarity(tokens, c.tokens);
+        if (score > bestScore) {
+          secondScore = bestScore;
+          bestScore = score;
+          best = c;
+        } else if (score > secondScore) {
+          secondScore = score;
+        }
+      }
+
+      if (best && bestScore >= fuzzyMin && bestScore - secondScore >= fuzzyMargin && !existingIsos.has(best.iso)) {
+        fuzzySuggestions.push({
+          name: String(it.name),
+          iso: best.iso,
+          catalogName: best.name,
+          score: Number(bestScore.toFixed(3))
+        });
+      }
     }
   }
 
   if (asJson) {
     const out = limit ? suggestions.slice(0, limit) : suggestions;
-    process.stdout.write(JSON.stringify({title: list.title, suggestions: out, ambiguous}, null, 2) + "\n");
+    const outFuzzy = limit ? fuzzySuggestions.slice(0, limit) : fuzzySuggestions;
+    process.stdout.write(JSON.stringify({title: list.title, suggestions: out, fuzzy: outFuzzy, ambiguous}, null, 2) + "\n");
     return;
   }
 
@@ -148,6 +216,15 @@ function main() {
   if (ambiguous.length) {
     console.log("");
     console.log(`Ambiguous normalized matches (need manual iso in list JSON): ${ambiguous.length}`);
+  }
+
+  if (fuzzy) {
+    console.log("");
+    console.log(`Fuzzy suggestions (token Jaccard >= ${fuzzyMin}, margin >= ${fuzzyMargin}): ${fuzzySuggestions.length}`);
+    const outFuzzy = limit ? fuzzySuggestions.slice(0, limit) : fuzzySuggestions;
+    for (const s of outFuzzy) {
+      console.log(`- ${s.name} => ${s.iso} (catalog: ${s.catalogName}, score=${s.score})`);
+    }
   }
 }
 
