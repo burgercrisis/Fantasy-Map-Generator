@@ -19,8 +19,18 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Target thresholds (tracked as debt, not enforced as a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
   - Report current compliance with:
     - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - Latest report snapshot (2025-12-13):
+    - Target ISOs: 3366
+    - Missing mapping: 0
+    - No globally-unique base index: 3254
+    - Strict unique seeds below threshold (among those with unique base): 4
+    - Normalized unique seeds below threshold (among those with unique base): 43
+
 - ✅ Routine checks wiring:
   - The seed-uniqueness report command is now listed in the routine/quick checks sections of `Language-Mixer-Rules.md`, `Languages-Status.md`, and `Races-Languages-Rules.md`.
+
+- ✅ Multi-agent workflow:
+  - `.windsurf/workflows/no-unique-base-debt-multiagent.md`
 
 ## Routine checks
 

@@ -1500,6 +1500,14 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
 
   const seenGenerated = new Map();
 
+  const baseChainCache = new Map(
+    baseUniverse.map(idx => {
+      const base = bases[idx];
+      const blob = base && typeof base.b === "string" ? base.b : "";
+      return [idx, calculateChainFromBlob(blob)];
+    })
+  );
+
   const jsLimited = (aCounts, aTotal, bCounts, bTotal, keys) => {
     const keySet = new Set(Array.isArray(keys) ? keys : []);
     for (const k of bCounts.keys()) keySet.add(k);
@@ -1517,14 +1525,6 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
   };
 
   function attempt(chosenBases, requestedMin, requestedMax) {
-    const baseChains = new Map(
-      chosenBases.map(idx => {
-        const base = bases[idx];
-        const blob = base && typeof base.b === "string" ? base.b : "";
-        return [idx, calculateChainFromBlob(blob)];
-      })
-    );
-
     const segs = [];
     const segInfos = [];
     const baseSeq = [];
@@ -1547,7 +1547,7 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
       const candidates = chosenBases.slice();
       const weights = candidates.map(idx => {
         const nextCtx = ctxByIdx.get(idx);
-        const chain = baseChains.get(idx);
+        const chain = baseChainCache.get(idx);
         let w = 1;
 
         if (usedBases.size < requiredUniqueBases) {
@@ -1575,7 +1575,7 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
 
       const currentBase = weightedPick(candidates, weights);
       const ctx = currentBase != null ? ctxByIdx.get(currentBase) : null;
-      const chain = currentBase != null ? baseChains.get(currentBase) : null;
+      const chain = currentBase != null ? baseChainCache.get(currentBase) : null;
       const cur = pickNextSegFromBase(chain, compound, prevChar, prevSeg);
       if (cur === "") {
         if (compound.length < requestedMin) {
@@ -1720,456 +1720,12 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
 
     const res = best || attempt(chosenBases, requestedMin, requestedMax);
     names.push(res.text);
+
     segTextLists.push(Array.isArray(res.segTexts) ? res.segTexts : []);
     baseSeqs.push(Array.isArray(res.baseSeq) ? res.baseSeq : []);
 
     const norm = normalizeForRealism(res.text);
     if (norm) seenGenerated.set(norm, (seenGenerated.get(norm) || 0) + 1);
-  }
-
-  return {names, segTextLists, baseSeqs, chosenBasesList};
-}
-
-function runNextgenSyllableLinguisticV20({baseIndices, count, seed, min, max, weights, minUniqueBases}) {
-  const rng = makeMulberry32(seed);
-  const bases = loadDefaultNameBases();
-  const contexts = buildWeightedContexts(baseIndices, bases, weights);
-  if (!contexts.length) return {names: [], segTextLists: [], baseSeqs: [], chosenBasesList: []};
-
-  const names = [];
-  const segTextLists = [];
-  const baseSeqs = [];
-  const chosenBasesList = [];
-
-  const baseUniverse = Array.from(new Set(contexts.map(c => c.idx))).filter(n => typeof n === "number" && !Number.isNaN(n));
-  const availableUniqueBases = baseUniverse.length;
-
-  const inferredMinUniqueBases =
-    typeof minUniqueBases === "number"
-      ? Math.max(1, Math.min(minUniqueBases, availableUniqueBases || 1))
-      : availableUniqueBases >= 12
-        ? 4
-        : availableUniqueBases >= 6
-          ? 3
-          : availableUniqueBases > 1
-            ? 2
-            : 1;
-
-  const requiredUniqueBases = inferredMinUniqueBases;
-  const ctxByIdx = new Map(contexts.map(c => [c.idx, c]));
-
-  const isVowelChar = ch => typeof ch === "string" && ch.length && VOWELS.includes(ch);
-  const isLetterChar = ch => typeof ch === "string" && ch.length && /\p{L}/u.test(ch);
-
-  const boundaryPenalty = (prevSeg, nextSeg) => {
-    const a = last(prevSeg);
-    const b = nextSeg && nextSeg.length ? nextSeg[0] : "";
-    if (!a || !b) return 0;
-    if (a === "'" || a === " " || a === "-") return 0;
-    if (b === "'" || b === " " || b === "-") return 0;
-    if (isVowelChar(a) && isVowelChar(b)) return 2;
-    if (!isVowelChar(a) && !isVowelChar(b) && a === b) return 1;
-    return 0;
-  };
-
-  const clusterPenalty = (prevSeg, nextSeg) => {
-    const a = typeof prevSeg === "string" ? prevSeg : "";
-    const b = typeof nextSeg === "string" ? nextSeg : "";
-    if (!a || !b) return 0;
-    const la = last(a);
-    const fb = b[0];
-    if (!la || !fb) return 0;
-    if (!isLetterChar(la) || !isLetterChar(fb)) return 0;
-    if (isVowelChar(la) || isVowelChar(fb)) return 0;
-
-    const tail = a.slice(Math.max(0, a.length - 3));
-    const head = b.slice(0, 3);
-    const joined = tail + head;
-    let run = 0;
-    let maxRun = 0;
-    for (const ch of joined) {
-      if (!isLetterChar(ch)) {
-        run = 0;
-        continue;
-      }
-      if (!isVowelChar(ch)) run++;
-      else run = 0;
-      if (run > maxRun) maxRun = run;
-    }
-    if (maxRun >= 4) return 4;
-    if (maxRun >= 3) return 1;
-    return 0;
-  };
-
-  const repeatPenalty = (prevSeg, nextSeg) => {
-    const a = typeof prevSeg === "string" ? prevSeg : "";
-    const b = typeof nextSeg === "string" ? nextSeg : "";
-    if (!a || !b) return 0;
-    const la = last(a);
-    const fb = b[0];
-    if (!la || !fb) return 0;
-    if (!isLetterChar(la) || !isLetterChar(fb)) return 0;
-    if (la === fb) return 2;
-    return 0;
-  };
-
-  const spacePenalty = (compound, nextSeg) => {
-    const cur = typeof compound === "string" ? compound : "";
-    const next = typeof nextSeg === "string" ? nextSeg : "";
-    const lastCh = last(cur);
-    if (!next || !lastCh) return 0;
-    if (lastCh === " " && next === " ") return 4;
-    if (lastCh === "-" && next === "-") return 4;
-    if (lastCh === "'" && next === "'") return 4;
-    if (lastCh === " " && next === "-") return 2;
-    if (lastCh === "-" && next === " ") return 2;
-    return 0;
-  };
-
-  const baseSwitchPenalty = (prevCtx, nextCtx) => {
-    if (!prevCtx || !nextCtx) return 0;
-    if (prevCtx.family && nextCtx.family && prevCtx.family !== nextCtx.family) return 3;
-    return 0;
-  };
-
-  const onsetOverlapScore = (prevCtx, nextCtx) => {
-    if (!prevCtx || !nextCtx) return 1;
-    const a = prevCtx.onsetSet;
-    const b = nextCtx.onsetSet;
-    if (!(a instanceof Set) || !(b instanceof Set) || !a.size || !b.size) return 1;
-    let overlap = 0;
-    for (const x of a) if (b.has(x)) overlap++;
-    const pct = overlap / Math.max(1, Math.min(a.size, b.size));
-    if (pct >= 0.6) return 0.75;
-    if (pct >= 0.35) return 0.95;
-    return 1.15;
-  };
-
-  const weightedPick = (items, weightsArr) => {
-    if (!Array.isArray(items) || !items.length) return null;
-    if (!Array.isArray(weightsArr) || weightsArr.length !== items.length) return items[Math.floor(rng() * items.length)];
-    let total = 0;
-    for (const w of weightsArr) total += Math.max(0, +w || 0);
-    if (total <= 0) return items[Math.floor(rng() * items.length)];
-    let r = rng() * total;
-    for (let i = 0; i < items.length; i++) {
-      r -= Math.max(0, +weightsArr[i] || 0);
-      if (r <= 0) return items[i];
-    }
-    return items[items.length - 1];
-  };
-
-  const estimateJoinPenaltyForBase = (chain, compound, prevChar, prevSeg) => {
-    const arr = (chain && (chain[prevChar] || chain[""])) || [];
-    if (!Array.isArray(arr) || !arr.length) return 999;
-    let best = Infinity;
-    for (let t = 0; t < 3; t++) {
-      const cand = arr[Math.floor(rng() * arr.length)];
-      const p = boundaryPenalty(prevSeg, cand) + clusterPenalty(prevSeg, cand) + repeatPenalty(prevSeg, cand) + spacePenalty(compound, cand);
-      if (p < best) best = p;
-      if (best === 0) break;
-    }
-    return best;
-  };
-
-  const pickNextSegFromBase = (chain, compound, prevChar, prevSeg) => {
-    const arr = (chain && (chain[prevChar] || chain[""])) || [];
-    if (!Array.isArray(arr) || !arr.length) return "";
-    let best = arr[Math.floor(rng() * arr.length)];
-    let bestPenalty = boundaryPenalty(prevSeg, best) + clusterPenalty(prevSeg, best) + repeatPenalty(prevSeg, best) + spacePenalty(compound, best);
-
-    for (let t = 0; t < 3; t++) {
-      const cand = arr[Math.floor(rng() * arr.length)];
-      const p = boundaryPenalty(prevSeg, cand) + clusterPenalty(prevSeg, cand) + repeatPenalty(prevSeg, cand) + spacePenalty(compound, cand);
-      if (p < bestPenalty) {
-        best = cand;
-        bestPenalty = p;
-        if (bestPenalty === 0) break;
-      }
-    }
-    return best;
-  };
-
-  const seedNames = buildSeedCorpusFromBases(baseUniverse, bases);
-  const seedNorm = seedNames.map(normalizeForRealism).filter(Boolean);
-  const seedSet = new Set(seedNorm);
-  const lm = buildCharLm(seedNorm, 3);
-  const seedGram = buildCharGramCounts(seedNorm, 3);
-
-  const topSeedKeys = Array.from(seedGram.counts.entries())
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 600)
-    .map(([k]) => k);
-
-  let seedBits = 0;
-  let seedChars = 0;
-  for (const s of seedNorm) {
-    const {bpc, chars} = lm.scoreBpc(s);
-    if (typeof bpc !== "number" || !Number.isFinite(bpc) || !chars) continue;
-    seedBits += bpc * chars;
-    seedChars += chars;
-  }
-  const seedBpcMean = seedChars ? seedBits / seedChars : null;
-  const seedBpcTarget = typeof seedBpcMean === "number" && Number.isFinite(seedBpcMean) ? seedBpcMean + 0.08 : null;
-
-  const REALISM_LAMBDA = 4;
-  const JS_CAND_LAMBDA = 6;
-  const JS_RUN_LAMBDA = 2;
-  const COPY_PENALTY = 12;
-  const DUPLICATE_PENALTY = 8;
-
-  const headV = topSeedKeys.length + 1;
-  const seedDenom = (seedGram.total || 0) + headV;
-  const seedHeadCounts = topSeedKeys.map(k => (seedGram.counts.get(k) || 0));
-  const seedHeadSum = seedHeadCounts.reduce((a, b) => a + b, 0);
-  const seedOther = Math.max(0, (seedGram.total || 0) - seedHeadSum);
-  const seedPaHead = seedHeadCounts.map(c => (c + 1) / seedDenom);
-  const seedPaOther = (seedOther + 1) / seedDenom;
-
-  const computeJsHeadOther = (getCountB, totalB) => {
-    const denomB = (totalB || 0) + headV;
-    let js = 0;
-    let bHeadSum = 0;
-    for (let i = 0; i < topSeedKeys.length; i++) {
-      const c = getCountB(topSeedKeys[i]);
-      bHeadSum += c;
-      const pa = seedPaHead[i];
-      const pb = (c + 1) / denomB;
-      const m = (pa + pb) / 2;
-      js += 0.5 * (pa * Math.log2(pa / m) + pb * Math.log2(pb / m));
-    }
-    const bOther = Math.max(0, (totalB || 0) - bHeadSum);
-    const pa = seedPaOther;
-    const pb = (bOther + 1) / denomB;
-    const m = (pa + pb) / 2;
-    js += 0.5 * (pa * Math.log2(pa / m) + pb * Math.log2(pb / m));
-    return js;
-  };
-
-  const seenGenerated = new Map();
-  const runningGramCounts = new Map();
-  let runningGramTotal = 0;
-
-  function attempt(chosenBases, requestedMin, requestedMax) {
-    const baseChains = new Map(
-      chosenBases.map(idx => {
-        const base = bases[idx];
-        const blob = base && typeof base.b === "string" ? base.b : "";
-        return [idx, calculateChainFromBlob(blob)];
-      })
-    );
-
-    const segs = [];
-    const segInfos = [];
-    const baseSeq = [];
-    const usedBases = new Set();
-    let compound = "";
-
-    let lastNonSpacerBase = null;
-    let prevNonSpacerBase = null;
-    let runLen = 0;
-    const maxSegs = 24;
-
-    for (let i = 0; i < maxSegs; i++) {
-      const remainingBudget = requestedMax - compound.length;
-      if (remainingBudget <= 0) break;
-
-      const prevSeg = segs.length ? segs[segs.length - 1] : "";
-      const prevChar = segs.length ? last(prevSeg) : "";
-
-      const prevCtx = lastNonSpacerBase != null ? ctxByIdx.get(lastNonSpacerBase) : null;
-      const candidates = chosenBases.slice();
-      const weights = candidates.map(idx => {
-        const nextCtx = ctxByIdx.get(idx);
-        const chain = baseChains.get(idx);
-        let w = 1;
-
-        if (usedBases.size < requiredUniqueBases) {
-          if (!usedBases.has(idx)) w *= 2.5;
-          else w *= 0.5;
-        }
-
-        if (lastNonSpacerBase != null && idx === lastNonSpacerBase) {
-          const effectiveRun = runLen > 0 ? runLen : 1;
-          if (effectiveRun >= 4) return 0;
-          w *= Math.pow(0.35, Math.max(0, effectiveRun - 1));
-        }
-
-        if (prevNonSpacerBase != null && idx === prevNonSpacerBase) w *= 0.75;
-        if (prevCtx && nextCtx && baseSwitchPenalty(prevCtx, nextCtx) >= 3) w *= 0.25;
-        w *= onsetOverlapScore(prevCtx, nextCtx);
-
-        const jp = estimateJoinPenaltyForBase(chain, compound, prevChar, prevSeg);
-        if (jp >= 6) w *= 0.12;
-        else if (jp >= 3) w *= 0.35;
-        else if (jp >= 1) w *= 0.75;
-
-        return w;
-      });
-
-      const currentBase = weightedPick(candidates, weights);
-      const ctx = currentBase != null ? ctxByIdx.get(currentBase) : null;
-      const chain = currentBase != null ? baseChains.get(currentBase) : null;
-      const cur = pickNextSegFromBase(chain, compound, prevChar, prevSeg);
-      if (cur === "") {
-        if (compound.length < requestedMin) {
-          compound = "";
-          segs.length = 0;
-          segInfos.length = 0;
-          baseSeq.length = 0;
-          usedBases.clear();
-          lastNonSpacerBase = null;
-          prevNonSpacerBase = null;
-          runLen = 0;
-          continue;
-        }
-        break;
-      }
-
-      if (compound.length + cur.length > requestedMax) {
-        if (compound.length < requestedMin) {
-          segs.push(cur);
-          baseSeq.push(currentBase);
-          if (cur !== " " && cur !== "-" && cur !== "'") {
-            usedBases.add(currentBase);
-            if (lastNonSpacerBase === currentBase) runLen++;
-            else {
-              prevNonSpacerBase = lastNonSpacerBase;
-              lastNonSpacerBase = currentBase;
-              runLen = 1;
-            }
-          }
-          compound = smoothJoin(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set(), rng);
-          if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
-        }
-        break;
-      }
-
-      segs.push(cur);
-      baseSeq.push(currentBase);
-      if (cur !== " " && cur !== "-" && cur !== "'") {
-        usedBases.add(currentBase);
-        if (lastNonSpacerBase === currentBase) runLen++;
-        else {
-          prevNonSpacerBase = lastNonSpacerBase;
-          lastNonSpacerBase = currentBase;
-          runLen = 1;
-        }
-      }
-      compound = smoothJoin(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set(), rng);
-      if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
-
-      if (typeof isRepetitiveClickPattern === "function" && isRepetitiveClickPattern(segInfos)) {
-        if (compound.length < requestedMin) {
-          compound = "";
-          segs.length = 0;
-          segInfos.length = 0;
-          baseSeq.length = 0;
-          usedBases.clear();
-          lastNonSpacerBase = null;
-          prevNonSpacerBase = null;
-          runLen = 0;
-          continue;
-        }
-        break;
-      }
-    }
-
-    const l = last(compound);
-    if (l === "'" || l === " " || l === "-") {
-      compound = compound.slice(0, -1);
-      if (segs.length) {
-        segs.pop();
-        baseSeq.pop();
-      }
-    }
-
-    let name = [...compound].reduce(function (r, c, i, d) {
-      if (c === d[i + 1] && !"".includes(c)) return r;
-      if (!r.length) return c.toUpperCase();
-      if (r.slice(-1) === "-" && c === " ") return r;
-      if (r.slice(-1) === " ") return r + c.toUpperCase();
-      if (r.slice(-1) === "-") return r + c.toUpperCase();
-      if (c === "a" && d[i + 1] === "e") return r;
-      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
-      return r + c;
-    }, "");
-
-    if (name.split(" ").some(part => part.length < 2)) {
-      name = name
-        .split(" ")
-        .map((p, i) => (i ? p.toLowerCase() : p))
-        .join("");
-    }
-
-    return {text: name, segTexts: segs, baseSeq, usedBasesCount: usedBases.size};
-  }
-
-  for (let i = 0; i < count; i++) {
-    const chosenBases = baseUniverse.slice();
-    chosenBasesList.push(chosenBases);
-
-    const baseMins = chosenBases.map(idx => (bases[idx] && typeof bases[idx].min === "number" ? bases[idx].min : 4));
-    const baseMaxs = chosenBases.map(idx => (bases[idx] && typeof bases[idx].max === "number" ? bases[idx].max : 10));
-    const fallbackMin = baseMins.length ? Math.min(...baseMins) : 4;
-    const fallbackMax = baseMaxs.length ? Math.max(...baseMaxs) : Math.max(fallbackMin + 4, 10);
-    const requestedMin = typeof min === "number" ? min : fallbackMin;
-    const requestedMax = typeof max === "number" ? max : fallbackMax;
-
-    let best = null;
-    let bestDelta = Infinity;
-    const target = (requestedMin + requestedMax) / 2;
-    const diversityTarget = Math.max(1, Math.min(requiredUniqueBases, chosenBases.length));
-
-    for (let t = 0; t < 12; t++) {
-      const candidate = attempt(chosenBases, requestedMin, requestedMax);
-      const len = candidate.text.length;
-      const outOfRange = len < requestedMin || len > requestedMax;
-      const rangePenalty = outOfRange ? 25 : 0;
-
-      const diversityScore = Math.min(1, candidate.usedBasesCount / diversityTarget);
-      const diversityBonus = 1.25 * diversityScore;
-
-      const norm = normalizeForRealism(candidate.text);
-      const {bpc} = lm.scoreBpc(norm);
-      const realismDelta =
-        typeof bpc === "number" && typeof seedBpcTarget === "number" && Number.isFinite(bpc) && Number.isFinite(seedBpcTarget)
-          ? REALISM_LAMBDA * (bpc - seedBpcTarget)
-          : 0;
-
-      const candGram = norm ? buildCharGramCounts([norm], 3) : {counts: new Map(), total: 0};
-      const jsCand = computeJsHeadOther(k => candGram.counts.get(k) || 0, candGram.total || 0);
-      const jsCandPenalty = typeof jsCand === "number" && Number.isFinite(jsCand) ? JS_CAND_LAMBDA * jsCand : 0;
-
-      const jsRun = computeJsHeadOther(
-        k => (runningGramCounts.get(k) || 0) + (candGram.counts.get(k) || 0),
-        (runningGramTotal || 0) + (candGram.total || 0)
-      );
-      const jsRunPenalty = typeof jsRun === "number" && Number.isFinite(jsRun) ? JS_RUN_LAMBDA * jsRun : 0;
-
-      const copyPenalty = norm && seedSet.has(norm) ? COPY_PENALTY : 0;
-      const seenCount = norm ? (seenGenerated.get(norm) || 0) : 0;
-      const dupPenalty = seenCount ? DUPLICATE_PENALTY * Math.min(3, seenCount) : 0;
-
-      const delta = Math.abs(len - target) + rangePenalty - diversityBonus + realismDelta + jsCandPenalty + jsRunPenalty + copyPenalty + dupPenalty;
-      if (delta < bestDelta) {
-        bestDelta = delta;
-        best = candidate;
-      }
-    }
-
-    const res = best || attempt(chosenBases, requestedMin, requestedMax);
-    names.push(res.text);
-    segTextLists.push(Array.isArray(res.segTexts) ? res.segTexts : []);
-    baseSeqs.push(Array.isArray(res.baseSeq) ? res.baseSeq : []);
-
-    const norm = normalizeForRealism(res.text);
-    if (norm) {
-      seenGenerated.set(norm, (seenGenerated.get(norm) || 0) + 1);
-      const g = buildCharGramCounts([norm], 3);
-      for (const [k, v] of g.counts.entries()) runningGramCounts.set(k, (runningGramCounts.get(k) || 0) + v);
-      runningGramTotal += g.total || 0;
-    }
   }
 
   return {names, segTextLists, baseSeqs, chosenBasesList};
@@ -6877,7 +6433,7 @@ function formatBaseList(list, limit) {
   return `[${head},... +${list.length - max} more]`;
 }
 
-const ALL_VERSION_IDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const ALL_VERSION_IDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
 const VERSION_LABELS = {
   1: "legacy",
   2: "current",
@@ -6897,8 +6453,7 @@ const VERSION_LABELS = {
   16: "syllLing_v16_poolScaledLength",
   17: "syllLing_v17_realismObjective",
   18: "syllLing_v18_realismObjective_lowPpl",
-  19: "syllLing_v19_realismObjective_lowPpl_lowJs",
-  20: "syllLing_v20_realismObjective_lowPpl_mixedJs"
+  19: "syllLing_v19_realismObjective_lowPpl_lowJs"
 };
 if (!ALL_VERSION_IDS.length || ALL_VERSION_IDS[0] !== 1 || !ALL_VERSION_IDS.includes(10)) {
   throw new Error("compare-mixer-nextgen-to-app.js: expected ALL_VERSION_IDS to start at 1 and include v10");
@@ -7077,7 +6632,7 @@ function main() {
   }
 
   if (!versions || !versions.length) {
-    console.error("No valid versions selected via --v (expected 1-20)");
+    console.error("No valid versions selected via --v (expected 1-19)");
     process.exitCode = 1;
     return;
   }
@@ -7102,7 +6657,6 @@ function main() {
   const wantNextgenSyllLingV17 = selected.has(17);
   const wantNextgenSyllLingV18 = selected.has(18);
   const wantNextgenSyllLingV19 = selected.has(19);
-  const wantNextgenSyllLingV20 = selected.has(20);
 
   if (wantNextgenSyllLingV10 && typeof runNextgenSyllableLinguisticV10 !== "function") {
     throw new Error("v=10 requested but runNextgenSyllableLinguisticV10 is missing");
@@ -7142,10 +6696,6 @@ function main() {
 
   if (wantNextgenSyllLingV19 && typeof runNextgenSyllableLinguisticV19 !== "function") {
     throw new Error("v=19 requested but runNextgenSyllableLinguisticV19 is missing");
-  }
-
-  if (wantNextgenSyllLingV20 && typeof runNextgenSyllableLinguisticV20 !== "function") {
-    throw new Error("v=20 requested but runNextgenSyllableLinguisticV20 is missing");
   }
 
   let indices = baseIndices;
@@ -7214,18 +6764,6 @@ function main() {
 
   const nextgenSyllableProv = wantNextgenSyllProv
     ? runNextgenSyllableProvenance({
-        baseIndices: indices,
-        count,
-        seed,
-        min,
-        max,
-        weights,
-        minUniqueBases: explicitMinUniqueBases
-      })
-    : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
-
-  const nextgenSyllableLingV20 = wantNextgenSyllLingV20
-    ? runNextgenSyllableLinguisticV20({
         baseIndices: indices,
         count,
         seed,
@@ -7576,15 +7114,6 @@ function main() {
       }))
     : [];
 
-  const nextgenSyllLingV20Samples = wantNextgenSyllLingV20
-    ? nextgenSyllableLingV20.names.map((text, i) => ({
-        text,
-        baseSeq: Array.isArray(nextgenSyllableLingV20.baseSeqs) ? nextgenSyllableLingV20.baseSeqs[i] || [] : [],
-        segTexts: Array.isArray(nextgenSyllableLingV20.segTextLists) ? nextgenSyllableLingV20.segTextLists[i] || [] : [],
-        chosenBases: Array.isArray(nextgenSyllableLingV20.chosenBasesList) ? nextgenSyllableLingV20.chosenBasesList[i] || [] : []
-      }))
-    : [];
-
   if (wantLegacy) legacy.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
   if (wantCurrent) current.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
   if (wantNextgen) nextgenSamples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases));
@@ -7604,7 +7133,6 @@ function main() {
   if (wantNextgenSyllLingV17) nextgenSyllLingV17Samples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
   if (wantNextgenSyllLingV18) nextgenSyllLingV18Samples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
   if (wantNextgenSyllLingV19) nextgenSyllLingV19Samples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
-  if (wantNextgenSyllLingV20) nextgenSyllLingV20Samples.forEach(row => normalizeSegsAndBaseSeqInPlace(row, indices, bases, {forceAttribution: true}));
 
   console.log(`Compared mixers for ${iso ? "iso=" + iso : "bases=" + indices.join(",")}`);
   console.log("");
@@ -7643,7 +7171,6 @@ function main() {
   if (wantNextgenSyllLingV17) sampleModes.push({name: "syllLing_v17_realismObjective", rows: nextgenSyllLingV17Samples});
   if (wantNextgenSyllLingV18) sampleModes.push({name: "syllLing_v18_realismObjective_lowPpl", rows: nextgenSyllLingV18Samples});
   if (wantNextgenSyllLingV19) sampleModes.push({name: "syllLing_v19_realismObjective_lowPpl_lowJs", rows: nextgenSyllLingV19Samples});
-  if (wantNextgenSyllLingV20) sampleModes.push({name: "syllLing_v20_realismObjective_lowPpl_mixedJs", rows: nextgenSyllLingV20Samples});
 
   for (let i = 0; i < lines; i++) {
     console.log(`#${i + 1}`);
@@ -7768,12 +7295,6 @@ function main() {
     samples: nextgenSyllLingV19Samples
   });
 
-  if (wantNextgenSyllLingV20) reportModes.push({
-    name: "syllLing_v20_realismObjective_lowPpl_mixedJs",
-    title: "=== Helper-only syllLing_v20_realismObjective_lowPpl_mixedJs (v19 + tail-aware + running js objective) ===",
-    samples: nextgenSyllLingV20Samples
-  });
-
   const reportModeTexts = reportModes.map(m => ({
     name: m.name,
     title: m.title,
@@ -7848,8 +7369,7 @@ function main() {
     {name: "syllLing_v16_poolScaledLength", enabled: wantNextgenSyllLingV16, samples: nextgenSyllLingV16Samples},
     {name: "syllLing_v17_realismObjective", enabled: wantNextgenSyllLingV17, samples: nextgenSyllLingV17Samples},
     {name: "syllLing_v18_realismObjective_lowPpl", enabled: wantNextgenSyllLingV18, samples: nextgenSyllLingV18Samples},
-    {name: "syllLing_v19_realismObjective_lowPpl_lowJs", enabled: wantNextgenSyllLingV19, samples: nextgenSyllLingV19Samples},
-    {name: "syllLing_v20_realismObjective_lowPpl_mixedJs", enabled: wantNextgenSyllLingV20, samples: nextgenSyllLingV20Samples}
+    {name: "syllLing_v19_realismObjective_lowPpl_lowJs", enabled: wantNextgenSyllLingV19, samples: nextgenSyllLingV19Samples}
   ].filter(m => m.enabled && Array.isArray(m.samples) && m.samples.some(r => Array.isArray(r.chosenBases) && r.chosenBases.length));
 
   if (chosenCoverageModes.length) {

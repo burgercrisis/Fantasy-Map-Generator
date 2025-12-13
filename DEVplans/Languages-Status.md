@@ -11,6 +11,14 @@ Seed-uniqueness goal (tracked, not gated):
 - To measure current compliance and track progress, use:
   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
+Latest seed-uniqueness report snapshot (2025-12-13):
+
+- Target ISOs: 3366
+- Missing mapping: 0
+- No globally-unique base index: 3254
+- Strict unique seeds below threshold (among those with unique base): 4
+- Normalized unique seeds below threshold (among those with unique base): 43
+
 Throughout this devplan, `config/language-mixes.json` and `config/language-mixer-map.json` are treated as **append-only language registries**. Once a language ISO exists in either file it should not be deleted; cleanup and uniqueness passes only adjust `bases[]`, metadata, or add new entries. If an earlier revision contained a language that is now missing, that is treated as data loss to be repaired by restoring the language from history rather than as an intentional deletion.
 
 ### Section index
