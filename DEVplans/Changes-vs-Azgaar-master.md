@@ -67,6 +67,8 @@ Behavioral impact vs upstream:
 
 - Mixer objective tuning (helper tooling): `tools/mixer-core/compare-mixer-nextgen-to-app.js` includes a set of experimental syllable-linguistic mixer variants (v17–v19) focused on improving realism metrics (seed-corpus trigram `bpc/ppl/js`) while preserving novelty (low `copy`). v20 was attempted and then removed; v19 is the current best-performing / stable cap.
 
+  App test wiring (non-default): `modules/names-mixer.js` supports opting into the v19 mixed-name generator via `?mixer=v19` (or `localStorage.fmg-mixer-version = "v19"`). Defaults remain unchanged unless the override is set.
+
   Verified snapshot (seed=420, base=1-20, count=50):
 
   `syllLing_v19_realismObjective_lowPpl_lowJs: bpc=3.509 ppl=11.39 js=0.1671 oov=0.00% copy=0/50 (0.0%)`

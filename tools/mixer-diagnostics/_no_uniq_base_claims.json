@@ -14,10 +14,10 @@
         "byq",
         "bzg"
       ],
-      "status": "complete",
+      "status": "stalled",
       "startedAt": "2025-12-13T11:11:00Z",
-      "updatedAt": "2025-12-13T11:58:00Z",
-      "notes": "Completed Formosan/Taiwan slice. Ensured globally-unique base per ISO: existing reserved bases 559–563 used by bunun/bunun-isbukun/bunun-northern-central/byq/bzg; appended new bases 564–566 (Amis + Atayal variants) and wired to ami/atayal-squliq/atayal-tsole. Verified with run-language-mixer-suite + seed-uniqueness report (no failures for this batch)."
+      "updatedAt": "2025-12-13T12:55:00Z",
+      "notes": "Stalled: this entry contains inaccurate notes from a misapplied patch. Ignore this claim; authoritative completed Formosan work is recorded in the 11:15 batch claim below."
     },
     {
       "workerId": 1,
@@ -69,10 +69,10 @@
         "kasua",
         "kerewo"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T11:55:00Z",
-      "updatedAt": "2025-12-13T11:55:00Z",
-      "notes": "Using remaining reserved dedicated bases 541–558: sat->541, rbb->542, becking-dawi->548, benabena->549, bimin->550, gadsup->551, gahuku->552, gogodala->553, awiyaana->554, kasua->555, kerewo->557. Plan: append these base indices to each ISO's bases[] in config/language-mixer-map.json and verify they now report uniqBase."
+      "updatedAt": "2025-12-13T14:05:00Z",
+      "notes": "Complete. Appended remaining reserved dedicated bases 541–558 to claimed ISOs: sat->541, rbb->542, becking-dawi->548, benabena->549, bimin->550, gadsup->551, gahuku->552, gogodala->553, awiyaana->554, kasua->555, kerewo->557. Verified via run-language-mixer-suite + seed-uniqueness report: each now reports uniqBase (strictOK; norm<10 tracked as debt where applicable)."
     },
     {
       "workerId": 2,
@@ -90,6 +90,21 @@
       "notes": "Complete. Added dedicated bases 567–571 in modules/namebases-real.js and wired: bustocco-legnanese->567, cadorino->568, calabro->569, campano->570, campidanese->571 (appended to bases[] in config/language-mixer-map.json). Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + seed-uniqueness report: each ISO now reports uniqBase; bustocco-legnanese/cadorino/calabro are strictOK+normOK, campano/campidanese are strictOK+norm<10."
     },
     {
+      "workerId": 2,
+      "batchId": "2025-12-13T12:10:00Z-worker2",
+      "isos": [
+        "canarian",
+        "cantabrian",
+        "cast-o",
+        "castrapo",
+        "cat"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T12:10:00Z",
+      "updatedAt": "2025-12-13T12:18:00Z",
+      "notes": "Complete. Wired dedicated bases to eliminate NO_UNIQ_BASE: canarian->572 (existing base), cat->582, cantabrian->583, cast-o->584, castrapo->585 (new bases appended to modules/namebases-real.js; all appended to bases[] in config/language-mixer-map.json). Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + seed-uniqueness report: none of these ISOs appear in --only-failures; each now reports uniqBase."
+    },
+    {
       "workerId": 3,
       "batchId": "2025-12-13T12:30:00Z-worker3",
       "isos": [
@@ -101,10 +116,109 @@
         "kildin-sami",
         "lule-sami"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T12:30:00Z",
-      "updatedAt": "2025-12-13T12:30:00Z",
-      "notes": "Targeting Sámi NO_UNIQ_BASE failures. To avoid colliding with worker2 reserved base indices 567–574, plan to append new dedicated bases 575+ in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Verify with run-language-mixer-suite + seed-uniqueness report."
+      "updatedAt": "2025-12-13T13:05:00Z",
+      "notes": "Complete. Added dedicated bases 575–581 in modules/namebases-real.js and appended them in config/language-mixer-map.json: akkala-sami->575, finnmark-sami->576, inari-sami->577, kainuu-sami->578, kemi-sami->579, kildin-sami->580, lule-sami->581. Verified via seed-uniqueness report: each now reports uniqBase (strictOK; norm<10 still tracked as debt)."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-13T12:50:00Z-worker4",
+      "isos": [
+        "cameroonian-pidgin",
+        "cameroonian-pidgin-english",
+        "bura-language",
+        "bure-chadic-language",
+        "buwal-language",
+        "cakfem-mushere-language",
+        "bole-tangale",
+        "tangale-language",
+        "dangaleat-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T12:50:00Z",
+      "updatedAt": "2025-12-13T13:55:00Z",
+      "notes": "Complete. Dedicated bases in modules/namebases-real.js: bura-language->586, bure-chadic-language->587, buwal-language->588, cakfem-mushere-language->589, cameroonian-pidgin->597, cameroonian-pidgin-english->598, bole-tangale->599, tangale-language->600, dangaleat-language->601 (appended to bases[] in config/language-mixer-map.json). Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites) + seed-uniqueness report: all now report uniqBase (strictOK except cameroonian-pidgin-english still strict<1; norm<10 tracked as debt)."
+    },
+    {
+      "workerId": 5,
+      "batchId": "2025-12-13T13:20:00Z-worker5",
+      "isos": [
+        "bukusu",
+        "bulu",
+        "bum",
+        "busa",
+        "bushong",
+        "bwela",
+        "buyu"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T13:20:00Z",
+      "updatedAt": "2025-12-13T13:35:00Z",
+      "notes": "Complete. Added dedicated bases 590–596 in modules/namebases-real.js and appended to config/language-mixer-map.json: bukusu->590, bulu->591, bum->592, busa->593, bushong->594, bwela->595, buyu->596. Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites) and seed-uniqueness report that this ISO batch no longer appears in --only-failures."
+    },
+    {
+      "workerId": 7,
+      "batchId": "2025-12-13T14:15:00Z-worker7",
+      "isos": [
+        "anglo-norman",
+        "norman",
+        "cauchois",
+        "augeron",
+        "cotentinais",
+        "auregnais",
+        "guern-siais",
+        "j-rriais",
+        "jersey-legal-french"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T14:15:00Z",
+      "updatedAt": "2025-12-13T14:15:00Z",
+      "notes": "Oïl Dialects (Normandy + Channel Islands slice). Plan: add dedicated bases 607–615 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Verify with run-language-mixer-suite + seed-uniqueness report."
+    },
+    {
+      "workerId": 6,
+      "batchId": "2025-12-13T14:05:00Z-worker6",
+      "isos": [
+        "yaeyama",
+        "yonaguni",
+        "yoron",
+        "yilan-creole-japanese",
+        "yokohama-pidgin-japanese"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T14:05:00Z",
+      "updatedAt": "2025-12-13T14:05:00Z",
+      "notes": "Ryukyuan/Japanese-contact slice. Reserved dedicated bases 602–606 in modules/namebases-real.js and will append to config/language-mixer-map.json: yaeyama->602, yonaguni->603, yoron->604, yilan-creole-japanese->605, yokohama-pidgin-japanese->606. Verify with run-language-mixer-suite + seed-uniqueness report."
+    },
+    {
+      "workerId": 9,
+      "batchId": "2025-12-13T12:26:00Z-worker9",
+      "isos": [
+        "burmese",
+        "burmish",
+        "burmo-qiangic",
+        "caijia",
+        "cdm"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T12:26:00Z",
+      "updatedAt": "2025-12-13T12:26:00Z",
+      "notes": "Sino-Tibetan/Asia slice. Plan: add dedicated bases 620–624 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Verify with run-language-mixer-suite + seed-uniqueness report."
+    },
+    {
+      "workerId": 8,
+      "batchId": "2025-12-13T14:30:00Z-worker8",
+      "isos": [
+        "adeni-arabic",
+        "aleppine-arabic",
+        "algerian-arabic",
+        "algerian-saharan-arabic"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T14:30:00Z",
+      "updatedAt": "2025-12-13T14:30:00Z",
+      "notes": "Arabic dialects NO_UNIQ_BASE slice. Plan: append dedicated bases 616–619 in modules/namebases-real.js and append: adeni-arabic->616, aleppine-arabic->617, algerian-arabic->618, algerian-saharan-arabic->619 in config/language-mixer-map.json. Avoid collisions with in-progress reserved ranges 602–615. Verify with seed-uniqueness report (and run-language-mixer-suite if needed)."
     }
   ]
 }

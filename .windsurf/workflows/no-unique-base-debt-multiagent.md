@@ -71,6 +71,14 @@ Rules:
    - add a short `notes` update
 4. If there are no unclaimed ISOs in your scan window, pick the oldest `in_progress` claim and mark it `stalled` (do not delete it), then claim a different batch.
 
+## Coordination option (recommended)
+
+- Option 1: Have each in-progress worker update their claim with the actual base indices they used + confirm the rerun report result ✅
+  - Update `notes` with the real ISO→base mapping you applied (and any reserved ranges you skipped).
+  - Include confirmation that after your changes:
+    - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500`
+    - no longer lists your batch ISOs under `NO_UNIQ_BASE`.
+
 # How to pick a batch
 
 1. Run the report with a large limit so you can see enough candidates:

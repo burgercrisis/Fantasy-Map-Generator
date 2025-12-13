@@ -22,15 +22,21 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Latest report snapshot (2025-12-13):
     - Target ISOs: 3366
     - Missing mapping: 0
-    - No globally-unique base index: 3254
-    - Strict unique seeds below threshold (among those with unique base): 4
-    - Normalized unique seeds below threshold (among those with unique base): 43
+    - No globally-unique base index: 3193
+    - Strict unique seeds below threshold (among those with unique base): 6
+    - Normalized unique seeds below threshold (among those with unique base): 93
 
 - ✅ Routine checks wiring:
   - The seed-uniqueness report command is now listed in the routine/quick checks sections of `Language-Mixer-Rules.md`, `Languages-Status.md`, and `Races-Languages-Rules.md`.
 
 - ✅ Multi-agent workflow:
   - `.windsurf/workflows/no-unique-base-debt-multiagent.md`
+
+- Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
+  - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)
+  - In-progress batches: 1 (worker6)
+  - Stalled batches: 1 (worker1; superseded by later completed claim)
+  - Dedicated base indices added/wired in this pass include: 539–563, 567–596, 597–601
 
 ## Routine checks
 

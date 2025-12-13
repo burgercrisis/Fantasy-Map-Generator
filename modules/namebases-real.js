@@ -226,14 +226,63 @@ window.realWorldNameBases = [
       {name: "Campano", i: 570, min: 4, max: 11, d: "lnrt", m: 0, b: "Napoli,Salerno,Avellino,Benevento,Caserta,Torre del Greco,Pozzuoli,Giugliano in Campania,Nocera Inferiore,Aversa,Sorrento,Capua"},
       {name: "Campidanese", i: 571, min: 4, max: 11, d: "lnrt", m: 0, b: "Cagliari,Quartu Sant'Elena,Assemini,Monserrato,Selargius,Capoterra,Decimomannu,Sestu,Villasimius,Iglesias,Carbonia,Sanluri"},
       {name: "Canarian", i: 572, min: 4, max: 11, d: "lnrt", m: 0, b: "Las Palmas de Gran Canaria,Santa Cruz de Tenerife,San Cristobal de La Laguna,Telde,Arrecife,Puerto del Rosario,Los Llanos de Aridane,Adeje,La Orotava,Arona,Icod de los Vinos,Galdar"},
-      {name: "Campano", i: 570, min: 4, max: 11, d: "lnrt", m: 0, b: "Napoli,Salerno,Avellino,Benevento,Caserta,Torre del Greco,Pozzuoli,Giugliano in Campania,Nocera Inferiore,Aversa,Sorrento,Capua"},
-      {name: "Campidanese", i: 571, min: 4, max: 11, d: "lnrt", m: 0, b: "Cagliari,Quartu Sant'Elena,Assemini,Monserrato,Selargius,Capoterra,Decimomannu,Sestu,Villasimius,Iglesias,Carbonia,Sanluri"},
       {name: "Akkala Sami", i: 575, min: 4, max: 11, d: "lnrt", m: 0, b: "Kola,Lovozero,Olenegorsk,Revda,Umba,Kandalaksha,Apatity,Kirovsk,Monchegorsk,Polyarnye Zori,Severomorsk,Murmansk"},
       {name: "Finnmark Sami", i: 576, min: 4, max: 11, d: "lnrt", m: 0, b: "Karasjok,Kautokeino,Alta,Hammerfest,Lakselv,Porsanger,Vadsø,Vardø,Tana,Kirkenes,Mehamn,Berlevåg"},
       {name: "Inari Sami", i: 577, min: 4, max: 11, d: "lnrt", m: 0, b: "Inari,Ivalo,Saariselkä,Nellim,Kaamanen,Utsjoki,Enontekiö,Sodankylä,Rovaniemi,Vuotso,Muotka,Nuorgam"},
       {name: "Kainuu Sami", i: 578, min: 4, max: 11, d: "lnrt", m: 0, b: "Kajaani,Sotkamo,Kuhmo,Suomussalmi,Hyrynsalmi,Paltamo,Ristijärvi,Puolanka,Vaala,Utajärvi,Kuusamo,Oulu"},
       {name: "Kemi Sami", i: 579, min: 4, max: 11, d: "lnrt", m: 0, b: "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla"},
       {name: "Kildin Sami", i: 580, min: 4, max: 11, d: "lnrt", m: 0, b: "Lovozero,Revda,Umba,Kirovsk,Apatity,Monchegorsk,Olenegorsk,Kandalaksha,Murmansk,Polyarny,Snezhnogorsk,Zaozersk"},
-      {name: "Lule Sami", i: 581, min: 4, max: 11, d: "lnrt", m: 0, b: "Jokkmokk,Gällivare,Kiruna,Luleå,Boden,Örrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,Sörkaitum"}
+      {name: "Lule Sami", i: 581, min: 4, max: 11, d: "lnrt", m: 0, b: "Jokkmokk,Gällivare,Kiruna,Luleå,Boden,Örrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,Sörkaitum"},
+      {name: "Catalan", i: 582, min: 4, max: 11, d: "lnrt", m: 0, b: "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Mataró,Vic,Olot,Tortosa"},
+      {name: "Cantabrian", i: 583, min: 4, max: 11, d: "lnrt", m: 0, b: "Santander,Torrelavega,Castro Urdiales,Laredo,Reinosa,Santoña,Comillas,San Vicente de la Barquera,Potes,Cabezón de la Sal,Noja,Ampuero"},
+      {name: "Castúo", i: 584, min: 4, max: 11, d: "lnrt", m: 0, b: "Badajoz,Mérida,Cáceres,Plasencia,Don Benito,Villanueva de la Serena,Zafra,Almendralejo,Trujillo,Navalmoral de la Mata,Olivenza,Jerez de los Caballeros"},
+      {name: "Castrapo", i: 585, min: 4, max: 11, d: "lnrt", m: 0, b: "Vigo,A Coruña,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcía de Arousa,Redondela,Marín,Ribeira,Carballo"},
+      {name: "Bura language", i: 586, min: 4, max: 11, d: "lnrt", m: 0, b: "Biu,Gombi,Marama,Kubit,Hyambula,Askira,Uba,Pella,Shani,Chibok,Gwoza,Michika"},
+      {name: "Bure language", i: 587, min: 4, max: 11, d: "lnrt", m: 0, b: "Gashua,Nguru,Geidam,Potiskum,Katagum,Damboa,Konduga,Magumeri,Kukawa,Marte,Dikwa,Mafa"},
+      {name: "Buwal language", i: 588, min: 4, max: 11, d: "lnrt", m: 0, b: "Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa"},
+      {name: "Cakfem-Mushere language", i: 589, min: 4, max: 11, d: "lnrt", m: 0, b: "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi"},
+
+      {name: "Bukusu", i: 590, min: 4, max: 11, d: "lnrt", m: 0, b: "Bungoma,Webuye,Kimilili,Malakisi,Sirisia,Chwele,Kanduyi,Mt Elgon,Kitale,Mumias,Kakamega,Eldoret"},
+      {name: "Bulu", i: 591, min: 4, max: 11, d: "lnrt", m: 0, b: "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Yaounde,Douala,Edea,Ngoulemakong"},
+      {name: "Bum", i: 592, min: 4, max: 11, d: "lnrt", m: 0, b: "Ngambe,Tonga,Bafang,Bangangte,Bafoussam,Dschang,Foumban,Bamenda,Ndop,Kumbo,Yaounde,Douala"},
+      {name: "Busa", i: 593, min: 4, max: 11, d: "lnrt", m: 0, b: "Bussa,New Bussa,Borgu,Illo,Kaiama,Jebba,Yelwa,Kontagora,Bida,Ilorin,Minna,Niamey"},
+      {name: "Bushong", i: 594, min: 4, max: 11, d: "lnrt", m: 0, b: "Kananga,Tshikapa,Ilebo,Mweka,Luebo,Lusambo,Mbuji-Mayi,Kikwit,Kinshasa,Kwamouth,Inongo,Boende"},
+      {name: "Bwela", i: 595, min: 4, max: 11, d: "lnrt", m: 0, b: "Matadi,Boma,Luozi,Kimpese,Tshela,Muanda,Kikwit,Idiofa,Bandundu,Kinshasa,Ango,Bananza"},
+      {name: "Buyu", i: 596, min: 4, max: 11, d: "lnrt", m: 0, b: "Kalemie,Uvira,Fizi,Baraka,Bukavu,Goma,Kindu,Manono,Kabalo,Kisangani,Lubumbashi,Kolwezi"},
+
+      {name: "Cameroonian Pidgin", i: 597, min: 4, max: 11, d: "lnrt", m: 0, b: "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Garoua,Maroua,Ngaoundere,Bertoua,Edea"},
+      {name: "Cameroonian Pidgin English", i: 598, min: 4, max: 11, d: "lnrt", m: 0, b: "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Kribi,Garoua,Maroua,Ngaoundere,Calabar"},
+      {name: "Bole–Tangale", i: 599, min: 4, max: 11, d: "lnrt", m: 0, b: "Gombe,Kaltungo,Billiri,Kumo,Deba,Balanga,Dukku,Bajoga,Nafada,Akko,Funakaye,Ashaka"},
+      {name: "Tangale language", i: 600, min: 4, max: 11, d: "lnrt", m: 0, b: "Kaltungo,Billiri,Shongom,Kumo,Deba,Balanga,Cham,Nyuwar,Kalmai,Ture,Tongo,Boh"},
+      {name: "Dangaléat language", i: 601, min: 4, max: 11, d: "lnrt", m: 0, b: "Ati,Oum Hadjer,Am Timan,Mongo,Abéché,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine"},
+
+      {name: "Yaeyama", i: 602, min: 4, max: 11, d: "lnrt", m: 0, b: "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama"},
+      {name: "Yonaguni", i: 603, min: 4, max: 11, d: "lnrt", m: 0, b: "Yonaguni,Sonai,Kubura,Higawa,Irizaki,Tindabana,Agariyama,Utaki,San-ninu-dai,Nandahama,Kitabokujo,Kuburabari"},
+      {name: "Yoron", i: 604, min: 4, max: 11, d: "lnrt", m: 0, b: "Yoron,Chabana,Mugiya,Asato,Furusato,Gusuku,Yurigahama,Udonosu,Akasaki,Techa,Riku,Tomori"},
+      {name: "Yilan Creole Japanese", i: 605, min: 4, max: 11, d: "lnrt", m: 0, b: "Yilan,Luodong,Jiaoxi,Toucheng,Suao,Dongshan,Wujie,Sanxing,Datong,Nanao,Yuanshan,Zhuangwei"},
+      {name: "Yokohama Pidgin Japanese", i: 606, min: 4, max: 11, d: "lnrt", m: 0, b: "Yokohama,Kanagawa,Negishi,Honmoku,Yamate,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Yokosuka,Kamakura,Ofuna"},
+
+      {name: "Burmese", i: 620, min: 4, max: 11, d: "lnrt", m: 0, b: "Yangon,Mandalay,Naypyidaw,Bagan,Taunggyi,Mawlamyine,Bago,Pyay,Pathein,Meiktila,Monywa,Lashio"},
+      {name: "Burmish", i: 621, min: 4, max: 11, d: "lnrt", m: 0, b: "Myitkyina,Bhamo,Puta-O,Hpakant,Shwegu,Momeik,Namhkam,Muse,Laukkaing,Mongko,Kutkai,Hopin"},
+      {name: "Burmo Qiangic", i: 622, min: 4, max: 11, d: "lnrt", m: 0, b: "Xichang,Kangding,Aba,Barkam,Songpan,Heishui,Maoxian,Wenchuan,Luding,Litang,Daocheng,Danba"},
+      {name: "Caijia", i: 623, min: 4, max: 11, d: "lnrt", m: 0, b: "Bijie,Qianxi,Weining,Nayong,Jinsha,Dafang,Qixingguan,Hezhang,Xingyi,Anshun,Guiyang,Liupanshui"},
+      {name: "Chepang", i: 624, min: 4, max: 11, d: "lnrt", m: 0, b: "Gorkha,Dhading,Chitwan,Makwanpur,Tanahun,Nuwakot,Lamjung,Kathmandu,Bharatpur,Hetauda,Besisahar,Trishuli"}
     ];
+    ];
+
+      {name: "Yaeyama", i: 602, min: 4, max: 11, d: "lnrt", m: 0, b: "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama"},
+      {name: "Yonaguni", i: 603, min: 4, max: 11, d: "lnrt", m: 0, b: "Yonaguni,Sonai,Kubura,Higawa,Irizaki,Tindabana,Agariyama,Utaki,San-ninu-dai,Nandahama,Kitabokujo,Kuburabari"},
+      {name: "Yoron", i: 604, min: 4, max: 11, d: "lnrt", m: 0, b: "Yoron,Chabana,Mugiya,Asato,Furusato,Gusuku,Yurigahama,Udonosu,Akasaki,Techa,Riku,Tomori"},
+      {name: "Yilan Creole Japanese", i: 605, min: 4, max: 11, d: "lnrt", m: 0, b: "Yilan,Luodong,Jiaoxi,Toucheng,Suao,Dongshan,Wujie,Sanxing,Datong,Nanao,Yuanshan,Zhuangwei"},
+      {name: "Yokohama Pidgin Japanese", i: 606, min: 4, max: 11, d: "lnrt", m: 0, b: "Yokohama,Kanagawa,Negishi,Honmoku,Yamate,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Yokosuka,Kamakura,Ofuna"},
+
+      {name: "Anglo-Norman", i: 607, min: 4, max: 11, d: "lnrt", m: 0, b: "Bayeux,Domfront,Argentan,Lisieux,Falaise,Barfleur,Villedieu-les-Poêles,La Haye-du-Puits,Pont-l'Évêque,Beuvron-en-Auge,Carentan,Avranches"},
+      {name: "Norman", i: 608, min: 4, max: 11, d: "lnrt", m: 0, b: "Rouen,Caen,Dieppe,Le Havre,Saint-Lô,Alençon,Granville,Coutances,Bernay,Flers,Honfleur,Bagnoles-de-l'Orne"},
+      {name: "Cauchois", i: 609, min: 4, max: 11, d: "lnrt", m: 0, b: "Fécamp,Yvetot,Cany-Barville,Valmont,Étretat,Lillebonne,Bolbec,Goderville,Saint-Valery-en-Caux,Veules-les-Roses,Tôtes,Buchy"},
+      {name: "Augeron", i: 610, min: 4, max: 11, d: "lnrt", m: 0, b: "Pont-l'Évêque,Deauville,Trouville-sur-Mer,Orbec,Thiberville,Cambremer,Beaumont-en-Auge,Vimoutiers,Blangy-le-Château,Beuzeville,Dozulé,Bonnebosq"},
+      {name: "Cotentinais", i: 611, min: 4, max: 11, d: "lnrt", m: 0, b: "Cherbourg-en-Cotentin,Valognes,Barneville-Carteret,Les Pieux,La Haye,Carentan-les-Marais,Saint-Vaast-la-Hougue,Bricquebec,Portbail,Quettehou,La Pernelle,Montebourg"},
+      {name: "Auregnais", i: 612, min: 4, max: 11, d: "lnrt", m: 0, b: "St Anne,Aurigny,Braye Harbour,Longis Bay,Saye Bay,Platte Saline,Fort Clonque,Fort Albert,Fort Tourgis,Mannez,Esplanade,Le Val"},
+      {name: "Guernésiais", i: 613, min: 4, max: 11, d: "lnrt", m: 0, b: "St Peter Port,St Sampson,Castel,St Martin,St Andrew,Forest,St Saviour,Torteval,Vale,Lancresse,Jerbourg,Pleinmont"},
+      {name: "Jèrriais", i: 614, min: 4, max: 11, d: "lnrt", m: 0, b: "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbière,La Hougue Bie,Grève de Lecq"},
+      {name: "Jersey Legal French", i: 615, min: 4, max: 11, d: "lnrt", m: 0, b: "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrêt,Juridiction,Bailliage,Paroisse,États"}
     ];

@@ -15,15 +15,21 @@ Seed-uniqueness goal (tracked, not gated):
 
 - Target ISOs: 3366
 - Missing mapping: 0
-- No globally-unique base index: 3252
-- Strict unique seeds below threshold (among those with unique base): 4
-- Normalized unique seeds below threshold (among those with unique base): 43
+- No globally-unique base index: 3193
+- Strict unique seeds below threshold (among those with unique base): 6
+- Normalized unique seeds below threshold (among those with unique base): 93
 
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Formosan/Taiwan batch):** added dedicated bases `559–563` for `bunun`, `bunun-isbukun`, `bunun-northern-central`, `byq`, `bzg` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`, `norm<10`).
 
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (reserved-bases batch):** appended reserved bases `539, 540, 543–547, 556, 558` to `mardijker-creole`, `tetum`, `abui`, `angal`, `asmat`, `asmat-citak`, `asmat-kamoro`, `kamoro`, `kenati` in `config/language-mixer-map.json`. Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`).
 
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / Italy dialects):** added dedicated bases `567–571` for `bustocco-legnanese`, `cadorino`, `calabro`, `campano`, `campidanese` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (all `strictOK`; `campano`/`campidanese` still `norm<10`).
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Iberian / Romance dialects):** ensured dedicated bases for `canarian`, `cantabrian`, `cast-o`, `castrapo`, `cat` by wiring `canarian` to existing base `572` and adding new dedicated bases `582–585` (Catalan/Cantabrian/Castúo/Castrapo), then appending them in `config/language-mixer-map.json`. Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that none of these ISOs appear in `--only-failures`.
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Cameroon/Nigeria Chadic + Cameroonian Pidgin):** added dedicated bases `586–589` (`bura-language`, `bure-chadic-language`, `buwal-language`, `cakfem-mushere-language`) and `597–601` (`cameroonian-pidgin`, `cameroonian-pidgin-english`, `bole-tangale`, `tangale-language`, `dangaleat-language`) in `modules/namebases-real.js`, and appended them to each ISO in `config/language-mixer-map.json`. Verified via `run-language-mixer-suite` + seed-uniqueness report that all now report `uniqBase` (notably `cameroonian-pidgin-english` still has `strict<1`; `norm<10` remains tracked debt).
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Sámi batch):** added dedicated bases `575–581` for `akkala-sami`, `finnmark-sami`, `inari-sami`, `kainuu-sami`, `kemi-sami`, `kildin-sami`, `lule-sami` (appended in `config/language-mixer-map.json`). Verified via `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`, `norm<10`).
 
 Throughout this devplan, `config/language-mixes.json` and `config/language-mixer-map.json` are treated as **append-only language registries**. Once a language ISO exists in either file it should not be deleted; cleanup and uniqueness passes only adjust `bases[]`, metadata, or add new entries. If an earlier revision contained a language that is now missing, that is treated as data loss to be repaired by restoring the language from history rather than as an intentional deletion.
 
@@ -868,7 +874,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 274
+  - `Nonunique Bases:` 267
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 277
@@ -902,14 +908,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 169
+  - `Nonunique Bases:` 168
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 159
-  - `clustered bases:` 17
-  - `clustered full items:` 17
-  - `cluster size histogram:` size2=11, size3=2, size4+=4
-  - `clustered isos:` egyptian-arabic(34), eastern-mari(23), komi-zyryan(23), hin(4), arpitan(3), guarani(3), aranese(2), central-mansi(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), gujarati(2), ladin-lang(2), maithili(2), nah(2), nenets(2), northern-sami(2)
+  - `unique bases:` 160
+  - `clustered bases:` 16
+  - `clustered full items:` 16
+  - `cluster size histogram:` size2=11, size3=1, size4+=4
+  - `clustered isos:` egyptian-arabic(34), eastern-mari(23), komi-zyryan(23), hin(4), guarani(3), aranese(2), arpitan(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), gujarati(2), ladin-lang(2), maithili(2), nah(2), nenets(2), northern-sami(2)
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -1068,14 +1074,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 157
+  - `Nonunique Bases:` 155
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 127
   - `clustered bases:` 41
   - `clustered full items:` 41
-  - `cluster size histogram:` size2=6, size3=5, size4+=30
-  - `clustered isos:` agx(24), akv(24), ani(24), ava(24), bph(24), cji(24), ddo(24), gdo(24), gin(24), huz(24), kap(24), khv(24), kpt(24), kva(24), lbe(24), rut(24), tin(24), ugh(24), xdq(24), ingrian(23), komi-zyryan(23), kven(23), livonian(23), ludic(23), me-nkieli(23), v-ro(23), veps(23), votic(23), silesian(4), upper-sorbian(4), arpitan(3), krc(3), kum(3), nogai(3), romagnol(3), abkhaz(2), adyghe(2), bavarian(2), cim(2), nenets(2), northern-sami(2)
+  - `cluster size histogram:` size2=7, size3=4, size4+=30
+  - `clustered isos:` agx(24), akv(24), ani(24), ava(24), bph(24), cji(24), ddo(24), gdo(24), gin(24), huz(24), kap(24), khv(24), kpt(24), kva(24), lbe(24), rut(24), tin(24), ugh(24), xdq(24), ingrian(23), komi-zyryan(23), kven(23), livonian(23), ludic(23), me-nkieli(23), v-ro(23), veps(23), votic(23), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), romagnol(3), abkhaz(2), adyghe(2), arpitan(2), bavarian(2), cim(2), nenets(2), northern-sami(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
@@ -1200,7 +1206,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `clustered bases:` 13
   - `clustered full items:` 13
   - `cluster size histogram:` size2=10, size3=1, size4+=2
-  - `clustered isos:` okinawan(11), hin(4), dzongkha(3), balti(2), bikol(2), chhattisgarhi(2), chin(2), gujarati(2), kapampangan(2), maithili(2), mnw(2), tibetan(2), yakut(2)
+  - `clustered isos:` okinawan(9), hin(4), dzongkha(3), balti(2), bikol(2), chhattisgarhi(2), chin(2), gujarati(2), kapampangan(2), maithili(2), mnw(2), tibetan(2), yakut(2)
 
 ### 8.12 East Asian languages – classification proposals (macro helper)
 
@@ -1524,14 +1530,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 64
-  - `Nonunique Bases:` 222
+  - `Nonunique Bases:` 215
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 127
-  - `clustered bases:` 96
-  - `clustered full items:` 96
-  - `cluster size histogram:` size2=77, size3=0, size4+=19
-  - `clustered isos:` central-ludic(23), central-veps(23), eastern-mari(23), eastern-votic(23), ingrian(23), komi-zyryan(23), kven(23), livonian(23), ludic(23), me-nkieli(23), northern-ludic(23), northern-veps(23), southern-veps(23), v-ro(23), veps(23), veps(23), votic(23), western-votic(23), zyuzdino(23), american-finnish(2), besermyan(2), central-mansi(2), central-selkup(2), central-transdanubian(2), central-vychegda(2), courland-livonian(2), cs-ng-(2), eastern-khanty(2), eastern-mansi(2), finnmark-sami(2), forest-nenets(2), heart-tavastian(2), hevaha(2), hollola(2), izhma(2), j-mtland(2), kainuu-sami(2), kamas(2), karagas(2), karelian-proper(2), kemi-sami(2), kosa-kama(2), kudymkar-inva(2), kukkuzi(2), lower-inva(2), lower-lozva(2), lower-luga(2), lule-sami(2), luza-letka(2), mator(2), mator-proper(2), middle-lozva(2), nenets(2), nganasan(2), northeast-hungary(2), northern-karelian(2), northern-mansi(2), northern-sami(2), pal-c(2), pechora(2), pelym(2), pori-region(2), proper-southeastern(2), savonlinna(2), sea-sami(2), semisjaur-njarg(2), shoksha(2), southeastern-tavastian(2), southern-great-plain(2), southern-sami(2), southern-savonian(2), southern-selkup(2), southern-tavastian(2), southern-transdanubian(2), southern-udmurt(2), southwestern-finnish(2), standard-finnish(2), tavastian(2), tisza-k-r-s(2), torne-sami(2), transylvanian-plain(2), tundra-nenets(2), turku-highlands(2), udora(2), upper-lupya(2), upper-sysola(2), upper-vychegda(2), v-rmland-savonian(2), vadey(2), vishera(2), vym(2), western-estonian(2), western-mansi(2), western-uusimaa(2), yoshkar-olin(2), yurats(2)
+  - `unique bases:` 133
+  - `clustered bases:` 90
+  - `clustered full items:` 90
+  - `cluster size histogram:` size2=71, size3=0, size4+=19
+  - `clustered isos:` central-ludic(23), central-veps(23), eastern-mari(23), eastern-votic(23), ingrian(23), komi-zyryan(23), kven(23), livonian(23), ludic(23), me-nkieli(23), northern-ludic(23), northern-veps(23), southern-veps(23), v-ro(23), veps(23), veps(23), votic(23), western-votic(23), zyuzdino(23), american-finnish(2), besermyan(2), central-selkup(2), central-transdanubian(2), central-vychegda(2), courland-livonian(2), cs-ng-(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), heart-tavastian(2), hevaha(2), hollola(2), izhma(2), j-mtland(2), kamas(2), karagas(2), karelian-proper(2), kosa-kama(2), kudymkar-inva(2), kukkuzi(2), lower-inva(2), lower-lozva(2), lower-luga(2), luza-letka(2), mator(2), mator-proper(2), middle-lozva(2), nenets(2), nganasan(2), northeast-hungary(2), northern-karelian(2), northern-mansi(2), northern-sami(2), pal-c(2), pechora(2), pelym(2), pori-region(2), proper-southeastern(2), savonlinna(2), semisjaur-njarg(2), shoksha(2), southeastern-tavastian(2), southern-great-plain(2), southern-sami(2), southern-savonian(2), southern-selkup(2), southern-tavastian(2), southern-transdanubian(2), southern-udmurt(2), southwestern-finnish(2), standard-finnish(2), tavastian(2), tisza-k-r-s(2), torne-sami(2), transylvanian-plain(2), tundra-nenets(2), turku-highlands(2), udora(2), upper-lupya(2), upper-sysola(2), upper-vychegda(2), v-rmland-savonian(2), vadey(2), vishera(2), vym(2), western-estonian(2), western-mansi(2), western-uusimaa(2), yoshkar-olin(2), yurats(2)
 
 ### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
 
@@ -1572,7 +1578,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 30
+  - `Nonunique Bases:` 29
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 28
@@ -1610,7 +1616,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 2
   - `ambiguous:` 0
-  - `Nonunique Bases:` 65
+  - `Nonunique Bases:` 64
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 69
@@ -1650,7 +1656,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 96
+  - `Nonunique Bases:` 95
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 106
   - `clustered bases:` 1
@@ -1687,7 +1693,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 33
+  - `Nonunique Bases:` 32
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 32
@@ -2058,7 +2064,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 77
   - `ambiguous:` 0
-  - `Nonunique Bases:` 79
+  - `Nonunique Bases:` 78
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 2
   - `clustered bases:` 0
