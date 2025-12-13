@@ -95,7 +95,9 @@ function isFamilyEntry(entry) {
 }
 
 function main() {
-  const {includeFamilies, onlyFailures, onlyIsos, limit, help} = parseArgs(process.argv);
+  const parsed = parseArgs(process.argv);
+  const {includeFamilies, onlyFailures, limit, help} = parsed;
+  const onlyIsos = parsed.onlyIsos || [];
   if (help) {
     printUsage();
     return;

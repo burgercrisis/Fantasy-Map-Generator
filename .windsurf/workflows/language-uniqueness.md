@@ -3,9 +3,64 @@ description: Makes languages unique 1
 auto_execution_mode: 1
 ---
 
-Use these helper tools to find languages whose bases are not unique.  We want every language to have a unique base reflective of its own linguistics. Continue to implement these desires using these tools until it is done for all. You will be Worker 1, so run the test before every task and consider the 1st group of 10 languages presenting issues to be the ones you will work on that session, then do it again next session which will begin when I tell you "continue".
+Use this workflow to burn down **language mixer uniqueness debt** for already-present languages.
 
-Only use this workflow **after** the Wikipedia full-list pipeline (steps 1–6 in `DEVplans/Languages-Status.md` §8) is complete for the current project state (helpers normalized to full lists, devplan snapshots updated, seed/subset artifacts removed, and lists wired into catalog/map). Do not change coverage status for Wikipedia lists here; focus strictly on making existing mapped languages' `bases[]` globally unique in line with those devplans.
+This is the Worker 1 workflow: run the report at the start of each session, take a small batch (default **10** affected ISOs), fix them end-to-end, then stop. When the user says `continue`, repeat.
 
-node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...] [--include-families]
-node tools/check-language-mixer-map-inconsistencies.js [--family=...] [--category=...] [--region=...] [--base=IDX[,IDX...]] [--show-all-bases]
+# Non-negotiable invariants
+
+- Must preserve append-only registry; never delete ISOs from:
+  - `config/language-mixes.json`
+  - `config/language-mixer-map.json`
+- Do not “solve” uniqueness debt by removing entries or converting them into family macros.
+
+# Scope and posture
+
+- This workflow is about **uniqueness** (no identical `bases[]` set collisions, and ideally each non-family ISO has at least one globally-unique base index).
+- Do not change Wikipedia list **coverage** status here. If you are working a specific Wikipedia list, use the `/wikipedia*` workflows.
+
+# Required tools
+
+- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...] [--include-families]`
+- `pnpm exec node tools/check-language-mixer-map-inconsistencies.js [--family=...] [--category=...] [--region=...] [--base=IDX[,IDX...]] [--show-all-bases]`
+- `pnpm exec node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
+- `pnpm exec node tools/mixer-core/run-language-mixer-suite.js`
+
+Optional (recommended when doing dedicated-base anchor work):
+
+- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+
+# Session loop
+
+## 1) Find a target batch
+
+1. Run the base-cluster report:
+
+   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families`
+
+2. Pick the next small batch (default **10** non-sentinel / non-`skip: true` languages) contributing to collisions.
+
+## 2) Fix the batch
+
+For each ISO in the batch:
+
+- Make its effective `bases[]` set **globally unique** (overlaps are fine, identical arrays are not).
+- Prefer resolving uniqueness via **dedicated bases** when needed (append-only in `modules/namebases-real.js`), but small plausible mix adjustments are also acceptable.
+
+## 3) Required verification
+
+Run:
+
+- `pnpm exec node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
+- `pnpm exec node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`
+- `pnpm exec node tools/mixer-core/run-language-mixer-suite.js`
+
+Re-run the base-cluster report to confirm the targeted collisions are gone:
+
+- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families`
+
+## 4) Optional unique-base anchor verification
+
+If your batch work included adding a dedicated base index to satisfy the “each language has an anchor base unique to it” goal, re-run:
+
+- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`

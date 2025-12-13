@@ -51,6 +51,27 @@
       "status": "in_progress",
       "startedAt": "2025-12-13T00:45:00Z",
       "note": "Claimed for next coverage + uniqueness + race pass"
+    },
+    {
+      "workerId": 32,
+      "target": "tools/mixer-meta/wikipedia-uralic-languages-full.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T14:55:00Z"
+    },
+    {
+      "workerId": 34,
+      "target": "tools/mixer-meta/wikipedia-languages-of-southeast-asia.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T15:02:00Z"
+    },
+    {
+      "workerId": 33,
+      "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T14:59:00Z"
     }
   ]
 }

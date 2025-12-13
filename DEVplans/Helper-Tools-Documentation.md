@@ -27,3 +27,14 @@ description: Status tracking for helper-tool documentation coverage
 
 - Added a reusable multi-agent workflow:
   - `.windsurf/workflows/wikipedia-exhaustive-multiagent.md`
+
+## Status (2025-12-13)
+
+- Updated workflow documentation to align with `DEVplans/Language-Mixer-Rules.md`:
+  - `wikipedia-exhaustive-multiagent.md`: explicitly requires clearing `NO_UNIQ_BASE` (unique base anchor) in addition to base-set uniqueness.
+  - `wikipedia1.md`: added required safety checks (`check-language-mixer-map-duplicate-isos.js`, `check-language-mixer-map-inconsistencies.js`).
+  - `decluster-language-bases.md`: tightened identical `bases[]` sharing exceptions to alias-of-same-language or `skip: true` classification rows only.
+  - Regional `wikipedia-*.md` wrappers: added explicit append-only reminder.
+  - `no-unique-base-debt-multiagent.md`: added base-cluster collision check + clarified suite regenerates bundles.
+  - `no-unique-base2.md`: expanded into a reusable verification + handoff checklist.
+  - `language-uniqueness.md`: expanded into a full uniqueness workflow (append-only, required checks, suite regen).

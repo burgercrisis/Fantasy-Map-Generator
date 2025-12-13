@@ -275,6 +275,10 @@ window.realWorldNameBases = [
       {name: "Cotentinais", i: 611, min: 4, max: 11, d: "lnrt", m: 0, b: "Cherbourg-en-Cotentin,Valognes,Barneville-Carteret,Les Pieux,La Haye,Carentan-les-Marais,Saint-Vaast-la-Hougue,Bricquebec,Portbail,Quettehou,La Pernelle,Montebourg"},
       {name: "Auregnais", i: 612, min: 4, max: 11, d: "lnrt", m: 0, b: "St Anne,Aurigny,Braye Harbour,Longis Bay,Saye Bay,Platte Saline,Fort Clonque,Fort Albert,Fort Tourgis,Mannez,Esplanade,Le Val"},
       {name: "Guernésiais", i: 613, min: 4, max: 11, d: "lnrt", m: 0, b: "St Peter Port,St Sampson,Castel,St Martin,St Andrew,Forest,St Saviour,Torteval,Vale,Lancresse,Jerbourg,Pleinmont"},
+      {name: "Jèrriais", i: 614, min: 4, max: 11, d: "lnrt", m: 0, b: "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbière,La Hougue Bie,Grève de Lecq"},
+      {name: "Jersey Legal French", i: 615, min: 4, max: 11, d: "lnrt", m: 0, b: "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrêt,Juridiction,Bailliage,Paroisse,États"},
+      {name: "Adeni Arabic", i: 616, min: 4, max: 11, d: "lnrt", m: 0, b: "Aden,Crater,Tawahi,Maalla,Khormaksar,Mansoura,Sheikh Othman,Lahij,Zinjibar,Shuqra,Mukalla,Al Hudaydah"},
+      {name: "Aleppine Arabic", i: 617, min: 4, max: 11, d: "lnrt", m: 0, b: "Aleppo,Al-Bab,Azaz,Manbij,Jarabulus,Idlib,Ariha,Jisr ash-Shughur,Hama,Homs,Latakia,Tartus"},
       {name: "Algerian Arabic", i: 618, min: 4, max: 11, d: "lnrt", m: 0, b: "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou"},
       {name: "Algerian Saharan Arabic", i: 619, min: 4, max: 11, d: "lnrt", m: 0, b: "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun"},
 
@@ -297,8 +301,38 @@ window.realWorldNameBases = [
       {name: "Central Metafonetica", i: 641, min: 4, max: 11, d: "lnrt", m: 0, b: "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca"},
       {name: "Central-Southern Calabrian", i: 642, min: 4, max: 11, d: "lnrt", m: 0, b: "Catanzaro,Lamezia Terme,Vibo Valentia,Nicotera,Tropea,Pizzo,Soverato,Chiaravalle Centrale,Serra San Bruno,Soriano Calabro,Mileto,Squillace"},
       {name: "Canadian French", i: 650, min: 4, max: 11, d: "lnrt", m: 0, b: "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"},
-
+      {name: "Amami", i: 655, min: 4, max: 11, d: "lnrt", m: 0, b: "Amami-Naze,Amami-Kasari,Amami-Tatsugo,Amami-Yuwan,Amami-Sumiyo,Amami-Koniya,Amami-Setouchi,Amami-Uken,Amami-Yamato,Amami-Akina,Amami-Kominato,Amami-Amami"},
+      {name: "Kikai", i: 656, min: 4, max: 11, d: "lnrt", m: 0, b: "Kikai-Wan,Kikai-Kasari,Kikai-Yonama,Kikai-Araki,Kikai-Aden,Kikai-Shitooke,Kikai-Nakadomari,Kikai-Akaren,Kikai-Shimamura,Kikai-Shioya,Kikai-Tean,Kikai-Kikai"},
+      {name: "Kunigami", i: 657, min: 4, max: 11, d: "lnrt", m: 0, b: "Kunigami-Nago,Kunigami-Nakijin,Kunigami-Ogimi,Kunigami-Higashi,Kunigami-Kunigamison,Kunigami-Motobu,Kunigami-Ginoza,Kunigami-Onna,Kunigami-Yomitan,Kunigami-Gusuku,Kunigami-Nakagusuku,Kunigami-Kunigami"},
+      {name: "Okinawan", i: 658, min: 4, max: 11, d: "lnrt", m: 0, b: "Okinawa-Naha,Okinawa-Shuri,Okinawa-Urasoe,Okinawa-Itoman,Okinawa-Tomigusuku,Okinawa-Ginowan,Okinawa-OkinawaCity,Okinawa-Uruma,Okinawa-Nago,Okinawa-Chatan,Okinawa-Yomitan,Okinawa-Nakagusuku"},
       {name: "Butler English", i: 665, min: 4, max: 11, d: "lnrt", m: 0, b: "butlerenglishmemsahib,butlerenglishkhansamah,butlerenglishtiffinwallah,butlerenglishdakbungalow,butlerenglishpukka,butlerenglishburra,butlerenglishnautch,butlerenglishayah,butlerenglishshikari,butlerenglishwallah,butlerenglishghat,butlerenglishraj"},
       {name: "Kru Pidgin English", i: 666, min: 4, max: 11, d: "lnrt", m: 0, b: "krupidginpalaver,krupidginsmallsmall,krupidginplentybook,krupidginpeppersoup,krupidgincassava,krupidgingbagba,krupidginkpalongo,krupidginsenesi,krupidginnyenbo,krupidginjojo,krupidginbush,krupidginmarket"},
-      {name: "Liberian Interior Pidgin English", i: 667, min: 4, max: 11, d: "lnrt", m: 0, b: "libintpidginhowfar,libintpidginmypeople,libintpidginleh,libintpidginweh,libintpidginbookman,libintpidginbrushmouth,libintpidginheartman,libintpidginyaanbo,libintpidginkpokpo,libintpidginnyenbo,libintpidginpeople,libintpidgintown"}
+      {name: "Liberian Interior Pidgin English", i: 667, min: 4, max: 11, d: "lnrt", m: 0, b: "libintpidginhowfar,libintpidginmypeople,libintpidginleh,libintpidginweh,libintpidginbookman,libintpidginbrushmouth,libintpidginheartman,libintpidginyaanbo,libintpidginkpokpo,libintpidginnyenbo,libintpidginpeople,libintpidgintown"},
+
+      {name: "Abaza", i: 668, min: 4, max: 11, d: "lnrt", m: 0, b: "Abaza,Cherkessk,Karachay,Cherkessia,Elbrus,Teberda,Dombay,Khasaut,Khabez,Ust-Dzheguta,Zelenchuk,Arkhyz"},
+      {name: "Abkhaz", i: 669, min: 4, max: 11, d: "lnrt", m: 0, b: "Sukhumi,Gagra,Gudauta,Pitsunda,Ochamchira,Tkvarcheli,Gal,New Athos,Bzyb,Apsny,Lykhny,Kodor"},
+      {name: "Adyghe", i: 670, min: 4, max: 11, d: "lnrt", m: 0, b: "Maykop,Adygeya,Enem,Tulsky,Khanskaya,Koshekhabl,Giaginskaya,Shovgenovsky,Teuchezhsky,Psebay,Laba,Afips"},
+      {name: "Bzyb", i: 671, min: 4, max: 11, d: "lnrt", m: 0, b: "Bzyb,Bzypta,Pitsunda,Gagra,Gudauta,Ritsa,Ldzaa,Alakhadzi,Gegsky,Geg,Psyrtskha,Kodori"},
+      {name: "Aghul", i: 672, min: 4, max: 11, d: "lnrt", m: 0, b: "Tpig,Richa,Fite,Khudig,Keren,Chirag,Akhty,Rutul,Kasumkent,Derbent,Tabasaran,Kurakh"},
+
+      {name: "Kikai", i: 673, min: 4, max: 11, d: "lnrt", m: 0, b: "Kikai,Kikaijima,Onotsu,Kadon,Sateku,Somachi,Shitooke,Kadeku,ArakiKikai,WanKikai,Kawamine,ShioyaKikai"},
+      {name: "Kunigami", i: 674, min: 4, max: 11, d: "lnrt", m: 0, b: "Kunigami,Hentona,Ogimi,Higashi,Yambaru,Kijoka,Aha,OkuOkinawa,Teima,Benoki,Gakiya,Yona"},
+      {name: "Central Catalan", i: 675, min: 4, max: 11, d: "lnrt", m: 0, b: "Sant Cugat del Valles,Santa Coloma de Gramenet,Sant Feliu de Llobregat,Sant Joan Despi,Esplugues de Llobregat,Cornella de Llobregat,Castelldefels,Sitges,Vilanova i la Geltru,Manresa,Igualada,Vic"},
+
+      {name: "Anatolian Arabic", i: 676, min: 4, max: 11, d: "lnrt", m: 0, b: "Mersin,Adana,Hatay,Gaziantep,Kilis,Sanliurfa,Antakya,Iskenderun,Tarsus,Osmaniye,Kahramanmaras,Diyarbakir"},
+      {name: "Andalusi Arabic", i: 677, min: 4, max: 11, d: "lnrt", m: 0, b: "Cordoba,Sevilla,Granada,Malaga,Almeria,Cadiz,Huelva,Jaen,Alhambra,Medina,Alcazar,Alpujarras"},
+      {name: "Baghdadi Arabic", i: 678, min: 4, max: 11, d: "lnrt", m: 0, b: "Baghdad,Kadhimiya,Adhamiya,Sadr City,Karkh,Rusafa,Basra,Najaf,Karbala,Hilla,Wasit,Diyala"},
+      {name: "Bahraini Gulf Arabic", i: 679, min: 4, max: 11, d: "lnrt", m: 0, b: "Manama,Muharraq,Riffa,Isa Town,Hamad Town,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,A'ali"},
+      {name: "Bakhtiari Arabic", i: 680, min: 4, max: 11, d: "lnrt", m: 0, b: "Ahvaz,Masjed Soleyman,Izeh,Shushtar,Dezful,Andimeshk,Lali,Gotvand,Khorramshahr,Abadan,Behbahan,Ramhormoz"},
+      {name: "Bukharian Arabic", i: 681, min: 4, max: 11, d: "lnrt", m: 0, b: "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh"},
+
+      {name: "Cairene Arabic", i: 682, min: 4, max: 11, d: "lnrt", m: 0, b: "cairenearabic_cairo,cairenearabic_giza,cairenearabic_helwan,cairenearabic_shubra,cairenearabic_maadi,cairenearabic_nascity,cairenearabic_imbaba,cairenearabic_oldcairo,cairenearabic_abbassia,cairenearabic_zamalek,cairenearabic_elmarg,cairenearabic_elmatariya"},
+      {name: "Central Asian Arabic", i: 683, min: 4, max: 11, d: "lnrt", m: 0, b: "centralasianarabic_bukhara,centralasianarabic_samarkand,centralasianarabic_kattakurgan,centralasianarabic_karshi,centralasianarabic_termez,centralasianarabic_dushanbe,centralasianarabic_khujand,centralasianarabic_panjakent,centralasianarabic_shahrisabz,centralasianarabic_navoi,centralasianarabic_tashkent,centralasianarabic_balkh"},
+
+      {name: "Ainu", i: 684, min: 4, max: 11, d: "lnrt", m: 0, b: "Sapporo,Asahikawa,Obihiro,Kushiro,Abashiri,Wakkanai,Nemuro,Shiraoi,Nibutani,Akan,Mukawa,Chitose"},
+      {name: "Hachijo", i: 685, min: 4, max: 11, d: "lnrt", m: 0, b: "Hachijo,Hachijojima,Okago,Mitsune,Nakanogo,Kashitate,Sueyoshi,Aogashima,Torishima,Mikurajima,Oshima,Miyakejima"},
+      {name: "Japanese dialects", i: 686, min: 4, max: 11, d: "lnrt", m: 0, b: "Tohoku,Kansai,Kanto,Kyushu,Shikoku,Chugoku,Hokkaido,Okinawa,Tohoku-ben,Kansai-ben,Kagoshima-ben,Hakata-ben"},
+      {name: "Japanese", i: 687, min: 4, max: 11, d: "lnrt", m: 0, b: "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Sapporo,Fukuoka,Kobe,Hiroshima,Sendai,Kagoshima,Naha"},
+      {name: "Japanese macro", i: 688, min: 4, max: 11, d: "lnrt", m: 0, b: "Nippon,Honshu,Hokkaido,Kyushu,Shikoku,Okinawa,Tohoku,Kansai,Kanto,Chubu,Chugoku,Shinetsu"},
+      {name: "Ryukyuan", i: 689, min: 4, max: 11, d: "lnrt", m: 0, b: "Ryukyu,Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami"}
     ];

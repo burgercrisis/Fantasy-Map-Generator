@@ -56,11 +56,19 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Ryukyuan/Japonic batch):** added dedicated bases `655`, `673`, `674`, `658` for `amami`, `kikai`, `kunigami`, `okinawan` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness "--only=amami,kikai,kunigami,okinawan"` that all now report `uniqBase` + `strictOK` + `normOK`.
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / Italy dialects):** added dedicated bases `567–571` for `bustocco-legnanese`, `cadorino`, `calabro`, `campano`, `campidanese` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (all `strictOK`; `campano`/`campidanese` still `norm<10`).
 
 
 
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Iberian / Romance dialects):** ensured dedicated bases for `canarian`, `cantabrian`, `cast-o`, `castrapo`, `cat` by wiring `canarian` to existing base `572` and adding new dedicated bases `582–585` (Catalan/Cantabrian/Castúo/Castrapo), then appending them in `config/language-mixer-map.json`. Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that none of these ISOs appear in `--only-failures`.
+
+
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / worker10 slice):** added dedicated bases `635–642` and `650` for `aragonese`, `central-aragonese`, `castilian`, `castelmezzano`, `central-italian`, `central-marchigiano`, `central-metafonetica`, `central-southern-calabrian`, `canadian-french` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures --only-isos=aragonese,central-aragonese,castilian,castelmezzano,central-italian,central-marchigiano,central-metafonetica,central-southern-calabrian,canadian-french --limit=50` that each reports `uniqBase`.
 
 
 
@@ -81,6 +89,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South America batch):** added dedicated bases `625–629` for `cas`, `cav`, `caw`, `cax`, `cag` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + seed-uniqueness report that none appear under `NO_UNIQ_BASE`.
+
+
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (English-based pidgins):** added dedicated bases `665–667` for `butler-english`, `kru-pidgin-english`, `liberian-interior-pidgin-english` (and appended them in `config/language-mixer-map.json`). Verified via `report-language-mixer-seed-uniqueness "--only=butler-english,kru-pidgin-english,liberian-interior-pidgin-english" --only-failures --limit=50` that all now report `uniqBase` (`strictOK`, `normOK`).
+
+
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance worker10 batch):** ensured each ISO has a dedicated globally-unique base index. Dedicated bases are: `aragonese->635`, `central-aragonese->636`, `castilian->637`, `castelmezzano->638`, `central-italian->639`, `central-marchigiano->640`, `central-metafonetica->641`, `central-southern-calabrian->642`, `canadian-french->650`, and `central-catalan->675` (all appended in `config/language-mixer-map.json`; bases defined in `modules/namebases-real.js`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness "--only=aragonese,central-aragonese,castilian,castelmezzano,central-catalan,central-italian,central-marchigiano,central-metafonetica,central-southern-calabrian,canadian-french" --limit=80` that all report `uniqBase` (`strictOK`; `norm<10` tracked debt for `aragonese`, `castilian`, `central-southern-calabrian`).
 
 
 
@@ -1314,14 +1330,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 168
+  - `Nonunique Bases:` 166
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 160
   - `clustered bases:` 16
   - `clustered full items:` 16
   - `cluster size histogram:` size2=11, size3=1, size4+=4
-  - `clustered isos:` egyptian-arabic(34), eastern-mari(23), komi-zyryan(23), hin(4), guarani(3), aranese(2), arpitan(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), gujarati(2), ladin-lang(2), maithili(2), nah(2), nenets(2), northern-sami(2)
+  - `clustered isos:` egyptian-arabic(30), eastern-mari(23), komi-zyryan(23), hin(4), guarani(3), aranese(2), arpitan(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), gujarati(2), ladin-lang(2), maithili(2), nah(2), nenets(2), northern-sami(2)
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -1480,14 +1496,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 155
+  - `Nonunique Bases:` 150
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 127
-  - `clustered bases:` 41
-  - `clustered full items:` 41
-  - `cluster size histogram:` size2=7, size3=4, size4+=30
-  - `clustered isos:` agx(24), akv(24), ani(24), ava(24), bph(24), cji(24), ddo(24), gdo(24), gin(24), huz(24), kap(24), khv(24), kpt(24), kva(24), lbe(24), rut(24), tin(24), ugh(24), xdq(24), ingrian(23), komi-zyryan(23), kven(23), livonian(23), ludic(23), me-nkieli(23), v-ro(23), veps(23), votic(23), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), romagnol(3), abkhaz(2), adyghe(2), arpitan(2), bavarian(2), cim(2), nenets(2), northern-sami(2)
+  - `unique bases:` 130
+  - `clustered bases:` 38
+  - `clustered full items:` 38
+  - `cluster size histogram:` size2=5, size3=4, size4+=29
+  - `clustered isos:` akv(23), ani(23), ava(23), bph(23), cji(23), ddo(23), gdo(23), gin(23), huz(23), ingrian(23), kap(23), khv(23), komi-zyryan(23), kpt(23), kva(23), kven(23), lbe(23), livonian(23), ludic(23), me-nkieli(23), rut(23), tin(23), ugh(23), v-ro(23), veps(23), votic(23), xdq(23), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), romagnol(3), arpitan(2), bavarian(2), cim(2), nenets(2), northern-sami(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
@@ -1605,14 +1621,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 89
+  - `Nonunique Bases:` 88
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 84
-  - `clustered bases:` 13
-  - `clustered full items:` 13
-  - `cluster size histogram:` size2=10, size3=1, size4+=2
-  - `clustered isos:` okinawan(6), hin(4), dzongkha(3), balti(2), bikol(2), chhattisgarhi(2), chin(2), gujarati(2), kapampangan(2), maithili(2), mnw(2), tibetan(2), yakut(2)
+  - `unique bases:` 85
+  - `clustered bases:` 12
+  - `clustered full items:` 12
+  - `cluster size histogram:` size2=10, size3=1, size4+=1
+  - `clustered isos:` hin(4), dzongkha(3), balti(2), bikol(2), chhattisgarhi(2), chin(2), gujarati(2), kapampangan(2), maithili(2), mnw(2), tibetan(2), yakut(2)
 
 ### 8.12 East Asian languages – classification proposals (macro helper)
 
@@ -1984,7 +2000,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 29
+  - `Nonunique Bases:` 26
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 28
