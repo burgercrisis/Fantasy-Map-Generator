@@ -4559,6 +4559,14 @@
     "family": "Indo-Aryan"
   },
   {
+    "name": "Ahirani",
+    "iso": "ahr",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ahirani_language"
+  },
+  {
     "name": "Ahom",
     "iso": "ahom",
     "region": "Asia",
@@ -4777,6 +4785,14 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Bagheli",
+    "iso": "bfy",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Eastern Hindi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bagheli_language"
   },
   {
     "name": "Bagri",
@@ -5090,6 +5106,14 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Bhili",
+    "iso": "bhb",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bhil",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bhb"
   },
   {
     "name": "Bhojpuri",
@@ -5666,6 +5690,14 @@
     "family": "West Himalayish"
   },
   {
+    "name": "Dhundari",
+    "iso": "dhd",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Rajasthani",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dhundhari_language"
+  },
+  {
     "name": "Dili Malay",
     "iso": "dili-malay",
     "region": "Asia",
@@ -5675,6 +5707,14 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Dimasa",
+    "iso": "dis",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Boro-Garo",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:dis"
   },
   {
     "name": "Diu",
@@ -6038,6 +6078,22 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Bahnaric"
+  },
+  {
+    "name": "Halbi",
+    "iso": "hlb",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hlb"
+  },
+  {
+    "name": "Harauti",
+    "iso": "hoj",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Rajasthani",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harauti_language"
   },
   {
     "name": "Haryanvi",
@@ -6500,6 +6556,14 @@
     "family": "Shirongolic"
   },
   {
+    "name": "Kangri",
+    "iso": "xnr",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Western Pahari",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xnr"
+  },
+  {
     "name": "Kanikkaran",
     "iso": "kanikkaran",
     "region": "Asia",
@@ -6757,6 +6821,14 @@
     "family": "Mongolic"
   },
   {
+    "name": "Khortha",
+    "iso": "khortha",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Bihari",
+    "wikipedia": "https://en.wikipedia.org/wiki/Khortha_language"
+  },
+  {
     "iso": "khoton",
     "name": "Khoton",
     "region": "Asia",
@@ -6797,6 +6869,17 @@
     "region": "Asia",
     "category": "Tungusic",
     "family": "Ewenic"
+  },
+  {
+    "name": "Kisan (Kurukh dialect)",
+    "iso": "xis",
+    "region": "Asia",
+    "category": "Dravidian",
+    "family": "North Dravidian",
+    "tags": [
+      "dialect"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xis"
   },
   {
     "name": "Koch",
@@ -7130,6 +7213,14 @@
     "family": "Kam-Sui"
   },
   {
+    "name": "Lambadi",
+    "iso": "lmn",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:lmn"
+  },
+  {
     "name": "Lao",
     "iso": "lao",
     "region": "Asia",
@@ -7389,6 +7480,14 @@
     "family": "North Dravidian"
   },
   {
+    "name": "Malvi",
+    "iso": "mup",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Rajasthani",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mup"
+  },
+  {
     "name": "Man Met (Kemie)",
     "iso": "kfj",
     "region": "Asia",
@@ -7537,6 +7636,14 @@
     "region": "Asia",
     "category": "Sino-Tibetan",
     "family": "Kiranti"
+  },
+  {
+    "name": "Mewari",
+    "iso": "mtr",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Rajasthani",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mtr"
   },
   {
     "name": "Mewati",
@@ -7822,6 +7929,14 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Nimadi",
+    "iso": "noe",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nimadi_language"
   },
   {
     "name": "Noakhailla",
@@ -8472,6 +8587,14 @@
     "family": "Bahnaric"
   },
   {
+    "name": "Rabha",
+    "iso": "rah",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Boro-Garo",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:rah"
+  },
+  {
     "name": "Rajasthani",
     "iso": "rajasthani",
     "region": "Asia",
@@ -8613,6 +8736,14 @@
       "extinct",
       "dialect"
     ]
+  },
+  {
+    "name": "Sambalpuri",
+    "iso": "spv",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Eastern Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sambalpuri_language"
   },
   {
     "name": "Sampang",
@@ -9053,6 +9184,22 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Pearic"
+  },
+  {
+    "name": "Surgujia",
+    "iso": "sgj",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:sgj"
+  },
+  {
+    "name": "Surjapuri",
+    "iso": "sjp",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Eastern Indo-Aryan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Surjapuri_language"
   },
   {
     "name": "Sylheti",
@@ -9665,6 +9812,14 @@
     "family": "Indo-Aryan"
   },
   {
+    "name": "Wagdi",
+    "iso": "wbr",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Rajasthani",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wagdi_language"
+  },
+  {
     "name": "Walungge",
     "iso": "ola",
     "region": "Asia",
@@ -9712,6 +9867,17 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Khmeric"
+  },
+  {
+    "name": "Western Pahari languages",
+    "iso": "him",
+    "region": "Asia",
+    "category": "Indo-Aryan",
+    "family": "Indo-Aryan",
+    "tags": [
+      "family"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Western_Pahari_languages"
   },
   {
     "name": "Xibe",
@@ -17418,6 +17584,14 @@
     "family": "Mayan"
   },
   {
+    "name": "Ixcatec",
+    "iso": "ixc",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ixcatec_language"
+  },
+  {
     "name": "Ixil",
     "iso": "ixl",
     "region": "Mesoamerica",
@@ -20185,6 +20359,14 @@
     "lexifier": "English"
   },
   {
+    "name": "Gwichʼin",
+    "iso": "gwi",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gwich%CA%BCin_language"
+  },
+  {
     "name": "Haida",
     "iso": "haida",
     "region": "North America",
@@ -20193,12 +20375,36 @@
     "family": "Language isolate"
   },
   {
+    "name": "Hän",
+    "iso": "haa",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/H%C3%A4n_language"
+  },
+  {
+    "name": "Holikachuk",
+    "iso": "hoi",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holikachuk_language"
+  },
+  {
     "name": "Hopi",
     "iso": "hopi",
     "region": "North America",
     "category": "Uto-Aztecan",
     "wikipedia": "https://en.wikipedia.org/wiki/Hopi_language",
     "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Huarijio",
+    "iso": "var",
+    "region": "North America",
+    "category": "Uto-Aztecan",
+    "family": "Uto-Aztecan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Huarijio_language"
   },
   {
     "name": "Huichol",
@@ -20246,6 +20452,14 @@
     "category": "Kiowa–Tanoan",
     "family": "Kiowa–Tanoan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kiowa_language"
+  },
+  {
+    "name": "Koyukon",
+    "iso": "koy",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Koyukon_language"
   },
   {
     "name": "Kumeyaay",
@@ -20666,6 +20880,14 @@
     ]
   },
   {
+    "name": "Amis",
+    "iso": "ami",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amis_language"
+  },
+  {
     "name": "Aneme Wake",
     "iso": "aneme-wake",
     "region": "Pacific",
@@ -20742,6 +20964,14 @@
     "family": "Trans–New Guinea"
   },
   {
+    "name": "Atayal",
+    "iso": "tay",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atayal_language"
+  },
+  {
     "name": "Atohwaim (Kaugat)",
     "iso": "atohwaim-kaugat",
     "region": "Pacific",
@@ -20815,6 +21045,14 @@
     ]
   },
   {
+    "name": "Babuza",
+    "iso": "bzg",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Babuza_language"
+  },
+  {
     "name": "Baham",
     "iso": "baham",
     "region": "Pacific",
@@ -20882,6 +21120,14 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Basay",
+    "iso": "byq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basay_language"
   },
   {
     "name": "Batanic",
@@ -21943,6 +22189,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Kanak_languages"
   },
   {
+    "name": "Kanakanavu",
+    "iso": "xnb",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kanakanavu_language"
+  },
+  {
     "name": "Kanasi",
     "iso": "kanasi",
     "region": "Pacific",
@@ -21976,6 +22230,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Bosavi"
+  },
+  {
+    "name": "Kavalan",
+    "iso": "ckv",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kavalan_language"
   },
   {
     "name": "Kawacha",
@@ -22042,6 +22304,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Kiwaian"
+  },
+  {
+    "name": "Ketagalan",
+    "iso": "kae",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luilang_language"
   },
   {
     "name": "Kewa",
@@ -22198,6 +22468,18 @@
     "family": "Austronesian"
   },
   {
+    "name": "Kriol",
+    "iso": "rop",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kriol_language",
+    "tags": [
+      "creole"
+    ],
+    "lexifier": "English"
+  },
+  {
     "name": "Kubo",
     "iso": "kubo",
     "region": "Pacific",
@@ -22217,6 +22499,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Alor–Pantar"
+  },
+  {
+    "name": "Kulon",
+    "iso": "uon",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kulon_language"
   },
   {
     "name": "Kuman",
@@ -22964,6 +23254,14 @@
     "family": "Trans–New Guinea"
   },
   {
+    "name": "Papora-Hoanya",
+    "iso": "ppu",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Papora%E2%80%93Hoanya_language"
+  },
+  {
     "name": "Papuan family",
     "iso": "papuan-family",
     "region": "Pacific",
@@ -22979,6 +23277,14 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Pazeh",
+    "iso": "pzh",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pazeh_language"
   },
   {
     "name": "Philippine",
@@ -23134,6 +23440,22 @@
     "family": "Angan"
   },
   {
+    "name": "Saisiyat",
+    "iso": "xsy",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saisiyat_language"
+  },
+  {
+    "name": "Sakizaya",
+    "iso": "szy",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sakizaya_language"
+  },
+  {
     "name": "Salt-Yui",
     "iso": "salt-yui",
     "region": "Pacific",
@@ -23196,6 +23518,14 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Seediq",
+    "iso": "trv",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seediq_language"
   },
   {
     "name": "Seko-Badaic",
@@ -23277,6 +23607,14 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Siraya",
+    "iso": "fos",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siraya_language"
   },
   {
     "name": "Somahai",
@@ -23600,6 +23938,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Greater Awyu"
+  },
+  {
+    "name": "Tsou",
+    "iso": "tsu",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsou_language"
   },
   {
     "name": "Tsouic",
@@ -24137,6 +24483,14 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Burmish"
+  },
+  {
+    "name": "Adi",
+    "iso": "adi",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Tani",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adi_language"
   },
   {
     "name": "Angami Pochuri",
@@ -24677,6 +25031,14 @@
     "family": "Sino-Tibetan"
   },
   {
+    "name": "Lotha",
+    "iso": "njh",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Naga",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:njh"
+  },
+  {
     "name": "Macro Bai",
     "iso": "macro-bai",
     "region": "Sino-Tibetan region",
@@ -24752,6 +25114,14 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Mising",
+    "iso": "mrg",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Tani",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mrg"
   },
   {
     "name": "Mondzish",
@@ -24832,6 +25202,14 @@
     "family": "Sino-Tibetan"
   },
   {
+    "name": "Nishi",
+    "iso": "dap",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Tani",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:dap"
+  },
+  {
     "name": "Northern Qiang",
     "iso": "northern-qiang",
     "region": "Sino-Tibetan region",
@@ -24873,6 +25251,14 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Phom",
+    "iso": "nph",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Naga",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:nph"
   },
   {
     "name": "Pinghua",
@@ -25078,6 +25464,14 @@
     "family": "Qiangic"
   },
   {
+    "name": "Sümi",
+    "iso": "nsm",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Naga",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:nsm"
+  },
+  {
     "name": "Taman",
     "iso": "taman",
     "region": "Sino-Tibetan region",
@@ -25104,6 +25498,14 @@
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
     "family": "Sino-Tibetan"
+  },
+  {
+    "name": "Thadou",
+    "iso": "tcz",
+    "region": "Sino-Tibetan region",
+    "category": "Sino-Tibetan",
+    "family": "Kuki-Chin",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tcz"
   },
   {
     "name": "Tibetic",
@@ -25465,6 +25867,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cof%C3%A1n_language"
   },
   {
+    "name": "Cogui",
+    "iso": "kog",
+    "region": "South America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cogui_language"
+  },
+  {
     "name": "Colombian Spanish",
     "iso": "colombian-spanish",
     "region": "South America",
@@ -25600,6 +26010,30 @@
     "family": "Araucanian"
   },
   {
+    "name": "Hupdë",
+    "iso": "jup",
+    "region": "South America",
+    "category": "Nadahup",
+    "family": "Nadahup",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hup_language"
+  },
+  {
+    "name": "Itene",
+    "iso": "ite",
+    "region": "South America",
+    "category": "Chapacuran",
+    "family": "Chapacuran",
+    "wikipedia": "https://en.wikipedia.org/wiki/Itene_language"
+  },
+  {
+    "name": "Itonama",
+    "iso": "ito",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Itonama isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Itonama_language"
+  },
+  {
     "name": "Ka'apor",
     "iso": "urb",
     "region": "South America",
@@ -25630,6 +26064,14 @@
     "category": "Nadahup",
     "family": "Nadahup",
     "wikipedia": "https://en.wikipedia.org/wiki/Kakwa_language"
+  },
+  {
+    "name": "Kallawaya",
+    "iso": "caw",
+    "region": "South America",
+    "category": "Mixed language",
+    "family": "Mixed language",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kallawaya_language"
   },
   {
     "name": "Kanamari",
@@ -25680,6 +26122,14 @@
     "family": "Quechuan"
   },
   {
+    "name": "Koreguaje",
+    "iso": "coe",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Koreguaje_language"
+  },
+  {
     "name": "Kulina",
     "iso": "cul",
     "region": "South America",
@@ -25704,6 +26154,14 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Leco",
+    "iso": "lec",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Leco isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leco_language"
   },
   {
     "name": "Macuna",
@@ -25919,6 +26377,14 @@
     "category": "Ticuna–Yuri",
     "wikipedia": "https://en.wikipedia.org/wiki/Ticuna_language",
     "family": "Ticuna–Yuri"
+  },
+  {
+    "name": "Toba",
+    "iso": "tob",
+    "region": "South America",
+    "category": "Guaicuruan",
+    "family": "Guaicuruan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toba_Qom_language"
   },
   {
     "name": "Tsimané",
