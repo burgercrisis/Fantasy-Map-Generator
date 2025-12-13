@@ -43,9 +43,10 @@
       "workerId": 12,
       "target": "tools/mixer-meta/wikipedia-languages-of-india-census.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "stalled",
+      "status": "complete",
       "startedAt": "2025-12-12T05:12:00Z",
-      "note": "Needs manual edit: add iso bindings for Haryanvi(bgc), Marwari(wry), Garhwali(gbm), Kumauni(kfy), Chakma(ccp), Ladakhi(lbj), Korku(kfq), Savara(srb) in tools/mixer-meta/wikipedia-languages-of-india-census.json"
+      "finishedAt": "2025-12-13T16:15:00Z",
+      "note": "Resolved: list is now fully wired"
     },
     {
       "workerId": 13,
@@ -158,6 +159,52 @@
       "scope": "uniqueness_hausa_hub_micro",
       "status": "in_progress",
       "startedAt": "2025-12-12T16:35:00Z"
+    },
+    {
+      "workerId": 26,
+      "target": "tools/mixer-meta/wikipedia-languages-of-india-census.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T03:05:00Z",
+      "note": "Picking up stalled claim: binding ISO codes and wiring missing catalog/map entries"
+    },
+    {
+      "workerId": 27,
+      "target": "tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T03:45:00Z",
+      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed"
+    },
+    {
+      "workerId": 28,
+      "target": "tools/mixer-meta/wikipedia-australian-creoles.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T16:17:00Z",
+      "note": "Start wiring: bind ISO codes and add missing catalog/map entries"
+    },
+    {
+      "workerId": 29,
+      "target": "tools/mixer-meta/wikipedia-languages-of-oceania.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T00:13:00Z"
+    },
+    {
+      "workerId": 30,
+      "target": "tools/mixer-meta/wikipedia-languages-of-west-asia.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T00:50:00Z"
+    },
+    {
+      "workerId": 31,
+      "target": "tools/mixer-meta/wikipedia-languages-of-north-america.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-13T00:45:00Z",
+      "note": "Claimed for next coverage + uniqueness + race pass"
     }
   ]
 }
