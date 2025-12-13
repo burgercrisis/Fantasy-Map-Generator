@@ -24,6 +24,8 @@ const {execFileSync} = require("child_process");
 
 const root = path.resolve(__dirname, "..", "..");
 
+let helperErrorCount = 0;
+
 function readDevplan(devplanRel) {
   const devplanPath = path.join(root, devplanRel);
   const raw = fs.readFileSync(devplanPath, "utf8");
@@ -58,7 +60,7 @@ function runNodeScript(scriptRel, args) {
     console.error(`Error running ${scriptRel}:`, err && err.message ? err.message : err);
     if (err && err.stdout) console.error(String(err.stdout));
     if (err && err.stderr) console.error(String(err.stderr));
-    process.exitCode = 1;
+    helperErrorCount++;
   }
 }
 
@@ -128,8 +130,12 @@ function main() {
 
     if (runBaseUniq) {
       console.log("-> report-wikipedia-list-base-uniqueness.js");
-      runNodeScript("report-wikipedia-list-base-uniqueness.js", [rel]);
+      runNodeScript("report-wikipedia-list-base-uniqueness.js", [rel, "--no-devplan"]);
     }
+  }
+
+  if (helperErrorCount) {
+    console.warn(`Completed with ${helperErrorCount} helper error(s). See logs above.`);
   }
 }
 

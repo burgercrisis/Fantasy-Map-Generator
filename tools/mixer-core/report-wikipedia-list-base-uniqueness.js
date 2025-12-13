@@ -24,6 +24,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const {execFileSync} = require("child_process");
 
 const root = path.resolve(__dirname, "..", "..");
 
@@ -244,9 +245,44 @@ function buildBaseClusters(mixes, map) {
   return { clusters, isoToClusterSize };
 }
 
+function maybeUpdateDevplan(listPathArg, devplanRel) {
+  const devplanPath = path.isAbsolute(devplanRel) ? devplanRel : path.join(root, devplanRel);
+  if (!fs.existsSync(devplanPath)) return;
+
+  const fullListPath = path.isAbsolute(listPathArg) ? listPathArg : path.join(root, listPathArg);
+  const relFromRoot = path.relative(root, fullListPath).replace(/\\/g, "/");
+  const needle = `- **JSON file:** \`${relFromRoot}\``;
+  const devplanRaw = fs.readFileSync(devplanPath, "utf8");
+  if (!devplanRaw.includes(needle)) return;
+
+  const updater = path.join(__dirname, "update-wikipedia-list-coverage-in-devplan.js");
+  try {
+    const out = execFileSync("node", [updater, relFromRoot, devplanRel], {encoding: "utf8"});
+    if (out && out.trim()) {
+      console.log("\n" + out.trim());
+    }
+  } catch (err) {
+    console.error("Failed to update devplan snapshot:", err && err.message ? err.message : err);
+    if (err && err.stdout) console.error(String(err.stdout));
+    if (err && err.stderr) console.error(String(err.stderr));
+  }
+}
+
 function main() {
   const args = process.argv.slice(2);
-  const fileArg = args[0];
+  const fileArg = args.find(a => a && !a.startsWith("-"));
+
+  if (args.includes("--help") || args.includes("-h")) {
+    console.log(
+      "Usage: node tools/mixer-core/report-wikipedia-list-base-uniqueness.js path/to/list.json [options]"
+    );
+    console.log("");
+    console.log("Options:");
+    console.log("  --no-devplan        Do not update DEVplans/Languages-Status.md even if the list is registered");
+    console.log("  --devplan=PATH      Override target devplan markdown path (default: DEVplans/Languages-Status.md)");
+    console.log("");
+    return;
+  }
 
   if (!fileArg) {
     console.error(
@@ -255,6 +291,10 @@ function main() {
     process.exitCode = 1;
     return;
   }
+
+  const noDevplan = args.includes("--no-devplan");
+  const devplanArg = args.find(a => a.startsWith("--devplan="));
+  const devplanRel = devplanArg ? devplanArg.slice("--devplan=".length) : "DEVplans/Languages-Status.md";
 
   const list = loadList(fileArg);
   const mixes = readJson("config/language-mixes.json");
@@ -369,6 +409,10 @@ function main() {
       });
   } else {
     console.log("All full items from this list currently have globally unique base sets.");
+  }
+
+  if (!noDevplan) {
+    maybeUpdateDevplan(fileArg, devplanRel);
   }
 }
 

@@ -72,11 +72,15 @@ function main() {
     console.log("  --name-counts      Also run report-language-mixer-name-counts.js and include it in the summaries");
     console.log("  --name-counts-sort=FIELD  Pass --sort=FIELD to report-language-mixer-name-counts.js (implies --name-counts)");
     console.log("                         Useful fields include: unique, raw, bases, duplicates, dupRatio, iso, name, region, family, category");
+    console.log("  --wiki-devplan     Refresh DEVplans/Languages-Status.md wiki list snapshots (default behavior)");
+    console.log("  --no-wiki-devplan  Skip refreshing DEVplans/Languages-Status.md wiki list snapshots");
+    console.log("  --wiki-filter=SUBSTR  When used with --wiki-devplan, only refresh lists whose JSON path contains SUBSTR");
     console.log("");
     console.log("Examples:");
     console.log("  node tools/run-language-mixer-suite.js");
     console.log("  node tools/run-language-mixer-suite.js --no-fix --full-output");
     console.log("  node tools/run-language-mixer-suite.js --name-counts --name-counts-sort=duplicates");
+    console.log("  node tools/run-language-mixer-suite.js --wiki-devplan --wiki-filter=asia-official");
     return;
   }
 
@@ -85,6 +89,8 @@ function main() {
   const runFailures = !args.includes("--no-failures");
   const showFull = args.includes("--full-output");
   const hasNameCountsFlag = args.includes("--name-counts");
+  const runWikiDevplan = args.includes("--wiki-devplan") || !args.includes("--no-wiki-devplan");
+  const wikiFilterArg = args.find(a => a.startsWith("--wiki-filter="));
 
   const nameCountsSortArg = args.find(a => a.startsWith("--name-counts-sort="));
   const nameCountsSortField = nameCountsSortArg ? nameCountsSortArg.split("=")[1] : null;
@@ -95,6 +101,11 @@ function main() {
     nameCountsArgs.push("--sort=" + nameCountsSortField);
   }
 
+  const wikiDevplanArgs = ["--no-base-uniqueness"];
+  if (wikiFilterArg) {
+    wikiDevplanArgs.push("--filter=" + wikiFilterArg.slice("--wiki-filter=".length));
+  }
+
   console.log("Running language mixer maintenance suite...\n");
 
   const fixOutput = runFix ? runScript("fix-language-mixer-mappings.js") : "";
@@ -102,6 +113,7 @@ function main() {
   const failuresOutput = runFailures ? runScript("check-language-mixer-failures.js") : "";
   const nameCountsOutput = runNameCounts ? runScript("report-language-mixer-name-counts.js", nameCountsArgs) : "";
   const generateOutput = runScript("generate-language-mixer.js");
+  const wikiDevplanOutput = runWikiDevplan ? runScript("run-wikipedia-list-helpers.js", wikiDevplanArgs) : "";
 
   console.log("\n=== Combined summaries ===\n");
   if (runFix) summarize("fix-language-mixer-mappings.js", fixOutput, showFull);
@@ -109,6 +121,7 @@ function main() {
   if (runFailures) summarize("check-language-mixer-failures.js", failuresOutput, showFull);
   if (runNameCounts) summarize("report-language-mixer-name-counts.js", nameCountsOutput, showFull);
   summarize("generate-language-mixer.js", generateOutput, showFull);
+  if (runWikiDevplan) summarize("run-wikipedia-list-helpers.js", wikiDevplanOutput, showFull);
 }
 
 if (require.main === module) {

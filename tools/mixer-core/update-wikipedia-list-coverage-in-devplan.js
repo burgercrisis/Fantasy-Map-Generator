@@ -100,6 +100,51 @@ function buildIsoHasUniqueBaseMap(mixes, map) {
   return isoHasUniqueBase;
 }
 
+function buildBaseClusters(mixes, map) {
+  const mixByIso = new Map();
+  for (const lang of mixes) {
+    if (!lang || !lang.iso) continue;
+    mixByIso.set(String(lang.iso), lang);
+  }
+
+  const clusters = new Map(); // key => { bases, members: [iso] }
+
+  for (const entry of map) {
+    if (!entry || !entry.iso) continue;
+    const iso = String(entry.iso);
+    const lang = mixByIso.get(iso);
+    if (!lang) continue;
+
+    const tags = Array.isArray(lang.tags) ? lang.tags : [];
+    if (tags.includes("family")) continue;
+
+    const basesSource = Array.isArray(entry.bases) ? entry.bases : [];
+    if (!basesSource.length) continue;
+
+    const uniqueBases = Array.from(new Set(basesSource.map(b => Number(b)))).filter(
+      b => !Number.isNaN(b)
+    );
+    if (!uniqueBases.length) continue;
+
+    const bases = uniqueBases.sort((a, b) => a - b);
+    const key = bases.join(",");
+    if (!clusters.has(key)) {
+      clusters.set(key, { bases, members: [] });
+    }
+    clusters.get(key).members.push(iso);
+  }
+
+  const isoToClusterSize = new Map();
+  for (const { members } of clusters.values()) {
+    const size = members.length;
+    for (const iso of members) {
+      isoToClusterSize.set(iso, size);
+    }
+  }
+
+  return { isoToClusterSize };
+}
+
 function resolveItem(item, indexes) {
   const { byIso, byNameLower, mapIsos } = indexes;
 
@@ -219,7 +264,45 @@ function computeNonuniqueBases(results, isoHasUniqueBase) {
   return considered - withUniqueBase;
 }
 
-function updateDevplanSnapshot(listPathArg, counts, nonuniqueBases, devplanRel) {
+function computeBaseSetUniquenessStats(results, isoToClusterSize) {
+  let uniqueBases = 0;
+  let clusteredBases = 0;
+  const clustered = []; // { iso, clusterSize }
+
+  for (const r of results) {
+    if (!r || r.status !== "full" || !r.iso) continue;
+    const iso = String(r.iso);
+    const clusterSize = isoToClusterSize.get(iso) || 0;
+    if (clusterSize <= 1) {
+      uniqueBases++;
+    } else {
+      clusteredBases++;
+      clustered.push({ iso, clusterSize });
+    }
+  }
+
+  const histogram = { size2: 0, size3: 0, size4plus: 0 };
+  for (const c of clustered) {
+    if (c.clusterSize === 2) histogram.size2++;
+    else if (c.clusterSize === 3) histogram.size3++;
+    else if (c.clusterSize >= 4) histogram.size4plus++;
+  }
+
+  clustered.sort((a, b) => b.clusterSize - a.clusterSize || a.iso.localeCompare(b.iso));
+  const clusteredIsoText = clustered.length
+    ? clustered.map(c => `${c.iso}(${c.clusterSize})`).join(", ")
+    : "(none)";
+
+  return {
+    uniqueBases,
+    clusteredBases,
+    clusteredFullItems: clusteredBases,
+    histogram,
+    clusteredIsoText
+  };
+}
+
+function updateDevplanSnapshot(listPathArg, counts, nonuniqueBases, baseUniq, devplanRel) {
   const devplanPath = path.join(root, devplanRel);
   const devplanRaw = fs.readFileSync(devplanPath, "utf8");
   const lines = devplanRaw.split(/\r?\n/);
@@ -233,34 +316,141 @@ function updateDevplanSnapshot(listPathArg, counts, nonuniqueBases, devplanRel) 
     throw new Error(`Could not find JSON file line '${jsonLineNeedle}' in ${devplanRel}`);
   }
 
-  const snapshotIndex = lines.findIndex((l, idx) => idx > jsonLineIndex && l.trim().startsWith("- **Snapshot from last run (all list items):"));
-  if (snapshotIndex === -1) {
-    throw new Error(`Could not find snapshot header after JSON file line for '${relFromRoot}'`);
-  }
+  const entryEndIndex = (() => {
+    for (let i = jsonLineIndex + 1; i < lines.length; i++) {
+      const t = lines[i].trim();
+      if (/^#{3,4}\s+/.test(t)) return i;
+    }
+    return lines.length;
+  })();
 
-  let endIndex = snapshotIndex + 1;
-  while (endIndex < lines.length && lines[endIndex].startsWith("  - ")) {
-    endIndex++;
-  }
+  const considered = counts.total - counts.skipped;
+  const pct = considered > 0 ? ((counts.full / considered) * 100).toFixed(1) : "0.0";
 
-  const newBlock = [
-    `  - \`fully wired:\` ${counts.full}`,
+  const snapshotHeaderIndex = (() => {
+    for (let i = jsonLineIndex + 1; i < entryEndIndex; i++) {
+      if (lines[i].trim().startsWith("- **Snapshot from last run")) return i;
+    }
+    return -1;
+  })();
+
+  const desiredSnapshotHeader = counts.skipped
+    ? "- **Snapshot from last run (considered items only):**"
+    : "- **Snapshot from last run (all list items):**";
+
+  const snapshotHeaderLine = desiredSnapshotHeader;
+  const isConsideredSnapshot = counts.skipped > 0;
+
+  const snapshotBullets = [
+    `  - \`fully wired:\` ${counts.full}${isConsideredSnapshot ? ` (${pct}%)` : ""}`,
     `  - \`missing catalog:\` ${counts.missingCatalog}`,
     `  - \`missing map:\` ${counts.missingMap}`,
     `  - \`missing both:\` ${counts.missingBoth}`,
     `  - \`unmatched:\` ${counts.unmatched}`,
-    `  - \`ambiguous:\` ${counts.ambiguous}`,
-    `  - \`Nonunique Bases:\` ${nonuniqueBases}`
+    `  - \`ambiguous:\` ${counts.ambiguous}`
+  ];
+  if (isConsideredSnapshot || counts.skipped) {
+    snapshotBullets.push(`  - \`skipped:\` ${counts.skipped}`);
+  }
+  snapshotBullets.push(`  - \`Nonunique Bases:\` ${nonuniqueBases}`);
+
+  let working = lines;
+  const entryEndWorking = entryEndIndex;
+
+  if (snapshotHeaderIndex === -1) {
+    const insertAt = entryEndWorking;
+    const prefix = working.slice(0, insertAt);
+    if (prefix.length && prefix[prefix.length - 1].trim() !== "") {
+      prefix.push("");
+    }
+
+    working = [
+      ...prefix,
+      snapshotHeaderLine,
+      ...snapshotBullets,
+      "",
+      ...working.slice(insertAt)
+    ];
+  } else {
+    let blockEnd = snapshotHeaderIndex + 1;
+    while (blockEnd < entryEndWorking && working[blockEnd].startsWith("  - ")) blockEnd++;
+    working = [
+      ...working.slice(0, snapshotHeaderIndex),
+      snapshotHeaderLine,
+      ...snapshotBullets,
+      ...working.slice(blockEnd)
+    ];
+  }
+
+  const jsonLineNeedle2 = `- **JSON file:** \`${relFromRoot}\``;
+  const jsonLineIndex2 = working.findIndex(l => l.trim() === jsonLineNeedle2);
+  if (jsonLineIndex2 === -1) {
+    throw new Error(`Internal error: lost JSON file line '${jsonLineNeedle2}' while updating ${devplanRel}`);
+  }
+
+  const entryEndIndex2 = (() => {
+    for (let i = jsonLineIndex2 + 1; i < working.length; i++) {
+      const t = working[i].trim();
+      if (/^#{3,4}\s+/.test(t)) return i;
+    }
+    return working.length;
+  })();
+
+  const baseHeaderIndex = (() => {
+    for (let i = jsonLineIndex2 + 1; i < entryEndIndex2; i++) {
+      if (working[i].trim().startsWith("- **Base-set uniqueness")) return i;
+    }
+    return -1;
+  })();
+
+  const baseHeaderLine = baseHeaderIndex === -1 ? "- **Base-set uniqueness details (full items):**" : working[baseHeaderIndex];
+  const baseBullets = [
+    `  - \`unique bases:\` ${baseUniq.uniqueBases}`,
+    `  - \`clustered bases:\` ${baseUniq.clusteredBases}`,
+    `  - \`clustered full items:\` ${baseUniq.clusteredFullItems}`,
+    `  - \`cluster size histogram:\` size2=${baseUniq.histogram.size2}, size3=${baseUniq.histogram.size3}, size4+=${baseUniq.histogram.size4plus}`,
+    `  - \`clustered isos:\` ${baseUniq.clusteredIsoText}`
   ];
 
-  const updatedLines = [
-    ...lines.slice(0, snapshotIndex + 1),
-    ...newBlock,
-    ...lines.slice(endIndex)
-  ];
+  if (baseHeaderIndex === -1) {
+    const snapHeaderIndex2 = (() => {
+      for (let i = jsonLineIndex2 + 1; i < entryEndIndex2; i++) {
+        if (working[i].trim().startsWith("- **Snapshot from last run")) return i;
+      }
+      return -1;
+    })();
 
-  fs.writeFileSync(devplanPath, updatedLines.join("\n"), "utf8");
-  console.log("Updated snapshot in", devplanRel, "for", relFromRoot);
+    let insertAt = entryEndIndex2;
+    if (snapHeaderIndex2 !== -1) {
+      insertAt = snapHeaderIndex2 + 1;
+      while (insertAt < entryEndIndex2 && working[insertAt].startsWith("  - ")) insertAt++;
+      if (insertAt < entryEndIndex2 && working[insertAt].trim() === "") insertAt++;
+    }
+
+    const prefix = working.slice(0, insertAt);
+    if (prefix.length && prefix[prefix.length - 1].trim() !== "") {
+      prefix.push("");
+    }
+    working = [
+      ...prefix,
+      baseHeaderLine,
+      ...baseBullets,
+      "",
+      ...working.slice(insertAt)
+    ];
+  } else {
+    let blockEnd = baseHeaderIndex + 1;
+    while (blockEnd < entryEndIndex2 && working[blockEnd].startsWith("  - ")) blockEnd++;
+    working = [
+      ...working.slice(0, baseHeaderIndex),
+      baseHeaderLine,
+      ...baseBullets,
+      ...working.slice(blockEnd)
+    ];
+  }
+
+  fs.writeFileSync(devplanPath, working.join("\n"), "utf8");
+  console.log("Updated devplan stats in", devplanRel, "for", relFromRoot);
 }
 
 function main() {
@@ -294,7 +484,10 @@ function main() {
   const isoHasUniqueBase = buildIsoHasUniqueBaseMap(mixes, map);
   const nonuniqueBases = computeNonuniqueBases(results, isoHasUniqueBase);
 
-  updateDevplanSnapshot(listPathArg, counts, nonuniqueBases, devplanRel);
+  const { isoToClusterSize } = buildBaseClusters(mixes, map);
+  const baseUniq = computeBaseSetUniquenessStats(results, isoToClusterSize);
+
+  updateDevplanSnapshot(listPathArg, counts, nonuniqueBases, baseUniq, devplanRel);
 }
 
 if (require.main === module) {

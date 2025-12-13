@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const {execFileSync} = require("child_process");
 
 const root = path.resolve(__dirname, "..", "..");
 
@@ -270,10 +271,37 @@ function summarizeResults(listMeta, results, nonuniqueBases) {
   }
 }
 
+function maybeUpdateDevplan(listPathArg, devplanRel) {
+  const devplanPath = path.isAbsolute(devplanRel) ? devplanRel : path.join(root, devplanRel);
+  if (!fs.existsSync(devplanPath)) return;
+
+  const fullListPath = path.isAbsolute(listPathArg) ? listPathArg : path.join(root, listPathArg);
+  const relFromRoot = path.relative(root, fullListPath).replace(/\\/g, "/");
+  const needle = `- **JSON file:** \`${relFromRoot}\``;
+  const devplanRaw = fs.readFileSync(devplanPath, "utf8");
+  if (!devplanRaw.includes(needle)) return;
+
+  const updater = path.join(__dirname, "update-wikipedia-list-coverage-in-devplan.js");
+  try {
+    const out = execFileSync("node", [updater, relFromRoot, devplanRel], {encoding: "utf8"});
+    if (out && out.trim()) {
+      console.log("\n" + out.trim());
+    }
+  } catch (err) {
+    console.error("Failed to update devplan snapshot:", err && err.message ? err.message : err);
+    if (err && err.stdout) console.error(String(err.stdout));
+    if (err && err.stderr) console.error(String(err.stderr));
+  }
+}
+
 function main() {
   const args = process.argv.slice(2);
-  if (!args.length || args[0] === "--help" || args[0] === "-h") {
+  if (!args.length || args.includes("--help") || args.includes("-h")) {
     console.log("Usage: node tools/mixer-core/report-wikipedia-list-coverage.js path/to/list.json");
+    console.log("");
+    console.log("Options:");
+    console.log("  --no-devplan        Do not update DEVplans/Languages-Status.md even if the list is registered");
+    console.log("  --devplan=PATH      Override target devplan markdown path (default: DEVplans/Languages-Status.md)");
     console.log("");
     console.log("The list JSON should be either:");
     console.log("  - an array of items, or");
@@ -285,7 +313,15 @@ function main() {
     process.exit(0);
   }
 
-  const listPathArg = args[0];
+  const listPathArg = args.find(a => a && !a.startsWith("-"));
+  if (!listPathArg) {
+    throw new Error("Expected a path to a JSON file describing a Wikipedia language list");
+  }
+
+  const noDevplan = args.includes("--no-devplan");
+  const devplanArg = args.find(a => a.startsWith("--devplan="));
+  const devplanRel = devplanArg ? devplanArg.slice("--devplan=".length) : "DEVplans/Languages-Status.md";
+
   const baseName = path.basename(listPathArg);
   if (/seed|major|subset/i.test(baseName)) {
     console.warn(
@@ -304,6 +340,10 @@ function main() {
   const isoHasUniqueBase = buildIsoHasUniqueBaseMap(mixes, map);
   const nonuniqueBases = computeNonuniqueBases(results, isoHasUniqueBase);
   summarizeResults(listMeta, results, nonuniqueBases);
+
+  if (!noDevplan) {
+    maybeUpdateDevplan(listPathArg, devplanRel);
+  }
 }
 
 if (require.main === module) {

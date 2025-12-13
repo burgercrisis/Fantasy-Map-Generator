@@ -97,6 +97,15 @@ const explicitIsoBaseMap = {
   "tajik": 229,
   "pashto": 24,
 
+  moc: 422,
+  myu: 173,
+  cag: 422,
+  tus: 219,
+  noa: 422,
+  xav: 292,
+  xer: 292,
+  yag: 178,
+
   // Inuit / Arctic / Siberian macro (shared Arctic toponym base)
   "kalaallisut": 19,
   "itelmen": 19,
