@@ -25813,6 +25813,100 @@
     ]
   },
   {
+    "iso": "akj",
+    "bases": [
+      183
+    ]
+  },
+  {
+    "iso": "akm",
+    "bases": [
+      183
+    ]
+  },
+  {
+    "iso": "bangladeshi-english",
+    "bases": [
+      1,
+      201
+    ]
+  },
+  {
+    "iso": "indian-english",
+    "bases": [
+      1,
+      183
+    ]
+  },
+  {
+    "iso": "nepalese-english",
+    "bases": [
+      1,
+      183,
+      201
+    ]
+  },
+  {
+    "iso": "pakistani-english",
+    "bases": [
+      1,
+      203
+    ]
+  },
+  {
+    "iso": "sri-lankan-english",
+    "bases": [
+      1,
+      205
+    ]
+  },
+  {
+    "iso": "hinglish",
+    "bases": [
+      1,
+      183
+    ]
+  },
+  {
+    "iso": "nll",
+    "bases": [
+      183
+    ]
+  },
+  {
+    "iso": "hoc",
+    "bases": [
+      181,
+      183
+    ]
+  },
+  {
+    "iso": "oon",
+    "bases": [
+      468
+    ]
+  },
+  {
+    "iso": "anq",
+    "bases": [
+      468
+    ]
+  },
+  {
+    "iso": "sip",
+    "bases": [
+      47,
+      81,
+      96
+    ]
+  },
+  {
+    "iso": "njm",
+    "bases": [
+      87
+    ]
+  },
+  {
     "iso": "katuic",
     "bases": [
       335

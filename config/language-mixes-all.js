@@ -4598,6 +4598,25 @@
     "family": "Tai-Kadai"
   },
   {
+    "name": "Aka-Bo",
+    "iso": "akm",
+    "region": "Asia",
+    "category": "Andamanese",
+    "family": "Great Andamanese",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aka-Bo_language",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
+    "name": "Aka-Jeru",
+    "iso": "akj",
+    "region": "Asia",
+    "category": "Andamanese",
+    "family": "Great Andamanese",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aka-Jeru_language"
+  },
+  {
     "name": "Alak",
     "iso": "alak-bahnaric",
     "region": "Asia",
@@ -4935,6 +4954,17 @@
       "creole"
     ],
     "lexifier": "Malay"
+  },
+  {
+    "name": "Bangladeshi English",
+    "iso": "bangladeshi-english",
+    "region": "Asia",
+    "category": "Germanic",
+    "family": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bangladeshi_English",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Bankariya",
@@ -6148,11 +6178,31 @@
     "family": "Hindustani"
   },
   {
+    "name": "Hinglish",
+    "iso": "hinglish",
+    "region": "Asia",
+    "category": "Mixed",
+    "family": "English-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hinglish",
+    "tags": [
+      "mixed"
+    ],
+    "lexifier": "English"
+  },
+  {
     "name": "Hlai",
     "iso": "hlai",
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Hlai"
+  },
+  {
+    "name": "Ho",
+    "iso": "hoc",
+    "region": "Asia",
+    "category": "Austroasiatic",
+    "family": "Munda",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ho_language"
   },
   {
     "name": "Ho (Munda)",
@@ -6241,6 +6291,17 @@
     "tags": [
       "wikipedia-native-speakers",
       "subset"
+    ]
+  },
+  {
+    "name": "Indian English",
+    "iso": "indian-english",
+    "region": "Asia",
+    "category": "Germanic",
+    "family": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_English",
+    "tags": [
+      "dialect"
     ]
   },
   {
@@ -6333,6 +6394,14 @@
     "tags": [
       "dialect"
     ]
+  },
+  {
+    "name": "Jarawa",
+    "iso": "anq",
+    "region": "Asia",
+    "category": "Andamanese",
+    "family": "Ongan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jarawa_language_(Andaman_Islands)"
   },
   {
     "name": "Jeh",
@@ -7913,6 +7982,17 @@
     "family": "Ewenic"
   },
   {
+    "name": "Nepalese English",
+    "iso": "nepalese-english",
+    "region": "Asia",
+    "category": "Germanic",
+    "family": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nepalese_English",
+    "tags": [
+      "dialect"
+    ]
+  },
+  {
     "name": "Nepali",
     "iso": "nepali",
     "region": "Asia",
@@ -7929,6 +8009,14 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Nihali",
+    "iso": "nll",
+    "region": "Asia",
+    "category": "Language isolate",
+    "family": "Nihali isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nihali_language"
   },
   {
     "name": "Nimadi",
@@ -8143,6 +8231,14 @@
     "family": "Central Dravidian"
   },
   {
+    "name": "Önge",
+    "iso": "oon",
+    "region": "Asia",
+    "category": "Andamanese",
+    "family": "Ongan",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C3%96nge_language"
+  },
+  {
     "name": "Orang Pulo",
     "iso": "orang-pulo",
     "region": "Asia",
@@ -8219,6 +8315,17 @@
     "region": "Asia",
     "category": "Indo-Aryan",
     "family": "Indo-Aryan"
+  },
+  {
+    "name": "Pakistani English",
+    "iso": "pakistani-english",
+    "region": "Asia",
+    "category": "Germanic",
+    "family": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pakistani_English",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Palaung",
@@ -8980,6 +9087,14 @@
     "family": "Nicobarese"
   },
   {
+    "name": "Sikkimese",
+    "iso": "sip",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Tibetic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sikkimese_language"
+  },
+  {
     "name": "Sindhi",
     "iso": "sindhi",
     "region": "Asia",
@@ -9093,6 +9208,17 @@
     "region": "Asia",
     "category": "Tai-Kadai",
     "family": "Tai-Kadai"
+  },
+  {
+    "name": "Sri Lankan English",
+    "iso": "sri-lankan-english",
+    "region": "Asia",
+    "category": "Germanic",
+    "family": "Germanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sri_Lankan_English",
+    "tags": [
+      "dialect"
+    ]
   },
   {
     "name": "Sri Lankan Malay",
@@ -9440,6 +9566,14 @@
     "region": "Asia",
     "category": "Austroasiatic",
     "family": "Aslian"
+  },
+  {
+    "name": "Tenyidie",
+    "iso": "njm",
+    "region": "Asia",
+    "category": "Sino-Tibetan",
+    "family": "Naga",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tenyidie_language"
   },
   {
     "name": "Teressa Nicobarese",

@@ -37,7 +37,7 @@
     { "name": "Konkani", "iso": "konkani" },
     { "name": "Kumaoni", "iso": "kfy" },
     { "name": "Magahi", "iso": "magahi" },
-    { "name": "Mahal", "iso": "mahal" },
+    { "name": "Mahal", "iso": "dhivehi" },
     { "name": "Maithili", "iso": "maithili" },
     { "name": "Marathi", "iso": "marathi" },
     { "name": "Nepali", "iso": "nepali" },
@@ -63,9 +63,9 @@
     { "name": "Khasi", "iso": "kha" },
     { "name": "Lyngngam", "iso": "kha-lyngngam" },
     { "name": "Pnar", "iso": "kha-pnar" },
-    { "name": "War", "iso": "aml" },
+    { "name": "War", "iso": "kha-war" },
 
-    { "name": "Sri Lankan Creole Malay", "iso": "sci" },
+    { "name": "Sri Lankan Creole Malay", "iso": "sri-lankan-malay" },
 
     { "name": "Ho", "iso": "hoc" },
     { "name": "Korku", "iso": "kfq" },
@@ -74,7 +74,7 @@
     { "name": "Sora", "iso": "srb" },
 
     { "name": "Car", "iso": "car-nicobarese" },
-    { "name": "Central Nicobarese", "iso": "ncb" },
+    { "name": "Central Nicobarese", "iso": "nicobarese" },
     { "name": "Chaura", "iso": "chaura-nicobarese" },
     { "name": "Southern Nicobarese", "iso": "southern-nicobarese" },
     { "name": "Teressa", "iso": "teressa-nicobarese" },

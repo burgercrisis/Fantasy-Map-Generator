@@ -26,6 +26,16 @@ const root = path.resolve(__dirname, "..", "..");
 
 let helperErrorCount = 0;
 
+function hasNullBytes(filePath) {
+  const buf = fs.readFileSync(filePath);
+  return buf.includes(0);
+}
+
+function isNonCanonicalList(relPath) {
+  const baseName = path.basename(relPath);
+  return /seed|major|subset/i.test(baseName);
+}
+
 function readDevplan(devplanRel) {
   const devplanPath = path.join(root, devplanRel);
   const raw = fs.readFileSync(devplanPath, "utf8");
@@ -121,11 +131,20 @@ function main() {
       continue;
     }
 
+    if (hasNullBytes(fullJsonPath)) {
+      console.warn("Skipping (JSON file contains null bytes; likely non-UTF8):", rel);
+      continue;
+    }
+
     console.log("=== Running helpers for:", rel, "===");
 
     if (runDevplan) {
       console.log("-> update-wikipedia-list-coverage-in-devplan.js");
-      runNodeScript("update-wikipedia-list-coverage-in-devplan.js", [rel, devplanRel]);
+      if (isNonCanonicalList(rel)) {
+        console.warn("Skipping devplan snapshot update for non-canonical seed/subset/major list:", rel);
+      } else {
+        runNodeScript("update-wikipedia-list-coverage-in-devplan.js", [rel, devplanRel]);
+      }
     }
 
     if (runBaseUniq) {
