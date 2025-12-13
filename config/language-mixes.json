@@ -26173,27 +26173,6 @@
     "family": "Formosan"
   },
   {
-    "name": "Nataoran",
-    "iso": "ais",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
-    "name": "Isbukun Bunun",
-    "iso": "bunun-isbukun",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
-    "name": "Northern and Central Bunun",
-    "iso": "bunun-northern-central",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
     "name": "Saisiyat",
     "iso": "xsy",
     "region": "Pacific",
@@ -26224,20 +26203,6 @@
     "category": "Austronesian",
     "family": "Formosan",
     "wikipedia": "https://en.wikipedia.org/wiki/Atayal_language"
-  },
-  {
-    "name": "Squliq Atayal",
-    "iso": "atayal-squliq",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
-    "name": "Ts'ole' Atayal",
-    "iso": "atayal-tsole",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
   },
   {
     "name": "Seediq",

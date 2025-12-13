@@ -1054,13 +1054,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 154
+  - `fully wired:` 152
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 89
+  - `unmatched:` 68
   - `ambiguous:` 0
-  - `Nonunique Bases:` 235
+  - `Nonunique Bases:` 212
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
