@@ -1709,21 +1709,21 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **JSON file:** `tools/mixer-meta/wikipedia-formosan-languages-sagart-2004-2021.json`
 - **Source:** https://en.wikipedia.org/wiki/Formosan_languages
-- **Status tier:** **Untriaged (auto-registered)**
+- ✅ **Status tier:** **Complete**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 6
+  - `fully wired:` 22
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 16
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 22
+  - `Nonunique Bases:` 20
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 0
-  - `clustered bases:` 6
-  - `clustered full items:` 6
-  - `cluster size histogram:` size2=0, size3=0, size4+=6
-  - `clustered isos:` bunun(13), paiwan(13), puyuma(13), rukai(13), ssf(13), sxr(13)
+  - `unique bases:` 22
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 #### Wikipedia: List of constructed languages  seed subset
 

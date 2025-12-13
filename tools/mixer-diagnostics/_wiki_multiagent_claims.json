@@ -230,9 +230,10 @@
       "workerId": 33,
       "target": "tools/mixer-meta/wikipedia-formosan-languages-sagart-2004-2021.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T03:46:53Z",
-      "note": "Starting next Formosan list (Sagart 2004/2021): run coverage + base-uniqueness + race reports, then wire/decluster microbatch"
+      "finishedAt": "2025-12-13T03:54:17Z",
+      "note": "Coverage fully wired (considered=22, unmatched=0, missing=0). Bound Luilang -> kae, added Favorlang (favorlang) catalog+map entry, declustered kae and rukai. Per-list base-set uniqueness: unique bases=22, clustered bases=0. Race coverage OK. Suite green."
     }
   ]
 }
