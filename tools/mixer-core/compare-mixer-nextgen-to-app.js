@@ -1241,10 +1241,9 @@ function runNextgenSyllableLinguistic({baseIndices, count, seed, min, max, weigh
     return others[Math.floor(rng() * others.length)];
   };
 
-  const pickNextSegFromBase = (chain, prevChar, prevSeg) => {
+  const pickNextSegFromBase = (chain, compound, prevChar, prevSeg) => {
     const arr = (chain && (chain[prevChar] || chain[""])) || [];
     if (!Array.isArray(arr) || !arr.length) return "";
-
     let best = arr[Math.floor(rng() * arr.length)];
     let bestPenalty = boundaryPenalty(prevSeg, best);
     for (let t = 0; t < 2; t++) {
@@ -2302,7 +2301,7 @@ function runNextgenSyllableLinguisticV10({baseIndices, count, seed, min, max, we
     return best;
   };
 
-  function attempt(chosenBases, requestedMin, requestedMax) {
+  function attempt(chosenBases, requestedMin, requestedMax, softTargetUniqueBases) {
     const baseChains = new Map(
       chosenBases.map(idx => {
         const base = bases[idx];
@@ -2315,6 +2314,7 @@ function runNextgenSyllableLinguisticV10({baseIndices, count, seed, min, max, we
     const segInfos = [];
     const baseSeq = [];
     const usedBases = new Set();
+    const usedCounts = new Map();
     let compound = "";
 
     let lastNonSpacerBase = null;

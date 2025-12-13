@@ -25795,6 +25795,126 @@
     "family": "Formosan"
   },
   {
+    "name": "Tsou",
+    "iso": "tsu",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsou_language"
+  },
+  {
+    "name": "Kanakanavu",
+    "iso": "xnb",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kanakanavu_language"
+  },
+  {
+    "name": "Babuza",
+    "iso": "bzg",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Babuza_language"
+  },
+  {
+    "name": "Papora-Hoanya",
+    "iso": "ppu",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Papora%E2%80%93Hoanya_language"
+  },
+  {
+    "name": "Saisiyat",
+    "iso": "xsy",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saisiyat_language"
+  },
+  {
+    "name": "Pazeh",
+    "iso": "pzh",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pazeh_language"
+  },
+  {
+    "name": "Kulon",
+    "iso": "uon",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kulon_language"
+  },
+  {
+    "name": "Atayal",
+    "iso": "tay",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atayal_language"
+  },
+  {
+    "name": "Seediq",
+    "iso": "trv",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seediq_language"
+  },
+  {
+    "name": "Basay",
+    "iso": "byq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basay_language"
+  },
+  {
+    "name": "Kavalan",
+    "iso": "ckv",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kavalan_language"
+  },
+  {
+    "name": "Ketagalan",
+    "iso": "kae",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luilang_language"
+  },
+  {
+    "name": "Amis",
+    "iso": "ami",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amis_language"
+  },
+  {
+    "name": "Sakizaya",
+    "iso": "szy",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sakizaya_language"
+  },
+  {
+    "name": "Siraya",
+    "iso": "fos",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siraya_language"
+  },
+  {
     "name": "Ubykh",
     "iso": "uby",
     "region": "Caucasus",
