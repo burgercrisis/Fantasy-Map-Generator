@@ -27351,5 +27351,40 @@
     "region": "North America",
     "category": "Na-Dene",
     "family": "Na-Dene"
+  },
+  {
+    "name": "Mikasuki",
+    "iso": "mik",
+    "region": "North America",
+    "category": "Muskogean",
+    "family": "Muskogean"
+  },
+  {
+    "name": "Páez",
+    "iso": "pbb",
+    "region": "South America",
+    "category": "Paezan",
+    "family": "Paezan"
+  },
+  {
+    "name": "Ona",
+    "iso": "ona",
+    "region": "South America",
+    "category": "Chonan",
+    "family": "Chonan"
+  },
+  {
+    "name": "Yuracaré",
+    "iso": "yuz",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Yuracaré isolate"
+  },
+  {
+    "name": "Rama",
+    "iso": "rma",
+    "region": "Central America",
+    "category": "Chibchan",
+    "family": "Chibchan"
   }
 ]

@@ -5336,9 +5336,11 @@ function main() {
   }
 
   const uniqueIndexCount = Array.from(new Set(indices)).length;
+  const explicitMinUniqueBases =
+    typeof minUniqueBases === "number" && !Number.isNaN(minUniqueBases) ? minUniqueBases : undefined;
   const effectiveMinUniqueBases =
-    typeof minUniqueBases === "number" && !Number.isNaN(minUniqueBases)
-      ? minUniqueBases
+    typeof explicitMinUniqueBases === "number"
+      ? explicitMinUniqueBases
       : uniqueIndexCount > 1
         ? 2
         : 1;
@@ -5392,7 +5394,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
@@ -5404,7 +5406,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
@@ -5416,7 +5418,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
@@ -5428,7 +5430,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
@@ -5500,7 +5502,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
@@ -5512,7 +5514,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 
@@ -5524,7 +5526,7 @@ function main() {
         min,
         max,
         weights,
-        minUniqueBases: effectiveMinUniqueBases
+        minUniqueBases: explicitMinUniqueBases
       })
     : {names: [], baseSeqs: [], segTextLists: [], chosenBasesList: []};
 

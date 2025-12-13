@@ -119,15 +119,13 @@ These are **derived artifacts** and must be regenerated after any catalog/map ed
 ### 4.1 Per-language uniqueness goal
 
 - Goal: no two distinct mixer languages should share an identical `bases[]` array.
-- If identical sharing exists, it must be treated as **uniqueness debt** and burned down over time by:
-  - introducing new dedicated bases, and/or
-  - giving each language a distinct (linguistically plausible) mix signature.
+- If identical sharing exists, it must be treated as **uniqueness debt** and burned down over time by introducing new dedicated bases
 
 ### 4.2 Linguistic plausibility
 
-- `bases[]` should be plausible with respect to:
+- `bases[]` should be individually plausible (for each individual language/dialect) with respect to:
   - region,
-  - language family,
+  - linguistics,
   - known lexifiers / contact influences (especially for creoles and mixed languages).
 
 ### 4.3 Catalog metadata consistency
@@ -217,18 +215,19 @@ Reference index:
 
 ---
 
-## 7. Current design choices (open questions)
+## 7. Design choices
 
 - **Strict uniqueness vs historically acceptable clusters**
   - Policy here is strict: identical `bases[]` sharing is treated as debt.
-  - Open question: do we ever bless a small set of exceptions as permanent (and encode them explicitly), or keep pushing toward zero identical collisions?
+  - Keep pushing toward zero identical collisions
+  - Each language should have at least one base *that is unique to it*
+  - Any bases shared between languages should be considered *additional* for the purpose of *expansiveness* but still be treated to nearly just as high standards of linguistic accuracy and precision
 
 - **Dedicated base creation threshold**
-  - Open question: when do we create a new base index vs expressing uniqueness via mixes?
+  - Always prioritize expressing uniqueness through new bases dedicated individually towards linguistic accuracy to the best of the ability online research and knowledge allows.
 
 - **Family macro semantics**
-  - Open question: should `tags: ["family"]` entries be required to have mappings (for tooling/fillers), even though the UI skips them?
+  - `tags: ["family"]` entries are required to have mappings, these will be used later.
 
 - **How “synthetic ISO keys” should be formatted**
-  - Current practice allows synthetic keys like `-foo-dialect`.
-  - Open question: should we formalize naming rules for synthetic keys to reduce collisions and improve readability?
+  - Naming rules for synthetic ISO keys should be formalized as `["language"]` an if there are multiple languages with distinctive names, `["language"]-["family"]`
