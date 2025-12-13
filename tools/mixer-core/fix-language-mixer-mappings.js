@@ -440,7 +440,10 @@ const explicitIsoBasesMap = {
   numao: [11, 67, 69, 70],
   tangwang: [11, 47, 29, 70],
   "tai-meuay": [252, 318, 530, 317],
-  kharia: [29, 193, 251, 252]
+  kharia: [29, 193, 251, 252],
+  ahr: [183, 202, 253],
+  spv: [183, 256],
+  nph: [86, 87, 89]
 };
 
 function readJson(relPath) {

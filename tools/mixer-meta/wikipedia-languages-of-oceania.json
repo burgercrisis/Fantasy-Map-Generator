@@ -1,29 +1,37 @@
 {
-  "title": "Wikipedia: Languages of Oceania – Papuan & Pacific subset",
+  "title": "Wikipedia: Languages of Oceania – full page language mentions snapshot",
   "source": "https://en.wikipedia.org/wiki/Languages_of_Oceania",
   "items": [
-    { "name": "Tok Pisin" },
-    { "name": "Enga" },
-    { "name": "Dani" },
-    { "name": "Fijian" },
-    { "name": "Samoan" },
-    { "name": "Tongan" },
-    { "name": "Maori", "iso": "maori" },
+    { "name": "Yapese", "iso": "yap" },
+
+    { "name": "Malay", "iso": "malay" },
+    { "name": "Indonesian", "iso": "indonesian" },
+    { "name": "Tagalog", "iso": "tagalog" },
+    { "name": "Filipino", "iso": "filipino" },
+    { "name": "Māori", "iso": "maori" },
     { "name": "Hawaiian", "iso": "hawaiian" },
-    { "name": "Tahitian" },
-    { "name": "Gilbertese", "iso": "kiribati" },
-    { "name": "Marshallese" },
-    { "name": "Palauan" },
-    { "name": "Rapa Nui", "iso": "rapa-nui" },
-    { "name": "Rarotongan" },
-    { "name": "Niuean", "iso": "niuean" },
-    { "name": "Rotuman", "iso": "rotuman" },
-    { "name": "Motu", "iso": "motu" },
-    { "name": "Hiri Motu", "iso": "hiri-motu" },
-    { "name": "Bislama" },
-    { "name": "Pijin" },
-    { "name": "Tuvaluan", "iso": "tuvaluan" },
-    { "name": "Tokelauan", "iso": "tokelauan" },
-    { "name": "Nauruan", "iso": "nauruan" }
+
+    { "name": "Maisin", "iso": "mbq" },
+
+    { "name": "English", "iso": "eng" },
+    { "name": "French", "iso": "fra" },
+    { "name": "Hindi", "iso": "hin" },
+    { "name": "Japanese", "iso": "jpn" },
+    { "name": "Spanish", "iso": "spa" },
+
+    { "name": "Tok Pisin", "iso": "tok-pisin" },
+    { "name": "Bislama", "iso": "bislama" },
+    { "name": "Pijin", "iso": "pijin" },
+    { "name": "Samoan Plantation Pidgin", "iso": "samoan-plantation-pidgin" },
+    { "name": "Hawaiian Pidgin", "iso": "hawaiian-pidgin" },
+    { "name": "Norfuk", "iso": "pih" },
+    { "name": "Pitkern", "iso": "pih" },
+    { "name": "Unserdeutsch", "iso": "unserdeutsch" },
+
+    { "name": "Mandarin", "iso": "mandarin" },
+    { "name": "Italian", "iso": "ita" },
+    { "name": "Arabic", "iso": "ara" },
+    { "name": "Cantonese", "iso": "yue" },
+    { "name": "Greek", "iso": "ell" }
   ]
 }

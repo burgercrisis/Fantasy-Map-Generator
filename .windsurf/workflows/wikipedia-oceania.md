@@ -3,7 +3,7 @@ description: Wikipedia Languages of Oceania wiring
 auto_execution_mode: 1
 ---
 
-Use this workflow together with `/wikipedia1` for **Languages of Oceania – Papuan & Pacific subset** (§8.6).
+Use this workflow together with `/wikipedia1` for **Languages of Oceania – full page language mentions snapshot** (§8.6).
 
 1. Treat `tools/mixer-meta/wikipedia-languages-of-oceania.json` as the current list JSON.
 2. Follow `/wikipedia1` exactly, scoped to this list:
