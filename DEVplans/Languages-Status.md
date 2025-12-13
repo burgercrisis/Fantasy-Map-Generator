@@ -1053,6 +1053,18 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - Treat this list as a compact checklist for key indigenous families (Nahuatl, Quechua, Guarani, Aymara, Mapudungun, Tikuna, Na-Dene macros, Salishan, Wayuu, Cherokee, etc.).
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
+- **Snapshot from last run (all list items):**
+  - `fully wired:` 154
+  - `missing catalog:` 0
+  - `missing map:` 0
+  - `missing both:` 0
+  - `unmatched:` 89
+  - `ambiguous:` 0
+  - `Nonunique Bases:` 235
+
+- **How to re-run coverage:**
+  - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
+
 ### 8.6 Languages of Oceania – Papuan & Pacific subset
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-oceania.json`
@@ -1065,13 +1077,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 159
+  - `fully wired:` 23
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 84
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 235
+  - `Nonunique Bases:` 22
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`

@@ -26085,6 +26085,27 @@
     "family": "Formosan"
   },
   {
+    "name": "Mantauran Rukai",
+    "iso": "rukai-mantauran",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Maga-Tona Rukai",
+    "iso": "rukai-maga-tona",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Budai-Labuan-Taromak Rukai",
+    "iso": "rukai-budai-labuan-taromak",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Tsou",
     "iso": "tsu",
     "region": "Pacific",
@@ -26117,6 +26138,62 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Papora%E2%80%93Hoanya_language"
   },
   {
+    "name": "Taokas",
+    "iso": "taokas",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Papora",
+    "iso": "papora",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Hoanya",
+    "iso": "hoanya",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Squliq Atayal",
+    "iso": "atayal-squliq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Ts'ole' Atayal",
+    "iso": "atayal-tsole",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Nataoran",
+    "iso": "ais",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Isbukun Bunun",
+    "iso": "bunun-isbukun",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Northern and Central Bunun",
+    "iso": "bunun-northern-central",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Saisiyat",
     "iso": "xsy",
     "region": "Pacific",
@@ -26147,6 +26224,20 @@
     "category": "Austronesian",
     "family": "Formosan",
     "wikipedia": "https://en.wikipedia.org/wiki/Atayal_language"
+  },
+  {
+    "name": "Squliq Atayal",
+    "iso": "atayal-squliq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Ts'ole' Atayal",
+    "iso": "atayal-tsole",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Seediq",
@@ -26189,6 +26280,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Amis_language"
   },
   {
+    "name": "Nataoran",
+    "iso": "ais",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Sakizaya",
     "iso": "szy",
     "region": "Pacific",
@@ -26203,6 +26301,20 @@
     "category": "Austronesian",
     "family": "Formosan",
     "wikipedia": "https://en.wikipedia.org/wiki/Siraya_language"
+  },
+  {
+    "name": "Isbukun Bunun",
+    "iso": "bunun-isbukun",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Northern and Central Bunun",
+    "iso": "bunun-northern-central",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Ubykh",

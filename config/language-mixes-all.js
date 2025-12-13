@@ -10079,6 +10079,14 @@
     "family": "Australian Aboriginal"
   },
   {
+    "name": "Gaagudju",
+    "iso": "gbu",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaagudju_language",
+    "family": "Australian Aboriginal"
+  },
+  {
     "name": "Gamilaraay",
     "iso": "gamilaraay",
     "region": "Australia",
@@ -10159,6 +10167,14 @@
     "family": "Australian Aboriginal"
   },
   {
+    "name": "Kungarakany",
+    "iso": "ggk",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kungarakany_language",
+    "family": "Australian Aboriginal"
+  },
+  {
     "name": "Kunwinjku",
     "iso": "kunwinjku",
     "region": "Australia",
@@ -10172,6 +10188,14 @@
     "region": "Australia",
     "category": "Australian Aboriginal",
     "wikipedia": "https://en.wikipedia.org/wiki/Kuuk_Thaayorre_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Laragia",
+    "iso": "lrg",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laragiya_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -10204,6 +10228,14 @@
     "region": "Australia",
     "category": "Australian Aboriginal",
     "wikipedia": "https://en.wikipedia.org/wiki/Maung_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Minkin",
+    "iso": "xxm",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Minkin_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -10303,11 +10335,35 @@
     "family": "Australian Aboriginal"
   },
   {
+    "name": "Umbugarla",
+    "iso": "umr",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Umbugarla_language",
+    "family": "Australian Aboriginal"
+  },
+  {
     "name": "Upper Arrernte",
     "iso": "upper-arrernte",
     "region": "Australia",
     "category": "Australian Aboriginal",
     "wikipedia": "https://en.wikipedia.org/wiki/Arrernte_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wadjiginy",
+    "iso": "wdj",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wadjiginy_language",
+    "family": "Australian Aboriginal"
+  },
+  {
+    "name": "Wagiman",
+    "iso": "waq",
+    "region": "Australia",
+    "category": "Australian Aboriginal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wagiman_language",
     "family": "Australian Aboriginal"
   },
   {
@@ -21320,6 +21376,13 @@
     ]
   },
   {
+    "name": "Budai-Labuan-Taromak Rukai",
+    "iso": "rukai-budai-labuan-taromak",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Bukawa",
     "iso": "buk",
     "region": "Pacific",
@@ -21978,6 +22041,13 @@
     ]
   },
   {
+    "name": "Hoanya",
+    "iso": "hoanya",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Hoia Hoia",
     "iso": "hoia-hoia",
     "region": "Pacific",
@@ -22064,6 +22134,20 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Isbukun Bunun",
+    "iso": "bunun-isbukun",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Isbukun Bunun",
+    "iso": "bunun-isbukun",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Javanese macro entry",
@@ -22613,6 +22697,13 @@
     "family": "Austronesian"
   },
   {
+    "name": "Maga-Tona Rukai",
+    "iso": "rukai-maga-tona",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Mailu",
     "iso": "mailu",
     "region": "Pacific",
@@ -22682,6 +22773,13 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Greater Awyu"
+  },
+  {
+    "name": "Mantauran Rukai",
+    "iso": "rukai-mantauran",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Maori",
@@ -22967,6 +23065,20 @@
     "family": "Austronesian"
   },
   {
+    "name": "Nataoran",
+    "iso": "ais",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Nataoran",
+    "iso": "ais",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Nauruan",
     "iso": "nauruan",
     "region": "Pacific",
@@ -23101,6 +23213,20 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Northern and Central Bunun",
+    "iso": "bunun-northern-central",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Northern and Central Bunun",
+    "iso": "bunun-northern-central",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Northern Formosan",
@@ -23252,6 +23378,13 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Trans–New Guinea"
+  },
+  {
+    "name": "Papora",
+    "iso": "papora",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Papora-Hoanya",
@@ -23691,6 +23824,20 @@
     "family": "Austronesian"
   },
   {
+    "name": "Squliq Atayal",
+    "iso": "atayal-squliq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Squliq Atayal",
+    "iso": "atayal-squliq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "St. Matthias",
     "iso": "st-matthias",
     "region": "Pacific",
@@ -23789,6 +23936,13 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Ok–Oksapmin"
+  },
+  {
+    "name": "Taokas",
+    "iso": "taokas",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Tauade",
@@ -23931,6 +24085,20 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Ts'ole' Atayal",
+    "iso": "atayal-tsole",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
+    "name": "Ts'ole' Atayal",
+    "iso": "atayal-tsole",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
   },
   {
     "name": "Tsaukambo",
