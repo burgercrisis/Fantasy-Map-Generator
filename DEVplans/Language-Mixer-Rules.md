@@ -140,6 +140,13 @@ Compliance thresholds for the dedicated base seed list:
 - **Normalized uniqueness:** at least **10** seed tokens that are unique to the ISO after normalization.
   - Normalization is defined as: lowercasing + removing diacritics + removing whitespace/punctuation (letters/numbers preserved).
 
+Enforcement posture:
+
+- These seed-uniqueness thresholds are an explicit **quality goal** and are tracked as **uniqueness debt** while the repo is being declustered.
+- They are **not** currently enforced as a suite “hard gate”.
+- To measure current compliance and track progress, use:
+  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+
 ### 4.2 Linguistic plausibility
 
 - `bases[]` should be individually plausible (for each individual language/dialect) with respect to:

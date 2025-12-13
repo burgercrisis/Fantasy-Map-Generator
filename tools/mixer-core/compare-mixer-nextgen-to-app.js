@@ -12,6 +12,112 @@ function readJson(relPath) {
   return JSON.parse(raw);
 }
 
+function normalizeForRealism(s) {
+  return typeof s === "string" ? s.trim().toLowerCase() : "";
+}
+
+function buildSeedCorpusFromBases(indices, bases) {
+  const uniq = Array.from(new Set(Array.isArray(indices) ? indices : []));
+  const out = [];
+  for (const idx of uniq) {
+    const base = bases && bases[idx];
+    const blob = base && typeof base.b === "string" ? base.b : "";
+    if (!blob) continue;
+    const parts = blob
+      .split(",")
+      .map(s => normalizeForRealism(s))
+      .filter(Boolean);
+    for (const p of parts) out.push(p);
+  }
+  return out;
+}
+
+function buildCharGramCounts(texts, n) {
+  const counts = new Map();
+  let total = 0;
+  const nn = typeof n === "number" && n > 0 ? n : 3;
+  const pad = "^".repeat(Math.max(0, nn - 1));
+  for (const raw of Array.isArray(texts) ? texts : []) {
+    const text = normalizeForRealism(raw);
+    if (!text) continue;
+    const s = pad + text + "$";
+    if (s.length < nn) continue;
+    for (let i = 0; i <= s.length - nn; i++) {
+      const g = s.slice(i, i + nn);
+      counts.set(g, (counts.get(g) || 0) + 1);
+      total++;
+    }
+  }
+  return {counts, total};
+}
+
+function buildCharLm(texts, n) {
+  const contexts = new Map();
+  const contextTotals = new Map();
+  const vocab = new Set();
+  const nn = typeof n === "number" && n > 1 ? n : 3;
+  const ctxLen = nn - 1;
+  const pad = "^".repeat(ctxLen);
+
+  for (const raw of Array.isArray(texts) ? texts : []) {
+    const text = normalizeForRealism(raw);
+    if (!text) continue;
+    for (const ch of text) vocab.add(ch);
+    const s = pad + text + "$";
+    if (s.length < nn) continue;
+    for (let i = ctxLen; i < s.length; i++) {
+      const ctx = s.slice(i - ctxLen, i);
+      const ch = s[i];
+      if (!contexts.has(ctx)) contexts.set(ctx, new Map());
+      const row = contexts.get(ctx);
+      row.set(ch, (row.get(ch) || 0) + 1);
+      contextTotals.set(ctx, (contextTotals.get(ctx) || 0) + 1);
+    }
+  }
+
+  const vocabSize = vocab.size + 1;
+
+  function scoreBpc(raw) {
+    const text = normalizeForRealism(raw);
+    if (!text) return {bpc: null, chars: 0, oovChars: 0};
+    const s = pad + text + "$";
+    let bits = 0;
+    let chars = 0;
+    let oovChars = 0;
+    for (let i = ctxLen; i < s.length; i++) {
+      const ctx = s.slice(i - ctxLen, i);
+      const ch = s[i];
+      const row = contexts.get(ctx);
+      const seen = row ? row.get(ch) || 0 : 0;
+      const denom = (contextTotals.get(ctx) || 0) + vocabSize;
+      const prob = (seen + 1) / denom;
+      bits += -Math.log2(prob);
+      chars++;
+      if (!vocab.has(ch) && ch !== "^" && ch !== "$" && ch !== " ") oovChars++;
+    }
+    return {bpc: chars ? bits / chars : null, chars, oovChars};
+  }
+
+  return {scoreBpc, vocabSize};
+}
+
+function computeJsDivergenceFromCounts(aCounts, aTotal, bCounts, bTotal) {
+  const keys = new Set();
+  for (const k of aCounts.keys()) keys.add(k);
+  for (const k of bCounts.keys()) keys.add(k);
+  const v = keys.size || 1;
+  const denomA = (aTotal || 0) + v;
+  const denomB = (bTotal || 0) + v;
+  let js = 0;
+  for (const k of keys) {
+    const pa = ((aCounts.get(k) || 0) + 1) / denomA;
+    const pb = ((bCounts.get(k) || 0) + 1) / denomB;
+    const m = (pa + pb) / 2;
+    js += 0.5 * (pa * Math.log2(pa / m) + pb * Math.log2(pb / m));
+  }
+  return js;
+}
+
 function makeMulberry32(seed) {
   if (seed === null || seed === undefined || Number.isNaN(seed)) {
     return () => Math.random();
@@ -5121,6 +5227,7 @@ function parseArgs(argv) {
   const maxSegmentsArg = getValue("--max-segments");
   const weightsArg = getValue("--weights");
   const minUniqueBasesArg = getValue("--min-unique-bases");
+  const realismArg = getValue("--realism");
 
   function collectCsvAfter(prefixes) {
     let collected = null;
@@ -5239,8 +5346,11 @@ function parseArgs(argv) {
   const minUniqueBases = minUniqueBasesArg != null ? parseInt(minUniqueBasesArg, 10) : null;
 
   const help = args.includes("--help") || args.includes("-h");
+  const realism =
+    args.includes("--realism") ||
+    (realismArg != null && realismArg !== "0" && realismArg !== "false" && realismArg !== "no");
 
-  return {iso, baseIndices, count, print, versions, seed, min, max, maxSegments, weights, minUniqueBases, help};
+  return {iso, baseIndices, count, print, versions, seed, min, max, maxSegments, weights, minUniqueBases, realism, help};
 }
 
 function printUsage() {
@@ -5258,13 +5368,14 @@ function printUsage() {
   console.log("  --max-segments=N      Segment cap for current app + nextgen (default 4).");
   console.log("  --min-unique-bases=N  Require at least N unique bases per generated name (default: 2 if multiple bases).");
   console.log("  --weights=a,b,c       Optional weights for base selection.");
+  console.log("  --realism             Print realism metrics (seed-corpus n-grams) at the end.");
   console.log("Examples:");
   console.log("  node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=amkoe --count=40 --seed=1");
   console.log("  node tools/mixer-core/compare-mixer-nextgen-to-app.js --base=353,354 --count=40 --seed=42 --min=15 --max=50");
 }
 
 function main() {
-  const {iso, baseIndices, count, print, versions, seed, min, max, maxSegments, weights, minUniqueBases, help} = parseArgs(process.argv);
+  const {iso, baseIndices, count, print, versions, seed, min, max, maxSegments, weights, minUniqueBases, realism, help} = parseArgs(process.argv);
   if (help || (!iso && (!baseIndices || !baseIndices.length))) {
     printUsage();
     return;
@@ -5946,6 +6057,55 @@ function main() {
     console.log(`  neverMixed: ${neverMixed.length}/${baseUniverse.length} ${formatBaseList(neverMixed)}`);
     console.log(`  usedButUnmixed: ${usedButUnmixed.length}/${baseUniverse.length} ${formatBaseList(usedButUnmixed)}`);
     console.log(`  unused: ${unused.length}/${baseUniverse.length} ${formatBaseList(unused)}`);
+  }
+
+  if (realism) {
+    const seedNames = buildSeedCorpusFromBases(indices, bases);
+    const seedNorm = seedNames.map(normalizeForRealism).filter(Boolean);
+    const seedSet = new Set(seedNorm);
+    const n = 3;
+    const lm = buildCharLm(seedNorm, n);
+    const seedGram = buildCharGramCounts(seedNorm, n);
+
+    const fmtNum = (x, digits) => (typeof x === "number" && Number.isFinite(x) ? x.toFixed(digits) : "n/a");
+    const summarizeBpc = rows => {
+      let totalBits = 0;
+      let totalChars = 0;
+      let totalOov = 0;
+      for (const r of rows) {
+        const {bpc, chars, oovChars} = lm.scoreBpc(r);
+        if (typeof bpc !== "number" || !Number.isFinite(bpc) || !chars) continue;
+        totalBits += bpc * chars;
+        totalChars += chars;
+        totalOov += typeof oovChars === "number" ? oovChars : 0;
+      }
+      const bpc = totalChars ? totalBits / totalChars : null;
+      const ppl = typeof bpc === "number" ? Math.pow(2, bpc) : null;
+      const oovRate = totalChars ? totalOov / totalChars : null;
+      return {bpc, ppl, oovRate, totalChars};
+    };
+
+    console.log("");
+    console.log(`=== Realism (seed-corpus char ${n}-grams) ===`);
+    console.log(
+      `seed names: ${seedNorm.length} unique=${seedSet.size} vocabSize≈${lm.vocabSize} trigramCount=${seedGram.total}`
+    );
+
+    for (const m of reportModeTexts) {
+      const gen = (m.texts || []).map(normalizeForRealism).filter(Boolean);
+      const genGram = buildCharGramCounts(gen, n);
+      const js = computeJsDivergenceFromCounts(seedGram.counts, seedGram.total, genGram.counts, genGram.total);
+      const copied = gen.filter(x => seedSet.has(x)).length;
+      const copyPct = gen.length ? (copied / gen.length) * 100 : 0;
+      const {bpc, ppl, oovRate, totalChars} = summarizeBpc(gen);
+
+      console.log(
+        `${m.name}: bpc=${fmtNum(bpc, 3)} ppl=${fmtNum(ppl, 2)} js=${fmtNum(js, 4)} oov=${fmtNum(
+          (oovRate || 0) * 100,
+          2
+        )}% copy=${copied}/${gen.length} (${fmtNum(copyPct, 1)}%) chars=${totalChars}`
+      );
+    }
   }
 }
 
