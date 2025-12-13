@@ -3024,7 +3024,6 @@ function runNextgenSyllableLinguistic({baseIndices, count, seed, min, max, weigh
   const segTextLists = [];
   const baseSeqs = [];
   const chosenBasesList = [];
-  const usedBasesCounts = [];
 
   const availableUniqueBases = Array.from(new Set(contexts.map(c => c.idx))).length;
   const requiredUniqueBases =

@@ -8,7 +8,7 @@
     { "name": "Aleut" },
     { "name": "Alutiiq (Sugpiaq)", "iso": "ems" },
     { "name": "Amuzgo" },
-    { "name": "Ancash Quechua" },
+    { "name": "Ancash Quechua", "iso": "que" },
     { "name": "Andoque" },
     { "name": "Araona" },
     { "name": "Arapaho" },
@@ -235,15 +235,16 @@
     { "name": "Yaminawa", "iso": "yaminawa" },
     { "name": "Yanomamö", "iso": "yanomami" },
     { "name": "Yaqui" },
-    { "name": "Yaru Quechua" },
+    { "name": "Yaru Quechua", "iso": "que" },
     { "name": "Yavapai", "iso": "yuf" },
     { "name": "Yucatec Maya", "iso": "yucatec-maya" },
     { "name": "Yukpa", "iso": "yukpa" },
     { "name": "Yup'ik (Central Alaskan) and Yupik (Siberian)", "iso": "yup", "skip": true },
     { "name": "Yuracaré", "iso": "yuz" },
     { "name": "Yurok" },
-    { "name": "Zacatepec Mixtec" },
+    { "name": "Zacatepec Mixtec", "iso": "mixtec" },
     { "name": "Zapotec" },
-    { "name": "Zuni" }
+    { "name": "Zuni" },
+    { "name": "Ancash Quechua", "iso": "que" }
   ]
 }

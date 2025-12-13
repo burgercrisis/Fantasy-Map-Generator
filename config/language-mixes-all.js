@@ -20970,6 +20970,13 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Tewa",
+    "iso": "tew",
+    "region": "North America",
+    "category": "Kiowa–Tanoan",
+    "family": "Kiowa–Tanoan"
+  },
+  {
     "name": "Tłįchǫ",
     "iso": "dgr",
     "region": "North America",
@@ -21032,6 +21039,13 @@
     "category": "Uto-Aztecan",
     "wikipedia": "https://en.wikipedia.org/wiki/Yaqui_language",
     "family": "Uto-Aztecan"
+  },
+  {
+    "name": "Yavapai",
+    "iso": "yuf",
+    "region": "North America",
+    "category": "Yuman",
+    "family": "Yuman"
   },
   {
     "name": "Yurok",
@@ -26714,11 +26728,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Shuar_language"
   },
   {
+    "name": "Siona",
+    "iso": "snn",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
+  },
+  {
     "name": "Siriano",
     "iso": "sri",
     "region": "South America",
     "category": "Tucanoan",
     "family": "Tucanoan"
+  },
+  {
+    "name": "Sirionó",
+    "iso": "srq",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian"
   },
   {
     "name": "Southern Quechua",
@@ -26754,6 +26782,13 @@
     "region": "South America",
     "category": "Tucanoan",
     "family": "Tucanoan"
+  },
+  {
+    "name": "Terêna",
+    "iso": "ter",
+    "region": "South America",
+    "category": "Arawakan",
+    "family": "Arawakan"
   },
   {
     "name": "Tikuna",

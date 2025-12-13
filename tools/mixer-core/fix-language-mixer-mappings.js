@@ -459,7 +459,12 @@ const explicitIsoBasesMap = {
   khortha: [183, 201, 202, 288],
   mtr: [183, 201, 202, 289],
   wbr: [183, 201, 202, 205, 288],
-  wry: [183, 201, 202, 205, 289]
+  wry: [183, 201, 202, 205, 289],
+  bgq: [183, 202, 288],
+  rajasthani: [183, 202, 289],
+  bodo: [61, 63],
+  dis: [63, 64],
+  rah: [63, 65]
 };
 
 function readJson(relPath) {
