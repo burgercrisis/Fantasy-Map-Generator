@@ -5,6 +5,8 @@ auto_execution_mode: 1
 
 Use this workflow together with `/wikipedia1` for **mutually intelligible languages – full article list** (§8.34b).
 
+Must preserve append-only registry; never delete ISOs.
+
 1. Treat `tools/mixer-meta/wikipedia-mutually-intelligible-languages-full.json` as the current list JSON.
 2. Follow `/wikipedia1`, but with special attention to base design:
    - Use the list as a reminder where very close bases/mixes may be justified.

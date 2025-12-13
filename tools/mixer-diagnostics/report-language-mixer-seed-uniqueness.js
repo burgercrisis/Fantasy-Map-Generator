@@ -60,12 +60,23 @@ function parseArgs(argv) {
   const includeFamilies = args.includes("--include-families");
   const onlyFailures = args.includes("--only-failures");
 
+  const onlyArg = args.find(a => a.startsWith("--only="));
+  const onlyIsos = onlyArg
+    ? onlyArg
+        .split("=")
+        .slice(1)
+        .join("=")
+        .split(",")
+        .map(s => s.trim())
+        .filter(Boolean)
+    : [];
+
   const limitArg = args.find(a => a.startsWith("--limit="));
   const limit = limitArg ? parseInt(limitArg.split("=")[1], 10) : 60;
 
   const help = args.includes("--help") || args.includes("-h");
 
-  return {includeFamilies, onlyFailures, limit, help};
+  return {includeFamilies, onlyFailures, onlyIsos, limit, help};
 }
 
 function printUsage() {
@@ -75,6 +86,7 @@ function printUsage() {
   console.log("Options:");
   console.log("  --include-families   Include tags:[\"family\"] catalog entries in the report.");
   console.log("  --only-failures      Print only rows that fail at least one rule.");
+  console.log("  --only=iso1,iso2     Restrict targets to the specified ISO codes.");
   console.log("  --limit=N            Max rows to print (default: 60).");
 }
 
@@ -83,7 +95,7 @@ function isFamilyEntry(entry) {
 }
 
 function main() {
-  const {includeFamilies, onlyFailures, limit, help} = parseArgs(process.argv);
+  const {includeFamilies, onlyFailures, onlyIsos, limit, help} = parseArgs(process.argv);
   if (help) {
     printUsage();
     return;

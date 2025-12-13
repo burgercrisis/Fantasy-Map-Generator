@@ -5,6 +5,8 @@ auto_execution_mode: 1
 
 Use this workflow together with `/wikipedia1` when working on the **List of languages by number of native speakers** subset JSON.
 
+Must preserve append-only registry; never delete ISOs.
+
 1. Treat `tools/mixer-meta/wikipedia-list-languages-by-native-speakers.json` as the **current list JSON**.
 2. Follow the `/wikipedia1` workflow exactly, scoped to this list:
    - Use coverage helpers on this JSON.

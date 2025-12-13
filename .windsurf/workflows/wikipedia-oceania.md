@@ -5,6 +5,8 @@ auto_execution_mode: 1
 
 Use this workflow together with `/wikipedia1` for **Languages of Oceania – full page language mentions snapshot** (§8.6).
 
+Must preserve append-only registry; never delete ISOs.
+
 1. Treat `tools/mixer-meta/wikipedia-languages-of-oceania.json` as the current list JSON.
 2. Follow `/wikipedia1` exactly, scoped to this list:
    - Use the coverage helpers on this JSON.

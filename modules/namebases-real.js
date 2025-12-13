@@ -296,5 +296,9 @@ window.realWorldNameBases = [
       {name: "Central Marchigiano", i: 640, min: 4, max: 11, d: "lnrt", m: 0, b: "Ancona,Jesi,Senigallia,Fabriano,Macerata,Civitanova Marche,Fermo,Ascoli Piceno,Recanati,Osimo,Urbino,Pesaro"},
       {name: "Central Metafonetica", i: 641, min: 4, max: 11, d: "lnrt", m: 0, b: "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca"},
       {name: "Central-Southern Calabrian", i: 642, min: 4, max: 11, d: "lnrt", m: 0, b: "Catanzaro,Lamezia Terme,Vibo Valentia,Nicotera,Tropea,Pizzo,Soverato,Chiaravalle Centrale,Serra San Bruno,Soriano Calabro,Mileto,Squillace"},
-      {name: "Canadian French", i: 650, min: 4, max: 11, d: "lnrt", m: 0, b: "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"}
+      {name: "Canadian French", i: 650, min: 4, max: 11, d: "lnrt", m: 0, b: "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"},
+
+      {name: "Butler English", i: 665, min: 4, max: 11, d: "lnrt", m: 0, b: "butlerenglishmemsahib,butlerenglishkhansamah,butlerenglishtiffinwallah,butlerenglishdakbungalow,butlerenglishpukka,butlerenglishburra,butlerenglishnautch,butlerenglishayah,butlerenglishshikari,butlerenglishwallah,butlerenglishghat,butlerenglishraj"},
+      {name: "Kru Pidgin English", i: 666, min: 4, max: 11, d: "lnrt", m: 0, b: "krupidginpalaver,krupidginsmallsmall,krupidginplentybook,krupidginpeppersoup,krupidgincassava,krupidgingbagba,krupidginkpalongo,krupidginsenesi,krupidginnyenbo,krupidginjojo,krupidginbush,krupidginmarket"},
+      {name: "Liberian Interior Pidgin English", i: 667, min: 4, max: 11, d: "lnrt", m: 0, b: "libintpidginhowfar,libintpidginmypeople,libintpidginleh,libintpidginweh,libintpidginbookman,libintpidginbrushmouth,libintpidginheartman,libintpidginyaanbo,libintpidginkpokpo,libintpidginnyenbo,libintpidginpeople,libintpidgintown"}
     ];

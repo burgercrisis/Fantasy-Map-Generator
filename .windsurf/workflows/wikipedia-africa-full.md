@@ -5,6 +5,8 @@ auto_execution_mode: 1
 
 Use this workflow together with `/wikipedia1` when working on the **Languages of Africa – full table snapshot** list.
 
+Must preserve append-only registry; never delete ISOs.
+
 1. Treat `tools/mixer-meta/wikipedia-languages-of-africa-full.json` as the **current list JSON**.
 2. Follow the `/wikipedia1` workflow exactly, but scoped to this list:
    - Use the coverage helpers against this JSON.

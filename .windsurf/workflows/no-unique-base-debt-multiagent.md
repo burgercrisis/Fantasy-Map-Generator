@@ -140,10 +140,18 @@ After edits:
 pnpm exec node tools/mixer-core/run-language-mixer-suite.js
 ```
 
+This regenerates the derived bundles (`config/language-mixes-all.js` and `config/language-mixer-map.js`) as part of the normal workflow.
+
 2. Re-run the report and confirm your batch is improved:
 
 ```bash
 pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
+```
+
+3. Confirm you did not introduce any identical `bases[]` set collisions:
+
+```bash
+pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
 ```
 
 ## D) Finish the claim
