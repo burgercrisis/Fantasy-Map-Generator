@@ -11167,6 +11167,14 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Wounaan",
+    "iso": "noa",
+    "region": "Central America",
+    "category": "Chocoan",
+    "family": "Chocoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wounaan_language"
+  },
+  {
     "name": "Kazakh",
     "iso": "kazakh",
     "region": "Central Asia",
@@ -20798,6 +20806,14 @@
     "family": "Uto-Aztecan"
   },
   {
+    "name": "Tanacross",
+    "iso": "tcb",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tanacross_language"
+  },
+  {
     "name": "Tarahumara",
     "iso": "tarahumara",
     "region": "North America",
@@ -20812,6 +20828,14 @@
     "category": "Na-Dene",
     "wikipedia": "https://en.wikipedia.org/wiki/Tlingit_language",
     "family": "Na-Dene"
+  },
+  {
+    "name": "Tuscarora",
+    "iso": "tus",
+    "region": "North America",
+    "category": "Iroquoian",
+    "family": "Iroquoian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuscarora_language"
   },
   {
     "name": "Ute",
@@ -26346,6 +26370,22 @@
     "family": "Portuguese"
   },
   {
+    "name": "Mocoví",
+    "iso": "moc",
+    "region": "South America",
+    "category": "Guaicuruan",
+    "family": "Guaicuruan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mocov%C3%AD_language"
+  },
+  {
+    "name": "Munduruku",
+    "iso": "myu",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Munduruku_language"
+  },
+  {
     "name": "Ndyuka",
     "iso": "ndyuka",
     "region": "South America",
@@ -26363,6 +26403,14 @@
     "category": "Tupian",
     "wikipedia": "https://en.wikipedia.org/wiki/Nheengatu",
     "family": "Tupian"
+  },
+  {
+    "name": "Nivaclé",
+    "iso": "cag",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nivacl%C3%A9_language"
   },
   {
     "name": "Paraguayan Spanish",
@@ -26611,6 +26659,22 @@
     "family": "Arawakan"
   },
   {
+    "name": "Xavante",
+    "iso": "xav",
+    "region": "South America",
+    "category": "Macro-Jê",
+    "family": "Macro-Jê",
+    "wikipedia": "https://en.wikipedia.org/wiki/Xavante_language"
+  },
+  {
+    "name": "Xerente",
+    "iso": "xer",
+    "region": "South America",
+    "category": "Macro-Jê",
+    "family": "Macro-Jê",
+    "wikipedia": "https://en.wikipedia.org/wiki/Xerente_language"
+  },
+  {
     "name": "Xocó",
     "iso": "xoc-",
     "region": "South America",
@@ -26619,6 +26683,14 @@
     "tags": [
       "extinct"
     ]
+  },
+  {
+    "name": "Yahgan",
+    "iso": "yag",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Yahgan isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yahgan_language"
   },
   {
     "name": "Yaminawa",

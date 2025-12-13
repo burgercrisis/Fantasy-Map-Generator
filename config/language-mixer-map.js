@@ -25764,6 +25764,60 @@
     ]
   },
   {
+    "iso": "tcb",
+    "bases": [
+      415
+    ]
+  },
+  {
+    "iso": "cag",
+    "bases": [
+      422
+    ]
+  },
+  {
+    "iso": "moc",
+    "bases": [
+      422
+    ]
+  },
+  {
+    "iso": "myu",
+    "bases": [
+      173
+    ]
+  },
+  {
+    "iso": "noa",
+    "bases": [
+      422
+    ]
+  },
+  {
+    "iso": "tus",
+    "bases": [
+      219
+    ]
+  },
+  {
+    "iso": "xav",
+    "bases": [
+      292
+    ]
+  },
+  {
+    "iso": "xer",
+    "bases": [
+      292
+    ]
+  },
+  {
+    "iso": "yag",
+    "bases": [
+      178
+    ]
+  },
+  {
     "iso": "katuic",
     "bases": [
       335
