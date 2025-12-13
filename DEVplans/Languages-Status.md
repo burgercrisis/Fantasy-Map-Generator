@@ -1830,7 +1830,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 11
-  - `Nonunique Bases:` 16
+  - `Nonunique Bases:` 15
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 21
   - `clustered bases:` 0
@@ -1851,7 +1851,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 18
-  - `Nonunique Bases:` 21
+  - `Nonunique Bases:` 18
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 27
   - `clustered bases:` 0
@@ -1872,7 +1872,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 17
-  - `Nonunique Bases:` 18
+  - `Nonunique Bases:` 17
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 22
   - `clustered bases:` 0

@@ -216,5 +216,8 @@ window.realWorldNameBases = [
       {name: "Bunun (Isbukun)", i: 560, min: 4, max: 11, d: "lnrt", m: 0, b: "Xinyi,Tongpu,Meishan,Chinai,Dongpu,Shuili,Puli,Yuchi,Renai,Cingjing,Hehuanshan,Nantou"},
       {name: "Bunun (Northern-Central)", i: 561, min: 4, max: 11, d: "lnrt", m: 0, b: "Renai,Wushe,Qingjing,Hehuanshan,Puli,Nantou,Hualien,Shoufeng,Fenglin,Ruisui,Guanshan,Taitung"},
       {name: "Basay", i: 562, min: 4, max: 11, d: "lnrt", m: 0, b: "Keelung,Taipei,Tamsui,Beitou,Shilin,Songshan,Neihu,Banqiao,Sanchong,Xinzhuang,Yilan,Toucheng"},
-      {name: "Babuza", i: 563, min: 4, max: 11, d: "lnrt", m: 0, b: "Taichung,Changhua,Lukang,Yuanlin,Wufeng,Dadu,Shalu,Qingshui,Fengyuan,Taiping,Ershui,Tianzhong"}
+      {name: "Babuza", i: 563, min: 4, max: 11, d: "lnrt", m: 0, b: "Taichung,Changhua,Lukang,Yuanlin,Wufeng,Dadu,Shalu,Qingshui,Fengyuan,Taiping,Ershui,Tianzhong"},
+      {name: "Amis", i: 564, min: 4, max: 11, d: "lnrt", m: 0, b: "Hualien,Taitung,Yuli,Fengbin,Guangfu,Ruisui,Chenggong,Dulan,Beinan,Guanshan,Changbin,Fuli"},
+      {name: "Atayal (Squliq)", i: 565, min: 4, max: 11, d: "lnrt", m: 0, b: "Wulai,Smangus,Jianshi,Nanzhuang,Beipu,Fuxing,Lalashan,Sansia,Jiaoxi,Datong,Nanao,Luodong"},
+      {name: "Atayal (Ts'ole')", i: 566, min: 4, max: 11, d: "lnrt", m: 0, b: "Pinglin,Shiding,Shuangxi,Gongliao,Sanzhi,Jinshan,Sanxia,Tucheng,Banqiao,Xindian,Keelung,Yilan"}
     ];
