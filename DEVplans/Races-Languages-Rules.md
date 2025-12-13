@@ -98,6 +98,12 @@ Design implication:
 - Paying down this uniqueness debt will routinely involve **introducing new bases** (for example, by splitting over-broad macro hubs into multiple more precise bases) in addition to reassigning mixes; those base-creation steps are coordinated with the language devplans rather than being left as perpetual shared clusters.
 - All the race and culture mapping described in this document assumes that these underlying bases are accurate; passes over `language-mixer-map.json`, `language-mixes*.json`, and the mixer QA tools are used to enforce this over time by surfacing and burning down shared-base clusters.
 
+Seed-uniqueness posture:
+
+- The language layer also tracks seed-uniqueness thresholds as an explicit **quality goal** (tracked as debt while declustering), and they are **not** enforced as a suite “hard gate”.
+- To measure current compliance and track progress, use:
+  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+
 ---
 
 ## 2. From cultures to races
