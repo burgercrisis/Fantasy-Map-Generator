@@ -26714,6 +26714,13 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Shuar_language"
   },
   {
+    "name": "Siriano",
+    "iso": "sri",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
+  },
+  {
     "name": "Southern Quechua",
     "iso": "southern-quechua",
     "region": "South America",
@@ -26742,6 +26749,13 @@
     "lexifier": "English"
   },
   {
+    "name": "Tatuyo",
+    "iso": "tav",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
+  },
+  {
     "name": "Tikuna",
     "iso": "tikuna",
     "region": "South America",
@@ -26764,6 +26778,13 @@
     "category": "Language isolate",
     "family": "Tsimané isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Tsiman%C3%A9_language"
+  },
+  {
+    "name": "Tukano",
+    "iso": "tuo",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
   },
   {
     "name": "Tupi",
@@ -26816,6 +26837,13 @@
     "category": "Cariban",
     "wikipedia": "https://en.wikipedia.org/wiki/Waiwai_language",
     "family": "Cariban"
+  },
+  {
+    "name": "Wanano",
+    "iso": "gvc",
+    "region": "South America",
+    "category": "Tucanoan",
+    "family": "Tucanoan"
   },
   {
     "name": "Wapishana",

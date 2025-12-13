@@ -134,6 +134,12 @@ Important nuance:
 - A base index being globally unique guarantees a unique *pointer*.
 - To better match the “unique words” intent, the dedicated base’s seed list (`b`) should ideally include at least some language-specific seed items (i.e., not only reusing seed strings that already exist in other bases). If this is not possible immediately, a derived seed list (copied/curated from the language’s existing mapped bases) is acceptable as a placeholder, but should be treated as quality debt until language-specific seeds are introduced.
 
+Compliance thresholds for the dedicated base seed list:
+
+- **Strict uniqueness:** at least **1** seed token that is unique to the ISO under strict string equality.
+- **Normalized uniqueness:** at least **10** seed tokens that are unique to the ISO after normalization.
+  - Normalization is defined as: lowercasing + removing diacritics + removing whitespace/punctuation (letters/numbers preserved).
+
 ### 4.2 Linguistic plausibility
 
 - `bases[]` should be individually plausible (for each individual language/dialect) with respect to:
@@ -240,7 +246,7 @@ Reference index:
   - Always prioritize expressing uniqueness through new bases dedicated individually towards linguistic accuracy to the best of the ability online research and knowledge allows.
 
 - **Family macro semantics**
-  - `tags: ["family"]` entries are organization-only and are not required to have mappings (they are expected to be skipped by the UI and by “failure” checks).
+  - `tags: ["family"]` entries are required to have mappings, these will be used later.
 
 - **How “synthetic ISO keys” should be formatted**
   - Naming rules for synthetic ISO keys should be formalized as `["language"]` an if there are multiple languages with distinctive names, `["language"]-["family"]`
