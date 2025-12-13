@@ -1,0 +1,14 @@
+﻿List title: Wikipedia: Formosan language families - Li (2008)
+Source: https://en.wikipedia.org/wiki/Formosan_languages
+Total items: 47
+  considered: 21
+  skipped:    26
+
+Coverage summary (considered items only):
+  fully wired:       21 (100.0% of considered)
+  missing catalog:   0
+  missing map:       0
+  missing both:      0
+  unmatched name:    0
+  ambiguous matches: 0
+  Nonunique Bases:   21

@@ -1065,11 +1065,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 132
+  - `fully wired:` 159
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 111
+  - `unmatched:` 84
   - `ambiguous:` 0
   - `Nonunique Bases:` 235
 
@@ -1678,13 +1678,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Source:** https://en.wikipedia.org/wiki/Formosan_languages
 - **Status tier:** **Untriaged (auto-registered)**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 5
+  - `fully wired:` 21
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 22
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 27
+  - `Nonunique Bases:` 21
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 0
   - `clustered bases:` 5
