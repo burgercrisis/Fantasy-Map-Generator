@@ -11,15 +11,19 @@ Seed-uniqueness goal (tracked, not gated):
 - To measure current compliance and track progress, use:
   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
-Latest seed-uniqueness report snapshot (2025-12-13):
+ Latest seed-uniqueness report snapshot (2025-12-13):
 
 - Target ISOs: 3366
 - Missing mapping: 0
-- No globally-unique base index: 3254
+- No globally-unique base index: 3252
 - Strict unique seeds below threshold (among those with unique base): 4
 - Normalized unique seeds below threshold (among those with unique base): 43
 
-- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Formosan/Taiwan batch):** added dedicated bases `559–563` for `bunun`, `bunun-isbukun`, `bunun-northern-central`, `byq`, `bzg` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`).
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Formosan/Taiwan batch):** added dedicated bases `559–563` for `bunun`, `bunun-isbukun`, `bunun-northern-central`, `byq`, `bzg` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`, `norm<10`).
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (reserved-bases batch):** appended reserved bases `539, 540, 543–547, 556, 558` to `mardijker-creole`, `tetum`, `abui`, `angal`, `asmat`, `asmat-citak`, `asmat-kamoro`, `kamoro`, `kenati` in `config/language-mixer-map.json`. Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`).
+
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / Italy dialects):** added dedicated bases `567–571` for `bustocco-legnanese`, `cadorino`, `calabro`, `campano`, `campidanese` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (all `strictOK`; `campano`/`campidanese` still `norm<10`).
 
 Throughout this devplan, `config/language-mixes.json` and `config/language-mixer-map.json` are treated as **append-only language registries**. Once a language ISO exists in either file it should not be deleted; cleanup and uniqueness passes only adjust `bases[]`, metadata, or add new entries. If an earlier revision contained a language that is now missing, that is treated as data loss to be repaired by restoring the language from history rather than as an intentional deletion.
 
@@ -904,8 +908,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unique bases:` 159
   - `clustered bases:` 17
   - `clustered full items:` 17
-  - `cluster size histogram:` size2=10, size3=3, size4+=4
-  - `clustered isos:` egyptian-arabic(34), eastern-mari(23), komi-zyryan(23), hin(4), arpitan(3), guarani(3), ladin-lang(3), aranese(2), central-mansi(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), gujarati(2), maithili(2), nah(2), nenets(2), northern-sami(2)
+  - `cluster size histogram:` size2=11, size3=2, size4+=4
+  - `clustered isos:` egyptian-arabic(34), eastern-mari(23), komi-zyryan(23), hin(4), arpitan(3), guarani(3), aranese(2), central-mansi(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), gujarati(2), ladin-lang(2), maithili(2), nah(2), nenets(2), northern-sami(2)
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -964,7 +968,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 84
+  - `Nonunique Bases:` 83
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 63
@@ -1189,14 +1193,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 92
+  - `Nonunique Bases:` 90
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 83
-  - `clustered bases:` 14
-  - `clustered full items:` 14
-  - `cluster size histogram:` size2=11, size3=1, size4+=2
-  - `clustered isos:` okinawan(11), hin(4), dzongkha(3), balti(2), bikol(2), chhattisgarhi(2), chin(2), gujarati(2), kapampangan(2), maithili(2), mnw(2), tetum(2), tibetan(2), yakut(2)
+  - `unique bases:` 84
+  - `clustered bases:` 13
+  - `clustered full items:` 13
+  - `cluster size histogram:` size2=10, size3=1, size4+=2
+  - `clustered isos:` okinawan(11), hin(4), dzongkha(3), balti(2), bikol(2), chhattisgarhi(2), chin(2), gujarati(2), kapampangan(2), maithili(2), mnw(2), tibetan(2), yakut(2)
 
 ### 8.12 East Asian languages – classification proposals (macro helper)
 
@@ -1246,7 +1250,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 59
-  - `Nonunique Bases:` 159
+  - `Nonunique Bases:` 158
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 151
@@ -1301,7 +1305,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 3
-  - `Nonunique Bases:` 39
+  - `Nonunique Bases:` 38
 
 - **Base-set uniqueness (full items only):**
   - `unique bases:` 37
@@ -1335,7 +1339,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 88
+  - `Nonunique Bases:` 87
 
 - **Base-set uniqueness (full items only):**
   - `unique bases:` 67
@@ -1365,7 +1369,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 2
-  - `Nonunique Bases:` 141
+  - `Nonunique Bases:` 139
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 43

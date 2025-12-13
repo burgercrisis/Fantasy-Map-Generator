@@ -219,5 +219,21 @@ window.realWorldNameBases = [
       {name: "Babuza", i: 563, min: 4, max: 11, d: "lnrt", m: 0, b: "Taichung,Changhua,Lukang,Yuanlin,Wufeng,Dadu,Shalu,Qingshui,Fengyuan,Taiping,Ershui,Tianzhong"},
       {name: "Amis", i: 564, min: 4, max: 11, d: "lnrt", m: 0, b: "Hualien,Taitung,Yuli,Fengbin,Guangfu,Ruisui,Chenggong,Dulan,Beinan,Guanshan,Changbin,Fuli"},
       {name: "Atayal (Squliq)", i: 565, min: 4, max: 11, d: "lnrt", m: 0, b: "Wulai,Smangus,Jianshi,Nanzhuang,Beipu,Fuxing,Lalashan,Sansia,Jiaoxi,Datong,Nanao,Luodong"},
-      {name: "Atayal (Ts'ole')", i: 566, min: 4, max: 11, d: "lnrt", m: 0, b: "Pinglin,Shiding,Shuangxi,Gongliao,Sanzhi,Jinshan,Sanxia,Tucheng,Banqiao,Xindian,Keelung,Yilan"}
+      {name: "Atayal (Ts'ole')", i: 566, min: 4, max: 11, d: "lnrt", m: 0, b: "Pinglin,Shiding,Shuangxi,Gongliao,Sanzhi,Jinshan,Sanxia,Tucheng,Banqiao,Xindian,Keelung,Yilan"},
+      {name: "Bustocco-Legnanese", i: 567, min: 4, max: 11, d: "lnrt", m: 0, b: "Busto Arsizio,Legnano,Gallarate,Saronno,Tradate,Varese,Busto Garolfo,Cassano Magnago,Castellanza,Olgiate Olona,Gorla Minore,Fagnano Olona"},
+      {name: "Cadorino", i: 568, min: 4, max: 11, d: "lnrt", m: 0, b: "Pieve di Cadore,Cortina d'Ampezzo,Auronzo di Cadore,Santo Stefano di Cadore,Calalzo di Cadore,Domegge di Cadore,Lozzo di Cadore,Borca di Cadore,San Vito di Cadore,Vigo di Cadore,Valle di Cadore,Lorenzago di Cadore"},
+      {name: "Calabro", i: 569, min: 4, max: 11, d: "lnrt", m: 0, b: "Reggio Calabria,Cosenza,Catanzaro,Crotone,Vibo Valentia,Lamezia Terme,Gioia Tauro,Locri,Rossano,Soverato,Paola,Scalea"},
+      {name: "Campano", i: 570, min: 4, max: 11, d: "lnrt", m: 0, b: "Napoli,Salerno,Avellino,Benevento,Caserta,Torre del Greco,Pozzuoli,Giugliano in Campania,Nocera Inferiore,Aversa,Sorrento,Capua"},
+      {name: "Campidanese", i: 571, min: 4, max: 11, d: "lnrt", m: 0, b: "Cagliari,Quartu Sant'Elena,Assemini,Monserrato,Selargius,Capoterra,Decimomannu,Sestu,Villasimius,Iglesias,Carbonia,Sanluri"},
+      {name: "Canarian", i: 572, min: 4, max: 11, d: "lnrt", m: 0, b: "Las Palmas de Gran Canaria,Santa Cruz de Tenerife,San Cristobal de La Laguna,Telde,Arrecife,Puerto del Rosario,Los Llanos de Aridane,Adeje,La Orotava,Arona,Icod de los Vinos,Galdar"},
+      {name: "Campano", i: 570, min: 4, max: 11, d: "lnrt", m: 0, b: "Napoli,Salerno,Avellino,Benevento,Caserta,Torre del Greco,Pozzuoli,Giugliano in Campania,Nocera Inferiore,Aversa,Sorrento,Capua"},
+      {name: "Campidanese", i: 571, min: 4, max: 11, d: "lnrt", m: 0, b: "Cagliari,Quartu Sant'Elena,Assemini,Monserrato,Selargius,Capoterra,Decimomannu,Sestu,Villasimius,Iglesias,Carbonia,Sanluri"},
+      {name: "Akkala Sami", i: 575, min: 4, max: 11, d: "lnrt", m: 0, b: "Kola,Lovozero,Olenegorsk,Revda,Umba,Kandalaksha,Apatity,Kirovsk,Monchegorsk,Polyarnye Zori,Severomorsk,Murmansk"},
+      {name: "Finnmark Sami", i: 576, min: 4, max: 11, d: "lnrt", m: 0, b: "Karasjok,Kautokeino,Alta,Hammerfest,Lakselv,Porsanger,Vadsø,Vardø,Tana,Kirkenes,Mehamn,Berlevåg"},
+      {name: "Inari Sami", i: 577, min: 4, max: 11, d: "lnrt", m: 0, b: "Inari,Ivalo,Saariselkä,Nellim,Kaamanen,Utsjoki,Enontekiö,Sodankylä,Rovaniemi,Vuotso,Muotka,Nuorgam"},
+      {name: "Kainuu Sami", i: 578, min: 4, max: 11, d: "lnrt", m: 0, b: "Kajaani,Sotkamo,Kuhmo,Suomussalmi,Hyrynsalmi,Paltamo,Ristijärvi,Puolanka,Vaala,Utajärvi,Kuusamo,Oulu"},
+      {name: "Kemi Sami", i: 579, min: 4, max: 11, d: "lnrt", m: 0, b: "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla"},
+      {name: "Kildin Sami", i: 580, min: 4, max: 11, d: "lnrt", m: 0, b: "Lovozero,Revda,Umba,Kirovsk,Apatity,Monchegorsk,Olenegorsk,Kandalaksha,Murmansk,Polyarny,Snezhnogorsk,Zaozersk"},
+      {name: "Lule Sami", i: 581, min: 4, max: 11, d: "lnrt", m: 0, b: "Jokkmokk,Gällivare,Kiruna,Luleå,Boden,Örrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,Sörkaitum"}
+    ];
     ];

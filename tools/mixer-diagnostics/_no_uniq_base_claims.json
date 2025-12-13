@@ -3,6 +3,24 @@
   "claims": [
     {
       "workerId": 1,
+      "batchId": "2025-12-13T11:11:00Z-worker1",
+      "isos": [
+        "ami",
+        "atayal-squliq",
+        "atayal-tsole",
+        "bunun",
+        "bunun-isbukun",
+        "bunun-northern-central",
+        "byq",
+        "bzg"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T11:11:00Z",
+      "updatedAt": "2025-12-13T11:58:00Z",
+      "notes": "Completed Formosan/Taiwan slice. Ensured globally-unique base per ISO: existing reserved bases 559–563 used by bunun/bunun-isbukun/bunun-northern-central/byq/bzg; appended new bases 564–566 (Amis + Atayal variants) and wired to ami/atayal-squliq/atayal-tsole. Verified with run-language-mixer-suite + seed-uniqueness report (no failures for this batch)."
+    },
+    {
+      "workerId": 1,
       "batchId": "2025-12-13T11:15:00Z-worker1",
       "isos": [
         "bunun",
@@ -15,6 +33,78 @@
       "startedAt": "2025-12-13T11:15:00Z",
       "updatedAt": "2025-12-13T11:25:00Z",
       "notes": "Complete. Added reserved bases 539–558 (they were missing) and created dedicated bases 559–563 for: bunun->559, bunun-isbukun->560, bunun-northern-central->561, byq->562, bzg->563. Appended those base indices to each ISO in config/language-mixer-map.json. Verified via run-language-mixer-suite + seed-uniqueness report: each ISO now shows uniqBase (strictOK)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-13T11:35:00Z-worker1",
+      "isos": [
+        "mardijker-creole",
+        "tetum",
+        "abui",
+        "angal",
+        "asmat",
+        "asmat-citak",
+        "asmat-kamoro",
+        "kamoro",
+        "kenati"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T11:35:00Z",
+      "updatedAt": "2025-12-13T11:45:00Z",
+      "notes": "Complete. Appended reserved dedicated bases 539–558 to claimed ISOs: mardijker-creole->539, tetum->540, abui->543, angal->544, asmat->545, asmat-citak->546, asmat-kamoro->547, kamoro->556, kenati->558. Verified via run-language-mixer-suite + seed-uniqueness report: each now reports uniqBase (strictOK)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-13T11:55:00Z-worker1",
+      "isos": [
+        "sat",
+        "rbb",
+        "becking-dawi",
+        "benabena",
+        "bimin",
+        "gadsup",
+        "gahuku",
+        "gogodala",
+        "awiyaana",
+        "kasua",
+        "kerewo"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T11:55:00Z",
+      "updatedAt": "2025-12-13T11:55:00Z",
+      "notes": "Using remaining reserved dedicated bases 541–558: sat->541, rbb->542, becking-dawi->548, benabena->549, bimin->550, gadsup->551, gahuku->552, gogodala->553, awiyaana->554, kasua->555, kerewo->557. Plan: append these base indices to each ISO's bases[] in config/language-mixer-map.json and verify they now report uniqBase."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-13T11:59:00Z-worker2",
+      "isos": [
+        "bustocco-legnanese",
+        "cadorino",
+        "calabro",
+        "campano",
+        "campidanese"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T11:59:00Z",
+      "updatedAt": "2025-12-13T12:05:00Z",
+      "notes": "Complete. Added dedicated bases 567–571 in modules/namebases-real.js and wired: bustocco-legnanese->567, cadorino->568, calabro->569, campano->570, campidanese->571 (appended to bases[] in config/language-mixer-map.json). Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + seed-uniqueness report: each ISO now reports uniqBase; bustocco-legnanese/cadorino/calabro are strictOK+normOK, campano/campidanese are strictOK+norm<10."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-13T12:30:00Z-worker3",
+      "isos": [
+        "akkala-sami",
+        "finnmark-sami",
+        "inari-sami",
+        "kainuu-sami",
+        "kemi-sami",
+        "kildin-sami",
+        "lule-sami"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T12:30:00Z",
+      "updatedAt": "2025-12-13T12:30:00Z",
+      "notes": "Targeting Sámi NO_UNIQ_BASE failures. To avoid colliding with worker2 reserved base indices 567–574, plan to append new dedicated bases 575+ in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Verify with run-language-mixer-suite + seed-uniqueness report."
     }
   ]
 }
