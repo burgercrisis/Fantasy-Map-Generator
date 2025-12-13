@@ -111,6 +111,11 @@ function main() {
     if (!includeFamilies && isFamilyEntry(entry)) continue;
     targetIsos.push(iso);
   }
+
+  if (onlyIsos && onlyIsos.length) {
+    const set = new Set(onlyIsos);
+    targetIsos.splice(0, targetIsos.length, ...targetIsos.filter(iso => set.has(iso)));
+  }
   targetIsos.sort((a, b) => a.localeCompare(b));
 
   // Uniqueness comparisons are computed over *all* mapping entries in the project,

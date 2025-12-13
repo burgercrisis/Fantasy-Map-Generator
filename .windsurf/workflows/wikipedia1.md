@@ -113,6 +113,14 @@ For each target language from the queue:
    - If the language was in a Wikipedia list JSON:
      - Re-run [report-wikipedia-list-coverage.js](cci:7://file:///e:/code/Fantasy-Map-Generator/tools/mixer-core/report-wikipedia-list-coverage.js:0:0-0:0) and confirm this item is now `full`.
 
+## Safety checks (required after each batch)
+
+ Run:
+ - `pnpm exec node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
+ - `pnpm exec node tools/check-language-mixer-map-inconsistencies.js`
+
+ Fix any reported issues before moving on to the next batch.
+
 ## Batch / session behavior
 
 - **At the start of a new list or family:**

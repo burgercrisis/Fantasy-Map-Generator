@@ -11,9 +11,9 @@ Use this workflow when you want to **break up a specific shared-base cluster** i
 The high-level rules you must respect:
 
 - **Per-language uniqueness**: in the end-state, no two non-sentinel mixer languages should share an **identical** `bases[]` set.
-- **Historical / regional plausibility**: bases and mixes must reflect each languages **family, region, and role** (lexifier vs local, contact zone, etc.).
+- **Historical / regional plausibility**: bases and mixes must reflect each language’s **family, region, and role** (lexifier vs local, contact zone, etc.).
 - **Race compatibility**: changes should keep race palettes and coverage sane; rely on family/category/tag metadata so race tools continue to work.
-- **No broad exceptions**: identical shared `bases[]` arrays are treated as uniqueness debt unless the sharing is linguistically defensible (e.g. true aliases for the *same* language, or `skip: true` classification items in a Wikipedia list JSON).
+- **No broad exceptions**: identical shared `bases[]` arrays are treated as uniqueness debt. Sharing is permitted only for true aliases of the *same* language (same entity) or `skip: true` classification items in a Wikipedia list JSON.
 
 ---
 
@@ -60,7 +60,7 @@ The high-level rules you must respect:
 
 3. Identify **which entries can remain shared** (if any):
 
-  - Only allow sharing when it is linguistically defensible as *the same language* (true alias/alternate ISO entry), or when a list item is explicitly excluded from coverage via `skip: true`.
+  - Only allow sharing when it is a true alias of the *same* language (same entity), or when a list item is explicitly excluded from coverage via `skip: true`.
 
 ---
 
@@ -157,9 +157,9 @@ Because race language palettes depend on the language mixer catalogs, large decl
 1. Update the **Languages-Status** devplan:
 
    - Note which **base(s)** and **families/regions** you declustered.
-   - Summarize the before/after cluster situation (e.g. [29] cluster split; only `vie` remains pure-29, others now use unique 29-anchored mixes).
+   - Summarize the before/after cluster situation (e.g. 	[29] cluster split; only `vie` remains pure-29, others now use unique 29-anchored mixes).
 
-  2. If you believe a shared `bases[]` case is truly linguistically defensible (e.g. an alias entry for the same language), document that explicitly in `DEVplans/Languages-Status.md` and ensure the relevant list JSON marks any non-language classification items as `skip: true`.
+  2. If you believe a shared `bases[]` case is a true alias of the same language (same entity), document that explicitly in `DEVplans/Languages-Status.md` and ensure the relevant list JSON marks any non-language classification items as `skip: true`. **Only true aliases of the same language (same entity) or `skip: true` classification items are permitted to share identical `bases[]` arrays.**
 
 3. Commit your changes with a message that mentions:
 

@@ -217,8 +217,8 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-13T12:30:00Z",
-      "updatedAt": "2025-12-13T12:32:00Z",
-      "notes": "Complete. Applied ISO->base:\n- adeni-arabic->616\n- aleppine-arabic->617\n- algerian-arabic->618\n- algerian-saharan-arabic->619\nReserved ranges NOT used: 602–615 (reserved by other in-progress claims). Verified: pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (no output for these ISOs)."
+      "updatedAt": "2025-12-13T13:56:39.234Z",
+      "notes": "Complete. Applied ISO->base:\n- adeni-arabic->616\n- aleppine-arabic->617\n- algerian-arabic->618\n- algerian-saharan-arabic->619\nReserved ranges NOT used: 602–615 (reserved by other in-progress claims). Verified: pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (no output for these ISOs). Implementation note: bases 616–619 were added in modules/namebases-real.js so these indices are real/valid." 
     },
     {
       "workerId": 9,
@@ -285,6 +285,20 @@
       "startedAt": "2025-12-13T12:58:00Z",
       "updatedAt": "2025-12-13T12:58:00Z",
       "notes": "Arabic dialect slice. Plan: add dedicated bases 643–650 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Reserved ranges NOT used: 630–642 (reserved by other in-progress claims). Verify with run-language-mixer-suite + seed-uniqueness report."
+    },
+    {
+      "workerId": 13,
+      "batchId": "2025-12-13T14:00:08Z-worker13",
+      "isos": [
+        "amami",
+        "kikai",
+        "kunigami",
+        "okinawan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T14:00:08Z",
+      "updatedAt": "2025-12-13T14:00:08Z",
+      "notes": "Ryukyuan/Japonic NO_UNIQ_BASE micro-pass. Added dedicated bases 661–664 in modules/namebases-real.js and appended to config/language-mixer-map.json.\n\nISO->base mapping applied:\namami->661\nkikai->662\nkunigami->663\nokinawan->664\n\nReserved ranges NOT used: none\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (0 failures, no mapping rewrites)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (filtered to these ISOs; no output; none remain under NO_UNIQ_BASE)"
     }
   ]
 }

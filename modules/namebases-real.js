@@ -275,11 +275,6 @@ window.realWorldNameBases = [
       {name: "Cotentinais", i: 611, min: 4, max: 11, d: "lnrt", m: 0, b: "Cherbourg-en-Cotentin,Valognes,Barneville-Carteret,Les Pieux,La Haye,Carentan-les-Marais,Saint-Vaast-la-Hougue,Bricquebec,Portbail,Quettehou,La Pernelle,Montebourg"},
       {name: "Auregnais", i: 612, min: 4, max: 11, d: "lnrt", m: 0, b: "St Anne,Aurigny,Braye Harbour,Longis Bay,Saye Bay,Platte Saline,Fort Clonque,Fort Albert,Fort Tourgis,Mannez,Esplanade,Le Val"},
       {name: "Guernésiais", i: 613, min: 4, max: 11, d: "lnrt", m: 0, b: "St Peter Port,St Sampson,Castel,St Martin,St Andrew,Forest,St Saviour,Torteval,Vale,Lancresse,Jerbourg,Pleinmont"},
-      {name: "Jèrriais", i: 614, min: 4, max: 11, d: "lnrt", m: 0, b: "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbière,La Hougue Bie,Grève de Lecq"},
-      {name: "Jersey Legal French", i: 615, min: 4, max: 11, d: "lnrt", m: 0, b: "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrêt,Juridiction,Bailliage,Paroisse,États"},
-
-      {name: "Adeni Arabic", i: 616, min: 4, max: 11, d: "lnrt", m: 0, b: "Aden,Crater,Tawahi,Maalla,Khormaksar,Mansoura,Sheikh Othman,Lahij,Zinjibar,Shuqra,Mukalla,Al Hudaydah"},
-      {name: "Aleppine Arabic", i: 617, min: 4, max: 11, d: "lnrt", m: 0, b: "Aleppo,Al-Bab,Azaz,Manbij,Jarabulus,Idlib,Ariha,Jisr ash-Shughur,Hama,Homs,Latakia,Tartus"},
       {name: "Algerian Arabic", i: 618, min: 4, max: 11, d: "lnrt", m: 0, b: "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou"},
       {name: "Algerian Saharan Arabic", i: 619, min: 4, max: 11, d: "lnrt", m: 0, b: "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun"},
 
@@ -288,10 +283,18 @@ window.realWorldNameBases = [
       {name: "Kallawaya", i: 627, min: 4, max: 11, d: "lnrt", m: 0, b: "Charazani,Curva,Chajaya,Amarete,Kaata,Carabuco,Achacachi,Sorata,La Paz,Copacabana,Titicaca,Ancoraimes"},
       {name: "Chiquitano", i: 628, min: 4, max: 11, d: "lnrt", m: 0, b: "San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,San Jose de Chiquitos,Robore,Puerto Suarez,Santa Cruz,Chiquitania,Velasco,Chiquitos"},
       {name: "Nivaclé", i: 629, min: 4, max: 11, d: "lnrt", m: 0, b: "Filadelfia,Loma Plata,Neuland,Mariscal Estigarribia,Teniente Irala Fernandez,Pozo Hondo,Fortin Boqueron,Villa Hayes,Chaco,Pilcomayo,Paraguay,Presidente Hayes"},
-
       {name: "Macro-Yaeyama", i: 630, min: 4, max: 11, d: "lnrt", m: 0, b: "Ishigaki,Miyara,Taketomi,Kohama,Iriomote,Hateruma,Hatoma,Kuroshima,Yubujima,Kabira,Shiraho,Ohama"},
       {name: "Miyakoan", i: 631, min: 4, max: 11, d: "lnrt", m: 0, b: "Miyakojima,Hirara,Shimoji,Irabu,Ikema,Kurima,Taramajima,Shimajiri,Gusukube,Ueno,Karimata,Sugama"},
       {name: "Southern Amami", i: 632, min: 4, max: 11, d: "lnrt", m: 0, b: "Amami,Naze,Setouchi,Kakeroma,Ukejima,Yoro Island,Koniya,Yamato,Uken,Higashi,Hatsuno,Yuwan"},
       {name: "Okinoerabu", i: 633, min: 4, max: 11, d: "lnrt", m: 0, b: "Wadomari,China,Okinoerabu,Kunigami,Inoha,Serikaku,Nishime,Shinjo,Yashichi,Kamisato,Shoryu,Izena"},
-      {name: "Tokunoshima", i: 634, min: 4, max: 11, d: "lnrt", m: 0, b: "Tokunoshima,Kamezu,Tokunoshima Town,Amagi,Isen,Kinen,Kanami,Inokawa,San,Kobake,Totomi,Mikyo"}
+      {name: "Tokunoshima", i: 634, min: 4, max: 11, d: "lnrt", m: 0, b: "Tokunoshima,Kamezu,Tokunoshima Town,Amagi,Isen,Kinen,Kanami,Inokawa,San,Kobake,Totomi,Mikyo"},
+      {name: "Aragonese", i: 635, min: 4, max: 11, d: "lnrt", m: 0, b: "Huesca,Jaca,Sabinanigo,Barbastro,Monzon,Fraga,Teruel,Zaragoza,Alcaniz,Ainsa,Benasque,Anso"},
+      {name: "Central Aragonese", i: 636, min: 4, max: 11, d: "lnrt", m: 0, b: "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla"},
+      {name: "Castilian", i: 637, min: 4, max: 11, d: "lnrt", m: 0, b: "Burgos,Valladolid,Salamanca,Segovia,Avila,Soria,Palencia,Leon,Zamora,Toledo,Cuenca,Guadalajara"},
+      {name: "Castelmezzano", i: 638, min: 4, max: 11, d: "lnrt", m: 0, b: "Castelmezzano,Pietrapertosa,Potenza,Matera,Tricarico,Avigliano,Pignola,Vaglio Basilicata,Tito,Laurenzana,Albano di Lucania,Anzi"},
+      {name: "Central Italian", i: 639, min: 4, max: 11, d: "lnrt", m: 0, b: "Rome,Perugia,Assisi,Spoleto,Terni,Viterbo,Rieti,Foligno,Orvieto,Gubbio,Narni,Civitavecchia"},
+      {name: "Central Marchigiano", i: 640, min: 4, max: 11, d: "lnrt", m: 0, b: "Ancona,Jesi,Senigallia,Fabriano,Macerata,Civitanova Marche,Fermo,Ascoli Piceno,Recanati,Osimo,Urbino,Pesaro"},
+      {name: "Central Metafonetica", i: 641, min: 4, max: 11, d: "lnrt", m: 0, b: "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca"},
+      {name: "Central-Southern Calabrian", i: 642, min: 4, max: 11, d: "lnrt", m: 0, b: "Catanzaro,Lamezia Terme,Vibo Valentia,Nicotera,Tropea,Pizzo,Soverato,Chiaravalle Centrale,Serra San Bruno,Soriano Calabro,Mileto,Squillace"},
+      {name: "Canadian French", i: 650, min: 4, max: 11, d: "lnrt", m: 0, b: "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"}
     ];

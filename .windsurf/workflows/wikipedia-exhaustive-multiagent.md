@@ -15,6 +15,7 @@ Continuously drive the project toward:
 - Each represented item is brought to the full quality bar:
   - Present in `config/language-mixes.json` (catalog)
   - Present in `config/language-mixer-map.json` (map)
+  - Has at least one **globally-unique base index** (clear `NO_UNIQ_BASE` in `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`)
   - Has a **globally unique** `bases[]` signature (sharing is allowed only when linguistically defensible as the *same language* via a true alias, or when the row is explicitly excluded from coverage via `skip: true`)
   - Is reachable by at least one race via `raceLanguageProfiles` in `modules/races.js`
 
