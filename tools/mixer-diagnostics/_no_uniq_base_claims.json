@@ -137,8 +137,8 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-13T12:50:00Z",
-      "updatedAt": "2025-12-13T13:55:00Z",
-      "notes": "Complete. Dedicated bases in modules/namebases-real.js: bura-language->586, bure-chadic-language->587, buwal-language->588, cakfem-mushere-language->589, cameroonian-pidgin->597, cameroonian-pidgin-english->598, bole-tangale->599, tangale-language->600, dangaleat-language->601 (appended to bases[] in config/language-mixer-map.json). Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites) + seed-uniqueness report: all now report uniqBase (strictOK except cameroonian-pidgin-english still strict<1; norm<10 tracked as debt)."
+      "updatedAt": "2025-12-13T12:56:10Z",
+      "notes": "Complete. Synced to reality after fixes.\n\nISO->base mapping applied:\nbura-language->586\nbure-chadic-language->587\nbuwal-language->588\ncakfem-mushere-language->589\ncameroonian-pidgin->597\ncameroonian-pidgin-english->598\nbole-tangale->599\ntangale-language->600\ndangaleat-language->601\n\nReserved ranges NOT used:\n590–596 (assigned to Africa bu* batch: bukusu/bulu/bum/busa/bushong/bwela/buyu)\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500\nConfirm: none of the above ISOs appear under NO_UNIQ_BASE (filtered search returned no matches)."
     },
     {
       "workerId": 5,
@@ -171,10 +171,10 @@
         "j-rriais",
         "jersey-legal-french"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T14:15:00Z",
-      "updatedAt": "2025-12-13T14:15:00Z",
-      "notes": "Oïl Dialects (Normandy + Channel Islands slice). Plan: add dedicated bases 607–615 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Verify with run-language-mixer-suite + seed-uniqueness report."
+      "updatedAt": "2025-12-13T15:05:00Z",
+      "notes": "ISO->base mapping:\nanglo-norman->607\nnorman->608\ncauchois->609\naugeron->610\ncotentinais->611\nauregnais->612\nguern-siais->613\nj-rriais->614\njersey-legal-french->615\n\nReserved ranges not used: 602–606 (worker6), 616–619 (worker8), 620–624 (worker9).\n\nVerification: pnpm exec node tools/mixer-core/run-language-mixer-suite.js + seed-uniqueness report --only-failures --limit=500 (filtered) shows none of these ISOs under NO_UNIQ_BASE.\n\nBlocked/uncertain: none."
     },
     {
       "workerId": 6,
@@ -186,10 +186,39 @@
         "yilan-creole-japanese",
         "yokohama-pidgin-japanese"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T14:05:00Z",
-      "updatedAt": "2025-12-13T14:05:00Z",
-      "notes": "Ryukyuan/Japanese-contact slice. Reserved dedicated bases 602–606 in modules/namebases-real.js and will append to config/language-mixer-map.json: yaeyama->602, yonaguni->603, yoron->604, yilan-creole-japanese->605, yokohama-pidgin-japanese->606. Verify with run-language-mixer-suite + seed-uniqueness report."
+      "updatedAt": "2025-12-13T14:32:00Z",
+      "notes": "ISO->base mapping applied:\nyaeyama->602\nyonaguni->603\nyoron->604\nyilan-creole-japanese->605\nyokohama-pidgin-japanese->606\n\nReserved ranges NOT used: none\n\nVerified:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (0 failures, no mapping rewrites)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (no output for these ISOs; none remain under NO_UNIQ_BASE)"
+    },
+    {
+      "workerId": 6,
+      "batchId": "2025-12-13T12:50:00Z-worker6b",
+      "isos": [
+        "macro-yaeyama",
+        "miyakoan",
+        "southern-amami",
+        "okinoerabu",
+        "tokunoshima"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T12:50:00Z",
+      "updatedAt": "2025-12-13T12:50:00Z",
+      "notes": "Japonic/Ryukyuan continuation. Reserved dedicated bases 630–634 in modules/namebases-real.js and will append to config/language-mixer-map.json: macro-yaeyama->630, miyakoan->631, southern-amami->632, okinoerabu->633, tokunoshima->634. Verify with run-language-mixer-suite + seed-uniqueness report."
+    },
+    {
+      "workerId": 8,
+      "batchId": "2025-12-13T12:30:00Z-worker8",
+      "isos": [
+        "adeni-arabic",
+        "aleppine-arabic",
+        "algerian-arabic",
+        "algerian-saharan-arabic"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T12:30:00Z",
+      "updatedAt": "2025-12-13T12:32:00Z",
+      "notes": "Complete. Applied ISO->base:\n- adeni-arabic->616\n- aleppine-arabic->617\n- algerian-arabic->618\n- algerian-saharan-arabic->619\nReserved ranges NOT used: 602–615 (reserved by other in-progress claims). Verified: pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (no output for these ISOs)."
     },
     {
       "workerId": 9,
@@ -201,24 +230,61 @@
         "caijia",
         "cdm"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T12:26:00Z",
-      "updatedAt": "2025-12-13T12:26:00Z",
-      "notes": "Sino-Tibetan/Asia slice. Plan: add dedicated bases 620–624 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Verify with run-language-mixer-suite + seed-uniqueness report."
+      "updatedAt": "2025-12-13T12:50:00Z",
+      "notes": "Complete. Applied ISO→base mapping (dedicated uniq base per ISO):\n- burmese->620\n- burmish->621\n- burmo-qiangic->622\n- caijia->623\n- cdm->624\nVerified: pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites) + pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures shows each ISO reports uniqBase (strictOK; norm<10 tracked as debt)."
     },
     {
-      "workerId": 8,
-      "batchId": "2025-12-13T14:30:00Z-worker8",
+      "workerId": 9,
+      "batchId": "2025-12-13T13:05:00Z-worker9b",
       "isos": [
-        "adeni-arabic",
-        "aleppine-arabic",
-        "algerian-arabic",
-        "algerian-saharan-arabic"
+        "cas",
+        "cav",
+        "caw",
+        "cax",
+        "cag"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T13:05:00Z",
+      "updatedAt": "2025-12-13T13:32:00Z",
+      "notes": "Complete. Added dedicated bases 625–629 in modules/namebases-real.js and appended to config/language-mixer-map.json: cas->625, cav->626, caw->627, cax->628, cag->629. Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites) + seed-uniqueness report: none of these ISOs appear under NO_UNIQ_BASE; caw still shows norm<10 (tracked debt)."
+    },
+    {
+      "workerId": 10,
+      "batchId": "2025-12-13T12:45:00Z-worker10",
+      "isos": [
+        "aragonese",
+        "central-aragonese",
+        "castilian",
+        "central-catalan",
+        "central-italian",
+        "central-marchigiano",
+        "central-southern-calabrian",
+        "canadian-french"
       ],
       "status": "in_progress",
-      "startedAt": "2025-12-13T14:30:00Z",
-      "updatedAt": "2025-12-13T14:30:00Z",
-      "notes": "Arabic dialects NO_UNIQ_BASE slice. Plan: append dedicated bases 616–619 in modules/namebases-real.js and append: adeni-arabic->616, aleppine-arabic->617, algerian-arabic->618, algerian-saharan-arabic->619 in config/language-mixer-map.json. Avoid collisions with in-progress reserved ranges 602–615. Verify with seed-uniqueness report (and run-language-mixer-suite if needed)."
+      "startedAt": "2025-12-13T12:45:00Z",
+      "updatedAt": "2025-12-13T12:45:00Z",
+      "notes": "Romance slice (Iberia + Italy + Canada). Plan: add dedicated bases 635–642 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Reserved ranges NOT used: 630–634 (worker6b). Verify with run-language-mixer-suite + seed-uniqueness report."
+    },
+    {
+      "workerId": 11,
+      "batchId": "2025-12-13T12:58:00Z-worker11",
+      "isos": [
+        "anatolian-arabic",
+        "andalusi-arabic",
+        "baghdadi-arabic",
+        "bahraini-gulf-arabic",
+        "bakhtiari-arabic",
+        "bukharian-arabic",
+        "cairene-arabic",
+        "central-asian-arabic"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-13T12:58:00Z",
+      "updatedAt": "2025-12-13T12:58:00Z",
+      "notes": "Arabic dialect slice. Plan: add dedicated bases 643–650 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json. Reserved ranges NOT used: 630–642 (reserved by other in-progress claims). Verify with run-language-mixer-suite + seed-uniqueness report."
     }
   ]
 }

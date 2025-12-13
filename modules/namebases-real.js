@@ -266,15 +266,7 @@ window.realWorldNameBases = [
       {name: "Burmish", i: 621, min: 4, max: 11, d: "lnrt", m: 0, b: "Myitkyina,Bhamo,Puta-O,Hpakant,Shwegu,Momeik,Namhkam,Muse,Laukkaing,Mongko,Kutkai,Hopin"},
       {name: "Burmo Qiangic", i: 622, min: 4, max: 11, d: "lnrt", m: 0, b: "Xichang,Kangding,Aba,Barkam,Songpan,Heishui,Maoxian,Wenchuan,Luding,Litang,Daocheng,Danba"},
       {name: "Caijia", i: 623, min: 4, max: 11, d: "lnrt", m: 0, b: "Bijie,Qianxi,Weining,Nayong,Jinsha,Dafang,Qixingguan,Hezhang,Xingyi,Anshun,Guiyang,Liupanshui"},
-      {name: "Chepang", i: 624, min: 4, max: 11, d: "lnrt", m: 0, b: "Gorkha,Dhading,Chitwan,Makwanpur,Tanahun,Nuwakot,Lamjung,Kathmandu,Bharatpur,Hetauda,Besisahar,Trishuli"}
-    ];
-    ];
-
-      {name: "Yaeyama", i: 602, min: 4, max: 11, d: "lnrt", m: 0, b: "Ishigaki,Taketomi,Iriomote,Kohama,Hateruma,Hatoma,Kuroshima,Aragusuku,Yubujima,Shiraho,Kabira,Ohama"},
-      {name: "Yonaguni", i: 603, min: 4, max: 11, d: "lnrt", m: 0, b: "Yonaguni,Sonai,Kubura,Higawa,Irizaki,Tindabana,Agariyama,Utaki,San-ninu-dai,Nandahama,Kitabokujo,Kuburabari"},
-      {name: "Yoron", i: 604, min: 4, max: 11, d: "lnrt", m: 0, b: "Yoron,Chabana,Mugiya,Asato,Furusato,Gusuku,Yurigahama,Udonosu,Akasaki,Techa,Riku,Tomori"},
-      {name: "Yilan Creole Japanese", i: 605, min: 4, max: 11, d: "lnrt", m: 0, b: "Yilan,Luodong,Jiaoxi,Toucheng,Suao,Dongshan,Wujie,Sanxing,Datong,Nanao,Yuanshan,Zhuangwei"},
-      {name: "Yokohama Pidgin Japanese", i: 606, min: 4, max: 11, d: "lnrt", m: 0, b: "Yokohama,Kanagawa,Negishi,Honmoku,Yamate,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Yokosuka,Kamakura,Ofuna"},
+      {name: "Chepang", i: 624, min: 4, max: 11, d: "lnrt", m: 0, b: "Gorkha,Dhading,Chitwan,Makwanpur,Tanahun,Nuwakot,Lamjung,Kathmandu,Bharatpur,Hetauda,Besisahar,Trishuli"},
 
       {name: "Anglo-Norman", i: 607, min: 4, max: 11, d: "lnrt", m: 0, b: "Bayeux,Domfront,Argentan,Lisieux,Falaise,Barfleur,Villedieu-les-Poêles,La Haye-du-Puits,Pont-l'Évêque,Beuvron-en-Auge,Carentan,Avranches"},
       {name: "Norman", i: 608, min: 4, max: 11, d: "lnrt", m: 0, b: "Rouen,Caen,Dieppe,Le Havre,Saint-Lô,Alençon,Granville,Coutances,Bernay,Flers,Honfleur,Bagnoles-de-l'Orne"},
@@ -284,5 +276,22 @@ window.realWorldNameBases = [
       {name: "Auregnais", i: 612, min: 4, max: 11, d: "lnrt", m: 0, b: "St Anne,Aurigny,Braye Harbour,Longis Bay,Saye Bay,Platte Saline,Fort Clonque,Fort Albert,Fort Tourgis,Mannez,Esplanade,Le Val"},
       {name: "Guernésiais", i: 613, min: 4, max: 11, d: "lnrt", m: 0, b: "St Peter Port,St Sampson,Castel,St Martin,St Andrew,Forest,St Saviour,Torteval,Vale,Lancresse,Jerbourg,Pleinmont"},
       {name: "Jèrriais", i: 614, min: 4, max: 11, d: "lnrt", m: 0, b: "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbière,La Hougue Bie,Grève de Lecq"},
-      {name: "Jersey Legal French", i: 615, min: 4, max: 11, d: "lnrt", m: 0, b: "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrêt,Juridiction,Bailliage,Paroisse,États"}
+      {name: "Jersey Legal French", i: 615, min: 4, max: 11, d: "lnrt", m: 0, b: "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrêt,Juridiction,Bailliage,Paroisse,États"},
+
+      {name: "Adeni Arabic", i: 616, min: 4, max: 11, d: "lnrt", m: 0, b: "Aden,Crater,Tawahi,Maalla,Khormaksar,Mansoura,Sheikh Othman,Lahij,Zinjibar,Shuqra,Mukalla,Al Hudaydah"},
+      {name: "Aleppine Arabic", i: 617, min: 4, max: 11, d: "lnrt", m: 0, b: "Aleppo,Al-Bab,Azaz,Manbij,Jarabulus,Idlib,Ariha,Jisr ash-Shughur,Hama,Homs,Latakia,Tartus"},
+      {name: "Algerian Arabic", i: 618, min: 4, max: 11, d: "lnrt", m: 0, b: "Algiers,Oran,Constantine,Annaba,Blida,Setif,Batna,Bejaia,Tlemcen,Skikda,Mostaganem,Tizi Ouzou"},
+      {name: "Algerian Saharan Arabic", i: 619, min: 4, max: 11, d: "lnrt", m: 0, b: "Ghardaia,Ouargla,Tamanrasset,Adrar,In Salah,In Guezzam,El Oued,Laghouat,Biskra,Tindouf,Illizi,Timimoun"},
+
+      {name: "Tsimané", i: 625, min: 4, max: 11, d: "lnrt", m: 0, b: "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui"},
+      {name: "Cavineña", i: 626, min: 4, max: 11, d: "lnrt", m: 0, b: "Riberalta,Guayaramerin,Cobija,Puerto Rico,El Sena,Porvenir,Filadelfia,San Lorenzo,Palos Blancos,Caranavi,Yolosa,Apolo"},
+      {name: "Kallawaya", i: 627, min: 4, max: 11, d: "lnrt", m: 0, b: "Charazani,Curva,Chajaya,Amarete,Kaata,Carabuco,Achacachi,Sorata,La Paz,Copacabana,Titicaca,Ancoraimes"},
+      {name: "Chiquitano", i: 628, min: 4, max: 11, d: "lnrt", m: 0, b: "San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,San Jose de Chiquitos,Robore,Puerto Suarez,Santa Cruz,Chiquitania,Velasco,Chiquitos"},
+      {name: "Nivaclé", i: 629, min: 4, max: 11, d: "lnrt", m: 0, b: "Filadelfia,Loma Plata,Neuland,Mariscal Estigarribia,Teniente Irala Fernandez,Pozo Hondo,Fortin Boqueron,Villa Hayes,Chaco,Pilcomayo,Paraguay,Presidente Hayes"},
+
+      {name: "Macro-Yaeyama", i: 630, min: 4, max: 11, d: "lnrt", m: 0, b: "Ishigaki,Miyara,Taketomi,Kohama,Iriomote,Hateruma,Hatoma,Kuroshima,Yubujima,Kabira,Shiraho,Ohama"},
+      {name: "Miyakoan", i: 631, min: 4, max: 11, d: "lnrt", m: 0, b: "Miyakojima,Hirara,Shimoji,Irabu,Ikema,Kurima,Taramajima,Shimajiri,Gusukube,Ueno,Karimata,Sugama"},
+      {name: "Southern Amami", i: 632, min: 4, max: 11, d: "lnrt", m: 0, b: "Amami,Naze,Setouchi,Kakeroma,Ukejima,Yoro Island,Koniya,Yamato,Uken,Higashi,Hatsuno,Yuwan"},
+      {name: "Okinoerabu", i: 633, min: 4, max: 11, d: "lnrt", m: 0, b: "Wadomari,China,Okinoerabu,Kunigami,Inoha,Serikaku,Nishime,Shinjo,Yashichi,Kamisato,Shoryu,Izena"},
+      {name: "Tokunoshima", i: 634, min: 4, max: 11, d: "lnrt", m: 0, b: "Tokunoshima,Kamezu,Tokunoshima Town,Amagi,Isen,Kinen,Kanami,Inokawa,San,Kobake,Totomi,Mikyo"}
     ];

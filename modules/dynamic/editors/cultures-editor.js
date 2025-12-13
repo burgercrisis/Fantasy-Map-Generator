@@ -235,7 +235,7 @@ function culturesEditorAddLines() {
   });
   $body.querySelectorAll("fill-box").forEach($el => $el.on("click", cultureChangeColor));
   $body.querySelectorAll("div > input.cultureName").forEach($el => $el.on("input", cultureChangeName));
-  $body.querySelectorAll("div > span.icon-cw").forEach($el => $el.on("click", cultureRegenerateName));
+  $body.querySelectorAll("div > span.icon-cw").forEach($el => $el.on("click", regenerateCultureName));
   $body.querySelectorAll("div > input.cultureExpan").forEach($el => $el.on("change", cultureChangeExpansionism));
   $body.querySelectorAll("div > select.cultureType").forEach($el => $el.on("change", cultureChangeType));
   $body.querySelectorAll("div > select.cultureBase").forEach($el => $el.on("change", cultureChangeBase));
