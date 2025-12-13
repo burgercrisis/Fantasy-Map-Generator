@@ -27330,5 +27330,26 @@
     "category": "Sino-Tibetan",
     "family": "Naga",
     "wikipedia": "https://en.wikipedia.org/wiki/Tenyidie_language"
+  },
+  {
+    "name": "Tłįchǫ",
+    "iso": "dgr",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
+    "name": "Upper Kuskokwim",
+    "iso": "kuu",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
+  },
+  {
+    "name": "Upper Tanana",
+    "iso": "tau",
+    "region": "North America",
+    "category": "Na-Dene",
+    "family": "Na-Dene"
   }
 ]

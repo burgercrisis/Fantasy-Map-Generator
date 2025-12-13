@@ -26,7 +26,6 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
     - Segment-wise blending of multiple bases with weights.
     - Smoothing joins between segments (spaces / hyphens / elision).
     - Basic safeguards against over-repetition (esp. click-heavy languages).
-  - ✅ **2025-12-11 live app verification:** In the Namebase Editor → Language Mixer UI, local generation succeeded for `French` (`fra`), `Vietnamese` (`vie`), and `Russian` (`rus`) when served via `run_python_server.bat` on `http://localhost:3000`.
   - Legacy "single mixed chain" path kept behind `options.legacyChain`.
   - Planned next iteration (approved): improve *mixed* generation quality by combining adaptive multi-try scoring (`K=2` with early-exit; hard time budget 1000ms; mixed-only) with configurable join/phonotactic rules keyed primarily off base-level feature flags (with ISO overrides only when necessary).
 
@@ -40,11 +39,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - **Tooling (under `tools/`)**
   - `check-namebase-lengths.js`
-    - Uses a Node VM to load `namebases-*` and `names-generator`.
+    - ✅ Uses a Node VM to load `namebases-*` and `names-generator`.
     - ✅ Reports **seed** and **generated** length stats per base.
     - ✅ Currently wired so that `Names.getBase` sees `nameBases = defaultNameBases`.
   - `report-namebase-duplicates.js`
-    - ✅ 2025-12-11 follow-up: refreshed Tok Pisin (399), Melanesian Vanuatu (368), East Chadic (386), Koya-Konda-Manda-Pengo (376), Ukrainian (373), Samoyedic Arctic (438), and the straggler fantasy bases (Burmese 390, Shan 399, Aleut 413, Athabaskan 415, Erzya 429) so the report now prints “No duplicate names found in any base.” Re-run via `pnpm exec node tools/mixer-namebases/report-namebase-duplicates.js` to verify future edits.
   - `profile-language-mixes.js`
     - Profiles entries in `config/language-mixes.json` and `language-mixer-map.json`.
     - For each ISO:
@@ -60,7 +58,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - `generate-language-pair-samples.js`
     - Walks every possible catalog ISO pair (optionally capped with `--max-pairs`) and locally generates Markov samples for each combination using the same blender as `generate-language-samples`.
     - Prints any pairs where all generated samples drew segments from only one ISO, plus a total count so we can triage unmixed mappings and base clusters that still behave monolingually.
-    - ✅ Supports deterministic seeds, per-sample length overrides, and verbosity flags for investigating stubborn clusters. (2025-12-11 tweaks: summary block now prints at the end of the run so failure details stream first, and the CLI now also lists every ISO that never produced even a single mixed-segment name during the run so we can escalate those languages for rewiring.)
+    - ✅ Supports deterministic seeds, per-sample length overrides, and verbosity flags for investigating stubborn clusters. 
+      - (2025-12-11 tweaks: summary block now prints at the end of the run so failure details stream first, and the CLI now also lists every ISO that never produced even a single mixed-segment name during the run so we can escalate those languages for rewiring.)
   - `compare-mixer-nextgen-to-app.js`
     - Tri-path mixer comparison harness: compares **app legacy** (`legacyChain`), **app current**, and a **helper-only nextgen** mixer implementation (not wired into the app) for the same ISO or base list and seed.
     - Use this to validate experimental mixing heuristics against both shipped mixer behaviors without pushing changes into the app runtime.
@@ -83,7 +82,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
       - ISOs with **base mapping but no mix entry**.
       - Bases used across **multiple families/regions** (potential style-collapsing hubs).
   - **Language mixer safety invariants (append-only registries)**
-    - As of 2025-12-11, all Node helpers that write `config/language-mixer-map.json` or
+    - ✅ As of 2025-12-11, all Node helpers that write `config/language-mixer-map.json` or
       `config/language-mixes.json` are hardened with "no-drop-ISO" guards:
       each script snapshots the original ISO set on load and **refuses to write** if any
       original ISO would be missing in the output.
@@ -93,11 +92,6 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
     - ✅ **2025‑12‑11 click expressive pass:** Extended the click smoother with random prefixes, bridge vowels, suffix syllables, and accent swaps (mirrored in CLI) so `[353,354]` blends show richer intra-name variation (e.g., `kóá-samáa`, `ao’káéhóa`).
     - ✅ **2025-12-11 mixer sampler guard:** `generate-language-pair-samples.js` now forces a second ISO segment into a candidate blend when multiple ISOs are available but the first pass pulled only one, eliminating “monolingual-only” false positives in pair scans (verified: 0 monolingual failures on 60-, 300-, and 500-pair runs across seeds 123/456).
   - ✅ **2025-12-11 CLI upgrade:** `generate-language-samples.js` now mirrors `Names.getMixedBaseMany` by stitching segments from all requested bases inside each generated name (instead of alternating base-by-base). New options: blended runs require at least two segments, accept `--weights`, `--max-segments`, and honor `--min/--max` when composing single-name mixes so we can visibly verify intra-name mixing for any `[base]` set.
-  - **2025‑12‑11 micro-pass (small-cluster burn-down, batch 3):** eliminated a large set of 2–4 member collisions by moving list-aliases, regional lects, and contact varieties onto unique mixes (including Catalan/Aragonese overlaps, Bantu micro-pairs, Romani micro-variants, and several pidgins). After this pass, `report-wikipedia-list-base-uniqueness.js` reports:
-  - Native-speakers helper: **unique bases 156 / clustered bases 21**
-  - Europe helper: **unique bases 112 / clustered bases 26**
-  - ✅ **2025-12-12 verification:** `check-language-mixer-map-duplicate-isos.js` reports **Duplicate ISO codes: 0** (**3161** rows / **3161** unique ISOs)
- set.
   - **Post-restore + fixer diagnostics snapshot (2025-12-11)**
     - `merge-language-mixer-from-head` and `restore-lost-language-mappings` now report
       zero additions needed from HEAD / snapshot: all languages present in git HEAD and
@@ -121,7 +115,6 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
     - **2025-12-11 deeper diagnostics pass:**
       - `check-language-mixer-coverage`: map has 2,932 unique ISOs; catalog has 3,025; **catalog missing from map = 93**; **map missing from catalog = 0**.
       - `check-language-mixer-failures`: **116 total failures** (76 missing mapping + 40 “all bases invalid”; 0 empty-base entries).
-      - ✅ **2025-12-12 verification:** `check-language-mixer-map-duplicate-isos` reports **Duplicate ISO codes: 0**.
   - `softmods/softmod-language-loader.js` + `softmods/test-softmods-languages.js`
     - Node-only softmod prototype for merging extra language bundles from
       `mods/**/languages*.js` on top of an in-memory copy of the canonical
