@@ -26145,6 +26145,13 @@
     "family": "Formosan"
   },
   {
+    "name": "Favorlang",
+    "iso": "favorlang",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Papora",
     "iso": "papora",
     "region": "Pacific",

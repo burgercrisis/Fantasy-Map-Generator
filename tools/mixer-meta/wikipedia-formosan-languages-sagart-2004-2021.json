@@ -5,13 +5,13 @@
     { "name": "Austronesian", "skip": true },
 
     { "name": "Saisiyat" },
-    { "name": "Luilang" },
+    { "name": "Luilang", "iso": "kae" },
     { "name": "Pazeh" },
     { "name": "Kulon" },
 
     { "name": "Pituish", "skip": true },
     { "name": "Favorlang-Taokas", "skip": true },
-    { "name": "Favorlang" },
+    { "name": "Favorlang", "iso": "favorlang" },
     { "name": "Taokas" },
 
     { "name": "Limaish", "skip": true },

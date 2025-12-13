@@ -21766,6 +21766,13 @@
     "family": "East Timor Papuan"
   },
   {
+    "name": "Favorlang",
+    "iso": "favorlang",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Formosan"
+  },
+  {
     "name": "Fembe",
     "iso": "fembe",
     "region": "Pacific",
