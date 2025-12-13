@@ -1017,25 +1017,25 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
   - As with other lists, explicitly note any remaining unwired languages or planned JSON expansions so that "fully represented" status remains well defined.
 
-### 8.4 Languages of South Asia – regional subset
+### 8.4 Languages of South Asia – full template snapshot
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-south-asia.json`
-- **Title:** `Wikipedia: Languages of South Asia – regional subset`
+- **Title:** `Wikipedia: Languages of South Asia – full template snapshot`
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_South_Asia>
-- **Scope:** Regional overview of major languages and families across South Asia (Indo-Aryan, Dravidian, Iranian, Nuristani, Tibeto-Burman, etc.).
+- **Scope:** Full template snapshot of languages enumerated by the page's navbox (Template:Languages of South Asia), including major languages and representative smaller entries across South Asia.
 - **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, and neighbors); see [§2.9 South Asia (Indo-Aryan / Dravidian)](#29-south-asia-indo-aryan--dravidian) and the South Asia items in §4.
 
-- ✅ **Status tier:** **Complete**
+- **Status tier:** **In progress (full template snapshot)**
 - **Last run:** 2025-12-10
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 18
+  - `fully wired:` 63
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 0
+  - `unmatched:` 26
   - `ambiguous:` 0
-  - `Nonunique Bases:` 16
+  - `Nonunique Bases:` 88
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
@@ -1065,25 +1065,25 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-### 8.6 Languages of Oceania – Papuan & Pacific subset
+### 8.6 Languages of Oceania – full page language mentions snapshot
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-oceania.json`
-- **Title:** `Wikipedia: Languages of Oceania – Papuan & Pacific subset`
+- **Title:** `Wikipedia: Languages of Oceania – full page language mentions snapshot`
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_Oceania>
-- **Scope:** Overview of Papuan and Austronesian languages across Melanesia, Micronesia, and Polynesia, including Trans–New Guinea and Oceanic branches.
+- **Scope:** Full snapshot of all distinct language names explicitly mentioned in the Wikipedia article text (including contact / creole languages and immigrant languages mentioned in the article), used as a completeness checklist.
 - **Primary families / regions touched:** Papuan & Pacific Austronesian region; see [§2.12 Papuan & Pacific Austronesian (second-pass)](#212-papuan--pacific-austronesian-second-pass).
 
-- ✅ **Status tier:** **Complete**
-- **Last run:** 2025-12-10
+- **Status tier:** **In progress (full page mentions snapshot)**
+- **Last run:** 2025-12-13
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 23
+  - `fully wired:` 22
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 0
+  - `missing both:` 4
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 22
+  - `Nonunique Bases:` 25
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
@@ -1091,6 +1091,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Notes / next steps:**
   - Use this list as a driver for further Papuan and Oceanic coverage beyond the current macro bases (360–371) and lexifier hubs.
   - When the JSON is expanded or refined, run coverage again to confirm that all new Papuan/Oceanic items have both catalog and mixer entries.
+  - Current missing items from both catalog and mixer map: Yapese (`yap`), Maisin (`mbq`), Norfuk (`pih`), Pitkern (`pih`).
 
 ### 8.7 Languages of Europe – full table snapshot
 
@@ -1688,21 +1689,21 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **JSON file:** `tools/mixer-meta/wikipedia-formosan-languages-li-2008.json`
 - **Source:** https://en.wikipedia.org/wiki/Formosan_languages
-- **Status tier:** **Untriaged (auto-registered)**
+- **Status tier:** ✅ **Complete**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 21
+  - `fully wired:` 27
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 21
+  - `Nonunique Bases:` 26
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 0
-  - `clustered bases:` 5
-  - `clustered full items:` 5
-  - `cluster size histogram:` size2=0, size3=0, size4+=5
-  - `clustered isos:` bunun(13), paiwan(13), puyuma(13), ssf(13), sxr(13)
+  - `unique bases:` 27
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 #### Wikipedia: Formosan and Austronesian branches - Sagart (2004, 2021)
 

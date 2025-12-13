@@ -1380,6 +1380,7 @@ function runNextgenSyllableLinguistic({baseIndices, count, seed, min, max, weigh
     const baseMaxs = chosenBases.map(idx => (bases[idx] && typeof bases[idx].max === "number" ? bases[idx].max : 10));
     const fallbackMin = baseMins.length ? Math.min(...baseMins) : 4;
     const fallbackMax = baseMaxs.length ? Math.max(...baseMaxs) : Math.max(fallbackMin + 4, 10);
+
     const requestedMin = typeof min === "number" ? min : fallbackMin * requiredUniqueBases;
     const requestedMax = typeof max === "number" ? max : fallbackMax * requiredUniqueBases;
 
@@ -1405,9 +1406,10 @@ function runNextgenSyllableLinguistic({baseIndices, count, seed, min, max, weigh
     names.push(res.text);
     segTextLists.push(Array.isArray(res.segTexts) ? res.segTexts : []);
     baseSeqs.push(Array.isArray(res.baseSeq) ? res.baseSeq : []);
+    usedBasesCounts.push(typeof res.usedBasesCount === "number" ? res.usedBasesCount : 0);
   }
 
-  return {names, segTextLists, baseSeqs, chosenBasesList};
+  return {names, segTextLists, baseSeqs, chosenBasesList, usedBasesCounts};
 }
 
 function runNextgenSyllableLinguisticV7({baseIndices, count, seed, min, max, weights, minUniqueBases}) {

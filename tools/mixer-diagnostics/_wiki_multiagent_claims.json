@@ -216,6 +216,15 @@
       "status": "in_progress",
       "startedAt": "2025-12-13T00:45:00Z",
       "note": "Claimed for next coverage + uniqueness + race pass"
+    },
+    {
+      "workerId": 32,
+      "target": "tools/mixer-meta/wikipedia-formosan-languages-li-2008.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-13T03:35:52Z",
+      "finishedAt": "2025-12-13T03:35:52Z",
+      "note": "Coverage fully wired (considered=27, unmatched=0, missing=0). Per-list base-set uniqueness: unique bases=27, clustered bases=0. Race coverage OK. Suite green."
     }
   ]
 }

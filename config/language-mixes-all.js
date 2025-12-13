@@ -22143,13 +22143,6 @@
     "family": "Formosan"
   },
   {
-    "name": "Isbukun Bunun",
-    "iso": "bunun-isbukun",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
     "name": "Javanese macro entry",
     "iso": "javanese",
     "region": "Pacific",
@@ -23072,13 +23065,6 @@
     "family": "Formosan"
   },
   {
-    "name": "Nataoran",
-    "iso": "ais",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
     "name": "Nauruan",
     "iso": "nauruan",
     "region": "Pacific",
@@ -23213,13 +23199,6 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
-  },
-  {
-    "name": "Northern and Central Bunun",
-    "iso": "bunun-northern-central",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
   },
   {
     "name": "Northern and Central Bunun",
@@ -23831,13 +23810,6 @@
     "family": "Formosan"
   },
   {
-    "name": "Squliq Atayal",
-    "iso": "atayal-squliq",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
-  },
-  {
     "name": "St. Matthias",
     "iso": "st-matthias",
     "region": "Pacific",
@@ -24085,13 +24057,6 @@
     "tags": [
       "family"
     ]
-  },
-  {
-    "name": "Ts'ole' Atayal",
-    "iso": "atayal-tsole",
-    "region": "Pacific",
-    "category": "Austronesian",
-    "family": "Formosan"
   },
   {
     "name": "Ts'ole' Atayal",
