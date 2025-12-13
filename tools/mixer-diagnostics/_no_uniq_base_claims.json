@@ -1,1 +1,20 @@
-{"version":1,"claims":[]}
+{
+  "version": 1,
+  "claims": [
+    {
+      "workerId": 1,
+      "batchId": "2025-12-13T11:15:00Z-worker1",
+      "isos": [
+        "bunun",
+        "bunun-isbukun",
+        "bunun-northern-central",
+        "byq",
+        "bzg"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-13T11:15:00Z",
+      "updatedAt": "2025-12-13T11:25:00Z",
+      "notes": "Complete. Added reserved bases 539–558 (they were missing) and created dedicated bases 559–563 for: bunun->559, bunun-isbukun->560, bunun-northern-central->561, byq->562, bzg->563. Appended those base indices to each ISO in config/language-mixer-map.json. Verified via run-language-mixer-suite + seed-uniqueness report: each ISO now shows uniqBase (strictOK)."
+    }
+  ]
+}

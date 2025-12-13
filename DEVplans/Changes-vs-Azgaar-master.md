@@ -65,6 +65,12 @@ Behavioral impact vs upstream:
 - More **language diversity** and finer mapping between cultures/races and name sets.
 - Ability to define **synthetic mixed languages** for worlds that don’t map cleanly to any single real‑world language.
 
+- Mixer objective tuning (helper tooling): `tools/mixer-core/compare-mixer-nextgen-to-app.js` includes a set of experimental syllable-linguistic mixer variants (v17–v19) focused on improving realism metrics (seed-corpus trigram `bpc/ppl/js`) while preserving novelty (low `copy`). v20 was attempted and then removed; v19 is the current best-performing / stable cap.
+
+  Verified snapshot (seed=420, base=1-20, count=50):
+
+  `syllLing_v19_realismObjective_lowPpl_lowJs: bpc=3.509 ppl=11.39 js=0.1671 oov=0.00% copy=0/50 (0.0%)`
+
 ---
 
 ## 4. Fantasy Race System

@@ -19,6 +19,8 @@ Latest seed-uniqueness report snapshot (2025-12-13):
 - Strict unique seeds below threshold (among those with unique base): 4
 - Normalized unique seeds below threshold (among those with unique base): 43
 
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Formosan/Taiwan batch):** added dedicated bases `559–563` for `bunun`, `bunun-isbukun`, `bunun-northern-central`, `byq`, `bzg` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness` that each now reports `uniqBase` (`strictOK`).
+
 Throughout this devplan, `config/language-mixes.json` and `config/language-mixer-map.json` are treated as **append-only language registries**. Once a language ISO exists in either file it should not be deleted; cleanup and uniqueness passes only adjust `bases[]`, metadata, or add new entries. If an earlier revision contained a language that is now missing, that is treated as data loss to be repaired by restoring the language from history rather than as an intentional deletion.
 
 ### Section index
@@ -988,17 +990,17 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 187 (85.0%)
+  - `fully wired:` 191 (86.4%)
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 33
+  - `unmatched:` 30
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 213
+  - `Nonunique Bases:` 214
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 94
+  - `unique bases:` 98
   - `clustered bases:` 93
   - `clustered full items:` 93
   - `cluster size histogram:` size2=21, size3=13, size4+=59
@@ -1828,7 +1830,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 11
-  - `Nonunique Bases:` 19
+  - `Nonunique Bases:` 16
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 21
   - `clustered bases:` 0
@@ -1849,7 +1851,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 18
-  - `Nonunique Bases:` 26
+  - `Nonunique Bases:` 21
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 27
   - `clustered bases:` 0
@@ -1870,7 +1872,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 17
-  - `Nonunique Bases:` 20
+  - `Nonunique Bases:` 18
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 22
   - `clustered bases:` 0

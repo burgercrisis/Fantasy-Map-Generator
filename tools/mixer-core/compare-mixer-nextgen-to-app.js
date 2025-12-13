@@ -1482,6 +1482,16 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
     .slice(0, 1200)
     .map(([k]) => k);
 
+  const topSeedKeyIndex = new Map(topSeedKeys.map((k, i) => [k, i]));
+
+  const headV = topSeedKeys.length + 1;
+  const seedDenom = (seedGram.total || 0) + headV;
+  const seedHeadCounts = topSeedKeys.map(k => (seedGram.counts.get(k) || 0));
+  const seedHeadSum = seedHeadCounts.reduce((a, b) => a + b, 0);
+  const seedOther = Math.max(0, (seedGram.total || 0) - seedHeadSum);
+  const seedPaHead = seedHeadCounts.map(c => (c + 1) / seedDenom);
+  const seedPaOther = (seedOther + 1) / seedDenom;
+
   let seedBits = 0;
   let seedChars = 0;
   for (const s of seedNorm) {
@@ -1508,19 +1518,36 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
     })
   );
 
-  const jsLimited = (aCounts, aTotal, bCounts, bTotal, keys) => {
-    const keySet = new Set(Array.isArray(keys) ? keys : []);
-    for (const k of bCounts.keys()) keySet.add(k);
-    const v = keySet.size || 1;
-    const denomA = (aTotal || 0) + v;
-    const denomB = (bTotal || 0) + v;
+  const buildHeadCountsForText = text => {
+    const headCounts = new Uint16Array(topSeedKeys.length);
+    let total = 0;
+    if (typeof text !== "string" || text.length < 3) return {headCounts, total: 0};
+    for (let i = 0; i < text.length - 2; i++) {
+      const gram = text.slice(i, i + 3);
+      total++;
+      const idx = topSeedKeyIndex.get(gram);
+      if (typeof idx === "number") headCounts[idx]++;
+    }
+    return {headCounts, total};
+  };
+
+  const jsHeadOther = (bHeadCounts, totalB) => {
+    const denomB = (totalB || 0) + headV;
     let js = 0;
-    for (const k of keySet) {
-      const pa = ((aCounts.get(k) || 0) + 1) / denomA;
-      const pb = ((bCounts.get(k) || 0) + 1) / denomB;
+    let bHeadSum = 0;
+    for (let i = 0; i < topSeedKeys.length; i++) {
+      const c = bHeadCounts[i] || 0;
+      bHeadSum += c;
+      const pa = seedPaHead[i];
+      const pb = (c + 1) / denomB;
       const m = (pa + pb) / 2;
       js += 0.5 * (pa * Math.log2(pa / m) + pb * Math.log2(pb / m));
     }
+    const bOther = Math.max(0, (totalB || 0) - bHeadSum);
+    const pa = seedPaOther;
+    const pb = (bOther + 1) / denomB;
+    const m = (pa + pb) / 2;
+    js += 0.5 * (pa * Math.log2(pa / m) + pb * Math.log2(pb / m));
     return js;
   };
 
@@ -1703,8 +1730,8 @@ function runNextgenSyllableLinguisticV19({baseIndices, count, seed, min, max, we
           ? REALISM_LAMBDA * (bpc - seedBpcTarget)
           : 0;
 
-      const candGram = norm ? buildCharGramCounts([norm], 3) : {counts: new Map(), total: 0};
-      const js = jsLimited(seedGram.counts, seedGram.total, candGram.counts, candGram.total, topSeedKeys);
+      const {headCounts: candHeadCounts, total: candTotal} = buildHeadCountsForText(norm);
+      const js = jsHeadOther(candHeadCounts, candTotal);
       const jsPenalty = typeof js === "number" && Number.isFinite(js) ? JS_LAMBDA * js : 0;
 
       const copyPenalty = norm && seedSet.has(norm) ? COPY_PENALTY : 0;
