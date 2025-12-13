@@ -104,6 +104,10 @@ Seed-uniqueness posture:
 - To measure current compliance and track progress, use:
   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
+Routine checks:
+- Seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):
+  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+
 ---
 
 ## 2. From cultures to races

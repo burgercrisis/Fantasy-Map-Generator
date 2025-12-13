@@ -19,6 +19,13 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Target thresholds (tracked as debt, not enforced as a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
   - Report current compliance with:
     - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+- ✅ Routine checks wiring:
+  - The seed-uniqueness report command is now listed in the routine/quick checks sections of `Language-Mixer-Rules.md`, `Languages-Status.md`, and `Races-Languages-Rules.md`.
+
+## Routine checks
+
+- Seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):
+  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 ## Workstreams
 

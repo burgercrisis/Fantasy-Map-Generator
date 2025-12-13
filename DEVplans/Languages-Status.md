@@ -691,6 +691,8 @@ When this work resumes, a practical order of operations:
   - [ ] Does `d` allow appropriate geminates without over-duplication?
   - [ ] Is this base overused across unrelated ISOs?
 - [ ] Apply changes incrementally (one family / region per commit) and reprofile.
+- [ ] Track seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):
+  - [ ] `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 This file should be updated as major families are completed so it remains the single entry point for the language system’s overall status.
 
