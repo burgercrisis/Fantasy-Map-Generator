@@ -479,6 +479,31 @@ function getRaceLanguageProfile(raceName) {
   return raceLanguageProfiles[raceName] || null;
 }
 
+const fallbackRaceMixerIsoWeights = {
+  eng: 1,
+  fra: 1,
+  spa: 1,
+  ita: 1,
+  deu: 1,
+  rus: 1,
+  ara: 1,
+  hin: 1,
+  jpn: 1
+};
+
+function normalizeRaceMixerKey(value) {
+  if (value == null) return "";
+  return String(value)
+    .trim()
+    .toLowerCase()
+    .replace(/[\u2010-\u2015]/g, "-")
+    .replace(/\s+/g, " ");
+}
+
+function getFallbackRaceMixerIsoWeights() {
+  return fallbackRaceMixerIsoWeights;
+}
+
 function loadLanguageMixerCatalogForRaces() {
   if (Array.isArray(window.languageMixerCatalog)) return window.languageMixerCatalog;
 
@@ -507,8 +532,11 @@ function getRaceLanguageIsoWeights(raceName) {
   const catalog = loadLanguageMixerCatalogForRaces();
   if (!Array.isArray(catalog) || !catalog.length) return null;
 
-  const categorySet = new Set(profile.categories || []);
-  const familySet = new Set(profile.families || []);
+  const rawCategories = Array.isArray(profile.categories) ? profile.categories : [];
+  const rawFamilies = Array.isArray(profile.families) ? profile.families : [];
+
+  const categorySet = new Set(rawCategories.map(normalizeRaceMixerKey).filter(Boolean));
+  const familySet = new Set(rawFamilies.map(normalizeRaceMixerKey).filter(Boolean));
   const useAllCategories = categorySet.has("*");
   const useAllFamilies = familySet.has("*");
   const useAll = useAllCategories || useAllFamilies;
@@ -525,8 +553,11 @@ function getRaceLanguageIsoWeights(raceName) {
       return;
     }
 
-    const catOk = categorySet.size && categorySet.has(lang.category);
-    const effectiveFamily = lang.family || lang.category;
+    const langCategory = normalizeRaceMixerKey(lang.category);
+    const langFamily = normalizeRaceMixerKey(lang.family);
+    const effectiveFamily = langFamily || langCategory;
+
+    const catOk = categorySet.size && langCategory && categorySet.has(langCategory);
     const famOk = familySet.size && effectiveFamily && familySet.has(effectiveFamily);
     if (!catOk && !famOk) return;
 
@@ -607,27 +638,39 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   if (existing != null) return existing;
 
   if (!Names || typeof Names.getMixedByIso !== "function") return null;
-  const isoWeights = getRaceLanguageIsoWeights(raceName);
+  const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
+  const primaryIsoWeights = getRaceLanguageIsoWeights(raceName);
+  const isoWeights = primaryIsoWeights || fallbackIsoWeights;
   if (!isoWeights) return null;
 
   const count = (options && options.count) || 240;
   const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
   const mixSeed = hashStringToUint32(seedSource);
 
-  let names;
-  try {
-    names = Names.getMixedByIso(isoWeights, {count, seed: mixSeed});
-  } catch (e) {
-    return null;
+  const getSanitized = weights => {
+    let names;
+    try {
+      names = Names.getMixedByIso(weights, {count, seed: mixSeed});
+    } catch (e) {
+      return null;
+    }
+
+    if (!Array.isArray(names) || names.length < 3) return null;
+
+    const sanitized = names
+      .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+      .filter(Boolean);
+
+    if (sanitized.length < 3) return null;
+    return sanitized;
+  };
+
+  let sanitized = getSanitized(isoWeights);
+  if (!sanitized && primaryIsoWeights && fallbackIsoWeights) {
+    sanitized = getSanitized(fallbackIsoWeights);
   }
 
-  if (!Array.isArray(names) || names.length < 3) return null;
-
-  const sanitized = names
-    .map(n => String(n || "").replace(/[/|,]/g, "").trim())
-    .filter(Boolean);
-
-  if (sanitized.length < 3) return null;
+  if (!sanitized) return null;
 
   let min = 4;
   let max = 12;

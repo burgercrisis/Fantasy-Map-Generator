@@ -208,6 +208,22 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker51 mini-batch):** added dedicated bases `915–919` for `old-catalan`, `old-gallo-romance`, `old-leonese`, `old-lombard`, `old-occitan` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker51-old-romance.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (`strictOK`, `normOK`; each is `12/12`).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker52 mini-batch):** added dedicated bases `920–924` for `old-romagnol`, `old-spanish`, `oliventine`, `oltenian`, `ossolano` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker52-old-romance.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (`strictOK`, `normOK`; each is `12/12`).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker53 mini-batch):** added dedicated bases `925–929` for `pa-uezu`, `palra`, `pannonian-latin`, `pantesco`, `paraguayan-spanish` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker53-pa-uezu.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (no strict failures; no norm failures).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker54 mini-batch):** added dedicated bases `930–934` for `parmigiano`, `pavese`, `peruvian-ribere-o`, `peruvian-spanish`, `pesciatino` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker54-parmigiano.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (no strict failures; no norm failures).
+
+
+
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker41 mini-batch):** added dedicated bases `858–862` for `judeo-aragonese`, `judeo-catalan`, `judeo-gascon`, `judeo-italian`, `judeo-mantuan` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
 
 

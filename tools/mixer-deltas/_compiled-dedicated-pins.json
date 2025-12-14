@@ -1,4 +1,25 @@
 {
   "version": 1,
-  "pins": {}
+  "pins": {
+    "old-catalan": 915,
+    "old-gallo-romance": 916,
+    "old-leonese": 917,
+    "old-lombard": 918,
+    "old-occitan": 919,
+    "old-romagnol": 920,
+    "old-spanish": 921,
+    "oliventine": 922,
+    "oltenian": 923,
+    "ossolano": 924,
+    "pa-uezu": 925,
+    "palra": 926,
+    "pannonian-latin": 927,
+    "pantesco": 928,
+    "paraguayan-spanish": 929,
+    "parmigiano": 930,
+    "pavese": 931,
+    "peruvian-ribere-o": 932,
+    "peruvian-spanish": 933,
+    "pesciatino": 934
+  }
 }

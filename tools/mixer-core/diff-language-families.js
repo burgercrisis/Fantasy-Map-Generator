@@ -20,9 +20,12 @@ function loadLanguageMixerCatalogFromAllJs(relPath) {
   vm.createContext(context);
   vm.runInContext(src, context, { filename: relPath });
 
-  const catalog = context.window.languageMixerCatalog;
+  const catalog =
+    (context.window && context.window.languageMixerCatalog) ||
+    context.languageMixerCatalog ||
+    (context.globalThis && context.globalThis.languageMixerCatalog);
   if (!Array.isArray(catalog)) {
-    throw new Error("language-mixes-all.js did not define window.languageMixerCatalog as an array");
+    throw new Error("language-mixes-all.js did not define languageMixerCatalog as an array");
   }
   return catalog;
 }

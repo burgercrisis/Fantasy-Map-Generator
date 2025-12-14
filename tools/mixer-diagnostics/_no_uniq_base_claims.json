@@ -962,6 +962,66 @@
       "startedAt": "2025-12-14T11:54:37Z",
       "updatedAt": "2025-12-14T11:54:37Z",
       "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; dedicated bases appended in config/language-mixer-map.json / config/language-mixer-map.js and pinned via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- new-england-french->903\n- newfoundland-french->904\n- ni-ard->905\n- nones->906\n- northern-catalan->907\n\nVerification:\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=new-england-french,newfoundland-french,ni-ard,nones,northern-catalan\" --limit=150 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)"
+    },
+    {
+      "workerId": 51,
+      "batchId": "2025-12-14T22:40:13Z-worker51",
+      "isos": [
+        "old-catalan",
+        "old-gallo-romance",
+        "old-leonese",
+        "old-lombard",
+        "old-occitan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T22:40:13Z",
+      "updatedAt": "2025-12-14T22:40:13Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 915-964\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker51-old-romance.json and compiled with pnpm run mixer:apply-deltas):\n- old-catalan->915\n- old-gallo-romance->916\n- old-leonese->917\n- old-lombard->918\n- old-occitan->919\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --limit=20 \"--only-isos=old-catalan,old-gallo-romance,old-leonese,old-lombard,old-occitan\" (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)"
+    },
+    {
+      "workerId": 52,
+      "batchId": "2025-12-14T22:52:29Z-worker52",
+      "isos": [
+        "old-romagnol",
+        "old-spanish",
+        "oliventine",
+        "oltenian",
+        "ossolano"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T22:52:29Z",
+      "updatedAt": "2025-12-14T22:52:29Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 920-969\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker52-old-romance.json and compiled with pnpm run mixer:apply-deltas):\n- old-romagnol->920\n- old-spanish->921\n- oliventine->922\n- oltenian->923\n- ossolano->924\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=old-romagnol,old-spanish,oliventine,oltenian,ossolano\" --limit=80 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)"
+    },
+    {
+      "workerId": 53,
+      "batchId": "2025-12-14T23:00:31Z-worker53",
+      "isos": [
+        "pa-uezu",
+        "palra",
+        "pannonian-latin",
+        "pantesco",
+        "paraguayan-spanish"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T23:00:31Z",
+      "updatedAt": "2025-12-14T23:00:31Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 925-974\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker53-pa-uezu.json and compiled with pnpm run mixer:apply-deltas):\n- pa-uezu->925\n- palra->926\n- pannonian-latin->927\n- pantesco->928\n- paraguayan-spanish->929\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=pa-uezu,palra,pannonian-latin,pantesco,paraguayan-spanish\" --limit=80 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)"
+    },
+    {
+      "workerId": 54,
+      "batchId": "2025-12-14T23:09:55Z-worker54",
+      "isos": [
+        "parmigiano",
+        "pavese",
+        "peruvian-ribere-o",
+        "peruvian-spanish",
+        "pesciatino"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T23:09:55Z",
+      "updatedAt": "2025-12-14T23:09:55Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 930-979\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker54-parmigiano.json and compiled with pnpm run mixer:apply-deltas):\n- parmigiano->930\n- pavese->931\n- peruvian-ribere-o->932\n- peruvian-spanish->933\n- pesciatino->934\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=parmigiano,pavese,peruvian-ribere-o,peruvian-spanish,pesciatino\" --limit=120 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)"
     }
   ]
 }

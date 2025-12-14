@@ -1,15 +1,15 @@
 {
   "repoRoot": "E:\\code\\Fantasy-Map-Generator",
-  "commitsScanned": 61,
+  "commitsScanned": 98,
   "history": {
-    "mixTotal": 3379,
-    "mapTotal": 3379,
-    "allTotal": 3379
+    "mixTotal": 3647,
+    "mapTotal": 3647,
+    "allTotal": 3647
   },
   "current": {
-    "mixTotal": 3202,
-    "mapTotal": 3202,
-    "allTotal": 3202
+    "mixTotal": 3467,
+    "mapTotal": 3467,
+    "allTotal": 3467
   },
   "losses": {
     "fromMix": 180,
