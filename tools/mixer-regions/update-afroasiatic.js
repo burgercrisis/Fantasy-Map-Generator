@@ -50,6 +50,12 @@ function normalizeAfroasiaticEntry(entry) {
 }
 
 function main() {
+  const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: will not write config/language-mixes.json");
+  }
+
   const mixes = readJson("config/language-mixes.json");
 
   let updated = 0;
@@ -83,6 +89,12 @@ function main() {
       );
       return;
     }
+  }
+
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Not writing config/language-mixes.json (dry-run)");
+    console.log("Afroasiatic entries updated:", updated);
+    return;
   }
 
   writeJson("config/language-mixes.json", mixes);

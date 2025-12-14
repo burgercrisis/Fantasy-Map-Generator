@@ -58,6 +58,7 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 
 Run:
 
+- `pnpm run mixer:guardrails`
 - `pnpm run mixer:check-deltas`
 - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
