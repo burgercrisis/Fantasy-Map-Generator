@@ -253,18 +253,19 @@ function main() {
   const failStrict = results.filter(r => r.hasMapping && r.passUniqueBase && !r.passStrict).length;
   const failNorm = results.filter(r => r.hasMapping && r.passUniqueBase && !r.passNormalized).length;
 
-  console.log("=== Language mixer seed uniqueness report ===");
-  console.log(`Scope (targets): catalog entries${includeFamilies ? " (including families)" : " (non-family only)"}`);
-  console.log("Compared against: all mapping entries excluding family-macro catalog isos");
-  console.log(`Thresholds: strict>=${STRICT_MIN_UNIQUE_SEEDS} normalized>=${NORMALIZED_MIN_UNIQUE_SEEDS}`);
-  console.log("");
-
-  console.log(`Target ISOs: ${results.length}`);
-  console.log(`Missing mapping: ${missingMapping}`);
-  console.log(`No globally-unique base index: ${failUniqueBase}`);
-  console.log(`Strict unique seeds below threshold (among those with unique base): ${failStrict}`);
-  console.log(`Normalized unique seeds below threshold (among those with unique base): ${failNorm}`);
-  console.log("");
+  const summaryLines = [
+    "=== Language mixer seed uniqueness report ===",
+    `Scope (targets): catalog entries${includeFamilies ? " (including families)" : " (non-family only)"}`,
+    "Compared against: all mapping entries excluding family-macro catalog isos",
+    `Thresholds: strict>=${STRICT_MIN_UNIQUE_SEEDS} normalized>=${NORMALIZED_MIN_UNIQUE_SEEDS}`,
+    "",
+    `Target ISOs: ${results.length}`,
+    `Missing mapping: ${missingMapping}`,
+    `No globally-unique base index: ${failUniqueBase}`,
+    `Strict unique seeds below threshold (among those with unique base): ${failStrict}`,
+    `Normalized unique seeds below threshold (among those with unique base): ${failNorm}`,
+    "",
+  ];
 
   const rows = (onlyFailures
     ? results.filter(r => !r.hasMapping || !r.passUniqueBase || !r.passStrict || !r.passNormalized)
@@ -291,6 +292,11 @@ function main() {
         `  uniqueBases=[${r.uniqueBases.join(",")}] strictUniqueSeeds=${r.strictUniqueSeeds} normUniqueSeeds=${r.normUniqueSeeds}`
       );
     }
+  }
+
+  console.log("");
+  for (const line of summaryLines) {
+    console.log(line);
   }
 }
 

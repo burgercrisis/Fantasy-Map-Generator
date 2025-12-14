@@ -52,6 +52,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 30` completed (cheso->795, chiac->796, chilean-spanish->797, chilote->798, chipilo->799).
 
+- ✅ 2025-12-13: Romance / Oïl Dialects NO_UNIQ_BASE batch `workerId: 23` completed (meridional-french->760, moselle-romance->761, orl-anais->762, paydret->763, picard->764).
+
 ## Routine checks
 
 - Seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):

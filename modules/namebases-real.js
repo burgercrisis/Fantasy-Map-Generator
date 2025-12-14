@@ -295,7 +295,7 @@ window.realWorldNameBases = [
       {name: "Central Aragonese", i: 636, min: 4, max: 11, d: "lnrt", m: 0, b: "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla"},
       {name: "Castilian", i: 637, min: 4, max: 11, d: "lnrt", m: 0, b: "Burgos,Valladolid,Salamanca,Segovia,Avila,Soria,Palencia,Leon,Zamora,Toledo,Cuenca,Guadalajara"},
       {name: "Castelmezzano", i: 638, min: 4, max: 11, d: "lnrt", m: 0, b: "Castelmezzano,Pietrapertosa,Potenza,Matera,Tricarico,Avigliano,Pignola,Vaglio Basilicata,Tito,Laurenzago,Albano di Lucania,Anzi"},
-      {name: "Castelmezzano", i: 638, min: 4, max: 11, d: "lnrt", m: 0, b: "Castelmezzano,Pietrapertosa,Potenza,Matera,Tricarico,Avigliano,Pignola,Vaglio Basilicata,Tito,Laurenzana,Albano di Lucania,Anzi"},
+      {name: "Castelmezzano", i: 700, min: 4, max: 11, d: "lnrt", m: 0, b: "Castelmezzano,Pietrapertosa,Potenza,Matera,Tricarico,Avigliano,Pignola,Vaglio Basilicata,Tito,Laurenzana,Albano di Lucania,Anzi"},
       {name: "Central Italian", i: 639, min: 4, max: 11, d: "lnrt", m: 0, b: "Rome,Perugia,Assisi,Spoleto,Terni,Viterbo,Rieti,Foligno,Orvieto,Gubbio,Narni,Civitavecchia"},
       {name: "Central Marchigiano", i: 640, min: 4, max: 11, d: "lnrt", m: 0, b: "Ancona,Jesi,Senigallia,Fabriano,Macerata,Civitanova Marche,Fermo,Ascoli Piceno,Recanati,Osimo,Urbino,Pesaro"},
       {name: "Central Metafonetica", i: 641, min: 4, max: 11, d: "lnrt", m: 0, b: "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca"},
@@ -327,6 +327,7 @@ window.realWorldNameBases = [
       {name: "Bukharian Arabic", i: 681, min: 4, max: 11, d: "lnrt", m: 0, b: "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh"},
 
       {name: "Cairene Arabic", i: 682, min: 4, max: 11, d: "lnrt", m: 0, b: "cairenearabic_cairo,cairenearabic_giza,cairenearabic_helwan,cairenearabic_shubra,cairenearabic_maadi,cairenearabic_nascity,cairenearabic_imbaba,cairenearabic_oldcairo,cairenearabic_abbassia,cairenearabic_zamalek,cairenearabic_elmarg,cairenearabic_elmatariya"},
+      {name: "Egyptian Arabic", i: 701, min: 4, max: 11, d: "lnrt", m: 0, b: "Cairo,Alexandria,Giza,Port Said,Suez,Ismailia,Tanta,Mansoura,Zagazig,Faiyum,Asyut,Aswan"},
       {name: "Central Asian Arabic", i: 683, min: 4, max: 11, d: "lnrt", m: 0, b: "centralasianarabic_bukhara,centralasianarabic_samarkand,centralasianarabic_kattakurgan,centralasianarabic_karshi,centralasianarabic_termez,centralasianarabic_dushanbe,centralasianarabic_khujand,centralasianarabic_panjakent,centralasianarabic_shahrisabz,centralasianarabic_navoi,centralasianarabic_tashkent,centralasianarabic_balkh"},
 
       {name: "Ainu", i: 684, min: 4, max: 11, d: "lnrt", m: 0, b: "Sapporo,Asahikawa,Obihiro,Kushiro,Abashiri,Wakkanai,Nemuro,Shiraoi,Nibutani,Akan,Mukawa,Chitose"},
@@ -334,5 +335,17 @@ window.realWorldNameBases = [
       {name: "Japanese dialects", i: 686, min: 4, max: 11, d: "lnrt", m: 0, b: "Tohoku,Kansai,Kanto,Kyushu,Shikoku,Chugoku,Hokkaido,Okinawa,Tohoku-ben,Kansai-ben,Kagoshima-ben,Hakata-ben"},
       {name: "Japanese", i: 687, min: 4, max: 11, d: "lnrt", m: 0, b: "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Sapporo,Fukuoka,Kobe,Hiroshima,Sendai,Kagoshima,Naha"},
       {name: "Japanese macro", i: 688, min: 4, max: 11, d: "lnrt", m: 0, b: "Nippon,Honshu,Hokkaido,Kyushu,Shikoku,Okinawa,Tohoku,Kansai,Kanto,Chubu,Chugoku,Shinetsu"},
-      {name: "Ryukyuan", i: 689, min: 4, max: 11, d: "lnrt", m: 0, b: "Ryukyu,Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami"}
+      {name: "Ryukyuan", i: 689, min: 4, max: 11, d: "lnrt", m: 0, b: "Ryukyu,Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami"},
+
+      {name: "Meridional French", i: 760, min: 4, max: 11, d: "lnrt", m: 0, b: "meridionalfrench_toulouse,meridionalfrench_montpellier,meridionalfrench_nimes,meridionalfrench_perpignan,meridionalfrench_beziers,meridionalfrench_narbonne,meridionalfrench_carcassonne,meridionalfrench_foix,meridionalfrench_albi,meridionalfrench_castres,meridionalfrench_rodez,meridionalfrench_mende"},
+      {name: "Moselle Romance", i: 761, min: 4, max: 11, d: "lnrt", m: 0, b: "moselleromance_metz,moselleromance_thionville,moselleromance_sarrebourg,moselleromance_sarreguemines,moselleromance_forbach,moselleromance_boulay,moselleromance_bouzonville,moselleromance_saintavold,moselleromance_bitche,moselleromance_chateau-salins,moselleromance_mo-selle,moselleromance_saulnois"},
+      {name: "Orleanais", i: 762, min: 4, max: 11, d: "lnrt", m: 0, b: "orleanais_orleans,orleanais_olivet,orleanais_fleury,orleanais_stjeandelabraye,orleanais_stjeanleblanc,orleanais_saran,orleanais_la-chapelle,orleanais_gien,orleanais_montargis,orleanais_pithiviers,orleanais_beaugency,orleanais_meung"},
+      {name: "Paydret", i: 763, min: 4, max: 11, d: "lnrt", m: 0, b: "paydret_pau,paydret_orthez,paydret_oloron,paydret_tarbes,paydret_lourdes,paydret_bagneres,paydret_bearn,paydret_bigorre,paydret_ossau,paydret_aspe,paydret_lavedan,paydret_gaves"},
+      {name: "Picard", i: 764, min: 4, max: 11, d: "lnrt", m: 0, b: "picard_amiens,picard_arras,picard_abbeville,picard_beauvais,picard_saintquentin,picard_compiegne,picard_peronne,picard_albert,picard_doullens,picard_cambrai,picard_lens,picard_bethune"},
+
+      {name: "Colombian Spanish", i: 800, min: 4, max: 11, d: "lnrt", m: 0, b: "Bogota,Medellin,Cali,Barranquilla,Cartagena,Bucaramanga,Pereira,Manizales,Ibague,Santa Marta,Pasto,Popayan"},
+      {name: "Comasco-Lecchese", i: 801, min: 4, max: 11, d: "lnrt", m: 0, b: "Como,Lecco,Bellagio,Menaggio,Cernobbio,Brunate,Varenna,Colico,Dongo,Erba,Valmadrera,Molteno"},
+      {name: "Corsican", i: 802, min: 4, max: 11, d: "lnrt", m: 0, b: "Ajaccio,Bastia,Calvi,Corte,Porto-Vecchio,Bonifacio,Propriano,Sartene,L'Isula Rousse,Aléria,Ghisonaccia,Nonza"},
+      {name: "Cremish", i: 803, min: 4, max: 11, d: "lnrt", m: 0, b: "Crema,Cremish,Serio,Soncino,Romanengo,Ripalta,Pandino,Bagnolo Cremasco,Pianengo,Spino d'Adda,Offanengo,Vaiano Cremasco"},
+      {name: "Cremun-S", i: 804, min: 4, max: 11, d: "lnrt", m: 0, b: "Cremona,Cremun,Po River,Casalmaggiore,Soresina,Pizzighettone,Gussola,Persico Dosimo,Castelleone,Bonemerse,Stagno Lombardo,Malagnino"}
     ];
