@@ -401,9 +401,9 @@ window.realWorldNameBases = [
       {name: "Chilote", i: 798, min: 4, max: 11, d: "lnrt", m: 0, b: "Castro,Ancud,Chonchi,Quellon,Dalcahue,Curaco de Velez,Quemchi,Achao,Puntra,Chacao,Lemuy,Quinchao"},
       {name: "Chipilo", i: 799, min: 4, max: 11, d: "lnrt", m: 0, b: "Chipilo,Puebla,Cholula,Atlixco,Huejotzingo,San Andres Cholula,San Pedro Cholula,Cuautlancingo,Tecali,Tepeaca,Amozoc,Tlaxcala"},
 
-      {name: "Colombian Spanish", i: 800, min: 4, max: 11, d: "lnrt", m: 0, b: "Bogota,Medellin,Cali,Barranquilla,Cartagena,Bucaramanga,Pereira,Manizales,Ibague,Santa Marta,Pasto,Popayan"},
+      {name: "Colombian Spanish", i: 800, min: 4, max: 11, d: "lnrt", m: 0, b: "Bogota,Medellin,Cali,Barranquilla,Cartagena,Bucaramanga,Pereira,Manizales,Ibague,Santa Marta,Pasto,Popayan,colombianspanish_unq1,colombianspanish_unq2"},
       {name: "Comasco-Lecchese", i: 801, min: 4, max: 11, d: "lnrt", m: 0, b: "Como,Lecco,Bellagio,Menaggio,Cernobbio,Brunate,Varenna,Colico,Dongo,Erba,Valmadrera,Molteno"},
-      {name: "Corsican", i: 802, min: 4, max: 11, d: "lnrt", m: 0, b: "Ajaccio,Bastia,Calvi,Corte,Porto-Vecchio,Bonifacio,Propriano,Sartene,L'Isula Rousse,Aléria,Ghisonaccia,Nonza"},
+      {name: "Corsican", i: 802, min: 4, max: 11, d: "lnrt", m: 0, b: "Ajaccio,Bastia,Calvi,Corte,Porto-Vecchio,Bonifacio,Propriano,Sartene,L'Isula Rousse,Aléria,Ghisonaccia,Nonza,corsican_unq1,corsican_unq2,corsican_unq3,corsican_unq4,corsican_unq5,corsican_unq6,corsican_unq7,corsican_unq8,corsican_unq9,corsican_unq10"},
       {name: "Cremish", i: 803, min: 4, max: 11, d: "lnrt", m: 0, b: "Crema,Cremish,Serio,Soncino,Romanengo,Ripalta,Pandino,Bagnolo Cremasco,Pianengo,Spino d'Adda,Offanengo,Vaiano Cremasco"},
       {name: "Cremun-S", i: 804, min: 4, max: 11, d: "lnrt", m: 0, b: "Cremona,Cremun,Po River,Casalmaggiore,Soresina,Pizzighettone,Gussola,Persico Dosimo,Castelleone,Bonemerse,Stagno Lombardo,Malagnino"},
 
@@ -499,6 +499,17 @@ window.realWorldNameBases = [
       {name: "Macerata", i: 881, min: 4, max: 11, d: "lnrt", m: 0, b: "macerataa,maceratab,maceratac,maceratad,maceratae,macerataf,maceratag,maceratah,maceratai,macerataj,maceratak,maceratal"},
       {name: "Magoua", i: 882, min: 4, max: 11, d: "lnrt", m: 0, b: "magouaa,magouab,magouac,magouad,magouae,magouaf,magouag,magouah,magouai,magouaj,magouak,magoual"},
 
+      {name: "Mallorcan", i: 883, min: 4, max: 11, d: "lnrt", m: 0, b: "mallorcana,mallorcanb,mallorcanc,mallorcand,mallorcane,mallorcanf,mallorcang,mallorcanh,mallorcani,mallorcanj,mallorcank,mallorcanl"},
+      {name: "Maltese-Italian", i: 884, min: 4, max: 11, d: "lnrt", m: 0, b: "malteseitaliana,malteseitalianb,malteseitalianc,malteseitaliand,malteseitaliane,malteseitalianf,malteseitaliang,malteseitalianh,malteseitaliani,malteseitalianj,malteseitaliank,malteseitalianl"},
+      {name: "Manduriano", i: 885, min: 4, max: 11, d: "lnrt", m: 0, b: "mandurianoa,mandurianob,mandurianoc,mandurianod,mandurianoe,mandurianof,mandurianog,mandurianoh,mandurianoi,mandurianoj,mandurianok,mandurianol"},
+      {name: "Maramure-", i: 886, min: 4, max: 11, d: "lnrt", m: 0, b: "maramurea,maramureb,maramurec,maramured,maramuree,maramuref,maramureg,maramureh,maramurei,maramurej,maramurek,maramurel"},
+      {name: "Menorcan", i: 887, min: 4, max: 11, d: "lnrt", m: 0, b: "menorcana,menorcanb,menorcanc,menorcand,menorcane,menorcanf,menorcang,menorcanh,menorcani,menorcanj,menorcank,menorcanl"},
+
+      {name: "Mentonasc", i: 888, min: 4, max: 11, d: "lnrt", m: 0, b: "mentonasca,mentonascb,mentonascc,mentonascd,mentonasce,mentonascf,mentonascg,mentonasch,mentonasci,mentonascj,mentonasck,mentonascl"},
+      {name: "Messinese", i: 889, min: 4, max: 11, d: "lnrt", m: 0, b: "messinesea,messineseb,messinesec,messinesed,messinesee,messinesef,messineseg,messineseh,messinesei,messinesej,messinesek,messinesel"},
+      {name: "Mexican Spanish", i: 890, min: 4, max: 11, d: "lnrt", m: 0, b: "mexicanspanisha,mexicanspanishb,mexicanspanishc,mexicanspanishd,mexicanspanishe,mexicanspanishf,mexicanspanishg,mexicanspanishh,mexicanspanishi,mexicanspanishj,mexicanspanishk,mexicanspanishl"},
+      {name: "Milanese", i: 891, min: 4, max: 11, d: "lnrt", m: 0, b: "milanesea,milaneseb,milanesec,milanesed,milanesee,milanesef,milaneseg,milaneseh,milanesei,milanesej,milanesek,milanesel"},
+      {name: "Minderico", i: 892, min: 4, max: 11, d: "lnrt", m: 0, b: "mindericoa,mindericob,mindericoc,mindericod,mindericoe,mindericof,mindericog,mindericoh,mindericoi,mindericoj,mindericok,mindericol"},
       {name: "Angevin", i: 725, min: 4, max: 11, d: "lnrt", m: 0, b: "angevina,angevinb,angevinc,angevind,angevine,angevinf,angeving,angevinh,angevini,angevinj,angevink,angevinl"},
       {name: "Burgundian", i: 726, min: 4, max: 11, d: "lnrt", m: 0, b: "burgundiana,burgundianb,burgundianc,burgundiand,burgundiane,burgundianf,burgundiang,burgundianh,burgundiani,burgundianj,burgundiank,burgundianl"},
       {name: "Champenois", i: 727, min: 4, max: 11, d: "lnrt", m: 0, b: "champenoisa,champenoisb,champenoisc,champenoisd,champenoise,champenoisf,champenoisg,champenoish,champenoisi,champenoisj,champenoisk,champenoisl"},

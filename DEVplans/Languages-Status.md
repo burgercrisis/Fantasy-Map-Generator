@@ -148,7 +148,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
-- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / worker31 mini-batch):** added dedicated bases `800–804` for `colombian-spanish`, `comasco-lecchese`, `corsican`, `cremish`, `cremun-s` (and appended them in `config/language-mixer-map.json`). Verified: all report `uniqBase` (`strictOK`). Remaining `norm<10` debt: `colombian-spanish=10/9`, `corsican=4/3`.
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / worker31 mini-batch):** added dedicated bases `800–804` for `colombian-spanish`, `comasco-lecchese`, `corsican`, `cremish`, `cremun-s` (and appended them in `config/language-mixer-map.json`). Verified: all report `uniqBase` (`strictOK`). Follow-up: appended ISO-unique seed tokens to bases `800` and `802`; `report-language-mixer-seed-uniqueness --only-failures "--only-isos=colombian-spanish,comasco-lecchese,corsican,cremish,cremun-s"` now reports `norm failures: 0`.
 
 
 
@@ -209,6 +209,18 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker44 mini-batch):** added dedicated bases `873–877` for `ligurian`, `limousin`, `llanito`, `logudorese`, `lombard` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker45 mini-batch):** added dedicated bases `878–882` for `louisiana-french`, `lucchese`, `m-tis-french`, `macerata`, `magoua` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker46 mini-batch):** added dedicated bases `883–887` for `mallorcan`, `maltese-italian`, `manduriano`, `maramure-`, `menorcan` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker47 mini-batch):** added dedicated bases `888–892` for `mentonasc`, `messinese`, `mexican-spanish`, `milanese`, `minderico` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
 
 
 

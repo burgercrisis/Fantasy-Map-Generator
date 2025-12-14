@@ -1,8 +1,14 @@
 ---
 description: Multi-agent NO_UNIQ_BASE2 burn-down
-auto_execution_mode: 1
+auto_execution_mode: 0
 ---
 You are Cascade working on the Fantasy-Map-Generator language mixer.
+
+# Execution guardrails (required)
+
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
 
 This workflow is a **reusable “verification + handoff” checklist** for multi-agent `NO_UNIQ_BASE` burn-down work.
 
@@ -41,8 +47,8 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 
 Run:
 
-- `pnpm exec node tools/mixer-core/run-language-mixer-suite.js`
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500`
+- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500`
 
 Confirm:
 
@@ -50,7 +56,7 @@ Confirm:
 
 Also confirm you did not introduce identical `bases[]` collisions:
 
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2`
 
 ## 3) Optional quick quality pass (only if quick)
 

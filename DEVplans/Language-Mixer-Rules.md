@@ -218,6 +218,12 @@ All commands should be run from the repo root. Prefer **pnpm**.
 - Track seed-uniqueness goal compliance (explicit goal, not a suite hard gate):
   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
+### 5.6 Multi-agent `NO_UNIQ_BASE2` guardrails (status)
+
+- Use `.windsurf/workflows/no-unique-base2.md` as the canonical checklist.
+- During that workflow: do **not** run `git` commands, and do **not** paraphrase the workflow into “equivalent” commands.
+- Prefer `pnpm exec -- node ...` invocation form so script arguments are not swallowed by pnpm.
+
 ---
 
 ## 6. Enforcement & tooling
