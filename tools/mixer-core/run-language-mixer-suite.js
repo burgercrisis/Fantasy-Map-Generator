@@ -58,6 +58,7 @@ function summarize(label, output, showFull) {
 
 function main() {
   const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
 
   // Simple tooltip / help output.
   if (args.includes("--help") || args.includes("-h")) {
@@ -66,6 +67,7 @@ function main() {
       "Runs the core language mixer maintenance tools, regenerates the mixer bundles, and prints a summary of each.\n"
     );
     console.log("Options:");
+    console.log("  --multi-agent-safe  Run in read-only mode: do not regenerate bundles or update devplans; run fixer with --multi-agent-safe");
     console.log("  --no-fix           Skip fix-language-mixer-mappings.js");
     console.log("  --no-coverage      Skip check-language-mixer-coverage.js");
     console.log("  --no-failures      Skip check-language-mixer-failures.js");
@@ -90,7 +92,7 @@ function main() {
   const runFailures = !args.includes("--no-failures");
   const showFull = args.includes("--full-output");
   const hasNameCountsFlag = args.includes("--name-counts");
-  const runWikiDevplan = args.includes("--wiki-devplan") || !args.includes("--no-wiki-devplan");
+  const runWikiDevplan = !multiAgentSafe && (args.includes("--wiki-devplan") || !args.includes("--no-wiki-devplan"));
   const wikiFilterArg = args.find(a => a.startsWith("--wiki-filter="));
 
   const nameCountsSortArg = args.find(a => a.startsWith("--name-counts-sort="));
@@ -109,7 +111,12 @@ function main() {
 
   console.log("Running language mixer maintenance suite...\n");
 
-  const fixResult = runFix ? runScript("fix-language-mixer-mappings.js") : {ok: true, output: ""};
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: no bundle regeneration and no devplan updates\n");
+  }
+
+  const fixArgs = multiAgentSafe ? ["--multi-agent-safe"] : [];
+  const fixResult = runFix ? runScript("fix-language-mixer-mappings.js", fixArgs) : {ok: true, output: ""};
   if (!fixResult.ok) {
     summarize("fix-language-mixer-mappings.js", fixResult.output, showFull);
     return;
@@ -135,7 +142,7 @@ function main() {
     return;
   }
 
-  const generateResult = runScript("generate-language-mixer.js");
+  const generateResult = multiAgentSafe ? {ok: true, output: ""} : runScript("generate-language-mixer.js");
   if (!generateResult.ok) {
     summarize("generate-language-mixer.js", generateResult.output, showFull);
     return;
@@ -154,7 +161,7 @@ function main() {
   if (runCoverage) summarize("check-language-mixer-coverage.js", coverageResult.output, showFull);
   if (runFailures) summarize("check-language-mixer-failures.js", failuresResult.output, showFull);
   if (runNameCounts) summarize("report-language-mixer-name-counts.js", nameCountsResult.output, showFull);
-  summarize("generate-language-mixer.js", generateResult.output, showFull);
+  if (!multiAgentSafe) summarize("generate-language-mixer.js", generateResult.output, showFull);
   if (runWikiDevplan) summarize("run-wikipedia-list-helpers.js", wikiDevplanResult.output, showFull);
 }
 

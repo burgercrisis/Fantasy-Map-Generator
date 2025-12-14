@@ -450,8 +450,8 @@ const explicitIsoBasesMap = {
   dis: [63, 64],
   rah: [63, 65],
 
-  cac: [170, 160],
-  caa: [157, 161, 168],
+  cac: [913],
+  caa: [914],
 
   aranese: [2, 4, 232, 731],
   "eastern-aragonese": [4, 287],
@@ -488,6 +488,9 @@ const explicitIsoBasesMap = {
 };
 
 const explicitIsoDedicatedBaseMap = {
+  caa: 914,
+  cac: 913,
+
   angevin: 725,
   burgundian: 726,
   champenois: 727,
@@ -1104,7 +1107,7 @@ function main() {
     if (baseIndex == null) {
       unresolved.push(lang);
       continue;
-// ...
+    }
 
     if (existing) {
       existing.bases = [baseIndex];

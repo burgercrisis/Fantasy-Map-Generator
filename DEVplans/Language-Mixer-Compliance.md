@@ -14,6 +14,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - Safety tightening:
   - `tools/mixer-core/fix-language-mixer-mappings.js` will not create new map-only entries from `explicitIsoBasesMap` unless the ISO exists in the catalog
   - `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would lose its pinned dedicated base, or if the pinned base index is missing from valid namebase indices
+  - 2025-12-14: Restored `tools/mixer-core/report-language-mixer-name-counts.js` repo-root resolution (prevents ENOENT for `tools/config/*`).
 
 - Seed-uniqueness thresholds (explicit goal; not a hard gate):
   - We are tracking a long-term goal that each non-family mixer language has at least one globally-unique base index, and that dedicated base contains ISO-unique seed tokens.

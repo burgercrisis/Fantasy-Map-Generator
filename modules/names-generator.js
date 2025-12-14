@@ -175,7 +175,9 @@ window.Names = (function () {
       name = vowel(name.slice(0, 1).toLowerCase()) ? "Al" + name.toLowerCase() : "Al " + name; // Arabic starts with -Al
 
     // no suffix for fantasy bases
-    if (base > 32 && base < 42) return name;
+    const baseEntry = nameBases && nameBases[base];
+    const baseName = baseEntry && typeof baseEntry.name === "string" ? baseEntry.name : "";
+    if ((base > 32 && base < 42) || /^Race\s+.+\s+\(Mixer\)$/.test(baseName)) return name;
 
     // define if suffix should be used
     if (name.length > 3 && vowel(name.slice(-1))) {

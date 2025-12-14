@@ -439,7 +439,12 @@ Rules:
 How this relates to map names:
 
 - Normal map features (burgs, states, etc.) still use `Names.getCulture(cultureId)` based on `culture.base`.
-- `generateRaceLanguageNames` is a **race-level tool** for exploring or defining race-specific language flavors (e.g. for lore, descriptors, or dev tooling), not a replacement for culture-based naming.
+- `generateRaceLanguageNames` is a **race-level tool** for exploring or defining race-specific language flavors (e.g. for lore, descriptors, or dev tooling).
+- ✅ **2025-12-14 wiring update (race → culture language):** during `initializeRacesForExpansion`, each non-human culture can now be assigned a generated namebase `Race <RaceName> (Mixer)` created via `Names.getMixedByIso`.
+  - This makes fantasy races produce genuinely novel mixed languages in normal map naming flows (via `culture.base`).
+  - Humans remain unchanged (no race-level mixed base; they keep per-culture bases).
+  - Race identity is preserved because `getRaceNameForCulture` recognizes both the classic fantasy base indices and the generated `Race <RaceName> (Mixer)` bases.
+  - State-name suffix logic treats `Race <RaceName> (Mixer)` as a fantasy base (no generic suffix).
 
 ---
 

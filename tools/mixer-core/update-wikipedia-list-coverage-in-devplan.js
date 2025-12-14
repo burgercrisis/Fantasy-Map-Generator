@@ -118,7 +118,7 @@ function buildBaseClusters(mixes, map) {
     const lang = mixByIso.get(iso);
     if (!lang) continue;
 
-    const tags = Array.isArray(lang.tags) ? lang.tags : [];
+    const tags = Array.isArray(lang?.tags) ? lang.tags : [];
     if (tags.includes("family")) continue;
     if (tags.includes("subset")) continue;
 

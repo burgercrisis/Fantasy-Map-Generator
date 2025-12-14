@@ -230,7 +230,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
-- ✅ **2025-12-14 mixer-suite unblock (atlas-berber + Mayan pins):** verified base `331` is defined in `modules/namebases-real.js` for `atlas-berber` and pinned Mayan `cac` (Chuj) and `caa` (Ch'orti') base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` so the suite no longer clears them to `bases: []`. Verified via `run-language-mixer-suite --no-wiki-devplan` (0 unresolved; 0 Markov failures).
+- ✅ **2025-12-14 hard-breakage fixes (hachijo + Mayan):** ensured `hachijo` includes dedicated base `685` (`bases: [10, 12, 685]`), and wired Mayan `cac` (Chuj) / `caa` (Ch'orti') away from `bases: []` by setting `cac: [913]`, `caa: [914]` (bases `913/914` defined in `modules/namebases-real.js`). Applied via delta file `tools/mixer-deltas/2025-12-14-hachijo-cac-caa.json` and re-generated artifacts via `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js`. Verified via `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` + `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`.
 
 
 
