@@ -52,11 +52,6 @@ const explicitIsoBaseMap = {
   "sino-tibetan-family": 11,
   "zho": 11,
   mbq: 367,
-  "abaza": 241,
-  "bzyb": 241,
-  "adyghe": 241,
-  "kabardian": 241,
-  "bats": 239,
 
   // Major global creoles with dedicated bases
   "haitian-creole": 258,

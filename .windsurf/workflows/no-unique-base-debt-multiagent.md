@@ -15,9 +15,9 @@ This workflow is designed to be **re-sent verbatim** to multiple agents working 
 - Do **not** suggest “reverting”, “rolling back”, “dropping”, or “restoring” changes unless the user explicitly instructs you to revert a specific file (with an exact file list).
 - Do **not** propose or run commits. The user/integrator owns all commits.
 - If you see BOM / CRLF / timestamp churn or other suspicious diffs, the only allowed actions are:
-   - Fix encoding/format **in-place** without removing content, or
-   - Keep it as-is and continue, or
-   - Leave it uncommitted / untouched and ask the user what to do.
+  - Fix encoding/format **in-place** without removing content, or
+  - Keep it as-is and continue, or
+  - Leave it uncommitted / untouched and ask the user what to do.
 
 # Objective
 
@@ -188,3 +188,10 @@ If blocked (ambiguous ISO resolution, missing seeds, unclear family/region class
 - Mark your claim as `stalled`.
 - Write concise notes about what decision is needed.
 - Then claim a different batch.
+
+When stopping for handoff, include:
+
+- Files changed
+- Suggested commit messages (no commits performed by agents)
+- `git add -p` guidance for how to stage the changes into logical commits
+- Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite
