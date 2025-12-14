@@ -35,6 +35,10 @@ Important: when using pnpm, include `--` before script arguments so pnpm does no
 
 Runs the core language-mixer maintenance tools and prints a combined summary. This is the "one button" entry point when you’re doing mixer work.
 
+Multi-agent note:
+
+- In multi-agent / multi-writer contexts, prefer the delta workflow (`tools/mixer-deltas/*.json` + `pnpm run mixer:apply-deltas`) and avoid running the suite unless explicitly requested, as it can rewrite mappings and increase churn.
+
 **What it does**
 
 By default it runs, in order:

@@ -671,13 +671,14 @@ function readOptionalJson(relPath) {
   try {
     return readJson(relPath);
   } catch (e) {
-    return null;
+    if (e && (e.code === "ENOENT" || e.code === "ENOTDIR")) return null;
+    throw e;
   }
 }
 
 function mergeCompiledDedicatedPins() {
   const compiled = readOptionalJson("tools/mixer-deltas/_compiled-dedicated-pins.json");
-  const pins = compiled && compiled.pins && typeof compiled.pins === "object" ? compiled.pins : null;
+  const pins = compiled?.pins && typeof compiled.pins === "object" ? compiled.pins : null;
   if (!pins) return;
 
   for (const [rawIso, rawBase] of Object.entries(pins)) {
@@ -685,7 +686,7 @@ function mergeCompiledDedicatedPins() {
     const base = Number(rawBase);
     if (!iso) continue;
     if (!Number.isFinite(base)) {
-      throw new Error(`Invalid compiled dedicated base for ${iso}: ${rawBase}`);
+      throw new TypeError(`Invalid compiled dedicated base for ${iso}: ${rawBase}`);
     }
 
     if (Object.hasOwn(explicitIsoDedicatedBaseMap, iso) && explicitIsoDedicatedBaseMap[iso] !== base) {
@@ -831,10 +832,10 @@ function main() {
     const variants = [];
     if (lower) variants.push(lower);
 
-    const stripped = lower.replace(/\s+(language|languages|creole|creoles|family|group|dialect|dialects)$/g, "").trim();
+    const stripped = lower.replaceAll(/\s+(language|languages|creole|creoles|family|group|dialect|dialects)$/g, "").trim();
     if (stripped && stripped !== lower && !variants.includes(stripped)) variants.push(stripped);
 
-    const dehyphen = lower.replace(/[-–]+/g, " ").trim();
+    const dehyphen = lower.replaceAll(/[-–]+/g, " ").trim();
     if (dehyphen && !variants.includes(dehyphen)) variants.push(dehyphen);
 
     const prefixStripped = lower
@@ -843,7 +844,7 @@ function main() {
       .trim();
     if (prefixStripped && prefixStripped !== lower && !variants.includes(prefixStripped)) {
       variants.push(prefixStripped);
-      const prefixDehyphen = prefixStripped.replace(/[-–]+/g, " ").trim();
+      const prefixDehyphen = prefixStripped.replaceAll(/[-–]+/g, " ").trim();
       if (prefixDehyphen && prefixDehyphen !== prefixStripped && !variants.includes(prefixDehyphen)) {
         variants.push(prefixDehyphen);
       }
@@ -897,7 +898,7 @@ function main() {
   // base that is missing its definition. Do not "helpfully" strip it.
   const invalidBaseOwners = new Map();
   for (const entry of map) {
-    if (!entry || !entry.iso) continue;
+    if (!entry?.iso) continue;
     const bases = Array.isArray(entry.bases) ? entry.bases : [];
     for (const b of bases) {
       if (validBaseIndices.has(b)) continue;
@@ -938,7 +939,7 @@ function main() {
   let didMutateMap = false;
 
   for (const entry of map) {
-    if (!entry || !entry.iso) continue;
+    if (!entry?.iso) continue;
     const bases = Array.isArray(entry.bases) ? entry.bases.filter(b => validBaseIndices.has(b)) : [];
     if (!bases.length) {
       droppedIsos.push(entry.iso);
@@ -988,7 +989,7 @@ function main() {
   }
 
   for (const entry of map) {
-    if (!entry || !entry.iso) continue;
+    if (!entry?.iso) continue;
     const bases = Array.isArray(entry.bases) ? entry.bases : [];
     if (!bases.length) continue;
     const cleaned = bases.filter(b => !allDedicatedBases.has(b) || dedicatedOwnerByBase.get(b) === entry.iso);
@@ -1093,17 +1094,17 @@ function main() {
   }
 
   for (const lang of mixes) {
-    if (!lang || !lang.iso) continue;
+    if (!lang?.iso) continue;
 
-    const existing = mapByIso.get(lang.iso) || null;
-    const hasBases = Array.isArray(existing?.bases) && existing.bases.length;
+    const existing = mapByIso.get(lang.iso);
+    const hasBases = existing?.bases?.length;
     if (hasBases) continue; // already mapped
 
     const baseIndex = findBaseIndexForLang(lang);
     if (baseIndex == null) {
       unresolved.push(lang);
       continue;
-    }
+// ...
 
     if (existing) {
       existing.bases = [baseIndex];

@@ -19,7 +19,8 @@ function readOptionalJson(relPath) {
   try {
     return readJson(relPath);
   } catch (e) {
-    return null;
+    if (e && (e.code === "ENOENT" || e.code === "ENOTDIR")) return null;
+    throw e;
   }
 }
 
@@ -65,7 +66,8 @@ function loadNamebaseIndices() {
     try {
       src = fs.readFileSync(file, "utf8");
     } catch (e) {
-      continue;
+      if (e && e.code === "ENOENT") continue;
+      throw e;
     }
 
     let m;
@@ -131,7 +133,7 @@ function mergePins(target, incoming, sourceLabel) {
 
     if (!iso) continue;
     if (!Number.isFinite(base)) {
-      throw new Error(`[apply-mixer-deltas] Invalid base for ${iso} from ${sourceLabel}`);
+      throw new TypeError(`[apply-mixer-deltas] Invalid base for ${iso} from ${sourceLabel}`);
     }
 
     if (Object.hasOwn(target, iso) && Number(target[iso]) !== base) {
@@ -160,7 +162,7 @@ function mergeAppendBases(target, incoming, sourceLabel) {
 function applyToMap(map, setBases, pins, appendBases) {
   const mapByIso = new Map();
   for (const entry of Array.isArray(map) ? map : []) {
-    if (!entry || entry.iso == null) continue;
+    if (entry?.iso == null) continue;
     mapByIso.set(String(entry.iso), entry);
   }
 
@@ -276,7 +278,7 @@ function validateIsosExistInCatalog({catalogIsos, setBases, pins, appendBases}) 
 function validatePinnedBasesAreUnique({map, pins}) {
   const baseOwners = new Map();
   for (const entry of Array.isArray(map) ? map : []) {
-    if (!entry || !entry.iso) continue;
+    if (!entry?.iso) continue;
     const iso = String(entry.iso);
     const bases = Array.isArray(entry.bases) ? entry.bases : [];
     for (const b of bases) {
@@ -297,7 +299,8 @@ function validatePinnedBasesAreUnique({map, pins}) {
     if (!owners) continue;
     const otherOwners = Array.from(owners).filter(o => o !== iso);
     if (otherOwners.length) {
-      collisions.push({iso, base: Number(base), owners: otherOwners.sort((a, b) => a.localeCompare(b))});
+      otherOwners.sort((a, b) => a.localeCompare(b));
+      collisions.push({iso, base: Number(base), owners: otherOwners});
     }
   }
 
@@ -329,7 +332,7 @@ function main() {
   const pins = {};
   const appendBases = {};
 
-  if (compiledPinsBaseline && compiledPinsBaseline.pins) {
+  if (compiledPinsBaseline?.pins) {
     mergePins(pins, compiledPinsBaseline.pins, compiledPinsRel);
   }
 
@@ -379,7 +382,7 @@ function main() {
 
   const sortedPins = Object.fromEntries(sortedPinsEntries);
   const nextCompiled = {version: 1, pins: sortedPins};
-  const prevCompiledPins = compiledPinsBaseline && compiledPinsBaseline.pins ? compiledPinsBaseline.pins : null;
+  const prevCompiledPins = compiledPinsBaseline?.pins ?? null;
   const didMutatePins = prevCompiledPins == null || JSON.stringify(prevCompiledPins) !== JSON.stringify(sortedPins);
   if (checkOnly) {
     if (didMutateMap || didMutatePins) {

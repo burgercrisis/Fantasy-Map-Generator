@@ -573,6 +573,81 @@ function generateRaceLanguageNames(raceName, options) {
   return result;
 }
 
+function getRaceMixerBaseDisplayName(raceName) {
+  return `Race ${raceName} (Mixer)`;
+}
+
+function hashStringToUint32(value) {
+  const str = value == null ? "" : String(value);
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function findExistingRaceMixerBaseIndex(raceName) {
+  if (!raceName || !Array.isArray(nameBases)) return null;
+  const expectedName = getRaceMixerBaseDisplayName(raceName);
+  for (let i = 0; i < nameBases.length; i++) {
+    const b = nameBases[i];
+    if (!b || typeof b.name !== "string") continue;
+    if (b.name === expectedName) return i;
+  }
+  return null;
+}
+
+function ensureRaceMixerBaseIndex(raceName, options) {
+  if (!raceName || raceName === "Human") return null;
+  if (!fantasyRaceBases[raceName]) return null;
+  if (!Array.isArray(nameBases)) return null;
+
+  const existing = findExistingRaceMixerBaseIndex(raceName);
+  if (existing != null) return existing;
+
+  if (!Names || typeof Names.getMixedByIso !== "function") return null;
+  const isoWeights = getRaceLanguageIsoWeights(raceName);
+  if (!isoWeights) return null;
+
+  const count = (options && options.count) || 240;
+  const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
+  const mixSeed = hashStringToUint32(seedSource);
+
+  let names;
+  try {
+    names = Names.getMixedByIso(isoWeights, {count, seed: mixSeed});
+  } catch (e) {
+    return null;
+  }
+
+  if (!Array.isArray(names) || names.length < 3) return null;
+
+  const sanitized = names
+    .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+    .filter(Boolean);
+
+  if (sanitized.length < 3) return null;
+
+  let min = 4;
+  let max = 12;
+  try {
+    const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
+    const q = p => lengths[Math.floor(p * (lengths.length - 1))];
+    const p25 = q(0.25);
+    const p75 = q(0.75);
+    const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
+    const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
+    min = computedMin;
+    max = computedMax;
+  } catch (e) {}
+
+  const b = sanitized.join(",");
+  const baseIndex = nameBases.length;
+  nameBases.push({name: getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b});
+  return baseIndex;
+}
+
 function getRacesSetFilter(value) {
   switch (value) {
     case "classic":
@@ -815,6 +890,11 @@ function getRaceNameForCulture(culture) {
     if (bases.includes(base)) return raceName;
   }
 
+  const baseEntry = nameBases && nameBases[base];
+  const baseName = baseEntry && typeof baseEntry.name === "string" ? baseEntry.name : "";
+  const match = /^Race\s+(.+)\s+\(Mixer\)$/.exec(baseName);
+  if (match && match[1] && fantasyRaceBases[match[1]]) return match[1];
+
   return "Human";
 }
 
@@ -880,6 +960,13 @@ function initializeRacesForExpansion(options) {
 
     if (shouldApplyFilter && raceName && raceName !== "Human" && allowedRaces) {
       if (!allowedRaces.has(raceName)) raceName = "Human";
+    }
+
+    if (raceName && raceName !== "Human") {
+      const mixedBase = ensureRaceMixerBaseIndex(raceName);
+      if (typeof mixedBase === "number") {
+        culture.base = mixedBase;
+      }
     }
     let raceId = raceIndexByName.get(raceName);
 

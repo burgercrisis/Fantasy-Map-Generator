@@ -548,5 +548,7 @@ window.realWorldNameBases = [
 
       {name: "Cilentan", i: 738, min: 4, max: 11, d: "lnrt", m: 0, b: "cilentana,cilentanb,cilentanc,cilentand,cilentane,cilentanf,cilentang,cilentanh,cilentani,cilentanj,cilentank,cilentanl"},
       {name: "Cosentino", i: 739, min: 4, max: 11, d: "lnrt", m: 0, b: "cosentinoa,cosentinob,cosentinoc,cosentinod,cosentinoe,cosentinof,cosentinog,cosentinoh,cosentinoi,cosentinoj,cosentinok,cosentinol"},
-      {name: "Joual", i: 857, min: 4, max: 11, d: "lnrt", m: 0, b: "jouala,joualb,joualc,jouald,jouale,joualf,joualg,joualh,jouali,joualj,joualk,jouall"}
+      {name: "Joual", i: 857, min: 4, max: 11, d: "lnrt", m: 0, b: "jouala,joualb,joualc,jouald,jouale,joualf,joualg,joualh,jouali,joualj,joualk,jouall"},
+      {name: "Chuj", i: 913, min: 4, max: 11, d: "lnrt", m: 0, b: "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla"},
+      {name: "Ch'orti'", i: 914, min: 4, max: 11, d: "lnrt", m: 0, b: "Chiquimula,Jocotan,Camotan,Olopa,Esquipulas,Ipala,Quezaltepeque,Zacapa,Rio Hondo,San Jacinto,La Union,San Juan Ermita"}
     ];

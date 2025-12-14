@@ -12,8 +12,8 @@
 // You can control which tools run and whether summaries are truncated
 // via CLI flags. See --help for details.
 
-const path = require("path");
-const {execFileSync} = require("child_process");
+const path = require("node:path");
+const {execFileSync} = require("node:child_process");
 
 // Run a single Node script under tools/ and capture its stdout.
 // Optional extraArgs are forwarded as CLI arguments to the child script.

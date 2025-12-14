@@ -1,14 +1,15 @@
 "use strict";
 
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const root = path.resolve(__dirname, "..", "..");
 
 function readJson(relPath) {
   const full = path.join(root, relPath);
-  const raw = fs.readFileSync(full, "utf8").replace(/^\uFEFF/, "");
-  return JSON.parse(raw);
+  const raw = fs.readFileSync(full, "utf8");
+  const s = raw?.codePointAt(0) === 0xfeff ? raw.slice(1) : raw;
+  return JSON.parse(s);
 }
 
 function loadList(fileArg) {
@@ -16,8 +17,9 @@ function loadList(fileArg) {
     throw new Error("Expected a path to a JSON file describing a Wikipedia language list");
   }
   const full = path.isAbsolute(fileArg) ? fileArg : path.join(root, fileArg);
-  const raw = fs.readFileSync(full, "utf8").replace(/^\uFEFF/, "");
-  const data = JSON.parse(raw);
+  const raw = fs.readFileSync(full, "utf8");
+  const s = raw?.codePointAt(0) === 0xfeff ? raw.slice(1) : raw;
+  const data = JSON.parse(s);
 
   if (Array.isArray(data)) {
     return { title: path.basename(full), source: "", items: data };
@@ -39,7 +41,7 @@ function buildIndexes(mixes, map) {
   const byNameLower = new Map();
 
   for (const m of mixes) {
-    if (!m || !m.iso) continue;
+    if (!m?.iso) continue;
     const iso = String(m.iso);
     byIso.set(iso, m);
     const name = m.name ? String(m.name).toLowerCase() : "";
@@ -58,17 +60,17 @@ function buildIndexes(mixes, map) {
 function buildIsoHasUniqueBaseMap(mixes, map) {
   const mixByIso = new Map();
   for (const lang of mixes) {
-    if (!lang || !lang.iso) continue;
+    if (!lang?.iso) continue;
     mixByIso.set(String(lang.iso), lang);
   }
 
   const baseToIsos = new Map(); // baseIndex => Set(iso)
 
   for (const entry of map) {
-    if (!entry || !entry.iso) continue;
+    if (!entry?.iso) continue;
     const iso = String(entry.iso);
     const lang = mixByIso.get(iso) || null;
-    const tags = lang && Array.isArray(lang.tags) ? lang.tags : [];
+    const tags = Array.isArray(lang?.tags) ? lang.tags : [];
     if (tags.includes("family")) continue; // skip family-macro catalog entries
     if (tags.includes("subset")) continue;
 
@@ -104,14 +106,14 @@ function buildIsoHasUniqueBaseMap(mixes, map) {
 function buildBaseClusters(mixes, map) {
   const mixByIso = new Map();
   for (const lang of mixes) {
-    if (!lang || !lang.iso) continue;
+    if (!lang?.iso) continue;
     mixByIso.set(String(lang.iso), lang);
   }
 
   const clusters = new Map(); // key => { bases, members: [iso] }
 
   for (const entry of map) {
-    if (!entry || !entry.iso) continue;
+    if (!entry?.iso) continue;
     const iso = String(entry.iso);
     const lang = mixByIso.get(iso);
     if (!lang) continue;

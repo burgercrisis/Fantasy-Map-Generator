@@ -222,9 +222,15 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker44 mini-batch):** added dedicated bases `873–877` for `ligurian`, `limousin`, `llanito`, `logudorese`, `lombard` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
 
+- ✅ **2025-12-14: Mixer delta patch-queue adoption:** multi-agent mixer mapping changes should now be recorded via `tools/mixer-deltas/*.json` (using `setBases` / `dedicatedPins` / `appendBases`) and applied with `pnpm run mixer:apply-deltas` (which regenerates `config/language-mixer-map.js` and `config/language-mixes-all.js`). Dedicated base pinning should be done via delta `dedicatedPins` (compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json`) rather than editing `explicitIsoDedicatedBaseMap` directly, except for emergency/script-level overrides.
+
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker45 mini-batch):** added dedicated bases `878–882` for `louisiana-french`, `lucchese`, `m-tis-french`, `macerata`, `magoua` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
+- ✅ **2025-12-14 mixer-suite unblock (atlas-berber + Mayan pins):** verified base `331` is defined in `modules/namebases-real.js` for `atlas-berber` and pinned Mayan `cac` (Chuj) and `caa` (Ch'orti') base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` so the suite no longer clears them to `bases: []`. Verified via `run-language-mixer-suite --no-wiki-devplan` (0 unresolved; 0 Markov failures).
 
 
 
@@ -1493,14 +1499,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 153
+  - `Nonunique Bases:` 142
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 168
-  - `clustered bases:` 8
-  - `clustered full items:` 8
-  - `cluster size histogram:` size2=7, size3=0, size4+=1
-  - `clustered isos:` tamil(20), aranese(2), eastern-khanty(2), eastern-mansi(2), eng(2), forest-nenets(2), hin(2), nenets(2)
+  - `unique bases:` 169
+  - `clustered bases:` 7
+  - `clustered full items:` 7
+  - `cluster size histogram:` size2=6, size3=0, size4+=1
+  - `clustered isos:` tamil(20), eastern-khanty(2), eastern-mansi(2), eng(2), forest-nenets(2), hin(2), nenets(2)
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -1563,11 +1569,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `Nonunique Bases:` 83
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 72
-  - `clustered bases:` 16
-  - `clustered full items:` 16
-  - `cluster size histogram:` size2=9, size3=3, size4+=4
-  - `clustered isos:` lif(23), tamil(20), burushaski(12), newar(4), hno(3), kfq(3), kfy(3), anq(2), eng(2), hin(2), hinglish(2), indian-english(2), nepalese-english(2), njm(2), oon(2), srb(2)
+  - `unique bases:` 73
+  - `clustered bases:` 15
+  - `clustered full items:` 15
+  - `cluster size histogram:` size2=9, size3=2, size4+=4
+  - `clustered isos:` lif(23), tamil(20), burushaski(12), newar(4), hno(3), kfq(3), anq(2), eng(2), hin(2), hinglish(2), indian-english(2), nepalese-english(2), njm(2), oon(2), srb(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
@@ -1596,11 +1602,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `Nonunique Bases:` 215
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 102
-  - `clustered bases:` 89
-  - `clustered full items:` 89
-  - `cluster size histogram:` size2=20, size3=10, size4+=59
-  - `clustered isos:` aht(46), chp(46), dgr(46), eyak(46), gwi(46), haa(46), hoi(46), ing(46), kalaallisut(46), koy(46), kuu(46), tau(46), tfn(46), ano(11), cag(11), coe(11), con(11), cub(11), des(11), enl(11), fun(11), gvc(11), ite(11), ito(11), jup(11), kanamari(11), lec(11), macuna(11), moc(11), noa(11), snn(11), sri(11), tav(11), tuo(11), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), xav(4), xer(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), tcb(3), wayuu(3), yag(3), ayo(2), bwi(2), coz(2), cro(2), cui(2), ems(2), gub(2), guh(2), gyr(2), ixc(2), kashinawa(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), srq(2), ter(2), tew(2)
+  - `unique bases:` 100
+  - `clustered bases:` 91
+  - `clustered full items:` 91
+  - `cluster size histogram:` size2=22, size3=10, size4+=59
+  - `clustered isos:` aht(46), chp(46), dgr(46), eyak(46), gwi(46), haa(46), hoi(46), ing(46), kalaallisut(46), koy(46), kuu(46), tau(46), tfn(46), ano(11), cag(11), coe(11), con(11), cub(11), des(11), enl(11), fun(11), gvc(11), ite(11), ito(11), jup(11), kanamari(11), lec(11), macuna(11), moc(11), noa(11), snn(11), sri(11), tav(11), tuo(11), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), xav(4), xer(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), tcb(3), wayuu(3), yag(3), ayo(2), bwi(2), caa(2), cac(2), coz(2), cro(2), cui(2), ems(2), gub(2), guh(2), gyr(2), ixc(2), kashinawa(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), srq(2), ter(2), tew(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -1625,7 +1631,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 4
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 24
+  - `Nonunique Bases:` 23
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 19
@@ -1660,14 +1666,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 144
+  - `Nonunique Bases:` 129
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 132
   - `clustered bases:` 36
   - `clustered full items:` 36
-  - `cluster size histogram:` size2=4, size3=4, size4+=28
-  - `clustered isos:` akv(23), ani(23), ava(23), bph(23), cji(23), ddo(23), gdo(23), gin(23), huz(23), kap(23), khv(23), kpt(23), kva(23), lbe(23), rut(23), tin(23), ugh(23), xdq(23), ingrian(21), kven(21), livonian(21), ludic(21), me-nkieli(21), v-ro(21), veps(21), votic(21), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), romagnol(3), bavarian(2), cim(2), eng(2), nenets(2)
+  - `cluster size histogram:` size2=5, size3=3, size4+=28
+  - `clustered isos:` akv(23), ani(23), ava(23), bph(23), cji(23), ddo(23), gdo(23), gin(23), huz(23), kap(23), khv(23), kpt(23), kva(23), lbe(23), rut(23), tin(23), ugh(23), xdq(23), ingrian(21), kven(21), livonian(21), ludic(21), me-nkieli(21), v-ro(21), veps(21), votic(21), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), bavarian(2), cim(2), eng(2), nenets(2), romagnol(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
@@ -1938,11 +1944,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `Nonunique Bases:` 87
 
 - **Base-set uniqueness (full items only):**
-  - `unique bases:` 68
-  - `clustered bases:` 24
-  - `clustered full items:` 24
-  - `cluster size histogram:` size2=10, size3=8, size4+=6
-  - `clustered isos:` kodava(20), kolami(20), tamil(20), adi(4), dap(4), mrg(4), bhb(3), gbm(3), gju(3), ho-munda(3), kfq(3), kfy(3), kuvi(3), kxu(3), angami-pochuri(2), braj(2), eng(2), hin(2), kurukh(2), njh(2), nsm(2), srb(2), tcz(2), xis(2)
+  - `unique bases:` 70
+  - `clustered bases:` 22
+  - `clustered full items:` 22
+  - `cluster size histogram:` size2=10, size3=6, size4+=6
+  - `clustered isos:` kodava(20), kolami(20), tamil(20), adi(4), dap(4), mrg(4), bhb(3), gju(3), ho-munda(3), kfq(3), kuvi(3), kxu(3), angami-pochuri(2), braj(2), eng(2), hin(2), kurukh(2), njh(2), nsm(2), srb(2), tcz(2), xis(2)
 
 ### 8.16 Languages of Nepal – census tables snapshot
 
@@ -1965,14 +1971,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 2
-  - `Nonunique Bases:` 138
+  - `Nonunique Bases:` 130
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 49
-  - `clustered bases:` 95
-  - `clustered full items:` 95
-  - `cluster size histogram:` size2=12, size3=6, size4+=77
-  - `clustered isos:` aph(23), bap(23), bhj(23), byw(23), ctn(23), cur(23), dus(23), emg(23), jee(23), kiranti(23), kiranti(23), kkt(23), kkt(23), klr(23), lif(23), lrr(23), ncd(23), pum(23), raa(23), raq(23), raq(23), raq(23), rav(23), suz(23), suz(23), tij(23), vay(23), ybi(23), chx(12), ghale(12), kzq(12), nmm(12), npa(12), tge(12), ths(12), achhami-doteli(9), bmj(9), dry(9), dty(9), dty(9), dwz(9), jml(9), kumhali(9), kyv(9), kyw(9), mjz(9), soi(9), the(9), thr(9), vjk(9), x-nepal-done(9), x-nepal-malpande(9), jul(8), lhm(8), loy(8), loy(8), loy(8), scp(8), syw(8), tcn(8), tibetic(8), drq(6), kip(6), magar(6), mgp(6), bee(5), bee(5), dhuleli(5), brd(4), brd(4), gvr(4), lmh(4), lmh(4), newar(4), phj(4), rab(4), thf(4), baitadeli-doteli(3), bajhangi-doteli(3), bajureli-doteli(3), chepang(3), dadeldhuri-doteli(3), gbm(3), brx(2), dhimal(2), eng(2), hin(2), kte(2), kurukh(2), kurukh(2), ola(2), raji-raute(2), rau(2), rau(2), tdh(2)
+  - `unique bases:` 57
+  - `clustered bases:` 87
+  - `clustered full items:` 87
+  - `cluster size histogram:` size2=12, size3=1, size4+=74
+  - `clustered isos:` aph(23), bap(23), bhj(23), byw(23), ctn(23), cur(23), dus(23), emg(23), jee(23), kiranti(23), kiranti(23), kkt(23), kkt(23), klr(23), lif(23), lrr(23), ncd(23), pum(23), raa(23), raq(23), raq(23), raq(23), rav(23), suz(23), suz(23), tij(23), vay(23), ybi(23), chx(12), ghale(12), kzq(12), nmm(12), npa(12), tge(12), ths(12), bmj(9), dry(9), dwz(9), kumhali(9), kyw(9), mjz(9), the(9), thr(9), jul(8), lhm(8), loy(8), loy(8), loy(8), scp(8), syw(8), tcn(8), tibetic(8), jml(7), kyv(7), soi(7), vjk(7), x-nepal-done(7), x-nepal-malpande(7), drq(6), kip(6), magar(6), mgp(6), bee(5), bee(5), dhuleli(5), brd(4), brd(4), gvr(4), lmh(4), lmh(4), newar(4), phj(4), rab(4), thf(4), chepang(3), brx(2), dhimal(2), eng(2), hin(2), kte(2), kurukh(2), kurukh(2), ola(2), raji-raute(2), rau(2), rau(2), tdh(2)
 
 ### 8.17 Languages of Pakistan – established languages table
 
@@ -2168,7 +2174,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 27
+  - `Nonunique Bases:` 26
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 28
@@ -2206,7 +2212,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 2
   - `ambiguous:` 0
-  - `Nonunique Bases:` 64
+  - `Nonunique Bases:` 62
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 67
@@ -2246,7 +2252,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 94
+  - `Nonunique Bases:` 90
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 104
   - `clustered bases:` 3
@@ -2283,7 +2289,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 30
+  - `Nonunique Bases:` 28
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 31
@@ -2314,7 +2320,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 3
-  - `Nonunique Bases:` 65
+  - `Nonunique Bases:` 64
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 66
