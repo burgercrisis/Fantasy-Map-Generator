@@ -40,7 +40,12 @@ The goal is to ensure every **non-family** catalog ISO has **at least one** base
 - Do not “solve” debt by removing entries or marking them as family macros.
 - Prefer pnpm:
   - use `pnpm exec -- node ...` for Node scripts.
-- Pin early: if you assign a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before you run the suite.
+- Canonical write path (multi-agent safe):
+  - Add/adjust base definitions in `modules/namebases-*.js` (append-only)
+  - Add a delta file under `tools/mixer-deltas/*.json`
+  - Run `pnpm run mixer:apply-deltas`
+- Do **not** directly edit `config/language-mixer-map.json` (except emergency repair).
+- Do **not** directly edit `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prefer deltas).
 
 # Coordination protocol (multi-agent safe)
 
@@ -133,7 +138,8 @@ Preferred strategy (default):
 
 - Add a new dedicated base index in `modules/namebases-real.js` (append-only).
 - Ensure its seed list (`b`) is plausible for the ISO.
-- Append the new base index to the ISO’s `bases[]` in `config/language-mixer-map.json`.
+- Add the dedicated pin (and any other bases to append) via a delta file in `tools/mixer-deltas/*.json`.
+- Apply deltas with `pnpm run mixer:apply-deltas`.
 
 Important:
 
@@ -151,14 +157,10 @@ If you cannot meet these immediately, still land the unique base index and leave
 
 After edits:
 
-0. If you created/assigned any dedicated base indices for your batch, pin them now:
-
-- Add `iso -> base` entries to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js`.
-
-1. Run guardrails:
+1. Apply deltas (runs guardrails + updates committed artifacts):
 
 ```bash
-pnpm run mixer:guardrails
+pnpm run mixer:apply-deltas
 ```
 
 2. Re-run the report and confirm your batch is improved:
@@ -180,15 +182,7 @@ pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
 pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
 ```
 
-5. Only after the above checks are clean, run the suite as the final step:
-
-```bash
-pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan
-```
-
-This regenerates the derived bundles (`config/language-mixes-all.js` and `config/language-mixer-map.js`) as part of the normal workflow.
-
-If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
+5. Do **not** run `run-language-mixer-suite.js` as part of this multi-agent loop unless the user explicitly asks.
 
 ## D) Finish the claim
 

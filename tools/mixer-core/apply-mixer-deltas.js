@@ -200,7 +200,72 @@ function collectReferencedBases(pins, appendBases) {
   return out;
 }
 
+function validateIsosExistInCatalog({catalogIsos, pins, appendBases}) {
+  const missing = new Set();
+
+  for (const iso of Object.keys(pins || {})) {
+    if (!catalogIsos.has(iso)) missing.add(iso);
+  }
+  for (const iso of Object.keys(appendBases || {})) {
+    if (!catalogIsos.has(iso)) missing.add(iso);
+  }
+
+  if (missing.size) {
+    const list = Array.from(missing).sort((a, b) => a.localeCompare(b));
+    console.error("[apply-mixer-deltas] Delta references ISO(s) missing from config/language-mixes.json:");
+    for (const iso of list) console.error(" -", iso);
+    process.exitCode = 1;
+    return false;
+  }
+
+  return true;
+}
+
+function validatePinnedBasesAreUnique({map, pins}) {
+  const baseOwners = new Map();
+  for (const entry of Array.isArray(map) ? map : []) {
+    if (!entry || !entry.iso) continue;
+    const iso = String(entry.iso);
+    const bases = Array.isArray(entry.bases) ? entry.bases : [];
+    for (const b of bases) {
+      const n = Number(b);
+      if (!Number.isFinite(n)) continue;
+      let owners = baseOwners.get(n);
+      if (!owners) {
+        owners = new Set();
+        baseOwners.set(n, owners);
+      }
+      owners.add(iso);
+    }
+  }
+
+  const collisions = [];
+  for (const [iso, base] of Object.entries(pins || {})) {
+    const owners = baseOwners.get(Number(base));
+    if (!owners) continue;
+    const otherOwners = Array.from(owners).filter(o => o !== iso);
+    if (otherOwners.length) {
+      collisions.push({iso, base: Number(base), owners: otherOwners.sort((a, b) => a.localeCompare(b))});
+    }
+  }
+
+  if (collisions.length) {
+    collisions.sort((a, b) => a.base - b.base || a.iso.localeCompare(b.iso));
+    console.error("[apply-mixer-deltas] Dedicated base pins are not globally unique:");
+    for (const c of collisions) {
+      console.error(` - base ${c.base} pinned to ${c.iso}, but also used by: ${c.owners.join(", ")}`);
+    }
+    process.exitCode = 1;
+    return false;
+  }
+
+  return true;
+}
+
 function main() {
+  const args = new Set(process.argv.slice(2));
+  const checkOnly = args.has("--check");
+
   fs.mkdirSync(deltasDirAbs, {recursive: true});
 
   const compiledPinsRel = path.join(deltasDirRel, "_compiled-dedicated-pins.json");
@@ -227,6 +292,10 @@ function main() {
     appendBases[iso] = normalizeBases((appendBases[iso] || []).concat([base]));
   }
 
+  const catalog = readJson(path.join("config", "language-mixes.json"));
+  const catalogIsos = new Set((Array.isArray(catalog) ? catalog : []).map(r => String(r?.iso || "")).filter(Boolean));
+  if (!validateIsosExistInCatalog({catalogIsos, pins, appendBases})) return;
+
   const namebaseIndices = loadNamebaseIndices();
   const referencedBases = collectReferencedBases(pins, appendBases);
   const missingBases = Array.from(referencedBases).filter(b => !namebaseIndices.has(b)).sort((a, b) => a - b);
@@ -240,19 +309,32 @@ function main() {
 
   const mapRel = path.join("config", "language-mixer-map.json");
   const map = readJson(mapRel);
-  const didMutateMap = applyToMap(map, pins, appendBases);
-  if (didMutateMap) {
+
+  const sortedPinsEntries = Object.entries(pins).sort((a, b) => a[0].localeCompare(b[0]));
+  const sortedAppendEntries = Object.entries(appendBases).sort((a, b) => a[0].localeCompare(b[0]));
+  const pinsSorted = Object.fromEntries(sortedPinsEntries);
+  const appendSorted = Object.fromEntries(sortedAppendEntries);
+
+  const didMutateMap = applyToMap(map, pinsSorted, appendSorted);
+  if (!validatePinnedBasesAreUnique({map, pins: pinsSorted})) return;
+  if (!checkOnly && didMutateMap) {
     writeJson(mapRel, map);
   }
 
-  const sortedPins = Object.fromEntries(
-    Object.entries(pins)
-      .sort((a, b) => a[0].localeCompare(b[0]))
-      .map(([iso, base]) => [iso, base])
-  );
+  const sortedPins = Object.fromEntries(sortedPinsEntries);
   const nextCompiled = {version: 1, pins: sortedPins};
   const prevCompiledPins = compiledPinsBaseline && compiledPinsBaseline.pins ? compiledPinsBaseline.pins : null;
   const didMutatePins = prevCompiledPins == null || JSON.stringify(prevCompiledPins) !== JSON.stringify(sortedPins);
+  if (checkOnly) {
+    if (didMutateMap || didMutatePins) {
+      console.error("[apply-mixer-deltas] Artifacts are out of date vs deltas:");
+      if (didMutatePins) console.error(" - tools/mixer-deltas/_compiled-dedicated-pins.json needs update");
+      if (didMutateMap) console.error(" - config/language-mixer-map.json (and config/language-mixer-map.js) need update");
+      process.exitCode = 1;
+    }
+    return;
+  }
+
   if (didMutatePins) {
     writeJson(compiledPinsRel, nextCompiled);
   }

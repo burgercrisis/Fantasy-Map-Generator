@@ -33,6 +33,11 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - ✅ Multi-agent workflow:
   - `.windsurf/workflows/no-unique-base-debt-multiagent.md`
 
+- ✅ 2025-12-14: Introduced a mixer “patch queue” (delta files) to reduce multi-worker conflicts on canonical mixer artifacts:
+  - Workers can add small deltas under `tools/mixer-deltas/*.json`
+  - Apply deltas with `pnpm run mixer:apply-deltas` (writes `config/language-mixer-map.json` + regenerates `config/language-mixer-map.js` deterministically)
+  - Dedicated-base pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json`, and loaded by `tools/mixer-core/fix-language-mixer-mappings.js`
+
 - Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
   - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)
   - In-progress batches: 1 (worker6)

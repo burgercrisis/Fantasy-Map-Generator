@@ -201,17 +201,23 @@ All commands should be run from the repo root. Prefer **pnpm**.
 2. If the missing mappings are expected to be auto-inferrable, run:
    - `pnpm exec -- node tools/mixer-core/fix-language-mixer-mappings.js`
 3. For any remaining unresolved ISOs:
-   - Add explicit overrides in `tools/mixer-core/fix-language-mixer-mappings.js` (`explicitIsoBaseMap` for single-base or `explicitIsoBasesMap` for multi-base).
+   - Add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
+   - Run `pnpm run mixer:apply-deltas`
+   - Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 
 ### 5.3 Preserve intended mappings against auto-fix rewriting
 
 - If `fix-language-mixer-mappings.js` (or a suite run) repeatedly rewrites a manually curated `bases[]` back to a generic default:
-  - add an explicit override to `explicitIsoBasesMap` (or `explicitIsoBaseMap`) for that ISO.
-  - include any related alias/subset ISOs that get “normalized” to match it.
+  - add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
+  - Run `pnpm run mixer:apply-deltas`
+  - Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 
 - Safety note (2025-12-14): `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would end up missing its pinned dedicated base, or if the pinned base index does not exist in the valid namebase indices.
 
-- Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before you run the suite.
+- Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add it via a delta file:
+  - Add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
+  - Run `pnpm run mixer:apply-deltas`
+  - Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 
 ### 5.4 Burn down uniqueness debt (declustering)
 

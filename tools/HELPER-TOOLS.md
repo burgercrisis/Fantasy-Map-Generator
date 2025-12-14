@@ -97,7 +97,12 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
 - Appends new `{iso, bases: [index]}` records when an unambiguous base index is found.
 - Prints a list of unresolved languages so you can add manual overrides.
 
-Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before running `run-language-mixer-suite.js`.
+Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add it via a delta file:
+
+- Add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
+- Run `pnpm run mixer:apply-deltas`
+
+Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 
 **Typical command**
 

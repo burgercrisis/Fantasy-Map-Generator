@@ -35,7 +35,11 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 
 - Must preserve append-only registry; never delete ISOs.
 - Do not “solve” by removing entries or converting them into family macros.
-- Pin early: if you assigned a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before you run the suite.
+- Canonical write path (multi-agent safe):
+  - Add/adjust base definitions in `modules/namebases-*.js` (append-only)
+  - Add a delta file under `tools/mixer-deltas/*.json`
+  - Run `pnpm run mixer:apply-deltas`
+- Do **not** directly edit `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prefer deltas).
 
 # Steps
 
@@ -54,7 +58,7 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 
 Run:
 
-- `pnpm run mixer:guardrails`
+- `pnpm run mixer:check-deltas`
 - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
@@ -67,9 +71,7 @@ Also confirm you did not introduce identical `bases[]` collisions:
 
 - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2`
 
-Only after the above checks are clean, run the suite as the final step:
-
-- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
+Do **not** run `run-language-mixer-suite.js` as part of this checklist unless the user explicitly asks.
 
 ## 3) Optional quick quality pass (only if quick)
 

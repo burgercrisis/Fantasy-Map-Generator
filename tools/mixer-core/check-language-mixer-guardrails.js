@@ -87,7 +87,8 @@ function main() {
   const jsonFilesNoBom = [
     "config/language-mixer-map.json",
     "config/language-mixes.json",
-    "tools/mixer-diagnostics/_no_uniq_base_claims.json"
+    "tools/mixer-diagnostics/_no_uniq_base_claims.json",
+    "tools/mixer-deltas/_compiled-dedicated-pins.json"
   ];
 
   for (const rel of jsonFilesNoBom) {
@@ -97,11 +98,32 @@ function main() {
     } catch (e) {
       // Skip missing optional files (claims file may not exist in early clones)
       if (rel.includes("_no_uniq_base_claims.json")) continue;
+      if (rel.includes("_compiled-dedicated-pins.json")) continue;
       throw e;
     }
 
     if (hasUtf8Bom(buf)) {
       fail(`[guardrails] UTF-8 BOM detected: ${rel}. Fix in-place (rewrite as UTF-8 without BOM); do not discard content.`);
+    }
+  }
+
+  // Ensure these key JSON files parse under Node's JSON.parse (after BOM stripping).
+  const jsonFilesParseable = [
+    "config/language-mixer-map.json",
+    "config/language-mixes.json",
+    "tools/mixer-diagnostics/_no_uniq_base_claims.json",
+    "tools/mixer-deltas/_compiled-dedicated-pins.json"
+  ];
+
+  for (const rel of jsonFilesParseable) {
+    try {
+      parseJsonUtf8(rel);
+    } catch (e) {
+      // Claims file may be absent in early clones
+      if (rel.includes("_no_uniq_base_claims.json")) continue;
+      // Compiled pins file may be absent before delta system is introduced
+      if (rel.includes("_compiled-dedicated-pins.json")) continue;
+      fail(`[guardrails] Invalid JSON: ${rel}. ${e && e.message ? e.message : e}`);
     }
   }
 

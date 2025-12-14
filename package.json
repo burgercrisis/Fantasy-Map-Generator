@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "mixer:apply-deltas": "pnpm run mixer:guardrails && node tools/mixer-core/apply-mixer-deltas.js",
+    "mixer:check-deltas": "pnpm run mixer:guardrails && node tools/mixer-core/apply-mixer-deltas.js --check",
     "mixer:guardrails": "node tools/mixer-core/check-language-mixer-guardrails.js",
     "generate:language-mixer": "node tools/mixer-core/generate-language-mixer.js",
     "diff:families": "node tools/mixer-core/diff-language-families.js",
