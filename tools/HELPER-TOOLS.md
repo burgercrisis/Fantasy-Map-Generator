@@ -39,6 +39,11 @@ Multi-agent note:
 
 - In multi-agent / multi-writer contexts, prefer the delta workflow (`tools/mixer-deltas/*.json` + `pnpm run mixer:apply-deltas`) and avoid running the suite unless explicitly requested, as it can rewrite mappings and increase churn.
 
+Guardrails:
+
+- Run `pnpm run mixer:guardrails` before applying deltas.
+- It will fail if it detects duplicate base indices (duplicate `i:` values) across `modules/namebases-*.js`.
+
 **What it does**
 
 By default it runs, in order:
@@ -86,6 +91,12 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
 
 - **Overwrites** `config/language-mixer-map.json` with a cleaned + extended mapping
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- Use the delta workflow instead (`tools/mixer-deltas/*.json` + `pnpm run mixer:apply-deltas`).
+- If you must run it for diagnostics, prefer `--multi-agent-safe` (read-only).
+
 **Behavior**
 
 - Normalizes existing map entries, removing `bases` values that no longer correspond to a real namebase index.
@@ -112,6 +123,12 @@ Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.js
 
 ```bash
 pnpm exec -- node tools/mixer-core/fix-language-mixer-mappings.js
+```
+
+Read-only (multi-agent safe):
+
+```bash
+pnpm exec -- node tools/mixer-core/fix-language-mixer-mappings.js --multi-agent-safe
 ```
 
 Run this after you add or reorganize languages in `language-mixes.json`, or after tweaking lexifiers/families.
@@ -471,6 +488,11 @@ Infers and fills in `lexifier` for creole/pidgin/mixed languages in the catalog.
 
 - **Overwrites** `config/language-mixes.json` (sorted by `region + name`)
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` once supported for catalog updaters.
+
 **Behavior**
 
 - Filters to entries tagged as Creole/Pidgin/Mixed (via `category` and `tags`).
@@ -500,6 +522,11 @@ Backfills missing or generic family metadata using existing categories.
 
 - **Reads & overwrites** `config/language-mixes.json`
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` once supported for this family updater.
+
 **Behavior**
 
 - For each language with missing `family` or `family === "Other"`:
@@ -526,6 +553,11 @@ Normalizes Romance entries conservatively.
 **Inputs / Outputs**
 
 - **Reads & overwrites** `config/language-mixes.json`
+
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` once supported for this family updater.
 
 **Behavior**
 
@@ -560,6 +592,12 @@ Ensures that languages belonging to selected base families in the mixer map all 
 
 - **Overwrites** `config/language-mixes.json`
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- Prefer adding catalog entries manually (or via a dedicated delta-driven workflow) to avoid churn.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` (read-only).
+
 **Behavior**
 
 - Uses a set of family configs (e.g. `niger-congo-family`, `afroasiatic-family`, `ber-family`, `eastern-romance-family`, `koreanic-family`) plus dynamically discovered families.
@@ -572,6 +610,12 @@ Ensures that languages belonging to selected base families in the mixer map all 
 
 ```bash
 node tools/mixer-catalog/fill-family-mixes.js
+```
+
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/fill-family-mixes.js --multi-agent-safe
 ```
 
 Use this when you’re trying to densify a whole family in the mixer dropdown.
@@ -589,6 +633,11 @@ Fills catalog coverage for all Sino–Tibetan entries implied by the mixer map.
 - Reads `config/language-mixer-map.json`
 - Reads and **overwrites** `config/language-mixes.json`
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` (read-only).
+
 **Behavior**
 
 - Finds the `"proto-sino-tibetan"` entry in the map and treats its `bases[]` as the Sino–Tibetan base set.
@@ -601,6 +650,12 @@ Fills catalog coverage for all Sino–Tibetan entries implied by the mixer map.
 
 ```bash
 node tools/mixer-catalog/fill-sino-tibetan-mixes.js
+```
+
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/fill-sino-tibetan-mixes.js --multi-agent-safe
 ```
 
 Useful once you’ve defined Sino–Tibetan bases and want the UI catalog to match.
@@ -631,6 +686,12 @@ Backfills catalog entries for **every** ISO present in the mixer map but missing
 node tools/mixer-catalog/fill-all-missing-mixes.js
 ```
 
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/fill-all-missing-mixes.js --multi-agent-safe
+```
+
 Run this after you’ve expanded the mixer map when you want basic, auto-generated catalog entries for all mapped ISOs.
 
 Note: `fill-missing-mixes-explicit.js` is a narrower, curated-only variant that uses the same META table but only touches a fixed set of important ISOs.
@@ -657,6 +718,12 @@ Final clean-up pass for a curated list of important ISOs: if they’re in the ma
 
 ```bash
 node tools/mixer-catalog/fill-missing-mixes-explicit.js
+```
+
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/fill-missing-mixes-explicit.js --multi-agent-safe
 ```
 
 Run this after `fill-family-mixes.js` (and any other family-specific fillers) **if you choose not to run** `fill-all-missing-mixes.js`, but still want the curated set of important ISOs to be covered with rich metadata.
@@ -695,6 +762,11 @@ When the Wikipedia table changes (e.g. new rows added or family labels updated),
 - Reads `config/language-mixes.json` and `config/language-mixer-map.json`
 - When run with `--apply`, overwrites those files to append new entries
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` (forces dry-run and ignores `--apply`).
+
 **Behavior**
 
 - For each language in an internal `AFRICA_ROWS` list:
@@ -708,6 +780,12 @@ When the Wikipedia table changes (e.g. new rows added or family labels updated),
 ```bash
 node tools/mixer-catalog/add-african-languages.js           # dry-run only (no writes)
 node tools/mixer-catalog/add-african-languages.js --apply   # append new catalog + map entries
+```
+
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/add-african-languages.js --multi-agent-safe
 ```
 
 Run this when expanding African coverage using the curated list of languages. The recommended workflow is to run the script **without** `--apply` first to inspect the summary, and only then re-run it with `--apply` once you are satisfied with the proposed additions.
@@ -725,6 +803,11 @@ Expands the Papuan / Trans–New Guinea side of the mixer by adding family nodes
 - Reads & overwrites `config/language-mixes.json`
 - Reads & overwrites `config/language-mixer-map.json`
 
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` (read-only).
+
 **Behavior**
 
 - Ensures a set of Papuan family/branch nodes (e.g. `papuan-family`, `trans-new-guinea`, `timor-alor-pantar`) exist in the catalog and map.
@@ -735,6 +818,12 @@ Expands the Papuan / Trans–New Guinea side of the mixer by adding family nodes
 
 ```bash
 node tools/mixer-catalog/add-trans-new-guinea-mixer.js
+```
+
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/add-trans-new-guinea-mixer.js --multi-agent-safe
 ```
 
 Use this after defining Papuan namebases when you want the Trans–New Guinea hierarchy represented in the mixer.
@@ -762,6 +851,12 @@ Adds and tunes Mongolic and closely related varieties in both the catalog and mi
 
 ```bash
 node tools/mixer-catalog/fill-mongolic-mixes.js
+```
+
+Read-only (multi-agent safe):
+
+```bash
+node tools/mixer-catalog/fill-mongolic-mixes.js --multi-agent-safe
 ```
 
 Run this when working on Mongolic coverage so catalog and mappings stay in sync.
@@ -1360,6 +1455,12 @@ Replays the snapshot generated by the previous helper, re-inserting any ISOs tha
 - Reads `tools/mixer-diagnostics/_lost-languages-from-declustering.json`.
 - Reads / overwrites `config/language-mixer-map.json`, appending `{iso, basesBefore}` for any ISO absent from the current map.
 - Emits counts of restored vs skipped entries.
+
+Multi-agent safety:
+
+- **DO NOT RUN IN MULTI-AGENT** unless explicitly coordinating with the integrator.
+- Prefer repairing mappings via deltas when possible.
+- If you must run it for diagnostics, prefer `--multi-agent-safe` once supported for this tool.
 
 **Usage**
 

@@ -77,6 +77,75 @@ function diffMissing(baselineSet, currentSet) {
   return missing;
 }
 
+function listNamebasesFiles() {
+  const modulesDir = path.join(root, "modules");
+  const entries = fs.readdirSync(modulesDir, {withFileTypes: true});
+  const files = [];
+
+  for (const e of entries) {
+    if (!e.isFile()) continue;
+    const name = e.name;
+    if (!name.startsWith("namebases-") || !name.endsWith(".js")) continue;
+    files.push(path.join(modulesDir, name));
+  }
+
+  files.sort((a, b) => a.localeCompare(b));
+  return files;
+}
+
+function checkDuplicateNamebaseIndices() {
+  const files = listNamebasesFiles();
+  const byIndex = new Map();
+
+  // Matches: {name: "Foo", i: 123
+  const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
+
+  for (const fileAbs of files) {
+    const rel = path.relative(root, fileAbs);
+    let src;
+    try {
+      src = fs.readFileSync(fileAbs, "utf8");
+    } catch (e) {
+      fail(`[guardrails] Failed to read ${toPosix(rel)}: ${e && e.message ? e.message : e}`);
+      continue;
+    }
+
+    let m;
+    while ((m = re.exec(src))) {
+      const baseName = m[1];
+      const index = Number(m[2]);
+      if (!Number.isFinite(index)) continue;
+
+      const line = src.slice(0, m.index).split(/\r?\n/).length;
+      const arr = byIndex.get(index) || [];
+      arr.push({file: toPosix(rel), line, name: baseName});
+      byIndex.set(index, arr);
+    }
+  }
+
+  const dupes = Array.from(byIndex.entries())
+    .filter(([, defs]) => defs.length > 1)
+    .sort(([a], [b]) => a - b);
+
+  if (!dupes.length) return;
+
+  const lines = [
+    `[guardrails] Duplicate namebase indices detected across modules/namebases-*.js (duplicate \`i:\` values).`,
+    "[guardrails] Fix by renumbering the newly-added base(s) (append-only) to an unused index.",
+    "[guardrails] Duplicates:"
+  ];
+
+  for (const [index, defs] of dupes) {
+    defs.sort((a, b) => a.file.localeCompare(b.file) || a.line - b.line || a.name.localeCompare(b.name));
+    lines.push(` - i: ${index}`);
+    for (const d of defs) {
+      lines.push(`   - ${d.file}:${d.line} name="${d.name}"`);
+    }
+  }
+
+  fail(lines.join("\n"));
+}
+
 function fail(msg) {
   console.error(msg);
   process.exitCode = 1;
@@ -129,6 +198,8 @@ function main() {
       fail(`[guardrails] Invalid JSON: ${rel}. ${e && e.message ? e.message : e}`);
     }
   }
+
+  checkDuplicateNamebaseIndices();
 
   const mapCurrent = parseJsonUtf8("config/language-mixer-map.json");
   const catalogCurrent = parseJsonUtf8("config/language-mixes.json");

@@ -23,6 +23,12 @@ function writeJson(relPath, data) {
 }
 
 function main() {
+  const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: will not write config/language-mixes.json");
+  }
+
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
 
@@ -78,6 +84,11 @@ function main() {
       );
       return;
     }
+  }
+
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Not writing config/language-mixes.json (dry-run)");
+    return;
   }
 
   writeJson("config/language-mixes.json", mixes);

@@ -816,6 +816,13 @@ function loadNamebases() {
 }
 
 function main() {
+  const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: will not write config/language-mixer-map.json");
+  }
+
   const mixes = readJson("config/language-mixes.json");
   let map = readJson("config/language-mixer-map.json");
 
@@ -1165,7 +1172,11 @@ function main() {
       }
     }
 
-    writeJson("config/language-mixer-map.json", combined);
+    if (multiAgentSafe) {
+      console.log("[multi-agent-safe] Not writing config/language-mixer-map.json (dry-run)");
+    } else {
+      writeJson("config/language-mixer-map.json", combined);
+    }
   } else {
     console.log("No changes to language-mixer-map.json");
   }

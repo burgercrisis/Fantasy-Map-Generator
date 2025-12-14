@@ -627,6 +627,14 @@ const papuanLeafGroups = [
 ];
 
 function main() {
+  const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+  if (multiAgentSafe) {
+    console.log(
+      "[multi-agent-safe] Read-only mode enabled: will not write config/language-mixes.json or config/language-mixer-map.json"
+    );
+  }
+
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
@@ -734,7 +742,11 @@ function main() {
       }
     }
 
-    writeJson("config/language-mixes.json", mixes);
+    if (multiAgentSafe) {
+      console.log("[multi-agent-safe] Not writing config/language-mixes.json (dry-run)");
+    } else {
+      writeJson("config/language-mixes.json", mixes);
+    }
   } else {
     console.log("No new catalog entries added to language-mixes.json");
   }
@@ -755,7 +767,11 @@ function main() {
       }
     }
 
-    writeJson("config/language-mixer-map.json", map);
+    if (multiAgentSafe) {
+      console.log("[multi-agent-safe] Not writing config/language-mixer-map.json (dry-run)");
+    } else {
+      writeJson("config/language-mixer-map.json", map);
+    }
   } else {
     console.log("No new mappings added to language-mixer-map.json");
   }

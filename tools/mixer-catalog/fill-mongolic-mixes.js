@@ -206,6 +206,12 @@ const MONGOLIC_BASES = new Map([
 ]);
 
 function main() {
+  const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: will not write config/language-mixes.json or config/language-mixer-map.json");
+  }
+
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
 
@@ -242,7 +248,7 @@ function main() {
 
   const finalMixIsos = new Set(
     Array.isArray(mixes)
-      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      ? mixes.filter(e => e?.iso).map(e => String(e.iso))
       : []
   );
   for (const iso of originalMixIsos) {
@@ -257,7 +263,7 @@ function main() {
 
   const finalMapIsos = new Set(
     Array.isArray(map)
-      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      ? map.filter(e => e?.iso).map(e => String(e.iso))
       : []
   );
   for (const iso of originalMapIsos) {
@@ -268,6 +274,11 @@ function main() {
       );
       return;
     }
+  }
+
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Not writing config/language-mixes.json or config/language-mixer-map.json (dry-run)");
+    return;
   }
 
   writeJson("config/language-mixes.json", mixes);

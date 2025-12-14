@@ -487,7 +487,12 @@ function ensureCatalogAndMap(options) {
 
 if (require.main === module) {
   const args = process.argv.slice(2);
-  const apply = args.includes("--apply");
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+  const apply = args.includes("--apply") && !multiAgentSafe;
+
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: forcing dry-run (ignoring --apply)");
+  }
   if (!apply) {
     console.log("[add-african-languages] Running in dry-run mode. No changes will be written without --apply.");
   }

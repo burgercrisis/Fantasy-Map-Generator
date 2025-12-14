@@ -154,12 +154,18 @@ function buildDynamicFamilyConfigs(map, mixesByIso) {
 }
 
 function main() {
+  const args = process.argv.slice(2);
+  const multiAgentSafe = args.includes("--multi-agent-safe");
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Read-only mode enabled: will not write config/language-mixes.json");
+  }
+
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
 
   const originalMixIsos = new Set(
     Array.isArray(mixes)
-      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      ? mixes.filter(e => e?.iso).map(e => String(e.iso))
       : []
   );
 
@@ -247,7 +253,7 @@ function main() {
 
   const finalMixIsos = new Set(
     Array.isArray(mixes)
-      ? mixes.filter(e => e && e.iso).map(e => String(e.iso))
+      ? mixes.filter(e => e?.iso).map(e => String(e.iso))
       : []
   );
   for (const iso of originalMixIsos) {
@@ -258,6 +264,12 @@ function main() {
       );
       return;
     }
+  }
+
+  if (multiAgentSafe) {
+    console.log("[multi-agent-safe] Not writing config/language-mixes.json (dry-run)");
+    console.log("Total added", totalAdded, "updated", totalUpdated);
+    return;
   }
 
   writeJson("config/language-mixes.json", mixes);

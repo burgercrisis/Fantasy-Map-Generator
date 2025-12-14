@@ -6,6 +6,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 ## Status snapshot (2025-12-13)
 
+- 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
+
 - Family macros (`tags: ["family"]`) are organizational entries:
   - they are expected to be skipped by the mixer UI and by “failure” checks
   - they are still required to have mappings (per `DEVplans/Language-Mixer-Rules.md`)
@@ -14,6 +16,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - Safety tightening:
   - `tools/mixer-core/fix-language-mixer-mappings.js` will not create new map-only entries from `explicitIsoBasesMap` unless the ISO exists in the catalog
   - `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would lose its pinned dedicated base, or if the pinned base index is missing from valid namebase indices
+  - `pnpm run mixer:guardrails` will fail if it detects duplicate base indices (duplicate `i:` values) across `modules/namebases-*.js`
   - 2025-12-14: Restored `tools/mixer-core/report-language-mixer-name-counts.js` repo-root resolution (prevents ENOENT for `tools/config/*`).
 
 - Seed-uniqueness thresholds (explicit goal; not a hard gate):
@@ -38,6 +41,10 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Workers can add small deltas under `tools/mixer-deltas/*.json`
   - Apply deltas with `pnpm run mixer:apply-deltas` (writes `config/language-mixer-map.json` + regenerates `config/language-mixer-map.js` deterministically)
   - Dedicated-base pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json`, and loaded by `tools/mixer-core/fix-language-mixer-mappings.js`
+
+- ✅ 2025-12-14: Added multi-agent hardening for writer scripts:
+  - `tools/HELPER-TOOLS.md` now includes prominent “DO NOT RUN IN MULTI-AGENT” warnings for scripts that rewrite the catalog/map.
+  - Added `--multi-agent-safe` (read-only) mode to the suite fixer and key catalog/map updaters so they can be used for diagnostics without writing files.
 
 - Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
   - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)

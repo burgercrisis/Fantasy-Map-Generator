@@ -100,6 +100,7 @@ These are **derived artifacts** and must be regenerated after any catalog/map ed
 ### 3.3 Base index validity
 
 - Every number in any `bases[]` array must correspond to a real base index present in `modules/namebases-real.js`, `modules/namebases-fantasy.js`, or `modules/namebases-creole.js`.
+- Base indices (`i:` values) must be globally unique across `modules/namebases-*.js` (enforced by `pnpm run mixer:guardrails`).
 - A mapping entry with `bases: []` is treated as **broken** for local generation (allowed only as a temporary “unresolved placeholder” during triage, but it must be fixed before considering the work complete).
 
 ### 3.4 Catalog/map consistency expectations
@@ -277,7 +278,7 @@ Core checks:
 
 Guardrails:
 
-- `pnpm run mixer:guardrails` (fails on UTF-8 BOM in key JSON files and refuses changes that would drop existing ISOs vs `HEAD`)
+- `pnpm run mixer:guardrails` (fails on UTF-8 BOM in key JSON files, fails on duplicate base indices (duplicate `i:`) across `modules/namebases-*.js`, and refuses changes that would drop existing ISOs vs `HEAD`)
 
 Reference index:
 
