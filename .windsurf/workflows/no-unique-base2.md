@@ -54,8 +54,10 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 
 Run:
 
-- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
-- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500`
+- `pnpm run mixer:guardrails`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300`
+- `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
+- `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
 
 Confirm:
 
@@ -64,6 +66,10 @@ Confirm:
 Also confirm you did not introduce identical `bases[]` collisions:
 
 - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2`
+
+Only after the above checks are clean, run the suite as the final step:
+
+- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
 
 ## 3) Optional quick quality pass (only if quick)
 

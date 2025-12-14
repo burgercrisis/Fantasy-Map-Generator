@@ -240,6 +240,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker50 mini-batch):** ensured dedicated bases `903–907` for `new-england-french`, `newfoundland-french`, `ni-ard`, `nones`, `northern-catalan` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via targeted `report-language-mixer-seed-uniqueness --only-failures "--only=new-england-french,newfoundland-french,ni-ard,nones,northern-catalan"` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
 - ✅ **2025-12-14 NO_UNIQ_BASE regression guard (Africa bu* batch):** restored + preserved dedicated bases `590–596` for `bukusu`, `bulu`, `bum`, `busa`, `bushong`, `bwela`, `buyu` by re-adding them to `config/language-mixer-map.json` / `config/language-mixer-map.js` and pinning the full base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prevents future `run-language-mixer-suite` normalization from stripping the unique bases). Verified by running `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js` and then `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only=bukusu,bulu,bum,busa,bushong,bwela,buyu --limit=120` (No globally-unique base index: 0). Remaining norm debt (norm<10): `bukusu=8/8`, `busa=8/8`, `bushong=8/8`, `bwela=5/5`.
 
 

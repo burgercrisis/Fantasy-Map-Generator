@@ -92,6 +92,16 @@ function normalizeBases(bases) {
   return out;
 }
 
+function arraysEqual(a, b) {
+  if (a === b) return true;
+  if (!Array.isArray(a) || !Array.isArray(b)) return false;
+  if (a.length !== b.length) return false;
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] !== b[i]) return false;
+  }
+  return true;
+}
+
 function mergePins(target, incoming, sourceLabel) {
   if (!incoming || typeof incoming !== "object") return;
 
@@ -134,31 +144,45 @@ function applyToMap(map, pins, appendBases) {
     mapByIso.set(String(entry.iso), entry);
   }
 
+  let didMutate = false;
+
   for (const [iso, base] of Object.entries(pins)) {
     const entry = mapByIso.get(iso);
     if (entry) {
-      const bases = normalizeBases(entry.bases);
-      if (!bases.includes(base)) bases.push(base);
-      entry.bases = normalizeBases(bases);
+      const prev = normalizeBases(entry.bases);
+      const next = prev.includes(base) ? prev : normalizeBases(prev.concat([base]));
+      if (!arraysEqual(prev, next)) {
+        entry.bases = next;
+        didMutate = true;
+      }
       continue;
     }
 
     const newEntry = {iso, bases: [base]};
     map.push(newEntry);
     mapByIso.set(iso, newEntry);
+    didMutate = true;
   }
 
   for (const [iso, basesToAdd] of Object.entries(appendBases)) {
     const entry = mapByIso.get(iso);
     if (entry) {
-      entry.bases = normalizeBases((entry.bases || []).concat(basesToAdd));
+      const prev = normalizeBases(entry.bases);
+      const next = normalizeBases(prev.concat(basesToAdd));
+      if (!arraysEqual(prev, next)) {
+        entry.bases = next;
+        didMutate = true;
+      }
       continue;
     }
 
     const newEntry = {iso, bases: normalizeBases(basesToAdd)};
     map.push(newEntry);
     mapByIso.set(iso, newEntry);
+    didMutate = true;
   }
+
+  return didMutate;
 }
 
 function collectReferencedBases(pins, appendBases) {
@@ -216,17 +240,26 @@ function main() {
 
   const mapRel = path.join("config", "language-mixer-map.json");
   const map = readJson(mapRel);
-  applyToMap(map, pins, appendBases);
-  writeJson(mapRel, map);
+  const didMutateMap = applyToMap(map, pins, appendBases);
+  if (didMutateMap) {
+    writeJson(mapRel, map);
+  }
 
   const sortedPins = Object.fromEntries(
     Object.entries(pins)
       .sort((a, b) => a[0].localeCompare(b[0]))
       .map(([iso, base]) => [iso, base])
   );
-  writeJson(compiledPinsRel, {version: 1, pins: sortedPins});
+  const nextCompiled = {version: 1, pins: sortedPins};
+  const prevCompiledPins = compiledPinsBaseline && compiledPinsBaseline.pins ? compiledPinsBaseline.pins : null;
+  const didMutatePins = prevCompiledPins == null || JSON.stringify(prevCompiledPins) !== JSON.stringify(sortedPins);
+  if (didMutatePins) {
+    writeJson(compiledPinsRel, nextCompiled);
+  }
 
-  execFileSync("node", [path.join(__dirname, "generate-language-mixer.js")], {encoding: "utf8"});
+  if (didMutateMap) {
+    execFileSync("node", [path.join(__dirname, "generate-language-mixer.js")], {encoding: "utf8"});
+  }
 }
 
 if (require.main === module) {

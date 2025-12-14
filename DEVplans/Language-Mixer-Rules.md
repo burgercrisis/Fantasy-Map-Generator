@@ -236,6 +236,11 @@ All commands should be run from the repo root. Prefer **pnpm**.
 - Use `.windsurf/workflows/no-unique-base2.md` as the canonical checklist.
 - During that workflow: do **not** run `git` commands, and do **not** paraphrase the workflow into “equivalent” commands.
 - Prefer `pnpm exec -- node ...` invocation form so script arguments are not swallowed by pnpm.
+- Prefer a diagnostic-first worker loop (suite last):
+  - `pnpm run mixer:guardrails`
+  - batch-scoped `report-language-mixer-seed-uniqueness.js --only-failures --only-isos=...`
+  - `check-language-mixer-coverage.js` + `check-language-mixer-failures.js`
+  - then `run-language-mixer-suite.js --no-wiki-devplan`
 - If `fix-language-mixer-mappings.js` fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
 
 ---

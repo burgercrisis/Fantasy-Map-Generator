@@ -17,6 +17,22 @@ You are Cascade, working on the Fantasy-Map-Generator language mixer.
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
+## Diagnostic-first worker loop (required)
+
+When wiring a batch, prefer this order to avoid suite failures and churn:
+
+1. Run guardrails:
+   - `pnpm run mixer:guardrails`
+2. Pick a small batch using coverage tools and/or uniqueness reports.
+3. Make edits (catalog + namebases + mixer map wiring).
+4. Re-run targeted uniqueness verification for just the batch:
+   - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300`
+5. Run core checks:
+   - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
+   - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
+6. Only after the above checks are clean, run the suite as the final step:
+   - `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
+
 ## Global intent
 
 Systematically take **every language from every targeted Wikipedia language list** and:

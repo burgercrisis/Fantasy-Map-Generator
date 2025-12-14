@@ -138,15 +138,28 @@ Work in this order:
 
 After any edits:
 
-1. Run the core suite:
+1. Run guardrails:
 
    ```bash
-   pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js
+   pnpm run mixer:guardrails
+   ```
+
+2. Run core checks:
+
+   ```bash
+   pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js
+   pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
+   ```
+
+3. Only after the above checks are clean, run the core suite as the final step:
+
+   ```bash
+   pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan
    ```
 
    If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
 
-2. Re-run coverage and confirm the just-touched items improved:
+4. Re-run coverage and confirm the just-touched items improved:
 
    ```bash
    pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js <JSON_PATH>

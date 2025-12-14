@@ -121,6 +121,10 @@ Then claim that batch in the shared log.
 
 2. Confirm it currently fails `NO_UNIQ_BASE`.
 
+3. Run guardrails before you start editing:
+
+- `pnpm run mixer:guardrails`
+
 ## B) Create or assign a globally-unique base index
 
 Goal: for each ISO, ensure at least one `bases[]` entry is globally unique (used by exactly one non-family ISO).
@@ -151,27 +155,40 @@ After edits:
 
 - Add `iso -> base` entries to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js`.
 
-1. Run the suite:
+1. Run guardrails:
 
 ```bash
-pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js
+pnpm run mixer:guardrails
+```
+
+2. Re-run the report and confirm your batch is improved:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300
+```
+
+3. Run core checks:
+
+```bash
+pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js
+pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
+```
+
+4. Confirm you did not introduce any identical `bases[]` set collisions:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+```
+
+5. Only after the above checks are clean, run the suite as the final step:
+
+```bash
+pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan
 ```
 
 This regenerates the derived bundles (`config/language-mixes-all.js` and `config/language-mixer-map.js`) as part of the normal workflow.
 
 If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
-
-2. Re-run the report and confirm your batch is improved:
-
-```bash
-pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
-```
-
-3. Confirm you did not introduce any identical `bases[]` set collisions:
-
-```bash
-pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
-```
 
 ## D) Finish the claim
 

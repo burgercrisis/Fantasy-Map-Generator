@@ -7,15 +7,15 @@ Use this workflow to burn down **language mixer uniqueness debt** for already-pr
 
 # Execution guardrails (required)
 
- - Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
- - Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
- - If you believe an additional command is required, stop and ask the user before running anything.
- - Do **not** suggest “reverting”, “rolling back”, “dropping”, or “restoring” changes unless the user explicitly instructs you to revert a specific file (with an exact file list).
- - Do **not** propose or run commits. The user/integrator owns all commits.
- - If you see BOM / CRLF / timestamp churn or other suspicious diffs, the only allowed actions are:
-   - Fix encoding/format **in-place** without removing content, or
-   - Keep it as-is and continue, or
-   - Leave it uncommitted / untouched and ask the user what to do.
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
+- Do **not** suggest “reverting”, “rolling back”, “dropping”, or “restoring” changes unless the user explicitly instructs you to revert a specific file (with an exact file list).
+- Do **not** propose or run commits. The user/integrator owns all commits.
+- If you see BOM / CRLF / timestamp churn or other suspicious diffs, the only allowed actions are:
+  - Fix encoding/format **in-place** without removing content, or
+  - Keep it as-is and continue, or
+  - Leave it uncommitted / untouched and ask the user what to do.
 
 This is the Worker 1 workflow: run the report at the start of each session, take a small batch (default **10** affected ISOs), fix them end-to-end, then stop. When the user says `continue`, repeat.
 
@@ -36,7 +36,9 @@ This is the Worker 1 workflow: run the report at the start of each session, take
 - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...] [--include-families]`
 - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js [--family=...] [--category=...] [--region=...] [--base=IDX[,IDX...]] [--show-all-bases]`
 - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
-- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
+- `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
+- `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
+- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
 
 Optional (recommended when doing dedicated-base anchor work):
 
@@ -63,9 +65,15 @@ For each ISO in the batch:
 
 Run:
 
+- `pnpm run mixer:guardrails`
 - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
 - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`
-- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
+- `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
+- `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
+
+Only after the above checks are clean, run the suite as the final step:
+
+- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
 
 If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
 

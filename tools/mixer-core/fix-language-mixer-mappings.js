@@ -650,6 +650,11 @@ const explicitIsoDedicatedBaseMap = {
   "ni-ard": 905,
   nones: 906,
   "northern-catalan": 907,
+  "northern-portuguese": 908,
+  "northern-romanian": 909,
+  "northwestern-catalan": 910,
+  novarese: 911,
+  occitan: 912,
   dty: 815,
   "achhami-doteli": 816,
   "baitadeli-doteli": 817,
@@ -658,6 +663,39 @@ const explicitIsoDedicatedBaseMap = {
   "bajureli-doteli": 820,
   "dadeldhuri-doteli": 821
 };
+
+function readOptionalJson(relPath) {
+  try {
+    return readJson(relPath);
+  } catch (e) {
+    return null;
+  }
+}
+
+function mergeCompiledDedicatedPins() {
+  const compiled = readOptionalJson("tools/mixer-deltas/_compiled-dedicated-pins.json");
+  const pins = compiled && compiled.pins && typeof compiled.pins === "object" ? compiled.pins : null;
+  if (!pins) return;
+
+  for (const [rawIso, rawBase] of Object.entries(pins)) {
+    const iso = String(rawIso || "").trim();
+    const base = Number(rawBase);
+    if (!iso) continue;
+    if (!Number.isFinite(base)) {
+      throw new Error(`Invalid compiled dedicated base for ${iso}: ${rawBase}`);
+    }
+
+    if (Object.hasOwn(explicitIsoDedicatedBaseMap, iso) && explicitIsoDedicatedBaseMap[iso] !== base) {
+      throw new Error(
+        `Conflicting dedicated base pin for ${iso}: script=${explicitIsoDedicatedBaseMap[iso]} compiled=${base}`
+      );
+    }
+
+    explicitIsoDedicatedBaseMap[iso] = base;
+  }
+}
+
+mergeCompiledDedicatedPins();
 
 function readJson(relPath) {
   const full = path.join(root, relPath);
