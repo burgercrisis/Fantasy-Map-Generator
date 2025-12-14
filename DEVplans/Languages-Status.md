@@ -156,6 +156,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-14 SonarQube/SonarLint cleanup (mixer scripts + generator):**
+  - Fixed duplicate key warnings in `tools/mixer-core/fix-language-mixer-mappings.js` (duplicate ISO keys in `explicitIsoBaseMap`).
+  - Modernized Node imports (`node:fs`, `node:path`, `node:child_process`), replaced `String#replace` with `String#replaceAll` where applicable, and applied safe optional-chaining / `Object.hasOwn` cleanups.
+  - Updated `tools/mixer-core/generate-language-mixer.js` to emit `globalThis.languageMixerMap` / `globalThis.languageMixerCatalog` (instead of `window.*`) and regenerated `config/language-mixer-map.js` + `config/language-mixes-all.js`.
+  - Remaining Sonar debt: Cognitive Complexity warnings in `tools/mixer-core/fix-language-mixer-mappings.js` (refactor optional; behavior is currently correct).
+
+
+
 - ✅ **2025-12-14 NO_UNIQ_BASE regression repair (Romance dedicated bases 740–759, 765–784, 790–799):** restored missing dedicated base definitions in `modules/namebases-real.js` and pinned ISO→dedicated-base mapping via `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` so `run-language-mixer-suite` will not strip these previously-completed Romance micro-passes. Verified via targeted `report-language-mixer-seed-uniqueness` runs (no missing mappings; no `NO_UNIQ_BASE`).
 
 
@@ -225,6 +233,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker48 mini-batch):** ensured dedicated bases `893–897` for `mineiro`, `mirandese`, `missouri-french`, `moldavian`, `mon-gasque` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker49 mini-batch):** ensured dedicated bases `898–902` for `mozarabic`, `murcian`, `muskrat-french`, `navarrese`, `navarro-aragonese` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via targeted `report-language-mixer-seed-uniqueness --only-failures "--only=mozarabic,murcian,muskrat-french,navarrese,navarro-aragonese"` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
 
 
 

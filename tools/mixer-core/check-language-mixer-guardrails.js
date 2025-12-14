@@ -1,13 +1,13 @@
 "use strict";
 
-const fs = require("fs");
-const path = require("path");
-const {execFileSync} = require("child_process");
+const fs = require("node:fs");
+const path = require("node:path");
+const {execFileSync} = require("node:child_process");
 
 const root = path.resolve(__dirname, "..", "..");
 
 function toPosix(relPath) {
-  return String(relPath).replace(/\\/g, "/");
+  return String(relPath).replaceAll("\\", "/");
 }
 
 function readFileBuffer(relPath) {
@@ -28,7 +28,7 @@ function hasUtf8Bom(buf) {
 function parseJsonUtf8(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8");
-  const s = raw && raw.charCodeAt(0) === 0xfeff ? raw.slice(1) : raw;
+  const s = raw?.codePointAt(0) === 0xfeff ? raw.slice(1) : raw;
   return JSON.parse(s);
 }
 
@@ -37,7 +37,8 @@ function gitShowHead(relPath) {
   try {
     return execFileSync("git", ["show", spec], {encoding: "utf8"});
   } catch (e) {
-    return null;
+    if (e && (e.code === "ENOENT" || typeof e.status === "number")) return null;
+    throw e;
   }
 }
 
@@ -45,7 +46,7 @@ function isoSetFromMixerMap(map) {
   const set = new Set();
   const dupes = new Set();
   for (const row of Array.isArray(map) ? map : []) {
-    if (!row || row.iso == null) continue;
+    if (row?.iso == null) continue;
     const iso = String(row.iso);
     if (set.has(iso)) dupes.add(iso);
     set.add(iso);
@@ -57,7 +58,7 @@ function isoSetFromCatalog(list) {
   const set = new Set();
   const dupes = new Set();
   for (const row of Array.isArray(list) ? list : []) {
-    if (!row || row.iso == null) continue;
+    if (row?.iso == null) continue;
     const iso = String(row.iso);
     if (set.has(iso)) dupes.add(iso);
     set.add(iso);

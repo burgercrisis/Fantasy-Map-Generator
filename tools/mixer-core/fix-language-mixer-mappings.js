@@ -63,17 +63,6 @@ const explicitIsoBaseMap = {
   "papiamento": 264,
   "sango": 297,
 
-  // West African English-based creoles → West African English Creole base (307)
-  "aku": 307,
-  "cameroonian-pidgin": 307,
-  "ghanaian-pidgin-english": 307,
-  "krio": 307,
-  "liberian-kreyol": 307,
-  "merico": 307,
-  "nigerian-pidgin": 307,
-  "pichinglis": 307,
-  "west-african-pidgin-english": 307,
-
   // Malay-based trade creoles → Malay-based Creole base (310)
   "alor-malay": 310,
   "ambonese-malay": 310,
@@ -656,6 +645,11 @@ const explicitIsoDedicatedBaseMap = {
   "muskrat-french": 900,
   navarrese: 901,
   "navarro-aragonese": 902,
+  "new-england-french": 903,
+  "newfoundland-french": 904,
+  "ni-ard": 905,
+  nones: 906,
+  "northern-catalan": 907,
   dty: 815,
   "achhami-doteli": 816,
   "baitadeli-doteli": 817,
@@ -668,7 +662,7 @@ const explicitIsoDedicatedBaseMap = {
 function readJson(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8");
-  const s = raw && raw.charCodeAt(0) === 0xfeff ? raw.slice(1) : raw;
+  const s = raw?.codePointAt(0) === 0xfeff ? raw.slice(1) : raw;
   return JSON.parse(s);
 }
 
@@ -717,10 +711,28 @@ const tokenBaseIndexMap = {
   "australian-aboriginal": 313
 };
 
+function resolveBaseByTokens(text) {
+  if (!text) return null;
+  const raw = String(text).toLowerCase();
+  if (!raw) return null;
+  const tokens = raw.split(/[^a-z]+/g).filter(Boolean);
+  let resolved = null;
+  for (const token of tokens) {
+    const idx = tokenBaseIndexMap[token];
+    if (typeof idx !== "number") continue;
+    if (resolved == null) {
+      resolved = idx;
+    } else if (resolved !== idx) {
+      return null;
+    }
+  }
+  return resolved;
+}
+
 function writeJson(relPath, data) {
   const full = path.join(root, relPath);
   fs.writeFileSync(full, JSON.stringify(data, null, 2) + "\n", "utf8");
-  console.log("Wrote", relPath.replace(/\\/g, "/"));
+  console.log("Wrote", relPath.replaceAll("\\", "/"));
 }
 
 function loadNamebases() {
@@ -739,7 +751,7 @@ function loadNamebases() {
     try {
       src = fs.readFileSync(file, "utf8");
     } catch (e) {
-      console.error("Failed to read namebases file", file, e.message || e);
+      console.error("Failed to read namebases file", file, e?.message || e);
       continue;
     }
 
@@ -764,7 +776,7 @@ function main() {
 
   const originalIsos = new Set(
     Array.isArray(map)
-      ? map.filter(e => e && e.iso).map(e => String(e.iso))
+      ? map.filter(e => e?.iso).map(e => String(e.iso))
       : []
   );
 
@@ -802,24 +814,6 @@ function main() {
     }
 
     return null;
-  }
-
-  function resolveBaseByTokens(text) {
-    if (!text) return null;
-    const raw = String(text).toLowerCase();
-    if (!raw) return null;
-    const tokens = raw.split(/[^a-z]+/g).filter(Boolean);
-    let resolved = null;
-    for (const token of tokens) {
-      const idx = tokenBaseIndexMap[token];
-      if (typeof idx !== "number") continue;
-      if (resolved == null) {
-        resolved = idx;
-      } else if (resolved !== idx) {
-        return null;
-      }
-    }
-    return resolved;
   }
 
   // First, normalize the existing map: drop any bases that do not
@@ -985,11 +979,6 @@ function main() {
       didMutateMap = true;
     }
   }
-  const mappedIsos = new Set(
-    map
-      .filter(e => Array.isArray(e.bases) && e.bases.length)
-      .map(e => e.iso)
-  );
 
   const added = [];
   const unresolved = [];
@@ -997,7 +986,7 @@ function main() {
   function findBaseIndexForLang(lang) {
     if (!lang) return null;
 
-    if (lang.iso && Object.prototype.hasOwnProperty.call(explicitIsoBaseMap, lang.iso)) {
+    if (lang.iso && Object.hasOwn(explicitIsoBaseMap, lang.iso)) {
       return explicitIsoBaseMap[lang.iso];
     }
 
@@ -1008,10 +997,11 @@ function main() {
 
     const lex = lang.lexifier || null;
     if (lex) {
-      const lexMeta = mixes.find(m => m.name === lex || m.iso === (lex.iso || lex));
+      const lexKey = typeof lex === "string" ? lex : (lex?.iso || lex);
+      const lexMeta = mixes.find(m => m.name === lex || m.iso === lexKey);
       if (lexMeta && lexMeta.iso) {
         const lexMap = mapByIso.get(lexMeta.iso);
-        if (lexMap && Array.isArray(lexMap.bases) && lexMap.bases.length === 1) {
+        if (lexMap?.bases?.length === 1) {
           return lexMap.bases[0];
         }
       }
@@ -1065,7 +1055,7 @@ function main() {
     if (!lang || !lang.iso) continue;
 
     const existing = mapByIso.get(lang.iso) || null;
-    const hasBases = existing && Array.isArray(existing.bases) && existing.bases.length;
+    const hasBases = Array.isArray(existing?.bases) && existing.bases.length;
     if (hasBases) continue; // already mapped
 
     const baseIndex = findBaseIndexForLang(lang);
@@ -1081,8 +1071,6 @@ function main() {
       map.push(entry);
       mapByIso.set(lang.iso, entry);
     }
-
-    mappedIsos.add(lang.iso);
     added.push({iso: lang.iso, base: baseIndex, name: lang.name || ""});
   }
 
@@ -1098,13 +1086,13 @@ function main() {
 
     const combined = added.length ? staticEntries.concat(newEntries) : staticEntries;
 
-    const combinedByIso = new Map(combined.filter(e => e && e.iso).map(e => [String(e.iso), e]));
+    const combinedByIso = new Map(combined.filter(e => e?.iso).map(e => [String(e.iso), e]));
     const pinnedMissingDedicatedBases = [];
     for (const [iso, dedicatedBase] of Object.entries(explicitIsoDedicatedBaseMap)) {
       if (typeof dedicatedBase !== "number") continue;
       if (!validBaseIndices.has(dedicatedBase)) continue;
       const entry = combinedByIso.get(String(iso));
-      const bases = entry && Array.isArray(entry.bases) ? entry.bases : [];
+      const bases = Array.isArray(entry?.bases) ? entry.bases : [];
       if (!bases.includes(dedicatedBase)) pinnedMissingDedicatedBases.push({iso, base: dedicatedBase});
     }
     if (pinnedMissingDedicatedBases.length) {
@@ -1120,7 +1108,7 @@ function main() {
     }
 
     const combinedIsos = new Set(
-      combined.filter(e => e && e.iso).map(e => String(e.iso))
+      combined.filter(e => e?.iso).map(e => String(e.iso))
     );
     for (const iso of originalIsos) {
       if (!combinedIsos.has(iso)) {

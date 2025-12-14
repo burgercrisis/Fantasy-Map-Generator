@@ -930,12 +930,23 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-14T10:55:48Z",
+      "updatedAt": "2025-12-14T10:55:48Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- mineiro->893\n- mirandese->894\n- missouri-french->895\n- moldavian->896\n- mon-gasque->897\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=mineiro,mirandese,missouri-french,moldavian,mon-gasque\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (893-897) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set).\n\nNotes:\n- Unblocked suite normalization by restoring missing base definitions for pinned dedicated bases (including atlas-berber base 331)."
+    },
+    {
+      "workerId": 49,
+      "batchId": "2025-12-14T11:14:22Z-worker49",
+      "isos": [
+        "mozarabic",
+        "murcian",
+        "muskrat-french",
+        "navarrese",
         "navarro-aragonese"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-14T11:14:22Z",
-      "updatedAt": "2025-12-14T11:14:22Z",
-      "notes": "In progress. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; dedicated bases appended in config/language-mixer-map.json / config/language-mixer-map.js and pinned via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- mozarabic->898\n- murcian->899\n- muskrat-french->900\n- navarrese->901\n- navarro-aragonese->902\n\nVerification so far:\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=mozarabic,murcian,muskrat-french,navarrese,navarro-aragonese\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (filtered; no occurrences of these ISOs / bases 898-902)\n\nPending:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (ensure suite rewrite preserves the pinned dedicated bases)"
+      "updatedAt": "2025-12-14T11:29:07Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; bases appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- mozarabic->898\n- murcian->899\n- muskrat-french->900\n- navarrese->901\n- navarro-aragonese->902\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=mozarabic,murcian,muskrat-french,navarrese,navarro-aragonese\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (filtered; no occurrences of these ISOs / bases 898-902)"
     }
   ]
 }
