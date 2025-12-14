@@ -481,7 +481,83 @@ const explicitIsoBasesMap = {
   "bukharian-arabic": [18, 681],
   "egyptian-arabic": [18, 701, 23],
   "cairene-arabic": [18, 682],
-  "central-asian-arabic": [18, 17, 683]
+  "central-asian-arabic": [18, 17, 683],
+
+  bukusu: [117, 147, 150, 154, 590],
+  bulu: [118, 148, 149, 155, 591],
+  bum: [119, 148, 151, 156, 592],
+  busa: [121, 150, 151, 154, 593],
+  bushong: [112, 124, 146, 152, 594],
+  bwela: [115, 127, 149, 152, 595],
+  buyu: [114, 126, 148, 152, 596],
+  "colombian-spanish": [4, 173, 176, 800],
+  "comasco-lecchese": [3, 234, 301, 801],
+  corsican: [279, 802],
+  cremish: [3, 301, 803],
+  "cremun-s": [3, 301, 804]
+};
+
+const explicitIsoDedicatedBaseMap = {
+  irpino: 740,
+  molisan: 741,
+  "neapolitan-lang": 742,
+  "northern-calabrian": 743,
+  pugliese: 744,
+  "south-lucanian": 745,
+  "southern-latian": 746,
+  "southern-laziale": 747,
+  tarantino: 748,
+  vastese: 749,
+  ardennais: 750,
+  berrichon: 751,
+  bourbonnais: 752,
+  fra: 753,
+  "frainc-comtou": 754,
+  gallo: 755,
+  gaumais: 756,
+  "law-french": 757,
+  lorrain: 758,
+  mayennais: 759,
+  acadian: 765,
+  aeolian: 766,
+  "african-romance": 767,
+  alentejan: 768,
+  algherese: 769,
+  ancona: 770,
+  "andalusi-romance": 771,
+  andalusian: 772,
+  "ans-": 773,
+  "aretino-chianaiolo": 774,
+  "argentinian-spanish": 775,
+  arpitan: 776,
+  asturian: 777,
+  auvergnat: 778,
+  balearic: 779,
+  banat: 780,
+  barranquenho: 781,
+  benasquese: 782,
+  bercian: 783,
+  bergamasque: 784,
+  brigasc: 790,
+  "british-latin": 791,
+  bukovinian: 792,
+  "canz-s": 793,
+  "central-northern-lazian": 794,
+  cheso: 795,
+  chiac: 796,
+  "chilean-spanish": 797,
+  chilote: 798,
+  chipilo: 799,
+  "cri-ana": 805,
+  "daco-romanian": 806,
+  dalmatian: 807,
+  "eastern-aragonese": 808,
+  "eastern-catalan": 809,
+  "eastern-lombard": 810,
+  "eastern-nonmetafonetica": 811,
+  "eastern-romanian": 812,
+  "ecuadorian-spanish": 813,
+  emilian: 814
 };
 
 function readJson(relPath) {
@@ -690,6 +766,23 @@ function main() {
       }
     } else {
       const entry = {iso, bases};
+      map.push(entry);
+      mapByIso.set(iso, entry);
+      didMutateMap = true;
+    }
+  }
+
+  for (const [iso, dedicatedBase] of Object.entries(explicitIsoDedicatedBaseMap)) {
+    if (!validBaseIndices.has(dedicatedBase)) continue;
+    const existing = mapByIso.get(iso);
+    if (existing) {
+      const bases = Array.isArray(existing.bases) ? existing.bases : [];
+      if (!bases.includes(dedicatedBase)) {
+        existing.bases = [...bases, dedicatedBase];
+        didMutateMap = true;
+      }
+    } else {
+      const entry = {iso, bases: [dedicatedBase]};
       map.push(entry);
       mapByIso.set(iso, entry);
       didMutateMap = true;

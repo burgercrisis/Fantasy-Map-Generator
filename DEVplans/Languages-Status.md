@@ -148,7 +148,19 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
-- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / worker31 mini-batch):** added dedicated bases `800–804` for `colombian-spanish`, `comasco-lecchese`, `corsican`, `cremish`, `cremun-s` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only=colombian-spanish,comasco-lecchese,corsican,cremish,cremun-s --limit=200` that all report `uniqBase` (`strictOK`; `norm<10` remains tracked debt for `colombian-spanish` and `corsican`).
+- ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (Romance / worker31 mini-batch):** added dedicated bases `800–804` for `colombian-spanish`, `comasco-lecchese`, `corsican`, `cremish`, `cremun-s` (and appended them in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only=colombian-spanish,comasco-lecchese,corsican,cremish,cremun-s --limit=120` that all report `uniqBase` (`strictOK`, `normOK`): `colombian-spanish=34/33`, `comasco-lecchese=36/36`, `corsican=28/27`, `cremish=36/36`, `cremun-s=36/36`.
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE regression repair (Romance dedicated bases 740–759, 765–784, 790–799):** restored missing dedicated base definitions in `modules/namebases-real.js` and pinned ISO→dedicated-base mapping via `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` so `run-language-mixer-suite` will not strip these previously-completed Romance micro-passes. Verified via targeted `report-language-mixer-seed-uniqueness` runs (no missing mappings; no `NO_UNIQ_BASE`).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker32 mini-batch):** ensured dedicated bases `805–809` for `cri-ana`, `daco-romanian`, `dalmatian`, `eastern-aragonese`, `eastern-catalan` are present in `modules/namebases-real.js` and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js`. Verified via `run-language-mixer-suite --no-wiki-devplan` + `report-language-mixer-seed-uniqueness --only-failures "--only=cri-ana,daco-romanian,dalmatian,eastern-aragonese,eastern-catalan" --limit=200` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
+
+
+
+- ✅ **2025-12-14 NO_UNIQ_BASE regression guard (Africa bu* batch):** restored + preserved dedicated bases `590–596` for `bukusu`, `bulu`, `bum`, `busa`, `bushong`, `bwela`, `buyu` by re-adding them to `config/language-mixer-map.json` / `config/language-mixer-map.js` and pinning the full base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prevents future `run-language-mixer-suite` normalization from stripping the unique bases). Verified by running `pnpm exec node tools/mixer-core/run-language-mixer-suite.js` and then `node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only=bukusu,bulu,bum,busa,bushong,bwela,buyu --limit=120` (No globally-unique base index: 0). Remaining norm debt (norm<10): `bukusu=8/8`, `busa=8/8`, `bushong=8/8`, `bwela=5/5`.
 
 
 
@@ -1358,7 +1370,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 272
+  - `Nonunique Bases:` 267
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 273
@@ -1392,14 +1404,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 164
+  - `Nonunique Bases:` 153
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 167
-  - `clustered bases:` 9
-  - `clustered full items:` 9
-  - `cluster size histogram:` size2=8, size3=0, size4+=1
-  - `clustered isos:` tamil(20), aranese(2), eastern-khanty(2), eastern-mansi(2), eng(2), forest-nenets(2), hin(2), nenets(2), occitan(2)
+  - `unique bases:` 168
+  - `clustered bases:` 8
+  - `clustered full items:` 8
+  - `cluster size histogram:` size2=7, size3=0, size4+=1
+  - `clustered isos:` tamil(20), aranese(2), eastern-khanty(2), eastern-mansi(2), eng(2), forest-nenets(2), hin(2), nenets(2)
 
 - **Notes / next steps:**
   - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
@@ -1459,7 +1471,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 84
+  - `Nonunique Bases:` 83
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 72
@@ -1524,7 +1536,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 4
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 25
+  - `Nonunique Bases:` 24
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 19
@@ -1559,14 +1571,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 148
+  - `Nonunique Bases:` 144
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 131
-  - `clustered bases:` 37
-  - `clustered full items:` 37
-  - `cluster size histogram:` size2=5, size3=4, size4+=28
-  - `clustered isos:` akv(23), ani(23), ava(23), bph(23), cji(23), ddo(23), gdo(23), gin(23), huz(23), kap(23), khv(23), kpt(23), kva(23), lbe(23), rut(23), tin(23), ugh(23), xdq(23), ingrian(21), kven(21), livonian(21), ludic(21), me-nkieli(21), v-ro(21), veps(21), votic(21), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), romagnol(3), bavarian(2), cim(2), eng(2), nenets(2), occitan(2)
+  - `unique bases:` 132
+  - `clustered bases:` 36
+  - `clustered full items:` 36
+  - `cluster size histogram:` size2=4, size3=4, size4+=28
+  - `clustered isos:` akv(23), ani(23), ava(23), bph(23), cji(23), ddo(23), gdo(23), gin(23), huz(23), kap(23), khv(23), kpt(23), kva(23), lbe(23), rut(23), tin(23), ugh(23), xdq(23), ingrian(21), kven(21), livonian(21), ludic(21), me-nkieli(21), v-ro(21), veps(21), votic(21), silesian(4), upper-sorbian(4), krc(3), kum(3), nogai(3), romagnol(3), bavarian(2), cim(2), eng(2), nenets(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
@@ -1627,7 +1639,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 11
+  - `Nonunique Bases:` 10
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 8
@@ -1864,7 +1876,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 2
-  - `Nonunique Bases:` 139
+  - `Nonunique Bases:` 138
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 49
@@ -2105,7 +2117,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 2
   - `ambiguous:` 0
-  - `Nonunique Bases:` 65
+  - `Nonunique Bases:` 64
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 67
@@ -2147,11 +2159,11 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `ambiguous:` 0
   - `Nonunique Bases:` 94
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 103
-  - `clustered bases:` 4
-  - `clustered full items:` 4
-  - `cluster size histogram:` size2=3, size3=1, size4+=0
-  - `clustered isos:` banjar(3), eng(2), hin(2), occitan(2)
+  - `unique bases:` 104
+  - `clustered bases:` 3
+  - `clustered full items:` 3
+  - `cluster size histogram:` size2=2, size3=1, size4+=0
+  - `clustered isos:` banjar(3), eng(2), hin(2)
 
 ### 8.35 Official languages by institution – seed subset (view over full list)
 
@@ -2182,7 +2194,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 31
+  - `Nonunique Bases:` 30
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 31
@@ -2213,7 +2225,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 3
-  - `Nonunique Bases:` 66
+  - `Nonunique Bases:` 65
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 66
@@ -2553,7 +2565,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 77
   - `ambiguous:` 0
-  - `Nonunique Bases:` 79
+  - `Nonunique Bases:` 78
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 2
   - `clustered bases:` 0

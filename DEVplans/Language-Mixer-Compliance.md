@@ -52,6 +52,14 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 30` completed (cheso->795, chiac->796, chilean-spanish->797, chilote->798, chipilo->799).
 
+- ✅ 2025-12-14: Repaired `tools/mixer-diagnostics/_no_uniq_base_claims.json` encoding (removed UTF-8 BOM) so Node `JSON.parse` succeeds; verified `workerId: 30` claim is `complete`.
+
+- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 31` completed (colombian-spanish->800, comasco-lecchese->801, corsican->802, cremish->803, cremun-s->804). Remaining seed-uniqueness debt: normalized unique seeds below threshold for colombian-spanish (9) and corsican (3).
+
+- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 28` (recovered wiring) completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
+
+- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 32` completed (cri-ana->805, daco-romanian->806, dalmatian->807, eastern-aragonese->808, eastern-catalan->809). Note: suite mapping rewrite required preserving eastern-aragonese dedicated base via `explicitIsoDedicatedBaseMap`.
+
 - ✅ 2025-12-13: Romance / Oïl Dialects NO_UNIQ_BASE batch `workerId: 23` completed (meridional-french->760, moselle-romance->761, orl-anais->762, paydret->763, picard->764).
 
 ## Routine checks
