@@ -1,9 +1,15 @@
 ---
 description: Decluster shared language bases
-auto_execution_mode: 1
+auto_execution_mode: 0
 ---
 
 Use this workflow when you want to **break up a specific shared-base cluster** in the language mixer so that each mapped language ends up with its own **unique, linguistically appropriate `[bases]` array**, in line with:
+
+# Execution guardrails (required)
+
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
 
 - [Language System Status – Markov & Mixer](../DEVplans/Languages-Status.md)
 - [Races & Languages – System Rules §1.3](../DEVplans/Races-Languages-Rules.md#13-language-base-uniqueness-intent)
@@ -22,7 +28,7 @@ The high-level rules you must respect:
 1. **Run the base-cluster report** to see current shared `[bases]` arrays:
 
    ```bash
-   node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families
+   pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families
    ```
 
 2. **Choose a target cluster** for this session:
@@ -118,7 +124,7 @@ The high-level rules you must respect:
 1. **Re-run the cluster report** focused on the base(s) you just changed to confirm the cluster is broken up:
 
    ```bash
-   node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families
+   pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families
    ```
 
    - The target cluster should disappear (or remain only among `skip: true` items, if applicable).
@@ -126,7 +132,7 @@ The high-level rules you must respect:
 2. **Run the inconsistency checker** to ensure you did not introduce broken mappings:
 
    ```bash
-   node tools/check-language-mixer-map-inconsistencies.js --show-all-bases
+   pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases
    ```
 
    - Fix any reported issues where a language has a mapping but no catalog entry, or vice versa.
@@ -161,7 +167,9 @@ Because race language palettes depend on the language mixer catalogs, large decl
 
   2. If you believe a shared `bases[]` case is a true alias of the same language (same entity), document that explicitly in `DEVplans/Languages-Status.md` and ensure the relevant list JSON marks any non-language classification items as `skip: true`. **Only true aliases of the same language (same entity) or `skip: true` classification items are permitted to share identical `bases[]` arrays.**
 
-3. Commit your changes with a message that mentions:
+ 3. If a commit is needed, stop and ask the user.
+
+    When preparing a commit message, it should mention:
 
    - The base(s) you declustered.
    - The families/regions affected.

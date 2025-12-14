@@ -13,6 +13,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - family-tagged catalog entries may be excluded from some failure/coverage tallies for UI parity, but mappings must still exist
 - Safety tightening:
   - `tools/mixer-core/fix-language-mixer-mappings.js` will not create new map-only entries from `explicitIsoBasesMap` unless the ISO exists in the catalog
+  - `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would lose its pinned dedicated base, or if the pinned base index is missing from valid namebase indices
 
 - Seed-uniqueness thresholds (explicit goal; not a hard gate):
   - We are tracking a long-term goal that each non-family mixer language has at least one globally-unique base index, and that dedicated base contains ISO-unique seed tokens.

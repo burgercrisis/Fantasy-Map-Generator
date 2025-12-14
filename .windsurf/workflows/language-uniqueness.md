@@ -1,9 +1,15 @@
 ---
 description: Makes languages unique 1
-auto_execution_mode: 1
+auto_execution_mode: 0
 ---
 
 Use this workflow to burn down **language mixer uniqueness debt** for already-present languages.
+
+# Execution guardrails (required)
+
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
 
 This is the Worker 1 workflow: run the report at the start of each session, take a small batch (default **10** affected ISOs), fix them end-to-end, then stop. When the user says `continue`, repeat.
 
@@ -21,14 +27,14 @@ This is the Worker 1 workflow: run the report at the start of each session, take
 
 # Required tools
 
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...] [--include-families]`
-- `pnpm exec node tools/check-language-mixer-map-inconsistencies.js [--family=...] [--category=...] [--region=...] [--base=IDX[,IDX...]] [--show-all-bases]`
-- `pnpm exec node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
-- `pnpm exec node tools/mixer-core/run-language-mixer-suite.js`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js [--min-size=N] [--family=...] [--category=...] [--region=...] [--include-families]`
+- `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js [--family=...] [--category=...] [--region=...] [--base=IDX[,IDX...]] [--show-all-bases]`
+- `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
+- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
 
 Optional (recommended when doing dedicated-base anchor work):
 
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 # Session loop
 
@@ -36,7 +42,7 @@ Optional (recommended when doing dedicated-base anchor work):
 
 1. Run the base-cluster report:
 
-   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families`
+   - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families`
 
 2. Pick the next small batch (default **10** non-sentinel / non-`skip: true` languages) contributing to collisions.
 
@@ -51,16 +57,18 @@ For each ISO in the batch:
 
 Run:
 
-- `pnpm exec node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
-- `pnpm exec node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`
-- `pnpm exec node tools/mixer-core/run-language-mixer-suite.js`
+- `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
+- `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`
+- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
+
+If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
 
 Re-run the base-cluster report to confirm the targeted collisions are gone:
 
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families`
 
 ## 4) Optional unique-base anchor verification
 
 If your batch work included adding a dedicated base index to satisfy the “each language has an anchor base unique to it” goal, re-run:
 
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`

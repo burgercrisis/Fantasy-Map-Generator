@@ -145,7 +145,7 @@ Enforcement posture:
 - These seed-uniqueness thresholds are an explicit **quality goal** and are tracked as **uniqueness debt** while the repo is being declustered.
 - They are **not** currently enforced as a suite “hard gate”.
 - To measure current compliance and track progress, use:
-  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 ### 4.2 Linguistic plausibility
 
@@ -179,18 +179,18 @@ All commands should be run from the repo root. Prefer **pnpm**.
 1. Add or update catalog entries in `config/language-mixes.json`.
 2. Add or update mapping entries in `config/language-mixer-map.json`.
 3. Run the mixer suite:
-   - `pnpm exec node tools/mixer-core/run-language-mixer-suite.js`
+   - `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
 4. Verify failures/coverage are acceptable for the batch.
 5. Regenerate bundles (the suite normally does this; if not, run explicitly):
-   - `pnpm exec node tools/mixer-core/generate-language-mixer.js`
+   - `pnpm exec -- node tools/mixer-core/generate-language-mixer.js`
 
 ### 5.2 Fix “catalog has entries missing from map”
 
 1. Run:
-   - `pnpm exec node tools/mixer-core/check-language-mixer-coverage.js`
-   - `pnpm exec node tools/mixer-core/check-language-mixer-failures.js`
+   - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
+   - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
 2. If the missing mappings are expected to be auto-inferrable, run:
-   - `pnpm exec node tools/mixer-core/fix-language-mixer-mappings.js`
+   - `pnpm exec -- node tools/mixer-core/fix-language-mixer-mappings.js`
 3. For any remaining unresolved ISOs:
    - Add explicit overrides in `tools/mixer-core/fix-language-mixer-mappings.js` (`explicitIsoBaseMap` for single-base or `explicitIsoBasesMap` for multi-base).
 
@@ -200,10 +200,12 @@ All commands should be run from the repo root. Prefer **pnpm**.
   - add an explicit override to `explicitIsoBasesMap` (or `explicitIsoBaseMap`) for that ISO.
   - include any related alias/subset ISOs that get “normalized” to match it.
 
+- Safety note (2025-12-14): `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would end up missing its pinned dedicated base, or if the pinned base index does not exist in the valid namebase indices.
+
 ### 5.4 Burn down uniqueness debt (declustering)
 
 1. Use the base cluster report to find collisions:
-   - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js`
+   - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js`
 2. For each cluster, choose a strategy:
    - Add a dedicated base (new index) if the language deserves a stable anchor.
    - Otherwise adjust `bases[]` mixes to be unique *and* plausible.
@@ -212,17 +214,18 @@ All commands should be run from the repo root. Prefer **pnpm**.
 ### 5.5 Quick manual sanity checks (optional but recommended)
 
 - Use the sample generator to spot-check new mappings:
-  - `pnpm exec node tools/mixer-core/generate-language-samples.js --iso=<iso> --per-base=10 --seed=1`
+  - `pnpm exec -- node tools/mixer-core/generate-language-samples.js --iso=<iso> --per-base=10 --seed=1`
 - For blending quality regressions:
-  - `pnpm exec node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=<iso> --count=40 --seed=1`
+  - `pnpm exec -- node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=<iso> --count=40 --seed=1`
 - Track seed-uniqueness goal compliance (explicit goal, not a suite hard gate):
-  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 ### 5.6 Multi-agent `NO_UNIQ_BASE2` guardrails (status)
 
 - Use `.windsurf/workflows/no-unique-base2.md` as the canonical checklist.
 - During that workflow: do **not** run `git` commands, and do **not** paraphrase the workflow into “equivalent” commands.
 - Prefer `pnpm exec -- node ...` invocation form so script arguments are not swallowed by pnpm.
+- If `fix-language-mixer-mappings.js` fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
 
 ---
 

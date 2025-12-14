@@ -1,11 +1,17 @@
 ---
 description: Multi-agent NO_UNIQ_BASE burn-down
-auto_execution_mode: 1
+auto_execution_mode: 0
 ---
 
 You are Cascade working on the Fantasy-Map-Generator language mixer.
 
 This workflow is designed to be **re-sent verbatim** to multiple agents working on the same repo.
+
+# Execution guardrails (required)
+
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
 
 # Objective
 
@@ -15,7 +21,7 @@ Burn down the seed-uniqueness debt bucket:
 
 as reported by:
 
-- `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+- `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 The goal is to ensure every **non-family** catalog ISO has **at least one** base index that is referenced by **exactly one** non-family ISO in `config/language-mixer-map.json`.
 
@@ -27,7 +33,8 @@ The goal is to ensure every **non-family** catalog ISO has **at least one** base
 - Preserve the append-only registry invariant.
 - Do not “solve” debt by removing entries or marking them as family macros.
 - Prefer pnpm:
-  - use `pnpm exec node ...` for Node scripts.
+  - use `pnpm exec -- node ...` for Node scripts.
+- Pin early: if you assign a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before you run the suite.
 
 # Coordination protocol (multi-agent safe)
 
@@ -73,10 +80,10 @@ Rules:
 
 ## Coordination option (recommended)
 
-- Option 1: Have each in-progress worker update their claim with the actual base indices they used + confirm the rerun report result ✅
+- Option 1: Have each in-progress worker update their claim with the actual base indices they used + confirm the rerun report result 
   - Update `notes` with the real ISO→base mapping you applied (and any reserved ranges you skipped).
   - Include confirmation that after your changes:
-    - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500`
+    - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500`
     - no longer lists your batch ISOs under `NO_UNIQ_BASE`.
 
 # How to pick a batch
@@ -84,7 +91,7 @@ Rules:
 1. Run the report with a large limit so you can see enough candidates:
 
 ```bash
-pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
 ```
 
 2. From the output, pick **5–20** ISOs that show `NO_UNIQ_BASE`.
@@ -134,24 +141,30 @@ If you cannot meet these immediately, still land the unique base index and leave
 
 After edits:
 
+0. If you created/assigned any dedicated base indices for your batch, pin them now:
+
+- Add `iso -> base` entries to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js`.
+
 1. Run the suite:
 
 ```bash
-pnpm exec node tools/mixer-core/run-language-mixer-suite.js
+pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js
 ```
 
 This regenerates the derived bundles (`config/language-mixes-all.js` and `config/language-mixer-map.js`) as part of the normal workflow.
 
+If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
+
 2. Re-run the report and confirm your batch is improved:
 
 ```bash
-pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
 ```
 
 3. Confirm you did not introduce any identical `bases[]` set collisions:
 
 ```bash
-pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
 ```
 
 ## D) Finish the claim

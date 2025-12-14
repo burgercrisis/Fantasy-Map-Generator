@@ -82,6 +82,9 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
 
 - Normalizes existing map entries, removing `bases` values that no longer correspond to a real namebase index.
 - If a missing base index is referenced by exactly one **non-family** catalog ISO, the script will **fail-fast** and refuse to rewrite the map (this is treated as a missing dedicated base definition).
+- If an ISO is pinned in `explicitIsoDedicatedBaseMap`, the script will:
+  - refuse to write if the pinned base index does not exist in the valid namebase indices
+  - refuse to write if the resulting map would omit the pinned dedicated base for that ISO
 - For each catalog language lacking a mapping, attempts to infer a **single** base index via:
   - explicit overrides (`explicitIsoBaseMap`),
   - direct name → base matches,
@@ -89,6 +92,8 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
   - category and token heuristics.
 - Appends new `{iso, bases: [index]}` records when an unambiguous base index is found.
 - Prints a list of unresolved languages so you can add manual overrides.
+
+Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before running `run-language-mixer-suite.js`.
 
 **Typical command**
 

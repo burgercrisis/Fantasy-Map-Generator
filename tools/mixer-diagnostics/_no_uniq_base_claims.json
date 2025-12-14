@@ -915,17 +915,6 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-14T09:59:36Z",
-      "updatedAt": "2025-12-14T09:59:36Z",
-      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- mentonasc->888\n- messinese->889\n- mexican-spanish->890\n- milanese->891\n- minderico->892\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=mentonasc,messinese,mexican-spanish,milanese,minderico\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (888-892) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
-    },
-    {
-      "workerId": 48,
-      "batchId": "2025-12-14T10:35:40Z-worker48",
-      "isos": [
-        "mineiro",
-        "mirandese",
-        "missouri-french",
-        "moldavian",
         "mon-gasque"
       ],
       "status": "complete",
