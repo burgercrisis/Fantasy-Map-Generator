@@ -1,9 +1,21 @@
 ---
 description: wikipedia language list > our language list
-auto_execution_mode: 1
+auto_execution_mode: 0
 ---
 
 You are Cascade, working on the Fantasy-Map-Generator language mixer.
+
+## Execution guardrails (required)
+
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
+- Do **not** suggest “reverting”, “rolling back”, “dropping”, or “restoring” changes unless the user explicitly instructs you to revert a specific file (with an exact file list).
+- Do **not** propose or run commits. The user/integrator owns all commits.
+- If you see BOM / CRLF / timestamp churn or other suspicious diffs, the only allowed actions are:
+  - Fix encoding/format **in-place** without removing content, or
+  - Keep it as-is and continue, or
+  - Leave it uncommitted / untouched and ask the user what to do.
 
 ## Global intent
 
@@ -116,8 +128,8 @@ For each target language from the queue:
 ## Safety checks (required after each batch)
 
  Run:
- - `pnpm exec node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
- - `pnpm exec node tools/check-language-mixer-map-inconsistencies.js`
+ - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
+ - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js`
 
  Fix any reported issues before moving on to the next batch.
 
@@ -140,5 +152,12 @@ For each target language from the queue:
     - That the list/family is fully wired (per [Languages-Status.md](cci:7://file:///e:/code/Fantasy-Map-Generator/DEVplans/Languages-Status.md:0:0-0:0) definition), or
     - That some entries are intentionally `skip`/unresolvable.
   - Propose the **next logical family or list to tackle** (respecting my current devplans and any instructions I’ve given in this session).
+
+When stopping for handoff, include:
+
+- Files changed
+- Suggested commit messages (no commits performed by agents)
+- `git add -p` guidance for how to stage the changes into logical commits
+- Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite
 
 Follow these rules every time I send this workflow prompt at the start of a session. After that, assume that `continue` means “pick up the next appropriate batch under this exact workflow” until I explicitly change tasks.

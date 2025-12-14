@@ -10,6 +10,7 @@ You are Cascade working on the Fantasy-Map-Generator language mixer.
 - Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
 - If you believe an additional command is required, stop and ask the user before running anything.
 - Do **not** suggest “reverting”, “rolling back”, “dropping”, or “restoring” changes unless the user explicitly instructs you to revert a specific file (with an exact file list).
+- Do **not** propose or run commits. The user/integrator owns all commits.
 - If you see BOM / CRLF / timestamp churn or other suspicious diffs, the only allowed actions are:
   - Fix encoding/format **in-place** without removing content, or
   - Keep it as-is and continue, or
@@ -89,3 +90,7 @@ Reply with:
 - `workerId=__ batchId=__ status=complete|stalled`
 - ISO->base mapping list
 - Any remaining strict/norm debt lines
+- Files changed
+- Suggested commit messages (no commits performed by agents)
+- `git add -p` guidance for how to stage the changes into logical commits
+- Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite

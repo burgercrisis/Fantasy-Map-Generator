@@ -24,8 +24,8 @@
 //   - Otherwise it prints a report of unresolved ISOs so they can be
 //     handled manually.
 
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const root = path.resolve(__dirname, "..", "..");
 
@@ -656,6 +656,11 @@ const explicitIsoDedicatedBaseMap = {
   "missouri-french": 895,
   moldavian: 896,
   "mon-gasque": 897,
+  mozarabic: 898,
+  murcian: 899,
+  "muskrat-french": 900,
+  navarrese: 901,
+  "navarro-aragonese": 902,
   dty: 815,
   "achhami-doteli": 816,
   "baitadeli-doteli": 817,

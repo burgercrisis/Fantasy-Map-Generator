@@ -2,6 +2,7 @@
   "name": "fantasy-map-generator",
   "private": true,
   "scripts": {
+    "mixer:guardrails": "node tools/mixer-core/check-language-mixer-guardrails.js",
     "generate:language-mixer": "node tools/mixer-core/generate-language-mixer.js",
     "diff:families": "node tools/mixer-core/diff-language-families.js",
     "mixer:check-and-generate": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",

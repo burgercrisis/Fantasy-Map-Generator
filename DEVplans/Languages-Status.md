@@ -18,7 +18,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - To measure current compliance and track progress, use:
-  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
  Latest seed-uniqueness report snapshot (2025-12-13):
 
@@ -225,10 +225,6 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker48 mini-batch):** ensured dedicated bases `893–897` for `mineiro`, `mirandese`, `missouri-french`, `moldavian`, `mon-gasque` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
-
-
-
-- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker48 mini-batch):** added dedicated bases `893–897` for `mineiro`, `mirandese`, `missouri-french`, `moldavian`, `mon-gasque` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + `report-language-mixer-seed-uniqueness --only-failures "--only=mineiro,mirandese,missouri-french,moldavian,mon-gasque" --limit=250` (No globally-unique base index: 0; strict failures: 0; norm failures: 1; `mirandese` has `normUniqueSeeds=9` tracked debt).
 
 
 

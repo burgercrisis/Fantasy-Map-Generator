@@ -1,11 +1,23 @@
 ---
 description: Endless multi-agent Wikipedia language ingestion (catalog + unique bases + race reachability)
-auto_execution_mode: 1
+auto_execution_mode: 0
 ---
 
 You are Cascade working on the Fantasy-Map-Generator language mixer.
 
 This workflow is designed to be **re-sent verbatim** to multiple agents working on the same repo.
+
+# Execution guardrails (required)
+
+- Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
+- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
+- If you believe an additional command is required, stop and ask the user before running anything.
+- Do **not** suggest “reverting”, “rolling back”, “dropping”, or “restoring” changes unless the user explicitly instructs you to revert a specific file (with an exact file list).
+- Do **not** propose or run commits. The user/integrator owns all commits.
+- If you see BOM / CRLF / timestamp churn or other suspicious diffs, the only allowed actions are:
+  - Fix encoding/format **in-place** without removing content, or
+  - Keep it as-is and continue, or
+  - Leave it uncommitted / untouched and ask the user what to do.
 
 # Global end-state goal
 
@@ -15,7 +27,7 @@ Continuously drive the project toward:
 - Each represented item is brought to the full quality bar:
   - Present in `config/language-mixes.json` (catalog)
   - Present in `config/language-mixer-map.json` (map)
-  - Has at least one **globally-unique base index** (clear `NO_UNIQ_BASE` in `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`)
+  - Has at least one **globally-unique base index** (clear `NO_UNIQ_BASE` in `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`)
   - Has a **globally unique** `bases[]` signature (sharing is allowed only when linguistically defensible as the *same language* via a true alias, or when the row is explicitly excluded from coverage via `skip: true`)
   - Is reachable by at least one race via `raceLanguageProfiles` in `modules/races.js`
 
@@ -81,7 +93,7 @@ Work in this order:
 1. Run coverage:
 
    ```bash
-   node tools/mixer-core/report-wikipedia-list-coverage.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js <JSON_PATH>
    ```
 
 2. Build a queue of the next **5–15** non-skipped items that are **not `full`**.
@@ -98,7 +110,7 @@ Work in this order:
 1. Run per-list uniqueness snapshot:
 
    ```bash
-   node tools/mixer-core/report-wikipedia-list-base-uniqueness.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-core/report-wikipedia-list-base-uniqueness.js <JSON_PATH>
    ```
 
 2. If the target list still has large shared-base clusters, pick **a small batch (5–15)** of the worst offenders and decluster them:
@@ -106,7 +118,7 @@ Work in this order:
 - Use:
 
   ```bash
-  node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+  pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
   ```
 
 - Make `bases[]` globally unique by editing `config/language-mixer-map.json`.
@@ -117,7 +129,7 @@ Work in this order:
 1. Confirm race reachability for list items:
 
    ```bash
-   node tools/mixer-races/report-wikipedia-list-race-coverage.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js <JSON_PATH>
    ```
 
 2. For any language with `RaceCount=0`, minimally adjust `raceLanguageProfiles` (prefer category/family-based inclusion rather than ad-hoc single-language hacks).
@@ -129,15 +141,17 @@ After any edits:
 1. Run the core suite:
 
    ```bash
-   node tools/mixer-core/run-language-mixer-suite.js
+   pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js
    ```
+
+   If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
 
 2. Re-run coverage and confirm the just-touched items improved:
 
    ```bash
-   node tools/mixer-core/report-wikipedia-list-coverage.js <JSON_PATH>
-   node tools/mixer-core/report-wikipedia-list-base-uniqueness.js <JSON_PATH>
-   node tools/mixer-races/report-wikipedia-list-race-coverage.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-core/report-wikipedia-list-base-uniqueness.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js <JSON_PATH>
    ```
 
 ## E. Update devplans (status tracking)
@@ -145,7 +159,7 @@ After any edits:
 1. Update the per-list snapshot block (do not hand-edit counts):
 
    ```bash
-   node tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js <JSON_PATH>
+   pnpm exec -- node tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js <JSON_PATH>
    ```
 
 2. Add brief status notes in the relevant `DEVplans/` file(s) describing what changed (no big new planning unless explicitly approved).
@@ -159,3 +173,10 @@ If you hit an ambiguity you cannot resolve safely:
 - Otherwise, mark your claim as `stalled` and write a short note (what is ambiguous + what decision is needed).
 
 Then proceed to the next available target.
+
+When stopping for handoff, include:
+
+- Files changed
+- Suggested commit messages (no commits performed by agents)
+- `git add -p` guidance for how to stage the changes into logical commits
+- Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite

@@ -112,6 +112,15 @@ These are **derived artifacts** and must be regenerated after any catalog/map ed
 - Any script that rewrites the catalog or map must preserve the append-only invariant.
 - If a helper script would drop an existing ISO during a rewrite, it must **refuse to write**.
 
+### 3.6 No-rollback decision gate (process rule)
+
+- No work may be discarded or rolled back unless the user explicitly instructs a revert/restore with an exact file list.
+- If a change looks like “churn” (e.g., UTF-8 BOM, CRLF, timestamps), the only allowed responses are:
+  - Fix encoding/format **in-place** without removing content, or
+  - Keep it as-is and continue, or
+  - Leave it uncommitted and ask the user what to do.
+- Commits are owned by the user/integrator. Agents must not run or propose `git commit`; instead provide a handoff (files changed, suggested commit messages, and staging guidance).
+
 ---
 
 ## 4. Quality rules (should hold; tracked as debt if violated)
@@ -202,6 +211,8 @@ All commands should be run from the repo root. Prefer **pnpm**.
 
 - Safety note (2025-12-14): `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would end up missing its pinned dedicated base, or if the pinned base index does not exist in the valid namebase indices.
 
+- Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add `iso -> base` to `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` before you run the suite.
+
 ### 5.4 Burn down uniqueness debt (declustering)
 
 1. Use the base cluster report to find collisions:
@@ -245,6 +256,10 @@ Core checks:
 - `tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
 - `tools/mixer-diagnostics/report-language-mixer-base-clusters.js`
 - `tools/check-language-mixer-map-inconsistencies.js`
+
+Guardrails:
+
+- `pnpm run mixer:guardrails` (fails on UTF-8 BOM in key JSON files and refuses changes that would drop existing ISOs vs `HEAD`)
 
 Reference index:
 
