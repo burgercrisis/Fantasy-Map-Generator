@@ -75,7 +75,7 @@ Each claim is a batch of ISOs:
   "status": "in_progress",
   "startedAt": "2025-12-13T10:00:00Z",
   "updatedAt": "2025-12-13T10:00:00Z",
-  "notes": "Targeting Caucasian cluster; assign each ISO a dedicated base index."
+  "notes": "Reserved i range: 915–964; Targeting Caucasian cluster; assign each ISO a dedicated base index."
 }
 ```
 
@@ -88,6 +88,17 @@ Rules:
    - update `updatedAt`
    - add a short `notes` update
 4. If there are no unclaimed ISOs in your scan window, pick the oldest `in_progress` claim and mark it `stalled` (do not delete it), then claim a different batch.
+
+5. Before adding any new base indices (`i:`) in `modules/namebases-*.js`, reserve an index range and record it in your claim `notes`:
+   - Write it in `notes` as: `Reserved i range: start–end`
+   - Choose `start` as:
+     - `start = 1 + max(maxUsedI, maxReservedEndI)`
+     - where `maxUsedI` is the highest `i:` currently present in any `modules/namebases-*.js`
+     - and `maxReservedEndI` is the highest `end` already reserved in any claim `notes`
+   - Default block size:
+     - `end = start + 49` (reserve 50 indices)
+   - Only create new `i:` values inside your reserved range (append-only).
+   - If you need more indices, reserve an additional contiguous block *before* using it and record it in `notes`.
 
 ## Coordination option (recommended)
 

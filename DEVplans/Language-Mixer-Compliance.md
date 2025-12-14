@@ -37,6 +37,17 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - ✅ Multi-agent workflow:
   - `.windsurf/workflows/no-unique-base-debt-multiagent.md`
 
+- ✅ 2025-12-14: Updated `.windsurf/workflows/no-unique-base2.md` verification checklist to run `pnpm run mixer:guardrails` (catches duplicate `i:` collisions and other guardrails early).
+
+- ✅ 2025-12-14: Multi-agent merge-conflict mitigation for `modules/namebases-*.js`: require per-worker reserved `i:` index ranges recorded in `tools/mixer-diagnostics/_no_uniq_base_claims.json` claim `notes` (workflow + rules doc enforcement).
+  - Reservation scheme: reserve the next available contiguous block above current usage / already-reserved ranges:
+    - `start = 1 + max(maxUsedI, maxReservedEndI)`
+    - default `end = start + 49`
+  - Documented in:
+    - `.windsurf/workflows/no-unique-base-debt-multiagent.md`
+    - `.windsurf/workflows/no-unique-base2.md`
+    - `DEVplans/Language-Mixer-Rules.md`
+
 - ✅ 2025-12-14: Introduced a mixer “patch queue” (delta files) to reduce multi-worker conflicts on canonical mixer artifacts:
   - Workers can add small deltas under `tools/mixer-deltas/*.json`
   - Apply deltas with `pnpm run mixer:apply-deltas` (writes `config/language-mixer-map.json` + regenerates `config/language-mixer-map.js` deterministically)
@@ -68,13 +79,23 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - ✅ 2025-12-14: Repaired `tools/mixer-diagnostics/_no_uniq_base_claims.json` encoding (removed UTF-8 BOM) so Node `JSON.parse` succeeds; verified `workerId: 30` claim is `complete`.
 
-- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 31` completed (colombian-spanish->800, comasco-lecchese->801, corsican->802, cremish->803, cremun-s->804). Remaining seed-uniqueness debt: normalized unique seeds below threshold for colombian-spanish (9) and corsican (3).
+- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 31` completed (colombian-spanish->800, comasco-lecchese->801, corsican->802, cremish->803, cremun-s->804). Follow-up: appended ISO-unique seed tokens to bases 800 and 802; normalized seed-uniqueness debt cleared.
 
 - ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 28` (recovered wiring) completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
 
 - ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 32` completed (cri-ana->805, daco-romanian->806, dalmatian->807, eastern-aragonese->808, eastern-catalan->809). Note: suite mapping rewrite required preserving eastern-aragonese dedicated base via `explicitIsoDedicatedBaseMap`.
 
 - ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 33` completed (ennese->822, eonavian->823, equatoguinean-spanish->824, estremenho->825, european-portuguese->826). Verified via `run-language-mixer-suite --no-wiki-devplan` and `report-language-mixer-seed-uniqueness --only-failures` that each has a globally-unique base index (normalized unique seeds below threshold remains tracked debt for ennese, estremenho, european-portuguese).
+
+- ✅ 2025-12-14: Mayan mixer mapping fix (systemic; not part of NO_UNIQ_BASE claims log in this file version):
+  - Added dedicated namebases in `modules/namebases-real.js`: Chuj (913) and Ch'orti' (914)
+  - Wired `config/language-mixer-map.json`:
+    - cac -> [913]
+    - caa -> [914]
+  - Pinned dedicated bases in `tools/mixer-core/fix-language-mixer-mappings.js` (`explicitIsoDedicatedBaseMap`) to prevent suite rewrites
+  - Verification:
+    - `pnpm exec node tools/mixer-core/check-language-mixer-failures.js` => 0 failures
+    - `pnpm exec node tools/mixer-core/run-language-mixer-suite.js --multi-agent-safe --no-wiki-devplan` => clean (dry-run)
 
 - ✅ 2025-12-13: Romance / Oïl Dialects NO_UNIQ_BASE batch `workerId: 23` completed (meridional-french->760, moselle-romance->761, orl-anais->762, paydret->763, picard->764).
 

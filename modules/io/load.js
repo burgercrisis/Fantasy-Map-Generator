@@ -415,6 +415,12 @@ async function parseLoadedData(data, mapVersion) {
           const b = e[5].split(",").length > 2 || !nameBases[i] ? e[5] : nameBases[i].b;
           nameBases[i] = {name: e[0], min: e[1], max: e[2], d: e[3], m: e[4], b};
         });
+
+        // Ensure default namebases are filled in for any missing indices
+        const defaultNameBases = Names.getNameBases();
+        for (let i = 0; i < defaultNameBases.length; i++) {
+          if (!nameBases[i]) nameBases[i] = defaultNameBases[i];
+        }
       }
     }
 

@@ -40,6 +40,7 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
   - Add a delta file under `tools/mixer-deltas/*.json`
   - Run `pnpm run mixer:apply-deltas`
 - Do **not** directly edit `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prefer deltas).
+- When adding new base indices (`i:`) in `modules/namebases-*.js`, reserve an index range and only create new `i:` values inside that range (recorded in the claim `notes`).
 
 # Steps
 
@@ -49,8 +50,12 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 2. Find your claim entry (`workerId` / `batchId`).
 3. Set `updatedAt` to now.
 4. Update `notes` to include:
+   - Your reserved `i:` range (required):
+     - `Reserved i range: start–end`
+     - Choose `start = 1 + max(maxUsedI, maxReservedEndI)`
+     - Default block size: `end = start + 49`
    - ISO->base mapping you applied (one per line, e.g. `iso->NNN`).
-   - Any reserved base ranges you intentionally did not use.
+   - Any reserved base sub-ranges you intentionally did not use.
    - Any remaining seed-uniqueness debt lines:
      - `iso: strictUniqueSeeds=X, normUniqueSeeds=Y`.
 

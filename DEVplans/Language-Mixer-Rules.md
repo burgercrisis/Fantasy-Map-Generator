@@ -250,6 +250,10 @@ All commands should be run from the repo root. Prefer **pnpm**.
 - Use `.windsurf/workflows/no-unique-base2.md` as the canonical checklist.
 - During that workflow: do **not** run `git` commands, and do **not** paraphrase the workflow into “equivalent” commands.
 - Prefer `pnpm exec -- node ...` invocation form so script arguments are not swallowed by pnpm.
+- Reserve an `i:` index range (recorded in `tools/mixer-diagnostics/_no_uniq_base_claims.json` claim `notes`) before adding new bases in `modules/namebases-*.js`:
+  - Choose `start = 1 + max(maxUsedI, maxReservedEndI)`
+  - Default block size: `end = start + 49`
+  - Only create new `i:` values inside your reserved range; reserve additional contiguous blocks before use.
 - Prefer a diagnostic-first worker loop (suite last):
   - `pnpm run mixer:guardrails`
   - batch-scoped `report-language-mixer-seed-uniqueness.js --only-failures --only-isos=...`
