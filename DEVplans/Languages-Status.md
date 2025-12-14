@@ -228,7 +228,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
-- ✅ **2025-12-14 NO_UNIQ_BASE regression guard (Africa bu* batch):** restored + preserved dedicated bases `590–596` for `bukusu`, `bulu`, `bum`, `busa`, `bushong`, `bwela`, `buyu` by re-adding them to `config/language-mixer-map.json` / `config/language-mixer-map.js` and pinning the full base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prevents future `run-language-mixer-suite` normalization from stripping the unique bases). Verified by running `pnpm exec node tools/mixer-core/run-language-mixer-suite.js` and then `node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only=bukusu,bulu,bum,busa,bushong,bwela,buyu --limit=120` (No globally-unique base index: 0). Remaining norm debt (norm<10): `bukusu=8/8`, `busa=8/8`, `bushong=8/8`, `bwela=5/5`.
+- ✅ **2025-12-14 NO_UNIQ_BASE regression guard (Africa bu* batch):** restored + preserved dedicated bases `590–596` for `bukusu`, `bulu`, `bum`, `busa`, `bushong`, `bwela`, `buyu` by re-adding them to `config/language-mixer-map.json` / `config/language-mixer-map.js` and pinning the full base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prevents future `run-language-mixer-suite` normalization from stripping the unique bases). Verified by running `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js` and then `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only=bukusu,bulu,bum,busa,bushong,bwela,buyu --limit=120` (No globally-unique base index: 0). Remaining norm debt (norm<10): `bukusu=8/8`, `busa=8/8`, `bushong=8/8`, `bwela=5/5`.
+
 
 
 
@@ -315,7 +316,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - `compare-mixer-nextgen-to-app.js`
     - Tri-path mixer comparison harness: compares **app legacy** (`legacyChain`), **app current**, and a **helper-only nextgen** mixer implementation (not wired into the app) for the same ISO or base list and seed.
     - Use this to validate experimental mixing heuristics against both shipped mixer behaviors without pushing changes into the app runtime.
-    - Example: `pnpm exec node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=amkoe --count=40 --seed=1` (on Windows shells, quote comma-separated `--base` values, e.g. `--base="353,354"`).
+    - Example: `pnpm exec -- node tools/mixer-core/compare-mixer-nextgen-to-app.js --iso=amkoe --count=40 --seed=1` (on Windows shells, quote comma-separated `--base` values, e.g. `--base="353,354"`).
   - `report-language-mixer-duplicates.js`
     - Finds potentially non-unique languages in the catalog by:
       - Detecting duplicate ISO codes.
@@ -1098,7 +1099,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - [ ] Track seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):
-  - [ ] `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - [ ] `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 
 

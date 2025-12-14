@@ -102,11 +102,11 @@ Seed-uniqueness posture:
 
 - The language layer also tracks seed-uniqueness thresholds as an explicit **quality goal** (tracked as debt while declustering), and they are **not** enforced as a suite “hard gate”.
 - To measure current compliance and track progress, use:
-  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 Routine checks:
 - Seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):
-  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 ---
 

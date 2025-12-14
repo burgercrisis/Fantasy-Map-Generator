@@ -520,6 +520,9 @@ window.realWorldNameBases = [
       {name: "Muskrat French", i: 900, min: 4, max: 11, d: "lnrt", m: 0, b: "muskratfrencha,muskratfrenchb,muskratfrenchc,muskratfrenchd,muskratfrenche,muskratfrenchf,muskratfrenchg,muskratfrenchh,muskratfrenchi,muskratfrenchj,muskratfrenchk,muskratfrenchl"},
       {name: "Navarrese", i: 901, min: 4, max: 11, d: "lnrt", m: 0, b: "navarresea,navarreseb,navarresec,navarresed,navarresee,navarresef,navarreseg,navarreseh,navarresei,navarresej,navarresek,navarresel"},
       {name: "Navarro-Aragonese", i: 902, min: 4, max: 11, d: "lnrt", m: 0, b: "navarroaragonesea,navarroaragoneseb,navarroaragonesec,navarroaragonesed,navarroaragonesee,navarroaragonesef,navarroaragoneseg,navarroaragoneseh,navarroaragonesei,navarroaragonesej,navarroaragonesek,navarroaragonesel"},
+
+      {name: "Berber (bucket)", i: 331, min: 4, max: 10, d: "s", m: .2, b: "Agadir,Tizi Ouzou,Bejaia,Ouargla,Tamanrasset,Imilchil,Taroudant,Tafraout,Tiznit,Azrou,Midelt,Settat"},
+
       {name: "Angevin", i: 725, min: 4, max: 11, d: "lnrt", m: 0, b: "angevina,angevinb,angevinc,angevind,angevine,angevinf,angeving,angevinh,angevini,angevinj,angevink,angevinl"},
       {name: "Burgundian", i: 726, min: 4, max: 11, d: "lnrt", m: 0, b: "burgundiana,burgundianb,burgundianc,burgundiand,burgundiane,burgundianf,burgundiang,burgundianh,burgundiani,burgundianj,burgundiank,burgundianl"},
       {name: "Champenois", i: 727, min: 4, max: 11, d: "lnrt", m: 0, b: "champenoisa,champenoisb,champenoisc,champenoisd,champenoise,champenoisf,champenoisg,champenoish,champenoisi,champenoisj,champenoisk,champenoisl"},
@@ -528,7 +531,6 @@ window.realWorldNameBases = [
       {name: "Aas-whistled", i: 730, min: 4, max: 11, d: "lnrt", m: 0, b: "aaswhistleda,aaswhistledb,aaswhistledc,aaswhistledd,aaswhistlede,aaswhistledf,aaswhistledg,aaswhistledh,aaswhistledi,aaswhistledj,aaswhistledk,aaswhistledl"},
       {name: "Aranese", i: 731, min: 4, max: 11, d: "lnrt", m: 0, b: "aranesea,araneseb,aranesec,aranesed,aranesee,aranesef,araneseg,araneseh,aranesei,aranesej,aranesek,aranesel"},
       {name: "B-arnese", i: 732, min: 4, max: 11, d: "lnrt", m: 0, b: "barnesea,barneseb,barnesec,barnesed,barnesee,barnesef,barneseg,barneseh,barnesei,barnesej,barnesek,barnesel"},
-
       {name: "Abruzzese", i: 733, min: 4, max: 11, d: "lnrt", m: 0, b: "abruzzesea,abruzzeseb,abruzzesec,abruzzesed,abruzzesee,abruzzesef,abruzzeseg,abruzzeseh,abruzzesei,abruzzesej,abruzzesek,abruzzesel"},
       {name: "Arianese", i: 734, min: 4, max: 11, d: "lnrt", m: 0, b: "arianesea,arianeseb,arianesec,arianesed,arianesee,arianesef,arianeseg,arianeseh,arianesei,arianesej,arianesek,arianesel"},
       {name: "Barese", i: 735, min: 4, max: 11, d: "lnrt", m: 0, b: "baresea,bareseb,baresec,baresed,baresee,baresef,bareseg,bareseh,baresei,baresej,baresek,baresel"},

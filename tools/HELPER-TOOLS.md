@@ -8,6 +8,10 @@ All scripts are intended to be run **from the project root** unless stated other
 pnpm exec -- node tools/<script-name>.js [options]
 ```
 
+If a command example in this document uses `node tools/...`, you can run it as-is, or you can swap it to `pnpm exec -- node tools/...`.
+
+Important: when using pnpm, include `--` before script arguments so pnpm does not swallow flags intended for the Node script.
+
 ### Section index
 
 - [Language Mixer – Core Maintenance](#language-mixer--core-maintenance)
@@ -128,7 +132,7 @@ Compares ISO coverage between the mixer catalog and the mapping so you can see w
 **Usage**
 
 ```bash
-node tools/mixer-core/check-language-mixer-coverage.js
+pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js
 ```
 
 Run this to understand coverage gaps before/after mapping changes.
@@ -163,7 +167,7 @@ Static analysis for catalog languages that would fail in the local mixer because
 **Usage**
 
 ```bash
-node tools/mixer-core/check-language-mixer-failures.js
+pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
 ```
 
 ---
@@ -222,16 +226,16 @@ Ad-hoc mixer generator for inspecting **sample names** by language ISO or by raw
 
 ```bash
 # Generate 10 samples per mapped base for a mixer language
-node tools/mixer-core/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1
+pnpm exec -- node tools/mixer-core/generate-language-samples.js --iso=amkoe --per-base=10 --seed=1
 
 # Generate 40 samples cycling between specific bases
-node tools/mixer-core/generate-language-samples.js --base=353,354 --count=40 --seed=42
+pnpm exec -- node tools/mixer-core/generate-language-samples.js --base=353,354 --count=40 --seed=42
 
 # Placename / length analysis for a mixer language
-node tools/mixer-core/generate-language-samples.js --iso=kx-ao-ae --per-base=100 --analyze-lengths
+pnpm exec -- node tools/mixer-core/generate-language-samples.js --iso=kx-ao-ae --per-base=100 --analyze-lengths
 
 # Placename / length analysis for raw bases
-node tools/mixer-core/generate-language-samples.js --base=353,354 --count=200 --analyze-lengths
+pnpm exec -- node tools/mixer-core/generate-language-samples.js --base=353,354 --count=200 --analyze-lengths
 ```
 
 Key options:

@@ -19,7 +19,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - We are tracking a long-term goal that each non-family mixer language has at least one globally-unique base index, and that dedicated base contains ISO-unique seed tokens.
   - Target thresholds (tracked as debt, not enforced as a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
   - Report current compliance with:
-    - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+    - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
   - Latest report snapshot (2025-12-13):
     - Target ISOs: 3366
     - Missing mapping: 0
@@ -68,7 +68,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 ## Routine checks
 
 - Seed-uniqueness goal compliance (explicit goal, not a suite “hard gate”):
-  - `pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
 ## Workstreams
 
