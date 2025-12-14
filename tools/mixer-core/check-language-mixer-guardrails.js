@@ -6,6 +6,8 @@ const {execFileSync} = require("node:child_process");
 
 const root = path.resolve(__dirname, "..", "..");
 
+let failCount = 0;
+
 function toPosix(relPath) {
   return String(relPath).replaceAll("\\", "/");
 }
@@ -78,6 +80,7 @@ function diffMissing(baselineSet, currentSet) {
 function fail(msg) {
   console.error(msg);
   process.exitCode = 1;
+  failCount++;
 }
 
 function main() {
@@ -150,6 +153,12 @@ function main() {
       );
       return;
     }
+
+    if (!failCount) {
+      console.log(
+        `[guardrails] OK (no-git mode; append-only checks skipped). map=${mapCur.set.size} catalog=${catCur.set.size}`
+      );
+    }
     return;
   }
 
@@ -174,6 +183,10 @@ function main() {
       `[guardrails] Append-only violation: config/language-mixes.json would drop ${catMissing.length} ISO(s) vs HEAD.\n` +
         catMissing.map(i => ` - ${i}`).join("\n")
     );
+  }
+
+  if (!failCount) {
+    console.log(`[guardrails] OK. map=${mapCur.set.size} catalog=${catCur.set.size}`);
   }
 }
 

@@ -168,6 +168,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-14 workflow + suite stabilization:** updated the key `.windsurf` workflows to use a diagnostic-first worker loop (guardrails → targeted checks → suite last), updated `mixer:guardrails` to print a concise OK summary, restored missing base definitions needed by pinned/auto mappings (`i:331` Berber bucket and `i:313` Australian Aboriginal), and re-ran `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan` successfully. Current remaining local-mixer failures after the suite run: `caa` and `cac` have empty `bases[]` and still need proper wiring.
+
+
+
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker32 mini-batch):** ensured dedicated bases `805–809` for `cri-ana`, `daco-romanian`, `dalmatian`, `eastern-aragonese`, `eastern-catalan` are present in `modules/namebases-real.js` and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js`. Verified via `run-language-mixer-suite --no-wiki-devplan` + `report-language-mixer-seed-uniqueness --only-failures "--only=cri-ana,daco-romanian,dalmatian,eastern-aragonese,eastern-catalan" --limit=200` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
 
 

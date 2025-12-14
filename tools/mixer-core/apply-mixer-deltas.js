@@ -23,6 +23,26 @@ function readOptionalJson(relPath) {
   }
 }
 
+function mergeSetBases(target, incoming, sourceLabel) {
+  if (!incoming || typeof incoming !== "object") return;
+
+  for (const [rawIso, rawBases] of Object.entries(incoming)) {
+    const iso = normalizeIso(rawIso);
+    if (!iso) continue;
+
+    const bases = normalizeBases(rawBases);
+    if (!bases.length) {
+      throw new Error(`[apply-mixer-deltas] Empty/invalid setBases for ${iso} from ${sourceLabel}`);
+    }
+
+    if (Object.hasOwn(target, iso) && JSON.stringify(target[iso]) !== JSON.stringify(bases)) {
+      throw new Error(`[apply-mixer-deltas] Conflicting setBases for ${iso} (from ${sourceLabel})`);
+    }
+
+    target[iso] = bases;
+  }
+}
+
 function writeJson(relPath, data) {
   const full = path.join(root, relPath);
   fs.mkdirSync(path.dirname(full), {recursive: true});
@@ -137,7 +157,7 @@ function mergeAppendBases(target, incoming, sourceLabel) {
   }
 }
 
-function applyToMap(map, pins, appendBases) {
+function applyToMap(map, setBases, pins, appendBases) {
   const mapByIso = new Map();
   for (const entry of Array.isArray(map) ? map : []) {
     if (!entry || entry.iso == null) continue;
@@ -145,6 +165,24 @@ function applyToMap(map, pins, appendBases) {
   }
 
   let didMutate = false;
+
+  for (const [iso, basesToSet] of Object.entries(setBases || {})) {
+    const entry = mapByIso.get(iso);
+    if (entry) {
+      const prev = normalizeBases(entry.bases);
+      const next = normalizeBases(basesToSet);
+      if (!arraysEqual(prev, next)) {
+        entry.bases = next;
+        didMutate = true;
+      }
+      continue;
+    }
+
+    const newEntry = {iso, bases: normalizeBases(basesToSet)};
+    map.push(newEntry);
+    mapByIso.set(iso, newEntry);
+    didMutate = true;
+  }
 
   for (const [iso, base] of Object.entries(pins)) {
     const entry = mapByIso.get(iso);
@@ -200,9 +238,23 @@ function collectReferencedBases(pins, appendBases) {
   return out;
 }
 
-function validateIsosExistInCatalog({catalogIsos, pins, appendBases}) {
+function collectReferencedBasesWithSetBases(setBases, pins, appendBases) {
+  const out = collectReferencedBases(pins, appendBases);
+  for (const bases of Object.values(setBases || {})) {
+    for (const b of Array.isArray(bases) ? bases : []) {
+      const n = Number(b);
+      if (Number.isFinite(n)) out.add(n);
+    }
+  }
+  return out;
+}
+
+function validateIsosExistInCatalog({catalogIsos, setBases, pins, appendBases}) {
   const missing = new Set();
 
+  for (const iso of Object.keys(setBases || {})) {
+    if (!catalogIsos.has(iso)) missing.add(iso);
+  }
   for (const iso of Object.keys(pins || {})) {
     if (!catalogIsos.has(iso)) missing.add(iso);
   }
@@ -273,6 +325,7 @@ function main() {
 
   const deltaFiles = listDeltaFiles();
 
+  const setBases = {};
   const pins = {};
   const appendBases = {};
 
@@ -284,6 +337,7 @@ function main() {
     const rel = path.join(deltasDirRel, fileName);
     const json = readJson(rel);
 
+    mergeSetBases(setBases, json.setBases || json.replaceBases || null, rel);
     mergePins(pins, json.dedicatedPins || json.pins || null, rel);
     mergeAppendBases(appendBases, json.appendBases || null, rel);
   }
@@ -294,10 +348,10 @@ function main() {
 
   const catalog = readJson(path.join("config", "language-mixes.json"));
   const catalogIsos = new Set((Array.isArray(catalog) ? catalog : []).map(r => String(r?.iso || "")).filter(Boolean));
-  if (!validateIsosExistInCatalog({catalogIsos, pins, appendBases})) return;
+  if (!validateIsosExistInCatalog({catalogIsos, setBases, pins, appendBases})) return;
 
   const namebaseIndices = loadNamebaseIndices();
-  const referencedBases = collectReferencedBases(pins, appendBases);
+  const referencedBases = collectReferencedBasesWithSetBases(setBases, pins, appendBases);
   const missingBases = Array.from(referencedBases).filter(b => !namebaseIndices.has(b)).sort((a, b) => a - b);
 
   if (missingBases.length) {
@@ -310,12 +364,14 @@ function main() {
   const mapRel = path.join("config", "language-mixer-map.json");
   const map = readJson(mapRel);
 
+  const sortedSetEntries = Object.entries(setBases).sort((a, b) => a[0].localeCompare(b[0]));
   const sortedPinsEntries = Object.entries(pins).sort((a, b) => a[0].localeCompare(b[0]));
   const sortedAppendEntries = Object.entries(appendBases).sort((a, b) => a[0].localeCompare(b[0]));
+  const setSorted = Object.fromEntries(sortedSetEntries);
   const pinsSorted = Object.fromEntries(sortedPinsEntries);
   const appendSorted = Object.fromEntries(sortedAppendEntries);
 
-  const didMutateMap = applyToMap(map, pinsSorted, appendSorted);
+  const didMutateMap = applyToMap(map, setSorted, pinsSorted, appendSorted);
   if (!validatePinnedBasesAreUnique({map, pins: pinsSorted})) return;
   if (!checkOnly && didMutateMap) {
     writeJson(mapRel, map);
@@ -339,9 +395,7 @@ function main() {
     writeJson(compiledPinsRel, nextCompiled);
   }
 
-  if (didMutateMap) {
-    execFileSync("node", [path.join(__dirname, "generate-language-mixer.js")], {encoding: "utf8"});
-  }
+  execFileSync("node", [path.join(__dirname, "generate-language-mixer.js")], {encoding: "utf8"});
 }
 
 if (require.main === module) {

@@ -29,6 +29,10 @@ Example:
 
 Each delta file is JSON with optional keys:
 
+- `setBases` (alias: `replaceBases`): `{ [iso: string]: number[] }`
+  - Sets the ISO’s `bases[]` to an exact array (normalized + sorted).
+  - Use this for declustering / “make bases[] unique” work where you need a precise mix.
+
 - `dedicatedPins`: `{ [iso: string]: number }`
   - Declares that an ISO must have a globally-unique dedicated base index.
   - The compiler will ensure the dedicated base is present in that ISO’s `bases[]`.
@@ -40,15 +44,24 @@ Example:
 
 ```json
 {
+  "setBases": {
+    "navarro-aragonese": [287, 902]
+  },
   "dedicatedPins": {
     "mozarabic": 898,
     "murcian": 899
   },
   "appendBases": {
-    "navarro-aragonese": [287]
+    "navarro-aragonese": [4]
   }
 }
 ```
+
+## Application order
+
+1. `setBases` (exact override)
+2. `dedicatedPins` (ensures pinned base is included)
+3. `appendBases` (adds additional bases)
 
 ## What files are generated/updated
 

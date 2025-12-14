@@ -25,6 +25,10 @@ This is the Worker 1 workflow: run the report at the start of each session, take
   - `config/language-mixes.json`
   - `config/language-mixer-map.json`
 - Do not “solve” uniqueness debt by removing entries or converting them into family macros.
+- Canonical write path:
+  - Edit base definitions in `modules/namebases-*.js` (append-only)
+  - Add a delta file under `tools/mixer-deltas/*.json` (`setBases` / `dedicatedPins` / `appendBases`)
+  - Run `pnpm run mixer:apply-deltas`
 
 # Scope and posture
 
@@ -38,7 +42,7 @@ This is the Worker 1 workflow: run the report at the start of each session, take
 - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
-- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
+- `pnpm run mixer:check-deltas`
 
 Optional (recommended when doing dedicated-base anchor work):
 
@@ -59,23 +63,22 @@ Optional (recommended when doing dedicated-base anchor work):
 For each ISO in the batch:
 
 - Make its effective `bases[]` set **globally unique** (overlaps are fine, identical arrays are not).
-- Prefer resolving uniqueness via **dedicated bases** when needed (append-only in `modules/namebases-real.js`), but small plausible mix adjustments are also acceptable.
+- Prefer resolving uniqueness via **dedicated bases** when needed (append-only in `modules/namebases-real.js`).
+- Apply mapping changes via a delta file:
+  - `setBases` when you need an exact bases[] array
+  - `dedicatedPins` when you created a dedicated base
 
 ## 3) Required verification
 
 Run:
 
-- `pnpm run mixer:guardrails`
+- `pnpm run mixer:check-deltas`
 - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js`
 - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
 - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
 
-Only after the above checks are clean, run the suite as the final step:
-
-- `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
-
-If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
+Do **not** run `run-language-mixer-suite.js` as part of this workflow unless the user explicitly asks.
 
 Re-run the base-cluster report to confirm the targeted collisions are gone:
 

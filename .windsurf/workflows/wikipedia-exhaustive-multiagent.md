@@ -102,7 +102,7 @@ Work in this order:
 3. For each queued language item:
 
 - **Catalog:** ensure a correct entry in `config/language-mixes.json`.
-- **Map:** ensure a correct entry in `config/language-mixer-map.json`.
+- **Map:** ensure a correct entry via a delta file under `tools/mixer-deltas/*.json` (do not hand-edit the map).
 - Use conservative metadata conventions consistent with the repo.
 
 ## B. Uniqueness pass (bases[])
@@ -121,7 +121,7 @@ Work in this order:
   pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
   ```
 
-- Make `bases[]` globally unique by editing `config/language-mixer-map.json`.
+- Make `bases[]` globally unique via delta `setBases` (do not hand-edit the map).
 - Do not treat broad macro hubs as acceptable end state; any identical shared `bases[]` arrays among distinct non-skipped languages are uniqueness debt.
 
 ## C. Race reachability pass
@@ -138,10 +138,10 @@ Work in this order:
 
 After any edits:
 
-1. Run guardrails:
+1. Apply deltas (runs guardrails + updates committed artifacts):
 
    ```bash
-   pnpm run mixer:guardrails
+   pnpm run mixer:apply-deltas
    ```
 
 2. Run core checks:
@@ -151,13 +151,7 @@ After any edits:
    pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
    ```
 
-3. Only after the above checks are clean, run the core suite as the final step:
-
-   ```bash
-   pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan
-   ```
-
-   If the suite fails-fast due to missing dedicated base definitions, restore/add the missing base indices in `modules/namebases-*.js` before proceeding.
+3. Do **not** run `run-language-mixer-suite.js` as part of this multi-agent loop unless the user explicitly asks.
 
 4. Re-run coverage and confirm the just-touched items improved:
 

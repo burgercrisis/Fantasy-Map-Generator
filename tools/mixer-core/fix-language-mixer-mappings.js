@@ -450,6 +450,9 @@ const explicitIsoBasesMap = {
   dis: [63, 64],
   rah: [63, 65],
 
+  cac: [170, 160],
+  caa: [157, 161, 168],
+
   aranese: [2, 4, 232, 731],
   "eastern-aragonese": [4, 287],
   "western-aragonese": [272, 287],

@@ -186,12 +186,15 @@ All commands should be run from the repo root. Prefer **pnpm**.
 ### 5.1 Add or import languages (normal case)
 
 1. Add or update catalog entries in `config/language-mixes.json`.
-2. Add or update mapping entries in `config/language-mixer-map.json`.
-3. Run the mixer suite:
-   - `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js`
-4. Verify failures/coverage are acceptable for the batch.
-5. Regenerate bundles (the suite normally does this; if not, run explicitly):
-   - `pnpm exec -- node tools/mixer-core/generate-language-mixer.js`
+2. Add or update mapping entries via delta files under `tools/mixer-deltas/*.json`:
+  - Use `dedicatedPins` and/or `appendBases` for incremental changes.
+  - Use `setBases` (alias: `replaceBases`) when you need an exact `bases[]` array (declustering).
+3. Apply deltas (writes committed artifacts + regenerates bundles):
+  - `pnpm run mixer:apply-deltas`
+4. Verify failures/coverage are acceptable for the batch:
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
+5. Only run `run-language-mixer-suite.js` if explicitly requested (it can cause cross-worker churn by rewriting mappings).
 
 ### 5.2 Fix “catalog has entries missing from map”
 
@@ -208,9 +211,11 @@ All commands should be run from the repo root. Prefer **pnpm**.
 ### 5.3 Preserve intended mappings against auto-fix rewriting
 
 - If `fix-language-mixer-mappings.js` (or a suite run) repeatedly rewrites a manually curated `bases[]` back to a generic default:
-  - add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
-  - Run `pnpm run mixer:apply-deltas`
-  - Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
+  - add an explicit override to `tools/mixer-core/fix-language-mixer-mappings.js`:
+    - `explicitIsoBasesMap` for multi-base mixes, or
+    - `explicitIsoBaseMap` for single-base mappings
+  - include any related alias/subset ISOs that get “normalized” to match it.
+  - Re-run `pnpm run mixer:apply-deltas` to ensure committed artifacts are regenerated.
 
 - Safety note (2025-12-14): `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would end up missing its pinned dedicated base, or if the pinned base index does not exist in the valid namebase indices.
 
@@ -224,9 +229,11 @@ All commands should be run from the repo root. Prefer **pnpm**.
 1. Use the base cluster report to find collisions:
    - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js`
 2. For each cluster, choose a strategy:
-   - Add a dedicated base (new index) if the language deserves a stable anchor.
-   - Otherwise adjust `bases[]` mixes to be unique *and* plausible.
-3. Re-run suite and regenerate bundles.
+  - Add a dedicated base (new index) if the language deserves a stable anchor.
+  - Otherwise adjust `bases[]` mixes to be unique *and* plausible.
+3. Apply the mapping changes via delta `setBases` (and/or `dedicatedPins`) and run:
+  - `pnpm run mixer:apply-deltas`
+4. Re-run diagnostics to confirm the collision is gone.
 
 ### 5.5 Quick manual sanity checks (optional but recommended)
 

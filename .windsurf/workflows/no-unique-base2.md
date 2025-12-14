@@ -101,4 +101,4 @@ Reply with:
 - Files changed
 - Suggested commit messages (no commits performed by agents)
 - `git add -p` guidance for how to stage the changes into logical commits
-- Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite
+- Verification commands run (or to run), including `pnpm run mixer:check-deltas`

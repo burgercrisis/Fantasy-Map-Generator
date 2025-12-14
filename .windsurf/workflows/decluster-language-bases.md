@@ -21,7 +21,7 @@ Verification order (diagnostic-first):
 
 - Run `pnpm run mixer:guardrails` early (before suite).
 - Run decluster-specific diagnostics (clusters + inconsistencies).
-- Only run `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan` as the final step.
+- Do **not** run `run-language-mixer-suite.js` unless the user explicitly asks.
 
 - [Language System Status – Markov & Mixer](../DEVplans/Languages-Status.md)
 - [Races & Languages – System Rules §1.3](../DEVplans/Races-Languages-Rules.md#13-language-base-uniqueness-intent)
@@ -63,7 +63,7 @@ The high-level rules you must respect:
 
 1. For each ISO in the chosen cluster, gather context from:
 
-   - `config/language-mixer-map.json` (the `[bases]` mapping you will edit).
+   - `config/language-mixer-map.json` (the `[bases]` mapping you will be changing).
    - `config/language-mixes.json` (the catalog entry: `iso`, `family`, `category`, `region`, `tags`, etc.).
 
 2. Build a quick **per-language note** (mentally or in a scratchpad) capturing at least:
@@ -115,19 +115,26 @@ The high-level rules you must respect:
 
 ## 4. Apply mapping changes
 
-1. Edit `config/language-mixer-map.json`:
+1. Do **not** hand-edit `config/language-mixer-map.json`.
 
-   - For each targeted ISO in your cluster, update its `bases` field to the new array you designed.
+2. Apply mapping changes via a delta file under `tools/mixer-deltas/*.json`:
+
+   - Use `setBases: { "iso": [<bases...>] }` to set the exact bases[] per ISO.
+   - If you created a new dedicated base index for an ISO, also add:
+     - `dedicatedPins: { "iso": <dedicatedBase> }`
    - Keep arrays sorted or consistently ordered so diffs are readable.
-   - Do **not** change `iso`, `family`, `category`, or `region` here.
 
-2. If any mapped language is **missing a catalog entry** in `config/language-mixes.json`:
+3. If any mapped language is **missing a catalog entry** in `config/language-mixes.json`:
 
    - Either add the missing catalog entry in line with existing patterns, or, if the mapping looks spurious, change it to point at the correct ISO instead of deleting it.
    - Under the no-deletion policy for languages, do **not** drop catalog or mapping rows as part of declustering; fixes always happen via additions and base/metadata adjustments.
    - Ensure `language-mixes.json` and `language-mixer-map.json` stay in sync for every ISO.
 
-3. Save both files when done.
+4. Apply deltas:
+
+   ```bash
+   pnpm run mixer:apply-deltas
+   ```
 
 ---
 

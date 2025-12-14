@@ -24,14 +24,15 @@ When wiring a batch, prefer this order to avoid suite failures and churn:
 1. Run guardrails:
    - `pnpm run mixer:guardrails`
 2. Pick a small batch using coverage tools and/or uniqueness reports.
-3. Make edits (catalog + namebases + mixer map wiring).
-4. Re-run targeted uniqueness verification for just the batch:
+3. Make edits (catalog + namebases + delta file under `tools/mixer-deltas/*.json`).
+4. Apply deltas (writes committed artifacts + regenerates bundles):
+   - `pnpm run mixer:apply-deltas`
+5. Re-run targeted uniqueness verification for just the batch:
    - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300`
-5. Run core checks:
+6. Run core checks:
    - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
    - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
-6. Only after the above checks are clean, run the suite as the final step:
-   - `pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan`
+7. Do **not** run `run-language-mixer-suite.js` unless the user explicitly asks.
 
 ## Global intent
 
@@ -39,7 +40,7 @@ Systematically take **every language from every targeted Wikipedia language list
 
 1. Add it to the language catalog (`config/language-mixes.json`) with metadata and a Wikipedia URL.
 2. Give it a **unique Markov base or tuned mix that reflects that language itself**, not just a generic macro hub, and ensure its `bases[]` signature in the mixer map is **globally unique** (no other language shares the same base/mix array).
-3. Wire it into the mixer map ([config/language-mixer-map.json](cci:7://file:///e:/code/Fantasy-Map-Generator/config/language-mixer-map.json:0:0-0:0)) so it participates in the name system.
+3. Wire it into the mixer map via a delta file (do not hand-edit the map) so it participates in the name system.
 4. Ensure that **at least one race** can actually use that language in the mixer (via `raceLanguageProfiles` in [modules/races.js](cci:7://file:///e:/code/Fantasy-Map-Generator/modules/races.js:0:0-0:0)).
 5. Keep doing this in batches **until there are no more languages left on the lists**, responding to my `continue` requests without re‑asking for choices.
 
@@ -114,10 +115,14 @@ For each target language from the queue:
        - Inspect seed vs generated lengths.
        - Tweak `min/max/d` until generated names sit in a sensible p25–p75 band and feel like the language.
 
-4. **Mixer map wiring ([language-mixer-map.json](cci:7://file:///e:/code/Fantasy-Map-Generator/config/language-mixer-map.json:0:0-0:0))**
-   - Ensure there is a **map entry**:
-     - `iso`: the catalog iso.
-     - `bases`: an array that includes the **newly created base index** (and any justified blended bases) and is **not identical** to any other language’s `bases[]` set.
+4. **Mixer map wiring (via delta file)**
+  - Do **not** hand-edit `config/language-mixer-map.json`.
+  - Add the mapping via `tools/mixer-deltas/*.json` using one of:
+    - `setBases: { "iso": [<bases...>] }` for an exact bases[] mix, and/or
+    - `dedicatedPins: { "iso": <dedicatedBase> }` (recommended when you created a unique base index), plus
+    - `appendBases: { "iso": [<otherBases...>] }` for additional ingredients.
+  - Apply with:
+    - `pnpm run mixer:apply-deltas`
    - Avoid:
      - Collapsing onto unrelated macro hubs (e.g. generic English, Malay, Tok Pisin). Lexifiers can appear as **ingredients**, but identical shared `bases[]` arrays among distinct non-skipped languages are not allowed.
      - Using lexifier or macro-hub bases (e.g. English, Malay, Tok Pisin, major trade languages) as the **sole** `bases[]` array for more than one language; they should appear only as ingredients in otherwise unique mixes.
