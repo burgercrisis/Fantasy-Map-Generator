@@ -6,10 +6,15 @@ const vm = require("vm");
 
 const root = path.resolve(__dirname, "..", "..", "..");
 
+function stripBom(s) {
+  if (!s) return s;
+  return s.charCodeAt(0) === 0xfeff ? s.slice(1) : s;
+}
+
 function readJson(rel) {
   const full = path.join(root, rel);
   const raw = fs.readFileSync(full, "utf8");
-  return JSON.parse(raw);
+  return JSON.parse(stripBom(raw));
 }
 
 function loadDefaultNameBases() {

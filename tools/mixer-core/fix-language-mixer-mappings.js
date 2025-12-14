@@ -473,6 +473,9 @@ const explicitIsoBasesMap = {
   "navarro-aragonese": [4, 232, 287],
   "judeo-aragonese": [4, 231, 287],
 
+  castelmezzano: [232, 306, 638],
+  "central-metafonetica": [3, 233, 280, 641],
+
   "anatolian-arabic": [22, 23, 143, 676],
   "andalusi-arabic": [4, 18, 140, 677],
   "baghdadi-arabic": [23, 678],
@@ -498,6 +501,21 @@ const explicitIsoBasesMap = {
 };
 
 const explicitIsoDedicatedBaseMap = {
+  angevin: 725,
+  burgundian: 726,
+  champenois: 727,
+  poitevin: 728,
+  saintongeais: 729,
+  "aas-whistled": 730,
+  aranese: 731,
+  "b-arnese": 732,
+
+  abruzzese: 733,
+  arianese: 734,
+  barese: 735,
+  basilicatine: 736,
+  benevento: 737,
+
   irpino: 740,
   molisan: 741,
   "neapolitan-lang": 742,
@@ -518,6 +536,11 @@ const explicitIsoDedicatedBaseMap = {
   "law-french": 757,
   lorrain: 758,
   mayennais: 759,
+  augeron: 610,
+  auregnais: 612,
+  cilentan: 738,
+  cosentino: 739,
+  joual: 857,
   acadian: 765,
   aeolian: 766,
   "african-romance": 767,
@@ -557,13 +580,81 @@ const explicitIsoDedicatedBaseMap = {
   "eastern-nonmetafonetica": 811,
   "eastern-romanian": 812,
   "ecuadorian-spanish": 813,
-  emilian: 814
+  emilian: 814,
+  ennese: 822,
+  eonavian: 823,
+  "equatoguinean-spanish": 824,
+  estremenho: 825,
+  "european-portuguese": 826,
+  extremaduran: 827,
+  fabriano: 828,
+  faetar: 829,
+  fala: 830,
+  ferrarese: 831,
+  fiuman: 832,
+  florentine: 833,
+  forlivese: 834,
+  fornes: 835,
+  "franco-italian": 836,
+  "franco-ontarian": 837,
+  "franco-proven-al": 838,
+  "frenchville-french": 839,
+  "friulian-lang": 840,
+  galician: 841,
+  "galician-asturian": 842,
+  "gallo-italic-of-basilicata": 843,
+  "gallo-italic-of-sicily": 844,
+  "gallo-picene": 845,
+  gallurese: 846,
+  gardiol: 847,
+  gascon: 848,
+  genoese: 849,
+  grossetano: 850,
+  haketia: 851,
+  intemelio: 852,
+  istriot: 853,
+  ita: 854,
+  "italo-australian": 855,
+  jauer: 856,
+  "judeo-aragonese": 858,
+  "judeo-catalan": 859,
+  "judeo-gascon": 860,
+  "judeo-italian": 861,
+  "judeo-mantuan": 862,
+  "judeo-piedmontese": 863,
+  "judeo-portuguese": 864,
+  "judeo-proven-al": 865,
+  "judeo-spanish": 866,
+  "ladin-lang": 867,
+  ladino: 868,
+  landese: 869,
+  languedocien: 870,
+  lat: 871,
+  leonese: 872,
+  ligurian: 873,
+  limousin: 874,
+  llanito: 875,
+  logudorese: 876,
+  lombard: 877,
+  "louisiana-french": 878,
+  lucchese: 879,
+  "m-tis-french": 880,
+  macerata: 881,
+  magoua: 882,
+  dty: 815,
+  "achhami-doteli": 816,
+  "baitadeli-doteli": 817,
+  "bajhangi-doteli": 818,
+  "darchuleli-doteli": 819,
+  "bajureli-doteli": 820,
+  "dadeldhuri-doteli": 821
 };
 
 function readJson(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8");
-  return JSON.parse(raw);
+  const s = raw && raw.charCodeAt(0) === 0xfeff ? raw.slice(1) : raw;
+  return JSON.parse(s);
 }
 
 const tokenBaseIndexMap = {
@@ -772,13 +863,36 @@ function main() {
     }
   }
 
+  const allDedicatedBases = new Set(Object.values(explicitIsoDedicatedBaseMap));
+  const dedicatedOwnerByBase = new Map();
+  for (const [iso, base] of Object.entries(explicitIsoDedicatedBaseMap)) {
+    if (typeof base === "number") dedicatedOwnerByBase.set(base, iso);
+  }
+
+  for (const entry of map) {
+    if (!entry || !entry.iso) continue;
+    const bases = Array.isArray(entry.bases) ? entry.bases : [];
+    if (!bases.length) continue;
+    const cleaned = bases.filter(b => !allDedicatedBases.has(b) || dedicatedOwnerByBase.get(b) === entry.iso);
+    const before = JSON.stringify(bases);
+    const after = JSON.stringify(cleaned);
+    if (before !== after) {
+      entry.bases = cleaned;
+      didMutateMap = true;
+    }
+  }
+
   for (const [iso, dedicatedBase] of Object.entries(explicitIsoDedicatedBaseMap)) {
     if (!validBaseIndices.has(dedicatedBase)) continue;
     const existing = mapByIso.get(iso);
     if (existing) {
       const bases = Array.isArray(existing.bases) ? existing.bases : [];
-      if (!bases.includes(dedicatedBase)) {
-        existing.bases = [...bases, dedicatedBase];
+      const cleaned = bases.filter(b => b === dedicatedBase || !allDedicatedBases.has(b));
+      if (!cleaned.includes(dedicatedBase)) cleaned.push(dedicatedBase);
+      const before = JSON.stringify(bases);
+      const after = JSON.stringify(cleaned);
+      if (before !== after) {
+        existing.bases = cleaned;
         didMutateMap = true;
       }
     } else {

@@ -60,6 +60,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 32` completed (cri-ana->805, daco-romanian->806, dalmatian->807, eastern-aragonese->808, eastern-catalan->809). Note: suite mapping rewrite required preserving eastern-aragonese dedicated base via `explicitIsoDedicatedBaseMap`.
 
+- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 33` completed (ennese->822, eonavian->823, equatoguinean-spanish->824, estremenho->825, european-portuguese->826). Verified via `run-language-mixer-suite --no-wiki-devplan` and `report-language-mixer-seed-uniqueness --only-failures` that each has a globally-unique base index (normalized unique seeds below threshold remains tracked debt for ennese, estremenho, european-portuguese).
+
 - ✅ 2025-12-13: Romance / Oïl Dialects NO_UNIQ_BASE batch `workerId: 23` completed (meridional-french->760, moselle-romance->761, orl-anais->762, paydret->763, picard->764).
 
 ## Routine checks

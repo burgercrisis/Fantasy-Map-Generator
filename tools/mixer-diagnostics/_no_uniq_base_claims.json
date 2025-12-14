@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 1,
   "claims": [
     {
@@ -587,8 +587,8 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-13T18:53:35Z",
-      "updatedAt": "2025-12-13T18:53:35Z",
-      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISOâ†’base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended in config/language-mixer-map.json):\n- cheso->795\n- chiac->796\n- chilean-spanish->797\n- chilote->798\n- chipilo->799\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (coverage preserved; no missing mappings)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=cheso,chiac,chilean-spanish,chilote,chipilo --limit=80 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; no new identical base-set collisions introduced by these dedicated bases)"
+      "updatedAt": "2025-12-14T05:54:06Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended in config/language-mixer-map.json):\n- cheso->795\n- chiac->796\n- chilean-spanish->797\n- chilote->798\n- chipilo->799\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (coverage preserved; no missing mappings)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=cheso,chiac,chilean-spanish,chilote,chipilo --limit=80 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; no new identical base-set collisions introduced by these dedicated bases)"
     },
     {
       "workerId": 31,
@@ -673,12 +673,220 @@
         "chiac",
         "chilean-spanish",
         "chilote",
-        "chipilo"
+        "chipilo",
+        "angevin",
+        "burgundian",
+        "champenois",
+        "poitevin",
+        "saintongeais",
+        "aas-whistled",
+        "aranese",
+        "b-arnese",
+        "abruzzese",
+        "arianese",
+        "barese",
+        "basilicatine",
+        "benevento"
       ],
       "status": "complete",
       "startedAt": "2025-12-14T05:11:08Z",
-      "updatedAt": "2025-12-14T05:11:08Z",
-      "notes": "Complete. Regression repair for previously-completed Romance NO_UNIQ_BASE work that was at risk due to missing dedicated base definitions.\n\nChanges:\n- Restored missing dedicated base definitions in modules/namebases-real.js for indices 740-759, 765-784, 790-799.\n- Normalized placeholder seed tokens for restored bases to ASCII-only and removed digits/underscores/spaces to avoid digit leakage.\n- Pinned ISO->dedicated-base mapping via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js so run-language-mixer-suite will not strip these bases.\n\nVerification:\n- Confirmed mapping includes restored dedicated bases (example: ardennais includes base 750 in config/language-mixer-map.json).\n- Ran targeted seed-uniqueness checks via: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=...\"\n- Result: no missing mappings; no NO_UNIQ_BASE; remaining norm<10 flags in this set are limited to cheso and chilean-spanish."
+      "updatedAt": "2025-12-14T06:30:02Z",
+      "notes": "Complete. Regression repair for previously-completed Romance NO_UNIQ_BASE work that was at risk due to missing dedicated base definitions and/or suite normalization.\n\nChanges:\n- Restored missing dedicated base definitions in modules/namebases-real.js for indices 725-737, 740-759, 765-784, 790-799.\n- Normalized placeholder seed tokens for restored bases to ASCII-only and removed digits/underscores/spaces to avoid digit leakage.\n- Pinned ISO->dedicated-base mapping via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js so run-language-mixer-suite will not strip these bases.\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (suite rewrote config/language-mixer-map.json; mappings preserved).\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=aas-whistled,angevin,burgundian,champenois,poitevin,saintongeais,aranese,b-arnese --limit=200 (no failures).\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=abruzzese,arianese,barese,basilicatine,benevento --limit=200 (no failures).\n- Confirmed no identical base-set collisions for these restored dedicated-base ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 33,
+      "batchId": "2025-12-14T06:11:27Z-worker33",
+      "isos": [
+        "ennese",
+        "eonavian",
+        "equatoguinean-spanish",
+        "estremenho",
+        "european-portuguese"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T06:11:27Z",
+      "updatedAt": "2025-12-14T06:32:16Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- ennese->822\n- eonavian->823\n- equatoguinean-spanish->824\n- estremenho->825\n- european-portuguese->826\n\nNote: earlier attempt used indices 815-819, but those indices are already used by Doteli variants (dty and related). Dedicated bases were moved to 822-826 to avoid collisions. Also added a guard to scrub stray dedicated-base indices from unrelated ISOs before appending each ISO's dedicated base.\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js \"--only=ennese,eonavian,equatoguinean-spanish,estremenho,european-portuguese\" --limit=20 (No globally-unique base index: 0; strict failures: 0; norm failures: 3)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; these dedicated-base ISOs do not appear in any identical base-set cluster)\n\nSeed-uniqueness debt (normalized unique seeds threshold is a tracked goal, not a hard gate):\n- ennese uniqueBases=[822] normUniqueSeeds=5 (<10)\n- estremenho uniqueBases=[825] normUniqueSeeds=4 (<10)\n- european-portuguese uniqueBases=[826] normUniqueSeeds=2 (<10)"
+    },
+    {
+      "workerId": 34,
+      "batchId": "2025-12-14T06:43:21Z-worker34",
+      "isos": [
+        "extremaduran",
+        "fabriano",
+        "faetar",
+        "fala",
+        "ferrarese"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T06:43:21Z",
+      "updatedAt": "2025-12-14T06:47:02Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- extremaduran->827\n- fabriano->828\n- faetar->829\n- fala->830\n- ferrarese->831\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=extremaduran,fabriano,faetar,fala,ferrarese --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; these dedicated-base ISOs do not appear in any identical base-set cluster)"
+    },
+    {
+      "workerId": 35,
+      "batchId": "2025-12-14T06:56:37Z-worker35",
+      "isos": [
+        "fiuman",
+        "florentine",
+        "forlivese",
+        "fornes",
+        "franco-italian"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T06:56:37Z",
+      "updatedAt": "2025-12-14T07:02:23Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- fiuman->832\n- florentine->833\n- forlivese->834\n- fornes->835\n- franco-italian->836\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=fiuman,florentine,forlivese,fornes,franco-italian --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; these dedicated-base ISOs do not appear in any identical base-set cluster)"
+    },
+    {
+      "workerId": 36,
+      "batchId": "2025-12-14T07:09:20Z-worker36",
+      "isos": [
+        "franco-ontarian",
+        "franco-proven-al",
+        "frenchville-french",
+        "friulian-lang",
+        "galician"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T07:09:20Z",
+      "updatedAt": "2025-12-14T07:11:42Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- franco-ontarian->837\n- franco-proven-al->838\n- frenchville-french->839\n- friulian-lang->840\n- galician->841\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=franco-ontarian,franco-proven-al,frenchville-french,friulian-lang,galician --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; these dedicated-base ISOs do not appear in any identical base-set cluster)"
+    },
+    {
+      "workerId": 37,
+      "batchId": "2025-12-14T07:13:37Z-worker37",
+      "isos": [
+        "galician-asturian",
+        "gallo-italic-of-basilicata",
+        "gallo-italic-of-sicily",
+        "gallo-picene",
+        "gallurese"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T07:13:37Z",
+      "updatedAt": "2025-12-14T07:22:57Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- galician-asturian->842\n- gallo-italic-of-basilicata->843\n- gallo-italic-of-sicily->844\n- gallo-picene->845\n- gallurese->846\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=galician-asturian,gallo-italic-of-basilicata,gallo-italic-of-sicily,gallo-picene,gallurese --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (842-846) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 38,
+      "batchId": "2025-12-14T07:26:06Z-worker38",
+      "isos": [
+        "gardiol",
+        "gascon",
+        "genoese",
+        "grossetano",
+        "haketia"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T07:26:06Z",
+      "updatedAt": "2025-12-14T07:31:13Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- gardiol->847\n- gascon->848\n- genoese->849\n- grossetano->850\n- haketia->851\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=gardiol,gascon,genoese,grossetano,haketia --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (847-851) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 39,
+      "batchId": "2025-12-14T07:41:14Z-worker39",
+      "isos": [
+        "intemelio",
+        "istriot",
+        "ita",
+        "italo-australian",
+        "jauer"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T07:41:14Z",
+      "updatedAt": "2025-12-14T08:07:20Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- intemelio->852\n- istriot->853\n- ita->854\n- italo-australian->855\n- jauer->856\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=intemelio,istriot,ita,italo-australian,jauer\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 40,
+      "batchId": "2025-12-14T08:07:20Z-worker40",
+      "isos": [
+        "augeron",
+        "auregnais",
+        "cilentan",
+        "cosentino",
+        "joual"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T08:07:20Z",
+      "updatedAt": "2025-12-14T08:07:20Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- augeron->610\n- auregnais->612\n- cilentan->738\n- cosentino->739\n- joual->857\n\nNote: base index 852 is used by intemelio (worker39), so joual was assigned 857 to avoid collisions. Also added a guard to scrub stray dedicated-base indices from unrelated ISOs before appending each ISO's dedicated base.\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=augeron,auregnais,cilentan,cosentino,joual\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (610, 612, 738, 739, 857) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 41,
+      "batchId": "2025-12-14T08:16:37Z-worker41",
+      "isos": [
+        "judeo-aragonese",
+        "judeo-catalan",
+        "judeo-gascon",
+        "judeo-italian",
+        "judeo-mantuan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T08:16:37Z",
+      "updatedAt": "2025-12-14T08:31:28Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- judeo-aragonese->858\n- judeo-catalan->859\n- judeo-gascon->860\n- judeo-italian->861\n- judeo-mantuan->862\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=judeo-aragonese,judeo-catalan,judeo-gascon,judeo-italian,judeo-mantuan\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (858-862) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 42,
+      "batchId": "2025-12-14T08:34:35Z-worker42",
+      "isos": [
+        "judeo-piedmontese",
+        "judeo-portuguese",
+        "judeo-proven-al",
+        "judeo-spanish",
+        "ladin-lang"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T08:34:35Z",
+      "updatedAt": "2025-12-14T08:34:35Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- judeo-piedmontese->863\n- judeo-portuguese->864\n- judeo-proven-al->865\n- judeo-spanish->866\n- ladin-lang->867\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=judeo-piedmontese,judeo-portuguese,judeo-proven-al,judeo-spanish,ladin-lang\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (863-867) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 43,
+      "batchId": "2025-12-14T08:50:43Z-worker43",
+      "isos": [
+        "ladino",
+        "landese",
+        "languedocien",
+        "lat",
+        "leonese"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T08:50:43Z",
+      "updatedAt": "2025-12-14T08:50:43Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- ladino->868\n- landese->869\n- languedocien->870\n- lat->871\n- leonese->872\n\nNote: base name \"Ladino\" already exists in modules/namebases-fantasy.js (i:231), so the dedicated real-world base at i:868 was named \"Ladino (dedicated)\" to avoid name-based lookup collisions.\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=ladino,landese,languedocien,lat,leonese\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (868-872) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 44,
+      "batchId": "2025-12-14T09:06:17Z-worker44",
+      "isos": [
+        "ligurian",
+        "limousin",
+        "llanito",
+        "logudorese",
+        "lombard"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T09:06:17Z",
+      "updatedAt": "2025-12-14T09:06:17Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- ligurian->873\n- limousin->874\n- llanito->875\n- logudorese->876\n- lombard->877\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=ligurian,limousin,llanito,logudorese,lombard\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (873-877) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
+    },
+    {
+      "workerId": 45,
+      "batchId": "2025-12-14T09:48:37Z-worker45",
+      "isos": [
+        "louisiana-french",
+        "lucchese",
+        "m-tis-french",
+        "macerata",
+        "magoua"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-14T09:48:37Z",
+      "updatedAt": "2025-12-14T09:48:37Z",
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended/preserved in config/language-mixer-map.json via explicitIsoDedicatedBaseMap in tools/mixer-core/fix-language-mixer-mappings.js):\n- louisiana-french->878\n- lucchese->879\n- m-tis-french->880\n- macerata->881\n- magoua->882\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=louisiana-french,lucchese,m-tis-french,macerata,magoua\" --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- Confirmed each dedicated base (878-882) is used by exactly one ISO (uniqBase).\n- Confirmed no identical base-set collisions for these ISOs (each has a unique bases[] set)."
     }
   ]
 }
