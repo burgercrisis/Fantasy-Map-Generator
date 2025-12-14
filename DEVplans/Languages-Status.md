@@ -224,6 +224,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker48 mini-batch):** added dedicated bases `893–897` for `mineiro`, `mirandese`, `missouri-french`, `moldavian`, `mon-gasque` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + `report-language-mixer-seed-uniqueness --only-failures "--only=mineiro,mirandese,missouri-french,moldavian,mon-gasque" --limit=250` (No globally-unique base index: 0; strict failures: 0; norm failures: 1; `mirandese` has `normUniqueSeeds=9` tracked debt).
+
+
+
 - ✅ **2025-12-14 NO_UNIQ_BASE regression guard (Africa bu* batch):** restored + preserved dedicated bases `590–596` for `bukusu`, `bulu`, `bum`, `busa`, `bushong`, `bwela`, `buyu` by re-adding them to `config/language-mixer-map.json` / `config/language-mixer-map.js` and pinning the full base sets via `explicitIsoBasesMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prevents future `run-language-mixer-suite` normalization from stripping the unique bases). Verified by running `pnpm exec node tools/mixer-core/run-language-mixer-suite.js` and then `node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only=bukusu,bulu,bum,busa,bushong,bwela,buyu --limit=120` (No globally-unique base index: 0). Remaining norm debt (norm<10): `bukusu=8/8`, `busa=8/8`, `bushong=8/8`, `bwela=5/5`.
 
 

@@ -5,7 +5,7 @@ This document describes the helper scripts in the `tools/` directory: what each 
 All scripts are intended to be run **from the project root** unless stated otherwise, e.g.
 
 ```bash
-node tools/<script-name>.js [options]
+pnpm exec -- node tools/<script-name>.js [options]
 ```
 
 ### Section index
@@ -46,7 +46,7 @@ and prints short summaries of each tool’s stdout.
 **Usage**
 
 ```bash
-node tools/mixer-core/run-language-mixer-suite.js [options]
+pnpm exec -- node tools/mixer-core/run-language-mixer-suite.js [options]
 ```
 
 Useful options:
@@ -81,6 +81,7 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
 **Behavior**
 
 - Normalizes existing map entries, removing `bases` values that no longer correspond to a real namebase index.
+- If a missing base index is referenced by exactly one **non-family** catalog ISO, the script will **fail-fast** and refuse to rewrite the map (this is treated as a missing dedicated base definition).
 - For each catalog language lacking a mapping, attempts to infer a **single** base index via:
   - explicit overrides (`explicitIsoBaseMap`),
   - direct name → base matches,
@@ -92,7 +93,7 @@ Automatically fills in missing `iso → base indices` mappings for the local Mar
 **Typical command**
 
 ```bash
-node tools/mixer-core/fix-language-mixer-mappings.js
+pnpm exec -- node tools/mixer-core/fix-language-mixer-mappings.js
 ```
 
 Run this after you add or reorganize languages in `language-mixes.json`, or after tweaking lexifiers/families.

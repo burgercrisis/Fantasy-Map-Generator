@@ -21,13 +21,14 @@ function runScript(relativePath, extraArgs) {
   const scriptPath = path.join(__dirname, relativePath);
   const args = [scriptPath].concat(extraArgs || []);
   try {
-    return execFileSync("node", args, {encoding: "utf8"});
+    return {ok: true, output: execFileSync("node", args, {encoding: "utf8"})};
   } catch (err) {
     console.error(`Error running ${relativePath}:`, err.message || err);
     if (err.stdout) console.error(String(err.stdout));
     if (err.stderr) console.error(String(err.stderr));
     process.exitCode = 1;
-    return "";
+    const out = [err.stdout, err.stderr].filter(Boolean).map(String).join("\n");
+    return {ok: false, output: out};
   }
 }
 
@@ -108,20 +109,53 @@ function main() {
 
   console.log("Running language mixer maintenance suite...\n");
 
-  const fixOutput = runFix ? runScript("fix-language-mixer-mappings.js") : "";
-  const coverageOutput = runCoverage ? runScript("check-language-mixer-coverage.js") : "";
-  const failuresOutput = runFailures ? runScript("check-language-mixer-failures.js") : "";
-  const nameCountsOutput = runNameCounts ? runScript("report-language-mixer-name-counts.js", nameCountsArgs) : "";
-  const generateOutput = runScript("generate-language-mixer.js");
-  const wikiDevplanOutput = runWikiDevplan ? runScript("run-wikipedia-list-helpers.js", wikiDevplanArgs) : "";
+  const fixResult = runFix ? runScript("fix-language-mixer-mappings.js") : {ok: true, output: ""};
+  if (!fixResult.ok) {
+    summarize("fix-language-mixer-mappings.js", fixResult.output, showFull);
+    return;
+  }
+
+  const coverageResult = runCoverage ? runScript("check-language-mixer-coverage.js") : {ok: true, output: ""};
+  if (!coverageResult.ok) {
+    summarize("check-language-mixer-coverage.js", coverageResult.output, showFull);
+    return;
+  }
+
+  const failuresResult = runFailures ? runScript("check-language-mixer-failures.js") : {ok: true, output: ""};
+  if (!failuresResult.ok) {
+    summarize("check-language-mixer-failures.js", failuresResult.output, showFull);
+    return;
+  }
+
+  const nameCountsResult = runNameCounts
+    ? runScript("report-language-mixer-name-counts.js", nameCountsArgs)
+    : {ok: true, output: ""};
+  if (!nameCountsResult.ok) {
+    summarize("report-language-mixer-name-counts.js", nameCountsResult.output, showFull);
+    return;
+  }
+
+  const generateResult = runScript("generate-language-mixer.js");
+  if (!generateResult.ok) {
+    summarize("generate-language-mixer.js", generateResult.output, showFull);
+    return;
+  }
+
+  const wikiDevplanResult = runWikiDevplan
+    ? runScript("run-wikipedia-list-helpers.js", wikiDevplanArgs)
+    : {ok: true, output: ""};
+  if (!wikiDevplanResult.ok) {
+    summarize("run-wikipedia-list-helpers.js", wikiDevplanResult.output, showFull);
+    return;
+  }
 
   console.log("\n=== Combined summaries ===\n");
-  if (runFix) summarize("fix-language-mixer-mappings.js", fixOutput, showFull);
-  if (runCoverage) summarize("check-language-mixer-coverage.js", coverageOutput, showFull);
-  if (runFailures) summarize("check-language-mixer-failures.js", failuresOutput, showFull);
-  if (runNameCounts) summarize("report-language-mixer-name-counts.js", nameCountsOutput, showFull);
-  summarize("generate-language-mixer.js", generateOutput, showFull);
-  if (runWikiDevplan) summarize("run-wikipedia-list-helpers.js", wikiDevplanOutput, showFull);
+  if (runFix) summarize("fix-language-mixer-mappings.js", fixResult.output, showFull);
+  if (runCoverage) summarize("check-language-mixer-coverage.js", coverageResult.output, showFull);
+  if (runFailures) summarize("check-language-mixer-failures.js", failuresResult.output, showFull);
+  if (runNameCounts) summarize("report-language-mixer-name-counts.js", nameCountsResult.output, showFull);
+  summarize("generate-language-mixer.js", generateResult.output, showFull);
+  if (runWikiDevplan) summarize("run-wikipedia-list-helpers.js", wikiDevplanResult.output, showFull);
 }
 
 if (require.main === module) {

@@ -641,6 +641,21 @@ const explicitIsoDedicatedBaseMap = {
   "m-tis-french": 880,
   macerata: 881,
   magoua: 882,
+  mallorcan: 883,
+  "maltese-italian": 884,
+  manduriano: 885,
+  "maramure-": 886,
+  menorcan: 887,
+  mentonasc: 888,
+  messinese: 889,
+  "mexican-spanish": 890,
+  milanese: 891,
+  minderico: 892,
+  mineiro: 893,
+  mirandese: 894,
+  "missouri-french": 895,
+  moldavian: 896,
+  "mon-gasque": 897,
   dty: 815,
   "achhami-doteli": 816,
   "baitadeli-doteli": 817,
@@ -813,6 +828,76 @@ function main() {
   // mapping (e.g. Alor Malay should reuse the Malay base instead of an
   // old, now-missing Malaccan base).
   const validBaseIndices = namebases.indices;
+  const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
+
+  const pinnedInvalidDedicatedBases = [];
+  for (const [iso, dedicatedBase] of Object.entries(explicitIsoDedicatedBaseMap)) {
+    if (typeof dedicatedBase !== "number") continue;
+    if (!validBaseIndices.has(dedicatedBase)) pinnedInvalidDedicatedBases.push({iso, base: dedicatedBase});
+  }
+  if (pinnedInvalidDedicatedBases.length) {
+    pinnedInvalidDedicatedBases.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
+    console.error(
+      "fix-language-mixer-mappings: refusing to write config/language-mixer-map.json; pinned dedicated base definition(s) missing"
+    );
+    for (const item of pinnedInvalidDedicatedBases) {
+      console.error(` - ${item.iso} pins missing base index ${item.base}`);
+    }
+    console.error(
+      "Action required: add the missing base indices to modules/namebases-real.js (or fantasy/creole), then rerun the suite."
+    );
+    process.exitCode = 1;
+    return;
+  }
+
+  function isNonFamilyCatalogIso(iso) {
+    const meta = mixesByIso.get(iso);
+    if (!meta) return false;
+    if (Array.isArray(meta.tags) && meta.tags.includes("family")) return false;
+    return true;
+  }
+
+  // Fail-fast: if a base index is missing from namebases-* but is referenced by
+  // exactly one non-family catalog ISO, it's very likely an intended dedicated
+  // base that is missing its definition. Do not "helpfully" strip it.
+  const invalidBaseOwners = new Map();
+  for (const entry of map) {
+    if (!entry || !entry.iso) continue;
+    const bases = Array.isArray(entry.bases) ? entry.bases : [];
+    for (const b of bases) {
+      if (validBaseIndices.has(b)) continue;
+      let owners = invalidBaseOwners.get(b);
+      if (!owners) {
+        owners = new Set();
+        invalidBaseOwners.set(b, owners);
+      }
+      owners.add(entry.iso);
+    }
+  }
+
+  const likelyMissingDedicatedBases = [];
+  for (const [base, owners] of invalidBaseOwners.entries()) {
+    if (!owners || owners.size !== 1) continue;
+    const [iso] = owners;
+    if (!isNonFamilyCatalogIso(iso)) continue;
+    likelyMissingDedicatedBases.push({iso, base});
+  }
+
+  if (likelyMissingDedicatedBases.length) {
+    likelyMissingDedicatedBases.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
+    console.error(
+      "fix-language-mixer-mappings: refusing to normalize config/language-mixer-map.json; missing dedicated base definition(s) detected"
+    );
+    for (const item of likelyMissingDedicatedBases) {
+      console.error(` - ${item.iso} references missing base index ${item.base}`);
+    }
+    console.error(
+      "Action required: add the missing base indices to modules/namebases-real.js (or fantasy/creole), then rerun the suite."
+    );
+    process.exitCode = 1;
+    return;
+  }
+
   const normalizedMap = [];
   const droppedIsos = [];
   let didMutateMap = false;
@@ -839,8 +924,6 @@ function main() {
   }
 
   map = normalizedMap;
-
-  const mixesByIso = new Map(mixes.map(m => [m.iso, m]));
   const mapByIso = new Map(map.map(e => [e.iso, e]));
 
   for (const [iso, rawBases] of Object.entries(explicitIsoBasesMap)) {
@@ -1014,6 +1097,27 @@ function main() {
     }
 
     const combined = added.length ? staticEntries.concat(newEntries) : staticEntries;
+
+    const combinedByIso = new Map(combined.filter(e => e && e.iso).map(e => [String(e.iso), e]));
+    const pinnedMissingDedicatedBases = [];
+    for (const [iso, dedicatedBase] of Object.entries(explicitIsoDedicatedBaseMap)) {
+      if (typeof dedicatedBase !== "number") continue;
+      if (!validBaseIndices.has(dedicatedBase)) continue;
+      const entry = combinedByIso.get(String(iso));
+      const bases = entry && Array.isArray(entry.bases) ? entry.bases : [];
+      if (!bases.includes(dedicatedBase)) pinnedMissingDedicatedBases.push({iso, base: dedicatedBase});
+    }
+    if (pinnedMissingDedicatedBases.length) {
+      pinnedMissingDedicatedBases.sort((a, b) => String(a.iso).localeCompare(String(b.iso)));
+      console.error(
+        "fix-language-mixer-mappings: refusing to write config/language-mixer-map.json; pinned ISO missing its dedicated base"
+      );
+      for (const item of pinnedMissingDedicatedBases) {
+        console.error(` - ${item.iso} missing pinned base index ${item.base}`);
+      }
+      process.exitCode = 1;
+      return;
+    }
 
     const combinedIsos = new Set(
       combined.filter(e => e && e.iso).map(e => String(e.iso))
