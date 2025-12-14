@@ -1392,7 +1392,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 165
+  - `Nonunique Bases:` 164
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 167

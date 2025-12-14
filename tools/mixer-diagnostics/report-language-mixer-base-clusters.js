@@ -169,6 +169,15 @@ function main() {
   const multiCount = multiClusters.length;
   const totalMembersInMulti = multiClusters.reduce((sum, g) => sum + g.entries.length, 0);
 
+  const summaryLines = [
+    "=== Language Mixer base-set clusters (catalog languages only) ===",
+    "Considered catalog languages (after filters): " + consideredLanguages,
+    "Total distinct base sets (all sizes): " + totalClusters,
+    "Clusters with identical base sets (size >= " + minSize + "): " + multiCount,
+    "Total language entries participating in these clusters: " + totalMembersInMulti,
+    "Columns: iso | name | region | family | category | tags (comma-separated); bases are shared per cluster.",
+  ];
+
   if (!multiClusters.length) {
     console.log("No base-set clusters of size >=", minSize, "found.");
     console.log("");
@@ -192,27 +201,6 @@ function main() {
       }
       console.log("");
     }
-    return;
-  }
-
-  for (const group of multiClusters) {
-    const basesLabel = `[` + group.key + `]`;
-    const baseNamesLabel = group.key
-      .split(",")
-      .map(s => Number(s))
-      .filter(n => !Number.isNaN(n))
-      .map(n => baseIndexToName.get(n) || "?")
-      .join(",");
-    console.log(`-- bases=${basesLabel} | base_names=[${baseNamesLabel}] | members=${group.entries.length} --`);
-    for (const meta of group.entries) {
-      const tagsStr = meta.tags && meta.tags.length ? meta.tags.join(",") : "";
-      console.log(
-        `${meta.iso} | ${meta.name || "(no name)"} | ${meta.region || ""} | ${meta.family || ""} | ${
-          meta.category || ""
-        } | ${tagsStr}`
-      );
-    }
-    console.log("");
   }
 
   console.log("");

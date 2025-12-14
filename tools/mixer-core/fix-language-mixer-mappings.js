@@ -41,12 +41,12 @@ const explicitIsoBaseMap = {
   // base (index 152) so local mixing can work.
   "pretoria-sotho": 152,
   "ber-family": 17,
-  "maghrebi-arabic": 349,
-  "egyptian-arabic": 350,
-  "levantine-arabic": 351,
-  "gulf-arabic": 352,
-  "najdi-arabic": 352,
-  "sudanese-arabic": 350,
+  "maghrebi-arabic": 18,
+  "egyptian-arabic": 701,
+  "levantine-arabic": 18,
+  "gulf-arabic": 18,
+  "najdi-arabic": 18,
+  "sudanese-arabic": 18,
   "koreanic-family": 10,
   "sinitic": 11,
   "sino-tibetan-family": 11,
@@ -467,11 +467,11 @@ const explicitIsoBasesMap = {
   rah: [63, 65],
 
   aranese: [2, 4, 232, 731],
-  "eastern-aragonese": [4, 287, 685],
-  "western-aragonese": [272, 287, 686],
-  "southern-aragonese": [13, 287, 687],
-  "navarro-aragonese": [4, 232, 287, 688],
-  "judeo-aragonese": [4, 231, 287, 689],
+  "eastern-aragonese": [4, 287],
+  "western-aragonese": [272, 287],
+  "southern-aragonese": [13, 287],
+  "navarro-aragonese": [4, 232, 287],
+  "judeo-aragonese": [4, 231, 287],
 
   "anatolian-arabic": [22, 23, 143, 676],
   "andalusi-arabic": [4, 18, 140, 677],
@@ -479,6 +479,7 @@ const explicitIsoBasesMap = {
   "bahraini-gulf-arabic": [18, 679],
   "bakhtiari-arabic": [18, 680],
   "bukharian-arabic": [18, 681],
+  "egyptian-arabic": [18, 701, 23],
   "cairene-arabic": [18, 682],
   "central-asian-arabic": [18, 17, 683]
 };

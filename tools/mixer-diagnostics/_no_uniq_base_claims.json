@@ -1,4 +1,8 @@
-﻿      "workerId": 1,
+﻿{
+  "version": 1,
+  "claims": [
+    {
+      "workerId": 1,
       "batchId": "2025-12-13T11:11:00Z-worker1",
       "isos": [
         "ami",
@@ -230,10 +234,7 @@
       "status": "complete",
       "startedAt": "2025-12-13T12:30:00Z",
       "updatedAt": "2025-12-13T13:56:39.234Z",
-      "notes": "Complete. Applied ISO->base:\n- adeni-arabic->616\n- aleppine-arabic->617\n- algerian-arabic->618\n- algerian-saharan-arabic->619\nReserved ranges NOT used: 602â€“615 (reserved by other in-progress claims). Verified: pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (no output for these ISOs). Implementation note: bases 616â€“619 were added in modules/namebases-real.js so these indices are real/valid." {
-   "version": 1,
-   "claims": []
- }
+      "notes": "Complete. Applied ISO->base:\n- adeni-arabic->616\n- aleppine-arabic->617\n- algerian-arabic->618\n- algerian-saharan-arabic->619\nReserved ranges NOT used: 602â€“615 (reserved by other in-progress claims). Verified: pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no rewrites) + pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500 (no output for these ISOs). Implementation note: bases 616â€“619 were added in modules/namebases-real.js so these indices are real/valid."
     },
     {
       "workerId": 9,
@@ -561,24 +562,3 @@
         "chipilo"
       ],
       "status": "complete",
-      "startedAt": "2025-12-13T18:53:35Z",
-      "updatedAt": "2025-12-13T18:56:56Z",
-      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nISOâ†’base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended in config/language-mixer-map.json):\n- cheso->795\n- chiac->796\n- chilean-spanish->797\n- chilote->798\n- chipilo->799\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js --no-wiki-devplan (coverage preserved; no missing mappings)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=cheso,chiac,chilean-spanish,chilote,chipilo --limit=80 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (reviewed; no new identical base-set collisions introduced by these dedicated bases)"
-    },
-    {
-      "workerId": 31,
-      "batchId": "2025-12-13T18:59:05Z-worker31",
-      "isos": [
-        "colombian-spanish",
-        "comasco-lecchese",
-        "corsican",
-        "cremish",
-        "cremun-s"
-      ],
-      "status": "in_progress",
-      "startedAt": "2025-12-13T18:59:05Z",
-      "updatedAt": "2025-12-13T18:59:05Z",
-      "notes": "Romance NO_UNIQ_BASE mini-batch. Plan: add dedicated bases 800-804 in modules/namebases-real.js and append one unique base index per ISO in config/language-mixer-map.json: colombian-spanish->800, comasco-lecchese->801, corsican->802, cremish->803, cremun-s->804. Verify with run-language-mixer-suite + seed-uniqueness report + base-cluster report."
-    }
-  ]
-}
