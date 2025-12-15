@@ -233,6 +233,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Uralic / worker55 collision slice):** pinned dedicated bases `935–944` for `bjarmian-finnic`, `proto-sami`, `forest-nenets`, `proto-finnic`, `southwestern-finnish`, `proto-uralic`, `proto-karelian`, `proto-permic`, `somero-region`, `j-mtland` via delta `tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (No globally-unique base index: 0; strict failures: 0; norm failures: 0), and verified `mixer:guardrails`, `mixer:check-deltas`, `check-language-mixer-coverage.js` (Missing mapping: 0), and `check-language-mixer-failures.js` (0 failures).
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Uralic / worker56 Nenets+Estonian+Erzya slice):** added dedicated bases `1030–1037` for `nenets`, `tundra-nenets`, `north-estonian`, `western-estonian`, `northern-erzya`, `southeastern-erzya`, `western-erzya`, `shoksha` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker56-uralic-nenets-estonian-erzya.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (No globally-unique base index: 0; strict failures: 0; norm failures: 0), and verified `mixer:guardrails`, `mixer:check-deltas`, `check-language-mixer-coverage.js` (Missing mapping: 0), and `check-language-mixer-failures.js` (0 failures). Confirmed base-set collisions cleared for `Nenets` and `North Estonian` family filters via `report-language-mixer-base-clusters.js`.
+
+
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker41 mini-batch):** added dedicated bases `858–862` for `judeo-aragonese`, `judeo-catalan`, `judeo-gascon`, `judeo-italian`, `judeo-mantuan` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
 
 
@@ -1490,14 +1493,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 267
+  - `Nonunique Bases:` 263
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 273
-  - `clustered bases:` 4
-  - `clustered full items:` 4
-  - `cluster size histogram:` size2=2, size3=0, size4+=2
-  - `clustered isos:` saya-chadic(176), tamil(20), baka(2), bube(2)
+  - `unique bases:` 277
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 - **Notes / next steps:**
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.

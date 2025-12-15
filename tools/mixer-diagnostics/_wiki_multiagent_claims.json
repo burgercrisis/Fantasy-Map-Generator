@@ -96,6 +96,14 @@
       "scope": "coverage_then_uniqueness_then_race",
       "status": "in_progress",
       "startedAt": "2025-12-15T00:03:46Z"
+    },
+    {
+      "workerId": 38,
+      "target": "tools/mixer-meta/wikipedia-list-constructed-languages.json",
+      "scope": "coverage_skip_annotations",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T00:40:16Z",
+      "note": "Mark list items as skip:true so they are excluded from coverage"
     }
   ]
 }

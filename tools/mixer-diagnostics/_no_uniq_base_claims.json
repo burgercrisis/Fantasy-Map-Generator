@@ -266,7 +266,6 @@
       "updatedAt": "2025-12-13T13:32:00Z",
       "notes": "Complete. Added dedicated bases 625â€“629 in modules/namebases-real.js and appended to config/language-mixer-map.json: cas->625, cav->626, caw->627, cax->628, cag->629. Verified via pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites) + seed-uniqueness report: none of these ISOs appear under NO_UNIQ_BASE; caw still shows norm<10 (tracked debt)."
     },
-
     {
       "workerId": 10,
       "batchId": "2025-12-13T12:45:00Z-worker10",
@@ -287,7 +286,6 @@
       "updatedAt": "2025-12-13T15:38:00Z",
       "notes": "Complete. Applied ISOâ†’base mapping (dedicated uniq base per ISO):\n- aragonese->635\n- central-aragonese->636\n- castilian->637\n- castelmezzano->638\n- central-catalan->675\n- central-italian->639\n- central-marchigiano->640\n- central-metafonetica->641\n- central-southern-calabrian->642\n- canadian-french->650\n\nReserved ranges NOT used: 630â€“634 (reserved by other claims).\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=aragonese,central-aragonese,castilian,castelmezzano,central-italian,central-marchigiano,central-metafonetica,central-southern-calabrian,canadian-french --limit=50\n  (each ISO reports uniqBase; worker10 bases are globally unique)"
     },
-
     {
       "workerId": 11,
       "batchId": "2025-12-13T12:58:00Z-worker11",
@@ -306,7 +304,6 @@
       "updatedAt": "2025-12-13T16:05:39Z",
       "notes": "Complete. Arabic dialect slice.\n\nISOâ†’base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended to config/language-mixer-map.json):\n- anatolian-arabic->676\n- andalusi-arabic->677\n- baghdadi-arabic->678\n- bahraini-gulf-arabic->679\n- bakhtiari-arabic->680\n- bukharian-arabic->681\n- cairene-arabic->682\n- central-asian-arabic->683\n\nReserved ranges NOT used: 630â€“675 (in use by other completed batches).\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js (no mapping rewrites)\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only=anatolian-arabic,andalusi-arabic,baghdadi-arabic,bahraini-gulf-arabic,bakhtiari-arabic,bukharian-arabic,cairene-arabic,central-asian-arabic\" --limit=80\n\nSeed-uniqueness metrics (strictUniqueSeeds / normUniqueSeeds):\n- anatolian-arabic: 12 / 12\n- andalusi-arabic: 9 / 9 (norm<10 tracked debt)\n- baghdadi-arabic: 10 / 10\n- bahraini-gulf-arabic: 11 / 11\n- bakhtiari-arabic: 8 / 8 (norm<10 tracked debt)\n- bukharian-arabic: 2 / 2 (norm<10 tracked debt)\n- cairene-arabic: 11 / 11\n- central-asian-arabic: 7 / 7 (norm<10 tracked debt)"
     },
-
     {
       "workerId": 13,
       "batchId": "2025-12-13T14:19:25Z-worker13",
@@ -483,7 +480,7 @@
       "status": "complete",
       "startedAt": "2025-12-13T17:12:23Z",
       "updatedAt": "2025-12-14T01:26:06Z",
-      "notes": "Complete. Romance / O\u00efl Dialects NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended in config/language-mixer-map.json):\n- meridional-french->760\n- moselle-romance->761\n- orl-anais->762\n- paydret->763\n- picard->764\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js \"--only=meridional-french,moselle-romance,orl-anais,paydret,picard\" --limit=50\n\nResults: uniqBase strictOK normOK for all 5 (each has uniqueBases=[760..764], strictUniqueSeeds=12, normUniqueSeeds=12)."
+      "notes": "Complete. Romance / Oïl Dialects NO_UNIQ_BASE mini-batch.\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js and appended in config/language-mixer-map.json):\n- meridional-french->760\n- moselle-romance->761\n- orl-anais->762\n- paydret->763\n- picard->764\n\nVerification:\n- pnpm exec node tools/mixer-core/run-language-mixer-suite.js\n- pnpm exec node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js \"--only=meridional-french,moselle-romance,orl-anais,paydret,picard\" --limit=50\n\nResults: uniqBase strictOK normOK for all 5 (each has uniqueBases=[760..764], strictUniqueSeeds=12, normUniqueSeeds=12)."
     },
     {
       "workerId": 24,
@@ -1056,10 +1053,29 @@
         "western-erzya",
         "shoksha"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T00:24:55Z",
-      "updatedAt": "2025-12-15T00:24:55Z",
-      "notes": "In progress. Uralic base-set collision + NO_UNIQ_BASE declustering slice (Nenets + Estonian + Erzya).\n\nReserved i range: 1030-1079\n\nPlanned ISO->base mapping (dedicated uniq base per ISO; add bases i:1030-1037 in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker56-uralic-nenets-estonian-erzya.json):\n- nenets->1030\n- tundra-nenets->1031\n- north-estonian->1032\n- western-estonian->1033\n- northern-erzya->1034\n- southeastern-erzya->1035\n- western-erzya->1036\n- shoksha->1037"
+      "updatedAt": "2025-12-15T00:31:34Z",
+      "notes": "Complete. Uralic base-set collision + NO_UNIQ_BASE declustering slice (Nenets + Estonian + Erzya).\n\nReserved i range: 1030-1079\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker56-uralic-nenets-estonian-erzya.json and compiled with pnpm run mixer:apply-deltas):\n- nenets->1030\n- tundra-nenets->1031\n- north-estonian->1032\n- western-estonian->1033\n- northern-erzya->1034\n- southeastern-erzya->1035\n- western-erzya->1036\n- shoksha->1037\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=nenets,tundra-nenets,north-estonian,western-estonian,northern-erzya,southeastern-erzya,western-erzya,shoksha --limit=200 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Uralic --family=Nenets (0 clusters)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Uralic --family=North Estonian (0 clusters)"
+    },
+    {
+      "workerId": 57,
+      "batchId": "2025-12-15T00:37:51.120Z-worker57",
+      "isos": [
+        "philippine-spanish",
+        "piedmontese",
+        "pisano-livornese",
+        "pistoiese",
+        "poitevin-saintongeais"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T00:37:51.120Z",
+      "updatedAt": "2025-12-15T00:37:51.120Z",
+      "reservedRange": [
+        1080,
+        1129
+      ],
+      "notes": ""
     }
   ]
 }

@@ -1024,7 +1024,7 @@ This is the recommended way to claim a `NO_UNIQ_BASE` batch instead of hand-edit
 **Usage**
 
 ```bash
-pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=55 --isos=bjarmian-finnic,proto-sami --status=in_progress
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=55 '--isos=bjarmian-finnic,proto-sami' --status=in_progress
 ```
 
 Optional args:
