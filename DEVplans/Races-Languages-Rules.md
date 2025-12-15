@@ -446,6 +446,7 @@ How this relates to map names:
   - Race identity is preserved because `getRaceNameForCulture` recognizes both the classic fantasy base indices and the generated `Race <RaceName> (Mixer)` bases.
   - State-name suffix logic treats `Race <RaceName> (Mixer)` as a fantasy base (no generic suffix).
   - ✅ **2025-12-15 hardening update (mixer enforcement):** `ensureRaceMixerBaseIndex` now uses more resilient profile matching and a safe fallback ISO palette when a race profile cannot produce usable mixer weights; verified in-app that non-human cultures were assigned `Race <Race> (Mixer)` bases.
+  - ✅ **2025-12-15 naming update (race mixer display names):** race mixer bases now use a generated language-like display name (e.g. `Akaha (Elf)`) instead of the placeholder `Race <Race> (Mixer)`, while keeping stable identification via `raceMixerFor` on the namebase.
 
 ---
 
