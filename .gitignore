@@ -9,6 +9,7 @@
 /tools/mixer-diagnostics/_no_uniq_base_claims.lock
 /tools/mixer-diagnostics/tmp
 /tools/mixer-diagnostics/_decluster_claims.lock
+/tools/mixer-core/_apply-mixer-deltas.lock
 /mods
 /pdf_splitter
 /.tmp-*

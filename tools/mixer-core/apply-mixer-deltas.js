@@ -7,6 +7,105 @@ const {execFileSync} = require("node:child_process");
 const root = path.resolve(__dirname, "..", "..");
 const deltasDirRel = path.join("tools", "mixer-deltas");
 const deltasDirAbs = path.join(root, deltasDirRel);
+const applyLockRelPath = path.join("tools", "mixer-core", "_apply-mixer-deltas.lock");
+const applyLockAbsPath = path.join(root, applyLockRelPath);
+
+function sleepSync(ms) {
+  const n = Number(ms);
+  if (!Number.isFinite(n) || n <= 0) return;
+  if (typeof SharedArrayBuffer === "function" && typeof Atomics === "object" && typeof Atomics.wait === "function") {
+    const sab = new SharedArrayBuffer(4);
+    const arr = new Int32Array(sab);
+    Atomics.wait(arr, 0, 0, n);
+    return;
+  }
+  const end = Date.now() + n;
+  while (Date.now() < end) {}
+}
+
+function getArgValue(argv, name) {
+  const prefix = name + "=";
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === name) {
+      const next = argv[i + 1];
+      if (next && !next.startsWith("--")) return next;
+      return "";
+    }
+    if (a.startsWith(prefix)) return a.slice(prefix.length);
+  }
+  return null;
+}
+
+function getNumericArg(argv, name, defaultValue) {
+  const v = getArgValue(argv, name);
+  if (v == null || v === "") return defaultValue;
+  const n = Number(v);
+  return Number.isFinite(n) ? n : defaultValue;
+}
+
+function acquireLock(absPath, opts, lockInfo) {
+  fs.mkdirSync(path.dirname(absPath), {recursive: true});
+  const waitMs = opts && Number.isFinite(Number(opts.waitMs)) ? Number(opts.waitMs) : 30000;
+  const retryMs = opts && Number.isFinite(Number(opts.retryMs)) ? Number(opts.retryMs) : 200;
+  const staleMs = opts && Number.isFinite(Number(opts.staleMs)) ? Number(opts.staleMs) : 120000;
+  const forceLock = !!(opts && opts.forceLock);
+
+  const startedAt = Date.now();
+  const payload = Object.assign({pid: process.pid, createdAt: new Date().toISOString()}, lockInfo || {});
+  const lockText = JSON.stringify(payload) + "\n";
+
+  while (true) {
+    try {
+      const fd = fs.openSync(absPath, "wx");
+      fs.writeFileSync(fd, lockText, "utf8");
+      fs.closeSync(fd);
+      return;
+    } catch (err) {
+      if (!err || err.code !== "EEXIST") throw err;
+    }
+
+    let ageMs = 0;
+    try {
+      ageMs = Date.now() - fs.statSync(absPath).mtimeMs;
+    } catch (e) {
+      ageMs = 0;
+    }
+
+    if (Number.isFinite(staleMs) && staleMs > 0 && ageMs > staleMs) {
+      if (forceLock) {
+        try {
+          fs.unlinkSync(absPath);
+        } catch (e) {}
+        continue;
+      }
+      throw new Error(
+        `apply-mixer-deltas lock appears stale: ${applyLockRelPath} (ageMs=${Math.round(ageMs)}). Delete it or pass --forceLock`
+      );
+    }
+
+    if (Date.now() - startedAt > waitMs) {
+      throw new Error(`Timed out waiting for apply-mixer-deltas lock: ${applyLockRelPath}`);
+    }
+
+    sleepSync(retryMs);
+  }
+}
+
+function releaseLock(absPath) {
+  try {
+    fs.unlinkSync(absPath);
+  } catch (e) {}
+}
+
+function withLock(absPath, opts, lockInfo, fn) {
+  acquireLock(absPath, opts, lockInfo);
+  try {
+    return fn();
+  } finally {
+    releaseLock(absPath);
+  }
+}
 
 function readJson(relPath) {
   const full = path.join(root, relPath);
@@ -319,87 +418,105 @@ function validatePinnedBasesAreUnique({map, pins}) {
 }
 
 function main() {
-  const args = new Set(process.argv.slice(2));
+  const argv = process.argv.slice(2);
+  const args = new Set(argv);
   const checkOnly = args.has("--check");
+  const noLock = args.has("--no-lock");
+  const lockOpts = {
+    waitMs: getNumericArg(argv, "--lockWaitMs", 30000),
+    retryMs: getNumericArg(argv, "--lockRetryMs", 200),
+    staleMs: getNumericArg(argv, "--lockStaleMs", 120000),
+    forceLock: args.has("--forceLock"),
+  };
 
-  fs.mkdirSync(deltasDirAbs, {recursive: true});
+  const body = () => {
+    fs.mkdirSync(deltasDirAbs, {recursive: true});
 
-  const compiledPinsRel = path.join(deltasDirRel, "_compiled-dedicated-pins.json");
-  const compiledPinsBaseline = readOptionalJson(compiledPinsRel);
+    const compiledPinsRel = path.join(deltasDirRel, "_compiled-dedicated-pins.json");
+    const compiledPinsBaseline = readOptionalJson(compiledPinsRel);
 
-  const deltaFiles = listDeltaFiles();
+    const deltaFiles = listDeltaFiles();
 
-  const setBases = {};
-  const pins = {};
-  const appendBases = {};
+    const setBases = {};
+    const pins = {};
+    const appendBases = {};
 
-  if (compiledPinsBaseline?.pins) {
-    mergePins(pins, compiledPinsBaseline.pins, compiledPinsRel);
-  }
-
-  for (const fileName of deltaFiles) {
-    const rel = path.join(deltasDirRel, fileName);
-    const json = readJson(rel);
-
-    mergeSetBases(setBases, json.setBases || json.replaceBases || null, rel);
-    mergePins(pins, json.dedicatedPins || json.pins || null, rel);
-    mergeAppendBases(appendBases, json.appendBases || null, rel);
-  }
-
-  for (const [iso, base] of Object.entries(pins)) {
-    appendBases[iso] = normalizeBases((appendBases[iso] || []).concat([base]));
-  }
-
-  const catalog = readJson(path.join("config", "language-mixes.json"));
-  const catalogIsos = new Set((Array.isArray(catalog) ? catalog : []).map(r => String(r?.iso || "")).filter(Boolean));
-  if (!validateIsosExistInCatalog({catalogIsos, setBases, pins, appendBases})) return;
-
-  const namebaseIndices = loadNamebaseIndices();
-  const referencedBases = collectReferencedBasesWithSetBases(setBases, pins, appendBases);
-  const missingBases = Array.from(referencedBases).filter(b => !namebaseIndices.has(b)).sort((a, b) => a - b);
-
-  if (missingBases.length) {
-    console.error("[apply-mixer-deltas] Missing base definitions for indices:");
-    for (const b of missingBases) console.error(" -", b);
-    process.exitCode = 1;
-    return;
-  }
-
-  const mapRel = path.join("config", "language-mixer-map.json");
-  const map = readJson(mapRel);
-
-  const sortedSetEntries = Object.entries(setBases).sort((a, b) => a[0].localeCompare(b[0]));
-  const sortedPinsEntries = Object.entries(pins).sort((a, b) => a[0].localeCompare(b[0]));
-  const sortedAppendEntries = Object.entries(appendBases).sort((a, b) => a[0].localeCompare(b[0]));
-  const setSorted = Object.fromEntries(sortedSetEntries);
-  const pinsSorted = Object.fromEntries(sortedPinsEntries);
-  const appendSorted = Object.fromEntries(sortedAppendEntries);
-
-  const didMutateMap = applyToMap(map, setSorted, pinsSorted, appendSorted);
-  if (!validatePinnedBasesAreUnique({map, pins: pinsSorted})) return;
-  if (!checkOnly && didMutateMap) {
-    writeJson(mapRel, map);
-  }
-
-  const sortedPins = Object.fromEntries(sortedPinsEntries);
-  const nextCompiled = {version: 1, pins: sortedPins};
-  const prevCompiledPins = compiledPinsBaseline?.pins ?? null;
-  const didMutatePins = prevCompiledPins == null || JSON.stringify(prevCompiledPins) !== JSON.stringify(sortedPins);
-  if (checkOnly) {
-    if (didMutateMap || didMutatePins) {
-      console.error("[apply-mixer-deltas] Artifacts are out of date vs deltas:");
-      if (didMutatePins) console.error(" - tools/mixer-deltas/_compiled-dedicated-pins.json needs update");
-      if (didMutateMap) console.error(" - config/language-mixer-map.json (and config/language-mixer-map.js) need update");
-      process.exitCode = 1;
+    if (compiledPinsBaseline?.pins) {
+      mergePins(pins, compiledPinsBaseline.pins, compiledPinsRel);
     }
-    return;
-  }
 
-  if (didMutatePins) {
-    writeJson(compiledPinsRel, nextCompiled);
-  }
+    for (const fileName of deltaFiles) {
+      const rel = path.join(deltasDirRel, fileName);
+      const json = readJson(rel);
 
-  execFileSync("node", [path.join(__dirname, "generate-language-mixer.js")], {encoding: "utf8"});
+      mergeSetBases(setBases, json.setBases || json.replaceBases || null, rel);
+      mergePins(pins, json.dedicatedPins || json.pins || null, rel);
+      mergeAppendBases(appendBases, json.appendBases || null, rel);
+    }
+
+    for (const [iso, base] of Object.entries(pins)) {
+      appendBases[iso] = normalizeBases((appendBases[iso] || []).concat([base]));
+    }
+
+    const catalog = readJson(path.join("config", "language-mixes.json"));
+    const catalogIsos = new Set(
+      (Array.isArray(catalog) ? catalog : []).map(r => String(r?.iso || "")).filter(Boolean)
+    );
+    if (!validateIsosExistInCatalog({catalogIsos, setBases, pins, appendBases})) return;
+
+    const namebaseIndices = loadNamebaseIndices();
+    const referencedBases = collectReferencedBasesWithSetBases(setBases, pins, appendBases);
+    const missingBases = Array.from(referencedBases)
+      .filter(b => !namebaseIndices.has(b))
+      .sort((a, b) => a - b);
+
+    if (missingBases.length) {
+      console.error("[apply-mixer-deltas] Missing base definitions for indices:");
+      for (const b of missingBases) console.error(" -", b);
+      process.exitCode = 1;
+      return;
+    }
+
+    const mapRel = path.join("config", "language-mixer-map.json");
+    const map = readJson(mapRel);
+
+    const sortedSetEntries = Object.entries(setBases).sort((a, b) => a[0].localeCompare(b[0]));
+    const sortedPinsEntries = Object.entries(pins).sort((a, b) => a[0].localeCompare(b[0]));
+    const sortedAppendEntries = Object.entries(appendBases).sort((a, b) => a[0].localeCompare(b[0]));
+    const setSorted = Object.fromEntries(sortedSetEntries);
+    const pinsSorted = Object.fromEntries(sortedPinsEntries);
+    const appendSorted = Object.fromEntries(sortedAppendEntries);
+
+    const didMutateMap = applyToMap(map, setSorted, pinsSorted, appendSorted);
+    if (!validatePinnedBasesAreUnique({map, pins: pinsSorted})) return;
+    if (!checkOnly && didMutateMap) {
+      writeJson(mapRel, map);
+    }
+
+    const sortedPins = Object.fromEntries(sortedPinsEntries);
+    const nextCompiled = {version: 1, pins: sortedPins};
+    const prevCompiledPins = compiledPinsBaseline?.pins ?? null;
+    const didMutatePins = prevCompiledPins == null || JSON.stringify(prevCompiledPins) !== JSON.stringify(sortedPins);
+    if (checkOnly) {
+      if (didMutateMap || didMutatePins) {
+        console.error("[apply-mixer-deltas] Artifacts are out of date vs deltas:");
+        if (didMutatePins) console.error(" - tools/mixer-deltas/_compiled-dedicated-pins.json needs update");
+        if (didMutateMap)
+          console.error(" - config/language-mixer-map.json (and config/language-mixer-map.js) need update");
+        process.exitCode = 1;
+      }
+      return;
+    }
+
+    if (didMutatePins) {
+      writeJson(compiledPinsRel, nextCompiled);
+    }
+
+    execFileSync("node", [path.join(__dirname, "generate-language-mixer.js")], {encoding: "utf8"});
+  };
+
+  if (noLock) return body();
+  return withLock(applyLockAbsPath, lockOpts, {mode: checkOnly ? "check" : "apply"}, body);
 }
 
 if (require.main === module) {
