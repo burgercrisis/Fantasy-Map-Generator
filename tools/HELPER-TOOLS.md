@@ -1027,11 +1027,28 @@ This is the recommended way to claim a `NO_UNIQ_BASE` batch instead of hand-edit
 pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=55 '--isos=bjarmian-finnic,proto-sami' --status=in_progress
 ```
 
+Read-only dashboard (recommended before claiming):
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard
+```
+
+Update an existing claim (no manual JSON edits):
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=complete
+```
+
 Optional args:
 
 - `--batchId=...` (defaults to `<timestamp>-worker<workerId>`)
 - `--blockSize=50` (default: 50)
 - `--notes=...`
+- `--iso=ABC` (repeatable PowerShell-safe alternative to `--isos=...`)
+- `--update` (update mode: modify `status` / `notes` / `updatedAt` under a lock)
+- `--appendNotes` (update mode)
+- `--dashboard` (read-only summary of `in_progress` claims + suggested next reserved range)
+- `--lockWaitMs=...` / `--lockRetryMs=...` / `--lockStaleMs=...` / `--forceLock` (lock tuning)
 
 ---
 

@@ -70,6 +70,7 @@ function loadNamebaseIndices() {
       throw e;
     }
 
+    re.lastIndex = 0;
     let m;
     while ((m = re.exec(src))) {
       const index = Number(m[1]);

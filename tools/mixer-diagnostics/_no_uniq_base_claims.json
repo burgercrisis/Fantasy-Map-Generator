@@ -1304,6 +1304,25 @@
         1739
       ],
       "notes": "Fix missing mapping entries in config/language-mixer-map.json (coverage/failures: 4 missing). Plan: add dedicated bases + dedicatedPins delta + apply-deltas + verify.\n\nNO-OP: these ISOs already have mapping entries in config/language-mixer-map.json (mbq,yap,norfuk,pitkern) via existing delta tools/mixer-deltas/2025-12-15-wikipedia1-oceania-yap-mbq-norfuk-pitkern.json (bases 1550-1553). ReservedRange 1690-1739 not used; leaving claim as stalled to avoid rework."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T03:44:29.551Z-worker1",
+      "isos": [
+        "spa",
+        "standard-french",
+        "standard-italian",
+        "swiss-italian",
+        "tuscan"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T03:44:29.551Z",
+      "updatedAt": "2025-12-15T03:44:29.551Z",
+      "reservedRange": [
+        1754,
+        1803
+      ],
+      "notes": "Reserved i range: 1754-1803\nISO->base mapping (fill in):\n- spa->1754\n- standard-french->1755\n- standard-italian->1756\n- swiss-italian->1757\n- tuscan->1758"
     }
   ]
 }
