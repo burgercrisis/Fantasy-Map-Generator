@@ -9,6 +9,18 @@ Seed-uniqueness goal (tracked, not gated):
 Throughout this devplan, `config/language-mixes.json` and `config/language-mixer-map.json` are treated as **append-only language registries**. Once a language ISO exists in either file it should not be deleted; cleanup and uniqueness passes only adjust `bases[]`, metadata, or add new entries. If an earlier revision contained a language that is now missing, that is treated as data loss to be repaired by restoring the language from history rather than as an intentional deletion.
 
 
+## Table of contents
+
+- [✅ Completed items (consolidated)](#completed-items-consolidated)
+- [Section index](#section-index)
+- [1. Infrastructure status](#1-infrastructure-status)
+- [2. Families / bases already reviewed](#2-families--bases-already-reviewed)
+- [4. Work not yet done / future passes](#4-work-not-yet-done--future-passes)
+- [5. Planned next steps when resuming](#5-planned-next-steps-when-resuming)
+- [6. Quick checklist for whoever picks this up](#6-quick-checklist-for-whoever-picks-this-up)
+- [7. Planned tooling extensions (Markov, similarity, and UX helpers)](#7-planned-tooling-extensions-markov-similarity-and-ux-helpers)
+- [8. Wikipedia language list coverage registry](#8-wikipedia-language-list-coverage-registry)
+
 ## ✅ Completed items (consolidated)
 
 - For each **non-family** mixer language, we are working toward having at least one **globally unique base index** and ensuring that dedicated base contains ISO-unique seed tokens.
@@ -173,18 +185,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
-- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** `in_progress` claim(s): `batchId=2025-12-15T11:21:35.186Z-worker1` (`reservedRange=2519–2568`, `isos=ais,ait-seghrouchen-berber,aiton,ajawa-language,akan`). Next suggested reserved range: `2569–2618` (suggestedWorkerId `1`).
 
-
-- **2025-12-15 NO_UNIQ_BASE2 handoff (in_progress claim):** `batchId=2025-12-15T11:21:35.186Z-worker1` is partially implemented.
-  - **Implemented:**
-    - Delta pins: `tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json` mapping `ais->2519`, `ait-seghrouchen-berber->2520`, `aiton->2521`, `ajawa-language->2522`, `akan->2523`
-    - Dedicated bases appended in `modules/namebases-real.js` for `i:2519–2523` (display name for `ais` corrected to `Nataoran (dedicated)`; tokens remain `ais_unq*`)
-    - Applied deltas: `pnpm run mixer:apply-deltas` (OK)
-    - Checked deltas: `pnpm run mixer:check-deltas` (OK)
-    - Targeted seed uniqueness: `report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=ais,ait-seghrouchen-berber,aiton,ajawa-language,akan"` (0 failures)
-    - Base clusters: `report-language-mixer-base-clusters.js --min-size=2` (exit 0)
-  - **Remaining before marking complete:** run `check-language-mixer-coverage.js` and `check-language-mixer-failures.js`, then `no-uniq-base-claim.js --update --batchId=2025-12-15T11:21:35.186Z-worker1 --status=complete --appendNotes --notes=...` and add a ✅ entry here.
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A5-batch / worker1):** pinned dedicated bases `2519–2523` for `ais`, `ait-seghrouchen-berber`, `aiton`, `ajawa-language`, `akan` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A4-batch / worker1):** pinned dedicated bases `2469–2473` for `ahr`, `aht`, `ai-cham`, `aimele`, `air-tamajeq-language` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.

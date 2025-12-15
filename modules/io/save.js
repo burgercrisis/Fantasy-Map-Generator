@@ -158,8 +158,13 @@ function prepareMapData() {
     routes,
     zones,
     races
-  ].join("\r\n");
-  return mapData;
+  ];
+
+  if (pack.cells && pack.cells.race && pack.cells.i && pack.cells.race.length === pack.cells.i.length) {
+    mapData.push(pack.cells.race);
+  }
+
+  return mapData.join("\r\n");
 }
 
 // save map file to indexedDB

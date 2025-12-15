@@ -27,6 +27,10 @@ The goal is to give a quick orientation for what has been added or changed, with
 - **Extensive language & namebase expansions** plus a toolbox of helper scripts for maintaining language mappings, coverage, and data quality.
 - **Minor UI and tooling adjustments** to surface the above features.
 
+- **Language mixer coordination + regeneration discipline** (multi-agent): language mixer changes are tracked as deltas under `tools/mixer-deltas/*.json` and validated via `pnpm run mixer:*` scripts. In multi-agent contexts, a **single-integrator lane** is used so only the integrator runs `pnpm run mixer:apply-deltas` (to regenerate committed artifacts).
+
+- **Races ↔ cultures decoupling (in progress):** the current direction is to treat race as a **cell-level layer** (`pack.cells.race`) and make entity naming race-aware on a per-cell basis.
+
 ---
 
 ## 2. New Planning & Design Documents
@@ -60,6 +64,23 @@ New functionality to procedurally **mix languages** and generate novel name styl
   - Many new languages and families (e.g. additional Romance, Uralic, Creole, Hmong‑Mien, Sinitic, African languages, etc.).
   - Improved coverage and fallback rules so more cultures/races have appropriate name pools.
 
+Current maintenance model (vs upstream):
+
+- **Append-only registries**: `config/language-mixes.json` and `config/language-mixer-map.json` are treated as append-only language registries (no deletion).
+- **Delta-first workflow**: changes are expressed as delta JSON files under `tools/mixer-deltas/*.json` and then applied/validated through:
+  - `pnpm run mixer:apply-deltas` (writes/regenerates artifacts)
+  - `pnpm run mixer:check-deltas` (read-only validation)
+  - `pnpm run mixer:guardrails` / `pnpm run mixer:health` / targeted diagnostics
+
+Multi-agent coordination notes (current repo practice):
+
+- **Single-integrator lane**: in multi-agent contexts, only the integrator runs `pnpm run mixer:apply-deltas` to regenerate:
+  - `config/language-mixer-map.json`
+  - `config/language-mixer-map.js`
+  - `tools/mixer-deltas/_compiled-dedicated-pins.json`
+
+- **Claim logs + helpers** are used to avoid overlap when burning down uniqueness debt (see §7).
+
 Behavioral impact vs upstream:
 
 - More **language diversity** and finer mapping between cultures/races and name sets.
@@ -85,10 +106,21 @@ New race system layered on top of/alongside cultures:
 - **Integration points:**
   - Changes in `modules/cultures-generator.js` and related files so that expansionism, culture generation, and naming can respect race information.
 
+Current status (vs upstream):
+
+- **Cell-level race persistence (implemented):** `pack.cells.race` is persisted in saves when present and correctly sized. It is saved as an optional trailing line in `.map` and loaded back when present.
+- **Per-cell race-aware naming (implemented):** `modules/names-generator.js` exposes `Names.getBaseForCell(cell, cultureId)` and various name generation call sites pass an explicit base index so generated names can follow the cell’s race (when it resolves to a race mixer base).
+- **Culture base sync to dominant race (implemented, current behavior):** `modules/races.js` includes `syncCultureBasesToDominantRace()` (invoked from `assignRaces`) to keep `culture.base` aligned with the dominant race derived from `cells.race`.
+
+In-progress / refactor direction:
+
+- The race system is being refactored toward **decoupling** races from cultures (Choice A): treat `pack.cells.race` as authoritative and avoid using `culture.race` as the source of truth. See `DEVplans/Races-Cultures-Decoupling.md` for the current plan and status.
+
 Effects vs upstream:
 
 - Worlds can distinguish **fantasy races** in addition to cultures.
-- Race settings influence cultural expansion and name selection, enabling campaign‑setting‑style worlds.
+- Race settings influence **name selection** (race-aware base resolution), enabling campaign‑setting‑style worlds.
+- `race.expansionism` exists and is editable, but **culture expansion currently uses `culture.expansionism` directly** (no current multiplier from `race.expansionism` in `Cultures.expand`); changing how race expansion affects culture spread is part of the decoupling/refactor work.
 
 ---
 
@@ -154,6 +186,13 @@ A large set of maintenance scripts under `tools/` has been added or expanded. Hi
   - `run-language-mixer-health.js` as a **read‑only diagnostics orchestrator** (family drift, coverage, mapping failures, duplicate languages, base clusters). Exposed via the `mixer:health` npm script.
   - `dedupe-namebase-duplicates.js` and `fix-language-mixer-mappings.js` to clean and normalize data.
 
+- **Multi-agent coordination helpers (new vs upstream):**
+  - `tools/mixer-diagnostics/no-uniq-base-claim.js` (writes/updates `tools/mixer-diagnostics/_no_uniq_base_claims.json` under a lock)
+  - `tools/mixer-diagnostics/decluster-claim.js` (writes/updates `tools/mixer-diagnostics/_decluster_claims.json` under a lock)
+  - Workflows under `.windsurf/workflows/`, notably:
+    - `no-unique-base2.md` (verification + handoff checklist)
+    - `single-integrator-lane.md` (artifact regeneration discipline)
+
 - **Race tooling & orchestrators:**
   - `run-race-language-suite.js` to run `check-race-language-profiles.js`, `report-per-race-language-coverage.js`, `report-race-language-coverage.js`, and `report-race-language-palettes.js` in one go. Exposed via the `mixer:race-suite` npm script.
 
@@ -175,7 +214,10 @@ Smaller changes vs upstream include:
   - `run_php_server.bat` and `run_python_server.bat` tweaked for local workflow (ports/paths). Behavior is still "start a simple local web server" but tuned for this fork.
 - **`package.json`:**
   - Light updates to scripts/dependencies to support the new workflow and tooling (while still remaining a static‑site style project).
- - **Heightmap templates:**
+- **Save/load format extensions:**
+  - Save format supports extra trailing lines for additional data. In particular, newer saves can include `pack.races` and optionally `pack.cells.race`.
+
+- **Heightmap templates:**
   - Added a new procedural `Barrier Islands` heightmap template in `config/heightmap-templates.js`, exposing a coastal layout with offshore barrier chains alongside the existing island/continent templates.
   - Added a new procedural `Bay` heightmap template in `config/heightmap-templates.js`, shaping a semi-enclosed sea with land-wrapped coasts and a narrow outer opening.
 

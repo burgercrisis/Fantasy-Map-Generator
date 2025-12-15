@@ -416,6 +416,13 @@ async function parseLoadedData(data, mapVersion) {
       // data[28] had deprecated cells.crossroad
       pack.cells.routes = data[36] ? JSON.parse(data[36]) : {};
 
+      if (data[40]) {
+        try {
+          const race = Uint16Array.from(data[40].split(","));
+          if (race.length === pack.cells.i.length) pack.cells.race = race;
+        } catch (e) {}
+      }
+
       if (data[31]) {
         const namesDL = data[31].split("/");
         namesDL.forEach((d, i) => {

@@ -1601,14 +1601,14 @@
         "ajawa-language",
         "akan"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T11:21:35.186Z",
-      "updatedAt": "2025-12-15T11:21:35.186Z",
+      "updatedAt": "2025-12-15T13:54:54.450Z",
       "reservedRange": [
         2519,
         2568
       ],
-      "notes": "Reserved i range: 2519-2568\nISO->base mapping (fill in):\n- ais->2519\n- ait-seghrouchen-berber->2520\n- aiton->2521\n- ajawa-language->2522\n- akan->2523"
+      "notes": "Reserved i range: 2519-2568\nISO->base mapping (fill in):\n- ais->2519\n- ait-seghrouchen-berber->2520\n- aiton->2521\n- ajawa-language->2522\n- akan->2523\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json; dedicated bases i:2519-2523 in modules/namebases-real.js): ais->2519; ait-seghrouchen-berber->2520; aiton->2521; ajawa-language->2522; akan->2523. Verification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness Target ISOs=5; Missing mapping=0; No globally-unique base index=0; strict/norm below threshold=0; coverage missing=0; failures=0; base-clusters exit 0 (repo-wide clusters remain).\n\nVerification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ais,ait-seghrouchen-berber,aiton,ajawa-language,akan --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict<1:0; norm<10:0. pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing. pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing. pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0 (repo-wide clusters remain).\n\nReserved i range: 2519-2568; ISO->base: ais->2519; ait-seghrouchen-berber->2520; aiton->2521; ajawa-language->2522; akan->2523; delta=tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json; bases in modules/namebases-real.js i:2519-2523"
     }
   ]
 }

@@ -1305,65 +1305,170 @@ function assignRaces() {
     return;
   }
 
+  const hasCellRaces =
+    pack.cells && pack.cells.race && pack.cells.i && pack.cells.race.length === pack.cells.i.length;
+
+  if (hasCellRaces && !(pack.cells.race instanceof Uint16Array)) {
+    pack.cells.race = Uint16Array.from(pack.cells.race);
+  }
+
   function getRaceFromCultureId(cultureId) {
     const culture = pack.cultures && pack.cultures[cultureId];
     return culture && culture.race ? culture.race : 0;
   }
 
-  if (pack.states) {
-    pack.states.forEach(state => {
-      if (!state) return;
-      if (!state.i || state.removed) {
-        state.race = 0;
-        return;
-      }
-      state.race = getRaceFromCultureId(state.culture);
-    });
-  }
+  if (hasCellRaces && pack.cells) {
+    const {cells, races} = pack;
+    const raceByCell = cells.race;
+    const countsByState = [];
+    const countsByProvince = [];
+    const countsByReligion = [];
 
-  if (pack.provinces && pack.states) {
-    pack.provinces.forEach(province => {
-      if (!province) return;
-      if (!province.i || province.removed) {
-        province.race = 0;
-        return;
-      }
-      const state = pack.states[province.state];
-      province.race = state && state.race ? state.race : 0;
-    });
-  }
+    for (const i of cells.i) {
+      if (cells.h && cells.h[i] < 20) continue;
+      let raceId = raceByCell[i] || 0;
+      if (!raceId) continue;
+      if (!races || !races[raceId]) continue;
 
-  if (pack.burgs) {
-    pack.burgs.forEach(burg => {
-      if (!burg) return;
-      if (!burg.i || burg.removed) {
-        burg.race = 0;
-        return;
+      const stateId = cells.state ? cells.state[i] : 0;
+      if (stateId) {
+        const bucket = (countsByState[stateId] = countsByState[stateId] || {});
+        bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
-      burg.race = getRaceFromCultureId(burg.culture);
-    });
-  }
 
-  if (pack.religions) {
-    pack.religions.forEach(religion => {
-      if (!religion) return;
-      if (!religion.i || religion.removed) {
-        religion.race = 0;
-        return;
+      const provinceId = cells.province ? cells.province[i] : 0;
+      if (provinceId) {
+        const bucket = (countsByProvince[provinceId] = countsByProvince[provinceId] || {});
+        bucket[raceId] = (bucket[raceId] || 0) + 1;
       }
-      religion.race = getRaceFromCultureId(religion.culture);
-    });
+
+      const religionId = cells.religion ? cells.religion[i] : 0;
+      if (religionId) {
+        const bucket = (countsByReligion[religionId] = countsByReligion[religionId] || {});
+        bucket[raceId] = (bucket[raceId] || 0) + 1;
+      }
+    }
+
+    const getDominantRaceId = counts => {
+      if (!counts) return 0;
+      let bestRaceId = 0;
+      let bestCount = 0;
+      for (const [raceIdRaw, count] of Object.entries(counts)) {
+        const raceId = +raceIdRaw;
+        if (!raceId) continue;
+        if (count > bestCount) {
+          bestCount = count;
+          bestRaceId = raceId;
+        }
+      }
+      return bestRaceId;
+    };
+
+    if (pack.states) {
+      pack.states.forEach(state => {
+        if (!state) return;
+        if (!state.i || state.removed) {
+          state.race = 0;
+          return;
+        }
+        state.race = getDominantRaceId(countsByState[state.i]);
+      });
+    }
+
+    if (pack.provinces) {
+      pack.provinces.forEach(province => {
+        if (!province) return;
+        if (!province.i || province.removed) {
+          province.race = 0;
+          return;
+        }
+        province.race = getDominantRaceId(countsByProvince[province.i]);
+      });
+    }
+
+    if (pack.religions) {
+      pack.religions.forEach(religion => {
+        if (!religion) return;
+        if (!religion.i || religion.removed) {
+          religion.race = 0;
+          return;
+        }
+        religion.race = getDominantRaceId(countsByReligion[religion.i]);
+      });
+    }
+
+    if (pack.burgs) {
+      pack.burgs.forEach(burg => {
+        if (!burg) return;
+        if (!burg.i || burg.removed) {
+          burg.race = 0;
+          return;
+        }
+        const cell = burg.cell;
+        const raceId = cell !== undefined && raceByCell ? raceByCell[cell] || 0 : 0;
+        burg.race = races && races[raceId] ? raceId : 0;
+      });
+    }
+  } else {
+    if (pack.states) {
+      pack.states.forEach(state => {
+        if (!state) return;
+        if (!state.i || state.removed) {
+          state.race = 0;
+          return;
+        }
+        state.race = getRaceFromCultureId(state.culture);
+      });
+    }
+
+    if (pack.provinces && pack.states) {
+      pack.provinces.forEach(province => {
+        if (!province) return;
+        if (!province.i || province.removed) {
+          province.race = 0;
+          return;
+        }
+        const state = pack.states[province.state];
+        province.race = state && state.race ? state.race : 0;
+      });
+    }
+
+    if (pack.burgs) {
+      pack.burgs.forEach(burg => {
+        if (!burg) return;
+        if (!burg.i || burg.removed) {
+          burg.race = 0;
+          return;
+        }
+        burg.race = getRaceFromCultureId(burg.culture);
+      });
+    }
+
+    if (pack.religions) {
+      pack.religions.forEach(religion => {
+        if (!religion) return;
+        if (!religion.i || religion.removed) {
+          religion.race = 0;
+          return;
+        }
+        religion.race = getRaceFromCultureId(religion.culture);
+      });
+    }
   }
 
   if (pack.cells && pack.cells.culture && pack.cells.i) {
-    const raceArray = new Uint16Array(pack.cells.i.length);
-    for (const i of pack.cells.i) {
-      const cultureId = pack.cells.culture[i];
-      const culture = pack.cultures && pack.cultures[cultureId];
-      const raceId = culture && culture.race ? culture.race : 0;
-      raceArray[i] = raceId;
+    const hasCellRaces = pack.cells.race && pack.cells.race.length === pack.cells.i.length;
+
+    if (!hasCellRaces) {
+      const raceArray = new Uint16Array(pack.cells.i.length);
+      for (const i of pack.cells.i) {
+        const cultureId = pack.cells.culture[i];
+        const culture = pack.cultures && pack.cultures[cultureId];
+        const raceId = culture && culture.race ? culture.race : 0;
+        raceArray[i] = raceId;
+      }
+      pack.cells.race = raceArray;
     }
-    pack.cells.race = raceArray;
   }
 
   try {

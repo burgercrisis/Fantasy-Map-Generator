@@ -5,22 +5,26 @@ So far what I've done is:
 
 - Add a small fantasy race system. It has some campaign setting sets, and integrates alongside the cultures system.
 
-- [More detail](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Changes-vs-Azgaar-master.md)
+- [More detail](DEVplans/Changes-vs-Azgaar-master.md)
 
 
 Planned (rough priority order for this fork):
 
-- **0. Current focus:** [Languages, mixer behavior across languages, and races/languages wiring](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/aadc13466e02a3a63315b49bd3a75678e32c4b8b/DEVplans/Races-Languages-Rules.md)
+- **0. Current focus:**
+  - [Language Mixer Rules (authoritative)](DEVplans/Language-Mixer-Rules.md)
+  - [Languages, mixer behavior across languages, and races/languages wiring](DEVplans/Races-Languages-Rules.md)
 
-- **1. Next major feature:** [Add the Underdark](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Underdark.md)
 
-- **2. Then:** [Add Individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Individuals.md)
 
-- **3. After Individuals:** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Characters.md)
+- **1. Next major feature:** [Add the Underdark](DEVplans/Underdark.md)
 
-- **4. Later:** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation.md)
+- **2. Then:** [Add Individuals](DEVplans/Individuals.md)
 
-- **5. Fine-tuning:** [Evolving simulation knobs & choices / k-NN-iffication](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Evolving-Simulation-Choices.md)
+- **3. After Individuals:** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](DEVplans/Characters.md)
+
+- **4. Later:** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](DEVplans/Evolving-Simulation.md)
+
+- **5. Fine-tuning:** [Evolving simulation knobs & choices / k-NN-iffication](DEVplans/Evolving-Simulation-Choices.md)
 
 - **6. Nice-to-have:** get Gemini API working, maybe add more AI APIs.
 
@@ -29,9 +33,9 @@ Planned (rough priority order for this fork):
 
 Status items:
 
-- [Language system status and tooling extensions](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Languages-Status.md)
-- [Guidelines for races/languages](https://github.com/burgercrisis/Fantasy-Map-Generator/blob/Burgers-Stuff-He-Did-To-Azgaars/DEVplans/Races-Languages-Rules.md)
-- [Language mixer helper tools & workflows](tools/HELPER-TOOLS.md)  CLI scripts for Markov/mixer QA, coverage checks, and race language palettes.
+- [Language system status and tooling extensions](DEVplans/Languages-Status.md)
+- [Guidelines for races/languages](DEVplans/Races-Languages-Rules.md)
+- [Language mixer helper tools & workflows](tools/HELPER-TOOLS.md) CLI scripts for Markov/mixer QA, coverage checks, and race language palettes.
 
 
 Above is my description of what I'm doing to Azgaars dankness
