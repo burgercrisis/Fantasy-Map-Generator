@@ -1185,12 +1185,69 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T02:13:13.178Z",
-      "updatedAt": "2025-12-15T02:28:48.105Z",
+      "updatedAt": "2025-12-15T02:38:28.421Z",
       "reservedRange": [
         1390,
         1439
       ],
-      "notes": "Reserved i range: 1390-1439\n\nReserved i range: 1390-1439\n\nISO->base mapping applied:\n- riojan->1390\n- rioplatense-spanish->1391\n- riunorese->1392\n- romagnol->1393\n- romanesco->1394\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker62-romance.json and compiled with pnpm run mixer:apply-deltas):\n- riojan->1390\n- rioplatense-spanish->1391\n- riunorese->1392\n- romagnol->1393\n- romanesco->1394\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=riojan rioplatense-spanish riunorese romagnol romanesco\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nRemaining seed-uniqueness debt lines: none."
+      "notes": "Reserved i range: 1390-1439\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker62-romance.json and compiled with pnpm run mixer:apply-deltas):\n- riojan->1390\n- rioplatense-spanish->1391\n- riunorese->1392\n- romagnol->1393\n- romanesco->1394\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=\\riojan rioplatense-spanish riunorese romagnol romanesco\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nRemaining seed-uniqueness debt lines: none."
+    },
+    {
+      "workerId": 63,
+      "batchId": "2025-12-15T02:30:42.174Z-worker63",
+      "isos": [
+        "romanian",
+        "romansh",
+        "ron",
+        "royasc",
+        "ruo"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T02:30:42.174Z",
+      "updatedAt": "2025-12-15T02:45:33.054Z",
+      "reservedRange": [
+        1440,
+        1489
+      ],
+      "notes": "Reserved i range: 1440-1489\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker63-romance.json and compiled with pnpm run mixer:apply-deltas):\n- romanian->1440\n- romansh->1441\n- ron->1442\n- royasc->1443\n- ruo->1444\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=romanian romansh ron royasc ruo\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nRemaining seed-uniqueness debt lines: none.\n\nComplete. ISO->base mapping applied via tools/mixer-deltas/2025-12-15-worker63-romance.json (romanian->1440; romansh->1441; ron->1442; royasc->1443; ruo->1444) and compiled with pnpm run mixer:apply-deltas. Verification (/no-unique-base2): guardrails OK; check-deltas OK; seed-uniqueness --only=romanian,romansh,ron,royasc,ruo => No globally-unique base index: 0; strict failures: 0; norm failures: 0. Coverage 0 missing; failures 0. Base-clusters: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (exit 0).\n\nISO->base mapping applied: romanian->1440; romansh->1441; ron->1442; royasc->1443; ruo->1444. Verification (/no-unique-base2): mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness OK; coverage 0 missing; failures 0 failing; base-clusters ran (exit 0)."
+    },
+    {
+      "workerId": 64,
+      "batchId": "2025-12-15T02:42:17.449Z-worker64",
+      "isos": [
+        "rup",
+        "ruq",
+        "sabino",
+        "saharan-spanish",
+        "salentino"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T02:42:17.449Z",
+      "updatedAt": "2025-12-15T02:49:07.446Z",
+      "reservedRange": [
+        1490,
+        1539
+      ],
+      "notes": "Reserved i range: 1490-1539\n\nComplete. ISO->base mapping applied via tools/mixer-deltas/2025-12-15-worker64-romance.json (rup->1490; ruq->1491; sabino->1492; saharan-spanish->1493; salentino->1494) and compiled with pnpm run mixer:apply-deltas. Verification (/no-unique-base2): guardrails OK; check-deltas OK; seed-uniqueness --only=rup,ruq,sabino,saharan-spanish,salentino => No globally-unique base index: 0; strict failures: 0; norm failures: 0. Coverage 0 missing; failures 0. Base-clusters: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (exit 0).\n\nReserved i range: 1490-1539"
+    },
+    {
+      "workerId": 62,
+      "batchId": "2025-12-15T02:46:51.949Z-worker62",
+      "isos": [
+        "sammarinese",
+        "sardinian",
+        "sardo-corsican",
+        "sassarese",
+        "savoyard"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T02:46:51.949Z",
+      "updatedAt": "2025-12-15T02:46:51.949Z",
+      "reservedRange": [
+        1540,
+        1589
+      ],
+      "notes": "Blocked on worker64 (batchId=2025-12-15T02:42:17.449Z-worker64) while it is in_progress; do not edit modules/namebases-real.js / run mixer:apply-deltas concurrently. Planned dedicated pins will be allocated from this claim's reservedRange once unblocked."
     }
   ]
 }

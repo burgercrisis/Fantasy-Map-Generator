@@ -120,6 +120,18 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance R-batch / worker62):** pinned dedicated bases `1390–1394` for `riojan`, `rioplatense-spanish`, `riunorese`, `romagnol`, `romanesco` (via `tools/mixer-deltas/2025-12-15-worker62-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict failures), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance R-batch / worker63):** pinned dedicated bases `1440–1444` for `romanian`, `romansh`, `ron`, `royasc`, `ruo` (via `tools/mixer-deltas/2025-12-15-worker63-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing), and base-clusters report. Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance R-batch / worker64):** pinned dedicated bases `1490–1494` for `rup`, `ruq`, `sabino`, `saharan-spanish`, `salentino` (via `tools/mixer-deltas/2025-12-15-worker64-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2 --category=Romance`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
 
@@ -261,6 +273,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker62 mini-batch):** added dedicated bases `1390–1394` for `riojan`, `rioplatense-spanish`, `riunorese`, `romagnol`, `romanesco` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker62-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker63 mini-batch):** added dedicated bases `1440–1444` for `romanian`, `romansh`, `ron`, `royasc`, `ruo` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker63-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker57 mini-batch):** added dedicated bases `1080–1084` for `philippine-spanish`, `piedmontese`, `pisano-livornese`, `pistoiese`, `poitevin-saintongeais` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker57-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.

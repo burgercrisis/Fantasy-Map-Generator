@@ -49,7 +49,7 @@ function loadClaimedIsos() {
   const claims = readJson("tools/mixer-diagnostics/_no_uniq_base_claims.json");
   const out = new Set();
   for (const claim of claims && claims.claims ? claims.claims : []) {
-    if (!claim || !Array.isArray(claim.isos)) continue;
+    if (!claim || claim.status !== "in_progress" || !Array.isArray(claim.isos)) continue;
     for (const iso of claim.isos) {
       if (typeof iso === "string" && iso) out.add(iso);
     }

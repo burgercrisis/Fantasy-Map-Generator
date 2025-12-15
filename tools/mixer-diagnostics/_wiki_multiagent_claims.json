@@ -133,6 +133,14 @@
       "startedAt": "2025-12-15T01:56:11Z",
       "finishedAt": "2025-12-15T02:12:39Z",
       "note": "Added dedicated bases 1336-1339 + delta dedicatedPins for sukur,bacama,bade-chadic,bole-afroasiatic; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE, coverage 0 missing, failures 0 failing"
+    },
+    {
+      "workerId": 39,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "nonunique_bases_burn_down_base132_batch3",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T02:34:07Z",
+      "note": "Batch3 base=132 slice candidate pins (planned): saba->1400, shabo->1401, besme->1402, senara->1403, sucite->1404, supyire->1405, suwu->1406"
     }
   ]
 }

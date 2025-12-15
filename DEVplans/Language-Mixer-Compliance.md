@@ -8,9 +8,13 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
 
+- 2025-12-14: Multi-agent coordination posture (GLOBAL): each agent must claim a workstream in MCP Memory (owner/goal/file scope/status=in_progress + short plan) before edits, then mark it done with verification evidence + handoff notes; ISO-level coordination continues via `tools/mixer-diagnostics/_no_uniq_base_claims.json` (use `tools/mixer-diagnostics/no-uniq-base-claim.js`, do not hand-edit the JSON).
+
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
   - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.
+  - Systemic anomaly identified: ~34 catalog entries with `family: "Australian Aboriginal"` currently include shared base `312` ("Harari-Argobba") in `bases[]`, even though `tools/mixer-core/fix-language-mixer-mappings.js` explicitly maps these ISOs (and token `australian-aboriginal`) to base `313` ("Australian Aboriginal").
+    - Next step (pending approval): consider a single delta batch to swap `312 -> 313` for the affected ISOs.
   - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
@@ -80,6 +84,11 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Added `--multi-agent-safe` (read-only) mode to the suite fixer and key catalog/map updaters so they can be used for diagnostics without writing files.
 
 - ✅ 2025-12-14: Documented `tools/mixer-diagnostics/no-uniq-base-claim.js` in `tools/HELPER-TOOLS.md` as the preferred way to create `NO_UNIQ_BASE` claims (auto-reserves `i:` ranges, rejects ISO overlap with `in_progress` claims, and writes the claims log as UTF-8 without BOM). Workflows now reference it (`.windsurf/workflows/no-unique-base-debt-multiagent.md`, `.windsurf/workflows/no-unique-base2.md`), and the helper was hardened to prevent duplicate `workerId` `in_progress` claims and to initialize the claims file if missing.
+
+- ✅ 2025-12-15: Hardened `tools/mixer-diagnostics/no-uniq-base-claim.js` for multi-agent safety:
+  - Atomic lock file (`tools/mixer-diagnostics/_no_uniq_base_claims.lock`) to serialize claim-log writes
+  - `--update` mode to safely update `status` / `notes` / `updatedAt` without manual JSON edits
+  - PowerShell-safe ISO passing (`--isos=...` split across argv tokens; repeatable `--iso=...`)
 
 - Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
   - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)
@@ -155,6 +164,12 @@ confirm:
 
 - Confirm UI consistently hides family-tagged entries from mixing surfaces.
 - Confirm runtime does not depend on deleting/renaming ISO keys.
+
+### D) Multi-agent coordination (Memory + claims)
+
+- Claim the scope in MCP Memory before edits (one writer per file/scope at a time): owner, goal, file/scope, constraints, status=in_progress, short plan.
+- For `NO_UNIQ_BASE` / dedicated-base work, coordinate ISO batches via `tools/mixer-diagnostics/_no_uniq_base_claims.json` and the helper `tools/mixer-diagnostics/no-uniq-base-claim.js` (lock + UTF-8 no BOM; do not hand-edit claims JSON).
+- For implementation + verification, follow the relevant `.windsurf/workflows/*` file verbatim (no git, no paraphrasing); record the exact commands run in the workstream handoff.
 
 ## Next audit targets
 

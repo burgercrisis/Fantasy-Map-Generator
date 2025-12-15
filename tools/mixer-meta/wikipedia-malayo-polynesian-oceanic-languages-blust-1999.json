@@ -14,7 +14,7 @@
     { "name": "Palauan language", "iso": "palauan" },
     { "name": "Chamorro language", "iso": "chamorro" },
     { "name": "Kowiai language", "iso": "kowiai" },
-    { "name": "Yapese language" },
+    { "name": "Yapese language", "iso": "yap" },
     { "name": "Rotuman language", "iso": "rotuman" }
   ]
 }
