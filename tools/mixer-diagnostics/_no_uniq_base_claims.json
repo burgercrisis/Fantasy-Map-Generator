@@ -1470,12 +1470,31 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T08:30:44.963Z",
-      "updatedAt": "2025-12-15T09:05:03.902Z",
+      "updatedAt": "2025-12-15T09:11:10.425Z",
       "reservedRange": [
         2169,
         2218
       ],
-      "notes": "Reserved i range: 2169-2218\nISO->base mapping (fill in):\n- -azd-dialect->2169\n- -ejtun-dialect->2170\n- -sele->2171\n- a-ou->2172\n- abaga->2173\n\nISO->base mapping applied (dedicated bases in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json; compiled via pnpm run mixer:apply-deltas):\\n- -azd-dialect->2169\\n- -ejtun-dialect->2170\\n- -sele->2171\\n- a-ou->2172\\n- abaga->2173\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos='-azd-dialect,-ejtun-dialect,-sele,a-ou,abaga' --limit=120 => uniqBase for all 5; strictUniqueSeeds=12; normUniqueSeeds=12; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)"
+      "notes": "Reserved i range: 2169-2218\nISO->base mapping (fill in):\n- -azd-dialect->2169\n- -ejtun-dialect->2170\n- -sele->2171\n- a-ou->2172\n- abaga->2173\n\nISO->base mapping applied (dedicated bases in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json; compiled via pnpm run mixer:apply-deltas):\\n- -azd-dialect->2169\\n- -ejtun-dialect->2170\\n- -sele->2171\\n- a-ou->2172\\n- abaga->2173\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos='-azd-dialect,-ejtun-dialect,-sele,a-ou,abaga' --limit=120 => uniqBase for all 5; strictUniqueSeeds=12; normUniqueSeeds=12; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nISO->base mapping applied:\\n- -azd-dialect->2169\\n- -ejtun-dialect->2170\\n- -sele->2171\\n- a-ou->2172\\n- abaga->2173\\n\\nDelta pins:\\n- tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=-azd-dialect -ejtun-dialect -sele a-ou abaga\\ --limit=300 => Target ISOs: 5; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T09:11:54.915Z-worker1",
+      "isos": [
+        "abba-gorgoryos",
+        "aboriginal-pidgin-english",
+        "aca",
+        "achang",
+        "acr"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T09:11:54.915Z",
+      "updatedAt": "2025-12-15T09:11:54.915Z",
+      "reservedRange": [
+        2219,
+        2268
+      ],
+      "notes": "Reserved i range: 2219-2268\nISO->base mapping (fill in):\n- abba-gorgoryos->2219\n- aboriginal-pidgin-english->2220\n- aca->2221\n- achang->2222\n- acr->2223"
     }
   ]
 }

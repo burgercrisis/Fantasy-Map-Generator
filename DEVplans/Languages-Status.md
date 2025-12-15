@@ -16,9 +16,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - Current target thresholds (explicit goal, tracked as debt; **not** a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
 
+ Single-integrator lane (multi-agent note): historical entries below may mention `pnpm run mixer:apply-deltas` as part of verification logs, but in multi-agent contexts only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts. Non-integrators should hand off delta files + notes and may use `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` for read-only validation.
 
-- To measure current compliance and track progress, use:
-  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+ - To measure current compliance and track progress, use:
+   - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
  Latest seed-uniqueness report snapshot (2025-12-13):
 
@@ -164,9 +165,6 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed dialect batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
-
-
-- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (North America wiki list):** pinned dedicated bases `2069–2076` for `cree`, `ojibwe`, `yup`, `iku`, `cherokee`, `apa`, `athabaskan`, `navajo` (delta: `tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json`). Applied via `pnpm run mixer:apply-deltas` and verified: seed-uniqueness `--only-failures` for these 8 => 0; `report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-languages-of-north-america.json` => 0.
@@ -1480,6 +1478,7 @@ The following families / regions have **not yet received a full pass** for home-
 ## 5. Planned next steps when resuming
 
  - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`; delta `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`).
+ - 2025-12-15: NO_UNIQ_BASE claims dashboard shows `in_progress=0` (nextReservedRange `2219–2268`).
 
 When this work resumes, a practical order of operations:
 
@@ -2562,13 +2561,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 47
+  - `Nonunique Bases:` 46
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 25
-  - `clustered bases:` 22
-  - `clustered full items:` 22
-  - `cluster size histogram:` size2=3, size3=0, size4+=19
-  - `clustered isos:` iwaidja(19), kaytetye(19), kija(19), kukatja(19), kuku-yalanji(19), kunwinjku(19), kuuk-thaayore(19), luritja(19), manytjilyitjarra(19), martu-wangka(19), maung(19), miriwoong(19), murrinh-patha(19), ngaanyatjarra(19), ngarrindjeri(19), noongar(19), nunggubuyu(19), nyangumarta(19), palawa-kani(19), adnyamathanha(2), wangkatha(2), wiradjuri(2)
+  - `unique bases:` 28
+  - `clustered bases:` 19
+  - `clustered full items:` 19
+  - `cluster size histogram:` size2=0, size3=0, size4+=19
+  - `clustered isos:` iwaidja(19), kaytetye(19), kija(19), kukatja(19), kuku-yalanji(19), kunwinjku(19), kuuk-thaayore(19), luritja(19), manytjilyitjarra(19), martu-wangka(19), maung(19), miriwoong(19), murrinh-patha(19), ngaanyatjarra(19), ngarrindjeri(19), noongar(19), nunggubuyu(19), nyangumarta(19), palawa-kani(19)
 
 #### Wikipedia: Formosan language families - Blust (1999)
 
