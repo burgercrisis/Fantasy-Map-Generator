@@ -392,6 +392,15 @@ async function parseLoadedData(data, mapVersion) {
       pack.markers = data[35] ? JSON.parse(data[35]) : [];
       pack.routes = data[37] ? JSON.parse(data[37]) : [];
       pack.zones = data[38] ? JSON.parse(data[38]) : [];
+
+      // races were added as an extra trailing line in newer save formats
+      if (data[39]) {
+        try {
+          pack.races = JSON.parse(data[39]);
+        } catch (e) {}
+      }
+
+      if (!Array.isArray(pack.races)) pack.races = [];
       pack.cells.biome = Uint8Array.from(data[16].split(","));
       pack.cells.burg = Uint16Array.from(data[17].split(","));
       pack.cells.conf = Uint8Array.from(data[18].split(","));
@@ -421,6 +430,19 @@ async function parseLoadedData(data, mapVersion) {
         for (let i = 0; i < defaultNameBases.length; i++) {
           if (!nameBases[i]) nameBases[i] = defaultNameBases[i];
         }
+      }
+
+      // re-apply race mixer bases on load when races are implied, but do not re-apply UI filters
+      if (typeof initializeRacesForExpansion === "function") {
+        try {
+          initializeRacesForExpansion({skipApplyFilter: true});
+        } catch (e) {}
+      }
+
+      if (typeof assignRaces === "function") {
+        try {
+          assignRaces();
+        } catch (e) {}
       }
     }
 

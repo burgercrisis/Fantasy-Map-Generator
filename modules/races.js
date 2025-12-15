@@ -1087,8 +1087,39 @@ function getRaceNameForCulture(culture) {
   const markedRace = baseEntry && typeof baseEntry.raceMixerFor === "string" ? baseEntry.raceMixerFor : "";
   if (markedRace && fantasyRaceBases[markedRace]) return markedRace;
   const baseName = baseEntry && typeof baseEntry.name === "string" ? baseEntry.name : "";
+
+  const baseSuffixMatch = /\(([^()]+)\)\s*$/.exec(baseName);
+  if (baseSuffixMatch) {
+    const suffix = baseSuffixMatch[1] ? baseSuffixMatch[1].trim() : "";
+    if (suffix && fantasyRaceBases[suffix]) return suffix;
+  }
+
   const match = /^Race\s+(.+)\s+\(Mixer\)$/.exec(baseName);
   if (match && match[1] && fantasyRaceBases[match[1]]) return match[1];
+
+  const cultureName = typeof culture.name === "string" ? culture.name : "";
+  const cultureSuffixMatch = /\(([^()]+)\)\s*$/.exec(cultureName);
+  if (cultureSuffixMatch) {
+    const raw = cultureSuffixMatch[1] ? cultureSuffixMatch[1].trim() : "";
+    if (raw && fantasyRaceBases[raw]) return raw;
+    if (raw && raw.endsWith("s")) {
+      const singular = raw.slice(0, -1).trim();
+      if (singular && fantasyRaceBases[singular]) return singular;
+    }
+    if (raw && raw.endsWith("ish")) {
+      const stem = raw.slice(0, -3).trim();
+      if (stem && fantasyRaceBases[stem]) return stem;
+    }
+    const adjectiveMap = {
+      Dwarven: "Dwarf",
+      Elfish: "Elf",
+      "Dark Elfish": "Dark Elf",
+      Elven: "Elf",
+      "Half-Orcish": "Half-Orc"
+    };
+    const mapped = adjectiveMap[raw];
+    if (mapped && fantasyRaceBases[mapped]) return mapped;
+  }
 
   return "Human";
 }
@@ -1126,7 +1157,8 @@ function initializeRacesForExpansion(options) {
 
   const isFirstInitialization = existingRaces.length <= 1;
   const forceFilterFromUi = options && options.forceFilterFromUi;
-  const shouldApplyFilter = isFirstInitialization || forceFilterFromUi;
+  const skipApplyFilter = options && options.skipApplyFilter;
+  const shouldApplyFilter = !skipApplyFilter && (isFirstInitialization || forceFilterFromUi);
 
   let allowedRaces = null;
   if (shouldApplyFilter) {

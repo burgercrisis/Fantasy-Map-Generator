@@ -1525,14 +1525,14 @@
         "afro-seminole-creole",
         "agalega-creole"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T09:45:00.175Z",
-      "updatedAt": "2025-12-15T09:45:00.175Z",
+      "updatedAt": "2025-12-15T10:02:25.695Z",
       "reservedRange": [
         2319,
         2368
       ],
-      "notes": "Reserved i range: 2319-2368\nISO->base mapping (fill in):\n- afade-language->2319\n- afar->2320\n- afrikaans->2321\n- afro-seminole-creole->2322\n- agalega-creole->2323"
+      "notes": "Reserved i range: 2319-2368\nISO->base mapping (fill in):\n- afade-language->2319\n- afar->2320\n- afrikaans->2321\n- afro-seminole-creole->2322\n- agalega-creole->2323\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-afade-language.json; dedicated bases i:2319-2323 in modules/namebases-real.js): afade-language->2319; afar->2320; afrikaans->2321; afro-seminole-creole->2322; agalega-creole->2323. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=afade-language,afar,afrikaans,afro-seminole-creole,agalega-creole => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied: afade-language->2319; afar->2320; afrikaans->2321; afro-seminole-creole->2322; agalega-creole->2323. Delta pins: tools/mixer-deltas/2025-12-15-worker1-afade-language.json. Verified (/no-unique-base2): pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=afade-language afar afrikaans afro-seminole-creole agalega-creole\\ => Missing mapping 0; No globally-unique base index 0; strict failures 0; norm failures 0. Coverage 0 missing; failures 0 failing. Base-clusters --min-size=2 exit 0 (repo-wide clusters remain).\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-afade-language.json; dedicated bases i:2319-2323 in modules/namebases-real.js): afade-language->2319; afar->2320; afrikaans->2321; afro-seminole-creole->2322; agalega-creole->2323. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=afade-language,afar,afrikaans,afro-seminole-creole,agalega-creole => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
     },
     {
       "workerId": 2,
