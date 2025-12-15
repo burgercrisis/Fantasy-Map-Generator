@@ -34,7 +34,7 @@ function loadValidBaseIndices() {
   ];
 
   const indices = new Set();
-  const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
+  const re = /\{\s*name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
 
   for (const file of files) {
     let src;
