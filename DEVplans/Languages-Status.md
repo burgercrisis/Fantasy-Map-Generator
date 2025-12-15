@@ -1464,6 +1464,8 @@ The following families / regions have **not yet received a full pass** for home-
 
 ## 5. Planned next steps when resuming
 
+ - 2025-12-15: In progress (NO_UNIQ_BASE claim): workerId=2 batchId=2025-12-15T08:14:55.146Z-worker2 reservedRange=2019-2068 isos=western-aragonese, western-catalan, western-sicilian, wisconsin-walloon
+
 When this work resumes, a practical order of operations:
 
 1. **Lock in use-case length bands**
@@ -1595,7 +1597,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `saba,shabo,besme,senara,sucite,supyire,suwu` to dedicated bases `1600–1606` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch3.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `syer-tenyer,tiv,tyap,werni,yobe` to dedicated bases `1500–1504` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch4a.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `zhire,zhoa,tadaksahak` to dedicated bases `1505–1507` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch4b.json` (applied with `pnpm run mixer:apply-deltas`).
-  - ✅ **2025-12-15 (verified):** Began burn-down of the largest remaining `Nonunique Bases` hub (bases `112/113`) by pinning `abon,abron,acheron,adara,aghem,aiki,aja,aka,ambele,ambo,amdang,amira,babanki,baca,bangala` to dedicated bases `2004–2018` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch1.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `222`.
+  - ✅ **2025-12-15 (verified):** Began burn-down of the largest remaining `Nonunique Bases` hub (bases `112/113`) by pinning `abon,abron,acheron,adara,aghem,aiki,aja,aka,ambele,ambo,amdang,amira,babanki,baca,bangala` to dedicated bases `2004–2018` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch1.json` (applied with `pnpm run mixer:apply-deltas`).
+  - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `bangi,bangolan,bomboli-bozaba,bomboma,boze,bozo,buu,dagaare,dagbani,djimini,doghose,dogoso,eton,evant,fongoro` to dedicated bases `2019–2033` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch2.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `207`.
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 

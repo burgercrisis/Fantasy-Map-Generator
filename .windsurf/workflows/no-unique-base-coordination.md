@@ -22,6 +22,11 @@ Provide a single canonical coordination protocol for multi-agent `NO_UNIQ_BASE` 
 - reserve non-overlapping `i:` ranges for new dedicated bases
 - standardize claim notes so other agents (and future you) can read and reuse them
 
+Single-integrator lane (team rule):
+
+- Only the integrator runs `pnpm run mixer:apply-deltas` to regenerate committed artifacts.
+- Non-integrators should contribute delta files + claim notes and then hand off for apply + verification.
+
 # Canonical coordination primitives
 
 ## 0) Global contention dashboard (read-only)

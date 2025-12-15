@@ -192,6 +192,7 @@ All commands should be run from the repo root. Prefer **pnpm**.
   - Use `setBases` (alias: `replaceBases`) when you need an exact `bases[]` array (declustering).
 3. Apply deltas (writes committed artifacts + regenerates bundles):
   - `pnpm run mixer:apply-deltas`
+  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
 4. Verify failures/coverage are acceptable for the batch:
   - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js`
   - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js`
@@ -207,6 +208,7 @@ All commands should be run from the repo root. Prefer **pnpm**.
 3. For any remaining unresolved ISOs:
    - Add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
    - Run `pnpm run mixer:apply-deltas`
+   - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
    - Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 
 ### 5.3 Preserve intended mappings against auto-fix rewriting
@@ -217,12 +219,14 @@ All commands should be run from the repo root. Prefer **pnpm**.
     - `explicitIsoBaseMap` for single-base mappings
   - include any related alias/subset ISOs that get “normalized” to match it.
   - Re-run `pnpm run mixer:apply-deltas` to ensure committed artifacts are regenerated.
+  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
 
 - Safety note (2025-12-14): `tools/mixer-core/fix-language-mixer-mappings.js` will refuse to write `config/language-mixer-map.json` if any ISO pinned in `explicitIsoDedicatedBaseMap` would end up missing its pinned dedicated base, or if the pinned base index does not exist in the valid namebase indices.
 
 - Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, add it via a delta file:
   - Add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
   - Run `pnpm run mixer:apply-deltas`
+  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
   - Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 
 ### 5.4 Burn down uniqueness debt (declustering)
@@ -234,6 +238,7 @@ All commands should be run from the repo root. Prefer **pnpm**.
   - Otherwise adjust `bases[]` mixes to be unique *and* plausible.
 3. Apply the mapping changes via delta `setBases` (and/or `dedicatedPins`) and run:
   - `pnpm run mixer:apply-deltas`
+  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
 4. Re-run diagnostics to confirm the collision is gone.
 
 ### 5.5 Quick manual sanity checks (optional but recommended)

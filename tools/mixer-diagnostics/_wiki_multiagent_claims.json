@@ -188,6 +188,15 @@
       "note": "Added dedicated bases 2004-2018 + delta dedicatedPins for abon,abron,acheron,adara,aghem,aiki,aja,aka,ambele,ambo,amdang,amira,babanki,baca,bangala; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, failures 0 failing, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE"
     },
     {
+      "workerId": 39,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "nonunique_bases_burn_down_base112_113_batch2",
+      "status": "complete",
+      "startedAt": "2025-12-15T08:13:00Z",
+      "finishedAt": "2025-12-15T08:19:53Z",
+      "note": "Added dedicated bases 2019-2033 + delta dedicatedPins for bangi,bangolan,bomboli-bozaba,bomboma,boze,bozo,buu,dagaare,dagbani,djimini,doghose,dogoso,eton,evant,fongoro; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, failures 0 failing, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE"
+    },
+    {
       "workerId": 41,
       "target": "tools/mixer-meta/wikipedia-papuan-families-foley-2003.json",
       "scope": "coverage_skip_annotations",

@@ -13,6 +13,8 @@ The goal is to avoid multiple workers editing the large canonical files directly
 - Apply deltas (writes artifacts if needed):
   - `pnpm run mixer:apply-deltas`
 
+Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
+
 - Check only (does not write; fails if artifacts are out of date):
   - `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check`
 
