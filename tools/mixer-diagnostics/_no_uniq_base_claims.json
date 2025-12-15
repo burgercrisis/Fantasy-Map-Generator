@@ -1571,6 +1571,25 @@
         2468
       ],
       "notes": "Reserved i range: 2419-2468\nISO->base mapping (fill in):\n- agarabi->2419\n- agaw->2420\n- aghu->2421\n- agu->2422\n- ahom->2423\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json; dedicated bases i:2419-2423 in modules/namebases-real.js): agarabi->2419; agaw->2420; aghu->2421; agu->2422; ahom->2423. Verification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=agarabi,agaw,aghu,agu,ahom => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json; dedicated bases i:2419-2423 in modules/namebases-real.js): agarabi->2419; agaw->2420; aghu->2421; agu->2422; ahom->2423. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=agarabi,agaw,aghu,agu,ahom => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T10:45:19.415Z-worker1",
+      "isos": [
+        "ahr",
+        "aht",
+        "ai-cham",
+        "aimele",
+        "air-tamajeq-language"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T10:45:19.415Z",
+      "updatedAt": "2025-12-15T10:45:19.415Z",
+      "reservedRange": [
+        2469,
+        2518
+      ],
+      "notes": "Reserved i range: 2469-2518\nISO->base mapping (fill in):\n- ahr->2469\n- aht->2470\n- ai-cham->2471\n- aimele->2472\n- air-tamajeq-language->2473"
     }
   ]
 }

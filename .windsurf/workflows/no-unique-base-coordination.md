@@ -25,7 +25,7 @@ Provide a single canonical coordination protocol for multi-agent `NO_UNIQ_BASE` 
 Single-integrator lane (team rule):
 
 - Only the integrator runs `pnpm run mixer:apply-deltas` to regenerate committed artifacts.
-- Non-integrators should contribute delta files + claim notes and then hand off for apply + verification.
+- Non-integrators should contribute delta files + claim notes and then hand off for apply + verification. See `.windsurf/workflows/single-integrator-lane.md`.
 
 # Canonical coordination primitives
 

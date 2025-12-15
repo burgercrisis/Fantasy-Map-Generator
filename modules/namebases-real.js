@@ -818,5 +818,22 @@ window.realWorldNameBases = [
       {name: "Agaw (dedicated)", i: 2420, min: 4, max: 11, d: "lnrt", m: 0, b: "agaw_unq1,agaw_unq2,agaw_unq3,agaw_unq4,agaw_unq5,agaw_unq6,agaw_unq7,agaw_unq8,agaw_unq9,agaw_unq10,agaw_unq11,agaw_unq12"},
       {name: "Aghu (dedicated)", i: 2421, min: 4, max: 11, d: "lnrt", m: 0, b: "aghu_unq1,aghu_unq2,aghu_unq3,aghu_unq4,aghu_unq5,aghu_unq6,aghu_unq7,aghu_unq8,aghu_unq9,aghu_unq10,aghu_unq11,aghu_unq12"},
       {name: "Awakatek (dedicated)", i: 2422, min: 4, max: 11, d: "lnrt", m: 0, b: "agu_unq1,agu_unq2,agu_unq3,agu_unq4,agu_unq5,agu_unq6,agu_unq7,agu_unq8,agu_unq9,agu_unq10,agu_unq11,agu_unq12"},
-      {name: "Ahom (dedicated)", i: 2423, min: 4, max: 11, d: "lnrt", m: 0, b: "ahom_unq1,ahom_unq2,ahom_unq3,ahom_unq4,ahom_unq5,ahom_unq6,ahom_unq7,ahom_unq8,ahom_unq9,ahom_unq10,ahom_unq11,ahom_unq12"}
+      {name: "Ahom (dedicated)", i: 2423, min: 4, max: 11, d: "lnrt", m: 0, b: "ahom_unq1,ahom_unq2,ahom_unq3,ahom_unq4,ahom_unq5,ahom_unq6,ahom_unq7,ahom_unq8,ahom_unq9,ahom_unq10,ahom_unq11,ahom_unq12"},
+
+      {name: "Wapan (dedicated)", i: 2424, min: 4, max: 11, d: "lnrt", m: 0, b: "wapan_unq1,wapan_unq2,wapan_unq3,wapan_unq4,wapan_unq5,wapan_unq6,wapan_unq7,wapan_unq8,wapan_unq9,wapan_unq10,wapan_unq11,wapan_unq12"},
+      {name: "Weh (dedicated)", i: 2425, min: 4, max: 11, d: "lnrt", m: 0, b: "weh_unq1,weh_unq2,weh_unq3,weh_unq4,weh_unq5,weh_unq6,weh_unq7,weh_unq8,weh_unq9,weh_unq10,weh_unq11,weh_unq12"},
+      {name: "Wushi (dedicated)", i: 2426, min: 4, max: 11, d: "lnrt", m: 0, b: "wushi_unq1,wushi_unq2,wushi_unq3,wushi_unq4,wushi_unq5,wushi_unq6,wushi_unq7,wushi_unq8,wushi_unq9,wushi_unq10,wushi_unq11,wushi_unq12"},
+      {name: "Yemba (dedicated)", i: 2427, min: 4, max: 11, d: "lnrt", m: 0, b: "yemba_unq1,yemba_unq2,yemba_unq3,yemba_unq4,yemba_unq5,yemba_unq6,yemba_unq7,yemba_unq8,yemba_unq9,yemba_unq10,yemba_unq11,yemba_unq12"},
+      {name: "Zande (dedicated)", i: 2428, min: 4, max: 11, d: "lnrt", m: 0, b: "zande_unq1,zande_unq2,zande_unq3,zande_unq4,zande_unq5,zande_unq6,zande_unq7,zande_unq8,zande_unq9,zande_unq10,zande_unq11,zande_unq12"},
+      {name: "Yoruba (dedicated)", i: 2429, min: 4, max: 11, d: "lnrt", m: 0, b: "yor_unq1,yor_unq2,yor_unq3,yor_unq4,yor_unq5,yor_unq6,yor_unq7,yor_unq8,yor_unq9,yor_unq10,yor_unq11,yor_unq12"},
+      {name: "Wannu (dedicated)", i: 2430, min: 4, max: 11, d: "lnrt", m: 0, b: "wannu_unq1,wannu_unq2,wannu_unq3,wannu_unq4,wannu_unq5,wannu_unq6,wannu_unq7,wannu_unq8,wannu_unq9,wannu_unq10,wannu_unq11,wannu_unq12"},
+      {name: "Yalunka (dedicated)", i: 2431, min: 4, max: 11, d: "lnrt", m: 0, b: "yalunka_unq1,yalunka_unq2,yalunka_unq3,yalunka_unq4,yalunka_unq5,yalunka_unq6,yalunka_unq7,yalunka_unq8,yalunka_unq9,yalunka_unq10,yalunka_unq11,yalunka_unq12"},
+      {name: "Yamba (dedicated)", i: 2432, min: 4, max: 11, d: "lnrt", m: 0, b: "yamba_unq1,yamba_unq2,yamba_unq3,yamba_unq4,yamba_unq5,yamba_unq6,yamba_unq7,yamba_unq8,yamba_unq9,yamba_unq10,yamba_unq11,yamba_unq12"},
+      {name: "Yela-Kela (dedicated)", i: 2433, min: 4, max: 11, d: "lnrt", m: 0, b: "yelakela_unq1,yelakela_unq2,yelakela_unq3,yelakela_unq4,yelakela_unq5,yelakela_unq6,yelakela_unq7,yelakela_unq8,yelakela_unq9,yelakela_unq10,yelakela_unq11,yelakela_unq12"},
+      {name: "Yulu (dedicated)", i: 2434, min: 4, max: 11, d: "lnrt", m: 0, b: "yulu_unq1,yulu_unq2,yulu_unq3,yulu_unq4,yulu_unq5,yulu_unq6,yulu_unq7,yulu_unq8,yulu_unq9,yulu_unq10,yulu_unq11,yulu_unq12"},
+      {name: "Ahirani (dedicated)", i: 2469, min: 4, max: 11, d: "lnrt", m: 0, b: "ahr_unq1,ahr_unq2,ahr_unq3,ahr_unq4,ahr_unq5,ahr_unq6,ahr_unq7,ahr_unq8,ahr_unq9,ahr_unq10,ahr_unq11,ahr_unq12"},
+      {name: "Ahtna (dedicated)", i: 2470, min: 4, max: 11, d: "lnrt", m: 0, b: "aht_unq1,aht_unq2,aht_unq3,aht_unq4,aht_unq5,aht_unq6,aht_unq7,aht_unq8,aht_unq9,aht_unq10,aht_unq11,aht_unq12"},
+      {name: "Ai-Cham (dedicated)", i: 2471, min: 4, max: 11, d: "lnrt", m: 0, b: "aicham_unq1,aicham_unq2,aicham_unq3,aicham_unq4,aicham_unq5,aicham_unq6,aicham_unq7,aicham_unq8,aicham_unq9,aicham_unq10,aicham_unq11,aicham_unq12"},
+      {name: "Aimele (dedicated)", i: 2472, min: 4, max: 11, d: "lnrt", m: 0, b: "aimele_unq1,aimele_unq2,aimele_unq3,aimele_unq4,aimele_unq5,aimele_unq6,aimele_unq7,aimele_unq8,aimele_unq9,aimele_unq10,aimele_unq11,aimele_unq12"},
+      {name: "Air Tamajeq language (dedicated)", i: 2473, min: 4, max: 11, d: "lnrt", m: 0, b: "airtamajeqlanguage_unq1,airtamajeqlanguage_unq2,airtamajeqlanguage_unq3,airtamajeqlanguage_unq4,airtamajeqlanguage_unq5,airtamajeqlanguage_unq6,airtamajeqlanguage_unq7,airtamajeqlanguage_unq8,airtamajeqlanguage_unq9,airtamajeqlanguage_unq10,airtamajeqlanguage_unq11,airtamajeqlanguage_unq12"}
     ];

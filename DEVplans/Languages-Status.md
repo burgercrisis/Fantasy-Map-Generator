@@ -1626,14 +1626,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 241
+  - `Nonunique Bases:` 175
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 277
-  - `clustered bases:` 0
-  - `clustered full items:` 0
-  - `cluster size histogram:` size2=0, size3=0, size4+=0
-  - `clustered isos:` (none)
+  - `unique bases:` 275
+  - `clustered bases:` 2
+  - `clustered full items:` 2
+  - `cluster size histogram:` size2=2, size3=0, size4+=0
+  - `clustered isos:` tagoi(2), wali-sudan(2)
 
 - **Notes / next steps:**
   - ✅ **2025-12-15 (verified):** Cleared the last four base-set collisions for this list (`baka`, `bube`, `saya-chadic`, `tamil`) by adding dedicated bases `945–948` in `modules/namebases-real.js` and pinning them via delta `tools/mixer-deltas/2025-12-15-worker37-africa-uniqueness.json` (applied with `pnpm run mixer:apply-deltas`). Base-set uniqueness for the full Africa list is now `clustered bases: 0`.
@@ -1645,7 +1645,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Began burn-down of the largest remaining `Nonunique Bases` hub (bases `112/113`) by pinning `abon,abron,acheron,adara,aghem,aiki,aja,aka,ambele,ambo,amdang,amira,babanki,baca,bangala` to dedicated bases `2004–2018` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch1.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `bangi,bangolan,bomboli-bozaba,bomboma,boze,bozo,buu,dagaare,dagbani,djimini,doghose,dogoso,eton,evant,fongoro` to dedicated bases `2019–2033` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch2.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `207`.
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `fungor,fur,ghomala,gikuyu,goundo,gourmanche,gumuz,gwari,gyong,hakaona,hanga,saari,samwe,shwai,sighu` to dedicated bases `2034–2048` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch3.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `192`.
-  - **2025-12-15 (prepared; pending integrator apply-deltas):** Next `112/113` batch prepared by pinning `siwu,southeast-ijo,southern-birifor,susu,tagwana,talni,tikar,tiro,twi,vengo,viemo,viti,vori,voro,wali-ghana` to dedicated bases `2049–2063` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch4.json` and adding the corresponding dedicated base definitions in `modules/namebases-real.js`. Read-only checks passed (`apply-mixer-deltas.js --check`, coverage 0 missing, failures 0 failing, seed-uniqueness for the 15 => 0 failures). To finalize metrics + artifacts, an integrator should run `pnpm run mixer:apply-deltas`.
+  - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `siwu,southeast-ijo,southern-birifor,susu,tagwana,talni,tikar,tiro,twi,vengo,viemo,viti,vori,voro,wali-ghana` to dedicated bases `2049–2063` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch4.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `175`.
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
@@ -1763,21 +1763,21 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 189 (100.0%)
+  - `fully wired:` 193 (87.3%)
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 0
+  - `missing both:` 4
+  - `unmatched:` 24
   - `ambiguous:` 0
-  - `skipped:` 55
-  - `Nonunique Bases:` 174
+  - `skipped:` 23
+  - `Nonunique Bases:` 203
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 100
-  - `clustered bases:` 91
-  - `clustered full items:` 91
-  - `cluster size histogram:` size2=22, size3=10, size4+=59
-  - `clustered isos:` aht(46), chp(46), dgr(46), eyak(46), gwi(46), haa(46), hoi(46), ing(46), kalaallisut(46), koy(46), kuu(46), tau(46), tfn(46), ano(11), cag(11), coe(11), con(11), cub(11), des(11), enl(11), fun(11), gvc(11), ite(11), ito(11), jup(11), kanamari(11), lec(11), macuna(11), moc(11), noa(11), snn(11), sri(11), tav(11), tuo(11), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), xav(4), xer(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), tcb(3), wayuu(3), yag(3), ayo(2), bwi(2), caa(2), cac(2), coz(2), cro(2), cui(2), ems(2), gub(2), guh(2), gyr(2), ixc(2), kashinawa(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), srq(2), ter(2), tew(2)
+  - `unique bases:` 105
+  - `clustered bases:` 88
+  - `clustered full items:` 88
+  - `cluster size histogram:` size2=21, size3=9, size4+=58
+  - `clustered isos:` chp(44), dgr(44), eyak(44), gwi(44), haa(44), hoi(44), ing(44), kalaallisut(44), koy(44), kuu(44), tau(44), tfn(44), ano(11), cag(11), coe(11), con(11), cub(11), des(11), enl(11), fun(11), gvc(11), ite(11), ito(11), jup(11), kanamari(11), lec(11), macuna(11), moc(11), noa(11), snn(11), sri(11), tav(11), tuo(11), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), xav(4), xer(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), wayuu(3), yag(3), ayo(2), bwi(2), coz(2), cro(2), cui(2), gub(2), guh(2), gyr(2), ixc(2), kashinawa(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), srq(2), tcb(2), ter(2), tew(2), zoq(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
