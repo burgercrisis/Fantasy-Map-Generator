@@ -34,6 +34,23 @@
       "startedAt": "2025-12-15T22:09:52.759Z",
       "updatedAt": "2025-12-15T22:28:33.482Z",
       "notes": "Decluster bases=[120,145] cross-family collision: tagoi (Niger-Congo) vs wali-sudan (Nilo-Saharan). Base names: 120=Ewe, 145=Ganza (from modules/namebases-fantasy.js). Plan: delta setBases tagoi->[120], wali-sudan->[145]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete.\n\n\\nVERIFIED: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json. Diagnostics: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: bases=[120,145] hits=0; tagoi bases=[120]; wali-sudan bases=[145]."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T23:32:36.535Z-worker1",
+      "basesKey": "530,533",
+      "bases": [
+        530,
+        533
+      ],
+      "isos": [
+        "longsang-zhuang",
+        "cao-miao"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T23:32:36.535Z",
+      "updatedAt": "2025-12-15T23:32:36.535Z",
+      "notes": "Decluster bases=[530,533] cross-family collision: longsang-zhuang (Tai-Kadai) vs cao-miao (Kam-Sui). Base names: 530=Zhuang, 533=Kam-Sui (from modules/namebases-fantasy.js). Plan: delta setBases longsang-zhuang->[530], cao-miao->[532,533]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete."
     }
   ]
 }

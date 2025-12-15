@@ -37,9 +37,13 @@ Before claiming or editing any coordination files, run:
 pnpm exec -- node tools/mixer-diagnostics/claims-dashboard.js
 ```
 
-## 1) Workstream claim (Memory)
+## 1) Workstream claim (Hub)
 
-Before editing any files, claim your workstream in MCP Memory with:
+Before editing any files, claim your workstream in the MCP Coordination Hub using:
+
+- `mcp5_workstream_create` (or `mcp5_workstream_update` if resuming)
+
+Include:
 
 - owner
 - goal
@@ -47,6 +51,10 @@ Before editing any files, claim your workstream in MCP Memory with:
 - constraints
 - status=in_progress
 - short plan (2-5 milestones)
+
+Before touching any claimed file/scope, acquire a hub lock using:
+
+- `mcp5_lock_acquire` with a stable resource string like `file:<repo-relative-path>` or `scope:<subsystem>`
 
 ## 2) Shared claims log
 

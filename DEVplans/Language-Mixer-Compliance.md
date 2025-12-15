@@ -17,6 +17,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-free coordination (no `mcp-coordination-hub`); each agent must claim scope via the relevant repo-local claims file(s) (or a status-only `/DEVplans/**/*.md` note) before edits, then mark it done with verification evidence + handoff notes; ISO-level coordination continues via `tools/mixer-diagnostics/_no_uniq_base_claims.json` (use `tools/mixer-diagnostics/no-uniq-base-claim.js`, do not hand-edit the JSON).
 
+- 2025-12-15: Updated `.windsurf/workflows/no-unique-base-coordination.md` to reference MCP Coordination Hub workstream + lock tools (`mcp5_workstream_*`, `mcp5_lock_*`) instead of legacy MCP Memory tooling.
+
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
