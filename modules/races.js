@@ -765,6 +765,92 @@ function ensureRaceMixerBaseIndex(raceName, options) {
     const base = nameBases[existing];
     if (base && !base.raceMixerFor) base.raceMixerFor = raceName;
 
+    const shouldRefreshExistingSeedBlob = (() => {
+      if (!base || typeof base.b !== "string") return false;
+      if (!Names || typeof Names.getMixedByIso !== "function") return false;
+      if (options && options.refresh) return true;
+      try {
+        const count = base.b.split(",").filter(Boolean).length;
+        if (count < 80) return true;
+      } catch (e) {
+        return true;
+      }
+
+      try {
+        const classicBases = fantasyRaceBases[raceName];
+        if (Array.isArray(classicBases)) {
+          for (const baseIndex of classicBases) {
+            const classic = nameBases[baseIndex];
+            if (classic && typeof classic.b === "string" && classic.b === base.b) return true;
+          }
+        }
+      } catch (e) {}
+
+      return false;
+    })();
+
+    if (shouldRefreshExistingSeedBlob) {
+      const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
+      const primaryIsoWeights = getRaceLanguageIsoWeights(raceName);
+      const isoWeights = primaryIsoWeights || fallbackIsoWeights;
+
+      if (isoWeights) {
+        const count = (options && options.count) || 240;
+        const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer`;
+        const mixSeed = hashStringToUint32(seedSource);
+
+        const getSanitized = weights => {
+          let names;
+          try {
+            names = Names.getMixedByIso(weights, {count, seed: mixSeed});
+          } catch (e) {
+            return null;
+          }
+
+          if (!Array.isArray(names) || names.length < 3) return null;
+
+          const sanitized = names
+            .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+            .filter(Boolean);
+
+          if (sanitized.length < 3) return null;
+          return sanitized;
+        };
+
+        let sanitized = getSanitized(isoWeights);
+        if (!sanitized && primaryIsoWeights && fallbackIsoWeights) {
+          sanitized = getSanitized(fallbackIsoWeights);
+        }
+
+        if (sanitized) {
+          let min = 4;
+          let max = 12;
+          try {
+            const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
+            const q = p => lengths[Math.floor(p * (lengths.length - 1))];
+            const p25 = q(0.25);
+            const p75 = q(0.75);
+            const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
+            const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
+            min = computedMin;
+            max = computedMax;
+          } catch (e) {}
+
+          base.b = sanitized.join(",");
+          base.min = min;
+          base.max = max;
+          base.d = "";
+          base.m = 0;
+
+          if (Names && typeof Names.updateChain === "function") {
+            try {
+              Names.updateChain(existing);
+            } catch (e) {}
+          }
+        }
+      }
+    }
+
     if (base && typeof base.name === "string" && base.name === getRaceMixerBaseDisplayName(raceName)) {
       const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
       const primaryIsoWeights = getRaceLanguageIsoWeights(raceName);

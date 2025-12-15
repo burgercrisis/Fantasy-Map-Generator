@@ -214,10 +214,10 @@ function loadNamebaseIndices() {
     let src;
     try {
       src = decodeTextFile(fs.readFileSync(file));
-      // Defensive: if a UTF-16-ish file is mis-decoded as UTF-8, the resulting
-      // string can contain embedded NULs, which prevents regex matching.
-      // Stripping NULs keeps index detection robust across encodings.
-      src = src.replace(/\u0000/g, "");
+      src = src.normalize("NFKC");
+      src = src.replace(/[\u200B\u200C\u200D\uFEFF]/g, "");
+      src = src.replace(/\u0456/g, "i");
+      src = src.replace(/[\uFF1A\uFE55\u2236]/g, ":");
     } catch (e) {
       if (e && e.code === "ENOENT") continue;
       throw e;
