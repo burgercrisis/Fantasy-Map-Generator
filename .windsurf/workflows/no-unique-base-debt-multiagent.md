@@ -63,6 +63,7 @@ Instead of editing the claims JSON by hand, use:
 
 ```bash
 pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=<NUM> --isos=<comma-separated isos> --status=in_progress
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=<NUM> --iso=<iso1> --iso=<iso2> --status=in_progress
 ```
 
 This will append a claim entry, reserve the next available `i:` range, prevent ISO overlap with other `in_progress` claims, and write `_no_uniq_base_claims.json` as UTF-8 without BOM.
@@ -93,10 +94,13 @@ Rules:
 
 1. Pick a `workerId` not currently used by any `claims[*].workerId` that is `in_progress`.
 2. Choose an ISO batch that is not already present in any other `in_progress` claim.
-3. When finished (or blocked), update your claim:
-   - `status`: `complete` or `stalled`
-   - update `updatedAt`
-   - add a short `notes` update
+3. When finished (or blocked), update your claim (preferred: by `batchId`, under a lock):
+   - Append notes / set `updatedAt`:
+     - `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --appendNotes --notes="..."`
+   - Mark complete:
+     - `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=complete`
+   - Mark stalled:
+     - `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=stalled --appendNotes --notes="BLOCKER: ..."`
 4. If there are no unclaimed ISOs in your scan window, pick the oldest `in_progress` claim and mark it `stalled` (do not delete it), then claim a different batch.
 
 5. Before adding any new base indices (`i:`) in `modules/namebases-*.js`, reserve an index range and record it in your claim `notes`:

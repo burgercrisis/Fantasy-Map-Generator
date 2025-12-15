@@ -1108,14 +1108,14 @@
         "proven-al",
         "put-r"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T01:09:16.091Z",
-      "updatedAt": "2025-12-15T01:09:16.091Z",
+      "updatedAt": "2025-12-15T01:15:26Z",
       "reservedRange": [
         1180,
         1229
       ],
-      "notes": ""
+      "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 1180-1229\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker58-romance.json and compiled with pnpm run mixer:apply-deltas):\n- por->1180\n- proto-eastern-romance->1181\n- proto-romance->1182\n- proven-al->1183\n- put-r->1184\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=por,proto-eastern-romance,proto-romance,proven-al,put-r\" --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nRemaining seed-uniqueness debt lines: none."
     }
   ]
 }
