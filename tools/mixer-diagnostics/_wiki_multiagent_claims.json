@@ -243,6 +243,43 @@
       "startedAt": "2025-12-15T22:18:53.405Z",
       "updatedAt": "2025-12-15T22:18:53.405Z",
       "note": "/wikipedia1 continue: starting next target after AU living-2019 completion. Next steps: run report-wikipedia-list-coverage, then handle any missing/unmatched, then address Nonunique Bases + race coverage."
+    },
+    {
+      "workerId": 5,
+      "target": "tools/mixer-meta/wikipedia-languages-of-west-asia.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T22:37:09.430Z",
+      "updatedAt": "2025-12-15T22:37:09.430Z",
+      "note": "Starting /wikipedia1 pass (non-integrator): run coverage + base-uniqueness + race-coverage, then prep delta-only batches if needed."
+    },
+    {
+      "workerId": 6,
+      "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T22:40:43.359Z",
+      "updatedAt": "2025-12-15T22:40:43.359Z",
+      "note": "/wikipedia1 continue: Oceania (workerId=4) and West Asia (workerId=5) are already in_progress; claiming China spoken languages to avoid overlap. Next: coverage + base-uniqueness/nonunique-bases + race coverage, then wire next 3–7."
+    },
+    {
+      "workerId": 7,
+      "target": "tools/mixer-meta/wikipedia-australian-languages-bowern-2011.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "complete",
+      "startedAt": "2025-12-15T22:42:40.524Z",
+      "updatedAt": "2025-12-15T22:47:26.356Z",
+      "note": "/wikipedia1 continue: verify AU Bowern (2011) list\n\nVerified list is fully represented (considered=1, skipped=20): report-wikipedia-list-coverage => fully wired 1/1, Nonunique Bases 0; report-wikipedia-list-base-uniqueness => clustered bases 0; report-wikipedia-list-race-coverage => tiwi RaceCount=2 (Deepkin,Tortle).",
+      "finishedAt": "2025-12-15T22:47:26.356Z"
+    },
+    {
+      "workerId": 8,
+      "target": "tools/mixer-meta/wikipedia-languages-of-europe.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T22:48:55.309Z",
+      "updatedAt": "2025-12-15T22:48:55.309Z",
+      "note": "/wikipedia1 continue: start EU list (coverage -> uniqueness -> race)"
     }
   ]
 }

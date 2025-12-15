@@ -1679,12 +1679,31 @@
       ],
       "status": "in_progress",
       "startedAt": "2025-12-15T22:23:51.367Z",
-      "updatedAt": "2025-12-15T22:23:51.367Z",
+      "updatedAt": "2025-12-15T22:35:24.220Z",
       "reservedRange": [
         2719,
         2768
       ],
-      "notes": "Reserved i range: 2719-2768\nISO->base mapping (fill in):\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723"
+      "notes": "Reserved i range: 2719-2768\nISO->base mapping (fill in):\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723\n\nHandoff prep (single-integrator lane)\n\nReserved i range: 2719-2768\nISO->base mapping:\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723\n\nDelta pins: tools/mixer-deltas/2025-12-15-worker1-mixed-aku.json\nDedicated base defs: modules/namebases-creole.js i:2719-2723\n\nNon-integrator checks to run:\n- node --check modules/namebases-creole.js\n- pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check\n\nIntegrator next steps:\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha --limit=300\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nThen: mark this claim status=complete and add a status-only ✅ entry in DEVplans/Languages-Status.md."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-15T22:35:25.510Z-worker2",
+      "isos": [
+        "alchuka",
+        "alekano",
+        "algonquian-basque-pidgin",
+        "allar",
+        "almosan"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T22:35:25.510Z",
+      "updatedAt": "2025-12-15T22:35:25.510Z",
+      "reservedRange": [
+        2769,
+        2818
+      ],
+      "notes": "Reserved i range: 2769-2818\nISO->base mapping (fill in):\n- alchuka->2769\n- alekano->2770\n- algonquian-basque-pidgin->2771\n- allar->2772\n- almosan->2773"
     }
   ]
 }

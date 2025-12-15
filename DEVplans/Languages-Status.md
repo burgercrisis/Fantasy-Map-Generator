@@ -182,10 +182,15 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A5-batch / worker1):** pinned dedicated bases `2519–2523` for `ais`, `ait-seghrouchen-berber`, `aiton`, `ajawa-language`, `akan` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`. Re-verified 2025-12-15: seed-uniqueness Target ISOs=5; coverage missing=0; failures=0.
 
 
-- **2025-12-15 NO_UNIQ_BASE2 BLOCKER (Uralic mini-batch / worker1):** `ala-satakunta`, `american-finnish`, `avam`, `berjozov`, `besermyan` pinned to dedicated bases `2569–2573` (delta: `tools/mixer-deltas/2025-12-15-worker1-uralic-ala-satakunta.json`). Claim `batchId=2025-12-15T14:01:58.417Z-worker1` is `stalled`: `pnpm run mixer:check-deltas` currently fails with `[apply-mixer-deltas] Artifacts are out of date vs deltas: config/language-mixer-map.json (and config/language-mixer-map.js) need update`; needs integrator to run `pnpm run mixer:apply-deltas`.
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Uralic mini-batch / worker1):** pinned dedicated bases `2569–2573` for `ala-satakunta`, `american-finnish`, `avam`, `berjozov`, `besermyan` (via `tools/mixer-deltas/2025-12-15-worker1-uralic-ala-satakunta.json`; base defs in `modules/namebases-real.js`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-15T22:26:33.606Z).
 
 
-- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed Arafundi-Enga Pidgin + Aramaic batch / worker1):** pinned dedicated bases `2619–2623` for `arafundi-enga-pidgin`, `aramaic`, `aranadan`, `arawak`, `argobba` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-arafundi-enga-pidgin.json`; base defs in `modules/namebases-real.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:apply-deltas`, `pnpm run mixer:check-deltas`, seed-uniqueness `--only-failures` (0 failures), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-15T22:20:52.322Z).
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed Arafundi-Enga Pidgin + Aramaic batch / worker1):** pinned dedicated bases `2619–2623` for `arafundi-enga-pidgin`, `aramaic`, `aranadan`, `arawak`, `argobba` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-arafundi-enga-pidgin.json`; base defs in `modules/namebases-real.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures` (`'--only-isos=arafundi-enga-pidgin,aramaic,aranadan,arawak,argobba'`) => Target ISOs:5; Missing mapping:0; `NO_UNIQ_BASE`:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-15T22:28:49.345Z).
+
+
+- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** in_progress=2 (per pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard). Active: workerId=1 batchId=2025-12-15T22:23:51.367Z-worker1 reservedRange=2719–2768 isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha; workerId=2 batchId=2025-12-15T22:35:25.510Z-worker2 reservedRange=2769–2818 isos=alchuka,alekano,algonquian-basque-pidgin,allar,almosan. Next suggested reserved range: 2819–2868 (suggestedWorkerId 3; maxUsedI 2683; maxReservedIndex 2818).
+
+
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A4-batch / worker1):** pinned dedicated bases `2469–2473` for `ahr`, `aht`, `ai-cham`, `aimele`, `air-tamajeq-language` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
@@ -1591,7 +1596,6 @@ These are higher-level tools and helpers that sit on top of the existing Markov 
 ---
 
 
-
 ## 8. Wikipedia language list coverage registry
 
 This section tracks the Wikipedia-derived language lists that drive language catalog and mixer coverage. For each list we record its JSON path, source URL, what part of the system it informs, and how to re-run the coverage / base-uniqueness helpers. The registry also notes **planned** list JSONs so regional coverage goals stay visible before the corresponding files exist.
@@ -1599,6 +1603,15 @@ This section tracks the Wikipedia-derived language lists that drive language cat
 Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-coverage-in-devplan.js`; do **not** hand-edit the per-list `Snapshot from last run` blocks.
 
 - ✅ **2025-12-13 (verified):** Per-list snapshot maintenance is now unified: `update-wikipedia-list-coverage-in-devplan.js` writes the standardized coverage + `Nonunique Bases` + base-set uniqueness details block, and `report-wikipedia-list-coverage.js` / `report-wikipedia-list-base-uniqueness.js` can trigger that devplan update directly. `run-language-mixer-suite.js` can also refresh all registered Wikipedia list snapshots end-to-end.
+
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`.
+
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`.
+
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)` (`tools/mixer-meta/wikipedia-australian-languages-living-2019.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after dedicated pins batches 1–6 (`1712–1777`). Verification includes: `pnpm exec -- node tools/mixer-core/report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json` and `pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json`.
+
+Important distinction:
+
 - The snapshot’s `fully wired` count is a **coverage** metric only: an item is counted as `fully wired` when it exists in both `config/language-mixes.json` and `config/language-mixer-map.json`.
 - The project goal of a list being **fully represented** is stricter: coverage **plus** globally unique `bases[]` (base-uniqueness) **plus** race reachability.
 
@@ -2045,14 +2058,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 59
-  - `Nonunique Bases:` 156
+  - `Nonunique Bases:` 152
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 153
-  - `clustered bases:` 11
-  - `clustered full items:` 11
-  - `cluster size histogram:` size2=11, size3=0, size4+=0
-  - `clustered isos:` central-plains-mandarin(2), eng(2), lan-yin-mandarin(2), northeastern-mandarin(2), southwestern-mandarin(2), sui-lang(2), tai-dam(2), tai-ya(2), taishanese(2), wutunhua(2), yi(2)
+  - `unique bases:` 154
+  - `clustered bases:` 10
+  - `clustered full items:` 10
+  - `cluster size histogram:` size2=10, size3=0, size4+=0
+  - `clustered isos:` central-plains-mandarin(2), lan-yin-mandarin(2), northeastern-mandarin(2), southwestern-mandarin(2), sui-lang(2), tai-dam(2), tai-ya(2), taishanese(2), wutunhua(2), yi(2)
 
 - **Status notes:** Coverage is now complete for this list (`fully wired` = 100% of considered). Next work is base-uniqueness declustering (still high `Nonunique Bases`) and confirming/adjusting race reachability where needed. ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the Koreanic `bases=[10]` mega-cluster (kept `kor` as the anchor while moving dialect/lect entries onto unique `[10,...]` mixes); per-list base-set uniqueness moved from `clustered bases=60` to `clustered bases=58` and `run-language-mixer-suite` is green (**0** failures).
 
@@ -2588,7 +2601,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 20
-  - `Nonunique Bases:` 1
+  - `Nonunique Bases:` 0
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 1
   - `clustered bases:` 0
@@ -2943,3 +2956,4 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `clustered full items:` 0
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
+

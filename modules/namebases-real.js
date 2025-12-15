@@ -852,9 +852,11 @@ window.realWorldNameBases = [
       {name: "Arawak (dedicated)", i: 2622, min: 4, max: 11, d: "lnrt", m: 0, b: "arawak_unq1,arawak_unq2,arawak_unq3,arawak_unq4,arawak_unq5,arawak_unq6,arawak_unq7,arawak_unq8,arawak_unq9,arawak_unq10,arawak_unq11,arawak_unq12"},
       {name: "Argobba (dedicated)", i: 2623, min: 4, max: 11, d: "lnrt", m: 0, b: "argobba_unq1,argobba_unq2,argobba_unq3,argobba_unq4,argobba_unq5,argobba_unq6,argobba_unq7,argobba_unq8,argobba_unq9,argobba_unq10,argobba_unq11,argobba_unq12"},
 
-      {name: "Ainu (dedicated)", i: 2674, min: 4, max: 11, d: "lnrt", m: 0, b: "ainu_unq1,ainu_unq2,ainu_unq3,ainu_unq4,ainu_unq5,ainu_unq6,ainu_unq7,ainu_unq8,ainu_unq9,ainu_unq10,ainu_unq11,ainu_unq12"},
-      {name: "Aka-Jeru (dedicated)", i: 2675, min: 4, max: 11, d: "lnrt", m: 0, b: "akj_unq1,akj_unq2,akj_unq3,akj_unq4,akj_unq5,akj_unq6,akj_unq7,akj_unq8,akj_unq9,akj_unq10,akj_unq11,akj_unq12"},
-      {name: "Akkadian (dedicated)", i: 2676, min: 4, max: 11, d: "lnrt", m: 0, b: "akkadian_unq1,akkadian_unq2,akkadian_unq3,akkadian_unq4,akkadian_unq5,akkadian_unq6,akkadian_unq7,akkadian_unq8,akkadian_unq9,akkadian_unq10,akkadian_unq11,akkadian_unq12"},
-      {name: "Aka-Bo (dedicated)", i: 2677, min: 4, max: 11, d: "lnrt", m: 0, b: "akm_unq1,akm_unq2,akm_unq3,akm_unq4,akm_unq5,akm_unq6,akm_unq7,akm_unq8,akm_unq9,akm_unq10,akm_unq11,akm_unq12"},
-      {name: "Akoye (dedicated)", i: 2678, min: 4, max: 11, d: "lnrt", m: 0, b: "akoye_unq1,akoye_unq2,akoye_unq3,akoye_unq4,akoye_unq5,akoye_unq6,akoye_unq7,akoye_unq8,akoye_unq9,akoye_unq10,akoye_unq11,akoye_unq12"}
+      {name: "Ainu (dedicated)", i: 2669, min: 4, max: 11, d: "lnrt", m: 0, b: "ainu_unq1,ainu_unq2,ainu_unq3,ainu_unq4,ainu_unq5,ainu_unq6,ainu_unq7,ainu_unq8,ainu_unq9,ainu_unq10,ainu_unq11,ainu_unq12"},
+      {name: "Aka-Jeru (dedicated)", i: 2670, min: 4, max: 11, d: "lnrt", m: 0, b: "akj_unq1,akj_unq2,akj_unq3,akj_unq4,akj_unq5,akj_unq6,akj_unq7,akj_unq8,akj_unq9,akj_unq10,akj_unq11,akj_unq12"},
+      {name: "Akkadian (dedicated)", i: 2671, min: 4, max: 11, d: "lnrt", m: 0, b: "akkadian_unq1,akkadian_unq2,akkadian_unq3,akkadian_unq4,akkadian_unq5,akkadian_unq6,akkadian_unq7,akkadian_unq8,akkadian_unq9,akkadian_unq10,akkadian_unq11,akkadian_unq12"},
+      {name: "Aka-Bo (dedicated)", i: 2672, min: 4, max: 11, d: "lnrt", m: 0, b: "akm_unq1,akm_unq2,akm_unq3,akm_unq4,akm_unq5,akm_unq6,akm_unq7,akm_unq8,akm_unq9,akm_unq10,akm_unq11,akm_unq12"},
+      {name: "Akoye (dedicated)", i: 2673, min: 4, max: 11, d: "lnrt", m: 0, b: "akoye_unq1,akoye_unq2,akoye_unq3,akoye_unq4,akoye_unq5,akoye_unq6,akoye_unq7,akoye_unq8,akoye_unq9,akoye_unq10,akoye_unq11,akoye_unq12"}
     ];
+
+module.exports = nameBases;
