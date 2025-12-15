@@ -241,7 +241,12 @@ function editHeightmap(options) {
     rankCells();
 
     Cultures.generate();
+    if (typeof initializeRacesForExpansion === "function") {
+      initializeRacesForExpansion({forceFilterFromUi: true});
+    }
     Cultures.expand();
+
+    if (typeof assignRaces === "function") assignRaces();
 
     BurgsAndStates.generate();
     Routes.generate();
