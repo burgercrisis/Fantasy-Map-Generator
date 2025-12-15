@@ -179,6 +179,15 @@
       "note": "Added dedicated bases 1505-1507 + delta dedicatedPins for zhire,zhoa,tadaksahak; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE, coverage 0 missing, failures 0 failing"
     },
     {
+      "workerId": 39,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "nonunique_bases_burn_down_base112_113_batch1",
+      "status": "complete",
+      "startedAt": "2025-12-15T07:54:29Z",
+      "finishedAt": "2025-12-15T08:11:32Z",
+      "note": "Added dedicated bases 2004-2018 + delta dedicatedPins for abon,abron,acheron,adara,aghem,aiki,aja,aka,ambele,ambo,amdang,amira,babanki,baca,bangala; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, failures 0 failing, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE"
+    },
+    {
       "workerId": 41,
       "target": "tools/mixer-meta/wikipedia-papuan-families-foley-2003.json",
       "scope": "coverage_skip_annotations",
@@ -186,6 +195,14 @@
       "startedAt": "2025-12-15T04:26:06Z",
       "finishedAt": "2025-12-15T04:34:06Z",
       "note": "Marked all family-level rows skip:true and refreshed DEVplans snapshot"
+    },
+    {
+      "workerId": 1,
+      "target": "tools/mixer-meta/wikipedia-languages-of-north-america.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T08:11:02.188Z",
+      "note": "Re-claimed after stale triage; resuming coverage + uniqueness + race pass."
     }
   ]
 }

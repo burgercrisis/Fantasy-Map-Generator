@@ -61,6 +61,8 @@ function unionInto(target, source) {
 }
 
 function main() {
+  const args = process.argv.slice(2);
+
   // Get all commits that ever touched the catalog or map JSON files.
   let logOutput;
   try {
@@ -110,6 +112,15 @@ function main() {
     return count;
   }
 
+  function diffList(a, b) {
+    const out = [];
+    for (const v of a) {
+      if (!b.has(v)) out.push(v);
+    }
+    out.sort();
+    return out;
+  }
+
   const summary = {
     repoRoot: root,
     commitsScanned: commits.length,
@@ -131,6 +142,26 @@ function main() {
   };
 
   writeJson("tools/mixer-diagnostics/_language-history-totals.json", summary);
+
+  if (args.includes("--write-losses") || args.includes("--print-losses")) {
+    const losses = {
+      fromMix: diffList(historyMixIsos, currentMixIsos),
+      fromMap: diffList(historyMapIsos, currentMapIsos),
+      fromAll: diffList(historyAllIsos, currentAllIsos),
+    };
+
+    if (args.includes("--write-losses")) {
+      writeJson("tools/mixer-diagnostics/_language-history-losses.json", losses);
+    }
+
+    if (args.includes("--print-losses")) {
+      console.log("\nLost ISO list (history minus current):");
+      console.log("  from catalog:", losses.fromMix.join(", "));
+      console.log("  from map:", losses.fromMap.join(", "));
+      console.log("  from all:", losses.fromAll.join(", "));
+    }
+  }
+
   console.log("Commits scanned:", summary.commitsScanned);
   console.log("History totals:");
   console.log("  catalog ISOs:", summary.history.mixTotal);

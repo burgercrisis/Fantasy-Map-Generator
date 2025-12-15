@@ -154,6 +154,8 @@ After any edits:
    pnpm run mixer:apply-deltas
    ```
 
+   Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself.
+
 2. Run core checks:
 
    ```bash

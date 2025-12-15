@@ -29,6 +29,7 @@ This is the Worker 1 workflow: run the report at the start of each session, take
   - Edit base definitions in `modules/namebases-*.js` (append-only)
   - Add a delta file under `tools/mixer-deltas/*.json` (`setBases` / `dedicatedPins` / `appendBases`)
   - Run `pnpm run mixer:apply-deltas`
+  - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas` or regenerate committed artifacts; hand off the delta + notes to the integrator for apply + verification.
 
 # Scope and posture
 

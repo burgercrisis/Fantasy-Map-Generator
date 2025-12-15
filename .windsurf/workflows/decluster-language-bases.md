@@ -136,6 +136,8 @@ The high-level rules you must respect:
    pnpm run mixer:apply-deltas
    ```
 
+   Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself.
+
 ---
 
 ## 5. Re-run diagnostics and verify declustering

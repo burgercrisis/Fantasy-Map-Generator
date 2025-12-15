@@ -1393,12 +1393,30 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T07:43:43.558Z",
-      "updatedAt": "2025-12-15T08:04:23.555Z",
+      "updatedAt": "2025-12-15T08:06:39.185Z",
       "reservedRange": [
         1954,
         2003
       ],
-      "notes": "Reserved i range: 1954-2003\nISO->base mapping (fill in):\n- vivaro-alpine->1954\n- vosgien->1955\n- wallachian->1956\n- welche->1957\n- west-walloon->1958\n\nISO->base mapping applied:\\n- vivaro-alpine->1954\\n- vosgien->1955\\n- wallachian->1956\\n- welche->1957\\n- west-walloon->1958\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=vivaro-alpine,vosgien,wallachian,welche,west-walloon --limit=300 => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (0 clusters)"
+      "notes": "Reserved i range: 1954-2003\nISO->base mapping (fill in):\n- vivaro-alpine->1954\n- vosgien->1955\n- wallachian->1956\n- welche->1957\n- west-walloon->1958\n\nISO->base mapping applied:\\n- vivaro-alpine->1954\\n- vosgien->1955\\n- wallachian->1956\\n- welche->1957\\n- west-walloon->1958\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=vivaro-alpine,vosgien,wallachian,welche,west-walloon --limit=300 => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (0 clusters)\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-romance-vivaro-alpine.json; bases i:1954-1958 in modules/namebases-real.js; compiled via pnpm run mixer:apply-deltas): vivaro-alpine->1954; vosgien->1955; wallachian->1956; welche->1957; west-walloon->1958. Verification: pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=vivaro-alpine,vosgien,wallachian,welche,west-walloon => No globally-unique base index: 0; strict failures: 0; norm failures: 0. Coverage: 0 missing. Failures: 0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-15T08:14:55.146Z-worker2",
+      "isos": [
+        "western-aragonese",
+        "western-catalan",
+        "western-sicilian",
+        "wisconsin-walloon"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T08:14:55.146Z",
+      "updatedAt": "2025-12-15T08:14:55.146Z",
+      "reservedRange": [
+        2019,
+        2068
+      ],
+      "notes": "Reserved i range: 2019-2068\nISO->base mapping (fill in):\n- western-aragonese->2019\n- western-catalan->2020\n- western-sicilian->2021\n- wisconsin-walloon->2022"
     }
   ]
 }
