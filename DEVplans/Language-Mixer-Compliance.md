@@ -8,6 +8,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
 
+- 2025-12-14: Repaired `tools/mixer-core/diff-language-families.js` to load the generated catalog from `globalThis.languageMixerCatalog` (current `config/language-mixes-all.js` export), unblocking `tools/mixer-core/run-language-mixer-health.js`.
+
 - Family macros (`tags: ["family"]`) are organizational entries:
   - they are expected to be skipped by the mixer UI and by “failure” checks
   - they are still required to have mappings (per `DEVplans/Language-Mixer-Rules.md`)

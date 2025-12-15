@@ -89,6 +89,13 @@
       "status": "complete",
       "startedAt": "2025-12-13T16:02:00Z",
       "finishedAt": "2025-12-13T18:10:00Z"
+    },
+    {
+      "workerId": 37,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T00:03:46Z"
     }
   ]
 }

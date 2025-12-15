@@ -1022,6 +1022,26 @@
       "startedAt": "2025-12-14T23:09:55Z",
       "updatedAt": "2025-12-14T23:09:55Z",
       "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 930-979\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker54-parmigiano.json and compiled with pnpm run mixer:apply-deltas):\n- parmigiano->930\n- pavese->931\n- peruvian-ribere-o->932\n- peruvian-spanish->933\n- pesciatino->934\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=parmigiano,pavese,peruvian-ribere-o,peruvian-spanish,pesciatino\" --limit=120 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)"
+    },
+    {
+      "workerId": 55,
+      "batchId": "2025-12-14T23:59:24Z-worker55",
+      "isos": [
+        "bjarmian-finnic",
+        "proto-sami",
+        "forest-nenets",
+        "proto-finnic",
+        "southwestern-finnish",
+        "proto-uralic",
+        "proto-karelian",
+        "proto-permic",
+        "somero-region",
+        "j-mtland"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-14T23:59:24Z",
+      "updatedAt": "2025-12-15T00:03:07Z",
+      "notes": "In progress. Uralic base-set collision + NO_UNIQ_BASE declustering slice.\n\nReserved i range: 980-1029 (intentionally unused in this batch; using existing dedicated bases 935-944).\n\nISO->base mapping applied (via tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json + pnpm run mixer:apply-deltas):\n- bjarmian-finnic->935\n- proto-sami->936\n- forest-nenets->937\n- proto-finnic->938\n- southwestern-finnish->939\n- proto-uralic->940\n- proto-karelian->941\n- proto-permic->942\n- somero-region->943\n- j-mtland->944\n\nRemaining seed-uniqueness debt lines: pending verification (strict>=1, norm>=10)."
     }
   ]
 }

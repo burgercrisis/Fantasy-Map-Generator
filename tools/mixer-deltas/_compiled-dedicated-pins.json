@@ -1,6 +1,9 @@
 {
   "version": 1,
   "pins": {
+    "bjarmian-finnic": 935,
+    "forest-nenets": 937,
+    "j-mtland": 944,
     "old-catalan": 915,
     "old-gallo-romance": 916,
     "old-leonese": 917,
@@ -20,6 +23,13 @@
     "pavese": 931,
     "peruvian-ribere-o": 932,
     "peruvian-spanish": 933,
-    "pesciatino": 934
+    "pesciatino": 934,
+    "proto-finnic": 938,
+    "proto-karelian": 941,
+    "proto-permic": 942,
+    "proto-sami": 936,
+    "proto-uralic": 940,
+    "somero-region": 943,
+    "southwestern-finnish": 939
   }
 }
