@@ -498,8 +498,12 @@ function main() {
   const blockSize = args.blockSize ? Number(args.blockSize) : 50;
   if (!Number.isFinite(blockSize) || blockSize <= 0) throw new Error("--blockSize must be a positive number");
 
+  if (isos.length > blockSize) {
+    throw new Error(`--blockSize must be >= number of ISOs (${isos.length})`);
+  }
+
   const status = typeof args.status === "string" && args.status ? args.status : "in_progress";
-  const notes = typeof args.notes === "string" ? args.notes : "";
+  const notesArg = typeof args.notes === "string" ? args.notes : "";
 
   withLock(
     claimsLockPath,
@@ -539,6 +543,14 @@ function main() {
       const start = Math.max(maxUsedI, maxReserved) + 1;
       const end = start + blockSize - 1;
 
+      const notesTemplateLines = [
+        `Reserved i range: ${start}-${end}`,
+        "ISO->base mapping (fill in):",
+        ...isos.map((iso, idx) => `- ${iso}->${start + idx}`),
+      ];
+
+      const notes = notesArg ? notesArg : notesTemplateLines.join("\n");
+
       const claim = {
         workerId,
         batchId,
@@ -561,9 +573,8 @@ function main() {
           `isos=${isos.join(",")}`,
           `reservedRange=${start}-${end}`,
           "",
-          "Suggested notes snippet:",
-          `Reserved i range ${start}-${end}. ISO->base mapping (fill in):`,
-          ...isos.map((iso, idx) => `- ${iso}->${start + idx}`),
+          "Notes template (auto-inserted if you did not pass --notes):",
+          ...notesTemplateLines,
           "",
         ].join("\n"),
       );

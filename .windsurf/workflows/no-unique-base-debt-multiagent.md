@@ -124,6 +124,12 @@ Rules:
 
 # How to pick a batch
 
+0. (Recommended) Check the current coordination dashboard (read-only):
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard
+```
+
 1. Run the report with a large limit so you can see enough candidates:
 
 ```bash

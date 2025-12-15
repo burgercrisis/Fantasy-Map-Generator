@@ -132,7 +132,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
-- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance S-batch / worker62):** pinned dedicated bases `1540–1544` for `sammarinese`, `sardinian`, `sardo-corsican`, `sassarese`, `savoyard` (via `tools/mixer-deltas/2025-12-15-worker62-romance-s.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance S-batch / worker62):** pinned dedicated bases `1540–1544` for `sammarinese`, `sardinian`, `sardo-corsican`, `sassarese`, `savoyard` (via `tools/mixer-deltas/2025-12-15-worker62-romance-sammarinese.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0), and artifacts regenerated via `pnpm run mixer:apply-deltas`. Note: repo-wide `check-language-mixer-coverage` / `check-language-mixer-failures` currently report 4 catalog ISOs missing from map (`mbq`, `norfuk`, `pitkern`, `yap`), outside this batch. Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 
 
@@ -283,6 +283,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker64 mini-batch):** added dedicated bases `1490–1494` for `rup`, `ruq`, `sabino`, `saharan-spanish`, `salentino` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker64-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / sammarinese+sardinian mini-batch):** added dedicated bases `1540–1544` for `sammarinese`, `sardinian`, `sardo-corsican`, `sassarese`, `savoyard` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker62-romance-sardo.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker57 mini-batch):** added dedicated bases `1080–1084` for `philippine-spanish`, `piedmontese`, `pisano-livornese`, `pistoiese`, `poitevin-saintongeais` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker57-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
@@ -1546,7 +1549,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 246
+  - `Nonunique Bases:` 241
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 277
@@ -1559,7 +1562,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Cleared the last four base-set collisions for this list (`baka`, `bube`, `saya-chadic`, `tamil`) by adding dedicated bases `945–948` in `modules/namebases-real.js` and pinning them via delta `tools/mixer-deltas/2025-12-15-worker37-africa-uniqueness.json` (applied with `pnpm run mixer:apply-deltas`). Base-set uniqueness for the full Africa list is now `clustered bases: 0`.
   - ✅ **2025-12-15 (verified):** Reduced `Nonunique Bases` for the Africa full list (and base=132 slice) by adding dedicated bases `1330–1335` and pinning `berta,sinyar,songhoyboro-ciine,surbakhal,teda,tondi-songway-kiini` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-nilo.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `sukur,bacama,bade-chadic,bole-afroasiatic` to dedicated bases `1336–1339` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-chadic.json` (applied with `pnpm run mixer:apply-deltas`).
-  - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `saba,shabo,besme,senara,sucite,supyire,suwu` to dedicated bases `1400–1406` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch3.json` (applied with `pnpm run mixer:apply-deltas`).
+  - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `saba,shabo,besme,senara,sucite,supyire,suwu` to dedicated bases `1600–1606` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch3.json` (applied with `pnpm run mixer:apply-deltas`).
+  - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `syer-tenyer,tiv,tyap,werni,yobe` to dedicated bases `1500–1504` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch4a.json` (applied with `pnpm run mixer:apply-deltas`).
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
@@ -1712,8 +1716,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Snapshot from last run (all list items):**
   - `fully wired:` 22
   - `missing catalog:` 0
-  - `missing map:` 0
-  - `missing both:` 4
+  - `missing map:` 4
+  - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
   - `Nonunique Bases:` 23

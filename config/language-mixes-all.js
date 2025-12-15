@@ -22927,6 +22927,14 @@
     "family": "Southeast Papuan"
   },
   {
+    "name": "Maisin",
+    "iso": "mbq",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Papuan Tip",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maisin_language"
+  },
+  {
     "name": "Maiwa",
     "iso": "maiwa",
     "region": "Pacific",
@@ -23396,6 +23404,18 @@
     "family": "Chimbu–Wahgi"
   },
   {
+    "name": "Norfuk",
+    "iso": "norfuk",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norfuk_language",
+    "tags": [
+      "creole"
+    ],
+    "lexifier": "English"
+  },
+  {
     "name": "North Borneo",
     "iso": "north-borneo",
     "region": "Pacific",
@@ -23653,6 +23673,18 @@
     "region": "Pacific",
     "category": "Creole",
     "family": "English-based",
+    "tags": [
+      "creole"
+    ],
+    "lexifier": "English"
+  },
+  {
+    "name": "Pitkern",
+    "iso": "pitkern",
+    "region": "Pacific",
+    "category": "Creole",
+    "family": "English-based",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pitkern",
     "tags": [
       "creole"
     ],
@@ -24558,6 +24590,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Dani"
+  },
+  {
+    "name": "Yapese",
+    "iso": "yap",
+    "region": "Pacific",
+    "category": "Austronesian",
+    "family": "Oceanic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yapese_language"
   },
   {
     "name": "Yaqay",

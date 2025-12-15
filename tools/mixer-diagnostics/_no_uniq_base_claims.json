@@ -1242,12 +1242,68 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T02:46:51.949Z",
-      "updatedAt": "2025-12-15T03:03:10.452Z",
+      "updatedAt": "2025-12-15T03:14:07.154Z",
       "reservedRange": [
         1540,
         1589
       ],
-      "notes": "Blocked on worker64 (batchId=2025-12-15T02:42:17.449Z-worker64) while it is in_progress; do not edit modules/namebases-real.js / run mixer:apply-deltas concurrently. Planned dedicated pins will be allocated from this claim's reservedRange once unblocked.\n\nReserved i range: 1540-1589\n\nISO->base mapping applied:\n- sammarinese->1540\n- sardinian->1541\n- sardo-corsican->1542\n- sassarese->1543\n- savoyard->1544\n\nUnblocked (worker64 is complete). Reserved i range: 1540-1589. Planned ISO->base mapping: sammarinese->1540; sardinian->1541; sardo-corsican->1542; sassarese->1543; savoyard->1544. Delta pins file: tools/mixer-deltas/2025-12-15-worker62-romance-sammarinese.json\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker62-romance-s.json and compiled with pnpm run mixer:apply-deltas):\\n- sammarinese->1540\\n- sardinian->1541\\n- sardo-corsican->1542\\n- sassarese->1543\\n- savoyard->1544\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails\\n- pnpm run mixer:apply-deltas\\n- pnpm run mixer:check-deltas\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=sammarinese sardinian sardo-corsican sassarese savoyard\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\\n\n\nVerification append (2025-12-15): pins via tools/mixer-deltas/2025-12-15-worker62-romance-sammarinese.json (sammarinese->1540; sardinian->1541; sardo-corsican->1542; sassarese->1543; savoyard->1544) + dedicated bases in modules/namebases-real.js; applied via pnpm run mixer:apply-deltas. Checks: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only=sammarinese,sardinian,sardo-corsican,sassarese,savoyard => No globally-unique base index: 0; strict failures: 0; norm failures: 0; coverage 0 missing; failures 0; base-clusters: --min-size=2 --category=Romance (exit 0)."
+      "notes": "Blocked on worker64 (batchId=2025-12-15T02:42:17.449Z-worker64) while it is in_progress; do not edit modules/namebases-real.js / run mixer:apply-deltas concurrently. Planned dedicated pins will be allocated from this claim's reservedRange once unblocked.\n\nReserved i range: 1540-1589\n\nISO->base mapping applied:\n- sammarinese->1540\n- sardinian->1541\n- sardo-corsican->1542\n- sassarese->1543\n- savoyard->1544\n\nUnblocked (worker64 is complete). Reserved i range: 1540-1589. Planned ISO->base mapping: sammarinese->1540; sardinian->1541; sardo-corsican->1542; sassarese->1543; savoyard->1544. Delta pins file: tools/mixer-deltas/2025-12-15-worker62-romance-sammarinese.json\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker62-romance-s.json and compiled with pnpm run mixer:apply-deltas):\\n- sammarinese->1540\\n- sardinian->1541\\n- sardo-corsican->1542\\n- sassarese->1543\\n- savoyard->1544\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails\\n- pnpm run mixer:apply-deltas\\n- pnpm run mixer:check-deltas\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=sammarinese sardinian sardo-corsican sassarese savoyard\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\\n\n\nVerification append (2025-12-15): pins via tools/mixer-deltas/2025-12-15-worker62-romance-sammarinese.json (sammarinese->1540; sardinian->1541; sardo-corsican->1542; sassarese->1543; savoyard->1544) + dedicated bases in modules/namebases-real.js; applied via pnpm run mixer:apply-deltas. Checks: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only=sammarinese,sardinian,sardo-corsican,sassarese,savoyard => No globally-unique base index: 0; strict failures: 0; norm failures: 0; coverage 0 missing; failures 0; base-clusters: --min-size=2 --category=Romance (exit 0).\n\nDelta pins file used: tools/mixer-deltas/2025-12-15-worker62-romance-sardo.json\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker62-romance-sardo.json): sammarinese->1540; sardinian->1541; sardo-corsican->1542; sassarese->1543; savoyard->1544. Verification (/no-unique-base2): mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness OK; base-clusters ran (exit 0).\n\nRe-verify (2025-12-14T19:07:15-08:00): pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=sammarinese,sardinian,sardo-corsican,sassarese,savoyard --limit=300 => Target ISOs: 5; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0. pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => catalog missing from map: 4 (mbq,norfuk,pitkern,yap) (preexisting backlog). pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 4 failures (missing mapping: same list). pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 ran (exit 0).\n\nNOTE (2025-12-15): global mapping health scripts currently report 4 catalog ISOs missing from config/language-mixer-map.json (mbq,norfuk,pitkern,yap) which are outside this batch. Batch ISOs sammarinese,sardinian,sardo-corsican,sassarese,savoyard verified OK (0 NO_UNIQ_BASE; 0 strict/norm failures)."
+    },
+    {
+      "workerId": 65,
+      "batchId": "2025-12-15T03:06:40.314Z-worker65",
+      "isos": [
+        "senese",
+        "sicilian",
+        "somontan-s",
+        "southeast-metafonetica",
+        "southern-aragonese"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T03:06:40.314Z",
+      "updatedAt": "2025-12-15T03:20:44.459Z",
+      "reservedRange": [
+        1590,
+        1639
+      ],
+      "notes": "Romance NO_UNIQ_BASE2 next5 from tools/mixer-diagnostics/tmp/list-romance-no-uniq-base.js\n\nReserved i range: 1590-1639. ISO->base mapping: senese->1590; sicilian->1591; somontan-s->1592; southeast-metafonetica->1593; southern-aragonese->1594. Delta pins file: tools/mixer-deltas/2025-12-15-worker65-romance.json"
+    },
+    {
+      "workerId": 63,
+      "batchId": "2025-12-15T03:09:32.316Z-worker63",
+      "isos": [
+        "surmiran",
+        "sursilvan",
+        "sutsilvan",
+        "tuatschin",
+        "vallader"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T03:09:32.316Z",
+      "updatedAt": "2025-12-15T03:09:32.316Z",
+      "reservedRange": [
+        1640,
+        1689
+      ],
+      "notes": ""
+    },
+    {
+      "workerId": 66,
+      "batchId": "2025-12-15T03:17:29.400Z-worker66",
+      "isos": [
+        "mbq",
+        "yap",
+        "norfuk",
+        "pitkern"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T03:17:29.400Z",
+      "updatedAt": "2025-12-15T03:17:29.400Z",
+      "reservedRange": [
+        1690,
+        1739
+      ],
+      "notes": "Fix missing mapping entries in config/language-mixer-map.json (coverage/failures: 4 missing). Plan: add dedicated bases + dedicatedPins delta + apply-deltas + verify."
     }
   ]
 }

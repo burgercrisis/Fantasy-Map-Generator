@@ -1,13 +1,13 @@
 "use strict";
 
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const root = path.resolve(__dirname, "..", "..");
 
 function stripBom(s) {
   if (!s) return s;
-  return s.charCodeAt(0) === 0xfeff ? s.slice(1) : s;
+  return s.codePointAt(0) === 0xfeff ? s.slice(1) : s;
 }
 
 function readJson(rel) {
@@ -65,7 +65,7 @@ function loadClaimedIsos(excludeMode) {
   const claims = readJson("tools/mixer-diagnostics/_no_uniq_base_claims.json");
   const out = new Set();
 
-  for (const claim of claims && claims.claims ? claims.claims : []) {
+  for (const claim of claims?.claims ? claims.claims : []) {
     if (!claim || !Array.isArray(claim.isos)) continue;
     if (excludeMode === "in_progress" && claim.status !== "in_progress") continue;
 
@@ -122,13 +122,13 @@ function main() {
 
   const catalogByIso = new Map();
   for (const c of catalog) {
-    if (!c || !c.iso) continue;
+    if (!c?.iso) continue;
     catalogByIso.set(c.iso, c);
   }
 
   const mapByIso = new Map();
   for (const r of mapRows) {
-    if (!r || !r.iso || !Array.isArray(r.bases)) continue;
+    if (!r?.iso || !Array.isArray(r.bases)) continue;
     mapByIso.set(r.iso, r.bases);
   }
 

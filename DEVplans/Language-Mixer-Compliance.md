@@ -12,12 +12,16 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
+- 2025-12-15: Updated `.windsurf/workflows/no-unique-base-debt-multiagent.md` to run the claim-helper dashboard (`pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard`) before selecting/claiming a batch.
+
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
   - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.
   - Systemic anomaly identified: ~34 catalog entries with `family: "Australian Aboriginal"` currently include shared base `312` ("Harari-Argobba") in `bases[]`, even though `tools/mixer-core/fix-language-mixer-mappings.js` explicitly maps these ISOs (and token `australian-aboriginal`) to base `313` ("Australian Aboriginal").
     - Next step (pending approval): consider a single delta batch to swap `312 -> 313` for the affected ISOs.
-  - 2025-12-15: Audit reliability (Windows): added `--out-json=PATH` to write the JSON report as UTF-8 without BOM (avoids PowerShell `Out-File` BOM parse issues). Example output: `tools/mixer-diagnostics/tmp/linguistic-audit.nobom.json`.
+  - 2025-12-15: Linguistic accuracy policy decision: family-pure by default.
+  - Prepared review-only delta batch `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections; pending approval to apply via `pnpm run mixer:apply-deltas` and verify.
+    - 2025-12-15: Expanded batch1 to include `bozal-spanish -> [4]` (drop out-of-family `112 (Yoruba)` and `151 (Sesotho)` from current map `[4,112,151]`).
   - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
