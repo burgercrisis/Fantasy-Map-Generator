@@ -1409,14 +1409,14 @@
         "western-sicilian",
         "wisconsin-walloon"
       ],
-      "status": "stalled",
+      "status": "abandoned",
       "startedAt": "2025-12-15T08:14:55.146Z",
-      "updatedAt": "2025-12-15T08:23:04.070Z",
+      "updatedAt": "2025-12-15T10:16:25.591Z",
       "reservedRange": [
         2019,
         2068
       ],
-      "notes": "Reserved i range: 2019-2068\nISO->base mapping (fill in):\n- western-aragonese->2019\n- western-catalan->2020\n- western-sicilian->2021\n- wisconsin-walloon->2022\n\nReserved range collision: indices 2019–2022 are already in use in modules/namebases-real.js (Bangi=2019, Bangolan=2020, Bomboli–Bozaba=2021, Bomboma=2022). Stalling this claim; re-claim these ISOs using a fresh reserved range and then add dedicated bases + dedicatedPins delta."
+      "notes": "Reserved i range: 2019-2068\nISO->base mapping (fill in):\n- western-aragonese->2019\n- western-catalan->2020\n- western-sicilian->2021\n- wisconsin-walloon->2022\n\nReserved range collision: indices 2019–2022 are already in use in modules/namebases-real.js (Bangi=2019, Bangolan=2020, Bomboli–Bozaba=2021, Bomboma=2022). Stalling this claim; re-claim these ISOs using a fresh reserved range and then add dedicated bases + dedicatedPins delta.\n\nResolution: this stalled claim is superseded. The reservedRange 2019–2022 collided with existing namebases-real indices; these ISOs were re-claimed and completed under batchId=2025-12-15T08:27:51.660Z-worker2 (reservedRange 2119–2168; pins tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json; bases i:2119–2122). Do not use reservedRange 2019–2068 for these ISOs."
     },
     {
       "workerId": 1,
@@ -1544,14 +1544,33 @@
         "salym-khanty",
         "western-khanty"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T09:45:50.683Z",
-      "updatedAt": "2025-12-15T09:45:50.683Z",
+      "updatedAt": "2025-12-15T10:18:15.294Z",
       "reservedRange": [
         2369,
         2418
       ],
-      "notes": "Reserved i range: 2369-2418\nISO->base mapping (fill in):\n- atlym->2369\n- atlym-nizyam-khanty->2370\n- nizyam->2371\n- salym-khanty->2372\n- western-khanty->2373"
+      "notes": "Reserved i range: 2369-2418\nISO->base mapping (fill in):\n- atlym->2369\n- atlym-nizyam-khanty->2370\n- nizyam->2371\n- salym-khanty->2372\n- western-khanty->2373\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker2-western-khanty.json; dedicated bases i:2369-2373 in modules/namebases-real.js): atlym->2369; atlym-nizyam-khanty->2370; nizyam->2371; salym-khanty->2372; western-khanty->2373. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=atlym,atlym-nizyam-khanty,nizyam,salym-khanty,western-khanty => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker2-western-khanty.json; dedicated bases i:2369-2373 in modules/namebases-real.js): atlym->2369; atlym-nizyam-khanty->2370; nizyam->2371; salym-khanty->2372; western-khanty->2373.\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos='atlym,atlym-nizyam-khanty,nizyam,salym-khanty,western-khanty' --limit=120 => uniqBase for all 5; strictUniqueSeeds=12; normUniqueSeeds=12; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker2-western-khanty.json; dedicated bases i:2369-2373 in modules/namebases-real.js): atlym->2369; atlym-nizyam-khanty->2370; nizyam->2371; salym-khanty->2372; western-khanty->2373. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=atlym,atlym-nizyam-khanty,nizyam,salym-khanty,western-khanty => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T10:21:41.284Z-worker1",
+      "isos": [
+        "agarabi",
+        "agaw",
+        "aghu",
+        "agu",
+        "ahom"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T10:21:41.284Z",
+      "updatedAt": "2025-12-15T10:33:26.584Z",
+      "reservedRange": [
+        2419,
+        2468
+      ],
+      "notes": "Reserved i range: 2419-2468\nISO->base mapping (fill in):\n- agarabi->2419\n- agaw->2420\n- aghu->2421\n- agu->2422\n- ahom->2423\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json; dedicated bases i:2419-2423 in modules/namebases-real.js): agarabi->2419; agaw->2420; aghu->2421; agu->2422; ahom->2423. Verification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=agarabi,agaw,aghu,agu,ahom => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json; dedicated bases i:2419-2423 in modules/namebases-real.js): agarabi->2419; agaw->2420; aghu->2421; agu->2422; ahom->2423. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=agarabi,agaw,aghu,agu,ahom => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
     }
   ]
 }

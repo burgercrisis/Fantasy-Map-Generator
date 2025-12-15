@@ -165,10 +165,16 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance western batch / worker2):** pinned dedicated bases `2119–2122` for `western-aragonese`, `western-catalan`, `western-sicilian`, `wisconsin-walloon` (via `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
+- **2025-12-15 NO_UNIQ_BASE2 claim cleanup (Romance western batch / worker2):** abandoned earlier claim `batchId=2025-12-15T08:14:55.146Z-worker2` due to reservedRange collision (`2019–2022` already used in `modules/namebases-real.js`); superseded by the completed claim `batchId=2025-12-15T08:27:51.660Z-worker2`.
+
+
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed dialect batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
-- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** dashboard shows `in_progress` claims: `workerId=1` (`2025-12-15T09:45:00.175Z-worker1`, reservedRange `2319–2368`, ISOs: `afade-language,afar,afrikaans,afro-seminole-creole,agalega-creole`) and `workerId=2` (`2025-12-15T09:45:50.683Z-worker2`, reservedRange `2369–2418`, ISOs: `atlym,atlym-nizyam-khanty,nizyam,salym-khanty,western-khanty`). Next suggested reserved range: `2419–2468` (suggestedWorkerId `3`).
+- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** dashboard shows `in_progress` claims: (none). Next suggested reserved range: `2469–2518` (suggestedWorkerId `1`).
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A2-batch / worker1):** pinned dedicated bases `2419–2423` for `agarabi`, `agaw`, `aghu`, `agu`, `ahom` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A-batch / worker1):** pinned dedicated bases `2219–2223` for `abba-gorgoryos`, `aboriginal-pidgin-english`, `aca`, `achang`, `acr` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-abba-gorgoryos.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
@@ -178,6 +184,12 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A2-batch / worker1):** pinned dedicated bases `2319–2323` for `afade-language`, `afar`, `afrikaans`, `afro-seminole-creole`, `agalega-creole` (via `tools/mixer-deltas/2025-12-15-worker1-afade-language.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Western Khanty batch / worker2):** pinned dedicated bases `2369–2373` for `atlym`, `atlym-nizyam-khanty`, `nizyam`, `salym-khanty`, `western-khanty` (via `tools/mixer-deltas/2025-12-15-worker2-western-khanty.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A3-batch / worker1):** pinned dedicated bases `2419–2423` for `agarabi`, `agaw`, `aghu`, `agu`, `ahom` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (North America wiki list):** pinned dedicated bases `2069–2076` for `cree`, `ojibwe`, `yup`, `iku`, `cherokee`, `apa`, `athabaskan`, `navajo` (delta: `tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json`). Applied via `pnpm run mixer:apply-deltas` and verified: seed-uniqueness `--only-failures` for these 8 => 0; `report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-languages-of-north-america.json` => 0.
@@ -1571,7 +1583,7 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - **2025-12-15 (in progress):** `Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)` (`tools/mixer-meta/wikipedia-australian-languages-living-2019.json`) is fully wired (coverage=100%) but has high uniqueness debt; after batch1 dedicated pins (`iwaidja`, `maung`, `kunwinjku`, `murrinh-patha`, `nunggubuyu` → `1712–1716`), list `Nonunique Bases` improved `46 → 41`.
 
-  - **2025-12-15 (queued):** batch2 dedicated pins prepared for the 14-language `bases=[313]` cluster: `tools/mixer-deltas/2025-12-15-wikipedia1-australian-languages-living-2019-batch2.json` (`kaytetye..palawa-kani` → `1717–1730`; dedicated bases defined in `modules/namebases-creole.js`). Pending integrator `pnpm run mixer:apply-deltas`; expected `Nonunique Bases` `41 → 27` and base-set `clustered bases` `14 → 0` after regen.
+  - ✅ **2025-12-15 (verified):** batch2 dedicated pins applied for the 14-language `bases=[313]` cluster: `tools/mixer-deltas/2025-12-15-wikipedia1-australian-languages-living-2019-batch2.json` (`kaytetye..palawa-kani` → `1717–1730`; dedicated bases defined in `modules/namebases-creole.js`). Verification: `pnpm run mixer:apply-deltas` (OK), `pnpm run mixer:check-deltas` (OK), list base-uniqueness now `clustered bases: 0` and `Nonunique Bases: 26`, list race coverage all ok.
 
 Important distinction:
 
@@ -2579,13 +2591,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 41
+  - `Nonunique Bases:` 26
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 33
-  - `clustered bases:` 14
-  - `clustered full items:` 14
-  - `cluster size histogram:` size2=0, size3=0, size4+=14
-  - `clustered isos:` kaytetye(14), kija(14), kukatja(14), kuku-yalanji(14), kuuk-thaayore(14), luritja(14), manytjilyitjarra(14), martu-wangka(14), miriwoong(14), ngaanyatjarra(14), ngarrindjeri(14), noongar(14), nyangumarta(14), palawa-kani(14)
+  - `unique bases:` 47
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 #### Wikipedia: Formosan language families - Blust (1999)
 

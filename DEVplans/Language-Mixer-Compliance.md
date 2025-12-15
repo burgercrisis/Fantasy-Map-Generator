@@ -26,6 +26,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Unblocked uniqueness diagnostics by fixing a transient JS syntax error in `modules/namebases-real.js` (was crashing `report-language-mixer-seed-uniqueness`). Verified via `node --check modules/namebases-real.js` and `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300`.
 
+- 2025-12-15: Verified `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock` is clean, and confirmed `modules/namebases-real.js` contains dedicated base definitions for indices `2369–2373`.
+
 - 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
   - claim log: `tools/mixer-diagnostics/_decluster_claims.json` (UTF-8 no BOM)
   - helper: `tools/mixer-diagnostics/decluster-claim.js` (create/update under lock; optional reserved `i:` range)
