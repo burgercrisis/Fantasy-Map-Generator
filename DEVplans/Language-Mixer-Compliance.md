@@ -8,11 +8,22 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
 
+- 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
+  - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
+  - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.
+  - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
+
+- 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
+
+- 2025-12-14: Added a read-only heuristic diagnostic to flag likely linguistically inconsistent `iso -> bases[]` mappings: `tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js`.
+  - Typical run: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js --only-failures --skip-region --skip-tags=pidgin,creole,mixed --limit=40`
+  - Current output summary (with `--skip-region`, ignoring `region=Misc`, and skipping `pidgin/creole/mixed` tagged entries): flags 84 catalog ISOs (heuristic mismatches)
+  - Examples observed in output: `canadian-french` includes base `254 (Kannada)`; `adnyamathanha` includes base `132 (Hausa)`; `piraha` includes base `388 (Kwaza-Xocó Amazonian)`
+
 - 2025-12-14: Repaired `tools/mixer-core/diff-language-families.js` to load the generated catalog from `globalThis.languageMixerCatalog` (current `config/language-mixes-all.js` export), unblocking `tools/mixer-core/run-language-mixer-health.js`.
 
 - 2025-12-14: Disabled Sequential Thinking (MCP server) due to instability; updated agent guidance to use an explicit PLAN → NEXT_ACTION contract (execute NEXT_ACTION in the same turn; `/continue` resumes the most recent unexecuted NEXT_ACTION).
 
-- 2025-12-14: Centralized multi-agent coordination in Memory Graph: added `Schema: Workstream Graph Relations v1` with explicit `depends_on` / `overlaps_with` / `blocks` (plus `reads` / `claims_write`) relations against shared hot-spot files so agents can query conflicts before editing.
 
 - 2025-12-14: Windsurf MCP config: pinned `@modelcontextprotocol/server-memory@0.6.3` and set npm env to `silent` / no update-notifier / no progress (stdout-safe) to prevent Memory MCP stdio JSON parse failures; requires MCP server restart to take effect.
 

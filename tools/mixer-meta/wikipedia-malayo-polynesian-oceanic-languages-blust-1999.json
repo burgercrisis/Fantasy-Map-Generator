@@ -6,15 +6,15 @@
     { "name": "Manide-Alabat languages" },
     { "name": "Ati language" },
     { "name": "Klata language" },
-    { "name": "Enggano language" },
-    { "name": "Rejang language" },
+    { "name": "Enggano language", "iso": "eno" },
+    { "name": "Rejang language", "iso": "rejang" },
     { "name": "Sundanese" },
     { "name": "Javanese" },
     { "name": "Madurese" },
-    { "name": "Palauan language" },
-    { "name": "Chamorro language" },
-    { "name": "Kowiai language" },
+    { "name": "Palauan language", "iso": "palauan" },
+    { "name": "Chamorro language", "iso": "chamorro" },
+    { "name": "Kowiai language", "iso": "kowiai" },
     { "name": "Yapese language" },
-    { "name": "Rotuman language" }
+    { "name": "Rotuman language", "iso": "rotuman" }
   ]
 }

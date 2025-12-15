@@ -150,15 +150,23 @@ function parseArgs(argv) {
   const args = argv.slice(2);
 
   if (!args.length || args.includes("--help") || args.includes("-h")) {
-    return {help: true, fileArg: null, limit: 200, includeNotFull: false};
+    return {help: true, fileArg: null, limit: 200, includeNotFull: false, base: null};
   }
 
   const fileArg = args.find(a => a && !a.startsWith("-")) || null;
   const limitArg = args.find(a => a.startsWith("--limit="));
   const limit = limitArg ? parseInt(limitArg.slice("--limit=".length), 10) : 200;
   const includeNotFull = args.includes("--include-not-full");
+  const baseArg = args.find(a => a.startsWith("--base="));
+  const base = baseArg ? Number(baseArg.slice("--base=".length)) : null;
 
-  return {help: false, fileArg, limit: Number.isFinite(limit) ? limit : 200, includeNotFull};
+  return {
+    help: false,
+    fileArg,
+    limit: Number.isFinite(limit) ? limit : 200,
+    includeNotFull,
+    base: Number.isFinite(base) ? base : null
+  };
 }
 
 function main() {
@@ -167,6 +175,7 @@ function main() {
     console.log("Usage: node tools/mixer-core/report-wikipedia-list-nonunique-bases.js path/to/list.json [options]");
     console.log("");
     console.log("Options:");
+    console.log("  --base=N              Only include NO_UNIQ_BASE rows that include base N");
     console.log("  --limit=N             Max rows to print (default: 200)");
     console.log("  --include-not-full     Include missing/unmatched/ambiguous items in output");
     process.exitCode = parsed.fileArg ? 0 : 1;
@@ -211,6 +220,8 @@ function main() {
     const mix = indexes.byIso.get(iso) || null;
     const mapEntry = mapByIso.get(iso) || null;
     const bases = mapEntry && Array.isArray(mapEntry.bases) ? mapEntry.bases.slice().sort((a, b) => a - b) : [];
+
+    if (parsed.base != null && !bases.includes(parsed.base)) continue;
 
     rows.push({
       iso,

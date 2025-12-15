@@ -112,9 +112,26 @@
       "workerId": 39,
       "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
       "scope": "nonunique_bases_burn_down",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T01:10:20Z",
-      "note": "Continue Africa full-table work by burning down Nonunique Bases (assign at least one globally-unique dedicated base per language, in small family-coherent batches)."
+      "finishedAt": "2025-12-15T01:53:02Z",
+      "note": "Added dedicated bases 1330-1335 + delta dedicatedPins for berta,sinyar,songhoyboro-ciine,surbakhal,teda,tondi-songway-kiini; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE, coverage 0 missing, failures 0 failing"
+    },
+    {
+      "workerId": 40,
+      "target": "tools/mixer-meta/wikipedia-malayo-polynesian-oceanic-languages-blust-1999.json",
+      "scope": "coverage_then_iso_bindings_then_missing_language_wiring",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T01:46:10Z",
+      "note": "Add explicit iso bindings for existing catalog entries and wire any remaining missing languages (catalog + mixer map)"
+    },
+    {
+      "workerId": 39,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "nonunique_bases_burn_down_base132_chadic",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T01:56:11Z",
+      "note": "Batch: sukur,bacama,bade-chadic,bole-afroasiatic (add dedicated bases + delta dedicatedPins; apply-deltas + verify)."
     }
   ]
 }

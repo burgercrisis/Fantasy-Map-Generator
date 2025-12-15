@@ -1127,14 +1127,14 @@
         "kamas",
         "nganasan"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T01:22:12Z",
-      "updatedAt": "2025-12-15T01:22:12Z",
+      "updatedAt": "2025-12-15T01:27:53Z",
       "reservedRange": [
         1230,
         1279
       ],
-      "notes": "In progress. Uralic base-set collision + NO_UNIQ_BASE2 declustering slice (Mator + Kamas/Nganasan).\n\nReserved i range: 1230-1279\n\nPlanned ISO->base mapping (dedicated uniq base per ISO; add bases i:1230-1234 in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker59-uralic-mator-kamas.json):\n- mator->1230\n- mator-proper->1231\n- proto-ob-ugric->1232\n- kamas->1233\n- nganasan->1234"
+      "notes": "Complete. Uralic base-set collision + NO_UNIQ_BASE2 declustering slice (Mator + Kamas/Nganasan).\n\nReserved i range: 1230-1279\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker59-uralic-mator-kamas.json and compiled with pnpm run mixer:apply-deltas):\n- mator->1230\n- mator-proper->1231\n- proto-ob-ugric->1232\n- kamas->1233\n- nganasan->1234\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only=mator,mator-proper,proto-ob-ugric,kamas,nganasan --limit=120 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Uralic --family=Mator (0 clusters)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Uralic --family=Nganasan (0 clusters)\n\nRemaining seed-uniqueness debt lines: none."
     },
     {
       "workerId": 60,
@@ -1145,14 +1145,33 @@
         "ticinese",
         "triestine"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T01:32:02.996Z",
-      "updatedAt": "2025-12-15T01:32:02.996Z",
+      "updatedAt": "2025-12-15T01:58:55.207Z",
       "reservedRange": [
         1280,
         1329
       ],
-      "notes": ""
+      "notes": "Reserved i range: 1280-1329\n\nPlanned ISO->base mapping (dedicated uniq base per ISO; add bases i:1280-1283 in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker60-romance-lombard.json):\n- western-lombard->1280\n- varesino->1281\n- ticinese->1282\n- triestine->1283\n\nReserved i range: 1280-1329\n\nDelta pins file tools/mixer-deltas/2025-12-15-worker60-romance-lombard.json present; dedicated bases i:1280-1283 present in modules/namebases-real.js\n\nReserved i range: 1280-1329\n\nISO->base mapping applied: western-lombard->1280; varesino->1281; ticinese->1282; triestine->1283. Verification (/no-unique-base2): mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness: 0 NO_UNIQ_BASE, 0 strict<1, 0 norm<1; coverage 0 missing; failures 0.\n\nISO->base mapping applied (dedicated bases in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker60-romance-lombard.json):\\n- western-lombard->1280\\n- varesino->1281\\n- ticinese->1282\\n- triestine->1283\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails\\n- pnpm run mixer:apply-deltas\\n- pnpm run mixer:check-deltas\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=western-lombard varesino ticinese triestine\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\\n\\nRemaining seed-uniqueness debt lines: none."
+    },
+    {
+      "workerId": 61,
+      "batchId": "2025-12-15T02:00:12.305Z-worker61",
+      "isos": [
+        "quebec-french",
+        "r-mois",
+        "regional-italian",
+        "ribagor-an",
+        "riberan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T02:00:12.305Z",
+      "updatedAt": "2025-12-15T02:08:40.633Z",
+      "reservedRange": [
+        1340,
+        1389
+      ],
+      "notes": "Reserved i range: 1340-1389\n\nReserved i range: 1340-1389\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker61-romance.json and compiled with pnpm run mixer:apply-deltas):\n- quebec-french->1340\n- r-mois->1341\n- regional-italian->1342\n- ribagor-an->1343\n- riberan->1344\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=quebec-french r-mois regional-italian ribagor-an riberan\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nRemaining seed-uniqueness debt lines: none."
     }
   ]
 }
