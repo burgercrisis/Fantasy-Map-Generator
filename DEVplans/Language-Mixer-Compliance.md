@@ -20,6 +20,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Added a read-only global claims dashboard helper `tools/mixer-diagnostics/claims-dashboard.js` to aggregate `in_progress` claim locks across `NO_UNIQ_BASE`, decluster, and wiki multi-agent claim logs. Wired into `.windsurf/workflows/no-unique-base-coordination.md` as the canonical pre-flight step.
 
+- 2025-12-15: `tools/mixer-diagnostics/claims-dashboard.js` now flags `STALE>24h` `in_progress` claims (age from `updatedAt` with `startedAt` fallback). Used to triage and set 9 stale WIKI claims to `status=stalled` (released locks); only the active Africa WIKI claim remained `in_progress`.
+
 - 2025-12-15: Added a wiki claims helper `tools/mixer-diagnostics/wiki-claim.js` (writer + lock) to create/update `tools/mixer-diagnostics/_wiki_multiagent_claims.json` without manual JSON edits. `.gitignore` now ignores `tools/mixer-diagnostics/_wiki_multiagent_claims.lock`.
 
 - 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
@@ -29,20 +31,22 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Multi-agent safety: `pnpm run mixer:apply-deltas` / `pnpm run mixer:check-deltas` now serialize via an atomic lock file (`tools/mixer-core/_apply-mixer-deltas.lock`, gitignored) to reduce multi-writer conflicts on generated mixer artifacts.
 
+- 2025-12-15: Team process decision: use a single integrator lane for high-churn language mixer files and regenerated artifacts (`modules/namebases-*.js`, `config/language-mixer-map.json`, `tools/mixer-deltas/_compiled-dedicated-pins.json`).
+  - Non-integrator work should be delivered as delta-only changes / proposals + claim notes; the integrator runs `pnpm run mixer:apply-deltas` and the verification gates.
+
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
   - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.
   - Systemic anomaly identified: ~34 catalog entries with `family: "Australian Aboriginal"` currently include shared base `312` ("Harari-Argobba") in `bases[]`, even though `tools/mixer-core/fix-language-mixer-mappings.js` explicitly maps these ISOs (and token `australian-aboriginal`) to base `313` ("Australian Aboriginal").
     - Next step (pending approval): consider a single delta batch to swap `312 -> 313` for the affected ISOs.
   - 2025-12-15: Linguistic accuracy policy decision: family-pure by default.
-  - Queued review-only delta batch `tools/mixer-deltas/_2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections; pending approval to apply via `pnpm run mixer:apply-deltas` and verify.
-    - Current repo state: non-underscore `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` is a no-op `{}` to prevent accidental application; remove the leading underscore on the queued file when ready to apply.
-  - 2025-12-14: Restored safety gates for mixer deltas: `node --check` passed for `modules/namebases-real.js` and `modules/namebases-creole.js`; `pnpm run mixer:guardrails` passed; `pnpm run mixer:check-deltas` now passes after neutralizing non-underscore `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (keeps linguistic proposals queued via underscore-prefixed delta files).
-  - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
+  - 2025-12-15: Applied delta batch `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections.
+    - Verification: `pnpm run mixer:apply-deltas` (OK) and `pnpm run mixer:check-deltas` (OK).
+  - Next step (pending approval / coordination): expand the batch in small increments (high-confidence only), then re-run `pnpm run mixer:apply-deltas` + `pnpm run mixer:check-deltas`.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
 
-  - 2025-12-15: Added `--out-shortlist-tsv=...` to `report-language-mixer-linguistic-plausibility.js` to emit a filtered per-ISO shortlist TSV (replaces ad-hoc post-processing).
+  - 2025-12-15: Added `--out_shortlist_tsv=...` to `report-language-mixer-linguistic-plausibility.js` to emit a filtered per-ISO shortlist TSV (replaces ad-hoc post-processing).
 
   - 2025-12-15: Created queued delta-only proposal file `tools/mixer-deltas/_2025-12-15-linguistic-fixes-proposal.json` (`setBases`: `canadian-french -> [2, 650]`, `nogai -> [295]`). Not applied yet.
 

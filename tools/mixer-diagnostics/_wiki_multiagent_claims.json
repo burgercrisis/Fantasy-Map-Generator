@@ -5,59 +5,73 @@
       "workerId": 3,
       "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-12T04:45:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-12T04:45:00Z",
+      "finishedAt": "2025-12-15T07:55:01.311Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 14,
       "target": "tools/mixer-meta/wikipedia-languages-of-europe.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-12T15:05:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-12T15:05:00Z",
+      "finishedAt": "2025-12-15T07:55:01.913Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 25,
       "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
       "scope": "uniqueness_hausa_hub_micro",
-      "status": "in_progress",
-      "startedAt": "2025-12-12T16:35:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-12T16:35:00Z",
+      "finishedAt": "2025-12-15T07:55:02.466Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 27,
       "target": "tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-13T03:45:00Z",
-      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed"
+      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed\n\nSTALE>24h: stalling to release lock. Re-claim if still active.",
+      "finishedAt": "2025-12-15T07:55:02.993Z"
     },
     {
       "workerId": 29,
       "target": "tools/mixer-meta/wikipedia-languages-of-oceania.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-13T00:13:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-13T00:13:00Z",
+      "finishedAt": "2025-12-15T07:55:03.529Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 30,
       "target": "tools/mixer-meta/wikipedia-languages-of-west-asia.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-13T00:50:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-13T00:50:00Z",
+      "finishedAt": "2025-12-15T07:55:04.026Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 31,
       "target": "tools/mixer-meta/wikipedia-languages-of-north-america.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-13T00:45:00Z",
-      "note": "Claimed for next coverage + uniqueness + race pass"
+      "note": "Claimed for next coverage + uniqueness + race pass\n\nSTALE>24h: stalling to release lock. Re-claim if still active.",
+      "finishedAt": "2025-12-15T07:55:04.508Z"
     },
     {
       "workerId": 32,
       "target": "tools/mixer-meta/wikipedia-uralic-languages-full.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-13T14:55:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-13T14:55:00Z",
+      "finishedAt": "2025-12-15T07:55:05.015Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 34,
@@ -71,8 +85,10 @@
       "workerId": 33,
       "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-13T14:59:00Z"
+      "status": "stalled",
+      "startedAt": "2025-12-13T14:59:00Z",
+      "finishedAt": "2025-12-15T07:55:05.507Z",
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
     },
     {
       "workerId": 35,
@@ -157,9 +173,10 @@
       "workerId": 39,
       "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
       "scope": "nonunique_bases_burn_down_base132_batch4b",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T03:05:33Z",
-      "note": "Batch4b base=132 pins (planned): zhire->1505, zhoa->1506, tadaksahak->1507"
+      "finishedAt": "2025-12-15T07:41:00Z",
+      "note": "Added dedicated bases 1505-1507 + delta dedicatedPins for zhire,zhoa,tadaksahak; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE, coverage 0 missing, failures 0 failing"
     },
     {
       "workerId": 41,

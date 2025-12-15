@@ -138,6 +138,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance S-batch / worker65):** pinned dedicated bases `1590–1594` for `senese`, `sicilian`, `somontan-s`, `southeast-metafonetica`, `southern-aragonese` (via `tools/mixer-deltas/2025-12-15-worker65-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
+- ✅ **2025-12-15 mixer:apply-deltas unblock (namebases-creole encoding):** updated `tools/mixer-core/apply-mixer-deltas.js` and `tools/mixer-core/check-language-mixer-guardrails.js` to decode `modules/namebases-*.js` from raw buffers with UTF-8/UTF-16 fallback so files containing NUL bytes (e.g. UTF-16) don’t cause false “Missing base definitions” errors during `mixer:guardrails` / `mixer:check-deltas`.
+
+
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romansh dialects / worker63):** pinned dedicated bases `1640–1644` for `surmiran`, `sursilvan`, `sutsilvan`, `tuatschin`, `vallader` (via `tools/mixer-deltas/2025-12-15-worker63-romance-romansh-varieties.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
@@ -1530,6 +1533,8 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - ✅ **2025-12-13 (verified):** Per-list snapshot maintenance is now unified: `update-wikipedia-list-coverage-in-devplan.js` writes the standardized coverage + `Nonunique Bases` + base-set uniqueness details block, and `report-wikipedia-list-coverage.js` / `report-wikipedia-list-base-uniqueness.js` can trigger that devplan update directly. `run-language-mixer-suite.js` can also refresh all registered Wikipedia list snapshots end-to-end.
 
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`.
+
 Important distinction:
 
 - The snapshot’s `fully wired` count is a **coverage** metric only: an item is counted as `fully wired` when it exists in both `config/language-mixes.json` and `config/language-mixer-map.json`.
@@ -1586,6 +1591,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `sukur,bacama,bade-chadic,bole-afroasiatic` to dedicated bases `1336–1339` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-chadic.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `saba,shabo,besme,senara,sucite,supyire,suwu` to dedicated bases `1600–1606` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch3.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `syer-tenyer,tiv,tyap,werni,yobe` to dedicated bases `1500–1504` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch4a.json` (applied with `pnpm run mixer:apply-deltas`).
+  - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `zhire,zhoa,tadaksahak` to dedicated bases `1505–1507` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch4b.json` (applied with `pnpm run mixer:apply-deltas`).
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
@@ -2468,7 +2474,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 1
+  - `Nonunique Bases:` 0
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 1
   - `clustered bases:` 0
