@@ -45,6 +45,7 @@ function loadValidBaseIndices() {
       continue;
     }
 
+    re.lastIndex = 0;
     let m;
     while ((m = re.exec(src))) {
       const idx = Number(m[2]);

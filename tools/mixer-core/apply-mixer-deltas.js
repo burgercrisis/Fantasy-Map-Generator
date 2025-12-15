@@ -111,7 +111,12 @@ function readJson(relPath) {
   const full = path.join(root, relPath);
   const raw = fs.readFileSync(full, "utf8");
   const s = raw?.codePointAt(0) === 0xfeff ? raw.slice(1) : raw;
-  return JSON.parse(s);
+  try {
+    return JSON.parse(s);
+  } catch (e) {
+    const msg = e && e.message ? e.message : String(e);
+    throw new Error(`[apply-mixer-deltas] Invalid JSON: ${relPath}. ${msg}`);
+  }
 }
 
 function readOptionalJson(relPath) {

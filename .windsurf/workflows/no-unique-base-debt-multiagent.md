@@ -51,7 +51,7 @@ The goal is to ensure every **non-family** catalog ISO has **at least one** base
 
 Use a shared claim log so multiple agents don’t work the same ISO(s).
 
- See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
+See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
 
 ## Shared log file
 

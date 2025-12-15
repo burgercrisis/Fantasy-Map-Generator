@@ -9,5 +9,7 @@ window.creoleNameBases = [
   {name: "Yapese (dedicated)", i: 1554, min: 4, max: 11, d: "lnrt", m: 0, b: "Yap,Waqab,Waqaab,Wa'ab,Waab,Marbaaq,Marfach,Yap Proper,Gagil-Tamil,Maap,Rumung,Tagireeng,Mount Taabiywol,Dalipebinaw,Fanif,Gagil,Gilman,Kanifay,Rull,Tomil,Weloy,Colonia"},
   {name: "Maisin (dedicated)", i: 1555, min: 4, max: 11, d: "lnrt", m: 0, b: "Maisin,Collingwood Bay,Cape Nelson,Uwe,Popondetta,Kokoda,Tufi,Higaturu,Afore,Oro Bay,Safia,Ijivitari,Sohe,Kira,Tamata,Buna,Gona,Sanananda,Mount Lamington"},
   {name: "Norfuk (dedicated)", i: 1556, min: 4, max: 11, d: "lnrt", m: 0, b: "Norfuk,Norf'k,Norf'k Ailen,Norfolk Island,Kingston,Burnt Pine,Phillip Island,Nepean Island,Lord Howe Island,New Caledonia,A Trip Ina Stik"},
-  {name: "Pitkern (dedicated)", i: 1557, min: 4, max: 11, d: "lnrt", m: 0, b: "Pitkern,Pitkern Ailen,Pitcairn Island,Pitcairn Islands,Adamstown,Bounty Bay,Pawala Valley Ridge,Henderson,Ducie,Oeno,Mangareva"}
+  {name: "Pitkern (dedicated)", i: 1557, min: 4, max: 11, d: "lnrt", m: 0, b: "Pitkern,Pitkern Ailen,Pitcairn Island,Pitcairn Islands,Adamstown,Bounty Bay,Pawala Valley Ridge,Henderson,Ducie,Oeno,Mangareva"},
+  {name: "Unserdeutsch (dedicated)", i: 1700, min: 4, max: 12, d: "lnrt", m: 0, b: "Rabaul,Kokopo,Vunapope,Gazelle Peninsula,New Britain,East New Britain,Simpson Harbour,Matupit Island,Tavurvur,Vulcan,Herbertshöhe,Baining Mountains,Keravat,Bitapaka,Malaguna,Namanula,Queen Emma,Neu-Pommern"},
+  {name: "English Oceania (dedicated)", i: 1701, min: 4, max: 12, d: "lnrt", m: 0, b: "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton,Gladstone,Cairns,Townsville,Alice Springs,Auckland,Wellington,Christchurch,Dunedin,Invercargill,Whangarei,Hamilton NZ,Napier,Gisborne"}
 ];

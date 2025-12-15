@@ -139,6 +139,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romansh dialects / worker63):** pinned dedicated bases `1640–1644` for `surmiran`, `sursilvan`, `sutsilvan`, `tuatschin`, `vallader` (via `tools/mixer-deltas/2025-12-15-worker63-romance-romansh-varieties.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance T-batch / worker2):** pinned dedicated bases `1804–1808` for `southern-cilentan`, `tabarchino`, `talian`, `tetuani`, `transylvanian` (via `tools/mixer-deltas/2025-12-15-worker2-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
 
@@ -1726,20 +1734,22 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 19
+  - `Nonunique Bases:` 16
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 22
-  - `clustered bases:` 4
-  - `clustered full items:` 4
-  - `cluster size histogram:` size2=3, size3=0, size4+=1
-  - `clustered isos:` unserdeutsch(4), eng(2), hin(2), spa(2)
+  - `unique bases:` 25
+  - `clustered bases:` 1
+  - `clustered full items:` 1
+  - `cluster size histogram:` size2=1, size3=0, size4+=0
+  - `clustered isos:` hin(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
 
 - **Notes / next steps:**
-  - **2025-12-15 status:** Added dedicated bases `1550–1553` for `yap`, `mbq`, `norfuk`, `pitkern` and applied deltas; confirmed coverage=100% for this list and race reachability for every item.
+  - **2025-12-15 status:** Added dedicated bases `1554–1557` for `yap`, `mbq`, `norfuk`, `pitkern` and applied deltas; confirmed coverage=100% for this list and race reachability for every item.
+  - **2025-12-15 status:** Declustered `unserdeutsch` by pinning it to a new dedicated base `1700`; list `Nonunique Bases` now `18` (remaining clustered full items: `eng`, `hin`, `spa`).
+  - **2025-12-15 status:** Declustered `eng` by pinning it to a new dedicated base `1701`; list `Nonunique Bases` now `16` (remaining clustered full items: `hin`).
   - Use this list as a driver for further Papuan and Oceanic coverage beyond the current macro bases (360–371) and lexifier hubs.
   - When the JSON is expanded or refined, run coverage again to confirm that all new Papuan/Oceanic items have both catalog and mixer entries.
 
@@ -2711,14 +2721,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **JSON file:** `tools/mixer-meta/wikipedia-papuan-families-foley-2003.json`
 - **Source:** https://en.wikipedia.org/wiki/Papuan_languages
 - **Status tier:** **Untriaged (auto-registered)**
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 0
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 0 (0.0%)
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 11
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 11
+  - `skipped:` 11
+  - `Nonunique Bases:` 0
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 0
   - `clustered bases:` 0

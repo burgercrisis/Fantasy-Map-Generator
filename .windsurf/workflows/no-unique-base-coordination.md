@@ -24,6 +24,14 @@ Provide a single canonical coordination protocol for multi-agent `NO_UNIQ_BASE` 
 
 # Canonical coordination primitives
 
+## 0) Global contention dashboard (read-only)
+
+Before claiming or editing any coordination files, run:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/claims-dashboard.js
+```
+
 ## 1) Workstream claim (Memory)
 
 Before editing any files, claim your workstream in MCP Memory with:
@@ -46,6 +54,17 @@ Status semantics:
 - `in_progress` locks ISOs (other agents must not claim or edit those ISOs)
 - `complete` does not lock ISOs
 - `stalled` does not lock ISOs (treat as released; preserve as history)
+
+Lock-release rule:
+
+- If you are not actively working the batch (blocked, switching tasks, or stopping for handoff), do **not** leave your claim `in_progress`.
+- Update it to `stalled` with a short handoff note so other workers can proceed.
+
+Preferred stalling command (append-only notes under lock):
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=stalled --appendNotes --notes="BLOCKER: ..."
+```
 
 ## 3) Claim helper (recommended writer)
 

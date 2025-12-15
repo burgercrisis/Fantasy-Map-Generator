@@ -12,6 +12,12 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
+- 2025-12-15: Codified the canonical `NO_UNIQ_BASE` coordination protocol into `.windsurf/workflows/no-unique-base-coordination.md`, added a read-only claim-template helper `tools/mixer-diagnostics/print-no-uniq-base-claim-template.js`, and hardened `tools/mixer-diagnostics/no-uniq-base-claim.js` create mode (auto-insert notes template if `--notes` is omitted; require `--blockSize >= #ISOs`).
+
+- 2025-12-15: Canonical coordination doc now includes an explicit lock-release rule: do not leave inactive batches `in_progress`; set `status=stalled` with a short `BLOCKER:`/handoff note to release ISO locks.
+
+- 2025-12-15: Added a read-only global claims dashboard helper `tools/mixer-diagnostics/claims-dashboard.js` to aggregate `in_progress` claim locks across `NO_UNIQ_BASE`, decluster, and wiki multi-agent claim logs. Wired into `.windsurf/workflows/no-unique-base-coordination.md` as the canonical pre-flight step.
+
 - 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
   - claim log: `tools/mixer-diagnostics/_decluster_claims.json` (UTF-8 no BOM)
   - helper: `tools/mixer-diagnostics/decluster-claim.js` (create/update under lock; optional reserved `i:` range)
@@ -28,13 +34,14 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Prepared review-only delta batch `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections; pending approval to apply via `pnpm run mixer:apply-deltas` and verify.
     - 2025-12-15: Expanded batch1 to include `bozal-spanish -> [4]` (drop out-of-family `112 (Yoruba)` and `151 (Sesotho)` from current map `[4,112,151]`).
     - 2025-12-15: Expanded batch1 with additional high-confidence removals of base `151 (Sesotho)` from non-`Niger-Congo` category ISOs (e.g., Chadic / Nilo-Saharan / Saharan / Central Sudanic). Excluded Bantu-category cases where `family` strings are inconsistent (e.g., `Bantu` vs `Niger-Congo`) to avoid false positives.
+  - 2025-12-14: Restored safety gates for mixer deltas: `node --check` passed for `modules/namebases-real.js` and `modules/namebases-creole.js`; `pnpm run mixer:guardrails` passed; `pnpm run mixer:check-deltas` now passes after neutralizing non-underscore `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (keeps linguistic proposals queued via underscore-prefixed delta files).
   - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
 
   - 2025-12-15: Added `--out-shortlist-tsv=...` to `report-language-mixer-linguistic-plausibility.js` to emit a filtered per-ISO shortlist TSV (replaces ad-hoc post-processing).
 
-  - 2025-12-15: Created delta-only proposal file `tools/mixer-deltas/2025-12-15-linguistic-fixes-proposal.json` (`setBases`: `canadian-french -> [2, 650]`, `nogai -> [295]`). Not applied yet.
+  - 2025-12-15: Created queued delta-only proposal file `tools/mixer-deltas/_2025-12-15-linguistic-fixes-proposal.json` (`setBases`: `canadian-french -> [2, 650]`, `nogai -> [295]`). Not applied yet.
 
 - 2025-12-14: Added a read-only heuristic diagnostic to flag likely linguistically inconsistent `iso -> bases[]` mappings: `tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js`.
   - Typical run: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js --only-failures --skip-region --skip-tags=pidgin,creole,mixed --limit=40`

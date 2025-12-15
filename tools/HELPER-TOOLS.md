@@ -1076,6 +1076,31 @@ Optional args:
 
 ---
 
+### `claims-dashboard.js`
+
+**Purpose**
+
+Read-only helper that prints a unified view of active `status: "in_progress"` claims across:
+
+- `tools/mixer-diagnostics/_no_uniq_base_claims.json` (NO_UNIQ_BASE)
+- `tools/mixer-diagnostics/_decluster_claims.json` (decluster)
+- `tools/mixer-diagnostics/_wiki_multiagent_claims.json` (wikipedia multi-agent)
+
+This is a quick way to see current contention/stale locks before claiming new work.
+
+**Usage**
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/claims-dashboard.js
+```
+
+Optional args:
+
+- `--limit=N` (max rows per section; default: 25)
+- `--preview=N` (ISO preview count for NO_UNIQ_BASE/decluster; default: 12)
+
+---
+
 ### `list-no-uniq-base-candidates.js`
 
 **Purpose**
