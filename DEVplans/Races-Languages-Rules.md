@@ -195,6 +195,11 @@ Result:
 - Human is the fallback and can become the **dominant race** in worlds with few explicit fantasy namebases.
 - `racesSet` / `racesNumber` behave like **locking filters**: once set (and typically locked in the options UI), they are respected by all of the above flows that call `initializeRacesForExpansion`.
 
+Status update:
+
+- `initializeRacesForExpansion` is no longer strictly gated by `culturesSet` being `highFantasy` / `darkFantasy`. It can now run whenever the current world implies non-human races (via existing `pack.races` entries or a culture that maps to a non-human race), which prevents “stuck” non-human cultures showing unmixed bases after switching culture sets.
+- `getRaceNameForCulture` prefers `culture.race` (when present) as the authoritative signal, so a culture already assigned to a non-human race will be corrected back onto the appropriate race mixer base even if its `culture.base` drifted to a real-language base.
+
 ### 2.4 QA scenarios for `racesSet` / `racesNumber` and locking
 
 The following smoke tests verify that the `Races set` and `Races number` UI fields (plus their lock icons) are correctly respected across generation and recalc flows:

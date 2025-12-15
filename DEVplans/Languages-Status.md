@@ -160,6 +160,12 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance W-batch / worker1):** pinned dedicated bases `1954–1958` for `vivaro-alpine`, `vosgien`, `wallachian`, `welche`, `west-walloon` (via `tools/mixer-deltas/2025-12-15-worker1-romance-vivaro-alpine.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2 --category=Romance`, 0 clusters). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance western batch / worker2):** pinned dedicated bases `2119–2122` for `western-aragonese`, `western-catalan`, `western-sicilian`, `wisconsin-walloon` (via `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (North America wiki list):** pinned dedicated bases `2069–2076` for `cree`, `ojibwe`, `yup`, `iku`, `cherokee`, `apa`, `athabaskan`, `navajo` (delta: `tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json`). Applied via `pnpm run mixer:apply-deltas` and verified: seed-uniqueness `--only-failures` for these 8 => 0; `report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-languages-of-north-america.json` => 0.
+
+
 
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
@@ -1464,7 +1470,7 @@ The following families / regions have **not yet received a full pass** for home-
 
 ## 5. Planned next steps when resuming
 
- - 2025-12-15: In progress (NO_UNIQ_BASE claim): workerId=2 batchId=2025-12-15T08:14:55.146Z-worker2 reservedRange=2019-2068 isos=western-aragonese, western-catalan, western-sicilian, wisconsin-walloon
+ - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`).
 
 When this work resumes, a practical order of operations:
 
@@ -1718,14 +1724,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 191 (86.4%)
+  - `fully wired:` 192 (86.9%)
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 30
+  - `missing both:` 4
+  - `unmatched:` 25
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 215
+  - `Nonunique Bases:` 208
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 100
@@ -1737,7 +1743,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Missing catalog/map/both are currently `0`; next work is reducing `unmatched` further.
+- **Status update:** Added ISO bindings (zoq,mzp,tna,oca,noj); missing both is now `4` (mzp,noj,oca,tna); next work is reducing `unmatched` further and wiring missing both.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 

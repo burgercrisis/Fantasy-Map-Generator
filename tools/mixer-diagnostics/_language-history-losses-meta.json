@@ -1,0 +1,1094 @@
+{
+  "losses": [
+    {
+      "iso": "-arsusi",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "-ayyi-dialect",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "basque",
+      "lastSeenMix": "5ef966be62c7623c0d2be568a19494d48fd88183",
+      "lastSeenMap": "5ef966be62c7623c0d2be568a19494d48fd88183",
+      "lastSeenAny": "5ef966be62c7623c0d2be568a19494d48fd88183"
+    },
+    {
+      "iso": "damascene-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "dhofari-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "dilmunite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "djibouti-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "duhok",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "dumaitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "east-gurage",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "east-semitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "eastern-egyptian-bedawi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "eastern-hilali-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "eastern-middle-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "eastern-pre-hilali-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "eblaite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "edomite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "egyptian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "egypto-sudanic-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "emirati-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "endegen",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "ezha",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "faifi",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "fessi-dialect",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "fon-lang",
+      "lastSeenMix": "5ef966be62c7623c0d2be568a19494d48fd88183",
+      "lastSeenMap": "63d1c1094ed01fc26ac0760fdf080cc80b6b437d",
+      "lastSeenAny": "5ef966be62c7623c0d2be568a19494d48fd88183"
+    },
+    {
+      "iso": "gafat",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "galilean-dialect",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gamo-gofa-dawro",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "ganza",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "ge-ez",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "geez",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gilit-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gozitan-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gulf-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gumer",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gura",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "gyeto",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hadhrami-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hadiyya",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hadramautic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hasaitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hassaniya-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hatran-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hau",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "heb",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hejazi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hertevin-neo-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hilalian-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "himyaritic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hismaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hoby-t",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hu-ayl-dialect",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "hulaul-",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "imperial-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "inter-zab",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "iraqi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "israelian-hebrew",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jebli-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jewish-assyrian-neo-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jewish-babylonian-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jewish-baghdadi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jewish-palestinian-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jijel-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "jordanian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-algerian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-baghdadi",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-egyptian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-fessi",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-iraqi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-moroccan-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-syrian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-tripolitanian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-tunisian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "judeo-yemeni-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "kashkadarian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "khorasani-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "khuzestani-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "kishite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "koy-sanjaq-christian-neo-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "koy-sanjaq-jewish-neo-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "kuwaiti-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "lebanese-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "lebanese-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "levantine-bedawi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "lish-n-did-n",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "lishana-deni",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "lishanid-noshan",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "maghrebi-judeo-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "maltralian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "mandaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "maqil-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "mashriqi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "medieval-hebrew",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "mehri",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "mesopotamian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "middle-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "minaean",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "mishnaic-hebrew",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "mla-s-",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "moabite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "modern-hebrew",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "modern-palestinian-judeo-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "modern-south-arabian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "modern-standard-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "moroccan-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "nabataean-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "nabataean-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "najdi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "neo-mandaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "north-canaanite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "north-levantine-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "north-mesopotamian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "northwest-arabian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "northwest-semitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "old-akkadian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "old-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "old-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "old-hijazi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "old-south-arabian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "omani-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "orm",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "other-semitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "palestinian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "palestinian-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "palmyrene-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "peninsular-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "philistine",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "phoenician",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "pre-classical-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "pre-hilalian-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "pre-hilalian-urban-arabic-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "proto-afroasiatic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "proto-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "proto-semitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "punic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "qaraqosh-neo-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "qatabanian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "qatari-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "qeltu-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "qormi-dialect",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "razihi",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "rijal-alma",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sa-idi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sabaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "safaitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "samalian",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "samaritan-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "samaritan-hebrew",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "san-ani-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sanandaj",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "senaya-neo-aramaic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "shawi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "shehri",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "shihhi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "shirvani-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "siculo-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sidama",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "silte",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "soddo",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "som",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "soqotri",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "south-canaanite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "south-gileadite",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "south-levantine-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "south-mesopotamian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "south-semitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sudanese-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sudanese-chadian-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sulaym-dialects",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sureth",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "sutean",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "ta-izzi-adeni-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "ta-izzi-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "taymanitic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "thamudic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "thamudic-b",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "tihamiyya-arabic",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "tir",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    },
+    {
+      "iso": "trans-zab",
+      "lastSeenMix": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "lastSeenMap": "1c0c908b3ee68b08cd0beecde1e1226151ec2569",
+      "lastSeenAny": "2848104f9b18acb0ee8664d41a8e23f622bceece"
+    }
+  ],
+  "lastSeenCommitSummary": [
+    {
+      "sha": "2848104f9b18acb0ee8664d41a8e23f622bceece",
+      "count": 178
+    },
+    {
+      "sha": "5ef966be62c7623c0d2be568a19494d48fd88183",
+      "count": 2
+    }
+  ]
+}

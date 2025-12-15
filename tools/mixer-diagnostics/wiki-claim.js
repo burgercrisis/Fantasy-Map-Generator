@@ -287,7 +287,28 @@ function main() {
 
         let idx = -1;
         if (targetArg) {
-          idx = allClaims.findIndex(c => c && c.target === targetArg);
+          const matches = allClaims
+            .map((c, i) => ({c, i}))
+            .filter(x => x.c && typeof x.c.target === "string" && x.c.target === targetArg);
+
+          if (!matches.length) throw new Error(`Claim not found for target=${targetArg}`);
+
+          const inProgress = matches.filter(x => x.c.status === "in_progress");
+          if (inProgress.length === 1) idx = inProgress[0].i;
+          else if (matches.length === 1) idx = matches[0].i;
+          else if (inProgress.length > 1) {
+            throw new Error(`target=${targetArg} matches multiple in_progress claims; pass --workerId`);
+          } else {
+            const sorted = matches
+              .slice()
+              .sort((a, b) => {
+                const at = safeParseIsoTime(a.c && (a.c.finishedAt || a.c.startedAt));
+                const bt = safeParseIsoTime(b.c && (b.c.finishedAt || b.c.startedAt));
+                if (Number.isFinite(at) && Number.isFinite(bt) && at !== bt) return bt - at;
+                return Number((b.c && b.c.workerId) || 0) - Number((a.c && a.c.workerId) || 0);
+              });
+            idx = sorted[0].i;
+          }
         } else {
           const matches = allClaims
             .map((c, i) => ({c, i}))
@@ -307,6 +328,8 @@ function main() {
 
         const claim = allClaims[idx];
         const nowIso = new Date().toISOString();
+
+        claim.updatedAt = nowIso;
 
         if (newScope) claim.scope = newScope;
 
@@ -395,6 +418,7 @@ function main() {
       scope,
       status,
       startedAt: now,
+      updatedAt: now,
     };
 
     if (note) claim.note = note;
