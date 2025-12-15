@@ -35,6 +35,12 @@ function readClaimsOrInit(absPath) {
 function sleepSync(ms) {
   const n = Number(ms);
   if (!Number.isFinite(n) || n <= 0) return;
+  if (typeof SharedArrayBuffer === "function" && typeof Atomics === "object" && typeof Atomics.wait === "function") {
+    const sab = new SharedArrayBuffer(4);
+    const arr = new Int32Array(sab);
+    Atomics.wait(arr, 0, 0, n);
+    return;
+  }
   const end = Date.now() + n;
   while (Date.now() < end) {}
 }
@@ -245,22 +251,153 @@ function main() {
       [
         "Usage:",
         "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=54 --isos=parmigiano,pavese --status=in_progress --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=54 --iso=parmigiano --iso=pavese --status=in_progress --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --workerId=54 --status=complete --appendNotes --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=stalled --notes=...",
         "",
         "Args:",
-        "  --workerId=NUM              Required",
-        "  --batchId=STRING            Optional (defaults to <ISO timestamp>-worker<workerId>)",
-        "  --isos=a,b,c                Required (comma/space separated)",
+        "  --workerId=NUM              Required (create mode); optional (update mode)",
+        "  --batchId=STRING            Optional (create mode defaults to <ISO timestamp>-worker<workerId>; update mode can target by batchId)",
+        "  --isos=a,b,c                Required (create mode; comma/space separated). In PowerShell, quote the whole arg or use repeated --iso=",
+        "  --iso=ABC                   Optional (create mode); repeatable PowerShell-safe alternative to --isos=...",
         "  --status=in_progress|...    Optional (default: in_progress)",
-        "  --notes=STRING              Optional (you can paste later)",
-        "  --blockSize=50              Optional (default: 50)",
+        "  --notes=STRING              Optional",
+        "  --update                    Optional; update an existing claim instead of creating a new one",
+        "  --appendNotes               Optional (update mode); append notes instead of replacing",
+        "  --blockSize=50              Optional (create mode; default: 50)",
+        "  --lockWaitMs=30000          Optional (default: 30000)",
+        "  --lockRetryMs=200           Optional (default: 200)",
+        "  --lockStaleMs=120000        Optional (default: 120000)",
+        "  --forceLock                 Optional; delete stale lock if lockStaleMs exceeded",
         "",
         "Behavior:",
         "  - Computes next available reserved i-range based on max i: in modules/namebases-*.js and max referenced base index in claims notes.",
         "  - Appends claim to tools/mixer-diagnostics/_no_uniq_base_claims.json (UTF-8 no BOM).",
+        "  - Update mode modifies an existing claim under a lock (updatedAt/status/notes).",
         "  - Emits reserved range for copy/paste.",
         "",
       ].join("\n")
     );
+    return;
+  }
+
+  const lockOpts = {
+    waitMs: args.lockWaitMs ? Number(args.lockWaitMs) : undefined,
+    retryMs: args.lockRetryMs ? Number(args.lockRetryMs) : undefined,
+    staleMs: args.lockStaleMs ? Number(args.lockStaleMs) : undefined,
+    forceLock: !!args.forceLock,
+  };
+
+  if (args.update) {
+    const batchIdArg = typeof args.batchId === "string" ? args.batchId : "";
+    const workerIdArg = args.workerId !== undefined ? Number(args.workerId) : NaN;
+    const newStatus = typeof args.status === "string" && args.status ? args.status : "";
+    const notesArg = typeof args.notes === "string" ? args.notes : null;
+    const appendNotes = !!args.appendNotes;
+
+    const isosArg = parseIsosFromArgv(argv);
+    if (isosArg.length) {
+      throw new Error("--update does not accept --isos/--iso (claim ISO list is immutable)");
+    }
+
+    if (!batchIdArg && !Number.isFinite(workerIdArg)) {
+      throw new Error("--update requires --batchId or --workerId");
+    }
+
+    withLock(
+      claimsLockPath,
+      lockOpts,
+      {
+        mode: "update",
+        workerId: Number.isFinite(workerIdArg) ? workerIdArg : undefined,
+        batchId: batchIdArg || undefined,
+      },
+      () => {
+        const claims = readClaimsOrInit(claimsPath);
+        if (!claims || typeof claims !== "object") throw new Error("claims JSON is not an object");
+        if (!Number.isFinite(Number(claims.version))) claims.version = 1;
+        if (!Array.isArray(claims.claims)) claims.claims = [];
+
+        let idx = -1;
+        if (batchIdArg) {
+          idx = claims.claims.findIndex(c => c && c.batchId === batchIdArg);
+        } else {
+          const matches = claims.claims
+            .map((c, i) => ({c, i}))
+            .filter(x => x.c && Number(x.c.workerId) === workerIdArg);
+          if (!matches.length) throw new Error(`No claim found for workerId=${workerIdArg}`);
+
+          const inProgress = matches.filter(x => x.c.status === "in_progress");
+          if (inProgress.length === 1) idx = inProgress[0].i;
+          else if (matches.length === 1) idx = matches[0].i;
+          else throw new Error(`workerId=${workerIdArg} matches multiple claims; pass --batchId`);
+        }
+
+        if (idx < 0) {
+          throw new Error(
+            batchIdArg
+              ? `Claim not found for batchId=${batchIdArg}`
+              : `Claim not found for workerId=${workerIdArg}`,
+          );
+        }
+
+        const claim = claims.claims[idx];
+        const now = new Date().toISOString();
+        claim.updatedAt = now;
+        if (newStatus) claim.status = newStatus;
+
+        if (notesArg !== null) {
+          if (appendNotes) {
+            const existing = typeof claim.notes === "string" ? claim.notes : "";
+            if (existing && notesArg) claim.notes = existing.replace(/\s*$/, "") + "\n\n" + notesArg;
+            else claim.notes = existing + notesArg;
+          } else {
+            claim.notes = notesArg;
+          }
+        }
+
+        if (claim.status === "in_progress") {
+          const claimIsos = Array.isArray(claim.isos) ? claim.isos : [];
+          for (let i = 0; i < claims.claims.length; i++) {
+            if (i === idx) continue;
+            const other = claims.claims[i];
+            if (!other || other.status !== "in_progress") continue;
+
+            if (Number(other.workerId) === Number(claim.workerId)) {
+              throw new Error(
+                `workerId=${claim.workerId} already has another in_progress claim batchId=${other.batchId}`,
+              );
+            }
+
+            const otherIsos = Array.isArray(other.isos) ? other.isos : [];
+            if (isoSetIntersects(claimIsos, otherIsos)) {
+              throw new Error(
+                `ISO overlap with existing in_progress claim workerId=${other.workerId} batchId=${other.batchId}`,
+              );
+            }
+          }
+        }
+
+        writeJsonNoBom(claimsPath, claims);
+
+        const rr = Array.isArray(claim.reservedRange) && claim.reservedRange.length === 2 ? claim.reservedRange : [];
+
+        process.stdout.write(
+          [
+            `OK: updated claim in ${claimsRelPath}`,
+            `workerId=${claim.workerId}`,
+            `batchId=${claim.batchId}`,
+            `status=${claim.status}`,
+            `updatedAt=${claim.updatedAt}`,
+            rr.length ? `reservedRange=${rr[0]}-${rr[1]}` : "",
+            "",
+          ]
+            .filter(Boolean)
+            .join("\n"),
+        );
+      },
+    );
+
     return;
   }
 
@@ -273,68 +410,76 @@ function main() {
   const blockSize = args.blockSize ? Number(args.blockSize) : 50;
   if (!Number.isFinite(blockSize) || blockSize <= 0) throw new Error("--blockSize must be a positive number");
 
-  const now = new Date().toISOString();
-  const batchId = typeof args.batchId === "string" && args.batchId ? args.batchId : `${now}-worker${workerId}`;
   const status = typeof args.status === "string" && args.status ? args.status : "in_progress";
   const notes = typeof args.notes === "string" ? args.notes : "";
 
-  const claims = readClaimsOrInit(claimsPath);
-  if (!claims || typeof claims !== "object") throw new Error("claims JSON is not an object");
-  if (!Number.isFinite(Number(claims.version))) claims.version = 1;
-  if (!Array.isArray(claims.claims)) claims.claims = [];
+  withLock(
+    claimsLockPath,
+    lockOpts,
+    {mode: "create", workerId, isos: isos.join(",")},
+    () => {
+      const now = new Date().toISOString();
+      const batchId =
+        typeof args.batchId === "string" && args.batchId ? args.batchId : `${now}-worker${workerId}`;
 
-  for (const c of claims.claims) {
-    if (!c) continue;
-    if (c.batchId === batchId) {
-      throw new Error(`batchId already exists: ${batchId}`);
-    }
-  }
+      const claims = readClaimsOrInit(claimsPath);
+      if (!claims || typeof claims !== "object") throw new Error("claims JSON is not an object");
+      if (!Number.isFinite(Number(claims.version))) claims.version = 1;
+      if (!Array.isArray(claims.claims)) claims.claims = [];
 
-  for (const c of claims.claims) {
-    if (!c || c.status !== "in_progress") continue;
-    if (Number(c.workerId) === workerId) {
-      throw new Error(`workerId=${workerId} already has an in_progress claim batchId=${c.batchId}`);
-    }
+      for (const c of claims.claims) {
+        if (!c) continue;
+        if (c.batchId === batchId) {
+          throw new Error(`batchId already exists: ${batchId}`);
+        }
+      }
 
-    const claimedIsos = Array.isArray(c.isos) ? c.isos : [];
-    if (isoSetIntersects(isos, claimedIsos)) {
-      throw new Error(`ISO overlap with existing in_progress claim workerId=${c.workerId} batchId=${c.batchId}`);
-    }
-  }
+      for (const c of claims.claims) {
+        if (!c || c.status !== "in_progress") continue;
+        if (Number(c.workerId) === workerId) {
+          throw new Error(`workerId=${workerId} already has an in_progress claim batchId=${c.batchId}`);
+        }
 
-  const maxUsedI = getMaxNamebaseIndex();
-  const maxReserved = getMaxReservedIndexFromClaims(claims);
-  const start = Math.max(maxUsedI, maxReserved) + 1;
-  const end = start + blockSize - 1;
+        const claimedIsos = Array.isArray(c.isos) ? c.isos : [];
+        if (isoSetIntersects(isos, claimedIsos)) {
+          throw new Error(`ISO overlap with existing in_progress claim workerId=${c.workerId} batchId=${c.batchId}`);
+        }
+      }
 
-  const claim = {
-    workerId,
-    batchId,
-    isos,
-    status,
-    startedAt: now,
-    updatedAt: now,
-    reservedRange: [start, end],
-    notes,
-  };
+      const maxUsedI = getMaxNamebaseIndex();
+      const maxReserved = getMaxReservedIndexFromClaims(claims);
+      const start = Math.max(maxUsedI, maxReserved) + 1;
+      const end = start + blockSize - 1;
 
-  claims.claims.push(claim);
+      const claim = {
+        workerId,
+        batchId,
+        isos,
+        status,
+        startedAt: now,
+        updatedAt: now,
+        reservedRange: [start, end],
+        notes,
+      };
 
-  writeJsonNoBom(claimsPath, claims);
+      claims.claims.push(claim);
+      writeJsonNoBom(claimsPath, claims);
 
-  process.stdout.write(
-    [
-      `OK: appended claim to ${claimsRelPath}`,
-      `workerId=${workerId}`,
-      `batchId=${batchId}`,
-      `isos=${isos.join(",")}`,
-      `reservedRange=${start}-${end}`,
-      "",
-      "Suggested notes snippet:",
-      `Reserved i range ${start}-${end}. ISO->base mapping (fill in):`,
-      ...isos.map((iso, idx) => `- ${iso}->${start + idx}`),
-      "",
-    ].join("\n")
+      process.stdout.write(
+        [
+          `OK: appended claim to ${claimsRelPath}`,
+          `workerId=${workerId}`,
+          `batchId=${batchId}`,
+          `isos=${isos.join(",")}`,
+          `reservedRange=${start}-${end}`,
+          "",
+          "Suggested notes snippet:",
+          `Reserved i range ${start}-${end}. ISO->base mapping (fill in):`,
+          ...isos.map((iso, idx) => `- ${iso}->${start + idx}`),
+          "",
+        ].join("\n"),
+      );
+    },
   );
 }
 

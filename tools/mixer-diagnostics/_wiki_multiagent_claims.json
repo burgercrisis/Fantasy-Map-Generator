@@ -103,9 +103,18 @@
       "workerId": 38,
       "target": "tools/mixer-meta/wikipedia-list-constructed-languages.json",
       "scope": "coverage_skip_annotations",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T00:40:16Z",
-      "note": "Mark list items as skip:true so they are excluded from coverage"
+      "finishedAt": "2025-12-15T00:40:16Z",
+      "note": "Complete. Repaired helper JSON encoding and marked all list items skip:true; updated DEVplans/Languages-Status.md snapshot."
+    },
+    {
+      "workerId": 39,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "nonunique_bases_burn_down",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T01:10:20Z",
+      "note": "Continue Africa full-table work by burning down Nonunique Bases (assign at least one globally-unique dedicated base per language, in small family-coherent batches)."
     }
   ]
 }

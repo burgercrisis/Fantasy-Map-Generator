@@ -608,6 +608,131 @@ function getRaceMixerBaseDisplayName(raceName) {
   return `Race ${raceName} (Mixer)`;
 }
 
+function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
+  if (!raceName) return "";
+  if (!isoWeights || typeof isoWeights !== "object") return "";
+  if (!Names || typeof Names.calculateChain !== "function") return "";
+
+  const catalog = loadLanguageMixerCatalogForRaces();
+  if (!Array.isArray(catalog) || !catalog.length) return "";
+
+  const catalogByIso = new Map();
+  for (const lang of catalog) {
+    if (!lang || !lang.iso || !lang.name) continue;
+    catalogByIso.set(lang.iso, lang);
+  }
+
+  const cleanedByName = new Map();
+  for (const [iso, weightRaw] of Object.entries(isoWeights)) {
+    const lang = catalogByIso.get(iso);
+    if (!lang) continue;
+    const weight = typeof weightRaw === "number" && isFinite(weightRaw) ? weightRaw : 0;
+    if (weight <= 0) continue;
+
+    let n = String(lang.name || "").trim();
+    n = n.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+    n = n.replace(/\s+(language|dialects|dialect|family|languages)\b/gi, "").trim();
+    if (n.length < 2) continue;
+
+    const key = n.toLowerCase();
+    const existing = cleanedByName.get(key);
+    cleanedByName.set(key, {
+      name: existing && existing.name ? existing.name : n,
+      weight: (existing && existing.weight ? existing.weight : 0) + weight
+    });
+  }
+
+  const sources = Array.from(cleanedByName.entries())
+    .map(([key, value]) => ({key, name: value && value.name, weight: value && value.weight}))
+    .filter(s => s && s.name && typeof s.weight === "number" && s.weight > 0)
+    .sort((a, b) => b.weight - a.weight);
+
+  if (!sources.length) return "";
+
+  const seed = options && typeof options.seed === "number" ? options.seed : null;
+  const seedInt = typeof seed === "number" && isFinite(seed) ? (seed >>> 0) : 0;
+  let s = seedInt || hashStringToUint32(`race-mixer-name|${raceName}`);
+  const rng = () => {
+    s += 0x6d2b79f5;
+    let t = s;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const pick = arr => arr[Math.floor(rng() * arr.length)];
+
+  const combined = [];
+  const totalBudget = 80;
+  for (const src of sources) {
+    const repeat = Math.max(1, Math.min(4, Math.round(src.weight)));
+    for (let i = 0; i < repeat && combined.length < totalBudget; i++) {
+      combined.push(src.name);
+    }
+    if (combined.length >= totalBudget) break;
+  }
+
+  if (!combined.length) return "";
+
+  const combinedString = combined.join(",");
+  const chain = Names.calculateChain(combinedString);
+  if (!chain || chain[""] === undefined) return "";
+
+  const min = 4;
+  const max = 16;
+  const dupl = "lnrt";
+
+  let v = chain[""],
+    cur = pick(v),
+    w = "";
+
+  for (let i = 0; i < 20; i++) {
+    if (cur === "") {
+      if (w.length < min) {
+        cur = "";
+        w = "";
+        v = chain[""];
+      } else break;
+    } else {
+      if (w.length + cur.length > max) {
+        if (w.length < min) w += cur;
+        break;
+      } else v = chain[last(cur)] || chain[""];
+    }
+
+    w += cur;
+    cur = pick(v);
+  }
+
+  const l = last(w);
+  if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
+
+  let name = [...w].reduce(function (r, c, i, d) {
+    if (c === d[i + 1] && !dupl.includes(c)) return r;
+    if (!r.length) return c.toUpperCase();
+    if (r.slice(-1) === "-" && c === " ") return r;
+    if (r.slice(-1) === " ") return r + c.toUpperCase();
+    if (r.slice(-1) === "-") return r + c.toUpperCase();
+    if (c === "a" && d[i + 1] === "e") return r;
+    if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+    return r + c;
+  }, "");
+
+  if (name.split(" ").some(part => part.length < 2)) {
+    name = name
+      .split(" ")
+      .map((p, i) => (i ? p.toLowerCase() : p))
+      .join("");
+  }
+
+  if (!name || name.length < 2) {
+    const fallback = sources[0] && sources[0].name ? sources[0].name : "";
+    name = fallback ? fallback.charAt(0).toUpperCase() + fallback.slice(1) : "";
+  }
+
+  if (!name || name.length < 2) return "";
+  return `${name} (${raceName})`;
+}
+
 function hashStringToUint32(value) {
   const str = value == null ? "" : String(value);
   let h = 2166136261;
@@ -623,6 +748,7 @@ function findExistingRaceMixerBaseIndex(raceName) {
   const expectedName = getRaceMixerBaseDisplayName(raceName);
   for (let i = 0; i < nameBases.length; i++) {
     const b = nameBases[i];
+    if (b && b.raceMixerFor === raceName) return i;
     if (!b || typeof b.name !== "string") continue;
     if (b.name === expectedName) return i;
   }
@@ -635,7 +761,23 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   if (!Array.isArray(nameBases)) return null;
 
   const existing = findExistingRaceMixerBaseIndex(raceName);
-  if (existing != null) return existing;
+  if (existing != null) {
+    const base = nameBases[existing];
+    if (base && !base.raceMixerFor) base.raceMixerFor = raceName;
+
+    if (base && typeof base.name === "string" && base.name === getRaceMixerBaseDisplayName(raceName)) {
+      const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
+      const primaryIsoWeights = getRaceLanguageIsoWeights(raceName);
+      const isoWeights = primaryIsoWeights || fallbackIsoWeights;
+
+      const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer-name`;
+      const nameSeed = hashStringToUint32(seedSource);
+      const display = buildRaceMixerLanguageDisplayName(raceName, isoWeights, {seed: nameSeed});
+      if (display) base.name = display;
+    }
+
+    return existing;
+  }
 
   if (!Names || typeof Names.getMixedByIso !== "function") return null;
   const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
@@ -687,7 +829,10 @@ function ensureRaceMixerBaseIndex(raceName, options) {
 
   const b = sanitized.join(",");
   const baseIndex = nameBases.length;
-  nameBases.push({name: getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b});
+  const nameSeedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer-name`;
+  const nameSeed = hashStringToUint32(nameSeedSource);
+  const displayName = buildRaceMixerLanguageDisplayName(raceName, isoWeights, {seed: nameSeed});
+  nameBases.push({name: displayName || getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b, raceMixerFor: raceName});
   return baseIndex;
 }
 
@@ -934,6 +1079,8 @@ function getRaceNameForCulture(culture) {
   }
 
   const baseEntry = nameBases && nameBases[base];
+  const markedRace = baseEntry && typeof baseEntry.raceMixerFor === "string" ? baseEntry.raceMixerFor : "";
+  if (markedRace && fantasyRaceBases[markedRace]) return markedRace;
   const baseName = baseEntry && typeof baseEntry.name === "string" ? baseEntry.name : "";
   const match = /^Race\s+(.+)\s+\(Mixer\)$/.exec(baseName);
   if (match && match[1] && fantasyRaceBases[match[1]]) return match[1];

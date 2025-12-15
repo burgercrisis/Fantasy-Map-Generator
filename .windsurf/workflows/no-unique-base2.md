@@ -46,14 +46,16 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 
 ## 1) Sync your claim to reality (required)
 
-1. Open `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
-2. Find your claim entry (`workerId` / `batchId`).
-3. Set `updatedAt` to now.
-4. Update `notes` to include:
+1. Find your claim entry (`workerId` / `batchId`).
+2. Update the claim via the helper (preferred: target by `batchId`). This sets `updatedAt` and writes under a lock:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --appendNotes --notes="Reserved i range: start–end"
+```
+
+3. Ensure `notes` include:
    - Your reserved `i:` range (required):
      - `Reserved i range: start–end`
-     - Choose `start = 1 + max(maxUsedI, maxReservedEndI)`
-     - Default block size: `end = start + 49`
    - ISO->base mapping you applied (one per line, e.g. `iso->NNN`).
    - Any reserved base sub-ranges you intentionally did not use.
    - Any remaining seed-uniqueness debt lines:
@@ -96,8 +98,17 @@ If it’s not quick, do not block; just document the remaining strict/norm debt 
 
 ## 4) Update claim status (required)
 
-- If `NO_UNIQ_BASE` is cleared for all batch ISOs: set `status: "complete"`.
-- If blocked: set `status: "stalled"` and write the exact blocker + what decision is needed.
+- If `NO_UNIQ_BASE` is cleared for all batch ISOs:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=complete
+```
+
+- If blocked:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=stalled --appendNotes --notes="BLOCKER: ..."
+```
 
 ## 5) Continue
 

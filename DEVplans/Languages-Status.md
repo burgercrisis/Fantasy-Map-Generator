@@ -100,6 +100,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Uralic collisions / worker56):** pinned dedicated bases `1030–1037` for `nenets`, `tundra-nenets`, `north-estonian`, `western-estonian`, `northern-erzya`, `southeastern-erzya`, `western-erzya`, `shoksha` (via `tools/mixer-deltas/2025-12-15-worker56-uralic-nenets-estonian-erzya.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures).
+
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Uralic collisions / worker57):** pinned dedicated bases `1130–1136` for `eastern-khanty`, `eastern-mansi`, `western-mansi`, `cs-ng-`, `northeast-hungary`, `transylvanian-plain`, `southern-sami` (via `tools/mixer-deltas/2025-12-15-worker57-uralic.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing).
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
 
@@ -228,9 +236,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker54 mini-batch):** added dedicated bases `930–934` for `parmigiano`, `pavese`, `peruvian-ribere-o`, `peruvian-spanish`, `pesciatino` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker54-parmigiano.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (no strict failures; no norm failures).
 
-
-
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Uralic / worker55 collision slice):** pinned dedicated bases `935–944` for `bjarmian-finnic`, `proto-sami`, `forest-nenets`, `proto-finnic`, `southwestern-finnish`, `proto-uralic`, `proto-karelian`, `proto-permic`, `somero-region`, `j-mtland` via delta `tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (No globally-unique base index: 0; strict failures: 0; norm failures: 0), and verified `mixer:guardrails`, `mixer:check-deltas`, `check-language-mixer-coverage.js` (Missing mapping: 0), and `check-language-mixer-failures.js` (0 failures). Confirmed each batch ISO has a unique `bases[]` key (count=1) and that base-set collisions are cleared for the batch.
+
+
+- ✅ **2025-12-15 base-set decluster (Uralic / worker58 Mari collision):** cleared identical `bases[]` collision between `eastern-mari` and `meadow-mari-proper` by setting `eastern-mari` bases to `[9,320,427]` via delta `tools/mixer-deltas/2025-12-15-worker58-uralic-mari-decluster.json` + `pnpm run mixer:apply-deltas`. Verified `mixer:guardrails`, `mixer:check-deltas`, `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and `report-language-mixer-base-clusters.js --min-size=2 --category=Uralic --family=Mari` (0 clusters). Note: both ISOs still report `NO_UNIQ_BASE` until dedicated bases are added.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker57 mini-batch):** added dedicated bases `1080–1084` for `philippine-spanish`, `piedmontese`, `pisano-livornese`, `pistoiese`, `poitevin-saintongeais` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker57-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker41 mini-batch):** added dedicated bases `858–862` for `judeo-aragonese`, `judeo-catalan`, `judeo-gascon`, `judeo-italian`, `judeo-mantuan` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).
@@ -2516,15 +2529,16 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-constructed-languages.json`
 - **Source:** https://en.wikipedia.org/wiki/List_of_constructed_languages
-- **Status tier:** **Untriaged (auto-registered)**
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 0
+- ✅ **Status tier:** **Complete**
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 0 (0.0%)
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 7
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 7
+  - `skipped:` 7
+  - `Nonunique Bases:` 0
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 0
   - `clustered bases:` 0
