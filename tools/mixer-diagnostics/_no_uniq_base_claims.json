@@ -1487,14 +1487,33 @@
         "achang",
         "acr"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T09:11:54.915Z",
-      "updatedAt": "2025-12-15T09:11:54.915Z",
+      "updatedAt": "2025-12-15T09:25:41.080Z",
       "reservedRange": [
         2219,
         2268
       ],
-      "notes": "Reserved i range: 2219-2268\nISO->base mapping (fill in):\n- abba-gorgoryos->2219\n- aboriginal-pidgin-english->2220\n- aca->2221\n- achang->2222\n- acr->2223"
+      "notes": "Reserved i range: 2219-2268\nISO->base mapping (fill in):\n- abba-gorgoryos->2219\n- aboriginal-pidgin-english->2220\n- aca->2221\n- achang->2222\n- acr->2223\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-abba-gorgoryos.json; dedicated bases i:2219-2223 in modules/namebases-real.js): abba-gorgoryos->2219; aboriginal-pidgin-english->2220; aca->2221; achang->2222; acr->2223. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=abba-gorgoryos,aboriginal-pidgin-english,aca,achang,acr => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T09:28:37.323Z-worker1",
+      "isos": [
+        "adang",
+        "adi",
+        "adjaran-georgian",
+        "adnyamathanha",
+        "aeq"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T09:28:37.323Z",
+      "updatedAt": "2025-12-15T09:28:37.323Z",
+      "reservedRange": [
+        2269,
+        2318
+      ],
+      "notes": "Reserved i range: 2269-2318\nISO->base mapping (fill in):\n- adang->2269\n- adi->2270\n- adjaran-georgian->2271\n- adnyamathanha->2272\n- aeq->2273"
     }
   ]
 }

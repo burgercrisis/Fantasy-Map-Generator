@@ -21,5 +21,10 @@ window.creoleNameBases = [
   {name: "Kungarakany (dedicated)", i: 1708, min: 4, max: 12, d: "lnrt", m: 0, b: "Batchelor,Rum Jungle,Adelaide River,Litchfield,Florence Falls,Wangi Falls,Tolmer Falls,Daly River,Stuart Highway,Palmerston,Darwin,Pine Creek"},
   {name: "Tiwi (dedicated)", i: 1709, min: 4, max: 12, d: "lnrt", m: 0, b: "Tiwi,Bathurst Island,Melville Island,Wurrumiyanga,Milikapiti,Pirlangimpi,Nguiu,Snake Bay,Garden Point,Tiwi Islands,Arafura Sea"},
   {name: "Umbugarla (dedicated)", i: 1710, min: 4, max: 12, d: "lnrt", m: 0, b: "Umbugarla,Arnhem Land,Maningrida,Oenpelli,Gunbalanya,Roper River,Ngukurr,Katherine,Alligator Rivers"},
-  {name: "Wadjiginy (dedicated)", i: 1711, min: 4, max: 12, d: "lnrt", m: 0, b: "Wadjiginy,Wogait,Batjamalh,Daly River,Nauiyu,Wadeye,Peppimenarti,Palumpa,Timber Creek,Port Keats"}
+  {name: "Wadjiginy (dedicated)", i: 1711, min: 4, max: 12, d: "lnrt", m: 0, b: "Wadjiginy,Wogait,Batjamalh,Daly River,Nauiyu,Wadeye,Peppimenarti,Palumpa,Timber Creek,Port Keats"},
+  {name: "Iwaidja (dedicated)", i: 1712, min: 4, max: 12, d: "lnrt", m: 0, b: "Iwaidja,Iwaja,Croker Island,Minjilang,Cobourg Peninsula,Arnhem Land,Darwin,Palmerston,Maningrida,Gunbalanya,Arafura Sea"},
+  {name: "Maung (dedicated)", i: 1713, min: 4, max: 12, d: "lnrt", m: 0, b: "Maung,Mawng,Goulburn Island,Warruwi,Arnhem Land,Arafura Sea,Darwin,Maningrida,Croker Island,Cobourg Peninsula"},
+  {name: "Kunwinjku (dedicated)", i: 1714, min: 4, max: 12, d: "lnrt", m: 0, b: "Kunwinjku,Gunbalanya,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Arnhem Land,East Alligator River,Magela Creek"},
+  {name: "Murrinh Patha (dedicated)", i: 1715, min: 4, max: 12, d: "lnrt", m: 0, b: "Murrinh,Patha,Wadeye,Port Keats,Moyle River,Daly River,Timber Creek,Peppimenarti,Nauiyu,Thamarrurr"},
+  {name: "Nunggubuyu (dedicated)", i: 1716, min: 4, max: 12, d: "lnrt", m: 0, b: "Nunggubuyu,Wubuy,Numbulwar,East Arnhem,Arnhem Land,Gulf of Carpentaria,Roper River,Ngukurr,Groote Eylandt"}
 ];

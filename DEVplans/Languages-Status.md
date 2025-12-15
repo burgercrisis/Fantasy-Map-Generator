@@ -16,10 +16,11 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - Current target thresholds (explicit goal, tracked as debt; **not** a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
 
- Single-integrator lane (multi-agent note): historical entries below may mention `pnpm run mixer:apply-deltas` as part of verification logs, but in multi-agent contexts only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts. Non-integrators should hand off delta files + notes and may use `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` for read-only validation.
+- Single-integrator lane (multi-agent note): historical entries below may mention `pnpm run mixer:apply-deltas` as part of verification logs, but in multi-agent contexts only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts. Non-integrators should hand off delta files + notes and may use `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` for read-only validation.
+  See `.windsurf/workflows/single-integrator-lane.md`.
 
- - To measure current compliance and track progress, use:
-   - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
+- To measure current compliance and track progress, use:
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures`
 
  Latest seed-uniqueness report snapshot (2025-12-13):
 
@@ -165,6 +166,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed dialect batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A-batch / worker1):** pinned dedicated bases `2219–2223` for `abba-gorgoryos`, `aboriginal-pidgin-english`, `aca`, `achang`, `acr` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-abba-gorgoryos.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (North America wiki list):** pinned dedicated bases `2069–2076` for `cree`, `ojibwe`, `yup`, `iku`, `cherokee`, `apa`, `athabaskan`, `navajo` (delta: `tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json`). Applied via `pnpm run mixer:apply-deltas` and verified: seed-uniqueness `--only-failures` for these 8 => 0; `report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-languages-of-north-america.json` => 0.

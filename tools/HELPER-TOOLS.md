@@ -39,6 +39,7 @@ Multi-agent note:
 
 - In multi-agent / multi-writer contexts, prefer the delta workflow (`tools/mixer-deltas/*.json` + `pnpm run mixer:apply-deltas`) and avoid running the suite unless explicitly requested, as it can rewrite mappings and increase churn.
 - Single-integrator lane: only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts; non-integrators should hand off delta files + notes and use `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` for read-only validation.
+  - See `.windsurf/workflows/single-integrator-lane.md`.
 
 Guardrails:
 
@@ -118,6 +119,7 @@ Pin early (multi-agent safe): if you assign a dedicated base index to any ISO, a
 - Add `iso -> base` under `dedicatedPins` in `tools/mixer-deltas/*.json`
 - Run `pnpm run mixer:apply-deltas`
 - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas`; hand off the delta file + notes and ask the integrator to apply + verify.
+  - See `.windsurf/workflows/single-integrator-lane.md`.
 
 Dedicated pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json` and loaded automatically by `tools/mixer-core/fix-language-mixer-mappings.js`.
 

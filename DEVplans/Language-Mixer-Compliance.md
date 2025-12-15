@@ -38,7 +38,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Team process decision: `.windsurf/rules/languages-wiki.md` now encodes the single-integrator lane rule adjacent to `pnpm run mixer:apply-deltas`.
 
-- 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
+- 2025-12-15: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
   - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.
   - Systemic anomaly identified: ~34 catalog entries with `family: "Australian Aboriginal"` currently include shared base `312` ("Harari-Argobba") in `bases[]`, even though `tools/mixer-core/fix-language-mixer-mappings.js` explicitly maps these ISOs (and token `australian-aboriginal`) to base `313` ("Australian Aboriginal").
@@ -46,6 +46,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - 2025-12-15: Linguistic accuracy policy decision: family-pure by default.
   - 2025-12-15: Applied delta batch `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections.
     - Verification: `pnpm run mixer:apply-deltas` (OK) and `pnpm run mixer:check-deltas` (OK).
+  - 2025-12-15: Verification rerun: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js --limit=300 --out-tsv=tools/mixer-diagnostics/tmp/linguistic-plausibility.tsv --out-shortlist-tsv=tools/mixer-diagnostics/tmp/linguistic-plausibility-shortlist.tsv` (OK); offender spot-check: `canadian-french -> [2,650]`, `bozal-spanish -> [4]`, `nogai -> [295]`.
   - Next step (pending approval / coordination): expand the batch in small increments (high-confidence only), then re-run `pnpm run mixer:apply-deltas` + `pnpm run mixer:check-deltas`.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).

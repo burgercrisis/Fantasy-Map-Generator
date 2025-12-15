@@ -44,7 +44,7 @@ The goal is to ensure every **non-family** catalog ISO has **at least one** base
   - Add/adjust base definitions in `modules/namebases-*.js` (append-only)
   - Add a delta file under `tools/mixer-deltas/*.json`
   - Run `pnpm run mixer:apply-deltas`
-  - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas` or regenerate committed artifacts; hand off the delta + notes to the integrator for apply + verification.
+  - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas` or regenerate committed artifacts; hand off the delta + notes to the integrator for apply + verification. See `.windsurf/workflows/single-integrator-lane.md`.
 - Do **not** directly edit `config/language-mixer-map.json` (except emergency repair).
 - Do **not** directly edit `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prefer deltas).
 
@@ -181,7 +181,7 @@ Preferred strategy (default):
 - Ensure its seed list (`b`) is plausible for the ISO.
 - Add the dedicated pin (and any other bases to append) via a delta file in `tools/mixer-deltas/*.json`.
 - Apply deltas with `pnpm run mixer:apply-deltas`.
-- Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself.
+- Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself. See `.windsurf/workflows/single-integrator-lane.md`.
 
 Important:
 
@@ -205,7 +205,7 @@ After edits:
 pnpm run mixer:apply-deltas
 ```
 
-Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself.
+Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself. See `.windsurf/workflows/single-integrator-lane.md`.
 
 2. Re-run the report and confirm your batch is improved:
 
