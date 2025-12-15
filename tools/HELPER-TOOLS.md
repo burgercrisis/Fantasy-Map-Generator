@@ -1042,13 +1042,37 @@ pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batch
 Optional args:
 
 - `--batchId=...` (defaults to `<timestamp>-worker<workerId>`)
-- `--blockSize=50` (default: 50)
-- `--notes=...`
+- `--blockSize=50` (default: 50; must be >= number of ISOs)
+- `--notes=...` (optional; if omitted, a standard notes template is inserted)
 - `--iso=ABC` (repeatable PowerShell-safe alternative to `--isos=...`)
 - `--update` (update mode: modify `status` / `notes` / `updatedAt` under a lock)
 - `--appendNotes` (update mode)
 - `--dashboard` (read-only summary of `in_progress` claims + suggested next reserved range)
 - `--lockWaitMs=...` / `--lockRetryMs=...` / `--lockStaleMs=...` / `--forceLock` (lock tuning)
+
+---
+
+### `print-no-uniq-base-claim-template.js`
+
+**Purpose**
+
+Read-only helper that prints:
+
+- the next safe reserved `i:` range
+- a standardized claim `notes` template (`Reserved i range: start-end` + `- iso->NNN` lines)
+
+This script does **not** write any files.
+
+**Usage**
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/print-no-uniq-base-claim-template.js --blockSize=50 --isos=<comma-separated isos>
+```
+
+Optional args:
+
+- `--blockSize=50` (default: 50; must be >= number of ISOs)
+- `--iso=ABC` (repeatable PowerShell-safe alternative to `--isos=...`)
 
 ---
 

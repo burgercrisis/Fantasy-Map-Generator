@@ -1280,12 +1280,12 @@
       ],
       "status": "in_progress",
       "startedAt": "2025-12-15T03:09:32.316Z",
-      "updatedAt": "2025-12-15T03:36:30.806Z",
+      "updatedAt": "2025-12-15T04:11:10.347Z",
       "reservedRange": [
         1640,
         1689
       ],
-      "notes": "Reserved i range: 1640-1689\n\nPlanned ISO->base mapping:\n- surmiran->1640\n- sursilvan->1641\n- sutsilvan->1642\n- tuatschin->1643\n- vallader->1644"
+      "notes": "Reserved i range: 1640-1689\n\nPlanned ISO->base mapping:\n- surmiran->1640\n- sursilvan->1641\n- sutsilvan->1642\n- tuatschin->1643\n- vallader->1644\n\nReserved i range: 1640-1689. ISO->base mapping applied: surmiran->1640; sursilvan->1641; sutsilvan->1642; tuatschin->1643; vallader->1644. Delta pins file: tools/mixer-deltas/2025-12-15-worker63-romance-romansh-dialects.json"
     },
     {
       "workerId": 66,

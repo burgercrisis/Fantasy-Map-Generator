@@ -18,6 +18,8 @@ You are Cascade working on the Fantasy-Map-Generator language mixer.
 
 This workflow is a **reusable “verification + handoff” checklist** for multi-agent `NO_UNIQ_BASE` burn-down work.
 
+ See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
+
 If you are marked `in_progress` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`, run this workflow for your claim **before** you mark it complete.
 
 # Objective
@@ -50,12 +52,12 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
 2. Update the claim via the helper (preferred: target by `batchId`). This sets `updatedAt` and writes under a lock:
 
 ```bash
-pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --appendNotes --notes="Reserved i range: start–end"
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --appendNotes --notes="Reserved i range: start-end"
 ```
 
 3. Ensure `notes` include:
    - Your reserved `i:` range (required):
-     - `Reserved i range: start–end`
+     - `Reserved i range: start-end`
    - ISO->base mapping you applied (one per line, e.g. `iso->NNN`).
    - Any reserved base sub-ranges you intentionally did not use.
    - Any remaining seed-uniqueness debt lines:

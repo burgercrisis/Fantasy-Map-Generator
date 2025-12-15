@@ -17,6 +17,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - helper: `tools/mixer-diagnostics/decluster-claim.js` (create/update under lock; optional reserved `i:` range)
   - verification: `pnpm run mixer:guardrails` now checks `_decluster_claims.json` for BOM + JSON parse, and `.gitignore` ignores `tools/mixer-diagnostics/_decluster_claims.lock`
 
+- 2025-12-14: Multi-agent safety: `pnpm run mixer:apply-deltas` / `pnpm run mixer:check-deltas` now serialize via an atomic lock file (`tools/mixer-core/_apply-mixer-deltas.lock`, gitignored) to reduce multi-writer conflicts on generated mixer artifacts.
+
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
   - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.

@@ -1717,28 +1717,29 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Primary families / regions touched:** Papuan & Pacific Austronesian region; see [§2.12 Papuan & Pacific Austronesian (second-pass)](#212-papuan--pacific-austronesian-second-pass).
 
 - **Status tier:** **In progress (full page mentions snapshot)**
-- **Last run:** 2025-12-13
+- **Last run:** 2025-12-15
 
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 22
+  - `fully wired:` 26
   - `missing catalog:` 0
-  - `missing map:` 4
+  - `missing map:` 0
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 23
+  - `Nonunique Bases:` 19
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 19
-  - `clustered bases:` 3
-  - `clustered full items:` 3
-  - `cluster size histogram:` size2=2, size3=0, size4+=1
-  - `clustered isos:` unserdeutsch(4), eng(2), hin(2)
+  - `unique bases:` 22
+  - `clustered bases:` 4
+  - `clustered full items:` 4
+  - `cluster size histogram:` size2=3, size3=0, size4+=1
+  - `clustered isos:` unserdeutsch(4), eng(2), hin(2), spa(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
 
 - **Notes / next steps:**
+  - **2025-12-15 status:** Added dedicated bases `1550–1553` for `yap`, `mbq`, `norfuk`, `pitkern` and applied deltas; confirmed coverage=100% for this list and race reachability for every item.
   - Use this list as a driver for further Papuan and Oceanic coverage beyond the current macro bases (360–371) and lexifier hubs.
   - When the JSON is expanded or refined, run coverage again to confirm that all new Papuan/Oceanic items have both catalog and mixer entries.
 
@@ -2175,17 +2176,18 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (named-language subset)** – this helper exists to ensure that languages mentioned only in classification trees are still represented as normal coverage items.
 
-- **Snapshot from last run (all list items):**
-  - `fully wired:` 3
+- **Snapshot from last run (considered items only):**
+  - `fully wired:` 10 (100.0%)
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 11
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 13
+  - `skipped:` 4
+  - `Nonunique Bases:` 8
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 3
+  - `unique bases:` 10
   - `clustered bases:` 0
   - `clustered full items:` 0
   - `cluster size histogram:` size2=0, size3=0, size4+=0
