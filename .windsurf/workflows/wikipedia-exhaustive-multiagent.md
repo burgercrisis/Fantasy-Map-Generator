@@ -44,6 +44,16 @@ This work is intentionally long-running. If the user says `continue`, repeat the
 To avoid two agents doing the same batch:
 
 1. Use a shared claim file at `tools/mixer-diagnostics/_wiki_multiagent_claims.json`.
+
+Preferred (recommended writer; no manual JSON edits):
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --dashboard
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --workerId=<NUM> --target=<JSON_PATH> --scope=coverage_then_uniqueness_then_race --status=in_progress
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --target=<JSON_PATH> --status=complete --note="..."
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --target=<JSON_PATH> --status=stalled --appendNote --note="BLOCKER: ..."
+```
+
 2. If the file does not exist, create it as:
 
    ```json
@@ -68,7 +78,7 @@ To avoid two agents doing the same batch:
 
    - Save the file.
 
-4. If you cannot find any unclaimed target, pick the oldest `in_progress` claim and move it to `stalled` (do not delete it), then claim a different target.
+4. If you cannot find any unclaimed target, or if the oldest `in_progress` claim is **> 24h** old and appears inactive, pick the oldest `in_progress` claim and move it to `stalled` (do not delete it), then claim a different target.
 
 5. When you finish a target (or stop for any reason), update your claim’s `status` to one of:
    - `complete`

@@ -173,8 +173,8 @@ function main() {
         "Usage:",
         "  pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --dashboard [--limit=25]",
         "  pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --workerId=<NUM> --target=<JSON_PATH> [--scope=...] [--status=in_progress] [--note=...]",
-        "  pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --workerId=<NUM> [--status=complete|stalled|in_progress] [--note=...] [--appendNote]",
-        "  pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --target=<JSON_PATH> [--status=...] [--note=...] [--appendNote]",
+        "  pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --workerId=<NUM> [--status=complete|stalled|in_progress] [--scope=...] [--note=...] [--appendNote]",
+        "  pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --target=<JSON_PATH> [--status=...] [--scope=...] [--note=...] [--appendNote]",
         "",
         "Files:",
         `  claims: ${claimsRelPath}`,
@@ -265,6 +265,7 @@ function main() {
     const workerIdArg = args.workerId !== undefined ? Number(args.workerId) : NaN;
     const targetArg = typeof args.target === "string" ? args.target : "";
     const newStatus = typeof args.status === "string" && args.status ? args.status : "";
+    const newScope = typeof args.scope === "string" && args.scope ? args.scope : "";
     const noteArg = typeof args.note === "string" ? args.note : null;
     const appendNote = !!args.appendNote;
 
@@ -306,6 +307,8 @@ function main() {
 
         const claim = allClaims[idx];
         const nowIso = new Date().toISOString();
+
+        if (newScope) claim.scope = newScope;
 
         if (newStatus) {
           claim.status = newStatus;

@@ -1101,6 +1101,32 @@ Optional args:
 
 ---
 
+### `wiki-claim.js`
+
+**Purpose**
+
+Writer helper for the Wikipedia multi-agent claims log:
+
+- `tools/mixer-diagnostics/_wiki_multiagent_claims.json`
+
+This helper updates the claims file under an atomic lock and writes JSON as UTF-8 without BOM.
+
+**Usage**
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --dashboard
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --workerId=<NUM> --target=<JSON_PATH> --scope=coverage_then_uniqueness_then_race --status=in_progress
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --target=<JSON_PATH> --status=complete --note="..."
+pnpm exec -- node tools/mixer-diagnostics/wiki-claim.js --update --target=<JSON_PATH> --status=stalled --appendNote --note="BLOCKER: ..."
+```
+
+Optional args:
+
+- `--scope=...` (create or update)
+- `--lockWaitMs=...` / `--lockRetryMs=...` / `--lockStaleMs=...` / `--forceLock`
+
+---
+
 ### `list-no-uniq-base-candidates.js`
 
 **Purpose**

@@ -60,6 +60,10 @@ Lock-release rule:
 - If you are not actively working the batch (blocked, switching tasks, or stopping for handoff), do **not** leave your claim `in_progress`.
 - Update it to `stalled` with a short handoff note so other workers can proceed.
 
+Stale-claim policy (team norm):
+
+- If a claim has been `in_progress` for **> 24h** and the worker is not actively working it, it should be moved to `stalled` (do not delete it) so the ISO lock is released.
+
 Preferred stalling command (append-only notes under lock):
 
 ```bash

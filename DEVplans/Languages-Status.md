@@ -1738,14 +1738,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 16
+  - `Nonunique Bases:` 15
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 25
-  - `clustered bases:` 1
-  - `clustered full items:` 1
-  - `cluster size histogram:` size2=1, size3=0, size4+=0
-  - `clustered isos:` hin(2)
+  - `unique bases:` 26
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-oceania.json`
@@ -1754,6 +1754,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - **2025-12-15 status:** Added dedicated bases `1554–1557` for `yap`, `mbq`, `norfuk`, `pitkern` and applied deltas; confirmed coverage=100% for this list and race reachability for every item.
   - **2025-12-15 status:** Declustered `unserdeutsch` by pinning it to a new dedicated base `1700`; list `Nonunique Bases` now `18` (remaining clustered full items: `eng`, `hin`, `spa`).
   - **2025-12-15 status:** Declustered `eng` by pinning it to a new dedicated base `1701`; list `Nonunique Bases` now `16` (remaining clustered full items: `hin`).
+  - **2025-12-15 status:** Declustered `hin` by pinning it to a new dedicated base `1702`; Oceania list now has `clustered bases: 0` (all full items have globally unique `bases[]` sets).
   - Use this list as a driver for further Papuan and Oceanic coverage beyond the current macro bases (360–371) and lexifier hubs.
   - When the JSON is expanded or refined, run coverage again to confirm that all new Papuan/Oceanic items have both catalog and mixer entries.
 

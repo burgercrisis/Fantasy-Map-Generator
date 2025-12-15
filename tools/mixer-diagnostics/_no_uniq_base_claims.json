@@ -1361,6 +1361,25 @@
         1903
       ],
       "notes": "Reserved i range: 1854-1903\nISO->base mapping (fill in):\n- tuscia->1854\n- umbrian->1855\n- uruguayan-portuguese->1856\n- uruguayan-spanish->1857\n- vald-tain->1858\n\nISO->base mapping applied (dedicated bases in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker1-romance-tuscia.json; compiled via pnpm run mixer:apply-deltas):\\n- tuscia->1854\\n- umbrian->1855\\n- uruguayan-portuguese->1856\\n- uruguayan-spanish->1857\\n- vald-tain->1858\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos='tuscia,umbrian,uruguayan-portuguese,uruguayan-spanish,vald-tain' --limit=120 => uniqBase for all 5; strictUniqueSeeds=12; normUniqueSeeds=12; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T07:27:21.847Z-worker1",
+      "isos": [
+        "valencian",
+        "venetian",
+        "venezuelan-spanish",
+        "versiliese",
+        "viareggino"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T07:27:21.847Z",
+      "updatedAt": "2025-12-15T07:27:21.847Z",
+      "reservedRange": [
+        1904,
+        1953
+      ],
+      "notes": "Reserved i range: 1904-1953\nISO->base mapping (fill in):\n- valencian->1904\n- venetian->1905\n- venezuelan-spanish->1906\n- versiliese->1907\n- viareggino->1908"
     }
   ]
 }

@@ -163,7 +163,7 @@ function loadNamebaseIndices() {
   ];
 
   const indices = new Set();
-  const re = /\{\s*name:\s*"[^"]+",\s*i:\s*(\d+)/g;
+  const re = /\bi:\s*(\d+)/g;
 
   for (const file of files) {
     let src;
