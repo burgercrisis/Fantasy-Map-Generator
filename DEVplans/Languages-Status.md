@@ -189,10 +189,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A5-batch / worker1):** pinned dedicated bases `2519–2523` for `ais`, `ait-seghrouchen-berber`, `aiton`, `ajawa-language`, `akan` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`. Re-verified 2025-12-15: seed-uniqueness Target ISOs=5; coverage missing=0; failures=0.
 
 
-- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Uralic mini-batch / worker1):** pinned dedicated bases `2569–2573` for `ala-satakunta`, `american-finnish`, `avam`, `berjozov`, `besermyan` (via `tools/mixer-deltas/2025-12-15-worker1-uralic-ala-satakunta.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Uralic mini-batch / worker1):** pinned dedicated bases `2569–2573` for `ala-satakunta`, `american-finnish`, `avam`, `berjozov`, `besermyan` (via `tools/mixer-deltas/2025-12-15-worker1-uralic-ala-satakunta.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`. Re-verified 2025-12-15: seed-uniqueness Target ISOs=5; coverage missing=0; failures=0; claim updatedAt=2025-12-15T21:36:24.379Z.
 
 
-- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** `in_progress=0` (per `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard`). Next suggested reserved range: `2569–2618` (suggestedWorkerId `1`).
+- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** `in_progress=1` (per `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard`). Active: `workerId=1 batchId=2025-12-15T21:42:44.064Z-worker1 reservedRange=2619–2668 isos=arafundi-enga-pidgin,aramaic,aranadan,arawak,argobba`. Next suggested reserved range: `2669–2718` (suggestedWorkerId `2`; maxUsedI `2573`; maxReservedIndex `2668`).
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A4-batch / worker1):** pinned dedicated bases `2469–2473` for `ahr`, `aht`, `ai-cham`, `aimele`, `air-tamajeq-language` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
@@ -442,6 +442,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-13 decluster-language-bases micro-pass (Cushitic / Horn of Africa):** broke up the 11-member identical `bases=[140]` cluster (Afar base) by rewiring `dullay`, `lowland-east-cushitic`, `macro-somali`, `omo-tana`, `oromoid`, `rendille-boni`, `saho-afar`, `somali-languages`, `somali-western`, `south-cushitic`, `highland-east-cushitic` in `config/language-mixer-map.json` to unique, Horn-of-Africa-appropriate mixes using existing regional bases (`130` Somali, `131` Oromo, `133` Amharic, `134` Tigrinya, `140` Afar, `141–144` Ethiopian neighbors, `28` Swahili). Verified via `report-language-mixer-base-clusters.js --min-size=2 --include-families --family=Cushitic` (0 clusters) and `check-language-mixer-map-inconsistencies.js --show-all-bases`.
+
+
+
+- **2025-12-15 decluster-language-bases micro-pass (handoff; bases=[47,56]):** prepared delta `tools/mixer-deltas/2025-12-15-decluster-47-56-tdh-ola.json` to split the cross-family base-set collision for `tdh` (Thulung / Kiranti) and `ola` (Walungge / Tibetic): `tdh->[56]`, `ola->[47]`. Single-integrator lane: **not applied** here. Integrator: `pnpm run mixer:apply-deltas`, then `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`; then mark decluster claim `batchId=2025-12-15T14:44:45.090Z-worker1` complete.
 
 
 
@@ -2621,7 +2625,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 19
+  - `Nonunique Bases:` 12
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 47
   - `clustered bases:` 0

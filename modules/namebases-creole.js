@@ -47,5 +47,12 @@ window.creoleNameBases = [
   {name: "Burarra (dedicated)", i: 1734, min: 4, max: 12, d: "lnrt", m: 0, b: "Burarra,Maningrida,Nadab,Central Arnhem,Arnhem Land,Arafura Sea,Glyde River,Blyth River,Milingimbi,Ramingining"},
   {name: "Dhuwal (dedicated)", i: 1735, min: 4, max: 12, d: "lnrt", m: 0, b: "Dhuwal,Yolngu,Arnhem Land,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,East Arnhem,Milingimbi,Ramingining,Arafura Sea"},
   {name: "Djaru (dedicated)", i: 1736, min: 4, max: 12, d: "lnrt", m: 0, b: "Djaru,Halls Creek,Warmun,Turkey Creek,Kununurra,Wyndham,East Kimberley,Ord River,Fitzroy Crossing,Great Northern Highway,Kimberley"},
-  {name: "Djinang (dedicated)", i: 1737, min: 4, max: 12, d: "lnrt", m: 0, b: "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida"}
+  {name: "Djinang (dedicated)", i: 1737, min: 4, max: 12, d: "lnrt", m: 0, b: "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida"},
+  {name: "Gamilaraay (dedicated)", i: 1738, min: 4, max: 12, d: "lnrt", m: 0, b: "Gamilaraay,Gomeroi,Moree,Narrabri,Walgett,Lightning Ridge,Coonabarabran,Quirindi,Tamworth,Wee Waa,New South Wales"},
+  {name: "Githabul (dedicated)", i: 1739, min: 4, max: 12, d: "lnrt", m: 0, b: "Githabul,Kyogle,Casino,Lismore,Woodenbong,Tabulam,Boorabee Park,Border Ranges,Northern Rivers,New South Wales"},
+  {name: "Gooniyandi (dedicated)", i: 1740, min: 4, max: 12, d: "lnrt", m: 0, b: "Gooniyandi,Kimberley,Fitzroy Crossing,Derby,Halls Creek,Geikie Gorge,Great Northern Highway,Looma,Noonkanbah,Bunuba"},
+  {name: "Gurindji (dedicated)", i: 1741, min: 4, max: 12, d: "lnrt", m: 0, b: "Gurindji,Kalkarindji,Daguragu,Wave Hill,Victoria River,Timber Creek,Katherine,Northern Territory,Buntine Highway"},
+  {name: "Guugu Yimidhirr (dedicated)", i: 1742, min: 4, max: 12, d: "lnrt", m: 0, b: "Guugu Yimidhirr,Hopevale,Endeavour River,Cooktown,Cape York,Laura,Jeannie River,Quinkan Country,Queensland,Far North"},
+  {name: "Panyjima (dedicated)", i: 1743, min: 4, max: 12, d: "lnrt", m: 0, b: "Panyjima,Pilbara,Tom Price,Paraburdoo,Karijini,Hamersley Range,Fortescue River,Port Hedland,Karratha,Western Australia"},
+  {name: "Pintupi (dedicated)", i: 1744, min: 4, max: 12, d: "lnrt", m: 0, b: "Pintupi,Western Desert,Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Gibson Desert,Great Sandy Desert,Northern Territory,Western Australia"},
 ];

@@ -229,10 +229,11 @@
       "workerId": 2,
       "target": "tools/mixer-meta/wikipedia-australian-languages-living-2019.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T14:07:35.778Z",
-      "updatedAt": "2025-12-15T14:07:35.778Z",
-      "note": "Starting"
+      "updatedAt": "2025-12-15T21:42:09.602Z",
+      "note": "Starting\n\n/wikipedia1 continue: resuming AU living-2019 uniqueness burn-down. Next: run report-wikipedia-list-nonunique-bases; then batch3 dedicated pins starting at i:1731 in modules/namebases-creole.js.\n\nVerification (2025-12-15):\\n- pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json --no-devplan => fully wired 47/47; Nonunique Bases=26\\n- pnpm exec -- node tools/mixer-core/report-wikipedia-list-base-uniqueness.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json => clustered bases=0; all full items have globally unique base sets\\n- pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json => all ok (RaceCount=2)\\n- pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js => Duplicate ISO codes: 0\\n- pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js => ran (informational; exit 0)\\nNote: mixer:guardrails OK, but apply-mixer-deltas --check reports committed artifacts out-of-date vs deltas; integrator may run pnpm run mixer:apply-deltas to regenerate artifacts.",
+      "finishedAt": "2025-12-15T21:42:09.602Z"
     }
   ]
 }

@@ -13,10 +13,10 @@
         "tdh",
         "ola"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T14:44:45.090Z",
-      "updatedAt": "2025-12-15T14:44:45.090Z",
-      "notes": "Decluster bases=[47,56] (Tibetan+Kiranti) cross-family collision: tdh (Kiranti) vs ola (Tibetic). Plan: delta setBases tdh->[56], ola->[47]. Preflight: pnpm run mixer:guardrails OK; base-clusters report showed this cluster."
+      "updatedAt": "2025-12-15T21:45:44.964Z",
+      "notes": "Decluster bases=[47,56] (Tibetan+Kiranti) cross-family collision: tdh (Kiranti) vs ola (Tibetic). Plan: delta setBases tdh->[56], ola->[47]. Preflight: pnpm run mixer:guardrails OK; base-clusters report showed this cluster.\n\n\\nHANDOFF (no apply-deltas run). Delta: tools/mixer-deltas/2025-12-15-decluster-47-56-tdh-ola.json sets tdh->[56], ola->[47]. Integrator: pnpm run mixer:apply-deltas; then pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases; then mark claim complete + add DEVplans status-only note.\n\n\\nVERIFIED (integrator run): pnpm run mixer:apply-deltas wrote config/language-mixer-map.json + compiled pins (guardrails OK). Diagnostics: report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: bases=[47,56] hits=0; tdh bases=[56]; ola bases=[47]."
     }
   ]
 }
