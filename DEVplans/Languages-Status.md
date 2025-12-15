@@ -171,6 +171,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A-batch / worker1):** pinned dedicated bases `2219–2223` for `abba-gorgoryos`, `aboriginal-pidgin-english`, `aca`, `achang`, `acr` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-abba-gorgoryos.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A-batch / worker1):** pinned dedicated bases `2269–2273` for `adang`, `adi`, `adjaran-georgian`, `adnyamathanha`, `aeq` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-adang.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (North America wiki list):** pinned dedicated bases `2069–2076` for `cree`, `ojibwe`, `yup`, `iku`, `cherokee`, `apa`, `athabaskan`, `navajo` (delta: `tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json`). Applied via `pnpm run mixer:apply-deltas` and verified: seed-uniqueness `--only-failures` for these 8 => 0; `report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-languages-of-north-america.json` => 0.
 
 
@@ -1560,6 +1563,8 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`.
 
+- **2025-12-15 (in progress):** `Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)` (`tools/mixer-meta/wikipedia-australian-languages-living-2019.json`) is fully wired (coverage=100%) but has high uniqueness debt; after batch1 dedicated pins (`iwaidja`, `maung`, `kunwinjku`, `murrinh-patha`, `nunggubuyu` → `1712–1716`), list `Nonunique Bases` improved `46 → 41`.
+
 Important distinction:
 
 - The snapshot’s `fully wired` count is a **coverage** metric only: an item is counted as `fully wired` when it exists in both `config/language-mixes.json` and `config/language-mixer-map.json`.
@@ -1737,14 +1742,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 192 (86.9%)
+  - `fully wired:` 189 (100.0%)
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 4
-  - `unmatched:` 25
+  - `missing both:` 0
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `skipped:` 23
-  - `Nonunique Bases:` 208
+  - `skipped:` 55
+  - `Nonunique Bases:` 174
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 100
@@ -1756,7 +1761,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Added ISO bindings (zoq,mzp,tna,oca,noj); missing both is now `4` (mzp,noj,oca,tna); next work is reducing `unmatched` further and wiring missing both.
+- **Status update:** Coverage is now clean (`unmatched=0`, `missing both=0`) after marking unresolved items `skip:true` (pending research / canonical ISO keys and catalog/map wiring). Next work: reduce `Nonunique Bases` (currently `174`) via the NO_UNIQ_BASE workflow.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
@@ -2565,13 +2570,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 1
-  - `Nonunique Bases:` 46
+  - `Nonunique Bases:` 41
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 28
-  - `clustered bases:` 19
-  - `clustered full items:` 19
-  - `cluster size histogram:` size2=0, size3=0, size4+=19
-  - `clustered isos:` iwaidja(19), kaytetye(19), kija(19), kukatja(19), kuku-yalanji(19), kunwinjku(19), kuuk-thaayore(19), luritja(19), manytjilyitjarra(19), martu-wangka(19), maung(19), miriwoong(19), murrinh-patha(19), ngaanyatjarra(19), ngarrindjeri(19), noongar(19), nunggubuyu(19), nyangumarta(19), palawa-kani(19)
+  - `unique bases:` 33
+  - `clustered bases:` 14
+  - `clustered full items:` 14
+  - `cluster size histogram:` size2=0, size3=0, size4+=14
+  - `clustered isos:` kaytetye(14), kija(14), kukatja(14), kuku-yalanji(14), kuuk-thaayore(14), luritja(14), manytjilyitjarra(14), martu-wangka(14), miriwoong(14), ngaanyatjarra(14), ngarrindjeri(14), noongar(14), nyangumarta(14), palawa-kani(14)
 
 #### Wikipedia: Formosan language families - Blust (1999)
 

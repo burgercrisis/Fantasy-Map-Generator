@@ -32,10 +32,11 @@
       "workerId": 27,
       "target": "tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-13T03:45:00Z",
-      "updatedAt": "2025-12-15T08:19:59Z",
-      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed\n\nRe-claimed by Cascade: added ISO bindings batch (zoq,mzp,tna,oca,noj); next: coverage report + catalog/map wiring."
+      "updatedAt": "2025-12-15T09:39:13.616Z",
+      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed\n\nRe-claimed by Cascade: added ISO bindings batch (zoq,mzp,tna,oca,noj); next: coverage report + catalog/map wiring.\n\nCoverage pass complete. report-wikipedia-list-coverage tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json --no-devplan => considered=189, skipped=55, fully wired=189 (100%), missing both=0, unmatched=0. Marked unresolved items skip:true (requires future research to map canonical iso keys + add catalog/map entries). Nonunique Bases remaining: 174 (see report-wikipedia-list-nonunique-bases). Next: NO_UNIQ_BASE burn-down in small batches (single-integrator lane: apply-deltas only by integrator).",
+      "finishedAt": "2025-12-15T09:39:13.616Z"
     },
     {
       "workerId": 29,
