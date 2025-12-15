@@ -1,11 +1,22 @@
 # Content – Arcana Unearthed Races
-
+ 
 _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master.md)_
-
+ 
 _Developer-facing notes on all sapient peoples and quasi-races mentioned in Monte Cook’s Arcana Unearthed core rulebook (text extracted under `pdf_splitter/pdfs/Supplements/Arcana Unearthed/textpdf/Arcana_Unearthed`), focusing on which ones we could plausibly model as Fantasy-Map-Generator races._
-
+ 
+## Table of contents
+ 
+- [0. Scope and sources](#0-scope-and-sources)
+- [1. Primary player-character races](#1-primary-player-character-races)
+- [2. Transformational / sub-race nuances](#2-transformational--sub-race-nuances)
+- [3. Monstrous or antagonist peoples mentioned](#3-monstrous-or-antagonist-peoples-mentioned)
+- [4. Summary of viable AU race additions](#4-summary-of-viable-au-race-additions)
+- [5. Open decisions for future implementation](#5-open-decisions-for-future-implementation)
+- [6. Recommended first implementation slice](#6-recommended-first-implementation-slice)
+- [7. Implementation status in this fork](#7-implementation-status-in-this-fork)
+ 
 ---
-
+ 
 ## 0. Scope and sources
 
 - **[scope]**

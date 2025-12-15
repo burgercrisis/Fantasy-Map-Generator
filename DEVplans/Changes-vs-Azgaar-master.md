@@ -4,7 +4,7 @@ This document summarizes the main differences between this fork (branch `Burgers
 
 The goal is to give a quick orientation for what has been added or changed, without duplicating all commit messages.
 
-### Section index
+## Table of contents
 
 - [1. High‑Level Overview](#1-high-level-overview)
 - [2. New Planning & Design Documents](#2-new-planning--design-documents)

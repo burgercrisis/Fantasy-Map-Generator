@@ -10,6 +10,9 @@
 - Updated burg/state/province generation + “regenerate name” UI actions to pass the per-cell base.
 - Added `syncCultureBasesToDominantRace()` (currently invoked from `assignRaces`) to keep `culture.base` aligned with the dominant race derived from `cells.race`.
 - Updated `assignRaces()` to compute entity `*.race` fields (`state`, `province`, `religion`, `burg`) from dominant `cells.race` when available (fallback to culture-derived when missing).
+- Updated Races Editor statistics to use `cells.race` as the authoritative source for cell/area/population/culture counts when present (fallback to culture-derived when missing).
+- Decision (for now): keep Races Editor “Recalculate” behavior as-is (it may reshape cultures via `initializeRacesForExpansion` + `Cultures.expand` and then refresh derived race fields).
+- Decision (for now): keep `culture.race` as a legacy/cached field (avoid breaking older maps / remaining call sites), but do not treat it as authoritative when `cells.race` is present.
 
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.

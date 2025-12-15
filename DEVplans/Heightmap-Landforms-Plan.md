@@ -11,15 +11,22 @@ This document distills a long reference list of geomorphic landforms into **cand
 
 Benefit scale (qualitative):
 
-- **P1  very high benefit**: strongly shapes an entire map; supports many campaigns; distinct from existing templates.
-- **P2  medium benefit**: good regional/biome or niche world types; somewhat overlapping with existing templates.
-- **P3  low benefit**: micro-features, too small-scale, or better handled as local editing rather than global templates.
+- **P1  very high benefit**: strongly shapes an entire map; supports many campaigns; distinct from existing templates.
+- **P2  medium benefit**: good regional/biome or niche world types; somewhat overlapping with existing templates.
+- **P3  low benefit**: micro-features, too small-scale, or better handled as local editing rather than global templates.
 
 Existing templates already cover some of these concepts (e.g. Archipelago, Peninsula, Isthmus, Atoll, Continents, Taklamakan, Dry Lakes, Barrier Islands). Those are marked as **covered** where relevant.
 
+## Table of contents
+
+- [P1 – High-priority landform-based templates](#p1--high-priority-landform-based-templates)
+- [P2 – Medium-priority / specialized templates](#p2--medium-priority--specialized-templates)
+- [P3 – Low-priority / micro-scale or local features](#p3--low-priority--micro-scale-or-local-features)
+- [Recommended next steps](#recommended-next-steps)
+
 ---
 
-## P1  High-priority landform-based templates
+## P1  High-priority landform-based templates
 
 These are the most promising **whole-map** shapes: they give FMG clearly different world skeletons and are likely to see frequent use.
 

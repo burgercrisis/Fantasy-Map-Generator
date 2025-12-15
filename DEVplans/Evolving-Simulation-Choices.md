@@ -14,7 +14,7 @@ It complements [Evolving Simulation – Developer Guide](Evolving-Simulation.md)
 
 ---
 
-### Section index
+## Table of contents
 
 - [1. Biome / climate smoothing with neighbors](#1-biome--climate-smoothing-with-neighbors)
 - [2. Roads / trade network](#2-roads--trade-network)

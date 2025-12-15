@@ -3,7 +3,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 _This document is the **normative rule set** for the language mixer layer itself: what is considered “correct”, what invariants must hold, and what workflows are expected when editing language data. It is intended to prevent re-reverse-engineering and to keep future work consistent._
 
-### Section index
+## Table of contents
 
 - [0. Scope & non-goals](#0-scope--non-goals)
 - [1. Authoritative sources of truth](#1-authoritative-sources-of-truth)

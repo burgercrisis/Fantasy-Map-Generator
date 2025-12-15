@@ -5,7 +5,7 @@ This document outlines the plan for implementing the **Individuals & Population*
 
 For language mixer helper scripts and workflows  especially the race language coverage/palette reporters such as `report-race-language-coverage.js` and `report-race-language-palettes.js` that shape upstream flavor for Individuals  see [tools/HELPER-TOOLS.md](../tools/HELPER-TOOLS.md).
 
-### Section index
+## Table of contents
 
 - [0. Goals & Constraints](#0-goals--constraints)
 - [1. High-Level Architecture](#1-high-level-architecture)

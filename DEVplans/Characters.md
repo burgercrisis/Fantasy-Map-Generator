@@ -11,7 +11,7 @@ Related devplans:
 - [Evolving Simulation – Developer Guide](Evolving-Simulation.md) – evolving history layer that uses Individuals for rulers and events; Characters can be attached to notable Individuals from that history.
 - [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helpers and QA workflows for the language mixer and race language palettes; in particular the `report-race-language-coverage.js`, `report-per-race-language-coverage.js`, and `report-race-language-palettes.js` tools when tuning character race flavor.
 
-### Section index
+## Table of contents
 
 - [0. Goals & Constraints](#0-goals--constraints)
 - [1. High-Level Architecture](#1-high-level-architecture)

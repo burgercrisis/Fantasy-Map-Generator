@@ -12,7 +12,7 @@ If a command example in this document uses `node tools/...`, you can run it as-i
 
 Important: when using pnpm, include `--` before script arguments so pnpm does not swallow flags intended for the Node script.
 
-### Section index
+## Table of contents
 
 - [Language Mixer – Core Maintenance](#language-mixer--core-maintenance)
 - [Catalog Shaping (language-mixes.json)](#catalog-shaping-language-mixesjson)

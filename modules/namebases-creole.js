@@ -40,5 +40,12 @@ window.creoleNameBases = [
   {name: "Ngarrindjeri (dedicated)", i: 1727, min: 4, max: 12, d: "lnrt", m: 0, b: "Ngarrindjeri,Murray Bridge,Goolwa,Victor Harbor,Encounter Bay,Coorong,Lake Alexandrina,Lake Albert,Adelaide Hills,South Australia,River Murray,Tailem Bend"},
   {name: "Noongar (dedicated)", i: 1728, min: 4, max: 12, d: "lnrt", m: 0, b: "Noongar,Perth,Fremantle,Bunbury,Albany,Geraldton,Joondalup,Rockingham,Mandurah,Swan River,Western Australia,Wheatbelt"},
   {name: "Nyangumarta (dedicated)", i: 1729, min: 4, max: 12, d: "lnrt", m: 0, b: "Nyangumarta,Port Hedland,South Hedland,Roebourne,Karratha,Pilbara,Great Sandy Desert,Marble Bar,Nullagine,Broome,Western Australia,De Grey River"},
-  {name: "palawa kani (dedicated)", i: 1730, min: 4, max: 12, d: "lnrt", m: 0, b: "palawa kani,Hobart,Launceston,Burnie,Devonport,George Town,Deloraine,Circular Head,Flinders Island,Bruny Island,Tasmania,Bass Strait"}
+  {name: "palawa kani (dedicated)", i: 1730, min: 4, max: 12, d: "lnrt", m: 0, b: "palawa kani,Hobart,Launceston,Burnie,Devonport,George Town,Deloraine,Circular Head,Flinders Island,Bruny Island,Tasmania,Bass Strait"},
+  {name: "Anindilyakwa (dedicated)", i: 1731, min: 4, max: 12, d: "lnrt", m: 0, b: "Anindilyakwa,Groote Eylandt,Alyangula,Angurugu,Umbakumba,Bickerton Island,Gulf of Carpentaria,East Arnhem,Arnhem Land,Numbulwar,Roper River"},
+  {name: "Bardi (dedicated)", i: 1732, min: 4, max: 12, d: "lnrt", m: 0, b: "Bardi,Ardyaloon,One Arm Point,Lombadina,Dampier Peninsula,Buccaneer Archipelago,King Sound,Broome,Derby,Kimberley,Western Australia"},
+  {name: "Bundjalung (dedicated)", i: 1733, min: 4, max: 12, d: "lnrt", m: 0, b: "Bundjalung,Lismore,Ballina,Tweed Heads,Byron Bay,Casino,Kyogle,Yamba,Clarence River,Richmond River,Northern Rivers,New South Wales"},
+  {name: "Burarra (dedicated)", i: 1734, min: 4, max: 12, d: "lnrt", m: 0, b: "Burarra,Maningrida,Nadab,Central Arnhem,Arnhem Land,Arafura Sea,Glyde River,Blyth River,Milingimbi,Ramingining"},
+  {name: "Dhuwal (dedicated)", i: 1735, min: 4, max: 12, d: "lnrt", m: 0, b: "Dhuwal,Yolngu,Arnhem Land,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,East Arnhem,Milingimbi,Ramingining,Arafura Sea"},
+  {name: "Djaru (dedicated)", i: 1736, min: 4, max: 12, d: "lnrt", m: 0, b: "Djaru,Halls Creek,Warmun,Turkey Creek,Kununurra,Wyndham,East Kimberley,Ord River,Fitzroy Crossing,Great Northern Highway,Kimberley"},
+  {name: "Djinang (dedicated)", i: 1737, min: 4, max: 12, d: "lnrt", m: 0, b: "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida"}
 ];

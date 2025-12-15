@@ -1609,6 +1609,25 @@
         2568
       ],
       "notes": "Reserved i range: 2519-2568\nISO->base mapping (fill in):\n- ais->2519\n- ait-seghrouchen-berber->2520\n- aiton->2521\n- ajawa-language->2522\n- akan->2523\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json; dedicated bases i:2519-2523 in modules/namebases-real.js): ais->2519; ait-seghrouchen-berber->2520; aiton->2521; ajawa-language->2522; akan->2523. Verification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness Target ISOs=5; Missing mapping=0; No globally-unique base index=0; strict/norm below threshold=0; coverage missing=0; failures=0; base-clusters exit 0 (repo-wide clusters remain).\n\nVerification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ais,ait-seghrouchen-berber,aiton,ajawa-language,akan --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict<1:0; norm<10:0. pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing. pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing. pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0 (repo-wide clusters remain).\n\nReserved i range: 2519-2568; ISO->base: ais->2519; ait-seghrouchen-berber->2520; aiton->2521; ajawa-language->2522; akan->2523; delta=tools/mixer-deltas/2025-12-15-worker1-mixed-ais.json; bases in modules/namebases-real.js i:2519-2523"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T14:01:58.417Z-worker1",
+      "isos": [
+        "ala-satakunta",
+        "american-finnish",
+        "avam",
+        "berjozov",
+        "besermyan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T14:01:58.417Z",
+      "updatedAt": "2025-12-15T14:25:26.976Z",
+      "reservedRange": [
+        2569,
+        2618
+      ],
+      "notes": "Reserved i range: 2569-2618\nISO->base mapping (fill in):\n- ala-satakunta->2569\n- american-finnish->2570\n- avam->2571\n- berjozov->2572\n- besermyan->2573\n\nReserved i range: 2569-2618; ISO->base: ala-satakunta->2569; american-finnish->2570; avam->2571; berjozov->2572; besermyan->2573; delta=tools/mixer-deltas/2025-12-15-worker1-mixed-ala-satakunta.json; base defs in modules/namebases-real.js i:2569-2573\n\nDelta pins: tools/mixer-deltas/2025-12-15-worker1-mixed-ala-satakunta.json (ala-satakunta->2569; american-finnish->2570; avam->2571; berjozov->2572; besermyan->2573). Pending: append dedicated bases i:2569-2573 in modules/namebases-real.js; then pnpm run mixer:apply-deltas + /no-unique-base2 verification.\n\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ala-satakunta,american-finnish,avam,berjozov,besermyan --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Artifacts already reflect pins (map.json and _compiled-dedicated-pins.json include 2569-2573). Delta: tools/mixer-deltas/2025-12-15-worker1-uralic-ala-satakunta.json. Bases: modules/namebases-real.js i:2569-2573."
     }
   ]
 }

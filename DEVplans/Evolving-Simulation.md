@@ -16,7 +16,7 @@ Related devplans (optional deep dives):
 - [Characters System – Developer Guide](Characters.md) – D&D/d20 character layer on top of Individuals, which can consume history outputs.
 - [Language mixer helper tools & workflows](../tools/HELPER-TOOLS.md) – CLI helper scripts and QA workflows for the language mixer and race language palettes; you’ll mainly reuse the race coverage/palette reporters (`report-race-language-coverage.js`, `report-per-race-language-coverage.js`, `report-race-language-palettes.js`) when adjusting long-term linguistic flavor used by the sim.
 
-### Section index
+## Table of contents
 
 - [0. Goals & Constraints](#0-goals--constraints)
 - [1. High-Level Architecture](#1-high-level-architecture)

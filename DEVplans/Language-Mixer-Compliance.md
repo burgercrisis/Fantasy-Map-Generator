@@ -4,11 +4,20 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI) aligned with the authoritative rule set in `DEVplans/Language-Mixer-Rules.md`.
 
+## Table of contents
+
+- [Status snapshot (2025-12-13)](#status-snapshot-2025-12-13)
+- [Routine checks](#routine-checks)
+- [Workstreams](#workstreams)
+- [Next audit targets](#next-audit-targets)
+
 ## Status snapshot (2025-12-13)
 
 - 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
 
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-free coordination (no `mcp-coordination-hub`); each agent must claim scope via the relevant repo-local claims file(s) (or a status-only `/DEVplans/**/*.md` note) before edits, then mark it done with verification evidence + handoff notes; ISO-level coordination continues via `tools/mixer-diagnostics/_no_uniq_base_claims.json` (use `tools/mixer-diagnostics/no-uniq-base-claim.js`, do not hand-edit the JSON).
+
+- 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 

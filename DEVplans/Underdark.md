@@ -3,7 +3,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 This document outlines the plan for implementing the Underdark system in the Fantasy Map Generator. It is intentionally high-level and code-oriented, so future work sessions can implement it in phases without re‑designing the feature.
 
-### Section index
+## Table of contents
 
 - [0. Goals & Constraints](#0-goals--constraints)
 - [1. High-Level Architecture](#1-high-level-architecture)

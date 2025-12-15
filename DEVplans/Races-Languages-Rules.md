@@ -3,7 +3,7 @@ _Back to devplan overview: [Changes vs Azgaar overview](Changes-vs-Azgaar-master
 
 _Developer-facing summary of how fantasy races are defined, how they attach to cultures / world data, and how they select languages via the Markov mixer._
 
-### Section index
+## Table of contents
 
 - [0. Scope & goals](#0-scope--goals)
 - [1. Core race definitions](#1-core-race-definitions)

@@ -224,6 +224,15 @@
       "note": "Re-claimed after stale triage; resuming coverage + uniqueness + race pass.\n\nCoverage: 12/12 wired (report-wikipedia-list-coverage --no-devplan => unmatched=0). Burned Nonunique Bases from 8 -> 0 by adding dedicated bases i:2069-2076 for cree,ojibwe,yup,iku,cherokee,apa,athabaskan,navajo and pinning via tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json; applied via pnpm run mixer:apply-deltas; verified via seed-uniqueness report and list nonunique-bases report.",
       "updatedAt": "2025-12-15T08:43:14.295Z",
       "finishedAt": "2025-12-15T08:43:14.295Z"
+    },
+    {
+      "workerId": 2,
+      "target": "tools/mixer-meta/wikipedia-australian-languages-living-2019.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T14:07:35.778Z",
+      "updatedAt": "2025-12-15T14:07:35.778Z",
+      "note": "Starting"
     }
   ]
 }

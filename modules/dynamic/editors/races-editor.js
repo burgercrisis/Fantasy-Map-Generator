@@ -107,7 +107,9 @@ function collectRaceStatistics() {
     stats[r.i] = {cells: 0, area: 0, rural: 0, urban: 0, cultures: 0, states: 0, burgs: 0};
   });
 
-  if (cultures) {
+  const hasCellRaces = cells && cells.race && cells.i && cells.race.length === cells.i.length;
+
+  if (!hasCellRaces && cultures) {
     cultures.forEach(c => {
       if (!c || !c.i || c.removed) return;
       const rid = c.race || 0;
@@ -134,20 +136,71 @@ function collectRaceStatistics() {
     });
   }
 
-  if (cells && cultures) {
+  if (hasCellRaces && cultures && cells.culture) {
+    const countsByCulture = [];
+
     for (const i of cells.i) {
-      if (cells.h[i] < 20) continue;
-      const cultureId = cells.culture[i];
-      const culture = cultures[cultureId];
-      if (!culture || !culture.i || culture.removed) continue;
-      const rid = culture.race || 0;
+      if (cells.h && cells.h[i] < 20) continue;
+      const rid = cells.race[i] || 0;
       if (!rid || !stats[rid]) continue;
       const s = stats[rid];
+
       s.cells += 1;
       s.area += cells.area[i];
       s.rural += cells.pop[i];
-      const burgId = cells.burg[i];
-      if (burgId) s.urban += burgs[burgId].population;
+      const burgId = cells.burg ? cells.burg[i] : 0;
+      if (burgId && burgs && burgs[burgId]) s.urban += burgs[burgId].population;
+
+      const cultureId = cells.culture[i];
+      const culture = cultures[cultureId];
+      if (!culture || !culture.i || culture.removed) continue;
+      const bucket = (countsByCulture[cultureId] = countsByCulture[cultureId] || {});
+      bucket[rid] = (bucket[rid] || 0) + 1;
+    }
+
+    cultures.forEach(culture => {
+      if (!culture || !culture.i || culture.removed) return;
+      const counts = countsByCulture[culture.i];
+      if (!counts) return;
+
+      let bestRaceId = 0;
+      let bestCount = 0;
+      for (const [raceIdRaw, count] of Object.entries(counts)) {
+        const raceId = +raceIdRaw;
+        if (!raceId) continue;
+        if (count > bestCount) {
+          bestCount = count;
+          bestRaceId = raceId;
+        }
+      }
+
+      if (bestRaceId && stats[bestRaceId]) stats[bestRaceId].cultures += 1;
+    });
+  } else {
+    if (cultures) {
+      cultures.forEach(c => {
+        if (!c || !c.i || c.removed) return;
+        const rid = c.race || 0;
+        if (!rid || !stats[rid]) return;
+        stats[rid].cultures += 1;
+      });
+    }
+
+    if (cells && cultures) {
+      for (const i of cells.i) {
+        if (cells.h && cells.h[i] < 20) continue;
+        const cultureId = cells.culture[i];
+        const culture = cultures[cultureId];
+        if (!culture || !culture.i || culture.removed) continue;
+        const rid = culture.race || 0;
+        if (!rid || !stats[rid]) continue;
+        const s = stats[rid];
+        s.cells += 1;
+        s.area += cells.area[i];
+        s.rural += cells.pop[i];
+        const burgId = cells.burg ? cells.burg[i] : 0;
+        if (burgId && burgs && burgs[burgId]) s.urban += burgs[burgId].population;
+      }
     }
   }
 

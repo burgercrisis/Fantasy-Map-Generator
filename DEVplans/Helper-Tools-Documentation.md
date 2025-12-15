@@ -42,3 +42,7 @@ description: Status tracking for helper-tool documentation coverage
 ## Status (2025-12-14)
 
 - Started local static server via `py -m http.server 3000` (same as `run_python_server.bat`) to verify UI changes.
+
+## Status (2025-12-15)
+
+- Added / standardized `## Table of contents` blocks for the longest Markdown docs (primarily under `DEVplans/` and `tools/HELPER-TOOLS.md`) to improve navigation.

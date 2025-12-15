@@ -1,4 +1,22 @@
 {
   "version": 1,
-  "claims": []
+  "claims": [
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T14:44:45.090Z-worker1",
+      "basesKey": "47,56",
+      "bases": [
+        47,
+        56
+      ],
+      "isos": [
+        "tdh",
+        "ola"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T14:44:45.090Z",
+      "updatedAt": "2025-12-15T14:44:45.090Z",
+      "notes": "Decluster bases=[47,56] (Tibetan+Kiranti) cross-family collision: tdh (Kiranti) vs ola (Tibetic). Plan: delta setBases tdh->[56], ola->[47]. Preflight: pnpm run mixer:guardrails OK; base-clusters report showed this cluster."
+    }
+  ]
 }
