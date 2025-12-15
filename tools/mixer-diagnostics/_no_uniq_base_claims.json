@@ -1374,7 +1374,7 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T07:27:21.847Z",
-      "updatedAt": "2025-12-15T07:41:00.000Z",
+      "updatedAt": "2025-12-15T07:59:10.197Z",
       "reservedRange": [
         1904,
         1953
@@ -1391,14 +1391,14 @@
         "welche",
         "west-walloon"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T07:43:43.558Z",
-      "updatedAt": "2025-12-15T07:43:43.558Z",
+      "updatedAt": "2025-12-15T08:04:23.555Z",
       "reservedRange": [
         1954,
         2003
       ],
-      "notes": "Reserved i range: 1954-2003\nISO->base mapping (fill in):\n- vivaro-alpine->1954\n- vosgien->1955\n- wallachian->1956\n- welche->1957\n- west-walloon->1958"
+      "notes": "Reserved i range: 1954-2003\nISO->base mapping (fill in):\n- vivaro-alpine->1954\n- vosgien->1955\n- wallachian->1956\n- welche->1957\n- west-walloon->1958\n\nISO->base mapping applied:\\n- vivaro-alpine->1954\\n- vosgien->1955\\n- wallachian->1956\\n- welche->1957\\n- west-walloon->1958\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=vivaro-alpine,vosgien,wallachian,welche,west-walloon --limit=300 => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (0 clusters)"
     }
   ]
 }

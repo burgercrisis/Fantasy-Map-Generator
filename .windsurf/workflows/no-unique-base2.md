@@ -41,6 +41,7 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
   - Add/adjust base definitions in `modules/namebases-*.js` (append-only)
   - Add a delta file under `tools/mixer-deltas/*.json`
   - Run `pnpm run mixer:apply-deltas`
+  - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas` or regenerate committed artifacts; hand off the delta + notes to the integrator for apply + verification.
 - Do **not** directly edit `explicitIsoDedicatedBaseMap` in `tools/mixer-core/fix-language-mixer-mappings.js` (prefer deltas).
 - When adding new base indices (`i:`) in `modules/namebases-*.js`, reserve an index range and only create new `i:` values inside that range (recorded in the claim `notes`).
 
