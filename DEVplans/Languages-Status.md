@@ -151,6 +151,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance V-batch / worker1):** pinned dedicated bases `1904–1908` for `valencian`, `venetian`, `venezuelan-spanish`, `versiliese`, `viareggino` (via `tools/mixer-deltas/2025-12-15-worker1-romance-valencian.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
 

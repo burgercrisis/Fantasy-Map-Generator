@@ -16,7 +16,11 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Canonical coordination doc now includes an explicit lock-release rule: do not leave inactive batches `in_progress`; set `status=stalled` with a short `BLOCKER:`/handoff note to release ISO locks.
 
+- 2025-12-15: Team policy decision: stale claim threshold is 24h. Canonical coordination docs now state that `in_progress` claims older than 24h and inactive should be moved to `stalled` (preserve history; release locks).
+
 - 2025-12-15: Added a read-only global claims dashboard helper `tools/mixer-diagnostics/claims-dashboard.js` to aggregate `in_progress` claim locks across `NO_UNIQ_BASE`, decluster, and wiki multi-agent claim logs. Wired into `.windsurf/workflows/no-unique-base-coordination.md` as the canonical pre-flight step.
+
+- 2025-12-15: Added a wiki claims helper `tools/mixer-diagnostics/wiki-claim.js` (writer + lock) to create/update `tools/mixer-diagnostics/_wiki_multiagent_claims.json` without manual JSON edits. `.gitignore` now ignores `tools/mixer-diagnostics/_wiki_multiagent_claims.lock`.
 
 - 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
   - claim log: `tools/mixer-diagnostics/_decluster_claims.json` (UTF-8 no BOM)
@@ -31,9 +35,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Systemic anomaly identified: ~34 catalog entries with `family: "Australian Aboriginal"` currently include shared base `312` ("Harari-Argobba") in `bases[]`, even though `tools/mixer-core/fix-language-mixer-mappings.js` explicitly maps these ISOs (and token `australian-aboriginal`) to base `313` ("Australian Aboriginal").
     - Next step (pending approval): consider a single delta batch to swap `312 -> 313` for the affected ISOs.
   - 2025-12-15: Linguistic accuracy policy decision: family-pure by default.
-  - Prepared review-only delta batch `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections; pending approval to apply via `pnpm run mixer:apply-deltas` and verify.
-    - 2025-12-15: Expanded batch1 to include `bozal-spanish -> [4]` (drop out-of-family `112 (Yoruba)` and `151 (Sesotho)` from current map `[4,112,151]`).
-    - 2025-12-15: Expanded batch1 with additional high-confidence removals of base `151 (Sesotho)` from non-`Niger-Congo` category ISOs (e.g., Chadic / Nilo-Saharan / Saharan / Central Sudanic). Excluded Bantu-category cases where `family` strings are inconsistent (e.g., `Bantu` vs `Niger-Congo`) to avoid false positives.
+  - Queued review-only delta batch `tools/mixer-deltas/_2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections; pending approval to apply via `pnpm run mixer:apply-deltas` and verify.
+    - Current repo state: non-underscore `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` is a no-op `{}` to prevent accidental application; remove the leading underscore on the queued file when ready to apply.
   - 2025-12-14: Restored safety gates for mixer deltas: `node --check` passed for `modules/namebases-real.js` and `modules/namebases-creole.js`; `pnpm run mixer:guardrails` passed; `pnpm run mixer:check-deltas` now passes after neutralizing non-underscore `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (keeps linguistic proposals queued via underscore-prefixed delta files).
   - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
 

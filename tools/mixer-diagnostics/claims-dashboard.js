@@ -67,6 +67,25 @@ function safeParseIsoTime(s) {
   return Number.isFinite(t) ? t : NaN;
 }
 
+function getClaimActivityTimeMs(c) {
+  const updated = safeParseIsoTime(c && c.updatedAt);
+  if (Number.isFinite(updated)) return updated;
+  const started = safeParseIsoTime(c && c.startedAt);
+  if (Number.isFinite(started)) return started;
+  return NaN;
+}
+
+function getClaimAgeMs(c, nowMs) {
+  const t = getClaimActivityTimeMs(c);
+  if (!Number.isFinite(t)) return NaN;
+  return nowMs - t;
+}
+
+function isClaimStale(c, nowMs, staleMs) {
+  const age = getClaimAgeMs(c, nowMs);
+  return Number.isFinite(age) && age >= staleMs;
+}
+
 function formatAgeMs(ageMs) {
   if (!Number.isFinite(ageMs) || ageMs < 0) return "";
   const totalMinutes = Math.floor(ageMs / 60000);
@@ -114,7 +133,7 @@ function collectLockedIsosFromClaims(claims) {
   return out;
 }
 
-function printNoUniqBaseClaims(claims, previewCount, limit) {
+function printNoUniqBaseClaims(claims, previewCount, limit, nowMs, staleMs) {
   const lines = [];
   for (const c of claims.slice(0, limit)) {
     const rr = Array.isArray(c.reservedRange) && c.reservedRange.length === 2 ? c.reservedRange : [];
@@ -122,11 +141,15 @@ function printNoUniqBaseClaims(claims, previewCount, limit) {
     const updatedAt = typeof c.updatedAt === "string" ? c.updatedAt : "";
     const startedAt = typeof c.startedAt === "string" ? c.startedAt : "";
     const isos = Array.isArray(c.isos) ? c.isos : [];
+
+    const ageMs = getClaimAgeMs(c, nowMs);
+    const ageText = formatAgeMs(ageMs);
+    const stale = isClaimStale(c, nowMs, staleMs);
     lines.push(
       `- workerId=${c.workerId} batchId=${c.batchId}${rrText ? ` reservedRange=${rrText}` : ""} isos=${previewList(
         isos,
         previewCount,
-      )}${updatedAt ? ` updatedAt=${updatedAt}` : startedAt ? ` startedAt=${startedAt}` : ""}`,
+      )}${ageText ? ` age=${ageText}` : ""}${stale ? " STALE>24h" : ""}${updatedAt ? ` updatedAt=${updatedAt}` : startedAt ? ` startedAt=${startedAt}` : ""}`,
     );
   }
   if (claims.length > limit) {
@@ -135,17 +158,21 @@ function printNoUniqBaseClaims(claims, previewCount, limit) {
   return lines;
 }
 
-function printDeclusterClaims(claims, previewCount, limit) {
+function printDeclusterClaims(claims, previewCount, limit, nowMs, staleMs) {
   const lines = [];
   for (const c of claims.slice(0, limit)) {
     const rr = Array.isArray(c.reservedRange) && c.reservedRange.length === 2 ? c.reservedRange : [];
     const rrText = rr.length ? `${rr[0]}-${rr[1]}` : "";
     const isos = Array.isArray(c.isos) ? c.isos : [];
+
+    const ageMs = getClaimAgeMs(c, nowMs);
+    const ageText = formatAgeMs(ageMs);
+    const stale = isClaimStale(c, nowMs, staleMs);
     lines.push(
       `- workerId=${c.workerId} batchId=${c.batchId} basesKey=${c.basesKey}${rrText ? ` reservedRange=${rrText}` : ""} isos=${previewList(
         isos,
         previewCount,
-      )}`,
+      )}${ageText ? ` age=${ageText}` : ""}${stale ? " STALE>24h" : ""}`,
     );
   }
   if (claims.length > limit) {
@@ -154,13 +181,19 @@ function printDeclusterClaims(claims, previewCount, limit) {
   return lines;
 }
 
-function printWikiClaims(claims, limit) {
+function printWikiClaims(claims, limit, nowMs, staleMs) {
   const lines = [];
   for (const c of claims.slice(0, limit)) {
     const target = typeof c.target === "string" ? c.target : "";
     const scope = typeof c.scope === "string" ? c.scope : "";
     const startedAt = typeof c.startedAt === "string" ? c.startedAt : "";
-    lines.push(`- workerId=${c.workerId} target=${target}${scope ? ` scope=${scope}` : ""}${startedAt ? ` startedAt=${startedAt}` : ""}`);
+
+    const ageMs = getClaimAgeMs(c, nowMs);
+    const ageText = formatAgeMs(ageMs);
+    const stale = isClaimStale(c, nowMs, staleMs);
+    lines.push(
+      `- workerId=${c.workerId} target=${target}${scope ? ` scope=${scope}` : ""}${ageText ? ` age=${ageText}` : ""}${stale ? " STALE>24h" : ""}${startedAt ? ` startedAt=${startedAt}` : ""}`,
+    );
   }
   if (claims.length > limit) {
     lines.push(`(truncated: showing ${limit}/${claims.length})`);
@@ -181,6 +214,7 @@ function main() {
         "Options:",
         "  --limit=N        Max rows to print per section (default: 25)",
         "  --preview=N      ISO preview count (default: 12)",
+        "  --staleHours=N   Stale threshold for in_progress warnings (default: 24)",
         "",
         "Behavior:",
         "  - Read-only: does not write any files.",
@@ -196,6 +230,9 @@ function main() {
 
   const limit = Math.max(1, toInt(args.limit, 25));
   const previewCount = Math.max(1, toInt(args.preview, 12));
+
+  const staleHours = Math.max(1, toInt(args.staleHours, 24));
+  const staleMs = staleHours * 60 * 60 * 1000;
 
   const now = Date.now();
   const header = [];
@@ -230,15 +267,21 @@ function main() {
       sections.push(`- in_progress=${inProgress.length}`);
       sections.push(`- suggestedWorkerId=${suggestWorkerId(inProgress)}`);
 
+      let staleCount = 0;
+      for (const c of inProgress) {
+        if (isClaimStale(c, now, staleMs)) staleCount++;
+      }
+      sections.push(`- stale_in_progress(>${staleHours}h)=${staleCount}`);
+
       let oldestAge = NaN;
       for (const c of inProgress) {
-        const t = safeParseIsoTime(c.startedAt);
-        if (Number.isFinite(t)) oldestAge = Number.isFinite(oldestAge) ? Math.max(oldestAge, now - t) : now - t;
+        const age = getClaimAgeMs(c, now);
+        if (Number.isFinite(age)) oldestAge = Number.isFinite(oldestAge) ? Math.max(oldestAge, age) : age;
       }
       if (Number.isFinite(oldestAge)) sections.push(`- oldestInProgressAge=${formatAgeMs(oldestAge)}`);
 
       if (!inProgress.length) sections.push("(none)");
-      else sections.push(...printNoUniqBaseClaims(inProgress, previewCount, limit));
+      else sections.push(...printNoUniqBaseClaims(inProgress, previewCount, limit, now, staleMs));
     }
     sections.push("");
   }
@@ -254,15 +297,21 @@ function main() {
       sections.push(`- in_progress=${inProgress.length}`);
       sections.push(`- suggestedWorkerId=${suggestWorkerId(inProgress)}`);
 
+      let staleCount = 0;
+      for (const c of inProgress) {
+        if (isClaimStale(c, now, staleMs)) staleCount++;
+      }
+      sections.push(`- stale_in_progress(>${staleHours}h)=${staleCount}`);
+
       let oldestAge = NaN;
       for (const c of inProgress) {
-        const t = safeParseIsoTime(c.startedAt);
-        if (Number.isFinite(t)) oldestAge = Number.isFinite(oldestAge) ? Math.max(oldestAge, now - t) : now - t;
+        const age = getClaimAgeMs(c, now);
+        if (Number.isFinite(age)) oldestAge = Number.isFinite(oldestAge) ? Math.max(oldestAge, age) : age;
       }
       if (Number.isFinite(oldestAge)) sections.push(`- oldestInProgressAge=${formatAgeMs(oldestAge)}`);
 
       if (!inProgress.length) sections.push("(none)");
-      else sections.push(...printDeclusterClaims(inProgress, previewCount, limit));
+      else sections.push(...printDeclusterClaims(inProgress, previewCount, limit, now, staleMs));
     }
     sections.push("");
   }
@@ -278,15 +327,21 @@ function main() {
       sections.push(`- in_progress=${inProgress.length}`);
       sections.push(`- suggestedWorkerId=${suggestWorkerId(inProgress)}`);
 
+      let staleCount = 0;
+      for (const c of inProgress) {
+        if (isClaimStale(c, now, staleMs)) staleCount++;
+      }
+      sections.push(`- stale_in_progress(>${staleHours}h)=${staleCount}`);
+
       let oldestAge = NaN;
       for (const c of inProgress) {
-        const t = safeParseIsoTime(c.startedAt);
-        if (Number.isFinite(t)) oldestAge = Number.isFinite(oldestAge) ? Math.max(oldestAge, now - t) : now - t;
+        const age = getClaimAgeMs(c, now);
+        if (Number.isFinite(age)) oldestAge = Number.isFinite(oldestAge) ? Math.max(oldestAge, age) : age;
       }
       if (Number.isFinite(oldestAge)) sections.push(`- oldestInProgressAge=${formatAgeMs(oldestAge)}`);
 
       if (!inProgress.length) sections.push("(none)");
-      else sections.push(...printWikiClaims(inProgress, limit));
+      else sections.push(...printWikiClaims(inProgress, limit, now, staleMs));
     }
     sections.push("");
   }

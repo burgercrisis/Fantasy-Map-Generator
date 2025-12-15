@@ -10,6 +10,51 @@ const deltasDirAbs = path.join(root, deltasDirRel);
 const applyLockRelPath = path.join("tools", "mixer-core", "_apply-mixer-deltas.lock");
 const applyLockAbsPath = path.join(root, applyLockRelPath);
 
+ function decodeTextFile(buf) {
+   if (!Buffer.isBuffer(buf)) return "";
+
+   if (buf.length >= 2) {
+     if (buf[0] === 0xff && buf[1] === 0xfe) {
+       return buf.slice(2).toString("utf16le");
+     }
+     if (buf[0] === 0xfe && buf[1] === 0xff) {
+       const len = buf.length - (buf.length % 2);
+       const swapped = Buffer.allocUnsafe(len - 2);
+       for (let i = 2, j = 0; i + 1 < len; i += 2, j += 2) {
+         swapped[j] = buf[i + 1];
+         swapped[j + 1] = buf[i];
+       }
+       return swapped.toString("utf16le");
+     }
+   }
+
+   let nulEven = 0;
+   let nulOdd = 0;
+   const sampleLen = Math.min(buf.length, 8192);
+   for (let i = 0; i < sampleLen; i++) {
+     if (buf[i] !== 0x00) continue;
+     if (i % 2 === 0) nulEven++;
+     else nulOdd++;
+   }
+
+   if (nulOdd > 16 && nulOdd > nulEven * 2) {
+     return buf.toString("utf16le");
+   }
+
+   if (nulEven > 16 && nulEven > nulOdd * 2) {
+     const len = buf.length - (buf.length % 2);
+     const swapped = Buffer.allocUnsafe(len);
+     for (let i = 0; i + 1 < len; i += 2) {
+       swapped[i] = buf[i + 1];
+       swapped[i + 1] = buf[i];
+     }
+     return swapped.toString("utf16le");
+   }
+
+   const raw = buf.toString("utf8");
+   return raw?.codePointAt(0) === 0xfeff ? raw.slice(1) : raw;
+ }
+
 function sleepSync(ms) {
   const n = Number(ms);
   if (!Number.isFinite(n) || n <= 0) return;
@@ -168,7 +213,7 @@ function loadNamebaseIndices() {
   for (const file of files) {
     let src;
     try {
-      src = fs.readFileSync(file, "utf8");
+      src = decodeTextFile(fs.readFileSync(file));
     } catch (e) {
       if (e && e.code === "ENOENT") continue;
       throw e;
