@@ -262,11 +262,11 @@ function main() {
         "  --isos=a,b,c                Required (create mode; comma/space separated). In PowerShell, quote the whole arg or use repeated --iso=",
         "  --iso=ABC                   Optional (create mode); repeatable PowerShell-safe alternative to --isos=...",
         "  --status=in_progress|...    Optional (default: in_progress)",
-        "  --notes=STRING              Optional",
+        "  --notes=STRING              Optional (create mode: if omitted, a standard notes template is inserted)",
         "  --dashboard                 Optional; read-only summary of in_progress claims + suggested next reserved range",
         "  --update                    Optional; update an existing claim instead of creating a new one",
         "  --appendNotes               Optional (update mode); append notes instead of replacing",
-        "  --blockSize=50              Optional (create mode; default: 50)",
+        "  --blockSize=50              Optional (create/dashboard; default: 50; must be >= number of ISOs)",
         "  --lockWaitMs=30000          Optional (default: 30000)",
         "  --lockRetryMs=200           Optional (default: 200)",
         "  --lockStaleMs=120000        Optional (default: 120000)",
@@ -277,7 +277,7 @@ function main() {
         "  - Appends claim to tools/mixer-diagnostics/_no_uniq_base_claims.json (UTF-8 no BOM).",
         "  - Update mode modifies an existing claim under a lock (updatedAt/status/notes).",
         "  - Dashboard mode prints in_progress claims and computes the next available reserved i-range (read-only).",
-        "  - Emits reserved range for copy/paste.",
+        "  - Emits reserved range + a notes template for copy/paste.",
         "",
       ].join("\n")
     );

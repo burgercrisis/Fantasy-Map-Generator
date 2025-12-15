@@ -1259,14 +1259,14 @@
         "southeast-metafonetica",
         "southern-aragonese"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T03:06:40.314Z",
-      "updatedAt": "2025-12-15T03:20:44.459Z",
+      "updatedAt": "2025-12-15T03:33:39.467Z",
       "reservedRange": [
         1590,
         1639
       ],
-      "notes": "Romance NO_UNIQ_BASE2 next5 from tools/mixer-diagnostics/tmp/list-romance-no-uniq-base.js\n\nReserved i range: 1590-1639. ISO->base mapping: senese->1590; sicilian->1591; somontan-s->1592; southeast-metafonetica->1593; southern-aragonese->1594. Delta pins file: tools/mixer-deltas/2025-12-15-worker65-romance.json"
+      "notes": "Romance NO_UNIQ_BASE2 next5 from tools/mixer-diagnostics/tmp/list-romance-no-uniq-base.js\n\nReserved i range: 1590-1639. ISO->base mapping: senese->1590; sicilian->1591; somontan-s->1592; southeast-metafonetica->1593; southern-aragonese->1594. Delta pins file: tools/mixer-deltas/2025-12-15-worker65-romance.json\n\nReserved i range: 1590-1639\\n\\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker65-romance.json; bases i:1590-1594 in modules/namebases-real.js; compiled via pnpm run mixer:apply-deltas):\\n- senese->1590\\n- sicilian->1591\\n- somontan-s->1592\\n- southeast-metafonetica->1593\\n- southern-aragonese->1594\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:check-deltas\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=senese sicilian somontan-s southeast-metafonetica southern-aragonese\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --category=Romance (exit 0)\\n\n\nVerification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=senese,sicilian,somontan-s,southeast-metafonetica,southern-aragonese => No globally-unique base index: 0; strict failures: 0; norm failures: 0. Coverage: 0 missing. Failures: 0 failing. Base-clusters: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0). Note: check-language-mixer-failures reports partially-invalid base indices for unrelated ISOs (still non-failing): saba, shabo, besme, senara, sucite, supyire, suwu.\n\nReserved i range: 1590-1639\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker65-romance.json and compiled with pnpm run mixer:apply-deltas):\n- senese->1590\n- sicilian->1591\n- somontan-s->1592\n- southeast-metafonetica->1593\n- southern-aragonese->1594\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=senese sicilian somontan-s southeast-metafonetica southern-aragonese\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker65-romance.json): senese->1590; sicilian->1591; somontan-s->1592; southeast-metafonetica->1593; southern-aragonese->1594. Verification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness OK; coverage 0 missing; failures 0 failing; base-clusters ran (exit 0)."
     },
     {
       "workerId": 63,
@@ -1280,12 +1280,12 @@
       ],
       "status": "in_progress",
       "startedAt": "2025-12-15T03:09:32.316Z",
-      "updatedAt": "2025-12-15T03:09:32.316Z",
+      "updatedAt": "2025-12-15T03:36:30.806Z",
       "reservedRange": [
         1640,
         1689
       ],
-      "notes": ""
+      "notes": "Reserved i range: 1640-1689\n\nPlanned ISO->base mapping:\n- surmiran->1640\n- sursilvan->1641\n- sutsilvan->1642\n- tuatschin->1643\n- vallader->1644"
     },
     {
       "workerId": 66,
@@ -1296,14 +1296,14 @@
         "norfuk",
         "pitkern"
       ],
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-15T03:17:29.400Z",
-      "updatedAt": "2025-12-15T03:17:29.400Z",
+      "updatedAt": "2025-12-15T03:27:06.959Z",
       "reservedRange": [
         1690,
         1739
       ],
-      "notes": "Fix missing mapping entries in config/language-mixer-map.json (coverage/failures: 4 missing). Plan: add dedicated bases + dedicatedPins delta + apply-deltas + verify."
+      "notes": "Fix missing mapping entries in config/language-mixer-map.json (coverage/failures: 4 missing). Plan: add dedicated bases + dedicatedPins delta + apply-deltas + verify.\n\nNO-OP: these ISOs already have mapping entries in config/language-mixer-map.json (mbq,yap,norfuk,pitkern) via existing delta tools/mixer-deltas/2025-12-15-wikipedia1-oceania-yap-mbq-norfuk-pitkern.json (bases 1550-1553). ReservedRange 1690-1739 not used; leaving claim as stalled to avoid rework."
     }
   ]
 }

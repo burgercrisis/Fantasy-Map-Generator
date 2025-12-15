@@ -12,7 +12,10 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
-- 2025-12-15: Updated `.windsurf/workflows/no-unique-base-debt-multiagent.md` to run the claim-helper dashboard (`pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard`) before selecting/claiming a batch.
+- 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
+  - claim log: `tools/mixer-diagnostics/_decluster_claims.json` (UTF-8 no BOM)
+  - helper: `tools/mixer-diagnostics/decluster-claim.js` (create/update under lock; optional reserved `i:` range)
+  - verification: `pnpm run mixer:guardrails` now checks `_decluster_claims.json` for BOM + JSON parse, and `.gitignore` ignores `tools/mixer-diagnostics/_decluster_claims.lock`
 
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
@@ -22,6 +25,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - 2025-12-15: Linguistic accuracy policy decision: family-pure by default.
   - Prepared review-only delta batch `tools/mixer-deltas/2025-12-15-linguistic-family-pure-batch1.json` (`setBases`) for high-confidence out-of-family base corrections; pending approval to apply via `pnpm run mixer:apply-deltas` and verify.
     - 2025-12-15: Expanded batch1 to include `bozal-spanish -> [4]` (drop out-of-family `112 (Yoruba)` and `151 (Sesotho)` from current map `[4,112,151]`).
+    - 2025-12-15: Expanded batch1 with additional high-confidence removals of base `151 (Sesotho)` from non-`Niger-Congo` category ISOs (e.g., Chadic / Nilo-Saharan / Saharan / Central Sudanic). Excluded Bantu-category cases where `family` strings are inconsistent (e.g., `Bantu` vs `Niger-Congo`) to avoid false positives.
   - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).

@@ -127,12 +127,15 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance R-batch / worker63):** pinned dedicated bases `1440–1444` for `romanian`, `romansh`, `ron`, `royasc`, `ruo` (via `tools/mixer-deltas/2025-12-15-worker63-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing), and base-clusters report. Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
-
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance R-batch / worker64):** pinned dedicated bases `1490–1494` for `rup`, `ruq`, `sabino`, `saharan-spanish`, `salentino` (via `tools/mixer-deltas/2025-12-15-worker64-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2 --category=Romance`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance S-batch / worker62):** pinned dedicated bases `1540–1544` for `sammarinese`, `sardinian`, `sardo-corsican`, `sassarese`, `savoyard` (via `tools/mixer-deltas/2025-12-15-worker62-romance-sammarinese.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0), and artifacts regenerated via `pnpm run mixer:apply-deltas`. Note: repo-wide `check-language-mixer-coverage` / `check-language-mixer-failures` currently report 4 catalog ISOs missing from map (`mbq`, `norfuk`, `pitkern`, `yap`), outside this batch. Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
+
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance S-batch / worker65):** pinned dedicated bases `1590–1594` for `senese`, `sicilian`, `somontan-s`, `southeast-metafonetica`, `southern-aragonese` (via `tools/mixer-deltas/2025-12-15-worker65-romance.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
 
@@ -286,6 +289,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / sammarinese+sardinian mini-batch):** added dedicated bases `1540–1544` for `sammarinese`, `sardinian`, `sardo-corsican`, `sassarese`, `savoyard` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker62-romance-sardo.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker65 mini-batch):** added dedicated bases `1590–1594` for `senese`, `sicilian`, `somontan-s`, `southeast-metafonetica`, `southern-aragonese` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker65-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker57 mini-batch):** added dedicated bases `1080–1084` for `philippine-spanish`, `piedmontese`, `pisano-livornese`, `pistoiese`, `poitevin-saintongeais` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker57-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
