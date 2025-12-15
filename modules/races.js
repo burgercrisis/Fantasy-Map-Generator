@@ -1072,6 +1072,11 @@ function defineRaceExpansionism(name) {
 
 function getRaceNameForCulture(culture) {
   if (!culture || !culture.i || culture.removed) return null;
+  if (culture.race && pack && Array.isArray(pack.races)) {
+    const race = pack.races[culture.race];
+    const raceName = race && typeof race.name === "string" ? race.name : "";
+    if (raceName && raceName !== "None") return raceName;
+  }
   const base = culture.base;
 
   for (const [raceName, bases] of Object.entries(fantasyRaceBases)) {
@@ -1088,9 +1093,31 @@ function getRaceNameForCulture(culture) {
   return "Human";
 }
 
+function shouldEnableRacesForCurrentWorld() {
+  try {
+    if (typeof isFantasyCulturesSet === "function" && isFantasyCulturesSet()) return true;
+  } catch (e) {}
+
+  if (pack && Array.isArray(pack.races)) {
+    for (const race of pack.races) {
+      if (!race || !race.i || !race.name) continue;
+      if (race.name !== "Human") return true;
+    }
+  }
+
+  if (!pack || !Array.isArray(pack.cultures)) return false;
+  for (const culture of pack.cultures) {
+    if (!culture || !culture.i || culture.removed) continue;
+    const raceName = getRaceNameForCulture(culture);
+    if (raceName && raceName !== "Human") return true;
+  }
+
+  return false;
+}
+
 function initializeRacesForExpansion(options) {
   if (!pack || !pack.cultures) return;
-  if (!isFantasyCulturesSet()) return;
+  if (!shouldEnableRacesForCurrentWorld()) return;
 
   const existingRaces = pack.races || [];
   const races = [{i: 0, name: "None"}];
@@ -1196,7 +1223,7 @@ function assignRaces() {
     if (pack.religions) pack.religions.forEach(r => r && delete r.race);
   }
 
-  if (!isFantasyCulturesSet()) {
+  if (!shouldEnableRacesForCurrentWorld()) {
     clearRaces();
     return;
   }

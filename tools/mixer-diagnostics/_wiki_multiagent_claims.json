@@ -32,10 +32,10 @@
       "workerId": 27,
       "target": "tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "stalled",
+      "status": "in_progress",
       "startedAt": "2025-12-13T03:45:00Z",
-      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed\n\nSTALE>24h: stalling to release lock. Re-claim if still active.",
-      "finishedAt": "2025-12-15T07:55:02.993Z"
+      "updatedAt": "2025-12-15T08:19:59Z",
+      "note": "Fast-pass: add iso bindings for existing catalog entries, then wire remaining Americas languages as needed\n\nRe-claimed by Cascade: added ISO bindings batch (zoq,mzp,tna,oca,noj); next: coverage report + catalog/map wiring."
     },
     {
       "workerId": 29,
@@ -59,9 +59,9 @@
       "workerId": 31,
       "target": "tools/mixer-meta/wikipedia-languages-of-north-america.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "stalled",
+      "status": "complete",
       "startedAt": "2025-12-13T00:45:00Z",
-      "note": "Claimed for next coverage + uniqueness + race pass\n\nSTALE>24h: stalling to release lock. Re-claim if still active.",
+      "note": "Claimed for next coverage + uniqueness + race pass\n\nSTALE>24h: stalling to release lock. Re-claim if still active.\n\nCoverage: 12/12 wired (report-wikipedia-list-coverage --no-devplan => unmatched=0). Burned Nonunique Bases from 8 -> 0 by adding dedicated bases i:2069-2076 for cree,ojibwe,yup,iku,cherokee,apa,athabaskan,navajo and pinning via tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json; applied via pnpm run mixer:apply-deltas; verified via seed-uniqueness report and list nonunique-bases report.",
       "finishedAt": "2025-12-15T07:55:04.508Z"
     },
     {

@@ -78,6 +78,9 @@ function main() {
   const historyMixIsos = new Set();
   const historyMapIsos = new Set();
 
+  const lastSeenMix = new Map();
+  const lastSeenMap = new Map();
+
   for (const sha of commits) {
     const mixes = readJsonAtRevision(sha, "config/language-mixes.json");
     const map = readJsonAtRevision(sha, "config/language-mixer-map.json");
@@ -85,10 +88,18 @@ function main() {
     if (mixes) {
       const s = collectIsosFromArray(mixes);
       unionInto(historyMixIsos, s);
+
+      for (const iso of s) {
+        if (!lastSeenMix.has(iso)) lastSeenMix.set(iso, sha);
+      }
     }
     if (map) {
       const s = collectIsosFromArray(map);
       unionInto(historyMapIsos, s);
+
+      for (const iso of s) {
+        if (!lastSeenMap.has(iso)) lastSeenMap.set(iso, sha);
+      }
     }
   }
 
@@ -152,6 +163,34 @@ function main() {
 
     if (args.includes("--write-losses")) {
       writeJson("tools/mixer-diagnostics/_language-history-losses.json", losses);
+    }
+
+    if (args.includes("--write-losses-meta")) {
+      const rows = losses.fromAll.map(iso => {
+        const mixSha = lastSeenMix.get(iso) || null;
+        const mapSha = lastSeenMap.get(iso) || null;
+        return {
+          iso,
+          lastSeenMix: mixSha,
+          lastSeenMap: mapSha,
+          lastSeenAny: mixSha || mapSha,
+        };
+      });
+
+      const countsByCommit = {};
+      for (const row of rows) {
+        if (!row.lastSeenAny) continue;
+        countsByCommit[row.lastSeenAny] = (countsByCommit[row.lastSeenAny] || 0) + 1;
+      }
+
+      const lastSeenCommitSummary = Object.entries(countsByCommit)
+        .map(([sha, count]) => ({sha, count}))
+        .sort((a, b) => b.count - a.count);
+
+      writeJson("tools/mixer-diagnostics/_language-history-losses-meta.json", {
+        losses: rows,
+        lastSeenCommitSummary,
+      });
     }
 
     if (args.includes("--print-losses")) {

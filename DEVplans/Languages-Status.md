@@ -1540,6 +1540,8 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`.
 
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully represented after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and confirming list base-set uniqueness + race reachability.
+
 Important distinction:
 
 - The snapshot’s `fully wired` count is a **coverage** metric only: an item is counted as `fully wired` when it exists in both `config/language-mixes.json` and `config/language-mixer-map.json`.
@@ -2502,13 +2504,13 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 24
-  - `Nonunique Bases:` 8
+  - `Nonunique Bases:` 5
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 5
-  - `clustered bases:` 3
-  - `clustered full items:` 3
-  - `cluster size histogram:` size2=3, size3=0, size4+=0
-  - `clustered isos:` lrg(2), waq(2), xxm(2)
+  - `unique bases:` 8
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 #### Wikipedia: Australian language groupings - Bowern (2011)
 
