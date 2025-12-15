@@ -160,6 +160,7 @@ function main() {
     "config/language-mixer-map.json",
     "config/language-mixes.json",
     "tools/mixer-diagnostics/_no_uniq_base_claims.json",
+    "tools/mixer-diagnostics/_decluster_claims.json",
     "tools/mixer-deltas/_compiled-dedicated-pins.json"
   ];
 
@@ -170,6 +171,7 @@ function main() {
     } catch (e) {
       // Skip missing optional files (claims file may not exist in early clones)
       if (rel.includes("_no_uniq_base_claims.json")) continue;
+      if (rel.includes("_decluster_claims.json")) continue;
       if (rel.includes("_compiled-dedicated-pins.json")) continue;
       throw e;
     }
@@ -184,6 +186,7 @@ function main() {
     "config/language-mixer-map.json",
     "config/language-mixes.json",
     "tools/mixer-diagnostics/_no_uniq_base_claims.json",
+    "tools/mixer-diagnostics/_decluster_claims.json",
     "tools/mixer-deltas/_compiled-dedicated-pins.json"
   ];
 
@@ -193,6 +196,7 @@ function main() {
     } catch (e) {
       // Claims file may be absent in early clones
       if (rel.includes("_no_uniq_base_claims.json")) continue;
+      if (rel.includes("_decluster_claims.json")) continue;
       // Compiled pins file may be absent before delta system is introduced
       if (rel.includes("_compiled-dedicated-pins.json")) continue;
       fail(`[guardrails] Invalid JSON: ${rel}. ${e && e.message ? e.message : e}`);

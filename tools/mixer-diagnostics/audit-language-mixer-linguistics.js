@@ -51,7 +51,10 @@ function parseArgs(argv) {
   const help = args.includes("--help") || args.includes("-h");
   const json = args.includes("--json");
 
-  return {includeFamilies, checkFamilyBaseMissing, onlyIsos, limit, minBaseSamples, minTopShare, help, json};
+  const outJsonArg = args.find(a => a.startsWith("--out-json="));
+  const outJson = outJsonArg ? outJsonArg.split("=").slice(1).join("=") : "";
+
+  return {includeFamilies, checkFamilyBaseMissing, onlyIsos, limit, minBaseSamples, minTopShare, help, json, outJson};
 }
 
 function printUsage() {
@@ -67,6 +70,7 @@ function printUsage() {
   console.log("  --min-base-samples=N   Minimum ISO samples for a base before outlier checks apply (default: 6).");
   console.log("  --min-top-share=F      Minimum top-family share for a base to be considered family-anchored (default: 0.7).");
   console.log("  --json                 Output JSON report (suppresses formatted output).");
+  console.log("  --out-json=PATH        Write JSON report to a file (UTF-8, no BOM).");
 }
 
 function loadDefaultNameBases() {
@@ -420,8 +424,16 @@ function main() {
 
   issues.sort((a, b) => a.kind.localeCompare(b.kind) || a.iso.localeCompare(b.iso));
 
+  const jsonText = JSON.stringify({issues}, null, 2) + "\n";
+
+  if (parsed.outJson) {
+    const target = path.isAbsolute(parsed.outJson) ? parsed.outJson : path.join(root, parsed.outJson);
+    fs.mkdirSync(path.dirname(target), {recursive: true});
+    fs.writeFileSync(target, jsonText, "utf8");
+  }
+
   if (parsed.json) {
-    process.stdout.write(JSON.stringify({issues}, null, 2) + "\n");
+    process.stdout.write(jsonText);
     return;
   }
 

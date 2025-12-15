@@ -4,10 +4,14 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.resolve(__dirname, "..", "..");
-const claimsRelPath = "tools/mixer-diagnostics/_no_uniq_base_claims.json";
+
+const claimsRelPath = "tools/mixer-diagnostics/_decluster_claims.json";
 const claimsPath = path.join(root, claimsRelPath);
-const claimsLockRelPath = "tools/mixer-diagnostics/_no_uniq_base_claims.lock";
+const claimsLockRelPath = "tools/mixer-diagnostics/_decluster_claims.lock";
 const claimsLockPath = path.join(root, claimsLockRelPath);
+
+const noUniqClaimsRelPath = "tools/mixer-diagnostics/_no_uniq_base_claims.json";
+const noUniqClaimsPath = path.join(root, noUniqClaimsRelPath);
 
 function stripBom(s) {
   if (!s) return s;
@@ -29,6 +33,11 @@ function writeJsonNoBom(absPath, data) {
 
 function readClaimsOrInit(absPath) {
   if (!fs.existsSync(absPath)) return {version: 1, claims: []};
+  return readJson(absPath);
+}
+
+function readClaimsMaybe(absPath) {
+  if (!fs.existsSync(absPath)) return null;
   return readJson(absPath);
 }
 
@@ -174,6 +183,32 @@ function parseIsosFromArgv(argv) {
   return toIsoList(parts.join(","));
 }
 
+function parseBasesFromArgv(argv) {
+  const repeated = argv
+    .filter(a => a.startsWith("--base="))
+    .map(a => a.slice("--base=".length))
+    .map(s => s.trim())
+    .filter(Boolean)
+    .map(s => Number(s))
+    .filter(n => Number.isFinite(n));
+  if (repeated.length) return repeated;
+
+  const parts = getArgList(argv, "--bases");
+  if (!parts.length) return [];
+  return String(parts.join(","))
+    .split(/[,\s]+/)
+    .map(s => s.trim())
+    .filter(Boolean)
+    .map(s => Number(s))
+    .filter(n => Number.isFinite(n));
+}
+
+function normalizeBases(bases) {
+  const unique = Array.from(new Set((bases || []).map(n => Number(n)))).filter(n => Number.isFinite(n));
+  unique.sort((a, b) => a - b);
+  return unique;
+}
+
 function getMaxNamebaseIndex() {
   const modulesDir = path.join(root, "modules");
   const files = fs.readdirSync(modulesDir).filter(f => /^namebases-.*\.js$/i.test(f));
@@ -201,7 +236,7 @@ function getMaxNamebaseIndex() {
 function getMaxReservedIndexFromClaims(claims) {
   let maxN = -1;
 
-  const rxRange = /(\d+)\s*[\u2013\-]\s*(\d+)/g; // en-dash or hyphen
+  const rxRange = /(\d+)\s*[\u2013\-]\s*(\d+)/g;
   const rxMap = /->\s*(\d+)/g;
 
   for (const claim of (claims && claims.claims ? claims.claims : [])) {
@@ -250,36 +285,29 @@ function main() {
     process.stdout.write(
       [
         "Usage:",
-        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=54 --isos=parmigiano,pavese --status=in_progress --notes=...",
-        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=54 --iso=parmigiano --iso=pavese --status=in_progress --notes=...",
-        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --workerId=54 --status=complete --appendNotes --notes=...",
-        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=<batchId> --status=stalled --notes=...",
-        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard",
+        "  pnpm exec -- node tools/mixer-diagnostics/decluster-claim.js --workerId=54 --bases=12,34,56 --isos=a,b,c --status=in_progress --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/decluster-claim.js --workerId=54 --base=12 --base=34 --base=56 --iso=a --iso=b --iso=c --status=in_progress --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/decluster-claim.js --update --workerId=54 --status=complete --appendNotes --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/decluster-claim.js --update --batchId=<batchId> --status=stalled --notes=...",
         "",
         "Args:",
         "  --workerId=NUM              Required (create mode); optional (update mode)",
         "  --batchId=STRING            Optional (create mode defaults to <ISO timestamp>-worker<workerId>; update mode can target by batchId)",
+        "  --bases=1,2,3               Required (create mode; comma/space separated)",
+        "  --base=NUM                  Optional (create mode); repeatable PowerShell-safe alternative to --bases=...",
         "  --isos=a,b,c                Required (create mode; comma/space separated). In PowerShell, quote the whole arg or use repeated --iso=",
         "  --iso=ABC                   Optional (create mode); repeatable PowerShell-safe alternative to --isos=...",
         "  --status=in_progress|...    Optional (default: in_progress)",
         "  --notes=STRING              Optional",
-        "  --dashboard                 Optional; read-only summary of in_progress claims + suggested next reserved range",
         "  --update                    Optional; update an existing claim instead of creating a new one",
         "  --appendNotes               Optional (update mode); append notes instead of replacing",
-        "  --blockSize=50              Optional (create mode; default: 50)",
+        "  --blockSize=NUM             Optional (create mode; default: number of isos). Use 0 to skip reserving an i-range.",
         "  --lockWaitMs=30000          Optional (default: 30000)",
         "  --lockRetryMs=200           Optional (default: 200)",
         "  --lockStaleMs=120000        Optional (default: 120000)",
         "  --forceLock                 Optional; delete stale lock if lockStaleMs exceeded",
         "",
-        "Behavior:",
-        "  - Computes next available reserved i-range based on max i: in modules/namebases-*.js and max referenced base index in claims notes.",
-        "  - Appends claim to tools/mixer-diagnostics/_no_uniq_base_claims.json (UTF-8 no BOM).",
-        "  - Update mode modifies an existing claim under a lock (updatedAt/status/notes).",
-        "  - Dashboard mode prints in_progress claims and computes the next available reserved i-range (read-only).",
-        "  - Emits reserved range for copy/paste.",
-        "",
-      ].join("\n")
+      ].join("\n"),
     );
     return;
   }
@@ -291,91 +319,6 @@ function main() {
     forceLock: !!args.forceLock,
   };
 
-  if (args.dashboard) {
-    if (args.update) throw new Error("--dashboard cannot be combined with --update");
-    if (args.workerId !== undefined) throw new Error("--dashboard does not accept --workerId");
-    if (args.batchId !== undefined) throw new Error("--dashboard does not accept --batchId");
-    if (args.status !== undefined) throw new Error("--dashboard does not accept --status");
-    if (args.notes !== undefined) throw new Error("--dashboard does not accept --notes");
-    if (args.appendNotes) throw new Error("--dashboard does not accept --appendNotes");
-
-    const isosArg = parseIsosFromArgv(argv);
-    if (isosArg.length) throw new Error("--dashboard does not accept --isos/--iso");
-
-    const blockSize = args.blockSize ? Number(args.blockSize) : 50;
-    if (!Number.isFinite(blockSize) || blockSize <= 0) throw new Error("--blockSize must be a positive number");
-
-    withLock(claimsLockPath, lockOpts, {mode: "dashboard"}, () => {
-      const claims = readClaimsOrInit(claimsPath);
-      if (!claims || typeof claims !== "object") throw new Error("claims JSON is not an object");
-      if (!Number.isFinite(Number(claims.version))) claims.version = 1;
-      if (!Array.isArray(claims.claims)) claims.claims = [];
-
-      const inProgress = claims.claims.filter(c => c && c.status === "in_progress");
-      inProgress.sort((a, b) => {
-        const aw = Number(a && a.workerId);
-        const bw = Number(b && b.workerId);
-        if (Number.isFinite(aw) && Number.isFinite(bw) && aw !== bw) return aw - bw;
-        if (Number.isFinite(aw) && !Number.isFinite(bw)) return -1;
-        if (!Number.isFinite(aw) && Number.isFinite(bw)) return 1;
-        return String((a && a.batchId) || "").localeCompare(String((b && b.batchId) || ""));
-      });
-
-      const usedWorkerIds = new Set();
-      for (const c of inProgress) {
-        const n = Number(c && c.workerId);
-        if (Number.isFinite(n)) usedWorkerIds.add(n);
-      }
-
-      let suggestedWorkerId = 1;
-      while (usedWorkerIds.has(suggestedWorkerId)) suggestedWorkerId++;
-
-      const maxUsedI = getMaxNamebaseIndex();
-      const maxReserved = getMaxReservedIndexFromClaims(claims);
-      const start = Math.max(maxUsedI, maxReserved) + 1;
-      const end = start + blockSize - 1;
-
-      const lines = [];
-      lines.push("NO_UNIQ_BASE claims dashboard");
-      lines.push(`in_progress=${inProgress.length}`);
-      lines.push("");
-      lines.push("IN_PROGRESS CLAIMS:");
-
-      if (!inProgress.length) {
-        lines.push("(none)");
-      } else {
-        for (const c of inProgress) {
-          const rr = Array.isArray(c.reservedRange) && c.reservedRange.length === 2 ? c.reservedRange : [];
-          const rrText = rr.length ? `${rr[0]}-${rr[1]}` : "";
-          const isoList = Array.isArray(c.isos) ? c.isos : [];
-          const preview = isoList.slice(0, 12).join(",");
-          const more = isoList.length > 12 ? ",..." : "";
-          const isoText = `${isoList.length} [${preview}${more}]`;
-
-          lines.push(
-            `- workerId=${c.workerId} batchId=${c.batchId}${rrText ? ` reservedRange=${rrText}` : ""} isos=${isoText}`,
-          );
-        }
-      }
-
-      lines.push("");
-      lines.push("SUGGESTED:");
-      lines.push(`suggestedWorkerId=${suggestedWorkerId}`);
-      lines.push(`maxUsedI=${maxUsedI}`);
-      lines.push(`maxReservedIndex=${maxReserved}`);
-      lines.push(`nextReservedRange=${start}-${end}`);
-      lines.push("");
-      lines.push(
-        `Create a claim: pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=${suggestedWorkerId} --isos=<comma-separated> --status=in_progress`,
-      );
-      lines.push("");
-
-      process.stdout.write(lines.join("\n") + "\n");
-    });
-
-    return;
-  }
-
   if (args.update) {
     const batchIdArg = typeof args.batchId === "string" ? args.batchId : "";
     const workerIdArg = args.workerId !== undefined ? Number(args.workerId) : NaN;
@@ -384,8 +327,11 @@ function main() {
     const appendNotes = !!args.appendNotes;
 
     const isosArg = parseIsosFromArgv(argv);
-    if (isosArg.length) {
-      throw new Error("--update does not accept --isos/--iso (claim ISO list is immutable)");
+    const basesArg = normalizeBases(parseBasesFromArgv(argv));
+    const basesKeyArg = typeof args.basesKey === "string" ? String(args.basesKey) : "";
+
+    if (isosArg.length || basesArg.length || basesKeyArg) {
+      throw new Error("--update does not accept --bases/--base/--isos/--iso (claim target is immutable)");
     }
 
     if (!batchIdArg && !Number.isFinite(workerIdArg)) {
@@ -446,6 +392,8 @@ function main() {
 
         if (claim.status === "in_progress") {
           const claimIsos = Array.isArray(claim.isos) ? claim.isos : [];
+          const claimBasesKey = typeof claim.basesKey === "string" ? claim.basesKey : "";
+
           for (let i = 0; i < claims.claims.length; i++) {
             if (i === idx) continue;
             const other = claims.claims[i];
@@ -457,11 +405,31 @@ function main() {
               );
             }
 
+            const otherBasesKey = typeof other.basesKey === "string" ? other.basesKey : "";
+            if (claimBasesKey && otherBasesKey && otherBasesKey === claimBasesKey) {
+              throw new Error(
+                `basesKey overlap with existing in_progress claim workerId=${other.workerId} batchId=${other.batchId}`,
+              );
+            }
+
             const otherIsos = Array.isArray(other.isos) ? other.isos : [];
             if (isoSetIntersects(claimIsos, otherIsos)) {
               throw new Error(
                 `ISO overlap with existing in_progress claim workerId=${other.workerId} batchId=${other.batchId}`,
               );
+            }
+          }
+
+          const noUniqClaims = readClaimsMaybe(noUniqClaimsPath);
+          if (noUniqClaims && Array.isArray(noUniqClaims.claims)) {
+            for (const other of noUniqClaims.claims) {
+              if (!other || other.status !== "in_progress") continue;
+              const otherIsos = Array.isArray(other.isos) ? other.isos : [];
+              if (isoSetIntersects(claimIsos, otherIsos)) {
+                throw new Error(
+                  `ISO overlap with existing NO_UNIQ_BASE in_progress claim workerId=${other.workerId} batchId=${other.batchId}`,
+                );
+              }
             }
           }
         }
@@ -477,6 +445,7 @@ function main() {
             `batchId=${claim.batchId}`,
             `status=${claim.status}`,
             `updatedAt=${claim.updatedAt}`,
+            `basesKey=${claim.basesKey}`,
             rr.length ? `reservedRange=${rr[0]}-${rr[1]}` : "",
             "",
           ]
@@ -492,19 +461,23 @@ function main() {
   const workerId = Number(args.workerId);
   if (!Number.isFinite(workerId)) throw new Error("--workerId is required and must be numeric");
 
+  const bases = normalizeBases(parseBasesFromArgv(argv));
+  if (!bases.length) throw new Error("--bases is required");
+
+  const basesKey = bases.join(",");
   const isos = parseIsosFromArgv(argv);
   if (!isos.length) throw new Error("--isos is required");
-
-  const blockSize = args.blockSize ? Number(args.blockSize) : 50;
-  if (!Number.isFinite(blockSize) || blockSize <= 0) throw new Error("--blockSize must be a positive number");
 
   const status = typeof args.status === "string" && args.status ? args.status : "in_progress";
   const notes = typeof args.notes === "string" ? args.notes : "";
 
+  const blockSizeRaw = args.blockSize !== undefined ? Number(args.blockSize) : isos.length;
+  const blockSize = Number.isFinite(blockSizeRaw) ? blockSizeRaw : isos.length;
+
   withLock(
     claimsLockPath,
     lockOpts,
-    {mode: "create", workerId, isos: isos.join(",")},
+    {mode: "create", workerId, basesKey, isos: isos.join(",")},
     () => {
       const now = new Date().toISOString();
       const batchId =
@@ -524,8 +497,16 @@ function main() {
 
       for (const c of claims.claims) {
         if (!c || c.status !== "in_progress") continue;
+
         if (Number(c.workerId) === workerId) {
           throw new Error(`workerId=${workerId} already has an in_progress claim batchId=${c.batchId}`);
+        }
+
+        const otherBasesKey = typeof c.basesKey === "string" ? c.basesKey : "";
+        if (otherBasesKey && otherBasesKey === basesKey) {
+          throw new Error(
+            `basesKey overlap with existing in_progress claim workerId=${c.workerId} batchId=${c.batchId}`,
+          );
         }
 
         const claimedIsos = Array.isArray(c.isos) ? c.isos : [];
@@ -534,38 +515,64 @@ function main() {
         }
       }
 
-      const maxUsedI = getMaxNamebaseIndex();
-      const maxReserved = getMaxReservedIndexFromClaims(claims);
-      const start = Math.max(maxUsedI, maxReserved) + 1;
-      const end = start + blockSize - 1;
+      const noUniqClaims = readClaimsMaybe(noUniqClaimsPath);
+      if (noUniqClaims && Array.isArray(noUniqClaims.claims)) {
+        for (const c of noUniqClaims.claims) {
+          if (!c || c.status !== "in_progress") continue;
+          const claimedIsos = Array.isArray(c.isos) ? c.isos : [];
+          if (isoSetIntersects(isos, claimedIsos)) {
+            throw new Error(
+              `ISO overlap with existing NO_UNIQ_BASE in_progress claim workerId=${c.workerId} batchId=${c.batchId}`,
+            );
+          }
+        }
+      }
+
+      let reservedRange;
+      if (blockSize > 0) {
+        const maxUsedI = getMaxNamebaseIndex();
+        const maxReservedDecluster = getMaxReservedIndexFromClaims(claims);
+        const maxReservedNoUniq = getMaxReservedIndexFromClaims(noUniqClaims);
+        const start = Math.max(maxUsedI, maxReservedDecluster, maxReservedNoUniq) + 1;
+        const end = start + blockSize - 1;
+        reservedRange = [start, end];
+      }
 
       const claim = {
         workerId,
         batchId,
+        basesKey,
+        bases,
         isos,
         status,
         startedAt: now,
         updatedAt: now,
-        reservedRange: [start, end],
         notes,
       };
 
+      if (reservedRange) claim.reservedRange = reservedRange;
+
       claims.claims.push(claim);
       writeJsonNoBom(claimsPath, claims);
+
+      const rr = Array.isArray(claim.reservedRange) && claim.reservedRange.length === 2 ? claim.reservedRange : [];
 
       process.stdout.write(
         [
           `OK: appended claim to ${claimsRelPath}`,
           `workerId=${workerId}`,
           `batchId=${batchId}`,
+          `basesKey=${basesKey}`,
           `isos=${isos.join(",")}`,
-          `reservedRange=${start}-${end}`,
+          rr.length ? `reservedRange=${rr[0]}-${rr[1]}` : "",
           "",
-          "Suggested notes snippet:",
-          `Reserved i range ${start}-${end}. ISO->base mapping (fill in):`,
-          ...isos.map((iso, idx) => `- ${iso}->${start + idx}`),
+          rr.length ? "Suggested notes snippet:" : "",
+          rr.length ? `Reserved i range ${rr[0]}-${rr[1]}. ISO->base mapping (fill in):` : "",
+          ...(rr.length ? isos.map((iso, idx) => `- ${iso}->${rr[0] + idx}`) : []),
           "",
-        ].join("\n"),
+        ]
+          .filter(Boolean)
+          .join("\n"),
       );
     },
   );

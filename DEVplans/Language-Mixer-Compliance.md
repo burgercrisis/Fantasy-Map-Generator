@@ -10,16 +10,21 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): each agent must claim a workstream in MCP Memory (owner/goal/file scope/status=in_progress + short plan) before edits, then mark it done with verification evidence + handoff notes; ISO-level coordination continues via `tools/mixer-diagnostics/_no_uniq_base_claims.json` (use `tools/mixer-diagnostics/no-uniq-base-claim.js`, do not hand-edit the JSON).
 
+- 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
+
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
   - Initial high-confidence findings (examples to triage/fix via deltas): `canadian-french` currently includes base index `254` (Kannada) in `bases[]`; `bozal-spanish` includes base index `151` (Sesotho) in `bases[]`.
   - Systemic anomaly identified: ~34 catalog entries with `family: "Australian Aboriginal"` currently include shared base `312` ("Harari-Argobba") in `bases[]`, even though `tools/mixer-core/fix-language-mixer-mappings.js` explicitly maps these ISOs (and token `australian-aboriginal`) to base `313` ("Australian Aboriginal").
     - Next step (pending approval): consider a single delta batch to swap `312 -> 313` for the affected ISOs.
+  - 2025-12-15: Audit reliability (Windows): added `--out-json=PATH` to write the JSON report as UTF-8 without BOM (avoids PowerShell `Out-File` BOM parse issues). Example output: `tools/mixer-diagnostics/tmp/linguistic-audit.nobom.json`.
   - Next step (pending approval / coordination): convert confirmed issues into a small delta batch (`setBases`), then `pnpm run mixer:apply-deltas` + `mixer:guardrails` to validate.
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
 
   - 2025-12-15: Added `--out-shortlist-tsv=...` to `report-language-mixer-linguistic-plausibility.js` to emit a filtered per-ISO shortlist TSV (replaces ad-hoc post-processing).
+
+  - 2025-12-15: Created delta-only proposal file `tools/mixer-deltas/2025-12-15-linguistic-fixes-proposal.json` (`setBases`: `canadian-french -> [2, 650]`, `nogai -> [295]`). Not applied yet.
 
 - 2025-12-14: Added a read-only heuristic diagnostic to flag likely linguistically inconsistent `iso -> bases[]` mappings: `tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js`.
   - Typical run: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js --only-failures --skip-region --skip-tags=pidgin,creole,mixed --limit=40`
@@ -89,6 +94,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Atomic lock file (`tools/mixer-diagnostics/_no_uniq_base_claims.lock`) to serialize claim-log writes
   - `--update` mode to safely update `status` / `notes` / `updatedAt` without manual JSON edits
   - PowerShell-safe ISO passing (`--isos=...` split across argv tokens; repeatable `--iso=...`)
+
+- ✅ 2025-12-15: Added a read-only `NO_UNIQ_BASE` batch picker helper (`tools/mixer-diagnostics/list-no-uniq-base-candidates.js`) and wired it into `.windsurf/workflows/no-unique-base-debt-multiagent.md` to standardize multi-agent batch selection (with optional category/family/region filters and claim-based exclusion).
 
 - Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
   - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)

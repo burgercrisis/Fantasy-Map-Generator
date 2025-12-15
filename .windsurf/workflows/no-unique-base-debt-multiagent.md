@@ -130,9 +130,16 @@ Rules:
 pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=500
 ```
 
-2. From the output, pick **5–20** ISOs that show `NO_UNIQ_BASE`.
+2. (Recommended) Use the read-only candidate lister to filter candidates and exclude already-claimed work (defaults to excluding `in_progress` claims):
 
-3. Prefer batching by a coherent slice:
+```bash
+pnpm exec -- node tools/mixer-diagnostics/list-no-uniq-base-candidates.js --limit=200 --next=10
+pnpm exec -- node tools/mixer-diagnostics/list-no-uniq-base-candidates.js --category=Romance --limit=200 --next=10
+```
+
+3. From the output, pick **5–20** ISOs that show `NO_UNIQ_BASE`.
+
+4. Prefer batching by a coherent slice:
 
 - same `family` / `category`
 - same geographic region

@@ -138,9 +138,18 @@
       "workerId": 39,
       "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
       "scope": "nonunique_bases_burn_down_base132_batch3",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T02:34:07Z",
-      "note": "Batch3 base=132 slice candidate pins (planned): saba->1400, shabo->1401, besme->1402, senara->1403, sucite->1404, supyire->1405, suwu->1406"
+      "finishedAt": "2025-12-15T02:52:23Z",
+      "note": "Added dedicated bases 1400-1406 + delta dedicatedPins for saba,shabo,besme,senara,sucite,supyire,suwu; applied deltas; verified: mixer:guardrails OK, mixer:check-deltas OK, seed-uniqueness (targeted) => 0 NO_UNIQ_BASE, coverage 0 missing, failures 0 failing"
+    },
+    {
+      "workerId": 39,
+      "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
+      "scope": "nonunique_bases_burn_down_base132_batch4a",
+      "status": "in_progress",
+      "startedAt": "2025-12-15T02:55:01Z",
+      "note": "Batch4a base=132 pins (planned): syer-tenyer->1500, tiv->1501, tyap->1502, werni->1503, yobe->1504"
     }
   ]
 }

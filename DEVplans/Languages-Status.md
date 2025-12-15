@@ -132,6 +132,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance S-batch / worker62):** pinned dedicated bases `1540–1544` for `sammarinese`, `sardinian`, `sardo-corsican`, `sassarese`, `savoyard` (via `tools/mixer-deltas/2025-12-15-worker62-romance-s.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
 
@@ -276,6 +280,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker63 mini-batch):** added dedicated bases `1440–1444` for `romanian`, `romansh`, `ron`, `royasc`, `ruo` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker63-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker64 mini-batch):** added dedicated bases `1490–1494` for `rup`, `ruq`, `sabino`, `saharan-spanish`, `salentino` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker64-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker57 mini-batch):** added dedicated bases `1080–1084` for `philippine-spanish`, `piedmontese`, `pisano-livornese`, `pistoiese`, `poitevin-saintongeais` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker57-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
@@ -1539,7 +1546,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 253
+  - `Nonunique Bases:` 246
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 277
@@ -1552,6 +1559,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Cleared the last four base-set collisions for this list (`baka`, `bube`, `saya-chadic`, `tamil`) by adding dedicated bases `945–948` in `modules/namebases-real.js` and pinning them via delta `tools/mixer-deltas/2025-12-15-worker37-africa-uniqueness.json` (applied with `pnpm run mixer:apply-deltas`). Base-set uniqueness for the full Africa list is now `clustered bases: 0`.
   - ✅ **2025-12-15 (verified):** Reduced `Nonunique Bases` for the Africa full list (and base=132 slice) by adding dedicated bases `1330–1335` and pinning `berta,sinyar,songhoyboro-ciine,surbakhal,teda,tondi-songway-kiini` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-nilo.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `sukur,bacama,bade-chadic,bole-afroasiatic` to dedicated bases `1336–1339` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-chadic.json` (applied with `pnpm run mixer:apply-deltas`).
+  - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `saba,shabo,besme,senara,sucite,supyire,suwu` to dedicated bases `1400–1406` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch3.json` (applied with `pnpm run mixer:apply-deltas`).
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 

@@ -7,6 +7,7 @@
 /tools/mixer-diagnostics/_last-language-base-clusters.txt
 /tools/mixer-diagnostics/_report-language-mixer-base-clusters.txt
 /tools/mixer-diagnostics/_no_uniq_base_claims.lock
+/tools/mixer-diagnostics/_decluster_claims.lock
 /mods
 /pdf_splitter
 /.tmp-*

@@ -1035,6 +1035,28 @@ Optional args:
 
 ---
 
+### `list-no-uniq-base-candidates.js`
+
+**Purpose**
+
+Read-only helper that lists catalog ISOs currently failing `NO_UNIQ_BASE` (no globally-unique base index), with optional metadata filters and claim-based exclusion to reduce multi-agent overlap.
+
+**Usage**
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/list-no-uniq-base-candidates.js --limit=200 --next=10
+pnpm exec -- node tools/mixer-diagnostics/list-no-uniq-base-candidates.js --category=Romance --limit=200 --next=10
+```
+
+Optional args:
+
+- `--category=VALUE`
+- `--family=VALUE`
+- `--region=VALUE`
+- `--exclude-claims=in_progress|any|none` (default: `in_progress`)
+
+---
+
 ### `check-language-mixer-map-duplicate-isos.js`
 
 **Purpose**
