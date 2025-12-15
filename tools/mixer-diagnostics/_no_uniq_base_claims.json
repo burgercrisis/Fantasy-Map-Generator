@@ -990,7 +990,7 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-14T22:52:29Z",
-      "updatedAt": "2025-12-14T22:52:29Z",
+      "updatedAt": "2025-12-15T00:15:13Z",
       "notes": "Complete. Romance NO_UNIQ_BASE mini-batch.\n\nReserved i range: 920-969\n\nISO->base mapping applied (dedicated uniq base per ISO; bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker52-old-romance.json and compiled with pnpm run mixer:apply-deltas):\n- old-romagnol->920\n- old-spanish->921\n- oliventine->922\n- oltenian->923\n- ossolano->924\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=old-romagnol,old-spanish,oliventine,oltenian,ossolano\" --limit=80 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)"
     },
     {
@@ -1038,10 +1038,10 @@
         "somero-region",
         "j-mtland"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-14T23:59:24Z",
-      "updatedAt": "2025-12-15T00:03:07Z",
-      "notes": "In progress. Uralic base-set collision + NO_UNIQ_BASE declustering slice.\n\nReserved i range: 980-1029 (intentionally unused in this batch; using existing dedicated bases 935-944).\n\nISO->base mapping applied (via tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json + pnpm run mixer:apply-deltas):\n- bjarmian-finnic->935\n- proto-sami->936\n- forest-nenets->937\n- proto-finnic->938\n- southwestern-finnish->939\n- proto-uralic->940\n- proto-karelian->941\n- proto-permic->942\n- somero-region->943\n- j-mtland->944\n\nRemaining seed-uniqueness debt lines: pending verification (strict>=1, norm>=10)."
+      "updatedAt": "2025-12-15T00:16:00Z",
+      "notes": "Complete. Uralic base-set collision + NO_UNIQ_BASE declustering slice.\n\nReserved i range: 980-1029 (unused; no new i: indices created in this batch).\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json and compiled with pnpm run mixer:apply-deltas):\n- bjarmian-finnic->935\n- proto-sami->936\n- forest-nenets->937\n- proto-finnic->938\n- southwestern-finnish->939\n- proto-uralic->940\n- proto-karelian->941\n- proto-permic->942\n- somero-region->943\n- j-mtland->944\n\nVerification:\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \"--only-isos=bjarmian-finnic,proto-sami,forest-nenets,proto-finnic,southwestern-finnish,proto-uralic,proto-karelian,proto-permic,somero-region,j-mtland\" --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (bases 935-944 are each used by a single ISO, so this batch cannot form an identical base-set collision)"
     }
   ]
 }

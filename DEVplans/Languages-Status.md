@@ -214,6 +214,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker52 mini-batch):** added dedicated bases `920–924` for `old-romagnol`, `old-spanish`, `oliventine`, `oltenian`, `ossolano` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker52-old-romance.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (`strictOK`, `normOK`; each is `12/12`).
 
+  - Re-verified 2025-12-15: `pnpm run mixer:guardrails`, `pnpm run mixer:apply-deltas`, `pnpm run mixer:check-deltas`, seed-uniqueness (PowerShell requires quoting the `--only-isos=...` arg), coverage, failures, and base-clusters.
+
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker53 mini-batch):** added dedicated bases `925–929` for `pa-uezu`, `palra`, `pannonian-latin`, `pantesco`, `paraguayan-spanish` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker53-pa-uezu.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (no strict failures; no norm failures).
@@ -222,6 +224,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker54 mini-batch):** added dedicated bases `930–934` for `parmigiano`, `pavese`, `peruvian-ribere-o`, `peruvian-spanish`, `pesciatino` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-14-worker54-parmigiano.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (no strict failures; no norm failures).
 
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Uralic / worker55 collision slice):** pinned dedicated bases `935–944` for `bjarmian-finnic`, `proto-sami`, `forest-nenets`, `proto-finnic`, `southwestern-finnish`, `proto-uralic`, `proto-karelian`, `proto-permic`, `somero-region`, `j-mtland` via delta `tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json` + `pnpm run mixer:apply-deltas`. Verified via seed-uniqueness report that each ISO now reports `uniqBase` (No globally-unique base index: 0; strict failures: 0; norm failures: 0), and verified `mixer:guardrails`, `mixer:check-deltas`, `check-language-mixer-coverage.js` (Missing mapping: 0), and `check-language-mixer-failures.js` (0 failures).
 
 
 - ✅ **2025-12-14 NO_UNIQ_BASE micro-pass (Romance / worker41 mini-batch):** added dedicated bases `858–862` for `judeo-aragonese`, `judeo-catalan`, `judeo-gascon`, `judeo-italian`, `judeo-mantuan` (bases defined in `modules/namebases-real.js`) and appended/preserved in `config/language-mixer-map.json` via `explicitIsoDedicatedBaseMap`. Verified via `run-language-mixer-suite --no-wiki-devplan` + targeted `report-language-mixer-seed-uniqueness --only-failures` (No globally-unique base index: 0; strict failures: 0; norm failures: 0).

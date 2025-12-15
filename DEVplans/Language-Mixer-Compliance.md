@@ -10,6 +10,10 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Repaired `tools/mixer-core/diff-language-families.js` to load the generated catalog from `globalThis.languageMixerCatalog` (current `config/language-mixes-all.js` export), unblocking `tools/mixer-core/run-language-mixer-health.js`.
 
+- 2025-12-14: Disabled Sequential Thinking (MCP server) due to instability; updated agent guidance to use an explicit PLAN → NEXT_ACTION contract (execute NEXT_ACTION in the same turn; `/continue` resumes the most recent unexecuted NEXT_ACTION).
+
+- 2025-12-14: Centralized multi-agent coordination in Memory Graph: added `Schema: Workstream Graph Relations v1` with explicit `depends_on` / `overlaps_with` / `blocks` (plus `reads` / `claims_write`) relations against shared hot-spot files so agents can query conflicts before editing.
+
 - Family macros (`tags: ["family"]`) are organizational entries:
   - they are expected to be skipped by the mixer UI and by “failure” checks
   - they are still required to have mappings (per `DEVplans/Language-Mixer-Rules.md`)

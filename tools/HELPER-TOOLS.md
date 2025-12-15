@@ -1009,6 +1009,32 @@ Use this when you want a quick, read-only health snapshot without running any mu
 
 ---
 
+### `no-uniq-base-claim.js`
+
+**Purpose**
+
+Append a multi-agent claim batch to `tools/mixer-diagnostics/_no_uniq_base_claims.json`, while:
+
+- automatically reserving the next available contiguous `i:` index range for new dedicated bases
+- rejecting ISO overlap with existing `status: "in_progress"` claims
+- writing the claims log as UTF-8 without BOM (prevents JSON.parse failures)
+
+This is the recommended way to claim a `NO_UNIQ_BASE` batch instead of hand-editing the JSON file.
+
+**Usage**
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=55 --isos=bjarmian-finnic,proto-sami --status=in_progress
+```
+
+Optional args:
+
+- `--batchId=...` (defaults to `<timestamp>-worker<workerId>`)
+- `--blockSize=50` (default: 50)
+- `--notes=...`
+
+---
+
 ### `check-language-mixer-map-duplicate-isos.js`
 
 **Purpose**
