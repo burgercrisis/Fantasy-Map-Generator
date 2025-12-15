@@ -254,6 +254,7 @@ function main() {
 
       if (!parsed.skipRegion) {
         if (parsed.ignoreMiscRegion && isoRegion === "misc") {
+          // no-op
         } else {
           const domRegion = pickDominant(s.regions);
           if (

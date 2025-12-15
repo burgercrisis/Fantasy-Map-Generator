@@ -42,10 +42,84 @@ function parseArgs(argv) {
     limit: Number.isFinite(limit) && limit > 0 ? limit : 100,
     outJson: findValue("--out-json", ""),
     outTsv: findValue("--out-tsv", ""),
+    outShortlistTsv: findValue("--out-shortlist-tsv", ""),
     familyFilter: toLower(findValue("--family", "")),
     categoryFilter: toLower(findValue("--category", "")),
     regionFilter: toLower(findValue("--region", "")),
   };
+}
+
+function buildShortlistTsv(issues) {
+  const isBadCat = c => /pidgin|creole|mixed|hypothetical/i.test(String(c || ""));
+  const isBadFam = f => /pidgin|creole|mixed|proposed|\-based\b/i.test(String(f || ""));
+
+  const keep = [];
+  for (const it of issues || []) {
+    if (!it || !it.iso) continue;
+    const reasons = String(it.reasons || "");
+    if (!(reasons.indexOf("category(") !== -1 || reasons.indexOf("family(") !== -1)) continue;
+    if (String(it.langRegion || "").trim().toLowerCase() === "misc") continue;
+    if (isBadCat(it.langCategory)) continue;
+    if (isBadFam(it.langFamily)) continue;
+    keep.push(it);
+  }
+
+  const byIso = new Map();
+  for (const it of keep) {
+    const key = it.iso;
+    const cur =
+      byIso.get(key) ||
+      {
+        iso: key,
+        name: it.name || "",
+        region: it.langRegion || "",
+        family: it.langFamily || "",
+        category: it.langCategory || "",
+        score: 0,
+        issues: [],
+      };
+
+    cur.score += Number(it.score) || 0;
+    cur.issues.push(it);
+    byIso.set(key, cur);
+  }
+
+  const rows = Array.from(byIso.values()).sort(
+    (a, b) => b.score - a.score || b.issues.length - a.issues.length || a.iso.localeCompare(b.iso)
+  );
+
+  const shortlistRows = [];
+  for (const row of rows) {
+    row.issues.sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
+    const ex = row.issues[0] || {};
+    shortlistRows.push({
+      iso: row.iso,
+      name: row.name,
+      region: row.region,
+      family: row.family,
+      category: row.category,
+      score: Number(row.score).toFixed(2),
+      issueCount: String(row.issues.length),
+      exampleBase: String(ex.base || ""),
+      exampleBaseName: String(ex.baseName || ""),
+      exampleReasons: String(ex.reasons || ""),
+    });
+  }
+
+  const columns = [
+    "iso",
+    "name",
+    "region",
+    "family",
+    "category",
+    "score",
+    "issueCount",
+    "exampleBase",
+    "exampleBaseName",
+    "exampleReasons",
+  ];
+
+  return toTsv(shortlistRows, columns);
 }
 
 function loadBaseIndexToNameMap() {
@@ -337,6 +411,10 @@ function main() {
       "reasons",
     ];
     writeText(opts.outTsv, toTsv(issues, columns));
+  }
+
+  if (opts.outShortlistTsv) {
+    writeText(opts.outShortlistTsv, buildShortlistTsv(issues));
   }
 }
 

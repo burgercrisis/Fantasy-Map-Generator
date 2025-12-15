@@ -15,6 +15,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Added read-only linguistic plausibility triage tooling: `tools/mixer-diagnostics/report-language-mixer-linguistic-plausibility.js` (heuristic report over `iso -> bases[]` using dominant family/category/region per base). Generated review outputs under `tools/mixer-diagnostics/tmp/` (e.g. `linguistic-plausibility.tsv`, `linguistic-plausibility.json`).
 
+  - 2025-12-15: Added `--out-shortlist-tsv=...` to `report-language-mixer-linguistic-plausibility.js` to emit a filtered per-ISO shortlist TSV (replaces ad-hoc post-processing).
+
 - 2025-12-14: Added a read-only heuristic diagnostic to flag likely linguistically inconsistent `iso -> bases[]` mappings: `tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js`.
   - Typical run: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js --only-failures --skip-region --skip-tags=pidgin,creole,mixed --limit=40`
   - Current output summary (with `--skip-region`, ignoring `region=Misc`, and skipping `pidgin/creole/mixed` tagged entries): flags 84 catalog ISOs (heuristic mismatches)

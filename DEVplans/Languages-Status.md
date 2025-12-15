@@ -260,6 +260,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker61 mini-batch):** added dedicated bases `1340–1344` for `quebec-french`, `r-mois`, `regional-italian`, `ribagor-an`, `riberan` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker61-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker62 mini-batch):** added dedicated bases `1390–1394` for `riojan`, `rioplatense-spanish`, `riunorese`, `romagnol`, `romanesco` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker62-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
+
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker57 mini-batch):** added dedicated bases `1080–1084` for `philippine-spanish`, `piedmontese`, `pisano-livornese`, `pistoiese`, `poitevin-saintongeais` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker57-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
 
 
