@@ -24,6 +24,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Added a wiki claims helper `tools/mixer-diagnostics/wiki-claim.js` (writer + lock) to create/update `tools/mixer-diagnostics/_wiki_multiagent_claims.json` without manual JSON edits. `.gitignore` now ignores `tools/mixer-diagnostics/_wiki_multiagent_claims.lock`.
 
+- 2025-12-15: Unblocked uniqueness diagnostics by fixing a transient JS syntax error in `modules/namebases-real.js` (was crashing `report-language-mixer-seed-uniqueness`). Verified via `node --check modules/namebases-real.js` and `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300`.
+
 - 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
   - claim log: `tools/mixer-diagnostics/_decluster_claims.json` (UTF-8 no BOM)
   - helper: `tools/mixer-diagnostics/decluster-claim.js` (create/update under lock; optional reserved `i:` range)
@@ -33,6 +35,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Team process decision: use a single integrator lane for high-churn language mixer files and regenerated artifacts (`modules/namebases-*.js`, `config/language-mixer-map.json`, `tools/mixer-deltas/_compiled-dedicated-pins.json`).
   - Non-integrator work should be delivered as delta-only changes / proposals + claim notes; the integrator runs `pnpm run mixer:apply-deltas` and the verification gates.
+
+- 2025-12-15: Team process decision: `.windsurf/rules/languages-wiki.md` now encodes the single-integrator lane rule adjacent to `pnpm run mixer:apply-deltas`.
 
 - 2025-12-14: Added a read-only heuristic diagnostic for linguistic plausibility checking: `tools/mixer-diagnostics/audit-language-mixer-linguistics.js`.
   - Current behavior: flags likely outliers by comparing an ISO’s `family` against “family-anchored” shared base indices, plus some lexifier/missing-metadata checks.
@@ -106,6 +110,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - ✅ 2025-12-14: Introduced a mixer “patch queue” (delta files) to reduce multi-worker conflicts on canonical mixer artifacts:
   - Workers can add small deltas under `tools/mixer-deltas/*.json`
   - Apply deltas with `pnpm run mixer:apply-deltas` (writes `config/language-mixer-map.json` + regenerates `config/language-mixer-map.js` deterministically)
+  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
   - Dedicated-base pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json`, and loaded by `tools/mixer-core/fix-language-mixer-mappings.js`
 
 - ✅ 2025-12-14: Added multi-agent hardening for writer scripts:

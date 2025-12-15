@@ -181,6 +181,7 @@ Preferred strategy (default):
 - Ensure its seed list (`b`) is plausible for the ISO.
 - Add the dedicated pin (and any other bases to append) via a delta file in `tools/mixer-deltas/*.json`.
 - Apply deltas with `pnpm run mixer:apply-deltas`.
+- Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself.
 
 Important:
 

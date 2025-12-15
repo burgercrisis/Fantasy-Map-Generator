@@ -75,6 +75,11 @@ function main() {
 
   const commits = Array.from(new Set(logOutput.split(/\r?\n/).map(s => s.trim()).filter(Boolean)));
 
+  const commitRank = new Map();
+  for (let i = 0; i < commits.length; i++) {
+    commitRank.set(commits[i], i);
+  }
+
   const historyMixIsos = new Set();
   const historyMapIsos = new Set();
 
@@ -154,7 +159,7 @@ function main() {
 
   writeJson("tools/mixer-diagnostics/_language-history-totals.json", summary);
 
-  if (args.includes("--write-losses") || args.includes("--print-losses")) {
+  if (args.includes("--write-losses") || args.includes("--print-losses") || args.includes("--write-losses-meta")) {
     const losses = {
       fromMix: diffList(historyMixIsos, currentMixIsos),
       fromMap: diffList(historyMapIsos, currentMapIsos),
@@ -169,11 +174,16 @@ function main() {
       const rows = losses.fromAll.map(iso => {
         const mixSha = lastSeenMix.get(iso) || null;
         const mapSha = lastSeenMap.get(iso) || null;
+
+        const mixRank = mixSha && commitRank.has(mixSha) ? commitRank.get(mixSha) : Infinity;
+        const mapRank = mapSha && commitRank.has(mapSha) ? commitRank.get(mapSha) : Infinity;
+        const lastSeenAny = mixRank <= mapRank ? mixSha : mapSha;
+
         return {
           iso,
           lastSeenMix: mixSha,
           lastSeenMap: mapSha,
-          lastSeenAny: mixSha || mapSha,
+          lastSeenAny,
         };
       });
 

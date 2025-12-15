@@ -537,7 +537,9 @@ function main() {
     const pinsSorted = Object.fromEntries(sortedPinsEntries);
     const appendSorted = Object.fromEntries(sortedAppendEntries);
 
-    const didMutateMap = applyToMap(map, setSorted, pinsSorted, appendSorted);
+    const mapBefore = JSON.stringify(map);
+    applyToMap(map, setSorted, pinsSorted, appendSorted);
+    const didMutateMap = mapBefore !== JSON.stringify(map);
     if (!validatePinnedBasesAreUnique({map, pins: pinsSorted})) return;
     if (!checkOnly && didMutateMap) {
       writeJson(mapRel, map);

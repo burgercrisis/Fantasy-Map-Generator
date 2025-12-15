@@ -20,3 +20,4 @@ description: when working on languages
 4. When wiring or updating languages:
    a. Treat **coverage and uniqueness together**: when you touch a language, aim for catalog + map + unique base at the same time, not in separate phases.
    b. Follow the project’s explicit numbered workflow/priority list; do **not** skip ahead to unrelated tasks.
+   c. Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts; non-integrators should hand off delta files + notes and may use `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` for read-only validation.

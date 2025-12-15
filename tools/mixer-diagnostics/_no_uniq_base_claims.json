@@ -1433,12 +1433,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T08:16:41.317Z",
-      "updatedAt": "2025-12-15T08:39:54.210Z",
+      "updatedAt": "2025-12-15T09:02:35.249Z",
       "reservedRange": [
         2069,
         2118
       ],
-      "notes": "Reserved i range: 2069-2118\nISO->base mapping (fill in):\n- cree->2069\n- ojibwe->2070\n- yup->2071\n- iku->2072\n- cherokee->2073\n- apa->2074\n- athabaskan->2075\n- navajo->2076\n\nISO->base mapping applied: cree->2069; ojibwe->2070; yup->2071; iku->2072; cherokee->2073; apa->2074; athabaskan->2075; navajo->2076. Bases i:2069-2076 in modules/namebases-real.js. Delta pins: tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-failures for these 8 => 0; Wikipedia North America list nonunique-bases => 0."
+      "notes": "Reserved i range: 2069-2118\nISO->base mapping (fill in):\n- cree->2069\n- ojibwe->2070\n- yup->2071\n- iku->2072\n- cherokee->2073\n- apa->2074\n- athabaskan->2075\n- navajo->2076\n\nISO->base mapping applied: cree->2069; ojibwe->2070; yup->2071; iku->2072; cherokee->2073; apa->2074; athabaskan->2075; navajo->2076. Bases i:2069-2076 in modules/namebases-real.js. Delta pins: tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-failures for these 8 => 0; Wikipedia North America list nonunique-bases => 0.\n\nISO->base mapping applied:\\n- cree->2069\\n- ojibwe->2070\\n- yup->2071\\n- iku->2072\\n- cherokee->2073\\n- apa->2074\\n- athabaskan->2075\\n- navajo->2076\\n\\nDelta pins:\\n- tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=cree ojibwe yup iku cherokee apa athabaskan navajo\\ --limit=300 => Target ISOs: 8; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)"
     },
     {
       "workerId": 2,
@@ -1451,12 +1451,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T08:27:51.660Z",
-      "updatedAt": "2025-12-15T08:39:42.433Z",
+      "updatedAt": "2025-12-15T09:00:26.152Z",
       "reservedRange": [
         2119,
         2168
       ],
-      "notes": "Reserved i range: 2119-2168\nISO->base mapping (fill in):\n- western-aragonese->2119\n- western-catalan->2120\n- western-sicilian->2121\n- wisconsin-walloon->2122\n\nISO->base mapping (planned):\\n- western-aragonese->2119\\n- western-catalan->2120\\n- western-sicilian->2121\\n- wisconsin-walloon->2122\\n\\nDelta pins file created: tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json\\nNOTE: Dedicated base definitions i:2119-2122 still need to be appended to modules/namebases-real.js before running pnpm run mixer:apply-deltas.\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json; dedicated bases i:2119-2122 in modules/namebases-real.js): western-aragonese->2119; western-catalan->2120; western-sicilian->2121; wisconsin-walloon->2122. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=western-aragonese,western-catalan,western-sicilian,wisconsin-walloon => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0."
+      "notes": "Reserved i range: 2119-2168\nISO->base mapping (fill in):\n- western-aragonese->2119\n- western-catalan->2120\n- western-sicilian->2121\n- wisconsin-walloon->2122\n\nISO->base mapping (planned):\\n- western-aragonese->2119\\n- western-catalan->2120\\n- western-sicilian->2121\\n- wisconsin-walloon->2122\\n\\nDelta pins file created: tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json\\nNOTE: Dedicated base definitions i:2119-2122 still need to be appended to modules/namebases-real.js before running pnpm run mixer:apply-deltas.\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json; dedicated bases i:2119-2122 in modules/namebases-real.js): western-aragonese->2119; western-catalan->2120; western-sicilian->2121; wisconsin-walloon->2122. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=western-aragonese,western-catalan,western-sicilian,wisconsin-walloon => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied: western-aragonese->2119; western-catalan->2120; western-sicilian->2121; wisconsin-walloon->2122. Delta pins: tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=western-aragonese western-catalan western-sicilian wisconsin-walloon\\ => Missing mapping 0 / uniqBase OK; coverage 0 missing; failures 0; base-clusters --category=Romance => 0 clusters."
     },
     {
       "workerId": 3,
@@ -1468,14 +1468,14 @@
         "a-ou",
         "abaga"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T08:30:44.963Z",
-      "updatedAt": "2025-12-15T08:30:44.963Z",
+      "updatedAt": "2025-12-15T09:05:03.902Z",
       "reservedRange": [
         2169,
         2218
       ],
-      "notes": "Reserved i range: 2169-2218\nISO->base mapping (fill in):\n- -azd-dialect->2169\n- -ejtun-dialect->2170\n- -sele->2171\n- a-ou->2172\n- abaga->2173"
+      "notes": "Reserved i range: 2169-2218\nISO->base mapping (fill in):\n- -azd-dialect->2169\n- -ejtun-dialect->2170\n- -sele->2171\n- a-ou->2172\n- abaga->2173\n\nISO->base mapping applied (dedicated bases in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json; compiled via pnpm run mixer:apply-deltas):\\n- -azd-dialect->2169\\n- -ejtun-dialect->2170\\n- -sele->2171\\n- a-ou->2172\\n- abaga->2173\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos='-azd-dialect,-ejtun-dialect,-sele,a-ou,abaga' --limit=120 => uniqBase for all 5; strictUniqueSeeds=12; normUniqueSeeds=12; Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)"
     }
   ]
 }

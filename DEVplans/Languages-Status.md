@@ -163,6 +163,12 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Romance western batch / worker2):** pinned dedicated bases `2119–2122` for `western-aragonese`, `western-catalan`, `western-sicilian`, `wisconsin-walloon` (via `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed dialect batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
+
+
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (North America wiki list):** pinned dedicated bases `2069–2076` for `cree`, `ojibwe`, `yup`, `iku`, `cherokee`, `apa`, `athabaskan`, `navajo` (delta: `tools/mixer-deltas/2025-12-15-worker1-north-america-no-uniq-base.json`). Applied via `pnpm run mixer:apply-deltas` and verified: seed-uniqueness `--only-failures` for these 8 => 0; `report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-languages-of-north-america.json` => 0.
 
 
@@ -311,6 +317,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker63 mini-batch):** added dedicated bases `1440–1444` for `romanian`, `romansh`, `ron`, `royasc`, `ruo` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker63-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker63 Romansh dialects):** pinned dedicated bases `1640–1644` for `surmiran`, `sursilvan`, `sutsilvan`, `tuatschin`, `vallader` via delta `tools/mixer-deltas/2025-12-15-worker63-romance-romansh-varieties.json` + `pnpm run mixer:apply-deltas`. Verified via `pnpm run mixer:guardrails`, `pnpm run mixer:check-deltas`, seed-uniqueness (PowerShell quoting: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=surmiran,sursilvan,sutsilvan,tuatschin,vallader" --limit=300`), `check-language-mixer-coverage.js` (0 missing), `check-language-mixer-failures.js` (0 failing), and `report-language-mixer-base-clusters.js --min-size=2` (exit 0).
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE micro-pass (Romance / worker64 mini-batch):** added dedicated bases `1490–1494` for `rup`, `ruq`, `sabino`, `saharan-spanish`, `salentino` (bases defined in `modules/namebases-real.js`) and pinned via delta `tools/mixer-deltas/2025-12-15-worker64-romance.json` + `pnpm run mixer:apply-deltas`. Verified via `mixer:guardrails`, `mixer:check-deltas`, targeted seed-uniqueness (no `NO_UNIQ_BASE`, no strict failures, no norm failures), `check-language-mixer-coverage.js` (Missing mapping: 0), `check-language-mixer-failures.js` (0 failures), and base-clusters report.
@@ -1470,7 +1479,7 @@ The following families / regions have **not yet received a full pass** for home-
 
 ## 5. Planned next steps when resuming
 
- - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`).
+ - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`; delta `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`).
 
 When this work resumes, a practical order of operations:
 
@@ -1546,7 +1555,7 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`.
 
-- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully represented after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and confirming list base-set uniqueness + race reachability.
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`.
 
 Important distinction:
 
@@ -1607,6 +1616,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Reduced the base=132 slice by pinning `zhire,zhoa,tadaksahak` to dedicated bases `1505–1507` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-132-batch4b.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Began burn-down of the largest remaining `Nonunique Bases` hub (bases `112/113`) by pinning `abon,abron,acheron,adara,aghem,aiki,aja,aka,ambele,ambo,amdang,amira,babanki,baca,bangala` to dedicated bases `2004–2018` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch1.json` (applied with `pnpm run mixer:apply-deltas`).
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `bangi,bangolan,bomboli-bozaba,bomboma,boze,bozo,buu,dagaare,dagbani,djimini,doghose,dogoso,eton,evant,fongoro` to dedicated bases `2019–2033` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch2.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `207`.
+  - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `fungor,fur,ghomala,gikuyu,goundo,gourmanche,gumuz,gwari,gyong,hakaona,hanga,saari,samwe,shwai,sighu` to dedicated bases `2034–2048` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch3.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `192`.
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
@@ -2510,7 +2520,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 24
-  - `Nonunique Bases:` 5
+  - `Nonunique Bases:` 0
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 8
   - `clustered bases:` 0
