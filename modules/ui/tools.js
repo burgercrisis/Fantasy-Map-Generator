@@ -315,17 +315,18 @@ function recreateStates() {
 
     // create new state
     const culture = capital.culture;
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const baseIndex =
+      typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(capital.cell, culture) : pack.cultures[culture] && pack.cultures[culture].base;
     let cultureBaseName;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "state");
-      cultureBaseName = Names.getCulture(culture, range.min, range.max, "");
+      cultureBaseName = Names.getCulture(culture, range.min, range.max, "", baseIndex);
     } else {
       cultureBaseName = Names.getCulture(culture, 3, 6, "", 0);
     }
     const basename =
       capital.name.length < 9 && capital.cell % 5 === 0 ? capital.name : cultureBaseName;
-    const name = Names.getState(basename, culture);
+    const name = Names.getState(basename, culture, baseIndex);
     const nomadic = [1, 2, 3, 4].includes(pack.cells.biome[capital.cell]);
     const type = nomadic
       ? "Nomadic"

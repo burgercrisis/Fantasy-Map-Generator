@@ -407,7 +407,9 @@ function editStateName(state) {
   function regenerateShortNameCulture() {
     const state = +stateNameEditor.dataset.state;
     const culture = pack.states[state].culture;
-    const name = Names.getState(Names.getCultureShort(culture), culture);
+    const center = pack.states[state].center;
+    const base = typeof Names.getBaseForCell === "function" && center !== undefined ? Names.getBaseForCell(center, culture) : undefined;
+    const name = Names.getState(Names.getCultureShort(culture, base), culture, base);
     byId("stateNameEditorShort").value = name;
   }
 

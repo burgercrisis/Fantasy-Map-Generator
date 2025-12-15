@@ -137,16 +137,41 @@ window.Names = (function () {
   };
 
   // generate name for culture
-  const getCulture = function (culture, min, max, dupl) {
-    if (culture === undefined) return ERROR && console.error("Please define a culture");
-    const base = pack.cultures[culture].base;
+  const getCulture = function (culture, min, max, dupl, base) {
+    if (culture === undefined && base === undefined) return ERROR && console.error("Please define a culture");
+    if (base === undefined) base = pack.cultures[culture].base;
     return getBase(base, min, max, dupl);
   };
 
   // generate short name for culture
-  const getCultureShort = function (culture) {
-    if (culture === undefined) return ERROR && console.error("Please define a culture");
-    return getBaseShort(pack.cultures[culture].base);
+  const getCultureShort = function (culture, base) {
+    if (culture === undefined && base === undefined) return ERROR && console.error("Please define a culture");
+    if (base === undefined) base = pack.cultures[culture].base;
+    return getBaseShort(base);
+  };
+
+  const getBaseForCell = function (cell, culture) {
+    if (cell === undefined) return 0;
+
+    const cultureBase =
+      culture !== undefined && pack && pack.cultures && pack.cultures[culture] && typeof pack.cultures[culture].base === "number"
+        ? pack.cultures[culture].base
+        : 0;
+
+    const raceId =
+      pack && pack.cells && pack.cells.race && typeof pack.cells.race[cell] === "number" ? pack.cells.race[cell] : 0;
+    if (!raceId) return cultureBase;
+
+    const raceName =
+      pack && pack.races && pack.races[raceId] && typeof pack.races[raceId].name === "string" ? pack.races[raceId].name : "";
+    if (!raceName || raceName === "None" || raceName === "Human") return cultureBase;
+
+    if (typeof ensureRaceMixerBaseIndex === "function") {
+      const base = ensureRaceMixerBaseIndex(raceName);
+      if (typeof base === "number") return base;
+    }
+
+    return cultureBase;
   };
 
   // generate short name for base
@@ -395,6 +420,7 @@ window.Names = (function () {
     getCultureShort,
     getBaseShort,
     getState,
+    getBaseForCell,
     updateChain,
     clearChains,
     getNameBases: () => window.defaultNameBases,

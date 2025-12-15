@@ -1242,6 +1242,51 @@ function initializeRacesForExpansion(options) {
   pack.races = races;
 }
 
+function syncCultureBasesToDominantRace() {
+  if (!pack || !pack.cultures || !pack.cells) return;
+  const {cells, cultures, races} = pack;
+  if (!cells || !cells.i || !cells.culture || !cells.race) return;
+  if (!Array.isArray(cultures) || !Array.isArray(races) || races.length <= 1) return;
+  if (typeof ensureRaceMixerBaseIndex !== "function") return;
+
+  const countsByCulture = [];
+
+  for (const i of cells.i) {
+    if (cells.h && cells.h[i] < 20) continue;
+    const cultureId = cells.culture[i];
+    if (!cultureId) continue;
+    const raceId = cells.race[i] || 0;
+    if (!raceId) continue;
+    const bucket = (countsByCulture[cultureId] = countsByCulture[cultureId] || {});
+    bucket[raceId] = (bucket[raceId] || 0) + 1;
+  }
+
+  for (const culture of cultures) {
+    if (!culture || !culture.i || culture.removed) continue;
+    const counts = countsByCulture[culture.i];
+    if (!counts) continue;
+
+    let bestRaceId = 0;
+    let bestCount = 0;
+    for (const [raceIdRaw, count] of Object.entries(counts)) {
+      const raceId = +raceIdRaw;
+      if (!raceId) continue;
+      if (count > bestCount) {
+        bestCount = count;
+        bestRaceId = raceId;
+      }
+    }
+
+    if (!bestRaceId) continue;
+    const race = races[bestRaceId];
+    const raceName = race && typeof race.name === "string" ? race.name : "";
+    if (!raceName || raceName === "None" || raceName === "Human") continue;
+
+    const mixedBase = ensureRaceMixerBaseIndex(raceName);
+    if (typeof mixedBase === "number") culture.base = mixedBase;
+  }
+}
+
 function assignRaces() {
   if (!pack || !pack.cultures) return;
 
@@ -1320,4 +1365,8 @@ function assignRaces() {
     }
     pack.cells.race = raceArray;
   }
+
+  try {
+    syncCultureBasesToDominantRace();
+  } catch (e) {}
 }

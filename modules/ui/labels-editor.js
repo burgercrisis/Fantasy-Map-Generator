@@ -320,25 +320,30 @@ function editLabel() {
     if (elSelected.attr("id").slice(0, 10) === "stateLabel") {
       const id = +elSelected.attr("id").slice(10);
       const culture = pack.states[id].culture;
-      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+      const center = pack.states[id].center;
+      const baseIndex =
+        typeof Names.getBaseForCell === "function" && center !== undefined
+          ? Names.getBaseForCell(center, culture)
+          : pack.cultures[culture] && pack.cultures[culture].base;
 
       if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
         const range = Names.getUseCaseRange(baseIndex, "state");
-        name = Names.getState(Names.getCulture(culture, range.min, range.max, ""), culture);
+        name = Names.getState(Names.getCulture(culture, range.min, range.max, "", baseIndex), culture, baseIndex);
       } else {
-        name = Names.getState(Names.getCulture(culture), culture);
+        name = Names.getState(Names.getCulture(culture, undefined, undefined, undefined, baseIndex), culture, baseIndex);
       }
     } else {
       const box = elSelected.node().getBBox();
       const cell = findCell((box.x + box.width) / 2, (box.y + box.height) / 2);
       const culture = pack.cells.culture[cell];
-      const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+      const baseIndex =
+        typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(cell, culture) : pack.cultures[culture] && pack.cultures[culture].base;
 
       if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
         const range = Names.getUseCaseRange(baseIndex, "town");
-        name = Names.getCulture(culture, range.min, range.max);
+        name = Names.getCulture(culture, range.min, range.max, undefined, baseIndex);
       } else {
-        name = Names.getCulture(culture);
+        name = Names.getCulture(culture, undefined, undefined, undefined, baseIndex);
       }
     }
     byId("labelText").value = name;

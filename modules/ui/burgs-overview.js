@@ -261,7 +261,9 @@ function overviewBurgs(settings = {stateId: null, cultureId: null}) {
       if (pack.burgs[burg].lock) return;
 
       const culture = pack.burgs[burg].culture;
-      const name = Names.getCulture(culture);
+      const cell = pack.burgs[burg].cell;
+      const base = typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(cell, culture) : undefined;
+      const name = Names.getCulture(culture, undefined, undefined, undefined, base);
 
       el.querySelector(".burgName").value = name;
       pack.burgs[burg].name = el.dataset.name = name;

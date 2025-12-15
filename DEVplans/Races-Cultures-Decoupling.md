@@ -5,6 +5,11 @@
 - Owner: Cascade
 - Scope: Make Race an independent, cell-level layer (`pack.cells.race`), with Cultures independent (no authoritative `culture.race`).
 
+### Latest implementation notes
+- Implemented per-cell race-aware naming by adding `Names.getBaseForCell(cell, cultureId)` and allowing `Names.getCulture` / `Names.getCultureShort` / `Names.getState` to accept an explicit `base`.
+- Updated burg/state/province generation + “regenerate name” UI actions to pass the per-cell base.
+- Added `syncCultureBasesToDominantRace()` (currently invoked from `assignRaces`) to keep `culture.base` aligned with the dominant race derived from `cells.race`.
+
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.
 - Cultures are managed by the **Cultures** tooling and apply to **cells**.

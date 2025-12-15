@@ -81,20 +81,23 @@ window.BurgsAndStates = (() => {
         // burgs data
         b.i = b.state = i;
         b.culture = cells.culture[b.cell];
-        const baseIndex = cultures[b.culture] && cultures[b.culture].base;
+        const baseIndex =
+          typeof Names.getBaseForCell === "function"
+            ? Names.getBaseForCell(b.cell, b.culture)
+            : cultures[b.culture] && cultures[b.culture].base;
         if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
           const range = Names.getUseCaseRange(baseIndex, "capital");
-          b.name = Names.getCulture(b.culture, range.min, range.max);
+          b.name = Names.getCulture(b.culture, range.min, range.max, undefined, baseIndex);
         } else {
-          b.name = Names.getCultureShort(b.culture);
+          b.name = Names.getCultureShort(b.culture, baseIndex);
         }
         b.feature = cells.f[b.cell];
         b.capital = 1;
 
         // states data
         const expansionism = rn(Math.random() * byId("sizeVariety").value + 1, 1);
-        const basename = b.name.length < 9 && each5th(b.cell) ? b.name : Names.getCultureShort(b.culture);
-        const name = Names.getState(basename, b.culture);
+        const basename = b.name.length < 9 && each5th(b.cell) ? b.name : Names.getCultureShort(b.culture, baseIndex);
+        const name = Names.getState(basename, b.culture, baseIndex);
         const type = cultures[b.culture].type;
 
         const coa = COA.generate(null, null, null, type);
@@ -145,12 +148,13 @@ window.BurgsAndStates = (() => {
           const burg = burgs.length;
           const culture = cells.culture[cell];
           let name;
-          const baseIndex = cultures[culture] && cultures[culture].base;
+          const baseIndex =
+            typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(cell, culture) : cultures[culture] && cultures[culture].base;
           if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
             const range = Names.getUseCaseRange(baseIndex, "town");
-            name = Names.getCulture(culture, range.min, range.max);
+            name = Names.getCulture(culture, range.min, range.max, undefined, baseIndex);
           } else {
-            name = Names.getCulture(culture);
+            name = Names.getCulture(culture, undefined, undefined, undefined, baseIndex);
           }
           burgs.push({cell, x, y, state: 0, i: burg, culture, name, capital: 0, feature: cells.f[cell]});
           burgsTree.add([x, y]);

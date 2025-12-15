@@ -539,8 +539,10 @@ function editProvinces() {
 
     function regenerateShortNameCulture() {
       const province = +provinceNameEditor.dataset.province;
-      const culture = pack.cells.culture[pack.provinces[province].center];
-      const name = Names.getState(Names.getCultureShort(culture), culture);
+      const center = pack.provinces[province].center;
+      const culture = pack.cells.culture[center];
+      const base = typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(center, culture) : undefined;
+      const name = Names.getState(Names.getCultureShort(culture, base), culture, base);
       byId("provinceNameEditorShort").value = name;
     }
 

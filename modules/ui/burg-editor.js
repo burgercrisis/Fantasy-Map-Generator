@@ -280,13 +280,15 @@ function editBurg(id) {
   function generateNameCulture() {
     const id = +elSelected.attr("data-id");
     const culture = pack.burgs[id].culture;
-    const baseIndex = pack.cultures[culture] && pack.cultures[culture].base;
+    const cell = pack.burgs[id].cell;
+    const baseIndex =
+      typeof Names.getBaseForCell === "function" ? Names.getBaseForCell(cell, culture) : pack.cultures[culture] && pack.cultures[culture].base;
     let name;
     if (typeof baseIndex === "number" && typeof Names.getUseCaseRange === "function") {
       const range = Names.getUseCaseRange(baseIndex, "town");
-      name = Names.getCulture(culture, range.min, range.max);
+      name = Names.getCulture(culture, range.min, range.max, undefined, baseIndex);
     } else {
-      name = Names.getCulture(culture);
+      name = Names.getCulture(culture, undefined, undefined, undefined, baseIndex);
     }
     burgName.value = name;
     changeName();
