@@ -121,9 +121,10 @@
       "workerId": 40,
       "target": "tools/mixer-meta/wikipedia-malayo-polynesian-oceanic-languages-blust-1999.json",
       "scope": "coverage_then_iso_bindings_then_missing_language_wiring",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T01:46:10Z",
-      "note": "Add explicit iso bindings for existing catalog entries and wire any remaining missing languages (catalog + mixer map)"
+      "finishedAt": "2025-12-15T04:01:46Z",
+      "note": "Added explicit iso bindings (eno, rejang, palauan, chamorro, kowiai, rotuman, yap) and marked 4 ambiguous items skip:true; list coverage now has 0 unmatched"
     },
     {
       "workerId": 39,
@@ -159,6 +160,15 @@
       "status": "in_progress",
       "startedAt": "2025-12-15T03:05:33Z",
       "note": "Batch4b base=132 pins (planned): zhire->1505, zhoa->1506, tadaksahak->1507"
+    },
+    {
+      "workerId": 41,
+      "target": "tools/mixer-meta/wikipedia-papuan-families-foley-2003.json",
+      "scope": "coverage_skip_annotations",
+      "status": "complete",
+      "startedAt": "2025-12-15T04:26:06Z",
+      "finishedAt": "2025-12-15T04:34:06Z",
+      "note": "Marked all family-level rows skip:true and refreshed DEVplans snapshot"
     }
   ]
 }

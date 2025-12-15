@@ -1278,14 +1278,14 @@
         "tuatschin",
         "vallader"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T03:09:32.316Z",
-      "updatedAt": "2025-12-15T04:11:10.347Z",
+      "updatedAt": "2025-12-15T05:03:29.415Z",
       "reservedRange": [
         1640,
         1689
       ],
-      "notes": "Reserved i range: 1640-1689\n\nPlanned ISO->base mapping:\n- surmiran->1640\n- sursilvan->1641\n- sutsilvan->1642\n- tuatschin->1643\n- vallader->1644\n\nReserved i range: 1640-1689. ISO->base mapping applied: surmiran->1640; sursilvan->1641; sutsilvan->1642; tuatschin->1643; vallader->1644. Delta pins file: tools/mixer-deltas/2025-12-15-worker63-romance-romansh-dialects.json"
+      "notes": "Reserved i range: 1640-1689\n\nISO->base mapping applied:\n- surmiran->1640\n- sursilvan->1641\n- sutsilvan->1642\n- tuatschin->1643\n- vallader->1644\n\nDelta pins file: tools/mixer-deltas/2025-12-15-worker63-romance-romansh-varieties.json\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos=surmiran,sursilvan,sutsilvan,tuatschin,vallader --limit=50 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nSeed uniqueness:\n- surmiran: strictUniqueSeeds=12, normUniqueSeeds=12\n- sursilvan: strictUniqueSeeds=12, normUniqueSeeds=12\n- sutsilvan: strictUniqueSeeds=12, normUniqueSeeds=12\n- tuatschin: strictUniqueSeeds=12, normUniqueSeeds=12\n- vallader: strictUniqueSeeds=12, normUniqueSeeds=12"
     },
     {
       "workerId": 66,
@@ -1303,7 +1303,7 @@
         1690,
         1739
       ],
-      "notes": "Fix missing mapping entries in config/language-mixer-map.json (coverage/failures: 4 missing). Plan: add dedicated bases + dedicatedPins delta + apply-deltas + verify.\n\nNO-OP: these ISOs already have mapping entries in config/language-mixer-map.json (mbq,yap,norfuk,pitkern) via existing delta tools/mixer-deltas/2025-12-15-wikipedia1-oceania-yap-mbq-norfuk-pitkern.json (bases 1550-1553). ReservedRange 1690-1739 not used; leaving claim as stalled to avoid rework."
+      "notes": "Fix missing mapping entries in config/language-mixer-map.json (coverage/failures: 4 missing). Plan: add dedicated bases + dedicatedPins delta + apply-deltas + verify.\n\nNO-OP: these ISOs already have mapping entries in config/language-mixer-map.json (mbq,yap,norfuk,pitkern) via existing delta tools/mixer-deltas/2025-12-15-wikipedia1-oceania-yap-mbq-norfuk-pitkern.json (bases 1554-1557). ReservedRange 1690-1739 not used; leaving claim as stalled to avoid rework."
     },
     {
       "workerId": 1,
@@ -1315,14 +1315,33 @@
         "swiss-italian",
         "tuscan"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T03:44:29.551Z",
-      "updatedAt": "2025-12-15T03:44:29.551Z",
+      "updatedAt": "2025-12-15T05:13:04.274Z",
       "reservedRange": [
         1754,
         1803
       ],
-      "notes": "Reserved i range: 1754-1803\nISO->base mapping (fill in):\n- spa->1754\n- standard-french->1755\n- standard-italian->1756\n- swiss-italian->1757\n- tuscan->1758"
+      "notes": "Reserved i range: 1754-1803\nISO->base mapping (fill in):\n- spa->1754\n- standard-french->1755\n- standard-italian->1756\n- swiss-italian->1757\n- tuscan->1758\n\nStarting implementation. Reserved i range: 1754-1803. Planned ISO->base: spa->1754; standard-french->1755; standard-italian->1756; swiss-italian->1757; tuscan->1758.\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker1-romance-standards.json and compiled with pnpm run mixer:apply-deltas): spa->1754; standard-french->1755; standard-italian->1756; swiss-italian->1757; tuscan->1758. Verification (/no-unique-base2): pnpm run mixer:guardrails; pnpm run mixer:apply-deltas; pnpm run mixer:check-deltas; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=spa standard-french standard-italian swiss-italian tuscan\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0); pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing); pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing); pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-15T05:15:37.506Z-worker2",
+      "isos": [
+        "southern-cilentan",
+        "tabarchino",
+        "talian",
+        "tetuani",
+        "transylvanian"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T05:15:37.506Z",
+      "updatedAt": "2025-12-15T07:09:18.817Z",
+      "reservedRange": [
+        1804,
+        1853
+      ],
+      "notes": "Reserved i range: 1804-1853\nISO->base mapping (fill in):\n- southern-cilentan->1804\n- tabarchino->1805\n- talian->1806\n- tetuani->1807\n- transylvanian->1808\n\nISO->base mapping applied (dedicated bases in modules/namebases-real.js; pins via tools/mixer-deltas/2025-12-15-worker2-romance.json; compiled via pnpm run mixer:apply-deltas):\\n- southern-cilentan->1804\\n- tabarchino->1805\\n- talian->1806\\n- tetuani->1807\\n- transylvanian->1808\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails (OK)\\n- pnpm run mixer:apply-deltas (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-isos='southern-cilentan,tabarchino,talian,tetuani,transylvanian' --limit=100 => uniqBase for all 5; strictUniqueSeeds=12; normUniqueSeeds=12; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)"
     }
   ]
 }

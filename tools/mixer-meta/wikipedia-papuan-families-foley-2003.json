@@ -2,16 +2,16 @@
   "title": "Wikipedia: Papuan language families - Foley (2003)",
   "source": "https://en.wikipedia.org/wiki/Papuan_languages",
   "items": [
-    { "name": "Lower Sepik-Ramu languages" },
-    { "name": "Middle Sepik languages" },
-    { "name": "Torricelli languages" },
-    { "name": "Sko languages" },
-    { "name": "Lakes Plain languages" },
-    { "name": "Cenderawasih Bay languages" },
-    { "name": "East Bird's Head languages" },
-    { "name": "West Bird's Head languages" },
-    { "name": "Marind languages" },
-    { "name": "North Bougainville languages" },
-    { "name": "South Bougainville languages" }
+    { "name": "Lower Sepik-Ramu languages", "skip": true },
+    { "name": "Middle Sepik languages", "skip": true },
+    { "name": "Torricelli languages", "skip": true },
+    { "name": "Sko languages", "skip": true },
+    { "name": "Lakes Plain languages", "skip": true },
+    { "name": "Cenderawasih Bay languages", "skip": true },
+    { "name": "East Bird's Head languages", "skip": true },
+    { "name": "West Bird's Head languages", "skip": true },
+    { "name": "Marind languages", "skip": true },
+    { "name": "North Bougainville languages", "skip": true },
+    { "name": "South Bougainville languages", "skip": true }
   ]
 }
