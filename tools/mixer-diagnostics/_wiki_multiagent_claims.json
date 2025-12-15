@@ -94,8 +94,10 @@
       "workerId": 37,
       "target": "tools/mixer-meta/wikipedia-languages-of-africa-full.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
-      "startedAt": "2025-12-15T00:03:46Z"
+      "status": "complete",
+      "startedAt": "2025-12-15T00:03:46Z",
+      "finishedAt": "2025-12-15T00:10:00Z",
+      "note": "Added dedicated bases 945-948 + delta dedicatedPins for baka,bube,saya-chadic,tamil; applied deltas; Africa list now has 0 clustered bases"
     },
     {
       "workerId": 38,

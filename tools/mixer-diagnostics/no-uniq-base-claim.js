@@ -6,6 +6,8 @@ const path = require("path");
 const root = path.resolve(__dirname, "..", "..");
 const claimsRelPath = "tools/mixer-diagnostics/_no_uniq_base_claims.json";
 const claimsPath = path.join(root, claimsRelPath);
+const claimsLockRelPath = "tools/mixer-diagnostics/_no_uniq_base_claims.lock";
+const claimsLockPath = path.join(root, claimsLockRelPath);
 
 function stripBom(s) {
   if (!s) return s;
@@ -28,6 +30,75 @@ function writeJsonNoBom(absPath, data) {
 function readClaimsOrInit(absPath) {
   if (!fs.existsSync(absPath)) return {version: 1, claims: []};
   return readJson(absPath);
+}
+
+function sleepSync(ms) {
+  const n = Number(ms);
+  if (!Number.isFinite(n) || n <= 0) return;
+  const end = Date.now() + n;
+  while (Date.now() < end) {}
+}
+
+function acquireLock(absPath, opts, lockInfo) {
+  const waitMs = opts && Number.isFinite(Number(opts.waitMs)) ? Number(opts.waitMs) : 30000;
+  const retryMs = opts && Number.isFinite(Number(opts.retryMs)) ? Number(opts.retryMs) : 200;
+  const staleMs = opts && Number.isFinite(Number(opts.staleMs)) ? Number(opts.staleMs) : 120000;
+  const forceLock = !!(opts && opts.forceLock);
+
+  const startedAt = Date.now();
+  const payload = Object.assign({pid: process.pid, createdAt: new Date().toISOString()}, lockInfo || {});
+  const lockText = JSON.stringify(payload) + "\n";
+
+  while (true) {
+    try {
+      const fd = fs.openSync(absPath, "wx");
+      fs.writeFileSync(fd, lockText, "utf8");
+      fs.closeSync(fd);
+      return;
+    } catch (err) {
+      if (!err || err.code !== "EEXIST") throw err;
+    }
+
+    let ageMs = 0;
+    try {
+      ageMs = Date.now() - fs.statSync(absPath).mtimeMs;
+    } catch (e) {
+      ageMs = 0;
+    }
+
+    if (Number.isFinite(staleMs) && staleMs > 0 && ageMs > staleMs) {
+      if (forceLock) {
+        try {
+          fs.unlinkSync(absPath);
+        } catch (e) {}
+        continue;
+      }
+      throw new Error(
+        `Claims lock appears stale: ${claimsLockRelPath} (ageMs=${Math.round(ageMs)}). Delete it or pass --forceLock`,
+      );
+    }
+
+    if (Date.now() - startedAt > waitMs) {
+      throw new Error(`Timed out waiting for claims lock: ${claimsLockRelPath}`);
+    }
+
+    sleepSync(retryMs);
+  }
+}
+
+function releaseLock(absPath) {
+  try {
+    fs.unlinkSync(absPath);
+  } catch (e) {}
+}
+
+function withLock(absPath, opts, lockInfo, fn) {
+  acquireLock(absPath, opts, lockInfo);
+  try {
+    return fn();
+  } finally {
+    releaseLock(absPath);
+  }
 }
 
 function parseArgs(argv) {
@@ -53,6 +124,48 @@ function toIsoList(v) {
     .split(/[,\s]+/)
     .map(s => s.trim())
     .filter(Boolean);
+}
+
+function getArgList(argv, name) {
+  let hitIndex = argv.findIndex(a => a.startsWith(name + "="));
+  let first = "";
+  let start = -1;
+
+  if (hitIndex !== -1) {
+    first = argv[hitIndex].slice(name.length + 1);
+    start = hitIndex + 1;
+  } else {
+    hitIndex = argv.findIndex(a => a === name);
+    if (hitIndex === -1) return [];
+    start = hitIndex + 1;
+    if (start < argv.length && argv[start] && !argv[start].startsWith("--")) {
+      first = argv[start];
+      start += 1;
+    }
+  }
+
+  const out = [];
+  if (first) out.push(first);
+  for (let i = start; i < argv.length; i++) {
+    const token = argv[i];
+    if (!token || token.startsWith("--")) break;
+    out.push(token);
+  }
+
+  return out;
+}
+
+function parseIsosFromArgv(argv) {
+  const repeated = argv
+    .filter(a => a.startsWith("--iso="))
+    .map(a => a.slice("--iso=".length))
+    .map(s => s.trim())
+    .filter(Boolean);
+  if (repeated.length) return repeated;
+
+  const parts = getArgList(argv, "--isos");
+  if (!parts.length) return [];
+  return toIsoList(parts.join(","));
 }
 
 function getMaxNamebaseIndex() {
@@ -124,7 +237,8 @@ function isoSetIntersects(a, b) {
 }
 
 function main() {
-  const args = parseArgs(process.argv.slice(2));
+  const argv = process.argv.slice(2);
+  const args = parseArgs(argv);
 
   if (args.help || args.h) {
     process.stdout.write(
@@ -153,7 +267,7 @@ function main() {
   const workerId = Number(args.workerId);
   if (!Number.isFinite(workerId)) throw new Error("--workerId is required and must be numeric");
 
-  const isos = toIsoList(args.isos);
+  const isos = parseIsosFromArgv(argv);
   if (!isos.length) throw new Error("--isos is required");
 
   const blockSize = args.blockSize ? Number(args.blockSize) : 50;

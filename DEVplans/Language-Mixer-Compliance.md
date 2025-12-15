@@ -14,6 +14,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Centralized multi-agent coordination in Memory Graph: added `Schema: Workstream Graph Relations v1` with explicit `depends_on` / `overlaps_with` / `blocks` (plus `reads` / `claims_write`) relations against shared hot-spot files so agents can query conflicts before editing.
 
+- 2025-12-14: Windsurf MCP config: pinned `@modelcontextprotocol/server-memory@0.6.3` and set npm env to `silent` / no update-notifier / no progress (stdout-safe) to prevent Memory MCP stdio JSON parse failures; requires MCP server restart to take effect.
+
 - Family macros (`tags: ["family"]`) are organizational entries:
   - they are expected to be skipped by the mixer UI and by “failure” checks
   - they are still required to have mappings (per `DEVplans/Language-Mixer-Rules.md`)
