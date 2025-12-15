@@ -18,6 +18,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - 2025-12-14: Added a read-only heuristic diagnostic to flag likely linguistically inconsistent `iso -> bases[]` mappings: `tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js`.
   - Typical run: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-linguistic-consistency.js --only-failures --skip-region --skip-tags=pidgin,creole,mixed --limit=40`
   - Current output summary (with `--skip-region`, ignoring `region=Misc`, and skipping `pidgin/creole/mixed` tagged entries): flags 84 catalog ISOs (heuristic mismatches)
+  - High-confidence pass (more strict): `--min-share=0.9 --min-uses=20` currently flags 0 ISOs
   - Examples observed in output: `canadian-french` includes base `254 (Kannada)`; `adnyamathanha` includes base `132 (Hausa)`; `piraha` includes base `388 (Kwaza-Xocó Amazonian)`
 
 - 2025-12-14: Repaired `tools/mixer-core/diff-language-families.js` to load the generated catalog from `globalThis.languageMixerCatalog` (current `config/language-mixes-all.js` export), unblocking `tools/mixer-core/run-language-mixer-health.js`.

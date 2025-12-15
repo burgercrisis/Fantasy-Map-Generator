@@ -1172,6 +1172,25 @@
         1389
       ],
       "notes": "Reserved i range: 1340-1389\n\nReserved i range: 1340-1389\n\nISO->base mapping applied (dedicated bases defined in modules/namebases-real.js; pins applied via tools/mixer-deltas/2025-12-15-worker61-romance.json and compiled with pnpm run mixer:apply-deltas):\n- quebec-french->1340\n- r-mois->1341\n- regional-italian->1342\n- ribagor-an->1343\n- riberan->1344\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=quebec-french r-mois regional-italian ribagor-an riberan\\ --limit=300 (No globally-unique base index: 0; strict failures: 0; norm failures: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (Missing mapping: 0)\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failures)\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nRemaining seed-uniqueness debt lines: none."
+    },
+    {
+      "workerId": 62,
+      "batchId": "2025-12-15T02:13:13.178Z-worker62",
+      "isos": [
+        "riojan",
+        "rioplatense-spanish",
+        "riunorese",
+        "romagnol",
+        "romanesco"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T02:13:13.178Z",
+      "updatedAt": "2025-12-15T02:16:53.946Z",
+      "reservedRange": [
+        1390,
+        1439
+      ],
+      "notes": "Reserved i range: 1390-1439"
     }
   ]
 }
