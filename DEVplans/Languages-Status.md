@@ -96,6 +96,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Uralic collisions / worker55):** pinned dedicated bases `935–944` for `bjarmian-finnic`, `proto-sami`, `forest-nenets`, `proto-finnic`, `southwestern-finnish`, `proto-uralic`, `proto-karelian`, `proto-permic`, `somero-region`, `j-mtland` (via `tools/mixer-deltas/2025-12-14-worker55-uralic-collisions.json`). Verified via `/no-unique-base2` commands: `mixer:guardrails`, `mixer:check-deltas`, seed-uniqueness `--only-failures` (0 `NO_UNIQ_BASE`, 0 strict/norm failures), `check-language-mixer-coverage` (0 missing), `check-language-mixer-failures` (0 failing), and `report-language-mixer-base-clusters --min-size=2`.
+
+
+
 - ✅ **2025-12-13 NO_UNIQ_BASE micro-pass (South Slavic BCS slice / worker15):** added dedicated bases `709–713` for `bosnian`, `croatian`, `montenegrin`, `srp`, `serbo-croatian` (appended in `config/language-mixer-map.json`). Verified via `run-language-mixer-suite` + `report-language-mixer-seed-uniqueness --only-failures "--only=bosnian,croatian,montenegrin,srp,serbo-croatian" --limit=120` that all report `uniqBase` (`strictOK`; `norm<10` still tracked debt for `bosnian`, `croatian`, `montenegrin`, `srp`).
 
 

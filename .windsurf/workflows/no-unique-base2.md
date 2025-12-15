@@ -59,6 +59,12 @@ Non-blocking quality goals (document as debt if you can’t hit them quickly):
    - Any remaining seed-uniqueness debt lines:
      - `iso: strictUniqueSeeds=X, normUniqueSeeds=Y`.
 
+If you need to create a new claim (instead of updating an existing one), use the helper:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=<NUM> --isos=<comma-separated batch isos> --status=in_progress
+```
+
 ## 2) Verify required invariants (required)
 
 Run:

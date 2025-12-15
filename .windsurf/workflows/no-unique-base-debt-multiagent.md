@@ -57,6 +57,16 @@ Path:
 
 - `tools/mixer-diagnostics/_no_uniq_base_claims.json`
 
+## Claim helper (recommended)
+
+Instead of editing the claims JSON by hand, use:
+
+```bash
+pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=<NUM> --isos=<comma-separated isos> --status=in_progress
+```
+
+This will append a claim entry, reserve the next available `i:` range, prevent ISO overlap with other `in_progress` claims, and write `_no_uniq_base_claims.json` as UTF-8 without BOM.
+
 If the file does not exist, create it with:
 
 ```json

@@ -25,6 +25,11 @@ function writeJsonNoBom(absPath, data) {
   fs.writeFileSync(absPath, s, "utf8");
 }
 
+function readClaimsOrInit(absPath) {
+  if (!fs.existsSync(absPath)) return {version: 1, claims: []};
+  return readJson(absPath);
+}
+
 function parseArgs(argv) {
   const out = {_: []};
   for (const a of argv) {
@@ -91,11 +96,15 @@ function getMaxReservedIndexFromClaims(claims) {
 
     if (typeof claim.notes !== "string") continue;
 
+    rxRange.lastIndex = 0;
+    rxMap.lastIndex = 0;
+
     let m;
     while ((m = rxRange.exec(claim.notes))) {
       const a = Number(m[1]);
       const b = Number(m[2]);
       if (!Number.isFinite(a) || !Number.isFinite(b)) continue;
+      if (b < a) continue;
       maxN = Math.max(maxN, a, b);
     }
     while ((m = rxMap.exec(claim.notes))) {
@@ -121,7 +130,7 @@ function main() {
     process.stdout.write(
       [
         "Usage:",
-        "  node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=54 --isos=parmigiano,pavese --status=in_progress --notes=...",
+        "  pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --workerId=54 --isos=parmigiano,pavese --status=in_progress --notes=...",
         "",
         "Args:",
         "  --workerId=NUM              Required",
@@ -155,13 +164,26 @@ function main() {
   const status = typeof args.status === "string" && args.status ? args.status : "in_progress";
   const notes = typeof args.notes === "string" ? args.notes : "";
 
-  const claims = readJson(claimsPath);
+  const claims = readClaimsOrInit(claimsPath);
   if (!claims || typeof claims !== "object") throw new Error("claims JSON is not an object");
+  if (!Number.isFinite(Number(claims.version))) claims.version = 1;
   if (!Array.isArray(claims.claims)) claims.claims = [];
 
   for (const c of claims.claims) {
-    if (!c || c.status !== "in_progress" || !Array.isArray(c.isos)) continue;
-    if (isoSetIntersects(isos, c.isos)) {
+    if (!c) continue;
+    if (c.batchId === batchId) {
+      throw new Error(`batchId already exists: ${batchId}`);
+    }
+  }
+
+  for (const c of claims.claims) {
+    if (!c || c.status !== "in_progress") continue;
+    if (Number(c.workerId) === workerId) {
+      throw new Error(`workerId=${workerId} already has an in_progress claim batchId=${c.batchId}`);
+    }
+
+    const claimedIsos = Array.isArray(c.isos) ? c.isos : [];
+    if (isoSetIntersects(isos, claimedIsos)) {
       throw new Error(`ISO overlap with existing in_progress claim workerId=${c.workerId} batchId=${c.batchId}`);
     }
   }

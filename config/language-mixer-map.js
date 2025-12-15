@@ -577,29 +577,33 @@
   {
     "iso": "northern-erzya",
     "bases": [
+      9,
       429,
-      9
+      1034
     ]
   },
   {
     "iso": "southeastern-erzya",
     "bases": [
+      9,
       429,
-      9
+      1035
     ]
   },
   {
     "iso": "western-erzya",
     "bases": [
+      283,
       429,
-      283
+      1036
     ]
   },
   {
     "iso": "shoksha",
     "bases": [
+      283,
       429,
-      283
+      1037
     ]
   },
   {
@@ -6693,7 +6697,8 @@
     "iso": "western-estonian",
     "bases": [
       9,
-      425
+      425,
+      1033
     ]
   },
   {
@@ -19641,7 +19646,8 @@
     "iso": "north-estonian",
     "bases": [
       9,
-      425
+      425,
+      1032
     ]
   },
   {
@@ -21230,7 +21236,8 @@
   {
     "iso": "tundra-nenets",
     "bases": [
-      525
+      525,
+      1031
     ]
   },
   {
@@ -23928,7 +23935,8 @@
   {
     "iso": "nenets",
     "bases": [
-      525
+      525,
+      1030
     ]
   },
   {

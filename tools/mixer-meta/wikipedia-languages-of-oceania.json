@@ -24,8 +24,8 @@
     { "name": "Pijin", "iso": "pijin" },
     { "name": "Samoan Plantation Pidgin", "iso": "samoan-plantation-pidgin" },
     { "name": "Hawaiian Pidgin", "iso": "hawaiian-pidgin" },
-    { "name": "Norfuk", "iso": "pih" },
-    { "name": "Pitkern", "iso": "pih" },
+    { "name": "Norfuk", "iso": "norfuk" },
+    { "name": "Pitkern", "iso": "pitkern" },
     { "name": "Unserdeutsch", "iso": "unserdeutsch" },
 
     { "name": "Mandarin", "iso": "mandarin" },

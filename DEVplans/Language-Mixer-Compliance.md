@@ -63,6 +63,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - `tools/HELPER-TOOLS.md` now includes prominent “DO NOT RUN IN MULTI-AGENT” warnings for scripts that rewrite the catalog/map.
   - Added `--multi-agent-safe` (read-only) mode to the suite fixer and key catalog/map updaters so they can be used for diagnostics without writing files.
 
+- ✅ 2025-12-14: Documented `tools/mixer-diagnostics/no-uniq-base-claim.js` in `tools/HELPER-TOOLS.md` as the preferred way to create `NO_UNIQ_BASE` claims (auto-reserves `i:` ranges, rejects ISO overlap with `in_progress` claims, and writes the claims log as UTF-8 without BOM).
+
 - Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
   - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)
   - In-progress batches: 1 (worker6)
