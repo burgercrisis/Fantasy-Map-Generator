@@ -36,7 +36,9 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - 2025-12-14: Multi-agent safety: `pnpm run mixer:apply-deltas` / `pnpm run mixer:check-deltas` now serialize via an atomic lock file (`tools/mixer-core/_apply-mixer-deltas.lock`, gitignored) to reduce multi-writer conflicts on generated mixer artifacts.
 
 - 2025-12-15: Team process decision: use a single integrator lane for high-churn language mixer files and regenerated artifacts (`modules/namebases-*.js`, `config/language-mixer-map.json`, `tools/mixer-deltas/_compiled-dedicated-pins.json`).
-  - Non-integrator work should be delivered as delta-only changes / proposals + claim notes; the integrator runs `pnpm run mixer:apply-deltas` and the verification gates.
+  - Non-integrator work should be delivered as delta-only changes / proposals + claim notes; the integrator runs `pnpm run mixer:apply-deltas` and the verification gates. See `.windsurf/workflows/single-integrator-lane.md`.
+
+- 2025-12-15: Documentation: canonical single-integrator lane workflow created and referenced from the relevant workflows and docs (`.windsurf/workflows/single-integrator-lane.md`).
 
 - 2025-12-15: Team process decision: `.windsurf/rules/languages-wiki.md` now encodes the single-integrator lane rule adjacent to `pnpm run mixer:apply-deltas`.
 
@@ -113,7 +115,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - ✅ 2025-12-14: Introduced a mixer “patch queue” (delta files) to reduce multi-worker conflicts on canonical mixer artifacts:
   - Workers can add small deltas under `tools/mixer-deltas/*.json`
   - Apply deltas with `pnpm run mixer:apply-deltas` (writes `config/language-mixer-map.json` + regenerates `config/language-mixer-map.js` deterministically)
-  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts.
+  - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts. See `.windsurf/workflows/single-integrator-lane.md`.
   - Dedicated-base pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json`, and loaded by `tools/mixer-core/fix-language-mixer-mappings.js`
 
 - ✅ 2025-12-14: Added multi-agent hardening for writer scripts:

@@ -1582,14 +1582,33 @@
         "aimele",
         "air-tamajeq-language"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T10:45:19.415Z",
-      "updatedAt": "2025-12-15T10:45:19.415Z",
+      "updatedAt": "2025-12-15T11:24:14.983Z",
       "reservedRange": [
         2469,
         2518
       ],
-      "notes": "Reserved i range: 2469-2518\nISO->base mapping (fill in):\n- ahr->2469\n- aht->2470\n- ai-cham->2471\n- aimele->2472\n- air-tamajeq-language->2473"
+      "notes": "Reserved i range: 2469-2518\nISO->base mapping (fill in):\n- ahr->2469\n- aht->2470\n- ai-cham->2471\n- aimele->2472\n- air-tamajeq-language->2473\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json; dedicated bases i:2469-2473 in modules/namebases-real.js): ahr->2469; aht->2470; ai-cham->2471; aimele->2472; air-tamajeq-language->2473. Verification (/no-unique-base2): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ahr,aht,ai-cham,aimele,air-tamajeq-language => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters: report-language-mixer-base-clusters --min-size=2 exit 0.\n\nReserved i range: 2469-2518; ISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json; dedicated bases i:2469-2473 in modules/namebases-real.js): ahr->2469; aht->2470; ai-cham->2471; aimele->2472; air-tamajeq-language->2473.\n\nISO->base mapping applied (pins via tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json; dedicated bases i:2469-2473 in modules/namebases-real.js): ahr->2469; aht->2470; ai-cham->2471; aimele->2472; air-tamajeq-language->2473. Verification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ahr,aht,ai-cham,aimele,air-tamajeq-language => Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0. Coverage:0 missing. Failures:0 failing. Base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T11:21:35.186Z-worker1",
+      "isos": [
+        "ais",
+        "ait-seghrouchen-berber",
+        "aiton",
+        "ajawa-language",
+        "akan"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-15T11:21:35.186Z",
+      "updatedAt": "2025-12-15T11:21:35.186Z",
+      "reservedRange": [
+        2519,
+        2568
+      ],
+      "notes": "Reserved i range: 2519-2568\nISO->base mapping (fill in):\n- ais->2519\n- ait-seghrouchen-berber->2520\n- aiton->2521\n- ajawa-language->2522\n- akan->2523"
     }
   ]
 }

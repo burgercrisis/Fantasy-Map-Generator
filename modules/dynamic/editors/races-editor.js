@@ -236,7 +236,7 @@ function racesEditorAddLines(stats) {
       <fill-box fill="${r.color || "#888888"}"></fill-box>
       <input data-tip="Race name. Click and type to change" class="raceName" style="width: 8em"
         value="${r.name}" autocorrect="off" spellcheck="false" />
-      <input data-tip="Race expansion factor. Multiplies culture expansionism when recalculating cultures" class="raceExpansion" style="width: 6em" type="number" min="0" max="99" step=".1" value="${expansionism}">
+      <input data-tip="Race expansion factor" class="raceExpansion" style="width: 6em" type="number" min="0" max="99" step=".1" value="${expansionism}">
       <div data-tip="Cells count" class="raceCells hide" style="width: 4em">${s.cells}</div>
       <div data-tip="Land area" class="raceArea hide" style="width: 6em">${si(area)} ${unit}</div>
       <div data-tip="${populationTip}" class="racePopulation hide" style="width: 7em">${si(population)}</div>

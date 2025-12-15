@@ -40,18 +40,15 @@
 - After migration, `culture.race` becomes:
   - either removed, or treated as deprecated/derived-only (implementation decision).
 
-## Open decisions (need user confirmation)
+## Decisions (confirmed)
 1) **Race expansionism impact on culture expansion**
-- Option A: keep impact (derive effective race per cell/culture via dominant race).
-- Option B: remove impact (culture expansionism independent).
+- Remove impact; culture expansionism is independent of race.
 
-2) **Race → language behavior**
-- Option A: keep race-specific language generation for race names only (no longer overwrite `culture.base`).
-- Option B: add an explicit action: “Sync culture language base to dominant race language”.
+2) **Race → culture language behavior**
+- Keep culture languages synced to the culture's dominant race (derived from `cells.race`), with no UI button.
 
 3) **Entity race fields (`state.race`, `burg.race`, `religion.race`, `province.race`)**
-- Option A: keep fields but compute from `cells.race` (dominant within entity territory).
-- Option B: deprecate/remove fields and compute on-demand.
+- Keep fields, but compute them from `cells.race` (dominant within the entity territory); deprecate later.
 
 ## Work plan (milestones)
 1) Inventory all code paths that read/write `culture.race` and `cells.race`.

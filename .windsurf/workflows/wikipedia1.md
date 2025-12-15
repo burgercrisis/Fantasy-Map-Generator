@@ -27,7 +27,7 @@ When wiring a batch, prefer this order to avoid suite failures and churn:
 3. Make edits (catalog + namebases + delta file under `tools/mixer-deltas/*.json`).
 4. Apply deltas (writes committed artifacts + regenerates bundles):
    - `pnpm run mixer:apply-deltas`
-   - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas` or regenerate committed artifacts; hand off the delta + notes to the integrator for apply + verification.
+   - Single-integrator lane: if you are not the integrator, do not run `pnpm run mixer:apply-deltas` or regenerate committed artifacts; hand off the delta + notes to the integrator for apply + verification. See `.windsurf/workflows/single-integrator-lane.md`.
 5. Re-run targeted uniqueness verification for just the batch:
    - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=<comma-separated batch isos> --limit=300`
 6. Run core checks:
@@ -124,7 +124,7 @@ For each target language from the queue:
     - `appendBases: { "iso": [<otherBases...>] }` for additional ingredients.
   - Apply with:
     - `pnpm run mixer:apply-deltas`
-    - Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself.
+    - Single-integrator lane: if you are not the integrator, stop here and hand off (delta file + notes + verification commands to run) instead of applying/regenerating artifacts yourself. See `.windsurf/workflows/single-integrator-lane.md`.
    - Avoid:
      - Collapsing onto unrelated macro hubs (e.g. generic English, Malay, Tok Pisin). Lexifiers can appear as **ingredients**, but identical shared `bases[]` arrays among distinct non-skipped languages are not allowed.
      - Using lexifier or macro-hub bases (e.g. English, Malay, Tok Pisin, major trade languages) as the **sole** `bases[]` array for more than one language; they should appear only as ingredients in otherwise unique mixes.

@@ -1164,13 +1164,7 @@ window.Cultures = (function () {
 
       const {type, expansionism} = culture;
       const baseExpansionism = expansionism || 1;
-      let effectiveExpansionism = baseExpansionism;
-
-      if (pack.races && culture.race) {
-        const race = pack.races[culture.race];
-        const raceExpansionism = race && race.expansionism ? race.expansionism : 1;
-        effectiveExpansionism = baseExpansionism * raceExpansionism || 1;
-      }
+      const effectiveExpansionism = baseExpansionism;
 
       cells.c[cellId].forEach(neibCellId => {
         if (hasLocked) {

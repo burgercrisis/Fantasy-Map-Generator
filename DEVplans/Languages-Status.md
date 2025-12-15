@@ -171,7 +171,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed dialect batch / worker3):** pinned dedicated bases `2169–2173` for `-azd-dialect`, `-ejtun-dialect`, `-sele`, `a-ou`, `abaga` (via `tools/mixer-deltas/2025-12-15-worker3-mixed-azd.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
-- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** dashboard shows `in_progress` claims: (none). Next suggested reserved range: `2469–2518` (suggestedWorkerId `1`).
+- **2025-12-15 NO_UNIQ_BASE2 coordination snapshot:** dashboard shows `in_progress` claims: (none). Next suggested reserved range: `2519–2568` (suggestedWorkerId `1`).
+
+
+- ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Global A4-batch / worker1):** pinned dedicated bases `2469–2473` for `ahr`, `aht`, `ai-cham`, `aimele`, `air-tamajeq-language` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-ahr.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` and artifacts regenerated via `pnpm run mixer:apply-deltas`.
 
 
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed A2-batch / worker1):** pinned dedicated bases `2419–2423` for `agarabi`, `agaw`, `aghu`, `agu`, `ahom` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-agarabi.json`). Verified via `/no-unique-base2` commands (0 `NO_UNIQ_BASE`, 0 strict/norm failures for the batch), coverage (0 missing), failures (0 failing), and base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
@@ -1646,6 +1649,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `bangi,bangolan,bomboli-bozaba,bomboma,boze,bozo,buu,dagaare,dagbani,djimini,doghose,dogoso,eton,evant,fongoro` to dedicated bases `2019–2033` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch2.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `207`.
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `fungor,fur,ghomala,gikuyu,goundo,gourmanche,gumuz,gwari,gyong,hakaona,hanga,saari,samwe,shwai,sighu` to dedicated bases `2034–2048` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch3.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `192`.
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `siwu,southeast-ijo,southern-birifor,susu,tagwana,talni,tikar,tiro,twi,vengo,viemo,viti,vori,voro,wali-ghana` to dedicated bases `2049–2063` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch4.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `175`.
+  - **2025-12-15 (prepared; pending integrator apply):** Prepared the remaining base `112/113` hub items by adding dedicated bases `2424–2434` in `modules/namebases-real.js` and pinning `wapan,weh,wushi,yemba,zande,yor,wannu,yalunka,yamba,yela-kela,yulu` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch5.json` (**not applied**). Verified via `node --check modules/namebases-real.js` and `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock`.
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
   - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
@@ -1782,7 +1786,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Coverage is now clean (`unmatched=0`, `missing both=0`) after marking unresolved items `skip:true` (pending research / canonical ISO keys and catalog/map wiring). Next work: reduce `Nonunique Bases` (currently `174`) via the NO_UNIQ_BASE workflow.
+- **Status update:** Coverage is **not yet clean** (`missing both=4`, `unmatched=24`, `skipped=23`). Next work: resolve the 4 `missing both` ISOs (`mzp`, `noj`, `oca`, `tna`) and continue burning down `unmatched` items via ISO bindings / wiring. Uniqueness debt remains high (`Nonunique Bases=203`).
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
