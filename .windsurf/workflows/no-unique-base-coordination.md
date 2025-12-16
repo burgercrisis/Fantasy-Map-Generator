@@ -37,9 +37,25 @@ Before claiming or editing any coordination files, run:
 pnpm exec -- node tools/mixer-diagnostics/claims-dashboard.js
 ```
 
+## 0b) Overlap discovery (Hub-first; read-only)
+
+If you need to confirm whether a file/scope is already being worked:
+
+- Prefer hub-routed ripgrep: `mcp5_hub_exec` target=`ripgrep` tool=`search` / `advanced-search`
+- Fallback to local tools: `code_search`, `grep_search`, `find_by_name`, `list_dir`, `read_file`, `read_notebook`
+
 ## 1) Workstream claim (Hub)
 
 Before editing any files, claim your workstream in the MCP Coordination Hub using:
+
+Check for existing work/claims first:
+
+- `mcp5_workstream_list` (scan active/paused workstreams)
+- `mcp5_workstream_get` (details)
+- `mcp5_decision_admin` (record decisions/evidence when needed)
+- `mcp5_time_now` (timestamps when needed)
+
+Then claim your workstream:
 
 - `mcp5_workstream_create` (or `mcp5_workstream_update` if resuming)
 
@@ -146,3 +162,18 @@ ISO->base mapping (fill in):
 - Reserve an `i:` range before creating any new base indices.
 - Only create new `i:` values inside your reserved range.
 - If you need more indices, reserve an additional contiguous block before using it and append that new range to your claim notes.
+
+# Other available Hub tools (FYI)
+
+These exist in the hub tool surface, but do not override the guardrails at the top of this file:
+
+- Coordination: `mcp5_lock_release`, `mcp5_workstream_update`, `mcp5_hub_admin` (tasks)
+- Discovery/search: `mcp5_hub_exec` (ripgrep), `mcp5_fast_context`
+- Read-only queries: `mcp5_sqlite_ro_query`
+- Security/analysis: `mcp5_sbom_cyclonedx_generate`, `mcp5_semgrep_exec` / `mcp5_semgrep_list_tools`, `mcp5_codeql_exec` / `mcp5_codeql_list_tools`
+- Browser automation: `mcp5_playwright_exec` / `mcp5_playwright_list_tools`, `mcp5_puppeteer_exec` / `mcp5_puppeteer_list_tools`
+- GitHub: `mcp5_github_read`, `mcp5_github_write` (write-enabled; treat as unsafe)
+- Docs/knowledge: `mcp5_hub_readme`, `mcp5_deepwiki_*` (only if repo is indexed)
+- Perf: `mcp5_perf_status`, `mcp5_perf_http_load_test` (env + allowlist gated; treat as unsafe)
+
+Note: `mcp5_git_read` exists, but this workflow’s “no git commands” guardrail still applies unless the user explicitly asks.

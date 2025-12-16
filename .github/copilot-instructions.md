@@ -10,6 +10,7 @@ Always reference these instructions first and fallback to search or bash command
 - Run the application using HTTP server (required - cannot run with file:// protocol):
   - `python3 -m http.server 8000` - takes 2-3 seconds to start
 - Access at: `http://localhost:8000`
+- Multi-agent language mixer coordination: see `DEVplans/Language-Mixer-Compliance.md` (hub workstreams + locks) and the workflows under `.windsurf/workflows/`.
 
 ## Validation
 

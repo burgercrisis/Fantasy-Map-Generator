@@ -35,6 +35,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-16: Propagated “Hub locks are the only single-writer enforcement mechanism” guidance across all `.windsurf/workflows/wikipedia*.md` workflows (including `wikipedia-exhaustive-multiagent.md`), so multi-agent writers are consistently instructed to lock before edits.
 
+- 2025-12-16: Documentation: recorded the broader MCP Coordination Hub tool surface (workstreams/locks/search/audit/perf) and constraints; added a global pointer in `.github/copilot-instructions.md`.
+
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
@@ -240,6 +242,17 @@ confirm:
 - Hub locks are the only single-writer enforcement mechanism. Repo-local claim logs do not prevent concurrent writes by themselves.
 - For `NO_UNIQ_BASE` / dedicated-base work, coordinate ISO batches via `tools/mixer-diagnostics/_no_uniq_base_claims.json` and the helper `tools/mixer-diagnostics/no-uniq-base-claim.js` (lock + UTF-8 no BOM; do not hand-edit claims JSON).
 - For implementation + verification, follow the relevant `.windsurf/workflows/*` file verbatim (no git, no paraphrasing); record the exact commands run in the workstream handoff.
+
+- Hub tool surface (MCP) quick reference (non-exhaustive):
+  - Coordination: `mcp5_workstream_list`, `mcp5_workstream_get`, `mcp5_workstream_create`, `mcp5_workstream_update`, `mcp5_lock_acquire`, `mcp5_lock_release`, `mcp5_decision_admin`, `mcp5_time_now`, `mcp5_hub_admin` (tasks)
+  - Overlap discovery: `mcp5_hub_exec` target=`ripgrep` tool=`search` / `advanced-search` (fallback: `code_search`, `grep_search`, `find_by_name`, `list_dir`, `read_file`, `read_notebook`)
+  - Read-only queries: `mcp5_sqlite_ro_query`, `mcp5_hub_readme`
+  - Security/analysis: `mcp5_sbom_cyclonedx_generate`, `mcp5_semgrep_exec` / `mcp5_semgrep_list_tools`, `mcp5_codeql_exec` / `mcp5_codeql_list_tools`
+  - Browser automation: `mcp5_playwright_exec` / `mcp5_playwright_list_tools`, `mcp5_puppeteer_exec` / `mcp5_puppeteer_list_tools`
+  - GitHub: `mcp5_github_read`, `mcp5_github_write` (write-enabled; treat as unsafe)
+  - Docs/knowledge: `mcp5_deepwiki_*` (only if repo is indexed)
+  - Perf: `mcp5_perf_status`, `mcp5_perf_http_load_test` (env + allowlist gated; treat as unsafe)
+  - Git: `mcp5_git_read` exists, but repo workflows generally prohibit git commands unless the user explicitly asks.
 
 ## Next audit targets
 
