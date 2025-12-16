@@ -154,6 +154,10 @@
   {name: "Ao (setBases aux)", i: 5413, min: 4, max: 11, d: "lnrt", m: 0, b: "ao_5413_unq1,ao_5413_unq2,ao_5413_unq3,ao_5413_unq4,ao_5413_unq5,ao_5413_unq6,ao_5413_unq7,ao_5413_unq8,ao_5413_unq9,ao_5413_unq10,ao_5413_unq11,ao_5413_unq12"},
   {name: "Aot (setBases aux)", i: 5414, min: 4, max: 11, d: "lnrt", m: 0, b: "aot_5414_unq1,aot_5414_unq2,aot_5414_unq3,aot_5414_unq4,aot_5414_unq5,aot_5414_unq6,aot_5414_unq7,aot_5414_unq8,aot_5414_unq9,aot_5414_unq10,aot_5414_unq11,aot_5414_unq12"},
   {name: "Aoz (setBases aux)", i: 5415, min: 4, max: 11, d: "lnrt", m: 0, b: "aoz_5415_unq1,aoz_5415_unq2,aoz_5415_unq3,aoz_5415_unq4,aoz_5415_unq5,aoz_5415_unq6,aoz_5415_unq7,aoz_5415_unq8,aoz_5415_unq9,aoz_5415_unq10,aoz_5415_unq11,aoz_5415_unq12"},
+
+  {name: "Hozo (dedicated)", i: 5369, min: 4, max: 11, d: "lnrt", m: 0, b: "hozo_unq1,hozo_unq2,hozo_unq3,hozo_unq4,hozo_unq5,hozo_unq6,hozo_unq7,hozo_unq8,hozo_unq9,hozo_unq10,hozo_unq11,hozo_unq12"},
+  {name: "Tulishi (dedicated)", i: 5370, min: 4, max: 11, d: "lnrt", m: 0, b: "tulishi_unq1,tulishi_unq2,tulishi_unq3,tulishi_unq4,tulishi_unq5,tulishi_unq6,tulishi_unq7,tulishi_unq8,tulishi_unq9,tulishi_unq10,tulishi_unq11,tulishi_unq12"},
+  {name: "Uduk (dedicated)", i: 5371, min: 4, max: 11, d: "lnrt", m: 0, b: "uduk_unq1,uduk_unq2,uduk_unq3,uduk_unq4,uduk_unq5,uduk_unq6,uduk_unq7,uduk_unq8,uduk_unq9,uduk_unq10,uduk_unq11,uduk_unq12"},
 ];
 
 if (typeof module !== "undefined" && module.exports) module.exports = window.creoleNameBases;

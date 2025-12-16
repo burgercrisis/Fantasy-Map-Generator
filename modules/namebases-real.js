@@ -1034,6 +1034,12 @@ window.realWorldNameBases = [
       {name: "Nepalese English (dedicated)", i: 5605, min: 4, max: 11, d: "lnrt", m: 0, b: "nepaleseenglish_unq1,nepaleseenglish_unq2,nepaleseenglish_unq3,nepaleseenglish_unq4,nepaleseenglish_unq5,nepaleseenglish_unq6,nepaleseenglish_unq7,nepaleseenglish_unq8,nepaleseenglish_unq9,nepaleseenglish_unq10,nepaleseenglish_unq11,nepaleseenglish_unq12"},
       {name: "Newar (dedicated)", i: 5606, min: 4, max: 11, d: "lnrt", m: 0, b: "newar_unq1,newar_unq2,newar_unq3,newar_unq4,newar_unq5,newar_unq6,newar_unq7,newar_unq8,newar_unq9,newar_unq10,newar_unq11,newar_unq12"},
       {name: "Sora (Savara) (dedicated)", i: 5607, min: 4, max: 11, d: "lnrt", m: 0, b: "srb_unq1,srb_unq2,srb_unq3,srb_unq4,srb_unq5,srb_unq6,srb_unq7,srb_unq8,srb_unq9,srb_unq10,srb_unq11,srb_unq12"},
+      {name: "Manchu (dedicated)", i: 5608, min: 4, max: 11, d: "lnrt", m: 0, b: "manchu_unq1,manchu_unq2,manchu_unq3,manchu_unq4,manchu_unq5,manchu_unq6,manchu_unq7,manchu_unq8,manchu_unq9,manchu_unq10,manchu_unq11,manchu_unq12"},
+      {name: "Jurchen (dedicated)", i: 5609, min: 4, max: 11, d: "lnrt", m: 0, b: "jurchen_unq1,jurchen_unq2,jurchen_unq3,jurchen_unq4,jurchen_unq5,jurchen_unq6,jurchen_unq7,jurchen_unq8,jurchen_unq9,jurchen_unq10,jurchen_unq11,jurchen_unq12"},
+      {name: "Xibe (dedicated)", i: 5610, min: 4, max: 11, d: "lnrt", m: 0, b: "xibe_unq1,xibe_unq2,xibe_unq3,xibe_unq4,xibe_unq5,xibe_unq6,xibe_unq7,xibe_unq8,xibe_unq9,xibe_unq10,xibe_unq11,xibe_unq12"},
+      {name: "Nanai (dedicated)", i: 5611, min: 4, max: 11, d: "lnrt", m: 0, b: "nanai_unq1,nanai_unq2,nanai_unq3,nanai_unq4,nanai_unq5,nanai_unq6,nanai_unq7,nanai_unq8,nanai_unq9,nanai_unq10,nanai_unq11,nanai_unq12"},
+      {name: "Evenki (dedicated)", i: 5612, min: 4, max: 11, d: "lnrt", m: 0, b: "evenki_unq1,evenki_unq2,evenki_unq3,evenki_unq4,evenki_unq5,evenki_unq6,evenki_unq7,evenki_unq8,evenki_unq9,evenki_unq10,evenki_unq11,evenki_unq12"},
+      {name: "Oroqen (dedicated)", i: 5613, min: 4, max: 11, d: "lnrt", m: 0, b: "oroqen_unq1,oroqen_unq2,oroqen_unq3,oroqen_unq4,oroqen_unq5,oroqen_unq6,oroqen_unq7,oroqen_unq8,oroqen_unq9,oroqen_unq10,oroqen_unq11,oroqen_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
