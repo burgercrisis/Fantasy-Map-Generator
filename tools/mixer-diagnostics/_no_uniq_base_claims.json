@@ -1772,14 +1772,33 @@
         "belizean-creole",
         "bocas-del-toro-creole"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T02:52:38.735Z",
-      "updatedAt": "2025-12-16T03:11:30.679Z",
+      "updatedAt": "2025-12-16T04:30:30.199Z",
       "reservedRange": [
         3169,
         3218
       ],
-      "notes": "Reserved i range: 3169-3218\nISO->base mapping (fill in):\n- anguillian-creole->3169\n- bahamian-creole->3170\n- bajan-creole->3171\n- belizean-creole->3172\n- bocas-del-toro-creole->3173\n\nDelta=tools/mixer-deltas/2025-12-16-worker2-mixed-anguillian-creole.json; baseDefs=modules/namebases-creole.js i:3169-3173; pins: anguillian-creole->3169 bahamian-creole->3170 bajan-creole->3171 belizean-creole->3172 bocas-del-toro-creole->3173"
+      "notes": "Reserved i range: 3169-3218\nISO->base mapping (fill in):\n- anguillian-creole->3169\n- bahamian-creole->3170\n- bajan-creole->3171\n- belizean-creole->3172\n- bocas-del-toro-creole->3173\n\nDelta=tools/mixer-deltas/2025-12-16-worker2-mixed-anguillian-creole.json; baseDefs=modules/namebases-creole.js i:3169-3173; pins: anguillian-creole->3169 bahamian-creole->3170 bajan-creole->3171 belizean-creole->3172 bocas-del-toro-creole->3173\n\nVERIFIED 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta tools/mixer-deltas/2025-12-16-worker2-mixed-anguillian-creole.json; base defs modules/namebases-creole.js i:3169-3173."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T04:43:48.880Z-worker1",
+      "isos": [
+        "angas",
+        "auyokawa-language",
+        "bade-language",
+        "barein-language",
+        "beele-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-16T04:43:48.880Z",
+      "updatedAt": "2025-12-16T04:48:57.620Z",
+      "reservedRange": [
+        3227,
+        3276
+      ],
+      "notes": "Reserved i range: 3227-3276\nISO->base mapping (fill in):\n- angas->3227\n- auyokawa-language->3228\n- bade-language->3229\n- barein-language->3230\n- beele-language->3231\n\nVerified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=angas,auyokawa-language,bade-language,barein-language,beele-language --limit=300 OK; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js OK; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 OK. ISO->base mapping: angas->3227; auyokawa-language->3228; bade-language->3229; barein-language->3230; beele-language->3231."
     }
   ]
 }

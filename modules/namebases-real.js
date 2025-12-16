@@ -903,6 +903,12 @@ window.realWorldNameBases = [
       {name: "Amharic (dedicated)", i: 3127, min: 4, max: 11, d: "lnrt", m: 0, b: "amharic_unq1,amharic_unq2,amharic_unq3,amharic_unq4,amharic_unq5,amharic_unq6,amharic_unq7,amharic_unq8,amharic_unq9,amharic_unq10,amharic_unq11,amharic_unq12"},
       {name: "Amharic-Argobba (dedicated)", i: 3128, min: 4, max: 11, d: "lnrt", m: 0, b: "amharicargobba_unq1,amharicargobba_unq2,amharicargobba_unq3,amharicargobba_unq4,amharicargobba_unq5,amharicargobba_unq6,amharicargobba_unq7,amharicargobba_unq8,amharicargobba_unq9,amharicargobba_unq10,amharicargobba_unq11,amharicargobba_unq12"},
 
+      {name: "Angas (dedicated)", i: 3227, min: 4, max: 11, d: "lnrt", m: 0, b: "angas_unq1,angas_unq2,angas_unq3,angas_unq4,angas_unq5,angas_unq6,angas_unq7,angas_unq8,angas_unq9,angas_unq10,angas_unq11,angas_unq12"},
+      {name: "Auyokawa language (dedicated)", i: 3228, min: 4, max: 11, d: "lnrt", m: 0, b: "auyokawalanguage_unq1,auyokawalanguage_unq2,auyokawalanguage_unq3,auyokawalanguage_unq4,auyokawalanguage_unq5,auyokawalanguage_unq6,auyokawalanguage_unq7,auyokawalanguage_unq8,auyokawalanguage_unq9,auyokawalanguage_unq10,auyokawalanguage_unq11,auyokawalanguage_unq12"},
+      {name: "Bade alias (dedicated)", i: 3229, min: 4, max: 11, d: "lnrt", m: 0, b: "badelanguage_unq1,badelanguage_unq2,badelanguage_unq3,badelanguage_unq4,badelanguage_unq5,badelanguage_unq6,badelanguage_unq7,badelanguage_unq8,badelanguage_unq9,badelanguage_unq10,badelanguage_unq11,badelanguage_unq12"},
+      {name: "Barein language (dedicated)", i: 3230, min: 4, max: 11, d: "lnrt", m: 0, b: "bareinlanguage_unq1,bareinlanguage_unq2,bareinlanguage_unq3,bareinlanguage_unq4,bareinlanguage_unq5,bareinlanguage_unq6,bareinlanguage_unq7,bareinlanguage_unq8,bareinlanguage_unq9,bareinlanguage_unq10,bareinlanguage_unq11,bareinlanguage_unq12"},
+      {name: "Beele language (dedicated)", i: 3231, min: 4, max: 11, d: "lnrt", m: 0, b: "beelelanguage_unq1,beelelanguage_unq2,beelelanguage_unq3,beelelanguage_unq4,beelelanguage_unq5,beelelanguage_unq6,beelelanguage_unq7,beelelanguage_unq8,beelelanguage_unq9,beelelanguage_unq10,beelelanguage_unq11,beelelanguage_unq12"},
+
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

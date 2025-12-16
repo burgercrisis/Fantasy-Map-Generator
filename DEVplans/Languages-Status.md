@@ -190,13 +190,16 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-15 NO_UNIQ_BASE2 micro-pass (Mixed Arafundi-Enga Pidgin + Aramaic batch / worker1):** pinned dedicated bases `2619–2623` for `arafundi-enga-pidgin`, `aramaic`, `aranadan`, `arawak`, `argobba` (via `tools/mixer-deltas/2025-12-15-worker1-mixed-arafundi-enga-pidgin.json`; base defs in `modules/namebases-real.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures` (`'--only-isos=arafundi-enga-pigin,aramaic,aranadan,arawak,argobba'`) => Target ISOs:0; Missing mapping:0; `NO_UNIQ_BASE`:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-16T00:15:43.786Z).
 
 
- - **2025-12-16 NO_UNIQ_BASE2 coordination snapshot:** in_progress=1 (per `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard`). Active: workerId=2 batchId=2025-12-16T02:52:38.735Z-worker2 reservedRange=3169–3218 isos=5 (`anguillian-creole`, `bahamian-creole`, `bajan-creole`, `belizean-creole`, `bocas-del-toro-creole`). Next suggested reserved range: 3227–3276 (suggestedWorkerId 1; maxUsedI 3226; maxReservedIndex 3218).
+ - **2025-12-16 NO_UNIQ_BASE2 coordination snapshot:** in_progress=0 (per `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard`). Active: none. Next suggested reserved range: 3227–3276 (suggestedWorkerId 1; maxUsedI 3226; maxReservedIndex 3218).
 
 
  - ✅ **2025-12-16 mixer:check-deltas unblock:** regenerated artifacts via `pnpm run mixer:apply-deltas`; re-verified `pnpm run mixer:check-deltas` OK.
 
 
  - ✅ **2025-12-16 NO_UNIQ_BASE2 micro-pass (Worker2 creoles / worker2):** pinned dedicated bases `3064–3068` for `ambonese-malay`, `american-indian-pidgin-english`, `andaman-creole-hindi`, `angolar-creole`, `annobonese-creole` (via `tools/mixer-deltas/2025-12-16-worker2-mixed-ambonese-malay.json`; base defs in `modules/namebases-creole.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures` (`"--only-isos=ambonese-malay,american-indian-pidgin-english,andaman-creole-hindi,angolar-creole,annobonese-creole"`) => Target ISOs:5; Missing mapping:0; `NO_UNIQ_BASE`:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-16T02:21:44.540Z).
+
+
+- ✅ **2025-12-16 NO_UNIQ_BASE2 micro-pass (Caribbean creoles / worker2):** pinned dedicated bases `3169–3173` for `anguillian-creole`, `bahamian-creole`, `bajan-creole`, `belizean-creole`, `bocas-del-toro-creole` (via `tools/mixer-deltas/2025-12-16-worker2-mixed-anguillian-creole.json`; base defs in `modules/namebases-creole.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures` (`"--only-isos=anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole"`) => Target ISOs:5; Missing mapping:0; `NO_UNIQ_BASE`:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-16T04:30:30.199Z).
 
 
 - ✅ **2025-12-16 NO_UNIQ_BASE2 micro-pass (Altai batch / worker1):** pinned dedicated bases `3005–3009` for `altai`, `altai-uriankhai`, `alu`, `aluku`, `alyutor` (via `tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json`; base defs in `modules/namebases-real.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures` (`'--only-isos=altai,altai-uriankhai,alu,aluku,alyutor'`) => Target ISOs:5; Missing mapping:0; `NO_UNIQ_BASE`:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-16T02:22:08.975Z).
@@ -484,6 +487,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-16 decluster-language-bases micro-pass (verified; bases=[86,87]):** applied delta `tools/mixer-deltas/2025-12-16-decluster-86-87-njh-nsm.json` to break the shared base-set for `njh` (Lotha) vs `nsm` (Sümi), both Naga: `njh->[86,88]`, `nsm->[87,89]` (avoids collisions with existing singleton [86]=`ao` and [87]=`angami-pochuri`/`njm`). Verified via `pnpm run mixer:guardrails` (OK), `pnpm run mixer:apply-deltas` (wrote `config/language-mixer-map.json`), `report-language-mixer-base-clusters.js --min-size=2 --include-families` (exit 0), `check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0), and direct check that `bases=[86,87]` has 0 hits; decluster claim `batchId=2025-12-16T02:02:42.733Z-worker1` marked `complete`.
+
+
+
+- ✅ **2025-12-16 decluster-language-bases micro-pass (verified; bases=[305]):** applied delta `tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json` to break the shared base-set for `west-greenlandic-pidgin` (Pidgin) vs `greenlandic-lang` (Eskimo-Aleut): `west-greenlandic-pidgin->[1,305]` (English+Greenlandic contact flavor), leaving `greenlandic-lang->[305]` as the sole remaining holder. Verified via `pnpm run mixer:guardrails` (OK), `pnpm run mixer:apply-deltas` (wrote `config/language-mixer-map.json`), `report-language-mixer-base-clusters.js --min-size=2 --include-families` (exit 0), `check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0), and direct check that `bases=[305]` cluster size is now 1 (greenlandic-lang only); decluster claim `batchId=2025-12-16T03:27:03.897Z-worker1` marked `complete`.
 
 - [1. Infrastructure status](#1-infrastructure-status)
 
@@ -1574,6 +1581,8 @@ The following families / regions have **not yet received a full pass** for home-
 
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T02:24:41.984Z-worker1 reservedRange=3119-3168 isos=[amdo-tibetan,amf,amh,amharic,amharic-argobba] status=complete.
 
+**2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-16T02:52:38.735Z-worker2 reservedRange=3169-3218 isos=[anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole] status=complete.
+
  - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`; delta `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`).
  - 2025-12-15: NO_UNIQ_BASE claims dashboard shows `in_progress=0` (nextReservedRange `2569–2618`).
 
@@ -2237,6 +2246,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - ✅ **2025-12-15 Nepal census uniqueness batch4 (applied + verified):** delta `tools/mixer-deltas/2025-12-15-wikipedia1-nepal-census-batch4.json` (dedicatedPins `ncd,pum,raa,raq,vay` -> `i:2920–2924`); base defs already in `modules/namebases-real.js` (`i:2920–2924`); verified `pnpm run mixer:guardrails` (OK), `pnpm run mixer:apply-deltas` (wrote `config/language-mixer-map.json` + `tools/mixer-deltas/_compiled-dedicated-pins.json`), `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock` (OK), and seed-uniqueness for `ncd,pum,raa,raq,vay` => Missing mapping: 0; No globally-unique base index: 0.
 
+- ✅ **2025-12-16 Nepal census uniqueness batch5 (applied + verified):** delta `tools/mixer-deltas/2025-12-16-wikipedia1-nepal-census-batch5.json` (dedicatedPins `chx,ghale,kzq,nmm,npa` -> `i:2925–2929`); base defs in `modules/namebases-fantasy.js` (`i:2925–2929`); verified `pnpm run mixer:apply-deltas` (OK), `pnpm run mixer:check-deltas` (OK), and seed-uniqueness for `chx,ghale,kzq,nmm,npa` => Missing mapping: 0; No globally-unique base index: 0.
+
 ### 8.17 Languages of Pakistan – established languages table
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-pakistan-established.json`
@@ -2337,6 +2348,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (named-language subset)** – this helper exists to ensure that languages mentioned only in classification trees are still represented as normal coverage items.
 
+- **2025-12-16 status:** Pinned dedicated bases for `eno,kowiai,rejang,jav,mad,chamorro,palauan,rotuman` via `tools/mixer-deltas/2025-12-16-wikipedia1-blust-1999-batch1.json`; verified `Nonunique Bases: 0` (coverage + base-uniqueness, `--no-devplan`).
+
 - **Snapshot from last run (considered items only):**
   - `fully wired:` 10 (100.0%)
   - `missing catalog:` 0
@@ -2345,7 +2358,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 4
-  - `Nonunique Bases:` 8
+  - `Nonunique Bases:` 0
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 10

@@ -13,6 +13,7 @@
 - Updated Races Editor statistics to use `cells.race` as the authoritative source for cell/area/population/culture counts when present (fallback to culture-derived when missing).
 - Decision (for now): keep Races Editor “Recalculate” behavior as-is (it may reshape cultures via `initializeRacesForExpansion` + `Cultures.expand` and then refresh derived race fields).
 - Decision (for now): keep `culture.race` as a legacy/cached field (avoid breaking older maps / remaining call sites), but do not treat it as authoritative when `cells.race` is present.
+ - 2025-12-15: Restarted local dev server for testing: `py -m http.server 3000` (http://localhost:3000).
 
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.
