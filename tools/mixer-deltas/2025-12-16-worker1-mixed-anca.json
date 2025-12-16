@@ -1,6 +1,4 @@
 {
-  "name": "2025-12-16 worker1 mixed anca",
-  "kind": "NO_UNIQ_BASE2",
   "dedicatedPins": {
     "anca": 3944,
     "ancient-egyptian": 3945,

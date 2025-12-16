@@ -1848,14 +1848,33 @@
         "aneme-wake",
         "angaataha"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T08:14:29.868Z",
-      "updatedAt": "2025-12-16T08:14:29.868Z",
+      "updatedAt": "2025-12-16T08:28:52.983Z",
       "reservedRange": [
         3944,
         3993
       ],
-      "notes": "Reserved i range: 3944-3993\nISO->base mapping (fill in):\n- anca->3944\n- ancient-egyptian->3945\n- ancient-north-arabian->3946\n- aneme-wake->3947\n- angaataha->3948"
+      "notes": "Reserved i range: 3944-3993\nISO->base mapping (fill in):\n- anca->3944\n- ancient-egyptian->3945\n- ancient-north-arabian->3946\n- aneme-wake->3947\n- angaataha->3948\n\nDelta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-anca.json\nDedicated base defs: modules/namebases-creole.js i:3944-3948\nISO->base:\n- anca->3944\n- ancient-egyptian->3945\n- ancient-north-arabian->3946\n- aneme-wake->3947\n- angaataha->3948\nVerification 2025-12-16:\n- pnpm run mixer:guardrails OK\n- pnpm run mixer:apply-deltas OK (wrote config/language-mixer-map.json and tools/mixer-deltas/_compiled-dedicated-pins.json)\n- pnpm run mixer:check-deltas OK\n- seed-uniqueness: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only=anca ancient-egyptian ancient-north-arabian aneme-wake angaataha\\ --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0\n- coverage: 0 missing\n- failures: 0 failing\n- base-clusters --min-size=2 exit 0\n\nISO->base: anca->3944; ancient-egyptian->3945; ancient-north-arabian->3946; aneme-wake->3947; angaataha->3948 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-failures --only-isos=anca,ancient-egyptian,ancient-north-arabian,aneme-wake,angaataha => Missing mapping:0; No globally-unique base index:0; strict/norm failures:0 | coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0\n\nReserved i range: 3944-3993\n\nISO->base: anca->3944; ancient-egyptian->3945; ancient-north-arabian->3946; aneme-wake->3947; angaataha->3948 | delta=tools/mixer-deltas/2025-12-16-worker1-mixed-anca.json | baseDefs: modules/namebases-real.js i:3944-3948 | Verified: guardrails OK; check-deltas OK; seed-uniqueness OK; coverage OK; failures OK; base-clusters exit 0"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-16T08:21:42.288Z-worker2",
+      "isos": [
+        "angami-pochuri",
+        "ani",
+        "ankave",
+        "ano",
+        "anp"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T08:21:42.288Z",
+      "updatedAt": "2025-12-16T08:21:42.288Z",
+      "reservedRange": [
+        3994,
+        4043
+      ],
+      "notes": "Reserved i range: 3994-4043\nISO->base mapping (fill in):\n- angami-pochuri->3994\n- ani->3995\n- ankave->3996\n- ano->3997\n- anp->3998"
     }
   ]
 }

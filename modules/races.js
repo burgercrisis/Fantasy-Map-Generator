@@ -608,6 +608,20 @@ function getRaceMixerBaseDisplayName(raceName) {
   return `Race ${raceName} (Mixer)`;
 }
 
+function isBadRaceMixerDisplayName(displayName, raceName) {
+  if (!displayName || typeof displayName !== "string") return false;
+  if (!raceName) return false;
+  const trimmed = displayName.trimEnd();
+  const suffix = `(${raceName})`;
+  if (!trimmed.endsWith(suffix)) return false;
+  const prefix = trimmed.slice(0, trimmed.length - suffix.length).trim();
+  if (!prefix) return true;
+  if (prefix.length < 5) return true;
+  if (/\s/.test(prefix)) return true;
+  if (/english/i.test(prefix)) return true;
+  return false;
+}
+
 function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   if (!raceName) return "";
   if (!isoWeights || typeof isoWeights !== "object") return "";
@@ -730,7 +744,22 @@ function buildRaceMixerLanguageDisplayName(raceName, isoWeights, options) {
   }
 
   if (!name || name.length < 2) return "";
-  return `${name} (${raceName})`;
+
+  const prefix = String(name || "").trim();
+  if (prefix.length < 5) return "";
+  if (/\s/.test(prefix)) return "";
+  if (/english/i.test(prefix)) return "";
+  if (prefix.length < 7) {
+    const prefixLower = prefix.toLowerCase();
+    for (const src of sources) {
+      const sName = src && src.name ? String(src.name).trim() : "";
+      if (!sName) continue;
+      const sLower = sName.toLowerCase();
+      if (sLower.startsWith(prefixLower) || prefixLower.startsWith(sLower)) return "";
+    }
+  }
+
+  return `${prefix} (${raceName})`;
 }
 
 function hashStringToUint32(value) {
@@ -869,7 +898,11 @@ function ensureRaceMixerBaseIndex(raceName, options) {
       }
     }
 
-    if (base && typeof base.name === "string" && base.name === getRaceMixerBaseDisplayName(raceName)) {
+    if (
+      base &&
+      typeof base.name === "string" &&
+      (base.name === getRaceMixerBaseDisplayName(raceName) || isBadRaceMixerDisplayName(base.name, raceName))
+    ) {
       const fallbackIsoWeights = getFallbackRaceMixerIsoWeights();
       const primaryIsoWeights = getRaceLanguageIsoWeights(raceName);
       const isoWeights = primaryIsoWeights || fallbackIsoWeights;
@@ -877,7 +910,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
       const seedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer-name`;
       const nameSeed = hashStringToUint32(seedSource);
       const display = buildRaceMixerLanguageDisplayName(raceName, isoWeights, {seed: nameSeed});
-      if (display) base.name = display;
+      base.name = display || getRaceMixerBaseDisplayName(raceName);
     }
 
     return existing;
@@ -936,7 +969,11 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   const nameSeedSource = `${typeof seed === "string" ? seed : ""}|${raceName}|race-mixer-name`;
   const nameSeed = hashStringToUint32(nameSeedSource);
   const displayName = buildRaceMixerLanguageDisplayName(raceName, isoWeights, {seed: nameSeed});
-  nameBases.push({name: displayName || getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b, raceMixerFor: raceName});
+  if (displayName && !isBadRaceMixerDisplayName(displayName, raceName)) {
+    nameBases.push({name: displayName, min, max, d: "", m: 0, b, raceMixerFor: raceName});
+  } else {
+    nameBases.push({name: getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b, raceMixerFor: raceName});
+  }
   return baseIndex;
 }
 

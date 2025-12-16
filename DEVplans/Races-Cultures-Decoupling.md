@@ -15,6 +15,7 @@
 - Decision (for now): keep `culture.race` as a legacy/cached field (avoid breaking older maps / remaining call sites), but do not treat it as authoritative when `cells.race` is present.
  - 2025-12-15: Restarted local dev server for testing: `py -m http.server 3000` (http://localhost:3000).
  - 2025-12-16: Fixed legacy race mixer bases named like `English (Hexblood)` to be detected and auto-refreshed (even without explicit refresh) so old saves don’t keep single-language/unmixed seed blobs.
+ - 2025-12-16: Cultures Editor namesbase display: replaced `removed` with a clearer missing-label and hardened race-mixer display-name generation to avoid awkward labels like `Swis` / `Campi English` (fallback to `Race <Race> (Mixer)`).
 
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.

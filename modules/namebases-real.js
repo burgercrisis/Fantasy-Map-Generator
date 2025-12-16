@@ -967,6 +967,12 @@ window.realWorldNameBases = [
       {name: "V\u00f5ro (dedicated)", i: 3338, min: 4, max: 11, d: "lnrt", m: 0, b: "vro_unq1,vro_unq2,vro_unq3,vro_unq4,vro_unq5,vro_unq6,vro_unq7,vro_unq8,vro_unq9,vro_unq10,vro_unq11,vro_unq12"},
       {name: "Votic (dedicated)", i: 3339, min: 4, max: 11, d: "lnrt", m: 0, b: "votic_unq1,votic_unq2,votic_unq3,votic_unq4,votic_unq5,votic_unq6,votic_unq7,votic_unq8,votic_unq9,votic_unq10,votic_unq11,votic_unq12"},
 
+      {name: "Anca (dedicated)", i: 3944, min: 4, max: 11, d: "lnrt", m: 0, b: "anca_unq1,anca_unq2,anca_unq3,anca_unq4,anca_unq5,anca_unq6,anca_unq7,anca_unq8,anca_unq9,anca_unq10,anca_unq11,anca_unq12"},
+      {name: "Ancient Egyptian (dedicated)", i: 3945, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientegyptian_unq1,ancientegyptian_unq2,ancientegyptian_unq3,ancientegyptian_unq4,ancientegyptian_unq5,ancientegyptian_unq6,ancientegyptian_unq7,ancientegyptian_unq8,ancientegyptian_unq9,ancientegyptian_unq10,ancientegyptian_unq11,ancientegyptian_unq12"},
+      {name: "Ancient North Arabian (dedicated)", i: 3946, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientnortharabian_unq1,ancientnortharabian_unq2,ancientnortharabian_unq3,ancientnortharabian_unq4,ancientnortharabian_unq5,ancientnortharabian_unq6,ancientnortharabian_unq7,ancientnortharabian_unq8,ancientnortharabian_unq9,ancientnortharabian_unq10,ancientnortharabian_unq11,ancientnortharabian_unq12"},
+      {name: "Aneme-Wake (dedicated)", i: 3947, min: 4, max: 11, d: "lnrt", m: 0, b: "anemewake_unq1,anemewake_unq2,anemewake_unq3,anemewake_unq4,anemewake_unq5,anemewake_unq6,anemewake_unq7,anemewake_unq8,anemewake_unq9,anemewake_unq10,anemewake_unq11,anemewake_unq12"},
+      {name: "Angaataha (dedicated)", i: 3948, min: 4, max: 11, d: "lnrt", m: 0, b: "angaataha_unq1,angaataha_unq2,angaataha_unq3,angaataha_unq4,angaataha_unq5,angaataha_unq6,angaataha_unq7,angaataha_unq8,angaataha_unq9,angaataha_unq10,angaataha_unq11,angaataha_unq12"},
+
 
     ];
 
