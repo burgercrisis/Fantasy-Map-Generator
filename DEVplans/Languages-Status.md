@@ -196,6 +196,9 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
  - ✅ **2025-12-16 mixer:check-deltas unblock:** regenerated artifacts via `pnpm run mixer:apply-deltas`; re-verified `pnpm run mixer:check-deltas` OK.
 
 
+ - ✅ **2025-12-16 integrator artifacts refresh:** ran `pnpm run mixer:apply-deltas` (wrote `config/language-mixer-map.json` and `tools/mixer-deltas/_compiled-dedicated-pins.js`), then ran `pnpm run mixer:check-deltas` => OK.
+
+
  - ✅ **2025-12-16 NO_UNIQ_BASE2 micro-pass (Worker2 creoles / worker2):** pinned dedicated bases `3064–3068` for `ambonese-malay`, `american-indian-pidgin-english`, `andaman-creole-hindi`, `angolar-creole`, `annobonese-creole` (via `tools/mixer-deltas/2025-12-16-worker2-mixed-ambonese-malay.json`; base defs in `modules/namebases-creole.js`). Verified via `/no-unique-base2` commands: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures` (`"--only-isos=ambonese-malay,american-indian-pidgin-english,andaman-creole-hindi,angolar-creole,annobonese-creole"`) => Target ISOs:5; Missing mapping:0; `NO_UNIQ_BASE`:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters report (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json` (updatedAt=2025-12-16T02:21:44.540Z).
 
 
@@ -1584,6 +1587,10 @@ The following families / regions have **not yet received a full pass** for home-
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-16T02:52:38.735Z-worker2 reservedRange=3169-3218 isos=[anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole] status=complete.
 
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T04:43:48.880Z-worker1 reservedRange=3227-3276 isos=[angas,auyokawa-language,bade-language,barein-language,beele-language] status=complete. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=angas,auyokawa-language,bade-language,barein-language,beele-language --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK.
+
+**2025-12-16**: /language-uniqueness batch staged: tools/mixer-deltas/2025-12-16-language-uniqueness-batch2-free3129.json (dedicatedPins lower-inva=3129; kte=3130; brx=3131; dhimal=3132; proto-karenic=3133). UPDATE: prior guardrails blocker (duplicate `i:2015–2026` across `modules/namebases-real.js` and `modules/namebases-creole.js`) resolved by renumbering the creole definitions to `i:3282–3293`; `pnpm run mixer:guardrails` OK. Next: re-run `pnpm run mixer:check-deltas` to confirm unblocked / artifacts status.
+
+**2025-12-16**: UPDATE: `pnpm run mixer:check-deltas` is still failing (non-guardrails): `apply-mixer-deltas.js --check` reports artifacts out of date vs deltas (`tools/mixer-deltas/_compiled-dedicated-pins.json` and `config/language-mixer-map.json` / `config/language-mixer-map.js`). Next: run `pnpm run mixer:apply-deltas` (integrator lane) and then re-run `pnpm run mixer:check-deltas`.
 
  - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`; delta `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`).
  - 2025-12-15: NO_UNIQ_BASE claims dashboard shows `in_progress=0` (nextReservedRange `2569–2618`).
