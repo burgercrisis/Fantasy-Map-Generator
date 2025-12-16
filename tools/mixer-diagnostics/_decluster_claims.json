@@ -69,6 +69,27 @@
       "startedAt": "2025-12-15T23:58:56.734Z",
       "updatedAt": "2025-12-16T00:08:02.864Z",
       "notes": "Decluster bases=[5,314,316] collision: podlachian (East Slavic) vs polabian (Lechitic). Base names: 5=Slavic, 314=Lechitic, 316=South Slavic BCS; additional bases: 315=Czech-Slovak, 373=Ukrainian. Plan: delta setBases podlachian->[5,314,373], polabian->[5,314,315]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete.\n\n\\nVERIFIED: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json. Diagnostics: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: bases=[5,314,316] hits=0; podlachian bases=[5,314,373]; polabian bases=[5,314,315]."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T01:45:31.191Z-worker1",
+      "basesKey": "186,187",
+      "bases": [
+        186,
+        187
+      ],
+      "isos": [
+        "wiyot",
+        "broken-oghibbeway"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-16T01:45:31.191Z",
+      "updatedAt": "2025-12-16T01:56:23.906Z",
+      "notes": "Decluster bases=[186,187] collision: wiyot (Algic) vs broken-oghibbeway (Pidgin). Base names: 186=Cree, 187=Ojibwe (from modules/namebases-fantasy.js); 1=English (from modules/namebases-real.js). Plan: delta setBases broken-oghibbeway->[1,187] (English+Ojibwe pidgin flavor) leaving wiyot as sole [186,187]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete.\n\n\\nVERIFIED: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json. Diagnostics: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: broken-oghibbeway bases=[1,187]; wiyot bases=[186,187]; bases=[186,187] cluster size now 1 (wiyot only).",
+      "reservedRange": [
+        3055,
+        3056
+      ]
     }
   ]
 }

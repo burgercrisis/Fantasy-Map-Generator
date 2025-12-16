@@ -17,6 +17,8 @@ You are Cascade, working on the Fantasy-Map-Generator language mixer.
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-meta/*.json`, `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 ## Diagnostic-first worker loop (required)
 
 When wiring a batch, prefer this order to avoid suite failures and churn:

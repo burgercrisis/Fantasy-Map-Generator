@@ -257,10 +257,11 @@
       "workerId": 6,
       "target": "tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T22:40:43.359Z",
-      "updatedAt": "2025-12-15T22:40:43.359Z",
-      "note": "/wikipedia1 continue: Oceania (workerId=4) and West Asia (workerId=5) are already in_progress; claiming China spoken languages to avoid overlap. Next: coverage + base-uniqueness/nonunique-bases + race coverage, then wire next 3–7."
+      "updatedAt": "2025-12-16T01:56:29.943Z",
+      "note": "/wikipedia1 continue: Oceania (workerId=4) and West Asia (workerId=5) are already in_progress; claiming China spoken languages to avoid overlap. Next: coverage + base-uniqueness/nonunique-bases + race coverage, then wire next 3–7.\n\n2025-12-15 /wikipedia1: China spoken languages batch1 (Mandarin dialects) verified. Applied deltas + verified: seed-uniqueness Target ISOs=5; coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies exit 0. List Nonunique Bases reduced 152->146.",
+      "finishedAt": "2025-12-16T01:56:29.943Z"
     },
     {
       "workerId": 7,

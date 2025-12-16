@@ -17,6 +17,8 @@ Use this workflow when you want to **break up a specific shared-base cluster** i
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
+ Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 Verification order (diagnostic-first):
 
 - Run `pnpm run mixer:guardrails` early (before suite).

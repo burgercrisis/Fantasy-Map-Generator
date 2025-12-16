@@ -1,6 +1,6 @@
 "use strict";
 
-window.creoleNameBases = [
+  window.creoleNameBases = [
   {name: "West African English Creole", i: 307, min: 4, max: 12, d: "lnrt", m: 0, b: "Freetown,Bo,Kenema,Koindu,Waterloo,Port Loko,Makeni,Koidu,Monrovia,Buchanan,Gbarnga,Harper,Robertsport,Paynesville,Clara Town,New Kru Town,Lagos,Port Harcourt,Warri,Benin City,Calabar,Accra,Tema,Sekondi,Takoradi,Koforidua,Tamale,Kumasi"},
   {name: "Caribbean English Creole", i: 308, min: 4, max: 12, d: "lnrt", m: 0, b: "Bridgetown,Speightstown,Holetown,Oistins,Castries,Soufriere,Vieux Fort,Kingstown,Georgetown,Barrouallie,Roseau,Portsmouth,St Johns,All Saints,Piggotts,The Valley,Charlestown,Philipsburg,Marigot,Basseterre,Charlestown Nevis,St Georges,Grenville,Scarborough,Port of Spain,San Fernando,Arima"},
   {name: "Pacific English Creole", i: 309, min: 4, max: 12, d: "lnrt", m: 0, b: "Port Vila,Luganville,Isangel,Sola,Lenakel,Honiara,Auki,Gizo,Noro,Tulaghi,Suva,Lautoka,Nadi,Labasa,Savusavu,Apia,Vaitele,Faleula,Pago Pago,Nuku'alofa,Neiafu,Funafuti,Vaitupu,Majuro,Kwajalein,Tarawa,Bairiki"},
@@ -78,10 +78,15 @@ window.creoleNameBases = [
   {name: "Hawaiian Pidgin (dedicated)", i: 2682, min: 4, max: 12, d: "lnrt", m: 0, b: "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Koloa,Kona,Waimea,Hana,Paia,Mililani,Ewa Beach"},
   {name: "Samoan Plantation Pidgin (dedicated)", i: 2683, min: 4, max: 12, d: "lnrt", m: 0, b: "Apia,Vaitele,Faleula,Leulumoega,Lalomanu,Mulifanua,Salelologa,Safotu,Savai'i,Upolu,Pago Pago,Fagatogo,Tafuna,Leone,Aua,Ofu,Olosega,Ta'u"},
   {name: "Alchuka (dedicated)", i: 2769, min: 4, max: 11, d: "lnrt", m: 0, b: "alchuka_unq1,alchuka_unq2,alchuka_unq3,alchuka_unq4,alchuka_unq5,alchuka_unq6,alchuka_unq7,alchuka_unq8,alchuka_unq9,alchuka_unq10,alchuka_unq11,alchuka_unq12"},
-  {name: "Central Plains Mandarin (dedicated)", i: 3000, min: 4, max: 11, d: "lnrt", m: 0, b: "central-plains-mandarin_unq1,central-plains-mandarin_unq2,central-plains-mandarin_unq3,central-plains-mandarin_unq4,central-plains-mandarin_unq5,central-plains-mandarin_unq6,central-plains-mandarin_unq7,central-plains-mandarin_unq8,central-plains-mandarin_unq9,central-plains-mandarin_unq10,central-plains-mandarin_unq11,central-plains-mandarin_unq12"},
-  {name: "Lan-Yin Mandarin (dedicated)", i: 3001, min: 4, max: 11, d: "lnrt", m: 0, b: "lan-yin-mandarin_unq1,lan-yin-mandarin_unq2,lan-yin-mandarin_unq3,lan-yin-mandarin_unq4,lan-yin-mandarin_unq5,lan-yin-mandarin_unq6,lan-yin-mandarin_unq7,lan-yin-mandarin_unq8,lan-yin-mandarin_unq9,lan-yin-mandarin_unq10,lan-yin-mandarin_unq11,lan-yin-mandarin_unq12"},
-  {name: "Northeastern Mandarin (dedicated)", i: 3002, min: 4, max: 11, d: "lnrt", m: 0, b: "northeastern-mandarin_unq1,northeastern-mandarin_unq2,northeastern-mandarin_unq3,northeastern-mandarin_unq4,northeastern-mandarin_unq5,northeastern-mandarin_unq6,northeastern-mandarin_unq7,northeastern-mandarin_unq8,northeastern-mandarin_unq9,northeastern-mandarin_unq10,northeastern-mandarin_unq11,northeastern-mandarin_unq12"},
-  {name: "Southwestern Mandarin (dedicated)", i: 3003, min: 4, max: 11, d: "lnrt", m: 0, b: "southwestern-mandarin_unq1,southwestern-mandarin_unq2,southwestern-mandarin_unq3,southwestern-mandarin_unq4,southwestern-mandarin_unq5,southwestern-mandarin_unq6,southwestern-mandarin_unq7,southwestern-mandarin_unq8,southwestern-mandarin_unq9,southwestern-mandarin_unq10,southwestern-mandarin_unq11,southwestern-mandarin_unq12"},
-  {name: "Lower Yangtze Mandarin (dedicated)", i: 3004, min: 4, max: 11, d: "lnrt", m: 0, b: "lower-yangtze-mandarin_unq1,lower-yangtze-mandarin_unq2,lower-yangtze-mandarin_unq3,lower-yangtze-mandarin_unq4,lower-yangtze-mandarin_unq5,lower-yangtze-mandarin_unq6,lower-yangtze-mandarin_unq7,lower-yangtze-mandarin_unq8,lower-yangtze-mandarin_unq9,lower-yangtze-mandarin_unq10,lower-yangtze-mandarin_unq11,lower-yangtze-mandarin_unq12"},
+ 
+  {name: "Indonesian (dedicated)", i: 3055, min: 4, max: 12, d: "lnrt", m: 0, b: "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Depok,Bekasi,Tangerang,Yogyakarta,Denpasar"},
+  {name: "Tagalog (dedicated)", i: 3056, min: 4, max: 12, d: "lnrt", m: 0, b: "Manila,Quezon City,Caloocan,Makati,Pasig,Taguig,Marikina,Antipolo,Cavite,Laguna,Batangas,Bulacan"},
+  {name: "Filipino (dedicated)", i: 3057, min: 4, max: 12, d: "lnrt", m: 0, b: "Philippines,Luzon,Visayas,Mindanao,Cebu,Davao,Iloilo,Baguio,Bacolod,Cagayan de Oro,Zamboanga,General Santos"},
+  {name: "Māori (dedicated)", i: 3058, min: 4, max: 12, d: "lnrt", m: 0, b: "Auckland,Wellington,Christchurch,Dunedin,Rotorua,Hamilton NZ,Tauranga,Gisborne,Whangarei,Napier,Whanganui,Invercargill"},
+  {name: "Hawaiian (dedicated)", i: 3059, min: 4, max: 12, d: "lnrt", m: 0, b: "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Kona"},
+  {name: "Mandarin (dedicated)", i: 3060, min: 4, max: 12, d: "lnrt", m: 0, b: "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Chongqing,Nanjing,Tianjin,Wuhan,Hangzhou,Xian,Shenyang"},
+  {name: "Cantonese (dedicated)", i: 3061, min: 4, max: 12, d: "lnrt", m: 0, b: "Guangzhou,Hong Kong,Macau,Foshan,Zhongshan,Zhuhai,Shenzhen,Dongguan,Jiangmen,Huizhou,Taishan,Zhaoqing"},
+  {name: "Greek (dedicated)", i: 3062, min: 4, max: 12, d: "lnrt", m: 0, b: "Athens,Thessaloniki,Patras,Heraklion,Larissa,Volos,Ioannina,Chania,Rhodes,Corfu,Kalamata,Nicosia"},
+  {name: "Japanese (dedicated)", i: 3063, min: 4, max: 12, d: "lnrt", m: 0, b: "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Sapporo,Fukuoka,Kobe,Hiroshima,Sendai,Kagoshima,Naha"},
   
-];
+  ];

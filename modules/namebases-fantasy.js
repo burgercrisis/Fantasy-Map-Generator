@@ -317,5 +317,11 @@ window.fantasyNameBases = [
       {name: "Sampang (dedicated)", i: 2911, min: 4, max: 11, d: "lnrt", m: 0, b: "rav_unq1,rav_unq2,rav_unq3,rav_unq4,rav_unq5,rav_unq6,rav_unq7,rav_unq8,rav_unq9,rav_unq10,rav_unq11,rav_unq12"},
       {name: "Sunuwar (dedicated)", i: 2912, min: 4, max: 11, d: "lnrt", m: 0, b: "suz_unq1,suz_unq2,suz_unq3,suz_unq4,suz_unq5,suz_unq6,suz_unq7,suz_unq8,suz_unq9,suz_unq10,suz_unq11,suz_unq12"},
       {name: "Thulung (dedicated)", i: 2913, min: 4, max: 11, d: "lnrt", m: 0, b: "tdh_unq1,tdh_unq2,tdh_unq3,tdh_unq4,tdh_unq5,tdh_unq6,tdh_unq7,tdh_unq8,tdh_unq9,tdh_unq10,tdh_unq11,tdh_unq12"},
-      {name: "Yamphu/Yamphe (dedicated)", i: 2914, min: 4, max: 11, d: "lnrt", m: 0, b: "ybi_unq1,ybi_unq2,ybi_unq3,ybi_unq4,ybi_unq5,ybi_unq6,ybi_unq7,ybi_unq8,ybi_unq9,ybi_unq10,ybi_unq11,ybi_unq12"}
+      {name: "Yamphu/Yamphe (dedicated)", i: 2914, min: 4, max: 11, d: "lnrt", m: 0, b: "ybi_unq1,ybi_unq2,ybi_unq3,ybi_unq4,ybi_unq5,ybi_unq6,ybi_unq7,ybi_unq8,ybi_unq9,ybi_unq10,ybi_unq11,ybi_unq12"},
+
+      {name: "Chhiling (dedicated)", i: 2915, min: 4, max: 11, d: "lnrt", m: 0, b: "cur_unq1,cur_unq2,cur_unq3,cur_unq4,cur_unq5,cur_unq6,cur_unq7,cur_unq8,cur_unq9,cur_unq10,cur_unq11,cur_unq12"},
+      {name: "Mewahang (dedicated)", i: 2916, min: 4, max: 11, d: "lnrt", m: 0, b: "emg_unq1,emg_unq2,emg_unq3,emg_unq4,emg_unq5,emg_unq6,emg_unq7,emg_unq8,emg_unq9,emg_unq10,emg_unq11,emg_unq12"},
+      {name: "Jero/Jerung (dedicated)", i: 2917, min: 4, max: 11, d: "lnrt", m: 0, b: "jee_unq1,jee_unq2,jee_unq3,jee_unq4,jee_unq5,jee_unq6,jee_unq7,jee_unq8,jee_unq9,jee_unq10,jee_unq11,jee_unq12"},
+      {name: "Yakthung/Limbu (dedicated)", i: 2918, min: 4, max: 11, d: "lnrt", m: 0, b: "lif_unq1,lif_unq2,lif_unq3,lif_unq4,lif_unq5,lif_unq6,lif_unq7,lif_unq8,lif_unq9,lif_unq10,lif_unq11,lif_unq12"},
+      {name: "Lohorung (dedicated)", i: 2919, min: 4, max: 11, d: "lnrt", m: 0, b: "lrr_unq1,lrr_unq2,lrr_unq3,lrr_unq4,lrr_unq5,lrr_unq6,lrr_unq7,lrr_unq8,lrr_unq9,lrr_unq10,lrr_unq11,lrr_unq12"}
 ];

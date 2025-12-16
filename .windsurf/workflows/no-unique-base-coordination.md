@@ -56,6 +56,8 @@ Before touching any claimed file/scope, acquire a hub lock using:
 
 - `mcp5_lock_acquire` with a stable resource string like `file:<repo-relative-path>` or `scope:<subsystem>`
 
+Hub locks are the **only single-writer enforcement mechanism**. The repo-local claims log below is coordination metadata (ISO batching + reserved ranges + notes) and does not prevent concurrent writes by itself.
+
 ## 2) Shared claims log
 
 Path:
@@ -64,7 +66,7 @@ Path:
 
 Status semantics:
 
-- `in_progress` locks ISOs (other agents must not claim or edit those ISOs)
+- `in_progress` marks ISOs as reserved for coordination (other agents must not claim or work those ISOs)
 - `complete` does not lock ISOs
 - `stalled` does not lock ISOs (treat as released; preserve as history)
 

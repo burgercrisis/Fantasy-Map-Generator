@@ -15,6 +15,8 @@ auto_execution_mode: 0
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 Use this workflow together with `/wikipedia1` when working on the **Languages of Africa – full table snapshot** list.
 
 Must preserve append-only registry; never delete ISOs.
@@ -23,5 +25,4 @@ Must preserve append-only registry; never delete ISOs.
 2. Follow the `/wikipedia1` workflow exactly, but scoped to this list:
    - Use the coverage helpers against this JSON.
    - For each non-skipped item, bring it all the way to **catalog entry + mixer-map entry + globally unique `bases[]` + race reachability** in the same pass.
-   - Re-run `update-wikipedia-list-coverage-in-devplan.js` for this JSON to refresh §8.1b in `DEVplans/Languages-Status.md`.
 3. When I say `continue`, pick the **next batch of not-yet-full (coverage) African languages** from this list (grouped by family/region where possible) and repeat.

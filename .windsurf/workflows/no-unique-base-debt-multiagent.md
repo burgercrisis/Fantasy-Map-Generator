@@ -54,6 +54,8 @@ Use a shared claim log so multiple agents don’t work the same ISO(s).
 
 See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
 
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/namebases-*.js`, `tools/mixer-deltas/*.json`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 ## Shared log file
 
 Path:

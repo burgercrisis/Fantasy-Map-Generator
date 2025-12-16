@@ -18,7 +18,9 @@ You are Cascade working on the Fantasy-Map-Generator language mixer.
 
 This workflow is a **reusable “verification + handoff” checklist** for multi-agent `NO_UNIQ_BASE` burn-down work.
 
- See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
+See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
+
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/namebases-*.js`, `tools/mixer-deltas/*.json`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 If you are marked `in_progress` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`, run this workflow for your claim **before** you mark it complete.
 

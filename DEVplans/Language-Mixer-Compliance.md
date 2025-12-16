@@ -15,7 +15,7 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
 
-- 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-free coordination (no `mcp-coordination-hub`); each agent must claim scope via the relevant repo-local claims file(s) (or a status-only `/DEVplans/**/*.md` note) before edits, then mark it done with verification evidence + handoff notes; ISO-level coordination continues via `tools/mixer-diagnostics/_no_uniq_base_claims.json` (use `tools/mixer-diagnostics/no-uniq-base-claim.js`, do not hand-edit the JSON).
+- 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-first coordination via MCP Coordination Hub workstreams + hub locks; hub locks are the only single-writer enforcement mechanism. Repo-local claim logs remain coordination metadata (batching + reserved ranges + notes).
 
 - 2025-12-15: Updated `.windsurf/workflows/no-unique-base-coordination.md` to reference MCP Coordination Hub workstream + lock tools (`mcp5_workstream_*`, `mcp5_lock_*`) instead of legacy MCP Memory tooling.
 
@@ -38,6 +38,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 - 2025-12-15: Unblocked uniqueness diagnostics by fixing a transient JS syntax error in `modules/namebases-real.js` (was crashing `report-language-mixer-seed-uniqueness`). Verified via `node --check modules/namebases-real.js` and `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300`.
 
 - 2025-12-15: Verified `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock` is clean, and confirmed `modules/namebases-real.js` contains dedicated base definitions for indices `2369–2373`.
+
+- 2025-12-15: Fixed `mixer:guardrails` failure by removing duplicate `i:2900–2904` base entries and a stray markdown fence from `modules/namebases-real.js`; verified `pnpm run mixer:guardrails` and `pnpm run mixer:check-deltas` are passing.
 
 - 2025-12-15: Added decluster coordination artifacts for shared `bases[]` collision work:
   - claim log: `tools/mixer-diagnostics/_decluster_claims.json` (UTF-8 no BOM)
@@ -106,15 +108,15 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
     - Strict unique seeds below threshold (among those with unique base): 6
     - Normalized unique seeds below threshold (among those with unique base): 93
 
-- ✅ Routine checks wiring:
+- Routine checks wiring:
   - The seed-uniqueness report command is now listed in the routine/quick checks sections of `Language-Mixer-Rules.md`, `Languages-Status.md`, and `Races-Languages-Rules.md`.
 
-- ✅ Multi-agent workflow:
+- Multi-agent workflow:
   - `.windsurf/workflows/no-unique-base-debt-multiagent.md`
 
-- ✅ 2025-12-14: Updated `.windsurf/workflows/no-unique-base2.md` verification checklist to run `pnpm run mixer:guardrails` (catches duplicate `i:` collisions and other guardrails early).
+- 2025-12-14: Updated `.windsurf/workflows/no-unique-base2.md` verification checklist to run `pnpm run mixer:guardrails` (catches duplicate `i:` collisions and other guardrails early).
 
-- ✅ 2025-12-14: Multi-agent merge-conflict mitigation for `modules/namebases-*.js`: require per-worker reserved `i:` index ranges recorded in `tools/mixer-diagnostics/_no_uniq_base_claims.json` claim `notes` (workflow + rules doc enforcement).
+- 2025-12-14: Multi-agent merge-conflict mitigation for `modules/namebases-*.js`: require per-worker reserved `i:` index ranges recorded in `tools/mixer-diagnostics/_no_uniq_base_claims.json` claim `notes` (workflow + rules doc enforcement).
   - Reservation scheme: reserve the next available contiguous block above current usage / already-reserved ranges:
     - `start = 1 + max(maxUsedI, maxReservedEndI)`
     - default `end = start + 49`
@@ -123,24 +125,24 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
     - `.windsurf/workflows/no-unique-base2.md`
     - `DEVplans/Language-Mixer-Rules.md`
 
-- ✅ 2025-12-14: Introduced a mixer “patch queue” (delta files) to reduce multi-worker conflicts on canonical mixer artifacts:
+- 2025-12-14: Introduced a mixer “patch queue” (delta files) to reduce multi-worker conflicts on canonical mixer artifacts:
   - Workers can add small deltas under `tools/mixer-deltas/*.json`
   - Apply deltas with `pnpm run mixer:apply-deltas` (writes `config/language-mixer-map.json` + regenerates `config/language-mixer-map.js` deterministically)
   - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts. See `.windsurf/workflows/single-integrator-lane.md`.
   - Dedicated-base pins are compiled into `tools/mixer-deltas/_compiled-dedicated-pins.json`, and loaded by `tools/mixer-core/fix-language-mixer-mappings.js`
 
-- ✅ 2025-12-14: Added multi-agent hardening for writer scripts:
+- 2025-12-14: Added multi-agent hardening for writer scripts:
   - `tools/HELPER-TOOLS.md` now includes prominent “DO NOT RUN IN MULTI-AGENT” warnings for scripts that rewrite the catalog/map.
   - Added `--multi-agent-safe` (read-only) mode to the suite fixer and key catalog/map updaters so they can be used for diagnostics without writing files.
 
-- ✅ 2025-12-14: Documented `tools/mixer-diagnostics/no-uniq-base-claim.js` in `tools/HELPER-TOOLS.md` as the preferred way to create `NO_UNIQ_BASE` claims (auto-reserves `i:` ranges, rejects ISO overlap with `in_progress` claims, and writes the claims log as UTF-8 without BOM). Workflows now reference it (`.windsurf/workflows/no-unique-base-debt-multiagent.md`, `.windsurf/workflows/no-unique-base2.md`), and the helper was hardened to prevent duplicate `workerId` `in_progress` claims and to initialize the claims file if missing.
+- 2025-12-14: Documented `tools/mixer-diagnostics/no-uniq-base-claim.js` in `tools/HELPER-TOOLS.md` as the preferred way to create `NO_UNIQ_BASE` claims (auto-reserves `i:` ranges, rejects ISO overlap with `in_progress` claims, and writes the claims log as UTF-8 without BOM). Workflows now reference it (`.windsurf/workflows/no-unique-base-debt-multiagent.md`, `.windsurf/workflows/no-unique-base2.md`), and the helper was hardened to prevent duplicate `workerId` `in_progress` claims and to initialize the claims file if missing.
 
-- ✅ 2025-12-15: Hardened `tools/mixer-diagnostics/no-uniq-base-claim.js` for multi-agent safety:
+- 2025-12-15: Hardened `tools/mixer-diagnostics/no-uniq-base-claim.js` for multi-agent safety:
   - Atomic lock file (`tools/mixer-diagnostics/_no_uniq_base_claims.lock`) to serialize claim-log writes
   - `--update` mode to safely update `status` / `notes` / `updatedAt` without manual JSON edits
   - PowerShell-safe ISO passing (`--isos=...` split across argv tokens; repeatable `--iso=...`)
 
-- ✅ 2025-12-15: Added a read-only `NO_UNIQ_BASE` batch picker helper (`tools/mixer-diagnostics/list-no-uniq-base-candidates.js`) and wired it into `.windsurf/workflows/no-unique-base-debt-multiagent.md` to standardize multi-agent batch selection (with optional category/family/region filters and claim-based exclusion).
+- 2025-12-15: Added a read-only `NO_UNIQ_BASE` batch picker helper (`tools/mixer-diagnostics/list-no-uniq-base-candidates.js`) and wired it into `.windsurf/workflows/no-unique-base-debt-multiagent.md` to standardize multi-agent batch selection (with optional category/family/region filters and claim-based exclusion).
 
 - Multi-agent NO_UNIQ_BASE progress snapshot (claims log, 2025-12-13):
   - Completed batches: 8 (worker1 x3, worker2 x2, worker3 x1, worker4 x1, worker5 x1)
@@ -148,31 +150,31 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Stalled batches: 1 (worker1; superseded by later completed claim)
   - Dedicated base indices added/wired in this pass include: 539–563, 567–596, 597–601
 
-- ✅ 2025-12-13: Additional completed NO_UNIQ_BASE mini-batches added dedicated bases 602–769 (see `_no_uniq_base_claims.json`), including the Romance batch `workerId: 24` (acadian->765, aeolian->766, african-romance->767, alentejan->768, algherese->769).
+- 2025-12-13: Additional completed NO_UNIQ_BASE mini-batches added dedicated bases 602–769 (see `_no_uniq_base_claims.json`), including the Romance batch `workerId: 24` (acadian->765, aeolian->766, african-romance->767, alentejan->768, algherese->769).
 
-- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 25` completed (ancona->770, andalusi-romance->771, andalusian->772, ans-->773, aretino-chianaiolo->774).
+- 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 25` completed (ancona->770, andalusi-romance->771, andalusian->772, ans-->773, aretino-chianaiolo->774).
 
-- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 26` completed (argentinian-spanish->775, arpitan->776, asturian->777, auvergnat->778, balearic->779).
+- 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 26` completed (argentinian-spanish->775, arpitan->776, asturian->777, auvergnat->778, balearic->779).
 
-- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 27` completed (banat->780, barranquenho->781, benasquese->782, bercian->783, bergamasque->784).
+- 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 27` completed (banat->780, barranquenho->781, benasquese->782, bercian->783, bergamasque->784).
 
-- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 28` completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
+- 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 28` completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
 
-- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 29` completed (brigasc->790, british-latin->791, bukovinian->792, canz-s->793, central-northern-lazian->794).
+- 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 29` completed (brigasc->790, british-latin->791, bukovinian->792, canz-s->793, central-northern-lazian->794).
 
-- ✅ 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 30` completed (cheso->795, chiac->796, chilean-spanish->797, chilote->798, chipilo->799).
+- 2025-12-13: Romance NO_UNIQ_BASE batch `workerId: 30` completed (cheso->795, chiac->796, chilean-spanish->797, chilote->798, chipilo->799).
 
-- ✅ 2025-12-14: Repaired `tools/mixer-diagnostics/_no_uniq_base_claims.json` encoding (removed UTF-8 BOM) so Node `JSON.parse` succeeds; verified `workerId: 30` claim is `complete`.
+- 2025-12-14: Repaired `tools/mixer-diagnostics/_no_uniq_base_claims.json` encoding (removed UTF-8 BOM) so Node `JSON.parse` succeeds; verified `workerId: 30` claim is `complete`.
 
-- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 31` completed (colombian-spanish->800, comasco-lecchese->801, corsican->802, cremish->803, cremun-s->804). Follow-up: appended ISO-unique seed tokens to bases 800 and 802; normalized seed-uniqueness debt cleared.
+- 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 31` completed (colombian-spanish->800, comasco-lecchese->801, corsican->802, cremish->803, cremun-s->804). Follow-up: appended ISO-unique seed tokens to bases 800 and 802; normalized seed-uniqueness debt cleared.
 
-- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 28` (recovered wiring) completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
+- 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 28` (recovered wiring) completed (bolivian-spanish->785, bolognese->786, brayon->787, brazilian-portuguese->788, brianz-->789).
 
-- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 32` completed (cri-ana->805, daco-romanian->806, dalmatian->807, eastern-aragonese->808, eastern-catalan->809). Note: suite mapping rewrite required preserving eastern-aragonese dedicated base via `explicitIsoDedicatedBaseMap`.
+- 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 32` completed (cri-ana->805, daco-romanian->806, dalmatian->807, eastern-aragonese->808, eastern-catalan->809). Note: suite mapping rewrite required preserving eastern-aragonese dedicated base via `explicitIsoDedicatedBaseMap`.
 
-- ✅ 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 33` completed (ennese->822, eonavian->823, equatoguinean-spanish->824, estremenho->825, european-portuguese->826). Verified via `run-language-mixer-suite --no-wiki-devplan` and `report-language-mixer-seed-uniqueness --only-failures` that each has a globally-unique base index (normalized unique seeds below threshold remains tracked debt for ennese, estremenho, european-portuguese).
+- 2025-12-14: Romance NO_UNIQ_BASE batch `workerId: 33` completed (ennese->822, eonavian->823, equatoguinean-spanish->824, estremenho->825, european-portuguese->826). Verified via `run-language-mixer-suite --no-wiki-devplan` and `report-language-mixer-seed-uniqueness --only-failures` that each has a globally-unique base index (normalized unique seeds below threshold remains tracked debt for ennese, estremenho, european-portuguese).
 
-- ✅ 2025-12-14: Mayan mixer mapping fix (systemic; not part of NO_UNIQ_BASE claims log in this file version):
+- 2025-12-14: Mayan mixer mapping fix (systemic; not part of NO_UNIQ_BASE claims log in this file version):
   - Added dedicated namebases in `modules/namebases-real.js`: Chuj (913) and Ch'orti' (914)
   - Wired `config/language-mixer-map.json`:
     - cac -> [913]
@@ -181,8 +183,6 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - Verification:
     - `pnpm exec node tools/mixer-core/check-language-mixer-failures.js` => 0 failures
     - `pnpm exec node tools/mixer-core/run-language-mixer-suite.js --multi-agent-safe --no-wiki-devplan` => clean (dry-run)
-
-- ✅ 2025-12-13: Romance / Oïl Dialects NO_UNIQ_BASE batch `workerId: 23` completed (meridional-french->760, moselle-romance->761, orl-anais->762, paydret->763, picard->764).
 
 ## Routine checks
 
@@ -217,9 +217,11 @@ confirm:
 - Confirm UI consistently hides family-tagged entries from mixing surfaces.
 - Confirm runtime does not depend on deleting/renaming ISO keys.
 
-### D) Multi-agent coordination (Memory + claims)
+### D) Multi-agent coordination (Hub + claims)
 
-- Claim the scope in MCP Memory before edits (one writer per file/scope at a time): owner, goal, file/scope, constraints, status=in_progress, short plan.
+- Claim the scope in MCP Coordination Hub before edits (one writer per file/scope at a time): owner, goal, file/scope, constraints, status=in_progress, short plan.
+- Acquire hub locks before touching any shared file/scope using `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>` or `scope:<subsystem>`.
+- Hub locks are the only single-writer enforcement mechanism. Repo-local claim logs do not prevent concurrent writes by themselves.
 - For `NO_UNIQ_BASE` / dedicated-base work, coordinate ISO batches via `tools/mixer-diagnostics/_no_uniq_base_claims.json` and the helper `tools/mixer-diagnostics/no-uniq-base-claim.js` (lock + UTF-8 no BOM; do not hand-edit claims JSON).
 - For implementation + verification, follow the relevant `.windsurf/workflows/*` file verbatim (no git, no paraphrasing); record the exact commands run in the workstream handoff.
 

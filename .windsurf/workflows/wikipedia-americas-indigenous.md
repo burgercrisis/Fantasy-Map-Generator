@@ -15,6 +15,8 @@ auto_execution_mode: 0
    - Keep it as-is and continue, or
    - Leave it uncommitted / untouched and ask the user what to do.
 
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 Use this workflow with `/wikipedia1` for the **Indigenous languages of the Americas** list.
 
 Must preserve append-only registry; never delete ISOs.
