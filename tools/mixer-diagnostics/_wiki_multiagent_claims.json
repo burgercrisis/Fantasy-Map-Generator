@@ -250,10 +250,11 @@
       "workerId": 5,
       "target": "tools/mixer-meta/wikipedia-languages-of-west-asia.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T22:37:09.430Z",
-      "updatedAt": "2025-12-16T00:21:05.638Z",
-      "note": "Starting /wikipedia1 pass (non-integrator): run coverage + base-uniqueness + race-coverage, then prep delta-only batches if needed.\n\nWest Asia uniqueness batch1 staged (non-integrator): delta tools/mixer-deltas/2025-12-15-wikipedia1-west-asia-uniqueness-batch1.json dedicatedPins ara..tur => i:2819–2832; matching dedicated base defs in modules/namebases-real.js i:2819–2832. Verification: pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock => exit 0. Not applied (integrator lane): integrator can run apply-deltas + rerun list base-uniqueness + race coverage."
+      "updatedAt": "2025-12-16T04:05:03.348Z",
+      "note": "Starting /wikipedia1 pass (non-integrator): run coverage + base-uniqueness + race-coverage, then prep delta-only batches if needed.\n\nWest Asia uniqueness batch1 staged (non-integrator): delta tools/mixer-deltas/2025-12-15-wikipedia1-west-asia-uniqueness-batch1.json dedicatedPins ara..tur => i:2819–2832; matching dedicated base defs in modules/namebases-real.js i:2819–2832. Verification: pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock => exit 0. Not applied (integrator lane): integrator can run apply-deltas + rerun list base-uniqueness + race coverage.\n\n2025-12-16 verification: report-wikipedia-list-coverage (fully wired 14/14; Nonunique Bases 0); report-wikipedia-list-base-uniqueness (clustered bases 0); report-wikipedia-list-nonunique-bases (0 lacking unique base); report-wikipedia-list-race-coverage (all ok).",
+      "finishedAt": "2025-12-16T04:05:03.348Z"
     },
     {
       "workerId": 6,

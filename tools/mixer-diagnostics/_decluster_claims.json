@@ -123,10 +123,10 @@
         "west-greenlandic-pidgin",
         "greenlandic-lang"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T03:27:03.897Z",
-      "updatedAt": "2025-12-16T03:27:03.897Z",
-      "notes": "Decluster bases=[305] collision: west-greenlandic-pidgin (Pidgin) vs greenlandic-lang (Eskimo-Aleut). Base name: 305=Greenlandic (from modules/namebases-fantasy.js); 1=English (from modules/namebases-real.js). Plan: delta setBases west-greenlandic-pidgin->[1,305] (English+Greenlandic contact flavor) leaving greenlandic-lang as the sole [305]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete. Delta: tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json"
+      "updatedAt": "2025-12-16T04:04:08.023Z",
+      "notes": "Decluster bases=[305] collision: west-greenlandic-pidgin (Pidgin) vs greenlandic-lang (Eskimo-Aleut). Base name: 305=Greenlandic (from modules/namebases-fantasy.js); 1=English (from modules/namebases-real.js). Plan: delta setBases west-greenlandic-pidgin->[1,305] (English+Greenlandic contact flavor) leaving greenlandic-lang as the sole [305]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete. Delta: tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json\n\nVERIFIED 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK (regen artifacts); pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0; map: west-greenlandic-pidgin bases=[1,305]; greenlandic-lang bases=[305]. Delta: tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json"
     }
   ]
 }
