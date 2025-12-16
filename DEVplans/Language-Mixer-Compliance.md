@@ -15,6 +15,10 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-14: Verified last ~16 hours of mixer work (see git commits `87858113`..`932a2e32`): Romance dedicated-base expansion + pinning safeguards, workflow guardrails (no git / no paraphrasing, BOM/CRLF handling), and adoption of mixer delta patch-queue (`tools/mixer-deltas/*.json` + `mixer:apply-deltas`) to reduce multi-writer conflicts.
 
+- 2025-12-16: Fixed `mixer:guardrails` duplicate `i:` collisions (5106–5110) between `modules/namebases-creole.js` and `modules/namebases-real.js`, and restored missing setBases aux base defs (5103–5105) in `modules/namebases-creole.js`. Verification: `pnpm run mixer:guardrails` => `[guardrails] OK. map=3475 catalog=3475`.
+
+ - 2025-12-16: Follow-up verification: `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` => exit 0; `pnpm run mixer:check-deltas` => exit 0.
+
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-first coordination via MCP Coordination Hub workstreams + hub locks; hub locks are the only single-writer enforcement mechanism. Repo-local claim logs remain coordination metadata (batching + reserved ranges + notes).
 
 - 2025-12-16: Hub workstreams cleanup (languages): marked duplicate/superseded language workstreams as completed in hub to reduce coordination noise. Examples: 464ae733-dada-494f-aee4-6a028da25fee, 3a177bc8-4556-4e7a-9474-5edfb8c6731b, 633b892d-2453-4791-9603-44968164c593, 0c4a2458-2ff2-4d30-8b26-ea230ab17b1a, b73a9633-bb0e-406b-9518-c1508b34a5d6, b2d389cb-eed1-4baf-b524-2472bee456bb, 79275889-10da-4d76-919f-0d2a63ead904, c5646672-53cf-461e-986a-a4ed324ffb10.

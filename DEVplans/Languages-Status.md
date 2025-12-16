@@ -214,6 +214,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-16 /language-uniqueness (Middle East bases=[18] batchA):** declustered 10 Middle East catalog languages that were riding the shared `[18]` (Arabic) base-set by setting unique `bases[]` mixes via `tools/mixer-deltas/2025-12-16-language-uniqueness-worker1-batchA.json` (`bahrani-arabic`, `bareqi-arabic`, `yafii-arabic`, `yemeni-arabic`, `barwar`, `barzani-jewish-neo-aramaic`, `bohtan-neo-aramaic`, `christian-palestinian-aramaic`, `turoyo`, `canaano-akkadian`). Verified: `pnpm run mixer:check-deltas` OK; `check-language-mixer-map-duplicate-isos` OK; `check-language-mixer-map-inconsistencies --show-all-bases` OK; `check-language-mixer-coverage` OK; `check-language-mixer-failures` OK; `report-language-mixer-base-clusters.js --min-size=2 --include-families --region="Middle East"` now shows `[18]` cluster reduced to `members=9`.
 
+- ✅ **2025-12-16 /language-uniqueness (Middle East bases=[18] batchB):** declustered the remaining 9 Middle East catalog languages that were still on the shared `[18]` base-set by setting unique `bases[]` mixes via `tools/mixer-deltas/2025-12-16-language-uniqueness-worker1-middle-east-batchB.json` (`aws-nian`, `zabidi-dialect`, `dadanitic`, `western-middle-aramaic`, `betanure-jewish-neo-aramaic`, `biblical-aramaic`, `chaldean-neo-aramaic`, `christian-urmi-neo-aramaic`, `classical-syriac`). Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `check-language-mixer-map-duplicate-isos` OK; `check-language-mixer-map-inconsistencies --show-all-bases` OK; `check-language-mixer-coverage` OK; `check-language-mixer-failures` OK; `report-language-mixer-base-clusters.js --min-size=2 --include-families --region="Middle East"` now has no `[18]` base-set cluster.
+
+- ✅ **2025-12-16 /language-uniqueness (Middle East batchC):** declustered the remaining Middle East base-set collisions by setting unique `bases[]` mixes via `tools/mixer-deltas/2025-12-16-language-uniqueness-worker1-middle-east-batchC.json` (`maghrebi-arabic`, `central-hilali-dialects`, `western-hilali-dialects`, `western-pre-hilali-dialects`, `levantine-arabic`, `west-semitic`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `check-language-mixer-map-duplicate-isos` OK; `check-language-mixer-map-inconsistencies --show-all-bases` OK; `check-language-mixer-coverage` OK; `check-language-mixer-failures` OK; `report-language-mixer-base-clusters.js --min-size=2 --include-families --region="Middle East"` now reports `Clusters with identical base sets (size >= 2): 0`.
+
 
 - ✅ **2025-12-16 mixer:guardrails unblock (namebases indices de-dupe):** fixed `pnpm run mixer:guardrails` failure caused by duplicate indices `2900–2904` across `modules/namebases-real.js` and `modules/namebases-creole.js` (Mandarin dedicated entries) by de-duping the definitions. Re-verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
 
@@ -1596,9 +1600,11 @@ The following families / regions have **not yet received a full pass** for home-
 
  **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-16T08:21:42.288Z-worker2 reservedRange=3994-4043 isos=[angami-pochuri,ani,ankave,ano,anp] status=complete. Delta: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=angami-pochuri,ani,ankave,ano,anp --limit=300 OK; coverage OK; failures OK.
 
+ **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T09:51:35.309Z-worker1 reservedRange=5106-5155 isos=[adeni-arabic,aleppine-arabic,algerian-arabic,algerian-saharan-arabic,anatolian-arabic] status=complete. Delta: tools/mixer-deltas/2025-12-16-worker1-mixed-adeni-arabic.json. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=adeni-arabic,aleppine-arabic,algerian-arabic,algerian-saharan-arabic,anatolian-arabic --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
+
 **2025-12-16**: /language-uniqueness batch staged: tools/mixer-deltas/2025-12-16-language-uniqueness-batch2-free3129.json (dedicatedPins lower-inva=3129; kte=3130; brx=3131; dhimal=3132; proto-karenic=3133). UPDATE: prior guardrails blocker (duplicate `i:2015–2026` across `modules/namebases-real.js` and `modules/namebases-creole.js`) resolved by renumbering the creole definitions to `i:3282–3293`; `pnpm run mixer:guardrails` OK. Next: re-run `pnpm run mixer:check-deltas` to confirm unblocked / artifacts status.
 
-**2025-12-16**: UPDATE: `pnpm run mixer:check-deltas` is still failing (non-guardrails): `apply-mixer-deltas.js --check` reports artifacts out of date vs deltas (`tools/mixer-deltas/_compiled-dedicated-pins.json` and `config/language-mixer-map.json` / `config/language-mixer-map.js`). Next: run `pnpm run mixer:apply-deltas` (integrator lane) and then re-run `pnpm run mixer:check-deltas`.
+**2025-12-16**: UPDATE: Ran `pnpm run mixer:apply-deltas` and re-ran `pnpm run mixer:check-deltas` — OK.
 
 **2025-12-16**: /language-uniqueness (Uralic mini-batch): resolved `bases=[9]` collision for `merya`, `meshcherian`, `muromian` via delta `tools/mixer-deltas/2025-12-16-language-uniqueness-uralic-merya-meshcherian-muromian.json` (`setBases` to `[9,936]`, `[9,937]`, `[9,938]`). Verification: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `check-language-mixer-map-duplicate-isos` OK; `check-language-mixer-map-inconsistencies --show-all-bases` OK; `check-language-mixer-coverage` OK; `check-language-mixer-failures` OK; Uralic base-set clusters now 0 for `--family=Uralic`.
 
@@ -1863,31 +1869,31 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 193 (87.3%)
+  - `fully wired:` 197 (89.1%)
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 4
+  - `missing both:` 0
   - `unmatched:` 24
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 203
+  - `Nonunique Bases:` 197
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 105
-  - `clustered bases:` 88
-  - `clustered full items:` 88
-  - `cluster size histogram:` size2=21, size3=9, size4+=58
-  - `clustered isos:` chp(44), dgr(44), eyak(44), gwi(44), haa(44), hoi(44), ing(44), kalaallisut(44), koy(44), kuu(44), tau(44), tfn(44), ano(11), cag(11), coe(11), con(11), cub(11), des(11), enl(11), fun(11), gvc(11), ite(11), ito(11), jup(11), kanamari(11), lec(11), macuna(11), moc(11), noa(11), snn(11), sri(11), tav(11), tuo(11), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), xav(4), xer(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), wayuu(3), yag(3), ayo(2), bwi(2), coz(2), cro(2), cui(2), gub(2), guh(2), gyr(2), ixc(2), kashinawa(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), srq(2), tcb(2), ter(2), tew(2), zoq(2)
+  - `unique bases:` 119
+  - `clustered bases:` 78
+  - `clustered full items:` 78
+  - `cluster size histogram:` size2=12, size3=11, size4+=55
+  - `clustered isos:` chp(43), dgr(43), eyak(43), gwi(43), haa(43), hoi(43), ing(43), kalaallisut(43), koy(43), kuu(43), tau(43), tfn(43), coe(11), cub(11), des(11), gvc(11), ite(11), jup(11), macuna(11), snn(11), sri(11), tav(11), tuo(11), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), wayuu(3), xav(3), xer(3), yag(3), coz(2), cro(2), gub(2), ixc(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), tew(2), zoq(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Coverage is **not yet clean** (`missing both=4`, `unmatched=24`, `skipped=23`). Next work: resolve the 4 `missing both` ISOs (`mzp`, `noj`, `oca`, `tna`) and continue burning down `unmatched` items via ISO bindings / wiring. Uniqueness debt remains high (`Nonunique Bases=203`).
+- **Status update:** Coverage is **partially clean** (`missing both=0`, `unmatched=24`, `skipped=23`). Next work: burn down `unmatched` items via ISO bindings / wiring. Uniqueness debt remains high (`Nonunique Bases=197`).
 
- - **2025-12-15 handoff (Option B):**
-   - **Latest verified coverage run:** `considered=220`, `skipped=24`, `fully wired=193`, `missing both=4` (`mzp`, `noj`, `oca`, `tna`), `unmatched=23`, `Nonunique Bases=204`.
-   - **Next batch:** add catalog entries in `config/language-mixes.json`, create delta `tools/mixer-deltas/2025-12-15-wikipedia-americas-indigenous-batch1-missing-both.json`, and add dedicated base definitions starting at `i:2429` (next free after `2428`) in `modules/namebases-real.js`.
-   - **Tooling caveat:** Memory MCP tools currently fail with JSON parse errors; deepwiki repo not indexed—use `fetch`/`search_web` for research.
+ - **2025-12-16 status (Batch1 complete):**
+   - **Batch scope:** resolved `missing both` for `mzp`, `noj`, `oca`, `tna` via dedicated pins `2435–2438` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch1-missing-both.json`).
+   - **Latest verified coverage run:** `considered=221`, `skipped=23`, `fully wired=197`, `missing both=0`, `unmatched=24`, `Nonunique Bases=197`.
+   - **Seed uniqueness:** targeted seed-uniqueness report for `mzp,noj,oca,tna` now shows 0 strict failures and 0 normalized failures.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
@@ -1947,7 +1953,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 98
+  - `Nonunique Bases:` 92
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 168
@@ -1964,6 +1970,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - Use coverage reports to cross-check that each major European standard language has both catalog and mixer entries and that coverage is balanced across Western, Central, Northern, and Eastern Europe.
   - **2025-12-16 status:** Staged delta-only `setBases` batches (no `modules/namebases-real.js` edits) to burn down Europe base-set collisions: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch1-bavarian-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch2-west-slavic-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch3-nogai-karakalpak-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch4-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch5-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch6-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch7-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch8-finnic-9-setbases.json`.
   - **2025-12-16 status:** Cleared `NO_UNIQ_BASE` for `ingrian,kven,livonian,ludic,me-nkieli,veps,v-ro,votic` by adding dedicated bases `3332–3339` in `modules/namebases-real.js` and pinning via `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch9-finnic-9-dedicatedpins.json`; verified seed-uniqueness (`No globally-unique base index: 0`) and core checks (coverage/failures/duplicate-isos).
+  - **2025-12-16 status:** Staged Europe batch10 North Germanic dedicated pins for `danish,isl,norwegian,ovd,swe` using dedicated bases `3950–3954` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch10-north-germanic-dedicatedpins.json`.
 
 ### 8.8 Languages of West Asia – regional subset
 

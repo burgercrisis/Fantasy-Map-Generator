@@ -86,6 +86,7 @@ function processFeatureRegeneration(event, button) {
     regenerateRoutes();
     if (!layerIsOn("toggleRoutes")) toggleRoutes();
   } else if (button === "regenerateRivers") regenerateRivers();
+  else if (button === "regenerateRaces") regenerateRaces();
   else if (button === "regeneratePopulation") recalculatePopulation();
   else if (button === "regenerateStates") regenerateStates();
   else if (button === "regenerateProvinces") regenerateProvinces();
@@ -97,6 +98,29 @@ function processFeatureRegeneration(event, button) {
   else if (button === "regenerateIce") regenerateIce();
   else if (button === "regenerateMarkers") regenerateMarkers();
   else if (button === "regenerateZones") regenerateZones(event);
+}
+
+function regenerateRaces() {
+  if (!pack || !pack.cultures || !pack.cells) return;
+
+  if (pack.cultures) pack.cultures.forEach(c => c && delete c.race);
+  if (pack.states) pack.states.forEach(s => s && delete s.race);
+  if (pack.provinces) pack.provinces.forEach(p => p && delete p.race);
+  if (pack.burgs) pack.burgs.forEach(b => b && delete b.race);
+  if (pack.religions) pack.religions.forEach(r => r && delete r.race);
+
+  delete pack.cells.race;
+
+  if (typeof rerollRacesForCultures === "function") {
+    rerollRacesForCultures({forceFilterFromUi: true});
+  } else if (typeof initializeRacesForExpansion === "function") {
+    initializeRacesForExpansion({forceFilterFromUi: true});
+  }
+
+  if (typeof assignRaces === "function") assignRaces();
+
+  if (layerIsOn("toggleRaces")) drawRaces();
+  refreshAllEditors();
 }
 
 async function openEmblemEditor() {

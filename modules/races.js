@@ -1405,6 +1405,90 @@ function initializeRacesForExpansion(options) {
   pack.races = races;
 }
 
+function rerollRacesForCultures(options) {
+  if (!pack || !Array.isArray(pack.cultures)) return;
+  if (!shouldEnableRacesForCurrentWorld()) return;
+
+  const forceFilterFromUi = options && options.forceFilterFromUi;
+
+  let allowedRaces = null;
+  if (forceFilterFromUi) {
+    const racesSetElement = byId("racesSet");
+    const racesSetValue = racesSetElement ? racesSetElement.value : "all";
+    const racesSetFilter = getRacesSetFilter(racesSetValue);
+
+    const racesNumberElement = byId("racesNumber");
+    const racesLimitRaw =
+      (racesNumberElement && (racesNumberElement.valueAsNumber || +racesNumberElement.value)) || 0;
+    const maxNonHumanRaces = racesLimitRaw > 0 ? racesLimitRaw : Infinity;
+
+    if (racesSetFilter && maxNonHumanRaces === Infinity) {
+      allowedRaces = racesSetFilter;
+    } else if (maxNonHumanRaces !== Infinity) {
+      const raceNeedCounts = new Map();
+      pack.cultures.forEach(culture => {
+        if (!culture || !culture.i || culture.removed) return;
+        const raceName = getRaceNameForCulture(culture);
+        if (!raceName || raceName === "Human") return;
+        if (racesSetFilter && !racesSetFilter.has(raceName)) return;
+        raceNeedCounts.set(raceName, (raceNeedCounts.get(raceName) || 0) + 1);
+      });
+
+      const sortedRaceNames = Array.from(raceNeedCounts.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(entry => entry[0]);
+
+      allowedRaces = new Set(sortedRaceNames.slice(0, maxNonHumanRaces));
+    }
+  }
+
+  const nonHumanPool = Array.from(Object.keys(fantasyRaceBases)).filter(r => r !== "Human");
+  const filteredNonHumanPool = allowedRaces
+    ? nonHumanPool.filter(r => allowedRaces.has(r))
+    : nonHumanPool;
+
+  const races = [{i: 0, name: "None"}];
+  const raceIndexByName = new Map();
+  const raceColorById = {};
+
+  const ensureRaceId = raceName => {
+    let raceId = raceIndexByName.get(raceName);
+    if (raceId) return raceId;
+    raceId = races.length;
+    raceIndexByName.set(raceName, raceId);
+    const expansionism = defineRaceExpansionism(raceName);
+    races[raceId] = {i: raceId, name: raceName, expansionism};
+    return raceId;
+  };
+
+  const pickNonHumanRace = () => {
+    if (!filteredNonHumanPool.length) return "Human";
+    return filteredNonHumanPool[Math.floor(Math.random() * filteredNonHumanPool.length)];
+  };
+
+  pack.cultures.forEach(culture => {
+    if (!culture) return;
+    if (!culture.i || culture.removed) {
+      culture.race = 0;
+      return;
+    }
+
+    const isNonHuman = filteredNonHumanPool.length && Math.random() < 0.35;
+    const raceName = isNonHuman ? pickNonHumanRace() : "Human";
+    const raceId = raceName === "Human" ? 0 : ensureRaceId(raceName);
+    culture.race = raceId;
+    if (raceId && !raceColorById[raceId] && culture.color) raceColorById[raceId] = culture.color;
+  });
+
+  races.forEach(race => {
+    if (!race || !race.i) return;
+    race.color = raceColorById[race.i] || race.color || "#888888";
+    if (race.expansionism == null) race.expansionism = 1;
+  });
+
+  pack.races = races;
+}
+
 function syncCultureBasesToDominantRace() {
   if (!pack || !pack.cultures || !pack.cells) return;
   const {cells, cultures, races} = pack;

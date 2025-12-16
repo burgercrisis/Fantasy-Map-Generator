@@ -1869,7 +1869,7 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-16T08:21:42.288Z",
-      "updatedAt": "2025-12-16T09:50:06.695Z",
+      "updatedAt": "2025-12-16T11:12:58.351Z",
       "reservedRange": [
         3994,
         4043
@@ -1886,14 +1886,14 @@
         "algerian-saharan-arabic",
         "anatolian-arabic"
       ],
-      "status": "stalled",
+      "status": "complete",
       "startedAt": "2025-12-16T09:51:35.309Z",
-      "updatedAt": "2025-12-16T09:56:10.848Z",
+      "updatedAt": "2025-12-16T11:14:09.207Z",
       "reservedRange": [
         5106,
         5155
       ],
-      "notes": "Reserved i range: 5106-5155\nISO->base mapping (fill in):\n- adeni-arabic->5106\n- aleppine-arabic->5107\n- algerian-arabic->5108\n- algerian-saharan-arabic->5109\n- anatolian-arabic->5110\n\nBLOCKER: claim created accidentally during batch selection; do not implement this ISO set. Safe to ignore. ReservedRange left allocated (5106-5155)."
+      "notes": "Reserved i range: 5106-5155\nISO->base mapping (fill in):\n- adeni-arabic->5106\n- aleppine-arabic->5107\n- algerian-arabic->5108\n- algerian-saharan-arabic->5109\n- anatolian-arabic->5110\n\nBLOCKER: claim created accidentally during batch selection; do not implement this ISO set. Safe to ignore. ReservedRange left allocated (5106-5155).\n\nResolved. Reserved i range: 5106-5155 | ISO->base: adeni-arabic->5106; aleppine-arabic->5107; algerian-arabic->5108; algerian-saharan-arabic->5109; anatolian-arabic->5110 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-adeni-arabic.json | Base defs: modules/namebases-real.js i:5106-5110 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=adeni-arabic,aleppine-arabic,algerian-arabic,algerian-saharan-arabic,anatolian-arabic => Target ISOs:5 Missing mapping:0 No uniq base:0 strict failures:0 norm failures:0; coverage:0 missing; failures:0 failing; base-clusters exit 0."
     },
     {
       "workerId": 1,
@@ -1913,6 +1913,25 @@
         5205
       ],
       "notes": "Reserved i range: 5156-5205\nISO->base mapping (fill in):\n- cao-lan->5156\n- cao-miao->5157\n- cape-verdean-creole->5158\n- cappadocian-greek->5159\n- car-nicobarese->5160\n\nRETIREMENT: Marking stalled to avoid leaving an in_progress claim. Safe to re-claim or abandon as needed."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T11:23:16.859Z-worker1",
+      "isos": [
+        "andalusi-arabic",
+        "anq",
+        "ao",
+        "aot",
+        "aoz"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T11:23:16.859Z",
+      "updatedAt": "2025-12-16T11:23:16.859Z",
+      "reservedRange": [
+        5206,
+        5255
+      ],
+      "notes": "Reserved i range: 5206-5255\nISO->base mapping (fill in):\n- andalusi-arabic->5206\n- anq->5207\n- ao->5208\n- aot->5209\n- aoz->5210"
     }
   ]
 }

@@ -453,8 +453,15 @@ function recalculateRaces() {
     });
   }
 
+  // Force rebuild of cell-level races as cultures may have shifted.
+  if (pack && pack.cells) delete pack.cells.race;
+
   if (typeof assignRaces === "function") assignRaces();
   else updateCellRacesFromCultures();
+
+  if (typeof drawRaces === "function" && typeof layerIsOn === "function" && layerIsOn("toggleRaces")) {
+    drawRaces();
+  }
 
   const stats = collectRaceStatistics();
   racesEditorAddLines(stats);
@@ -477,20 +484,25 @@ function regenerateRaces() {
   if (pack.burgs) pack.burgs.forEach(b => b && delete b.race);
   if (pack.religions) pack.religions.forEach(r => r && delete r.race);
 
-  // Regenerate race list + per-culture race assignment.
-  if (typeof initializeRacesForExpansion === "function") {
+  // Force rebuild of cell-level race layer.
+  delete pack.cells.race;
+
+  // Reroll per-culture race assignment (so distribution actually changes).
+  // Keep culture namebases intact (do not touch culture.base here).
+  if (typeof rerollRacesForCultures === "function") {
+    rerollRacesForCultures({forceFilterFromUi: true});
+  } else if (typeof initializeRacesForExpansion === "function") {
     initializeRacesForExpansion({forceFilterFromUi: true});
   }
 
-  // Rebuild cell-level race layer from culture assignments.
-  updateCellRacesFromCultures();
+  // Rebuild cell-level race layer and derived entity races.
+  if (typeof assignRaces === "function") assignRaces();
+  else updateCellRacesFromCultures();
 
   if (typeof drawRaces === "function" && typeof layerIsOn === "function" && layerIsOn("toggleRaces")) {
     drawRaces();
   }
   if (typeof drawCultures === "function") drawCultures();
-
-  if (typeof assignRaces === "function") assignRaces();
 
   const stats = collectRaceStatistics();
   racesEditorAddLines(stats);
