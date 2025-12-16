@@ -19,6 +19,10 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-16: Hub workstreams cleanup (languages): marked duplicate/superseded language workstreams as completed in hub to reduce coordination noise. Examples: 464ae733-dada-494f-aee4-6a028da25fee, 3a177bc8-4556-4e7a-9474-5edfb8c6731b, 633b892d-2453-4791-9603-44968164c593, 0c4a2458-2ff2-4d30-8b26-ea230ab17b1a, b73a9633-bb0e-406b-9518-c1508b34a5d6, b2d389cb-eed1-4baf-b524-2472bee456bb, 79275889-10da-4d76-919f-0d2a63ead904, c5646672-53cf-461e-986a-a4ed324ffb10.
 
+- 2025-12-16: Wikipedia: Languages of Europe – base-set collisions cleared (verified). Evidence (run with `--no-devplan`):
+  - `pnpm exec -- node tools/mixer-core/report-wikipedia-list-base-uniqueness.js tools/mixer-meta/wikipedia-languages-of-europe.json --no-devplan` => `clustered bases: 0`
+  - `pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json --no-devplan` => `fully wired: 168 (100.0%)`, `Nonunique Bases: 98`
+
 - 2025-12-16: Decision: coordination/meta notes for language mixer work live in DEVplans/Language-Mixer-Compliance.md (not DEVplans/Languages-Status.md).
 
 - 2025-12-16: Decision: keep completed hub workstreams indefinitely; workers should default to listing only hub workstreams with status=active (and optionally paused) when looking for work.

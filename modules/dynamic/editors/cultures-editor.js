@@ -124,8 +124,22 @@ function culturesEditorAddLines() {
   const emblemShapeGroup = byId("emblemShape")?.selectedOptions[0]?.parentNode?.label;
   const selectShape = emblemShapeGroup === "Diversiform";
 
+  const getFallbackBase = () => {
+    if (nameBases && nameBases[1]) return 1;
+    if (nameBases && nameBases[0]) return 0;
+    if (Array.isArray(nameBases)) {
+      const i = nameBases.findIndex(b => b);
+      if (i >= 0) return i;
+    }
+    return 0;
+  };
+
   for (const c of pack.cultures) {
     if (c.removed) continue;
+
+    if (typeof c.base !== "number" || !nameBases || !nameBases[c.base]) {
+      c.base = getFallbackBase();
+    }
     const area = getArea(c.area);
     const rural = c.rural * populationRate;
     const urban = c.urban * populationRate * urbanization;

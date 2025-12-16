@@ -973,6 +973,12 @@ window.realWorldNameBases = [
       {name: "Aneme-Wake (dedicated)", i: 3947, min: 4, max: 11, d: "lnrt", m: 0, b: "anemewake_unq1,anemewake_unq2,anemewake_unq3,anemewake_unq4,anemewake_unq5,anemewake_unq6,anemewake_unq7,anemewake_unq8,anemewake_unq9,anemewake_unq10,anemewake_unq11,anemewake_unq12"},
       {name: "Angaataha (dedicated)", i: 3948, min: 4, max: 11, d: "lnrt", m: 0, b: "angaataha_unq1,angaataha_unq2,angaataha_unq3,angaataha_unq4,angaataha_unq5,angaataha_unq6,angaataha_unq7,angaataha_unq8,angaataha_unq9,angaataha_unq10,angaataha_unq11,angaataha_unq12"},
 
+      {name: "Angami Pochuri (dedicated)", i: 3994, min: 4, max: 11, d: "lnrt", m: 0, b: "angamipochuri_unq1,angamipochuri_unq2,angamipochuri_unq3,angamipochuri_unq4,angamipochuri_unq5,angamipochuri_unq6,angamipochuri_unq7,angamipochuri_unq8,angamipochuri_unq9,angamipochuri_unq10,angamipochuri_unq11,angamipochuri_unq12"},
+      {name: "Andi (dedicated)", i: 3995, min: 4, max: 11, d: "lnrt", m: 0, b: "ani_unq1,ani_unq2,ani_unq3,ani_unq4,ani_unq5,ani_unq6,ani_unq7,ani_unq8,ani_unq9,ani_unq10,ani_unq11,ani_unq12"},
+      {name: "Ankave (dedicated)", i: 3996, min: 4, max: 11, d: "lnrt", m: 0, b: "ankave_unq1,ankave_unq2,ankave_unq3,ankave_unq4,ankave_unq5,ankave_unq6,ankave_unq7,ankave_unq8,ankave_unq9,ankave_unq10,ankave_unq11,ankave_unq12"},
+      {name: "Andoque (dedicated)", i: 3997, min: 4, max: 11, d: "lnrt", m: 0, b: "ano_unq1,ano_unq2,ano_unq3,ano_unq4,ano_unq5,ano_unq6,ano_unq7,ano_unq8,ano_unq9,ano_unq10,ano_unq11,ano_unq12"},
+      {name: "Angika (dedicated)", i: 3998, min: 4, max: 11, d: "lnrt", m: 0, b: "anp_unq1,anp_unq2,anp_unq3,anp_unq4,anp_unq5,anp_unq6,anp_unq7,anp_unq8,anp_unq9,anp_unq10,anp_unq11,anp_unq12"},
+
 
     ];
 
