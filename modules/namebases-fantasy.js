@@ -340,7 +340,13 @@ window.fantasyNameBases = [
       {name: "Chhantyal (dedicated)", i: 3940, min: 4, max: 11, d: "lnrt", m: 0, b: "chx_unq1,chx_unq2,chx_unq3,chx_unq4,chx_unq5,chx_unq6,chx_unq7,chx_unq8,chx_unq9,chx_unq10,chx_unq11,chx_unq12"},
       {name: "Ghale (dedicated)", i: 3941, min: 4, max: 11, d: "lnrt", m: 0, b: "ghale_unq1,ghale_unq2,ghale_unq3,ghale_unq4,ghale_unq5,ghale_unq6,ghale_unq7,ghale_unq8,ghale_unq9,ghale_unq10,ghale_unq11,ghale_unq12"},
       {name: "Magar Kaike (dedicated)", i: 3942, min: 4, max: 11, d: "lnrt", m: 0, b: "kzq_unq1,kzq_unq2,kzq_unq3,kzq_unq4,kzq_unq5,kzq_unq6,kzq_unq7,kzq_unq8,kzq_unq9,kzq_unq10,kzq_unq11,kzq_unq12"},
-      {name: "Manange (dedicated)", i: 3943, min: 4, max: 11, d: "lnrt", m: 0, b: "nmm_unq1,nmm_unq2,nmm_unq3,nmm_unq4,nmm_unq5,nmm_unq6,nmm_unq7,nmm_unq8,nmm_unq9,nmm_unq10,nmm_unq11,nmm_unq12"}
+      {name: "Manange (dedicated)", i: 3943, min: 4, max: 11, d: "lnrt", m: 0, b: "nmm_unq1,nmm_unq2,nmm_unq3,nmm_unq4,nmm_unq5,nmm_unq6,nmm_unq7,nmm_unq8,nmm_unq9,nmm_unq10,nmm_unq11,nmm_unq12"},
+
+      {name: "Danish (dedicated)", i: 3950, min: 4, max: 11, d: "lnrt", m: 0, b: "danish_3950_unq1,danish_3950_unq2,danish_3950_unq3,danish_3950_unq4,danish_3950_unq5,danish_3950_unq6,danish_3950_unq7,danish_3950_unq8,danish_3950_unq9,danish_3950_unq10,danish_3950_unq11,danish_3950_unq12"},
+      {name: "Icelandic (dedicated)", i: 3951, min: 4, max: 11, d: "lnrt", m: 0, b: "isl_3951_unq1,isl_3951_unq2,isl_3951_unq3,isl_3951_unq4,isl_3951_unq5,isl_3951_unq6,isl_3951_unq7,isl_3951_unq8,isl_3951_unq9,isl_3951_unq10,isl_3951_unq11,isl_3951_unq12"},
+      {name: "Norwegian (dedicated)", i: 3952, min: 4, max: 11, d: "lnrt", m: 0, b: "norwegian_3952_unq1,norwegian_3952_unq2,norwegian_3952_unq3,norwegian_3952_unq4,norwegian_3952_unq5,norwegian_3952_unq6,norwegian_3952_unq7,norwegian_3952_unq8,norwegian_3952_unq9,norwegian_3952_unq10,norwegian_3952_unq11,norwegian_3952_unq12"},
+      {name: "Elfdalian (dedicated)", i: 3953, min: 4, max: 11, d: "lnrt", m: 0, b: "ovd_3953_unq1,ovd_3953_unq2,ovd_3953_unq3,ovd_3953_unq4,ovd_3953_unq5,ovd_3953_unq6,ovd_3953_unq7,ovd_3953_unq8,ovd_3953_unq9,ovd_3953_unq10,ovd_3953_unq11,ovd_3953_unq12"},
+      {name: "Swedish (dedicated)", i: 3954, min: 4, max: 11, d: "lnrt", m: 0, b: "swe_3954_unq1,swe_3954_unq2,swe_3954_unq3,swe_3954_unq4,swe_3954_unq5,swe_3954_unq6,swe_3954_unq7,swe_3954_unq8,swe_3954_unq9,swe_3954_unq10,swe_3954_unq11,swe_3954_unq12"}
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.fantasyNameBases;

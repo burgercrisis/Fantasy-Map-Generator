@@ -974,17 +974,6 @@ window.realWorldNameBases = [
       {name: "Angaataha (dedicated)", i: 3948, min: 4, max: 11, d: "lnrt", m: 0, b: "angaataha_unq1,angaataha_unq2,angaataha_unq3,angaataha_unq4,angaataha_unq5,angaataha_unq6,angaataha_unq7,angaataha_unq8,angaataha_unq9,angaataha_unq10,angaataha_unq11,angaataha_unq12"},
 
 
-
-
-
-
-      {name: "Adeni Arabic (dedicated)", i: 5106, min: 4, max: 11, d: "lnrt", m: 0, b: "adeniarabic_unq1,adeniarabic_unq2,adeniarabic_unq3,adeniarabic_unq4,adeniarabic_unq5,adeniarabic_unq6,adeniarabic_unq7,adeniarabic_unq8,adeniarabic_unq9,adeniarabic_unq10,adeniarabic_unq11,adeniarabic_unq12"},
-      {name: "Aleppine Arabic (dedicated)", i: 5107, min: 4, max: 11, d: "lnrt", m: 0, b: "aleppinearabic_unq1,aleppinearabic_unq2,aleppinearabic_unq3,aleppinearabic_unq4,aleppinearabic_unq5,aleppinearabic_unq6,aleppinearabic_unq7,aleppinearabic_unq8,aleppinearabic_unq9,aleppinearabic_unq10,aleppinearabic_unq11,aleppinearabic_unq12"},
-      {name: "Algerian Arabic (dedicated)", i: 5108, min: 4, max: 11, d: "lnrt", m: 0, b: "algerianarabic_unq1,algerianarabic_unq2,algerianarabic_unq3,algerianarabic_unq4,algerianarabic_unq5,algerianarabic_unq6,algerianarabic_unq7,algerianarabic_unq8,algerianarabic_unq9,algerianarabic_unq10,algerianarabic_unq11,algerianarabic_unq12"},
-      {name: "Algerian Saharan Arabic (dedicated)", i: 5109, min: 4, max: 11, d: "lnrt", m: 0, b: "algeriansaharanarabic_unq1,algeriansaharanarabic_unq2,algeriansaharanarabic_unq3,algeriansaharanarabic_unq4,algeriansaharanarabic_unq5,algeriansaharanarabic_unq6,algeriansaharanarabic_unq7,algeriansaharanarabic_unq8,algeriansaharanarabic_unq9,algeriansaharanarabic_unq10,algeriansaharanarabic_unq11,algeriansaharanarabic_unq12"},
-      {name: "Anatolian Arabic (dedicated)", i: 5110, min: 4, max: 11, d: "lnrt", m: 0, b: "anatolianarabic_unq1,anatolianarabic_unq2,anatolianarabic_unq3,anatolianarabic_unq4,anatolianarabic_unq5,anatolianarabic_unq6,anatolianarabic_unq7,anatolianarabic_unq8,anatolianarabic_unq9,anatolianarabic_unq10,anatolianarabic_unq11,anatolianarabic_unq12"},
-
-
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

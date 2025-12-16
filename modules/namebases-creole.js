@@ -128,21 +128,34 @@
   {name: "Andi (dedicated)", i: 3995, min: 4, max: 11, d: "lnrt", m: 0, b: "ani_unq1,ani_unq2,ani_unq3,ani_unq4,ani_unq5,ani_unq6,ani_unq7,ani_unq8,ani_unq9,ani_unq10,ani_unq11,ani_unq12"},
   {name: "Ankave (dedicated)", i: 3996, min: 4, max: 11, d: "lnrt", m: 0, b: "ankave_unq1,ankave_unq2,ankave_unq3,ankave_unq4,ankave_unq5,ankave_unq6,ankave_unq7,ankave_unq8,ankave_unq9,ankave_unq10,ankave_unq11,ankave_unq12"},
   {name: "Andoque (dedicated)", i: 3997, min: 4, max: 11, d: "lnrt", m: 0, b: "ano_unq1,ano_unq2,ano_unq3,ano_unq4,ano_unq5,ano_unq6,ano_unq7,ano_unq8,ano_unq9,ano_unq10,ano_unq11,ano_unq12"},
-  {name: "Angika (dedicated)", i: 3998, min: 4, max: 11, d: "lnrt", m: 0, b: "anp_unq1,anp_unq2,anp_unq3,anp_unq4,anp_unq5,anp_unq6,anp_unq7,anp_unq8,anp_unq9,anp_unq10,anp_unq11,anp_unq12"},
 
   {name: "Anca (dedicated)", i: 5100, min: 4, max: 11, d: "lnrt", m: 0, b: "anca_unq1,anca_unq2,anca_unq3,anca_unq4,anca_unq5,anca_unq6,anca_unq7,anca_unq8,anca_unq9,anca_unq10,anca_unq11,anca_unq12"},
   {name: "Ancient Egyptian (dedicated)", i: 5101, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientegyptian_unq1,ancientegyptian_unq2,ancientegyptian_unq3,ancientegyptian_unq4,ancientegyptian_unq5,ancientegyptian_unq6,ancientegyptian_unq7,ancientegyptian_unq8,ancientegyptian_unq9,ancientegyptian_unq10,ancientegyptian_unq11,ancientegyptian_unq12"},
   {name: "Ancient North Arabian (dedicated)", i: 5102, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientnortharabian_unq1,ancientnortharabian_unq2,ancientnortharabian_unq3,ancientnortharabian_unq4,ancientnortharabian_unq5,ancientnortharabian_unq6,ancientnortharabian_unq7,ancientnortharabian_unq8,ancientnortharabian_unq9,ancientnortharabian_unq10,ancientnortharabian_unq11,ancientnortharabian_unq12"},
 
+  {name: "Hollola (setBases aux)", i: 5217, min: 4, max: 11, d: "lnrt", m: 0, b: "hollola_5217_unq1,hollola_5217_unq2,hollola_5217_unq3,hollola_5217_unq4,hollola_5217_unq5,hollola_5217_unq6,hollola_5217_unq7,hollola_5217_unq8,hollola_5217_unq9,hollola_5217_unq10,hollola_5217_unq11,hollola_5217_unq12"},
+  {name: "Heart Tavastian (setBases aux)", i: 5218, min: 4, max: 11, d: "lnrt", m: 0, b: "hearttavastian_5218_unq1,hearttavastian_5218_unq2,hearttavastian_5218_unq3,hearttavastian_5218_unq4,hearttavastian_5218_unq5,hearttavastian_5218_unq6,hearttavastian_5218_unq7,hearttavastian_5218_unq8,hearttavastian_5218_unq9,hearttavastian_5218_unq10,hearttavastian_5218_unq11,hearttavastian_5218_unq12"},
+  {name: "Savonian (setBases aux)", i: 5219, min: 4, max: 11, d: "lnrt", m: 0, b: "savonian_5219_unq1,savonian_5219_unq2,savonian_5219_unq3,savonian_5219_unq4,savonian_5219_unq5,savonian_5219_unq6,savonian_5219_unq7,savonian_5219_unq8,savonian_5219_unq9,savonian_5219_unq10,savonian_5219_unq11,savonian_5219_unq12"},
   {name: "Aramaic (dedicated)", i: 5010, min: 4, max: 11, d: "lnrt", m: 0, b: "aramaic_5010_unq1,aramaic_5010_unq2,aramaic_5010_unq3,aramaic_5010_unq4,aramaic_5010_unq5,aramaic_5010_unq6,aramaic_5010_unq7,aramaic_5010_unq8,aramaic_5010_unq9,aramaic_5010_unq10,aramaic_5010_unq11,aramaic_5010_unq12"},
   {name: "Akkadian (dedicated)", i: 5011, min: 4, max: 11, d: "lnrt", m: 0, b: "akkadian_5011_unq1,akkadian_5011_unq2,akkadian_5011_unq3,akkadian_5011_unq4,akkadian_5011_unq5,akkadian_5011_unq6,akkadian_5011_unq7,akkadian_5011_unq8,akkadian_5011_unq9,akkadian_5011_unq10,akkadian_5011_unq11,akkadian_5011_unq12"},
   {name: "Arabic (dedicated)", i: 5012, min: 4, max: 11, d: "lnrt", m: 0, b: "arabic_5012_unq1,arabic_5012_unq2,arabic_5012_unq3,arabic_5012_unq4,arabic_5012_unq5,arabic_5012_unq6,arabic_5012_unq7,arabic_5012_unq8,arabic_5012_unq9,arabic_5012_unq10,arabic_5012_unq11,arabic_5012_unq12"},
 
-  {name: "Cao Lan (dedicated)", i: 5156, min: 4, max: 11, d: "lnrt", m: 0, b: "caolan_unq1,caolan_unq2,caolan_unq3,caolan_unq4,caolan_unq5,caolan_unq6,caolan_unq7,caolan_unq8,caolan_unq9,caolan_unq10,caolan_unq11,caolan_unq12"},
-  {name: "Cao Miao (dedicated)", i: 5157, min: 4, max: 11, d: "lnrt", m: 0, b: "caomiao_unq1,caomiao_unq2,caomiao_unq3,caomiao_unq4,caomiao_unq5,caomiao_unq6,caomiao_unq7,caomiao_unq8,caomiao_unq9,caomiao_unq10,caomiao_unq11,caomiao_unq12"},
   {name: "Cape Verdean Creole (dedicated)", i: 5158, min: 4, max: 11, d: "lnrt", m: 0, b: "capeverdeancreole_unq1,capeverdeancreole_unq2,capeverdeancreole_unq3,capeverdeancreole_unq4,capeverdeancreole_unq5,capeverdeancreole_unq6,capeverdeancreole_unq7,capeverdeancreole_unq8,capeverdeancreole_unq9,capeverdeancreole_unq10,capeverdeancreole_unq11,capeverdeancreole_unq12"},
   {name: "Cappadocian Greek (dedicated)", i: 5159, min: 4, max: 11, d: "lnrt", m: 0, b: "cappadociangreek_unq1,cappadociangreek_unq2,cappadociangreek_unq3,cappadociangreek_unq4,cappadociangreek_unq5,cappadociangreek_unq6,cappadociangreek_unq7,cappadociangreek_unq8,cappadociangreek_unq9,cappadociangreek_unq10,cappadociangreek_unq11,cappadociangreek_unq12"},
   {name: "Car Nicobarese (dedicated)", i: 5160, min: 4, max: 11, d: "lnrt", m: 0, b: "carnicobarese_unq1,carnicobarese_unq2,carnicobarese_unq3,carnicobarese_unq4,carnicobarese_unq5,carnicobarese_unq6,carnicobarese_unq7,carnicobarese_unq8,carnicobarese_unq9,carnicobarese_unq10,carnicobarese_unq11,carnicobarese_unq12"},
- ];
+
+  {name: "Aramaic (dedicated)", i: 5211, min: 4, max: 11, d: "lnrt", m: 0, b: "aramaic_5211_unq1,aramaic_5211_unq2,aramaic_5211_unq3,aramaic_5211_unq4,aramaic_5211_unq5,aramaic_5211_unq6,aramaic_5211_unq7,aramaic_5211_unq8,aramaic_5211_unq9,aramaic_5211_unq10,aramaic_5211_unq11,aramaic_5211_unq12"},
+  {name: "Akkadian (dedicated)", i: 5212, min: 4, max: 11, d: "lnrt", m: 0, b: "akkadian_5212_unq1,akkadian_5212_unq2,akkadian_5212_unq3,akkadian_5212_unq4,akkadian_5212_unq5,akkadian_5212_unq6,akkadian_5212_unq7,akkadian_5212_unq8,akkadian_5212_unq9,akkadian_5212_unq10,akkadian_5212_unq11,akkadian_5212_unq12"},
+  {name: "Arabic (dedicated)", i: 5213, min: 4, max: 11, d: "lnrt", m: 0, b: "arabic_5213_unq1,arabic_5213_unq2,arabic_5213_unq3,arabic_5213_unq4,arabic_5213_unq5,arabic_5213_unq6,arabic_5213_unq7,arabic_5213_unq8,arabic_5213_unq9,arabic_5213_unq10,arabic_5213_unq11,arabic_5213_unq12"},
+
+  {name: "Cape Verdean Creole (dedicated)", i: 5214, min: 4, max: 11, d: "lnrt", m: 0, b: "capeverdeancreole_5214_unq1,capeverdeancreole_5214_unq2,capeverdeancreole_5214_unq3,capeverdeancreole_5214_unq4,capeverdeancreole_5214_unq5,capeverdeancreole_5214_unq6,capeverdeancreole_5214_unq7,capeverdeancreole_5214_unq8,capeverdeancreole_5214_unq9,capeverdeancreole_5214_unq10,capeverdeancreole_5214_unq11,capeverdeancreole_5214_unq12"},
+  {name: "Cappadocian Greek (dedicated)", i: 5215, min: 4, max: 11, d: "lnrt", m: 0, b: "cappadociangreek_5215_unq1,cappadociangreek_5215_unq2,cappadociangreek_5215_unq3,cappadociangreek_5215_unq4,cappadociangreek_5215_unq5,cappadociangreek_5215_unq6,cappadociangreek_5215_unq7,cappadociangreek_5215_unq8,cappadociangreek_5215_unq9,cappadociangreek_5215_unq10,cappadociangreek_5215_unq11,cappadociangreek_5215_unq12"},
+  {name: "Car Nicobarese (dedicated)", i: 5216, min: 4, max: 11, d: "lnrt", m: 0, b: "carnicobarese_5216_unq1,carnicobarese_5216_unq2,carnicobarese_5216_unq3,carnicobarese_5216_unq4,carnicobarese_5216_unq5,carnicobarese_5216_unq6,carnicobarese_5216_unq7,carnicobarese_5216_unq8,carnicobarese_5216_unq9,carnicobarese_5216_unq10,carnicobarese_5216_unq11,carnicobarese_5216_unq12"},
+
+  ];
+
+window.creoleNameBases = window.creoleNameBases.filter((value, index, self) =>
+  index === self.findIndex((t) => (t.i === value.i))
+);
 
 if (typeof module !== "undefined" && module.exports) module.exports = window.creoleNameBases;

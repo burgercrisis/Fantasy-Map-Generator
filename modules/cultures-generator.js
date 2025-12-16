@@ -120,7 +120,176 @@ window.Cultures = (function () {
       nameBases = Names.getNameBases();
     }
 
-    cultures.forEach(c => (c.base = c.base % nameBases.length));
+    const getCultureMixerSeed = cultureId => {
+      const seedStr = typeof seed === "string" ? seed : String(seed || "");
+      let h = 2166136261;
+      const s = `culture-mixer|${seedStr}|${cultureId}`;
+      for (let i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+      }
+      return h >>> 0;
+    };
+
+    const makeRng = seedInt => {
+      let x = seedInt >>> 0;
+      return () => {
+        x += 0x6d2b79f5;
+        let t = x;
+        t = Math.imul(t ^ (t >>> 15), t | 1);
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    };
+
+    const buildCultureMixerIsoWeights = cultureId => {
+      const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
+      if (!catalog.length) return null;
+
+      const languages = catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
+      if (!languages.length) return null;
+
+      const rng = makeRng(getCultureMixerSeed(cultureId));
+      const isoWeights = {};
+
+      const picks = 3 + Math.floor(rng() * 4); // 3..6
+      for (let i = 0; i < picks; i++) {
+        const lang = languages[Math.floor(rng() * languages.length)];
+        if (!lang || !lang.iso) continue;
+        isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
+      }
+
+      return Object.keys(isoWeights).length ? isoWeights : null;
+    };
+
+    const generateFictionalDisplayNameFromNames = (names, options) => {
+      if (!Names || typeof Names.calculateChain !== "function") return "";
+      if (!Array.isArray(names) || names.length < 3) return "";
+
+      const sanitized = names
+        .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+        .filter(Boolean);
+
+      if (sanitized.length < 3) return "";
+
+      const chain = Names.calculateChain(sanitized.join(","));
+      if (!chain || chain[""] === undefined) return "";
+
+      const seedInt = options && typeof options.seed === "number" ? (options.seed >>> 0) : 0;
+      const rng = makeRng(seedInt || 1);
+      const pick = arr => arr[Math.floor(rng() * arr.length)];
+
+      const min = 4;
+      const max = 14;
+      const dupl = "lnrt";
+
+      let v = chain[""],
+        cur = pick(v),
+        w = "";
+
+      for (let i = 0; i < 20; i++) {
+        if (cur === "") {
+          if (w.length < min) {
+            cur = "";
+            w = "";
+            v = chain[""];
+          } else break;
+        } else {
+          if (w.length + cur.length > max) {
+            if (w.length < min) w += cur;
+            break;
+          } else v = chain[last(cur)] || chain[""];
+        }
+
+        w += cur;
+        cur = pick(v);
+      }
+
+      const l = last(w);
+      if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
+
+      let name = [...w].reduce(function (r, c, i, d) {
+        if (c === d[i + 1] && !dupl.includes(c)) return r;
+        if (!r.length) return c.toUpperCase();
+        if (r.slice(-1) === "-" && c === " ") return r;
+        if (r.slice(-1) === " ") return r + c.toUpperCase();
+        if (r.slice(-1) === "-") return r + c.toUpperCase();
+        if (c === "a" && d[i + 1] === "e") return r;
+        if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
+        return r + c;
+      }, "");
+
+      name = String(name || "").trim();
+      if (!name || name.length < 4) return "";
+      if (/^(elven|dwarven|orcish|draconic)$/i.test(name)) return "";
+      if (/\s/.test(name)) return "";
+      return name;
+    };
+
+    const ensureCultureMixerBaseIndex = cultureId => {
+      if (!Names || typeof Names.getMixedByIso !== "function") return null;
+
+      const existingIndex =
+        Array.isArray(nameBases) &&
+        nameBases.findIndex(b => b && b.cultureMixer && b.cultureMixerFor === cultureId);
+      if (existingIndex >= 0) return existingIndex;
+
+      const isoWeights = buildCultureMixerIsoWeights(cultureId);
+      if (!isoWeights) return null;
+
+      const mixSeed = getCultureMixerSeed(cultureId);
+      const count = 240;
+      let names;
+      try {
+        names = Names.getMixedByIso(isoWeights, {count, seed: mixSeed});
+      } catch (e) {
+        return null;
+      }
+
+      if (!Array.isArray(names) || names.length < 3) return null;
+      const sanitized = names
+        .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+        .filter(Boolean);
+      if (sanitized.length < 3) return null;
+
+      let min = 4;
+      let max = 12;
+      try {
+        const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
+        const q = p => lengths[Math.floor(p * (lengths.length - 1))];
+        const p25 = q(0.25);
+        const p75 = q(0.75);
+        const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
+        const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
+        min = computedMin;
+        max = computedMax;
+      } catch (e) {}
+
+      const nameSeed = (mixSeed ^ 0x9e3779b9) >>> 0;
+      const displayName = generateFictionalDisplayNameFromNames(sanitized, {seed: nameSeed});
+      const b = sanitized.join(",");
+      const baseIndex = nameBases.length;
+      nameBases.push({
+        name: displayName || `Mixed ${cultureId}`,
+        min,
+        max,
+        d: "",
+        m: 0,
+        b,
+        cultureMixer: true,
+        cultureMixerFor: cultureId,
+        isoWeights
+      });
+
+      return baseIndex;
+    };
+
+    // Assign mixer bases to all cultures (except wildlands at index 0)
+    for (const c of cultures) {
+      if (!c || c.i === 0 || c.removed) continue;
+      const baseIndex = ensureCultureMixerBaseIndex(c.i);
+      if (typeof baseIndex === "number") c.base = baseIndex;
+    }
 
     function selectCultures(culturesNumber) {
       let defaultCultures = getDefault(culturesNumber);

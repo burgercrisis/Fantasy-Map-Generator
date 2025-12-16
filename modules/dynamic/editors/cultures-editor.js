@@ -124,51 +124,10 @@ function culturesEditorAddLines() {
   const emblemShapeGroup = byId("emblemShape")?.selectedOptions[0]?.parentNode?.label;
   const selectShape = emblemShapeGroup === "Diversiform";
 
-  const getFallbackBase = () => {
-    if (nameBases && nameBases[1]) return 1;
-    if (nameBases && nameBases[0]) return 0;
-    if (Array.isArray(nameBases)) {
-      const i = nameBases.findIndex(b => b);
-      if (i >= 0) return i;
-    }
-    return 0;
-  };
-
-  const getRaceNameFromMixerBase = baseEntry => {
-    if (!baseEntry) return "";
-    if (baseEntry.raceMixerFor && typeof baseEntry.raceMixerFor === "string") return baseEntry.raceMixerFor;
-    if (!baseEntry.name || typeof baseEntry.name !== "string") return "";
-
-    const name = baseEntry.name.trimEnd();
-    const m1 = name.match(/^Race\s+(.+?)\s+\(Mixer\)$/);
-    if (m1 && m1[1]) return m1[1];
-
-    const m2 = name.match(/\(([^)]+)\)\s*$/);
-    if (m2 && m2[1]) {
-      const candidate = m2[1];
-      if (typeof ensureRaceMixerBaseIndex === "function") {
-        const baseIndex = ensureRaceMixerBaseIndex(candidate);
-        if (typeof baseIndex === "number") return candidate;
-      }
-    }
-
-    return "";
-  };
-
   for (const c of pack.cultures) {
     if (c.removed) continue;
 
-    if (typeof c.base !== "number" || !nameBases || !nameBases[c.base]) {
-      c.base = getFallbackBase();
-    }
-
-    const currentBaseEntry = nameBases && typeof c.base === "number" ? nameBases[c.base] : null;
-    const mixerRaceName = getRaceNameFromMixerBase(currentBaseEntry);
-    if (mixerRaceName && mixerRaceName !== "Human" && typeof ensureRaceMixerBaseIndex === "function") {
-      const baseIndex = ensureRaceMixerBaseIndex(mixerRaceName);
-      if (typeof baseIndex === "number") c.base = baseIndex;
-      else c.base = getFallbackBase();
-    }
+    if (typeof c.base !== "number" || !nameBases || !nameBases[c.base]) continue;
     const area = getArea(c.area);
     const rural = c.rural * populationRate;
     const urban = c.urban * populationRate * urbanization;
@@ -308,24 +267,7 @@ function getTypeOptions(type) {
 
 function getBaseOptions(base) {
   let options = "";
-  const isMixerLike = n => {
-    if (!n) return false;
-    if (n.raceMixerFor && typeof n.raceMixerFor === "string") return true;
-    const name = n && typeof n.name === "string" ? n.name.trimEnd() : "";
-    if (!name) return false;
-    if (/^Race\s+.+\s+\(Mixer\)$/.test(name)) return true;
-    const m = name.match(/\(([^)]+)\)\s*$/);
-    if (!m || !m[1]) return false;
-    const candidate = m[1];
-    if (typeof ensureRaceMixerBaseIndex === "function") {
-      const baseIndex = ensureRaceMixerBaseIndex(candidate);
-      if (typeof baseIndex === "number") return true;
-    }
-    return false;
-  };
-
   nameBases.forEach((n, i) => {
-    if (isMixerLike(n)) return;
     const name = n && typeof n.name === "string" ? n.name : "";
     options += `<option ${base === i ? "selected" : ""} value="${i}">${name}</option>`;
   });
