@@ -750,7 +750,9 @@ function findExistingRaceMixerBaseIndex(raceName) {
     const b = nameBases[i];
     if (b && b.raceMixerFor === raceName) return i;
     if (!b || typeof b.name !== "string") continue;
-    if (b.name === expectedName) return i;
+    const name = b.name.trimEnd();
+    if (name === expectedName) return i;
+    if (name.endsWith(`(${raceName})`)) return i;
   }
   return null;
 }
@@ -775,6 +777,22 @@ function ensureRaceMixerBaseIndex(raceName, options) {
       } catch (e) {
         return true;
       }
+
+      try {
+        const name = typeof base.name === "string" ? base.name.trimEnd() : "";
+        if (name && name.endsWith(`(${raceName})`)) {
+          const prefixName = name.slice(0, name.lastIndexOf("(")).trim();
+          if (prefixName) {
+            for (let j = 0; j < nameBases.length; j++) {
+              if (j === existing) continue;
+              const other = nameBases[j];
+              if (!other || typeof other.name !== "string") continue;
+              if (other.name !== prefixName) continue;
+              if (typeof other.b === "string" && other.b === base.b) return true;
+            }
+          }
+        }
+      } catch (e) {}
 
       try {
         const classicBases = fantasyRaceBases[raceName];

@@ -108,4 +108,10 @@
   {name: "Chamorro (dedicated)", i: 3224, min: 4, max: 11, d: "lnrt", m: 0, b: "chamorro_unq1,chamorro_unq2,chamorro_unq3,chamorro_unq4,chamorro_unq5,chamorro_unq6,chamorro_unq7,chamorro_unq8,chamorro_unq9,chamorro_unq10,chamorro_unq11,chamorro_unq12"},
   {name: "Palauan (dedicated)", i: 3225, min: 4, max: 11, d: "lnrt", m: 0, b: "palauan_unq1,palauan_unq2,palauan_unq3,palauan_unq4,palauan_unq5,palauan_unq6,palauan_unq7,palauan_unq8,palauan_unq9,palauan_unq10,palauan_unq11,palauan_unq12"},
   {name: "Rotuman (dedicated)", i: 3226, min: 4, max: 11, d: "lnrt", m: 0, b: "rotuman_unq1,rotuman_unq2,rotuman_unq3,rotuman_unq4,rotuman_unq5,rotuman_unq6,rotuman_unq7,rotuman_unq8,rotuman_unq9,rotuman_unq10,rotuman_unq11,rotuman_unq12"},
+
+  {name: "Baba Malay (dedicated)", i: 3277, min: 4, max: 11, d: "lnrt", m: 0, b: "babamalay_unq1,babamalay_unq2,babamalay_unq3,babamalay_unq4,babamalay_unq5,babamalay_unq6,babamalay_unq7,babamalay_unq8,babamalay_unq9,babamalay_unq10,babamalay_unq11,babamalay_unq12"},
+  {name: "Balinese Malay (dedicated)", i: 3278, min: 4, max: 11, d: "lnrt", m: 0, b: "balinesemalay_unq1,balinesemalay_unq2,balinesemalay_unq3,balinesemalay_unq4,balinesemalay_unq5,balinesemalay_unq6,balinesemalay_unq7,balinesemalay_unq8,balinesemalay_unq9,balinesemalay_unq10,balinesemalay_unq11,balinesemalay_unq12"},
+  {name: "Banda Malay (dedicated)", i: 3279, min: 4, max: 11, d: "lnrt", m: 0, b: "bandamalay_unq1,bandamalay_unq2,bandamalay_unq3,bandamalay_unq4,bandamalay_unq5,bandamalay_unq6,bandamalay_unq7,bandamalay_unq8,bandamalay_unq9,bandamalay_unq10,bandamalay_unq11,bandamalay_unq12"},
+  {name: "Betawi (dedicated)", i: 3280, min: 4, max: 11, d: "lnrt", m: 0, b: "betawi_unq1,betawi_unq2,betawi_unq3,betawi_unq4,betawi_unq5,betawi_unq6,betawi_unq7,betawi_unq8,betawi_unq9,betawi_unq10,betawi_unq11,betawi_unq12"},
+  {name: "Dili Malay (dedicated)", i: 3281, min: 4, max: 11, d: "lnrt", m: 0, b: "dilimalay_unq1,dilimalay_unq2,dilimalay_unq3,dilimalay_unq4,dilimalay_unq5,dilimalay_unq6,dilimalay_unq7,dilimalay_unq8,dilimalay_unq9,dilimalay_unq10,dilimalay_unq11,dilimalay_unq12"},
   ];

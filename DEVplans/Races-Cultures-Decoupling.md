@@ -14,6 +14,7 @@
 - Decision (for now): keep Races Editor “Recalculate” behavior as-is (it may reshape cultures via `initializeRacesForExpansion` + `Cultures.expand` and then refresh derived race fields).
 - Decision (for now): keep `culture.race` as a legacy/cached field (avoid breaking older maps / remaining call sites), but do not treat it as authoritative when `cells.race` is present.
  - 2025-12-15: Restarted local dev server for testing: `py -m http.server 3000` (http://localhost:3000).
+ - 2025-12-16: Fixed legacy race mixer bases named like `English (Hexblood)` to be detected and auto-refreshed (even without explicit refresh) so old saves don’t keep single-language/unmixed seed blobs.
 
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.

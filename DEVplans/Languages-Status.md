@@ -1583,6 +1583,8 @@ The following families / regions have **not yet received a full pass** for home-
 
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-16T02:52:38.735Z-worker2 reservedRange=3169-3218 isos=[anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole] status=complete.
 
+**2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T04:43:48.880Z-worker1 reservedRange=3227-3276 isos=[angas,auyokawa-language,bade-language,barein-language,beele-language] status=complete. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=angas,auyokawa-language,bade-language,barein-language,beele-language --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK.
+
  - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`; delta `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`).
  - 2025-12-15: NO_UNIQ_BASE claims dashboard shows `in_progress=0` (nextReservedRange `2569–2618`).
 
@@ -1941,6 +1943,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Notes / next steps:**
   - When extending or revisiting European families, update the JSON subset from the article above and re-run coverage.
   - Use coverage reports to cross-check that each major European standard language has both catalog and mixer entries and that coverage is balanced across Western, Central, Northern, and Eastern Europe.
+  - **2025-12-16 status:** Staged delta-only `setBases` batches (no `modules/namebases-real.js` edits) to burn down Europe base-set collisions: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch1-bavarian-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch2-west-slavic-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch3-nogai-karakalpak-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch4-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch5-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch6-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch7-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch8-finnic-9-setbases.json`.
 
 ### 8.8 Languages of West Asia – regional subset
 

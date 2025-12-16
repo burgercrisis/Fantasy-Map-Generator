@@ -1799,6 +1799,44 @@
         3276
       ],
       "notes": "Reserved i range: 3227-3276\nISO->base mapping (fill in):\n- angas->3227\n- auyokawa-language->3228\n- bade-language->3229\n- barein-language->3230\n- beele-language->3231\n\nVerified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=angas,auyokawa-language,bade-language,barein-language,beele-language --limit=300 OK; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js OK; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 OK. ISO->base mapping: angas->3227; auyokawa-language->3228; bade-language->3229; barein-language->3230; beele-language->3231."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-16T04:51:20.651Z-worker2",
+      "isos": [
+        "baba-malay",
+        "balinese-malay",
+        "banda-malay",
+        "betawi",
+        "dili-malay"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T04:51:20.651Z",
+      "updatedAt": "2025-12-16T04:51:20.651Z",
+      "reservedRange": [
+        3277,
+        3326
+      ],
+      "notes": "Reserved i range: 3277-3326\nISO->base mapping (fill in):\n- baba-malay->3277\n- balinese-malay->3278\n- banda-malay->3279\n- betawi->3280\n- dili-malay->3281"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T04:51:44.532Z-worker1",
+      "isos": [
+        "ammonite",
+        "amorite",
+        "amur-dagur",
+        "amuzgo",
+        "anaang"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-16T04:51:44.532Z",
+      "updatedAt": "2025-12-16T04:56:38.394Z",
+      "reservedRange": [
+        3327,
+        3376
+      ],
+      "notes": "Reserved i range: 3327-3376\nISO->base mapping (fill in):\n- ammonite->3327\n- amorite->3328\n- amur-dagur->3329\n- amuzgo->3330\n- anaang->3331\n\nReserved i range: 3327-3376\nISO->base:\n- ammonite->3327\n- amorite->3328\n- amur-dagur->3329\n- amuzgo->3330\n- anaang->3331\nDelta=tools/mixer-deltas/2025-12-16-worker1-mixed-ammonite.json; baseDefs=modules/namebases-real.js i:3327-3331\nVerified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ammonite,amorite,amur-dagur,amuzgo,anaang --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK."
     }
   ]
 }
