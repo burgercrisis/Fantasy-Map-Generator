@@ -1,0 +1,12 @@
+{
+  "setBases": {
+    "central-ludic": [9, 425, 426],
+    "central-veps": [9, 427, 428],
+    "eastern-votic": [9, 426, 429],
+    "northern-ludic": [9, 425, 427],
+    "northern-veps": [9, 427, 429],
+    "southern-veps": [9, 427, 438],
+    "western-votic": [9, 428, 429],
+    "zyuzdino": [9, 283, 320, 426, 427, 428, 438]
+  }
+}

@@ -2019,14 +2019,14 @@
         "awin",
         "awing"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T13:54:53.808Z",
-      "updatedAt": "2025-12-16T13:54:53.808Z",
+      "updatedAt": "2025-12-16T14:25:08.503Z",
       "reservedRange": [
         5456,
         5505
       ],
-      "notes": "Reserved i range: 5456-5505\nISO->base mapping (fill in):\n- awa->5456\n- awadhi->5457\n- awbono->5458\n- awin->5459\n- awing->5460"
+      "notes": "Reserved i range: 5456-5505\nISO->base mapping (fill in):\n- awa->5456\n- awadhi->5457\n- awbono->5458\n- awin->5459\n- awing->5460\n\nReserved i range: 5456-5505\n\nReserved i range: 5456-5505 | ISO->base: awa->5456; awadhi->5457; awbono->5458; awin->5459; awing->5460 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awa.json | Base defs: modules/namebases-fantasy.js i:5456-5460\n\nReserved i range: 5456-5505 | ISO->base: awa->5456; awadhi->5457; awbono->5458; awin->5459; awing->5460 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awa.json | Base defs: modules/namebases-fantasy.js i:5456-5460 | Verified: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK; coverage OK; failures OK; base-clusters OK (2025-12-16T14:02:37Z)"
     }
   ]
 }

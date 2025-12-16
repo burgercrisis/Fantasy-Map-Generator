@@ -199,6 +199,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - ✅ **worker2** `batchId=2025-12-16T11:44:23.906Z-worker2` (`assamese, assan, assyrian, atohwaim-kaugat, atsam`) verified and set to `complete`.
     - Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=assamese,assan,assyrian,atohwaim-kaugat,atsam" --limit=300` => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); `report-language-mixer-base-clusters --min-size=2` (exit 0).
 
+- ✅ **2025-12-16 Andalusi artifacts resync:** artifacts were stale (contained `5411–5415`); regenerated via `pnpm run mixer:apply-deltas` so `_compiled-dedicated-pins.json` + `config/language-mixer-map.*` match deltas/base defs (`5211–5215`). Verified: `pnpm run mixer:check-deltas` OK.
+
 - ✅ **2025-12-16 NO_UNIQ_BASE2 next5 micro-pass (worker1 / batchId=2025-12-16T13:30:49.323Z-worker1):** pinned dedicated bases `5406–5410` for `attapady-kurumba`, `australian-kriol`, `auye`, `ava`, `avokaya` (delta: `tools/mixer-deltas/2025-12-16-worker1-mixed-attapady-kurumba.json`; base defs: `modules/namebases-creole.js` `i:5406–5410`). Verified via `/no-unique-base2` commands: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=batch) => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); base-clusters (exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 
@@ -1832,14 +1834,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 83
+  - `Nonunique Bases:` 70
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 73
-  - `clustered bases:` 15
-  - `clustered full items:` 15
-  - `cluster size histogram:` size2=9, size3=2, size4+=4
-  - `clustered isos:` lif(23), tamil(20), burushaski(12), newar(4), hno(3), kfq(3), anq(2), eng(2), hin(2), hinglish(2), indian-english(2), nepalese-english(2), njm(2), oon(2), srb(2)
+  - `unique bases:` 80
+  - `clustered bases:` 8
+  - `clustered full items:` 8
+  - `cluster size histogram:` size2=4, size3=2, size4+=2
+  - `clustered isos:` burushaski(7), newar(4), hno(3), kfq(3), hinglish(2), indian-english(2), nepalese-english(2), srb(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-south-asia.json`
@@ -1858,14 +1860,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 197 (89.1%)
+  - `fully wired:` 201 (91.0%)
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 24
+  - `unmatched:` 20
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 197
+  - `Nonunique Bases:` 192
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 119
@@ -1877,12 +1879,17 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Coverage is **partially clean** (`missing both=0`, `unmatched=24`, `skipped=23`). Next work: burn down `unmatched` items via ISO bindings / wiring. Uniqueness debt remains high (`Nonunique Bases=197`).
+- **Status update:** Coverage is **partially clean** (`missing both=0`, `unmatched=20`, `skipped=23`). Next work: burn down `unmatched` items via ISO bindings / wiring. Uniqueness debt remains high (`Nonunique Bases=192`).
 
  - **2025-12-16 status (Batch1 complete):**
    - **Batch scope:** resolved `missing both` for `mzp`, `noj`, `oca`, `tna` via dedicated pins `2435–2438` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch1-missing-both.json`).
    - **Latest verified coverage run:** `considered=221`, `skipped=23`, `fully wired=197`, `missing both=0`, `unmatched=24`, `Nonunique Bases=197`.
    - **Seed uniqueness:** targeted seed-uniqueness report for `mzp,noj,oca,tna` now shows 0 strict failures and 0 normalized failures.
+
+ - **2025-12-16 status (Kom alias binding):**
+   - **Batch scope:** bound `Kom` -> `tob` (Toba Qom).
+   - **Latest verified coverage run:** `considered=221`, `skipped=23`, `fully wired=201`, `missing both=0`, `unmatched=20`, `Nonunique Bases=192`.
+   - **Guardrails:** `pnpm run mixer:guardrails` => OK (`map=3478`, `catalog=3478`).
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
@@ -1943,7 +1950,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 90
+  - `Nonunique Bases:` 85
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 168
@@ -1962,6 +1969,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - **2025-12-16 status:** Cleared `NO_UNIQ_BASE` for `ingrian,kven,livonian,ludic,me-nkieli,veps,v-ro,votic` by adding dedicated bases `3332–3339` in `modules/namebases-real.js` and pinning via `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch9-finnic-9-dedicatedpins.json`; verified seed-uniqueness (`No globally-unique base index: 0`) and core checks (coverage/failures/duplicate-isos).
   - **2025-12-16 status:** Staged Europe batch10 North Germanic dedicated pins for `danish,isl,norwegian,ovd,swe` using dedicated bases `3950–3954` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch10-north-germanic-dedicatedpins.json`.
   - **2025-12-16 verified:** `pnpm run mixer:guardrails` OK; seed-uniqueness OK for `danish,isl,norwegian,ovd,swe` (`No globally-unique base index: 0`); core checks OK (coverage/failures/duplicate-isos/inconsistencies); Europe list base-uniqueness: `unique bases: 168`, `clustered bases: 0`, `Nonunique Bases: 92`.
+  - **2025-12-16 verification:** Refreshed this list snapshot via `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`; updated `Nonunique Bases: 85`.
 
 ### 8.8 Languages of West Asia – regional subset
 
@@ -2147,6 +2155,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Status notes:** Coverage is now complete for this list (`fully wired` = 100% of considered). Next work is base-uniqueness declustering (still high `Nonunique Bases`) and confirming/adjusting race reachability where needed. ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the Koreanic `bases=[10]` mega-cluster (kept `kor` as the anchor while moving dialect/lect entries onto unique `[10,...]` mixes); per-list base-set uniqueness moved from `clustered bases=60` to `clustered bases=58` and `run-language-mixer-suite` is green (**0** failures).
 
 - ✅ **2025-12-15 /wikipedia1 China spoken languages (Mandarin dialects batch1 verified):** pinned dedicated bases `2900–2904` for `central-plains-mandarin`, `lan-yin-mandarin`, `northeastern-mandarin`, `southwestern-mandarin`, `lower-yangtze-mandarin` (delta: `tools/mixer-deltas/2025-12-15-wikipedia1-china-spoken-languages-batch1-mandarin-dialects.json`; base defs in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=5; coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0. Per-list `Nonunique Bases` reduced from **152** to **146**.
+
+- **2025-12-16 /wikipedia1 China spoken languages (Mongolic batch3 staged; needs apply-deltas):** pinned dedicated bases `5361–5365` for `mongolian`, `buryat`, `daur`, `oirat`, `torgut` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-china-spoken-languages-batch3-mongolic.json`; base defs in `modules/namebases-real.js`). `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock` now reports only “artifacts out of date vs deltas” (expected until apply-deltas regenerates `config/language-mixer-map.json` + `tools/mixer-deltas/_compiled-dedicated-pins.json`).
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
 
@@ -2514,6 +2524,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `clustered isos:` mlg(4)
 
 - ✅ **2025-12-12 status:** Coverage for this list is now fully wired (**72/72**). Added missing ISO bindings in `tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json` and appended the required catalog + mixer-map entries (append-only invariant preserved). Suite + devplan snapshot refreshed.
+ - ✅ **2025-12-16 status:** Resolved remaining `unmatched` items by binding `Dawan` -> `aoz` and `Gilbertese` -> `kiribati` in `tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json`. Coverage now fully wired (**72/72**). Base-set cluster remains `mlg(4)`; race coverage ok.
 
 ### 8.34 Mutually intelligible languages – seed subset (view over full list)
 

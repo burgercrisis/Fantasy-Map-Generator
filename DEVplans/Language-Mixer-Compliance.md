@@ -17,7 +17,9 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-16: Fixed `mixer:guardrails` duplicate `i:` collisions (5106–5110) between `modules/namebases-creole.js` and `modules/namebases-real.js`, and restored missing setBases aux base defs (5103–5105) in `modules/namebases-creole.js`. Verification: `pnpm run mixer:guardrails` => `[guardrails] OK. map=3475 catalog=3475`.
 
- - 2025-12-16: Follow-up verification: `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` => exit 0; `pnpm run mixer:check-deltas` => exit 0.
+- 2025-12-16: Fixed `mixer:guardrails` duplicate `i:` collisions (5211–5215) between `modules/namebases-creole.js` and `modules/namebases-fantasy.js` by renumbering creole bases to `i:5216–5220` and updating delta pins (`tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json`). Verification: `pnpm run mixer:guardrails` => OK.
+
+- 2025-12-16: Follow-up verification: `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` => exit 0; `pnpm run mixer:check-deltas` => exit 0.
 
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-first coordination via MCP Coordination Hub workstreams + hub locks; hub locks are the only single-writer enforcement mechanism. Repo-local claim logs remain coordination metadata (batching + reserved ranges + notes).
 

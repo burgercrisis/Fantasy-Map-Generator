@@ -137,17 +137,23 @@
   {name: "Cappadocian Greek (dedicated)", i: 5159, min: 4, max: 11, d: "lnrt", m: 0, b: "cappadociangreek_unq1,cappadociangreek_unq2,cappadociangreek_unq3,cappadociangreek_unq4,cappadociangreek_unq5,cappadociangreek_unq6,cappadociangreek_unq7,cappadociangreek_unq8,cappadociangreek_unq9,cappadociangreek_unq10,cappadociangreek_unq11,cappadociangreek_unq12"},
   {name: "Car Nicobarese (dedicated)", i: 5160, min: 4, max: 11, d: "lnrt", m: 0, b: "carnicobarese_unq1,carnicobarese_unq2,carnicobarese_unq3,carnicobarese_unq4,carnicobarese_unq5,carnicobarese_unq6,carnicobarese_unq7,carnicobarese_unq8,carnicobarese_unq9,carnicobarese_unq10,carnicobarese_unq11,carnicobarese_unq12"},
 
-  {name: "Andalusi Arabic (dedicated)", i: 5411, min: 4, max: 11, d: "lnrt", m: 0, b: "andalusi-arabic_unq1,andalusi-arabic_unq2,andalusi-arabic_unq3,andalusi-arabic_unq4,andalusi-arabic_unq5,andalusi-arabic_unq6,andalusi-arabic_unq7,andalusi-arabic_unq8,andalusi-arabic_unq9,andalusi-arabic_unq10,andalusi-arabic_unq11,andalusi-arabic_unq12"},
-  {name: "Anq (dedicated)", i: 5412, min: 4, max: 11, d: "lnrt", m: 0, b: "anq_unq1,anq_unq2,anq_unq3,anq_unq4,anq_unq5,anq_unq6,anq_unq7,anq_unq8,anq_unq9,anq_unq10,anq_unq11,anq_unq12"},
-  {name: "Ao (dedicated)", i: 5413, min: 4, max: 11, d: "lnrt", m: 0, b: "ao_unq1,ao_unq2,ao_unq3,ao_unq4,ao_unq5,ao_unq6,ao_unq7,ao_unq8,ao_unq9,ao_unq10,ao_unq11,ao_unq12"},
-  {name: "Aot (dedicated)", i: 5414, min: 4, max: 11, d: "lnrt", m: 0, b: "aot_unq1,aot_unq2,aot_unq3,aot_unq4,aot_unq5,aot_unq6,aot_unq7,aot_unq8,aot_unq9,aot_unq10,aot_unq11,aot_unq12"},
-  {name: "Aoz (dedicated)", i: 5415, min: 4, max: 11, d: "lnrt", m: 0, b: "aoz_unq1,aoz_unq2,aoz_unq3,aoz_unq4,aoz_unq5,aoz_unq6,aoz_unq7,aoz_unq8,aoz_unq9,aoz_unq10,aoz_unq11,aoz_unq12"},
+  {name: "Andalusi Arabic (dedicated)", i: 5211, min: 4, max: 11, d: "lnrt", m: 0, b: "andalusi-arabic_unq1,andalusi-arabic_unq2,andalusi-arabic_unq3,andalusi-arabic_unq4,andalusi-arabic_unq5,andalusi-arabic_unq6,andalusi-arabic_unq7,andalusi-arabic_unq8,andalusi-arabic_unq9,andalusi-arabic_unq10,andalusi-arabic_unq11,andalusi-arabic_unq12"},
+  {name: "Anq (dedicated)", i: 5212, min: 4, max: 11, d: "lnrt", m: 0, b: "anq_unq1,anq_unq2,anq_unq3,anq_unq4,anq_unq5,anq_unq6,anq_unq7,anq_unq8,anq_unq9,anq_unq10,anq_unq11,anq_unq12"},
+  {name: "Ao (dedicated)", i: 5213, min: 4, max: 11, d: "lnrt", m: 0, b: "ao_unq1,ao_unq2,ao_unq3,ao_unq4,ao_unq5,ao_unq6,ao_unq7,ao_unq8,ao_unq9,ao_unq10,ao_unq11,ao_unq12"},
+  {name: "Aot (dedicated)", i: 5214, min: 4, max: 11, d: "lnrt", m: 0, b: "aot_unq1,aot_unq2,aot_unq3,aot_unq4,aot_unq5,aot_unq6,aot_unq7,aot_unq8,aot_unq9,aot_unq10,aot_unq11,aot_unq12"},
+  {name: "Aoz (dedicated)", i: 5215, min: 4, max: 11, d: "lnrt", m: 0, b: "aoz_unq1,aoz_unq2,aoz_unq3,aoz_unq4,aoz_unq5,aoz_unq6,aoz_unq7,aoz_unq8,aoz_unq9,aoz_unq10,aoz_unq11,aoz_unq12"},
 
   {name: "Attapady Kurumba (dedicated)", i: 5406, min: 4, max: 11, d: "lnrt", m: 0, b: "attapady-kurumba_unq1,attapady-kurumba_unq2,attapady-kurumba_unq3,attapady-kurumba_unq4,attapady-kurumba_unq5,attapady-kurumba_unq6,attapady-kurumba_unq7,attapady-kurumba_unq8,attapady-kurumba_unq9,attapady-kurumba_unq10,attapady-kurumba_unq11,attapady-kurumba_unq12"},
   {name: "Australian Kriol (dedicated)", i: 5407, min: 4, max: 11, d: "lnrt", m: 0, b: "australian-kriol_unq1,australian-kriol_unq2,australian-kriol_unq3,australian-kriol_unq4,australian-kriol_unq5,australian-kriol_unq6,australian-kriol_unq7,australian-kriol_unq8,australian-kriol_unq9,australian-kriol_unq10,australian-kriol_unq11,australian-kriol_unq12"},
   {name: "Auye (dedicated)", i: 5408, min: 4, max: 11, d: "lnrt", m: 0, b: "auye_unq1,auye_unq2,auye_unq3,auye_unq4,auye_unq5,auye_unq6,auye_unq7,auye_unq8,auye_unq9,auye_unq10,auye_unq11,auye_unq12"},
   {name: "Ava (dedicated)", i: 5409, min: 4, max: 11, d: "lnrt", m: 0, b: "ava_unq1,ava_unq2,ava_unq3,ava_unq4,ava_unq5,ava_unq6,ava_unq7,ava_unq8,ava_unq9,ava_unq10,ava_unq11,ava_unq12"},
   {name: "Avokaya (dedicated)", i: 5410, min: 4, max: 11, d: "lnrt", m: 0, b: "avokaya_unq1,avokaya_unq2,avokaya_unq3,avokaya_unq4,avokaya_unq5,avokaya_unq6,avokaya_unq7,avokaya_unq8,avokaya_unq9,avokaya_unq10,avokaya_unq11,avokaya_unq12"},
+
+  {name: "Andalusi Arabic (setBases aux)", i: 5411, min: 4, max: 11, d: "lnrt", m: 0, b: "andalusi-arabic_5411_unq1,andalusi-arabic_5411_unq2,andalusi-arabic_5411_unq3,andalusi-arabic_5411_unq4,andalusi-arabic_5411_unq5,andalusi-arabic_5411_unq6,andalusi-arabic_5411_unq7,andalusi-arabic_5411_unq8,andalusi-arabic_5411_unq9,andalusi-arabic_5411_unq10,andalusi-arabic_5411_unq11,andalusi-arabic_5411_unq12"},
+  {name: "Anq (setBases aux)", i: 5412, min: 4, max: 11, d: "lnrt", m: 0, b: "anq_5412_unq1,anq_5412_unq2,anq_5412_unq3,anq_5412_unq4,anq_5412_unq5,anq_5412_unq6,anq_5412_unq7,anq_5412_unq8,anq_5412_unq9,anq_5412_unq10,anq_5412_unq11,anq_5412_unq12"},
+  {name: "Ao (setBases aux)", i: 5413, min: 4, max: 11, d: "lnrt", m: 0, b: "ao_5413_unq1,ao_5413_unq2,ao_5413_unq3,ao_5413_unq4,ao_5413_unq5,ao_5413_unq6,ao_5413_unq7,ao_5413_unq8,ao_5413_unq9,ao_5413_unq10,ao_5413_unq11,ao_5413_unq12"},
+  {name: "Aot (setBases aux)", i: 5414, min: 4, max: 11, d: "lnrt", m: 0, b: "aot_5414_unq1,aot_5414_unq2,aot_5414_unq3,aot_5414_unq4,aot_5414_unq5,aot_5414_unq6,aot_5414_unq7,aot_5414_unq8,aot_5414_unq9,aot_5414_unq10,aot_5414_unq11,aot_5414_unq12"},
+  {name: "Aoz (setBases aux)", i: 5415, min: 4, max: 11, d: "lnrt", m: 0, b: "aoz_5415_unq1,aoz_5415_unq2,aoz_5415_unq3,aoz_5415_unq4,aoz_5415_unq5,aoz_5415_unq6,aoz_5415_unq7,aoz_5415_unq8,aoz_5415_unq9,aoz_5415_unq10,aoz_5415_unq11,aoz_5415_unq12"},
 ];
 
 if (typeof module !== "undefined" && module.exports) module.exports = window.creoleNameBases;

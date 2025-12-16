@@ -300,9 +300,11 @@
       "workerId": 10,
       "target": "tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T13:23:52.912Z",
-      "updatedAt": "2025-12-16T13:23:52.912Z"
+      "updatedAt": "2025-12-16T14:21:31.642Z",
+      "finishedAt": "2025-12-16T14:21:31.642Z",
+      "note": "Coverage: unmatched 2->0 by adding iso bindings (Dawan->aoz; Gilbertese->kiribati) in tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json. Coverage now 72/72; base-set cluster remains mlg(4); race coverage all ok."
     }
   ]
 }

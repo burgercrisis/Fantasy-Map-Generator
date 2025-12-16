@@ -1017,6 +1017,14 @@ window.realWorldNameBases = [
       {name: "Assyrian (dedicated)", i: 5358, min: 4, max: 11, d: "lnrt", m: 0, b: "assyrian_unq1,assyrian_unq2,assyrian_unq3,assyrian_unq4,assyrian_unq5,assyrian_unq6,assyrian_unq7,assyrian_unq8,assyrian_unq9,assyrian_unq10,assyrian_unq11,assyrian_unq12"},
       {name: "Atohwaim-Kaugat (dedicated)", i: 5359, min: 4, max: 11, d: "lnrt", m: 0, b: "atohwaimkaugat_unq1,atohwaimkaugat_unq2,atohwaimkaugat_unq3,atohwaimkaugat_unq4,atohwaimkaugat_unq5,atohwaimkaugat_unq6,atohwaimkaugat_unq7,atohwaimkaugat_unq8,atohwaimkaugat_unq9,atohwaimkaugat_unq10,atohwaimkaugat_unq11,atohwaimkaugat_unq12"},
       {name: "Atsam (dedicated)", i: 5360, min: 4, max: 11, d: "lnrt", m: 0, b: "atsam_unq1,atsam_unq2,atsam_unq3,atsam_unq4,atsam_unq5,atsam_unq6,atsam_unq7,atsam_unq8,atsam_unq9,atsam_unq10,atsam_unq11,atsam_unq12"},
+      {name: "Mongolian (dedicated)", i: 5361, min: 4, max: 11, d: "lnrt", m: 0, b: "mongolian_unq1,mongolian_unq2,mongolian_unq3,mongolian_unq4,mongolian_unq5,mongolian_unq6,mongolian_unq7,mongolian_unq8,mongolian_unq9,mongolian_unq10,mongolian_unq11,mongolian_unq12"},
+      {name: "Buryat (dedicated)", i: 5362, min: 4, max: 11, d: "lnrt", m: 0, b: "buryat_unq1,buryat_unq2,buryat_unq3,buryat_unq4,buryat_unq5,buryat_unq6,buryat_unq7,buryat_unq8,buryat_unq9,buryat_unq10,buryat_unq11,buryat_unq12"},
+      {name: "Daur (dedicated)", i: 5363, min: 4, max: 11, d: "lnrt", m: 0, b: "daur_unq1,daur_unq2,daur_unq3,daur_unq4,daur_unq5,daur_unq6,daur_unq7,daur_unq8,daur_unq9,daur_unq10,daur_unq11,daur_unq12"},
+      {name: "Oirat (dedicated)", i: 5364, min: 4, max: 11, d: "lnrt", m: 0, b: "oirat_unq1,oirat_unq2,oirat_unq3,oirat_unq4,oirat_unq5,oirat_unq6,oirat_unq7,oirat_unq8,oirat_unq9,oirat_unq10,oirat_unq11,oirat_unq12"},
+      {name: "Torgut Oirat (dedicated)", i: 5365, min: 4, max: 11, d: "lnrt", m: 0, b: "torgutoirat_unq1,torgutoirat_unq2,torgutoirat_unq3,torgutoirat_unq4,torgutoirat_unq5,torgutoirat_unq6,torgutoirat_unq7,torgutoirat_unq8,torgutoirat_unq9,torgutoirat_unq10,torgutoirat_unq11,torgutoirat_unq12"},
+      {name: "Bambassi (dedicated)", i: 5366, min: 4, max: 11, d: "lnrt", m: 0, b: "bambassi_unq1,bambassi_unq2,bambassi_unq3,bambassi_unq4,bambassi_unq5,bambassi_unq6,bambassi_unq7,bambassi_unq8,bambassi_unq9,bambassi_unq10,bambassi_unq11,bambassi_unq12"},
+      {name: "Tagoi (dedicated)", i: 5367, min: 4, max: 11, d: "lnrt", m: 0, b: "tagoi_unq1,tagoi_unq2,tagoi_unq3,tagoi_unq4,tagoi_unq5,tagoi_unq6,tagoi_unq7,tagoi_unq8,tagoi_unq9,tagoi_unq10,tagoi_unq11,tagoi_unq12"},
+      {name: "Wali Sudan (dedicated)", i: 5368, min: 4, max: 11, d: "lnrt", m: 0, b: "wali-sudan_unq1,wali-sudan_unq2,wali-sudan_unq3,wali-sudan_unq4,wali-sudan_unq5,wali-sudan_unq6,wali-sudan_unq7,wali-sudan_unq8,wali-sudan_unq9,wali-sudan_unq10,wali-sudan_unq11,wali-sudan_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
