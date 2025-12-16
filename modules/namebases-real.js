@@ -958,6 +958,15 @@ window.realWorldNameBases = [
       {name: "Amuzgo (dedicated)", i: 3330, min: 4, max: 11, d: "lnrt", m: 0, b: "amuzgo_unq1,amuzgo_unq2,amuzgo_unq3,amuzgo_unq4,amuzgo_unq5,amuzgo_unq6,amuzgo_unq7,amuzgo_unq8,amuzgo_unq9,amuzgo_unq10,amuzgo_unq11,amuzgo_unq12"},
       {name: "Anaang (dedicated)", i: 3331, min: 4, max: 11, d: "lnrt", m: 0, b: "anaang_unq1,anaang_unq2,anaang_unq3,anaang_unq4,anaang_unq5,anaang_unq6,anaang_unq7,anaang_unq8,anaang_unq9,anaang_unq10,anaang_unq11,anaang_unq12"},
 
+      {name: "Ingrian (dedicated)", i: 3332, min: 4, max: 11, d: "lnrt", m: 0, b: "ingrian_unq1,ingrian_unq2,ingrian_unq3,ingrian_unq4,ingrian_unq5,ingrian_unq6,ingrian_unq7,ingrian_unq8,ingrian_unq9,ingrian_unq10,ingrian_unq11,ingrian_unq12"},
+      {name: "Kven (dedicated)", i: 3333, min: 4, max: 11, d: "lnrt", m: 0, b: "kven_unq1,kven_unq2,kven_unq3,kven_unq4,kven_unq5,kven_unq6,kven_unq7,kven_unq8,kven_unq9,kven_unq10,kven_unq11,kven_unq12"},
+      {name: "Livonian (dedicated)", i: 3334, min: 4, max: 11, d: "lnrt", m: 0, b: "livonian_unq1,livonian_unq2,livonian_unq3,livonian_unq4,livonian_unq5,livonian_unq6,livonian_unq7,livonian_unq8,livonian_unq9,livonian_unq10,livonian_unq11,livonian_unq12"},
+      {name: "Ludic (dedicated)", i: 3335, min: 4, max: 11, d: "lnrt", m: 0, b: "ludic_unq1,ludic_unq2,ludic_unq3,ludic_unq4,ludic_unq5,ludic_unq6,ludic_unq7,ludic_unq8,ludic_unq9,ludic_unq10,ludic_unq11,ludic_unq12"},
+      {name: "Me\u00e4nkieli (dedicated)", i: 3336, min: 4, max: 11, d: "lnrt", m: 0, b: "menkieli_unq1,menkieli_unq2,menkieli_unq3,menkieli_unq4,menkieli_unq5,menkieli_unq6,menkieli_unq7,menkieli_unq8,menkieli_unq9,menkieli_unq10,menkieli_unq11,menkieli_unq12"},
+      {name: "Veps (dedicated)", i: 3337, min: 4, max: 11, d: "lnrt", m: 0, b: "veps_unq1,veps_unq2,veps_unq3,veps_unq4,veps_unq5,veps_unq6,veps_unq7,veps_unq8,veps_unq9,veps_unq10,veps_unq11,veps_unq12"},
+      {name: "V\u00f5ro (dedicated)", i: 3338, min: 4, max: 11, d: "lnrt", m: 0, b: "vro_unq1,vro_unq2,vro_unq3,vro_unq4,vro_unq5,vro_unq6,vro_unq7,vro_unq8,vro_unq9,vro_unq10,vro_unq11,vro_unq12"},
+      {name: "Votic (dedicated)", i: 3339, min: 4, max: 11, d: "lnrt", m: 0, b: "votic_unq1,votic_unq2,votic_unq3,votic_unq4,votic_unq5,votic_unq6,votic_unq7,votic_unq8,votic_unq9,votic_unq10,votic_unq11,votic_unq12"},
+
 
     ];
 

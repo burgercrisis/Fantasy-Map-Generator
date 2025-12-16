@@ -123,6 +123,12 @@
   {name: "Bozo (dedicated)", i: 3291, min: 4, max: 11, d: "lnrt", m: 0, b: "bozo_unq1,bozo_unq2,bozo_unq3,bozo_unq4,bozo_unq5,bozo_unq6,bozo_unq7,bozo_unq8,bozo_unq9,bozo_unq10,bozo_unq11,bozo_unq12"},
   {name: "Buu (dedicated)", i: 3292, min: 4, max: 11, d: "lnrt", m: 0, b: "buu_unq1,buu_unq2,buu_unq3,buu_unq4,buu_unq5,buu_unq6,buu_unq7,buu_unq8,buu_unq9,buu_unq10,buu_unq11,buu_unq12"},
   {name: "Dagaare (dedicated)", i: 3293, min: 4, max: 11, d: "lnrt", m: 0, b: "dagaare_unq1,dagaare_unq2,dagaare_unq3,dagaare_unq4,dagaare_unq5,dagaare_unq6,dagaare_unq7,dagaare_unq8,dagaare_unq9,dagaare_unq10,dagaare_unq11,dagaare_unq12"},
+
+  {name: "Anca (dedicated)", i: 3944, min: 4, max: 11, d: "lnrt", m: 0, b: "anca_unq1,anca_unq2,anca_unq3,anca_unq4,anca_unq5,anca_unq6,anca_unq7,anca_unq8,anca_unq9,anca_unq10,anca_unq11,anca_unq12"},
+  {name: "Ancient Egyptian (dedicated)", i: 3945, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientegyptian_unq1,ancientegyptian_unq2,ancientegyptian_unq3,ancientegyptian_unq4,ancientegyptian_unq5,ancientegyptian_unq6,ancientegyptian_unq7,ancientegyptian_unq8,ancientegyptian_unq9,ancientegyptian_unq10,ancientegyptian_unq11,ancientegyptian_unq12"},
+  {name: "Ancient North Arabian (dedicated)", i: 3946, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientnortharabian_unq1,ancientnortharabian_unq2,ancientnortharabian_unq3,ancientnortharabian_unq4,ancientnortharabian_unq5,ancientnortharabian_unq6,ancientnortharabian_unq7,ancientnortharabian_unq8,ancientnortharabian_unq9,ancientnortharabian_unq10,ancientnortharabian_unq11,ancientnortharabian_unq12"},
+  {name: "Aneme Wake (dedicated)", i: 3947, min: 4, max: 11, d: "lnrt", m: 0, b: "anemewake_unq1,anemewake_unq2,anemewake_unq3,anemewake_unq4,anemewake_unq5,anemewake_unq6,anemewake_unq7,anemewake_unq8,anemewake_unq9,anemewake_unq10,anemewake_unq11,anemewake_unq12"},
+  {name: "Angaataha (dedicated)", i: 3948, min: 4, max: 11, d: "lnrt", m: 0, b: "angaataha_unq1,angaataha_unq2,angaataha_unq3,angaataha_unq4,angaataha_unq5,angaataha_unq6,angaataha_unq7,angaataha_unq8,angaataha_unq9,angaataha_unq10,angaataha_unq11,angaataha_unq12"},
 ];
 
 if (typeof module !== "undefined" && module.exports) module.exports = window.creoleNameBases;

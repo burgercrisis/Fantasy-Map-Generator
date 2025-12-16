@@ -1810,14 +1810,14 @@
         "betawi",
         "dili-malay"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T04:51:20.651Z",
-      "updatedAt": "2025-12-16T04:51:20.651Z",
+      "updatedAt": "2025-12-16T08:07:43.056Z",
       "reservedRange": [
         3277,
         3326
       ],
-      "notes": "Reserved i range: 3277-3326\nISO->base mapping (fill in):\n- baba-malay->3277\n- balinese-malay->3278\n- banda-malay->3279\n- betawi->3280\n- dili-malay->3281"
+      "notes": "Reserved i range: 3277-3326\nISO->base mapping (fill in):\n- baba-malay->3277\n- balinese-malay->3278\n- banda-malay->3279\n- betawi->3280\n- dili-malay->3281\n\nReserved i range: 3277-3326\n\nISO->base mapping applied (dedicatedPins + baseDefs in modules/namebases-creole.js; delta tools/mixer-deltas/2025-12-16-worker2-mixed-baba-malay.json):\\n- baba-malay->3277\\n- balinese-malay->3278\\n- banda-malay->3279\\n- betawi->3280\\n- dili-malay->3281\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=baba-malay balinese-malay banda-malay betawi dili-malay\\ --limit=300 (Missing mapping:0; No globally-unique base index:0; strict/norm failures:0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nReserved i range: 3277-3326\n\nReserved i range: 3277-3326\n\nReserved i range: 3277-3326 | ISO->base: baba-malay->3277; balinese-malay->3278; banda-malay->3279; betawi->3280; dili-malay->3281 | Verified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baba-malay,balinese-malay,banda-malay,betawi,dili-malay --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK\n\nVERIFIED 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=baba-malay balinese-malay banda-malay betawi dili-malay\\ --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0. Delta=tools/mixer-deltas/2025-12-16-worker2-mixed-baba-malay.json; baseDefs=modules/namebases-creole.js i:3277-3281."
     },
     {
       "workerId": 1,
@@ -1837,6 +1837,25 @@
         3376
       ],
       "notes": "Reserved i range: 3327-3376\nISO->base mapping (fill in):\n- ammonite->3327\n- amorite->3328\n- amur-dagur->3329\n- amuzgo->3330\n- anaang->3331\n\nReserved i range: 3327-3376\nISO->base:\n- ammonite->3327\n- amorite->3328\n- amur-dagur->3329\n- amuzgo->3330\n- anaang->3331\nDelta=tools/mixer-deltas/2025-12-16-worker1-mixed-ammonite.json; baseDefs=modules/namebases-real.js i:3327-3331\nVerified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ammonite,amorite,amur-dagur,amuzgo,anaang --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T08:14:29.868Z-worker1",
+      "isos": [
+        "anca",
+        "ancient-egyptian",
+        "ancient-north-arabian",
+        "aneme-wake",
+        "angaataha"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T08:14:29.868Z",
+      "updatedAt": "2025-12-16T08:14:29.868Z",
+      "reservedRange": [
+        3944,
+        3993
+      ],
+      "notes": "Reserved i range: 3944-3993\nISO->base mapping (fill in):\n- anca->3944\n- ancient-egyptian->3945\n- ancient-north-arabian->3946\n- aneme-wake->3947\n- angaataha->3948"
     }
   ]
 }

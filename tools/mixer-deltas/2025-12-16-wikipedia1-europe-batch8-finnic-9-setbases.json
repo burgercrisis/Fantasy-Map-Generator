@@ -1,12 +1,7 @@
 {
   "setBases": {
-    "ingrian": [9, 274],
-    "kven": [9, 283],
     "livonian": [9, 320],
     "ludic": [9, 425],
-    "me-nkieli": [9, 426],
-    "veps": [9, 427],
-    "v-ro": [9, 428],
     "votic": [9, 429]
   }
 }
