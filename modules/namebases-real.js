@@ -1017,12 +1017,6 @@ window.realWorldNameBases = [
       {name: "Assyrian (dedicated)", i: 5358, min: 4, max: 11, d: "lnrt", m: 0, b: "assyrian_unq1,assyrian_unq2,assyrian_unq3,assyrian_unq4,assyrian_unq5,assyrian_unq6,assyrian_unq7,assyrian_unq8,assyrian_unq9,assyrian_unq10,assyrian_unq11,assyrian_unq12"},
       {name: "Atohwaim-Kaugat (dedicated)", i: 5359, min: 4, max: 11, d: "lnrt", m: 0, b: "atohwaimkaugat_unq1,atohwaimkaugat_unq2,atohwaimkaugat_unq3,atohwaimkaugat_unq4,atohwaimkaugat_unq5,atohwaimkaugat_unq6,atohwaimkaugat_unq7,atohwaimkaugat_unq8,atohwaimkaugat_unq9,atohwaimkaugat_unq10,atohwaimkaugat_unq11,atohwaimkaugat_unq12"},
       {name: "Atsam (dedicated)", i: 5360, min: 4, max: 11, d: "lnrt", m: 0, b: "atsam_unq1,atsam_unq2,atsam_unq3,atsam_unq4,atsam_unq5,atsam_unq6,atsam_unq7,atsam_unq8,atsam_unq9,atsam_unq10,atsam_unq11,atsam_unq12"},
-
-      {name: "Andalusi Arabic (dedicated)", i: 5206, min: 4, max: 11, d: "lnrt", m: 0, b: "andalusiarabic_5206_unq1,andalusiarabic_5206_unq2,andalusiarabic_5206_unq3,andalusiarabic_5206_unq4,andalusiarabic_5206_unq5,andalusiarabic_5206_unq6,andalusiarabic_5206_unq7,andalusiarabic_5206_unq8,andalusiarabic_5206_unq9,andalusiarabic_5206_unq10,andalusiarabic_5206_unq11,andalusiarabic_5206_unq12"},
-      {name: "Jarawa (dedicated)", i: 5207, min: 4, max: 11, d: "lnrt", m: 0, b: "jarawa_5207_unq1,jarawa_5207_unq2,jarawa_5207_unq3,jarawa_5207_unq4,jarawa_5207_unq5,jarawa_5207_unq6,jarawa_5207_unq7,jarawa_5207_unq8,jarawa_5207_unq9,jarawa_5207_unq10,jarawa_5207_unq11,jarawa_5207_unq12"},
-      {name: "Ao (dedicated)", i: 5208, min: 4, max: 11, d: "lnrt", m: 0, b: "ao_5208_unq1,ao_5208_unq2,ao_5208_unq3,ao_5208_unq4,ao_5208_unq5,ao_5208_unq6,ao_5208_unq7,ao_5208_unq8,ao_5208_unq9,ao_5208_unq10,ao_5208_unq11,ao_5208_unq12"},
-      {name: "A'Tong (dedicated)", i: 5209, min: 4, max: 11, d: "lnrt", m: 0, b: "atong_5209_unq1,atong_5209_unq2,atong_5209_unq3,atong_5209_unq4,atong_5209_unq5,atong_5209_unq6,atong_5209_unq7,atong_5209_unq8,atong_5209_unq9,atong_5209_unq10,atong_5209_unq11,atong_5209_unq12"},
-      {name: "Uab Meto (dedicated)", i: 5210, min: 4, max: 11, d: "lnrt", m: 0, b: "uabmeto_5210_unq1,uabmeto_5210_unq2,uabmeto_5210_unq3,uabmeto_5210_unq4,uabmeto_5210_unq5,uabmeto_5210_unq6,uabmeto_5210_unq7,uabmeto_5210_unq8,uabmeto_5210_unq9,uabmeto_5210_unq10,uabmeto_5210_unq11,uabmeto_5210_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

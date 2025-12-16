@@ -1926,12 +1926,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-16T11:23:16.859Z",
-      "updatedAt": "2025-12-16T13:25:34.504Z",
+      "updatedAt": "2025-12-16T13:48:48.728Z",
       "reservedRange": [
         5206,
         5255
       ],
-      "notes": "Reserved i range: 5206-5255\nISO->base mapping (fill in):\n- andalusi-arabic->5206\n- anq->5207\n- ao->5208\n- aot->5209\n- aoz->5210\n\nBLOCKER: Batch still NO_UNIQ_BASE for all 5 ISOs (andalusi-arabic,anq,ao,aot,aoz). Seed-uniqueness (only-failures) reports uniqueBases=[] for each; requires dedicatedPins + base defs in reservedRange 5206-5210 (or repin to free indices) before it can be completed.\n\nBLOCKER: No delta pins file found for this batch yet (no tools/mixer-deltas/*.json references for: andalusi-arabic,anq,ao,aot,aoz). Create dedicatedPins delta + matching base defs in reserved i range 5206-5255, then rerun /no-unique-base2 verification.\n\nDelta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json | Base defs: modules/namebases-creole.js i:5206-5210 | ISO->base: andalusi-arabic->5206; anq->5207; ao->5208; aot->5209; aoz->5210 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=andalusi-arabic,anq,ao,aot,aoz => Missing mapping:0 No uniq base:0 strictFail:0 normFail:0 | coverage:0 missing | failures:0 failing | base-clusters --min-size=2 exit 0\n\nVerified 2025-12-16: Delta pins tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json (andalusi-arabic->5206; anq->5207; ao->5208; aot->5209; aoz->5210); base defs modules/namebases-creole.js i:5206-5210; ran pnpm run mixer:apply-deltas; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=andalusi-arabic,anq,ao,aot,aoz => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters exit 0.\n\nReserved i range: 5206-5255\nISO->base:\n- andalusi-arabic->5206\n- anq->5207\n- ao->5208\n- aot->5209\n- aoz->5210\nDelta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json\nBase defs: modules/namebases-creole.js i:5206-5210\nVerified 2025-12-16:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK)\n- seed-uniqueness only-failures => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0\n- check-language-mixer-coverage (0 missing)\n- check-language-mixer-failures (0 failing)\n- report-language-mixer-base-clusters --min-size=2 (exit 0)\n\nResolved. Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json\\nBase defs: modules/namebases-creole.js i:5206-5210\\nISO->base: andalusi-arabic->5206; anq->5207; ao->5208; aot->5209; aoz->5210\\nVerification 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-failures --only-isos=andalusi-arabic,anq,ao,aot,aoz => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; coverage:0 missing; failures:0 failing; base-clusters exit 0."
+      "notes": "Reserved i range: 5206-5255\nISO->base mapping (fill in):\n- andalusi-arabic->5206\n- anq->5207\n- ao->5208\n- aot->5209\n- aoz->5210\n\nBLOCKER: Batch still NO_UNIQ_BASE for all 5 ISOs (andalusi-arabic,anq,ao,aot,aoz). Seed-uniqueness (only-failures) reports uniqueBases=[] for each; requires dedicatedPins + base defs in reservedRange 5206-5210 (or repin to free indices) before it can be completed.\n\nBLOCKER: No delta pins file found for this batch yet (no tools/mixer-deltas/*.json references for: andalusi-arabic,anq,ao,aot,aoz). Create dedicatedPins delta + matching base defs in reserved i range 5206-5255, then rerun /no-unique-base2 verification.\n\nDelta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json | Base defs: modules/namebases-creole.js i:5206-5210 | ISO->base: andalusi-arabic->5206; anq->5207; ao->5208; aot->5209; aoz->5210 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=andalusi-arabic,anq,ao,aot,aoz => Missing mapping:0 No uniq base:0 strictFail:0 normFail:0 | coverage:0 missing | failures:0 failing | base-clusters --min-size=2 exit 0\n\nVerified 2025-12-16: Delta pins tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json (andalusi-arabic->5206; anq->5207; ao->5208; aot->5209; aoz->5210); base defs modules/namebases-creole.js i:5206-5210; ran pnpm run mixer:apply-deltas; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=andalusi-arabic,anq,ao,aot,aoz => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters exit 0.\n\nReserved i range: 5206-5255\nISO->base:\n- andalusi-arabic->5206\n- anq->5207\n- ao->5208\n- aot->5209\n- aoz->5210\nDelta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json\nBase defs: modules/namebases-creole.js i:5206-5210\nVerified 2025-12-16:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK)\n- seed-uniqueness only-failures => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0\n- check-language-mixer-coverage (0 missing)\n- check-language-mixer-failures (0 failing)\n- report-language-mixer-base-clusters --min-size=2 (exit 0)\n\nResolved. Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json\\nBase defs: modules/namebases-creole.js i:5206-5210\\nISO->base: andalusi-arabic->5206; anq->5207; ao->5208; aot->5209; aoz->5210\\nVerification 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-failures --only-isos=andalusi-arabic,anq,ao,aot,aoz => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; coverage:0 missing; failures:0 failing; base-clusters exit 0.\n\nCORRECTION (2025-12-16): initial pins 5206–5210 collided with indices already defined in modules/namebases-real.js; repinned to 5211–5215 and added matching base defs in modules/namebases-creole.js; updated tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json accordingly; ran pnpm run mixer:apply-deltas + pnpm run mixer:check-deltas + seed-uniqueness only-failures for andalusi-arabic/anq/ao/aot/aoz => Missing mapping:0 No uniq base:0 strictFail:0 normFail:0."
     },
     {
       "workerId": 2,
@@ -2000,14 +2000,33 @@
         "ava",
         "avokaya"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T13:30:49.323Z",
-      "updatedAt": "2025-12-16T13:30:49.323Z",
+      "updatedAt": "2025-12-16T13:43:57.756Z",
       "reservedRange": [
         5406,
         5455
       ],
-      "notes": "Reserved i range: 5406-5455\nISO->base mapping (fill in):\n- attapady-kurumba->5406\n- australian-kriol->5407\n- auye->5408\n- ava->5409\n- avokaya->5410"
+      "notes": "Reserved i range: 5406-5455\nISO->base mapping (fill in):\n- attapady-kurumba->5406\n- australian-kriol->5407\n- auye->5408\n- ava->5409\n- avokaya->5410\n\nISO->base: attapady-kurumba->5406; australian-kriol->5407; auye->5408; ava->5409; avokaya->5410 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-attapady-kurumba.json | Base defs: modules/namebases-creole.js i:5406-5410 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=attapady-kurumba,australian-kriol,auye,ava,avokaya => Missing mapping:0 No uniq base:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T13:54:53.808Z-worker1",
+      "isos": [
+        "awa",
+        "awadhi",
+        "awbono",
+        "awin",
+        "awing"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T13:54:53.808Z",
+      "updatedAt": "2025-12-16T13:54:53.808Z",
+      "reservedRange": [
+        5456,
+        5505
+      ],
+      "notes": "Reserved i range: 5456-5505\nISO->base mapping (fill in):\n- awa->5456\n- awadhi->5457\n- awbono->5458\n- awin->5459\n- awing->5460"
     }
   ]
 }

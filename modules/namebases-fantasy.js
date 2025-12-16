@@ -352,7 +352,13 @@ window.fantasyNameBases = [
       {name: "Breton (dedicated)", i: 3957, min: 4, max: 11, d: "lnrt", m: 0, b: "breton_3957_unq1,breton_3957_unq2,breton_3957_unq3,breton_3957_unq4,breton_3957_unq5,breton_3957_unq6,breton_3957_unq7,breton_3957_unq8,breton_3957_unq9,breton_3957_unq10,breton_3957_unq11,breton_3957_unq12"},
       {name: "Cornish (dedicated)", i: 3958, min: 4, max: 11, d: "lnrt", m: 0, b: "cornish_3958_unq1,cornish_3958_unq2,cornish_3958_unq3,cornish_3958_unq4,cornish_3958_unq5,cornish_3958_unq6,cornish_3958_unq7,cornish_3958_unq8,cornish_3958_unq9,cornish_3958_unq10,cornish_3958_unq11,cornish_3958_unq12"},
       {name: "Manx (dedicated)", i: 3959, min: 4, max: 11, d: "lnrt", m: 0, b: "manx_3959_unq1,manx_3959_unq2,manx_3959_unq3,manx_3959_unq4,manx_3959_unq5,manx_3959_unq6,manx_3959_unq7,manx_3959_unq8,manx_3959_unq9,manx_3959_unq10,manx_3959_unq11,manx_3959_unq12"},
-      {name: "Welsh (dedicated)", i: 3960, min: 4, max: 11, d: "lnrt", m: 0, b: "welsh_3960_unq1,welsh_3960_unq2,welsh_3960_unq3,welsh_3960_unq4,welsh_3960_unq5,welsh_3960_unq6,welsh_3960_unq7,welsh_3960_unq8,welsh_3960_unq9,welsh_3960_unq10,welsh_3960_unq11,welsh_3960_unq12"}
+      {name: "Welsh (dedicated)", i: 3960, min: 4, max: 11, d: "lnrt", m: 0, b: "welsh_3960_unq1,welsh_3960_unq2,welsh_3960_unq3,welsh_3960_unq4,welsh_3960_unq5,welsh_3960_unq6,welsh_3960_unq7,welsh_3960_unq8,welsh_3960_unq9,welsh_3960_unq10,welsh_3960_unq11,welsh_3960_unq12"},
+
+      {name: "Awa (dedicated)", i: 5456, min: 4, max: 11, d: "lnrt", m: 0, b: "awa_unq1,awa_unq2,awa_unq3,awa_unq4,awa_unq5,awa_unq6,awa_unq7,awa_unq8,awa_unq9,awa_unq10,awa_unq11,awa_unq12"},
+      {name: "Awadhi (dedicated)", i: 5457, min: 4, max: 11, d: "lnrt", m: 0, b: "awadhi_unq1,awadhi_unq2,awadhi_unq3,awadhi_unq4,awadhi_unq5,awadhi_unq6,awadhi_unq7,awadhi_unq8,awadhi_unq9,awadhi_unq10,awadhi_unq11,awadhi_unq12"},
+      {name: "Awbono (dedicated)", i: 5458, min: 4, max: 11, d: "lnrt", m: 0, b: "awbono_unq1,awbono_unq2,awbono_unq3,awbono_unq4,awbono_unq5,awbono_unq6,awbono_unq7,awbono_unq8,awbono_unq9,awbono_unq10,awbono_unq11,awbono_unq12"},
+      {name: "Awin (dedicated)", i: 5459, min: 4, max: 11, d: "lnrt", m: 0, b: "awin_unq1,awin_unq2,awin_unq3,awin_unq4,awin_unq5,awin_unq6,awin_unq7,awin_unq8,awin_unq9,awin_unq10,awin_unq11,awin_unq12"},
+      {name: "Awing (dedicated)", i: 5460, min: 4, max: 11, d: "lnrt", m: 0, b: "awing_unq1,awing_unq2,awing_unq3,awing_unq4,awing_unq5,awing_unq6,awing_unq7,awing_unq8,awing_unq9,awing_unq10,awing_unq11,awing_unq12"}
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.fantasyNameBases;

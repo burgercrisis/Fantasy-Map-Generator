@@ -191,13 +191,15 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - **2025-12-16 session reset (coordination state cleared):** retired all agents and force-cleared repo-local coordination JSON entries with `status: in_progress` to `stalled` (e.g. `tools/mixer-diagnostics/_wiki_multiagent_claims.json`) at `2025-12-16T12:38:00.638Z` so a new session can pick up work without stale ownership.
 
 - **2025-12-16 NO_UNIQ_BASE2 claim closure sweep (close in_progress):**
-  - ✅ **worker1** `batchId=2025-12-16T11:23:16.859Z-worker1` (`andalusi-arabic, anq, ao, aot, aoz`) verified and set to `complete`.
-    - Delta pins: `tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json` (pins `andalusi-arabic`→`5206`, `anq`→`5207`, `ao`→`5208`, `aot`→`5209`, `aoz`→`5210`)
-    - Base defs: `modules/namebases-creole.js` dedicated bases `i:5206–5210`
+  - ✅ **worker1** `batchId=2025-12-16T11:23:16.859Z-worker1` (`andalusi-arabic, anq, ao, aot, aoz`) verified and set to `complete` (updatedAt=`2025-12-16T13:25:34.504Z`).
+    - Delta pins: `tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json` (pins `andalusi-arabic`→`5211`, `anq`→`5212`, `ao`→`5213`, `aot`→`5214`, `aoz`→`5215`)
+    - Base defs: `modules/namebases-creole.js` dedicated bases `i:5211–5215`
     - Re-verified 2025-12-16: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=batch) OK; coverage OK; failures OK; base-clusters OK.
     - Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=andalusi-arabic,anq,ao,aot,aoz" --limit=300` => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); `report-language-mixer-base-clusters --min-size=2` (exit 0).
   - ✅ **worker2** `batchId=2025-12-16T11:44:23.906Z-worker2` (`assamese, assan, assyrian, atohwaim-kaugat, atsam`) verified and set to `complete`.
     - Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=assamese,assan,assyrian,atohwaim-kaugat,atsam" --limit=300` => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); `report-language-mixer-base-clusters --min-size=2` (exit 0).
+
+- ✅ **2025-12-16 NO_UNIQ_BASE2 next5 micro-pass (worker1 / batchId=2025-12-16T13:30:49.323Z-worker1):** pinned dedicated bases `5406–5410` for `attapady-kurumba`, `australian-kriol`, `auye`, `ava`, `avokaya` (delta: `tools/mixer-deltas/2025-12-16-worker1-mixed-attapady-kurumba.json`; base defs: `modules/namebases-creole.js` `i:5406–5410`). Verified via `/no-unique-base2` commands: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=batch) => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); base-clusters (exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 
 - ✅ **2025-12-16 mixer:guardrails unblock (namebases indices de-dupe):** fixed `pnpm run mixer:guardrails` failure caused by duplicate indices `2900–2904` across `modules/namebases-real.js` and `modules/namebases-creole.js` (Mandarin dedicated entries) by de-duping the definitions. Re-verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
@@ -2496,16 +2498,16 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - **Status tier:** **In progress (full article)** – this JSON tracks every language row in the current Wikipedia phoneme-count list; since it is typological, there is no separate uniqueness-target here beyond the global base-uniqueness rules.
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 70
+  - `fully wired:` 72
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 2
+  - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 48
+  - `Nonunique Bases:` 47
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 69
+  - `unique bases:` 71
   - `clustered bases:` 1
   - `clustered full items:` 1
   - `cluster size histogram:` size2=0, size3=0, size4+=1
