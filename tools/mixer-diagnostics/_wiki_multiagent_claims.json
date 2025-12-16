@@ -86,11 +86,11 @@
       "workerId": 33,
       "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-13T14:59:00Z",
       "finishedAt": "2025-12-15T07:55:05.507Z",
-      "note": "STALE>24h: stalling to release lock. Re-claim if still active.\n\n2025-12-15 Nepal census uniqueness batch4 applied + verified: delta tools/mixer-deltas/2025-12-15-wikipedia1-nepal-census-batch4.json dedicatedPins ncd,pum,raa,raq,vay -> i:2920-2924 (base defs already in modules/namebases-real.js). Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json + tools/mixer-deltas/_compiled-dedicated-pins.json; pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock OK; seed-uniqueness --only-isos=ncd,pum,raa,raq,vay => Missing mapping 0, No globally-unique base index 0; race-coverage (filtered) => each RaceCount=6 (Draconic, Dragonborn, Kobold, Owlin, Warforged, Yuan-ti). Base-uniqueness snapshot now Nonunique Bases=98 (still in progress).",
-      "updatedAt": "2025-12-16T03:14:08.566Z"
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active.\n\n2025-12-15 Nepal census uniqueness batch4 applied + verified: delta tools/mixer-deltas/2025-12-15-wikipedia1-nepal-census-batch4.json dedicatedPins ncd,pum,raa,raq,vay -> i:2920-2924 (base defs already in modules/namebases-real.js). Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json + tools/mixer-deltas/_compiled-dedicated-pins.json; pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock OK; seed-uniqueness --only-isos=ncd,pum,raa,raq,vay => Missing mapping 0, No globally-unique base index 0; race-coverage (filtered) => each RaceCount=6 (Draconic, Dragonborn, Kobold, Owlin, Warforged, Yuan-ti). Base-uniqueness snapshot now Nonunique Bases=98 (still in progress).\n\n2025-12-16: Stalling this claim to release lock (note already indicated STALE>24h). Verified: Europe list now complete (clustered bases 0).",
+      "updatedAt": "2025-12-16T09:28:48.765Z"
     },
     {
       "workerId": 35,

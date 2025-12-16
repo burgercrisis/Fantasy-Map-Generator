@@ -496,10 +496,6 @@ function main() {
     const pins = {};
     const appendBases = {};
 
-    if (compiledPinsBaseline?.pins) {
-      mergePins(pins, compiledPinsBaseline.pins, compiledPinsRel);
-    }
-
     for (const fileName of deltaFiles) {
       const rel = path.join(deltasDirRel, fileName);
       const json = readJson(rel);

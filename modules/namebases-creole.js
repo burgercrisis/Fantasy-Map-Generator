@@ -130,11 +130,13 @@
   {name: "Andoque (dedicated)", i: 3997, min: 4, max: 11, d: "lnrt", m: 0, b: "ano_unq1,ano_unq2,ano_unq3,ano_unq4,ano_unq5,ano_unq6,ano_unq7,ano_unq8,ano_unq9,ano_unq10,ano_unq11,ano_unq12"},
   {name: "Angika (dedicated)", i: 3998, min: 4, max: 11, d: "lnrt", m: 0, b: "anp_unq1,anp_unq2,anp_unq3,anp_unq4,anp_unq5,anp_unq6,anp_unq7,anp_unq8,anp_unq9,anp_unq10,anp_unq11,anp_unq12"},
 
-  {name: "Anca (dedicated)", i: 5000, min: 4, max: 11, d: "lnrt", m: 0, b: "anca_unq1,anca_unq2,anca_unq3,anca_unq4,anca_unq5,anca_unq6,anca_unq7,anca_unq8,anca_unq9,anca_unq10,anca_unq11,anca_unq12"},
-  {name: "Ancient Egyptian (dedicated)", i: 5001, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientegyptian_unq1,ancientegyptian_unq2,ancientegyptian_unq3,ancientegyptian_unq4,ancientegyptian_unq5,ancientegyptian_unq6,ancientegyptian_unq7,ancientegyptian_unq8,ancientegyptian_unq9,ancientegyptian_unq10,ancientegyptian_unq11,ancientegyptian_unq12"},
-  {name: "Ancient North Arabian (dedicated)", i: 5002, min: 4, max: 11, d: "lnrt", m: 0, b: "ancientnortharabian_unq1,ancientnortharabian_unq2,ancientnortharabian_unq3,ancientnortharabian_unq4,ancientnortharabian_unq5,ancientnortharabian_unq6,ancientnortharabian_unq7,ancientnortharabian_unq8,ancientnortharabian_unq9,ancientnortharabian_unq10,ancientnortharabian_unq11,ancientnortharabian_unq12"},
-  {name: "Aneme Wake (dedicated)", i: 5003, min: 4, max: 11, d: "lnrt", m: 0, b: "anemewake_unq1,anemewake_unq2,anemewake_unq3,anemewake_unq4,anemewake_unq5,anemewake_unq6,anemewake_unq7,anemewake_unq8,anemewake_unq9,anemewake_unq10,anemewake_unq11,anemewake_unq12"},
-  {name: "Angaataha (dedicated)", i: 5004, min: 4, max: 11, d: "lnrt", m: 0, b: "angaataha_unq1,angaataha_unq2,angaataha_unq3,angaataha_unq4,angaataha_unq5,angaataha_unq6,angaataha_unq7,angaataha_unq8,angaataha_unq9,angaataha_unq10,angaataha_unq11,angaataha_unq12"},
-];
+  {name: "Hollola (setBases aux)", i: 5000, min: 4, max: 11, d: "lnrt", m: 0, b: "hollola_5000_unq1,hollola_5000_unq2,hollola_5000_unq3,hollola_5000_unq4,hollola_5000_unq5,hollola_5000_unq6,hollola_5000_unq7,hollola_5000_unq8,hollola_5000_unq9,hollola_5000_unq10,hollola_5000_unq11,hollola_5000_unq12"},
+  {name: "Heart Tavastian (setBases aux)", i: 5001, min: 4, max: 11, d: "lnrt", m: 0, b: "hearttavastian_5001_unq1,hearttavastian_5001_unq2,hearttavastian_5001_unq3,hearttavastian_5001_unq4,hearttavastian_5001_unq5,hearttavastian_5001_unq6,hearttavastian_5001_unq7,hearttavastian_5001_unq8,hearttavastian_5001_unq9,hearttavastian_5001_unq10,hearttavastian_5001_unq11,hearttavastian_5001_unq12"},
+  {name: "Savonian (setBases aux)", i: 5002, min: 4, max: 11, d: "lnrt", m: 0, b: "savonian_5002_unq1,savonian_5002_unq2,savonian_5002_unq3,savonian_5002_unq4,savonian_5002_unq5,savonian_5002_unq6,savonian_5002_unq7,savonian_5002_unq8,savonian_5002_unq9,savonian_5002_unq10,savonian_5002_unq11,savonian_5002_unq12"},
+
+  {name: "Aramaic (dedicated)", i: 5010, min: 4, max: 11, d: "lnrt", m: 0, b: "aramaic_5010_unq1,aramaic_5010_unq2,aramaic_5010_unq3,aramaic_5010_unq4,aramaic_5010_unq5,aramaic_5010_unq6,aramaic_5010_unq7,aramaic_5010_unq8,aramaic_5010_unq9,aramaic_5010_unq10,aramaic_5010_unq11,aramaic_5010_unq12"},
+  {name: "Akkadian (dedicated)", i: 5011, min: 4, max: 11, d: "lnrt", m: 0, b: "akkadian_5011_unq1,akkadian_5011_unq2,akkadian_5011_unq3,akkadian_5011_unq4,akkadian_5011_unq5,akkadian_5011_unq6,akkadian_5011_unq7,akkadian_5011_unq8,akkadian_5011_unq9,akkadian_5011_unq10,akkadian_5011_unq11,akkadian_5011_unq12"},
+  {name: "Arabic (dedicated)", i: 5012, min: 4, max: 11, d: "lnrt", m: 0, b: "arabic_5012_unq1,arabic_5012_unq2,arabic_5012_unq3,arabic_5012_unq4,arabic_5012_unq5,arabic_5012_unq6,arabic_5012_unq7,arabic_5012_unq8,arabic_5012_unq9,arabic_5012_unq10,arabic_5012_unq11,arabic_5012_unq12"},
+ ];
 
 if (typeof module !== "undefined" && module.exports) module.exports = window.creoleNameBases;
