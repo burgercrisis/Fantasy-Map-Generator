@@ -14853,6 +14853,14 @@
     "family": "Oto-Manguean"
   },
   {
+    "name": "Cuicatec",
+    "iso": "cux",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuicatec_language"
+  },
+  {
     "name": "Otomi",
     "iso": "otomi",
     "region": "Mesoamerica",
@@ -26395,6 +26403,22 @@
     "category": "Chibchan",
     "family": "Chibchan",
     "wikipedia": "https://en.wikipedia.org/wiki/Bar%C3%AD_language"
+  },
+  {
+    "name": "Guna",
+    "iso": "cuk",
+    "region": "Central America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guna_language"
+  },
+  {
+    "name": "Wiwa",
+    "iso": "mbp",
+    "region": "South America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wiwa_language"
   },
   {
     "name": "Cayuga",

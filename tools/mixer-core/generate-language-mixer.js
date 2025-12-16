@@ -16,6 +16,11 @@ const path = require("node:path");
 
 const root = __dirname ? path.resolve(__dirname, "..", "..") : process.cwd();
 
+function sleepMs(ms) {
+  if (!ms) return;
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
 function readJson(relativePath) {
   const full = path.join(root, relativePath);
   const raw = fs.readFileSync(full, "utf8");
@@ -26,7 +31,43 @@ function readJson(relativePath) {
 function writeFile(relativePath, contents) {
   const full = path.join(root, relativePath);
   fs.mkdirSync(path.dirname(full), {recursive: true});
-  fs.writeFileSync(full, contents, "utf8");
+
+  const tmp = full + ".tmp-" + process.pid + "-" + Date.now();
+  fs.writeFileSync(tmp, contents, "utf8");
+
+  let lastErr;
+  for (let attempt = 0; attempt < 25; attempt++) {
+    try {
+      try {
+        if (fs.existsSync(full)) fs.rmSync(full, {force: true});
+      } catch (e) {
+        lastErr = e;
+      }
+      fs.renameSync(tmp, full);
+      lastErr = null;
+      break;
+    } catch (e) {
+      lastErr = e;
+      sleepMs(25 + attempt * 25);
+    }
+  }
+
+  if (lastErr) {
+    try {
+      fs.writeFileSync(full, contents, "utf8");
+      lastErr = null;
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+
+  try {
+    if (fs.existsSync(tmp)) fs.rmSync(tmp, {force: true});
+  } catch (e) {
+    lastErr = lastErr || e;
+  }
+
+  if (lastErr) throw lastErr;
   console.log("Wrote", relativePath.replaceAll("\\", "/"));
 }
 

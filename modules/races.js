@@ -211,6 +211,7 @@ const raceLanguageProfiles = {
       "Guahiboan",
       "Macro-Jê",
       "Nadahup",
+      "Chibchan",
       "Aymaran",
       "Araucanian",
       "Oto-Manguean"
@@ -244,6 +245,7 @@ const raceLanguageProfiles = {
       "Barbacoan",
       "Macro-Jê",
       "Nadahup",
+      "Chibchan",
       "Tacanan"
     ]
   },

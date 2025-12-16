@@ -11285,6 +11285,14 @@
     ]
   },
   {
+    "name": "Guna",
+    "iso": "cuk",
+    "region": "Central America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guna_language"
+  },
+  {
     "name": "Miskito",
     "iso": "miskito",
     "region": "Central America",
@@ -17764,6 +17772,14 @@
     "region": "Mesoamerica",
     "category": "Mayan",
     "family": "Mayan"
+  },
+  {
+    "name": "Cuicatec",
+    "iso": "cux",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cuicatec_language"
   },
   {
     "name": "Huastec",
@@ -26984,6 +27000,14 @@
     "category": "Arawakan",
     "wikipedia": "https://en.wikipedia.org/wiki/Wayuu_language",
     "family": "Arawakan"
+  },
+  {
+    "name": "Wiwa",
+    "iso": "mbp",
+    "region": "South America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wiwa_language"
   },
   {
     "name": "Xavante",
