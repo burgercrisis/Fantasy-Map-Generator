@@ -1867,14 +1867,33 @@
         "ano",
         "anp"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T08:21:42.288Z",
-      "updatedAt": "2025-12-16T08:48:49.587Z",
+      "updatedAt": "2025-12-16T09:50:06.695Z",
       "reservedRange": [
         3994,
         4043
       ],
-      "notes": "Reserved i range: 3994-4043\nISO->base mapping (fill in):\n- angami-pochuri->3994\n- ani->3995\n- ankave->3996\n- ano->3997\n- anp->3998\n\nReserved i range: 3994-4043 | ISO->base: angami-pochuri->3994; ani->3995; ankave->3996; ano->3997; anp->3998 | Delta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | Dedicated base defs: modules/namebases-real.js i:3994-3998\n\nReserved i range: 3994-4043\n\nISO->base: angami-pochuri->3999; ani->4000; ankave->4001; ano->4002; anp->4003 | delta=tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | baseDefs=modules/namebases-real.js i:3999-4003 | Note: shifted from 3994-3998 to 3999-4003 because i:3994-3998 already used in modules/namebases-creole.js (anca duplicate renumbering); intentionally unused 3994-3998\n\nRepin plan: 3994-3998 already used by Anca batch in modules/namebases-creole.js; will use 3999-4003 for this batch\n\nReserved i range: 3994-4043 (subrange 3994-3998 already occupied; using 3999-4003)\n\nPlanned ISO->base mapping:\\n- angami-pochuri->3999\\n- ani->4000\\n- ankave->4001\\n- ano->4002\\n- anp->4003\\nDelta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json\\nDedicated base defs: modules/namebases-real.js i:3999-4003\n\nNOTE: Indices 3994-3998 are already occupied (Anca..Angaataha). Using reserved subrange 3999-4003 instead: angami-pochuri->3999; ani->4000; ankave->4001; ano->4002; anp->4003. Delta pins will be updated accordingly."
+      "notes": "Reserved i range: 3994-4043\nISO->base mapping (fill in):\n- angami-pochuri->3994\n- ani->3995\n- ankave->3996\n- ano->3997\n- anp->3998\n\nReserved i range: 3994-4043 | ISO->base: angami-pochuri->3994; ani->3995; ankave->3996; ano->3997; anp->3998 | Delta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | Dedicated base defs: modules/namebases-real.js i:3994-3998\n\nReserved i range: 3994-4043\n\nISO->base: angami-pochuri->3999; ani->4000; ankave->4001; ano->4002; anp->4003 | delta=tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | baseDefs=modules/namebases-real.js i:3999-4003 | Note: shifted from 3994-3998 to 3999-4003 because i:3994-3998 already used in modules/namebases-creole.js (anca duplicate renumbering); intentionally unused 3994-3998\n\nRepin plan: 3994-3998 already used by Anca batch in modules/namebases-creole.js; will use 3999-4003 for this batch\n\nReserved i range: 3994-4043 (subrange 3994-3998 already occupied; using 3999-4003)\n\nPlanned ISO->base mapping:\\n- angami-pochuri->3999\\n- ani->4000\\n- ankave->4001\\n- ano->4002\\n- anp->4003\\nDelta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json\\nDedicated base defs: modules/namebases-real.js i:3999-4003\n\nNOTE: Indices 3994-3998 are already occupied (Anca..Angaataha). Using reserved subrange 3999-4003 instead: angami-pochuri->3999; ani->4000; ankave->4001; ano->4002; anp->4003. Delta pins will be updated accordingly.\n\nVerified: pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only=angami-pochuri ani ankave ano anp\\ => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict failures:0; norm failures:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0.\n\nISO->base: angami-pochuri->3994; ani->3995; ankave->3996; ano->3997; anp->3998 | delta=tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | baseDefs=modules/namebases-creole.js i:3994-3998 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-failures --only-isos=angami-pochuri,ani,ankave,ano,anp => Missing mapping:0; No globally-unique base index:0; strict/norm debt:0 | coverage OK; failures OK\n\nVerification 2025-12-16: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness only-failures --only-isos=angami-pochuri,ani,ankave,ano,anp => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage: 0 missing; failures: 0 failing"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T09:51:35.309Z-worker1",
+      "isos": [
+        "adeni-arabic",
+        "aleppine-arabic",
+        "algerian-arabic",
+        "algerian-saharan-arabic",
+        "anatolian-arabic"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T09:51:35.309Z",
+      "updatedAt": "2025-12-16T09:51:35.309Z",
+      "reservedRange": [
+        5106,
+        5155
+      ],
+      "notes": "Reserved i range: 5106-5155\nISO->base mapping (fill in):\n- adeni-arabic->5106\n- aleppine-arabic->5107\n- algerian-arabic->5108\n- algerian-saharan-arabic->5109\n- anatolian-arabic->5110"
     }
   ]
 }
