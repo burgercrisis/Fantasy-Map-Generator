@@ -1,9 +1,14 @@
 {
   "setBases": {
-    "cilician-arabic": [42, 676],
-    "western-egyptian-bedawi-arabic": [23, 701],
-    "cottonera-dialect": [13, 18, 884],
-    "kashinawa": [421, 423],
-    "njm": [86, 87]
+    "bahrani-arabic": [18, 434, 679],
+    "bareqi-arabic": [18, 434, 680],
+    "yafii-arabic": [18, 434, 616],
+    "yemeni-arabic": [18, 434, 701],
+    "barwar": [18, 42, 617],
+    "barzani-jewish-neo-aramaic": [18, 23, 618],
+    "bohtan-neo-aramaic": [18, 23, 619],
+    "christian-palestinian-aramaic": [18, 42, 676],
+    "turoyo": [18, 42, 678],
+    "canaano-akkadian": [18, 23, 681]
   }
 }

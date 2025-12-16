@@ -279,7 +279,22 @@ function getTypeOptions(type) {
 
 function getBaseOptions(base) {
   let options = "";
-  nameBases.forEach((n, i) => (options += `<option ${base === i ? "selected" : ""} value="${i}">${n.name}</option>`));
+  nameBases.forEach((n, i) => {
+    const name = n && typeof n.name === "string" ? n.name : "";
+    let label = name;
+    if (n && n.raceMixerFor && typeof n.raceMixerFor === "string") {
+      const raceName = n.raceMixerFor;
+      const trimmed = name.trimEnd();
+      const suffix = `(${raceName})`;
+      if (trimmed.endsWith(suffix)) {
+        const prefix = trimmed.slice(0, trimmed.length - suffix.length).trim();
+        if (!prefix || prefix.length < 5 || /\s/.test(prefix) || /english/i.test(prefix)) {
+          label = `Race ${raceName} (Mixer)`;
+        }
+      }
+    }
+    options += `<option ${base === i ? "selected" : ""} value="${i}">${label}</option>`;
+  });
   if (!nameBases[base]) {
     const label = base == null || base === "" ? "missing" : `missing (${base})`;
     options += `<option selected value="${base}">${label}</option>`;

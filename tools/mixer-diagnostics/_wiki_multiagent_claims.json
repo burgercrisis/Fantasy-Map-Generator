@@ -280,10 +280,11 @@
       "workerId": 8,
       "target": "tools/mixer-meta/wikipedia-languages-of-europe.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T22:48:55.309Z",
-      "updatedAt": "2025-12-15T22:48:55.309Z",
-      "note": "/wikipedia1 continue: start EU list (coverage -> uniqueness -> race)"
+      "updatedAt": "2025-12-16T08:59:40.994Z",
+      "note": "/wikipedia1 continue: start EU list (coverage -> uniqueness -> race)\n\n2025-12-16: Europe list verified complete for base-set uniqueness (clustered bases: 0) and coverage (fully wired 168/168; Nonunique Bases 98). Deltas: 2025-12-16-wikipedia1-europe-batch1..batch9; dedicated pins ingrian..votic -> 3332..3339.",
+      "finishedAt": "2025-12-16T08:59:40.994Z"
     }
   ]
 }

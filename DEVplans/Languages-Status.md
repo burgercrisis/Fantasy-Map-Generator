@@ -1568,13 +1568,15 @@ As of the 2025‑12‑10 `/languages-unique*` passes (Workers 1–10, including 
 
 The following families / regions have **not yet received a full pass** for home-range, duplication, and mixer-map sanity. They almost certainly hide more “too generic” or “too shared” behavior.
 
----
-
-## 5. Planned next steps when resuming
-
-**2025-12-16**: Mixer:check-deltas unblock completed - missing base definitions 2669-2678 resolved. NO_UNIQ_BASE claim completed: workerId=1 batchId=2025-12-16T01:32:55.981Z-worker1 reservedRange=3005-3054 isos=[altai,altai-uriankhai,alu,aluku,alyutor] status=complete.
-
-**2025-12-16**: NO_UNIQ_BASE claim completed: workerId=2 batchId=2025-12-16T01:55:19.839Z-worker2 reservedRange=3064-3113 isos=[ambonese-malay,american-indian-pidgin-english,andaman-creole-hindi,angolar-creole,annobonese-creole] status=complete.
+ ---
+ 
+ ## 5. Planned next steps when resuming
+ 
+ **2025-12-16**: Daily reporting note: treat `config/language-mixes.json` and `config/language-mixer-map.json` totals as unchanged for the day unless we explicitly add new ISOs; instead track **quality deltas** (uniqueness debt paydown). Current totals: catalog=3471, map=3471. Last 24h: completed claims=23 (117 ISOs), in_progress=1 (5 ISOs). Most work was dedicatedPins / setBases / namebase index fixes verified via `mixer:guardrails` / `mixer:check-deltas` / seed-uniqueness / coverage / failures / base-clusters.
+ 
+ **2025-12-16**: Mixer:check-deltas unblock completed - missing base definitions 2669-2678 resolved. NO_UNIQ_BASE claim completed: workerId=1 batchId=2025-12-16T01:32:55.981Z-worker1 reservedRange=3005-3054 isos=[altai,altai-uriankhai,alu,aluku,alyutor] status=complete.
+ 
+ **2025-12-16**: NO_UNIQ_BASE claim completed: workerId=2 batchId=2025-12-16T01:55:19.839Z-worker2 reservedRange=3064-3113 isos=[ambonese-malay,american-indian-pidgin-english,andaman-creole-hindi,angolar-creole,annobonese-creole] status=complete.
 
 **2025-12-16**: Decluster claim completed: workerId=1 batchId=2025-12-16T03:27:03.897Z-worker1 bases=[305] isos=[west-greenlandic-pidgin,greenlandic-lang] status=complete (delta tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json).
 
@@ -1928,8 +1930,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Scope:** Overview of major language families and key standard languages across Europe (Romance, Germanic, Slavic, Celtic, Hellenic/Greek, Albanian, Armenian, Baltic, Uralic, Basque, and others).
 - **Primary families / regions touched:** European families documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed) (Romance, Germanic, Slavic & East European cluster, Celtic branches, Uralic entries, etc.).
 
-- **Status tier:** **In progress (full table snapshot)**
-- **Last run:** 2025-12-10
+- ✅ **Status tier:** **Complete**
+- **Last run:** 2025-12-16
 
 - **Snapshot from last run (considered items only):**
   - `fully wired:` 168 (100.0%)
@@ -1939,14 +1941,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 7
-  - `Nonunique Bases:` 106
+  - `Nonunique Bases:` 98
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 162
-  - `clustered bases:` 6
-  - `clustered full items:` 6
-  - `cluster size histogram:` size2=6, size3=0, size4+=0
-  - `clustered isos:` ingrian(2), komi-zyryan(2), kven(2), me-nkieli(2), v-ro(2), veps(2)
+  - `unique bases:` 168
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
