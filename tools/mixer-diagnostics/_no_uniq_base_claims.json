@@ -1932,6 +1932,25 @@
         5255
       ],
       "notes": "Reserved i range: 5206-5255\nISO->base mapping (fill in):\n- andalusi-arabic->5206\n- anq->5207\n- ao->5208\n- aot->5209\n- aoz->5210"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-16T11:29:29.140Z-worker2",
+      "isos": [
+        "arabic-javanese-of-klego",
+        "arin",
+        "aringa",
+        "armazic",
+        "aro"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-16T11:29:29.140Z",
+      "updatedAt": "2025-12-16T11:34:00.687Z",
+      "reservedRange": [
+        5256,
+        5305
+      ],
+      "notes": "Reserved i range: 5256-5305\nISO->base mapping (fill in):\n- arabic-javanese-of-klego->5256\n- arin->5257\n- aringa->5258\n- armazic->5259\n- aro->5260\n\nDelta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-arabic-javanese-of-klego.json\\nDedicated base defs: modules/namebases-real.js i:5256-5260\\nISO->base:\\n- arabic-javanese-of-klego->5256\\n- arin->5257\\n- aringa->5258\\n- armazic->5259\\n- aro->5260\\nVerification 2025-12-16:\\n- pnpm run mixer:guardrails OK\\n- pnpm run mixer:apply-deltas OK (wrote config/language-mixer-map.json and tools/mixer-deltas/_compiled-dedicated-pins.json)\\n- pnpm run mixer:check-deltas OK\\n- seed-uniqueness: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=arabic-javanese-of-klego,arin,aringa,armazic,aro --limit=300 => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0\\n- coverage: 0 missing\\n- failures: 0 failing\\n- base-clusters --min-size=2 exit 0"
     }
   ]
 }

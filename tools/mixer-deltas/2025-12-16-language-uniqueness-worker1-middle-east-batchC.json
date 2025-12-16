@@ -1,0 +1,10 @@
+{
+  "setBases": {
+    "maghrebi-arabic": [17, 18, 434, 679],
+    "central-hilali-dialects": [17, 18, 434, 680],
+    "western-hilali-dialects": [17, 18, 434, 681],
+    "western-pre-hilali-dialects": [17, 18, 434, 682],
+    "levantine-arabic": [18, 23, 42, 676],
+    "west-semitic": [18, 23, 42, 678]
+  }
+}

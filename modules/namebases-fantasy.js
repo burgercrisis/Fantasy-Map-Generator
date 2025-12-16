@@ -346,7 +346,9 @@ window.fantasyNameBases = [
       {name: "Icelandic (dedicated)", i: 3951, min: 4, max: 11, d: "lnrt", m: 0, b: "isl_3951_unq1,isl_3951_unq2,isl_3951_unq3,isl_3951_unq4,isl_3951_unq5,isl_3951_unq6,isl_3951_unq7,isl_3951_unq8,isl_3951_unq9,isl_3951_unq10,isl_3951_unq11,isl_3951_unq12"},
       {name: "Norwegian (dedicated)", i: 3952, min: 4, max: 11, d: "lnrt", m: 0, b: "norwegian_3952_unq1,norwegian_3952_unq2,norwegian_3952_unq3,norwegian_3952_unq4,norwegian_3952_unq5,norwegian_3952_unq6,norwegian_3952_unq7,norwegian_3952_unq8,norwegian_3952_unq9,norwegian_3952_unq10,norwegian_3952_unq11,norwegian_3952_unq12"},
       {name: "Elfdalian (dedicated)", i: 3953, min: 4, max: 11, d: "lnrt", m: 0, b: "ovd_3953_unq1,ovd_3953_unq2,ovd_3953_unq3,ovd_3953_unq4,ovd_3953_unq5,ovd_3953_unq6,ovd_3953_unq7,ovd_3953_unq8,ovd_3953_unq9,ovd_3953_unq10,ovd_3953_unq11,ovd_3953_unq12"},
-      {name: "Swedish (dedicated)", i: 3954, min: 4, max: 11, d: "lnrt", m: 0, b: "swe_3954_unq1,swe_3954_unq2,swe_3954_unq3,swe_3954_unq4,swe_3954_unq5,swe_3954_unq6,swe_3954_unq7,swe_3954_unq8,swe_3954_unq9,swe_3954_unq10,swe_3954_unq11,swe_3954_unq12"}
+      {name: "Swedish (dedicated)", i: 3954, min: 4, max: 11, d: "lnrt", m: 0, b: "swe_3954_unq1,swe_3954_unq2,swe_3954_unq3,swe_3954_unq4,swe_3954_unq5,swe_3954_unq6,swe_3954_unq7,swe_3954_unq8,swe_3954_unq9,swe_3954_unq10,swe_3954_unq11,swe_3954_unq12"},
+      {name: "Latvian (dedicated)", i: 3955, min: 4, max: 11, d: "lnrt", m: 0, b: "latvian_3955_unq1,latvian_3955_unq2,latvian_3955_unq3,latvian_3955_unq4,latvian_3955_unq5,latvian_3955_unq6,latvian_3955_unq7,latvian_3955_unq8,latvian_3955_unq9,latvian_3955_unq10,latvian_3955_unq11,latvian_3955_unq12"},
+      {name: "Lithuanian (dedicated)", i: 3956, min: 4, max: 11, d: "lnrt", m: 0, b: "lithuanian_3956_unq1,lithuanian_3956_unq2,lithuanian_3956_unq3,lithuanian_3956_unq4,lithuanian_3956_unq5,lithuanian_3956_unq6,lithuanian_3956_unq7,lithuanian_3956_unq8,lithuanian_3956_unq9,lithuanian_3956_unq10,lithuanian_3956_unq11,lithuanian_3956_unq12"}
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.fantasyNameBases;

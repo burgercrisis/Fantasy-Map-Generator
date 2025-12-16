@@ -992,6 +992,12 @@ window.realWorldNameBases = [
       {name: "Anatolian Arabic (dedicated)", i: 5110, min: 4, max: 11, d: "lnrt", m: 0, b: "anatolianarabic_unq1,anatolianarabic_unq2,anatolianarabic_unq3,anatolianarabic_unq4,anatolianarabic_unq5,anatolianarabic_unq6,anatolianarabic_unq7,anatolianarabic_unq8,anatolianarabic_unq9,anatolianarabic_unq10,anatolianarabic_unq11,anatolianarabic_unq12"},
       {name: "Aramaic (dedicated)", i: 5010, min: 4, max: 11, d: "lnrt", m: 0, b: "aramaic_5010_unq1,aramaic_5010_unq2,aramaic_5010_unq3,aramaic_5010_unq4,aramaic_5010_unq5,aramaic_5010_unq6,aramaic_5010_unq7,aramaic_5010_unq8,aramaic_5010_unq9,aramaic_5010_unq10,aramaic_5010_unq11,aramaic_5010_unq12"},
       {name: "Arabic (dedicated)", i: 5012, min: 4, max: 11, d: "lnrt", m: 0, b: "arabic_5012_unq1,arabic_5012_unq2,arabic_5012_unq3,arabic_5012_unq4,arabic_5012_unq5,arabic_5012_unq6,arabic_5012_unq7,arabic_5012_unq8,arabic_5012_unq9,arabic_5012_unq10,arabic_5012_unq11,arabic_5012_unq12"},
+
+      {name: "Arabic Javanese of Klego (dedicated)", i: 5256, min: 4, max: 11, d: "lnrt", m: 0, b: "arabicjavaneseofklego_unq1,arabicjavaneseofklego_unq2,arabicjavaneseofklego_unq3,arabicjavaneseofklego_unq4,arabicjavaneseofklego_unq5,arabicjavaneseofklego_unq6,arabicjavaneseofklego_unq7,arabicjavaneseofklego_unq8,arabicjavaneseofklego_unq9,arabicjavaneseofklego_unq10,arabicjavaneseofklego_unq11,arabicjavaneseofklego_unq12"},
+      {name: "Arin (dedicated)", i: 5257, min: 4, max: 11, d: "lnrt", m: 0, b: "arin_unq1,arin_unq2,arin_unq3,arin_unq4,arin_unq5,arin_unq6,arin_unq7,arin_unq8,arin_unq9,arin_unq10,arin_unq11,arin_unq12"},
+      {name: "Aringa (dedicated)", i: 5258, min: 4, max: 11, d: "lnrt", m: 0, b: "aringa_unq1,aringa_unq2,aringa_unq3,aringa_unq4,aringa_unq5,aringa_unq6,aringa_unq7,aringa_unq8,aringa_unq9,aringa_unq10,aringa_unq11,aringa_unq12"},
+      {name: "Armazic (dedicated)", i: 5259, min: 4, max: 11, d: "lnrt", m: 0, b: "armazic_unq1,armazic_unq2,armazic_unq3,armazic_unq4,armazic_unq5,armazic_unq6,armazic_unq7,armazic_unq8,armazic_unq9,armazic_unq10,armazic_unq11,armazic_unq12"},
+      {name: "Aro (dedicated)", i: 5260, min: 4, max: 11, d: "lnrt", m: 0, b: "aro_unq1,aro_unq2,aro_unq3,aro_unq4,aro_unq5,aro_unq6,aro_unq7,aro_unq8,aro_unq9,aro_unq10,aro_unq11,aro_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

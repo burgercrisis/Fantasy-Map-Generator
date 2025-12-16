@@ -18,6 +18,7 @@
  - 2025-12-16: Cultures Editor namesbase display: replaced `removed` with a clearer missing-label and hardened race-mixer display-name generation to avoid awkward labels like `Swis` / `Campi English` (fallback to `Race <Race> (Mixer)`).
  - 2025-12-16: Disabled/hid race-mixer namebases in Cultures workflows: `ensureRaceMixerBaseIndex` now returns curated fantasy bases and Cultures Editor remaps/hides mixer-ish bases (e.g., `Race Elf (Mixer)`, `Southern (Elf)`).
  - 2025-12-16: Reverted the above “disable/hide race-mixer bases” experiment. Cultures now assign a culture-specific mixer base during generation (using `Names.getMixedByIso`) and store it as a new `nameBases` entry (flagged `cultureMixer`). Display names are generated fictionally from the mixed seed names (sanitizing `_unqN` artifacts). Verified in Cultures Editor after regeneration: no real-world language names, no `Elven`, no `Race <Race> (Mixer)`, no `_unqN`.
+ - 2025-12-16: Races Editor + Tools panel: implemented a pure reroll `Regenerate Races` that actually changes the race distribution without running `Cultures.expand()` and without touching `culture.base`. Implementation: `modules/races.js` added `rerollRacesForCultures`; `modules/dynamic/editors/races-editor.js` and `modules/ui/tools.js` call it (fallback to `initializeRacesForExpansion`), delete `pack.cells.race`, then run `assignRaces()` and redraw when `toggleRaces` is enabled. Tools UI: `index.html` added `button#regenerateRaces`.
 
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.
