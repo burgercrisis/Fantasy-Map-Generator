@@ -1905,14 +1905,14 @@
         "cappadocian-greek",
         "car-nicobarese"
       ],
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-16T09:59:47.059Z",
-      "updatedAt": "2025-12-16T09:59:47.059Z",
+      "updatedAt": "2025-12-16T10:44:00.000Z",
       "reservedRange": [
         5156,
         5205
       ],
-      "notes": "Reserved i range: 5156-5205\nISO->base mapping (fill in):\n- cao-lan->5156\n- cao-miao->5157\n- cape-verdean-creole->5158\n- cappadocian-greek->5159\n- car-nicobarese->5160"
+      "notes": "Reserved i range: 5156-5205\nISO->base mapping (fill in):\n- cao-lan->5156\n- cao-miao->5157\n- cape-verdean-creole->5158\n- cappadocian-greek->5159\n- car-nicobarese->5160\n\nRETIREMENT: Marking stalled to avoid leaving an in_progress claim. Safe to re-claim or abandon as needed."
     }
   ]
 }

@@ -208,7 +208,15 @@ function loadNamebaseIndices() {
   ];
 
   const indices = new Set();
-  const re = /\bi:\s*(\d+)/g;
+  const re = /\bi\s*:\s*([0-9\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]+)/g;
+
+  const normalizeDigits = s => String(s).replace(/[\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]/g, c => {
+    const code = c.charCodeAt(0);
+    if (code >= 0xFF10 && code <= 0xFF19) return String.fromCharCode(code - 0xFF10 + 0x30);
+    if (code >= 0x0660 && code <= 0x0669) return String.fromCharCode(code - 0x0660 + 0x30);
+    if (code >= 0x06F0 && code <= 0x06F9) return String.fromCharCode(code - 0x06F0 + 0x30);
+    return c;
+  });
 
   for (const file of files) {
     let src;
@@ -227,7 +235,7 @@ function loadNamebaseIndices() {
     re.lastIndex = 0;
     let m;
     while ((m = re.exec(src))) {
-      const index = Number(m[1]);
+      const index = Number(normalizeDigits(m[1]));
       if (!Number.isNaN(index)) indices.add(index);
     }
   }

@@ -23742,6 +23742,22 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Bora_language"
   },
   {
+    "name": "Nonuya",
+    "iso": "noj",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nonuya_language"
+  },
+  {
+    "name": "Ocaina",
+    "iso": "oca",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ocaina_language"
+  },
+  {
     "name": "Carijona",
     "iso": "cbd",
     "region": "South America",
@@ -23758,12 +23774,28 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Cams%C3%A1_language"
   },
   {
+    "name": "Movima",
+    "iso": "mzp",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Movima isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Movima_language"
+  },
+  {
     "name": "Cavineña",
     "iso": "cav",
     "region": "South America",
     "category": "Tacanan",
     "family": "Tacanan",
     "wikipedia": "https://en.wikipedia.org/wiki/Cavine%C3%B1a_language"
+  },
+  {
+    "name": "Tacana",
+    "iso": "tna",
+    "region": "South America",
+    "category": "Tacanan",
+    "family": "Tacanan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tacana_language"
   },
   {
     "name": "Cayuvava",

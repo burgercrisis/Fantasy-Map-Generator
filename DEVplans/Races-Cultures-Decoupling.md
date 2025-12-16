@@ -17,6 +17,7 @@
  - 2025-12-16: Fixed legacy race mixer bases named like `English (Hexblood)` to be detected and auto-refreshed (even without explicit refresh) so old saves don’t keep single-language/unmixed seed blobs.
  - 2025-12-16: Cultures Editor namesbase display: replaced `removed` with a clearer missing-label and hardened race-mixer display-name generation to avoid awkward labels like `Swis` / `Campi English` (fallback to `Race <Race> (Mixer)`).
  - 2025-12-16: Disabled/hid race-mixer namebases in Cultures workflows: `ensureRaceMixerBaseIndex` now returns curated fantasy bases and Cultures Editor remaps/hides mixer-ish bases (e.g., `Race Elf (Mixer)`, `Southern (Elf)`).
+ - 2025-12-16: Reverted the above “disable/hide race-mixer bases” experiment. Cultures now assign a culture-specific mixer base during generation (using `Names.getMixedByIso`) and store it as a new `nameBases` entry (flagged `cultureMixer`). Display names are generated fictionally from the mixed seed names (sanitizing `_unqN` artifacts). Verified in Cultures Editor after regeneration: no real-world language names, no `Elven`, no `Race <Race> (Mixer)`, no `_unqN`.
 
 ## Goal
 - Races are managed by the **Races** tool/panel and apply to **cells**.

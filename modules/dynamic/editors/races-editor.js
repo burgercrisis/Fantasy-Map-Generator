@@ -61,6 +61,7 @@ function insertEditorHtml() {
       <button id="racesEditStyle" data-tip="Edit races style in Style Editor" class="icon-adjust"></button>
       <button id="racesLegend" data-tip="Toggle Legend box" class="icon-list-bullet"></button>
       <button id="racesPercentage" data-tip="Toggle percentage / absolute values display mode" class="icon-percent"></button>
+      <button id="racesRegenerate" data-tip="Regenerate races distribution" class="icon-arrows-cw"></button>
       <button id="racesManually" data-tip="Manually re-assign races (not yet brush-based)" class="icon-brush"></button>
       <button id="racesAdd" data-tip="Add a new race" class="icon-plus"></button>
       <button id="racesExport" data-tip="Download races-related data" class="icon-download"></button>
@@ -81,6 +82,7 @@ function addListeners() {
   byId("racesEditStyle").on("click", () => editStyle("cults"));
   byId("racesLegend").on("click", toggleRacesLegend);
   byId("racesPercentage").on("click", toggleRacesPercentageMode);
+  byId("racesRegenerate").on("click", regenerateRaces);
   byId("racesManually").on("click", enterRacesManualAssignment);
   byId("racesAdd").on("click", addRace);
   byId("racesExport").on("click", downloadRacesCsv);
@@ -453,6 +455,42 @@ function recalculateRaces() {
 
   if (typeof assignRaces === "function") assignRaces();
   else updateCellRacesFromCultures();
+
+  const stats = collectRaceStatistics();
+  racesEditorAddLines(stats);
+  if (typeof refreshAllEditors === "function") refreshAllEditors();
+}
+
+function regenerateRaces() {
+  if (!pack || !pack.cultures || !pack.cells) return;
+
+  // Drop existing derived race assignments to force a re-roll.
+  if (Array.isArray(pack.cultures)) {
+    pack.cultures.forEach(c => {
+      if (!c || !c.i || c.removed) return;
+      delete c.race;
+    });
+  }
+
+  if (pack.states) pack.states.forEach(s => s && delete s.race);
+  if (pack.provinces) pack.provinces.forEach(p => p && delete p.race);
+  if (pack.burgs) pack.burgs.forEach(b => b && delete b.race);
+  if (pack.religions) pack.religions.forEach(r => r && delete r.race);
+
+  // Regenerate race list + per-culture race assignment.
+  if (typeof initializeRacesForExpansion === "function") {
+    initializeRacesForExpansion({forceFilterFromUi: true});
+  }
+
+  // Rebuild cell-level race layer from culture assignments.
+  updateCellRacesFromCultures();
+
+  if (typeof drawRaces === "function" && typeof layerIsOn === "function" && layerIsOn("toggleRaces")) {
+    drawRaces();
+  }
+  if (typeof drawCultures === "function") drawCultures();
+
+  if (typeof assignRaces === "function") assignRaces();
 
   const stats = collectRaceStatistics();
   racesEditorAddLines(stats);

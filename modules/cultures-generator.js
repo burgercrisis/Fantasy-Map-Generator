@@ -167,7 +167,13 @@ window.Cultures = (function () {
       if (!Array.isArray(names) || names.length < 3) return "";
 
       const sanitized = names
-        .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+        .map(n =>
+          String(n || "")
+            .replace(/[/|,]/g, "")
+            .replace(/_unq\d+\b/gi, "")
+            .replace(/_/g, "")
+            .trim()
+        )
         .filter(Boolean);
 
       if (sanitized.length < 3) return "";
@@ -248,7 +254,13 @@ window.Cultures = (function () {
 
       if (!Array.isArray(names) || names.length < 3) return null;
       const sanitized = names
-        .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+        .map(n =>
+          String(n || "")
+            .replace(/[/|,]/g, "")
+            .replace(/_unq\d+\b/gi, "")
+            .replace(/_/g, "")
+            .trim()
+        )
         .filter(Boolean);
       if (sanitized.length < 3) return null;
 
@@ -269,8 +281,28 @@ window.Cultures = (function () {
       const displayName = generateFictionalDisplayNameFromNames(sanitized, {seed: nameSeed});
       const b = sanitized.join(",");
       const baseIndex = nameBases.length;
+
+      const fallbackName = (() => {
+        const sample = sanitized[0] ? String(sanitized[0]).trim() : "";
+        if (sample.length >= 4 && !/\s/.test(sample)) {
+          return sample.charAt(0).toUpperCase() + sample.slice(1).toLowerCase();
+        }
+        const consonants = "bcdfghjklmnpqrstvwxz";
+        const vowels = "aeiouy";
+        const rng = makeRng(nameSeed || 1);
+        const pick = s => s[Math.floor(rng() * s.length)];
+        let out = "";
+        const target = 6 + Math.floor(rng() * 4);
+        while (out.length < target) {
+          out += pick(consonants) + pick(vowels);
+          if (rng() < 0.15) out += pick(consonants);
+        }
+        out = out.slice(0, Math.min(10, Math.max(5, target)));
+        return out.charAt(0).toUpperCase() + out.slice(1);
+      })();
+
       nameBases.push({
-        name: displayName || `Mixed ${cultureId}`,
+        name: displayName || fallbackName,
         min,
         max,
         d: "",

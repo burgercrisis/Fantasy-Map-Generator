@@ -26610,6 +26610,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Mocov%C3%AD_language"
   },
   {
+    "name": "Movima",
+    "iso": "mzp",
+    "region": "South America",
+    "category": "Language isolate",
+    "family": "Movima isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Movima_language"
+  },
+  {
     "name": "Munduruku",
     "iso": "myu",
     "region": "South America",
@@ -26643,6 +26651,22 @@
     "category": "Matacoan",
     "family": "Matacoan",
     "wikipedia": "https://en.wikipedia.org/wiki/Nivacl%C3%A9_language"
+  },
+  {
+    "name": "Nonuya",
+    "iso": "noj",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nonuya_language"
+  },
+  {
+    "name": "Ocaina",
+    "iso": "oca",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ocaina_language"
   },
   {
     "name": "Ona",
@@ -26824,6 +26848,14 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Tacana",
+    "iso": "tna",
+    "region": "South America",
+    "category": "Tacanan",
+    "family": "Tacanan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tacana_language"
   },
   {
     "name": "Tatuyo",
