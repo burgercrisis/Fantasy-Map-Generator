@@ -1886,14 +1886,33 @@
         "algerian-saharan-arabic",
         "anatolian-arabic"
       ],
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-16T09:51:35.309Z",
-      "updatedAt": "2025-12-16T09:51:35.309Z",
+      "updatedAt": "2025-12-16T09:56:10.848Z",
       "reservedRange": [
         5106,
         5155
       ],
-      "notes": "Reserved i range: 5106-5155\nISO->base mapping (fill in):\n- adeni-arabic->5106\n- aleppine-arabic->5107\n- algerian-arabic->5108\n- algerian-saharan-arabic->5109\n- anatolian-arabic->5110"
+      "notes": "Reserved i range: 5106-5155\nISO->base mapping (fill in):\n- adeni-arabic->5106\n- aleppine-arabic->5107\n- algerian-arabic->5108\n- algerian-saharan-arabic->5109\n- anatolian-arabic->5110\n\nBLOCKER: claim created accidentally during batch selection; do not implement this ISO set. Safe to ignore. ReservedRange left allocated (5106-5155)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T09:59:47.059Z-worker1",
+      "isos": [
+        "cao-lan",
+        "cao-miao",
+        "cape-verdean-creole",
+        "cappadocian-greek",
+        "car-nicobarese"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T09:59:47.059Z",
+      "updatedAt": "2025-12-16T09:59:47.059Z",
+      "reservedRange": [
+        5156,
+        5205
+      ],
+      "notes": "Reserved i range: 5156-5205\nISO->base mapping (fill in):\n- cao-lan->5156\n- cao-miao->5157\n- cape-verdean-creole->5158\n- cappadocian-greek->5159\n- car-nicobarese->5160"
     }
   ]
 }

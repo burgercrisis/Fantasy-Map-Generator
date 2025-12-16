@@ -786,6 +786,25 @@ function findExistingRaceMixerBaseIndex(raceName) {
   return null;
 }
 
+function getRaceDefaultBaseIndex(raceName) {
+  if (!raceName) return null;
+  if (!fantasyRaceBases || !fantasyRaceBases[raceName]) return null;
+  if (!Array.isArray(nameBases)) return null;
+
+  const bases = fantasyRaceBases[raceName];
+  if (!Array.isArray(bases) || !bases.length) return null;
+
+  for (const baseIndex of bases) {
+    if (typeof baseIndex !== "number") continue;
+    const base = nameBases[baseIndex];
+    if (!base) continue;
+    if (base && base.raceMixerFor) continue;
+    return baseIndex;
+  }
+
+  return null;
+}
+
 function ensureRaceMixerBaseIndex(raceName, options) {
   if (!raceName || raceName === "Human") return null;
   if (!fantasyRaceBases[raceName]) return null;
@@ -1353,9 +1372,12 @@ function initializeRacesForExpansion(options) {
     }
 
     if (raceName && raceName !== "Human") {
-      const mixedBase = ensureRaceMixerBaseIndex(raceName);
-      if (typeof mixedBase === "number") {
-        culture.base = mixedBase;
+      const currentBase =
+        typeof culture.base === "number" && Array.isArray(nameBases) ? nameBases[culture.base] : null;
+      const shouldReplaceBase = !currentBase || (currentBase && currentBase.raceMixerFor);
+      if (shouldReplaceBase) {
+        const baseIndex = ensureRaceMixerBaseIndex(raceName);
+        if (typeof baseIndex === "number") culture.base = baseIndex;
       }
     }
     let raceId = raceIndexByName.get(raceName);
@@ -1423,8 +1445,13 @@ function syncCultureBasesToDominantRace() {
     const raceName = race && typeof race.name === "string" ? race.name : "";
     if (!raceName || raceName === "None" || raceName === "Human") continue;
 
-    const mixedBase = ensureRaceMixerBaseIndex(raceName);
-    if (typeof mixedBase === "number") culture.base = mixedBase;
+    const currentBase =
+      typeof culture.base === "number" && Array.isArray(nameBases) ? nameBases[culture.base] : null;
+    const shouldReplaceBase = !currentBase || (currentBase && currentBase.raceMixerFor);
+    if (shouldReplaceBase) {
+      const baseIndex = ensureRaceMixerBaseIndex(raceName);
+      if (typeof baseIndex === "number") culture.base = baseIndex;
+    }
   }
 }
 
