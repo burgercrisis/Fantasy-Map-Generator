@@ -1,0 +1,8 @@
+{
+  "setBases": {
+    "silesian": [0, 5, 314],
+    "upper-sorbian": [0, 5, 314, 315],
+    "lower-sorbian": [5, 314, 316],
+    "pomeranian": [5, 314, 372]
+  }
+}

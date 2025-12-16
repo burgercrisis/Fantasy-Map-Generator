@@ -19,6 +19,8 @@ This workflow is designed to be **re-sent verbatim** to multiple agents working 
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 # Global end-state goal
 
 Continuously drive the project toward:

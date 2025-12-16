@@ -318,10 +318,19 @@ window.fantasyNameBases = [
       {name: "Sunuwar (dedicated)", i: 2912, min: 4, max: 11, d: "lnrt", m: 0, b: "suz_unq1,suz_unq2,suz_unq3,suz_unq4,suz_unq5,suz_unq6,suz_unq7,suz_unq8,suz_unq9,suz_unq10,suz_unq11,suz_unq12"},
       {name: "Thulung (dedicated)", i: 2913, min: 4, max: 11, d: "lnrt", m: 0, b: "tdh_unq1,tdh_unq2,tdh_unq3,tdh_unq4,tdh_unq5,tdh_unq6,tdh_unq7,tdh_unq8,tdh_unq9,tdh_unq10,tdh_unq11,tdh_unq12"},
       {name: "Yamphu/Yamphe (dedicated)", i: 2914, min: 4, max: 11, d: "lnrt", m: 0, b: "ybi_unq1,ybi_unq2,ybi_unq3,ybi_unq4,ybi_unq5,ybi_unq6,ybi_unq7,ybi_unq8,ybi_unq9,ybi_unq10,ybi_unq11,ybi_unq12"},
-
       {name: "Chhiling (dedicated)", i: 2915, min: 4, max: 11, d: "lnrt", m: 0, b: "cur_unq1,cur_unq2,cur_unq3,cur_unq4,cur_unq5,cur_unq6,cur_unq7,cur_unq8,cur_unq9,cur_unq10,cur_unq11,cur_unq12"},
       {name: "Mewahang (dedicated)", i: 2916, min: 4, max: 11, d: "lnrt", m: 0, b: "emg_unq1,emg_unq2,emg_unq3,emg_unq4,emg_unq5,emg_unq6,emg_unq7,emg_unq8,emg_unq9,emg_unq10,emg_unq11,emg_unq12"},
       {name: "Jero/Jerung (dedicated)", i: 2917, min: 4, max: 11, d: "lnrt", m: 0, b: "jee_unq1,jee_unq2,jee_unq3,jee_unq4,jee_unq5,jee_unq6,jee_unq7,jee_unq8,jee_unq9,jee_unq10,jee_unq11,jee_unq12"},
       {name: "Yakthung/Limbu (dedicated)", i: 2918, min: 4, max: 11, d: "lnrt", m: 0, b: "lif_unq1,lif_unq2,lif_unq3,lif_unq4,lif_unq5,lif_unq6,lif_unq7,lif_unq8,lif_unq9,lif_unq10,lif_unq11,lif_unq12"},
-      {name: "Lohorung (dedicated)", i: 2919, min: 4, max: 11, d: "lnrt", m: 0, b: "lrr_unq1,lrr_unq2,lrr_unq3,lrr_unq4,lrr_unq5,lrr_unq6,lrr_unq7,lrr_unq8,lrr_unq9,lrr_unq10,lrr_unq11,lrr_unq12"}
+      {name: "Lohorung (dedicated)", i: 2919, min: 4, max: 11, d: "lnrt", m: 0, b: "lrr_unq1,lrr_unq2,lrr_unq3,lrr_unq4,lrr_unq5,lrr_unq6,lrr_unq7,lrr_unq8,lrr_unq9,lrr_unq10,lrr_unq11,lrr_unq12"},
+      {name: "Nachhiring (dedicated)", i: 3905, min: 4, max: 11, d: "lnrt", m: 0, b: "ncd_unq1,ncd_unq2,ncd_unq3,ncd_unq4,ncd_unq5,ncd_unq6,ncd_unq7,ncd_unq8,ncd_unq9,ncd_unq10,ncd_unq11,ncd_unq12"},
+      {name: "Puma (dedicated)", i: 3906, min: 4, max: 11, d: "lnrt", m: 0, b: "pum_unq1,pum_unq2,pum_unq3,pum_unq4,pum_unq5,pum_unq6,pum_unq7,pum_unq8,pum_unq9,pum_unq10,pum_unq11,pum_unq12"},
+      {name: "Dungmali (dedicated)", i: 3907, min: 4, max: 11, d: "lnrt", m: 0, b: "raa_unq1,raa_unq2,raa_unq3,raa_unq4,raa_unq5,raa_unq6,raa_unq7,raa_unq8,raa_unq9,raa_unq10,raa_unq11,raa_unq12"},
+      {name: "Saam (dedicated)", i: 3908, min: 4, max: 11, d: "lnrt", m: 0, b: "raq_unq1,raq_unq2,raq_unq3,raq_unq4,raq_unq5,raq_unq6,raq_unq7,raq_unq8,raq_unq9,raq_unq10,raq_unq11,raq_unq12"},
+      {name: "Hayu/Vayu (dedicated)", i: 3909, min: 4, max: 11, d: "lnrt", m: 0, b: "vay_unq1,vay_unq2,vay_unq3,vay_unq4,vay_unq5,vay_unq6,vay_unq7,vay_unq8,vay_unq9,vay_unq10,vay_unq11,vay_unq12"},
+      {name: "Chhantyal (dedicated)", i: 2925, min: 4, max: 11, d: "lnrt", m: 0, b: "chx_unq1,chx_unq2,chx_unq3,chx_unq4,chx_unq5,chx_unq6,chx_unq7,chx_unq8,chx_unq9,chx_unq10,chx_unq11,chx_unq12"},
+      {name: "Ghale (dedicated)", i: 2926, min: 4, max: 11, d: "lnrt", m: 0, b: "ghale_unq1,ghale_unq2,ghale_unq3,ghale_unq4,ghale_unq5,ghale_unq6,ghale_unq7,ghale_unq8,ghale_unq9,ghale_unq10,ghale_unq11,ghale_unq12"},
+      {name: "Magar Kaike (dedicated)", i: 2927, min: 4, max: 11, d: "lnrt", m: 0, b: "kzq_unq1,kzq_unq2,kzq_unq3,kzq_unq4,kzq_unq5,kzq_unq6,kzq_unq7,kzq_unq8,kzq_unq9,kzq_unq10,kzq_unq11,kzq_unq12"},
+      {name: "Manange (dedicated)", i: 2928, min: 4, max: 11, d: "lnrt", m: 0, b: "nmm_unq1,nmm_unq2,nmm_unq3,nmm_unq4,nmm_unq5,nmm_unq6,nmm_unq7,nmm_unq8,nmm_unq9,nmm_unq10,nmm_unq11,nmm_unq12"},
+      {name: "Nar-Phu (dedicated)", i: 2929, min: 4, max: 11, d: "lnrt", m: 0, b: "npa_unq1,npa_unq2,npa_unq3,npa_unq4,npa_unq5,npa_unq6,npa_unq7,npa_unq8,npa_unq9,npa_unq10,npa_unq11,npa_unq12"}
 ];

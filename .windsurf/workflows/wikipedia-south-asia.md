@@ -8,6 +8,7 @@ auto_execution_mode: 0
 - Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
 - Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
 - If you believe an additional command is required, stop and ask the user before running anything.
+- Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 Use this workflow together with `/wikipedia1` for **Languages of South Asia**.
 

@@ -1717,12 +1717,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-16T01:32:55.981Z",
-      "updatedAt": "2025-12-16T01:56:38.709Z",
+      "updatedAt": "2025-12-16T02:22:08.975Z",
       "reservedRange": [
         3005,
         3054
       ],
-      "notes": "Reserved i range: 3005-3054\nISO->base mapping (fill in):\n- altai->3005\n- altai-uriankhai->3006\n- alu->3007\n- aluku->3008\n- alyutor->3009\n\nVerified 2025-12-16: Delta=tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json; bases=modules/namebases-real.js i:3005-3009; pins: altai->3005 altai-uriankhai->3006 alu->3007 aluku->3008 alyutor->3009. Commands: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=altai,altai-uriankhai,alu,aluku,alyutor => exit 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nVerified 2025-12-16: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=altai,altai-uriankhai,alu,aluku,alyutor --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json; bases modules/namebases-real.js i:3005-3009"
+      "notes": "Reserved i range: 3005-3054\nISO->base mapping (fill in):\n- altai->3005\n- altai-uriankhai->3006\n- alu->3007\n- aluku->3008\n- alyutor->3009\n\nVerified 2025-12-16: Delta=tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json; bases=modules/namebases-real.js i:3005-3009; pins: altai->3005 altai-uriankhai->3006 alu->3007 aluku->3008 alyutor->3009. Commands: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=altai,altai-uriankhai,alu,aluku,alyutor => exit 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nVerified 2025-12-16: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=altai,altai-uriankhai,alu,aluku,alyutor --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json; bases modules/namebases-real.js i:3005-3009\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=altai altai-uriankhai alu aluku alyutor\\ --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta=tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json; bases=modules/namebases-real.js i:3005-3009\n\nHandoff: delta=tools/mixer-deltas/2025-12-16-worker1-mixed-altai.json; baseDefs=modules/namebases-real.js i:3005-3009; verify: mixer:guardrails OK; mixer:check-deltas OK; coverage OK; failures OK; base-clusters OK. Seed uniqueness: report-language-mixer-seed-uniqueness.js ignores --only-isos alias; rerun with --only=altai,altai-uriankhai,alu,aluku,alyutor or fix parser.\n\nVerified /no-unique-base2: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures '--only-isos=altai,altai-uriankhai,alu,aluku,alyutor' --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage OK; failures OK; base-clusters --min-size=2 ran (no new collisions introduced)."
     },
     {
       "workerId": 2,
@@ -1734,14 +1734,52 @@
         "angolar-creole",
         "annobonese-creole"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-16T01:55:19.839Z",
-      "updatedAt": "2025-12-16T01:55:19.839Z",
+      "updatedAt": "2025-12-16T02:28:02.062Z",
       "reservedRange": [
         3064,
         3113
       ],
-      "notes": "Reserved i range: 3064-3113\nISO->base mapping (fill in):\n- ambonese-malay->3064\n- american-indian-pidgin-english->3065\n- andaman-creole-hindi->3066\n- angolar-creole->3067\n- annobonese-creole->3068"
+      "notes": "Reserved i range: 3064-3113\nISO->base mapping (fill in):\n- ambonese-malay->3064\n- american-indian-pidgin-english->3065\n- andaman-creole-hindi->3066\n- angolar-creole->3067\n- annobonese-creole->3068\n\nVerified 2025-12-16: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ambonese-malay,american-indian-pidgin-english,andaman-creole-hindi,angolar-creole,annobonese-creole --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta tools/mixer-deltas/2025-12-16-worker2-mixed-ambonese-malay.json; bases modules/namebases-creole.js i:3064-3068\n\nReserved i range: 3064-3113; ISO->base: ambonese-malay->3064; american-indian-pidgin-english->3065; andaman-creole-hindi->3066; angolar-creole->3067; annobonese-creole->3068; delta=tools/mixer-deltas/2025-12-16-worker2-mixed-ambonese-malay.json; base defs=modules/namebases-creole.js i:3064-3068; BLOCKER: pnpm run mixer:check-deltas fails [apply-mixer-deltas] Artifacts are out of date vs deltas (needs integrator pnpm run mixer:apply-deltas).\n\nVerified 2025-12-16: delta=tools/mixer-deltas/2025-12-16-worker2-mixed-ambonese-malay.json; bases=modules/namebases-creole.js i:3064-3068; pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ambonese-malay,american-indian-pidgin-english,andaman-creole-hindi,angolar-creole,annobonese-creole --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0\n\nVerified 2025-12-16T02:21:11.102Z: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=ambonese-malay american-indian-pidgin-english andaman-creole-hindi angolar-creole annobonese-creole\\ --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta=tools/mixer-deltas/2025-12-16-worker2-mixed-ambonese-malay.json; baseDefs=modules/namebases-creole.js i:3064-3068"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T02:24:41.984Z-worker1",
+      "isos": [
+        "amdo-tibetan",
+        "amf",
+        "amh",
+        "amharic",
+        "amharic-argobba"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-16T02:24:41.984Z",
+      "updatedAt": "2025-12-16T03:36:21.168Z",
+      "reservedRange": [
+        3119,
+        3168
+      ],
+      "notes": "Reserved i range: 3119-3168\nISO->base mapping (fill in):\n- amdo-tibetan->3119\n- amf->3120\n- amh->3121\n- amharic->3122\n- amharic-argobba->3123\n\nCORRECTION: actual dedicatedPins are from tools/mixer-deltas/2025-12-16-worker1-mixed-amdo-tibetan.json: amdo-tibetan->3124; amf->3125; amh->3126; amharic->3127; amharic-argobba->3128. Base defs already present in modules/namebases-real.js i:3124-3128. Verified 2025-12-16T03:26Z: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=amdo-tibetan,amf,amh,amharic,amharic-argobba --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. NOTE: language-mixer-map.json still contains extra invalid base indices 3119-3123 in some bases[] arrays (non-blocking, mapping is messy)."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-16T02:52:38.735Z-worker2",
+      "isos": [
+        "anguillian-creole",
+        "bahamian-creole",
+        "bajan-creole",
+        "belizean-creole",
+        "bocas-del-toro-creole"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T02:52:38.735Z",
+      "updatedAt": "2025-12-16T03:11:30.679Z",
+      "reservedRange": [
+        3169,
+        3218
+      ],
+      "notes": "Reserved i range: 3169-3218\nISO->base mapping (fill in):\n- anguillian-creole->3169\n- bahamian-creole->3170\n- bajan-creole->3171\n- belizean-creole->3172\n- bocas-del-toro-creole->3173\n\nDelta=tools/mixer-deltas/2025-12-16-worker2-mixed-anguillian-creole.json; baseDefs=modules/namebases-creole.js i:3169-3173; pins: anguillian-creole->3169 bahamian-creole->3170 bajan-creole->3171 belizean-creole->3172 bocas-del-toro-creole->3173"
     }
   ]
 }

@@ -86,10 +86,11 @@
       "workerId": 33,
       "target": "tools/mixer-meta/wikipedia-languages-of-nepal-census.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "stalled",
+      "status": "in_progress",
       "startedAt": "2025-12-13T14:59:00Z",
       "finishedAt": "2025-12-15T07:55:05.507Z",
-      "note": "STALE>24h: stalling to release lock. Re-claim if still active."
+      "note": "STALE>24h: stalling to release lock. Re-claim if still active.\n\n2025-12-15 Nepal census uniqueness batch4 applied + verified: delta tools/mixer-deltas/2025-12-15-wikipedia1-nepal-census-batch4.json dedicatedPins ncd,pum,raa,raq,vay -> i:2920-2924 (base defs already in modules/namebases-real.js). Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json + tools/mixer-deltas/_compiled-dedicated-pins.json; pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock OK; seed-uniqueness --only-isos=ncd,pum,raa,raq,vay => Missing mapping 0, No globally-unique base index 0; race-coverage (filtered) => each RaceCount=6 (Draconic, Dragonborn, Kobold, Owlin, Warforged, Yuan-ti). Base-uniqueness snapshot now Nonunique Bases=98 (still in progress).",
+      "updatedAt": "2025-12-16T03:14:08.566Z"
     },
     {
       "workerId": 35,
@@ -239,10 +240,11 @@
       "workerId": 4,
       "target": "tools/mixer-meta/wikipedia-languages-of-oceania.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T22:18:53.405Z",
-      "updatedAt": "2025-12-15T22:18:53.405Z",
-      "note": "/wikipedia1 continue: starting next target after AU living-2019 completion. Next steps: run report-wikipedia-list-coverage, then handle any missing/unmatched, then address Nonunique Bases + race coverage."
+      "updatedAt": "2025-12-16T03:11:26.705Z",
+      "note": "/wikipedia1 continue: starting next target after AU living-2019 completion. Next steps: run report-wikipedia-list-coverage, then handle any missing/unmatched, then address Nonunique Bases + race coverage.\n\n2025-12-16: Oceania list now Nonunique Bases: 0 (applied 2025-12-16-wikipedia1-oceania-batch2.json + 2025-12-16-wikipedia1-oceania-batch3.json; pidgins batch 2025-12-15-wikipedia1-oceania-pidgins-batch1.json). Verified via report-wikipedia-list-base-uniqueness + report-wikipedia-list-nonunique-bases.",
+      "finishedAt": "2025-12-16T03:11:26.705Z"
     },
     {
       "workerId": 5,

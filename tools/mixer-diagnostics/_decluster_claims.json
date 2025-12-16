@@ -90,6 +90,43 @@
         3055,
         3056
       ]
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T02:02:42.733Z-worker1",
+      "basesKey": "86,87",
+      "bases": [
+        86,
+        87
+      ],
+      "isos": [
+        "njh",
+        "nsm"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-16T02:02:42.733Z",
+      "updatedAt": "2025-12-16T03:09:19.486Z",
+      "notes": "Decluster bases=[86,87] collision: njh (Lotha) vs nsm (Sümi). Both are Naga (Sino-Tibetan region). Base names: 86=Ao, 87=Angami-Pochuri, 88=Zeme, 89=Konyak. Plan: delta setBases njh->[86,88], nsm->[87,89] (avoid collisions with existing singleton [86]=ao and [87]=angami-pochuri/njm); then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete.\n\n\\nVERIFIED: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json + tools/mixer-deltas/_compiled-dedicated-pins.json. Diagnostics: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: bases=[86,87] hits=0; njh bases=[86,88] hits=1; nsm bases=[87,89] hits=1.",
+      "reservedRange": [
+        3114,
+        3115
+      ]
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-16T03:27:03.897Z-worker1",
+      "basesKey": "305",
+      "bases": [
+        305
+      ],
+      "isos": [
+        "west-greenlandic-pidgin",
+        "greenlandic-lang"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-16T03:27:03.897Z",
+      "updatedAt": "2025-12-16T03:27:03.897Z",
+      "notes": "Decluster bases=[305] collision: west-greenlandic-pidgin (Pidgin) vs greenlandic-lang (Eskimo-Aleut). Base name: 305=Greenlandic (from modules/namebases-fantasy.js); 1=English (from modules/namebases-real.js). Plan: delta setBases west-greenlandic-pidgin->[1,305] (English+Greenlandic contact flavor) leaving greenlandic-lang as the sole [305]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete. Delta: tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json"
     }
   ]
 }

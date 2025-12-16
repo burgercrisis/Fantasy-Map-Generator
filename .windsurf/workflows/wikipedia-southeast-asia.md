@@ -9,6 +9,8 @@ auto_execution_mode: 0
 - Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
 - If you believe an additional command is required, stop and ask the user before running anything.
 
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
 Use this workflow together with `/wikipedia1` for **Languages of Southeast Asia – regional subset** (§8.10).
 
 Must preserve append-only registry; never delete ISOs.

@@ -19,6 +19,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-15: Updated `.windsurf/workflows/no-unique-base-coordination.md` to reference MCP Coordination Hub workstream + lock tools (`mcp5_workstream_*`, `mcp5_lock_*`) instead of legacy MCP Memory tooling.
 
+- 2025-12-16: Propagated “Hub locks are the only single-writer enforcement mechanism” guidance across all `.windsurf/workflows/wikipedia*.md` workflows (including `wikipedia-exhaustive-multiagent.md`), so multi-agent writers are consistently instructed to lock before edits.
+
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).
