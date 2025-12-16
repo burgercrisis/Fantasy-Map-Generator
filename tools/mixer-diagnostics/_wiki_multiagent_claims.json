@@ -305,6 +305,15 @@
       "updatedAt": "2025-12-16T14:21:31.642Z",
       "finishedAt": "2025-12-16T14:21:31.642Z",
       "note": "Coverage: unmatched 2->0 by adding iso bindings (Dawan->aoz; Gilbertese->kiribati) in tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json. Coverage now 72/72; base-set cluster remains mlg(4); race coverage all ok."
+    },
+    {
+      "workerId": 11,
+      "target": "tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-16T21:29:40.050Z",
+      "updatedAt": "2025-12-16T21:29:40.050Z",
+      "note": "Continue: resolve list unmatched items by adding explicit iso bindings only when the iso is already present in both catalog + mixer-map. First batch: Mawé/Minica Huitoto/Muinane/Nukak/Paipai/Pakaásnovos/Reyesano/Sanumá/Soteapanec/Tiriyó/Tlapaneco/Toromono/Tsimshian/Warázu/Weenhayek/Wichi/Hitnü/Ika/Tembé."
     }
   ]
 }

@@ -7,6 +7,9 @@
     "northern-veps": [9, 427, 429],
     "southern-veps": [9, 427, 438],
     "western-votic": [9, 428, 429],
-    "zyuzdino": [9, 283, 320, 426, 427, 428, 438]
+    "zyuzdino": [9, 283, 320, 426, 427, 428, 438],
+    "torne-valley": [9, 274, 426],
+    "uralic-family": [9, 274, 283, 320, 425, 427, 429, 438],
+    "uralo-siberian": [9, 19, 274, 320, 380]
   }
 }

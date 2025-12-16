@@ -1025,6 +1025,15 @@ window.realWorldNameBases = [
       {name: "Bambassi (dedicated)", i: 5366, min: 4, max: 11, d: "lnrt", m: 0, b: "bambassi_unq1,bambassi_unq2,bambassi_unq3,bambassi_unq4,bambassi_unq5,bambassi_unq6,bambassi_unq7,bambassi_unq8,bambassi_unq9,bambassi_unq10,bambassi_unq11,bambassi_unq12"},
       {name: "Tagoi (dedicated)", i: 5367, min: 4, max: 11, d: "lnrt", m: 0, b: "tagoi_unq1,tagoi_unq2,tagoi_unq3,tagoi_unq4,tagoi_unq5,tagoi_unq6,tagoi_unq7,tagoi_unq8,tagoi_unq9,tagoi_unq10,tagoi_unq11,tagoi_unq12"},
       {name: "Wali Sudan (dedicated)", i: 5368, min: 4, max: 11, d: "lnrt", m: 0, b: "wali-sudan_unq1,wali-sudan_unq2,wali-sudan_unq3,wali-sudan_unq4,wali-sudan_unq5,wali-sudan_unq6,wali-sudan_unq7,wali-sudan_unq8,wali-sudan_unq9,wali-sudan_unq10,wali-sudan_unq11,wali-sudan_unq12"},
+
+      {name: "Burushaski (dedicated)", i: 5600, min: 4, max: 11, d: "lnrt", m: 0, b: "burushaski_unq1,burushaski_unq2,burushaski_unq3,burushaski_unq4,burushaski_unq5,burushaski_unq6,burushaski_unq7,burushaski_unq8,burushaski_unq9,burushaski_unq10,burushaski_unq11,burushaski_unq12"},
+      {name: "Hinglish (dedicated)", i: 5601, min: 4, max: 11, d: "lnrt", m: 0, b: "hinglish_unq1,hinglish_unq2,hinglish_unq3,hinglish_unq4,hinglish_unq5,hinglish_unq6,hinglish_unq7,hinglish_unq8,hinglish_unq9,hinglish_unq10,hinglish_unq11,hinglish_unq12"},
+      {name: "Hindko, Northern (dedicated)", i: 5602, min: 4, max: 11, d: "lnrt", m: 0, b: "hno_unq1,hno_unq2,hno_unq3,hno_unq4,hno_unq5,hno_unq6,hno_unq7,hno_unq8,hno_unq9,hno_unq10,hno_unq11,hno_unq12"},
+      {name: "Indian English (dedicated)", i: 5603, min: 4, max: 11, d: "lnrt", m: 0, b: "indianenglish_unq1,indianenglish_unq2,indianenglish_unq3,indianenglish_unq4,indianenglish_unq5,indianenglish_unq6,indianenglish_unq7,indianenglish_unq8,indianenglish_unq9,indianenglish_unq10,indianenglish_unq11,indianenglish_unq12"},
+      {name: "Korku (dedicated)", i: 5604, min: 4, max: 11, d: "lnrt", m: 0, b: "kfq_unq1,kfq_unq2,kfq_unq3,kfq_unq4,kfq_unq5,kfq_unq6,kfq_unq7,kfq_unq8,kfq_unq9,kfq_unq10,kfq_unq11,kfq_unq12"},
+      {name: "Nepalese English (dedicated)", i: 5605, min: 4, max: 11, d: "lnrt", m: 0, b: "nepaleseenglish_unq1,nepaleseenglish_unq2,nepaleseenglish_unq3,nepaleseenglish_unq4,nepaleseenglish_unq5,nepaleseenglish_unq6,nepaleseenglish_unq7,nepaleseenglish_unq8,nepaleseenglish_unq9,nepaleseenglish_unq10,nepaleseenglish_unq11,nepaleseenglish_unq12"},
+      {name: "Newar (dedicated)", i: 5606, min: 4, max: 11, d: "lnrt", m: 0, b: "newar_unq1,newar_unq2,newar_unq3,newar_unq4,newar_unq5,newar_unq6,newar_unq7,newar_unq8,newar_unq9,newar_unq10,newar_unq11,newar_unq12"},
+      {name: "Sora (Savara) (dedicated)", i: 5607, min: 4, max: 11, d: "lnrt", m: 0, b: "srb_unq1,srb_unq2,srb_unq3,srb_unq4,srb_unq5,srb_unq6,srb_unq7,srb_unq8,srb_unq9,srb_unq10,srb_unq11,srb_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
