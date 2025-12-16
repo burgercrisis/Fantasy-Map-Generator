@@ -214,6 +214,7 @@ function loadNamebaseIndices() {
     let src;
     try {
       src = decodeTextFile(fs.readFileSync(file));
+      src = src.replace(/\u0000/g, "");
       src = src.normalize("NFKC");
       src = src.replace(/[\u200B\u200C\u200D\uFEFF]/g, "");
       src = src.replace(/\u0456/g, "i");

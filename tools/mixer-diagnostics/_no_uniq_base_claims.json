@@ -1641,7 +1641,7 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-15T21:42:44.064Z",
-      "updatedAt": "2025-12-15T22:28:49.345Z",
+      "updatedAt": "2025-12-16T00:15:43.786Z",
       "reservedRange": [
         2619,
         2668
@@ -1677,14 +1677,14 @@
         "alar-tunka-buryat",
         "alasha"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T22:23:51.367Z",
-      "updatedAt": "2025-12-15T22:35:24.220Z",
+      "updatedAt": "2025-12-16T00:20:25.762Z",
       "reservedRange": [
         2719,
         2768
       ],
-      "notes": "Reserved i range: 2719-2768\nISO->base mapping (fill in):\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723\n\nHandoff prep (single-integrator lane)\n\nReserved i range: 2719-2768\nISO->base mapping:\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723\n\nDelta pins: tools/mixer-deltas/2025-12-15-worker1-mixed-aku.json\nDedicated base defs: modules/namebases-creole.js i:2719-2723\n\nNon-integrator checks to run:\n- node --check modules/namebases-creole.js\n- pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check\n\nIntegrator next steps:\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha --limit=300\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nThen: mark this claim status=complete and add a status-only ✅ entry in DEVplans/Languages-Status.md."
+      "notes": "Reserved i range: 2719-2768\nISO->base mapping (fill in):\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723\n\nHandoff prep (single-integrator lane)\n\nReserved i range: 2719-2768\nISO->base mapping:\n- aku->2719\n- akv->2720\n- alak-bahnaric->2721\n- alar-tunka-buryat->2722\n- alasha->2723\n\nDelta pins: tools/mixer-deltas/2025-12-15-worker1-mixed-aku.json\nDedicated base defs: modules/namebases-creole.js i:2719-2723\n\nNon-integrator checks to run:\n- node --check modules/namebases-creole.js\n- pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check\n\nIntegrator next steps:\n- pnpm run mixer:apply-deltas\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha --limit=300\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nThen: mark this claim status=complete and add a status-only ✅ entry in DEVplans/Languages-Status.md.\n\nVerified: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha => 0 failures; coverage OK; failures OK; base-clusters exit 0. Note: added missing base defs i:2900-2904 for mandarin dialect pins (delta 2025-12-15-wikipedia1-china-spoken-languages-batch1-mandarin-dialects.json) to unblock apply-deltas.\n\nVerified 2025-12-15T23:41:01.724Z: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta=tools/mixer-deltas/2025-12-15-worker1-mixed-aku.json; bases=modules/namebases-real.js i:2719-2723\n\nVerified 2025-12-15: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta=tools/mixer-deltas/2025-12-15-worker1-mixed-aku.json; bases=modules/namebases-real.js i:2719-2723\n\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=aku,akv,alak-bahnaric,alar-tunka-buryat,alasha --limit=300 => Target ISOs:0; Missing mapping:0; NO_UNIQ_BASE:0; coverage OK; failures OK; base-clusters exit 0"
     },
     {
       "workerId": 2,
@@ -1696,14 +1696,14 @@
         "allar",
         "almosan"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T22:35:25.510Z",
-      "updatedAt": "2025-12-15T22:35:25.510Z",
+      "updatedAt": "2025-12-16T00:08:35.186Z",
       "reservedRange": [
         2769,
         2818
       ],
-      "notes": "Reserved i range: 2769-2818\nISO->base mapping (fill in):\n- alchuka->2769\n- alekano->2770\n- algonquian-basque-pidgin->2771\n- allar->2772\n- almosan->2773"
+      "notes": "Reserved i range: 2769-2818\nISO->base mapping (fill in):\n- alchuka->2769\n- alekano->2770\n- algonquian-basque-pidgin->2771\n- allar->2772\n- almosan->2773\n\nVerified 2025-12-15T23:58:41.360Z: pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --limit=300 \\--only-isos=alchuka alekano algonquian-basque-pidgin allar almosan\\ => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0. Delta=tools/mixer-deltas/2025-12-15-worker2-mixed-alchuka.json; bases=modules/namebases-creole.js i:2769-2773"
     }
   ]
 }

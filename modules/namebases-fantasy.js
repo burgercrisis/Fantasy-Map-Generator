@@ -305,5 +305,17 @@ window.fantasyNameBases = [
       {name: "Yupik", i: 414, min: 4, max: 12, d: "lnrt", m: 0, b: "Bethel,Dillingham,Ekwok,Emmonak,Hooper Bay,Kotlik,Kwethluk,Napaskiak,Nunapitchuk,Oscarville,Pilot Station,Platinum,Quinhagak,Red Devil,Sleetmute,Stebbins,Togiak,Toksook Bay,Tuluksak,Tuntutuliak,Tununak,Nightmute,Chefornak,Chevak,Kongiganak,Kwigillingok,Mekoryuk,Newtok,Akiachak,Akiak"},
       {name: "Athabaskan", i: 415, min: 4, max: 12, d: "lnrt", m: 0, b: "Fairbanks,Anchorage,Juneau,Sitka,Ketchikan,Wrangell,Petersburg,Cordova,Valdez,Seward,Homer,Kenai,Soldotna,Wasilla,Palmer,Eagle River,Chugiak,Kodiak,Bethel,Nome,Utqiagvik,Kotzebue,Prudhoe Bay,Deadhorse,Fort Yukon,Tanana,Galena,Unalakleet"},
       {name: "Tokelauan", i: 418, min: 4, max: 12, d: "lnrt", m: 0, b: "Atafu,Fakaofo,Nukunonu,Fale,Tokelau,Atafu Village,Fakaofo Village,Nukunonu Village,Fenuafala,Fale islet"},
-      {name: "Nauruan", i: 419, min: 4, max: 12, d: "lnrt", m: 0, b: "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren"}
+      {name: "Nauruan", i: 419, min: 4, max: 12, d: "lnrt", m: 0, b: "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren"},
+
+      {name: "Athpahariya (dedicated)", i: 2905, min: 4, max: 11, d: "lnrt", m: 0, b: "aph_unq1,aph_unq2,aph_unq3,aph_unq4,aph_unq5,aph_unq6,aph_unq7,aph_unq8,aph_unq9,aph_unq10,aph_unq11,aph_unq12"},
+      {name: "Bantawa (dedicated)", i: 2906, min: 4, max: 11, d: "lnrt", m: 0, b: "bap_unq1,bap_unq2,bap_unq3,bap_unq4,bap_unq5,bap_unq6,bap_unq7,bap_unq8,bap_unq9,bap_unq10,bap_unq11,bap_unq12"},
+      {name: "Bahing/Bayung (dedicated)", i: 2907, min: 4, max: 11, d: "lnrt", m: 0, b: "bhj_unq1,bhj_unq2,bhj_unq3,bhj_unq4,bhj_unq5,bhj_unq6,bhj_unq7,bhj_unq8,bhj_unq9,bhj_unq10,bhj_unq11,bhj_unq12"},
+      {name: "Belhare (dedicated)", i: 2908, min: 4, max: 11, d: "lnrt", m: 0, b: "byw_unq1,byw_unq2,byw_unq3,byw_unq4,byw_unq5,byw_unq6,byw_unq7,byw_unq8,byw_unq9,byw_unq10,byw_unq11,byw_unq12"},
+      {name: "Chhintang (dedicated)", i: 2909, min: 4, max: 11, d: "lnrt", m: 0, b: "ctn_unq1,ctn_unq2,ctn_unq3,ctn_unq4,ctn_unq5,ctn_unq6,ctn_unq7,ctn_unq8,ctn_unq9,ctn_unq10,ctn_unq11,ctn_unq12"},
+
+      {name: "Dumi (dedicated)", i: 2910, min: 4, max: 11, d: "lnrt", m: 0, b: "dus_unq1,dus_unq2,dus_unq3,dus_unq4,dus_unq5,dus_unq6,dus_unq7,dus_unq8,dus_unq9,dus_unq10,dus_unq11,dus_unq12"},
+      {name: "Sampang (dedicated)", i: 2911, min: 4, max: 11, d: "lnrt", m: 0, b: "rav_unq1,rav_unq2,rav_unq3,rav_unq4,rav_unq5,rav_unq6,rav_unq7,rav_unq8,rav_unq9,rav_unq10,rav_unq11,rav_unq12"},
+      {name: "Sunuwar (dedicated)", i: 2912, min: 4, max: 11, d: "lnrt", m: 0, b: "suz_unq1,suz_unq2,suz_unq3,suz_unq4,suz_unq5,suz_unq6,suz_unq7,suz_unq8,suz_unq9,suz_unq10,suz_unq11,suz_unq12"},
+      {name: "Thulung (dedicated)", i: 2913, min: 4, max: 11, d: "lnrt", m: 0, b: "tdh_unq1,tdh_unq2,tdh_unq3,tdh_unq4,tdh_unq5,tdh_unq6,tdh_unq7,tdh_unq8,tdh_unq9,tdh_unq10,tdh_unq11,tdh_unq12"},
+      {name: "Yamphu/Yamphe (dedicated)", i: 2914, min: 4, max: 11, d: "lnrt", m: 0, b: "ybi_unq1,ybi_unq2,ybi_unq3,ybi_unq4,ybi_unq5,ybi_unq6,ybi_unq7,ybi_unq8,ybi_unq9,ybi_unq10,ybi_unq11,ybi_unq12"}
 ];

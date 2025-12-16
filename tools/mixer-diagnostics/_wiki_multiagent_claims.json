@@ -250,8 +250,8 @@
       "scope": "coverage_then_uniqueness_then_race",
       "status": "in_progress",
       "startedAt": "2025-12-15T22:37:09.430Z",
-      "updatedAt": "2025-12-15T22:37:09.430Z",
-      "note": "Starting /wikipedia1 pass (non-integrator): run coverage + base-uniqueness + race-coverage, then prep delta-only batches if needed."
+      "updatedAt": "2025-12-16T00:21:05.638Z",
+      "note": "Starting /wikipedia1 pass (non-integrator): run coverage + base-uniqueness + race-coverage, then prep delta-only batches if needed.\n\nWest Asia uniqueness batch1 staged (non-integrator): delta tools/mixer-deltas/2025-12-15-wikipedia1-west-asia-uniqueness-batch1.json dedicatedPins ara..tur => i:2819–2832; matching dedicated base defs in modules/namebases-real.js i:2819–2832. Verification: pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock => exit 0. Not applied (integrator lane): integrator can run apply-deltas + rerun list base-uniqueness + race coverage."
     },
     {
       "workerId": 6,

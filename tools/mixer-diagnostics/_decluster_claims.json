@@ -47,10 +47,28 @@
         "longsang-zhuang",
         "cao-miao"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-15T23:32:36.535Z",
-      "updatedAt": "2025-12-15T23:32:36.535Z",
-      "notes": "Decluster bases=[530,533] cross-family collision: longsang-zhuang (Tai-Kadai) vs cao-miao (Kam-Sui). Base names: 530=Zhuang, 533=Kam-Sui (from modules/namebases-fantasy.js). Plan: delta setBases longsang-zhuang->[530], cao-miao->[532,533]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete."
+      "updatedAt": "2025-12-15T23:39:19.399Z",
+      "notes": "Decluster bases=[530,533] cross-family collision: longsang-zhuang (Tai-Kadai) vs cao-miao (Kam-Sui). Base names: 530=Zhuang, 533=Kam-Sui (from modules/namebases-fantasy.js). Plan: delta setBases longsang-zhuang->[530], cao-miao->[532,533]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete.\n\n\\nVERIFIED: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json. Diagnostics: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: bases=[530,533] hits=0; longsang-zhuang bases=[530]; cao-miao bases=[532,533]."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-15T23:58:56.734Z-worker1",
+      "basesKey": "5,314,316",
+      "bases": [
+        5,
+        314,
+        316
+      ],
+      "isos": [
+        "podlachian",
+        "polabian"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-15T23:58:56.734Z",
+      "updatedAt": "2025-12-16T00:08:02.864Z",
+      "notes": "Decluster bases=[5,314,316] collision: podlachian (East Slavic) vs polabian (Lechitic). Base names: 5=Slavic, 314=Lechitic, 316=South Slavic BCS; additional bases: 315=Czech-Slovak, 373=Ukrainian. Plan: delta setBases podlachian->[5,314,373], polabian->[5,314,315]; then pnpm run mixer:apply-deltas + base-clusters report + inconsistencies check; then mark claim complete.\n\n\\nVERIFIED: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote config/language-mixer-map.json. Diagnostics: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit=0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit=0. Direct check: bases=[5,314,316] hits=0; podlachian bases=[5,314,373]; polabian bases=[5,314,315]."
     }
   ]
 }

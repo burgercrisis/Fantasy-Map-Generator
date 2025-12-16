@@ -16,7 +16,7 @@ function readJson(rel) {
 }
 
 function loadDefaultNameBases() {
-  const sandbox = {window: {}, module: {exports: {}}, exports: {}, console};
+  const sandbox = {window: {}, module: {exports: {}}, exports: {}, console, nameBases: []};
   sandbox.exports = sandbox.module.exports;
   sandbox.globalThis = sandbox;
   const context = vm.createContext(sandbox);
