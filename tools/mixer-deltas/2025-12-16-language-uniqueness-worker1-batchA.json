@@ -2,7 +2,8 @@
   "setBases": {
     "cilician-arabic": [42, 676],
     "western-egyptian-bedawi-arabic": [23, 701],
-    "cottonera-dialect": [13, 17, 18],
+    "cottonera-dialect": [13, 18, 884],
+    "kashinawa": [421, 423],
     "njm": [86, 87]
   }
 }

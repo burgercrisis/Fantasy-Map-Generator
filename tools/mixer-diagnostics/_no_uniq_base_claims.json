@@ -1869,12 +1869,12 @@
       ],
       "status": "in_progress",
       "startedAt": "2025-12-16T08:21:42.288Z",
-      "updatedAt": "2025-12-16T08:21:42.288Z",
+      "updatedAt": "2025-12-16T08:45:48.310Z",
       "reservedRange": [
         3994,
         4043
       ],
-      "notes": "Reserved i range: 3994-4043\nISO->base mapping (fill in):\n- angami-pochuri->3994\n- ani->3995\n- ankave->3996\n- ano->3997\n- anp->3998"
+      "notes": "Reserved i range: 3994-4043\nISO->base mapping (fill in):\n- angami-pochuri->3994\n- ani->3995\n- ankave->3996\n- ano->3997\n- anp->3998\n\nReserved i range: 3994-4043 | ISO->base: angami-pochuri->3994; ani->3995; ankave->3996; ano->3997; anp->3998 | Delta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | Dedicated base defs: modules/namebases-real.js i:3994-3998\n\nReserved i range: 3994-4043\n\nISO->base: angami-pochuri->3999; ani->4000; ankave->4001; ano->4002; anp->4003 | delta=tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json | baseDefs=modules/namebases-real.js i:3999-4003 | Note: shifted from 3994-3998 to 3999-4003 because i:3994-3998 already used in modules/namebases-creole.js (anca duplicate renumbering); intentionally unused 3994-3998\n\nRepin plan: 3994-3998 already used by Anca batch in modules/namebases-creole.js; will use 3999-4003 for this batch\n\nReserved i range: 3994-4043 (subrange 3994-3998 already occupied; using 3999-4003)\n\nPlanned ISO->base mapping:\\n- angami-pochuri->3999\\n- ani->4000\\n- ankave->4001\\n- ano->4002\\n- anp->4003\\nDelta pins: tools/mixer-deltas/2025-12-16-worker2-mixed-angami-pochuri.json\\nDedicated base defs: modules/namebases-real.js i:3999-4003"
     }
   ]
 }
