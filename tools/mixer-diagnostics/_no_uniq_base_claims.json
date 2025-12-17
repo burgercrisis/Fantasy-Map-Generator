@@ -2059,12 +2059,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-17T00:34:30.757Z",
-      "updatedAt": "2025-12-17T00:50:52.672Z",
+      "updatedAt": "2025-12-17T01:18:07.388Z",
       "reservedRange": [
         5658,
         5707
       ],
-      "notes": "Reserved i range: 5658-5707\nISO->base mapping (fill in):\n- baarin->5658\n- baba->5659\n- babylonian->5660\n- bacama-language->5661\n- badaga->5662\n\nCompleted repin: baarin->5658; baba->5659; babylonian->5660; bacama-language->5661; badaga->5662 | Reserved i range: 5658-5707 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json | Base defs: modules/namebases-real.js i:5658-5662 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote artifacts; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baarin,baba,babylonian,bacama-language,badaga --limit=300 OK (No globally-unique base index: 0); coverage OK; failures OK; base-clusters --min-size=2 exit 0 | DEBT seed-uniqueness (pre-repin): strictUniqueSeeds=0 normUniqueSeeds=0 for all five\n\nISO->base: baarin->5658; baba->5659; babylonian->5660; bacama-language->5661; badaga->5662 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json | Base defs: modules/namebases-real.js i:5658-5662 | Verified: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness OK; coverage OK; failures OK; base-clusters OK (2025-12-17)"
+      "notes": "Reserved i range: 5658-5707\nISO->base mapping (fill in):\n- baarin->5658\n- baba->5659\n- babylonian->5660\n- bacama-language->5661\n- badaga->5662\n\nCompleted repin: baarin->5658; baba->5659; babylonian->5660; bacama-language->5661; badaga->5662 | Reserved i range: 5658-5707 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json | Base defs: modules/namebases-real.js i:5658-5662 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote artifacts; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baarin,baba,babylonian,bacama-language,badaga --limit=300 OK (No globally-unique base index: 0); coverage OK; failures OK; base-clusters --min-size=2 exit 0 | DEBT seed-uniqueness (pre-repin): strictUniqueSeeds=0 normUniqueSeeds=0 for all five\n\nISO->base: baarin->5658; baba->5659; babylonian->5660; bacama-language->5661; badaga->5662 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json | Base defs: modules/namebases-real.js i:5658-5662 | Verified: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness OK; coverage OK; failures OK; base-clusters OK (2025-12-17)\n\nReserved i range: 5658-5707 | ISO->base: baarin->5658; baba->5659; babylonian->5660; bacama-language->5661; badaga->5662 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json | Base defs: modules/namebases-real.js i:5658-5662 | Verified: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
     },
     {
       "workerId": 1,
@@ -2095,14 +2095,14 @@
         "baham",
         "bahnar"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T01:08:09.395Z",
-      "updatedAt": "2025-12-17T01:08:09.395Z",
+      "updatedAt": "2025-12-17T02:33:07.226Z",
       "reservedRange": [
         5758,
         5807
       ],
-      "notes": "Reserved i range: 5758-5807\nISO->base mapping (fill in):\n- badong-yao->5758\n- baekje-korean->5759\n- baghdadi-arabic->5760\n- baham->5761\n- bahnar->5762"
+      "notes": "Reserved i range: 5758-5807\nISO->base mapping (fill in):\n- badong-yao->5758\n- baekje-korean->5759\n- baghdadi-arabic->5760\n- baham->5761\n- bahnar->5762\n\nBLOCKER: Missing pins delta + base defs for planned range 5758-5762 (badong-yao, baekje-korean, baghdadi-arabic, baham, bahnar). Cannot safely create/append without hub lock tooling in this environment.\n\nVerified /no-unique-base2: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK (Target ISOs:5; NO_UNIQ_BASE=0; strict/norm failures=0); coverage OK; failures OK; base-clusters run (exit 0). Pins: tools/mixer-deltas/2025-12-17-worker1-mixed-badong-yao.json (5758-5762). Base defs: modules/namebases-real.js i:5758-5762.\n\nCompleted repin: badong-yao->5758; baekje-korean->5759; baghdadi-arabic->5760; baham->5761; bahnar->5762 | Reserved i range: 5758-5807 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-badong-yao.json | Base defs: modules/namebases-real.js i:5758-5762 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=badong-yao,baekje-korean,baghdadi-arabic,baham,bahnar --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nResuming stalled claim to implement missing delta pins + base defs for 5758-5762.\n\nCompleted repin: badong-yao->5758; baekje-korean->5759; baghdadi-arabic->5760; baham->5761; bahnar->5762 | Reserved i range: 5758-5807 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-badong-yao.json | Base defs: modules/namebases-real.js i:5758-5762 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=badong-yao,baekje-korean,baghdadi-arabic,baham,bahnar --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0 (2025-12-17)"
     },
     {
       "workerId": 2,
@@ -2114,14 +2114,71 @@
         "ber",
         "berbice"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T01:12:13.826Z",
-      "updatedAt": "2025-12-17T01:12:13.826Z",
+      "updatedAt": "2025-12-17T01:18:20.639Z",
       "reservedRange": [
         5808,
         5857
       ],
-      "notes": "Reserved i range: 5808-5857\nISO->base mapping (fill in):\n- bengali->5808\n- bengali-portuguese-creole->5809\n- beni-snous-dialect->5810\n- ber->5811\n- berbice->5812"
+      "notes": "Reserved i range: 5808-5857\nISO->base mapping (fill in):\n- bengali->5808\n- bengali-portuguese-creole->5809\n- beni-snous-dialect->5810\n- ber->5811\n- berbice->5812\n\nCompleted repin: bengali->5808; bengali-portuguese-creole->5809; beni-snous-dialect->5810; ber->5811; berbice->5812 | Reserved i range: 5808-5857 | Delta pins: tools/mixer-deltas/2025-12-17-worker2-mixed-bengali.json | Base defs: modules/namebases-real.js i:5808-5812 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bengali,bengali-portuguese-creole,beni-snous-dialect,ber,berbice --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nVerified /no-unique-base2: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK (Target ISOs:5; NO_UNIQ_BASE=0); coverage OK; failures OK; base-clusters run (exit 0). Pins: tools/mixer-deltas/2025-12-17-worker2-mixed-bengali.json (5808-5812). Base defs: modules/namebases-real.js i:5808-5812."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T01:52:25.447Z-worker1",
+      "isos": [
+        "bahrani-arabic",
+        "bai",
+        "baima",
+        "baisha-hlai",
+        "bala"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-17T01:52:25.447Z",
+      "updatedAt": "2025-12-17T02:25:50.595Z",
+      "reservedRange": [
+        6005,
+        6054
+      ],
+      "notes": "Reserved i range: 6005-6054\nISO->base mapping (fill in):\n- bahrani-arabic->6005\n- bai->6006\n- baima->6007\n- baisha-hlai->6008\n- bala->6009\n\nVerified /no-unique-base2: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK (Target ISOs:5; NO_UNIQ_BASE=0; strict/norm failures=0); coverage OK; failures OK; base-clusters run (exit 0). Pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bahrani-arabic.json (6005-6009). Base defs: modules/namebases-real.js i:6005-6009.\n\nISO->base: bahrani-arabic->6005; bai->6006; baima->6007; baisha-hlai->6008; bala->6009; reserved i range: 6005-6054; delta=tools/mixer-deltas/2025-12-17-worker1-mixed-bahrani-arabic.json; bases=modules/namebases-real.js i:6005-6009; verify: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bahrani-arabic,bai,baima,baisha-hlai,bala --limit=300 => Missing mapping:0; NO_UNIQ_BASE:0; strictFail:0; normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T02:28:20.728Z-worker1",
+      "isos": [
+        "bahraini-gulf-arabic",
+        "bakhtiari-arabic",
+        "baldemu-language",
+        "balo",
+        "balochi"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-17T02:28:20.728Z",
+      "updatedAt": "2025-12-17T02:34:46.283Z",
+      "reservedRange": [
+        6055,
+        6104
+      ],
+      "notes": "Reserved i range: 6055-6104\nISO->base mapping (fill in):\n- bahraini-gulf-arabic->6055\n- bakhtiari-arabic->6056\n- baldemu-language->6057\n- balo->6058\n- balochi->6059\n\nISO->base: bahraini-gulf-arabic->6055; bakhtiari-arabic->6056; baldemu-language->6057; balo->6058; balochi->6059 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bahraini-gulf-arabic.json | Base defs: modules/namebases-real.js i:6055-6059 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bahraini-gulf-arabic,bakhtiari-arabic,baldemu-language,balo,balochi --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nISO->base: bahraini-gulf-arabic->6055; bakhtiari-arabic->6056; baldemu-language->6057; balo->6058; balochi->6059; reserved i range: 6055-6104; delta=tools/mixer-deltas/2025-12-17-worker1-mixed-bahraini-gulf-arabic.json; bases=modules/namebases-real.js i:6055-6059; verify: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bahraini-gulf-arabic,bakhtiari-arabic,baldemu-language,balo,balochi --limit=300 => Missing mapping:0; NO_UNIQ_BASE:0; strictFail:0; normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-17T02:36:15.129Z-worker2",
+      "isos": [
+        "balti",
+        "bamali",
+        "bambalang",
+        "bambara",
+        "bamboo-english"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T02:36:15.129Z",
+      "updatedAt": "2025-12-17T02:36:15.129Z",
+      "reservedRange": [
+        6105,
+        6154
+      ],
+      "notes": "Reserved i range: 6105-6154\nISO->base mapping (fill in):\n- balti->6105\n- bamali->6106\n- bambalang->6107\n- bambara->6108\n- bamboo-english->6109"
     }
   ]
 }
