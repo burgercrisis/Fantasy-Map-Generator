@@ -188,6 +188,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-16 integrator cycle (artifact regeneration):** ran `pnpm run mixer:apply-deltas` to regenerate committed artifacts, then confirmed `pnpm run mixer:check-deltas` OK. Additional gates run and green: `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing), `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing), `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
 
+- ✅ **2025-12-17 South Asia clustered-base fix (dedicated bases 5600–5607):** added dedicated bases `5600–5607` in `modules/namebases-real.js` and pinned them via `tools/mixer-deltas/2025-12-16-wikipedia-south-asia-clustered-bases-5600-5607.json` for `burushaski, hinglish, hno, indian-english, kfq, nepalese-english, newar, srb`. Also removed the conflicting base `3336` from `torne-valley`’s `setBases` in `tools/mixer-deltas/2025-12-16-wikipedia-uralic-full-bases9-finnic-dialects-setbases.json` (so `3336` remains dedicated to `me-nkieli`). Verified: `pnpm run mixer:check-deltas` OK; `pnpm run mixer:apply-deltas` OK; seed-uniqueness `--only-isos=burushaski,hinglish,hno,indian-english,kfq,nepalese-english,newar,srb` reports 0 strict/norm failures.
+
 - **2025-12-16 session reset (coordination state cleared):** retired all agents and force-cleared repo-local coordination JSON entries with `status: in_progress` to `stalled` (e.g. `tools/mixer-diagnostics/_wiki_multiagent_claims.json`) at `2025-12-16T12:38:00.638Z` so a new session can pick up work without stale ownership.
 
 - **2025-12-16 quarantine (broken delta excluded from apply-mixer-deltas):** renamed `tools/mixer-deltas/2025-12-16-wikipedia-americas-indigenous-batch1-missing-both.json` => `tools/mixer-deltas/_quarantine-2025-12-16-wikipedia-americas-indigenous-batch1-missing-both.json` so `apply-mixer-deltas.js` ignores it. Read-only check now reports only stale artifacts vs deltas: `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` (expected until integrator runs `pnpm run mixer:apply-deltas`).
@@ -1610,6 +1612,14 @@ The following families / regions have **not yet received a full pass** for home-
 
  **2025-12-16**: Cascade signoff: retiring from session; removed stale local lock file `modules/namebases-creole.js.lock`.
 
+ **2025-12-17**: Cleanup: restored `TEMP_DO_NOT_CREATE` to empty (reverted accidental `noop` content).
+
+ **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T23:04:00.972Z-worker1 reservedRange=5608-5657 isos=[awjila-language,aws-nian,aymara,ayo,ba-ari] status=complete. Delta: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json. Base defs: modules/namebases-real.js i:5628-5632. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=awjila-language,aws-nian,aymara,ayo,ba-ari --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0. Note: strictUniqueSeeds=0 normUniqueSeeds=0 for all five; recorded as debt in claim notes.
+
+ **2025-12-17**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-17T00:34:30.757Z-worker1 reservedRange=5658-5707 isos=[baarin,baba,babylonian,bacama-language,badaga] status=complete. Delta: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json. Base defs: modules/namebases-real.js i:5658-5662. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baarin,baba,babylonian,bacama-language,badaga --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0. Note: strictUniqueSeeds=0 normUniqueSeeds=0 for all five pre-repin; recorded as debt in claim notes.
+
+ **2025-12-16**: Tooling hardening: `tools/mixer-core/apply-mixer-deltas.js` now normalizes delta filenames (strips leading BOM / zero-width chars) for the underscore ignore check, to ensure `_quarantine-*.json` files are reliably skipped even if the filesystem returns hidden leading characters. Verified: `pnpm run mixer:check-deltas` OK.
+
  - 2025-12-15: NOTE: prior worker2 claim for `western-aragonese, western-catalan, western-sicilian, wisconsin-walloon` with reservedRange `2019–2068` was stalled due to an index collision. Completed under worker2 reservedRange `2119–2168` (bases `2119–2122`; delta `tools/mixer-deltas/2025-12-15-worker2-romance-western-final.json`).
  - 2025-12-15: NO_UNIQ_BASE claims dashboard shows `in_progress=0` (nextReservedRange `2569–2618`).
 
@@ -1873,18 +1883,18 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `fully wired:` 201 (91.0%)
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 0
-  - `unmatched:` 20
+  - `missing both:` 20
+  - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 192
+  - `Nonunique Bases:` 190
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 119
-  - `clustered bases:` 78
-  - `clustered full items:` 78
-  - `cluster size histogram:` size2=12, size3=11, size4+=55
-  - `clustered isos:` chp(43), dgr(43), eyak(43), gwi(43), haa(43), hoi(43), ing(43), kalaallisut(43), koy(43), kuu(43), tau(43), tfn(43), coe(11), cub(11), des(11), gvc(11), ite(11), jup(11), macuna(11), snn(11), sri(11), tav(11), tuo(11), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), aro(4), arp(4), cav(4), cax(4), cbg(4), cho(4), ese(4), mik(4), mus(4), piaroa(4), yuz(4), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), wayuu(3), xav(3), xer(3), yag(3), coz(2), cro(2), gub(2), ixc(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), tew(2), zoq(2)
+  - `unique bases:` 124
+  - `clustered bases:` 77
+  - `clustered full items:` 77
+  - `cluster size histogram:` size2=14, size3=15, size4+=48
+  - `clustered isos:` chp(42), dgr(42), eyak(42), gwi(42), haa(42), hoi(42), ing(42), kalaallisut(42), koy(42), kuu(42), tau(42), tfn(42), coe(11), cub(11), des(11), gvc(11), ite(11), jup(11), macuna(11), snn(11), sri(11), tav(11), tuo(11), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), cax(4), cbg(4), piaroa(4), tob(4), cav(3), cho(3), ese(3), gum(3), kog(3), kwi(3), mapudungun(3), mik(3), mot(3), mus(3), ona(3), pbb(3), wayuu(3), yag(3), yuz(3), coz(2), cro(2), gub(2), ixc(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), tew(2), xav(2), xer(2), zoq(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -1977,11 +1987,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - Use coverage reports to cross-check that each major European standard language has both catalog and mixer entries and that coverage is balanced across Western, Central, Northern, and Eastern Europe.
   - **2025-12-16 status:** Staged delta-only `setBases` batches (no `modules/namebases-real.js` edits) to burn down Europe base-set collisions: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch1-bavarian-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch2-west-slavic-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch3-nogai-karakalpak-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch4-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch5-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch6-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch7-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch8-finnic-9-setbases.json`.
   - **2025-12-16 status:** Cleared `NO_UNIQ_BASE` for `ingrian,kven,livonian,ludic,me-nkieli,veps,v-ro,votic` by adding dedicated bases `3332–3339` in `modules/namebases-real.js` and pinning via `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch9-finnic-9-dedicatedpins.json`; verified seed-uniqueness (`No globally-unique base index: 0`) and core checks (coverage/failures/duplicate-isos).
+  - **2025-12-16 verification:** Confirmed `pnpm run mixer:apply-deltas` and `pnpm run mixer:check-deltas` pass; dedicated pin collision on base `3336` is cleared.
   - **2025-12-16 status:** Staged Europe batch10 North Germanic dedicated pins for `danish,isl,norwegian,ovd,swe` using dedicated bases `3950–3954` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch10-north-germanic-dedicatedpins.json`.
   - **2025-12-16 verified:** `pnpm run mixer:guardrails` OK; seed-uniqueness OK for `danish,isl,norwegian,ovd,swe` (`No globally-unique base index: 0`); core checks OK (coverage/failures/duplicate-isos/inconsistencies); Europe list base-uniqueness: `unique bases: 168`, `clustered bases: 0`, `Nonunique Bases: 92`.
   - **2025-12-16 verification:** Refreshed this list snapshot via `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`; updated `Nonunique Bases: 85`.
   - **2025-12-16 status:** Staged Europe batch13 East Slavic dedicated pins for `belarusian,rus,rusyn,ukr` using dedicated bases `3961–3964` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch13-east-slavic-dedicatedpins.json` (pending integrator `pnpm run mixer:apply-deltas` artifact regeneration).
   - **2025-12-16 status:** Staged Europe batch14 West Slavic dedicated pins for `ces,slovak,pol,kashubian,silesian,upper-sorbian` using dedicated bases `3965–3970` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch14-west-slavic-dedicatedpins.json` (pending integrator `pnpm run mixer:apply-deltas` artifact regeneration).
+
+  - **2025-12-16 status:** Staged Europe batch15 South Slavic dedicated pins for `bosnian,croatian,montenegrin,srp,bul,macedonian,slovene` using dedicated bases `3971–3977` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch15-south-slavic-dedicatedpins.json` (pending integrator `pnpm run mixer:apply-deltas` artifact regeneration).
 
 ### 8.8 Languages of West Asia – regional subset
 
@@ -2169,6 +2182,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - ✅ **2025-12-15 /wikipedia1 China spoken languages (Mandarin dialects batch1 verified):** pinned dedicated bases `2900–2904` for `central-plains-mandarin`, `lan-yin-mandarin`, `northeastern-mandarin`, `southwestern-mandarin`, `lower-yangtze-mandarin` (delta: `tools/mixer-deltas/2025-12-15-wikipedia1-china-spoken-languages-batch1-mandarin-dialects.json`; base defs in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=5; coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0. Per-list `Nonunique Bases` reduced from **152** to **146**.
 
 - ✅ **2025-12-16 /wikipedia1 China spoken languages (Mongolic batch3 verified):** pinned dedicated bases `5361–5365` for `mongolian`, `buryat`, `daur`, `oirat`, `torgut` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-china-spoken-languages-batch3-mongolic.json`; base defs in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=5 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
+
+- ✅ **2025-12-16 /wikipedia1 China spoken languages (Tungusic batch4 verified):** pinned dedicated bases `5608–5613` for `manchu`, `jurchen`, `xibe`, `nanai`, `evenki`, `oroqen` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-china-spoken-languages-batch4-tungusic.json`; base defs in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=6 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0; race coverage: all reachable by Starspawn.
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
 

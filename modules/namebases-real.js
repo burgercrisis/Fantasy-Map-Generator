@@ -1046,6 +1046,17 @@ window.realWorldNameBases = [
       {name: "Aymara (dedicated)", i: 5630, min: 4, max: 11, d: "lnrt", m: 0, b: "aymara_unq1,aymara_unq2,aymara_unq3,aymara_unq4,aymara_unq5,aymara_unq6,aymara_unq7,aymara_unq8,aymara_unq9,aymara_unq10,aymara_unq11,aymara_unq12"},
       {name: "Ayoreo (dedicated)", i: 5631, min: 4, max: 11, d: "lnrt", m: 0, b: "ayo_unq1,ayo_unq2,ayo_unq3,ayo_unq4,ayo_unq5,ayo_unq6,ayo_unq7,ayo_unq8,ayo_unq9,ayo_unq10,ayo_unq11,ayo_unq12"},
       {name: "Baṭḥari (dedicated)", i: 5632, min: 4, max: 11, d: "lnrt", m: 0, b: "ba-ari_unq1,ba-ari_unq2,ba-ari_unq3,ba-ari_unq4,ba-ari_unq5,ba-ari_unq6,ba-ari_unq7,ba-ari_unq8,ba-ari_unq9,ba-ari_unq10,ba-ari_unq11,ba-ari_unq12"},
+      {name: "Baarin Mongol (dedicated)", i: 5658, min: 4, max: 11, d: "lnrt", m: 0, b: "baarin_unq1,baarin_unq2,baarin_unq3,baarin_unq4,baarin_unq5,baarin_unq6,baarin_unq7,baarin_unq8,baarin_unq9,baarin_unq10,baarin_unq11,baarin_unq12"},
+      {name: "Baba (dedicated)", i: 5659, min: 4, max: 11, d: "lnrt", m: 0, b: "baba_unq1,baba_unq2,baba_unq3,baba_unq4,baba_unq5,baba_unq6,baba_unq7,baba_unq8,baba_unq9,baba_unq10,baba_unq11,baba_unq12"},
+      {name: "Babylonian (dedicated)", i: 5660, min: 4, max: 11, d: "lnrt", m: 0, b: "babylonian_unq1,babylonian_unq2,babylonian_unq3,babylonian_unq4,babylonian_unq5,babylonian_unq6,babylonian_unq7,babylonian_unq8,babylonian_unq9,babylonian_unq10,babylonian_unq11,babylonian_unq12"},
+      {name: "Bacama alias (dedicated)", i: 5661, min: 4, max: 11, d: "lnrt", m: 0, b: "bacama-language_unq1,bacama-language_unq2,bacama-language_unq3,bacama-language_unq4,bacama-language_unq5,bacama-language_unq6,bacama-language_unq7,bacama-language_unq8,bacama-language_unq9,bacama-language_unq10,bacama-language_unq11,bacama-language_unq12"},
+      {name: "Badaga (dedicated)", i: 5662, min: 4, max: 11, d: "lnrt", m: 0, b: "badaga_unq1,badaga_unq2,badaga_unq3,badaga_unq4,badaga_unq5,badaga_unq6,badaga_unq7,badaga_unq8,badaga_unq9,badaga_unq10,badaga_unq11,badaga_unq12"},
+
+      {name: "Baoan (dedicated)", i: 5708, min: 4, max: 11, d: "lnrt", m: 0, b: "baoan_unq1,baoan_unq2,baoan_unq3,baoan_unq4,baoan_unq5,baoan_unq6,baoan_unq7,baoan_unq8,baoan_unq9,baoan_unq10,baoan_unq11,baoan_unq12"},
+      {name: "Baoanic (dedicated)", i: 5709, min: 4, max: 11, d: "lnrt", m: 0, b: "baoanic_unq1,baoanic_unq2,baoanic_unq3,baoanic_unq4,baoanic_unq5,baoanic_unq6,baoanic_unq7,baoanic_unq8,baoanic_unq9,baoanic_unq10,baoanic_unq11,baoanic_unq12"},
+      {name: "Baoting Hlai (dedicated)", i: 5710, min: 4, max: 11, d: "lnrt", m: 0, b: "baoting-hlai_unq1,baoting-hlai_unq2,baoting-hlai_unq3,baoting-hlai_unq4,baoting-hlai_unq5,baoting-hlai_unq6,baoting-hlai_unq7,baoting-hlai_unq8,baoting-hlai_unq9,baoting-hlai_unq10,baoting-hlai_unq11,baoting-hlai_unq12"},
+      {name: "Barai (dedicated)", i: 5711, min: 4, max: 11, d: "lnrt", m: 0, b: "barai_unq1,barai_unq2,barai_unq3,barai_unq4,barai_unq5,barai_unq6,barai_unq7,barai_unq8,barai_unq9,barai_unq10,barai_unq11,barai_unq12"},
+      {name: "Barambu (dedicated)", i: 5712, min: 4, max: 11, d: "lnrt", m: 0, b: "barambu_unq1,barambu_unq2,barambu_unq3,barambu_unq4,barambu_unq5,barambu_unq6,barambu_unq7,barambu_unq8,barambu_unq9,barambu_unq10,barambu_unq11,barambu_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

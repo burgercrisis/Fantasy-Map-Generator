@@ -250,9 +250,11 @@ function listDeltaFiles() {
 
   for (const e of entries) {
     if (!e.isFile()) continue;
-    if (!e.name.toLowerCase().endsWith(".json")) continue;
-    if (e.name.startsWith("_")) continue;
-    files.push(e.name);
+    const rawName = String(e.name || "");
+    const cleanName = rawName.replace(/^[\uFEFF\u200B\u200C\u200D\u2060]+/, "");
+    if (!cleanName.toLowerCase().endsWith(".json")) continue;
+    if (cleanName.startsWith("_")) continue;
+    files.push(rawName);
   }
 
   files.sort((a, b) => a.localeCompare(b));
