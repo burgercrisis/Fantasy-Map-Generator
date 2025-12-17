@@ -1040,6 +1040,12 @@ window.realWorldNameBases = [
       {name: "Nanai (dedicated)", i: 5611, min: 4, max: 11, d: "lnrt", m: 0, b: "nanai_unq1,nanai_unq2,nanai_unq3,nanai_unq4,nanai_unq5,nanai_unq6,nanai_unq7,nanai_unq8,nanai_unq9,nanai_unq10,nanai_unq11,nanai_unq12"},
       {name: "Evenki (dedicated)", i: 5612, min: 4, max: 11, d: "lnrt", m: 0, b: "evenki_unq1,evenki_unq2,evenki_unq3,evenki_unq4,evenki_unq5,evenki_unq6,evenki_unq7,evenki_unq8,evenki_unq9,evenki_unq10,evenki_unq11,evenki_unq12"},
       {name: "Oroqen (dedicated)", i: 5613, min: 4, max: 11, d: "lnrt", m: 0, b: "oroqen_unq1,oroqen_unq2,oroqen_unq3,oroqen_unq4,oroqen_unq5,oroqen_unq6,oroqen_unq7,oroqen_unq8,oroqen_unq9,oroqen_unq10,oroqen_unq11,oroqen_unq12"},
+
+      {name: "Awjila language (dedicated)", i: 5628, min: 4, max: 11, d: "lnrt", m: 0, b: "awjila-language_unq1,awjila-language_unq2,awjila-language_unq3,awjila-language_unq4,awjila-language_unq5,awjila-language_unq6,awjila-language_unq7,awjila-language_unq8,awjila-language_unq9,awjila-language_unq10,awjila-language_unq11,awjila-language_unq12"},
+      {name: "Awsānian (dedicated)", i: 5629, min: 4, max: 11, d: "lnrt", m: 0, b: "aws-nian_unq1,aws-nian_unq2,aws-nian_unq3,aws-nian_unq4,aws-nian_unq5,aws-nian_unq6,aws-nian_unq7,aws-nian_unq8,aws-nian_unq9,aws-nian_unq10,aws-nian_unq11,aws-nian_unq12"},
+      {name: "Aymara (dedicated)", i: 5630, min: 4, max: 11, d: "lnrt", m: 0, b: "aymara_unq1,aymara_unq2,aymara_unq3,aymara_unq4,aymara_unq5,aymara_unq6,aymara_unq7,aymara_unq8,aymara_unq9,aymara_unq10,aymara_unq11,aymara_unq12"},
+      {name: "Ayoreo (dedicated)", i: 5631, min: 4, max: 11, d: "lnrt", m: 0, b: "ayo_unq1,ayo_unq2,ayo_unq3,ayo_unq4,ayo_unq5,ayo_unq6,ayo_unq7,ayo_unq8,ayo_unq9,ayo_unq10,ayo_unq11,ayo_unq12"},
+      {name: "Baṭḥari (dedicated)", i: 5632, min: 4, max: 11, d: "lnrt", m: 0, b: "ba-ari_unq1,ba-ari_unq2,ba-ari_unq3,ba-ari_unq4,ba-ari_unq5,ba-ari_unq6,ba-ari_unq7,ba-ari_unq8,ba-ari_unq9,ba-ari_unq10,ba-ari_unq11,ba-ari_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

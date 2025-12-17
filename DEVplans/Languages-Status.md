@@ -190,6 +190,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - **2025-12-16 session reset (coordination state cleared):** retired all agents and force-cleared repo-local coordination JSON entries with `status: in_progress` to `stalled` (e.g. `tools/mixer-diagnostics/_wiki_multiagent_claims.json`) at `2025-12-16T12:38:00.638Z` so a new session can pick up work without stale ownership.
 
+- **2025-12-16 quarantine (broken delta excluded from apply-mixer-deltas):** renamed `tools/mixer-deltas/2025-12-16-wikipedia-americas-indigenous-batch1-missing-both.json` => `tools/mixer-deltas/_quarantine-2025-12-16-wikipedia-americas-indigenous-batch1-missing-both.json` so `apply-mixer-deltas.js` ignores it. Read-only check now reports only stale artifacts vs deltas: `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` (expected until integrator runs `pnpm run mixer:apply-deltas`).
+
 - ✅ **2025-12-16 NO_UNIQ_BASE2 claim closure sweep (close in_progress):**
   - ✅ **worker1** `batchId=2025-12-16T11:23:16.859Z-worker1` (`andalusi-arabic, anq, ao, aot, aoz`) verified and set to `complete` (updatedAt=`2025-12-16T13:25:34.504Z`).
     - Delta pins: `tools/mixer-deltas/2025-12-16-worker1-mixed-andalusi-arabic.json` (pins `andalusi-arabic`→`5411`, `anq`→`5412`, `ao`→`5413`, `aot`→`5414`, `aoz`→`5415`)
