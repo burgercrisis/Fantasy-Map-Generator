@@ -27554,5 +27554,168 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Macaguán (Hitnü)",
+    "iso": "mbn",
+    "region": "South America",
+    "category": "Guahiboan",
+    "family": "Guahiboan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Macagu%C3%A1n_language"
+  },
+  {
+    "name": "Arhuaco (Ikʉ)",
+    "iso": "arh",
+    "region": "South America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arhuaco_language"
+  },
+  {
+    "name": "Sateré-Mawé",
+    "iso": "mav",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mav"
+  },
+  {
+    "name": "Minica Huitoto",
+    "iso": "hto",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hto"
+  },
+  {
+    "name": "Trinitario",
+    "iso": "trn",
+    "region": "South America",
+    "category": "Arawakan",
+    "family": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:trn"
+  },
+  {
+    "name": "Muinane",
+    "iso": "bmr",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bmr"
+  },
+  {
+    "name": "Nukak",
+    "iso": "mbr",
+    "region": "South America",
+    "category": "Unclassified",
+    "family": "Unclassified",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mbr",
+    "tags": [
+      "unclassified"
+    ]
+  },
+  {
+    "name": "Paipai",
+    "iso": "ppi",
+    "region": "North America",
+    "category": "Yuman",
+    "family": "Yuman",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ppi"
+  },
+  {
+    "name": "Wariʼ",
+    "iso": "pav",
+    "region": "South America",
+    "category": "Chapacuran",
+    "family": "Chapacuran",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pav"
+  },
+  {
+    "name": "Reyesano (Maropa)",
+    "iso": "rey",
+    "region": "South America",
+    "category": "Tacanan",
+    "family": "Tacanan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:rey"
+  },
+  {
+    "name": "Sanöma (Sanumá)",
+    "iso": "xsu",
+    "region": "South America",
+    "category": "Yanomaman",
+    "family": "Yanomaman",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xsu"
+  },
+  {
+    "name": "Sierra Popoluca",
+    "iso": "poi",
+    "region": "Mesoamerica",
+    "category": "Mixe-Zoque",
+    "family": "Mixe-Zoque",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:poi"
+  },
+  {
+    "name": "Tenetehára",
+    "iso": "tqb",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tqb"
+  },
+  {
+    "name": "Tiriyó",
+    "iso": "slj",
+    "region": "South America",
+    "category": "Cariban",
+    "family": "Cariban",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:slj"
+  },
+  {
+    "name": "Tlapanec (Meꞌphaa)",
+    "iso": "tpx",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tpx"
+  },
+  {
+    "name": "Toromona",
+    "iso": "tno",
+    "region": "South America",
+    "category": "Tacanan",
+    "family": "Tacanan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tno"
+  },
+  {
+    "name": "Coast Tsimshian (Sm’algya̱x)",
+    "iso": "tsi",
+    "region": "North America",
+    "category": "Tsimshianic",
+    "family": "Tsimshianic",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tsi"
+  },
+  {
+    "name": "Warázu",
+    "iso": "psm",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:psm"
+  },
+  {
+    "name": "Wichí Lhamtés Nocten (Weenhayek)",
+    "iso": "mtp",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mtp"
+  },
+  {
+    "name": "Wichí Lhamtés Vejoz",
+    "iso": "wlv",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:wlv"
   }
 ]

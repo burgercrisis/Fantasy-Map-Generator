@@ -17984,6 +17984,14 @@
     "family": "Oto-Manguean"
   },
   {
+    "name": "Sierra Popoluca",
+    "iso": "poi",
+    "region": "Mesoamerica",
+    "category": "Mixe-Zoque",
+    "family": "Mixe-Zoque",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:poi"
+  },
+  {
     "name": "Sipakapense",
     "iso": "qum",
     "region": "Mesoamerica",
@@ -18005,6 +18013,14 @@
     "region": "Mesoamerica",
     "category": "Mayan",
     "family": "Mayan"
+  },
+  {
+    "name": "Tlapanec (Meꞌphaa)",
+    "iso": "tpx",
+    "region": "Mesoamerica",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tpx"
   },
   {
     "name": "Tojol-ab'al",
@@ -20472,6 +20488,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Choctaw_language"
   },
   {
+    "name": "Coast Tsimshian (Sm’algya̱x)",
+    "iso": "tsi",
+    "region": "North America",
+    "category": "Tsimshianic",
+    "family": "Tsimshianic",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tsi"
+  },
+  {
     "name": "Cochimí",
     "iso": "coj",
     "region": "North America",
@@ -20909,6 +20933,14 @@
     "category": "Iroquoian",
     "family": "Iroquoian",
     "wikipedia": "https://en.wikipedia.org/wiki/Onondaga_language"
+  },
+  {
+    "name": "Paipai",
+    "iso": "ppi",
+    "region": "North America",
+    "category": "Yuman",
+    "family": "Yuman",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:ppi"
   },
   {
     "name": "Pima Bajo",
@@ -26116,6 +26148,14 @@
     ]
   },
   {
+    "name": "Arhuaco (Ikʉ)",
+    "iso": "arh",
+    "region": "South America",
+    "category": "Chibchan",
+    "family": "Chibchan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arhuaco_language"
+  },
+  {
     "name": "Ashaninka",
     "iso": "ashaninka",
     "region": "South America",
@@ -26576,6 +26616,14 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Leco_language"
   },
   {
+    "name": "Macaguán (Hitnü)",
+    "iso": "mbn",
+    "region": "South America",
+    "category": "Guahiboan",
+    "family": "Guahiboan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Macagu%C3%A1n_language"
+  },
+  {
     "name": "Macuna",
     "iso": "macuna",
     "region": "South America",
@@ -26618,6 +26666,14 @@
     "family": "Portuguese"
   },
   {
+    "name": "Minica Huitoto",
+    "iso": "hto",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:hto"
+  },
+  {
     "name": "Mocoví",
     "iso": "moc",
     "region": "South America",
@@ -26632,6 +26688,14 @@
     "category": "Language isolate",
     "family": "Movima isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Movima_language"
+  },
+  {
+    "name": "Muinane",
+    "iso": "bmr",
+    "region": "South America",
+    "category": "Witotoan",
+    "family": "Witotoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:bmr"
   },
   {
     "name": "Munduruku",
@@ -26675,6 +26739,17 @@
     "category": "Witotoan",
     "family": "Witotoan",
     "wikipedia": "https://en.wikipedia.org/wiki/Nonuya_language"
+  },
+  {
+    "name": "Nukak",
+    "iso": "mbr",
+    "region": "South America",
+    "category": "Unclassified",
+    "family": "Unclassified",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mbr",
+    "tags": [
+      "unclassified"
+    ]
   },
   {
     "name": "Ocaina",
@@ -26776,6 +26851,14 @@
     "family": "Quechuan"
   },
   {
+    "name": "Reyesano (Maropa)",
+    "iso": "rey",
+    "region": "South America",
+    "category": "Tacanan",
+    "family": "Tacanan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:rey"
+  },
+  {
     "name": "Rioplatense Spanish",
     "iso": "rioplatense-spanish",
     "region": "South America",
@@ -26790,6 +26873,14 @@
     ]
   },
   {
+    "name": "Sanöma (Sanumá)",
+    "iso": "xsu",
+    "region": "South America",
+    "category": "Yanomaman",
+    "family": "Yanomaman",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xsu"
+  },
+  {
     "name": "Saramaccan",
     "iso": "saramaccan",
     "region": "South America",
@@ -26799,6 +26890,14 @@
       "creole"
     ],
     "lexifier": "English"
+  },
+  {
+    "name": "Sateré-Mawé",
+    "iso": "mav",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mav"
   },
   {
     "name": "Shipibo-Conibo",
@@ -26881,6 +26980,14 @@
     "family": "Tucanoan"
   },
   {
+    "name": "Tenetehára",
+    "iso": "tqb",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tqb"
+  },
+  {
     "name": "Terêna",
     "iso": "ter",
     "region": "South America",
@@ -26896,12 +27003,36 @@
     "family": "Ticuna–Yuri"
   },
   {
+    "name": "Tiriyó",
+    "iso": "slj",
+    "region": "South America",
+    "category": "Cariban",
+    "family": "Cariban",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:slj"
+  },
+  {
     "name": "Toba",
     "iso": "tob",
     "region": "South America",
     "category": "Guaicuruan",
     "family": "Guaicuruan",
     "wikipedia": "https://en.wikipedia.org/wiki/Toba_Qom_language"
+  },
+  {
+    "name": "Toromona",
+    "iso": "tno",
+    "region": "South America",
+    "category": "Tacanan",
+    "family": "Tacanan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tno"
+  },
+  {
+    "name": "Trinitario",
+    "iso": "trn",
+    "region": "South America",
+    "category": "Arawakan",
+    "family": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:trn"
   },
   {
     "name": "Tsimané",
@@ -26994,12 +27125,44 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Warao_language"
   },
   {
+    "name": "Warázu",
+    "iso": "psm",
+    "region": "South America",
+    "category": "Tupian",
+    "family": "Tupian",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:psm"
+  },
+  {
+    "name": "Wariʼ",
+    "iso": "pav",
+    "region": "South America",
+    "category": "Chapacuran",
+    "family": "Chapacuran",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:pav"
+  },
+  {
     "name": "Wayuu",
     "iso": "wayuu",
     "region": "South America",
     "category": "Arawakan",
     "wikipedia": "https://en.wikipedia.org/wiki/Wayuu_language",
     "family": "Arawakan"
+  },
+  {
+    "name": "Wichí Lhamtés Nocten (Weenhayek)",
+    "iso": "mtp",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:mtp"
+  },
+  {
+    "name": "Wichí Lhamtés Vejoz",
+    "iso": "wlv",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:wlv"
   },
   {
     "name": "Wiwa",

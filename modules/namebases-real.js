@@ -1073,6 +1073,30 @@ window.realWorldNameBases = [
       {name: "Berber (dedicated)", i: 5811, min: 4, max: 11, d: "lnrt", m: 0, b: "ber_unq1,ber_unq2,ber_unq3,ber_unq4,ber_unq5,ber_unq6,ber_unq7,ber_unq8,ber_unq9,ber_unq10,ber_unq11,ber_unq12"},
       {name: "Berbice (dedicated)", i: 5812, min: 4, max: 11, d: "lnrt", m: 0, b: "berbice_unq1,berbice_unq2,berbice_unq3,berbice_unq4,berbice_unq5,berbice_unq6,berbice_unq7,berbice_unq8,berbice_unq9,berbice_unq10,berbice_unq11,berbice_unq12"},
 
+      {name: "Macaguán (Hitnü) (dedicated)", i: 5813, min: 4, max: 11, d: "lnrt", m: 0, b: "mbn_unq1,mbn_unq2,mbn_unq3,mbn_unq4,mbn_unq5,mbn_unq6,mbn_unq7,mbn_unq8,mbn_unq9,mbn_unq10,mbn_unq11,mbn_unq12"},
+      {name: "Arhuaco (Ikʉ) (dedicated)", i: 5814, min: 4, max: 11, d: "lnrt", m: 0, b: "arh_unq1,arh_unq2,arh_unq3,arh_unq4,arh_unq5,arh_unq6,arh_unq7,arh_unq8,arh_unq9,arh_unq10,arh_unq11,arh_unq12"},
+      {name: "Minica Huitoto (dedicated)", i: 5815, min: 4, max: 11, d: "lnrt", m: 0, b: "hto_unq1,hto_unq2,hto_unq3,hto_unq4,hto_unq5,hto_unq6,hto_unq7,hto_unq8,hto_unq9,hto_unq10,hto_unq11,hto_unq12"},
+      {name: "Muinane (dedicated)", i: 5816, min: 4, max: 11, d: "lnrt", m: 0, b: "bmr_unq1,bmr_unq2,bmr_unq3,bmr_unq4,bmr_unq5,bmr_unq6,bmr_unq7,bmr_unq8,bmr_unq9,bmr_unq10,bmr_unq11,bmr_unq12"},
+      {name: "Nukak (dedicated)", i: 5817, min: 4, max: 11, d: "lnrt", m: 0, b: "mbr_unq1,mbr_unq2,mbr_unq3,mbr_unq4,mbr_unq5,mbr_unq6,mbr_unq7,mbr_unq8,mbr_unq9,mbr_unq10,mbr_unq11,mbr_unq12"},
+
+      {name: "Sateré-Mawé (dedicated)", i: 5818, min: 4, max: 11, d: "lnrt", m: 0, b: "mav_unq1,mav_unq2,mav_unq3,mav_unq4,mav_unq5,mav_unq6,mav_unq7,mav_unq8,mav_unq9,mav_unq10,mav_unq11,mav_unq12"},
+      {name: "Tenetehára (dedicated)", i: 5819, min: 4, max: 11, d: "lnrt", m: 0, b: "tqb_unq1,tqb_unq2,tqb_unq3,tqb_unq4,tqb_unq5,tqb_unq6,tqb_unq7,tqb_unq8,tqb_unq9,tqb_unq10,tqb_unq11,tqb_unq12"},
+      {name: "Warázu (dedicated)", i: 5820, min: 4, max: 11, d: "lnrt", m: 0, b: "psm_unq1,psm_unq2,psm_unq3,psm_unq4,psm_unq5,psm_unq6,psm_unq7,psm_unq8,psm_unq9,psm_unq10,psm_unq11,psm_unq12"},
+      {name: "Wariʼ (dedicated)", i: 5821, min: 4, max: 11, d: "lnrt", m: 0, b: "pav_unq1,pav_unq2,pav_unq3,pav_unq4,pav_unq5,pav_unq6,pav_unq7,pav_unq8,pav_unq9,pav_unq10,pav_unq11,pav_unq12"},
+      {name: "Sanöma (Sanumá) (dedicated)", i: 5822, min: 4, max: 11, d: "lnrt", m: 0, b: "xsu_unq1,xsu_unq2,xsu_unq3,xsu_unq4,xsu_unq5,xsu_unq6,xsu_unq7,xsu_unq8,xsu_unq9,xsu_unq10,xsu_unq11,xsu_unq12"},
+
+      {name: "Trinitario (dedicated)", i: 5823, min: 4, max: 11, d: "lnrt", m: 0, b: "trn_unq1,trn_unq2,trn_unq3,trn_unq4,trn_unq5,trn_unq6,trn_unq7,trn_unq8,trn_unq9,trn_unq10,trn_unq11,trn_unq12"},
+      {name: "Reyesano (Maropa) (dedicated)", i: 5824, min: 4, max: 11, d: "lnrt", m: 0, b: "rey_unq1,rey_unq2,rey_unq3,rey_unq4,rey_unq5,rey_unq6,rey_unq7,rey_unq8,rey_unq9,rey_unq10,rey_unq11,rey_unq12"},
+      {name: "Toromona (dedicated)", i: 5825, min: 4, max: 11, d: "lnrt", m: 0, b: "tno_unq1,tno_unq2,tno_unq3,tno_unq4,tno_unq5,tno_unq6,tno_unq7,tno_unq8,tno_unq9,tno_unq10,tno_unq11,tno_unq12"},
+      {name: "Wichí Lhamtés Nocten (Weenhayek) (dedicated)", i: 5826, min: 4, max: 11, d: "lnrt", m: 0, b: "mtp_unq1,mtp_unq2,mtp_unq3,mtp_unq4,mtp_unq5,mtp_unq6,mtp_unq7,mtp_unq8,mtp_unq9,mtp_unq10,mtp_unq11,mtp_unq12"},
+      {name: "Wichí Lhamtés Vejoz (dedicated)", i: 5827, min: 4, max: 11, d: "lnrt", m: 0, b: "wlv_unq1,wlv_unq2,wlv_unq3,wlv_unq4,wlv_unq5,wlv_unq6,wlv_unq7,wlv_unq8,wlv_unq9,wlv_unq10,wlv_unq11,wlv_unq12"},
+
+      {name: "Sierra Popoluca (dedicated)", i: 5828, min: 4, max: 11, d: "lnrt", m: 0, b: "poi_unq1,poi_unq2,poi_unq3,poi_unq4,poi_unq5,poi_unq6,poi_unq7,poi_unq8,poi_unq9,poi_unq10,poi_unq11,poi_unq12"},
+      {name: "Tlapanec (Meꞌphaa) (dedicated)", i: 5829, min: 4, max: 11, d: "lnrt", m: 0, b: "tpx_unq1,tpx_unq2,tpx_unq3,tpx_unq4,tpx_unq5,tpx_unq6,tpx_unq7,tpx_unq8,tpx_unq9,tpx_unq10,tpx_unq11,tpx_unq12"},
+      {name: "Paipai (dedicated)", i: 5830, min: 4, max: 11, d: "lnrt", m: 0, b: "ppi_unq1,ppi_unq2,ppi_unq3,ppi_unq4,ppi_unq5,ppi_unq6,ppi_unq7,ppi_unq8,ppi_unq9,ppi_unq10,ppi_unq11,ppi_unq12"},
+      {name: "Tiriyó (dedicated)", i: 5831, min: 4, max: 11, d: "lnrt", m: 0, b: "slj_unq1,slj_unq2,slj_unq3,slj_unq4,slj_unq5,slj_unq6,slj_unq7,slj_unq8,slj_unq9,slj_unq10,slj_unq11,slj_unq12"},
+      {name: "Coast Tsimshian (Sm’algya̱x) (dedicated)", i: 5832, min: 4, max: 11, d: "lnrt", m: 0, b: "tsi_unq1,tsi_unq2,tsi_unq3,tsi_unq4,tsi_unq5,tsi_unq6,tsi_unq7,tsi_unq8,tsi_unq9,tsi_unq10,tsi_unq11,tsi_unq12"},
+
       {name: "Central Transdanubian (dedicated)", i: 6000, min: 4, max: 11, d: "lnrt", m: 0, b: "central-transdanubian_unq1,central-transdanubian_unq2,central-transdanubian_unq3,central-transdanubian_unq4,central-transdanubian_unq5,central-transdanubian_unq6,central-transdanubian_unq7,central-transdanubian_unq8,central-transdanubian_unq9,central-transdanubian_unq10,central-transdanubian_unq11,central-transdanubian_unq12"},
       {name: "Tisza-K\u00f6r\u00f6s (dedicated)", i: 6001, min: 4, max: 11, d: "lnrt", m: 0, b: "tisza-k-r-s_unq1,tisza-k-r-s_unq2,tisza-k-r-s_unq3,tisza-k-r-s_unq4,tisza-k-r-s_unq5,tisza-k-r-s_unq6,tisza-k-r-s_unq7,tisza-k-r-s_unq8,tisza-k-r-s_unq9,tisza-k-r-s_unq10,tisza-k-r-s_unq11,tisza-k-r-s_unq12"},
       {name: "Pal\u00f3c (dedicated)", i: 6002, min: 4, max: 11, d: "lnrt", m: 0, b: "pal-c_unq1,pal-c_unq2,pal-c_unq3,pal-c_unq4,pal-c_unq5,pal-c_unq6,pal-c_unq7,pal-c_unq8,pal-c_unq9,pal-c_unq10,pal-c_unq11,pal-c_unq12"},
@@ -1102,6 +1126,9 @@ window.realWorldNameBases = [
       {name: "Per e4pohjola (dedicated)", i: 6023, min: 4, max: 11, d: "lnrt", m: 0, b: "per-pohjola_unq1,per-pohjola_unq2,per-pohjola_unq3,per-pohjola_unq4,per-pohjola_unq5,per-pohjola_unq6,per-pohjola_unq7,per-pohjola_unq8,per-pohjola_unq9,per-pohjola_unq10,per-pohjola_unq11,per-pohjola_unq12"},
       {name: "Fingelska (dedicated)", i: 6024, min: 4, max: 11, d: "lnrt", m: 0, b: "fingelska_unq1,fingelska_unq2,fingelska_unq3,fingelska_unq4,fingelska_unq5,fingelska_unq6,fingelska_unq7,fingelska_unq8,fingelska_unq9,fingelska_unq10,fingelska_unq11,fingelska_unq12"},
 
+      {name: "Southern Selkup (dedicated)", i: 6025, min: 4, max: 11, d: "lnrt", m: 0, b: "southern-selkup_unq1,southern-selkup_unq2,southern-selkup_unq3,southern-selkup_unq4,southern-selkup_unq5,southern-selkup_unq6,southern-selkup_unq7,southern-selkup_unq8,southern-selkup_unq9,southern-selkup_unq10,southern-selkup_unq11,southern-selkup_unq12"},
+      {name: "Vadey (dedicated)", i: 6026, min: 4, max: 11, d: "lnrt", m: 0, b: "vadey_unq1,vadey_unq2,vadey_unq3,vadey_unq4,vadey_unq5,vadey_unq6,vadey_unq7,vadey_unq8,vadey_unq9,vadey_unq10,vadey_unq11,vadey_unq12"},
+
       {name: "Bahraini Gulf Arabic (dedicated)", i: 6055, min: 4, max: 11, d: "lnrt", m: 0, b: "bahraini-gulf-arabic_unq1,bahraini-gulf-arabic_unq2,bahraini-gulf-arabic_unq3,bahraini-gulf-arabic_unq4,bahraini-gulf-arabic_unq5,bahraini-gulf-arabic_unq6,bahraini-gulf-arabic_unq7,bahraini-gulf-arabic_unq8,bahraini-gulf-arabic_unq9,bahraini-gulf-arabic_unq10,bahraini-gulf-arabic_unq11,bahraini-gulf-arabic_unq12"},
       {name: "Bakhtiari Arabic (dedicated)", i: 6056, min: 4, max: 11, d: "lnrt", m: 0, b: "bakhtiari-arabic_unq1,bakhtiari-arabic_unq2,bakhtiari-arabic_unq3,bakhtiari-arabic_unq4,bakhtiari-arabic_unq5,bakhtiari-arabic_unq6,bakhtiari-arabic_unq7,bakhtiari-arabic_unq8,bakhtiari-arabic_unq9,bakhtiari-arabic_unq10,bakhtiari-arabic_unq11,bakhtiari-arabic_unq12"},
       {name: "Baldemu language (dedicated)", i: 6057, min: 4, max: 11, d: "lnrt", m: 0, b: "baldemu-language_unq1,baldemu-language_unq2,baldemu-language_unq3,baldemu-language_unq4,baldemu-language_unq5,baldemu-language_unq6,baldemu-language_unq7,baldemu-language_unq8,baldemu-language_unq9,baldemu-language_unq10,baldemu-language_unq11,baldemu-language_unq12"},
@@ -1119,12 +1146,17 @@ window.realWorldNameBases = [
       {name: "Bamum (dedicated)", i: 6157, min: 4, max: 11, d: "lnrt", m: 0, b: "bamum_unq1,bamum_unq2,bamum_unq3,bamum_unq4,bamum_unq5,bamum_unq6,bamum_unq7,bamum_unq8,bamum_unq9,bamum_unq10,bamum_unq11,bamum_unq12"},
       {name: "Bamwe (dedicated)", i: 6158, min: 4, max: 11, d: "lnrt", m: 0, b: "bamwe_unq1,bamwe_unq2,bamwe_unq3,bamwe_unq4,bamwe_unq5,bamwe_unq6,bamwe_unq7,bamwe_unq8,bamwe_unq9,bamwe_unq10,bamwe_unq11,bamwe_unq12"},
       {name: "Balinese (dedicated)", i: 6159, min: 4, max: 11, d: "lnrt", m: 0, b: "ban_unq1,ban_unq2,ban_unq3,ban_unq4,ban_unq5,ban_unq6,ban_unq7,ban_unq8,ban_unq9,ban_unq10,ban_unq11,ban_unq12"},
-
       {name: "Bana language (dedicated)", i: 6205, min: 4, max: 11, d: "lnrt", m: 0, b: "bana-language_unq1,bana-language_unq2,bana-language_unq3,bana-language_unq4,bana-language_unq5,bana-language_unq6,bana-language_unq7,bana-language_unq8,bana-language_unq9,bana-language_unq10,bana-language_unq11,bana-language_unq12"},
       {name: "Bangime (dedicated)", i: 6206, min: 4, max: 11, d: "lnrt", m: 0, b: "bangime_unq1,bangime_unq2,bangime_unq3,bangime_unq4,bangime_unq5,bangime_unq6,bangime_unq7,bangime_unq8,bangime_unq9,bangime_unq10,bangime_unq11,bangime_unq12"},
       {name: "Bangladeshi English (dedicated)", i: 6207, min: 4, max: 11, d: "lnrt", m: 0, b: "bangladeshi-english_unq1,bangladeshi-english_unq2,bangladeshi-english_unq3,bangladeshi-english_unq4,bangladeshi-english_unq5,bangladeshi-english_unq6,bangladeshi-english_unq7,bangladeshi-english_unq8,bangladeshi-english_unq9,bangladeshi-english_unq10,bangladeshi-english_unq11,bangladeshi-english_unq12"},
       {name: "Banjar (dedicated)", i: 6208, min: 4, max: 11, d: "lnrt", m: 0, b: "banjar_unq1,banjar_unq2,banjar_unq3,banjar_unq4,banjar_unq5,banjar_unq6,banjar_unq7,banjar_unq8,banjar_unq9,banjar_unq10,banjar_unq11,banjar_unq12"},
       {name: "Baramu (dedicated)", i: 6209, min: 4, max: 11, d: "lnrt", m: 0, b: "baramu_unq1,baramu_unq2,baramu_unq3,baramu_unq4,baramu_unq5,baramu_unq6,baramu_unq7,baramu_unq8,baramu_unq9,baramu_unq10,baramu_unq11,baramu_unq12"},
+
+      {name: "Bareqi Arabic (dedicated)", i: 6255, min: 4, max: 11, d: "lnrt", m: 0, b: "bareqi-arabic_unq1,bareqi-arabic_unq2,bareqi-arabic_unq3,bareqi-arabic_unq4,bareqi-arabic_unq5,bareqi-arabic_unq6,bareqi-arabic_unq7,bareqi-arabic_unq8,bareqi-arabic_unq9,bareqi-arabic_unq10,bareqi-arabic_unq11,bareqi-arabic_unq12"},
+      {name: "Bargut (dedicated)", i: 6256, min: 4, max: 11, d: "lnrt", m: 0, b: "bargut_unq1,bargut_unq2,bargut_unq3,bargut_unq4,bargut_unq5,bargut_unq6,bargut_unq7,bargut_unq8,bargut_unq9,bargut_unq10,bargut_unq11,bargut_unq12"},
+      {name: "Bargut Buryat (dedicated)", i: 6257, min: 4, max: 11, d: "lnrt", m: 0, b: "bargut-buryat_unq1,bargut-buryat_unq2,bargut-buryat_unq3,bargut-buryat_unq4,bargut-buryat_unq5,bargut-buryat_unq6,bargut-buryat_unq7,bargut-buryat_unq8,bargut-buryat_unq9,bargut-buryat_unq10,bargut-buryat_unq11,bargut-buryat_unq12"},
+      {name: "Bariba (dedicated)", i: 6258, min: 4, max: 11, d: "lnrt", m: 0, b: "bariba_unq1,bariba_unq2,bariba_unq3,bariba_unq4,bariba_unq5,bariba_unq6,bariba_unq7,bariba_unq8,bariba_unq9,bariba_unq10,bariba_unq11,bariba_unq12"},
+      {name: "Bariji (dedicated)", i: 6259, min: 4, max: 11, d: "lnrt", m: 0, b: "bariji_unq1,bariji_unq2,bariji_unq3,bariji_unq4,bariji_unq5,bariji_unq6,bariji_unq7,bariji_unq8,bariji_unq9,bariji_unq10,bariji_unq11,bariji_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
