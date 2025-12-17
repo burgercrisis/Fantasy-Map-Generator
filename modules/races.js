@@ -145,7 +145,7 @@ const raceLanguageProfiles = {
     families: ["Afroasiatic", "Semitic"]
   },
   Serpent: {
-    categories: ["Indo-Aryan", "Dravidian"],
+    categories: ["Indo-Aryan", "Dravidian", "Andamanese"],
     families: ["Indo-Aryan", "Dravidian"]
   },
   Tiefling: {

@@ -25,6 +25,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - For each **non-family** mixer language, we are working toward having at least one **globally unique base index** and ensuring that dedicated base contains ISO-unique seed tokens.
 
+- ✅ **2025-12-17 Decluster bases=[389] (Purépecha vs Duruwa):** applied `tools/mixer-deltas/2025-12-17-decluster-389-duruwa-purepecha.json` to set `duruwa` bases to `[376]` (Dravidian) while `purepecha` remains `[389]`; resolved a duplicate `setBases` conflict by turning `tools/mixer-deltas/2025-12-17-decluster-389-duruwa.json` into a no-op `{}`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`.
+
 
 - Current target thresholds (explicit goal, tracked as debt; **not** a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
 
@@ -192,7 +194,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-16 integrator run (late):** `pnpm run mixer:apply-deltas` OK (`[guardrails] OK. map=3498 catalog=3498`); `pnpm run mixer:check-deltas` OK.
 
+- ✅ **2025-12-16 race-unused burn-down (Andamanese batch):** reduced `Languages never used by any race profile` from `27` to `23` by adding catalog category `Andamanese` to `raceLanguageProfiles.Serpent.categories` in `modules/races.js`, covering `akm`, `akj`, `anq`, `oon`. Verified: `pnpm run mixer:race-suite` (before+after), `pnpm run mixer:race-coverage` (Andamanese ISOs removed from uncovered list; after=23), `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles).
+
 - ✅ **2025-12-17 South Asia clustered-base fix (dedicated bases 5600–5607):** added dedicated bases `5600–5607` in `modules/namebases-real.js` and pinned them via `tools/mixer-deltas/2025-12-16-wikipedia-south-asia-clustered-bases-5600-5607.json` for `burushaski, hinglish, hno, indian-english, kfq, nepalese-english, newar, srb`. Also removed the conflicting base `3336` from `torne-valley`’s `setBases` in `tools/mixer-deltas/2025-12-16-wikipedia-uralic-full-bases9-finnic-dialects-setbases.json` (so `3336` remains dedicated to `me-nkieli`). Verified: `pnpm run mixer:check-deltas` OK; `pnpm run mixer:apply-deltas` OK; seed-uniqueness `--only-isos=burushaski,hinglish,hno,indian-english,kfq,nepalese-english,newar,srb` reports 0 strict/norm failures.
+
 - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (Awjila batch / worker1):** verified dedicated bases `5628–5632` for `awjila-language`, `aws-nian`, `aymara`, `ayo`, `ba-ari` (delta: `tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json`; base defs: `modules/namebases-real.js` `i:5628–5632`). Verified via `/no-unique-base2` commands: `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=awjila-language,aws-nian,aymara,ayo,ba-ari" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
 - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (Bengali batch / worker2):** verified dedicated bases `5808–5812` for `bengali`, `bengali-portuguese-creole`, `beni-snous-dialect`, `ber`, `berbice` (delta: `tools/mixer-deltas/2025-12-17-worker2-mixed-bengali.json`; base defs: `modules/namebases-real.js` `i:5808–5812`). Verified via `/no-unique-base2` commands: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures --only-isos="bengali,bengali-portuguese-creole,beni-snous-dialect,ber,berbice" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
@@ -1609,6 +1614,8 @@ The following families / regions have **not yet received a full pass** for home-
 
 **2025-12-16**: Decluster claim completed: workerId=1 batchId=2025-12-16T03:27:03.897Z-worker1 bases=[305] isos=[west-greenlandic-pidgin,greenlandic-lang] status=complete (delta tools/mixer-deltas/2025-12-16-decluster-305-west-greenlandic-pidgin-greenlandic-lang.json).
 
+ **2025-12-17**: Decluster micro-pass: broke spurious `bases=[389]` collision between `duruwa` (Central Dravidian / Asia) and `purepecha` (Mesoamerica isolate) by setting `duruwa` bases to `[199,375]` via delta `tools/mixer-deltas/2025-12-17-decluster-389-duruwa.json`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` OK (389 cluster no longer present); `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` OK.
+
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T02:24:41.984Z-worker1 reservedRange=3119-3168 isos=[amdo-tibetan,amf,amh,amharic,amharic-argobba] status=complete.
 
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-16T02:52:38.735Z-worker2 reservedRange=3169-3218 isos=[anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole] status=complete.
@@ -2229,7 +2236,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 59
-  - `Nonunique Bases:` 130
+  - `Nonunique Bases:` 118
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 164

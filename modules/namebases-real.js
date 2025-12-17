@@ -1199,6 +1199,13 @@ window.realWorldNameBases = [
       {name: "Bugan (dedicated)", i: 6507, min: 4, max: 11, d: "lnrt", m: 0, b: "bbh_unq1,bbh_unq2,bbh_unq3,bbh_unq4,bbh_unq5,bbh_unq6,bbh_unq7,bbh_unq8,bbh_unq9,bbh_unq10,bbh_unq11,bbh_unq12"},
       {name: "Balochi, Sulaimani (dedicated)", i: 6508, min: 4, max: 11, d: "lnrt", m: 0, b: "bcc_unq1,bcc_unq2,bcc_unq3,bcc_unq4,bcc_unq5,bcc_unq6,bcc_unq7,bcc_unq8,bcc_unq9,bcc_unq10,bcc_unq11,bcc_unq12"},
       {name: "Badeshi (dedicated)", i: 6509, min: 4, max: 11, d: "lnrt", m: 0, b: "bdz_unq1,bdz_unq2,bdz_unq3,bdz_unq4,bdz_unq5,bdz_unq6,bdz_unq7,bdz_unq8,bdz_unq9,bdz_unq10,bdz_unq11,bdz_unq12"},
-    ];
 
- if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
+      {name: "Uzbek (dedicated)", i: 6510, min: 4, max: 11, d: "lnrt", m: 0, b: "uzbek_unq1,uzbek_unq2,uzbek_unq3,uzbek_unq4,uzbek_unq5,uzbek_unq6,uzbek_unq7,uzbek_unq8,uzbek_unq9,uzbek_unq10,uzbek_unq11,uzbek_unq12"},
+      {name: "Kazakh (dedicated)", i: 6511, min: 4, max: 11, d: "lnrt", m: 0, b: "kazakh_unq1,kazakh_unq2,kazakh_unq3,kazakh_unq4,kazakh_unq5,kazakh_unq6,kazakh_unq7,kazakh_unq8,kazakh_unq9,kazakh_unq10,kazakh_unq11,kazakh_unq12"},
+      {name: "Kyrgyz (dedicated)", i: 6512, min: 4, max: 11, d: "lnrt", m: 0, b: "kyrgyz_unq1,kyrgyz_unq2,kyrgyz_unq3,kyrgyz_unq4,kyrgyz_unq5,kyrgyz_unq6,kyrgyz_unq7,kyrgyz_unq8,kyrgyz_unq9,kyrgyz_unq10,kyrgyz_unq11,kyrgyz_unq12"},
+      {name: "Tatar (dedicated)", i: 6513, min: 4, max: 11, d: "lnrt", m: 0, b: "tatar_unq1,tatar_unq2,tatar_unq3,tatar_unq4,tatar_unq5,tatar_unq6,tatar_unq7,tatar_unq8,tatar_unq9,tatar_unq10,tatar_unq11,tatar_unq12"},
+      {name: "Tuvan (dedicated)", i: 6514, min: 4, max: 11, d: "lnrt", m: 0, b: "tuvan_unq1,tuvan_unq2,tuvan_unq3,tuvan_unq4,tuvan_unq5,tuvan_unq6,tuvan_unq7,tuvan_unq8,tuvan_unq9,tuvan_unq10,tuvan_unq11,tuvan_unq12"},
+      {name: "Ili Turki (dedicated)", i: 6515, min: 4, max: 11, d: "lnrt", m: 0, b: "ili-turki_unq1,ili-turki_unq2,ili-turki_unq3,ili-turki_unq4,ili-turki_unq5,ili-turki_unq6,ili-turki_unq7,ili-turki_unq8,ili-turki_unq9,ili-turki_unq10,ili-turki_unq11,ili-turki_unq12"},
+];
+
+if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

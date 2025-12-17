@@ -39,6 +39,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-16: Documentation: recorded the broader MCP Coordination Hub tool surface (workstreams/locks/search/audit/perf) and constraints; added a global pointer in `.github/copilot-instructions.md`.
 
+- 2025-12-16: Added a dedicated workflow for burning down the `mixer:race-coverage` “race-unused languages” metric: `.windsurf/workflows/race-unused-burn-down.md`.
+
 - 2025-12-16: Hub tool smoke test (read-only): `mcp5_time_now`, `mcp5_hub_readme`, `mcp5_sqlite_ro_query`, `mcp5_perf_status`, `mcp5_hub_exec` (ripgrep), `mcp5_playwright_list_tools`, `mcp5_puppeteer_list_tools` OK; `mcp5_semgrep_list_tools` OK but upstream returns deprecation notice; `mcp5_codeql_list_tools` failed (ECONNREFUSED 127.0.0.1:8000; SSE upstream not running).
 
 - 2025-12-15: Added `--dashboard` (read-only) mode to `tools/mixer-diagnostics/no-uniq-base-claim.js` to list `in_progress` claims and compute the next available reserved `i:` range (coordination-first; no writes).

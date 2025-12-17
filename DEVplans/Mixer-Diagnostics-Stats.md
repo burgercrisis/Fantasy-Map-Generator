@@ -66,6 +66,34 @@ Race-unused ISO list (22):
 - pbb
 - ayo
 
+## Snapshot 2025-12-16T22:56:18-08:00
+
+### Commands
+
+```
+pnpm run mixer:guardrails
+pnpm run mixer:check-deltas
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300
+pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js
+pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
+pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+```
+
+### Seed uniqueness (`--only-failures --limit=300`) summary
+
+- Target ISOs: 3397
+- Missing mapping: 0
+- No globally-unique base index: 2259
+- Strict unique seeds below threshold (among those with unique base): 16
+- Normalized unique seeds below threshold (among those with unique base): 172
+
+### Base-set clusters (`--min-size=2`) summary
+
+- Considered catalog languages (after filters): 3397
+- Total distinct base sets (all sizes): 2814
+- Clusters with identical base sets (size >= 2): 109
+- Total language entries participating in these clusters: 692
+
 ## Status 2025-12-16T19:22:12-08:00
 
 - Restored observable output for `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard` (was exiting 0 with no output). Verified it now prints the dashboard summary.
