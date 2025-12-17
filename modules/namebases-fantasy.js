@@ -306,9 +306,7 @@ window.fantasyNameBases = [
       {name: "Athabaskan", i: 415, min: 4, max: 12, d: "lnrt", m: 0, b: "Fairbanks,Anchorage,Juneau,Sitka,Ketchikan,Wrangell,Petersburg,Cordova,Valdez,Seward,Homer,Kenai,Soldotna,Wasilla,Palmer,Eagle River,Chugiak,Kodiak,Bethel,Nome,Utqiagvik,Kotzebue,Prudhoe Bay,Deadhorse,Fort Yukon,Tanana,Galena,Unalakleet"},
       {name: "Tokelauan", i: 418, min: 4, max: 12, d: "lnrt", m: 0, b: "Atafu,Fakaofo,Nukunonu,Fale,Tokelau,Atafu Village,Fakaofo Village,Nukunonu Village,Fenuafala,Fale islet"},
       {name: "Nauruan", i: 419, min: 4, max: 12, d: "lnrt", m: 0, b: "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren"},
-
       {name: "Nar-Phu (dedicated)", i: 2929, min: 4, max: 11, d: "lnrt", m: 0, b: "npa_unq1,npa_unq2,npa_unq3,npa_unq4,npa_unq5,npa_unq6,npa_unq7,npa_unq8,npa_unq9,npa_unq10,npa_unq11,npa_unq12"},
-
       {name: "Amira (dedicated)", i: 3901, min: 4, max: 11, d: "lnrt", m: 0, b: "amira_unq1,amira_unq2,amira_unq3,amira_unq4,amira_unq5,amira_unq6,amira_unq7,amira_unq8,amira_unq9,amira_unq10,amira_unq11,amira_unq12"},
       {name: "Babanki (dedicated)", i: 3902, min: 4, max: 11, d: "lnrt", m: 0, b: "babanki_unq1,babanki_unq2,babanki_unq3,babanki_unq4,babanki_unq5,babanki_unq6,babanki_unq7,babanki_unq8,babanki_unq9,babanki_unq10,babanki_unq11,babanki_unq12"},
       {name: "Baca (dedicated)", i: 3903, min: 4, max: 11, d: "lnrt", m: 0, b: "baca_unq1,baca_unq2,baca_unq3,baca_unq4,baca_unq5,baca_unq6,baca_unq7,baca_unq8,baca_unq9,baca_unq10,baca_unq11,baca_unq12"},
@@ -366,7 +364,13 @@ window.fantasyNameBases = [
       {name: "Awadhi (dedicated)", i: 5457, min: 4, max: 11, d: "lnrt", m: 0, b: "awadhi_unq1,awadhi_unq2,awadhi_unq3,awadhi_unq4,awadhi_unq5,awadhi_unq6,awadhi_unq7,awadhi_unq8,awadhi_unq9,awadhi_unq10,awadhi_unq11,awadhi_unq12"},
       {name: "Awbono (dedicated)", i: 5458, min: 4, max: 11, d: "lnrt", m: 0, b: "awbono_unq1,awbono_unq2,awbono_unq3,awbono_unq4,awbono_unq5,awbono_unq6,awbono_unq7,awbono_unq8,awbono_unq9,awbono_unq10,awbono_unq11,awbono_unq12"},
       {name: "Awin (dedicated)", i: 5459, min: 4, max: 11, d: "lnrt", m: 0, b: "awin_unq1,awin_unq2,awin_unq3,awin_unq4,awin_unq5,awin_unq6,awin_unq7,awin_unq8,awin_unq9,awin_unq10,awin_unq11,awin_unq12"},
-      {name: "Awing (dedicated)", i: 5460, min: 4, max: 11, d: "lnrt", m: 0, b: "awing_unq1,awing_unq2,awing_unq3,awing_unq4,awing_unq5,awing_unq6,awing_unq7,awing_unq8,awing_unq9,awing_unq10,awing_unq11,awing_unq12"}
+      {name: "Awing (dedicated)", i: 5460, min: 4, max: 11, d: "lnrt", m: 0, b: "awing_unq1,awing_unq2,awing_unq3,awing_unq4,awing_unq5,awing_unq6,awing_unq7,awing_unq8,awing_unq9,awing_unq10,awing_unq11,awing_unq12"},
+
+      {name: "Be-Jizhao (dedicated)", i: 7015, min: 4, max: 11, d: "lnrt", m: 0, b: "be-jizhao_7015_unq1,be-jizhao_7015_unq2,be-jizhao_7015_unq3,be-jizhao_7015_unq4,be-jizhao_7015_unq5,be-jizhao_7015_unq6,be-jizhao_7015_unq7,be-jizhao_7015_unq8,be-jizhao_7015_unq9,be-jizhao_7015_unq10,be-jizhao_7015_unq11,be-jizhao_7015_unq12"},
+      {name: "Be (dedicated)", i: 7016, min: 4, max: 11, d: "lnrt", m: 0, b: "be-lang_7016_unq1,be-lang_7016_unq2,be-lang_7016_unq3,be-lang_7016_unq4,be-lang_7016_unq5,be-lang_7016_unq6,be-lang_7016_unq7,be-lang_7016_unq8,be-lang_7016_unq9,be-lang_7016_unq10,be-lang_7016_unq11,be-lang_7016_unq12"},
+      {name: "Beami (dedicated)", i: 7017, min: 4, max: 11, d: "lnrt", m: 0, b: "beami_7017_unq1,beami_7017_unq2,beami_7017_unq3,beami_7017_unq4,beami_7017_unq5,beami_7017_unq6,beami_7017_unq7,beami_7017_unq8,beami_7017_unq9,beami_7017_unq10,beami_7017_unq11,beami_7017_unq12"},
+      {name: "Beary (dedicated)", i: 7018, min: 4, max: 11, d: "lnrt", m: 0, b: "beary_7018_unq1,beary_7018_unq2,beary_7018_unq3,beary_7018_unq4,beary_7018_unq5,beary_7018_unq6,beary_7018_unq7,beary_7018_unq8,beary_7018_unq9,beary_7018_unq10,beary_7018_unq11,beary_7018_unq12"},
+      {name: "Beba (dedicated)", i: 7019, min: 4, max: 11, d: "lnrt", m: 0, b: "beba_7019_unq1,beba_7019_unq2,beba_7019_unq3,beba_7019_unq4,beba_7019_unq5,beba_7019_unq6,beba_7019_unq7,beba_7019_unq8,beba_7019_unq9,beba_7019_unq10,beba_7019_unq11,beba_7019_unq12"}
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.fantasyNameBases;

@@ -54,7 +54,8 @@ const fantasyRaceBases = {
   Oni: [83],
   Kitsune: [84],
   Deepkin: [85],
-  Starspawn: [86]
+  Starspawn: [86],
+  Scions: [274]
 };
 
 // Optional language mixer profiles per race. These define which real-world
@@ -489,6 +490,47 @@ const raceLanguageProfiles = {
       "Tungusic"
     ]
   },
+  Scions: {
+    categories: [
+      "Uralic",
+      "Slavic",
+      "Baltic",
+      "Turkic",
+      "Mongolic",
+      "Tungusic",
+      "Koreanic",
+      "Eskimo–Aleut",
+      "Algonquian",
+      "Na-Dene",
+      "Uto-Aztecan",
+      "Siouan",
+      "Muskogean",
+      "Mixe-Zoque",
+      "Language isolate",
+      "Hypothetical",
+      "Unclassified"
+    ],
+    families: [
+      "Sami",
+      "Uralic",
+      "Slavic",
+      "Baltic",
+      "Turkic",
+      "Mongolic",
+      "Tungusic",
+      "Koreanic",
+      "Eskimo–Aleut",
+      "Algonquian",
+      "Na-Dene",
+      "Uto-Aztecan",
+      "Siouan",
+      "Muskogean",
+      "Mixe-Zoque",
+      "Language isolate",
+      "Hypothetical",
+      "Unclassified"
+    ]
+  },
   AnyLanguage: {
     categories: [],
     families: []
@@ -593,7 +635,33 @@ function getRaceLanguageIsoWeights(raceName) {
     isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + weight;
   });
 
-  return Object.keys(isoWeights).length ? isoWeights : null;
+  const keys = Object.keys(isoWeights);
+  if (!keys.length) return null;
+
+  if (keys.length < 3) {
+    const fallback = getFallbackRaceMixerIsoWeights();
+    if (fallback && typeof fallback === "object") {
+      const fallbackKeys = Object.keys(fallback)
+        .filter(iso => iso && !isoWeights[iso])
+        .sort();
+
+      if (fallbackKeys.length) {
+        let s = hashStringToUint32(`race-iso-fallback|${raceName}`);
+        const needed = 3 - keys.length;
+        for (let i = 0; i < needed && fallbackKeys.length; i++) {
+          s = (s + 0x6d2b79f5) >>> 0;
+          const idx = s % fallbackKeys.length;
+          const iso = fallbackKeys.splice(idx, 1)[0];
+          if (!iso) continue;
+          const w = fallback[iso];
+          const weight = typeof w === "number" && isFinite(w) && w > 0 ? w : 1;
+          isoWeights[iso] = weight;
+        }
+      }
+    }
+  }
+
+  return isoWeights;
 }
 
 // Generate fresh Markov-mixed language samples for a race. This uses
@@ -1041,7 +1109,8 @@ function getRacesSetFilter(value) {
         "Satyr",
         "Minotaur",
         "Oni",
-        "Kitsune"
+        "Kitsune",
+        "Scions"
       ]);
     case "dark":
       return new Set([
@@ -1068,7 +1137,8 @@ function getRacesSetFilter(value) {
         "Hexblood",
         "Oni",
         "Deepkin",
-        "Starspawn"
+        "Starspawn",
+        "Scions"
       ]);
     case "primal":
       return new Set([
@@ -1108,7 +1178,8 @@ function getRacesSetFilter(value) {
         "Kalashtar",
         "Shadar-kai",
         "Hexblood",
-        "Starspawn"
+        "Starspawn",
+        "Scions"
       ]);
     case "eberron":
       return new Set([
@@ -1142,7 +1213,8 @@ function getRacesSetFilter(value) {
         "Changeling",
         "Centaur",
         "Owlin",
-        "Kitsune"
+        "Kitsune",
+        "Scions"
       ]);
     case "beastfolk":
       return new Set([
@@ -1177,7 +1249,8 @@ function getRacesSetFilter(value) {
         "Bugbear",
         "Gith",
         "Deepkin",
-        "Starspawn"
+        "Starspawn",
+        "Scions"
       ]);
     case "undead":
       return new Set([
@@ -1401,7 +1474,10 @@ function initializeRacesForExpansion(options) {
     if (raceName && raceName !== "Human") {
       const currentBase =
         typeof culture.base === "number" && Array.isArray(nameBases) ? nameBases[culture.base] : null;
-      const shouldReplaceBase = !currentBase || (currentBase && currentBase.raceMixerFor);
+      const shouldReplaceBase =
+        !currentBase ||
+        (currentBase && currentBase.raceMixerFor) ||
+        (Array.isArray(fantasyRaceBases[raceName]) && fantasyRaceBases[raceName].includes(culture.base));
       if (shouldReplaceBase) {
         const baseIndex = ensureRaceMixerBaseIndex(raceName);
         if (typeof baseIndex === "number") culture.base = baseIndex;
@@ -1558,7 +1634,10 @@ function syncCultureBasesToDominantRace() {
 
     const currentBase =
       typeof culture.base === "number" && Array.isArray(nameBases) ? nameBases[culture.base] : null;
-    const shouldReplaceBase = !currentBase || (currentBase && currentBase.raceMixerFor);
+    const shouldReplaceBase =
+      !currentBase ||
+      (currentBase && currentBase.raceMixerFor) ||
+      (Array.isArray(fantasyRaceBases[raceName]) && fantasyRaceBases[raceName].includes(culture.base));
     if (shouldReplaceBase) {
       const baseIndex = ensureRaceMixerBaseIndex(raceName);
       if (typeof baseIndex === "number") culture.base = baseIndex;

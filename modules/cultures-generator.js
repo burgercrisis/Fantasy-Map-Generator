@@ -1274,7 +1274,7 @@ window.Cultures = (function () {
 
     if (culturesSet.value === "random") {
       return d3.range(count).map(function () {
-        const rnd = rand(nameBases.length - 1);
+        const rnd = Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length - 1);
         const name = Names.getBaseShort(rnd);
         return {name, base: rnd, odd: 1, shield: getRandomShield()};
       });

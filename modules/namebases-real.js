@@ -1240,5 +1240,58 @@ window.realWorldNameBases = [
       {name: "yei-zhuang (dedicated)", i: 6616, min: 4, max: 11, d: "lnrt", m: 0, b: "yei-zhuang_unq1,yei-zhuang_unq2,yei-zhuang_unq3,yei-zhuang_unq4,yei-zhuang_unq5,yei-zhuang_unq6,yei-zhuang_unq7,yei-zhuang_unq8,yei-zhuang_unq9,yei-zhuang_unq10,yei-zhuang_unq11,yei-zhuang_unq12"},
       {name: "tai-daeng (dedicated)", i: 6617, min: 4, max: 11, d: "lnrt", m: 0, b: "tai-daeng_unq1,tai-daeng_unq2,tai-daeng_unq3,tai-daeng_unq4,tai-daeng_unq5,tai-daeng_unq6,tai-daeng_unq7,tai-daeng_unq8,tai-daeng_unq9,tai-daeng_unq10,tai-daeng_unq11,tai-daeng_unq12"},
 
+      {name: "Guajajara (dedicated)", i: 6620, min: 4, max: 11, d: "lnrt", m: 0, b: "gub_unq1,gub_unq2,gub_unq3,gub_unq4,gub_unq5,gub_unq6,gub_unq7,gub_unq8,gub_unq9,gub_unq10,gub_unq11,gub_unq12"},
+      {name: "Língua Geral Amazônica (dedicated)", i: 6621, min: 4, max: 11, d: "lnrt", m: 0, b: "l-ngua-geral-amaz-nica_unq1,l-ngua-geral-amaz-nica_unq2,l-ngua-geral-amaz-nica_unq3,l-ngua-geral-amaz-nica_unq4,l-ngua-geral-amaz-nica_unq5,l-ngua-geral-amaz-nica_unq6,l-ngua-geral-amaz-nica_unq7,l-ngua-geral-amaz-nica_unq8,l-ngua-geral-amaz-nica_unq9,l-ngua-geral-amaz-nica_unq10,l-ngua-geral-amaz-nica_unq11,l-ngua-geral-amaz-nica_unq12"},
+      {name: "Mixe (dedicated)", i: 6622, min: 4, max: 11, d: "lnrt", m: 0, b: "mixe_unq1,mixe_unq2,mixe_unq3,mixe_unq4,mixe_unq5,mixe_unq6,mixe_unq7,mixe_unq8,mixe_unq9,mixe_unq10,mixe_unq11,mixe_unq12"},
+      {name: "Tabasco Zoque (dedicated)", i: 6623, min: 4, max: 11, d: "lnrt", m: 0, b: "zoq_unq1,zoq_unq2,zoq_unq3,zoq_unq4,zoq_unq5,zoq_unq6,zoq_unq7,zoq_unq8,zoq_unq9,zoq_unq10,zoq_unq11,zoq_unq12"},
+      {name: "Chochotec (dedicated)", i: 6624, min: 4, max: 11, d: "lnrt", m: 0, b: "coz_unq1,coz_unq2,coz_unq3,coz_unq4,coz_unq5,coz_unq6,coz_unq7,coz_unq8,coz_unq9,coz_unq10,coz_unq11,coz_unq12"},
+      {name: "Ixcatec (dedicated)", i: 6625, min: 4, max: 11, d: "lnrt", m: 0, b: "ixc_unq1,ixc_unq2,ixc_unq3,ixc_unq4,ixc_unq5,ixc_unq6,ixc_unq7,ixc_unq8,ixc_unq9,ixc_unq10,ixc_unq11,ixc_unq12"},
+      {name: "Q'anjob'al (dedicated)", i: 6626, min: 4, max: 11, d: "lnrt", m: 0, b: "qanjobal_unq1,qanjobal_unq2,qanjobal_unq3,qanjobal_unq4,qanjobal_unq5,qanjobal_unq6,qanjobal_unq7,qanjobal_unq8,qanjobal_unq9,qanjobal_unq10,qanjobal_unq11,qanjobal_unq12"},
+      {name: "Cauque Mayan language (dedicated)", i: 6627, min: 4, max: 11, d: "lnrt", m: 0, b: "cauque-mayan-language_unq1,cauque-mayan-language_unq2,cauque-mayan-language_unq3,cauque-mayan-language_unq4,cauque-mayan-language_unq5,cauque-mayan-language_unq6,cauque-mayan-language_unq7,cauque-mayan-language_unq8,cauque-mayan-language_unq9,cauque-mayan-language_unq10,cauque-mayan-language_unq11,cauque-mayan-language_unq12"},
+      {name: "Mobilian Jargon (dedicated)", i: 6628, min: 4, max: 11, d: "lnrt", m: 0, b: "mobilian-jargon_unq1,mobilian-jargon_unq2,mobilian-jargon_unq3,mobilian-jargon_unq4,mobilian-jargon_unq5,mobilian-jargon_unq6,mobilian-jargon_unq7,mobilian-jargon_unq8,mobilian-jargon_unq9,mobilian-jargon_unq10,mobilian-jargon_unq11,mobilian-jargon_unq12"},
+      {name: "Pidgin Delaware (dedicated)", i: 6629, min: 4, max: 11, d: "lnrt", m: 0, b: "pidgin-delaware_unq1,pidgin-delaware_unq2,pidgin-delaware_unq3,pidgin-delaware_unq4,pidgin-delaware_unq5,pidgin-delaware_unq6,pidgin-delaware_unq7,pidgin-delaware_unq8,pidgin-delaware_unq9,pidgin-delaware_unq10,pidgin-delaware_unq11,pidgin-delaware_unq12"},
+
+      {name: "Savonlinna (dedicated)", i: 3942, min: 4, max: 11, d: "lnrt", m: 0, b: "Savonlinna,Olavinlinna,Punkaharju,Kerimaki,Enonkoski,Rantasalmi,Sulkava,Mikkeli,Varkaus,Heinavesi,Oravi,Pihlajavesi"},
+      {name: "Danish (dedicated)", i: 3950, min: 4, max: 11, d: "lnrt", m: 0, b: "Copenhagen,Aarhus,Odense,Aalborg,Esbjerg,Randers,Kolding,Horsens,Vejle,Roskilde,Helsingor,Svendborg"},
+      {name: "isl (dedicated)", i: 3951, min: 4, max: 11, d: "lnrt", m: 0, b: "Reykjavik,Kopavogur,Hafnarfjordur,Akureyri,Reykjanesbaer,Selfoss,Akranes,Isafjordur,Egilsstadir,Husavik,Saudarkrokur,Vik"},
+      {name: "Norwegian (dedicated)", i: 3952, min: 4, max: 11, d: "lnrt", m: 0, b: "Oslo,Bergen,Trondheim,Stavanger,Drammen,Kristiansand,Tromso,Skien,Alesund,Haugesund,Bodo,Moss"},
+
+      {name: "Hlai (dedicated)", i: 6530, min: 4, max: 11, d: "lnrt", m: 0, b: "hlai_unq1,hlai_unq2,hlai_unq3,hlai_unq4,hlai_unq5,hlai_unq6,hlai_unq7,hlai_unq8,hlai_unq9,hlai_unq10,hlai_unq11,hlai_unq12"},
+      {name: "Mulam (dedicated)", i: 6531, min: 4, max: 11, d: "lnrt", m: 0, b: "mulam_unq1,mulam_unq2,mulam_unq3,mulam_unq4,mulam_unq5,mulam_unq6,mulam_unq7,mulam_unq8,mulam_unq9,mulam_unq10,mulam_unq11,mulam_unq12"},
+      {name: "Be (dedicated)", i: 6532, min: 4, max: 11, d: "lnrt", m: 0, b: "be-lang_unq1,be-lang_unq2,be-lang_unq3,be-lang_unq4,be-lang_unq5,be-lang_unq6,be-lang_unq7,be-lang_unq8,be-lang_unq9,be-lang_unq10,be-lang_unq11,be-lang_unq12"},
+      {name: "Bouyei (dedicated)", i: 6533, min: 4, max: 11, d: "lnrt", m: 0, b: "bouyei_unq1,bouyei_unq2,bouyei_unq3,bouyei_unq4,bouyei_unq5,bouyei_unq6,bouyei_unq7,bouyei_unq8,bouyei_unq9,bouyei_unq10,bouyei_unq11,bouyei_unq12"},
+
+      {name: "Eyak (dedicated)", i: 6630, min: 4, max: 11, d: "lnrt", m: 0, b: "eyak_unq1,eyak_unq2,eyak_unq3,eyak_unq4,eyak_unq5,eyak_unq6,eyak_unq7,eyak_unq8,eyak_unq9,eyak_unq10,eyak_unq11,eyak_unq12"},
+      {name: "Dena'ina (dedicated)", i: 6631, min: 4, max: 11, d: "lnrt", m: 0, b: "tfn_unq1,tfn_unq2,tfn_unq3,tfn_unq4,tfn_unq5,tfn_unq6,tfn_unq7,tfn_unq8,tfn_unq9,tfn_unq10,tfn_unq11,tfn_unq12"},
+      {name: "Chipewyan (dedicated)", i: 6632, min: 4, max: 11, d: "lnrt", m: 0, b: "chp_unq1,chp_unq2,chp_unq3,chp_unq4,chp_unq5,chp_unq6,chp_unq7,chp_unq8,chp_unq9,chp_unq10,chp_unq11,chp_unq12"},
+      {name: "Deg Xinag (dedicated)", i: 6633, min: 4, max: 11, d: "lnrt", m: 0, b: "ing_unq1,ing_unq2,ing_unq3,ing_unq4,ing_unq5,ing_unq6,ing_unq7,ing_unq8,ing_unq9,ing_unq10,ing_unq11,ing_unq12"},
+      {name: "Gwichʼin (dedicated)", i: 6634, min: 4, max: 11, d: "lnrt", m: 0, b: "gwi_unq1,gwi_unq2,gwi_unq3,gwi_unq4,gwi_unq5,gwi_unq6,gwi_unq7,gwi_unq8,gwi_unq9,gwi_unq10,gwi_unq11,gwi_unq12"},
+      {name: "Hän (dedicated)", i: 6635, min: 4, max: 11, d: "lnrt", m: 0, b: "haa_unq1,haa_unq2,haa_unq3,haa_unq4,haa_unq5,haa_unq6,haa_unq7,haa_unq8,haa_unq9,haa_unq10,haa_unq11,haa_unq12"},
+      {name: "Holikachuk (dedicated)", i: 6636, min: 4, max: 11, d: "lnrt", m: 0, b: "hoi_unq1,hoi_unq2,hoi_unq3,hoi_unq4,hoi_unq5,hoi_unq6,hoi_unq7,hoi_unq8,hoi_unq9,hoi_unq10,hoi_unq11,hoi_unq12"},
+      {name: "Koyukon (dedicated)", i: 6637, min: 4, max: 11, d: "lnrt", m: 0, b: "koy_unq1,koy_unq2,koy_unq3,koy_unq4,koy_unq5,koy_unq6,koy_unq7,koy_unq8,koy_unq9,koy_unq10,koy_unq11,koy_unq12"},
+      {name: "Tłįchǫ (dedicated)", i: 6638, min: 4, max: 11, d: "lnrt", m: 0, b: "dgr_unq1,dgr_unq2,dgr_unq3,dgr_unq4,dgr_unq5,dgr_unq6,dgr_unq7,dgr_unq8,dgr_unq9,dgr_unq10,dgr_unq11,dgr_unq12"},
+      {name: "Upper Kuskokwim (dedicated)", i: 6639, min: 4, max: 11, d: "lnrt", m: 0, b: "kuu_unq1,kuu_unq2,kuu_unq3,kuu_unq4,kuu_unq5,kuu_unq6,kuu_unq7,kuu_unq8,kuu_unq9,kuu_unq10,kuu_unq11,kuu_unq12"},
+      {name: "Upper Tanana (dedicated)", i: 6640, min: 4, max: 11, d: "lnrt", m: 0, b: "tau_unq1,tau_unq2,tau_unq3,tau_unq4,tau_unq5,tau_unq6,tau_unq7,tau_unq8,tau_unq9,tau_unq10,tau_unq11,tau_unq12"},
+
+      {name: "Kiliwa (dedicated)", i: 6641, min: 4, max: 11, d: "lnrt", m: 0, b: "klb_unq1,klb_unq2,klb_unq3,klb_unq4,klb_unq5,klb_unq6,klb_unq7,klb_unq8,klb_unq9,klb_unq10,klb_unq11,klb_unq12"},
+      {name: "Mojave (dedicated)", i: 6642, min: 4, max: 11, d: "lnrt", m: 0, b: "mov_unq1,mov_unq2,mov_unq3,mov_unq4,mov_unq5,mov_unq6,mov_unq7,mov_unq8,mov_unq9,mov_unq10,mov_unq11,mov_unq12"},
+      {name: "Quechan (dedicated)", i: 6643, min: 4, max: 11, d: "lnrt", m: 0, b: "yum_unq1,yum_unq2,yum_unq3,yum_unq4,yum_unq5,yum_unq6,yum_unq7,yum_unq8,yum_unq9,yum_unq10,yum_unq11,yum_unq12"},
+      {name: "Cochimí (dedicated)", i: 6644, min: 4, max: 11, d: "lnrt", m: 0, b: "coj_unq1,coj_unq2,coj_unq3,coj_unq4,coj_unq5,coj_unq6,coj_unq7,coj_unq8,coj_unq9,coj_unq10,coj_unq11,coj_unq12"},
+      {name: "Cocopa (dedicated)", i: 6645, min: 4, max: 11, d: "lnrt", m: 0, b: "coc_unq1,coc_unq2,coc_unq3,coc_unq4,coc_unq5,coc_unq6,coc_unq7,coc_unq8,coc_unq9,coc_unq10,coc_unq11,coc_unq12"},
+      {name: "Yavapai (dedicated)", i: 6646, min: 4, max: 11, d: "lnrt", m: 0, b: "yuf_unq1,yuf_unq2,yuf_unq3,yuf_unq4,yuf_unq5,yuf_unq6,yuf_unq7,yuf_unq8,yuf_unq9,yuf_unq10,yuf_unq11,yuf_unq12"},
+
+      {name: "Mohawk (dedicated)", i: 6647, min: 4, max: 11, d: "lnrt", m: 0, b: "mohawk_unq1,mohawk_unq2,mohawk_unq3,mohawk_unq4,mohawk_unq5,mohawk_unq6,mohawk_unq7,mohawk_unq8,mohawk_unq9,mohawk_unq10,mohawk_unq11,mohawk_unq12"},
+      {name: "Cayuga (dedicated)", i: 6648, min: 4, max: 11, d: "lnrt", m: 0, b: "cay_unq1,cay_unq2,cay_unq3,cay_unq4,cay_unq5,cay_unq6,cay_unq7,cay_unq8,cay_unq9,cay_unq10,cay_unq11,cay_unq12"},
+      {name: "Oneida (dedicated)", i: 6649, min: 4, max: 11, d: "lnrt", m: 0, b: "one_unq1,one_unq2,one_unq3,one_unq4,one_unq5,one_unq6,one_unq7,one_unq8,one_unq9,one_unq10,one_unq11,one_unq12"},
+      {name: "Onondaga (dedicated)", i: 6650, min: 4, max: 11, d: "lnrt", m: 0, b: "ono_unq1,ono_unq2,ono_unq3,ono_unq4,ono_unq5,ono_unq6,ono_unq7,ono_unq8,ono_unq9,ono_unq10,ono_unq11,ono_unq12"},
+      {name: "Seneca (dedicated)", i: 6651, min: 4, max: 11, d: "lnrt", m: 0, b: "see_unq1,see_unq2,see_unq3,see_unq4,see_unq5,see_unq6,see_unq7,see_unq8,see_unq9,see_unq10,see_unq11,see_unq12"},
+      {name: "Tuscarora (dedicated)", i: 6652, min: 4, max: 11, d: "lnrt", m: 0, b: "tus_unq1,tus_unq2,tus_unq3,tus_unq4,tus_unq5,tus_unq6,tus_unq7,tus_unq8,tus_unq9,tus_unq10,tus_unq11,tus_unq12"},
+
+      {name: "Bebe (dedicated)", i: 7065, min: 4, max: 11, d: "lnrt", m: 0, b: "bebe_7065_unq1,bebe_7065_unq2,bebe_7065_unq3,bebe_7065_unq4,bebe_7065_unq5,bebe_7065_unq6,bebe_7065_unq7,bebe_7065_unq8,bebe_7065_unq9,bebe_7065_unq10,bebe_7065_unq11,bebe_7065_unq12"},
+      {name: "Bee (dedicated)", i: 7066, min: 4, max: 11, d: "lnrt", m: 0, b: "bee_7066_unq1,bee_7066_unq2,bee_7066_unq3,bee_7066_unq4,bee_7066_unq5,bee_7066_unq6,bee_7066_unq7,bee_7066_unq8,bee_7066_unq9,bee_7066_unq10,bee_7066_unq11,bee_7066_unq12"},
+      {name: "Beijing Mandarin (dedicated)", i: 7067, min: 4, max: 11, d: "lnrt", m: 0, b: "beijing-mandarin_7067_unq1,beijing-mandarin_7067_unq2,beijing-mandarin_7067_unq3,beijing-mandarin_7067_unq4,beijing-mandarin_7067_unq5,beijing-mandarin_7067_unq6,beijing-mandarin_7067_unq7,beijing-mandarin_7067_unq8,beijing-mandarin_7067_unq9,beijing-mandarin_7067_unq10,beijing-mandarin_7067_unq11,beijing-mandarin_7067_unq12"},
+      {name: "Beja (dedicated)", i: 7068, min: 4, max: 11, d: "lnrt", m: 0, b: "beja_7068_unq1,beja_7068_unq2,beja_7068_unq3,beja_7068_unq4,beja_7068_unq5,beja_7068_unq6,beja_7068_unq7,beja_7068_unq8,beja_7068_unq9,beja_7068_unq10,beja_7068_unq11,beja_7068_unq12"},
+      {name: "Beli (dedicated)", i: 7069, min: 4, max: 11, d: "lnrt", m: 0, b: "beli_7069_unq1,beli_7069_unq2,beli_7069_unq3,beli_7069_unq4,beli_7069_unq5,beli_7069_unq6,beli_7069_unq7,beli_7069_unq8,beli_7069_unq9,beli_7069_unq10,beli_7069_unq11,beli_7069_unq12"},
+
 ];
-if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
+ if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

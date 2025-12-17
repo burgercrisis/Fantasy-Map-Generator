@@ -184,6 +184,7 @@ function getMaxNamebaseIndex() {
   for (const f of files) {
     const abs = path.join(modulesDir, f);
     const s = readText(abs);
+    rx.lastIndex = 0;
     let m;
     while ((m = rx.exec(s))) {
       const n = Number(m[1]);

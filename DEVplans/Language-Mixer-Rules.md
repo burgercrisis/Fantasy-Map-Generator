@@ -217,7 +217,7 @@ All commands should be run from the repo root. Prefer **pnpm**.
   - add an explicit override to `tools/mixer-core/fix-language-mixer-mappings.js`:
     - `explicitIsoBasesMap` for multi-base mixes, or
     - `explicitIsoBaseMap` for single-base mappings
-  - include any related alias/subset ISOs that get “normalized” to match it.
+  - include any related ISOs that get “normalized” to match it.
   - Re-run `pnpm run mixer:apply-deltas` to ensure committed artifacts are regenerated.
   - Single-integrator lane: in multi-agent contexts, only the integrator should run `pnpm run mixer:apply-deltas` to write/regenerate committed artifacts. See `.windsurf/workflows/single-integrator-lane.md`.
 

@@ -137,7 +137,7 @@ function editLake() {
 
   function generateNameRandom() {
     const lake = getLake();
-    lake.name = lakeName.value = Names.getBase(rand(nameBases.length - 1));
+    lake.name = lakeName.value = Names.getBase(Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length - 1));
   }
 
   function selectLakeGroup() {

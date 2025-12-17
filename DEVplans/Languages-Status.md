@@ -27,6 +27,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-17 Decluster bases=[389] (Purépecha vs Duruwa):** applied `tools/mixer-deltas/2025-12-17-decluster-389-duruwa-purepecha.json` to set `duruwa` bases to `[376]` (Dravidian) while `purepecha` remains `[389]`; resolved a duplicate `setBases` conflict by turning `tools/mixer-deltas/2025-12-17-decluster-389-duruwa.json` into a no-op `{}`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`.
 
+- ✅ **2025-12-17 Decluster bases=[468] (Nicobarese vs Önge):** applied `tools/mixer-deltas/2025-12-17-decluster-468-oon.json` to set `oon` bases to `[468,471]` while `nicobarese` remains `[468]`.
+
+- ✅ **2025-12-17 Decluster bases=[29,62] (Bawm vs Thadou):** applied `tools/mixer-deltas/2025-12-17-decluster-29-62-bgr-tcz.json` to set `bgr` bases to `[29,62,63]` while `tcz` remains `[62,29]`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
+
+- ✅ **2025-12-17 Decluster bases=[304] (Waray vs Cebuano):** applied `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` to set `waray` bases to `[515,516]` while `cebuano-lang` remains `[304]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `-- bases=[304]` cluster is gone via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` and verified map health via `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0).
+
+- ✅ **2025-12-17 Decluster bases=[185] (Rama delta collision cleanup):** disabled `tools/mixer-deltas/2025-12-17-decluster-185-miskito-rma.json` by turning it into a no-op `{}` after it attempted to set `rma` bases to `[2440,2441]`, which collided with dedicated pins for `cuk`/`mbp` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch2-cux-cuk-mbp.json`). Regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `pnpm run mixer:check-deltas` OK.
+
 
 - Current target thresholds (explicit goal, tracked as debt; **not** a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
 
@@ -196,6 +204,14 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
  - ✅ **2025-12-17 /no-unique-base2 verification (Tai–Kadai batch3):** seed-uniqueness (only-failures, only-isos=batch) => Target ISOs: 10; Missing mapping: 0; No globally-unique base index: 0; strictFail: 0; normFail: 0. Coverage: 0 missing; failures: 0 failing.
 
+- ✅ **2025-12-17 language-uniqueness (global batch4):** resolved 5 identical `bases[]` collisions by pinning dedicated bases `6110–6119` for `dakota,cro,xav,xer,pst,wne,eastern-indonesian-malay,gorap,harari,harari-east-gurage` (delta: `tools/mixer-deltas/2025-12-17-language-uniqueness-batch4-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6110–6119`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0 duplicates; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos="dakota,cro,xav,xer,pst,wne,eastern-indonesian-malay,gorap,harari,harari-east-gurage" --limit=300` => strictFail: 0; normFail: 0; base-clusters re-run (`pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2`) exit 0.
+
+ - ✅ **2025-12-17 NO_UNIQ_BASE2 claim closure (be-* batch / worker1):** claim `batchId=2025-12-17T08:26:02.122Z-worker1` (`be-jizhao,be-lang,beami,beary,beba`) completed with dedicated bases `7015–7019` (delta: `tools/mixer-deltas/2025-12-17-worker1-mixed-be-jizhao.json`; base defs: `modules/namebases-fantasy.js` `i:7015–7019`). Cleanup: added `setBases` in the delta to remove stale invalid bases `7010–7014`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=be-jizhao,be-lang,beami,beary,beba" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters `--min-size=2` exit 0. Claim updatedAt=`2025-12-17T09:26:56.635Z`.
+
+- ✅ **2025-12-17 language-uniqueness (global batch1):** resolved 5 identical `bases[]` collisions by pinning dedicated bases `6620–6629` for `gub, l-ngua-geral-amaz-nica, mixe, zoq, coz, ixc, qanjobal, cauque-mayan-language, mobilian-jargon, pidgin-delaware` (delta: `tools/mixer-deltas/2025-12-17-language-uniqueness-global-batch1-6620-6629-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6620–6629`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0 duplicates; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); seed-uniqueness `report-language-mixer-seed-uniqueness.js --only-failures --only-isos=batch` => 0 failures; base-clusters re-run (`report-language-mixer-base-clusters.js --min-size=2 --include-families`) exit 0.
+
+- ✅ **2025-12-17 Americas Indigenous (Na-Dene bases=[19]):** pinned dedicated bases `6630–6640` for `eyak,tfn,chp,ing,gwi,haa,hoi,koy,dgr,kuu,tau` (delta: `tools/mixer-deltas/2025-12-17-americas-indigenous-nadene-bases19-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6630–6640`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=batch) => Target ISOs: 11; Missing mapping: 0; No globally-unique base index: 0; strictFail: 0; normFail: 0; coverage OK; failures OK; base-clusters (`report-language-mixer-base-clusters.js --min-size=2`) exit 0. Americas Indigenous base-uniqueness (no-devplan) snapshot: Nonunique Bases=149; unique bases=165; clustered bases=56.
+
 - ✅ **2025-12-16 mixer artifacts resync:** regenerated committed artifacts via `pnpm run mixer:apply-deltas`, then confirmed `pnpm run mixer:check-deltas` OK (refreshing `tools/mixer-deltas/_compiled-dedicated-pins.json`, `config/language-mixer-map.json/.js`, and `config/language-mixes-all.js`).
 
 - ✅ **2025-12-16 integrator run (late):** `pnpm run mixer:apply-deltas` OK (`[guardrails] OK. map=3498 catalog=3498`); `pnpm run mixer:check-deltas` OK.
@@ -206,7 +222,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-17 race-unused burn-down (Micronesian + Matacoan + Tsimshianic batch):** reduced `Languages never used by any race profile` from `18` to `12` by adding catalog category `Micronesian` to `raceLanguageProfiles.Triton.categories` (covering `sonsorolese`, `tobian`), category `Matacoan` to `raceLanguageProfiles.Tabaxi.categories` (covering `cag`, `mtp`, `wlv`), and category `Tsimshianic` to `raceLanguageProfiles.Kenku.categories` (covering `tsi`) in `modules/races.js`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (after=12), `pnpm run mixer:race-suite` (after=12).
 
-- ✅ **2025-12-17 race-unused burn-down (Americas categories batch / Tabaxi):** reduced `Languages never used by any race profile` from `12` to `0` by adding catalog categories `Chapacuran`, `Chimilan`, `Chocoan`, `Chonan`, `Enlhet-Enenlhet`, `Guaicuruan`, `Jivaroan`, `Paezan`, `Zamucoan`, and `Mixed language` to `raceLanguageProfiles.Tabaxi.categories` in `modules/races.js`, covering `ite`, `pav`, `cbg`, `noa`, `ona`, `enl`, `moc`, `tob`, `jiv`, `caw`, `pbb`, `ayo`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (after=0), `pnpm run mixer:race-suite` (after=0).
+- ✅ **2025-12-17 race-unused burn-down (Americas families batch / Tabaxi):** reduced `Languages never used by any race profile` from `12` to `0` by adding catalog families `Chapacuran`, `Chimilan`, `Chocoan`, `Chonan`, `Enlhet-Enenlhet`, `Guaicuruan`, `Jivaroan`, and `Zamucoan` to `raceLanguageProfiles.Tabaxi.families` in `modules/races.js`, covering `ite`, `pav`, `cbg`, `noa`, `ona`, `enl`, `moc`, `tob`, `jiv`, `caw`, `pbb`, `ayo`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (after=0), `pnpm run mixer:race-suite` (after=0).
 
 - ✅ **2025-12-17 South Asia clustered-base fix (dedicated bases 5600–5607):** added dedicated bases `5600–5607` in `modules/namebases-real.js` and pinned them via `tools/mixer-deltas/2025-12-16-wikipedia-south-asia-clustered-bases-5600-5607.json` for `burushaski, hinglish, hno, indian-english, kfq, nepalese-english, newar, srb`. Also removed the conflicting base `3336` from `torne-valley`’s `setBases` in `tools/mixer-deltas/2025-12-16-wikipedia-uralic-full-bases9-finnic-dialects-setbases.json` (so `3336` remains dedicated to `me-nkieli`). Verified: `pnpm run mixer:check-deltas` OK; `pnpm run mixer:apply-deltas` OK; seed-uniqueness `--only-isos=burushaski,hinglish,hno,indian-english,kfq,nepalese-english,newar,srb` reports 0 strict/norm failures.
 
@@ -617,7 +633,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - `dedupe-language-mixer-map-duplicate-isos.js`
     - Removes **exact duplicate** mixer-map rows (same `iso` + same `bases`) while refusing to touch conflicting duplicates.
     - Has `--apply` mode with a **no-drop-ISO** guard (will refuse to write if the ISO set changes).
-  - **2025-12-11 catalog sweep:** Ran `node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js` and retagged macro/list-alias catalog entries (e.g., Cebuano, Ilocano, Sundanese, Swedish, Hmong, Malagasy, Madurese, Khasi, Meitei) with explicit `(native-speakers subset)` / `(macro entry)` suffixes. The catalog now reports **0 exact duplicate names**, so coverage helpers no longer need to disambiguate those headliner duplicates.
+  - **2025-12-11 catalog sweep:** Ran `node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js` and retagged macro/list-alias catalog entries (e.g., Cebuano, Ilocano, Sundanese, Swedish, Hmong, Malagasy, Madurese, Khasi, Meitei) with explicit `(native-speakers list)` / `(macro entry)` suffixes. The catalog now reports **0 exact duplicate names**, so coverage helpers no longer need to disambiguate those headliner duplicates.
   - `check-language-mixer-map-inconsistencies.js`
     - Sanity-sweeps `language-mixes.json` + `language-mixer-map.json`.
     - Surfaces:
@@ -695,7 +711,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - Remaining Romance work should focus on the small number of still-shared base clusters surfaced by `report-language-mixer-base-clusters` (currently concentrated around bases 3, 13, 22, 43, and 44) until each mapped Romance language has a unique base or mix signature.
 
 
-- **Linked Wikipedia lists:** *Languages of Europe* subset (see §8.7).
+- **Linked Wikipedia lists:** *Languages of Europe* list (see §8.7).
 
 
 - ✅ **2025‑12‑11 micro-pass:** `gallurese` now uses a mixed base set **[279, 233]** (Corsican + Sardinian) instead of sharing pure Corsican base 279. On the `Languages of Europe` helper, this raised **unique bases** among fully wired items from 85 to 86 and reduced **clustered bases** from 37 to 36, while keeping the ISO set unchanged.
@@ -741,7 +757,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - If future flavor or gameplay needs demand more contrast inside Uralic, we can still introduce additional Uralic bases (e.g. East Uralic vs Finnic vs Sámi-flavored) and progressively remap languages off 9 until those subgroups have distinct base or mix signatures.
 
 
-- **Linked Wikipedia lists:** *Languages of Europe* subset (see §8.7).
+- **Linked Wikipedia lists:** *Languages of Europe* list (see §8.7).
 
 
 - **2025‑12‑11 micro-pass (Udmurt/Besermyan):** `besermyan` now uses `[283,438]`, adding a Finnic/Sámi-flavored layer **438** on top of the Udmurt base **283**, while `udmurt` remains the sole pure-`[283]` Udmurt standard.
@@ -784,7 +800,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - No immediate `min/max` changes applied; we treat `d:"lnrt"` as the default for **new Germanic-like bases**.
 
 
-- **Linked Wikipedia lists:** *Languages of Europe* subset (see §8.7).
+- **Linked Wikipedia lists:** *Languages of Europe* list (see §8.7).
 
 
 
@@ -812,7 +828,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - Arabic, Mesopotamian, and Berber bases still act as broad central anchors and lexifier ingredients for many related ISOs in the mixer, but differences are increasingly expressed via additional Afroasiatic bases and per-ISO combinations rather than reusing a single bare base.
 
 
-- **Linked Wikipedia lists:** *Languages of West Asia* subset (see §8.8).
+- **Linked Wikipedia lists:** *Languages of West Asia* list (see §8.8).
 
 
 
@@ -894,7 +910,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - and tighten duplication / length settings once more gameplay feedback is available.
 
 
-- **Linked Wikipedia lists:** *Languages of Europe* subset (see §8.7).
+- **Linked Wikipedia lists:** *Languages of Europe* list (see §8.7).
  - ✅ **2025‑12‑11 micro-pass:** `kashubian` now uses a mixed base set **[5, 314, 0]** (Slavic/Ruthenian + Lechitic + German) to reflect Polish + macro-Slavic core plus German contact. On the `Languages of Europe` helper, this increased **unique bases** among fully wired items from 83 to 85 and reduced **clustered bases** from 39 to 37, without changing the global ISO set.
 
 
@@ -1128,7 +1144,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - Many **smaller African lects** (additional Bantu and Atlantic–Congo families) still map directly to Swahili 28 or other hubs and remain candidates for future passes to introduce language-specific bases and tuned length/duplication profiles.
- - **Linked Wikipedia lists:** *Languages of Africa – major languages subset* (see §8.1).
+ - **Linked Wikipedia lists:** *Languages of Africa – major languages view* (see §8.1).
 
 
 
@@ -1174,7 +1190,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
   - progressively remap languages off the shared 199/200/254/255 hubs until each mapped Dravidian entry has a unique base or mix signature, and tighten length and duplication settings per base once more targeted seeds are available.
 
 
-- **Linked Wikipedia lists:** *List of languages by number of native speakers* subsets (see §8.2 and §8.3).
+- **Linked Wikipedia lists:** *List of languages by number of native speakers* list JSONs (see §8.2 and §8.3).
 
 
 - **Note (diagnostic snapshots):** `report-language-mixer-base-clusters.js` is a read-only helper; any `_last-language-base-clusters*.txt` or `_report-language-mixer-base-clusters.txt` files under `tools/mixer-diagnostics/` are just saved console output for review, are gitignored, and should be treated as ephemeral diagnostics that can be regenerated on demand, not as editable source data.
@@ -1789,16 +1805,16 @@ Per-list base-uniqueness can be summarized via `tools/mixer-core/report-wikipedi
 
 In this project, coverage for a list JSON is computed over **all** in-scope items; `skip: true` is reserved for global exceptions such as sign languages and truly unreconstructible extinct entries, which are excluded from coverage percentages. Base-uniqueness and race-coverage status are enforced via the global mixer and race tools described elsewhere in this document (including the base-cluster diagnostics and the per-list base-uniqueness helper) rather than being repeated per list in §8. Snapshot blocks may optionally include `unique bases` / `clustered bases` counts from `report-wikipedia-list-base-uniqueness.js` and/or a `Nonunique Bases` line produced by the coverage helpers (`report-wikipedia-list-coverage.js` / `update-wikipedia-list-coverage-in-devplan.js`), alongside the existing wiring legend.
 
-### 8.1 Languages of Africa – major languages subset
+### 8.1 Languages of Africa – major languages view
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-africa-major.json`
-- **Title:** `Wikipedia: Languages of Africa – major languages subset`
+- **Title:** `Wikipedia: Languages of Africa – major languages view`
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_Africa>
 - **Scope:** Hand-picked major African languages from the "Languages of Africa" article; focuses on high-impact Afroasiatic and Niger–Congo languages.
 - **Primary families / regions touched:** Sub-Saharan Africa (Bantu, Atlantic–Congo, Cushitic, Chadic) and Afroasiatic macro entries; see [§2.8 Sub-Saharan Africa (first Bantu split)](#28-sub-saharan-africa-first-bantu-split) and related African notes.
 - **Extended long-tail driver:** `tools/mixer-catalog/add-african-languages.js` contains an `AFRICA_ROWS` array derived from the long `Language / Family / speakers / status` table in the same Wikipedia article. It backfills any of those rows that are missing from `config/language-mixes.json`, inferring `category` / `family` / `region` from the Wikipedia family column.
 
-- **Coverage tracking:** this subset is a **view over the full Languages-of-Africa table**, not an independent driver. All coverage status and wiring/uniqueness metrics for these languages are tracked via the full-table JSON in §8.1b (`wikipedia-languages-of-africa-full.json`); we no longer maintain a separate 33-item coverage snapshot for this subset.
+- **Coverage tracking:** this view is a **view over the full Languages-of-Africa table**, not an independent driver. All coverage status and wiring/uniqueness metrics for these languages are tracked via the full-table JSON in §8.1b (`wikipedia-languages-of-africa-full.json`); we no longer maintain a separate 33-item coverage snapshot for this view.
 
 ### 8.1b Languages of Africa – full table snapshot (AFRICA_ROWS)
 
@@ -1844,14 +1860,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - ✅ **2025-12-15 (verified):** Continued the base `112/113` burn-down by pinning `siwu,southeast-ijo,southern-birifor,susu,tagwana,talni,tikar,tiro,twi,vengo,viemo,viti,vori,voro,wali-ghana` to dedicated bases `2049–2063` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch4.json` (applied with `pnpm run mixer:apply-deltas`). After this batch, computed Africa full list `Nonunique Bases` is `175`.
   - ✅ **2025-12-15 (verified):** Completed the base `112/113` burn-down by pinning `wapan,weh,wushi,yemba,zande,yor,wannu,yalunka,yamba,yela-kela,yulu` to dedicated bases `2424–2434` via delta `tools/mixer-deltas/2025-12-15-worker39-africa-112-113-batch5.json` (applied; pins present in `config/language-mixer-map.json` and `tools/mixer-deltas/_compiled-dedicated-pins.json`).
   - Treat this JSON as the authoritative representation of the entire `Languages of Africa` table: any additions or removals in the Wikipedia article should be mirrored into `AFRICA_ROWS` (via `add-african-languages.js`) and then into this JSON via the generator, so the full-table coverage report stays 1:1 with the article.
-  - Use the **major-languages subset** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
+ - Use the **major-languages view** in §8.1 as a compact checklist for headline African standards, but rely on this full-table snapshot when you want to reason about coverage and uniqueness for **all** languages listed in the article, not just the big ones.
 
-### 8.2 List of languages by number of native speakers (seed subset)
+### 8.2 List of languages by number of native speakers – full list (pending full capture)
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-languages-by-native-speakers.json`
-- **Title:** `Wikipedia: List of languages by number of native speakers (seed subset)`
+- **Title:** `Wikipedia: List of languages by number of native speakers`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers>
-- **Scope:** A curated subset of high-speaker languages from the global "List of languages by number of native speakers" article, used as a headline driver for worldwide coverage.
+- **Scope:** Intended as a full capture of the current Wikipedia list/table (no curated partial-list intent). If the file is currently incomplete vs the article, expand it until it represents the full list.
 - **Primary families / regions touched:** Global macro-families (Indo-European, Sinitic, Japonic, Koreanic, Afroasiatic, Dravidian, Austronesian, etc.); ties into multiple summaries in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed).
 
 - **How to re-run coverage:**
@@ -1877,17 +1893,17 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `clustered isos:` tamil(20), eastern-khanty(2), eastern-mansi(2), eng(2), forest-nenets(2), hin(2), nenets(2)
 
 - **Notes / next steps:**
-  - Treat this subset as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
+  - Treat this list as the primary checklist for headline global coverage; when expanding the JSON with additional rows from the Wikipedia table, re-run coverage and base-uniqueness, then refresh the snapshot here.
   - As of the latest run, all 173 list items are fully wired (catalog + mixer-map); any remaining shared `bases[]` signatures among distinct non-skipped items are treated as remaining uniqueness debt for a future micro-pass.
-  - 2025-12-11 micro-pass: refactored the native-speakers helper to use canonical ISOs (e.g., `swe`, `ilocano`) and repaired the list after an accidental Cebuano displacement; catalog ISO duplicates are now cleared via unique alias/subset ISO codes, leaving only normalized-name clusters as remaining diagnostic output.
+  - 2025-12-11 micro-pass: refactored the native-speakers helper to use canonical ISOs (e.g., `swe`, `ilocano`) and repaired the list after an accidental Cebuano displacement; catalog ISO duplicates are now cleared via unique alias ISO codes, leaving only normalized-name clusters as remaining diagnostic output.
   - ✅ **2025-12-13 (verified):** declustered the remaining base-set collisions for this list; `clustered bases: 0` confirmed by `report-wikipedia-list-base-uniqueness.js` after updating `language-mixer-map` mappings and fixing the `fix-language-mixer-mappings.js` `aranese` override to preserve the intended base set during `run-language-mixer-suite`.
 
-### 8.3 List of languages by number of native speakers – CIA World Factbook 2018 subset
+### 8.3 List of languages by number of native speakers – CIA World Factbook 2018 slice
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-languages-by-native-speakers-cia-2018.json`
-- **Title:** `Wikipedia: List of languages by number of native speakers – CIA World Factbook 2018 subset`
+- **Title:** `Wikipedia: List of languages by number of native speakers – CIA World Factbook 2018 slice`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers>
-- **Scope:** Alternate subset of the same Wikipedia article, reflecting the CIA World Factbook 2018 numbers; used as an additional cross-check on coverage for key global languages.
+- **Scope:** Alternate slice of the same Wikipedia article, reflecting the CIA World Factbook 2018 numbers; used as an additional cross-check on coverage for key global languages.
 - **Primary families / regions touched:** Overlaps heavily with §8.2 but may differ in language ordering and a few inclusions; again spans multiple macro-families.
 
 - **How to re-run coverage:**
@@ -1913,7 +1929,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `clustered isos:` eng(2), hin(2)
 
 - **Notes / next steps:**
-  - Use as a sanity check against the seed subset in §8.2; discrepancies or additional languages here can signal further work needed.
+  - Use as a sanity check against the native-speakers list in §8.2; discrepancies or additional languages here can signal further work needed.
   - As with other lists, explicitly note any remaining unwired languages or planned JSON expansions so that "fully represented" status remains well defined.
 
 ### 8.4 Languages of South Asia – full template snapshot
@@ -1954,7 +1970,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **JSON file:** `tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 - **Title:** `Wikipedia: Indigenous languages of the Americas – full Wikipedia tables capture`
 - **Source:** <https://en.wikipedia.org/wiki/Indigenous_languages_of_the_Americas>
-- **Scope:** Full capture of every language row enumerated by the article’s “Language families and unclassified languages” tables/sections (Northern America; Central America and Mexico; South America and the Caribbean). This list is intended to mirror Wikipedia’s list (no curated subset intent).
+- **Scope:** Full capture of every language row enumerated by the article’s “Language families and unclassified languages” tables/sections (Northern America; Central America and Mexico; South America and the Caribbean). This list is intended to mirror Wikipedia’s list (no curated partial-list intent).
 - **Primary families / regions touched:** Americas (indigenous & contact zones); see [§2.11 Americas (indigenous & contact zones)](#211-americas-indigenous--contact-zones).
   - Treat this list as the authoritative Wikipedia-derived checklist for mixer completeness for this page.
   - When the Wikipedia page changes, update this JSON so it continues to represent the full list and re-run coverage.
@@ -2069,7 +2085,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-europe.json`
 
 - **Notes / next steps:**
-  - When extending or revisiting European families, update the JSON subset from the article above and re-run coverage.
+  - When extending or revisiting European families, update the JSON list from the article above and re-run coverage.
   - Use coverage reports to cross-check that each major European standard language has both catalog and mixer entries and that coverage is balanced across Western, Central, Northern, and Eastern Europe.
   - **2025-12-16 status:** Staged delta-only `setBases` batches (no `modules/namebases-real.js` edits) to burn down Europe base-set collisions: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch1-bavarian-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch2-west-slavic-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch3-nogai-karakalpak-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch4-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch5-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch6-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch7-caucasus-223-setbases.json`, `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch8-finnic-9-setbases.json`.
   - **2025-12-16 status:** Cleared `NO_UNIQ_BASE` for `ingrian,kven,livonian,ludic,me-nkieli,veps,v-ro,votic` by adding dedicated bases `3332–3339` in `modules/namebases-real.js` and pinning via `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch9-finnic-9-dedicatedpins.json`; verified seed-uniqueness (`No globally-unique base index: 0`) and core checks (coverage/failures/duplicate-isos).
@@ -2082,10 +2098,10 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
   - **2025-12-16 status:** Staged Europe batch15 South Slavic dedicated pins for `bosnian,croatian,montenegrin,srp,bul,macedonian,slovene` using dedicated bases `3971–3977` (bases added in `modules/namebases-fantasy.js`); delta: `tools/mixer-deltas/2025-12-16-wikipedia1-europe-batch15-south-slavic-dedicatedpins.json` (pending integrator `pnpm run mixer:apply-deltas` artifact regeneration).
 
-### 8.8 Languages of West Asia – regional subset
+### 8.8 Languages of West Asia
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-west-asia.json`
-- **Title:** `Wikipedia: Languages of West Asia – regional subset`
+- **Title:** `Wikipedia: Languages of West Asia`
 - **Source:** <https://en.wikipedia.org/wiki/West_Asia>
 - **Scope:** Overview of major language families and key languages across West Asia (Anatolia, the Levant, Mesopotamia, the Arabian Peninsula, the Caucasus, and Iran), including Semitic, Iranian, Turkic, Kartvelian, Armenian, and related branches.
 - **Primary families / regions touched:** West Asian families and neighbors documented in [§2 Families / bases already reviewed](#2-families--bases-already-reviewed), including Central Semitic, Iranian, Caucasian, and adjacent Indo-European and Turkic clusters.
@@ -2115,10 +2131,10 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Notes / next steps:**
   - ✅ **2025-12-15 West Asia uniqueness batch1 (staged):** delta `tools/mixer-deltas/2025-12-15-wikipedia1-west-asia-uniqueness-batch1.json` (dedicatedPins `ara..tur` -> `i:2819–2832`), base defs in `modules/namebases-real.js` (`i:2819–2832`); verified `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check --no-lock` (exit 0); wiki claim updated (workerId=5).
   - ✅ **2025-12-16 verified:** coverage `fully wired 14/14`; `Nonunique Bases: 0`; base-uniqueness `clustered bases: 0`; race coverage all ok; wiki claim workerId=5 marked complete.
-  - When focusing on West Asian families, you can refine or expand this JSON subset and re-run coverage.
+  - When focusing on West Asian families, you can refine or expand this JSON list and re-run coverage.
   - Use coverage reports to highlight any new gaps in Semitic, Iranian, Caucasian, and Turkic clusters, especially where languages are still riding shared macro hubs or lack mixer mappings.
 
-### 8.9 Languages of North America – regional subset
+### 8.9 Languages of North America
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-north-america.json`
 - **Title:** `Wikipedia: Languages of North America`
@@ -2152,7 +2168,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - Treat this list as a compact checklist for North American standards and macro entries (English, Spanish, French, Navajo, Cree, Ojibwe, Cherokee, Aleut, Yupik, Inuit, Athabaskan, Apache).
   - When adding new North American languages or refining Na-Dene / Athabaskan coverage, consider expanding this JSON and re-running coverage so each new entry has both catalog and mixer mappings.
 
-### 8.10 Languages of Southeast Asia – regional subset
+### 8.10 Languages of Southeast Asia
 
 - **JSON file:** `tools/mixer-meta/wikipedia-languages-of-southeast-asia.json`
 
@@ -2172,7 +2188,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
-- ✅ **2025-12-13:** Updated Wikipedia list base-set uniqueness + snapshot helpers to ignore catalog entries tagged `subset` (e.g. `*-native-speakers` alias rows). This prevents alias/subset ISOs from creating false-positive `bases[]` collisions; Southeast Asia now reports `clustered bases: 0` (previously `mnw(2)`).
+- ✅ **2025-12-13:** Updated Wikipedia list base-set uniqueness + snapshot helpers to ignore catalog entries tagged `subset` (e.g. `*-native-speakers` alias rows). This prevents alias ISOs from creating false-positive `bases[]` collisions; Southeast Asia now reports `clustered bases: 0` (previously `mnw(2)`).
 
 ### 8.11 Languages of Asia – official languages table
 
@@ -3176,3 +3192,5 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 ---
 
 - ✅ **2025-12-17 /no-unique-base2 verification (repo-wide):** `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, limit=300) => Target ISOs: 3397; Missing mapping: 0; No globally-unique base index: 2259; strict<1: 16; norm<10: 172; coverage OK; failures OK; base-clusters (min-size=2) => clusters=109, participants=692.
+
+- ✅ **2025-12-17 decluster `waray` vs `cebuano-lang` (base 304):** applied delta `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` (`waray` bases => `[304, 515]`); `pnpm run mixer:apply-deltas` OK; base-clusters report + map inconsistencies check exit 0.

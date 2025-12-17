@@ -307,7 +307,7 @@ class Battle {
     const place =
       type === "culture"
         ? Names.getCulture(pack.cells.culture[this.cell], null, null, "")
-        : Names.getBase(rand(nameBases.length - 1));
+        : Names.getBase(Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length - 1));
     byId("battleNamePlace").value = this.place = place;
     byId("battleNameFull").value = this.name = this.defineName();
     $("#battleScreen").dialog({title: this.name});

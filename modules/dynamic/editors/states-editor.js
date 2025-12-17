@@ -414,7 +414,7 @@ function editStateName(state) {
   }
 
   function regenerateShortNameRandom() {
-    const base = rand(nameBases.length - 1);
+    const base = Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length - 1);
     const name = Names.getState(Names.getBase(base), undefined, base);
     byId("stateNameEditorShort").value = name;
   }

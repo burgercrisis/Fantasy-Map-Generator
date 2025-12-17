@@ -209,7 +209,7 @@ function editRiver(id) {
 
   function generateNameRandom() {
     const r = getRiver();
-    if (r) r.name = riverName.value = Names.getBase(rand(nameBases.length - 1));
+    if (r) r.name = riverName.value = Names.getBase(Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length - 1));
   }
 
   function changeParent() {

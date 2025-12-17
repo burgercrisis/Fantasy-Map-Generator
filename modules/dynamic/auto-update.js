@@ -267,7 +267,7 @@ export function resolveVersionConflicts(mapVersion) {
     // v1.3 added global options object
     const winds = options.slice(); // previostly wind was saved in settings[19]
     const year = rand(100, 2000);
-    const era = Names.getBaseShort(P(0.7) ? 1 : rand(nameBases.length)) + " Era";
+    const era = Names.getBaseShort(P(0.7) ? 1 : (Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length))) + " Era";
     const eraShort = era[0] + "E";
     const military = Military.getDefaultOptions();
     options = {winds, year, era, eraShort, military};

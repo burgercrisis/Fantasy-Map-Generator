@@ -11,7 +11,7 @@ auto_execution_mode: 0
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` for **Languages of West Asia – regional subset** (§8.8).
+Use this workflow together with `/wikipedia1` for **Languages of West Asia** (§8.8).
 
 Must preserve append-only registry; never delete ISOs.
 

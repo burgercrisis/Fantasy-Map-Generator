@@ -2,6 +2,34 @@
 
 window.Names = (function () {
   let chains = [];
+  const missingNamebaseWarned = new Set();
+  let _definedBaseIndices = null;
+  let _definedBaseIndicesLen = -1;
+
+  const rebuildDefinedBaseIndices = () => {
+    const indices = [];
+    if (Array.isArray(nameBases)) {
+      for (let i = 0; i < nameBases.length; i++) {
+        if (nameBases[i]) indices.push(i);
+      }
+    }
+    if (!indices.length) indices.push(0);
+    _definedBaseIndices = indices;
+    _definedBaseIndicesLen = Array.isArray(nameBases) ? nameBases.length : -1;
+    return indices;
+  };
+
+  const getRandomBaseIndex = function () {
+    const len = Array.isArray(nameBases) ? nameBases.length : -1;
+    if (!_definedBaseIndices || _definedBaseIndicesLen !== len) rebuildDefinedBaseIndices();
+    const pool = _definedBaseIndices || rebuildDefinedBaseIndices();
+    const chosen = pool[Math.floor(Math.random() * pool.length)];
+    if (Array.isArray(nameBases) && nameBases[chosen] === undefined) {
+      const refreshed = rebuildDefinedBaseIndices();
+      return refreshed[Math.floor(Math.random() * refreshed.length)];
+    }
+    return chosen;
+  };
 
   // calculate Markov chain for a namesbase
   const calculateChain = function (string) {
@@ -62,7 +90,10 @@ window.Names = (function () {
 
     if (nameBases[base] === undefined) {
       if (nameBases[0]) {
-        WARN && console.warn("Namebase " + base + " is not found. First available namebase will be used");
+        if (WARN && !missingNamebaseWarned.has(base)) {
+          missingNamebaseWarned.add(base);
+          console.warn("Namebase " + base + " is not found. First available namebase will be used");
+        }
         base = 0;
       } else {
         ERROR && console.error("Namebase " + base + " is not found");
@@ -421,6 +452,7 @@ window.Names = (function () {
     getBaseShort,
     getState,
     getBaseForCell,
+    getRandomBaseIndex,
     updateChain,
     clearChains,
     getNameBases: () => window.defaultNameBases,

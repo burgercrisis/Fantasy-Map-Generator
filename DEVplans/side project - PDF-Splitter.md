@@ -2,6 +2,12 @@
 
 _Last updated: 2025-12-10_
 
+Status (2025-12-17): Prevented blank BOM-only `textpdf` outputs by inserting `[NO_TEXT_EXTRACTED ...]` placeholders when extraction yields no text, and writing output as UTF-8 without BOM.
+
+Status (2025-12-17): Added OCR fallback (when text extraction yields nothing) by invoking external `pdftoppm` (Poppler) + `tesseract` if present on PATH. Requires rebuilding the EXE to take effect.
+
+Status (2025-12-17): Added `--split` headless CLI mode (with `--page-from/--page-to`) to enable reproducible OCR runs. Verified OCR output for Aasimar/Tiefling PDF pages 51–60; added normalization for common mojibake sequences (e.g. `â€™` -> `’`).
+
 ## 1. Goal
 
 Replace the Python/pdfplumber-based PDF-to-text chunker with a **C#/.NET WinForms** tool that:

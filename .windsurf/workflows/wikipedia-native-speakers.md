@@ -17,7 +17,7 @@ auto_execution_mode: 0
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` when working on the **List of languages by number of native speakers** subset JSON.
+Use this workflow together with `/wikipedia1` when working on the **List of languages by number of native speakers** list JSON.
 
 Must preserve append-only registry; never delete ISOs.
 

@@ -1,5 +1,5 @@
 {
-  "title": "Wikipedia: List of languages by number of native speakers (seed subset)",
+  "title": "Wikipedia: List of languages by number of native speakers",
   "source": "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers",
   "items": [
     { "name": "Mandarin Chinese", "iso": "mandarin" },

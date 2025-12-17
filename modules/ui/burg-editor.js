@@ -262,7 +262,7 @@ function editBurg(id) {
   }
 
   function generateNameRandom() {
-    const base = rand(nameBases.length - 1);
+    const base = Names && typeof Names.getRandomBaseIndex === "function" ? Names.getRandomBaseIndex() : rand(nameBases.length - 1);
     burgName.value = Names.getBase(base);
     changeName();
   }

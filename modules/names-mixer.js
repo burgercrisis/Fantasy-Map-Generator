@@ -6,6 +6,7 @@
   // internal cache for ISO→base mapping. Prefer a preloaded JS map (window.languageMixerMap)
   // and fall back to a tiny JSON fetch for older setups.
   let _languageMixerMap = null;
+  let _mixedNameTooShortLogged = false;
 
   function loadLanguageMixerMapSync() {
     if (_languageMixerMap) return _languageMixerMap;
@@ -592,7 +593,10 @@
         .join("");
 
     if (name.length < 2) {
-      ERROR && console.error("Mixed name is too short! Random name will be selected");
+      if (ERROR && !_mixedNameTooShortLogged) {
+        _mixedNameTooShortLogged = true;
+        console.error("Mixed name is too short! Random name will be selected");
+      }
       name = ra(baseConfig.b.split(","));
     }
 
