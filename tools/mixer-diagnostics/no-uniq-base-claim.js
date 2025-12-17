@@ -370,7 +370,7 @@ function main() {
       );
       lines.push("");
 
-      process.stdout.write(lines.join("\n") + "\n");
+      console.log(lines.join("\n"));
     });
 
     return;

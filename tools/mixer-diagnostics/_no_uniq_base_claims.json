@@ -2228,14 +2228,52 @@
         "bariba",
         "bariji"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T03:12:46.655Z",
-      "updatedAt": "2025-12-17T03:12:46.655Z",
+      "updatedAt": "2025-12-17T03:21:51.822Z",
       "reservedRange": [
         6255,
         6304
       ],
-      "notes": "Reserved i range: 6255-6304\nISO->base mapping (fill in):\n- bareqi-arabic->6255\n- bargut->6256\n- bargut-buryat->6257\n- bariba->6258\n- bariji->6259"
+      "notes": "Reserved i range: 6255-6304\nISO->base mapping (fill in):\n- bareqi-arabic->6255\n- bargut->6256\n- bargut-buryat->6257\n- bariba->6258\n- bariji->6259\n\nISO->base: bareqi-arabic->6255; bargut->6256; bargut-buryat->6257; bariba->6258; bariji->6259 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bareqi-arabic.json | Base defs: modules/namebases-real.js i:6255-6259 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bareqi-arabic,bargut,bargut-buryat,bariba,bariji --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-17T03:25:23.836Z-worker2",
+      "isos": [
+        "bareqi-arabic",
+        "bargut",
+        "bargut-buryat",
+        "bariba",
+        "bariji"
+      ],
+      "status": "stalled",
+      "startedAt": "2025-12-17T03:25:23.836Z",
+      "updatedAt": "2025-12-17T03:31:39.255Z",
+      "reservedRange": [
+        6305,
+        6354
+      ],
+      "notes": "Reserved i range: 6305-6354\nISO->base mapping (fill in):\n- bareqi-arabic->6305\n- bargut->6306\n- bargut-buryat->6307\n- bariba->6308\n- bariji->6309\n\nSUPERSEDED: this batch duplicates an already-completed claim for the same ISOs. Canonical completion is workerId=1 batchId=2025-12-17T03:12:46.655Z-worker1 reservedRange=6255-6304 with pins/tools/mixer-deltas/2025-12-17-worker1-mixed-bareqi-arabic.json and base defs modules/namebases-real.js i:6255-6259. Do not use reservedRange 6305-6354.\n\nDuplicate claim: these ISOs were already cleared via worker1 batchId=2025-12-17T03:12:46.655Z-worker1 using dedicated bases 6255–6259 (delta tools/mixer-deltas/2025-12-17-worker1-mixed-bareqi-arabic.json; base defs modules/namebases-real.js i:6255–6259). Not implementing alternative pins for reservedRange 6305–6354."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T03:32:37.281Z-worker1",
+      "isos": [
+        "bareqi-arabic",
+        "bargut",
+        "bargut-buryat",
+        "bariba",
+        "bariji"
+      ],
+      "status": "stalled",
+      "startedAt": "2025-12-17T03:32:37.281Z",
+      "updatedAt": "2025-12-17T03:49:55.691Z",
+      "reservedRange": [
+        6355,
+        6404
+      ],
+      "notes": "Reserved i range: 6355-6404\nISO->base mapping (fill in):\n- bareqi-arabic->6355\n- bargut->6356\n- bargut-buryat->6357\n- bariba->6358\n- bariji->6359\n\nSUPERSEDED: duplicates already-complete workerId=1 batchId=2025-12-17T03:12:46.655Z-worker1 (pins 6255-6259). Do not use reservedRange 6355-6404."
     }
   ]
 }
