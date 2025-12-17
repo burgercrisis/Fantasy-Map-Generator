@@ -33,7 +33,11 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-17 (/no-unique-base2 global verification):** `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
 
-- ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 bgc/bgn/bgp/bgq/bgr):** pins `bgc->7226`, `bgn->7227`, `bgp->7228`, `bgq->7229`, `bgr->7230` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json`; dedicated base defs in `modules/namebases-real.js` `i:7226–7230`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bgc,bgn,bgp,bgq,bgr"` => `Missing mapping: 0`, `No globally-unique base index: 0`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
+ - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 bgc/bgn/bgp/bgq/bgr):** pins `bgc->7226`, `bgn->7227`, `bgp->7228`, `bgq->7229`, `bgr->7230` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json`; dedicated base defs in `modules/namebases-real.js` `i:7226–7230`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bgc,bgn,bgp,bgq,bgr"` => `Missing mapping: 0`, `No globally-unique base index: 0`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
+ 
+ - **2025-12-17 (hygiene):** Appended missing base defs `i:7221–7224` in `modules/namebases-real.js` (these indices were referenced by `bgc/bgn/bgp/bgq` in `config/language-mixer-map.json`). Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` now reports all base indices consistent.
+
+- ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 bhaca/bhb/bhe/bhojpuri/biangai):** pins `bhaca->7310`, `bhb->7311`, `bhe->7312`, `bhojpuri->7313`, `biangai->7314` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bhaca.json`; dedicated base defs in `modules/namebases-real.js` `i:7310–7314`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bhaca,bhb,bhe,bhojpuri,biangai"` => `Missing mapping: 0`, `No globally-unique base index: 0`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
 
 - **2025-12-17 (ops):** Closed stale hub decluster workstreams that were already applied + verified in repo artifacts and documented in this file (e.g. `decluster-5-314-316-podlachian-polabian`, `decluster-530-533-longsang-zhuang-cao-miao`).
 
@@ -46,6 +50,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-17 Decluster bases=[29,62] (Bawm vs Thadou):** applied `tools/mixer-deltas/2025-12-17-decluster-29-62-bgr-tcz.json` to set `bgr` bases to `[29,62,63]` while `tcz` remains `[62,29]`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
 
 - ✅ **2025-12-17 Decluster bases=[11,66,67] (Bunu vs hm-nai):** applied `tools/mixer-deltas/2025-12-17-decluster-11-66-67-bunu-hm-nai.json` to set `hm-nai` bases to `[11,66,71]` while `bunu` remains `[11,66,67]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
+
+- ✅ **2025-12-17 Decluster bases=[11,66,68] (Dzao Min vs Iu Mien):** applied `tools/mixer-deltas/2025-12-17-decluster-11-66-68-dzao-min-iu-mien.json` to set `iu-mien` bases to `[11,68,74]` while `dzao-min` remains `[11,66,68]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
 
 - ✅ **2025-12-17 Decluster bases=[304] (Waray vs Cebuano):** applied `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` to set `waray` bases to `[515,516]` while `cebuano-lang` remains `[304]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `-- bases=[304]` cluster is gone via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` and verified map health via `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0).
 
@@ -2007,14 +2013,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 170
+  - `Nonunique Bases:` 124
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 144
-  - `clustered bases:` 77
-  - `clustered full items:` 77
-  - `cluster size histogram:` size2=14, size3=15, size4+=48
-  - `clustered isos:` chp(42), dgr(42), eyak(42), gwi(42), haa(42), hoi(42), ing(42), kalaallisut(42), koy(42), kuu(42), tau(42), tfn(42), coe(11), cub(11), des(11), gvc(11), ite(11), jup(11), macuna(11), snn(11), sri(11), tav(11), tuo(11), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cay(6), coc(6), coj(6), klb(6), mohawk(6), mov(6), one(6), ono(6), see(6), tus(6), yuf(6), yum(6), cax(4), cbg(4), piaroa(4), tob(4), cav(3), cho(3), ese(3), gum(3), kog(3), kwi(3), mapudungun(3), mik(3), mot(3), mus(3), ona(3), pbb(3), wayuu(3), yag(3), yuz(3), coz(2), cro(2), gub(2), ixc(2), kio(2), miskito(2), mixe(2), purepecha(2), qanjobal(2), rma(2), tew(2), xav(2), xer(2), zoq(2)
+  - `unique bases:` 190
+  - `clustered bases:` 31
+  - `clustered full items:` 31
+  - `cluster size histogram:` size2=2, size3=15, size4+=14
+  - `clustered isos:` kalaallisut(31), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cax(4), cbg(4), piaroa(4), tob(4), cav(3), cho(3), ese(3), gum(3), kog(3), kwi(3), mapudungun(3), mik(3), mot(3), mus(3), ona(3), pbb(3), wayuu(3), yag(3), yuz(3), kio(2), tew(2)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -2316,6 +2322,10 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - ✅ **2025-12-17 /wikipedia1 China spoken languages (Turkic-in-China batch2 verified):** pinned dedicated bases `6526–6527` for `fuyu-kyrgyz`, `salar` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-batch2-dedicatedpins.json`; cleanup: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-batch2-setbases.json` to drop stale invalid indices). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=2 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); mixer failure check: base indices consistent.
 
 - ✅ **2025-12-17 /wikipedia1 China spoken languages (Min varieties batch1 staged):** dedicatedPins for `hokkien`, `teochew-min`, `hainanese`, `leizhou-min`, `pu-xian-min`, `haklau-min` -> `i:7215–7220` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-min-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Burmish batch1 staged):** dedicatedPins for `bola`, `chashan`, `langsu`, `lashi`, `zaiwa` -> `i:7231–7235` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-burmish-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Bai batch1 staged):** dedicatedPins for `bijiang-bai-dialect`, `bijiang-bai-language`, `dali-bai-dialect`, `dali-bai-language`, `heqing-bai-dialect`, `xiangyun-bai-dialect` -> `i:7236–7241` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-bai-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
 
