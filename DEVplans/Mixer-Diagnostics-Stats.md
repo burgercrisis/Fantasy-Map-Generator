@@ -156,6 +156,49 @@ Delta vs 2025-12-16T22:56:18-08:00:
 - Cluster participants: 692 -> 692 (+0)
 - Race-unused languages: 22 -> 18 (-4)
 
+
+## Snapshot 2025-12-17T00:12:49-08:00
+
+### Commands
+
+```
+node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --limit=1
+node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+pnpm run mixer:race-coverage
+```
+
+### Seed uniqueness (`--limit=1`) summary
+
+- Target ISOs: 3397
+- Missing mapping: 0
+- No globally-unique base index: 2230
+- Strict unique seeds below threshold (among those with unique base): 14
+- Normalized unique seeds below threshold (among those with unique base): 170
+
+### Base-set clusters (`--min-size=2`) summary
+
+- Considered catalog languages (after filters): 3397
+- Total distinct base sets (all sizes): 2829
+- Clusters with identical base sets (size >= 2): 102
+- Total language entries participating in these clusters: 670
+
+### Race coverage (`pnpm run mixer:race-coverage`) summary
+
+- Total catalog languages (excluding family macros): 3397
+- Languages eligible for at least one race profile: 3397
+- Languages never used by any race profile: 0
+- Race-eligible languages with a valid mixer mapping: 3397
+- Race-unused languages with a valid mixer mapping: 0
+
+Delta vs 2025-12-16T23:28:19-08:00:
+
+- No globally-unique base index: 2252 -> 2230 (-22)
+- Strict below threshold: 16 -> 14 (-2)
+- Norm below threshold: 172 -> 170 (-2)
+- Base clusters (>=2): 109 -> 102 (-7)
+- Cluster participants: 692 -> 670 (-22)
+- Race-unused languages: 18 -> 0 (-18)
+
 ## Status 2025-12-16T19:22:12-08:00
 
 - Restored observable output for `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard` (was exiting 0 with no output). Verified it now prints the dashboard summary.

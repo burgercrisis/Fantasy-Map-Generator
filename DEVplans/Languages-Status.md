@@ -194,6 +194,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
  - ✅ **2025-12-17 language-uniqueness (Tai–Kadai batch3):** resolved 5 Tai–Kadai identical `bases[]` collisions by pinning dedicated bases `6600–6609` for `e-tai, kuan, lao-nyo, tai-muong-vat, nung-tai, lao-phutai, pa-di, thai-song, northwestern-tai, southwestern-tai` (delta: `tools/mixer-deltas/2025-12-17-language-uniqueness-tai-kadai-batch3-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6600–6609`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0 duplicates; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing). Tai–Kadai base-clusters reduced from 9 clusters (18 entries) to 4 clusters (8 entries).
 
+ - ✅ **2025-12-17 /no-unique-base2 verification (Tai–Kadai batch3):** seed-uniqueness (only-failures, only-isos=batch) => Target ISOs: 10; Missing mapping: 0; No globally-unique base index: 0; strictFail: 0; normFail: 0. Coverage: 0 missing; failures: 0 failing.
+
 - ✅ **2025-12-16 mixer artifacts resync:** regenerated committed artifacts via `pnpm run mixer:apply-deltas`, then confirmed `pnpm run mixer:check-deltas` OK (refreshing `tools/mixer-deltas/_compiled-dedicated-pins.json`, `config/language-mixer-map.json/.js`, and `config/language-mixes-all.js`).
 
 - ✅ **2025-12-16 integrator run (late):** `pnpm run mixer:apply-deltas` OK (`[guardrails] OK. map=3498 catalog=3498`); `pnpm run mixer:check-deltas` OK.
@@ -2269,6 +2271,10 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - ✅ **2025-12-16 /wikipedia1 China spoken languages (Tungusic batch4 verified):** pinned dedicated bases `5608–5613` for `manchu`, `jurchen`, `xibe`, `nanai`, `evenki`, `oroqen` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-china-spoken-languages-batch4-tungusic.json`; base defs in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=6 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0; race coverage: all reachable by Starspawn.
 
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Turkic-in-China batch1 verified):** pinned dedicated bases `6510–6515` for `uzbek`, `kazakh`, `kyrgyz`, `tatar`, `tuvan`, `ili-turki` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-dedicatedpins.json`; base defs in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=6 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
+
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Turkic-in-China batch2 verified):** pinned dedicated bases `6526–6527` for `fuyu-kyrgyz`, `salar` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-batch2-dedicatedpins.json`; cleanup: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-batch2-setbases.json` to drop stale invalid indices). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=2 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); mixer failure check: base indices consistent.
+
 - ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): declustered the `mang` item off the shared `[179,251]` base-set, reducing per-list base-set `clustered bases` from **47** to **46** (suite still green, 0 failures).
@@ -3167,3 +3173,6 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
+---
+
+- ✅ **2025-12-17 /no-unique-base2 verification (repo-wide):** `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, limit=300) => Target ISOs: 3397; Missing mapping: 0; No globally-unique base index: 2259; strict<1: 16; norm<10: 172; coverage OK; failures OK; base-clusters (min-size=2) => clusters=109, participants=692.
