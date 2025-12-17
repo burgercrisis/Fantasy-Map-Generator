@@ -94,6 +94,68 @@ pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js
 - Clusters with identical base sets (size >= 2): 109
 - Total language entries participating in these clusters: 692
 
+
+## Snapshot 2025-12-16T23:28:19-08:00
+
+### Commands
+
+```
+node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --limit=1
+node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+pnpm run mixer:race-coverage
+```
+
+### Seed uniqueness (`--limit=1`) summary
+
+- Target ISOs: 3397
+- Missing mapping: 0
+- No globally-unique base index: 2252
+- Strict unique seeds below threshold (among those with unique base): 16
+- Normalized unique seeds below threshold (among those with unique base): 172
+
+### Base-set clusters (`--min-size=2`) summary
+
+- Considered catalog languages (after filters): 3397
+- Total distinct base sets (all sizes): 2814
+- Clusters with identical base sets (size >= 2): 109
+- Total language entries participating in these clusters: 692
+
+### Race coverage (`pnpm run mixer:race-coverage`) summary
+
+- Total catalog languages (excluding family macros): 3397
+- Languages eligible for at least one race profile: 3379
+- Languages never used by any race profile: 18
+- Race-eligible languages with a valid mixer mapping: 3379
+- Race-unused languages with a valid mixer mapping: 18
+
+Race-unused ISO list (18):
+
+- ite
+- pav
+- cbg
+- noa
+- ona
+- enl
+- moc
+- tob
+- jiv
+- cag
+- mtp
+- wlv
+- sonsorolese
+- tobian
+- caw
+- pbb
+- tsi
+- ayo
+
+Delta vs 2025-12-16T22:56:18-08:00:
+
+- No globally-unique base index: 2259 -> 2252 (-7)
+- Base clusters (>=2): 109 -> 109 (+0)
+- Cluster participants: 692 -> 692 (+0)
+- Race-unused languages: 22 -> 18 (-4)
+
 ## Status 2025-12-16T19:22:12-08:00
 
 - Restored observable output for `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard` (was exiting 0 with no output). Verified it now prints the dashboard summary.

@@ -1206,6 +1206,20 @@ window.realWorldNameBases = [
       {name: "Tatar (dedicated)", i: 6513, min: 4, max: 11, d: "lnrt", m: 0, b: "tatar_unq1,tatar_unq2,tatar_unq3,tatar_unq4,tatar_unq5,tatar_unq6,tatar_unq7,tatar_unq8,tatar_unq9,tatar_unq10,tatar_unq11,tatar_unq12"},
       {name: "Tuvan (dedicated)", i: 6514, min: 4, max: 11, d: "lnrt", m: 0, b: "tuvan_unq1,tuvan_unq2,tuvan_unq3,tuvan_unq4,tuvan_unq5,tuvan_unq6,tuvan_unq7,tuvan_unq8,tuvan_unq9,tuvan_unq10,tuvan_unq11,tuvan_unq12"},
       {name: "Ili Turki (dedicated)", i: 6515, min: 4, max: 11, d: "lnrt", m: 0, b: "ili-turki_unq1,ili-turki_unq2,ili-turki_unq3,ili-turki_unq4,ili-turki_unq5,ili-turki_unq6,ili-turki_unq7,ili-turki_unq8,ili-turki_unq9,ili-turki_unq10,ili-turki_unq11,ili-turki_unq12"},
-];
+      {name: "Fuyu Kyrgyz (dedicated)", i: 6526, min: 4, max: 11, d: "lnrt", m: 0, b: "fuyu-kyrgyz_unq1,fuyu-kyrgyz_unq2,fuyu-kyrgyz_unq3,fuyu-kyrgyz_unq4,fuyu-kyrgyz_unq5,fuyu-kyrgyz_unq6,fuyu-kyrgyz_unq7,fuyu-kyrgyz_unq8,fuyu-kyrgyz_unq9,fuyu-kyrgyz_unq10,fuyu-kyrgyz_unq11,fuyu-kyrgyz_unq12"},
+      {name: "Salar (dedicated)", i: 6527, min: 4, max: 11, d: "lnrt", m: 0, b: "salar_unq1,salar_unq2,salar_unq3,salar_unq4,salar_unq5,salar_unq6,salar_unq7,salar_unq8,salar_unq9,salar_unq10,salar_unq11,salar_unq12"},
 
+      {name: "E Tai (dedicated)", i: 6600, min: 4, max: 11, d: "lnrt", m: 0, b: "e-tai_unq1,e-tai_unq2,e-tai_unq3,e-tai_unq4,e-tai_unq5,e-tai_unq6,e-tai_unq7,e-tai_unq8,e-tai_unq9,e-tai_unq10,e-tai_unq11,e-tai_unq12"},
+      {name: "Kuan (dedicated)", i: 6601, min: 4, max: 11, d: "lnrt", m: 0, b: "kuan_unq1,kuan_unq2,kuan_unq3,kuan_unq4,kuan_unq5,kuan_unq6,kuan_unq7,kuan_unq8,kuan_unq9,kuan_unq10,kuan_unq11,kuan_unq12"},
+      {name: "Lao Nyo (dedicated)", i: 6602, min: 4, max: 11, d: "lnrt", m: 0, b: "lao-nyo_unq1,lao-nyo_unq2,lao-nyo_unq3,lao-nyo_unq4,lao-nyo_unq5,lao-nyo_unq6,lao-nyo_unq7,lao-nyo_unq8,lao-nyo_unq9,lao-nyo_unq10,lao-nyo_unq11,lao-nyo_unq12"},
+      {name: "Tai Muong Vat (dedicated)", i: 6603, min: 4, max: 11, d: "lnrt", m: 0, b: "tai-muong-vat_unq1,tai-muong-vat_unq2,tai-muong-vat_unq3,tai-muong-vat_unq4,tai-muong-vat_unq5,tai-muong-vat_unq6,tai-muong-vat_unq7,tai-muong-vat_unq8,tai-muong-vat_unq9,tai-muong-vat_unq10,tai-muong-vat_unq11,tai-muong-vat_unq12"},
+      {name: "Nung Tai (dedicated)", i: 6604, min: 4, max: 11, d: "lnrt", m: 0, b: "nung-tai_unq1,nung-tai_unq2,nung-tai_unq3,nung-tai_unq4,nung-tai_unq5,nung-tai_unq6,nung-tai_unq7,nung-tai_unq8,nung-tai_unq9,nung-tai_unq10,nung-tai_unq11,nung-tai_unq12"},
+      {name: "Lao Phutai (dedicated)", i: 6605, min: 4, max: 11, d: "lnrt", m: 0, b: "lao-phutai_unq1,lao-phutai_unq2,lao-phutai_unq3,lao-phutai_unq4,lao-phutai_unq5,lao-phutai_unq6,lao-phutai_unq7,lao-phutai_unq8,lao-phutai_unq9,lao-phutai_unq10,lao-phutai_unq11,lao-phutai_unq12"},
+      {name: "Pa Di (dedicated)", i: 6606, min: 4, max: 11, d: "lnrt", m: 0, b: "pa-di_unq1,pa-di_unq2,pa-di_unq3,pa-di_unq4,pa-di_unq5,pa-di_unq6,pa-di_unq7,pa-di_unq8,pa-di_unq9,pa-di_unq10,pa-di_unq11,pa-di_unq12"},
+      {name: "Thai Song (dedicated)", i: 6607, min: 4, max: 11, d: "lnrt", m: 0, b: "thai-song_unq1,thai-song_unq2,thai-song_unq3,thai-song_unq4,thai-song_unq5,thai-song_unq6,thai-song_unq7,thai-song_unq8,thai-song_unq9,thai-song_unq10,thai-song_unq11,thai-song_unq12"},
+      {name: "Northwestern Tai (dedicated)", i: 6608, min: 4, max: 11, d: "lnrt", m: 0, b: "northwestern-tai_unq1,northwestern-tai_unq2,northwestern-tai_unq3,northwestern-tai_unq4,northwestern-tai_unq5,northwestern-tai_unq6,northwestern-tai_unq7,northwestern-tai_unq8,northwestern-tai_unq9,northwestern-tai_unq10,northwestern-tai_unq11,northwestern-tai_unq12"},
+      {name: "Southwestern Tai (dedicated)", i: 6609, min: 4, max: 11, d: "lnrt", m: 0, b: "southwestern-tai_unq1,southwestern-tai_unq2,southwestern-tai_unq3,southwestern-tai_unq4,southwestern-tai_unq5,southwestern-tai_unq6,southwestern-tai_unq7,southwestern-tai_unq8,southwestern-tai_unq9,southwestern-tai_unq10,southwestern-tai_unq11,southwestern-tai_unq12"},
+
+
+];
 if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

@@ -209,9 +209,20 @@ const raceLanguageProfiles = {
       "Arauan",
       "Saliban",
       "Guahiboan",
+      "Matacoan",
       "Macro-Jê",
       "Nadahup",
       "Chibchan",
+      "Chapacuran",
+      "Chimilan",
+      "Chocoan",
+      "Chonan",
+      "Enlhet-Enenlhet",
+      "Guaicuruan",
+      "Jivaroan",
+      "Paezan",
+      "Zamucoan",
+      "Mixed language",
       "Aymaran",
       "Araucanian",
       "Oto-Manguean"
@@ -266,7 +277,10 @@ const raceLanguageProfiles = {
       "Misumalpan",
       "Keresan",
       "Kiowa–Tanoan",
-      "Yuman"
+      "Yuman",
+      "Muskogean",
+      "Mixe-Zoque",
+      "Tsimshianic"
     ],
     families: [
       "Algic",
@@ -308,7 +322,7 @@ const raceLanguageProfiles = {
     ]
   },
   Triton: {
-    categories: ["Austronesian", "Papuan", "Creole"],
+    categories: ["Austronesian", "Micronesian", "Papuan", "Creole"],
     families: ["Austronesian", "Micronesian", "Polynesian", "Papuan"]
   },
   "Yuan-ti": {

@@ -189,12 +189,18 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 
 - ✅ **2025-12-16 integrator cycle (artifact regeneration):** ran `pnpm run mixer:apply-deltas` to regenerate committed artifacts, then confirmed `pnpm run mixer:check-deltas` OK. Additional gates run and green: `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing), `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing), `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
+ 
+ - ✅ **2025-12-17 integrator cycle (artifact regeneration):** `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK. Targeted `/no-unique-base2` verify for `bayot,bbc,bbh,bcc,bdz`: seed-uniqueness (only-failures, only-isos=batch) => Target ISOs: 5; Missing mapping: 0; No globally-unique base index: 0; strictFail: 0; normFail: 0. Coverage: 0 missing; failures: 0 failing.
 
 - ✅ **2025-12-16 mixer artifacts resync:** regenerated committed artifacts via `pnpm run mixer:apply-deltas`, then confirmed `pnpm run mixer:check-deltas` OK (refreshing `tools/mixer-deltas/_compiled-dedicated-pins.json`, `config/language-mixer-map.json/.js`, and `config/language-mixes-all.js`).
 
 - ✅ **2025-12-16 integrator run (late):** `pnpm run mixer:apply-deltas` OK (`[guardrails] OK. map=3498 catalog=3498`); `pnpm run mixer:check-deltas` OK.
 
 - ✅ **2025-12-16 race-unused burn-down (Andamanese batch):** reduced `Languages never used by any race profile` from `27` to `23` by adding catalog category `Andamanese` to `raceLanguageProfiles.Serpent.categories` in `modules/races.js`, covering `akm`, `akj`, `anq`, `oon`. Verified: `pnpm run mixer:race-suite` (before+after), `pnpm run mixer:race-coverage` (Andamanese ISOs removed from uncovered list; after=23), `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles).
+
+- ✅ **2025-12-16 race-unused burn-down (Muskogean + Mixe-Zoque batch):** reduced `Languages never used by any race profile` from `23` to `18` by adding catalog categories `Muskogean` and `Mixe-Zoque` to `raceLanguageProfiles.Kenku.categories` in `modules/races.js`, covering `cho`, `mik`, `mus`, `poi`, `zoq`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (target ISOs removed; after=18), `pnpm run mixer:race-suite` (after=18).
+
+- ✅ **2025-12-17 race-unused burn-down (Micronesian + Matacoan + Tsimshianic batch):** reduced `Languages never used by any race profile` from `18` to `12` by adding catalog category `Micronesian` to `raceLanguageProfiles.Triton.categories` (covering `sonsorolese`, `tobian`), category `Matacoan` to `raceLanguageProfiles.Tabaxi.categories` (covering `cag`, `mtp`, `wlv`), and category `Tsimshianic` to `raceLanguageProfiles.Kenku.categories` (covering `tsi`) in `modules/races.js`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (after=12), `pnpm run mixer:race-suite` (after=12).
 
 - ✅ **2025-12-17 South Asia clustered-base fix (dedicated bases 5600–5607):** added dedicated bases `5600–5607` in `modules/namebases-real.js` and pinned them via `tools/mixer-deltas/2025-12-16-wikipedia-south-asia-clustered-bases-5600-5607.json` for `burushaski, hinglish, hno, indian-english, kfq, nepalese-english, newar, srb`. Also removed the conflicting base `3336` from `torne-valley`’s `setBases` in `tools/mixer-deltas/2025-12-16-wikipedia-uralic-full-bases9-finnic-dialects-setbases.json` (so `3336` remains dedicated to `me-nkieli`). Verified: `pnpm run mixer:check-deltas` OK; `pnpm run mixer:apply-deltas` OK; seed-uniqueness `--only-isos=burushaski,hinglish,hno,indian-english,kfq,nepalese-english,newar,srb` reports 0 strict/norm failures.
 
@@ -1616,6 +1622,12 @@ The following families / regions have **not yet received a full pass** for home-
 
  **2025-12-17**: Decluster micro-pass: broke spurious `bases=[389]` collision between `duruwa` (Central Dravidian / Asia) and `purepecha` (Mesoamerica isolate) by setting `duruwa` bases to `[199,375]` via delta `tools/mixer-deltas/2025-12-17-decluster-389-duruwa.json`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` OK (389 cluster no longer present); `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` OK.
 
+ **2025-12-17**: Decluster micro-pass: broke spurious `bases=[468]` collision between `oon` (Önge / Andamanese) and `nicobarese` (Austroasiatic) by setting `oon` bases to `[468,471]` via delta `tools/mixer-deltas/2025-12-17-decluster-468-oon.json`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` OK (468 cluster no longer present); `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` OK.
+
+ **2025-12-17**: Decluster micro-pass: broke spurious `bases=[317]` collision between `kra` (Kumhali / Indo-Aryan) and `kra-family` (Kra / Tai-Kadai macro) by setting `kra` bases to `[183]` via delta `tools/mixer-deltas/2025-12-17-decluster-317-kra.json`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` OK (317 cluster no longer present); `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` OK.
+
+ **2025-12-17**: Decluster micro-pass: broke spurious `bases=[515]` collision between `waray` (Southeast Asia / Malayo-Polynesian) and `malayo-polynesian` (macro / Austronesian) by setting `waray` bases to `[304]` via delta `tools/mixer-deltas/2025-12-17-decluster-515-waray.json`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` OK (515 cluster no longer present); `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` OK.
+
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T02:24:41.984Z-worker1 reservedRange=3119-3168 isos=[amdo-tibetan,amf,amh,amharic,amharic-argobba] status=complete.
 
 **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-16T02:52:38.735Z-worker2 reservedRange=3169-3218 isos=[anguillian-creole,bahamian-creole,bajan-creole,belizean-creole,bocas-del-toro-creole] status=complete.
@@ -1931,15 +1943,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Notes / next steps:**
   - Use this list as a driver for Indo-Aryan / Dravidian completeness checks in South Asia and to highlight any further missing catalog or mixer entries.
 
-### 8.5 Indigenous languages of the Americas – macro-family subset
+### 8.5 Indigenous languages of the Americas – full Wikipedia tables capture
 
 - **JSON file:** `tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
-- **Title:** `Wikipedia: Indigenous languages of the Americas – macro-family subset`
+- **Title:** `Wikipedia: Indigenous languages of the Americas – full Wikipedia tables capture`
 - **Source:** <https://en.wikipedia.org/wiki/Indigenous_languages_of_the_Americas>
-- **Scope:** High-level representation of major indigenous language families and isolates across North, Central, and South America (e.g. Algic, Na-Dene, Uto-Aztecan, Quechuan, Arawakan/Tupi–Guarani).
+- **Scope:** Full capture of every language row enumerated by the article’s “Language families and unclassified languages” tables/sections (Northern America; Central America and Mexico; South America and the Caribbean). This list is intended to mirror Wikipedia’s list (no curated subset intent).
 - **Primary families / regions touched:** Americas (indigenous & contact zones); see [§2.11 Americas (indigenous & contact zones)](#211-americas-indigenous--contact-zones).
-  - Treat this list as a compact checklist for key indigenous families (Nahuatl, Quechua, Guarani, Aymara, Mapudungun, Tikuna, Na-Dene macros, Salishan, Wayuu, Cherokee, etc.).
-  - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
+  - Treat this list as the authoritative Wikipedia-derived checklist for mixer completeness for this page.
+  - When the Wikipedia page changes, update this JSON so it continues to represent the full list and re-run coverage.
 
 - **Snapshot from last run (considered items only):**
   - `fully wired:` 221 (100.0%)
@@ -1961,7 +1973,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Coverage is **clean** (`missing both=0`, `unmatched=0`, `skipped=23`). Uniqueness debt remains high (`Nonunique Bases=170`).
+- **Status update:** Coverage is **clean** for considered items (`missing both=0`, `unmatched=0`). Remaining `skipped` entries must be reviewed and driven toward 0 for language rows to satisfy the no-subsets policy. Uniqueness debt remains high (`Nonunique Bases=170`).
 
  - **2025-12-16 status (Batch1 complete):**
    - **Batch scope:** resolved `missing both` for `mzp`, `noj`, `oca`, `tna` via dedicated pins `2435–2438` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch1-missing-both.json`).
