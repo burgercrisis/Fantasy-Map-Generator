@@ -2361,14 +2361,52 @@
         "beja",
         "beli"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T09:35:11.218Z",
-      "updatedAt": "2025-12-17T09:35:11.218Z",
+      "updatedAt": "2025-12-17T09:52:04.662Z",
       "reservedRange": [
         7065,
         7114
       ],
-      "notes": "Reserved i range: 7065-7114\nISO->base mapping (fill in):\n- bebe->7065\n- bee->7066\n- beijing-mandarin->7067\n- beja->7068\n- beli->7069"
+      "notes": "Reserved i range: 7065-7114\nISO->base mapping (fill in):\n- bebe->7065\n- bee->7066\n- beijing-mandarin->7067\n- beja->7068\n- beli->7069\n\nISO->base: bebe->7065; bee->7066; beijing-mandarin->7067; beja->7068; beli->7069 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bebe.json | Base defs: modules/namebases-real.js i:7065-7069 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bebe,bee,beijing-mandarin,beja,beli --limit=300 exit 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-17T09:56:33.455Z-worker2",
+      "isos": [
+        "bemba",
+        "bembe-congo",
+        "bembe-drc",
+        "comorian",
+        "fwe"
+      ],
+      "status": "stalled",
+      "startedAt": "2025-12-17T09:56:33.455Z",
+      "updatedAt": "2025-12-17T10:26:00.000Z",
+      "reservedRange": [
+        7115,
+        7164
+      ],
+      "notes": "SESSION RETIRED (2025-12-17T10:26:00.000Z): retiring all current agents per user request. Handoff: this claim was not implemented.\n\nReserved i range: 7115-7164\nISO->base mapping (fill in):\n- bemba->7115\n- bembe-congo->7116\n- bembe-drc->7117\n- comorian->7118\n- fwe->7119"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T09:59:32.262Z-worker1",
+      "isos": [
+        "belneng-language",
+        "betanure-jewish-neo-aramaic",
+        "bete",
+        "betta-kurumba",
+        "bfy"
+      ],
+      "status": "stalled",
+      "startedAt": "2025-12-17T09:59:32.262Z",
+      "updatedAt": "2025-12-17T10:26:00.000Z",
+      "reservedRange": [
+        7165,
+        7214
+      ],
+      "notes": "SESSION RETIRED (2025-12-17T10:26:00.000Z): retiring all current agents per user request. Handoff: this claim was not implemented.\n\nReserved i range: 7165-7214\nISO->base mapping (fill in):\n- belneng-language->7165\n- betanure-jewish-neo-aramaic->7166\n- bete->7167\n- betta-kurumba->7168\n- bfy->7169"
     }
   ]
 }

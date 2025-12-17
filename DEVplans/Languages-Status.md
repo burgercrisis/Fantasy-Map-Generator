@@ -25,6 +25,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - For each **non-family** mixer language, we are working toward having at least one **globally unique base index** and ensuring that dedicated base contains ISO-unique seed tokens.
 
+- **2025-12-17 (ops):** Retired / signed off all current agents by force-closing any remaining active coordination claims. Updated `tools/mixer-diagnostics/_no_uniq_base_claims.json` to mark the last two `in_progress` claims (`2025-12-17T09:56:33.455Z-worker2`, `2025-12-17T09:59:32.262Z-worker1`) as `stalled` with a `SESSION RETIRED` handoff note.
+
 - ✅ **2025-12-17 Decluster bases=[389] (Purépecha vs Duruwa):** applied `tools/mixer-deltas/2025-12-17-decluster-389-duruwa-purepecha.json` to set `duruwa` bases to `[376]` (Dravidian) while `purepecha` remains `[389]`; resolved a duplicate `setBases` conflict by turning `tools/mixer-deltas/2025-12-17-decluster-389-duruwa.json` into a no-op `{}`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`.
 
 - ✅ **2025-12-17 Decluster bases=[468] (Nicobarese vs Önge):** applied `tools/mixer-deltas/2025-12-17-decluster-468-oon.json` to set `oon` bases to `[468,471]` while `nicobarese` remains `[468]`.
@@ -33,7 +35,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-17 Decluster bases=[304] (Waray vs Cebuano):** applied `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` to set `waray` bases to `[515,516]` while `cebuano-lang` remains `[304]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `-- bases=[304]` cluster is gone via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` and verified map health via `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0).
 
-- ✅ **2025-12-17 Decluster bases=[185] (Rama delta collision cleanup):** disabled `tools/mixer-deltas/2025-12-17-decluster-185-miskito-rma.json` by turning it into a no-op `{}` after it attempted to set `rma` bases to `[2440,2441]`, which collided with dedicated pins for `cuk`/`mbp` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch2-cux-cuk-mbp.json`). Regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `pnpm run mixer:check-deltas` OK.
+- ✅ **2025-12-17 Decluster bases=[185] (Miskito vs Rama):** applied `tools/mixer-deltas/2025-12-17-decluster-185-miskito-rma.json` to pin `rma` to a new dedicated base `7070` and set `rma` bases to `[7070]` while `miskito` remains `[185]`; added `Rama (dedicated)` base definition `i: 7070` in `modules/namebases-real.js`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` (no `bases=[185]` hits) and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0).
 
 
 - Current target thresholds (explicit goal, tracked as debt; **not** a suite “hard gate”): strict unique seeds `>= 1` and normalized unique seeds `>= 10`.
@@ -207,6 +209,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-17 language-uniqueness (global batch4):** resolved 5 identical `bases[]` collisions by pinning dedicated bases `6110–6119` for `dakota,cro,xav,xer,pst,wne,eastern-indonesian-malay,gorap,harari,harari-east-gurage` (delta: `tools/mixer-deltas/2025-12-17-language-uniqueness-batch4-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6110–6119`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0 duplicates; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos="dakota,cro,xav,xer,pst,wne,eastern-indonesian-malay,gorap,harari,harari-east-gurage" --limit=300` => strictFail: 0; normFail: 0; base-clusters re-run (`pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2`) exit 0.
 
  - ✅ **2025-12-17 NO_UNIQ_BASE2 claim closure (be-* batch / worker1):** claim `batchId=2025-12-17T08:26:02.122Z-worker1` (`be-jizhao,be-lang,beami,beary,beba`) completed with dedicated bases `7015–7019` (delta: `tools/mixer-deltas/2025-12-17-worker1-mixed-be-jizhao.json`; base defs: `modules/namebases-fantasy.js` `i:7015–7019`). Cleanup: added `setBases` in the delta to remove stale invalid bases `7010–7014`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=be-jizhao,be-lang,beami,beary,beba" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters `--min-size=2` exit 0. Claim updatedAt=`2025-12-17T09:26:56.635Z`.
+
+- ✅ **2025-12-17 NO_UNIQ_BASE2 claim closure (bebe/bee/beijing-mandarin/beja/beli batch / worker1):** claim `batchId=2025-12-17T09:35:11.218Z-worker1` completed with dedicated bases `7065–7069` (delta: `tools/mixer-deltas/2025-12-17-worker1-mixed-bebe.json`; base defs: `modules/namebases-real.js` `i:7065–7069`). Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bebe,bee,beijing-mandarin,beja,beli" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters `--min-size=2` exit 0. Claim updatedAt=`2025-12-17T09:52:04.662Z`.
 
 - ✅ **2025-12-17 language-uniqueness (global batch1):** resolved 5 identical `bases[]` collisions by pinning dedicated bases `6620–6629` for `gub, l-ngua-geral-amaz-nica, mixe, zoq, coz, ixc, qanjobal, cauque-mayan-language, mobilian-jargon, pidgin-delaware` (delta: `tools/mixer-deltas/2025-12-17-language-uniqueness-global-batch1-6620-6629-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6620–6629`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0 duplicates; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); seed-uniqueness `report-language-mixer-seed-uniqueness.js --only-failures --only-isos=batch` => 0 failures; base-clusters re-run (`report-language-mixer-base-clusters.js --min-size=2 --include-families`) exit 0.
 
@@ -1790,9 +1794,9 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - ✅ **2025-12-13 (verified):** Per-list snapshot maintenance is now unified: `update-wikipedia-list-coverage-in-devplan.js` writes the standardized coverage + `Nonunique Bases` + base-set uniqueness details block, and `report-wikipedia-list-coverage.js` / `report-wikipedia-list-base-uniqueness.js` can trigger that devplan update directly. `run-language-mixer-suite.js` can also refresh all registered Wikipedia list snapshots end-to-end.
 
-- ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully wired for its current items (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`. Under the no-subsets policy, this JSON must be expanded to include every language on the referenced Wikipedia list.
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully wired for its current items (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`. Under the no-curated-partial-lists policy, this JSON must be expanded to include every language on the referenced Wikipedia list.
 
-- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully wired for its current considered items (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`. Under the no-subsets policy, this JSON must be reviewed so any skipped entries that are actual languages are included (skips allowed only for non-language group headings).
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully wired for its current considered items (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`. Under the no-curated-partial-lists policy, this JSON must be reviewed so any skipped entries that are actual languages are included (skips allowed only for non-language group headings).
 
 - ✅ **2025-12-15 (verified):** `Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)` (`tools/mixer-meta/wikipedia-australian-languages-living-2019.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after dedicated pins batches 1–6 (`1712–1777`). Verification includes: `pnpm exec -- node tools/mixer-core/report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json` and `pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json`.
 
@@ -1995,7 +1999,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Coverage is **clean** for considered items (`missing both=0`, `unmatched=0`). Remaining `skipped` entries must be reviewed and driven toward 0 for language rows to satisfy the no-subsets policy. Uniqueness debt remains high (`Nonunique Bases=170`).
+- **Status update:** Coverage is **clean** for considered items (`missing both=0`, `unmatched=0`). Remaining `skipped` entries must be reviewed and driven toward 0 for language rows to satisfy the no-curated-partial-lists policy. Uniqueness debt remains high (`Nonunique Bases=170`).
 
  - **2025-12-16 status (Batch1 complete):**
    - **Batch scope:** resolved `missing both` for `mzp`, `noj`, `oca`, `tna` via dedicated pins `2435–2438` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch1-missing-both.json`).
@@ -2350,7 +2354,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Title:** `Wikipedia: Languages of India – census tables snapshot`
 - **Source:** <https://en.wikipedia.org/wiki/Languages_of_India>
 - **Scope:** Name-only snapshot of the languages and mother tongues enumerated in the 2011 Census tables in the "Languages of India" article (first/second/third-language counts and the detailed mother-tongue tables). Each distinct language or mother-tongue name in those excerpts appears once in this JSON.
-- **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, Tibeto-Burman, Austroasiatic, and contact varieties) as represented in the Indian census; complements §2.9 and the South Asia regional subset in §8.4, but follows the census rather than the regional overview groupings.
+- **Primary families / regions touched:** South Asia (Indo-Aryan, Dravidian, Tibeto-Burman, Austroasiatic, and contact varieties) as represented in the Indian census; complements §2.9 and the South Asia regional list in §8.4, but follows the census rather than the regional overview groupings.
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-india-census.json`
@@ -2505,12 +2509,12 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Title:** `Wikipedia: Malayo-Polynesian and Oceanic named languages – Blust (1999) snapshot`
 - **Source:** <https://en.wikipedia.org/wiki/Malayo-Polynesian_languages>; <https://en.wikipedia.org/wiki/Oceanic_languages>
 - **Scope:** Small helper listing the explicitly named languages that appear inside the Blust (1999) Malayo-Polynesian and Oceanic subgroup trees (e.g. Umiray Dumaget, Manide–Alabat, Ati, Klata, Enggano, Rejang, Sundanese, Javanese, Madurese, Palauan, Chamorro, Kowiai, Yapese, Rotuman). These rows back the skip-marked Blust subgroup JSONs so that each named language also has a non-skip helper entry.
-- **Primary families / regions touched:** Malayo-Polynesian and Oceanic Austronesian coverage in Island Southeast Asia and the Pacific; complements the Oceania regional subset in §8.6 and the Austronesian work in §2.12.
+- **Primary families / regions touched:** Malayo-Polynesian and Oceanic Austronesian coverage in Island Southeast Asia and the Pacific; complements the Oceania regional list in §8.6 and the Austronesian work in §2.12.
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-malayo-polynesian-oceanic-languages-blust-1999.json`
 
-- **Status tier:** **In progress (named-language subset)** – this helper exists to ensure that languages mentioned only in classification trees are still represented as normal coverage items.
+- **Status tier:** **In progress (named-language helper)** – this helper exists to ensure that languages mentioned only in classification trees are still represented as normal coverage items.
 
 - **2025-12-16 status:** Pinned dedicated bases for `eno,kowiai,rejang,jav,mad,chamorro,palauan,rotuman` via `tools/mixer-deltas/2025-12-16-wikipedia1-blust-1999-batch1.json`; verified `Nonunique Bases: 0` (coverage + base-uniqueness, `--no-devplan`).
 
@@ -2531,15 +2535,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
-### 8.31 Uralic languages – seed subset (historical view)
+### 8.31 Uralic languages – seed view (historical view)
 
 - **JSON file:** *(historical seed JSON, now removed; this entry is a view only – coverage and wiring are tracked via the full-family JSON in §8.31b)*
-- **Title:** `Wikipedia: List of Uralic languages – seed subset`
+- **Title:** `Wikipedia: List of Uralic languages – seed view`
 - **Source:** <https://en.wikipedia.org/wiki/Uralic_languages>
-- **Scope:** Seed subset of Uralic languages drawn from the broader family list (Finnish, Estonian, Karelian, Northern Sami, Erzya, Moksha, Komi, Udmurt, Mari, Hungarian).
+- **Scope:** Seed view of Uralic languages drawn from the broader family list (Finnish, Estonian, Karelian, Northern Sami, Erzya, Moksha, Komi, Udmurt, Mari, Hungarian).
 - **Primary families / regions touched:** Uralic branches across Northern and Eastern Europe (Finnic, Sami, Mordvinic, Permic, Mari, Ugric), complementing the Europe and Russia seeds in §8.7 and §8.17 and the Uralic notes in §2.x.
 
-- **Coverage tracking:** This seed subset is a convenience view over the broader `List of Uralic languages` article. Coverage and wiring/uniqueness metrics are tracked via the full-family entry in §8.31b (`wikipedia-uralic-languages-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
+- **Coverage tracking:** This seed view is a convenience view over the broader `List of Uralic languages` article. Coverage and wiring/uniqueness metrics are tracked via the full-family entry in §8.31b (`wikipedia-uralic-languages-full.json`); we no longer maintain a separate per-view coverage snapshot here.
 
 ### 8.31b Uralic languages – full family list
 
@@ -2570,25 +2574,25 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=68, size3=2, size4+=17
   - `clustered isos:` central-ludic(21), central-veps(21), eastern-votic(21), ingrian(21), kven(21), livonian(21), ludic(21), me-nkieli(21), northern-ludic(21), northern-veps(21), southern-veps(21), v-ro(21), veps(21), veps(21), votic(21), western-votic(21), zyuzdino(21), mator(3), mator-proper(3), american-finnish(2), besermyan(2), central-selkup(2), central-transdanubian(2), central-vychegda(2), courland-livonian(2), cs-ng-(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), heart-tavastian(2), hevaha(2), hollola(2), izhma(2), j-mtland(2), kamas(2), karagas(2), karelian-proper(2), kosa-kama(2), kudymkar-inva(2), kukkuzi(2), lower-inva(2), lower-lozva(2), lower-luga(2), luza-letka(2), middle-lozva(2), nenets(2), nganasan(2), northeast-hungary(2), northern-karelian(2), northern-mansi(2), pal-c(2), pechora(2), pelym(2), pori-region(2), proper-southeastern(2), savonlinna(2), semisjaur-njarg(2), shoksha(2), southeastern-tavastian(2), southern-great-plain(2), southern-sami(2), southern-savonian(2), southern-selkup(2), southern-tavastian(2), southern-transdanubian(2), southern-udmurt(2), southwestern-finnish(2), standard-finnish(2), tavastian(2), tisza-k-r-s(2), torne-sami(2), transylvanian-plain(2), tundra-nenets(2), turku-highlands(2), udora(2), upper-lupya(2), upper-sysola(2), upper-vychegda(2), v-rmland-savonian(2), vadey(2), vishera(2), vym(2), western-estonian(2), western-mansi(2), western-uusimaa(2), yoshkar-olin(2), yurats(2)
 
-### 8.32 Dictionary word-count languages – seed subset (historical snapshot)
+### 8.32 Dictionary word-count languages – seed view (historical snapshot)
 
 - **JSON file:** *(historical seed JSON, now removed; this entry is an archived view only and does not drive coverage helpers)*
-- **Title:** `Wikipedia: List of languages by number of words according to authoritative dictionaries – seed subset`
+- **Title:** `Wikipedia: List of languages by number of words according to authoritative dictionaries – seed view`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_words_according_to_dictionaries>
-- **Scope:** Seed subset of languages from the dictionary word-count list, focusing on major standards with large authoritative dictionaries across multiple families (English, German, Russian, French, Spanish, Italian, Chinese, Japanese, Arabic, Turkish).
+- **Scope:** Seed view of languages from the dictionary word-count list, focusing on major standards with large authoritative dictionaries across multiple families (English, German, Russian, French, Spanish, Italian, Chinese, Japanese, Arabic, Turkish).
 - **Primary families / regions touched:** Global macro-families (Indo-European, Sinitic, Japonic, Afroasiatic, Turkic), providing a typological lens on lexical inventory size rather than direct coverage drivers.
 
 - **Coverage / archival status:** This entry is an archived snapshot of a historical version of the `List of languages by number of words according to authoritative dictionaries` article. The original table is no longer present on Wikipedia, so we do not maintain a separate full-list JSON or auto-updated coverage snapshot here. Treat this seed JSON as a qualitative reference only; structural coverage work is driven instead by the active speaker-count and other Wikipedia language lists in §8.
 
-### 8.36 English-based pidgins – seed subset (view over full list)
+### 8.36 English-based pidgins – seed view (view over full list)
 
 - **JSON file:** *(historical seed JSON, now removed; this entry is a convenience view only – coverage and wiring are tracked via the full-list JSON in §8.36b)*
-- **Title:** `Wikipedia: List of English-based pidgins – seed subset`
+- **Title:** `Wikipedia: List of English-based pidgins – seed view`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_English-based_pidgins>
-- **Scope:** Seed subset of English-based pidgins drawn from the corresponding Wikipedia list (Tok Pisin, Bislama, Nigerian Pidgin, Krio, Hawaiian Pidgin, Singlish, Jamaican Patois, Cook Islands Māori Pidgin).
+- **Scope:** Seed view of English-based pidgins drawn from the corresponding Wikipedia list (Tok Pisin, Bislama, Nigerian Pidgin, Krio, Hawaiian Pidgin, Singlish, Jamaican Patois, Cook Islands Māori Pidgin).
 - **Primary families / regions touched:** English-lexifier contact varieties across the Pacific, Atlantic, and Africa (Tok Pisin, Bislama, Krio, Jamaican Patois, Nigerian Pidgin, etc.), complementing the broader creole/mixed/pidgin seed in §8.13.
 
-- **Coverage tracking:** This seed subset is a convenience view over the broader `List of English-based pidgins` article. Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.36b (`wikipedia-list-english-based-pidgins-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
+- **Coverage tracking:** This seed view is a convenience view over the broader `List of English-based pidgins` article. Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.36b (`wikipedia-list-english-based-pidgins-full.json`); we no longer maintain a separate per-view coverage snapshot here.
 
 ### 8.36b English-based pidgins – full article list
 
@@ -2618,15 +2622,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=1, size3=1, size4+=0
   - `clustered isos:` franglish(3), american-indian-pidgin-english(2)
 
-### 8.33 Phoneme-count languages – seed subset (view over full list)
+### 8.33 Phoneme-count languages – seed view (view over full list)
 
 - **JSON file:** *(historical seed JSON, now removed; this entry is a typological view only – coverage and wiring are tracked via the full-article JSON in §8.33b)*
-- **Title:** `Wikipedia: List of languages by number of phonemes – seed subset`
+- **Title:** `Wikipedia: List of languages by number of phonemes – seed view`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_phonemes>
-- **Scope:** Seed subset of languages from the phoneme-count list, sampling extremes and mid-range systems (Rotokas, Pirahã, Hawaiian, Japanese, Spanish, English, German, Russian, Mandarin Chinese, Taa).
+- **Scope:** Seed view of languages from the phoneme-count list, sampling extremes and mid-range systems (Rotokas, Pirahã, Hawaiian, Japanese, Spanish, English, German, Russian, Mandarin Chinese, Taa).
 - **Primary families / regions touched:** Global cross-family sample (Papuan, Austronesian, Japonic, Indo-European, Afroasiatic, etc.), intended primarily as a typological reference for future phonology-aware tuning rather than a direct coverage driver.
  
-- **Coverage tracking:** This seed subset is a typological view over the `List of languages by number of phonemes` article (extremes + mid-range systems). Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.33b (`wikipedia-languages-by-phoneme-count-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
+- **Coverage tracking:** This seed view is a typological view over the `List of languages by number of phonemes` article (extremes + mid-range systems). Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.33b (`wikipedia-languages-by-phoneme-count-full.json`); we no longer maintain a separate per-view coverage snapshot here.
 
 ### 8.33b Phoneme-count languages – full article list
 
@@ -2659,15 +2663,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - ✅ **2025-12-12 status:** Coverage for this list is now fully wired (**72/72**). Added missing ISO bindings in `tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json` and appended the required catalog + mixer-map entries (append-only invariant preserved). Suite + devplan snapshot refreshed.
  - ✅ **2025-12-16 status:** Resolved remaining `unmatched` items by binding `Dawan` -> `aoz` and `Gilbertese` -> `kiribati` in `tools/mixer-meta/wikipedia-languages-by-phoneme-count-full.json`. Coverage now fully wired (**72/72**). List base-set clusters among full items now report `(none)`; race coverage ok.
 
-### 8.34 Mutually intelligible languages – seed subset (view over full list)
+### 8.34 Mutually intelligible languages – seed view (view over full list)
 
 - **JSON file:** *(historical seed JSON, now removed; this entry is a focused view only – coverage and wiring are tracked via the full-article JSON in §8.34b)*
-- **Title:** `Wikipedia: List of mutually intelligible languages – seed subset`
+- **Title:** `Wikipedia: List of mutually intelligible languages – seed view`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_mutually_intelligible_languages>
-- **Scope:** Seed subset of mutually intelligible standards drawn from the broader list (Swedish, Norwegian, Danish, Czech, Slovak, Serbian, Croatian, Hindi, Urdu, Portuguese), used as a qualitative check on where bases or mixes might reasonably be shared or closely related.
+- **Scope:** Seed view of mutually intelligible standards drawn from the broader list (Swedish, Norwegian, Danish, Czech, Slovak, Serbian, Croatian, Hindi, Urdu, Portuguese), used as a qualitative check on where bases or mixes might reasonably be shared or closely related.
 - **Primary families / regions touched:** Germanic and Slavic branches of Indo-European plus Hindustani and Lusophone standards, overlapping with European and South Asian coverage elsewhere in §2.x and §8.
 
-- **Coverage tracking:** This seed subset is a focused view over the broader `List of mutually intelligible languages` article (headline Germanic/Romance/Slavic/Hindustani pairs). Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.34b (`wikipedia-mutually-intelligible-languages-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
+- **Coverage tracking:** This seed view is a focused view over the broader `List of mutually intelligible languages` article (headline Germanic/Romance/Slavic/Hindustani pairs). Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.34b (`wikipedia-mutually-intelligible-languages-full.json`); we no longer maintain a separate per-view coverage snapshot here.
 
 ### 8.34b Mutually intelligible languages – full article list
 
@@ -2696,15 +2700,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=2, size3=1, size4+=0
   - `clustered isos:` banjar(3), eng(2), hin(2)
 
-### 8.35 Official languages by institution – seed subset (view over full list)
+### 8.35 Official languages by institution – seed view (view over full list)
 
 - **JSON file:** *(historical seed JSON, now removed; this entry is a convenience view only – coverage and wiring are tracked via the full-article JSON in §8.35b)*
-- **Title:** `Wikipedia: List of official languages by institution – seed subset`
+- **Title:** `Wikipedia: List of official languages by institution – seed view`
 - **Source:** <https://en.wikipedia.org/wiki/List_of_official_languages_by_institution>
-- **Scope:** Seed subset of institution-level official languages drawn from the article (UN, EU, AU, etc.), focusing on globally central standards (English, French, Spanish, Arabic, Russian, Chinese, German, Portuguese, Italian, Japanese).
+- **Scope:** Seed view of institution-level official languages drawn from the article (UN, EU, AU, etc.), focusing on globally central standards (English, French, Spanish, Arabic, Russian, Chinese, German, Portuguese, Italian, Japanese).
 - **Primary families / regions touched:** Global macro-families with strong institutional presence (Indo-European, Sinitic, Afroasiatic, etc.), overlapping with the country/territory seed in §8.22 and the speaker-count seeds in §8.2–§8.3 and §8.20.
 
-- **Coverage tracking:** This seed subset is a convenience view over the broader `List of official languages of international organizations` article. Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.35b (`wikipedia-list-official-languages-by-institution-full.json`); we no longer maintain a separate per-subset coverage snapshot here.
+- **Coverage tracking:** This seed view is a convenience view over the broader `List of official languages of international organizations` article. Coverage and wiring/uniqueness metrics are tracked via the full-article entry in §8.35b (`wikipedia-list-official-languages-by-institution-full.json`); we no longer maintain a separate per-view coverage snapshot here.
 
 ### 8.35b Official languages by institution – full article list
 
@@ -2781,7 +2785,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **JSON file:** `tools/mixer-meta/wikipedia-australian-creoles.json`
 - **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
 - **Status tier:** **Untriaged (auto-registered)**
-- **Intent:** Full capture of the Wikipedia list of Australian creole languages referenced by the source page (no subset intent).
+- **Intent:** Full capture of the Wikipedia list of Australian creole languages referenced by the source page (no curated partial-list intent).
 - **Snapshot from last run (all list items):**
   - `fully wired:` 1
   - `missing catalog:` 0
@@ -2925,7 +2929,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
-#### Wikipedia: List of constructed languages  seed subset
+#### Wikipedia: List of constructed languages  seed view
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-constructed-languages.json`
 - **Source:** https://en.wikipedia.org/wiki/List_of_constructed_languages
@@ -2946,7 +2950,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
-#### Wikipedia: Creole, mixed, and pidgin languages  seed subset
+#### Wikipedia: Creole, mixed, and pidgin languages  seed view
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-creoles-and-mixed-languages.json`
 - **Source:** https://en.wikipedia.org/wiki/List_of_creole_languages
@@ -2966,7 +2970,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
-#### Wikipedia: Creole, mixed, and pidgin languages  seed subset
+#### Wikipedia: Creole, mixed, and pidgin languages  seed view
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-creoles-and-mixed-languages.utf8.json`
 - **Source:** https://en.wikipedia.org/wiki/List_of_creole_languages
@@ -2986,7 +2990,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `cluster size histogram:` size2=0, size3=0, size4+=0
   - `clustered isos:` (none)
 
-#### Wikipedia: List of lingua francas  seed subset
+#### Wikipedia: List of lingua francas  seed view
 
 - **JSON file:** `tools/mixer-meta/wikipedia-list-lingua-francas.json`
 - **Source:** https://en.wikipedia.org/wiki/List_of_lingua_francas
