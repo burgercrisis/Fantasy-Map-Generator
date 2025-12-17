@@ -1193,6 +1193,12 @@ window.realWorldNameBases = [
       {name: "Bauwaki (dedicated)", i: 6457, min: 4, max: 11, d: "lnrt", m: 0, b: "bauwaki_unq1,bauwaki_unq2,bauwaki_unq3,bauwaki_unq4,bauwaki_unq5,bauwaki_unq6,bauwaki_unq7,bauwaki_unq8,bauwaki_unq9,bauwaki_unq10,bauwaki_unq11,bauwaki_unq12"},
       {name: "Bayat Oirat (dedicated)", i: 6458, min: 4, max: 11, d: "lnrt", m: 0, b: "bayat-oirat_unq1,bayat-oirat_unq2,bayat-oirat_unq3,bayat-oirat_unq4,bayat-oirat_unq5,bayat-oirat_unq6,bayat-oirat_unq7,bayat-oirat_unq8,bayat-oirat_unq9,bayat-oirat_unq10,bayat-oirat_unq11,bayat-oirat_unq12"},
       {name: "Bayono (dedicated)", i: 6459, min: 4, max: 11, d: "lnrt", m: 0, b: "bayono_unq1,bayono_unq2,bayono_unq3,bayono_unq4,bayono_unq5,bayono_unq6,bayono_unq7,bayono_unq8,bayono_unq9,bayono_unq10,bayono_unq11,bayono_unq12"},
+
+      {name: "Bayot (dedicated)", i: 6505, min: 4, max: 11, d: "lnrt", m: 0, b: "bayot_unq1,bayot_unq2,bayot_unq3,bayot_unq4,bayot_unq5,bayot_unq6,bayot_unq7,bayot_unq8,bayot_unq9,bayot_unq10,bayot_unq11,bayot_unq12"},
+      {name: "Toba Batak (dedicated)", i: 6506, min: 4, max: 11, d: "lnrt", m: 0, b: "bbc_unq1,bbc_unq2,bbc_unq3,bbc_unq4,bbc_unq5,bbc_unq6,bbc_unq7,bbc_unq8,bbc_unq9,bbc_unq10,bbc_unq11,bbc_unq12"},
+      {name: "Bugan (dedicated)", i: 6507, min: 4, max: 11, d: "lnrt", m: 0, b: "bbh_unq1,bbh_unq2,bbh_unq3,bbh_unq4,bbh_unq5,bbh_unq6,bbh_unq7,bbh_unq8,bbh_unq9,bbh_unq10,bbh_unq11,bbh_unq12"},
+      {name: "Balochi, Sulaimani (dedicated)", i: 6508, min: 4, max: 11, d: "lnrt", m: 0, b: "bcc_unq1,bcc_unq2,bcc_unq3,bcc_unq4,bcc_unq5,bcc_unq6,bcc_unq7,bcc_unq8,bcc_unq9,bcc_unq10,bcc_unq11,bcc_unq12"},
+      {name: "Badeshi (dedicated)", i: 6509, min: 4, max: 11, d: "lnrt", m: 0, b: "bdz_unq1,bdz_unq2,bdz_unq3,bdz_unq4,bdz_unq5,bdz_unq6,bdz_unq7,bdz_unq8,bdz_unq9,bdz_unq10,bdz_unq11,bdz_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;
