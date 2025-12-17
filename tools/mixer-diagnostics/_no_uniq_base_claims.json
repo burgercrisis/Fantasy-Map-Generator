@@ -2380,14 +2380,14 @@
         "comorian",
         "fwe"
       ],
-      "status": "stalled",
+      "status": "complete",
       "startedAt": "2025-12-17T09:56:33.455Z",
-      "updatedAt": "2025-12-17T10:26:00.000Z",
+      "updatedAt": "2025-12-17T21:42:06.021Z",
       "reservedRange": [
         7115,
         7164
       ],
-      "notes": "SESSION RETIRED (2025-12-17T10:26:00.000Z): retiring all current agents per user request. Handoff: this claim was not implemented.\n\nReserved i range: 7115-7164\nISO->base mapping (fill in):\n- bemba->7115\n- bembe-congo->7116\n- bembe-drc->7117\n- comorian->7118\n- fwe->7119"
+      "notes": "SESSION RETIRED (2025-12-17T10:26:00.000Z): retiring all current agents per user request. Handoff: this claim was not implemented.\n\nReserved i range: 7115-7164\nISO->base mapping (fill in):\n- bemba->7115\n- bembe-congo->7116\n- bembe-drc->7117\n- comorian->7118\n- fwe->7119\n\nVerified 2025-12-17T21:21Z: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures for bemba,bembe-congo,bembe-drc,comorian,fwe => No globally-unique base index:0; strict/norm debt:0; coverage 0 missing; failures 0 failing; base-clusters ran. This claim was not implemented in-session and is now obsolete (resolved by later mapping/base changes).\n\nVerified /no-unique-base2 for bemba,bembe-congo,bembe-drc,comorian,fwe. dedicatedPins delta tools/mixer-deltas/2025-12-17-worker2-africa-bantu-bemba-dedicatedpins.json (7115-7119). Checks: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness only-failures OK (Target ISOs 5; Missing mapping 0; No uniq base 0; strict/norm debt 0); coverage OK; failures OK; base-clusters --min-size=2 exit 0."
     },
     {
       "workerId": 1,
@@ -2407,6 +2407,44 @@
         7214
       ],
       "notes": "SESSION RETIRED (2025-12-17T10:26:00.000Z): retiring all current agents per user request. Handoff: this claim was not implemented.\n\nReserved i range: 7165-7214\nISO->base mapping (fill in):\n- belneng-language->7165\n- betanure-jewish-neo-aramaic->7166\n- bete->7167\n- betta-kurumba->7168\n- bfy->7169"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T21:37:19.757Z-worker1",
+      "isos": [
+        "bgc",
+        "bgn",
+        "bgp",
+        "bgq",
+        "bgr"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-17T21:37:19.757Z",
+      "updatedAt": "2025-12-17T21:47:32.508Z",
+      "reservedRange": [
+        7226,
+        7275
+      ],
+      "notes": "Reserved i range: 7226-7275\nISO->base mapping (fill in):\n- bgc->7226\n- bgn->7227\n- bgp->7228\n- bgq->7229\n- bgr->7230\n\nReserved i range: 7226-7275\nISO->base mapping applied:\n- bgc->7226\n- bgn->7227\n- bgp->7228\n- bgq->7229\n- bgr->7230\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json\n\nBLOCKER: pnpm run mixer:check-deltas reports committed artifacts out of date vs deltas. Needs integrator to run pnpm run mixer:apply-deltas to regenerate: tools/mixer-deltas/_compiled-dedicated-pins.json and config/language-mixer-map.json/.js; then rerun /no-unique-base2 verification for --only-isos=bgc,bgn,bgp,bgq,bgr.\n\nVerified 2025-12-17: Delta pins tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json (bgc->7226; bgn->7227; bgp->7228; bgq->7229; bgr->7230); base defs modules/namebases-real.js i:7226-7230; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bgc,bgn,bgp,bgq,bgr => Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 ran (clusters preexisting).\n\nRESOLVED (2025-12-17T21:47:00.062Z): ran pnpm run mixer:apply-deltas (regenerated artifacts), pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=bgc bgn bgp bgq bgr\\ => Target ISOs: 5, No globally-unique base index: 0; coverage 0/0; failures 0; base-clusters --min-size=2 ran. dedicatedPins: bgc->7226 bgn->7227 bgp->7228 bgq->7229 bgr->7230 (tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json).\n\nVerification (2025-12-17):\n- pnpm run mixer:apply-deltas => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only-failures \\--only-isos=bgc bgn bgp bgq bgr\\ --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict<1:0; norm<10:0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T22:03:44.196Z-worker1",
+      "isos": [
+        "bhaca",
+        "bhb",
+        "bhe",
+        "bhojpuri",
+        "biangai"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T22:03:44.196Z",
+      "updatedAt": "2025-12-17T22:03:44.196Z",
+      "reservedRange": [
+        7310,
+        7359
+      ],
+      "notes": "Reserved i range: 7310-7359\nISO->base mapping (fill in):\n- bhaca->7310\n- bhb->7311\n- bhe->7312\n- bhojpuri->7313\n- biangai->7314"
     }
   ]
 }

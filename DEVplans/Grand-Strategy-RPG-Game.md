@@ -15,7 +15,12 @@
 - Repo strategy: **Hybrid**
   - Keep `Fantasy-Map-Generator` as **world authoring**
   - Build a **separate, standalone** sim/game layer in a **new repo**
-- Platform: **Browser**
+- Platform: **Desktop-native** (game runtime)
+- Runtime stack: **C++ host** with **Rust libraries** for:
+  - simulation
+  - pathfinding
+  - AI
+  - procedural generation
 - Time model: **Real-time with pause** (Crusader Kings style)
 - RPG layer: **Narrative adventures + abstract missions hybrid**
   - narrative event chains + skill checks + loot tables
@@ -25,8 +30,12 @@
 ## Open Questions / Next Choices
 - What is the **minimum export contract** from the world-authoring repo to the new game repo?
   - map topology, realms/holdings, cultures, religions, characters, titles, history start date, etc.
-- What is the initial **map interaction model** in the browser?
-  - 2D (SVG/Canvas) vs 3D (WebGL/WebGPU)
+- What is the initial **map interaction model** in the desktop game runtime?
+  - 2D vs 3D
+- What is the game runtime **engine/framework** choice for the C++ host?
+- What is the Rust↔C++ boundary and packaging strategy?
+  - C ABI surface (recommended)
+  - ownership rules (who allocates/frees)
 - Single-player only, or eventual multiplayer?
 - What is the initial **scope boundary** for the Factorio-like layer?
   - logistics, production chains, automation, resource nodes, construction, etc.

@@ -251,11 +251,24 @@ Examples (deduplicated conceptually but not exhaustive):
 
 These concepts can still **inspire detail brushes** or presets in the Heightmap Editor (e.g., "Carve sinkhole", "Create crater", "Add tafoni-like pits"), but they do not need standalone templates.
 
----
-
 ## Recommended next steps
 
-1. **Select 21 more P1 concepts** to turn into concrete templates next (beyond `dryLakes` and `barrierIslands`).
+### Concrete template candidates (draft list)
+
+These are concrete **template-shaped** variants that map well onto the existing FMG template DSL (Hill / Range / Trough / Pit / Strait / Smooth / Mask / Invert / Add / Multiply).
+
+- **Rift Continent (linear rift lakes):** a major long `Trough` (or a few segments) with flanking uplifted `Range` “shoulders”; optionally tuned to produce a rift-lake chain.
+- **Triple Junction (3-way rifts):** three radiating `Trough` arms from a central point, with a central `Pit` basin and optional shoulder `Range`s.
+- **Back-Arc Island Chain:** a volcanic arc (multi-segment `Range` + `Hill` peaks) with a parallel `Trough` to suggest a back-arc basin.
+- **Caldera Archipelago (volcanic province):** scattered tall `Hill` peaks with paired `Pit` placements to suggest calderas; tuned to produce multiple “volcano islands”.
+- **Impact Basin / Ring Sea:** a ring-like high rim (clustered `Hill`/`Range`) around a large central `Pit` basin; can become an inland sea depending on sea level.
+- **Fjord Coast (glacially carved inlets):** coastal uplift `Range` plus many narrow coastal `Trough`s to form deep, thin inlets.
+- **Drowned Riverlands (rias coast):** gentle coastal lowlands with branching `Trough`s running inland-to-coast (flooded valleys / estuaries).
+- **Inland Sea + Straits:** one large internal basin (`Pit` / broad `Trough`) plus one or two narrow `Strait` connectors to an outer ocean.
+- **High Plateau + Canyon Cut:** broad uplift (`Add`/`Range`) + flattening (`Smooth`) + deep incision (`Trough`) to form canyon networks.
+- **Endorheic Basin Field (salt pans):** lowered interior plus many small `Pit`s to create closed drainage basins; can be a `dryLakes` variant focused on multi-basin structure.
+
+1. **Select 21 more P1 concepts** to turn into concrete templates next (beyond `dryLakes` and `barrierIslands`).
    - Strong candidates: **Fjord Coasts**, **Delta World**, **Rift Valley Chain**, **Canyon World**.
 2. For each chosen concept:
    - Draft a **template pseudo-spec** (where highs/lows go, approximate percent of land vs sea, expected climates).
