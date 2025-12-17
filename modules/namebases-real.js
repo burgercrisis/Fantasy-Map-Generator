@@ -1220,6 +1220,11 @@ window.realWorldNameBases = [
       {name: "Northwestern Tai (dedicated)", i: 6608, min: 4, max: 11, d: "lnrt", m: 0, b: "northwestern-tai_unq1,northwestern-tai_unq2,northwestern-tai_unq3,northwestern-tai_unq4,northwestern-tai_unq5,northwestern-tai_unq6,northwestern-tai_unq7,northwestern-tai_unq8,northwestern-tai_unq9,northwestern-tai_unq10,northwestern-tai_unq11,northwestern-tai_unq12"},
       {name: "Southwestern Tai (dedicated)", i: 6609, min: 4, max: 11, d: "lnrt", m: 0, b: "southwestern-tai_unq1,southwestern-tai_unq2,southwestern-tai_unq3,southwestern-tai_unq4,southwestern-tai_unq5,southwestern-tai_unq6,southwestern-tai_unq7,southwestern-tai_unq8,southwestern-tai_unq9,southwestern-tai_unq10,southwestern-tai_unq11,southwestern-tai_unq12"},
 
+      {name: "Savonlinna (dedicated)", i: 3942, min: 4, max: 11, d: "lnrt", m: 0, b: "savonlinna_unq1,savonlinna_unq2,savonlinna_unq3,savonlinna_unq4,savonlinna_unq5,savonlinna_unq6,savonlinna_unq7,savonlinna_unq8,savonlinna_unq9,savonlinna_unq10,savonlinna_unq11,savonlinna_unq12"},
+      {name: "Danish (dedicated)", i: 3950, min: 4, max: 11, d: "lnrt", m: 0, b: "danish_unq1,danish_unq2,danish_unq3,danish_unq4,danish_unq5,danish_unq6,danish_unq7,danish_unq8,danish_unq9,danish_unq10,danish_unq11,danish_unq12"},
+      {name: "isl (dedicated)", i: 3951, min: 4, max: 11, d: "lnrt", m: 0, b: "isl_unq1,isl_unq2,isl_unq3,isl_unq4,isl_unq5,isl_unq6,isl_unq7,isl_unq8,isl_unq9,isl_unq10,isl_unq11,isl_unq12"},
+      {name: "Norwegian (dedicated)", i: 3952, min: 4, max: 11, d: "lnrt", m: 0, b: "norwegian_unq1,norwegian_unq2,norwegian_unq3,norwegian_unq4,norwegian_unq5,norwegian_unq6,norwegian_unq7,norwegian_unq8,norwegian_unq9,norwegian_unq10,norwegian_unq11,norwegian_unq12"},
+
 
 ];
 if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

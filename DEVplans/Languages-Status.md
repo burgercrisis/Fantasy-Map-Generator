@@ -192,6 +192,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
  
  - ✅ **2025-12-17 integrator cycle (artifact regeneration):** `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK. Targeted `/no-unique-base2` verify for `bayot,bbc,bbh,bcc,bdz`: seed-uniqueness (only-failures, only-isos=batch) => Target ISOs: 5; Missing mapping: 0; No globally-unique base index: 0; strictFail: 0; normFail: 0. Coverage: 0 missing; failures: 0 failing.
 
+ - ✅ **2025-12-17 language-uniqueness (Tai–Kadai batch3):** resolved 5 Tai–Kadai identical `bases[]` collisions by pinning dedicated bases `6600–6609` for `e-tai, kuan, lao-nyo, tai-muong-vat, nung-tai, lao-phutai, pa-di, thai-song, northwestern-tai, southwestern-tai` (delta: `tools/mixer-deltas/2025-12-17-language-uniqueness-tai-kadai-batch3-dedicatedpins.json`; base defs: `modules/namebases-real.js` `i:6600–6609`). Applied via `pnpm run mixer:apply-deltas`. Verified: `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0 duplicates; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing). Tai–Kadai base-clusters reduced from 9 clusters (18 entries) to 4 clusters (8 entries).
+
 - ✅ **2025-12-16 mixer artifacts resync:** regenerated committed artifacts via `pnpm run mixer:apply-deltas`, then confirmed `pnpm run mixer:check-deltas` OK (refreshing `tools/mixer-deltas/_compiled-dedicated-pins.json`, `config/language-mixer-map.json/.js`, and `config/language-mixes-all.js`).
 
 - ✅ **2025-12-16 integrator run (late):** `pnpm run mixer:apply-deltas` OK (`[guardrails] OK. map=3498 catalog=3498`); `pnpm run mixer:check-deltas` OK.
@@ -201,6 +203,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-16 race-unused burn-down (Muskogean + Mixe-Zoque batch):** reduced `Languages never used by any race profile` from `23` to `18` by adding catalog categories `Muskogean` and `Mixe-Zoque` to `raceLanguageProfiles.Kenku.categories` in `modules/races.js`, covering `cho`, `mik`, `mus`, `poi`, `zoq`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (target ISOs removed; after=18), `pnpm run mixer:race-suite` (after=18).
 
 - ✅ **2025-12-17 race-unused burn-down (Micronesian + Matacoan + Tsimshianic batch):** reduced `Languages never used by any race profile` from `18` to `12` by adding catalog category `Micronesian` to `raceLanguageProfiles.Triton.categories` (covering `sonsorolese`, `tobian`), category `Matacoan` to `raceLanguageProfiles.Tabaxi.categories` (covering `cag`, `mtp`, `wlv`), and category `Tsimshianic` to `raceLanguageProfiles.Kenku.categories` (covering `tsi`) in `modules/races.js`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (after=12), `pnpm run mixer:race-suite` (after=12).
+
+- ✅ **2025-12-17 race-unused burn-down (Americas categories batch / Tabaxi):** reduced `Languages never used by any race profile` from `12` to `0` by adding catalog categories `Chapacuran`, `Chimilan`, `Chocoan`, `Chonan`, `Enlhet-Enenlhet`, `Guaicuruan`, `Jivaroan`, `Paezan`, `Zamucoan`, and `Mixed language` to `raceLanguageProfiles.Tabaxi.categories` in `modules/races.js`, covering `ite`, `pav`, `cbg`, `noa`, `ona`, `enl`, `moc`, `tob`, `jiv`, `caw`, `pbb`, `ayo`. Verified: `node tools/mixer-races/check-race-language-profiles.js` (0 wildcards; 0 duplicate profiles), `pnpm run mixer:race-coverage` (after=0), `pnpm run mixer:race-suite` (after=0).
 
 - ✅ **2025-12-17 South Asia clustered-base fix (dedicated bases 5600–5607):** added dedicated bases `5600–5607` in `modules/namebases-real.js` and pinned them via `tools/mixer-deltas/2025-12-16-wikipedia-south-asia-clustered-bases-5600-5607.json` for `burushaski, hinglish, hno, indian-english, kfq, nepalese-english, newar, srb`. Also removed the conflicting base `3336` from `torne-valley`’s `setBases` in `tools/mixer-deltas/2025-12-16-wikipedia-uralic-full-bases9-finnic-dialects-setbases.json` (so `3336` remains dedicated to `me-nkieli`). Verified: `pnpm run mixer:check-deltas` OK; `pnpm run mixer:apply-deltas` OK; seed-uniqueness `--only-isos=burushaski,hinglish,hno,indian-english,kfq,nepalese-english,newar,srb` reports 0 strict/norm failures.
 
@@ -1768,9 +1772,9 @@ Coverage numbers are refreshed by `tools/mixer-core/update-wikipedia-list-covera
 
 - ✅ **2025-12-13 (verified):** Per-list snapshot maintenance is now unified: `update-wikipedia-list-coverage-in-devplan.js` writes the standardized coverage + `Nonunique Bases` + base-set uniqueness details block, and `report-wikipedia-list-coverage.js` / `report-wikipedia-list-base-uniqueness.js` can trigger that devplan update directly. `run-language-mixer-suite.js` can also refresh all registered Wikipedia list snapshots end-to-end.
 
-- ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`.
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian creoles` (`tools/mixer-meta/wikipedia-australian-creoles.json`) is fully wired for its current items (coverage=100%, `Nonunique Bases: 0`, race reachability ok) after pinning `rop` (Kriol) to dedicated base `1703`. Under the no-subsets policy, this JSON must be expanded to include every language on the referenced Wikipedia list.
 
-- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`.
+- ✅ **2025-12-15 (verified):** `Wikipedia: Australian language families and isolates` (`tools/mixer-meta/wikipedia-australian-families-and-isolates.json`) is fully wired for its current considered items (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after pinning `lrg` / `waq` / `xxm` to dedicated bases `1704–1706` and pinning `gbu` / `ggk` / `tiwi` / `umr` / `wdj` to dedicated bases `1707–1711`. Under the no-subsets policy, this JSON must be reviewed so any skipped entries that are actual languages are included (skips allowed only for non-language group headings).
 
 - ✅ **2025-12-15 (verified):** `Wikipedia: Australian Aboriginal languages with >100 speakers (NILS/census)` (`tools/mixer-meta/wikipedia-australian-languages-living-2019.json`) is fully represented (coverage=100%, `Nonunique Bases: 0`, base-set uniqueness + race reachability ok) after dedicated pins batches 1–6 (`1712–1777`). Verification includes: `pnpm exec -- node tools/mixer-core/report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json` and `pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js tools/mixer-meta/wikipedia-australian-languages-living-2019.json`.
 
@@ -2755,6 +2759,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **JSON file:** `tools/mixer-meta/wikipedia-australian-creoles.json`
 - **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
 - **Status tier:** **Untriaged (auto-registered)**
+- **Intent:** Full capture of the Wikipedia list of Australian creole languages referenced by the source page (no subset intent).
 - **Snapshot from last run (all list items):**
   - `fully wired:` 1
   - `missing catalog:` 0
@@ -2775,6 +2780,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **JSON file:** `tools/mixer-meta/wikipedia-australian-families-and-isolates.json`
 - **Source:** https://en.wikipedia.org/wiki/Australian_Aboriginal_languages
 - **Status tier:** **Untriaged (auto-registered)**
+- **Intent:** Full capture of the Wikipedia “Australian language families and isolates” list (Glottolog 4.1 (2019) section), including every isolate language row; non-language family group headings may be present as `skip: true`.
 - **Snapshot from last run (considered items only):**
   - `fully wired:` 8 (100.0%)
   - `missing catalog:` 0

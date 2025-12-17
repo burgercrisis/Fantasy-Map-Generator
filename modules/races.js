@@ -257,6 +257,14 @@ const raceLanguageProfiles = {
       "Macro-Jê",
       "Nadahup",
       "Chibchan",
+      "Chapacuran",
+      "Chimilan",
+      "Chocoan",
+      "Chonan",
+      "Enlhet-Enenlhet",
+      "Guaicuruan",
+      "Jivaroan",
+      "Zamucoan",
       "Tacanan"
     ]
   },
@@ -825,6 +833,9 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   if (!raceName || raceName === "Human") return null;
   if (!fantasyRaceBases[raceName]) return null;
   if (!Array.isArray(nameBases)) return null;
+
+  const seed =
+    options && (typeof options.seed === "string" || typeof options.seed === "number") ? String(options.seed) : "";
 
   const existing = findExistingRaceMixerBaseIndex(raceName);
   if (existing != null) {

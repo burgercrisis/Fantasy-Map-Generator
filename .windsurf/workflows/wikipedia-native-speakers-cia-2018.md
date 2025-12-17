@@ -1,5 +1,5 @@
 ---
-description: Wikipedia native-speakers CIA-2018 subset wiring
+description: Wikipedia native-speakers CIA-2018 list wiring
 auto_execution_mode: 0
 ---
 
@@ -17,10 +17,10 @@ auto_execution_mode: 0
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` when working on the **CIA World Factbook 2018** subset of the native-speakers list.
+Use this workflow together with `/wikipedia1` when working on the **CIA World Factbook 2018** slice of the native-speakers list.
 
 Must preserve append-only registry; never delete ISOs.
 
 1. Treat `tools/mixer-meta/wikipedia-list-languages-by-native-speakers-cia-2018.json` as the **current list JSON**.
 2. Follow `/wikipedia1` exactly for this JSON and update §8.3 in `DEVplans/Languages-Status.md`.
-3. On `continue`, take the next batch of not-yet-full (coverage) languages from this CIA subset.
+3. On `continue`, take the next batch of not-yet-full (coverage) languages from this CIA slice.

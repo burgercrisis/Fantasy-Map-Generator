@@ -170,7 +170,7 @@ Enforcement posture:
   - `region` should be set (unless truly unknown)
   - `category` should be set
   - `family` should be set (can equal `category` if no finer family is known)
-- Avoid ambiguous naming collisions in the catalog; if two entries would display the same name, disambiguate in `name` (e.g. `(alias)`, `(macro entry)`, `(native-speakers subset)`), without deleting entries.
+- Avoid ambiguous naming collisions in the catalog; if two entries would display the same name, disambiguate in `name` (e.g. `(alias)`, `(macro entry)`, `(native-speakers slice)`), without deleting entries.
 
 ### 4.4 “Finish the wiring” expectation
 
