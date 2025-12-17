@@ -2171,14 +2171,52 @@
         "bambara",
         "bamboo-english"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T02:36:15.129Z",
-      "updatedAt": "2025-12-17T02:36:15.129Z",
+      "updatedAt": "2025-12-17T02:46:54.958Z",
       "reservedRange": [
         6105,
         6154
       ],
-      "notes": "Reserved i range: 6105-6154\nISO->base mapping (fill in):\n- balti->6105\n- bamali->6106\n- bambalang->6107\n- bambara->6108\n- bamboo-english->6109"
+      "notes": "Reserved i range: 6105-6154\nISO->base mapping (fill in):\n- balti->6105\n- bamali->6106\n- bambalang->6107\n- bambara->6108\n- bamboo-english->6109\n\nISO->base: balti->6105; bamali->6106; bambalang->6107; bambara->6108; bamboo-english->6109; reserved i range: 6105-6154; delta=tools/mixer-deltas/2025-12-17-worker2-mixed-balti.json; bases=modules/namebases-real.js i:6105-6109; verify: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=balti,bamali,bambalang,bambara,bamboo-english --limit=300 => Missing mapping:0; NO_UNIQ_BASE:0; strictFail:0; normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T02:44:54.773Z-worker1",
+      "isos": [
+        "bami",
+        "bamukumbit",
+        "bamum",
+        "bamwe",
+        "ban"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-17T02:44:54.773Z",
+      "updatedAt": "2025-12-17T02:49:07.030Z",
+      "reservedRange": [
+        6155,
+        6204
+      ],
+      "notes": "Reserved i range: 6155-6204\nISO->base mapping (fill in):\n- bami->6155\n- bamukumbit->6156\n- bamum->6157\n- bamwe->6158\n- ban->6159\n\nISO->base: bami->6155; bamukumbit->6156; bamum->6157; bamwe->6158; ban->6159 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bami.json | Base defs: modules/namebases-real.js i:6155-6159 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bami,bamukumbit,bamum,bamwe,ban --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T02:50:11.295Z-worker1",
+      "isos": [
+        "bana-language",
+        "bangime",
+        "bangladeshi-english",
+        "banjar",
+        "baramu"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T02:50:11.295Z",
+      "updatedAt": "2025-12-17T02:56:34.783Z",
+      "reservedRange": [
+        6205,
+        6254
+      ],
+      "notes": "Reserved i range: 6205-6254\nISO->base mapping (fill in):\n- bana-language->6205\n- bangime->6206\n- bangladeshi-english->6207\n- banjar->6208\n- baramu->6209\n\nReserved i range: 6205-6254"
     }
   ]
 }
