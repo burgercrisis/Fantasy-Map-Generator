@@ -2456,14 +2456,14 @@
         "biblical-aramaic",
         "biblical-hebrew"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T22:34:48.237Z",
-      "updatedAt": "2025-12-17T22:34:48.237Z",
+      "updatedAt": "2025-12-17T22:50:58.844Z",
       "reservedRange": [
         7360,
         7409
       ],
-      "notes": "Reserved i range: 7360-7409\nISO->base mapping (fill in):\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364"
+      "notes": "Reserved i range: 7360-7409\nISO->base mapping (fill in):\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364\n\nReserved i range: 7360-7409\nISO->base mapping applied:\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json\n\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao-kam-sui.json (duplicate tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json is a no-op {})"
     }
   ]
 }
