@@ -1057,6 +1057,12 @@ window.realWorldNameBases = [
       {name: "Baoting Hlai (dedicated)", i: 5710, min: 4, max: 11, d: "lnrt", m: 0, b: "baoting-hlai_unq1,baoting-hlai_unq2,baoting-hlai_unq3,baoting-hlai_unq4,baoting-hlai_unq5,baoting-hlai_unq6,baoting-hlai_unq7,baoting-hlai_unq8,baoting-hlai_unq9,baoting-hlai_unq10,baoting-hlai_unq11,baoting-hlai_unq12"},
       {name: "Barai (dedicated)", i: 5711, min: 4, max: 11, d: "lnrt", m: 0, b: "barai_unq1,barai_unq2,barai_unq3,barai_unq4,barai_unq5,barai_unq6,barai_unq7,barai_unq8,barai_unq9,barai_unq10,barai_unq11,barai_unq12"},
       {name: "Barambu (dedicated)", i: 5712, min: 4, max: 11, d: "lnrt", m: 0, b: "barambu_unq1,barambu_unq2,barambu_unq3,barambu_unq4,barambu_unq5,barambu_unq6,barambu_unq7,barambu_unq8,barambu_unq9,barambu_unq10,barambu_unq11,barambu_unq12"},
+
+      {name: "Bengali (dedicated)", i: 5808, min: 4, max: 11, d: "lnrt", m: 0, b: "bengali_unq1,bengali_unq2,bengali_unq3,bengali_unq4,bengali_unq5,bengali_unq6,bengali_unq7,bengali_unq8,bengali_unq9,bengali_unq10,bengali_unq11,bengali_unq12"},
+      {name: "Bengali Portuguese Creole (dedicated)", i: 5809, min: 4, max: 11, d: "lnrt", m: 0, b: "bengali-portuguese-creole_unq1,bengali-portuguese-creole_unq2,bengali-portuguese-creole_unq3,bengali-portuguese-creole_unq4,bengali-portuguese-creole_unq5,bengali-portuguese-creole_unq6,bengali-portuguese-creole_unq7,bengali-portuguese-creole_unq8,bengali-portuguese-creole_unq9,bengali-portuguese-creole_unq10,bengali-portuguese-creole_unq11,bengali-portuguese-creole_unq12"},
+      {name: "Beni Snous dialect (dedicated)", i: 5810, min: 4, max: 11, d: "lnrt", m: 0, b: "beni-snous-dialect_unq1,beni-snous-dialect_unq2,beni-snous-dialect_unq3,beni-snous-dialect_unq4,beni-snous-dialect_unq5,beni-snous-dialect_unq6,beni-snous-dialect_unq7,beni-snous-dialect_unq8,beni-snous-dialect_unq9,beni-snous-dialect_unq10,beni-snous-dialect_unq11,beni-snous-dialect_unq12"},
+      {name: "Berber (dedicated)", i: 5811, min: 4, max: 11, d: "lnrt", m: 0, b: "ber_unq1,ber_unq2,ber_unq3,ber_unq4,ber_unq5,ber_unq6,ber_unq7,ber_unq8,ber_unq9,ber_unq10,ber_unq11,ber_unq12"},
+      {name: "Berbice (dedicated)", i: 5812, min: 4, max: 11, d: "lnrt", m: 0, b: "berbice_unq1,berbice_unq2,berbice_unq3,berbice_unq4,berbice_unq5,berbice_unq6,berbice_unq7,berbice_unq8,berbice_unq9,berbice_unq10,berbice_unq11,berbice_unq12"},
     ];
 
  if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

@@ -2040,12 +2040,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-16T23:04:00.972Z",
-      "updatedAt": "2025-12-17T00:18:53.158Z",
+      "updatedAt": "2025-12-17T01:14:48.944Z",
       "reservedRange": [
         5608,
         5657
       ],
-      "notes": "Reserved i range: 5608-5657\nISO->base mapping (fill in):\n- awjila-language->5608\n- aws-nian->5609\n- aymara->5610\n- ayo->5611\n- ba-ari->5612\n\nPlanned repin: reservedRange 5608-5657 had collisions (5608-5612 already used). New ISO->base mapping: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632\n\nReserved i range: 5608-5657 | Using subrange 5628-5632 (5608-5627 already allocated). ISO->base: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json | Base defs: modules/namebases-real.js i:5628-5632\n\nNOTE: prior planned pins 5608-5612 collide with existing dedicated bases (Manchu..Evenki) and with wikipedia-americas-indigenous-batch1-missing-both pins. Re-pin within reservedRange using free indices: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632\n\nDEBT seed-uniqueness: awjila-language strictUniqueSeeds=0 normUniqueSeeds=0; aws-nian strictUniqueSeeds=0 normUniqueSeeds=0; aymara strictUniqueSeeds=0 normUniqueSeeds=0; ayo strictUniqueSeeds=0 normUniqueSeeds=0; ba-ari strictUniqueSeeds=0 normUniqueSeeds=0\n\nReserved i range: 5608-5657 | Using subrange 5628-5632. ISO->base: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json | Base defs: modules/namebases-real.js i:5628-5632 | Verified: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK (note: report printed Target ISOs: 0); coverage OK; failures OK; base-clusters OK (2025-12-17T00:17Z)"
+      "notes": "Reserved i range: 5608-5657\nISO->base mapping (fill in):\n- awjila-language->5608\n- aws-nian->5609\n- aymara->5610\n- ayo->5611\n- ba-ari->5612\n\nPlanned repin: reservedRange 5608-5657 had collisions (5608-5612 already used). New ISO->base mapping: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632\n\nReserved i range: 5608-5657 | Using subrange 5628-5632 (5608-5627 already allocated). ISO->base: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json | Base defs: modules/namebases-real.js i:5628-5632\n\nNOTE: prior planned pins 5608-5612 collide with existing dedicated bases (Manchu..Evenki) and with wikipedia-americas-indigenous-batch1-missing-both pins. Re-pin within reservedRange using free indices: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632\n\nDEBT seed-uniqueness: awjila-language strictUniqueSeeds=0 normUniqueSeeds=0; aws-nian strictUniqueSeeds=0 normUniqueSeeds=0; aymara strictUniqueSeeds=0 normUniqueSeeds=0; ayo strictUniqueSeeds=0 normUniqueSeeds=0; ba-ari strictUniqueSeeds=0 normUniqueSeeds=0\n\nReserved i range: 5608-5657 | Using subrange 5628-5632. ISO->base: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json | Base defs: modules/namebases-real.js i:5628-5632 | Verified: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness OK (note: report printed Target ISOs: 0); coverage OK; failures OK; base-clusters OK (2025-12-17T00:17Z)\n\nVerified: pnpm run mixer:check-deltas OK; seed-uniqueness OK (only-failures, only-isos=batch); coverage OK; failures OK; base-clusters OK (report-language-mixer-base-clusters.js --min-size=2, exit 0)."
     },
     {
       "workerId": 1,
@@ -2076,14 +2076,52 @@
         "barai",
         "barambu"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T00:57:04.169Z",
-      "updatedAt": "2025-12-17T00:57:04.169Z",
+      "updatedAt": "2025-12-17T01:06:00.030Z",
       "reservedRange": [
         5708,
         5757
       ],
-      "notes": "Reserved i range: 5708-5757\nISO->base mapping (fill in):\n- baoan->5708\n- baoanic->5709\n- baoting-hlai->5710\n- barai->5711\n- barambu->5712"
+      "notes": "Reserved i range: 5708-5757\nISO->base mapping (fill in):\n- baoan->5708\n- baoanic->5709\n- baoting-hlai->5710\n- barai->5711\n- barambu->5712\n\nISO->base: baoan->5708; baoanic->5709; baoting-hlai->5710; barai->5711; barambu->5712 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baoan.json | Base defs: modules/namebases-real.js i:5708-5712 | Verified: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness OK; coverage OK; failures OK; base-clusters OK (2025-12-17)\n\nCompleted repin: baoan->5708; baoanic->5709; baoting-hlai->5710; barai->5711; barambu->5712 | Reserved i range: 5708-5757 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-baoan.json | Base defs: modules/namebases-real.js i:5708-5712 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas wrote artifacts; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baoan,baoanic,baoting-hlai,barai,barambu --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T01:08:09.395Z-worker1",
+      "isos": [
+        "badong-yao",
+        "baekje-korean",
+        "baghdadi-arabic",
+        "baham",
+        "bahnar"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T01:08:09.395Z",
+      "updatedAt": "2025-12-17T01:08:09.395Z",
+      "reservedRange": [
+        5758,
+        5807
+      ],
+      "notes": "Reserved i range: 5758-5807\nISO->base mapping (fill in):\n- badong-yao->5758\n- baekje-korean->5759\n- baghdadi-arabic->5760\n- baham->5761\n- bahnar->5762"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-17T01:12:13.826Z-worker2",
+      "isos": [
+        "bengali",
+        "bengali-portuguese-creole",
+        "beni-snous-dialect",
+        "ber",
+        "berbice"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T01:12:13.826Z",
+      "updatedAt": "2025-12-17T01:12:13.826Z",
+      "reservedRange": [
+        5808,
+        5857
+      ],
+      "notes": "Reserved i range: 5808-5857\nISO->base mapping (fill in):\n- bengali->5808\n- bengali-portuguese-creole->5809\n- beni-snous-dialect->5810\n- ber->5811\n- berbice->5812"
     }
   ]
 }

@@ -1616,7 +1616,9 @@ The following families / regions have **not yet received a full pass** for home-
 
  **2025-12-16**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-16T23:04:00.972Z-worker1 reservedRange=5608-5657 isos=[awjila-language,aws-nian,aymara,ayo,ba-ari] status=complete. Delta: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json. Base defs: modules/namebases-real.js i:5628-5632. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=awjila-language,aws-nian,aymara,ayo,ba-ari --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0. Note: strictUniqueSeeds=0 normUniqueSeeds=0 for all five; recorded as debt in claim notes.
 
- **2025-12-17**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-17T00:34:30.757Z-worker1 reservedRange=5658-5707 isos=[baarin,baba,babylonian,bacama-language,badaga] status=complete. Delta: tools/mixer-deltas/2025-12-17-worker1-mixed-baarin.json. Base defs: modules/namebases-real.js i:5658-5662. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baarin,baba,babylonian,bacama-language,badaga --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0. Note: strictUniqueSeeds=0 normUniqueSeeds=0 for all five pre-repin; recorded as debt in claim notes.
+ **2025-12-17**: Re-verified seed-uniqueness for NO_UNIQ_BASE2 batchId=2025-12-16T23:04:00.972Z-worker1 with corrected `--only-isos` quoting: Target ISOs: 5; `--only-failures` => 0 failures.
+
+ **2025-12-17**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-17T00:57:04.169Z-worker1 reservedRange=5708-5757 isos=[baoan,baoanic,baoting-hlai,barai,barambu] status=complete. Delta: tools/mixer-deltas/2025-12-17-worker1-mixed-baoan.json. Base defs: modules/namebases-real.js i:5708-5712. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baoan,baoanic,baoting-hlai,barai,barambu --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
 
  **2025-12-16**: Tooling hardening: `tools/mixer-core/apply-mixer-deltas.js` now normalizes delta filenames (strips leading BOM / zero-width chars) for the underscore ignore check, to ensure `_quarantine-*.json` files are reliably skipped even if the filesystem returns hidden leading characters. Verified: `pnpm run mixer:check-deltas` OK.
 
@@ -1741,7 +1743,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 150
+  - `Nonunique Bases:` 143
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 277
