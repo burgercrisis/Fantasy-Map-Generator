@@ -2274,6 +2274,44 @@
         6404
       ],
       "notes": "Reserved i range: 6355-6404\nISO->base mapping (fill in):\n- bareqi-arabic->6355\n- bargut->6356\n- bargut-buryat->6357\n- bariba->6358\n- bariji->6359\n\nSUPERSEDED: duplicates already-complete workerId=1 batchId=2025-12-17T03:12:46.655Z-worker1 (pins 6255-6259). Do not use reservedRange 6355-6404."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T04:58:14.657Z-worker1",
+      "isos": [
+        "basque-icelandic-pidgin",
+        "bassari",
+        "basum",
+        "bata-language",
+        "bathari"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-17T04:58:14.657Z",
+      "updatedAt": "2025-12-17T05:25:24.111Z",
+      "reservedRange": [
+        6405,
+        6454
+      ],
+      "notes": "Reserved i range: 6405-6454\nISO->base mapping (fill in):\n- basque-icelandic-pidgin->6405\n- bassari->6406\n- basum->6407\n- bata-language->6408\n- bathari->6409\n\nISO->base: basque-icelandic-pidgin->6405; bassari->6406; basum->6407; bata-language->6408; bathari->6409 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-basque-icelandic-pidgin.json | Base defs: modules/namebases-real.js i:6405-6409 | Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=basque-icelandic-pidgin,bassari,basum,bata-language,bathari --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nISO->base: basque-icelandic-pidgin->6405; bassari->6406; basum->6407; bata-language->6408; bathari->6409 | Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-basque-icelandic-pidgin.json | Base defs: modules/namebases-real.js i:6405-6409 | Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=basque-icelandic-pidgin,bassari,basum,bata-language,bathari --limit=300 exit 0 (report shows Target ISOs: 0); coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T05:24:14.065Z-worker1",
+      "isos": [
+        "bats",
+        "batu",
+        "bauwaki",
+        "bayat-oirat",
+        "bayono"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T05:24:14.065Z",
+      "updatedAt": "2025-12-17T05:24:14.065Z",
+      "reservedRange": [
+        6455,
+        6504
+      ],
+      "notes": "Reserved i range: 6455-6504\nISO->base mapping (fill in):\n- bats->6455\n- batu->6456\n- bauwaki->6457\n- bayat-oirat->6458\n- bayono->6459"
     }
   ]
 }

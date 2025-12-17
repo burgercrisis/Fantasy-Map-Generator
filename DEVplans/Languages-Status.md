@@ -206,6 +206,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (Bareqi/Bargut batch / worker1):** pinned dedicated bases `6255–6259` for `bareqi-arabic`, `bargut`, `bargut-buryat`, `bariba`, `bariji` (delta: `tools/mixer-deltas/2025-12-17-worker1-mixed-bareqi-arabic.json`; base defs: `modules/namebases-real.js` `i:6255–6259`). Applied via `pnpm run mixer:apply-deltas`. Verified via `/no-unique-base2` commands: `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures --only-isos="bareqi-arabic,bargut,bargut-buryat,bariba,bariji" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 
+- ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (Basque/Bassari batch / worker1):** pinned dedicated bases `6405–6409` for `basque-icelandic-pidgin`, `bassari`, `basum`, `bata-language`, `bathari` (delta: `tools/mixer-deltas/2025-12-17-worker1-mixed-basque-icelandic-pidgin.json`; base defs: `modules/namebases-real.js` `i:6405–6409`). Applied via `pnpm run mixer:apply-deltas`. Verified via `/no-unique-base2` commands: `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures --only-isos="basque-icelandic-pidgin,bassari,basum,bata-language,bathari" --limit=300` => 0 failures; coverage OK; failures OK; base-clusters (`report-language-mixer-base-clusters.js --min-size=2`, exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
+
 - ✅ **2025-12-17 Africa NO_UNIQ_BASE micro-pass (hozo/tulishi/uduk):** pinned dedicated bases `5369–5371` for `hozo`, `tulishi`, `uduk` (delta: `tools/mixer-deltas/2025-12-16-decluster-africa-hozo-tulishi-uduk.json`; base defs: `modules/namebases-creole.js` `i:5369–5371`). Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=hozo,tulishi,uduk" --limit=300` => 0 failures; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); duplicate-isos check (0 duplicates).
 
 - **2025-12-16 session reset (coordination state cleared):** retired all agents and force-cleared repo-local coordination JSON entries with `status: in_progress` to `stalled` (e.g. `tools/mixer-diagnostics/_wiki_multiagent_claims.json`) at `2025-12-16T12:38:00.638Z` so a new session can pick up work without stale ownership.
@@ -1649,6 +1651,10 @@ The following families / regions have **not yet received a full pass** for home-
  **2025-12-17**: NO_UNIQ_BASE2 claim completed: workerId=2 batchId=2025-12-17T02:36:15.129Z-worker2 reservedRange=6105-6154 isos=[balti,bamali,bambalang,bambara,bamboo-english] status=complete. Delta: tools/mixer-deltas/2025-12-17-worker2-mixed-balti.json. Base defs: modules/namebases-real.js i:6105-6109. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=balti,bamali,bambalang,bambara,bamboo-english --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
 
  **2025-12-17**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-17T02:50:11.295Z-worker1 reservedRange=6205-6254 isos=[bana-language,bangime,bangladeshi-english,banjar,baramu] status=complete. Delta: tools/mixer-deltas/2025-12-17-worker1-mixed-bana-language.json. Base defs: modules/namebases-real.js i:6205-6209. Verified: pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bana-language,bangime,bangladeshi-english,banjar,baramu --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
+
+ **2025-12-17**: NO_UNIQ_BASE2 duplicate claim cleanup: stalled batchId=2025-12-17T03:25:23.836Z-worker2 (reservedRange=6305-6354) because it duplicates completed claim batchId=2025-12-17T03:12:46.655Z-worker1 for isos=[bareqi-arabic,bargut,bargut-buryat,bariba,bariji] (canonical pins tools/mixer-deltas/2025-12-17-worker1-mixed-bareqi-arabic.json; base defs modules/namebases-real.js i:6255-6259).
+
+ **2025-12-17**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-17T04:58:14.657Z-worker1 reservedRange=6405-6454 isos=[basque-icelandic-pidgin,bassari,basum,bata-language,bathari] status=complete. Delta: tools/mixer-deltas/2025-12-17-worker1-mixed-basque-icelandic-pidgin.json. Base defs: modules/namebases-real.js i:6405-6409. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=basque-icelandic-pidgin,bassari,basum,bata-language,bathari --limit=300 exit 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
  
  **2025-12-17**: /language-uniqueness (Uralic/Hungarian/Mansi batch1): resolved 5 two-member base-set collisions by pinning dedicated bases `6000–6004` for `central-transdanubian`, `tisza-k-r-s`, `pal-c`, `southern-transdanubian`, `southern-great-plain` via delta `tools/mixer-deltas/2025-12-17-language-uniqueness-uralic-hungarian-mansi-batch1.json` and appending base defs in `modules/namebases-real.js` (`i:6000–6004`). Verification: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `check-language-mixer-map-duplicate-isos` OK; `check-language-mixer-map-inconsistencies --show-all-bases` OK; `check-language-mixer-coverage` OK; `check-language-mixer-failures` OK; `report-language-mixer-base-clusters --min-size=2 --include-families` exit 0.
 
@@ -1920,17 +1926,17 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - When adding new indigenous languages or families, consider expanding this JSON and re-running coverage to ensure each new item has both catalog and mixer entries.
 
 - **Snapshot from last run (considered items only):**
-  - `fully wired:` 201 (91.0%)
+  - `fully wired:` 221 (100.0%)
   - `missing catalog:` 0
   - `missing map:` 0
-  - `missing both:` 20
+  - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 190
+  - `Nonunique Bases:` 170
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 124
+  - `unique bases:` 144
   - `clustered bases:` 77
   - `clustered full items:` 77
   - `cluster size histogram:` size2=14, size3=15, size4+=48
@@ -1939,7 +1945,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
 
-- **Status update:** Coverage is **partially clean** (`missing both=0`, `unmatched=20`, `skipped=23`). Next work: burn down `unmatched` items via ISO bindings / wiring. Uniqueness debt remains high (`Nonunique Bases=192`).
+- **Status update:** Coverage is **clean** (`missing both=0`, `unmatched=0`, `skipped=23`). Uniqueness debt remains high (`Nonunique Bases=170`).
 
  - **2025-12-16 status (Batch1 complete):**
    - **Batch scope:** resolved `missing both` for `mzp`, `noj`, `oca`, `tna` via dedicated pins `2435–2438` (delta: `tools/mixer-deltas/2025-12-16-wikipedia1-americas-indigenous-batch1-missing-both.json`).
@@ -1950,6 +1956,12 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
    - **Batch scope:** bound `Kom` -> `tob` (Toba Qom).
    - **Latest verified coverage run:** `considered=221`, `skipped=23`, `fully wired=201`, `missing both=0`, `unmatched=20`, `Nonunique Bases=192`.
    - **Guardrails:** `pnpm run mixer:guardrails` => OK (`map=3478`, `catalog=3478`).
+
+ - **2025-12-17 status (Americas Indigenous missing-both batch complete):**
+   - **Batch scope:** resolved `missing both` for `mbn,arh,mav,hto,trn,bmr,mbr,ppi,pav,rey,xsu,poi,tqb,slj,tpx,tno,tsi,psm,mtp,wlv` via dedicated pins `5813–5832`.
+   - **Deltas:** `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-missing-both-batch1-5813-5817.json`, `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-missing-both-batch2-5818-5822.json`, `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-missing-both-batch3-5823-5827.json`, `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-missing-both-batch4-5828-5832.json`.
+   - **Bases:** appended to `modules/namebases-real.js` (`i:5813–5832`).
+   - **Verification:** `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; coverage: `missing catalog=0`, `missing map=0`; seed-uniqueness for the 20 ISOs: 0 strict failures / 0 normalized failures.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
