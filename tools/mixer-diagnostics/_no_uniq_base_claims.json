@@ -2040,12 +2040,12 @@
       ],
       "status": "in_progress",
       "startedAt": "2025-12-16T23:04:00.972Z",
-      "updatedAt": "2025-12-16T23:04:00.972Z",
+      "updatedAt": "2025-12-16T23:52:37.551Z",
       "reservedRange": [
         5608,
         5657
       ],
-      "notes": "Reserved i range: 5608-5657\nISO->base mapping (fill in):\n- awjila-language->5608\n- aws-nian->5609\n- aymara->5610\n- ayo->5611\n- ba-ari->5612"
+      "notes": "Reserved i range: 5608-5657\nISO->base mapping (fill in):\n- awjila-language->5608\n- aws-nian->5609\n- aymara->5610\n- ayo->5611\n- ba-ari->5612\n\nPlanned repin: reservedRange 5608-5657 had collisions (5608-5612 already used). New ISO->base mapping: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632\n\nReserved i range: 5608-5657 | Using subrange 5628-5632 (5608-5627 already allocated). ISO->base: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632 | Delta pins: tools/mixer-deltas/2025-12-16-worker1-mixed-awjila-language.json | Base defs: modules/namebases-real.js i:5628-5632\n\nNOTE: prior planned pins 5608-5612 collide with existing dedicated bases (Manchu..Evenki) and with wikipedia-americas-indigenous-batch1-missing-both pins. Re-pin within reservedRange using free indices: awjila-language->5628; aws-nian->5629; aymara->5630; ayo->5631; ba-ari->5632"
     }
   ]
 }

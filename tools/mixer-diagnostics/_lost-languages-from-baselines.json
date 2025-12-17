@@ -6,8 +6,8 @@
     "maxBaselines": 5
   },
   "summary": {
-    "baselinesConsidered": 4,
-    "baselinesUsed": 4,
+    "baselinesConsidered": 5,
+    "baselinesUsed": 5,
     "lostCount": 0,
     "lostFromCatalog": 0,
     "lostFromMap": 0,
