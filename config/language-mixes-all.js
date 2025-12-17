@@ -21031,7 +21031,8 @@
     "iso": "tew",
     "region": "North America",
     "category": "Kiowa–Tanoan",
-    "family": "Kiowa–Tanoan"
+    "family": "Kiowa–Tanoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tewa_language"
   },
   {
     "name": "Tłįchǫ",
@@ -27235,7 +27236,8 @@
     "iso": "yuz",
     "region": "South America",
     "category": "Language isolate",
-    "family": "Yuracaré isolate"
+    "family": "Yuracaré isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuracar%C3%A9_language"
   },
   {
     "name": "Khasi native-speakers subset",

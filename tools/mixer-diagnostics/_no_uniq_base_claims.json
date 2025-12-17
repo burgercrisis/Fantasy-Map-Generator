@@ -2439,12 +2439,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-17T22:03:44.196Z",
-      "updatedAt": "2025-12-17T22:34:17.385Z",
+      "updatedAt": "2025-12-17T22:59:14.892Z",
       "reservedRange": [
         7310,
         7359
       ],
-      "notes": "Reserved i range: 7310-7359\nISO->base mapping (fill in):\n- bhaca->7310\n- bhb->7311\n- bhe->7312\n- bhojpuri->7313\n- biangai->7314\n\nReserved i range: 7310-7359\nISO->base mapping applied:\n- bhaca->7310\n- bhb->7311\n- bhe->7312\n- bhojpuri->7313\n- biangai->7314\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-bhaca.json\n\nReserved i range: 7310-7359; bhaca->7310; bhb->7311; bhe->7312; bhojpuri->7313; biangai->7314; Verified: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures OK (no failures); coverage OK; failures OK; base-clusters OK (exit 0).\n\nVerification (2025-12-17):\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only-failures \\--only-isos=bhaca bhb bhe bhojpuri biangai\\ --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict<1:0; norm<10:0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nDelta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bhaca.json (bhaca->7310; bhb->7311; bhe->7312; bhojpuri->7313; biangai->7314)\nBase defs: modules/namebases-real.js i:7310–7314\n\nISO->base mapping applied: bhaca->7310; bhb->7311; bhe->7312; bhojpuri->7313; biangai->7314\n\nProceeding with apply-deltas + workflow verification for bhaca,bhb,bhe,bhojpuri,biangai.\n\n(drift fix) Re-asserting status=complete; verification evidence + DEVplans status-only entry already present."
+      "notes": "Reserved i range: 7310-7359\nISO->base mapping (fill in):\n- bhaca->7310\n- bhb->7311\n- bhe->7312\n- bhojpuri->7313\n- biangai->7314\n\nReserved i range: 7310-7359\nISO->base mapping applied:\n- bhaca->7310\n- bhb->7311\n- bhe->7312\n- bhojpuri->7313\n- biangai->7314\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-bhaca.json\n\nReserved i range: 7310-7359; bhaca->7310; bhb->7311; bhe->7312; bhojpuri->7313; biangai->7314; Verified: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures OK (no failures); coverage OK; failures OK; base-clusters OK (exit 0).\n\nVerification (2025-12-17):\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only-failures \\--only-isos=bhaca bhb bhe bhojpuri biangai\\ --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strict<1:0; norm<10:0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nDelta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-bhaca.json (bhaca->7310; bhb->7311; bhe->7312; bhojpuri->7313; biangai->7314)\nBase defs: modules/namebases-real.js i:7310–7314\n\nISO->base mapping applied: bhaca->7310; bhb->7311; bhe->7312; bhojpuri->7313; biangai->7314\n\nProceeding with apply-deltas + workflow verification for bhaca,bhb,bhe,bhojpuri,biangai.\n\n(drift fix) Re-asserting status=complete; verification evidence + DEVplans status-only entry already present.\n\nVerified 2025-12-17: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=bhaca bhb bhe bhojpuri biangai\\ => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 ran."
     },
     {
       "workerId": 1,
@@ -2458,12 +2458,31 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-17T22:34:48.237Z",
-      "updatedAt": "2025-12-17T22:50:58.844Z",
+      "updatedAt": "2025-12-17T23:24:19.248Z",
       "reservedRange": [
         7360,
         7409
       ],
-      "notes": "Reserved i range: 7360-7409\nISO->base mapping (fill in):\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364\n\nReserved i range: 7360-7409\nISO->base mapping applied:\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json\n\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao-kam-sui.json (duplicate tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json is a no-op {})"
+      "notes": "Reserved i range: 7360-7409\nISO->base mapping (fill in):\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364\n\nReserved i range: 7360-7409\nISO->base mapping applied:\n- biao-kam-sui->7360\n- biao-min->7361\n- biao-mon->7362\n- biblical-aramaic->7363\n- biblical-hebrew->7364\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json\n\nDelta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao-kam-sui.json (duplicate tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json is redundant but identical)\n\nISO->base mapping applied: biao-kam-sui->7360; biao-min->7361; biao-mon->7362; biblical-aramaic->7363; biblical-hebrew->7364. Delta pins: tools/mixer-deltas/2025-12-17-worker1-mixed-biao-kam-sui.json (note: duplicate identical delta tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json). Base defs: modules/namebases-real.js i:7360-7364. Verified: pnpm run mixer:check-deltas OK; seed-uniqueness only-failures --only-isos=biao-kam-sui,biao-min,biao-mon,biblical-aramaic,biblical-hebrew OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nReserved i range: 7360-7409; biao-kam-sui->7360; biao-min->7361; biao-mon->7362; biblical-aramaic->7363; biblical-hebrew->7364; Delta: tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json; Base defs: modules/namebases-real.js i:7360–7364; Verified: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=biao-kam-sui,biao-min,biao-mon,biblical-aramaic,biblical-hebrew => Missing mapping: 0, No globally-unique base index: 0; coverage OK; failures OK; base-clusters OK (exit 0)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-17T23:12:51.922Z-worker1",
+      "isos": [
+        "bidau-creole-portuguese",
+        "bidiyo-language",
+        "big-flowery",
+        "bikol",
+        "bima"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-17T23:12:51.922Z",
+      "updatedAt": "2025-12-17T23:12:51.922Z",
+      "reservedRange": [
+        7414,
+        7463
+      ],
+      "notes": "Reserved i range: 7414-7463\nISO->base mapping (fill in):\n- bidau-creole-portuguese->7414\n- bidiyo-language->7415\n- big-flowery->7416\n- bikol->7417\n- bima->7418"
     }
   ]
 }

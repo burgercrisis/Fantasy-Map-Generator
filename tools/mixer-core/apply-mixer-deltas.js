@@ -208,7 +208,7 @@ function loadNamebaseIndices() {
   ];
 
   const indices = new Set();
-  const re = /\bi\s*:\s*([0-9\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]+)/g;
+  const re = /\{\s*name\s*:\s*"[^"]+"\s*,\s*i\s*:\s*([0-9\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]+)/g;
 
   const normalizeDigits = s => String(s).replace(/[\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]/g, c => {
     const code = c.charCodeAt(0);

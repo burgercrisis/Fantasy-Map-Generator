@@ -242,6 +242,54 @@ Delta vs 2025-12-17T00:12:49-08:00:
 - Cluster participants: 670 -> 616 (-54)
 - Race-unused languages: 0 -> 0 (+0)
 
+
+## Snapshot 2025-12-17T14:56:43-08:00
+
+### Commands
+
+```
+node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --limit=1
+node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+pnpm run mixer:race-coverage
+```
+
+### Seed uniqueness (`--limit=1`) summary
+
+- Target ISOs: 3397
+- Missing mapping: 0
+- No globally-unique base index: 2085
+- Strict unique seeds below threshold (among those with unique base): 13
+- Normalized unique seeds below threshold (among those with unique base): 170
+
+### Base-set clusters (`--min-size=2`) summary
+
+- Considered catalog languages (after filters): 3397
+- Total distinct base sets (all sizes): 2907
+- Clusters with identical base sets (size >= 2): 71
+- Total language entries participating in these clusters: 561
+
+### Race coverage (`pnpm run mixer:race-coverage`) summary
+
+- Total catalog languages (excluding family macros): 3397
+- Languages eligible for at least one race profile: 3397
+- Languages never used by any race profile: 0
+- Race-eligible languages with a valid mixer mapping: 3397
+- Race-unused languages with a valid mixer mapping: 0
+
+Delta vs 2025-12-17T01:50:34-08:00:
+
+- No globally-unique base index: 2167 -> 2085 (-82)
+- Strict below threshold: 13 -> 13 (+0)
+- Norm below threshold: 170 -> 170 (+0)
+- Base clusters (>=2): 85 -> 71 (-14)
+- Cluster participants: 616 -> 561 (-55)
+- Race-unused languages: 0 -> 0 (+0)
+
+ 
+ ## Status 2025-12-17T15:19:10-08:00
+ 
+ - Added workflow `.windsurf/workflows/seed-uniqueness-burn-down.md` to provide a repeatable process for burning down both strict (`<1`) and normalized (`<10`) unique seed failures (for ISOs that already have a globally-unique base anchor).
+ 
 ## Status 2025-12-16T19:22:12-08:00
 
 - Restored observable output for `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --dashboard` (was exiting 0 with no output). Verified it now prints the dashboard summary.

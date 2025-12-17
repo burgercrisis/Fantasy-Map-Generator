@@ -41,9 +41,13 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
  
  - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 bhaca/bhb/bhe/bhojpuri/biangai):** pins `bhaca->7310`, `bhb->7311`, `bhe->7312`, `bhojpuri->7313`, `biangai->7314` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bhaca.json`; dedicated base defs in `modules/namebases-real.js` `i:7310–7314`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bhaca,bhb,bhe,bhojpuri,biangai"` => `Missing mapping: 0`, `No globally-unique base index: 0`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
 
-- **2025-12-17 (ops):** Closed stale hub decluster workstreams that were already applied + verified in repo artifacts and documented in this file (e.g. `decluster-5-314-316-podlachian-polabian`, `decluster-530-533-longsang-zhuang-cao-miao`).
+ - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 biao/biblical):** pins `biao-kam-sui->7360`, `biao-min->7361`, `biao-mon->7362`, `biblical-aramaic->7363`, `biblical-hebrew->7364` via `tools/mixer-deltas/2025-12-17-worker1-mixed-biao-kam-sui.json` (duplicate `tools/mixer-deltas/2025-12-17-worker1-mixed-biao.json` is redundant but identical). Dedicated base defs in `modules/namebases-real.js` `i:7360–7364`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=biao-kam-sui,biao-min,biao-mon,biblical-aramaic,biblical-hebrew"` => `Missing mapping: 0`, `No globally-unique base index: 0`; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
 
-- ✅ **2025-12-17 mixer:check-deltas unblock (Americas Indigenous SA-1 dedicated pins):** fixed `pnpm run mixer:check-deltas` failure (`Missing base definitions for indices: 6653–6663`) by appending dedicated base defs `i:6653–6663` in `modules/namebases-real.js` to match delta pins `tools/mixer-deltas/2025-12-17-americas-indigenous-sa1-bases421-422-dedicatedpins.json`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `pnpm run mixer:check-deltas` => OK.
+ - ✅ **2025-12-17 /wikipedia1 Americas Indigenous (kio/tew):** pins `kio->7242`, `tew->7243` via `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-kio-tew-kiowa-tanoan-dedicatedpins.json` (duplicate `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-kiowa-tanoan-dedicatedpins.json` neutralized to no-op `{}`). Dedicated base defs already present in `modules/namebases-real.js` (`i:7242–7243`). Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=kio,tew"` => `Missing mapping: 0`, `No globally-unique base index: 0`.
+
+ - **2025-12-17 (ops):** Closed stale hub decluster workstreams that were already applied + verified in repo artifacts and documented in this file (e.g. `decluster-5-314-316-podlachian-polabian`, `decluster-530-533-longsang-zhuang-cao-miao`).
+
+ - ✅ **2025-12-17 mixer:check-deltas unblock (Americas Indigenous SA-1 dedicated pins):** fixed `pnpm run mixer:check-deltas` failure (`Missing base definitions for indices: 6653–6663`) by appending dedicated base defs `i:6653–6663` in `modules/namebases-real.js` to match delta pins `tools/mixer-deltas/2025-12-17-americas-indigenous-sa1-bases421-422-dedicatedpins.json`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `pnpm run mixer:check-deltas` => OK.
 
 - ✅ **2025-12-17 Decluster bases=[389] (Purépecha vs Duruwa):** applied `tools/mixer-deltas/2025-12-17-decluster-389-duruwa-purepecha.json` to set `duruwa` bases to `[376]` (Dravidian) while `purepecha` remains `[389]`; resolved a duplicate `setBases` conflict by turning `tools/mixer-deltas/2025-12-17-decluster-389-duruwa.json` into a no-op `{}`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases`.
 
@@ -2017,14 +2021,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 124
+  - `Nonunique Bases:` 116
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 190
-  - `clustered bases:` 31
-  - `clustered full items:` 31
-  - `cluster size histogram:` size2=2, size3=15, size4+=14
-  - `clustered isos:` kalaallisut(31), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cax(4), cbg(4), piaroa(4), tob(4), cav(3), cho(3), ese(3), gum(3), kog(3), kwi(3), mapudungun(3), mik(3), mot(3), mus(3), ona(3), pbb(3), wayuu(3), yag(3), yuz(3), kio(2), tew(2)
+  - `unique bases:` 199
+  - `clustered bases:` 22
+  - `clustered full items:` 22
+  - `cluster size histogram:` size2=0, size3=12, size4+=10
+  - `clustered isos:` kalaallisut(31), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cav(3), ese(3), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), wayuu(3), yag(3), yuz(3)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -2049,9 +2053,9 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
  - **2025-12-17 status (Kiowa–Tanoan 2-member cluster staged):**
    - **Batch scope:** staged dedicated pins for `kio` and `tew` to break their shared base-set cluster.
-   - **Delta:** `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-kiowa-tanoan-dedicatedpins.json` (pins: `kio->7242`, `tew->7243`).
+   - **Delta:** `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-kio-tew-kiowa-tanoan-dedicatedpins.json` (pins: `kio->7242`, `tew->7243`).
    - **Bases:** appended to `modules/namebases-real.js` (`i:7242–7243`).
-   - **Next:** integrator to run `pnpm run mixer:apply-deltas`, then rerun targeted seed-uniqueness for `kio,tew`.
+   - **Verification:** `pnpm run mixer:guardrails` OK; targeted seed-uniqueness for `kio,tew` => 0 strict failures / 0 normalized failures; coverage: `missing catalog=0`, `missing map=0`; failures: 0.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
@@ -2338,6 +2342,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - ✅ **2025-12-17 /wikipedia1 China spoken languages (Bai batch1 staged):** dedicatedPins for `bijiang-bai-dialect`, `bijiang-bai-language`, `dali-bai-dialect`, `dali-bai-language`, `heqing-bai-dialect`, `xiangyun-bai-dialect` -> `i:7236–7241` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-bai-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
 
 - ✅ **2025-12-17 /wikipedia1 China spoken languages (Gyalrongic batch1 staged):** dedicatedPins for `choyo`, `gyalrong`, `horpa`, `khroskyabs`, `muya`, `prinmi`, `zhaba` -> `i:7244–7250` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-gyalrongic-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Austroasiatic batch1 staged):** dedicatedPins for `mang`, `ply`, `blr`, `ril`, `vie` -> `i:7251–7255` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-austroasiatic-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
 
