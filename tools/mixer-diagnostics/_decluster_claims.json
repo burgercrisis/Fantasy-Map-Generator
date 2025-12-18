@@ -174,10 +174,27 @@
         "naiki",
         "kxu"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T21:21:24.142Z",
-      "updatedAt": "2025-12-18T21:21:24.142Z",
-      "notes": "Decluster bases=[375] (Kui-Kuvi Dravidian) collision among Dravidian trio: kuvi (Kuvi / South-Central Dravidian), naiki (Naiki / Central Dravidian), kxu (Kui (India) / South Dravidian). Delta: tools/mixer-deltas/2025-12-18-decluster-375-kuvi-naiki-kxu.json sets kuvi->[375,200] (Kui-Kuvi Dravidian+Telugu) and naiki->[375,199] (Kui-Kuvi Dravidian+Tamil); leaving kxu as-is."
+      "updatedAt": "2025-12-18T21:24:11.578Z",
+      "notes": "Decluster bases=[375] (Kui-Kuvi Dravidian) collision among Dravidian trio: kuvi (Kuvi / South-Central Dravidian), naiki (Naiki / Central Dravidian), kxu (Kui (India) / South Dravidian). Delta: tools/mixer-deltas/2025-12-18-decluster-375-kuvi-naiki-kxu.json sets kuvi->[375,200] (Kui-Kuvi Dravidian+Telugu) and naiki->[375,199] (Kui-Kuvi Dravidian+Tamil); leaving kxu as-is.\n\n\\n\\nVERIFIED 2025-12-18:\\n- pnpm run mixer:guardrails => OK\\n- pnpm run mixer:apply-deltas => OK\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families => exit 0\\n- pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases => exit 0\\nMap spot-check: kuvi bases=[200,375]; naiki bases=[199,375]; kxu bases=[375]. Single-base [375] appears only once (no cluster)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T21:41:26.175Z-worker1",
+      "basesKey": "21",
+      "bases": [
+        21
+      ],
+      "isos": [
+        "laal",
+        "mpre",
+        "jalaa"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T21:41:26.175Z",
+      "updatedAt": "2025-12-18T22:13:43.247Z",
+      "notes": "Decluster bases=[21] (Nigerian) collision among Unclassified Africa trio: laal (Laal), mpre (Mpre), jalaa (Jalaa). Delta: tools/mixer-deltas/2025-12-18-decluster-21-laal-mpre-jalaa.json sets jalaa->[21,112] (Nigerian+Yoruba) and mpre->[21,116] (Nigerian+Akan); leaving laal as-is.\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit 0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit 0."
     }
   ]
 }

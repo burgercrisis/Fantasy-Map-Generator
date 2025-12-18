@@ -1,0 +1,10 @@
+{
+  "comment": "Wikipedia1 Africa full table: reduce NO_UNIQ_BASE for Bantu items by pinning each ISO to a dedicated base.",
+  "dedicatedPins": {
+    "swa": 8225,
+    "xhosa": 8226,
+    "chewa": 8227,
+    "chopi": 8228,
+    "tetela": 8229
+  }
+}

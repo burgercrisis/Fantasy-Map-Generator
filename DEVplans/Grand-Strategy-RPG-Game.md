@@ -72,10 +72,14 @@
   - Includes `kind` (numeric) + `type` (string)
 
 ## Open Questions / Next Choices
--
+ 
 ### Locked choices (2025-12-18)
-- Export schema v0.1 scope: **1b** (include geo+poli plus cultures/religions/languages in v0.1)
+- Export schema v0.1 scope: **1a** (minimal geo+poli only in v0.1)
 - Encounter location model: **2a** (encounters happen on abstract local maps generated per encounter)
+- Economy in alpha: **3a** (thin economy: upkeep + loot + basic supplies)
+- Export data shape v0.1: **Option A** (location graph export; add full cell graph later as v0.2+)
+- Realm administration MVP depth: **2b** (CK-like realm administration immediately)
+- Multiplayer constraint: **3a** (single-player only for alpha)
 - What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?
   - geo+poli first: map topology, realms/holdings, titles, history start date, etc.
   - JSON schema: field list + explicit schema versions
@@ -83,12 +87,12 @@
   - C ABI surface
   - event stream schemas (UI vs debug/audit) and versioning
   - snapshot triggers and overrides (default 30 sim-days; configurable)
-- Single-player only, or eventual multiplayer?
-- What is the initial **scope boundary** for the Factorio-like layer?
+- Multiplayer later? (alpha is single-player)
+- What is the initial **scope boundary** for the Factorio-like layer? (alpha uses thin economy)
   - logistics, production chains, automation, resource nodes, construction, etc.
 - How literal should the D&D 3.5 influence be?
   - exact mechanics vs “inspired by” (classes/feats/spells/leveling)
-- What is the initial definition of “realm administration” MVP?
+- What is the initial definition of “realm administration” MVP? (2b direction locked)
   - vassal contracts, laws, councils, factions, legitimacy, claims, succession rules
 - What is the initial definition of “math-forward war” MVP?
   - levy/professional split, supply, morale, terrain, commanders, deterministic battle model
