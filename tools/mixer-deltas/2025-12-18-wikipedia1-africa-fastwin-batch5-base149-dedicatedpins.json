@@ -1,0 +1,11 @@
+{
+  "comment": "Wikipedia1 Africa full table: reduce NO_UNIQ_BASE for the base=149 hub by pinning each ISO to a dedicated base.",
+  "dedicatedPins": {
+    "zulu": 5393,
+    "sepedi": 5394,
+    "southern-ndebele": 5395,
+    "sumayela-ndebele": 5396,
+    "tsonga-or-xitsonga": 5397,
+    "umbundu": 5398
+  }
+}

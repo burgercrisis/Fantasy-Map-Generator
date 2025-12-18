@@ -2714,14 +2714,52 @@
         "caka",
         "cam"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T12:36:07.484Z",
-      "updatedAt": "2025-12-18T12:36:07.484Z",
+      "updatedAt": "2025-12-18T12:55:08.579Z",
       "reservedRange": [
         8060,
         8109
       ],
-      "notes": "Reserved i range: 8060-8109\nISO->base mapping (fill in):\n- byq->8060\n- cahuilla->8061\n- cai-long->8062\n- caka->8063\n- cam->8064"
+      "notes": "Reserved i range: 8060-8109\nISO->base mapping applied:\n- byq->8060\n- cahuilla->8061\n- cai-long->8062\n- caka->8063\n- cam->8064\n\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-byq.json\nBase defs: modules/namebases-real.js (dedicated) i:8060–8064\n\nVerification (2025-12-18T12:55:08.579Z):\n- pnpm run mixer:apply-deltas OK\n- pnpm run mixer:check-deltas OK\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=byq,cahuilla,cai-long,caka,cam --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T14:09:58.987Z-worker1",
+      "isos": [
+        "camtho",
+        "canaano-akkadian",
+        "cannanore-portuguese-creole",
+        "carolinian",
+        "ccp"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T14:09:58.987Z",
+      "updatedAt": "2025-12-18T14:27:58.915Z",
+      "reservedRange": [
+        8120,
+        8169
+      ],
+      "notes": "Reserved i range: 8120-8169\nISO->base mapping (fill in):\n- camtho->8120\n- canaano-akkadian->8121\n- cannanore-portuguese-creole->8122\n- carolinian->8123\n- ccp->8124\n\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-camtho.json\\nBase defs: modules/namebases-fantasy.js (dedicated) i:8120–8124\n\nReserved i range: 8120-8169\\n\\nISO->base mapping applied:\\n- camtho->8120\\n- canaano-akkadian->8121\\n- cannanore-portuguese-creole->8122\\n- carolinian->8123\\n- ccp->8124\\n\\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-camtho.json\\nBase defs: modules/namebases-real.js i:8120-8124\n\n\\n\\nVerification (2025-12-18):\\n- pnpm run mixer:guardrails OK\\n- pnpm run mixer:check-deltas OK\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=camtho canaano-akkadian cannanore-portuguese-creole carolinian ccp\\ --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=camtho canaano-akkadian cannanore-portuguese-creole carolinian ccp\\ --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nNOTE: Base defs for i:8120–8124 are in modules/namebases-real.js (dedicated). A temporary duplicate add in modules/namebases-fantasy.js was reverted after guardrails duplicate-i check.\n\nVerification (2025-12-18): pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness: pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=camtho canaano-akkadian cannanore-portuguese-creole carolinian ccp\\ --limit=300 => Target ISOs 5; Missing mapping 0; No globally-unique base index 0; strict/norm failures 0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T21:09:11.471Z-worker1",
+      "isos": [
+        "cdz",
+        "ceb",
+        "cebaara",
+        "cebuano-lang",
+        "central-atlas-tamazight"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T21:09:11.471Z",
+      "updatedAt": "2025-12-18T21:09:11.471Z",
+      "reservedRange": [
+        8170,
+        8219
+      ],
+      "notes": "Reserved i range: 8170-8219\nISO->base mapping (fill in):\n- cdz->8170\n- ceb->8171\n- cebaara->8172\n- cebuano-lang->8173\n- central-atlas-tamazight->8174"
     }
   ]
 }

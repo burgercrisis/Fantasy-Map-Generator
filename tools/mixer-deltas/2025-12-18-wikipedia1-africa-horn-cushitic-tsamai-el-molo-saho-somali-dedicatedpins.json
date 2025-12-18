@@ -1,0 +1,9 @@
+{
+  "comment": "Wikipedia1 Africa full table: reduce NO_UNIQ_BASE for Horn of Africa / Cushitic items by pinning each ISO to a dedicated base.",
+  "dedicatedPins": {
+    "tsamai": 5872,
+    "el-molo": 5873,
+    "saho": 5874,
+    "somali": 5875
+  }
+}

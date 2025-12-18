@@ -39,6 +39,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-16: Decision: coordination/meta notes for language mixer work live in DEVplans/Language-Mixer-Compliance.md (not DEVplans/Languages-Status.md).
 
+- 2025-12-18: Hub cleanup: released all hub locks, confirmed 0 open hub tasks/requests, and marked remaining hub workstreams `completed` (agents retired).
+
 - 2025-12-16: Decision: keep completed hub workstreams indefinitely; workers should default to listing only hub workstreams with status=active (and optionally paused) when looking for work.
 
 - 2025-12-15: Updated `.windsurf/workflows/no-unique-base-coordination.md` to reference MCP Coordination Hub workstream + lock tools (`mcp5_workstream_*`, `mcp5_lock_*`) instead of legacy MCP Memory tooling.

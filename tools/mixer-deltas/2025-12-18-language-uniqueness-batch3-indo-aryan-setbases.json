@@ -1,0 +1,19 @@
+{
+  "description": "Language-uniqueness batch3: eliminate Indo-Aryan base-set collisions via setBases",
+  "setBases": {
+    "dwz": [183, 201, 202, 257, 289],
+    "dry": [183, 201, 203, 288],
+    "phr": [183, 201, 289, 288],
+
+    "kyv": [183, 201, 202, 257, 288],
+    "x-nepal-done": [183, 201, 203, 257],
+    "x-nepal-malpande": [183, 201, 257, 288],
+
+    "mby": [202, 203, 211, 257, 288, 289],
+    "odk": [202, 203, 211, 289],
+    "vgr": [202, 203, 257, 289],
+
+    "xka": [202, 203, 257, 288],
+    "nlm": [202, 203, 211, 257, 288]
+  }
+}
