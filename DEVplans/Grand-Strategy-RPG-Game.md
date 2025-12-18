@@ -28,6 +28,13 @@
 - Packaging: **One Rust DLL** (`gsg_core`) until a strong reason to split
 - Command input: **JSON array** for alpha; consider NDJSON later if needed
 - Eventing: **UI events** + optional **debug/audit channel** (behind a flag)
+- Snapshots: **`snapshot.due`** is emitted on the **UI channel** (system UI event)
+- ABI ownership: **Rust-owned output buffers** + **explicit free**; **stable handle lifetimes**
+- ABI handle: **opaque pointer** `gsg_engine_t*`
+- ABI errors: per-call `out_err_json` (**NULLable**)
+- Sim advance: `delta_sim_ms`
+- Event envelope: **numeric `kind`** + string **`type`** (JSON)
+- Event envelope fields: always include `v` (schema version) + `t` (sim-time)
 - Export contract: **Geo+poli first for alpha**, increment schema with explicit versions
 - Scripting: **GDScript for UI glue only**; core logic stays **C++/Rust**
 - Data formats: **JSON-first** with strict **schema/version**; optional binary cache later
@@ -41,11 +48,10 @@
 - What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?
   - geo+poli first: map topology, realms/holdings, titles, history start date, etc.
   - JSON schema: field list + explicit schema versions
-- What is the Rust↔C++ boundary and packaging strategy?
+- What is the Rust↔C++ boundary?
   - C ABI surface
   - event stream schemas (UI vs debug/audit) and versioning
   - snapshot triggers and overrides (default 30 sim-days; configurable)
-  - ownership rules (who allocates/frees)
 - Single-player only, or eventual multiplayer?
 - What is the initial **scope boundary** for the Factorio-like layer?
   - logistics, production chains, automation, resource nodes, construction, etc.

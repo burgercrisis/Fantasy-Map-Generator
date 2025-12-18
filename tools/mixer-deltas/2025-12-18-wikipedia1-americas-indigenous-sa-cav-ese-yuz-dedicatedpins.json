@@ -1,0 +1,8 @@
+{
+  "description": "Wikipedia1 Americas Indigenous: decluster SA cluster cav/ese/yuz by adding dedicatedPins (keep 173/421/423 as shared ingredients)",
+  "dedicatedPins": {
+    "cav": 7514,
+    "ese": 7515,
+    "yuz": 7516
+  }
+}

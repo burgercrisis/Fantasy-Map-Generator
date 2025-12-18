@@ -1,0 +1,8 @@
+{
+  "description": "Wikipedia1 Americas Indigenous: break bases=[27,173] collision via dedicatedPins for gum/kwi/pbb",
+  "dedicatedPins": {
+    "gum": 7600,
+    "kwi": 7601,
+    "pbb": 7602
+  }
+}

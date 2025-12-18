@@ -2496,12 +2496,31 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-18T01:55:35.963Z",
-      "updatedAt": "2025-12-18T02:21:36.358Z",
+      "updatedAt": "2025-12-18T02:22:30.845Z",
       "reservedRange": [
         7464,
         7513
       ],
       "notes": "Reserved i range: 7464-7513\nISO->base mapping (fill in):\n- ale->7464\n- bina->7465\n- binahari->7466\n- binandere->7467\n- binumarien->7468\n\nReserved i range: 7464-7513\n\n- binahari->7466\n\n- ale->7464\n\n- bina->7465\n\n- binandere->7467\n\n- binumarien->7468\n\nBLOCKER: mixer:check-deltas reports artifacts out of date vs deltas; requires integrator pnpm run mixer:apply-deltas to regenerate config/language-mixer-map.{json,js} and tools/mixer-deltas/_compiled-dedicated-pins.json, then rerun pnpm run mixer:check-deltas + remaining /no-unique-base2 checks for ale,bina,binahari,binandere,binumarien\n\nBLOCKER: pnpm run mixer:check-deltas reports artifacts out of date vs deltas after adding dedicatedPins delta tools/mixer-deltas/2025-12-18-worker1-mixed-ale.json (ale->7464, bina->7465, binahari->7466, binandere->7467, binumarien->7468). Needs integrator lane: run pnpm run mixer:apply-deltas to regenerate tools/mixer-deltas/_compiled-dedicated-pins.json and config/language-mixer-map.json/.js, then rerun pnpm run mixer:check-deltas and the /no-unique-base2 verification commands for only-isos=ale,bina,binahari,binandere,binumarien.\n\nVerified: seed-uniqueness --only-failures --only-isos=ale,bina,binahari,binandere,binumarien => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0; mixer:guardrails OK; mixer:check-deltas OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nVerified 2025-12-18: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ale,bina,binahari,binandere,binumarien --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T02:33:02.561Z-worker1",
+      "isos": [
+        "birgit-language",
+        "biu-mandara",
+        "boghom-language",
+        "boor-language",
+        "bole-chadic-language"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T02:33:02.561Z",
+      "updatedAt": "2025-12-18T02:33:02.561Z",
+      "reservedRange": [
+        7517,
+        7566
+      ],
+      "notes": "Reserved i range: 7517-7566\nISO->base mapping (fill in):\n- birgit-language->7517\n- biu-mandara->7518\n- boghom-language->7519\n- boor-language->7520\n- bole-chadic-language->7521"
     }
   ]
 }
