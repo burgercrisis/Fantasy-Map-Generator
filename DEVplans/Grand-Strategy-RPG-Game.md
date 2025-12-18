@@ -16,11 +16,21 @@
   - Keep `Fantasy-Map-Generator` as **world authoring**
   - Build a **separate, standalone** sim/game layer in a **new repo**
 - Platform: **Desktop-native** (game runtime)
-- Runtime stack: **C++ host** with **Rust libraries** for:
+- Engine/framework: **Godot 4**
+- Integration strategy: **Godot 4 + GDExtension (C++) + Rust libraries (C ABI)**
+- Runtime stack: **C++ (GDExtension)** with **Rust libraries** for:
   - simulation
   - pathfinding
   - AI
   - procedural generation
+- Presentation: **2D first for alpha**, add **3D** later (before beta)
+- Runtime dataflow: **Event-stream + periodic snapshots** (default 30 sim-days; configurable)
+- Packaging: **One Rust DLL** (`gsg_core`) until a strong reason to split
+- Command input: **JSON array** for alpha; consider NDJSON later if needed
+- Eventing: **UI events** + optional **debug/audit channel** (behind a flag)
+- Export contract: **Geo+poli first for alpha**, increment schema with explicit versions
+- Scripting: **GDScript for UI glue only**; core logic stays **C++/Rust**
+- Data formats: **JSON-first** with strict **schema/version**; optional binary cache later
 - Time model: **Real-time with pause** (Crusader Kings style)
 - RPG layer: **Narrative adventures + abstract missions hybrid**
   - narrative event chains + skill checks + loot tables
@@ -28,13 +38,13 @@
 - Primary inspirations: **CK3 + D&D 3.5 + Factorio**
 
 ## Open Questions / Next Choices
-- What is the **minimum export contract** from the world-authoring repo to the new game repo?
-  - map topology, realms/holdings, cultures, religions, characters, titles, history start date, etc.
-- What is the initial **map interaction model** in the desktop game runtime?
-  - 2D vs 3D
-- What is the game runtime **engine/framework** choice for the C++ host?
+- What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?
+  - geo+poli first: map topology, realms/holdings, titles, history start date, etc.
+  - JSON schema: field list + explicit schema versions
 - What is the Rust↔C++ boundary and packaging strategy?
-  - C ABI surface (recommended)
+  - C ABI surface
+  - event stream schemas (UI vs debug/audit) and versioning
+  - snapshot triggers and overrides (default 30 sim-days; configurable)
   - ownership rules (who allocates/frees)
 - Single-player only, or eventual multiplayer?
 - What is the initial **scope boundary** for the Factorio-like layer?

@@ -269,11 +269,26 @@ function main() {
     "",
   ];
 
+  const compareFailureRows = (a, b) => {
+    const aGroup = !a.hasMapping ? 2 : !a.passUniqueBase ? 1 : 0;
+    const bGroup = !b.hasMapping ? 2 : !b.passUniqueBase ? 1 : 0;
+    if (aGroup !== bGroup) return aGroup - bGroup;
+
+    if (aGroup === 0) {
+      const aFailCount = (a.passStrict ? 0 : 1) + (a.passNormalized ? 0 : 1);
+      const bFailCount = (b.passStrict ? 0 : 1) + (b.passNormalized ? 0 : 1);
+      if (aFailCount !== bFailCount) return bFailCount - aFailCount;
+    }
+
+    return a.iso.localeCompare(b.iso);
+  };
+
   const rows = (onlyFailures
     ? results.filter(r => !r.hasMapping || !r.passUniqueBase || !r.passStrict || !r.passNormalized)
     : results
   )
     .sort((a, b) => {
+      if (onlyFailures) return compareFailureRows(a, b);
       const ak = (a.passUniqueBase ? 1 : 0) + (a.passStrict ? 1 : 0) + (a.passNormalized ? 1 : 0);
       const bk = (b.passUniqueBase ? 1 : 0) + (b.passStrict ? 1 : 0) + (b.passNormalized ? 1 : 0);
       return ak - bk || a.iso.localeCompare(b.iso);

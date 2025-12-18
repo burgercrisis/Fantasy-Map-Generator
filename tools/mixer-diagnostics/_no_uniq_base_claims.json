@@ -1812,12 +1812,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-16T04:51:20.651Z",
-      "updatedAt": "2025-12-16T08:07:43.056Z",
+      "updatedAt": "2025-12-18T01:52:49.476Z",
       "reservedRange": [
         3277,
         3326
       ],
-      "notes": "Reserved i range: 3277-3326\nISO->base mapping (fill in):\n- baba-malay->3277\n- balinese-malay->3278\n- banda-malay->3279\n- betawi->3280\n- dili-malay->3281\n\nReserved i range: 3277-3326\n\nISO->base mapping applied (dedicatedPins + baseDefs in modules/namebases-creole.js; delta tools/mixer-deltas/2025-12-16-worker2-mixed-baba-malay.json):\\n- baba-malay->3277\\n- balinese-malay->3278\\n- banda-malay->3279\\n- betawi->3280\\n- dili-malay->3281\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=baba-malay balinese-malay banda-malay betawi dili-malay\\ --limit=300 (Missing mapping:0; No globally-unique base index:0; strict/norm failures:0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nReserved i range: 3277-3326\n\nReserved i range: 3277-3326\n\nReserved i range: 3277-3326 | ISO->base: baba-malay->3277; balinese-malay->3278; banda-malay->3279; betawi->3280; dili-malay->3281 | Verified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baba-malay,balinese-malay,banda-malay,betawi,dili-malay --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK\n\nVERIFIED 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=baba-malay balinese-malay banda-malay betawi dili-malay\\ --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0. Delta=tools/mixer-deltas/2025-12-16-worker2-mixed-baba-malay.json; baseDefs=modules/namebases-creole.js i:3277-3281."
+      "notes": "Reserved i range: 3277-3326\nISO->base mapping (fill in):\n- baba-malay->3277\n- balinese-malay->3278\n- banda-malay->3279\n- betawi->3280\n- dili-malay->3281\n\nReserved i range: 3277-3326\n\nISO->base mapping applied (dedicatedPins + baseDefs in modules/namebases-creole.js; delta tools/mixer-deltas/2025-12-16-worker2-mixed-baba-malay.json):\\n- baba-malay->3277\\n- balinese-malay->3278\\n- banda-malay->3279\\n- betawi->3280\\n- dili-malay->3281\\n\\nVerification (/no-unique-base2):\\n- pnpm run mixer:guardrails (OK)\\n- pnpm run mixer:check-deltas (OK)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=baba-malay balinese-malay banda-malay betawi dili-malay\\ --limit=300 (Missing mapping:0; No globally-unique base index:0; strict/norm failures:0)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js (0 missing)\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js (0 failing)\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 (exit 0)\n\nReserved i range: 3277-3326\n\nReserved i range: 3277-3326\n\nReserved i range: 3277-3326 | ISO->base: baba-malay->3277; balinese-malay->3278; banda-malay->3279; betawi->3280; dili-malay->3281 | Verified /no-unique-base2: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baba-malay,balinese-malay,banda-malay,betawi,dili-malay --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 OK\n\nVERIFIED 2025-12-16: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=baba-malay balinese-malay banda-malay betawi dili-malay\\ --limit=300 => Target ISOs:5 Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0. Delta=tools/mixer-deltas/2025-12-16-worker2-mixed-baba-malay.json; baseDefs=modules/namebases-creole.js i:3277-3281.\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=baba-malay,balinese-malay,banda-malay,betawi,dili-malay => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0."
     },
     {
       "workerId": 1,
@@ -2475,14 +2475,33 @@
         "bikol",
         "bima"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-17T23:12:51.922Z",
-      "updatedAt": "2025-12-17T23:12:51.922Z",
+      "updatedAt": "2025-12-18T01:40:46.941Z",
       "reservedRange": [
         7414,
         7463
       ],
-      "notes": "Reserved i range: 7414-7463\nISO->base mapping (fill in):\n- bidau-creole-portuguese->7414\n- bidiyo-language->7415\n- big-flowery->7416\n- bikol->7417\n- bima->7418"
+      "notes": "Reserved i range: 7414-7463\nISO->base mapping (fill in):\n- bidau-creole-portuguese->7414\n- bidiyo-language->7415\n- big-flowery->7416\n- bikol->7417\n- bima->7418\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bidau-creole-portuguese,bidiyo-language,big-flowery,bikol,bima => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T01:55:35.963Z-worker1",
+      "isos": [
+        "ale",
+        "bina",
+        "binahari",
+        "binandere",
+        "binumarien"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T01:55:35.963Z",
+      "updatedAt": "2025-12-18T02:21:36.358Z",
+      "reservedRange": [
+        7464,
+        7513
+      ],
+      "notes": "Reserved i range: 7464-7513\nISO->base mapping (fill in):\n- ale->7464\n- bina->7465\n- binahari->7466\n- binandere->7467\n- binumarien->7468\n\nReserved i range: 7464-7513\n\n- binahari->7466\n\n- ale->7464\n\n- bina->7465\n\n- binandere->7467\n\n- binumarien->7468\n\nBLOCKER: mixer:check-deltas reports artifacts out of date vs deltas; requires integrator pnpm run mixer:apply-deltas to regenerate config/language-mixer-map.{json,js} and tools/mixer-deltas/_compiled-dedicated-pins.json, then rerun pnpm run mixer:check-deltas + remaining /no-unique-base2 checks for ale,bina,binahari,binandere,binumarien\n\nBLOCKER: pnpm run mixer:check-deltas reports artifacts out of date vs deltas after adding dedicatedPins delta tools/mixer-deltas/2025-12-18-worker1-mixed-ale.json (ale->7464, bina->7465, binahari->7466, binandere->7467, binumarien->7468). Needs integrator lane: run pnpm run mixer:apply-deltas to regenerate tools/mixer-deltas/_compiled-dedicated-pins.json and config/language-mixer-map.json/.js, then rerun pnpm run mixer:check-deltas and the /no-unique-base2 verification commands for only-isos=ale,bina,binahari,binandere,binumarien.\n\nVerified: seed-uniqueness --only-failures --only-isos=ale,bina,binahari,binandere,binumarien => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0; mixer:guardrails OK; mixer:check-deltas OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nVerified 2025-12-18: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=ale,bina,binahari,binandere,binumarien --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0."
     }
   ]
 }

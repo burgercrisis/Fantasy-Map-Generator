@@ -188,6 +188,89 @@ const heightmapTemplates = (function () {
     Add -20 30-100 0 0
     Range 6-8 40-50 5-95 10-90`;
 
+  const riftContinent = `Hill 2-3 70-85 20-80 35-65
+    Range 2-3 40-60 20-80 30-45
+    Range 2-3 40-60 20-80 55-70
+    Trough 1 45-60 45-55 10-90
+    Trough 1 35-50 45-55 10-90
+    Pit 3-5 20-35 35-65 20-80
+    Smooth 2 0 0 0
+    Mask 3 0 0 0`;
+
+  const tripleJunction = `Range 1-2 45-65 40-60 40-60
+    Trough 1 45-60 45-55 45-55
+    Trough 1 45-60 45-55 45-55
+    Trough 1 45-60 45-55 45-55
+    Pit 1-2 30-45 45-55 45-55
+    Smooth 2 0 0 0
+    Mask 3 0 0 0`;
+
+  const backArcChain = `Add 10 all 0 0
+    Range 2-3 40-60 15-35 20-80
+    Range 2-3 40-60 25-45 20-80
+    Hill 6-10 20-35 10-50 20-80
+    Trough 1-2 25-40 45-65 20-80
+    Smooth 2 0 0 0
+    Multiply 0.7 land 0 0
+    Mask 3 0 0 0`;
+
+  const calderaArchipelago = `Add 12 all 0 0
+    Hill 12-18 25-40 10-90 15-85
+    Pit 10-14 10-18 10-90 15-85
+    Range 2-3 25-40 20-80 20-80
+    Smooth 2 0 0 0
+    Multiply 0.35 20-100 0 0
+    Mask 3 0 0 0`;
+
+  const impactRing = `Hill 1 60-70 45-55 45-55
+    Pit 1 70-85 45-55 45-55
+    Range 2-3 50-70 30-70 30-70
+    Hill 8-12 20-35 25-75 25-75
+    Smooth 2 0 0 0
+    Trough 3-5 20-35 35-65 35-65
+    Mask 3 0 0 0`;
+
+  const fjordCoast = `Range 4-6 45-70 0-15 10-90
+    Hill 3-5 35-55 0-20 10-90
+    Smooth 2 0 0 0
+    Trough 12-18 20-35 0-25 5-95
+    Trough 4-6 35-55 20-40 10-90
+    Multiply 0.9 land 0 0
+    Mask 3 0 0 0`;
+
+  const drownedRiverlands = `Add 6 all 0 0
+    Range 1-2 25-40 60-90 20-80
+    Smooth 2 0 0 0
+    Trough 10-14 10-18 30-70 20-80
+    Trough 6-8 18-28 60-90 20-80
+    Multiply 0.8 land 0 0
+    Mask 3 0 0 0`;
+
+  const inlandSeaStraits = `Range 2-3 40-60 0-100 0-15
+    Range 2-3 40-60 0-100 85-100
+    Pit 1 80-95 45-55 45-55
+    Trough 2-3 40-55 35-65 35-65
+    Strait 1 vertical 0 0
+    Strait 1 horizontal 0 0
+    Smooth 2 0 0 0
+    Mask 3 0 0 0`;
+
+  const highPlateauCanyons = `Add 18 all 0 0
+    Range 3-4 40-60 20-80 20-80
+    Smooth 4 0 0 0
+    Multiply 0.85 land 0 0
+    Trough 8-12 25-40 10-90 10-90
+    Trough 4-6 35-55 20-80 20-80
+    Mask 3 0 0 0`;
+
+  const endorheicBasins = `Add 8 all 0 0
+    Mask -2 0 0 0
+    Pit 12-18 12-20 20-80 20-80
+    Pit 3-5 25-35 35-65 35-65
+    Smooth 3 0 0 0
+    Multiply 0.9 land 0 0
+    Mask 3 0 0 0`;
+
   return {
     volcano: {id: 0, name: "Volcano", template: volcano, probability: 3},
     highIsland: {id: 1, name: "High Island", template: highIsland, probability: 19},
@@ -206,6 +289,16 @@ const heightmapTemplates = (function () {
     taklamakan: {id: 12, name: "Taklamakan", template: taklamakan, probability: 1},
     oldWorld: {id: 13, name: "Old World", template: oldWorld, probability: 8},
     fractious: {id: 14, name: "Fractious", template: fractious, probability: 3},
-    dryLakes: {id: 15, name: "Dry Lakes", template: dryLakes, probability: 1}
+    dryLakes: {id: 15, name: "Dry Lakes", template: dryLakes, probability: 1},
+    riftContinent: {id: 18, name: "Rift Continent", template: riftContinent, probability: 3},
+    tripleJunction: {id: 19, name: "Triple Junction", template: tripleJunction, probability: 2},
+    backArcChain: {id: 20, name: "Back-Arc Chain", template: backArcChain, probability: 2},
+    calderaArchipelago: {id: 21, name: "Caldera Archipelago", template: calderaArchipelago, probability: 2},
+    impactRing: {id: 22, name: "Impact Ring", template: impactRing, probability: 1},
+    fjordCoast: {id: 23, name: "Fjord Coast", template: fjordCoast, probability: 2},
+    drownedRiverlands: {id: 24, name: "Drowned Riverlands", template: drownedRiverlands, probability: 2},
+    inlandSeaStraits: {id: 25, name: "Inland Sea + Straits", template: inlandSeaStraits, probability: 2},
+    highPlateauCanyons: {id: 26, name: "High Plateau + Canyons", template: highPlateauCanyons, probability: 2},
+    endorheicBasins: {id: 27, name: "Endorheic Basins", template: endorheicBasins, probability: 1}
   };
 })();

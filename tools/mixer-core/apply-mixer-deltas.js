@@ -3,6 +3,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const {execFileSync} = require("node:child_process");
+const vm = require("node:vm");
 
 const root = path.resolve(__dirname, "..", "..");
 const deltasDirRel = path.join("tools", "mixer-deltas");
@@ -208,35 +209,35 @@ function loadNamebaseIndices() {
   ];
 
   const indices = new Set();
-  const re = /\{\s*name\s*:\s*"[^"]+"\s*,\s*i\s*:\s*([0-9\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]+)/g;
 
-  const normalizeDigits = s => String(s).replace(/[\uFF10-\uFF19\u0660-\u0669\u06F0-\u06F9]/g, c => {
-    const code = c.charCodeAt(0);
-    if (code >= 0xFF10 && code <= 0xFF19) return String.fromCharCode(code - 0xFF10 + 0x30);
-    if (code >= 0x0660 && code <= 0x0669) return String.fromCharCode(code - 0x0660 + 0x30);
-    if (code >= 0x06F0 && code <= 0x06F9) return String.fromCharCode(code - 0x06F0 + 0x30);
-    return c;
-  });
+  const fileToArrayKey = new Map([
+    [path.join(root, "modules", "namebases-real.js"), "realWorldNameBases"],
+    [path.join(root, "modules", "namebases-fantasy.js"), "fantasyNameBases"],
+    [path.join(root, "modules", "namebases-creole.js"), "creoleNameBases"]
+  ]);
+
+  const vm = require('vm');
 
   for (const file of files) {
-    let src;
+    const key = fileToArrayKey.get(file);
+    if (!key) continue;
+
+    let code;
     try {
-      src = decodeTextFile(fs.readFileSync(file));
-      src = src.replace(/\u0000/g, "");
-      src = src.normalize("NFKC");
-      src = src.replace(/[\u200B\u200C\u200D\uFEFF]/g, "");
-      src = src.replace(/\u0456/g, "i");
-      src = src.replace(/[\uFF1A\uFE55\u2236]/g, ":");
+      code = decodeTextFile(fs.readFileSync(file));
     } catch (e) {
       if (e && e.code === "ENOENT") continue;
       throw e;
     }
 
-    re.lastIndex = 0;
-    let m;
-    while ((m = re.exec(src))) {
-      const index = Number(normalizeDigits(m[1]));
-      if (!Number.isNaN(index)) indices.add(index);
+    const context = {window: {}};
+    vm.createContext(context);
+    vm.runInContext(code, context, {filename: path.basename(file)});
+
+    const arr = context.window && Array.isArray(context.window[key]) ? context.window[key] : [];
+    for (const o of arr) {
+      const idx = o && typeof o.i === "number" ? o.i : NaN;
+      if (Number.isFinite(idx)) indices.add(idx);
     }
   }
 
