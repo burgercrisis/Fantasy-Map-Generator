@@ -1,13 +1,13 @@
 {
-  "utcIso": "2025-12-18T09:59:35.535Z",
+  "utcIso": "2025-12-18T11:32:49.778Z",
   "coverage": {
-    "mapTotal": 3498,
-    "catalogTotal": 3498,
+    "mapTotal": 3499,
+    "catalogTotal": 3499,
     "mapNotCatalog": 0,
     "catalogNotMap": 0
   },
   "failures": {
-    "totalCatalogEntries": 3498,
+    "totalCatalogEntries": 3499,
     "totalFailures": 0,
     "missingMapping": 0,
     "emptyBases": 0,
@@ -16,17 +16,17 @@
     "mapOnly": 0
   },
   "seedUniqueness": {
-    "targetIsos": 3397,
+    "targetIsos": 3398,
     "missingMapping": 0,
-    "noGloballyUniqueBaseIndex": 2024,
+    "noGloballyUniqueBaseIndex": 1979,
     "strictBelowThreshold": 0,
-    "normalizedBelowThreshold": 39
+    "normalizedBelowThreshold": 38
   },
   "baseClusters": {
-    "consideredCatalogLanguages": 3397,
-    "totalDistinctBaseSets": 2934,
-    "clustersSizeGte2": 64,
-    "entriesInClusters": 527,
+    "consideredCatalogLanguages": 3398,
+    "totalDistinctBaseSets": 2948,
+    "clustersSizeGte2": 62,
+    "entriesInClusters": 512,
     "largestClusterSize": 161
   }
 }

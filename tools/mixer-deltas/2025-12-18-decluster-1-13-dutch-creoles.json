@@ -1,0 +1,7 @@
+{
+  "setBases": {
+    "negerhollands": [0, 1, 13],
+    "negro-dutch": [1, 6, 13],
+    "skepi-dutch-creole": [1, 13]
+  }
+}

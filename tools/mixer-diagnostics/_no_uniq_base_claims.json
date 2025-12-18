@@ -2676,14 +2676,33 @@
         "bunu",
         "buru-angwe"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T10:46:09.168Z",
-      "updatedAt": "2025-12-18T10:46:09.168Z",
+      "updatedAt": "2025-12-18T11:14:05.284Z",
       "reservedRange": [
         7925,
         7974
       ],
-      "notes": "Reserved i range: 7925-7974\nISO->base mapping (fill in):\n- btv->7925\n- budza->7926\n- bug->7927\n- buk->7928\n- bukharian-arabic->7929\n- buli->7930\n- bunak->7931\n- bundeli->7932\n- bunu->7933\n- buru-angwe->7934"
+      "notes": "Reserved i range: 7925-7974\nISO->base mapping (fill in):\n- btv->7925\n- budza->7926\n- bug->7927\n- buk->7928\n- bukharian-arabic->7929\n- buli->7930\n- bunak->7931\n- bundeli->7932\n- bunu->7933\n- buru-angwe->7934\n\nVerified 2025-12-18T11:14:05.284Z: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=btv,budza,bug,buk,bukharian-arabic,buli,bunak,bundeli,bunu,buru-angwe --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing; base-clusters --min-size=2 exit 0. Delta: tools/mixer-deltas/2025-12-18-worker1-mixed-btv.json"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T11:43:56.479Z-worker1",
+      "isos": [
+        "burumakok",
+        "buruwai",
+        "buyang",
+        "buyeo-korean",
+        "bwi"
+      ],
+      "status": "stalled",
+      "startedAt": "2025-12-18T11:43:56.479Z",
+      "updatedAt": "2025-12-18T11:56:22.722Z",
+      "reservedRange": [
+        7975,
+        8024
+      ],
+      "notes": "Reserved i range: 7975-8024\nISO->base mapping (fill in):\n- burumakok->7975\n- buruwai->7976\n- buyang->7977\n- buyeo-korean->7978\n- bwi->7979\n\nReserved i range: 7975-8024\nISO->base mapping applied:\n- burumakok->7975\n- buruwai->7976\n- buyang->7977\n- buyeo-korean->7978\n- bwi->7979\n\nBLOCKER: cannot run pnpm run mixer:apply-deltas because artifact files are hub-locked by workstreamId=49759a01-43fe-4b8c-9e17-cb5a0222e885 (file:config/language-mixer-map.json, file:config/language-mixer-map.js, file:config/language-mixes-all.js, file:tools/mixer-deltas/_compiled-dedicated-pins.json). Until apply-deltas runs, dedicatedPins in tools/mixer-deltas/2025-12-18-worker1-mixed-burumakok.json won't take effect; seed-uniqueness still reports NO_UNIQ_BASE for the batch."
     }
   ]
 }

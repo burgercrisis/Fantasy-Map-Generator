@@ -1,0 +1,10 @@
+{
+  "comment": "Wikipedia1 Africa full table: reduce NO_UNIQ_BASE for single-base items by pinning each ISO to a dedicated base.",
+  "dedicatedPins": {
+    "wolof": 5376,
+    "sesotho": 5377,
+    "tswana": 5378,
+    "zarma": 5379,
+    "seze": 5380
+  }
+}
