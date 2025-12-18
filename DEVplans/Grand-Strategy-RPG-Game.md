@@ -72,6 +72,10 @@
   - Includes `kind` (numeric) + `type` (string)
 
 ## Open Questions / Next Choices
+-
+### Locked choices (2025-12-18)
+- Export schema v0.1 scope: **1b** (include geo+poli plus cultures/religions/languages in v0.1)
+- Encounter location model: **2a** (encounters happen on abstract local maps generated per encounter)
 - What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?
   - geo+poli first: map topology, realms/holdings, titles, history start date, etc.
   - JSON schema: field list + explicit schema versions

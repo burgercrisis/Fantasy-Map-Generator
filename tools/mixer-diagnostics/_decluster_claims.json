@@ -161,6 +161,23 @@
       "startedAt": "2025-12-18T14:39:47.135Z",
       "updatedAt": "2025-12-18T21:09:02.609Z",
       "notes": "Decluster bases=[49] (Newar) collision: thf (Thangmi / Newaric) vs phj (Pahari (Sino-Tibetan) / Newaric). Delta: tools/mixer-deltas/2025-12-18-decluster-49-thf-phj.json sets phj->[49,55] (Newar+Tamangic); leaving thf as-is.\n\n\\n\\nVERIFIED 2025-12-18:\\n- pnpm run mixer:guardrails => OK\\n- pnpm run mixer:apply-deltas => OK\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families => exit 0\\n- pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases => exit 0\\nMap spot-check: phj bases=[49,55]; thf bases=[49]. Single-base [49] appears only once in config/language-mixer-map.json (no cluster)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T21:21:24.142Z-worker1",
+      "basesKey": "375",
+      "bases": [
+        375
+      ],
+      "isos": [
+        "kuvi",
+        "naiki",
+        "kxu"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T21:21:24.142Z",
+      "updatedAt": "2025-12-18T21:21:24.142Z",
+      "notes": "Decluster bases=[375] (Kui-Kuvi Dravidian) collision among Dravidian trio: kuvi (Kuvi / South-Central Dravidian), naiki (Naiki / Central Dravidian), kxu (Kui (India) / South Dravidian). Delta: tools/mixer-deltas/2025-12-18-decluster-375-kuvi-naiki-kxu.json sets kuvi->[375,200] (Kui-Kuvi Dravidian+Telugu) and naiki->[375,199] (Kui-Kuvi Dravidian+Tamil); leaving kxu as-is."
     }
   ]
 }

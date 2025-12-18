@@ -2752,14 +2752,14 @@
         "cebuano-lang",
         "central-atlas-tamazight"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T21:09:11.471Z",
-      "updatedAt": "2025-12-18T21:09:11.471Z",
+      "updatedAt": "2025-12-18T21:23:13.652Z",
       "reservedRange": [
         8170,
         8219
       ],
-      "notes": "Reserved i range: 8170-8219\nISO->base mapping (fill in):\n- cdz->8170\n- ceb->8171\n- cebaara->8172\n- cebuano-lang->8173\n- central-atlas-tamazight->8174"
+      "notes": "Reserved i range: 8170-8219\nISO->base mapping (fill in):\n- cdz->8170\n- ceb->8171\n- cebaara->8172\n- cebuano-lang->8173\n- central-atlas-tamazight->8174\n\nReserved i range: 8170-8219\nISO->base mapping applied:\n- cdz->8170\n- ceb->8171\n- cebaara->8172\n- cebuano-lang->8173\n- central-atlas-tamazight->8174\n\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-cdz.json\nBase defs: modules/namebases-real.js (dedicated) i:8170–8174\n\nVerification (2025-12-18):\n- pnpm run mixer:guardrails OK\n- pnpm run mixer:check-deltas OK\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only=cdz ceb cebaara cebuano-lang central-atlas-tamazight\\ --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0\n\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-cdz.json\\nBase defs: modules/namebases-real.js i:8170-8174\\n\\nVerification (2025-12-18):\\n- pnpm run mixer:guardrails OK\\n- pnpm run mixer:check-deltas OK\\n- seed-uniqueness --only-failures \\--only-isos=cdz ceb cebaara cebuano-lang central-atlas-tamazight\\ --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0"
     }
   ]
 }

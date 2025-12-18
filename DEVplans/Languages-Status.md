@@ -41,7 +41,7 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-18 (/language-uniqueness setBases batch):** resolved base-set collisions for `bases=[179,251]` (8 ISOs: `chong`, `mnong`, `pear`, `sa-och`, `samre`, `sedang`, `somray`, `suoy`) and `bases=[1,211]` (2 ISOs: `gurindji-kriol`, `light-warlpiri`) via `tools/mixer-deltas/2025-12-18-language-uniqueness-batch1-179-251-1-211-setbases.json`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` => exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` => 0 missing; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` => 0 failing.
 
- - ✅ **2025-12-18 (/language-uniqueness setBases batch):** eliminated Indo-Aryan base-set collisions for 11 ISOs (`dwz`, `dry`, `phr`, `kyv`, `x-nepal-done`, `x-nepal-malpande`, `mby`, `odk`, `vgr`, `xka`, `nlm`) via `tools/mixer-deltas/2025-12-18-language-uniqueness-batch3-indo-aryan-setbases.json`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` => exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` => 0 missing; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` => 0 failing; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --family=Indo-Aryan --include-families` => `clusters=0`.
+ - ✅ **2025-12-18 (/language-uniqueness setBases batch):** eliminated Indo-Aryan base-set collisions for 11 ISOs (`dwz`, `dry`, `phr`, `kyv`, `x-nepal-done`, `x-nepal-malpande`, `mby`, `odk`, `vgr`, `xka`, `nlm`) via `tools/mixer-deltas/2025-12-18-language-uniqueness-batch3-indo-aryan-setbases.json` (final adjustment: `dwz` / `mby` updated to include `257` to avoid collisions with `mtr` / `plk`). Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` => exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` => 0 missing; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` => 0 failing; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --family=Indo-Aryan --include-families` => `clusters=0`.
 
 - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 bgc/bgn/bgp/bgq/bgr):** pins `bgc->7226`, `bgn->7227`, `bgp->7228`, `bgq->7229`, `bgr->7230` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json`; dedicated base defs in `modules/namebases-real.js` `i:7226–7230`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bgc,bgn,bgp,bgq,bgr"` => `Missing mapping: 0`, `No globally-unique base index: 0`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
 
@@ -59,6 +59,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
  - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 bidau-creole-portuguese/bidiyo-language/big-flowery/bikol/bima):** pins `bidau-creole-portuguese->7414`, `bidiyo-language->7415`, `big-flowery->7416`, `bikol->7417`, `bima->7418` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bidau.json` (`tools/mixer-deltas/2025-12-17-worker1-mixed-bidau-creole-portuguese.json` is redundant). Dedicated base defs in `modules/namebases-real.js` `i:7414–7418`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bidau-creole-portuguese,bidiyo-language,big-flowery,bikol,bima"` => `Missing mapping: 0`, `No globally-unique base index: 0`; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
 
  - ✅ **2025-12-18 (/no-unique-base2 claim closure):** marked `batchId=2025-12-17T23:12:51.922Z-worker1` as `status=complete` via `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=2025-12-17T23:12:51.922Z-worker1 --status=complete`.
+
+ - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 camtho/canaano-akkadian/cannanore-portuguese-creole/carolinian/ccp):** pins `camtho->8120`, `canaano-akkadian->8121`, `cannanore-portuguese-creole->8122`, `carolinian->8123`, `ccp->8124` via `tools/mixer-deltas/2025-12-18-worker1-mixed-camtho.json`; base defs in `modules/namebases-real.js` `i:8120–8124`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=camtho,canaano-akkadian,cannanore-portuguese-creole,carolinian,ccp" --limit=300` => `Missing mapping: 0`, `No globally-unique base index: 0`; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
 
  - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 ale/bina/binahari/binandere/binumarien):** pins `ale->7464`, `bina->7465`, `binahari->7466`, `binandere->7467`, `binumarien->7468` via `tools/mixer-deltas/2025-12-18-worker1-mixed-ale.json`. Base defs in `modules/namebases-real.js` `i:7464–7468`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=ale,bina,binahari,binandere,binumarien" --limit=300` => `Missing mapping: 0`, `No globally-unique base index: 0`, strict failures 0, normalized failures 0; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
 
@@ -2112,7 +2114,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 67
+  - `Nonunique Bases:` 57
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 221
@@ -2153,6 +2155,18 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
    - **Delta:** `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-uniqueness-batch2-wayuu-kog-mot-dedicatedpins.json` (pins: `wayuu->7419`, `kog->7420`, `mot->7421`).
    - **Bases:** appended to `modules/namebases-real.js` (`i:7419–7421`) and updated seed blobs for `wayuu/kog` so targeted `seed-uniqueness` passes.
    - **Verification:** `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; targeted seed-uniqueness for `wayuu,kog,mot` => 0 strict failures / 0 normalized failures; coverage: `missing catalog=0`, `missing map=0`; failures: 0; duplicate-isos: 0; map inconsistencies check: OK.
+
+ - **2025-12-18 status (Mayan Nonunique Bases batch1):**
+   - **Batch scope:** reduced list-level `Nonunique Bases` by adding dedicated pins for `qeqchi`, `tzeltal`, `tzotzil`, `yucatec-maya`, `kaqchikel`.
+   - **Delta:** `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-nonunique-mayan-batch1-8125-8129.json` (pins: `qeqchi->8125`, `tzeltal->8126`, `tzotzil->8127`, `yucatec-maya->8128`, `kaqchikel->8129`).
+   - **Bases:** appended to `modules/namebases-real.js` (`i:8125–8129`).
+   - **Verification:** `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; targeted seed-uniqueness for `qeqchi,tzeltal,tzotzil,yucatec-maya,kaqchikel` => 0 strict failures / 0 normalized failures; coverage: `missing catalog=0`, `missing map=0`; failures: 0.
+
+ - **2025-12-18 status (Mayan Nonunique Bases batch2):**
+   - **Batch scope:** reduced list-level `Nonunique Bases` further by adding dedicated pins for `ixl`, `jac`, `kiche`, `lac`, `mam`.
+   - **Delta:** `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-nonunique-mayan-batch2-8130-8134.json` (pins: `ixl->8130`, `jac->8131`, `kiche->8132`, `lac->8133`, `mam->8134`).
+   - **Bases:** appended to `modules/namebases-real.js` (`i:8130–8134`).
+   - **Verification:** `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; targeted seed-uniqueness for `ixl,jac,kiche,lac,mam` => 0 strict failures / 0 normalized failures; coverage: `missing catalog=0`, `missing map=0`; failures: 0; list `Nonunique Bases=57`.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 
