@@ -2798,6 +2798,25 @@
         8319
       ],
       "notes": "Reserved i range: 8270-8319\nISO->base mapping (fill in):\n- central-erzya->8270\n- central-estonian->8271\n- central-finland->8272\n- central-hilali-dialects->8273\n- central-ludic->8274\n\nISO->base mapping applied: central-erzya->8270; central-estonian->8271; central-finland->8272; central-hilali-dialects->8273; central-ludic->8274. Delta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-central-erzya.json. Base defs: modules/namebases-real.js i:8270–8274. Verified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-isos=central-erzya,central-estonian,central-finland,central-hilali-dialects,central-ludic => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied:\n- central-erzya->8270\n- central-estonian->8271\n- central-finland->8272\n- central-hilali-dialects->8273\n- central-ludic->8274\n\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-central-erzya.json\nBase defs: modules/namebases-real.js (dedicated) i:8270–8274\n\nVerification (2025-12-18):\n- pnpm run mixer:guardrails OK\n- pnpm run mixer:apply-deltas OK\n- pnpm run mixer:check-deltas OK\n- seed-uniqueness --only-failures \\--only-isos=central-erzya central-estonian central-finland central-hilali-dialects central-ludic\\ --limit=300 OK\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js OK\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js OK\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 OK"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T22:26:56.321Z-worker1",
+      "isos": [
+        "central-mansi",
+        "central-min",
+        "central-moksha",
+        "central-selkup",
+        "central-tai"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T22:26:56.321Z",
+      "updatedAt": "2025-12-18T22:26:56.321Z",
+      "reservedRange": [
+        8325,
+        8374
+      ],
+      "notes": "Reserved i range: 8325-8374\nISO->base mapping (fill in):\n- central-mansi->8325\n- central-min->8326\n- central-moksha->8327\n- central-selkup->8328\n- central-tai->8329"
     }
   ]
 }

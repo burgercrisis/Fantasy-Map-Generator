@@ -1,0 +1,10 @@
+{
+  "comment": "Wikipedia1 Africa full table: pin remaining NO_UNIQ_BASE items to dedicated bases.",
+  "dedicatedPins": {
+    "tigrinya": 8320,
+    "qwara": 8321,
+    "ga": 8322,
+    "dangme": 8323,
+    "seychellois-creole": 8324
+  }
+}
