@@ -2809,14 +2809,52 @@
         "central-selkup",
         "central-tai"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T22:26:56.321Z",
-      "updatedAt": "2025-12-18T22:26:56.321Z",
+      "updatedAt": "2025-12-18T22:41:39.084Z",
       "reservedRange": [
         8325,
         8374
       ],
-      "notes": "Reserved i range: 8325-8374\nISO->base mapping (fill in):\n- central-mansi->8325\n- central-min->8326\n- central-moksha->8327\n- central-selkup->8328\n- central-tai->8329"
+      "notes": "Reserved i range: 8325-8374\nISO->base mapping (fill in):\n- central-mansi->8325\n- central-min->8326\n- central-moksha->8327\n- central-selkup->8328\n- central-tai->8329\n\nISO->base mapping applied: central-mansi->8325; central-min->8326; central-moksha->8327; central-selkup->8328; central-tai->8329. Delta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-central-mansi.json. Base defs: modules/namebases-real.js i:8325–8329. Verified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness only-isos=central-mansi,central-min,central-moksha,central-selkup,central-tai => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T23:04:36.263Z-worker1",
+      "isos": [
+        "central-tibeto-burman",
+        "central-veps",
+        "central-vychegda",
+        "central-zapotec",
+        "cfm"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T23:04:36.263Z",
+      "updatedAt": "2025-12-18T23:25:02.621Z",
+      "reservedRange": [
+        8375,
+        8424
+      ],
+      "notes": "Reserved i range: 8375-8424\nISO->base mapping (fill in):\n- central-tibeto-burman->8375\n- central-veps->8376\n- central-vychegda->8377\n- central-zapotec->8378\n- cfm->8379\n\nReserved i range: 8375-8424\nISO->base mapping applied: central-tibeto-burman->8375; central-veps->8376; central-vychegda->8377; central-zapotec->8378; cfm->8379.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-central-tibeto-burman.json.\nBase defs: modules/namebases-real.js i:8375–8379.\n\nVerification (/no-unique-base2): pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK (wrote config/language-mixer-map.json and tools/mixer-deltas/_compiled-dedicated-pins.json); pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=central-tibeto-burman central-veps central-vychegda central-zapotec cfm\\ --limit=300 => Target ISOs:5; Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0.\n\nReserved i range: 8375-8424\nISO->base mapping applied:\n- central-tibeto-burman->8375\n- central-veps->8376\n- central-vychegda->8377\n- central-zapotec->8378\n- cfm->8379\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness only-failures (Target ISOs:5) Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T23:32:13.275Z-worker1",
+      "isos": [
+        "gin",
+        "ginuman",
+        "gjk",
+        "gju",
+        "glavda-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T23:32:13.275Z",
+      "updatedAt": "2025-12-18T23:37:12.322Z",
+      "reservedRange": [
+        8431,
+        8480
+      ],
+      "notes": "Reserved i range: 8431-8480\nISO->base mapping (fill in):\n- gin->8431\n- ginuman->8432\n- gjk->8433\n- gju->8434\n- glavda-language->8435\n\nReserved i range: 8431-8480\nISO->base mapping applied: gin->8431; ginuman->8432; gjk->8433; gju->8434; glavda-language->8435.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-gin.json.\nBase defs: modules/namebases-real.js i:8431–8435."
     }
   ]
 }

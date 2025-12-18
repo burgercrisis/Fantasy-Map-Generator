@@ -27,7 +27,11 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-18: Added mixer health stats snapshot script `node tools/mixer-diagnostics/snapshot-mixer-health-stats.js [--diff]` to track coverage totals, failures totals, seed-uniqueness, and base-set cluster summary metrics (including largest cluster size) over time. Outputs:
   - `tools/mixer-diagnostics/_mixer-health-stats.latest.json`
-  - `tools/mixer-diagnostics/_mixer-health-stats.history.jsonl`
+ - `tools/mixer-diagnostics/_mixer-health-stats.history.jsonl`
+
+ - 2025-12-18: Seed-uniqueness burn-down: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300` => strict unique seeds below threshold (among those with unique base): 0; normalized unique seeds below threshold (among those with unique base): 0; remaining failures are `NO_UNIQ_BASE` (no globally-unique base anchor).
+
+ - 2025-12-18: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-18T23:32:13.275Z-worker1 reservedRange=8431-8480 isos=[gin,ginuman,gjk,gju,glavda-language] status=complete. Delta: tools/mixer-deltas/2025-12-18-worker1-mixed-gin.json. Base defs: modules/namebases-real.js i:8431-8435. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures "--only-isos=gin,ginuman,gjk,gju,glavda-language" --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
 
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-first coordination via MCP Coordination Hub workstreams + hub locks; hub locks are the only single-writer enforcement mechanism. Repo-local claim logs remain coordination metadata (batching + reserved ranges + notes).
 

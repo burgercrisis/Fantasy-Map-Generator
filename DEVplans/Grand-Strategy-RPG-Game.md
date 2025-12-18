@@ -75,11 +75,75 @@
  
 ### Locked choices (2025-12-18)
 - Export schema v0.1 scope: **1a** (minimal geo+poli only in v0.1)
+- Export schema v0.1 geo metadata: **Option B** (add extra “nice to have” geo metadata)
 - Encounter location model: **2a** (encounters happen on abstract local maps generated per encounter)
 - Economy in alpha: **3a** (thin economy: upkeep + loot + basic supplies)
 - Export data shape v0.1: **Option A** (location graph export; add full cell graph later as v0.2+)
-- Realm administration MVP depth: **2b** (CK-like realm administration immediately)
+- Realm administration MVP (alpha scope): **2b** (titles + vassalage + claims + succession-lite + legitimacy + simple contracts [one or two knobs])
 - Multiplayer constraint: **3a** (single-player only for alpha)
+- Export schema v0.1 includes `provinces[]`: **Option A** (yes)
+- Export schema v0.1 edges include `path` polyline points: **Option B** (yes; simplified polyline)
+- Export schema v0.1 includes `markers[]`: **Option A** (yes)
+- Export schema v0.1 includes `biomesData`
+
+### Export schema v0.1 (approved field list; 2025-12-18)
+- Scope: geo + poli only (no cultures/religions/languages objects in v0.1)
+- Data shape: location graph (nodes + edges), not full cell graph
+- IDs: preserve FMG integer ids for determinism (`burg.i`, `state.i`, `province.i`, `route.i`, `cellId`)
+
+- Top-level
+  - v: 1
+  - kind: "gsg_world"
+  - exportedAt: ISO string
+  - source
+    - tool: "Fantasy-Map-Generator"
+    - version: FMG VERSION
+    - mapId: FMG mapId
+    - seed: FMG seed
+
+- map
+  - name
+  - width, height (FMG graphWidth/graphHeight)
+  - distanceUnit, distanceScale
+  - areaUnit
+  - heightUnit, heightExponent
+  - mapCoordinates (FMG mapCoordinates)
+
+- provinces[] (from `pack.provinces`)
+  - id
+  - realmId
+  - name
+  - centerCellId (nice-to-have; for encounter seeding)
+  - capitalLocationId (province.burg)
+  - coa (nice-to-have)
+
+- locations[] (nodes; from `pack.burgs`, excluding 0 and removed)
+  - id (burg id)
+  - name
+  - pos: { x, y }
+  - cellId
+  - realmId (burg.state)
+  - isCapital (burg.capital)
+  - population (nice-to-have; burg.population)
+  - isPort / portFeatureId (nice-to-have; burg.port)
+  - Light geo tags at the node (nice-to-have)
+    - biomeId (from pack.cells.biome[cellId])
+    - height (from pack.cells.h[cellId] or converted)
+    - temperature / precip (from grid.cells.temp/prec via pack.cells.g[cellId])
+
+- edges[] (travel edges; derived from `pack.routes`)
+  - id (stable, e.g. ${routeId}:${segmentIndex})
+  - a, b (location ids)
+  - kind: "road" | "trail" | "sea"
+  - distance (in map-distance units)
+  - routeRef: { routeId }
+  - path: simplified polyline points [[x,y], ...]
+
+- markers[] (from `pack.markers`)
+  - id, type, x, y, icon?, size?, style?
+
+- biomesData
+
 - What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?
   - geo+poli first: map topology, realms/holdings, titles, history start date, etc.
   - JSON schema: field list + explicit schema versions

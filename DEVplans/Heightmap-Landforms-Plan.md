@@ -290,3 +290,5 @@ Status (2025-12-18): Tuned `inlandSeaStraits` again to increase surrounding land
 Status (2025-12-18): Tuned `highPlateauCanyons` template to reduce ocean coverage (improved usability).
 
 Status (2025-12-18): Tuned `endorheicBasins` template to reliably generate land (improved usability).
+
+Status (2025-12-18): Tuned `barrierIslands` template to increase livable land area (improved usability).
