@@ -23,6 +23,8 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-18: Regenerated mixer artifacts via `pnpm run mixer:apply-deltas`; verified `pnpm run mixer:check-deltas` => exit 0.
 
+- 2025-12-18: Unblocked `pnpm run mixer:check-deltas` after it failed on missing namebase indices referenced by dedicatedPins deltas (e.g. `8050–8059`, `5387–5392`). Ensured required base definitions exist and removed an accidentally duplicated `i:` range introduced during repair. Verification: `pnpm run mixer:guardrails` => OK; `pnpm run mixer:check-deltas` => exit 0.
+
 - 2025-12-18: Added mixer health stats snapshot script `node tools/mixer-diagnostics/snapshot-mixer-health-stats.js [--diff]` to track coverage totals, failures totals, seed-uniqueness, and base-set cluster summary metrics (including largest cluster size) over time. Outputs:
   - `tools/mixer-diagnostics/_mixer-health-stats.latest.json`
   - `tools/mixer-diagnostics/_mixer-health-stats.history.jsonl`

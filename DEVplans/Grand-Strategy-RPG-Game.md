@@ -5,6 +5,7 @@
 - Minimal C ABI surface finalized (approved) and recorded below.
 - Alpha vertical slice selected: **Slice A — Frontier Ladder (Adventurer → Landed Baron)**.
 - Slice A spec + acceptance criteria recorded (approved): promotion via **win conflict → claim → hold keep 7 days**; **continue as heir**; party governance **Commanded + Democratic**; role-based time controls (**Adventurer**: 15m/1h/travel-until-arrival with autopause events; **Baron**: 1d/1w with auto-drop to Adventurer increments when personally traveling); conflict uses **small grid / tactical encounters** (alpha); more tick-size options later.
+- Slice A expansions locked (approved): encounter taxonomy (**Adventure** / **Security** / **War** [contextual]); encounter outcomes can carry both **tokens** + **values/deltas**; tactical combat is **Kill Team-ish** (alternating activations, cover+LOS, overwatch, pinned/suppression, 2-action economy, objective interactions); hold gauntlet failure outcomes are **contextual** per meter (**Order/Supply/Legitimacy**); governance is **vote-gated Tier 1 minimal** (+ loot division + travel objectives), with limited commanded directives and battle coordination not always guaranteed.
 - Implementation not started.
 
 ## Vision / Requirements (user-stated)

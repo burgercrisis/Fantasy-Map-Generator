@@ -1,5 +1,5 @@
 {
-  "utcIso": "2025-12-18T11:32:49.778Z",
+  "utcIso": "2025-12-18T12:24:59.172Z",
   "coverage": {
     "mapTotal": 3499,
     "catalogTotal": 3499,
@@ -18,15 +18,15 @@
   "seedUniqueness": {
     "targetIsos": 3398,
     "missingMapping": 0,
-    "noGloballyUniqueBaseIndex": 1979,
+    "noGloballyUniqueBaseIndex": 1940,
     "strictBelowThreshold": 0,
-    "normalizedBelowThreshold": 38
+    "normalizedBelowThreshold": 14
   },
   "baseClusters": {
     "consideredCatalogLanguages": 3398,
-    "totalDistinctBaseSets": 2948,
-    "clustersSizeGte2": 62,
-    "entriesInClusters": 512,
+    "totalDistinctBaseSets": 2975,
+    "clustersSizeGte2": 50,
+    "entriesInClusters": 473,
     "largestClusterSize": 161
   }
 }

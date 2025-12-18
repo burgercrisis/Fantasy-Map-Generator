@@ -2695,14 +2695,33 @@
         "buyeo-korean",
         "bwi"
       ],
-      "status": "stalled",
+      "status": "complete",
       "startedAt": "2025-12-18T11:43:56.479Z",
-      "updatedAt": "2025-12-18T11:56:22.722Z",
+      "updatedAt": "2025-12-18T12:09:40.137Z",
       "reservedRange": [
         7975,
         8024
       ],
-      "notes": "Reserved i range: 7975-8024\nISO->base mapping (fill in):\n- burumakok->7975\n- buruwai->7976\n- buyang->7977\n- buyeo-korean->7978\n- bwi->7979\n\nReserved i range: 7975-8024\nISO->base mapping applied:\n- burumakok->7975\n- buruwai->7976\n- buyang->7977\n- buyeo-korean->7978\n- bwi->7979\n\nBLOCKER: cannot run pnpm run mixer:apply-deltas because artifact files are hub-locked by workstreamId=49759a01-43fe-4b8c-9e17-cb5a0222e885 (file:config/language-mixer-map.json, file:config/language-mixer-map.js, file:config/language-mixes-all.js, file:tools/mixer-deltas/_compiled-dedicated-pins.json). Until apply-deltas runs, dedicatedPins in tools/mixer-deltas/2025-12-18-worker1-mixed-burumakok.json won't take effect; seed-uniqueness still reports NO_UNIQ_BASE for the batch."
+      "notes": "Reserved i range: 7975-8024\nISO->base mapping (fill in):\n- burumakok->7975\n- buruwai->7976\n- buyang->7977\n- buyeo-korean->7978\n- bwi->7979\n\nReserved i range: 7975-8024\nISO->base mapping applied:\n- burumakok->7975\n- buruwai->7976\n- buyang->7977\n- buyeo-korean->7978\n- bwi->7979\n\nBLOCKER: cannot run pnpm run mixer:apply-deltas because artifact files are hub-locked by workstreamId=49759a01-43fe-4b8c-9e17-cb5a0222e885 (file:config/language-mixer-map.json, file:config/language-mixer-map.js, file:config/language-mixes-all.js, file:tools/mixer-deltas/_compiled-dedicated-pins.json). Until apply-deltas runs, dedicatedPins in tools/mixer-deltas/2025-12-18-worker1-mixed-burumakok.json won't take effect; seed-uniqueness still reports NO_UNIQ_BASE for the batch.\n\nVerified 2025-12-18T12:07Z: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas FAILED (artifacts out of date vs deltas; needs integrator pnpm run mixer:apply-deltas); seed-uniqueness --only-failures --only-isos=burumakok,buruwai,buyang,buyeo-korean,bwi --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0.\n\nVerification (post-apply-deltas):\\n- pnpm run mixer:guardrails OK\\n- pnpm run mixer:check-deltas OK\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=burumakok buruwai buyang buyeo-korean bwi\\ --limit=300 => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js => 0 missing\\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js => 0 failing\\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 => exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T12:36:07.484Z-worker1",
+      "isos": [
+        "byq",
+        "cahuilla",
+        "cai-long",
+        "caka",
+        "cam"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T12:36:07.484Z",
+      "updatedAt": "2025-12-18T12:36:07.484Z",
+      "reservedRange": [
+        8060,
+        8109
+      ],
+      "notes": "Reserved i range: 8060-8109\nISO->base mapping (fill in):\n- byq->8060\n- cahuilla->8061\n- cai-long->8062\n- caka->8063\n- cam->8064"
     }
   ]
 }

@@ -43,3 +43,29 @@ Notes (unblocker):
   - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (map-only 0; catalog-only 0)
   - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` (0 duplicates)
   - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js` (exit 0; informational output)
+
+- Batch: `mapudungun, ona, yag` (Mapudungun, Ona, Yahgan)
+- Change:
+  - Added `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-uniqueness-bases178-batch1-dedicatedpins.json` to pin these ISOs to dedicated base indices `7944–7946`.
+  - Appended dedicated base defs `i:7944–7946` to `modules/namebases-real.js`.
+- Verification evidence (all exit code 0):
+  - `pnpm run mixer:apply-deltas`
+  - `pnpm run mixer:check-deltas`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=mapudungun,ona,yag --limit=300` (0 failures)
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failures)
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (map-only 0; catalog-only 0)
+  - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` (0 duplicates)
+  - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js` (exit 0; informational output)
+
+- Batch: `kalaallisut, caw, cbb, cbd, cbv, chf, chol, cora, cui, cul` (Kalaallisut, Kallawaya, Cabiyari, Carijona, Kakwa (Cacua), Chontal Maya, Ch'ol, Cora, Cuiba, Kulina)
+- Change:
+  - Added `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-uniqueness-nonunique-bases-batch5-dedicatedpins.json` to pin these ISOs to dedicated base indices `8050–8059`.
+  - Appended dedicated base defs `i:8050–8059` to `modules/namebases-real.js`.
+- Verification evidence (all exit code 0):
+  - `pnpm run mixer:apply-deltas`
+  - `pnpm run mixer:check-deltas`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --only-isos=kalaallisut,caw,cbb,cbd,cbv,chf,chol,cora,cui,cul --limit=300` (0 failures)
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failures)
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (map-only 0; catalog-only 0)
+  - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` (0 duplicates)
+  - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js` (exit 0; informational output)

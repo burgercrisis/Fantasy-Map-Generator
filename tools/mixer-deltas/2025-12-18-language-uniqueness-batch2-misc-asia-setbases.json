@@ -1,0 +1,19 @@
+{
+  "description": "Language-uniqueness batch2: break small base-set collisions via setBases (Misc+Asia)",
+  "setBases": {
+    "inuktitut-english-pidgin": [1, 19, 413],
+    "mednyj-aleut": [1, 19, 414],
+
+    "mnw": [179, 180, 252],
+    "mnw-native-speakers": [29, 179, 180, 251, 252],
+
+    "kha-lyngngam": [179, 182],
+    "kha-native-speakers": [180, 182],
+
+    "kaloeng": [251, 252, 317, 533],
+    "lakkia-kam-sui": [251, 252, 318, 533],
+
+    "tai-hongjin": [252, 317, 530, 532, 533],
+    "qabiao": [252, 317, 530, 531, 533]
+  }
+}
