@@ -2,6 +2,9 @@
 
 ## Status
 - Planning decisions captured (approved).
+- Minimal C ABI surface finalized (approved) and recorded below.
+- Alpha vertical slice selected: **Slice A — Frontier Ladder (Adventurer → Landed Baron)**.
+- Next: draft Slice A spec + acceptance criteria (pending user approval).
 - Implementation not started.
 
 ## Vision / Requirements (user-stated)
@@ -43,6 +46,29 @@
   - narrative event chains + skill checks + loot tables
   - abstract mission system (risk/reward, party composition, limited choices)
 - Primary inspirations: **CK3 + D&D 3.5 + Factorio**
+
+## Approved Minimal C ABI Surface (Rust DLL: `gsg_core`)
+- Types
+  - `gsg_engine_t*`: opaque handle
+  - `gsg_bytes_t`: Rust-owned bytes buffer (UTF-8 JSON)
+  - `gsg_status_t`: 0=ok, non-zero=error
+- Ownership
+  - Rust allocates returned `gsg_bytes_t` buffers; host must free via `gsg_bytes_free`
+  - Stable handle lifetimes
+- Functions
+  - `gsg_engine_create(world_json, config_json, out_engine, out_err_json?)`
+  - `gsg_engine_destroy(engine)`
+  - `gsg_engine_configure_json(engine, config_json, out_err_json?)`
+  - `gsg_engine_submit_commands_json(engine, commands_json, out_err_json?)`
+  - `gsg_engine_advance_by(engine, delta_sim_ms, out_err_json?)`
+  - `gsg_engine_drain_events_json(engine, channels_mask, out_events_json, out_err_json?)`
+  - `gsg_engine_take_snapshot_json(engine, out_snapshot_json, out_err_json?)`
+  - `gsg_engine_load_snapshot_json(engine, snapshot_json, out_err_json?)`
+  - `gsg_get_version_json(out_version_json)`
+  - `gsg_bytes_free(bytes)`
+- Event envelope (JSON)
+  - Always includes `v` (schema version) + `t` (sim-time)
+  - Includes `kind` (numeric) + `type` (string)
 
 ## Open Questions / Next Choices
 - What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?

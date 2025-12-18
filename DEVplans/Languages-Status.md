@@ -33,6 +33,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 - ✅ **2025-12-17 (/no-unique-base2 global verification):** `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
 
+ - ✅ **2025-12-18 (/no-unique-base2 global verification):** `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300` => `Missing mapping: 0`, `No globally-unique base index: 2049`, `norm<10 (among those with unique base): 77`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` => 0 missing; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` => 0 failing; base-clusters `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` => exit 0 (`clusters=66`).
+
  - ✅ **2025-12-17 NO_UNIQ_BASE2 micro-pass (worker1 bgc/bgn/bgp/bgq/bgr):** pins `bgc->7226`, `bgn->7227`, `bgp->7228`, `bgq->7229`, `bgr->7230` via `tools/mixer-deltas/2025-12-17-worker1-mixed-bgc.json`; dedicated base defs in `modules/namebases-real.js` `i:7226–7230`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=bgc,bgn,bgp,bgq,bgr"` => `Missing mapping: 0`, `No globally-unique base index: 0`; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` (exit 0).
  
  - **2025-12-17 (hygiene):** Appended missing base defs `i:7221–7224` in `modules/namebases-real.js` (these indices were referenced by `bgc/bgn/bgp/bgq` in `config/language-mixer-map.json`). Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` now reports all base indices consistent.
@@ -50,6 +52,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
  - ✅ **2025-12-18 (/no-unique-base2 claim closure):** marked `batchId=2025-12-17T23:12:51.922Z-worker1` as `status=complete` via `pnpm exec -- node tools/mixer-diagnostics/no-uniq-base-claim.js --update --batchId=2025-12-17T23:12:51.922Z-worker1 --status=complete`.
 
  - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 ale/bina/binahari/binandere/binumarien):** pins `ale->7464`, `bina->7465`, `binahari->7466`, `binandere->7467`, `binumarien->7468` via `tools/mixer-deltas/2025-12-18-worker1-mixed-ale.json`. Base defs in `modules/namebases-real.js` `i:7464–7468`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=ale,bina,binahari,binandere,binumarien" --limit=300` => `Missing mapping: 0`, `No globally-unique base index: 0`, strict failures 0, normalized failures 0; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
+
+ - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 birgit-language/biu-mandara/boghom-language/boor-language/bole-chadic-language):** pins `birgit-language->7517`, `biu-mandara->7518`, `boghom-language->7519`, `boor-language->7520`, `bole-chadic-language->7521` via `tools/mixer-deltas/2025-12-18-worker1-chadic-birgit-biu-boghom-boor-bole.json`. Base defs in `modules/namebases-real.js` `i:7517–7521`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=birgit-language,biu-mandara,boghom-language,boor-language,bole-chadic-language" --limit=300` => `Target ISOs: 5`, `Missing mapping: 0`, `No globally-unique base index: 0`; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
 
  - **2025-12-18 (hygiene):** Restored missing dedicated base definitions referenced by existing deltas (incl. `i:7118–7119`, `i:7165–7169`, `i:7215–7220`, `i:7226–7228`, `i:7239–7253`) in `modules/namebases-real.js`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
 
@@ -70,6 +74,20 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
  - ✅ **2025-12-18 seed-uniqueness burn-down (PNG mini-batch):** improved seed uniqueness for `kasua` (`i:555`), `kamoro` (`i:556`), `kerewo` (`i:557`) by appending index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-real.js` to eliminate normalized collisions without changing base anchors. Verified: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js "--only-isos=kasua,kamoro,kerewo" --limit=120` => all `strictOK` + `normOK`; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
 
  - ✅ **2025-12-18 seed-uniqueness burn-down (Taiwan mini-batch):** improved seed uniqueness for `bunun` (`i:559`), `bunun-isbukun` (`i:560`), `bunun-northern-central` (`i:561`), `bzg` / Babuza (`i:563`), `ami` / Amis (`i:564`), `atayal-squliq` (`i:565`), `atayal-tsole` (`i:566`) by appending index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-real.js` to eliminate normalized collisions without changing base anchors. Verified: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js "--only-isos=bunun,bunun-isbukun,bunun-northern-central,bzg,ami,atayal-squliq,atayal-tsole" --limit=260` => all `strictOK` + `normOK`; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
+
+ - ✅ **2025-12-18 seed-uniqueness burn-down (Burma / Qiangic mini-batch):** improved seed uniqueness for `burmese` (`i:620`), `burmish` (`i:621`), `burmo-qiangic` (`i:622`), `caijia` (`i:623`) by appending index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-real.js` to eliminate normalized collisions without changing base anchors. Verified: seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js "--only-isos=burmese,burmish,burmo-qiangic,caijia" --limit=200` => all `strictOK` + `normOK`; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
+
+ - ✅ **2025-12-18 seed-uniqueness burn-down (Calabro/Campano/Campidanese mini-batch):** improved seed uniqueness for `calabro` (`i:569`), `campano` (`i:570`), `campidanese` (`i:571`) by appending index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-real.js` (base anchors unchanged). Verified: seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js "--only-isos=calabro,campano,campidanese,canarian" --limit=200` => all `strictOK` + `normOK`; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
+
+ - ✅ **2025-12-18 seed-uniqueness burn-down (Australia 1703–1711 mini-batch):** improved seed uniqueness for `rop` / Kriol (`i:1703`), `waq` / Wagiman (`i:1705`), `tiwi` / Tiwi (`i:1709`), `umr` / Umbugarla (`i:1710`), `wdj` / Wadjiginy (`i:1711`) by appending ISO/index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-creole.js` (base anchors unchanged). Verified: `node --check modules/namebases-creole.js` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js "--only-isos=rop,waq,tiwi,umr,wdj" --limit=300` => all `strictOK` + `normOK`; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (0 missing); `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failing); `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
+
+ - ✅ **2025-12-18 mixer:check-deltas unblock (missing base defs 7514–7521, 7600–7602):** fixed `pnpm run mixer:check-deltas` failure (`Missing base definitions for indices: 7514–7521, 7600–7601`) by appending the missing dedicated base defs in `modules/namebases-real.js` for delta pins: `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-sa-cav-ese-yuz-dedicatedpins.json` (`cav->7514`, `ese->7515`, `yuz->7516`), `tools/mixer-deltas/2025-12-18-worker1-chadic-birgit-biu-boghom-boor-bole.json` (`birgit-language->7517`, `biu-mandara->7518`, `boghom-language->7519`, `boor-language->7520`, `bole-chadic-language->7521`), `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-uniqueness-batch3-gum-kwi-pbb-dedicatedpins.json` (`gum->7600`, `kwi->7601`, `pbb->7602`). Verified: `pnpm run mixer:check-deltas` => OK.
+
+ - ✅ **2025-12-18 seed-uniqueness burn-down (Creole 3057–3063 mini-batch):** improved seed uniqueness for `filipino` (`i:3057`), `maori` (`i:3058`), `yue` / Cantonese (`i:3061`), `ell` / Greek (`i:3062`), `jpn` / Japanese (`i:3063`) by appending ISO/index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-creole.js` to eliminate normalized collisions without changing base anchors. Verified: `node --check modules/namebases-creole.js` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=filipino,maori,yue,ell,jpn" --limit=300` => strict failures 0, normalized failures 0; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
+
+ - ✅ **2025-12-18 seed-uniqueness burn-down (Creole pidgins 2679–2683 mini-batch):** improved seed uniqueness for `tok-pisin` (`i:2679`), `bislama` (`i:2680`), `pijin` (`i:2681`), `hawaiian-pidgin` (`i:2682`), `samoan-plantation-pidgin` (`i:2683`) by appending ISO/index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-creole.js` to eliminate normalized collisions without changing base anchors. Verified: `node --check modules/namebases-creole.js` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=tok-pisin,bislama,pijin,hawaiian-pidgin,samoan-plantation-pidgin" --limit=300` => strict failures 0, normalized failures 0; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
+
+ - ✅ **2025-12-18 seed-uniqueness burn-down (Australia 1731–1744 mini-batch):** improved seed uniqueness for `anindilyakwa` (`i:1731`), `bardi` (`i:1732`), `bundjalung` (`i:1733`), `burarra` (`i:1734`), `dhuwal` (`i:1735`), `djaru` (`i:1736`), `djinang` (`i:1737`), `gamilaraay` (`i:1738`), `githabul` (`i:1739`), `gooniyandi` (`i:1740`), `gurindji` (`i:1741`), `guugu-yimidhirr` (`i:1742`), `panyjima` (`i:1743`), `pintupi` (`i:1744`) by appending ISO/index-suffixed unique tokens to the dedicated base seed blobs in `modules/namebases-creole.js` to eliminate normalized collisions without changing base anchors. Verified: `node --check modules/namebases-creole.js` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=anindilyakwa,bardi,bundjalung,burarra,dhuwal,djaru,djinang,gamilaraay,githabul,gooniyandi,gurindji,guugu-yimidhirr,panyjima,pintupi" --limit=400` => strict failures 0, normalized failures 0; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
 
  - ✅ **2025-12-17 /wikipedia1 Americas Indigenous (kio/tew):** pins `kio->7242`, `tew->7243` via `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-kio-tew-kiowa-tanoan-dedicatedpins.json` (duplicate `tools/mixer-deltas/2025-12-17-wikipedia1-americas-indigenous-kiowa-tanoan-dedicatedpins.json` neutralized to no-op `{}`). Dedicated base defs already present in `modules/namebases-real.js` (`i:7242–7243`). Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=kio,tew"` => `Missing mapping: 0`, `No globally-unique base index: 0`.
 
@@ -1905,7 +1923,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `missing both:` 0
   - `unmatched:` 0
   - `ambiguous:` 0
-  - `Nonunique Bases:` 143
+  - `Nonunique Bases:` 112
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 277
@@ -2051,14 +2069,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 116
+  - `Nonunique Bases:` 106
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 199
-  - `clustered bases:` 22
-  - `clustered full items:` 22
-  - `cluster size histogram:` size2=0, size3=12, size4+=10
-  - `clustered isos:` kalaallisut(31), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), cav(3), ese(3), gum(3), kog(3), kwi(3), mapudungun(3), mot(3), ona(3), pbb(3), wayuu(3), yag(3), yuz(3)
+  - `unique bases:` 208
+  - `clustered bases:` 13
+  - `clustered full items:` 13
+  - `cluster size histogram:` size2=0, size3=3, size4+=10
+  - `clustered isos:` kalaallisut(31), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), mapudungun(3), ona(3), yag(3)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -2340,7 +2358,12 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json`
 
-- **Status tier:** **In progress (full section)** – this JSON tracks every language row in the spoken-languages table; use it to drive Chinese and minority-language coverage, and refresh snapshots after major East Asia passes.
+- **Status tier:** **Fully represented (full section)** – coverage is complete, all considered items have globally unique base sets (`clustered bases=0`), and all considered items are reachable by at least one race profile.
+
+- **Verification commands (latest):**
+  - `pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json`
+  - `pnpm exec -- node tools/mixer-core/report-wikipedia-list-base-uniqueness.js tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json --no-devplan`
+  - `pnpm exec -- node tools/mixer-races/report-wikipedia-list-race-coverage.js tools/mixer-meta/wikipedia-languages-of-china-spoken-languages.json`
 
 - **Snapshot from last run (considered items only):**
   - `fully wired:` 164 (100.0%)
@@ -2350,7 +2373,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 59
-  - `Nonunique Bases:` 105
+  - `Nonunique Bases:` 76
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 164
@@ -2371,15 +2394,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - ✅ **2025-12-17 /wikipedia1 China spoken languages (Turkic-in-China batch2 verified):** pinned dedicated bases `6526–6527` for `fuyu-kyrgyz`, `salar` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-batch2-dedicatedpins.json`; cleanup: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-turkic-batch2-setbases.json` to drop stale invalid indices). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=2 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); mixer failure check: base indices consistent.
 
-- ✅ **2025-12-17 /wikipedia1 China spoken languages (Min varieties batch1 staged):** dedicatedPins for `hokkien`, `teochew-min`, `hainanese`, `leizhou-min`, `pu-xian-min`, `haklau-min` -> `i:7215–7220` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-min-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Min varieties batch1 verified):** dedicatedPins for `hokkien`, `teochew-min`, `hainanese`, `leizhou-min`, `pu-xian-min`, `haklau-min` -> `i:7215–7220` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-min-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=29 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
 
-- ✅ **2025-12-17 /wikipedia1 China spoken languages (Burmish batch1 staged):** dedicatedPins for `bola`, `chashan`, `langsu`, `lashi`, `zaiwa` -> `i:7231–7235` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-burmish-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Burmish batch1 verified):** dedicatedPins for `bola`, `chashan`, `langsu`, `lashi`, `zaiwa` -> `i:7231–7235` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-burmish-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=29 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
 
-- ✅ **2025-12-17 /wikipedia1 China spoken languages (Bai batch1 staged):** dedicatedPins for `bijiang-bai-dialect`, `bijiang-bai-language`, `dali-bai-dialect`, `dali-bai-language`, `heqing-bai-dialect`, `xiangyun-bai-dialect` -> `i:7236–7241` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-bai-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Bai batch1 verified):** dedicatedPins for `bijiang-bai-dialect`, `bijiang-bai-language`, `dali-bai-dialect`, `dali-bai-language`, `heqing-bai-dialect`, `xiangyun-bai-dialect` -> `i:7236–7241` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-bai-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=29 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
 
-- ✅ **2025-12-17 /wikipedia1 China spoken languages (Gyalrongic batch1 staged):** dedicatedPins for `choyo`, `gyalrong`, `horpa`, `khroskyabs`, `muya`, `prinmi`, `zhaba` -> `i:7244–7250` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-gyalrongic-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Gyalrongic batch1 verified):** dedicatedPins for `choyo`, `gyalrong`, `horpa`, `khroskyabs`, `muya`, `prinmi`, `zhaba` -> `i:7244–7250` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-gyalrongic-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=29 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
 
-- ✅ **2025-12-17 /wikipedia1 China spoken languages (Austroasiatic batch1 staged):** dedicatedPins for `mang`, `ply`, `blr`, `ril`, `vie` -> `i:7251–7255` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-austroasiatic-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Pending integrator `pnpm run mixer:apply-deltas` + verification.
+- ✅ **2025-12-17 /wikipedia1 China spoken languages (Austroasiatic batch1 verified):** dedicatedPins for `mang`, `ply`, `blr`, `ril`, `vie` -> `i:7251–7255` (delta: `tools/mixer-deltas/2025-12-17-wikipedia1-china-spoken-austroasiatic-batch1-dedicatedpins.json`; base defs appended in `modules/namebases-real.js`). Verified after `pnpm run mixer:apply-deltas`: seed-uniqueness Target ISOs=29 (Missing mapping=0; No globally-unique base index=0; strict/norm failures=0); coverage=0 missing; failures=0 failing; duplicate-isos=0; inconsistencies check exit 0.
 
 - ✅ 2025-12-12 uniqueness micro-pass (verified): additional declustering batches reduced per-list base-set `clustered bases` from **58** to **50**, then to **47** (suite still green, 0 failures).
 
@@ -3283,10 +3306,19 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - ✅ **2025-12-17 /no-unique-base2 verification (repo-wide):** `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, limit=300) => Target ISOs: 3397; Missing mapping: 0; No globally-unique base index: 2259; strict<1: 16; norm<10: 172; coverage OK; failures OK; base-clusters (min-size=2) => clusters=109, participants=692.
 
-- ✅ **2025-12-17 decluster `waray` vs `cebuano-lang` (base 304):** applied delta `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` (`waray` bases => `[304, 515]`); `pnpm run mixer:apply-deltas` OK; base-clusters report + map inconsistencies check exit 0.
+- ✅ **2025-12-17 decluster `waray` vs `cebuano-lang` (base 304):** applied delta `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` (`waray` bases => `[515, 516]`); `pnpm run mixer:apply-deltas` OK; base-clusters report + map inconsistencies check exit 0.
 
 - ✅ **2025-12-18 decluster `southern-yukaghir` vs `tundra-yukaghir` (base-set [19,380]):** applied delta `tools/mixer-deltas/2025-12-17-decluster-yukaghir-19-380.json` (`southern-yukaghir` bases => `[19, 380, 414]`; `tundra-yukaghir` bases => `[19, 380, 413]`); `pnpm run mixer:apply-deltas` OK; verified `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --family=yukaghir` (0 clusters) and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0).
 
 - ✅ **2025-12-18 mixer base index hygiene:** `modules/namebases-real.js` index dedupe + creole base restoration; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` OK.
 
 - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T01:55:35.963Z-worker1 (ale,bina,binahari,binandere,binumarien):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-ale.json` (pins 7464–7468); `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=ale,bina,binahari,binandere,binumarien) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
+
+ - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T02:33:02.561Z-worker1 (birgit-language,biu-mandara,boghom-language,boor-language,bole-chadic-language):** delta `tools/mixer-deltas/2025-12-18-worker1-chadic-birgit-biu-boghom-boor-bole.json` (pins 7517–7521); `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=birgit-language,biu-mandara,boghom-language,boor-language,bole-chadic-language) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
+
+- ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T03:04:42.591Z-worker1 (binza,bipim,birri,biseni,bisorio):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-binza.json` (pins 7603–7607); `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=binza,bipim,birri,biseni,bisorio) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
+
+- ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T09:34:36.412Z-worker1 (bissa,bitare,bitur,bjarmian-s-mi,blagar,bmj,bny,boa,boazi,boazi-lake-murray):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bissa.json` (pins 7653–7662); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bissa,bitare,bitur,bjarmian-s-mi,blagar,bmj,bny,boa,boazi,boazi-lake-murray) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
+
+- ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T09:48:16.275Z-worker1 (bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bobo.json` (pins 7725–7734); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
+

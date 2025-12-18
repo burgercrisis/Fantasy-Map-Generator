@@ -2513,14 +2513,105 @@
         "boor-language",
         "bole-chadic-language"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T02:33:02.561Z",
-      "updatedAt": "2025-12-18T02:33:02.561Z",
+      "updatedAt": "2025-12-18T09:27:55.634Z",
       "reservedRange": [
         7517,
         7566
       ],
-      "notes": "Reserved i range: 7517-7566\nISO->base mapping (fill in):\n- birgit-language->7517\n- biu-mandara->7518\n- boghom-language->7519\n- boor-language->7520\n- bole-chadic-language->7521"
+      "notes": "Reserved i range: 7517-7566\nISO->base mapping (fill in):\n- birgit-language->7517\n- biu-mandara->7518\n- boghom-language->7519\n- boor-language->7520\n- bole-chadic-language->7521\n\nISO->base mapping:\n- birgit-language->7517\n- biu-mandara->7518\n- boghom-language->7519\n- boor-language->7520\n- bole-chadic-language->7521\n\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-chadic-birgit-biu-boghom-boor-bole.json\nDedicated base defs: modules/namebases-real.js i:7517-7521\n\nSeed uniqueness debt (non-blocking):\n- birgit-language: strictUniqueSeeds=0, normUniqueSeeds=0\n- biu-mandara: strictUniqueSeeds=0, normUniqueSeeds=0\n- boghom-language: strictUniqueSeeds=0, normUniqueSeeds=0\n- boor-language: strictUniqueSeeds=0, normUniqueSeeds=0\n- bole-chadic-language: strictUniqueSeeds=0, normUniqueSeeds=0\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness (only-failures, only-isos=batch) => Missing mapping:0; NO_UNIQ_BASE:0; strict<1:5; norm<10:5; coverage OK; failures OK (note: unrelated messy mapping warnings for gum/kwi/cav/ese/yuz); base-clusters --min-size=2 exit 0.\n\n2025-12-18 verified seed-uniqueness now passes: strict failures 0; norm failures 0 (prior 0/0 debt note appears stale)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T03:04:42.591Z-worker1",
+      "isos": [
+        "binza",
+        "bipim",
+        "birri",
+        "biseni",
+        "bisorio"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T03:04:42.591Z",
+      "updatedAt": "2025-12-18T04:02:31.474Z",
+      "reservedRange": [
+        7603,
+        7652
+      ],
+      "notes": "Reserved i range: 7603-7652\nISO->base mapping (fill in):\n- binza->7603\n- bipim->7604\n- birri->7605\n- biseni->7606\n- bisorio->7607"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T09:34:36.412Z-worker1",
+      "isos": [
+        "bissa",
+        "bitare",
+        "bitur",
+        "bjarmian-s-mi",
+        "blagar",
+        "bmj",
+        "bny",
+        "boa",
+        "boazi",
+        "boazi-lake-murray"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T09:34:36.412Z",
+      "updatedAt": "2025-12-18T09:47:12.988Z",
+      "reservedRange": [
+        7653,
+        7702
+      ],
+      "notes": "Reserved i range: 7653-7702\nISO->base mapping (fill in):\n- bissa->7653\n- bitare->7654\n- bitur->7655\n- bjarmian-s-mi->7656\n- blagar->7657\n- bmj->7658\n- bny->7659\n- boa->7660\n- boazi->7661\n- boazi-lake-murray->7662\n\nISO->base: bissa->7653; bitare->7654; bitur->7655; bjarmian-s-mi->7656; blagar->7657; bmj->7658; bny->7659; boa->7660; boazi->7661; boazi-lake-murray->7662 | Delta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-bissa.json | Base defs: modules/namebases-real.js i:7653-7662\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bissa,bitare,bitur,bjarmian-s-mi,blagar,bmj,bny,boa,boazi,boazi-lake-murray => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0.\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bissa,bitare,bitur,bjarmian-s-mi,blagar,bmj,bny,boa,boazi,boazi-lake-murray --limit=300 => Missing mapping:0; No uniq base:0; strict<1:0; norm<10:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T09:48:16.275Z-worker1",
+      "isos": [
+        "bobo",
+        "bodish",
+        "bodo",
+        "boga-language",
+        "bohtan-neo-aramaic",
+        "bokar",
+        "boko",
+        "bole-niger-congo",
+        "bole-tangale",
+        "bolon"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T09:48:16.275Z",
+      "updatedAt": "2025-12-18T09:58:20.374Z",
+      "reservedRange": [
+        7725,
+        7774
+      ],
+      "notes": "Reserved i range: 7725-7774\nISO->base mapping (fill in):\n- bobo->7725\n- bodish->7726\n- bodo->7727\n- boga-language->7728\n- bohtan-neo-aramaic->7729\n- bokar->7730\n- boko->7731\n- bole-niger-congo->7732\n- bole-tangale->7733\n- bolon->7734\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0.\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon --limit=300 => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T10:01:20.931Z-worker1",
+      "isos": [
+        "bolze",
+        "bomitaba",
+        "bomu",
+        "bonan",
+        "bonan-kangjia",
+        "bonan-manegacha",
+        "bonan-manegacha-dialect",
+        "bongili",
+        "bongo",
+        "bonin-english"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T10:01:20.931Z",
+      "updatedAt": "2025-12-18T10:01:20.931Z",
+      "reservedRange": [
+        7775,
+        7824
+      ],
+      "notes": "Reserved i range: 7775-7824\nISO->base mapping (fill in):\n- bolze->7775\n- bomitaba->7776\n- bomu->7777\n- bonan->7778\n- bonan-kangjia->7779\n- bonan-manegacha->7780\n- bonan-manegacha-dialect->7781\n- bongili->7782\n- bongo->7783\n- bonin-english->7784"
     }
   ]
 }

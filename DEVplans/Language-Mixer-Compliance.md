@@ -21,6 +21,12 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
 - 2025-12-16: Follow-up verification: `pnpm exec -- node tools/mixer-core/apply-mixer-deltas.js --check` => exit 0; `pnpm run mixer:check-deltas` => exit 0.
 
+- 2025-12-18: Regenerated mixer artifacts via `pnpm run mixer:apply-deltas`; verified `pnpm run mixer:check-deltas` => exit 0.
+
+- 2025-12-18: Added mixer health stats snapshot script `node tools/mixer-diagnostics/snapshot-mixer-health-stats.js [--diff]` to track coverage totals, failures totals, seed-uniqueness, and base-set cluster summary metrics (including largest cluster size) over time. Outputs:
+  - `tools/mixer-diagnostics/_mixer-health-stats.latest.json`
+  - `tools/mixer-diagnostics/_mixer-health-stats.history.jsonl`
+
 - 2025-12-14: Multi-agent coordination posture (GLOBAL): hub-first coordination via MCP Coordination Hub workstreams + hub locks; hub locks are the only single-writer enforcement mechanism. Repo-local claim logs remain coordination metadata (batching + reserved ranges + notes).
 
 - 2025-12-16: Hub workstreams cleanup (languages): marked duplicate/superseded language workstreams as completed in hub to reduce coordination noise. Examples: 464ae733-dada-494f-aee4-6a028da25fee, 3a177bc8-4556-4e7a-9474-5edfb8c6731b, 633b892d-2453-4791-9603-44968164c593, 0c4a2458-2ff2-4d30-8b26-ea230ab17b1a, b73a9633-bb0e-406b-9518-c1508b34a5d6, b2d389cb-eed1-4baf-b524-2472bee456bb, 79275889-10da-4d76-919f-0d2a63ead904, c5646672-53cf-461e-986a-a4ed324ffb10.

@@ -276,3 +276,13 @@ These are concrete **template-shaped** variants that map well onto the existing 
 3. Once a few are implemented, update `DEVplans/Changes-vs-Azgaar-master.md` to record which **landform-driven templates** exist only in this fork.
 
 Status (2025-12-17): Implemented 10 new heightmap templates in `config/heightmap-templates.js` and wired them into the Heightmap Editor `templateSelect` dropdown in `index.html`.
+
+Status (2025-12-18): Tuned `tripleJunction` template to generate a larger base landmass (improved usability).
+
+Status (2025-12-18): Tuned `fjordCoast` template X-range placement to be more centered (improved usability).
+
+Status (2025-12-18): Tuned `drownedRiverlands` template to generate a larger base landmass (improved usability).
+
+Status (2025-12-18): Tuned `inlandSeaStraits` template to be less water-heavy and widen straits (improved usability).
+
+Status (2025-12-18): Tuned `inlandSeaStraits` again to increase surrounding landmass and widen connector straits further.

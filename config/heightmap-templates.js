@@ -197,13 +197,16 @@ const heightmapTemplates = (function () {
     Smooth 2 0 0 0
     Mask 3 0 0 0`;
 
-  const tripleJunction = `Range 1-2 45-65 40-60 40-60
-    Trough 1 45-60 45-55 45-55
-    Trough 1 45-60 45-55 45-55
-    Trough 1 45-60 45-55 45-55
-    Pit 1-2 30-45 45-55 45-55
+  const tripleJunction = `Hill 2 80-95 35-65 35-65
+    Hill 10-14 18-30 10-90 15-85
+    Range 2-3 30-45 25-75 25-75
+    Multiply 0.75 land 0 0
+    Trough 1 45-65 45-55 45-55
+    Trough 1 45-65 45-55 45-55
+    Trough 1 45-65 45-55 45-55
+    Pit 1 35-50 45-55 45-55
     Smooth 2 0 0 0
-    Mask 3 0 0 0`;
+    Mask 1.5 0 0 0`;
 
   const backArcChain = `Add 10 all 0 0
     Range 2-3 40-60 15-35 20-80
@@ -230,30 +233,36 @@ const heightmapTemplates = (function () {
     Trough 3-5 20-35 35-65 35-65
     Mask 3 0 0 0`;
 
-  const fjordCoast = `Range 4-6 45-70 0-15 10-90
-    Hill 3-5 35-55 0-20 10-90
+  const fjordCoast = `Range 4-6 45-70 20-35 10-90
+    Hill 3-5 35-55 20-40 10-90
     Smooth 2 0 0 0
-    Trough 12-18 20-35 0-25 5-95
-    Trough 4-6 35-55 20-40 10-90
+    Trough 12-18 20-35 15-40 5-95
+    Trough 4-6 35-55 30-50 10-90
     Multiply 0.9 land 0 0
     Mask 3 0 0 0`;
 
-  const drownedRiverlands = `Add 6 all 0 0
-    Range 1-2 25-40 60-90 20-80
+  const drownedRiverlands = `Hill 1 80-90 60-80 40-60
+    Hill 1 80-90 20-40 40-60
+    Hill 6-8 15-30 20-80 20-80
+    Multiply 0.65 land 0 0
     Smooth 2 0 0 0
-    Trough 10-14 10-18 30-70 20-80
-    Trough 6-8 18-28 60-90 20-80
-    Multiply 0.8 land 0 0
-    Mask 3 0 0 0`;
+    Trough 14-20 10-18 25-75 20-80
+    Trough 8-12 18-28 50-90 20-80
+    Multiply 0.9 land 0 0
+    Mask 2 0 0 0`;
 
-  const inlandSeaStraits = `Range 2-3 40-60 0-100 0-15
-    Range 2-3 40-60 0-100 85-100
-    Pit 1 80-95 45-55 45-55
-    Trough 2-3 40-55 35-65 35-65
-    Strait 1 vertical 0 0
-    Strait 1 horizontal 0 0
+  const inlandSeaStraits = `Add 10 all 0 0
+    Hill 2 80-90 35-65 35-65
+    Hill 10-12 15-25 10-90 15-85
+    Range 2-3 25-40 15-85 20-80
     Smooth 2 0 0 0
-    Mask 3 0 0 0`;
+    Pit 1 70-85 45-55 45-55
+    Trough 1-2 30-45 35-65 35-65
+    Strait 3-4 vertical 0 0
+    Strait 3-4 horizontal 0 0
+    Multiply 0.85 land 0 0
+    Smooth 1 0 0 0
+    Mask 1.5 0 0 0`;
 
   const highPlateauCanyons = `Add 18 all 0 0
     Range 3-4 40-60 20-80 20-80
