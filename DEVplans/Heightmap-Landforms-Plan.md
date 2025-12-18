@@ -286,3 +286,7 @@ Status (2025-12-18): Tuned `drownedRiverlands` template to generate a larger bas
 Status (2025-12-18): Tuned `inlandSeaStraits` template to be less water-heavy and widen straits (improved usability).
 
 Status (2025-12-18): Tuned `inlandSeaStraits` again to increase surrounding landmass and widen connector straits further.
+
+Status (2025-12-18): Tuned `highPlateauCanyons` template to reduce ocean coverage (improved usability).
+
+Status (2025-12-18): Tuned `endorheicBasins` template to reliably generate land (improved usability).

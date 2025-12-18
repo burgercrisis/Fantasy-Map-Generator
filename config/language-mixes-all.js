@@ -3047,6 +3047,14 @@
     "family": "Niger-Congo"
   },
   {
+    "name": "Samo (Burkina)",
+    "iso": "samo-burkina",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samo_language_(Burkina)",
+    "family": "Mande"
+  },
+  {
     "name": "Samwe",
     "iso": "samwe",
     "region": "Africa",

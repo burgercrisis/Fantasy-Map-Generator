@@ -1,0 +1,8 @@
+{
+  "setBases": {
+    "cameroonian-pidgin": [307, 21],
+    "liberian-kreyol": [307, 666],
+    "merico": [307, 1],
+    "pichinglis": [307, 432]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "comment": "Wikipedia1 Africa full table: bind table-row 'Samo' (Mande Samo, Burkina/Mali) to an Africa-specific ISO slug and pin a dedicated base to ensure global base-index uniqueness.",
+  "dedicatedPins": {
+    "samo-burkina": 5372
+  }
+}

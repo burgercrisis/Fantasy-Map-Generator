@@ -2604,14 +2604,86 @@
         "bongo",
         "bonin-english"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-18T10:01:20.931Z",
-      "updatedAt": "2025-12-18T10:01:20.931Z",
+      "updatedAt": "2025-12-18T10:18:30.878Z",
       "reservedRange": [
         7775,
         7824
       ],
-      "notes": "Reserved i range: 7775-7824\nISO->base mapping (fill in):\n- bolze->7775\n- bomitaba->7776\n- bomu->7777\n- bonan->7778\n- bonan-kangjia->7779\n- bonan-manegacha->7780\n- bonan-manegacha-dialect->7781\n- bongili->7782\n- bongo->7783\n- bonin-english->7784"
+      "notes": "Reserved i range: 7775-7824\nISO->base mapping (fill in):\n- bolze->7775\n- bomitaba->7776\n- bomu->7777\n- bonan->7778\n- bonan-kangjia->7779\n- bonan-manegacha->7780\n- bonan-manegacha-dialect->7781\n- bongili->7782\n- bongo->7783\n- bonin-english->7784\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bolze,bomitaba,bomu,bonan,bonan-kangjia,bonan-manegacha,bonan-manegacha-dialect,bongili,bongo,bonin-english => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0.\n\n2025-12-18T10:13:37.682Z: Verified bolze batch (bolze,bomitaba,bomu,bonan,bonan-kangjia,bonan-manegacha,bonan-manegacha-dialect,bongili,bongo,bonin-english). mixer:check-deltas OK; seed-uniqueness Target ISOs:10 (Missing mapping:0; No globally-unique base index:0; strict/norm below threshold:0); coverage 0 missing; failures 0 failing; base-clusters exit 0. Delta: tools/mixer-deltas/2025-12-18-worker1-mixed-bolze.json\n\nVerified 2025-12-18: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bolze,bomitaba,bomu,bonan,bonan-kangjia,bonan-manegacha,bonan-manegacha-dialect,bongili,bongo,bonin-english --limit=300 => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nVerified 2025-12-18: pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bolze,bomitaba,bomu,bonan,bonan-kangjia,bonan-manegacha,bonan-manegacha-dialect,bongili,bongo,bonin-english --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T10:20:16.790Z-worker1",
+      "isos": [
+        "bonjo",
+        "bono-ghana-ivory-coast",
+        "bono-nigeria",
+        "boon",
+        "borgarm-let",
+        "bouhin",
+        "bourbonnais-creole",
+        "bozal-spanish",
+        "bph",
+        "bpy"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T10:20:16.790Z",
+      "updatedAt": "2025-12-18T10:33:33.498Z",
+      "reservedRange": [
+        7825,
+        7874
+      ],
+      "notes": "Reserved i range: 7825-7874\nISO->base mapping (fill in):\n- bonjo->7825\n- bono-ghana-ivory-coast->7826\n- bono-nigeria->7827\n- boon->7828\n- borgarm-let->7829\n- bouhin->7830\n- bourbonnais-creole->7831\n- bozal-spanish->7832\n- bph->7833\n- bpy->7834\n\nReserved i range: 7825-7874\nISO->base mapping:\n- bonjo->7825\n- bono-ghana-ivory-coast->7826\n- bono-nigeria->7827\n- boon->7828\n- borgarm-let->7829\n- bouhin->7830\n- bourbonnais-creole->7831\n- bozal-spanish->7832\n- bph->7833\n- bpy->7834\n\nVerified 2025-12-18T10:33:33.498Z: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=bonjo,bono-ghana-ivory-coast,bono-nigeria,boon,borgarm-let,bouhin,bourbonnais-creole,bozal-spanish,bph,bpy --limit=300 => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0. Delta: tools/mixer-deltas/2025-12-18-worker1-mixed-bonjo.json"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-18T10:29:39.359Z-worker2",
+      "isos": [
+        "brahui",
+        "braj",
+        "brao-bahnaric",
+        "brd",
+        "brg",
+        "broken-oghibbeway",
+        "broken-slavey",
+        "broome-pearling-lugger-pidgin",
+        "bru",
+        "bsh"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T10:29:39.359Z",
+      "updatedAt": "2025-12-18T10:39:33.605Z",
+      "reservedRange": [
+        7875,
+        7924
+      ],
+      "notes": "Reserved i range: 7875-7924\nISO->base mapping (fill in):\n- brahui->7875\n- braj->7876\n- brao-bahnaric->7877\n- brd->7878\n- brg->7879\n- broken-oghibbeway->7880\n- broken-slavey->7881\n- broome-pearling-lugger-pidgin->7882\n- bru->7883\n- bsh->7884\n\n2025-12-18T10:39:07.791Z: Verified worker2 brahui batch (brahui,braj,brao-bahnaric,brd,brg,broken-oghibbeway,broken-slavey,broome-pearling-lugger-pidgin,bru,bsh). mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness Target ISOs:10 (Missing mapping:0; No globally-unique base index:0; strict/norm below threshold:0); coverage 0 missing; failures 0 failing; base-clusters exit 0. Delta: tools/mixer-deltas/2025-12-18-worker2-mixed-brahui.json"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T10:46:09.168Z-worker1",
+      "isos": [
+        "btv",
+        "budza",
+        "bug",
+        "buk",
+        "bukharian-arabic",
+        "buli",
+        "bunak",
+        "bundeli",
+        "bunu",
+        "buru-angwe"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-18T10:46:09.168Z",
+      "updatedAt": "2025-12-18T10:46:09.168Z",
+      "reservedRange": [
+        7925,
+        7974
+      ],
+      "notes": "Reserved i range: 7925-7974\nISO->base mapping (fill in):\n- btv->7925\n- budza->7926\n- bug->7927\n- buk->7928\n- bukharian-arabic->7929\n- buli->7930\n- bunak->7931\n- bundeli->7932\n- bunu->7933\n- buru-angwe->7934"
     }
   ]
 }

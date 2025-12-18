@@ -264,20 +264,22 @@ const heightmapTemplates = (function () {
     Smooth 1 0 0 0
     Mask 1.5 0 0 0`;
 
-  const highPlateauCanyons = `Add 18 all 0 0
+  const highPlateauCanyons = `Add 30 all 0 0
+    Mask 2 0 0 0
     Range 3-4 40-60 20-80 20-80
     Smooth 4 0 0 0
-    Multiply 0.85 land 0 0
-    Trough 8-12 25-40 10-90 10-90
-    Trough 4-6 35-55 20-80 20-80
-    Mask 3 0 0 0`;
-
-  const endorheicBasins = `Add 8 all 0 0
-    Mask -2 0 0 0
-    Pit 12-18 12-20 20-80 20-80
-    Pit 3-5 25-35 35-65 35-65
-    Smooth 3 0 0 0
     Multiply 0.9 land 0 0
+    Trough 8-12 25-40 10-90 10-90
+    Trough 4-6 30-45 20-80 20-80
+    Mask 1.5 0 0 0`;
+
+  const endorheicBasins = `Add 45 all 0 0
+    Mask -2 0 0 0
+    Multiply 0.9 land 0 0
+    Smooth 2 0 0 0
+    Pit 14-20 12-20 20-80 20-80
+    Pit 3-5 25-35 35-65 35-65
+    Smooth 2 0 0 0
     Mask 3 0 0 0`;
 
   return {

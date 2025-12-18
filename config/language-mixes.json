@@ -20462,6 +20462,14 @@
     "family": "East Strickland"
   },
   {
+    "name": "Samo (Burkina)",
+    "iso": "samo-burkina",
+    "region": "Africa",
+    "category": "Niger-Congo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samo_language_(Burkina)",
+    "family": "Mande"
+  },
+  {
     "name": "Samoan",
     "iso": "samoan",
     "region": "Pacific",

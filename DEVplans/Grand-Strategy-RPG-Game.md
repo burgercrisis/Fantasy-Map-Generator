@@ -4,7 +4,7 @@
 - Planning decisions captured (approved).
 - Minimal C ABI surface finalized (approved) and recorded below.
 - Alpha vertical slice selected: **Slice A — Frontier Ladder (Adventurer → Landed Baron)**.
-- Next: draft Slice A spec + acceptance criteria (pending user approval).
+- Slice A spec + acceptance criteria recorded (approved): promotion via **win conflict → claim → hold keep 7 days**; **continue as heir**; party governance **Commanded + Democratic**; role-based time controls (**Adventurer**: 15m/1h/travel-until-arrival with autopause events; **Baron**: 1d/1w with auto-drop to Adventurer increments when personally traveling); conflict uses **small grid / tactical encounters** (alpha); more tick-size options later.
 - Implementation not started.
 
 ## Vision / Requirements (user-stated)

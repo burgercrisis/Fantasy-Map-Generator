@@ -55,6 +55,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
  - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 birgit-language/biu-mandara/boghom-language/boor-language/bole-chadic-language):** pins `birgit-language->7517`, `biu-mandara->7518`, `boghom-language->7519`, `boor-language->7520`, `bole-chadic-language->7521` via `tools/mixer-deltas/2025-12-18-worker1-chadic-birgit-biu-boghom-boor-bole.json`. Base defs in `modules/namebases-real.js` `i:7517–7521`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=birgit-language,biu-mandara,boghom-language,boor-language,bole-chadic-language" --limit=300` => `Target ISOs: 5`, `Missing mapping: 0`, `No globally-unique base index: 0`; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
 
+ - ✅ **2025-12-18 NO_UNIQ_BASE2 micro-pass (worker1 bonjo/bono-ghana-ivory-coast/bono-nigeria/boon/borgarm-let/bouhin/bourbonnais-creole/bozal-spanish/bph/bpy):** pins `bonjo->7825`, `bono-ghana-ivory-coast->7826`, `bono-nigeria->7827`, `boon->7828`, `borgarm-let->7829`, `bouhin->7830`, `bourbonnais-creole->7831`, `bozal-spanish->7832`, `bph->7833`, `bpy->7834` via `tools/mixer-deltas/2025-12-18-worker1-mixed-bonjo.json`. Base defs in `modules/namebases-real.js` `i:7825–7834`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=bonjo,bono-ghana-ivory-coast,bono-nigeria,boon,borgarm-let,bouhin,bourbonnais-creole,bozal-spanish,bph,bpy" --limit=300` => `Missing mapping: 0`, `No globally-unique base index: 0`; coverage 0 missing; failures 0 failing; base-clusters (`--min-size=2`) exit 0.
+
  - **2025-12-18 (hygiene):** Restored missing dedicated base definitions referenced by existing deltas (incl. `i:7118–7119`, `i:7165–7169`, `i:7215–7220`, `i:7226–7228`, `i:7239–7253`) in `modules/namebases-real.js`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK.
 
  - ✅ **2025-12-18 seed-uniqueness burn-down (Proto-Uralic mini-batch):** improved seed uniqueness for `forest-nenets` (`i:3243`), `proto-finnic` (`i:3244`), `proto-sami` (`i:3242`), `proto-uralic` (`i:3246`) by updating dedicated base seed blobs in `modules/namebases-real.js` to include index-suffixed tokens. Verified: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js "--only-isos=forest-nenets,proto-finnic,proto-sami,proto-uralic" --limit=300` => each `strictUniqueSeeds=12` and `normUniqueSeeds=12`; `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` OK; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` OK (exit 0).
@@ -108,6 +110,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 - ✅ **2025-12-17 Decluster bases=[11,66,68] (Dzao Min vs Iu Mien):** applied `tools/mixer-deltas/2025-12-17-decluster-11-66-68-dzao-min-iu-mien.json` to set `iu-mien` bases to `[11,68,74]` while `dzao-min` remains `[11,66,68]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
 
 - ✅ **2025-12-17 Decluster bases=[304] (Waray vs Cebuano):** applied `tools/mixer-deltas/2025-12-17-decluster-304-war-cebuano.json` to set `waray` bases to `[515,516]` while `cebuano-lang` remains `[304]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified `-- bases=[304]` cluster is gone via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` and verified map health via `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (exit 0).
+
+- ✅ **2025-12-18 Decluster bases=[369] (Micronesian: carolinian / Sonsorolese / Tobian):** applied `tools/mixer-deltas/2025-12-18-decluster-369-micronesian.json` to set `sonsorolese` bases to `[369,370]` and `tobian` bases to `[369,371]` while `carolinian` remains `[369]`; regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
 
 - ✅ **2025-12-17 Decluster bases=[375,388] (Kurukh vs Kisan):** applied `tools/mixer-deltas/2025-12-17-decluster-kurukh-xis.json` to set `kurukh` bases to `[375,376]` and `xis` bases to `[374,375,376]` (removing the implausible Amazonian base `388`); regenerated artifacts via `pnpm run mixer:apply-deltas`; verified via `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` and `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` (both exit 0).
 
@@ -2069,14 +2073,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 106
+  - `Nonunique Bases:` 100
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 208
-  - `clustered bases:` 13
-  - `clustered full items:` 13
-  - `cluster size histogram:` size2=0, size3=3, size4+=10
-  - `clustered isos:` kalaallisut(31), cag(10), con(10), enl(10), fun(10), ito(10), kanamari(10), lec(10), moc(10), noa(10), mapudungun(3), ona(3), yag(3)
+  - `unique bases:` 213
+  - `clustered bases:` 8
+  - `clustered full items:` 8
+  - `cluster size histogram:` size2=0, size3=3, size4+=5
+  - `clustered isos:` kalaallisut(31), enl(5), kanamari(5), moc(5), noa(5), mapudungun(3), ona(3), yag(3)
 
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
@@ -3320,5 +3324,10 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 
 - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T09:34:36.412Z-worker1 (bissa,bitare,bitur,bjarmian-s-mi,blagar,bmj,bny,boa,boazi,boazi-lake-murray):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bissa.json` (pins 7653–7662); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bissa,bitare,bitur,bjarmian-s-mi,blagar,bmj,bny,boa,boazi,boazi-lake-murray) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
 
-- ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T09:48:16.275Z-worker1 (bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bobo.json` (pins 7725–7734); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
+ - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T09:48:16.275Z-worker1 (bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bobo.json` (pins 7725–7734); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bobo,bodish,bodo,boga-language,bohtan-neo-aramaic,bokar,boko,bole-niger-congo,bole-tangale,bolon) OK; coverage OK; failures OK; base-clusters (min-size=2) OK.
 
+ - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T10:01:20.931Z-worker1 (bolze,bomitaba,bomu,bonan,bonan-kangjia,bonan-manegacha,bonan-manegacha-dialect,bongili,bongo,bonin-english):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bolze.json` (pins 7775–7784); `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bolze,bomitaba,bomu,bonan,bonan-kangjia,bonan-manegacha,bonan-manegacha-dialect,bongili,bongo,bonin-english) OK; coverage OK; failures OK; base-clusters (min-size=2) OK; claim marked `complete` via `no-uniq-base-claim.js` (updatedAt=`2025-12-18T10:18:30.878Z`).
+
+ - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T10:20:16.790Z-worker1 (bonjo,bono-ghana-ivory-coast,bono-nigeria,boon,borgarm-let,bouhin,bourbonnais-creole,bozal-spanish,bph,bpy):** delta `tools/mixer-deltas/2025-12-18-worker1-mixed-bonjo.json` (pins 7825–7834); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=bonjo,bono-ghana-ivory-coast,bono-nigeria,boon,borgarm-let,bouhin,bourbonnais-creole,bozal-spanish,bph,bpy) OK; coverage OK; failures OK; base-clusters (min-size=2) OK; claim marked `complete` via `no-uniq-base-claim.js` (updatedAt=`2025-12-18T10:33:33.498Z`).
+
+ - ✅ **2025-12-18 /no-unique-base2 batch 2025-12-18T10:29:39.359Z-worker2 (brahui,braj,brao-bahnaric,brd,brg,broken-oghibbeway,broken-slavey,broome-pearling-lugger-pidgin,bru,bsh):** delta `tools/mixer-deltas/2025-12-18-worker2-mixed-brahui.json` (pins 7875–7884); `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=brahui,braj,brao-bahnaric,brd,brg,broken-oghibbeway,broken-slavey,broome-pearling-lugger-pidgin,bru,bsh) OK; coverage OK; failures OK; base-clusters (min-size=2) OK; claim marked `complete` via `no-uniq-base-claim.js` (updatedAt=`2025-12-18T10:39:33.605Z`).
