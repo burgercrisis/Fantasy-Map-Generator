@@ -169,7 +169,7 @@ window.Cultures = (function () {
       const sanitized = names
         .map(n =>
           String(n || "")
-            .replace(/[/|,]/g, "")
+            .replace(/[/|,\d]/g, "")
             .replace(/_unq\d+\b/gi, "")
             .replace(/_/g, "")
             .trim()
@@ -256,7 +256,7 @@ window.Cultures = (function () {
       const sanitized = names
         .map(n =>
           String(n || "")
-            .replace(/[/|,]/g, "")
+            .replace(/[/|,\d]/g, "")
             .replace(/_unq\d+\b/gi, "")
             .replace(/_/g, "")
             .trim()

@@ -1,10 +1,13 @@
-"use strict";
-
 window.Names = (function () {
   let chains = [];
   const missingNamebaseWarned = new Set();
   let _definedBaseIndices = null;
   let _definedBaseIndicesLen = -1;
+
+  function sanitizeName(name) {
+    if (typeof name !== "string") return name;
+    return name.replace(/\d/g, "").replace(/\|/g, "").replace(/_unq\d+\b/gi, "").replace(/_u\d+\b/gi, "").replace(/_/g, "");
+  }
 
   const rebuildDefinedBaseIndices = () => {
     const indices = [];
@@ -163,6 +166,8 @@ window.Names = (function () {
       ERROR && console.error("Name is too short! Random name will be selected");
       name = ra(nameBases[base].b.split(","));
     }
+
+    name = sanitizeName(name);
 
     return name;
   };

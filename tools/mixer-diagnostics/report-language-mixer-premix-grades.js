@@ -46,6 +46,14 @@ function splitSeeds(blob) {
     .filter(Boolean);
 }
 
+function isSyntheticFillerToken(iso, seed) {
+  if (!iso || !seed) return false;
+  const s = String(seed).trim();
+  if (!s) return false;
+  const re = new RegExp(`^${iso}_(?:unq|fill)\\d+$`, "i");
+  return re.test(s);
+}
+
 function isFamilyEntry(entry) {
   return !!(entry && Array.isArray(entry.tags) && entry.tags.includes("family"));
 }
@@ -56,12 +64,14 @@ function parseArgs(argv) {
     below: null,
     limit: 200,
     onlyIsos: null,
+    allowFillers: false,
     json: false,
     help: args.includes("--help") || args.includes("-h")
   };
 
   for (const a of args) {
     if (a === "--json") out.json = true;
+    if (a === "--allow-fillers" || a === "--fast-pass") out.allowFillers = true;
     if (a.startsWith("--below=")) out.below = Number(a.split("=")[1]);
     if (a.startsWith("--limit=")) out.limit = Number(a.split("=")[1]);
     if (a.startsWith("--only-isos=")) {
@@ -89,10 +99,12 @@ function gradeFromCount(count) {
 }
 
 function main() {
-  const {below, limit, onlyIsos, json, help} = parseArgs(process.argv);
+  const {below, limit, onlyIsos, allowFillers, json, help} = parseArgs(process.argv);
   if (help) {
     console.log("Usage:");
-    console.log("  node tools/mixer-diagnostics/report-language-mixer-premix-grades.js [--below=50] [--limit=200] [--only-isos=iso1,iso2] [--json]");
+    console.log(
+      "  node tools/mixer-diagnostics/report-language-mixer-premix-grades.js [--below=50] [--limit=200] [--only-isos=iso1,iso2] [--allow-fillers|--fast-pass] [--json]"
+    );
     console.log("");
     console.log("Grade bands:");
     console.log("  A: >=50");
@@ -101,6 +113,11 @@ function main() {
     console.log("  C: 20-29");
     console.log("  D: 10-19");
     console.log("  F: 0-9");
+    console.log("");
+    console.log("Synthetic filler tokens:");
+    console.log("  By default, synthetic filler tokens are excluded from premix counts.");
+    console.log("  Use --allow-fillers (or --fast-pass) to include them.");
+    console.log("  Detected fillers match: <iso>_(unq|fill)<digits> (e.g., eng_unq1)");
     return;
   }
 
@@ -127,41 +144,84 @@ function main() {
   for (const iso of target) {
     const bases = mapByIso.get(iso);
     const premix = new Set();
+    const fillers = new Set();
     if (Array.isArray(bases)) {
       for (const b of bases) {
         if (typeof b !== "number") continue;
         const base = nameBases[b];
         const seeds = base ? splitSeeds(base.b) : [];
-        for (const s of seeds) premix.add(s);
+        for (const s of seeds) {
+          if (isSyntheticFillerToken(iso, s)) fillers.add(s);
+          else premix.add(s);
+        }
       }
     }
 
-    const count = premix.size;
+    const count = premix.size + (allowFillers ? fillers.size : 0);
     const grade = gradeFromCount(count);
 
     if (below != null && count >= below) continue;
 
-    rows.push({iso, count, grade});
+    rows.push({iso, count, grade, fillerCount: fillers.size, fillerSamples: Array.from(fillers).slice(0, 5)});
   }
 
   rows.sort((a, b) => a.count - b.count || a.iso.localeCompare(b.iso));
 
   const limited = rows.slice(0, limit);
 
+  const fillerRows = rows
+    .filter(r => r.fillerCount > 0)
+    .sort((a, b) => b.fillerCount - a.fillerCount || a.iso.localeCompare(b.iso));
+
+  const totalFillerTokens = fillerRows.reduce((acc, r) => acc + r.fillerCount, 0);
+
   if (json) {
-    process.stdout.write(JSON.stringify({targetIsos: target.length, rows: limited}, null, 2) + "\n");
+    process.stdout.write(
+      JSON.stringify(
+        {
+          targetIsos: target.length,
+          allowFillers,
+          fillerUsage: {
+            isosWithFillers: fillerRows.length,
+            totalFillerTokens
+          },
+          rows: limited
+        },
+        null,
+        2
+      ) + "\n"
+    );
     return;
   }
 
   console.log("Target ISOs:", target.length);
   if (below != null) console.log("Filter: count <", below);
   if (onlyIsos) console.log("Only ISOs:", onlyIsos.join(","));
+  console.log("Allow fillers:", allowFillers);
   console.log("");
 
   console.log("iso | premixCount | grade");
   console.log("--- | ---------- | -----");
   for (const r of limited) {
     console.log(`${r.iso} | ${r.count} | ${r.grade}`);
+  }
+
+  if (fillerRows.length) {
+    console.log("");
+    console.log("Synthetic filler usage (detected in premix inputs):");
+    console.log("  ISOs with fillers:", fillerRows.length);
+    console.log("  Total filler tokens:", totalFillerTokens);
+    if (!allowFillers) {
+      console.log("  Note: filler tokens are excluded from premixCount by default.");
+      console.log("        Re-run with --allow-fillers (or --fast-pass) to include them.");
+    }
+    console.log("");
+    console.log("iso | fillerCount | sampleFillers");
+    console.log("--- | ---------- | -------------");
+    for (const r of fillerRows) {
+      const sample = r.fillerSamples.join(",");
+      console.log(`${r.iso} | ${r.fillerCount} | ${sample}`);
+    }
   }
 }
 

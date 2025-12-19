@@ -3,9 +3,9 @@
 (function () {
   if (!window.Names) return;
 
-  // internal cache for ISO→base mapping. Prefer a preloaded JS map (window.languageMixerMap)
-  // and fall back to a tiny JSON fetch for older setups.
-  let _languageMixerMap = null;
+  function sanitizeName(name) {
+    if (typeof name !== "string") return name;
+    return name.replace(/\d/g, "").replace(/\|/g, "").replace(/_unq\d+\b/gi, "").replace(/_u\d+\b/gi, "").replace(/_/g, "");
   let _mixedNameTooShortLogged = false;
 
   function loadLanguageMixerMapSync() {
@@ -454,7 +454,7 @@
       }
 
       return {
-        text: compound,
+        text: sanitizeName(compound),
         segInfos: segs
       };
     }
@@ -500,7 +500,7 @@
         max: requestedMax,
         dupl: base.d || ""
       });
-      return {text: name, bases: [ctx.idx]};
+      return {text: sanitizeName(name), bases: [ctx.idx]};
     }
 
     const usedIdxs = Array.from(new Set(best.segInfos.map(s => s.shape.baseIndex))).sort((a, b) => a - b);
@@ -600,7 +600,7 @@
       name = ra(baseConfig.b.split(","));
     }
 
-    return name;
+    return sanitizeName(name);
   }
 
   function getMixedBaseManyV19(baseIndices, options) {
@@ -1138,7 +1138,7 @@
           .join("");
       }
 
-      return {text: name, segTexts: segs, baseSeq, usedBasesCount: usedBases.size};
+      return {text: sanitizeName(name), segTexts: segs, baseSeq, usedBasesCount: usedBases.size};
     }
 
     const names = [];

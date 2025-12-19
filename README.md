@@ -17,19 +17,21 @@ Planned (rough priority order for this fork):
 
 - **1.** [Add the Underdark](DEVplans/Underdark.md)
 
-- **2.** [Add Individuals](DEVplans/Individuals.md)
+- **2.** [Upgrade Renderering to DeckGL Hybrid](DEVplans\Rendering-Option1-DeckGL-Hybrid.md)
 
-- **3.** [Heightmap Landforms Plan](DEVplans/Heightmap-Landforms-Plan.md)
+- **3.** [Add Individuals](DEVplans/Individuals.md)
 
-- **4.** [Heightmap World Builder (Composite Generator) Plan](DEVplans/Heightmap-Worldbuilder.md)
+- **4.** [Heightmap Landforms Plan](DEVplans/Heightmap-Landforms-Plan.md)
 
-- **5.** [Options Min–Max Sliders – Plan](DEVplans/Options-MinMax-Sliders.md)
+- **5.** [Heightmap World Builder (Composite Generator) Plan](DEVplans/Heightmap-Worldbuilder.md)
 
-- **6.** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](DEVplans/Characters.md)
+- **6.** [Options Min–Max Sliders – Plan](DEVplans/Options-MinMax-Sliders.md)
 
-- **7.** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](DEVplans/Evolving-Simulation.md)
+- **7.** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](DEVplans/Characters.md)
 
-- **8.** [Evolving simulation knobs & choices / k-NN-iffication](DEVplans/Evolving-Simulation-Choices.md)
+- **8.** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](DEVplans/Evolving-Simulation.md)
+
+- **9.** [Evolving simulation knobs & choices / k-NN-iffication](DEVplans/Evolving-Simulation-Choices.md)
 
 - **00. Nice-to-have:** get Gemini API working, maybe add more AI APIs.
 

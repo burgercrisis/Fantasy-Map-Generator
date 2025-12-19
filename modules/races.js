@@ -971,7 +971,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
           if (!Array.isArray(names) || names.length < 3) return null;
 
           const sanitized = names
-            .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+            .map(n => String(n || "").replace(/[/|,\d]/g, "").replace(/_unq\d+\b/gi, "").replace(/_/g, "").trim())
             .filter(Boolean);
 
           if (sanitized.length < 3) return null;
@@ -1051,7 +1051,7 @@ function ensureRaceMixerBaseIndex(raceName, options) {
     if (!Array.isArray(names) || names.length < 3) return null;
 
     const sanitized = names
-      .map(n => String(n || "").replace(/[/|,]/g, "").trim())
+      .map(n => String(n || "").replace(/[/|,\d]/g, "").replace(/_unq\d+\b/gi, "").replace(/_/g, "").trim())
       .filter(Boolean);
 
     if (sanitized.length < 3) return null;

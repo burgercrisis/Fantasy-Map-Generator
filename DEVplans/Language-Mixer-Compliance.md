@@ -33,6 +33,12 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
 
  - 2025-12-19: Added multi-agent workflow for premix Grade-A burn-down: `.windsurf/workflows/premix-grade-a-burn-down.md` (hub-first batching + integrator lane) and helper report `node tools/mixer-diagnostics/report-language-mixer-premix-grades.js --below=50` to list backlog candidates.
 
+ - 2025-12-19: Premix Grade-A policy: synthetic filler tokens are forbidden by default for premix grade measurement. Diagnostics now detect ISO-prefixed fillers matching `<iso>_(unq|fill)<digits>` (e.g., `eng_unq1`) and exclude them from premix counts unless explicitly opted-in via `--allow-fillers` / `--fast-pass`. All detected filler usage is logged (per ISO + totals) in both `report-language-mixer-premix-grades.js` and `snapshot-mixer-health-stats.js` outputs.
+
+ - 2025-12-19: Premix Grade-A burn-down micro-batch: raised `sula-malay` and `mah-meri` to grade A by expanding premix seed token lists in `modules/namebases-real.js` for bases `i:457` and `i:459`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `node tools/mixer-diagnostics/report-language-mixer-premix-grades.js --only-isos=sula-malay,mah-meri` => `mah-meri` count=51 grade=A; `sula-malay` count=52 grade=A.
+
+ - 2025-12-19: Premix Grade-A burn-down micro-batch: raised `norfuk`, `pitkern`, `orang-pulo`, `kupang-malay`, and `ace` to grade A by expanding premix seed token lists in `modules/namebases-creole.js` for bases `i:1556` and `i:1557`, and in `modules/namebases-real.js` for bases `i:469`, `i:447`, and `i:518`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; `node tools/mixer-diagnostics/report-language-mixer-premix-grades.js --only-isos=norfuk,pitkern,orang-pulo,kupang-malay,ace` => `norfuk` count=51 grade=A; `pitkern` count=51 grade=A; `orang-pulo` count=51 grade=A; `ace` count=53 grade=A; `kupang-malay` count=53 grade=A.
+
  - 2025-12-19: Workflow audit (multi-agent safety): updated `.windsurf/workflows/*.md` to use the active hub tool surface (`mcp1_*`), removed stale `mcp5_*` references, and removed `git add -p` guidance lines that contradicted the no-git guardrails.
 
  - 2025-12-18: Seed-uniqueness burn-down: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300` => strict unique seeds below threshold (among those with unique base): 0; normalized unique seeds below threshold (among those with unique base): 0; remaining failures are `NO_UNIQ_BASE` (no globally-unique base anchor).

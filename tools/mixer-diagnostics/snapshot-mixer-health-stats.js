@@ -49,6 +49,14 @@ function splitSeeds(blob) {
     .filter(Boolean);
 }
 
+function isSyntheticFillerToken(iso, seed) {
+  if (!iso || !seed) return false;
+  const s = String(seed).trim();
+  if (!s) return false;
+  const re = new RegExp(`^${iso}_(?:unq|fill)\\d+$`, "i");
+  return re.test(s);
+}
+
 function normalizeSeed(s) {
   if (!s) return "";
   let out = String(s).toLowerCase();
@@ -289,7 +297,7 @@ function computeSeedUniquenessSummary() {
   };
 }
 
-function computePremixNameGradesSummary() {
+function computePremixNameGradesSummary({allowFillers}) {
   const catalog = readJson("config/language-mixes.json");
   const mapRows = readJson("config/language-mixer-map.json");
   const nameBases = loadDefaultNameBases();
@@ -316,6 +324,10 @@ function computePremixNameGradesSummary() {
   let dUnder20 = 0;
   let fUnder10 = 0;
 
+  let isosWithFillers = 0;
+  let totalFillerTokens = 0;
+  const fillerIsos = [];
+
   for (const iso of isos) {
     const bases = mapByIso.get(iso);
     if (!bases || !bases.length) {
@@ -325,14 +337,24 @@ function computePremixNameGradesSummary() {
     }
 
     const premix = new Set();
+    const fillers = new Set();
     for (const b of bases) {
       if (typeof b !== "number") continue;
       const base = nameBases[b];
       const seeds = base ? splitSeeds(base.b) : [];
-      for (const s of seeds) premix.add(s);
+      for (const s of seeds) {
+        if (isSyntheticFillerToken(iso, s)) fillers.add(s);
+        else premix.add(s);
+      }
     }
 
-    const count = premix.size;
+    if (fillers.size) {
+      isosWithFillers++;
+      totalFillerTokens += fillers.size;
+      fillerIsos.push({iso, fillerCount: fillers.size, fillerSamples: Array.from(fillers).slice(0, 5)});
+    }
+
+    const count = premix.size + (allowFillers ? fillers.size : 0);
     if (count >= 50) a50Plus++;
     else if (count >= 40) gap40to49++;
     else if (count >= 30) bUnder40++;
@@ -344,12 +366,18 @@ function computePremixNameGradesSummary() {
   return {
     targetIsos: isos.length,
     missingMapping,
+    allowFillers: !!allowFillers,
     a50Plus,
     gap40to49,
     bUnder40,
     cUnder30,
     dUnder20,
-    fUnder10
+    fUnder10,
+    fillerUsage: {
+      isosWithFillers,
+      totalFillerTokens,
+      byIso: fillerIsos.sort((a, b) => b.fillerCount - a.fillerCount || a.iso.localeCompare(b.iso))
+    }
   };
 }
 
@@ -415,13 +443,14 @@ function parseArgs(argv) {
   const args = argv.slice(2);
   return {
     diff: args.includes("--diff"),
+    allowFillers: args.includes("--allow-fillers") || args.includes("--fast-pass"),
     help: args.includes("--help") || args.includes("-h")
   };
 }
 
 function printUsage() {
   console.log("Usage:");
-  console.log("  node tools/mixer-diagnostics/snapshot-mixer-health-stats.js [--diff]");
+  console.log("  node tools/mixer-diagnostics/snapshot-mixer-health-stats.js [--diff] [--allow-fillers|--fast-pass]");
 }
 
 function tryReadJson(fullPath) {
@@ -452,7 +481,7 @@ function diffNumbers(prev, next, pathLabel) {
 }
 
 function main() {
-  const {diff, help} = parseArgs(process.argv);
+  const {diff, allowFillers, help} = parseArgs(process.argv);
   if (help) {
     printUsage();
     return;
@@ -470,7 +499,7 @@ function main() {
     coverage: computeCoverageSummary(),
     failures: computeFailuresSummary(),
     seedUniqueness: computeSeedUniquenessSummary(),
-    premixNameGrades: computePremixNameGradesSummary(),
+    premixNameGrades: computePremixNameGradesSummary({allowFillers}),
     baseClusters: computeBaseClusterSummary()
   };
 
@@ -516,12 +545,18 @@ function main() {
   console.log("Premix name grades (unique premix seed tokens per ISO):");
   console.log("  Target ISOs:", snapshot.premixNameGrades.targetIsos);
   console.log("  Missing mapping:", snapshot.premixNameGrades.missingMapping);
+  console.log("  Allow fillers:", snapshot.premixNameGrades.allowFillers);
   console.log("  A (50+):", snapshot.premixNameGrades.a50Plus);
   console.log("  Gap (40-49):", snapshot.premixNameGrades.gap40to49);
   console.log("  B (<40, >=30):", snapshot.premixNameGrades.bUnder40);
   console.log("  C (<30, >=20):", snapshot.premixNameGrades.cUnder30);
   console.log("  D (<20, >=10):", snapshot.premixNameGrades.dUnder20);
   console.log("  F (<10):", snapshot.premixNameGrades.fUnder10);
+  if (snapshot.premixNameGrades.fillerUsage && snapshot.premixNameGrades.fillerUsage.isosWithFillers) {
+    console.log("  Synthetic filler usage detected:");
+    console.log("    - ISOs with fillers:", snapshot.premixNameGrades.fillerUsage.isosWithFillers);
+    console.log("    - Total filler tokens:", snapshot.premixNameGrades.fillerUsage.totalFillerTokens);
+  }
   console.log("");
 
   console.log("Base-set clusters:");
@@ -557,6 +592,16 @@ function main() {
       diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.cUnder30, snapshot.premixNameGrades.cUnder30, "premixNameGrades.cUnder30"),
       diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.dUnder20, snapshot.premixNameGrades.dUnder20, "premixNameGrades.dUnder20"),
       diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.fUnder10, snapshot.premixNameGrades.fUnder10, "premixNameGrades.fUnder10"),
+      diffNumbers(
+        prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.fillerUsage && prevSnapshot.premixNameGrades.fillerUsage.isosWithFillers,
+        snapshot.premixNameGrades.fillerUsage && snapshot.premixNameGrades.fillerUsage.isosWithFillers,
+        "premixNameGrades.fillerUsage.isosWithFillers"
+      ),
+      diffNumbers(
+        prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.fillerUsage && prevSnapshot.premixNameGrades.fillerUsage.totalFillerTokens,
+        snapshot.premixNameGrades.fillerUsage && snapshot.premixNameGrades.fillerUsage.totalFillerTokens,
+        "premixNameGrades.fillerUsage.totalFillerTokens"
+      ),
       diffNumbers(prevSnapshot.baseClusters && prevSnapshot.baseClusters.consideredCatalogLanguages, snapshot.baseClusters.consideredCatalogLanguages, "baseClusters.consideredCatalogLanguages"),
       diffNumbers(prevSnapshot.baseClusters && prevSnapshot.baseClusters.totalDistinctBaseSets, snapshot.baseClusters.totalDistinctBaseSets, "baseClusters.totalDistinctBaseSets"),
       diffNumbers(prevSnapshot.baseClusters && prevSnapshot.baseClusters.clustersSizeGte2, snapshot.baseClusters.clustersSizeGte2, "baseClusters.clustersSizeGte2"),

@@ -11,6 +11,9 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
   - **Zoom / camera:** Keep D3 zoom as the source of truth; derive deck.gl `viewState` from the D3 transform
   - **First migrated layer:** States fills
   - **Safety / rollout:** Keep SVG renderer as a toggle / fallback until visual parity confidence is high
+  - **Dependency loading (path):** Start with a pinned CDN `<script>` spike; then vendor a pinned UMD bundle into `libs/` for ongoing work
+  - **Renderer toggle (early):** URL param and/or `localStorage` (keep SVG as the default)
+  - **Picking (Milestones 1–2):** CPU picking only; deck layers are visual-only
 - **Scope:** Improve interactive rendering performance by moving heavy geometry off SVG/DOM into a GPU-backed `deck.gl` canvas **while keeping the current SVG/HTML label system**.
 
 ## 1. Goals / Success criteria
@@ -122,12 +125,31 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
 ### Milestone 1 — Deck canvas scaffold + camera sync
 
 - Add a `deck.gl` canvas behind `#map` (or inside a wrapper behind the SVG).
+- Add a renderer toggle (URL param / `localStorage`) that enables deck while keeping SVG as the default.
+- Use a pinned CDN `<script>` for the spike; once camera sync is validated, switch to a vendored pinned UMD bundle under `libs/`.
 - Implement a tiny “debug layer” (e.g. a single polygon or scatter points) to verify:
   - correct alignment with SVG coordinates
   - correct response to zoom/pan (no drift)
   - correct resize behavior
 
 **Exit criteria:** debug layer stays perfectly registered with SVG labels across zoom and pan.
+
+#### Milestone 1 checklist (planning)
+
+- Create a DOM wrapper so deck canvas can sit behind the existing SVG without changing the SVG structure
+- Add a `renderMode` gate (URL param / `localStorage`) so SVG can remain the default while deck is experimental
+- Implement the D3 transform → deck `viewState` mapping and update it from `handleZoom()`
+- Ensure deck canvas resize matches `#map` size and devicePixelRatio
+- Keep deck as non-interactive (no GPU picking) for this milestone
+
+#### Milestone 1 likely file touch list (planning)
+
+- `index.html` (deck container + pinned CDN `<script>` for spike)
+- `main.js` (bridge D3 zoom transform → deck `viewState`; update on zoom)
+- `modules/ui/layers.js` (read `renderMode`; route States fill rendering)
+- `index.css` (stacking / sizing / pointer-events for the deck canvas)
+- `modules/renderers/` (new glue module to own the Deck instance + layer definitions)
+- `libs/` (later) pinned UMD bundle(s) once the spike is validated
 
 ### Milestone 2 — Migrate one heavy layer (States fills)
 
@@ -167,10 +189,10 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
 
 ## 8. Open decisions (you choose)
 
-- **Picking:** keep CPU picking vs GPU picking.
-- **Dependency loading:**
-  - add deck.gl as a vendored UMD bundle in `libs/` vs load from CDN vs introduce a bundler.
 - **Rollout gate:** what parity checklist is required before switching the default interactive renderer to deck.
+- **Dependency loading (final):** after the CDN spike, confirm the exact vendored UMD bundle(s) and versioning policy in `libs/` (and whether a bundler is ever desired).
+- **Picking (post-Milestone 2):** whether/when to enable deck.gl GPU picking and how to bridge events into existing editors.
+- **Renderer toggle (later):** keep URL/`localStorage` only vs add a UI toggle.
 - **Next layers after States:** borders vs rivers/routes vs other fills.
 
 ## 9. Immediate next steps
@@ -181,3 +203,62 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
   - keep SVG as a toggle / fallback
 - Move into **Milestone 2** once camera sync is stable:
   - implement States fills on deck behind the feature flag
+
+## 10. Rollout gate (draft parity checklist)
+
+- **Camera sync (must pass):**
+  - no drift between deck geometry and SVG labels while:
+    - panning
+    - zooming in/out
+    - resizing the window
+  - consistent alignment at multiple zoom levels (min, typical, max)
+
+- **States fills parity (must pass):**
+  - state shapes match SVG output (holes / lakes / islands where applicable)
+  - state boundaries visually align with existing borders and labels
+  - styling parity for:
+    - fill colors / opacity
+    - hover/highlight state (if any)
+
+- **Layer toggles / presets (must pass):**
+  - toggling States on/off produces the same visible result in SVG vs deck mode
+  - common presets that include States behave consistently
+
+- **Editor safety (must pass):**
+  - editors that depend on States remain usable (selection/highlight flows)
+  - no new interaction regressions when deck mode is enabled
+  - deck remains visual-only for Milestones 1–2 (CPU picking remains authoritative)
+
+- **Export safety (must pass):**
+  - export still uses existing SVG backend until explicitly changed
+  - no export regressions when deck mode is enabled for interactive viewing
+
+- **Stability / fallback (must pass):**
+  - deck mode can be disabled instantly via the renderer toggle
+  - graceful behavior if WebGL context fails (fallback to SVG mode)
+
+- **Performance (should pass):**
+  - measurable improvement on a “big map” baseline for:
+    - pan/zoom hitching
+    - toggling States on/off
+
+## 11. Dependency loading: pinned CDN spike → vendored UMD
+
+- **Phase 1 (spike):**
+  - add a pinned CDN `<script>` (exact version; never `latest`)
+    - **Chosen version:** `deck.gl@8.9.39`
+    - **CDN URL:** `https://cdn.jsdelivr.net/npm/deck.gl@8.9.39/dist.min.js`
+    - Script tag to add during the spike (before bundling locally):
+      ```html
+      <script src="https://cdn.jsdelivr.net/npm/deck.gl@8.9.39/dist.min.js" crossorigin="anonymous"></script>
+      ```
+  - keep deck initialization gated behind the renderer toggle so normal users stay on SVG
+  - record the exact CDN URL(s) and version in this devplan
+
+- **Phase 2 (ongoing work):**
+  - vendor the chosen pinned UMD bundle(s) into `libs/` (include version in filename)
+    - plan: copy the UMD asset(s) for 8.9.39 into `libs/deck.gl-8.9.39/` (e.g., `deck.gl-8.9.39.min.js`)
+    - keep filenames versioned so future bumps are explicit
+    - document checksums when vendoring for integrity
+  - switch `index.html` from CDN to local `libs/` assets
+  - document the update policy (how/when to bump versions)

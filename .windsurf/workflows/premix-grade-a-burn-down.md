@@ -79,13 +79,19 @@ Notes:
 
 ## Strategy C: Synthetic filler tokens (fast, but lower realism)
 
-If you need a fast pass to raise counts (e.g., for automation), append unique synthetic tokens to the dedicated base’s `b:` list.
+Synthetic filler tokens are **forbidden by default** for Premix Grade-A work.
+
+They are only allowed with an explicit fast-pass policy choice:
+
+- When **measuring** premix grades, you must explicitly opt in with `--allow-fillers` (or `--fast-pass`).
+- When **creating** filler tokens, use a consistent pattern so the tooling can detect and log them: `<iso>_(unq|fill)<digits>` (e.g., `eng_unq1`).
 
 Examples:
 - `iso_unq1, iso_unq2, ... iso_unq60`
 
 Notes:
 - This meets the metric but may be undesirable for realism; treat as a conscious policy choice.
+- All detected filler usage is logged by the premix diagnostics (per ISO + totals). If you are using fast-pass fillers, include that output in your batch report/handoff.
 
 # Single-integrator lane (artifact regen)
 

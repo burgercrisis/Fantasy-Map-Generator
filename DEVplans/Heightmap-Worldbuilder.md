@@ -1,6 +1,6 @@
 # Heightmap World Builder (Composite Generator) Plan
 
-Status (2025-12-19): Planning document created; ocean approach approved = Option A (procedural ocean baseline + template features). No implementation work started.
+Status (2025-12-19): All planning choices finalized. No implementation work started.
 
 ## 1) Goal
 
@@ -31,6 +31,8 @@ This system should:
 - **MVP allowlist (Milestone 1):** `continents` + `lowIsland` + `archipelago`
 - **Ocean baseline (MVP):** depth gradient + noise (**age-from-ridge in Milestone 4/5**)
 - **Land coverage target (MVP):** no explicit target (let baseline + stamps decide)
+- **Stamp fitting (MVP):** simple scale + rotate; add warp/noise distortions later if needed
+- **Full-planet templates (MVP):** blacklist (for stability)
 
 ## 3) Key design intent
 
@@ -248,10 +250,3 @@ Target workflow:
 
 Goal state: adding a new stamp should usually be **metadata-only**, not new generator logic.
 
-## 13) Open questions / choices remaining
-
-- **Full-planet templates:** for templates that are too strong as stamps:
-  - blacklist vs retune vs stamp-variant
-- **Stamp fitting strategy:** how we map stamp domain to plate region:
-  - simple scale+rotate
-  - optional warp/noise distortion

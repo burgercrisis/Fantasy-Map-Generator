@@ -3203,7 +3203,8 @@
     "iso": "chinese-kyakala",
     "bases": [
       11,
-      380
+      380,
+      8718
     ]
   },
   {
@@ -6165,7 +6166,8 @@
     "iso": "chinese-korean",
     "bases": [
       10,
-      11
+      11,
+      8717
     ]
   },
   {
@@ -10959,7 +10961,8 @@
     "iso": "chinantec",
     "bases": [
       164,
-      167
+      167,
+      8716
     ]
   },
   {
@@ -13126,7 +13129,8 @@
   {
     "iso": "chin",
     "bases": [
-      62
+      62,
+      8715
     ]
   },
   {
@@ -18024,7 +18028,8 @@
     "bases": [
       1,
       11,
-      309
+      309,
+      8719
     ]
   },
   {
@@ -18326,6 +18331,7 @@
   {
     "iso": "duvle-wano-pidgin",
     "bases": [
+      1,
       25
     ]
   },
@@ -18475,6 +18481,7 @@
   {
     "iso": "eskimo-trade-jargon",
     "bases": [
+      1,
       19
     ]
   },
@@ -18503,6 +18510,7 @@
   {
     "iso": "ewondo-populaire",
     "bases": [
+      1,
       28
     ]
   },
@@ -19039,6 +19047,7 @@
   {
     "iso": "loucheux-jargon",
     "bases": [
+      2,
       19
     ]
   },
@@ -19336,6 +19345,7 @@
   {
     "iso": "maritime-polynesian-pidgin",
     "bases": [
+      2,
       25
     ]
   },
@@ -19423,6 +19433,7 @@
   {
     "iso": "mbugu",
     "bases": [
+      2,
       28
     ]
   },
@@ -19450,6 +19461,7 @@
   {
     "iso": "mekeo-pidgins",
     "bases": [
+      3,
       25
     ]
   },
@@ -19961,6 +19973,7 @@
   {
     "iso": "nootka-jargon",
     "bases": [
+      3,
       19
     ]
   },
@@ -20381,24 +20394,28 @@
   {
     "iso": "pidgin-hawaiian",
     "bases": [
+      4,
       25
     ]
   },
   {
     "iso": "pidgin-iha",
     "bases": [
+      5,
       25
     ]
   },
   {
     "iso": "pidgin-ngarluma",
     "bases": [
+      6,
       25
     ]
   },
   {
     "iso": "pidgin-onin",
     "bases": [
+      7,
       25
     ]
   },
@@ -21370,6 +21387,7 @@
   {
     "iso": "settler-swahili",
     "bases": [
+      3,
       28
     ]
   },
@@ -24011,6 +24029,7 @@
   {
     "iso": "kikar",
     "bases": [
+      4,
       28
     ]
   },
@@ -24185,6 +24204,7 @@
   {
     "iso": "kwoma-manambu-pidgin",
     "bases": [
+      8,
       25
     ]
   },
