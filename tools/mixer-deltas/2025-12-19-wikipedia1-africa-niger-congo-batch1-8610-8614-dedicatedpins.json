@@ -1,0 +1,10 @@
+{
+  "comment": "Wikipedia1 Africa full table: reduce NO_UNIQ_BASE by pinning five Niger-Congo/Nilo-Saharan items to dedicated bases.",
+  "dedicatedPins": {
+    "fut": 8610,
+    "soninke": 8611,
+    "chung": 8612,
+    "dciriku": 8613,
+    "defaka": 8614
+  }
+}

@@ -2887,12 +2887,31 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-18T23:59:31.323Z",
-      "updatedAt": "2025-12-19T00:26:37.786Z",
+      "updatedAt": "2025-12-19T00:42:02.454Z",
       "reservedRange": [
         8555,
         8604
       ],
-      "notes": "Reserved i range: 8555-8604\nISO->base mapping (fill in):\n- chaha->8555\n- chakato-language->8556\n- chakhar->8557\n- chaldean-neo-aramaic->8558\n- chamdo->8559\n\nReserved i range: 8555-8604\nISO->base mapping applied: chaha->8555; chakato-language->8556; chakhar->8557; chaldean-neo-aramaic->8558; chamdo->8559.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-chaha.json.\nBase defs: modules/namebases-real.js i:8555–8559.\n\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chaha,chakato-language,chakhar,chaldean-neo-aramaic,chamdo --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+      "notes": "Reserved i range: 8555-8604\nISO->base mapping (fill in):\n- chaha->8555\n- chakato-language->8556\n- chakhar->8557\n- chaldean-neo-aramaic->8558\n- chamdo->8559\n\nReserved i range: 8555-8604\nISO->base mapping applied: chaha->8555; chakato-language->8556; chakhar->8557; chaldean-neo-aramaic->8558; chamdo->8559.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-chaha.json.\nBase defs: modules/namebases-real.js i:8555–8559.\n\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chaha,chakato-language,chakhar,chaldean-neo-aramaic,chamdo --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nISO->base mapping applied: chaha->8555; chakato-language->8556; chakhar->8557; chaldean-neo-aramaic->8558; chamdo->8559. Seed debt (non-blocking): chaha strictUniqueSeeds=0 normUniqueSeeds=0; chakato-language strictUniqueSeeds=0 normUniqueSeeds=0; chakhar strictUniqueSeeds=0 normUniqueSeeds=0; chaldean-neo-aramaic strictUniqueSeeds=0 normUniqueSeeds=0; chamdo strictUniqueSeeds=0 normUniqueSeeds=0. Verified (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness Target ISOs:5 Missing mapping:0 No globally-unique base index:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T00:56:34.129Z-worker1",
+      "isos": [
+        "changjiang-hlai",
+        "chavacano",
+        "chechen",
+        "chenchu",
+        "chepang"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T00:56:34.129Z",
+      "updatedAt": "2025-12-19T01:07:27.150Z",
+      "reservedRange": [
+        8615,
+        8664
+      ],
+      "notes": "Reserved i range: 8615-8664\nISO->base mapping (fill in):\n- changjiang-hlai->8615\n- chavacano->8616\n- chechen->8617\n- chenchu->8618\n- chepang->8619\n\nReserved i range: 8615-8664\n\nReserved i range: 8615-8664"
     }
   ]
 }

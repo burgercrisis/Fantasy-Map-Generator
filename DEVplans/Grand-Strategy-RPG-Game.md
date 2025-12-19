@@ -82,9 +82,9 @@
 - Realm administration MVP (alpha scope): **2b** (titles + vassalage + claims + succession-lite + legitimacy + simple contracts [one or two knobs])
 - Multiplayer constraint: **3a** (single-player only for alpha)
 - Export schema v0.1 includes `realms[]`: **Option A** (yes; minimal)
-- Export schema v0.1 edge `path` simplification: **Option A** (RDP with fixed epsilon; epsilon TBD)
+- Export schema v0.1 edge `path` simplification: **Option A** (RDP with fixed epsilon; `epsilon = 0.001 * min(map.width, map.height)`)
 - Commands/events schemas: **Option B** (not recorded in this devplan; live in runtime repo docs)
-- Runtime commands/events schema doc: `e:\code\gsg-runtime\docs\schema\commands-events-v0.1.md`
+- Runtime commands/events schema doc: `e:\code\grandfantasy\docs\schema\commands-events-v0.1.md`
 - Export schema v0.1 includes `provinces[]`: **Option A** (yes)
 - Export schema v0.1 edges include `path` polyline points: **Option B** (yes; simplified polyline)
 - Export schema v0.1 includes `markers[]`: **Option A** (yes)
@@ -149,7 +149,7 @@
   - kind: "road" | "trail" | "sea"
   - distance (in map-distance units)
   - routeRef: { routeId }
-  - path: simplified polyline points [[x,y], ...] (RDP with fixed epsilon; epsilon TBD)
+  - path: simplified polyline points [[x,y], ...] (RDP with fixed epsilon; `epsilon = 0.001 * min(map.width, map.height)`)
 
 - markers[] (from `pack.markers`)
   - id, type, x, y, icon?, size?, style?

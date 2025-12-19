@@ -315,6 +315,14 @@
       "updatedAt": "2025-12-17T06:28:11.390Z",
       "note": "Continue: resolve list unmatched items by adding explicit iso bindings only when the iso is already present in both catalog + mixer-map. First batch: Mawé/Minica Huitoto/Muinane/Nukak/Paipai/Pakaásnovos/Reyesano/Sanumá/Soteapanec/Tiriyó/Tlapaneco/Toromono/Tsimshian/Warázu/Weenhayek/Wichi/Hitnü/Ika/Tembé.\n\nSESSION RETIRED (2025-12-17T06:26:24.710Z). Handoff: claim workerId=11 target=tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json. Goal was iso-bindings-only for unmatched names IF iso exists in BOTH config/language-mixes.json and config/language-mixer-map.json. Next commands: pnpm exec -- node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json --no-devplan; then for each unmatched name: verify iso in both catalog+map, add iso binding in the list, rerun coverage; then mark claim complete via wiki-claim.js --update --workerId=11 --status=complete.",
       "finishedAt": "2025-12-17T06:28:11.390Z"
+    },
+    {
+      "workerId": 12,
+      "target": "tools/mixer-meta/wikipedia-uralic-languages-full.json",
+      "scope": "coverage_then_uniqueness_then_race",
+      "status": "in_progress",
+      "startedAt": "2025-12-19T01:11:59.068Z",
+      "updatedAt": "2025-12-19T01:11:59.068Z"
     }
   ]
 }

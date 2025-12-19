@@ -69,3 +69,17 @@ Notes (unblocker):
   - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (map-only 0; catalog-only 0)
   - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` (0 duplicates)
   - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js` (exit 0; informational output)
+
+- Batch: `macushi, waiwai, yukpa` (Macushi, Waiwai, Yukpa)
+- Change:
+  - Added `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-cariban-batch1-8605-8607-dedicatedpins.json` to pin these ISOs to dedicated base indices `8605–8607`.
+  - Appended dedicated base defs `i:8605–8607` to `modules/namebases-real.js`.
+- Verification evidence (all exit code 0):
+  - `node --check modules/namebases-real.js`
+  - `pnpm run mixer:apply-deltas`
+  - `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures '--only-isos=macushi,waiwai,yukpa' --limit=300` (0 failures)
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` (0 failures)
+  - `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` (map-only 0; catalog-only 0)
+  - `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` (0 duplicates)
+  - `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js` (exit 0; informational output)
+  - `pnpm exec -- node tools/mixer-core/report-wikipedia-list-nonunique-bases.js tools/mixer-meta/wikipedia-indigenous-languages-of-the-americas.json`
