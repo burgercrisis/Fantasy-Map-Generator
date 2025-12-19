@@ -2849,12 +2849,50 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-18T23:32:13.275Z",
-      "updatedAt": "2025-12-18T23:37:12.322Z",
+      "updatedAt": "2025-12-18T23:54:11.688Z",
       "reservedRange": [
         8431,
         8480
       ],
-      "notes": "Reserved i range: 8431-8480\nISO->base mapping (fill in):\n- gin->8431\n- ginuman->8432\n- gjk->8433\n- gju->8434\n- glavda-language->8435\n\nReserved i range: 8431-8480\nISO->base mapping applied: gin->8431; ginuman->8432; gjk->8433; gju->8434; glavda-language->8435.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-gin.json.\nBase defs: modules/namebases-real.js i:8431–8435."
+      "notes": "Reserved i range: 8431-8480\nISO->base mapping (fill in):\n- gin->8431\n- ginuman->8432\n- gjk->8433\n- gju->8434\n- glavda-language->8435\n\nReserved i range: 8431-8480\nISO->base mapping applied: gin->8431; ginuman->8432; gjk->8433; gju->8434; glavda-language->8435.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-gin.json.\nBase defs: modules/namebases-real.js i:8431–8435.\n\nReserved i range: 8431-8480\nISO->base mapping applied:\n- gin->8431\n- ginuman->8432\n- gjk->8433\n- gju->8434\n- glavda-language->8435\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness only-failures (Target ISOs:5) Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0\n\nVerified (/no-unique-base2): pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures \\--only-isos=gin ginuman gjk gju glavda-language\\ => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T23:46:03.028Z-worker1",
+      "isos": [
+        "gobasi",
+        "goemai-language",
+        "goguryeo-korean",
+        "goji-language",
+        "gola"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T23:46:03.028Z",
+      "updatedAt": "2025-12-19T00:04:43.156Z",
+      "reservedRange": [
+        8505,
+        8554
+      ],
+      "notes": "Reserved i range: 8505-8554\nISO->base mapping (fill in):\n- gobasi->8505\n- goemai-language->8506\n- goguryeo-korean->8507\n- goji-language->8508\n- gola->8509\n\nReserved i range: 8505-8554\nISO->base mapping applied: gobasi->8505; goemai-language->8506; goguryeo-korean->8507; goji-language->8508; gola->8509.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-gobasi.json.\nBase defs: modules/namebases-real.js i:8505–8509.\n\nReserved i range: 8505-8554\nISO->base mapping applied:\n- gobasi->8505\n- goemai-language->8506\n- goguryeo-korean->8507\n- goji-language->8508\n- gola->8509\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness only-failures (Target ISOs:5) Missing mapping:0 No globally-unique base index:0 strictFail:0 normFail:0; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-18T23:59:31.323Z-worker1",
+      "isos": [
+        "chaha",
+        "chakato-language",
+        "chakhar",
+        "chaldean-neo-aramaic",
+        "chamdo"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-18T23:59:31.323Z",
+      "updatedAt": "2025-12-19T00:26:37.786Z",
+      "reservedRange": [
+        8555,
+        8604
+      ],
+      "notes": "Reserved i range: 8555-8604\nISO->base mapping (fill in):\n- chaha->8555\n- chakato-language->8556\n- chakhar->8557\n- chaldean-neo-aramaic->8558\n- chamdo->8559\n\nReserved i range: 8555-8604\nISO->base mapping applied: chaha->8555; chakato-language->8556; chakhar->8557; chaldean-neo-aramaic->8558; chamdo->8559.\nDelta pins: tools/mixer-deltas/2025-12-18-worker1-mixed-chaha.json.\nBase defs: modules/namebases-real.js i:8555–8559.\n\nVerification (/no-unique-base2): mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chaha,chakato-language,chakhar,chaldean-neo-aramaic,chamdo --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0"
     }
   ]
 }

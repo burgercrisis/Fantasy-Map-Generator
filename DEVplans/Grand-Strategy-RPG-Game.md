@@ -81,6 +81,10 @@
 - Export data shape v0.1: **Option A** (location graph export; add full cell graph later as v0.2+)
 - Realm administration MVP (alpha scope): **2b** (titles + vassalage + claims + succession-lite + legitimacy + simple contracts [one or two knobs])
 - Multiplayer constraint: **3a** (single-player only for alpha)
+- Export schema v0.1 includes `realms[]`: **Option A** (yes; minimal)
+- Export schema v0.1 edge `path` simplification: **Option A** (RDP with fixed epsilon; epsilon TBD)
+- Commands/events schemas: **Option B** (not recorded in this devplan; live in runtime repo docs)
+- Runtime commands/events schema doc: `e:\code\gsg-runtime\docs\schema\commands-events-v0.1.md`
 - Export schema v0.1 includes `provinces[]`: **Option A** (yes)
 - Export schema v0.1 edges include `path` polyline points: **Option B** (yes; simplified polyline)
 - Export schema v0.1 includes `markers[]`: **Option A** (yes)
@@ -108,6 +112,14 @@
   - areaUnit
   - heightUnit, heightExponent
   - mapCoordinates (FMG mapCoordinates)
+
+- realms[] (from `pack.states`)
+  - id
+  - name
+  - color (nice-to-have)
+  - capitalLocationId (nice-to-have; burg id)
+  - neighbors[] (nice-to-have)
+  - coa (nice-to-have; optional; can be large)
 
 - provinces[] (from `pack.provinces`)
   - id
@@ -137,7 +149,7 @@
   - kind: "road" | "trail" | "sea"
   - distance (in map-distance units)
   - routeRef: { routeId }
-  - path: simplified polyline points [[x,y], ...]
+  - path: simplified polyline points [[x,y], ...] (RDP with fixed epsilon; epsilon TBD)
 
 - markers[] (from `pack.markers`)
   - id, type, x, y, icon?, size?, style?
@@ -146,7 +158,6 @@
 
 - What is the **minimum export contract** (alpha) from the world-authoring repo to the new game repo?
   - geo+poli first: map topology, realms/holdings, titles, history start date, etc.
-  - JSON schema: field list + explicit schema versions
 - What is the Rust↔C++ boundary?
   - C ABI surface
   - event stream schemas (UI vs debug/audit) and versioning

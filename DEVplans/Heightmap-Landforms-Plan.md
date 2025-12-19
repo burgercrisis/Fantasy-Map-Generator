@@ -287,8 +287,12 @@ Status (2025-12-18): Tuned `inlandSeaStraits` template to be less water-heavy an
 
 Status (2025-12-18): Tuned `inlandSeaStraits` again to increase surrounding landmass and widen connector straits further.
 
+Status (2025-12-18): Retuned `inlandSeaStraits` to be more strait-like (long corridor) while keeping enough land for population.
+
 Status (2025-12-18): Tuned `highPlateauCanyons` template to reduce ocean coverage (improved usability).
 
 Status (2025-12-18): Tuned `endorheicBasins` template to reliably generate land (improved usability).
 
 Status (2025-12-18): Tuned `barrierIslands` template to increase livable land area (improved usability).
+
+Status (2025-12-18): Retuned `calderaArchipelago` template to better resemble a caldera archipelago (ring islands with central caldera).

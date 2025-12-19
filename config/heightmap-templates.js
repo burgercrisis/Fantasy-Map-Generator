@@ -219,12 +219,20 @@ const heightmapTemplates = (function () {
     Multiply 0.7 land 0 0
     Mask 3 0 0 0`;
 
-  const calderaArchipelago = `Add 12 all 0 0
-    Hill 12-18 25-40 10-90 15-85
-    Pit 10-14 10-18 10-90 15-85
-    Range 2-3 25-40 20-80 20-80
+  const calderaArchipelago = `Add 10 all 0 0
+    Mask 1.8 0 0 0
+    Hill 1 45-55 45-55 45-55
+    Hill 6-8 20-35 35-45 35-45
+    Hill 6-8 20-35 55-65 35-45
+    Hill 6-8 20-35 35-45 55-65
+    Hill 6-8 20-35 55-65 55-65
+    Hill 4-6 15-25 45-55 30-40
+    Hill 4-6 15-25 45-55 60-70
+    Hill 4-6 15-25 30-40 45-55
+    Hill 4-6 15-25 60-70 45-55
+    Pit 1 55-70 45-55 45-55
     Smooth 2 0 0 0
-    Multiply 0.35 20-100 0 0
+    Multiply 0.45 20-100 0 0
     Mask 3 0 0 0`;
 
   const impactRing = `Hill 1 60-70 45-55 45-55

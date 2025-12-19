@@ -1,0 +1,10 @@
+{
+  "comment": "Wikipedia1 Africa full table: reduce NO_UNIQ_BASE for Southern Africa cluster by pinning each ISO to an existing dedicated base.",
+  "dedicatedPins": {
+    "simaa": 8500,
+    "tonga-malawi": 8501,
+    "totela": 8502,
+    "tshivenda": 8503,
+    "venda": 8504
+  }
+}
