@@ -17,7 +17,7 @@ You are Cascade, working on the Fantasy-Map-Generator language mixer.
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
-Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-meta/*.json`, `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-meta/*.json`, `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 ## Diagnostic-first worker loop (required)
 
@@ -182,7 +182,7 @@ When stopping for handoff, include:
 
 - Files changed
 - Suggested commit messages (no commits performed by agents)
-- `git add -p` guidance for how to stage the changes into logical commits
+- Staging guidance (no git): describe how you would logically split the changes into commits (no commands run)
 - Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite
 
 Follow these rules every time I send this workflow prompt at the start of a session. After that, assume that `continue` means “pick up the next appropriate batch under this exact workflow” until I explicitly change tasks.

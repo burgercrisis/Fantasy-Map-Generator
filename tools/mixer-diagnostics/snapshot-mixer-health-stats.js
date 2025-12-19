@@ -289,6 +289,70 @@ function computeSeedUniquenessSummary() {
   };
 }
 
+function computePremixNameGradesSummary() {
+  const catalog = readJson("config/language-mixes.json");
+  const mapRows = readJson("config/language-mixer-map.json");
+  const nameBases = loadDefaultNameBases();
+
+  const mapByIso = new Map();
+  for (const r of mapRows) {
+    if (!r || !r.iso || !Array.isArray(r.bases)) continue;
+    mapByIso.set(String(r.iso), r.bases);
+  }
+
+  const isos = [];
+  for (const entry of catalog) {
+    if (!entry || !entry.iso) continue;
+    if (isFamilyEntry(entry)) continue;
+    isos.push(String(entry.iso));
+  }
+
+  let missingMapping = 0;
+
+  let a50Plus = 0;
+  let gap40to49 = 0;
+  let bUnder40 = 0;
+  let cUnder30 = 0;
+  let dUnder20 = 0;
+  let fUnder10 = 0;
+
+  for (const iso of isos) {
+    const bases = mapByIso.get(iso);
+    if (!bases || !bases.length) {
+      missingMapping++;
+      fUnder10++;
+      continue;
+    }
+
+    const premix = new Set();
+    for (const b of bases) {
+      if (typeof b !== "number") continue;
+      const base = nameBases[b];
+      const seeds = base ? splitSeeds(base.b) : [];
+      for (const s of seeds) premix.add(s);
+    }
+
+    const count = premix.size;
+    if (count >= 50) a50Plus++;
+    else if (count >= 40) gap40to49++;
+    else if (count >= 30) bUnder40++;
+    else if (count >= 20) cUnder30++;
+    else if (count >= 10) dUnder20++;
+    else fUnder10++;
+  }
+
+  return {
+    targetIsos: isos.length,
+    missingMapping,
+    a50Plus,
+    gap40to49,
+    bUnder40,
+    cUnder30,
+    dUnder20,
+    fUnder10
+  };
+}
+
 function computeBaseClusterSummary() {
   const mixes = readJson("config/language-mixes.json");
   const map = readJson("config/language-mixer-map.json");
@@ -406,6 +470,7 @@ function main() {
     coverage: computeCoverageSummary(),
     failures: computeFailuresSummary(),
     seedUniqueness: computeSeedUniquenessSummary(),
+    premixNameGrades: computePremixNameGradesSummary(),
     baseClusters: computeBaseClusterSummary()
   };
 
@@ -448,6 +513,17 @@ function main() {
   );
   console.log("");
 
+  console.log("Premix name grades (unique premix seed tokens per ISO):");
+  console.log("  Target ISOs:", snapshot.premixNameGrades.targetIsos);
+  console.log("  Missing mapping:", snapshot.premixNameGrades.missingMapping);
+  console.log("  A (50+):", snapshot.premixNameGrades.a50Plus);
+  console.log("  Gap (40-49):", snapshot.premixNameGrades.gap40to49);
+  console.log("  B (<40, >=30):", snapshot.premixNameGrades.bUnder40);
+  console.log("  C (<30, >=20):", snapshot.premixNameGrades.cUnder30);
+  console.log("  D (<20, >=10):", snapshot.premixNameGrades.dUnder20);
+  console.log("  F (<10):", snapshot.premixNameGrades.fUnder10);
+  console.log("");
+
   console.log("Base-set clusters:");
   console.log("  Considered catalog languages:", snapshot.baseClusters.consideredCatalogLanguages);
   console.log("  Total distinct base sets (all sizes):", snapshot.baseClusters.totalDistinctBaseSets);
@@ -473,6 +549,14 @@ function main() {
       diffNumbers(prevSnapshot.seedUniqueness && prevSnapshot.seedUniqueness.noGloballyUniqueBaseIndex, snapshot.seedUniqueness.noGloballyUniqueBaseIndex, "seedUniqueness.noGloballyUniqueBaseIndex"),
       diffNumbers(prevSnapshot.seedUniqueness && prevSnapshot.seedUniqueness.strictBelowThreshold, snapshot.seedUniqueness.strictBelowThreshold, "seedUniqueness.strictBelowThreshold"),
       diffNumbers(prevSnapshot.seedUniqueness && prevSnapshot.seedUniqueness.normalizedBelowThreshold, snapshot.seedUniqueness.normalizedBelowThreshold, "seedUniqueness.normalizedBelowThreshold"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.targetIsos, snapshot.premixNameGrades.targetIsos, "premixNameGrades.targetIsos"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.missingMapping, snapshot.premixNameGrades.missingMapping, "premixNameGrades.missingMapping"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.a50Plus, snapshot.premixNameGrades.a50Plus, "premixNameGrades.a50Plus"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.gap40to49, snapshot.premixNameGrades.gap40to49, "premixNameGrades.gap40to49"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.bUnder40, snapshot.premixNameGrades.bUnder40, "premixNameGrades.bUnder40"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.cUnder30, snapshot.premixNameGrades.cUnder30, "premixNameGrades.cUnder30"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.dUnder20, snapshot.premixNameGrades.dUnder20, "premixNameGrades.dUnder20"),
+      diffNumbers(prevSnapshot.premixNameGrades && prevSnapshot.premixNameGrades.fUnder10, snapshot.premixNameGrades.fUnder10, "premixNameGrades.fUnder10"),
       diffNumbers(prevSnapshot.baseClusters && prevSnapshot.baseClusters.consideredCatalogLanguages, snapshot.baseClusters.consideredCatalogLanguages, "baseClusters.consideredCatalogLanguages"),
       diffNumbers(prevSnapshot.baseClusters && prevSnapshot.baseClusters.totalDistinctBaseSets, snapshot.baseClusters.totalDistinctBaseSets, "baseClusters.totalDistinctBaseSets"),
       diffNumbers(prevSnapshot.baseClusters && prevSnapshot.baseClusters.clustersSizeGte2, snapshot.baseClusters.clustersSizeGte2, "baseClusters.clustersSizeGte2"),

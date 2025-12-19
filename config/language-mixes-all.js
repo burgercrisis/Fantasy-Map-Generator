@@ -27001,7 +27001,8 @@
     "iso": "ter",
     "region": "South America",
     "category": "Arawakan",
-    "family": "Arawakan"
+    "family": "Arawakan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ter%C3%AAna_language"
   },
   {
     "name": "Tikuna",

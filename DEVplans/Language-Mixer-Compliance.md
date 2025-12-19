@@ -29,6 +29,12 @@ This devplan tracks work needed to keep the repo (docs, tooling, and runtime/UI)
   - `tools/mixer-diagnostics/_mixer-health-stats.latest.json`
  - `tools/mixer-diagnostics/_mixer-health-stats.history.jsonl`
 
+ - 2025-12-19: Extended mixer health stats snapshot with `premixNameGrades`: for each non-family ISO, counts unique premix seed tokens available from the union of `base.b` seeds across its mapped `bases[]`, then buckets languages into grade totals: A (50+), Gap (40-49), B (30-39), C (20-29), D (10-19), F (0-9). Included in snapshot JSON and `--diff` output.
+
+ - 2025-12-19: Added multi-agent workflow for premix Grade-A burn-down: `.windsurf/workflows/premix-grade-a-burn-down.md` (hub-first batching + integrator lane) and helper report `node tools/mixer-diagnostics/report-language-mixer-premix-grades.js --below=50` to list backlog candidates.
+
+ - 2025-12-19: Workflow audit (multi-agent safety): updated `.windsurf/workflows/*.md` to use the active hub tool surface (`mcp1_*`), removed stale `mcp5_*` references, and removed `git add -p` guidance lines that contradicted the no-git guardrails.
+
  - 2025-12-18: Seed-uniqueness burn-down: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300` => strict unique seeds below threshold (among those with unique base): 0; normalized unique seeds below threshold (among those with unique base): 0; remaining failures are `NO_UNIQ_BASE` (no globally-unique base anchor).
 
  - 2025-12-19: Seed-uniqueness burn-down recheck: `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures --limit=300` => strict unique seeds below threshold (among those with unique base): 0; normalized unique seeds below threshold (among those with unique base): 0; remaining failures are `NO_UNIQ_BASE` (no globally-unique base anchor).

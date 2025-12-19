@@ -7,6 +7,10 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
 ## 0. Status
 
 - **Status:** Proposed (not started)
+- **Decisions (confirmed):**
+  - **Zoom / camera:** Keep D3 zoom as the source of truth; derive deck.gl `viewState` from the D3 transform
+  - **First migrated layer:** States fills
+  - **Safety / rollout:** Keep SVG renderer as a toggle / fallback until visual parity confidence is high
 - **Scope:** Improve interactive rendering performance by moving heavy geometry off SVG/DOM into a GPU-backed `deck.gl` canvas **while keeping the current SVG/HTML label system**.
 
 ## 1. Goals / Success criteria
@@ -69,7 +73,7 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
 
 **Goal:** geometry canvas and SVG labels must share the same camera.
 
-- **Option A (lowest risk): keep D3 zoom as source of truth** ✅
+- **Option A (chosen): keep D3 zoom as source of truth; derive deck.gl `viewState`** ✅
   - Keep existing `d3.zoom` and `viewbox` transforms.
   - Update deck.gl view state on each `handleZoom()`.
   - Pros: minimal disruption to label scaling behavior (`invokeActiveZooming`).
@@ -85,7 +89,7 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
   - Pros: one camera system.
   - Cons: higher migration risk; impacts all existing zoom-dependent UI logic.
 
-**Recommendation:** Start with **A**, prototype with **B** if you need a fast spike.
+**Recommendation:** Use **A** as the production path; prototype with **B** only for a quick spike.
 
 ### 5.2 Geometry derivation and caching
 
@@ -129,7 +133,7 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
 
 - Implement a deck layer that replaces SVG state fills (`regions/#statesBody`).
 - Keep labels intact.
-- Add a feature flag (e.g. `renderMode=svg|deck` or per-layer toggles) so you can compare.
+- Add a feature flag (e.g. `renderMode=svg|deck`) so you can compare, and keep SVG as the default until parity confidence is high.
 
 **Exit criteria:** state fills are GPU-rendered; label paths still match state geometry; performance improves on “big map”.
 
@@ -163,16 +167,17 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
 
 ## 8. Open decisions (you choose)
 
-- **Zoom strategy:** A (deck viewState) vs B (CSS transform) vs C (deck controller).
-- **Which layers are “must migrate” first:** political (states/borders) vs physical (heightmap/biomes).
 - **Picking:** keep CPU picking vs GPU picking.
-- **Export:** keep SVG backend vs composite.
 - **Dependency loading:**
   - add deck.gl as a vendored UMD bundle in `libs/` vs load from CDN vs introduce a bundler.
+- **Rollout gate:** what parity checklist is required before switching the default interactive renderer to deck.
+- **Next layers after States:** borders vs rivers/routes vs other fills.
 
 ## 9. Immediate next steps
 
-- Pick the **first target layer**:
-  - Recommendation: **States fills** (high impact, clear correctness checks).
-- Pick the **zoom sync strategy** to start with:
-  - Recommendation: **Option A** (keep D3 zoom; compute deck viewState).
+- Start **Milestone 1**:
+  - add deck canvas scaffold
+  - implement D3 transform → deck `viewState` mapping
+  - keep SVG as a toggle / fallback
+- Move into **Milestone 2** once camera sync is stable:
+  - implement States fills on deck behind the feature flag

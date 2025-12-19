@@ -15,12 +15,12 @@ auto_execution_mode: 0
    - Keep it as-is and continue, or
    - Leave it uncommitted / untouched and ask the user what to do.
 
-Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` for **English-based pidgins – full article list** (§8.36b).
+Use this workflow together with `/wikipedia1` for **English-based pidgins – full article list** (§8.38).
 
 Must preserve append-only registry; never delete ISOs.
 
 1. Treat `tools/mixer-meta/wikipedia-list-english-based-pidgins-full.json` as the current list JSON.
 2. Follow `/wikipedia1` semantics: for each English-based pidgin, wire **catalog + mixer-map + globally unique `bases[]` (tuned mixes over lexifier/contact bases) + race reachability**.
-3. Keep §8.36b in `DEVplans/Languages-Status.md` synced via the devplan helper.
+3. Keep §8.38 in `DEVplans/Languages-Status.md` synced via the devplan helper.

@@ -143,5 +143,5 @@ Reply with:
 - Before/after strict+normalized values for each ISO you touched
 - Files changed
 - Suggested commit messages (no commits performed by agents)
-- `git add -p` guidance for how to stage the changes into logical commits
+- Staging guidance (no git): describe how you would logically split the changes into commits (no commands run)
 - Verification commands run (or to run)

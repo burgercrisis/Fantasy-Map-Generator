@@ -11,7 +11,7 @@ You are Cascade working on the Fantasy-Map-Generator language mixer.
 - Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
 - If you believe an additional command is required, stop and ask the user before running anything.
 - Do **not** propose or run commits. The user/integrator owns all commits.
-- Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/races.js`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+- Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/races.js`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 # Objective
 

@@ -41,7 +41,7 @@ pnpm exec -- node tools/mixer-diagnostics/claims-dashboard.js
 
 If you need to confirm whether a file/scope is already being worked:
 
-- Prefer hub-routed ripgrep: `mcp5_hub_exec` target=`ripgrep` tool=`search` / `advanced-search`
+- Prefer hub-routed ripgrep: `mcp1_hub_exec` target=`ripgrep` tool=`search` / `advanced-search`
 - Fallback to local tools: `code_search`, `grep_search`, `find_by_name`, `list_dir`, `read_file`, `read_notebook`
 
 ## 1) Workstream claim (Hub)
@@ -50,14 +50,14 @@ Before editing any files, claim your workstream in the MCP Coordination Hub usin
 
 Check for existing work/claims first:
 
-- `mcp5_workstream_list` (scan active/paused workstreams)
-- `mcp5_workstream_get` (details)
-- `mcp5_decision_admin` (record decisions/evidence when needed)
-- `mcp5_time_now` (timestamps when needed)
+- `mcp1_workstream_list` (scan active/paused workstreams)
+- `mcp1_workstream_get` (details)
+- `mcp1_decision_admin` (record decisions/evidence when needed)
+- `mcp1_time_now` (timestamps when needed)
 
 Then claim your workstream:
 
-- `mcp5_workstream_create` (or `mcp5_workstream_update` if resuming)
+- `mcp1_workstream_create` (or `mcp1_workstream_update` if resuming)
 
 Include:
 
@@ -70,7 +70,7 @@ Include:
 
 Before touching any claimed file/scope, acquire a hub lock using:
 
-- `mcp5_lock_acquire` with a stable resource string like `file:<repo-relative-path>` or `scope:<subsystem>`
+- `mcp1_lock_acquire` with a stable resource string like `file:<repo-relative-path>` or `scope:<subsystem>`
 
 Hub locks are the **only single-writer enforcement mechanism**. The repo-local claims log below is coordination metadata (ISO batching + reserved ranges + notes) and does not prevent concurrent writes by itself.
 
@@ -167,13 +167,13 @@ ISO->base mapping (fill in):
 
 These exist in the hub tool surface, but do not override the guardrails at the top of this file:
 
-- Coordination: `mcp5_lock_release`, `mcp5_workstream_update`, `mcp5_hub_admin` (tasks)
-- Discovery/search: `mcp5_hub_exec` (ripgrep), `mcp5_fast_context`
-- Read-only queries: `mcp5_sqlite_ro_query`
-- Security/analysis: `mcp5_sbom_cyclonedx_generate`, `mcp5_semgrep_exec` / `mcp5_semgrep_list_tools`, `mcp5_codeql_exec` / `mcp5_codeql_list_tools`
-- Browser automation: `mcp5_playwright_exec` / `mcp5_playwright_list_tools`, `mcp5_puppeteer_exec` / `mcp5_puppeteer_list_tools`
-- GitHub: `mcp5_github_read`, `mcp5_github_write` (write-enabled; treat as unsafe)
-- Docs/knowledge: `mcp5_hub_readme`, `mcp5_deepwiki_*` (only if repo is indexed)
-- Perf: `mcp5_perf_status`, `mcp5_perf_http_load_test` (env + allowlist gated; treat as unsafe)
+- Coordination: `mcp1_lock_release`, `mcp1_workstream_update`, `mcp1_hub_admin` (tasks)
+- Discovery/search: `mcp1_hub_exec` (ripgrep), `mcp1_fast_context`
+- Read-only queries: `mcp1_sqlite_ro_query`
+- Security/analysis: `mcp1_sbom_cyclonedx_generate`, `mcp1_semgrep_exec` / `mcp1_semgrep_list_tools`, `mcp1_codeql_exec` / `mcp1_codeql_list_tools`
+- Browser automation: `mcp1_playwright_exec` / `mcp1_playwright_list_tools`, `mcp1_puppeteer_exec` / `mcp1_puppeteer_list_tools`
+- GitHub: `mcp1_github_read`, `mcp1_github_write` (write-enabled; treat as unsafe)
+- Docs/knowledge: `mcp1_hub_readme`, `mcp1_deepwiki_*` (only if repo is indexed)
+- Perf: `mcp1_perf_status`, `mcp1_perf_http_load_test` (env + allowlist gated; treat as unsafe)
 
-Note: `mcp5_git_read` exists, but this workflow’s “no git commands” guardrail still applies unless the user explicitly asks.
+Note: `mcp1_git_read` exists, but this workflow’s “no git commands” guardrail still applies unless the user explicitly asks.

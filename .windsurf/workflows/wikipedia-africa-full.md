@@ -15,7 +15,7 @@ auto_execution_mode: 0
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
-Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 Use this workflow together with `/wikipedia1` when working on the **Languages of Africa – full table snapshot** list.
 

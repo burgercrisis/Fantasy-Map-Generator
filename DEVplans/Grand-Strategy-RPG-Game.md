@@ -85,6 +85,10 @@
 - Export schema v0.1 edge `path` simplification: **Option A** (RDP with fixed epsilon; `epsilon = 0.001 * min(map.width, map.height)`)
 - Commands/events schemas: **Option B** (not recorded in this devplan; live in runtime repo docs)
 - Runtime commands/events schema doc: `e:\code\grandfantasy\docs\schema\commands-events-v0.1.md`
+- Runtime event timebase (`t`): **Option A** (integer milliseconds since sim start)
+- Runtime event channels mask (`channels_mask`): **Option A** (bit 0 = UI; bit 1 = debug/audit; bits 2+ reserved)
+- Runtime commands/events type lists: **Option A** (lock only envelope + transport now; defer type lists until first vertical slice wiring)
+- Legacy runtime commands/events schema doc: **Option B** (replace `e:\code\gsg-runtime\docs\schema\commands-events-v0.1.md` with redirect note)
 - Export schema v0.1 includes `provinces[]`: **Option A** (yes)
 - Export schema v0.1 edges include `path` polyline points: **Option B** (yes; simplified polyline)
 - Export schema v0.1 includes `markers[]`: **Option A** (yes)

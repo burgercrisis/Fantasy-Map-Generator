@@ -298,3 +298,7 @@ Status (2025-12-18): Tuned `barrierIslands` template to increase livable land ar
 Status (2025-12-18): Retuned `calderaArchipelago` template to better resemble a caldera archipelago (ring islands with central caldera).
 
 Status (2025-12-18): Retuned `inlandSeaStraits` for reliability by pre-lowering land before straits, adding vertical+horizontal straits, carving a stacked central basin, then applying a small land-only uplift.
+
+Status (2025-12-18): Strengthened `inlandSeaStraits` inland sea basin further (wider/deeper stacked pits) and widened straits to better guarantee a true inland sea.
+
+Status (2025-12-18): Adjusted `inlandSeaStraits` to improve ocean-connection by applying an early `Mask 1`, switching pre-strait lowering to interval `21-100` (so it can drop below sea level), and strengthening basin connectivity.

@@ -2923,14 +2923,33 @@
         "chichewa",
         "chimbu"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T01:57:15.485Z",
-      "updatedAt": "2025-12-19T01:57:15.485Z",
+      "updatedAt": "2025-12-19T03:16:51.473Z",
       "reservedRange": [
         8665,
         8714
       ],
-      "notes": "Reserved i range: 8665-8714\nISO->base mapping (fill in):\n- chepangic->8665\n- chhattisgarhi->8666\n- chiang-saen->8667\n- chichewa->8668\n- chimbu->8669"
+      "notes": "Reserved i range: 8665-8714\nISO->base mapping (fill in):\n- chepangic->8665\n- chhattisgarhi->8666\n- chiang-saen->8667\n- chichewa->8668\n- chimbu->8669\n\nReserved i range: 8665-8714\n\nISO->base mapping: chepangic->8665, chhattisgarhi->8666, chiang-saen->8667, chichewa->8668, chimbu->8669\n\nReserved i range: 8665-8714\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures for chepangic,chhattisgarhi,chiang-saen,chichewa,chimbu => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T03:20:12.740Z-worker1",
+      "isos": [
+        "chin",
+        "chinantec",
+        "chinese-korean",
+        "chinese-kyakala",
+        "chinese-pidgin-english"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T03:27:06.677Z",
+      "updatedAt": "2025-12-19T03:27:06.677Z",
+      "reservedRange": [
+        8715,
+        8764
+      ],
+      "notes": "Reserved i range: 8715-8764\nISO->base mapping (fill in):\n- chin->8715\n- chinantec->8716\n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719"
     }
   ]
 }

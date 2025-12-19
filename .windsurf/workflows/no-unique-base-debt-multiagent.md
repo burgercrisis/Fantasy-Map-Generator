@@ -54,7 +54,7 @@ Use a shared claim log so multiple agents don’t work the same ISO(s).
 
 See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coordination protocol (claim/status semantics, reserved ranges, and notes format).
 
-Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/namebases-*.js`, `tools/mixer-deltas/*.json`, `DEVplans/*.md`), acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/namebases-*.js`, `tools/mixer-deltas/*.json`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 ## Shared log file
 
@@ -250,5 +250,5 @@ When stopping for handoff, include:
 
 - Files changed
 - Suggested commit messages (no commits performed by agents)
-- `git add -p` guidance for how to stage the changes into logical commits
+- Staging guidance (no git): describe how you would logically split the changes into commits (no commands run)
 - Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite

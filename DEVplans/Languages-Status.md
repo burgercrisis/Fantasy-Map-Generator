@@ -41,6 +41,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
  - ✅ **2025-12-19 NO_UNIQ_BASE2 micro-pass (worker1 C-batch / changjiang-hlai–chepang):** pins `changjiang-hlai->8615`, `chavacano->8616`, `chechen->8617`, `chenchu->8618`, `chepang->8619` via `tools/mixer-deltas/2025-12-19-worker1-mixed-changjiang-hlai.json`; base defs `i:8615–8619` in `modules/namebases-real.js`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=changjiang-hlai,chavacano,chechen,chenchu,chepang"` => Target ISOs: 5, Missing mapping: 0, No globally-unique base index: 0, strictFail: 0, normFail: 0; coverage 0 missing; failures 0 failing; base-clusters exit 0.
 
+ - ✅ **2025-12-19 NO_UNIQ_BASE2 micro-pass (worker1 C-batch / chepangic–chimbu):** pins `chepangic->8665`, `chhattisgarhi->8666`, `chiang-saen->8667`, `chichewa->8668`, `chimbu->8669` via `tools/mixer-deltas/2025-12-19-worker1-mixed-chepangic.json`; base defs `i:8665–8669` in `modules/namebases-real.js`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=chepangic,chhattisgarhi,chiang-saen,chichewa,chimbu"` => Target ISOs: 5, Missing mapping: 0, No globally-unique base index: 0, strictFail: 0, normFail: 0; coverage 0 missing; failures 0 failing; base-clusters exit 0.
+
  - **2025-12-19 (hygiene):** fixed a `dedicatedPins` collision on indices `8620–8627` between `tools/mixer-deltas/2025-12-19-language-uniqueness-japonic-ryukyuan-8620-8627-dedicatedpins.json` and the West Himalayish/Magaric batch by repinning the latter to `8630–8639` (same file path; updated contents). Then ran `pnpm run mixer:apply-deltas` to update artifacts; `pnpm run mixer:check-deltas` OK.
 
 - ✅ **2025-12-18 (/language-uniqueness setBases batch):** resolved 5 2-member base-set collisions (10 ISOs: `gurindji-kriol`, `light-warlpiri`, `raji-raute`, `rau`, `lower-uda-buryat`, `dagur`, `shd`, `plk`, `gwt`, `scl`) via `tools/mixer-deltas/2025-12-18-language-uniqueness-batch-aus-raji-mongolic-dardic-setbases.json`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` => exit 0; coverage 0 missing; failures 0 failing; base-clusters `--min-size=2 --include-families` now `clusters=65`.
@@ -1814,6 +1816,8 @@ The following families / regions have **not yet received a full pass** for home-
 
  **2025-12-18**: Decluster micro-pass: broke shared base-set collision `bases=[375]` among `kuvi` (Kuvi / South-Central Dravidian), `naiki` (Naiki / Central Dravidian), and `kxu` (Kui (India) / South Dravidian) by setting `kuvi` bases to `[375,200]` and `naiki` bases to `[375,199]` via delta `tools/mixer-deltas/2025-12-18-decluster-375-kuvi-naiki-kxu.json` (leaving `kxu` as-is). Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` exit 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0.
 
+ **2025-12-19**: Decluster micro-pass: broke shared base-set cluster `bases=[211,212,290]` among `haz` (Hazaragi), `jdg` (Jadgali), `pbt` (Pashto, Southern), `waziri-pashto` (Waziri) by setting unique bases via delta `tools/mixer-deltas/2025-12-19-decluster-iranian-bases211-212-290.json`: `haz->[212]`, `pbt->[211]`, `waziri-pashto->[211,212]`, `jdg->[212,290]`. Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:apply-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families` now reports clusters (size>=2) 40 -> 36 and entries-in-clusters 423 -> 410; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` exit 0.
+
  **2025-12-18**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-18T23:04:36.263Z-worker1 reservedRange=8375-8424 isos=[central-tibeto-burman,central-veps,central-vychegda,central-zapotec,cfm] status=complete. Delta: tools/mixer-deltas/2025-12-18-worker1-mixed-central-tibeto-burman.json. Base defs: modules/namebases-real.js i:8375-8379. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures "--only-isos=central-tibeto-burman,central-veps,central-vychegda,central-zapotec,cfm" --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
 
  **2025-12-18**: NO_UNIQ_BASE2 claim completed: workerId=1 batchId=2025-12-18T23:32:13.275Z-worker1 reservedRange=8431-8480 isos=[gin,ginuman,gjk,gju,glavda-language] status=complete. ISO->base: gin->8431; ginuman->8432; gjk->8433; gju->8434; glavda-language->8435. Verified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures "--only-isos=gin,ginuman,gjk,gju,glavda-language" --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.
@@ -2162,7 +2166,7 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 23
-  - `Nonunique Bases:` 48
+  - `Nonunique Bases:` 28
 
 - **Base-set uniqueness details (full items):**
   - `unique bases:` 221
@@ -2240,6 +2244,12 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
    - **Delta:** `tools/mixer-deltas/2025-12-18-wikipedia1-americas-indigenous-uto-aztecan-batch1-8481-8487-dedicatedpins.json` (pins: `mayo->8481`, `nah->8482`, `oodham->8483`, `pima-bajo->8484`, `tarahumara->8485`, `var->8486`, `yaqui->8487`).
    - **Bases:** appended to `modules/namebases-real.js` (`i:8481–8487`).
    - **Verification:** `pnpm run mixer:apply-deltas` OK; targeted seed-uniqueness for `mayo,nah,oodham,pima-bajo,tarahumara,var,yaqui` => 0 strict failures / 0 normalized failures; coverage: `missing catalog=0`, `missing map=0`; failures: 0; duplicate-isos: 0; map inconsistencies check: OK; list nonunique report => `Total lacking unique base: 34`.
+
+ - **2025-12-18 status (Arawakan mini-batch):**
+   - **Batch scope:** dedicated pins for `piapoco`, `ter` (Terêna), `wapishana`.
+   - **Delta:** `tools/mixer-deltas/2025-12-19-wikipedia1-americas-indigenous-arawakan-batch1-8665-8667-dedicatedpins.json` (pins: `piapoco->8653`, `ter->8654`, `wapishana->8655`).
+   - **Bases:** ensured dedicated base defs exist in `modules/namebases-real.js` (`i:8653–8655`).
+   - **Verification (2025-12-18 19:24 local):** `pnpm run mixer:apply-deltas` OK; targeted seed-uniqueness for `piapoco,ter,wapishana` => missing mapping: 0; no globally-unique base index: 0; strict failures: 0; normalized failures: 0; coverage: `missing catalog=0`, `missing map=0`; failures: 0; duplicate-isos: 0; map inconsistencies check: OK.
 
 ### 8.6 Languages of Oceania – full page language mentions snapshot
 

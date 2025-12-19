@@ -1,12 +1,13 @@
 # Heightmap World Builder (Composite Generator) Plan
 
-Status (2025-12-19): Planning document created. No implementation work started.
+Status (2025-12-19): Planning document created; ocean approach approved = Option A (procedural ocean baseline + template features). No implementation work started.
 
 ## 1) Goal
 
 Create a new **composite heightmap generator** ("World Builder") that produces a single final `heights[]` array by combining:
 
-- **Template-driven tectonic plates** (continents + basins as large stamps)
+- **Template-driven tectonic plates** (continents as large stamps)
+- **Procedural oceanic plate baseline** (ocean plates start from a baseline; oceans get structure from boundaries + feature stamps)
 - **Template-driven feature stamps** (islands, archipelagos, atolls, calderas, arcs, etc.) at smaller scales
 
 This system should:
@@ -14,7 +15,7 @@ This system should:
 - Integrate **before the current heightmap pipeline** (i.e., output a normal `heights[]` compatible with existing downstream generation)
 - Be **seeded / deterministic**
 - Start as a **one-button** experience (MVP)
-- Allow the **individual templates** (continents/basins/features) to keep improving independently while also powering the composite generator
+- Allow the **individual templates** (continents/local basins/features) to keep improving independently while also powering the composite generator
 
 ## 2) Approved choices (explicit)
 
@@ -25,6 +26,11 @@ This system should:
   - If a template is too "full-planet" to work well as a stamp, we will **blacklist** it for composite use initially, or **adjust** it (or create a stamp-variant) later.
 - **C2:** record this plan thoroughly in a new DEVplans doc (`DEVplans/Heightmap-Worldbuilder.md`)
 - **Wraparound:** east-west wraparound desired, but can be implemented later
+
+- **Ocean approach (Option A):** procedural ocean plate baseline + templates for ocean features (ridges, trenches, plateaus, island chains, etc.)
+- **MVP allowlist (Milestone 1):** `continents` + `lowIsland` + `archipelago`
+- **Ocean baseline (MVP):** depth gradient + noise (**age-from-ridge in Milestone 4/5**)
+- **Land coverage target (MVP):** no explicit target (let baseline + stamps decide)
 
 ## 3) Key design intent
 
@@ -37,19 +43,21 @@ The system is designed so that:
 
 This means we can:
 
-- Add new continent/basin templates as individual templates first
+- Add new continent templates and stampable local-basin/feature templates as individual templates first
 - Then wire them into World Builder with minimal extra integration work
 
 ### 3.2 Continents are "big stamps"; feature stamps are scaled-down templates
 
-- **Continent templates** and **basin templates** act as the large building blocks.
+- **Continent templates** act as the large building blocks for landmasses.
+- **Oceanic plates** start from a procedural baseline; oceans get structure from plate boundaries + feature stamps.
 - **Feature stamps** are the same concept at smaller scales and are placed based on context (e.g., arcs near subduction, atolls mid-ocean, barrier chains along shallow shelves, etc.).
 
 ## 4) Definitions
 
 - **Template**: an entry in `config/heightmap-templates.js` using the existing DSL.
 - **Stamp**: running a template on a **local stamp domain** and blending the resulting heightfield into the world.
-- **Plate stamp**: a large stamp representing a tectonic plate interior or large-scale unit (e.g., continent, oceanic basin).
+- **Plate stamp**: a large stamp representing a tectonic plate interior or large-scale unit (e.g., continent).
+- **Ocean baseline**: an initial ocean-floor heightfield generated procedurally for oceanic plates before boundary/feature stamping.
 - **Feature stamp**: smaller stamps layered on top (islands, arcs, calderas, fjords, rias, etc.).
 - **Stamp domain**: the coordinate system the template runs in (usually a rectangular sub-grid we generate for the stamp, using the existing template DSL percent-based ranges).
 - **Falloff / blend mask**: soft edge mask applied to stamps to prevent seams.
@@ -59,23 +67,23 @@ This means we can:
 The composite generator produces `heights[]` in phases:
 
 1) **Plate layout** (seeded): partition the world into plates / macro-regions.
-2) **Plate stamps**: fill each plate with a chosen continent/basin template stamp.
+2) **Plate interiors**: stamp continents; generate a procedural ocean baseline for oceanic plates.
 3) **Plate boundary effects**: add ridges / trenches / collision ranges / transform features based on plate adjacency.
 4) **Feature stamps**: place smaller stamps inside plates or at boundaries (context-aware).
 5) **Post-processing**: global normalization / smoothing / land coverage adjustments.
 6) Output the final `heights[]`.
 
-## 6) Data sources (templates-only)
+## 6) Data sources (templates + procedural ocean baseline)
 
 ### 6.1 Existing template inventory (today)
 
 The current template set in `config/heightmap-templates.js` already includes multiple candidates usable as stamps:
 
 - **Large / plate-like:** `continents`, `pangea`, `oldWorld`, `riftContinent`, `fractious`
-- **Basin-like / sea-like:** `endorheicBasins`, `dryLakes`, `inlandSeaStraits`, `impactRing`
+- **Local basins / inland seas:** `endorheicBasins`, `dryLakes`, `inlandSeaStraits`, `impactRing`
 - **Feature / stamp-like:** `volcano`, `highIsland`, `lowIsland`, `archipelago`, `atoll`, `barrierIslands`, `backArcChain`, `calderaArchipelago`, `fjordCoast`, `drownedRiverlands`, `highPlateauCanyons`, etc.
 
-As new **basin** templates are added (mid-ocean ridges, trenches, abyssal plains, oceanic plateaus), they will become additional plate-stamp options.
+As new ocean-floor feature templates are added (mid-ocean ridges, trenches, oceanic plateaus), they will become additional boundary/feature stamp options.
 
 ### 6.2 Template allowlist / blacklist (composite use)
 
@@ -104,9 +112,9 @@ For each plate:
   - `continental`
   - `oceanic`
   - (later) special types like `microcontinent`, `oceanic_plateau`, `rifted_margin`
-- Choose a **plate stamp template** from the allowlist:
-  - Continental plates choose from a **continent template pool**.
-  - Oceanic plates choose from a **basin template pool**.
+- Choose a plate interior strategy:
+  - Continental plates choose from a **continent template pool** (plate stamps).
+  - Oceanic plates use a **procedural ocean baseline** (structure comes from boundaries + feature stamps).
 
 ### 7.3 Running templates as stamps
 
@@ -177,14 +185,15 @@ The composite generator needs cohesion passes so the world does not look pasted 
 - New selectable template: `World Builder (Composite)`
 - Deterministic generation
 - Uses a very small allowlist:
-  - 1-2 continent templates
-  - 1 basin template (or a temporary basin proxy)
-  - 1-2 feature stamp templates (e.g., `lowIsland`, `archipelago`)
+  - `continents`
+  - `lowIsland`
+  - `archipelago`
+- Oceanic plates use a procedural baseline (no basin template required for MVP)
 - Basic blending + falloff
 
 ### Milestone 2: Plate partitioning + multiple plate stamps
 
-- Multiple continent/basin stamps across the world
+- Multiple continent stamps across the world
 - No advanced boundary classification yet (or very simple)
 
 ### Milestone 3: Plate boundary effects
@@ -194,6 +203,7 @@ The composite generator needs cohesion passes so the world does not look pasted 
 ### Milestone 4: Context-aware feature stamps
 
 - Stamps placed where they "make sense" tectonically
+- **Age-from-ridge** behavior added to ocean baseline
 
 ### Milestone 5: Controls + wraparound (later)
 
@@ -228,7 +238,7 @@ Target workflow:
 1) Add the new template to `config/heightmap-templates.js` (standalone usability first).
 2) Decide its composite category:
    - `continentPlate`
-   - `basinPlate`
+   - `oceanFeature`
    - `featureStamp`
 3) Add it to the composite allowlist with default metadata:
    - size range
@@ -240,15 +250,8 @@ Goal state: adding a new stamp should usually be **metadata-only**, not new gene
 
 ## 13) Open questions / choices remaining
 
-- **Initial allowlist:** which exact templates should be considered first-class:
-  - continent plate candidates
-  - basin plate candidates
-  - feature stamp candidates
-- **Basin templates:** which basin templates are next to implement as individual templates (to strengthen the plate library)
 - **Full-planet templates:** for templates that are too strong as stamps:
   - blacklist vs retune vs stamp-variant
-- **Land coverage target:** do we aim for a default land % (and if so, what range)?
 - **Stamp fitting strategy:** how we map stamp domain to plate region:
   - simple scale+rotate
   - optional warp/noise distortion
-- **Wraparound:** confirm whether wraparound is a hard requirement for v1 or acceptable as a follow-up

@@ -19,7 +19,7 @@ This workflow is designed to be **re-sent verbatim** to multiple agents working 
   - Keep it as-is and continue, or
   - Leave it uncommitted / untouched and ask the user what to do.
 
-Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp5_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
 # Global end-state goal
 
@@ -199,5 +199,5 @@ When stopping for handoff, include:
 
 - Files changed
 - Suggested commit messages (no commits performed by agents)
-- `git add -p` guidance for how to stage the changes into logical commits
+- Staging guidance (no git): describe how you would logically split the changes into commits (no commands run)
 - Verification commands run (or to run), including `pnpm run mixer:guardrails` and the suite
