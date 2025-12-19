@@ -268,7 +268,27 @@ These are concrete **template-shaped** variants that map well onto the existing 
 - **High Plateau + Canyon Cut:** broad uplift (`Add`/`Range`) + flattening (`Smooth`) + deep incision (`Trough`) to form canyon networks.
 - **Endorheic Basin Field (salt pans):** lowered interior plus many small `Pit`s to create closed drainage basins; can be a `dryLakes` variant focused on multi-basin structure.
 
-1. **Select 21 more P1 concepts** to turn into concrete templates next (beyond `dryLakes` and `barrierIslands`).
+### Newly prioritized additions (2025-12-19)
+
+Focused shortlist extracted from the coastal/tectonic inventories discussed with the user—none of these are currently represented as templates or stock PNG maps:
+
+- **River delta / megadelta worlds:** fan-shaped coastal lowlands carved by multiple distributary `Trough`s, with baked-in marsh belts and tidal channels. Ideal for campaigns centered on trade hubs and low-relief wetlands; distinct from `drownedRiverlands` because it is delta-forward instead of drowned valleys.
+- **Tombolo chokepoints:** an island connected to mainland (or two islands tied together) via a narrow sandy bar; requires paired `Range` shoulders with a thin `Add`/`Mask`-controlled neck. Gives players strategic straits without duplicating `peninsula`/`isthmus`.
+- **Strandflat / skerry coasts:** low-relief coastlines scattered with hundreds of rocky islets and shallow shelves (think Lofoten/Baltic skerries). Needs shallow `Range` terraces plus dense micro-`Hill` seeds offshore; complements `fjordCoast` by emphasizing breadth rather than depth.
+- **Horst-and-graben basin-and-range:** repeating linear `Range` uplifts alternating with `Trough` valleys, suitable for tectonic basin deserts or rifted interiors. Different from single `riftContinent` cords because it produces multiple parallel travel corridors.
+
+Each concept can land either as a **procedural template** (preferred) or as curated PNG heightmaps for showcase scenarios. When implementing, note expected biome impacts (wetlands vs arid basin) for future climate presets.
+
+### Additional gaps surfaced (2025-12-19 follow-up)
+
+- **Thermokarst lowlands:** near-sea-level permafrost plains dotted with thaw lakes, polygonal ground, and collapsing basins. Needs subtle `Pit` noise and low-amplitude `Range` rims to stay believable, unlike the high-relief glacial template above.
+- **Pingo / palsa fields:** dozens of ice-cored hills scattered across tundra. Could be implemented as clustered `Hill` seeds on a flattened mask; provides lumpy northern terrain for harsh campaigns.
+- **Cratered shield / multi-impact province:** overlapping circular rims and central peaks covering most of the map, not just a single `impactRing`. Mix large `Pit` basins with concentric `Range` rings to evoke battered highlands or sci-fi worlds.
+- **Braided super-river basin:** broad interior plain dominated by repeated anabranching `Trough` networks, levees, and avulsions without necessarily touching an ocean. Different from the coastal delta template by keeping the system inland.
+
+Status (2025-12-19): Began implementing the **Braided Super-River Basin** template. Target shape = raised continental interior (`Add` + `Range`) funneled into a wide, low-gradient basin carved by multiple offset `Trough` bands (representing splitting/merging channels) that terminate inside the map rather than at coasts. Plan is to (1) pre-lower a central oval via stacked `Mask` + `Smooth`, (2) lay 3–4 staggered `Trough` passes with alternating orientations to mimic braid bars, (3) sprinkle shallow `Pit` steps for oxbow cutoffs, then (4) re-raise surrounding shoulders so the basin stays inland and endorheic unless rivers breach via later editing.
+
+1. **Select 2–1 more P1 concepts** to turn into concrete templates next (beyond `dryLakes` and `barrierIslands`).
    - Strong candidates: **Fjord Coasts**, **Delta World**, **Rift Valley Chain**, **Canyon World**.
 2. For each chosen concept:
    - Draft a **template pseudo-spec** (where highs/lows go, approximate percent of land vs sea, expected climates).
@@ -302,3 +322,5 @@ Status (2025-12-18): Retuned `inlandSeaStraits` for reliability by pre-lowering 
 Status (2025-12-18): Strengthened `inlandSeaStraits` inland sea basin further (wider/deeper stacked pits) and widened straits to better guarantee a true inland sea.
 
 Status (2025-12-18): Adjusted `inlandSeaStraits` to improve ocean-connection by applying an early `Mask 1`, switching pre-strait lowering to interval `21-100` (so it can drop below sea level), and strengthening basin connectivity.
+
+Status (2025-12-19): Built an automated Puppeteer-driven harness to batch each template across 8 seeds, capturing water %, edge-ocean %, largest/landlocked water components, and edge-to-edge connectivity; first pass ranks `endorheicBasins`, `dryLakes`, `mediterranean`, and `inlandSeaStraits` as top inland-sea candidates but shows `inlandSeaStraits` still over-watered (largest landlocked water only 0.12%), so retuning remains in progress.

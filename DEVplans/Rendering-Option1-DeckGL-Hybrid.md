@@ -260,5 +260,6 @@ description: Option 1 renderer migration — deck.gl for heavy geometry + keep S
     - plan: copy the UMD asset(s) for 8.9.39 into `libs/deck.gl-8.9.39/` (e.g., `deck.gl-8.9.39.min.js`)
     - keep filenames versioned so future bumps are explicit
     - document checksums when vendoring for integrity
+    - **Bundle policy:** split by role (e.g., `deck.gl-core-8.9.39.min.js`, `deck.gl-layers-8.9.39.min.js`) so upgrades are scoped and payloads stay smaller
   - switch `index.html` from CDN to local `libs/` assets
   - document the update policy (how/when to bump versions)

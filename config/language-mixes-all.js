@@ -11293,6 +11293,17 @@
     ]
   },
   {
+    "name": "Chorotega",
+    "iso": "chorotega",
+    "region": "Central America",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chorotega_language",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Guna",
     "iso": "cuk",
     "region": "Central America",
@@ -11492,6 +11503,14 @@
     "region": "East Asia",
     "category": "Koreanic",
     "family": "Koreanic"
+  },
+  {
+    "name": "Chongqing Mandarin",
+    "iso": "chongqing-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chongqing_dialect"
   },
   {
     "name": "Chungcheong Korean",
@@ -15006,6 +15025,14 @@
     "region": "Europe",
     "category": "Romance",
     "family": "Aragonese"
+  },
+  {
+    "name": "Chovashi",
+    "iso": "chovashi",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Oghur",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chuvash_language"
   },
   {
     "name": "Chuvash",
@@ -26318,6 +26345,25 @@
     "category": "Language isolate",
     "family": "Chiquitano isolate",
     "wikipedia": "https://en.wikipedia.org/wiki/Chiquitano_language"
+  },
+  {
+    "name": "Chorote",
+    "iso": "chorote",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chorote_language"
+  },
+  {
+    "name": "Choshuenco",
+    "iso": "choshuenco",
+    "region": "South America",
+    "category": "Araucanian",
+    "family": "Mapuche",
+    "wikipedia": "https://es.wikipedia.org/wiki/Idioma_huilliche",
+    "tags": [
+      "extinct"
+    ]
   },
   {
     "name": "Cofán",

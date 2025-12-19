@@ -215,8 +215,8 @@ Smaller changes vs upstream include:
   - `run_php_server.bat` and `run_python_server.bat` tweaked for local workflow (ports/paths). Behavior is still "start a simple local web server" but tuned for this fork.
 - **`package.json`:**
   - Light updates to scripts/dependencies to support the new workflow and tooling (while still remaining a static‑site style project).
-- **Save/load format extensions:**
-  - Save format supports extra trailing lines for additional data. In particular, newer saves can include `pack.races` and optionally `pack.cells.race`.
+- **State name sanitization fix (2025-12-19):**
+  - Fixed generation of state names containing unexpected digits and pipe characters (e.g., "Buwal58u5 |Empire", "Kingdom of |Bolze75unia") by adding sanitization logic in `modules/names-generator.js`, `modules/names-mixer.js`, `modules/races.js`, and `modules/cultures-generator.js` to strip digits, |, _unq\d+, _u\d+, and _ from generated names.
 
 - **Heightmap templates:**
   - Added a new procedural `Barrier Islands` heightmap template in `config/heightmap-templates.js`, exposing a coastal layout with offshore barrier chains alongside the existing island/continent templates.

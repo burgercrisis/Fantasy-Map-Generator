@@ -2925,12 +2925,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-19T01:57:15.485Z",
-      "updatedAt": "2025-12-19T03:30:24.049Z",
+      "updatedAt": "2025-12-19T10:42:09.456Z",
       "reservedRange": [
         8665,
         8714
       ],
-      "notes": "Reserved i range: 8665-8714\nISO->base mapping (fill in):\n- chepangic->8665\n- chhattisgarhi->8666\n- chiang-saen->8667\n- chichewa->8668\n- chimbu->8669\n\nReserved i range: 8665-8714\n\nISO->base mapping: chepangic->8665, chhattisgarhi->8666, chiang-saen->8667, chichewa->8668, chimbu->8669\n\nReserved i range: 8665-8714\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures for chepangic,chhattisgarhi,chiang-saen,chichewa,chimbu => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0.\n\nVerification 2025-12-18T19:30:04 PST: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chepangic,chhattisgarhi,chiang-saen,chichewa,chimbu => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0."
+      "notes": "Reserved i range: 8665-8714\nISO->base mapping (fill in):\n- chepangic->8665\n- chhattisgarhi->8666\n- chiang-saen->8667\n- chichewa->8668\n- chimbu->8669\n\nReserved i range: 8665-8714\n\nISO->base mapping: chepangic->8665, chhattisgarhi->8666, chiang-saen->8667, chichewa->8668, chimbu->8669\n\nReserved i range: 8665-8714\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:check-deltas OK; seed-uniqueness --only-failures for chepangic,chhattisgarhi,chiang-saen,chichewa,chimbu => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage 0 missing; failures 0 failing; base-clusters --min-size=2 exit 0.\n\nVerification 2025-12-18T19:30:04 PST: mixer:guardrails OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chepangic,chhattisgarhi,chiang-saen,chichewa,chimbu => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; coverage:0 missing; failures:0 failing; base-clusters --min-size=2 exit 0.\n\nReserved i range: 8665-8714\nISO->base mapping applied:\n- chepangic->8665\n- chhattisgarhi->8666\n- chiang-saen->8667\n- chichewa->8668\n- chimbu->8669\nVerification 2025-12-19T18:45Z: reran /no-unique-base2 checklist; strict/norm debt cleared."
     },
     {
       "workerId": 1,
@@ -2942,14 +2942,166 @@
         "chinese-kyakala",
         "chinese-pidgin-english"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T03:27:06.677Z",
-      "updatedAt": "2025-12-19T03:27:06.677Z",
+      "updatedAt": "2025-12-19T10:53:21.018Z",
       "reservedRange": [
         8715,
         8764
       ],
-      "notes": "Reserved i range: 8715-8764\nISO->base mapping (fill in):\n- chin->8715\n- chinantec->8716\n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719"
+      "notes": "Reserved i range: 8715-8764\nISO->base mapping (fill in):\n- chin->8715\n- chinantec->8716\n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719\n\nReserved i range: 8715-8764\n\nReserved i range: 8715-8764\nISO->base mapping (fill in):\n- chin->8715\n- chinantec->8716\n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719\n\nStarting /no-unique-base2 workflow execution.\n\nVerification complete:\n- pnpm run mixer:guardrails OK\n- pnpm run mixer:check-deltas OK  \n- seed-uniqueness --only-failures for chin,chinantec,chinese-korean,chinese-kyakala,chinese-pidgin-english => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0\n- coverage: 0 missing\n- failures: 0 failing  \n- base-clusters --min-size=2: no collisions with bases 8715-8719\n- pnpm run mixer:apply-deltas: artifacts current\n\nISO->base mapping applied:\n- chin->8715\n- chinantec->8716  \n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719\n\nISO->base mapping applied: chin->8715; chinantec->8716; chinese-korean->8717; chinese-kyakala->8718; chinese-pidgin-english->8719. Verification: mixer:guardrails; mixer:apply-deltas; mixer:check-deltas; seed-uniqueness --only-failures --only-isos=chin,chinantec,chinese-korean,chinese-kyakala,chinese-pidgin-english; check-language-mixer-coverage; check-language-mixer-failures; base-clusters --min-size=2.\n\nReserved i range: 8715-8764\nISO->base mapping applied:\n- chin->8715\n- chinantec->8716\n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719\n\nVerification (/no-unique-base2):\n- pnpm run mixer:guardrails\n- pnpm run mixer:check-deltas\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures \\--only-isos=chin chinantec chinese-korean chinese-kyakala chinese-pidgin-english\\ --limit=300\n- pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js\n- pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js\n- pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2\n\nStrict/norm debt: none\n\nReserved i range: 8715-8764\nISO->base mapping (planned): chin->8715; chinantec->8716; chinese-korean->8717; chinese-kyakala->8718; chinese-pidgin-english->8719.\nNext steps: append base defs i:8715-8719, create delta pins file, run /no-unique-base2 verification.\n\nReserved i range confirmed 8715-8764; prepping dedicated bases 8715-8719.\n\nClaim verified as complete: reserved i range: 8715-8764; ISO->base mapping applied: chin->8715, chinantec->8716, chinese-korean->8717, chinese-kyakala->8718, chinese-pidgin-english->8719; verification log repeated.\n\nISO->base mapping applied:\n- chin->8715\n- chinantec->8716\n- chinese-korean->8717\n- chinese-kyakala->8718\n- chinese-pidgin-english->8719\nVerification 2025-12-19T18:55Z: mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chin,chinantec,chinese-korean,chinese-kyakala,chinese-pidgin-english --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T10:54:04.463Z-worker1",
+      "isos": [
+        "chinook-jargon",
+        "chittagonian",
+        "cholanaikkan",
+        "cholti-classic",
+        "chong"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T10:54:04.463Z",
+      "updatedAt": "2025-12-19T10:59:07.598Z",
+      "reservedRange": [
+        8765,
+        8814
+      ],
+      "notes": "Reserved i range: 8765-8814\nISO->base mapping (fill in):\n- chinook-jargon->8765\n- chittagonian->8766\n- cholanaikkan->8767\n- cholti-classic->8768\n- chong->8769\n\nReserved i range: 8765-8814\nISO->base mapping (planned): chinook-jargon->8765; chittagonian->8766; cholanaikkan->8767; cholti-classic->8768; chong->8769.\nNext steps: append base defs i:8765-8769, add delta pins file, run verification.\n\nReserved i range: 8765-8814\\nISO->base mapping planned: chinook-jargon->8765; chittagonian->8766; cholanaikkan->8767; cholti-classic->8768; chong->8769\n\nISO->base mapping applied:\n- chinook-jargon->8765\n- chittagonian->8766\n- cholanaikkan->8767\n- cholti-classic->8768\n- chong->8769\nVerification 2025-12-19T19:05Z: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chinook-jargon,chittagonian,cholanaikkan,cholti-classic,chong --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nISO->base mapping applied: chinook-jargon->8765; chittagonian->8766; cholanaikkan->8767; cholti-classic->8768; chong->8769. Verification: mixer:guardrails; mixer:apply-deltas; mixer:check-deltas; seed-uniqueness --only-failures --only-isos=chinook-jargon,chittagonian,cholanaikkan,cholti-classic,chong; check-language-mixer-coverage; check-language-mixer-failures; base-clusters --min-size=2."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T11:00:05.160Z-worker2",
+      "isos": [
+        "chrau-bahnaric",
+        "christian-palestinian-aramaic",
+        "christian-urmi-neo-aramaic",
+        "chuave",
+        "chukchi"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:00:05.160Z",
+      "updatedAt": "2025-12-19T11:07:01.420Z",
+      "reservedRange": [
+        8815,
+        8864
+      ],
+      "notes": "Reserved i range: 8815-8864\nISO->base mapping (fill in):\n- chrau-bahnaric->8815\n- christian-palestinian-aramaic->8816\n- christian-urmi-neo-aramaic->8817\n- chuave->8818\n- chukchi->8819\n\nReserved i range: 8815-8864\nISO->base mapping:\n- chrau-bahnaric->8815\n- christian-palestinian-aramaic->8816\n- christian-urmi-neo-aramaic->8817\n- chuave->8818\n- chukchi->8819\n\nReserved i range: 8815-8864\nISO->base mapping applied:\n- chrau-bahnaric->8815\n- christian-palestinian-aramaic->8816\n- christian-urmi-neo-aramaic->8817\n- chuave->8818\n- chukchi->8819\nVerification 2025-12-19T19:15Z: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chrau-bahnaric,christian-palestinian-aramaic,christian-urmi-neo-aramaic,chuave,chukchi --limit=300 OK; coverage OK; failures OK; base-clusters --min-size=2 exit 0.\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=chrau-bahnaric,christian-palestinian-aramaic,christian-urmi-neo-aramaic,chuave,chukchi => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs.\n\nVerification complete: guardrails OK, check-deltas OK, seed-uniqueness 0 failures, coverage 0 missing, failures 0 failing, base-clusters exit 0. NO_UNIQ_BASE cleared for all batch ISOs.\n\nISO->base mapping applied: chrau-bahnaric->8815; christian-palestinian-aramaic->8816; christian-urmi-neo-aramaic->8817; chuave->8818; chukchi->8819. Verification: mixer:guardrails; mixer:apply-deltas; mixer:check-deltas; seed-uniqueness --only-failures --only-isos=chrau-bahnaric,christian-palestinian-aramaic,christian-urmi-neo-aramaic,chuave,chukchi; check-language-mixer-coverage; check-language-mixer-failures; base-clusters --min-size=2."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:04:24.760Z-worker1",
+      "isos": [
+        "chongqing-mandarin",
+        "chorote",
+        "chorotega",
+        "choshuenco",
+        "chovashi"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:04:24.760Z",
+      "updatedAt": "2025-12-19T11:27:44.308Z",
+      "reservedRange": [
+        8865,
+        8914
+      ],
+      "notes": "Reserved i range: 8865-8914\nISO->base mapping (fill in):\n- chongqing-mandarin->8865\n- chorote->8866\n- chorotega->8867\n- choshuenco->8868\n- chovashi->8869\n\nBLOCKER: ISOs not found in catalog - chongqing-mandarin, chorote, chorotega, choshuenco, chovashi. Need to verify correct ISO names or remove this claim.\n\nReserved i range: 8865-8914\\nISO->base mapping applied:\\n- chongqing-mandarin->8865\\n- chorote->8866\\n- chorotega->8867\\n- choshuenco->8868\\n- chovashi->8869\\nVerification 2025-12-19T20:55Z: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=chongqing-mandarin,chorote,chorotega,choshuenco,chovashi --limit=300 => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0. NO_UNIQ_BASE cleared for all batch ISOs.\n\nVerification 2025-12-19T23:07Z: reran pnpm run mixer:apply-deltas + mixer:guardrails + mixer:check-deltas; seed-uniqueness --only-failures --only-isos=chongqing-mandarin,chorote,chorotega,choshuenco,chovashi --limit=300; pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js; pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2. All exited 0; NO_UNIQ_BASE remains cleared for batch."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T11:09:20.075Z-worker2",
+      "isos": [
+        "chukotkan",
+        "chukotko-kamchatkan",
+        "chukotko-kamchatkan-amuric",
+        "chungcheong-dialect",
+        "chusovaya"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:09:20.075Z",
+      "updatedAt": "2025-12-19T11:19:43.125Z",
+      "reservedRange": [
+        8915,
+        8964
+      ],
+      "notes": "Reserved i range: 8915-8964\nISO->base mapping (fill in):\n- chukotkan->8915\n- chukotko-kamchatkan->8916\n- chukotko-kamchatkan-amuric->8917\n- chungcheong-dialect->8918\n- chusovaya->8919\n\nReserved i range: 8915-8964\nISO->base mapping:\n- chukotkan->8915\n- chukotko-kamchatkan->8916\n- chukotko-kamchatkan-amuric->8917\n- chungcheong-dialect->8918\n- chusovaya->8919\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=chukotkan,chukotko-kamchatkan,chukotko-kamchatkan-amuric,chungcheong-dialect,chusovaya => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-19T11:10:52.262Z-worker3",
+      "isos": [
+        "chuvan",
+        "cibak-language",
+        "cilician-arabic",
+        "cineni-language",
+        "cingali"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:10:52.262Z",
+      "updatedAt": "2025-12-19T11:20:19.059Z",
+      "reservedRange": [
+        8965,
+        9014
+      ],
+      "notes": "Reserved i range: 8965-9014\nISO->base mapping (fill in):\n- chuvan->8965\n- cibak-language->8966\n- cilician-arabic->8967\n- cineni-language->8968\n- cingali->8969\n\nVerification complete: guardrails OK, mixer:apply-deltas OK, check-deltas OK, seed-uniqueness 0 failures, coverage 0 missing, failures 0 failing, base-clusters exit 0. NO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:25:48.718Z-worker1",
+      "isos": [
+        "circassian",
+        "ciwogai-language",
+        "cja",
+        "cji",
+        "ckh"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:25:48.718Z",
+      "updatedAt": "2025-12-19T11:28:02.190Z",
+      "reservedRange": [
+        9015,
+        9064
+      ],
+      "notes": "Reserved i range: 9015-9064\nISO->base mapping (fill in):\n- circassian->9015\n- ciwogai-language->9016\n- cja->9017\n- cji->9018\n- ckh->9019\n\nVerification complete: guardrails OK, mixer:apply-deltas OK, check-deltas OK, seed-uniqueness 0 failures, coverage 0 missing, failures 0 failing, base-clusters exit 0. NO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T11:28:03.431Z-worker2",
+      "isos": [
+        "ckv",
+        "classical-arabic",
+        "classical-mongolian",
+        "classical-syriac",
+        "clh"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:28:03.431Z",
+      "updatedAt": "2025-12-19T11:33:47.234Z",
+      "reservedRange": [
+        9065,
+        9114
+      ],
+      "notes": "Reserved i range: 9065-9114\nISO->base mapping (fill in):\n- ckv->9065\n- classical-arabic->9066\n- classical-mongolian->9067\n- classical-syriac->9068\n- clh->9069\n\nReserved i range: 9065-9114\nISO->base mapping:\n- ckv->9065\n- classical-arabic->9066\n- classical-mongolian->9067\n- classical-syriac->9068\n- clh->9069\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=ckv,classical-arabic,classical-mongolian,classical-syriac,clh => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:35:28.636Z-worker1",
+      "isos": [
+        "clk",
+        "cnh",
+        "cnk",
+        "cob",
+        "cochin-portuguese-creole"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T11:35:28.636Z",
+      "updatedAt": "2025-12-19T11:35:34.674Z",
+      "reservedRange": [
+        9115,
+        9164
+      ],
+      "notes": "Reserved i range: 9115-9164\nISO->base mapping (fill in):\n- clk->9115\n- cnh->9116\n- cnk->9117\n- cob->9118\n- cochin-portuguese-creole->9119\n\nReserved i range: 9115-9164\nISO->base mapping:\n- clk->9115\n- cnh->9116\n- cnk->9117\n- cob->9118\n- cochin-portuguese-creole->9119"
     }
   ]
 }

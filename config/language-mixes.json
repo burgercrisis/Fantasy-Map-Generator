@@ -4355,6 +4355,25 @@
     ]
   },
   {
+    "name": "Chongqing Mandarin",
+    "iso": "chongqing-mandarin",
+    "region": "East Asia",
+    "category": "Sino-Tibetan",
+    "family": "Mandarin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chongqing_dialect"
+  },
+  {
+    "name": "Chorotega",
+    "iso": "chorotega",
+    "region": "Central America",
+    "category": "Oto-Manguean",
+    "family": "Oto-Manguean",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chorotega_language",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Chittagonian",
     "iso": "chittagonian",
     "region": "Asia",
@@ -27223,6 +27242,25 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Nivacl%C3%A9_language"
   },
   {
+    "name": "Chorote",
+    "iso": "chorote",
+    "region": "South America",
+    "category": "Matacoan",
+    "family": "Matacoan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chorote_language"
+  },
+  {
+    "name": "Choshuenco",
+    "iso": "choshuenco",
+    "region": "South America",
+    "category": "Araucanian",
+    "family": "Mapuche",
+    "wikipedia": "https://es.wikipedia.org/wiki/Idioma_huilliche",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Tanacross",
     "iso": "tcb",
     "region": "North America",
@@ -27728,5 +27766,13 @@
     "category": "Matacoan",
     "family": "Matacoan",
     "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:wlv"
+  },
+  {
+    "name": "Chovashi",
+    "iso": "chovashi",
+    "region": "Europe",
+    "category": "Turkic",
+    "family": "Oghur",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chuvash_language"
   }
 ]

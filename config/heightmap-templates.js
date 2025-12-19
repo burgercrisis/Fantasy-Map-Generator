@@ -64,17 +64,19 @@ const heightmapTemplates = (function () {
     Strait 2 vertical 0 0
     Strait 2 horizontal 0 0`;
 
-  const barrierIslands = `Add 6 all 0 0
-    Range 3-4 20-30 5-25 10-90
+  const barrierIslands = `Add 8 all 0 0
+    Range 3-4 24-34 5-25 15-85
     Smooth 2 0 0 0
     Trough 3-4 12-18 25-40 10-90
-    Range 4-6 30-45 40-55 10-90
-    Trough 2-3 10-18 45-60 10-90
-    Range 2-3 22-30 60-75 10-90
-    Range 2-3 22-32 75-95 10-90
-    Smooth 2 0 0 0
-    Multiply 0.9 land 0 0
+    Range 4-6 35-55 40-55 10-90
+    Hill 6-8 12-20 40-55 10-90
+    Pit 3-5 8-14 45-70 20-80
+    Range 2-3 24-32 65-80 10-90
+    Range 2-3 20-30 80-95 10-90
+    Smooth 1 0 0 0
+    Multiply 0.92 land 0 0
     Strait 1-2 vertical 0 0
+    Strait 1 horizontal 0 0
     Mask 2.5 0 0 0`;
 
   const atoll = `Hill 1 75-80 50-60 45-55
@@ -261,20 +263,34 @@ const heightmapTemplates = (function () {
     Multiply 0.9 land 0 0
     Mask 2 0 0 0`;
 
-  const inlandSeaStraits = `Add 10 all 0 0
-    Hill 2 80-90 35-65 35-65
-    Hill 10-12 15-25 30-70 10-90
-    Range 2-3 25-40 35-65 20-80
+  const inlandSeaStraits = `Add 16 all 0 0
+    Hill 2 80-90 40-60 40-60
+    Hill 10-12 15-25 30-70 20-80
+    Range 2-3 25-40 35-65 25-75
     Smooth 2 0 0 0
     Mask 1 0 0 0
-    Multiply 0.7 21-100 0 0
-    Strait 5-6 vertical 0 0
-    Strait 5-6 horizontal 0 0
-    Pit 6-8 80-95 30-70 30-70
-    Pit 2-3 70-85 35-65 35-65
-    Trough 6-8 40-60 30-70 30-70
-    Add 8 land 0 0
-    Mask 1.35 0 0 0`;
+    Add 10 land 0 0
+    Range 4-5 40-55 10-20 15-85
+    Range 4-5 40-55 80-90 15-85
+    Range 4-5 40-55 15-85 10-20
+    Range 4-5 40-55 15-85 80-90
+    Smooth 1 0 0 0
+    Add -14 38-62 38-62
+    Add 8 10-20 20-80
+    Add 8 80-90 20-80
+    Add 8 20-80 10-20
+    Add 8 20-80 80-90
+    Smooth 1 0 0 0
+    Trough 10-12 46-54 5-95 45-55
+    Add -6 45-55 15-85
+    Strait 2 vertical 0 0
+    Add -4 40-60 40-60
+    Pit 10-12 85-95 42-58 42-58
+    Pit 4-5 70-85 45-55 45-55
+    Pit 2-3 60-75 45-55 45-55
+    Trough 6-8 42-58 30-70 30-70
+    Add 6 land 0 0
+    Mask 1.2 0 0 0`;
 
   const highPlateauCanyons = `Add 30 all 0 0
     Mask 2 0 0 0
