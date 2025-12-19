@@ -22,6 +22,13 @@ See `.windsurf/workflows/no-unique-base-coordination.md` for the canonical coord
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/namebases-*.js`, `tools/mixer-deltas/*.json`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
+### Immediate lock release rule (required)
+
+- Release each lock **immediately after your edit to that file/scope is finished**—never rely on TTL auto-expiration.
+- Use `mcp1_lock_release` with the same `resource` string you acquired. If you must keep the lock during a multi-step edit, set a short TTL and renew explicitly; record the reason in your workstream notes.
+- When editing multiple files in sequence, release the current file’s lock before acquiring the next unless you truly need both simultaneously (rare; document if so).
+- If a lock becomes orphaned (e.g., tool failure), promptly re-acquire and release it or call out the issue in the workstream so others know to wait only for the short TTL.
+
 If you are marked `in_progress` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`, run this workflow for your claim **before** you mark it complete.
 
 # Objective

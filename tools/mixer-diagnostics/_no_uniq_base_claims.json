@@ -3077,12 +3077,12 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-19T11:28:03.431Z",
-      "updatedAt": "2025-12-19T11:33:47.234Z",
+      "updatedAt": "2025-12-19T12:02:28.104Z",
       "reservedRange": [
         9065,
         9114
       ],
-      "notes": "Reserved i range: 9065-9114\nISO->base mapping (fill in):\n- ckv->9065\n- classical-arabic->9066\n- classical-mongolian->9067\n- classical-syriac->9068\n- clh->9069\n\nReserved i range: 9065-9114\nISO->base mapping:\n- ckv->9065\n- classical-arabic->9066\n- classical-mongolian->9067\n- classical-syriac->9068\n- clh->9069\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=ckv,classical-arabic,classical-mongolian,classical-syriac,clh => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs."
+      "notes": "Reserved i range: 9065-9114\nISO->base mapping (fill in):\n- ckv->9065\n- classical-arabic->9066\n- classical-mongolian->9067\n- classical-syriac->9068\n- clh->9069\n\nReserved i range: 9065-9114\nISO->base mapping:\n- ckv->9065\n- classical-arabic->9066\n- classical-mongolian->9067\n- classical-syriac->9068\n- clh->9069\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=ckv,classical-arabic,classical-mongolian,classical-syriac,clh => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs.\n\nVerification complete: guardrails OK, mixer:apply-deltas OK, check-deltas OK, seed-uniqueness 0 failures, coverage 0 missing, failures 0 failing, base-clusters exit 0. NO_UNIQ_BASE cleared for all batch ISOs."
     },
     {
       "workerId": 1,
@@ -3094,14 +3094,166 @@
         "cob",
         "cochin-portuguese-creole"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T11:35:28.636Z",
-      "updatedAt": "2025-12-19T11:35:34.674Z",
+      "updatedAt": "2025-12-19T11:56:20.709Z",
       "reservedRange": [
         9115,
         9164
       ],
-      "notes": "Reserved i range: 9115-9164\nISO->base mapping (fill in):\n- clk->9115\n- cnh->9116\n- cnk->9117\n- cob->9118\n- cochin-portuguese-creole->9119\n\nReserved i range: 9115-9164\nISO->base mapping:\n- clk->9115\n- cnh->9116\n- cnk->9117\n- cob->9118\n- cochin-portuguese-creole->9119"
+      "notes": "Reserved i range: 9115-9164\nISO->base mapping (fill in):\n- clk->9115\n- cnh->9116\n- cnk->9117\n- cob->9118\n- cochin-portuguese-creole->9119\n\nReserved i range: 9115-9164\nISO->base mapping:\n- clk->9115\n- cnh->9116\n- cnk->9117\n- cob->9118\n- cochin-portuguese-creole->9119\n\nReserved i range: 9115-9164\\nISO->base mapping applied:\\n- clk->9115\\n- cnh->9116\\n- cnk->9117\\n- cob->9118\\n- cochin-portuguese-creole->9119\\nVerification 2025-12-19T21:15Z: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=clk,cnh,cnk,cob,cochin-portuguese-creole --limit=300 => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0; coverage OK; failures OK; base-clusters --min-size=2 exit 0. NO_UNIQ_BASE cleared for all batch ISOs.\n\nVerification 2025-12-19T23:32Z: pnpm run mixer:apply-deltas OK; pnpm run mixer:check-deltas --fix OK; seed-uniqueness --only-failures --only-isos=clk,cnh,cnk,cob,cochin-portuguese-creole --limit=300 -> Target ISOs:5 no failures; coverage OK; failures OK; base-clusters --min-size=2 exit 0."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:48:19.147Z-worker1",
+      "isos": [
+        "cocoliche",
+        "colloquial-finnish",
+        "cook-islands-maori-pidgin",
+        "coptic",
+        "core-mansi"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:48:19.147Z",
+      "updatedAt": "2025-12-19T11:54:01.340Z",
+      "reservedRange": [
+        9165,
+        9214
+      ],
+      "notes": "Reserved i range: 9165-9214\nISO->base mapping (fill in):\n- cocoliche->9165\n- colloquial-finnish->9166\n- cook-islands-maori-pidgin->9167\n- coptic->9168\n- core-mansi->9169\n\nReserved i range: 9165-9214\nISO->base mapping:\n- cocoliche->9165\n- colloquial-finnish->9166\n- cook-islands-maori-pidgin->9167\n- coptic->9168\n- core-mansi->9169\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=cocoliche,colloquial-finnish,cook-islands-maori-pidgin,coptic,core-mansi => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:54:47.747Z-worker1",
+      "isos": [
+        "corfiot-maltese",
+        "cottonera-dialect",
+        "courland-livonian",
+        "coxoh-maya",
+        "crc"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:54:47.747Z",
+      "updatedAt": "2025-12-19T11:58:10.139Z",
+      "reservedRange": [
+        9215,
+        9264
+      ],
+      "notes": "Reserved i range: 9215-9264\nISO->base mapping (fill in):\n- corfiot-maltese->9215\n- cottonera-dialect->9216\n- courland-livonian->9217\n- coxoh-maya->9218\n- crc->9219\n\nReserved i range: 9215-9264\nISO->base mapping:\n- corfiot-maltese->9215\n- cottonera-dialect->9216\n- courland-livonian->9217\n- coxoh-maya->9218\n- crc->9219\n\nVerification completed:\n- pnpm run mixer:guardrails (OK)\n- pnpm run mixer:check-deltas (OK) \n- seed-uniqueness --only-failures --only-isos=corfiot-maltese,cottonera-dialect,courland-livonian,coxoh-maya,crc => Missing mapping: 0; No globally-unique base index: 0; strict failures: 0; norm failures: 0\n- check-language-mixer-coverage => 0 missing\n- check-language-mixer-failures => 0 failing\n- report-language-mixer-base-clusters --min-size=2 => exit 0\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:59:33.924Z-worker1",
+      "isos": [
+        "crimean-tatar",
+        "csh",
+        "cua-bahnaic",
+        "cun-hlai",
+        "cuvok-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:59:33.924Z",
+      "updatedAt": "2025-12-19T12:50:57.906Z",
+      "reservedRange": [
+        9265,
+        9314
+      ],
+      "notes": "Reserved i range: 9265-9314\nISO->base mapping (fill in):\n- crimean-tatar->9265\n- csh->9266\n- cua-bahnaic->9267\n- cun-hlai->9268\n- cuvok-language->9269\n\nReserved i range: 9265-9314\nISO->base mapping:\n- crimean-tatar->9265\n- csh->9266\n- cua-bahnaic->9267\n- cun-hlai->9268\n- cuvok-language->9269\n\nStarting /no-unique-base2 workflow execution.\n\nUPDATED: cua-bahnaic not found in catalog, proceeding with 4 ISOs only.\nReserved i range: 9265-9314\nISO->base mapping:\n- crimean-tatar->9265 (Crimean Tatar)\n- csh->9266 (Asho)\n- cun-hlai->9268 (Cun Hlai)\n- cuvok-language->9269 (Cuvok language)\n\nNote: Skipping cua-bahnaic (not in catalog), using indices 9265,9266,9268,9269\n\nReserved i range: 9265-9314\nISO->base mapping:\n- crimean-tatar->9265\n- csh->9266\n- cua-bahnaric->9267\n- cun-hlai->9268\n- cuvok-language->9269\n\nContinuing /no-unique-base2 workflow 2025-12-19T12:45Z: reserved i range 9265-9314 confirmed; ISO->base mapping reaffirmed (crimean-tatar->9265, csh->9266, cua-bahnaric->9267, cun-hlai->9268, cuvok-language->9269). Verification suite starting.\n\nReserved i range: 9265-9314\n\nVerification 2025-12-19T12:52Z: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=crimean-tatar,csh,cua-bahnaric,cun-hlai,cuvok-language --limit=300 => no failures; coverage OK; failures OK; base-clusters --min-size=2 exit 0. NO_UNIQ_BASE cleared for all batch ISOs.\n\nReserved i range: 9265-9314\n\nISO->base: crimean-tatar->9265, csh->9266, cua-bahnaric->9267, cun-hlai->9268, cuvok-language->9269. Verification: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness (batch) OK; coverage OK; failures OK; base-clusters OK."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T12:00:38.931Z-worker2",
+      "isos": [
+        "cypriot-arabic",
+        "daba-language",
+        "dadanitic",
+        "daga",
+        "dagur"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T12:00:38.931Z",
+      "updatedAt": "2025-12-19T12:56:43.607Z",
+      "reservedRange": [
+        9315,
+        9364
+      ],
+      "notes": "Reserved i range: 9315-9364\nISO->base mapping (fill in):\n- cypriot-arabic->9315\n- daba-language->9316\n- dadanitic->9317\n- daga->9318\n- dagur->9319\n\nContinuing /no-unique-base2 workflow 2025-12-19T12:55Z: reserved i range 9315-9364 confirmed; planning ISO->base mapping cypriot-arabic->9315, daba-language->9316, dadanitic->9317, daga->9318, dagur->9319.\n\nReserved i range: 9315-9364\\nISO->base mapping applied:\\n- cypriot-arabic->9315\\n- daba-language->9316\\n- dadanitic->9317\\n- daga->9318\\n- dagur->9319\n\nReserved i range: 9315-9364\n\nReserved i range: 9315-9364\\nISO->base plan:\\n- cypriot-arabic->9315\\n- daba-language->9316\\n- dadanitic->9317\\n- daga->9318\\n- dagur->9319\n\nVerification 2025-12-19T12:58Z: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness --only-failures --only-isos=cypriot-arabic,daba-language,dadanitic,daga,dagur --limit=300 => no failures; coverage OK; failures OK; base-clusters --min-size=2 exit 0. NO_UNIQ_BASE cleared for all batch ISOs.\n\nISO->base: cypriot-arabic->9315, daba-language->9316, dadanitic->9317, daga->9318, dagur->9319. Verification: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness (batch) OK; coverage OK; failures OK; base-clusters OK."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T13:00:31.080Z-worker1",
+      "isos": [
+        "dahalik",
+        "dai-zhuang",
+        "damu",
+        "dani",
+        "dano"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T13:00:31.080Z",
+      "updatedAt": "2025-12-19T13:04:58.480Z",
+      "reservedRange": [
+        9365,
+        9414
+      ],
+      "notes": "Reserved i range: 9365-9414\nISO->base mapping (fill in):\n- dahalik->9365\n- dai-zhuang->9366\n- damu->9367\n- dani->9368\n- dano->9369\n\nISO->base: dahalik->9365, dai-zhuang->9366, damu->9367, dani->9368, dano->9369\n\nVerification: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness (dahalik,dai-zhuang,damu,dani,dano) OK; coverage OK; failures OK; base-clusters OK."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T13:06:06.435Z-worker1",
+      "isos": [
+        "dao",
+        "dap",
+        "dargwa",
+        "dari",
+        "darkhad"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T13:06:06.435Z",
+      "updatedAt": "2025-12-19T13:13:32.342Z",
+      "reservedRange": [
+        9415,
+        9464
+      ],
+      "notes": "Reserved i range: 9415-9464\nISO->base mapping (fill in):\n- dao->9415\n- dap->9416\n- dargwa->9417\n- dari->9418\n- darkhad->9419\n\nReserved i range: 9415-9464\\nISO->base mapping applied:\\n- dao->9415\\n- dap->9416\\n- dargwa->9417\\n- dari->9418\\n- darkhad->9419\n\nVerification already recorded; freeing claim before the next batch."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T13:14:02.158Z-worker2",
+      "isos": [
+        "dass-language",
+        "daza",
+        "dazawa-language",
+        "ddo",
+        "deh"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T13:14:02.158Z",
+      "updatedAt": "2025-12-19T22:30:03.631Z",
+      "reservedRange": [
+        9465,
+        9514
+      ],
+      "notes": "Reserved i range: 9465-9514\nISO->base mapping (fill in):\n- dass-language->9465\n- daza->9466\n- dazawa-language->9467\n- ddo->9468\n- deh->9469\n\nISO->base: dass-language->9465, daza->9466, dazawa-language->9467, ddo->9468, deh->9469\n\nVerification: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness (dass-language,daza,dazawa-language,ddo,deh) OK; coverage OK; failures OK; base-clusters OK."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T22:31:27.289Z-worker1",
+      "isos": [
+        "den-yeniseian",
+        "dendi",
+        "dengese",
+        "deno-language",
+        "densar"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T22:31:27.289Z",
+      "updatedAt": "2025-12-19T22:31:27.289Z",
+      "reservedRange": [
+        9515,
+        9564
+      ],
+      "notes": "Reserved i range: 9515-9564\nISO->base mapping (fill in):\n- den-yeniseian->9515\n- dendi->9516\n- dengese->9517\n- deno-language->9518\n- densar->9519"
     }
   ]
 }

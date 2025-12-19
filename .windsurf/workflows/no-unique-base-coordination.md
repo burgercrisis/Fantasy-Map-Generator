@@ -74,6 +74,13 @@ Before touching any claimed file/scope, acquire a hub lock using:
 
 Hub locks are the **only single-writer enforcement mechanism**. The repo-local claims log below is coordination metadata (ISO batching + reserved ranges + notes) and does not prevent concurrent writes by itself.
 
+### Immediate lock release rule (required)
+
+- Release the lock **as soon as your edit to that file/scope is complete**. Do not rely on TTL auto-expiration.
+- Use `mcp1_lock_release` with the exact same `resource` string you acquired. If you must keep the lock longer (e.g., mid-edit), renew via a short TTL and document why in your workstream notes.
+- When performing sequential edits across multiple files, release each file lock before acquiring the next one unless you have an explicit dependency that requires atomic edits involving both files (rare).
+- If you lose track of an active lock (e.g., tool failure), immediately re-acquire + release it or note the issue in the workstream so others know it will expire shortly.
+
 ## 2) Shared claims log
 
 Path:
