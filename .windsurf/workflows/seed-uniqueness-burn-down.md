@@ -22,6 +22,10 @@ Use this workflow to burn down **seed uniqueness debt** for language mixer entri
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `modules/namebases-*.js`, `tools/mixer-deltas/*.json`, `DEVplans/*.md`), acquire a hub lock on a stable resource string like `file:<repo-relative-path>`.
 
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved-range discipline, and the **immediate lock release rule** (call `mcp1_lock_release` as soon as each edit to a file/scope is complete; never wait for TTL auto-expiration).
+
 # Objective
 
 For a small target batch of ISOs:

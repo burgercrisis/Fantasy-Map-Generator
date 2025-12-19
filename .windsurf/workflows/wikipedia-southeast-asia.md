@@ -6,12 +6,14 @@ auto_execution_mode: 0
 ## Execution guardrails (required)
 
 - Do **not** run any `git` commands (including `status`, `diff`, `log`, `checkout`, `switch`, `pull`, `push`, `commit`, `stash`, `reset`, `merge`, `rebase`). If git is needed, stop and ask the user.
-- Do **not** paraphrase this workflow into new commands. Only run the exact commands shown in this file.
-- If you believe an additional command is required, stop and ask the user before running anything.
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` for **Languages of Southeast Asia** (§8.10).
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved range discipline, and the **immediate lock release rule** (`mcp1_lock_release` immediately after each edit; do not wait for TTL auto-expiration).
+
+Use this workflow together with `/wikipedia1` when working on the **Languages of Southeast Asia** list.
 
 Must preserve append-only registry; never delete ISOs.
 

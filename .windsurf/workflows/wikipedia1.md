@@ -19,6 +19,10 @@ You are Cascade, working on the Fantasy-Map-Generator language mixer.
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-meta/*.json`, `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved range discipline, and the **immediate lock release rule** (`mcp1_lock_release` immediately after each edit; do not wait for TTL auto-expiration).
+
 ## Diagnostic-first worker loop (required)
 
 When wiring a batch, prefer this order to avoid suite failures and churn:

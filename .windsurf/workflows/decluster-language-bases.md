@@ -19,6 +19,10 @@ Use this workflow when you want to **break up a specific shared-base cluster** i
 
  Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved ranges, and the **immediate lock release rule** (call `mcp1_lock_release` as soon as each edit is done; never rely on TTL auto-expiration).
+
 Verification order (diagnostic-first):
 
 - Run `pnpm run mixer:guardrails` early (before suite).

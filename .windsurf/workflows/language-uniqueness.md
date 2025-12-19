@@ -25,6 +25,12 @@ This is the Worker 1 workflow: run the report at the start of each session, take
   - `config/language-mixes.json`
   - `config/language-mixer-map.json`
 - Do not “solve” uniqueness debt by removing entries or converting them into family macros.
+- Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope (e.g. `tools/mixer-meta/*.json`, `tools/mixer-deltas/*.json`, `modules/namebases-*.js`, `DEVplans/*.md`), acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
+
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved range discipline, and the **immediate lock release rule** (call `mcp1_lock_release` right after each edit; never wait for TTL expiry).
+
 - Canonical write path:
   - Edit base definitions in `modules/namebases-*.js` (append-only)
   - Add a delta file under `tools/mixer-deltas/*.json` (`setBases` / `dedicatedPins` / `appendBases`)

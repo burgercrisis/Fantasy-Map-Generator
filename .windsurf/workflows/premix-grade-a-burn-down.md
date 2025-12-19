@@ -17,6 +17,7 @@ Bring all **non-family** mixer catalog languages to **Premix Grade A** by ensuri
 - Do **not** paraphrase workflows that already exist. If you need `/no-unique-base2` verification, follow `.windsurf/workflows/no-unique-base2.md` verbatim.
 - Hub locks are the **only** single-writer enforcement mechanism.
   - Before editing any shared file/scope, acquire a hub lock on a stable resource string like `file:<repo-relative-path>`.
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim discipline (reserved ranges, ISO batching) and the **immediate lock release rule** (call `mcp1_lock_release` right after each edit; never depend on TTL auto-expiration).
 - Prefer multi-agent stability:
   - If your change would require regenerating committed artifacts, follow `.windsurf/workflows/single-integrator-lane.md`.
 

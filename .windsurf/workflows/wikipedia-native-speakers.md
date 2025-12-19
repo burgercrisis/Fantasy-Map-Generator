@@ -17,7 +17,11 @@ auto_execution_mode: 0
 
 Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` when working on the **List of languages by number of native speakers** list JSON.
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved range discipline, and the **immediate lock release rule** (`mcp1_lock_release` immediately after each edit; do not wait for TTL auto-expiration).
+
+Use this workflow together with `/wikipedia1` when working on the languages-by-native-speakers list snapshot.
 
 Must preserve append-only registry; never delete ISOs.
 

@@ -17,10 +17,13 @@ auto_execution_mode: 0
 
  Hub locks are the **only single-writer enforcement mechanism**. Before editing any shared file/scope, acquire a hub lock via `mcp1_lock_acquire` on a stable resource string like `file:<repo-relative-path>`.
 
-Use this workflow together with `/wikipedia1` for **Languages of North America** (§8.9).
+Multi-agent coordination note:
+
+- Follow `.windsurf/workflows/no-unique-base-coordination.md` for claim semantics, reserved range discipline, and the **immediate lock release rule** (`mcp1_lock_release` immediately after each edit; do not wait for TTL auto-expiration).
+
+Use this workflow together with `/wikipedia1` when working on the **Languages of North America** list.
 
 Must preserve append-only registry; never delete ISOs.
 
 1. Target JSON: `tools/mixer-meta/wikipedia-languages-of-north-america.json`.
 2. Use `/wikipedia1` semantics to bring each non-skipped North American language to **catalog + mixer-map + globally unique `bases[]` + race reachability**.
-3. Re-run the devplan helper for this JSON to refresh §8.9 in `DEVplans/Languages-Status.md` as you progress.
