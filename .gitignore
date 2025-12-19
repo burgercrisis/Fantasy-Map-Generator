@@ -14,6 +14,7 @@
 /mods
 /pdf_splitter
 /.tmp-*
+.tmp
 /DEVplans/Game-Plan.md
 # Snyk Security Extension - AI Rules (auto-generated)
 .windsurf/rules/snyk_rules.md

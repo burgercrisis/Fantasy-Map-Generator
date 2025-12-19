@@ -296,3 +296,5 @@ Status (2025-12-18): Tuned `endorheicBasins` template to reliably generate land 
 Status (2025-12-18): Tuned `barrierIslands` template to increase livable land area (improved usability).
 
 Status (2025-12-18): Retuned `calderaArchipelago` template to better resemble a caldera archipelago (ring islands with central caldera).
+
+Status (2025-12-18): Retuned `inlandSeaStraits` for reliability by pre-lowering land before straits, adding vertical+horizontal straits, carving a stacked central basin, then applying a small land-only uplift.

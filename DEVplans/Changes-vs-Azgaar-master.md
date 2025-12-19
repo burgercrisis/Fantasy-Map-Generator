@@ -210,6 +210,7 @@ Smaller changes vs upstream include:
 
 - **Documentation:**
   - Top of `README.md` updated with a brief summary of this fork’s goals and links to the new DEVplans docs.
+  - 2025-12-18: `README.md` planned section now includes direct links to additional DEVplans docs (heightmap planning, options min–max sliders, races↔cultures decoupling).
 - **Local server scripts:**
   - `run_php_server.bat` and `run_python_server.bat` tweaked for local workflow (ports/paths). Behavior is still "start a simple local web server" but tuned for this fork.
 - **`package.json`:**

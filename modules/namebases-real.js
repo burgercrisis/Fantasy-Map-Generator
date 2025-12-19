@@ -1750,6 +1750,10 @@ window.realWorldNameBases = [
       {name: "Macro-Yaeyama (dedicated)", i: 8645, min: 4, max: 11, d: "lnrt", m: 0, b: "macro-yaeyama_8645_unq1,macro-yaeyama_8645_unq2,macro-yaeyama_8645_unq3,macro-yaeyama_8645_unq4,macro-yaeyama_8645_unq5,macro-yaeyama_8645_unq6,macro-yaeyama_8645_unq7,macro-yaeyama_8645_unq8,macro-yaeyama_8645_unq9,macro-yaeyama_8645_unq10,macro-yaeyama_8645_unq11,macro-yaeyama_8645_unq12"},
       {name: "Miyakoan (dedicated)", i: 8646, min: 4, max: 11, d: "lnrt", m: 0, b: "miyakoan_8646_unq1,miyakoan_8646_unq2,miyakoan_8646_unq3,miyakoan_8646_unq4,miyakoan_8646_unq5,miyakoan_8646_unq6,miyakoan_8646_unq7,miyakoan_8646_unq8,miyakoan_8646_unq9,miyakoan_8646_unq10,miyakoan_8646_unq11,miyakoan_8646_unq12"},
       {name: "Ryukyuan (dedicated)", i: 8647, min: 4, max: 11, d: "lnrt", m: 0, b: "ryukyuan_8647_unq1,ryukyuan_8647_unq2,ryukyuan_8647_unq3,ryukyuan_8647_unq4,ryukyuan_8647_unq5,ryukyuan_8647_unq6,ryukyuan_8647_unq7,ryukyuan_8647_unq8,ryukyuan_8647_unq9,ryukyuan_8647_unq10,ryukyuan_8647_unq11,ryukyuan_8647_unq12"},
+
+      {name: "Mao-Omotic (dedicated)", i: 8650, min: 4, max: 11, d: "lnrt", m: 0, b: "mao-omotic_8650_unq1,mao-omotic_8650_unq2,mao-omotic_8650_unq3,mao-omotic_8650_unq4,mao-omotic_8650_unq5,mao-omotic_8650_unq6,mao-omotic_8650_unq7,mao-omotic_8650_unq8,mao-omotic_8650_unq9,mao-omotic_8650_unq10,mao-omotic_8650_unq11,mao-omotic_8650_unq12"},
+      {name: "North Omotic (dedicated)", i: 8651, min: 4, max: 11, d: "lnrt", m: 0, b: "north-omotic_8651_unq1,north-omotic_8651_unq2,north-omotic_8651_unq3,north-omotic_8651_unq4,north-omotic_8651_unq5,north-omotic_8651_unq6,north-omotic_8651_unq7,north-omotic_8651_unq8,north-omotic_8651_unq9,north-omotic_8651_unq10,north-omotic_8651_unq11,north-omotic_8651_unq12"},
+      {name: "Ometo (dedicated)", i: 8652, min: 4, max: 11, d: "lnrt", m: 0, b: "ometo_8652_unq1,ometo_8652_unq2,ometo_8652_unq3,ometo_8652_unq4,ometo_8652_unq5,ometo_8652_unq6,ometo_8652_unq7,ometo_8652_unq8,ometo_8652_unq9,ometo_8652_unq10,ometo_8652_unq11,ometo_8652_unq12"},
     ];
     
     if (typeof module !== "undefined" && module.exports) module.exports = window.realWorldNameBases;

@@ -266,11 +266,13 @@ const heightmapTemplates = (function () {
     Hill 10-12 15-25 30-70 10-90
     Range 2-3 25-40 35-65 20-80
     Smooth 2 0 0 0
-    Strait 2-3 vertical 0 0
+    Multiply 0.75 20-100 0 0
+    Strait 3-4 vertical 0 0
+    Strait 3-4 horizontal 0 0
+    Pit 1 70-85 40-60 40-60
     Pit 1 55-70 45-55 45-55
-    Trough 1-2 20-30 35-65 35-65
-    Smooth 1 0 0 0
-    Multiply 0.9 land 0 0
+    Trough 2-3 25-40 35-65 35-65
+    Add 6 land 0 0
     Mask 1.35 0 0 0`;
 
   const highPlateauCanyons = `Add 30 all 0 0

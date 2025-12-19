@@ -13,22 +13,27 @@ Planned (rough priority order for this fork):
 - **0. Current focus:**
   - [Language Mixer Rules (authoritative)](DEVplans/Language-Mixer-Rules.md)
   - [Languages, mixer behavior across languages, and races/languages wiring](DEVplans/Races-Languages-Rules.md)
+  - [Races ↔ Cultures Decoupling](DEVplans/Races-Cultures-Decoupling.md)
 
+- **1.** [Add the Underdark](DEVplans/Underdark.md)
 
+- **2.** [Add Individuals](DEVplans/Individuals.md)
 
-- **1. Next major feature:** [Add the Underdark](DEVplans/Underdark.md)
+- **3.** [Heightmap Landforms Plan](DEVplans/Heightmap-Landforms-Plan.md)
 
-- **2. Then:** [Add Individuals](DEVplans/Individuals.md)
+- **4.** [Heightmap World Builder (Composite Generator) Plan](DEVplans/Heightmap-Worldbuilder.md)
 
-- **3. After Individuals:** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](DEVplans/Characters.md)
+- **5.** [Options Min–Max Sliders – Plan](DEVplans/Options-MinMax-Sliders.md)
 
-- **4. Later:** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](DEVplans/Evolving-Simulation.md)
+- **6.** [Add a full 3.5 / Pathfinder / 5e D&D character generation system on top of Individuals](DEVplans/Characters.md)
 
-- **5. Fine-tuning:** [Evolving simulation knobs & choices / k-NN-iffication](DEVplans/Evolving-Simulation-Choices.md)
+- **7.** [Add an evolving world simulation layer (wars, rulers, borders, trade, burg lifecycle)](DEVplans/Evolving-Simulation.md)
 
-- **6. Nice-to-have:** get Gemini API working, maybe add more AI APIs.
+- **8.** [Evolving simulation knobs & choices / k-NN-iffication](DEVplans/Evolving-Simulation-Choices.md)
 
-- **7. Always:** improve everything.
+- **00. Nice-to-have:** get Gemini API working, maybe add more AI APIs.
+
+- **Always:** improve everything.
 
 
 Status items:
