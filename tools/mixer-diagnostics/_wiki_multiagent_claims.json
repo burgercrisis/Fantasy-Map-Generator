@@ -320,9 +320,11 @@
       "workerId": 12,
       "target": "tools/mixer-meta/wikipedia-uralic-languages-full.json",
       "scope": "coverage_then_uniqueness_then_race",
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T01:11:59.068Z",
-      "updatedAt": "2025-12-19T01:11:59.068Z"
+      "updatedAt": "2025-12-19T01:18:05.273Z",
+      "finishedAt": "2025-12-19T01:18:05.273Z",
+      "note": "2025-12-19: Verified Uralic-full list is fully represented. Coverage: 223/223 considered wired (report-wikipedia-list-coverage --no-devplan). Base-set uniqueness: clustered bases=0 (report-wikipedia-list-base-uniqueness). Race coverage: all considered items ok (report-wikipedia-list-race-coverage)."
     }
   ]
 }

@@ -39,6 +39,10 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
  - ✅ **2025-12-18 (/no-unique-base2 targeted batch verification):** reran workflow gates for `batchId=2025-12-18T22:26:56.321Z-worker1` (ISOs: `central-mansi,central-min,central-moksha,central-selkup,central-tai`): `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures "--only-isos=central-mansi,central-min,central-moksha,central-selkup,central-tai" --limit=300` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` exit 0; base-clusters `pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` exit 0.
 
+ - ✅ **2025-12-19 NO_UNIQ_BASE2 micro-pass (worker1 C-batch / changjiang-hlai–chepang):** pins `changjiang-hlai->8615`, `chavacano->8616`, `chechen->8617`, `chenchu->8618`, `chepang->8619` via `tools/mixer-deltas/2025-12-19-worker1-mixed-changjiang-hlai.json`; base defs `i:8615–8619` in `modules/namebases-real.js`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=changjiang-hlai,chavacano,chechen,chenchu,chepang"` => Target ISOs: 5, Missing mapping: 0, No globally-unique base index: 0, strictFail: 0, normFail: 0; coverage 0 missing; failures 0 failing; base-clusters exit 0.
+
+ - **2025-12-19 (hygiene):** fixed a `dedicatedPins` collision on indices `8620–8627` between `tools/mixer-deltas/2025-12-19-language-uniqueness-japonic-ryukyuan-8620-8627-dedicatedpins.json` and the West Himalayish/Magaric batch by repinning the latter to `8630–8639` (same file path; updated contents). Then ran `pnpm run mixer:apply-deltas` to update artifacts; `pnpm run mixer:check-deltas` OK.
+
 - ✅ **2025-12-18 (/language-uniqueness setBases batch):** resolved 5 2-member base-set collisions (10 ISOs: `gurindji-kriol`, `light-warlpiri`, `raji-raute`, `rau`, `lower-uda-buryat`, `dagur`, `shd`, `plk`, `gwt`, `scl`) via `tools/mixer-deltas/2025-12-18-language-uniqueness-batch-aus-raji-mongolic-dardic-setbases.json`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` => exit 0; coverage 0 missing; failures 0 failing; base-clusters `--min-size=2 --include-families` now `clusters=65`.
 
 - ✅ **2025-12-18 (/language-uniqueness setBases batch):** resolved base-set collisions for `bases=[179,251]` (8 ISOs: `chong`, `mnong`, `pear`, `sa-och`, `samre`, `sedang`, `somray`, `suoy`) and `bases=[1,211]` (2 ISOs: `gurindji-kriol`, `light-warlpiri`) via `tools/mixer-deltas/2025-12-18-language-uniqueness-batch1-179-251-1-211-setbases.json`. Verified: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; `pnpm exec -- node tools/mixer-diagnostics/check-language-mixer-map-duplicate-isos.js` => 0; `pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases` => exit 0; `pnpm exec -- node tools/mixer-core/check-language-mixer-coverage.js` => 0 missing; `pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js` => 0 failing.
@@ -2791,7 +2795,8 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **How to re-run coverage:**
   - `node tools/mixer-core/report-wikipedia-list-coverage.js tools/mixer-meta/wikipedia-uralic-languages-full.json`
 
-- **Status tier:** **In progress (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
+- **Status tier:** **Fully represented (full article)** – this JSON tracks all named Uralic lects in the list; proto and unclassified/extinct-without-attestation entries are marked `skip: true` and excluded from coverage percentages.
+- **2025-12-19 (verified):** list coverage 223/223 considered wired; base-set clusters 0; race coverage ok.
 - **Snapshot from last run (considered items only):**
   - `fully wired:` 223 (100.0%)
   - `missing catalog:` 0
@@ -2800,14 +2805,14 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
   - `unmatched:` 0
   - `ambiguous:` 0
   - `skipped:` 64
-  - `Nonunique Bases:` 215
+  - `Nonunique Bases:` 149
 
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 136
-  - `clustered bases:` 87
-  - `clustered full items:` 87
-  - `cluster size histogram:` size2=68, size3=2, size4+=17
-  - `clustered isos:` central-ludic(21), central-veps(21), eastern-votic(21), ingrian(21), kven(21), livonian(21), ludic(21), me-nkieli(21), northern-ludic(21), northern-veps(21), southern-veps(21), v-ro(21), veps(21), veps(21), votic(21), western-votic(21), zyuzdino(21), mator(3), mator-proper(3), american-finnish(2), besermyan(2), central-selkup(2), central-transdanubian(2), central-vychegda(2), courland-livonian(2), cs-ng-(2), eastern-khanty(2), eastern-mansi(2), forest-nenets(2), heart-tavastian(2), hevaha(2), hollola(2), izhma(2), j-mtland(2), kamas(2), karagas(2), karelian-proper(2), kosa-kama(2), kudymkar-inva(2), kukkuzi(2), lower-inva(2), lower-lozva(2), lower-luga(2), luza-letka(2), middle-lozva(2), nenets(2), nganasan(2), northeast-hungary(2), northern-karelian(2), northern-mansi(2), pal-c(2), pechora(2), pelym(2), pori-region(2), proper-southeastern(2), savonlinna(2), semisjaur-njarg(2), shoksha(2), southeastern-tavastian(2), southern-great-plain(2), southern-sami(2), southern-savonian(2), southern-selkup(2), southern-tavastian(2), southern-transdanubian(2), southern-udmurt(2), southwestern-finnish(2), standard-finnish(2), tavastian(2), tisza-k-r-s(2), torne-sami(2), transylvanian-plain(2), tundra-nenets(2), turku-highlands(2), udora(2), upper-lupya(2), upper-sysola(2), upper-vychegda(2), v-rmland-savonian(2), vadey(2), vishera(2), vym(2), western-estonian(2), western-mansi(2), western-uusimaa(2), yoshkar-olin(2), yurats(2)
+  - `unique bases:` 223
+  - `clustered bases:` 0
+  - `clustered full items:` 0
+  - `cluster size histogram:` size2=0, size3=0, size4+=0
+  - `clustered isos:` (none)
 
 ### 8.32 Dictionary word-count languages – seed view (historical snapshot)
 
