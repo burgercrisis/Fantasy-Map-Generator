@@ -1,0 +1,28 @@
+{
+  "explicitIsoDedicatedBaseMap": {
+    "hawaiian": 11690,
+    "hayeren": 11691,
+    "hayeren_dialect": 11692,
+    "hayeren_modern": 11693,
+    "hayeren_modern_eastern": 11694,
+    "hayeren_modern_western": 11695,
+    "hayeren_old": 11696,
+    "hayeren_old_cilician": 11697,
+    "hayu": 11698,
+    "hazara": 11699
+  },
+  "appendBases": {
+    "hawaiian": [11690]
+  },
+  "dedicatedPins": {
+    "hayeren": [11691],
+    "hayeren_dialect": [11692],
+    "hayeren_modern": [11693],
+    "hayeren_modern_eastern": [11694],
+    "hayeren_modern_western": [11695],
+    "hayeren_old": [11696],
+    "hayeren_old_cilician": [11697],
+    "hayu": [11698],
+    "hazara": [11699]
+  }
+}

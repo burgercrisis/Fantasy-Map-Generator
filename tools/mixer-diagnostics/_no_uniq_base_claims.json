@@ -4100,14 +4100,38 @@
         "hausa",
         "hausa-gwandara"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T08:49:21.449Z",
-      "updatedAt": "2025-12-20T08:49:21.449Z",
+      "updatedAt": "2025-12-20T08:52:15.000Z",
       "reservedRange": [
         11640,
         11689
       ],
-      "notes": "Reserved i range: 11640-11689\nISO->base mapping (fill in):\n- gwf->11640\n- gwt->11641\n- gyalrongic->11642\n- gyeonggi-seoul-dialect->11643\n- gyeongsang-dialect->11644\n- hamtai->11645\n- han-samhan->11646\n- hani->11647\n- hausa->11648\n- hausa-gwandara->11649"
+      "notes": "Reserved i range: 11640-11689\nISO->base mapping:\n- gwf->11640\n- gwt->11641\n- gyalrongic->11642\n- gyeonggi-seoul-dialect->11643\n- gyeongsang-dialect->11644\n- hamtai->11645\n- han-samhan->11646\n- hani->11647\n- hausa->11648\n- hausa-gwandara->11649\nVerification: strictOK=13, normOK=13 for all."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T08:55:50.809Z-worker3",
+      "isos": [
+        "hawaiian",
+        "hayeren",
+        "hayeren_dialect",
+        "hayeren_modern",
+        "hayeren_modern_eastern",
+        "hayeren_modern_western",
+        "hayeren_old",
+        "hayeren_old_cilician",
+        "hayu",
+        "hazara"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T08:55:50.809Z",
+      "updatedAt": "2025-12-20T08:55:50.809Z",
+      "reservedRange": [
+        11690,
+        11739
+      ],
+      "notes": "Reserved i range: 11690-11739\nISO->base mapping (fill in):\n- hawaiian->11690\n- hayeren->11691\n- hayeren_dialect->11692\n- hayeren_modern->11693\n- hayeren_modern_eastern->11694\n- hayeren_modern_western->11695\n- hayeren_old->11696\n- hayeren_old_cilician->11697\n- hayu->11698\n- hazara->11699"
     }
   ]
 }
