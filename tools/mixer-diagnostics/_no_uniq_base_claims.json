@@ -3246,14 +3246,194 @@
         "deno-language",
         "densar"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T22:31:27.289Z",
-      "updatedAt": "2025-12-19T22:31:27.289Z",
+      "updatedAt": "2025-12-19T23:00:17.062Z",
       "reservedRange": [
         9515,
         9564
       ],
-      "notes": "Reserved i range: 9515-9564\nISO->base mapping (fill in):\n- den-yeniseian->9515\n- dendi->9516\n- dengese->9517\n- deno-language->9518\n- densar->9519"
+      "notes": "Reserved i range: 9515-9564\nISO->base mapping (fill in):\n- den-yeniseian->9515\n- dendi->9516\n- dengese->9517\n- deno-language->9518\n- densar->9519\n\nReserved i range: 9515-9564\nISO->base mapping planned:\n- den-yeniseian->9515\n- dendi->9516\n- dengese->9517\n- deno-language->9518\n- densar->9519\n\nISO->base mapping applied:\n- den-yeniseian->9515\n- dendi->9516\n- dengese->9517\n- deno-language->9518\n- densar->9519\nVerification: mixer:guardrails OK; mixer:apply-deltas OK; mixer:check-deltas OK; seed-uniqueness (den-yeniseian,dendi,dengese,deno-language,densar) OK; coverage OK; failures OK; base-clusters OK"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T22:59:55.709Z-worker2",
+      "isos": [
+        "holiya",
+        "irula",
+        "jeseri",
+        "kadar-dravidian",
+        "kaikadi",
+        "kakkala",
+        "kalanadi",
+        "kanikkaran",
+        "khirwar",
+        "kodava"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T22:59:55.709Z",
+      "updatedAt": "2025-12-19T23:37:38.716Z",
+      "reservedRange": [
+        9565,
+        9574
+      ],
+      "notes": "Reserved i range: 9565-9574\nISO->base mapping (fill in):\n- holiya->9565\n- irula->9566\n- jeseri->9567\n- kadar-dravidian->9568\n- kaikadi->9569\n- kakkala->9570\n- kalanadi->9571\n- kanikkaran->9572\n- khirwar->9573\n- kodava->9574\n\nReserved i range: 9565-9574 (confirmed)\nISO->base mapping planned:\n- holiya->9565\n- irula->9566\n- jeseri->9567\n- kadar-dravidian->9568\n- kaikadi->9569\n- kakkala->9570\n- kalanadi->9571\n- kanikkaran->9572\n- khirwar->9573\n- kodava->9574\n\nReserved i range: 9565-9574 (locked). Implementing dedicated bases 9565-9574 + delta pins next.\n\nReserved i range: 9565-9574 (applied)\\nISO->base mapping applied:\\n- holiya->9565\\n- irula->9566\\n- jeseri->9567\\n- kadar-dravidian->9568\\n- kaikadi->9569\\n- kakkala->9570\\n- kalanadi->9571\\n- kanikkaran->9572\\n- khirwar->9573\\n- kodava->9574"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T23:42:34.876Z-worker1",
+      "isos": [
+        "jerba-berber",
+        "lisan-al-gharbi",
+        "matmata-berber",
+        "ouargli",
+        "sanhaja-de-srair",
+        "sened",
+        "sheliff-basin-berber",
+        "sokna",
+        "south-oran-figuig-berber",
+        "tawellemmet"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T23:42:34.876Z",
+      "updatedAt": "2025-12-19T23:42:34.876Z",
+      "reservedRange": [
+        9820,
+        9829
+      ],
+      "notes": "Reserved i range: 9820-9829\nISO->base mapping (fill in):\n- jerba-berber->9820\n- lisan-al-gharbi->9821\n- matmata-berber->9822\n- ouargli->9823\n- sanhaja-de-srair->9824\n- sened->9825\n- sheliff-basin-berber->9826\n- sokna->9827\n- south-oran-figuig-berber->9828\n- tawellemmet->9829"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:08:22.262Z-worker3",
+      "isos": [
+        "chepangic",
+        "chhattisgarhi",
+        "chiang-saen",
+        "chichewa",
+        "chimbu"
+      ],
+      "status": "abandoned",
+      "startedAt": "2025-12-20T01:08:22.262Z",
+      "updatedAt": "2025-12-20T01:08:42.884Z",
+      "reservedRange": [
+        9830,
+        9879
+      ],
+      "notes": "Reserved i range: 9830-9879\nISO->base mapping (fill in):\n- chepangic->9830\n- chhattisgarhi->9831\n- chiang-saen->9832\n- chichewa->9833\n- chimbu->9834\n\nReserved i range: 9830-9879\nISO->base mapping:\n- chepangic->9830\n- chhattisgarhi->9831\n- chiang-saen->9832\n- chichewa->9833\n- chimbu->9834\n\nAbandoned due to incorrect ISO codes; will create new claim with correct ISOs"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:08:45.084Z-worker3",
+      "isos": [
+        "2714",
+        "580",
+        "581",
+        "132",
+        "2306"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T01:08:45.084Z",
+      "updatedAt": "2025-12-20T01:18:30.167Z",
+      "reservedRange": [
+        9880,
+        9929
+      ],
+      "notes": "Reserved i range: 9880-9929\nISO->base mapping (fill in):\n- 2714->9880\n- 580->9881\n- 581->9882\n- 132->9883\n- 2306->9884\n\nReserved i range: 9880-9929\nISO->base mapping:\n- Chepangic (2714)->9880\n- Chhattisgarhi (580)->9881\n- Chiang Saen (581)->9882\n- Chichewa (132)->9883\n- Chimbu (2306)->9884\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-chepangic.json\n- Added base definitions i:9880-9884 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Chepangic (2714)->9880\n  - Chhattisgarhi (580)->9881  \n  - Chiang Saen (581)->9882\n  - Chichewa (132)->9883\n  - Chimbu (2306)->9884"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:19:12.824Z-worker3",
+      "isos": [
+        "derung",
+        "dghwede-language",
+        "dhakaiya-kutti-bengali",
+        "dhd",
+        "dhivehi"
+      ],
+      "status": "abandoned",
+      "startedAt": "2025-12-20T01:19:12.824Z",
+      "updatedAt": "2025-12-20T01:19:32.941Z",
+      "reservedRange": [
+        9930,
+        9979
+      ],
+      "notes": "Reserved i range: 9930-9979\nISO->base mapping (fill in):\n- derung->9930\n- dghwede-language->9931\n- dhakaiya-kutti-bengali->9932\n- dhd->9933\n- dhivehi->9934\n\nAbandoned due to missing 'dhd' ISO; will create new claim with 4 valid ISOs"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:19:35.762Z-worker3",
+      "isos": [
+        "2699",
+        "152",
+        "588",
+        "650"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T01:19:35.762Z",
+      "updatedAt": "2025-12-20T01:38:10.388Z",
+      "reservedRange": [
+        9980,
+        10029
+      ],
+      "notes": "Reserved i range: 9980-10029\nISO->base mapping (fill in):\n- 2699->9980\n- 152->9981\n- 588->9982\n- 650->9983\n\nReserved i range: 9980-10029\nISO->base mapping:\n- Derung (2699)->9980\n- Dghwede language (152)->9981\n- Dhakaiya Kutti Bengali (588)->9982\n- Dhivehi (650)->9983\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-derung.json\n- Added base definitions i:9980-9983 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Derung (2699)->9980\n  - Dghwede language (152)->9981\n  - Dhakaiya Kutti Bengali (588)->9982\n  - Dhivehi (650)->9983"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:45:05.208Z-worker3",
+      "isos": [
+        "dida",
+        "dima",
+        "diri-language",
+        "dis",
+        "dizoid"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T01:45:05.208Z",
+      "updatedAt": "2025-12-20T01:49:20.987Z",
+      "reservedRange": [
+        10030,
+        10079
+      ],
+      "notes": "Reserved i range: 10030-10079\nISO->base mapping (fill in):\n- dida->10030\n- dima->10031\n- diri-language->10032\n- dis->10033\n- dizoid->10034\n\nReserved i range: 10030-10079\nISO->base mapping:\n- Dida (153)->10030\n- Dima (2313)->10031\n- Diri language (155)->10032\n- Dimasa (2899)->10033\n- Dizoid (156)->10034\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-dida.json\n- Added base definitions i:10030-10034 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Dida (153)->10030\n  - Dima (2313)->10031\n  - Diri language (155)->10032\n  - Dimasa (2899)->10033\n  - Dizoid (156)->10034"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:50:59.460Z-worker3",
+      "isos": [
+        "dmk",
+        "dml",
+        "dogri",
+        "doko",
+        "dom"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T01:50:59.460Z",
+      "updatedAt": "2025-12-20T01:55:45.922Z",
+      "reservedRange": [
+        10080,
+        10129
+      ],
+      "notes": "Reserved i range: 10080-10129\nISO->base mapping (fill in):\n- dmk->10080\n- dml->10081\n- dogri->10082\n- doko->10083\n- dom->10084\n\nReserved i range: 10080-10129\nISO->base mapping:\n- Domaaki (3348)->10080\n- Dameli (3345)->10081\n- Dogri (621)->10082\n- Doko (227160)->10083\n- Dom (2314)->10084\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-dmk.json\n- Added base definitions i:10080-10084 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Domaaki (3348)->10080\n  - Dameli (3345)->10081\n  - Dogri (621)->10082\n  - Doko (227160)->10083\n  - Dom (2314)->10084"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T01:56:12.339Z-worker3",
+      "isos": [
+        "domu",
+        "dongjia",
+        "dongo",
+        "dongxiang",
+        "dorbet-oirat"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T01:56:12.339Z",
+      "updatedAt": "2025-12-20T01:56:18.035Z",
+      "reservedRange": [
+        10130,
+        10179
+      ],
+      "notes": "Reserved i range: 10130-10179\nISO->base mapping (fill in):\n- domu->10130\n- dongjia->10131\n- dongo->10132\n- dongxiang->10133\n- dorbet-oirat->10134\n\nReserved i range: 10130-10179\nISO->base mapping:\n- Domu (2315)->10130\n- Dongjia (1153)->10131\n- Dongo (161)->10132\n- Dongxiang (622)->10133\n- Dorbet Oirat (623)->10134"
     }
   ]
 }

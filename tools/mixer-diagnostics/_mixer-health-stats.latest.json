@@ -1,5 +1,5 @@
 {
-  "utcIso": "2025-12-19T11:32:11.513Z",
+  "utcIso": "2025-12-19T23:29:55.576Z",
   "coverage": {
     "mapTotal": 3504,
     "catalogTotal": 3504,
@@ -12,25 +12,25 @@
     "missingMapping": 0,
     "emptyBases": 0,
     "allBasesInvalid": 0,
-    "partiallyInvalid": 8,
+    "partiallyInvalid": 17,
     "mapOnly": 0
   },
   "seedUniqueness": {
     "targetIsos": 3403,
     "missingMapping": 0,
-    "noGloballyUniqueBaseIndex": 1712,
-    "strictBelowThreshold": 0,
-    "normalizedBelowThreshold": 0
+    "noGloballyUniqueBaseIndex": 1657,
+    "strictBelowThreshold": 9,
+    "normalizedBelowThreshold": 11
   },
   "premixNameGrades": {
     "targetIsos": 3403,
     "missingMapping": 0,
     "allowFillers": false,
-    "a50Plus": 2350,
-    "gap40to49": 228,
-    "bUnder40": 215,
-    "cUnder30": 490,
-    "dUnder20": 120,
+    "a50Plus": 2374,
+    "gap40to49": 220,
+    "bUnder40": 223,
+    "cUnder30": 477,
+    "dUnder20": 109,
     "fUnder10": 0,
     "fillerUsage": {
       "isosWithFillers": 554,
@@ -6132,9 +6132,9 @@
   },
   "baseClusters": {
     "consideredCatalogLanguages": 3403,
-    "totalDistinctBaseSets": 3095,
-    "clustersSizeGte2": 25,
-    "entriesInClusters": 333,
-    "largestClusterSize": 157
+    "totalDistinctBaseSets": 3112,
+    "clustersSizeGte2": 24,
+    "entriesInClusters": 315,
+    "largestClusterSize": 154
   }
 }

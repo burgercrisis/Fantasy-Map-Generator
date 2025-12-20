@@ -195,6 +195,32 @@
       "startedAt": "2025-12-18T21:41:26.175Z",
       "updatedAt": "2025-12-18T22:13:43.247Z",
       "notes": "Decluster bases=[21] (Nigerian) collision among Unclassified Africa trio: laal (Laal), mpre (Mpre), jalaa (Jalaa). Delta: tools/mixer-deltas/2025-12-18-decluster-21-laal-mpre-jalaa.json sets jalaa->[21,112] (Nigerian+Yoruba) and mpre->[21,116] (Nigerian+Akan); leaving laal as-is.\n\nVerified: pnpm run mixer:guardrails OK; pnpm run mixer:apply-deltas OK; pnpm exec -- node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2 --include-families exit 0; pnpm exec -- node tools/check-language-mixer-map-inconsistencies.js --show-all-bases exit 0."
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-19T23:40:57.500Z-worker2",
+      "basesKey": "47",
+      "bases": [
+        47
+      ],
+      "isos": [
+        "tibetic",
+        "jul",
+        "scp",
+        "syw",
+        "loy",
+        "lhm",
+        "tcn",
+        "ola"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T23:40:57.500Z",
+      "updatedAt": "2025-12-19T23:40:57.500Z",
+      "notes": "Decluster bases=[47] Tibetic cluster (8 entries: tibetic (macro), jul/Jirel, scp/Hyolmo, syw/Kagate, loy/Lhopa, lhm/Lhomi, tcn/Tichurong, ola/Walungge). Plan: design unique mixes per lect using available Tibetic/Kiranti/Kanauri bases plus new dedicated indices if needed, update via decluster delta, re-run guardrails + base-clusters + inconsistencies.",
+      "reservedRange": [
+        9820,
+        9827
+      ]
     }
   ]
 }

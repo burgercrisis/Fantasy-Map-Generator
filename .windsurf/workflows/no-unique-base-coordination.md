@@ -16,7 +16,7 @@ This workflow is designed to be **re-sent verbatim** to multiple agents working 
 
 # Objective
 
-Provide a single canonical coordination protocol for multi-agent `NO_UNIQ_BASE` work:
+Provide a single canonical coordination protocol for multi-agent language work:
 
 - prevent overlapping work on the same ISO(s)
 - reserve non-overlapping `i:` ranges for new dedicated bases
@@ -74,12 +74,12 @@ Before touching any claimed file/scope, acquire a hub lock using:
 
 Hub locks are the **only single-writer enforcement mechanism**. The repo-local claims log below is coordination metadata (ISO batching + reserved ranges + notes) and does not prevent concurrent writes by itself.
 
-### Immediate lock release rule (required)
+### Immediate lock release rule (required — zero tolerance)
 
-- Release the lock **as soon as your edit to that file/scope is complete**. Do not rely on TTL auto-expiration.
-- Use `mcp1_lock_release` with the exact same `resource` string you acquired. If you must keep the lock longer (e.g., mid-edit), renew via a short TTL and document why in your workstream notes.
-- When performing sequential edits across multiple files, release each file lock before acquiring the next one unless you have an explicit dependency that requires atomic edits involving both files (rare).
-- If you lose track of an active lock (e.g., tool failure), immediately re-acquire + release it or note the issue in the workstream so others know it will expire shortly.
+- Release the lock **as soon as your edit to that file/scope is complete**. Do not rely on TTL auto-expiration even for a few seconds; holding a lock blocks every other agent.
+- Always follow every `mcp1_lock_acquire` with a matching `mcp1_lock_release` checkpoint before running any other commands. If you need more time mid-edit, re-acquire with a new short TTL and document why in your workstream notes.
+- When performing sequential edits across multiple files, release each file lock before acquiring the next one unless you have an explicit dependency that requires atomic edits involving both files (rare). Document any multi-file lock windows explicitly.
+- If you lose track of an active lock (e.g., tool failure), immediately re-acquire + release it or note the issue in the workstream so others know it will expire shortly. An orphaned lock is treated as a blocker that must be resolved before continuing other tasks.
 
 ## 2) Shared claims log
 

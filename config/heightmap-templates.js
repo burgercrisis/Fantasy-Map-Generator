@@ -201,26 +201,6 @@ const heightmapTemplates = (function () {
     Smooth 2 0 0 0
     Mask 3 0 0 0`;
 
-  const tripleJunction = `Hill 2 80-95 35-65 35-65
-    Hill 10-14 18-30 10-90 15-85
-    Range 2-3 30-45 25-75 25-75
-    Multiply 0.75 land 0 0
-    Trough 1 45-65 45-55 45-55
-    Trough 1 45-65 45-55 45-55
-    Trough 1 45-65 45-55 45-55
-    Pit 1 35-50 45-55 45-55
-    Smooth 2 0 0 0
-    Mask 1.5 0 0 0`;
-
-  const backArcChain = `Add 10 all 0 0
-    Range 2-3 40-60 15-35 20-80
-    Range 2-3 40-60 25-45 20-80
-    Hill 6-10 20-35 10-50 20-80
-    Trough 1-2 25-40 45-65 20-80
-    Smooth 2 0 0 0
-    Multiply 0.7 land 0 0
-    Mask 3 0 0 0`;
-
   const calderaArchipelago = `Add 10 all 0 0
     Mask 1.8 0 0 0
     Hill 1 45-55 45-55 45-55
@@ -275,29 +255,38 @@ const heightmapTemplates = (function () {
     Range 4-5 40-55 15-85 10-20
     Range 4-5 40-55 15-85 80-90
     Smooth 1 0 0 0
-    Add -16 38-62 38-62
+    Add -6 38-62 38-62
     Add 8 10-20 20-80
     Add 8 80-90 20-80
     Add 8 20-80 10-20
     Add 8 20-80 80-90
     Smooth 1 0 0 0
-    Add -12 46-54 0-100
-    Add -8 45-55 5-95
-    Trough 10-12 46-54 5-95 35-65
+    Add -5 46-54 0-100
+    Add -4 45-55 5-95
+    Trough 7-9 46-54 5-95 35-65
     Smooth 1 0 0 0
     Mask 0.8 45-55 0-100
+    Multiply 0.5 45-55 0-100
     Add -10 45-55 0-10
     Add -10 45-55 90-100
     Add -6 45-55 5-95
-    Strait 2 vertical 0 0
+    Strait 3 vertical 0 0
+    Smooth 1 0 0 0
+    Mask 0.6 45-55 0-100
+    Add -6 45-55 5-95
     Add -5 43-57 25-75
     Add -4 40-60 40-60
+    Add 6 0-45 0-100
+    Add 6 55-100 0-100
+    Smooth 2 0 0 0
     Pit 10-12 85-95 42-58 42-58
     Pit 4-5 70-85 45-55 45-55
     Pit 2-3 60-75 45-55 45-55
     Trough 6-8 42-58 30-70 30-70
-    Add 6 0-100 0-15
-    Add 6 0-100 85-100
+    Mask 1.1 45-55 0-100
+    Add 6 0-100 0-20
+    Add 6 0-100 80-100
+    Add 4 land 0 0
     Mask 1.2 0 0 0`;
 
   const highPlateauCanyons = `Add 30 all 0 0
@@ -317,6 +306,32 @@ const heightmapTemplates = (function () {
     Pit 3-5 25-35 35-65 35-65
     Smooth 2 0 0 0
     Mask 3 0 0 0`;
+
+  const braidedSuperRiver = `Add 26 all 0 0
+    Mask 2 0 0 0
+    Smooth 3 0 0 0
+    Range 4-5 32-68 20-80 20-80
+    Add -12 38-62 32-68
+    Mask 1.1 32-68 25-75
+    Smooth 2 0 0 0
+    Range 2-3 42-58 15-85 35-65
+    Add -6 45-55 15-85
+    Trough 11-13 25-35 10-90 38-62
+    Trough 9-11 30-40 15-85 32-68
+    Trough 8-10 20-30 30-70 30-70
+    Trough 8-10 35-45 30-70 40-60
+    Trough 7-9 28-38 20-80 50-90
+    Add -4 44-56 20-80
+    Smooth 1 0 0 0
+    Pit 4-6 40-55 25-75 35-65
+    Pit 3-5 35-65 35-65 35-55
+    Add 4 18-32 5-95
+    Add 4 68-82 5-95
+    Range 3-4 15-30 25-75 20-80
+    Range 3-4 70-85 25-75 20-80
+    Multiply 0.93 land 0 0
+    Smooth 1 0 0 0
+    Mask 1.2 0 0 0`;
 
   return {
     volcano: {id: 0, name: "Volcano", template: volcano, probability: 3},
@@ -338,14 +353,13 @@ const heightmapTemplates = (function () {
     fractious: {id: 14, name: "Fractious", template: fractious, probability: 3},
     dryLakes: {id: 15, name: "Dry Lakes", template: dryLakes, probability: 1},
     riftContinent: {id: 18, name: "Rift Continent", template: riftContinent, probability: 3},
-    tripleJunction: {id: 19, name: "Triple Junction", template: tripleJunction, probability: 2},
-    backArcChain: {id: 20, name: "Back-Arc Chain", template: backArcChain, probability: 2},
     calderaArchipelago: {id: 21, name: "Caldera Archipelago", template: calderaArchipelago, probability: 2},
     impactRing: {id: 22, name: "Impact Ring", template: impactRing, probability: 1},
     fjordCoast: {id: 23, name: "Fjord Coast", template: fjordCoast, probability: 2},
     drownedRiverlands: {id: 24, name: "Drowned Riverlands", template: drownedRiverlands, probability: 2},
     inlandSeaStraits: {id: 25, name: "Inland Sea + Straits", template: inlandSeaStraits, probability: 2},
     highPlateauCanyons: {id: 26, name: "High Plateau + Canyons", template: highPlateauCanyons, probability: 2},
-    endorheicBasins: {id: 27, name: "Endorheic Basins", template: endorheicBasins, probability: 1}
+    endorheicBasins: {id: 27, name: "Endorheic Basins", template: endorheicBasins, probability: 1},
+    braidedSuperRiver: {id: 28, name: "Braided Super-River Basin", template: braidedSuperRiver, probability: 2}
   };
 })();

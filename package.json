@@ -22,5 +22,8 @@
     "mixer:race-suite": "node tools/mixer-races/run-race-language-suite.js",
     "mixer:clean-map": "node tools/mixer-diagnostics/clean-language-mixer-map.js",
     "namebases:lengths": "node tools/mixer-namebases/check-namebase-lengths.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.34.0"
   }
 }

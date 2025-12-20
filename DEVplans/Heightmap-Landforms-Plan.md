@@ -324,3 +324,5 @@ Status (2025-12-18): Strengthened `inlandSeaStraits` inland sea basin further (w
 Status (2025-12-18): Adjusted `inlandSeaStraits` to improve ocean-connection by applying an early `Mask 1`, switching pre-strait lowering to interval `21-100` (so it can drop below sea level), and strengthening basin connectivity.
 
 Status (2025-12-19): Built an automated Puppeteer-driven harness to batch each template across 8 seeds, capturing water %, edge-ocean %, largest/landlocked water components, and edge-to-edge connectivity; first pass ranks `endorheicBasins`, `dryLakes`, `mediterranean`, and `inlandSeaStraits` as top inland-sea candidates but shows `inlandSeaStraits` still over-watered (largest landlocked water only 0.12%), so retuning remains in progress.
+
+Status (2025-12-19): Removed `Triple Junction` and `Back-Arc Chain` from `config/heightmap-templates.js` after concluding they model tectonic plate layouts rather than surface landforms; future tectonic presets will live under a separate plate DSL instead of the landform template list.
