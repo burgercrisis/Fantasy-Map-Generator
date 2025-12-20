@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "description": "NO_UNIQ_BASE resolution for worker4 batch1: gig,giiwo-language,gimi,gurindji-kriol,guruntum-language,guyanese-creole,gvoko-language,gvr,gwandara-language,gwc",
+  "author": "Cascade worker4",
+  "timestamp": "2025-12-20T08:41:10.098Z",
+  "batchId": "2025-12-20T08:41:10.098Z-worker4",
+  "reservedRange": "11630-11639",
+  "operations": [
+    {
+      "type": "setBases",
+      "iso": "gig",
+      "bases": [11630]
+    },
+    {
+      "type": "setBases",
+      "iso": "giiwo-language",
+      "bases": [11631]
+    },
+    {
+      "type": "setBases",
+      "iso": "gimi",
+      "bases": [11632]
+    },
+    {
+      "type": "setBases",
+      "iso": "gurindji-kriol",
+      "bases": [11633]
+    },
+    {
+      "type": "setBases",
+      "iso": "guruntum-language",
+      "bases": [11634]
+    },
+    {
+      "type": "setBases",
+      "iso": "guyanese-creole",
+      "bases": [11635]
+    },
+    {
+      "type": "setBases",
+      "iso": "gvoko-language",
+      "bases": [11636]
+    },
+    {
+      "type": "setBases",
+      "iso": "gvr",
+      "bases": [11637]
+    },
+    {
+      "type": "setBases",
+      "iso": "gwandara-language",
+      "bases": [11638]
+    },
+    {
+      "type": "setBases",
+      "iso": "gwc",
+      "bases": [11639]
+    }
+  ]
+}

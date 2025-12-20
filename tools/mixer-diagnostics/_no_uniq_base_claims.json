@@ -4052,14 +4052,62 @@
         "iha",
         "iitti"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T08:24:38.033Z",
-      "updatedAt": "2025-12-20T08:24:38.033Z",
+      "updatedAt": "2025-12-20T08:50:00.000Z",
       "reservedRange": [
         11580,
         11629
       ],
-      "notes": "Reserved i range: 11580-11629\nISO->base mapping (fill in):\n- huz->11580\n- hwana-language->11581\n- hwanghae-dialect->11582\n- hya-language->11583\n- iban->11584\n- ibanag->11585\n- idu-taraon->11586\n- igbo->11587\n- iha->11588\n- iitti->11589"
+      "notes": "Reserved i range: 11580-11629\nISO->base mapping (fill in):\n- huz->11580\n- hwana-language->11581\n- hwanghae-dialect->11582\n- hya-language->11583\n- iban->11584\n- ibanag->11585\n- idu-taraon->11586\n- igbo->11587\n- iha->11588\n- iitti->11589\n\nVerification completed:\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:apply-deltas => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only=huz,hwana-language,hwanghae-dialect,hya-language,iban,ibanag,idu-taraon,igbo,iha,iitti => Target ISOs: 10; Missing mapping: 0; strict failures: 0; norm failures: 0 (all strictOK and normOK)"
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T08:41:10.098Z-worker4",
+      "isos": [
+        "gig",
+        "giiwo-language",
+        "gimi",
+        "gurindji-kriol",
+        "guruntum-language",
+        "guyanese-creole",
+        "gvoko-language",
+        "gvr",
+        "gwandara-language",
+        "gwc"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T08:41:10.098Z",
+      "updatedAt": "2025-12-20T08:52:38.515Z",
+      "reservedRange": [
+        11630,
+        11639
+      ],
+      "notes": "Reserved i range: 11630-11639\nISO->base mapping (fill in):\n- gig->11630\n- giiwo-language->11631\n- gimi->11632\n- gurindji-kriol->11633\n- guruntum-language->11634\n- guyanese-creole->11635\n- gvoko-language->11636\n- gvr->11637\n- gwandara-language->11638\n- gwc->11639\n\nFile changes applied: Added dedicated bases 11630-11639 to modules/namebases-real.js with proper naming convention. All 10 ISOs now have dedicated bases matching reserved range."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T08:49:21.449Z-worker3",
+      "isos": [
+        "gwf",
+        "gwt",
+        "gyalrongic",
+        "gyeonggi-seoul-dialect",
+        "gyeongsang-dialect",
+        "hamtai",
+        "han-samhan",
+        "hani",
+        "hausa",
+        "hausa-gwandara"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T08:49:21.449Z",
+      "updatedAt": "2025-12-20T08:49:21.449Z",
+      "reservedRange": [
+        11640,
+        11689
+      ],
+      "notes": "Reserved i range: 11640-11689\nISO->base mapping (fill in):\n- gwf->11640\n- gwt->11641\n- gyalrongic->11642\n- gyeonggi-seoul-dialect->11643\n- gyeongsang-dialect->11644\n- hamtai->11645\n- han-samhan->11646\n- hani->11647\n- hausa->11648\n- hausa-gwandara->11649"
     }
   ]
 }

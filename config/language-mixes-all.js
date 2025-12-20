@@ -22345,7 +22345,8 @@
     "family": "Motu-based",
     "tags": [
       "creole"
-    ]
+    ],
+    "lexifier": "Motu"
   },
   {
     "name": "Hoanya",

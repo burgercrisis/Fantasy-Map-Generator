@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "disabled": true,
+      "autoApprove": []
+    },
+    "hub-dev": {
+      "command": "node",
+      "args": ["E:\\code\\CascadeProjects\\windsurf-project-2-development\\dist\\server.js"],
+      "disabled": false,
+      "env": {
+        "MCP_HUB_ADMIN_TOKEN": "dev-only",
+        "MCP_HUB_PROJECT_ROOTS": "E:\\code",
+        "MCP_HUB_GIT_ROOTS": "E:\\code\\CascadeProjects",
+        "MCP_HUB_GIT_WRITE_ENABLE": "0",
+        "MCP_HUB_PERF_ENABLE": "1",
+        "MCP_HUB_PNPM_CMD": "C:\\Users\\user\\AppData\\Roaming\\npm\\pnpm.cmd",
+        "MCP_HUB_UPSTREAM_CONNECT_DIAGNOSTICS": "1",
+        "MCP_HUB_UPSTREAM_URL_ALLOWLIST": "mcp.deepwiki.com;http://127.0.0.1:8000;http://127.0.0.1:8001",
+        "MCP_HUB_VERIFY_ROOTS": "E:\\code",
+        "PUPPETEER_BROWSER_EXE": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+      },
+      "autoApprove": []
+    }
+  }
+}
