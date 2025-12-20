@@ -3969,6 +3969,49 @@
         11429
       ],
       "notes": "Reserved i range: 11380-11429\nISO->base mapping (fill in):\n- ha-em->11380\n- haflong-hindi->11381\n- hagei->11382\n- hagen->11383\n- hailar-dagur->11384\n- haitian-creole->11385\n- haj->11386\n- hakka->11387\n- halang-bahnaric->11388\n- hamgyong-dialect->11389"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T05:10:08.483Z-worker3",
+      "isos": [
+        "hdi-language",
+        "hezhang-buyi",
+        "hezhou",
+        "hiligaynon",
+        "hill-mari",
+        "hina-language",
+        "hindustani",
+        "hiri-motu",
+        "hkongso",
+        "hlb"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T05:10:08.483Z",
+      "updatedAt": "2025-12-20T05:10:08.483Z",
+      "reservedRange": [
+        11430,
+        11479
+      ],
+      "notes": "Reserved i range: 11430-11479\nISO->base mapping (fill in):\n- hdi-language->11430\n- hezhang-buyi->11431\n- hezhou->11432\n- hiligaynon->11433\n- hill-mari->11434\n- hina-language->11435\n- hindustani->11436\n- hiri-motu->11437\n- hkongso->11438\n- hlb->11439"
+    },
+    {
+      "workerId": 100,
+      "batchId": "2025-12-20T05:19:43.349Z-worker100",
+      "isos": [
+        "ghe",
+        "ghh",
+        "ghomara",
+        "ghr",
+        "gidar-language"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T05:19:43.349Z",
+      "updatedAt": "2025-12-20T05:19:57.617Z",
+      "reservedRange": [
+        11480,
+        11529
+      ],
+      "notes": "Reserved i range: 11480-11529\nISO->base mapping (fill in):\n- ghe->11480\n- ghh->11481\n- ghomara->11482\n- ghr->11483\n- gidar-language->11484\n\nReserved i range: 11480-11484 (only using 5 indices for 5 ISOs)"
     }
   ]
 }
