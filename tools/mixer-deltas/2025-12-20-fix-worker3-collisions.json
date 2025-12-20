@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "description": "Fixing index collisions for worker3 batch: kili, komi-zyryan, kiknur, komi-yodzyak, kozymodemyan. Mapped to 12079-12083 to match namebases-real.js.",
+  "author": "Cascade worker5",
+  "timestamp": "2025-12-20T11:55:00.000Z",
+  "setBases": {
+    "kili": [12, 30, 380, 12079],
+    "komi-zyryan": [9, 427, 940, 12080],
+    "kiknur": [9, 30, 427, 12081],
+    "komi-yodzyak": [9, 427, 12082],
+    "kozymodemyan": [9, 30, 427, 12083]
+  }
+}

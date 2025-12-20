@@ -4244,14 +4244,81 @@
         "jilbe-language",
         "jilu-mandarin"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T10:56:48.862Z",
-      "updatedAt": "2025-12-20T10:56:48.862Z",
+      "updatedAt": "2025-12-20T11:15:00.000Z",
       "reservedRange": [
         11940,
         11989
       ],
-      "notes": "Reserved i range: 11940-11989\nISO->base mapping (fill in):\n- jeju-language->11940\n- jelkung-language->11941\n- jeolla-dialect->11942\n- jersey-dutch->11943\n- jiamao->11944\n- jiaoliao-mandarin->11945\n- jibyal-language->11946\n- jie->11947\n- jilbe-language->11948\n- jilu-mandarin->11949"
+      "notes": "Reserved i range: 11940-11989\nISO->base mapping:\n- jeju-language->11940\n- jelkung-language->11941\n- jeolla-dialect->11942\n- jersey-dutch->11943\n- jiamao->11944\n- jiaoliao-mandarin->11945\n- jibyal-language->11946\n- jie->11947\n- jilbe-language->11948\n- jilu-mandarin->11949\nVerification: strictOK=10, normOK=10 for all."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T10:54:07.863Z-uniqueness-burner",
+      "isos": [
+        "majera-language",
+        "malgbe-language",
+        "margi-language",
+        "margi-south-language",
+        "maslam-language",
+        "matal-language",
+        "mazagway-language",
+        "mbara-language-chad",
+        "mbudum-language",
+        "mbuko-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T10:54:07.863Z",
+      "updatedAt": "2025-12-20T11:00:00.000Z",
+      "reservedRange": [
+        11762,
+        11851
+      ],
+      "notes": "Uniqueness burner: Resolved Chadic cluster collisions by assigning dedicated bases.\nReserved i ranges: 11762-11769 (existing), 11850-11851 (new)\nISO->base mapping:\n- margi-language->11762\n- margi-south-language->11763\n- maslam-language->11764\n- matal-language->11765\n- mazagway-language->11766\n- mbara-language-chad->11767\n- mbudum-language->11768\n- mbuko-language->11769\n- majera-language->11850\n- malgbe-language->11851\nVerification: Chadic cluster reduced from 137 to 116 members, all 10 languages now have uniqBase (strictOK)."
+    },
+    {
+      "workerId": 5,
+      "batchId": "2025-12-20T11:16:00.000Z-worker5",
+      "isos": [
+        "kabalai-language",
+        "kabardian",
+        "kabyle",
+        "kac",
+        "kaco-bahnaric",
+        "kae",
+        "kaera",
+        "kafoa",
+        "kaguel",
+        "kainantu"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:16:00.000Z",
+      "updatedAt": "2025-12-20T11:45:00.000Z",
+      "reservedRange": [
+        12000,
+        12049
+      ],
+      "notes": "Complete. Added dedicated bases 12000-12009 for: kabalai-language->12000, kabardian->12001, kabyle->12002, kac->12003, kaco-bahnaric->12004, kae->12005, kaera->12006, kafoa->12007, kaguel->12008, kainantu->12009. Applied via 2025-12-20-no-uniq-base-worker5-batch20.json. Verification: all 10 ISOs show uniqBase (strictOK, normOK)."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:11:33.566Z-worker3",
+      "isos": [
+        "kili",
+        "komi-zyryan",
+        "kiknur",
+        "komi-yodzyak",
+        "kozymodemyan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:11:33.566Z",
+      "updatedAt": "2025-12-20T11:13:02.496Z",
+      "reservedRange": [
+        12050,
+        12099
+      ],
+      "notes": "Completed processing of 5 Komi languages: kili,komi-zyryan,kiknur,komi-yodzyak,kozymodemyan. All verification checks passed."
     }
   ]
 }

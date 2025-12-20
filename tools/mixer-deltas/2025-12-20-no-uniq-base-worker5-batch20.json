@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "description": "NO_UNIQ_BASE resolution for worker5 batch20: kabalai-language,kabardian,kabyle,kac,kaco-bahnaric,kae,kaera,kafoa,kaguel,kainantu",
+  "author": "Cascade worker5",
+  "timestamp": "2025-12-20T11:40:00.000Z",
+  "batchId": "2025-12-20T11:16:00.000Z-worker5",
+  "reservedRange": "12000-12009",
+  "setBases": {
+    "kabalai-language": [12000],
+    "kabardian": [12001],
+    "kabyle": [12002],
+    "kac": [12003],
+    "kaco-bahnaric": [12004],
+    "kae": [12005],
+    "kaera": [12006],
+    "kafoa": [12007],
+    "kaguel": [12008],
+    "kainantu": [12009]
+  }
+}
