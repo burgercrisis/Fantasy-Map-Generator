@@ -18766,7 +18766,8 @@
   {
     "iso": "east-zenati-languages",
     "bases": [
-      17
+      17,
+      12131
     ]
   },
   {
@@ -20241,7 +20242,8 @@
   {
     "iso": "mzab-wargla",
     "bases": [
-      17
+      17,
+      13028
     ]
   },
   {
@@ -20491,13 +20493,15 @@
   {
     "iso": "northern-berber",
     "bases": [
-      17
+      17,
+      12133
     ]
   },
   {
     "iso": "northern-berber-languages",
     "bases": [
-      17
+      17,
+      12134
     ]
   },
   {
@@ -20999,7 +21003,8 @@
   {
     "iso": "proto-berber",
     "bases": [
-      17
+      17,
+      12135
     ]
   },
   {
@@ -21935,7 +21940,8 @@
   {
     "iso": "shenwa-language",
     "bases": [
-      17
+      17,
+      13029
     ]
   },
   {
@@ -22245,7 +22251,8 @@
   {
     "iso": "standard-algerian-berber",
     "bases": [
-      17
+      17,
+      13030
     ]
   },
   {
@@ -22357,7 +22364,8 @@
   {
     "iso": "tagdal-language",
     "bases": [
-      17
+      17,
+      13031
     ]
   },
   {
@@ -22371,7 +22379,8 @@
   {
     "iso": "tamahaq-language",
     "bases": [
-      17
+      17,
+      13032
     ]
   },
   {
@@ -22496,7 +22505,8 @@
   {
     "iso": "tetserret-language",
     "bases": [
-      17
+      17,
+      13033
     ]
   },
   {
