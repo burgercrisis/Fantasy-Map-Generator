@@ -3817,14 +3817,87 @@
         "greenlandic-lang",
         "grt"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T11:40:00.000Z",
-      "updatedAt": "2025-12-19T11:40:00.000Z",
+      "updatedAt": "2025-12-19T11:45:00.000Z",
       "reservedRange": [
         11080,
         11129
       ],
-      "notes": "Reserved i range: 11080-11129\nISO->base mapping (fill in):\n- golin->11080\n- gondi->11081\n- gonga->11082\n- goroka->11083\n- goryeo-korean->11084\n- grand-valley-dani->11085\n- grass-koiari->11086\n- greater-siangic->11087\n- greenlandic-lang->11088\n- grt->11089"
+      "notes": "Reserved i range: 11080-11129\nISO->base mapping:\n- golin->11080\n- gondi->11081\n- gonga->11082\n- goroka->11083\n- goryeo-korean->11084\n- grand-valley-dani->11085\n- grass-koiari->11086\n- greater-siangic->11087\n- greenlandic-lang->11088\n- grt->11089\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-19-worker1-batch6-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:11080-11089\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T04:22:08.353Z-worker1",
+      "isos": [
+        "gan",
+        "gangwon-dialect",
+        "gaulish",
+        "gauwa",
+        "gawar-language",
+        "gaya-korean",
+        "gbm",
+        "gdo",
+        "geji",
+        "gejia"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T04:22:08.353Z",
+      "updatedAt": "2025-12-20T04:30:00.000Z",
+      "reservedRange": [
+        11130,
+        11179
+      ],
+      "notes": "Reserved i range: 11130-11179\nISO->base mapping:\n- gan->11130\n- gangwon-dialect->11131\n- gaulish->11132\n- gauwa->11133\n- gawar-language->11134\n- gaya-korean->11135\n- gbm->11136\n- gdo->11137\n- geji->11138\n- gejia->11139\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-batch7-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:11130-11139\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    }
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T04:40:00.000Z-worker1",
+      "isos": [
+        "fe-fe",
+        "fembe",
+        "fijian",
+        "fin",
+        "fio",
+        "fiwaga",
+        "flores-lembata",
+        "foe",
+        "foia-foia",
+        "fon"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T04:40:00.000Z",
+      "updatedAt": "2025-12-20T04:50:00.000Z",
+      "reservedRange": [
+        11180,
+        11229
+      ],
+      "notes": "Reserved i range: 11180-11229\nISO->base mapping:\n- fe-fe->11180\n- fembe->11181\n- fijian->11182\n- fin->11183\n- fio->11184\n- fiwaga->11185\n- flores-lembata->11186\n- foe->11187\n- foia-foia->11188\n- fon->11189\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-batch8-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:11180-11189\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T05:00:00.000Z-worker1",
+      "isos": [
+        "fore",
+        "forest-enets",
+        "fos",
+        "fula",
+        "furu",
+        "fuyug",
+        "fyer-language",
+        "g-llivare",
+        "gaanda-language",
+        "gadang-language"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T05:00:00.000Z",
+      "updatedAt": "2025-12-20T05:00:00.000Z",
+      "reservedRange": [
+        11230,
+        11279
+      ],
+      "notes": "Reserved i range: 11230-11279\nISO->base mapping (fill in):\n- fore->11230\n- forest-enets->11231\n- fos->11232\n- fula->11233\n- furu->11234\n- fuyug->11235\n- fyer-language->11236\n- g-llivare->11237\n- gaanda-language->11238\n- gadang-language->11239"
     }
   ]
 }
