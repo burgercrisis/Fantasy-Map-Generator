@@ -1,0 +1,26 @@
+{
+  "explicitIsoDedicatedBaseMap": {
+    "haz": 11790,
+    "hm-nai": 11791,
+    "hmn": 11792,
+    "hmong": 11793,
+    "hmu": 11794,
+    "hnd": 11795,
+    "ho-munda": 11796,
+    "hoanya": 11797,
+    "hohr": 11798,
+    "hoia-hoia": 11799
+  },
+  "dedicatedPins": {
+    "haz": [11790],
+    "hm-nai": [11791],
+    "hmn": [11792],
+    "hmong": [11793],
+    "hmu": [11794],
+    "hnd": [11795],
+    "ho-munda": [11796],
+    "hoanya": [11797],
+    "hohr": [11798],
+    "hoia-hoia": [11799]
+  }
+}

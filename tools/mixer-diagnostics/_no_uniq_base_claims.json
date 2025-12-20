@@ -4156,6 +4156,30 @@
         11789
       ],
       "notes": "Reserved i range: 11740-11789\nISO->base mapping:\n- iznasen->11740\n- j-kk-kaska->11741\n- j-llivaara->11742\n- jalaa->11743\n- jamaican-creole->11744\n- jamaican-patois->11745\n- jara-language->11746\n- javindo->11747\n- jdg->11748\n- jeh-bahnaric->11749\nVerification: strictOK=10, normOK=10 for all."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T09:38:13.175Z-worker3",
+      "isos": [
+        "haz",
+        "hm-nai",
+        "hmn",
+        "hmong",
+        "hmu",
+        "hnd",
+        "ho-munda",
+        "hoanya",
+        "hohr",
+        "hoia-hoia"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T09:38:13.175Z",
+      "updatedAt": "2025-12-20T09:38:13.175Z",
+      "reservedRange": [
+        11790,
+        11839
+      ],
+      "notes": "Reserved i range: 11790-11839\nISO->base mapping (fill in):\n- haz->11790\n- hm-nai->11791\n- hmn->11792\n- hmong->11793\n- hmu->11794\n- hnd->11795\n- ho-munda->11796\n- hoanya->11797\n- hohr->11798\n- hoia-hoia->11799"
     }
   ]
 }
