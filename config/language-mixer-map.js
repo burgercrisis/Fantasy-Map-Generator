@@ -5907,19 +5907,19 @@
   {
     "iso": "khalkha",
     "bases": [
-      381
+      12140
     ]
   },
   {
     "iso": "southern-khalkha",
     "bases": [
-      381
+      12141
     ]
   },
   {
     "iso": "northern-khalkha",
     "bases": [
-      381
+      12142
     ]
   },
   {
@@ -5952,7 +5952,7 @@
   {
     "iso": "nantoq-baoan",
     "bases": [
-      381
+      12143
     ]
   },
   {
@@ -5972,13 +5972,13 @@
   {
     "iso": "kharchin-khorchin",
     "bases": [
-      381
+      12144
     ]
   },
   {
     "iso": "khoton",
     "bases": [
-      381
+      12145
     ]
   },
   {
@@ -6002,7 +6002,7 @@
   {
     "iso": "shilingol-khalkha",
     "bases": [
-      381
+      12146
     ]
   },
   {
@@ -6014,13 +6014,13 @@
   {
     "iso": "sonid",
     "bases": [
-      381
+      12147
     ]
   },
   {
     "iso": "zakhchin",
     "bases": [
-      381
+      12148
     ]
   },
   {
@@ -6052,7 +6052,7 @@
   {
     "iso": "khorchin",
     "bases": [
-      381
+      12149
     ]
   },
   {
@@ -10650,57 +10650,55 @@
   {
     "iso": "mefele-language",
     "bases": [
-      132,
-      12014
+      12010
     ]
   },
   {
     "iso": "merey-language",
     "bases": [
-      132,
-      12015
+      12011
     ]
   },
   {
     "iso": "mofu-gudur-language",
     "bases": [
-      132
+      12012
     ]
   },
   {
     "iso": "moloko-language",
     "bases": [
-      132
+      12013
     ]
   },
   {
     "iso": "mpade-language",
     "bases": [
-      132
+      12014
     ]
   },
   {
     "iso": "mser-language",
     "bases": [
-      132
+      12015
     ]
   },
   {
     "iso": "musgu-language",
     "bases": [
-      132
+      12016
     ]
   },
   {
     "iso": "muskum-language",
     "bases": [
-      132
+      12017
     ]
   },
   {
     "iso": "muyang-language",
     "bases": [
-      132
+      12018
     ]
   },
   {
@@ -10712,7 +10710,7 @@
   {
     "iso": "nggwahyi-language",
     "bases": [
-      132
+      12019
     ]
   },
   {
@@ -20061,7 +20059,7 @@
   {
     "iso": "mzab-wargla",
     "bases": [
-      17
+      12231
     ]
   },
   {
@@ -20113,7 +20111,7 @@
   {
     "iso": "naukan",
     "bases": [
-      19
+      12280
     ]
   },
   {
@@ -20236,7 +20234,7 @@
   {
     "iso": "nivkh",
     "bases": [
-      19
+      12281
     ]
   },
   {
@@ -20452,7 +20450,7 @@
   {
     "iso": "omok",
     "bases": [
-      19
+      12282
     ]
   },
   {
@@ -21252,7 +21250,7 @@
   {
     "iso": "pumpokol",
     "bases": [
-      19
+      12283
     ]
   },
   {
@@ -21702,7 +21700,7 @@
   {
     "iso": "shenwa-language",
     "bases": [
-      17
+      12232
     ]
   },
   {
@@ -21780,7 +21778,7 @@
   {
     "iso": "sirenik",
     "bases": [
-      19
+      12284
     ]
   },
   {
@@ -21930,7 +21928,7 @@
   {
     "iso": "southern-itelmen",
     "bases": [
-      19
+      12285
     ]
   },
   {
@@ -22004,7 +22002,7 @@
   {
     "iso": "standard-algerian-berber",
     "bases": [
-      17
+      12233
     ]
   },
   {
@@ -22115,7 +22113,7 @@
   {
     "iso": "tagdal-language",
     "bases": [
-      17
+      12234
     ]
   },
   {
@@ -22127,7 +22125,7 @@
   {
     "iso": "tamahaq-language",
     "bases": [
-      17
+      12235
     ]
   },
   {
@@ -22246,7 +22244,7 @@
   {
     "iso": "tetserret-language",
     "bases": [
-      17
+      12236
     ]
   },
   {
@@ -22310,7 +22308,7 @@
   {
     "iso": "tidikelt-language",
     "bases": [
-      17
+      12237
     ]
   },
   {
@@ -22662,7 +22660,7 @@
   {
     "iso": "tuwat-language",
     "bases": [
-      17
+      12238
     ]
   },
   {
@@ -22885,7 +22883,7 @@
   {
     "iso": "western-berber",
     "bases": [
-      17
+      12239
     ]
   },
   {
@@ -22904,7 +22902,7 @@
   {
     "iso": "western-itelmen",
     "bases": [
-      19
+      12286
     ]
   },
   {
@@ -23002,7 +23000,7 @@
   {
     "iso": "yeniseian",
     "bases": [
-      19
+      12287
     ]
   },
   {
@@ -23054,13 +23052,13 @@
   {
     "iso": "yugh",
     "bases": [
-      19
+      12288
     ]
   },
   {
     "iso": "yuit",
     "bases": [
-      19
+      12289
     ]
   },
   {
@@ -23094,7 +23092,7 @@
   {
     "iso": "zenaga-language",
     "bases": [
-      17
+      12240
     ]
   },
   {

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "description": "NO_UNIQ_BASE resolution for worker4 batch 11630-11639: gig, giiwo-language, gimi, gurindji-kriol, guruntum-language, guyanese-creole, gvoko-language, gvr, gwandara-language, gwc",
+  "author": "Cascade worker4-takeover",
+  "timestamp": "2025-12-20T12:05:00.000Z",
+  "batchId": "2025-12-20T08:41:10.098Z-worker4",
+  "reservedRange": "11630-11639",
+  "setBases": {
+    "gig": [11630],
+    "giiwo-language": [11631],
+    "gimi": [11632],
+    "gurindji-kriol": [11633],
+    "guruntum-language": [11634],
+    "guyanese-creole": [11635],
+    "gvoko-language": [11636],
+    "gvr": [11637],
+    "gwandara-language": [11638],
+    "gwc": [11639]
+  }
+}

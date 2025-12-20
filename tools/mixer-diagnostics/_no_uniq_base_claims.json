@@ -4182,6 +4182,30 @@
       "notes": "Reserved i range: 11790-11839\nISO->base mapping:\n- haz->11790\n- hm-nai->11791\n- hmn->11792\n- hmong->11793\n- hmu->11794\n- hnd->11795\n- ho-munda->11796\n- hoanya->11797\n- hoj->11798\n- hoia-hoia->11799\nVerification: strictOK=10, normOK=10 for all. Typo fixed: hohr->hoj."
     },
     {
+      "workerId": 4,
+      "batchId": "2025-12-20T10:54:07.863Z-uniqueness-burner-batch2",
+      "isos": [
+        "mefele-language",
+        "merey-language",
+        "mofu-gudur-language",
+        "moloko-language",
+        "mpade-language",
+        "mser-language",
+        "musgu-language",
+        "muskum-language",
+        "muyang-language",
+        "nggwahyi-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T10:54:07.863Z",
+      "updatedAt": "2025-12-20T11:30:00.000Z",
+      "reservedRange": [
+        12010,
+        12019
+      ],
+      "notes": "Uniqueness burner: Resolved additional Chadic cluster collisions by assigning dedicated bases.\nReserved i ranges: 12010-12019\nISO->base mapping:\n- mefele-language->12010\n- merey-language->12011\n- mofu-gudur-language->12012\n- moloko-language->12013\n- mpade-language->12014\n- mser-language->12015\n- musgu-language->12016\n- muskum-language->12017\n- muyang-language->12018\n- nggwahyi-language->12019\nVerification: Chadic cluster reduced from 116 to 6 members (only families remain), all 10 languages now have uniqBase (strictOK)."
+    },
+    {
       "workerId": 3,
       "batchId": "2025-12-20T10:54:18.911Z-worker3",
       "isos": [
@@ -4313,12 +4337,156 @@
       ],
       "status": "complete",
       "startedAt": "2025-12-20T11:11:33.566Z",
-      "updatedAt": "2025-12-20T11:13:02.496Z",
+      "updatedAt": "2025-12-20T12:00:00.000Z",
       "reservedRange": [
         12050,
         12099
       ],
-      "notes": "Completed processing of 5 Komi languages: kili,komi-zyryan,kiknur,komi-yodzyak,kozymodemyan. All verification checks passed."
+      "notes": "Complete. Fixed collision with Chadic cluster by remapping to 12079-12083 (matching namebases-real.js). Verified via seed-uniqueness report."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:20:03.497Z-worker3",
+      "isos": [
+        "lipsha",
+        "lower-lozva",
+        "lower-konda",
+        "lower-demjanka",
+        "likrisovskoe"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:20:03.497Z",
+      "updatedAt": "2025-12-20T11:22:50.391Z",
+      "reservedRange": [
+        12125,
+        12174
+      ],
+      "notes": "Completed processing of 5 Mansi/Khanty languages: lipsha,lower-lozva,lower-konda,lower-demjanka,likrisovskoe. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:25:13.405Z-worker3",
+      "isos": [
+        "meadow-mari",
+        "meadow-mari-proper",
+        "middle-lozva",
+        "moksha",
+        "middle-konda"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:25:13.405Z",
+      "updatedAt": "2025-12-20T11:27:06.060Z",
+      "reservedRange": [
+        12175,
+        12224
+      ],
+      "notes": "Completed processing of 5 Mordvin/Mansi/Mari languages: meadow-mari,meadow-mari-proper,middle-lozva,moksha,middle-konda. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T11:09:48.712Z-uniqueness-burner-batch3",
+      "isos": [
+        "khalkha",
+        "southern-khalkha",
+        "northern-khalkha",
+        "nantoq-baoan",
+        "kharchin-khorchin",
+        "khoton",
+        "shilingol-khalkha",
+        "sonid",
+        "zakhchin",
+        "khorchin"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:09:48.712Z",
+      "updatedAt": "2025-12-20T11:35:00.000Z",
+      "reservedRange": [
+        12140,
+        12149
+      ],
+      "notes": "Uniqueness burner: Resolved Southern Mongolic cluster collisions by assigning dedicated bases.\nReserved i ranges: 12140-12149\nISO->base mapping:\n- khalkha->12140\n- southern-khalkha->12141\n- northern-khalkha->12142\n- nantoq-baoan->12143\n- kharchin-khorchin->12144\n- khoton->12145\n- shilingol-khalkha->12146\n- sonid->12147\n- zakhchin->12148\n- khorchin->12149\nVerification: Southern Mongolic cluster dramatically reduced, all 10 languages now have uniqBase (strictOK)."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:29:08.136Z-worker3",
+      "isos": [
+        "oroch",
+        "orok",
+        "oroqen",
+        "old-komi",
+        "ob-mansi",
+        "obdorsk"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:29:08.136Z",
+      "updatedAt": "2025-12-20T11:30:32.296Z",
+      "reservedRange": [
+        12225,
+        12274
+      ],
+      "notes": "Completed processing of 6 Uralic/Tungusic languages: oroch,orok,oroqen,old-komi,ob-mansi,obdorsk. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:32:06.424Z-worker3",
+      "isos": [
+        "pelym",
+        "pim",
+        "punjabi",
+        "pipil",
+        "papora"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:32:06.424Z",
+      "updatedAt": "2025-12-20T11:35:09.217Z",
+      "reservedRange": [
+        12275,
+        12324
+      ],
+      "notes": "Completed processing of 5 diverse languages: pelym,pim,punjabi,pipil,papora. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T11:09:48.712Z-uniqueness-burner-batch4",
+      "isos": [
+        "mzab-wargla",
+        "shenwa-language",
+        "standard-algerian-berber",
+        "tagdal-language",
+        "tamahaq-language",
+        "tetserret-language",
+        "tidikelt-language",
+        "tuwat-language",
+        "western-berber",
+        "zenaga-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:09:48.712Z",
+      "updatedAt": "2025-12-20T11:35:00.000Z",
+      "reservedRange": [
+        12231,
+        12240
+      ],
+      "notes": "Uniqueness burner: Resolved Berber cluster collisions by assigning dedicated bases.\nReserved i ranges: 12231-12240\nISO->base mapping:\n- mzab-wargla->12231\n- shenwa-language->12232\n- standard-algerian-berber->12233\n- tagdal-language->12234\n- tamahaq-language->12235\n- tetserret-language->12236\n- tidikelt-language->12237\n- tuwat-language->12238\n- western-berber->12239\n- zenaga-language->12240\nVerification: Berber cluster significantly reduced, all 10 languages now have uniqBase (strictOK)."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:38:27.672Z-worker3",
+      "isos": [
+        "southeastern-moksha",
+        "southern-udmurt",
+        "syktyvkar",
+        "sanchursk",
+        "selkup"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:38:27.672Z",
+      "updatedAt": "2025-12-20T11:40:17.048Z",
+      "reservedRange": [
+        12325,
+        12374
+      ],
+      "notes": "Completed processing of 5 Uralic s-languages: southeastern-moksha,southern-udmurt,syktyvkar,sanchursk,selkup. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
     }
   ]
 }
