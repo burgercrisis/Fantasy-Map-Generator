@@ -3721,14 +3721,110 @@
         "fasu",
         "fataluku"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T03:39:06.583Z",
-      "updatedAt": "2025-12-20T03:39:06.583Z",
+      "updatedAt": "2025-12-20T03:43:31.268Z",
       "reservedRange": [
         10880,
         10929
       ],
-      "notes": "Reserved i range: 10880-10929\nISO->base mapping (fill in):\n- faiwol->10880\n- fali-of-mubi->10881\n- fanagalo->10882\n- fang-cameroon->10883\n- fang-equatorial-guinea-and-gabon->10884\n- fanji->10885\n- far-eastern-khanty->10886\n- farefare->10887\n- fasu->10888\n- fataluku->10889"
+      "notes": "Reserved i range: 10880-10929\nISO->base mapping:\n- faiwol->10880\n- fali-of-mubi->10881\n- fanagalo->10882\n- fang-cameroon->10883\n- fang-equatorial-guinea-and-gabon->10884\n- fanji->10885\n- far-eastern-khanty->10886\n- farefare->10887\n- fasu->10888\n- fataluku->10889\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- pnpm run mixer:check-deltas (OK)\n- pnpm run mixer:coverage (OK)\n- pnpm run mixer:failures (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-mixed-faiwol.json\n- Base defs: modules/namebases-real.js i:10880-10889\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T03:53:17.424Z-worker1",
+      "isos": [
+        "dizoid",
+        "dmk",
+        "dml",
+        "dogri",
+        "doko",
+        "dom",
+        "domu",
+        "dongjia",
+        "dongo",
+        "dongxiang"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T03:53:17.424Z",
+      "updatedAt": "2025-12-19T00:00:00.000Z",
+      "reservedRange": [
+        10930,
+        10979
+      ],
+      "notes": "Reserved i range: 10930-10979\nISO->base mapping:\n- dizoid->10930\n- dmk->10931\n- dml->10932\n- dogri->10933\n- doko->10934\n- dom->10935\n- domu->10936\n- dongjia->10937\n- dongo->10938\n- dongxiang->10939\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-19-worker1-batch3-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:10930-10939\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T10:00:00.000Z-worker1",
+      "isos": [
+        "daza",
+        "ddo",
+        "dida",
+        "dima",
+        "diri-language",
+        "dis",
+        "dorbet-oirat",
+        "doromu",
+        "douiret",
+        "dre"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T10:00:00.000Z",
+      "updatedAt": "2025-12-19T10:00:00.000Z",
+      "reservedRange": [
+        10980,
+        11029
+      ],
+      "notes": "Reserved i range: 10980-11029\nISO->base mapping:\n- daza->10980\n- ddo->10981\n- dida->10982\n- dima->10983\n- diri-language->10984\n- dis->10985\n- dorbet-oirat->10986\n- doromu->10987\n- douiret->10988\n- dre->10989\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-19-worker1-batch4-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:10980-10989\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:00:00.000Z-worker1",
+      "isos": [
+        "dry",
+        "duan",
+        "dzongkha",
+        "e",
+        "early-modern-korean",
+        "east-bodish",
+        "east-chadic",
+        "ewondo",
+        "ewondo-populaire",
+        "favorlang"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-19T11:00:00.000Z",
+      "updatedAt": "2025-12-19T11:05:00.000Z",
+      "reservedRange": [
+        11030,
+        11079
+      ],
+      "notes": "Reserved i range: 11030-11079\nISO->base mapping (fill in):\n- dry->11030\n- duan->11031\n- dzongkha->11032\n- e->11033\n- early-modern-korean->11034\n- east-bodish->11035\n- east-chadic->11036\n- ewondo->11037\n- ewondo-populaire->11038\n- favorlang->11039\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0"
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-19T11:40:00.000Z-worker1",
+      "isos": [
+        "golin",
+        "gondi",
+        "gonga",
+        "goroka",
+        "goryeo-korean",
+        "grand-valley-dani",
+        "grass-koiari",
+        "greater-siangic",
+        "greenlandic-lang",
+        "grt"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-19T11:40:00.000Z",
+      "updatedAt": "2025-12-19T11:40:00.000Z",
+      "reservedRange": [
+        11080,
+        11129
+      ],
+      "notes": "Reserved i range: 11080-11129\nISO->base mapping (fill in):\n- golin->11080\n- gondi->11081\n- gonga->11082\n- goroka->11083\n- goryeo-korean->11084\n- grand-valley-dani->11085\n- grass-koiari->11086\n- greater-siangic->11087\n- greenlandic-lang->11088\n- grt->11089"
     }
   ]
 }
