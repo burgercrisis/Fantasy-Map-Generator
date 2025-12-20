@@ -4785,6 +4785,30 @@
         13074
       ],
       "notes": "Completed processing of 3 languages: southeastern-moksha,southern-udmurt,syktyvkar. Bases created successfully. Delta conflicts with previous worker3 deltas prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": "uniqueness-burner-batch8",
+      "batchId": "batch8-inuit-2025-12-20T12:54:52.656Z",
+      "isos": [
+        "naukan",
+        "nivkh",
+        "omok",
+        "pumpokol",
+        "sirenik",
+        "southern-itelmen",
+        "western-itelmen",
+        "yeniseian",
+        "yugh",
+        "yuit"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:54:52.656Z",
+      "updatedAt": "2025-12-20T12:54:52.656Z",
+      "reservedRange": [
+        13038,
+        13047
+      ],
+      "notes": "Uniqueness burner: Resolved Inuit cluster collisions by assigning dedicated bases to naukan, nivkh, omok, pumpokol, sirenik, southern-itelmen, western-itelmen, yeniseian, yugh, yuit\\nReserved i ranges: 13038-13047\\nISO->base mapping:\\n- naukan->13038\\n- nivkh->13039\\n- omok->13040\\n- pumpokol->13041\\n- sirenik->13042\\n- southern-itelmen->13043\\n- western-itelmen->13044\\n- yeniseian->13045\\n- yugh->13046\\n- yuit->13047\\nVerification: All 10 languages now have uniqBase (strictOK). Inuit cluster reduced from 18 to 8 members."
     }
   ]
 }

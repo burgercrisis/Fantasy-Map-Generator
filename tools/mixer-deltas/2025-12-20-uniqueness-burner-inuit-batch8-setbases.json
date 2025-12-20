@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "description": "Uniqueness burner: Resolve Inuit cluster collisions by assigning dedicated bases to naukan, nivkh, omok, pumpokol, sirenik, southern-itelmen, western-itelmen, yeniseian, yugh, yuit",
+  "operations": [
+    {"type": "setBases", "iso": "naukan", "bases": [13038]},
+    {"type": "setBases", "iso": "nivkh", "bases": [13039]},
+    {"type": "setBases", "iso": "omok", "bases": [13040]},
+    {"type": "setBases", "iso": "pumpokol", "bases": [13041]},
+    {"type": "setBases", "iso": "sirenik", "bases": [13042]},
+    {"type": "setBases", "iso": "southern-itelmen", "bases": [13043]},
+    {"type": "setBases", "iso": "western-itelmen", "bases": [13044]},
+    {"type": "setBases", "iso": "yeniseian", "bases": [13045]},
+    {"type": "setBases", "iso": "yugh", "bases": [13046]},
+    {"type": "setBases", "iso": "yuit", "bases": [13047]}
+  ]
+}
