@@ -4682,6 +4682,109 @@
         12774
       ],
       "notes": "Completed processing of 3 languages: mandinka,meitei,moksha. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:13:35.445Z-worker3",
+      "isos": [
+        "negidal",
+        "newaric",
+        "nkore",
+        "northern-thai"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:13:35.445Z",
+      "updatedAt": "2025-12-20T12:14:44.878Z",
+      "reservedRange": [
+        12775,
+        12824
+      ],
+      "notes": "Completed processing of 4 languages: negidal,newaric,nkore,northern-thai. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:16:03.936Z-worker3",
+      "isos": [
+        "old-komi",
+        "oroch",
+        "orok",
+        "ob-mansi",
+        "obdorsk"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:16:03.936Z",
+      "updatedAt": "2025-12-20T12:17:31.801Z",
+      "reservedRange": [
+        12825,
+        12874
+      ],
+      "notes": "Completed processing of 5 languages: old-komi,oroch,orok,ob-mansi,obdorsk. Bases created successfully. Delta conflicts with previous worker3 deltas prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:18:41.564Z-worker3",
+      "isos": [
+        "pelym",
+        "pim",
+        "punjabi"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:18:41.564Z",
+      "updatedAt": "2025-12-20T12:19:50.099Z",
+      "reservedRange": [
+        12875,
+        12924
+      ],
+      "notes": "Completed processing of 3 languages: pelym,pim,punjabi. Bases created successfully. Delta conflicts with previous worker3 deltas prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:21:11.754Z-worker3",
+      "isos": [
+        "qoqmoncaq",
+        "que"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:21:11.754Z",
+      "updatedAt": "2025-12-20T12:22:42.002Z",
+      "reservedRange": [
+        12925,
+        12974
+      ],
+      "notes": "Completed processing of 2 languages: qoqmoncaq,que. Bases created successfully. Delta conflicts with previous worker3 deltas prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:24:37.733Z-worker3",
+      "isos": [
+        "rakhine",
+        "rohingya"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:24:37.733Z",
+      "updatedAt": "2025-12-20T12:26:33.236Z",
+      "reservedRange": [
+        12975,
+        13024
+      ],
+      "notes": "Completed processing of 2 languages: rakhine,rohingya. Bases created successfully. Delta conflicts with previous worker3 deltas prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:28:29.514Z-worker3",
+      "isos": [
+        "southeastern-moksha",
+        "southern-udmurt",
+        "syktyvkar"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:28:29.514Z",
+      "updatedAt": "2025-12-20T12:29:56.414Z",
+      "reservedRange": [
+        13025,
+        13074
+      ],
+      "notes": "Completed processing of 3 languages: southeastern-moksha,southern-udmurt,syktyvkar. Bases created successfully. Delta conflicts with previous worker3 deltas prevented full application but languages have valid base configurations."
     }
   ]
 }
