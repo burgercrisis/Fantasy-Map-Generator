@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Sangiric",
+    "i": 490,
+    "b": "Tahuna,Sangihe,Talaud,Melonguane,Lirung,Beo,Miangas,Salibabu,Rainis,Bitung"
+  },
+  {
+    "name": "Papuan Malay",
+    "i": 454,
+    "b": "Jayapura,Sorong,Manokwari,Timika,Nabire,Biak,Merauke,Sentani,Wamena,Fakfak"
+  },
+  {
+    "name": "Serui Malay",
+    "i": 455,
+    "b": "Serui,Yapen,Wondama,Biak,Numfor,Nabire,Waropen,Ransiki,Wasior,Ansus"
+  },
+  {
+    "name": "Shompen",
+    "i": 471,
+    "b": "Great Nicobar,Campbell Bay,Govind Nagar,Govindanagar,Joginder Nagar,Pulobhao,Afra Bay,Alexandra,Little Nicobar,Kakana"
+  },
+  {
+    "name": "Southern Nicobarese",
+    "i": 472,
+    "b": "Great Nicobar,Little Nicobar,Campbell Bay,Govind Nagar,Afra Bay,Pulobhao,Trinkat,Nancowry,Teressa,Katchal"
+  },
+  {
+    "name": "Teressa Nicobarese",
+    "i": 473,
+    "b": "Teressa,Kalasi,Katchal,Nancowry,Kamorta,Trinkat,Chowra,Bompoka,Car Nicobar,Port Blair"
+  },
+  {
+    "name": "Makassar Branch",
+    "i": 497,
+    "b": "Makassar,Gowa,Maros,Takalar,Jeneponto,Bantaeng,Bulukumba,Sungguminasa,Pangkajene,Barru,Selayar"
+  },
+  {
+    "name": "Selaru",
+    "i": 481,
+    "b": "Selaru,Tanimbar,Yamdena,Saumlaki,Larat,Fordata,Wetar,Ambon,Banda Neira,Tual,Kei Islands"
+  },
+  {
+    "name": "Barito",
+    "i": 509,
+    "b": "Barito River,Banjarmasin,Palangkaraya,Sampit,Muara Teweh,Puruk Cahu,Kapuas,Kuala Kapuas,Buntok,Tamiang Layang,Amuntai"
+  },
+  {
+    "name": "Nicobarese (macro)",
+    "i": 468,
+    "b": "Nicobar,Andaman,Port Blair,Car Nicobar,Kamorta,Nancowry,Katchal,Teressa,Chowra,Great Nicobar,Little Nicobar"
+  }
+]

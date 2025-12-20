@@ -1,0 +1,202 @@
+[
+  {
+    "iso": "sangiric",
+    "count": 10
+  },
+  {
+    "iso": "papuan-malay",
+    "count": 10
+  },
+  {
+    "iso": "serui-malay",
+    "count": 10
+  },
+  {
+    "iso": "shompen",
+    "count": 10
+  },
+  {
+    "iso": "southern-nicobarese",
+    "count": 10
+  },
+  {
+    "iso": "teressa-nicobarese",
+    "count": 10
+  },
+  {
+    "iso": "makassar-branch",
+    "count": 11
+  },
+  {
+    "iso": "selaru",
+    "count": 11
+  },
+  {
+    "iso": "barito",
+    "count": 11
+  },
+  {
+    "iso": "nicobarese",
+    "count": 11
+  },
+  {
+    "iso": "kenaboi",
+    "count": 11
+  },
+  {
+    "iso": "minahasan",
+    "count": 12
+  },
+  {
+    "iso": "muna-buton",
+    "count": 12
+  },
+  {
+    "iso": "tomini-tolitoli",
+    "count": 12
+  },
+  {
+    "iso": "caa",
+    "count": 12
+  },
+  {
+    "iso": "peranakan",
+    "count": 12
+  },
+  {
+    "iso": "south-sulawesi",
+    "count": 12
+  },
+  {
+    "iso": "klr",
+    "count": 12
+  },
+  {
+    "iso": "kkt",
+    "count": 12
+  },
+  {
+    "iso": "tij",
+    "count": 12
+  },
+  {
+    "iso": "rma",
+    "count": 12
+  },
+  {
+    "iso": "tna",
+    "count": 12
+  },
+  {
+    "iso": "samo-burkina",
+    "count": 12
+  },
+  {
+    "iso": "chongqing-mandarin",
+    "count": 12
+  },
+  {
+    "iso": "chorote",
+    "count": 12
+  },
+  {
+    "iso": "chorotega",
+    "count": 12
+  },
+  {
+    "iso": "choshuenco",
+    "count": 12
+  },
+  {
+    "iso": "chovashi",
+    "count": 12
+  },
+  {
+    "iso": "kac",
+    "count": 13
+  },
+  {
+    "iso": "halang-bahnaric",
+    "count": 13
+  },
+  {
+    "iso": "kaco-bahnaric",
+    "count": 13
+  },
+  {
+    "iso": "kabardian",
+    "count": 13
+  },
+  {
+    "iso": "kae",
+    "count": 13
+  },
+  {
+    "iso": "northwest-sumatra-barrier-islands",
+    "count": 13
+  },
+  {
+    "iso": "sumatran",
+    "count": 13
+  },
+  {
+    "iso": "gurindji-kriol",
+    "count": 13
+  },
+  {
+    "iso": "kam-sui",
+    "count": 13
+  },
+  {
+    "iso": "haitian-creole",
+    "count": 13
+  },
+  {
+    "iso": "madurese",
+    "count": 13
+  },
+  {
+    "iso": "g-ui",
+    "count": 13
+  },
+  {
+    "iso": "gvoko-language",
+    "count": 13
+  },
+  {
+    "iso": "barlavento-creoles",
+    "count": 13
+  },
+  {
+    "iso": "kabyle",
+    "count": 13
+  },
+  {
+    "iso": "kafoa",
+    "count": 13
+  },
+  {
+    "iso": "kaera",
+    "count": 13
+  },
+  {
+    "iso": "hagen",
+    "count": 13
+  },
+  {
+    "iso": "kaguel",
+    "count": 13
+  },
+  {
+    "iso": "gimi",
+    "count": 13
+  },
+  {
+    "iso": "kainantu",
+    "count": 13
+  },
+  {
+    "iso": "hakka",
+    "count": 13
+  }
+]

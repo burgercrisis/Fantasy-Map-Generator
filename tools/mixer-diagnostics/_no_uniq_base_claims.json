@@ -406,14 +406,38 @@
         "hokkaido-dialects",
         "hre"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T14:51:35.842Z",
-      "updatedAt": "2025-12-20T14:51:35.842Z",
+      "updatedAt": "2025-12-20T17:15:00.000Z",
       "reservedRange": [
         13089,
         13138
       ],
-      "notes": "Reserved i range: 13089-13138\nISO->base mapping (fill in):\n- ha-em->13089\n- hamgyong-dialect->13090\n- hoc->13091\n- hokchiu->13092\n- hokkaido-ainu->13093\n- hokkaido-dialects->13094\n- hre->13095"
+      "notes": "Complete. Resolved NO_UNIQ_BASE for worker3 batch. Assigned dedicated bases: ha-em->13089, hamgyong-dialect->13090, hoc->13091, hokchiu->13092, hokkaido-ainu->13093, hokkaido-dialects->13094, hre->13095. Modified modules/namebases-real.js to add ISO-unique suffixes to b fields. Verified all ISOs meet seed uniqueness thresholds (strictOK/normOK)."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T22:43:49.681Z-worker1",
+      "isos": [
+        "sangiric",
+        "papuan-malay",
+        "serui-malay",
+        "shompen",
+        "southern-nicobarese",
+        "teressa-nicobarese",
+        "makassar-branch",
+        "selaru",
+        "barito",
+        "nicobarese"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T22:43:49.681Z",
+      "updatedAt": "2025-12-20T22:43:49.681Z",
+      "reservedRange": [
+        13139,
+        13188
+      ],
+      "notes": "Reserved i range: 13139-13188\nISO->base mapping (fill in):\n- sangiric->13139\n- papuan-malay->13140\n- serui-malay->13141\n- shompen->13142\n- southern-nicobarese->13143\n- teressa-nicobarese->13144\n- makassar-branch->13145\n- selaru->13146\n- barito->13147\n- nicobarese->13148"
     }
   ]
 }
