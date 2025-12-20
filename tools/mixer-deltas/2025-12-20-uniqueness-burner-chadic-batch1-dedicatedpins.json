@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "description": "Uniqueness burner: Resolve Chadic cluster collisions by assigning dedicated bases to margi-language, margi-south-language, maslam-language, matal-language, mazagway-language, mbara-language-chad, mbudum-language, mbuko-language",
+  "operations": [
+    {
+      "type": "setBases",
+      "iso": "margi-language",
+      "bases": [11762]
+    },
+    {
+      "type": "setBases",
+      "iso": "margi-south-language",
+      "bases": [11763]
+    },
+    {
+      "type": "setBases",
+      "iso": "maslam-language",
+      "bases": [11764]
+    },
+    {
+      "type": "setBases",
+      "iso": "matal-language",
+      "bases": [11765]
+    },
+    {
+      "type": "setBases",
+      "iso": "mazagway-language",
+      "bases": [11766]
+    },
+    {
+      "type": "setBases",
+      "iso": "mbara-language-chad",
+      "bases": [11767]
+    },
+    {
+      "type": "setBases",
+      "iso": "mbudum-language",
+      "bases": [11768]
+    },
+    {
+      "type": "setBases",
+      "iso": "mbuko-language",
+      "bases": [11769]
+    }
+  ]
+}

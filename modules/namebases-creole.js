@@ -232,6 +232,8 @@
   {name: "Rodriguan Creole (dedicated)", i: 8337, min: 4, max: 11, d: "lnrt", m: 0, b: "rodriguan-creole_8337_unq1,rodriguan-creole_8337_unq2,rodriguan-creole_8337_unq3,rodriguan-creole_8337_unq4,rodriguan-creole_8337_unq5,rodriguan-creole_8337_unq6,rodriguan-creole_8337_unq7,rodriguan-creole_8337_unq8,rodriguan-creole_8337_unq9,rodriguan-creole_8337_unq10,rodriguan-creole_8337_unq11,rodriguan-creole_8337_unq12"},
   {name: "Saint Lucian Creole (dedicated)", i: 8338, min: 4, max: 11, d: "lnrt", m: 0, b: "saint-lucian-creole_8338_unq1,saint-lucian-creole_8338_unq2,saint-lucian-creole_8338_unq3,saint-lucian-creole_8338_unq4,saint-lucian-creole_8338_unq5,saint-lucian-creole_8338_unq6,saint-lucian-creole_8338_unq7,saint-lucian-creole_8338_unq8,saint-lucian-creole_8338_unq9,saint-lucian-creole_8338_unq10,saint-lucian-creole_8338_unq11,saint-lucian-creole_8338_unq12"},
   {name: "Tayo Creole (dedicated)", i: 8339, min: 4, max: 11, d: "lnrt", m: 0, b: "tayo-creole_8339_unq1,tayo-creole_8339_unq2,tayo-creole_8339_unq3,tayo-creole_8339_unq4,tayo-creole_8339_unq5,tayo-creole_8339_unq6,tayo-creole_8339_unq7,tayo-creole_8339_unq8,tayo-creole_8339_unq9,tayo-creole_8339_unq10,tayo-creole_8339_unq11,tayo-creole_8339_unq12"},
+
+  {name: "Jersey Dutch (dedicated)", i: 11949, min: 4, max: 11, d: "lnrt", m: 0, b: "jersey-dutch,jersey-dutch_11949_unq1,jersey-dutch_11949_unq2,jersey-dutch_11949_unq3,jersey-dutch_11949_unq4,jersey-dutch_11949_unq5,jersey-dutch_11949_unq6,jersey-dutch_11949_unq7,jersey-dutch_11949_unq8,jersey-dutch_11949_unq9,jersey-dutch_11949_unq10,jersey-dutch_11949_unq11,jersey-dutch_11949_unq12"},
 ];
 
 if (typeof module !== "undefined" && module.exports) module.exports = window.creoleNameBases;

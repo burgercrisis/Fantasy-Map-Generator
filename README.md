@@ -1,12 +1,37 @@
 So far what I've done is:
 
-- Add a language mixer which can be used to "mix" different languages using the Markov system Azgaar implemented; this can be used to generate novel "languages" for placenames that truly do not exist, but may feel like they do. 
+- Add a language mixer which can be used to "mix" different languages using the Markov system Azgaar implemented; this can be used to generate novel "languages" for placenames that truly do not exist, but may feel like they do.
 
 
 - Add a small fantasy race system. It has some campaign setting sets, and integrates alongside the cultures system.
 
 - [More detail](DEVplans/Changes-vs-Azgaar-master.md)
 
+## MCP Configuration
+
+This project uses MCP (Model Context Protocol) for development tooling. The `.kiro/settings/mcp.json` configuration file has been updated to use environment variables instead of hard-coded paths.
+
+To set up your environment, create a `.env` file with the following variables:
+
+```
+# Path to the MCP hub server.js file
+MCP_HUB_SERVER_PATH=/path/to/your/mcp/hub/dist/server.js
+
+# Root directories for MCP hub projects
+MCP_HUB_PROJECT_ROOTS=/path/to/your/projects
+
+# Root directories for Git repositories
+MCP_HUB_GIT_ROOTS=/path/to/your/git/repos
+
+# Path to pnpm command (usually found via 'which pnpm' or 'where pnpm')
+MCP_HUB_PNPM_CMD=/path/to/pnpm
+
+# Root directories to verify (usually same as PROJECT_ROOTS)
+MCP_HUB_VERIFY_ROOTS=/path/to/your/projects
+
+# Path to Chrome/Chromium executable for Puppeteer
+PUPPETEER_BROWSER_EXE=/path/to/chrome/executable
+```
 
 Planned (rough priority order for this fork):
 

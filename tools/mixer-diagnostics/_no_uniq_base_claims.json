@@ -4169,17 +4169,89 @@
         "hnd",
         "ho-munda",
         "hoanya",
-        "hohr",
+        "hoj",
         "hoia-hoia"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T09:38:13.175Z",
-      "updatedAt": "2025-12-20T09:38:13.175Z",
+      "updatedAt": "2025-12-20T10:15:00.000Z",
       "reservedRange": [
         11790,
         11839
       ],
-      "notes": "Reserved i range: 11790-11839\nISO->base mapping (fill in):\n- haz->11790\n- hm-nai->11791\n- hmn->11792\n- hmong->11793\n- hmu->11794\n- hnd->11795\n- ho-munda->11796\n- hoanya->11797\n- hohr->11798\n- hoia-hoia->11799"
+      "notes": "Reserved i range: 11790-11839\nISO->base mapping:\n- haz->11790\n- hm-nai->11791\n- hmn->11792\n- hmong->11793\n- hmu->11794\n- hnd->11795\n- ho-munda->11796\n- hoanya->11797\n- hoj->11798\n- hoia-hoia->11799\nVerification: strictOK=10, normOK=10 for all. Typo fixed: hohr->hoj."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T10:54:18.911Z-worker3",
+      "isos": [
+        "jin",
+        "jingpho",
+        "jingpho-luish",
+        "jino",
+        "jiv",
+        "jizhao",
+        "jml",
+        "jnd",
+        "jog",
+        "jonkor-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T10:54:18.911Z",
+      "updatedAt": "2025-12-20T11:15:00.000Z",
+      "reservedRange": [
+        11840,
+        11889
+      ],
+      "notes": "Reserved i range: 11840-11889\nISO->base mapping:\n- jin->11840\n- jingpho->11841\n- jingpho-luish->11842\n- jino->11843\n- jiv->11844\n- jizhao->11845\n- jml->11846\n- jnd->11847\n- jog->11848\n- jonkor-language->11849\nVerification: strictOK=13, normOK=13 for all."
+    },
+    {
+      "workerId": 5,
+      "batchId": "2025-12-20T10:56:04.528Z-worker5",
+      "isos": [
+        "japanese-okinawa",
+        "japanese-okinawan",
+        "japanese-ryukyu",
+        "japanese-ryukyuan",
+        "japanese-tokyo",
+        "javanese",
+        "javindo",
+        "jawad",
+        "jayapura-malay",
+        "jayapura-malay"
+      ],
+      "status": "stalled",
+      "startedAt": "2025-12-20T10:56:04.528Z",
+      "updatedAt": "2025-12-20T10:56:43.188Z",
+      "reservedRange": [
+        11890,
+        11939
+      ],
+      "notes": "Incorrect ISO selection - stalling to recreate with correct languages"
+    },
+    {
+      "workerId": 5,
+      "batchId": "2025-12-20T10:56:48.862Z-worker5",
+      "isos": [
+        "jeju-language",
+        "jelkung-language",
+        "jeolla-dialect",
+        "jersey-dutch",
+        "jiamao",
+        "jiaoliao-mandarin",
+        "jibyal-language",
+        "jie",
+        "jilbe-language",
+        "jilu-mandarin"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T10:56:48.862Z",
+      "updatedAt": "2025-12-20T10:56:48.862Z",
+      "reservedRange": [
+        11940,
+        11989
+      ],
+      "notes": "Reserved i range: 11940-11989\nISO->base mapping (fill in):\n- jeju-language->11940\n- jelkung-language->11941\n- jeolla-dialect->11942\n- jersey-dutch->11943\n- jiamao->11944\n- jiaoliao-mandarin->11945\n- jibyal-language->11946\n- jie->11947\n- jilbe-language->11948\n- jilu-mandarin->11949"
     }
   ]
 }
