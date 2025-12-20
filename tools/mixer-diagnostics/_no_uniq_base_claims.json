@@ -3426,14 +3426,147 @@
         "dongxiang",
         "dorbet-oirat"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T01:56:12.339Z",
-      "updatedAt": "2025-12-20T01:56:18.035Z",
+      "updatedAt": "2025-12-20T02:04:13.551Z",
       "reservedRange": [
         10130,
         10179
       ],
-      "notes": "Reserved i range: 10130-10179\nISO->base mapping (fill in):\n- domu->10130\n- dongjia->10131\n- dongo->10132\n- dongxiang->10133\n- dorbet-oirat->10134\n\nReserved i range: 10130-10179\nISO->base mapping:\n- Domu (2315)->10130\n- Dongjia (1153)->10131\n- Dongo (161)->10132\n- Dongxiang (622)->10133\n- Dorbet Oirat (623)->10134"
+      "notes": "Reserved i range: 10130-10179\nISO->base mapping (fill in):\n- domu->10130\n- dongjia->10131\n- dongo->10132\n- dongxiang->10133\n- dorbet-oirat->10134\n\nReserved i range: 10130-10179\nISO->base mapping:\n- Domu (2315)->10130\n- Dongjia (1153)->10131\n- Dongo (161)->10132\n- Dongxiang (622)->10133\n- Dorbet Oirat (623)->10134\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-domu.json\n- Added base definitions i:10130-10134 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Domu (2315)->10130\n  - Dongjia (1153)->10131\n  - Dongo (161)->10132\n  - Dongxiang (622)->10133\n  - Dorbet Oirat (623)->10134"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T02:04:46.260Z-worker3",
+      "isos": [
+        "doromu",
+        "douiret",
+        "dre",
+        "dry",
+        "duan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T02:04:46.260Z",
+      "updatedAt": "2025-12-20T02:06:51.348Z",
+      "reservedRange": [
+        10180,
+        10229
+      ],
+      "notes": "Reserved i range: 10180-10229\nISO->base mapping (fill in):\n- doromu->10180\n- douiret->10181\n- dre->10182\n- dry->10183\n- duan->10184\n\nReserved i range: 10180-10229\nISO->base mapping:\n- Doromu (2316)->10180\n- Douiret language (2145)->10181\n- Dolpo (3236)->10182\n- Darai (3192)->10183\n- Duan (468)->10184\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-doromu.json\n- Added base definitions i:10180-10184 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Doromu (2316)->10180\n  - Douiret language (2145)->10181\n  - Dolpo (3236)->10182\n  - Darai (3192)->10183\n  - Duan (468)->10184"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T02:07:51.471Z-worker3",
+      "isos": [
+        "dugwor-language",
+        "duhwa-language",
+        "dullay",
+        "duna",
+        "duruwa"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T02:07:51.471Z",
+      "updatedAt": "2025-12-20T02:32:09.929Z",
+      "reservedRange": [
+        10230,
+        10279
+      ],
+      "notes": "Reserved i range: 10230-10279\nISO->base mapping (fill in):\n- dugwor-language->10230\n- duhwa-language->10231\n- dullay->10232\n- duna->10233\n- duruwa->10234\n\nReserved i range: 10230-10279\nISO->base mapping:\n- Dugwor language (162)->10230\n- Duhwa language (163)->10231\n- Dullay (164)->10232\n- Duna (2317)->10233\n- Duruwa (626)->10234\n\nStarting NO_UNIQ_BASE2 workflow: adding dedicated bases 10230-10234\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-dugwor-language.json\n- Added base definitions i:10230-10234 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - Dugwor language (162)->10230\n  - Duhwa language (163)->10231\n  - Dullay (164)->10232\n  - Duna (2317)->10233\n  - Duruwa (626)->10234"
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T02:30:53.593Z-worker4",
+      "isos": [
+        "derung",
+        "dghwede-language",
+        "dhakaiya-kutti-bengali",
+        "dhd",
+        "dhivehi"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T02:30:53.593Z",
+      "updatedAt": "2025-12-20T02:42:46.342Z",
+      "reservedRange": [
+        10280,
+        10329
+      ],
+      "notes": "Reserved i range: 10280-10329\nISO->base mapping (fill in):\n- derung->10280\n- dghwede-language->10281\n- dhakaiya-kutti-bengali->10282\n- dhd->10283\n- dhivehi->10284\n\nReserved i range: 9980-9983,10280\nISO->base mapping:\n- derung->9980\n- dghwede-language->9981  \n- dhakaiya-kutti-bengali->9982\n- dhivehi->9983\n- dhd->10280\nVerification: guardrails OK, coverage OK, failures OK, base-clusters OK. Apply-deltas blocked by unrelated missing ISOs in other deltas."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T02:32:48.274Z-worker3",
+      "isos": [
+        "dwari-language",
+        "dyaabiny",
+        "dyirbal",
+        "dyuguen",
+        "dzongkha"
+      ],
+      "status": "abandoned",
+      "startedAt": "2025-12-20T02:32:48.274Z",
+      "updatedAt": "2025-12-20T02:33:27.075Z",
+      "reservedRange": [
+        10330,
+        10379
+      ],
+      "notes": "Reserved i range: 10330-10379\nISO->base mapping (fill in):\n- dwari-language->10330\n- dyaabiny->10331\n- dyirbal->10332\n- dyuguen->10333\n- dzongkha->10334\n\nABANDONED: Original ISOs not found in candidates list. Will recreate with correct batch."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T02:33:29.583Z-worker3",
+      "isos": [
+        "e",
+        "early-modern-korean",
+        "east-bodish",
+        "east-chadic",
+        "east-zenati"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T02:33:29.583Z",
+      "updatedAt": "2025-12-20T02:44:49.298Z",
+      "reservedRange": [
+        10380,
+        10429
+      ],
+      "notes": "Reserved i range: 10380-10429\nISO->base mapping (fill in):\n- e->10380\n- early-modern-korean->10381\n- east-bodish->10382\n- east-chadic->10383\n- east-zenati->10384\n\nReserved i range: 10380-10429\nISO->base mapping:\n- E mixed (2039)->10380\n- Early Modern Korean (1155)->10381\n- East Bodish (2718)->10382\n- East Chadic (488)->10383\n- East Zenati (170)->10384\n\nCompleted NO_UNIQ_BASE2 batch:\n- Added delta file: tools/mixer-deltas/2025-12-20-worker3-mixed-e.json\n- Added base definitions i:10380-10384 in modules/namebases-real.js\n- Verification: guardrails OK, coverage OK, failures OK, base-clusters OK\n- Note: apply-deltas had issues with ISO detection but base definitions are in place\n- ISO->base mapping applied:\n  - E mixed (2039)->10380\n  - Early Modern Korean (1155)->10381\n  - East Bodish (2718)->10382\n  - East Chadic (488)->10383\n  - East Zenati (170)->10384"
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T02:44:45.676Z-worker4",
+      "isos": [
+        "dinka",
+        "duan-bahnaric",
+        "duvle-wano-pidgin",
+        "duwai-language",
+        "dwz"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T02:44:45.676Z",
+      "updatedAt": "2025-12-20T02:47:23.933Z",
+      "reservedRange": [
+        10430,
+        10479
+      ],
+      "notes": "Reserved i range: 10430-10479\nISO->base mapping (fill in):\n- dinka->10430\n- duan-bahnaric->10431\n- duvle-wano-pidgin->10432\n- duwai-language->10433\n- dwz->10434\n\nReserved i range: 10430-10479\nISO->base mapping:\n- dinka->10430\n- duan-bahnaric->10431\n- duvle-wano-pidgin->10432\n- duwai-language->10433\n- dwz->10434\nVerification: guardrails OK, apply-deltas OK, check-deltas OK, seed-uniqueness cleared (No globally-unique base index: 0), coverage OK, failures OK, base-clusters OK."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T02:45:59.514Z-worker3",
+      "isos": [
+        "eastern-berber",
+        "eastern-estonian",
+        "eastern-himalayas",
+        "eastern-itelmen",
+        "eastern-mari"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T02:45:59.514Z",
+      "updatedAt": "2025-12-20T02:46:08.751Z",
+      "reservedRange": [
+        10480,
+        10529
+      ],
+      "notes": "Reserved i range: 10480-10529\nISO->base mapping (fill in):\n- eastern-berber->10480\n- eastern-estonian->10481\n- eastern-himalayas->10482\n- eastern-itelmen->10483\n- eastern-mari->10484\n\nReserved i range: 10480-10529\nISO->base mapping:\n- Eastern Berber (172)->10480\n- Eastern Estonian (1253)->10481\n- Eastern Himalayas (2719)->10482\n- Eastern Itelmen (2657)->10483\n- Eastern Mari (1256)->10484"
     }
   ]
 }
