@@ -1,0 +1,15 @@
+{
+  "dedicatedPins": {
+    "eastern-middle-atlas-berber": 10580,
+    "eastern-min": 10581,
+    "eastern-morocco-zenati": 10582,
+    "eastern-savonian": 10583,
+    "eastern-south-estonian": 10584
+  },
+  "metadata": {
+    "description": "NO_UNIQ_BASE2 dedicated pins for Eastern Middle Atlas Berber, Eastern Min, Eastern Morocco Zenati, Eastern Savonian, Eastern South Estonian",
+    "batchId": "2025-12-20T02:49:40.077Z-worker3",
+    "workerId": 3,
+    "createdAt": "2025-12-20T02:49:40.077Z"
+  }
+}

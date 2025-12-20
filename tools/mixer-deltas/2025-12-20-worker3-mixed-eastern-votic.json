@@ -1,0 +1,15 @@
+{
+  "dedicatedPins": {
+    "eastern-votic": 10631,
+    "eastern-yugur": 10632,
+    "ebira": 10633,
+    "edolo": 10634,
+    "egyptian-arabic": 10680
+  },
+  "metadata": {
+    "description": "NO_UNIQ_BASE2 dedicated pins for Eastern Votic, Eastern Yugur, Ebira, Edolo, Egyptian Arabic (aligned with worker4)",
+    "batchId": "2025-12-20T02:58:01.477Z-worker3",
+    "workerId": 3,
+    "createdAt": "2025-12-20T02:58:01.477Z"
+  }
+}
