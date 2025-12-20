@@ -23,6 +23,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 ## ✅ Completed items (consolidated)
 
+- ✅ **2025-12-20 (NO_UNIQ_BASE / worker-cascade):** Resolved dedicated base pins for K-prefix batch: `kainuu` (13075), `kalamian` (13076), `kalmyk` (13077), `kaloeng` (13078), `kaluli` (13079), `kam-dong` (13080), `kam-sui` (13081). Added dedicated base defs in `modules/namebases-real.js` and created delta `tools/mixer-deltas/2025-12-20-k-prefix-batch-setbases.json`. Resolved `kaloeng` conflict in `2025-12-18-language-uniqueness-batch2-misc-asia-setbases.json`. Verified via `node tools/mixer-core/apply-mixer-deltas.js` + `report-language-mixer-seed-uniqueness.js` OK (all strictOK/normOK with 13 unique seeds).
+
 - ✅ **2025-12-20 (NO_UNIQ_BASE / worker-cascade):** Resolved dedicated base pin conflicts for `khorchin-mongol` (base 12153 -> 12168) and `tongren-bonan` (base 7778 -> 7785). Added dedicated base defs in `modules/namebases-real.js` and created delta `tools/mixer-deltas/2025-12-20-fix-tongren-bonan-pin.json`. Verified via `pnpm run mixer:apply-deltas` + `pnpm run mixer:check-deltas` OK; seed-uniqueness OK; coverage/failures/base-clusters OK.
 
 - For each **non-family** mixer language, we are working toward having at least one **globally unique base index** and ensuring that dedicated base contains ISO-unique seed tokens.

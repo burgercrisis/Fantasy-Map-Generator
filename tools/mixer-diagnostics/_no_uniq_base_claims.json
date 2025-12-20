@@ -3,6 +3,40 @@
   "claims": [
     {
       "workerId": "cascade",
+      "batchId": "2025-12-20T13:55:00Z-cascade",
+      "isos": [
+        "haflong-hindi",
+        "hagei",
+        "hagen",
+        "haitian-creole",
+        "haj",
+        "hakka",
+        "halang-bahnaric"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T13:55:00Z",
+      "updatedAt": "2025-12-20T13:55:00Z",
+      "notes": "Claimed H-prefix batch for NO_UNIQ_BASE resolution. Reserved indices: 13082-13088."
+    },
+    {
+      "workerId": "cascade",
+      "batchId": "2025-12-20T13:40:00Z-cascade",
+      "isos": [
+        "kainuu",
+        "kalamian",
+        "kalmyk",
+        "kaloeng",
+        "kaluli",
+        "kam-dong",
+        "kam-sui"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T13:40:00Z",
+      "updatedAt": "2025-12-20T14:05:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for K-prefix batch (kainuu, kalamian, kalmyk, kaloeng, kaluli, kam-dong, kam-sui) using bases 13075-13081. Resolved kaloeng delta conflict. Verified strict/norm OK."
+    },
+    {
+      "workerId": "cascade",
       "batchId": "2025-12-20T12:00:00Z-cascade",
       "isos": [
         "khorchin-mongol",
