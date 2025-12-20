@@ -3270,7 +3270,7 @@
         "khirwar",
         "kodava"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-19T22:59:55.709Z",
       "updatedAt": "2025-12-19T23:37:38.716Z",
       "reservedRange": [
@@ -3681,6 +3681,54 @@
         10829
       ],
       "notes": "Reserved i range: 10780-10829\nISO->base mapping (fill in):\n- enets->10780\n- enga->10781\n- eravallan->10782\n- ersuic->10783\n- erzya->10784\n\nReserved i range: 10780-10829\nISO->base mapping:\n- enets->10780\n- enga->10781\n- eravallan->10782\n- ersuic->10783\n- erzya->10784\nVerification: guardrails OK, apply-deltas blocked by unrelated missing ISOs but batch ISOs present, seed-uniqueness cleared after apply (No globally-unique base index: 0), coverage OK, failures OK, base-clusters OK."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T03:27:18.221Z-worker1",
+      "isos": [
+        "east-zenati",
+        "ese-omie",
+        "esimbi",
+        "eskimo-trade-jargon",
+        "estonian",
+        "eus",
+        "even",
+        "ewage",
+        "ewe",
+        "ewenic"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T03:27:18.221Z",
+      "updatedAt": "2025-12-20T03:38:41.756Z",
+      "reservedRange": [
+        10830,
+        10879
+      ],
+      "notes": "Reserved i range: 10830-10879\nISO->base mapping:\n- east-zenati->10830\n- ese-omie->10831\n- esimbi->10832\n- eskimo-trade-jargon->10833\n- estonian->10834\n- eus->10835\n- even->10836\n- ewage->10837\n- ewe->10838\n- ewenic->10839\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run mixer:check-deltas (OK)\n- pnpm run mixer:coverage (OK)\n- pnpm run mixer:failures (OK)\n- seed-uniqueness --only-failures --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-mixed-east-zenati.json\n- Base defs: modules/namebases-real.js i:10830-10839\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T03:39:06.583Z-worker1",
+      "isos": [
+        "faiwol",
+        "fali-of-mubi",
+        "fanagalo",
+        "fang-cameroon",
+        "fang-equatorial-guinea-and-gabon",
+        "fanji",
+        "far-eastern-khanty",
+        "farefare",
+        "fasu",
+        "fataluku"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T03:39:06.583Z",
+      "updatedAt": "2025-12-20T03:39:06.583Z",
+      "reservedRange": [
+        10880,
+        10929
+      ],
+      "notes": "Reserved i range: 10880-10929\nISO->base mapping (fill in):\n- faiwol->10880\n- fali-of-mubi->10881\n- fanagalo->10882\n- fang-cameroon->10883\n- fang-equatorial-guinea-and-gabon->10884\n- fanji->10885\n- far-eastern-khanty->10886\n- farefare->10887\n- fasu->10888\n- fataluku->10889"
     }
   ]
 }
