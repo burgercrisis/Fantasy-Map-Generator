@@ -3985,14 +3985,14 @@
         "hkongso",
         "hlb"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T05:10:08.483Z",
       "updatedAt": "2025-12-20T05:10:08.483Z",
       "reservedRange": [
         11430,
         11479
       ],
-      "notes": "Reserved i range: 11430-11479\nISO->base mapping (fill in):\n- hdi-language->11430\n- hezhang-buyi->11431\n- hezhou->11432\n- hiligaynon->11433\n- hill-mari->11434\n- hina-language->11435\n- hindustani->11436\n- hiri-motu->11437\n- hkongso->11438\n- hlb->11439"
+      "notes": "Reserved i range: 11430-11479\nISO->base mapping (fill in):\n- hdi-language->11430\n- hezhang-buyi->11431\n- hezhou->11432\n- hiligaynon->11433\n- hill-mari->11434\n- hina-language->11435\n- hindustani->11436\n- hiri-motu->11437\n- hkongso->11438\n- hlb->11439\n\nVerification completed:\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:apply-deltas => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only=hdi-language,hezhang-buyi,hezhou,hiligaynon,hill-mari,hina-language,hindustani,hiri-motu,hkongso,hlb => Target ISOs: 10; Missing mapping: 0; strict failures: 0; norm failures: 0\n- coverage OK\n- failures OK\n- base-clusters --min-size=2 => OK"
     },
     {
       "workerId": 100,
@@ -4012,6 +4012,54 @@
         11529
       ],
       "notes": "Reserved i range: 11480-11529\nISO->base mapping (fill in):\n- ghe->11480\n- ghh->11481\n- ghomara->11482\n- ghr->11483\n- gidar-language->11484\n\nReserved i range: 11480-11484 (only using 5 indices for 5 ISOs)\n\nISO->base mapping applied:\n- ghe->11480\n- ghh->11481\n- ghomara->11482\n- ghr->11483\n- gidar-language->11484\n\nVerification completed:\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only-failures --only-isos=ghe,ghh,ghomara,ghr,gidar-language => 0 failures\n- coverage OK\n- failures OK\n- base-clusters --min-size=2 => no collisions for my batch"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T06:15:15.181Z-worker3",
+      "isos": [
+        "hruso",
+        "hto",
+        "huba-language",
+        "hui",
+        "huilliche",
+        "huishui",
+        "huli",
+        "humene",
+        "hun",
+        "hupla"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T06:15:15.181Z",
+      "updatedAt": "2025-12-20T07:45:00.000Z",
+      "reservedRange": [
+        11530,
+        11579
+      ],
+      "notes": "Reserved i range: 11530-11579\nISO->base mapping (fill in):\n- hruso->11530\n- hto->11531\n- huba-language->11532\n- hui->11533\n- huilliche->11534\n- huishui->11535\n- huli->11536\n- humene->11537\n- hun->11538\n- hupla->11539\n\nVerification completed:\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:apply-deltas => OK (handled hruso conflict via dedicatedPins)\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only=hruso,hto,huba-language,hui,huilliche,huishui,huli,humene,hun,hupla => Target ISOs: 10; Missing mapping: 0; strict failures: 0; norm failures: 9 (strict unique seeds >= 7 for all, hto is normOK)"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T08:24:38.033Z-worker3",
+      "isos": [
+        "huz",
+        "hwana-language",
+        "hwanghae-dialect",
+        "hya-language",
+        "iban",
+        "ibanag",
+        "idu-taraon",
+        "igbo",
+        "iha",
+        "iitti"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T08:24:38.033Z",
+      "updatedAt": "2025-12-20T08:24:38.033Z",
+      "reservedRange": [
+        11580,
+        11629
+      ],
+      "notes": "Reserved i range: 11580-11629\nISO->base mapping (fill in):\n- huz->11580\n- hwana-language->11581\n- hwanghae-dialect->11582\n- hya-language->11583\n- iban->11584\n- ibanag->11585\n- idu-taraon->11586\n- igbo->11587\n- iha->11588\n- iitti->11589"
     }
   ]
 }

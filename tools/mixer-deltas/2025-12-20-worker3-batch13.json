@@ -1,0 +1,30 @@
+{
+  "name": "Batch 13 - worker3",
+  "date": "2025-12-20",
+  "worker": 3,
+  "description": "Dedicated bases for Batch 13 (hruso to hupla)",
+  "dedicatedPins": {
+    "hruso": 11530,
+    "hto": 11531,
+    "huba-language": 11532,
+    "hui": 11533,
+    "huilliche": 11534,
+    "huishui": 11535,
+    "huli": 11536,
+    "humene": 11537,
+    "hun": 11538,
+    "hupla": 11539
+  },
+  "explicitIsoDedicatedBaseMap": {
+    "hruso": 11530,
+    "hto": 11531,
+    "huba-language": 11532,
+    "hui": 11533,
+    "huilliche": 11534,
+    "huishui": 11535,
+    "huli": 11536,
+    "humene": 11537,
+    "hun": 11538,
+    "hupla": 11539
+  }
+}
