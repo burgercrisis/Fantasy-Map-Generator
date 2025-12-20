@@ -1,28 +1,26 @@
 {
   "explicitIsoDedicatedBaseMap": {
-    "hawaiian": 11690,
-    "hayeren": 11691,
-    "hayeren_dialect": 11692,
-    "hayeren_modern": 11693,
-    "hayeren_modern_eastern": 11694,
-    "hayeren_modern_western": 11695,
-    "hayeren_old": 11696,
-    "hayeren_old_cilician": 11697,
-    "hayu": 11698,
-    "hazara": 11699
-  },
-  "appendBases": {
-    "hawaiian": [11690]
+    "kasiguranin": 11690,
+    "kasong": 11691,
+    "katchal-nicobarese": 11692,
+    "katu": 11693,
+    "katua-bahnaric": 11694,
+    "kawacha": 11695,
+    "kayagar-kaygir": 11696,
+    "kayan-murik": 11697,
+    "kayong-bahnaric": 11698,
+    "kazym": 11699
   },
   "dedicatedPins": {
-    "hayeren": [11691],
-    "hayeren_dialect": [11692],
-    "hayeren_modern": [11693],
-    "hayeren_modern_eastern": [11694],
-    "hayeren_modern_western": [11695],
-    "hayeren_old": [11696],
-    "hayeren_old_cilician": [11697],
-    "hayu": [11698],
-    "hazara": [11699]
+    "kasiguranin": [11690],
+    "kasong": [11691],
+    "katchal-nicobarese": [11692],
+    "katu": [11693],
+    "katua-bahnaric": [11694],
+    "kawacha": [11695],
+    "kayagar-kaygir": [11696],
+    "kayan-murik": [11697],
+    "kayong-bahnaric": [11698],
+    "kazym": [11699]
   }
 }

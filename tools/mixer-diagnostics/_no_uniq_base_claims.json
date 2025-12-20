@@ -4113,25 +4113,49 @@
       "workerId": 3,
       "batchId": "2025-12-20T08:55:50.809Z-worker3",
       "isos": [
-        "hawaiian",
-        "hayeren",
-        "hayeren_dialect",
-        "hayeren_modern",
-        "hayeren_modern_eastern",
-        "hayeren_modern_western",
-        "hayeren_old",
-        "hayeren_old_cilician",
-        "hayu",
-        "hazara"
+        "kasiguranin",
+        "kasong",
+        "katchal-nicobarese",
+        "katu",
+        "katua-bahnaric",
+        "kawacha",
+        "kayagar-kaygir",
+        "kayan-murik",
+        "kayong-bahnaric",
+        "kazym"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T08:55:50.809Z",
-      "updatedAt": "2025-12-20T08:55:50.809Z",
+      "updatedAt": "2025-12-20T09:10:00.000Z",
       "reservedRange": [
         11690,
         11739
       ],
-      "notes": "Reserved i range: 11690-11739\nISO->base mapping (fill in):\n- hawaiian->11690\n- hayeren->11691\n- hayeren_dialect->11692\n- hayeren_modern->11693\n- hayeren_modern_eastern->11694\n- hayeren_modern_western->11695\n- hayeren_old->11696\n- hayeren_old_cilician->11697\n- hayu->11698\n- hazara->11699"
+      "notes": "Reserved i range: 11690-11739\nISO->base mapping:\n- kasiguranin->11690\n- kasong->11691\n- katchal-nicobarese->11692\n- katu->11693\n- katua-bahnaric->11694\n- kawacha->11695\n- kayagar-kaygir->11696\n- kayan-murik->11697\n- kayong-bahnaric->11698\n- kazym->11699\nVerification: strictOK=10, normOK=10 for all."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T09:28:55.690Z-worker3",
+      "isos": [
+        "iznasen",
+        "j-kk-kaska",
+        "j-llivaara",
+        "jalaa",
+        "jamaican-creole",
+        "jamaican-patois",
+        "jara-language",
+        "javindo",
+        "jdg",
+        "jeh-bahnaric"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T09:28:55.690Z",
+      "updatedAt": "2025-12-20T09:35:00.000Z",
+      "reservedRange": [
+        11740,
+        11789
+      ],
+      "notes": "Reserved i range: 11740-11789\nISO->base mapping:\n- iznasen->11740\n- j-kk-kaska->11741\n- j-llivaara->11742\n- jalaa->11743\n- jamaican-creole->11744\n- jamaican-patois->11745\n- jara-language->11746\n- javindo->11747\n- jdg->11748\n- jeh-bahnaric->11749\nVerification: strictOK=10, normOK=10 for all."
     }
   ]
 }
