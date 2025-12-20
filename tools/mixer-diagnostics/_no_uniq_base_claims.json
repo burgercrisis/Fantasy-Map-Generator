@@ -4629,6 +4629,59 @@
         12624
       ],
       "notes": "Completed processing of 5 Uralic and Ubangian languages: yaransk,yoshkar-olin,yazva,yaran,yangere. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:59:14.985Z-worker3",
+      "isos": [
+        "zakho",
+        "zenaga",
+        "zay",
+        "zeme",
+        "zho"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:59:14.985Z",
+      "updatedAt": "2025-12-20T12:03:00.488Z",
+      "reservedRange": [
+        12625,
+        12674
+      ],
+      "notes": "Completed processing of 5 z-languages: zakho,zenaga,zay,zeme,zho. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:07:36.884Z-worker3",
+      "isos": [
+        "jru-bahnaric",
+        "jugan",
+        "jukonda"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:07:36.884Z",
+      "updatedAt": "2025-12-20T12:09:16.910Z",
+      "reservedRange": [
+        12675,
+        12724
+      ],
+      "notes": "Completed processing of 3 languages: jru-bahnaric,jugan,jukonda. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T12:11:00.939Z-worker3",
+      "isos": [
+        "mandinka",
+        "meitei",
+        "moksha"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T12:11:00.939Z",
+      "updatedAt": "2025-12-20T12:12:24.881Z",
+      "reservedRange": [
+        12725,
+        12774
+      ],
+      "notes": "Completed processing of 3 languages: mandinka,meitei,moksha. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
     }
   ]
 }
