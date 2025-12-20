@@ -3849,7 +3849,6 @@
         11179
       ],
       "notes": "Reserved i range: 11130-11179\nISO->base mapping:\n- gan->11130\n- gangwon-dialect->11131\n- gaulish->11132\n- gauwa->11133\n- gawar-language->11134\n- gaya-korean->11135\n- gbm->11136\n- gdo->11137\n- geji->11138\n- gejia->11139\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-batch7-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:11130-11139\n\nNO_UNIQ_BASE cleared for all batch ISOs."
-    }
     },
     {
       "workerId": 1,
@@ -3890,14 +3889,38 @@
         "gaanda-language",
         "gadang-language"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T05:00:00.000Z",
-      "updatedAt": "2025-12-20T05:00:00.000Z",
+      "updatedAt": "2025-12-20T05:15:00.000Z",
       "reservedRange": [
         11230,
         11279
       ],
-      "notes": "Reserved i range: 11230-11279\nISO->base mapping (fill in):\n- fore->11230\n- forest-enets->11231\n- fos->11232\n- fula->11233\n- furu->11234\n- fuyug->11235\n- fyer-language->11236\n- g-llivare->11237\n- gaanda-language->11238\n- gadang-language->11239"
+      "notes": "Reserved i range: 11230-11279\nISO->base mapping:\n- fore->11230\n- forest-enets->11231\n- fos->11232\n- fula->11233\n- furu->11234\n- fuyug->11235\n- fyer-language->11236\n- g-llivare->11237\n- gaanda-language->11238\n- gadang-language->11239\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-batch9-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:11230-11239\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T05:20:00.000Z-worker1",
+      "isos": [
+        "gagauz",
+        "galambu-language",
+        "geme",
+        "gende",
+        "gendza",
+        "gengele-creole",
+        "gera-language",
+        "geruma-language",
+        "ggg",
+        "ghadames"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T05:20:00.000Z",
+      "updatedAt": "2025-12-20T05:20:00.000Z",
+      "reservedRange": [
+        11280,
+        11329
+      ],
+      "notes": "Reserved i range: 11280-11329\nISO->base mapping:\n- gagauz->11280\n- galambu-language->11281\n- geme->11282\n- gende->11283\n- gendza->11284\n- gengele-creole->11285\n- gera-language->11286\n- geruma-language->11287\n- ggg->11288\n- ghadames->11289"
     }
   ]
 }
