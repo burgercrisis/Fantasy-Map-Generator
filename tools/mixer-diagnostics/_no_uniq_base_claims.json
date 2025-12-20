@@ -4004,14 +4004,14 @@
         "ghr",
         "gidar-language"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T05:19:43.349Z",
-      "updatedAt": "2025-12-20T05:19:57.617Z",
+      "updatedAt": "2025-12-20T05:32:46.605Z",
       "reservedRange": [
         11480,
         11529
       ],
-      "notes": "Reserved i range: 11480-11529\nISO->base mapping (fill in):\n- ghe->11480\n- ghh->11481\n- ghomara->11482\n- ghr->11483\n- gidar-language->11484\n\nReserved i range: 11480-11484 (only using 5 indices for 5 ISOs)"
+      "notes": "Reserved i range: 11480-11529\nISO->base mapping (fill in):\n- ghe->11480\n- ghh->11481\n- ghomara->11482\n- ghr->11483\n- gidar-language->11484\n\nReserved i range: 11480-11484 (only using 5 indices for 5 ISOs)\n\nISO->base mapping applied:\n- ghe->11480\n- ghh->11481\n- ghomara->11482\n- ghr->11483\n- gidar-language->11484\n\nVerification completed:\n- pnpm run mixer:guardrails => OK\n- pnpm run mixer:check-deltas => OK\n- seed-uniqueness --only-failures --only-isos=ghe,ghh,ghomara,ghr,gidar-language => 0 failures\n- coverage OK\n- failures OK\n- base-clusters --min-size=2 => no collisions for my batch"
     }
   ]
 }
