@@ -23,6 +23,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 ## ✅ Completed items (consolidated)
 
+- ✅ **2025-12-20 (NO_UNIQ_BASE / worker-cascade):** Resolved dedicated base pin conflicts for `khorchin-mongol` (base 12153 -> 12168) and `tongren-bonan` (base 7778 -> 7785). Added dedicated base defs in `modules/namebases-real.js` and created delta `tools/mixer-deltas/2025-12-20-fix-tongren-bonan-pin.json`. Verified via `pnpm run mixer:apply-deltas` + `pnpm run mixer:check-deltas` OK; seed-uniqueness OK; coverage/failures/base-clusters OK.
+
 - For each **non-family** mixer language, we are working toward having at least one **globally unique base index** and ensuring that dedicated base contains ISO-unique seed tokens.
 
 - **2025-12-17 (ops):** Retired / signed off all current agents by force-closing any remaining active coordination claims. Updated `tools/mixer-diagnostics/_no_uniq_base_claims.json` to mark the last two `in_progress` claims (`2025-12-17T09:56:33.455Z-worker2`, `2025-12-17T09:59:32.262Z-worker1`) as `stalled` with a `SESSION RETIRED` handoff note.

@@ -2,6 +2,18 @@
   "version": 1,
   "claims": [
     {
+      "workerId": "cascade",
+      "batchId": "2025-12-20T12:00:00Z-cascade",
+      "isos": [
+        "khorchin-mongol",
+        "tongren-bonan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:45:00Z",
+      "updatedAt": "2025-12-20T12:05:00Z",
+      "notes": "Resolved dedicated base pin conflicts. khorchin-mongol (12153 -> 12168) and tongren-bonan (7778 -> 7785). Verified artifacts synced and zero failures."
+    },
+    {
       "workerId": 1,
       "batchId": "2025-12-13T11:11:00Z-worker1",
       "isos": [
