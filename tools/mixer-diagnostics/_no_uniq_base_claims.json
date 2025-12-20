@@ -3913,14 +3913,62 @@
         "ggg",
         "ghadames"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-20T05:20:00.000Z",
-      "updatedAt": "2025-12-20T05:20:00.000Z",
+      "updatedAt": "2025-12-20T05:35:00.000Z",
       "reservedRange": [
         11280,
         11329
       ],
-      "notes": "Reserved i range: 11280-11329\nISO->base mapping:\n- gagauz->11280\n- galambu-language->11281\n- geme->11282\n- gende->11283\n- gendza->11284\n- gengele-creole->11285\n- gera-language->11286\n- geruma-language->11287\n- ggg->11288\n- ghadames->11289"
+      "notes": "Reserved i range: 11280-11329\nISO->base mapping:\n- gagauz->11280\n- galambu-language->11281\n- geme->11282\n- gende->11283\n- gendza->11284\n- gengele-creole->11285\n- gera-language->11286\n- geruma-language->11287\n- ggg->11288\n- ghadames->11289\n\nVerification completed:\n- pnpm run mixer:apply-deltas (OK)\n- pnpm run generate:language-mixer (OK)\n- seed-uniqueness --only-isos=<batch> => No globally-unique base index: 0; strict failures: 0; norm failures: 0\n\nArtifacts:\n- Delta pins: tools/mixer-deltas/2025-12-20-worker1-batch10-dedicatedpins.json\n- Base defs: modules/namebases-real.js i:11280-11289\n\nNO_UNIQ_BASE cleared for all batch ISOs."
+    },
+    {
+      "workerId": 1,
+      "batchId": "2025-12-20T05:40:00.000Z-worker1",
+      "isos": [
+        "gta",
+        "guanche",
+        "gude-language",
+        "gudu-language",
+        "guduf-gava-language",
+        "guinea-bissau-creole",
+        "guiyang",
+        "gujarati",
+        "gullah",
+        "gurara"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T05:40:00.000Z",
+      "updatedAt": "2025-12-20T05:40:00.000Z",
+      "reservedRange": [
+        11330,
+        11379
+      ],
+      "notes": "Reserved i range: 11330-11379\nISO->base mapping:\n- gta->11330\n- guanche->11331\n- gude-language->11332\n- gudu-language->11333\n- guduf-gava-language->11334\n- guinea-bissau-creole->11335\n- guiyang->11336\n- gujarati->11337\n- gullah->11338\n- gurara->11339"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-20T05:03:47.104Z-worker2",
+      "isos": [
+        "ha-em",
+        "haflong-hindi",
+        "hagei",
+        "hagen",
+        "hailar-dagur",
+        "haitian-creole",
+        "haj",
+        "hakka",
+        "halang-bahnaric",
+        "hamgyong-dialect"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-20T05:03:47.104Z",
+      "updatedAt": "2025-12-20T05:03:47.104Z",
+      "reservedRange": [
+        11380,
+        11429
+      ],
+      "notes": "Reserved i range: 11380-11429\nISO->base mapping (fill in):\n- ha-em->11380\n- haflong-hindi->11381\n- hagei->11382\n- hagen->11383\n- hailar-dagur->11384\n- haitian-creole->11385\n- haj->11386\n- hakka->11387\n- halang-bahnaric->11388\n- hamgyong-dialect->11389"
     }
   ]
 }

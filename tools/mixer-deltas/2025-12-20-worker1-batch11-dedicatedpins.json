@@ -1,0 +1,14 @@
+{
+  "dedicatedPins": [
+    {"iso": "gta", "baseIndex": 11330},
+    {"iso": "guanche", "baseIndex": 11331},
+    {"iso": "gude-language", "baseIndex": 11332},
+    {"iso": "gudu-language", "baseIndex": 11333},
+    {"iso": "guduf-gava-language", "baseIndex": 11334},
+    {"iso": "guinea-bissau-creole", "baseIndex": 11335},
+    {"iso": "guiyang", "baseIndex": 11336},
+    {"iso": "gujarati", "baseIndex": 11337},
+    {"iso": "gullah", "baseIndex": 11338},
+    {"iso": "gurara", "baseIndex": 11339}
+  ]
+}
