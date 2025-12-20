@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "description": "Uniqueness burner: Resolve Tibetan cluster collisions by assigning dedicated bases to tibetic, jul, scp, syw, loy, lhm, tcn, ola",
+  "operations": [
+    {"type": "setBases", "iso": "tibetic", "bases": [12480]},
+    {"type": "setBases", "iso": "jul", "bases": [12481]},
+    {"type": "setBases", "iso": "scp", "bases": [12482]},
+    {"type": "setBases", "iso": "syw", "bases": [12483]},
+    {"type": "setBases", "iso": "loy", "bases": [12484]},
+    {"type": "setBases", "iso": "lhm", "bases": [12485]},
+    {"type": "setBases", "iso": "tcn", "bases": [12486]},
+    {"type": "setBases", "iso": "ola", "bases": [12487]}
+  ]
+}

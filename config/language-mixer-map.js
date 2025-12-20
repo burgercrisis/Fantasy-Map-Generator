@@ -5020,9 +5020,7 @@
   {
     "iso": "gurindji-kriol",
     "bases": [
-      1,
-      130,
-      211
+      11633
     ]
   },
   {
@@ -10502,37 +10500,37 @@
   {
     "iso": "kolami",
     "bases": [
-      199
+      12380
     ]
   },
   {
     "iso": "koraga",
     "bases": [
-      199
+      12381
     ]
   },
   {
     "iso": "kota-dravidian",
     "bases": [
-      199
+      12382
     ]
   },
   {
     "iso": "kudiya-dravidian",
     "bases": [
-      199
+      12383
     ]
   },
   {
     "iso": "kui-dravidian",
     "bases": [
-      199
+      12384
     ]
   },
   {
     "iso": "kumbaran",
     "bases": [
-      199
+      12385
     ]
   },
   {
@@ -10759,7 +10757,7 @@
   {
     "iso": "paniya",
     "bases": [
-      199
+      12386
     ]
   },
   {
@@ -10774,7 +10772,7 @@
   {
     "iso": "pardhan",
     "bases": [
-      199
+      12387
     ]
   },
   {
@@ -10786,7 +10784,7 @@
   {
     "iso": "pathiya",
     "bases": [
-      199
+      12388
     ]
   },
   {

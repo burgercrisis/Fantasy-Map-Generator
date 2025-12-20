@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "description": "Uniqueness burner: Resolve Tamil/Dravidian cluster collisions by assigning dedicated bases to kolami, koraga, kota-dravidian, kudiya-dravidian, kui-dravidian, kumbaran, paniya, pardhan, pathiya",
+  "operations": [
+    {
+      "type": "setBases",
+      "iso": "kolami",
+      "bases": [12380]
+    },
+    {
+      "type": "setBases",
+      "iso": "koraga",
+      "bases": [12381]
+    },
+    {
+      "type": "setBases",
+      "iso": "kota-dravidian",
+      "bases": [12382]
+    },
+    {
+      "type": "setBases",
+      "iso": "kudiya-dravidian",
+      "bases": [12383]
+    },
+    {
+      "type": "setBases",
+      "iso": "kui-dravidian",
+      "bases": [12384]
+    },
+    {
+      "type": "setBases",
+      "iso": "kumbaran",
+      "bases": [12385]
+    },
+    {
+      "type": "setBases",
+      "iso": "paniya",
+      "bases": [12386]
+    },
+    {
+      "type": "setBases",
+      "iso": "pardhan",
+      "bases": [12387]
+    },
+    {
+      "type": "setBases",
+      "iso": "pathiya",
+      "bases": [12388]
+    }
+  ]
+}

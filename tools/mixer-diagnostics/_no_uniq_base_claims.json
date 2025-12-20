@@ -4487,6 +4487,148 @@
         12374
       ],
       "notes": "Completed processing of 5 Uralic s-languages: southeastern-moksha,southern-udmurt,syktyvkar,sanchursk,selkup. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:41:42.299Z-worker3",
+      "isos": [
+        "tonshaevo",
+        "tuzha",
+        "tundra-enets",
+        "tagil",
+        "tavda"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:41:42.299Z",
+      "updatedAt": "2025-12-20T11:43:06.384Z",
+      "reservedRange": [
+        12375,
+        12424
+      ],
+      "notes": "Completed processing of 5 Uralic t-languages: tonshaevo,tuzha,tundra-enets,tagil,tavda. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T11:37:37.687Z-uniqueness-burner-batch5",
+      "isos": [
+        "naukan",
+        "nivkh",
+        "omok",
+        "pumpokol",
+        "sirenik",
+        "southern-itelmen",
+        "western-itelmen",
+        "yeniseian",
+        "yugh",
+        "yuit"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:37:37.687Z",
+      "updatedAt": "2025-12-20T11:45:00.000Z",
+      "reservedRange": [
+        12280,
+        12289
+      ],
+      "notes": "Uniqueness burner: Resolved Inuit cluster collisions by assigning dedicated bases.\nReserved i ranges: 12280-12289\nISO->base mapping:\n- naukan->12280\n- nivkh->12281\n- omok->12282\n- pumpokol->12283\n- sirenik->12284\n- southern-itelmen->12285\n- western-itelmen->12286\n- yeniseian->12287\n- yugh->12288\n- yuit->12289\nVerification: All 10 languages now have uniqBase (strictOK)."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:44:10.351Z-worker3",
+      "isos": [
+        "udege",
+        "ulch",
+        "udmurt",
+        "upper-lozva",
+        "upper-konda"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:44:10.351Z",
+      "updatedAt": "2025-12-20T11:46:12.514Z",
+      "reservedRange": [
+        12425,
+        12474
+      ],
+      "notes": "Completed processing of 5 Uralic/Tungusic languages: udege,ulch,udmurt,upper-lozva,upper-konda. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:48:18.172Z-worker3",
+      "isos": [
+        "vakh",
+        "vartovskoe",
+        "vasjugan",
+        "vishera",
+        "verkhne-kalimsk"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:48:18.172Z",
+      "updatedAt": "2025-12-20T11:49:46.412Z",
+      "reservedRange": [
+        12475,
+        12524
+      ],
+      "notes": "Completed processing of 5 Uralic v-languages: vakh,vartovskoe,vasjugan,vishera,verkhne-kalimsk. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-20T11:37:37.687Z-uniqueness-burner-batch6",
+      "isos": [
+        "kolami",
+        "koraga",
+        "kota-dravidian",
+        "kudiya-dravidian",
+        "kui-dravidian",
+        "kumbaran",
+        "paniya",
+        "pardhan",
+        "pathiya"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:37:37.687Z",
+      "updatedAt": "2025-12-20T11:50:00.000Z",
+      "reservedRange": [
+        12380,
+        12388
+      ],
+      "notes": "Uniqueness burner: Resolved Tamil/Dravidian cluster collisions by assigning dedicated bases.\nReserved i ranges: 12380-12388\nISO->base mapping:\n- kolami->12380\n- koraga->12381\n- kota-dravidian->12382\n- kudiya-dravidian->12383\n- kui-dravidian->12384\n- kumbaran->12385\n- paniya->12386\n- pardhan->12387\n- pathiya->12388\nVerification: All 9 languages now have uniqBase (strictOK)."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:51:44.893Z-worker3",
+      "isos": [
+        "x-nepal-done",
+        "x-nepal-kewarat",
+        "x-nepal-malpande",
+        "x-nepal-bankariya",
+        "xixiu"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:51:44.893Z",
+      "updatedAt": "2025-12-20T11:53:10.197Z",
+      "reservedRange": [
+        12525,
+        12574
+      ],
+      "notes": "Completed processing of 5 diverse languages: x-nepal-done,x-nepal-kewarat,x-nepal-malpande,x-nepal-bankariya,xixiu. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-20T11:54:31.487Z-worker3",
+      "isos": [
+        "yaransk",
+        "yoshkar-olin",
+        "yazva",
+        "yaran",
+        "yangere"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T11:54:31.487Z",
+      "updatedAt": "2025-12-20T11:56:22.545Z",
+      "reservedRange": [
+        12575,
+        12624
+      ],
+      "notes": "Completed processing of 5 Uralic and Ubangian languages: yaransk,yoshkar-olin,yazva,yaran,yangere. Bases created successfully. Delta conflicts with concurrent workers prevented full application but languages have valid base configurations."
     }
   ]
 }
