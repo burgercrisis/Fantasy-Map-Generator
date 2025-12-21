@@ -2,10 +2,16 @@
 
 (function () {
   if (!window.Names) return;
+  const {vowel} = window.languageUtils || {};
+  const {ra} = window.probabilityUtils || {};
+  const {last} = window.arrayUtils || {};
+
+  let _languageMixerMap;
 
   function sanitizeName(name) {
     if (typeof name !== "string") return name;
     return name.replace(/\d/g, "").replace(/\|/g, "").replace(/_unq\d+\b/gi, "").replace(/_u\d+\b/gi, "").replace(/_/g, "");
+  }
   let _mixedNameTooShortLogged = false;
 
   function loadLanguageMixerMapSync() {

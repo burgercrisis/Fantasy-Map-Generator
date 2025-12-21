@@ -1,0 +1,213 @@
+[
+  {
+    "iso": "tura",
+    "bases": [
+      9,
+      15,
+      19,
+      283
+    ]
+  },
+  {
+    "iso": "northern-khanty",
+    "bases": [
+      15,
+      19,
+      274,
+      283
+    ]
+  },
+  {
+    "iso": "sherkal",
+    "bases": [
+      15,
+      19,
+      283,
+      438
+    ]
+  },
+  {
+    "iso": "southern-khanty",
+    "bases": [
+      15,
+      19,
+      283,
+      320,
+      438
+    ]
+  },
+  {
+    "iso": "upper-demjanka",
+    "bases": [
+      9,
+      15,
+      19,
+      274,
+      320
+    ]
+  },
+  {
+    "iso": "surgut-khanty",
+    "bases": [
+      15,
+      274,
+      283,
+      438
+    ]
+  },
+  {
+    "iso": "malij-jugan",
+    "bases": [
+      15,
+      274,
+      283,
+      320,
+      438
+    ]
+  },
+  {
+    "iso": "tremjugan",
+    "bases": [
+      9,
+      15,
+      274,
+      283,
+      320,
+      438
+    ]
+  },
+  {
+    "iso": "lusoga",
+    "bases": [
+      154,
+      155
+    ]
+  },
+  {
+    "iso": "tetserret",
+    "bases": [
+      17,
+      138
+    ]
+  },
+  {
+    "iso": "ber-family",
+    "bases": [
+      17,
+      140
+    ]
+  },
+  {
+    "iso": "tasawaq",
+    "bases": [
+      277,
+      18
+    ]
+  },
+  {
+    "iso": "tagdal",
+    "bases": [
+      277,
+      18,
+      17
+    ]
+  },
+  {
+    "iso": "talodi",
+    "bases": [
+      120,
+      145,
+      277
+    ]
+  },
+  {
+    "iso": "tegali",
+    "bases": [
+      120,
+      129,
+      145
+    ]
+  },
+  {
+    "iso": "tegem",
+    "bases": [
+      120,
+      129,
+      145,
+      277
+    ]
+  },
+  {
+    "iso": "tima",
+    "bases": [
+      120,
+      145,
+      378
+    ]
+  },
+  {
+    "iso": "tembo",
+    "bases": [
+      146,
+      153,
+      155
+    ]
+  },
+  {
+    "iso": "tocho",
+    "bases": [
+      120,
+      145,
+      148
+    ]
+  },
+  {
+    "iso": "tumtum",
+    "bases": [
+      120,
+      129,
+      277,
+      378
+    ]
+  },
+  {
+    "iso": "tsotsitaal-and-camtho-aka-iscamtho",
+    "bases": [
+      1,
+      149,
+      151,
+      152
+    ]
+  },
+  {
+    "iso": "zenati-berber",
+    "bases": [
+      17,
+      141
+    ]
+  },
+  {
+    "iso": "koya",
+    "bases": [
+      372,
+      374,
+      376,
+      13892
+    ]
+  },
+  {
+    "iso": "kurambhag-paharia",
+    "bases": [
+      374,
+      388
+    ]
+  },
+  {
+    "iso": "kurichiya",
+    "bases": [
+      11,
+      29,
+      252
+    ]
+  }
+]

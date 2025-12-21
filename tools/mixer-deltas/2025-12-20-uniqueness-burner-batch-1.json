@@ -1,0 +1,31 @@
+{
+  "batch": "2025-12-20-uniqueness-burner-batch-1",
+  "timestamp": "2025-12-20T12:00:00.000Z",
+  "operations": [
+    {"iso": "koho-bahnaric", "index": 13913, "action": "assign_dedicated"},
+    {"iso": "komolom", "index": 13914, "action": "assign_dedicated"},
+    {"iso": "koneraw", "index": 13915, "action": "assign_dedicated"},
+    {"iso": "konkani", "index": 13916, "action": "assign_dedicated"},
+    {"iso": "koro", "index": 13917, "action": "assign_dedicated"},
+    {"iso": "kosena", "index": 13918, "action": "assign_dedicated"},
+    {"iso": "koya", "index": 13919, "action": "assign_dedicated"},
+    {"iso": "kra", "index": 13920, "action": "assign_dedicated"},
+    {"iso": "kraasna", "index": 13921, "action": "assign_dedicated"},
+    {"iso": "kristang", "index": 13922, "action": "assign_dedicated"},
+    {"iso": "kunimaipa", "index": 13923, "action": "assign_dedicated"},
+    {"iso": "kurambhag-paharia", "index": 13924, "action": "assign_dedicated"},
+    {"iso": "kurichiya", "index": 13925, "action": "assign_dedicated"},
+    {"iso": "kuril-ainu", "index": 13926, "action": "assign_dedicated"},
+    {"iso": "kuril-dialects", "index": 13927, "action": "assign_dedicated"},
+    {"iso": "kurukh", "index": 13928, "action": "assign_dedicated"},
+    {"iso": "kurumba", "index": 13929, "action": "assign_dedicated"},
+    {"iso": "kuu-rv-ludic", "index": 13930, "action": "assign_dedicated"},
+    {"iso": "kuvi", "index": 13931, "action": "assign_dedicated"},
+    {"iso": "kva", "index": 13932, "action": "assign_dedicated"},
+    {"iso": "kvx", "index": 13933, "action": "assign_dedicated"},
+    {"iso": "kwaza", "index": 13934, "action": "assign_dedicated"},
+    {"iso": "kwinti", "index": 13935, "action": "assign_dedicated"},
+    {"iso": "kwoma-manambu-pidgin", "index": 13936, "action": "assign_dedicated"},
+    {"iso": "kxp", "index": 13937, "action": "assign_dedicated"}
+  ]
+}

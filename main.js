@@ -741,6 +741,7 @@ function addLakesInDeepDepressions() {
     while (deep && queue.length) {
       const q = queue.pop();
 
+      if (!c[q]) continue;
       for (const n of c[q]) {
         if (checked[n]) continue;
         if (h[n] >= threshold) continue;

@@ -1,0 +1,27 @@
+{
+  "description": "worker13 batch1: resolve NO_UNIQ_BASE for khun, kiong-nai, kiranti, kiribati, kituba, kiwai, kjq, kle, klon, kls",
+  "dedicatedPins": {
+    "khun": 13850,
+    "kiong-nai": 13851,
+    "kiranti": 13852,
+    "kiribati": 13853,
+    "kituba": 13854,
+    "kiwai": 13855,
+    "kjq": 13856,
+    "kle": 13857,
+    "klon": 13858,
+    "kls": 13859
+  },
+  "setBases": {
+    "khun": [251, 252, 532, 533, 13850],
+    "kiong-nai": [11, 70, 66, 13851],
+    "kiranti": [56, 13852],
+    "kiribati": [198, 249, 369, 13853],
+    "kituba": [28, 146, 153, 13854],
+    "kiwai": [197, 263, 371, 13855],
+    "kjq": [172, 192, 222, 13856],
+    "kle": [56, 49, 13857],
+    "klon": [194, 195, 366, 370, 13858],
+    "kls": [211, 288, 13859]
+  }
+}

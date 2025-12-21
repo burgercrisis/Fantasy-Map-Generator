@@ -1,0 +1,11 @@
+{
+  "description": "Worker13 batch 1 uniqueness: dedicated pin assignments for Misc+Asia candidates",
+  "dedicatedPins": {
+    "mednyj-aleut": 13861,
+    "mnw": 13862,
+    "mnw-native-speakers": 13863,
+    "lakkia-kam-sui": 13864,
+    "tai-hongjin": 13865,
+    "qabiao": 13866
+  }
+}

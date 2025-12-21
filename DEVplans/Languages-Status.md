@@ -23,6 +23,12 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 ## ✅ Completed items (consolidated)
 
+- ✅ **2025-12-21 (DECLUSTER / Uralic):** Resolved language uniqueness debt for Uralic (Udmurt, Mari) clusters.
+    - **Target Languages:** `udmurt`, `southern-udmurt`, `northern-udmurt`, `hill-mari`, `meadow-mari`, `meadow-mari-proper`, `northwestern-mari`, `eastern-mari`, `proto-mari`.
+    - **Actions:** Added 9 dedicated bases in `modules/namebases-real.js`: `Eastern Mari` (10484), `Hill Mari` (11434), `Udmurt` (12427), `Southern Udmurt` (13844), `Northern Udmurt` (13845), `Meadow Mari` (13846), `Meadow Mari Proper` (13847), `Northwestern Mari` (13848), `Proto-Mari` (13849). 
+    - **Delta:** Created `tools/mixer-deltas/2025-12-20-worker3-uralic-declustering.json` to assign these dedicated pins and bases. Resolved conflict by deleting obsolete `2025-12-15-worker58-uralic-mari-decluster.json`.
+    - **Verification:** `pnpm run mixer:apply-deltas` OK; `report-language-mixer-base-clusters.js` confirmed no remaining Uralic clusters; `check-language-mixer-map-inconsistencies.js` confirmed all 9 ISOs are correctly mapped to their dedicated bases.
+
 - ✅ **2025-12-21 (PAPUAN_INTEGRATION / worker-cascade):** Integrated a fourth batch of Papuan languages (7 total) into the Language Mixer system.
     - **Batch 4:** Damal, Dem, Dibiyaso, Guriaso, Kaki Ae, Karami, Kehu (Bases 13797–13803).
     - **Actions:** Added catalog entries in `language-mixes.json`, created 7 dedicated name bases in `modules/namebases-real.js` with ISO-unique seed tokens, and pinned them via delta `tools/mixer-deltas/2025-12-21-papuan-integration-batch-4.json`.
@@ -492,6 +498,9 @@ base defs `i:8615–8619` in `modules/namebases-real.js`. Verified: `pnpm run mi
 - ✅ **2025-12-16 NO_UNIQ_BASE2 claim closure (Cao Lan batch / worker1):** `batchId=2025-12-16T09:59:47.059Z-worker1` (`cao-lan, cao-miao, cape-verdean-creole, cappadocian-greek, car-nicobarese`) verified and set to `complete` (updatedAt=`2025-12-16T21:32:37.557Z`).
   - Delta pins: `tools/mixer-deltas/2025-12-16-worker1-mixed-cao-lan.json` (pins `cao-lan`→`5156`, `cao-miao`→`5157`, `cape-verdean-creole`→`5158`, `cappadocian-greek`→`5159`, `car-nicobarese`→`5160`)
   - Verified: `pnpm run mixer:guardrails` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness `--only-failures "--only-isos=cao-lan,cao-miao,cape-verdean-creole,cappadocian-greek,car-nicobarese" --limit=300` => Missing mapping:0; No globally-unique base index:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); `report-language-mixer-base-clusters --min-size=2` (exit 0).
+
+- ✅ **2025-12-20 NO_UNIQ_BASE2 Batch 6 (worker16 / batchId=2025-12-21-worker16-batch6-uniqueness.json):** pinned dedicated bases `13824–13843` for `agarabi`, `agaw`, `aghu`, `agu`, `ahom`, `ahr`, `aht`, `ai-cham`, `aimele`, `ainu`, `air-tamajeq-language`, `ais`, `ait-seghrouchen-berber`, `aiton`, `ajawa-language`, `akan`, `akj`, `akkadian`, `akm`, `akoye`. Verified: `pnpm run mixer:apply-deltas` OK; seed-uniqueness report for these ISOs => 0 failures (strict>=1, norm>=10).
+- ✅ **2025-12-20 Uralic Declustering (worker3 / batchId=2025-12-20-worker3-uralic-declustering.json):** pinned dedicated bases for `udmurt`, `southern-udmurt`, `northern-udmurt`, `hill-mari`, `meadow-mari`, `meadow-mari-proper`, `northwestern-mari`, `eastern-mari`, `proto-mari` (bases `12427`, `13844-13849`, `11434`, `10484`). Resolved `eastern-mari` conflict and verified `mixer:apply-deltas` success.
 
 - ✅ **2025-12-16 NO_UNIQ_BASE2 next5 micro-pass (worker1 / batchId=2025-12-16T13:30:49.323Z-worker1):** pinned dedicated bases `5406–5410` for `attapady-kurumba`, `australian-kriol`, `auye`, `ava`, `avokaya` (delta: `tools/mixer-deltas/2025-12-16-worker1-mixed-attapady-kurumba.json`; base defs: `modules/namebases-creole.js` `i:5406–5410`). Verified via `/no-unique-base2` commands: `pnpm run mixer:apply-deltas` OK; `pnpm run mixer:check-deltas` OK; seed-uniqueness (only-failures, only-isos=batch) => Missing mapping:0; No uniq base:0; strictFail:0; normFail:0; `check-language-mixer-coverage` (0 missing); `check-language-mixer-failures` (0 failing); base-clusters (exit 0). Claim marked `complete` in `tools/mixer-diagnostics/_no_uniq_base_claims.json`.
 

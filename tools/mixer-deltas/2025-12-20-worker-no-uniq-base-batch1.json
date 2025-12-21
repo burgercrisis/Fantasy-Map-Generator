@@ -1,0 +1,133 @@
+{
+  "date": "2025-12-20",
+  "worker": "Gemini-3-Flash-Preview",
+  "task": "Resolve NO_UNIQ_BASE for 25 ISOs",
+  "indices": "13938-13962",
+  "changes": [
+    {
+      "iso": "tura",
+      "index": 13938,
+      "name": "Tura (dedicated)"
+    },
+    {
+      "iso": "northern-khanty",
+      "index": 13939,
+      "name": "Northern Khanty (dedicated)"
+    },
+    {
+      "iso": "sherkal",
+      "index": 13940,
+      "name": "Sherkal (dedicated)"
+    },
+    {
+      "iso": "southern-khanty",
+      "index": 13941,
+      "name": "Southern Khanty (dedicated)"
+    },
+    {
+      "iso": "upper-demjanka",
+      "index": 13942,
+      "name": "Upper Demjanka (dedicated)"
+    },
+    {
+      "iso": "surgut-khanty",
+      "index": 13943,
+      "name": "Surgut Khanty (dedicated)"
+    },
+    {
+      "iso": "malij-jugan",
+      "index": 13944,
+      "name": "Malij Jugan (dedicated)"
+    },
+    {
+      "iso": "tremjugan",
+      "index": 13945,
+      "name": "Tremjugan (dedicated)"
+    },
+    {
+      "iso": "lusoga",
+      "index": 13946,
+      "name": "Lusoga (dedicated)"
+    },
+    {
+      "iso": "tetserret",
+      "index": 13947,
+      "name": "Tetserret (dedicated)"
+    },
+    {
+      "iso": "ber-family",
+      "index": 13948,
+      "name": "Ber Family (dedicated)"
+    },
+    {
+      "iso": "tasawaq",
+      "index": 13949,
+      "name": "Tasawaq (dedicated)"
+    },
+    {
+      "iso": "tagdal",
+      "index": 13950,
+      "name": "Tagdal (dedicated)"
+    },
+    {
+      "iso": "talodi",
+      "index": 13951,
+      "name": "Talodi (dedicated)"
+    },
+    {
+      "iso": "tegali",
+      "index": 13952,
+      "name": "Tegali (dedicated)"
+    },
+    {
+      "iso": "tegem",
+      "index": 13953,
+      "name": "Tegem (dedicated)"
+    },
+    {
+      "iso": "tima",
+      "index": 13954,
+      "name": "Tima (dedicated)"
+    },
+    {
+      "iso": "tembo",
+      "index": 13955,
+      "name": "Tembo (dedicated)"
+    },
+    {
+      "iso": "tocho",
+      "index": 13956,
+      "name": "Tocho (dedicated)"
+    },
+    {
+      "iso": "tumtum",
+      "index": 13957,
+      "name": "Tumtum (dedicated)"
+    },
+    {
+      "iso": "tsotsitaal-and-camtho-aka-iscamtho",
+      "index": 13958,
+      "name": "Tsotsitaal And Camtho Aka Iscamtho (dedicated)"
+    },
+    {
+      "iso": "zenati-berber",
+      "index": 13959,
+      "name": "Zenati Berber (dedicated)"
+    },
+    {
+      "iso": "koya",
+      "index": 13960,
+      "name": "Koya (dedicated)"
+    },
+    {
+      "iso": "kurambhag-paharia",
+      "index": 13961,
+      "name": "Kurambhag Paharia (dedicated)"
+    },
+    {
+      "iso": "kurichiya",
+      "index": 13962,
+      "name": "Kurichiya (dedicated)"
+    }
+  ]
+}

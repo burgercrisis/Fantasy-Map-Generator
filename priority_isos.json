@@ -1,0 +1,152 @@
+[
+  {
+    "iso": "aku",
+    "name": "Aku",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "akv",
+    "name": "Akhvakh",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "ala-satakunta",
+    "name": "Ala-Satakunta",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "alak-bahnaric",
+    "name": "Alak",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "alar-tunka-buryat",
+    "name": "Alar-Tunka Buryat",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "alasha",
+    "name": "Alasha Mongol",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "ale",
+    "name": "Aleut",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "aleppine-arabic",
+    "name": "Aleppine Arabic",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "algerian-arabic",
+    "name": "Algerian Arabic",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "algerian-saharan-arabic",
+    "name": "Algerian Saharan Arabic",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "altai",
+    "name": "Altai",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "altai-uriankhai",
+    "name": "Altai Uriankhai",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "alu",
+    "name": "ꞌAreꞌare",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "aluku",
+    "name": "Aluku",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "alyutor",
+    "name": "Alyutor",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amdo-tibetan",
+    "name": "Amdo Tibetan",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "american-finnish",
+    "name": "American Finnish",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amf",
+    "name": "Hamer",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amh",
+    "name": "Amh",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amharic",
+    "name": "Amharic",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amharic-argobba",
+    "name": "Amharic-Argobba",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "ammonite",
+    "name": "Ammonite",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amorite",
+    "name": "Amorite",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amur-dagur",
+    "name": "Amur Dagur",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  },
+  {
+    "iso": "amuzgo",
+    "name": "Amuzgo",
+    "status": "map | uniqBase | strict<1 | norm<10",
+    "priority": 3
+  }
+]
