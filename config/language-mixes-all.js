@@ -21954,6 +21954,14 @@
     "family": "Southeast Papuan"
   },
   {
+    "name": "Damal",
+    "iso": "uhn",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans-New Guinea",
+    "wikipedia": "https://en.wikipedia.org/wiki/Damal_language"
+  },
+  {
     "name": "Dani",
     "iso": "dani",
     "region": "Pacific",
@@ -21968,11 +21976,27 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Dem",
+    "iso": "dem",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Trans-New Guinea",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dem_language"
+  },
+  {
     "name": "Densar",
     "iso": "densar",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Bayono–Awbono"
+  },
+  {
+    "name": "Dibiyaso",
+    "iso": "dby",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Bosavi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dibiyaso_language"
   },
   {
     "name": "Dima",
@@ -22374,6 +22398,14 @@
     ]
   },
   {
+    "name": "Guriaso",
+    "iso": "grx",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Kwomtari",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guriaso_language"
+  },
+  {
     "name": "Hagen",
     "iso": "hagen",
     "region": "Pacific",
@@ -22590,6 +22622,14 @@
     ]
   },
   {
+    "name": "Kaki Ae",
+    "iso": "tbd",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Eleman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaki_Ae_language"
+  },
+  {
     "name": "Kalamian",
     "iso": "kalamian",
     "region": "Pacific",
@@ -22691,6 +22731,17 @@
     "family": "Kwerbic"
   },
   {
+    "name": "Karami",
+    "iso": "xar",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Lengu",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karami_language",
+    "tags": [
+      "extinct"
+    ]
+  },
+  {
     "name": "Karas",
     "iso": "karas",
     "region": "Pacific",
@@ -22749,6 +22800,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Kainantu–Goroka"
+  },
+  {
+    "name": "Kehu",
+    "iso": "khh",
+    "region": "Pacific",
+    "category": "Papuan",
+    "family": "Language Isolate",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kehu_language"
   },
   {
     "name": "Kei-Tanimbar",

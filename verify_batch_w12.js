@@ -2,7 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 const mapPath = path.join(__dirname, 'config', 'language-mixer-map.json');
-const map = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
+const mapData = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
+const map = {};
+for (const entry of mapData) {
+  map[entry.iso] = entry.bases;
+}
 
 const worker12Isos = [
   "admiralty",

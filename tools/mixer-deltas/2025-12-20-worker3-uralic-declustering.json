@@ -1,0 +1,21 @@
+{
+  "dedicatedPins": {
+    "southern-udmurt": 13844,
+    "northern-udmurt": 13845,
+    "meadow-mari": 13846,
+    "meadow-mari-proper": 13847,
+    "northwestern-mari": 13848,
+    "proto-mari": 13849
+  },
+  "setBases": {
+    "udmurt": [12427],
+    "southern-udmurt": [13844],
+    "northern-udmurt": [13845],
+    "hill-mari": [11434],
+    "meadow-mari": [13846],
+    "meadow-mari-proper": [13847],
+    "northwestern-mari": [13848],
+    "eastern-mari": [10484],
+    "proto-mari": [13849]
+  }
+}

@@ -136,10 +136,10 @@
         "awyu-dumut",
         "bade-languages"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-21T03:30:00Z",
-      "updatedAt": "2025-12-21T03:30:00Z",
-      "notes": "Claimed worker 12 batch: admiralty, afroasiatic-family, alor-pantar, angas-languages, anim-languages, aru, aslians, awin-pa, awyu-dumut, bade-languages. Reserved bases 13720-13729."
+      "updatedAt": "2025-12-21T03:45:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 12 batch (admiralty to bade-languages) using dedicated bases 13720-13729. Verified uniqueness in language-mixer-map.json."
     },
     {
       "workerId": "cascade",

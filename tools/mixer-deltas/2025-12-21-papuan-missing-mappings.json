@@ -1,0 +1,24 @@
+{
+  "setBases": {
+    "uhn": [13797],
+    "dem": [13798],
+    "dby": [13799],
+    "grx": [13800],
+    "tbd": [13801],
+    "xar": [13802],
+    "khh": [13803]
+  },
+  "dedicatedPins": {
+    "uhn": 13797,
+    "dem": 13798,
+    "dby": 13799,
+    "grx": 13800,
+    "tbd": 13801,
+    "xar": 13802,
+    "khh": 13803
+  },
+  "metadata": {
+    "description": "Restore missing mappings for Papuan languages identified in uniqueness debt audit: Damal, Dem, Dibiyaso, Guriaso, Kaki Ae, Karami, Kehu.",
+    "createdAt": "2025-12-21T10:00:00Z"
+  }
+}
