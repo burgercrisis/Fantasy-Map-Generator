@@ -2,6 +2,43 @@
   "version": 1,
   "claims": [
     {
+      "workerId": 6,
+      "batchId": "2025-12-21T01:40:00Z-worker6",
+      "isos": [
+        "kolami",
+        "koraga",
+        "kota-dravidian",
+        "kudiya-dravidian",
+        "kui-dravidian",
+        "kumbaran",
+        "paniya",
+        "pardhan",
+        "pathiya",
+        "tidikelt-language"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T01:40:00Z",
+      "updatedAt": "2025-12-21T01:50:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 6 batch using dedicated bases 13354-13363. Verified uniqueness in language-mixer-map.json."
+    },
+    {
+      "workerId": "cascade",
+      "batchId": "2025-12-20T14:30:00Z-cascade",
+      "isos": [
+        "ilocano-native-speakers",
+        "ingush",
+        "inoke-yate",
+        "insular-estonian",
+        "inuktitut-english-pidgin",
+        "inupiaq",
+        "inuvialuktun"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-20T14:30:00Z",
+      "updatedAt": "2025-12-20T14:45:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for batch 'i' (ilocano-native-speakers, ingush, inoke-yate, insular-estonian, inuktitut-english-pidgin, inupiaq, inuvialuktun) using dedicated bases 13189-13195. Verified seed uniqueness (0 failures) and race coverage (all reachable)."
+    },
+    {
       "workerId": 5,
       "batchId": "2025-12-21T01:30:00Z-worker5",
       "isos": [
@@ -654,6 +691,38 @@
         13588
       ],
       "notes": "In progress. Resolving NO_UNIQ_BASE for batch 3 (isthmus-zapotec, italian-eritrean, italo-paulista, itelmen, itza, iu-mien, izhma, jimi, joseon-early-modern-korean, joseon-middle-korean) using dedicated bases 13549-13558."
+    },
+    {
+      "workerId": 6,
+      "batchId": "2025-12-21T03:50:00.000Z-worker6",
+      "isos": [
+        "kolami",
+        "koraga",
+        "kota-dravidian",
+        "kudiya-dravidian",
+        "kui-dravidian",
+        "kumbaran",
+        "paniya",
+        "pardhan",
+        "pathiya",
+        "tidikelt-language",
+        "tuareg-berber",
+        "tuareg-languages",
+        "tuwat-language",
+        "western-berber",
+        "western-berber-languages",
+        "zenaga-language",
+        "zenati-languages"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T03:50:00.000Z",
+      "updatedAt": "2025-12-21T03:50:00.000Z",
+      "reservedRange": [
+        13589,
+        13638
+      ],
+      "notes": "Reserved i range: 13589-13638\nResolving Tamil (199) and Berber (17) clusters.\nISO->base mapping:\n- kolami->13589\n- koraga->13590\n- kota-dravidian->13591\n- kudiya-dravidian->13592\n- kui-dravidian->13593\n- kumbaran->13594\n- paniya->13595\n- pardhan->13596\n- pathiya->13597\n- tidikelt-language->13598\n- tuareg-berber->13599\n- tuareg-languages->13600\n- tuwat-language->13601\n- western-berber->13602\n- western-berber-languages->13603\n- zenaga-language->13604\n- zenati-languages->13605"
     }
+
   ]
 }

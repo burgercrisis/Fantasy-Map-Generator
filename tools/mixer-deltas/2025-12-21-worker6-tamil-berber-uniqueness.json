@@ -1,0 +1,21 @@
+{
+  "setBases": {
+    "kolami": [13589],
+    "koraga": [13590],
+    "kota-dravidian": [13591],
+    "kudiya-dravidian": [13592],
+    "kui-dravidian": [13593],
+    "kumbaran": [13594],
+    "paniya": [13595],
+    "pardhan": [13596],
+    "pathiya": [13597],
+    "tidikelt-language": [13598],
+    "tuareg-berber": [13599],
+    "tuareg-languages": [13600],
+    "tuwat-language": [13601],
+    "western-berber": [13602],
+    "western-berber-languages": [13603],
+    "zenaga-language": [13604],
+    "zenati-languages": [13605]
+  }
+}

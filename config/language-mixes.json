@@ -27818,5 +27818,45 @@
     "category": "Papuan",
     "wikipedia": "https://en.wikipedia.org/wiki/Kuot_language",
     "family": "Isolate"
+  },
+  {
+    "name": "Ambakich",
+    "iso": "aab",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ambakich_language",
+    "family": "Sepik"
+  },
+  {
+    "name": "Ap Ma",
+    "iso": "kbx",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ap_Ma_language",
+    "family": "Keram"
+  },
+  {
+    "name": "Asabano",
+    "iso": "saj",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asabano_language",
+    "family": "Isolate"
+  },
+  {
+    "name": "Bogaya",
+    "iso": "boq",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bogaya_language",
+    "family": "Isolate"
+  },
+  {
+    "name": "Burmeso",
+    "iso": "bmu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burmeso_language",
+    "family": "Isolate"
   }
 ]

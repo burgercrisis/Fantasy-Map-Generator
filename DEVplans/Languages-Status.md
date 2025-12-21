@@ -3375,15 +3375,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Source:** https://en.wikipedia.org/wiki/Papuan_languages
 - **Status tier:** **Untriaged (auto-registered)**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 4
+  - `fully wired:` 9
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 130
+  - `unmatched:` 125
   - `ambiguous:` 0
-  - `Nonunique Bases:` 132
+  - `Nonunique Bases:` 127
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 4
+  - `unique bases:` 9
   - `clustered bases:` 0
   - `clustered full items:` 0
   - `cluster size histogram:` size2=0, size3=0, size4+=0
