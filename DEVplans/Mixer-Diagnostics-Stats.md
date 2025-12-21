@@ -1,5 +1,49 @@
 # Mixer Diagnostics Stats Log
 
+## Snapshot 2025-12-20T15:24:00-08:00
+
+### Commands
+
+```
+node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --limit=1
+node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2
+pnpm run mixer:race-coverage
+```
+
+### Seed uniqueness (`--limit=1`) summary
+
+- Target ISOs: 3425
+- Missing mapping: 0
+- No globally-unique base index: 0
+- Strict unique seeds below threshold (among those with unique base): 0
+- Normalized unique seeds below threshold (among those with unique base): 0
+
+### Base-set clusters (`--min-size=2`) summary
+
+- Considered catalog languages (after filters): 3425
+- Total distinct base sets (all sizes): 3425
+- Clusters with identical base sets (size >= 2): 0
+- Total language entries participating in these clusters: 0
+
+### Race coverage (`pnpm run mixer:race-coverage`) summary
+
+- Total catalog languages (excluding family macros): 3425
+- Languages eligible for at least one race profile: 3425
+- Languages never used by any race profile: 0
+- Race-eligible languages with a valid mixer mapping: 3425
+- Race-unused languages with a valid mixer mapping: 0
+
+Delta vs 2025-12-20T13:09:00-08:00:
+
+- Target ISOs: 3425 -> 3425 (+0)
+- No globally-unique base index: 933 -> 0 (-933)
+- Strict below threshold: 1383 -> 0 (-1383)
+- Norm below threshold: 1383 -> 0 (-1383)
+- Base clusters (>=2): 1 -> 0 (-1)
+- Cluster participants: 2 -> 0 (-2)
+- Race-unused languages: 0 -> 0 (+0)
+
+
 ## Snapshot 2025-12-20T13:09:00-08:00
 
 ### Commands
