@@ -509,14 +509,14 @@
         "karas",
         "karasuk"
       ],
-      "status": "in_progress",
+      "status": "stalled",
       "startedAt": "2025-12-21T00:42:59.458Z",
-      "updatedAt": "2025-12-21T00:42:59.458Z",
+      "updatedAt": "2025-12-21T02:22:00Z",
       "reservedRange": [
         13289,
         13338
       ],
-      "notes": "Reserved i range: 13289-13338\nISO->base mapping (fill in):\n- kar->13289\n- karagas->13290\n- karakalpak->13291\n- karas->13292\n- karasuk->13293"
+      "notes": "Stalled. Superseded by batch 2025-12-21T00:55:00Z-cascade which used range 13489-13538."
     },
     {
       "workerId": 5,
@@ -630,6 +630,30 @@
         13588
       ],
       "notes": "Complete. Resolved NO_UNIQ_BASE for batch 2 (haida, hrusish, ikobi, ilocano, international-sign, ipiko, ipili, iranun, isabi, isan) using dedicated bases 13539-13548. Verified all ISOs meet seed uniqueness thresholds (strictOK/normOK)."
+    },
+    {
+      "workerId": 16,
+      "batchId": "2025-12-21T02:22:36.812Z-worker16",
+      "isos": [
+        "isthmus-zapotec",
+        "italian-eritrean",
+        "italo-paulista",
+        "itelmen",
+        "itza",
+        "iu-mien",
+        "izhma",
+        "jimi",
+        "joseon-early-modern-korean",
+        "joseon-middle-korean"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T02:22:36.812Z",
+      "updatedAt": "2025-12-21T02:22:36.812Z",
+      "reservedRange": [
+        13539,
+        13588
+      ],
+      "notes": "In progress. Resolving NO_UNIQ_BASE for batch 3 (isthmus-zapotec, italian-eritrean, italo-paulista, itelmen, itza, iu-mien, izhma, jimi, joseon-early-modern-korean, joseon-middle-korean) using dedicated bases 13549-13558."
     }
   ]
 }
