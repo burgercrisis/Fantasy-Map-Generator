@@ -27858,5 +27858,45 @@
     "category": "Papuan",
     "wikipedia": "https://en.wikipedia.org/wiki/Burmeso_language",
     "family": "Isolate"
+  },
+  {
+    "name": "Mpur",
+    "iso": "akc",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mpur_language",
+    "family": "West Papuan"
+  },
+  {
+    "name": "Maibrat",
+    "iso": "ayz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maibrat_language",
+    "family": "West Papuan"
+  },
+  {
+    "name": "Mor",
+    "iso": "mhz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mor_language_(Papuan)",
+    "family": "Trans-New Guinea"
+  },
+  {
+    "name": "Elseng",
+    "iso": "mrf",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elseng_language",
+    "family": "Isolate"
+  },
+  {
+    "name": "Kapauri",
+    "iso": "khp",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kapori_language",
+    "family": "Kwerbic"
   }
 ]

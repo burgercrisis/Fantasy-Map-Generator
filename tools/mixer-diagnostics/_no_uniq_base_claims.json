@@ -56,10 +56,30 @@
         "kambaira",
         "kamberau"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-21T02:10:00Z",
-      "updatedAt": "2025-12-21T02:10:00Z",
-      "notes": "Claimed worker 8 batch: Japanese macro, Judeo-Berber, Juk, Jirel, Kam-Tai, Kamang, Kamasa, Kamassian, Kambaira, Kamberau. Reserved bases 13374-13383."
+      "updatedAt": "2025-12-21T02:15:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 8 batch using dedicated bases 13374-13383. Verified uniqueness in language-mixer-map.json."
+    },
+    {
+      "workerId": 9,
+      "batchId": "2025-12-21T02:20:00Z-worker9",
+      "isos": [
+        "kamono",
+        "kanak",
+        "kanasi",
+        "kandawo",
+        "kangjia",
+        "kanite",
+        "kannada",
+        "kanuri",
+        "kap",
+        "kapampangan"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T02:20:00Z",
+      "updatedAt": "2025-12-21T02:20:00Z",
+      "notes": "Claimed worker 9 batch: Kamono, Kanak, Kanasi, Kandawo, Kangjia, Kanite, Kannada, Kanuri, Kap, Kapampangan. Reserved bases 13384-13393."
     },
     {
       "workerId": "cascade",
@@ -724,13 +744,13 @@
         "joseon-middle-korean"
       ],
       "status": "complete",
-    "startedAt": "2025-12-21T02:22:36.812Z",
-    "updatedAt": "2025-12-21T02:22:36.812Z",
-    "reservedRange": [
-      13539,
-      13588
-    ],
-    "notes": "Completed. Resolved NO_UNIQ_BASE for batch3 (isthmus-zapotec, italian-eritrean, italo-paulista, itelmen, itza, iu-mien, izhma, jimi, joseon-early-modern-korean, joseon-middle-korean) using dedicated bases 13549-13558."
+      "startedAt": "2025-12-21T02:22:36.812Z",
+      "updatedAt": "2025-12-21T02:22:36.812Z",
+      "reservedRange": [
+        13539,
+        13588
+      ],
+      "notes": "Completed. Resolved NO_UNIQ_BASE for batch3 (isthmus-zapotec, italian-eritrean, italo-paulista, itelmen, itza, iu-mien, izhma, jimi, joseon-early-modern-korean, joseon-middle-korean) using dedicated bases 13549-13558."
     },
     {
       "workerId": 6,
@@ -792,7 +812,7 @@
         "koryak",
         "kott"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "startedAt": "2025-12-21T04:20:00.000Z",
       "updatedAt": "2025-12-21T04:20:00.000Z",
       "reservedRange": [
@@ -800,6 +820,60 @@
         13688
       ],
       "notes": "Reserved i range: 13639-13688\nResolving Tagalog/Indonesian (193/194), Georgian (223), and Inuit (19) clusters.\nISO->base mapping:\n- northern-formosan->13639\n- northern-luzon->13640\n- northern-mindoro->13641\n- philippine->13642\n- south-mindanao->13643\n- tsouic->13644\n- greater-central-philippine->13645\n- batanic->13646\n- central-luzon->13647\n- georgian-dialects->13648\n- old-georgian->13649\n- proto-georgian-zan->13650\n- proto-kartvelian->13651\n- zan->13652\n- judaeo-georgian->13653\n- karto-zan->13654\n- kartvelian-languages->13655\n- proto-samoyedic->13656\n- itelmen->13657\n- kamchatkan->13658\n- kerek->13659\n- ket->13660\n- koryak->13661\n- kott->13662"
+    },
+    {
+      "workerId": 6,
+      "batchId": "2025-12-21T02:43:53.836Z-worker6",
+      "isos": [
+        "loyalties-new-caledonia",
+        "north-vanuatu",
+        "south-vanuatu",
+        "southeast-solomonic",
+        "southern-oceanic",
+        "st-matthias",
+        "temotu",
+        "vanuatu",
+        "western-oceanic",
+        "tai-meuay",
+        "proto-kra",
+        "nadou",
+        "mulao-kra",
+        "shn",
+        "tani",
+        "mrg"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T02:43:53.836Z",
+      "updatedAt": "2025-12-21T02:43:53.836Z",
+      "reservedRange": [
+        13689,
+        13738
+      ],
+      "notes": "Reserved i range: 13689-13738\nISO->base mapping (fill in):\n- loyalties-new-caledonia->13689\n- north-vanuatu->13690\n- south-vanuatu->13691\n- southeast-solomonic->13692\n- southern-oceanic->13693\n- st-matthias->13694\n- temotu->13695\n- vanuatu->13696\n- western-oceanic->13697\n- tai-meuay->13698\n- proto-kra->13699\n- nadou->13700\n- mulao-kra->13701\n- shn->13702\n- tani->13703\n- mrg->13704"
+    },
+    {
+      "workerId": 16,
+      "batchId": "2025-12-21T02:43:59.879Z-worker16",
+      "isos": [
+        "adeni-arabic",
+        "agarabi",
+        "agaw",
+        "aghu",
+        "agu",
+        "ahom",
+        "ahr",
+        "aht",
+        "ai-cham",
+        "aimele"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T02:43:59.879Z",
+      "updatedAt": "2025-12-21T02:43:59.879Z",
+      "reservedRange": [
+        13739,
+        13788
+      ],
+      "notes": "Reserved i range: 13739-13788\nISO->base mapping (fill in):\n- adeni-arabic->13739\n- agarabi->13740\n- agaw->13741\n- aghu->13742\n- agu->13743\n- ahom->13744\n- ahr->13745\n- aht->13746\n- ai-cham->13747\n- aimele->13748"
     }
   ]
 }
