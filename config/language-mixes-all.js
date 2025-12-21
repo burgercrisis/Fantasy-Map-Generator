@@ -22074,6 +22074,14 @@
     "family": "Paniai Lakes"
   },
   {
+    "name": "Elseng",
+    "iso": "mrf",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elseng_language",
+    "family": "Isolate"
+  },
+  {
     "name": "Enga",
     "iso": "enga",
     "region": "Pacific",
@@ -22675,6 +22683,14 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Kapauri",
+    "iso": "khp",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kapori_language",
+    "family": "Kwerbic"
+  },
+  {
     "name": "Karas",
     "iso": "karas",
     "region": "Pacific",
@@ -23085,6 +23101,14 @@
     "family": "Formosan"
   },
   {
+    "name": "Maibrat",
+    "iso": "ayz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maibrat_language",
+    "family": "West Papuan"
+  },
+  {
     "name": "Mailu",
     "iso": "mailu",
     "region": "Pacific",
@@ -23334,6 +23358,14 @@
     "family": "Paniai Lakes"
   },
   {
+    "name": "Mor",
+    "iso": "mhz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mor_language_(Papuan)",
+    "family": "Trans-New Guinea"
+  },
+  {
     "name": "Moraori",
     "iso": "moraori",
     "region": "Pacific",
@@ -23375,6 +23407,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Southeast Papuan"
+  },
+  {
+    "name": "Mpur",
+    "iso": "akc",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mpur_language",
+    "family": "West Papuan"
   },
   {
     "name": "Mubami",

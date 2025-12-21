@@ -1,0 +1,24 @@
+{
+  "setBases": {
+    "loyalties-new-caledonia": [13689],
+    "north-vanuatu": [13690],
+    "south-vanuatu": [13691],
+    "southeast-solomonic": [13692],
+    "southern-oceanic": [13693],
+    "st-matthias": [13694],
+    "temotu": [13695],
+    "vanuatu": [13696],
+    "western-oceanic": [13697]
+  },
+  "dedicatedPins": {
+    "loyalties-new-caledonia": 13689,
+    "north-vanuatu": 13690,
+    "south-vanuatu": 13691,
+    "southeast-solomonic": 13692,
+    "southern-oceanic": 13693,
+    "st-matthias": 13694,
+    "temotu": 13695,
+    "vanuatu": 13696,
+    "western-oceanic": 13697
+  }
+}

@@ -76,10 +76,30 @@
         "kap",
         "kapampangan"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-21T02:20:00Z",
-      "updatedAt": "2025-12-21T02:20:00Z",
-      "notes": "Claimed worker 9 batch: Kamono, Kanak, Kanasi, Kandawo, Kangjia, Kanite, Kannada, Kanuri, Kap, Kapampangan. Reserved bases 13384-13393."
+      "updatedAt": "2025-12-21T02:30:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 9 batch using dedicated bases 13668-13677. Verified uniqueness in language-mixer-map.json."
+    },
+    {
+      "workerId": 10,
+      "batchId": "2025-12-21T02:40:00Z-worker10",
+      "isos": [
+        "karbi",
+        "karelian",
+        "karelian-proper",
+        "karenic",
+        "kashinawa",
+        "kashmiri",
+        "kathu",
+        "kbh",
+        "kbu",
+        "kdq"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T02:40:00Z",
+      "updatedAt": "2025-12-21T02:50:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 10 batch using dedicated bases 13678-13687. Verified uniqueness in language-mixer-map.json."
     },
     {
       "workerId": "cascade",
