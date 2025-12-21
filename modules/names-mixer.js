@@ -1217,22 +1217,23 @@
       return [];
     }
 
-    const base0 = nameBases && nameBases[baseIndices[0]];
-    if (!base0) {
-      ERROR && console.error("Names.getMixedBaseMany: base config not found for", baseIndices[0]);
+    const availableIndices = baseIndices.filter(idx => nameBases && nameBases[idx]);
+    if (!availableIndices.length) {
+      ERROR && console.error("Names.getMixedBaseMany: none of the provided base indices exist", baseIndices);
       return [];
     }
 
+    const base0 = nameBases[availableIndices[0]];
     const count = Math.max(1, Math.min(+((options && options.count) || 40), 200));
     const weights = options && options.weights;
     const useLegacy = options && options.legacyChain;
 
     if (!useLegacy && shouldUseV19Mixer()) {
-      return getMixedBaseManyV19(baseIndices, options);
+      return getMixedBaseManyV19(availableIndices, options);
     }
 
     if (useLegacy) {
-      const chain = calculateMixedChain(baseIndices, weights);
+      const chain = calculateMixedChain(availableIndices, weights);
       if (!chain || chain[""] === undefined) {
         tip("Mixed namesbase is incorrect. Please verify bases", false, "error");
         ERROR && console.error("Names.getMixedBaseMany: mixed chain is incorrect");
@@ -1245,15 +1246,17 @@
       delete legacyOptions.weights;
 
       for (let i = 0; i < count; i++) {
-        const name = generateFromChain(chain, base0, legacyOptions);
-        if (name === "ERROR") break;
+        let name = generateFromChain(chain, base0, legacyOptions);
+        if (name === "ERROR") {
+          name = ra(base0.b.split(","));
+        }
         legacyNames.push(name);
       }
 
       return legacyNames;
     }
 
-    const contexts = buildBlendedContexts(baseIndices, weights);
+    const contexts = buildBlendedContexts(availableIndices, weights);
     if (!contexts.length) {
       tip("Mixed namesbase is incorrect. Please verify bases", false, "error");
       ERROR && console.error("Names.getMixedBaseMany: no valid contexts for mixed bases");

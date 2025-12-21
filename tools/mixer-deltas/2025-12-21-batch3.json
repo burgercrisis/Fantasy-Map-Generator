@@ -1,0 +1,372 @@
+{
+  "date": "2025-12-21",
+  "batch": "batch3",
+  "changes": [
+    {
+      "iso": "kuril-dialects",
+      "oldBases": [
+        275,
+        31,
+        296,
+        13914
+      ],
+      "newBases": [
+        275,
+        31,
+        296,
+        14000
+      ],
+      "assignedIndex": 14000
+    },
+    {
+      "iso": "kurukh",
+      "oldBases": [
+        375,
+        376,
+        13915
+      ],
+      "newBases": [
+        375,
+        376,
+        14001
+      ],
+      "assignedIndex": 14001
+    },
+    {
+      "iso": "kuvi",
+      "oldBases": [
+        200,
+        375,
+        13916
+      ],
+      "newBases": [
+        200,
+        375,
+        14002
+      ],
+      "assignedIndex": 14002
+    },
+    {
+      "iso": "kva",
+      "oldBases": [
+        223,
+        250,
+        13917
+      ],
+      "newBases": [
+        223,
+        250,
+        14003
+      ],
+      "assignedIndex": 14003
+    },
+    {
+      "iso": "kvx",
+      "oldBases": [
+        202,
+        204,
+        288,
+        289,
+        13918
+      ],
+      "newBases": [
+        202,
+        204,
+        288,
+        289,
+        14004
+      ],
+      "assignedIndex": 14004
+    },
+    {
+      "iso": "kwoma-manambu-pidgin",
+      "oldBases": [
+        8,
+        25,
+        13919
+      ],
+      "newBases": [
+        8,
+        25,
+        14005
+      ],
+      "assignedIndex": 14005
+    },
+    {
+      "iso": "kxu",
+      "oldBases": [
+        375,
+        13920
+      ],
+      "newBases": [
+        375,
+        14006
+      ],
+      "assignedIndex": 14006
+    },
+    {
+      "iso": "kyaka",
+      "oldBases": [
+        194,
+        263,
+        368,
+        371,
+        13921
+      ],
+      "newBases": [
+        194,
+        263,
+        368,
+        371,
+        14007
+      ],
+      "assignedIndex": 14007
+    },
+    {
+      "iso": "kyakhta-russian-chinese-pidgin",
+      "oldBases": [
+        0,
+        11,
+        30,
+        13922
+      ],
+      "newBases": [
+        0,
+        11,
+        30,
+        14008
+      ],
+      "assignedIndex": 14008
+    },
+    {
+      "iso": "kyowa-go",
+      "oldBases": [
+        11,
+        12,
+        13923
+      ],
+      "newBases": [
+        11,
+        12,
+        14009
+      ],
+      "assignedIndex": 14009
+    },
+    {
+      "iso": "kyv",
+      "oldBases": [
+        183,
+        201,
+        202,
+        257,
+        288,
+        13924
+      ],
+      "newBases": [
+        183,
+        201,
+        202,
+        257,
+        288,
+        14010
+      ],
+      "assignedIndex": 14010
+    },
+    {
+      "iso": "kyw",
+      "oldBases": [
+        183,
+        202,
+        257,
+        13925
+      ],
+      "newBases": [
+        183,
+        202,
+        257,
+        14011
+      ],
+      "assignedIndex": 14011
+    },
+    {
+      "iso": "kzi",
+      "oldBases": [
+        493,
+        494,
+        13926
+      ],
+      "newBases": [
+        493,
+        494,
+        14012
+      ],
+      "assignedIndex": 14012
+    },
+    {
+      "iso": "l-ngua-geral-paulista",
+      "oldBases": [
+        8,
+        13,
+        14,
+        173,
+        13927
+      ],
+      "newBases": [
+        8,
+        13,
+        14,
+        173,
+        14013
+      ],
+      "assignedIndex": 14013
+    },
+    {
+      "iso": "laal",
+      "oldBases": [
+        21,
+        13928
+      ],
+      "newBases": [
+        21,
+        14014
+      ],
+      "assignedIndex": 14014
+    },
+    {
+      "iso": "labrador-inuit-pidgin-french",
+      "oldBases": [
+        1,
+        19,
+        2,
+        13929
+      ],
+      "newBases": [
+        1,
+        19,
+        2,
+        14015
+      ],
+      "assignedIndex": 14015
+    },
+    {
+      "iso": "lachi",
+      "oldBases": [
+        317,
+        532,
+        13930
+      ],
+      "newBases": [
+        317,
+        532,
+        14016
+      ],
+      "assignedIndex": 14016
+    },
+    {
+      "iso": "laha",
+      "oldBases": [
+        251,
+        317,
+        13931
+      ],
+      "newBases": [
+        251,
+        317,
+        14017
+      ],
+      "assignedIndex": 14017
+    },
+    {
+      "iso": "lahu",
+      "oldBases": [
+        107,
+        108,
+        13932
+      ],
+      "newBases": [
+        107,
+        108,
+        14018
+      ],
+      "assignedIndex": 14018
+    },
+    {
+      "iso": "laiuse-romani",
+      "oldBases": [
+        9,
+        270,
+        13933
+      ],
+      "newBases": [
+        9,
+        270,
+        14019
+      ],
+      "assignedIndex": 14019
+    },
+    {
+      "iso": "lakota",
+      "oldBases": [
+        216,
+        13934
+      ],
+      "newBases": [
+        216,
+        14020
+      ],
+      "assignedIndex": 14020
+    },
+    {
+      "iso": "lampung",
+      "oldBases": [
+        477,
+        13935
+      ],
+      "newBases": [
+        477,
+        14021
+      ],
+      "assignedIndex": 14021
+    },
+    {
+      "iso": "land-dayak",
+      "oldBases": [
+        482,
+        13936
+      ],
+      "newBases": [
+        482,
+        14022
+      ],
+      "assignedIndex": 14022
+    },
+    {
+      "iso": "lanping-bai-dialect",
+      "oldBases": [
+        104,
+        64,
+        390,
+        13937
+      ],
+      "newBases": [
+        104,
+        64,
+        390,
+        14023
+      ],
+      "assignedIndex": 14023
+    },
+    {
+      "iso": "lao",
+      "oldBases": [
+        252,
+        13988
+      ],
+      "newBases": [
+        252,
+        14024
+      ],
+      "assignedIndex": 14024
+    }
+  ]
+}
