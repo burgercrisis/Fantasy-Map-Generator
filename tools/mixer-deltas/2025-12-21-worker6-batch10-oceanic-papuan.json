@@ -1,0 +1,22 @@
+{
+  "setBases": {
+    "central-vanuatu": [13789],
+    "eastern-oceanic": [13790],
+    "meso-melanesian": [13791],
+    "oceanic": [13792],
+    "binanderean": [13793],
+    "kutubuan-languages": [13794],
+    "goilalan": [13795],
+    "kolopom": [13796]
+  },
+  "dedicatedPins": {
+    "central-vanuatu": 13789,
+    "eastern-oceanic": 13790,
+    "meso-melanesian": 13791,
+    "oceanic": 13792,
+    "binanderean": 13793,
+    "kutubuan-languages": 13794,
+    "goilalan": 13795,
+    "kolopom": 13796
+  }
+}

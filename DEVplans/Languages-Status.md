@@ -23,13 +23,17 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 ## ✅ Completed items (consolidated)
 
+- ✅ **2025-12-21 (DECLUSTER / worker-cascade):** Declustered Batch 10 (Oceanic/Papuan: `central-vanuatu`, `eastern-oceanic`, `meso-melanesian`, `oceanic`, `binanderean`, `kutubuan-languages`, `goilalan`, `kolopom`). Added 8 dedicated bases (13789-13796) in `modules/namebases-real.js`. Verified via `pnpm run mixer:apply-deltas` + `report-language-mixer-base-clusters.js` OK.
+
 - ✅ **2025-12-21 (DECLUSTER / worker-cascade):** Declustered Batch 8 (Oceanic: `loyalties-new-caledonia`, `north-vanuatu`, `south-vanuatu`, `southeast-solomonic`, `southern-oceanic`, `st-matthias`, `temotu`, `vanuatu`, `western-oceanic`) and Batch 9 (Asia/Tani: `tai-meuay`, `proto-kra`, `nadou`, `mulao-kra`, `shn`, `tani`, `mrg`). Added 16 dedicated bases (13689-13704) in `modules/namebases-real.js`. Resolved duplicate index conflicts for `dura-tandrange`, `garifuna`, `gla`, `gong`, `gongduk` by renumbering to 13715-13719. Verified via `pnpm run mixer:apply-deltas` + `report-language-mixer-base-clusters.js` OK.
 
-- ✅ **2025-12-21 (PAPUAN_INTEGRATION / worker-cascade):** Integrated a second batch of 5 Papuan languages (Ambakich, Ap Ma, Asabano, Bogaya, Burmeso) into the Language Mixer system. Added catalog entries in `language-mixes.json`, created 5 dedicated name bases (13606–13610) in `modules/namebases-real.js`, and pinned them via delta `tools/mixer-deltas/2025-12-21-papuan-integration.json`. Verified: `pnpm run mixer:check-deltas` OK; seed-uniqueness report OK (all strictOK/normOK); coverage/failures OK.
-
-- ✅ **2025-12-21 (NO_UNIQ_BASE / worker-cascade):** Resolved dedicated base pins for worker 3 batch: `albanian` (13239), `alutaguse` (13240), `antillean-creole` (13241), `bhujel` (13242), `blackfoot` (13243). Added dedicated base defs in `modules/namebases-real.js` and created delta `tools/mixer-deltas/2025-12-21-worker3.json`. Verified via `pnpm run mixer:check-deltas` + `report-language-mixer-seed-uniqueness.js` OK (all strictOK/normOK). Resolved conflicting older delta for `hrusish`.
-
-- ✅ **2025-12-21 (PAPUAN_INTEGRATION / worker-cascade):** Integrated a priority batch of 5 Papuan languages (Abinomn, Abun, Anem, Bilua, Kuot) into the Language Mixer system. Added catalog entries in `language-mixes.json`, created 5 dedicated name bases (13349–13353) in `modules/namebases-real.js`, and pinned them via delta `tools/mixer-deltas/2025-12-21-papuan-integration.json`. Updated `modules/races.js` to ensure reachability for Seafarer and Aarakocra races. Verified: `pnpm run mixer:apply-deltas` OK; seed-uniqueness report OK (all strictOK/normOK); coverage/failures OK.
+- ✅ **2025-12-21 (PAPUAN_INTEGRATION / worker-cascade):** Integrated three batches of Papuan languages (15 total) into the Language Mixer system.
+    - **Batch 1:** Abinomn, Abun, Anem, Bilua, Kuot (Bases 13349–13353).
+    - **Batch 2:** Ambakich, Ap Ma, Asabano, Bogaya, Burmeso (Bases 13606–13610).
+    - **Batch 3:** Mpur, Maibrat, Mor, Elseng, Kapauri (Bases 13611–13615).
+    - **Actions:** Added catalog entries in `language-mixes.json`, created 15 dedicated name bases in `modules/namebases-real.js`, and pinned them via delta `tools/mixer-deltas/2025-12-21-papuan-integration.json`.
+    - **Reachability:** Updated `modules/races.js` to ensure reachability for Seafarer, Aarakocra, Triton, Tortle, and Deepkin races.
+    - **Verification:** `pnpm run mixer:apply-deltas` OK; seed-uniqueness report OK (all 15 languages strictOK/normOK); coverage/failures OK. Resolved duplicate index conflicts for Batch 16 renumbering.
 
 - ✅ **2025-12-21 (NO_UNIQ_BASE / worker-cascade):** Resolved dedicated base pins for worker 16 batch 3: `isthmus-zapotec` (13549), `italian-eritrean` (13550), `italo-paulista` (13551), `itelmen` (13552), `itza` (13553), `iu-mien` (13554), `izhma` (13555), `jimi` (13556), `joseon-early-modern-korean` (13557), `joseon-middle-korean` (13558). Added dedicated base defs in `modules/namebases-real.js` and updated `config/language-mixer-map.json`. Verified via `pnpm run mixer:apply-deltas` + `report-language-mixer-seed-uniqueness.js` OK (all strictOK/normOK).
 
@@ -3383,15 +3387,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Source:** https://en.wikipedia.org/wiki/Papuan_languages
 - **Status tier:** **Untriaged (auto-registered)**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 9
+  - `fully wired:` 17
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 125
+  - `unmatched:` 117
   - `ambiguous:` 0
-  - `Nonunique Bases:` 127
+  - `Nonunique Bases:` 119
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 9
+  - `unique bases:` 17
   - `clustered bases:` 0
   - `clustered full items:` 0
   - `cluster size histogram:` size2=0, size3=0, size4+=0
@@ -3443,15 +3447,15 @@ In this project, coverage for a list JSON is computed over **all** in-scope item
 - **Source:** https://en.wikipedia.org/wiki/Papuan_languages
 - **Status tier:** **Untriaged (auto-registered)**
 - **Snapshot from last run (all list items):**
-  - `fully wired:` 1
+  - `fully wired:` 2
   - `missing catalog:` 0
   - `missing map:` 0
   - `missing both:` 0
-  - `unmatched:` 26
+  - `unmatched:` 25
   - `ambiguous:` 0
-  - `Nonunique Bases:` 27
+  - `Nonunique Bases:` 26
 - **Base-set uniqueness details (full items):**
-  - `unique bases:` 1
+  - `unique bases:` 2
   - `clustered bases:` 0
   - `clustered full items:` 0
   - `cluster size histogram:` size2=0, size3=0, size4+=0
