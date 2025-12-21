@@ -200,7 +200,7 @@ window.Names = (function () {
 
     const raceName =
       pack && pack.races && pack.races[raceId] && typeof pack.races[raceId].name === "string" ? pack.races[raceId].name : "";
-    if (!raceName || raceName === "None" || raceName === "Human") return cultureBase;
+    if (!raceName || raceName === "None") return cultureBase;
 
     if (typeof ensureRaceMixerBaseIndex === "function") {
       const base = ensureRaceMixerBaseIndex(raceName);

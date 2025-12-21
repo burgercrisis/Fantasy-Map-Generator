@@ -161,7 +161,7 @@ let rulers = new Rulers();
 let customization = 0;
 
 let biomesData = Biomes.getDefault();
-let nameBases = Names.getNameBases(); // cultures-related data
+nameBases = window.nameBases; // cultures-related data
 
 let color = d3.scaleSequential(d3.interpolateSpectral); // default color scheme
 const lineGen = d3.line().curve(d3.curveBasis); // d3 line generator with default curve interpolation

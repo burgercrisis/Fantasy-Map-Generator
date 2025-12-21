@@ -146,6 +146,15 @@ window.Cultures = (function () {
       const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
       if (!catalog.length) return null;
 
+      const culture = pack.cultures && pack.cultures[cultureId];
+      if (culture && typeof getRaceLanguageIsoWeights === "function") {
+        const raceName = typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
+        if (raceName) {
+          const weights = getRaceLanguageIsoWeights(raceName);
+          if (weights) return weights;
+        }
+      }
+
       const languages = catalog.filter(l => l && l.iso && !(l.tags && l.tags.includes("family")));
       if (!languages.length) return null;
 
@@ -316,13 +325,6 @@ window.Cultures = (function () {
       return baseIndex;
     };
 
-    // Assign mixer bases to all cultures (except wildlands at index 0)
-    for (const c of cultures) {
-      if (!c || c.i === 0 || c.removed) continue;
-      const baseIndex = ensureCultureMixerBaseIndex(c.i);
-      if (typeof baseIndex === "number") c.base = baseIndex;
-    }
-
     function selectCultures(culturesNumber) {
       let defaultCultures = getDefault(culturesNumber);
       const cultures = [];
@@ -374,6 +376,13 @@ window.Cultures = (function () {
       else if (type === "Hunting") base = 0.7;
       else if (type === "Highland") base = 1.2;
       return rn(((Math.random() * byId("sizeVariety").value) / 2 + 1) * base, 1);
+    }
+
+    // Assign mixer bases to all cultures (except wildlands at index 0)
+    for (const c of (pack.cultures || [])) {
+      if (!c || c.i === 0 || c.removed) continue;
+      const baseIndex = ensureCultureMixerBaseIndex(c.i);
+      if (typeof baseIndex === "number") c.base = baseIndex;
     }
 
     TIME && console.timeEnd("generateCultures");

@@ -40,6 +40,7 @@
   }
 
   window.defaultNameBases = byIndex;
+  window.nameBases = byIndex;
   window.defaultNameBaseIds = byIndex.reduce((ids, b, i) => {
     if (b) ids.push(i);
     return ids;
