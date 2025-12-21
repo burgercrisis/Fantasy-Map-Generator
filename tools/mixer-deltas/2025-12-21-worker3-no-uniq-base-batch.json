@@ -1,0 +1,16 @@
+{
+  "dedicatedPins": {
+    "albanian": 13239,
+    "alutaguse": 13240,
+    "antillean-creole": 13241,
+    "bhujel": 13242,
+    "blackfoot": 13243
+  },
+  "setBases": {
+    "albanian": [13239],
+    "alutaguse": [13240],
+    "antillean-creole": [13241],
+    "bhujel": [13242],
+    "blackfoot": [13243]
+  }
+}

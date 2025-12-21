@@ -1,0 +1,32 @@
+{
+  "setBases": {
+    "proto-ron": [13439],
+    "proto-warji": [13440],
+    "khmu": [13441],
+    "kuy": [13442],
+    "katuic": [13443],
+    "khmuic": [13444],
+    "north-bauchi-languages": [13445],
+    "ron-languages": [13446],
+    "south-bauchi-languages": [13447],
+    "west-chadic-languages": [13448],
+    "proto-tibeto-burman": [13449],
+    "tibeto-burman": [13450],
+    "sal": [13451]
+  },
+  "dedicatedPins": {
+    "proto-ron": 13439,
+    "proto-warji": 13440,
+    "khmu": 13441,
+    "kuy": 13442,
+    "katuic": 13443,
+    "khmuic": 13444,
+    "north-bauchi-languages": 13445,
+    "ron-languages": 13446,
+    "south-bauchi-languages": 13447,
+    "west-chadic-languages": 13448,
+    "proto-tibeto-burman": 13449,
+    "tibeto-burman": 13450,
+    "sal": 13451
+  }
+}

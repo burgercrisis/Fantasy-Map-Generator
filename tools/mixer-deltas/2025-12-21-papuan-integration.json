@@ -1,0 +1,20 @@
+{
+  "dedicatedPins": {
+    "bsa": 13349,
+    "kgr": 13350,
+    "anz": 13351,
+    "blb": 13352,
+    "kto": 13353
+  },
+  "setBases": {
+    "bsa": [13349],
+    "kgr": [13350],
+    "anz": [13351],
+    "blb": [13352],
+    "kto": [13353]
+  },
+  "metadata": {
+    "description": "Dedicated pins and setBases for Papuan batch: Abinomn, Abun, Anem, Bilua, Kuot",
+    "createdAt": "2025-12-21T01:38:00Z"
+  }
+}

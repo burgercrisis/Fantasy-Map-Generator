@@ -2,6 +2,26 @@
   "version": 1,
   "claims": [
     {
+      "workerId": 5,
+      "batchId": "2025-12-21T01:30:00Z-worker5",
+      "isos": [
+        "omaio",
+        "ongota",
+        "pui",
+        "mbr",
+        "yuanmen-hlai",
+        "qau",
+        "yanomami",
+        "xsu",
+        "taman",
+        "tamangic"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T01:30:00Z",
+      "updatedAt": "2025-12-21T01:36:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 5 batch using dedicated bases 13339-13348. Verified uniqueness in language-mixer-map.json."
+    },
+    {
       "workerId": "cascade",
       "batchId": "2025-12-20T13:55:00Z-cascade",
       "isos": [
@@ -438,6 +458,178 @@
         13188
       ],
       "notes": "Reserved i range: 13139-13188\nISO->base mapping (fill in):\n- sangiric->13139\n- papuan-malay->13140\n- serui-malay->13141\n- shompen->13142\n- southern-nicobarese->13143\n- teressa-nicobarese->13144\n- makassar-branch->13145\n- selaru->13146\n- barito->13147\n- nicobarese->13148"
+    },
+    {
+      "workerId": 2,
+      "batchId": "2025-12-21T00:42:15.574Z-worker2",
+      "isos": [
+        "ilocano-native-speakers",
+        "ingush",
+        "inoke-yate",
+        "insular-estonian",
+        "inuktitut-english-pidgin",
+        "inupiaq",
+        "inuvialuktun"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T00:42:15.574Z",
+      "updatedAt": "2025-12-21T00:42:15.574Z",
+      "reservedRange": [
+        13189,
+        13238
+      ],
+      "notes": "Reserved i range: 13189-13238\nISO->base mapping (fill in):\n- ilocano-native-speakers->13189\n- ingush->13190\n- inoke-yate->13191\n- insular-estonian->13192\n- inuktitut-english-pidgin->13193\n- inupiaq->13194\n- inuvialuktun->13195"
+    },
+    {
+      "workerId": 3,
+      "batchId": "2025-12-21T00:42:32.402Z-worker3",
+      "isos": [
+        "albanian",
+        "alutaguse",
+        "antillean-creole",
+        "bhujel",
+        "blackfoot"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T00:42:32.402Z",
+      "updatedAt": "2025-12-21T01:55:00.000Z",
+      "reservedRange": [
+        13239,
+        13288
+      ],
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 3 batch (albanian, alutaguse, antillean-creole, bhujel, blackfoot) using dedicated bases 13239-13243. Verified via seed-uniqueness report (strictOK, normOK)."
+    },
+    {
+      "workerId": 4,
+      "batchId": "2025-12-21T00:42:59.458Z-worker4",
+      "isos": [
+        "kar",
+        "karagas",
+        "karakalpak",
+        "karas",
+        "karasuk"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T00:42:59.458Z",
+      "updatedAt": "2025-12-21T00:42:59.458Z",
+      "reservedRange": [
+        13289,
+        13338
+      ],
+      "notes": "Reserved i range: 13289-13338\nISO->base mapping (fill in):\n- kar->13289\n- karagas->13290\n- karakalpak->13291\n- karas->13292\n- karasuk->13293"
+    },
+    {
+      "workerId": 5,
+      "batchId": "2025-12-21T00:43:51.938Z-worker5",
+      "isos": [
+        "omaio",
+        "ongota",
+        "pui",
+        "mbr",
+        "yuanmen-hlai",
+        "qau",
+        "yanomami",
+        "xsu",
+        "taman",
+        "tamangic"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T00:43:51.938Z",
+      "updatedAt": "2025-12-21T00:43:51.938Z",
+      "reservedRange": [
+        13339,
+        13388
+      ],
+      "notes": "Reserved i range: 13339-13388\nISO->base mapping (fill in):\n- omaio->13339\n- ongota->13340\n- pui->13341\n- mbr->13342\n- yuanmen-hlai->13343\n- qau->13344\n- yanomami->13345\n- xsu->13346\n- taman->13347\n- tamangic->13348"
+    },
+    {
+      "workerId": 16,
+      "batchId": "2025-12-21T00:43:56.063Z-worker16",
+      "isos": [
+        "dura-tandrange",
+        "garifuna",
+        "gla",
+        "gong",
+        "gongduk"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T00:43:56.063Z",
+      "updatedAt": "2025-12-21T00:43:56.063Z",
+      "reservedRange": [
+        13389,
+        13438
+      ],
+      "notes": "Complete. Resolved NO_UNIQ_BASE for batch 1 (dura-tandrange, garifuna, gla, gong, gongduk) using dedicated bases 13389-13393. Verified all ISOs meet seed uniqueness thresholds (strictOK/normOK)."
+    },
+    {
+      "workerId": 6,
+      "batchId": "2025-12-21T00:44:27.585Z-worker6",
+      "isos": [
+        "proto-ron",
+        "proto-warji",
+        "khmu",
+        "kuy",
+        "katuic",
+        "khmuic",
+        "north-bauchi-languages",
+        "ron-languages",
+        "south-bauchi-languages",
+        "west-chadic-languages",
+        "proto-tibeto-burman",
+        "tibeto-burman",
+        "sal"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T00:44:27.585Z",
+      "updatedAt": "2025-12-21T00:44:27.585Z",
+      "reservedRange": [
+        13439,
+        13488
+      ],
+      "notes": "Reserved i range: 13439-13488\nResolved Chadic (132), Khmuic (179), and Tibeto-Burman (47,48) clusters.\nISO->base mapping:\n- proto-ron->13439\n- proto-warji->13440\n- khmu->13441\n- kuy->13442\n- katuic->13443\n- khmuic->13444\n- north-bauchi-languages->13445\n- ron-languages->13446\n- south-bauchi-languages->13447\n- west-chadic-languages->13448\n- proto-tibeto-burman->13449\n- tibeto-burman->13450\n- sal->13451"
+    },
+    {
+      "workerId": "cascade",
+      "batchId": "2025-12-21T00:55:00Z-cascade",
+      "isos": [
+        "karakalpak",
+        "karagas",
+        "kar",
+        "karas",
+        "karasuk"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T00:55:00Z",
+      "updatedAt": "2025-12-21T00:55:00Z",
+      "reservedRange": [
+        13489,
+        13538
+      ],
+      "notes": "Reserved i range: 13489-13538\nISO->base mapping:\n- karakalpak->13489\n- karagas->13490\n- kar->13491\n- karas->13492\n- karasuk->13493"
+    },
+    {
+      "workerId": 16,
+      "batchId": "2025-12-21T02:01:54.257Z-worker16",
+      "isos": [
+        "haida",
+        "hrusish",
+        "ikobi",
+        "ilocano",
+        "international-sign",
+        "ipiko",
+        "ipili",
+        "iranun",
+        "isabi",
+        "isan"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T02:01:54.257Z",
+      "updatedAt": "2025-12-21T03:30:00.000Z",
+      "reservedRange": [
+        13539,
+        13588
+      ],
+      "notes": "Complete. Resolved NO_UNIQ_BASE for batch 2 (haida, hrusish, ikobi, ilocano, international-sign, ipiko, ipili, iranun, isabi, isan) using dedicated bases 13539-13548. Verified all ISOs meet seed uniqueness thresholds (strictOK/normOK)."
     }
   ]
 }

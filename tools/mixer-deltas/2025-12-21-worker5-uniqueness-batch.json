@@ -1,0 +1,15 @@
+{
+  "notes": "Resolving uniqueness for batch worker 5: omaio, ongota, pui, mbr, yuanmen-hlai, qau, yanomami, xsu, taman, tamangic",
+  "dedicatedPins": {
+    "omaio": 13339,
+    "ongota": 13340,
+    "pui": 13341,
+    "mbr": 13342,
+    "yuanmen-hlai": 13343,
+    "qau": 13344,
+    "yanomami": 13345,
+    "xsu": 13346,
+    "taman": 13347,
+    "tamangic": 13348
+  }
+}

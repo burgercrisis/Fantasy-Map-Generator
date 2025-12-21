@@ -1,0 +1,12 @@
+{
+  "setBases": {
+    "gla": [22]
+  },
+  "dedicatedPins": {
+    "dura-tandrange": 13389,
+    "garifuna": 13390,
+    "gla": 13391,
+    "gong": 13392,
+    "gongduk": 13393
+  }
+}

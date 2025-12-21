@@ -21167,11 +21167,27 @@
     "family": "Kainantu–Goroka"
   },
   {
+    "name": "Abinomn",
+    "iso": "bsa",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abinomn_language",
+    "family": "Isolate"
+  },
+  {
     "name": "Abui",
     "iso": "abui",
     "region": "Pacific",
     "category": "Papuan",
     "family": "Alor–Pantar"
+  },
+  {
+    "name": "Abun",
+    "iso": "kgr",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abun_language",
+    "family": "Isolate"
   },
   {
     "name": "Adang",
@@ -21242,6 +21258,14 @@
     "category": "Austronesian",
     "family": "Formosan",
     "wikipedia": "https://en.wikipedia.org/wiki/Amis_language"
+  },
+  {
+    "name": "Anem",
+    "iso": "anz",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anem_language",
+    "family": "Isolate"
   },
   {
     "name": "Aneme Wake",
@@ -21546,6 +21570,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Goilalan"
+  },
+  {
+    "name": "Bilua",
+    "iso": "blb",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bilua_language",
+    "family": "Central Solomons"
   },
   {
     "name": "Bima",
@@ -22906,6 +22938,14 @@
     "region": "Pacific",
     "category": "Papuan",
     "family": "Goilalan"
+  },
+  {
+    "name": "Kuot",
+    "iso": "kto",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kuot_language",
+    "family": "Isolate"
   },
   {
     "name": "Kutubuan languages",
@@ -25192,6 +25232,7 @@
     "iso": "dura-tandrange",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tandrange_language",
     "family": "Sino-Tibetan"
   },
   {
@@ -25227,6 +25268,7 @@
     "iso": "gong",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gong_language",
     "family": "Sino-Tibetan"
   },
   {
@@ -25234,6 +25276,7 @@
     "iso": "gongduk",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gongduk_language",
     "family": "Sino-Tibetan"
   },
   {

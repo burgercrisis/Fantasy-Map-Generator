@@ -75,8 +75,8 @@ const raceLanguageProfiles = {
     families: ["Celtic", "Uralic", "Sami"]
   },
   Seafarer: {
-    categories: ["Creole"],
-    families: ["Portuguese-based"]
+    categories: ["Papuan", "Creole"],
+    families: ["Papuan", "Portuguese-based"]
   },
   "Dark Elf": {
     categories: ["Slavic", "Germanic", "Romance"],
@@ -308,6 +308,7 @@ const raceLanguageProfiles = {
   },
   Aarakocra: {
     categories: [
+      "Papuan",
       "Algic",
       "Uto-Aztecan",
       "Salishan",
@@ -318,6 +319,7 @@ const raceLanguageProfiles = {
       "Yuman"
     ],
     families: [
+      "Papuan",
       "Austronesian",
       "Micronesian",
       "Polynesian",
