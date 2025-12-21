@@ -871,9 +871,16 @@ function findExistingRaceMixerBaseIndex(raceName) {
   const expectedName = getRaceMixerBaseDisplayName(raceName);
   for (let i = 0; i < nameBases.length; i++) {
     const b = nameBases[i];
-    if (b && b.raceMixerFor === raceName) return i;
-    if (!b || typeof b.name !== "string") continue;
+    if (!b) continue;
+    if (b.raceMixerFor === raceName) return i;
+    if (typeof b.name !== "string") continue;
     const name = b.name.trimEnd();
+
+    // Stricter check: only match by name if it's explicitly marked as a mixer base
+    // or if it matches the generated pattern like "Elf Mix" or "Quenian (Elf)"
+    const isMixerBase = b.raceMixerFor || b.cultureMixer || b.isoWeights || (b.name && b.name.includes(" Mix"));
+    if (!isMixerBase) continue;
+
     if (name === expectedName) return i;
     if (name.endsWith(`(${raceName})`)) return i;
   }
@@ -1474,17 +1481,20 @@ function initializeRacesForExpansion(options) {
     }
 
     if (raceName && raceName !== "Human") {
-      const currentBase =
-        typeof culture.base === "number" && Array.isArray(nameBases) ? nameBases[culture.base] : null;
-      const shouldReplaceBase =
-        !currentBase ||
-        (currentBase && currentBase.raceMixerFor) ||
-        (Array.isArray(fantasyRaceBases[raceName]) && fantasyRaceBases[raceName].includes(culture.base));
-      if (shouldReplaceBase) {
-        const baseIndex = ensureRaceMixerBaseIndex(raceName);
-        if (typeof baseIndex === "number") culture.base = baseIndex;
-      }
-    }
+                const currentBase =
+                  typeof culture.base === "number" && Array.isArray(nameBases) ? nameBases[culture.base] : null;
+                
+                // Always try to get a race mixer base for non-human races
+                const baseIndex = ensureRaceMixerBaseIndex(raceName);
+                if (typeof baseIndex === "number") {
+                  culture.base = baseIndex;
+                } else if (!currentBase || (!currentBase.raceMixerFor && !currentBase.cultureMixer)) {
+                  // If mixer failed and we don't have any mixer base yet, 
+                  // we should at least try to get a culture mixer base as a fallback 
+                  // to avoid 100% real-world/classic names if possible,
+                  // although ensureRaceMixerBaseIndex already has fallbacks.
+                }
+              }
     let raceId = raceIndexByName.get(raceName);
 
     if (!raceId) {
