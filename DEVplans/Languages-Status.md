@@ -23,6 +23,8 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 ## ✅ Completed items (consolidated)
 
+- ✅ **2025-12-21 (DECLUSTER / worker-cascade):** Declustered Batch 8 (Oceanic: `loyalties-new-caledonia`, `north-vanuatu`, `south-vanuatu`, `southeast-solomonic`, `southern-oceanic`, `st-matthias`, `temotu`, `vanuatu`, `western-oceanic`) and Batch 9 (Asia/Tani: `tai-meuay`, `proto-kra`, `nadou`, `mulao-kra`, `shn`, `tani`, `mrg`). Added 16 dedicated bases (13689-13704) in `modules/namebases-real.js`. Resolved duplicate index conflicts for `dura-tandrange`, `garifuna`, `gla`, `gong`, `gongduk` by renumbering to 13715-13719. Verified via `pnpm run mixer:apply-deltas` + `report-language-mixer-base-clusters.js` OK.
+
 - ✅ **2025-12-21 (PAPUAN_INTEGRATION / worker-cascade):** Integrated a second batch of 5 Papuan languages (Ambakich, Ap Ma, Asabano, Bogaya, Burmeso) into the Language Mixer system. Added catalog entries in `language-mixes.json`, created 5 dedicated name bases (13606–13610) in `modules/namebases-real.js`, and pinned them via delta `tools/mixer-deltas/2025-12-21-papuan-integration.json`. Verified: `pnpm run mixer:check-deltas` OK; seed-uniqueness report OK (all strictOK/normOK); coverage/failures OK.
 
 - ✅ **2025-12-21 (NO_UNIQ_BASE / worker-cascade):** Resolved dedicated base pins for worker 3 batch: `albanian` (13239), `alutaguse` (13240), `antillean-creole` (13241), `bhujel` (13242), `blackfoot` (13243). Added dedicated base defs in `modules/namebases-real.js` and created delta `tools/mixer-deltas/2025-12-21-worker3.json`. Verified via `pnpm run mixer:check-deltas` + `report-language-mixer-seed-uniqueness.js` OK (all strictOK/normOK). Resolved conflicting older delta for `hrusish`.

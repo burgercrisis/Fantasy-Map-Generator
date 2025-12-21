@@ -1,40 +1,40 @@
 {
-  "utcIso": "2025-12-21T02:33:54.308Z",
+  "utcIso": "2025-12-21T02:53:48.573Z",
   "coverage": {
-    "mapTotal": 3509,
-    "catalogTotal": 3514,
+    "mapTotal": 3519,
+    "catalogTotal": 3519,
     "mapNotCatalog": 0,
-    "catalogNotMap": 5
+    "catalogNotMap": 0
   },
   "failures": {
-    "totalCatalogEntries": 3514,
-    "totalFailures": 67,
-    "missingMapping": 5,
+    "totalCatalogEntries": 3519,
+    "totalFailures": 66,
+    "missingMapping": 0,
     "emptyBases": 0,
-    "allBasesInvalid": 62,
-    "partiallyInvalid": 1372,
+    "allBasesInvalid": 66,
+    "partiallyInvalid": 1373,
     "mapOnly": 0
   },
   "seedUniqueness": {
-    "targetIsos": 3413,
-    "missingMapping": 5,
-    "noGloballyUniqueBaseIndex": 1074,
-    "strictBelowThreshold": 1407,
-    "normalizedBelowThreshold": 1407
+    "targetIsos": 3418,
+    "missingMapping": 0,
+    "noGloballyUniqueBaseIndex": 992,
+    "strictBelowThreshold": 1409,
+    "normalizedBelowThreshold": 1409
   },
   "premixNameGrades": {
-    "targetIsos": 3413,
-    "missingMapping": 5,
+    "targetIsos": 3418,
+    "missingMapping": 0,
     "allowFillers": false,
-    "a50Plus": 2277,
-    "gap40to49": 323,
-    "bUnder40": 207,
-    "cUnder30": 402,
-    "dUnder20": 133,
-    "fUnder10": 71,
+    "a50Plus": 2261,
+    "gap40to49": 319,
+    "bUnder40": 208,
+    "cUnder30": 397,
+    "dUnder20": 138,
+    "fUnder10": 95,
     "fillerUsage": {
-      "isosWithFillers": 235,
-      "totalFillerTokens": 3340,
+      "isosWithFillers": 268,
+      "totalFillerTokens": 3990,
       "byIso": [
         {
           "iso": "kar",
@@ -188,6 +188,83 @@
             "talni_unq3",
             "talni_unq4",
             "talni_unq5"
+          ]
+        },
+        {
+          "iso": "yobe",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "yobe_unq1",
+            "yobe_unq2",
+            "yobe_unq3",
+            "yobe_unq4",
+            "yobe_unq5"
+          ]
+        },
+        {
+          "iso": "yup",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "yup_unq1",
+            "yup_unq2",
+            "yup_unq3",
+            "yup_unq4",
+            "yup_unq5"
+          ]
+        },
+        {
+          "iso": "zenaga-language",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "zenaga-language_unq1",
+            "zenaga-language_unq2",
+            "zenaga-language_unq3",
+            "zenaga-language_unq4",
+            "zenaga-language_unq5"
+          ]
+        },
+        {
+          "iso": "zhire",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "zhire_unq1",
+            "zhire_unq2",
+            "zhire_unq3",
+            "zhire_unq4",
+            "zhire_unq5"
+          ]
+        },
+        {
+          "iso": "zhoa",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "zhoa_unq1",
+            "zhoa_unq2",
+            "zhoa_unq3",
+            "zhoa_unq4",
+            "zhoa_unq5"
+          ]
+        },
+        {
+          "iso": "corsican",
+          "fillerCount": 38,
+          "fillerSamples": [
+            "corsican_unq1",
+            "corsican_unq2",
+            "corsican_unq3",
+            "corsican_unq4",
+            "corsican_unq5"
+          ]
+        },
+        {
+          "iso": "mirandese",
+          "fillerCount": 38,
+          "fillerSamples": [
+            "mirandese_unq1",
+            "mirandese_unq2",
+            "mirandese_unq3",
+            "mirandese_unq4",
+            "mirandese_unq5"
           ]
         },
         {
@@ -1214,6 +1291,17 @@
           ]
         },
         {
+          "iso": "itelmen",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "itelmen_unq1",
+            "itelmen_unq2",
+            "itelmen_unq3",
+            "itelmen_unq4",
+            "itelmen_unq5"
+          ]
+        },
+        {
           "iso": "jav",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1236,6 +1324,17 @@
           ]
         },
         {
+          "iso": "judaeo-georgian",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "judaeo-georgian_unq1",
+            "judaeo-georgian_unq2",
+            "judaeo-georgian_unq3",
+            "judaeo-georgian_unq4",
+            "judaeo-georgian_unq5"
+          ]
+        },
+        {
           "iso": "kamas",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1244,6 +1343,39 @@
             "kamas_unq3",
             "kamas_unq4",
             "kamas_unq5"
+          ]
+        },
+        {
+          "iso": "kamchatkan",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kamchatkan_unq1",
+            "kamchatkan_unq2",
+            "kamchatkan_unq3",
+            "kamchatkan_unq4",
+            "kamchatkan_unq5"
+          ]
+        },
+        {
+          "iso": "kerek",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kerek_unq1",
+            "kerek_unq2",
+            "kerek_unq3",
+            "kerek_unq4",
+            "kerek_unq5"
+          ]
+        },
+        {
+          "iso": "ket",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "ket_unq1",
+            "ket_unq2",
+            "ket_unq3",
+            "ket_unq4",
+            "ket_unq5"
           ]
         },
         {
@@ -1269,6 +1401,17 @@
           ]
         },
         {
+          "iso": "koryak",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "koryak_unq1",
+            "koryak_unq2",
+            "koryak_unq3",
+            "koryak_unq4",
+            "koryak_unq5"
+          ]
+        },
+        {
           "iso": "kota-dravidian",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1277,6 +1420,17 @@
             "kota-dravidian_unq3",
             "kota-dravidian_unq4",
             "kota-dravidian_unq5"
+          ]
+        },
+        {
+          "iso": "kott",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kott_unq1",
+            "kott_unq2",
+            "kott_unq3",
+            "kott_unq4",
+            "kott_unq5"
           ]
         },
         {
@@ -1335,6 +1489,17 @@
           ]
         },
         {
+          "iso": "loyalties-new-caledonia",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "loyalties-new-caledonia_unq1",
+            "loyalties-new-caledonia_unq2",
+            "loyalties-new-caledonia_unq3",
+            "loyalties-new-caledonia_unq4",
+            "loyalties-new-caledonia_unq5"
+          ]
+        },
+        {
           "iso": "mad",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1365,6 +1530,39 @@
             "mator_unq3",
             "mator_unq4",
             "mator_unq5"
+          ]
+        },
+        {
+          "iso": "mrg",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "mrg_unq1",
+            "mrg_unq2",
+            "mrg_unq3",
+            "mrg_unq4",
+            "mrg_unq5"
+          ]
+        },
+        {
+          "iso": "mulao-kra",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "mulao-kra_unq1",
+            "mulao-kra_unq2",
+            "mulao-kra_unq3",
+            "mulao-kra_unq4",
+            "mulao-kra_unq5"
+          ]
+        },
+        {
+          "iso": "nadou",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "nadou_unq1",
+            "nadou_unq2",
+            "nadou_unq3",
+            "nadou_unq4",
+            "nadou_unq5"
           ]
         },
         {
@@ -1423,6 +1621,50 @@
           ]
         },
         {
+          "iso": "north-vanuatu",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "north-vanuatu_unq1",
+            "north-vanuatu_unq2",
+            "north-vanuatu_unq3",
+            "north-vanuatu_unq4",
+            "north-vanuatu_unq5"
+          ]
+        },
+        {
+          "iso": "northern-formosan",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "northern-formosan_unq1",
+            "northern-formosan_unq2",
+            "northern-formosan_unq3",
+            "northern-formosan_unq4",
+            "northern-formosan_unq5"
+          ]
+        },
+        {
+          "iso": "northern-luzon",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "northern-luzon_unq1",
+            "northern-luzon_unq2",
+            "northern-luzon_unq3",
+            "northern-luzon_unq4",
+            "northern-luzon_unq5"
+          ]
+        },
+        {
+          "iso": "northern-mindoro",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "northern-mindoro_unq1",
+            "northern-mindoro_unq2",
+            "northern-mindoro_unq3",
+            "northern-mindoro_unq4",
+            "northern-mindoro_unq5"
+          ]
+        },
+        {
           "iso": "novarese",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1475,6 +1717,17 @@
             "ojibwe_unq3",
             "ojibwe_unq4",
             "ojibwe_unq5"
+          ]
+        },
+        {
+          "iso": "old-georgian",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "old-georgian_unq1",
+            "old-georgian_unq2",
+            "old-georgian_unq3",
+            "old-georgian_unq4",
+            "old-georgian_unq5"
           ]
         },
         {
@@ -1610,6 +1863,17 @@
           ]
         },
         {
+          "iso": "philippine",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "philippine_unq1",
+            "philippine_unq2",
+            "philippine_unq3",
+            "philippine_unq4",
+            "philippine_unq5"
+          ]
+        },
+        {
           "iso": "piedmontese",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1640,6 +1904,50 @@
             "pitjantjatjara_unq3",
             "pitjantjatjara_unq4",
             "pitjantjatjara_unq5"
+          ]
+        },
+        {
+          "iso": "proto-georgian-zan",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "proto-georgian-zan_unq1",
+            "proto-georgian-zan_unq2",
+            "proto-georgian-zan_unq3",
+            "proto-georgian-zan_unq4",
+            "proto-georgian-zan_unq5"
+          ]
+        },
+        {
+          "iso": "proto-kartvelian",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "proto-kartvelian_unq1",
+            "proto-kartvelian_unq2",
+            "proto-kartvelian_unq3",
+            "proto-kartvelian_unq4",
+            "proto-kartvelian_unq5"
+          ]
+        },
+        {
+          "iso": "proto-kra",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "proto-kra_unq1",
+            "proto-kra_unq2",
+            "proto-kra_unq3",
+            "proto-kra_unq4",
+            "proto-kra_unq5"
+          ]
+        },
+        {
+          "iso": "proto-samoyedic",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "proto-samoyedic_unq1",
+            "proto-samoyedic_unq2",
+            "proto-samoyedic_unq3",
+            "proto-samoyedic_unq4",
+            "proto-samoyedic_unq5"
           ]
         },
         {
@@ -1896,6 +2204,17 @@
           ]
         },
         {
+          "iso": "shn",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "shn_unq1",
+            "shn_unq2",
+            "shn_unq3",
+            "shn_unq4",
+            "shn_unq5"
+          ]
+        },
+        {
           "iso": "shoksha",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1962,6 +2281,61 @@
           ]
         },
         {
+          "iso": "south-mindanao",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "south-mindanao_unq1",
+            "south-mindanao_unq2",
+            "south-mindanao_unq3",
+            "south-mindanao_unq4",
+            "south-mindanao_unq5"
+          ]
+        },
+        {
+          "iso": "south-vanuatu",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "south-vanuatu_unq1",
+            "south-vanuatu_unq2",
+            "south-vanuatu_unq3",
+            "south-vanuatu_unq4",
+            "south-vanuatu_unq5"
+          ]
+        },
+        {
+          "iso": "southeast-solomonic",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "southeast-solomonic_unq1",
+            "southeast-solomonic_unq2",
+            "southeast-solomonic_unq3",
+            "southeast-solomonic_unq4",
+            "southeast-solomonic_unq5"
+          ]
+        },
+        {
+          "iso": "southern-oceanic",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "southern-oceanic_unq1",
+            "southern-oceanic_unq2",
+            "southern-oceanic_unq3",
+            "southern-oceanic_unq4",
+            "southern-oceanic_unq5"
+          ]
+        },
+        {
+          "iso": "st-matthias",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "st-matthias_unq1",
+            "st-matthias_unq2",
+            "st-matthias_unq3",
+            "st-matthias_unq4",
+            "st-matthias_unq5"
+          ]
+        },
+        {
           "iso": "sucite",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2017,6 +2391,17 @@
           ]
         },
         {
+          "iso": "tai-meuay",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "tai-meuay_unq1",
+            "tai-meuay_unq2",
+            "tai-meuay_unq3",
+            "tai-meuay_unq4",
+            "tai-meuay_unq5"
+          ]
+        },
+        {
           "iso": "tamil",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2028,6 +2413,17 @@
           ]
         },
         {
+          "iso": "tani",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "tani_unq1",
+            "tani_unq2",
+            "tani_unq3",
+            "tani_unq4",
+            "tani_unq5"
+          ]
+        },
+        {
           "iso": "teda",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2036,6 +2432,17 @@
             "teda_unq3",
             "teda_unq4",
             "teda_unq5"
+          ]
+        },
+        {
+          "iso": "temotu",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "temotu_unq1",
+            "temotu_unq2",
+            "temotu_unq3",
+            "temotu_unq4",
+            "temotu_unq5"
           ]
         },
         {
@@ -2124,6 +2531,17 @@
             "triestine_unq3",
             "triestine_unq4",
             "triestine_unq5"
+          ]
+        },
+        {
+          "iso": "tsouic",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "tsouic_unq1",
+            "tsouic_unq2",
+            "tsouic_unq3",
+            "tsouic_unq4",
+            "tsouic_unq5"
           ]
         },
         {
@@ -2278,6 +2696,17 @@
             "vallader_unq3",
             "vallader_unq4",
             "vallader_unq5"
+          ]
+        },
+        {
+          "iso": "vanuatu",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "vanuatu_unq1",
+            "vanuatu_unq2",
+            "vanuatu_unq3",
+            "vanuatu_unq4",
+            "vanuatu_unq5"
           ]
         },
         {
@@ -2490,6 +2919,17 @@
           ]
         },
         {
+          "iso": "western-oceanic",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "western-oceanic_unq1",
+            "western-oceanic_unq2",
+            "western-oceanic_unq3",
+            "western-oceanic_unq4",
+            "western-oceanic_unq5"
+          ]
+        },
+        {
           "iso": "wik-mungkan",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2534,17 +2974,6 @@
           ]
         },
         {
-          "iso": "yobe",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "yobe_unq1",
-            "yobe_unq2",
-            "yobe_unq3",
-            "yobe_unq4",
-            "yobe_unq5"
-          ]
-        },
-        {
           "iso": "yugambeh",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2554,78 +2983,15 @@
             "yugambeh_unq4",
             "yugambeh_unq5"
           ]
-        },
-        {
-          "iso": "yup",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "yup_unq1",
-            "yup_unq2",
-            "yup_unq3",
-            "yup_unq4",
-            "yup_unq5"
-          ]
-        },
-        {
-          "iso": "zenaga-language",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "zenaga-language_unq1",
-            "zenaga-language_unq2",
-            "zenaga-language_unq3",
-            "zenaga-language_unq4",
-            "zenaga-language_unq5"
-          ]
-        },
-        {
-          "iso": "zhire",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "zhire_unq1",
-            "zhire_unq2",
-            "zhire_unq3",
-            "zhire_unq4",
-            "zhire_unq5"
-          ]
-        },
-        {
-          "iso": "zhoa",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "zhoa_unq1",
-            "zhoa_unq2",
-            "zhoa_unq3",
-            "zhoa_unq4",
-            "zhoa_unq5"
-          ]
-        },
-        {
-          "iso": "corsican",
-          "fillerCount": 10,
-          "fillerSamples": [
-            "corsican_unq1",
-            "corsican_unq2",
-            "corsican_unq3",
-            "corsican_unq4",
-            "corsican_unq5"
-          ]
-        },
-        {
-          "iso": "mirandese",
-          "fillerCount": 2,
-          "fillerSamples": [
-            "mirandese_unq1",
-            "mirandese_unq2"
-          ]
         }
       ]
     }
   },
   "baseClusters": {
-    "consideredCatalogLanguages": 3408,
-    "totalDistinctBaseSets": 3382,
-    "clustersSizeGte2": 8,
-    "entriesInClusters": 34,
-    "largestClusterSize": 9
+    "consideredCatalogLanguages": 3418,
+    "totalDistinctBaseSets": 3417,
+    "clustersSizeGte2": 1,
+    "entriesInClusters": 2,
+    "largestClusterSize": 2
   }
 }

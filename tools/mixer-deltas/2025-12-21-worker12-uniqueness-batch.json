@@ -1,0 +1,15 @@
+{
+  "notes": "Resolving uniqueness for batch worker 12: admiralty, afroasiatic-family, alor-pantar, angas-languages, anim-languages, aru, aslians, awin-pa, awyu-dumut, bade-languages. Using dedicated bases 13720-13729.",
+  "dedicatedPins": {
+    "admiralty": 13720,
+    "afroasiatic-family": 13721,
+    "alor-pantar": 13722,
+    "angas-languages": 13723,
+    "anim-languages": 13724,
+    "aru": 13725,
+    "aslians": 13726,
+    "awin-pa": 13727,
+    "awyu-dumut": 13728,
+    "bade-languages": 13729
+  }
+}

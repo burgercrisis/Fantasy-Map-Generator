@@ -116,10 +116,30 @@
         "kfy",
         "kgg"
       ],
-      "status": "in_progress",
+      "status": "complete",
       "startedAt": "2025-12-21T03:00:00Z",
-      "updatedAt": "2025-12-21T03:00:00Z",
-      "notes": "Claimed worker 11 batch: ke-yagana, kei-tanimbar, kemi, kemij-rvi, kenaboi, keuruu-evij-rvi, kewa, kfr, kfy, kgg. Reserved bases 13705-13714."
+      "updatedAt": "2025-12-21T03:15:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 11 batch using dedicated bases 13705-13714. Verified uniqueness in language-mixer-map.json."
+    },
+    {
+      "workerId": 12,
+      "batchId": "2025-12-21T03:30:00Z-worker12",
+      "isos": [
+        "admiralty",
+        "afroasiatic-family",
+        "alor-pantar",
+        "angas-languages",
+        "anim-languages",
+        "aru",
+        "aslians",
+        "awin-pa",
+        "awyu-dumut",
+        "bade-languages"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T03:30:00Z",
+      "updatedAt": "2025-12-21T03:30:00Z",
+      "notes": "Claimed worker 12 batch: admiralty, afroasiatic-family, alor-pantar, angas-languages, anim-languages, aru, aslians, awin-pa, awyu-dumut, bade-languages. Reserved bases 13720-13729."
     },
     {
       "workerId": "cascade",
@@ -882,29 +902,26 @@
         "tani",
         "mrg"
       ],
-      "status": "in_progress",
-      "startedAt": "2025-12-21T02:43:53.836Z",
-      "updatedAt": "2025-12-21T02:43:53.836Z",
-      "reservedRange": [
-        13689,
-        13738
-      ],
-      "notes": "Reserved i range: 13689-13738\nISO->base mapping (fill in):\n- loyalties-new-caledonia->13689\n- north-vanuatu->13690\n- south-vanuatu->13691\n- southeast-solomonic->13692\n- southern-oceanic->13693\n- st-matthias->13694\n- temotu->13695\n- vanuatu->13696\n- western-oceanic->13697\n- tai-meuay->13698\n- proto-kra->13699\n- nadou->13700\n- mulao-kra->13701\n- shn->13702\n- tani->13703\n- mrg->13704"
+      "status": "complete",
+    "startedAt": "2025-12-21T02:43:53.836Z",
+    "updatedAt": "2025-12-21T03:00:00.000Z",
+    "reservedRange": [13689, 13738],
+    "notes": "Reserved i range: 13689-13738. Successfully declustered 16 ISOs (Oceanic, Tai-Kadai, Tani). Resolved duplicate index conflicts for dura-tandrange, garifuna, gla, gong, gongduk by renumbering to 13715-13719."
     },
     {
       "workerId": 16,
       "batchId": "2025-12-21T02:43:59.879Z-worker16",
       "isos": [
-        "ke-yagana",
-        "kei-tanimbar",
-        "keko",
-        "kemak",
-        "keninjal",
-        "kenyah",
-        "keo-indonesia",
-        "kerinci",
-        "kernevek",
-        "kernevek-modern"
+        "khv",
+        "khw",
+        "kiautschou-pidgin-german",
+        "kichwa",
+        "kiga",
+        "kij",
+        "kikar",
+        "kikuyu",
+        "kim-mun",
+        "kimaama-kimaghama"
       ],
       "status": "in_progress",
       "startedAt": "2025-12-21T02:43:59.879Z",
@@ -913,7 +930,7 @@
         13739,
         13788
       ],
-      "notes": "Claimed worker 16 batch 4: ke-yagana, kei-tanimbar, keko, kemak, keninjal, kenyah, keo-indonesia, kerinci, kernevek, kernevek-modern. Reserved bases 13739-13748."
+      "notes": "Claimed worker 16 batch 4: khv, khw, kiautschou-pidgin-german, kichwa, kiga, kij, kikar, kikuyu, kim-mun, kimaama-kimaghama. Reserved bases 13739-13748."
     }
   ]
 }

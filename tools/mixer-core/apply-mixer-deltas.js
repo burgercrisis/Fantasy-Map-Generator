@@ -187,6 +187,7 @@ function mergeSetBases(target, incoming, sourceLabel) {
     }
 
     if (Object.hasOwn(target, iso) && JSON.stringify(target[iso]) !== JSON.stringify(bases)) {
+      console.error(`[apply-mixer-deltas] Conflict for ${iso}: existing=${JSON.stringify(target[iso])}, incoming=${JSON.stringify(bases)}`);
       throw new Error(`[apply-mixer-deltas] Conflicting setBases for ${iso} (from ${sourceLabel})`);
     }
 
