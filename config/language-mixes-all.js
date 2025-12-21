@@ -21252,6 +21252,14 @@
     ]
   },
   {
+    "name": "Ambakich",
+    "iso": "aab",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ambakich_language",
+    "family": "Sepik"
+  },
+  {
     "name": "Amis",
     "iso": "ami",
     "region": "Pacific",
@@ -21306,6 +21314,14 @@
     "family": "Angan"
   },
   {
+    "name": "Ap Ma",
+    "iso": "kbx",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ap_Ma_language",
+    "family": "Keram"
+  },
+  {
     "name": "Ari",
     "iso": "ari",
     "region": "Pacific",
@@ -21321,6 +21337,14 @@
     "tags": [
       "family"
     ]
+  },
+  {
+    "name": "Asabano",
+    "iso": "saj",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asabano_language",
+    "family": "Isolate"
   },
   {
     "name": "Asmat",
@@ -21686,6 +21710,14 @@
     "family": "Anim"
   },
   {
+    "name": "Bogaya",
+    "iso": "boq",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bogaya_language",
+    "family": "Isolate"
+  },
+  {
     "name": "Bonin English",
     "iso": "bonin-english",
     "region": "Pacific",
@@ -21744,6 +21776,14 @@
     "region": "Pacific",
     "category": "Austronesian",
     "family": "Austronesian"
+  },
+  {
+    "name": "Burmeso",
+    "iso": "bmu",
+    "region": "Pacific",
+    "category": "Papuan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burmeso_language",
+    "family": "Isolate"
   },
   {
     "name": "Burumakok",

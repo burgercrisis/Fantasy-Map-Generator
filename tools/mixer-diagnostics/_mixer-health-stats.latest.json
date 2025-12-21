@@ -1,40 +1,40 @@
 {
-  "utcIso": "2025-12-21T02:22:27.979Z",
+  "utcIso": "2025-12-21T02:33:54.308Z",
   "coverage": {
     "mapTotal": 3509,
-    "catalogTotal": 3509,
+    "catalogTotal": 3514,
     "mapNotCatalog": 0,
-    "catalogNotMap": 0
+    "catalogNotMap": 5
   },
   "failures": {
-    "totalCatalogEntries": 3509,
-    "totalFailures": 62,
-    "missingMapping": 0,
+    "totalCatalogEntries": 3514,
+    "totalFailures": 67,
+    "missingMapping": 5,
     "emptyBases": 0,
     "allBasesInvalid": 62,
     "partiallyInvalid": 1372,
     "mapOnly": 0
   },
   "seedUniqueness": {
-    "targetIsos": 3408,
-    "missingMapping": 0,
-    "noGloballyUniqueBaseIndex": 1096,
+    "targetIsos": 3413,
+    "missingMapping": 5,
+    "noGloballyUniqueBaseIndex": 1074,
     "strictBelowThreshold": 1407,
     "normalizedBelowThreshold": 1407
   },
   "premixNameGrades": {
-    "targetIsos": 3408,
-    "missingMapping": 0,
+    "targetIsos": 3413,
+    "missingMapping": 5,
     "allowFillers": false,
-    "a50Plus": 2282,
+    "a50Plus": 2277,
     "gap40to49": 323,
     "bUnder40": 207,
-    "cUnder30": 411,
-    "dUnder20": 123,
-    "fUnder10": 62,
+    "cUnder30": 402,
+    "dUnder20": 133,
+    "fUnder10": 71,
     "fillerUsage": {
-      "isosWithFillers": 221,
-      "totalFillerTokens": 2830,
+      "isosWithFillers": 235,
+      "totalFillerTokens": 3340,
       "byIso": [
         {
           "iso": "kar",
@@ -89,6 +89,105 @@
             "karasuk_unq3",
             "karasuk_unq4",
             "karasuk_unq5"
+          ]
+        },
+        {
+          "iso": "surmiran",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "surmiran_unq1",
+            "surmiran_unq2",
+            "surmiran_unq3",
+            "surmiran_unq4",
+            "surmiran_unq5"
+          ]
+        },
+        {
+          "iso": "sursilvan",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "sursilvan_unq1",
+            "sursilvan_unq2",
+            "sursilvan_unq3",
+            "sursilvan_unq4",
+            "sursilvan_unq5"
+          ]
+        },
+        {
+          "iso": "susu",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "susu_unq1",
+            "susu_unq2",
+            "susu_unq3",
+            "susu_unq4",
+            "susu_unq5"
+          ]
+        },
+        {
+          "iso": "sutsilvan",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "sutsilvan_unq1",
+            "sutsilvan_unq2",
+            "sutsilvan_unq3",
+            "sutsilvan_unq4",
+            "sutsilvan_unq5"
+          ]
+        },
+        {
+          "iso": "tabarchino",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "tabarchino_unq1",
+            "tabarchino_unq2",
+            "tabarchino_unq3",
+            "tabarchino_unq4",
+            "tabarchino_unq5"
+          ]
+        },
+        {
+          "iso": "tadaksahak",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "tadaksahak_unq1",
+            "tadaksahak_unq2",
+            "tadaksahak_unq3",
+            "tadaksahak_unq4",
+            "tadaksahak_unq5"
+          ]
+        },
+        {
+          "iso": "tagwana",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "tagwana_unq1",
+            "tagwana_unq2",
+            "tagwana_unq3",
+            "tagwana_unq4",
+            "tagwana_unq5"
+          ]
+        },
+        {
+          "iso": "talian",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "talian_unq1",
+            "talian_unq2",
+            "talian_unq3",
+            "talian_unq4",
+            "talian_unq5"
+          ]
+        },
+        {
+          "iso": "talni",
+          "fillerCount": 50,
+          "fillerSamples": [
+            "talni_unq1",
+            "talni_unq2",
+            "talni_unq3",
+            "talni_unq4",
+            "talni_unq5"
           ]
         },
         {
@@ -1148,6 +1247,39 @@
           ]
         },
         {
+          "iso": "kolami",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kolami_unq1",
+            "kolami_unq2",
+            "kolami_unq3",
+            "kolami_unq4",
+            "kolami_unq5"
+          ]
+        },
+        {
+          "iso": "koraga",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "koraga_unq1",
+            "koraga_unq2",
+            "koraga_unq3",
+            "koraga_unq4",
+            "koraga_unq5"
+          ]
+        },
+        {
+          "iso": "kota-dravidian",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kota-dravidian_unq1",
+            "kota-dravidian_unq2",
+            "kota-dravidian_unq3",
+            "kota-dravidian_unq4",
+            "kota-dravidian_unq5"
+          ]
+        },
+        {
           "iso": "kowiai",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1159,6 +1291,28 @@
           ]
         },
         {
+          "iso": "kudiya-dravidian",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kudiya-dravidian_unq1",
+            "kudiya-dravidian_unq2",
+            "kudiya-dravidian_unq3",
+            "kudiya-dravidian_unq4",
+            "kudiya-dravidian_unq5"
+          ]
+        },
+        {
+          "iso": "kui-dravidian",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kui-dravidian_unq1",
+            "kui-dravidian_unq2",
+            "kui-dravidian_unq3",
+            "kui-dravidian_unq4",
+            "kui-dravidian_unq5"
+          ]
+        },
+        {
           "iso": "kujarge",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1167,6 +1321,17 @@
             "kujarge_unq3",
             "kujarge_unq4",
             "kujarge_unq5"
+          ]
+        },
+        {
+          "iso": "kumbaran",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "kumbaran_unq1",
+            "kumbaran_unq2",
+            "kumbaran_unq3",
+            "kumbaran_unq4",
+            "kumbaran_unq5"
           ]
         },
         {
@@ -1368,6 +1533,17 @@
           ]
         },
         {
+          "iso": "paniya",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "paniya_unq1",
+            "paniya_unq2",
+            "paniya_unq3",
+            "paniya_unq4",
+            "paniya_unq5"
+          ]
+        },
+        {
           "iso": "pantesco",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1379,6 +1555,17 @@
           ]
         },
         {
+          "iso": "pardhan",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "pardhan_unq1",
+            "pardhan_unq2",
+            "pardhan_unq3",
+            "pardhan_unq4",
+            "pardhan_unq5"
+          ]
+        },
+        {
           "iso": "parmigiano",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1387,6 +1574,17 @@
             "parmigiano_unq3",
             "parmigiano_unq4",
             "parmigiano_unq5"
+          ]
+        },
+        {
+          "iso": "pathiya",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "pathiya_unq1",
+            "pathiya_unq2",
+            "pathiya_unq3",
+            "pathiya_unq4",
+            "pathiya_unq5"
           ]
         },
         {
@@ -1808,50 +2006,6 @@
           ]
         },
         {
-          "iso": "surmiran",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "surmiran_unq1",
-            "surmiran_unq2",
-            "surmiran_unq3",
-            "surmiran_unq4",
-            "surmiran_unq5"
-          ]
-        },
-        {
-          "iso": "sursilvan",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "sursilvan_unq1",
-            "sursilvan_unq2",
-            "sursilvan_unq3",
-            "sursilvan_unq4",
-            "sursilvan_unq5"
-          ]
-        },
-        {
-          "iso": "susu",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "susu_unq1",
-            "susu_unq2",
-            "susu_unq3",
-            "susu_unq4",
-            "susu_unq5"
-          ]
-        },
-        {
-          "iso": "sutsilvan",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "sutsilvan_unq1",
-            "sutsilvan_unq2",
-            "sutsilvan_unq3",
-            "sutsilvan_unq4",
-            "sutsilvan_unq5"
-          ]
-        },
-        {
           "iso": "suwu",
           "fillerCount": 12,
           "fillerSamples": [
@@ -1860,61 +2014,6 @@
             "suwu_unq3",
             "suwu_unq4",
             "suwu_unq5"
-          ]
-        },
-        {
-          "iso": "tabarchino",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "tabarchino_unq1",
-            "tabarchino_unq2",
-            "tabarchino_unq3",
-            "tabarchino_unq4",
-            "tabarchino_unq5"
-          ]
-        },
-        {
-          "iso": "tadaksahak",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "tadaksahak_unq1",
-            "tadaksahak_unq2",
-            "tadaksahak_unq3",
-            "tadaksahak_unq4",
-            "tadaksahak_unq5"
-          ]
-        },
-        {
-          "iso": "tagwana",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "tagwana_unq1",
-            "tagwana_unq2",
-            "tagwana_unq3",
-            "tagwana_unq4",
-            "tagwana_unq5"
-          ]
-        },
-        {
-          "iso": "talian",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "talian_unq1",
-            "talian_unq2",
-            "talian_unq3",
-            "talian_unq4",
-            "talian_unq5"
-          ]
-        },
-        {
-          "iso": "talni",
-          "fillerCount": 12,
-          "fillerSamples": [
-            "talni_unq1",
-            "talni_unq2",
-            "talni_unq3",
-            "talni_unq4",
-            "talni_unq5"
           ]
         },
         {
@@ -1959,6 +2058,17 @@
             "ticinese_unq3",
             "ticinese_unq4",
             "ticinese_unq5"
+          ]
+        },
+        {
+          "iso": "tidikelt-language",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "tidikelt-language_unq1",
+            "tidikelt-language_unq2",
+            "tidikelt-language_unq3",
+            "tidikelt-language_unq4",
+            "tidikelt-language_unq5"
           ]
         },
         {
@@ -2017,6 +2127,17 @@
           ]
         },
         {
+          "iso": "tuareg-berber",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "tuareg-berber_unq1",
+            "tuareg-berber_unq2",
+            "tuareg-berber_unq3",
+            "tuareg-berber_unq4",
+            "tuareg-berber_unq5"
+          ]
+        },
+        {
           "iso": "tuatschin",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2069,6 +2190,17 @@
             "tuscia_unq3",
             "tuscia_unq4",
             "tuscia_unq5"
+          ]
+        },
+        {
+          "iso": "tuwat-language",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "tuwat-language_unq1",
+            "tuwat-language_unq2",
+            "tuwat-language_unq3",
+            "tuwat-language_unq4",
+            "tuwat-language_unq5"
           ]
         },
         {
@@ -2347,6 +2479,17 @@
           ]
         },
         {
+          "iso": "western-berber",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "western-berber_unq1",
+            "western-berber_unq2",
+            "western-berber_unq3",
+            "western-berber_unq4",
+            "western-berber_unq5"
+          ]
+        },
+        {
           "iso": "wik-mungkan",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2424,6 +2567,17 @@
           ]
         },
         {
+          "iso": "zenaga-language",
+          "fillerCount": 12,
+          "fillerSamples": [
+            "zenaga-language_unq1",
+            "zenaga-language_unq2",
+            "zenaga-language_unq3",
+            "zenaga-language_unq4",
+            "zenaga-language_unq5"
+          ]
+        },
+        {
           "iso": "zhire",
           "fillerCount": 12,
           "fillerSamples": [
@@ -2469,9 +2623,9 @@
   },
   "baseClusters": {
     "consideredCatalogLanguages": 3408,
-    "totalDistinctBaseSets": 3370,
-    "clustersSizeGte2": 10,
-    "entriesInClusters": 48,
+    "totalDistinctBaseSets": 3382,
+    "clustersSizeGte2": 8,
+    "entriesInClusters": 34,
     "largestClusterSize": 9
   }
 }

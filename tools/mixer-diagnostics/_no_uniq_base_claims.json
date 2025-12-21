@@ -22,6 +22,46 @@
       "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 6 batch using dedicated bases 13354-13363. Verified uniqueness in language-mixer-map.json."
     },
     {
+      "workerId": 7,
+      "batchId": "2025-12-21T01:55:00Z-worker7",
+      "isos": [
+        "isthmus-zapotec",
+        "italian-eritrean",
+        "italo-paulista",
+        "itelmen",
+        "itza",
+        "iu-mien",
+        "izhma",
+        "joseon-early-modern-korean",
+        "joseon-middle-korean",
+        "joseon-modern-korean"
+      ],
+      "status": "complete",
+      "startedAt": "2025-12-21T01:55:00Z",
+      "updatedAt": "2025-12-21T02:00:00Z",
+      "notes": "Complete. Resolved NO_UNIQ_BASE debt for worker 7 batch using dedicated bases 13364-13373. Verified uniqueness in language-mixer-map.json."
+    },
+    {
+      "workerId": 8,
+      "batchId": "2025-12-21T02:10:00Z-worker8",
+      "isos": [
+        "jpn-lang",
+        "judeo-berber",
+        "juk-bahnaric",
+        "jul",
+        "kam-tai",
+        "kamang",
+        "kamasa",
+        "kamassian-proper",
+        "kambaira",
+        "kamberau"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T02:10:00Z",
+      "updatedAt": "2025-12-21T02:10:00Z",
+      "notes": "Claimed worker 8 batch: Japanese macro, Judeo-Berber, Juk, Jirel, Kam-Tai, Kamang, Kamasa, Kamassian, Kambaira, Kamberau. Reserved bases 13374-13383."
+    },
+    {
       "workerId": "cascade",
       "batchId": "2025-12-20T14:30:00Z-cascade",
       "isos": [
@@ -487,7 +527,7 @@
         "barito",
         "nicobarese"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "startedAt": "2025-12-20T22:43:49.681Z",
       "updatedAt": "2025-12-20T22:43:49.681Z",
       "reservedRange": [
@@ -683,14 +723,14 @@
         "joseon-early-modern-korean",
         "joseon-middle-korean"
       ],
-      "status": "in_progress",
-      "startedAt": "2025-12-21T02:22:36.812Z",
-      "updatedAt": "2025-12-21T02:22:36.812Z",
-      "reservedRange": [
-        13539,
-        13588
-      ],
-      "notes": "In progress. Resolving NO_UNIQ_BASE for batch 3 (isthmus-zapotec, italian-eritrean, italo-paulista, itelmen, itza, iu-mien, izhma, jimi, joseon-early-modern-korean, joseon-middle-korean) using dedicated bases 13549-13558."
+      "status": "complete",
+    "startedAt": "2025-12-21T02:22:36.812Z",
+    "updatedAt": "2025-12-21T02:22:36.812Z",
+    "reservedRange": [
+      13539,
+      13588
+    ],
+    "notes": "Completed. Resolved NO_UNIQ_BASE for batch3 (isthmus-zapotec, italian-eritrean, italo-paulista, itelmen, itza, iu-mien, izhma, jimi, joseon-early-modern-korean, joseon-middle-korean) using dedicated bases 13549-13558."
     },
     {
       "workerId": 6,
@@ -714,7 +754,7 @@
         "zenaga-language",
         "zenati-languages"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "startedAt": "2025-12-21T03:50:00.000Z",
       "updatedAt": "2025-12-21T03:50:00.000Z",
       "reservedRange": [
@@ -722,7 +762,44 @@
         13638
       ],
       "notes": "Reserved i range: 13589-13638\nResolving Tamil (199) and Berber (17) clusters.\nISO->base mapping:\n- kolami->13589\n- koraga->13590\n- kota-dravidian->13591\n- kudiya-dravidian->13592\n- kui-dravidian->13593\n- kumbaran->13594\n- paniya->13595\n- pardhan->13596\n- pathiya->13597\n- tidikelt-language->13598\n- tuareg-berber->13599\n- tuareg-languages->13600\n- tuwat-language->13601\n- western-berber->13602\n- western-berber-languages->13603\n- zenaga-language->13604\n- zenati-languages->13605"
+    },
+    {
+      "workerId": 6,
+      "batchId": "2025-12-21T04:20:00.000Z-worker6",
+      "isos": [
+        "northern-formosan",
+        "northern-luzon",
+        "northern-mindoro",
+        "philippine",
+        "south-mindanao",
+        "tsouic",
+        "greater-central-philippine",
+        "batanic",
+        "central-luzon",
+        "georgian-dialects",
+        "old-georgian",
+        "proto-georgian-zan",
+        "proto-kartvelian",
+        "zan",
+        "judaeo-georgian",
+        "karto-zan",
+        "kartvelian-languages",
+        "proto-samoyedic",
+        "itelmen",
+        "kamchatkan",
+        "kerek",
+        "ket",
+        "koryak",
+        "kott"
+      ],
+      "status": "in_progress",
+      "startedAt": "2025-12-21T04:20:00.000Z",
+      "updatedAt": "2025-12-21T04:20:00.000Z",
+      "reservedRange": [
+        13639,
+        13688
+      ],
+      "notes": "Reserved i range: 13639-13688\nResolving Tagalog/Indonesian (193/194), Georgian (223), and Inuit (19) clusters.\nISO->base mapping:\n- northern-formosan->13639\n- northern-luzon->13640\n- northern-mindoro->13641\n- philippine->13642\n- south-mindanao->13643\n- tsouic->13644\n- greater-central-philippine->13645\n- batanic->13646\n- central-luzon->13647\n- georgian-dialects->13648\n- old-georgian->13649\n- proto-georgian-zan->13650\n- proto-kartvelian->13651\n- zan->13652\n- judaeo-georgian->13653\n- karto-zan->13654\n- kartvelian-languages->13655\n- proto-samoyedic->13656\n- itelmen->13657\n- kamchatkan->13658\n- kerek->13659\n- ket->13660\n- koryak->13661\n- kott->13662"
     }
-
   ]
 }
