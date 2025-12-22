@@ -1,10 +1,12 @@
 .vscode
 .idea
 /node_modules
+/reports
 /dist
 /tmp
 /coverage
 /tools/agents/
+/tools/placename-replacement
 /tools/mixer-diagnostics/_last-language-base-clusters-utf8.txt
 /tools/mixer-diagnostics/_last-language-base-clusters.txt
 /tools/mixer-diagnostics/_report-language-mixer-base-clusters.txt

@@ -1018,6 +1018,75 @@ Run this after you tune namebase `min` / `max` values or when investigating odd-
 
 ---
 
+### `replace-placeholders.js`
+
+**Purpose**
+
+Systematically identifies and replaces **12,600+ placeholder placenames** in the Fantasy Map Generator's namebases-real.js file with authentic, researched placenames representative of their respective language groups.
+
+**Inputs**
+
+- `modules/namebases-real.js` – primary namebase file containing placeholders
+- External research sources (Wikipedia, OpenStreetMap, GeoNames)
+- Language mixer mappings for validation
+
+**Outputs**
+
+- **Overwrites** `modules/namebases-real.js` with authentic placenames (with backup)
+- Creates timestamped backup files in `tools/placename-replacement/backups/`
+- Generates comprehensive reports in multiple formats (JSON, CSV, Markdown)
+- Produces detailed audit trails and source citations
+
+**What it does**
+
+- Identifies placeholder patterns: `_unq\d+`, `_u\d+`, truncated, and mixed formats
+- Researches authentic placenames from multiple authoritative sources
+- Validates geographic, historical, and phonological appropriateness
+- Preserves all namebase metadata (min, max, d, m values) exactly
+- Maintains the same number of placename seeds per entry
+- Creates comprehensive change logs with source citations
+- Tests system compatibility after replacements
+
+**Usage**
+
+```bash
+# Analysis mode (recommended first step)
+pnpm run placenames:analyze
+# or: node tools/placename-replacement/replace-placeholders.js --dry-run
+
+# Full replacement with backup (default)
+pnpm run placenames:replace
+# or: node tools/placename-replacement/replace-placeholders.js
+
+# Validation mode (same as analyze)
+pnpm run placenames:validate
+# or: node tools/placename-replacement/replace-placeholders.js --dry-run
+
+# Advanced options
+node tools/placename-replacement/replace-placeholders.js --format=json,csv,markdown
+node tools/placename-replacement/replace-placeholders.js --verbose --dry-run
+node tools/placename-replacement/replace-placeholders.js --output=./custom-reports
+```
+
+**Multi-agent safety**
+
+- **Safe to run in multi-agent contexts** as it creates automatic backups before any changes
+- Validates file integrity after updates and can rollback on failure
+- Generates detailed audit trails for tracking all changes
+- Uses rate limiting to be respectful to external research APIs
+
+**Scope and Impact**
+
+This tool addresses a substantial data curation project involving:
+- **~10,400 `_unq` pattern placeholders** (e.g., `language_index_unq1`, `language_index_unq2`)
+- **~2,200 `_u` pattern placeholders** (e.g., `language_index_u1`, `language_index_u2`)
+- **Hundreds of language groups** requiring individual research and validation
+- **Multiple placeholder formats** including truncated and mixed patterns
+
+Run this when you want to systematically replace placeholder placenames with authentic, researched alternatives while maintaining full system compatibility and generating comprehensive documentation of all changes.
+
+---
+
 ## Mixer Diagnostics & Cleanup
 
 These helpers report on the health and structure of the mixer catalog and mapping, and a few perform focused clean-up passes.

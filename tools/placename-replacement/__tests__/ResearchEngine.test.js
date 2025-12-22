@@ -35,38 +35,66 @@ describe('ResearchEngine', () => {
   });
 
   describe('validateAuthenticity', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.validateAuthenticity([], 'test-language')).rejects.toThrow('validateAuthenticity not yet implemented');
+    it('should handle empty placenames array', async () => {
+      const result = await engine.validateAuthenticity([], 'test-language');
+      expect(result.isValid).toBe(false);
+      expect(result.confidence).toBe(0);
+      expect(result.issues).toContain('No placenames provided for validation');
+    });
+
+    it('should validate placenames and return results', async () => {
+      const result = await engine.validateAuthenticity(['Paris', 'Lyon', 'Marseille'], 'french');
+      expect(result).toHaveProperty('isValid');
+      expect(result).toHaveProperty('confidence');
+      expect(result).toHaveProperty('geographicScore');
+      expect(result).toHaveProperty('historicalScore');
+      expect(result).toHaveProperty('phonologicalScore');
     });
   });
 
   describe('getFromMultipleSources', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.getFromMultipleSources('test-language')).rejects.toThrow('getFromMultipleSources not yet implemented');
-    });
+    it('should return results from multiple sources', async () => {
+      const result = await engine.getFromMultipleSources('test-language');
+      expect(Array.isArray(result)).toBe(true);
+      // Should return array of source results, even if empty
+    }, 10000); // Increase timeout for API calls
   });
 
   describe('researchFromWikipedia', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.researchFromWikipedia('test-language')).rejects.toThrow('researchFromWikipedia not yet implemented');
-    });
+    it('should research placenames from Wikipedia', async () => {
+      const result = await engine.researchFromWikipedia('test-language');
+      expect(Array.isArray(result)).toBe(true);
+      // Should return array of placenames, even if empty
+    }, 20000); // Increase timeout for Wikipedia API calls
   });
 
   describe('researchFromGeographicDatabases', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.researchFromGeographicDatabases('test-language')).rejects.toThrow('researchFromGeographicDatabases not yet implemented');
-    });
+    it('should research placenames from geographic databases', async () => {
+      const result = await engine.researchFromGeographicDatabases('test-language');
+      expect(Array.isArray(result)).toBe(true);
+      // Should return array of placenames, even if empty
+    }, 35000); // Increase timeout for geographic database API calls
   });
 
   describe('validatePhonologicalPatterns', () => {
-    it('should throw not implemented error', () => {
-      expect(() => engine.validatePhonologicalPatterns([], 'test-language')).toThrow('validatePhonologicalPatterns not yet implemented');
+    it('should validate phonological patterns', () => {
+      const result = engine.validatePhonologicalPatterns(['Paris', 'Lyon'], 'french');
+      expect(typeof result).toBe('boolean');
     });
   });
 
   describe('prioritizeAndResolveConflicts', () => {
-    it('should throw not implemented error', () => {
-      expect(() => engine.prioritizeAndResolveConflicts([])).toThrow('prioritizeAndResolveConflicts not yet implemented');
+    it('should prioritize and resolve conflicts', () => {
+      const sourceResults = [
+        {
+          placenames: ['Paris', 'Lyon'],
+          source: 'Wikipedia',
+          reliability: 0.7,
+          timestamp: new Date().toISOString()
+        }
+      ];
+      const result = engine.prioritizeAndResolveConflicts(sourceResults);
+      expect(Array.isArray(result)).toBe(true);
     });
   });
 });

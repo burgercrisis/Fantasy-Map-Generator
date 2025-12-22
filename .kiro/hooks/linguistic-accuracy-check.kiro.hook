@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "name": "Linguistic Accuracy Validator",
+  "description": "Reviews any modifications or additions to language-related files to ensure they represent linguistic accuracy, including language mixer configurations, namebase files, and race-language mappings",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "config/language-mixer-map.json",
+      "config/language-mixes.json",
+      "modules/namebases-*.js",
+      "modules/races.js",
+      "modules/names-*.js",
+      "tools/mixer-*/*.js",
+      "modules/name-fixes/*.json"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Review the changes made to language or name-related files and verify that any modifications or additions represent linguistic accuracy. Check for:\n\n1. Proper ISO language code usage and mappings\n2. Accurate language family classifications\n3. Linguistically plausible name generation patterns\n4. Correct phonetic and orthographic representations\n5. Appropriate cultural and geographical context for language assignments\n6. Consistency with established linguistic rules and conventions\n\nIf any issues are found, provide specific corrections and explanations for why the changes improve linguistic accuracy."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "name": "Documentation Sync",
+  "description": "Listens to all source files in the repository and asks the agent to update documentation in README or /docs folder when changes are detected",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.js",
+      "*.json",
+      "*.html",
+      "*.css",
+      "*.svg",
+      "*.webmanifest",
+      "*.toml",
+      "*.yaml",
+      "*.yml",
+      "modules/**/*.js",
+      "config/**/*.js",
+      "config/**/*.json",
+      "tools/**/*.js",
+      "utils/**/*.js",
+      "components/**/*.js",
+      "libs/**/*.js"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Source files have been modified. Please review the changes and update the documentation accordingly. Check if the README.md needs updates or if there's a /docs folder that should be updated. Focus on keeping documentation current with any new features, API changes, configuration updates, or architectural modifications."
+  },
+  "workspaceFolderName": "Fantasy-Map-Generator",
+  "shortName": "docs-sync"
+}
