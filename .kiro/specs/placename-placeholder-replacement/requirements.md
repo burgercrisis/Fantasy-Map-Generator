@@ -2,7 +2,14 @@
 
 ## Introduction
 
-The Fantasy Map Generator's language mixer system contains placeholder placenames that need to be replaced with authentic placenames representative of their respective language groups. These placeholders appear as `_unq` variants and numbered suffixes (like `_7`, `_8`, `_9`) throughout the namebases-real.js file. This system will systematically identify these placeholders and replace them with researched, authentic placenames that maintain the linguistic and cultural authenticity of each language group.
+The Fantasy Map Generator's language mixer system contains approximately **12,600+ placeholder placenames** that need to be replaced with authentic placenames representative of their respective language groups. Analysis reveals multiple placeholder patterns including:
+
+- **Standard `_unq` patterns**: `language_index_unq1`, `language_index_unq2`, etc.
+- **Shortened `_u` patterns**: `language_index_u1`, `language_index_u2`, etc. 
+- **Truncated patterns**: Placeholders that appear to be cut off mid-generation
+- **Mixed patterns**: Various combinations of the above formats
+
+These placeholders are concentrated heavily in the latter portion of the namebases-real.js file (approximately lines 1400-2500+) and represent hundreds of different language groups worldwide. This system will systematically identify these placeholders and replace them with researched, authentic placenames that maintain the linguistic and cultural authenticity of each language group.
 
 ## Glossary
 
@@ -21,11 +28,11 @@ The Fantasy Map Generator's language mixer system contains placeholder placename
 
 #### Acceptance Criteria
 
-1. WHEN the system scans namebases-real.js, THE Placeholder_Scanner SHALL identify all entries containing `_unq` patterns
-2. WHEN the system analyzes placeholder patterns, THE Placeholder_Scanner SHALL detect numbered variants like `_7`, `_8`, `_9` suffixes
-3. WHEN placeholders are found, THE System SHALL extract the associated language group and ISO code information
-4. WHEN analysis is complete, THE System SHALL generate a comprehensive report of all placeholder entries organized by language group
-5. THE System SHALL calculate statistics showing the total number of placeholders per language group
+1. WHEN the system scans namebases-real.js, THE Placeholder_Scanner SHALL identify all entries containing `_unq\d+` patterns (approximately 10,400+ instances)
+2. WHEN the system analyzes placeholder patterns, THE Placeholder_Scanner SHALL detect shortened `_u\d+` patterns and other variant formats (approximately 2,200+ additional instances)
+3. WHEN placeholders are found, THE System SHALL extract the associated language group, ISO code, and index information from each placeholder
+4. WHEN analysis is complete, THE System SHALL generate a comprehensive report of all 12,600+ placeholder entries organized by language group and pattern type
+5. THE System SHALL calculate statistics showing the total number of placeholders per language group and identify the most heavily affected language families
 
 ### Requirement 2: Authentic Placename Research and Validation
 
@@ -38,7 +45,7 @@ The Fantasy Map Generator's language mixer system contains placeholder placename
 3. WHEN validating placenames, THE System SHALL ensure names follow the phonological patterns typical of the language group
 4. WHEN multiple sources provide conflicting information, THE System SHALL prioritize academic and official geographic sources
 5. THE System SHALL maintain a minimum of 12 authentic placenames per language group to ensure adequate generation diversity
-6. WHEN placenames contain special characters or diacritics, THE System SHALL preserve authentic spelling while ensuring compatibility with the name generation system
+6. WHEN placenames contain special characters or diacritics, THE System SHALL preserve authentic spelling while considering compatibility with the name generation system to be a problem that will be handled later; authenticity is key for this task.
 
 ### Requirement 3: Systematic Replacement and Integration
 

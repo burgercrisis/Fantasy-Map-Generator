@@ -24,10 +24,14 @@
     "mixer:clean-map": "node tools/mixer-diagnostics/clean-language-mixer-map.js",
     "mixer:normalize-names": "node tools/mixer-core/normalize-language-names.js",
     "namebases:lengths": "node tools/mixer-namebases/check-namebase-lengths.js",
+    "placenames:analyze": "node tools/placename-replacement/replace-placeholders.js --dry-run",
+    "placenames:replace": "node tools/placename-replacement/replace-placeholders.js",
+    "placenames:validate": "node tools/placename-replacement/replace-placeholders.js --dry-run",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:normalize": "jest tools/mixer-core/normalize-language-names.test.js"
+    "test:normalize": "jest tools/mixer-core/normalize-language-names.test.js",
+    "test:placenames": "jest --config tools/placename-replacement/jest.config.js"
   },
   "devDependencies": {
     "fast-check": "^4.5.2",
