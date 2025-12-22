@@ -2,7 +2,9 @@
 .idea
 /node_modules
 /dist
+/tmp
 /coverage
+/tools/agents/
 /tools/mixer-diagnostics/_last-language-base-clusters-utf8.txt
 /tools/mixer-diagnostics/_last-language-base-clusters.txt
 /tools/mixer-diagnostics/_report-language-mixer-base-clusters.txt
@@ -15,6 +17,26 @@
 /pdf_splitter
 /.tmp-*
 .tmp
+.tmp*
 /DEVplans/Game-Plan.md
 # Snyk Security Extension - AI Rules (auto-generated)
 .windsurf/rules/snyk_rules.md
+
+# Temporary files and directories
+/tmp/**/*
+!tmp/.gitkeep
+
+# Batch processing temporary files
+/tools/batch/*.log
+/tools/updates/*.log
+
+# State files
+/tools/state/*
+!tools/state/.gitkeep
+
+# Temporary files
+TEMP_*
+*.tmp
+*.temp
+TEMP_DO_NOT_CREATE
+*.log
