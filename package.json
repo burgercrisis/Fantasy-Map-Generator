@@ -12,6 +12,7 @@
     "mixer:lexifier-auto": "node tools/mixer-catalog/add-lexifier.js",
     "mixer:qa": "node tools/mixer-core/diff-language-families.js && node tools/mixer-core/check-language-mixer-coverage.js",
     "mixer:full": "node tools/mixer-catalog/add-lexifier.js && node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
+    "mixer:full-with-normalize": "node tools/mixer-catalog/add-lexifier.js && node tools/mixer-core/normalize-language-names.js && node tools/mixer-core/diff-language-families.js && node tools/mixer-core/generate-language-mixer.js",
     "mixer:namedups": "node tools/mixer-diagnostics/check-language-mixer-name-duplicates.js",
     "mixer:failures": "node tools/mixer-core/check-language-mixer-failures.js",
     "mixer:health": "node tools/mixer-core/run-language-mixer-health.js",
@@ -21,9 +22,16 @@
     "mixer:race-per-coverage": "node tools/mixer-races/report-per-race-language-coverage.js",
     "mixer:race-suite": "node tools/mixer-races/run-race-language-suite.js",
     "mixer:clean-map": "node tools/mixer-diagnostics/clean-language-mixer-map.js",
-    "namebases:lengths": "node tools/mixer-namebases/check-namebase-lengths.js"
+    "mixer:normalize-names": "node tools/mixer-core/normalize-language-names.js",
+    "namebases:lengths": "node tools/mixer-namebases/check-namebase-lengths.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:normalize": "jest tools/mixer-core/normalize-language-names.test.js"
   },
   "devDependencies": {
+    "fast-check": "^4.5.2",
+    "jest": "^30.2.0",
     "puppeteer": "^24.34.0"
   }
 }

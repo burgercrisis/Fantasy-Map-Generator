@@ -46,9 +46,7 @@
     "category": "Papuan",
     "family": "Lengu",
     "wikipedia": "https://en.wikipedia.org/wiki/Karami_language",
-    "tags": [
-      "extinct"
-    ]
+    "tags": ["extinct"]
   },
   {
     "name": "Kehu",
@@ -12392,7 +12390,7 @@
     "family": "Udmurt"
   },
   {
-    "name": "Bjarmian",
+    "name": "Bjarmian Finnic",
     "iso": "bjarmian-finnic",
     "region": "Eurasia",
     "category": "Uralic",
@@ -14567,7 +14565,7 @@
     ]
   },
   {
-    "name": "Andalusian Spanish",
+    "name": "Andalusian",
     "iso": "andalusian",
     "region": "Europe",
     "category": "Romance",
@@ -14981,7 +14979,7 @@
     "family": "Neapolitan"
   },
   {
-    "name": "Castilian Spanish",
+    "name": "Castilian",
     "iso": "castilian",
     "region": "Europe",
     "category": "Romance",
@@ -26229,7 +26227,7 @@
     "family": "Arawakan"
   },
   {
-    "name": "Argentinian Rioplatense Spanish",
+    "name": "Argentinian Spanish",
     "iso": "argentinian-spanish",
     "region": "South America",
     "category": "Romance",

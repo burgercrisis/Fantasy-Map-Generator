@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-12-22T10:57:53.071Z",
+  "totalChanges": 1,
+  "changes": [
+    {
+      "iso": "argentinian-spanish",
+      "oldName": "Argentinian Spanish",
+      "newName": "Argentinian Rioplatense Spanish",
+      "confidence": 0.8,
+      "source": "Wikipedia",
+      "justification": "Resolved from Wikipedia argentinian-spanish with preserved regional distinctions"
+    }
+  ],
+  "statistics": {
+    "totalUpdates": 1,
+    "byFamily": {
+      "Latin American": 1
+    },
+    "byRegion": {
+      "South America": 1
+    },
+    "bySource": {
+      "Wikipedia": 1
+    },
+    "byConfidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "conflicts": [
+    {
+      "iso": "libyan-arabic",
+      "issue": "Could not resolve proper name for Libyan Arabic",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "equatoguinean-spanish",
+      "issue": "Could not resolve proper name for Equatoguinean Spanish",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "lemi-region",
+      "issue": "Could not resolve proper name for Lemi region",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "lombard",
+      "issue": "Could not resolve proper name for Lombard",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "latin-american-spanish",
+      "issue": "Validation failed for resolved name: Name capitalization doesn't follow standard conventions",
+      "possibleResolutions": [
+        "Use proper title case (e.g., 'Old English' not 'old english')"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "levantine-arabic",
+      "issue": "Could not resolve proper name for Levantine Arabic",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "laz",
+      "issue": "Could not resolve proper name for Laz",
+      "possibleResolutions": [
+        "Expand to full language name",
+        "Replace with proper human-readable language name",
+        "Use specific language name instead of generic pattern"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "african-romance",
+      "issue": "Could not resolve proper name for African Romance",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    },
+    {
+      "iso": "kurukh",
+      "issue": "Could not resolve proper name for Kurukh",
+      "possibleResolutions": [
+        "Replace with proper human-readable language name"
+      ],
+      "requiresManualReview": true
+    }
+  ]
+}

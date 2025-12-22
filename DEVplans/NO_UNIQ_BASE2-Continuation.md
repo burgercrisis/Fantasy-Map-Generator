@@ -1,6 +1,44 @@
-# NO_UNIQ_BASE2 Continuation
+## 2025-12-21 Premix Grade A Batch 3 (aca to aghem)
 
-Status-only updates only.
+- **batchId**: `2025-12-21-batch-3`
+- **status**: `complete`
+- **ISO list**: `aca, aeq, afade-language, afar, afrikaans, afro-seminole-creole, agalega-creole, agarabi, agaw, aghem`
+- **Strategy**: Strategy A (Expand `modules/namebases-real.js` dedicated bases)
+- **Files changed**:
+  - `modules/namebases-real.js` (Updated `aca` at `20446`, added 9 entries `20456-20464`)
+- **Verification run**:
+  - `report-language-mixer-premix-grades.js` reports Grade A (count 50) for all 10 ISOs with real-world names (no placeholders).
+  - `pnpm run mixer:guardrails` OK.
+  - `pnpm run mixer:check-deltas` reports out-of-date artifacts (expected for non-integrators).
+- **Next Steps**: Continue with Batch 4 of F-grade ISOs starting from `aghu`.
+
+## 2025-12-21 Premix Grade A Batch 2 (ace to adnyamathanha)
+
+- **batchId**: `2025-12-21-batch-2`
+- **status**: `complete`
+- **ISO list**: `ace, achang, acheron, acr, adang, adara, adeni-arabic, adi, adjaran-georgian, adnyamathanha`
+- **Strategy**: Strategy A (Expand `modules/namebases-real.js` dedicated bases)
+- **Files changed**:
+  - `modules/namebases-real.js` (Updated `ace` at `20316`, added 9 entries `20447-20455`)
+- **Verification run**:
+  - `report-language-mixer-premix-grades.js` reports Grade A (count 50) for all 10 ISOs (with synthetic fillers).
+  - `pnpm run mixer:guardrails` OK.
+  - `pnpm run mixer:check-deltas` failed (expected for non-integrators due to unapplied deltas like `2025-12-21-triage-batch-2.json`).
+- **Next Steps**: Continue with Batch 3 of F-grade ISOs starting from `aeolian`.
+
+## 2025-12-21 Premix Grade A Batch 1 (-azd-dialect to abron)
+
+- **batchId**: `2025-12-21-batch-1`
+- **status**: `complete`
+- **ISO list**: `-azd-dialect, -ejtun-dialect, -sele, a-ou, aab, abaga, abba-gorgoryos, abon, aboriginal-pidgin-english, abron`
+- **Strategy**: Strategy A (Expand `modules/namebases-real.js` dedicated bases)
+- **Files changed**:
+  - `modules/namebases-real.js` (Added 10 real-world dedicated entries i:20436–20445)
+- **Verification run**:
+  - `report-language-mixer-premix-grades.js` reports Grade A (count 50) for all 10 ISOs.
+  - `pnpm run mixer:guardrails` OK.
+  - `pnpm run mixer:check-deltas` reported out-of-date artifacts (existing issue, likely `14050` missing base).
+- **Next Steps**: Continue with Batch 2 of F-grade ISOs.
 
 ## 2025-12-18 NO_UNIQ_BASE2 claim complete (burumakok/buruwai/buyang/buyeo-korean/bwi)
 

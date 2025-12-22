@@ -2,8 +2,10 @@
   "mcpServers": {
     "hub-dev": {
       "command": "node",
-      "args": ["${MCP_HUB_SERVER_PATH}"],
-      "disabled": false,
+      "args": [
+        "${MCP_HUB_SERVER_PATH}"
+      ],
+      "disabled": true,
       "env": {
         "MCP_HUB_ADMIN_TOKEN": "dev-only",
         "MCP_HUB_PROJECT_ROOTS": "${MCP_HUB_PROJECT_ROOTS}",
@@ -18,7 +20,7 @@
       },
       "autoApprove": [
         "workstream_list",
-        "workstream_create", 
+        "workstream_create",
         "lock_acquire",
         "time_now",
         "hub_readme",

@@ -50,3 +50,4 @@ description: Status tracking for helper-tool documentation coverage
 ## Status (2025-12-21)
 
 - Moved one-off agent/worker outputs from repo root into `tmp/` (gitignored) and moved root helper scripts into `tools/` subfolders (`tools/updates`, `tools/batch`, `tools/analysis`) to reduce root clutter.
+- Started the Python server via `run_python_server.bat` on port 3000 to allow UI verification.

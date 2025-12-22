@@ -202,6 +202,58 @@ pnpm exec -- node tools/mixer-core/check-language-mixer-failures.js
 
 ---
 
+### `normalize-language-names.js`
+
+**Purpose**
+
+Systematically identifies and replaces placeholder, abbreviated, or incomplete language names with proper, full language names in the Language Mixer System.
+
+**Inputs**
+
+- `config/language-mixes.json` – catalog of languages for the mixer UI
+- `config/language-mixer-map.json` – existing ISO → `bases[]` mapping (for usage analysis)
+
+**Outputs**
+
+- **Overwrites** `config/language-mixes.json` with updated language names (preserves all other metadata)
+- Creates timestamped backup files before making changes
+- Generates detailed reports in `tools/mixer-core/reports/`
+
+**What it does**
+
+- Identifies entries with abbreviated names (< 4 characters), ISO codes used as display names, or generic patterns
+- Resolves proper names from ISO 639 standards and Wikipedia references
+- Preserves regional and dialectal distinctions (e.g., "American English", "Swiss German")
+- Adds appropriate indicators for extinct/historical languages (e.g., "Old English", "Ancient Greek")
+- Prioritizes updates based on usage frequency in the mixer system
+- Validates name consistency within language families
+
+**Usage**
+
+```bash
+# Dry run (recommended first step)
+pnpm run mixer:normalize-names -- --dry-run
+
+# Apply changes with backup (default)
+pnpm run mixer:normalize-names
+
+# Generate JSON report instead of markdown
+pnpm run mixer:normalize-names -- --report-format json
+
+# Skip backup creation (not recommended)
+pnpm run mixer:normalize-names -- --no-backup
+```
+
+**Multi-agent safety**
+
+- Safe to run in multi-agent contexts as it only modifies language names, not base indices
+- Creates automatic backups before making changes
+- Validates file integrity after updates
+
+Run this when you notice abbreviated or inconsistent language names in the mixer catalog, or as part of periodic maintenance to improve language name quality.
+
+---
+
 ### `report-language-mixer-name-counts.js`
 
 **Purpose**
@@ -2478,6 +2530,7 @@ Convenience wrapper to start a local PHP dev server for the project.
    - `node tools/mixer-catalog/add-lexifier.js`
    - `node tools/mixer-catalog/fix-missing-families.js`
    - `node tools/mixer-regions/update-romance.js` (or future regional scripts)
+   - `node tools/mixer-core/normalize-language-names.js` (optional: normalize abbreviated or incomplete language names)
 3. Run mapping + coverage tools:
    - `node tools/mixer-core/fix-language-mixer-mappings.js`
    - `node tools/mixer-catalog/fill-family-mixes.js`
@@ -2503,6 +2556,12 @@ Or, for a condensed pass:
 node tools/mixer-core/run-language-mixer-suite.js --name-counts --name-counts-sort=unique
 ```
 
+Or, for a full pass including language name normalization:
+
+```bash
+pnpm run mixer:full-with-normalize
+```
+
 For a **read-only diagnostics-only** pass (no writes to config files):
 
 ```bash
@@ -2518,6 +2577,7 @@ pnpm run mixer:health
   - `node tools/mixer-core/run-language-mixer-suite.js --name-counts --name-counts-sort=unique`
   - `pnpm run generate:language-mixer`
   - `pnpm run mixer:full`
+  - `pnpm run mixer:full-with-normalize` (includes language name normalization)
 
 - **Mixer – read-only health checks**  
   Quickly inspect families, coverage, failures, and base clusters without writing files:
