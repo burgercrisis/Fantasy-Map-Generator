@@ -15,7 +15,7 @@ function trimVowels(string, minLength = 3) {
 }
 
 const adjectivizationRules = [
-  {name: "guo", probability: 1, condition: new RegExp(" Guo$"), action: noun => noun.slice(0, -4)},
+  { name: "guo", probability: 1, condition: new RegExp(" Guo$"), action: noun => noun.slice(0, -4) },
   {
     name: "orszag",
     probability: 1,
@@ -169,6 +169,14 @@ function abbreviate(name, restricted = []) {
 // conjunct array: [A,B,C] => "A, B and C"
 function list(array) {
   if (!Intl.ListFormat) return array.join(", ");
-  const conjunction = new Intl.ListFormat(window.lang || "en", {style: "long", type: "conjunction"});
+  const conjunction = new Intl.ListFormat(window.lang || "en", { style: "long", type: "conjunction" });
   return conjunction.format(array);
 }
+
+// Export to window.languageUtils for use by other modules
+window.languageUtils = {
+  vowel,
+  trimVowels,
+  adjectivizationRules,
+  list
+};

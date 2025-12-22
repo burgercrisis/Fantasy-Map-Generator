@@ -2,9 +2,9 @@
 
 (function () {
   if (!window.Names) return;
-  const {vowel} = window.languageUtils || {};
-  const {ra} = window.probabilityUtils || {};
-  const {last} = window.arrayUtils || {};
+  const { vowel } = window.languageUtils || {};
+  const { ra } = window.probabilityUtils || {};
+  const { last } = window.arrayUtils || {};
 
   let _languageMixerMap;
 
@@ -59,13 +59,13 @@
       const params = new URLSearchParams(window.location && window.location.search ? window.location.search : "");
       const v = params.get("mixer");
       if (v) return String(v);
-    } catch (e) {}
+    } catch (e) { }
     try {
       const v = localStorage.getItem("fmg-mixer-version");
       if (v) return String(v);
       const legacy = localStorage.getItem("fmg-mixer-v19");
       if (legacy === "1") return "v19";
-    } catch (e) {}
+    } catch (e) { }
     return "";
   }
 
@@ -102,7 +102,7 @@
     const q = p => lengths[Math.floor(p * (count - 1))];
     const p25 = q(0.25);
     const p75 = q(0.75);
-    return {count, minLen, maxLen, mean, p25, p75};
+    return { count, minLen, maxLen, mean, p25, p75 };
   }
 
   function classifyOnsets(blob) {
@@ -346,7 +346,7 @@
     const max = opts && opts.max != null ? opts.max : baseConfig.max;
     const dupl = opts && opts.dupl !== undefined ? opts.dupl : baseConfig.d;
     const target = (min + max) / 2;
-    const genOpts = {min, max, dupl};
+    const genOpts = { min, max, dupl };
 
     let best = null;
     let bestDelta = Infinity;
@@ -369,7 +369,7 @@
 
   function generateBlendedName(contexts, opts) {
     if (!Array.isArray(contexts) || !contexts.length) {
-      return {text: "", bases: []};
+      return { text: "", bases: [] };
     }
 
     const globalMin = opts && opts.min;
@@ -426,7 +426,7 @@
         });
 
         const shape = getSegmentShape(segText, ctx);
-        segs.push({text: segText, ctx, shape});
+        segs.push({ text: segText, ctx, shape });
         total += segText.length;
         guard++;
       }
@@ -477,7 +477,7 @@
 
       if (isRepetitiveClickPattern(segInfos)) penalty += 50;
 
-      return {len, penalty};
+      return { len, penalty };
     }
 
     let best = null;
@@ -485,15 +485,15 @@
 
     const attempts = 6;
     for (let i = 0; i < attempts; i++) {
-      const {text, segInfos} = buildOnce();
-      const {penalty} = scoreCandidate(text, segInfos);
+      const { text, segInfos } = buildOnce();
+      const { penalty } = scoreCandidate(text, segInfos);
       if (penalty < bestScore) {
         bestScore = penalty;
-        best = {text, segInfos};
+        best = { text, segInfos };
       }
       const len = text.length;
       if (len >= requestedMin && len <= requestedMax && !isRepetitiveClickPattern(segInfos)) {
-        best = {text, segInfos};
+        best = { text, segInfos };
         break;
       }
     }
@@ -506,11 +506,11 @@
         max: requestedMax,
         dupl: base.d || ""
       });
-      return {text: sanitizeName(name), bases: [ctx.idx]};
+      return { text: sanitizeName(name), bases: [ctx.idx] };
     }
 
     const usedIdxs = Array.from(new Set(best.segInfos.map(s => s.shape.baseIndex))).sort((a, b) => a - b);
-    return {text: best.text, bases: usedIdxs};
+    return { text: best.text, bases: usedIdxs };
   }
 
   function buildCombinedNames(baseIndices, weights) {
@@ -661,7 +661,7 @@
       if (!chain || chain[""] === undefined) continue;
       const onsetSet = classifyOnsets(blob);
       const clickHeavy = isClickHeavyLanguage(blob);
-      ctxByIdx.set(idx, {idx, base, chain, onsetSet, isClickHeavy: clickHeavy});
+      ctxByIdx.set(idx, { idx, base, chain, onsetSet, isClickHeavy: clickHeavy });
     }
 
     if (!ctxByIdx.size) return [];
@@ -700,7 +700,7 @@
           total++;
         }
       }
-      return {counts, total};
+      return { counts, total };
     };
 
     const buildCharLm = (texts, n) => {
@@ -731,7 +731,7 @@
 
       function scoreBpc(raw) {
         const text = normalizeForRealism(raw);
-        if (!text) return {bpc: null, chars: 0, oovChars: 0};
+        if (!text) return { bpc: null, chars: 0, oovChars: 0 };
         const s = pad + text + "$";
         let bits = 0;
         let chars = 0;
@@ -747,10 +747,10 @@
           chars++;
           if (!vocab.has(ch) && ch !== "^" && ch !== "$" && ch !== " ") oovChars++;
         }
-        return {bpc: chars ? bits / chars : null, chars, oovChars};
+        return { bpc: chars ? bits / chars : null, chars, oovChars };
       }
 
-      return {scoreBpc};
+      return { scoreBpc };
     };
 
     const seedNames = buildSeedCorpusFromBases(baseUniverse);
@@ -776,14 +776,14 @@
     const buildHeadCountsForText = text => {
       const headCounts = new Uint16Array(topSeedKeys.length);
       let total = 0;
-      if (typeof text !== "string" || text.length < 3) return {headCounts, total: 0};
+      if (typeof text !== "string" || text.length < 3) return { headCounts, total: 0 };
       for (let i = 0; i < text.length - 2; i++) {
         const gram = text.slice(i, i + 3);
         total++;
         const idx = topSeedKeyIndex.get(gram);
         if (typeof idx === "number") headCounts[idx]++;
       }
-      return {headCounts, total};
+      return { headCounts, total };
     };
 
     const jsHeadOther = (bHeadCounts, totalB) => {
@@ -809,7 +809,7 @@
     let seedBits = 0;
     let seedChars = 0;
     for (const s of seedNorm) {
-      const {bpc, chars} = lm.scoreBpc(s);
+      const { bpc, chars } = lm.scoreBpc(s);
       if (typeof bpc !== "number" || !isFinite(bpc) || !chars) continue;
       seedBits += bpc * chars;
       seedChars += chars;
@@ -1082,7 +1082,7 @@
               }
             }
             compound = smoothJoinRng(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set());
-            if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
+            if (ctx) segInfos.push({ text: cur, shape: getSegmentShape(cur, ctx) });
           }
           break;
         }
@@ -1099,7 +1099,7 @@
           }
         }
         compound = smoothJoinRng(compound, cur, ctx && ctx.onsetSet ? ctx.onsetSet : new Set());
-        if (ctx) segInfos.push({text: cur, shape: getSegmentShape(cur, ctx)});
+        if (ctx) segInfos.push({ text: cur, shape: getSegmentShape(cur, ctx) });
 
         if (typeof isRepetitiveClickPattern === "function" && isRepetitiveClickPattern(segInfos)) {
           if (compound.length < requestedMin) {
@@ -1144,7 +1144,7 @@
           .join("");
       }
 
-      return {text: sanitizeName(name), segTexts: segs, baseSeq, usedBasesCount: usedBases.size};
+      return { text: sanitizeName(name), segTexts: segs, baseSeq, usedBasesCount: usedBases.size };
     }
 
     const names = [];
@@ -1180,13 +1180,13 @@
         const diversityBonus = 1.25 * diversityScore;
 
         const norm = normalizeForRealism(candidate.text);
-        const {bpc} = lm.scoreBpc(norm);
+        const { bpc } = lm.scoreBpc(norm);
         const realismDelta =
           typeof bpc === "number" && typeof seedBpcTarget === "number" && isFinite(bpc) && isFinite(seedBpcTarget)
             ? REALISM_LAMBDA * (bpc - seedBpcTarget)
             : 0;
 
-        const {headCounts: candHeadCounts, total: candTotal} = buildHeadCountsForText(norm);
+        const { headCounts: candHeadCounts, total: candTotal } = buildHeadCountsForText(norm);
         const js = jsHeadOther(candHeadCounts, candTotal);
         const jsPenalty = typeof js === "number" && isFinite(js) ? JS_LAMBDA * js : 0;
 
@@ -1288,7 +1288,7 @@
       return many[0];
     }
 
-    const many = getMixedBaseMany(baseIndices, Object.assign({}, opts, {count: 1}));
+    const many = getMixedBaseMany(baseIndices, Object.assign({}, opts, { count: 1 }));
     return many[0];
   }
 
@@ -1326,7 +1326,7 @@
       return [];
     }
 
-    const opts = Object.assign({}, options, {weights});
+    const opts = Object.assign({}, options, { weights });
     return getMixedBaseMany(baseIndices, opts);
   }
 

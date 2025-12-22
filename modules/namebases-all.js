@@ -26,7 +26,7 @@
     if (!b || typeof b.i !== "number" || !Number.isFinite(b.i)) continue;
     const i = b.i;
     if (byIndex[i]) {
-      collisions.push({i, existing: byIndex[i].name, incoming: b.name});
+      collisions.push({ i, existing: byIndex[i].name, incoming: b.name });
       continue;
     }
     byIndex[i] = b;

@@ -64,9 +64,9 @@
         if (catalogByIso[entry.iso]) {
           warnings.push(
             "language-softmods: catalog iso '" +
-              entry.iso +
-              "' already present; keeping core entry" +
-              (modId ? " (mod " + modId + ")" : "")
+            entry.iso +
+            "' already present; keeping core entry" +
+            (modId ? " (mod " + modId + ")" : "")
           );
           return;
         }
@@ -79,9 +79,9 @@
         if (mapByIso[entry.iso]) {
           warnings.push(
             "language-softmods: mixer-map iso '" +
-              entry.iso +
-              "' already present; keeping core entry" +
-              (modId ? " (mod " + modId + ")" : "")
+            entry.iso +
+            "' already present; keeping core entry" +
+            (modId ? " (mod " + modId + ")" : "")
           );
           return;
         }

@@ -53,8 +53,16 @@ function getTypedArray(maxValue) {
   return Uint32Array;
 }
 
-function createTypedArray({maxValue, length, from}) {
+function createTypedArray({ maxValue, length, from }) {
   const typedArray = getTypedArray(maxValue);
   if (!from) return new typedArray(length);
   return typedArray.from(from);
 }
+
+// Export to window.arrayUtils for use by other modules
+window.arrayUtils = {
+  last,
+  deepCopy,
+  getTypedArray,
+  createTypedArray
+};

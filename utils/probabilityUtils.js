@@ -85,3 +85,13 @@ function getNumberInRange(r) {
 function generateSeed() {
   return String(Math.floor(Math.random() * 1e9));
 }
+
+// Export to window.probabilityUtils for use by other modules
+window.probabilityUtils = {
+  rand,
+  ra,
+  rw,
+  biased,
+  getNumberInRange,
+  generateSeed
+};

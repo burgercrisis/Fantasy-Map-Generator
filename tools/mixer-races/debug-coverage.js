@@ -17,7 +17,7 @@ for (let i = braceStart; i < racesSrc.length; i++) {
   }
 }
 const objectLiteral = racesSrc.slice(braceStart, end + 1);
-const sandbox = {module: {exports: {}}, exports: {}};
+const sandbox = { module: { exports: {} }, exports: {} };
 vm.runInContext('module.exports = ' + objectLiteral + ';', vm.createContext(sandbox));
 const raceProfiles = sandbox.module.exports;
 
@@ -27,7 +27,7 @@ for (const [raceName, profile] of Object.entries(raceProfiles)) {
   if (!profile.categories && !profile.families) continue;
   const cats = new Set((profile.categories || []).map(c => c.toLowerCase()));
   const fams = new Set((profile.families || []).map(f => f.toLowerCase()));
-  
+
   mixes.forEach(l => {
     if (l.tags && l.tags.includes('family')) return;
     const cat = (l.category || '').toLowerCase();
@@ -45,7 +45,9 @@ const stats = Object.entries(langCoverage).map(([iso, races]) => ({
   races: races.join(', ')
 })).sort((a, b) => a.count - b.count);
 
-const outPath = path.join(__dirname, '..', '..', 'lang_coverage_stats.json');
+const repoRoot = path.join(__dirname, '..', '..');
+const outPath = path.join(repoRoot, 'tmp', 'state', 'json', 'lang_coverage_stats.json');
+fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, JSON.stringify(stats, null, 2));
 console.log('Total languages checked:', mixes.filter(l => !(l.tags && l.tags.includes('family'))).length);
 console.log('Total languages covered:', Object.keys(langCoverage).length);

@@ -23,11 +23,11 @@ function editNamesbase() {
 
   const uploader = document.getElementById("namesbaseToLoad");
   document.getElementById("namesbaseUpload").addEventListener("click", () => {
-    uploader.addEventListener("change", e => uploadFile(e.target, d => namesbaseUpload(d, true)), {once: true});
+    uploader.addEventListener("change", e => uploadFile(e.target, d => namesbaseUpload(d, true)), { once: true });
     uploader.click();
   });
   document.getElementById("namesbaseUploadExtend").addEventListener("click", () => {
-    uploader.addEventListener("change", e => uploadFile(e.target, d => namesbaseUpload(d, false)), {once: true});
+    uploader.addEventListener("change", e => uploadFile(e.target, d => namesbaseUpload(d, false)), { once: true });
     uploader.click();
   });
 
@@ -94,7 +94,7 @@ function editNamesbase() {
   $("#namesbaseEditor").dialog({
     title: "Namesbase Editor",
     width: "60vw",
-    position: {my: "center", at: "center", of: "svg"}
+    position: { my: "center", at: "center", of: "svg" }
   });
 
   function createBasesList() {
@@ -184,11 +184,11 @@ function editNamesbase() {
     const nonLatin = namesSourceString.match(/[^\u0000-\u007f]/g);
     const nonBasicLatinChars = nonLatin
       ? unique(
-          namesSourceString
-            .match(/[^\u0000-\u007f]/g)
-            .join("")
-            .toLowerCase()
-        ).join("")
+        namesSourceString
+          .match(/[^\u0000-\u007f]/g)
+          .join("")
+          .toLowerCase()
+      ).join("")
       : "none";
 
     const geminate = namesArray.map(name => name.match(/[^\w\s]|(.)(?=\1)/g) || []).flat();
@@ -228,19 +228,19 @@ function editNamesbase() {
       <hr />
       <div data-tip="Characters outside of Basic Latin have bad font support">Non-basic chars: ${nonBasicLatinChars}</div>
       <div data-tip="Characters that are frequently (more than 3 times) doubled">Doubled chars: ${doubled.join(
-        ""
-      )}</div>
+      ""
+    )}</div>
       <div data-tip="Names used more than one time">Duplicates: ${duplicates}</div>
       <div data-tip="Percentage of names containing space character">Multi-word names: ${rn(
-        multiwordRate * 100,
-        2
-      )}%</div>
+      multiwordRate * 100,
+      2
+    )}%</div>
     </div>`;
 
     $("#alert").dialog({
       resizable: false,
       title: "Data Analysis",
-      position: {my: "left top-30", at: "right+10 top", of: "#namesbaseEditor"},
+      position: { my: "left top-30", at: "right+10 top", of: "#namesbaseEditor" },
       buttons: {
         OK: function () {
           $(this).dialog("close");
@@ -253,7 +253,7 @@ function editNamesbase() {
     const base = nameBases.length;
     const b =
       "This,is,an,example,of,name,base,showing,correct,format,It,should,have,at,least,one,hundred,names,separated,with,comma";
-    nameBases.push({name: "Base" + base, min: 5, max: 12, d: "", m: 0, b});
+    nameBases.push({ name: "Base" + base, min: 5, max: 12, d: "", m: 0, b });
     document.getElementById("namesbaseSelect").add(new Option("Base" + base, base));
     document.getElementById("namesbaseSelect").value = base;
     document.getElementById("namesbaseTextarea").value = b;
@@ -302,7 +302,7 @@ function editNamesbase() {
       const [rawName, min, max, d, m, rawNames] = base.split("|");
       const name = rawName.replace(unsafe, "");
       const names = rawNames.replace(unsafe, "");
-      nameBases.push({name, min: +min, max: +max, d, m: +m, b: names});
+      nameBases.push({ name, min: +min, max: +max, d, m: +m, b: names });
     });
 
     createBasesList();
@@ -616,7 +616,7 @@ function editNamesbase() {
     if (mixer.languages.some(lang => lang.iso === iso)) {
       return tip("Language already added to the mix", false, "warn");
     }
-    mixer.languages.push({iso, weight: 1});
+    mixer.languages.push({ iso, weight: 1 });
     renderMixerSelection();
   }
 
@@ -808,9 +808,8 @@ function editNamesbase() {
         const meta = getMixerMeta(lang.iso);
         const pct = Math.round((lang.weight / totalWeight) * 100);
         const lexifier = meta?.lexifier ? `, lexifier ${meta.lexifier}` : "";
-        return `${meta?.name || lang.iso} (${pct}% mix, region ${meta?.region || "N/A"}, category ${
-          meta?.category || "N/A"
-        }${lexifier})`;
+        return `${meta?.name || lang.iso} (${pct}% mix, region ${meta?.region || "N/A"}, category ${meta?.category || "N/A"
+          }${lexifier})`;
       })
       .join("; ");
 
@@ -891,7 +890,7 @@ Guidelines:
     }
 
     try {
-      const names = Names.getMixedByIso(isoWeights, {count});
+      const names = Names.getMixedByIso(isoWeights, { count });
       if (!names || !names.length) {
         setMixerStatus("No names generated. Check language mapping.", "error");
         return;
@@ -931,7 +930,7 @@ Guidelines:
       const m = sourceBase && typeof sourceBase.m === "number" ? sourceBase.m : 0;
       const b = uniqueNewNames.join(", ");
 
-      nameBases.push({name: baseName, min, max, d, m, b});
+      nameBases.push({ name: baseName, min, max, d, m, b });
 
       createBasesList();
       const select = document.getElementById("namesbaseSelect");
@@ -944,9 +943,9 @@ Guidelines:
 
     const existing = textarea.value
       ? textarea.value
-          .split(",")
-          .map(n => n.trim())
-          .filter(Boolean)
+        .split(",")
+        .map(n => n.trim())
+        .filter(Boolean)
       : [];
 
     const combined = mode === "replace" ? names : [...existing, ...names];
@@ -968,7 +967,7 @@ Guidelines:
 
   function setMixerStatus(message, type = "info") {
     if (!mixerStatus) return;
-    const colors = {info: "", success: "green", error: "crimson", warn: "orange"};
+    const colors = { info: "", success: "green", error: "crimson", warn: "orange" };
     mixerStatus.style.color = colors[type] || "";
     mixerStatus.textContent = message;
   }
