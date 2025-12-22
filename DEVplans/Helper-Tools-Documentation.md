@@ -46,3 +46,7 @@ description: Status tracking for helper-tool documentation coverage
 ## Status (2025-12-15)
 
 - Added / standardized `## Table of contents` blocks for the longest Markdown docs (primarily under `DEVplans/` and `tools/HELPER-TOOLS.md`) to improve navigation.
+
+## Status (2025-12-21)
+
+- Moved one-off agent/worker outputs from repo root into `tmp/` (gitignored) and moved root helper scripts into `tools/` subfolders (`tools/updates`, `tools/batch`, `tools/analysis`) to reduce root clutter.
