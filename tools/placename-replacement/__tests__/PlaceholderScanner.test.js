@@ -30,32 +30,35 @@ describe('PlaceholderScanner', () => {
   });
 
   describe('scanPlaceholders', () => {
-    it('should throw not implemented error', async () => {
-      await expect(scanner.scanPlaceholders()).rejects.toThrow('scanPlaceholders not yet implemented');
+    it('should handle file not found error', async () => {
+      await expect(scanner.scanPlaceholders()).rejects.toThrow('Failed to scan placeholders');
     });
   });
 
   describe('extractLanguageInfo', () => {
-    it('should throw not implemented error', () => {
-      expect(() => scanner.extractLanguageInfo({})).toThrow('extractLanguageInfo not yet implemented');
+    it('should handle invalid entry', () => {
+      expect(() => scanner.extractLanguageInfo({})).toThrow();
     });
   });
 
   describe('generateScanReport', () => {
-    it('should throw not implemented error', () => {
-      expect(() => scanner.generateScanReport()).toThrow('generateScanReport not yet implemented');
+    it('should generate scan report', () => {
+      const report = scanner.generateScanReport();
+      expect(report.summary).toHaveProperty('totalPlaceholders');
+      expect(report.summary).toHaveProperty('patternBreakdown');
     });
   });
 
   describe('detectPlaceholderPatterns', () => {
-    it('should throw not implemented error', () => {
-      expect(() => scanner.detectPlaceholderPatterns([])).toThrow('detectPlaceholderPatterns not yet implemented');
+    it('should detect placeholder patterns', () => {
+      const patterns = scanner.detectPlaceholderPatterns([]);
+      expect(Array.isArray(patterns)).toBe(true);
     });
   });
 
   describe('parseNamebaseFile', () => {
-    it('should throw not implemented error', async () => {
-      await expect(scanner.parseNamebaseFile()).rejects.toThrow('parseNamebaseFile not yet implemented');
+    it('should handle file not found error', async () => {
+      await expect(scanner.parseNamebaseFile()).rejects.toThrow('Failed to parse namebase file');
     });
   });
 });

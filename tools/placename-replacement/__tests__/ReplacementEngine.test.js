@@ -27,50 +27,59 @@ describe('ReplacementEngine', () => {
   });
 
   describe('replacePlaceholders', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.replacePlaceholders({}, [])).rejects.toThrow('replacePlaceholders not yet implemented');
+    it('should replace placeholders', async () => {
+      const result = await engine.replacePlaceholders({}, []);
+      expect(result).toHaveProperty('hasChanges');
+      expect(result.hasChanges).toBe(false);
     });
   });
 
   describe('applyReplacements', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.applyReplacements(new Map())).rejects.toThrow('applyReplacements not yet implemented');
+    it('should apply replacements', async () => {
+      const result = await engine.applyReplacements(new Map());
+      expect(result).toHaveProperty('successfulReplacements');
+      expect(result).toHaveProperty('failedReplacements');
     });
   });
 
   describe('validateReplacements', () => {
-    it('should throw not implemented error', () => {
-      expect(() => engine.validateReplacements({}, {})).toThrow('validateReplacements not yet implemented');
+    it('should validate replacements', () => {
+      const result = engine.validateReplacements({}, {});
+      expect(typeof result).toBe('boolean');
     });
   });
 
   describe('createBackup', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.createBackup('test-file')).rejects.toThrow('createBackup not yet implemented');
+    it('should handle file not found error', async () => {
+      await expect(engine.createBackup('test-file')).rejects.toThrow('Failed to create backup');
     });
   });
 
   describe('restoreFromBackup', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.restoreFromBackup('backup', 'target')).rejects.toThrow('restoreFromBackup not yet implemented');
+    it('should handle backup not found error', async () => {
+      await expect(engine.restoreFromBackup('backup', 'target')).rejects.toThrow('Failed to restore from backup');
     });
   });
 
   describe('preserveMetadataWithNewNames', () => {
-    it('should throw not implemented error', () => {
-      expect(() => engine.preserveMetadataWithNewNames({}, [])).toThrow('preserveMetadataWithNewNames not yet implemented');
+    it('should preserve metadata with new names', () => {
+      const result = engine.preserveMetadataWithNewNames({}, []);
+      expect(result).toHaveProperty('b');
     });
   });
 
   describe('validateFileIntegrity', () => {
-    it('should throw not implemented error', async () => {
-      await expect(engine.validateFileIntegrity('test-file')).rejects.toThrow('validateFileIntegrity not yet implemented');
+    it('should validate file integrity', async () => {
+      const result = await engine.validateFileIntegrity('test-file');
+      expect(typeof result).toBe('boolean');
     });
   });
 
   describe('generateChangeLog', () => {
-    it('should throw not implemented error', () => {
-      expect(() => engine.generateChangeLog([])).toThrow('generateChangeLog not yet implemented');
+    it('should generate change log', () => {
+      const result = engine.generateChangeLog([]);
+      expect(result).toHaveProperty('changes');
+      expect(result).toHaveProperty('summary');
     });
   });
 });
