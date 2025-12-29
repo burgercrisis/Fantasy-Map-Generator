@@ -14,7 +14,7 @@
     return ai - bi;
   });
 
-  const maxIndex = all.reduce((max, b) => {
+  let maxIndex = all.reduce((max, b) => {
     if (!b || typeof b.i !== "number" || !Number.isFinite(b.i)) return max;
     return b.i > max ? b.i : max;
   }, 0);
@@ -27,6 +27,11 @@
     const i = b.i;
     if (byIndex[i]) {
       collisions.push({ i, existing: byIndex[i].name, incoming: b.name });
+      // relocate to next free slot beyond current maxIndex
+      let j = maxIndex + 1;
+      while (byIndex[j]) j++;
+      byIndex[j] = b;
+      maxIndex = j > maxIndex ? j : maxIndex;
       continue;
     }
     byIndex[i] = b;

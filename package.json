@@ -1,6 +1,9 @@
 {
   "name": "fantasy-map-generator",
   "private": true,
+  "volta": {
+    "node": "24.11.1"
+  },
   "scripts": {
     "mixer:apply-deltas": "pnpm run mixer:guardrails && node tools/mixer-core/apply-mixer-deltas.js",
     "mixer:check-deltas": "pnpm run mixer:guardrails && node tools/mixer-core/apply-mixer-deltas.js --check",
