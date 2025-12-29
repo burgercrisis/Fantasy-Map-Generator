@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 
 window.realWorldNameBases = [
   {
@@ -48,7 +48,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nordic",
-    "i": 6,
+    "i": 5,
     "min": 6,
     "max": 10,
     "d": "kln",
@@ -57,7 +57,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greek",
-    "i": 7,
+    "i": 6,
     "min": 5,
     "max": 11,
     "d": "s",
@@ -66,7 +66,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Roman",
-    "i": 8,
+    "i": 7,
     "min": 6,
     "max": 11,
     "d": "ln",
@@ -75,7 +75,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Finnic",
-    "i": 9,
+    "i": 8,
     "min": 5,
     "max": 11,
     "d": "akiut",
@@ -84,7 +84,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Korean",
-    "i": 10,
+    "i": 9,
     "min": 5,
     "max": 11,
     "d": "",
@@ -93,7 +93,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chinese",
-    "i": 11,
+    "i": 10,
     "min": 5,
     "max": 10,
     "d": "",
@@ -102,7 +102,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Japanese",
-    "i": 12,
+    "i": 11,
     "min": 4,
     "max": 10,
     "d": "",
@@ -111,7 +111,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Portuguese",
-    "i": 13,
+    "i": 12,
     "min": 5,
     "max": 11,
     "d": "",
@@ -120,7 +120,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nahuatl",
-    "i": 14,
+    "i": 13,
     "min": 6,
     "max": 13,
     "d": "l",
@@ -129,7 +129,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hungarian",
-    "i": 15,
+    "i": 14,
     "min": 6,
     "max": 13,
     "d": "",
@@ -138,7 +138,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Turkish",
-    "i": 16,
+    "i": 15,
     "min": 4,
     "max": 10,
     "d": "",
@@ -147,7 +147,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berber",
-    "i": 17,
+    "i": 16,
     "min": 4,
     "max": 10,
     "d": "s",
@@ -156,7 +156,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arabic",
-    "i": 18,
+    "i": 17,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -165,7 +165,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Inuit",
-    "i": 19,
+    "i": 18,
     "min": 5,
     "max": 15,
     "d": "alutsn",
@@ -174,7 +174,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basque",
-    "i": 20,
+    "i": 19,
     "min": 4,
     "max": 11,
     "d": "r",
@@ -183,7 +183,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nigerian",
-    "i": 21,
+    "i": 20,
     "min": 4,
     "max": 10,
     "d": "",
@@ -192,7 +192,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Celtic",
-    "i": 22,
+    "i": 21,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -201,16 +201,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mesopotamian",
-    "i": 23,
+    "i": 22,
     "min": 4,
     "max": 9,
     "d": "srpl",
     "m": 0.1,
-    "b": "Adab,Adamndun,Adma,Admatum,Agrab,Akkad,Akshak,Amnanum,Andarig,Anshan,Apiru,Apum,Arantu,Arbid,Arpachiyah,Arpad,Arrapha,Ashlakka,Assur,Awan,Babilim,Bad-Tibira,Balawat,Barsip,Birtu,Bit-Bunakki,Borsippa,Chuera,Dashrah,Der,Dilbat,Diniktum,Doura,Dur-Kurigalzu,Dur-Sharrukin,Dur-Untash,D├╗r-gurgurri,Ebla,Ekallatum,Ekalte,Emar,Erbil,Eresh,Eridu,Eshnunn,Eshnunna,Gargamish,Gasur,Gawra,Gibil,Girsu,Gizza,Habirun,Habur,Hadatu,Hakkulan,Halab,Halabit,Hamazi,Hamoukar,Haradum,Harbidum,Harran,Harranu,Hassuna,Hatarikka,Hatra,Hissar,Hiyawa,Hormirzad,Ida-Maras,Idamaraz,Idu,Imerishu,Imgur-Enlil,Irisagrig,Irnina,Irridu,Isin,Issinnitum,Iturungal,Izubitum,Jarmo,Jemdet,Kabnak,Kadesh,Kahat,Kalhu,Kar-Shulmanu-Asharedu,Kar-Tukulti-Ninurta,Kar-shulmanu-asharedu,Karana,Karatepe,Kartukulti,Kazallu,Kesh,Kidsha,Kinza,Kish,Kisiga,Kisurra,Kuara,Kurda,Kurruhanni,Kutha,Lagaba,Lagash,Larak,Larsa,Leilan,Malgium,Marad,Mardaman,Mari,Marlik,Mashkan,Mashkan-shapir,Matutem,Me-Turan,Meliddu,Mumbaqat,Nabada,Nagar,Nanagugal,Nerebtum,Nigin,Nimrud,Nina,Nineveh,Ninua,Nippur,Niru,Niya,Nuhashe,Nuhasse,Nuzi,Puzrish-Dagan,Qalatjarmo,Qatara,Qatna,Qattunan,Qidshu,Rapiqum,Rawda,Sagaz,Shaduppum,Shaggaratum,Shalbatu,Shanidar,Sharrukin,Shawwan,Shehna,Shekhna,Shemshara,Shibaniba,Shubat-Enlil,Shurkutir,Shuruppak,Shusharra,Shushin,Sikan,Sippar,Sippar-Amnanum,Sippar-sha-Annunitum,Subatum,Susuka,Tadmor,Tarbisu,Telul,Terqa,Tirazish,Tisbon,Tuba,Tushhan,Tuttul,Tutub,Ubaid,Umma,Ur,Urah,Urbilum,Urkesh,Ursa'um,Uruk,Urum,Uzarlulu,Warka,Washukanni,Zabalam,Zarri-Amnan"
+    "b": "Adab,Adamndun,Adma,Admatum,Agrab,Akkad,Akshak,Amnanum,Andarig,Anshan,Apiru,Apum,Arantu,Arbid,Arpachiyah,Arpad,Arrapha,Ashlakka,Assur,Awan,Babilim,Bad-Tibira,Balawat,Barsip,Birtu,Bit-Bunakki,Borsippa,Chuera,Dashrah,Der,Dilbat,Diniktum,Doura,Dur-Kurigalzu,Dur-Sharrukin,Dur-Untash,Dâ”œâ•—r-gurgurri,Ebla,Ekallatum,Ekalte,Emar,Erbil,Eresh,Eridu,Eshnunn,Eshnunna,Gargamish,Gasur,Gawra,Gibil,Girsu,Gizza,Habirun,Habur,Hadatu,Hakkulan,Halab,Halabit,Hamazi,Hamoukar,Haradum,Harbidum,Harran,Harranu,Hassuna,Hatarikka,Hatra,Hissar,Hiyawa,Hormirzad,Ida-Maras,Idamaraz,Idu,Imerishu,Imgur-Enlil,Irisagrig,Irnina,Irridu,Isin,Issinnitum,Iturungal,Izubitum,Jarmo,Jemdet,Kabnak,Kadesh,Kahat,Kalhu,Kar-Shulmanu-Asharedu,Kar-Tukulti-Ninurta,Kar-shulmanu-asharedu,Karana,Karatepe,Kartukulti,Kazallu,Kesh,Kidsha,Kinza,Kish,Kisiga,Kisurra,Kuara,Kurda,Kurruhanni,Kutha,Lagaba,Lagash,Larak,Larsa,Leilan,Malgium,Marad,Mardaman,Mari,Marlik,Mashkan,Mashkan-shapir,Matutem,Me-Turan,Meliddu,Mumbaqat,Nabada,Nagar,Nanagugal,Nerebtum,Nigin,Nimrud,Nina,Nineveh,Ninua,Nippur,Niru,Niya,Nuhashe,Nuhasse,Nuzi,Puzrish-Dagan,Qalatjarmo,Qatara,Qatna,Qattunan,Qidshu,Rapiqum,Rawda,Sagaz,Shaduppum,Shaggaratum,Shalbatu,Shanidar,Sharrukin,Shawwan,Shehna,Shekhna,Shemshara,Shibaniba,Shubat-Enlil,Shurkutir,Shuruppak,Shusharra,Shushin,Sikan,Sippar,Sippar-Amnanum,Sippar-sha-Annunitum,Subatum,Susuka,Tadmor,Tarbisu,Telul,Terqa,Tirazish,Tisbon,Tuba,Tushhan,Tuttul,Tutub,Ubaid,Umma,Ur,Urah,Urbilum,Urkesh,Ursa'um,Uruk,Urum,Uzarlulu,Warka,Washukanni,Zabalam,Zarri-Amnan"
   },
   {
     "name": "Iranian",
-    "i": 24,
+    "i": 23,
     "min": 5,
     "max": 11,
     "d": "",
@@ -219,7 +219,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hawaiian",
-    "i": 25,
+    "i": 24,
     "min": 5,
     "max": 10,
     "d": "auo",
@@ -228,7 +228,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karnataka",
-    "i": 26,
+    "i": 25,
     "min": 5,
     "max": 11,
     "d": "tnl",
@@ -237,7 +237,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Quechua",
-    "i": 27,
+    "i": 26,
     "min": 6,
     "max": 12,
     "d": "l",
@@ -246,7 +246,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Swahili",
-    "i": 28,
+    "i": 27,
     "min": 4,
     "max": 9,
     "d": "",
@@ -255,7 +255,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vietnamese",
-    "i": 29,
+    "i": 28,
     "min": 3,
     "max": 12,
     "d": "",
@@ -264,7 +264,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cantonese",
-    "i": 30,
+    "i": 29,
     "min": 5,
     "max": 11,
     "d": "",
@@ -273,7 +273,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mongolian",
-    "i": 31,
+    "i": 30,
     "min": 5,
     "max": 12,
     "d": "aou",
@@ -282,7 +282,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gurage",
-    "i": 311,
+    "i": 31,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -291,7 +291,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Harari-Argobba",
-    "i": 312,
+    "i": 32,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -300,7 +300,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Australian Aboriginal",
-    "i": 313,
+    "i": 33,
     "min": 4,
     "max": 11,
     "d": "pam-AU",
@@ -309,7 +309,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lechitic",
-    "i": 314,
+    "i": 34,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -318,7 +318,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Czech-Slovak",
-    "i": 315,
+    "i": 35,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -327,7 +327,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Slavic BCS",
-    "i": 316,
+    "i": 36,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -336,16 +336,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berber",
-    "i": 331,
+    "i": 37,
     "min": 4,
     "max": 10,
     "d": "afa-DZ",
     "m": 0.2,
-    "b": "Agadir,Tizi Ouzou,Béjaïa,Ouargla,Tamanrasset,Imilchil,Taroudant,Tafraout,Tiznit,Azrou,Midelt,Settat,Marrakech,Fès,Tanger,Meknès,Rabat,Oujda,Kénitra,Tétouan,Safi,El Jadida,Béni Mellal"
+    "b": "Agadir,Tizi Ouzou,BÃ©jaÃ¯a,Ouargla,Tamanrasset,Imilchil,Taroudant,Tafraout,Tiznit,Azrou,Midelt,Settat,Marrakech,FÃ¨s,Tanger,MeknÃ¨s,Rabat,Oujda,KÃ©nitra,TÃ©touan,Safi,El Jadida,BÃ©ni Mellal"
   },
   {
-    "name": "Ekoka ǃKung",
-    "i": 353,
+    "name": "Ekoka ÇƒKung",
+    "i": 38,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -354,7 +354,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sekele",
-    "i": 354,
+    "i": 39,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -362,8 +362,8 @@ window.realWorldNameBases = [
     "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
   },
   {
-    "name": "ǂʼAmkoe",
-    "i": 355,
+    "name": "Ç‚Ê¼Amkoe",
+    "i": 40,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -372,7 +372,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Taa Click",
-    "i": 356,
+    "i": 41,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -380,8 +380,8 @@ window.realWorldNameBases = [
     "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs"
   },
   {
-    "name": "Nǁng Click",
-    "i": 357,
+    "name": "NÇng Click",
+    "i": 42,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -390,16 +390,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nama Click",
-    "i": 358,
+    "i": 43,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,Grünau,Holoog,Koes,Koeras,Gruenau,Kub"
+    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,GrÃ¼nau,Holoog,Koes,Koeras,Gruenau,Kub"
   },
   {
     "name": "Naro Click",
-    "i": 359,
+    "i": 44,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -408,7 +408,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Papuan",
-    "i": 360,
+    "i": 45,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -416,8 +416,8 @@ window.realWorldNameBases = [
     "b": "Tari,Mendi,Wabag,Ialibu,Koroba,Kagua,Kundiawa,Kerowagi,Minj,Banz,Goroka,Kainantu,Henganofi,Chuave,Obura,Wapenamanda,Kompiam,Porgera,Enga,Okapa,Menyamya,Finschhafen,Kikori,Tapu"
   },
   {
-    "name": "Gǃui Click",
-    "i": 361,
+    "name": "GÇƒui Click",
+    "i": 46,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -426,7 +426,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ju/'hoan Click",
-    "i": 362,
+    "i": 47,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -435,7 +435,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hadza Click",
-    "i": 363,
+    "i": 48,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -444,7 +444,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sandawe Click",
-    "i": 364,
+    "i": 49,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -453,7 +453,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Engan Papuan",
-    "i": 365,
+    "i": 50,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -462,7 +462,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dani Papuan",
-    "i": 366,
+    "i": 51,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -471,7 +471,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Indonesian",
-    "i": 367,
+    "i": 52,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -480,7 +480,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Melanesian Vanuatu",
-    "i": 368,
+    "i": 53,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -489,7 +489,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Micronesian",
-    "i": 369,
+    "i": 54,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -498,7 +498,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Pacific",
-    "i": 370,
+    "i": 55,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -507,7 +507,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "New Caledonia",
-    "i": 371,
+    "i": 56,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -516,7 +516,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bulgarian",
-    "i": 372,
+    "i": 57,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -525,7 +525,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ukrainian",
-    "i": 373,
+    "i": 58,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -534,7 +534,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gondi",
-    "i": 374,
+    "i": 59,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -543,7 +543,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kui-Kuvi Dravidian",
-    "i": 375,
+    "i": 60,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -552,7 +552,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koya-Konda-Manda-Pengo",
-    "i": 376,
+    "i": 61,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -561,7 +561,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bemba-Bembe-Fwe",
-    "i": 377,
+    "i": 62,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -570,7 +570,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berta-Besme",
-    "i": 378,
+    "i": 63,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -579,7 +579,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Omaio-Shabo-Seze",
-    "i": 379,
+    "i": 64,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -588,7 +588,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tungusic",
-    "i": 380,
+    "i": 65,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -597,7 +597,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Mongolic",
-    "i": 381,
+    "i": 66,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -606,7 +606,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mandara Chadic",
-    "i": 384,
+    "i": 67,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -615,7 +615,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bauchi Chadic",
-    "i": 385,
+    "i": 68,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -624,25 +624,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Chadic",
-    "i": 386,
+    "i": 69,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Ab├⌐ch├⌐,Bitkine,Bousso,Fianga,B├⌐r├⌐"
+    "b": "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Abâ”œâŒchâ”œâŒ,Bitkine,Bousso,Fianga,Bâ”œâŒrâ”œâŒ"
   },
   {
-    "name": "Kwaza-Xoc├│ Amazonian",
-    "i": 388,
+    "name": "Kwaza-Xocâ”œâ”‚ Amazonian",
+    "i": 70,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Porto Velho,Ji-Paran├í,Cacoal,Vilhena,Guajar├í-Mirim,Ariquemes,Humait├í,Altamira,Santar├⌐m,Itaituba,Marab├í,Aragua├¡na,Palmas,Aracaju,Propri├í,Penedo,Paulo Afonso,Delmiro Gouveia"
+    "b": "Porto Velho,Ji-Paranâ”œÃ­,Cacoal,Vilhena,Guajarâ”œÃ­-Mirim,Ariquemes,Humaitâ”œÃ­,Altamira,Santarâ”œâŒm,Itaituba,Marabâ”œÃ­,Araguaâ”œÂ¡na,Palmas,Aracaju,Propriâ”œÃ­,Penedo,Paulo Afonso,Delmiro Gouveia"
   },
   {
-    "name": "Pur├⌐pecha",
-    "i": 389,
+    "name": "Purâ”œâŒpecha",
+    "i": 71,
     "min": 5,
     "max": 12,
     "d": "nic-GH",
@@ -650,44 +650,44 @@ window.realWorldNameBases = [
     "b": "Morelia,Uruapan,Zamora,Patzcuaro,Tzintzuntzan,Cheran,Paracho,LosReyes,Angamacutiro,Angangueo,Apatzingan,Acuitzio,Aguililla,Arteaga,Ario,Brisenas,Buenavista,Caracuaro,Charapan,Charo,Chavinda,Chilchota,Chinicuila,Chucandiro,Churintzio,Churumuco,Coahuayana,Coalcoman,Coeneo,Cojumatlan,Contepec,Copandaro,Cotija,Cuitzeo,Ecuandureo,Erongaricuaro,GabrielZamora,Hidalgo,Huandacareo,Huaniqueo,Huetamo,Huiramba,Indaparapeo,Irimbo,Ixtlan,Jacona,Jimenez,Jiquilpan,Jungapeo,Lagunillas,LaPiedad,Maravatio,Morelos"
   },
   {
-    "name": "Angolar S├úo Tom├⌐",
-    "i": 390,
+    "name": "Angolar Sâ”œÃºo Tomâ”œâŒ",
+    "i": 72,
     "min": 5,
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "S├úo Jo├úo dos Angolares,Porto Alegre,Ribeira Peixe,Ilh├⌐u das Rolas,Praia Inhame,Praia Jale,Praia Cabana,Praia Micond├│,Praia Messias Alves,Praia Pesqueira,Praia Vagre,Praia Negal,Praia Yepipa,Praia Umbugo,Praia Martim,Praia Leve,Praia Abade,Praia Cascata,Praia Erasmo,Angolares,Budo Budo,Vila Malanza,Cabaceira,Monte Carmo,Emolve,Uba Budo,Malanza,Praia Salema,Praia Barrosa,Ponta Baleia,Praia Lozia,Praia Pesqueira Pequena,Praia Vermelha,Praia Viedade,Praia Cam├úo,Praia Ihlo,Praia Caix├úo,Praia Margarida,Praia San Ant├│nio,Praia Cabinda,Praia Boca de Inferno,Praia Santa Clara,Praia Santa Cruz,Praia S├úo Joaquim"
+    "b": "Sâ”œÃºo Joâ”œÃºo dos Angolares,Porto Alegre,Ribeira Peixe,Ilhâ”œâŒu das Rolas,Praia Inhame,Praia Jale,Praia Cabana,Praia Micondâ”œâ”‚,Praia Messias Alves,Praia Pesqueira,Praia Vagre,Praia Negal,Praia Yepipa,Praia Umbugo,Praia Martim,Praia Leve,Praia Abade,Praia Cascata,Praia Erasmo,Angolares,Budo Budo,Vila Malanza,Cabaceira,Monte Carmo,Emolve,Uba Budo,Malanza,Praia Salema,Praia Barrosa,Ponta Baleia,Praia Lozia,Praia Pesqueira Pequena,Praia Vermelha,Praia Viedade,Praia Camâ”œÃºo,Praia Ihlo,Praia Caixâ”œÃºo,Praia Margarida,Praia San Antâ”œâ”‚nio,Praia Cabinda,Praia Boca de Inferno,Praia Santa Clara,Praia Santa Cruz,Praia Sâ”œÃºo Joaquim"
   },
   {
-    "name": "Annobonese Pal├⌐",
-    "i": 391,
+    "name": "Annobonese Palâ”œâŒ",
+    "i": 73,
     "min": 5,
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "San Antonio de Pal├⌐,Fogo,Mabana,Matamba,Angochi,San Antonio Pequeno,Calvario,Amoco,Amoco Pequeno,Machado,Angu,Moletry,Pingano,Lagoa Azul,Makoko,Matar,Mangueira,Mombaba,Morro Lopes,Morro Fina,Praia da Morena,Praia de Fogo,Praia das Galinhas,Praia da Uva,Praia do Leste,Praia do Sul,Praia de San Antonio,Tchind├í,Tandjang,Tanfafe,Tanque,Kapam,Kapado,Ponta Velha,Ponta Kapelo,Ponta M├│,Novo Caminho,Quissanga,Pollonia,Annybon,Anapo,Praia Cabinda,Praia Boa Vista"
+    "b": "San Antonio de Palâ”œâŒ,Fogo,Mabana,Matamba,Angochi,San Antonio Pequeno,Calvario,Amoco,Amoco Pequeno,Machado,Angu,Moletry,Pingano,Lagoa Azul,Makoko,Matar,Mangueira,Mombaba,Morro Lopes,Morro Fina,Praia da Morena,Praia de Fogo,Praia das Galinhas,Praia da Uva,Praia do Leste,Praia do Sul,Praia de San Antonio,Tchindâ”œÃ­,Tandjang,Tanfafe,Tanque,Kapam,Kapado,Ponta Velha,Ponta Kapelo,Ponta Mâ”œâ”‚,Novo Caminho,Quissanga,Pollonia,Annybon,Anapo,Praia Cabinda,Praia Boa Vista"
   },
   {
-    "name": "Forro S├úo Tom├⌐",
-    "i": 392,
+    "name": "Forro Sâ”œÃºo Tomâ”œâŒ",
+    "i": 74,
     "min": 5,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "S├úo Tom├⌐,Trindade,Santana,Neves,Guadalupe,Bombom,Pantufo,├ügua Grande,Riboque,Mesquita,Batep├í,Piedade,Ribeira Afonso,Ribeira Peixe,Madalena,Micol├│,Monte Caf├⌐,Conde,Boa Entrada,Boa Vista,Santa Margarida,Santa Catarina,Santa Cruz,Santa Clara,Santa Luzia,Diogo Vaz,Porto Alegre,Praia Cruz,Palmares,├ügua Iz├⌐,Fruta Fruta,S├úo Mar├ºal,S├úo Miguel,S├úo Pedro,Uba Budo,Emolve,Monte M├írio,Caix├úo Grande,Almas,Alto Douro,S├úo L├ízaro,Almeirim,Andrade,B├┤b├┤ Forro,Bela Vista,Bom Sucesso,Bom Bom,Bom Despacho"
+    "b": "Sâ”œÃºo Tomâ”œâŒ,Trindade,Santana,Neves,Guadalupe,Bombom,Pantufo,â”œÃ¼gua Grande,Riboque,Mesquita,Batepâ”œÃ­,Piedade,Ribeira Afonso,Ribeira Peixe,Madalena,Micolâ”œâ”‚,Monte Cafâ”œâŒ,Conde,Boa Entrada,Boa Vista,Santa Margarida,Santa Catarina,Santa Cruz,Santa Clara,Santa Luzia,Diogo Vaz,Porto Alegre,Praia Cruz,Palmares,â”œÃ¼gua Izâ”œâŒ,Fruta Fruta,Sâ”œÃºo Marâ”œÂºal,Sâ”œÃºo Miguel,Sâ”œÃºo Pedro,Uba Budo,Emolve,Monte Mâ”œÃ­rio,Caixâ”œÃºo Grande,Almas,Alto Douro,Sâ”œÃºo Lâ”œÃ­zaro,Almeirim,Andrade,Bâ”œâ”¤bâ”œâ”¤ Forro,Bela Vista,Bom Sucesso,Bom Bom,Bom Despacho"
   },
   {
     "name": "Principense Sundy",
-    "i": 393,
+    "i": 75,
     "min": 5,
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "Santo Ant├│nio,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,S├úo Joaquim,Oqu├¬ Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caix├úo,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia T├⌐tin,Praia Uva,Praia Ribeira Iz├⌐,Praia Catamar├ú,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Ca├ºa,Praia Fantome,Praia Bacia,Praia Boi├úo,Praia Infante,Praia Budo,Praia Esprainha,Praia Gale├úo,Praia Santo Ant├│nio"
+    "b": "Santo Antâ”œâ”‚nio,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,Sâ”œÃºo Joaquim,Oquâ”œÂ¬ Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caixâ”œÃºo,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia Tâ”œâŒtin,Praia Uva,Praia Ribeira Izâ”œâŒ,Praia Catamarâ”œÃº,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Caâ”œÂºa,Praia Fantome,Praia Bacia,Praia Boiâ”œÃºo,Praia Infante,Praia Budo,Praia Esprainha,Praia Galeâ”œÃºo,Praia Santo Antâ”œâ”‚nio"
   },
   {
     "name": "Irish Gaelic",
-    "i": 394,
+    "i": 76,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -696,7 +696,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Scottish Gaelic",
-    "i": 395,
+    "i": 77,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -705,16 +705,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Seri",
-    "i": 396,
+    "i": 78,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Pe├▒asco,Bah├¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bah├¡a San Carlos,Ortiz,Pesqueira"
+    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
   },
   {
     "name": "Tokelauan",
-    "i": 397,
+    "i": 79,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -723,7 +723,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nauruan",
-    "i": 398,
+    "i": 80,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -732,7 +732,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tok Pisin",
-    "i": 399,
+    "i": 81,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -741,7 +741,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huave",
-    "i": 400,
+    "i": 82,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -750,7 +750,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tuvaluan",
-    "i": 401,
+    "i": 83,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -759,7 +759,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shipibo-Conibo Amazonian",
-    "i": 421,
+    "i": 84,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -768,7 +768,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Warao Delta",
-    "i": 422,
+    "i": 85,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -777,16 +777,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yanomami Amazonian",
-    "i": 423,
+    "i": 86,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Boa Vista,Caracara├¡,Mucaja├¡,Alto Alegre,Pacaraima,San Gabriel da Cachoeira,Barcelos,Santa Isabel do Rio Negro,Maroa,La Esmeralda,Santa Elena de Uair├⌐n,Maturac├í,Auaris,Surucucu,Parima,Catrimani,Demini,Mucajai,Tepequ├⌐m"
+    "b": "Boa Vista,Caracaraâ”œÂ¡,Mucajaâ”œÂ¡,Alto Alegre,Pacaraima,San Gabriel da Cachoeira,Barcelos,Santa Isabel do Rio Negro,Maroa,La Esmeralda,Santa Elena de Uairâ”œâŒn,Maturacâ”œÃ­,Auaris,Surucucu,Parima,Catrimani,Demini,Mucajai,Tepequâ”œâŒm"
   },
   {
     "name": "South Estonian A",
-    "i": 424,
+    "i": 87,
     "min": 5,
     "max": 11,
     "d": "akiut",
@@ -795,7 +795,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Estonian B",
-    "i": 425,
+    "i": 88,
     "min": 5,
     "max": 11,
     "d": "akiut",
@@ -804,7 +804,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Middle English",
-    "i": 431,
+    "i": 89,
     "min": 5,
     "max": 11,
     "d": "",
@@ -813,16 +813,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Spanish Global",
-    "i": 432,
+    "i": 90,
     "min": 5,
     "max": 11,
     "d": "lr",
     "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,M├ílaga,Bilbao,Montevideo,Buenos Aires,Santiago,Lima,Bogot├í,Caracas,La Habana,San Juan,Asunci├│n,Santo Domingo,Quito,Guayaquil,Cali"
+    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Mâ”œÃ­laga,Bilbao,Montevideo,Buenos Aires,Santiago,Lima,Bogotâ”œÃ­,Caracas,La Habana,San Juan,Asunciâ”œâ”‚n,Santo Domingo,Quito,Guayaquil,Cali"
   },
   {
     "name": "Mandarin Global",
-    "i": 433,
+    "i": 91,
     "min": 5,
     "max": 10,
     "d": "",
@@ -831,7 +831,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arabic Global",
-    "i": 434,
+    "i": 92,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -840,7 +840,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "English Global",
-    "i": 435,
+    "i": 93,
     "min": 6,
     "max": 11,
     "d": "",
@@ -849,7 +849,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old English",
-    "i": 436,
+    "i": 94,
     "min": 5,
     "max": 11,
     "d": "",
@@ -858,7 +858,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Archi",
-    "i": 437,
+    "i": 95,
     "min": 4,
     "max": 10,
     "d": "",
@@ -867,7 +867,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Samoyedic Arctic",
-    "i": 438,
+    "i": 96,
     "min": 5,
     "max": 12,
     "d": "nic-GH",
@@ -876,7 +876,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iban",
-    "i": 439,
+    "i": 97,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -885,7 +885,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sarawakian Malay",
-    "i": 440,
+    "i": 98,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -894,7 +894,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Brunei Malay",
-    "i": 441,
+    "i": 99,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -903,7 +903,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sabah Malay",
-    "i": 442,
+    "i": 100,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -912,7 +912,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malaysian Malay",
-    "i": 443,
+    "i": 101,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -921,7 +921,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berau Malay",
-    "i": 444,
+    "i": 102,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -930,7 +930,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Standard Malay",
-    "i": 445,
+    "i": 103,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -939,7 +939,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cocos Malay",
-    "i": 446,
+    "i": 104,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -948,7 +948,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kupang Malay",
-    "i": 447,
+    "i": 105,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -957,7 +957,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Larantuka Malay",
-    "i": 448,
+    "i": 106,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -966,7 +966,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Makassar Malay",
-    "i": 449,
+    "i": 107,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -975,7 +975,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malaccan Creole Malay",
-    "i": 450,
+    "i": 108,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -984,7 +984,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Manado Malay",
-    "i": 451,
+    "i": 109,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -993,7 +993,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Maumere Malay",
-    "i": 452,
+    "i": 110,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1002,7 +1002,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Moluccan Malay",
-    "i": 453,
+    "i": 111,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1011,7 +1011,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Papuan Malay",
-    "i": 454,
+    "i": 112,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1020,7 +1020,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Serui Malay",
-    "i": 455,
+    "i": 113,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1029,7 +1029,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sri Lankan Malay",
-    "i": 456,
+    "i": 114,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1038,7 +1038,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sula Malay",
-    "i": 457,
+    "i": 115,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1047,7 +1047,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Batek",
-    "i": 458,
+    "i": 116,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1056,7 +1056,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mah Meri",
-    "i": 459,
+    "i": 117,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1065,7 +1065,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Semai",
-    "i": 460,
+    "i": 118,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1074,7 +1074,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Semaq Beri",
-    "i": 461,
+    "i": 119,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1083,7 +1083,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Semelai",
-    "i": 462,
+    "i": 120,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1092,7 +1092,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Temiar",
-    "i": 463,
+    "i": 121,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1101,7 +1101,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Camorta Nicobarese",
-    "i": 464,
+    "i": 122,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1110,7 +1110,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Car Nicobarese",
-    "i": 465,
+    "i": 123,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1119,7 +1119,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chaura Nicobarese",
-    "i": 466,
+    "i": 124,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1128,7 +1128,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nancowry Nicobarese",
-    "i": 467,
+    "i": 125,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1137,7 +1137,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nicobarese (macro)",
-    "i": 468,
+    "i": 126,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1146,7 +1146,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Orang Pulo",
-    "i": 469,
+    "i": 127,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1155,7 +1155,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Peranakan",
-    "i": 470,
+    "i": 128,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1164,7 +1164,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shompen",
-    "i": 471,
+    "i": 129,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1173,7 +1173,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Nicobarese",
-    "i": 472,
+    "i": 130,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1182,7 +1182,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Teressa Nicobarese",
-    "i": 473,
+    "i": 131,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1191,7 +1191,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Katchal Nicobarese",
-    "i": 474,
+    "i": 132,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1200,7 +1200,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kenaboi",
-    "i": 475,
+    "i": 133,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1209,7 +1209,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Minangkabau",
-    "i": 476,
+    "i": 134,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1218,7 +1218,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lampung",
-    "i": 477,
+    "i": 135,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1227,7 +1227,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bima",
-    "i": 478,
+    "i": 136,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1236,7 +1236,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Rejang",
-    "i": 479,
+    "i": 137,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1245,7 +1245,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basap",
-    "i": 480,
+    "i": 138,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1254,7 +1254,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Selaru",
-    "i": 481,
+    "i": 139,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1263,7 +1263,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Land Dayak",
-    "i": 482,
+    "i": 140,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1272,7 +1272,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Flores-Lembata",
-    "i": 483,
+    "i": 141,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1281,7 +1281,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kei-Tanimbar",
-    "i": 484,
+    "i": 142,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1290,7 +1290,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Timoric",
-    "i": 485,
+    "i": 143,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1299,7 +1299,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sumba-Flores",
-    "i": 486,
+    "i": 144,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1308,7 +1308,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tomini-Tolitoli",
-    "i": 487,
+    "i": 145,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1317,7 +1317,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Muna-Buton",
-    "i": 488,
+    "i": 146,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1326,7 +1326,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Minahasan",
-    "i": 489,
+    "i": 147,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1335,7 +1335,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sangiric",
-    "i": 490,
+    "i": 148,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1344,7 +1344,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kayan-Murik",
-    "i": 491,
+    "i": 149,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1353,7 +1353,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Melanau-Kajang",
-    "i": 492,
+    "i": 150,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1362,7 +1362,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Sarawakan",
-    "i": 493,
+    "i": 151,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1371,7 +1371,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sabahan",
-    "i": 494,
+    "i": 152,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1380,7 +1380,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Borneo",
-    "i": 495,
+    "i": 153,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1389,7 +1389,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greater North Borneo",
-    "i": 496,
+    "i": 154,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1398,7 +1398,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Makassar Branch",
-    "i": 497,
+    "i": 155,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1407,7 +1407,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Sulawesi",
-    "i": 498,
+    "i": 156,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1416,7 +1416,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern South Sulawesi",
-    "i": 499,
+    "i": 157,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1425,7 +1425,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central South Sulawesi",
-    "i": 500,
+    "i": 158,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1434,7 +1434,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kaili-Wolio",
-    "i": 501,
+    "i": 159,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1443,7 +1443,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Saluan-Banggai",
-    "i": 502,
+    "i": 160,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1452,7 +1452,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Seko-Badaic",
-    "i": 503,
+    "i": 161,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1461,7 +1461,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Moklenic",
-    "i": 504,
+    "i": 162,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1470,7 +1470,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nasal",
-    "i": 505,
+    "i": 163,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1479,7 +1479,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northwest Sumatra Barrier Islands",
-    "i": 506,
+    "i": 164,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1488,7 +1488,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sumatran",
-    "i": 507,
+    "i": 165,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1497,7 +1497,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "SHWNG",
-    "i": 508,
+    "i": 166,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1506,7 +1506,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barito",
-    "i": 509,
+    "i": 167,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1515,7 +1515,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bali Sasak Sumbawa",
-    "i": 510,
+    "i": 168,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1524,7 +1524,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alor Malay",
-    "i": 511,
+    "i": 169,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1533,7 +1533,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ambonese Malay",
-    "i": 512,
+    "i": 170,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1542,7 +1542,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malaysian Mandarin",
-    "i": 513,
+    "i": 171,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1551,7 +1551,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malayo-Chamic",
-    "i": 514,
+    "i": 172,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1560,7 +1560,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malayo-Polynesian",
-    "i": 515,
+    "i": 173,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1569,7 +1569,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Malayo-Polynesian",
-    "i": 516,
+    "i": 174,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1578,7 +1578,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Singaporean Mandarin",
-    "i": 517,
+    "i": 175,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1587,7 +1587,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Acehnese",
-    "i": 518,
+    "i": 176,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1596,7 +1596,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Madurese",
-    "i": 519,
+    "i": 177,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1605,7 +1605,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North New Guinea",
-    "i": 520,
+    "i": 178,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1614,7 +1614,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sawila",
-    "i": 521,
+    "i": 179,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1623,7 +1623,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Halmahera",
-    "i": 522,
+    "i": 180,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1632,7 +1632,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barlavento Creoles",
-    "i": 523,
+    "i": 181,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1641,16 +1641,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fogo Creole",
-    "i": 524,
+    "i": 182,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fogo,Sao Filipe,Mosteiros,Ch├ú das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,São Filipe,Chã das Caldeiras,Portela,Relva,Figueira Pavão,Cabeça Fundão,Monte Genebra,Bangaeira,Estância Roque"
+    "b": "Fogo,Sao Filipe,Mosteiros,Châ”œÃº das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,SÃ£o Filipe,ChÃ£ das Caldeiras,Portela,Relva,Figueira PavÃ£o,CabeÃ§a FundÃ£o,Monte Genebra,Bangaeira,EstÃ¢ncia Roque"
   },
   {
     "name": "Nenets",
-    "i": 525,
+    "i": 183,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1659,7 +1659,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Juk (Bahnaric)",
-    "i": 526,
+    "i": 184,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1668,7 +1668,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wa",
-    "i": 527,
+    "i": 185,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1677,7 +1677,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tiwi",
-    "i": 534,
+    "i": 186,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1686,7 +1686,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ari (Papuan)",
-    "i": 535,
+    "i": 187,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1695,7 +1695,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Maguindanao",
-    "i": 536,
+    "i": 188,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1704,7 +1704,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sotavento Creoles",
-    "i": 537,
+    "i": 189,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1713,7 +1713,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sundanese",
-    "i": 538,
+    "i": 190,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1722,7 +1722,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mardijker Creole",
-    "i": 539,
+    "i": 191,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1731,16 +1731,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tetum",
-    "i": 540,
+    "i": 192,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,Liquiçá"
+    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,LiquiÃ§Ã¡"
   },
   {
     "name": "Santali",
-    "i": 541,
+    "i": 193,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1749,7 +1749,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Palaung",
-    "i": 542,
+    "i": 194,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1758,7 +1758,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abui",
-    "i": 543,
+    "i": 195,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1767,7 +1767,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Angal",
-    "i": 544,
+    "i": 196,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1776,7 +1776,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asmat",
-    "i": 545,
+    "i": 197,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1785,7 +1785,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asmat Citak",
-    "i": 546,
+    "i": 198,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1793,8 +1793,8 @@ window.realWorldNameBases = [
     "b": "Agats,Citak,Kaokonao,Kokonao,Tanam,Asmat,Suator,Kepi,Okaba,Merauke,Obaa,Bade,Passel,Yowon"
   },
   {
-    "name": "AsmatΓÇôKamoro",
-    "i": 547,
+    "name": "AsmatÎ“Ã‡Ã´Kamoro",
+    "i": 199,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1803,7 +1803,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Becking-Dawi",
-    "i": 548,
+    "i": 200,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1812,7 +1812,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Benabena",
-    "i": 549,
+    "i": 201,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1821,7 +1821,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bimin",
-    "i": 550,
+    "i": 202,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1830,7 +1830,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gadsup",
-    "i": 551,
+    "i": 203,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1839,7 +1839,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gahuku",
-    "i": 552,
+    "i": 204,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1848,7 +1848,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gogodala",
-    "i": 553,
+    "i": 205,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1857,7 +1857,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awiyaana",
-    "i": 554,
+    "i": 206,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1866,7 +1866,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kasua",
-    "i": 555,
+    "i": 207,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1875,7 +1875,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamoro",
-    "i": 556,
+    "i": 208,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1884,7 +1884,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kerewo",
-    "i": 557,
+    "i": 209,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1893,7 +1893,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kenati",
-    "i": 558,
+    "i": 210,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1902,7 +1902,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bunun",
-    "i": 559,
+    "i": 211,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1911,16 +1911,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bunun (Isbukun)",
-    "i": 560,
+    "i": 212,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Xinyi,Tongpu,Meishan,Chinai,Dongpu,Shuili,Puli,Yuchi,Renai,Cingjing,Hehuanshan,Nantou,Isbukun,Yanping,Haiduan,延平,Luye,Guanshan,Chishang,Fuli,Ruisui,Guangfu,Shoufeng,Xincheng"
+    "b": "Xinyi,Tongpu,Meishan,Chinai,Dongpu,Shuili,Puli,Yuchi,Renai,Cingjing,Hehuanshan,Nantou,Isbukun,Yanping,Haiduan,å»¶å¹³,Luye,Guanshan,Chishang,Fuli,Ruisui,Guangfu,Shoufeng,Xincheng"
   },
   {
     "name": "Bunun (Northern-Central)",
-    "i": 561,
+    "i": 213,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1929,7 +1929,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basay",
-    "i": 562,
+    "i": 214,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1938,7 +1938,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Babuza",
-    "i": 563,
+    "i": 215,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1947,7 +1947,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amis",
-    "i": 564,
+    "i": 216,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1956,7 +1956,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Atayal (Squliq)",
-    "i": 565,
+    "i": 217,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1965,7 +1965,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Atayal (Ts'ole')",
-    "i": 566,
+    "i": 218,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1974,7 +1974,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bustocco-Legnanese",
-    "i": 567,
+    "i": 219,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1983,7 +1983,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cadorino",
-    "i": 568,
+    "i": 220,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1992,7 +1992,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Calabro",
-    "i": 569,
+    "i": 221,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2001,7 +2001,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Campano",
-    "i": 570,
+    "i": 222,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2010,7 +2010,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Campidanese",
-    "i": 571,
+    "i": 223,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2019,7 +2019,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Canarian",
-    "i": 572,
+    "i": 224,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2028,7 +2028,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akkala Sami",
-    "i": 575,
+    "i": 225,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2037,43 +2037,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Finnmark Sami",
-    "i": 576,
+    "i": 226,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Karasjok,Kautokeino,Alta,Hammerfest,Lakselv,Porsanger,Vads├╕,Vard├╕,Tana,Kirkenes,Mehamn,Berlev├Ñg,Nesseby,Berlevag,Vardo,Vadso"
+    "b": "Karasjok,Kautokeino,Alta,Hammerfest,Lakselv,Porsanger,Vadsâ”œâ••,Vardâ”œâ••,Tana,Kirkenes,Mehamn,Berlevâ”œÃ‘g,Nesseby,Berlevag,Vardo,Vadso"
   },
   {
     "name": "Inari Sami",
-    "i": 577,
+    "i": 227,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Inari,Ivalo,Saariselk├ñ,Nellim,Kaamanen,Utsjoki,Enonteki├╢,Sodankyl├ñ,Rovaniemi,Vuotso,Muotka,Nuorgam,Sevettijärvi,Partakko,Vätsäri,Lemmenjoki,Saariselkä,Kittilä,Sodankylä"
+    "b": "Inari,Ivalo,Saariselkâ”œÃ±,Nellim,Kaamanen,Utsjoki,Enontekiâ”œâ•¢,Sodankylâ”œÃ±,Rovaniemi,Vuotso,Muotka,Nuorgam,SevettijÃ¤rvi,Partakko,VÃ¤tsÃ¤ri,Lemmenjoki,SaariselkÃ¤,KittilÃ¤,SodankylÃ¤"
   },
   {
     "name": "Kainuu Sami",
-    "i": 578,
+    "i": 228,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kajaani,Sotkamo,Kuhmo,Suomussalmi,Hyrynsalmi,Paltamo,Ristij├ñrvi,Puolanka,Vaala,Utaj├ñrvi,Kuusamo,Oulu,Kainuu,Ristijärvi,Vuolijoki"
+    "b": "Kajaani,Sotkamo,Kuhmo,Suomussalmi,Hyrynsalmi,Paltamo,Ristijâ”œÃ±rvi,Puolanka,Vaala,Utajâ”œÃ±rvi,Kuusamo,Oulu,Kainuu,RistijÃ¤rvi,Vuolijoki"
   },
   {
     "name": "Kemi Sami",
-    "i": 579,
+    "i": 229,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla,Simo,Ranua,Kemijärvi,Pelkosenniemi,Savukoski,Kuusamo"
+    "b": "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla,Simo,Ranua,KemijÃ¤rvi,Pelkosenniemi,Savukoski,Kuusamo"
   },
   {
     "name": "Kildin Sami",
-    "i": 580,
+    "i": 230,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2082,52 +2082,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lule Sami",
-    "i": 581,
+    "i": 231,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jokkmokk,G├ñllivare,Kiruna,Lule├Ñ,Boden,├ûrrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,S├╢rkaitum,Gällivare,Harads,Luleå,Älvsbyn,Sorsele,Storuman"
+    "b": "Jokkmokk,Gâ”œÃ±llivare,Kiruna,Luleâ”œÃ‘,Boden,â”œÃ»rrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,Sâ”œâ•¢rkaitum,GÃ¤llivare,Harads,LuleÃ¥,Ã„lvsbyn,Sorsele,Storuman"
   },
   {
     "name": "Catalan",
-    "i": 582,
+    "i": 232,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matar├│,Vic,Olot,Tortosa,Sant Cugat del Vallès,Cornellà de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,Gavà,El Prat de Llobregat,Cerdanyola del Vallès,Mollet del Vallès,Montcada i Reixac"
+    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matarâ”œâ”‚,Vic,Olot,Tortosa,Sant Cugat del VallÃ¨s,CornellÃ  de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,GavÃ ,El Prat de Llobregat,Cerdanyola del VallÃ¨s,Mollet del VallÃ¨s,Montcada i Reixac"
   },
   {
     "name": "Cantabrian",
-    "i": 583,
+    "i": 233,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santander,Torrelavega,Castro Urdiales,Laredo,Reinosa,Santo├▒a,Comillas,San Vicente de la Barquera,Potes,Cabez├│n de la Sal,Noja,Ampuero"
+    "b": "Santander,Torrelavega,Castro Urdiales,Laredo,Reinosa,Santoâ”œâ–’a,Comillas,San Vicente de la Barquera,Potes,Cabezâ”œâ”‚n de la Sal,Noja,Ampuero"
   },
   {
-    "name": "Cast├║o",
-    "i": 584,
+    "name": "Castâ”œâ•‘o",
+    "i": 234,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Badajoz,M├⌐rida,C├íceres,Plasencia,Don Benito,Villanueva de la Serena,Zafra,Almendralejo,Trujillo,Navalmoral de la Mata,Olivenza,Jerez de los Caballeros"
+    "b": "Badajoz,Mâ”œâŒrida,Câ”œÃ­ceres,Plasencia,Don Benito,Villanueva de la Serena,Zafra,Almendralejo,Trujillo,Navalmoral de la Mata,Olivenza,Jerez de los Caballeros"
   },
   {
     "name": "Castrapo",
-    "i": 585,
+    "i": 235,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vigo,A Coru├▒a,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarc├¡a de Arousa,Redondela,Mar├¡n,Ribeira,Carballo,Castro,Lecce,Brindisi,Taranto,Bari,Foggia,Andria,Trani,Barletta,Molfetta,Bitonto,Altamura"
+    "b": "Vigo,A Coruâ”œâ–’a,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcâ”œÂ¡a de Arousa,Redondela,Marâ”œÂ¡n,Ribeira,Carballo,Castro,Lecce,Brindisi,Taranto,Bari,Foggia,Andria,Trani,Barletta,Molfetta,Bitonto,Altamura"
   },
   {
     "name": "Bura",
-    "i": 586,
+    "i": 236,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2136,7 +2136,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bure",
-    "i": 587,
+    "i": 237,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2145,7 +2145,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buwal",
-    "i": 588,
+    "i": 238,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2154,7 +2154,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cakfem-Mushere",
-    "i": 589,
+    "i": 239,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2163,7 +2163,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bukusu",
-    "i": 590,
+    "i": 240,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2172,7 +2172,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bulu",
-    "i": 591,
+    "i": 241,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2181,7 +2181,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Busa",
-    "i": 593,
+    "i": 242,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2190,7 +2190,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bushong",
-    "i": 594,
+    "i": 243,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2199,7 +2199,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bwela",
-    "i": 595,
+    "i": 244,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2208,7 +2208,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buyu",
-    "i": 596,
+    "i": 245,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2217,7 +2217,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cameroonian Pidgin",
-    "i": 597,
+    "i": 246,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2226,7 +2226,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cameroonian Pidgin English",
-    "i": 598,
+    "i": 247,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2234,8 +2234,8 @@ window.realWorldNameBases = [
     "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Kribi,Garoua,Maroua,Ngaoundere,Calabar"
   },
   {
-    "name": "BoleΓÇôTangale",
-    "i": 599,
+    "name": "BoleÎ“Ã‡Ã´Tangale",
+    "i": 248,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2244,7 +2244,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tangale",
-    "i": 600,
+    "i": 249,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2253,16 +2253,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dangaleat",
-    "i": 601,
+    "i": 250,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ati,Oum Hadjer,Am Timan,Mongo,Ab├⌐ch├⌐,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine,Dangaleat,Guera,Melfi,Abéché,Am Dam,Béré,N'Djaména"
+    "b": "Ati,Oum Hadjer,Am Timan,Mongo,Abâ”œâŒchâ”œâŒ,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine,Dangaleat,Guera,Melfi,AbÃ©chÃ©,Am Dam,BÃ©rÃ©,N'DjamÃ©na"
   },
   {
     "name": "Yaeyama",
-    "i": 602,
+    "i": 251,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2271,7 +2271,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yonaguni",
-    "i": 603,
+    "i": 252,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2280,7 +2280,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yoron",
-    "i": 604,
+    "i": 253,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2289,7 +2289,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yilan Creole Japanese",
-    "i": 605,
+    "i": 254,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2298,7 +2298,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yokohama Pidgin Japanese",
-    "i": 606,
+    "i": 255,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2307,43 +2307,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anglo-Norman",
-    "i": 607,
+    "i": 256,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bayeux,Domfront,Argentan,Lisieux,Falaise,Barfleur,Villedieu-les-Po├¬les,La Haye-du-Puits,Pont-l'├ëv├¬que,Beuvron-en-Auge,Carentan,Avranches"
+    "b": "Bayeux,Domfront,Argentan,Lisieux,Falaise,Barfleur,Villedieu-les-Poâ”œÂ¬les,La Haye-du-Puits,Pont-l'â”œÃ«vâ”œÂ¬que,Beuvron-en-Auge,Carentan,Avranches"
   },
   {
     "name": "Norman",
-    "i": 608,
+    "i": 257,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rouen,Caen,Dieppe,Le Havre,Saint-L├┤,Alen├ºon,Granville,Coutances,Bernay,Flers,Honfleur,Bagnoles-de-l'Orne"
+    "b": "Rouen,Caen,Dieppe,Le Havre,Saint-Lâ”œâ”¤,Alenâ”œÂºon,Granville,Coutances,Bernay,Flers,Honfleur,Bagnoles-de-l'Orne"
   },
   {
     "name": "Cauchois",
-    "i": 609,
+    "i": 258,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "F├⌐camp,Yvetot,Cany-Barville,Valmont,├ëtretat,Lillebonne,Bolbec,Goderville,Saint-Valery-en-Caux,Veules-les-Roses,T├┤tes,Buchy"
+    "b": "Fâ”œâŒcamp,Yvetot,Cany-Barville,Valmont,â”œÃ«tretat,Lillebonne,Bolbec,Goderville,Saint-Valery-en-Caux,Veules-les-Roses,Tâ”œâ”¤tes,Buchy"
   },
   {
     "name": "Augeron",
-    "i": 610,
+    "i": 259,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pont-l'├ëv├¬que,Deauville,Trouville-sur-Mer,Orbec,Thiberville,Cambremer,Beaumont-en-Auge,Vimoutiers,Blangy-le-Ch├óteau,Beuzeville,Dozul├⌐,Bonnebosq"
+    "b": "Pont-l'â”œÃ«vâ”œÂ¬que,Deauville,Trouville-sur-Mer,Orbec,Thiberville,Cambremer,Beaumont-en-Auge,Vimoutiers,Blangy-le-Châ”œÃ³teau,Beuzeville,Dozulâ”œâŒ,Bonnebosq"
   },
   {
     "name": "Cotentinais",
-    "i": 611,
+    "i": 260,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2352,7 +2352,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Auregnais",
-    "i": 612,
+    "i": 261,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2360,8 +2360,8 @@ window.realWorldNameBases = [
     "b": "St Anne,Aurigny,Braye Harbour,Longis Bay,Saye Bay,Platte Saline,Fort Clonque,Fort Albert,Fort Tourgis,Mannez,Esplanade,Le Val"
   },
   {
-    "name": "Guern├⌐siais",
-    "i": 613,
+    "name": "Guernâ”œâŒsiais",
+    "i": 262,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2369,26 +2369,26 @@ window.realWorldNameBases = [
     "b": "St Peter Port,St Sampson,Castel,St Martin,St Andrew,Forest,St Saviour,Torteval,Vale,Lancresse,Jerbourg,Pleinmont"
   },
   {
-    "name": "J├¿rriais",
-    "i": 614,
+    "name": "Jâ”œÂ¿rriais",
+    "i": 263,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbi├¿re,La Hougue Bie,Gr├¿ve de Lecq"
+    "b": "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbiâ”œÂ¿re,La Hougue Bie,Grâ”œÂ¿ve de Lecq"
   },
   {
     "name": "Jersey Legal French",
-    "i": 615,
+    "i": 264,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arr├¬t,Juridiction,Bailliage,Paroisse,├ëtats"
+    "b": "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrâ”œÂ¬t,Juridiction,Bailliage,Paroisse,â”œÃ«tats"
   },
   {
     "name": "Adeni Arabic",
-    "i": 616,
+    "i": 265,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2397,7 +2397,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aleppine Arabic",
-    "i": 617,
+    "i": 266,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2406,7 +2406,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Algerian Arabic",
-    "i": 618,
+    "i": 267,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2415,7 +2415,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Algerian Saharan Arabic",
-    "i": 619,
+    "i": 268,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2424,7 +2424,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burmese",
-    "i": 620,
+    "i": 269,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2433,7 +2433,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burmish",
-    "i": 621,
+    "i": 270,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2442,7 +2442,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burmo Qiangic",
-    "i": 622,
+    "i": 271,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2451,7 +2451,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Caijia",
-    "i": 623,
+    "i": 272,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2460,7 +2460,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chepang",
-    "i": 624,
+    "i": 273,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2468,17 +2468,17 @@ window.realWorldNameBases = [
     "b": "Chitwan,Makwanpur,Dhading,Gorkha,Tanahun,Lamjung,Kaski,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Nawalparasi,Parsa,Bara,Rautahat,Sarlahi,Mahottari,Dhanusha,Siraha,Saptari,Sunsari,Morang"
   },
   {
-    "name": "Tsiman├⌐",
-    "i": 625,
+    "name": "Tsimanâ”œâŒ",
+    "i": 274,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui,Tsimane,San Ignacio,Santa Ana,Riberalta,Guayaramerín,Trinidad,Magdalena"
+    "b": "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui,Tsimane,San Ignacio,Santa Ana,Riberalta,GuayaramerÃ­n,Trinidad,Magdalena"
   },
   {
-    "name": "Cavine├▒a",
-    "i": 626,
+    "name": "Cavineâ”œâ–’a",
+    "i": 275,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2487,7 +2487,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kallawaya",
-    "i": 627,
+    "i": 276,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2496,7 +2496,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chiquitano",
-    "i": 628,
+    "i": 277,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2504,8 +2504,8 @@ window.realWorldNameBases = [
     "b": "San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,San Jose de Chiquitos,Robore,Puerto Suarez,Santa Cruz,Chiquitania,Velasco,Chiquitos"
   },
   {
-    "name": "Nivacl├⌐",
-    "i": 629,
+    "name": "Nivaclâ”œâŒ",
+    "i": 278,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2514,7 +2514,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Macro-Yaeyama",
-    "i": 630,
+    "i": 279,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2523,7 +2523,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Miyakoan",
-    "i": 631,
+    "i": 280,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2532,7 +2532,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Amami",
-    "i": 632,
+    "i": 281,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2541,7 +2541,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Okinoerabu",
-    "i": 633,
+    "i": 282,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2550,7 +2550,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tokunoshima",
-    "i": 634,
+    "i": 283,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2559,34 +2559,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aragonese",
-    "i": 635,
+    "i": 284,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huesca,Jaca,Sabinanigo,Barbastro,Monzon,Fraga,Teruel,Zaragoza,Alcaniz,Ainsa,Benasque,Anso,Monzón,Ejea,Calatayud,Alcañiz,Tarazona,Binéfar"
+    "b": "Huesca,Jaca,Sabinanigo,Barbastro,Monzon,Fraga,Teruel,Zaragoza,Alcaniz,Ainsa,Benasque,Anso,MonzÃ³n,Ejea,Calatayud,AlcaÃ±iz,Tarazona,BinÃ©far"
   },
   {
     "name": "Central Aragonese",
-    "i": 636,
+    "i": 285,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla,Huesca,Barbastro,Monzón,Binéfar,Graus,Benabarre,Tamarite,Alquézar,Aínsa,Boltaña,Sabiñánigo,Jaca"
+    "b": "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla,Huesca,Barbastro,MonzÃ³n,BinÃ©far,Graus,Benabarre,Tamarite,AlquÃ©zar,AÃ­nsa,BoltaÃ±a,SabiÃ±Ã¡nigo,Jaca"
   },
   {
     "name": "Castilian",
-    "i": 637,
+    "i": 286,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Burgos,Valladolid,Salamanca,Segovia,Avila,Soria,Palencia,Leon,Zamora,Toledo,Cuenca,Guadalajara,Madrid,Ciudad Real,Albacete,Ávila"
+    "b": "Burgos,Valladolid,Salamanca,Segovia,Avila,Soria,Palencia,Leon,Zamora,Toledo,Cuenca,Guadalajara,Madrid,Ciudad Real,Albacete,Ãvila"
   },
   {
     "name": "Castelmezzano",
-    "i": 638,
+    "i": 287,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2595,7 +2595,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Italian",
-    "i": 639,
+    "i": 288,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2604,7 +2604,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Marchigiano",
-    "i": 640,
+    "i": 289,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2613,7 +2613,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Metafonetica",
-    "i": 641,
+    "i": 290,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2622,7 +2622,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central-Southern Calabrian",
-    "i": 642,
+    "i": 291,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2631,7 +2631,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Canadian French",
-    "i": 650,
+    "i": 292,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2640,7 +2640,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amami",
-    "i": 655,
+    "i": 293,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2649,7 +2649,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kikai",
-    "i": 656,
+    "i": 294,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2658,7 +2658,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kunigami",
-    "i": 657,
+    "i": 295,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2667,7 +2667,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Okinawan",
-    "i": 658,
+    "i": 296,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2676,7 +2676,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Butler English",
-    "i": 665,
+    "i": 297,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2685,7 +2685,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kru Pidgin English",
-    "i": 666,
+    "i": 298,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2694,7 +2694,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Liberian Interior Pidgin English",
-    "i": 667,
+    "i": 299,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2703,7 +2703,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abaza",
-    "i": 668,
+    "i": 300,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2712,7 +2712,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abkhaz",
-    "i": 669,
+    "i": 301,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2721,7 +2721,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Adyghe",
-    "i": 670,
+    "i": 302,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2730,7 +2730,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bzyb",
-    "i": 671,
+    "i": 303,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2739,7 +2739,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aghul",
-    "i": 672,
+    "i": 304,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2748,7 +2748,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kikai",
-    "i": 673,
+    "i": 305,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2757,7 +2757,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kunigami",
-    "i": 674,
+    "i": 306,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2766,7 +2766,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Catalan",
-    "i": 675,
+    "i": 307,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2775,7 +2775,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anatolian Arabic",
-    "i": 676,
+    "i": 308,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2784,7 +2784,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Andalusi Arabic",
-    "i": 677,
+    "i": 309,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2793,7 +2793,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baghdadi Arabic",
-    "i": 678,
+    "i": 310,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2802,7 +2802,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bahraini Gulf Arabic",
-    "i": 679,
+    "i": 311,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2811,7 +2811,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bakhtiari Arabic",
-    "i": 680,
+    "i": 312,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2820,7 +2820,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bukharian Arabic",
-    "i": 681,
+    "i": 313,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2829,7 +2829,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cairene Arabic",
-    "i": 682,
+    "i": 314,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2838,7 +2838,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Asian Arabic",
-    "i": 683,
+    "i": 315,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2847,7 +2847,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ainu",
-    "i": 684,
+    "i": 316,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2856,7 +2856,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hachijo",
-    "i": 685,
+    "i": 317,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2865,7 +2865,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Japanese dialects",
-    "i": 686,
+    "i": 318,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2874,7 +2874,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Japanese",
-    "i": 687,
+    "i": 319,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2883,7 +2883,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Japanese macro",
-    "i": 688,
+    "i": 320,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2892,7 +2892,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ryukyuan",
-    "i": 689,
+    "i": 321,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2901,7 +2901,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Egyptian Arabic",
-    "i": 701,
+    "i": 322,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2910,52 +2910,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Angevin",
-    "i": 725,
+    "i": 323,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Angers,Saumur,Cholet,Nantes,Le Mans,Tours,Niort,Chinon,Laval,Sablé-sur-Sarthe"
+    "b": "Angers,Saumur,Cholet,Nantes,Le Mans,Tours,Niort,Chinon,Laval,SablÃ©-sur-Sarthe"
   },
   {
     "name": "Burgundian",
-    "i": 726,
+    "i": 324,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Dijon,Beaune,Chalon-sur-Saône,Mâcon,Auxerre,Sens,Nevers,Autun,Avalon,Avallon"
+    "b": "Dijon,Beaune,Chalon-sur-SaÃ´ne,MÃ¢con,Auxerre,Sens,Nevers,Autun,Avalon,Avallon"
   },
   {
     "name": "Champenois",
-    "i": 727,
+    "i": 325,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Troyes,Châlons-en-Champagne,Reims,Épernay,Sézanne,Châlons-sur-Marne,Vitry-le-François,Saint-Dizier,Château-Thierry"
+    "b": "Troyes,ChÃ¢lons-en-Champagne,Reims,Ã‰pernay,SÃ©zanne,ChÃ¢lons-sur-Marne,Vitry-le-FranÃ§ois,Saint-Dizier,ChÃ¢teau-Thierry"
   },
   {
     "name": "Poitevin",
-    "i": 728,
+    "i": 326,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Poitiers,Niort,La Rochelle,Rochefort,Parthenay,Châtellerault,Saint-Jean-d'Angély,Angoulême,Cognac,Jarnac"
+    "b": "Poitiers,Niort,La Rochelle,Rochefort,Parthenay,ChÃ¢tellerault,Saint-Jean-d'AngÃ©ly,AngoulÃªme,Cognac,Jarnac"
   },
   {
     "name": "Saintongeais",
-    "i": 729,
+    "i": 327,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Saintes,Royan,Rochefort,Saint-Jean-d'Angély,Marennes,Jonzac,Pons,Montendre,Tonnay-Charente"
+    "b": "Saintes,Royan,Rochefort,Saint-Jean-d'AngÃ©ly,Marennes,Jonzac,Pons,Montendre,Tonnay-Charente"
   },
   {
     "name": "Aas-whistled",
-    "i": 730,
+    "i": 328,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
@@ -2964,25 +2964,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aranese",
-    "i": 731,
+    "i": 329,
     "min": 4,
     "max": 11,
     "d": "oc-ES",
     "m": 0,
-    "b": "Vielha,Les,Bausèr,Bòrdes,Naut Aran,Salardú,Arties,Baguerge,Sent Julian,Canejan"
+    "b": "Vielha,Les,BausÃ¨r,BÃ²rdes,Naut Aran,SalardÃº,Arties,Baguerge,Sent Julian,Canejan"
   },
   {
     "name": "B-arnese",
-    "i": 732,
+    "i": 330,
     "min": 4,
     "max": 11,
     "d": "en-GB",
     "m": 0,
-    "b": "Bern,Thun,Biel,Burgdorf,Interlaken,Spiez,Münsingen,Köniz,Steffisburg,Worb,Olten,Solothurn,Langenthal,Büren,Aarberg"
+    "b": "Bern,Thun,Biel,Burgdorf,Interlaken,Spiez,MÃ¼nsingen,KÃ¶niz,Steffisburg,Worb,Olten,Solothurn,Langenthal,BÃ¼ren,Aarberg"
   },
   {
     "name": "Abruzzese",
-    "i": 733,
+    "i": 331,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -2991,7 +2991,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arianese",
-    "i": 734,
+    "i": 332,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3000,7 +3000,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barese",
-    "i": 735,
+    "i": 333,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3009,7 +3009,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basilicatine",
-    "i": 736,
+    "i": 334,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3018,7 +3018,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Benevento",
-    "i": 737,
+    "i": 335,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3027,7 +3027,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cilentan",
-    "i": 738,
+    "i": 336,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3036,7 +3036,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cosentino",
-    "i": 739,
+    "i": 337,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3045,7 +3045,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Irpino",
-    "i": 740,
+    "i": 338,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3054,7 +3054,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Molisan",
-    "i": 741,
+    "i": 339,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3063,7 +3063,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Neapolitan",
-    "i": 742,
+    "i": 340,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3072,7 +3072,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Calabrian",
-    "i": 743,
+    "i": 341,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3081,7 +3081,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pugliese",
-    "i": 744,
+    "i": 342,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3090,7 +3090,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Lucanian",
-    "i": 745,
+    "i": 343,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3099,7 +3099,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Latian",
-    "i": 746,
+    "i": 344,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3108,7 +3108,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Laziale",
-    "i": 747,
+    "i": 345,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3117,7 +3117,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tarantino",
-    "i": 748,
+    "i": 346,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3126,7 +3126,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vastese",
-    "i": 749,
+    "i": 347,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3135,34 +3135,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ardennais",
-    "i": 750,
+    "i": 348,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bastogne,Sedan,Charleville-Mézières,Vouziers,Reims,Laon,Rethel,Saint-Quentin,Mézières"
+    "b": "Bastogne,Sedan,Charleville-MÃ©ziÃ¨res,Vouziers,Reims,Laon,Rethel,Saint-Quentin,MÃ©ziÃ¨res"
   },
   {
     "name": "Berrichon",
-    "i": 751,
+    "i": 349,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Saint-Dié,Epinal,Mirecourt,Vittel,Neufchâteau,Bruyères,Gérardmer,Le Thillot"
+    "b": "Saint-DiÃ©,Epinal,Mirecourt,Vittel,NeufchÃ¢teau,BruyÃ¨res,GÃ©rardmer,Le Thillot"
   },
   {
     "name": "Bourbonnais",
-    "i": 752,
+    "i": 350,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Moulins,Bourges,Nevers,Digoin,Bézençon,Autun,Montceau-les-Mines,Clamecy,Avallon"
+    "b": "Moulins,Bourges,Nevers,Digoin,BÃ©zenÃ§on,Autun,Montceau-les-Mines,Clamecy,Avallon"
   },
   {
     "name": "French (fra)",
-    "i": 753,
+    "i": 351,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3171,61 +3171,61 @@ window.realWorldNameBases = [
   },
   {
     "name": "Frainc-Comtou",
-    "i": 754,
+    "i": 352,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Besançon,Belfort,Montbéliard,Dole,Lons-le-Saunier,Vesoul,Gray"
+    "b": "BesanÃ§on,Belfort,MontbÃ©liard,Dole,Lons-le-Saunier,Vesoul,Gray"
   },
   {
     "name": "Gallo",
-    "i": 755,
+    "i": 353,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Toulouse,Bordeaux,Bergerac,Périgueux,Agen,Marmande,Villeneuve-sur-Lot,Lauzun,Cahors,Brive"
+    "b": "Toulouse,Bordeaux,Bergerac,PÃ©rigueux,Agen,Marmande,Villeneuve-sur-Lot,Lauzun,Cahors,Brive"
   },
   {
     "name": "Gaumais",
-    "i": 756,
+    "i": 354,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Toulouse,Carcassonne,Perpignan,Narbonne,Albi,Montauban,Bagnères-de-Luchon,Foix,Mirepoix"
+    "b": "Toulouse,Carcassonne,Perpignan,Narbonne,Albi,Montauban,BagnÃ¨res-de-Luchon,Foix,Mirepoix"
   },
   {
     "name": "Law French",
-    "i": 757,
+    "i": 355,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vernon,Évreux,Louvers,Les Andelys,Dreux,Pacy-sur-Eure,Conches-en-Ouche,Nonancourt,Gisors"
+    "b": "Vernon,Ã‰vreux,Louvers,Les Andelys,Dreux,Pacy-sur-Eure,Conches-en-Ouche,Nonancourt,Gisors"
   },
   {
     "name": "Lorrain",
-    "i": 758,
+    "i": 356,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nancy,Metz,Épinal,Verdun,Thionville,Bar-le-Duc,Longwy,Vesoul,Belfort,Montbéliard,Dole"
+    "b": "Nancy,Metz,Ã‰pinal,Verdun,Thionville,Bar-le-Duc,Longwy,Vesoul,Belfort,MontbÃ©liard,Dole"
   },
   {
     "name": "Mayennais",
-    "i": 759,
+    "i": 357,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Laval,Mayenne,Château-Gontier,Craon,Ernée,Sablé-sur-Sarthe"
+    "b": "Laval,Mayenne,ChÃ¢teau-Gontier,Craon,ErnÃ©e,SablÃ©-sur-Sarthe"
   },
   {
     "name": "Meridional French",
-    "i": 760,
+    "i": 358,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3234,43 +3234,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Moselle Romance",
-    "i": 761,
+    "i": 359,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,Château-Salins,Mo-Selle,Saulnois"
+    "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,ChÃ¢teau-Salins,Mo-Selle,Saulnois"
   },
   {
     "name": "Orleanais",
-    "i": 762,
+    "i": 360,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Orléans,Oliviers,Fleury,Saint-Jean-de-la-Raye,Saint-Jean-de-Braye,Saran,La Chapelle,Gien,Montargis,Pithiviers,Beaugency,Meung-sur-Loire"
+    "b": "OrlÃ©ans,Oliviers,Fleury,Saint-Jean-de-la-Raye,Saint-Jean-de-Braye,Saran,La Chapelle,Gien,Montargis,Pithiviers,Beaugency,Meung-sur-Loire"
   },
   {
     "name": "Paydret",
-    "i": 763,
+    "i": 361,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pau,Orthez,Lourdes,Tarbes,Bagneres,Bigorre,Ossau,Aspe,Lavedan,Gaves,Béarn"
+    "b": "Pau,Orthez,Lourdes,Tarbes,Bagneres,Bigorre,Ossau,Aspe,Lavedan,Gaves,BÃ©arn"
   },
   {
     "name": "Picard",
-    "i": 764,
+    "i": 362,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Amiens,Arras,Abbeville,Beauvais,Saint-Quentin,Compiègne,Laon,Péronne,Albert,Doullens,Cambrai,Lens,Bethune,Senlis"
+    "b": "Amiens,Arras,Abbeville,Beauvais,Saint-Quentin,CompiÃ¨gne,Laon,PÃ©ronne,Albert,Doullens,Cambrai,Lens,Bethune,Senlis"
   },
   {
     "name": "Acadian",
-    "i": 765,
+    "i": 363,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3279,7 +3279,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aeolian",
-    "i": 766,
+    "i": 364,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3288,25 +3288,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "African Romance",
-    "i": 767,
+    "i": 365,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Algiers,Oran,Constantine,Annaba,Batna,Sétif,Biskra,Bejaia,Tlemcen,Tizi-Ouzou,Blida"
+    "b": "Algiers,Oran,Constantine,Annaba,Batna,SÃ©tif,Biskra,Bejaia,Tlemcen,Tizi-Ouzou,Blida"
   },
   {
     "name": "Alentejan",
-    "i": 768,
+    "i": 366,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Évora,Portalegre,Beja,Santarém,Setúbal,Sines,Almodôvar,Mora,Mourão,Cuba"
+    "b": "Ã‰vora,Portalegre,Beja,SantarÃ©m,SetÃºbal,Sines,AlmodÃ´var,Mora,MourÃ£o,Cuba"
   },
   {
     "name": "Algherese",
-    "i": 769,
+    "i": 367,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3315,7 +3315,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ancona",
-    "i": 770,
+    "i": 368,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3324,25 +3324,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Andalusi Romance",
-    "i": 771,
+    "i": 369,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Córdoba,Granada,Málaga,Sevilla,Zaragoza,Murcia,Cádiz,Huelva"
+    "b": "CÃ³rdoba,Granada,MÃ¡laga,Sevilla,Zaragoza,Murcia,CÃ¡diz,Huelva"
   },
   {
     "name": "Andalusian",
-    "i": 772,
+    "i": 370,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sevilla,Córdoba,Málaga,Granada,Cádiz,Huelva,Jaén,Almería,Zaragoza"
+    "b": "Sevilla,CÃ³rdoba,MÃ¡laga,Granada,CÃ¡diz,Huelva,JaÃ©n,AlmerÃ­a,Zaragoza"
   },
   {
-    "name": "Ans├│",
-    "i": 773,
+    "name": "Ansâ”œâ”‚",
+    "i": 371,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3351,25 +3351,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aretino-Chianaiolo",
-    "i": 774,
+    "i": 372,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Arezzo,Cortona,Sansepolcro,Città di Castello,Pieve Santo Stefano,Capolona,Bibbiena"
+    "b": "Arezzo,Cortona,Sansepolcro,CittÃ  di Castello,Pieve Santo Stefano,Capolona,Bibbiena"
   },
   {
     "name": "Argentinian Spanish",
-    "i": 775,
+    "i": 373,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Buenos Aires,Córdoba,Rosario,Mendoza,La Plata,Mar del Plata,Tucumán,Santa Fe"
+    "b": "Buenos Aires,CÃ³rdoba,Rosario,Mendoza,La Plata,Mar del Plata,TucumÃ¡n,Santa Fe"
   },
   {
     "name": "Arpitan",
-    "i": 776,
+    "i": 374,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3378,34 +3378,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asturian",
-    "i": 777,
+    "i": 375,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Oviedo,Gijón,Avilés,Mieres,Sama,Langreo,Laviana,Polares,Cangas de Narcea"
+    "b": "Oviedo,GijÃ³n,AvilÃ©s,Mieres,Sama,Langreo,Laviana,Polares,Cangas de Narcea"
   },
   {
     "name": "Auvergnat",
-    "i": 778,
+    "i": 376,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Clermont-Ferrand,Vichy,Moulins,Thiers,Ambert,Brioude,Issoire,Riom,Montluçon"
+    "b": "Clermont-Ferrand,Vichy,Moulins,Thiers,Ambert,Brioude,Issoire,Riom,MontluÃ§on"
   },
   {
     "name": "Balearic",
-    "i": 779,
+    "i": 377,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Palma,Ibiza,Manacor,Formentera,Mahón,Ciutadella,Eivissa"
+    "b": "Palma,Ibiza,Manacor,Formentera,MahÃ³n,Ciutadella,Eivissa"
   },
   {
     "name": "Banat",
-    "i": 780,
+    "i": 378,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3414,7 +3414,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barranquenho",
-    "i": 781,
+    "i": 379,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3423,16 +3423,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Benasquese",
-    "i": 782,
+    "i": 380,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Benasqué,Fraga,Barbastro,Binéfar,Boltaña,Monzón"
+    "b": "BenasquÃ©,Fraga,Barbastro,BinÃ©far,BoltaÃ±a,MonzÃ³n"
   },
   {
     "name": "Bercian",
-    "i": 783,
+    "i": 381,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3441,25 +3441,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bergamasque",
-    "i": 784,
+    "i": 382,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Toulouse,Béziers,Albi,Carcassonne,Montauban,Perpignan"
+    "b": "Toulouse,BÃ©ziers,Albi,Carcassonne,Montauban,Perpignan"
   },
   {
     "name": "Bolivian Spanish",
-    "i": 785,
+    "i": 383,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sucre,La Paz,Cochabamba,Santa Cruz,Oruro,Potosí,Tarija"
+    "b": "Sucre,La Paz,Cochabamba,Santa Cruz,Oruro,PotosÃ­,Tarija"
   },
   {
     "name": "Bolognese",
-    "i": 786,
+    "i": 384,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3468,43 +3468,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Brayon",
-    "i": 787,
+    "i": 385,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Braga,Guimarães,Viseu,Porto,Celorico da Beira,Vila Real"
+    "b": "Braga,GuimarÃ£es,Viseu,Porto,Celorico da Beira,Vila Real"
   },
   {
     "name": "Brazilian Portuguese",
-    "i": 788,
+    "i": 386,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "São Paulo,Rio de Janeiro,Belo Horizonte,Brasília,Salvador,Fortaleza,Recife,Porto Alegre"
+    "b": "SÃ£o Paulo,Rio de Janeiro,Belo Horizonte,BrasÃ­lia,Salvador,Fortaleza,Recife,Porto Alegre"
   },
   {
     "name": "Brianzoo",
-    "i": 789,
+    "i": 387,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Briançon,Montgenèvre,La Roche-en-Brenil,Oulx,Vars,Embrun,Seyne"
+    "b": "BrianÃ§on,MontgenÃ¨vre,La Roche-en-Brenil,Oulx,Vars,Embrun,Seyne"
   },
   {
     "name": "Brigasc",
-    "i": 790,
+    "i": 388,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Briançon,Sestrières,Pragel,Guillestre,Valloire,Embrun,Gap"
+    "b": "BrianÃ§on,SestriÃ¨res,Pragel,Guillestre,Valloire,Embrun,Gap"
   },
   {
     "name": "British Latin",
-    "i": 791,
+    "i": 389,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3513,7 +3513,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bukovinian",
-    "i": 792,
+    "i": 390,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3522,43 +3522,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Canzes",
-    "i": 793,
+    "i": 391,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dijon,Beaune,Chalon-sur-Saône,Mâcon,Auxerre,Sens,Nevers,Avallon"
+    "b": "Dijon,Beaune,Chalon-sur-SaÃ´ne,MÃ¢con,Auxerre,Sens,Nevers,Avallon"
   },
   {
     "name": "Central-Northern Lazian",
-    "i": 794,
+    "i": 392,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cannes,Nice,Grasse,Antibes,Mandelieu,Draguignan,Vence,Fréjus,Le Muy,Saint-Tropez"
+    "b": "Cannes,Nice,Grasse,Antibes,Mandelieu,Draguignan,Vence,FrÃ©jus,Le Muy,Saint-Tropez"
   },
   {
     "name": "Cheso",
-    "i": 795,
+    "i": 393,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santander,Torrelavega,Cantabria,Laredo,Reinosa,Castro Urdiales,Potes,Cabezón de la Sal"
+    "b": "Santander,Torrelavega,Cantabria,Laredo,Reinosa,Castro Urdiales,Potes,CabezÃ³n de la Sal"
   },
   {
     "name": "Chiac",
-    "i": 796,
+    "i": 394,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Madrid,Toledo,Ávila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
+    "b": "Madrid,Toledo,Ãvila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
   },
   {
     "name": "Chilean Spanish",
-    "i": 797,
+    "i": 395,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3567,16 +3567,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chilote",
-    "i": 798,
+    "i": 396,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Léon,Valladolid,Zamora,Burgos,Palencia,Oviedo,Gijón,Santander,Madrid"
+    "b": "LÃ©on,Valladolid,Zamora,Burgos,Palencia,Oviedo,GijÃ³n,Santander,Madrid"
   },
   {
     "name": "Chipilo",
-    "i": 799,
+    "i": 397,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3585,16 +3585,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Colombian Spanish",
-    "i": 800,
+    "i": 398,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bogotá,Medellín,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,Cúcuta,Ibagué,Villavicencio"
+    "b": "BogotÃ¡,MedellÃ­n,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,CÃºcuta,IbaguÃ©,Villavicencio"
   },
   {
     "name": "Comasco-Lecchese",
-    "i": 801,
+    "i": 399,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3603,16 +3603,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Corsican",
-    "i": 802,
+    "i": 400,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ajaccio,Bastia,Calvi,Corte,Porto-Vecchio,Bonifacio,Propriano,Sartene,L'Isula Rousse,Aléria,Ghisonaccia,Nonza,Saint-Florent,Biguglia,Borgo,Furiani,Lucciana,Ville-di-Pietrabugno,Penta-di-Casinca,Bastelicaccia,Sartène,Olmeto,Levie,Sotta,Figari,Zonza,Lecci,Sainte-Lucie-de-Porto-Vecchio,Solenzara,Prunelli-di-Fiumorbo,Ventiseri,Cervione,San-Nicolao,Santa-Maria-Poggio,Venzolasca,Vescovato,San-Martino-di-Lota,Santa-Maria-di-Lota,Brando"
+    "b": "Ajaccio,Bastia,Calvi,Corte,Porto-Vecchio,Bonifacio,Propriano,Sartene,L'Isula Rousse,AlÃ©ria,Ghisonaccia,Nonza,Saint-Florent,Biguglia,Borgo,Furiani,Lucciana,Ville-di-Pietrabugno,Penta-di-Casinca,Bastelicaccia,SartÃ¨ne,Olmeto,Levie,Sotta,Figari,Zonza,Lecci,Sainte-Lucie-de-Porto-Vecchio,Solenzara,Prunelli-di-Fiumorbo,Ventiseri,Cervione,San-Nicolao,Santa-Maria-Poggio,Venzolasca,Vescovato,San-Martino-di-Lota,Santa-Maria-di-Lota,Brando"
   },
   {
     "name": "Cremish",
-    "i": 803,
+    "i": 401,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3621,7 +3621,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cremun-S",
-    "i": 804,
+    "i": 402,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3630,52 +3630,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cri-ana",
-    "i": 805,
+    "i": 403,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cluj-Napoca,Timișoara,Arad,Oradea,Satu Mare,Sighetu Marmați,Baia Mare,Zalău,Bistrița"
+    "b": "Cluj-Napoca,TimiÈ™oara,Arad,Oradea,Satu Mare,Sighetu MarmaÈ›i,Baia Mare,ZalÄƒu,BistriÈ›a"
   },
   {
     "name": "Daco-Romanian",
-    "i": 806,
+    "i": 404,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Brăila,Ploiești,Oradea,Brașov,Pitești,Arad,Sibiu,Bacău,Târgu Mureș,Baia Mare,Botoșani,Satu Mare,Râmnicu Vâlcea,Drobeta-Turnu Severin,Târgu Jiu,Bistrița,Reșița,Alexandria,Petroșani,Tulcea,Mediaș,Slobozia,Onești,Pașcani,Zalău,Călărași,Giurgiu,Râmnicu Sărat,Mangalia,Oltenița,Slatina,Focșani,Tecuci,Târnăveni,Sebești,Miercurea Ciuc,Caracal,Vaslui,Câmpina,Buzău,Zărnești,Dej,Rădăuți,Câmpulung Moldovenesc,Odorheiu Secuiesc,Bălți,Chișinău,Tiraspol,Bender"
+    "b": "Bucharest,Cluj-Napoca,TimiÈ™oara,IaÈ™i,ConstanÈ›a,Craiova,BrÄƒila,PloieÈ™ti,Oradea,BraÈ™ov,PiteÈ™ti,Arad,Sibiu,BacÄƒu,TÃ¢rgu MureÈ™,Baia Mare,BotoÈ™ani,Satu Mare,RÃ¢mnicu VÃ¢lcea,Drobeta-Turnu Severin,TÃ¢rgu Jiu,BistriÈ›a,ReÈ™iÈ›a,Alexandria,PetroÈ™ani,Tulcea,MediaÈ™,Slobozia,OneÈ™ti,PaÈ™cani,ZalÄƒu,CÄƒlÄƒraÈ™i,Giurgiu,RÃ¢mnicu SÄƒrat,Mangalia,OlteniÈ›a,Slatina,FocÈ™ani,Tecuci,TÃ¢rnÄƒveni,SebeÈ™ti,Miercurea Ciuc,Caracal,Vaslui,CÃ¢mpina,BuzÄƒu,ZÄƒrneÈ™ti,Dej,RÄƒdÄƒuÈ›i,CÃ¢mpulung Moldovenesc,Odorheiu Secuiesc,BÄƒlÈ›i,ChiÈ™inÄƒu,Tiraspol,Bender"
   },
   {
     "name": "Dalmatian",
-    "i": 807,
+    "i": 405,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dubrovnik,Split,Zadar,Šibenik,Trogir,Krk,Rijeka,Pula,Hvar,Korčula,Vis,Brač,Makarska,Omiš,Ston,Cavtat,Kotor,Perast,Budva"
+    "b": "Dubrovnik,Split,Zadar,Å ibenik,Trogir,Krk,Rijeka,Pula,Hvar,KorÄula,Vis,BraÄ,Makarska,OmiÅ¡,Ston,Cavtat,Kotor,Perast,Budva"
   },
   {
     "name": "Eastern Aragonese",
-    "i": 808,
+    "i": 406,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Girona,Figueres,Olot,Ripoll,Berga,Vic,Manresa,Sabadell,Solsones,Mataró"
+    "b": "Girona,Figueres,Olot,Ripoll,Berga,Vic,Manresa,Sabadell,Solsones,MatarÃ³"
   },
   {
     "name": "Eastern Catalan",
-    "i": 809,
+    "i": 407,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Girona,Figueres,Olot,Vic,Manresa,Terrassa,Mataró,Granollers,Vilanova i la Geltrú"
+    "b": "Girona,Figueres,Olot,Vic,Manresa,Terrassa,MatarÃ³,Granollers,Vilanova i la GeltrÃº"
   },
   {
     "name": "Eastern Lombard",
-    "i": 810,
+    "i": 408,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3684,34 +3684,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Nonmetafonetica",
-    "i": 811,
+    "i": 409,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ferrara,Bologna,Ravenna,Modena,Parma,Piacenza,Reggio Emilia,Forlì,Rimini,Cesena,Imola,Carpi"
+    "b": "Ferrara,Bologna,Ravenna,Modena,Parma,Piacenza,Reggio Emilia,ForlÃ¬,Rimini,Cesena,Imola,Carpi"
   },
   {
     "name": "Eastern Romanian",
-    "i": 812,
+    "i": 410,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Iași,Bacău,Suceava,Botoșani,Baia Mare,Brăila,Focșani,Piatra Neamț"
+    "b": "IaÈ™i,BacÄƒu,Suceava,BotoÈ™ani,Baia Mare,BrÄƒila,FocÈ™ani,Piatra NeamÈ›"
   },
   {
     "name": "Ecuadorian Spanish",
-    "i": 813,
+    "i": 411,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Quito,Guayaquil,Cuenca,Loja,Riobamba,Ibarra,Ambato,Tulcán"
+    "b": "Quito,Guayaquil,Cuenca,Loja,Riobamba,Ibarra,Ambato,TulcÃ¡n"
   },
   {
     "name": "Emilian",
-    "i": 814,
+    "i": 412,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3720,7 +3720,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Doteli",
-    "i": 815,
+    "i": 413,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3729,7 +3729,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Achhami Doteli",
-    "i": 816,
+    "i": 414,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3738,7 +3738,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baitadeli Doteli",
-    "i": 817,
+    "i": 415,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3747,7 +3747,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bajhangi Doteli",
-    "i": 818,
+    "i": 416,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3756,7 +3756,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Darchuleli Doteli",
-    "i": 819,
+    "i": 417,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -3765,7 +3765,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bajureli Doteli",
-    "i": 820,
+    "i": 418,
     "min": 4,
     "max": 11,
     "d": "ine-NP",
@@ -3774,7 +3774,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dadeldhuri Doteli",
-    "i": 821,
+    "i": 419,
     "min": 4,
     "max": 11,
     "d": "ine-NP",
@@ -3783,7 +3783,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ennese",
-    "i": 822,
+    "i": 420,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3792,7 +3792,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eonavian",
-    "i": 823,
+    "i": 421,
     "min": 4,
     "max": 11,
     "d": "it-ES",
@@ -3801,7 +3801,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Equatoguinean Spanish",
-    "i": 824,
+    "i": 422,
     "min": 4,
     "max": 11,
     "d": "es-GQ",
@@ -3810,43 +3810,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Estremenho",
-    "i": 825,
+    "i": 423,
     "min": 4,
     "max": 11,
     "d": "it-PT",
     "m": 0,
-    "b": "Lisbon,Sintra,Cascais,Setubal,Santarem,Leiria,Torres Vedras,Mafra,Caldas da Rainha,Obidos,Peniche,Alenquer,Cáceres,Badajoz,Mérida,Plasencia,Don Benito,Almendralejo,Villanueva,Zafra,Navalmoral,Coria,Trujillo,Olivenza"
+    "b": "Lisbon,Sintra,Cascais,Setubal,Santarem,Leiria,Torres Vedras,Mafra,Caldas da Rainha,Obidos,Peniche,Alenquer,CÃ¡ceres,Badajoz,MÃ©rida,Plasencia,Don Benito,Almendralejo,Villanueva,Zafra,Navalmoral,Coria,Trujillo,Olivenza"
   },
   {
     "name": "European Portuguese",
-    "i": 826,
+    "i": 424,
     "min": 4,
     "max": 11,
     "d": "it-PT",
     "m": 0,
-    "b": "Lisbon,Porto,Coimbra,Braga,Aveiro,Faro,Evora,Guimaraes,Viseu,Setubal,Leiria,Santarem,Amadora,Setúbal,Funchal,Almada,Vila Nova de Gaia,Barreiro"
+    "b": "Lisbon,Porto,Coimbra,Braga,Aveiro,Faro,Evora,Guimaraes,Viseu,Setubal,Leiria,Santarem,Amadora,SetÃºbal,Funchal,Almada,Vila Nova de Gaia,Barreiro"
   },
   {
     "name": "Extremaduran",
-    "i": 827,
+    "i": 425,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Badajoz,Mérida,Cáceres,Plasencia,Almendralejo,Zafra,Don Benito,Villanueva de la Serena,Llerena,Trujillo,Albuquerque"
+    "b": "Badajoz,MÃ©rida,CÃ¡ceres,Plasencia,Almendralejo,Zafra,Don Benito,Villanueva de la Serena,Llerena,Trujillo,Albuquerque"
   },
   {
     "name": "Fabriano",
-    "i": 828,
+    "i": 426,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Fabriano,Fano,Senigallia,Osimo,Caldarola,Serra de' Conti,Matera,Città di Castello,Alta Valle Teverina"
+    "b": "Fabriano,Fano,Senigallia,Osimo,Caldarola,Serra de' Conti,Matera,CittÃ  di Castello,Alta Valle Teverina"
   },
   {
     "name": "Faetar",
-    "i": 829,
+    "i": 427,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -3855,16 +3855,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fala",
-    "i": 830,
+    "i": 428,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Zamora,Salamanca,Valladolid,Ávila,Segovia,Soria,Burgos,Palencia,Ourense"
+    "b": "Zamora,Salamanca,Valladolid,Ãvila,Segovia,Soria,Burgos,Palencia,Ourense"
   },
   {
     "name": "Ferrarese",
-    "i": 831,
+    "i": 429,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3873,7 +3873,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fiuman",
-    "i": 832,
+    "i": 430,
     "min": 4,
     "max": 11,
     "d": "ro-HR",
@@ -3882,7 +3882,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Florentine",
-    "i": 833,
+    "i": 431,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -3891,25 +3891,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Forlivese",
-    "i": 834,
+    "i": 432,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Forlì,Cesena,Meldola,Forlimpopoli,Bertinoro,Predappio,Faenza,Rocca San Casciano"
+    "b": "ForlÃ¬,Cesena,Meldola,Forlimpopoli,Bertinoro,Predappio,Faenza,Rocca San Casciano"
   },
   {
     "name": "Fornes",
-    "i": 835,
+    "i": 433,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Ornes,Varennes,Jarny,Clamecy,Châlons-en-Champagne,Saint-Dizier,Bar-sur-Aube"
+    "b": "Ornes,Varennes,Jarny,Clamecy,ChÃ¢lons-en-Champagne,Saint-Dizier,Bar-sur-Aube"
   },
   {
     "name": "Franco-Italian",
-    "i": 836,
+    "i": 434,
     "min": 4,
     "max": 11,
     "d": "ro-CA",
@@ -3918,7 +3918,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Franco-Ontarian",
-    "i": 837,
+    "i": 435,
     "min": 4,
     "max": 11,
     "d": "ro-CA",
@@ -3926,17 +3926,17 @@ window.realWorldNameBases = [
     "b": "Toronto,Ottawa,Hamilton,Mississauga,Brampton,Kitchener,London,Windsor,Barrie,Sudbury,Sault Ste Marie"
   },
   {
-    "name": "Franco-Provençal",
-    "i": 838,
+    "name": "Franco-ProvenÃ§al",
+    "i": 436,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Grenoble,Annecy,Chambéry,Aix-les-Bains,Valence,Chambery,Lyon,Vald'Aosta,Sion,Fribourg,Neuchâtel,Geneva"
+    "b": "Grenoble,Annecy,ChambÃ©ry,Aix-les-Bains,Valence,Chambery,Lyon,Vald'Aosta,Sion,Fribourg,NeuchÃ¢tel,Geneva"
   },
   {
     "name": "Frenchville French",
-    "i": 839,
+    "i": 437,
     "min": 4,
     "max": 11,
     "d": "ro-US",
@@ -3945,7 +3945,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Friulian",
-    "i": 840,
+    "i": 438,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -3954,25 +3954,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Galician",
-    "i": 841,
+    "i": 439,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Santiago de Compostela,Vigo,A Coruña,Ourense,Lugo,Pontevedra,Ferrol,Vilagarcía de Arousa,Marín"
+    "b": "Santiago de Compostela,Vigo,A CoruÃ±a,Ourense,Lugo,Pontevedra,Ferrol,VilagarcÃ­a de Arousa,MarÃ­n"
   },
   {
     "name": "Galician-Asturian",
-    "i": 842,
+    "i": 440,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Oviedo,Gijón,Avilés,Mieres,Luanco,Cangas del Narcea,Pola de Siero,Siero,Tineo,Allande,Villaviciosa"
+    "b": "Oviedo,GijÃ³n,AvilÃ©s,Mieres,Luanco,Cangas del Narcea,Pola de Siero,Siero,Tineo,Allande,Villaviciosa"
   },
   {
     "name": "Gallo-Italic of Basilicata",
-    "i": 843,
+    "i": 441,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -3981,7 +3981,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gallo-Italic of Sicily",
-    "i": 844,
+    "i": 442,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -3990,16 +3990,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gallo-Picene",
-    "i": 845,
+    "i": 443,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
     "m": 0,
-    "b": "Amiens,Laon,Saint-Quentin,Beauvais,Compiègne,Cambrai,Arras,Lens,Valenciennes,Soissons,Châlons-en-Champagne"
+    "b": "Amiens,Laon,Saint-Quentin,Beauvais,CompiÃ¨gne,Cambrai,Arras,Lens,Valenciennes,Soissons,ChÃ¢lons-en-Champagne"
   },
   {
     "name": "Gallurese",
-    "i": 846,
+    "i": 444,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -4008,25 +4008,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gardiol",
-    "i": 847,
+    "i": 445,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Gardanne,Bourgoin,Jouy-le-Châtel,Brie-Comte-Robert,Pontault-Combault,Pierre-le-Bérault"
+    "b": "Gardanne,Bourgoin,Jouy-le-ChÃ¢tel,Brie-Comte-Robert,Pontault-Combault,Pierre-le-BÃ©rault"
   },
   {
     "name": "Gascon",
-    "i": 848,
+    "i": 446,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Bordeaux,Bayonne,Pau,Tarbes,Dax,Mont-de-Marsan,Agen,Biarritz,Périgueux,Bergerac,Toulouse,Auch"
+    "b": "Bordeaux,Bayonne,Pau,Tarbes,Dax,Mont-de-Marsan,Agen,Biarritz,PÃ©rigueux,Bergerac,Toulouse,Auch"
   },
   {
     "name": "Genoese",
-    "i": 849,
+    "i": 447,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4035,7 +4035,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Grossetano",
-    "i": 850,
+    "i": 448,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4044,16 +4044,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Haketia",
-    "i": 851,
+    "i": 449,
     "min": 4,
     "max": 11,
     "d": "he-ES",
     "m": 0,
-    "b": "Sevilla,Cádiz,Málaga,Granada,Almería,Huelva,Jaén,Córdoba,Tangier,Tétouan,Fes,Meknes,Rabat,Safi,Salé,Tlemcen,Oran,Constantine,Anaba,Bizerte,Tunis,Algiers,Annaba,Fez,Marrakech"
+    "b": "Sevilla,CÃ¡diz,MÃ¡laga,Granada,AlmerÃ­a,Huelva,JaÃ©n,CÃ³rdoba,Tangier,TÃ©touan,Fes,Meknes,Rabat,Safi,SalÃ©,Tlemcen,Oran,Constantine,Anaba,Bizerte,Tunis,Algiers,Annaba,Fez,Marrakech"
   },
   {
     "name": "Intemelio",
-    "i": 852,
+    "i": 450,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4062,16 +4062,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Istriot",
-    "i": 853,
+    "i": 451,
     "min": 4,
     "max": 11,
     "d": "ro-HR",
     "m": 0,
-    "b": "Pula,Rovinj,Pazin,Poreč,Motovun,Buje,Labin,Novigrad"
+    "b": "Pula,Rovinj,Pazin,PoreÄ,Motovun,Buje,Labin,Novigrad"
   },
   {
     "name": "Italo-Australian",
-    "i": 855,
+    "i": 452,
     "min": 4,
     "max": 11,
     "d": "ro-AU",
@@ -4080,16 +4080,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jauer",
-    "i": 856,
+    "i": 453,
     "min": 4,
     "max": 11,
     "d": "gm-CH",
     "m": 0,
-    "b": "Müstair,Valchava,Fuldera,Lü,Santa Maria Val Müstair,Tschierv,Sta. Maria,Münscheriens,Mü"
+    "b": "MÃ¼stair,Valchava,Fuldera,LÃ¼,Santa Maria Val MÃ¼stair,Tschierv,Sta. Maria,MÃ¼nscheriens,MÃ¼"
   },
   {
     "name": "Joual",
-    "i": 857,
+    "i": 454,
     "min": 4,
     "max": 11,
     "d": "ro-CA",
@@ -4098,16 +4098,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Aragonese",
-    "i": 858,
+    "i": 455,
     "min": 4,
     "max": 11,
     "d": "he-ES",
     "m": 0,
-    "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,Monzón,Teruel,Alcañiz,Binefar"
+    "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,MonzÃ³n,Teruel,AlcaÃ±iz,Binefar"
   },
   {
     "name": "Judeo-Catalan",
-    "i": 859,
+    "i": 456,
     "min": 4,
     "max": 11,
     "d": "he-ES",
@@ -4116,7 +4116,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Gascon",
-    "i": 860,
+    "i": 457,
     "min": 4,
     "max": 11,
     "d": "he-FR",
@@ -4125,7 +4125,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Italian",
-    "i": 861,
+    "i": 458,
     "min": 4,
     "max": 11,
     "d": "he-IT",
@@ -4134,7 +4134,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Mantuan",
-    "i": 862,
+    "i": 459,
     "min": 4,
     "max": 11,
     "d": "he-IT",
@@ -4143,7 +4143,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Piedmontese",
-    "i": 863,
+    "i": 460,
     "min": 4,
     "max": 11,
     "d": "he-IT",
@@ -4152,34 +4152,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Portuguese",
-    "i": 864,
+    "i": 461,
     "min": 4,
     "max": 11,
     "d": "he-PT",
     "m": 0,
-    "b": "Porto,Lisbon,Faro,Braga,Coimbra,Évora,Beja,Funchal"
+    "b": "Porto,Lisbon,Faro,Braga,Coimbra,Ã‰vora,Beja,Funchal"
   },
   {
-    "name": "Judeo-Provençal",
-    "i": 865,
+    "name": "Judeo-ProvenÃ§al",
+    "i": 462,
     "min": 4,
     "max": 11,
     "d": "he-FR",
     "m": 0,
-    "b": "Avignon,Arles,Marseille,Carpentras,Aix-en-Provence,Orange,Nîmes,Carry-le-Rouet,Martigues,Salon-de-Provence,Tarascon,Cavaillon"
+    "b": "Avignon,Arles,Marseille,Carpentras,Aix-en-Provence,Orange,NÃ®mes,Carry-le-Rouet,Martigues,Salon-de-Provence,Tarascon,Cavaillon"
   },
   {
     "name": "Judeo-Spanish",
-    "i": 866,
+    "i": 463,
     "min": 4,
     "max": 11,
     "d": "he-ES",
     "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,Málaga,Tenerife,Bilbao,Lérida,Cádiz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
+    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,MÃ¡laga,Tenerife,Bilbao,LÃ©rida,CÃ¡diz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
   },
   {
     "name": "Ladin",
-    "i": 867,
+    "i": 464,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -4188,34 +4188,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ladino ",
-    "i": 868,
+    "i": 465,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Ávila,Salamanca,Valladolid,Zamora,Cáceres,Badajoz,Plasencia,Ávila de los Caballeros,Arévalo"
+    "b": "Ãvila,Salamanca,Valladolid,Zamora,CÃ¡ceres,Badajoz,Plasencia,Ãvila de los Caballeros,ArÃ©valo"
   },
   {
     "name": "Landese",
-    "i": 869,
+    "i": 466,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Santander,Torrelavega,Cantabria,Camaleño,Santillana,Potes,Laredo,Sierra de Iguña,Vega de Pas"
+    "b": "Santander,Torrelavega,Cantabria,CamaleÃ±o,Santillana,Potes,Laredo,Sierra de IguÃ±a,Vega de Pas"
   },
   {
     "name": "Languedocien",
-    "i": 870,
+    "i": 467,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Nîmes,Montpellier,Béziers,Alès,Albi,Carcassonne,Pamiers,Narbonne,Sète,Aix-en-Provence"
+    "b": "NÃ®mes,Montpellier,BÃ©ziers,AlÃ¨s,Albi,Carcassonne,Pamiers,Narbonne,SÃ¨te,Aix-en-Provence"
   },
   {
     "name": "Latin",
-    "i": 871,
+    "i": 468,
     "min": 4,
     "max": 11,
     "d": "la-IT",
@@ -4224,16 +4224,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Leonese",
-    "i": 872,
+    "i": 469,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "León,Astorga,Ponferrada,Palencia,Benavente,Zamora,Valladolid,Salamanca,Soria,Sahagún,Bembibre"
+    "b": "LeÃ³n,Astorga,Ponferrada,Palencia,Benavente,Zamora,Valladolid,Salamanca,Soria,SahagÃºn,Bembibre"
   },
   {
     "name": "Ligurian",
-    "i": 873,
+    "i": 470,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4242,16 +4242,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Limousin",
-    "i": 874,
+    "i": 471,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Limoges,Brive-la-Gaillarde,Tulle,Guéret,Aubusson,Nontron,Excideuil,Meymac,La Souterraine,Haute-Vienne"
+    "b": "Limoges,Brive-la-Gaillarde,Tulle,GuÃ©ret,Aubusson,Nontron,Excideuil,Meymac,La Souterraine,Haute-Vienne"
   },
   {
     "name": "Llanito",
-    "i": 875,
+    "i": 472,
     "min": 4,
     "max": 11,
     "d": "es-GI",
@@ -4260,7 +4260,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Logudorese",
-    "i": 876,
+    "i": 473,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -4269,7 +4269,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lombard",
-    "i": 877,
+    "i": 474,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -4278,7 +4278,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Louisiana French",
-    "i": 878,
+    "i": 475,
     "min": 4,
     "max": 11,
     "d": "ro-US",
@@ -4287,7 +4287,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lucchese",
-    "i": 879,
+    "i": 476,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4296,16 +4296,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "M-tis French",
-    "i": 880,
+    "i": 477,
     "min": 4,
     "max": 11,
     "d": "ro-CA",
     "m": 0,
-    "b": "Orléans,Blois,Tours,Chartres,Amboise,Vendôme,Châteauroux,Dreux,Argentan"
+    "b": "OrlÃ©ans,Blois,Tours,Chartres,Amboise,VendÃ´me,ChÃ¢teauroux,Dreux,Argentan"
   },
   {
     "name": "Macerata",
-    "i": 881,
+    "i": 478,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4314,34 +4314,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Magoua",
-    "i": 882,
+    "i": 479,
     "min": 4,
     "max": 11,
     "d": "ro-NC",
     "m": 0,
-    "b": "Nouméa,Païta,Mont-Dore,Dumbéa,Tchamba,Lifou,Thio,Bourail,Yaté"
+    "b": "NoumÃ©a,PaÃ¯ta,Mont-Dore,DumbÃ©a,Tchamba,Lifou,Thio,Bourail,YatÃ©"
   },
   {
     "name": "Mallorcan",
-    "i": 883,
+    "i": 480,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Palma de Mallorca,Manacor,Ibiza,Mahón,Ciutadella,Eivissa,Alaior,Santanyí,Sóller,Andratx,Pollença"
+    "b": "Palma de Mallorca,Manacor,Ibiza,MahÃ³n,Ciutadella,Eivissa,Alaior,SantanyÃ­,SÃ³ller,Andratx,PollenÃ§a"
   },
   {
     "name": "Maltese-Italian",
-    "i": 884,
+    "i": 481,
     "min": 4,
     "max": 11,
     "d": "it-MT",
     "m": 0,
-    "b": "Valletta,Mdina,Victoria,Mosta,Zejtun,Żabbar,Żurrieq,Safi,Siġġiewi,Żebbuġ"
+    "b": "Valletta,Mdina,Victoria,Mosta,Zejtun,Å»abbar,Å»urrieq,Safi,SiÄ¡Ä¡iewi,Å»ebbuÄ¡"
   },
   {
     "name": "Manduriano",
-    "i": 885,
+    "i": 482,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4350,52 +4350,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Maramure\u0011",
-    "i": 886,
+    "i": 483,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Maramure\u0011,Târgu Mure\u0011,Reghin,Topli\u001a,Sighi\u0011oara,Sângeru,Târnăveni,Bistri\u001a"
+    "b": "Maramure\u0011,TÃ¢rgu Mure\u0011,Reghin,Topli\u001a,Sighi\u0011oara,SÃ¢ngeru,TÃ¢rnÄƒveni,Bistri\u001a"
   },
   {
     "name": "Menorcan",
-    "i": 887,
+    "i": 484,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Mahón,Ciutadella,Ferreries,Mercadal,Alaior,Sant Lluís,Es Castell,Es Mercadal,Fornells"
+    "b": "MahÃ³n,Ciutadella,Ferreries,Mercadal,Alaior,Sant LluÃ­s,Es Castell,Es Mercadal,Fornells"
   },
   {
     "name": "Mentonasc",
-    "i": 888,
+    "i": 485,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Menton,Roquebrune-Cap-Martin,Saint-Agnès,Beausoleil,Èze,La Turbie,Castellar,Peille"
+    "b": "Menton,Roquebrune-Cap-Martin,Saint-AgnÃ¨s,Beausoleil,Ãˆze,La Turbie,Castellar,Peille"
   },
   {
     "name": "Messinese",
-    "i": 889,
+    "i": 486,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Messina,Taormina,Barcellona Pozzo di Gotto,Milazzo,Santo Stefano di Camastra,Savoca,Roccalumera,Mongiuffi Melia,Spadafora,Alì Terme,Giardini Naxos"
+    "b": "Messina,Taormina,Barcellona Pozzo di Gotto,Milazzo,Santo Stefano di Camastra,Savoca,Roccalumera,Mongiuffi Melia,Spadafora,AlÃ¬ Terme,Giardini Naxos"
   },
   {
     "name": "Mexican Spanish",
-    "i": 890,
+    "i": 487,
     "min": 4,
     "max": 11,
     "d": "es-MX",
     "m": 0,
-    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad Juárez,Tijuana,León,Veracruz,Cancún,Mazatlán"
+    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad JuÃ¡rez,Tijuana,LeÃ³n,Veracruz,CancÃºn,MazatlÃ¡n"
   },
   {
     "name": "Milanese",
-    "i": 891,
+    "i": 488,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4404,34 +4404,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Minderico",
-    "i": 892,
+    "i": 489,
     "min": 4,
     "max": 11,
     "d": "it-PT",
     "m": 0,
-    "b": "Minde,Alcanena,Santarém,Ourém,Tomar,Almeida,Fátima,Leiria,Porto,Lisboa,Coimbra,Évora,Setúbal,Faro,Aveiro,Braga,Viseu,Guarda,Castelo Branco,Vila Real,Viana do Castelo"
+    "b": "Minde,Alcanena,SantarÃ©m,OurÃ©m,Tomar,Almeida,FÃ¡tima,Leiria,Porto,Lisboa,Coimbra,Ã‰vora,SetÃºbal,Faro,Aveiro,Braga,Viseu,Guarda,Castelo Branco,Vila Real,Viana do Castelo"
   },
   {
     "name": "Mineiro",
-    "i": 893,
+    "i": 490,
     "min": 4,
     "max": 11,
     "d": "pt-BR",
     "m": 0,
-    "b": "Belo Horizonte,Uberlândia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinópolis,Varginha,Ouro Preto"
+    "b": "Belo Horizonte,UberlÃ¢ndia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,DivinÃ³polis,Varginha,Ouro Preto"
   },
   {
     "name": "Mirandese",
-    "i": 894,
+    "i": 491,
     "min": 4,
     "max": 11,
     "d": "ro-PT",
     "m": 0,
-    "b": "Miranda do Douro,Sendim,Mogadouro,Vimioso,Braganca,Freixo de Espada a Cinta,Torre de Moncorvo,Macedo de Cavaleiros,Alfandega da Fe,Mirandela,Vila Flor,Carrazeda de Ansiaes,Angueira,Palaçoulo,Picote,Ifanes,Constantim,Cicouro,Paradela,São Martinho de Angueira,Duas Igrejas,Malhadas,Genísio,Silva,Águas Vivas,Vila Chã de Braciosa"
+    "b": "Miranda do Douro,Sendim,Mogadouro,Vimioso,Braganca,Freixo de Espada a Cinta,Torre de Moncorvo,Macedo de Cavaleiros,Alfandega da Fe,Mirandela,Vila Flor,Carrazeda de Ansiaes,Angueira,PalaÃ§oulo,Picote,Ifanes,Constantim,Cicouro,Paradela,SÃ£o Martinho de Angueira,Duas Igrejas,Malhadas,GenÃ­sio,Silva,Ãguas Vivas,Vila ChÃ£ de Braciosa"
   },
   {
     "name": "Missouri French",
-    "i": 895,
+    "i": 492,
     "min": 4,
     "max": 11,
     "d": "ro-US",
@@ -4440,16 +4440,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Moldavian",
-    "i": 896,
+    "i": 493,
     "min": 4,
     "max": 11,
     "d": "ro-MD",
     "m": 0,
-    "b": "Chișinău,Bălți,Tiraspol,Bender,Călărași,Orhei,Soroca,Ungheni,Comrat,Edineț,Hîncești,Cușeni"
+    "b": "ChiÈ™inÄƒu,BÄƒlÈ›i,Tiraspol,Bender,CÄƒlÄƒraÈ™i,Orhei,Soroca,Ungheni,Comrat,EdineÈ›,HÃ®nceÈ™ti,CuÈ™eni"
   },
   {
-    "name": "Monégasque",
-    "i": 897,
+    "name": "MonÃ©gasque",
+    "i": 494,
     "min": 4,
     "max": 11,
     "d": "ro-MC",
@@ -4458,79 +4458,79 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mozarabic",
-    "i": 898,
+    "i": 495,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Córdoba,Granada,Málaga,Sevilla,Toledo,Zaragoza,Lérida,Burgos,Zamora,Soria,Ávila,Salamanca"
+    "b": "CÃ³rdoba,Granada,MÃ¡laga,Sevilla,Toledo,Zaragoza,LÃ©rida,Burgos,Zamora,Soria,Ãvila,Salamanca"
   },
   {
     "name": "Murcian",
-    "i": 899,
+    "i": 496,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Murcia,Cartagena,Lorca,Alicante,Elche,Orihuela,Albacete,Almansa,Cieza,Yecla,Águilas"
+    "b": "Murcia,Cartagena,Lorca,Alicante,Elche,Orihuela,Albacete,Almansa,Cieza,Yecla,Ãguilas"
   },
   {
     "name": "Muskrat French",
-    "i": 900,
+    "i": 497,
     "min": 4,
     "max": 11,
     "d": "ro-US",
     "m": 0,
-    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,Rivière-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
+    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,RiviÃ¨re-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
   },
   {
     "name": "Navarrese",
-    "i": 901,
+    "i": 498,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Pamplona,Tudela,Estella,Tafalla,Berbinati,Sangüesa,Zangoza,Etxarri Aranats,Lekunberri,Altsasu"
+    "b": "Pamplona,Tudela,Estella,Tafalla,Berbinati,SangÃ¼esa,Zangoza,Etxarri Aranats,Lekunberri,Altsasu"
   },
   {
     "name": "Navarro-Aragonese",
-    "i": 902,
+    "i": 499,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Pamplona,Tudela,Jaca,Huesca,Barbastro,Ejea de los Caballeros,Sangüesa,Estella,Tafalla,Berbinati"
+    "b": "Pamplona,Tudela,Jaca,Huesca,Barbastro,Ejea de los Caballeros,SangÃ¼esa,Estella,Tafalla,Berbinati"
   },
   {
     "name": "New England French",
-    "i": 903,
+    "i": 500,
     "min": 4,
     "max": 11,
     "d": "ro-US",
     "m": 0,
-    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-François,Saint-Dominique"
+    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-FranÃ§ois,Saint-Dominique"
   },
   {
     "name": "Newfoundland French",
-    "i": 904,
+    "i": 501,
     "min": 4,
     "max": 11,
     "d": "ro-CA",
     "m": 0,
-    "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-à-Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
+    "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-Ã -Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
   },
   {
-    "name": "Niçard",
-    "i": 905,
+    "name": "NiÃ§ard",
+    "i": 502,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Niça,Vilafranca de Mar,Antíbol,Grassa,Canas,Menton,Sant Laurenç de Var,Canha de Mar,Sant Adreia de la Ròca,Lo Torrit,Escarena,Luceram,Buelh,Puget Tenier,Gileta,Falicon"
+    "b": "NiÃ§a,Vilafranca de Mar,AntÃ­bol,Grassa,Canas,Menton,Sant LaurenÃ§ de Var,Canha de Mar,Sant Adreia de la RÃ²ca,Lo Torrit,Escarena,Luceram,Buelh,Puget Tenier,Gileta,Falicon"
   },
   {
     "name": "Nones",
-    "i": 906,
+    "i": 503,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -4539,43 +4539,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Catalan",
-    "i": 907,
+    "i": 504,
     "min": 4,
     "max": 11,
     "d": "oc-ES",
     "m": 0,
-    "b": "Perpinyà,Canet de Rosselló,Sant Esteve del Monestir,Sant Cebrià de Rosselló,Sant Llorenç de la Salanca,Argelers de la Marenda,Ribesaltes,Tuïr,Elna,Prada,Ceret,Illa,Millars,Bages,Toluges,Pià,Salses,Pollestres,Vernet,Sant Pau de Fenollet"
+    "b": "PerpinyÃ ,Canet de RossellÃ³,Sant Esteve del Monestir,Sant CebriÃ  de RossellÃ³,Sant LlorenÃ§ de la Salanca,Argelers de la Marenda,Ribesaltes,TuÃ¯r,Elna,Prada,Ceret,Illa,Millars,Bages,Toluges,PiÃ ,Salses,Pollestres,Vernet,Sant Pau de Fenollet"
   },
   {
     "name": "Northern Portuguese",
-    "i": 908,
+    "i": 505,
     "min": 4,
     "max": 11,
     "d": "ro-PT",
     "m": 0,
-    "b": "Porto,Vila Nova de Gaia,Braga,Guimarães,Viana do Castelo,Vila Real,Bragança,Barcelos,Matosinhos,Maia,Gondomar,Famalicão,Santo Tirso,Póvoa de Varzim,Vila do Conde,Amarante,Penafiel,Marco de Canaveses,Lousada,Felgueiras,Paços de Ferreira"
+    "b": "Porto,Vila Nova de Gaia,Braga,GuimarÃ£es,Viana do Castelo,Vila Real,BraganÃ§a,Barcelos,Matosinhos,Maia,Gondomar,FamalicÃ£o,Santo Tirso,PÃ³voa de Varzim,Vila do Conde,Amarante,Penafiel,Marco de Canaveses,Lousada,Felgueiras,PaÃ§os de Ferreira"
   },
   {
     "name": "Northern Romanian",
-    "i": 909,
+    "i": 506,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Baia Mare,Satu Mare,Oradea,Sighetu Marmației,Vișeu de Sus,Borșa,Negrești-Oas,Carei,Zalău,Bistrița,Năsăud,Gura Humorului,Câmpulung Moldovenesc,Vatra Dornei,Suceava,Rădăuți,Siret"
+    "b": "Baia Mare,Satu Mare,Oradea,Sighetu MarmaÈ›iei,ViÈ™eu de Sus,BorÈ™a,NegreÈ™ti-Oas,Carei,ZalÄƒu,BistriÈ›a,NÄƒsÄƒud,Gura Humorului,CÃ¢mpulung Moldovenesc,Vatra Dornei,Suceava,RÄƒdÄƒuÈ›i,Siret"
   },
   {
     "name": "Northwestern Catalan",
-    "i": 910,
+    "i": 507,
     "min": 4,
     "max": 11,
     "d": "oc-ES",
     "m": 0,
-    "b": "Lleida,Tàrrega,Balaguer,Mollerussa,Tremp,Sort,Pallars,Sa Pobla de Segur"
+    "b": "Lleida,TÃ rrega,Balaguer,Mollerussa,Tremp,Sort,Pallars,Sa Pobla de Segur"
   },
   {
     "name": "Novarese",
-    "i": 911,
+    "i": 508,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4584,25 +4584,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Occitan",
-    "i": 912,
+    "i": 509,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Tolosa,Bordèu,Montpelhièr,Limòtges,Clarmont d'Auvèrnhe,Pau,Baiona,Biàrritz,Tarba,Periguers,Caors,Albi,Rodés,Mende,Lo Puèi de Velai,Valença,Gap,Dinha,Avinhon,Marselha,Tolon,Niça"
+    "b": "Tolosa,BordÃ¨u,MontpelhiÃ¨r,LimÃ²tges,Clarmont d'AuvÃ¨rnhe,Pau,Baiona,BiÃ rritz,Tarba,Periguers,Caors,Albi,RodÃ©s,Mende,Lo PuÃ¨i de Velai,ValenÃ§a,Gap,Dinha,Avinhon,Marselha,Tolon,NiÃ§a"
   },
   {
     "name": "Chuj",
-    "i": 913,
+    "i": 510,
     "min": 4,
     "max": 11,
     "d": "may-GT",
     "m": 0,
-    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo Ixtatán,San Sebastián Coatán,Nentón,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel Acatán,Concepción Huista"
+    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
   },
   {
     "name": "Ch'orti'",
-    "i": 914,
+    "i": 511,
     "min": 4,
     "max": 11,
     "d": "may-GT",
@@ -4611,16 +4611,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old Catalan",
-    "i": 915,
+    "i": 512,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Vic,Manresa,Urgell,Empúries,Besalú,Cervera,Puigcerdà,Camprodon,Peralada"
+    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Vic,Manresa,Urgell,EmpÃºries,BesalÃº,Cervera,PuigcerdÃ ,Camprodon,Peralada"
   },
   {
     "name": "Old Gallo-Romance",
-    "i": 916,
+    "i": 513,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
@@ -4629,16 +4629,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old Leonese",
-    "i": 917,
+    "i": 514,
     "min": 4,
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Llión,Zamora,Salamanca,Astorga,Ponferrada,Benavente,Cangas del Narcea,Oviedo,Xixón,Avilés,Mieres,Llangréu"
+    "b": "LliÃ³n,Zamora,Salamanca,Astorga,Ponferrada,Benavente,Cangas del Narcea,Oviedo,XixÃ³n,AvilÃ©s,Mieres,LlangrÃ©u"
   },
   {
     "name": "Old Lombard",
-    "i": 918,
+    "i": 515,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -4647,52 +4647,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old Occitan",
-    "i": 919,
+    "i": 516,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Tolosa,Bordèu,Narbona,Albi,Carcassona,Besièrs,Montpelhièr,Arle,Avinhon,Marselha,Niça,Valença,Limòtges"
+    "b": "Tolosa,BordÃ¨u,Narbona,Albi,Carcassona,BesiÃ¨rs,MontpelhiÃ¨r,Arle,Avinhon,Marselha,NiÃ§a,ValenÃ§a,LimÃ²tges"
   },
   {
     "name": "Old Romagnol",
-    "i": 920,
+    "i": 517,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
     "m": 0,
-    "b": "Ravêna,Chiseun,Furlì,Rimmne,Imola,Faenza,Lugo,Cervia,Cesenatico,Cattolica"
+    "b": "RavÃªna,Chiseun,FurlÃ¬,Rimmne,Imola,Faenza,Lugo,Cervia,Cesenatico,Cattolica"
   },
   {
     "name": "Old Spanish",
-    "i": 921,
+    "i": 518,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Burgos,Toledo,Sevilla,Córdoba,Granada,Valladolid,Segovia,Ávila,Salamanca,León,Zaragoza,Valencia,Murcia,Jaén"
+    "b": "Burgos,Toledo,Sevilla,CÃ³rdoba,Granada,Valladolid,Segovia,Ãvila,Salamanca,LeÃ³n,Zaragoza,Valencia,Murcia,JaÃ©n"
   },
   {
     "name": "Oliventine",
-    "i": 922,
+    "i": 519,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Olivença,São Jorge de Alor,São Bento de Contenda,Vila Real de Olivença,Talaván,Juromenha"
+    "b": "OlivenÃ§a,SÃ£o Jorge de Alor,SÃ£o Bento de Contenda,Vila Real de OlivenÃ§a,TalavÃ¡n,Juromenha"
   },
   {
     "name": "Oltenian",
-    "i": 923,
+    "i": 520,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Craiova,Târgu Jiu,Drobeta-Turnu Severin,Râmnicu Vâlcea,Slatina,Caracal,Motru,Balș,Corabia,Drăgănești-Olt"
+    "b": "Craiova,TÃ¢rgu Jiu,Drobeta-Turnu Severin,RÃ¢mnicu VÃ¢lcea,Slatina,Caracal,Motru,BalÈ™,Corabia,DrÄƒgÄƒneÈ™ti-Olt"
   },
   {
     "name": "Ossolano",
-    "i": 924,
+    "i": 521,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -4700,26 +4700,26 @@ window.realWorldNameBases = [
     "b": "Domodossola,Crevoladossola,Villadossola,Pallanzeno,Piedimulera,Vogogna,Premosello-Chiovenda,Ornavasso,Mergozzo,Gravellona Toce,Casale Corte Cerro,Omegna"
   },
   {
-    "name": "Palafrugués",
-    "i": 925,
+    "name": "PalafruguÃ©s",
+    "i": 522,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Palafrugell,Llafranc,Calella de Palafrugell,Tamariu,Llofriu,Palamós,Montserrat,Begur,Pals,Peratallada,Regencós,Cruïlles,Monells,La Bisbal d'Empordà"
+    "b": "Palafrugell,Llafranc,Calella de Palafrugell,Tamariu,Llofriu,PalamÃ³s,Montserrat,Begur,Pals,Peratallada,RegencÃ³s,CruÃ¯lles,Monells,La Bisbal d'EmpordÃ "
   },
   {
     "name": "Palra",
-    "i": 926,
+    "i": 523,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Valverde del Fresno,Eljas,San Martín de Trevejo,El Rebollar,Jaraicejo,Navasfrías,Robledillo,Gata,Hoyos,Cáceres,Badajoz,Mérida,Plasencia,Trujillo,Coria,Alcántara"
+    "b": "Valverde del Fresno,Eljas,San MartÃ­n de Trevejo,El Rebollar,Jaraicejo,NavasfrÃ­as,Robledillo,Gata,Hoyos,CÃ¡ceres,Badajoz,MÃ©rida,Plasencia,Trujillo,Coria,AlcÃ¡ntara"
   },
   {
     "name": "Pannonian Latin",
-    "i": 927,
+    "i": 524,
     "min": 4,
     "max": 11,
     "d": "la-HU",
@@ -4728,52 +4728,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pantesco",
-    "i": 928,
+    "i": 525,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Pantelleria,Scauri,Rekhale,Gadir,Khamma,Tracino,Bugeber,Mueggen,Bukkuram,Sibà,Campobello"
+    "b": "Pantelleria,Scauri,Rekhale,Gadir,Khamma,Tracino,Bugeber,Mueggen,Bukkuram,SibÃ ,Campobello"
   },
   {
     "name": "Paraguayan Spanish",
-    "i": 929,
+    "i": 526,
     "min": 4,
     "max": 11,
     "d": "es-PY",
     "m": 0,
-    "b": "Asunción,Ciudad del Este,San Lorenzo,Luque,Capiatá,Lambaré,Fernando de la Mora,Limpio,Ñemby,Mariano Roque Alonso,Pedro Juan Caballero,Encarnación,Caaguazú"
+    "b": "AsunciÃ³n,Ciudad del Este,San Lorenzo,Luque,CapiatÃ¡,LambarÃ©,Fernando de la Mora,Limpio,Ã‘emby,Mariano Roque Alonso,Pedro Juan Caballero,EncarnaciÃ³n,CaaguazÃº"
   },
   {
     "name": "Parmigiano",
-    "i": 930,
+    "i": 527,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Pärma,Fidenza,Salsomaggiore Terme,Collecchio,Noceto,Medesano,Montechiarugolo,Langhirano,Traversetolo,Felino,Colorno,Fontanellato,Busseto,Bedonia"
+    "b": "PÃ¤rma,Fidenza,Salsomaggiore Terme,Collecchio,Noceto,Medesano,Montechiarugolo,Langhirano,Traversetolo,Felino,Colorno,Fontanellato,Busseto,Bedonia"
   },
   {
     "name": "Pavese",
-    "i": 931,
+    "i": 528,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Pavìa,Vigevano,Voghera,Mortara,Stradella,Gambolò,Garlasco,Broni,Casorate Primo,Cassolnovo,Casteggio,Robbio,Mede,Chignolo Po"
+    "b": "PavÃ¬a,Vigevano,Voghera,Mortara,Stradella,GambolÃ²,Garlasco,Broni,Casorate Primo,Cassolnovo,Casteggio,Robbio,Mede,Chignolo Po"
   },
   {
-    "name": "Peruvian Ribere├▒o",
-    "i": 932,
+    "name": "Peruvian Ribereâ”œâ–’o",
+    "i": 529,
     "min": 4,
     "max": 11,
     "d": "es-PE",
     "m": 0,
-    "b": "Iquitos,Nauta,Requena,Contamana,Yurimaguas,San Lorenzo,Caballococha,Tamshiyacu,Indiana,Mazán,Punchana,Belén,San Juan Bautista"
+    "b": "Iquitos,Nauta,Requena,Contamana,Yurimaguas,San Lorenzo,Caballococha,Tamshiyacu,Indiana,MazÃ¡n,Punchana,BelÃ©n,San Juan Bautista"
   },
   {
     "name": "Peruvian Spanish",
-    "i": 933,
+    "i": 530,
     "min": 4,
     "max": 11,
     "d": "es-PE",
@@ -4782,16 +4782,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pesciatino",
-    "i": 934,
+    "i": 531,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Péscia,Collodi,Veneri,Alberghi,Chiesina Uzzanese,Ponte Buggianese,Uzzano,Buggiano,Massa e Cozzile,Montecatini Terme,Monsummano Terme"
+    "b": "PÃ©scia,Collodi,Veneri,Alberghi,Chiesina Uzzanese,Ponte Buggianese,Uzzano,Buggiano,Massa e Cozzile,Montecatini Terme,Monsummano Terme"
   },
   {
     "name": "Bjarmian Finnic",
-    "i": 935,
+    "i": 532,
     "min": 4,
     "max": 11,
     "d": "fiu-RU",
@@ -4800,16 +4800,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Sami",
-    "i": 936,
+    "i": 533,
     "min": 4,
     "max": 11,
     "d": "urj-NO",
     "m": 0,
-    "b": "Kuoila,Sápmi,Vuolle,Oarjjel,Nuortta,Lulli,Davvi,Máttá,Giellâ,Kola,Inari,Tana,Varanger,Pasvik,Enare,Lule,Pite,Ume,Skolt"
+    "b": "Kuoila,SÃ¡pmi,Vuolle,Oarjjel,Nuortta,Lulli,Davvi,MÃ¡ttÃ¡,GiellÃ¢,Kola,Inari,Tana,Varanger,Pasvik,Enare,Lule,Pite,Ume,Skolt"
   },
   {
     "name": "Forest Nenets",
-    "i": 937,
+    "i": 534,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4818,25 +4818,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Finnic",
-    "i": 938,
+    "i": 535,
     "min": 4,
     "max": 11,
     "d": "urj-FI",
     "m": 0,
-    "b": "Suomi,Häme,Karjala,Viro,Liivi,Vatja,Inkeri,Vepsä,Aunus,Viena"
+    "b": "Suomi,HÃ¤me,Karjala,Viro,Liivi,Vatja,Inkeri,VepsÃ¤,Aunus,Viena"
   },
   {
     "name": "Southwestern Finnish",
-    "i": 939,
+    "i": 536,
     "min": 4,
     "max": 11,
     "d": "urj-FI",
     "m": 0,
-    "b": "Turku,Naantali,Raisio,Kaarina,Lieto,Paimio,Sauvo,Parainen,Laitila,Uusikaupunki,Vehmaa,Taivassalo,Mynämäki,Nousiainen"
+    "b": "Turku,Naantali,Raisio,Kaarina,Lieto,Paimio,Sauvo,Parainen,Laitila,Uusikaupunki,Vehmaa,Taivassalo,MynÃ¤mÃ¤ki,Nousiainen"
   },
   {
     "name": "Proto-Uralic",
-    "i": 940,
+    "i": 537,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4845,16 +4845,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Karelian",
-    "i": 941,
+    "i": 538,
     "min": 4,
     "max": 11,
     "d": "urj-FI",
     "m": 0,
-    "b": "Karjala,Viipuri,Sortavala,Käkisalmi,Aunus,Viena,Poventsa,Kemi,Paatene"
+    "b": "Karjala,Viipuri,Sortavala,KÃ¤kisalmi,Aunus,Viena,Poventsa,Kemi,Paatene"
   },
   {
     "name": "Proto-Permic",
-    "i": 942,
+    "i": 539,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4863,43 +4863,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Somero region",
-    "i": 943,
+    "i": 540,
     "min": 4,
     "max": 11,
     "d": "urj-FI",
     "m": 0,
-    "b": "Somero,Somerniemi,Pitkäjärvi,Kultela,Häntälä,Terttilä,Pajula,Ihamäki,Kaskisto,Kivisoo,Sylvänä"
+    "b": "Somero,Somerniemi,PitkÃ¤jÃ¤rvi,Kultela,HÃ¤ntÃ¤lÃ¤,TerttilÃ¤,Pajula,IhamÃ¤ki,Kaskisto,Kivisoo,SylvÃ¤nÃ¤"
   },
   {
-    "name": "J├ñmtland",
-    "i": 944,
+    "name": "Jâ”œÃ±mtland",
+    "i": 541,
     "min": 4,
     "max": 11,
     "d": "gm-SE",
     "m": 0,
-    "b": "Östersund,Åre,Krokom,Strömsund,Ragunda,Bräcke,Berg,Härjedalen,Funäsdalen,Vemdalen,Sveg,Hammerdal,Lit,Brunflo"
+    "b": "Ã–stersund,Ã…re,Krokom,StrÃ¶msund,Ragunda,BrÃ¤cke,Berg,HÃ¤rjedalen,FunÃ¤sdalen,Vemdalen,Sveg,Hammerdal,Lit,Brunflo"
   },
   {
     "name": "Baka",
-    "i": 945,
+    "i": 542,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
     "m": 0,
-    "b": "Yokadouma,Moloundou,Lomié,Messok,Mintom,Ngoyla,Djoum,Sangmélima,Batouri"
+    "b": "Yokadouma,Moloundou,LomiÃ©,Messok,Mintom,Ngoyla,Djoum,SangmÃ©lima,Batouri"
   },
   {
     "name": "Bube",
-    "i": 946,
+    "i": 543,
     "min": 4,
     "max": 11,
     "d": "bnt-GQ",
     "m": 0,
-    "b": "Malabo,Luba,Baney,Riaba,Rebola,Santiago de Baney,Moca,Basilé,Cupapa,Batete"
+    "b": "Malabo,Luba,Baney,Riaba,Rebola,Santiago de Baney,Moca,BasilÃ©,Cupapa,Batete"
   },
   {
     "name": "Saya",
-    "i": 947,
+    "i": 544,
     "min": 4,
     "max": 11,
     "d": "wba-NG",
@@ -4908,7 +4908,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tamil",
-    "i": 948,
+    "i": 545,
     "min": 4,
     "max": 11,
     "d": "dra-IN",
@@ -4917,7 +4917,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nenets",
-    "i": 1030,
+    "i": 546,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4926,7 +4926,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tundra Nenets",
-    "i": 1031,
+    "i": 547,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4935,25 +4935,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Estonian",
-    "i": 1032,
+    "i": 548,
     "min": 4,
     "max": 11,
     "d": "urj-EE",
     "m": 0,
-    "b": "Tallinn,Maardu,Keila,Paldiski,Saue,Rakvere,Tapa,Kunda,Paide,Türi,Rapla,Kohila"
+    "b": "Tallinn,Maardu,Keila,Paldiski,Saue,Rakvere,Tapa,Kunda,Paide,TÃ¼ri,Rapla,Kohila"
   },
   {
     "name": "Western Estonian",
-    "i": 1033,
+    "i": 549,
     "min": 4,
     "max": 11,
     "d": "urj-EE",
     "m": 0,
-    "b": "Haapsalu,Kuressaare,Kärdla,Lihula,Orissaare,Leisi,Salme,Kihelkonna,Valjala"
+    "b": "Haapsalu,Kuressaare,KÃ¤rdla,Lihula,Orissaare,Leisi,Salme,Kihelkonna,Valjala"
   },
   {
     "name": "Northern Erzya",
-    "i": 1034,
+    "i": 550,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4962,7 +4962,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southeastern Erzya",
-    "i": 1035,
+    "i": 551,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4971,7 +4971,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Erzya",
-    "i": 1036,
+    "i": 552,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4980,7 +4980,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shoksha",
-    "i": 1037,
+    "i": 553,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -4989,7 +4989,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Philippine Spanish",
-    "i": 1080,
+    "i": 554,
     "min": 4,
     "max": 11,
     "d": "es-PH",
@@ -4998,7 +4998,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Piedmontese",
-    "i": 1081,
+    "i": 555,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5007,7 +5007,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pisano-Livornese",
-    "i": 1082,
+    "i": 556,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5016,7 +5016,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pistoiese",
-    "i": 1083,
+    "i": 557,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5025,16 +5025,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Poitevin-Saintongeais",
-    "i": 1084,
+    "i": 558,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Poitiers,La Rochelle,Niort,Saintes,Rochefort,Angoulême,Châtellerault,Fontenay-le-Comte,Bressuire,Parthenay"
+    "b": "Poitiers,La Rochelle,Niort,Saintes,Rochefort,AngoulÃªme,ChÃ¢tellerault,Fontenay-le-Comte,Bressuire,Parthenay"
   },
   {
     "name": "Eastern Khanty",
-    "i": 1130,
+    "i": 559,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5043,7 +5043,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Mansi",
-    "i": 1131,
+    "i": 560,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5052,7 +5052,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Mansi",
-    "i": 1132,
+    "i": 561,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5060,53 +5060,53 @@ window.realWorldNameBases = [
     "b": "Kondo-Vozhe,Shaitanka,Pelim,Lozva,Sosva,Ivdel,Gari,Verkhoturye,Tavda,Turinsk"
   },
   {
-    "name": "Csángó",
-    "i": 1133,
+    "name": "CsÃ¡ngÃ³",
+    "i": 562,
     "min": 4,
     "max": 11,
     "d": "urj-RO",
     "m": 0,
-    "b": "Bacău,Onești,Moinești,Săcele,Sfântu Gheorghe,Roman,Pașcani,Adjud,Târgu Ocna,Slănic-Moldova"
+    "b": "BacÄƒu,OneÈ™ti,MoineÈ™ti,SÄƒcele,SfÃ¢ntu Gheorghe,Roman,PaÈ™cani,Adjud,TÃ¢rgu Ocna,SlÄƒnic-Moldova"
   },
   {
     "name": "Northeast Hungary",
-    "i": 1134,
+    "i": 563,
     "min": 4,
     "max": 11,
     "d": "urj-HU",
     "m": 0,
-    "b": "Miskolc,Nyíregyháza,Debrecen,Eger,Sárospatak,Tokaj,Szerencs,Kazincbarcika,Tiszaújváros,Mezőkövesd"
+    "b": "Miskolc,NyÃ­regyhÃ¡za,Debrecen,Eger,SÃ¡rospatak,Tokaj,Szerencs,Kazincbarcika,TiszaÃºjvÃ¡ros,MezÅ‘kÃ¶vesd"
   },
   {
     "name": "Transylvanian Plain",
-    "i": 1135,
+    "i": 564,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Cluj-Napoca,Turda,Câmpia Turzii,Luduș,Gherla,Dej,Beclean,Reghin,Târgu Mureș"
+    "b": "Cluj-Napoca,Turda,CÃ¢mpia Turzii,LuduÈ™,Gherla,Dej,Beclean,Reghin,TÃ¢rgu MureÈ™"
   },
   {
     "name": "Southern Sami",
-    "i": 1136,
+    "i": 565,
     "min": 4,
     "max": 11,
     "d": "urj-NO",
     "m": 0,
-    "b": "Snåsa,Røyrvik,Hattfjelldal,Grane,Namsskogan,Overhalla,Steinkjer,Verdal,Meråker,Tydal"
+    "b": "SnÃ¥sa,RÃ¸yrvik,Hattfjelldal,Grane,Namsskogan,Overhalla,Steinkjer,Verdal,MerÃ¥ker,Tydal"
   },
   {
     "name": "Portuguese",
-    "i": 1180,
+    "i": 566,
     "min": 4,
     "max": 11,
     "d": "it-PT",
     "m": 0,
-    "b": "Lisboa,Porto,Coimbra,Braga,Évora,Faro,Setúbal,Aveiro,Viseu,Guarda"
+    "b": "Lisboa,Porto,Coimbra,Braga,Ã‰vora,Faro,SetÃºbal,Aveiro,Viseu,Guarda"
   },
   {
     "name": "Proto-Eastern Romance",
-    "i": 1181,
+    "i": 567,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
@@ -5115,7 +5115,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Romance",
-    "i": 1182,
+    "i": 568,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -5123,8 +5123,8 @@ window.realWorldNameBases = [
     "b": "Roma,Lugduno,Massilia,Tolosa,Carthago Nova,Tarraco,Olisipo,Mediolano"
   },
   {
-    "name": "Provençal",
-    "i": 1183,
+    "name": "ProvenÃ§al",
+    "i": 569,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
@@ -5132,8 +5132,8 @@ window.realWorldNameBases = [
     "b": "Marseille,Aix-en-Provence,Arles,Toulon,Avignon,Digne-les-Bains,Gap,Nice"
   },
   {
-    "name": "Putèr ",
-    "i": 1184,
+    "name": "PutÃ¨r ",
+    "i": 570,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
@@ -5142,7 +5142,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mator",
-    "i": 1230,
+    "i": 571,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5151,7 +5151,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mator proper",
-    "i": 1231,
+    "i": 572,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5160,7 +5160,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Ob-Ugric",
-    "i": 1232,
+    "i": 573,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5169,7 +5169,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamas",
-    "i": 1233,
+    "i": 574,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5178,7 +5178,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nganasan",
-    "i": 1234,
+    "i": 575,
     "min": 4,
     "max": 11,
     "d": "urj-RU",
@@ -5187,7 +5187,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Lombard",
-    "i": 1280,
+    "i": 576,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -5196,7 +5196,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Varesino",
-    "i": 1281,
+    "i": 577,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -5205,7 +5205,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ticinese",
-    "i": 1282,
+    "i": 578,
     "min": 4,
     "max": 11,
     "d": "it-CH",
@@ -5214,7 +5214,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Triestine",
-    "i": 1283,
+    "i": 579,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5223,7 +5223,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berta",
-    "i": 1330,
+    "i": 580,
     "min": 4,
     "max": 11,
     "d": "sdv-ET",
@@ -5232,52 +5232,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sinyar",
-    "i": 1331,
+    "i": 581,
     "min": 4,
     "max": 11,
     "d": "sdv-TD",
     "m": 0,
-    "b": "Beida,Wadi Salih,Goz Beida,Kadjaksé,Dagana,Mogororo,Ade,Sila,Dar Sila,Habila,Forobaranga,Aradib"
+    "b": "Beida,Wadi Salih,Goz Beida,KadjaksÃ©,Dagana,Mogororo,Ade,Sila,Dar Sila,Habila,Forobaranga,Aradib"
   },
   {
     "name": "Songhoyboro Ciine",
-    "i": 1332,
+    "i": 582,
     "min": 4,
     "max": 11,
     "d": "son-NE",
     "m": 0,
-    "b": "Tillabéri,Niamey,Dosso,Tera,Gothèye,Kollo,Say,Ouallam,Filingué,Dargol,Namaro,Yatakala"
+    "b": "TillabÃ©ri,Niamey,Dosso,Tera,GothÃ¨ye,Kollo,Say,Ouallam,FilinguÃ©,Dargol,Namaro,Yatakala"
   },
   {
     "name": "Surbakhal",
-    "i": 1333,
+    "i": 583,
     "min": 4,
     "max": 11,
     "d": "sdv-TD",
     "m": 0,
-    "b": "Goz Beida,Koukou Angarana,Kerfi,Moudeïna,Adé,Tissi,Mongororo,Haraze,Sila,Ouaddaï,Batha,Guéra"
+    "b": "Goz Beida,Koukou Angarana,Kerfi,MoudeÃ¯na,AdÃ©,Tissi,Mongororo,Haraze,Sila,OuaddaÃ¯,Batha,GuÃ©ra"
   },
   {
     "name": "Teda",
-    "i": 1334,
+    "i": 584,
     "min": 4,
     "max": 11,
     "d": "ssa-TD",
     "m": 0,
-    "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kébir,Wour,Yebbi-Bou,Aouzou,Kourizo,Trou au Natron,Tibesti,Ennedi,Borkou"
+    "b": "Bardai,Zouar,Faya-Largeau,Ounianga KÃ©bir,Wour,Yebbi-Bou,Aouzou,Kourizo,Trou au Natron,Tibesti,Ennedi,Borkou"
   },
   {
     "name": "Tondi Songway Kiini",
-    "i": 1335,
+    "i": 585,
     "min": 4,
     "max": 11,
     "d": "son-ML",
     "m": 0,
-    "b": "Kikara,Douentza,Mopti,Boni,Hombori,Gao,Tombouctou,Djenné,Sevaré,Bandiagara,Bankass"
+    "b": "Kikara,Douentza,Mopti,Boni,Hombori,Gao,Tombouctou,DjennÃ©,SevarÃ©,Bandiagara,Bankass"
   },
   {
     "name": "Sukur",
-    "i": 1336,
+    "i": 586,
     "min": 4,
     "max": 11,
     "d": "cdc-NG",
@@ -5286,7 +5286,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bacama",
-    "i": 1337,
+    "i": 587,
     "min": 4,
     "max": 11,
     "d": "cdc-NG",
@@ -5295,7 +5295,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bade",
-    "i": 1338,
+    "i": 588,
     "min": 4,
     "max": 11,
     "d": "cdc-NG",
@@ -5304,7 +5304,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bole",
-    "i": 1339,
+    "i": 589,
     "min": 4,
     "max": 11,
     "d": "cdc-NG",
@@ -5313,25 +5313,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Quebec French",
-    "i": 1340,
+    "i": 590,
     "min": 4,
     "max": 11,
     "d": "ro-CA",
     "m": 0,
-    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-Rivières,Saguenay,Lévis"
+    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-RiviÃ¨res,Saguenay,LÃ©vis"
   },
   {
-    "name": "Rémois",
-    "i": 1341,
+    "name": "RÃ©mois",
+    "i": 591,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Reims,Châlons-en-Champagne,Épernay,Vitry-le-François"
+    "b": "Reims,ChÃ¢lons-en-Champagne,Ã‰pernay,Vitry-le-FranÃ§ois"
   },
   {
     "name": "Regional Italian",
-    "i": 1342,
+    "i": 592,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5339,8 +5339,8 @@ window.realWorldNameBases = [
     "b": "Roma,Milano,Napoli,Torino,Palermo,Genova,Bologna,Firenze"
   },
   {
-    "name": "Ribagorçan",
-    "i": 1343,
+    "name": "RibagorÃ§an",
+    "i": 593,
     "min": 4,
     "max": 11,
     "d": "oc-ES",
@@ -5349,25 +5349,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Riberan",
-    "i": 1344,
+    "i": 594,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Ribera del Duero,Aranda de Duero,Peñafiel,Roa,San Esteban de Gormaz"
+    "b": "Ribera del Duero,Aranda de Duero,PeÃ±afiel,Roa,San Esteban de Gormaz"
   },
   {
     "name": "Riojan",
-    "i": 1390,
+    "i": 595,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Logroño,Calahorra,Arnedo,Alfaro,Haro"
+    "b": "LogroÃ±o,Calahorra,Arnedo,Alfaro,Haro"
   },
   {
     "name": "Rioplatense Spanish",
-    "i": 1391,
+    "i": 596,
     "min": 4,
     "max": 11,
     "d": "es-AR",
@@ -5376,7 +5376,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Riunorese",
-    "i": 1392,
+    "i": 597,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -5385,16 +5385,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Romagnol",
-    "i": 1393,
+    "i": 598,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
     "m": 0,
-    "b": "Ravenna,Forlì,Cesena,Rimini,Imola,Faenza"
+    "b": "Ravenna,ForlÃ¬,Cesena,Rimini,Imola,Faenza"
   },
   {
     "name": "Romanesco",
-    "i": 1394,
+    "i": 599,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5403,34 +5403,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Romanian",
-    "i": 1440,
+    "i": 600,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Brașov,Galați"
+    "b": "Bucharest,Cluj-Napoca,TimiÈ™oara,IaÈ™i,ConstanÈ›a,Craiova,BraÈ™ov,GalaÈ›i"
   },
   {
     "name": "Romansh",
-    "i": 1441,
+    "i": 601,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
     "m": 0,
-    "b": "Chur,Davos,St. Moritz,Scuol,Disentis,Mustér"
+    "b": "Chur,Davos,St. Moritz,Scuol,Disentis,MustÃ©r"
   },
   {
     "name": "Romanian Daco-Romanian",
-    "i": 1442,
+    "i": 602,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Bucharest,Iași,Timișoara,Cluj-Napoca"
+    "b": "Bucharest,IaÈ™i,TimiÈ™oara,Cluj-Napoca"
   },
   {
     "name": "Royasc",
-    "i": 1443,
+    "i": 603,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
@@ -5439,34 +5439,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Istro-Romanian",
-    "i": 1444,
+    "i": 604,
     "min": 4,
     "max": 11,
     "d": "ro-HR",
     "m": 0,
-    "b": "Žejane,Šušnjevica,Nova Vas,Kostrčani"
+    "b": "Å½ejane,Å uÅ¡njevica,Nova Vas,KostrÄani"
   },
   {
     "name": "Aromanian",
-    "i": 1490,
+    "i": 605,
     "min": 4,
     "max": 11,
     "d": "ro-GR",
     "m": 0,
-    "b": "Metsovo,Samarina,Moskopolje,Kruševo,Korçë,Bitola,Ioannina,Grebena,Florina,Kastoria,Veria,Katerini"
+    "b": "Metsovo,Samarina,Moskopolje,KruÅ¡evo,KorÃ§Ã«,Bitola,Ioannina,Grebena,Florina,Kastoria,Veria,Katerini"
   },
   {
     "name": "Megleno-Romanian",
-    "i": 1491,
+    "i": 606,
     "min": 4,
     "max": 11,
     "d": "ro-MK",
     "m": 0,
-    "b": "Gevgelija,Archangelos,Skra,Koupa,Luma,Nânti,Oshani,Birislav,Huma,Lumnitsa,Tshrešnevo,Barovitsa"
+    "b": "Gevgelija,Archangelos,Skra,Koupa,Luma,NÃ¢nti,Oshani,Birislav,Huma,Lumnitsa,TshreÅ¡nevo,Barovitsa"
   },
   {
     "name": "Sabino",
-    "i": 1492,
+    "i": 607,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5475,34 +5475,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Saharan Spanish",
-    "i": 1493,
+    "i": 608,
     "min": 4,
     "max": 11,
     "d": "es-EH",
     "m": 0,
-    "b": "El Aaiún,Dakhla,Smara,La Güera,Boujdour,Cape Bojador,Tichla,Zug,Auserd,Mahbes,Guelta Zemmur,Bir Lehlou"
+    "b": "El AaiÃºn,Dakhla,Smara,La GÃ¼era,Boujdour,Cape Bojador,Tichla,Zug,Auserd,Mahbes,Guelta Zemmur,Bir Lehlou"
   },
   {
     "name": "Salentino",
-    "i": 1494,
+    "i": 609,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Lecce,Brindisi,Taranto,Gallipoli,Otranto,Nardò,Galatina,Maglie,Casarano,Tricase,Manduria,Ostuni"
+    "b": "Lecce,Brindisi,Taranto,Gallipoli,Otranto,NardÃ²,Galatina,Maglie,Casarano,Tricase,Manduria,Ostuni"
   },
   {
     "name": "Syer-Tenyer",
-    "i": 1500,
+    "i": 610,
     "min": 4,
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Banfora,Niangoloko,Soubakaniédougou,Tiéfora,Moussodougou,Dakoro,Sindou,Douna,Loumana,Ouéléni,Mangodara,Kankalaba"
+    "b": "Banfora,Niangoloko,SoubakaniÃ©dougou,TiÃ©fora,Moussodougou,Dakoro,Sindou,Douna,Loumana,OuÃ©lÃ©ni,Mangodara,Kankalaba"
   },
   {
     "name": "Tiv",
-    "i": 1501,
+    "i": 611,
     "min": 4,
     "max": 11,
     "d": "nic-NG",
@@ -5511,7 +5511,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tyap",
-    "i": 1502,
+    "i": 612,
     "min": 4,
     "max": 11,
     "d": "nic-NG",
@@ -5520,7 +5520,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Werni",
-    "i": 1503,
+    "i": 613,
     "min": 4,
     "max": 11,
     "d": "nic-SD",
@@ -5529,7 +5529,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yobe",
-    "i": 1504,
+    "i": 614,
     "min": 4,
     "max": 11,
     "d": "cdc-NG",
@@ -5538,7 +5538,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zhire",
-    "i": 1505,
+    "i": 615,
     "min": 4,
     "max": 11,
     "d": "cdc-NG",
@@ -5547,7 +5547,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zhoa",
-    "i": 1506,
+    "i": 616,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
@@ -5556,16 +5556,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tadaksahak",
-    "i": 1507,
+    "i": 617,
     "min": 4,
     "max": 11,
     "d": "ber-NE",
     "m": 0,
-    "b": "Menaka,Ansongo,Abalak,In-Gall,Tahoua,Gao,Kidal,Agadez,Tchin-Tabaraden,Tassara,Tillia,Ouallam,Banibangou,Ayorou,Tillabéri,Gothèye,Tera,Dargol,Namaro,Say,Kollo,Dosso,Dogondoutchi,Birni-N'Konni,Madaoua,Bouza,Keita,Illéla,Bagaroua,Tébaram,Aderbissinat,Ingall,Iferouane,Arlit,Bilma,Fachi,N'Guigmi,Maine-Soroa,Diffa,Goure,Zinder,Tanout,Mirriah,Magaria,Matameye,Tessaoua,Mayahi,Dakoro,Aguié,Madarounfa"
+    "b": "Menaka,Ansongo,Abalak,In-Gall,Tahoua,Gao,Kidal,Agadez,Tchin-Tabaraden,Tassara,Tillia,Ouallam,Banibangou,Ayorou,TillabÃ©ri,GothÃ¨ye,Tera,Dargol,Namaro,Say,Kollo,Dosso,Dogondoutchi,Birni-N'Konni,Madaoua,Bouza,Keita,IllÃ©la,Bagaroua,TÃ©baram,Aderbissinat,Ingall,Iferouane,Arlit,Bilma,Fachi,N'Guigmi,Maine-Soroa,Diffa,Goure,Zinder,Tanout,Mirriah,Magaria,Matameye,Tessaoua,Mayahi,Dakoro,AguiÃ©,Madarounfa"
   },
   {
     "name": "Sammarinese",
-    "i": 1540,
+    "i": 618,
     "min": 4,
     "max": 11,
     "d": "it-SM",
@@ -5574,7 +5574,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sardinian",
-    "i": 1541,
+    "i": 619,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
@@ -5583,16 +5583,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sardo-Corsican",
-    "i": 1542,
+    "i": 620,
     "min": 4,
     "max": 11,
     "d": "ro-IT",
     "m": 0,
-    "b": "Ajaccio,Bastia,Porto-Vecchio,Bonifacio,Calvi,Corte,Propriano,Sartène,Ghisonaccia,L'Île-Rousse,Borgo,Biguglia,Furiani,Lucciana,Ville-di-Pietrabugno,Sainte-Lucie-de-Porto-Vecchio,Zonza,Levie,Sotta,Figari,Pianottoli-Caldarello,Monacia-d'Aullène,Cargèse,Piana,Ota,Évisa,Vico,Soccia,Guagno,Orto,Poggiolo,Letia,Arbori,Renno,Cristinacce,Marignana,Serriera,Partinello,Osani,Galéria,Manso"
+    "b": "Ajaccio,Bastia,Porto-Vecchio,Bonifacio,Calvi,Corte,Propriano,SartÃ¨ne,Ghisonaccia,L'ÃŽle-Rousse,Borgo,Biguglia,Furiani,Lucciana,Ville-di-Pietrabugno,Sainte-Lucie-de-Porto-Vecchio,Zonza,Levie,Sotta,Figari,Pianottoli-Caldarello,Monacia-d'AullÃ¨ne,CargÃ¨se,Piana,Ota,Ã‰visa,Vico,Soccia,Guagno,Orto,Poggiolo,Letia,Arbori,Renno,Cristinacce,Marignana,Serriera,Partinello,Osani,GalÃ©ria,Manso"
   },
   {
     "name": "Sassarese",
-    "i": 1543,
+    "i": 621,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5601,16 +5601,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Savoyard",
-    "i": 1544,
+    "i": 622,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Chambéry,Annecy,Thonon-les-Bains,Aix-les-Bains,Albertville,Saint-Jean-de-Maurienne,Moûtiers,Bourg-Saint-Maurice,Ugine,La Motte-Servolex,Cognin,Saint-Alban-Leysse"
+    "b": "ChambÃ©ry,Annecy,Thonon-les-Bains,Aix-les-Bains,Albertville,Saint-Jean-de-Maurienne,MoÃ»tiers,Bourg-Saint-Maurice,Ugine,La Motte-Servolex,Cognin,Saint-Alban-Leysse"
   },
   {
     "name": "Senese",
-    "i": 1590,
+    "i": 623,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5619,7 +5619,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sicilian",
-    "i": 1591,
+    "i": 624,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5627,17 +5627,17 @@ window.realWorldNameBases = [
     "b": "Palermo,Catania,Messina,Syracuse,Marsala,Gela,Ragusa,Trapani,Caltanissetta,Agrigento,Bagheria,Modica"
   },
   {
-    "name": "Somontanés",
-    "i": 1592,
+    "name": "SomontanÃ©s",
+    "i": 625,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Barbastro,Monzón,Binéfar,Graus,Tamarite de Litera,Alquézar,Abizanda,Adahuesca,Albalate de Cinca,Alberuela de Tubo,Alcampell,Alcolea de Cinca"
+    "b": "Barbastro,MonzÃ³n,BinÃ©far,Graus,Tamarite de Litera,AlquÃ©zar,Abizanda,Adahuesca,Albalate de Cinca,Alberuela de Tubo,Alcampell,Alcolea de Cinca"
   },
   {
     "name": "Southeast Metafonetica",
-    "i": 1593,
+    "i": 626,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5646,25 +5646,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Aragonese",
-    "i": 1594,
+    "i": 627,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Teruel,Alcañiz,Andorra,Calamocha,Valderrobres,Mora de Rubielos,Cella,Monreal del Campo,Utrillas,Híjar,Alcorisa,Mas de las Matas"
+    "b": "Teruel,AlcaÃ±iz,Andorra,Calamocha,Valderrobres,Mora de Rubielos,Cella,Monreal del Campo,Utrillas,HÃ­jar,Alcorisa,Mas de las Matas"
   },
   {
     "name": "Saba",
-    "i": 1600,
+    "i": 628,
     "min": 4,
     "max": 11,
     "d": "cdc-TD",
     "m": 0,
-    "b": "N'Djamena,Abéché,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
+    "b": "N'Djamena,AbÃ©chÃ©,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
   },
   {
     "name": "Shabo",
-    "i": 1601,
+    "i": 629,
     "min": 4,
     "max": 11,
     "d": "cus-ET",
@@ -5673,16 +5673,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Besme",
-    "i": 1602,
+    "i": 630,
     "min": 4,
     "max": 11,
     "d": "nic-TD",
     "m": 0,
-    "b": "Pala,Bongor,Abéché,N'Djamena,Sarh,Am Timan,Biltine,Ati,Moussoro,Borkou,Koro Toro,Baibokoum"
+    "b": "Pala,Bongor,AbÃ©chÃ©,N'Djamena,Sarh,Am Timan,Biltine,Ati,Moussoro,Borkou,Koro Toro,Baibokoum"
   },
   {
     "name": "Senara",
-    "i": 1603,
+    "i": 631,
     "min": 4,
     "max": 11,
     "d": "nic-ML",
@@ -5691,25 +5691,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sucite",
-    "i": 1604,
+    "i": 632,
     "min": 4,
     "max": 11,
     "d": "nic-ML",
     "m": 0,
-    "b": "Sikasso,Kadiolo,Odienne,Toussiana,Boundiali,Orodara,Karangana,Mopti,Yorosso,Djenné,Tominian,Bougouni"
+    "b": "Sikasso,Kadiolo,Odienne,Toussiana,Boundiali,Orodara,Karangana,Mopti,Yorosso,DjennÃ©,Tominian,Bougouni"
   },
   {
     "name": "Supyire",
-    "i": 1605,
+    "i": 633,
     "min": 4,
     "max": 11,
     "d": "nic-ML",
     "m": 0,
-    "b": "Sikasso,Kadiolo,Kolondieba,Niena,Minidian,Djenné,Sokoroni,Sirakoroni,Nafara,Ouesso,Faranseka"
+    "b": "Sikasso,Kadiolo,Kolondieba,Niena,Minidian,DjennÃ©,Sokoroni,Sirakoroni,Nafara,Ouesso,Faranseka"
   },
   {
     "name": "Suwu",
-    "i": 1606,
+    "i": 634,
     "min": 4,
     "max": 11,
     "d": "nic-BF",
@@ -5718,7 +5718,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Surmiran",
-    "i": 1640,
+    "i": 635,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
@@ -5727,7 +5727,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sursilvan",
-    "i": 1641,
+    "i": 636,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
@@ -5736,43 +5736,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sutsilvan",
-    "i": 1642,
+    "i": 637,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
     "m": 0,
-    "b": "Thusis,Andeer,Zillis,Reichenau,Domat,Ems,Rhäzüns,Cazis,Paspels,Rodels,Pratval,Fürstenau,Scharans,Sils,Donat,Lohn,Mathon,Wergenstein,Casti"
+    "b": "Thusis,Andeer,Zillis,Reichenau,Domat,Ems,RhÃ¤zÃ¼ns,Cazis,Paspels,Rodels,Pratval,FÃ¼rstenau,Scharans,Sils,Donat,Lohn,Mathon,Wergenstein,Casti"
   },
   {
     "name": "Tuatschin",
-    "i": 1643,
+    "i": 638,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
     "m": 0,
-    "b": "Sedrun,Rueras,Selva,Camischolas,Zarcuns,Tschamut,Cavardiras,Disentis,Mustér,Trun,Sumvitg,Rabius"
+    "b": "Sedrun,Rueras,Selva,Camischolas,Zarcuns,Tschamut,Cavardiras,Disentis,MustÃ©r,Trun,Sumvitg,Rabius"
   },
   {
     "name": "Vallader",
-    "i": 1644,
+    "i": 639,
     "min": 4,
     "max": 11,
     "d": "ro-CH",
     "m": 0,
-    "b": "Scuol,Ardez,Guarda,Sent,Ftan,Tarasp,Zernez,Susch,Lavin,Müstair,Santa Maria,Valchava,Fuldera,Tschierv,Lü,Vnà,Ramosch,Strada,Martina"
+    "b": "Scuol,Ardez,Guarda,Sent,Ftan,Tarasp,Zernez,Susch,Lavin,MÃ¼stair,Santa Maria,Valchava,Fuldera,Tschierv,LÃ¼,VnÃ ,Ramosch,Strada,Martina"
   },
   {
     "name": "Spanish",
-    "i": 1754,
+    "i": 640,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Málaga,Murcia,Palma,Las Palmas,Bilbao,Alicante,Córdoba"
+    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,MÃ¡laga,Murcia,Palma,Las Palmas,Bilbao,Alicante,CÃ³rdoba"
   },
   {
     "name": "Standard French ",
-    "i": 1755,
+    "i": 641,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
@@ -5781,7 +5781,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Standard Italian ",
-    "i": 1756,
+    "i": 642,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5790,7 +5790,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Swiss Italian ",
-    "i": 1757,
+    "i": 643,
     "min": 4,
     "max": 11,
     "d": "it-CH",
@@ -5799,7 +5799,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tuscan",
-    "i": 1758,
+    "i": 644,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5808,7 +5808,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Cilentan",
-    "i": 1804,
+    "i": 645,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5817,34 +5817,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tabarchino",
-    "i": 1805,
+    "i": 646,
     "min": 4,
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Carloforte,Calasetta,Pegli,San Pietro,Sant'Antioco,Porto Scuso,Portovesme,Isola Piana,Spalmatore,La Caletta,Punta Nera,Tonnare,Guardia Mori,Becco,Mezzane,Commenda,Tacca Rossa,Bobba,Girin,Guidi,Geniò,Puntata,Colonne,Lucchese,Macchione,Memmola,Montagna,Nasca,Piana,Resciotto,Sutta,Taccarossa,Valacca,Villamarina"
+    "b": "Carloforte,Calasetta,Pegli,San Pietro,Sant'Antioco,Porto Scuso,Portovesme,Isola Piana,Spalmatore,La Caletta,Punta Nera,Tonnare,Guardia Mori,Becco,Mezzane,Commenda,Tacca Rossa,Bobba,Girin,Guidi,GeniÃ²,Puntata,Colonne,Lucchese,Macchione,Memmola,Montagna,Nasca,Piana,Resciotto,Sutta,Taccarossa,Valacca,Villamarina"
   },
   {
     "name": "Talian",
-    "i": 1806,
+    "i": 647,
     "min": 4,
     "max": 11,
     "d": "pt-BR",
     "m": 0,
-    "b": "Bento Gonçalves,Caxias do Sul,Garibaldi,Flores da Cunha,Farroupilha,Nova Veneza,Veranópolis,Antônio Prado,Carlos Barbosa,Serafina Corrêa,Guaporé,Encantado,Nova Prata,Muçum,Roca Sales,Arvorezinha,Anta Gorda,Ilópolis,Putinga,Dois Lajeados,Vespasiano Corrêa,São Valentim do Sul,Cotiporã,Fagundes Varela,Vila Flores,Protásio Alves,União da Serra,Montauri,São Jorge,Paraí,Nova Bassano,Vista Alegre do Prata,Nova Araçá,Casca,Santo Antônio do Palma,Gentil,Marau,Vila Maria,Camargo"
+    "b": "Bento GonÃ§alves,Caxias do Sul,Garibaldi,Flores da Cunha,Farroupilha,Nova Veneza,VeranÃ³polis,AntÃ´nio Prado,Carlos Barbosa,Serafina CorrÃªa,GuaporÃ©,Encantado,Nova Prata,MuÃ§um,Roca Sales,Arvorezinha,Anta Gorda,IlÃ³polis,Putinga,Dois Lajeados,Vespasiano CorrÃªa,SÃ£o Valentim do Sul,CotiporÃ£,Fagundes Varela,Vila Flores,ProtÃ¡sio Alves,UniÃ£o da Serra,Montauri,SÃ£o Jorge,ParaÃ­,Nova Bassano,Vista Alegre do Prata,Nova AraÃ§Ã¡,Casca,Santo AntÃ´nio do Palma,Gentil,Marau,Vila Maria,Camargo"
   },
   {
     "name": "Tetuani ",
-    "i": 1807,
+    "i": 648,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Tetuán,Tangier,Chefchaouen,Larache,Ksar el-Kebir,Asilah,Ceuta,Melilla,Gibraltar,Oran,Algiers,Casablanca"
+    "b": "TetuÃ¡n,Tangier,Chefchaouen,Larache,Ksar el-Kebir,Asilah,Ceuta,Melilla,Gibraltar,Oran,Algiers,Casablanca"
   },
   {
     "name": "Transylvanian",
-    "i": 1808,
+    "i": 649,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
@@ -5853,7 +5853,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tuscia",
-    "i": 1854,
+    "i": 650,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5862,7 +5862,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Umbrian",
-    "i": 1855,
+    "i": 651,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5871,7 +5871,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Uruguayan Portuguese",
-    "i": 1856,
+    "i": 652,
     "min": 4,
     "max": 11,
     "d": "pt-UY",
@@ -5880,7 +5880,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Uruguayan Spanish",
-    "i": 1857,
+    "i": 653,
     "min": 4,
     "max": 11,
     "d": "es-UY",
@@ -5888,8 +5888,8 @@ window.realWorldNameBases = [
     "b": "Montevideo,Salto,Ciudad de la Costa,Paysandu,Las Piedras,Rivera,Maldonado,Tacuarembo,Melo,Mercedes,Artigas,Minas"
   },
   {
-    "name": "Vald├┤tain ",
-    "i": 1858,
+    "name": "Valdâ”œâ”¤tain ",
+    "i": 654,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -5898,7 +5898,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Valencian",
-    "i": 1904,
+    "i": 655,
     "min": 4,
     "max": 11,
     "d": "ca-ES",
@@ -5907,7 +5907,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Venetian",
-    "i": 1905,
+    "i": 656,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5916,7 +5916,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Venezuelan Spanish",
-    "i": 1906,
+    "i": 657,
     "min": 4,
     "max": 11,
     "d": "es-VE",
@@ -5925,7 +5925,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Versiliese ",
-    "i": 1907,
+    "i": 658,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5934,7 +5934,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Viareggino ",
-    "i": 1908,
+    "i": 659,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -5943,7 +5943,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vivaro-Alpine ",
-    "i": 1954,
+    "i": 660,
     "min": 4,
     "max": 11,
     "d": "oc-FR",
@@ -5952,25 +5952,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vosgien ",
-    "i": 1955,
+    "i": 661,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Epinal,Saint-Die,Remiremont,Gerardmer,Bruyeres,Fraize,Corcieux,Provenchères,Senones,Raon-l'Etape,Charmes,Mirecourt"
+    "b": "Epinal,Saint-Die,Remiremont,Gerardmer,Bruyeres,Fraize,Corcieux,ProvenchÃ¨res,Senones,Raon-l'Etape,Charmes,Mirecourt"
   },
   {
     "name": "Wallachian ",
-    "i": 1956,
+    "i": 662,
     "min": 4,
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Bucharest,Ploiesti,Pitești,Targoviste,Buzau,Braila,Craiova,Râmnicu Vâlcea,Drobeta-Turnu Severin,Târgu Jiu,Slatina,Alexandria"
+    "b": "Bucharest,Ploiesti,PiteÈ™ti,Targoviste,Buzau,Braila,Craiova,RÃ¢mnicu VÃ¢lcea,Drobeta-Turnu Severin,TÃ¢rgu Jiu,Slatina,Alexandria"
   },
   {
     "name": "Welche ",
-    "i": 1957,
+    "i": 663,
     "min": 4,
     "max": 11,
     "d": "gm-FR",
@@ -5979,7 +5979,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "West Walloon ",
-    "i": 1958,
+    "i": 664,
     "min": 4,
     "max": 11,
     "d": "ro-FR",
@@ -5988,7 +5988,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abon ",
-    "i": 2004,
+    "i": 665,
     "min": 4,
     "max": 11,
     "d": "nic-NG",
@@ -5997,7 +5997,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abron ",
-    "i": 2005,
+    "i": 666,
     "min": 4,
     "max": 11,
     "d": "nic-CI",
@@ -6006,7 +6006,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Acheron ",
-    "i": 2006,
+    "i": 667,
     "min": 4,
     "max": 11,
     "d": "nic-SD",
@@ -6015,7 +6015,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Adara ",
-    "i": 2007,
+    "i": 668,
     "min": 4,
     "max": 11,
     "d": "nic-NG",
@@ -6024,7 +6024,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aghem ",
-    "i": 2008,
+    "i": 669,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
@@ -6033,7 +6033,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aiki ",
-    "i": 2009,
+    "i": 670,
     "min": 4,
     "max": 11,
     "d": "nic-TD",
@@ -6042,7 +6042,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aja ",
-    "i": 2010,
+    "i": 671,
     "min": 4,
     "max": 11,
     "d": "nic-BJ",
@@ -6051,7 +6051,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aka ",
-    "i": 2011,
+    "i": 672,
     "min": 4,
     "max": 11,
     "d": "nic-CF",
@@ -6060,7 +6060,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ambele ",
-    "i": 2012,
+    "i": 673,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
@@ -6069,7 +6069,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ambo ",
-    "i": 2013,
+    "i": 674,
     "min": 4,
     "max": 11,
     "d": "nic-ZM",
@@ -6078,7 +6078,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amdang ",
-    "i": 2014,
+    "i": 675,
     "min": 4,
     "max": 11,
     "d": "nic-TD",
@@ -6087,7 +6087,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amira ",
-    "i": 2015,
+    "i": 676,
     "min": 4,
     "max": 11,
     "d": "nic-SD",
@@ -6096,7 +6096,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Babanki ",
-    "i": 2016,
+    "i": 677,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
@@ -6105,7 +6105,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baca ",
-    "i": 2017,
+    "i": 678,
     "min": 4,
     "max": 11,
     "d": "afr-ZA",
@@ -6114,7 +6114,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangala ",
-    "i": 2018,
+    "i": 679,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
@@ -6123,7 +6123,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangi ",
-    "i": 2019,
+    "i": 680,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
@@ -6132,7 +6132,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangolan ",
-    "i": 2020,
+    "i": 681,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
@@ -6141,7 +6141,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bomboli-Bozaba ",
-    "i": 2021,
+    "i": 682,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
@@ -6150,7 +6150,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bomboma ",
-    "i": 2022,
+    "i": 683,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
@@ -6159,25 +6159,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boze ",
-    "i": 2023,
+    "i": 684,
     "min": 4,
     "max": 11,
     "d": "nic-CI",
     "m": 0,
-    "b": "Divo,Lakota,Guitry,Fresco,Sassandra,Grand-Lahou,Lozoua,Hirie,Zikisso,Niambézaria,Gnagbodougnoa,Galébré"
+    "b": "Divo,Lakota,Guitry,Fresco,Sassandra,Grand-Lahou,Lozoua,Hirie,Zikisso,NiambÃ©zaria,Gnagbodougnoa,GalÃ©brÃ©"
   },
   {
     "name": "Bozo ",
-    "i": 2024,
+    "i": 685,
     "min": 4,
     "max": 11,
     "d": "nic-ML",
     "m": 0,
-    "b": "Mopti,Djenné,Ségou,Diafarabé,Youwarou,Tenenkou,Konna,Akka,Deboye,Niafunké,Dire,Goundam"
+    "b": "Mopti,DjennÃ©,SÃ©gou,DiafarabÃ©,Youwarou,Tenenkou,Konna,Akka,Deboye,NiafunkÃ©,Dire,Goundam"
   },
   {
     "name": "Buu ",
-    "i": 2025,
+    "i": 686,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
@@ -6186,7 +6186,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dagaare ",
-    "i": 2026,
+    "i": 687,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6195,7 +6195,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dagbani ",
-    "i": 2027,
+    "i": 688,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6204,43 +6204,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Djimini ",
-    "i": 2028,
+    "i": 689,
     "min": 4,
     "max": 11,
     "d": "nic-CI",
     "m": 0,
-    "b": "Dabakala,Satama-Sokoro,Satama-Sokoura,Bassawa,Boniérédougou,Foumbolo,Sokala-Sobara,Niéméné,Tendéné,M'Borla-Dioulasso,Koniédougou,Yaossédougou"
+    "b": "Dabakala,Satama-Sokoro,Satama-Sokoura,Bassawa,BoniÃ©rÃ©dougou,Foumbolo,Sokala-Sobara,NiÃ©mÃ©nÃ©,TendÃ©nÃ©,M'Borla-Dioulasso,KoniÃ©dougou,YaossÃ©dougou"
   },
   {
     "name": "Doghose ",
-    "i": 2029,
+    "i": 690,
     "min": 4,
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
+    "b": "Ouo,SidÃ©radougou,DiÃ©bougou,Gaoua,Kampti,LoropÃ©ni,BatiÃ©,Legmoin,Gbomblora,Tiankoura,PÃ©rigban,DjigouÃ©"
   },
   {
     "name": "Dogoso ",
-    "i": 2030,
+    "i": 691,
     "min": 4,
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
+    "b": "Ouo,SidÃ©radougou,DiÃ©bougou,Gaoua,Kampti,LoropÃ©ni,BatiÃ©,Legmoin,Gbomblora,Tiankoura,PÃ©rigban,DjigouÃ©"
   },
   {
     "name": "Eton ",
-    "i": 2031,
+    "i": 692,
     "min": 4,
     "max": 11,
     "d": "nic-CM",
     "m": 0,
-    "b": "Obala,Sa'a,Okola,Monatélé,Evodoula,Batchenga,Efok,Elig-Mfomo,Lobo,Ngog-Sa'a,Minlaba,Nkol-Meyos"
+    "b": "Obala,Sa'a,Okola,MonatÃ©lÃ©,Evodoula,Batchenga,Efok,Elig-Mfomo,Lobo,Ngog-Sa'a,Minlaba,Nkol-Meyos"
   },
   {
     "name": "Evant ",
-    "i": 2032,
+    "i": 693,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6249,7 +6249,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fongoro ",
-    "i": 2033,
+    "i": 694,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6258,7 +6258,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fungor ",
-    "i": 2034,
+    "i": 695,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6267,7 +6267,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fur ",
-    "i": 2035,
+    "i": 696,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6275,8 +6275,8 @@ window.realWorldNameBases = [
     "b": "El Fasher,Nyala,Zalingei,Jebel Marra,Geneina,Kas,Kabkabiya,Kutum,Mellit,Ed Daein,Gereida,Bulbul"
   },
   {
-    "name": "Ghomala╩╝ ",
-    "i": 2036,
+    "name": "Ghomalaâ•©â• ",
+    "i": 697,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6285,7 +6285,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gikuyu ",
-    "i": 2037,
+    "i": 698,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6294,25 +6294,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goundo ",
-    "i": 2038,
+    "i": 699,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pala,Léré,Fianga,Binder,Gounou Gaya,Kélo,Bongor,Moundou,Doba,Koumra,Sarh,Kyabé"
+    "b": "Pala,LÃ©rÃ©,Fianga,Binder,Gounou Gaya,KÃ©lo,Bongor,Moundou,Doba,Koumra,Sarh,KyabÃ©"
   },
   {
-    "name": "Gourmanch├⌐ ",
-    "i": 2039,
+    "name": "Gourmanchâ”œâŒ ",
+    "i": 700,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fada N'gourma,Pama,Diapaga,Bogandé,Kantchari,Matiacoali,Gayéri,Piéla,Bilanga,Manni,Botou,Tambaga"
+    "b": "Fada N'gourma,Pama,Diapaga,BogandÃ©,Kantchari,Matiacoali,GayÃ©ri,PiÃ©la,Bilanga,Manni,Botou,Tambaga"
   },
   {
     "name": "Gumuz ",
-    "i": 2040,
+    "i": 701,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6321,7 +6321,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gwari ",
-    "i": 2041,
+    "i": 702,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6330,7 +6330,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gyong ",
-    "i": 2042,
+    "i": 703,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6339,7 +6339,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hakaona ",
-    "i": 2043,
+    "i": 704,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6348,7 +6348,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hanga ",
-    "i": 2044,
+    "i": 705,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6357,7 +6357,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Saari ",
-    "i": 2045,
+    "i": 706,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6366,16 +6366,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Samwe ",
-    "i": 2046,
+    "i": 707,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tougan,Kiembara,Lankoué,Di,Gomboro,Kassoum,Toéni,Sono,Barani,Bomborokuy,Djibasso,Madouba"
+    "b": "Tougan,Kiembara,LankouÃ©,Di,Gomboro,Kassoum,ToÃ©ni,Sono,Barani,Bomborokuy,Djibasso,Madouba"
   },
   {
     "name": "Shwai ",
-    "i": 2047,
+    "i": 708,
     "min": 4,
     "max": 11,
     "d": "nic-SD",
@@ -6384,16 +6384,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sighu ",
-    "i": 2048,
+    "i": 709,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Koulamoutou,Lastoursville,Pana,Iboundji,Popa,Mbigou,Mimongo,Lebamba,Ndende,Mouila,Fougamou,Lambaréné"
+    "b": "Koulamoutou,Lastoursville,Pana,Iboundji,Popa,Mbigou,Mimongo,Lebamba,Ndende,Mouila,Fougamou,LambarÃ©nÃ©"
   },
   {
     "name": "Siwu ",
-    "i": 2049,
+    "i": 710,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6402,7 +6402,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southeast Ijo ",
-    "i": 2050,
+    "i": 711,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6411,7 +6411,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Birifor ",
-    "i": 2051,
+    "i": 712,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6420,25 +6420,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Susu ",
-    "i": 2052,
+    "i": 713,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Conakry,Kindia,Forécariah,Dubréka,Boffa,Fria,Télimélé,Coyah,Kambia,Port Loko,Lungi,Mange,Kamakwie,Rokupr,Kukuna,Laya,Mambolo,Tombo,Benty"
+    "b": "Conakry,Kindia,ForÃ©cariah,DubrÃ©ka,Boffa,Fria,TÃ©limÃ©lÃ©,Coyah,Kambia,Port Loko,Lungi,Mange,Kamakwie,Rokupr,Kukuna,Laya,Mambolo,Tombo,Benty"
   },
   {
     "name": "Tagwana ",
-    "i": 2053,
+    "i": 714,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Katiola,Niakaramandougou,Tortiya,Fronan,Arikokaha,Badikaha,Tafiré,Niédiékaha,Kanawolo,Korhogo,Dikodougou,Sinématiali,Niakara"
+    "b": "Katiola,Niakaramandougou,Tortiya,Fronan,Arikokaha,Badikaha,TafirÃ©,NiÃ©diÃ©kaha,Kanawolo,Korhogo,Dikodougou,SinÃ©matiali,Niakara"
   },
   {
     "name": "Talni ",
-    "i": 2054,
+    "i": 715,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6447,7 +6447,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tikar ",
-    "i": 2055,
+    "i": 716,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6456,7 +6456,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tiro ",
-    "i": 2056,
+    "i": 717,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6465,7 +6465,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Twi ",
-    "i": 2057,
+    "i": 718,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6474,7 +6474,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vengo ",
-    "i": 2058,
+    "i": 719,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6483,16 +6483,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Viemo ",
-    "i": 2059,
+    "i": 720,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Karangasso-Vigué,Bobo-Dioulasso,Houndé,Béréba,Koumbia,Lena,Padéma,Satiri,Dandé,Faramana,Kourouma,Bekuy"
+    "b": "Karangasso-ViguÃ©,Bobo-Dioulasso,HoundÃ©,BÃ©rÃ©ba,Koumbia,Lena,PadÃ©ma,Satiri,DandÃ©,Faramana,Kourouma,Bekuy"
   },
   {
     "name": "Viti ",
-    "i": 2060,
+    "i": 721,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6501,7 +6501,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vori ",
-    "i": 2061,
+    "i": 722,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6510,7 +6510,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Voro ",
-    "i": 2062,
+    "i": 723,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6519,7 +6519,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wali Ghana ",
-    "i": 2063,
+    "i": 724,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6528,16 +6528,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cree ",
-    "i": 2069,
+    "i": 725,
     "min": 4,
     "max": 11,
     "d": "cr-CA",
     "m": 0,
-    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,Oujé-Bougoumou"
+    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,OujÃ©-Bougoumou"
   },
   {
     "name": "Ojibwe ",
-    "i": 2070,
+    "i": 726,
     "min": 4,
     "max": 11,
     "d": "oj-CA",
@@ -6546,7 +6546,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yupik ",
-    "i": 2071,
+    "i": 727,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6555,7 +6555,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Inuktitut ",
-    "i": 2072,
+    "i": 728,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6564,7 +6564,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cherokee ",
-    "i": 2073,
+    "i": 729,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6573,7 +6573,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Apache ",
-    "i": 2074,
+    "i": 730,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6582,7 +6582,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Athabaskan ",
-    "i": 2075,
+    "i": 731,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6591,7 +6591,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Navajo ",
-    "i": 2076,
+    "i": 732,
     "min": 4,
     "max": 11,
     "d": "nv-US",
@@ -6600,25 +6600,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Aragonese ",
-    "i": 2119,
+    "i": 733,
     "min": 4,
     "max": 11,
     "d": "an-ES",
     "m": 0,
-    "b": "Hecho,Ansó,Embún,Urdués,Fago,Aragüés,Jasa,Aísa,Borau,Aratorés,Castiello,Villanúa"
+    "b": "Hecho,AnsÃ³,EmbÃºn,UrduÃ©s,Fago,AragÃ¼Ã©s,Jasa,AÃ­sa,Borau,AratorÃ©s,Castiello,VillanÃºa"
   },
   {
     "name": "Western Catalan ",
-    "i": 2120,
+    "i": 734,
     "min": 4,
     "max": 11,
     "d": "ca-ES",
     "m": 0,
-    "b": "Lleida,Balaguer,Tàrrega,Mollerussa,Cervera,Les Borges Blanques,Fraga,Tamarit de Llitera,Mequinensa,Tremp,Sort,La Seu d'Urgell"
+    "b": "Lleida,Balaguer,TÃ rrega,Mollerussa,Cervera,Les Borges Blanques,Fraga,Tamarit de Llitera,Mequinensa,Tremp,Sort,La Seu d'Urgell"
   },
   {
     "name": "Western Sicilian ",
-    "i": 2121,
+    "i": 735,
     "min": 4,
     "max": 11,
     "d": "it-IT",
@@ -6627,7 +6627,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wisconsin Walloon ",
-    "i": 2122,
+    "i": 736,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6635,8 +6635,8 @@ window.realWorldNameBases = [
     "b": "Brussels,Namur,Rosiere,Champion,Duvall,Dyckesville,Fairland,Gardner,Luxemburg,Misere,Thiry Daems,Tonet"
   },
   {
-    "name": "╦ÇAzd dialect ",
-    "i": 2169,
+    "name": "â•¦Ã‡Azd dialect ",
+    "i": 737,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6644,35 +6644,35 @@ window.realWorldNameBases = [
     "b": "Nizwa,Bahla,Ibri,Yanqul,Rustaq,Nakhal,Awabi,Samail,Bidbid,Izki,Adam,Manah"
   },
   {
-    "name": "┼╗ejtun dialect ",
-    "i": 2170,
+    "name": "â”¼â•—ejtun dialect ",
+    "i": 738,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Żejtun,Marsaxlokk,Birżebbuġa,Għaxaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Żurrieq,Bubaqra,Ħal Far"
+    "b": "Å»ejtun,Marsaxlokk,BirÅ¼ebbuÄ¡a,GÄ§axaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Å»urrieq,Bubaqra,Ä¦al Far"
   },
   {
-    "name": "├àsele ",
-    "i": 2171,
+    "name": "â”œÃ sele ",
+    "i": 739,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Åsele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,Malå,Norsjö,Robertsfors,Vindeln,Vännäs,Bjurholm"
+    "b": "Ã…sele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,MalÃ¥,NorsjÃ¶,Robertsfors,Vindeln,VÃ¤nnÃ¤s,Bjurholm"
   },
   {
     "name": "A Ou ",
-    "i": 2172,
+    "i": 740,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Anshun,Zhijin,Nayong,Bijie,Dafang,Qianxi,P定,Zhenning,Guanling,Ziyun,Panxian,Pu'an"
+    "b": "Anshun,Zhijin,Nayong,Bijie,Dafang,Qianxi,På®š,Zhenning,Guanling,Ziyun,Panxian,Pu'an"
   },
   {
     "name": "Abaga ",
-    "i": 2173,
+    "i": 741,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6681,7 +6681,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abba Gorgoryos ",
-    "i": 2219,
+    "i": 742,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6690,7 +6690,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aboriginal Pidgin English ",
-    "i": 2220,
+    "i": 743,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6699,16 +6699,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Achagua ",
-    "i": 2221,
+    "i": 744,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Puerto Gaitán,Puerto Carreño,Inírida,Mitú,San José del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,Popayán"
+    "b": "Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,PopayÃ¡n"
   },
   {
     "name": "Achang ",
-    "i": 2222,
+    "i": 745,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6717,16 +6717,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Achi ",
-    "i": 2223,
+    "i": 746,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Tactic,Tamahú,Tucurú,Senahú,Cahabón,Lanquín"
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,SalamÃ¡,San JerÃ³nimo,PurulhÃ¡,Tactic,TamahÃº,TucurÃº,SenahÃº,CahabÃ³n,LanquÃ­n"
   },
   {
     "name": "Adang ",
-    "i": 2269,
+    "i": 747,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6735,7 +6735,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Adi ",
-    "i": 2270,
+    "i": 748,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6744,7 +6744,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Adjaran Georgian ",
-    "i": 2271,
+    "i": 749,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6753,7 +6753,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Adnyamathanha ",
-    "i": 2272,
+    "i": 750,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6762,7 +6762,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aer ",
-    "i": 2273,
+    "i": 751,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6771,16 +6771,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afade language ",
-    "i": 2319,
+    "i": 752,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Afade,Kousséri,Makari,Goulfey,Blangoua,Fotokol,Logone-Birni,Waza,Mora,Meri,Bogo,Maroua"
+    "b": "Afade,KoussÃ©ri,Makari,Goulfey,Blangoua,Fotokol,Logone-Birni,Waza,Mora,Meri,Bogo,Maroua"
   },
   {
     "name": "Afar ",
-    "i": 2320,
+    "i": 753,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6789,7 +6789,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afrikaans ",
-    "i": 2321,
+    "i": 754,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6798,7 +6798,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afro-Seminole Creole ",
-    "i": 2322,
+    "i": 755,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6807,7 +6807,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Agalega Creole ",
-    "i": 2323,
+    "i": 756,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6816,7 +6816,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Atlym ",
-    "i": 2369,
+    "i": 757,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6825,7 +6825,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Atlym-Nizyam Khanty ",
-    "i": 2370,
+    "i": 758,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6834,7 +6834,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nizyam ",
-    "i": 2371,
+    "i": 759,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6843,7 +6843,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Salym Khanty ",
-    "i": 2372,
+    "i": 760,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6852,7 +6852,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Khanty ",
-    "i": 2373,
+    "i": 761,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6861,7 +6861,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Agarabi ",
-    "i": 2419,
+    "i": 762,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6870,7 +6870,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Agaw ",
-    "i": 2420,
+    "i": 763,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6879,7 +6879,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aghu ",
-    "i": 2421,
+    "i": 764,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6888,16 +6888,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awakatek ",
-    "i": 2422,
+    "i": 765,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Aguacatán,Huehuetenango,Chiantla,Malacatancito,Cuilco,Nentón,San Sebastián Coatán,Soloma,Ixtahuacán,Todos Santos Cuchumatán,San Juan Ixcoy,San Miguel Acatán"
+    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
   },
   {
     "name": "Ahom ",
-    "i": 2423,
+    "i": 766,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6906,7 +6906,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wapan ",
-    "i": 2424,
+    "i": 767,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6915,7 +6915,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Weh ",
-    "i": 2425,
+    "i": 768,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6924,7 +6924,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wushi ",
-    "i": 2426,
+    "i": 769,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6933,7 +6933,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yemba ",
-    "i": 2427,
+    "i": 770,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6942,7 +6942,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zande ",
-    "i": 2428,
+    "i": 771,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6951,7 +6951,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yoruba ",
-    "i": 2429,
+    "i": 772,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6960,7 +6960,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wannu ",
-    "i": 2430,
+    "i": 773,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6969,7 +6969,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yalunka ",
-    "i": 2431,
+    "i": 774,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6978,7 +6978,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yamba ",
-    "i": 2432,
+    "i": 775,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6987,7 +6987,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yela-Kela ",
-    "i": 2433,
+    "i": 776,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6996,43 +6996,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yulu ",
-    "i": 2434,
+    "i": 777,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ouadda,Yulu,Bamingui,Bangoran,Vakaga,Birao,Ndélé,Sam Ouandja,Kotto,Mbomou,Raga,Deim Zubeir"
+    "b": "Ouadda,Yulu,Bamingui,Bangoran,Vakaga,Birao,NdÃ©lÃ©,Sam Ouandja,Kotto,Mbomou,Raga,Deim Zubeir"
   },
   {
     "name": "Movima ",
-    "i": 2435,
+    "i": 778,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Ana del Yacuma,Yacuma,Yacuma River,Mamor├⌐,Mamor├⌐ River,Trinidad,Miraflores,Navidad,San Lorenzo,Bella Flor,Buen D├¡a,Ipimo,18 de Noviembre,20 de Enero,Carmen de Iruya├▒ez,Carnavales"
+    "b": "Santa Ana del Yacuma,Yacuma,Yacuma River,Mamorâ”œâŒ,Mamorâ”œâŒ River,Trinidad,Miraflores,Navidad,San Lorenzo,Bella Flor,Buen Dâ”œÂ¡a,Ipimo,18 de Noviembre,20 de Enero,Carmen de Iruyaâ”œâ–’ez,Carnavales"
   },
   {
     "name": "Nonuya ",
-    "i": 2436,
+    "i": 779,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Putumayo,I├º├í,Pasto,Santo Ant├┤nio do I├º├í,Guamu├⌐s,Guamu├⌐s River,San Miguel,G├╝epp├¡,Cumpuya,Algod├│n,Igara Paran├í,Cara Paran├í,Puret├¬,Cotuh├⌐,Solim├╡es,Japur├í"
+    "b": "Putumayo,Iâ”œÂºâ”œÃ­,Pasto,Santo Antâ”œâ”¤nio do Iâ”œÂºâ”œÃ­,Guamuâ”œâŒs,Guamuâ”œâŒs River,San Miguel,Gâ”œâ•eppâ”œÂ¡,Cumpuya,Algodâ”œâ”‚n,Igara Paranâ”œÃ­,Cara Paranâ”œÃ­,Puretâ”œÂ¬,Cotuhâ”œâŒ,Solimâ”œâ•¡es,Japurâ”œÃ­"
   },
   {
     "name": "Ocaina ",
-    "i": 2437,
+    "i": 780,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dukaiya,Ibo'tsa,Dyo'xaiya,Ivo'tsa,Ocaina,Amazonas,Loreto,Putumayo,Cotuh├⌐,Yaguas,Cumpuya,Paran├í de Jacurap├í,Koihoma,Orejone,Coeruna,Andoquero"
+    "b": "Dukaiya,Ibo'tsa,Dyo'xaiya,Ivo'tsa,Ocaina,Amazonas,Loreto,Putumayo,Cotuhâ”œâŒ,Yaguas,Cumpuya,Paranâ”œÃ­ de Jacurapâ”œÃ­,Koihoma,Orejone,Coeruna,Andoquero"
   },
   {
     "name": "Tacana ",
-    "i": 2438,
+    "i": 781,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7041,16 +7041,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cuicatec ",
-    "i": 2439,
+    "i": 782,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Teutila,Tepeuxila,San Lucas Ojitl├ín,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatl├ín,Ca├▒ada Region,Ca├▒ada,Ojitl├ín,Cuicatec,Mixtecan"
+    "b": "Teutila,Tepeuxila,San Lucas Ojitlâ”œÃ­n,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlâ”œÃ­n,Caâ”œâ–’ada Region,Caâ”œâ–’ada,Ojitlâ”œÃ­n,Cuicatec,Mixtecan"
   },
   {
     "name": "Guna ",
-    "i": 2440,
+    "i": 783,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7059,16 +7059,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wiwa ",
-    "i": 2441,
+    "i": 784,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sierra Nevada de Santa Marta,La Guajira,Magdalena,Cesar,Santa Marta,Rancher├¡a,Don Diego,Palomino,Buritaca,Guachaca,Ci├⌐naga Grande de Santa Marta,Ariguan├¡,Fundaci├│n,Fr├¡o,Aracataca"
+    "b": "Sierra Nevada de Santa Marta,La Guajira,Magdalena,Cesar,Santa Marta,Rancherâ”œÂ¡a,Don Diego,Palomino,Buritaca,Guachaca,Ciâ”œâŒnaga Grande de Santa Marta,Ariguanâ”œÂ¡,Fundaciâ”œâ”‚n,Frâ”œÂ¡o,Aracataca"
   },
   {
     "name": "Ahirani ",
-    "i": 2469,
+    "i": 785,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7077,7 +7077,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ahtna ",
-    "i": 2470,
+    "i": 786,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7086,7 +7086,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ai Cham ",
-    "i": 2471,
+    "i": 787,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7095,7 +7095,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aimele ",
-    "i": 2472,
+    "i": 788,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7104,16 +7104,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Air Tamajeq language ",
-    "i": 2473,
+    "i": 789,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Agadez,Arlit,Tchirozerine,Bilma,Iférouane,Ingall,Tahoua,Abalak,Tchintabaraden,Dakoro,Madaoua,Illéla"
+    "b": "Agadez,Arlit,Tchirozerine,Bilma,IfÃ©rouane,Ingall,Tahoua,Abalak,Tchintabaraden,Dakoro,Madaoua,IllÃ©la"
   },
   {
     "name": "Nataoran ",
-    "i": 2519,
+    "i": 790,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7122,7 +7122,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ait Seghrouchen Berber ",
-    "i": 2520,
+    "i": 791,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7131,7 +7131,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aiton ",
-    "i": 2521,
+    "i": 792,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7140,7 +7140,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ajawa language ",
-    "i": 2522,
+    "i": 793,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7149,7 +7149,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akan ",
-    "i": 2523,
+    "i": 794,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7158,16 +7158,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ala-Satakunta ",
-    "i": 2569,
+    "i": 795,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rauma,Eura,Huittinen,Kokemäki,Köyliö,Luvia,Nakkila,Säkylä,Ulvila,Harjavalta,Eurajoki,Kiukainen"
+    "b": "Rauma,Eura,Huittinen,KokemÃ¤ki,KÃ¶yliÃ¶,Luvia,Nakkila,SÃ¤kylÃ¤,Ulvila,Harjavalta,Eurajoki,Kiukainen"
   },
   {
     "name": "American Finnish ",
-    "i": 2570,
+    "i": 796,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7176,7 +7176,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Avam ",
-    "i": 2571,
+    "i": 797,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7185,7 +7185,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berjozov ",
-    "i": 2572,
+    "i": 798,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7194,7 +7194,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Besermyan ",
-    "i": 2573,
+    "i": 799,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7203,7 +7203,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arafundi-Enga Pidgin ",
-    "i": 2619,
+    "i": 800,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7212,7 +7212,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aramaic ",
-    "i": 2620,
+    "i": 801,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7221,7 +7221,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aranadan ",
-    "i": 2621,
+    "i": 802,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7230,7 +7230,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arawak ",
-    "i": 2622,
+    "i": 803,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7239,7 +7239,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Argobba ",
-    "i": 2623,
+    "i": 804,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7248,7 +7248,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ainu ",
-    "i": 2669,
+    "i": 805,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7257,7 +7257,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aka-Jeru ",
-    "i": 2670,
+    "i": 806,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7266,7 +7266,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akkadian ",
-    "i": 2671,
+    "i": 807,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7275,7 +7275,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aka-Bo ",
-    "i": 2672,
+    "i": 808,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7284,7 +7284,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akoye ",
-    "i": 2673,
+    "i": 809,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7293,7 +7293,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aku ",
-    "i": 2719,
+    "i": 810,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7302,7 +7302,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akhvakh ",
-    "i": 2720,
+    "i": 811,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7311,7 +7311,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alak Bahnaric ",
-    "i": 2721,
+    "i": 812,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7320,7 +7320,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alar-Tunka Buryat ",
-    "i": 2722,
+    "i": 813,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7329,7 +7329,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alasha Mongol ",
-    "i": 2723,
+    "i": 814,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7338,7 +7338,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arabic ",
-    "i": 2819,
+    "i": 815,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7347,7 +7347,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Assyrian Neo-Aramaic ",
-    "i": 2820,
+    "i": 816,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7356,7 +7356,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hebrew ",
-    "i": 2821,
+    "i": 817,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7365,7 +7365,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Neo-Aramaic ",
-    "i": 2822,
+    "i": 818,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7374,7 +7374,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Armenian ",
-    "i": 2823,
+    "i": 819,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7383,7 +7383,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pashto ",
-    "i": 2824,
+    "i": 820,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7392,7 +7392,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tajik ",
-    "i": 2825,
+    "i": 821,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7401,7 +7401,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iranian Persian ",
-    "i": 2826,
+    "i": 822,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7410,7 +7410,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kurdish ",
-    "i": 2827,
+    "i": 823,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7419,7 +7419,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sorani Kurdish ",
-    "i": 2828,
+    "i": 824,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7428,7 +7428,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Georgian ",
-    "i": 2829,
+    "i": 825,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7437,7 +7437,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Uyghur ",
-    "i": 2830,
+    "i": 826,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7446,7 +7446,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Azerbaijani ",
-    "i": 2831,
+    "i": 827,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7455,7 +7455,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Turkish ",
-    "i": 2832,
+    "i": 828,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7464,7 +7464,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Plains Mandarin ",
-    "i": 2900,
+    "i": 829,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7473,7 +7473,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lan-Yin Mandarin ",
-    "i": 2901,
+    "i": 830,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7482,7 +7482,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northeastern Mandarin ",
-    "i": 2902,
+    "i": 831,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7491,7 +7491,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southwestern Mandarin ",
-    "i": 2903,
+    "i": 832,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7500,7 +7500,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lower Yangtze Mandarin ",
-    "i": 2904,
+    "i": 833,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7509,7 +7509,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Athpahariya (Athpare) ",
-    "i": 2905,
+    "i": 834,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7518,7 +7518,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bantawa ",
-    "i": 2906,
+    "i": 835,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7527,7 +7527,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bahing ",
-    "i": 2907,
+    "i": 836,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7536,7 +7536,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Belhare ",
-    "i": 2908,
+    "i": 837,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7545,7 +7545,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chintang ",
-    "i": 2909,
+    "i": 838,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7554,7 +7554,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dumi ",
-    "i": 2910,
+    "i": 839,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7563,7 +7563,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sampang ",
-    "i": 2911,
+    "i": 840,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7572,7 +7572,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sunuwar ",
-    "i": 2912,
+    "i": 841,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7581,7 +7581,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Thulung ",
-    "i": 2913,
+    "i": 842,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7590,7 +7590,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yamphu ",
-    "i": 2914,
+    "i": 843,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7599,7 +7599,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chulung ",
-    "i": 2915,
+    "i": 844,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7608,7 +7608,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mewahang ",
-    "i": 2916,
+    "i": 845,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7617,7 +7617,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jerung (Jero) ",
-    "i": 2917,
+    "i": 846,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7626,7 +7626,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Limbu ",
-    "i": 2918,
+    "i": 847,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7635,7 +7635,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lohorung ",
-    "i": 2919,
+    "i": 848,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7644,7 +7644,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nachhiring ",
-    "i": 2920,
+    "i": 849,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7653,7 +7653,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Puma ",
-    "i": 2921,
+    "i": 850,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7662,7 +7662,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dungmali ",
-    "i": 2922,
+    "i": 851,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7671,7 +7671,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Saam ",
-    "i": 2923,
+    "i": 852,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7680,7 +7680,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hayu/Vayu ",
-    "i": 2924,
+    "i": 853,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7689,7 +7689,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chantyal ",
-    "i": 2925,
+    "i": 854,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7698,7 +7698,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ghale ",
-    "i": 2926,
+    "i": 855,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7707,7 +7707,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kaike (Magar Kaike) ",
-    "i": 2927,
+    "i": 856,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7716,7 +7716,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Manang (Manange) ",
-    "i": 2928,
+    "i": 857,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7725,7 +7725,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Altai ",
-    "i": 3005,
+    "i": 858,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7734,7 +7734,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Altai Uriankhai ",
-    "i": 3006,
+    "i": 859,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7743,7 +7743,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alu ",
-    "i": 3007,
+    "i": 860,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7752,7 +7752,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aluku ",
-    "i": 3008,
+    "i": 861,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7761,7 +7761,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alyutor ",
-    "i": 3009,
+    "i": 862,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7770,7 +7770,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sui Lang ",
-    "i": 3010,
+    "i": 863,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7779,7 +7779,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tai Dam ",
-    "i": 3011,
+    "i": 864,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7788,7 +7788,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tai Ya ",
-    "i": 3012,
+    "i": 865,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7797,7 +7797,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Taishanese ",
-    "i": 3013,
+    "i": 866,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7806,7 +7806,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wutunhua ",
-    "i": 3014,
+    "i": 867,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7815,7 +7815,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yi ",
-    "i": 3015,
+    "i": 868,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7824,7 +7824,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amdo Tibetan ",
-    "i": 3124,
+    "i": 869,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7833,7 +7833,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hamer ",
-    "i": 3125,
+    "i": 870,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7842,7 +7842,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amh ",
-    "i": 3126,
+    "i": 871,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7851,7 +7851,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amharic ",
-    "i": 3127,
+    "i": 872,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7860,7 +7860,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amharic-Argobba ",
-    "i": 3128,
+    "i": 873,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7869,7 +7869,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lower Inva ",
-    "i": 3129,
+    "i": 874,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7878,7 +7878,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nubri ",
-    "i": 3130,
+    "i": 875,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7887,7 +7887,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boro (Bodo) ",
-    "i": 3131,
+    "i": 876,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7896,7 +7896,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhimal ",
-    "i": 3132,
+    "i": 877,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7905,7 +7905,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Karenic ",
-    "i": 3133,
+    "i": 878,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7914,16 +7914,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Sami ",
-    "i": 3242,
+    "i": 879,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tromsø,Kirkenes,Rovaniemi,Inari,Utsjoki,Karasjok,Kautokeino,Alta,Hammerfest,Vadsø,Tana,Lakselv"
+    "b": "TromsÃ¸,Kirkenes,Rovaniemi,Inari,Utsjoki,Karasjok,Kautokeino,Alta,Hammerfest,VadsÃ¸,Tana,Lakselv"
   },
   {
     "name": "Forest Nenets ",
-    "i": 3243,
+    "i": 880,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7932,25 +7932,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Finnic ",
-    "i": 3244,
+    "i": 881,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Helsinki,Turku,Tampere,Oulu,Jyväskylä,Lahti,Kuopio,Pori,Rovaniemi,Vaasa,Joensuu,Espoo"
+    "b": "Helsinki,Turku,Tampere,Oulu,JyvÃ¤skylÃ¤,Lahti,Kuopio,Pori,Rovaniemi,Vaasa,Joensuu,Espoo"
   },
   {
     "name": "Southwestern Finnish ",
-    "i": 3245,
+    "i": 882,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Turku,Pori,Rauma,Naantali,Uusikaupunki,Loimaa,Huittinen,Kokemäki,Harjavalta,Eura,Säkylä,Kiikoinen"
+    "b": "Turku,Pori,Rauma,Naantali,Uusikaupunki,Loimaa,Huittinen,KokemÃ¤ki,Harjavalta,Eura,SÃ¤kylÃ¤,Kiikoinen"
   },
   {
     "name": "Proto-Uralic ",
-    "i": 3246,
+    "i": 883,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7959,16 +7959,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Karelian ",
-    "i": 3247,
+    "i": 884,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sortavala,Lakhdenpokhya,Pitkyaranta,Suojärvi,Olonets,Kondopoga,Medvezhyegorsk,Segezha,Kem,Belomorsk,Loukhi,Kalevala"
+    "b": "Sortavala,Lakhdenpokhya,Pitkyaranta,SuojÃ¤rvi,Olonets,Kondopoga,Medvezhyegorsk,Segezha,Kem,Belomorsk,Loukhi,Kalevala"
   },
   {
     "name": "Proto-Permic ",
-    "i": 3248,
+    "i": 885,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7977,16 +7977,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Somero region ",
-    "i": 3249,
+    "i": 886,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Somero,Salo,Paimio,Kaarina,Turku,Lieto,Aura,Mynämäki,Nousiainen,Masku,Naantali,Raisio"
+    "b": "Somero,Salo,Paimio,Kaarina,Turku,Lieto,Aura,MynÃ¤mÃ¤ki,Nousiainen,Masku,Naantali,Raisio"
   },
   {
     "name": "Kudymkar-Inva ",
-    "i": 3250,
+    "i": 887,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7995,7 +7995,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baram Thangmi ",
-    "i": 3251,
+    "i": 888,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8004,7 +8004,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhimalish ",
-    "i": 3252,
+    "i": 889,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8013,7 +8013,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boro Garo ",
-    "i": 3253,
+    "i": 890,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8022,7 +8022,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mijiic ",
-    "i": 3254,
+    "i": 891,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8031,7 +8031,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Angas ",
-    "i": 3256,
+    "i": 892,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8040,7 +8040,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Auyokawa language ",
-    "i": 3257,
+    "i": 893,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8049,7 +8049,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bade alias ",
-    "i": 3258,
+    "i": 894,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8058,16 +8058,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barein language ",
-    "i": 3259,
+    "i": 895,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "AmTiman,Abéché,Ati,Mongo,Biltine,Iriba,OumHadjer,Bokoro,Massaguet,Massakory,NDjamena,Sarh"
+    "b": "AmTiman,AbÃ©chÃ©,Ati,Mongo,Biltine,Iriba,OumHadjer,Bokoro,Massaguet,Massakory,NDjamena,Sarh"
   },
   {
     "name": "Beele language ",
-    "i": 3260,
+    "i": 896,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8076,7 +8076,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ammonite ",
-    "i": 3327,
+    "i": 897,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8085,7 +8085,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amorite ",
-    "i": 3328,
+    "i": 898,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8094,7 +8094,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amur Dagur ",
-    "i": 3329,
+    "i": 899,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8103,7 +8103,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amuzgo ",
-    "i": 3330,
+    "i": 900,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8112,7 +8112,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anaang ",
-    "i": 3331,
+    "i": 901,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8121,7 +8121,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ingrian ",
-    "i": 3332,
+    "i": 902,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8130,43 +8130,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kven ",
-    "i": 3333,
+    "i": 903,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tromsø,Alta,Hammerfest,Vadsø,Kirkenes,Båtsfjord,Vardø,Tana,Karasjok,Kautokeino,Lakselv,Honningsvåg"
+    "b": "TromsÃ¸,Alta,Hammerfest,VadsÃ¸,Kirkenes,BÃ¥tsfjord,VardÃ¸,Tana,Karasjok,Kautokeino,Lakselv,HonningsvÃ¥g"
   },
   {
     "name": "Livonian ",
-    "i": 3334,
+    "i": 904,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Riga,Liepāja,Daugavpils,Jelgava,Jūrmala,Ventspils,Rēzekne,Valmiera,Ogre,Tukums,Cēsis,Kuldīga"
+    "b": "Riga,LiepÄja,Daugavpils,Jelgava,JÅ«rmala,Ventspils,RÄ“zekne,Valmiera,Ogre,Tukums,CÄ“sis,KuldÄ«ga"
   },
   {
     "name": "Ludic ",
-    "i": 3335,
+    "i": 905,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Petrozavodsk,Medvezhyegorsk,Kondopoga,Segezha,Kem,Belomorsk,Loukhi,Kalevala,Pitkyaranta,Suojärvi,Olonets,Sortavala"
+    "b": "Petrozavodsk,Medvezhyegorsk,Kondopoga,Segezha,Kem,Belomorsk,Loukhi,Kalevala,Pitkyaranta,SuojÃ¤rvi,Olonets,Sortavala"
   },
   {
-    "name": "Meänkieli ",
-    "i": 3336,
+    "name": "MeÃ¤nkieli ",
+    "i": 906,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Stockholm,Uppsala,Västerås,Örebro,Linköping,Helsingborg,Jönköping,Norrköping,Umeå,Gävle,Malmö,Gothenburg"
+    "b": "Stockholm,Uppsala,VÃ¤sterÃ¥s,Ã–rebro,LinkÃ¶ping,Helsingborg,JÃ¶nkÃ¶ping,NorrkÃ¶ping,UmeÃ¥,GÃ¤vle,MalmÃ¶,Gothenburg"
   },
   {
     "name": "Veps ",
-    "i": 3337,
+    "i": 907,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8174,17 +8174,17 @@ window.realWorldNameBases = [
     "b": "SaintPetersburg,Petrozavodsk,Tikhvin,LodeynoyePole,Vytegra,Belozersk,Kirillov,Cherepovets,Vologda,Totma,VelikyUstyug,Nyandoma"
   },
   {
-    "name": "Võro ",
-    "i": 3338,
+    "name": "VÃµro ",
+    "i": 908,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tartu,Võru,Põlva,Valga,Otepää,Elva,Tõrva,KarksiNuia,Antsla,Rõuge,Kanepi,Mõniste"
+    "b": "Tartu,VÃµru,PÃµlva,Valga,OtepÃ¤Ã¤,Elva,TÃµrva,KarksiNuia,Antsla,RÃµuge,Kanepi,MÃµniste"
   },
   {
     "name": "Votic ",
-    "i": 3339,
+    "i": 909,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8193,7 +8193,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Savonlinna ",
-    "i": 3942,
+    "i": 910,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8202,7 +8202,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anca ",
-    "i": 3944,
+    "i": 911,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8211,7 +8211,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ancient Egyptian ",
-    "i": 3945,
+    "i": 912,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8220,7 +8220,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ancient North Arabian ",
-    "i": 3946,
+    "i": 913,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8229,7 +8229,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aneme-Wake ",
-    "i": 3947,
+    "i": 914,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8238,7 +8238,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Angaataha ",
-    "i": 3948,
+    "i": 915,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8247,7 +8247,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Danish ",
-    "i": 3950,
+    "i": 916,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8256,16 +8256,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "isl ",
-    "i": 3951,
+    "i": 917,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Reykjavik,Kopavogur,Hafnarfjordur,Akureyri,Reykjanesbaer,Selfoss,Akranes,Isafjordur,Egilsstadir,Husavik,Saudarkrokur,Vik,Garðabær,Mosfellsbær,Seltjarnarnes,Vestmannaeyjar,Grindavík,Álftanes,Hveragerði,Sandgerði,Dalvík,Seyðisfjörður,Fjardabyggd,Flateyri"
+    "b": "Reykjavik,Kopavogur,Hafnarfjordur,Akureyri,Reykjanesbaer,Selfoss,Akranes,Isafjordur,Egilsstadir,Husavik,Saudarkrokur,Vik,GarÃ°abÃ¦r,MosfellsbÃ¦r,Seltjarnarnes,Vestmannaeyjar,GrindavÃ­k,Ãlftanes,HveragerÃ°i,SandgerÃ°i,DalvÃ­k,SeyÃ°isfjÃ¶rÃ°ur,Fjardabyggd,Flateyri"
   },
   {
     "name": "Norwegian ",
-    "i": 3952,
+    "i": 918,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8274,16 +8274,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bavarian ",
-    "i": 3985,
+    "i": 919,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Munich,Nuremberg,Augsburg,Regensburg,Ingolstadt,Fürth,Würzburg,Erlangen,Bamberg,Passau,Landshut"
+    "b": "Munich,Nuremberg,Augsburg,Regensburg,Ingolstadt,FÃ¼rth,WÃ¼rzburg,Erlangen,Bamberg,Passau,Landshut"
   },
   {
     "name": "Cimbrian ",
-    "i": 3986,
+    "i": 920,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8292,7 +8292,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Limburgish ",
-    "i": 3987,
+    "i": 921,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8301,70 +8301,70 @@ window.realWorldNameBases = [
   },
   {
     "name": "Low German ",
-    "i": 3988,
+    "i": 922,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hamburg,Bremen,Lüneburg,Oldenburg,Hanover,Lübeck,Osnabrück,Münster,Braunschweig,Kiel,Flensburg"
+    "b": "Hamburg,Bremen,LÃ¼neburg,Oldenburg,Hanover,LÃ¼beck,OsnabrÃ¼ck,MÃ¼nster,Braunschweig,Kiel,Flensburg"
   },
   {
-    "name": "Mainfr├ñnkisch ",
-    "i": 3989,
+    "name": "Mainfrâ”œÃ±nkisch ",
+    "i": 923,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Würzburg,Schweinfurt,Kitzingen,Bad Kissingen,Aschaffenburg,Bamberg,Forchheim,Haßfurt,Lichtenfels"
+    "b": "WÃ¼rzburg,Schweinfurt,Kitzingen,Bad Kissingen,Aschaffenburg,Bamberg,Forchheim,HaÃŸfurt,Lichtenfels"
   },
   {
     "name": "Palatinate German ",
-    "i": 3990,
+    "i": 924,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kaiserslautern,Ludwigshafen,Mannheim,Mainz,Worms,Speyer,Neustadt,Idar-Oberstein,Zweibrücken,Pirmasens"
+    "b": "Kaiserslautern,Ludwigshafen,Mannheim,Mainz,Worms,Speyer,Neustadt,Idar-Oberstein,ZweibrÃ¼cken,Pirmasens"
   },
   {
     "name": "Ripuarian Platt ",
-    "i": 3991,
+    "i": 925,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cologne,Bonn,Aachen,Düsseldorf,Düren,Eschweiler,Bad Godesberg,Mülheim,Bergisch Gladbach"
+    "b": "Cologne,Bonn,Aachen,DÃ¼sseldorf,DÃ¼ren,Eschweiler,Bad Godesberg,MÃ¼lheim,Bergisch Gladbach"
   },
   {
     "name": "Hollola ",
-    "i": 5000,
+    "i": 926,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lahti,Heinola,Hämeenlinna,Riihimäki,Forssa,Kouvola,Kotka,Porvoo,Espoo,Vantaa,Tampere,Turku"
+    "b": "Lahti,Heinola,HÃ¤meenlinna,RiihimÃ¤ki,Forssa,Kouvola,Kotka,Porvoo,Espoo,Vantaa,Tampere,Turku"
   },
   {
     "name": "Heart Tavastian ",
-    "i": 5001,
+    "i": 927,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tampere,Hämeenlinna,Lahti,Riihimäki,Forssa,Valkeakoski,Nokia,Kangasala,Ylöjärvi,Jämsä,Orivesi,Virrat"
+    "b": "Tampere,HÃ¤meenlinna,Lahti,RiihimÃ¤ki,Forssa,Valkeakoski,Nokia,Kangasala,YlÃ¶jÃ¤rvi,JÃ¤msÃ¤,Orivesi,Virrat"
   },
   {
     "name": "Savonian ",
-    "i": 5002,
+    "i": 928,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,Pieksämäki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
+    "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
   },
   {
     "name": "Aramaic ",
-    "i": 5010,
+    "i": 929,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8373,7 +8373,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arabic ",
-    "i": 5012,
+    "i": 930,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8382,7 +8382,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anca ",
-    "i": 5100,
+    "i": 931,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8391,7 +8391,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ancient Egyptian ",
-    "i": 5101,
+    "i": 932,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8400,7 +8400,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ancient North Arabian ",
-    "i": 5102,
+    "i": 933,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8409,34 +8409,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hollola (setBases aux)",
-    "i": 5103,
+    "i": 934,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lahti,Heinola,Hämeenlinna,Riihimäki,Forssa,Kouvola,Kotka,Porvoo,Espoo,Vantaa,Tampere,Turku"
+    "b": "Lahti,Heinola,HÃ¤meenlinna,RiihimÃ¤ki,Forssa,Kouvola,Kotka,Porvoo,Espoo,Vantaa,Tampere,Turku"
   },
   {
     "name": "Heart Tavastian (setBases aux)",
-    "i": 5104,
+    "i": 935,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tampere,Hämeenlinna,Lahti,Riihimäki,Forssa,Valkeakoski,Nokia,Kangasala,Ylöjärvi,Jämsä,Orivesi,Virrat"
+    "b": "Tampere,HÃ¤meenlinna,Lahti,RiihimÃ¤ki,Forssa,Valkeakoski,Nokia,Kangasala,YlÃ¶jÃ¤rvi,JÃ¤msÃ¤,Orivesi,Virrat"
   },
   {
     "name": "Savonian (setBases aux)",
-    "i": 5105,
+    "i": 936,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,Pieksämäki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
+    "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
   },
   {
     "name": "Adeni Arabic ",
-    "i": 5106,
+    "i": 937,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8445,7 +8445,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aleppine Arabic ",
-    "i": 5107,
+    "i": 938,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8454,34 +8454,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Algerian Arabic ",
-    "i": 5108,
+    "i": 939,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Algiers,Oran,Constantine,Annaba,Blida,Batna,Sétif,Djelfa,Biskra,Tébessa,ElOued,Skikda"
+    "b": "Algiers,Oran,Constantine,Annaba,Blida,Batna,SÃ©tif,Djelfa,Biskra,TÃ©bessa,ElOued,Skikda"
   },
   {
     "name": "Algerian Saharan Arabic ",
-    "i": 5109,
+    "i": 940,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ghardaïa,Ouargla,Timimoun,ElMenia,InSalah,Adrar,Tamanrasset,Djanet,Illizi,BordjBadjiMokhtar,Tindjikane,Touggourt"
+    "b": "GhardaÃ¯a,Ouargla,Timimoun,ElMenia,InSalah,Adrar,Tamanrasset,Djanet,Illizi,BordjBadjiMokhtar,Tindjikane,Touggourt"
   },
   {
     "name": "Anatolian Arabic ",
-    "i": 5110,
+    "i": 941,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Konya,Adana,Gaziantep,Kocaeli,Mersin,Diyarbakır,Samsun"
+    "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Konya,Adana,Gaziantep,Kocaeli,Mersin,DiyarbakÄ±r,Samsun"
   },
   {
     "name": "Arabic Javanese of Klego ",
-    "i": 5256,
+    "i": 942,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8490,7 +8490,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arin ",
-    "i": 5257,
+    "i": 943,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8499,7 +8499,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aringa ",
-    "i": 5258,
+    "i": 944,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8508,7 +8508,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Armazic ",
-    "i": 5259,
+    "i": 945,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8517,7 +8517,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aro ",
-    "i": 5260,
+    "i": 946,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8526,7 +8526,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aroid ",
-    "i": 5306,
+    "i": 947,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8535,7 +8535,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arp ",
-    "i": 5307,
+    "i": 948,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8544,7 +8544,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arunachal ",
-    "i": 5308,
+    "i": 949,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8553,7 +8553,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ashaninka ",
-    "i": 5309,
+    "i": 950,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8562,16 +8562,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asoa ",
-    "i": 5310,
+    "i": 951,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bangui,Bimbo,Mbaïki,Berbérati,Carnot,Bambari,Bouar,Bossangoa,KagaBandoro,Mobaye,Sibut,Bria"
+    "b": "Bangui,Bimbo,MbaÃ¯ki,BerbÃ©rati,Carnot,Bambari,Bouar,Bossangoa,KagaBandoro,Mobaye,Sibut,Bria"
   },
   {
     "name": "Assamese ",
-    "i": 5356,
+    "i": 952,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8580,7 +8580,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Assan ",
-    "i": 5357,
+    "i": 953,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8589,7 +8589,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Assyrian ",
-    "i": 5358,
+    "i": 954,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8598,7 +8598,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Atohwaim-Kaugat ",
-    "i": 5359,
+    "i": 955,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8607,7 +8607,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Atsam ",
-    "i": 5360,
+    "i": 956,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8616,7 +8616,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mongolian ",
-    "i": 5361,
+    "i": 957,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8625,7 +8625,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buryat ",
-    "i": 5362,
+    "i": 958,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8634,7 +8634,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Daur ",
-    "i": 5363,
+    "i": 959,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8643,7 +8643,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Oirat ",
-    "i": 5364,
+    "i": 960,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8652,16 +8652,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Torgut Oirat ",
-    "i": 5365,
+    "i": 961,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ürümqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
+    "b": "ÃœrÃ¼mqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
   },
   {
     "name": "Bambassi ",
-    "i": 5366,
+    "i": 962,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8670,7 +8670,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tagoi ",
-    "i": 5367,
+    "i": 963,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8679,7 +8679,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wali Sudan ",
-    "i": 5368,
+    "i": 964,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8688,7 +8688,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Samo (Burkina) ",
-    "i": 5372,
+    "i": 965,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8696,8 +8696,8 @@ window.realWorldNameBases = [
     "b": "toma_samo,tougan_samo,solenzo_samo,nouna_samo,toeni_samo,kiembara_samo,sourou_samo,yatenga_samo,zondoma_samo,nayala_samo,sanguie_samo,passore_samo"
   },
   {
-    "name": "Ekoka ╟âKung ",
-    "i": 5373,
+    "name": "Ekoka â•ŸÃ¢Kung ",
+    "i": 966,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8705,8 +8705,8 @@ window.realWorldNameBases = [
     "b": "Luanda,Huambo,Lubango,Benguela,Kuito,Malanje,Namibe,Soyo,Cabinda,Sumbe,Ondjiva,Menongue"
   },
   {
-    "name": "╟éKx╩╝ao╟ü╩╝ae ",
-    "i": 5374,
+    "name": "â•ŸÃ©Kxâ•©â•aoâ•ŸÃ¼â•©â•ae ",
+    "i": 967,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8715,7 +8715,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sekele ",
-    "i": 5375,
+    "i": 968,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8724,7 +8724,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wolof ",
-    "i": 5376,
+    "i": 969,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8733,7 +8733,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sesotho ",
-    "i": 5377,
+    "i": 970,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8742,7 +8742,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tswana ",
-    "i": 5378,
+    "i": 971,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8751,7 +8751,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zarma ",
-    "i": 5379,
+    "i": 972,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8760,7 +8760,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Seze ",
-    "i": 5380,
+    "i": 973,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8769,7 +8769,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shona ",
-    "i": 5381,
+    "i": 974,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8778,7 +8778,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sena ",
-    "i": 5382,
+    "i": 975,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8787,7 +8787,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tshiluba ",
-    "i": 5383,
+    "i": 976,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8796,7 +8796,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sotho ",
-    "i": 5384,
+    "i": 977,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8805,7 +8805,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Swazi ",
-    "i": 5385,
+    "i": 978,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8814,7 +8814,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tumbuka ",
-    "i": 5386,
+    "i": 979,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8823,7 +8823,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sakata ",
-    "i": 5387,
+    "i": 980,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8832,7 +8832,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sengele ",
-    "i": 5388,
+    "i": 981,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8841,7 +8841,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shi ",
-    "i": 5389,
+    "i": 982,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8850,7 +8850,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Suba ",
-    "i": 5390,
+    "i": 983,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8859,7 +8859,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Suku ",
-    "i": 5391,
+    "i": 984,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8868,7 +8868,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wongo ",
-    "i": 5392,
+    "i": 985,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8877,7 +8877,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zulu",
-    "i": 5393,
+    "i": 986,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8886,7 +8886,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sepedi ",
-    "i": 5394,
+    "i": 987,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8895,7 +8895,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Ndebele ",
-    "i": 5395,
+    "i": 988,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8904,7 +8904,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sumayela Ndebele ",
-    "i": 5396,
+    "i": 989,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8913,7 +8913,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tsonga or Xitsonga ",
-    "i": 5397,
+    "i": 990,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8922,7 +8922,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Umbundu ",
-    "i": 5398,
+    "i": 991,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8931,7 +8931,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burushaski ",
-    "i": 5600,
+    "i": 992,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8940,7 +8940,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hinglish ",
-    "i": 5601,
+    "i": 993,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8949,7 +8949,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hindko, Northern ",
-    "i": 5602,
+    "i": 994,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8958,7 +8958,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Indian English ",
-    "i": 5603,
+    "i": 995,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8967,7 +8967,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Korku ",
-    "i": 5604,
+    "i": 996,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8976,7 +8976,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nepalese English ",
-    "i": 5605,
+    "i": 997,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8985,7 +8985,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Newar ",
-    "i": 5606,
+    "i": 998,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -8994,7 +8994,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sora (Savara) ",
-    "i": 5607,
+    "i": 999,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9003,7 +9003,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Manchu ",
-    "i": 5608,
+    "i": 1000,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9012,7 +9012,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jurchen ",
-    "i": 5609,
+    "i": 1001,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9021,7 +9021,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Xibe ",
-    "i": 5610,
+    "i": 1002,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9030,7 +9030,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nanai ",
-    "i": 5611,
+    "i": 1003,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9039,7 +9039,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Evenki ",
-    "i": 5612,
+    "i": 1004,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9048,7 +9048,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Oroqen ",
-    "i": 5613,
+    "i": 1005,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9057,7 +9057,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awjila language ",
-    "i": 5628,
+    "i": 1006,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9066,7 +9066,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aws-Nian ",
-    "i": 5629,
+    "i": 1007,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9075,7 +9075,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aymara ",
-    "i": 5630,
+    "i": 1008,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9084,7 +9084,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ayo ",
-    "i": 5631,
+    "i": 1009,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9093,7 +9093,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ba-Ari ",
-    "i": 5632,
+    "i": 1010,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9102,7 +9102,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Man Met (Kemie) ",
-    "i": 5633,
+    "i": 1011,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9111,7 +9111,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hu (Angku, Kon Keu) ",
-    "i": 5634,
+    "i": 1012,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9120,7 +9120,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "U (Pouma) ",
-    "i": 5635,
+    "i": 1013,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9129,16 +9129,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baarin Mongol ",
-    "i": 5658,
+    "i": 1014,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Mörön,Nalaikh,Bayankhongor,Ölgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
+    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
   },
   {
     "name": "Baba ",
-    "i": 5659,
+    "i": 1015,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9147,7 +9147,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Babylonian ",
-    "i": 5660,
+    "i": 1016,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9156,7 +9156,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bacama alias ",
-    "i": 5661,
+    "i": 1017,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9165,7 +9165,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Badaga ",
-    "i": 5662,
+    "i": 1018,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9174,7 +9174,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baoan ",
-    "i": 5708,
+    "i": 1019,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9183,7 +9183,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baoanic ",
-    "i": 5709,
+    "i": 1020,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9192,7 +9192,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baoting Hlai ",
-    "i": 5710,
+    "i": 1021,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9201,7 +9201,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barai ",
-    "i": 5711,
+    "i": 1022,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9210,7 +9210,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barambu ",
-    "i": 5712,
+    "i": 1023,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9219,7 +9219,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Badong Yao ",
-    "i": 5758,
+    "i": 1024,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9228,7 +9228,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baekje Korean ",
-    "i": 5759,
+    "i": 1025,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9237,7 +9237,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baghdadi Arabic ",
-    "i": 5760,
+    "i": 1026,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9246,7 +9246,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baham ",
-    "i": 5761,
+    "i": 1027,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9255,7 +9255,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bahnar ",
-    "i": 5762,
+    "i": 1028,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9264,7 +9264,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bengali ",
-    "i": 5808,
+    "i": 1029,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9273,7 +9273,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bengali Portuguese Creole ",
-    "i": 5809,
+    "i": 1030,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9282,7 +9282,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beni Snous dialect ",
-    "i": 5810,
+    "i": 1031,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9291,7 +9291,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berber ",
-    "i": 5811,
+    "i": 1032,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9300,7 +9300,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Berbice ",
-    "i": 5812,
+    "i": 1033,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9308,8 +9308,8 @@ window.realWorldNameBases = [
     "b": "Georgetown,Linden,NewAmsterdam,AnnaRegina,Bartica,Mahaicony,RoseHall,TweedSide,Corriverton,Mabaruma,Parika,Lethem"
   },
   {
-    "name": "Macagu├ín (Hitn├╝) ",
-    "i": 5813,
+    "name": "Macaguâ”œÃ­n (Hitnâ”œâ•) ",
+    "i": 1034,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9317,8 +9317,8 @@ window.realWorldNameBases = [
     "b": "Bogota,Medellin,Cali,Barranquilla,Cartagena,Cucuta,Soledad,Ibague,Bucaramanga,Soacha,Villavicencio"
   },
   {
-    "name": "Arhuaco (Ik╩ë) ",
-    "i": 5814,
+    "name": "Arhuaco (Ikâ•©Ã«) ",
+    "i": 1035,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9327,25 +9327,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Minica Huitoto ",
-    "i": 5815,
+    "i": 1036,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yopal,Inirida,Mitú,SanJoseDelGuaviare,PuertoCarreño,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
+    "b": "Yopal,Inirida,MitÃº,SanJoseDelGuaviare,PuertoCarreÃ±o,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
   },
   {
     "name": "Muinane ",
-    "i": 5816,
+    "i": 1037,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cali,Buga,Buenaventura,Palmira,Tuluá,Jamundí,Cartago,Guadalajara,Pasto,Ipiales"
+    "b": "Cali,Buga,Buenaventura,Palmira,TuluÃ¡,JamundÃ­,Cartago,Guadalajara,Pasto,Ipiales"
   },
   {
     "name": "Nukak ",
-    "i": 5817,
+    "i": 1038,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9353,8 +9353,8 @@ window.realWorldNameBases = [
     "b": "Armenia,Circasia,Montenegro,Tequendama,LaDorada,Chia,Cajica,Sopo,Tenjo,Tabio,Zipaquira,Nemocon"
   },
   {
-    "name": "Sater├⌐-Maw├⌐ ",
-    "i": 5818,
+    "name": "Saterâ”œâŒ-Mawâ”œâŒ ",
+    "i": 1039,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9362,8 +9362,8 @@ window.realWorldNameBases = [
     "b": "SaoPaulo,RioDeJaneiro,BeloHorizonte,Brasilia,Salvador,Fortaleza,Recife,PortoAlegre,Manaus,Belem,Goiania,Campinas"
   },
   {
-    "name": "Teneteh├íra ",
-    "i": 5819,
+    "name": "Tenetehâ”œÃ­ra ",
+    "i": 1040,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9371,8 +9371,8 @@ window.realWorldNameBases = [
     "b": "Vitoria,Guarulhos,SaoLuis,SaoBernardoDoCampo,JoaoPessoa,SantoAndre,Teresina,Maceio,Aracaju,Natal,CampoGrande"
   },
   {
-    "name": "War├ízu ",
-    "i": 5820,
+    "name": "Warâ”œÃ­zu ",
+    "i": 1041,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9381,7 +9381,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wari' ",
-    "i": 5821,
+    "i": 1042,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9389,8 +9389,8 @@ window.realWorldNameBases = [
     "b": "PacasNovos,RioNegro,LageRiver,OuroPreto,GrutaCreek,SantoAndre,Sagarana,RioNegroOcaia,IgarapeLage,Tanajura,RioOmere,Ribeirao"
   },
   {
-    "name": "San├╢ma (Sanum├í) ",
-    "i": 5822,
+    "name": "Sanâ”œâ•¢ma (Sanumâ”œÃ­) ",
+    "i": 1043,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9399,7 +9399,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Trinitario ",
-    "i": 5823,
+    "i": 1044,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9408,7 +9408,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Reyesano (Maropa) ",
-    "i": 5824,
+    "i": 1045,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9417,7 +9417,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Toromona ",
-    "i": 5825,
+    "i": 1046,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9425,62 +9425,62 @@ window.realWorldNameBases = [
     "b": "Manu,MadredeDios,Beni,Heath,Orthon,Pariamanu,BocaManu,PuertoMaldonado,CuscoAmazonico,Tambopata,Acre,Pando"
   },
   {
-    "name": "Wich├¡ Lhamt├⌐s Nocten (Weenhayek) ",
-    "i": 5826,
+    "name": "Wichâ”œÂ¡ Lhamtâ”œâŒs Nocten (Weenhayek) ",
+    "i": 1047,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Villa Montes,Nuestra Señora de la Paz,Tartagal,General Pinedo,Embarcación,San Ramón,Yacuiba,Bermejo,Monteagudo,Rivadavia"
+    "b": "Villa Montes,Nuestra SeÃ±ora de la Paz,Tartagal,General Pinedo,EmbarcaciÃ³n,San RamÃ³n,Yacuiba,Bermejo,Monteagudo,Rivadavia"
   },
   {
-    "name": "Wich├¡ Lhamt├⌐s Vejoz ",
-    "i": 5827,
+    "name": "Wichâ”œÂ¡ Lhamtâ”œâŒs Vejoz ",
+    "i": 1048,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Salta,Tartagal,General Güemes,Orán,Tapir,San Ramón de la Nueva Orán,Embarcación,Las Lajitas,Villa del Río Grande"
+    "b": "Salta,Tartagal,General GÃ¼emes,OrÃ¡n,Tapir,San RamÃ³n de la Nueva OrÃ¡n,EmbarcaciÃ³n,Las Lajitas,Villa del RÃ­o Grande"
   },
   {
     "name": "Sierra Popoluca ",
-    "i": 5828,
+    "i": 1049,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,Cuitlapán,Popoloca,Tlacolula,Mazatlán"
+    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,CuitlapÃ¡n,Popoloca,Tlacolula,MazatlÃ¡n"
   },
   {
-    "name": "Tlapanec (MeΩ₧îphaa) ",
-    "i": 5829,
+    "name": "Tlapanec (MeÎ©â‚§Ã®phaa) ",
+    "i": 1050,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Malinaltepec,Tlapa,Ocotalpan,Zapotitlán,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
+    "b": "Malinaltepec,Tlapa,Ocotalpan,ZapotitlÃ¡n,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
   },
   {
     "name": "Paipai ",
-    "i": 5830,
+    "i": 1051,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Catarina,Quitovac,San Miguel,Misión San Javier,Chihuahua,San Ignacio,Terry,Cucurpe,Caborca,Pitiquito"
+    "b": "Santa Catarina,Quitovac,San Miguel,MisiÃ³n San Javier,Chihuahua,San Ignacio,Terry,Cucurpe,Caborca,Pitiquito"
   },
   {
-    "name": "Tiriy├│ ",
-    "i": 5831,
+    "name": "Tiriyâ”œâ”‚ ",
+    "i": 1052,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tiriyó,Maturucá,Mucambira,São Francisco,Paraná,Maringá,Araruna,Cascavel,Foz do Iguaçu,Campo Mourão"
+    "b": "TiriyÃ³,MaturucÃ¡,Mucambira,SÃ£o Francisco,ParanÃ¡,MaringÃ¡,Araruna,Cascavel,Foz do IguaÃ§u,Campo MourÃ£o"
   },
   {
-    "name": "Coast Tsimshian (SmΓÇÖalgya╠▒x) ",
-    "i": 5832,
+    "name": "Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x) ",
+    "i": 1053,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9489,7 +9489,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gelao ",
-    "i": 5858,
+    "i": 1054,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9498,7 +9498,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tongzha ",
-    "i": 5859,
+    "i": 1055,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9507,7 +9507,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Telue ",
-    "i": 5860,
+    "i": 1056,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9516,7 +9516,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Then Kam Sui ",
-    "i": 5861,
+    "i": 1057,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9525,7 +9525,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nong Zhuang ",
-    "i": 5862,
+    "i": 1058,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9534,7 +9534,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vandu ",
-    "i": 5863,
+    "i": 1059,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9543,7 +9543,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chadong ",
-    "i": 5864,
+    "i": 1060,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9552,7 +9552,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "En Kra ",
-    "i": 5865,
+    "i": 1061,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9561,7 +9561,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nuoxi Naxi Yao ",
-    "i": 5866,
+    "i": 1062,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9570,7 +9570,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lauhut ",
-    "i": 5867,
+    "i": 1063,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9579,16 +9579,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tsamai ",
-    "i": 5872,
+    "i": 1064,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Irgalam,Tchad,Guéra,N'Djamena,Mangalmé,Bénoye,Chari,Logone,Mayo-Kebbi,Kanem,Batha,North Cameroon"
+    "b": "Irgalam,Tchad,GuÃ©ra,N'Djamena,MangalmÃ©,BÃ©noye,Chari,Logone,Mayo-Kebbi,Kanem,Batha,North Cameroon"
   },
   {
     "name": "El Molo ",
-    "i": 5873,
+    "i": 1065,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9597,7 +9597,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Saho ",
-    "i": 5874,
+    "i": 1066,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9606,7 +9606,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Somali ",
-    "i": 5875,
+    "i": 1067,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9615,52 +9615,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Transdanubian ",
-    "i": 6000,
+    "i": 1068,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Székesfehérvár,Tatabánya,Győr,Mosonmagyaróvár,Komárom,Esztergom,Dorog,Bábolna,Oroszlány,Mórichida"
+    "b": "SzÃ©kesfehÃ©rvÃ¡r,TatabÃ¡nya,GyÅ‘r,MosonmagyarÃ³vÃ¡r,KomÃ¡rom,Esztergom,Dorog,BÃ¡bolna,OroszlÃ¡ny,MÃ³richida"
   },
   {
-    "name": "Tisza-K├╢r├╢s ",
-    "i": 6001,
+    "name": "Tisza-Kâ”œâ•¢râ”œâ•¢s ",
+    "i": 1069,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Szeged,Kecskemét,Szolnok,Jászberény,Karcag,Mezőtúr,Szentes,Kunszentmárton,Túrkeve,Kiskunfélegyháza"
+    "b": "Szeged,KecskemÃ©t,Szolnok,JÃ¡szberÃ©ny,Karcag,MezÅ‘tÃºr,Szentes,KunszentmÃ¡rton,TÃºrkeve,KiskunfÃ©legyhÃ¡za"
   },
   {
-    "name": "Pal├│c ",
-    "i": 6002,
+    "name": "Palâ”œâ”‚c ",
+    "i": 1070,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Siklós,Pécs,Barcs,Szigetvár,Kaposvár,Somogyvár,Bóly,Nagykanizsa,Csurgó,Sellye,Szentgotthárd"
+    "b": "SiklÃ³s,PÃ©cs,Barcs,SzigetvÃ¡r,KaposvÃ¡r,SomogyvÃ¡r,BÃ³ly,Nagykanizsa,CsurgÃ³,Sellye,SzentgotthÃ¡rd"
   },
   {
     "name": "Southern Transdanubian ",
-    "i": 6003,
+    "i": 1071,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pécs,Szekszárd,Szigetvár,Baja,Mohács,Bonyhád,Kaposvár,Sombathely,Szombathely,Vasvár,Zalaegerszeg"
+    "b": "PÃ©cs,SzekszÃ¡rd,SzigetvÃ¡r,Baja,MohÃ¡cs,BonyhÃ¡d,KaposvÃ¡r,Sombathely,Szombathely,VasvÃ¡r,Zalaegerszeg"
   },
   {
     "name": "Southern Great Plain ",
-    "i": 6004,
+    "i": 1072,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Szeged,Makó,Békéscsaba,Nagyvárad,Debrecen,Hajdúböszörmény,Karcag,Mezőtúr,Szentes,Kunhegyes"
+    "b": "Szeged,MakÃ³,BÃ©kÃ©scsaba,NagyvÃ¡rad,Debrecen,HajdÃºbÃ¶szÃ¶rmÃ©ny,Karcag,MezÅ‘tÃºr,Szentes,Kunhegyes"
   },
   {
     "name": "Bahrani Arabic ",
-    "i": 6005,
+    "i": 1073,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9669,7 +9669,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bai ",
-    "i": 6006,
+    "i": 1074,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9678,7 +9678,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baima ",
-    "i": 6007,
+    "i": 1075,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9687,7 +9687,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baisha Hlai ",
-    "i": 6008,
+    "i": 1076,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9696,7 +9696,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bala ",
-    "i": 6009,
+    "i": 1077,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9705,7 +9705,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kosa-Kama ",
-    "i": 6010,
+    "i": 1078,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9714,7 +9714,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Upper Lupya ",
-    "i": 6011,
+    "i": 1079,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9723,34 +9723,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proper Southeastern ",
-    "i": 6012,
+    "i": 1080,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pécs,Barcs,Valpó,Bonyhád,Hosszúvölgyy,Kaposvár,Komlo,Babócsa,Pécsvárad,Szigetvár,Mohács"
+    "b": "PÃ©cs,Barcs,ValpÃ³,BonyhÃ¡d,HosszÃºvÃ¶lgyy,KaposvÃ¡r,Komlo,BabÃ³csa,PÃ©csvÃ¡rad,SzigetvÃ¡r,MohÃ¡cs"
   },
   {
-    "name": "Luokta-M├ívas ",
-    "i": 6013,
+    "name": "Luokta-Mâ”œÃ­vas ",
+    "i": 1081,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Luokta,Mävas,Ust-Mávas,Kalvala,Nuorgam,Karesuando,Paadar,Inari,Ivalo,Sodankylä,Leväjoki,Utsjoki"
+    "b": "Luokta,MÃ¤vas,Ust-MÃ¡vas,Kalvala,Nuorgam,Karesuando,Paadar,Inari,Ivalo,SodankylÃ¤,LevÃ¤joki,Utsjoki"
   },
   {
     "name": "Standard Finnish ",
-    "i": 6014,
+    "i": 1082,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Helsinki,Tampere,Turku,Oulu,Lahti,Jyväskylä,Kuopio,Kouvola,Vaasa,Pori,Seinäjoki,Kotka"
+    "b": "Helsinki,Tampere,Turku,Oulu,Lahti,JyvÃ¤skylÃ¤,Kuopio,Kouvola,Vaasa,Pori,SeinÃ¤joki,Kotka"
   },
   {
     "name": "Udora ",
-    "i": 6015,
+    "i": 1083,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9759,34 +9759,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Torne Sami ",
-    "i": 6016,
+    "i": 1084,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Torne River,Pajala,Haparanda,Kilpisjärvi,Ylitornio,Mellaträsk,Näkkälä,Vojakkala,Korpilombolo,Kainuu"
+    "b": "Torne River,Pajala,Haparanda,KilpisjÃ¤rvi,Ylitornio,MellatrÃ¤sk,NÃ¤kkÃ¤lÃ¤,Vojakkala,Korpilombolo,Kainuu"
   },
   {
     "name": "Tavastian ",
-    "i": 6017,
+    "i": 1085,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hämeenlinna,Lahti,Riihimäki,Forssa,Hollola,Hyvinkää,Orimattila,Janakkala,Turenki,Loppi,Asikkala"
+    "b": "HÃ¤meenlinna,Lahti,RiihimÃ¤ki,Forssa,Hollola,HyvinkÃ¤Ã¤,Orimattila,Janakkala,Turenki,Loppi,Asikkala"
   },
   {
     "name": "Tornio ",
-    "i": 6018,
+    "i": 1086,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tornio,Haparanda,Pajala,Ylitornio,Kemi,Rovaniemi,Tornedalen,Haukipudas,Pello,Kolari,Torå"
+    "b": "Tornio,Haparanda,Pajala,Ylitornio,Kemi,Rovaniemi,Tornedalen,Haukipudas,Pello,Kolari,TorÃ¥"
   },
   {
     "name": "Hevaha ",
-    "i": 6019,
+    "i": 1087,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9795,16 +9795,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Karelian ",
-    "i": 6020,
+    "i": 1088,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Joensuu,Savonlinna,Ilomantsi,Kitee,Outokumpu,Tohmajärvi,Kontiolahti,Polvijärvi,Valtimo,Lieksa"
+    "b": "Joensuu,Savonlinna,Ilomantsi,Kitee,Outokumpu,TohmajÃ¤rvi,Kontiolahti,PolvijÃ¤rvi,Valtimo,Lieksa"
   },
   {
     "name": "Upper Vychegda ",
-    "i": 6021,
+    "i": 1089,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9813,34 +9813,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pori region ",
-    "i": 6022,
+    "i": 1090,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pori,Rauma,Eura,Eurajoki,Kokemäki,Kankaanpää,Kiukainen,Luvia,Meriharju,Nakkila,Harjavalta,Ulvila"
+    "b": "Pori,Rauma,Eura,Eurajoki,KokemÃ¤ki,KankaanpÃ¤Ã¤,Kiukainen,Luvia,Meriharju,Nakkila,Harjavalta,Ulvila"
   },
   {
-    "name": "Per├ñpohjola ",
-    "i": 6023,
+    "name": "Perâ”œÃ±pohjola ",
+    "i": 1091,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Peräpohjola,Oulu,Kemi,Kokkola,Rovaniemi,Kemijärvi,Simo,Tornio,Haparanda,Pajala,Kilpisjärvi"
+    "b": "PerÃ¤pohjola,Oulu,Kemi,Kokkola,Rovaniemi,KemijÃ¤rvi,Simo,Tornio,Haparanda,Pajala,KilpisjÃ¤rvi"
   },
   {
     "name": "Fingelska ",
-    "i": 6024,
+    "i": 1092,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fingelska,Ekenäs,Karis,Helsinki,Ingå,Nummela,Pernå,Loviisa,Askola,Myrskylä,Sipoo,Sibbo"
+    "b": "Fingelska,EkenÃ¤s,Karis,Helsinki,IngÃ¥,Nummela,PernÃ¥,Loviisa,Askola,MyrskylÃ¤,Sipoo,Sibbo"
   },
   {
     "name": "Southern Selkup ",
-    "i": 6025,
+    "i": 1093,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9849,7 +9849,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vadey ",
-    "i": 6026,
+    "i": 1094,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9858,7 +9858,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bahraini Gulf Arabic ",
-    "i": 6055,
+    "i": 1095,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9867,7 +9867,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bakhtiari Arabic ",
-    "i": 6056,
+    "i": 1096,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9876,16 +9876,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baldemu language ",
-    "i": 6057,
+    "i": 1097,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Baldemu,Madam,Sokoro,Baïssouroum,Ngoumi,Koïbim,Koupélenté,Maidam,Yangorola,Yagandou,Mbail"
+    "b": "Baldemu,Madam,Sokoro,BaÃ¯ssouroum,Ngoumi,KoÃ¯bim,KoupÃ©lentÃ©,Maidam,Yangorola,Yagandou,Mbail"
   },
   {
     "name": "Balo ",
-    "i": 6058,
+    "i": 1098,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9894,7 +9894,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balochi ",
-    "i": 6059,
+    "i": 1099,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9903,7 +9903,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balti ",
-    "i": 6105,
+    "i": 1100,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9912,16 +9912,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bamali ",
-    "i": 6106,
+    "i": 1101,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bamali,Bamenda,Kumbo,Nkambé,Bafanji,Fundong,Mbengwi,Njombe,Ndu,Nwa,Bawock,Mankon"
+    "b": "Bamali,Bamenda,Kumbo,NkambÃ©,Bafanji,Fundong,Mbengwi,Njombe,Ndu,Nwa,Bawock,Mankon"
   },
   {
     "name": "Bambalang ",
-    "i": 6107,
+    "i": 1102,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9930,16 +9930,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bambara ",
-    "i": 6108,
+    "i": 1103,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bamako,Sikasso,Koutiala,Ségou,Mopti,Kayes,Koulikoro,Tombouctou,Kidal,Gao,Markala,Nara"
+    "b": "Bamako,Sikasso,Koutiala,SÃ©gou,Mopti,Kayes,Koulikoro,Tombouctou,Kidal,Gao,Markala,Nara"
   },
   {
     "name": "Bamboo English ",
-    "i": 6109,
+    "i": 1104,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9948,7 +9948,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dakota ",
-    "i": 6110,
+    "i": 1105,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9957,7 +9957,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Crow ",
-    "i": 6111,
+    "i": 1106,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9966,25 +9966,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Xavante ",
-    "i": 6112,
+    "i": 1107,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "São Felix do Araguaia,São Miguel do Araguaia,Barra do Garças,Cana Brava,Água Boa,Mato Grosso,Rio Verde,Alto Garças"
+    "b": "SÃ£o Felix do Araguaia,SÃ£o Miguel do Araguaia,Barra do GarÃ§as,Cana Brava,Ãgua Boa,Mato Grosso,Rio Verde,Alto GarÃ§as"
   },
   {
     "name": "Xerente ",
-    "i": 6113,
+    "i": 1108,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tocantins,Palmas,Gurupi,Paraíso do Tocantins,Araguaína,Porto Nacional,Pedro Afonso,Miranorte,Tocantínia,Dianópolis"
+    "b": "Tocantins,Palmas,Gurupi,ParaÃ­so do Tocantins,AraguaÃ­na,Porto Nacional,Pedro Afonso,Miranorte,TocantÃ­nia,DianÃ³polis"
   },
   {
     "name": "Pashto, Central ",
-    "i": 6114,
+    "i": 1109,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -9993,16 +9993,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Waneci ",
-    "i": 6115,
+    "i": 1110,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Waneci,Tocantins,Palmas,Tocantinópolis,Gurupi,Porto Nacional,Paraíso do Tocantins,Araguaína,Miranorte,Pedro Afonso"
+    "b": "Waneci,Tocantins,Palmas,TocantinÃ³polis,Gurupi,Porto Nacional,ParaÃ­so do Tocantins,AraguaÃ­na,Miranorte,Pedro Afonso"
   },
   {
     "name": "Eastern Indonesian Malay ",
-    "i": 6116,
+    "i": 1111,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10011,7 +10011,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gorap ",
-    "i": 6117,
+    "i": 1112,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10020,7 +10020,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Harari ",
-    "i": 6118,
+    "i": 1113,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10029,7 +10029,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Harari-East Gurage ",
-    "i": 6119,
+    "i": 1114,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10038,16 +10038,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bami ",
-    "i": 6155,
+    "i": 1115,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bami,Bamenda,Bali,Bamessing,Babanki,Bafut,Kumbo,Nkambe,Mbengwi,Bambalang,Nkambé"
+    "b": "Bami,Bamenda,Bali,Bamessing,Babanki,Bafut,Kumbo,Nkambe,Mbengwi,Bambalang,NkambÃ©"
   },
   {
     "name": "Bamukumbit ",
-    "i": 6156,
+    "i": 1116,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10056,7 +10056,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bamum ",
-    "i": 6157,
+    "i": 1117,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10065,7 +10065,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bamwe ",
-    "i": 6158,
+    "i": 1118,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10074,7 +10074,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balinese ",
-    "i": 6159,
+    "i": 1119,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10083,16 +10083,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bana language ",
-    "i": 6205,
+    "i": 1120,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bana,Garoua,Mokolo,Bamessing,Nsimey,Tignere,Nkamenbekoma,Guidar,Bantadjé,Koumoulou,Mbe"
+    "b": "Bana,Garoua,Mokolo,Bamessing,Nsimey,Tignere,Nkamenbekoma,Guidar,BantadjÃ©,Koumoulou,Mbe"
   },
   {
     "name": "Bangime ",
-    "i": 6206,
+    "i": 1121,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10101,7 +10101,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangladeshi English ",
-    "i": 6207,
+    "i": 1122,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10110,7 +10110,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Banjar ",
-    "i": 6208,
+    "i": 1123,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10119,7 +10119,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baramu ",
-    "i": 6209,
+    "i": 1124,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10128,7 +10128,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bareqi Arabic ",
-    "i": 6255,
+    "i": 1125,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10137,7 +10137,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bargut ",
-    "i": 6256,
+    "i": 1126,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10146,25 +10146,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bargut Buryat ",
-    "i": 6257,
+    "i": 1127,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ulan Ude,Shilin Gol,Ulan Bator,Erdenet,Sükhbaatar,Darkhan,Choibalsan,Dornod,Bulgan,Khövsgöl,Ulaangom"
+    "b": "Ulan Ude,Shilin Gol,Ulan Bator,Erdenet,SÃ¼khbaatar,Darkhan,Choibalsan,Dornod,Bulgan,KhÃ¶vsgÃ¶l,Ulaangom"
   },
   {
     "name": "Bariba ",
-    "i": 6258,
+    "i": 1128,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Parakou,Nikki,Bembèrèkè,Kandi,N'Dali,Tchaourou,Sinendé,Banikoara,Gogounou,Kouandé,Chérou"
+    "b": "Parakou,Nikki,BembÃ¨rÃ¨kÃ¨,Kandi,N'Dali,Tchaourou,SinendÃ©,Banikoara,Gogounou,KouandÃ©,ChÃ©rou"
   },
   {
     "name": "Bariji ",
-    "i": 6259,
+    "i": 1129,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10173,7 +10173,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barikanchi Pidgin ",
-    "i": 6355,
+    "i": 1130,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10182,7 +10182,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baruga ",
-    "i": 6356,
+    "i": 1131,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10191,7 +10191,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barwar ",
-    "i": 6357,
+    "i": 1132,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10200,7 +10200,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Barzani Jewish Neo-Aramaic ",
-    "i": 6358,
+    "i": 1133,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10209,7 +10209,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basap ",
-    "i": 6359,
+    "i": 1134,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10218,25 +10218,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basque-Icelandic pidgin ",
-    "i": 6405,
+    "i": 1135,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Reykjavik,Akureyri,Kópasker,Vestmannaeyjar,Bakki,Biludalur,Grundarfjördur,Reynisfjördur,Siglufjördur,Iceland,Basque"
+    "b": "Reykjavik,Akureyri,KÃ³pasker,Vestmannaeyjar,Bakki,Biludalur,GrundarfjÃ¶rdur,ReynisfjÃ¶rdur,SiglufjÃ¶rdur,Iceland,Basque"
   },
   {
     "name": "Bassari ",
-    "i": 6406,
+    "i": 1136,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bassari,Sédhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
+    "b": "Bassari,SÃ©dhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
   },
   {
     "name": "Basum ",
-    "i": 6407,
+    "i": 1137,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10245,16 +10245,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bata language ",
-    "i": 6408,
+    "i": 1138,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bata,Equatorial Guinea,Kribi,Douala,Yaoundé,Jong,Dibambari,Kogo,Akonolinga,Ntem,Bolondo"
+    "b": "Bata,Equatorial Guinea,Kribi,Douala,YaoundÃ©,Jong,Dibambari,Kogo,Akonolinga,Ntem,Bolondo"
   },
   {
     "name": "Bathari ",
-    "i": 6409,
+    "i": 1139,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10263,7 +10263,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bats ",
-    "i": 6455,
+    "i": 1140,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10272,7 +10272,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Batu ",
-    "i": 6456,
+    "i": 1141,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10281,7 +10281,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bauwaki ",
-    "i": 6457,
+    "i": 1142,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10290,7 +10290,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bayat Oirat ",
-    "i": 6458,
+    "i": 1143,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10299,7 +10299,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bayono ",
-    "i": 6459,
+    "i": 1144,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10308,7 +10308,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bayot ",
-    "i": 6505,
+    "i": 1145,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10317,7 +10317,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Toba Batak ",
-    "i": 6506,
+    "i": 1146,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10326,7 +10326,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bugan ",
-    "i": 6507,
+    "i": 1147,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10335,7 +10335,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balochi, Sulaimani ",
-    "i": 6508,
+    "i": 1148,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10344,7 +10344,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Badeshi ",
-    "i": 6509,
+    "i": 1149,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10353,7 +10353,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Uzbek ",
-    "i": 6510,
+    "i": 1150,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10362,7 +10362,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kazakh ",
-    "i": 6511,
+    "i": 1151,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10371,7 +10371,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyrgyz ",
-    "i": 6512,
+    "i": 1152,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10380,7 +10380,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tatar ",
-    "i": 6513,
+    "i": 1153,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10389,7 +10389,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tuvan ",
-    "i": 6514,
+    "i": 1154,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10398,7 +10398,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ili Turki ",
-    "i": 6515,
+    "i": 1155,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10407,7 +10407,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fuyu Kyrgyz ",
-    "i": 6526,
+    "i": 1156,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10416,7 +10416,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Salar ",
-    "i": 6527,
+    "i": 1157,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10425,7 +10425,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hlai ",
-    "i": 6530,
+    "i": 1158,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10434,7 +10434,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mulam ",
-    "i": 6531,
+    "i": 1159,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10443,7 +10443,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Be ",
-    "i": 6532,
+    "i": 1160,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10452,7 +10452,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bouyei ",
-    "i": 6533,
+    "i": 1161,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10461,7 +10461,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "E Tai ",
-    "i": 6600,
+    "i": 1162,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10470,7 +10470,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuan ",
-    "i": 6601,
+    "i": 1163,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10479,7 +10479,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lao Nyo ",
-    "i": 6602,
+    "i": 1164,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10488,7 +10488,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tai Muong Vat ",
-    "i": 6603,
+    "i": 1165,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10497,16 +10497,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nung Tai ",
-    "i": 6604,
+    "i": 1166,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Bằng,Bắc Giang,Tuyên Quang,Ha Giang,Lào Cai,Diễn Biên"
+    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,TuyÃªn Quang,Ha Giang,LÃ o Cai,Diá»…n BiÃªn"
   },
   {
     "name": "Lao Phutai ",
-    "i": 6605,
+    "i": 1167,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10515,16 +10515,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pa Di ",
-    "i": 6606,
+    "i": 1168,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pa Di,Kon Tum,Plây Ku,Tu Mơ Rông,Pleiku,Chư Păh,Nghĩ An,Đắc Lắk,Gia Lai"
+    "b": "Pa Di,Kon Tum,PlÃ¢y Ku,Tu MÆ¡ RÃ´ng,Pleiku,ChÆ° PÄƒh,NghÄ© An,Äáº¯c Láº¯k,Gia Lai"
   },
   {
     "name": "Thai Song ",
-    "i": 6607,
+    "i": 1169,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10533,7 +10533,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northwestern Tai ",
-    "i": 6608,
+    "i": 1170,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10542,7 +10542,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southwestern Tai ",
-    "i": 6609,
+    "i": 1171,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10551,7 +10551,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "tay-tai ",
-    "i": 6610,
+    "i": 1172,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10560,16 +10560,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "tai ",
-    "i": 6611,
+    "i": 1173,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vientiane,Luang Prabang,Savannakhet,Pakxe,Thakhek,Phonsavan,Xayaboury,Oudomxay,Muang Xay,Muang Phônsavan,Muang Say"
+    "b": "Vientiane,Luang Prabang,Savannakhet,Pakxe,Thakhek,Phonsavan,Xayaboury,Oudomxay,Muang Xay,Muang PhÃ´nsavan,Muang Say"
   },
   {
     "name": "tay-tac ",
-    "i": 6612,
+    "i": 1174,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10578,7 +10578,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "northern-tai ",
-    "i": 6613,
+    "i": 1175,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10587,7 +10587,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "min-zhuang ",
-    "i": 6614,
+    "i": 1176,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10596,7 +10596,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "tai-long ",
-    "i": 6615,
+    "i": 1177,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10605,7 +10605,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "yei-zhuang ",
-    "i": 6616,
+    "i": 1178,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10614,7 +10614,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "tai-daeng ",
-    "i": 6617,
+    "i": 1179,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10623,7 +10623,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guajajara ",
-    "i": 6620,
+    "i": 1180,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10631,8 +10631,8 @@ window.realWorldNameBases = [
     "b": "Barra do Corda,Formosa da Serra,Arame,Buritirana,Maranhao,Grajau,Presidente Dutra,Colinas,Ribamar Fiquene,Sao Luis,Imperatriz,Boa Vista"
   },
   {
-    "name": "L├¡ngua Geral Amaz├┤nica ",
-    "i": 6621,
+    "name": "Lâ”œÂ¡ngua Geral Amazâ”œâ”¤nica ",
+    "i": 1181,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10641,7 +10641,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mixe ",
-    "i": 6622,
+    "i": 1182,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10650,52 +10650,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tabasco Zoque ",
-    "i": 6623,
+    "i": 1183,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Villahermosa,Cárdenas,Comalcalco,Macuspana,Teapa,Jalpa de Méndez,Cunduacán,Paraíso,Jonuta,Balancán,Tenosique,Emiliano Zapata"
+    "b": "Villahermosa,CÃ¡rdenas,Comalcalco,Macuspana,Teapa,Jalpa de MÃ©ndez,CunduacÃ¡n,ParaÃ­so,Jonuta,BalancÃ¡n,Tenosique,Emiliano Zapata"
   },
   {
     "name": "Chochotec ",
-    "i": 6624,
+    "i": 1184,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,Saín Alto,General Enrique Estrada"
+    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,SaÃ­n Alto,General Enrique Estrada"
   },
   {
     "name": "Ixcatec ",
-    "i": 6625,
+    "i": 1185,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Maria Ixcatlán,Asunción Nochixtlán,Tilantongo,Yanhuitlán,Teposcolula,Chalcatongo de Hidalgo,Tlaxiaco,Huajuapan de León,Santiago Juxtlahuaca,San Pedro Tidaá,San Pedro Amuzgos,San Miguel Huautla"
+    "b": "Santa Maria IxcatlÃ¡n,AsunciÃ³n NochixtlÃ¡n,Tilantongo,YanhuitlÃ¡n,Teposcolula,Chalcatongo de Hidalgo,Tlaxiaco,Huajuapan de LeÃ³n,Santiago Juxtlahuaca,San Pedro TidaÃ¡,San Pedro Amuzgos,San Miguel Huautla"
   },
   {
     "name": "Q'anjob'al ",
-    "i": 6626,
+    "i": 1186,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel Acatán,San Rafael Petzal,Santiago Chimaltenango,Aguacatán"
+    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel AcatÃ¡n,San Rafael Petzal,Santiago Chimaltenango,AguacatÃ¡n"
   },
   {
     "name": "Cauque Mayan language ",
-    "i": 6627,
+    "i": 1187,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santiago Atitlán,San Lucas Tolimán,San Antonio Palopó,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina Palopó,Santa Cruz La Laguna,Panajachel,Patulul,San José Chacayá,Santa Clara La Laguna"
+    "b": "Santiago AtitlÃ¡n,San Lucas TolimÃ¡n,San Antonio PalopÃ³,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina PalopÃ³,Santa Cruz La Laguna,Panajachel,Patulul,San JosÃ© ChacayÃ¡,Santa Clara La Laguna"
   },
   {
     "name": "Mobilian Jargon ",
-    "i": 6628,
+    "i": 1188,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10704,7 +10704,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pidgin Delaware ",
-    "i": 6629,
+    "i": 1189,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10713,7 +10713,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eyak ",
-    "i": 6630,
+    "i": 1190,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10722,7 +10722,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dena'ina ",
-    "i": 6631,
+    "i": 1191,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10731,7 +10731,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chipewyan ",
-    "i": 6632,
+    "i": 1192,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10740,7 +10740,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Deg Xinag ",
-    "i": 6633,
+    "i": 1193,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10748,8 +10748,8 @@ window.realWorldNameBases = [
     "b": "Anvik,Grayling,Holy Cross,Shageluk,Ruby,Iditarod,Dishkaket,Stony River,Nikolai,Takotna,Ophir,Cutoff"
   },
   {
-    "name": "Gwich╩╝in ",
-    "i": 6634,
+    "name": "Gwichâ•©â•in ",
+    "i": 1194,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10757,8 +10757,8 @@ window.realWorldNameBases = [
     "b": "Fort Yukon,Chalkytsik,Eagle Circle,Circle,Chicken,Fort McPherson,Tsiigehtchic,Inuvik,Aklavik,Tuktoyaktuk,Old Crow,West Dawson"
   },
   {
-    "name": "H├ñn ",
-    "i": 6635,
+    "name": "Hâ”œÃ±n ",
+    "i": 1195,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10767,7 +10767,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Holikachuk ",
-    "i": 6636,
+    "i": 1196,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10776,7 +10776,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koyukon ",
-    "i": 6637,
+    "i": 1197,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10784,17 +10784,17 @@ window.realWorldNameBases = [
     "b": "Koyukuk,Old Minto,Allakaket,Hughes,Huslia,Galena,Nulato,Kaltag,Ruby,Tanana,Manley Hot Springs"
   },
   {
-    "name": "T┼é─»ch╟½ ",
-    "i": 6638,
+    "name": "Tâ”¼Ã©â”€Â»châ•ŸÂ½ ",
+    "i": 1198,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rae Behchoko,Whatì,Gamètì,Wekweètì,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
+    "b": "Rae Behchoko,WhatÃ¬,GamÃ¨tÃ¬,WekweÃ¨tÃ¬,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
   },
   {
     "name": "Upper Kuskokwim ",
-    "i": 6639,
+    "i": 1199,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10803,7 +10803,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Upper Tanana ",
-    "i": 6640,
+    "i": 1200,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10812,16 +10812,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiliwa ",
-    "i": 6641,
+    "i": 1201,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kiliwa,Mexicali,San Felipe,Ensenada,Tijuana,Rosarito,La Misión,Valle de Trinidad,Cataviña,San Borja,Santa Rosalita,Guerrero Negro"
+    "b": "Kiliwa,Mexicali,San Felipe,Ensenada,Tijuana,Rosarito,La MisiÃ³n,Valle de Trinidad,CataviÃ±a,San Borja,Santa Rosalita,Guerrero Negro"
   },
   {
     "name": "Mojave ",
-    "i": 6642,
+    "i": 1202,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10830,7 +10830,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Quechan ",
-    "i": 6643,
+    "i": 1203,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10838,17 +10838,17 @@ window.realWorldNameBases = [
     "b": "Yuma,Somerton,San Luis,Wellton,Winterhaven,Fort Yuma,Quartermaster Landing,Pilot Knob,Madrid,Ogilby,Dateland,Arlington"
   },
   {
-    "name": "Cochim├¡ ",
-    "i": 6644,
+    "name": "Cochimâ”œÂ¡ ",
+    "i": 1204,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cochimí,Mulegé,Loreto,Santa Rosalía,Guerrero Negro,Vizcaíno,Comondú,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
+    "b": "CochimÃ­,MulegÃ©,Loreto,Santa RosalÃ­a,Guerrero Negro,VizcaÃ­no,ComondÃº,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
   },
   {
     "name": "Cocopa ",
-    "i": 6645,
+    "i": 1205,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10857,7 +10857,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yavapai ",
-    "i": 6646,
+    "i": 1206,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10866,7 +10866,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mohawk ",
-    "i": 6647,
+    "i": 1207,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10875,7 +10875,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cayuga ",
-    "i": 6648,
+    "i": 1208,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10884,7 +10884,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Oneida ",
-    "i": 6649,
+    "i": 1209,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10893,7 +10893,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Onondaga ",
-    "i": 6650,
+    "i": 1210,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10902,7 +10902,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Seneca ",
-    "i": 6651,
+    "i": 1211,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10911,7 +10911,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tuscarora ",
-    "i": 6652,
+    "i": 1212,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -10920,88 +10920,88 @@ window.realWorldNameBases = [
   },
   {
     "name": "Macuna ",
-    "i": 6653,
+    "i": 1213,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Macuna,Apaporís,Pira-Paraná,Canuma,Ité,Piratapuyo,Letuama,Yucuna,Mirití-Paraná,Yapurá,Caquetá,Putumayo"
+    "b": "Macuna,ApaporÃ­s,Pira-ParanÃ¡,Canuma,ItÃ©,Piratapuyo,Letuama,Yucuna,MiritÃ­-ParanÃ¡,YapurÃ¡,CaquetÃ¡,Putumayo"
   },
   {
     "name": "Cubeo ",
-    "i": 6654,
+    "i": 1214,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cubeo,Vaupés,Cabuarí,Piratapuyo,Tiquié,Papurí,Uaupés,Querari,Canuma,Pirá-Paraná,Yapurá,Içana"
+    "b": "Cubeo,VaupÃ©s,CabuarÃ­,Piratapuyo,TiquiÃ©,PapurÃ­,UaupÃ©s,Querari,Canuma,PirÃ¡-ParanÃ¡,YapurÃ¡,IÃ§ana"
   },
   {
     "name": "Desano ",
-    "i": 6655,
+    "i": 1215,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Desano,Vaupés,Tiquié,Papuri,Uaupés,Yauarete,Querari,Miriti,Taraira,Pira-Parana,Apaporis,Yapura"
+    "b": "Desano,VaupÃ©s,TiquiÃ©,Papuri,UaupÃ©s,Yauarete,Querari,Miriti,Taraira,Pira-Parana,Apaporis,Yapura"
   },
   {
     "name": "Itene ",
-    "i": 6656,
+    "i": 1216,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Itene,Beni,Mamoré,Madre de Dios,Orton,Puerto Rico,Reyes,Rurrenabaque,San Borja,San Ignacio,Yacuma,Itonomas"
+    "b": "Itene,Beni,MamorÃ©,Madre de Dios,Orton,Puerto Rico,Reyes,Rurrenabaque,San Borja,San Ignacio,Yacuma,Itonomas"
   },
   {
-    "name": "Hupd├½ ",
-    "i": 6657,
+    "name": "Hupdâ”œÂ½ ",
+    "i": 1217,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hupdëh,Yaualapiti,Tucano,Apuinahua,Amacaari,Papuri,Tiquié,Uaupés,Vaupés,Macuna,Canuma,Apaporis"
+    "b": "HupdÃ«h,Yaualapiti,Tucano,Apuinahua,Amacaari,Papuri,TiquiÃ©,UaupÃ©s,VaupÃ©s,Macuna,Canuma,Apaporis"
   },
   {
     "name": "Koreguaje ",
-    "i": 6658,
+    "i": 1218,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Koreguaje,Orteguaza,Putumayo,Caquetá,Mocoa,Villagarzón,Sibundoy,Puerto Leguízamo,San Miguel,La Tagua,Puerto Asís,Puerto Guzmán"
+    "b": "Koreguaje,Orteguaza,Putumayo,CaquetÃ¡,Mocoa,VillagarzÃ³n,Sibundoy,Puerto LeguÃ­zamo,San Miguel,La Tagua,Puerto AsÃ­s,Puerto GuzmÃ¡n"
   },
   {
     "name": "Tukano ",
-    "i": 6659,
+    "i": 1219,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tukano,São Gabriel da Cachoeira,Tarácuacá,Acaraqui,Iaraueté,Uaupés,Içana,Curi,Querari,Tiquié,Papuri,Caruru"
+    "b": "Tukano,SÃ£o Gabriel da Cachoeira,TarÃ¡cuacÃ¡,Acaraqui,IarauetÃ©,UaupÃ©s,IÃ§ana,Curi,Querari,TiquiÃ©,Papuri,Caruru"
   },
   {
     "name": "Wanano ",
-    "i": 6660,
+    "i": 1220,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wanano,São Gabriel da Cachoeira,Uaupés,Papuri,Tiquié,Içana,Querari,Cari,Caruru,Mirití-Piraparaná,Yaupurá,Apaporis"
+    "b": "Wanano,SÃ£o Gabriel da Cachoeira,UaupÃ©s,Papuri,TiquiÃ©,IÃ§ana,Querari,Cari,Caruru,MiritÃ­-PiraparanÃ¡,YaupurÃ¡,Apaporis"
   },
   {
     "name": "Tatuyo ",
-    "i": 6661,
+    "i": 1221,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tatuyo,São Gabriel da Cachoeira,Papuri,Tiquié,Uaupés,Içana,Querari,Yauarete,Curi,Caruru,Mirití-Piraparaná,Apaporis"
+    "b": "Tatuyo,SÃ£o Gabriel da Cachoeira,Papuri,TiquiÃ©,UaupÃ©s,IÃ§ana,Querari,Yauarete,Curi,Caruru,MiritÃ­-PiraparanÃ¡,Apaporis"
   },
   {
     "name": "Siriano ",
-    "i": 6662,
+    "i": 1222,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11010,7 +11010,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Siona ",
-    "i": 6663,
+    "i": 1223,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11019,7 +11019,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bebe ",
-    "i": 7065,
+    "i": 1224,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11028,7 +11028,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bee ",
-    "i": 7066,
+    "i": 1225,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11037,7 +11037,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beijing Mandarin ",
-    "i": 7067,
+    "i": 1226,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11046,7 +11046,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beja ",
-    "i": 7068,
+    "i": 1227,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11055,7 +11055,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beli ",
-    "i": 7069,
+    "i": 1228,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11064,7 +11064,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Rama ",
-    "i": 7070,
+    "i": 1229,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11073,7 +11073,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bemba ",
-    "i": 7115,
+    "i": 1230,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11082,7 +11082,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bembe (Congo) ",
-    "i": 7116,
+    "i": 1231,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11091,7 +11091,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bembe (DRC) ",
-    "i": 7117,
+    "i": 1232,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11100,7 +11100,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Comorian ",
-    "i": 7118,
+    "i": 1233,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11109,7 +11109,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fwe ",
-    "i": 7119,
+    "i": 1234,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11118,7 +11118,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Belneng language ",
-    "i": 7165,
+    "i": 1235,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11127,7 +11127,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Betanure Jewish Neo-Aramaic ",
-    "i": 7166,
+    "i": 1236,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11136,16 +11136,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bete ",
-    "i": 7167,
+    "i": 1237,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bete,Guiglo,Daloa,Issia,Duekoue,Man,Sassandra,San Pedro,Taï,Gagnoa,Bouaflé"
+    "b": "Bete,Guiglo,Daloa,Issia,Duekoue,Man,Sassandra,San Pedro,TaÃ¯,Gagnoa,BouaflÃ©"
   },
   {
     "name": "Betta Kurumba ",
-    "i": 7168,
+    "i": 1238,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11154,7 +11154,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bfy ",
-    "i": 7169,
+    "i": 1239,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11163,7 +11163,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hokkien ",
-    "i": 7215,
+    "i": 1240,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11172,7 +11172,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Teochew Min ",
-    "i": 7216,
+    "i": 1241,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11181,7 +11181,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hainanese ",
-    "i": 7217,
+    "i": 1242,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11190,7 +11190,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Leizhou Min ",
-    "i": 7218,
+    "i": 1243,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11198,8 +11198,8 @@ window.realWorldNameBases = [
     "b": "Leizhou,Xuwen,Zhanjiang,Suixi,Lianjiang,Wuchuan,Maoming,Dianbai,Electron,Huazhou,Chandian"
   },
   {
-    "name": "PuΓÇôXian Min ",
-    "i": 7219,
+    "name": "PuÎ“Ã‡Ã´Xian Min ",
+    "i": 1244,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11207,8 +11207,8 @@ window.realWorldNameBases = [
     "b": "Putian,Xianyou,Fuzhou,Quanzhou,Xiamen,Sanming,Longyan,Nanping,Ningde,Changde,Jieyang,Chaozhou"
   },
   {
-    "name": "H├ákl├áu Min ",
-    "i": 7220,
+    "name": "Hâ”œÃ¡klâ”œÃ¡u Min ",
+    "i": 1245,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11217,7 +11217,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Haryanvi ",
-    "i": 7226,
+    "i": 1246,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11226,7 +11226,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balochi, Makrani ",
-    "i": 7227,
+    "i": 1247,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11235,7 +11235,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balochi, Rakhshani ",
-    "i": 7228,
+    "i": 1248,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11244,7 +11244,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bagri ",
-    "i": 7229,
+    "i": 1249,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11253,7 +11253,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bawm ",
-    "i": 7230,
+    "i": 1250,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11262,7 +11262,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bola ",
-    "i": 7231,
+    "i": 1251,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11271,7 +11271,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chashan ",
-    "i": 7232,
+    "i": 1252,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11280,7 +11280,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Langsu ",
-    "i": 7233,
+    "i": 1253,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11289,7 +11289,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lashi ",
-    "i": 7234,
+    "i": 1254,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11298,7 +11298,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zaiwa ",
-    "i": 7235,
+    "i": 1255,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11307,7 +11307,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bijiang Bai lect ",
-    "i": 7236,
+    "i": 1256,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11316,7 +11316,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bijiang Bai language ",
-    "i": 7237,
+    "i": 1257,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11325,7 +11325,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dali Bai lect ",
-    "i": 7238,
+    "i": 1258,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11334,7 +11334,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dali Bai language ",
-    "i": 7239,
+    "i": 1259,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11343,7 +11343,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Heqing Bai lect ",
-    "i": 7240,
+    "i": 1260,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11352,7 +11352,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Xiangyun Bai dialect ",
-    "i": 7241,
+    "i": 1261,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11361,7 +11361,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiowa ",
-    "i": 7242,
+    "i": 1262,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11370,7 +11370,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tewa ",
-    "i": 7243,
+    "i": 1263,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11379,7 +11379,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Choyo ",
-    "i": 7244,
+    "i": 1264,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11388,7 +11388,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gyalrong ",
-    "i": 7245,
+    "i": 1265,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11397,7 +11397,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Horpa ",
-    "i": 7246,
+    "i": 1266,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11406,7 +11406,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khroskyabs ",
-    "i": 7247,
+    "i": 1267,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11415,7 +11415,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Muya ",
-    "i": 7248,
+    "i": 1268,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11424,7 +11424,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Prinmi ",
-    "i": 7249,
+    "i": 1269,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11433,7 +11433,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zhaba ",
-    "i": 7250,
+    "i": 1270,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11442,7 +11442,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mang ",
-    "i": 7251,
+    "i": 1271,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11451,7 +11451,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bolyu ",
-    "i": 7252,
+    "i": 1272,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11460,7 +11460,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Blang ",
-    "i": 7253,
+    "i": 1273,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11469,7 +11469,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Riang ",
-    "i": 7254,
+    "i": 1274,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11478,7 +11478,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vietnamese ",
-    "i": 7255,
+    "i": 1275,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11487,7 +11487,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bhaca ",
-    "i": 7310,
+    "i": 1276,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11496,7 +11496,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bhili ",
-    "i": 7311,
+    "i": 1277,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11505,7 +11505,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bhaya ",
-    "i": 7312,
+    "i": 1278,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11514,7 +11514,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bhojpuri ",
-    "i": 7313,
+    "i": 1279,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11523,7 +11523,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Biangai ",
-    "i": 7314,
+    "i": 1280,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11532,43 +11532,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chiquitano ",
-    "i": 7315,
+    "i": 1281,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chiquitano,Santa Cruz de la Sierra,San Ignacio de Velasco,San Javier,Concepción,San Ramón,San Matías,San José de Chiquitos,Roboré,El Carmen,Ascención,Puerto Suárez"
+    "b": "Chiquitano,Santa Cruz de la Sierra,San Ignacio de Velasco,San Javier,ConcepciÃ³n,San RamÃ³n,San MatÃ­as,San JosÃ© de Chiquitos,RoborÃ©,El Carmen,AscenciÃ³n,Puerto SuÃ¡rez"
   },
   {
     "name": "Chimila ",
-    "i": 7316,
+    "i": 1282,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chimila,Santa Marta,Aracataca,Ciénaga,Plato,El Banco,Valledupar,Pivijay,Fundación,Algarrobo,Zapayán,Palomino"
+    "b": "Chimila,Santa Marta,Aracataca,CiÃ©naga,Plato,El Banco,Valledupar,Pivijay,FundaciÃ³n,Algarrobo,ZapayÃ¡n,Palomino"
   },
   {
     "name": "Piaroa ",
-    "i": 7317,
+    "i": 1283,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Piaroa,Puerto Ayacucho,San Fernando de Atabapo,San Carlos de Río Negro,El Paujil,Mitú,Tapirapeco,Maquiritare,Yavita,Tama,Manapiare,Vichada"
+    "b": "Piaroa,Puerto Ayacucho,San Fernando de Atabapo,San Carlos de RÃ­o Negro,El Paujil,MitÃº,Tapirapeco,Maquiritare,Yavita,Tama,Manapiare,Vichada"
   },
   {
     "name": "Toba ",
-    "i": 7318,
+    "i": 1284,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Toba,Resistencia,Formosa,Posadas,Corrientes,Chaco,Misiones,Paraná,Santa Fe,Rosario,La Plata,Buenos Aires"
+    "b": "Toba,Resistencia,Formosa,Posadas,Corrientes,Chaco,Misiones,ParanÃ¡,Santa Fe,Rosario,La Plata,Buenos Aires"
   },
   {
     "name": "Biao Kam-Sui ",
-    "i": 7360,
+    "i": 1285,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11577,7 +11577,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Biao Min ",
-    "i": 7361,
+    "i": 1286,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11586,7 +11586,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Biao Mon ",
-    "i": 7362,
+    "i": 1287,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11595,7 +11595,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Biblical Aramaic ",
-    "i": 7363,
+    "i": 1288,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11604,7 +11604,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Biblical Hebrew ",
-    "i": 7364,
+    "i": 1289,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11613,7 +11613,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Choctaw ",
-    "i": 7365,
+    "i": 1290,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11622,7 +11622,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Muscogee ",
-    "i": 7366,
+    "i": 1291,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11631,7 +11631,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mikasuki ",
-    "i": 7367,
+    "i": 1292,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11640,7 +11640,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Turks and Caicos Creole ",
-    "i": 7400,
+    "i": 1293,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11649,7 +11649,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vincentian Creole ",
-    "i": 7401,
+    "i": 1294,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11658,7 +11658,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Virgin Islands Creole ",
-    "i": 7402,
+    "i": 1295,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11667,7 +11667,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jamaican Maroon Creole ",
-    "i": 7403,
+    "i": 1296,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11676,25 +11676,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bidau Creole Portuguese ",
-    "i": 7414,
+    "i": 1297,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bidau,Dili,Baucau,Maliana,Oecusse,Liquiça,Aileu,Ermera,Manatuto,Lautem,Viqueque"
+    "b": "Bidau,Dili,Baucau,Maliana,Oecusse,LiquiÃ§a,Aileu,Ermera,Manatuto,Lautem,Viqueque"
   },
   {
     "name": "Bidiya language ",
-    "i": 7415,
+    "i": 1298,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bidiya,Abéché,N'Djamena,Mao,Ati, Mongo,Biltine,Am Timan,Bokoro,Koumra,Melfi"
+    "b": "Bidiya,AbÃ©chÃ©,N'Djamena,Mao,Ati, Mongo,Biltine,Am Timan,Bokoro,Koumra,Melfi"
   },
   {
     "name": "Bikol ",
-    "i": 7417,
+    "i": 1299,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11703,7 +11703,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bima ",
-    "i": 7418,
+    "i": 1300,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11712,7 +11712,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wayuu ",
-    "i": 7419,
+    "i": 1301,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11721,7 +11721,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cogui/Kogi ",
-    "i": 7420,
+    "i": 1302,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11729,17 +11729,17 @@ window.realWorldNameBases = [
     "b": "Teyuna,Gonawindua,Arhuaco,Nabusimake,Kankuamo,Sevillano,Guachaca,Buritaca,DonDiego,Minca,Palomino,Tayrona,Pico Bolivar,Cherua,Sogrome"
   },
   {
-    "name": "Bar├¡ ",
-    "i": 7421,
+    "name": "Barâ”œÂ¡ ",
+    "i": 1303,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Catatumbo,Tibu,LaGabarra,Sardinata,Convencion,ElTarra,Oca├▒a,Teorama,Hacar├¡,SanCalixto,LaPlaya,Abrego"
+    "b": "Catatumbo,Tibu,LaGabarra,Sardinata,Convencion,ElTarra,Ocaâ”œâ–’a,Teorama,Hacarâ”œÂ¡,SanCalixto,LaPlaya,Abrego"
   },
   {
     "name": "Aleut ",
-    "i": 7464,
+    "i": 1304,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11748,7 +11748,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bina ",
-    "i": 7465,
+    "i": 1305,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11757,7 +11757,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Binahari ",
-    "i": 7466,
+    "i": 1306,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11766,7 +11766,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Binandere ",
-    "i": 7467,
+    "i": 1307,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11775,7 +11775,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Binumarien ",
-    "i": 7468,
+    "i": 1308,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11783,44 +11783,44 @@ window.realWorldNameBases = [
     "b": "Binumarien,Morobe Province,Lae,Bulolo,Menyamya,Kainantu,Wau,Finschhafen,Madang,Papua New Guinea"
   },
   {
-    "name": "Cavine├▒a ",
-    "i": 7514,
+    "name": "Cavineâ”œâ–’a ",
+    "i": 1309,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cavineña,Bolivia,Riberalta,Rurrenabaque,Guayaramerín,Trinidad,Beni,Yacuma,Santa Cruz de la Sierra,Northern Bolivia,Amazon Basin"
+    "b": "CavineÃ±a,Bolivia,Riberalta,Rurrenabaque,GuayaramerÃ­n,Trinidad,Beni,Yacuma,Santa Cruz de la Sierra,Northern Bolivia,Amazon Basin"
   },
   {
     "name": "Ese Ejja ",
-    "i": 7515,
+    "i": 1310,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ese Ejja,Port Maldonado,Puerto Rico,Tambopata,Heath River,Beni River,Amazon Basin,Peru,Bolivia,Río Madre de Dios"
+    "b": "Ese Ejja,Port Maldonado,Puerto Rico,Tambopata,Heath River,Beni River,Amazon Basin,Peru,Bolivia,RÃ­o Madre de Dios"
   },
   {
-    "name": "Yuracar├⌐ ",
-    "i": 7516,
+    "name": "Yuracarâ”œâŒ ",
+    "i": 1311,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yuracaré,San Borja,Trinidad,San Javier,Mamoré,Beni River,Chimoré,Santa Cruz de la Sierra,Amazon Basin,Bolivia"
+    "b": "YuracarÃ©,San Borja,Trinidad,San Javier,MamorÃ©,Beni River,ChimorÃ©,Santa Cruz de la Sierra,Amazon Basin,Bolivia"
   },
   {
     "name": "Birgit language ",
-    "i": 7517,
+    "i": 1312,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Birgit,Chad,Biltine,Guéra,N'Djamena,Mongo,Baïbokoum,Moundou,Sarh,Koumra,Doba,Abéché"
+    "b": "Birgit,Chad,Biltine,GuÃ©ra,N'Djamena,Mongo,BaÃ¯bokoum,Moundou,Sarh,Koumra,Doba,AbÃ©chÃ©"
   },
   {
     "name": "Biu-Mandara ",
-    "i": 7518,
+    "i": 1313,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11829,7 +11829,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boghom language ",
-    "i": 7519,
+    "i": 1314,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11838,7 +11838,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boor language ",
-    "i": 7520,
+    "i": 1315,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11847,7 +11847,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bole Chadic language ",
-    "i": 7521,
+    "i": 1316,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11856,34 +11856,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guambiano ",
-    "i": 7600,
+    "i": 1317,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guambiano,Popayán,Silvia,Piendamó,Totoró,Mojarras,Inzá,El Tambo,Jambaló,Puracé,Cauca,Colombia"
+    "b": "Guambiano,PopayÃ¡n,Silvia,PiendamÃ³,TotorÃ³,Mojarras,InzÃ¡,El Tambo,JambalÃ³,PuracÃ©,Cauca,Colombia"
   },
   {
     "name": "Awa Pit ",
-    "i": 7601,
+    "i": 1318,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Awa Pit,Rio Bobo,La Esperanza,Mulatos,Las Lajas,Majua,Altaquer,Nariño,Putumayo,Colombia,Ecuador"
+    "b": "Awa Pit,Rio Bobo,La Esperanza,Mulatos,Las Lajas,Majua,Altaquer,NariÃ±o,Putumayo,Colombia,Ecuador"
   },
   {
     "name": "Paez ",
-    "i": 7602,
+    "i": 1319,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Paez,Inzá,Puracé,Totoró,Jambaló,El Tambo,Piendamó,Silvia,Popayán,Cauca,Colombia"
+    "b": "Paez,InzÃ¡,PuracÃ©,TotorÃ³,JambalÃ³,El Tambo,PiendamÃ³,Silvia,PopayÃ¡n,Cauca,Colombia"
   },
   {
     "name": "Binza ",
-    "i": 7603,
+    "i": 1320,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11892,7 +11892,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bipim ",
-    "i": 7604,
+    "i": 1321,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11901,16 +11901,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Birri ",
-    "i": 7605,
+    "i": 1322,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'Délé,Kaga Bandoro,Sibut,Alindao"
+    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'DÃ©lÃ©,Kaga Bandoro,Sibut,Alindao"
   },
   {
     "name": "Biseni ",
-    "i": 7606,
+    "i": 1323,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11919,7 +11919,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bisorio ",
-    "i": 7607,
+    "i": 1324,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11928,7 +11928,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bissa ",
-    "i": 7653,
+    "i": 1325,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11937,16 +11937,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bitare ",
-    "i": 7654,
+    "i": 1326,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bitare,Ngaoundere,Banyo,Tignere,Mbem,Tibati,Ngaoundéré,Adamawa,Cameroon,North Region,Faro,Deo"
+    "b": "Bitare,Ngaoundere,Banyo,Tignere,Mbem,Tibati,NgaoundÃ©rÃ©,Adamawa,Cameroon,North Region,Faro,Deo"
   },
   {
     "name": "Bitur ",
-    "i": 7655,
+    "i": 1327,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11954,17 +11954,17 @@ window.realWorldNameBases = [
     "b": "Bitur,Chad,Moyen-Chari,Moundou,Sarh,Koumra,Doba,Logone-Oriental,Bongor,N'Djamena,Chari-Baguirmi,Lac"
   },
   {
-    "name": "Bjarmian S├ími ",
-    "i": 7656,
+    "name": "Bjarmian Sâ”œÃ­mi ",
+    "i": 1328,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bjarmian,Sámi,Kautokeino,Karasjok,Alta,Tromsø,Hammerfest,Northern Norway,Finnmark,Norway,Sápmi"
+    "b": "Bjarmian,SÃ¡mi,Kautokeino,Karasjok,Alta,TromsÃ¸,Hammerfest,Northern Norway,Finnmark,Norway,SÃ¡pmi"
   },
   {
     "name": "Blagar ",
-    "i": 7657,
+    "i": 1329,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11973,7 +11973,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bote ",
-    "i": 7658,
+    "i": 1330,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11982,7 +11982,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bintulu ",
-    "i": 7659,
+    "i": 1331,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -11991,16 +11991,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bora ",
-    "i": 7660,
+    "i": 1332,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bora,Leticia,Amazonas,Tabatinga,Benjamin Constant,Santa Rosa,Yavarí,Putumayo River,Napo River,Amazon Basin,Colombia,Peru"
+    "b": "Bora,Leticia,Amazonas,Tabatinga,Benjamin Constant,Santa Rosa,YavarÃ­,Putumayo River,Napo River,Amazon Basin,Colombia,Peru"
   },
   {
     "name": "Boazi ",
-    "i": 7661,
+    "i": 1333,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12009,7 +12009,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boazi Lake Murray ",
-    "i": 7662,
+    "i": 1334,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12017,35 +12017,35 @@ window.realWorldNameBases = [
     "b": "Boazi Lake Murray,Papua New Guinea,Lake Murray,Bosavi,Kagua,Mendi,Ialibu,Pangia,Koroba,Kikori,Baimuru,Kerema"
   },
   {
-    "name": "Cof├ín ",
-    "i": 7720,
+    "name": "Cofâ”œÃ­n ",
+    "i": 1335,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
+    "b": "CofÃ¡n,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
   },
   {
-    "name": "Fulni├┤ ",
-    "i": 7721,
+    "name": "Fulniâ”œâ”¤ ",
+    "i": 1336,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fulni-ô,Águas Belas,Palmares,Pedra,Ouricuri,Caruaru,Recife,Pernambuco,Brazil"
+    "b": "Fulni-Ã´,Ãguas Belas,Palmares,Pedra,Ouricuri,Caruaru,Recife,Pernambuco,Brazil"
   },
   {
     "name": "Itonama ",
-    "i": 7722,
+    "i": 1337,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Itonama,Magdalena,Beni,Mamoré,Trinidad,Santa Cruz de la Sierra,Bolivia,Ben River,Amazon Basin,Mamoré River"
+    "b": "Itonama,Magdalena,Beni,MamorÃ©,Trinidad,Santa Cruz de la Sierra,Bolivia,Ben River,Amazon Basin,MamorÃ© River"
   },
   {
     "name": "Leco ",
-    "i": 7723,
+    "i": 1338,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12053,26 +12053,26 @@ window.realWorldNameBases = [
     "b": "Leco,Apolo,Apolo Province,La Paz,Bolivia,Amazon Basin,Madre de Dios,Peru,Beni River"
   },
   {
-    "name": "Nivacl├⌐ ",
-    "i": 7724,
+    "name": "Nivaclâ”œâŒ ",
+    "i": 1339,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nivaclé,Chaco,Paraguay,Alto Paraguay,Paraguay River,Pilcomayo River,Salta,Argentina,Gran Chaco"
+    "b": "NivaclÃ©,Chaco,Paraguay,Alto Paraguay,Paraguay River,Pilcomayo River,Salta,Argentina,Gran Chaco"
   },
   {
     "name": "Bobo ",
-    "i": 7725,
+    "i": 1340,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bobo,Bobo-Dioulasso,San Koba,Dédougou,Banfora,Koudougou,Ouagadougou,Fara N'Gourma,Burkina Faso"
+    "b": "Bobo,Bobo-Dioulasso,San Koba,DÃ©dougou,Banfora,Koudougou,Ouagadougou,Fara N'Gourma,Burkina Faso"
   },
   {
     "name": "Bodish ",
-    "i": 7726,
+    "i": 1341,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12081,7 +12081,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bodo ",
-    "i": 7727,
+    "i": 1342,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12090,16 +12090,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boga language ",
-    "i": 7728,
+    "i": 1343,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Boga,Chad,Chari-Baguirmi,N'Djamena,Massaguet,Massakory,Bongor,Logone Oriental,Mao,Gueré"
+    "b": "Boga,Chad,Chari-Baguirmi,N'Djamena,Massaguet,Massakory,Bongor,Logone Oriental,Mao,GuerÃ©"
   },
   {
     "name": "Bohtan Neo-Aramaic ",
-    "i": 7729,
+    "i": 1344,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12108,7 +12108,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bokar ",
-    "i": 7730,
+    "i": 1345,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12117,7 +12117,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boko ",
-    "i": 7731,
+    "i": 1346,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12126,7 +12126,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bole Niger-Congo ",
-    "i": 7732,
+    "i": 1347,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12135,7 +12135,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bole Tangale ",
-    "i": 7733,
+    "i": 1348,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12144,7 +12144,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bolon ",
-    "i": 7734,
+    "i": 1349,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12153,16 +12153,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bolze ",
-    "i": 7775,
+    "i": 1350,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bolze,Cameroon,North Province,Adamawa,Mandara,Maroua,Garoua,Ngaoundéré,Banyo,Tignere"
+    "b": "Bolze,Cameroon,North Province,Adamawa,Mandara,Maroua,Garoua,NgaoundÃ©rÃ©,Banyo,Tignere"
   },
   {
     "name": "Bomitaba ",
-    "i": 7776,
+    "i": 1351,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12171,7 +12171,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bomu ",
-    "i": 7777,
+    "i": 1352,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12180,7 +12180,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bonan ",
-    "i": 7778,
+    "i": 1353,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12189,7 +12189,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bonan-Kangjia ",
-    "i": 7779,
+    "i": 1354,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12198,7 +12198,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bonan Manegacha ",
-    "i": 7780,
+    "i": 1355,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12207,7 +12207,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bonan Manegacha lect ",
-    "i": 7781,
+    "i": 1356,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12216,7 +12216,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bongili ",
-    "i": 7782,
+    "i": 1357,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12225,7 +12225,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bongo ",
-    "i": 7783,
+    "i": 1358,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12234,7 +12234,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bonin English ",
-    "i": 7784,
+    "i": 1359,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12243,16 +12243,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bonjo ",
-    "i": 7825,
+    "i": 1360,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bonjo,Cameroon,North Province,Adamawa,Tignere,Banyo,Ngong,Meiganga,Mbem,Guider,Ngaoundéré"
+    "b": "Bonjo,Cameroon,North Province,Adamawa,Tignere,Banyo,Ngong,Meiganga,Mbem,Guider,NgaoundÃ©rÃ©"
   },
   {
     "name": "Bono Ghana-Ivory Coast ",
-    "i": 7826,
+    "i": 1361,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12261,7 +12261,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bono Nigeria ",
-    "i": 7827,
+    "i": 1362,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12270,7 +12270,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boon ",
-    "i": 7828,
+    "i": 1363,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12278,17 +12278,17 @@ window.realWorldNameBases = [
     "b": "Boon,Somalia,Mogadishu,Kismayo,Marka,Baidoa,Jowhar,Balad,Beledweyne,Galguduud,Hiran,Shabelle"
   },
   {
-    "name": "Borgarm├Ñlet ",
-    "i": 7829,
+    "name": "Borgarmâ”œÃ‘let ",
+    "i": 1364,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Borgarmålet,Norway,Bergen,Stavanger,Trondheim,Kristiansand,Drammen,Bærum,Akershus,Oslo,Hordaland"
+    "b": "BorgarmÃ¥let,Norway,Bergen,Stavanger,Trondheim,Kristiansand,Drammen,BÃ¦rum,Akershus,Oslo,Hordaland"
   },
   {
     "name": "Bouhin ",
-    "i": 7830,
+    "i": 1365,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12297,25 +12297,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bourbonnais Creole ",
-    "i": 7831,
+    "i": 1366,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Réunion,Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Cilaos,Saint-Joseph,La Possession,Sainte-Marie,Sainte-Rose,Salazie,Mafate"
+    "b": "RÃ©union,Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Cilaos,Saint-Joseph,La Possession,Sainte-Marie,Sainte-Rose,Salazie,Mafate"
   },
   {
     "name": "Bozal Spanish ",
-    "i": 7832,
+    "i": 1367,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bozal,Havana,Santiago de Cuba,Matanzas,Trinidad,Cienfuegos,Guantánamo,Camagüey,Caribbean,Cuba"
+    "b": "Bozal,Havana,Santiago de Cuba,Matanzas,Trinidad,Cienfuegos,GuantÃ¡namo,CamagÃ¼ey,Caribbean,Cuba"
   },
   {
     "name": "Bishnupriya Manipuri ",
-    "i": 7834,
+    "i": 1368,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12324,7 +12324,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Comanche ",
-    "i": 7835,
+    "i": 1369,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12333,7 +12333,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hopi ",
-    "i": 7836,
+    "i": 1370,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12342,7 +12342,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shoshoni ",
-    "i": 7837,
+    "i": 1371,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12351,7 +12351,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumeyaay ",
-    "i": 7838,
+    "i": 1372,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12360,7 +12360,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wushi ",
-    "i": 7839,
+    "i": 1373,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12369,7 +12369,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Brahui ",
-    "i": 7875,
+    "i": 1374,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12378,7 +12378,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Braj ",
-    "i": 7876,
+    "i": 1375,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12387,7 +12387,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Brao ",
-    "i": 7877,
+    "i": 1376,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12396,7 +12396,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baram ",
-    "i": 7878,
+    "i": 1377,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12404,17 +12404,17 @@ window.realWorldNameBases = [
     "b": "Baram,Nagaland,Kohima,Dimapur,Mokokchung,Wokha,Zunheboto,Tuensang,Kiphire,Peren,Phek"
   },
   {
-    "name": "Baur├⌐ ",
-    "i": 7879,
+    "name": "Baurâ”œâŒ ",
+    "i": 1378,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bauré,Bolivia,Charagua,Camiri,Beni,Santa Cruz de la Sierra,Amazon Basin,Guarani,Chiquitano"
+    "b": "BaurÃ©,Bolivia,Charagua,Camiri,Beni,Santa Cruz de la Sierra,Amazon Basin,Guarani,Chiquitano"
   },
   {
     "name": "Broken Oghibbeway ",
-    "i": 7880,
+    "i": 1379,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12423,7 +12423,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Broken Slavey ",
-    "i": 7881,
+    "i": 1380,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12432,7 +12432,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Broome Pearling Lugger Pidgin ",
-    "i": 7882,
+    "i": 1381,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12441,7 +12441,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bru ",
-    "i": 7883,
+    "i": 1382,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12450,7 +12450,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kati ",
-    "i": 7884,
+    "i": 1383,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12459,7 +12459,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bateri ",
-    "i": 7925,
+    "i": 1384,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12468,7 +12468,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Budza ",
-    "i": 7926,
+    "i": 1385,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12477,7 +12477,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buginese ",
-    "i": 7927,
+    "i": 1386,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12486,7 +12486,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bukawa ",
-    "i": 7928,
+    "i": 1387,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12495,7 +12495,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bukharian Arabic ",
-    "i": 7929,
+    "i": 1388,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12504,7 +12504,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buli ",
-    "i": 7930,
+    "i": 1389,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12513,16 +12513,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bunak ",
-    "i": 7931,
+    "i": 1390,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bunak,Timor-Leste,Liquiça,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
+    "b": "Bunak,Timor-Leste,LiquiÃ§a,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
   },
   {
     "name": "Bundeli ",
-    "i": 7932,
+    "i": 1391,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12531,7 +12531,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bunu ",
-    "i": 7933,
+    "i": 1392,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12540,61 +12540,61 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buru-Angwe ",
-    "i": 7934,
+    "i": 1393,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Buru-Angwe,Congo,Brazzaville,Likouala,Ouesso,Mossaka,Kinkala,Djoué,Impfondo,Gamboma,Makoua"
+    "b": "Buru-Angwe,Congo,Brazzaville,Likouala,Ouesso,Mossaka,Kinkala,DjouÃ©,Impfondo,Gamboma,Makoua"
   },
   {
     "name": "Enlhet ",
-    "i": 7940,
+    "i": 1394,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Enlhet,Paraguay,Alto Paraguay,Carmelo Peralta,Filadelfia,Boquerón,Mariscal Estigarribia,Gran Chaco,Paraguayan Chaco"
+    "b": "Enlhet,Paraguay,Alto Paraguay,Carmelo Peralta,Filadelfia,BoquerÃ³n,Mariscal Estigarribia,Gran Chaco,Paraguayan Chaco"
   },
   {
     "name": "Kanamari ",
-    "i": 7941,
+    "i": 1395,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kanamari,Amazonas,Tefé,Jutaí,Carauari,Itamarati,Fonte Boa,Benjamin Constant,Santo Antônio do Içá,Tabatinga,Amazon Basin,Brazil"
+    "b": "Kanamari,Amazonas,TefÃ©,JutaÃ­,Carauari,Itamarati,Fonte Boa,Benjamin Constant,Santo AntÃ´nio do IÃ§Ã¡,Tabatinga,Amazon Basin,Brazil"
   },
   {
-    "name": "Mocov├¡ ",
-    "i": 7942,
+    "name": "Mocovâ”œÂ¡ ",
+    "i": 1396,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mocoví,Chaco,Santa Fe,Argentina,Santiago del Estero,Salta,Chaco Province,Gran Chaco,Rio Pilcomayo,Paraná River"
+    "b": "MocovÃ­,Chaco,Santa Fe,Argentina,Santiago del Estero,Salta,Chaco Province,Gran Chaco,Rio Pilcomayo,ParanÃ¡ River"
   },
   {
     "name": "Wounaan ",
-    "i": 7943,
+    "i": 1397,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wounaan,Panama,Darién Province,Sambú,Cucunatí,Yaviza,Puerto Pilon,Real,Cartí,Tuira River,Chepo River"
+    "b": "Wounaan,Panama,DariÃ©n Province,SambÃº,CucunatÃ­,Yaviza,Puerto Pilon,Real,CartÃ­,Tuira River,Chepo River"
   },
   {
     "name": "Mapudungun ",
-    "i": 7944,
+    "i": 1398,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mapudungun,Chile,Argentina,Santiago,Concepción,Valdivia,Temuco,Osorno,Valparaíso,Araucanía,Los Lagos"
+    "b": "Mapudungun,Chile,Argentina,Santiago,ConcepciÃ³n,Valdivia,Temuco,Osorno,ValparaÃ­so,AraucanÃ­a,Los Lagos"
   },
   {
     "name": "Ona ",
-    "i": 7945,
+    "i": 1399,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12603,7 +12603,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yahgan ",
-    "i": 7946,
+    "i": 1400,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12612,7 +12612,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burumakok ",
-    "i": 7975,
+    "i": 1401,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12621,7 +12621,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buruwai ",
-    "i": 7976,
+    "i": 1402,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12630,7 +12630,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buyang ",
-    "i": 7977,
+    "i": 1403,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12639,7 +12639,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buyeo Korean ",
-    "i": 7978,
+    "i": 1404,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12648,16 +12648,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bwi ",
-    "i": 7979,
+    "i": 1405,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bwi,Burkina Faso,Sanmatenga,Kaya,Ouagadougou,Koupéla,Zorgho,Boulsa,Mané"
+    "b": "Bwi,Burkina Faso,Sanmatenga,Kaya,Ouagadougou,KoupÃ©la,Zorgho,Boulsa,ManÃ©"
   },
   {
     "name": "Kalaallisut ",
-    "i": 8050,
+    "i": 1406,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12666,7 +12666,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kallawaya ",
-    "i": 8051,
+    "i": 1407,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12675,25 +12675,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cabiyari ",
-    "i": 8052,
+    "i": 1408,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cabiyari,Amazon,Brazil,Colombia,Japurá,Tefé,Coari,Carauari,Itacoatiara,Parintins,Manaus"
+    "b": "Cabiyari,Amazon,Brazil,Colombia,JapurÃ¡,TefÃ©,Coari,Carauari,Itacoatiara,Parintins,Manaus"
   },
   {
     "name": "Carijona ",
-    "i": 8053,
+    "i": 1409,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Carijona,Araracuara,Yauareté,São Gabriel da Cachoeira,Uaupés,Papuri,Cabucuri,Caruru,Tiquié,Içana,Negro River"
+    "b": "Carijona,Araracuara,YauaretÃ©,SÃ£o Gabriel da Cachoeira,UaupÃ©s,Papuri,Cabucuri,Caruru,TiquiÃ©,IÃ§ana,Negro River"
   },
   {
     "name": "Kakwa (Cacua) ",
-    "i": 8054,
+    "i": 1410,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12702,52 +12702,52 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chontal Maya ",
-    "i": 8055,
+    "i": 1411,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chontal Maya,Villahermosa,Macuspana,Comalcalco,Paraíso,Jonuta,Balancán,Emiliano Zapata,Tenosique,Tabasco,Mexico"
+    "b": "Chontal Maya,Villahermosa,Macuspana,Comalcalco,ParaÃ­so,Jonuta,BalancÃ¡n,Emiliano Zapata,Tenosique,Tabasco,Mexico"
   },
   {
     "name": "Chol ",
-    "i": 8056,
+    "i": 1412,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chol,Tumbalá,Palenque,Catazajá,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
+    "b": "Chol,TumbalÃ¡,Palenque,CatazajÃ¡,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
   },
   {
     "name": "Cora ",
-    "i": 8057,
+    "i": 1413,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cora,Jesús María,Mesa del Nayar,El Nayar,Acaponeta,Rosamorada,Tepic,Nayarit,Mexico,Sierra Madre Occidental"
+    "b": "Cora,JesÃºs MarÃ­a,Mesa del Nayar,El Nayar,Acaponeta,Rosamorada,Tepic,Nayarit,Mexico,Sierra Madre Occidental"
   },
   {
     "name": "Cuiba ",
-    "i": 8058,
+    "i": 1414,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cuiba,Villavicencio,Meta,Puerto Gaitán,Orocue,Puerto Lleras,Casanare,Colombia,Orinoco River,Llanos Orientales"
+    "b": "Cuiba,Villavicencio,Meta,Puerto GaitÃ¡n,Orocue,Puerto Lleras,Casanare,Colombia,Orinoco River,Llanos Orientales"
   },
   {
     "name": "Culina ",
-    "i": 8059,
+    "i": 1415,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Culina,Amazonas,Rio Purus,Sena Madureira,Feijo,Ipixuna,Brazil,Peru,Amazon Basin,Juruá River"
+    "b": "Culina,Amazonas,Rio Purus,Sena Madureira,Feijo,Ipixuna,Brazil,Peru,Amazon Basin,JuruÃ¡ River"
   },
   {
     "name": "Basay ",
-    "i": 8060,
+    "i": 1416,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12756,7 +12756,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cahuilla ",
-    "i": 8061,
+    "i": 1417,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12765,7 +12765,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cai Long ",
-    "i": 8062,
+    "i": 1418,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12774,7 +12774,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Caka ",
-    "i": 8063,
+    "i": 1419,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12782,26 +12782,26 @@ window.realWorldNameBases = [
     "b": "Caka,Afghanistan,Badakhshan,Fayzabad,Ishkashim,Vakhan,Khorog,Tajikistan,Pamir Mountains"
   },
   {
-    "name": "Cemuh├« ",
-    "i": 8064,
+    "name": "Cemuhâ”œÂ« ",
+    "i": 1420,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cemuhí,Yucatan,Campeche,Mexico,Belize,Gulf of Mexico,Maya Region,Caribbean"
+    "b": "CemuhÃ­,Yucatan,Campeche,Mexico,Belize,Gulf of Mexico,Maya Region,Caribbean"
   },
   {
     "name": "Cayuvava ",
-    "i": 8110,
+    "i": 1421,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cayuvava,Santa Cruz,Trinidad,San Javier,San Ramón,Beni,Bolivia,Amazon Basin,Mamoré River"
+    "b": "Cayuvava,Santa Cruz,Trinidad,San Javier,San RamÃ³n,Beni,Bolivia,Amazon Basin,MamorÃ© River"
   },
   {
     "name": "Alutiiq ",
-    "i": 8111,
+    "i": 1422,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12810,70 +12810,70 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guarani ",
-    "i": 8112,
+    "i": 1423,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guarani,Asunción,Ciudad del Este,Encarnación,San Pedro,Coronel Oviedo,Pirayú,Villarrica,Paraguay,Misiones"
+    "b": "Guarani,AsunciÃ³n,Ciudad del Este,EncarnaciÃ³n,San Pedro,Coronel Oviedo,PirayÃº,Villarrica,Paraguay,Misiones"
   },
   {
     "name": "Guahibo (Sikuani) ",
-    "i": 8113,
+    "i": 1424,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guahibo,Sikuani,Puerto Gaitán,Orocue,Puerto Carreño,Vichada,Casanare,Meta,Colombia,Orinoco River,Llanos Orientales"
+    "b": "Guahibo,Sikuani,Puerto GaitÃ¡n,Orocue,Puerto CarreÃ±o,Vichada,Casanare,Meta,Colombia,Orinoco River,Llanos Orientales"
   },
   {
     "name": "Guayabero ",
-    "i": 8114,
+    "i": 1425,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guayabero,San José del Guaviare,Puerto Concordia,Cabo Negro,Guaviare,Meta,Colombia,Amazon Basin,Orinoco"
+    "b": "Guayabero,San JosÃ© del Guaviare,Puerto Concordia,Cabo Negro,Guaviare,Meta,Colombia,Amazon Basin,Orinoco"
   },
   {
-    "name": "Guaj├í ",
-    "i": 8115,
+    "name": "Guajâ”œÃ­ ",
+    "i": 1426,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guají,El Carrizal,Maucará,Socorro,La Palma,San Martín,San Cristóbal,Casanare,Santander,Colombia,Venezuela"
+    "b": "GuajÃ­,El Carrizal,MaucarÃ¡,Socorro,La Palma,San MartÃ­n,San CristÃ³bal,Casanare,Santander,Colombia,Venezuela"
   },
   {
     "name": "Guarayu ",
-    "i": 8116,
+    "i": 1427,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guarayu,Paraguay,Asunción,Paraguay River,Brazil,Border Region,Paraná River,Alto Paraguay"
+    "b": "Guarayu,Paraguay,AsunciÃ³n,Paraguay River,Brazil,Border Region,ParanÃ¡ River,Alto Paraguay"
   },
   {
     "name": "Huastec ",
-    "i": 8117,
+    "i": 1428,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,Pánuco,Tantoyuca,Tamazunchale"
+    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,PÃ¡nuco,Tantoyuca,Tamazunchale"
   },
   {
     "name": "Huichol ",
-    "i": 8118,
+    "i": 1429,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huichol,Guadalajara,Nayarit,San José de Gracia,Bolaños,Mezquitic,Mezquitic Mountains,Jalisco,Nayarit Coast"
+    "b": "Huichol,Guadalajara,Nayarit,San JosÃ© de Gracia,BolaÃ±os,Mezquitic,Mezquitic Mountains,Jalisco,Nayarit Coast"
   },
   {
     "name": "Inuinnaqtun ",
-    "i": 8119,
+    "i": 1430,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12882,7 +12882,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Camtho ",
-    "i": 8120,
+    "i": 1431,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12891,7 +12891,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Canaano-Akkadian ",
-    "i": 8121,
+    "i": 1432,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12900,7 +12900,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cannanore Portuguese Creole ",
-    "i": 8122,
+    "i": 1433,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12909,7 +12909,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Carolinian ",
-    "i": 8123,
+    "i": 1434,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12918,7 +12918,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chakma ",
-    "i": 8124,
+    "i": 1435,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -12927,79 +12927,79 @@ window.realWorldNameBases = [
   },
   {
     "name": "Q'eqchi' ",
-    "i": 8125,
+    "i": 1436,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Q'eqchi',Alta Verapaz,Baja Verapaz,Izabal,Guatemala,Cobán,Salamá,Chamelco,Lanquín,Santa Cruz Verapaz"
+    "b": "Q'eqchi',Alta Verapaz,Baja Verapaz,Izabal,Guatemala,CobÃ¡n,SalamÃ¡,Chamelco,LanquÃ­n,Santa Cruz Verapaz"
   },
   {
     "name": "Tzeltal ",
-    "i": 8126,
+    "i": 1437,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tzeltal,Ocosingo,San Cristóbal de las Casas,Comitán,Chiapas,Altos de Chiapas,Maya Region,Mexico"
+    "b": "Tzeltal,Ocosingo,San CristÃ³bal de las Casas,ComitÃ¡n,Chiapas,Altos de Chiapas,Maya Region,Mexico"
   },
   {
     "name": "Tzotzil ",
-    "i": 8127,
+    "i": 1438,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tzotzil,San Juan Chamula,Zinacantán,Chenalhó,Chiapas,Altos de Chiapas,Maya Region,Mexico"
+    "b": "Tzotzil,San Juan Chamula,ZinacantÃ¡n,ChenalhÃ³,Chiapas,Altos de Chiapas,Maya Region,Mexico"
   },
   {
     "name": "Yucatec Maya",
-    "i": 8128,
+    "i": 1439,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yucatec Maya,Mérida,Cancún,Chichén Itzá,Tulum,Valladolid,Tizimín,Campeche,Yucatán Peninsula,Mexico"
+    "b": "Yucatec Maya,MÃ©rida,CancÃºn,ChichÃ©n ItzÃ¡,Tulum,Valladolid,TizimÃ­n,Campeche,YucatÃ¡n Peninsula,Mexico"
   },
   {
     "name": "Kaqchikel ",
-    "i": 8129,
+    "i": 1440,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kaqchikel,Chimaltenango,Sololá,Tecpán,Guatemala,Antigua,Chichicastenango,Comalapa,Guatemala City"
+    "b": "Kaqchikel,Chimaltenango,SololÃ¡,TecpÃ¡n,Guatemala,Antigua,Chichicastenango,Comalapa,Guatemala City"
   },
   {
     "name": "Ixil ",
-    "i": 8130,
+    "i": 1441,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ixil,Nebaj,Chajul,Cotzal,El Quiché,Quiché,Guatemala,Ixil Triangle,Maya Highlands"
+    "b": "Ixil,Nebaj,Chajul,Cotzal,El QuichÃ©,QuichÃ©,Guatemala,Ixil Triangle,Maya Highlands"
   },
   {
     "name": "Jakaltek ",
-    "i": 8131,
+    "i": 1442,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jakaltek,Chiquimula,Zacapa,Quetzaltenango,Esquipulas,Guatemala,Ocotepeque,Santa Rosa,Livingston,Copán"
+    "b": "Jakaltek,Chiquimula,Zacapa,Quetzaltenango,Esquipulas,Guatemala,Ocotepeque,Santa Rosa,Livingston,CopÃ¡n"
   },
   {
     "name": "K'iche' ",
-    "i": 8132,
+    "i": 1443,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "K'iche',Quetzaltenango,Totonicapán,Sololá,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
+    "b": "K'iche',Quetzaltenango,TotonicapÃ¡n,SololÃ¡,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
   },
   {
     "name": "Lacandon ",
-    "i": 8133,
+    "i": 1444,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13008,106 +13008,106 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mam ",
-    "i": 8134,
+    "i": 1445,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mam,Huehuetenango,Todos Santos,Cuchumatanes,Chiantla,Negrito,Aguacatán,Guatemala,Maya Region"
+    "b": "Mam,Huehuetenango,Todos Santos,Cuchumatanes,Chiantla,Negrito,AguacatÃ¡n,Guatemala,Maya Region"
   },
   {
-    "name": "Mop├ín ",
-    "i": 8135,
+    "name": "Mopâ”œÃ­n ",
+    "i": 1446,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mopín,Ixtlán,Yucatán,Mexico,Chiapas,Tabasco,Campeche,Mérida,Yucatán Peninsula"
+    "b": "MopÃ­n,IxtlÃ¡n,YucatÃ¡n,Mexico,Chiapas,Tabasco,Campeche,MÃ©rida,YucatÃ¡n Peninsula"
   },
   {
     "name": "Poqomam ",
-    "i": 8136,
+    "i": 1447,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Poqomam,Quiché,Guatemala,Quiché Department,Maya Highlands,Mesoamerica,El Quiché,Guatemala City"
+    "b": "Poqomam,QuichÃ©,Guatemala,QuichÃ© Department,Maya Highlands,Mesoamerica,El QuichÃ©,Guatemala City"
   },
   {
     "name": "Poqomchi' ",
-    "i": 8137,
+    "i": 1448,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Poqomchi',Quiché,Guatemala,Maya Highlands,Chichicastenango,Sololá,Quiché Department"
+    "b": "Poqomchi',QuichÃ©,Guatemala,Maya Highlands,Chichicastenango,SololÃ¡,QuichÃ© Department"
   },
   {
     "name": "Tojolab'al ",
-    "i": 8138,
+    "i": 1449,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tojolab'al,Huehuetenango,Guatemala,Nebaj,Chalchitán,Solomá,Jalapa,Quiché,Maya Highlands"
+    "b": "Tojolab'al,Huehuetenango,Guatemala,Nebaj,ChalchitÃ¡n,SolomÃ¡,Jalapa,QuichÃ©,Maya Highlands"
   },
   {
     "name": "Tz'utujil ",
-    "i": 8139,
+    "i": 1450,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tz'utujil,Quiché,Guatemala,Quiché Department,Maya Highlands,Chajul,Cotzal,Nebaj"
+    "b": "Tz'utujil,QuichÃ©,Guatemala,QuichÃ© Department,Maya Highlands,Chajul,Cotzal,Nebaj"
   },
   {
     "name": "Q'anjob'al ",
-    "i": 8140,
+    "i": 1451,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Q'anjob'al,Guatemala,Santa Eulalia,Barillas,Aguacatán,San Pedro Soloma,Huehuetenango,Quiché,Maya Highlands"
+    "b": "Q'anjob'al,Guatemala,Santa Eulalia,Barillas,AguacatÃ¡n,San Pedro Soloma,Huehuetenango,QuichÃ©,Maya Highlands"
   },
   {
     "name": "Sakapultek ",
-    "i": 8141,
+    "i": 1452,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sakapultek,Guatemala,Sacapulas,Santa Rosa,El Progreso,San Benito,Ciudad Hidalgo,Quiché"
+    "b": "Sakapultek,Guatemala,Sacapulas,Santa Rosa,El Progreso,San Benito,Ciudad Hidalgo,QuichÃ©"
   },
   {
     "name": "Sipakapense ",
-    "i": 8142,
+    "i": 1453,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sipakapense,Sipakapa,Santa Cruz de Yojoa,Copán,Honduras,El Paraíso,San Pedro Sula,Olancho"
+    "b": "Sipakapense,Sipakapa,Santa Cruz de Yojoa,CopÃ¡n,Honduras,El ParaÃ­so,San Pedro Sula,Olancho"
   },
   {
     "name": "Tektitek ",
-    "i": 8143,
+    "i": 1454,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tektitek,Guatemala,San Cristóbal Acasaguastlán,Santa Rosa de Lima,San Marcos,Cuatemala"
+    "b": "Tektitek,Guatemala,San CristÃ³bal AcasaguastlÃ¡n,Santa Rosa de Lima,San Marcos,Cuatemala"
   },
   {
     "name": "Uspanteko ",
-    "i": 8144,
+    "i": 1455,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Uspanteko,Guatemala,Usulatán,Zacapa,Chiquimula,Izabal,Alta Verapaz,Guatemala City"
+    "b": "Uspanteko,Guatemala,UsulatÃ¡n,Zacapa,Chiquimula,Izabal,Alta Verapaz,Guatemala City"
   },
   {
     "name": "Koda ",
-    "i": 8170,
+    "i": 1456,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13116,7 +13116,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cebaara ",
-    "i": 8172,
+    "i": 1457,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13125,7 +13125,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cebuano native-speakers subset ",
-    "i": 8173,
+    "i": 1458,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13134,7 +13134,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Atlas Tamazight ",
-    "i": 8174,
+    "i": 1459,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13143,7 +13143,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cairene Arabic ",
-    "i": 8220,
+    "i": 1460,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13152,16 +13152,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cameroonian Pidgin ",
-    "i": 8221,
+    "i": 1461,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cameroonian Pidgin,Douala,Yaoundé,Bafoussam,Dschang,Edéa,Nkongsamba,Kribi,Bambalos,Garoua,Bertoua"
+    "b": "Cameroonian Pidgin,Douala,YaoundÃ©,Bafoussam,Dschang,EdÃ©a,Nkongsamba,Kribi,Bambalos,Garoua,Bertoua"
   },
   {
     "name": "Cameroonian Pidgin English ",
-    "i": 8222,
+    "i": 1462,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13170,7 +13170,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Asian Arabic ",
-    "i": 8223,
+    "i": 1463,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13179,16 +13179,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Banda ",
-    "i": 8224,
+    "i": 1464,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Central Banda,CAR,Bangassou,Bouar,M'Baïssé,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,Abéché,N'Djamena"
+    "b": "Central Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssÃ©,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,AbÃ©chÃ©,N'Djamena"
   },
   {
     "name": "Swahili ",
-    "i": 8225,
+    "i": 1465,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13197,7 +13197,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Xhosa",
-    "i": 8226,
+    "i": 1466,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13206,7 +13206,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chewa ",
-    "i": 8227,
+    "i": 1467,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13215,7 +13215,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chopi ",
-    "i": 8228,
+    "i": 1468,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13224,7 +13224,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tetela ",
-    "i": 8229,
+    "i": 1469,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13233,7 +13233,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Erzya ",
-    "i": 8270,
+    "i": 1470,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13242,34 +13242,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Estonian ",
-    "i": 8271,
+    "i": 1471,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Estonian,Tallinn,Tartu,Rakvere,Viljandi,Pärnu,Paide,Narva,Kohtla-Järve,Jõgeva,Valga,Estonia"
+    "b": "Estonian,Tallinn,Tartu,Rakvere,Viljandi,PÃ¤rnu,Paide,Narva,Kohtla-JÃ¤rve,JÃµgeva,Valga,Estonia"
   },
   {
     "name": "Central Finland ",
-    "i": 8272,
+    "i": 1472,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Finnish,Jyväskylä,Kuopio,Tampere,Lahti,Mikkeli,Jämsä,Pori,Seinäjoki,Kokkola,Savonlinna,Finland"
+    "b": "Finnish,JyvÃ¤skylÃ¤,Kuopio,Tampere,Lahti,Mikkeli,JÃ¤msÃ¤,Pori,SeinÃ¤joki,Kokkola,Savonlinna,Finland"
   },
   {
     "name": "Central Hilali dialects ",
-    "i": 8273,
+    "i": 1473,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hilali,Ghardaïa,Béchar,Adrar,Béni Abbès,El Oued,Touggourt,Laghouat,Ouargla,Illizi,In Salah,Djanet,Algeria"
+    "b": "Hilali,GhardaÃ¯a,BÃ©char,Adrar,BÃ©ni AbbÃ¨s,El Oued,Touggourt,Laghouat,Ouargla,Illizi,In Salah,Djanet,Algeria"
   },
   {
     "name": "Central Ludic ",
-    "i": 8274,
+    "i": 1474,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13278,7 +13278,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tigrinya ",
-    "i": 8320,
+    "i": 1475,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13287,7 +13287,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Qwara ",
-    "i": 8321,
+    "i": 1476,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13296,7 +13296,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ga ",
-    "i": 8322,
+    "i": 1477,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13305,7 +13305,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dangme ",
-    "i": 8323,
+    "i": 1478,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13314,7 +13314,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Seychellois Creole ",
-    "i": 8324,
+    "i": 1479,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13323,7 +13323,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Mansi ",
-    "i": 8325,
+    "i": 1480,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13332,7 +13332,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Min ",
-    "i": 8326,
+    "i": 1481,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13341,7 +13341,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Moksha ",
-    "i": 8327,
+    "i": 1482,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13350,7 +13350,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Selkup ",
-    "i": 8328,
+    "i": 1483,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13359,7 +13359,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Tai ",
-    "i": 8329,
+    "i": 1484,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13367,8 +13367,8 @@ window.realWorldNameBases = [
     "b": "Central Tai,Nan,Phrae,Phayao,Uttaradit,Tak,Sukhothai,Thailand,Southeast Asia,Mekong"
   },
   {
-    "name": "Fran├ºais Tirailleur ",
-    "i": 8340,
+    "name": "Franâ”œÂºais Tirailleur ",
+    "i": 1485,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13376,17 +13376,17 @@ window.realWorldNameBases = [
     "b": "French Tirailleur,Dakar,St. Louis,Senegal,Mali,Burkina Faso,Ivory Coast,Guinea,Niger,West Africa"
   },
   {
-    "name": "T├óy Bß╗ôi Pidgin French ",
-    "i": 8341,
+    "name": "Tâ”œÃ³y BÃŸâ•—Ã´i Pidgin French ",
+    "i": 1486,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tây Bội,Hanoi,Hai Phong,Haiphong,Vietnam,Hanoi Tonkin,Indochina,Red River"
+    "b": "TÃ¢y Bá»™i,Hanoi,Hai Phong,Haiphong,Vietnam,Hanoi Tonkin,Indochina,Red River"
   },
   {
     "name": "Petuh ",
-    "i": 8342,
+    "i": 1487,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13395,7 +13395,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sercquiais ",
-    "i": 8343,
+    "i": 1488,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13404,7 +13404,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Tibeto Burman ",
-    "i": 8375,
+    "i": 1489,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13413,7 +13413,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Veps ",
-    "i": 8376,
+    "i": 1490,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13422,7 +13422,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Vychegda ",
-    "i": 8377,
+    "i": 1491,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13431,7 +13431,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Zapotec ",
-    "i": 8378,
+    "i": 1492,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13440,7 +13440,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Falam ",
-    "i": 8379,
+    "i": 1493,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13449,7 +13449,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khaling ",
-    "i": 8380,
+    "i": 1494,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13458,7 +13458,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koi ",
-    "i": 8381,
+    "i": 1495,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13467,7 +13467,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tilung ",
-    "i": 8382,
+    "i": 1496,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13476,16 +13476,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Matlatzinca ",
-    "i": 8425,
+    "i": 1497,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Matlatzinca,Toluca,Almoloya de Juárez,Calimaya,Metepec,San Mateo Atenco,Mexico,State of Mexico"
+    "b": "Matlatzinca,Toluca,Almoloya de JuÃ¡rez,Calimaya,Metepec,San Mateo Atenco,Mexico,State of Mexico"
   },
   {
     "name": "Mazahua ",
-    "i": 8426,
+    "i": 1498,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13494,43 +13494,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mazatec ",
-    "i": 8427,
+    "i": 1499,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mazatec,Huatla de Jiménez,Teotitlán de Flores Magón,Mazatlán,Ayautla,Oaxaca,Mexico"
+    "b": "Mazatec,Huatla de JimÃ©nez,TeotitlÃ¡n de Flores MagÃ³n,MazatlÃ¡n,Ayautla,Oaxaca,Mexico"
   },
   {
     "name": "Mixtec ",
-    "i": 8428,
+    "i": 1500,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mixtec,Tlaxiaco,Tilantongo,Yanhuitlán,Nochixtlán,Oaxaca,Mexico,Mixteca"
+    "b": "Mixtec,Tlaxiaco,Tilantongo,YanhuitlÃ¡n,NochixtlÃ¡n,Oaxaca,Mexico,Mixteca"
   },
   {
     "name": "Otomi ",
-    "i": 8429,
+    "i": 1501,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Otomi,Querétaro,Santiago de Querétaro,Toluca,Ixmiquilpan,Mexico,Central Mexico"
+    "b": "Otomi,QuerÃ©taro,Santiago de QuerÃ©taro,Toluca,Ixmiquilpan,Mexico,Central Mexico"
   },
   {
     "name": "Zapotec ",
-    "i": 8430,
+    "i": 1502,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Zapotec,Oaxaca,Tlacolula,Teotitlán del Valle,Mitla,Juchitán,Mexico,Oaxaca State"
+    "b": "Zapotec,Oaxaca,Tlacolula,TeotitlÃ¡n del Valle,Mitla,JuchitÃ¡n,Mexico,Oaxaca State"
   },
   {
     "name": "Hinuq ",
-    "i": 8431,
+    "i": 1503,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13539,7 +13539,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ginuman ",
-    "i": 8432,
+    "i": 1504,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13548,7 +13548,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kachi Koli ",
-    "i": 8433,
+    "i": 1505,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13557,7 +13557,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gujari ",
-    "i": 8434,
+    "i": 1506,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13566,7 +13566,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Glavda language ",
-    "i": 8435,
+    "i": 1507,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13575,7 +13575,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mayo ",
-    "i": 8481,
+    "i": 1508,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13584,7 +13584,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nahuatl ",
-    "i": 8482,
+    "i": 1509,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13593,7 +13593,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "O'odham ",
-    "i": 8483,
+    "i": 1510,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13602,16 +13602,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pima Bajo ",
-    "i": 8484,
+    "i": 1511,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pima Bajo,Yécora,Mazocahui,Maycoba,Sonora,Mexico,Sierra Madre"
+    "b": "Pima Bajo,YÃ©cora,Mazocahui,Maycoba,Sonora,Mexico,Sierra Madre"
   },
   {
     "name": "Tarahumara ",
-    "i": 8485,
+    "i": 1512,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13620,7 +13620,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huarijio ",
-    "i": 8486,
+    "i": 1513,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13629,16 +13629,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yaqui ",
-    "i": 8487,
+    "i": 1514,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vícam,Pótam,Bácum,Huirivis,Ráhum,Belem,Cócorit,Loma de Guamúchil,Bataconsica,Tórim"
+    "b": "VÃ­cam,PÃ³tam,BÃ¡cum,Huirivis,RÃ¡hum,Belem,CÃ³corit,Loma de GuamÃºchil,Bataconsica,TÃ³rim"
   },
   {
     "name": "Simaa ",
-    "i": 8500,
+    "i": 1515,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13647,7 +13647,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tonga Malawi ",
-    "i": 8501,
+    "i": 1516,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13656,7 +13656,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Totela ",
-    "i": 8502,
+    "i": 1517,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13665,7 +13665,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tshivenda ",
-    "i": 8503,
+    "i": 1518,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13674,7 +13674,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Venda ",
-    "i": 8504,
+    "i": 1519,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13683,7 +13683,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gobasi ",
-    "i": 8505,
+    "i": 1520,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13692,7 +13692,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goemai language ",
-    "i": 8506,
+    "i": 1521,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13701,7 +13701,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goguryeo Korean ",
-    "i": 8507,
+    "i": 1522,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13710,7 +13710,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goji language ",
-    "i": 8508,
+    "i": 1523,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13719,7 +13719,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gola ",
-    "i": 8509,
+    "i": 1524,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13728,7 +13728,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zway ",
-    "i": 8510,
+    "i": 1525,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13737,7 +13737,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sebat Bet ",
-    "i": 8511,
+    "i": 1526,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13746,7 +13746,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ulbare ",
-    "i": 8512,
+    "i": 1527,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13755,7 +13755,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wolane ",
-    "i": 8513,
+    "i": 1528,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13764,7 +13764,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mesmes ",
-    "i": 8514,
+    "i": 1529,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13773,7 +13773,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mesqan ",
-    "i": 8515,
+    "i": 1530,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13782,7 +13782,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Muher ",
-    "i": 8516,
+    "i": 1531,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13791,7 +13791,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sebat Bet Gurage ",
-    "i": 8517,
+    "i": 1532,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13800,7 +13800,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Inneqor ",
-    "i": 8518,
+    "i": 1533,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13809,7 +13809,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Inor ",
-    "i": 8519,
+    "i": 1534,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13818,7 +13818,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chaha ",
-    "i": 8555,
+    "i": 1535,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13827,7 +13827,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chakato language ",
-    "i": 8556,
+    "i": 1536,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13836,7 +13836,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chakhar ",
-    "i": 8557,
+    "i": 1537,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13845,7 +13845,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chaldean Neo-Aramaic ",
-    "i": 8558,
+    "i": 1538,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13854,7 +13854,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chamdo ",
-    "i": 8559,
+    "i": 1539,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13863,7 +13863,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chaha ",
-    "i": 8560,
+    "i": 1540,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13872,7 +13872,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chakato language ",
-    "i": 8561,
+    "i": 1541,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13881,7 +13881,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chakhar ",
-    "i": 8562,
+    "i": 1542,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13890,7 +13890,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chaldean Neo-Aramaic ",
-    "i": 8563,
+    "i": 1543,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13899,7 +13899,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chamdo ",
-    "i": 8564,
+    "i": 1544,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13908,7 +13908,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Macushi ",
-    "i": 8605,
+    "i": 1545,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13917,7 +13917,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Waiwai ",
-    "i": 8606,
+    "i": 1546,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13926,16 +13926,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yukpa ",
-    "i": 8607,
+    "i": 1547,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yukpa,Machiques,Venezuela,Colombia,Perijá Mountains,Sierra de Perijá,Andes Border"
+    "b": "Yukpa,Machiques,Venezuela,Colombia,PerijÃ¡ Mountains,Sierra de PerijÃ¡,Andes Border"
   },
   {
     "name": "Fut ",
-    "i": 8610,
+    "i": 1548,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13944,7 +13944,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Soninke ",
-    "i": 8611,
+    "i": 1549,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13953,7 +13953,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chung ",
-    "i": 8612,
+    "i": 1550,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13962,7 +13962,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dciriku ",
-    "i": 8613,
+    "i": 1551,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13971,7 +13971,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Defaka ",
-    "i": 8614,
+    "i": 1552,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13980,7 +13980,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Changjiang Hlai ",
-    "i": 8615,
+    "i": 1553,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13989,7 +13989,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chavacano ",
-    "i": 8616,
+    "i": 1554,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -13998,7 +13998,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chechen ",
-    "i": 8617,
+    "i": 1555,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14007,7 +14007,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chenchu ",
-    "i": 8618,
+    "i": 1556,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14016,7 +14016,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chepang ",
-    "i": 8619,
+    "i": 1557,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14025,7 +14025,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tibeto-Kanauri ",
-    "i": 8630,
+    "i": 1558,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14034,7 +14034,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Himalayas ",
-    "i": 8631,
+    "i": 1559,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14043,7 +14043,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "West Himalayish ",
-    "i": 8632,
+    "i": 1560,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14052,7 +14052,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhuleli ",
-    "i": 8633,
+    "i": 1561,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14061,7 +14061,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greater Magaric ",
-    "i": 8634,
+    "i": 1562,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14070,7 +14070,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Magaric ",
-    "i": 8635,
+    "i": 1563,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14079,7 +14079,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Magar ",
-    "i": 8636,
+    "i": 1564,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14088,7 +14088,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mgp ",
-    "i": 8637,
+    "i": 1565,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14097,7 +14097,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kip ",
-    "i": 8638,
+    "i": 1566,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14106,7 +14106,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Drq ",
-    "i": 8639,
+    "i": 1567,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14115,16 +14115,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Amami ",
-    "i": 8640,
+    "i": 1568,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Amami Ōshima,Setouchi,Yamato,Kagoshima,Japan,Ryukyu Islands,East China Sea"
+    "b": "Amami ÅŒshima,Setouchi,Yamato,Kagoshima,Japan,Ryukyu Islands,East China Sea"
   },
   {
     "name": "Okinoerabu ",
-    "i": 8641,
+    "i": 1569,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14133,7 +14133,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tokunoshima ",
-    "i": 8642,
+    "i": 1570,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14142,7 +14142,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Japanese regional lects ",
-    "i": 8643,
+    "i": 1571,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14151,7 +14151,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kanbun Kundoku ",
-    "i": 8644,
+    "i": 1572,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14160,7 +14160,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Macro-Yaeyama ",
-    "i": 8645,
+    "i": 1573,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14169,7 +14169,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Miyakoan ",
-    "i": 8646,
+    "i": 1574,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14178,7 +14178,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ryukyuan ",
-    "i": 8647,
+    "i": 1575,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14187,7 +14187,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mao-Omotic ",
-    "i": 8650,
+    "i": 1576,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14196,7 +14196,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Omotic ",
-    "i": 8651,
+    "i": 1577,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14205,7 +14205,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ometo ",
-    "i": 8652,
+    "i": 1578,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14214,25 +14214,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Piapoco ",
-    "i": 8653,
+    "i": 1579,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Piapoco,Puerto Carreño,Orocue,Vichada,Colombia,Meta,Orinoco River,South America"
+    "b": "Piapoco,Puerto CarreÃ±o,Orocue,Vichada,Colombia,Meta,Orinoco River,South America"
   },
   {
-    "name": "Ter├¬na ",
-    "i": 8654,
+    "name": "Terâ”œÂ¬na ",
+    "i": 1580,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Terena,Mato Grosso do Sul,Ponta Porã,Brazil,Paraguay Border,Guarani Region"
+    "b": "Terena,Mato Grosso do Sul,Ponta PorÃ£,Brazil,Paraguay Border,Guarani Region"
   },
   {
     "name": "Wapishana ",
-    "i": 8655,
+    "i": 1581,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14241,7 +14241,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chepangic ",
-    "i": 8665,
+    "i": 1582,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14250,7 +14250,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chhattisgarhi ",
-    "i": 8666,
+    "i": 1583,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14259,7 +14259,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chiang Saen ",
-    "i": 8667,
+    "i": 1584,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14268,7 +14268,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chichewa ",
-    "i": 8668,
+    "i": 1585,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14277,7 +14277,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chimbu ",
-    "i": 8669,
+    "i": 1586,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14286,7 +14286,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chin ",
-    "i": 8715,
+    "i": 1587,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14295,7 +14295,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chinantec ",
-    "i": 8716,
+    "i": 1588,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14304,7 +14304,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chinese Korean ",
-    "i": 8717,
+    "i": 1589,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14313,7 +14313,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chinese Kyakala ",
-    "i": 8718,
+    "i": 1590,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14322,7 +14322,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chinese Pidgin English ",
-    "i": 8719,
+    "i": 1591,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14331,7 +14331,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chinook Jargon ",
-    "i": 8765,
+    "i": 1592,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14340,7 +14340,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chittagonian ",
-    "i": 8766,
+    "i": 1593,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14349,7 +14349,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cholanaikkan ",
-    "i": 8767,
+    "i": 1594,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14358,7 +14358,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cholti Classic ",
-    "i": 8768,
+    "i": 1595,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14367,16 +14367,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chong ",
-    "i": 8769,
+    "i": 1596,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chong,Kratié,Kampong Cham,Cambodia,Mekong River,Southeast Asia"
+    "b": "Chong,KratiÃ©,Kampong Cham,Cambodia,Mekong River,Southeast Asia"
   },
   {
     "name": "Chrau Bahnaric ",
-    "i": 8815,
+    "i": 1597,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14385,7 +14385,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Christian Palestinian Aramaic ",
-    "i": 8816,
+    "i": 1598,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14394,7 +14394,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Christian Urmi Neo-Aramaic ",
-    "i": 8817,
+    "i": 1599,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14403,7 +14403,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chuave ",
-    "i": 8818,
+    "i": 1600,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14412,7 +14412,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chukchi ",
-    "i": 8819,
+    "i": 1601,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14421,7 +14421,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chongqing Mandarin ",
-    "i": 8865,
+    "i": 1602,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14430,7 +14430,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chorote ",
-    "i": 8866,
+    "i": 1603,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14439,7 +14439,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chorotega ",
-    "i": 8867,
+    "i": 1604,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14448,16 +14448,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Choshuenco ",
-    "i": 8868,
+    "i": 1605,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Choshuenco,Valdivia,Río Bueno,Osorno,Los Lagos,Chile,Patagonia,Andes,Lake District"
+    "b": "Choshuenco,Valdivia,RÃ­o Bueno,Osorno,Los Lagos,Chile,Patagonia,Andes,Lake District"
   },
   {
     "name": "Chovashi ",
-    "i": 8869,
+    "i": 1606,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14466,7 +14466,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chukotkan ",
-    "i": 8915,
+    "i": 1607,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14475,7 +14475,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chukotko-Kamchatkan ",
-    "i": 8916,
+    "i": 1608,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14484,7 +14484,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chukotko-Kamchatkan-Amuric ",
-    "i": 8917,
+    "i": 1609,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14493,7 +14493,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chungcheong Korean ",
-    "i": 8918,
+    "i": 1610,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14502,7 +14502,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chusovaya ",
-    "i": 8919,
+    "i": 1611,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14511,7 +14511,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chuvan ",
-    "i": 8965,
+    "i": 1612,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14520,7 +14520,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cibak language ",
-    "i": 8966,
+    "i": 1613,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14529,7 +14529,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cilician Arabic ",
-    "i": 8967,
+    "i": 1614,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14538,7 +14538,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cineni language ",
-    "i": 8968,
+    "i": 1615,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14547,7 +14547,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cingali ",
-    "i": 8969,
+    "i": 1616,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14556,7 +14556,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Circassian ",
-    "i": 9015,
+    "i": 1617,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14565,7 +14565,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ciwogai language ",
-    "i": 9016,
+    "i": 1618,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14574,7 +14574,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cham ",
-    "i": 9017,
+    "i": 1619,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14583,7 +14583,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chamalal ",
-    "i": 9018,
+    "i": 1620,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14592,7 +14592,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chak ",
-    "i": 9019,
+    "i": 1621,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14601,7 +14601,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kavalan ",
-    "i": 9065,
+    "i": 1622,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14610,7 +14610,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Classical Arabic ",
-    "i": 9066,
+    "i": 1623,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14619,7 +14619,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Classical Mongolian ",
-    "i": 9067,
+    "i": 1624,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14628,16 +14628,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Classical Syriac ",
-    "i": 9068,
+    "i": 1625,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Classical Syriac,Aleppo,Antioch,Mardin,Diyarbakır,Turkey,Syria,Iraq,Mesopotamia"
+    "b": "Classical Syriac,Aleppo,Antioch,Mardin,DiyarbakÄ±r,Turkey,Syria,Iraq,Mesopotamia"
   },
   {
     "name": "Chilisso ",
-    "i": 9069,
+    "i": 1626,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14646,7 +14646,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Idu Mishmi ",
-    "i": 9115,
+    "i": 1627,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14655,7 +14655,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Haka ",
-    "i": 9116,
+    "i": 1628,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14664,7 +14664,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khumi ",
-    "i": 9117,
+    "i": 1629,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14673,16 +14673,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chicomuceltec ",
-    "i": 9118,
+    "i": 1630,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Comitán,Trinitaria,La Independencia,Francisco León,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
+    "b": "ComitÃ¡n,Trinitaria,La Independencia,Francisco LeÃ³n,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
   },
   {
     "name": "Cochin Portuguese Creole ",
-    "i": 9119,
+    "i": 1631,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14691,7 +14691,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cocoliche ",
-    "i": 9165,
+    "i": 1632,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14700,16 +14700,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Colloquial Finnish ",
-    "i": 9166,
+    "i": 1633,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Stadi,Heltsi,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Vaasa,Lahti,Pori,Lappeenranta,Finland"
+    "b": "Stadi,Heltsi,Turku,Tampere,Oulu,JyvÃ¤skylÃ¤,Kuopio,Vaasa,Lahti,Pori,Lappeenranta,Finland"
   },
   {
-    "name": "Cook Islands Māori Pidgin ",
-    "i": 9167,
+    "name": "Cook Islands MÄori Pidgin ",
+    "i": 1634,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14718,7 +14718,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Coptic ",
-    "i": 9168,
+    "i": 1635,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14727,7 +14727,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Core Mansi ",
-    "i": 9169,
+    "i": 1636,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14736,7 +14736,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Corfiot Maltese ",
-    "i": 9215,
+    "i": 1637,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14745,7 +14745,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cottonera Dialect ",
-    "i": 9216,
+    "i": 1638,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14754,25 +14754,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Courland Livonian ",
-    "i": 9217,
+    "i": 1639,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Courland Livonian,Riga,Ventspils,Liepāja,Latvia,Baltic,Baltic Sea"
+    "b": "Courland Livonian,Riga,Ventspils,LiepÄja,Latvia,Baltic,Baltic Sea"
   },
   {
     "name": "Coxoh ",
-    "i": 9218,
+    "i": 1640,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Coxoh,Comitán,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
+    "b": "Coxoh,ComitÃ¡n,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
   },
   {
     "name": "Lonwolwol ",
-    "i": 9219,
+    "i": 1641,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14781,7 +14781,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Crimean Tatar ",
-    "i": 9265,
+    "i": 1642,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14790,7 +14790,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asho ",
-    "i": 9266,
+    "i": 1643,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14799,7 +14799,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cua ",
-    "i": 9267,
+    "i": 1644,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14808,7 +14808,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cun Hlai ",
-    "i": 9268,
+    "i": 1645,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14817,7 +14817,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cuvok language ",
-    "i": 9269,
+    "i": 1646,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14826,7 +14826,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cypriot Arabic ",
-    "i": 9315,
+    "i": 1647,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14835,7 +14835,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Daba ",
-    "i": 9316,
+    "i": 1648,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14844,7 +14844,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dadanitic ",
-    "i": 9317,
+    "i": 1649,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14853,7 +14853,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Daga ",
-    "i": 9318,
+    "i": 1650,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14862,7 +14862,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dagur ",
-    "i": 9319,
+    "i": 1651,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14871,7 +14871,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dahalik ",
-    "i": 9365,
+    "i": 1652,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14880,7 +14880,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dai Zhuang ",
-    "i": 9366,
+    "i": 1653,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14889,7 +14889,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Damu ",
-    "i": 9367,
+    "i": 1654,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14898,7 +14898,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dani ",
-    "i": 9368,
+    "i": 1655,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14907,7 +14907,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dano ",
-    "i": 9369,
+    "i": 1656,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14916,7 +14916,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dao ",
-    "i": 9415,
+    "i": 1657,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14925,7 +14925,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dap ",
-    "i": 9416,
+    "i": 1658,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14934,7 +14934,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dargwa ",
-    "i": 9417,
+    "i": 1659,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14943,7 +14943,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dari ",
-    "i": 9418,
+    "i": 1660,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14952,16 +14952,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Darkhad ",
-    "i": 9419,
+    "i": 1661,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Darkhad,Murun,Khatgal,Khövsgöl,Mongolia,Lake Khövsgöl,Siberia Border,Arkhangai"
+    "b": "Darkhad,Murun,Khatgal,KhÃ¶vsgÃ¶l,Mongolia,Lake KhÃ¶vsgÃ¶l,Siberia Border,Arkhangai"
   },
   {
     "name": "Dass language ",
-    "i": 9465,
+    "i": 1662,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14970,7 +14970,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Daza ",
-    "i": 9466,
+    "i": 1663,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14979,7 +14979,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dazawa language ",
-    "i": 9467,
+    "i": 1664,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14988,7 +14988,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ddo ",
-    "i": 9468,
+    "i": 1665,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -14997,7 +14997,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Deh ",
-    "i": 9469,
+    "i": 1666,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15006,7 +15006,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dendi ",
-    "i": 9516,
+    "i": 1667,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15015,7 +15015,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dengese ",
-    "i": 9517,
+    "i": 1668,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15024,7 +15024,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Deno language ",
-    "i": 9518,
+    "i": 1669,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15033,7 +15033,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Densar ",
-    "i": 9519,
+    "i": 1670,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15042,7 +15042,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Holiya ",
-    "i": 9565,
+    "i": 1671,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15051,7 +15051,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Irula ",
-    "i": 9566,
+    "i": 1672,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15060,7 +15060,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jeseri ",
-    "i": 9567,
+    "i": 1673,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15069,7 +15069,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kadar Dravidian ",
-    "i": 9568,
+    "i": 1674,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15078,7 +15078,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kaikadi ",
-    "i": 9569,
+    "i": 1675,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15087,7 +15087,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kakkala ",
-    "i": 9570,
+    "i": 1676,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15096,7 +15096,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kalanadi ",
-    "i": 9571,
+    "i": 1677,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15105,7 +15105,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kanikkaran ",
-    "i": 9572,
+    "i": 1678,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15114,7 +15114,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khirwar ",
-    "i": 9573,
+    "i": 1679,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15123,7 +15123,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kodava ",
-    "i": 9574,
+    "i": 1680,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15132,7 +15132,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jerba Berber ",
-    "i": 9820,
+    "i": 1681,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15141,25 +15141,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lisan al-Gharbi ",
-    "i": 9821,
+    "i": 1682,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lisan al-Gharbi,Ghadamès,Faya-Largeau,Chad,Sahara Desert,North Africa"
+    "b": "Lisan al-Gharbi,GhadamÃ¨s,Faya-Largeau,Chad,Sahara Desert,North Africa"
   },
   {
     "name": "Matmata Berber ",
-    "i": 9822,
+    "i": 1683,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Matmata,Douz,Tataouine,Medenine,Gabès,Remada,Tunisia,Sahara Desert,North Africa"
+    "b": "Matmata,Douz,Tataouine,Medenine,GabÃ¨s,Remada,Tunisia,Sahara Desert,North Africa"
   },
   {
     "name": "Ouargli ",
-    "i": 9823,
+    "i": 1684,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15168,16 +15168,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sanhaja de Srair ",
-    "i": 9824,
+    "i": 1685,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Al Hoceima,Tétouan,Chefchaouen,Taza,Fès,Guercif,Taounate,Morocco,Rif Mountains,North Africa"
+    "b": "Al Hoceima,TÃ©touan,Chefchaouen,Taza,FÃ¨s,Guercif,Taounate,Morocco,Rif Mountains,North Africa"
   },
   {
     "name": "Sened ",
-    "i": 9825,
+    "i": 1686,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15186,16 +15186,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sheliff Basin Berber ",
-    "i": 9826,
+    "i": 1687,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,Ténès,Algeria,Tell Atlas,North Africa"
+    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,TÃ©nÃ¨s,Algeria,Tell Atlas,North Africa"
   },
   {
     "name": "Sokna ",
-    "i": 9827,
+    "i": 1688,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15204,16 +15204,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Oran-Figuig Berber ",
-    "i": 9828,
+    "i": 1689,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Figuig,Béchar,Béni Abbès,Naâma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
+    "b": "Figuig,BÃ©char,BÃ©ni AbbÃ¨s,NaÃ¢ma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
   },
   {
     "name": "Tawellemmet ",
-    "i": 9829,
+    "i": 1690,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15222,7 +15222,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chepangic ",
-    "i": 9880,
+    "i": 1691,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15231,7 +15231,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chhattisgarhi ",
-    "i": 9881,
+    "i": 1692,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15240,7 +15240,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chiang Saen ",
-    "i": 9882,
+    "i": 1693,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15249,7 +15249,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chichewa ",
-    "i": 9883,
+    "i": 1694,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15258,7 +15258,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chimbu ",
-    "i": 9884,
+    "i": 1695,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15267,7 +15267,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Derung ",
-    "i": 9980,
+    "i": 1696,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15276,7 +15276,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dghwede language ",
-    "i": 9981,
+    "i": 1697,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15285,7 +15285,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhakaiya Kutti Bengali ",
-    "i": 9982,
+    "i": 1698,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15294,25 +15294,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhivehi ",
-    "i": 9983,
+    "i": 1699,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhivehi,Malé,Addu,Hithadhoo,Maldives,Indian Ocean"
+    "b": "Dhivehi,MalÃ©,Addu,Hithadhoo,Maldives,Indian Ocean"
   },
   {
     "name": "Dida ",
-    "i": 10030,
+    "i": 1700,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dida,Daloa,Abidjan,Yamoussoukro,Côte d'Ivoire,West Africa"
+    "b": "Dida,Daloa,Abidjan,Yamoussoukro,CÃ´te d'Ivoire,West Africa"
   },
   {
     "name": "Dima ",
-    "i": 10031,
+    "i": 1701,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15321,7 +15321,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Diri language ",
-    "i": 10032,
+    "i": 1702,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15330,7 +15330,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dimasa ",
-    "i": 10033,
+    "i": 1703,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15339,7 +15339,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dizoid ",
-    "i": 10034,
+    "i": 1704,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15348,7 +15348,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Domaaki ",
-    "i": 10080,
+    "i": 1705,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15357,7 +15357,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dameli ",
-    "i": 10081,
+    "i": 1706,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15366,7 +15366,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dogri ",
-    "i": 10082,
+    "i": 1707,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15375,7 +15375,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Doko ",
-    "i": 10083,
+    "i": 1708,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15384,7 +15384,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dom ",
-    "i": 10084,
+    "i": 1709,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15393,7 +15393,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Domu ",
-    "i": 10130,
+    "i": 1710,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15402,7 +15402,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dongjia ",
-    "i": 10131,
+    "i": 1711,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15411,7 +15411,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dongo ",
-    "i": 10132,
+    "i": 1712,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15420,7 +15420,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dongxiang ",
-    "i": 10133,
+    "i": 1713,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15429,7 +15429,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dorbet Oirat ",
-    "i": 10134,
+    "i": 1714,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15438,7 +15438,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Doromu ",
-    "i": 10180,
+    "i": 1715,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15447,7 +15447,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Douiret language ",
-    "i": 10181,
+    "i": 1716,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15456,7 +15456,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dolpo ",
-    "i": 10182,
+    "i": 1717,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15465,7 +15465,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Darai ",
-    "i": 10183,
+    "i": 1718,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15474,7 +15474,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duan ",
-    "i": 10184,
+    "i": 1719,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15483,7 +15483,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dugwor language ",
-    "i": 10230,
+    "i": 1720,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15492,7 +15492,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duhwa language ",
-    "i": 10231,
+    "i": 1721,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15501,7 +15501,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dullay ",
-    "i": 10232,
+    "i": 1722,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15510,7 +15510,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duna ",
-    "i": 10233,
+    "i": 1723,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15519,7 +15519,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duruwa ",
-    "i": 10234,
+    "i": 1724,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15528,7 +15528,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhd ",
-    "i": 10280,
+    "i": 1725,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15537,7 +15537,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "E mixed ",
-    "i": 10380,
+    "i": 1726,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15546,7 +15546,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Early Modern Korean ",
-    "i": 10381,
+    "i": 1727,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15555,7 +15555,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Bodish ",
-    "i": 10382,
+    "i": 1728,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15564,7 +15564,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Chadic ",
-    "i": 10383,
+    "i": 1729,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15573,7 +15573,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Zenati ",
-    "i": 10384,
+    "i": 1730,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15582,7 +15582,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dinka ",
-    "i": 10430,
+    "i": 1731,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15591,7 +15591,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duan Bahnaric ",
-    "i": 10431,
+    "i": 1732,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15600,7 +15600,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duvle Wano Pidgin ",
-    "i": 10432,
+    "i": 1733,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15609,7 +15609,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duwai language ",
-    "i": 10433,
+    "i": 1734,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15618,7 +15618,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dwz ",
-    "i": 10434,
+    "i": 1735,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15627,7 +15627,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Berber ",
-    "i": 10480,
+    "i": 1736,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15636,16 +15636,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Estonian ",
-    "i": 10481,
+    "i": 1737,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Estonian,Tartu,Põlva,Võru,Estonia,Baltic,Baltic Sea"
+    "b": "Eastern Estonian,Tartu,PÃµlva,VÃµru,Estonia,Baltic,Baltic Sea"
   },
   {
     "name": "Eastern Himalayas ",
-    "i": 10482,
+    "i": 1738,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15654,7 +15654,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Itelmen ",
-    "i": 10483,
+    "i": 1739,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15663,7 +15663,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Mari ",
-    "i": 10484,
+    "i": 1740,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15672,7 +15672,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arh ",
-    "i": 10530,
+    "i": 1741,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15681,7 +15681,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bmr ",
-    "i": 10531,
+    "i": 1742,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15690,7 +15690,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dyula ",
-    "i": 10532,
+    "i": 1743,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15699,7 +15699,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dzando ",
-    "i": 10533,
+    "i": 1744,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15708,7 +15708,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dzao Min ",
-    "i": 10534,
+    "i": 1745,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15717,7 +15717,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Middle Atlas Berber ",
-    "i": 10580,
+    "i": 1746,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15726,7 +15726,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Min ",
-    "i": 10581,
+    "i": 1747,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15735,7 +15735,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Morocco Zenati ",
-    "i": 10582,
+    "i": 1748,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15744,7 +15744,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Savonian ",
-    "i": 10583,
+    "i": 1749,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15753,16 +15753,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern South Estonian ",
-    "i": 10584,
+    "i": 1750,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern South Estonian,Tartu,Võru,Põlva,Estonia,Baltic,Baltic Sea"
+    "b": "Eastern South Estonian,Tartu,VÃµru,PÃµlva,Estonia,Baltic,Baltic Sea"
   },
   {
     "name": "Dzodinka ",
-    "i": 10630,
+    "i": 1751,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15771,16 +15771,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Votic ",
-    "i": 10631,
+    "i": 1752,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Votic,Narva,Värska,Ingria,Estonia,Baltic,Baltic Sea"
+    "b": "Eastern Votic,Narva,VÃ¤rska,Ingria,Estonia,Baltic,Baltic Sea"
   },
   {
     "name": "Eastern Yugur ",
-    "i": 10632,
+    "i": 1753,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15789,7 +15789,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ebira ",
-    "i": 10633,
+    "i": 1754,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15798,7 +15798,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Edolo ",
-    "i": 10634,
+    "i": 1755,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15807,7 +15807,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Egyptian Arabic ",
-    "i": 10680,
+    "i": 1756,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15816,7 +15816,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ekari ",
-    "i": 10681,
+    "i": 1757,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15825,7 +15825,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ekherit Bulagat Buryat ",
-    "i": 10682,
+    "i": 1758,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15834,7 +15834,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ekhirit Bulagat Buryat ",
-    "i": 10683,
+    "i": 1759,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15843,7 +15843,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eman ",
-    "i": 10684,
+    "i": 1760,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15852,16 +15852,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Votic ",
-    "i": 10730,
+    "i": 1761,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Votic,Narva,Värska,Ingria,Estonia,Baltic,Baltic Sea"
+    "b": "Eastern Votic,Narva,VÃ¤rska,Ingria,Estonia,Baltic,Baltic Sea"
   },
   {
     "name": "Eastern Yugur ",
-    "i": 10731,
+    "i": 1762,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15870,7 +15870,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ebira ",
-    "i": 10732,
+    "i": 1763,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15879,7 +15879,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Edolo ",
-    "i": 10733,
+    "i": 1764,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15888,7 +15888,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Egyptian Arabic ",
-    "i": 10734,
+    "i": 1765,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15897,7 +15897,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Enets ",
-    "i": 10780,
+    "i": 1766,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15906,7 +15906,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Enga ",
-    "i": 10781,
+    "i": 1767,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15915,7 +15915,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eravallan ",
-    "i": 10782,
+    "i": 1768,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15924,7 +15924,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ersuic ",
-    "i": 10783,
+    "i": 1769,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15933,7 +15933,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Erzya ",
-    "i": 10784,
+    "i": 1770,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15942,7 +15942,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Zenati ",
-    "i": 10830,
+    "i": 1771,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15950,17 +15950,17 @@ window.realWorldNameBases = [
     "b": "East Zenati,Annaba,Constantine,Skikda,Algeria,Northeast Africa,Mediterranean"
   },
   {
-    "name": "Ese Ömie ",
-    "i": 10831,
+    "name": "Ese Ã–mie ",
+    "i": 1772,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ese Ömie,Kuopio,Haapajärvi,Oulu,Finland,Bothnian,Baltic Sea"
+    "b": "Ese Ã–mie,Kuopio,HaapajÃ¤rvi,Oulu,Finland,Bothnian,Baltic Sea"
   },
   {
     "name": "Esimbi ",
-    "i": 10832,
+    "i": 1773,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15969,7 +15969,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eskimo Trade Jargon ",
-    "i": 10833,
+    "i": 1774,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -15978,25 +15978,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Estonian ",
-    "i": 10834,
+    "i": 1775,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tallinn,Tartu,Narva,Pärnu,Kohtla-Järve,Viljandi,Rakvere,Maardu,Sillamäe,Kuressaare,Võru,Valga"
+    "b": "Tallinn,Tartu,Narva,PÃ¤rnu,Kohtla-JÃ¤rve,Viljandi,Rakvere,Maardu,SillamÃ¤e,Kuressaare,VÃµru,Valga"
   },
   {
     "name": "Basque ",
-    "i": 10835,
+    "i": 1776,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bilbao,Donostia,Gasteiz,Iruña,Barakaldo,Vitoria-Gasteiz,Pamplona,Baiona,Getxo,Hondarribia,Zumaia,Basque Country"
+    "b": "Bilbao,Donostia,Gasteiz,IruÃ±a,Barakaldo,Vitoria-Gasteiz,Pamplona,Baiona,Getxo,Hondarribia,Zumaia,Basque Country"
   },
   {
     "name": "Even ",
-    "i": 10836,
+    "i": 1777,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16005,7 +16005,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ewage ",
-    "i": 10837,
+    "i": 1778,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16014,16 +16014,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ewe ",
-    "i": 10838,
+    "i": 1779,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ewe,Lomé,Kpalimé,Sokodé,Togo,Kumasi,Ghana,Accra,Volta Region,West Africa"
+    "b": "Ewe,LomÃ©,KpalimÃ©,SokodÃ©,Togo,Kumasi,Ghana,Accra,Volta Region,West Africa"
   },
   {
     "name": "Ewenic ",
-    "i": 10839,
+    "i": 1780,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16032,7 +16032,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Faiwol ",
-    "i": 10880,
+    "i": 1781,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16041,7 +16041,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fali of Mubi ",
-    "i": 10881,
+    "i": 1782,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16050,7 +16050,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fanagalo ",
-    "i": 10882,
+    "i": 1783,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16059,16 +16059,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fang Cameroon ",
-    "i": 10883,
+    "i": 1784,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Douala,Yaoundé,Bafoussam,Kribi,Edéa,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
+    "b": "Douala,YaoundÃ©,Bafoussam,Kribi,EdÃ©a,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
   },
   {
     "name": "Fang Equatorial Guinea and Gabon ",
-    "i": 10884,
+    "i": 1785,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16077,7 +16077,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fanji ",
-    "i": 10885,
+    "i": 1786,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16086,7 +16086,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Far Eastern Khanty ",
-    "i": 10886,
+    "i": 1787,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16095,7 +16095,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Farefare ",
-    "i": 10887,
+    "i": 1788,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16104,7 +16104,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fasu ",
-    "i": 10888,
+    "i": 1789,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16113,16 +16113,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fataluku ",
-    "i": 10889,
+    "i": 1790,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lospalos,Baucau,Tutuala,Fatularu,Iliomar,Ossu,Lautém,Timor-Leste,Timor Island,Oceania"
+    "b": "Lospalos,Baucau,Tutuala,Fatularu,Iliomar,Ossu,LautÃ©m,Timor-Leste,Timor Island,Oceania"
   },
   {
     "name": "Dizoid ",
-    "i": 10930,
+    "i": 1791,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16131,7 +16131,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Domaaki ",
-    "i": 10931,
+    "i": 1792,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16140,7 +16140,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dameli ",
-    "i": 10932,
+    "i": 1793,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16149,7 +16149,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dogri ",
-    "i": 10933,
+    "i": 1794,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16158,7 +16158,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Doko-Uyanga ",
-    "i": 10934,
+    "i": 1795,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16167,7 +16167,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dom ",
-    "i": 10935,
+    "i": 1796,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16176,7 +16176,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Domu ",
-    "i": 10936,
+    "i": 1797,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16185,7 +16185,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dongjia ",
-    "i": 10937,
+    "i": 1798,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16194,7 +16194,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dongo ",
-    "i": 10938,
+    "i": 1799,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16203,7 +16203,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dongxiang ",
-    "i": 10939,
+    "i": 1800,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16212,7 +16212,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Daza ",
-    "i": 10980,
+    "i": 1801,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16221,7 +16221,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tsez ",
-    "i": 10981,
+    "i": 1802,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16230,16 +16230,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dida ",
-    "i": 10982,
+    "i": 1803,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Daloa,Abidjan,Yamoussoukro,Issia,San-Pédro,Bonoua,Côte d'Ivoire,West Africa,Ivorian Coast"
+    "b": "Daloa,Abidjan,Yamoussoukro,Issia,San-PÃ©dro,Bonoua,CÃ´te d'Ivoire,West Africa,Ivorian Coast"
   },
   {
     "name": "Dima ",
-    "i": 10983,
+    "i": 1804,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16248,7 +16248,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Diri ",
-    "i": 10984,
+    "i": 1805,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16257,7 +16257,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dimasa ",
-    "i": 10985,
+    "i": 1806,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16266,7 +16266,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dorbet Oirat ",
-    "i": 10986,
+    "i": 1807,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16275,7 +16275,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Doromu ",
-    "i": 10987,
+    "i": 1808,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16284,16 +16284,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Douiret ",
-    "i": 10988,
+    "i": 1809,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Douiret,Chenini,Tataouine,Matmata,Medenine,Gabès,Tunisia,North Africa,Sahara Border"
+    "b": "Douiret,Chenini,Tataouine,Matmata,Medenine,GabÃ¨s,Tunisia,North Africa,Sahara Border"
   },
   {
     "name": "Dolpo ",
-    "i": 10989,
+    "i": 1810,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16302,7 +16302,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dry ",
-    "i": 11030,
+    "i": 1811,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16311,7 +16311,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Duan ",
-    "i": 11031,
+    "i": 1812,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16320,7 +16320,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dzongkha ",
-    "i": 11032,
+    "i": 1813,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16329,7 +16329,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "E ",
-    "i": 11033,
+    "i": 1814,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16338,7 +16338,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Early Modern Korean ",
-    "i": 11034,
+    "i": 1815,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16347,7 +16347,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Bodish ",
-    "i": 11035,
+    "i": 1816,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16356,7 +16356,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "East Chadic ",
-    "i": 11036,
+    "i": 1817,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16365,25 +16365,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ewondo ",
-    "i": 11037,
+    "i": 1818,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaoundé,Douala,Edéa,Bafoussam,Nkongsamba,Kribi,Akonolinga,Eseka,Cameroon,Central Africa"
+    "b": "YaoundÃ©,Douala,EdÃ©a,Bafoussam,Nkongsamba,Kribi,Akonolinga,Eseka,Cameroon,Central Africa"
   },
   {
     "name": "Ewondo Populaire ",
-    "i": 11038,
+    "i": 1819,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaoundé,Cameroon,Populaire Ewondo,Messamemendongo,Kribi,Edéa,Akonolinga,Batouri"
+    "b": "YaoundÃ©,Cameroon,Populaire Ewondo,Messamemendongo,Kribi,EdÃ©a,Akonolinga,Batouri"
   },
   {
     "name": "Favorlang ",
-    "i": 11039,
+    "i": 1820,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16392,7 +16392,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Golin ",
-    "i": 11080,
+    "i": 1821,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16401,7 +16401,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gondi ",
-    "i": 11081,
+    "i": 1822,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16410,7 +16410,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gonga ",
-    "i": 11082,
+    "i": 1823,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16419,7 +16419,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goroka ",
-    "i": 11083,
+    "i": 1824,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16428,7 +16428,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goryeo Korean ",
-    "i": 11084,
+    "i": 1825,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16437,7 +16437,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Grand Valley Dani ",
-    "i": 11085,
+    "i": 1826,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16446,7 +16446,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Grass Koiari ",
-    "i": 11086,
+    "i": 1827,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16455,7 +16455,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greater Siangic ",
-    "i": 11087,
+    "i": 1828,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16464,7 +16464,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greenlandic ",
-    "i": 11088,
+    "i": 1829,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16473,7 +16473,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Garo ",
-    "i": 11089,
+    "i": 1830,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16482,7 +16482,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gan ",
-    "i": 11130,
+    "i": 1831,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16491,7 +16491,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gangwon Dialect ",
-    "i": 11131,
+    "i": 1832,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16500,7 +16500,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gaulish ",
-    "i": 11132,
+    "i": 1833,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16509,7 +16509,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gauwa ",
-    "i": 11133,
+    "i": 1834,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16518,7 +16518,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gawar Language ",
-    "i": 11134,
+    "i": 1835,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16527,7 +16527,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gaya Korean ",
-    "i": 11135,
+    "i": 1836,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16536,7 +16536,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Garhwali ",
-    "i": 11136,
+    "i": 1837,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16545,7 +16545,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Godoberi ",
-    "i": 11137,
+    "i": 1838,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16554,7 +16554,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Geji ",
-    "i": 11138,
+    "i": 1839,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16563,7 +16563,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gejia ",
-    "i": 11139,
+    "i": 1840,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16572,7 +16572,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fe-fe ",
-    "i": 11180,
+    "i": 1841,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16581,7 +16581,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fembe ",
-    "i": 11181,
+    "i": 1842,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16590,7 +16590,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fijian ",
-    "i": 11182,
+    "i": 1843,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16599,16 +16599,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Finnish ",
-    "i": 11183,
+    "i": 1844,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Helsinki,Espoo,Tampere,Vantaa,Oulu,Turku,Jyväskylä,Lahti,Kuopio,Pori,Kouvola,Joensuu"
+    "b": "Helsinki,Espoo,Tampere,Vantaa,Oulu,Turku,JyvÃ¤skylÃ¤,Lahti,Kuopio,Pori,Kouvola,Joensuu"
   },
   {
     "name": "Fio ",
-    "i": 11184,
+    "i": 1845,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16617,7 +16617,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fiwaga ",
-    "i": 11185,
+    "i": 1846,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16626,7 +16626,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Flores-Lembata ",
-    "i": 11186,
+    "i": 1847,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16635,7 +16635,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Foe ",
-    "i": 11187,
+    "i": 1848,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16644,7 +16644,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Foia Foia ",
-    "i": 11188,
+    "i": 1849,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16653,7 +16653,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fon ",
-    "i": 11189,
+    "i": 1850,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16662,7 +16662,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fore ",
-    "i": 11230,
+    "i": 1851,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16671,7 +16671,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Forest Enets ",
-    "i": 11231,
+    "i": 1852,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16680,7 +16680,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Siraya ",
-    "i": 11232,
+    "i": 1853,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16689,7 +16689,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fula ",
-    "i": 11233,
+    "i": 1854,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16698,7 +16698,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Furu ",
-    "i": 11234,
+    "i": 1855,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16707,7 +16707,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fuyug ",
-    "i": 11235,
+    "i": 1856,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16716,7 +16716,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fyer ",
-    "i": 11236,
+    "i": 1857,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16724,17 +16724,17 @@ window.realWorldNameBases = [
     "b": "Fyer,Mubi,Bama,Gwoza,Kukawa,Adamawa State,Nigeria,North East"
   },
   {
-    "name": "Gällivare ",
-    "i": 11237,
+    "name": "GÃ¤llivare ",
+    "i": 1858,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gällivare,Kiruna,Malmberget,Norrbottn,Sweden,Arctic,Lapland,Sami Region"
+    "b": "GÃ¤llivare,Kiruna,Malmberget,Norrbottn,Sweden,Arctic,Lapland,Sami Region"
   },
   {
     "name": "Ga'anda ",
-    "i": 11238,
+    "i": 1859,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16743,7 +16743,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gadang ",
-    "i": 11239,
+    "i": 1860,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16752,16 +16752,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gagauz ",
-    "i": 11280,
+    "i": 1861,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Comrat,Ceadîr-Lunga,Taraclia,Cușelcău,Gagauzia,Moldova,Romania,Balkans"
+    "b": "Comrat,CeadÃ®r-Lunga,Taraclia,CuÈ™elcÄƒu,Gagauzia,Moldova,Romania,Balkans"
   },
   {
     "name": "Galambu ",
-    "i": 11281,
+    "i": 1862,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16770,7 +16770,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Geme ",
-    "i": 11282,
+    "i": 1863,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16779,7 +16779,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gende ",
-    "i": 11283,
+    "i": 1864,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16788,7 +16788,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gendza ",
-    "i": 11284,
+    "i": 1865,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16797,7 +16797,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gengele Creole ",
-    "i": 11285,
+    "i": 1866,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16806,7 +16806,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gera ",
-    "i": 11286,
+    "i": 1867,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16815,7 +16815,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Geruma ",
-    "i": 11287,
+    "i": 1868,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16824,7 +16824,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gurgula ",
-    "i": 11288,
+    "i": 1869,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16832,8 +16832,8 @@ window.realWorldNameBases = [
     "b": "Gurgula,Ngulu,Ngas,Chad,Mandara,North Africa,Chad Basin,Sahara"
   },
   {
-    "name": "Ghadamès ",
-    "i": 11289,
+    "name": "GhadamÃ¨s ",
+    "i": 1870,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16842,7 +16842,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gta ",
-    "i": 11330,
+    "i": 1871,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16851,7 +16851,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guanche ",
-    "i": 11331,
+    "i": 1872,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16860,7 +16860,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gude ",
-    "i": 11332,
+    "i": 1873,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16869,7 +16869,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gudu ",
-    "i": 11333,
+    "i": 1874,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16878,7 +16878,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guduf-Gava ",
-    "i": 11334,
+    "i": 1875,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16887,16 +16887,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guinea-Bissau Creole ",
-    "i": 11335,
+    "i": 1876,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bissau,Bafatá,Bijagós,Guinea-Bissau,West Africa,Lusophone,Atlantic Coast"
+    "b": "Bissau,BafatÃ¡,BijagÃ³s,Guinea-Bissau,West Africa,Lusophone,Atlantic Coast"
   },
   {
     "name": "Guiyang ",
-    "i": 11336,
+    "i": 1877,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16905,7 +16905,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gujarati ",
-    "i": 11337,
+    "i": 1878,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16914,7 +16914,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gullah ",
-    "i": 11338,
+    "i": 1879,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16923,7 +16923,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gurara ",
-    "i": 11339,
+    "i": 1880,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16932,7 +16932,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hdi ",
-    "i": 11430,
+    "i": 1881,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16941,7 +16941,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hezhang Buyi ",
-    "i": 11431,
+    "i": 1882,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16950,7 +16950,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hezhou ",
-    "i": 11432,
+    "i": 1883,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16959,7 +16959,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hiligaynon ",
-    "i": 11433,
+    "i": 1884,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16968,7 +16968,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hill Mari ",
-    "i": 11434,
+    "i": 1885,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16977,7 +16977,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hina ",
-    "i": 11435,
+    "i": 1886,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16986,7 +16986,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hindustani ",
-    "i": 11436,
+    "i": 1887,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -16995,7 +16995,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hiri Motu ",
-    "i": 11437,
+    "i": 1888,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17004,7 +17004,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hkongso ",
-    "i": 11438,
+    "i": 1889,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17013,7 +17013,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Halabi ",
-    "i": 11439,
+    "i": 1890,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17022,7 +17022,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Ghale ",
-    "i": 11480,
+    "i": 1891,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17031,7 +17031,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Ghale ",
-    "i": 11481,
+    "i": 1892,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17040,7 +17040,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ghomara language ",
-    "i": 11482,
+    "i": 1893,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17049,7 +17049,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ghera ",
-    "i": 11483,
+    "i": 1894,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17058,7 +17058,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gidar language ",
-    "i": 11484,
+    "i": 1895,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17067,7 +17067,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hruso ",
-    "i": 11530,
+    "i": 1896,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17076,16 +17076,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Minica Huitoto ",
-    "i": 11531,
+    "i": 1897,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Minica,Huitoto,Meneca,Dĩɨjoma,Igara,Parana,Araracuara,Caguan,Colombia,Amazon"
+    "b": "Minica,Huitoto,Meneca,DÄ©É¨joma,Igara,Parana,Araracuara,Caguan,Colombia,Amazon"
   },
   {
     "name": "Kilba ",
-    "i": 11532,
+    "i": 1898,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17094,7 +17094,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huizhou Chinese ",
-    "i": 11533,
+    "i": 1899,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17103,7 +17103,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huilliche ",
-    "i": 11534,
+    "i": 1900,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17112,7 +17112,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huishui Miao ",
-    "i": 11535,
+    "i": 1901,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17121,7 +17121,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huli ",
-    "i": 11536,
+    "i": 1902,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17130,7 +17130,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Humene ",
-    "i": 11537,
+    "i": 1903,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17139,7 +17139,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hun-Saare ",
-    "i": 11538,
+    "i": 1904,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17148,7 +17148,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hupla ",
-    "i": 11539,
+    "i": 1905,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17157,7 +17157,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hunzib ",
-    "i": 11580,
+    "i": 1906,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17166,7 +17166,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hwana ",
-    "i": 11581,
+    "i": 1907,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17175,7 +17175,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hwanghae Dialect ",
-    "i": 11582,
+    "i": 1908,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17184,7 +17184,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hya ",
-    "i": 11583,
+    "i": 1909,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17193,7 +17193,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iban ",
-    "i": 11584,
+    "i": 1910,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17202,7 +17202,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ibanag ",
-    "i": 11585,
+    "i": 1911,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17211,7 +17211,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Idu-Taraon ",
-    "i": 11586,
+    "i": 1912,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17220,7 +17220,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Igbo ",
-    "i": 11587,
+    "i": 1913,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17229,7 +17229,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iha ",
-    "i": 11588,
+    "i": 1914,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17238,7 +17238,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iitti ",
-    "i": 11589,
+    "i": 1915,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17247,7 +17247,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goaria ",
-    "i": 11630,
+    "i": 1916,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17256,7 +17256,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Giiwo language ",
-    "i": 11631,
+    "i": 1917,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17265,7 +17265,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gimi ",
-    "i": 11632,
+    "i": 1918,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17274,7 +17274,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gurindji Kriol ",
-    "i": 11633,
+    "i": 1919,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17283,7 +17283,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guruntum language ",
-    "i": 11634,
+    "i": 1920,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17292,7 +17292,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guyanese Creole ",
-    "i": 11635,
+    "i": 1921,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17301,7 +17301,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gvoko language ",
-    "i": 11636,
+    "i": 1922,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17310,7 +17310,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gurung ",
-    "i": 11637,
+    "i": 1923,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17319,7 +17319,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gwandara language ",
-    "i": 11638,
+    "i": 1924,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17328,7 +17328,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gawri ",
-    "i": 11639,
+    "i": 1925,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17337,7 +17337,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gowro ",
-    "i": 11640,
+    "i": 1926,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17346,7 +17346,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gawar-Bati ",
-    "i": 11641,
+    "i": 1927,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17355,7 +17355,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gyalrongic ",
-    "i": 11642,
+    "i": 1928,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17364,7 +17364,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gyeonggi-Seoul Dialect ",
-    "i": 11643,
+    "i": 1929,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17373,7 +17373,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gyeongsang Dialect ",
-    "i": 11644,
+    "i": 1930,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17382,7 +17382,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hamtai ",
-    "i": 11645,
+    "i": 1931,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17391,7 +17391,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Han-Samhan ",
-    "i": 11646,
+    "i": 1932,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17400,7 +17400,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hani ",
-    "i": 11647,
+    "i": 1933,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17409,7 +17409,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hausa ",
-    "i": 11648,
+    "i": 1934,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17418,7 +17418,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hausa-Gwandara ",
-    "i": 11649,
+    "i": 1935,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17427,7 +17427,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hawaiian ",
-    "i": 11690,
+    "i": 1936,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17436,7 +17436,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Armenian (Hayeren) ",
-    "i": 11691,
+    "i": 1937,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17445,7 +17445,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Armenian Dialect ",
-    "i": 11692,
+    "i": 1938,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17454,7 +17454,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Modern Armenian ",
-    "i": 11693,
+    "i": 1939,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17463,7 +17463,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Modern Eastern Armenian ",
-    "i": 11694,
+    "i": 1940,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17472,7 +17472,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Modern Western Armenian ",
-    "i": 11695,
+    "i": 1941,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17481,7 +17481,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old Armenian ",
-    "i": 11696,
+    "i": 1942,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17490,7 +17490,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old Cilician Armenian ",
-    "i": 11697,
+    "i": 1943,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17499,7 +17499,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hayu (Vayu) ",
-    "i": 11698,
+    "i": 1944,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17508,7 +17508,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hazara (Hazaragi) ",
-    "i": 11699,
+    "i": 1945,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17517,7 +17517,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Udmurt ",
-    "i": 12427,
+    "i": 1946,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17526,7 +17526,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ilocano native-speakers subset ",
-    "i": 13189,
+    "i": 1947,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17535,7 +17535,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ingush ",
-    "i": 13190,
+    "i": 1948,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17544,7 +17544,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Inoke-Yate ",
-    "i": 13191,
+    "i": 1949,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17553,16 +17553,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Insular Estonian ",
-    "i": 13192,
+    "i": 1950,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kuressaare,Kärdla,Orissaare,Valjala,Muhu,Käina,Emmaste,Pühalepa,Laimjala,Kihelkonna"
+    "b": "Kuressaare,KÃ¤rdla,Orissaare,Valjala,Muhu,KÃ¤ina,Emmaste,PÃ¼halepa,Laimjala,Kihelkonna"
   },
   {
     "name": "Inuktitut-English Pidgin ",
-    "i": 13193,
+    "i": 1951,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17570,17 +17570,17 @@ window.realWorldNameBases = [
     "b": "Iqaluit,Arviat,Rankin Inlet,Baker Lake,Cambridge Bay,Pangnirtung,Kugluktuk,Pond Inlet,Cape Dorset,Gjoa Haven"
   },
   {
-    "name": "Iñupiaq ",
-    "i": 13194,
+    "name": "IÃ±upiaq ",
+    "i": 1952,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Utqiaġvik,Kotzebue,Point Hope,Noorvik,Selawik,Wainwright,Kivalina,Buckland,Kiana,Ambler"
+    "b": "UtqiaÄ¡vik,Kotzebue,Point Hope,Noorvik,Selawik,Wainwright,Kivalina,Buckland,Kiana,Ambler"
   },
   {
     "name": "Inuvialuktun ",
-    "i": 13195,
+    "i": 1953,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17589,25 +17589,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Albanian ",
-    "i": 13239,
+    "i": 1954,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tirana,Pristina,Durrës,Vlorë,Shkodër,Elbasan,Fier,Korçë,Berat,Gjakovë,Pejë,Prizren"
+    "b": "Tirana,Pristina,DurrÃ«s,VlorÃ«,ShkodÃ«r,Elbasan,Fier,KorÃ§Ã«,Berat,GjakovÃ«,PejÃ«,Prizren"
   },
   {
     "name": "Alutaguse ",
-    "i": 13240,
+    "i": 1955,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jõhvi,Narva,Kohtla-Järve,Sillamäe,Kiviõli,Püssi,Oru,Ahtme,Sompa,Viivikonna,Sirgala,Narva-Jõesuu"
+    "b": "JÃµhvi,Narva,Kohtla-JÃ¤rve,SillamÃ¤e,KiviÃµli,PÃ¼ssi,Oru,Ahtme,Sompa,Viivikonna,Sirgala,Narva-JÃµesuu"
   },
   {
     "name": "Antillean Creole ",
-    "i": 13241,
+    "i": 1956,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17616,7 +17616,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bhujel ",
-    "i": 13242,
+    "i": 1957,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17625,7 +17625,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Blackfoot ",
-    "i": 13243,
+    "i": 1958,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17634,7 +17634,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Omaio ",
-    "i": 13339,
+    "i": 1959,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17643,7 +17643,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ongota ",
-    "i": 13340,
+    "i": 1960,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17652,25 +17652,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Puinave ",
-    "i": 13341,
+    "i": 1961,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Inírida,Barrancominas,Mapiripana,San Felipe,Puerto Colombia,Pana-Pana,Puerto Inírida,Guaviare,Vichada,Vaupés,Amazonas,Atabapo"
+    "b": "InÃ­rida,Barrancominas,Mapiripana,San Felipe,Puerto Colombia,Pana-Pana,Puerto InÃ­rida,Guaviare,Vichada,VaupÃ©s,Amazonas,Atabapo"
   },
   {
     "name": "Nukak ",
-    "i": 13342,
+    "i": 1962,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San José del Guaviare,Calamar,Miraflores,El Retorno,Mitú,Carurú,Taraira,Papunaua,Yavaraté,Pacoa,Morichal,Inírida"
+    "b": "San JosÃ© del Guaviare,Calamar,Miraflores,El Retorno,MitÃº,CarurÃº,Taraira,Papunaua,YavaratÃ©,Pacoa,Morichal,InÃ­rida"
   },
   {
     "name": "Yuanmen Hlai ",
-    "i": 13343,
+    "i": 1963,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17679,34 +17679,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Qau ",
-    "i": 13344,
+    "i": 1964,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hà Giang,Đồng Văn,Mèo Vạc,Yên Minh,Quản Bạ,Vị Xuyên,Bắc Mê,Hoàng Su Phì,Xín Mần,Malipo,Maguan,Funing"
+    "b": "HÃ  Giang,Äá»“ng VÄƒn,MÃ¨o Váº¡c,YÃªn Minh,Quáº£n Báº¡,Vá»‹ XuyÃªn,Báº¯c MÃª,HoÃ ng Su PhÃ¬,XÃ­n Máº§n,Malipo,Maguan,Funing"
   },
   {
     "name": "Yanomami ",
-    "i": 13345,
+    "i": 1965,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Surucucu,Catrimani,Toototobi,Paapiú,Demini,Homoxi,Xidea,Ericó,Auaris,Mavaca,Ocamo,Platanal"
+    "b": "Surucucu,Catrimani,Toototobi,PaapiÃº,Demini,Homoxi,Xidea,EricÃ³,Auaris,Mavaca,Ocamo,Platanal"
   },
   {
-    "name": "Sanöma ",
-    "i": 13346,
+    "name": "SanÃ¶ma ",
+    "i": 1966,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Auaris,Ericó,Toototobi,Demini,Homoxi,Xidea,Catrimani,Surucucu,Mavaca,Ocamo,Platanal,Santa Isabel"
+    "b": "Auaris,EricÃ³,Toototobi,Demini,Homoxi,Xidea,Catrimani,Surucucu,Mavaca,Ocamo,Platanal,Santa Isabel"
   },
   {
     "name": "Taman ",
-    "i": 13347,
+    "i": 1967,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17715,7 +17715,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tamangic ",
-    "i": 13348,
+    "i": 1968,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17724,7 +17724,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abinomn ",
-    "i": 13349,
+    "i": 1969,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17733,7 +17733,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abun ",
-    "i": 13350,
+    "i": 1970,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17742,7 +17742,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anem ",
-    "i": 13351,
+    "i": 1971,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17751,7 +17751,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bilua ",
-    "i": 13352,
+    "i": 1972,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17760,7 +17760,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuot ",
-    "i": 13353,
+    "i": 1973,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17769,7 +17769,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kolami ",
-    "i": 13354,
+    "i": 1974,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17778,7 +17778,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koraga ",
-    "i": 13355,
+    "i": 1975,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17787,7 +17787,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kota ",
-    "i": 13356,
+    "i": 1976,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17796,7 +17796,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kudiya ",
-    "i": 13357,
+    "i": 1977,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17805,7 +17805,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kui Dravidian ",
-    "i": 13358,
+    "i": 1978,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17814,7 +17814,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumbaran ",
-    "i": 13359,
+    "i": 1979,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17823,7 +17823,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Paniya ",
-    "i": 13360,
+    "i": 1980,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17832,7 +17832,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pardhan ",
-    "i": 13361,
+    "i": 1981,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17841,7 +17841,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pathiya ",
-    "i": 13362,
+    "i": 1982,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17850,7 +17850,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tidikelt Berber ",
-    "i": 13363,
+    "i": 1983,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17859,16 +17859,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Isthmus Zapotec ",
-    "i": 13364,
+    "i": 1984,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Juchitán de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,Unión Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
+    "b": "JuchitÃ¡n de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,UniÃ³n Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
   },
   {
     "name": "Italian Eritrean ",
-    "i": 13365,
+    "i": 1985,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17877,16 +17877,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Italo-Paulista ",
-    "i": 13366,
+    "i": 1986,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mooca,Bixiga,Brás,Bom Retiro,Liberdade,Ipiranga,Santana,Santo Amaro,Vila Mariana,Penha"
+    "b": "Mooca,Bixiga,BrÃ¡s,Bom Retiro,Liberdade,Ipiranga,Santana,Santo Amaro,Vila Mariana,Penha"
   },
   {
     "name": "Itelmen ",
-    "i": 13367,
+    "i": 1987,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17895,16 +17895,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Itza ",
-    "i": 13368,
+    "i": 1988,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San José,Flores,Santa Elena,San Benito,Sayaxché,Poptún,Melchor de Mencos,La Libertad,Dolores,San Luis"
+    "b": "San JosÃ©,Flores,Santa Elena,San Benito,SayaxchÃ©,PoptÃºn,Melchor de Mencos,La Libertad,Dolores,San Luis"
   },
   {
     "name": "Iu Mien ",
-    "i": 13369,
+    "i": 1989,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17913,7 +17913,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Izhma ",
-    "i": 13370,
+    "i": 1990,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17922,7 +17922,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Joseon Korean Early Modern ",
-    "i": 13371,
+    "i": 1991,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17931,7 +17931,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Joseon Korean Middle ",
-    "i": 13372,
+    "i": 1992,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17940,7 +17940,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Joseon Korean Modern ",
-    "i": 13373,
+    "i": 1993,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17949,7 +17949,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Japanese macro ",
-    "i": 13374,
+    "i": 1994,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17958,7 +17958,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judeo-Berber ",
-    "i": 13375,
+    "i": 1995,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17967,7 +17967,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Juk ",
-    "i": 13376,
+    "i": 1996,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17976,7 +17976,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jirel ",
-    "i": 13377,
+    "i": 1997,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17985,7 +17985,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kam-Tai ",
-    "i": 13378,
+    "i": 1998,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -17994,7 +17994,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamang ",
-    "i": 13379,
+    "i": 1999,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18003,7 +18003,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamasa ",
-    "i": 13380,
+    "i": 2000,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18012,7 +18012,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamassian ",
-    "i": 13381,
+    "i": 2001,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18021,7 +18021,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kambaira ",
-    "i": 13382,
+    "i": 2002,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18030,7 +18030,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamberau ",
-    "i": 13383,
+    "i": 2003,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18039,7 +18039,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Ron ",
-    "i": 13439,
+    "i": 2004,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18048,7 +18048,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Warji ",
-    "i": 13440,
+    "i": 2005,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18057,7 +18057,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khmu ",
-    "i": 13441,
+    "i": 2006,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18066,7 +18066,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuy ",
-    "i": 13442,
+    "i": 2007,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18075,7 +18075,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Katuic ",
-    "i": 13443,
+    "i": 2008,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18084,7 +18084,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khmuic ",
-    "i": 13444,
+    "i": 2009,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18093,7 +18093,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Bauchi family ",
-    "i": 13445,
+    "i": 2010,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18102,7 +18102,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ron family ",
-    "i": 13446,
+    "i": 2011,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18111,7 +18111,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Bauchi family ",
-    "i": 13447,
+    "i": 2012,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18120,7 +18120,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "West Chadic family ",
-    "i": 13448,
+    "i": 2013,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18129,7 +18129,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto Tibeto Burman ",
-    "i": 13449,
+    "i": 2014,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18138,7 +18138,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tibeto Burman ",
-    "i": 13450,
+    "i": 2015,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18147,7 +18147,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sal ",
-    "i": 13451,
+    "i": 2016,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18156,7 +18156,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karakalpak ",
-    "i": 13489,
+    "i": 2017,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18165,7 +18165,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karagas ",
-    "i": 13490,
+    "i": 2018,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18174,7 +18174,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kar ",
-    "i": 13491,
+    "i": 2019,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18183,7 +18183,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karas ",
-    "i": 13492,
+    "i": 2020,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18192,7 +18192,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karasuk ",
-    "i": 13493,
+    "i": 2021,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18201,7 +18201,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Haida ",
-    "i": 13539,
+    "i": 2022,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18210,7 +18210,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hrusish ",
-    "i": 13540,
+    "i": 2023,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18219,7 +18219,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ikobi ",
-    "i": 13541,
+    "i": 2024,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18228,7 +18228,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ilocano ",
-    "i": 13542,
+    "i": 2025,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18237,7 +18237,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "International Sign ",
-    "i": 13543,
+    "i": 2026,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18246,7 +18246,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ipiko ",
-    "i": 13544,
+    "i": 2027,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18255,7 +18255,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ipili ",
-    "i": 13545,
+    "i": 2028,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18264,7 +18264,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iranun ",
-    "i": 13546,
+    "i": 2029,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18273,7 +18273,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Isabi ",
-    "i": 13547,
+    "i": 2030,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18282,7 +18282,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Isan ",
-    "i": 13548,
+    "i": 2031,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18291,16 +18291,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Isthmus Zapotec ",
-    "i": 13549,
+    "i": 2032,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Juchitán,Tehuantepec,Salina Cruz,Ixtepec,Espinal,Ixtaltepec,Comitancillo,Xadani,San Blas Atempa,Santa Maria Petapa,Santo Domingo Chihuitán,San Pedro Comitancillo,Santa Maria Mixtequilla,San Pedro Huilotepec"
+    "b": "JuchitÃ¡n,Tehuantepec,Salina Cruz,Ixtepec,Espinal,Ixtaltepec,Comitancillo,Xadani,San Blas Atempa,Santa Maria Petapa,Santo Domingo ChihuitÃ¡n,San Pedro Comitancillo,Santa Maria Mixtequilla,San Pedro Huilotepec"
   },
   {
     "name": "Italian Eritrean ",
-    "i": 13550,
+    "i": 2033,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18309,16 +18309,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Italo-Paulista ",
-    "i": 13551,
+    "i": 2034,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "São Paulo,Santos,Campinas,Jundiaí,Sorocaba,Ribeirão Preto,São José dos Campos,Santo André,Osasco,São Bernardo do Campo,Piracicaba,Mogi das Cruzes,São José do Rio Preto,Bauru"
+    "b": "SÃ£o Paulo,Santos,Campinas,JundiaÃ­,Sorocaba,RibeirÃ£o Preto,SÃ£o JosÃ© dos Campos,Santo AndrÃ©,Osasco,SÃ£o Bernardo do Campo,Piracicaba,Mogi das Cruzes,SÃ£o JosÃ© do Rio Preto,Bauru"
   },
   {
     "name": "Itelmen ",
-    "i": 13552,
+    "i": 2035,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18327,7 +18327,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Itza ",
-    "i": 13553,
+    "i": 2036,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18336,7 +18336,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Iu Mien ",
-    "i": 13554,
+    "i": 2037,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18345,7 +18345,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Izhma ",
-    "i": 13555,
+    "i": 2038,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18354,7 +18354,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jimi ",
-    "i": 13556,
+    "i": 2039,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18363,7 +18363,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Joseon Korean Early Modern ",
-    "i": 13557,
+    "i": 2040,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18372,7 +18372,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Joseon Korean Middle ",
-    "i": 13558,
+    "i": 2041,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18381,7 +18381,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kolami ",
-    "i": 13589,
+    "i": 2042,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18390,7 +18390,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koraga ",
-    "i": 13590,
+    "i": 2043,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18399,7 +18399,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kota ",
-    "i": 13591,
+    "i": 2044,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18408,7 +18408,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kudiya ",
-    "i": 13592,
+    "i": 2045,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18417,7 +18417,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kui Dravidian ",
-    "i": 13593,
+    "i": 2046,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18426,7 +18426,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumbaran ",
-    "i": 13594,
+    "i": 2047,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18435,7 +18435,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Paniya ",
-    "i": 13595,
+    "i": 2048,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18444,7 +18444,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pardhan ",
-    "i": 13596,
+    "i": 2049,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18453,7 +18453,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pathiya ",
-    "i": 13597,
+    "i": 2050,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18462,7 +18462,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tidikelt Berber ",
-    "i": 13598,
+    "i": 2051,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18471,25 +18471,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tuareg Berber ",
-    "i": 13599,
+    "i": 2052,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tamanrasset,Agadez,Timbuktu,Kidal,Gao,Menaka,Tahoua,Arlit,Iférouane,In-Gall,Dirkou,Bilma"
+    "b": "Tamanrasset,Agadez,Timbuktu,Kidal,Gao,Menaka,Tahoua,Arlit,IfÃ©rouane,In-Gall,Dirkou,Bilma"
   },
   {
     "name": "Tuareg languages ",
-    "i": 13600,
+    "i": 2053,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tessalit,Bourem,Gossi,Ansongo,Gourma-Rharous,Abeibara,Tin-Essako,Tidermène,Alata,Inekar,Aderbissinat,Tabelot"
+    "b": "Tessalit,Bourem,Gossi,Ansongo,Gourma-Rharous,Abeibara,Tin-Essako,TidermÃ¨ne,Alata,Inekar,Aderbissinat,Tabelot"
   },
   {
     "name": "Tuwat Berber ",
-    "i": 13601,
+    "i": 2054,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18498,43 +18498,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Berber ",
-    "i": 13602,
+    "i": 2055,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mederdra,Tiguent,Rosso,Keur Massène,Boutilimit,Aleg,Boghé,Bababé,Kaédi,Selibaby,Maghama,M'Bagne"
+    "b": "Mederdra,Tiguent,Rosso,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,BababÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
   },
   {
     "name": "Western Berber family ",
-    "i": 13603,
+    "i": 2056,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur Massène,Boutilimit,Aleg,Boghé,Kaédi,Selibaby,Maghama,M'Bagne"
+    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
   },
   {
     "name": "Zenaga Berber ",
-    "i": 13604,
+    "i": 2057,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mederdra,Tiguent,Rosso,Keur Massène,Boutilimit,Aleg,Boghé,Bababé,Kaédi,Selibaby,Maghama,M'Bagne,Ould Yengé,Gouraye,Khabou,Ghabou,Arr,Wompou,Tachott,Hassi Cheggar,Boully,Dafort,Bouanzé,Souvi,Baydam,Ganki,Niéléba,Diaguili,Koumbou,N'Diago,N'Tekane,Lexeiba,Monguel,M'Bout,Foum Gleita,Barkeol,Guerou,Kiffa,Kankossa,Tamchakett,Aioun,Tintane,Kobenni,Djiguenni,Amourj,Bassikounou,Nema,Walata,Tichit,Ouadane"
+    "b": "Mederdra,Tiguent,Rosso,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,BababÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne,Ould YengÃ©,Gouraye,Khabou,Ghabou,Arr,Wompou,Tachott,Hassi Cheggar,Boully,Dafort,BouanzÃ©,Souvi,Baydam,Ganki,NiÃ©lÃ©ba,Diaguili,Koumbou,N'Diago,N'Tekane,Lexeiba,Monguel,M'Bout,Foum Gleita,Barkeol,Guerou,Kiffa,Kankossa,Tamchakett,Aioun,Tintane,Kobenni,Djiguenni,Amourj,Bassikounou,Nema,Walata,Tichit,Ouadane"
   },
   {
     "name": "Zenati languages ",
-    "i": 13605,
+    "i": 2058,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Batna,Khenchela,Oum el Bouaghi,Tébessa,Biskra,Sétif,Bordj Bou Arréridj,M'Sila,Djelfa,Laghouat,Tiaret,Saida"
+    "b": "Batna,Khenchela,Oum el Bouaghi,TÃ©bessa,Biskra,SÃ©tif,Bordj Bou ArrÃ©ridj,M'Sila,Djelfa,Laghouat,Tiaret,Saida"
   },
   {
     "name": "Ambakich ",
-    "i": 13606,
+    "i": 2059,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18543,7 +18543,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ap Ma ",
-    "i": 13607,
+    "i": 2060,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18552,7 +18552,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asabano ",
-    "i": 13608,
+    "i": 2061,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18561,7 +18561,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bogaya ",
-    "i": 13609,
+    "i": 2062,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18570,7 +18570,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burmeso ",
-    "i": 13610,
+    "i": 2063,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18579,7 +18579,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mpur ",
-    "i": 13611,
+    "i": 2064,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18588,7 +18588,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Maibrat ",
-    "i": 13612,
+    "i": 2065,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18597,7 +18597,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mor ",
-    "i": 13613,
+    "i": 2066,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18606,7 +18606,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Elseng ",
-    "i": 13614,
+    "i": 2067,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18615,7 +18615,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kapauri ",
-    "i": 13615,
+    "i": 2068,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18624,7 +18624,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Formosan ",
-    "i": 13639,
+    "i": 2069,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18633,7 +18633,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Luzon ",
-    "i": 13640,
+    "i": 2070,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18642,7 +18642,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Mindoro ",
-    "i": 13641,
+    "i": 2071,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18651,16 +18651,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Philippine ",
-    "i": 13642,
+    "i": 2072,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Manila,Quezon City,Cebu City,Davao City,Zamboanga City,Antipolo,Pasig,Taguig,Valenzuela,Dasmariñas,Bacoor,General Santos"
+    "b": "Manila,Quezon City,Cebu City,Davao City,Zamboanga City,Antipolo,Pasig,Taguig,Valenzuela,DasmariÃ±as,Bacoor,General Santos"
   },
   {
     "name": "South Mindanao ",
-    "i": 13643,
+    "i": 2073,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18669,7 +18669,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tsouic ",
-    "i": 13644,
+    "i": 2074,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18678,7 +18678,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greater Central Philippine ",
-    "i": 13645,
+    "i": 2075,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18687,7 +18687,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Batanic ",
-    "i": 13646,
+    "i": 2076,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18696,16 +18696,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Luzon ",
-    "i": 13647,
+    "i": 2077,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,Muñoz,San Jose"
+    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,MuÃ±oz,San Jose"
   },
   {
     "name": "Georgian dialects ",
-    "i": 13648,
+    "i": 2078,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18714,7 +18714,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Old Georgian ",
-    "i": 13649,
+    "i": 2079,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18722,8 +18722,8 @@ window.realWorldNameBases = [
     "b": "Mtskheta,Uplistsikhe,Vardzia,Gelati,Nekresi,Bolnisi,Samshvilde,Ateni,Dmanisi,Gremi,Zarzma,Sapara"
   },
   {
-    "name": "Proto-Georgian–Zan ",
-    "i": 13650,
+    "name": "Proto-Georgianâ€“Zan ",
+    "i": 2080,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18732,7 +18732,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Kartvelian ",
-    "i": 13651,
+    "i": 2081,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18741,7 +18741,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zan languages ",
-    "i": 13652,
+    "i": 2082,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18750,7 +18750,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Judaeo-Georgian ",
-    "i": 13653,
+    "i": 2083,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18758,8 +18758,8 @@ window.realWorldNameBases = [
     "b": "Tbilisi,Kutaisi,Akhaltsikhe,Oni,Kulashi,Sachkhere,Laituri,Surami,Kareli,Gori,Batumi,Poti"
   },
   {
-    "name": "Georgian–Zan ",
-    "i": 13654,
+    "name": "Georgianâ€“Zan ",
+    "i": 2084,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18768,7 +18768,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kartvelian languages ",
-    "i": 13655,
+    "i": 2085,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18777,7 +18777,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Samoyedic ",
-    "i": 13656,
+    "i": 2086,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18786,7 +18786,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Itelmen ",
-    "i": 13657,
+    "i": 2087,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18795,7 +18795,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamchatkan ",
-    "i": 13658,
+    "i": 2088,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18804,7 +18804,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kerek ",
-    "i": 13659,
+    "i": 2089,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18813,7 +18813,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ket ",
-    "i": 13660,
+    "i": 2090,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18822,7 +18822,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koryak ",
-    "i": 13661,
+    "i": 2091,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18831,7 +18831,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kott ",
-    "i": 13662,
+    "i": 2092,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18840,7 +18840,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Telugu ",
-    "i": 13663,
+    "i": 2093,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18848,8 +18848,8 @@ window.realWorldNameBases = [
     "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Kurnool,Rajahmundry,Tirupati,Kakinada,Anantapur,Kadapa,Nizamabad"
   },
   {
-    "name": "Setlôkwa ",
-    "i": 13664,
+    "name": "SetlÃ´kwa ",
+    "i": 2094,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18858,7 +18858,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shanjo ",
-    "i": 13665,
+    "i": 2095,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18867,7 +18867,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Soli ",
-    "i": 13666,
+    "i": 2096,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18876,7 +18876,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Suba-Simbiti ",
-    "i": 13667,
+    "i": 2097,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -18885,7 +18885,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kamono ",
-    "i": 13668,
+    "i": 2098,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18894,7 +18894,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kanak ",
-    "i": 13669,
+    "i": 2099,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18903,7 +18903,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kanasi ",
-    "i": 13670,
+    "i": 2100,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18912,7 +18912,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kandawo ",
-    "i": 13671,
+    "i": 2101,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18921,7 +18921,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kangjia ",
-    "i": 13672,
+    "i": 2102,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18930,7 +18930,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kanite ",
-    "i": 13673,
+    "i": 2103,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18939,7 +18939,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kannada ",
-    "i": 13674,
+    "i": 2104,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18948,7 +18948,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kanuri ",
-    "i": 13675,
+    "i": 2105,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18957,7 +18957,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kap ",
-    "i": 13676,
+    "i": 2106,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18966,7 +18966,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kapampangan ",
-    "i": 13677,
+    "i": 2107,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18975,7 +18975,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karbi ",
-    "i": 13678,
+    "i": 2108,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18984,7 +18984,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karelian ",
-    "i": 13679,
+    "i": 2109,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -18993,7 +18993,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karelian proper ",
-    "i": 13680,
+    "i": 2110,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19002,7 +19002,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karenic ",
-    "i": 13681,
+    "i": 2111,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19011,7 +19011,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kashinawa ",
-    "i": 13682,
+    "i": 2112,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19020,7 +19020,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kashmiri ",
-    "i": 13683,
+    "i": 2113,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19029,7 +19029,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kathu ",
-    "i": 13684,
+    "i": 2114,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19037,8 +19037,8 @@ window.realWorldNameBases = [
     "b": "kathu,Wenshan,Maguan,Malipo,Funing,Xichou,Guangnan,Yanshan,Qiubei,Ha-Giang,Dong-Van,Meo-Vac,Yen-Minh"
   },
   {
-    "name": "Camsá ",
-    "i": 13685,
+    "name": "CamsÃ¡ ",
+    "i": 2115,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19047,7 +19047,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kabutra ",
-    "i": 13686,
+    "i": 2116,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19056,7 +19056,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koch ",
-    "i": 13687,
+    "i": 2117,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19065,7 +19065,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Loyalties-New Caledonia ",
-    "i": 13689,
+    "i": 2118,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19074,7 +19074,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "North Vanuatu ",
-    "i": 13690,
+    "i": 2119,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19083,7 +19083,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "South Vanuatu ",
-    "i": 13691,
+    "i": 2120,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19092,7 +19092,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southeast Solomonic ",
-    "i": 13692,
+    "i": 2121,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19101,7 +19101,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Oceanic ",
-    "i": 13693,
+    "i": 2122,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19110,7 +19110,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "St. Matthias ",
-    "i": 13694,
+    "i": 2123,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19119,7 +19119,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Temotu ",
-    "i": 13695,
+    "i": 2124,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19128,7 +19128,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Vanuatu ",
-    "i": 13696,
+    "i": 2125,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19137,7 +19137,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Oceanic ",
-    "i": 13697,
+    "i": 2126,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19146,7 +19146,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tai Meuay ",
-    "i": 13698,
+    "i": 2127,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19155,7 +19155,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Kra ",
-    "i": 13699,
+    "i": 2128,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19164,7 +19164,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nadou ",
-    "i": 13700,
+    "i": 2129,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19173,7 +19173,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mulao Kra ",
-    "i": 13701,
+    "i": 2130,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19182,7 +19182,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shan ",
-    "i": 13702,
+    "i": 2131,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19191,7 +19191,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tani ",
-    "i": 13703,
+    "i": 2132,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19200,7 +19200,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mising ",
-    "i": 13704,
+    "i": 2133,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19208,8 +19208,8 @@ window.realWorldNameBases = [
     "b": "Dhemaji,Lakhimpur,Sonitpur,Tinsukia,Dibrugarh,Sivasagar,Jorhat,Golaghat,Majuli,Brahmaputra,Subansiri,Siang,Lohit,Dibang,Ali-Aye-Ligang,Assam,Arunachal-Pradesh,Adi,Nyishi,Galo,Tagin,Apatani,Jonai,Silapathar,Gogamukh,Dhakuakhana,Bihpuria,Narayanpur,Panigaon,Telam,Simen-Chapori,Dekapam,Akajan,Kulajan,Silasuti,Bahir-Jonai,Beramjia,Pub-Jonai,Dimow,Sissiborgaon,Jiadhal,Machkhowa,Kherkata,Luit-Poriya,Disangmukh,Jengraimukh,Garmur,Kamalabari,Salmora,Auniati"
   },
   {
-    "name": "Ke’yagana ",
-    "i": 13705,
+    "name": "Keâ€™yagana ",
+    "i": 2134,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19218,7 +19218,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kei-Tanimbar ",
-    "i": 13706,
+    "i": 2135,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19227,7 +19227,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kemi ",
-    "i": 13707,
+    "i": 2136,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19235,8 +19235,8 @@ window.realWorldNameBases = [
     "b": "Kemi,Tornio,Simo,Tervola,Keminmaa,Ranua,Posio,Rovaniemi,Ii,Haukipudas,Kiiminki,Oulu"
   },
   {
-    "name": "Kemijärvi ",
-    "i": 13708,
+    "name": "KemijÃ¤rvi ",
+    "i": 2137,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19245,7 +19245,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kenaboi ",
-    "i": 13709,
+    "i": 2138,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19253,8 +19253,8 @@ window.realWorldNameBases = [
     "b": "Seremban,Kuala-Pilah,Bahau,Jelebu,Rembau,Tampin,Port-Dickson,Nilai,Senawang,Mantin,Bentong,Temerloh"
   },
   {
-    "name": "Keuruu-Evijärvi ",
-    "i": 13710,
+    "name": "Keuruu-EvijÃ¤rvi ",
+    "i": 2139,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19263,7 +19263,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kewa ",
-    "i": 13711,
+    "i": 2140,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19272,7 +19272,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kacchi ",
-    "i": 13712,
+    "i": 2141,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19281,7 +19281,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumaoni ",
-    "i": 13713,
+    "i": 2142,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19290,7 +19290,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kusunda ",
-    "i": 13714,
+    "i": 2143,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19299,7 +19299,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dura Tandrange ",
-    "i": 13715,
+    "i": 2144,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -19308,16 +19308,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Garifuna ",
-    "i": 13716,
+    "i": 2145,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dangriga,Hopkins,Seine Bight,Placencia,Punta Gorda,Barranco,Livingston,Puerto Barrios,Trujillo,La Ceiba,Sambo Creek,Corozal,Punta Negra,Monkey River,Big Creek,Limon,Iriona,Puerto Castilla,Santa Rosa Aguan,Nuevo San Juan,Masca,Triunfo de la Cruz,San Juan Tela,Miami Village,La Ensenada,Puerto Cortes,Omoa,Puerto Lempira,Brus Laguna,Palacios,Santa Fe,San Antonio,Guadalupe,Batalla,Pueblo Nuevo,Plaplaya,Ibans,Cocobila,Raista,Belén"
+    "b": "Dangriga,Hopkins,Seine Bight,Placencia,Punta Gorda,Barranco,Livingston,Puerto Barrios,Trujillo,La Ceiba,Sambo Creek,Corozal,Punta Negra,Monkey River,Big Creek,Limon,Iriona,Puerto Castilla,Santa Rosa Aguan,Nuevo San Juan,Masca,Triunfo de la Cruz,San Juan Tela,Miami Village,La Ensenada,Puerto Cortes,Omoa,Puerto Lempira,Brus Laguna,Palacios,Santa Fe,San Antonio,Guadalupe,Batalla,Pueblo Nuevo,Plaplaya,Ibans,Cocobila,Raista,BelÃ©n"
   },
   {
     "name": "Gaelic ",
-    "i": 13717,
+    "i": 2146,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -19326,7 +19326,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gong ",
-    "i": 13718,
+    "i": 2147,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -19335,7 +19335,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gongduk ",
-    "i": 13719,
+    "i": 2148,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -19344,7 +19344,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Admiralty ",
-    "i": 13720,
+    "i": 2149,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19353,7 +19353,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afroasiatic family ",
-    "i": 13721,
+    "i": 2150,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19362,7 +19362,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Alor-Pantar ",
-    "i": 13722,
+    "i": 2151,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19371,7 +19371,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Angas family ",
-    "i": 13723,
+    "i": 2152,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19380,7 +19380,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Anim languages ",
-    "i": 13724,
+    "i": 2153,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19389,7 +19389,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aru ",
-    "i": 13725,
+    "i": 2154,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19398,7 +19398,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aslian languages ",
-    "i": 13726,
+    "i": 2155,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19407,7 +19407,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awin-Pa ",
-    "i": 13727,
+    "i": 2156,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19416,7 +19416,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awyu-Dumut ",
-    "i": 13728,
+    "i": 2157,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19425,7 +19425,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bade family ",
-    "i": 13729,
+    "i": 2158,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19434,7 +19434,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khowar ",
-    "i": 13739,
+    "i": 2159,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19443,7 +19443,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khwarshi ",
-    "i": 13740,
+    "i": 2160,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19452,7 +19452,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiautschou Pidgin German ",
-    "i": 13741,
+    "i": 2161,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19461,7 +19461,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kichwa ",
-    "i": 13742,
+    "i": 2162,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19470,7 +19470,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiga ",
-    "i": 13743,
+    "i": 2163,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19479,7 +19479,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiliwa ",
-    "i": 13744,
+    "i": 2164,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19488,7 +19488,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kikar ",
-    "i": 13745,
+    "i": 2165,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19497,7 +19497,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kikuyu ",
-    "i": 13746,
+    "i": 2166,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19506,7 +19506,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kim Mun ",
-    "i": 13747,
+    "i": 2167,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19515,7 +19515,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kimaama-Kimaghama ",
-    "i": 13748,
+    "i": 2168,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19524,7 +19524,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kinyarwanda ",
-    "i": 13749,
+    "i": 2169,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19533,7 +19533,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kirundi ",
-    "i": 13750,
+    "i": 2170,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19542,7 +19542,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kongo ",
-    "i": 13751,
+    "i": 2171,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19551,7 +19551,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Central Vanuatu ",
-    "i": 13789,
+    "i": 2172,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19560,16 +19560,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Eastern Oceanic ",
-    "i": 13790,
+    "i": 2173,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Honiara,Port Vila,Suva,Nuku'alofa,Apia,Nouméa,Mata-Utu,Alofi,Avarua,Adamstown,Papeete,Majuro"
+    "b": "Honiara,Port Vila,Suva,Nuku'alofa,Apia,NoumÃ©a,Mata-Utu,Alofi,Avarua,Adamstown,Papeete,Majuro"
   },
   {
     "name": "Meso-Melanesian ",
-    "i": 13791,
+    "i": 2174,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19578,16 +19578,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Oceanic ",
-    "i": 13792,
+    "i": 2175,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Funafuti,Tarawa,Yaren,Palikir,Majuro,Port Vila,Honiara,Suva,Nuku'alofa,Apia,Nouméa,Mata-Utu"
+    "b": "Funafuti,Tarawa,Yaren,Palikir,Majuro,Port Vila,Honiara,Suva,Nuku'alofa,Apia,NoumÃ©a,Mata-Utu"
   },
   {
     "name": "Binanderean ",
-    "i": 13793,
+    "i": 2176,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19596,7 +19596,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kutubuan languages ",
-    "i": 13794,
+    "i": 2177,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19605,7 +19605,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Goilalan ",
-    "i": 13795,
+    "i": 2178,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19614,7 +19614,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kolopom ",
-    "i": 13796,
+    "i": 2179,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19623,7 +19623,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Damal ",
-    "i": 13797,
+    "i": 2180,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19632,7 +19632,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dem ",
-    "i": 13798,
+    "i": 2181,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19641,7 +19641,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dibiyaso ",
-    "i": 13799,
+    "i": 2182,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19650,7 +19650,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guriaso ",
-    "i": 13800,
+    "i": 2183,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19659,7 +19659,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kaki Ae ",
-    "i": 13801,
+    "i": 2184,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19668,7 +19668,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karami ",
-    "i": 13802,
+    "i": 2185,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19677,7 +19677,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kehu ",
-    "i": 13803,
+    "i": 2186,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19685,8 +19685,8 @@ window.realWorldNameBases = [
     "b": "Kehu,West-Papua,Nabire,Enarotali,Moanemani,Mapia,Siriwo,Uwapa,Wanggar,Yaur,Teluk-Etna,Kaimana"
   },
   {
-    "name": "Kaiwá ",
-    "i": 13804,
+    "name": "KaiwÃ¡ ",
+    "i": 2187,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19695,7 +19695,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kaingang ",
-    "i": 13805,
+    "i": 2188,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19704,7 +19704,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khasi ",
-    "i": 13806,
+    "i": 2189,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19713,7 +19713,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lyngngam ",
-    "i": 13807,
+    "i": 2190,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19722,7 +19722,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khasi native-speakers subset ",
-    "i": 13808,
+    "i": 2191,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19731,7 +19731,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pnar ",
-    "i": 13809,
+    "i": 2192,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19740,7 +19740,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "War Khasi ",
-    "i": 13810,
+    "i": 2193,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19749,7 +19749,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khakas ",
-    "i": 13811,
+    "i": 2194,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19758,7 +19758,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kham ",
-    "i": 13812,
+    "i": 2195,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19767,7 +19767,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khamnigan Mongol ",
-    "i": 13813,
+    "i": 2196,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19776,7 +19776,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khams Tibetan ",
-    "i": 13814,
+    "i": 2197,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19785,7 +19785,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khamti ",
-    "i": 13815,
+    "i": 2198,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19794,7 +19794,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khamyang ",
-    "i": 13816,
+    "i": 2199,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19803,7 +19803,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kharia ",
-    "i": 13817,
+    "i": 2200,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19812,7 +19812,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khmer ",
-    "i": 13818,
+    "i": 2201,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19821,7 +19821,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khe Khmer ",
-    "i": 13819,
+    "i": 2202,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19830,7 +19830,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Khmer ",
-    "i": 13820,
+    "i": 2203,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19839,7 +19839,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kho Bwa ",
-    "i": 13821,
+    "i": 2204,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19848,7 +19848,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khori Buryat ",
-    "i": 13822,
+    "i": 2205,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19857,7 +19857,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khortha ",
-    "i": 13823,
+    "i": 2206,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19866,7 +19866,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Agarabi ",
-    "i": 13824,
+    "i": 2207,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19875,7 +19875,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Agaw ",
-    "i": 13825,
+    "i": 2208,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19884,7 +19884,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aghu ",
-    "i": 13826,
+    "i": 2209,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19893,16 +19893,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awakatek ",
-    "i": 13827,
+    "i": 2210,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Aguacatán,Huehuetenango,Chiantla,Malacatancito,Cuilco,Nentón,San Pedro Soloma,Ixtahuacán,Todos Santos,Colotenango,San Juan Atitán,Santa Eulalia"
+    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San Pedro Soloma,IxtahuacÃ¡n,Todos Santos,Colotenango,San Juan AtitÃ¡n,Santa Eulalia"
   },
   {
     "name": "Ahom ",
-    "i": 13828,
+    "i": 2211,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19911,7 +19911,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ahirani ",
-    "i": 13829,
+    "i": 2212,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19920,7 +19920,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ahtna ",
-    "i": 13830,
+    "i": 2213,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19929,7 +19929,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ai Cham ",
-    "i": 13831,
+    "i": 2214,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19938,7 +19938,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aimele ",
-    "i": 13832,
+    "i": 2215,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19947,7 +19947,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ainu ",
-    "i": 13833,
+    "i": 2216,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19956,7 +19956,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Air Tamajeq language ",
-    "i": 13834,
+    "i": 2217,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19965,7 +19965,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nataoran ",
-    "i": 13835,
+    "i": 2218,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19974,7 +19974,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ait Seghrouchen Berber ",
-    "i": 13836,
+    "i": 2219,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19983,7 +19983,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aiton ",
-    "i": 13837,
+    "i": 2220,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -19992,7 +19992,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ajawa language ",
-    "i": 13838,
+    "i": 2221,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20001,7 +20001,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akan ",
-    "i": 13839,
+    "i": 2222,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20010,7 +20010,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aka-Jeru ",
-    "i": 13840,
+    "i": 2223,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20019,7 +20019,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akkadian ",
-    "i": 13841,
+    "i": 2224,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20028,7 +20028,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aka-Bo ",
-    "i": 13842,
+    "i": 2225,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20037,7 +20037,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akoye ",
-    "i": 13843,
+    "i": 2226,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20046,7 +20046,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Udmurt ",
-    "i": 13844,
+    "i": 2227,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20055,7 +20055,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Udmurt ",
-    "i": 13845,
+    "i": 2228,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20064,7 +20064,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Meadow Mari ",
-    "i": 13846,
+    "i": 2229,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20073,7 +20073,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Meadow Mari Proper ",
-    "i": 13847,
+    "i": 2230,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20082,7 +20082,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northwestern Mari ",
-    "i": 13848,
+    "i": 2231,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20091,7 +20091,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Proto-Mari ",
-    "i": 13849,
+    "i": 2232,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20100,7 +20100,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khun ",
-    "i": 13850,
+    "i": 2233,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20109,7 +20109,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiong Nai ",
-    "i": 13851,
+    "i": 2234,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20118,7 +20118,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiranti ",
-    "i": 13852,
+    "i": 2235,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20127,7 +20127,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiribati ",
-    "i": 13853,
+    "i": 2236,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20136,7 +20136,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kituba ",
-    "i": 13854,
+    "i": 2237,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20145,7 +20145,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiwai ",
-    "i": 13855,
+    "i": 2238,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20154,7 +20154,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Keresan ",
-    "i": 13856,
+    "i": 2239,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20163,7 +20163,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kulung ",
-    "i": 13857,
+    "i": 2240,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20172,7 +20172,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Klon ",
-    "i": 13858,
+    "i": 2241,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20181,7 +20181,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kalasha ",
-    "i": 13859,
+    "i": 2242,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20190,7 +20190,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mednyj Aleut ",
-    "i": 13861,
+    "i": 2243,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20199,7 +20199,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mon ",
-    "i": 13862,
+    "i": 2244,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20208,7 +20208,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mon (native speakers) ",
-    "i": 13863,
+    "i": 2245,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20217,7 +20217,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lakkia-Kam-Sui ",
-    "i": 13864,
+    "i": 2246,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20226,7 +20226,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tai Hongjin ",
-    "i": 13865,
+    "i": 2247,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20235,7 +20235,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Qabiao ",
-    "i": 13866,
+    "i": 2248,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20244,16 +20244,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akatek ",
-    "i": 13867,
+    "i": 2249,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Miguel Acatán,San Rafael La Independencia,Nentón,Jacaltenango,Concepción Huista,Petatán,San Antonio Huista,Santa Ana Huista,Todos Santos Cuchumatán,Huehuetenango,Chiantla,Aguacatán"
+    "b": "San Miguel AcatÃ¡n,San Rafael La Independencia,NentÃ³n,Jacaltenango,ConcepciÃ³n Huista,PetatÃ¡n,San Antonio Huista,Santa Ana Huista,Todos Santos CuchumatÃ¡n,Huehuetenango,Chiantla,AguacatÃ¡n"
   },
   {
     "name": "Kochevo ",
-    "i": 13868,
+    "i": 2250,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20262,7 +20262,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koho ",
-    "i": 13869,
+    "i": 2251,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20271,7 +20271,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koibal ",
-    "i": 13870,
+    "i": 2252,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20280,7 +20280,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koitabu ",
-    "i": 13871,
+    "i": 2253,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20288,8 +20288,8 @@ window.realWorldNameBases = [
     "b": "Port Moresby,Hanuabada,Kila Kila,Baruni,Tatana,Pari,Vabukori,Kilakila,Korobosea,Gerehu,Waigani,Boroko"
   },
   {
-    "name": "Kombai–Wanggom ",
-    "i": 13872,
+    "name": "Kombaiâ€“Wanggom ",
+    "i": 2254,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20298,7 +20298,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Komi-Permyak ",
-    "i": 13873,
+    "i": 2255,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20307,7 +20307,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Komolom ",
-    "i": 13874,
+    "i": 2256,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20316,7 +20316,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Komyandaret ",
-    "i": 13875,
+    "i": 2257,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20325,7 +20325,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Konai ",
-    "i": 13876,
+    "i": 2258,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20334,7 +20334,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Konda ",
-    "i": 13877,
+    "i": 2259,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20343,7 +20343,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Konda Khanty ",
-    "i": 13878,
+    "i": 2260,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20352,7 +20352,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koneraw ",
-    "i": 13879,
+    "i": 2261,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20361,7 +20361,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Konkani ",
-    "i": 13880,
+    "i": 2262,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20370,7 +20370,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Konyak ",
-    "i": 13881,
+    "i": 2263,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20379,7 +20379,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kopkaka ",
-    "i": 13882,
+    "i": 2264,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20388,7 +20388,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kor ",
-    "i": 13883,
+    "i": 2265,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20397,7 +20397,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Korafe ",
-    "i": 13884,
+    "i": 2266,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20406,7 +20406,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Korlai Portuguese Creole ",
-    "i": 13885,
+    "i": 2267,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20415,7 +20415,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koro ",
-    "i": 13886,
+    "i": 2268,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20424,16 +20424,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Korowai ",
-    "i": 13887,
+    "i": 2269,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaniruma,Mabül,Khafalüo,Myanü,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
+    "b": "Yaniruma,MabÃ¼l,KhafalÃ¼o,MyanÃ¼,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
   },
   {
     "name": "Koryo-mar ",
-    "i": 13888,
+    "i": 2270,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20442,7 +20442,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kosraean ",
-    "i": 13889,
+    "i": 2271,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20451,7 +20451,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kosena ",
-    "i": 13890,
+    "i": 2272,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20460,7 +20460,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kovojab ",
-    "i": 13891,
+    "i": 2273,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20469,7 +20469,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koya ",
-    "i": 13892,
+    "i": 2274,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20477,17 +20477,17 @@ window.realWorldNameBases = [
     "b": "Khammam,Bhadrachalam,Paloncha,Kothagudem,Yellandu,Manuguru,Burgampahad,Pinapaka,Cherla,Dummagudem,Venkatapuram,Wazeed"
   },
   {
-    "name": "Karajá ",
-    "i": 13893,
+    "name": "KarajÃ¡ ",
+    "i": 2275,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Isabel do Morro,Fontoura,São Domingos,Luciara,São Félix do Araguaia,Bananal,Javaé,Karajá,Xambioá,Aruanã,Crixás,Araguaçu"
+    "b": "Santa Isabel do Morro,Fontoura,SÃ£o Domingos,Luciara,SÃ£o FÃ©lix do Araguaia,Bananal,JavaÃ©,KarajÃ¡,XambioÃ¡,AruanÃ£,CrixÃ¡s,AraguaÃ§u"
   },
   {
     "name": "Karata ",
-    "i": 13894,
+    "i": 2276,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20496,7 +20496,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumhali ",
-    "i": 13895,
+    "i": 2277,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20505,7 +20505,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kraasna ",
-    "i": 13896,
+    "i": 2278,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20514,7 +20514,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Krasnojarsk Khanty ",
-    "i": 13897,
+    "i": 2279,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20523,7 +20523,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karachay-Balkar ",
-    "i": 13898,
+    "i": 2280,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20532,16 +20532,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Krevinian ",
-    "i": 13899,
+    "i": 2281,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bauska,Vecsaule,Code,Mežotne,Brunava,Ceraukste,Stelpe,Iecava,Skaistkalne,Bārbele,Gailīši,Svitene"
+    "b": "Bauska,Vecsaule,Code,MeÅ¾otne,Brunava,Ceraukste,Stelpe,Iecava,Skaistkalne,BÄrbele,GailÄ«Å¡i,Svitene"
   },
   {
     "name": "Krio ",
-    "i": 13900,
+    "i": 2282,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20550,7 +20550,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kristang ",
-    "i": 13901,
+    "i": 2283,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20559,7 +20559,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kubo ",
-    "i": 13902,
+    "i": 2284,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20568,7 +20568,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kui Alor-Pantar ",
-    "i": 13903,
+    "i": 2285,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20577,7 +20577,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuki Chin ",
-    "i": 13904,
+    "i": 2286,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20586,7 +20586,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuki Chin Naga ",
-    "i": 13905,
+    "i": 2287,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20595,7 +20595,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kukkuzi ",
-    "i": 13906,
+    "i": 2288,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20604,7 +20604,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kula ",
-    "i": 13907,
+    "i": 2289,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20613,7 +20613,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumyk ",
-    "i": 13908,
+    "i": 2290,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20622,7 +20622,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuman ",
-    "i": 13909,
+    "i": 2291,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20631,7 +20631,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kumhali (alias) ",
-    "i": 13910,
+    "i": 2292,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20640,7 +20640,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kunama ",
-    "i": 13911,
+    "i": 2293,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20649,7 +20649,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kunduvadi ",
-    "i": 13912,
+    "i": 2294,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20658,7 +20658,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuril Ainu ",
-    "i": 13913,
+    "i": 2295,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20667,7 +20667,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuril dialects ",
-    "i": 13914,
+    "i": 2296,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20676,7 +20676,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kurukh ",
-    "i": 13915,
+    "i": 2297,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20685,7 +20685,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuvi ",
-    "i": 13916,
+    "i": 2298,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20694,7 +20694,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bagvalal ",
-    "i": 13917,
+    "i": 2299,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20703,7 +20703,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Parkari Koli ",
-    "i": 13918,
+    "i": 2300,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20712,7 +20712,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kwoma-Manambu Pidgin ",
-    "i": 13919,
+    "i": 2301,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20721,16 +20721,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kui (India) ",
-    "i": 13920,
+    "i": 2302,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bakel,Mbao,Salémata,Kédougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
+    "b": "Bakel,Mbao,SalÃ©mata,KÃ©dougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
   },
   {
     "name": "Kyaka ",
-    "i": 13921,
+    "i": 2303,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20739,7 +20739,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyakhta Russian-Chinese Pidgin ",
-    "i": 13922,
+    "i": 2304,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20748,7 +20748,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyowa-go ",
-    "i": 13923,
+    "i": 2305,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20757,7 +20757,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kewat ",
-    "i": 13924,
+    "i": 2306,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20766,7 +20766,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kurmali ",
-    "i": 13925,
+    "i": 2307,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20775,7 +20775,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kelabit ",
-    "i": 13926,
+    "i": 2308,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20783,26 +20783,26 @@ window.realWorldNameBases = [
     "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
   },
   {
-    "name": "Língua Geral Paulista ",
-    "i": 13927,
+    "name": "LÃ­ngua Geral Paulista ",
+    "i": 2309,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "São Paulo,Campinas,São Bernardo do Campo,Santo André,São José dos Campos,Sorocaba,Santos,Osasco,Ribeirão Preto,São José do Rio Preto"
+    "b": "SÃ£o Paulo,Campinas,SÃ£o Bernardo do Campo,Santo AndrÃ©,SÃ£o JosÃ© dos Campos,Sorocaba,Santos,Osasco,RibeirÃ£o Preto,SÃ£o JosÃ© do Rio Preto"
   },
   {
     "name": "Laal ",
-    "i": 13928,
+    "i": 2310,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Doba,Moyen-Chari,Logone,Chari,Laï,Mandoul,Mayo-Kebbi,Salamat,Guéra,Kémo"
+    "b": "Doba,Moyen-Chari,Logone,Chari,LaÃ¯,Mandoul,Mayo-Kebbi,Salamat,GuÃ©ra,KÃ©mo"
   },
   {
     "name": "Labrador Inuit Pidgin French ",
-    "i": 13929,
+    "i": 2311,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20811,7 +20811,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lachi ",
-    "i": 13930,
+    "i": 2312,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20820,7 +20820,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Laha ",
-    "i": 13931,
+    "i": 2313,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20829,7 +20829,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lahu ",
-    "i": 13932,
+    "i": 2314,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20838,16 +20838,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Laiuse Romani ",
-    "i": 13933,
+    "i": 2315,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tartu,Valga,Võru,Põlva,Jõgeva,Viljandi,Pärnu,Rakvere,Kuressaare,Narva"
+    "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva"
   },
   {
     "name": "Lakota ",
-    "i": 13934,
+    "i": 2316,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20856,7 +20856,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lampung ",
-    "i": 13935,
+    "i": 2317,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20865,7 +20865,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Land Dayak ",
-    "i": 13936,
+    "i": 2318,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20874,7 +20874,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lanping Bai dialect ",
-    "i": 13937,
+    "i": 2319,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20883,7 +20883,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tura ",
-    "i": 13938,
+    "i": 2320,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20892,7 +20892,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Khanty ",
-    "i": 13939,
+    "i": 2321,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20901,7 +20901,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sherkal ",
-    "i": 13940,
+    "i": 2322,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20910,7 +20910,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southern Khanty ",
-    "i": 13941,
+    "i": 2323,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20919,7 +20919,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Upper Demjanka ",
-    "i": 13942,
+    "i": 2324,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20928,7 +20928,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Surgut Khanty ",
-    "i": 13943,
+    "i": 2325,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20937,7 +20937,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malij Jugan ",
-    "i": 13944,
+    "i": 2326,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20946,7 +20946,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tremjugan ",
-    "i": 13945,
+    "i": 2327,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20955,7 +20955,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lusoga ",
-    "i": 13946,
+    "i": 2328,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20964,7 +20964,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tetserret ",
-    "i": 13947,
+    "i": 2329,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20973,16 +20973,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ber Family ",
-    "i": 13948,
+    "i": 2330,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Agadir,Casablanca,Fès,Marrakech,Tanger,Meknès,Oujda,Kénitra,Rabat,Salé"
+    "b": "Agadir,Casablanca,FÃ¨s,Marrakech,Tanger,MeknÃ¨s,Oujda,KÃ©nitra,Rabat,SalÃ©"
   },
   {
     "name": "Tasawaq ",
-    "i": 13949,
+    "i": 2331,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -20991,7 +20991,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tagdal ",
-    "i": 13950,
+    "i": 2332,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21000,7 +21000,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Talodi ",
-    "i": 13951,
+    "i": 2333,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21009,7 +21009,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tegali ",
-    "i": 13952,
+    "i": 2334,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21018,7 +21018,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tegem ",
-    "i": 13953,
+    "i": 2335,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21027,7 +21027,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tima ",
-    "i": 13954,
+    "i": 2336,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21036,7 +21036,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tembo ",
-    "i": 13955,
+    "i": 2337,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21045,7 +21045,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tocho ",
-    "i": 13956,
+    "i": 2338,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21054,7 +21054,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tumtum ",
-    "i": 13957,
+    "i": 2339,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21063,7 +21063,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tsotsitaal And Camtho Aka Iscamtho ",
-    "i": 13958,
+    "i": 2340,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21072,16 +21072,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zenati Berber ",
-    "i": 13959,
+    "i": 2341,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tlemcen,Mascara,Oran,Sidi Bel Abbès,Mostaganem,Chlef,Relizane,Tiaret,Saida,Ain Defla"
+    "b": "Tlemcen,Mascara,Oran,Sidi Bel AbbÃ¨s,Mostaganem,Chlef,Relizane,Tiaret,Saida,Ain Defla"
   },
   {
     "name": "Koya ",
-    "i": 13960,
+    "i": 2342,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21090,7 +21090,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kurambhag Paharia ",
-    "i": 13961,
+    "i": 2343,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21099,7 +21099,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kurichiya ",
-    "i": 13962,
+    "i": 2344,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21108,7 +21108,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Azd Dialect ",
-    "i": 13963,
+    "i": 2345,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21117,25 +21117,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ejtun Dialect ",
-    "i": 13964,
+    "i": 2346,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "-Mosta,Victoria,Nadur,Qormi,Żebbuġ,Xagħra,Safi,Kirkop"
+    "b": "-Mosta,Victoria,Nadur,Qormi,Å»ebbuÄ¡,XagÄ§ra,Safi,Kirkop"
   },
   {
     "name": "Sele ",
-    "i": 13965,
+    "i": 2347,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "-Selè,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
+    "b": "-SelÃ¨,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
   },
   {
     "name": "Aas Whistled ",
-    "i": 13966,
+    "i": 2348,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21144,7 +21144,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abaza ",
-    "i": 13967,
+    "i": 2349,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21153,7 +21153,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abba Gorgoryos ",
-    "i": 13968,
+    "i": 2350,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21162,7 +21162,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abkhaz ",
-    "i": 13969,
+    "i": 2351,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21171,7 +21171,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aboriginal Pidgin English ",
-    "i": 13970,
+    "i": 2352,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21180,7 +21180,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abruzzese ",
-    "i": 13971,
+    "i": 2353,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21189,16 +21189,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Acadian ",
-    "i": 13972,
+    "i": 2354,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Moncton,Dieppe,Bathurst,Shediac,Sackville,Cap-Pelé,Memramcook"
+    "b": "Moncton,Dieppe,Bathurst,Shediac,Sackville,Cap-PelÃ©,Memramcook"
   },
   {
     "name": "Adeni Arabic ",
-    "i": 13973,
+    "i": 2355,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21207,7 +21207,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Adyghe ",
-    "i": 13974,
+    "i": 2356,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21216,7 +21216,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aeolian ",
-    "i": 13975,
+    "i": 2357,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21225,7 +21225,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aqc ",
-    "i": 13976,
+    "i": 2358,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21234,7 +21234,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afar ",
-    "i": 13977,
+    "i": 2359,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21243,16 +21243,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "African Romance ",
-    "i": 13978,
+    "i": 2360,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Carthage,Leptis Magna,Thysdrus,Sabratha,Hippo Regius,Setif,Djémila,Timgad"
+    "b": "Carthage,Leptis Magna,Thysdrus,Sabratha,Hippo Regius,Setif,DjÃ©mila,Timgad"
   },
   {
     "name": "Afrikaans ",
-    "i": 13979,
+    "i": 2361,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21261,7 +21261,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afro Seminole Creole ",
-    "i": 13980,
+    "i": 2362,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21270,7 +21270,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afroasiatic Family ",
-    "i": 13981,
+    "i": 2363,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21279,16 +21279,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Agalega Creole ",
-    "i": 13982,
+    "i": 2364,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vingt Cinq,La Fourche,Grand Gaube,Goodlands,Mapou,Rivière du Rempart"
+    "b": "Vingt Cinq,La Fourche,Grand Gaube,Goodlands,Mapou,RiviÃ¨re du Rempart"
   },
   {
     "name": "Agaw ",
-    "i": 13983,
+    "i": 2365,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21297,7 +21297,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ahom ",
-    "i": 13984,
+    "i": 2366,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21306,7 +21306,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aiton ",
-    "i": 13985,
+    "i": 2367,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21315,7 +21315,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ainu ",
-    "i": 13986,
+    "i": 2368,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21324,7 +21324,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akan ",
-    "i": 13987,
+    "i": 2369,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21333,7 +21333,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lao ",
-    "i": 13988,
+    "i": 2370,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21342,7 +21342,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Southeastern Moksha ",
-    "i": 13989,
+    "i": 2371,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21351,7 +21351,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Western Moksha ",
-    "i": 13990,
+    "i": 2372,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21360,7 +21360,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Syktyvkar ",
-    "i": 13991,
+    "i": 2373,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21369,16 +21369,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Sami ",
-    "i": 13992,
+    "i": 2374,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kautokeino,Karasjok,Tana,Båtsfjord,Lebesby,Alta,Tromsø"
+    "b": "Kautokeino,Karasjok,Tana,BÃ¥tsfjord,Lebesby,Alta,TromsÃ¸"
   },
   {
     "name": "Sanchursk ",
-    "i": 13993,
+    "i": 2375,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21387,7 +21387,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sharanga ",
-    "i": 13994,
+    "i": 2376,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21396,7 +21396,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Selkup ",
-    "i": 13995,
+    "i": 2377,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21405,7 +21405,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Selkup ",
-    "i": 13996,
+    "i": 2378,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21414,7 +21414,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Mansi ",
-    "i": 13997,
+    "i": 2379,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21423,7 +21423,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sosva ",
-    "i": 13998,
+    "i": 2380,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21432,7 +21432,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuril Dialects ",
-    "i": 14000,
+    "i": 2381,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21441,7 +21441,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kurukh ",
-    "i": 14001,
+    "i": 2382,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21450,7 +21450,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuvi ",
-    "i": 14002,
+    "i": 2383,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21459,7 +21459,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kva ",
-    "i": 14003,
+    "i": 2384,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21468,7 +21468,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kvx ",
-    "i": 14004,
+    "i": 2385,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21477,7 +21477,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kwoma Manambu Pidgin ",
-    "i": 14005,
+    "i": 2386,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21486,16 +21486,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kxu ",
-    "i": 14006,
+    "i": 2387,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bakel,Mbao,Salémata,Kédougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
+    "b": "Bakel,Mbao,SalÃ©mata,KÃ©dougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
   },
   {
     "name": "Kyaka ",
-    "i": 14007,
+    "i": 2388,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21504,7 +21504,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyakhta Russian Chinese Pidgin ",
-    "i": 14008,
+    "i": 2389,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21513,7 +21513,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyowa Go ",
-    "i": 14009,
+    "i": 2390,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21522,7 +21522,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyv ",
-    "i": 14010,
+    "i": 2391,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21531,7 +21531,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyw ",
-    "i": 14011,
+    "i": 2392,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21540,7 +21540,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kzi ",
-    "i": 14012,
+    "i": 2393,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21549,25 +21549,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "L Ngua Geral Paulista ",
-    "i": 14013,
+    "i": 2394,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "São Paulo,Campinas,São Bernardo do Campo,Santo André,São José dos Campos,Sorocaba,Santos,Osasco,Ribeirão Preto,São José do Rio Preto"
+    "b": "SÃ£o Paulo,Campinas,SÃ£o Bernardo do Campo,Santo AndrÃ©,SÃ£o JosÃ© dos Campos,Sorocaba,Santos,Osasco,RibeirÃ£o Preto,SÃ£o JosÃ© do Rio Preto"
   },
   {
     "name": "Laal ",
-    "i": 14014,
+    "i": 2395,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Doba,Moyen-Chari,Logone,Chari,Laï,Mandoul,Mayo-Kebbi,Salamat,Guéra,Kémo"
+    "b": "Doba,Moyen-Chari,Logone,Chari,LaÃ¯,Mandoul,Mayo-Kebbi,Salamat,GuÃ©ra,KÃ©mo"
   },
   {
     "name": "Labrador Inuit Pidgin French ",
-    "i": 14015,
+    "i": 2396,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21576,7 +21576,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lachi ",
-    "i": 14016,
+    "i": 2397,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21585,7 +21585,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Laha ",
-    "i": 14017,
+    "i": 2398,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21594,7 +21594,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lahu ",
-    "i": 14018,
+    "i": 2399,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21603,16 +21603,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Laiuse Romani ",
-    "i": 14019,
+    "i": 2400,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tartu,Valga,Võru,Põlva,Jõgeva,Viljandi,Pärnu,Rakvere,Kuressaare,Narva"
+    "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva"
   },
   {
     "name": "Lakota ",
-    "i": 14020,
+    "i": 2401,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21621,7 +21621,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lampung ",
-    "i": 14021,
+    "i": 2402,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21630,7 +21630,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Land Dayak ",
-    "i": 14022,
+    "i": 2403,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21639,7 +21639,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lanping Bai Dialect ",
-    "i": 14023,
+    "i": 2404,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21648,7 +21648,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lao ",
-    "i": 14024,
+    "i": 2405,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21657,16 +21657,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Latin American Spanish ",
-    "i": 14025,
+    "i": 2406,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guadalajara,Monterrey,Puebla,Tijuana,León,Juárez,Torreón,Querétaro,San Luis Potosí,Mérida,Aguascalientes,Cuernavaca,Saltillo,Hermosillo,Culiacán,Durango,Tampico,Morelia,Reynosa,Toluca,Chihuahua,Acapulco,Tlaxcala,Pachuca,Cancún,Veracruz,Villahermosa,Tuxtla,Oaxaca,Campeche"
+    "b": "Guadalajara,Monterrey,Puebla,Tijuana,LeÃ³n,JuÃ¡rez,TorreÃ³n,QuerÃ©taro,San Luis PotosÃ­,MÃ©rida,Aguascalientes,Cuernavaca,Saltillo,Hermosillo,CuliacÃ¡n,Durango,Tampico,Morelia,Reynosa,Toluca,Chihuahua,Acapulco,Tlaxcala,Pachuca,CancÃºn,Veracruz,Villahermosa,Tuxtla,Oaxaca,Campeche"
   },
   {
     "name": "Laua ",
-    "i": 14026,
+    "i": 2407,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21675,7 +21675,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Laven ",
-    "i": 14027,
+    "i": 2408,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21684,7 +21684,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lavi ",
-    "i": 14028,
+    "i": 2409,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21693,7 +21693,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lauje ",
-    "i": 14029,
+    "i": 2410,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21702,16 +21702,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Laz ",
-    "i": 14030,
+    "i": 2411,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rize,Artvin,Hopa,Borçka,Arhavi,Fındıklı,Ardeşen,Çamlıhemşin,İkizdere,Kalkandere,Pazar,Hemşin,Çayeli,Derepazarı,Güneysu,İyidere,Batumi,Kobuleti,Chakvi,Gonio,Sarpi,Khelvachauri,Machakhela,Adjara,Kemalpaşa,Şavşat,Yusufeli,Oltu,Tortum,Uzundere"
+    "b": "Rize,Artvin,Hopa,BorÃ§ka,Arhavi,FÄ±ndÄ±klÄ±,ArdeÅŸen,Ã‡amlÄ±hemÅŸin,Ä°kizdere,Kalkandere,Pazar,HemÅŸin,Ã‡ayeli,DerepazarÄ±,GÃ¼neysu,Ä°yidere,Batumi,Kobuleti,Chakvi,Gonio,Sarpi,Khelvachauri,Machakhela,Adjara,KemalpaÅŸa,ÅžavÅŸat,Yusufeli,Oltu,Tortum,Uzundere"
   },
   {
     "name": "Lak ",
-    "i": 14031,
+    "i": 2412,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21720,7 +21720,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ladakhi ",
-    "i": 14032,
+    "i": 2413,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21729,16 +21729,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Leivu ",
-    "i": 14033,
+    "i": 2414,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kolka,Mazirbe,Sīkrags,Košrags,Pitrags,Saunags,Vaide,Lūžņa,Miķeļtornis,Lielirbe,Jaunciems,Melnsils,Ovīši,Ģipka,Dundaga,Talsi,Ventspils,Roja,Engure,Tukums,Jūrmala,Slītere,Irbe,Pope,Ance,Lielupe,Daugavgrīva,Salacgrīva,Ainaži,Pāvilosta"
+    "b": "Kolka,Mazirbe,SÄ«krags,KoÅ¡rags,Pitrags,Saunags,Vaide,LÅ«Å¾Å†a,MiÄ·eÄ¼tornis,Lielirbe,Jaunciems,Melnsils,OvÄ«Å¡i,Ä¢ipka,Dundaga,Talsi,Ventspils,Roja,Engure,Tukums,JÅ«rmala,SlÄ«tere,Irbe,Pope,Ance,Lielupe,DaugavgrÄ«va,SalacgrÄ«va,AinaÅ¾i,PÄvilosta"
   },
   {
     "name": "Lembena ",
-    "i": 14034,
+    "i": 2415,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21747,7 +21747,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lemi region ",
-    "i": 14035,
+    "i": 2416,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21756,7 +21756,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lepcha ",
-    "i": 14036,
+    "i": 2417,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21765,7 +21765,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Levantine Arabic ",
-    "i": 14037,
+    "i": 2418,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21774,7 +21774,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lezgin ",
-    "i": 14038,
+    "i": 2419,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21783,7 +21783,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lhomi ",
-    "i": 14039,
+    "i": 2420,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21792,7 +21792,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lhokpu ",
-    "i": 14040,
+    "i": 2421,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21801,7 +21801,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Liberian Kreyol ",
-    "i": 14041,
+    "i": 2422,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21810,7 +21810,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Libyan Arabic ",
-    "i": 14042,
+    "i": 2423,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21819,7 +21819,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Light Warlpiri ",
-    "i": 14043,
+    "i": 2424,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21828,7 +21828,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Limba ",
-    "i": 14044,
+    "i": 2425,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21837,7 +21837,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lingala ",
-    "i": 14045,
+    "i": 2426,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21846,7 +21846,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lingling ",
-    "i": 14046,
+    "i": 2427,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21855,16 +21855,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lisu ",
-    "i": 14047,
+    "i": 2428,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Dêqên,Deqin"
+    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,DÃªqÃªn,Deqin"
   },
   {
     "name": "Livvi ",
-    "i": 14048,
+    "i": 2429,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21873,7 +21873,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yakkha ",
-    "i": 14049,
+    "i": 2430,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21882,7 +21882,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Avar ",
-    "i": 20583,
+    "i": 2431,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21891,7 +21891,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yerukala ",
-    "i": 20584,
+    "i": 2432,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -21900,7 +21900,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Levantine",
-    "i": 42,
+    "i": 2433,
     "min": 4,
     "max": 12,
     "d": "ankprs",
@@ -21909,7 +21909,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Romanian",
-    "i": 43,
+    "i": 2434,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -21918,7 +21918,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aromanian",
-    "i": 44,
+    "i": 2435,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -21927,7 +21927,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Megleno-Romanian",
-    "i": 45,
+    "i": 2436,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -21936,16 +21936,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Istro-Romanian",
-    "i": 46,
+    "i": 2437,
     "min": 5,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Barban,Buzet,Gračišce,Groznjan,Icici,Jesenovik,Kostrcani,Labin,Letaj,Medulin,Novigrad,Oblacna,Opatija,Pazin,Porec,Premantura,Pula,Rabac,Rijeka,Rovinj,Strumici,Trkovci,Umag,Veprinac,Visnjan,Volosko,Zejane"
+    "b": "Barban,Buzet,GraÄiÅ¡ce,Groznjan,Icici,Jesenovik,Kostrcani,Labin,Letaj,Medulin,Novigrad,Oblacna,Opatija,Pazin,Porec,Premantura,Pula,Rabac,Rijeka,Rovinj,Strumici,Trkovci,Umag,Veprinac,Visnjan,Volosko,Zejane"
   },
   {
     "name": "Tibetan",
-    "i": 47,
+    "i": 2438,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -21954,7 +21954,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burmese",
-    "i": 48,
+    "i": 2439,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -21963,7 +21963,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Newar",
-    "i": 49,
+    "i": 2440,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -21972,7 +21972,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Meitei",
-    "i": 50,
+    "i": 2441,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -21981,7 +21981,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karenic",
-    "i": 51,
+    "i": 2442,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -21990,7 +21990,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bai",
-    "i": 52,
+    "i": 2443,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -21999,7 +21999,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tujia",
-    "i": 53,
+    "i": 2444,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22008,7 +22008,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "West Himalayish",
-    "i": 54,
+    "i": 2445,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22017,7 +22017,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tamangic",
-    "i": 55,
+    "i": 2446,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22026,7 +22026,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiranti",
-    "i": 56,
+    "i": 2447,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22035,7 +22035,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Qiangic",
-    "i": 57,
+    "i": 2448,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22044,7 +22044,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gyalrongic",
-    "i": 58,
+    "i": 2449,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22053,7 +22053,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ersuic",
-    "i": 59,
+    "i": 2450,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22062,7 +22062,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Naic",
-    "i": 60,
+    "i": 2451,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22071,7 +22071,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Naga",
-    "i": 61,
+    "i": 2452,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22080,7 +22080,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kuki-Chin",
-    "i": 62,
+    "i": 2453,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22089,7 +22089,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boro-Garo",
-    "i": 63,
+    "i": 2454,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22098,7 +22098,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jingpho-Luish",
-    "i": 64,
+    "i": 2455,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22107,7 +22107,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arunachal",
-    "i": 65,
+    "i": 2456,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22116,7 +22116,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mandarin",
-    "i": 66,
+    "i": 2457,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22125,7 +22125,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gan",
-    "i": 67,
+    "i": 2458,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22134,7 +22134,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Min",
-    "i": 68,
+    "i": 2459,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22143,7 +22143,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wu",
-    "i": 69,
+    "i": 2460,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22152,7 +22152,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Xiang",
-    "i": 70,
+    "i": 2461,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22161,7 +22161,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Jin",
-    "i": 71,
+    "i": 2462,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22170,7 +22170,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hui",
-    "i": 72,
+    "i": 2463,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22179,7 +22179,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Pinghua",
-    "i": 73,
+    "i": 2464,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22188,7 +22188,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hakka",
-    "i": 74,
+    "i": 2465,
     "min": 5,
     "max": 10,
     "d": "",
@@ -22197,7 +22197,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Magar",
-    "i": 75,
+    "i": 2466,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22206,7 +22206,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kham",
-    "i": 76,
+    "i": 2467,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22215,7 +22215,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chepang",
-    "i": 77,
+    "i": 2468,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22224,7 +22224,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bhujel",
-    "i": 78,
+    "i": 2469,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22233,7 +22233,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lepcha",
-    "i": 79,
+    "i": 2470,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22242,7 +22242,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dhimal",
-    "i": 80,
+    "i": 2471,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22251,7 +22251,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Toto",
-    "i": 81,
+    "i": 2472,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22260,7 +22260,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hruso",
-    "i": 82,
+    "i": 2473,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22269,7 +22269,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Miju-Meyor",
-    "i": 83,
+    "i": 2474,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22278,7 +22278,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Koro",
-    "i": 84,
+    "i": 2475,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22287,7 +22287,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Idu-Taraon",
-    "i": 85,
+    "i": 2476,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22296,7 +22296,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ao",
-    "i": 86,
+    "i": 2477,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22305,7 +22305,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Angami-Pochuri",
-    "i": 87,
+    "i": 2478,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22314,7 +22314,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zeme",
-    "i": 88,
+    "i": 2479,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22323,7 +22323,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Konyak",
-    "i": 89,
+    "i": 2480,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22332,7 +22332,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tangkhulic",
-    "i": 90,
+    "i": 2481,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22341,7 +22341,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mru",
-    "i": 91,
+    "i": 2482,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22350,7 +22350,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Karbi",
-    "i": 92,
+    "i": 2483,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22359,7 +22359,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tshangla",
-    "i": 93,
+    "i": 2484,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22368,7 +22368,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tani",
-    "i": 94,
+    "i": 2485,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22377,7 +22377,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Basum",
-    "i": 95,
+    "i": 2486,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22386,7 +22386,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nam",
-    "i": 96,
+    "i": 2487,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22395,7 +22395,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gongduk",
-    "i": 97,
+    "i": 2488,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22404,7 +22404,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ole",
-    "i": 98,
+    "i": 2489,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22413,7 +22413,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kho-Bwa",
-    "i": 99,
+    "i": 2490,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22422,7 +22422,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Songlin",
-    "i": 100,
+    "i": 2491,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22431,7 +22431,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nungish",
-    "i": 101,
+    "i": 2492,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22440,7 +22440,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gong",
-    "i": 102,
+    "i": 2493,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22449,7 +22449,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kathu",
-    "i": 103,
+    "i": 2494,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22458,7 +22458,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cai-Long",
-    "i": 104,
+    "i": 2495,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22467,7 +22467,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Burmish",
-    "i": 105,
+    "i": 2496,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -22476,7 +22476,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lolo-Burmese",
-    "i": 106,
+    "i": 2497,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -22485,7 +22485,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Loloish",
-    "i": 107,
+    "i": 2498,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -22494,7 +22494,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mondzish",
-    "i": 108,
+    "i": 2499,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -22503,7 +22503,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Raji-Raute",
-    "i": 109,
+    "i": 2500,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22512,7 +22512,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dura-Tandrange",
-    "i": 110,
+    "i": 2501,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22521,7 +22521,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lhokpu",
-    "i": 111,
+    "i": 2502,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22530,7 +22530,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yoruba",
-    "i": 112,
+    "i": 2503,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22539,7 +22539,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Igbo",
-    "i": 113,
+    "i": 2504,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22548,16 +22548,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fula",
-    "i": 114,
+    "i": 2505,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kaedi,Boghe,Selibaby,Matam,Podor,Thiadiaye,Tamba,Labé,Pita,Mamou,Lélouma,Tougué,Koundara,Gaoual,Koulikoro,Kayes,Segou,Diema,Nioro,Bakel"
+    "b": "Kaedi,Boghe,Selibaby,Matam,Podor,Thiadiaye,Tamba,LabÃ©,Pita,Mamou,LÃ©louma,TouguÃ©,Koundara,Gaoual,Koulikoro,Kayes,Segou,Diema,Nioro,Bakel"
   },
   {
     "name": "Wolof",
-    "i": 115,
+    "i": 2506,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22566,7 +22566,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Akan",
-    "i": 116,
+    "i": 2507,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22575,16 +22575,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bambara",
-    "i": 117,
+    "i": 2508,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bamako,Ségou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,Djenné,Bankass,Bandiagara,Ténenkou,Niono"
+    "b": "Bamako,SÃ©gou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,DjennÃ©,Bankass,Bandiagara,TÃ©nenkou,Niono"
   },
   {
     "name": "Mandinka",
-    "i": 118,
+    "i": 2509,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22593,16 +22593,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Soninke",
-    "i": 119,
+    "i": 2510,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Nioro,Diema,Kayes,Ambidedi,Gourma,Rharous,Diafounou,Bafoulabé,Medine,Mourdiah,Didieni,Satadougou,Goumbou,Guidimakha,Sélibaby,Ould-Yengé,Tachott,Bakel,Matam,Ourossogui"
+    "b": "Nioro,Diema,Kayes,Ambidedi,Gourma,Rharous,Diafounou,BafoulabÃ©,Medine,Mourdiah,Didieni,Satadougou,Goumbou,Guidimakha,SÃ©libaby,Ould-YengÃ©,Tachott,Bakel,Matam,Ourossogui"
   },
   {
     "name": "Ewe",
-    "i": 120,
+    "i": 2511,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22611,7 +22611,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ga",
-    "i": 121,
+    "i": 2512,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22620,43 +22620,43 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fon",
-    "i": 122,
+    "i": 2513,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Cotonou,Porto-Novo,Abomey,Abomey-Calavi,Ouidah,Allada,Bohicon,Parakou,Dogbo,Comè,Lokossa,Azovè,Glazoué,Dassa,Zangnanado,Zogbodomey,Toffo,Kétou,Pobè,Adjohoun"
+    "b": "Cotonou,Porto-Novo,Abomey,Abomey-Calavi,Ouidah,Allada,Bohicon,Parakou,Dogbo,ComÃ¨,Lokossa,AzovÃ¨,GlazouÃ©,Dassa,Zangnanado,Zogbodomey,Toffo,KÃ©tou,PobÃ¨,Adjohoun"
   },
   {
     "name": "Bete",
-    "i": 123,
+    "i": 2514,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Daloa,Issia,Sinfra,Vavoua,Duékoué,Gagnoa,Ouragahio,Guibéroua,Saïoua,Tapeguhé,Bédiala,Zoukougbeu,Bogohnoa,Béhibouo,Zagoreta,Dioulabougou,Dieouzon,Bangolo,Facobly,Kouibly"
+    "b": "Daloa,Issia,Sinfra,Vavoua,DuÃ©kouÃ©,Gagnoa,Ouragahio,GuibÃ©roua,SaÃ¯oua,TapeguhÃ©,BÃ©diala,Zoukougbeu,Bogohnoa,BÃ©hibouo,Zagoreta,Dioulabougou,Dieouzon,Bangolo,Facobly,Kouibly"
   },
   {
     "name": "Nyabwa",
-    "i": 124,
+    "i": 2515,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Sassandra,San-Pedro,Tabou,Grand-Bereby,Doke,Djapadji,Madiépa,Grabo,Nero-Mer,Buyo,Meagui,Soubre,Guéyo,Okrouyo,Grand-Zattry,Niéko,Payo,Tiapoum,Ayemou,Aboisso"
+    "b": "Sassandra,San-Pedro,Tabou,Grand-Bereby,Doke,Djapadji,MadiÃ©pa,Grabo,Nero-Mer,Buyo,Meagui,Soubre,GuÃ©yo,Okrouyo,Grand-Zattry,NiÃ©ko,Payo,Tiapoum,Ayemou,Aboisso"
   },
   {
     "name": "Dida",
-    "i": 125,
+    "i": 2516,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Divo,Guitry,Ogoudou,Hiré,Facobly,Gboguhé,Zaïbo,Tipa,Guessabo,Bouaflé,Sinfra,Lakota,Gnamangui,Niambézahio,Zougoussi,Néka,Grand-Lahou,Fresco,Jacqueville,Lahou-Kpanda"
+    "b": "Divo,Guitry,Ogoudou,HirÃ©,Facobly,GboguhÃ©,ZaÃ¯bo,Tipa,Guessabo,BouaflÃ©,Sinfra,Lakota,Gnamangui,NiambÃ©zahio,Zougoussi,NÃ©ka,Grand-Lahou,Fresco,Jacqueville,Lahou-Kpanda"
   },
   {
     "name": "Mumuye",
-    "i": 126,
+    "i": 2517,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22665,16 +22665,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Moore",
-    "i": 127,
+    "i": 2518,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ouagadougou,Kaya,Koudougou,Boussé,Ziniaré,Ourgou-Manéga,Zorgho,Bogodogo,Tenkodogo,Koupéla,ZorghoTown,Po,Leo,Boromo,Sapouy,Garango,Manga,Ouahigouya,KayaTown,BousséTown"
+    "b": "Ouagadougou,Kaya,Koudougou,BoussÃ©,ZiniarÃ©,Ourgou-ManÃ©ga,Zorgho,Bogodogo,Tenkodogo,KoupÃ©la,ZorghoTown,Po,Leo,Boromo,Sapouy,Garango,Manga,Ouahigouya,KayaTown,BoussÃ©Town"
   },
   {
     "name": "Limba",
-    "i": 128,
+    "i": 2519,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22683,7 +22683,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gola",
-    "i": 129,
+    "i": 2520,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22692,7 +22692,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Somali",
-    "i": 130,
+    "i": 2521,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22701,7 +22701,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Oromo",
-    "i": 131,
+    "i": 2522,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22710,7 +22710,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hausa",
-    "i": 132,
+    "i": 2523,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22719,7 +22719,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amharic",
-    "i": 133,
+    "i": 2524,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22728,7 +22728,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tigrinya",
-    "i": 134,
+    "i": 2525,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22737,7 +22737,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tigre",
-    "i": 135,
+    "i": 2526,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22746,7 +22746,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mehri",
-    "i": 136,
+    "i": 2527,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22755,7 +22755,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Maltese",
-    "i": 137,
+    "i": 2528,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22764,7 +22764,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Geez",
-    "i": 138,
+    "i": 2529,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22773,7 +22773,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beja",
-    "i": 139,
+    "i": 2530,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22782,7 +22782,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Afar",
-    "i": 140,
+    "i": 2531,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22791,7 +22791,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hadiyya",
-    "i": 141,
+    "i": 2532,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22800,7 +22800,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sidama",
-    "i": 142,
+    "i": 2533,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22809,7 +22809,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Wolaitta",
-    "i": 143,
+    "i": 2534,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22818,7 +22818,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gamo-Gofa-Dawro",
-    "i": 144,
+    "i": 2535,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22827,7 +22827,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ganza",
-    "i": 145,
+    "i": 2536,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22836,7 +22836,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lingala",
-    "i": 146,
+    "i": 2537,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22845,7 +22845,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kinyarwanda",
-    "i": 147,
+    "i": 2538,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22854,7 +22854,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shona",
-    "i": 148,
+    "i": 2539,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22863,7 +22863,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zulu",
-    "i": 149,
+    "i": 2540,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22872,7 +22872,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Xhosa",
-    "i": 150,
+    "i": 2541,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22881,7 +22881,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sesotho",
-    "i": 151,
+    "i": 2542,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22890,7 +22890,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tswana",
-    "i": 152,
+    "i": 2543,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22899,7 +22899,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kongo",
-    "i": 153,
+    "i": 2544,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22908,7 +22908,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Luganda",
-    "i": 154,
+    "i": 2545,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22917,7 +22917,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chichewa",
-    "i": 155,
+    "i": 2546,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22926,7 +22926,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kikuyu",
-    "i": 156,
+    "i": 2547,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22935,7 +22935,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Qeqchi",
-    "i": 157,
+    "i": 2548,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22944,7 +22944,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiche",
-    "i": 158,
+    "i": 2549,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22953,34 +22953,34 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yucatec-Maya",
-    "i": 159,
+    "i": 2550,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,Umán,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
+    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,UmÃ¡n,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
   },
   {
     "name": "Mam",
-    "i": 160,
+    "i": 2551,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "San-Marcos,Malacatan,Tejutla,Tacaná,Sibinal,Concepcion-Tutuapa,San-Miguel-Ixtahuacan,San-Antonio-Sacatepequez,San-Pedro-Sacatepequez,Ayutla,Huehuetenango,La-Democracia,Jacaltenango,San-Ildefonso-Ixtahuacan"
+    "b": "San-Marcos,Malacatan,Tejutla,TacanÃ¡,Sibinal,Concepcion-Tutuapa,San-Miguel-Ixtahuacan,San-Antonio-Sacatepequez,San-Pedro-Sacatepequez,Ayutla,Huehuetenango,La-Democracia,Jacaltenango,San-Ildefonso-Ixtahuacan"
   },
   {
     "name": "Tzeltal",
-    "i": 161,
+    "i": 2552,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ocosingo,Altamirano,Chanal,Oxchuc,Amatenango,Teopisca,Tenejapa,San-Cristobal,Abasolo,Agua-Azul,Sitalá,Chilón,Bachajon,Nuevo-Jerusalem,Petalcingo,El-Bosque"
+    "b": "Ocosingo,Altamirano,Chanal,Oxchuc,Amatenango,Teopisca,Tenejapa,San-Cristobal,Abasolo,Agua-Azul,SitalÃ¡,ChilÃ³n,Bachajon,Nuevo-Jerusalem,Petalcingo,El-Bosque"
   },
   {
     "name": "Mixtec",
-    "i": 162,
+    "i": 2553,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -22989,16 +22989,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tzotzil",
-    "i": 163,
+    "i": 2554,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "San-Cristobal-de-las-Casas,Zinacantan,Chamula,Huixtan,Teopisca,Tenejapa,Amatenango-del-Valle,Larrainzar,Chalchihuitan,Chenalho,Oxchuc,Pantelho,Bochil,Soyaló"
+    "b": "San-Cristobal-de-las-Casas,Zinacantan,Chamula,Huixtan,Teopisca,Tenejapa,Amatenango-del-Valle,Larrainzar,Chalchihuitan,Chenalho,Oxchuc,Pantelho,Bochil,SoyalÃ³"
   },
   {
     "name": "Zapotec",
-    "i": 164,
+    "i": 2555,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23007,7 +23007,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kaqchikel",
-    "i": 165,
+    "i": 2556,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23016,7 +23016,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Otomi",
-    "i": 166,
+    "i": 2557,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23025,7 +23025,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Totonac",
-    "i": 167,
+    "i": 2558,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23034,16 +23034,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chol",
-    "i": 168,
+    "i": 2559,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tila,Tumbala,Sabanilla,Salto-de-Agua,Palizada,Palenque,La-Libertad,Yajalon,Chilón,Ocosingo,Tenosique,Balancan,Emiliano-Zapata,Macuspana"
+    "b": "Tila,Tumbala,Sabanilla,Salto-de-Agua,Palizada,Palenque,La-Libertad,Yajalon,ChilÃ³n,Ocosingo,Tenosique,Balancan,Emiliano-Zapata,Macuspana"
   },
   {
     "name": "Mazatec",
-    "i": 169,
+    "i": 2560,
     "min": 11,
     "max": 20,
     "d": "lnrt",
@@ -23052,16 +23052,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Qanjobal",
-    "i": 170,
+    "i": 2561,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa-Eulalia,San-Juan-Ixcoy,San-Pedro-Solon,Soloma,San-Rafael-La-Independencia,San-Miguel-Acatán,San-Sebastian-Coatan,Barillas,Nenton,Jacaltenango"
+    "b": "Santa-Eulalia,San-Juan-Ixcoy,San-Pedro-Solon,Soloma,San-Rafael-La-Independencia,San-Miguel-AcatÃ¡n,San-Sebastian-Coatan,Barillas,Nenton,Jacaltenango"
   },
   {
     "name": "Huastec",
-    "i": 171,
+    "i": 2562,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23070,7 +23070,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Navajo",
-    "i": 172,
+    "i": 2563,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23079,16 +23079,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Guarani",
-    "i": 173,
+    "i": 2564,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Asuncion,Encarnacion,Ciudad-del-Este,Coronel-Oviedo,Villarrica,Caacupe,Fernando-de-la-Mora,San-Lorenzo,Itaugua,Lambaré,Luque,Concepcion,Pedro-Juan-Caballero,Paraguari,Misiones"
+    "b": "Asuncion,Encarnacion,Ciudad-del-Este,Coronel-Oviedo,Villarrica,Caacupe,Fernando-de-la-Mora,San-Lorenzo,Itaugua,LambarÃ©,Luque,Concepcion,Pedro-Juan-Caballero,Paraguari,Misiones"
   },
   {
     "name": "Southern-Quechua",
-    "i": 174,
+    "i": 2565,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23097,25 +23097,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aymara",
-    "i": 175,
+    "i": 2566,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "La-Paz,El-Alto,Oruro,Patacamaya,Achacachi,Viacha,Desaguadero,Llave,Juli,Tiwanaku,Laja,Batallas,Ancoraimes,Challapata,Poopó"
+    "b": "La-Paz,El-Alto,Oruro,Patacamaya,Achacachi,Viacha,Desaguadero,Llave,Juli,Tiwanaku,Laja,Batallas,Ancoraimes,Challapata,PoopÃ³"
   },
   {
     "name": "Kichwa",
-    "i": 176,
+    "i": 2567,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Quito,Otavalo,Cotacachi,Saquisili,Latacunga,Riobamba,Guaranda,Ambato,Puyo,Tena,Macas,Guamote,Alausí,Cayambe,Quininde"
+    "b": "Quito,Otavalo,Cotacachi,Saquisili,Latacunga,Riobamba,Guaranda,Ambato,Puyo,Tena,Macas,Guamote,AlausÃ­,Cayambe,Quininde"
   },
   {
     "name": "Wayuu",
-    "i": 177,
+    "i": 2568,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23124,7 +23124,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mapudungun",
-    "i": 178,
+    "i": 2569,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23133,7 +23133,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khmer",
-    "i": 179,
+    "i": 2570,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23142,7 +23142,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mon",
-    "i": 180,
+    "i": 2571,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23151,7 +23151,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Santali",
-    "i": 181,
+    "i": 2572,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23160,7 +23160,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Khasi",
-    "i": 182,
+    "i": 2573,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23169,7 +23169,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hindi",
-    "i": 183,
+    "i": 2574,
     "min": 5,
     "max": 11,
     "d": "lnrt",
@@ -23178,7 +23178,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Scottish-Gaelic",
-    "i": 184,
+    "i": 2575,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23187,7 +23187,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Miskito",
-    "i": 185,
+    "i": 2576,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23196,7 +23196,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cree",
-    "i": 186,
+    "i": 2577,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23205,7 +23205,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ojibwe",
-    "i": 187,
+    "i": 2578,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23214,7 +23214,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Garifuna",
-    "i": 188,
+    "i": 2579,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23223,7 +23223,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tikuna",
-    "i": 189,
+    "i": 2580,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23232,7 +23232,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Huichol",
-    "i": 190,
+    "i": 2581,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23241,7 +23241,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yaqui",
-    "i": 191,
+    "i": 2582,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23250,7 +23250,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cherokee",
-    "i": 192,
+    "i": 2583,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23259,7 +23259,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tagalog",
-    "i": 193,
+    "i": 2584,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23268,7 +23268,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Indonesian",
-    "i": 194,
+    "i": 2585,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23277,7 +23277,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Malay",
-    "i": 195,
+    "i": 2586,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23286,7 +23286,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Maori",
-    "i": 196,
+    "i": 2587,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23295,7 +23295,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Samoan",
-    "i": 197,
+    "i": 2588,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23304,7 +23304,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fijian",
-    "i": 198,
+    "i": 2589,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23313,7 +23313,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tamil",
-    "i": 199,
+    "i": 2590,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -23322,7 +23322,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Telugu",
-    "i": 200,
+    "i": 2591,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23331,7 +23331,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bengali",
-    "i": 201,
+    "i": 2592,
     "min": 5,
     "max": 11,
     "d": "lnrt",
@@ -23340,7 +23340,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Punjabi",
-    "i": 202,
+    "i": 2593,
     "min": 6,
     "max": 11,
     "d": "lnrt",
@@ -23349,7 +23349,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Urdu",
-    "i": 203,
+    "i": 2594,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23358,7 +23358,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Gujarati",
-    "i": 204,
+    "i": 2595,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23367,7 +23367,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sinhala",
-    "i": 205,
+    "i": 2596,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23376,7 +23376,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Welsh",
-    "i": 206,
+    "i": 2597,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23385,16 +23385,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Breton",
-    "i": 207,
+    "i": 2598,
     "min": 4,
     "max": 12,
     "d": "nld",
     "m": 0,
-    "b": "Brest,Quimper,Lorient,Vannes,Saint-Brieuc,Morlaix,Lannion,Concarneau,Douarnenez,Carhaix,Guingamp,Paimpol,Roscoff,Quimperle,Plouescat,Landivisiau,Plougastel,Plouzané,Perros-Guirec,Ploumanac'h,Pontivy,Auray,Plouguerneau"
+    "b": "Brest,Quimper,Lorient,Vannes,Saint-Brieuc,Morlaix,Lannion,Concarneau,Douarnenez,Carhaix,Guingamp,Paimpol,Roscoff,Quimperle,Plouescat,Landivisiau,Plougastel,PlouzanÃ©,Perros-Guirec,Ploumanac'h,Pontivy,Auray,Plouguerneau"
   },
   {
     "name": "Cornish",
-    "i": 208,
+    "i": 2599,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23403,25 +23403,25 @@ window.realWorldNameBases = [
   },
   {
     "name": "Albanian",
-    "i": 209,
+    "i": 2600,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tirane,Durrës,Shkodër,Elbasan,Vlorë,Fier,Gjirokastër,Berat,Korçë,Lushnjë,Kavajë,Lezhë,Laç,Sarandë,Pogradec,Librazhd,Peqin,Kuçovë,Burrel,Krume,Kukës,Tropojë,Peshkopi"
+    "b": "Tirane,DurrÃ«s,ShkodÃ«r,Elbasan,VlorÃ«,Fier,GjirokastÃ«r,Berat,KorÃ§Ã«,LushnjÃ«,KavajÃ«,LezhÃ«,LaÃ§,SarandÃ«,Pogradec,Librazhd,Peqin,KuÃ§ovÃ«,Burrel,Krume,KukÃ«s,TropojÃ«,Peshkopi"
   },
   {
     "name": "Kurdish",
-    "i": 210,
+    "i": 2601,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Diyarbakir,Erbil,Sulaimaniyah,Duhok,Kirkuk,Van,Hakkari,Siirt,Mardin,Cizre,Amadiya,Zakho,Qamishli,Kobanî,Afrin,Halabja,Chamchamal,Ranya,Kalar,Derik,Sinjar"
+    "b": "Diyarbakir,Erbil,Sulaimaniyah,Duhok,Kirkuk,Van,Hakkari,Siirt,Mardin,Cizre,Amadiya,Zakho,Qamishli,KobanÃ®,Afrin,Halabja,Chamchamal,Ranya,Kalar,Derik,Sinjar"
   },
   {
     "name": "Pashto",
-    "i": 211,
+    "i": 2602,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23430,7 +23430,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Persian",
-    "i": 212,
+    "i": 2603,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23439,16 +23439,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lithuanian",
-    "i": 213,
+    "i": 2604,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Vilnius,Kaunas,Klaipeda,Siauliai,Panevezys,Alytus,Marijampole,Mažeikiai,Jonava,Utena,Telsiai,Taurage,Ukmerge,Plunge,Gargždai,Palanga,Druskininkai,Birstonas,Birzai,Kedainiai,Raseiniai,Radviliskis"
+    "b": "Vilnius,Kaunas,Klaipeda,Siauliai,Panevezys,Alytus,Marijampole,MaÅ¾eikiai,Jonava,Utena,Telsiai,Taurage,Ukmerge,Plunge,GargÅ¾dai,Palanga,Druskininkai,Birstonas,Birzai,Kedainiai,Raseiniai,Radviliskis"
   },
   {
     "name": "Latvian",
-    "i": 214,
+    "i": 2605,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23457,7 +23457,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Estonian",
-    "i": 215,
+    "i": 2606,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23466,7 +23466,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lakota",
-    "i": 216,
+    "i": 2607,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23475,7 +23475,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dakota",
-    "i": 217,
+    "i": 2608,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23484,7 +23484,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Blackfoot",
-    "i": 218,
+    "i": 2609,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23493,7 +23493,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mohawk",
-    "i": 219,
+    "i": 2610,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23502,7 +23502,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tlingit",
-    "i": 220,
+    "i": 2611,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23511,7 +23511,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Haida",
-    "i": 221,
+    "i": 2612,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23520,7 +23520,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Salish",
-    "i": 222,
+    "i": 2613,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23529,7 +23529,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Georgian",
-    "i": 223,
+    "i": 2614,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23538,7 +23538,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Armenian",
-    "i": 224,
+    "i": 2615,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23547,7 +23547,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kazakh",
-    "i": 225,
+    "i": 2616,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23556,7 +23556,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Uzbek",
-    "i": 226,
+    "i": 2617,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23565,7 +23565,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kyrgyz",
-    "i": 227,
+    "i": 2618,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23574,7 +23574,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Uyghur",
-    "i": 228,
+    "i": 2619,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23583,7 +23583,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tajik",
-    "i": 229,
+    "i": 2620,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23592,7 +23592,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yiddish",
-    "i": 230,
+    "i": 2621,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23601,7 +23601,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ladino",
-    "i": 231,
+    "i": 2622,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23610,7 +23610,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Occitan",
-    "i": 232,
+    "i": 2623,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23619,7 +23619,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sardinian",
-    "i": 233,
+    "i": 2624,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23628,7 +23628,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Romansh",
-    "i": 234,
+    "i": 2625,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23637,7 +23637,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Frisian",
-    "i": 235,
+    "i": 2626,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23646,7 +23646,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Faroese",
-    "i": 236,
+    "i": 2627,
     "min": 4,
     "max": 12,
     "d": "nld",
@@ -23655,7 +23655,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Abkhaz",
-    "i": 237,
+    "i": 2628,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23664,7 +23664,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chechen",
-    "i": 238,
+    "i": 2629,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23673,7 +23673,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ingush",
-    "i": 239,
+    "i": 2630,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23682,7 +23682,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ossetian",
-    "i": 240,
+    "i": 2631,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23691,7 +23691,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Circassian",
-    "i": 241,
+    "i": 2632,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23700,16 +23700,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Turkmen",
-    "i": 242,
+    "i": 2633,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
+    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,KÃ¶neÃ¼rgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
   },
   {
     "name": "Tatar",
-    "i": 243,
+    "i": 2634,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23718,7 +23718,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northern Sami",
-    "i": 274,
+    "i": 2635,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23727,7 +23727,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ainu",
-    "i": 275,
+    "i": 2636,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23736,7 +23736,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buryat",
-    "i": 276,
+    "i": 2637,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23745,7 +23745,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zarma",
-    "i": 277,
+    "i": 2638,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23754,7 +23754,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Manx",
-    "i": 278,
+    "i": 2639,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23763,7 +23763,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Corsican",
-    "i": 279,
+    "i": 2640,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23772,7 +23772,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sicilian",
-    "i": 280,
+    "i": 2641,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23781,7 +23781,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bashkir",
-    "i": 281,
+    "i": 2642,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23790,7 +23790,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chuvash",
-    "i": 282,
+    "i": 2643,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23799,7 +23799,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Udmurt",
-    "i": 283,
+    "i": 2644,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23808,7 +23808,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Komi Permyak",
-    "i": 426,
+    "i": 2645,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23817,16 +23817,16 @@ window.realWorldNameBases = [
   },
   {
     "name": "Komi Zyryan",
-    "i": 427,
+    "i": 2646,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Syktyvkar,Ukhta,Vorkuta,Pechora,Inta,Usinsk,Vuktyl,Knyazhpogost,Sosnogorsk,Koigorodok,Ust-Kulom,Ust-Tsilma,Izhemsky,Priluzsky,Udorа,Kortkeros,Ust-Vym,Uhtinsky,Emva,Mutny Materik"
+    "b": "Syktyvkar,Ukhta,Vorkuta,Pechora,Inta,Usinsk,Vuktyl,Knyazhpogost,Sosnogorsk,Koigorodok,Ust-Kulom,Ust-Tsilma,Izhemsky,Priluzsky,UdorÐ°,Kortkeros,Ust-Vym,Uhtinsky,Emva,Mutny Materik"
   },
   {
     "name": "Ndebele",
-    "i": 284,
+    "i": 2647,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23835,7 +23835,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Comorian",
-    "i": 285,
+    "i": 2648,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23844,7 +23844,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Asturian",
-    "i": 286,
+    "i": 2649,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23853,7 +23853,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aragonese",
-    "i": 287,
+    "i": 2650,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23862,7 +23862,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kashmiri",
-    "i": 288,
+    "i": 2651,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23871,7 +23871,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sindhi",
-    "i": 289,
+    "i": 2652,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23880,7 +23880,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Balochi",
-    "i": 290,
+    "i": 2653,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23889,7 +23889,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sranan",
-    "i": 291,
+    "i": 2654,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23898,7 +23898,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Arawak",
-    "i": 292,
+    "i": 2655,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23907,7 +23907,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Luxembourgish",
-    "i": 293,
+    "i": 2656,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23916,7 +23916,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Silesian",
-    "i": 294,
+    "i": 2657,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23925,7 +23925,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nogai",
-    "i": 295,
+    "i": 2658,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23934,7 +23934,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kalmyk",
-    "i": 296,
+    "i": 2659,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23943,7 +23943,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sango",
-    "i": 297,
+    "i": 2660,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23952,7 +23952,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Fon",
-    "i": 298,
+    "i": 2661,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23961,7 +23961,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Innu",
-    "i": 299,
+    "i": 2662,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23970,7 +23970,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Friulian",
-    "i": 300,
+    "i": 2663,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23979,7 +23979,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ladin",
-    "i": 301,
+    "i": 2664,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23988,7 +23988,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Walloon",
-    "i": 302,
+    "i": 2665,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -23997,7 +23997,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Sundanese",
-    "i": 303,
+    "i": 2666,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24006,7 +24006,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cebuano",
-    "i": 304,
+    "i": 2667,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24015,7 +24015,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Greenlandic",
-    "i": 305,
+    "i": 2668,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24024,7 +24024,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Neapolitan",
-    "i": 306,
+    "i": 2669,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24033,7 +24033,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Zhuang",
-    "i": 530,
+    "i": 2670,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24042,7 +24042,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Papuan",
-    "i": 20214,
+    "i": 2671,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24051,7 +24051,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kam-Sui",
-    "i": 533,
+    "i": 2672,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24060,7 +24060,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kra",
-    "i": 317,
+    "i": 2673,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24069,7 +24069,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Hlai",
-    "i": 318,
+    "i": 2674,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24078,7 +24078,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Shan",
-    "i": 532,
+    "i": 2675,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24087,7 +24087,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Mari",
-    "i": 320,
+    "i": 2676,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24096,7 +24096,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Erzya",
-    "i": 429,
+    "i": 2677,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24105,7 +24105,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Northwestern Mari",
-    "i": 428,
+    "i": 2678,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24114,7 +24114,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Moksha",
-    "i": 430,
+    "i": 2679,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24123,7 +24123,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ob-Ugric",
-    "i": 322,
+    "i": 2680,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24132,7 +24132,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Aleut",
-    "i": 413,
+    "i": 2681,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24141,7 +24141,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yupik",
-    "i": 414,
+    "i": 2682,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24150,7 +24150,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Athabaskan",
-    "i": 415,
+    "i": 2683,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24159,7 +24159,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tokelauan",
-    "i": 418,
+    "i": 2684,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24168,7 +24168,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nauruan",
-    "i": 20215,
+    "i": 2685,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24177,7 +24177,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Nar-Phu (dedicated)",
-    "i": 20216,
+    "i": 2686,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24186,7 +24186,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Amira (dedicated)",
-    "i": 20217,
+    "i": 2687,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24195,7 +24195,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Babanki (dedicated)",
-    "i": 20218,
+    "i": 2688,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24204,7 +24204,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Baca (dedicated)",
-    "i": 20219,
+    "i": 2689,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24213,7 +24213,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangala (dedicated)",
-    "i": 20220,
+    "i": 2690,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24222,7 +24222,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangi (dedicated)",
-    "i": 20221,
+    "i": 2691,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24231,7 +24231,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangolan (dedicated)",
-    "i": 20222,
+    "i": 2692,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24240,7 +24240,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bomboli-Bozaba (dedicated)",
-    "i": 20223,
+    "i": 2693,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24249,7 +24249,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bomboma (dedicated)",
-    "i": 20224,
+    "i": 2694,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24258,7 +24258,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Boze (dedicated)",
-    "i": 20225,
+    "i": 2695,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24267,7 +24267,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bozo (dedicated)",
-    "i": 20226,
+    "i": 2696,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24276,7 +24276,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Buu (dedicated)",
-    "i": 20227,
+    "i": 2697,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24285,7 +24285,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dagaare (dedicated)",
-    "i": 20228,
+    "i": 2698,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24294,7 +24294,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Athpahariya (dedicated)",
-    "i": 20229,
+    "i": 2699,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24303,7 +24303,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bantawa (dedicated)",
-    "i": 20230,
+    "i": 2700,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24312,7 +24312,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bahing/Bayung (dedicated)",
-    "i": 20231,
+    "i": 2701,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24321,7 +24321,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Elfdalian (dedicated)",
-    "i": 20232,
+    "i": 2702,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24330,7 +24330,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Swedish (dedicated)",
-    "i": 20233,
+    "i": 2703,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24339,7 +24339,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Latvian (dedicated)",
-    "i": 20234,
+    "i": 2704,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24348,7 +24348,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Lithuanian (dedicated)",
-    "i": 20235,
+    "i": 2705,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24357,7 +24357,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Breton (dedicated)",
-    "i": 20236,
+    "i": 2706,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24366,7 +24366,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Cornish (dedicated)",
-    "i": 20237,
+    "i": 2707,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24375,7 +24375,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Manx (dedicated)",
-    "i": 20238,
+    "i": 2708,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24384,7 +24384,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Welsh (dedicated)",
-    "i": 20239,
+    "i": 2709,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24393,7 +24393,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Russian (dedicated)",
-    "i": 20240,
+    "i": 2710,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24402,7 +24402,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Ukrainian (dedicated)",
-    "i": 20241,
+    "i": 2711,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24411,7 +24411,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Rusyn (dedicated)",
-    "i": 20242,
+    "i": 2712,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24420,7 +24420,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Belarusian (dedicated)",
-    "i": 20243,
+    "i": 2713,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24429,7 +24429,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Czech (dedicated)",
-    "i": 20244,
+    "i": 2714,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24438,7 +24438,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Slovak (dedicated)",
-    "i": 20245,
+    "i": 2715,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24447,7 +24447,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Polish (dedicated)",
-    "i": 20246,
+    "i": 2716,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24456,7 +24456,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kashubian (dedicated)",
-    "i": 20247,
+    "i": 2717,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24465,7 +24465,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Silesian (dedicated)",
-    "i": 20248,
+    "i": 2718,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24474,7 +24474,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Upper Sorbian (dedicated)",
-    "i": 20249,
+    "i": 2719,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24483,7 +24483,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bosnian (dedicated)",
-    "i": 20250,
+    "i": 2720,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24492,7 +24492,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Croatian (dedicated)",
-    "i": 20251,
+    "i": 2721,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24501,7 +24501,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Montenegrin (dedicated)",
-    "i": 20252,
+    "i": 2722,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24510,7 +24510,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Serbian (dedicated)",
-    "i": 20253,
+    "i": 2723,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24519,7 +24519,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bulgarian (dedicated)",
-    "i": 20254,
+    "i": 2724,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24528,7 +24528,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Macedonian (dedicated)",
-    "i": 20255,
+    "i": 2725,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24537,7 +24537,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Slovene (dedicated)",
-    "i": 20256,
+    "i": 2726,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24546,7 +24546,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "German (dedicated)",
-    "i": 20257,
+    "i": 2727,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24555,7 +24555,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Dutch (dedicated)",
-    "i": 20258,
+    "i": 2728,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24564,7 +24564,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Yiddish (dedicated)",
-    "i": 20259,
+    "i": 2729,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24573,7 +24573,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Frisian (dedicated)",
-    "i": 20260,
+    "i": 2730,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24582,7 +24582,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Faroese (dedicated)",
-    "i": 20261,
+    "i": 2731,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24591,7 +24591,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Swiss German (dedicated)",
-    "i": 20262,
+    "i": 2732,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24600,7 +24600,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Scots (dedicated)",
-    "i": 20263,
+    "i": 2733,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24609,7 +24609,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awa (dedicated)",
-    "i": 20264,
+    "i": 2734,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24618,7 +24618,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awadhi (dedicated)",
-    "i": 20265,
+    "i": 2735,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24627,7 +24627,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awbono (dedicated)",
-    "i": 20266,
+    "i": 2736,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24636,7 +24636,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awin (dedicated)",
-    "i": 20267,
+    "i": 2737,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24645,7 +24645,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Awing (dedicated)",
-    "i": 20268,
+    "i": 2738,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24654,7 +24654,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Be-Jizhao (dedicated)",
-    "i": 20269,
+    "i": 2739,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24663,7 +24663,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Be (dedicated)",
-    "i": 20270,
+    "i": 2740,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24672,7 +24672,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beami (dedicated)",
-    "i": 20271,
+    "i": 2741,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24681,7 +24681,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beary (dedicated)",
-    "i": 20272,
+    "i": 2742,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24690,7 +24690,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Beba (dedicated)",
-    "i": 20273,
+    "i": 2743,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -24699,7 +24699,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tongan",
-    "i": 244,
+    "i": 2744,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24708,7 +24708,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Tahitian",
-    "i": 245,
+    "i": 2745,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24717,7 +24717,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Marshallese",
-    "i": 246,
+    "i": 2746,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24726,7 +24726,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Palauan",
-    "i": 247,
+    "i": 2747,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24735,7 +24735,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Chamorro",
-    "i": 248,
+    "i": 2748,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24744,7 +24744,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kiribati",
-    "i": 249,
+    "i": 2749,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -24753,7 +24753,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Rarotongan",
-    "i": 250,
+    "i": 2750,
     "min": 4,
     "max": 12,
     "d": "lnrt",
