@@ -24290,7 +24290,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "dagaare_unq1,dagaare_unq2,dagaare_unq3,dagaare_unq4,dagaare_unq5,dagaare_unq6,dagaare_unq7,dagaare_unq8,dagaare_unq9,dagaare_unq10,dagaare_unq11,dagaare_unq12"
+    "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie,Nandom,Jirapa,Lambussie,Kunku,Bussie"
   },
   {
     "name": "Athpahariya (dedicated)",
@@ -24299,7 +24299,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "aph_unq1,aph_unq2,aph_unq3,aph_unq4,aph_unq5,aph_unq6,aph_unq7,aph_unq8,aph_unq9,aph_unq10,aph_unq11,aph_unq12"
+    "b": "Dhankuta,Mahalaxmi,Pakhribas,Sangurigadhi,Chaubise,Shahidbhumi,Chhathar,Kantipur,Belhara"
   },
   {
     "name": "Bantawa (dedicated)",
@@ -24308,7 +24308,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "bap_unq1,bap_unq2,bap_unq3,bap_unq4,bap_unq5,bap_unq6,bap_unq7,bap_unq8,bap_unq9,bap_unq10,bap_unq11,bap_unq12"
+    "b": "Bhojpur,Darjeeling,Gangtok,Sikkim,Kalimpong,Mangan,Diktel,Rhenock,Kurseong"
   },
   {
     "name": "Bahing/Bayung (dedicated)",
@@ -24317,7 +24317,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "bhj_unq1,bhj_unq2,bhj_unq3,bhj_unq4,bhj_unq5,bhj_unq6,bhj_unq7,bhj_unq8,bhj_unq9,bhj_unq10,bhj_unq11,bhj_unq12"
+    "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa"
   },
   {
     "name": "Elfdalian (dedicated)",
@@ -24326,133 +24326,70 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "ovd_20232_unq1,ovd_20232_unq2,ovd_20232_unq3,ovd_20232_unq4,ovd_20232_unq5,ovd_20232_unq6,ovd_20232_unq7,ovd_20232_unq8,ovd_20232_unq9,ovd_20232_unq10,ovd_20232_unq11,ovd_20232_unq12"
+    "b": "Älvdalen,Idre,Särna,Västermyckeläng,Storvätteshågna,Fulufjället,Töfsingdalen,Rättvik,Brunnsberg,Evertsberg,Klitten,Åsen,Väsa,Västermyckeläng"
   },
   {
-    "name": "Swedish (dedicated)",
+    "name": "Swedish",
     "i": 2703,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "swe_20233_unq1,swe_20233_unq2,swe_20233_unq3,swe_20233_unq4,swe_20233_unq5,swe_20233_unq6,swe_20233_unq7,swe_20233_unq8,swe_20233_unq9,swe_20233_unq10,swe_20233_unq11,swe_20233_unq12"
+    "b": "Stockholm,Goteborg,Malmo,Uppsala,Vasteras,Orebro,Linkoping,Helsingborg,Jonkoping,Norrkoping,Lund,Umea,Gavle,Boras,Sodertalje,Eskilstuna,Halmstad,Vaxjo,Karlstad,Sundsvall,Ostersund,Lulea,Trollhattan,Karlskrona,Kalmar,Skovde,Falun,Visby,Ystad,Kiruna"
   },
   {
-    "name": "Latvian (dedicated)",
-    "i": 2704,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "latvian_20234_unq1,latvian_20234_unq2,latvian_20234_unq3,latvian_20234_unq4,latvian_20234_unq5,latvian_20234_unq6,latvian_20234_unq7,latvian_20234_unq8,latvian_20234_unq9,latvian_20234_unq10,latvian_20234_unq11,latvian_20234_unq12"
-  },
-  {
-    "name": "Lithuanian (dedicated)",
-    "i": 2705,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "lithuanian_20235_unq1,lithuanian_20235_unq2,lithuanian_20235_unq3,lithuanian_20235_unq4,lithuanian_20235_unq5,lithuanian_20235_unq6,lithuanian_20235_unq7,lithuanian_20235_unq8,lithuanian_20235_unq9,lithuanian_20235_unq10,lithuanian_20235_unq11,lithuanian_20235_unq12"
-  },
-  {
-    "name": "Breton (dedicated)",
-    "i": 2706,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "breton_20236_unq1,breton_20236_unq2,breton_20236_unq3,breton_20236_unq4,breton_20236_unq5,breton_20236_unq6,breton_20236_unq7,breton_20236_unq8,breton_20236_unq9,breton_20236_unq10,breton_20236_unq11,breton_20236_unq12"
-  },
-  {
-    "name": "Cornish (dedicated)",
-    "i": 2707,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "cornish_20237_unq1,cornish_20237_unq2,cornish_20237_unq3,cornish_20237_unq4,cornish_20237_unq5,cornish_20237_unq6,cornish_20237_unq7,cornish_20237_unq8,cornish_20237_unq9,cornish_20237_unq10,cornish_20237_unq11,cornish_20237_unq12"
-  },
-  {
-    "name": "Manx (dedicated)",
-    "i": 2708,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "manx_20238_unq1,manx_20238_unq2,manx_20238_unq3,manx_20238_unq4,manx_20238_unq5,manx_20238_unq6,manx_20238_unq7,manx_20238_unq8,manx_20238_unq9,manx_20238_unq10,manx_20238_unq11,manx_20238_unq12"
-  },
-  {
-    "name": "Welsh (dedicated)",
-    "i": 2709,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "welsh_20239_unq1,welsh_20239_unq2,welsh_20239_unq3,welsh_20239_unq4,welsh_20239_unq5,welsh_20239_unq6,welsh_20239_unq7,welsh_20239_unq8,welsh_20239_unq9,welsh_20239_unq10,welsh_20239_unq11,welsh_20239_unq12"
-  },
-  {
-    "name": "Russian (dedicated)",
+    "name": "Russian",
     "i": 2710,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "russian_20240_unq1,russian_20240_unq2,russian_20240_unq3,russian_20240_unq4,russian_20240_unq5,russian_20240_unq6,russian_20240_unq7,russian_20240_unq8,russian_20240_unq9,russian_20240_unq10,russian_20240_unq11,russian_20240_unq12"
+    "b": "Moscow,Saint Petersburg,Novosibirsk,Yekaterinburg,Kazan,Nizhny Novgorod,Chelyabinsk,Krasnoyarsk,Samara,Ufa,Rostov-on-Don,Omsk,Krasnodar,Voronezh,Perm,Volgograd,Saratov,Tyumen,Tolyatti,Barnaul,Izhevsk,Makhachkala,Irkutsk,Khabarovsk,Vladivostok,Tomsk,Kaliningrad,Sevastopol,Yaroslavl"
   },
   {
-    "name": "Ukrainian (dedicated)",
-    "i": 2711,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "ukrainian_20241_unq1,ukrainian_20241_unq2,ukrainian_20241_unq3,ukrainian_20241_unq4,ukrainian_20241_unq5,ukrainian_20241_unq6,ukrainian_20241_unq7,ukrainian_20241_unq8,ukrainian_20241_unq9,ukrainian_20241_unq10,ukrainian_20241_unq11,ukrainian_20241_unq12"
-  },
-  {
-    "name": "Rusyn (dedicated)",
+    "name": "Rusyn",
     "i": 2712,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "rusyn_20242_unq1,rusyn_20242_unq2,rusyn_20242_unq3,rusyn_20242_unq4,rusyn_20242_unq5,rusyn_20242_unq6,rusyn_20242_unq7,rusyn_20242_unq8,rusyn_20242_unq9,rusyn_20242_unq10,rusyn_20242_unq11,rusyn_20242_unq12"
+    "b": "Presov,Uzhhorod,Mukachevo,Khust,Berehove,Velykyi Bereznyi,Perechyn,Svaliava,Irshava,Rakhiv,Yasynia,Vynohradiv,Tiachiv,Volovets,Chop,Snina,Stropkov,Svidnik,Bardejov,Humenne,Medzilaborce,Stara Lubovna,Spisska Bela,Kezmarok,Poprad"
   },
   {
-    "name": "Belarusian (dedicated)",
+    "name": "Belarusian",
     "i": 2713,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "belarusian_20243_unq1,belarusian_20243_unq2,belarusian_20243_unq3,belarusian_20243_unq4,belarusian_20243_unq5,belarusian_20243_unq6,belarusian_20243_unq7,belarusian_20243_unq8,belarusian_20243_unq9,belarusian_20243_unq10,belarusian_20243_unq11,belarusian_20243_unq12"
+    "b": "Minsk,Gomel,Vitebsk,Grodno,Brest,Mogilev,Barysaw,Baranavichy,Pinsk,Orsha,Novopolotsk,Lida,Mozyr,Slutsk,Polotsk,Kobryn,Maladzyechna,Zhodzina,Svetlogorsk,Rechytsa,Navapolatsk,Salihorsk,Smalyavichy,Nyasvizh,Mir"
   },
   {
-    "name": "Czech (dedicated)",
+    "name": "Czech",
     "i": 2714,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "czech_20244_unq1,czech_20244_unq2,czech_20244_unq3,czech_20244_unq4,czech_20244_unq5,czech_20244_unq6,czech_20244_unq7,czech_20244_unq8,czech_20244_unq9,czech_20244_unq10,czech_20244_unq11,czech_20244_unq12"
+    "b": "Prague,Brno,Ostrava,Plzen,Liberec,Olomouc,Ceske Budejovice,Hradec Kralove,Pardubice,Usti nad Labem,Zlin,Kladno,Havirov,Most,Opava,Jihlava,Frydek-Mistek,Teplice,Karlovy Vary,Karvina,Mlada Boleslav,Chomutov,Decin,Jablonec nad Nisou,Prostejov,Prerov,Trinec"
   },
   {
-    "name": "Slovak (dedicated)",
+    "name": "Slovak",
     "i": 2715,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "slovak_20245_unq1,slovak_20245_unq2,slovak_20245_unq3,slovak_20245_unq4,slovak_20245_unq5,slovak_20245_unq6,slovak_20245_unq7,slovak_20245_unq8,slovak_20245_unq9,slovak_20245_unq10,slovak_20245_unq11,slovak_20245_unq12"
+    "b": "Bratislava,Kosice,Presov,Zilina,Nitra,Banska Bystrica,Trnava,Trencin,Poprad,Martin,Prievidza,Zvolen,Michalovce,Komarno,Spisska Nova Ves,Nove Zamky,Levice,Humenne,Bardejov,Liptovsky Mikulas,Lucenec,Pezinok,Dubnica nad Vahom,Ruzomberok,Topolcany,Cadca,Piestany"
   },
   {
-    "name": "Polish (dedicated)",
+    "name": "Polish",
     "i": 2716,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "polish_20246_unq1,polish_20246_unq2,polish_20246_unq3,polish_20246_unq4,polish_20246_unq5,polish_20246_unq6,polish_20246_unq7,polish_20246_unq8,polish_20246_unq9,polish_20246_unq10,polish_20246_unq11,polish_20246_unq12"
+    "b": "Warsaw,Krakow,Wroclaw,Lodz,Poznan,Gdansk,Szczecin,Lublin,Bydgoszcz,Bialystok,Katowice,Gdynia,Czestochowa,Rzeszow,Radom,Torun,Sosnowiec,Kielce,Gliwice,Olsztyn,Zabrze,Bytom,Opole,Tychy,Plock,Elblag,Tarnow"
   },
   {
     "name": "Kashubian (dedicated)",
@@ -24677,7 +24614,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "beami_20271_unq1,beami_20271_unq2,beami_20271_unq3,beami_20271_unq4,beami_20271_unq5,beami_20271_unq6,beami_20271_unq7,beami_20271_unq8,beami_20271_unq9,beami_20271_unq10,beami_20271_unq11,beami_20271_unq12"
+    "b": "Bosavi,Kaluli,Ologo,Walulu,Wisesi,Kikori,Strickland,Nomad,Komofio,Mougulu,Sulamesi,Bedamini"
   },
   {
     "name": "Beary (dedicated)",
@@ -24686,7 +24623,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "beary_20272_unq1,beary_20272_unq2,beary_20272_unq3,beary_20272_unq4,beary_20272_unq5,beary_20272_unq6,beary_20272_unq7,beary_20272_unq8,beary_20272_unq9,beary_20272_unq10,beary_20272_unq11,beary_20272_unq12"
+    "b": "Mangalore,Udupi,Kundapura,Barkur,Basrur,Byndoor,Gangolli,Bhatkal,Innanje,Padubidri,Kollur,Basroor"
   },
   {
     "name": "Beba (dedicated)",
@@ -24695,7 +24632,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "beba_20273_unq1,beba_20273_unq2,beba_20273_unq3,beba_20273_unq4,beba_20273_unq5,beba_20273_unq6,beba_20273_unq7,beba_20273_unq8,beba_20273_unq9,beba_20273_unq10,beba_20273_unq11,beba_20273_unq12"
+    "b": "Beba,Benakuma,Menchum,Bamenda,Mbekunyam,Nsoka,Muala,Mbamba,Shisong,Fombi,Agah,Ntamecheh,Widikum"
   },
   {
     "name": "Tongan",
@@ -24764,5 +24701,5 @@ window.realWorldNameBases = [
 
 // Export for Node.js if needed
 if (typeof module !== "undefined" && module.exports) {
-    module.exports = window.realWorldNameBases;
+  module.exports = window.realWorldNameBases;
 }
