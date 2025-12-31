@@ -13,21 +13,12 @@ We've completed major UTF-8 encoding fixes (480 entries fixed) and now need to f
 
 ## Instructions
 
-### 1. Choose Your Starting Point
-Select **ONE** specific language entry to focus on (one-at-a-time approach):
+### 1. Work Sequentially, Starting From Where Last Left Off
 
-**Recommended Starting Points** (pick ONE):
-- German (i: 0) - Major European language, well-documented
-- English (i: 1) - Easy to verify, abundant sources
-- French (i: 2) - Rich geographic diversity
-- Italian (i: 3) - Clear regional patterns
-- Spanish/Castillian (i: 4) - Multiple country variants
-- Portuguese (i: 13) - Widespread usage patterns
-- Arabic (i: 18) - Complex geographic distribution
-- Chinese (i: 11) - Massive name pool, distinct patterns
-- Japanese (i: 12) - Unique naming conventions
-
-**OR** specify a single i number: "Focus on i: [number]"
+- **One language at a time** - complete full verification before moving on
+- **Start where the tracker in DEVplans\Namebase-Verification.md has left off** - each language must be processed in order of i number from 0 to end of file, starting from the line number tracker has left off
+- **Do not skip ahead** - each language must be fully completed before moving to the next
+- **Do not jump between entries** - each language is processed in order of i number from 0 to end of file
 
 ### 2. In-Depth Verification Process (Per Language)
 
