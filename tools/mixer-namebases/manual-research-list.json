@@ -1,0 +1,4324 @@
+{
+  "generated": "2025-12-24T20:22:00.843Z",
+  "summary": {
+    "total": 2499,
+    "highPriority": 101,
+    "mediumPriority": 68,
+    "likelyLegitimate": 2330
+  },
+  "researchList": {
+    "highPriority": [
+      {
+        "language": "Chakato language (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Greater Magaric (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Magaric (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Magar (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Mgp (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Kip (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Drq (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Southern Amami (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Okinoerabu (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Tokunoshima (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Japanese regional lects (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Kanbun Kundoku (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Macro-Yaeyama (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Miyakoan (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Ryukyuan (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Mao-Omotic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "North Omotic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Ometo (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Piapoco (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Ter├¬na (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Wapishana (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chepangic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chhattisgarhi (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chiang Saen (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chichewa (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chimbu (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Fut (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Soninke (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chung (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dciriku (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Defaka (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Changjiang Hlai (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chavacano (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chenchu (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chinese Kyakala (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Cypriot Arabic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Daba (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dadanitic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Daga (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dagur (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dahalik (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dai Zhuang (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Damu (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dani (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dano (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dao (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dap (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dargwa (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dari (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Darkhad (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dass language (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Daza (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dazawa language (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Ddo (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Deh (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Kakkala (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Kalanadi (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Kanikkaran (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Khirwar (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dendi (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dengese (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Deno language (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Densar (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chepangic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chhattisgarhi (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chiang Saen (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chichewa (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Chimbu (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Derung (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dghwede language (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dhakaiya Kutti Bengali (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dhivehi (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dida (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dima (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dullay (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Duna (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Duruwa (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "E mixed (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Early Modern Korean (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "East Bodish (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "East Chadic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "East Zenati (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Berber (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Estonian (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Himalayas (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Itelmen (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Middle Atlas Berber (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Min (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Morocco Zenati (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Savonian (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern South Estonian (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Votic (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Eastern Yugur (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Edolo (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dhd (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dinka (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Duan Bahnaric (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Duvle Wano Pidgin (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Duwai language (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Dwz (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      },
+      {
+        "language": "Arh (dedicated)",
+        "subjectCount": 1,
+        "issues": [
+          "Contains Primus placeholder"
+        ],
+        "indicators": [
+          "primus"
+        ],
+        "researchAction": "Replace Primus with authentic placenames from geographic region"
+      }
+    ],
+    "mediumPriority": [
+      {
+        "language": "Mesopotamian",
+        "subjectCount": 190,
+        "issues": [
+          "Encoding issue: \"D├╗r-gurgurri\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Kx'a Click A",
+        "subjectCount": 42,
+        "issues": [
+          "Encoding issue: \"╟éx├áa\"",
+          "Encoding issue: \"╟éx├ía\"",
+          "Encoding issue: \"╟éx├óa\"",
+          "Encoding issue: \"╟ék├ía\"",
+          "Encoding issue: \"╟ék├íe\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Kx'a Click B",
+        "subjectCount": 41,
+        "issues": [
+          "Encoding issue: \"╟éx├▓a\"",
+          "Encoding issue: \"╟éx├│a\"",
+          "Encoding issue: \"╟éx├┤a\"",
+          "Encoding issue: \"╟ék├▓a\"",
+          "Encoding issue: \"╟ék├│a\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Kx'a Click C",
+        "subjectCount": 20,
+        "issues": [
+          "Encoding issue: \"╟éx├áe\"",
+          "Encoding issue: \"╟éx├ío\"",
+          "Encoding issue: \"╟éx├óe\"",
+          "Encoding issue: \"╟éx├┤i\"",
+          "Encoding issue: \"╟ék├íe\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Taa Click",
+        "subjectCount": 22,
+        "issues": [
+          "Encoding issue: \"╟âx├│o\"",
+          "Encoding issue: \"╟âx├▓o\"",
+          "Encoding issue: \"╟âx├┤o\"",
+          "Encoding issue: \"╟âg├áa\"",
+          "Encoding issue: \"╟âg├│o\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "N╟üng Click",
+        "subjectCount": 17,
+        "issues": [
+          "Encoding issue: \"╟ün├¼i\"",
+          "Encoding issue: \"╟ün├«i\"",
+          "Encoding issue: \"╟ün├¿i\"",
+          "Encoding issue: \"╟üg├¼i\"",
+          "Encoding issue: \"╟üg├¿i\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Nama Click",
+        "subjectCount": 20,
+        "issues": [
+          "Encoding issue: \"╟ég├óam\"",
+          "Encoding issue: \"╟én├ómi\"",
+          "Encoding issue: \"╟ékh├ób\"",
+          "Encoding issue: \"╟ékh├┤m\"",
+          "Encoding issue: \"╟ég├┤as\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Naro Click",
+        "subjectCount": 20,
+        "issues": [
+          "Encoding issue: \"╟énaro\"",
+          "Encoding issue: \"╟én├íro\"",
+          "Encoding issue: \"╟ég├íro\"",
+          "Encoding issue: \"╟égaru\"",
+          "Encoding issue: \"╟ânaro\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "G╟Çui Click",
+        "subjectCount": 13,
+        "issues": [
+          "Encoding issue: \"G╟Çui\"",
+          "Encoding issue: \"G╟Çuim\"",
+          "Encoding issue: \"G╟Çuisa\"",
+          "Encoding issue: \"G╟Çuikhom\"",
+          "Encoding issue: \"G╟Çuigas\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Ju/'hoan Click",
+        "subjectCount": 30,
+        "issues": [
+          "Encoding issue: \"╟Çx├▓a\"",
+          "Encoding issue: \"╟Çx├│a\"",
+          "Encoding issue: \"╟Çx├┤a\"",
+          "Encoding issue: \"╟Çg├▓a\"",
+          "Encoding issue: \"╟Çg├│a\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Hadza Click",
+        "subjectCount": 19,
+        "issues": [
+          "Encoding issue: \"╩ÿa\"",
+          "Encoding issue: \"╩ÿ├í\"",
+          "Encoding issue: \"╩ÿe\"",
+          "Encoding issue: \"╩ÿ├⌐\"",
+          "Encoding issue: \"╟Çha\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Sandawe Click",
+        "subjectCount": 18,
+        "issues": [
+          "Encoding issue: \"╟Çsa\"",
+          "Encoding issue: \"╟Çs├í\"",
+          "Encoding issue: \"╟Çse\"",
+          "Encoding issue: \"╟Çs├⌐\"",
+          "Encoding issue: \"╟üsa\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "East Chadic",
+        "subjectCount": 20,
+        "issues": [
+          "Encoding issue: \"Ab├⌐ch├⌐\"",
+          "Encoding issue: \"B├⌐r├⌐\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Kwaza-Xoc├│ Amazonian",
+        "subjectCount": 18,
+        "issues": [
+          "Encoding issue: \"Ji-Paran├í\"",
+          "Encoding issue: \"Guajar├í-Mirim\"",
+          "Encoding issue: \"Humait├í\"",
+          "Encoding issue: \"Santar├⌐m\"",
+          "Encoding issue: \"Marab├í\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Angolar S├úo Tom├⌐",
+        "subjectCount": 44,
+        "issues": [
+          "Encoding issue: \"S├úo Jo├úo dos Angolares\"",
+          "Encoding issue: \"Ilh├⌐u das Rolas\"",
+          "Encoding issue: \"Praia Micond├│\"",
+          "Encoding issue: \"Praia Cam├úo\"",
+          "Encoding issue: \"Praia Caix├úo\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Annobonese Pal├⌐",
+        "subjectCount": 43,
+        "issues": [
+          "Encoding issue: \"San Antonio de Pal├⌐\"",
+          "Encoding issue: \"Tchind├í\"",
+          "Encoding issue: \"Ponta M├│\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Forro S├úo Tom├⌐",
+        "subjectCount": 48,
+        "issues": [
+          "Encoding issue: \"S├úo Tom├⌐\"",
+          "Encoding issue: \"├ügua Grande\"",
+          "Encoding issue: \"Batep├í\"",
+          "Encoding issue: \"Micol├│\"",
+          "Encoding issue: \"Monte Caf├⌐\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Principense Sundy",
+        "subjectCount": 42,
+        "issues": [
+          "Encoding issue: \"Santo Ant├│nio\"",
+          "Encoding issue: \"S├úo Joaquim\"",
+          "Encoding issue: \"Oqu├¬ Daniel\"",
+          "Encoding issue: \"Praia Caix├úo\"",
+          "Encoding issue: \"Praia T├⌐tin\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Yanomami Amazonian",
+        "subjectCount": 19,
+        "issues": [
+          "Encoding issue: \"Caracara├¡\"",
+          "Encoding issue: \"Mucaja├¡\"",
+          "Encoding issue: \"Santa Elena de Uair├⌐n\"",
+          "Encoding issue: \"Maturac├í\"",
+          "Encoding issue: \"Tepequ├⌐m\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Spanish Global",
+        "subjectCount": 20,
+        "issues": [
+          "Encoding issue: \"M├ílaga\"",
+          "Encoding issue: \"Bogot├í\"",
+          "Encoding issue: \"Asunci├│n\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Fogo Creole",
+        "subjectCount": 19,
+        "issues": [
+          "Encoding issue: \"Ch├ú das Caldeiras\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Finnmark Sami",
+        "subjectCount": 16,
+        "issues": [
+          "Encoding issue: \"Vads├╕\"",
+          "Encoding issue: \"Vard├╕\"",
+          "Encoding issue: \"Berlev├Ñg\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Inari Sami",
+        "subjectCount": 19,
+        "issues": [
+          "Encoding issue: \"Saariselk├ñ\"",
+          "Encoding issue: \"Enonteki├╢\"",
+          "Encoding issue: \"Sodankyl├ñ\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Kainuu Sami",
+        "subjectCount": 15,
+        "issues": [
+          "Encoding issue: \"Ristij├ñrvi\"",
+          "Encoding issue: \"Utaj├ñrvi\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Lule Sami",
+        "subjectCount": 18,
+        "issues": [
+          "Encoding issue: \"G├ñllivare\"",
+          "Encoding issue: \"Lule├Ñ\"",
+          "Encoding issue: \"├ûrrenjarka\"",
+          "Encoding issue: \"S├╢rkaitum\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Catalan",
+        "subjectCount": 22,
+        "issues": [
+          "Encoding issue: \"Matar├│\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Cantabrian",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Santo├▒a\"",
+          "Encoding issue: \"Cabez├│n de la Sal\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Cast├║o",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"M├⌐rida\"",
+          "Encoding issue: \"C├íceres\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Castrapo",
+        "subjectCount": 24,
+        "issues": [
+          "Encoding issue: \"A Coru├▒a\"",
+          "Encoding issue: \"Vilagarc├¡a de Arousa\"",
+          "Encoding issue: \"Mar├¡n\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Dangaleat language",
+        "subjectCount": 19,
+        "issues": [
+          "Encoding issue: \"Ab├⌐ch├⌐\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Anglo-Norman",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Villedieu-les-Po├¬les\"",
+          "Encoding issue: \"Pont-l'├ëv├¬que\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Norman",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Saint-L├┤\"",
+          "Encoding issue: \"Alen├ºon\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Cauchois",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"F├⌐camp\"",
+          "Encoding issue: \"├ëtretat\"",
+          "Encoding issue: \"T├┤tes\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Augeron",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Pont-l'├ëv├¬que\"",
+          "Encoding issue: \"Blangy-le-Ch├óteau\"",
+          "Encoding issue: \"Dozul├⌐\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "J├¿rriais",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"La Corbi├¿re\"",
+          "Encoding issue: \"Gr├¿ve de Lecq\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Jersey Legal French",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Arr├¬t\"",
+          "Encoding issue: \"├ëtats\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Newfoundland French",
+        "subjectCount": 13,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Besme (dedicated)",
+        "subjectCount": 3,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Sursilvan (dedicated)",
+        "subjectCount": 20,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Qau (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Đồng Văn\"",
+          "Encoding issue: \"Mèo Vạc\"",
+          "Encoding issue: \"Quản Bạ\"",
+          "Encoding issue: \"Vị Xuyên\"",
+          "Encoding issue: \"Bắc Mê\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Judeo-Berber (dedicated)",
+        "subjectCount": 10,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Movima (dedicated)",
+        "subjectCount": 16,
+        "issues": [
+          "Encoding issue: \"Mamor├⌐\"",
+          "Encoding issue: \"Mamor├⌐ River\"",
+          "Encoding issue: \"Buen D├¡a\"",
+          "Encoding issue: \"Carmen de Iruya├▒ez\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Nonuya (dedicated)",
+        "subjectCount": 16,
+        "issues": [
+          "Encoding issue: \"I├º├í\"",
+          "Encoding issue: \"Santo Ant├┤nio do I├º├í\"",
+          "Encoding issue: \"Guamu├⌐s\"",
+          "Encoding issue: \"Guamu├⌐s River\"",
+          "Encoding issue: \"G├╝epp├¡\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Ocaina (dedicated)",
+        "subjectCount": 16,
+        "issues": [
+          "Encoding issue: \"Cotuh├⌐\"",
+          "Encoding issue: \"Paran├í de Jacurap├í\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Cuicatec (dedicated)",
+        "subjectCount": 14,
+        "issues": [
+          "Encoding issue: \"San Lucas Ojitl├ín\"",
+          "Encoding issue: \"Cuicatl├ín\"",
+          "Encoding issue: \"Ca├▒ada Region\"",
+          "Encoding issue: \"Ca├▒ada\"",
+          "Encoding issue: \"Ojitl├ín\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Wiwa (dedicated)",
+        "subjectCount": 15,
+        "issues": [
+          "Encoding issue: \"Rancher├¡a\"",
+          "Encoding issue: \"Ci├⌐naga Grande de Santa Marta\"",
+          "Encoding issue: \"Ariguan├¡\"",
+          "Encoding issue: \"Fundaci├│n\"",
+          "Encoding issue: \"Fr├¡o\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Sekele (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Per├ñpohjola (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Per├ñpohjolaTown\"",
+          "Encoding issue: \"Per├ñpohjolaCity\"",
+          "Encoding issue: \"Per├ñpohjolaVillage\"",
+          "Encoding issue: \"Per├ñpohjolaPort\"",
+          "Encoding issue: \"Per├ñpohjolaHaven\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Jamaican Maroon Creole (dedicated)",
+        "subjectCount": 5,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Bar├¡ (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Oca├▒a\"",
+          "Encoding issue: \"Hacar├¡\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Poqomchi' (dedicated)",
+        "subjectCount": 6,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Tây Bôi Pidgin French (dedicated)",
+        "subjectCount": 8,
+        "issues": [
+          "Encoding issue: \"Cần Thơ\"",
+          "Encoding issue: \"Huế\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "O'odham (dedicated)",
+        "subjectCount": 49,
+        "issues": [
+          "Encoding issue: \"O'oḍkam Va'aki\"",
+          "Encoding issue: \"Vav Kavoḍk\"",
+          "Encoding issue: \"Vav Gakoḍk\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Idu Mishmi (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Haka (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Khumi (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Chicomuceltec (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Cochin Portuguese Creole (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Cocoliche (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Colloquial Finnish (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Cook Islands M─üori Pidgin (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Coptic (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Core Mansi (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Duhwa language (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"Agui�\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Douiret (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Unknown pattern - needs manual review"
+        ],
+        "indicators": [
+          "unknown"
+        ],
+        "researchAction": "Manual verification required"
+      },
+      {
+        "language": "Hezhang Buyi (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"ʔʑei33\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Hruso (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"pʰiri\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      },
+      {
+        "language": "Minica Huitoto (dedicated)",
+        "subjectCount": 12,
+        "issues": [
+          "Encoding issue: \"mɨnɨka\"",
+          "Encoding issue: \"dɨɨjoma\""
+        ],
+        "indicators": [
+          "encoding-issue"
+        ],
+        "researchAction": "Fix UTF-8 Mojibake in language name or placenames"
+      }
+    ]
+  },
+  "filteredOut": [
+    "Gurage",
+    "Harari-Argobba",
+    "German",
+    "English",
+    "French",
+    "Italian",
+    "Castillian",
+    "Nordic",
+    "Greek",
+    "Roman",
+    "Finnic",
+    "Korean",
+    "Chinese",
+    "Japanese",
+    "Portuguese",
+    "Nahuatl",
+    "Hungarian",
+    "Turkish",
+    "Berber",
+    "Arabic",
+    "Inuit",
+    "Basque",
+    "Nigerian",
+    "Celtic",
+    "Iranian",
+    "Hawaiian",
+    "Karnataka",
+    "Quechua",
+    "Swahili",
+    "Vietnamese",
+    "Cantonese",
+    "Mongolian",
+    "Lechitic",
+    "Czech-Slovak",
+    "South Slavic BCS",
+    "Bulgarian",
+    "Ukrainian",
+    "Papuan",
+    "Engan Papuan",
+    "Dani Papuan",
+    "Eastern Indonesian",
+    "Melanesian Vanuatu",
+    "Micronesian",
+    "Central Pacific",
+    "New Caledonia",
+    "Gondi",
+    "Kui-Kuvi Dravidian",
+    "Koya-Konda-Manda-Pengo",
+    "Bemba-Bembe-Fwe",
+    "Berta-Besme",
+    "Omaio-Shabo-Seze",
+    "Tungusic",
+    "Southern Mongolic",
+    "Mandara Chadic",
+    "Bauchi Chadic",
+    "Pur├⌐pecha",
+    "Irish Gaelic",
+    "Scottish Gaelic",
+    "Seri",
+    "Tokelauan",
+    "Nauruan",
+    "Tok Pisin",
+    "Huave",
+    "Tuvaluan",
+    "Shipibo-Conibo Amazonian",
+    "Warao Delta",
+    "South Estonian A",
+    "South Estonian B",
+    "English Global",
+    "Mandarin Global",
+    "Arabic Global",
+    "Old English",
+    "Archi",
+    "Samoyedic Arctic",
+    "Middle English",
+    "Iban",
+    "Sarawakian Malay",
+    "Brunei Malay",
+    "Sabah Malay",
+    "Malaysian Malay",
+    "Berau Malay",
+    "Standard Malay",
+    "Cocos Malay",
+    "Kupang Malay",
+    "Larantuka Malay",
+    "Makassar Malay",
+    "Malaccan Creole Malay",
+    "Manado Malay",
+    "Maumere Malay",
+    "North Moluccan Malay",
+    "Papuan Malay",
+    "Serui Malay",
+    "Sri Lankan Malay",
+    "Sula Malay",
+    "Batek",
+    "Mah Meri",
+    "Semai",
+    "Semaq Beri",
+    "Semelai",
+    "Temiar",
+    "Camorta Nicobarese",
+    "Car Nicobarese",
+    "Chaura Nicobarese",
+    "Nancowry Nicobarese",
+    "Nicobarese (macro)",
+    "Orang Pulo",
+    "Peranakan",
+    "Shompen",
+    "Southern Nicobarese",
+    "Teressa Nicobarese",
+    "Katchal Nicobarese",
+    "Kenaboi",
+    "Minangkabau",
+    "Lampung",
+    "Bima",
+    "Rejang",
+    "Basap",
+    "Selaru",
+    "Land Dayak",
+    "Flores-Lembata",
+    "Kei-Tanimbar",
+    "Timoric",
+    "Sumba-Flores",
+    "Tomini-Tolitoli",
+    "Muna-Buton",
+    "Minahasan",
+    "Sangiric",
+    "Kayan-Murik",
+    "Melanau-Kajang",
+    "North Sarawakan",
+    "Sabahan",
+    "North Borneo",
+    "Greater North Borneo",
+    "Makassar Branch",
+    "South Sulawesi",
+    "Northern South Sulawesi",
+    "Central South Sulawesi",
+    "Kaili-Wolio",
+    "Saluan-Banggai",
+    "Seko-Badaic",
+    "Moklenic",
+    "Nasal",
+    "Northwest Sumatra Barrier Islands",
+    "Sumatran",
+    "SHWNG",
+    "Barito",
+    "Bali Sasak Sumbawa",
+    "Alor Malay",
+    "Ambonese Malay",
+    "Malaysian Mandarin",
+    "Malayo-Chamic",
+    "Malayo-Polynesian",
+    "Western Malayo-Polynesian",
+    "Singaporean Mandarin",
+    "Acehnese",
+    "Madurese",
+    "North New Guinea",
+    "Sawila",
+    "Halmahera Sea",
+    "Barlavento Creoles",
+    "Nenets",
+    "Juk (Bahnaric)",
+    "Wa",
+    "Tiwi",
+    "Ari (Papuan)",
+    "Maguindanao",
+    "Sotavento Creoles",
+    "Sundanese",
+    "Mardijker Creole",
+    "Tetum",
+    "Santali",
+    "Palaung",
+    "Abui",
+    "Angal",
+    "Asmat",
+    "Asmat Citak",
+    "AsmatΓÇôKamoro",
+    "Becking-Dawi",
+    "Benabena",
+    "Bimin",
+    "Gadsup",
+    "Gahuku",
+    "Gogodala",
+    "Awiyaana",
+    "Kasua",
+    "Kamoro",
+    "Kerewo",
+    "Kenati",
+    "Bunun",
+    "Bunun (Isbukun)",
+    "Bunun (Northern-Central)",
+    "Basay",
+    "Babuza",
+    "Amis",
+    "Atayal (Squliq)",
+    "Atayal (Ts'ole')",
+    "Bustocco-Legnanese",
+    "Cadorino",
+    "Calabro",
+    "Campano",
+    "Campidanese",
+    "Canarian",
+    "Akkala Sami",
+    "Kemi Sami",
+    "Kildin Sami",
+    "Bura language",
+    "Bure language",
+    "Buwal language",
+    "Cakfem-Mushere language",
+    "Bukusu",
+    "Bulu",
+    "Bum",
+    "Busa",
+    "Bushong",
+    "Bwela",
+    "Buyu",
+    "Cameroonian Pidgin",
+    "Cameroonian Pidgin English",
+    "BoleΓÇôTangale",
+    "Tangale language",
+    "Yaeyama",
+    "Yonaguni",
+    "Yoron",
+    "Yilan Creole Japanese",
+    "Yokohama Pidgin Japanese",
+    "Burmese",
+    "Burmish",
+    "Burmo Qiangic",
+    "Caijia",
+    "Chepang",
+    "Cotentinais",
+    "Auregnais",
+    "Guern├⌐siais",
+    "Adeni Arabic",
+    "Aleppine Arabic",
+    "Algerian Arabic",
+    "Algerian Saharan Arabic",
+    "Tsiman├⌐",
+    "Cavine├▒a",
+    "Kallawaya",
+    "Chiquitano",
+    "Nivacl├⌐",
+    "Macro-Yaeyama",
+    "Miyakoan",
+    "Southern Amami",
+    "Okinoerabu",
+    "Tokunoshima",
+    "Aragonese",
+    "Central Aragonese",
+    "Castilian",
+    "Castelmezzano",
+    "Castelmezzano",
+    "Central Italian",
+    "Central Marchigiano",
+    "Central Metafonetica",
+    "Central-Southern Calabrian",
+    "Canadian French",
+    "Amami",
+    "Kikai",
+    "Kunigami",
+    "Okinawan",
+    "Butler English",
+    "Kru Pidgin English",
+    "Liberian Interior Pidgin English",
+    "Abaza",
+    "Abkhaz",
+    "Adyghe",
+    "Bzyb",
+    "Aghul",
+    "Kikai",
+    "Kunigami",
+    "Central Catalan",
+    "Anatolian Arabic",
+    "Andalusi Arabic",
+    "Baghdadi Arabic",
+    "Bahraini Gulf Arabic",
+    "Bakhtiari Arabic",
+    "Bukharian Arabic",
+    "Cairene Arabic",
+    "Egyptian Arabic",
+    "Central Asian Arabic",
+    "Ainu",
+    "Hachijo",
+    "Japanese dialects",
+    "Japanese",
+    "Japanese macro",
+    "Ryukyuan",
+    "Irpino",
+    "Molisan",
+    "Neapolitan",
+    "Northern Calabrian",
+    "Pugliese",
+    "South Lucanian",
+    "Southern Latian",
+    "Southern Laziale",
+    "Tarantino",
+    "Vastese",
+    "Ardennais",
+    "Berrichon",
+    "Bourbonnais",
+    "French (fra)",
+    "Frainc-Comtou",
+    "Gallo",
+    "Gaumais",
+    "Law French",
+    "Lorrain",
+    "Mayennais",
+    "Meridional French",
+    "Moselle Romance",
+    "Orleanais",
+    "Paydret",
+    "Picard",
+    "Acadian",
+    "Aeolian",
+    "African Romance",
+    "Alentejan",
+    "Algherese",
+    "Ancona",
+    "Andalusi Romance",
+    "Andalusian",
+    "Ans├│",
+    "Aretino-Chianaiolo",
+    "Argentinian Spanish",
+    "Arpitan",
+    "Asturian",
+    "Auvergnat",
+    "Balearic",
+    "Banat",
+    "Barranquenho",
+    "Benasquese",
+    "Bercian",
+    "Bergamasque",
+    "Bolivian Spanish",
+    "Bolognese",
+    "Brayon",
+    "Brazilian Portuguese",
+    "Brianzoo",
+    "Brigasc",
+    "British Latin",
+    "Bukovinian",
+    "Canzes",
+    "Central-Northern Lazian",
+    "Cheso",
+    "Chiac",
+    "Chilean Spanish",
+    "Chilote",
+    "Chipilo",
+    "Colombian Spanish",
+    "Comasco-Lecchese",
+    "Corsican",
+    "Cremish",
+    "Cremun-S",
+    "Cri-ana",
+    "Daco-Romanian",
+    "Dalmatian",
+    "Eastern Aragonese",
+    "Eastern Catalan",
+    "Eastern Lombard",
+    "Eastern Nonmetafonetica",
+    "Eastern Romanian",
+    "Ecuadorian Spanish",
+    "Emilian",
+    "Doteli",
+    "Achhami Doteli",
+    "Baitadeli Doteli",
+    "Bajhangi Doteli",
+    "Darchuleli Doteli",
+    "Bajureli Doteli",
+    "Dadeldhuri Doteli",
+    "Ennese",
+    "Eonavian",
+    "Equatoguinean Spanish",
+    "Estremenho",
+    "European Portuguese",
+    "Extremaduran",
+    "Fabriano",
+    "Faetar",
+    "Fala",
+    "Ferrarese",
+    "Fiuman",
+    "Florentine",
+    "Forlivese",
+    "Fornes",
+    "Franco-Italian",
+    "Franco-Ontarian",
+    "Franco-Proven\\u00e7al",
+    "Frenchville French",
+    "Friulian",
+    "Galician",
+    "Galician-Asturian",
+    "Gallo-Italic of Basilicata",
+    "Gallo-Italic of Sicily",
+    "Gallo-Picene",
+    "Gallurese",
+    "Gardiol",
+    "Gascon",
+    "Genoese",
+    "Grossetano",
+    "Haketia",
+    "Intemelio",
+    "Istriot",
+    "Ita",
+    "Italo-Australian",
+    "Jauer",
+    "Judeo-Aragonese",
+    "Judeo-Catalan",
+    "Judeo-Gascon",
+    "Judeo-Italian",
+    "Judeo-Mantuan",
+    "Judeo-Piedmontese",
+    "Judeo-Portuguese",
+    "Judeo-Proven\\u00e7al",
+    "Judeo-Spanish",
+    "Ladin",
+    "Ladino (dedicated)",
+    "Landese",
+    "Languedocien",
+    "Latin",
+    "Leonese",
+    "Ligurian",
+    "Limousin",
+    "Llanito",
+    "Logudorese",
+    "Lombard",
+    "Louisiana French",
+    "Lucchese",
+    "M-tis French",
+    "Macerata",
+    "Magoua",
+    "Mallorcan",
+    "Maltese-Italian",
+    "Manduriano",
+    "Maramure-",
+    "Menorcan",
+    "Mentonasc",
+    "Messinese",
+    "Mexican Spanish",
+    "Milanese",
+    "Minderico",
+    "Mineiro",
+    "Mirandese",
+    "Missouri French",
+    "Moldavian",
+    "Mon├⌐gasque",
+    "Mozarabic",
+    "Murcian",
+    "Muskrat French",
+    "Navarrese",
+    "Navarro-Aragonese",
+    "Australian Aboriginal",
+    "Berber (bucket)",
+    "New England French",
+    "Niçard",
+    "Nones",
+    "Northern Catalan",
+    "Northern Portuguese",
+    "Northern Romanian",
+    "Northwestern Catalan",
+    "Novarese",
+    "Occitan",
+    "Angevin",
+    "Burgundian",
+    "Champenois",
+    "Poitevin",
+    "Saintongeais",
+    "Aas-whistled",
+    "Aranese",
+    "B-arnese",
+    "Abruzzese",
+    "Arianese",
+    "Barese",
+    "Basilicatine",
+    "Benevento",
+    "Cilentan",
+    "Cosentino",
+    "Joual",
+    "Chuj",
+    "Ch'orti'",
+    "Old Catalan",
+    "Old Gallo-Romance",
+    "Old Leonese",
+    "Old Lombard",
+    "Old Occitan",
+    "Old Romagnol",
+    "Old Spanish",
+    "Oliventine",
+    "Oltenian",
+    "Ossolano",
+    "Paß╕╖ß╕╖uezu",
+    "Palra",
+    "Pannonian Latin",
+    "Pantesco",
+    "Paraguayan Spanish",
+    "Parmigiano",
+    "Pavese",
+    "Peruvian Ribere├▒o",
+    "Peruvian Spanish",
+    "Pesciatino",
+    "Bjarmian Finnic",
+    "Proto-Sami",
+    "Forest Nenets",
+    "Proto-Finnic",
+    "Southwestern Finnish",
+    "Proto-Uralic",
+    "Proto-Karelian",
+    "Proto-Permic",
+    "Somero region",
+    "J├ñmtland",
+    "Baka",
+    "Bube",
+    "Saya (Chadic)",
+    "Tamil (dedicated)",
+    "Nenets (dedicated)",
+    "Tundra Nenets (dedicated)",
+    "North Estonian (dedicated)",
+    "Western Estonian (dedicated)",
+    "Northern Erzya (dedicated)",
+    "Southeastern Erzya (dedicated)",
+    "Western Erzya (dedicated)",
+    "Shoksha (dedicated)",
+    "Philippine Spanish (dedicated)",
+    "Piedmontese (dedicated)",
+    "Pisano-Livornese (dedicated)",
+    "Pistoiese (dedicated)",
+    "Poitevin-Saintongeais (dedicated)",
+    "Eastern Khanty (dedicated)",
+    "Eastern Mansi (dedicated)",
+    "Western Mansi (dedicated)",
+    "Csángó (dedicated)",
+    "Northeast Hungary (dedicated)",
+    "Transylvanian Plain (dedicated)",
+    "Southern Sami (dedicated)",
+    "Portuguese (dedicated)",
+    "Proto-Eastern Romance (dedicated)",
+    "Proto-Romance (dedicated)",
+    "Provençal (dedicated)",
+    "Putèr (dedicated)",
+    "Mator (dedicated)",
+    "Mator proper (dedicated)",
+    "Proto-Ob-Ugric (dedicated)",
+    "Kamas (dedicated)",
+    "Nganasan (dedicated)",
+    "Western Lombard (dedicated)",
+    "Varesino (dedicated)",
+    "Ticinese (dedicated)",
+    "Triestine (dedicated)",
+    "Berta (dedicated)",
+    "Sinyar (dedicated)",
+    "Songhoyboro Ciine (dedicated)",
+    "Surbakhal (dedicated)",
+    "Teda (dedicated)",
+    "Tondi Songway Kiini (dedicated)",
+    "Sukur (dedicated)",
+    "Bacama (dedicated)",
+    "Bade (Chadic) (dedicated)",
+    "Bole Afroasiatic (dedicated)",
+    "Quebec French (dedicated)",
+    "Rémois (dedicated)",
+    "Regional Italian (dedicated)",
+    "Ribagorçan (dedicated)",
+    "Riberan (dedicated)",
+    "Riojan (dedicated)",
+    "Rioplatense Spanish (dedicated)",
+    "Riunorese (dedicated)",
+    "Romagnol (dedicated)",
+    "Romanesco (dedicated)",
+    "Saba (dedicated)",
+    "Shabo (dedicated)",
+    "Senara (dedicated)",
+    "Sucite (dedicated)",
+    "Supyire (dedicated)",
+    "Suwu (dedicated)",
+    "Romanian (dedicated)",
+    "Romansh (dedicated)",
+    "Romanian Daco-Romanian (dedicated)",
+    "Royasc (dedicated)",
+    "Istro-Romanian (dedicated)",
+    "Aromanian (dedicated)",
+    "Megleno-Romanian (dedicated)",
+    "Sabino (dedicated)",
+    "Saharan Spanish (dedicated)",
+    "Salentino (dedicated)",
+    "Syer-Tenyer (dedicated)",
+    "Tiv (dedicated)",
+    "Tyap (dedicated)",
+    "Werni (dedicated)",
+    "Yobe (dedicated)",
+    "Zhire (dedicated)",
+    "Zhoa (dedicated)",
+    "Tadaksahak (dedicated)",
+    "Sammarinese (dedicated)",
+    "Sardinian (dedicated)",
+    "Sardo-Corsican (dedicated)",
+    "Sassarese (dedicated)",
+    "Savoyard (dedicated)",
+    "Senese (dedicated)",
+    "Sicilian (dedicated)",
+    "Somontanés (dedicated)",
+    "Southeast Metafonetica (dedicated)",
+    "Southern Aragonese (dedicated)",
+    "Surmiran (dedicated)",
+    "Sutsilvan (dedicated)",
+    "Tuatschin (dedicated)",
+    "Vallader (dedicated)",
+    "Spanish (dedicated)",
+    "Standard French (dedicated)",
+    "Standard Italian (dedicated)",
+    "Swiss Italian (dedicated)",
+    "Tuscan (dedicated)",
+    "Southern Cilentan (dedicated)",
+    "Tabarchino (dedicated)",
+    "Talian (dedicated)",
+    "Tetuani (dedicated)",
+    "Transylvanian (dedicated)",
+    "Tuscia (dedicated)",
+    "Umbrian (dedicated)",
+    "Uruguayan Portuguese (dedicated)",
+    "Uruguayan Spanish (dedicated)",
+    "Vald├┤tain (dedicated)",
+    "Valencian (dedicated)",
+    "Venetian (dedicated)",
+    "Venezuelan Spanish (dedicated)",
+    "Versiliese (dedicated)",
+    "Viareggino (dedicated)",
+    "Vivaro-Alpine (dedicated)",
+    "Vosgien (dedicated)",
+    "Wallachian (dedicated)",
+    "Welche (dedicated)",
+    "West Walloon (dedicated)",
+    "Abon (dedicated)",
+    "Abron (dedicated)",
+    "Acheron (dedicated)",
+    "Adara (dedicated)",
+    "Aghem (dedicated)",
+    "Aiki (dedicated)",
+    "Aja (dedicated)",
+    "Aka (dedicated)",
+    "Ambele (dedicated)",
+    "Ambo (dedicated)",
+    "Amdang (dedicated)",
+    "Amira (dedicated)",
+    "Babanki (dedicated)",
+    "Baca (dedicated)",
+    "Bangala (dedicated)",
+    "Bangi (dedicated)",
+    "Bangolan (dedicated)",
+    "Bomboli-Bozaba (dedicated)",
+    "Bomboma (dedicated)",
+    "Boze (dedicated)",
+    "Bozo (dedicated)",
+    "Buu (dedicated)",
+    "Dagaare (dedicated)",
+    "Dagbani (dedicated)",
+    "Djimini (dedicated)",
+    "Doghose (dedicated)",
+    "Dogoso (dedicated)",
+    "Eton (dedicated)",
+    "Evant (dedicated)",
+    "Fongoro (dedicated)",
+    "Fungor (dedicated)",
+    "Fur (dedicated)",
+    "Ghomala╩╝ (dedicated)",
+    "Gikuyu (dedicated)",
+    "Goundo (dedicated)",
+    "Gourmanch├⌐ (dedicated)",
+    "Gumuz (dedicated)",
+    "Gwari (dedicated)",
+    "Gyong (dedicated)",
+    "Hakaona (dedicated)",
+    "Hanga (dedicated)",
+    "Saari (dedicated)",
+    "Samwe (dedicated)",
+    "Shwai (dedicated)",
+    "Sighu (dedicated)",
+    "Siwu (dedicated)",
+    "Southeast Ijo (dedicated)",
+    "Southern Birifor (dedicated)",
+    "Susu (dedicated)",
+    "Tagwana (dedicated)",
+    "Talni (dedicated)",
+    "Tikar (dedicated)",
+    "Tiro (dedicated)",
+    "Twi (dedicated)",
+    "Vengo (dedicated)",
+    "Viemo (dedicated)",
+    "Viti (dedicated)",
+    "Vori (dedicated)",
+    "Voro (dedicated)",
+    "Wali Ghana (dedicated)",
+    "Cree (dedicated)",
+    "Ojibwe (dedicated)",
+    "Yupik (dedicated)",
+    "Inuktitut (dedicated)",
+    "Cherokee (dedicated)",
+    "Apache (dedicated)",
+    "Athabaskan (dedicated)",
+    "Navajo (dedicated)",
+    "Western Aragonese (dedicated)",
+    "Western Catalan (dedicated)",
+    "Western Sicilian (dedicated)",
+    "Wisconsin Walloon (dedicated)",
+    "╦ÇAzd dialect (dedicated)",
+    "┼╗ejtun dialect (dedicated)",
+    "├àsele (dedicated)",
+    "A Ou (dedicated)",
+    "Abaga (dedicated)",
+    "Abba Gorgoryos (dedicated)",
+    "Aboriginal Pidgin English (dedicated)",
+    "Achagua (dedicated)",
+    "Achang (dedicated)",
+    "Achi (dedicated)",
+    "Adang (dedicated)",
+    "Adi (dedicated)",
+    "Adjaran Georgian (dedicated)",
+    "Adnyamathanha (dedicated)",
+    "Aer (dedicated)",
+    "Afade language (dedicated)",
+    "Afar (dedicated)",
+    "Afrikaans (dedicated)",
+    "Afro-Seminole Creole (dedicated)",
+    "Agalega Creole (dedicated)",
+    "Atlym (dedicated)",
+    "Atlym-Nizyam Khanty (dedicated)",
+    "Nizyam (dedicated)",
+    "Salym Khanty (dedicated)",
+    "Albanian (dedicated)",
+    "Alutaguse (dedicated)",
+    "Antillean Creole (dedicated)",
+    "Bhujel (dedicated)",
+    "Blackfoot (dedicated)",
+    "Omaio (dedicated)",
+    "Ongota (dedicated)",
+    "Puinave (dedicated)",
+    "Nukak (dedicated)",
+    "Yuanmen Hlai (dedicated)",
+    "Yanomami (dedicated)",
+    "Sanöma (dedicated)",
+    "Taman (dedicated)",
+    "Tamangic (dedicated)",
+    "Kolami (dedicated)",
+    "Koraga (dedicated)",
+    "Kota (dedicated)",
+    "Kudiya (dedicated)",
+    "Kui Dravidian (dedicated)",
+    "Kumbaran (dedicated)",
+    "Paniya (dedicated)",
+    "Pardhan (dedicated)",
+    "Pathiya (dedicated)",
+    "Tidikelt Berber (dedicated)",
+    "Isthmus Zapotec (dedicated)",
+    "Italian Eritrean (dedicated)",
+    "Italo-Paulista (dedicated)",
+    "Itelmen (dedicated)",
+    "Itza (dedicated)",
+    "Iu Mien (dedicated)",
+    "Izhma (dedicated)",
+    "Joseon Korean Early Modern (dedicated)",
+    "Joseon Korean Middle (dedicated)",
+    "Joseon Korean Modern (dedicated)",
+    "Japanese macro (dedicated)",
+    "Juk (dedicated)",
+    "Jirel (dedicated)",
+    "Kam-Tai (dedicated)",
+    "Kamang (dedicated)",
+    "Kamasa (dedicated)",
+    "Kamassian (dedicated)",
+    "Kambaira (dedicated)",
+    "Kamberau (dedicated)",
+    "Kamono (dedicated)",
+    "Kanak (dedicated)",
+    "Kanasi (dedicated)",
+    "Kandawo (dedicated)",
+    "Kangjia (dedicated)",
+    "Kanite (dedicated)",
+    "Kannada (dedicated)",
+    "Kanuri (dedicated)",
+    "Kap (dedicated)",
+    "Kapampangan (dedicated)",
+    "Abinomn (dedicated)",
+    "Abun (dedicated)",
+    "Anem (dedicated)",
+    "Bilua (dedicated)",
+    "Kuot (dedicated)",
+    "Karakalpak (dedicated)",
+    "Karagas (dedicated)",
+    "Kar (dedicated)",
+    "Karas (dedicated)",
+    "Karasuk (dedicated)",
+    "Proto-Ron (dedicated)",
+    "Proto-Warji (dedicated)",
+    "Khmu (dedicated)",
+    "Kuy (dedicated)",
+    "Katuic (dedicated)",
+    "Khmuic (dedicated)",
+    "North Bauchi family (dedicated)",
+    "Ron family (dedicated)",
+    "South Bauchi family (dedicated)",
+    "West Chadic family (dedicated)",
+    "Proto Tibeto Burman (dedicated)",
+    "Tibeto Burman (dedicated)",
+    "Sal (dedicated)",
+    "Dura Tandrange (dedicated)",
+    "Garifuna (dedicated)",
+    "Gaelic (dedicated)",
+    "Ilocano native-speakers subset (dedicated)",
+    "Ingush (dedicated)",
+    "Inoke-Yate (dedicated)",
+    "Insular Estonian (dedicated)",
+    "Inuktitut-English Pidgin (dedicated)",
+    "Iñupiaq (dedicated)",
+    "Inuvialuktun (dedicated)",
+    "Gong (dedicated)",
+    "Gongduk (dedicated)",
+    "Haida (dedicated)",
+    "Hrusish (dedicated)",
+    "Ikobi (dedicated)",
+    "Ilocano (dedicated)",
+    "International Sign (dedicated)",
+    "Ipiko (dedicated)",
+    "Ipili (dedicated)",
+    "Iranun (dedicated)",
+    "Isabi (dedicated)",
+    "Isan (dedicated)",
+    "Isthmus Zapotec (dedicated)",
+    "Italian Eritrean (dedicated)",
+    "Italo-Paulista (dedicated)",
+    "Itelmen (dedicated)",
+    "Itza (dedicated)",
+    "Iu Mien (dedicated)",
+    "Izhma (dedicated)",
+    "Jimi (dedicated)",
+    "Joseon Korean Early Modern (dedicated)",
+    "Joseon Korean Middle (dedicated)",
+    "Kolami (dedicated)",
+    "Koraga (dedicated)",
+    "Kota (dedicated)",
+    "Kudiya (dedicated)",
+    "Kui Dravidian (dedicated)",
+    "Kumbaran (dedicated)",
+    "Paniya (dedicated)",
+    "Pardhan (dedicated)",
+    "Pathiya (dedicated)",
+    "Tidikelt Berber (dedicated)",
+    "Tuareg Berber (dedicated)",
+    "Tuareg languages (dedicated)",
+    "Tuwat Berber (dedicated)",
+    "Western Berber (dedicated)",
+    "Western Berber family (dedicated)",
+    "Zenaga Berber (dedicated)",
+    "Zenati languages (dedicated)",
+    "Ambakich (dedicated)",
+    "Ap Ma (dedicated)",
+    "Asabano (dedicated)",
+    "Bogaya (dedicated)",
+    "Burmeso (dedicated)",
+    "Mpur (dedicated)",
+    "Maibrat (dedicated)",
+    "Mor (dedicated)",
+    "Elseng (dedicated)",
+    "Kapauri (dedicated)",
+    "Northern Formosan (dedicated)",
+    "Northern Luzon (dedicated)",
+    "Northern Mindoro (dedicated)",
+    "Philippine (dedicated)",
+    "South Mindanao (dedicated)",
+    "Central Vanuatu (dedicated)",
+    "Eastern Oceanic (dedicated)",
+    "Meso-Melanesian (dedicated)",
+    "Oceanic (dedicated)",
+    "Binanderean (dedicated)",
+    "Kutubuan languages (dedicated)",
+    "Goilalan (dedicated)",
+    "Kolopom (dedicated)",
+    "Tsouic (dedicated)",
+    "Greater Central Philippine (dedicated)",
+    "Batanic (dedicated)",
+    "Central Luzon (dedicated)",
+    "Georgian dialects (dedicated)",
+    "Old Georgian (dedicated)",
+    "Proto-Georgian–Zan (dedicated)",
+    "Proto-Kartvelian (dedicated)",
+    "Zan languages (dedicated)",
+    "Judaeo-Georgian (dedicated)",
+    "Georgian–Zan (dedicated)",
+    "Kartvelian languages (dedicated)",
+    "Proto-Samoyedic (dedicated)",
+    "Itelmen (dedicated)",
+    "Kamchatkan (dedicated)",
+    "Kerek (dedicated)",
+    "Ket (dedicated)",
+    "Koryak (dedicated)",
+    "Kott (dedicated)",
+    "Telugu (dedicated)",
+    "Setlôkwa (dedicated)",
+    "Shanjo (dedicated)",
+    "Soli (dedicated)",
+    "Suba-Simbiti (dedicated)",
+    "Loyalties-New Caledonia (dedicated)",
+    "North Vanuatu (dedicated)",
+    "South Vanuatu (dedicated)",
+    "Southeast Solomonic (dedicated)",
+    "Southern Oceanic (dedicated)",
+    "St. Matthias (dedicated)",
+    "Temotu (dedicated)",
+    "Vanuatu (dedicated)",
+    "Western Oceanic (dedicated)",
+    "Tai Meuay (dedicated)",
+    "Proto-Kra (dedicated)",
+    "Nadou (dedicated)",
+    "Mulao Kra (dedicated)",
+    "Shan (dedicated)",
+    "Tani (dedicated)",
+    "Mising (dedicated)",
+    "Karbi (dedicated)",
+    "Karelian (dedicated)",
+    "Karelian proper (dedicated)",
+    "Karenic (dedicated)",
+    "Kashinawa (dedicated)",
+    "Kashmiri (dedicated)",
+    "Kathu (dedicated)",
+    "Camsá (dedicated)",
+    "Kabutra (dedicated)",
+    "Koch (dedicated)",
+    "Ke’yagana (dedicated)",
+    "Kei-Tanimbar (dedicated)",
+    "Kemi (dedicated)",
+    "Kemijärvi (dedicated)",
+    "Kenaboi (dedicated)",
+    "Keuruu-Evijärvi (dedicated)",
+    "Kewa (dedicated)",
+    "Kacchi (dedicated)",
+    "Kumaoni (dedicated)",
+    "Kusunda (dedicated)",
+    "Admiralty (dedicated)",
+    "Afroasiatic family (dedicated)",
+    "Alor-Pantar (dedicated)",
+    "Angas family (dedicated)",
+    "Anim languages (dedicated)",
+    "Aru (dedicated)",
+    "Aslian languages (dedicated)",
+    "Awin-Pa (dedicated)",
+    "Awyu-Dumut (dedicated)",
+    "Bade family (dedicated)",
+    "Khowar (dedicated)",
+    "Khwarshi (dedicated)",
+    "Kiautschou Pidgin German (dedicated)",
+    "Kichwa (dedicated)",
+    "Kiga (dedicated)",
+    "Kiliwa (dedicated)",
+    "Kikar (dedicated)",
+    "Kikuyu (dedicated)",
+    "Kim Mun (dedicated)",
+    "Kimaama-Kimaghama (dedicated)",
+    "Kinyarwanda (dedicated)",
+    "Kirundi (dedicated)",
+    "Kongo (dedicated)",
+    "Damal (dedicated)",
+    "Dem (dedicated)",
+    "Dibiyaso (dedicated)",
+    "Guriaso (dedicated)",
+    "Kaki Ae (dedicated)",
+    "Karami (dedicated)",
+    "Kehu (dedicated)",
+    "Adeni Arabic (dedicated)",
+    "Kaiwá (dedicated)",
+    "Kaingang (dedicated)",
+    "Khasi (dedicated)",
+    "Lyngngam (dedicated)",
+    "Khasi native-speakers subset (dedicated)",
+    "Pnar (dedicated)",
+    "War Khasi (dedicated)",
+    "Khakas (dedicated)",
+    "Kham (dedicated)",
+    "Khamnigan Mongol (dedicated)",
+    "Khams Tibetan (dedicated)",
+    "Khamti (dedicated)",
+    "Khamyang (dedicated)",
+    "Kharia (dedicated)",
+    "Khmer (dedicated)",
+    "Khe Khmer (dedicated)",
+    "Northern Khmer (dedicated)",
+    "Kho Bwa (dedicated)",
+    "Khori Buryat (dedicated)",
+    "Khortha (dedicated)",
+    "Agarabi (dedicated)",
+    "Agaw (dedicated)",
+    "Aghu (dedicated)",
+    "Awakatek (dedicated)",
+    "Ahom (dedicated)",
+    "Ahirani (dedicated)",
+    "Ahtna (dedicated)",
+    "Ai Cham (dedicated)",
+    "Aimele (dedicated)",
+    "Ainu (dedicated)",
+    "Air Tamajeq language (dedicated)",
+    "Nataoran (dedicated)",
+    "Ait Seghrouchen Berber (dedicated)",
+    "Aiton (dedicated)",
+    "Ajawa language (dedicated)",
+    "Akan (dedicated)",
+    "Aka-Jeru (dedicated)",
+    "Akkadian (dedicated)",
+    "Aka-Bo (dedicated)",
+    "Akoye (dedicated)",
+    "Eastern Mari (dedicated)",
+    "Hill Mari (dedicated)",
+    "Udmurt (dedicated)",
+    "Southern Udmurt (dedicated)",
+    "Northern Udmurt (dedicated)",
+    "Meadow Mari (dedicated)",
+    "Meadow Mari Proper (dedicated)",
+    "Northwestern Mari (dedicated)",
+    "Proto-Mari (dedicated)",
+    "Khun (dedicated)",
+    "Kiong Nai (dedicated)",
+    "Kiranti (dedicated)",
+    "Kiribati (dedicated)",
+    "Kituba (dedicated)",
+    "Kiwai (dedicated)",
+    "Keresan (dedicated)",
+    "Kulung (dedicated)",
+    "Klon (dedicated)",
+    "Kalasha (dedicated)",
+    "Mednyj Aleut (dedicated)",
+    "Mon (dedicated)",
+    "Mon (native speakers) (dedicated)",
+    "Lakkia-Kam-Sui (dedicated)",
+    "Tai Hongjin (dedicated)",
+    "Qabiao (dedicated)",
+    "Akatek (dedicated)",
+    "Kochevo (dedicated)",
+    "Koho (dedicated)",
+    "Koibal (dedicated)",
+    "Koitabu (dedicated)",
+    "Kombai–Wanggom (dedicated)",
+    "Komi-Permyak (dedicated)",
+    "Komolom (dedicated)",
+    "Komyandaret (dedicated)",
+    "Konai (dedicated)",
+    "Konda (dedicated)",
+    "Konda Khanty (dedicated)",
+    "Koneraw (dedicated)",
+    "Konkani (dedicated)",
+    "Konyak (dedicated)",
+    "Kopkaka (dedicated)",
+    "Kor (dedicated)",
+    "Korafe (dedicated)",
+    "Korlai Portuguese Creole (dedicated)",
+    "Koro (dedicated)",
+    "Korowai (dedicated)",
+    "Koryo-mar (dedicated)",
+    "Kosraean (dedicated)",
+    "Kosena (dedicated)",
+    "Kovojab (dedicated)",
+    "Koya (dedicated)",
+    "Karajá (dedicated)",
+    "Karata (dedicated)",
+    "Kumhali (dedicated)",
+    "Kraasna (dedicated)",
+    "Krasnojarsk Khanty (dedicated)",
+    "Karachay-Balkar (dedicated)",
+    "Krevinian (dedicated)",
+    "Krio (dedicated)",
+    "Kristang (dedicated)",
+    "Kubo (dedicated)",
+    "Kui Alor-Pantar (dedicated)",
+    "Kuki Chin (dedicated)",
+    "Kuki Chin Naga (dedicated)",
+    "Kukkuzi (dedicated)",
+    "Kula (dedicated)",
+    "Kumyk (dedicated)",
+    "Kuman (dedicated)",
+    "Kumhali (alias) (dedicated)",
+    "Kunama (dedicated)",
+    "Kunduvadi (dedicated)",
+    "Western Khanty (dedicated)",
+    "Agarabi (dedicated)",
+    "Agaw (dedicated)",
+    "Aghu (dedicated)",
+    "Awakatek (dedicated)",
+    "Ahom (dedicated)",
+    "Wapan (dedicated)",
+    "Weh (dedicated)",
+    "Wushi (dedicated)",
+    "Yemba (dedicated)",
+    "Zande (dedicated)",
+    "Yoruba (dedicated)",
+    "Wannu (dedicated)",
+    "Yalunka (dedicated)",
+    "Yamba (dedicated)",
+    "Yela-Kela (dedicated)",
+    "Yulu (dedicated)",
+    "Tacana (dedicated)",
+    "Guna (dedicated)",
+    "Ahirani (dedicated)",
+    "Ahtna (dedicated)",
+    "Ai Cham (dedicated)",
+    "Aimele (dedicated)",
+    "Air Tamajeq language (dedicated)",
+    "Nataoran (dedicated)",
+    "Ait Seghrouchen Berber (dedicated)",
+    "Aiton (dedicated)",
+    "Ajawa language (dedicated)",
+    "Akan (dedicated)",
+    "Ala-Satakunta (dedicated)",
+    "American Finnish (dedicated)",
+    "Avam (dedicated)",
+    "Berjozov (dedicated)",
+    "Besermyan (dedicated)",
+    "Arafundi-Enga Pidgin (dedicated)",
+    "Aramaic (dedicated)",
+    "Aranadan (dedicated)",
+    "Arawak (dedicated)",
+    "Argobba (dedicated)",
+    "Ainu (dedicated)",
+    "Aka-Jeru (dedicated)",
+    "Akkadian (dedicated)",
+    "Aka-Bo (dedicated)",
+    "Akoye (dedicated)",
+    "Aku (dedicated)",
+    "Akhvakh (dedicated)",
+    "Alak Bahnaric (dedicated)",
+    "Alar-Tunka Buryat (dedicated)",
+    "Alasha Mongol (dedicated)",
+    "Arabic (dedicated)",
+    "Assyrian Neo-Aramaic (dedicated)",
+    "Hebrew (dedicated)",
+    "Western Neo-Aramaic (dedicated)",
+    "Armenian (dedicated)",
+    "Pashto (dedicated)",
+    "Tajik (dedicated)",
+    "Iranian Persian (dedicated)",
+    "Kurdish (dedicated)",
+    "Sorani Kurdish (dedicated)",
+    "Georgian (dedicated)",
+    "Uyghur (dedicated)",
+    "Azerbaijani (dedicated)",
+    "Turkish (dedicated)",
+    "Central Plains Mandarin (dedicated)",
+    "Lan-Yin Mandarin (dedicated)",
+    "Northeastern Mandarin (dedicated)",
+    "Southwestern Mandarin (dedicated)",
+    "Lower Yangtze Mandarin (dedicated)",
+    "Athpahariya (Athpare) (dedicated)",
+    "Bantawa (dedicated)",
+    "Bahing (dedicated)",
+    "Belhare (dedicated)",
+    "Chintang (dedicated)",
+    "Dumi (dedicated)",
+    "Sampang (dedicated)",
+    "Sunuwar (dedicated)",
+    "Thulung (dedicated)",
+    "Yamphu (dedicated)",
+    "Chulung (dedicated)",
+    "Mewahang (dedicated)",
+    "Jerung (Jero) (dedicated)",
+    "Limbu (dedicated)",
+    "Lohorung (dedicated)",
+    "Nachhiring (dedicated)",
+    "Puma (dedicated)",
+    "Dungmali (dedicated)",
+    "Saam (dedicated)",
+    "Hayu/Vayu (dedicated)",
+    "Chantyal (dedicated)",
+    "Ghale (dedicated)",
+    "Kaike (Magar Kaike) (dedicated)",
+    "Manang (Manange) (dedicated)",
+    "Altai (dedicated)",
+    "Altai Uriankhai (dedicated)",
+    "Alu (dedicated)",
+    "Aluku (dedicated)",
+    "Alyutor (dedicated)",
+    "Sui Lang (dedicated)",
+    "Tai Dam (dedicated)",
+    "Tai Ya (dedicated)",
+    "Taishanese (dedicated)",
+    "Wutunhua (dedicated)",
+    "Yi (dedicated)",
+    "Amdo Tibetan (dedicated)",
+    "Hamer (dedicated)",
+    "Amh (dedicated)",
+    "Amharic (dedicated)",
+    "Amharic-Argobba (dedicated)",
+    "Lower Inva (dedicated)",
+    "Nubri (dedicated)",
+    "Boro (Bodo) (dedicated)",
+    "Dhimal (dedicated)",
+    "Proto-Karenic (dedicated)",
+    "Angas (dedicated)",
+    "Auyokawa language (dedicated)",
+    "Bade alias (dedicated)",
+    "Barein language (dedicated)",
+    "Beele language (dedicated)",
+    "Kudymkar-Inva (dedicated)",
+    "Baram Thangmi (dedicated)",
+    "Dhimalish (dedicated)",
+    "Boro Garo (dedicated)",
+    "Mijiic (dedicated)",
+    "Proto-Sami (dedicated)",
+    "Forest Nenets (dedicated)",
+    "Proto-Finnic (dedicated)",
+    "Southwestern Finnish (dedicated)",
+    "Proto-Uralic (dedicated)",
+    "Proto-Karelian (dedicated)",
+    "Proto-Permic (dedicated)",
+    "Somero region (dedicated)",
+    "Ammonite (dedicated)",
+    "Amorite (dedicated)",
+    "Amur Dagur (dedicated)",
+    "Amuzgo (dedicated)",
+    "Anaang (dedicated)",
+    "Ingrian (dedicated)",
+    "Kven (dedicated)",
+    "Livonian (dedicated)",
+    "Ludic (dedicated)",
+    "Meänkieli (dedicated)",
+    "Veps (dedicated)",
+    "V\\u00f5ro (dedicated)",
+    "Votic (dedicated)",
+    "Anca (dedicated)",
+    "Ancient Egyptian (dedicated)",
+    "Ancient North Arabian (dedicated)",
+    "Aneme-Wake (dedicated)",
+    "Angaataha (dedicated)",
+    "Hollola (dedicated)",
+    "Heart Tavastian (dedicated)",
+    "Savonian (dedicated)",
+    "Anca (dedicated)",
+    "Ancient Egyptian (dedicated)",
+    "Ancient North Arabian (dedicated)",
+    "Hollola (setBases aux)",
+    "Heart Tavastian (setBases aux)",
+    "Savonian (setBases aux)",
+    "Aleppine Arabic (dedicated)",
+    "Algerian Arabic (dedicated)",
+    "Algerian Saharan Arabic (dedicated)",
+    "Anatolian Arabic (dedicated)",
+    "Aramaic (dedicated)",
+    "Arabic (dedicated)",
+    "Arabic Javanese of Klego (dedicated)",
+    "Arin (dedicated)",
+    "Aringa (dedicated)",
+    "Armazic (dedicated)",
+    "Aro (dedicated)",
+    "Aroid (dedicated)",
+    "Arp (dedicated)",
+    "Arunachal (dedicated)",
+    "Ashaninka (dedicated)",
+    "Asoa (dedicated)",
+    "Assamese (dedicated)",
+    "Assan (dedicated)",
+    "Assyrian (dedicated)",
+    "Atohwaim-Kaugat (dedicated)",
+    "Atsam (dedicated)",
+    "Mongolian (dedicated)",
+    "Buryat (dedicated)",
+    "Daur (dedicated)",
+    "Oirat (dedicated)",
+    "Torgut Oirat (dedicated)",
+    "Bambassi (dedicated)",
+    "Tagoi (dedicated)",
+    "Wali Sudan (dedicated)",
+    "Samo (Burkina) (dedicated)",
+    "Ekoka ╟âKung (dedicated)",
+    "╟éKx╩╝ao╟ü╩╝ae (dedicated)",
+    "Wolof (dedicated)",
+    "Sesotho (dedicated)",
+    "Tswana (dedicated)",
+    "Zarma (dedicated)",
+    "Seze (dedicated)",
+    "Shona (dedicated)",
+    "Sena (dedicated)",
+    "Tshiluba (dedicated)",
+    "Sotho (dedicated)",
+    "Swazi (dedicated)",
+    "Tumbuka (dedicated)",
+    "Sakata (dedicated)",
+    "Sengele (dedicated)",
+    "Shi (dedicated)",
+    "Suba (dedicated)",
+    "Suku (dedicated)",
+    "Wongo (dedicated)",
+    "Zulu (dedicated)",
+    "Sepedi (dedicated)",
+    "Southern Ndebele (dedicated)",
+    "Sumayela Ndebele (dedicated)",
+    "Tsonga or Xitsonga (dedicated)",
+    "Umbundu (dedicated)",
+    "Burushaski (dedicated)",
+    "Hinglish (dedicated)",
+    "Hindko, Northern (dedicated)",
+    "Indian English (dedicated)",
+    "Korku (dedicated)",
+    "Nepalese English (dedicated)",
+    "Newar (dedicated)",
+    "Sora (Savara) (dedicated)",
+    "Manchu (dedicated)",
+    "Jurchen (dedicated)",
+    "Xibe (dedicated)",
+    "Nanai (dedicated)",
+    "Evenki (dedicated)",
+    "Oroqen (dedicated)",
+    "Awjila language (dedicated)",
+    "Aws-Nian (dedicated)",
+    "Aymara (dedicated)",
+    "Ayo (dedicated)",
+    "Ba-Ari (dedicated)",
+    "Man Met (Kemie) (dedicated)",
+    "Hu (Angku, Kon Keu) (dedicated)",
+    "U (Pouma) (dedicated)",
+    "Baarin Mongol (dedicated)",
+    "Baba (dedicated)",
+    "Babylonian (dedicated)",
+    "Bacama alias (dedicated)",
+    "Badaga (dedicated)",
+    "Baoan (dedicated)",
+    "Baoanic (dedicated)",
+    "Baoting Hlai (dedicated)",
+    "Barai (dedicated)",
+    "Barambu (dedicated)",
+    "Badong Yao (dedicated)",
+    "Baekje Korean (dedicated)",
+    "Baghdadi Arabic (dedicated)",
+    "Baham (dedicated)",
+    "Bahnar (dedicated)",
+    "Bengali (dedicated)",
+    "Bengali Portuguese Creole (dedicated)",
+    "Beni Snous dialect (dedicated)",
+    "Berber (dedicated)",
+    "Berbice (dedicated)",
+    "Macagu├ín (Hitn├╝) (dedicated)",
+    "Arhuaco (Ik╩ë) (dedicated)",
+    "Minica Huitoto (dedicated)",
+    "Muinane (dedicated)",
+    "Nukak (dedicated)",
+    "Sater├⌐-Maw├⌐ (dedicated)",
+    "Teneteh├íra (dedicated)",
+    "War├ízu (dedicated)",
+    "Wari' (dedicated)",
+    "San├╢ma (Sanum├í) (dedicated)",
+    "Trinitario (dedicated)",
+    "Reyesano (Maropa) (dedicated)",
+    "Toromona (dedicated)",
+    "Wich├¡ Lhamt├⌐s Nocten (Weenhayek) (dedicated)",
+    "Wich├¡ Lhamt├⌐s Vejoz (dedicated)",
+    "Sierra Popoluca (dedicated)",
+    "Tlapanec (MeΩ₧îphaa) (dedicated)",
+    "Paipai (dedicated)",
+    "Tiriy├│ (dedicated)",
+    "Coast Tsimshian (SmΓÇÖalgya╠▒x) (dedicated)",
+    "Gelao (dedicated)",
+    "Tongzha (dedicated)",
+    "Telue (dedicated)",
+    "Then Kam Sui (dedicated)",
+    "Nong Zhuang (dedicated)",
+    "Vandu (dedicated)",
+    "Chadong (dedicated)",
+    "En Kra (dedicated)",
+    "Nuoxi Naxi Yao (dedicated)",
+    "Lauhut (dedicated)",
+    "Tsamai (dedicated)",
+    "El Molo (dedicated)",
+    "Saho (dedicated)",
+    "Somali (dedicated)",
+    "Central Transdanubian (dedicated)",
+    "Tisza-K├╢r├╢s (dedicated)",
+    "Pal├│c (dedicated)",
+    "Southern Transdanubian (dedicated)",
+    "Southern Great Plain (dedicated)",
+    "Bahrani Arabic (dedicated)",
+    "Bai (dedicated)",
+    "Baima (dedicated)",
+    "Baisha Hlai (dedicated)",
+    "Bala (dedicated)",
+    "Kosa-Kama (dedicated)",
+    "Upper Lupya (dedicated)",
+    "Proper Southeastern (dedicated)",
+    "Luokta-M├ívas (dedicated)",
+    "Standard Finnish (dedicated)",
+    "Udora (dedicated)",
+    "Torne Sami (dedicated)",
+    "Tavastian (dedicated)",
+    "Tornio (dedicated)",
+    "Hevaha (dedicated)",
+    "Northern Karelian (dedicated)",
+    "Upper Vychegda (dedicated)",
+    "Pori region (dedicated)",
+    "Fingelska (dedicated)",
+    "Southern Selkup (dedicated)",
+    "Vadey (dedicated)",
+    "Bahraini Gulf Arabic (dedicated)",
+    "Bakhtiari Arabic (dedicated)",
+    "Baldemu language (dedicated)",
+    "Balo (dedicated)",
+    "Balochi (dedicated)",
+    "Balti (dedicated)",
+    "Bamali (dedicated)",
+    "Bambalang (dedicated)",
+    "Bambara (dedicated)",
+    "Bamboo English (dedicated)",
+    "Bami (dedicated)",
+    "Bamukumbit (dedicated)",
+    "Bamum (dedicated)",
+    "Bamwe (dedicated)",
+    "Balinese (dedicated)",
+    "Bana language (dedicated)",
+    "Bangime (dedicated)",
+    "Bangladeshi English (dedicated)",
+    "Banjar (dedicated)",
+    "Baramu (dedicated)",
+    "Bareqi Arabic (dedicated)",
+    "Bargut (dedicated)",
+    "Bargut Buryat (dedicated)",
+    "Bariba (dedicated)",
+    "Bariji (dedicated)",
+    "Barikanchi Pidgin (dedicated)",
+    "Baruga (dedicated)",
+    "Barwar (dedicated)",
+    "Barzani Jewish Neo-Aramaic (dedicated)",
+    "Basap (dedicated)",
+    "Bavarian (dedicated)",
+    "Cimbrian (dedicated)",
+    "Limburgish (dedicated)",
+    "Low German (dedicated)",
+    "Mainfr├ñnkisch (dedicated)",
+    "Palatinate German (dedicated)",
+    "Ripuarian Platt (dedicated)",
+    "Basque-Icelandic pidgin (dedicated)",
+    "Bassari (dedicated)",
+    "Basum (dedicated)",
+    "Bata language (dedicated)",
+    "Bathari (dedicated)",
+    "Bats (dedicated)",
+    "Batu (dedicated)",
+    "Bauwaki (dedicated)",
+    "Bayat Oirat (dedicated)",
+    "Bayono (dedicated)",
+    "Bayot (dedicated)",
+    "Toba Batak (dedicated)",
+    "Bugan (dedicated)",
+    "Balochi, Sulaimani (dedicated)",
+    "Badeshi (dedicated)",
+    "Uzbek (dedicated)",
+    "Kazakh (dedicated)",
+    "Kyrgyz (dedicated)",
+    "Tatar (dedicated)",
+    "Tuvan (dedicated)",
+    "Ili Turki (dedicated)",
+    "Fuyu Kyrgyz (dedicated)",
+    "Salar (dedicated)",
+    "E Tai (dedicated)",
+    "Kuan (dedicated)",
+    "Lao Nyo (dedicated)",
+    "Tai Muong Vat (dedicated)",
+    "Nung Tai (dedicated)",
+    "Lao Phutai (dedicated)",
+    "Pa Di (dedicated)",
+    "Thai Song (dedicated)",
+    "Northwestern Tai (dedicated)",
+    "Southwestern Tai (dedicated)",
+    "Dakota (dedicated)",
+    "Crow (dedicated)",
+    "Xavante (dedicated)",
+    "Xerente (dedicated)",
+    "Pashto, Central (dedicated)",
+    "Waneci (dedicated)",
+    "Eastern Indonesian Malay (dedicated)",
+    "Gorap (dedicated)",
+    "Harari (dedicated)",
+    "Harari-East Gurage (dedicated)",
+    "tay-tai (dedicated)",
+    "tai (dedicated)",
+    "tay-tac (dedicated)",
+    "northern-tai (dedicated)",
+    "min-zhuang (dedicated)",
+    "tai-long (dedicated)",
+    "yei-zhuang (dedicated)",
+    "tai-daeng (dedicated)",
+    "Guajajara (dedicated)",
+    "L├¡ngua Geral Amaz├┤nica (dedicated)",
+    "Mixe (dedicated)",
+    "Tabasco Zoque (dedicated)",
+    "Chochotec (dedicated)",
+    "Ixcatec (dedicated)",
+    "Q'anjob'al (dedicated)",
+    "Cauque Mayan language (dedicated)",
+    "Mobilian Jargon (dedicated)",
+    "Pidgin Delaware (dedicated)",
+    "Savonlinna (dedicated)",
+    "Danish (dedicated)",
+    "isl (dedicated)",
+    "Norwegian (dedicated)",
+    "Hlai (dedicated)",
+    "Mulam (dedicated)",
+    "Be (dedicated)",
+    "Bouyei (dedicated)",
+    "Eyak (dedicated)",
+    "Dena'ina (dedicated)",
+    "Chipewyan (dedicated)",
+    "Deg Xinag (dedicated)",
+    "Gwich╩╝in (dedicated)",
+    "H├ñn (dedicated)",
+    "Holikachuk (dedicated)",
+    "Koyukon (dedicated)",
+    "T┼é─»ch╟½ (dedicated)",
+    "Upper Kuskokwim (dedicated)",
+    "Upper Tanana (dedicated)",
+    "Kiliwa (dedicated)",
+    "Mojave (dedicated)",
+    "Quechan (dedicated)",
+    "Cochim├¡ (dedicated)",
+    "Cocopa (dedicated)",
+    "Yavapai (dedicated)",
+    "Mohawk (dedicated)",
+    "Cayuga (dedicated)",
+    "Oneida (dedicated)",
+    "Onondaga (dedicated)",
+    "Seneca (dedicated)",
+    "Tuscarora (dedicated)",
+    "Macuna (dedicated)",
+    "Cubeo (dedicated)",
+    "Desano (dedicated)",
+    "Itene (dedicated)",
+    "Hupd├½ (dedicated)",
+    "Koreguaje (dedicated)",
+    "Tukano (dedicated)",
+    "Wanano (dedicated)",
+    "Tatuyo (dedicated)",
+    "Siriano (dedicated)",
+    "Siona (dedicated)",
+    "Bebe (dedicated)",
+    "Bee (dedicated)",
+    "Beijing Mandarin (dedicated)",
+    "Beja (dedicated)",
+    "Beli (dedicated)",
+    "Rama (dedicated)",
+    "Bemba (dedicated)",
+    "Bembe (Congo) (dedicated)",
+    "Bembe (DRC) (dedicated)",
+    "Comorian (dedicated)",
+    "Fwe (dedicated)",
+    "Belneng language (dedicated)",
+    "Betanure Jewish Neo-Aramaic (dedicated)",
+    "Bete (dedicated)",
+    "Betta Kurumba (dedicated)",
+    "Bfy (dedicated)",
+    "Hokkien (dedicated)",
+    "Teochew Min (dedicated)",
+    "Hainanese (dedicated)",
+    "Leizhou Min (dedicated)",
+    "PuΓÇôXian Min (dedicated)",
+    "H├ákl├áu Min (dedicated)",
+    "Haryanvi (dedicated)",
+    "Balochi, Makrani (dedicated)",
+    "Balochi, Rakhshani (dedicated)",
+    "Xiangyun Bai dialect (dedicated)",
+    "Bhaca (dedicated)",
+    "Bhili (dedicated)",
+    "Bhaya (dedicated)",
+    "Bhojpuri (dedicated)",
+    "Biangai (dedicated)",
+    "Chiquitano (dedicated)",
+    "Chimila (dedicated)",
+    "Piaroa (dedicated)",
+    "Toba (dedicated)",
+    "Biao Kam-Sui (dedicated)",
+    "Biao Min (dedicated)",
+    "Biao Mon (dedicated)",
+    "Biblical Aramaic (dedicated)",
+    "Biblical Hebrew (dedicated)",
+    "Choctaw (dedicated)",
+    "Muscogee (dedicated)",
+    "Mikasuki (dedicated)",
+    "Bagri (dedicated)",
+    "Bawm (dedicated)",
+    "Bola (dedicated)",
+    "Chashan (dedicated)",
+    "Langsu (dedicated)",
+    "Lashi (dedicated)",
+    "Zaiwa (dedicated)",
+    "Bijiang Bai lect (dedicated)",
+    "Bijiang Bai language (dedicated)",
+    "Dali Bai lect (dedicated)",
+    "Dali Bai language (dedicated)",
+    "Heqing Bai lect (dedicated)",
+    "Kiowa (dedicated)",
+    "Tewa (dedicated)",
+    "Choyo (dedicated)",
+    "Gyalrong (dedicated)",
+    "Horpa (dedicated)",
+    "Khroskyabs (dedicated)",
+    "Muya (dedicated)",
+    "Prinmi (dedicated)",
+    "Zhaba (dedicated)",
+    "Mang (dedicated)",
+    "Bolyu (dedicated)",
+    "Blang (dedicated)",
+    "Riang (dedicated)",
+    "Vietnamese (dedicated)",
+    "Turks and Caicos Creole (dedicated)",
+    "Vincentian Creole (dedicated)",
+    "Virgin Islands Creole (dedicated)",
+    "Bidau Creole Portuguese (dedicated)",
+    "Bidiyo language (dedicated)",
+    "Big Flowery (dedicated)",
+    "Bikol (dedicated)",
+    "Bima (dedicated)",
+    "Wayuu (dedicated)",
+    "Cogui/Kogi (dedicated)",
+    "Aleut (dedicated)",
+    "Bina (dedicated)",
+    "Binahari (dedicated)",
+    "Binandere (dedicated)",
+    "Binumarien (dedicated)",
+    "Cavineña (dedicated)",
+    "Ese Ejja (dedicated)",
+    "Yuracaré (dedicated)",
+    "Birgit language (dedicated)",
+    "Biu-Mandara (dedicated)",
+    "Boghom language (dedicated)",
+    "Boor language (dedicated)",
+    "Bole Chadic language (dedicated)",
+    "Guambiano (dedicated)",
+    "Awa Pit (dedicated)",
+    "Paez (dedicated)",
+    "Binza (dedicated)",
+    "Bipim (dedicated)",
+    "Birri (dedicated)",
+    "Biseni (dedicated)",
+    "Bisorio (dedicated)",
+    "Bissa (dedicated)",
+    "Bitare (dedicated)",
+    "Bitur (dedicated)",
+    "Bjarmian Sámi (dedicated)",
+    "Blagar (dedicated)",
+    "Bote (dedicated)",
+    "Bintulu (dedicated)",
+    "Bora (dedicated)",
+    "Boazi (dedicated)",
+    "Boazi Lake Murray (dedicated)",
+    "Cofán (dedicated)",
+    "Fulniô (dedicated)",
+    "Itonama (dedicated)",
+    "Leco (dedicated)",
+    "Nivaclé (dedicated)",
+    "Bobo (dedicated)",
+    "Bodish (dedicated)",
+    "Bodo (dedicated)",
+    "Boga language (dedicated)",
+    "Bohtan Neo-Aramaic (dedicated)",
+    "Bokar (dedicated)",
+    "Boko (dedicated)",
+    "Bole Niger-Congo (dedicated)",
+    "Bole Tangale (dedicated)",
+    "Bolon (dedicated)",
+    "Bolze (dedicated)",
+    "Bomitaba (dedicated)",
+    "Bomu (dedicated)",
+    "Bonan (dedicated)",
+    "Bonan-Kangjia (dedicated)",
+    "Bonan Manegacha (dedicated)",
+    "Bonan Manegacha lect (dedicated)",
+    "Bongili (dedicated)",
+    "Bongo (dedicated)",
+    "Bonin English (dedicated)",
+    "Bonjo (dedicated)",
+    "Bono Ghana-Ivory Coast (dedicated)",
+    "Bono Nigeria (dedicated)",
+    "Boon (dedicated)",
+    "Borgarmålet (dedicated)",
+    "Bouhin (dedicated)",
+    "Bourbonnais Creole (dedicated)",
+    "Bozal Spanish (dedicated)",
+    "BPh (dedicated)",
+    "Bishnupriya Manipuri (dedicated)",
+    "Comanche (dedicated)",
+    "Hopi (dedicated)",
+    "Shoshoni (dedicated)",
+    "Kumeyaay (dedicated)",
+    "Wushi (dedicated)",
+    "Brahui (dedicated)",
+    "Braj (dedicated)",
+    "Brao (dedicated)",
+    "Baram (dedicated)",
+    "Bauré (dedicated)",
+    "Broken Oghibbeway (dedicated)",
+    "Broken Slavey (dedicated)",
+    "Broome Pearling Lugger Pidgin (dedicated)",
+    "Bru (dedicated)",
+    "Kati (dedicated)",
+    "Bateri (dedicated)",
+    "Budza (dedicated)",
+    "Buginese (dedicated)",
+    "Bukawa (dedicated)",
+    "Bukharian Arabic (dedicated)",
+    "Buli (dedicated)",
+    "Bunak (dedicated)",
+    "Bundeli (dedicated)",
+    "Bunu (dedicated)",
+    "Buru-Angwe (dedicated)",
+    "Enlhet (dedicated)",
+    "Kanamari (dedicated)",
+    "Mocoví (dedicated)",
+    "Wounaan (dedicated)",
+    "Mapudungun (dedicated)",
+    "Ona (dedicated)",
+    "Yahgan (dedicated)",
+    "Burumakok (dedicated)",
+    "Buruwai (dedicated)",
+    "Buyang (dedicated)",
+    "Buyeo Korean (dedicated)",
+    "Bwi (dedicated)",
+    "Kalaallisut (dedicated)",
+    "Kallawaya (dedicated)",
+    "Cabiyari (dedicated)",
+    "Carijona (dedicated)",
+    "Kakwa (Cacua) (dedicated)",
+    "Chontal Maya (dedicated)",
+    "Chol (dedicated)",
+    "Cora (dedicated)",
+    "Cuiba (dedicated)",
+    "Culina (dedicated)",
+    "Basay (dedicated)",
+    "Cahuilla (dedicated)",
+    "Cai Long (dedicated)",
+    "Caka (dedicated)",
+    "Cemuhî (dedicated)",
+    "Cayuvava (dedicated)",
+    "Alutiiq (dedicated)",
+    "Guarani (dedicated)",
+    "Guahibo (Sikuani) (dedicated)",
+    "Guayabero (dedicated)",
+    "Guají (dedicated)",
+    "Guarayu (dedicated)",
+    "Huastec (dedicated)",
+    "Huichol (dedicated)",
+    "Inuinnaqtun (dedicated)",
+    "Camtho (dedicated)",
+    "Canaano-Akkadian (dedicated)",
+    "Cannanore Portuguese Creole (dedicated)",
+    "Carolinian (dedicated)",
+    "Chakma (dedicated)",
+    "Q'eqchi' (dedicated)",
+    "Tzeltal (dedicated)",
+    "Tzotzil (dedicated)",
+    "Yucatec Maya (dedicated)",
+    "Kaqchikel (dedicated)",
+    "Ixil (dedicated)",
+    "Jakaltek (dedicated)",
+    "K'iche' (dedicated)",
+    "Lacandon (dedicated)",
+    "Mam (dedicated)",
+    "Mopán (dedicated)",
+    "Poqomam (dedicated)",
+    "Tojolab'al (dedicated)",
+    "Tz'utujil (dedicated)",
+    "Q'anjob'al (dedicated)",
+    "Sakapultek (dedicated)",
+    "Sipakapense (dedicated)",
+    "Tektitek (dedicated)",
+    "Uspanteko (dedicated)",
+    "Koda (dedicated)",
+    "Cebuano (dedicated)",
+    "Cebaara (dedicated)",
+    "Cebuano native-speakers subset (dedicated)",
+    "Central Atlas Tamazight (dedicated)",
+    "Cairene Arabic (dedicated)",
+    "Cameroonian Pidgin (dedicated)",
+    "Cameroonian Pidgin English (dedicated)",
+    "Central Asian Arabic (dedicated)",
+    "Central Banda (dedicated)",
+    "Swahili (dedicated)",
+    "Xhosa (dedicated)",
+    "Chewa (dedicated)",
+    "Chopi (dedicated)",
+    "Tetela (dedicated)",
+    "Central Erzya (dedicated)",
+    "Central Estonian (dedicated)",
+    "Central Finland (dedicated)",
+    "Central Hilali dialects (dedicated)",
+    "Central Ludic (dedicated)",
+    "Tigrinya (dedicated)",
+    "Qwara (dedicated)",
+    "Ga (dedicated)",
+    "Dangme (dedicated)",
+    "Seychellois Creole (dedicated)",
+    "Central Mansi (dedicated)",
+    "Central Min (dedicated)",
+    "Central Moksha (dedicated)",
+    "Central Selkup (dedicated)",
+    "Central Tai (dedicated)",
+    "Français Tirailleur (dedicated)",
+    "Petuh (dedicated)",
+    "Sercquiais (dedicated)",
+    "Central Tibeto Burman (dedicated)",
+    "Central Veps (dedicated)",
+    "Central Vychegda (dedicated)",
+    "Central Zapotec (dedicated)",
+    "Falam (dedicated)",
+    "Khaling (dedicated)",
+    "Koi (dedicated)",
+    "Tilung (dedicated)",
+    "Matlatzinca (dedicated)",
+    "Mazahua (dedicated)",
+    "Mazatec (dedicated)",
+    "Mixtec (dedicated)",
+    "Otomi (dedicated)",
+    "Zapotec (dedicated)",
+    "Hinuq (dedicated)",
+    "Ginuman (dedicated)",
+    "Kachi Koli (dedicated)",
+    "Gujari (dedicated)",
+    "Glavda language (dedicated)",
+    "Simaa (dedicated)",
+    "Tonga Malawi (dedicated)",
+    "Totela (dedicated)",
+    "Tshivenda (dedicated)",
+    "Venda (dedicated)",
+    "Gobasi (dedicated)",
+    "Goemai language (dedicated)",
+    "Goguryeo Korean (dedicated)",
+    "Goji language (dedicated)",
+    "Gola (dedicated)",
+    "Zway (dedicated)",
+    "Sebat Bet (dedicated)",
+    "Ulbare (dedicated)",
+    "Wolane (dedicated)",
+    "Mesmes (dedicated)",
+    "Mesqan (dedicated)",
+    "Muher (dedicated)",
+    "Mayo (dedicated)",
+    "Nahuatl (dedicated)",
+    "Pima Bajo (dedicated)",
+    "Tarahumara (dedicated)",
+    "Huarijio (dedicated)",
+    "Yaqui (dedicated)",
+    "Sebat Bet Gurage (dedicated)",
+    "Inneqor (dedicated)",
+    "Inor (dedicated)",
+    "Macushi (dedicated)",
+    "Waiwai (dedicated)",
+    "Yukpa (dedicated)",
+    "Chaha (dedicated)",
+    "Chakato language (dedicated)",
+    "Chakhar (dedicated)",
+    "Chaldean Neo-Aramaic (dedicated)",
+    "Chamdo (dedicated)",
+    "Chaha (dedicated)",
+    "Chakhar (dedicated)",
+    "Chaldean Neo-Aramaic (dedicated)",
+    "Chamdo (dedicated)",
+    "Tibeto-Kanauri (dedicated)",
+    "Western Himalayas (dedicated)",
+    "West Himalayish (dedicated)",
+    "Dhuleli (dedicated)",
+    "Chechen (dedicated)",
+    "Chepang (dedicated)",
+    "Chin (dedicated)",
+    "Chinantec (dedicated)",
+    "Chinese Korean (dedicated)",
+    "Chinese Pidgin English (dedicated)",
+    "Chinook Jargon (dedicated)",
+    "Chittagonian (dedicated)",
+    "Cholanaikkan (dedicated)",
+    "Cholti Classic (dedicated)",
+    "Chong (dedicated)",
+    "Chrau Bahnaric (dedicated)",
+    "Christian Palestinian Aramaic (dedicated)",
+    "Christian Urmi Neo-Aramaic (dedicated)",
+    "Chuave (dedicated)",
+    "Chukchi (dedicated)",
+    "Chongqing Mandarin (dedicated)",
+    "Chorote (dedicated)",
+    "Chorotega (dedicated)",
+    "Choshuenco (dedicated)",
+    "Chovashi (dedicated)",
+    "Chukotkan (dedicated)",
+    "Chukotko-Kamchatkan (dedicated)",
+    "Chukotko-Kamchatkan-Amuric (dedicated)",
+    "Chungcheong Korean (dedicated)",
+    "Chusovaya (dedicated)",
+    "Chuvan (dedicated)",
+    "Cibak language (dedicated)",
+    "Cilician Arabic (dedicated)",
+    "Cineni language (dedicated)",
+    "Cingali (dedicated)",
+    "Circassian (dedicated)",
+    "Ciwogai language (dedicated)",
+    "Cham (dedicated)",
+    "Chamalal (dedicated)",
+    "Chak (dedicated)",
+    "Kavalan (dedicated)",
+    "Classical Arabic (dedicated)",
+    "Classical Mongolian (dedicated)",
+    "Classical Syriac (dedicated)",
+    "Chilisso (dedicated)",
+    "Corfiot Maltese (dedicated)",
+    "Cottonera Dialect (dedicated)",
+    "Courland Livonian (dedicated)",
+    "Coxoh (dedicated)",
+    "Lonwolwol (dedicated)",
+    "Crimean Tatar (dedicated)",
+    "Asho (dedicated)",
+    "Cua (dedicated)",
+    "Cun Hlai (dedicated)",
+    "Cuvok language (dedicated)",
+    "Holiya (dedicated)",
+    "Irula (dedicated)",
+    "Jeseri (dedicated)",
+    "Kadar Dravidian (dedicated)",
+    "Kaikadi (dedicated)",
+    "Kodava (dedicated)",
+    "Diri language (dedicated)",
+    "Dimasa (dedicated)",
+    "Dizoid (dedicated)",
+    "Domaaki (dedicated)",
+    "Dameli (dedicated)",
+    "Dogri (dedicated)",
+    "Doko (dedicated)",
+    "Dom (dedicated)",
+    "Domu (dedicated)",
+    "Dongjia (dedicated)",
+    "Dongo (dedicated)",
+    "Dongxiang (dedicated)",
+    "Dorbet Oirat (dedicated)",
+    "Doromu (dedicated)",
+    "Douiret language (dedicated)",
+    "Dolpo (dedicated)",
+    "Darai (dedicated)",
+    "Duan (dedicated)",
+    "Dugwor language (dedicated)",
+    "Ebira (dedicated)",
+    "Egyptian Arabic (dedicated)",
+    "Bmr (dedicated)",
+    "Dyula (dedicated)",
+    "Dzando (dedicated)",
+    "Dzao Min (dedicated)",
+    "Dzodinka (dedicated)",
+    "Eastern Votic (dedicated)",
+    "Eastern Yugur (dedicated)",
+    "Ebira (dedicated)",
+    "Edolo (dedicated)",
+    "Egyptian Arabic (dedicated)",
+    "Ekari (dedicated)",
+    "Ekherit Bulagat Buryat (dedicated)",
+    "Ekhirit Bulagat Buryat (dedicated)",
+    "Eman (dedicated)",
+    "Enets (dedicated)",
+    "Enga (dedicated)",
+    "Eravallan (dedicated)",
+    "Ersuic (dedicated)",
+    "Erzya (dedicated)",
+    "Jerba Berber (dedicated)",
+    "Lisan al-Gharbi (dedicated)",
+    "Matmata Berber (dedicated)",
+    "Ouargli (dedicated)",
+    "Sanhaja de Srair (dedicated)",
+    "Sened (dedicated)",
+    "Sheliff Basin Berber (dedicated)",
+    "Sokna (dedicated)",
+    "South Oran-Figuig Berber (dedicated)",
+    "Tawellemmet (dedicated)",
+    "East Zenati (dedicated)",
+    "Ese Ömie (dedicated)",
+    "Esimbi (dedicated)",
+    "Eskimo Trade Jargon (dedicated)",
+    "Estonian (dedicated)",
+    "Basque (dedicated)",
+    "Even (dedicated)",
+    "Ewage (dedicated)",
+    "Ewe (dedicated)",
+    "Ewenic (dedicated)",
+    "Faiwol (dedicated)",
+    "Fali of Mubi (dedicated)",
+    "Fanagalo (dedicated)",
+    "Fang Cameroon (dedicated)",
+    "Fang Equatorial Guinea and Gabon (dedicated)",
+    "Fanji (dedicated)",
+    "Far Eastern Khanty (dedicated)",
+    "Farefare (dedicated)",
+    "Fasu (dedicated)",
+    "Fataluku (dedicated)",
+    "Dizoid (dedicated)",
+    "Domaaki (dedicated)",
+    "Dameli (dedicated)",
+    "Dogri (dedicated)",
+    "Doko-Uyanga (dedicated)",
+    "Dom (dedicated)",
+    "Domu (dedicated)",
+    "Dongjia (dedicated)",
+    "Dongo (dedicated)",
+    "Dongxiang (dedicated)",
+    "Daza (dedicated)",
+    "Tsez (dedicated)",
+    "Dida (dedicated)",
+    "Dima (dedicated)",
+    "Diri (dedicated)",
+    "Dimasa (dedicated)",
+    "Dorbet Oirat (dedicated)",
+    "Doromu (dedicated)",
+    "Dolpo (dedicated)",
+    "Dry (dedicated)",
+    "Duan (dedicated)",
+    "Dzongkha (dedicated)",
+    "E (dedicated)",
+    "Early Modern Korean (dedicated)",
+    "East Bodish (dedicated)",
+    "East Chadic (dedicated)",
+    "Ewondo (dedicated)",
+    "Ewondo Populaire (dedicated)",
+    "Favorlang (dedicated)",
+    "Golin (dedicated)",
+    "Gondi (dedicated)",
+    "Gonga (dedicated)",
+    "Goroka (dedicated)",
+    "Goryeo Korean (dedicated)",
+    "Grand Valley Dani (dedicated)",
+    "Grass Koiari (dedicated)",
+    "Greater Siangic (dedicated)",
+    "Greenlandic (dedicated)",
+    "Garo (dedicated)",
+    "Gan (dedicated)",
+    "Gangwon Dialect (dedicated)",
+    "Gaulish (dedicated)",
+    "Gauwa (dedicated)",
+    "Gawar Language (dedicated)",
+    "Gaya Korean (dedicated)",
+    "Garhwali (dedicated)",
+    "Godoberi (dedicated)",
+    "Geji (dedicated)",
+    "Gejia (dedicated)",
+    "Fe-fe (dedicated)",
+    "Fembe (dedicated)",
+    "Fijian (dedicated)",
+    "Finnish (dedicated)",
+    "Fio (dedicated)",
+    "Fiwaga (dedicated)",
+    "Flores-Lembata (dedicated)",
+    "Foe (dedicated)",
+    "Foia Foia (dedicated)",
+    "Fon (dedicated)",
+    "Fore (dedicated)",
+    "Forest Enets (dedicated)",
+    "Siraya (dedicated)",
+    "Fula (dedicated)",
+    "Furu (dedicated)",
+    "Fuyug (dedicated)",
+    "Fyer (dedicated)",
+    "Gällivare (dedicated)",
+    "Ga'anda (dedicated)",
+    "Gadang (dedicated)",
+    "Gagauz (dedicated)",
+    "Galambu (dedicated)",
+    "Geme (dedicated)",
+    "Gende (dedicated)",
+    "Gendza (dedicated)",
+    "Gengele Creole (dedicated)",
+    "Gera (dedicated)",
+    "Geruma (dedicated)",
+    "Gurgula (dedicated)",
+    "Ghadamès (dedicated)",
+    "Gta (dedicated)",
+    "Guanche (dedicated)",
+    "Gude (dedicated)",
+    "Gudu (dedicated)",
+    "Guduf-Gava (dedicated)",
+    "Guinea-Bissau Creole (dedicated)",
+    "Guiyang (dedicated)",
+    "Gujarati (dedicated)",
+    "Gullah (dedicated)",
+    "Gurara (dedicated)",
+    "Hdi (dedicated)",
+    "Hezhou (dedicated)",
+    "Hiligaynon (dedicated)",
+    "Hina (dedicated)",
+    "Hindustani (dedicated)",
+    "Hiri Motu (dedicated)",
+    "Hkongso (dedicated)",
+    "Halabi (dedicated)",
+    "Southern Ghale (dedicated)",
+    "Northern Ghale (dedicated)",
+    "Ghomara language (dedicated)",
+    "Ghera (dedicated)",
+    "Gidar language (dedicated)",
+    "Kilba (dedicated)",
+    "Huizhou Chinese (dedicated)",
+    "Huilliche (dedicated)",
+    "Huishui Miao (dedicated)",
+    "Huli (dedicated)",
+    "Humene (dedicated)",
+    "Hun-Saare (dedicated)",
+    "Hupla (dedicated)",
+    "Hunzib (dedicated)",
+    "Hwana (dedicated)",
+    "Hwanghae Dialect (dedicated)",
+    "Hya (dedicated)",
+    "Iban (dedicated)",
+    "Ibanag (dedicated)",
+    "Idu-Taraon (dedicated)",
+    "Igbo (dedicated)",
+    "Iha (dedicated)",
+    "Iitti (dedicated)",
+    "Goaria (dedicated)",
+    "Giiwo language (dedicated)",
+    "Gimi (dedicated)",
+    "Gurindji Kriol (dedicated)",
+    "Guruntum language (dedicated)",
+    "Guyanese Creole (dedicated)",
+    "Gvoko language (dedicated)",
+    "Gurung (dedicated)",
+    "Gwandara language (dedicated)",
+    "Gawri (dedicated)",
+    "Gowro (dedicated)",
+    "Gawar-Bati (dedicated)",
+    "Gyalrongic (dedicated)",
+    "Gyeonggi-Seoul Dialect (dedicated)",
+    "Gyeongsang Dialect (dedicated)",
+    "Hamtai (dedicated)",
+    "Han-Samhan (dedicated)",
+    "Hani (dedicated)",
+    "Hausa (dedicated)",
+    "Hausa-Gwandara (dedicated)",
+    "Hawaiian (dedicated)",
+    "Armenian (Hayeren) (dedicated)",
+    "Armenian Dialect (dedicated)",
+    "Modern Armenian (dedicated)",
+    "Modern Eastern Armenian (dedicated)",
+    "Modern Western Armenian (dedicated)",
+    "Old Armenian (dedicated)",
+    "Old Cilician Armenian (dedicated)",
+    "Hayu (Vayu) (dedicated)",
+    "Hazara (Hazaragi) (dedicated)",
+    "Kuril Ainu (dedicated)",
+    "Kuril dialects (dedicated)",
+    "Kurukh (dedicated)",
+    "Kuvi (dedicated)",
+    "Bagvalal (dedicated)",
+    "Parkari Koli (dedicated)",
+    "Kwoma-Manambu Pidgin (dedicated)",
+    "Kui (India) (dedicated)",
+    "Kyaka (dedicated)",
+    "Kyakhta Russian-Chinese Pidgin (dedicated)",
+    "Kyowa-go (dedicated)",
+    "Kewat (dedicated)",
+    "Kurmali (dedicated)",
+    "Kelabit (dedicated)",
+    "Língua Geral Paulista (dedicated)",
+    "Laal (dedicated)",
+    "Labrador Inuit Pidgin French (dedicated)",
+    "Lachi (dedicated)",
+    "Laha (dedicated)",
+    "Lahu (dedicated)",
+    "Laiuse Romani (dedicated)",
+    "Lakota (dedicated)",
+    "Lampung (dedicated)",
+    "Land Dayak (dedicated)",
+    "Lanping Bai dialect (dedicated)",
+    "Tura (dedicated)",
+    "Northern Khanty (dedicated)",
+    "Sherkal (dedicated)",
+    "Southern Khanty (dedicated)",
+    "Upper Demjanka (dedicated)",
+    "Surgut Khanty (dedicated)",
+    "Malij Jugan (dedicated)",
+    "Tremjugan (dedicated)",
+    "Lusoga (dedicated)",
+    "Tetserret (dedicated)",
+    "Ber Family (dedicated)",
+    "Tasawaq (dedicated)",
+    "Tagdal (dedicated)",
+    "Talodi (dedicated)",
+    "Tegali (dedicated)",
+    "Tegem (dedicated)",
+    "Tima (dedicated)",
+    "Tembo (dedicated)",
+    "Tocho (dedicated)",
+    "Tumtum (dedicated)",
+    "Tsotsitaal And Camtho Aka Iscamtho (dedicated)",
+    "Zenati Berber (dedicated)",
+    "Koya (dedicated)",
+    "Kurambhag Paharia (dedicated)",
+    "Kurichiya (dedicated)",
+    "Azd Dialect (dedicated)",
+    "Ejtun Dialect (dedicated)",
+    "Sele (dedicated)",
+    "Aas Whistled (dedicated)",
+    "Abaza (dedicated)",
+    "Abba Gorgoryos (dedicated)",
+    "Abkhaz (dedicated)",
+    "Aboriginal Pidgin English (dedicated)",
+    "Abruzzese (dedicated)",
+    "Acadian (dedicated)",
+    "Adeni Arabic (dedicated)",
+    "Adyghe (dedicated)",
+    "Aeolian (dedicated)",
+    "Latin American Spanish (dedicated)",
+    "Laua (dedicated)",
+    "Laven (dedicated)",
+    "Lavi (dedicated)",
+    "Lauje (dedicated)",
+    "Laz (dedicated)",
+    "Lak (dedicated)",
+    "Ladakhi (dedicated)",
+    "Leivu (dedicated)",
+    "Lembena (dedicated)",
+    "Lemi region (dedicated)",
+    "Lepcha (dedicated)",
+    "Levantine Arabic (dedicated)",
+    "Lezgin (dedicated)",
+    "Lhomi (dedicated)",
+    "Lhokpu (dedicated)",
+    "Liberian Kreyol (dedicated)",
+    "Libyan Arabic (dedicated)",
+    "Light Warlpiri (dedicated)",
+    "Limba (dedicated)",
+    "Lingala (dedicated)",
+    "Lingling (dedicated)",
+    "Lisu (dedicated)",
+    "Livvi (dedicated)",
+    "Yakkha (dedicated)",
+    "Aqc (dedicated)",
+    "Afar (dedicated)",
+    "African Romance (dedicated)",
+    "Afrikaans (dedicated)",
+    "Afro Seminole Creole (dedicated)",
+    "Afroasiatic Family (dedicated)",
+    "Agalega Creole (dedicated)",
+    "Agaw (dedicated)",
+    "Ahom (dedicated)",
+    "Aiton (dedicated)",
+    "Ainu (dedicated)",
+    "Akan (dedicated)",
+    "Lao (dedicated)",
+    "Southeastern Moksha (dedicated)",
+    "Western Moksha (dedicated)",
+    "Syktyvkar (dedicated)",
+    "Northern Sami (dedicated)",
+    "Sanchursk (dedicated)",
+    "Sharanga (dedicated)",
+    "Selkup (dedicated)",
+    "Northern Selkup (dedicated)",
+    "Northern Mansi (dedicated)",
+    "Sosva (dedicated)",
+    "Kuril Dialects (dedicated)",
+    "Kurukh (dedicated)",
+    "Kuvi (dedicated)",
+    "Kva (dedicated)",
+    "Kvx (dedicated)",
+    "Kwoma Manambu Pidgin (dedicated)",
+    "Kxu (dedicated)",
+    "Kyaka (dedicated)",
+    "Kyakhta Russian Chinese Pidgin (dedicated)",
+    "Kyowa Go (dedicated)",
+    "Kyv (dedicated)",
+    "Kyw (dedicated)",
+    "Kzi (dedicated)",
+    "L Ngua Geral Paulista (dedicated)",
+    "Laal (dedicated)",
+    "Labrador Inuit Pidgin French (dedicated)",
+    "Lachi (dedicated)",
+    "Laha (dedicated)",
+    "Lahu (dedicated)",
+    "Laiuse Romani (dedicated)",
+    "Lakota (dedicated)",
+    "Lampung (dedicated)",
+    "Land Dayak (dedicated)",
+    "Lanping Bai Dialect (dedicated)",
+    "Lao (dedicated)",
+    "Latin American Spanish (dedicated)",
+    "Laua (dedicated)",
+    "Laven (dedicated)",
+    "Lavi (dedicated)",
+    "Lauje (dedicated)",
+    "Laz (dedicated)",
+    "Lak (dedicated)",
+    "Ladakhi (dedicated)",
+    "Leivu (dedicated)",
+    "Lembena (dedicated)",
+    "Lemi region (dedicated)",
+    "Lepcha (dedicated)",
+    "Levantine Arabic (dedicated)",
+    "Lezgin (dedicated)",
+    "Lhomi (dedicated)",
+    "Lhokpu (dedicated)",
+    "Liberian Kreyol (dedicated)",
+    "Libyan Arabic (dedicated)",
+    "Light Warlpiri (dedicated)",
+    "Limba (dedicated)",
+    "Lingala (dedicated)",
+    "Lingling (dedicated)",
+    "Lisu (dedicated)",
+    "Livvi (dedicated)",
+    "Yakkha (dedicated)",
+    "Sygva (dedicated)",
+    "Thai (dedicated)",
+    "Tai Lue (dedicated)",
+    "Southern Thai (dedicated)",
+    "Mji (dedicated)",
+    "Zha (dedicated)",
+    "Mni (dedicated)",
+    "Mundari (dedicated)",
+    "Southern Quechua (dedicated)",
+    "Tibetic (dedicated)",
+    "Latin American Spanish (dedicated)",
+    "Laua (dedicated)",
+    "Laven Bahnaric (dedicated)",
+    "Lavi Bahnaric (dedicated)",
+    "Law (dedicated)",
+    "Laz (dedicated)",
+    "Lbe (dedicated)",
+    "Lbj (dedicated)",
+    "Leivu (dedicated)",
+    "Lembena (dedicated)",
+    "Lemi Region (dedicated)",
+    "Lepcha (dedicated)",
+    "Levantine Arabic (dedicated)",
+    "Lezgin (dedicated)",
+    "Lhm (dedicated)",
+    "Lhokpu (dedicated)",
+    "Liberian Kreyol (dedicated)",
+    "Libyan Arabic (dedicated)",
+    "Light Warlpiri (dedicated)",
+    "Limba (dedicated)",
+    "Lingala (dedicated)",
+    "Lingling (dedicated)",
+    "Lisu (dedicated)",
+    "Livvi (dedicated)",
+    "Lmh (dedicated)",
+    "Avar (dedicated)",
+    "Yerukala (dedicated)"
+  ]
+}
