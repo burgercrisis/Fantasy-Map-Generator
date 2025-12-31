@@ -1,0 +1,19 @@
+"use strict";
+
+window.fantasyNameBases = [
+
+
+
+
+
+
+
+
+
+
+
+  // fantasy bases by Dopu:{name: "Human Generic", i: 32, min: 6, max: 11, d: "peolst", m: 0, b: "Amberglen,Angelhand,Arrowden,Autumnband,Autumnkeep,Basinfrost,Basinmore,Bayfrost,Beargarde,Bearmire,Bellcairn,Bellport,Bellreach,Blackwatch,Bleakward,Bonemouth,Boulder,Bridgefalls,Bridgeforest,Brinepeak,Brittlehelm,Bronzegrasp,Castlecross,Castlefair,Cavemire,Claymond,Claymouth,Clearguard,Cliffgate,Cliffshear,Cliffshield,Cloudbay,Cloudcrest,Cloudwood,Coldholde,Cragbury,Crowgrove,Crowvault,Crystalrock,Crystalspire,Cursefield,Curseguard,Cursespell,Dawnforest,Dawnwater,Deadford,Deadkeep,Deepcairn,Deerchill,Demonfall,Dewglen,Dewmere,Diredale,Direden,Dirtshield,Dogcoast,Dogmeadow,Dragonbreak,Dragonhold,Dragonward,Dryhost,Dustcross,Dustwatch,Eaglevein,Earthfield,Earthgate,Earthpass,Ebonfront,Edgehaven,Eldergate,Eldermere,Embervault,Everchill,Evercoast,Falsevale,Faypond,Fayvale,Fayyard,Fearpeak,Flameguard,Flamewell,Freyshell,Ghostdale,Ghostpeak,Gloomburn,Goldbreach,Goldyard,Grassplains,Graypost,Greeneld,Grimegrove,Grimeshire,Heartfall,Heartford,Heartvault,Highbourne,Hillpass,Hollowstorm,Honeywater,Houndcall,Houndholde,Iceholde,Icelight,Irongrave,Ironhollow,Knightlight,Knighttide,Lagoonpass,Lakecross,Lastmere,Laststar,Lightvale,Limeband,Littlehall,Littlehold,Littlemire,Lostcairn,Lostshield,Loststar,Madfair,Madham,Midholde,Mightglen,Millstrand,Mistvault,Mondpass,Moonacre,Moongulf,Moonwell,Mosshand,Mosstide,Mosswind,Mudford,Mudwich,Mythgulch,Mythshear,Nevercrest,Neverfront,Newfalls,Nighthall,Oakenbell,Oakenrun,Oceanstar,Oldreach,Oldwall,Oldwatch,Oxbrook,Oxlight,Pearlhaven,Pinepond,Pondfalls,Pondtown,Pureshell,Quickbell,Quickpass,Ravenside,Roguehaven,Roseborn,Rosedale,Rosereach,Rustmore,Saltmouth,Sandhill,Scorchpost,Scorchstall,Shadeforest,Shademeadow,Shadeville,Shimmerrun,Shimmerwood,Shroudrock,Silentkeep,Silvercairn,Silvergulch,Smallmire,Smoothcliff,Smoothgrove,Smoothtown,Snakemere,Snowbay,Snowshield,Snowtown,Southbreak,Springmire,Springview,Stagport,Steammouth,Steamwall,Steepmoor,Stillhall,Stoneguard,Stonespell,Stormhand,Stormhorn,Sungulf,Sunhall,Swampmaw,Swangarde,Swanwall,Swiftwell,Thorncairn,Thornhelm,Thornyard,Timberside,Tradewick,Westmeadow,Westpoint,Whiteshore,Whitvalley,Wildeden,Wildwell,Wildyard,Winterhaven,Wolfpass"},
+  { name: "Yiddish (dedicated)", i: 20259, min: 4, max: 11, d: "lnrt", m: 0, b: "yiddish_20259_unq1,yiddish_20259_unq2,yiddish_20259_unq3,yiddish_20259_unq4,yiddish_20259_unq5,yiddish_20259_unq6,yiddish_20259_unq7,yiddish_20259_unq8,yiddish_20259_unq9,yiddish_20259_unq10,yiddish_20259_unq11,yiddish_20259_unq12" },
+  { name: "Frisian (dedicated)", i: 20260, min: 4, max: 11, d: "lnrt", m: 0, b: "frisian_20260_unq1,frisian_20260_unq2,frisian_20260_unq3,frisian_20260_unq4,frisian_20260_unq5,frisian_20260_unq6,frisian_20260_unq7,frisian_20260_unq8,frisian_20260_unq9,frisian_20260_unq10,frisian_20260_unq11,frisian_20260_unq12" },
+  { name: "Faroese (dedicated)", i: 20261, min: 4, max: 11, d: "lnrt", m: 0, b: "faroese_20261_unq1,faroese_20261_unq2,faroese_20261_unq3,faroese_20261_unq4,faroese_20261_unq5,faroese_20261_unq6,faroese_20261_unq7,faroese_20261_unq8,faroese_20261_unq9,faroese_20261_unq10,faroese_20261_unq11,faroese_20261_unq12" },
+  { name: "Swiss German (dedicated)", i: 20262, min: 4, max: 11, d: "lnrt", m: 0, b: "swiss-german_20262_unq1,swiss-german_20262_unq2,swiss-german_20262_unq3,swiss-german_20262_unq4,swiss-german_20262_unq5,swiss-german_20262_unq6,swiss-german_20262_unq7,swiss-german_20262_unq8,swiss-german_20262_unq9,swiss-german_20262_unq10,swiss-german_20262_unq11,swiss-german_20262_unq12" },
