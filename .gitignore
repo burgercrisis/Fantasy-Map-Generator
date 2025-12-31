@@ -42,3 +42,8 @@ TEMP_*
 *.temp
 TEMP_DO_NOT_CREATE
 *.log
+
+# Runtime files
+.runtime/
+*.sqlite-shm
+*.sqlite-wal
