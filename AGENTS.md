@@ -5,14 +5,15 @@
 - Run with HTTP server: `python3 -m http.server 8000` (never file://)
 - Access at: `http://localhost:8000` (startup takes 2-3 seconds)
 - Multi-agent language mixer coordination: see `DEVplans/Language-Mixer-Compliance.md`
-- Always reference this guide before searching or using bash
+- MCP Coordination Hub workstreams and locks for multi-agent coordination
+- Reference `.windsurf/workflows/` for language mixer workstreams
 
 ## Commands
 ### Testing
 - `pnpm test` - Run all tests (Jest)
 - `pnpm test:watch` - Run tests in watch mode
 - `pnpm test:coverage` - Run with coverage report (70% thresholds)
-- `jest <path-to-test-file>` - Run specific test file
+- `jest tools/mixer-core/normalize-language-names.test.js` - Run specific test file
 - `pnpm test:normalize` - Run single test: `tools/mixer-core/normalize-language-names.test.js`
 - `pnpm test:placenames` - Run placename tests with custom config
 
@@ -23,8 +24,15 @@
 - `pnpm mixer:health` - Run health checks
 - `pnpm mixer:doctor` - Comprehensive diagnostics
 - `pnpm mixer:guardrails` - Check language mixer guardrails
-- `pnpm mixer:apply-deltas` - Apply mixer deltas to namebases (requires guardrails check)
+- `pnpm mixer:apply-deltas` - Apply mixer deltas to namebases (integrator only)
 - `pnpm mixer:check-deltas` - Check delta conflicts without applying
+
+### Node.js Tools
+- `node tools/mixer-core/check-language-mixer-coverage.js` - Check coverage
+- `node tools/mixer-core/check-language-mixer-failures.js` - Check failures
+- `node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures` - Check seed uniqueness
+- `node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` - Check base clusters
+- `node tools/mixer-core/apply-mixer-deltas.js --check` - Verify deltas without applying
 
 ## Code Style
 ### JavaScript - General
@@ -64,11 +72,6 @@
 - **Tools**: `tools/` - Node.js CLI scripts for language mixer and diagnostics
 - **Config**: `config/` - Heightmap templates and language mixer configurations
 
-### Version Management
-- Update `versioning.js` for all changes
-- Update file hashes in `index.html`: `file.js?v=1.108.1`
-- Semantic versioning: major.minor.patch (major=incompatible, minor=backward-compat additions, patch=bug fixes)
-
 ## Testing Guidelines
 - Tests primarily in `tools/mixer-core/` directory
 - Jest configuration enforces 70% coverage thresholds (branches, functions, lines, statements)
@@ -90,10 +93,15 @@ ALWAYS validate changes by:
 ## Known Constraints & Workflows
 - External resources (Google Analytics, fonts) may fail - this is normal
 - Multi-agent language mixer: follow `.windsurf/workflows/` and compliance docs
-- `/continue` command resumes language mixer workstream unless user specifies otherwise
 - **Never run git commands** (status, diff, commit, etc.) unless explicitly requested by user
-- **Lock management**: Acquire `mcp1_lock_acquire` for shared files, release immediately after editing
+- **Lock management**: Use `mcp1_lock_acquire` for shared files, release immediately after editing
 - **Single-integrator lane**: Only integrator runs `pnpm run mixer:apply-deltas`
+- Coordinate via MCP Coordination Hub workstreams for multi-agent tasks
+
+## Version Management
+- Update `versioning.js` for all changes
+- Update file hashes in `index.html`: `file.js?v=1.108.1`
+- Semantic versioning: major.minor.patch (major=incompatible, minor=backward-compat additions, patch=bug fixes)
 
 ## Code Patterns
 - D3.js for DOM manipulation and SVG rendering
