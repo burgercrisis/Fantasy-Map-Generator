@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 window.realWorldNameBases = [
   {
@@ -575,7 +575,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Asosa,Kurmuk,Komosha,Bambasi,Menge,Tongo,Gizan,SudanKurmuk,Rosaires,Damazin,Senar,Kosti,Ad-Damazin,Gadaref,Qallabat,Assosa,Metekel"
+    "b": "Asosa,Kurmuk,Komosha,Bambasi,Menge,Tongo,Gizan,Rosaires,Damazin,Senar,Kosti,Ad-Damazin,Gadaref,Qallabat,Assosa,Metekel,Debub,Belashuangulu,Godere,Guldeeda"
   },
   {
     "name": "Omaio-Shabo-Seze",
@@ -629,16 +629,16 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Abâ”œâŒchâ”œâŒ,Bitkine,Bousso,Fianga,Bâ”œâŒrâ”œâŒ"
+    "b": "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Abe,Bitkine,Bousso,Fianga,Boro,Moussoro,Bathaa,Goz Beida,Doba,Beboto"
   },
   {
-    "name": "Kwaza-Xocâ”œâ”‚ Amazonian",
+    "name": "Kwaza-Xoc Amazonian",
     "i": 70,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Porto Velho,Ji-Paranâ”œÃ­,Cacoal,Vilhena,Guajarâ”œÃ­-Mirim,Ariquemes,Humaitâ”œÃ­,Altamira,Santarâ”œâŒm,Itaituba,Marabâ”œÃ­,Araguaâ”œÂ¡na,Palmas,Aracaju,Propriâ”œÃ­,Penedo,Paulo Afonso,Delmiro Gouveia"
+    "b": "Porto Velho,Ji-Parana,Cacoal,Vilhena,Guajara-Mirim,Ariquemes,Humaita,Altamira,Santarem,Itaituba,Maraba,Araguaina,Palmas,Aracaju,Propria,Penedo,Paulo Afonso,Delmiro Gouveia"
   },
   {
     "name": "Purâ”œâŒpecha",
@@ -683,7 +683,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "Santo Antâ”œâ”‚nio,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,Sâ”œÃºo Joaquim,Oquâ”œÂ¬ Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caixâ”œÃºo,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia Tâ”œâŒtin,Praia Uva,Praia Ribeira Izâ”œâŒ,Praia Catamarâ”œÃº,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Caâ”œÂºa,Praia Fantome,Praia Bacia,Praia Boiâ”œÃºo,Praia Infante,Praia Budo,Praia Esprainha,Praia Galeâ”œÃºo,Praia Santo Antâ”œâ”‚nio"
+    "b": "Santo Antonio,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,Sao Joaquim,Oqua Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caixao,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia Tartufo,Praia Uva,Praia Ribeira Iheu,Praia Catamara,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Caverna,Praia Fantasma,Praia Bacia,Praia Boiao,Praia Infante,Praia Budo,Praia Esprainha,Praia Galego,Santo Antonio"
   },
   {
     "name": "Irish Gaelic",
@@ -710,7 +710,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
+    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puertoâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Choya,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
   },
   {
     "name": "Tokelauan",
