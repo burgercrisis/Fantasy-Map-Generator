@@ -8,26 +8,25 @@ description: Systematic verification and cleanup of namebases-real.js language e
 ## Purpose
 Verify and fix quality issues in `modules/namebases-real.js` through systematic, thorough research of each language entry, ensuring cultural and geographic authenticity.
 
-## Context
-We've completed major UTF-8 encoding fixes (480 entries fixed) and now need to focus on content quality verification. This workflow emphasizes depth over speed, ensuring each language entry is meticulously researched and verified.
-
 ## Instructions
 
 ### 1. Work Sequentially, Starting From Where Last Left Off
 
 - **One language at a time** - complete full verification before moving on
 - **Start where the tracker in DEVplans\Namebase-Verification.md has left off** - each language must be processed in order of i number from 0 to end of file, starting from the line number tracker has left off
+- **Always add verification to the end of DEVplans\Namebase-Verification.md** - this way if you need to know where to pick up, you can just look at the end of the file.
 - **Do not skip ahead** - each language must be fully completed before moving to the next
 - **Do not jump between entries** - each language is processed in order of i number from 0 to end of file
 
 ### 2. In-Depth Verification Process (Per Language)
 
-#### Phase 1: Comprehensive Research (30-60 minutes)
+#### Phase 1: Comprehensive Research
 **Step A: Language Background Research**
 - Search: "[Language Name] geographic distribution countries"
 - Search: "[Language Name] linguistic regions historical"
 - Search: "[Language Name] place names etymology"
 - Search: "[Language Name] cities towns villages authentic"
+- etc
 - Document: Primary countries/regions where this language is spoken
 
 **Step B: Current Name Analysis**
@@ -41,7 +40,7 @@ We've completed major UTF-8 encoding fixes (480 entries fixed) and now need to f
 - Search: "[Language Name] place name patterns suffixes prefixes"
 - Understand typical name structures (e.g., -burg, -ville, -stad, etc.)
 
-#### Phase 2: Quality Assessment (15-30 minutes)
+#### Phase 2: Quality Assessment
 **Step D: Identify Specific Issues**
 For each SUSPICIOUS name, determine:
 - **Geographic mismatch**: Name exists but in wrong country/region
@@ -62,9 +61,9 @@ Create a detailed analysis:
 - Issues found: [detailed list]
 ```
 
-#### Phase 3: Careful Corrections (15-20 minutes)
+#### Phase 3: Careful Corrections
 **Step F: Strategic Name Replacement**
-- NEVER delete all names - maintain reasonable count (minimum 10-20 for major languages)
+- NEVER delete all names - maintain reasonable minimum count (minimums below)
 - Replace suspicious names with VERIFIED alternatives from your research
 - Prioritize: Major cities > Historic towns > Geographic features > Cultural sites
 - Ensure geographic diversity within the language's region
@@ -113,17 +112,16 @@ After each language, update `DEVplans/Namebase-Verification.md`:
 - **Cultural**: Follow indigenous naming patterns and conventions
 
 #### Automatic Disqualifications
-- Generic descriptors: "[X] Sea", "[X] River", "[X] City", "[X] Town"
+- Generic descriptors: "[X] Sea", "[X] River", "[X] City", "[X] Town" (you can remove these describers and keep the important part of the name)
 - Administrative units: Provinces, states, districts, regions
 - Modern neologisms or recently founded places (post-1900)
 - Obvious transliteration errors or misspellings
 - Names from completely different language families
 
 #### Minimum Standards
-- Major languages (20M+ speakers): Minimum 20 authentic names
-- Medium languages (1M-20M): Minimum 15 authentic names  
-- Small languages (<1M): Minimum 10 authentic names
-- Constructed/historical: Minimum 8 authentic names
+- Major languages (20M+ speakers): Minimum 50 authentic names
+- Medium languages (1M-20M): Minimum 30 authentic names  
+- Small languages (<1M): Minimum 20 authentic names
 
 ### 5. Research Resources
 
@@ -172,7 +170,3 @@ After each language completion:
 
 ## Goal
 Transform the namebase into a meticulously researched, culturally authentic resource where every name can be traced to its proper linguistic and geographic context.
-
----
-**Current Focus**: [AGENT SHOULD INSERT THEIR CHOSEN LANGUAGE HERE]
-**Next Planned**: [AGENT SHOULD NOTE THEIR NEXT TARGET]
