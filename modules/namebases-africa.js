@@ -2,1812 +2,1218 @@
 
 window.AfricaNameBases = [
   {
-    "name": "Hungarian",
-    "i": 14,
-    "min": 6,
-    "max": 13,
-    "d": "",
-    "m": 0.1,
-    "b": "Aba,Abadszalok,Adony,Ajak,Albertirsa,Alsozsolca,Aszod,Babolna,Bacsalmas,Baktaloranthaza,Balassagyarmat,Balatonalmadi,Balatonboglar,Balkany,Balmazujvaros,Barcs,Bataszek,Batonyterenye,Battonya,Bekes,Berettyoujfalu,Berhida,Biatorbagy,Bicske,Biharkeresztes,Bodajk,Boly,Bonyhad,Budakalasz,Budakeszi,Celldomolk,Csakvar,Csenger,Csongrad,Csorna,Csorvas,Csurgo,Dabas,Demecser,Derecske,Devavanya,Devecser,Dombovar,Dombrad,Dunafoldvar,Dunaharaszti,Dunavarsany,Dunavecse,Edeleny,Elek,Emod,Encs,Enying,Ercsi,Fegyvernek,Fehergyarmat,Felsozsolca,Fertoszentmiklos,Fonyod,Fot,Fuzesabony,Fuzesgyarmat,Gardony,God,Gyal,Gyomaendrod,Gyomro,Hajdudorog,Hajduhadhaz,Hajdusamson,Hajduszoboszlo,Halasztelek,Harkany,Hatvan,Heves,Heviz,Ibrany,Isaszeg,Izsak,Janoshalma,Janossomorja,Jaszapati,Jaszarokszallas,Jaszfenyszaru,Jaszkiser,Kaba,Kalocsa,Kapuvar,Karcag,Kecel,Kemecse,Kenderes,Kerekegyhaza,Keszthely,Kisber,Kiskunmajsa,Kistarcsa,Kistelek,Kisujszallas,Kisvarda,Komadi,Komarom,Komlo,Kormend,Korosladany,Koszeg,Kozarmisleny,Kunhegyes,Kunszentmarton,Kunszentmiklos,Labatlan,Lajosmizse,Lenti,Letavertes,Letenye,Lorinci,Maglod,Mako,Mandok,Marcali,Martonvasar,Mateszalka,Melykut,Mezobereny,Mezocsat,Mezohegyes,Mezokeresztes,Mezokovesd,Mezotur,Mindszent,Mohacs,Monor,Mor,Morahalom,Nadudvar,Nagyatad,Nagyecsed,Nagyhalasz,Nagykallo,Nagykoros,Nagymaros,Nyekladhaza,Nyergesujfalu,Nyirbator,Nyirmada,Nyirtelek,Ocsa,Orkeny,Oroszlany,Paks,Pannonhalma,Paszto,Pecel,Pecsvarad,Pilisvorosvar,Polgar,Polgardi,Pomaz,Puspokladany,Pusztaszabolcs,Putnok,Racalmas,Rackeve,Rakamaz,Rakoczifalva,Sajoszent,Sandorfalva,Sarbogard,Sarkad,Sarospatak,Sarvar,Satoraljaujhely,Siklos,Simontornya,Soltvadkert,Sumeg,Szabadszallas,Szarvas,Szazhalombatta,Szecseny,Szeghalom,Szentgotthard,Szentlorinc,Szerencs,Szigethalom,Szigetvar,Szikszo,Tab,Tamasi,Tapioszele,Tapolca,Teglas,Tet,Tiszafoldvar,Tiszafured,Tiszakecske,Tiszalok,Tiszaujvaros,Tiszavasvari,Tokaj,Tokol,Tompa,Torokbalint,Torokszentmiklos,Totkomlos,Tura,Turkeve,Ujkigyos,ujszasz,Vamospercs,Varpalota,Vasarosnameny,Vasvar,Vecses,Veresegyhaz,Verpelet,Veszto,Zahony,Zalaszentgrot,Zirc,Zsambek"
-  },
-  {
-    "name": "Berber",
-    "i": 16,
-    "min": 4,
-    "max": 10,
-    "d": "s",
-    "m": 0.2,
     "b": "Abkhouch,Adrar,Aeraysh,Afrag,Agadir,Agelmam,Aghmat,Agrakal,Agulmam,Ahaggar,Ait Baha,Ajdir,Akka,Almou,Amegdul,Amizmiz,Amknas,Amlil,Amurakush,Anfa,Annaba,Aousja,Arbat,Arfud,Argoub,Arif,Asfi,Asfru,Ashawen,Assamer,Assif,Awlluz,Ayt Melel,Azaghar,Azila,Azilal,Azmour,Azro,Azrou,Beccar,Beja,Bennour,Benslimane,Berkane,Berrechid,Bizerte,Bjaed,Bouayach,Boudenib,Boufrah,Bouskoura,Boutferda,Darallouch,Dar Bouazza,Darchaabane,Dcheira,Demnat,Denden,Djebel,Djedeida,Drargua,Elhusima,Essaouira,Ezzahra,Fas,Fnideq,Ghezeze,Goubellat,Grisaffen,Guelmim,Guercif,Hammamet,Harrouda,Hdifa,Hoceima,Houara,Idhan,Idurar,Ifendassen,Ifoghas,Ifrane,Ighoud,Ikbir,Imilchil,Imzuren,Inezgane,Irherm,Izoughar,Jendouba,Kacem,Kelibia,Kenitra,Kerrando,Khalidia,Khemisset,Khenifra,Khouribga,Khourigba,Kidal,Korba,Korbous,Lahraouyine,Larache,Leyun,Lqliaa,Manouba,Martil,Mazagan,Mcherga,Mdiq,Megrine,Mellal,Melloul,Midelt,Misur,Mohammedia,Mornag,Mrirt,Nabeul,Nadhour,Nador,Nawaksut,Nefza,Ouarzazate,Ouazzane,Oued Zem,Oujda,Ouladteima,Qsentina,Rades,Rafraf,Safi,Sefrou,Sejnane,Settat,Sijilmassa,Skhirat,Slimane,Somaa,Sraghna,Susa,Tabarka,Tadrart,Taferka,Tafilalt,Tafrawt,Tafza,Tagbalut,Tagerdayt,Taghzut,Takelsa,Taliouine,Tanja,Tantan,Taourirt,Targuist,Taroudant,Tarudant,Tasfelalayt,Tassort,Tata,Tattiwin,Tawnat,Taza,Tazagurt,Tazerka,Tazizawt,Taznakht,Tebourba,Teboursouk,Temara,Testour,Tetouan,Tibeskert,Tifelt,Tijdit,Tinariwen,Tinduf,Tinja,Tittawan,Tiznit,Toubkal,Trables,Tubqal,Tunes,Ultasila,Urup,Wagguten,Wararni,Warzazat,Watlas,Wehran,Wejda,Xamida,Yedder,Youssoufia,Zaghouan,Zahret,Zemmour,Zriba"
   },
   {
-    "name": "Swahili",
-    "i": 27,
-    "min": 4,
-    "max": 9,
-    "d": "",
-    "m": 0,
     "b": "Abim,Adjumani,Alebtong,Amolatar,Amuru,Apac,Arua,Arusha,Babati,Baragoi,Bombo,Budaka,Bugembe,Bugiri,Buikwe,Bukedea,Bukoba,Bukomansimbi,Bukungu,Buliisa,Bundibugyo,Bungoma,Busembatya,Bushenyi,Busia,Busolwe,Butaleja,Butambala,Butere,Buwenge,Buyende,Dadaab,Dodoma,Dokolo,Eldoret,Elegu,Emali,Embu,Entebbe,Garissa,Gede,Gulu,Handeni,Hima,Hoima,Hola,Ibanda,Iganga,Iringa,Isingiro,Isiolo,Jinja,Kaabong,Kabuyanda,Kabwohe,Kagadi,Kajiado,Kakinga,Kakiri,Kakuma,Kalangala,Kaliro,Kalongo,Kalungu,Kampala,Kamwenge,Kanungu,Kapchorwa,Kasese,Kasulu,Katakwi,Kayunga,Keroka,Kiambu,Kibaale,Kibaha,Kibingo,Kibwezi,Kigoma,Kihiihi,Kilifi,Kiruhura,Kiryandongo,Kisii,Kisoro,Kisumu,Kitale,Kitgum,Kitui,Koboko,Korogwe,Kotido,Kumi,Kyazanga,Kyegegwa,Kyenjojo,Kyotera,Lamu,Langata,Lindi,Lodwar,Lokichoggio,Londiani,Loyangalani,Lugazi,Lukaya,Luweero,Lwakhakha,Lwengo,Lyantonde,Machakos,Mafinga,Makambako,Makindu,Malaba,Malindi,Manafwa,Mandera,Marsabit,Masaka,Masindi,Masulita,Matugga,Mayuge,Mbale,Mbarara,Mbeya,Meru,Mitooma,Mityana,Mombasa,Morogoro,Moroto,Moyale,Moyo,Mpanda,Mpigi,Mpondwe,Mtwara,Mubende,Mukono,Muranga,Musoma,Mutomo,Mutukula,Mwanza,Nagongera,Nairobi,Naivasha,Nakapiripirit,Nakaseke,Nakasongola,Nakuru,Namanga,Namayingo,Namutumba,Nansana,Nanyuki,Narok,Naromoru,Nebbi,Ngora,Njeru,Njombe,Nkokonjeru,Ntungamo,Nyahururu,Nyeri,Oyam,Pader,Paidha,Pakwach,Pallisa,Rakai,Ruiru,Rukungiri,Rwimi,Sanga,Sembabule,Shimoni,Shinyanga,Singida,Sironko,Songea,Soroti,Ssabagabo,Sumbawanga,Tabora,Takaungu,Tanga,Thika,Tororo,Tunduma,Vihiga,Voi,Wajir,Wakiso,Watamu,Webuye,Wobulenzi,Wote,Wundanyi,Yumbe,Zanzibar"
   },
   {
-    "name": "Mongolian",
-    "i": 30,
-    "min": 5,
-    "max": 12,
-    "d": "aou",
-    "m": 0.3,
-    "b": "Adaatsag,Airag,Alag Erdene,Altai,Altanshiree,Altantsogts,Arbulag,Baatsagaan,Batnorov,Batshireet,Battsengel,Bayan Adarga,Bayan Agt,Bayanbulag,Bayandalai,Bayandun,Bayangovi,Bayanjargalan,Bayankhongor,Bayankhutag,Bayanlig,Bayanmonkh,Bayannur,Bayannuur,Bayan Ondor,Bayan Ovoo,Bayantal,Bayantsagaan,Bayantumen,Bayan Uul,Bayanzurkh,Berkh,Biger,Binder,Bogd,Bombogor,Bor Ondor,Bugat,Bugt,Bulgan,Buregkhangai,Burentogtokh,Buutsagaan,Buyant,Chandmani,Chandmani Ondor,Choibalsan,Chuluunkhoroot,Chuluut,Dadal,Dalanjargalan,Dalanzadgad,Darhan Muminggan,Darkhan,Darvi,Dashbalbar,Dashinchilen,Delger,Delgerekh,Delgerkhaan,Delgerkhangai,Delgertsogt,Deluun,Deren,Dorgon,Duut,Erdene,Erdenebulgan,Erdeneburen,Erdenedalai,Erdenemandal,Erdenetsogt,Galshar,Galt,Galuut,Govi Ugtaal,Gurvan,Gurvanbulag,Gurvansaikhan,Gurvanzagal,Hinggan,Hodong,Holingol,Hondlon,Horin Ger,Horqin,Hulunbuir,Hure,Ikhkhet,Ikh Tamir,Ikh Uul,Jargalan,Jargalant,Jargaltkhaan,Jarud,Jinst,Khairkhan,Khalhgol,Khaliun,Khanbogd,Khangai,Khangal,Khankh,Khankhongor,Khashaat,Khatanbulag,Khatgal,Kherlen,Khishig Ondor,Khokh,Kholonbuir,Khongor,Khotont,Khovd,Khovsgol,Khuld,Khureemaral,Khurmen,Khutag Ondor,Luus,Mandakh,Mandal Ovoo,Mankhan,Manlai,Matad,Mogod,Monkhkhairkhan,Moron,Most,Myangad,Nogoonnuur,Nomgon,Norovlin,Noyon,Ogii,Olgii,Olziit,Omnodelger,Ondorkhaan,Ondorshil,Ondor Ulaan,Ongniud,Ordos,Orgon,Orkhon,Rashaant,Renchinlkhumbe,Sagsai,Saikhan,Saikhandulaan,Saikhan Ovoo,Sainshand,Saintsagaan,Selenge,Sergelen,Sevrei,Sharga,Sharyngol,Shine Ider,Shinejinst,Shiveegovi,Sumber,Taishir,Tarialan,Tariat,Teshig,Togrog,Togtoh,Tolbo,Tomorbulag,Tonkhil,Tosontsengel,Tsagaandelger,Tsagaannuur,Tsagaan Ovoo,Tsagaan Uur,Tsakhir,Tseel,Tsengel,Tsenkher,Tsenkhermandal,Tsetseg,Tsetserleg,Tsogt,Tsogt Ovoo,Tsogttsetsii,Tumed,Tunel,Tuvshruulekh,Ulaanbadrakh,Ulaankhus,Ulaan Uul,Ulanhad,Ulanqab,Uyench,Yesonbulag,Zag,Zalainur,Zamyn Uud,Zereg"
+    "b": "Kinshasa,Mbandaka,Lisala,Bumba,Basankusu,Makanza,Bolobo,Lukolela,Irebu,Lukole,Mobayi-Mbongo,Yakoma"
   },
   {
-    "name": "Engan Papuan",
-    "i": 50,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wabag,Wapenamanda,Kandep,Laiagam,Kompiam,Porgera,Ambum,Lagaip,Wapi,Yengis,Maip,Muritaka,Pilikambi,Paela,Hewa,Tsak,Maramuni,Enga,Lai"
+    "b": "Wa,Jirapa,Lawra,Nadowli,Lambussie,Hamile,Daffiama,Kaleo,Nadoli,Ulu,Han,Ko"
   },
   {
-    "name": "New Caledonia",
-    "i": 56,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Noumea,Dumbea,Paita,Mont-Dore,Boulouparis,La Foa,Bourail,Kone,Koumac,Poindimie,Hienghene,Thio,Houailou,Pouebo,Poum,Lifou,We,Mare,Tadine,Ouvea,Fayaoue"
+    "b": "Habila,Geneina,Adre,Birao,Tissi,Am Dafok,Um Shaluba,Forobaranga,Beida,Arara,Masteri,Kongo Haraza"
   },
   {
-    "name": "Bulgarian",
-    "i": 57,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sofia,Plovdiv,Varna,Burgas,Ruse,Stara Zagora,Pleven,Sliven,Dobrich,Shumen,Pernik,Haskovo,Yambol,Pazardzhik,Blagoevgrad,Veliko Tarnovo,Vratsa,Gabrovo,Kardzhali,Kyustendil,Lovech,Montana,Razgrad,Silistra,Smolyan,Targovishte,Vidin,Asenovgrad,Kazanlak,Svishtov,Dimitrovgrad,Sevlievo,Omurtag,Gotse Delchev,Panagyurishte,Botevgrad,Sandanski,Khaskovo"
+    "b": "Damongo,Larabanga,Busunu,Murugu,Mole,Daboya,Mankuma,Sawla,Tuna,Bole,Buipe,Yapei"
   },
   {
-    "name": "Bemba-Bembe-Fwe",
-    "i": 62,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lusaka,Ndola,Kitwe,Chingola,Mufulira,Luanshya,Kasama,Mbala,Mansa,Chipata,Solwezi,Mazabuka,Mpongwe,Kabwe,Serenje,Kapiri Mposhi,Mwinilunga,Mongu,Senanga,Kaoma,Livingstone,Victoria Falls,Siavonga,Katima Mulilo,Kalabo"
+    "b": "Djibouti,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Assab,Edd,Ti'o,Afambo,Asaita,Dubti"
   },
   {
-    "name": "Southern Mongolic",
-    "i": 66,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lanzhou,Wuwei,Zhangye,Jiuquan,Dunhuang,Zhongwei,Yinchuan,Wuzhong,Guyuan,Shapotou,Qingyang,Tianshui,Dingxi,Baiyin,Xining,Haibei,Haidong,Hainan,Huangyuan,Minhe,Ledu,Yongchang"
+    "b": "Ibadan,Lagos,Abeokuta,Akure,Ilorin,Oshogbo,Ife,Oyo,Ogbomosho,Ado Ekiti,Iwo,Ondo"
   },
   {
-    "name": "Irish Gaelic",
-    "i": 76,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dublin,Cork,Galway,Limerick,Waterford,Drogheda,Dundalk,Bray,Swords,Navan,Portlaoise,Tralee,Ennis,Naas,Athlone,Carlow,Kilkenny,Letterkenny,Clonmel,Wexford,Midleton,Bantry,Thurles,Trim,Balbriggan,Newbridge,Castlebar,Tullamore,Killarney,Cavan,Ballina,Bandon,Birr,Edenderry,Fermoy,Gorey,Kilcock,Longford,Maynooth,Mallow,Monaghan,Tuam,Westport,Youghal,Athy,Skibbereen,Kinsale,Enniscorthy,Ballyshannon,Dungarvan,Dingle,Kilrush,Loughrea,Clifden,Buncrana,Portumna,Kenmare,Ballinasloe,Ballymena"
+    "b": "Kumasi,Accra,Sekondi-Takoradi,Tamale,Sunyani,Obuasi,Koforidua,Cape Coast,Techiman,Tema,Tarkwa,Dunkwa"
   },
   {
-    "name": "Scottish Gaelic",
-    "i": 77,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Inverness,Stornoway,Portree,Oban,Fort William,Thurso,Wick,Kirkwall,Lerwick,Scalloway,Elgin,Nairn,Dornoch,Tain,Ullapool,Lochinver,Tobermory,Broadford,Mallaig,Ballachulish,Invergordon,Inverurie,Peterhead,Fraserburgh,Stonehaven,Campbeltown,Lochgilphead,Rothesay,Dunoon,Helensburgh,Ardrishaig,Crinan,Portnahaven,Bowmore,Port Ellen,Bunessan,Tarbert,Arisaig,Spean Bridge,Aviemore,Kingussie,Grantown,Lairg,Gairloch,Poolewe,Applecross,Kinlochbervie,Durness,Bettyhill,Melvich,Golspie,Brora,Lossiemouth,Banff,Macduff,Fortrose"
+    "b": "Axum,Lalibela,Harar,DebreBerhan,DebreMarkos,DebreTabor,Sebeta,Ambo,Gonder,Woldia,Metekel,Assosa"
   },
   {
-    "name": "Peranakan",
-    "i": 128,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Malacca,Melaka,George Town,Penang,Singapore,Johor Bahru,Batavia,Jakarta,Semarang,Surabaya,Palembang,Pekanbaru"
+    "b": "Kampala,Entebbe,Jinja,Mbarara,Gulu,Lira,FortPortal,Mbale,Masaka,Kasese,Soroti,Arua"
   },
   {
-    "name": "North Sarawakan",
-    "i": 151,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Miri,Bekenu,Niah,Marudi,Long Lama,Baram,Limbang,Lawas,Ba Kelalan,Long Semadoh,Bintulu,Samalaju,Tatau,Kuching"
+    "b": "Dakar,Touba,Thies,Rufisque,Kaolack,SaintLouis,Mbour,Ziguinchor,Diourbel,Louga,Fatick,Kolda"
   },
   {
-    "name": "Saluan-Banggai",
-    "i": 160,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Luwuk,Banggai,Toili,Batui,Bunta,Lamala,Balantak,Moilong,Peling,Banggai Laut,Salakan,Buko,Bulagi,Totikum,Tinangkung,Liang,Mantikore,Masama,Pagimana,Nuhon,Simpang Raya,Lobu,Nambo"
+    "b": "Maseru,Mafeteng,MohaleHoek,Quthing,Berea,Leribe,Mokhotlong,ThabaTseka,QachasNek,Matseng,Teyateyaneng,Roma"
   },
   {
-    "name": "Singaporean Mandarin",
-    "i": 175,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Singapore,Chinatown,Toa Payoh,Bukit Timah,Bishan,Ang Mo Kio,Tampines,Bedok,Jurong,Woodlands,Yishun,Serangoon,Hougang,Punggol,Sengkang"
+    "b": "Gaborone,Francistown,Molepolobe,Mogoditshane,Kanye,Mochudi,Mahalapye,Serowe,Kasane,Lobatse,Maun,Ramotswa"
   },
   {
-    "name": "Angal",
-    "i": 196,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mendi,Tari,Ialibu,Porgera,Wabag,Mount Hagen,Kundiawa,Goroka,Kagua,Nipa,Pangia,Kompiam,Koroba,Tambul,Erave"
+    "b": "Harare,Bulawayo,Chitungwiza,Mutare,Gweru,Kwekwe,Kadoma,Masvingo,Maronderangwa,Chinhoyi,VictoriaFalls,Hwange"
   },
   {
-    "name": "Gadsup",
-    "i": 203,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Goroka,Kainantu,Gadsup,Marawaka,Okapa,Asaro,Watabung,Daulo,Kundiawa,Mount Hagen,Madang,Henganofi,Obura,Wonenara,Sopu,Lamari,Arau,Mobuta,Tairora"
+    "b": "Kinshasa,Lubumbashi,MbujiMayi,Kananga,Kisangani,Bukavu,Kikwit,Tshikapa,Matadi,Kolwezi,Bandundu,Butembo"
   },
   {
-    "name": "Gahuku",
-    "i": 204,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Goroka,Kainantu,Gahuku,Asaro,Okapa,Watabung,Daulo,Marawaka,Lae,Madang,Wau,Bena Bena,Unggai,Lufa,Yonki,Sine,Kotuni,Henengaru,Alekano"
+    "b": "Mbabane,Manzini,Siteki,Nhlangano,PiggsPeak,Matsapha,Lobamba,Mhlume,Hluti,Bulembu,Simunye,Mhlambanyatsi"
   },
   {
-    "name": "BoleÎ“Ã‡Ã´Tangale",
-    "i": 248,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gombe,Kaltungo,Billiri,Kumo,Deba,Balanga,Dukku,Bajoga,Nafada,Akko,Funakaye,Ashaka"
+    "b": "Durban,Pietermaritzburg,Empangeni,RichardsBay,Ladysmith,Newcastle,Ulundi,Mtubatuba,Mthatha,Kokstad,Eshowe,Underberg"
   },
   {
-    "name": "Tangale",
-    "i": 249,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kaltungo,Billiri,Shongom,Kumo,Deba,Balanga,Cham,Nyuwar,Kalmai,Ture,Tongo,Boh"
+    "b": "Middelburg,Emalahleni,Witbank,Standerton,Belfast,Machadodorp,Kriel,Arnot,Delmas,Secunda,Vanderbijlpark,Verena"
   },
   {
-    "name": "Dangaleat",
-    "i": 250,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ati,Oum Hadjer,Am Timan,Mongo,Abâ”œâŒchâ”œâŒ,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine,Dangaleat,Guera,Melfi,AbÃ©chÃ©,Am Dam,BÃ©rÃ©,N'DjamÃ©na"
+    "b": "Bulawayo,Hwange,VictoriaFalls,Kariba,Karoi,Chinhoyi,Kadoma,Kwekwe,Gweru,Masvingo,Maronderangwa,Mutare"
   },
   {
-    "name": "Jersey Legal French",
-    "i": 264,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bailiff,Viscount,Greffier,Advocate,Procureur,Ordonnance,Contrat,Arrâ”œÂ¬t,Juridiction,Bailliage,Paroisse,â”œÃ«tats"
+    "b": "Maputo,XaiXai,Inhambane,Maxixe,Chokwe,Massinga,Vilankulo,Chibuto,Manjacaze,Macia,Bilene"
   },
   {
-    "name": "Central Metafonetica",
-    "i": 290,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca,Assoro,Belice,Gagliano,Santa Caterina Valfrida,Valguarnera,Calascibetta"
+    "b": "Mogadishu,Hargeysa,Burao,Bossaso,Galkacyo,Beledweyne,Garoowe,Jamaame,Marka,Dhuusamareb,Berbera"
   },
   {
-    "name": "Kunigami",
-    "i": 295,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kunigami-Nago,Kunigami-Nakijin,Kunigami-Ogimi,Kunigami-Higashi,Kunigami-Kunigamison,Kunigami-Motobu,Kunigami-Ginoza,Kunigami-Onna,Kunigami-Yomitan,Kunigami-Gusuku,Kunigami-Nakagusuku,Kunigami-Kunigami"
+    "b": "Bemba,Bamenda,Bertoua,Guider,Ngong,Mbe,Meiganga,Mom,Banyo,Mbombari,Bankim"
   },
   {
-    "name": "Gallo",
-    "i": 353,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Toulouse,Bordeaux,Bergerac,PÃ©rigueux,Agen,Marmande,Villeneuve-sur-Lot,Lauzun,Cahors,Brive"
+    "b": "Xhosa,Eastern Cape,East London,Port Elizabeth,Grahamstown,Qonce,Nelson Mandela Bay,Port Alfred,Buffalo City,Mthatha,King William's Town"
   },
   {
-    "name": "Gaumais",
-    "i": 354,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Toulouse,Carcassonne,Perpignan,Narbonne,Albi,Montauban,BagnÃ¨res-de-Luchon,Foix,Mirepoix"
+    "b": "Chewa,Malawi,Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza"
   },
   {
-    "name": "African Romance",
-    "i": 365,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Algiers,Oran,Constantine,Annaba,Batna,SÃ©tif,Biskra,Bejaia,Tlemcen,Tizi-Ouzou,Blida"
+    "b": "Tigrinya,Asmara,Keren,Massawa,Mendefera,Barentu,Adi Quala,Decamhare,Senafe,Eritrea,Ethiopia,Tigray"
   },
   {
-    "name": "Bergamasque",
-    "i": 382,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Toulouse,BÃ©ziers,Albi,Carcassonne,Montauban,Perpignan"
+    "b": "Accra,Tema,Koforidua,Nsawam,Winneba,Akosombo,Ada,Dodowa,Ashiaman,Ghana"
   },
   {
-    "name": "Brigasc",
-    "i": 388,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "BrianÃ§on,SestriÃ¨res,Pragel,Guillestre,Valloire,Embrun,Gap"
+    "b": "Tonga,Nkhata Bay,Chitipa,Karonga,Malawi,Lake Malawi,Central Africa,Zambia Border"
   },
   {
-    "name": "Eastern Nonmetafonetica",
-    "i": 409,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ferrara,Bologna,Ravenna,Modena,Parma,Piacenza,Reggio Emilia,ForlÃ¬,Rimini,Cesena,Imola,Carpi"
+    "b": "Malabo,Bata,Ebebiyen,Acong,Libreville,Port-Gentil,Oyem,Franceville,Mouila,Bitam,Ebowa,Equatorial Guinea,Gabon"
   },
   {
-    "name": "Galician",
-    "i": 439,
-    "min": 4,
-    "max": 11,
-    "d": "ro-ES",
-    "m": 0,
-    "b": "Santiago de Compostela,Vigo,A CoruÃ±a,Ourense,Lugo,Pontevedra,Ferrol,VilagarcÃ­a de Arousa,MarÃ­n"
+    "b": "Yaoundé,Douala,Edéa,Bafoussam,Nkongsamba,Kribi,Akonolinga,Eseka,Cameroon,Central Africa"
   },
   {
-    "name": "Galician-Asturian",
-    "i": 440,
-    "min": 4,
-    "max": 11,
-    "d": "ro-ES",
-    "m": 0,
-    "b": "Oviedo,GijÃ³n,AvilÃ©s,Mieres,Luanco,Cangas del Narcea,Pola de Siero,Siero,Tineo,Allande,Villaviciosa"
+    "b": "Rashad,Tagoi,Kadugli,Talodi,Muglad,Kalog,Dilling,Bashiri"
   },
   {
-    "name": "Gallo-Italic of Basilicata",
-    "i": 441,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Potenza,Matera,Tito,Picerno,Pignola,Vaglio Basilicata,Trecchina,Rivello,Nemoli,San Costantino,Accettura,Calvello,Albano di Lucania,Brindisi di Montagna,Campomaggiore,Cersosimo,Chiaromonte,Fardella,Ferrandina,Francavilla in Sinni,Latronico,Maratea,Noepoli,Rotonda,San Chirico Raparo,San Costantino Albanese,San Severino Lucano,Sarconi,Senise,Terranova di Pollino,Viggianello"
+    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs,Luanda,Huambo,Lubango,Benguela,Kuito,Malanje,Namibe,Soyo,Cabinda,Sumbe,Ondjiva,Menongue"
   },
   {
-    "name": "Gallo-Italic of Sicily",
-    "i": 442,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Palermo,Catania,Messina,Syracuse,Trapani,Agrigento,Enna,Caltanissetta,Ragusa,Gela"
+    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
   },
   {
-    "name": "Gallo-Picene",
-    "i": 443,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Amiens,Laon,Saint-Quentin,Beauvais,CompiÃ¨gne,Cambrai,Arras,Lens,Valenciennes,Soissons,ChÃ¢lons-en-Champagne"
+    "b": "Tsumkwe,Aroab,Blouputs,Gobabis,Kgalagadi,Kumune,Epukiro,Gxai,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental"
   },
   {
-    "name": "Gallurese",
-    "i": 444,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Tempio Pausania,San Teodoro,Santa Teresa Gallura,Olbia,La Maddalena,Arzachena,Tempio,Corsica,Aggius,Bonifacio"
+    "b": "Bungoma,Webuye,Kimilili,Malakisi,Sirisia,Chwele,Kanduyi,Mt Elgon,Kitale,Mumias,Kakamega,Eldoret,Tongaren,Bumula,Kabuchai,Cheptais,Kapsokwony,Kapkatamoi,Chepyuk"
   },
   {
-    "name": "Gardiol",
-    "i": 445,
-    "min": 4,
-    "max": 11,
-    "d": "oc-FR",
-    "m": 0,
-    "b": "Gardanne,Bourgoin,Jouy-le-ChÃ¢tel,Brie-Comte-Robert,Pontault-Combault,Pierre-le-BÃ©rault"
+    "b": "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Yaounde,Douala,Edea,Ngoulemakong"
   },
   {
-    "name": "Gascon",
-    "i": 446,
-    "min": 4,
-    "max": 11,
-    "d": "oc-FR",
-    "m": 0,
-    "b": "Bordeaux,Bayonne,Pau,Tarbes,Dax,Mont-de-Marsan,Agen,Biarritz,PÃ©rigueux,Bergerac,Toulouse,Auch"
+    "b": "Bussa,New Bussa,Borgu,Illo,Kaiama,Jebba,Yelwa,Kontagora,Bida,Ilorin,Minna,Niamey,Busa,Nikki,Kandi,Segbana,Banikoara,Gogounou,Kalale,Pehunco,Sinende,Bembereke,Parakou"
   },
   {
-    "name": "Judeo-Gascon",
-    "i": 457,
-    "min": 4,
-    "max": 11,
-    "d": "he-FR",
-    "m": 0,
-    "b": "Bayonne,Biarritz,Dax,Mont-de-Marsan,Agen,Perigueux,Bergerac"
+    "b": "Kananga,Tshikapa,Ilebo,Mweka,Luebo,Lusambo,Mbuji-Mayi,Kikwit,Kinshasa,Kwamouth,Inongo,Boende,Lubumbashi,Likasi,Kolwezi,Matadi,Boma,Moanda,Muanda,Songololo"
   },
   {
-    "name": "Languedocien",
-    "i": 467,
-    "min": 4,
-    "max": 11,
-    "d": "oc-FR",
-    "m": 0,
-    "b": "NÃ®mes,Montpellier,BÃ©ziers,AlÃ¨s,Albi,Carcassonne,Pamiers,Narbonne,SÃ¨te,Aix-en-Provence"
+    "b": "Matadi,Boma,Luozi,Kimpese,Tshela,Muanda,Kikwit,Idiofa,Bandundu,Kinshasa,Ango,Bananza,Bwela,Kisangani,Bunia,Aru,Mahagi,Beni,Butembo,Goma,Bukavu,Uvira,Fizi,Baraka"
   },
   {
-    "name": "MonÃ©gasque",
-    "i": 494,
-    "min": 4,
-    "max": 11,
-    "d": "ro-MC",
-    "m": 0,
-    "b": "Monaco,Monte Carlo,La Condamine,Fontvieille,Moneghetti,Larvotto,La Rousse,Saint Roman,Jardin Exotique,Les Moulins,Spelugues,Port Hercule"
+    "b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Goma,Kindu,Manono,Kabalo,Kisangani,Lubumbashi,Kolwezi"
   },
   {
-    "name": "Old Gallo-Romance",
-    "i": 513,
-    "min": 4,
-    "max": 11,
-    "d": "ro-FR",
-    "m": 0,
-    "b": "Lutetia,Lugdunum,Burdigala,Tolosa,Massilia,Nemausus,Arelate,Vienna,Divodurum,Durocortorum,Gesoriacum"
+    "b": "Yokadouma,Moloundou,Lomié,Messok,Mintom,Ngoyla,Djoum,Sangmélima,Batouri"
   },
   {
-    "name": "Northeast Hungary",
-    "i": 563,
-    "min": 4,
-    "max": 11,
-    "d": "urj-HU",
-    "m": 0,
-    "b": "Miskolc,NyÃ­regyhÃ¡za,Debrecen,Eger,SÃ¡rospatak,Tokaj,Szerencs,Kazincbarcika,TiszaÃºjvÃ¡ros,MezÅ‘kÃ¶vesd"
+    "b": "Malabo,Luba,Baney,Riaba,Rebola,Santiago de Baney,Moca,Basilé,Cupapa,Batete"
   },
   {
-    "name": "Nganasan",
-    "i": 575,
-    "min": 4,
-    "max": 11,
-    "d": "urj-RU",
-    "m": 0,
-    "b": "Avam,Vadeyev,Pyasina,Dudypta,Boganida,Taymyr,Ust-Avam,Volochanka,Khatanga,Norilsk,Dudinka,Dikson,Kara,Nenets,Enets,Selkup,Evenk,Dolgan"
+    "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum"
   },
   {
-    "name": "Southeast Metafonetica",
-    "i": 626,
-    "min": 4,
-    "max": 11,
-    "d": "it-IT",
-    "m": 0,
-    "b": "Chieti,Pescara,Teramo,Campobasso,Termoli,Isernia,Lanciano,Vasto,Sulmona,Ortona,Francavilla al Mare,Giulianova"
+    "b": "Asosa,Bambasi,Kurmuk,Guba,Sherkole,Menge,Homosha,Oda,Beni Shangul,Blue Nile,Famaka,Fazogli"
   },
   {
-    "name": "Bangala",
-    "i": 679,
+    "b": "Beida,Wadi Salih,Goz Beida,Kadjaksé,Dagana,Mogororo,Ade,Sila,Dar Sila,Habila,Forobaranga,Aradib"
+  },
+  {
+    "b": "Tillabéri,Niamey,Dosso,Tera,Gothèye,Kollo,Say,Ouallam,Filingué,Dargol,Namaro,Yatakala"
+  },
+  {
+    "b": "Goz Beida,Koukou Angarana,Kerfi,MoudeÃ¯na,Adé,Tissi,Mongororo,Haraze,Sila,OuaddaÃ¯,Batha,Guéra"
+  },
+  {
+    "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kébir,Wour,Yebbi-Bou,Aouzou,Kourizo,Trou au Natron,Tibesti,Ennedi,Borkou"
+  },
+  {
+    "b": "Kikara,Douentza,Mopti,Boni,Hombori,Gao,Tombouctou,Djenné,Sevaré,Bandiagara,Bankass"
+  },
+  {
+    "b": "Sukur,Madagali,Gulak,Michika,Mubi,Mandara,Adamawa,Maiduguri,Yola,Gwoza,Bama,Dikwa"
+  },
+  {
+    "b": "Numan,Lamurde,Guyuk,Demsa,Yola,Jimeta,Adamawa,Benue,Taraba,Gombe,Bauchi,Jos"
+  },
+  {
+    "b": "Gashua,Bade,Jakusko,Potiskum,Nguru,Yobe,Damaturu,Geidam,Yusufari,Machina,Karasuwa,Yunusari"
+  },
+  {
+    "b": "Banfora,Niangoloko,Soubakaniédougou,Tiéfora,Moussodougou,Dakoro,Sindou,Douna,Loumana,Ouéléni,Mangodara,Kankalaba"
+  },
+  {
+    "b": "Makurdi,Gboko,Katsina-Ala,Otukpo,Zaki Biam,Vandeikya,Adikpo,Ushongo,Aliade,Tse-Agberagba,Lessel,Buruku"
+  },
+  {
+    "b": "Zangon Kataf,Kafanchan,Kagoro,Manchok,Zonkwa,Samaru Kataf,Gidan Waya,Mabushi,Fadan Kaje,Unguwan Rimi,Kamuru,Zonzon"
+  },
+  {
+    "b": "Werni,Talodi,Kadugli,Dilling,Rashad,Abu Jubaiyah,Habila,Lagawa,Kauda,Heiban,Tegali"
+  },
+  {
+    "b": "Damaturu,Potiskum,Gashua,Nguru,Geidam,Buni Yadi,Gujba,Fune,Jakusko,Yusufari,Machina,Karasuwa,Yunusari,Bade,Tarmuwa,Gulani,Nangere,Fika,Goniri,Dapchi,Bayamari,Kanamma,Kumagannam,Kaska,Yadi,Dawayo,Gorgoram,Jajimaji,Amshi,Degubi,Kukuwa,Lantewa,Babban Gida,Dumas,Garin Gada,Garin Maji,Garin Tuwo,Garin Boka,Garin Sambo,Garin Jibrin,Garin Alkali,Garin Malam,Garin Gabas,Garin Yamma,Garin Arewa,Garin Kudu,Garin Shuaibu,Garin Audu,Garin Musa,Garin Isa"
+  },
+  {
+    "b": "Kachia,Gumel,Kajuru,Zonkwa,Kafanchan,Zangon Kataf,Kaduna,Kwoi,Kagarko,Jere,Katari,Bishini,Kurmin Musa,Gidan Mana,Gidan Tagwai,Gidan Waya,Gidan Jatau,Gidan Dadi,Gidan Gado,Gidan Gidau,Gidan Goma,Gidan Goro,Gidan Habu,Gidan Isa,Gidan Jibrin,Gidan Kudi,Gidan Ladi,Gidan Mai,Gidan Nono,Gidan Oro,Gidan Pawa,Gidan Rana,Gidan Sani,Gidan Tudu,Gidan Uba,Gidan Wada,Gidan Yaro,Gidan Zaki,Gidan Abba,Gidan Baba,Gidan Chori,Gidan Danasabe,Gidan Ehis,Gidan Fada,Gidan Garba,Gidan Haruna,Gidan Idris,Gidan Kwasau,Gidan Leke"
+  },
+  {
+    "b": "Zhoa,Wum,Bafut,Bali,Mankon,Bamenda,Menchum,Esu,Weh,Aghem,Fungom,Bum,Kom,Nso,Mmetta,Moghamo,Ngie,Ngworekum,Oshie,Pinyin,Awing,Akum,Santa,Tuba,Bambui,Bambili,Kedjom,Babanki,Nkwen,Mendankwe,Chomba,Mbatu,Nsongwa,Mbu,Forbi,Njong,Njah,Mofou,Baforchu,Bambalang"
+  },
+  {
+    "b": "Menaka,Ansongo,Abalak,In-Gall,Tahoua,Gao,Kidal,Agadez,Tchin-Tabaraden,Tassara,Tillia,Ouallam,Banibangou,Ayorou,Tillabéri,Gothèye,Tera,Dargol,Namaro,Say,Kollo,Dosso,Dogondoutchi,Birni-N'Konni,Madaoua,Bouza,Keita,Illéla,Bagaroua,Tébaram,Aderbissinat,Ingall,Iferouane,Arlit,Bilma,Fachi,N'Guigmi,Maine-Soroa,Diffa,Goure,Zinder,Tanout,Mirriah,Magaria,Matameye,Tessaoua,Mayahi,Dakoro,Aguié,Madarounfa"
+  },
+  {
+    "b": "N'Djamena,Abéché,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
+  },
+  {
+    "b": "Gambela,Itang,Jikawo,Gog,Pagak,Nasir,Mading,Dembi,Bure,South Sudan,South Omo"
+  },
+  {
+    "b": "Pala,Bongor,Abéché,N'Djamena,Sarh,Am Timan,Biltine,Ati,Moussoro,Borkou,Koro Toro,Baibokoum"
+  },
+  {
+    "b": "Koutiala,Sikasso,Yorosso,Orodara,Toussiana,Minian,Bougouni,Sienso,Koara,Famanie,Banzon,Djiboula,Dianguina,Nientiena,Dionougoro"
+  },
+  {
+    "b": "Sikasso,Kadiolo,Odienne,Toussiana,Boundiali,Orodara,Karangana,Mopti,Yorosso,Djenné,Tominian,Bougouni"
+  },
+  {
+    "b": "Sikasso,Kadiolo,Kolondieba,Niena,Minidian,Djenné,Sokoroni,Sirakoroni,Nafara,Ouesso,Faranseka"
+  },
+  {
+    "b": "Suwu,Ghana,Bobo-Dioulasso,Koudougou,Ouahigouya,Banfora,Kaya,Ouagadougou,Tenkodogo,Fada N'Gourma"
+  },
+  {
+    "b": "Baissa,Kurmi,Ashuku,Abong,Bitako,Ambe,Bissaula,Galumjina,Gwanda,Kamino,Mararraba,Tosso"
+  },
+  {
+    "b": "Bondoukou,Tanda,Sandegue,Koun-Fao,Transua,Goumere,Assuefry,Appimandoum,Ayuami,Drobo,Sampa,Japekrom"
+  },
+  {
+    "b": "Kadugli,Dilling,Rashad,Abu Jubaiyah,Talodi,Lagawa,Habila,Kauda,Heiban,Julud,Um Dami,Korongo"
+  },
+  {
+    "b": "Kachia,Kajuru,Adara,Kujama,Kasuwan Magani,Maraban Rido,Iri,Katari,Bishini,Jere,Kagarko,Gumel"
+  },
+  {
+    "b": "Wum,We,Zhoa,Bu,Kuk,Nyos,Fang,Isu,Kung,Benakuma,Bawuru,Menchum"
+  },
+  {
+    "b": "Goz Beida,Am Dam,Koukou Angarana,Ade,Mongororo,Tissi,Haraze,Birao,Ndele,Ouadda Haddad,Abgue,Djouna"
+  },
+  {
+    "b": "Aplahoue,Dogbo,Djakotomey,Klouekanme,Lalo,Toviklin,Azove,Adjarra,Houeyogbe,Athieme,Lokossa,Grand-Popo"
+  },
+  {
+    "b": "Mongoumba,Bayanga,Nola,Salo,Libenge,Gemena,Zongo,Impfondo,Dongou,Enyelle,Betou,Boyabo"
+  },
+  {
+    "b": "Batibo,Widikum,Guzang,Ashong,Mbengwi,Njikwa,Andek,Ngie,Oshie,Bessi,Tiben,Eka"
+  },
+  {
+    "b": "Petauke,Nyimba,Luangwa,Feira,Mfuwe,Katete,Sinda,Kacholola,Rufunsa,Chongwe,Mpanshya,Chipata"
+  },
+  {
+    "b": "Biltine,Arada,Iriba,Guereda,Am Zorer,Matadjana,Kalait,Fada,Oum Chalouba,Wadi Fira,Kapka,Bao"
+  },
+  {
+    "b": "Jebel Amira,Lira,Fungor,Kau,Nyaro,Werni,Talodi,Moro,Tira,Otoro,Shira,Heiban"
+  },
+  {
+    "b": "Kedjom Keku,Kedjom Ketinguh,Bamenda,Tubah,Bambui,Bafut,Mankon,Bali,Akum,Santa,Pinyin,Chomba"
+  },
+  {
+    "b": "Mount Frere,Umzimkhulu,Ixopo,Harding,Richmond,Bulwer,Underberg,Matatiele,Cedarville,Kokstad,Franklin,Swartberg"
+  },
+  {
+    "b": "Bolobo,Lukolela,Mossaka,Loukolela,Makotimpoko,Mpouya,Bouemba,Yumbi,Kwamouth,Mushie,Inongo"
+  },
+  {
+    "b": "Bangolan,Babessi,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Babungo,Bambalang"
+  },
+  {
+    "b": "Kungu,Libenge,Gemena,Budjala,Bomongo,Makanza,Mobayi-Mbongo,Yakoma,Bumba,Lisala,Bongandanga,Basankusu"
+  },
+  {
+    "b": "Kungu,Libenge,Gemena,Budjala,Bomongo,Makanza,Mobayi-Mbongo,Yakoma,Bumba,Lisala,Bongandanga,Basankusu"
+  },
+  {
+    "b": "Divo,Lakota,Guitry,Fresco,Sassandra,Grand-Lahou,Lozoua,Hirie,Zikisso,Niambézaria,Gnagbodougnoa,Galébré"
+  },
+  {
+    "b": "Mopti,Djenné,Ségou,Diafarabé,Youwarou,Tenenkou,Konna,Akka,Deboye,Niafunké,Dire,Goundam"
+  },
+  {
+    "name": "Buu",
+    "i": 87,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
     "m": 0,
-    "b": "Kinshasa,Mbandaka,Lisala,Bumba,Basankusu,Makanza,Bolobo,Lukolela,Irebu,Lukole,Mobayi-Mbongo,Yakoma"
+    "b": "Wamba,Isiro,Mambasa,Nia-Nia,Epulu,Bomili,Pawa,Ibambi,Gombari,Betongwe,Makere,Mangbele"
   },
   {
-    "name": "Dagaare",
-    "i": 687,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wa,Jirapa,Lawra,Nadowli,Lambussie,Hamile,Daffiama,Kaleo,Nadoli,Ulu,Han,Ko"
+    "b": "Tamale,Yendi,Savelugu,Kumbungu,Tolon,Karaga,Gushiegu,Zabzugu,Tatale,Bimbilla,Salaga"
   },
   {
-    "name": "Fongoro",
-    "i": 694,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Habila,Geneina,Adre,Birao,Tissi,Am Dafok,Um Shaluba,Forobaranga,Beida,Arara,Masteri,Kongo Haraza"
+    "b": "Dabakala,Satama-Sokoro,Satama-Sokoura,Bassawa,Boniérédougou,Foumbolo,Sokala-Sobara,Niéméné,Tendéné,M'Borla-Dioulasso,Koniédougou,Yaossédougou"
   },
   {
-    "name": "Hanga",
-    "i": 705,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Damongo,Larabanga,Busunu,Murugu,Mole,Daboya,Mankuma,Sawla,Tuna,Bole,Buipe,Yapei"
+    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
   },
   {
-    "name": "Abaga",
-    "i": 741,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Goroka,Henganofi,Kainantu,Lufa,Okapa,Daulo,Obura-Wonenara,Unggai-Bena,Chuave,Gumine,Karimui-Nomane,Kundiawa"
+    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
   },
   {
-    "name": "Afar",
-    "i": 753,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Djibouti,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Assab,Edd,Ti'o,Afambo,Asaita,Dubti"
+    "b": "Obala,Sa'a,Okola,Monatélé,Evodoula,Batchenga,Efok,Elig-Mfomo,Lobo,Ngog-Sa'a,Minlaba,Nkol-Meyos"
   },
   {
-    "name": "Agalega Creole",
-    "i": 756,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Vingt Cinq,La Fourche,Sainte Rita,North Island,South Island,Port Saint James,Port Victoria,Agalega,Mauritius,Port Louis,Beau Bassin,Rose Hill"
+    "b": "Manyu,Akwaya,Mamfe,Eyumojock,Tinto,Upper Banyang,Central Ejagham,South Etung,North Etung,Oban,Ikom,Etung"
   },
   {
-    "name": "Agarabi",
-    "i": 762,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kainantu,Yonki,Arona,Obura,Wonenara,Henganofi,Lufa,Goroka,Okapa,Daulo,Unggai-Bena,Bena Bena"
+    "b": "Heiban,Kauda,Delami,Um Heitan,Abri,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
   },
   {
-    "name": "Agaw",
-    "i": 763,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
+    "b": "El Fasher,Nyala,Zalingei,Jebel Marra,Geneina,Kas,Kabkabiya,Kutum,Mellit,Ed Daein,Gereida,Bulbul"
+  },
+  {
+    "b": "Bafoussam,Mbouda,Bandjoun,Baham,Bayangam,Bamendjou,Bansoa,Batcham,Baleng,Bafounda,Bamougoum,Bameka"
+  },
+  {
+    "b": "Nyeri,Murang'a,Kiambu,Kerugoya,Othaya,Karatina,Limuru,Thika,Githunguri,Gatundu,Maragua,Kandara"
+  },
+  {
+    "b": "Pala,Léré,Fianga,Binder,Gounou Gaya,Kélo,Bongor,Moundou,Doba,Koumra,Sarh,Kyabé"
+  },
+  {
+    "b": "Fada N'gourma,Pama,Diapaga,Bogandé,Kantchari,Matiacoali,Gayéri,Piéla,Bilanga,Manni,Botou,Tambaga"
+  },
+  {
+    "b": "Metekel,Kamashi,Assosa,Guba,Dangur,Dibate,Bulen,Wenbera,Mandura,Galessa,Sirba Abbay,Agalo Mite"
+  },
+  {
+    "b": "Kachia,Kagarko,Jere,Gumel,Zaria,Kaduna,Kafanchan,Kwoi,Nok,Fadan Karshe,Gwantu,Saminaka"
+  },
+  {
+    "b": "Opuwo,Epupa,Ruacana,Okanguati,Otjiu,Kaoko Otavi,Sanitatas,Orupembe,Purros,Sesfontein,Warmquelle,Kamanjab"
+  },
+  {
+    "b": "Misaje,Dumbo,Akweto,Bebe-Jatto,Bebe-Ketti,Kamine,Sabongari,Mbissa,Mfume,Bissaula,Gayama,Nkambe"
+  },
+  {
+    "b": "Tougan,Kiembara,Lankoué,Di,Gomboro,Kassoum,Toéni,Sono,Barani,Bomborokuy,Djibasso,Madouba"
+  },
+  {
+    "b": "Heiban,Kauda,Delami,Abri,Um Heitan,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
+  },
+  {
+    "b": "Koulamoutou,Lastoursville,Pana,Iboundji,Popa,Mbigou,Mimongo,Lebamba,Ndende,Mouila,Fougamou,Lambaréné"
+  },
+  {
+    "b": "Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai"
+  },
+  {
+    "b": "Nembe,Brass,Akassa,Okpoama,Twon-Brass,Ogbia,Yenagoa,Kaiama,Sagbama,Ekeremor,Oporoma,Amassoma"
+  },
+  {
+    "b": "Sawla,Tuna,Kalba,Gbaape,Ga,Maluwe,Wechiau,Wa,Dorimon,Boli,Jang,Kulmasa"
+  },
+  {
+    "b": "Conakry,Kindia,Forécariah,Dubréka,Boffa,Fria,Télimélé,Coyah,Kambia,Port Loko,Lungi,Mange,Kamakwie,Rokupr,Kukuna,Laya,Mambolo,Tombo,Benty"
+  },
+  {
+    "b": "Katiola,Niakaramandougou,Tortiya,Fronan,Arikokaha,Badikaha,Tafiré,Niédiékaha,Kanawolo,Korhogo,Dikodougou,Sinématiali,Niakara"
+  },
+  {
+    "b": "Tongo,Winkogo,Pwalugu,Zuarungu,Bolgatanga,Navrongo,Bongo,Sandema,Fumbisi,Zebilla,Bawku,Garu,Pusu-Namogo,Datuku,Gbeogo,Sheaga,Pelungu"
+  },
+  {
+    "b": "Bankim,Magba,Ngambe-Tikar,Yoko,Linte,Ngoume,Ina,Foumban,Malentouen,Massangam,Kimi,Tibati"
+  },
+  {
+    "b": "Heiban,Kauda,Delami,Abri,Um Heitan,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
+  },
+  {
+    "b": "Kumasi,Obuasi,Mampong,Konongo,Ejisu,Bekwai,Akim Oda,Koforidua,Nkawkaw,Sunyani,Techiman,Wenchi"
+  },
+  {
+    "b": "Babungo,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Bangolan,Babessi,Bambalang"
+  },
+  {
+    "b": "Karangasso-Vigué,Bobo-Dioulasso,Houndé,Béréba,Koumbia,Lena,Padéma,Satiri,Dandé,Faramana,Kourouma,Bekuy"
+  },
+  {
+    "b": "Michika,Madagali,Bazza,Vi,Gulak,Shuwa,Mubi,Hong,Gombi,Little Gombi,Song,Girei"
+  },
+  {
+    "b": "Yabassi,Nkondjock,Yingui,Ndobian,Ndom,Ngambe,Loum,Mbanga,Njombe,Penja,Dibombari,Bonaberi"
+  },
+  {
+    "b": "Song,Girei,Jimeta,Yola,Fufore,Mayo-Belwa,Ganye,Toungo,Jada,Hong,Gombi,Michika"
+  },
+  {
+    "b": "Wa,Kaleo,Nadowli,Daffiama,Jirapa,Lawra,Lambussie,Hamile,Ko,Han,Ulu,Boli"
+  },
+  {
+    "b": "Cape Town,Pretoria,Bloemfontein,Johannesburg,Stellenbosch,Paarl,Worcester,Oudtshoorn,George,Knysna,Mossel Bay,Beaufort West"
+  },
+  {
+    "b": "Wukari,Ibi,Bantaji,Akwana,Jukun,Taraba,Donga,Takum,Gassol,Bali,Suntai,Gidan Kaya"
+  },
+  {
+    "b": "Weh,Wum,Esu,Fungom,Aghem,Menchum,Bamenda,Fundong,Bafut,Kom,Bum,Mme"
+  },
+  {
+    "b": "Wushi,Babungo,Ndop,Bamunka,Babessi,Bangolan,Bambalang,Bamessing,Bafanji,Bamali,Balikumbat,Basing"
+  },
+  {
+    "b": "Dschang, Foreke-Dschang, Foto, Fongo-Tongo, Fossong-Wentcheng, Fotset-Kan, Baleveng, Bafou, Bameka, Bansoa, Bamendjou, Menoua, Menchi, Batcham, Bamendou, Bamoungoum"
+  },
+  {
+    "b": "Yambio,Nzara,Ezo,Tombura,Maridi,Ibba,Li-Rangu,Gangura,Ri-Yubu,Obo,Zemio,Rafai"
+  },
+  {
+    "b": "Wukari,Ibi,Bantaji,Akwana,Taraba,Donga,Takum,Gassol,Bali,Jukun,Suntai,Gidan Kaya"
+  },
+  {
+    "b": "Faranah,Sangardo,Musaia,Falaba,Kabala,Heremakono,Sinkhunia,Gberia Fotombu,Dogoloya,Sulima,Koinadugu,Sengbe"
+  },
+  {
+    "b": "Mbem,Rom,Kwak,Ntong,Ngung,Mfe,Bom,Gamfe,Yang,Nwa,Sabongari,Gom"
+  },
+  {
+    "b": "Kole,Dekese,Lodja,Katako-Kombe,Lubefu,Lusambo,Sankuru,Tshumbe,Wembo-Nyama,Bena Dibele,Minghe,Omendjadi"
+  },
+  {
+    "b": "Ouadda,Yulu,Bamingui,Bangoran,Vakaga,Birao,Ndélé,Sam Ouandja,Kotto,Mbomou,Raga,Deim Zubeir"
+  },
+  {
+    "b": "IkotEkpene,Uyo,Abak,Eket,Oron,IkotAbasi,Etinan,Ibiaku,Nsit,Ibeno,EsitEket,Itu"
+  },
+  {
+    "b": "Bangui,Bimbo,MbaÃ¯ki,Berbérati,Carnot,Bambari,Bouar,Bossangoa,KagaBandoro,Mobaye,Sibut,Bria"
+  },
+  {
+    "b": "Jos,Bukuru,Pankshin,Shendam,Langtang,Wase,Kanam,Kanke,Bassa,Bokkos,Mangu,QuaanPan"
+  },
+  {
+    "b": "Assosa,Kamashi,Pawe,Guba,Dibate,Mandura,Bambasi,BeloJeganfoy,Oda,Sirba,Yaso,Agalo"
+  },
+  {
+    "b": "ElFasher,Nyala,Geneina,Zalingei,ElDaein,Kutum,Gereida,Tawila,Rijail,Buram,Kass,Kadugli"
+  },
+  {
+    "b": "WadMadani,Sennar,Singa,AdDamazin,Roseires,Kusti,Rabak,AbuHamad,Berber,Dongola,Merowe,Karima"
+  },
+  {
+    "b": "Windhoek,Swakopmund,WalvisBay,Luderitz,Otjiwarongo,Oshakati,Rundu,Keetmanshoop,Mariental,Gobabis,Okahandja,Rehoboth"
+  },
+  {
+    "b": "Niamey,Zinder,Maradi,Tahoua,Agadez,Dosso,Diffa,Tillaberi,Arlit,BirniNKonni,Madaoua,Mirriah"
+  },
+  {
+    "b": "AddisAbaba,Mekele,BahirDar,Gonder,DireDawa,Hawassa,Adama,Jijiga,Dessie,Shashamane,DebreBirhan,Nekemte"
+  },
+  {
+    "b": "Maputo,Matola,Nampula,Chimoio,Beira,Quelimane,Tete,XaiXai,Lichinga,Pemba,Guru,Mocuba"
+  },
+  {
+    "b": "Johannesburg,CapeTown,Durban,Pretoria,PortElizabeth,Bloemfontein,EastLondon,Pietermaritzburg,Nelspruit,Kimberley,Polokwane,Welkom"
+  },
+  {
+    "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Karonga,Kasungu,Liwonde,Mangochi,Nsanje,Mchinji,Balaka,Ntchisi"
+  },
+  {
+    "b": "Boma,Muanda,Banza,Tshela,SekeBananga,Lukula,Kisangani,Buta,Aketi,Bambesa,Isiro,Mongala"
+  },
+  {
+    "b": "Bukavu,Goma,Beni,Butembo,Lubero,Rutshuru,Masisi,Walikale,Nyiragongo,Kalehe,Shabunda,Idjwi"
+  },
+  {
+    "b": "Kigali,Bujumbura,Gitega,Musanze,Ruhengeri,Nyanza,Kibuye,Cyangugu,Rubavu,Kicukiro,Nyabugogo,Gisenyi"
+  },
+  {
+    "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Ruiru,Kehancha,Kijauri,Migori,HomaBay,Kisii,Mbita"
+  },
+  {
+    "b": "Kikwit,Mbandaka,Basankusu,Boende,Lisala,Bumba,Bikoro,Ingende,Yakoma,Boso,Bolomba,Mongala"
+  },
+  {
+    "b": "Aketi,Bambesa,Buta,Djugu,Isiro,Mongbwalu,Niangara,Poko,Rungu,Tchadian,Wamba,Yangambi"
+  },
+  {
+    "b": "Polokwane,Mokopane,Thabazimbi,Mafikeng,Lephalale,Mogwase,BelaBela,Mamelodi,Soshanguve,Atteridgeville,Swartruggens,Rustenburg"
+  },
+  {
+    "b": "Huambo,Lubango,Benguela,Kuito,Malanje,Namibe,Soyo,Cabinda,Sumbe,Ondjiva,Menongue,Cacuaco"
+  },
+  {
+    "b": "Jimma,ArbaMinch,DebreBirhan,DebreMarkos,DebreTabor,Weldya,Gonder,Bishofu,Sebeta,Ambo,Nekemte,Gambela"
+  },
+  {
+    "b": "Yaounde,Douala,Bamenda,Mbouda,Loum,Bafoussam,Garoua,Maroua,Kumba,Ngaoundere,Bertoua,Edea"
+  },
+  {
+    "b": "Kinshasa,Lubumbashi,MbujiMayi,Kisangani,Kananga,Bukavu,Kikwit,Tshikapa,Matadi,Kolwezi,Bandundu,Likasi"
+  },
+  {
+    "b": "Irgalam,Tchad,Guéra,N'Djamena,Mangalmé,Bénoye,Chari,Logone,Mayo-Kebbi,Kanem,Batha,North Cameroon"
+  },
+  {
+    "b": "El Molo,Lake Turkana,Marsabit,Moyale,Chalbi Desert,North Horr,Koobi Fora,Kakuma,Kenya,Turkana,Loiyangalani"
+  },
+  {
+    "b": "Assab,Dekemhare,Beilul,Afambo,Hirgigo,Arare,Bera'isole,Eddi,Guluj,Mersa Gulud,Mersa Fatma"
+  },
+  {
+    "b": "Bala,Bila,Yangor,Toucountoura,Koumbia,Bangassou,Bambari,Kagoro,Mbaiki,Kounde,Moyenne-Sangha"
+  },
+  {
+    "b": "Balo,Tonkiri,Makoua,Bonon-Djoulasso,M'Bengono,Kong,Man,Bobo-Dioulasso,Dimbokro,Katiola,Kodougou"
+  },
+  {
+    "b": "Bamali,Bamenda,Kumbo,Nkambé,Bafanji,Fundong,Mbengwi,Njombe,Ndu,Nwa,Bawock,Mankon"
+  },
+  {
+    "b": "Bambalang,Bamenda,Mbengwi,Nkambe,Nkwen,Bambili,Bamessing,Babungo,Bafut,Fonfuka,Kedjom"
+  },
+  {
+    "b": "Bamako,Sikasso,Koutiala,Ségou,Mopti,Kayes,Koulikoro,Tombouctou,Kidal,Gao,Markala,Nara"
+  },
+  {
+    "b": "Bamukumbit,Bamenda,Babungo,Bambui,Kom,Mankon,Nkwen,Fundong,Bafut,Bali,Babanki"
+  },
+  {
+    "b": "Foumban,Bafoussam,Bafang,Bamenda,Nkongsamba,Dschang,Santchou,Bafia,Kumba,Mbanga,Melong"
+  },
+  {
+    "b": "Bamwe,Mbuji-Mayi,Monkoto,Beni,Mwene-Ditu,Lubutu,Kikwit,Kananga,Kasongo,Lubao"
+  },
+  {
+    "b": "Parakou,Nikki,Bembèrèkè,Kandi,N'Dali,Tchaourou,Sinendé,Banikoara,Gogounou,Kouandé,Chérou"
+  },
+  {
+    "b": "Bassari,Sédhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
+  },
+  {
+    "b": "Batu,Ambon,Kairatu,Buru Island,Manip,Ternate,Halmahera,Morotai,Sanana,Sula Islands,Kai Islands"
+  },
+  {
+    "b": "Bebe,Fundong,Chenzhou,Loudi,Shiyan,Xiantao,Lianyuan,Meishan,Ningyuan,Yiyang"
+  },
+  {
+    "b": "Beli,Changchun,Chongqing,Yibin,Zhongqing,Hechuan,Nanchong,Chengdu,Neijiang,Guang'an,Fuling,Mianyang"
+  },
+  {
+    "b": "Bembe,Kitambo,Lemba,Mont-Ngafula,Ngaliema,Kalamu,Makala,Selembao,Kimbaseke,Funa,Matete,Ngiri-Ngiri"
+  },
+  {
+    "b": "Bembe,Butembo,Ekonda,Mbuji,Monie,Bokungo,Kikwit,Boyela,Ndoko,Kabarega,Bikoro"
+  },
+  {
+    "b": "Moroni,Mutsamudu,Fomboni,Domoni,Mirontsi,Koungou,Mamoudzou,Dzaoudzi,Sada,Chirongui,Pamandzi,Mtsangamouji"
+  },
+  {
+    "b": "Fwe,Mababe,Nxai Pan,Gweta,Nata,Sowa,Pandamatenga,Kasane,Kazungula,Maun,Sehonghong,Mohembo"
+  },
+  {
+    "b": "Bhaca,East London,Mthatha,Qunu,Butterworth,King William's Town,Port Alfred,Alice,Umtata,Umzimkhulu,Port Shepstone"
+  },
+  {
+    "b": "Bina,Papua New Guinea,Morobe,Lae,Madang,Mount Hagen,Goroka,Port Moresby,Kokopo,Rabaul,Wewak"
+  },
+  {
+    "b": "Binza,Ngiri,Equateur,Mbandaka,Mobeka,Bikoro,Ingende,Lisala,Basankusu,Coquilhatville,Kinshasa"
+  },
+  {
+    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'Délé,Kaga Bandoro,Sibut,Alindao"
+  },
+  {
+    "b": "Biseni,Nigeria,Brass,Nembe,Yenagoa,Ogbia,Opokuma,Sagbama,Kolokuma,Okrika,Bayelsa,Niger Delta"
+  },
+  {
+    "b": "Bissa,Burkina Faso,Zoundweogo,Zorgo,Manga,Koupela,Tenkodogo,Fada N'Gourma,Kaya,Ouahigouya,Bobo Dioulasso,Ouagadougou"
+  },
+  {
+    "b": "Bitare,Ngaoundere,Banyo,Tignere,Mbem,Tibati,Ngaoundéré,Adamawa,Cameroon,North Region,Faro,Deo"
+  },
+  {
+    "b": "Bobo,Bobo-Dioulasso,San Koba,Dédougou,Banfora,Koudougou,Ouagadougou,Fara N'Gourma,Burkina Faso"
+  },
+  {
+    "b": "Boko,Nigeria,Benue,Keffi,Karu,Abuja,Nasarawa,Lokoja,Plateau State,Benue River"
+  },
+  {
+    "b": "Bole,Nigeria,Kano,Kaduna,Jos,Bauchi,Birnin Kebbi,Sokoto,Katsina,Zaria,Niger State"
+  },
+  {
+    "b": "Bolon,Burkina Faso,Mouhoun,San Koba,Boromo,Sapouy,Ouagadougou,Solenzo,Koudougou"
+  },
+  {
+    "b": "Bomitaba,Congo,Brazzaville,Djambala,Ouesso,Owando,Makoua,Gamboma,Kinkala,Mossaka,Impfondo"
+  },
+  {
+    "b": "Bomu,Mali,Bamako,Segou,Mopti,Tombouctou,Gao,Kayes,Koulikoro,Sikasso,Kidal"
+  },
+  {
+    "b": "Bongili,Congo,Brazzaville,Ouesso,Mossaka,Makoua,Impfondo,Libongo,Gamboma,Kindamba,Mayama,Nkayi"
+  },
+  {
+    "b": "Bongo,South Sudan,Yambio,Tambura,Mundri,Yei,Bor,Juba,Maridi,Terekeka"
+  },
+  {
+    "b": "Bonjo,Cameroon,North Province,Adamawa,Tignere,Banyo,Ngong,Meiganga,Mbem,Guider,Ngaoundéré"
+  },
+  {
+    "b": "Bono,Kumasi,Techiman,Sunyani,Brong Ahafo,Ashanti,Berekum,Wenchi,Kintampo,Goaso,Tamale,Bawku"
+  },
+  {
+    "b": "Bono,Nigeria,Benue,Keffi,Karu,Abuja,Nasarawa,Lokoja,Plateau State,Niger River"
+  },
+  {
+    "b": "Boon,Somalia,Mogadishu,Kismayo,Marka,Baidoa,Jowhar,Balad,Beledweyne,Galguduud,Hiran,Shabelle"
+  },
+  {
+    "b": "Budza,Congo,Kinshasa,Kikwit,Bandundu,Kasai-Kananga,Mbuji-Mayi,Kananga,Equateur,Congo River"
+  },
+  {
+    "b": "Buli,Ghana,Bolgatanga,Navrongo,Bawku,Tumu,Bongo,Kassena-Nankana,Bawku Municipal,Bawku West"
+  },
+  {
+    "b": "Buru-Angwe,Congo,Brazzaville,Likouala,Ouesso,Mossaka,Kinkala,Djoué,Impfondo,Gamboma,Makoua"
+  },
+  {
+    "b": "Caka,Afghanistan,Badakhshan,Fayzabad,Ishkashim,Vakhan,Khorog,Tajikistan,Pamir Mountains"
+  },
+  {
+    "b": "Cebaara,Tanzania,Mwanza,Singida,Tabora,Shinyanga,Mbeya,Kahama,Nzega,Kigoma,Chunya,Mpanda"
+  },
+  {
+    "b": "Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssé,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,Abéché,N'Djamena"
+  },
+  {
+    "b": "Tetela,Congo,South Kivu,Lubumbashi,Kindu,Mbuji-Mayi,Kananga,Mbuji,Maniema,Kalemie,Kikwit"
+  },
+  {
+    "b": "Qwara,Gondar,Bahir Dar,Debre Marqos,Debre Tabor,Dembia,Metemma,Amhara,Ethiopia,Tigray,Sudan"
+  },
+  {
+    "b": "Dangme,Ada,Prampram,Afienya,Manya Krobo,Yilo Krobo,Ayikuma,Somanya,Odumase,Akuse,Ghana,Volta Region"
+  },
+  {
+    "b": "Seychellois Creole,Victoria,Anse Boileau,Anse Royale,Beau Vallon,Takamaka,Seychelles,Praslin,La Digue,Indian Ocean"
+  },
+  {
+    "b": "Simaa,Western Province,Mongu,Senanga,Kalabo,Zambia,Zambezi River,Africa"
+  },
+  {
+    "b": "Totela,Mongu,Limulunga,Nalolo,Zambia,Barotse Floodplain,Zambezi"
+  },
+  {
+    "b": "Venda,Thohoyandou,Sibasa,Vuwani,Limpopo,South Africa,Zimbabwe Border"
+  },
+  {
+    "b": "Venda,Polokwane,Louis Trichardt,Makhado,Limpopo,South Africa,Zimbabwe Border"
+  },
+  {
+    "b": "Futuna,Futuna Island,Wallis and Futuna,Territory,Pacific Ocean,Polynesia"
+  },
+  {
+    "b": "Soninke,Kayes,Nioro,Kita,Mali,Senegal,Mauritania,West Africa,Sahel"
+  },
+  {
+    "b": "Chung,West Africa,Savanna,Nigeria,Niger,Cameroon,Sahel"
+  },
+  {
+    "b": "Diriku,Rundu,Nkurenkuru,Namibia,Caprivi Strip,Botswana Border,Kwando River"
+  },
+  {
+    "b": "Defaka,Nigeria,Rivers State,Niger Delta,West Africa,Oil Region"
+  },
+  {
+    "b": "Daza,Faya-Largeau,Mao,Chad,Sahara Desert,North Africa,Chad Basin"
+  },
+  {
+    "b": "Dendi,Niamey,Maradi,Tahoua,Zinder,Niger,West Africa,Sahel"
+  },
+  {
+    "b": "Dengese,Kisangani,Beni,DR Congo,Central Africa,Congo River"
+  },
+  {
+    "b": "Doko,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Dongo,Bunia,DR Congo,Central Africa,Lake Albert"
+  },
+  {
+    "b": "Dinka,Juba,Bor,Malakal,Wau,Aweil,Rumbek,South Sudan,White Nile,Nile River"
+  },
+  {
+    "b": "Dyula,Sikasso,Koutiala,Mali,West Africa,Sahel"
+  },
+  {
+    "b": "Dzando,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Dzodinka,Burundi,Bujumbura,Gitega,Rwanda,Central Africa,Lake Tanganyika"
+  },
+  {
+    "b": "Ebira,Okene,Auchi,Benin,Edo State,Edo,Delta State,Nigeria,North Central,West Africa"
+  },
+  {
+    "b": "Eman,Papua New Guinea,Morobe Province,Highlands Region,Oceania"
+  },
+  {
+    "b": "Esimbi,Kuopio,Iisalmi,Kokkola,Finland,Bothnian,Baltic Sea"
+  },
+  {
+    "b": "Douala,Yaoundé,Bafoussam,Kribi,Edéa,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
+  },
+  {
+    "b": "Fanji,Bamenda,Nkambe,Batibo,Tong,Tikom,Bambili,Meiganga,Cameroon,Northwest Region"
+  },
+  {
+    "b": "Navrongo,Bolgatanga,Fumbisi,Zuarungu,Kumasi,Tamale,Ghana,Burkina Faso,Volta Region"
+  },
+  {
+    "b": "Fe'efe,Ka'a,Loko,Batibo,Mambila,Nigeria,Adamawa State,North East"
+  },
+  {
+    "b": "Fio,Mendi,Mount Hagen,Kundiawa,Papua New Guinea,Western Highlands,Oceania"
+  },
+  {
+    "b": "Furu,Isangi,Wandala,Tshuapa,Ngolo,Boso,Bunia,Busanza,DR Congo"
+  },
+  {
+    "b": "Geme,Gao,Mali,Timbuktu,Niger River,Sahel,West Africa"
+  },
+  {
+    "b": "Gendza,Bauchi,Nigeria,Plateau State,West Africa,Chadic Languages"
+  },
+  {
+    "b": "Gengele,Nigeria,Cameroon,Cross River,Pidgin,West Africa"
+  },
+  {
+    "b": "Gaborone,Francistown,Molepolole,Selebi-Phikwe,Maun,Kanye,Serowe,Mochudi,Lobatse,Palapye,Jwaneng,Mahalapye"
+  },
+  {
+    "b": "Mongu,Senanga,Sesheke,Kalabo,Lukulu,Kaoma,Limulunga,Shangombo,Sikongo,Nalolo,Sioma,Mitete"
+  },
+  {
+    "b": "Lusaka,Kafue,Chongwe,Rufunsa,Luangwa,Chilanga,Shibuyunji,Mumbwa,Itezhi-Tezhi,Mazabuka,Monze,Choma"
+  },
+  {
+    "b": "Migori,Tarime,Musoma,Bunda,Serengeti,Rorya,Butiama,Suna,Kehancha,Mabera,Isibania,Shirati"
+  },
+  {
+    "b": "Agadez,Arlit,Bilma,Dirkou,Iferouane,Madama,Tahoua,Tchintabaraden"
+  },
+  {
+    "b": "Tahoua,Tchintabaraden,Madaoua,Bouza,Abalak,Keita,Illela,Mayahi"
+  },
+  {
+    "b": "Talodi,Kadugli,Muglad,Abyei,Kalog,Dilling,Bashiri,Soderi"
+  },
+  {
+    "b": "Kadugli,Talodi,Rashad,Tagoi,Dilling,Kalog,Muglad,Abyei"
+  },
+  {
+    "b": "Kadugli,Talodi,Rashad,Tagoi,Dilling,Muglad,Kalog,Bashiri"
+  },
+  {
+    "b": "Bukavu,Goma,Uvira,Butembo,Kalemie,Kindu,Kisangani,Beni,Rutshuru,Masisi"
+  },
+  {
+    "b": "Rashad,Kadugli,Talodi,Kalog,Dilling,Muglad,Abyei,Tagoi"
+  },
+  {
+    "b": "Rashad,Kadugli,Talodi,Kalog,Dilling,Muglad,Tagoi,Bashiri"
+  },
+  {
+    "b": "Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Tshwane,Johannesburg"
+  },
+  {
+    "b": "Chopi,Chibuto,Bilene,Xai-Xai,Manjacaze,Quissico,Machanga,Massinga,Inhambane,Maxixe,Mozambique,Gaza,Inhambane Province"
+  },
+  {
+    "b": "Minna,Abuja,Suleja,Kuta,Paiko,Lapai,Agaie,Bwari,Gwagwalada,Karu,Kuje,Kwali"
+  },
+  {
+    "b": "Gombe,Kaltungo,Billiri,Kumo,Deba,Balanga,Dukku,Bajoga,Nafada,Akko,Funakaye,Ashaka,Bole,Tangale,Shongom,Gombe State,Nigeria,Yobe,Bauchi"
+  },
+  {
+    "b": "Algiers,Oran,Constantine,Annaba,Batna,Sétif,Biskra,Bejaia,Tlemcen,Tizi-Ouzou,Blida"
+  },
+  {
     "b": "Injibara,Dangila,Chagni,Kosober,Addis Kidam,Tilili,Guangua,Banja,Faggeta Lekoma,Sekela,Quarit,Mecha"
   },
   {
-    "name": "Yoruba",
-    "i": 772,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ibadan,Lagos,Abeokuta,Akure,Ilorin,Oshogbo,Ife,Oyo,Ogbomosho,Ado Ekiti,Iwo,Ondo"
-  },
-  {
-    "name": "Ait Seghrouchen Berber",
-    "i": 791,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Taza,Boulemane,Missour,Outat El Haj,Guercif,Sefrou,Ifrane,Azrou,El Hajeb,Midelt,Zeida,Itzer"
   },
   {
-    "name": "Akan",
-    "i": 794,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kumasi,Accra,Sekondi-Takoradi,Tamale,Sunyani,Obuasi,Koforidua,Cape Coast,Techiman,Tema,Tarkwa,Dunkwa"
-  },
-  {
-    "name": "Arafundi-Enga Pidgin",
-    "i": 800,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wabag,Wapenamanda,Kandep,Laiagam,Porgera,Ambum,Kompiam,Maramuni,Paiela,Tsak,Wakumare,Sirunki"
-  },
-  {
-    "name": "Alasha Mongol",
-    "i": 814,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bayanhot,Alxa Left Banner,Alxa Right Banner,Ejin Banner,Dalaihob,Barunbair,Jilantai,Wuhai,Dengkou,Linhe,Bayannur,Otog Banner"
-  },
-  {
-    "name": "Kaike (Magar Kaike)",
-    "i": 856,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dolpa,Dunai,Tarakot,Chharka,Saldang,Phoksundo,Tinje,Shimen,Dho,Lawan,Mugu,Gamgadhi"
-  },
-  {
-    "name": "Amharic",
-    "i": 872,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Axum,Lalibela,Harar,DebreBerhan,DebreMarkos,DebreTabor,Sebeta,Ambo,Gonder,Woldia,Metekel,Assosa"
-  },
-  {
-    "name": "Amharic-Argobba",
-    "i": 873,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Harar,DireDawa,Jijiga,Chiro,Gode,KebriDehar,Degehabur,Filtu,Gurdumi,Shinile,Erer,Babile"
   },
   {
-    "name": "Boro Garo",
-    "i": 890,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Guwahati,Shillong,Tura,Williamnagar,Baghmara,Resubelpara,Ampati,Mendipathar,Rongjeng,Songsak,Kharkutta,Dadenggre"
-  },
-  {
-    "name": "Angas",
-    "i": 892,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Jos,Bukuru,Pankshin,Shendam,Wase,Langtang,Kanke,Kanam,Bassa,QuaanPan,Mikang,Mangu"
   },
   {
-    "name": "Angaataha",
-    "i": 915,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "PortMoresby,Lae,Madang,MountHagen,Goroka,Kokopo,Rabaul,Wewak,Popondetta,Alotau,Kavieng,Kimbe"
+    "b": "Boga,Chad,Chari-Baguirmi,N'Djamena,Massaguet,Massakory,Bongor,Logone Oriental,Mao,Gueré"
   },
   {
-    "name": "Aringa",
-    "i": 944,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kampala,Entebbe,Jinja,Mbarara,Gulu,Lira,FortPortal,Mbale,Masaka,Kasese,Soroti,Arua"
-  },
-  {
-    "name": "Atohwaim-Kaugat",
-    "i": 955,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Jayapura,Sorong,Manokwari,Biak,Nabire,Timika,Merauke,Fakfak,Kaimana,Sarmi,RajaAmpat,BovenDigoel"
-  },
-  {
-    "name": "Wolof",
-    "i": 969,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dakar,Touba,Thies,Rufisque,Kaolack,SaintLouis,Mbour,Ziguinchor,Diourbel,Louga,Fatick,Kolda"
-  },
-  {
-    "name": "Sesotho",
-    "i": 970,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Maseru,Mafeteng,MohaleHoek,Quthing,Berea,Leribe,Mokhotlong,ThabaTseka,QachasNek,Matseng,Teyateyaneng,Roma"
-  },
-  {
-    "name": "Tswana",
-    "i": 971,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gaborone,Francistown,Molepolobe,Mogoditshane,Kanye,Mochudi,Mahalapye,Serowe,Kasane,Lobatse,Maun,Ramotswa"
-  },
-  {
-    "name": "Shona",
-    "i": 974,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Harare,Bulawayo,Chitungwiza,Mutare,Gweru,Kwekwe,Kadoma,Masvingo,Maronderangwa,Chinhoyi,VictoriaFalls,Hwange"
-  },
-  {
-    "name": "Tshiluba",
-    "i": 976,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kinshasa,Lubumbashi,MbujiMayi,Kananga,Kisangani,Bukavu,Kikwit,Tshikapa,Matadi,Kolwezi,Bandundu,Butembo"
-  },
-  {
-    "name": "Swazi",
-    "i": 978,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mbabane,Manzini,Siteki,Nhlangano,PiggsPeak,Matsapha,Lobamba,Mhlume,Hluti,Bulembu,Simunye,Mhlambanyatsi"
-  },
-  {
-    "name": "Zulu",
-    "i": 986,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Durban,Pietermaritzburg,Empangeni,RichardsBay,Ladysmith,Newcastle,Ulundi,Mtubatuba,Mthatha,Kokstad,Eshowe,Underberg"
-  },
-  {
-    "name": "Southern Ndebele",
-    "i": 988,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Middelburg,Emalahleni,Witbank,Standerton,Belfast,Machadodorp,Kriel,Arnot,Delmas,Secunda,Vanderbijlpark,Verena"
-  },
-  {
-    "name": "Sumayela Ndebele",
-    "i": 989,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bulawayo,Hwange,VictoriaFalls,Kariba,Karoi,Chinhoyi,Kadoma,Kwekwe,Gweru,Masvingo,Maronderangwa,Mutare"
-  },
-  {
-    "name": "Tsonga or Xitsonga",
-    "i": 990,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Maputo,XaiXai,Inhambane,Maxixe,Chokwe,Massinga,Vilankulo,Chibuto,Manjacaze,Macia,Bilene"
-  },
-  {
-    "name": "Baarin Mongol",
-    "i": 1014,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
-  },
-  {
-    "name": "Badaga",
-    "i": 1018,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Delhi,Mumbai,Kolkata,Bangalore,Chennai,Hyderabad,Ahmedabad,Surat,Pune,Jaipur,Lucknow,Indore"
-  },
-  {
-    "name": "Bengali",
-    "i": 1029,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dhaka,Chittagong,Sylhet,Rajshahi,Bogra,Khulna,Comilla,Barisal,Mymensingh,Rangpur,Feni,Narayanganj"
-  },
-  {
-    "name": "Bengali Portuguese Creole",
-    "i": 1030,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Delhi,Mumbai,Kolkata,Bangalore,Chennai,Hyderabad,Ahmedabad,Surat,Pune,Jaipur,Lucknow,Indore"
-  },
-  {
-    "name": "Toromona",
-    "i": 1046,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Manu,MadredeDios,Beni,Heath,Orthon,Pariamanu,BocaManu,PuertoMaldonado,CuscoAmazonico,Tambopata,Acre,Pando"
-  },
-  {
-    "name": "Somali",
-    "i": 1067,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mogadishu,Hargeysa,Burao,Bossaso,Galkacyo,Beledweyne,Garoowe,Jamaame,Marka,Dhuusamareb,Berbera"
-  },
-  {
-    "name": "Luokta-Mâ”œÃ­vas",
-    "i": 1081,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Luokta,MÃ¤vas,Ust-MÃ¡vas,Kalvala,Nuorgam,Karesuando,Paadar,Inari,Ivalo,SodankylÃ¤,LevÃ¤joki,Utsjoki"
-  },
-  {
-    "name": "Baruga",
-    "i": 1131,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Baruga,Papua New Guinea,Oro Province,Ioma,Kokoda,Gona,Buna,Samarai,Popondetta,Morobe"
-  },
-  {
-    "name": "Bugan",
-    "i": 1147,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lincang,Cangyuan,Menglian,Zhenkang,Menghai,Lancang,Yongde,Gengma,Fengqing,Yunnan"
-  },
-  {
-    "name": "Cayuga",
-    "i": 1208,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
-  },
-  {
-    "name": "Onondaga",
-    "i": 1210,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,DeWitt,Fayetteville,Manlius,Baldwinsville"
-  },
-  {
-    "name": "Bemba",
-    "i": 1230,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bemba,Bamenda,Bertoua,Guider,Ngong,Mbe,Meiganga,Mom,Banyo,Mbombari,Bankim"
-  },
-  {
-    "name": "Biangai",
-    "i": 1280,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Biangai,Morobe,Wau,Bulolo,Lae,Popondetta,Kokopo,Rabaul,Madang,Mount Hagen,Goroka,Port Moresby"
-  },
-  {
-    "name": "Blagar",
-    "i": 1329,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Blagar,Pantar,Alor Island,Lamalera,Lembata,Solor,Flores,Timor,Eastern Indonesia,Lesser Sunda Islands"
-  },
-  {
-    "name": "Boga language",
-    "i": 1343,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Boga,Chad,Chari-Baguirmi,N'Djamena,Massaguet,Massakory,Bongor,Logone Oriental,Mao,GuerÃ©"
-  },
-  {
-    "name": "Bole Tangale",
-    "i": 1348,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bole,Kaltungo,Tangale,Billiri,Shongom,Balanga,Gombe State,Nigeria,Yobe,Bauchi"
-  },
-  {
-    "name": "Bonan Manegacha",
-    "i": 1355,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bonan Manegacha,Gansu,Qinghai,Xiahe,Minhe,Xunhua,Tongren,Manegacha,Haibei,Guoluo"
-  },
-  {
-    "name": "Bonan Manegacha lect",
-    "i": 1356,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bonan Manegacha,Gansu,Qinghai,Xiahe,Minhe,Xunhua,Tongren,Haibei,Guoluo,Huangnan"
-  },
-  {
-    "name": "Borgarmâ”œÃ‘let",
-    "i": 1364,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "BorgarmÃ¥let,Norway,Bergen,Stavanger,Trondheim,Kristiansand,Drammen,BÃ¦rum,Akershus,Oslo,Hordaland"
-  },
-  {
-    "name": "Yahgan",
-    "i": 1400,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yahgan,Navarino Island,Ushuaia,Puerto Williams,Beagle Channel,Cape Horn,Tierra del Fuego,Chile,Argentina"
-  },
-  {
-    "name": "Xhosa",
-    "i": 1466,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Xhosa,Eastern Cape,East London,Port Elizabeth,Grahamstown,Qonce,Nelson Mandela Bay,Port Alfred,Buffalo City,Mthatha,King William's Town"
-  },
-  {
-    "name": "Chewa",
-    "i": 1467,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chewa,Malawi,Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza"
-  },
-  {
-    "name": "Tigrinya",
-    "i": 1475,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tigrinya,Asmara,Keren,Massawa,Mendefera,Barentu,Adi Quala,Decamhare,Senafe,Eritrea,Ethiopia,Tigray"
-  },
-  {
-    "name": "Ga",
-    "i": 1477,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ga,Accra,Tema,Koforidua,Nsawam,Winneba,Akosombo,Ada,Dodowa,Ashiaman,Ghana"
-  },
-  {
-    "name": "Tonga Malawi",
-    "i": 1516,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tonga,Nkhata Bay,Chitipa,Karonga,Malawi,Lake Malawi,Central Africa,Zambia Border"
-  },
-  {
-    "name": "Greater Magaric",
-    "i": 1562,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Magaric,Magar,Pokhara,Baglung,Beni,Myagdi,Gorkha,Nepal,Himalayas"
-  },
-  {
-    "name": "Magaric",
-    "i": 1563,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Magaric,Syangja,Tanahun,Kaski,Nepal,Western Nepal,Himalayas"
-  },
-  {
-    "name": "Magar",
-    "i": 1564,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Magar,Pokhara,Baglung,Rolpa,Salyan,Nepal,Western Nepal,Himalayas"
-  },
-  {
-    "name": "Chhattisgarhi",
-    "i": 1583,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chhattisgarhi,Raipur,Bilaspur,Durg,Chhattisgarh,India,Central India,Chhattisgarh State"
-  },
-  {
-    "name": "Chichewa",
-    "i": 1585,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Chichewa,Lilongwe,Blantyre,Zomba,Malawi,Central Africa,Lake Malawi"
   },
   {
-    "name": "Chorotega",
-    "i": 1604,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chorotega,Guancaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua"
-  },
-  {
-    "name": "Cingali",
-    "i": 1616,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cingali,Yola,Yenagoa,Rivers State,Nigeria,Niger Delta,West Africa"
-  },
-  {
-    "name": "Ciwogai language",
-    "i": 1618,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Ciwogai,Mayo Belwa,Jalingo,Gongola State,Nigeria,North East,West Africa"
   },
   {
-    "name": "Classical Mongolian",
-    "i": 1624,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Classical Mongolian,Karakorum,Ulaanbaatar,Khovd,Mongolia,Inner Mongolia,China,Gobi Desert"
-  },
-  {
-    "name": "Daga",
-    "i": 1650,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Daga,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania"
-  },
-  {
-    "name": "Jerba Berber",
-    "i": 1681,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Jerba Berber,Jerba,Tataouine,Morocco,Atlas Mountains,North Africa"
   },
   {
-    "name": "Matmata Berber",
-    "i": 1683,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Matmata,Douz,Tataouine,Medenine,GabÃ¨s,Remada,Tunisia,Sahara Desert,North Africa"
+    "b": "Matmata,Douz,Tataouine,Medenine,Gabès,Remada,Tunisia,Sahara Desert,North Africa"
   },
   {
-    "name": "Sheliff Basin Berber",
-    "i": 1687,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,TÃ©nÃ¨s,Algeria,Tell Atlas,North Africa"
+    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,Ténès,Algeria,Tell Atlas,North Africa"
   },
   {
-    "name": "South Oran-Figuig Berber",
-    "i": 1689,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Figuig,BÃ©char,BÃ©ni AbbÃ¨s,NaÃ¢ma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
+    "b": "Berber,Fez,Marrakech,Casablanca,Morocco,Atlas Mountains,North Africa"
   },
   {
-    "name": "Dhakaiya Kutti Bengali",
-    "i": 1698,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dhakaiya Kutti Bengali,Dhaka,Narayanganj,Comilla,Bangladesh,South Asia,Delta Region"
+    "b": "Middle Atlas Berber,Meknes,Fez,Ifrane,Morocco,Middle Atlas"
   },
   {
-    "name": "Eastern Berber",
-    "i": 1736,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Eastern Berber,Fez,Marrakech,Casablanca,Morocco,Atlas Mountains,North Africa"
+    "b": "Ewe,Lomé,Kpalimé,Sokodé,Togo,Kumasi,Ghana,Accra,Volta Region,West Africa"
   },
   {
-    "name": "Eastern Middle Atlas Berber",
-    "i": 1746,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Eastern Middle Atlas Berber,Meknes,Fez,Ifrane,Morocco,Middle Atlas"
-  },
-  {
-    "name": "Edolo",
-    "i": 1755,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Edolo,Edo State,Benin City,Nigeria,South South,Niger Delta,West Africa"
-  },
-  {
-    "name": "Ekherit Bulagat Buryat",
-    "i": 1758,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ust-Barguzin,Ust-Kyakhta,Nizhneangarsk,Bokhan,Tankhoy,Mogzon,Khorinsk,Kudara,Selenginsk,Buryatia,Russia,Siberia,Baikal"
-  },
-  {
-    "name": "Ekhirit Bulagat Buryat",
-    "i": 1759,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ekhirit-Bulagat,Alzamai,Ulan-Ude,Baigus,Murino,Kyakhta,Irkut,Zaigraevo,Verkhneudinsk,Nizhneudinsk,Russia,Siberia,Buryatia"
-  },
-  {
-    "name": "Enga",
-    "i": 1767,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Enga,Wabag,Lae,Papua New Guinea,Morobe Province,Oceania"
-  },
-  {
-    "name": "Ewe",
-    "i": 1779,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ewe,LomÃ©,KpalimÃ©,SokodÃ©,Togo,Kumasi,Ghana,Accra,Volta Region,West Africa"
-  },
-  {
-    "name": "Ewenic",
-    "i": 1780,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ewenic,Karur,Salem,Tiruchirappalli,Tamil Nadu,India,South India"
-  },
-  {
-    "name": "Fanagalo",
-    "i": 1783,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Johannesburg,Pretoria,Cape Town,Durban,Bloemfontein,Pietermaritzburg,Kimberley,East London,Port Elizabeth,South Africa,Mining Towns"
-  },
-  {
-    "name": "Fang Equatorial Guinea and Gabon",
-    "i": 1785,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Malabo,Bata,Ebebiyen,Acong,Libreville,Port-Gentil,Oyem,Franceville,Mouila,Bitam,Ebowa,Equatorial Guinea,Gabon"
-  },
-  {
-    "name": "Doko-Uyanga",
-    "i": 1795,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Doko,Uyanga,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
-  },
-  {
-    "name": "Ewondo",
-    "i": 1818,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "YaoundÃ©,Douala,EdÃ©a,Bafoussam,Nkongsamba,Kribi,Akonolinga,Eseka,Cameroon,Central Africa"
-  },
-  {
-    "name": "Ewondo Populaire",
-    "i": 1819,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "YaoundÃ©,Cameroon,Populaire Ewondo,Messamemendongo,Kribi,EdÃ©a,Akonolinga,Batouri"
-  },
-  {
-    "name": "Gonga",
-    "i": 1823,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Maji,Shoa,Wollega,Gamu,Gofa,Ethiopia,Oromia Region,Southwest Ethiopia,Omo Valley"
   },
   {
-    "name": "Garo",
-    "i": 1830,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tura,Williamnagar,Rongjeng,Ampati,Garo Hills,Meghalaya,India,Northeast India"
-  },
-  {
-    "name": "Gan",
-    "i": 1831,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nanchang,Ganzhou,Ji'an,Jiujiang,Yichun,Pingxiang,Shangrao,Fuzhou,Jiangxi,China,Southeast China"
-  },
-  {
-    "name": "Gangwon Dialect",
-    "i": 1832,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chuncheon,Gangneung,Wonju,Sokcho,Hongcheon,South Korea,Gangwon Province"
-  },
-  {
-    "name": "Gaulish",
-    "i": 1833,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lugdunum,Bibracte,Alesia,Nemessos,Lutetia,Vienna,Massilia,Gallia,Europe,France,Belgium,Switzerland"
-  },
-  {
-    "name": "Gauwa",
-    "i": 1834,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gauwa,Andra,Pradiput,Simlipal,Odisha,India,Eastern India,Kalahandi Region"
-  },
-  {
-    "name": "Gawar Language",
-    "i": 1835,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Gawar,Arunachal Pradesh,India,Northeast India,Himalayas,China Border"
   },
   {
-    "name": "Gaya Korean",
-    "i": 1836,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gyeongju,Gimhae,Andong,Yeongcheon,Gaya Confederacy,Korea,Nakdong River"
-  },
-  {
-    "name": "Garhwali",
-    "i": 1837,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Srinagar,Uttarkashi,Karnaprayag,Pauri,Chamoli,Uttarakhand,India,Himalayas,Garhwal Region"
-  },
-  {
-    "name": "Fiwaga",
-    "i": 1846,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fiwaga,Wabag,Kagua,Tapinin,Papua New Guinea,Enga Province,Western Highlands,Oceania"
-  },
-  {
-    "name": "Fon",
-    "i": 1850,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Cotonou,Porto-Novo,Abomey,Ouidah,Parakou,Allada,Benin,West Africa"
   },
   {
-    "name": "Fula",
-    "i": 1854,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Niamey,Mopti,Sikasso,Kano,Zinder,Niger,Mali,Nigeria,Senegal,West Africa,Sahel"
   },
   {
-    "name": "Ga'anda",
-    "i": 1859,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ga'anda,Mubi,Gombi,Pela,Askira,Adamawa State,Nigeria,North East"
-  },
-  {
-    "name": "Gadang",
-    "i": 1860,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gadang,Mubi,Nigeria,Adamawa State,North East,West Africa"
-  },
-  {
-    "name": "Gagauz",
-    "i": 1861,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Comrat,CeadÃ®r-Lunga,Taraclia,CuÈ™elcÄƒu,Gagauzia,Moldova,Romania,Balkans"
-  },
-  {
-    "name": "Galambu",
-    "i": 1862,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Galambu,Mubi,Bama,Yola,Nigeria,Adamawa State,North East,West Africa"
-  },
-  {
-    "name": "Guduf-Gava",
-    "i": 1875,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Guduf-Gava,Rus,Ans,Rus-Kurshi,Russia,Dagestan,Andi Mountains,Caucasus"
-  },
-  {
-    "name": "Hiligaynon",
-    "i": 1884,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Iloilo,Bacolod,Capiz,Kabankalan,Roxas,Estancia,Talisay,Iloilo City,Visayas,Philippines"
-  },
-  {
-    "name": "Igbo",
-    "i": 1913,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Igbo,Enugu,Owerri,Onitsha,Aba,Awka,Ihiala,Abia State,Nigeria"
   },
   {
-    "name": "Gawri",
-    "i": 1925,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gawri,Pakistan,Swat Kohistan,Hindu Kush,Chitral Valley,North"
-  },
-  {
-    "name": "Gawar-Bati",
-    "i": 1927,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gawar-Bati,Nuristan,Kunar,Hindu Kush,Kalam,Chitral,Chitral Valley"
-  },
-  {
-    "name": "Hausa",
-    "i": 1934,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Hausa,Kano,Kaduna,Zaria,Jos,Maiduguri,Bauchi,Gombe,Yola,Sokoto,Katsina,Dutse,Birnin,Kebbi"
   },
   {
-    "name": "Hausa-Gwandara",
-    "i": 1935,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Hausa,Gwandara,Kaduna,Kano,Zaria,Dutse,Birnin Kebbi,Nigeria,North,West"
   },
   {
-    "name": "Koraga",
-    "i": 1975,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Udupi,Mangalore,Kasaragod,Kundapura,Karkala,Belthangady,Puttur,Sullia,Bantwal,Moodabidri,Mulki,Manjeshwar"
-  },
-  {
-    "name": "Tidikelt Berber",
-    "i": 1983,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "In Salah,Aoulef,Tit,Akabli,In Ghar,Reggane,Timimoun,El Menia,Adrar,Ghardaia"
   },
   {
-    "name": "Judeo-Berber",
-    "i": 1995,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tinghir,Ouarzazate,Demnate,Imlil,Taroudant,Tiznit,Agadir,Marrakech,Fes,Meknes"
+    "b": "Tamanrasset,Agadez,Timbuktu,Kidal,Gao,Menaka,Tahoua,Arlit,Iférouane,In-Gall,Dirkou,Bilma"
   },
   {
-    "name": "Karagas",
-    "i": 2018,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Alygdzher,Nerkha,Verkhnyaya Gutara,Tofalariya,Nizhneudinsk,Tulun,Sayany,Biryusa,Uda,Kan"
-  },
-  {
-    "name": "Tuareg Berber",
-    "i": 2052,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tamanrasset,Agadez,Timbuktu,Kidal,Gao,Menaka,Tahoua,Arlit,IfÃ©rouane,In-Gall,Dirkou,Bilma"
-  },
-  {
-    "name": "Tuwat Berber",
-    "i": 2054,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Adrar,Timimoun,Reggane,Aoulef,Tsabit,Fenoughil,Tamest,Zaouiet Kounta,In Ghar,Tit,Bouda,Ouled Ahmed"
   },
   {
-    "name": "Western Berber",
-    "i": 2055,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mederdra,Tiguent,Rosso,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,BababÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
+    "b": "Mederdra,Tiguent,Rosso,Keur Massène,Boutilimit,Aleg,Boghé,Bababé,Kaédi,Selibaby,Maghama,M'Bagne"
   },
   {
-    "name": "Western Berber family",
-    "i": 2056,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
+    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur Massène,Boutilimit,Aleg,Boghé,Kaédi,Selibaby,Maghama,M'Bagne"
   },
   {
-    "name": "Zenaga Berber",
-    "i": 2057,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mederdra,Tiguent,Rosso,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,BababÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne,Ould YengÃ©,Gouraye,Khabou,Ghabou,Arr,Wompou,Tachott,Hassi Cheggar,Boully,Dafort,BouanzÃ©,Souvi,Baydam,Ganki,NiÃ©lÃ©ba,Diaguili,Koumbou,N'Diago,N'Tekane,Lexeiba,Monguel,M'Bout,Foum Gleita,Barkeol,Guerou,Kiffa,Kankossa,Tamchakett,Aioun,Tintane,Kobenni,Djiguenni,Amourj,Bassikounou,Nema,Walata,Tichit,Ouadane"
+    "b": "Mederdra,Tiguent,Rosso,Keur Massène,Boutilimit,Aleg,Boghé,Bababé,Kaédi,Selibaby,Maghama,M'Bagne,Ould Yengé,Gouraye,Khabou,Ghabou,Arr,Wompou,Tachott,Hassi Cheggar,Boully,Dafort,Bouanzé,Souvi,Baydam,Ganki,Niéléba,Diaguili,Koumbou,N'Diago,N'Tekane,Lexeiba,Monguel,M'Bout,Foum Gleita,Barkeol,Guerou,Kiffa,Kankossa,Tamchakett,Aioun,Tintane,Kobenni,Djiguenni,Amourj,Bassikounou,Nema,Walata,Tichit,Ouadane"
   },
   {
-    "name": "Bogaya",
-    "i": 2062,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tari,Koroba,Kopiago,Margarima,Komo,Benaria,Pori,Pureni,Tani,Fugwa,Levani,Hewa"
-  },
-  {
-    "name": "Kapampangan",
-    "i": 2107,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San Fernando,Angeles,Mabalacat,Guagua,Lubao,Floridablanca,Mexico,Arayat,Candaba,Macabebe"
-  },
-  {
-    "name": "Loyalties-New Caledonia",
-    "i": 2118,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ouvea,Lifou,Mare,Tiga,Mouli,Faiava,Gossanah,Saint-Joseph,Fayaoue,Lekiny,Banout,Drueulu,Siloam,Hapetra,Roh,Tenane,Jokin,Mucaweng,Luecila,Hihifa,Traput,We,Luengoni,Mu,Ench,Tadine,Cengeite,Penelo,Cuaden,Kurin,Medu,Fajawe,Hulup,Heulala,Gomonen,Wadrilla,Banut,Mouly,Lekine,Fayawa,Chepenehe"
-  },
-  {
-    "name": "Keâ€™yagana",
-    "i": 2134,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Goroka,Kainantu,Henganofi,Lufa,Okapa,Daulo,Obura-Wonenara,Unggai-Bena,Aiyura,Arona,Yonki,Kassam"
-  },
-  {
-    "name": "Garifuna",
-    "i": 2145,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dangriga,Hopkins,Seine Bight,Placencia,Punta Gorda,Barranco,Livingston,Puerto Barrios,Trujillo,La Ceiba,Sambo Creek,Corozal,Punta Negra,Monkey River,Big Creek,Limon,Iriona,Puerto Castilla,Santa Rosa Aguan,Nuevo San Juan,Masca,Triunfo de la Cruz,San Juan Tela,Miami Village,La Ensenada,Puerto Cortes,Omoa,Puerto Lempira,Brus Laguna,Palacios,Santa Fe,San Antonio,Guadalupe,Batalla,Pueblo Nuevo,Plaplaya,Ibans,Cocobila,Raista,BelÃ©n"
-  },
-  {
-    "name": "Gaelic",
-    "i": 2146,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Stornoway,Portree,Fort-William,Oban,Mallaig,Ullapool,Inverness,Skye,Lochinver,Thurso,Wick,Dornoch,Tobermory,Islay,Campbeltown,Uig,Dunvegan,Broadford,Kyleakin,Armadale,Carloway,Callanish,Barvas,Ness,Leverburgh"
-  },
-  {
-    "name": "Angas family",
-    "i": 2152,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Pankshin,Kabwir,Dawaki,Amper,Chip,Tal,Pai,Fier,Tambes,Garram,Shiwer,Kanam"
   },
   {
-    "name": "Kiga",
-    "i": 2163,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Kabale,Kisoro,Kanungu,Rukungiri,Ntungamo,Rubanda,Rukiga,Muhanga,Hamurwa,Mpalo,Kamwezi,Nyakigugwe"
   },
   {
-    "name": "Kikuyu",
-    "i": 2166,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Nairobi,Kiambu,Thika,Muranga,Nyeri,Kirinyaga,Karatina,Limuru,Kikuyu,Gatundu,Othaya,Mukurweini"
   },
   {
-    "name": "Kaingang",
-    "i": 2188,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chapeco,Passo-Fundo,Erechim,Nonoai,Irai,Planalto,Faxinalzinho,Benjamin-Constant,Entre-Rios,Guarapuava,Londrina,Curitiba"
-  },
-  {
-    "name": "Lyngngam",
-    "i": 2190,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nongstoin,Mawshynrut,Riangdo,Shallang,Aradonga,Kyrshai,Mawkyrwat,Langrin,Rambrai,Myriaw,Mariaw,Nobosohphoh"
-  },
-  {
-    "name": "Khamnigan Mongol",
-    "i": 2196,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hulunbuir,Hailar,Evenk-Banner,Chen-Barag,Old-Barag,Ergun,Genhe,Manzhouli,Jalainur,Argun,Onon,Borzya"
-  },
-  {
-    "name": "Kuki Chin Naga",
-    "i": 2287,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kohima,Dimapur,Mokokchung,Tuensang,Wokha,Zunheboto,Phek,Mon,Peren,Kiphire,Longleng,Noklak"
-  },
-  {
-    "name": "Malij Jugan",
-    "i": 2326,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Malij-Jugan,Megion,Nefteyugansk,Krasnoleninsk,Pokachi,Pyt-Yakh"
-  },
-  {
-    "name": "Tremjugan",
-    "i": 2327,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tremjugan,Nefteyugansk,Krasnoleninsk,Surgut,Langepas,Kogalym"
-  },
-  {
-    "name": "Lusoga",
-    "i": 2328,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Jinja,Iganga,Kamuli,Bugiri,Mayuge,Namayingo,Luuka,Buyende,Bukedea,Kaliro"
   },
   {
-    "name": "Tegali",
-    "i": 2334,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Rashad,Tagoi,Kadugli,Talodi,Muglad,Kalog,Dilling,Bashiri"
+    "b": "Tlemcen,Mascara,Oran,Sidi Bel Abbès,Mostaganem,Chlef,Relizane,Tiaret,Saida,Ain Defla"
   },
   {
-    "name": "Zenati Berber",
-    "i": 2341,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tlemcen,Mascara,Oran,Sidi Bel AbbÃ¨s,Mostaganem,Chlef,Relizane,Tiaret,Saida,Ain Defla"
-  },
-  {
-    "name": "Sharanga",
-    "i": 2376,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chhindwara,Multanpur,Narsimhapur,Seoni,Mandla,Jabalpur"
-  },
-  {
-    "name": "Lingala",
-    "i": 2426,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Kinshasa,Brazzaville,Kisangani,Mbandaka,Kananga,Lubumbashi"
   },
   {
-    "name": "Naga",
-    "i": 2452,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kohima,Dimapur,Mokokchung,Tuensang,Wokha,Mon,Phek,Zunheboto,Kiphire,Longleng,Peren,Tseminyu,Jalukie,Chozuba,Pfutsero,Aghunato,Shamator,Meluri,Chumukedima,Medziphema,Ukhrul,Senapati,Tamenglong,Chandel,Oinam,Paomata,Noney"
-  },
-  {
-    "name": "Boro-Garo",
-    "i": 2454,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kokrajhar,Gossaigaon,Bijni,Bongaigaon,Barpeta,Nalbari,Goalpara,Dudhnoi,Dhubri,Guwahati,Dispur,Tamulpur,Udalguri,Tezpur,Tura,Williamnagar,Resubelpara,Baghmara,Ampati,Rongjeng,Mendipathar,Damra,Rongram,Dalu"
-  },
-  {
-    "name": "Angami-Pochuri",
-    "i": 2478,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kohima,Viswema,Kigwema,Jakhama,Zakhama,Khonoma,Jotsoma,Tuophema,Medziphema,Phek,Chozuba,Chetheba,Pfutsero,Meluri,Chizami,Thenyizu,Sakraba,Khezhakeno,Porba,Pholami"
-  },
-  {
-    "name": "Mandinka",
-    "i": 2509,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
     "b": "Banjul,Serekunda,Brikama,Farafenni,Basse,Georgetown,Mansa-Konko,Bansang,Barra,Essau,Kuntaur,Janjanbureh,Bakau,Lamin,Abuko,Sukuta,Latriya,Brufut,Kalagi,Kanilai"
   },
   {
-    "name": "Oromo",
-    "i": 2522,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
     "b": "Adama,Jimma,Nekemte,Asella,Shashamane,Bishoftu,Ambo,Goba,Robe,Gimbi,Metu,Bedele,Sebeta,Mojo,Assasa,Agaro,Woliso,Fiche,Holeta,Guder"
   },
   {
-    "name": "Tigre",
-    "i": 2526,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
     "b": "Keren,Akordat,Barentu,Teseney,Haykota,Afabet,Karora,Shambuko,Mensura,Agordat,Bisha,Omhajer,Hagher,Kerkebet,Adi-Quala,Tokombia,Goluj,Hagaz,Asmat,Tsorona"
   },
   {
-    "name": "Gamo-Gofa-Dawro",
-    "i": 2535,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Arba-Minch,Chencha,Geresse,Mirab-Abaya,Bonke,Kamba,Sawla,Selam-Ber,Offa,Zala,Dubra,Lante,Kucha,Derashe,Gidole,Karate,Konso,Key-Afer,Jinka,Basketo"
-  },
-  {
-    "name": "Ganza",
-    "i": 2536,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Asosa,Kurmuk,Bambasi,Menge,Guba,Kamor,Gizen,Belo-Jiganfoy,Sherkole,Ayra,Tsore,Tapi,Meka,Begi,Metekel,Agelo,Gidami,Dembidolo,Gidole,Danbal"
-  },
-  {
-    "name": "Luganda",
-    "i": 2545,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
     "b": "Kampala,Entebbe,Mukono,Jinja,Masaka,Mityana,Kayunga,Luweero,Nansana,Kira,Seeta,Bombo,Masindi,Hoima,Bukomero,Zirobwe,Buikwe,Lugazi,BuikweTown,Nyenga"
   },
   {
-    "name": "Scottish-Gaelic",
-    "i": 2575,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Stornoway,Portree,Fort-William,Oban,Mallaig,Ullapool,Inverness,Skye,Lochinver,Thurso,Wick,Dornoch,Tobermory,Islay,Campbeltown,gla184u1,gla184u2,gla184u3,gla184u4,gla184u5,gla184u6,gla184u7,gla184u8,gla184u9,gla184u10"
-  },
-  {
-    "name": "Tagalog",
-    "i": 2584,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Manila,Quezon City,Makati,Pasig,Pasay,Taguig,Mandaluyong,Marikina,Caloocan,Valenzuela,Paranaque,Las Pinas,Antipolo,San Juan,Bacoor,Imus,Dasmarinas,Kawit,Rosario,Noveleta,Malabon,Navotas,Angono,Binangonan,Taytay,Cainta,Lucena,Batangas,Lipa,San Pablo"
-  },
-  {
-    "name": "Ndebele",
-    "i": 2647,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
     "b": "Bulawayo,Gwanda,Plumtree,Lupane,Nkayi,Tsholotsho,Esigodini,Filabusi,Kezi,Nyamandlovu,Umguza,Insiza,Matobo,Magwegwe,Mzilikazi,Makokoba,Pumula,Luveve,Nketa,Cowdray Park"
   },
   {
-    "name": "Nogai",
-    "i": 2658,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Karachayevsk,Kaspiysk,Kizlyar,Khasavyurt,Babayurt,Izberbash,Derbent,Kizilyurt,Buynaksk,Terekli-Mekteb,Neftekumsk,Noginskaya,Solnechnodolsk,Stepnoye,Zelmicino,Achi-Su,Arslanbekovo,Kochubey,Karasuvbazar,Manas"
+    "b": "Tripoli,Benghazi,Misrata,Bayda,Zawiya,Zliten,Ajdabiya,Tobruk,Sabha,Derna,Sirte,Gharyan,Khoms,Bani Walid,Nalut,Ghat,Murzuq,Ubari,Waddan,Hun,Sokna,Jalu,Awjila,Kufra,Tazerbo,Rebiana,Tmassa,Gatrun,Zuwara,Sabratha"
   },
   {
-    "name": "Bangala (dedicated)",
-    "i": 2690,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "bangala_unq1,bangala_unq2,bangala_unq3,bangala_unq4,bangala_unq5,bangala_unq6,bangala_unq7,bangala_unq8,bangala_unq9,bangala_unq10,bangala_unq11,bangala_unq12"
+    "b": "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Abâ”œâŒchâ”œâŒ,Bitkine,Bousso,Fianga,Bâ”œâŒrâ”œâŒ"
   },
   {
-    "name": "Dagaare (dedicated)",
-    "i": 2698,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie,Nandom,Jirapa,Lambussie,Kunku,Bussie"
+    "b": "Cape Verde,Santo Antao,Ribeira Grande,Porto Novo,Sao Vicente,Mindelo,Sao Nicolau,Ribeira Brava,Sal,Espargos,Santa Maria,Boa Vista,Sal Rei"
   },
   {
-    "name": "Bulgarian (dedicated)",
-    "i": 2724,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "bulgarian_20254_unq1,bulgarian_20254_unq2,bulgarian_20254_unq3,bulgarian_20254_unq4,bulgarian_20254_unq5,bulgarian_20254_unq6,bulgarian_20254_unq7,bulgarian_20254_unq8,bulgarian_20254_unq9,bulgarian_20254_unq10,bulgarian_20254_unq11,bulgarian_20254_unq12"
+    "b": "Fogo,Sao Filipe,Mosteiros,Châ”œú das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,SÃ£o Filipe,ChÃ£ das Caldeiras,Portela,Relva,Figueira PavÃ£o,Cabeça FundÃ£o,Monte Genebra,Bangaeira,Estância Roque"
   },
   {
-    "name": "Macedonian (dedicated)",
-    "i": 2725,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "macedonian_20255_unq1,macedonian_20255_unq2,macedonian_20255_unq3,macedonian_20255_unq4,macedonian_20255_unq5,macedonian_20255_unq6,macedonian_20255_unq7,macedonian_20255_unq8,macedonian_20255_unq9,macedonian_20255_unq10,macedonian_20255_unq11,macedonian_20255_unq12"
+    "b": "Santiago,Praia,Cidade Velha,Assomada,Santa Catarina,Tarrafal,Sao Domingos,Sao Lourenco dos Orgaos,Maio,Porto Ingles,Vila do Maio,Brava,Nova Sintra,Furna"
   },
   {
-    "name": "Tongan",
-    "i": 2744,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nuku'alofa,Neiafu,Hihifo,Pangai,Ohonua,Lifuka,Havelu,Vaini,Kolovai,Ha'apai,Vava'u,Eua,Niuatoputapu,Niuafo'ou,Tafahi,Tungua"
+    "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Garoua,Maroua,Ngaoundere,Bertoua,Edea"
   },
   {
-    "name": "Rarotongan",
-    "i": 2750,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Avarua,Takuvaine,Matavera,Ngatangiia,Nikao,Tupapa,Aitutaki,Atiu,Mitiaro,Mauke,RarotongaTown,AvaruaTown,TakuvaineTown,MataveraTown"
+    "b": "Malabo,Bata,Ebebiyin,Mongomo,Luba,Evinayong,Micomeseng,Aconibe,Anisoc,Niefang,Rebola,Riaba"
+  },
+  {
+    "b": "El Aaiún,Dakhla,Smara,La Güera,Boujdour,Cape Bojador,Tichla,Zug,Auserd,Mahbes,Guelta Zemmur,Bir Lehlou"
+  },
+  {
+    "b": "Tetuán,Tangier,Chefchaouen,Larache,Ksar el-Kebir,Asilah,Ceuta,Melilla,Gibraltar,Oran,Algiers,Casablanca"
+  },
+  {
+    "b": "Afade,Kousséri,Makari,Goulfey,Blangoua,Fotokol,Logone-Birni,Waza,Mora,Meri,Bogo,Maroua"
+  },
+  {
+    "b": "Agadez,Arlit,Tchirozerine,Bilma,Iférouane,Ingall,Tahoua,Abalak,Tchintabaraden,Dakoro,Madaoua,Illéla"
+  },
+  {
+    "b": "Bauchi,Misau,Katagum,Azare,Ningi,Jama'are,Dass,Tafawa Balewa,Bogoro,Shira,Giade,Warji"
+  },
+  {
+    "b": "Shewa Robit,Aliyu Amba,Shonke,Tuluche,Gese,Bichena,Dejen,Mota,Keraniyo,Chano,Metahara,Awash"
+  },
+  {
+    "b": "Banjul,Serrekunda,Brikama,Bakau,Farafenni,Lamin,Sukuta,Gunjur,Soma,Sierra Leone,Freetown,Waterloo"
+  },
+  {
+    "b": "Turmi,Dimeka,KeyAfer,Arbore,Konso,Jinka,Ari,Mago,Omo,Woyto,Hamer,Benna"
+  },
+  {
+    "b": "AddisAbaba,DireDawa,Mekelle,Gondar,BahirDar,Hawassa,Adama,Jimma,Dessie,Shashamane,Hosaena,Kombolcha"
+  },
+  {
+    "b": "Kano,Katsina,Dutse,Hadejia,Ringim,Gwarzo,Rano,TudunWada,Gaya,Albasu,Danbatta,Makoda"
+  },
+  {
+    "b": "Nguru,Gashua,Yusufari,Geidam,Bursali,Jakusko,Karasuwa,Machina,Mobbar,Kukawa,Abadam,Marte"
+  },
+  {
+    "b": "AmTiman,Abéché,Ati,Mongo,Biltine,Iriba,OumHadjer,Bokoro,Massaguet,Massakory,NDjamena,Sarh"
+  },
+  {
+    "b": "Bauchi,Ningi,Dass,Toro,Jamaa,Darazo,Misau,Katagum,Shira,Zaki,Giade,Gamawa"
+  },
+  {
+    "b": "AddisAbaba,DireDawa,Mekelle,BahirDar,Gondar,Hawassa,Jimma,Dessie,Kombolcha,Adama,Shashamane,ArbaMinch"
+  },
+  {
+    "b": "toma_samo,tougan_samo,solenzo_samo,nouna_samo,toeni_samo,kiembara_samo,sourou_samo,yatenga_samo,zondoma_samo,nayala_samo,sanguie_samo,passore_samo"
+  },
+  {
+    "b": "Tripoli,Benghazi,Misurata,Zawiya,AlBayda,Tobruk,Ajdabiya,Sabha,Sirte,Derna,Khums,Zuwarah"
+  },
+  {
+    "b": "Lagos,Kano,Abuja,Ibadan,PortHarcourt,BeninCity,Onitsha,Uyo,Nnewi,Aba,Kaduna,Ilorin"
+  },
+  {
+    "b": "Algiers,Oran,Constantine,Annaba,Blida,Batna,Djelfa,Setif,SidiBelAbbes,Biskra,Tebessa,Skikda"
+  },
+  {
+    "b": "Baldemu,Madam,Sokoro,BaÃ¯ssouroum,Ngoumi,KoÃ¯bim,Koupélenté,Maidam,Yangorola,Yagandou,Mbail"
+  },
+  {
+    "b": "Harari,Ngaoundere,Gobir,Kargari,Yagana,Bodi,Koumbia,Yalogo,Ngourma,Bassi,Tchad,Doba"
+  },
+  {
+    "b": "Harari-East,Koumbia,Mao,Guerey,Banki,Bodi,Ngaoundere,Gobir,Kargari,Yalogo"
+  },
+  {
+    "b": "Bana,Garoua,Mokolo,Bamessing,Nsimey,Tignere,Nkamenbekoma,Guidar,Bantadjé,Koumoulou,Mbe"
+  },
+  {
+    "b": "Bangime,Kigni,Sonkorong,Zimana,Samogohiri,Beni,Guira,Ziria,Mopti,Bandiagara,San,Niono"
+  },
+  {
+    "b": "Bata,Equatorial Guinea,Kribi,Douala,Yaoundé,Jong,Dibambari,Kogo,Akonolinga,Ntem,Bolondo"
+  },
+  {
+    "b": "Ziguinchor,Bignona,Oussouye,Sedhiou,Diouloulou,Mampat,Basse Casamance,Kolda,Senegal,Guinea-Bissau"
+  },
+  {
+    "b": "Beja,Port Sudan,Sawakin,Halaib,Tokar,Shalatin,Suakin,Qadarif,Kassala,Atbara,Berenice,Gedaref"
+  },
+  {
+    "b": "Belneng,Papua New Guinea,Enga,Mendi,Mount Hagen,Goroka,Wabag,Lae,Port Moresby,Kokopo,Rabaul,Wau"
+  },
+  {
+    "b": "Bete,Guiglo,Daloa,Issia,Duekoue,Man,Sassandra,San Pedro,TaÃ¯,Gagnoa,Bouaflé"
+  },
+  {
+    "b": "Birgit,Chad,Biltine,Guéra,N'Djamena,Mongo,BaÃ¯bokoum,Moundou,Sarh,Koumra,Doba,Abéché"
+  },
+  {
+    "b": "Biu-Mandara,Mafa,Giziga,Mandara,Mokoko,Mofu,Bata,Guduf,Zizilivakan,Muyang,Dghwede,Biya"
+  },
+  {
+    "b": "Boghom,Nigeria,Missau,Jama'are,Bauchi,Potiskum,Dambam,Kirfi,Bi,Shira,Yashi,Zari"
+  },
+  {
+    "b": "Boor,Murle,Dinka,Nuer,Anuak,Bari,Luo,Acholi,Madi,Shilluk"
+  },
+  {
+    "b": "Atlas Tamazight,Morocco,Atlas Mountains,High Atlas,Marrakech,Fes,Ouarzazate,Errachidia,Beni Mellal,Midelt,Meknes,Taza"
+  },
+  {
+    "b": "Glavda,Adamawa,Bama,Gwoza,Maiduguri,Nigeria,Cameroon,Chad Border"
+  },
+  {
+    "b": "Goemai,Shendam,Langtang,Plateau State,Nigeria,Jos,West Africa"
+  },
+  {
+    "b": "Goji,Mandara Plateau,Mokolo,Maroua,Cameroon,Nigeria Border"
+  },
+  {
+    "b": "Gola,Cape Mount,Gbarpolu,Bomi,Liberia,Sierra Leone,West Africa"
+  },
+  {
+    "b": "Sebat Bet,Wolkite,Gurage Zone,Ethiopia,Southwest Ethiopia,Omo River"
+  },
+  {
+    "b": "Ulbare,Yem,Adiya,Ethiopia,Gurage Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Wolane,Kulito,Alaba,Ethiopia,Southwest Ethiopia,Gurage Zone"
+  },
+  {
+    "b": "Mesmes,Jimma,Chencha,Ethiopia,Gurage Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Mesqan,Butajira,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Muher,Wolkite,Emdibir,Ethiopia,Gurage Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Sebat Bet Gurage,Butajira,Wolkite,Ethiopia,Gurage Zone,Southwest Ethiopia"
+  },
+  {
+    "b": "Inneqor,Chencha,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Inor,Chencha,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Butajira,Wolkite,Imdibir,Agena,Cheha,Endegagn,Gumer,Kokir Gedebano,Meskan,Mareko,Silti,Sodo"
+  },
+  {
+    "b": "Chakato,Kansas,Oklahoma,Missouri,USA,Mississippi River,Great Plains,Central Plains"
+  },
+  {
+    "b": "Mao,Bako,Hosa,Ethiopia,Omo Valley,Omotic Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Omotic,Wolayta,Dimma,Ethiopia,Omo Valley,Omotic Region,Southwest Ethiopia"
+  },
+  {
+    "b": "Ometo,Wolayta,Soddo,Ethiopia,Omo Valley,Southwest Ethiopia"
+  },
+  {
+    "b": "Cibak,Bama,Mubi,Mubi North,Adamawa State,Nigeria,North East"
+  },
+  {
+    "b": "Cineni,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Cairo,Alexandria,Akhmim,Asyut,Minya,Sohag,Qena,Luxor,Fayyum,Dakahlia,Beheira,Egypt"
+  },
+  {
+    "b": "Cuvok,Mokolo,Maroua,Cameroon,Mandara Mountains,West Africa"
+  },
+  {
+    "b": "Dahalik,Dahlak Kebir,Massawa,Eritrea,Red Sea,Africa"
+  },
+  {
+    "b": "Dass,Bauchi,Plateau State,Nigeria,North Central,West Africa"
+  },
+  {
+    "b": "Dazawa,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Deno,Kisangani,Bunia,DR Congo,Central Africa,Lake Albert"
+  },
+  {
+    "b": "Lisan al-Gharbi,Ghadamès,Faya-Largeau,Chad,Sahara Desert,North Africa"
+  },
+  {
+    "b": "Dghwede,Gwoza,Bama,Bornu State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Dida,Daloa,Abidjan,Yamoussoukro,Côte d'Ivoire,West Africa"
+  },
+  {
+    "b": "Diri,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Dizoid,Majang,Dizi,Sheko,Southwest Ethiopia,Omo Valley"
+  },
+  {
+    "b": "Douiret,Beni Mellal,Fes,Morocco,Atlas Mountains,North Africa"
+  },
+  {
+    "b": "Dugwor,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Duhwa,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Dullay,Arba Minch,Konso,Yabello,Ethiopia,Omo Valley"
+  },
+  {
+    "b": "Zenati,Annaba,Constantine,Skikda,Algeria,Northeast Africa,Mediterranean"
+  },
+  {
+    "b": "Duwai,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  },
+  {
+    "b": "Morocco Zenati,Oujda,Fes,Meknes,Morocco,Northeast Africa,Mediterranean"
+  },
+  {
+    "b": "Mubi,Bama,Gwoza,Madagali,Hong,Mubi North,Adamawa State,Nigeria,Cameroon Border"
+  },
+  {
+    "b": "Geji,Kalasha,Pankshin,Yola,Bauchi,Nigeria,Plateau State,West Africa"
+  },
+  {
+    "b": "Bissau,Bafatá,Bijagós,Guinea-Bissau,West Africa,Lusophone,Atlantic Coast"
+  },
+  {
+    "b": "Ghomara,Marrakech,El Hajeb,Ait Mellal,Taroudant,Tinrhir,Morocco,Atlas,North"
+  },
+  {
+    "b": "Gidar,Mubi,Bama,Pala,Kuje,Gujj,Bauchi,Adamawa,Nigeria,East"
+  },
+  {
+    "b": "Giiwo,Bauchi,Plateau State,Nigeria,West Africa"
+  },
+  {
+    "b": "Guruntum,Shelleng,Tel,Kambari,Adamawa State,Nigeria,North East"
+  },
+  {
+    "b": "Gvoko,Gwoza,Mubi,Bama,Adamawa State,Nigeria,North East"
+  },
+  {
+    "b": "Gwandara,Gwari,Kaduna,Kano,Birnin Kebbi,Kano State,Nigeria,West"
+  },
+  {
+    "b": "Omaio,Te Kaha,Whangaparaoa,Raukokore,Waihau Bay,Lottin Point,Hicks Bay,Te Araroa,Tikitiki,Ruatoria,Te Puia Springs,Tokomaru Bay"
+  },
+  {
+    "b": "Weito,Birayle,Gidole,Konso,Jinka,Turmi,Omorate,Dimeka,Key Afer,Karat,Arba Minch,Sawla"
+  },
+  {
+    "b": "Bokkos,Mangu,Pankshin,Barkin Ladi,Daffo,Mushere,Kulere,Karfa,Shagawu,Richa"
+  },
+  {
+    "b": "Warji,Gwaram,Ningi,Ganjuwa,Dambam,Katagum,Misau,Shira,Giade,Jama'are"
+  },
+  {
+    "b": "Warji,Ningi,Ganjuwa,Bauchi,Toro,Dass,Tafawa Balewa,Bogoro,Alkeleri,Kirfi"
+  },
+  {
+    "b": "Bokkos,Mangu,Pankshin,Barkin Ladi,Jos,Riyom,Bassa,Jos East,Jos South,Jos North"
+  },
+  {
+    "b": "Bauchi,Toro,Dass,Tafawa Balewa,Bogoro,Alkeleri,Kirfi,Misau,Katagum,Shira"
+  },
+  {
+    "b": "Kano,Katsina,Zaria,Bauchi,Gombe,Potiskum,Nguru,Maradi,Zinder,Diffa"
+  },
+  {
+    "b": "Tessalit,Bourem,Gossi,Ansongo,Gourma-Rharous,Abeibara,Tin-Essako,Tidermène,Alata,Inekar,Aderbissinat,Tabelot"
+  },
+  {
+    "b": "Batna,Khenchela,Oum el Bouaghi,Tébessa,Biskra,Sétif,Bordj Bou Arréridj,M'Sila,Djelfa,Laghouat,Tiaret,Saida"
+  },
+  {
+    "b": "Maiduguri,Dikwa,Ngala,Bama,Monguno,Kukawa,Gubio,Magumeri,Konduga,Mafa"
+  },
+  {
+    "b": "Gashua,Jakusko,Badewa,Amshi,Tagali,Katamma,Dagona,Gorgoram,Usur,Sugum,Jajimaji,Karage"
+  },
+  {
+    "b": "Kigali,Butare,Gisenyi,Ruhengeri,Cyangugu,Kibuye,Byumba,Kibungo,Gitarama,Nyanza,Ruhango,Musanze"
+  },
+  {
+    "b": "Bujumbura,Gitega,Ngozi,Rumonge,Kayanza,Muyinga,Bubanza,Bururi,Cankuzo,Cibitoke,Karuzi,Kirundo"
+  },
+  {
+    "b": "Kinshasa,Brazzaville,Matadi,Boma,Pointe-Noire,Mbanza-Ngungu,Kikwit,Bandundu,Moanda,Cabinda,Soyo,Mbanza-Kongo"
+  },
+  {
+    "b": "Freetown,Waterloo,Hastings,Newton,Benguema,Tombo,York,Kent,Aberdeen,Murray Town,Lumley,Kissy"
+  },
+  {
+    "b": "Barentu,Shambuko,Tokombia,Guluj,Teseney,Haikota,Augaro,Omhajer,Gash-Barka,Humera,Sheraro,Inda Selassie"
+  },
+  {
+    "b": "Doba,Moyen-Chari,Logone,Chari,LaÃ¯,Mandoul,Mayo-Kebbi,Salamat,Guéra,Kémo"
+  },
+  {
+    "b": "Agadez,Arlit,Bilma,Dirkou,Iferouane,Madama,Tahoua,In Gall"
+  },
+  {
+    "b": "Agadir,Casablanca,Fès,Marrakech,Tanger,Meknès,Oujda,Kénitra,Rabat,Salé"
+  },
+  {
+    "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Bensenville"
+  },
+  {
+    "b": "Makeni,Kabala,Bumbuna,Koidu,Tonkolili,Magburaka"
+  },
+  {
+    "b": "Sassandra,San-Pedro,Tabou,Grand-Bereby,Doke,Djapadji,Madiépa,Grabo,Nero-Mer,Buyo,Meagui,Soubre,Guéyo,Okrouyo,Grand-Zattry,Niéko,Payo,Tiapoum,Ayemou,Aboisso"
+  },
+  {
+    "b": "Jalingo,Zing,Yorro,Lau,Ardo-Kola,Bali,Gassol,Mutum-Biyu,Monkin,Serti,Numan,Ganye,Demsa,Gombi,Lamurde,Mayo-Belwa,Taraba,Didango,YorroTown,ZingTown"
+  },
+  {
+    "b": "Ouagadougou,Kaya,Koudougou,Boussé,Ziniaré,Ourgou-Manéga,Zorgho,Bogodogo,Tenkodogo,Koupéla,ZorghoTown,Po,Leo,Boromo,Sapouy,Garango,Manga,Ouahigouya,KayaTown,BousséTown"
+  },
+  {
+    "b": "Sodo,Boditi,Gesuba,Gununo,Areka,Dimtu,Beklo-Segno,Humbo,Abala-Faracho,ShoneTown,Duguna-Fango,SodoZuria,Gacheno,HumboTown,Abela,Gipeta,Bola,SodoTown,Odoramo,Fango"
+  },
+  {
+    "b": "Bangui,Bimbo,Berberati,Bambari,Bouar,Bossangoa,Bozoum,Bangassou,Bria,Kaga Bandoro,Mbaiki,Sibut,Paoua,Nola,Boda,Ippy,Alindao,Obo,Carnot,Ndele"
   }
 ];

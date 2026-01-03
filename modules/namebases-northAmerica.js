@@ -2,192 +2,174 @@
 
 window.NorthAmericaNameBases = [
   {
-    "name": "Nahuatl",
-    "i": 13,
-    "min": 6,
-    "max": 13,
-    "d": "l",
-    "m": 0,
-    "bb": "Acapulco,Acatepec,Acatlan,Acaxochitlan,Acolman,Actopan,Acuamanala,Ahuacatlan,Almoloya,Amacuzac,Amanalco,Amaxac,Apaxco,Apetatitlan,Apizaco,Atenco,Atizapan,Atlacomulco,Atlapexco,Atotonilco,Axapusco,Axochiapan,Axocomanitla,Axutla,Azcapotzalco,Aztahuacan,Calimaya,Calnali,Calpulalpan,Camotlan,Capulhuac,Chalco,Chapulhuacan,Chapultepec,Chiapan,Chiautempan,Chiconautla,Chihuahua,Chilcuautla,Chimalhuacan,Cholollan,Cihuatlan,Coahuila,Coatepec,Coatetelco,Coatlan,Coatlinchan,Coatzacoalcos,Cocotitlan,Cohetzala,Colima,Colotlan,Coyoacan,Coyohuacan,Cuapiaxtla,Cuauhnahuac,Cuauhtemoc,Cuauhtitlan,Cuautepec,Cuautla,Cuaxomulco,Culhuacan,Ecatepec,Eloxochitlan,Epatlan,Epazoyucan,Huamantla,Huascazaloya,Huatlatlauca,Huautla,Huehuetlan,Huehuetoca,Huexotla,Hueyapan,Hueyotlipan,Hueypoxtla,Huichapan,Huimilpan,Huitzilac,Ixtapallocan,Iztacalco,Iztaccihuatl,Iztapalapa,Lolotla,Malinalco,Mapachtlan,Mazatepec,Mazatlan,Metepec,Metztitlan,Mexihco,Miacatlan,Michoacan,Minatitlan,Mixcoac,Mixtla,Molcaxac,Nanacamilpa,Naucalpan,Naupan,Nextlalpan,Nezahualcoyotl,Nopalucan,Huaxyacac,Ocotepec,Ocotitlan,Ocotlan,Ocoyoacac,Ocuilan,Ocuituco,Omitlan,Otompan,Otzoloapan,Pacula,Pahuatlan,Panotla,Papalotla,Patlachican,Piaztla,Popocatepetl,Sultepec,Tecamac,Tecolotlan,Tecozautla,Temamatla,Temascalapa,Temixco,Temoac,Temoaya,Tenayuca,Tenochtitlan,Teocuitlatlan,Teotihuacan,Teotlalco,Tepeacac,Tepeapulco,Tepehuacan,Tepetitlan,Tepeyanco,Tepotzotlan,Tepoztlan,Tetecala,Tetlatlahuca,Texcalyacac,Texcoco,Tezontepec,Tezoyuca,Timilpan,Tizapan,Tizayuca,Tlacopan,Tlacotenco,Tlahuac,Tlahuelilpan,Tlahuiltepa,Tlalmanalco,Tlalnepantla,Tlalpan,Tlanchinol,Tlatelolco,Tlaxcala,Tlaxcoapan,Tlayacapan,Tocatlan,Tolcayuca,Toluca,Tonanitla,Tonantzintla,Tonatico,Totolac,Totolapan,Tototlan,Tuchtlan,Tulantepec,Tultepec,Tzompantepec,Xalatlaco,Xaloztoc,Xaltocan,Xiloxoxtla,Xochiatipan,Xochicoatlan,Xochimilco,Xochitepec,Xolotlan,Xonacatlan,Yahualica,Yautepec,Yecapixtla,Yehaultepec,Zacatecas,Zacazonapan,Zacoalco,Zacualpan,Zacualtipan,Zapotlan,Zimapan,Zinacantepec,Zoyaltepec,Zumpahuacan"
+    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,Oujé-Bougoumou"
   },
   {
-    "name": "Inuit",
-    "i": 18,
-    "min": 5,
-    "max": 15,
-    "d": "alutsn",
-    "m": 0,
+    "b": "Kenora,Thunder Bay,Sault Ste. Marie,Red Lake,Fort Frances,Dryden,Sioux Lookout,Rainy River,Nipigon,Geraldton,Manitouwadge,Marathon"
+  },
+  {
+    "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga"
+  },
+  {
+    "b": "Fairbanks,Fort Yukon,Galena,Nenana,Tanana,Huslia,Hughes,Ruby,Koyukuk,Nulato,Kaltag,Shageluk"
+  },
+  {
+    "b": "Unalaska,Dutch Harbor,Kodiak,Aleutian Islands,Adak,Atka,Umak,Cold Bay,Sand Point,King Cove,Port Heiden,Umnak"
+  },
+  {
     "b": "Aaluik,Aappilattoq,Aasiaat,Agissat,Agssaussat,Akuliarutsip,Akunnaaq,Alluitsup,Alluttoq,Amitsorsuaq,Ammassalik,Anarusuk,Anguniartarfik,Annertussoq,Annikitsoq,Apparsuit,Apusiaajik,Arsivik,Arsuk,Atammik,Ateqanaq,Atilissuaq,Attu,Augpalugtoq,Aukarnersuaq,Aumat,Auvilkikavsaup,Avadtlek,Avallersuaq,Bjornesk,Blabaerdalen,Blomsterdalen,Brattalhid,Bredebrae,Brededal,Claushavn,Edderfulegoer,Egger,Eqalugalinnguit,Eqalugarssuit,Eqaluit,Eqqua,Etah,Graah,Hakluyt,Haredalen,Hareoen,Hundeo,Igaliku,Igdlorssuit,Igdluluarssuk,Iginniafik,Ikamiut,Ikarissat,Ikateq,Ikermiut,Ikermoissuaq,Ikorfarssuit,Ilimanaq,Illorsuit,Illunnguit,Iluileq,Ilulissat,Imaarsivik,Imartunarssuk,Immikkoortukajik,Innaarsuit,Inneruulalik,Inussullissuaq,Iperaq,Ippik,Iqek,Isortok,Isungartussoq,Itileq,Itissaalik,Itivdleq,Ittit,Ittoqqortoormiit,Ivingmiut,Ivittuut,Kanajoorartuut,Kangaamiut,Kangeq,Kangerluk,Kangerlussuaq,Kanglinnguit,Kapisillit,Kekertamiut,Kiatak,Kiataussaq,Kigatak,Kinaussak,Kingittorsuaq,Kitak,Kitsissuarsuit,Kitsissut,Klenczner,Kook,Kraulshavn,Kujalleq,Kullorsuaq,Kulusuk,Kuurmiit,Kuusuaq,Laksedalen,Maniitsoq,Marrakajik,Mattaangassut,Mernoq,Mittivakkat,Moriusaq,Myggbukta,Naajaat,Nangissat,Nanuuseq,Nappassoq,Narsarmijt,Narsarsuaq,Narssaq,Nasiffik,Natsiarsiorfik,Naujanguit,Niaqornaarsuk,Niaqornat,Nordfjordspasset,Nugatsiaq,Nunarssit,Nunarsuaq,Nunataaq,Nunatakavsaup,Nutaarmiut,Nuugaatsiaq,Nuuk,Nuukullak,Olonkinbyen,Oodaaq,Oqaatsut,Oqaitsunguit,Oqonermiut,Paagussat,Paamiut,Paatuut,Palungataq,Pamialluk,Perserajoq,Pituffik,Puugutaa,Puulkuip,Qaanaq,Qaasuitsup,Qaersut,Qajartalik,Qallunaat,Qaneq,Qaqortok,Qasigiannguit,Qassimiut,Qeertartivaq,Qeqertaq,Qeqertasussuk,Qeqqata,Qernertoq,Qernertunnguit,Qianarreq,Qingagssat,Qoornuup,Qorlortorsuaq,Qullikorsuit,Qunnerit,Qutdleq,Ravnedalen,Ritenbenk,Rypedalen,Saarloq,Saatorsuaq,Saattut,Salliaruseq,Sammeqqat,Sammisoq,Sanningassoq,Saqqaq,Saqqarlersuaq,Saqqarliit,Sarfannguit,Sattiaatteq,Savissivik,Serfanguaq,Sermersooq,Sermiligaaq,Sermilik,Sermitsiaq,Simitakaja,Simiutaq,Singamaq,Siorapaluk,Sisimiut,Sisuarsuit,Sullorsuaq,Suunikajik,Sverdrup,Taartoq,Takiseeq,Tasirliaq,Tasiusak,Tiilerilaaq,Timilersua,Timmiarmiut,Tukingassoq,Tussaaq,Tuttulissuup,Tuujuk,Uiivaq,Uilortussoq,Ujuaakajiip,Ukkusissat,Upernavik,Uttorsiutit,Uumannaq,Uunartoq,Uvkusigssat,Ymer"
   },
   {
-    "name": "Canadian French",
-    "i": 292,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"
-  },
-  {
-    "name": "Mexican Spanish",
-    "i": 487,
-    "min": 4,
-    "max": 11,
-    "d": "es-MX",
-    "m": 0,
-    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad JuÃ¡rez,Tijuana,LeÃ³n,Veracruz,CancÃºn,MazatlÃ¡n"
-  },
-  {
-    "name": "Cherokee",
-    "i": 729,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Tahlequah,Park Hill,Stilwell,Sallisaw,Gore,Vian,Muldrow,Westville,Hulbert,Locust Grove,Salina,Jay"
   },
   {
-    "name": "Apache",
-    "i": 730,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
     "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,Seven Mile,McNary,East Fork,Cedar Creek"
   },
   {
-    "name": "Navajo",
-    "i": 732,
-    "min": 4,
-    "max": 11,
-    "d": "nv-US",
-    "m": 0,
     "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Gallup,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms"
   },
   {
-    "name": "Afro-Seminole Creole",
-    "i": 755,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Brackettville,Nacimiento de los Negros,Del Rio,Eagle Pass,Uvalde,San Antonio,Houston,Galveston,New Orleans,Mobile,Pensacola,St. Augustine"
+    "b": "Chorotega,Guancaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua"
   },
   {
-    "name": "Crow",
-    "i": 1106,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Billings,Lodge Grass,Big Horn,Crow Agency,Pryor,Hardin,Laurel,Busby,Bighorn,St Xavier,Rosebud,Lame Deer"
+    "b": "Morelia,Uruapan,Zamora,Patzcuaro,Tzintzuntzan,Cheran,Paracho,LosReyes,Angamacutiro,Angangueo,Apatzingan,Acuitzio,Aguililla,Arteaga,Ario,Brisenas,Buenavista,Caracuaro,Charapan,Charo,Chavinda,Chilchota,Chinicuila,Chucandiro,Churintzio,Churumuco,Coahuayana,Coalcoman,Coeneo,Cojumatlan,Contepec,Copandaro,Cotija,Cuitzeo,Ecuandureo,Erongaricuaro,GabrielZamora,Hidalgo,Huandacareo,Huaniqueo,Huetamo,Huiramba,Indaparapeo,Irimbo,Ixtlan,Jacona,Jimenez,Jiquilpan,Jungapeo,Lagunillas,LaPiedad,Maravatio,Morelos"
   },
   {
-    "name": "Kiowa",
-    "i": 1262,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Anadarko,Lawton,Meers,Gotebo,Hobart,Cache,Snyder,Carnegie,Apache,Geronimo,SugarCreek,RainyMtn"
+    "b": "Madrid,Toledo,Ãvila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
   },
   {
-    "name": "Choctaw",
-    "i": 1290,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Choctaw,Talihina,Poteau,McAlester,Atoka,Durant,Hugo,Tushka,Poteau Mountain,Kiamichi River,Red River,Arkansas River"
+    "b": "Chipilo,Puebla,Cholula,Atlixco,Huejotzingo,San Andres Cholula,San Pedro Cholula,Cuautlancingo,Tecali,Tepeaca,Amozoc,Tlaxcala"
   },
   {
-    "name": "Muscogee",
-    "i": 1291,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Muscogee,Okmulgee,Creek Nation,Tulsa,Muskogee,Okemah,Wewoka,Cheyenne,Henryetta,Eufaula,Wagoner,Tahlequah"
+    "b": "Toronto,Ottawa,Hamilton,Mississauga,Brampton,Kitchener,London,Windsor,Barrie,Sudbury,Sault Ste Marie"
   },
   {
-    "name": "Comanche",
-    "i": 1369,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Comanche,Apache,Fort Sill,Anadarko,Lawton,Cyrus,Oklahoma,Texas,New Mexico,Amarillo,Albuquerque,Santa Fe"
+    "b": "Paris,Lyon,Marseille,Toulouse,Lille,Bordeaux,Nantes,Strasbourg,Reims,Le Havre,Nancy,Rouen"
   },
   {
-    "name": "Hopi",
-    "i": 1370,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hopi,First Mesa,Second Mesa,Third Mesa,Polacca,Kykotsmovi,Kykotsmovi Village,Shungopavi,Mishongnovi,Orayvi,Sichomovi,Moenkopi"
+    "b": "Saint John,Miramichi,Moncton,Bathurst,Fredericton,Edmundston,Tracadie,Dieppe,Shediac,Campobello Island"
   },
   {
-    "name": "Chopi",
-    "i": 1468,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chopi,Chibuto,Bilene,Xai-Xai,Manjacaze,Quissico,Machanga,Massinga,Inhambane,Maxixe,Mozambique,Gaza,Inhambane Province"
+    "b": "New Orleans,Baton Rouge,Lafayette,Shreveport,Lake Charles,Monroe,Alexandria,Houma,Thibodaux,Morgan City,Slidell"
   },
   {
-    "name": "Blackfoot",
-    "i": 1958,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Browning,Heart Butte,Starr School,Brocket,Cardston,Gleichen,Stand Off,Cluny,Morley,Eden Valley,Big Horn,Tsuut'ina"
+    "b": "Orléans,Blois,Tours,Chartres,Amboise,Vendôme,Châteauroux,Dreux,Argentan"
   },
   {
-    "name": "Kewa",
-    "i": 2140,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mendi,Ialibu,Pangia,Kagua,Erave,Nipa,Tari,Koroba,Margarima,Komo,Lake-Kutubu,Kandep"
+    "b": "Nouméa,PaÃ¯ta,Mont-Dore,Dumbéa,Tchamba,Lifou,Thio,Bourail,Yaté"
   },
   {
-    "name": "Kewat",
-    "i": 2306,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Kisii,Meru,Thika,Nyeri"
+    "b": "Saint Louis,Florissant,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
   },
   {
-    "name": "Labrador Inuit Pidgin French",
-    "i": 2311,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "St. John's,Corner Brook,Gander,Grand Falls-Windsor,Happy Valley-Goose Bay,Labrador City,Wabush,Port aux Basques,Marystown,Carbonear"
+    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,Rivière-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
   },
   {
-    "name": "Afro Seminole Creole",
-    "i": 2362,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Brackettville,Nacimiento de los Negros,Big Cypress,Hollywood,Seminole"
+    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-François,Saint-Dominique"
   },
   {
-    "name": "Raji-Raute",
-    "i": 2500,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pithoragarh,Champawat,Didihat,Lohaghat,Askot,Dharchula,Berinag,Kaninag,Jhulaghat,Tanakpur,Jogbuda,Kalapani,Dogra,Jauljibi,Dailekh,Surkhet,Kailali,Rajapur,Kanchanpur,Dhangadhi"
+    "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-Ã -Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
+  },
+  {
+    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-Rivières,Saguenay,Lévis"
+  },
+  {
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Tactic,Tamahú,Tucurú,Senahú,Cahabón,Lanquín"
+  },
+  {
+    "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely"
+  },
+  {
+    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,Cuitlapán,Popoloca,Tlacolula,Mazatlán"
+  },
+  {
+    "b": "Malinaltepec,Tlapa,Ocotalpan,Zapotitlán,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
+  },
+  {
+    "b": "Prince Rupert,Hazelton,Kitimat,Terrace,Kitselas,Klemtu,Kitsumkalum,Lax Kw'ala,Metlakatla,Hartley Bay"
+  },
+  {
+    "b": "Pierre,Rapid City,Sioux Falls,Fargo,Chamberlain,Yankton,Grand Forks,Valley City,Bismarck,Mandan,McLaughlin"
+  },
+  {
+    "b": "Villahermosa,Cárdenas,Comalcalco,Macuspana,Teapa,Jalpa de Méndez,Cunduacán,Paraíso,Jonuta,Balancán,Tenosique,Emiliano Zapata"
+  },
+  {
+    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,Saín Alto,General Enrique Estrada"
+  },
+  {
+    "b": "Rae Behchoko,Whatì,Gamètì,Wekweètì,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
+  },
+  {
+    "b": "Providenciales,Cockburn Town,Grand Turk,South Caicos,Middle Caicos,North Caicos,East Caicos,Salt Cay,Turks,Caicos,Parrot Cay,Pine Cay"
+  },
+  {
+    "b": "Kingstown,Georgetown,Byera Village,Layou,Barrouallie,Chateaubelair,Biabou,Owia,Calliaqua,Stubbs,Villa,Prospect"
+  },
+  {
+    "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo"
+  },
+  {
+    "b": "Accompong,Moore Town,Scotts Hall,Charles Town,Flagstaff,Barbecue Bottom,Trelawny,Portland,St James,Westmoreland,St Ann,St Mary"
+  },
+  {
+    "b": "Kalaallisut,Nuuk,Ilulissat,Paamiut,Maniitsoq,Qaqortoq,Sisimiut,Aasiaat,Nuussuaq,Greenland,Kalaallit Nunaat"
+  },
+  {
+    "b": "Cahuilla,Palm Springs,Palm Desert,Indio,Coachella,Desert Hot Springs,Thousand Palms,Rancho Mirage,California"
+  },
+  {
+    "b": "Alutiiq,Kodiak,Karluk,Oognak,Larsen Bay,Old Harbor,Akhiok,Afognak,Alaska Pacific Islands,Alaska Peninsula"
+  },
+  {
+    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,Pánuco,Tantoyuca,Tamazunchale"
+  },
+  {
+    "b": "Zapotec,Oaxaca City,Mitla,Tlacolula,Zaachila,Mexico,Chiapas,Oaxaca,Mesoamerica"
+  },
+  {
+    "b": "Mazatec,Huatla de Jiménez,Teotitlán de Flores Magón,Mazatlán,Ayautla,Oaxaca,Mexico"
+  },
+  {
+    "b": "Chinantec,Ojitlan,Choapa,Valle Nacional,Oaxaca,Mexico,Sierra Madre"
+  },
+  {
+    "b": "Chinook Jargon,Portland,Seattle,Vancouver,Columbia River,Oregon,Washington,USA,Canada,Pacific Northwest"
+  },
+  {
+    "b": "Comitán,Trinitaria,La Independencia,Francisco León,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
+  },
+  {
+    "b": "Coxoh,Comitán,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
+  },
+  {
+    "b": "Nuuk,Ilulissat,Sisimiut,Qaqortoq,Aasiaat,Maniitsoq,Paamiut,Greenland,Kalaallit Nunaat,Arctic"
+  },
+  {
+    "b": "Charleston,Savannah,Sea Islands,Georgetown,Beaufort,Low Country,Gullah Geechee,USA,Southeast Coast"
+  },
+  {
+    "b": "Juchitán de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,Unión Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
+  },
+  {
+    "b": "San José,Flores,Santa Elena,San Benito,Sayaxché,Poptún,Melchor de Mencos,La Libertad,Dolores,San Luis"
+  },
+  {
+    "b": "San Miguel Acatán,San Rafael La Independencia,Nentón,Jacaltenango,Concepción Huista,Petatán,San Antonio Huista,Santa Ana Huista,Todos Santos Cuchumatán,Huehuetenango,Chiantla,Aguacatán"
+  },
+  {
+    "b": "Pine Ridge,Rapid City,Chamberlain,Mobridge,Mitchell,Pierre,Yankton,Sioux Falls,Watertown,Aberdeen"
+  },
+  {
+    "b": "Spokane,Colville,Nespelem,Inchelium,Omak,Okanogan,Kamloops,Chilliwack,Hope,Abbotsford,Coquitlam,Sechelt,Squamish,Nanaimo,Duncan,Courtenay,Campbell River,Bellingham,Everett,Skagit"
+  },
+  {
+    "b": "Sheshatshiu,Natuashish,Maliotenam,Uashat,Matimekush,Lac-John,Ekuanitshit,Pessamit,Essipit,Unamen Shipu,La Romaine,Mingan,Schefferville,Sept-Iles,Baie-Comeau,Forestville,Port-Cartier,Chute-aux-Outardes,Longue-Pointe-de-Mingan,Havre-Saint-Pierre"
+  },
+  {
+    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad Juárez,Tijuana,León,Veracruz,Cancún,Mazatlán"
+  },
+  {
+    "b": "Brackettville,Nacimiento de los Negros,Del Rio,Eagle Pass,Uvalde,San Antonio,Houston,Galveston,New Orleans,Mobile,Pensacola,St. Augustine,Big Cypress,Hollywood,Seminole"
   }
 ];

@@ -1,6 +1,22 @@
 "use strict";
 
 (function () {
+  // If no base arrays exist, check for continent files and merge them
+  if (!window.realWorldNameBases && !window.fantasyNameBases && !window.creoleNameBases) {
+    // Collect all continent namebases
+    const continentArrays = [];
+    
+    if (window.AfricaNameBases) continentArrays.push(...window.AfricaNameBases);
+    if (window.AsiaNameBases) continentArrays.push(...window.AsiaNameBases);
+    if (window.EuropeNameBases) continentArrays.push(...window.EuropeNameBases);
+    if (window.NorthAmericaNameBases) continentArrays.push(...window.NorthAmericaNameBases);
+    if (window.SouthAmericaNameBases) continentArrays.push(...window.SouthAmericaNameBases);
+    if (window.OceaniaNameBases) continentArrays.push(...window.OceaniaNameBases);
+    
+    // All continent data goes into realWorldNameBases for now
+    window.realWorldNameBases = continentArrays;
+  }
+  
   if (!Array.isArray(window.realWorldNameBases)) window.realWorldNameBases = [];
   if (!Array.isArray(window.fantasyNameBases)) window.fantasyNameBases = [];
   if (!Array.isArray(window.creoleNameBases)) window.creoleNameBases = [];
