@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "issues": [],
+  "statistics": {
+    "totalLanguages": 228,
+    "totalPlacenames": 5524,
+    "missingPlacenames": 0,
+    "fewPlacenames": 0
+  }
+}
