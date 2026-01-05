@@ -23,6 +23,11 @@ Throughout this devplan, `config/language-mixes.json` and `config/language-mixer
 
 ## ✅ Completed items (consolidated)
 
+- ✅ **2026-01-04 (PLACEHOLDER_CLEANUP):** Eliminated all `_unq`/`_u\d+` placeholders from production namebase files (`namebases-*.js`).
+    - **Target Files:** `namebases-africa.js`, `namebases-asia.js`, `namebases-europe.js`, `namebases-northAmerica.js`, `namebases-southAmerica.js`, `namebases-oceania.js`, `namebases-creole.js`, `namebases-fantasy.js`, `namebases-global.js`.
+    - **Actions:** Replaced over 100 placeholder entries with authoritative geographic names from `namebase-aggregated.js` or `New Place` lists (12-item consistency).
+    - **Verification:** `Grep` search confirmed zero placeholders remain in any `modules/namebases-*.js` (excluding legacy backups).
+
 - ✅ **2025-12-21 (DECLUSTER / Uralic):** Resolved language uniqueness debt for Uralic (Udmurt, Mari) clusters.
     - **Target Languages:** `udmurt`, `southern-udmurt`, `northern-udmurt`, `hill-mari`, `meadow-mari`, `meadow-mari-proper`, `northwestern-mari`, `eastern-mari`, `proto-mari`.
     - **Actions:** Added 9 dedicated bases in `modules/namebases-real.js`: `Eastern Mari` (10484), `Hill Mari` (11434), `Udmurt` (12427), `Southern Udmurt` (13844), `Northern Udmurt` (13845), `Meadow Mari` (13846), `Meadow Mari Proper` (13847), `Northwestern Mari` (13848), `Proto-Mari` (13849). 

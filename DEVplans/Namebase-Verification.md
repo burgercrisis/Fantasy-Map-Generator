@@ -32,7 +32,7 @@
 30. Cantonese (i: 29) - ✅
 31. Mongolian (i: 30) - ✅
 32. Gurage (i: 31) - ✅
-33. Harari-Argobba (i: 32) - ✅
+33. Harari-Argobba (i: 312) - ✅
 34. Australian Aboriginal (i: 33) - ✅
 35. Lechitic (i: 34) - ✅
 36. Czech-Slovak (i: 35) - ✅
@@ -1075,7 +1075,7 @@ Priority**: HIGH
 **Final Assessment**: EXCELLENT (6 Oromia Region names replaced with 6 authentic SNNPR towns, 45 total names)
 
 
-### Harari-Argobba (i: 32) - 2025-12-31 (RE-VERIFIED)
+### Harari-Argobba (i: 312) - 2026-01-03 (RE-VERIFIED)
 **Status**: COMPLETED
 **Rating**: EXCELLENT
 **Research Time**: 1.5 hours
