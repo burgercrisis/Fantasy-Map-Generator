@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 window.realWorldNameBases = [
   {
@@ -291,7 +291,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Harari-Argobba",
-    "i": 32,
+    "i": 312,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -2811,7 +2811,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bakhtiari Arabic",
-    "i": 312,
+    "i": 680,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -6123,7 +6123,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Bangi ",
-    "i": 680,
+    "i": 2019,
     "min": 4,
     "max": 11,
     "d": "nic-CD",
@@ -18174,7 +18174,7 @@ window.realWorldNameBases = [
   },
   {
     "name": "Kar ",
-    "i": 2019,
+    "i": 13491,
     "min": 4,
     "max": 11,
     "d": "nic-GH",

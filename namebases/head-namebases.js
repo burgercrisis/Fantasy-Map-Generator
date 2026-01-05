@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 window.realWorldNameBases = [
 // real-world bases by Azgaar:
@@ -487,7 +487,6 @@ window.realWorldNameBases = [
       {name: "Latin", i: 871, min: 4, max: 11, d: "lnrt", m: 0, b: "latina,latinb,latinc,latind,latine,latinf,lating,latinh,latini,latinj,latink,latinl"},
       {name: "Leonese", i: 872, min: 4, max: 11, d: "lnrt", m: 0, b: "leonesea,leoneseb,leonesec,leonesed,leonesee,leonesef,leoneseg,leoneseh,leonesei,leonesej,leonesek,leonesel"},
 
-      {name: "Ligurian", i: 873, min: 4, max: 11, d: "lnrt", m: 0, b: "liguriana,ligurianb,ligurianc,liguriand,liguriane,ligurianf,liguriang,ligurianh,liguriani,ligurianj,liguriank,ligurianl"},
       {name: "Limousin", i: 874, min: 4, max: 11, d: "lnrt", m: 0, b: "limousina,limousinb,limousinc,limousind,limousine,limousinf,limousing,limousinh,limousini,limousinj,limousink,limousinl"},
       {name: "Llanito", i: 875, min: 4, max: 11, d: "lnrt", m: 0, b: "llanitoa,llanitob,llanitoc,llanitod,llanitoe,llanitof,llanitog,llanitoh,llanitoi,llanitoj,llanitok,llanitol"},
       {name: "Logudorese", i: 876, min: 4, max: 11, d: "lnrt", m: 0, b: "logudoresea,logudoreseb,logudoresec,logudoresed,logudoresee,logudoresef,logudoreseg,logudoreseh,logudoresei,logudoresej,logudoresek,logudoresel"},

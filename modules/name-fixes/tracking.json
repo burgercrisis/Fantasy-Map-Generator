@@ -9,9 +9,9 @@
   {
     "i": 312,
     "name": "Harari-Argobba",
-    "status": "pending_integration",
+    "status": "integrated",
     "agent": "CulturalNameResearcher",
-    "updated": "2025-12-22T10:00:00.000Z"
+    "updated": "2026-01-03T00:00:00.000Z"
   },
   {
     "i": 0,
@@ -295,7 +295,7 @@
   },
   {
     "i": 357,
-    "name": "N╟üng Click",
+    "name": "N!ung Click",
     "status": "available",
     "agent": null,
     "updated": null
@@ -316,7 +316,7 @@
   },
   {
     "i": 361,
-    "name": "G╟Çui Click",
+    "name": "G!ui Click",
     "status": "available",
     "agent": null,
     "updated": null
@@ -379,7 +379,7 @@
   },
   {
     "i": 362,
-    "name": "Ju╟Ç╩╝hoan Click",
+    "name": "Ju|'hoan Click",
     "status": "available",
     "agent": null,
     "updated": null
@@ -477,35 +477,35 @@
   },
   {
     "i": 388,
-    "name": "Kwaza-Xoc├│ Amazonian",
+    "name": "Kwaza-Xocó Amazonian",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 389,
-    "name": "Pur├⌐pecha",
+    "name": "Purépecha",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 390,
-    "name": "Angolar S├úo Tom├⌐",
+    "name": "Angolar São Tomé",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 391,
-    "name": "Annobonese Pal├⌐",
+    "name": "Annobonese Palé",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 392,
-    "name": "Forro S├úo Tom├⌐",
+    "name": "Forro São Tomé",
     "status": "available",
     "agent": null,
     "updated": null
@@ -1380,14 +1380,14 @@
   },
   {
     "i": 547,
-    "name": "AsmatΓÇôKamoro",
+    "name": "Asmat–Kamoro",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 548,
-    "name": "BeckingΓÇôDawi",
+    "name": "Becking–Dawi",
     "status": "available",
     "agent": null,
     "updated": null
@@ -1730,7 +1730,7 @@
   },
   {
     "i": 599,
-    "name": "BoleΓÇôTangale",
+    "name": "Bole–Tangale",
     "status": "available",
     "agent": null,
     "updated": null
@@ -1744,7 +1744,7 @@
   },
   {
     "i": 601,
-    "name": "Dangal├⌐at language",
+    "name": "Dangaléat language",
     "status": "available",
     "agent": null,
     "updated": null
@@ -1863,14 +1863,14 @@
   },
   {
     "i": 613,
-    "name": "Guern├⌐siais",
+    "name": "Guernésiais",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 614,
-    "name": "J├¿rriais",
+    "name": "Jèrriais",
     "status": "available",
     "agent": null,
     "updated": null
@@ -1912,14 +1912,14 @@
   },
   {
     "i": 625,
-    "name": "Tsiman├⌐",
+    "name": "Tsimané",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 626,
-    "name": "Cavine├▒a",
+    "name": "Cavineña",
     "status": "available",
     "agent": null,
     "updated": null
@@ -1940,7 +1940,7 @@
   },
   {
     "i": 629,
-    "name": "Nivacl├⌐",
+    "name": "Nivaclé",
     "status": "available",
     "agent": null,
     "updated": null
@@ -3354,7 +3354,7 @@
   },
   {
     "i": 897,
-    "name": "Mon├⌐gasque",
+    "name": "Monégasque",
     "status": "available",
     "agent": null,
     "updated": null
@@ -3676,7 +3676,7 @@
   },
   {
     "i": 925,
-    "name": "Paß╕╖ß╕╖uezu",
+    "name": "Paḥḥuezu",
     "status": "available",
     "agent": null,
     "updated": null
@@ -3725,7 +3725,7 @@
   },
   {
     "i": 932,
-    "name": "Peruvian Ribere├▒o",
+    "name": "Peruvian Ribereño",
     "status": "available",
     "agent": null,
     "updated": null
@@ -3809,7 +3809,7 @@
   },
   {
     "i": 944,
-    "name": "J├ñmtland",
+    "name": "Jämtland",
     "status": "available",
     "agent": null,
     "updated": null
@@ -4600,7 +4600,7 @@
   },
   {
     "i": 1858,
-    "name": "Vald├┤tain (dedicated)",
+    "name": "Valdôtain (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -4901,7 +4901,7 @@
   },
   {
     "i": 2036,
-    "name": "Ghomala╩╝ (dedicated)",
+    "name": "Ghomala' (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -4922,7 +4922,7 @@
   },
   {
     "i": 2039,
-    "name": "Gourmanch├⌐ (dedicated)",
+    "name": "Gourmanché (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -5181,21 +5181,21 @@
   },
   {
     "i": 2169,
-    "name": "╦ÇAzd dialect (dedicated)",
+    "name": "'Azd dialect (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 2170,
-    "name": "┼╗ejtun dialect (dedicated)",
+    "name": "Żejtun dialect (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 2171,
-    "name": "├àsele (dedicated)",
+    "name": "Åsele (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9164,14 +9164,14 @@
   },
   {
     "i": 5373,
-    "name": "Ekoka ╟âKung (dedicated)",
+    "name": "Ekoka !Kung (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5374,
-    "name": "╟éKx╩╝ao╟ü╩╝ae (dedicated)",
+    "name": "!Kx'ao-'ae (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9640,14 +9640,14 @@
   },
   {
     "i": 5813,
-    "name": "Macagu├ín (Hitn├╝) (dedicated)",
+    "name": "Macaguán (Hitnü) (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5814,
-    "name": "Arhuaco (Ik╩ë) (dedicated)",
+    "name": "Arhuaco (Ikë) (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9675,35 +9675,35 @@
   },
   {
     "i": 5818,
-    "name": "Sater├⌐-Maw├⌐ (dedicated)",
+    "name": "Sateré-Mawé (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5819,
-    "name": "Teneteh├íra (dedicated)",
+    "name": "Tenetehára (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5820,
-    "name": "War├ízu (dedicated)",
+    "name": "Warízu (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5821,
-    "name": "Wari╩╝ (dedicated)",
+    "name": "Wari' (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5822,
-    "name": "San├╢ma (Sanum├í) (dedicated)",
+    "name": "Sanöma (Sanumá) (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9731,14 +9731,14 @@
   },
   {
     "i": 5826,
-    "name": "Wich├¡ Lhamt├⌐s Nocten (Weenhayek) (dedicated)",
+    "name": "Wichí Lhamtés Nocten (Weenhayek) (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5827,
-    "name": "Wich├¡ Lhamt├⌐s Vejoz (dedicated)",
+    "name": "Wichí Lhamtés Vejoz (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9752,7 +9752,7 @@
   },
   {
     "i": 5829,
-    "name": "Tlapanec (MeΩ₧îphaa) (dedicated)",
+    "name": "Tlapanec (Me'phaa) (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9766,14 +9766,14 @@
   },
   {
     "i": 5831,
-    "name": "Tiriy├│ (dedicated)",
+    "name": "Tiriyó (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 5832,
-    "name": "Coast Tsimshian (SmΓÇÖalgya╠▒x) (dedicated)",
+    "name": "Coast Tsimshian (Sm'algyax) (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9885,14 +9885,14 @@
   },
   {
     "i": 6001,
-    "name": "Tisza-K├╢r├╢s (dedicated)",
+    "name": "Tisza-Körös (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 6002,
-    "name": "Pal├│c (dedicated)",
+    "name": "Palóc (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -9969,7 +9969,7 @@
   },
   {
     "i": 6013,
-    "name": "Luokta-M├ívas (dedicated)",
+    "name": "Luokta-Mávas (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10039,7 +10039,7 @@
   },
   {
     "i": 6023,
-    "name": "Per├ñpohjola (dedicated)",
+    "name": "Peräpohjola (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10305,7 +10305,7 @@
   },
   {
     "i": 3989,
-    "name": "Mainfr├ñnkisch (dedicated)",
+    "name": "Mainfränkisch (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10690,7 +10690,7 @@
   },
   {
     "i": 6621,
-    "name": "L├¡ngua Geral Amaz├┤nica (dedicated)",
+    "name": "Língua Geral Amazônica (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10837,14 +10837,14 @@
   },
   {
     "i": 6634,
-    "name": "Gwich╩╝in (dedicated)",
+    "name": "Gwich'in (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 6635,
-    "name": "H├ñn (dedicated)",
+    "name": "Hän (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10865,7 +10865,7 @@
   },
   {
     "i": 6638,
-    "name": "T┼é─»ch╟½ (dedicated)",
+    "name": "Tłı̨chǫ (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10907,7 +10907,7 @@
   },
   {
     "i": 6644,
-    "name": "Cochim├¡ (dedicated)",
+    "name": "Cochimí (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -10998,7 +10998,7 @@
   },
   {
     "i": 6657,
-    "name": "Hupd├½ (dedicated)",
+    "name": "Hupdë (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -11187,14 +11187,14 @@
   },
   {
     "i": 7219,
-    "name": "PuΓÇôXian Min (dedicated)",
+    "name": "Pu-Xian Min (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 7220,
-    "name": "H├ákl├áu Min (dedicated)",
+    "name": "Hákláu Min (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -11677,7 +11677,7 @@
   },
   {
     "i": 7518,
-    "name": "BiuΓÇôMandara (dedicated)",
+    "name": "Biu-Mandara (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -11782,7 +11782,7 @@
   },
   {
     "i": 7656,
-    "name": "Bjarmian S├ími (dedicated)",
+    "name": "Bjarmian Sámi (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -11831,14 +11831,14 @@
   },
   {
     "i": 7720,
-    "name": "Cof├ín (dedicated)",
+    "name": "Cofán (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 7721,
-    "name": "Fulni├┤ (dedicated)",
+    "name": "Fulniô (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -11859,7 +11859,7 @@
   },
   {
     "i": 7724,
-    "name": "Nivacl├⌐ (dedicated)",
+    "name": "Nivaclé (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12034,7 +12034,7 @@
   },
   {
     "i": 7829,
-    "name": "Borgarm├Ñlet (dedicated)",
+    "name": "Borgarmålet (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12139,7 +12139,7 @@
   },
   {
     "i": 7879,
-    "name": "Baur├⌐ (dedicated)",
+    "name": "Bauré (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12244,7 +12244,7 @@
   },
   {
     "i": 7934,
-    "name": "BuruΓÇôAngwe (dedicated)",
+    "name": "Buru-Angwe (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12265,7 +12265,7 @@
   },
   {
     "i": 7942,
-    "name": "Mocov├¡ (dedicated)",
+    "name": "Mocoví (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12433,7 +12433,7 @@
   },
   {
     "i": 8064,
-    "name": "Cemuh├« (dedicated)",
+    "name": "Cemuhî (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12615,7 +12615,7 @@
   },
   {
     "i": 8135,
-    "name": "Mop├ín (dedicated)",
+    "name": "Mopán (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -12895,14 +12895,14 @@
   },
   {
     "i": 8340,
-    "name": "Fran├ºais Tirailleur (dedicated)",
+    "name": "Français Tirailleur (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
   },
   {
     "i": 8341,
-    "name": "T├óy Bß╗ôi Pidgin French (dedicated)",
+    "name": "Tây Bồi Pidgin French (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -13490,7 +13490,7 @@
   },
   {
     "i": 8654,
-    "name": "Ter├¬na (dedicated)",
+    "name": "Terêna (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -13938,7 +13938,7 @@
   },
   {
     "i": 9167,
-    "name": "Cook Islands M─üori Pidgin (dedicated)",
+    "name": "Cook Islands Māori Pidgin (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -16983,7 +16983,7 @@
   },
   {
     "i": 14013,
-    "name": "L Ngua Geral Paulista (dedicated)",
+    "name": "Língua Geral Paulista (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null
@@ -17705,6 +17705,314 @@
   {
     "i": 20464,
     "name": "Aghem (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20156,
+    "name": "Avokaya (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20162,
+    "name": "Hozo (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20163,
+    "name": "Tulishi (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20164,
+    "name": "Uduk (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20165,
+    "name": "Chadian Arabic (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20166,
+    "name": "Kujargé (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20169,
+    "name": "Cypriot Maronite Arabic (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20170,
+    "name": "Gadal (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20172,
+    "name": "Nubi (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20212,
+    "name": "Tayo Creole (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 2738,
+    "name": "Awing (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 2743,
+    "name": "Beba (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20000,
+    "name": "Ghanaian Pidgin English (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20001,
+    "name": "Nigerian Pidgin (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20002,
+    "name": "West African Pidgin English (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20003,
+    "name": "Angolar Creole (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20004,
+    "name": "Annobonese Creole (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20005,
+    "name": "Cape Verdean Creole (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20006,
+    "name": "Franglish (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20007,
+    "name": "Solombala-English (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20008,
+    "name": "Greek (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20009,
+    "name": "Cappadocian Greek (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20010,
+    "name": "Slavic (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20011,
+    "name": "Swiss German (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20012,
+    "name": "Scots (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20013,
+    "name": "Slovak (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20014,
+    "name": "Polish (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20015,
+    "name": "Kashubian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20016,
+    "name": "Silesian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20017,
+    "name": "Upper Sorbian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20018,
+    "name": "Bosnian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20019,
+    "name": "Croatian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20020,
+    "name": "Montenegrin (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20021,
+    "name": "Serbian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20022,
+    "name": "Bulgarian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20023,
+    "name": "Macedonian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20024,
+    "name": "Slovene (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20025,
+    "name": "German (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20026,
+    "name": "Dutch (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20027,
+    "name": "Yiddish (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20028,
+    "name": "Frisian (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20029,
+    "name": "Faroese (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20030,
+    "name": "Swiss German (dedicated)",
+    "status": "available",
+    "agent": null,
+    "updated": null
+  },
+  {
+    "i": 20031,
+    "name": "Scots (dedicated)",
     "status": "available",
     "agent": null,
     "updated": null

@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-01-03T12:13:32.221Z",
+  "totalLanguages": 219,
+  "totalPlacenames": 3789,
+  "regionDistribution": {
+    "creole": 219
+  },
+  "migrationStatus": "completed",
+  "compatibilityLayer": "operational"
+}

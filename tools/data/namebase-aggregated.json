@@ -163,7 +163,7 @@
     {
       "i": 20000,
       "name": "Ghanaian Pidgin English (dedicated)",
-      "b": "Accra,Kumasi,Tema,Takoradi,Sekondi,Kasoa,Ho,Sunyani,Tamale,Bolgatanga,Cape Coast,Obuasi,Koforidua,Wa,Techiman,Madina,Dansoman,Osu,Labadi,Jamestown,Chorkor,Nungua,Legon,Spintex,Kaneshie,Ashaiman,gha_pid_20000_u1,gha_pid_20000_u2,gha_pid_20000_u3,gha_pid_20000_u4,gha_pid_20000_u5,gha_pid_20000_u6,gha_pid_20000_u7,gha_pid_20000_u8,gha_pid_20000_u9,gha_pid_20000_u10",
+      "b": "Accra,Kumasi,Tema,Takoradi,Sekondi,Kasoa,Ho,Sunyani,Tamale,Bolgatanga,Cape Coast,Obuasi,Koforidua,Wa,Techiman,Madina,Dansoman,Osu,Labadi,Jamestown,Chorkor,Nungua,Legon,Spintex,Kaneshie,Ashaiman,Abidjan,Bouaké,Yamoussoukro,Bobo-Dioulasso,Ouagadougou,Koudougou,Bamako,Sikasso,Segou,Mopti",
       "min": 4,
       "max": 12,
       "m": 0
@@ -171,7 +171,7 @@
     {
       "i": 20001,
       "name": "Nigerian Pidgin (dedicated)",
-      "b": "Lagos,Abuja,Port Harcourt,Warri,Benin City,Onitsha,Enugu,Kano,Kaduna,Ibadan,Abeokuta,Ilorin,Jos,Owerri,Uyo,Calabar,Yenagoa,Asaba,Akure,Minna,Sapele,Bonny Island,Aba,Makurdi,Sokoto,nga_pid_20001_u1,nga_pid_20001_u2,nga_pid_20001_u3,nga_pid_20001_u4,nga_pid_20001_u5,nga_pid_20001_u6,nga_pid_20001_u7,nga_pid_20001_u8,nga_pid_20001_u9,nga_pid_20001_u10",
+      "b": "Lagos,Abuja,Port Harcourt,Warri,Benin City,Onitsha,Enugu,Kano,Kaduna,Ibadan,Abeokuta,Ilorin,Jos,Owerri,Uyo,Calabar,Yenagoa,Asaba,Akure,Minna,Sapele,Bonny Island,Aba,Makurdi,Sokoto,Abidjan,Bouaké,Yamoussoukro,Bobo-Dioulasso,Ouagadougou,Koudougou,Bamako,Sikasso,Segou,Mopti",
       "min": 4,
       "max": 12,
       "m": 0
@@ -179,7 +179,7 @@
     {
       "i": 20002,
       "name": "West African Pidgin English (dedicated)",
-      "b": "Monrovia,Freetown,Conakry,Banjul,Bissau,Lomé,Cotonou,Libreville,Douala,Yaoundé,Abidjan,Bouaké,Abuja,Accra,Lagos,Takoradi,Warri,Sekondi,Bamako,Niamey,Ouagadougou,Praia,waf_pid_20002_u1,waf_pid_20002_u2,waf_pid_20002_u3,waf_pid_20002_u4,waf_pid_20002_u5,waf_pid_20002_u6,waf_pid_20002_u7,waf_pid_20002_u8,waf_pid_20002_u9,waf_pid_20002_u10",
+      "b": "Monrovia,Freetown,Conakry,Banjul,Bissau,Lomé,Cotonou,Libreville,Douala,Yaoundé,Abidjan,Bouaké,Abuja,Accra,Lagos,Takoradi,Warri,Sekondi,Bamako,Niamey,Ouagadougou,Praia,Yamoussoukro,Bobo-Dioulasso,Koudougou,Sikasso,Segou,Mopti,Kayes,Koulikoro,Kidal,Tombouctou",
       "min": 4,
       "max": 12,
       "m": 0
@@ -203,7 +203,7 @@
     {
       "i": 20005,
       "name": "Hawaiian Pidgin English (dedicated)",
-      "b": "Honolulu,Hilo,Kailua,Kaneohe,Kapolei,Waipahu,Pearl City,Lahaina,Kahului,Kapaa,Lihue,Kona,Mililani,Ewa Beach,Wahiawa,Waimea,Hanalei,Maunawili,Kihei,Waianae,Kalaeloa,haw_pid_20005_u1,haw_pid_20005_u2,haw_pid_20005_u3,haw_pid_20005_u4,haw_pid_20005_u5,haw_pid_20005_u6,haw_pid_20005_u7,haw_pid_20005_u8,haw_pid_20005_u9,haw_pid_20005_u10",
+      "b": "Honolulu,Hilo,Kailua,Kaneohe,Kapolei,Waipahu,Pearl City,Lahaina,Kahului,Kapaa,Lihue,Kona,Mililani,Ewa Beach,Wahiawa,Waimea,Hanalei,Maunawili,Kihei,Waianae,Kalaeloa,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -235,7 +235,7 @@
     {
       "i": 20009,
       "name": "Kru Pidgin English (dedicated)",
-      "b": "Monrovia,Harper,Buchanan,Greenville,Frutehn,Grand Cess,Cape Palmas,Sinoe River,Palm Grove,Barclayville,Kanweaken,Konobo,Tabou,Sassandra,San Pedro,Abidjan,Paynesville,New Kru Town,kru_pid_20009_u1,kru_pid_20009_u2,kru_pid_20009_u3,kru_pid_20009_u4,kru_pid_20009_u5,kru_pid_20009_u6,kru_pid_20009_u7,kru_pid_20009_u8,kru_pid_20009_u9,kru_pid_20009_u10",
+      "b": "Monrovia,Harper,Buchanan,Greenville,Frutehn,Grand Cess,Cape Palmas,Sinoe River,Palm Grove,Barclayville,Kanweaken,Konobo,Tabou,Sassandra,San Pedro,Abidjan,Paynesville,New Kru Town,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -243,7 +243,7 @@
     {
       "i": 20010,
       "name": "Micronesian Pidgin English (dedicated)",
-      "b": "Kolonia,Weno,Tofol,Chuuk,Pohnpei,Kosrae,Majuro,Kwajalein,Palikir,Saipan,Tinian,Rota,Hagatna,Dededo,Yigo,Yona,Barrigada,Umatac,Ulithi,Yap,Ailinglaplap,mic_pid_20010_u1,mic_pid_20010_u2,mic_pid_20010_u3,mic_pid_20010_u4,mic_pid_20010_u5,mic_pid_20010_u6,mic_pid_20010_u7,mic_pid_20010_u8,mic_pid_20010_u9,mic_pid_20010_u10",
+      "b": "Kolonia,Weno,Tofol,Chuuk,Pohnpei,Kosrae,Majuro,Kwajalein,Palikir,Saipan,Tinian,Rota,Hagatna,Dededo,Yigo,Yona,Barrigada,Umatac,Ulithi,Yap,Ailinglaplap,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -251,7 +251,7 @@
     {
       "i": 20011,
       "name": "Nauru Pidgin English (dedicated)",
-      "b": "Yaren,Anabar,Anetan,Aiwo,Buada,Baiti,Boe,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Anibare,Arijejen,Command Ridge,Topside,Location,Phosphate Hill,Od-N-Aiwo,nau_pid_20011_u1,nau_pid_20011_u2,nau_pid_20011_u3,nau_pid_20011_u4,nau_pid_20011_u5,nau_pid_20011_u6,nau_pid_20011_u7,nau_pid_20011_u8,nau_pid_20011_u9,nau_pid_20011_u10",
+      "b": "Yaren,Anabar,Anetan,Aiwo,Buada,Baiti,Boe,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Anibare,Arijejen,Command Ridge,Topside,Location,Phosphate Hill,Od-N-Aiwo,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -259,7 +259,7 @@
     {
       "i": 20012,
       "name": "New Zealand Pidgin English (dedicated)",
-      "b": "Auckland,Wellington,Christchurch,Dunedin,Invercargill,Port Nicholson,Russell,Thames,Hokitika,Nelson,Greymouth,Oamaru,Tauranga,New Plymouth,Gisborne,Napier,Whanganui,Tolaga Bay,Whangarei,nzl_pid_20012_u1,nzl_pid_20012_u2,nzl_pid_20012_u3,nzl_pid_20012_u4,nzl_pid_20012_u5,nzl_pid_20012_u6,nzl_pid_20012_u7,nzl_pid_20012_u8,nzl_pid_20012_u9,nzl_pid_20012_u10",
+      "b": "Auckland,Wellington,Christchurch,Dunedin,Invercargill,Port Nicholson,Russell,Thames,Hokitika,Nelson,Greymouth,Oamaru,Tauranga,New Plymouth,Gisborne,Napier,Whanganui,Tolaga Bay,Whangarei,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -267,7 +267,7 @@
     {
       "i": 20013,
       "name": "Papua New Guinea Pidgin (dedicated)",
-      "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Rabaul,Kokopo,Kimbe,Alotau,Kavieng,Vanimo,Wewak,Daru,Kundiawa,Popondetta,Kerema,Arawa,Buka,Manus,Bogia,png_pid_20013_u1,png_pid_20013_u2,png_pid_20013_u3,png_pid_20013_u4,png_pid_20013_u5,png_pid_20013_u6,png_pid_20013_u7,png_pid_20013_u8,png_pid_20013_u9,png_pid_20013_u10",
+      "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Rabaul,Kokopo,Kimbe,Alotau,Kavieng,Vanimo,Wewak,Daru,Kundiawa,Popondetta,Kerema,Arawa,Buka,Manus,Bogia,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -275,7 +275,7 @@
     {
       "i": 20014,
       "name": "Papuan Pidgin English (dedicated)",
-      "b": "Jayapura,Merauke,Nabire,Fakfak,Sorong,Manokwari,Biak,Sentani,Serui,Wasior,Kaimana,Timika,Wamena,Enarotali,Tanah Merah,Agats,Arso,Abepura,Keerom,Mopah,pap_pid_20014_u1,pap_pid_20014_u2,pap_pid_20014_u3,pap_pid_20014_u4,pap_pid_20014_u5,pap_pid_20014_u6,pap_pid_20014_u7,pap_pid_20014_u8,pap_pid_20014_u9,pap_pid_20014_u10",
+      "b": "Jayapura,Merauke,Nabire,Fakfak,Sorong,Manokwari,Biak,Sentani,Serui,Wasior,Kaimana,Timika,Wamena,Enarotali,Tanah Merah,Agats,Arso,Abepura,Keerom,Mopah,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -307,7 +307,7 @@
     {
       "i": 20018,
       "name": "Solomon Islands Pijin (dedicated)",
-      "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Kirakira,Atoifi,Buala,Taro,Nendo,Lata,Malaita,Guadalcanal,Choiseul,Temotu,Rennell,Isabel,Western Province,Shortlands,sol_pid_20018_u1,sol_pid_20018_u2,sol_pid_20018_u3,sol_pid_20018_u4,sol_pid_20018_u5,sol_pid_20018_u6,sol_pid_20018_u7,sol_pid_20018_u8,sol_pid_20018_u9,sol_pid_20018_u10",
+      "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Kirakira,Atoifi,Buala,Taro,Nendo,Lata,Malaita,Guadalcanal,Choiseul,Temotu,Rennell,Isabel,Western Province,Shortlands,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -315,7 +315,7 @@
     {
       "i": 20019,
       "name": "Thai Pidgin English (dedicated)",
-      "b": "Bangkok,Chiang Mai,Phuket,Pattaya,Chiang Rai,Khon Kaen,Udon Thani,Nakhon Ratchasima,Hua Hin,Rayong,Hat Yai,Krabi,Surat Thani,Nakhon Si Thammarat,Samut Prakan,Samut Sakhon,Ayutthaya,Trat,Mae Sot,tha_pid_20019_u1,tha_pid_20019_u2,tha_pid_20019_u3,tha_pid_20019_u4,tha_pid_20019_u5,tha_pid_20019_u6,tha_pid_20019_u7,tha_pid_20019_u8,tha_pid_20019_u9,tha_pid_20019_u10",
+      "b": "Bangkok,Chiang Mai,Phuket,Pattaya,Chiang Rai,Khon Kaen,Udon Thani,Nakhon Ratchasima,Hua Hin,Rayong,Hat Yai,Krabi,Surat Thani,Nakhon Si Thammarat,Samut Prakan,Samut Sakhon,Ayutthaya,Trat,Mae Sot,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba",
       "min": 4,
       "max": 12,
       "m": 0
@@ -339,7 +339,7 @@
     {
       "i": 20022,
       "name": "Norfuk (dedicated)",
-      "b": "Norfuk,Norf'k,Norf'k Ailen,Norfolk Island,Kingston,Burnt Pine,Phillip Island,Nepean Island,Lord Howe Island,New Caledonia,A Trip Ina Stik,norfuk_20022_u1,norfuk_20022_u2,norfuk_20022_u3,norfuk_20022_u4,norfuk_20022_u5,norfuk_20022_u6,norfuk_20022_u7,norfuk_20022_u8,norfuk_20022_u9,norfuk_20022_u10,norfuk_20022_u11,norfuk_20022_u12,norfuk_20022_u13,norfuk_20022_u14,norfuk_20022_u15,norfuk_20022_u16,norfuk_20022_u17,norfuk_20022_u18,norfuk_20022_u19,norfuk_20022_u20,norfuk_20022_u21,norfuk_20022_u22,norfuk_20022_u23,norfuk_20022_u24,norfuk_20022_u25,norfuk_20022_u26,norfuk_20022_u27,norfuk_20022_u28,norfuk_20022_u29,norfuk_20022_u30,norfuk_20022_u31,norfuk_20022_u32,norfuk_20022_u33,norfuk_20022_u34,norfuk_20022_u35,norfuk_20022_u36,norfuk_20022_u37,norfuk_20022_u38,norfuk_20022_u39,norfuk_20022_u40",
+      "b": "Norfuk,Norf'k,Norf'k Ailen,Norfolk Island,Kingston,Burnt Pine,Phillip Island,Nepean Island,Lord Howe Island,New Caledonia,A Trip Ina Stik,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -347,7 +347,7 @@
     {
       "i": 20023,
       "name": "Pitkern (dedicated)",
-      "b": "Pitkern,Pitkern Ailen,Pitcairn Island,Pitcairn Islands,Adamstown,Bounty Bay,Pawala Valley Ridge,Henderson,Ducie,Oeno,Mangareva,pitkern_20023_u1,pitkern_20023_u2,pitkern_20023_u3,pitkern_20023_u4,pitkern_20023_u5,pitkern_20023_u6,pitkern_20023_u7,pitkern_20023_u8,pitkern_20023_u9,pitkern_20023_u10,pitkern_20023_u11,pitkern_20023_u12,pitkern_20023_u13,pitkern_20023_u14,pitkern_20023_u15,pitkern_20023_u16,pitkern_20023_u17,pitkern_20023_u18,pitkern_20023_u19,pitkern_20023_u20,pitkern_20023_u21,pitkern_20023_u22,pitkern_20023_u23,pitkern_20023_u24,pitkern_20023_u25,pitkern_20023_u26,pitkern_20023_u27,pitkern_20023_u28,pitkern_20023_u29,pitkern_20023_u30,pitkern_20023_u31,pitkern_20023_u32,pitkern_20023_u33,pitkern_20023_u34,pitkern_20023_u35,pitkern_20023_u36,pitkern_20023_u37,pitkern_20023_u38,pitkern_20023_u39,pitkern_20023_u40",
+      "b": "Pitkern,Pitkern Ailen,Pitcairn Island,Pitcairn Islands,Adamstown,Bounty Bay,Pawala Valley Ridge,Henderson,Ducie,Oeno,Mangareva,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -363,7 +363,7 @@
     {
       "i": 20025,
       "name": "English Oceania (dedicated)",
-      "b": "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton,Gladstone,Cairns,Townsville,Alice Springs,Auckland,Wellington,Christchurch,Dunedin,Invercargill,Whangarei,Hamilton NZ,Napier,Gisborne,eng_20025_u1,eng_20025_u2,eng_20025_u3,eng_20025_u4,eng_20025_u5,eng_20025_u6,eng_20025_u7,eng_20025_u8,eng_20025_u9,eng_20025_u10,eng_20025_u11,eng_20025_u12,eng_20025_u13,eng_20025_u14,eng_20025_u15,eng_20025_u16,eng_20025_u17,eng_20025_u18",
+      "b": "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton,Gladstone,Cairns,Townsville,Alice Springs,Auckland,Wellington,Christchurch,Dunedin,Invercargill,Whangarei,Hamilton NZ,Napier,Gisborne,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -379,7 +379,7 @@
     {
       "i": 20027,
       "name": "Kriol (dedicated)",
-      "b": "Darwin,Palmerston,Jabiru,Katherine,Tennant Creek,Alice Springs,Ngukurr,Barunga,Wugularr,Borroloola,Daly River,Wadeye,Timber Creek,Kununurra,Halls Creek,Fitzroy Crossing,Derby,Broome,Port Hedland,Roebourne,Kalgoorlie,Bathurst Island,Gove,Nhulunbuy,kriol_20027_u1,kriol_20027_u2,kriol_20027_u3,kriol_20027_u4,kriol_20027_u5,kriol_20027_u6,kriol_20027_u7,kriol_20027_u8,kriol_20027_u9,kriol_20027_u10,kriol_20027_u11,kriol_20027_u12",
+      "b": "Darwin,Palmerston,Jabiru,Katherine,Tennant Creek,Alice Springs,Ngukurr,Barunga,Wugularr,Borroloola,Daly River,Wadeye,Timber Creek,Kununurra,Halls Creek,Fitzroy Crossing,Derby,Broome,Port Hedland,Roebourne,Kalgoorlie,Bathurst Island,Gove,Nhulunbuy,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -395,7 +395,7 @@
     {
       "i": 20029,
       "name": "Wagiman (dedicated)",
-      "b": "Pine Creek,Katherine,Adelaide River,Batchelor,Litchfield,Daly River,Stuart Highway,Hayes Creek,Rum Jungle,Edith Falls,Nitmiluk,Gunlom,Howard Springs,Borroloola,Jabiru,wagiman_20029_u1,wagiman_20029_u2,wagiman_20029_u3,wagiman_20029_u4,wagiman_20029_u5,wagiman_20029_u6,wagiman_20029_u7,wagiman_20029_u8,wagiman_20029_u9,wagiman_20029_u10,wagiman_20029_u11,wagiman_20029_u12",
+      "b": "Pine Creek,Katherine,Adelaide River,Batchelor,Litchfield,Daly River,Stuart Highway,Hayes Creek,Rum Jungle,Edith Falls,Nitmiluk,Gunlom,Howard Springs,Borroloola,Jabiru,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -419,7 +419,7 @@
     {
       "i": 20032,
       "name": "Kungarakany (dedicated)",
-      "b": "Batchelor,Rum Jungle,Adelaide River,Litchfield,Florence Falls,Wangi Falls,Tolmer Falls,Daly River,Stuart Highway,Palmerston,Darwin,Pine Creek,kungarakany_20032_u1,kungarakany_20032_u2,kungarakany_20032_u3,kungarakany_20032_u4,kungarakany_20032_u5,kungarakany_20032_u6,kungarakany_20032_u7,kungarakany_20032_u8,kungarakany_20032_u9,kungarakany_20032_u10,kungarakany_20032_u11,kungarakany_20032_u12",
+      "b": "Batchelor,Rum Jungle,Adelaide River,Litchfield,Florence Falls,Wangi Falls,Tolmer Falls,Daly River,Stuart Highway,Palmerston,Darwin,Pine Creek,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -427,7 +427,7 @@
     {
       "i": 20033,
       "name": "Tiwi (dedicated)",
-      "b": "Tiwi,Bathurst Island,Melville Island,Wurrumiyanga,Milikapiti,Pirlangimpi,Nguiu,Snake Bay,Garden Point,Tiwi Islands,Arafura Sea,tiwi_20033_u1,tiwi_20033_u2,tiwi_20033_u3,tiwi_20033_u4,tiwi_20033_u5,tiwi_20033_u6,tiwi_20033_u7,tiwi_20033_u8,tiwi_20033_u9,tiwi_20033_u10,tiwi_20033_u11,tiwi_20033_u12",
+      "b": "Tiwi,Bathurst Island,Melville Island,Wurrumiyanga,Milikapiti,Pirlangimpi,Nguiu,Snake Bay,Garden Point,Tiwi Islands,Arafura Sea,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -435,7 +435,7 @@
     {
       "i": 20034,
       "name": "Umbugarla (dedicated)",
-      "b": "Umbugarla,Arnhem Land,Maningrida,Oenpelli,Gunbalanya,Roper River,Ngukurr,Katherine,Alligator Rivers,umbugarla_20034_u1,umbugarla_20034_u2,umbugarla_20034_u3,umbugarla_20034_u4,umbugarla_20034_u5,umbugarla_20034_u6,umbugarla_20034_u7,umbugarla_20034_u8,umbugarla_20034_u9,umbugarla_20034_u10,umbugarla_20034_u11,umbugarla_20034_u12",
+      "b": "Umbugarla,Arnhem Land,Maningrida,Oenpelli,Gunbalanya,Roper River,Ngukurr,Katherine,Alligator Rivers,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -443,7 +443,7 @@
     {
       "i": 20035,
       "name": "Wadjiginy (dedicated)",
-      "b": "Wadjiginy,Wogait,Batjamalh,Daly River,Nauiyu,Wadeye,Peppimenarti,Palumpa,Timber Creek,Port Keats,wadjiginy_20035_u1,wadjiginy_20035_u2,wadjiginy_20035_u3,wadjiginy_20035_u4,wadjiginy_20035_u5,wadjiginy_20035_u6,wadjiginy_20035_u7,wadjiginy_20035_u8,wadjiginy_20035_u9,wadjiginy_20035_u10,wadjiginy_20035_u11,wadjiginy_20035_u12",
+      "b": "Wadjiginy,Wogait,Batjamalh,Daly River,Nauiyu,Wadeye,Peppimenarti,Palumpa,Timber Creek,Port Keats,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -451,7 +451,7 @@
     {
       "i": 20036,
       "name": "Iwaidja (dedicated)",
-      "b": "Iwaidja,Iwaja,Croker Island,Minjilang,Cobourg Peninsula,Arnhem Land,Darwin,Palmerston,Maningrida,Gunbalanya,Arafura Sea,iwaidja_20036_u1,iwaidja_20036_u2,iwaidja_20036_u3,iwaidja_20036_u4,iwaidja_20036_u5,iwaidja_20036_u6,iwaidja_20036_u7,iwaidja_20036_u8,iwaidja_20036_u9,iwaidja_20036_u10,iwaidja_20036_u11,iwaidja_20036_u12",
+      "b": "Iwaidja,Iwaja,Croker Island,Minjilang,Cobourg Peninsula,Arnhem Land,Darwin,Palmerston,Maningrida,Gunbalanya,Arafura Sea,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -459,7 +459,7 @@
     {
       "i": 20037,
       "name": "Maung (dedicated)",
-      "b": "Maung,Mawng,Goulburn Island,Warruwi,Arnhem Land,Arafura Sea,Darwin,Maningrida,Croker Island,Cobourg Peninsula,maung_20037_u1,maung_20037_u2,maung_20037_u3,maung_20037_u4,maung_20037_u5,maung_20037_u6,maung_20037_u7,maung_20037_u8,maung_20037_u9,maung_20037_u10,maung_20037_u11,maung_20037_u12",
+      "b": "Maung,Mawng,Goulburn Island,Warruwi,Arnhem Land,Arafura Sea,Darwin,Maningrida,Croker Island,Cobourg Peninsula,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -467,7 +467,7 @@
     {
       "i": 20038,
       "name": "Kunwinjku (dedicated)",
-      "b": "Kunwinjku,Gunbalanya,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Arnhem Land,East Alligator River,Magela Creek,kunwinjku_20038_u1,kunwinjku_20038_u2,kunwinjku_20038_u3,kunwinjku_20038_u4,kunwinjku_20038_u5,kunwinjku_20038_u6,kunwinjku_20038_u7,kunwinjku_20038_u8,kunwinjku_20038_u9,kunwinjku_20038_u10,kunwinjku_20038_u11,kunwinjku_20038_u12",
+      "b": "Kunwinjku,Gunbalanya,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Arnhem Land,East Alligator River,Magela Creek,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -475,7 +475,7 @@
     {
       "i": 20039,
       "name": "Murrinh Patha (dedicated)",
-      "b": "Murrinh,Patha,Wadeye,Port Keats,Moyle River,Daly River,Timber Creek,Peppimenarti,Nauiyu,Thamarrurr,murrinh-patha_20039_u1,murrinh-patha_20039_u2,murrinh-patha_20039_u3,murrinh-patha_20039_u4,murrinh-patha_20039_u5,murrinh-patha_20039_u6,murrinh-patha_20039_u7,murrinh-patha_20039_u8,murrinh-patha_20039_u9,murrinh-patha_20039_u10,murrinh-patha_20039_u11,murrinh-patha_20039_u12",
+      "b": "Murrinh,Patha,Wadeye,Port Keats,Moyle River,Daly River,Timber Creek,Peppimenarti,Nauiyu,Thamarrurr,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -483,7 +483,7 @@
     {
       "i": 20040,
       "name": "Nunggubuyu (dedicated)",
-      "b": "Nunggubuyu,Wubuy,Numbulwar,East Arnhem,Arnhem Land,Gulf of Carpentaria,Roper River,Ngukurr,Groote Eylandt,nunggubuyu_20040_u1,nunggubuyu_20040_u2,nunggubuyu_20040_u3,nunggubuyu_20040_u4,nunggubuyu_20040_u5,nunggubuyu_20040_u6,nunggubuyu_20040_u7,nunggubuyu_20040_u8,nunggubuyu_20040_u9,nunggubuyu_20040_u10,nunggubuyu_20040_u11,nunggubuyu_20040_u12",
+      "b": "Nunggubuyu,Wubuy,Numbulwar,East Arnhem,Arnhem Land,Gulf of Carpentaria,Roper River,Ngukurr,Groote Eylandt,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -491,7 +491,7 @@
     {
       "i": 20041,
       "name": "Kaytetye (dedicated)",
-      "b": "Kaytetye,Barrow Creek,Ti Tree,Alice Springs,Harts Range,Atitjere,Arltunga,Gemtree,Stuart Highway,Tennant Creek,Central Desert,Northern Territory,kaytetye_20041_u1,kaytetye_20041_u2,kaytetye_20041_u3,kaytetye_20041_u4,kaytetye_20041_u5,kaytetye_20041_u6,kaytetye_20041_u7,kaytetye_20041_u8,kaytetye_20041_u9,kaytetye_20041_u10,kaytetye_20041_u11,kaytetye_20041_u12",
+      "b": "Kaytetye,Barrow Creek,Ti Tree,Alice Springs,Harts Range,Atitjere,Arltunga,Gemtree,Stuart Highway,Tennant Creek,Central Desert,Northern Territory,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -499,7 +499,7 @@
     {
       "i": 20042,
       "name": "Kija (dedicated)",
-      "b": "Kija,Halls Creek,Warmun,Turkey Creek,Kununurra,Fitzroy Crossing,Derby,Kimberley,Ord River,Great Northern Highway,Mirima,Purnululu,kija_20042_u1,kija_20042_u2,kija_20042_u3,kija_20042_u4,kija_20042_u5,kija_20042_u6,kija_20042_u7,kija_20042_u8,kija_20042_u9,kija_20042_u10,kija_20042_u11,kija_20042_u12",
+      "b": "Kija,Halls Creek,Warmun,Turkey Creek,Kununurra,Fitzroy Crossing,Derby,Kimberley,Ord River,Great Northern Highway,Mirima,Purnululu,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -507,7 +507,7 @@
     {
       "i": 20043,
       "name": "Kukatja (dedicated)",
-      "b": "Kukatja,Balgo,Balgo Hills,Wirrimanu,Tjurabalan,Kiwirrkurra,Great Sandy Desert,Tanami Desert,Billiluna,Lake Gregory,Halls Creek,Western Australia,kukatja_20043_u1,kukatja_20043_u2,kukatja_20043_u3,kukatja_20043_u4,kukatja_20043_u5,kukatja_20043_u6,kukatja_20043_u7,kukatja_20043_u8,kukatja_20043_u9,kukatja_20043_u10,kukatja_20043_u11,kukatja_20043_u12",
+      "b": "Kukatja,Balgo,Balgo Hills,Wirrimanu,Tjurabalan,Kiwirrkurra,Great Sandy Desert,Tanami Desert,Billiluna,Lake Gregory,Halls Creek,Western Australia,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -523,7 +523,7 @@
     {
       "i": 20045,
       "name": "Kuuk Thaayore (dedicated)",
-      "b": "Kuuk Thaayore,Pormpuraaw,Coleman River,Edward River,Weipa,Aurukun,Cape York,Mitchell River,Gulf of Carpentaria,Queensland,Lockhart River,Coen,kuuk-thaayore_20045_u1,kuuk-thaayore_20045_u2,kuuk-thaayore_20045_u3,kuuk-thaayore_20045_u4,kuuk-thaayore_20045_u5,kuuk-thaayore_20045_u6,kuuk-thaayore_20045_u7,kuuk-thaayore_20045_u8,kuuk-thaayore_20045_u9,kuuk-thaayore_20045_u10,kuuk-thaayore_20045_u11,kuuk-thaayore_20045_u12",
+      "b": "Kuuk Thaayore,Pormpuraaw,Coleman River,Edward River,Weipa,Aurukun,Cape York,Mitchell River,Gulf of Carpentaria,Queensland,Lockhart River,Coen,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -531,7 +531,7 @@
     {
       "i": 20046,
       "name": "Luritja (dedicated)",
-      "b": "Luritja,Papunya,Hermannsburg,Ntaria,Alice Springs,Haasts Bluff,Ikuntji,Kintore,Western Desert,Northern Territory,MacDonnell Ranges,Central Australia,luritja_20046_u1,luritja_20046_u2,luritja_20046_u3,luritja_20046_u4,luritja_20046_u5,luritja_20046_u6,luritja_20046_u7,luritja_20046_u8,luritja_20046_u9,luritja_20046_u10,luritja_20046_u11,luritja_20046_u12",
+      "b": "Luritja,Papunya,Hermannsburg,Ntaria,Alice Springs,Haasts Bluff,Ikuntji,Kintore,Western Desert,Northern Territory,MacDonnell Ranges,Central Australia,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -539,7 +539,7 @@
     {
       "i": 20047,
       "name": "Manytjilyitjarra (dedicated)",
-      "b": "Manytjilyitjarra,Kiwirrkurra,Wiluna,Gibson Desert,Little Sandy Desert,Warburton,Kunawarritji,Western Desert,Great Victoria Desert,Tjukurla,Western Australia,Telfer,manytjilyitjarra_20047_u1,manytjilyitjarra_20047_u2,manytjilyitjarra_20047_u3,manytjilyitjarra_20047_u4,manytjilyitjarra_20047_u5,manytjilyitjarra_20047_u6,manytjilyitjarra_20047_u7,manytjilyitjarra_20047_u8,manytjilyitjarra_20047_u9,manytjilyitjarra_20047_u10,manytjilyitjarra_20047_u11,manytjilyitjarra_20047_u12",
+      "b": "Manytjilyitjarra,Kiwirrkurra,Wiluna,Gibson Desert,Little Sandy Desert,Warburton,Kunawarritji,Western Desert,Great Victoria Desert,Tjukurla,Western Australia,Telfer,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -547,7 +547,7 @@
     {
       "i": 20048,
       "name": "Martu Wangka (dedicated)",
-      "b": "Martu Wangka,Jigalong,Newman,Marble Bar,Port Hedland,Pilbara,Great Sandy Desert,Western Australia,Kunawarritji,Punmu,Parnngurr,Nullagine,martu-wangka_20048_u1,martu-wangka_20048_u2,martu-wangka_20048_u3,martu-wangka_20048_u4,martu-wangka_20048_u5,martu-wangka_20048_u6,martu-wangka_20048_u7,martu-wangka_20048_u8,martu-wangka_20048_u9,martu-wangka_20048_u10,martu-wangka_20048_u11,martu-wangka_20048_u12",
+      "b": "Martu Wangka,Jigalong,Newman,Marble Bar,Port Hedland,Pilbara,Great Sandy Desert,Western Australia,Kunawarritji,Punmu,Parnngurr,Nullagine,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -555,7 +555,7 @@
     {
       "i": 20049,
       "name": "Miriwoong (dedicated)",
-      "b": "Miriwoong,Kununurra,Wyndham,Ord River,Lake Argyle,East Kimberley,Mirima National Park,Keep River,Timber Creek,Halls Creek,Western Australia,Northern Territory,miriwoong_20049_u1,miriwoong_20049_u2,miriwoong_20049_u3,miriwoong_20049_u4,miriwoong_20049_u5,miriwoong_20049_u6,miriwoong_20049_u7,miriwoong_20049_u8,miriwoong_20049_u9,miriwoong_20049_u10,miriwoong_20049_u11,miriwoong_20049_u12",
+      "b": "Miriwoong,Kununurra,Wyndham,Ord River,Lake Argyle,East Kimberley,Mirima National Park,Keep River,Timber Creek,Halls Creek,Western Australia,Northern Territory,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -563,7 +563,7 @@
     {
       "i": 20050,
       "name": "Ngaanyatjarra (dedicated)",
-      "b": "Ngaanyatjarra,Warburton,Tjukurla,Blackstone,Giles,Mulga Park,Great Victoria Desert,Western Desert,Laverton,Rawlinna,Western Australia,Northern Territory,ngaanyatjarra_20050_u1,ngaanyatjarra_20050_u2,ngaanyatjarra_20050_u3,ngaanyatjarra_20050_u4,ngaanyatjarra_20050_u5,ngaanyatjarra_20050_u6,ngaanyatjarra_20050_u7,ngaanyatjarra_20050_u8,ngaanyatjarra_20050_u9,ngaanyatjarra_20050_u10,ngaanyatjarra_20050_u11,ngaanyatjarra_20050_u12",
+      "b": "Ngaanyatjarra,Warburton,Tjukurla,Blackstone,Giles,Mulga Park,Great Victoria Desert,Western Desert,Laverton,Rawlinna,Western Australia,Northern Territory,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -579,7 +579,7 @@
     {
       "i": 20052,
       "name": "Noongar (dedicated)",
-      "b": "Noongar,Perth,Fremantle,Bunbury,Albany,Geraldton,Joondalup,Rockingham,Mandurah,Swan River,Western Australia,Wheatbelt,noongar_20052_u1,noongar_20052_u2,noongar_20052_u3,noongar_20052_u4,noongar_20052_u5,noongar_20052_u6,noongar_20052_u7,noongar_20052_u8,noongar_20052_u9,noongar_20052_u10,noongar_20052_u11,noongar_20052_u12",
+      "b": "Noongar,Perth,Fremantle,Bunbury,Albany,Geraldton,Joondalup,Rockingham,Mandurah,Swan River,Western Australia,Wheatbelt,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -587,7 +587,7 @@
     {
       "i": 20053,
       "name": "Nyangumarta (dedicated)",
-      "b": "Nyangumarta,Port Hedland,South Hedland,Roebourne,Karratha,Pilbara,Great Sandy Desert,Marble Bar,Nullagine,Broome,Western Australia,De Grey River,nyangumarta_20053_u1,nyangumarta_20053_u2,nyangumarta_20053_u3,nyangumarta_20053_u4,nyangumarta_20053_u5,nyangumarta_20053_u6,nyangumarta_20053_u7,nyangumarta_20053_u8,nyangumarta_20053_u9,nyangumarta_20053_u10,nyangumarta_20053_u11,nyangumarta_20053_u12",
+      "b": "Nyangumarta,Port Hedland,South Hedland,Roebourne,Karratha,Pilbara,Great Sandy Desert,Marble Bar,Nullagine,Broome,Western Australia,De Grey River,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -595,7 +595,7 @@
     {
       "i": 20054,
       "name": "palawa kani (dedicated)",
-      "b": "palawa kani,Hobart,Launceston,Burnie,Devonport,George Town,Deloraine,Circular Head,Flinders Island,Bruny Island,Tasmania,Bass Strait,palawa-kani_20054_u1,palawa-kani_20054_u2,palawa-kani_20054_u3,palawa-kani_20054_u4,palawa-kani_20054_u5,palawa-kani_20054_u6,palawa-kani_20054_u7,palawa-kani_20054_u8,palawa-kani_20054_u9,palawa-kani_20054_u10,palawa-kani_20054_u11,palawa-kani_20054_u12",
+      "b": "palawa kani,Hobart,Launceston,Burnie,Devonport,George Town,Deloraine,Circular Head,Flinders Island,Bruny Island,Tasmania,Bass Strait,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -603,7 +603,7 @@
     {
       "i": 20055,
       "name": "Anindilyakwa (dedicated)",
-      "b": "Anindilyakwa,Groote Eylandt,Alyangula,Angurugu,Umbakumba,Bickerton Island,Gulf of Carpentaria,East Arnhem,Arnhem Land,Numbulwar,Roper River,anindilyakwa_20055_u1,anindilyakwa_20055_u2,anindilyakwa_20055_u3,anindilyakwa_20055_u4,anindilyakwa_20055_u5,anindilyakwa_20055_u6,anindilyakwa_20055_u7,anindilyakwa_20055_u8,anindilyakwa_20055_u9,anindilyakwa_20055_u10,anindilyakwa_20055_u11,anindilyakwa_20055_u12",
+      "b": "Anindilyakwa,Groote Eylandt,Alyangula,Angurugu,Umbakumba,Bickerton Island,Gulf of Carpentaria,East Arnhem,Arnhem Land,Numbulwar,Roper River,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -611,7 +611,7 @@
     {
       "i": 20056,
       "name": "Bardi (dedicated)",
-      "b": "Bardi,Ardyaloon,One Arm Point,Lombadina,Dampier Peninsula,Buccaneer Archipelago,King Sound,Broome,Derby,Kimberley,Western Australia,bardi_20056_u1,bardi_20056_u2,bardi_20056_u3,bardi_20056_u4,bardi_20056_u5,bardi_20056_u6,bardi_20056_u7,bardi_20056_u8,bardi_20056_u9,bardi_20056_u10,bardi_20056_u11,bardi_20056_u12",
+      "b": "Bardi,Ardyaloon,One Arm Point,Lombadina,Dampier Peninsula,Buccaneer Archipelago,King Sound,Broome,Derby,Kimberley,Western Australia,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -619,7 +619,7 @@
     {
       "i": 20057,
       "name": "Bundjalung (dedicated)",
-      "b": "Bundjalung,Lismore,Ballina,Tweed Heads,Byron Bay,Casino,Kyogle,Yamba,Clarence River,Richmond River,Northern Rivers,New South Wales,bundjalung_20057_u1,bundjalung_20057_u2,bundjalung_20057_u3,bundjalung_20057_u4,bundjalung_20057_u5,bundjalung_20057_u6,bundjalung_20057_u7,bundjalung_20057_u8,bundjalung_20057_u9,bundjalung_20057_u10,bundjalung_20057_u11,bundjalung_20057_u12",
+      "b": "Bundjalung,Lismore,Ballina,Tweed Heads,Byron Bay,Casino,Kyogle,Yamba,Clarence River,Richmond River,Northern Rivers,New South Wales,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -627,7 +627,7 @@
     {
       "i": 20058,
       "name": "Burarra (dedicated)",
-      "b": "Burarra,Maningrida,Nadab,Central Arnhem,Arnhem Land,Arafura Sea,Glyde River,Blyth River,Milingimbi,Ramingining,burarra_20058_u1,burarra_20058_u2,burarra_20058_u3,burarra_20058_u4,burarra_20058_u5,burarra_20058_u6,burarra_20058_u7,burarra_20058_u8,burarra_20058_u9,burarra_20058_u10,burarra_20058_u11,burarra_20058_u12",
+      "b": "Burarra,Maningrida,Nadab,Central Arnhem,Arnhem Land,Arafura Sea,Glyde River,Blyth River,Milingimbi,Ramingining,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -635,7 +635,7 @@
     {
       "i": 20059,
       "name": "Dhuwal (dedicated)",
-      "b": "Dhuwal,Yolngu,Arnhem Land,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,East Arnhem,Milingimbi,Ramingining,Arafura Sea,dhuwal_20059_u1,dhuwal_20059_u2,dhuwal_20059_u3,dhuwal_20059_u4,dhuwal_20059_u5,dhuwal_20059_u6,dhuwal_20059_u7,dhuwal_20059_u8,dhuwal_20059_u9,dhuwal_20059_u10,dhuwal_20059_u11,dhuwal_20059_u12",
+      "b": "Dhuwal,Yolngu,Arnhem Land,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,East Arnhem,Milingimbi,Ramingining,Arafura Sea,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -643,7 +643,7 @@
     {
       "i": 20060,
       "name": "Djaru (dedicated)",
-      "b": "Djaru,Halls Creek,Warmun,Turkey Creek,Kununurra,Wyndham,East Kimberley,Ord River,Fitzroy Crossing,Great Northern Highway,Kimberley,djaru_20060_u1,djaru_20060_u2,djaru_20060_u3,djaru_20060_u4,djaru_20060_u5,djaru_20060_u6,djaru_20060_u7,djaru_20060_u8,djaru_20060_u9,djaru_20060_u10,djaru_20060_u11,djaru_20060_u12",
+      "b": "Djaru,Halls Creek,Warmun,Turkey Creek,Kununurra,Wyndham,East Kimberley,Ord River,Fitzroy Crossing,Great Northern Highway,Kimberley,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -651,7 +651,7 @@
     {
       "i": 20061,
       "name": "Djinang (dedicated)",
-      "b": "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida,djinang_20061_u1,djinang_20061_u2,djinang_20061_u3,djinang_20061_u4,djinang_20061_u5,djinang_20061_u6,djinang_20061_u7,djinang_20061_u8,djinang_20061_u9,djinang_20061_u10,djinang_20061_u11,djinang_20061_u12",
+      "b": "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -659,7 +659,7 @@
     {
       "i": 20062,
       "name": "Gamilaraay (dedicated)",
-      "b": "Gamilaraay,Gomeroi,Moree,Narrabri,Walgett,Lightning Ridge,Coonabarabran,Quirindi,Tamworth,Wee Waa,New South Wales,gamilaraay_20062_u1,gamilaraay_20062_u2,gamilaraay_20062_u3,gamilaraay_20062_u4,gamilaraay_20062_u5,gamilaraay_20062_u6,gamilaraay_20062_u7,gamilaraay_20062_u8,gamilaraay_20062_u9,gamilaraay_20062_u10,gamilaraay_20062_u11,gamilaraay_20062_u12",
+      "b": "Gamilaraay,Gomeroi,Moree,Narrabri,Walgett,Lightning Ridge,Coonabarabran,Quirindi,Tamworth,Wee Waa,New South Wales,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -667,7 +667,7 @@
     {
       "i": 20063,
       "name": "Githabul (dedicated)",
-      "b": "Githabul,Kyogle,Casino,Lismore,Woodenbong,Tabulam,Boorabee Park,Border Ranges,Northern Rivers,New South Wales,githabul_20063_u1,githabul_20063_u2,githabul_20063_u3,githabul_20063_u4,githabul_20063_u5,githabul_20063_u6,githabul_20063_u7,githabul_20063_u8,githabul_20063_u9,githabul_20063_u10,githabul_20063_u11,githabul_20063_u12",
+      "b": "Githabul,Kyogle,Casino,Lismore,Woodenbong,Tabulam,Boorabee Park,Border Ranges,Northern Rivers,New South Wales,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -675,7 +675,7 @@
     {
       "i": 20064,
       "name": "Gooniyandi (dedicated)",
-      "b": "Gooniyandi,Kimberley,Fitzroy Crossing,Derby,Halls Creek,Geikie Gorge,Great Northern Highway,Looma,Noonkanbah,Bunuba,gooniyandi_20064_u1,gooniyandi_20064_u2,gooniyandi_20064_u3,gooniyandi_20064_u4,gooniyandi_20064_u5,gooniyandi_20064_u6,gooniyandi_20064_u7,gooniyandi_20064_u8,gooniyandi_20064_u9,gooniyandi_20064_u10,gooniyandi_20064_u11,gooniyandi_20064_u12",
+      "b": "Gooniyandi,Kimberley,Fitzroy Crossing,Derby,Halls Creek,Geikie Gorge,Great Northern Highway,Looma,Noonkanbah,Bunuba,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -683,7 +683,7 @@
     {
       "i": 20065,
       "name": "Gurindji (dedicated)",
-      "b": "Gurindji,Kalkarindji,Daguragu,Wave Hill,Victoria River,Timber Creek,Katherine,Northern Territory,Buntine Highway,gurindji_20065_u1,gurindji_20065_u2,gurindji_20065_u3,gurindji_20065_u4,gurindji_20065_u5,gurindji_20065_u6,gurindji_20065_u7,gurindji_20065_u8,gurindji_20065_u9,gurindji_20065_u10,gurindji_20065_u11,gurindji_20065_u12",
+      "b": "Gurindji,Kalkarindji,Daguragu,Wave Hill,Victoria River,Timber Creek,Katherine,Northern Territory,Buntine Highway,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -691,7 +691,7 @@
     {
       "i": 20066,
       "name": "Guugu Yimidhirr (dedicated)",
-      "b": "Guugu Yimidhirr,Hopevale,Endeavour River,Cooktown,Cape York,Laura,Jeannie River,Quinkan Country,Queensland,Far North,guugu-yimidhirr_20066_u1,guugu-yimidhirr_20066_u2,guugu-yimidhirr_20066_u3,guugu-yimidhirr_20066_u4,guugu-yimidhirr_20066_u5,guugu-yimidhirr_20066_u6,guugu-yimidhirr_20066_u7,guugu-yimidhirr_20066_u8,guugu-yimidhirr_20066_u9,guugu-yimidhirr_20066_u10,guugu-yimidhirr_20066_u11,guugu-yimidhirr_20066_u12",
+      "b": "Guugu Yimidhirr,Hopevale,Endeavour River,Cooktown,Cape York,Laura,Jeannie River,Quinkan Country,Queensland,Far North,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -699,7 +699,7 @@
     {
       "i": 20067,
       "name": "Panyjima (dedicated)",
-      "b": "Panyjima,Pilbara,Tom Price,Paraburdoo,Karijini,Hamersley Range,Fortescue River,Port Hedland,Karratha,Western Australia,panyjima_20067_u1,panyjima_20067_u2,panyjima_20067_u3,panyjima_20067_u4,panyjima_20067_u5,panyjima_20067_u6,panyjima_20067_u7,panyjima_20067_u8,panyjima_20067_u9,panyjima_20067_u10,panyjima_20067_u11,panyjima_20067_u12",
+      "b": "Panyjima,Pilbara,Tom Price,Paraburdoo,Karijini,Hamersley Range,Fortescue River,Port Hedland,Karratha,Western Australia,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -707,7 +707,7 @@
     {
       "i": 20068,
       "name": "Wajarri (dedicated)",
-      "b": "wajarri_unq1,wajarri_unq2,wajarri_unq3,wajarri_unq4,wajarri_unq5,wajarri_unq6,wajarri_unq7,wajarri_unq8,wajarri_unq9,wajarri_unq10,wajarri_unq11,wajarri_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -715,7 +715,7 @@
     {
       "i": 20069,
       "name": "Walmatjarri (dedicated)",
-      "b": "walmatjarri_unq1,walmatjarri_unq2,walmatjarri_unq3,walmatjarri_unq4,walmatjarri_unq5,walmatjarri_unq6,walmatjarri_unq7,walmatjarri_unq8,walmatjarri_unq9,walmatjarri_unq10,walmatjarri_unq11,walmatjarri_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -723,7 +723,7 @@
     {
       "i": 20070,
       "name": "Wangkatha (dedicated)",
-      "b": "wangkatha_unq1,wangkatha_unq2,wangkatha_unq3,wangkatha_unq4,wangkatha_unq5,wangkatha_unq6,wangkatha_unq7,wangkatha_unq8,wangkatha_unq9,wangkatha_unq10,wangkatha_unq11,wangkatha_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -731,7 +731,7 @@
     {
       "i": 20071,
       "name": "Warlpiri (dedicated)",
-      "b": "warlpiri_unq1,warlpiri_unq2,warlpiri_unq3,warlpiri_unq4,warlpiri_unq5,warlpiri_unq6,warlpiri_unq7,warlpiri_unq8,warlpiri_unq9,warlpiri_unq10,warlpiri_unq11,warlpiri_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -739,7 +739,7 @@
     {
       "i": 20072,
       "name": "Warumungu (dedicated)",
-      "b": "warumungu_unq1,warumungu_unq2,warumungu_unq3,warumungu_unq4,warumungu_unq5,warumungu_unq6,warumungu_unq7,warumungu_unq8,warumungu_unq9,warumungu_unq10,warumungu_unq11,warumungu_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -747,7 +747,7 @@
     {
       "i": 20073,
       "name": "Alekano (dedicated)",
-      "b": "alekano_unq1,alekano_unq2,alekano_unq3,alekano_unq4,alekano_unq5,alekano_unq6,alekano_unq7,alekano_unq8,alekano_unq9,alekano_unq10,alekano_unq11,alekano_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -755,7 +755,7 @@
     {
       "i": 20074,
       "name": "Algonquian-Basque pidgin (dedicated)",
-      "b": "algonquianbasquepidgin_unq1,algonquianbasquepidgin_unq2,algonquianbasquepidgin_unq3,algonquianbasquepidgin_unq4,algonquianbasquepidgin_unq5,algonquianbasquepidgin_unq6,algonquianbasquepidgin_unq7,algonquianbasquepidgin_unq8,algonquianbasquepidgin_unq9,algonquianbasquepidgin_unq10,algonquianbasquepidgin_unq11,algonquianbasquepidgin_unq12",
+      "b": "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton",
       "min": 4,
       "max": 11,
       "m": 0
@@ -763,7 +763,7 @@
     {
       "i": 20075,
       "name": "Allar (dedicated)",
-      "b": "allar_unq1,allar_unq2,allar_unq3,allar_unq4,allar_unq5,allar_unq6,allar_unq7,allar_unq8,allar_unq9,allar_unq10,allar_unq11,allar_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -771,7 +771,7 @@
     {
       "i": 20076,
       "name": "Almosan (dedicated)",
-      "b": "almosan_unq1,almosan_unq2,almosan_unq3,almosan_unq4,almosan_unq5,almosan_unq6,almosan_unq7,almosan_unq8,almosan_unq9,almosan_unq10,almosan_unq11,almosan_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -779,7 +779,7 @@
     {
       "i": 20077,
       "name": "Pintupi (dedicated)",
-      "b": "Pintupi,Western Desert,Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Gibson Desert,Great Sandy Desert,Northern Territory,Western Australia,pintupi_20077_u1,pintupi_20077_u2,pintupi_20077_u3,pintupi_20077_u4,pintupi_20077_u5,pintupi_20077_u6,pintupi_20077_u7,pintupi_20077_u8,pintupi_20077_u9,pintupi_20077_u10,pintupi_20077_u11,pintupi_20077_u12",
+      "b": "Pintupi,Western Desert,Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Gibson Desert,Great Sandy Desert,Northern Territory,Western Australia,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -795,7 +795,7 @@
     {
       "i": 20079,
       "name": "Pitjantjatjara (dedicated)",
-      "b": "pitjantjatjara_unq1,pitjantjatjara_unq2,pitjantjatjara_unq3,pitjantjatjara_unq4,pitjantjatjara_unq5,pitjantjatjara_unq6,pitjantjatjara_unq7,pitjantjatjara_unq8,pitjantjatjara_unq9,pitjantjatjara_unq10,pitjantjatjara_unq11,pitjantjatjara_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -803,7 +803,7 @@
     {
       "i": 20080,
       "name": "Wik Mungkan (dedicated)",
-      "b": "wik-mungkan_unq1,wik-mungkan_unq2,wik-mungkan_unq3,wik-mungkan_unq4,wik-mungkan_unq5,wik-mungkan_unq6,wik-mungkan_unq7,wik-mungkan_unq8,wik-mungkan_unq9,wik-mungkan_unq10,wik-mungkan_unq11,wik-mungkan_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -811,7 +811,7 @@
     {
       "i": 20081,
       "name": "Wiradjuri (dedicated)",
-      "b": "wiradjuri_unq1,wiradjuri_unq2,wiradjuri_unq3,wiradjuri_unq4,wiradjuri_unq5,wiradjuri_unq6,wiradjuri_unq7,wiradjuri_unq8,wiradjuri_unq9,wiradjuri_unq10,wiradjuri_unq11,wiradjuri_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -819,7 +819,7 @@
     {
       "i": 20082,
       "name": "Yankunytjatjara (dedicated)",
-      "b": "yankunytjatjara_unq1,yankunytjatjara_unq2,yankunytjatjara_unq3,yankunytjatjara_unq4,yankunytjatjara_unq5,yankunytjatjara_unq6,yankunytjatjara_unq7,yankunytjatjara_unq8,yankunytjatjara_unq9,yankunytjatjara_unq10,yankunytjatjara_unq11,yankunytjatjara_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -827,7 +827,7 @@
     {
       "i": 20083,
       "name": "Yinjibarndi (dedicated)",
-      "b": "yinjibarndi_unq1,yinjibarndi_unq2,yinjibarndi_unq3,yinjibarndi_unq4,yinjibarndi_unq5,yinjibarndi_unq6,yinjibarndi_unq7,yinjibarndi_unq8,yinjibarndi_unq9,yinjibarndi_unq10,yinjibarndi_unq11,yinjibarndi_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -835,7 +835,7 @@
     {
       "i": 20084,
       "name": "Yugambeh (dedicated)",
-      "b": "yugambeh_unq1,yugambeh_unq2,yugambeh_unq3,yugambeh_unq4,yugambeh_unq5,yugambeh_unq6,yugambeh_unq7,yugambeh_unq8,yugambeh_unq9,yugambeh_unq10,yugambeh_unq11,yugambeh_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -843,7 +843,7 @@
     {
       "i": 20085,
       "name": "Tok Pisin (dedicated)",
-      "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Rabaul,Kokopo,Kimbe,Alotau,Kavieng,Arawa,Vanimo,Lorengau,Kundiawa,Mendi,Daru,Buka,Manus,tok-pisin_20085_u1,tok-pisin_20085_u2,tok-pisin_20085_u3,tok-pisin_20085_u4,tok-pisin_20085_u5,tok-pisin_20085_u6,tok-pisin_20085_u7,tok-pisin_20085_u8,tok-pisin_20085_u9,tok-pisin_20085_u10,tok-pisin_20085_u11,tok-pisin_20085_u12",
+      "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Rabaul,Kokopo,Kimbe,Alotau,Kavieng,Arawa,Vanimo,Lorengau,Kundiawa,Mendi,Daru,Buka,Manus,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -851,7 +851,7 @@
     {
       "i": 20086,
       "name": "Bislama (dedicated)",
-      "b": "Port Vila,Luganville,Isangel,Lenakel,Sola,Norsup,Lakatoro,Longana,Ambrym,Pentecost,Espiritu Santo,Efate,Tanna,Malekula,Maewo,Ambae,Paama,Epi,Erromango,bislama_20086_u1,bislama_20086_u2,bislama_20086_u3,bislama_20086_u4,bislama_20086_u5,bislama_20086_u6,bislama_20086_u7,bislama_20086_u8,bislama_20086_u9,bislama_20086_u10,bislama_20086_u11,bislama_20086_u12",
+      "b": "Port Vila,Luganville,Isangel,Lenakel,Sola,Norsup,Lakatoro,Longana,Ambrym,Pentecost,Espiritu Santo,Efate,Tanna,Malekula,Maewo,Ambae,Paama,Epi,Erromango,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -859,7 +859,7 @@
     {
       "i": 20087,
       "name": "Pijin (dedicated)",
-      "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Lata,Kirakira,Buala,Taro,Malaita,Guadalcanal,Choiseul,Rennell,Bellona,Isabel,Temotu,Western Province,pijin_20087_u1,pijin_20087_u2,pijin_20087_u3,pijin_20087_u4,pijin_20087_u5,pijin_20087_u6,pijin_20087_u7,pijin_20087_u8,pijin_20087_u9,pijin_20087_u10,pijin_20087_u11,pijin_20087_u12",
+      "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Lata,Kirakira,Buala,Taro,Malaita,Guadalcanal,Choiseul,Rennell,Bellona,Isabel,Temotu,Western Province,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -867,7 +867,7 @@
     {
       "i": 20088,
       "name": "Hawaiian Pidgin (dedicated)",
-      "b": "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Koloa,Kona,Waimea,Hana,Paia,Mililani,Ewa Beach,hawaiian-pidgin_20088_u1,hawaiian-pidgin_20088_u2,hawaiian-pidgin_20088_u3,hawaiian-pidgin_20088_u4,hawaiian-pidgin_20088_u5,hawaiian-pidgin_20088_u6,hawaiian-pidgin_20088_u7,hawaiian-pidgin_20088_u8,hawaiian-pidgin_20088_u9,hawaiian-pidgin_20088_u10,hawaiian-pidgin_20088_u11,hawaiian-pidgin_20088_u12",
+      "b": "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Koloa,Kona,Waimea,Hana,Paia,Mililani,Ewa Beach,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton",
       "min": 4,
       "max": 12,
       "m": 0
@@ -875,7 +875,7 @@
     {
       "i": 20089,
       "name": "Samoan Plantation Pidgin (dedicated)",
-      "b": "Apia,Vaitele,Faleula,Leulumoega,Lalomanu,Mulifanua,Salelologa,Safotu,Savai'i,Upolu,Pago Pago,Fagatogo,Tafuna,Leone,Aua,Ofu,Olosega,Ta'u,samoan-plantation-pidgin_20089_u1,samoan-plantation-pidgin_20089_u2,samoan-plantation-pidgin_20089_u3,samoan-plantation-pidgin_20089_u4,samoan-plantation-pidgin_20089_u5,samoan-plantation-pidgin_20089_u6,samoan-plantation-pidgin_20089_u7,samoan-plantation-pidgin_20089_u8,samoan-plantation-pidgin_20089_u9,samoan-plantation-pidgin_20089_u10,samoan-plantation-pidgin_20089_u11,samoan-plantation-pidgin_20089_u12",
+      "b": "Apia,Vaitele,Faleula,Leulumoega,Lalomanu,Mulifanua,Salelologa,Safotu,Savai'i,Upolu,Pago Pago,Fagatogo,Tafuna,Leone,Aua,Ofu,Olosega,Ta'u,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton",
       "min": 4,
       "max": 12,
       "m": 0
@@ -883,7 +883,7 @@
     {
       "i": 20090,
       "name": "Alchuka (dedicated)",
-      "b": "alchuka_unq1,alchuka_unq2,alchuka_unq3,alchuka_unq4,alchuka_unq5,alchuka_unq6,alchuka_unq7,alchuka_unq8,alchuka_unq9,alchuka_unq10,alchuka_unq11,alchuka_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -891,7 +891,7 @@
     {
       "i": 20091,
       "name": "Indonesian (dedicated)",
-      "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Depok,Bekasi,Tangerang,Yogyakarta,Denpasar,indonesian_20091_u1,indonesian_20091_u2,indonesian_20091_u3,indonesian_20091_u4,indonesian_20091_u5,indonesian_20091_u6,indonesian_20091_u7,indonesian_20091_u8,indonesian_20091_u9,indonesian_20091_u10,indonesian_20091_u11,indonesian_20091_u12",
+      "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Depok,Bekasi,Tangerang,Yogyakarta,Denpasar,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -899,7 +899,7 @@
     {
       "i": 20092,
       "name": "Tagalog (dedicated)",
-      "b": "Manila,Quezon City,Caloocan,Makati,Pasig,Taguig,Marikina,Antipolo,Cavite,Laguna,Batangas,Bulacan,tagalog_20092_u1,tagalog_20092_u2,tagalog_20092_u3,tagalog_20092_u4,tagalog_20092_u5,tagalog_20092_u6,tagalog_20092_u7,tagalog_20092_u8,tagalog_20092_u9,tagalog_20092_u10,tagalog_20092_u11,tagalog_20092_u12",
+      "b": "Manila,Quezon City,Caloocan,Makati,Pasig,Taguig,Marikina,Antipolo,Cavite,Laguna,Batangas,Bulacan,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -907,7 +907,7 @@
     {
       "i": 20093,
       "name": "Filipino (dedicated)",
-      "b": "Philippines,Luzon,Visayas,Mindanao,Cebu,Davao,Iloilo,Baguio,Bacolod,Cagayan de Oro,Zamboanga,General Santos,filipino_20093_u1,filipino_20093_u2,filipino_20093_u3,filipino_20093_u4,filipino_20093_u5,filipino_20093_u6,filipino_20093_u7,filipino_20093_u8,filipino_20093_u9,filipino_20093_u10,filipino_20093_u11,filipino_20093_u12",
+      "b": "Philippines,Luzon,Visayas,Mindanao,Cebu,Davao,Iloilo,Baguio,Bacolod,Cagayan de Oro,Zamboanga,General Santos,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -915,7 +915,7 @@
     {
       "i": 20094,
       "name": "Māori (dedicated)",
-      "b": "Auckland,Wellington,Christchurch,Dunedin,Rotorua,Hamilton NZ,Tauranga,Gisborne,Whangarei,Napier,Whanganui,Invercargill,maori_20094_u1,maori_20094_u2,maori_20094_u3,maori_20094_u4,maori_20094_u5,maori_20094_u6,maori_20094_u7,maori_20094_u8,maori_20094_u9,maori_20094_u10,maori_20094_u11,maori_20094_u12",
+      "b": "Auckland,Wellington,Christchurch,Dunedin,Rotorua,Hamilton NZ,Tauranga,Gisborne,Whangarei,Napier,Whanganui,Invercargill,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -923,7 +923,7 @@
     {
       "i": 20095,
       "name": "Hawaiian (dedicated)",
-      "b": "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Kona,hawaiian_20095_u1,hawaiian_20095_u2,hawaiian_20095_u3,hawaiian_20095_u4,hawaiian_20095_u5,hawaiian_20095_u6,hawaiian_20095_u7,hawaiian_20095_u8,hawaiian_20095_u9,hawaiian_20095_u10,hawaiian_20095_u11,hawaiian_20095_u12",
+      "b": "Honolulu,Hilo,Kailua,Kaneohe,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Kona,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -931,7 +931,7 @@
     {
       "i": 20096,
       "name": "Mandarin (dedicated)",
-      "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Chongqing,Nanjing,Tianjin,Wuhan,Hangzhou,Xian,Shenyang,mandarin_20096_u1,mandarin_20096_u2,mandarin_20096_u3,mandarin_20096_u4,mandarin_20096_u5,mandarin_20096_u6,mandarin_20096_u7,mandarin_20096_u8,mandarin_20096_u9,mandarin_20096_u10,mandarin_20096_u11,mandarin_20096_u12",
+      "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Chongqing,Nanjing,Tianjin,Wuhan,Hangzhou,Xian,Shenyang,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -939,7 +939,7 @@
     {
       "i": 20097,
       "name": "Cantonese (dedicated)",
-      "b": "Guangzhou,Hong Kong,Macau,Foshan,Zhongshan,Zhuhai,Shenzhen,Dongguan,Jiangmen,Huizhou,Taishan,Zhaoqing,yue_20097_u1,yue_20097_u2,yue_20097_u3,yue_20097_u4,yue_20097_u5,yue_20097_u6,yue_20097_u7,yue_20097_u8,yue_20097_u9,yue_20097_u10,yue_20097_u11,yue_20097_u12",
+      "b": "Guangzhou,Hong Kong,Macau,Foshan,Zhongshan,Zhuhai,Shenzhen,Dongguan,Jiangmen,Huizhou,Taishan,Zhaoqing,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -947,7 +947,7 @@
     {
       "i": 20098,
       "name": "Greek (dedicated)",
-      "b": "Athens,Thessaloniki,Patras,Heraklion,Larissa,Volos,Ioannina,Chania,Rhodes,Corfu,Kalamata,Nicosia,ell_20098_u1,ell_20098_u2,ell_20098_u3,ell_20098_u4,ell_20098_u5,ell_20098_u6,ell_20098_u7,ell_20098_u8,ell_20098_u9,ell_20098_u10,ell_20098_u11,ell_20098_u12",
+      "b": "Athens,Thessaloniki,Patras,Heraklion,Larissa,Volos,Ioannina,Chania,Rhodes,Corfu,Kalamata,Nicosia,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -955,7 +955,7 @@
     {
       "i": 20099,
       "name": "Japanese (dedicated)",
-      "b": "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Sapporo,Fukuoka,Kobe,Hiroshima,Sendai,Kagoshima,Naha,jpn_20099_u1,jpn_20099_u2,jpn_20099_u3,jpn_20099_u4,jpn_20099_u5,jpn_20099_u6,jpn_20099_u7,jpn_20099_u8,jpn_20099_u9,jpn_20099_u10,jpn_20099_u11,jpn_20099_u12",
+      "b": "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Sapporo,Fukuoka,Kobe,Hiroshima,Sendai,Kagoshima,Naha,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 12,
       "m": 0
@@ -963,7 +963,7 @@
     {
       "i": 20100,
       "name": "Ambonese Malay (dedicated)",
-      "b": "ambonesemalay_unq1,ambonesemalay_unq2,ambonesemalay_unq3,ambonesemalay_unq4,ambonesemalay_unq5,ambonesemalay_unq6,ambonesemalay_unq7,ambonesemalay_unq8,ambonesemalay_unq9,ambonesemalay_unq10,ambonesemalay_unq11,ambonesemalay_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -971,7 +971,7 @@
     {
       "i": 20101,
       "name": "American Indian Pidgin English (dedicated)",
-      "b": "americanindianpidginenglish_unq1,americanindianpidginenglish_unq2,americanindianpidginenglish_unq3,americanindianpidginenglish_unq4,americanindianpidginenglish_unq5,americanindianpidginenglish_unq6,americanindianpidginenglish_unq7,americanindianpidginenglish_unq8,americanindianpidginenglish_unq9,americanindianpidginenglish_unq10,americanindianpidginenglish_unq11,americanindianpidginenglish_unq12",
+      "b": "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton",
       "min": 4,
       "max": 11,
       "m": 0
@@ -979,7 +979,7 @@
     {
       "i": 20102,
       "name": "Andaman Creole Hindi (dedicated)",
-      "b": "andamancreolehindi_unq1,andamancreolehindi_unq2,andamancreolehindi_unq3,andamancreolehindi_unq4,andamancreolehindi_unq5,andamancreolehindi_unq6,andamancreolehindi_unq7,andamancreolehindi_unq8,andamancreolehindi_unq9,andamancreolehindi_unq10,andamancreolehindi_unq11,andamancreolehindi_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -987,7 +987,7 @@
     {
       "i": 20103,
       "name": "Angolar Creole (dedicated)",
-      "b": "angolarcreole_unq1,angolarcreole_unq2,angolarcreole_unq3,angolarcreole_unq4,angolarcreole_unq5,angolarcreole_unq6,angolarcreole_unq7,angolarcreole_unq8,angolarcreole_unq9,angolarcreole_unq10,angolarcreole_unq11,angolarcreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -995,7 +995,7 @@
     {
       "i": 20104,
       "name": "Annobonese Creole (dedicated)",
-      "b": "annobonesecreole_unq1,annobonesecreole_unq2,annobonesecreole_unq3,annobonesecreole_unq4,annobonesecreole_unq5,annobonesecreole_unq6,annobonesecreole_unq7,annobonesecreole_unq8,annobonesecreole_unq9,annobonesecreole_unq10,annobonesecreole_unq11,annobonesecreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1003,7 +1003,7 @@
     {
       "i": 20105,
       "name": "Upper Arrernte (dedicated)",
-      "b": "upper-arrernte_unq1,upper-arrernte_unq2,upper-arrernte_unq3,upper-arrernte_unq4,upper-arrernte_unq5,upper-arrernte_unq6,upper-arrernte_unq7,upper-arrernte_unq8,upper-arrernte_unq9,upper-arrernte_unq10,upper-arrernte_unq11,upper-arrernte_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1011,7 +1011,7 @@
     {
       "i": 20106,
       "name": "Anguillian Creole (dedicated)",
-      "b": "anguilliancreole_unq1,anguilliancreole_unq2,anguilliancreole_unq3,anguilliancreole_unq4,anguilliancreole_unq5,anguilliancreole_unq6,anguilliancreole_unq7,anguilliancreole_unq8,anguilliancreole_unq9,anguilliancreole_unq10,anguilliancreole_unq11,anguilliancreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1019,7 +1019,7 @@
     {
       "i": 20107,
       "name": "Bahamian Creole (dedicated)",
-      "b": "bahamiancreole_unq1,bahamiancreole_unq2,bahamiancreole_unq3,bahamiancreole_unq4,bahamiancreole_unq5,bahamiancreole_unq6,bahamiancreole_unq7,bahamiancreole_unq8,bahamiancreole_unq9,bahamiancreole_unq10,bahamiancreole_unq11,bahamiancreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1027,7 +1027,7 @@
     {
       "i": 20108,
       "name": "Bajan Creole (dedicated)",
-      "b": "bajancreole_unq1,bajancreole_unq2,bajancreole_unq3,bajancreole_unq4,bajancreole_unq5,bajancreole_unq6,bajancreole_unq7,bajancreole_unq8,bajancreole_unq9,bajancreole_unq10,bajancreole_unq11,bajancreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1035,7 +1035,7 @@
     {
       "i": 20109,
       "name": "Belizean Creole (dedicated)",
-      "b": "belizeancreole_unq1,belizeancreole_unq2,belizeancreole_unq3,belizeancreole_unq4,belizeancreole_unq5,belizeancreole_unq6,belizeancreole_unq7,belizeancreole_unq8,belizeancreole_unq9,belizeancreole_unq10,belizeancreole_unq11,belizeancreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1043,7 +1043,7 @@
     {
       "i": 20110,
       "name": "Bocas del Toro Creole (dedicated)",
-      "b": "bocasdeltorocreole_unq1,bocasdeltorocreole_unq2,bocasdeltorocreole_unq3,bocasdeltorocreole_unq4,bocasdeltorocreole_unq5,bocasdeltorocreole_unq6,bocasdeltorocreole_unq7,bocasdeltorocreole_unq8,bocasdeltorocreole_unq9,bocasdeltorocreole_unq10,bocasdeltorocreole_unq11,bocasdeltorocreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1051,7 +1051,7 @@
     {
       "i": 20111,
       "name": "Enggano (dedicated)",
-      "b": "eno_unq1,eno_unq2,eno_unq3,eno_unq4,eno_unq5,eno_unq6,eno_unq7,eno_unq8,eno_unq9,eno_unq10,eno_unq11,eno_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1059,7 +1059,7 @@
     {
       "i": 20112,
       "name": "Kowiai (dedicated)",
-      "b": "kowiai_unq1,kowiai_unq2,kowiai_unq3,kowiai_unq4,kowiai_unq5,kowiai_unq6,kowiai_unq7,kowiai_unq8,kowiai_unq9,kowiai_unq10,kowiai_unq11,kowiai_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1067,7 +1067,7 @@
     {
       "i": 20113,
       "name": "Rejang (dedicated)",
-      "b": "rejang_unq1,rejang_unq2,rejang_unq3,rejang_unq4,rejang_unq5,rejang_unq6,rejang_unq7,rejang_unq8,rejang_unq9,rejang_unq10,rejang_unq11,rejang_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1075,7 +1075,7 @@
     {
       "i": 20114,
       "name": "Javanese (dedicated)",
-      "b": "jav_unq1,jav_unq2,jav_unq3,jav_unq4,jav_unq5,jav_unq6,jav_unq7,jav_unq8,jav_unq9,jav_unq10,jav_unq11,jav_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1083,7 +1083,7 @@
     {
       "i": 20115,
       "name": "Madurese (dedicated)",
-      "b": "mad_unq1,mad_unq2,mad_unq3,mad_unq4,mad_unq5,mad_unq6,mad_unq7,mad_unq8,mad_unq9,mad_unq10,mad_unq11,mad_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1091,7 +1091,7 @@
     {
       "i": 20116,
       "name": "Chamorro (dedicated)",
-      "b": "chamorro_unq1,chamorro_unq2,chamorro_unq3,chamorro_unq4,chamorro_unq5,chamorro_unq6,chamorro_unq7,chamorro_unq8,chamorro_unq9,chamorro_unq10,chamorro_unq11,chamorro_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1099,7 +1099,7 @@
     {
       "i": 20117,
       "name": "Palauan (dedicated)",
-      "b": "palauan_unq1,palauan_unq2,palauan_unq3,palauan_unq4,palauan_unq5,palauan_unq6,palauan_unq7,palauan_unq8,palauan_unq9,palauan_unq10,palauan_unq11,palauan_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1107,7 +1107,7 @@
     {
       "i": 20118,
       "name": "Rotuman (dedicated)",
-      "b": "rotuman_unq1,rotuman_unq2,rotuman_unq3,rotuman_unq4,rotuman_unq5,rotuman_unq6,rotuman_unq7,rotuman_unq8,rotuman_unq9,rotuman_unq10,rotuman_unq11,rotuman_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1115,7 +1115,7 @@
     {
       "i": 20119,
       "name": "Baba Malay (dedicated)",
-      "b": "babamalay_unq1,babamalay_unq2,babamalay_unq3,babamalay_unq4,babamalay_unq5,babamalay_unq6,babamalay_unq7,babamalay_unq8,babamalay_unq9,babamalay_unq10,babamalay_unq11,babamalay_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1123,7 +1123,7 @@
     {
       "i": 20120,
       "name": "Balinese Malay (dedicated)",
-      "b": "balinesemalay_unq1,balinesemalay_unq2,balinesemalay_unq3,balinesemalay_unq4,balinesemalay_unq5,balinesemalay_unq6,balinesemalay_unq7,balinesemalay_unq8,balinesemalay_unq9,balinesemalay_unq10,balinesemalay_unq11,balinesemalay_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1131,7 +1131,7 @@
     {
       "i": 20121,
       "name": "Banda Malay (dedicated)",
-      "b": "bandamalay_unq1,bandamalay_unq2,bandamalay_unq3,bandamalay_unq4,bandamalay_unq5,bandamalay_unq6,bandamalay_unq7,bandamalay_unq8,bandamalay_unq9,bandamalay_unq10,bandamalay_unq11,bandamalay_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1139,7 +1139,7 @@
     {
       "i": 20122,
       "name": "Betawi (dedicated)",
-      "b": "betawi_unq1,betawi_unq2,betawi_unq3,betawi_unq4,betawi_unq5,betawi_unq6,betawi_unq7,betawi_unq8,betawi_unq9,betawi_unq10,betawi_unq11,betawi_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1147,7 +1147,7 @@
     {
       "i": 20123,
       "name": "Dili Malay (dedicated)",
-      "b": "dilimalay_unq1,dilimalay_unq2,dilimalay_unq3,dilimalay_unq4,dilimalay_unq5,dilimalay_unq6,dilimalay_unq7,dilimalay_unq8,dilimalay_unq9,dilimalay_unq10,dilimalay_unq11,dilimalay_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1155,7 +1155,7 @@
     {
       "i": 20124,
       "name": "Baca (dedicated)",
-      "b": "baca_unq1,baca_unq2,baca_unq3,baca_unq4,baca_unq5,baca_unq6,baca_unq7,baca_unq8,baca_unq9,baca_unq10,baca_unq11,baca_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1163,7 +1163,7 @@
     {
       "i": 20125,
       "name": "Bangala (dedicated)",
-      "b": "bangala_unq1,bangala_unq2,bangala_unq3,bangala_unq4,bangala_unq5,bangala_unq6,bangala_unq7,bangala_unq8,bangala_unq9,bangala_unq10,bangala_unq11,bangala_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1171,7 +1171,7 @@
     {
       "i": 20126,
       "name": "Bangi (dedicated)",
-      "b": "bangi_unq1,bangi_unq2,bangi_unq3,bangi_unq4,bangi_unq5,bangi_unq6,bangi_unq7,bangi_unq8,bangi_unq9,bangi_unq10,bangi_unq11,bangi_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1179,7 +1179,7 @@
     {
       "i": 20127,
       "name": "Bangolan (dedicated)",
-      "b": "bangolan_unq1,bangolan_unq2,bangolan_unq3,bangolan_unq4,bangolan_unq5,bangolan_unq6,bangolan_unq7,bangolan_unq8,bangolan_unq9,bangolan_unq10,bangolan_unq11,bangolan_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1187,7 +1187,7 @@
     {
       "i": 20128,
       "name": "Bomboli-Bozaba (dedicated)",
-      "b": "bomboli-bozaba_unq1,bomboli-bozaba_unq2,bomboli-bozaba_unq3,bomboli-bozaba_unq4,bomboli-bozaba_unq5,bomboli-bozaba_unq6,bomboli-bozaba_unq7,bomboli-bozaba_unq8,bomboli-bozaba_unq9,bomboli-bozaba_unq10,bomboli-bozaba_unq11,bomboli-bozaba_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1195,7 +1195,7 @@
     {
       "i": 20129,
       "name": "Bomboma (dedicated)",
-      "b": "bomboma_unq1,bomboma_unq2,bomboma_unq3,bomboma_unq4,bomboma_unq5,bomboma_unq6,bomboma_unq7,bomboma_unq8,bomboma_unq9,bomboma_unq10,bomboma_unq11,bomboma_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1203,7 +1203,7 @@
     {
       "i": 20130,
       "name": "Boze (dedicated)",
-      "b": "boze_unq1,boze_unq2,boze_unq3,boze_unq4,boze_unq5,boze_unq6,boze_unq7,boze_unq8,boze_unq9,boze_unq10,boze_unq11,boze_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1211,7 +1211,7 @@
     {
       "i": 20131,
       "name": "Bozo (dedicated)",
-      "b": "bozo_unq1,bozo_unq2,bozo_unq3,bozo_unq4,bozo_unq5,bozo_unq6,bozo_unq7,bozo_unq8,bozo_unq9,bozo_unq10,bozo_unq11,bozo_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1219,7 +1219,7 @@
     {
       "i": 20132,
       "name": "Buu (dedicated)",
-      "b": "buu_unq1,buu_unq2,buu_unq3,buu_unq4,buu_unq5,buu_unq6,buu_unq7,buu_unq8,buu_unq9,buu_unq10,buu_unq11,buu_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1227,7 +1227,7 @@
     {
       "i": 20133,
       "name": "Dagaare (dedicated)",
-      "b": "dagaare_unq1,dagaare_unq2,dagaare_unq3,dagaare_unq4,dagaare_unq5,dagaare_unq6,dagaare_unq7,dagaare_unq8,dagaare_unq9,dagaare_unq10,dagaare_unq11,dagaare_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1235,7 +1235,7 @@
     {
       "i": 20134,
       "name": "Angami-Pochuri (dedicated)",
-      "b": "angamipochuri_unq1,angamipochuri_unq2,angamipochuri_unq3,angamipochuri_unq4,angamipochuri_unq5,angamipochuri_unq6,angamipochuri_unq7,angamipochuri_unq8,angamipochuri_unq9,angamipochuri_unq10,angamipochuri_unq11,angamipochuri_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1243,7 +1243,7 @@
     {
       "i": 20135,
       "name": "Ani (dedicated)",
-      "b": "ani_unq1,ani_unq2,ani_unq3,ani_unq4,ani_unq5,ani_unq6,ani_unq7,ani_unq8,ani_unq9,ani_unq10,ani_unq11,ani_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1251,7 +1251,7 @@
     {
       "i": 20136,
       "name": "Ankave (dedicated)",
-      "b": "ankave_unq1,ankave_unq2,ankave_unq3,ankave_unq4,ankave_unq5,ankave_unq6,ankave_unq7,ankave_unq8,ankave_unq9,ankave_unq10,ankave_unq11,ankave_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1259,7 +1259,7 @@
     {
       "i": 20137,
       "name": "Ano (dedicated)",
-      "b": "ano_unq1,ano_unq2,ano_unq3,ano_unq4,ano_unq5,ano_unq6,ano_unq7,ano_unq8,ano_unq9,ano_unq10,ano_unq11,ano_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1267,7 +1267,7 @@
     {
       "i": 20138,
       "name": "Anp (dedicated)",
-      "b": "anp_unq1,anp_unq2,anp_unq3,anp_unq4,anp_unq5,anp_unq6,anp_unq7,anp_unq8,anp_unq9,anp_unq10,anp_unq11,anp_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1275,7 +1275,7 @@
     {
       "i": 20139,
       "name": "Anca (dedicated)",
-      "b": "anca_unq1,anca_unq2,anca_unq3,anca_unq4,anca_unq5,anca_unq6,anca_unq7,anca_unq8,anca_unq9,anca_unq10,anca_unq11,anca_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1283,7 +1283,7 @@
     {
       "i": 20140,
       "name": "Ancient Egyptian (dedicated)",
-      "b": "ancientegyptian_unq1,ancientegyptian_unq2,ancientegyptian_unq3,ancientegyptian_unq4,ancientegyptian_unq5,ancientegyptian_unq6,ancientegyptian_unq7,ancientegyptian_unq8,ancientegyptian_unq9,ancientegyptian_unq10,ancientegyptian_unq11,ancientegyptian_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1291,7 +1291,7 @@
     {
       "i": 20141,
       "name": "Ancient North Arabian (dedicated)",
-      "b": "ancientnortharabian_unq1,ancientnortharabian_unq2,ancientnortharabian_unq3,ancientnortharabian_unq4,ancientnortharabian_unq5,ancientnortharabian_unq6,ancientnortharabian_unq7,ancientnortharabian_unq8,ancientnortharabian_unq9,ancientnortharabian_unq10,ancientnortharabian_unq11,ancientnortharabian_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1299,7 +1299,7 @@
     {
       "i": 20142,
       "name": "Cao Lan (dedicated)",
-      "b": "caolan_unq1,caolan_unq2,caolan_unq3,caolan_unq4,caolan_unq5,caolan_unq6,caolan_unq7,caolan_unq8,caolan_unq9,caolan_unq10,caolan_unq11,caolan_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1307,7 +1307,7 @@
     {
       "i": 20143,
       "name": "Cao Miao (dedicated)",
-      "b": "caomiao_unq1,caomiao_unq2,caomiao_unq3,caomiao_unq4,caomiao_unq5,caomiao_unq6,caomiao_unq7,caomiao_unq8,caomiao_unq9,caomiao_unq10,caomiao_unq11,caomiao_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1315,7 +1315,7 @@
     {
       "i": 20144,
       "name": "Cape Verdean Creole (dedicated)",
-      "b": "capeverdeancreole_unq1,capeverdeancreole_unq2,capeverdeancreole_unq3,capeverdeancreole_unq4,capeverdeancreole_unq5,capeverdeancreole_unq6,capeverdeancreole_unq7,capeverdeancreole_unq8,capeverdeancreole_unq9,capeverdeancreole_unq10,capeverdeancreole_unq11,capeverdeancreole_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1323,7 +1323,7 @@
     {
       "i": 20145,
       "name": "Cappadocian Greek (dedicated)",
-      "b": "cappadociangreek_unq1,cappadociangreek_unq2,cappadociangreek_unq3,cappadociangreek_unq4,cappadociangreek_unq5,cappadociangreek_unq6,cappadociangreek_unq7,cappadociangreek_unq8,cappadociangreek_unq9,cappadociangreek_unq10,cappadociangreek_unq11,cappadociangreek_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1331,7 +1331,7 @@
     {
       "i": 20146,
       "name": "Car Nicobarese (dedicated)",
-      "b": "carnicobarese_unq1,carnicobarese_unq2,carnicobarese_unq3,carnicobarese_unq4,carnicobarese_unq5,carnicobarese_unq6,carnicobarese_unq7,carnicobarese_unq8,carnicobarese_unq9,carnicobarese_unq10,carnicobarese_unq11,carnicobarese_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1339,7 +1339,7 @@
     {
       "i": 20147,
       "name": "Andalusi Arabic (dedicated)",
-      "b": "andalusi-arabic_unq1,andalusi-arabic_unq2,andalusi-arabic_unq3,andalusi-arabic_unq4,andalusi-arabic_unq5,andalusi-arabic_unq6,andalusi-arabic_unq7,andalusi-arabic_unq8,andalusi-arabic_unq9,andalusi-arabic_unq10,andalusi-arabic_unq11,andalusi-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1347,7 +1347,7 @@
     {
       "i": 20148,
       "name": "Anq (dedicated)",
-      "b": "anq_unq1,anq_unq2,anq_unq3,anq_unq4,anq_unq5,anq_unq6,anq_unq7,anq_unq8,anq_unq9,anq_unq10,anq_unq11,anq_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1355,7 +1355,7 @@
     {
       "i": 20149,
       "name": "Ao (dedicated)",
-      "b": "ao_unq1,ao_unq2,ao_unq3,ao_unq4,ao_unq5,ao_unq6,ao_unq7,ao_unq8,ao_unq9,ao_unq10,ao_unq11,ao_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1363,7 +1363,7 @@
     {
       "i": 20150,
       "name": "Aot (dedicated)",
-      "b": "aot_unq1,aot_unq2,aot_unq3,aot_unq4,aot_unq5,aot_unq6,aot_unq7,aot_unq8,aot_unq9,aot_unq10,aot_unq11,aot_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1371,7 +1371,7 @@
     {
       "i": 20151,
       "name": "Aoz (dedicated)",
-      "b": "aoz_unq1,aoz_unq2,aoz_unq3,aoz_unq4,aoz_unq5,aoz_unq6,aoz_unq7,aoz_unq8,aoz_unq9,aoz_unq10,aoz_unq11,aoz_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1379,7 +1379,7 @@
     {
       "i": 20152,
       "name": "Attapady Kurumba (dedicated)",
-      "b": "attapady-kurumba_unq1,attapady-kurumba_unq2,attapady-kurumba_unq3,attapady-kurumba_unq4,attapady-kurumba_unq5,attapady-kurumba_unq6,attapady-kurumba_unq7,attapady-kurumba_unq8,attapady-kurumba_unq9,attapady-kurumba_unq10,attapady-kurumba_unq11,attapady-kurumba_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1387,7 +1387,7 @@
     {
       "i": 20153,
       "name": "Australian Kriol (dedicated)",
-      "b": "australian-kriol_unq1,australian-kriol_unq2,australian-kriol_unq3,australian-kriol_unq4,australian-kriol_unq5,australian-kriol_unq6,australian-kriol_unq7,australian-kriol_unq8,australian-kriol_unq9,australian-kriol_unq10,australian-kriol_unq11,australian-kriol_unq12",
+      "b": "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1395,7 +1395,7 @@
     {
       "i": 20154,
       "name": "Auye (dedicated)",
-      "b": "auye_unq1,auye_unq2,auye_unq3,auye_unq4,auye_unq5,auye_unq6,auye_unq7,auye_unq8,auye_unq9,auye_unq10,auye_unq11,auye_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1403,7 +1403,7 @@
     {
       "i": 20155,
       "name": "Ava (dedicated)",
-      "b": "ava_unq1,ava_unq2,ava_unq3,ava_unq4,ava_unq5,ava_unq6,ava_unq7,ava_unq8,ava_unq9,ava_unq10,ava_unq11,ava_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1411,7 +1411,7 @@
     {
       "i": 20156,
       "name": "Avokaya (dedicated)",
-      "b": "avokaya_unq1,avokaya_unq2,avokaya_unq3,avokaya_unq4,avokaya_unq5,avokaya_unq6,avokaya_unq7,avokaya_unq8,avokaya_unq9,avokaya_unq10,avokaya_unq11,avokaya_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1419,7 +1419,7 @@
     {
       "i": 20157,
       "name": "Andalusi Arabic (setBases aux)",
-      "b": "andalusi-arabic_20157_unq1,andalusi-arabic_20157_unq2,andalusi-arabic_20157_unq3,andalusi-arabic_20157_unq4,andalusi-arabic_20157_unq5,andalusi-arabic_20157_unq6,andalusi-arabic_20157_unq7,andalusi-arabic_20157_unq8,andalusi-arabic_20157_unq9,andalusi-arabic_20157_unq10,andalusi-arabic_20157_unq11,andalusi-arabic_20157_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1427,7 +1427,7 @@
     {
       "i": 20158,
       "name": "Anq (setBases aux)",
-      "b": "anq_20158_unq1,anq_20158_unq2,anq_20158_unq3,anq_20158_unq4,anq_20158_unq5,anq_20158_unq6,anq_20158_unq7,anq_20158_unq8,anq_20158_unq9,anq_20158_unq10,anq_20158_unq11,anq_20158_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1435,7 +1435,7 @@
     {
       "i": 20159,
       "name": "Ao (setBases aux)",
-      "b": "ao_20159_unq1,ao_20159_unq2,ao_20159_unq3,ao_20159_unq4,ao_20159_unq5,ao_20159_unq6,ao_20159_unq7,ao_20159_unq8,ao_20159_unq9,ao_20159_unq10,ao_20159_unq11,ao_20159_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1443,7 +1443,7 @@
     {
       "i": 20160,
       "name": "Aot (setBases aux)",
-      "b": "aot_20160_unq1,aot_20160_unq2,aot_20160_unq3,aot_20160_unq4,aot_20160_unq5,aot_20160_unq6,aot_20160_unq7,aot_20160_unq8,aot_20160_unq9,aot_20160_unq10,aot_20160_unq11,aot_20160_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1451,7 +1451,7 @@
     {
       "i": 20161,
       "name": "Aoz (setBases aux)",
-      "b": "aoz_20161_unq1,aoz_20161_unq2,aoz_20161_unq3,aoz_20161_unq4,aoz_20161_unq5,aoz_20161_unq6,aoz_20161_unq7,aoz_20161_unq8,aoz_20161_unq9,aoz_20161_unq10,aoz_20161_unq11,aoz_20161_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1459,7 +1459,7 @@
     {
       "i": 20162,
       "name": "Hozo (dedicated)",
-      "b": "hozo_unq1,hozo_unq2,hozo_unq3,hozo_unq4,hozo_unq5,hozo_unq6,hozo_unq7,hozo_unq8,hozo_unq9,hozo_unq10,hozo_unq11,hozo_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1467,7 +1467,7 @@
     {
       "i": 20163,
       "name": "Tulishi (dedicated)",
-      "b": "tulishi_unq1,tulishi_unq2,tulishi_unq3,tulishi_unq4,tulishi_unq5,tulishi_unq6,tulishi_unq7,tulishi_unq8,tulishi_unq9,tulishi_unq10,tulishi_unq11,tulishi_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1475,7 +1475,7 @@
     {
       "i": 20164,
       "name": "Uduk (dedicated)",
-      "b": "uduk_unq1,uduk_unq2,uduk_unq3,uduk_unq4,uduk_unq5,uduk_unq6,uduk_unq7,uduk_unq8,uduk_unq9,uduk_unq10,uduk_unq11,uduk_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1483,7 +1483,7 @@
     {
       "i": 20165,
       "name": "Chadian Arabic (dedicated)",
-      "b": "chadian-arabic_unq1,chadian-arabic_unq2,chadian-arabic_unq3,chadian-arabic_unq4,chadian-arabic_unq5,chadian-arabic_unq6,chadian-arabic_unq7,chadian-arabic_unq8,chadian-arabic_unq9,chadian-arabic_unq10,chadian-arabic_unq11,chadian-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1491,7 +1491,7 @@
     {
       "i": 20166,
       "name": "Kujargé (dedicated)",
-      "b": "kujarge_unq1,kujarge_unq2,kujarge_unq3,kujarge_unq4,kujarge_unq5,kujarge_unq6,kujarge_unq7,kujarge_unq8,kujarge_unq9,kujarge_unq10,kujarge_unq11,kujarge_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1499,7 +1499,7 @@
     {
       "i": 20167,
       "name": "Bimbashi Arabic (dedicated)",
-      "b": "bimbashi-arabic_unq1,bimbashi-arabic_unq2,bimbashi-arabic_unq3,bimbashi-arabic_unq4,bimbashi-arabic_unq5,bimbashi-arabic_unq6,bimbashi-arabic_unq7,bimbashi-arabic_unq8,bimbashi-arabic_unq9,bimbashi-arabic_unq10,bimbashi-arabic_unq11,bimbashi-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1507,7 +1507,7 @@
     {
       "i": 20168,
       "name": "Bongor Arabic (dedicated)",
-      "b": "bongor-arabic_unq1,bongor-arabic_unq2,bongor-arabic_unq3,bongor-arabic_unq4,bongor-arabic_unq5,bongor-arabic_unq6,bongor-arabic_unq7,bongor-arabic_unq8,bongor-arabic_unq9,bongor-arabic_unq10,bongor-arabic_unq11,bongor-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1515,7 +1515,7 @@
     {
       "i": 20169,
       "name": "Cypriot Maronite Arabic (dedicated)",
-      "b": "cypriot-maronite-arabic_unq1,cypriot-maronite-arabic_unq2,cypriot-maronite-arabic_unq3,cypriot-maronite-arabic_unq4,cypriot-maronite-arabic_unq5,cypriot-maronite-arabic_unq6,cypriot-maronite-arabic_unq7,cypriot-maronite-arabic_unq8,cypriot-maronite-arabic_unq9,cypriot-maronite-arabic_unq10,cypriot-maronite-arabic_unq11,cypriot-maronite-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1523,7 +1523,7 @@
     {
       "i": 20170,
       "name": "Gadal (dedicated)",
-      "b": "gadal_unq1,gadal_unq2,gadal_unq3,gadal_unq4,gadal_unq5,gadal_unq6,gadal_unq7,gadal_unq8,gadal_unq9,gadal_unq10,gadal_unq11,gadal_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1531,7 +1531,7 @@
     {
       "i": 20171,
       "name": "Maridi Arabic (dedicated)",
-      "b": "maridi-arabic_unq1,maridi-arabic_unq2,maridi-arabic_unq3,maridi-arabic_unq4,maridi-arabic_unq5,maridi-arabic_unq6,maridi-arabic_unq7,maridi-arabic_unq8,maridi-arabic_unq9,maridi-arabic_unq10,maridi-arabic_unq11,maridi-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1539,7 +1539,7 @@
     {
       "i": 20172,
       "name": "Nubi (dedicated)",
-      "b": "nubi_unq1,nubi_unq2,nubi_unq3,nubi_unq4,nubi_unq5,nubi_unq6,nubi_unq7,nubi_unq8,nubi_unq9,nubi_unq10,nubi_unq11,nubi_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1547,7 +1547,7 @@
     {
       "i": 20173,
       "name": "Turku Arabic (dedicated)",
-      "b": "turku-arabic_unq1,turku-arabic_unq2,turku-arabic_unq3,turku-arabic_unq4,turku-arabic_unq5,turku-arabic_unq6,turku-arabic_unq7,turku-arabic_unq8,turku-arabic_unq9,turku-arabic_unq10,turku-arabic_unq11,turku-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1555,7 +1555,7 @@
     {
       "i": 20174,
       "name": "Juba Arabic (dedicated)",
-      "b": "juba-arabic_unq1,juba-arabic_unq2,juba-arabic_unq3,juba-arabic_unq4,juba-arabic_unq5,juba-arabic_unq6,juba-arabic_unq7,juba-arabic_unq8,juba-arabic_unq9,juba-arabic_unq10,juba-arabic_unq11,juba-arabic_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1563,7 +1563,7 @@
     {
       "i": 20175,
       "name": "Grenadian Creole English (dedicated)",
-      "b": "grenadian-creole-english_20175_unq1,grenadian-creole-english_20175_unq2,grenadian-creole-english_20175_unq3,grenadian-creole-english_20175_unq4,grenadian-creole-english_20175_unq5,grenadian-creole-english_20175_unq6,grenadian-creole-english_20175_unq7,grenadian-creole-english_20175_unq8,grenadian-creole-english_20175_unq9,grenadian-creole-english_20175_unq10,grenadian-creole-english_20175_unq11,grenadian-creole-english_20175_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1571,7 +1571,7 @@
     {
       "i": 20176,
       "name": "Leeward Caribbean Creole English (dedicated)",
-      "b": "leeward-caribbean-creole-english_20176_unq1,leeward-caribbean-creole-english_20176_unq2,leeward-caribbean-creole-english_20176_unq3,leeward-caribbean-creole-english_20176_unq4,leeward-caribbean-creole-english_20176_unq5,leeward-caribbean-creole-english_20176_unq6,leeward-caribbean-creole-english_20176_unq7,leeward-caribbean-creole-english_20176_unq8,leeward-caribbean-creole-english_20176_unq9,leeward-caribbean-creole-english_20176_unq10,leeward-caribbean-creole-english_20176_unq11,leeward-caribbean-creole-english_20176_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1579,7 +1579,7 @@
     {
       "i": 20177,
       "name": "Limonese Creole (dedicated)",
-      "b": "limonese-creole_20177_unq1,limonese-creole_20177_unq2,limonese-creole_20177_unq3,limonese-creole_20177_unq4,limonese-creole_20177_unq5,limonese-creole_20177_unq6,limonese-creole_20177_unq7,limonese-creole_20177_unq8,limonese-creole_20177_unq9,limonese-creole_20177_unq10,limonese-creole_20177_unq11,limonese-creole_20177_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1587,7 +1587,7 @@
     {
       "i": 20178,
       "name": "Miskito Coast Creole (dedicated)",
-      "b": "miskito-coast-creole_20178_unq1,miskito-coast-creole_20178_unq2,miskito-coast-creole_20178_unq3,miskito-coast-creole_20178_unq4,miskito-coast-creole_20178_unq5,miskito-coast-creole_20178_unq6,miskito-coast-creole_20178_unq7,miskito-coast-creole_20178_unq8,miskito-coast-creole_20178_unq9,miskito-coast-creole_20178_unq10,miskito-coast-creole_20178_unq11,miskito-coast-creole_20178_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1595,7 +1595,7 @@
     {
       "i": 20179,
       "name": "Montserrat Creole (dedicated)",
-      "b": "montserrat-creole_20179_unq1,montserrat-creole_20179_unq2,montserrat-creole_20179_unq3,montserrat-creole_20179_unq4,montserrat-creole_20179_unq5,montserrat-creole_20179_unq6,montserrat-creole_20179_unq7,montserrat-creole_20179_unq8,montserrat-creole_20179_unq9,montserrat-creole_20179_unq10,montserrat-creole_20179_unq11,montserrat-creole_20179_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1603,7 +1603,7 @@
     {
       "i": 20180,
       "name": "Rama Cay Creole (dedicated)",
-      "b": "rama-cay-creole_20180_unq1,rama-cay-creole_20180_unq2,rama-cay-creole_20180_unq3,rama-cay-creole_20180_unq4,rama-cay-creole_20180_unq5,rama-cay-creole_20180_unq6,rama-cay-creole_20180_unq7,rama-cay-creole_20180_unq8,rama-cay-creole_20180_unq9,rama-cay-creole_20180_unq10,rama-cay-creole_20180_unq11,rama-cay-creole_20180_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1611,7 +1611,7 @@
     {
       "i": 20181,
       "name": "Saint Kitts Creole (dedicated)",
-      "b": "saint-kitts-creole_20181_unq1,saint-kitts-creole_20181_unq2,saint-kitts-creole_20181_unq3,saint-kitts-creole_20181_unq4,saint-kitts-creole_20181_unq5,saint-kitts-creole_20181_unq6,saint-kitts-creole_20181_unq7,saint-kitts-creole_20181_unq8,saint-kitts-creole_20181_unq9,saint-kitts-creole_20181_unq10,saint-kitts-creole_20181_unq11,saint-kitts-creole_20181_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1619,7 +1619,7 @@
     {
       "i": 20182,
       "name": "San Andres-Providencia Creole (dedicated)",
-      "b": "san-andres-providencia-creole_20182_unq1,san-andres-providencia-creole_20182_unq2,san-andres-providencia-creole_20182_unq3,san-andres-providencia-creole_20182_unq4,san-andres-providencia-creole_20182_unq5,san-andres-providencia-creole_20182_unq6,san-andres-providencia-creole_20182_unq7,san-andres-providencia-creole_20182_unq8,san-andres-providencia-creole_20182_unq9,san-andres-providencia-creole_20182_unq10,san-andres-providencia-creole_20182_unq11,san-andres-providencia-creole_20182_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1627,7 +1627,7 @@
     {
       "i": 20183,
       "name": "Tobagonian Creole (dedicated)",
-      "b": "tobagonian-creole_20183_unq1,tobagonian-creole_20183_unq2,tobagonian-creole_20183_unq3,tobagonian-creole_20183_unq4,tobagonian-creole_20183_unq5,tobagonian-creole_20183_unq6,tobagonian-creole_20183_unq7,tobagonian-creole_20183_unq8,tobagonian-creole_20183_unq9,tobagonian-creole_20183_unq10,tobagonian-creole_20183_unq11,tobagonian-creole_20183_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1635,7 +1635,7 @@
     {
       "i": 20184,
       "name": "Trinidadian Creole (dedicated)",
-      "b": "trinidadian-creole_20184_unq1,trinidadian-creole_20184_unq2,trinidadian-creole_20184_unq3,trinidadian-creole_20184_unq4,trinidadian-creole_20184_unq5,trinidadian-creole_20184_unq6,trinidadian-creole_20184_unq7,trinidadian-creole_20184_unq8,trinidadian-creole_20184_unq9,trinidadian-creole_20184_unq10,trinidadian-creole_20184_unq11,trinidadian-creole_20184_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1643,7 +1643,7 @@
     {
       "i": 20185,
       "name": "Turks and Caicos Creole (dedicated)",
-      "b": "turks-and-caicos-creole_20185_unq1,turks-and-caicos-creole_20185_unq2,turks-and-caicos-creole_20185_unq3,turks-and-caicos-creole_20185_unq4,turks-and-caicos-creole_20185_unq5,turks-and-caicos-creole_20185_unq6,turks-and-caicos-creole_20185_unq7,turks-and-caicos-creole_20185_unq8,turks-and-caicos-creole_20185_unq9,turks-and-caicos-creole_20185_unq10,turks-and-caicos-creole_20185_unq11,turks-and-caicos-creole_20185_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1651,7 +1651,7 @@
     {
       "i": 20186,
       "name": "Vincentian Creole (dedicated)",
-      "b": "vincentian-creole_20186_unq1,vincentian-creole_20186_unq2,vincentian-creole_20186_unq3,vincentian-creole_20186_unq4,vincentian-creole_20186_unq5,vincentian-creole_20186_unq6,vincentian-creole_20186_unq7,vincentian-creole_20186_unq8,vincentian-creole_20186_unq9,vincentian-creole_20186_unq10,vincentian-creole_20186_unq11,vincentian-creole_20186_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1659,7 +1659,7 @@
     {
       "i": 20187,
       "name": "Virgin Islands Creole (dedicated)",
-      "b": "virgin-islands-creole_20187_unq1,virgin-islands-creole_20187_unq2,virgin-islands-creole_20187_unq3,virgin-islands-creole_20187_unq4,virgin-islands-creole_20187_unq5,virgin-islands-creole_20187_unq6,virgin-islands-creole_20187_unq7,virgin-islands-creole_20187_unq8,virgin-islands-creole_20187_unq9,virgin-islands-creole_20187_unq10,virgin-islands-creole_20187_unq11,virgin-islands-creole_20187_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1667,7 +1667,7 @@
     {
       "i": 20188,
       "name": "Jamaican Maroon Creole (dedicated)",
-      "b": "jamaican-maroon-creole_20188_unq1,jamaican-maroon-creole_20188_unq2,jamaican-maroon-creole_20188_unq3,jamaican-maroon-creole_20188_unq4,jamaican-maroon-creole_20188_unq5,jamaican-maroon-creole_20188_unq6,jamaican-maroon-creole_20188_unq7,jamaican-maroon-creole_20188_unq8,jamaican-maroon-creole_20188_unq9,jamaican-maroon-creole_20188_unq10,jamaican-maroon-creole_20188_unq11,jamaican-maroon-creole_20188_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1675,15 +1675,15 @@
     {
       "i": 20189,
       "name": "Cofán (dedicated)",
-      "b": "con_20189_unq1,con_20189_unq2,con_20189_unq3,con_20189_unq4,con_20189_unq5,con_20189_unq6,con_20189_unq7,con_20189_unq8,con_20189_unq9,con_20189_unq10,con_20189_unq11,con_20189_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
     },
     {
       "i": 20190,
-      "name": "Fulniô (dedicated)",
-      "b": "fun_20190_unq1,fun_20190_unq2,fun_20190_unq3,fun_20190_unq4,fun_20190_unq5,fun_20190_unq6,fun_20190_unq7,fun_20190_unq8,fun_20190_unq9,fun_20190_unq10,fun_20190_unq11,fun_20190_unq12",
+      "name": "Fulnio (dedicated)",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1691,7 +1691,7 @@
     {
       "i": 20191,
       "name": "Itonama (dedicated)",
-      "b": "ito_20191_unq1,ito_20191_unq2,ito_20191_unq3,ito_20191_unq4,ito_20191_unq5,ito_20191_unq6,ito_20191_unq7,ito_20191_unq8,ito_20191_unq9,ito_20191_unq10,ito_20191_unq11,ito_20191_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1699,7 +1699,7 @@
     {
       "i": 20192,
       "name": "Leco (dedicated)",
-      "b": "lec_20192_unq1,lec_20192_unq2,lec_20192_unq3,lec_20192_unq4,lec_20192_unq5,lec_20192_unq6,lec_20192_unq7,lec_20192_unq8,lec_20192_unq9,lec_20192_unq10,lec_20192_unq11,lec_20192_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1707,7 +1707,7 @@
     {
       "i": 20193,
       "name": "Nivaclé (dedicated)",
-      "b": "cag_20193_unq1,cag_20193_unq2,cag_20193_unq3,cag_20193_unq4,cag_20193_unq5,cag_20193_unq6,cag_20193_unq7,cag_20193_unq8,cag_20193_unq9,cag_20193_unq10,cag_20193_unq11,cag_20193_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1715,7 +1715,7 @@
     {
       "i": 20194,
       "name": "Daman (setBases aux)",
-      "b": "daman_20194_unq1,daman_20194_unq2,daman_20194_unq3,daman_20194_unq4,daman_20194_unq5,daman_20194_unq6,daman_20194_unq7,daman_20194_unq8,daman_20194_unq9,daman_20194_unq10,daman_20194_unq11,daman_20194_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1723,7 +1723,7 @@
     {
       "i": 20195,
       "name": "Daman and Diu Portuguese Creole (setBases aux)",
-      "b": "daman-and-diu-portuguese-creole_20195_unq1,daman-and-diu-portuguese-creole_20195_unq2,daman-and-diu-portuguese-creole_20195_unq3,daman-and-diu-portuguese-creole_20195_unq4,daman-and-diu-portuguese-creole_20195_unq5,daman-and-diu-portuguese-creole_20195_unq6,daman-and-diu-portuguese-creole_20195_unq7,daman-and-diu-portuguese-creole_20195_unq8,daman-and-diu-portuguese-creole_20195_unq9,daman-and-diu-portuguese-creole_20195_unq10,daman-and-diu-portuguese-creole_20195_unq11,daman-and-diu-portuguese-creole_20195_unq12",
+      "b": "São Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goiânia",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1731,7 +1731,7 @@
     {
       "i": 20196,
       "name": "Diu (setBases aux)",
-      "b": "diu_20196_unq1,diu_20196_unq2,diu_20196_unq3,diu_20196_unq4,diu_20196_unq5,diu_20196_unq6,diu_20196_unq7,diu_20196_unq8,diu_20196_unq9,diu_20196_unq10,diu_20196_unq11,diu_20196_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1739,7 +1739,7 @@
     {
       "i": 20197,
       "name": "Portugis (setBases aux)",
-      "b": "portugis_20197_unq1,portugis_20197_unq2,portugis_20197_unq3,portugis_20197_unq4,portugis_20197_unq5,portugis_20197_unq6,portugis_20197_unq7,portugis_20197_unq8,portugis_20197_unq9,portugis_20197_unq10,portugis_20197_unq11,portugis_20197_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1747,7 +1747,7 @@
     {
       "i": 20198,
       "name": "São Nicolau Creole (setBases aux)",
-      "b": "s-o-nicolau-creole_20198_unq1,s-o-nicolau-creole_20198_unq2,s-o-nicolau-creole_20198_unq3,s-o-nicolau-creole_20198_unq4,s-o-nicolau-creole_20198_unq5,s-o-nicolau-creole_20198_unq6,s-o-nicolau-creole_20198_unq7,s-o-nicolau-creole_20198_unq8,s-o-nicolau-creole_20198_unq9,s-o-nicolau-creole_20198_unq10,s-o-nicolau-creole_20198_unq11,s-o-nicolau-creole_20198_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1755,7 +1755,7 @@
     {
       "i": 20199,
       "name": "São Vicente Creole (setBases aux)",
-      "b": "s-o-vicente-creole_20199_unq1,s-o-vicente-creole_20199_unq2,s-o-vicente-creole_20199_unq3,s-o-vicente-creole_20199_unq4,s-o-vicente-creole_20199_unq5,s-o-vicente-creole_20199_unq6,s-o-vicente-creole_20199_unq7,s-o-vicente-creole_20199_unq8,s-o-vicente-creole_20199_unq9,s-o-vicente-creole_20199_unq10,s-o-vicente-creole_20199_unq11,s-o-vicente-creole_20199_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1763,7 +1763,7 @@
     {
       "i": 20200,
       "name": "Santo Antão Creole (setBases aux)",
-      "b": "santo-ant-o-creole_20200_unq1,santo-ant-o-creole_20200_unq2,santo-ant-o-creole_20200_unq3,santo-ant-o-creole_20200_unq4,santo-ant-o-creole_20200_unq5,santo-ant-o-creole_20200_unq6,santo-ant-o-creole_20200_unq7,santo-ant-o-creole_20200_unq8,santo-ant-o-creole_20200_unq9,santo-ant-o-creole_20200_unq10,santo-ant-o-creole_20200_unq11,santo-ant-o-creole_20200_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1771,7 +1771,7 @@
     {
       "i": 20201,
       "name": "Indo-Portuguese (setBases aux)",
-      "b": "indo-portuguese_20201_unq1,indo-portuguese_20201_unq2,indo-portuguese_20201_unq3,indo-portuguese_20201_unq4,indo-portuguese_20201_unq5,indo-portuguese_20201_unq6,indo-portuguese_20201_unq7,indo-portuguese_20201_unq8,indo-portuguese_20201_unq9,indo-portuguese_20201_unq10,indo-portuguese_20201_unq11,indo-portuguese_20201_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1779,7 +1779,7 @@
     {
       "i": 20202,
       "name": "Indo-Portuguese Creole of Bombay (setBases aux)",
-      "b": "indo-portuguese-creole-of-bombay_20202_unq1,indo-portuguese-creole-of-bombay_20202_unq2,indo-portuguese-creole-of-bombay_20202_unq3,indo-portuguese-creole-of-bombay_20202_unq4,indo-portuguese-creole-of-bombay_20202_unq5,indo-portuguese-creole-of-bombay_20202_unq6,indo-portuguese-creole-of-bombay_20202_unq7,indo-portuguese-creole-of-bombay_20202_unq8,indo-portuguese-creole-of-bombay_20202_unq9,indo-portuguese-creole-of-bombay_20202_unq10,indo-portuguese-creole-of-bombay_20202_unq11,indo-portuguese-creole-of-bombay_20202_unq12",
+      "b": "São Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goiânia",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1787,7 +1787,7 @@
     {
       "i": 20203,
       "name": "Chagossian Creole (dedicated)",
-      "b": "chagossian-creole_20203_unq1,chagossian-creole_20203_unq2,chagossian-creole_20203_unq3,chagossian-creole_20203_unq4,chagossian-creole_20203_unq5,chagossian-creole_20203_unq6,chagossian-creole_20203_unq7,chagossian-creole_20203_unq8,chagossian-creole_20203_unq9,chagossian-creole_20203_unq10,chagossian-creole_20203_unq11,chagossian-creole_20203_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1795,7 +1795,7 @@
     {
       "i": 20204,
       "name": "Dominican Creole French (dedicated)",
-      "b": "dominican-creole-french_20204_unq1,dominican-creole-french_20204_unq2,dominican-creole-french_20204_unq3,dominican-creole-french_20204_unq4,dominican-creole-french_20204_unq5,dominican-creole-french_20204_unq6,dominican-creole-french_20204_unq7,dominican-creole-french_20204_unq8,dominican-creole-french_20204_unq9,dominican-creole-french_20204_unq10,dominican-creole-french_20204_unq11,dominican-creole-french_20204_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1803,7 +1803,7 @@
     {
       "i": 20205,
       "name": "French Guianese Creole (dedicated)",
-      "b": "french-guianese-creole_20205_unq1,french-guianese-creole_20205_unq2,french-guianese-creole_20205_unq3,french-guianese-creole_20205_unq4,french-guianese-creole_20205_unq5,french-guianese-creole_20205_unq6,french-guianese-creole_20205_unq7,french-guianese-creole_20205_unq8,french-guianese-creole_20205_unq9,french-guianese-creole_20205_unq10,french-guianese-creole_20205_unq11,french-guianese-creole_20205_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1811,7 +1811,7 @@
     {
       "i": 20206,
       "name": "Grenadian Creole French (dedicated)",
-      "b": "grenadian-creole-french_20206_unq1,grenadian-creole-french_20206_unq2,grenadian-creole-french_20206_unq3,grenadian-creole-french_20206_unq4,grenadian-creole-french_20206_unq5,grenadian-creole-french_20206_unq6,grenadian-creole-french_20206_unq7,grenadian-creole-french_20206_unq8,grenadian-creole-french_20206_unq9,grenadian-creole-french_20206_unq10,grenadian-creole-french_20206_unq11,grenadian-creole-french_20206_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1819,7 +1819,7 @@
     {
       "i": 20207,
       "name": "Karipúna French Creole (dedicated)",
-      "b": "karip-na-french-creole_20207_unq1,karip-na-french-creole_20207_unq2,karip-na-french-creole_20207_unq3,karip-na-french-creole_20207_unq4,karip-na-french-creole_20207_unq5,karip-na-french-creole_20207_unq6,karip-na-french-creole_20207_unq7,karip-na-french-creole_20207_unq8,karip-na-french-creole_20207_unq9,karip-na-french-creole_20207_unq10,karip-na-french-creole_20207_unq11,karip-na-french-creole_20207_unq12",
+      "b": "Kingston,Spanish Town,Portmore,Montego Bay,Mandeville,May Pen,Old Harbour,Savanna-la-Mar,Half Way Tree,Santa Cruz,Bog Walk,Ocho Rios",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1827,7 +1827,7 @@
     {
       "i": 20208,
       "name": "Louisiana Creole (dedicated)",
-      "b": "louisiana-creole_20208_unq1,louisiana-creole_20208_unq2,louisiana-creole_20208_unq3,louisiana-creole_20208_unq4,louisiana-creole_20208_unq5,louisiana-creole_20208_unq6,louisiana-creole_20208_unq7,louisiana-creole_20208_unq8,louisiana-creole_20208_unq9,louisiana-creole_20208_unq10,louisiana-creole_20208_unq11,louisiana-creole_20208_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1835,7 +1835,7 @@
     {
       "i": 20209,
       "name": "Réunion Creole (dedicated)",
-      "b": "r-union-creole_20209_unq1,r-union-creole_20209_unq2,r-union-creole_20209_unq3,r-union-creole_20209_unq4,r-union-creole_20209_unq5,r-union-creole_20209_unq6,r-union-creole_20209_unq7,r-union-creole_20209_unq8,r-union-creole_20209_unq9,r-union-creole_20209_unq10,r-union-creole_20209_unq11,r-union-creole_20209_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1843,7 +1843,7 @@
     {
       "i": 20210,
       "name": "Rodriguan Creole (dedicated)",
-      "b": "rodriguan-creole_20210_unq1,rodriguan-creole_20210_unq2,rodriguan-creole_20210_unq3,rodriguan-creole_20210_unq4,rodriguan-creole_20210_unq5,rodriguan-creole_20210_unq6,rodriguan-creole_20210_unq7,rodriguan-creole_20210_unq8,rodriguan-creole_20210_unq9,rodriguan-creole_20210_unq10,rodriguan-creole_20210_unq11,rodriguan-creole_20210_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1851,7 +1851,7 @@
     {
       "i": 20211,
       "name": "Saint Lucian Creole (dedicated)",
-      "b": "saint-lucian-creole_20211_unq1,saint-lucian-creole_20211_unq2,saint-lucian-creole_20211_unq3,saint-lucian-creole_20211_unq4,saint-lucian-creole_20211_unq5,saint-lucian-creole_20211_unq6,saint-lucian-creole_20211_unq7,saint-lucian-creole_20211_unq8,saint-lucian-creole_20211_unq9,saint-lucian-creole_20211_unq10,saint-lucian-creole_20211_unq11,saint-lucian-creole_20211_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1859,7 +1859,7 @@
     {
       "i": 20212,
       "name": "Tayo Creole (dedicated)",
-      "b": "tayo-creole_20212_unq1,tayo-creole_20212_unq2,tayo-creole_20212_unq3,tayo-creole_20212_unq4,tayo-creole_20212_unq5,tayo-creole_20212_unq6,tayo-creole_20212_unq7,tayo-creole_20212_unq8,tayo-creole_20212_unq9,tayo-creole_20212_unq10,tayo-creole_20212_unq11,tayo-creole_20212_unq12",
+      "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0
@@ -1867,7 +1867,7 @@
     {
       "i": 20213,
       "name": "Jersey Dutch (dedicated)",
-      "b": "jersey-dutch,jersey-dutch_20213_unq1,jersey-dutch_20213_unq2,jersey-dutch_20213_unq3,jersey-dutch_20213_unq4,jersey-dutch_20213_unq5,jersey-dutch_20213_unq6,jersey-dutch_20213_unq7,jersey-dutch_20213_unq8,jersey-dutch_20213_unq9,jersey-dutch_20213_unq10,jersey-dutch_20213_unq11,jersey-dutch_20213_unq12",
+      "b": "jersey-dutch,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place",
       "min": 4,
       "max": 11,
       "m": 0

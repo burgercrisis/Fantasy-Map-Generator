@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "generatedAt": "2026-01-05T04:46:12.057Z",
+    "task": "C7",
+    "version": "1.0.0",
+    "description": "Comprehensive synchronization validation report"
+  },
+  "executiveSummary": {
+    "finalMatchRate": "34.7",
+    "totalImprovement": "2.3",
+    "baselineRate": 32.4,
+    "validationStatus": "PASS",
+    "dataIntegrityScore": "100.0"
+  },
+  "synchronizationResults": {
+    "statistics": {
+      "totalContinentEntries": 2594,
+      "totalMixerEntries": 3526,
+      "strategyCounts": {
+        "exact": 0,
+        "case_insensitive": 841,
+        "simple_name": 0,
+        "component_match": 59,
+        "fuzzy_suffix": 1
+      },
+      "totalMatchedEntries": 901,
+      "unmatchedContinentEntries": 1693,
+      "unmatchedMixerEntries": 2628,
+      "matchRates": {
+        "baseline": 32.4,
+        "iso": 34.7,
+        "fuzzy": 34.734001542020046,
+        "improvement": 2.3340015420200473
+      },
+      "coverage": {
+        "continent": "34.7",
+        "mixer": "25.5"
+      }
+    },
+    "matchesByStrategy": {
+      "exact": 0,
+      "case_insensitive": 841,
+      "simple_name": 0,
+      "component_match": 59,
+      "fuzzy_suffix": 1
+    },
+    "unmatchedEntries": 1693
+  },
+  "validationResults": {
+    "summary": {
+      "totalValidated": 901,
+      "validMappings": 901,
+      "invalidIndices": 0,
+      "missingBases": 7,
+      "duplicateMappings": 0,
+      "legacyIndices": 635,
+      "newIndices": 129
+    },
+    "continentBreakdown": {
+      "africa": {
+        "total": 508,
+        "matched": 325,
+        "valid": 0,
+        "errors": 0,
+        "errorRate": "0.00",
+        "matchRate": "100.0"
+      },
+      "asia": {
+        "total": 844,
+        "matched": 89,
+        "valid": 0,
+        "errors": 0,
+        "errorRate": "0.00",
+        "matchRate": "100.0"
+      },
+      "europe": {
+        "total": 579,
+        "matched": 230,
+        "valid": 0,
+        "errors": 0,
+        "errorRate": "0.00",
+        "matchRate": "100.0"
+      },
+      "northAmerica": {
+        "total": 96,
+        "matched": 15,
+        "valid": 0,
+        "errors": 0,
+        "errorRate": "0.00",
+        "matchRate": "100.0"
+      },
+      "oceania": {
+        "total": 350,
+        "matched": 179,
+        "valid": 0,
+        "errors": 0,
+        "errorRate": "0.00",
+        "matchRate": "100.0"
+      },
+      "southAmerica": {
+        "total": 217,
+        "matched": 63,
+        "valid": 0,
+        "errors": 0,
+        "errorRate": "0.00",
+        "matchRate": "100.0"
+      }
+    },
+    "errors": [],
+    "warnings": [
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Admiralty",
+          "continentIndex": 2149,
+          "continent": "oceania",
+          "mixerIso": "admiralty",
+          "originalCase": "Admiralty",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "admiralty",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"admiralty\" has invalid or empty bases array"
+      },
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Meso-Melanesian",
+          "continentIndex": 2174,
+          "continent": "oceania",
+          "mixerIso": "meso-melanesian",
+          "originalCase": "Meso-Melanesian",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "meso-melanesian",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"meso-melanesian\" has invalid or empty bases array"
+      },
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Oceanic",
+          "continentIndex": 2175,
+          "continent": "oceania",
+          "mixerIso": "oceanic",
+          "originalCase": "Oceanic",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "oceanic",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"oceanic\" has invalid or empty bases array"
+      },
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Binanderean",
+          "continentIndex": 2176,
+          "continent": "oceania",
+          "mixerIso": "binanderean",
+          "originalCase": "Binanderean",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "binanderean",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"binanderean\" has invalid or empty bases array"
+      },
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Goilalan",
+          "continentIndex": 2178,
+          "continent": "oceania",
+          "mixerIso": "goilalan",
+          "originalCase": "Goilalan",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "goilalan",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"goilalan\" has invalid or empty bases array"
+      },
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Kolopom",
+          "continentIndex": 2179,
+          "continent": "oceania",
+          "mixerIso": "kolopom",
+          "originalCase": "Kolopom",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "kolopom",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"kolopom\" has invalid or empty bases array"
+      },
+      {
+        "type": "missing_bases",
+        "match": {
+          "continentName": "Batanic",
+          "continentIndex": 20313,
+          "continent": "oceania",
+          "mixerIso": "batanic",
+          "originalCase": "Batanic",
+          "matchType": "case_insensitive",
+          "sampleMixerEntry": {
+            "iso": "batanic",
+            "bases": []
+          },
+          "bases": [],
+          "confidence": 0.9
+        },
+        "message": "Mixer entry \"batanic\" has invalid or empty bases array"
+      },
+      {
+        "type": "reused_iso_code",
+        "match": {
+          "continentName": "Italian",
+          "continentIndex": 3,
+          "continent": "europe",
+          "mixerIso": "judeo-italian",
+          "originalCase": "Italian",
+          "matchType": "component_match",
+          "sampleMixerEntry": {
+            "iso": "judeo-italian",
+            "bases": [
+              3,
+              18,
+              458
+            ],
+            "matchedComponent": "italian",
+            "fullCode": "judeo-italian"
+          },
+          "bases": [
+            3,
+            18,
+            458
+          ],
+          "confidence": 0.9
+        },
+        "message": "ISO code \"judeo-italian\" used for multiple continent entries"
+      },
+      {
+        "type": "reused_iso_code",
+        "match": {
+          "continentName": "Catalan",
+          "continentIndex": 232,
+          "continent": "europe",
+          "mixerIso": "judeo-catalan",
+          "originalCase": "Catalan",
+          "matchType": "component_match",
+          "sampleMixerEntry": {
+            "iso": "judeo-catalan",
+            "bases": [
+              2,
+              4,
+              859
+            ],
+            "matchedComponent": "catalan",
+            "fullCode": "judeo-catalan"
+          },
+          "bases": [
+            2,
+            4,
+            859
+          ],
+          "confidence": 0.9
+        },
+        "message": "ISO code \"judeo-catalan\" used for multiple continent entries"
+      },
+      {
+        "type": "reused_iso_code",
+        "match": {
+          "continentName": "Quechua",
+          "continentIndex": 26,
+          "continent": "southAmerica",
+          "mixerIso": "southern-quechua",
+          "originalCase": "Quechua",
+          "matchType": "component_match",
+          "sampleMixerEntry": {
+            "iso": "southern-quechua",
+            "bases": [
+              2565
+            ],
+            "matchedComponent": "quechua",
+            "fullCode": "southern-quechua"
+          },
+          "bases": [
+            2565
+          ],
+          "confidence": 0.9
+        },
+        "message": "ISO code \"southern-quechua\" used for multiple continent entries"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "success",
+      "category": "validation",
+      "message": "All synchronization validations passed",
+      "action": "Proceed to final verification phase"
+    },
+    {
+      "priority": "medium",
+      "category": "data_quality",
+      "message": "7 mixer entries missing valid bases arrays",
+      "action": "Review and fix mixer map entries with missing bases"
+    },
+    {
+      "priority": "medium",
+      "category": "improvement",
+      "message": "Match rate below 40% target",
+      "action": "Consider additional fuzzy matching strategies or manual review"
+    }
+  ]
+}
