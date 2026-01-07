@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "generatedAt": "2025-12-22T22:50:02.134Z",
+    "totalReplacements": 96,
+    "reportVersion": "1.0.0"
+  },
+  "summary": {
+    "languageGroupsAffected": 2,
+    "totalPlaceholdersReplaced": 3,
+    "successfulReplacements": 6,
+    "failedReplacements": 17,
+    "coverageRate": 0.9999998807907104
+  },
+  "languageGroups": {
+    "TXB": {
+      "name": "]Sv'U\"}",
+      "statistics": {
+        "totalPlaceholders": 11,
+        "successfulReplacements": 14,
+        "failedReplacements": 9,
+        "sourcesUsed": [
+          "Z{7q0!6Sn(J8Hq(",
+          " 7U[$K~>|q",
+          "mA)"
+        ]
+      }
+    },
+    "vsqpI": {
+      "name": "d>T@L5*x",
+      "statistics": {
+        "totalPlaceholders": 4,
+        "successfulReplacements": 34,
+        "failedReplacements": 5,
+        "sourcesUsed": [
+          "w1grejS6`Tb",
+          "CLMm@y/!Efn'/6v"
+        ]
+      }
+    },
+    "VuRy": {
+      "name": "RF;(#MfD",
+      "statistics": {
+        "totalPlaceholders": 6,
+        "successfulReplacements": 21,
+        "failedReplacements": 0,
+        "sourcesUsed": [
+          "Htyhh\"bqQ{8",
+          "<w@m3fxHez",
+          "Vw3O >dzB$"
+        ]
+      }
+    },
+    "Gwrjm": {
+      "name": "BuF",
+      "statistics": {
+        "totalPlaceholders": 2,
+        "successfulReplacements": 1,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "szBs9",
+          "B[|Odn"
+        ]
+      }
+    },
+    "waV": {
+      "name": "zYx",
+      "statistics": {
+        "totalPlaceholders": 15,
+        "successfulReplacements": 11,
+        "failedReplacements": 9,
+        "sourcesUsed": [
+          "\\]XR&.J;{wd4&",
+          "4Wa\\Ai#v6b'"
+        ]
+      }
+    },
+    "JnYA": {
+      "name": "GiY",
+      "statistics": {
+        "totalPlaceholders": 28,
+        "successfulReplacements": 18,
+        "failedReplacements": 10,
+        "sourcesUsed": [
+          "leL=@q/:_mM4VQ"
+        ]
+      }
+    },
+    "CDC": {
+      "name": "I&0NFu",
+      "statistics": {
+        "totalPlaceholders": 38,
+        "successfulReplacements": 32,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          "^Qdp5{e_\\)^BDnM"
+        ]
+      }
+    },
+    "csc": {
+      "name": "`yLv[/,",
+      "statistics": {
+        "totalPlaceholders": 1,
+        "successfulReplacements": 5,
+        "failedReplacements": 9,
+        "sourcesUsed": [
+          "h[u<g"
+        ]
+      }
+    },
+    "rup": {
+      "name": "9[*nO",
+      "statistics": {
+        "totalPlaceholders": 6,
+        "successfulReplacements": 16,
+        "failedReplacements": 4,
+        "sourcesUsed": [
+          "*hI+T|MT/+sn",
+          "~E)riNmEkGrR"
+        ]
+      }
+    },
+    "GPqOmm": {
+      "name": "iI/@",
+      "statistics": {
+        "totalPlaceholders": 16,
+        "successfulReplacements": 11,
+        "failedReplacements": 0,
+        "sourcesUsed": [
+          "?ibCf"
+        ]
+      }
+    }
+  }
+}

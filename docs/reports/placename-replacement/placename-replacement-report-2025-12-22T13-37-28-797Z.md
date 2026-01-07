@@ -1,0 +1,64 @@
+# Placename Replacement Report
+
+Generated: 2025-12-22T13:37:28.656Z
+Report Version: 1.0.0
+
+## Executive Summary
+
+- **Total Replacement Operations**: 0
+- **Language Groups Affected**: 1
+- **Placeholders Replaced**: 1
+- **Successful Replacements**: 1
+- **Failed Replacements**: 0
+- **Overall Success Rate**: 50.0%
+
+## Language Groups Overview
+
+### Qtn
+
+- **Total Placeholders**: 50
+- **Successful Replacements**: 19
+- **Failed Replacements**: 6
+- **Sources Used**: 3
+- **Primary Sources**: s03F, \l~5^T,#, Nk]V1oD\D*(?
+
+### Vnsk
+
+- **Total Placeholders**: 45
+- **Successful Replacements**: 8
+- **Failed Replacements**: 1
+- **Sources Used**: 2
+- **Primary Sources**: ;^'"\, -!c+
+
+### kLib
+
+- **Total Placeholders**: 44
+- **Successful Replacements**: 17
+- **Failed Replacements**: 0
+- **Sources Used**: 2
+- **Primary Sources**: "M', SXpM'+@l!
+
+### rIJP
+
+- **Total Placeholders**: 14
+- **Successful Replacements**: 13
+- **Failed Replacements**: 2
+- **Sources Used**: 2
+- **Primary Sources**: v.*75sXDr;, 1;6{USdD[
+
+### LIV
+
+- **Total Placeholders**: 5
+- **Successful Replacements**: 23
+- **Failed Replacements**: 8
+- **Sources Used**: 2
+- **Primary Sources**: 6,CVN:1, s8qr5
+
+## Recommendations
+
+- **Action Required**: Success rate is below 80%. Review failed replacements and consider additional research sources.
+- **Quality Concern**: Average confidence is low. Consider using more reliable sources or additional validation.
+
+---
+
+*This report was generated automatically by the Placename Replacement System*

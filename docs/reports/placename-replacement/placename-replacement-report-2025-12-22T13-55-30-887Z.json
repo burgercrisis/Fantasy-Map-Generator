@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "generatedAt": "2025-12-22T13:55:30.773Z",
+    "totalReplacements": 93,
+    "reportVersion": "1.0.0"
+  },
+  "summary": {
+    "languageGroupsAffected": 2,
+    "totalPlaceholdersReplaced": 496,
+    "successfulReplacements": 36,
+    "failedReplacements": 2,
+    "coverageRate": 0.6449195146560669
+  },
+  "languageGroups": {
+    "HxT": {
+      "name": "TN-gx?s`GH",
+      "statistics": {
+        "totalPlaceholders": 18,
+        "successfulReplacements": 37,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          ";iu* |\\xzV Ys]|"
+        ]
+      }
+    },
+    "sRh": {
+      "name": "IC)r",
+      "statistics": {
+        "totalPlaceholders": 7,
+        "successfulReplacements": 29,
+        "failedReplacements": 2,
+        "sourcesUsed": [
+          "8$\"#Imd|T3T",
+          "7;3>"
+        ]
+      }
+    },
+    "eIv": {
+      "name": "ph>W",
+      "statistics": {
+        "totalPlaceholders": 42,
+        "successfulReplacements": 6,
+        "failedReplacements": 9,
+        "sourcesUsed": [
+          "yiGo:y",
+          "ap~&TdS1\\pqOGz",
+          "Gg6;UE~;6O"
+        ]
+      }
+    },
+    "mdy": {
+      "name": "}NbD",
+      "statistics": {
+        "totalPlaceholders": 47,
+        "successfulReplacements": 4,
+        "failedReplacements": 8,
+        "sourcesUsed": [
+          "Q@7\\I(m~r<q",
+          "aTQwLc\\T7%fjv)"
+        ]
+      }
+    },
+    "yeDxRw": {
+      "name": "wB0)~xh",
+      "statistics": {
+        "totalPlaceholders": 39,
+        "successfulReplacements": 30,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          "#)B_4]q",
+          "CTJ"
+        ]
+      }
+    },
+    "eVY": {
+      "name": "*-rgMzdc%",
+      "statistics": {
+        "totalPlaceholders": 5,
+        "successfulReplacements": 26,
+        "failedReplacements": 10,
+        "sourcesUsed": [
+          "ET!O/Zh",
+          "f`A9sgT^3Ef:d}y"
+        ]
+      }
+    },
+    "EIifc": {
+      "name": " Fv%h",
+      "statistics": {
+        "totalPlaceholders": 32,
+        "successfulReplacements": 26,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "gaXC4"
+        ]
+      }
+    }
+  }
+}

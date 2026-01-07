@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "generatedAt": "2025-12-22T13:52:50.019Z",
+    "totalReplacements": 92,
+    "reportVersion": "1.0.0"
+  },
+  "summary": {
+    "languageGroupsAffected": 1,
+    "totalPlaceholdersReplaced": 7,
+    "successfulReplacements": 80,
+    "failedReplacements": 3,
+    "coverageRate": 0.7265512347221375
+  },
+  "languageGroups": {
+    "bSl": {
+      "name": "KE4",
+      "statistics": {
+        "totalPlaceholders": 16,
+        "successfulReplacements": 22,
+        "failedReplacements": 1,
+        "sourcesUsed": [
+          "wuJ@a$",
+          ",5l%LkU*&<"
+        ]
+      }
+    },
+    "IvN": {
+      "name": "pU^&!l.^/C",
+      "statistics": {
+        "totalPlaceholders": 28,
+        "successfulReplacements": 38,
+        "failedReplacements": 8,
+        "sourcesUsed": [
+          "*O`r`",
+          "`0`7/}"
+        ]
+      }
+    },
+    "EZq": {
+      "name": "HOCX",
+      "statistics": {
+        "totalPlaceholders": 7,
+        "successfulReplacements": 5,
+        "failedReplacements": 5,
+        "sourcesUsed": [
+          "TTOvJ&qHrN",
+          "9]1I)5",
+          "R;'^re0("
+        ]
+      }
+    },
+    "bwIv": {
+      "name": "vYi*{P",
+      "statistics": {
+        "totalPlaceholders": 26,
+        "successfulReplacements": 20,
+        "failedReplacements": 8,
+        "sourcesUsed": [
+          "8 )@s",
+          "`=B0Q'f",
+          "Akz*lT[~Ru 6"
+        ]
+      }
+    },
+    "ZLn": {
+      "name": "jYc_",
+      "statistics": {
+        "totalPlaceholders": 28,
+        "successfulReplacements": 28,
+        "failedReplacements": 10,
+        "sourcesUsed": [
+          "uX-olgBxbcwS{",
+          "9}T'+*n{9"
+        ]
+      }
+    },
+    "RYQ": {
+      "name": "ogMVYR",
+      "statistics": {
+        "totalPlaceholders": 3,
+        "successfulReplacements": 29,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          "G/LJn~Y3b9"
+        ]
+      }
+    },
+    "mjsZNV": {
+      "name": "m1RgS@S",
+      "statistics": {
+        "totalPlaceholders": 39,
+        "successfulReplacements": 15,
+        "failedReplacements": 1,
+        "sourcesUsed": [
+          "J|#v1cP\"*\"=n"
+        ]
+      }
+    },
+    "kLPQUf": {
+      "name": "JK/]E3%V,",
+      "statistics": {
+        "totalPlaceholders": 27,
+        "successfulReplacements": 24,
+        "failedReplacements": 7,
+        "sourcesUsed": [
+          "'->vn4l"
+        ]
+      }
+    }
+  }
+}

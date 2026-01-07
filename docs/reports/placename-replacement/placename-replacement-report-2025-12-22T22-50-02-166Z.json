@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "generatedAt": "2025-12-22T22:50:02.134Z",
+    "totalReplacements": 1,
+    "reportVersion": "1.0.0"
+  },
+  "summary": {
+    "languageGroupsAffected": 6,
+    "totalPlaceholdersReplaced": 402,
+    "successfulReplacements": 78,
+    "failedReplacements": 18,
+    "coverageRate": 0.7818758487701416
+  },
+  "languageGroups": {
+    "WKrmo": {
+      "name": "63y`RJKuHn",
+      "statistics": {
+        "totalPlaceholders": 26,
+        "successfulReplacements": 27,
+        "failedReplacements": 7,
+        "sourcesUsed": [
+          "X cjt7Da,5'{Y%'",
+          "kjou$+ kH&",
+          "ug*%"
+        ]
+      }
+    },
+    "dla": {
+      "name": "@;];a",
+      "statistics": {
+        "totalPlaceholders": 6,
+        "successfulReplacements": 14,
+        "failedReplacements": 4,
+        "sourcesUsed": [
+          "vznBGn.`"
+        ]
+      }
+    },
+    "TUl": {
+      "name": "\\&+CYk<X",
+      "statistics": {
+        "totalPlaceholders": 29,
+        "successfulReplacements": 36,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "J73%a7sc3VdxIW",
+          "xXEA&2+(AQlT5U"
+        ]
+      }
+    },
+    "Hvct": {
+      "name": "&EK+o",
+      "statistics": {
+        "totalPlaceholders": 42,
+        "successfulReplacements": 38,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          "ZY2!)5\"BnzK>",
+          "!4=34u3z.U",
+          "iI4K9H6l#"
+        ]
+      }
+    },
+    "ApfibA": {
+      "name": "-|X",
+      "statistics": {
+        "totalPlaceholders": 43,
+        "successfulReplacements": 15,
+        "failedReplacements": 4,
+        "sourcesUsed": [
+          "m%g})=,\\o",
+          "]?^gC&pf$\"i@9~<",
+          "0=[=80KG?uIP?;"
+        ]
+      }
+    },
+    "OTZC": {
+      "name": "q u",
+      "statistics": {
+        "totalPlaceholders": 11,
+        "successfulReplacements": 10,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "$5z",
+          "uZ!r6\\DF"
+        ]
+      }
+    },
+    "NEJ": {
+      "name": "&KEmQ",
+      "statistics": {
+        "totalPlaceholders": 15,
+        "successfulReplacements": 13,
+        "failedReplacements": 7,
+        "sourcesUsed": [
+          ":W_0CMNIRk",
+          "7m ;WSi"
+        ]
+      }
+    },
+    "mSXdy": {
+      "name": "H87g<tP",
+      "statistics": {
+        "totalPlaceholders": 17,
+        "successfulReplacements": 14,
+        "failedReplacements": 2,
+        "sourcesUsed": [
+          "'8C6T}"
+        ]
+      }
+    }
+  }
+}

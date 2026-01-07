@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "generatedAt": "2025-12-22T22:50:02.134Z",
+    "totalReplacements": 52,
+    "reportVersion": "1.0.0"
+  },
+  "summary": {
+    "languageGroupsAffected": 3,
+    "totalPlaceholdersReplaced": 493,
+    "successfulReplacements": 42,
+    "failedReplacements": 1,
+    "coverageRate": 0.6938162446022034
+  },
+  "languageGroups": {
+    "lkV": {
+      "name": "Y}]\\",
+      "statistics": {
+        "totalPlaceholders": 2,
+        "successfulReplacements": 12,
+        "failedReplacements": 9,
+        "sourcesUsed": [
+          "=e,vwY{=,r?",
+          "vZc.5",
+          "m+<Zwx2\\,"
+        ]
+      }
+    },
+    "bqkN": {
+      "name": "0$fy",
+      "statistics": {
+        "totalPlaceholders": 6,
+        "successfulReplacements": 20,
+        "failedReplacements": 9,
+        "sourcesUsed": [
+          "Gc q"
+        ]
+      }
+    },
+    "WWl": {
+      "name": "G)t.(v",
+      "statistics": {
+        "totalPlaceholders": 31,
+        "successfulReplacements": 7,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "(QiY#N9sJ`Tc",
+          "e\\=NO"
+        ]
+      }
+    },
+    "call": {
+      "name": "S5%",
+      "statistics": {
+        "totalPlaceholders": 27,
+        "successfulReplacements": 24,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "69K~ #U",
+          "K}xS;\\(fidUe[`",
+          "y>Fw2S}LUoH-"
+        ]
+      }
+    },
+    "ISRU": {
+      "name": "]valuear",
+      "statistics": {
+        "totalPlaceholders": 24,
+        "successfulReplacements": 27,
+        "failedReplacements": 7,
+        "sourcesUsed": [
+          "y`Y+^bM"
+        ]
+      }
+    },
+    "aropr": {
+      "name": "3BVIuy2",
+      "statistics": {
+        "totalPlaceholders": 36,
+        "successfulReplacements": 15,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          "Xo\\)VE00Y@\\j",
+          "~nH=ou{mC03e",
+          "U$CL7W>7=r's/,"
+        ]
+      }
+    },
+    "name": {
+      "name": "XFuE",
+      "statistics": {
+        "totalPlaceholders": 33,
+        "successfulReplacements": 8,
+        "failedReplacements": 1,
+        "sourcesUsed": [
+          "N8/dD5l",
+          "0$G"
+        ]
+      }
+    },
+    "bind": {
+      "name": "4|c3-f+$",
+      "statistics": {
+        "totalPlaceholders": 3,
+        "successfulReplacements": 38,
+        "failedReplacements": 0,
+        "sourcesUsed": [
+          "eFa6_Nx'",
+          "qa_~yL",
+          "}wYO"
+        ]
+      }
+    },
+    "Uxf": {
+      "name": "QDuo76",
+      "statistics": {
+        "totalPlaceholders": 33,
+        "successfulReplacements": 1,
+        "failedReplacements": 6,
+        "sourcesUsed": [
+          "s8U",
+          "j:3|$]_sA5kS*sD"
+        ]
+      }
+    },
+    "Cwy": {
+      "name": "n~M",
+      "statistics": {
+        "totalPlaceholders": 45,
+        "successfulReplacements": 35,
+        "failedReplacements": 7,
+        "sourcesUsed": [
+          "{Wuq;(>K"
+        ]
+      }
+    }
+  }
+}

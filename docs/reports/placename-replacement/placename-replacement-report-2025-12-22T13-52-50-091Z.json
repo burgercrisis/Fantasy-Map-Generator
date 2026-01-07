@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generatedAt": "2025-12-22T13:52:50.019Z",
+    "totalReplacements": 5,
+    "reportVersion": "1.0.0"
+  },
+  "summary": {
+    "languageGroupsAffected": 10,
+    "totalPlaceholdersReplaced": 8,
+    "successfulReplacements": 1,
+    "failedReplacements": 2,
+    "coverageRate": null
+  },
+  "languageGroups": {
+    "bindtyplen": {
+      "name": ":gtH",
+      "statistics": {
+        "totalPlaceholders": 17,
+        "successfulReplacements": 5,
+        "failedReplacements": 10,
+        "sourcesUsed": [
+          "<2/",
+          ":X/Y}C0",
+          "=A{UA_4o+"
+        ]
+      }
+    },
+    "revalue": {
+      "name": ">pRM",
+      "statistics": {
+        "totalPlaceholders": 31,
+        "successfulReplacements": 7,
+        "failedReplacements": 1,
+        "sourcesUsed": [
+          "alus6namexprot",
+          "y|#dd{$W{#nB",
+          "PV|Wr;qo"
+        ]
+      }
+    },
+    "ZXOi": {
+      "name": "k&F-2",
+      "statistics": {
+        "totalPlaceholders": 33,
+        "successfulReplacements": 9,
+        "failedReplacements": 3,
+        "sourcesUsed": [
+          "\"%S,Y&&l^%%*!\"",
+          "o,8"
+        ]
+      }
+    },
+    "chg": {
+      "name": "(1Y",
+      "statistics": {
+        "totalPlaceholders": 5,
+        "successfulReplacements": 1,
+        "failedReplacements": 10,
+        "sourcesUsed": [
+          "O^{<AosFiU:"
+        ]
+      }
+    }
+  }
+}
