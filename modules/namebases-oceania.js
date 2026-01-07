@@ -2,7 +2,7 @@
 
 window.OceaniaNameBases = [
   {
-    "name": "Hawaiian (dedicated)",
+    "name": "Hawaiian",
     "i": 20095,
     "min": 4,
     "max": 12,
@@ -425,7 +425,7 @@ window.OceaniaNameBases = [
     "b": "Kalabahi,Alor,Alor Kecil,Alor Besar,Teluk Mutiara,Bukapiting,Baranusa,Pantar,Marisa,Atambua,Kupang,Larantuka,Aitui,Liba,Lantoka,Waisika,Kamot,Siduan,Mebung,Kafelmani,Buraga,Bakalan,Pura,Ternate Island (Alor)"
   },
   {
-    "name": "Tiwi (dedicated)",
+    "name": "Tiwi",
     "i": 20033,
     "min": 4,
     "max": 12,
@@ -479,7 +479,7 @@ window.OceaniaNameBases = [
     "b": "Agats,Citak,Kaokonao,Kokonao,Tanam,Asmat,Suator,Kepi,Okaba,Merauke,Obaa,Bade,Passel,Yowon"
   },
   {
-    "name": "AsmatÎ“Ã‡Ã´Kamoro",
+    "name": "Asmat-Citam-Kamoro",
     "i": 199,
     "min": 4,
     "max": 11,
@@ -773,7 +773,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bami,Bamenda,Bali,Bamessing,Babanki,Bafut,Kumbo,Nkambe,Mbengwi,Bambalang,NkambÃ©"
+    "b": "Bami,Bamenda,Bali,Bamessing,Babanki,Bafut,Kumbo,Nkambe,Mbengwi,Bambalang,Nkambé"
   },
   {
     "name": "Baramu",
@@ -962,7 +962,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bunak,Timor-Leste,LiquiÃ§a,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
+    "b": "Bunak,Timor-Leste,Liquiça,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
   },
   {
     "name": "Burumakok",
@@ -983,13 +983,13 @@ window.OceaniaNameBases = [
     "b": "Buruwai,Papua New Guinea,Southern Highlands,Mendi,Imbonggu,Nembil,Erave,Laiagam,Kar,Porgera,Mt Hagen"
   },
   {
-    "name": "Cemuhâ”œÂ«",
+    "name": "Cemuhi",
     "i": 1420,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "CemuhÃ­,Yucatan,Campeche,Mexico,Belize,Gulf of Mexico,Maya Region,Caribbean"
+    "b": "Cemuhi,Yucatan,Campeche,Mexico,Belize,Gulf of Mexico,Maya Region,Caribbean"
   },
   {
     "name": "Carolinian",
@@ -1190,13 +1190,13 @@ window.OceaniaNameBases = [
     "b": "Enga,Wabag,Lae,Papua New Guinea,Morobe Province,Oceania"
   },
   {
-    "name": "Ese Ã–mie",
+    "name": "Ese Ömie",
     "i": 1772,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ese Ã–mie,Kuopio,HaapajÃ¤rvi,Oulu,Finland,Bothnian,Baltic Sea"
+    "b": "Ese Ömie,Kuopio,Haapajarvi,Oulu,Finland,Bothnian,Baltic Sea"
   },
   {
     "name": "Ewage",
@@ -1232,7 +1232,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lospalos,Baucau,Tutuala,Fatularu,Iliomar,Ossu,LautÃ©m,Timor-Leste,Timor Island,Oceania"
+    "b": "Lospalos,Baucau,Tutuala,Fatularu,Iliomar,Ossu,Lautém,Timor-Leste,Timor Island,Oceania"
   },
   {
     "name": "E",
@@ -1718,7 +1718,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Manila,Quezon City,Cebu City,Davao City,Zamboanga City,Antipolo,Pasig,Taguig,Valenzuela,DasmariÃ±as,Bacoor,General Santos"
+    "b": "Manila,Quezon City,Cebu City,Davao City,Zamboanga City,Antipolo,Pasig,Taguig,Valenzuela,Dasmariñas,Bacoor,General Santos"
   },
   {
     "name": "South Mindanao",
@@ -1763,7 +1763,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,MuÃ±oz,San Jose"
+    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,Muñoz,San Jose"
   },
   {
     "name": "Kamono",
@@ -1988,7 +1988,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Honiara,Port Vila,Suva,Nuku'alofa,Apia,NoumÃ©a,Mata-Utu,Alofi,Avarua,Adamstown,Papeete,Majuro"
+    "b": "Honiara,Port Vila,Suva,Nuku'alofa,Apia,Nouméa,Mata-Utu,Alofi,Avarua,Adamstown,Papeete,Majuro"
   },
   {
     "name": "Meso-Melanesian",
@@ -2006,7 +2006,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Funafuti,Tarawa,Yaren,Palikir,Majuro,Port Vila,Honiara,Suva,Nuku'alofa,Apia,NoumÃ©a,Mata-Utu"
+    "b": "Funafuti,Tarawa,Yaren,Palikir,Majuro,Port Vila,Honiara,Suva,Nuku'alofa,Apia,Nouméa,Mata-Utu"
   },
   {
     "name": "Binanderean",
@@ -2204,7 +2204,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaniruma,MabÃ¼l,KhafalÃ¼o,MyanÃ¼,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
+    "b": "Yaniruma,Mabül,Khafalüo,Myanü,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
   },
   {
     "name": "Kosraean",
@@ -2342,7 +2342,7 @@ window.OceaniaNameBases = [
     "b": "Apia,Vaitele,Faleula,Siusega,Afega,Leulumoega,Fasitoouta,Malie,Vailele,Vailima,Saleimoa,Faleasiu,Samatau,Faleolo,Satapuala,Tafuna,Pago Pago,Fagatogo,Utulei,Nu'uuli,Leone,Vailoa,Afono,Vatia,Aua,Laulii,Lalomanu,Safotu,Asau,Satupaitea"
   },
   {
-    "name": "Awa (dedicated)",
+    "name": "Awa",
     "i": 2734,
     "min": 4,
     "max": 11,
@@ -2351,7 +2351,7 @@ window.OceaniaNameBases = [
     "b": "Kainantu,Okapa,Goroka,Lufa,Unavi,Asaro,Benabena,Daulo,Henganofi,Yagaria,Kamano,Fore"
   },
   {
-    "name": "Awbono (dedicated)",
+    "name": "Awbono",
     "i": 2736,
     "min": 4,
     "max": 11,
@@ -2360,7 +2360,7 @@ window.OceaniaNameBases = [
     "b": "Wabag,Porgera,Lagaip,Wapenamanda,Kandep,Kompiam,Porgera Valley,Laiagam,Ambum,Yengis,Maip,Muritaka"
   },
   {
-    "name": "Awin (dedicated)",
+    "name": "Awin",
     "i": 2737,
     "min": 4,
     "max": 11,
@@ -2369,7 +2369,7 @@ window.OceaniaNameBases = [
     "b": "Kiunga,Tabubil,Telefomin,Ningerum,Olsobip,Balimo,Daru,Kiunga District,Star Mountains,Ok Tedi,Fly River,Western Province"
   },
   {
-    "name": "Beami (dedicated)",
+    "name": "Beami",
     "i": 2741,
     "min": 4,
     "max": 11,
@@ -2405,7 +2405,7 @@ window.OceaniaNameBases = [
     "b": "Majuro,Ebeye,Ailinglaplap,Jaluit,Wotje,Kwajalein,Enewetak,Ujelang,Bikini,Rongelap,Namoro,Ujae,Ebon,Kili,Mili,Aur,Lae"
   },
   {
-    "name": "Palauan (dedicated)",
+    "name": "Palauan",
     "i": 20117,
     "min": 4,
     "max": 12,
@@ -2414,7 +2414,7 @@ window.OceaniaNameBases = [
     "b": "Koror,Airai,Meliikeok,Ngchesar,Ngeremlengui,Ngerchelong,Ngaraard,Peleliu,Angaur,Kayangel,Sonsorol,Hatohobei,Rock Islands,Urukthapel,Meyuns,Ngardmau,Melekeok,Ngerulmud,Babeldaob"
   },
   {
-    "name": "Chamorro (dedicated)",
+    "name": "Chamorro",
     "i": 20116,
     "min": 4,
     "max": 12,
@@ -2432,7 +2432,7 @@ window.OceaniaNameBases = [
     "b": "Avarua,Takuvaine,Matavera,Ngatangiia,Nikao,Tupapa,Aitutaki,Atiu,Mitiaro,Mauke,RarotongaTown,AvaruaTown,TakuvaineTown,MataveraTown"
   },
   {
-    "name": "New Zealand Pidgin English (dedicated)",
+    "name": "New Zealand Pidgin English",
     "i": 20012,
     "min": 4,
     "max": 12,
@@ -2441,7 +2441,7 @@ window.OceaniaNameBases = [
     "b": "Auckland,Wellington,Christchurch,Dunedin,Invercargill,Port Nicholson,Russell,Thames,Hokitika,Nelson,Greymouth,Oamaru,Tauranga,New Plymouth,Gisborne,Napier,Whanganui,Tolaga Bay,Whangarei,Palmerston North,Hastings,Lower Hutt,Upper Hutt,Porirua,Hibiscus Coast,Waitakere,North Shore,Manukau"
   },
   {
-    "name": "Papua New Guinea Pidgin (dedicated)",
+    "name": "Papua New Guinea Pidgin",
     "i": 20013,
     "min": 4,
     "max": 12,
@@ -2450,7 +2450,7 @@ window.OceaniaNameBases = [
     "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Rabaul,Kokopo,Kimbe,Alotau,Kavieng,Vanimo,Wewak,Daru,Kundiawa,Popondetta,Kerema,Arawa,Buka,Manus,Bogia,Mendi,Lorengau,Wau,Bulolo,Kainantu,Ialibu,Banz,Kiunga"
   },
   {
-    "name": "Yapese (dedicated)",
+    "name": "Yapese",
     "i": 20020,
     "min": 4,
     "max": 11,
@@ -2459,7 +2459,7 @@ window.OceaniaNameBases = [
     "b": "Yap,Waqab,Waqaab,Wa'ab,Waab,Marbaaq,Marfach,Yap Proper,Gagil-Tamil,Maap,Rumung,Tagireeng,Mount Taabiywol,Dalipebinaw,Fanif,Gagil,Gilman,Kanifay,Rull,Tomil,Weloy,Colonia"
   },
   {
-    "name": "Maisin (dedicated)",
+    "name": "Maisin",
     "i": 20021,
     "min": 4,
     "max": 11,
@@ -2468,7 +2468,7 @@ window.OceaniaNameBases = [
     "b": "Maisin,Collingwood Bay,Cape Nelson,Uwe,Popondetta,Kokoda,Tufi,Higaturu,Afore,Oro Bay,Safia,Ijivitari,Sohe,Kira,Tamata,Buna,Gona,Sanananda,Mount Lamington"
   },
   {
-    "name": "Norfuk (dedicated)",
+    "name": "Norfuk",
     "i": 20022,
     "min": 4,
     "max": 11,
@@ -2477,7 +2477,7 @@ window.OceaniaNameBases = [
     "b": "Norfuk,Norf'k,Norf'k Ailen,Norfolk Island,Kingston,Burnt Pine,Phillip Island,Nepean Island,Lord Howe Island,New Caledonia,A Trip Ina Stik,Steel Point,Cascade,Middlegate,Longridge,Bumbora,Point Ross,Point Hunter,Point Howe,Anson Bay,Duncombe Bay,Ball Bay,Collins Head,Bloody Bridge,Puppy's Point,Steels Point,Captain Cook Lookout,Mount Pitt,Mount Bates,Mount Jervis,Crystal Pool,The Chord,Emily Bay,Slaughter Bay,Cemetery Bay,Old Settlement,Ned's Beach,Blinkenthorpe,Lagoon,Mount Gower"
   },
   {
-    "name": "Pitkern (dedicated)",
+    "name": "Pitkern",
     "i": 20023,
     "min": 4,
     "max": 11,
@@ -2486,7 +2486,7 @@ window.OceaniaNameBases = [
     "b": "Pitkern,Pitkern Ailen,Pitcairn Island,Pitcairn Islands,Adamstown,Bounty Bay,Pawala Valley Ridge,Henderson,Ducie,Oeno,Mangareva,St. Paul's Point,Down Rope,Christian's Cave,Ginger Valley,Gudgeon,Taro Ground,Tedside,The Edge,The Rope,Water Valley,Bounty,Aute Valley,Big Fence,Bitey-Bitey,Brown's Water,Flatland,Garnet's Ridge,Hulianda,John Catch-a-Cow,John Mill's Gully,Little George,Matt's Rocks,McCoy's Valley,Nanny's Hole,Nellie's,Outer Valley,Pig's Hole,Sand Valley,Tautama"
   },
   {
-    "name": "Unserdeutsch (dedicated)",
+    "name": "Unserdeutsch",
     "i": 20024,
     "min": 4,
     "max": 12,
@@ -2495,16 +2495,16 @@ window.OceaniaNameBases = [
     "b": "Rabaul,Kokopo,Vunapope,Gazelle Peninsula,New Britain,East New Britain,Simpson Harbour,Matupit Island,Tavurvur,Vulcan,Herbertshöhe,Baining Mountains,Keravat,Bitapaka,Malaguna,Namanula,Queen Emma,Neu-Pommern"
   },
   {
-    "name": "Kriol (dedicated)",
+    "name": "Kriol",
     "i": 20027,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Darwin,Palmerston,Jabiru,Katherine,Tennant Creek,Alice Springs,Ngukurr,Barunga,Wugularr,Borroloola,Daly River,Wadeye,Timber Creek,Kununurra,Halls Creek,Fitzroy Crossing,Derby,Broome,Port Hedland,Roebourne,Kalgoorlie,Bathurst Island,Gove,Nhulunbuy,Yarralin,Lajamanu,Kalkaringi,Daguragu,Barunga,Beswick,Minyerri,Jilkminggan"
+    "b": "Darwin,Palmerston,Jabiru,Katherine,Tennant Creek,Alice Springs,Ngukurr,Barunga,Wugularr,Borroloola,Daly River,Wadeye,Timber Creek,Kununurra,Halls Creek,Fitzroy Crossing,Derby,Broome,Port Hedland,Roebourne,Kalgoorlie,Bathurst Island,Gove,Nhulunbuy,Yarralin,Lajamanu,Kalkaringi,Daguragu,Beswick,Minyerri,Jilkminggan"
   },
   {
-    "name": "Laragia (dedicated)",
+    "name": "Laragia",
     "i": 20028,
     "min": 4,
     "max": 12,
@@ -2513,16 +2513,16 @@ window.OceaniaNameBases = [
     "b": "Darwin,Palmerston,Casuarina,Nightcliff,Fannie Bay,Rapid Creek,Larrakeyah,Stuart Park,Parap,Winnellie,Cullen Bay,Mindil Beach,East Point,Charles Darwin National Park,Coolalinga,Howard Springs"
   },
   {
-    "name": "Wagiman (dedicated)",
+    "name": "Wagiman",
     "i": 20029,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Pine Creek,Katherine,Adelaide River,Batchelor,Litchfield,Daly River,Stuart Highway,Hayes Creek,Rum Jungle,Edith Falls,Nitmiluk,Gunlom,Howard Springs,Borroloola,Jabiru,Douglas River,Oolloo,Claravale,Kybrook,Umbrawarra,Tjuwaliyn,Butterfly Gorge,Fergusson River,Flora River,Jatbula,Umbrawarra"
+    "b": "Pine Creek,Katherine,Adelaide River,Batchelor,Litchfield,Daly River,Stuart Highway,Hayes Creek,Rum Jungle,Edith Falls,Nitmiluk,Gunlom,Howard Springs,Borroloola,Jabiru,Douglas River,Oolloo,Claravale,Kybrook,Umbrawarra,Tjuwaliyn,Butterfly Gorge,Fergusson River,Flora River,Jatbula"
   },
   {
-    "name": "Gaagudju (dedicated)",
+    "name": "Gaagudju",
     "i": 20031,
     "min": 4,
     "max": 12,
@@ -2532,7 +2532,7 @@ window.OceaniaNameBases = [
   },
 
   {
-    "name": "Umbugarla (dedicated)",
+    "name": "Umbugarla",
     "i": 20034,
     "min": 4,
     "max": 12,
@@ -2541,7 +2541,7 @@ window.OceaniaNameBases = [
     "b": "Umbugarla,Arnhem Land,Maningrida,Oenpelli,Gunbalanya,Roper River,Ngukurr,Katherine,Alligator Rivers,South Alligator,West Alligator,East Alligator,Cooinda,Jabiru,Ubirr,Nourlangie,Yellow Water,Jim Jim,Twin Falls,Barramundi Gorge"
   },
   {
-    "name": "Wadjiginy (dedicated)",
+    "name": "Wadjiginy",
     "i": 20035,
     "min": 4,
     "max": 12,
@@ -2550,7 +2550,7 @@ window.OceaniaNameBases = [
     "b": "Wadjiginy,Wogait,Batjamalh,Daly River,Nauiyu,Wadeye,Peppimenarti,Palumpa,Timber Creek,Port Keats,Anson Bay,Peron Islands,Fog Bay,Point Blaze,Finniss River,Belyuen,Mandorah,Wagait Beach,Cox Peninsula,Dundee Beach,Bynoe Harbour"
   },
   {
-    "name": "Iwaidja (dedicated)",
+    "name": "Iwaidja",
     "i": 20036,
     "min": 4,
     "max": 12,
@@ -2559,7 +2559,7 @@ window.OceaniaNameBases = [
     "b": "Iwaidja,Iwaja,Croker Island,Minjilang,Cobourg Peninsula,Arnhem Land,Darwin,Palmerston,Maningrida,Gunbalanya,Arafura Sea,Smith Point,Port Essington,Victoria Settlement,Black Point,Seven Spirit Bay,TrePang Bay,Vashon Head,Popham Bay,Alcaro Bay,Coral Bay"
   },
   {
-    "name": "Maung (dedicated)",
+    "name": "Maung",
     "i": 20037,
     "min": 4,
     "max": 12,
@@ -2568,16 +2568,16 @@ window.OceaniaNameBases = [
     "b": "Maung,Mawng,Goulburn Island,Warruwi,Arnhem Land,Arafura Sea,Darwin,Maningrida,Croker Island,Cobourg Peninsula,South Goulburn Island,North Goulburn Island"
   },
   {
-    "name": "Kunwinjku (dedicated)",
+    "name": "Kunwinjku",
     "i": 20038,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kunwinjku,Gunbalanya,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Arnhem Land,East Alligator River,Magela Creek,Gunbalanya,Injalak Hill"
+    "b": "Kunwinjku,Gunbalanya,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Arnhem Land,East Alligator River,Magela Creek,Injalak Hill"
   },
   {
-    "name": "Murrinh Patha (dedicated)",
+    "name": "Murrinh Patha",
     "i": 20039,
     "min": 4,
     "max": 12,
@@ -2586,7 +2586,7 @@ window.OceaniaNameBases = [
     "b": "Murrinh,Patha,Wadeye,Port Keats,Moyle River,Daly River,Timber Creek,Peppimenarti,Nauiyu,Thamarrurr,Palumpa,Nganmarriyanga"
   },
   {
-    "name": "Nunggubuyu (dedicated)",
+    "name": "Nunggubuyu",
     "i": 20040,
     "min": 4,
     "max": 12,
@@ -2595,7 +2595,7 @@ window.OceaniaNameBases = [
     "b": "Nunggubuyu,Wubuy,Numbulwar,East Arnhem,Arnhem Land,Gulf of Carpentaria,Roper River,Ngukurr,Groote Eylandt,Rose River,Walker River,Harris Creek"
   },
   {
-    "name": "Kaytetye (dedicated)",
+    "name": "Kaytetye",
     "i": 20041,
     "min": 4,
     "max": 12,
@@ -2604,7 +2604,7 @@ window.OceaniaNameBases = [
     "b": "Kaytetye,Barrow Creek,Ti Tree,Alice Springs,Harts Range,Atitjere,Arltunga,Gemtree,Stuart Highway,Tennant Creek,Central Desert,Northern Territory,Neutral Junction,Stirling,Artarre,Anningie"
   },
   {
-    "name": "Kija (dedicated)",
+    "name": "Kija",
     "i": 20042,
     "min": 4,
     "max": 12,
@@ -2613,7 +2613,7 @@ window.OceaniaNameBases = [
     "b": "Kija,Halls Creek,Warmun,Turkey Creek,Kununurra,Fitzroy Crossing,Derby,Kimberley,Ord River,Great Northern Highway,Mirima,Purnululu,Bungle Bungles,Lissadell,Texas Downs"
   },
   {
-    "name": "Kukatja (dedicated)",
+    "name": "Kukatja",
     "i": 20043,
     "min": 4,
     "max": 12,
@@ -2622,7 +2622,7 @@ window.OceaniaNameBases = [
     "b": "Kukatja,Balgo,Balgo Hills,Wirrimanu,Tjurabalan,Kiwirrkurra,Great Sandy Desert,Tanami Desert,Billiluna,Lake Gregory,Halls Creek,Western Australia,Mulan,Yagga Yagga"
   },
   {
-    "name": "Kuku Yalanji (dedicated)",
+    "name": "Kuku Yalanji",
     "i": 20044,
     "min": 4,
     "max": 12,
@@ -2631,7 +2631,7 @@ window.OceaniaNameBases = [
     "b": "Kuku Yalanji,Mossman,Port Douglas,Daintree,Cooktown,Wujal Wujal,Bloomfield River,Cape Tribulation,Julatten,Mareeba,Far North Queensland,Cairns"
   },
   {
-    "name": "Luritja (dedicated)",
+    "name": "Luritja",
     "i": 20046,
     "min": 4,
     "max": 12,
@@ -2640,7 +2640,7 @@ window.OceaniaNameBases = [
     "b": "Luritja,Papunya,Hermannsburg,Ntaria,Alice Springs,Haasts Bluff,Ikuntji,Kintore,Western Desert,Northern Territory,MacDonnell Ranges,Central Australia,Mount Liebig,Areyonga,Utju"
   },
   {
-    "name": "Manytjilyitjarra (dedicated)",
+    "name": "Manytjilyitjarra",
     "i": 20047,
     "min": 4,
     "max": 12,
@@ -2649,25 +2649,25 @@ window.OceaniaNameBases = [
     "b": "Manytjilyitjarra,Kiwirrkurra,Wiluna,Gibson Desert,Little Sandy Desert,Warburton,Kunawarritji,Western Desert,Great Victoria Desert,Tjukurla,Western Australia,Telfer,Punmu,Parnngurr"
   },
   {
-    "name": "Martu Wangka (dedicated)",
+    "name": "Martu Wangka",
     "i": 20048,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Martu Wangka,Jigalong,Newman,Marble Bar,Port Hedland,Pilbara,Great Sandy Desert,Western Australia,Kunawarritji,Punmu,Parnngurr,Nullagine,Cotton Creek,Parnngurr"
+    "b": "Martu Wangka,Jigalong,Newman,Marble Bar,Port Hedland,Pilbara,Great Sandy Desert,Western Australia,Kunawarritji,Punmu,Parnngurr,Nullagine,Cotton Creek"
   },
   {
-    "name": "Miriwoong (dedicated)",
+    "name": "Miriwoong",
     "i": 20049,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Miriwoong,Kununurra,Wyndham,Ord River,Lake Argyle,East Kimberley,Mirima National Park,Keep River,Timber Creek,Halls Creek,Western Australia,Northern Territory,Keep River,Newry"
+    "b": "Miriwoong,Kununurra,Wyndham,Ord River,Lake Argyle,East Kimberley,Mirima National Park,Keep River,Timber Creek,Halls Creek,Western Australia,Northern Territory,Newry"
   },
   {
-    "name": "Ngaanyatjarra (dedicated)",
+    "name": "Ngaanyatjarra",
     "i": 20050,
     "min": 4,
     "max": 12,
@@ -2676,7 +2676,7 @@ window.OceaniaNameBases = [
     "b": "Ngaanyatjarra,Warburton,Tjukurla,Blackstone,Giles,Mulga Park,Great Victoria Desert,Western Desert,Laverton,Rawlinna,Western Australia,Northern Territory,Papulankutja,Mantamaru"
   },
   {
-    "name": "Ngarrindjeri (dedicated)",
+    "name": "Ngarrindjeri",
     "i": 20051,
     "min": 4,
     "max": 12,
@@ -2685,7 +2685,7 @@ window.OceaniaNameBases = [
     "b": "Ngarrindjeri,Murray Bridge,Goolwa,Victor Harbor,Encounter Bay,Coorong,Lake Alexandrina,Lake Albert,Adelaide Hills,South Australia,River Murray,Tailem Bend"
   },
   {
-    "name": "Noongar (dedicated)",
+    "name": "Noongar",
     "i": 20052,
     "min": 4,
     "max": 12,
@@ -2694,7 +2694,7 @@ window.OceaniaNameBases = [
     "b": "Noongar,Perth,Fremantle,Bunbury,Albany,Geraldton,Joondalup,Rockingham,Mandurah,Swan River,Western Australia,Wheatbelt,York,Northam,Katanning,Narrogin"
   },
   {
-    "name": "Nyangumarta (dedicated)",
+    "name": "Nyangumarta",
     "i": 20053,
     "min": 4,
     "max": 12,
@@ -2703,7 +2703,7 @@ window.OceaniaNameBases = [
     "b": "Nyangumarta,Port Hedland,South Hedland,Roebourne,Karratha,Pilbara,Great Sandy Desert,Marble Bar,Nullagine,Broome,Western Australia,De Grey River,Eighty Mile Beach,Pardoo"
   },
   {
-    "name": "palawa kani (dedicated)",
+    "name": "palawa kani",
     "i": 20054,
     "min": 4,
     "max": 12,
@@ -2712,7 +2712,7 @@ window.OceaniaNameBases = [
     "b": "palawa kani,Hobart,Launceston,Burnie,Devonport,George Town,Deloraine,Circular Head,Flinders Island,Bruny Island,Tasmania,Bass Strait,Wybalenna,Oyster Cove"
   },
   {
-    "name": "Anindilyakwa (dedicated)",
+    "name": "Anindilyakwa",
     "i": 20055,
     "min": 4,
     "max": 12,
@@ -2721,7 +2721,7 @@ window.OceaniaNameBases = [
     "b": "Anindilyakwa,Groote Eylandt,Alyangula,Angurugu,Umbakumba,Bickerton Island,Gulf of Carpentaria,East Arnhem,Arnhem Land,Numbulwar,Roper River,Milyakburra,Little Lagoon"
   },
   {
-    "name": "Bardi (dedicated)",
+    "name": "Bardi",
     "i": 20056,
     "min": 4,
     "max": 12,
@@ -2730,7 +2730,7 @@ window.OceaniaNameBases = [
     "b": "Bardi,Ardyaloon,One Arm Point,Lombadina,Dampier Peninsula,Buccaneer Archipelago,King Sound,Broome,Derby,Kimberley,Western Australia,Beagle Bay,Djarindjin"
   },
   {
-    "name": "Bundjalung (dedicated)",
+    "name": "Bundjalung",
     "i": 20057,
     "min": 4,
     "max": 12,
@@ -2739,7 +2739,7 @@ window.OceaniaNameBases = [
     "b": "Bundjalung,Lismore,Ballina,Tweed Heads,Byron Bay,Casino,Kyogle,Yamba,Clarence River,Richmond River,Northern Rivers,New South Wales,Coraki,Woodenbong"
   },
   {
-    "name": "Burarra (dedicated)",
+    "name": "Burarra",
     "i": 20058,
     "min": 4,
     "max": 12,
@@ -2748,7 +2748,7 @@ window.OceaniaNameBases = [
     "b": "Burarra,Maningrida,Nadab,Central Arnhem,Arnhem Land,Arafura Sea,Glyde River,Blyth River,Milingimbi,Ramingining,Cadell River,Tomkinson River"
   },
   {
-    "name": "Dhuwal (dedicated)",
+    "name": "Dhuwal",
     "i": 20059,
     "min": 4,
     "max": 12,
@@ -2757,7 +2757,7 @@ window.OceaniaNameBases = [
     "b": "Dhuwal,Yolngu,Arnhem Land,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,East Arnhem,Milingimbi,Ramingining,Arafura Sea,Buckingham Bay,Arnhem Bay"
   },
   {
-    "name": "Djaru (dedicated)",
+    "name": "Djaru",
     "i": 20060,
     "min": 4,
     "max": 12,
@@ -2766,7 +2766,7 @@ window.OceaniaNameBases = [
     "b": "Djaru,Halls Creek,Warmun,Turkey Creek,Kununurra,Wyndham,East Kimberley,Ord River,Fitzroy Crossing,Great Northern Highway,Kimberley"
   },
   {
-    "name": "Gamilaraay (dedicated)",
+    "name": "Gamilaraay",
     "i": 20062,
     "min": 4,
     "max": 12,
@@ -2775,7 +2775,7 @@ window.OceaniaNameBases = [
     "b": "Gamilaraay,Gomeroi,Moree,Narrabri,Walgett,Lightning Ridge,Coonabarabran,Quirindi,Tamworth,Wee Waa,New South Wales"
   },
   {
-    "name": "Githabul (dedicated)",
+    "name": "Githabul",
     "i": 20063,
     "min": 4,
     "max": 12,
@@ -2784,7 +2784,7 @@ window.OceaniaNameBases = [
     "b": "Githabul,Kyogle,Casino,Lismore,Woodenbong,Tabulam,Boorabee Park,Border Ranges,Northern Rivers,New South Wales"
   },
   {
-    "name": "Gooniyandi (dedicated)",
+    "name": "Gooniyandi",
     "i": 20064,
     "min": 4,
     "max": 12,
@@ -2793,7 +2793,7 @@ window.OceaniaNameBases = [
     "b": "Gooniyandi,Kimberley,Fitzroy Crossing,Derby,Halls Creek,Geikie Gorge,Great Northern Highway,Looma,Noonkanbah,Bunuba"
   },
   {
-    "name": "Gurindji (dedicated)",
+    "name": "Gurindji",
     "i": 20065,
     "min": 4,
     "max": 12,
@@ -2802,7 +2802,7 @@ window.OceaniaNameBases = [
     "b": "Gurindji,Kalkarindji,Daguragu,Wave Hill,Victoria River,Timber Creek,Katherine,Northern Territory,Buntine Highway"
   },
   {
-    "name": "Guugu Yimidhirr (dedicated)",
+    "name": "Guugu Yimidhirr",
     "i": 20066,
     "min": 4,
     "max": 12,
@@ -2811,7 +2811,7 @@ window.OceaniaNameBases = [
     "b": "Guugu Yimidhirr,Hopevale,Endeavour River,Cooktown,Cape York,Laura,Jeannie River,Quinkan Country,Queensland,Far North"
   },
   {
-    "name": "Panyjima (dedicated)",
+    "name": "Panyjima",
     "i": 20067,
     "min": 4,
     "max": 12,
@@ -2820,7 +2820,7 @@ window.OceaniaNameBases = [
     "b": "Panyjima,Pilbara,Tom Price,Paraburdoo,Karijini,Hamersley Range,Fortescue River,Port Hedland,Karratha,Western Australia"
   },
   {
-    "name": "Wajarri (dedicated)",
+    "name": "Wajarri",
     "i": 20068,
     "min": 4,
     "max": 11,
@@ -2829,7 +2829,7 @@ window.OceaniaNameBases = [
     "b": "Mullewa,Mingenew,Morawa,Perenjori,Yalgoo,Geraldton,Carnarvon,Mount Magnet,Dalwallinu,Wongan Hills,Three Springs,Mullewa Shire"
   },
   {
-    "name": "Walmatjarri (dedicated)",
+    "name": "Walmatjarri",
     "i": 20069,
     "min": 4,
     "max": 11,
@@ -2838,7 +2838,7 @@ window.OceaniaNameBases = [
     "b": "Fitzroy Crossing,Yakanarra,Wangkatjungka,Bayulu,Gooniyandi,Jubbul,Noonkanbah,Christmas Creek,Djugerari,Kalumburu,Derby,Broome"
   },
   {
-    "name": "Wangkatha (dedicated)",
+    "name": "Wangkatha",
     "i": 20070,
     "min": 4,
     "max": 11,
@@ -2847,7 +2847,7 @@ window.OceaniaNameBases = [
     "b": "Kalgoorlie,Boulder,Coolgardie,Kambalda,Norseman,Leonora,Laverton,Menzies,Cue,Meekatharra,Wiluna,Sandstone"
   },
   {
-    "name": "Warlpiri (dedicated)",
+    "name": "Warlpiri",
     "i": 20071,
     "min": 4,
     "max": 11,
@@ -2856,7 +2856,7 @@ window.OceaniaNameBases = [
     "b": "Yuendumu,Lajamanu,Nyirripi,Willowra,Ali Curung,Ti Tree,Papunya,Haasts Bluff,Mt Allen,Neutral Junction,Tanami Desert,Central Australia"
   },
   {
-    "name": "Warumungu (dedicated)",
+    "name": "Warumungu",
     "i": 20072,
     "min": 4,
     "max": 11,
@@ -2865,7 +2865,7 @@ window.OceaniaNameBases = [
     "b": "Tennant Creek,Elliott,Renner Springs,Alroy Downs,Brunette Downs,Rockhampton Downs,Warumungu,Ali Curung,Wycliffe Well,Barrow Creek,Banka Banka,Powell Creek"
   },
   {
-    "name": "Alekano (dedicated)",
+    "name": "Alekano",
     "i": 20073,
     "min": 4,
     "max": 11,
@@ -2874,7 +2874,7 @@ window.OceaniaNameBases = [
     "b": "Goroka,Kainantu,Okapa,Lufa,Benabena,Asaro,Henganofi,Daulo,Yagaria,Kamano,Fore,Unavi"
   },
   {
-    "name": "Pitjantjatjara (dedicated)",
+    "name": "Pitjantjatjara",
     "i": 20078,
     "min": 4,
     "max": 12,
@@ -2883,7 +2883,7 @@ window.OceaniaNameBases = [
     "b": "Pitjantjatjara,Pukatja,Ernabella,Yalata,Amata,Mimili,Indulkana,Fregon,APY Lands,Northwest South Australia"
   },
   {
-    "name": "Wik Mungkan (dedicated)",
+    "name": "Wik Mungkan",
     "i": 20080,
     "min": 4,
     "max": 11,
@@ -2892,7 +2892,7 @@ window.OceaniaNameBases = [
     "b": "Aurukun,Coen,Weipa,Napranum,Mapoon,Lockhart River,Pormpuraaw,Kowanyama,Edward River,Old Mapoon,Aurukun Shire,Cape York"
   },
   {
-    "name": "Wiradjuri (dedicated)",
+    "name": "Wiradjuri",
     "i": 20081,
     "min": 4,
     "max": 11,
@@ -2901,7 +2901,7 @@ window.OceaniaNameBases = [
     "b": "Dubbo,Parkes,Forbes,Wagga Wagga,Griffith,Narrandera,Leeton,Cootamundra,Temora,Young,Cowra,Orange"
   },
   {
-    "name": "Yankunytjatjara (dedicated)",
+    "name": "Yankunytjatjara",
     "i": 20082,
     "min": 4,
     "max": 11,
@@ -2910,7 +2910,7 @@ window.OceaniaNameBases = [
     "b": "Indulkana,Mimili,Fregon,Iwantja,Ernabella,Pukatja,Amata,Pipalyatjara,Kenmore Park,Kaltjiti,Yunyarinyi,Kanpi"
   },
   {
-    "name": "Yinjibarndi (dedicated)",
+    "name": "Yinjibarndi",
     "i": 20083,
     "min": 4,
     "max": 11,
@@ -2919,7 +2919,7 @@ window.OceaniaNameBases = [
     "b": "Roebourne,Wickham,Millstream,Chichester Range,Fortescue River,Karratha,Dampier,Cossack,Point Samson,Harding River,Sherlock,Whim Creek"
   },
   {
-    "name": "Yugambeh (dedicated)",
+    "name": "Yugambeh",
     "i": 20084,
     "min": 4,
     "max": 11,
@@ -2928,7 +2928,7 @@ window.OceaniaNameBases = [
     "b": "Beenleigh,Beaudesert,Tamborine,Coomera,Nerang,Southport,Burleigh,Coolangatta,Tweed Heads,Logan,Albert River,Canungra"
   },
   {
-    "name": "Tok Pisin (dedicated)",
+    "name": "Tok Pisin",
     "i": 20085,
     "min": 4,
     "max": 12,
@@ -2937,7 +2937,7 @@ window.OceaniaNameBases = [
     "b": "Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak,Rabaul,Kokopo,Popondetta,Kimbe,Alotau,Kavieng,Arawa,Vanimo,Lorengau,Kundiawa,Mendi,Daru,Buka,Manus,Kerema,Aitape,Wabag,Kieta,Tari,Buin,Kiunga,Tufi,Kikori,Ihu,Balimo,Ambunti"
   },
   {
-    "name": "Bislama (dedicated)",
+    "name": "Bislama",
     "i": 20086,
     "min": 4,
     "max": 12,
@@ -2946,7 +2946,7 @@ window.OceaniaNameBases = [
     "b": "Port Vila,Luganville,Isangel,Lenakel,Sola,Norsup,Lakatoro,Longana,Ambrym,Pentecost,Espiritu Santo,Efate,Tanna,Malekula,Maewo,Ambae,Paama,Epi,Erromango"
   },
   {
-    "name": "Pijin (dedicated)",
+    "name": "Pijin",
     "i": 20087,
     "min": 4,
     "max": 12,
@@ -2955,7 +2955,7 @@ window.OceaniaNameBases = [
     "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Lata,Kirakira,Buala,Taro,Malaita,Guadalcanal,Choiseul,Rennell,Bellona,Isabel,Temotu,Western Province"
   },
   {
-    "name": "Samoan Plantation Pidgin (dedicated)",
+    "name": "Samoan Plantation Pidgin",
     "i": 20089,
     "min": 4,
     "max": 12,
@@ -2964,7 +2964,7 @@ window.OceaniaNameBases = [
     "b": "Apia,Vaitele,Faleula,Leulumoega,Lalomanu,Mulifanua,Salelologa,Safotu,Savai'i,Upolu,Pago Pago,Fagatogo,Tafuna,Leone,Aua,Ofu,Olosega,Ta'u,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton"
   },
   {
-    "name": "Māori (dedicated)",
+    "name": "Māori",
     "i": 20094,
     "min": 4,
     "max": 12,
@@ -2974,7 +2974,7 @@ window.OceaniaNameBases = [
   },
 
   {
-    "name": "Mandarin (dedicated)",
+    "name": "Mandarin",
     "i": 20096,
     "min": 4,
     "max": 12,
@@ -2983,7 +2983,7 @@ window.OceaniaNameBases = [
     "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Chongqing,Nanjing,Tianjin,Wuhan,Hangzhou,Xian,Shenyang,Shijiazhuang,Zhengzhou,Changsha,Nanchang,Hefei,Jinan,Lanzhou,Kunming,Guiyang,Harbin,Changchun,Luoyang,Baoji,Xinyang,Xiangyang,Suizhou,Handan,Baoding,Cangzhou,Anyang,Kaifeng,Huaihua"
   },
   {
-    "name": "Enggano (dedicated)",
+    "name": "Enggano",
     "i": 20111,
     "min": 4,
     "max": 11,
@@ -2992,7 +2992,7 @@ window.OceaniaNameBases = [
     "b": "Apoho,Meok,Kahyapu,Kaana,Malakoni,Banjarsari,Buah-pua,Bak Bauh,Enggano Island,Sumatra,Indonesia"
   },
   {
-    "name": "Kowiai (dedicated)",
+    "name": "Kowiai",
     "i": 20112,
     "min": 4,
     "max": 11,
@@ -3001,7 +3001,7 @@ window.OceaniaNameBases = [
     "b": "Kaimana,Namatota,Lobo,Adi Island,Triton Bay,Bitsyari,Kayumerah,Arguni,West Papua,Bird's Head,Papua"
   },
   {
-    "name": "Rejang (dedicated)",
+    "name": "Rejang",
     "i": 20113,
     "min": 4,
     "max": 11,
@@ -3012,7 +3012,7 @@ window.OceaniaNameBases = [
 
 
   {
-    "name": "Rotuman (dedicated)",
+    "name": "Rotuman",
     "i": 20118,
     "min": 4,
     "max": 11,
@@ -3021,7 +3021,7 @@ window.OceaniaNameBases = [
     "b": "Ahau,Motusa,Itumuta,Ittiu,Malhaha,Noatau,Oinafa,Pepjei,Sumi,Juju,Faguta,Rotuma"
   },
   {
-    "name": "Ankave (dedicated)",
+    "name": "Ankave",
     "i": 20136,
     "min": 4,
     "max": 11,
@@ -3030,7 +3030,7 @@ window.OceaniaNameBases = [
     "b": "Menyamya,Kerema,Kanabea,Sawetau,Angai,Ikana,Yenkis,Gulf Province,Morobe Province,Papua New Guinea"
   },
   {
-    "name": "Australian Kriol (dedicated)",
+    "name": "Australian Kriol",
     "i": 20153,
     "min": 4,
     "max": 11,
@@ -3039,7 +3039,7 @@ window.OceaniaNameBases = [
     "b": "Katherine,Barunga,Beswick,Ngukurr,Minyerri,Jilkminggan,Yarralin,Lajamanu,Kalkaringi,Daguragu,Northern Territory,Kimberley"
   },
   {
-    "name": "Auye (dedicated)",
+    "name": "Auye",
     "i": 20154,
     "min": 4,
     "max": 11,
@@ -3048,7 +3048,7 @@ window.OceaniaNameBases = [
     "b": "Nabire,Paniai,Enarotali,Moanemani,Kamu,Mapia,Siriwo,West Papua,Papua,Indonesia"
   },
   {
-    "name": "Hawaiian Pidgin English (dedicated)",
+    "name": "Hawaiian Pidgin English",
     "i": 20005,
     "min": 4,
     "max": 12,
@@ -3057,7 +3057,7 @@ window.OceaniaNameBases = [
     "b": "Honolulu,Hilo,Kailua,Kaneohe,Kapolei,Waipahu,Pearl City,Lahaina,Wailuku,Kahului,Kapaa,Lihue,Koloa,Kona,Mililani,Ewa Beach,Wahiawa,Waimea,Hanalei,Maunawili,Kihei,Waianae,Kalaeloa,Hana,Paia,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton"
   },
   {
-    "name": "Micronesian Pidgin English (dedicated)",
+    "name": "Micronesian Pidgin English",
     "i": 20010,
     "min": 4,
     "max": 12,
@@ -3066,7 +3066,7 @@ window.OceaniaNameBases = [
     "b": "Kolonia,Weno,Tofol,Chuuk,Pohnpei,Kosrae,Majuro,Kwajalein,Palikir,Saipan,Tinian,Rota,Hagatna,Dededo,Yigo,Yona,Barrigada,Umatac,Ulithi,Yap,Ailinglaplap,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba"
   },
   {
-    "name": "Nauru Pidgin English (dedicated)",
+    "name": "Nauru Pidgin English",
     "i": 20011,
     "min": 4,
     "max": 12,
@@ -3075,7 +3075,7 @@ window.OceaniaNameBases = [
     "b": "Yaren,Anabar,Anetan,Aiwo,Buada,Baiti,Boe,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Anibare,Arijejen,Command Ridge,Topside,Location,Phosphate Hill,Od-N-Aiwo,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba"
   },
   {
-    "name": "Papuan Pidgin English (dedicated)",
+    "name": "Papuan Pidgin English",
     "i": 20014,
     "min": 4,
     "max": 12,
@@ -3084,7 +3084,7 @@ window.OceaniaNameBases = [
     "b": "Jayapura,Merauke,Nabire,Fakfak,Sorong,Manokwari,Biak,Sentani,Serui,Wasior,Kaimana,Timika,Wamena,Enarotali,Tanah Merah,Agats,Arso,Abepura,Keerom,Mopah,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba"
   },
   {
-    "name": "Port Jackson Pidgin English (dedicated)",
+    "name": "Port Jackson Pidgin English",
     "i": 20015,
     "min": 4,
     "max": 12,
@@ -3093,7 +3093,7 @@ window.OceaniaNameBases = [
     "b": "Sydney,Parramatta,Botany Bay,Watsons Bay,Port Jackson,Manly,Circular Quay,The Rocks,Blacktown,Windsor,Liverpool,Camden,Rose Bay,Kurnell,Campbelltown,Newcastle,Hawkesbury"
   },
   {
-    "name": "Queensland Kanaka English (dedicated)",
+    "name": "Queensland Kanaka English",
     "i": 20016,
     "min": 4,
     "max": 12,
@@ -3102,7 +3102,7 @@ window.OceaniaNameBases = [
     "b": "Brisbane,Bundaberg,Maryborough,Rockhampton,Mackay,Townsville,Cairns,Innisfail,Ayr,Giru,Bowen,Gympie,Hervey Bay,Gladstone,Gordonvale,Ingham,Charters Towers,Thursday Island"
   },
   {
-    "name": "English Oceania (dedicated)",
+    "name": "English Oceania",
     "i": 20025,
     "min": 4,
     "max": 12,
@@ -3111,7 +3111,7 @@ window.OceaniaNameBases = [
     "b": "Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Launceston,Rockhampton,Gladstone,Cairns,Townsville,Alice Springs,Auckland,Wellington,Christchurch,Dunedin,Invercargill,Whangarei,Hamilton,Napier,Gisborne,Newcastle,Geelong,Gold Coast,Sunshine Coast,Ballarat,Bendigo,Albury,Wodonga,Palmerston North,Rotorua,New Plymouth"
   },
   {
-    "name": "Upper Arrernte (dedicated)",
+    "name": "Upper Arrernte",
     "i": 20105,
     "min": 4,
     "max": 11,
@@ -3120,7 +3120,7 @@ window.OceaniaNameBases = [
     "b": "Alice Springs,Mparntwe,Amoonguna,Hermannsburg,Ntaria,Santa Teresa,Ltyentye Apurte,Titjikala,Wallace Rockhole,Jay Creek,Iwupataka,Arltunga"
   },
   {
-    "name": "Tayo Creole (dedicated)",
+    "name": "Tayo Creole",
     "i": 20212,
     "min": 4,
     "max": 11,
@@ -3129,7 +3129,7 @@ window.OceaniaNameBases = [
     "b": "Saint-Louis,Yaté,Nouméa,Mont-Dore,Dumbéa,Païta,Boulouparis,La Foa,Bourail,Poya,Koné,Voh"
   },
   {
-    "name": "Aboriginal Pidgin English (dedicated)",
+    "name": "Aboriginal Pidgin English",
     "i": 743,
     "min": 4,
     "max": 11,
@@ -3138,7 +3138,7 @@ window.OceaniaNameBases = [
     "b": "Darwin,Alice Springs,Katherine,Tennant Creek,Nhulunbuy,Jabiru,Alyangula,Wadeye,Maningrida,Galiwin'ku,Nguiu,Port Keats"
   },
   {
-    "name": "Cook Islands Māori Pidgin (dedicated)",
+    "name": "Cook Islands Māori Pidgin",
     "i": 1634,
     "min": 4,
     "max": 11,
@@ -3147,7 +3147,7 @@ window.OceaniaNameBases = [
     "b": "Avarua,Araura,Mitiaro,Aitutaki,Mangaia,Atiu,Takutea,Manuae,Nassau,Rarotonga,Cook Islands"
   },
   {
-    "name": "Solomon Islands Pijin (dedicated)",
+    "name": "Solomon Islands Pijin",
     "i": 20018,
     "min": 4,
     "max": 12,

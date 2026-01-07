@@ -35,7 +35,7 @@ window.AsiaNameBases = [
     "max": 9,
     "d": "srpl",
     "m": 0.1,
-    "b": "Adab,Adamndun,Adma,Admatum,Agrab,Akkad,Akshak,Amnanum,Andarig,Anshan,Apiru,Apum,Arantu,Arbid,Arpachiyah,Arpad,Arrapha,Ashlakka,Assur,Awan,Babilim,Bad-Tibira,Balawat,Barsip,Birtu,Bit-Bunakki,Borsippa,Chuera,Dashrah,Der,Dilbat,Diniktum,Doura,Dur-Kurigalzu,Dur-Sharrukin,Dur-Untash,Dâ”œâ•—r-gurgurri,Ebla,Ekallatum,Ekalte,Emar,Erbil,Eresh,Eridu,Eshnunn,Eshnunna,Gargamish,Gasur,Gawra,Gibil,Girsu,Gizza,Habirun,Habur,Hadatu,Hakkulan,Halab,Halabit,Hamazi,Hamoukar,Haradum,Harbidum,Harran,Harranu,Hassuna,Hatarikka,Hatra,Hissar,Hiyawa,Hormirzad,Ida-Maras,Idamaraz,Idu,Imerishu,Imgur-Enlil,Irisagrig,Irnina,Irridu,Isin,Issinnitum,Iturungal,Izubitum,Jarmo,Jemdet,Kabnak,Kadesh,Kahat,Kalhu,Kar-Shulmanu-Asharedu,Kar-Tukulti-Ninurta,Kar-shulmanu-asharedu,Karana,Karatepe,Kartukulti,Kazallu,Kesh,Kidsha,Kinza,Kish,Kisiga,Kisurra,Kuara,Kurda,Kurruhanni,Kutha,Lagaba,Lagash,Larak,Larsa,Leilan,Malgium,Marad,Mardaman,Mari,Marlik,Mashkan,Mashkan-shapir,Matutem,Me-Turan,Meliddu,Mumbaqat,Nabada,Nagar,Nanagugal,Nerebtum,Nigin,Nimrud,Nina,Nineveh,Ninua,Nippur,Niru,Niya,Nuhashe,Nuhasse,Nuzi,Puzrish-Dagan,Qalatjarmo,Qatara,Qatna,Qattunan,Qidshu,Rapiqum,Rawda,Sagaz,Shaduppum,Shaggaratum,Shalbatu,Shanidar,Sharrukin,Shawwan,Shehna,Shekhna,Shemshara,Shibaniba,Shubat-Enlil,Shurkutir,Shuruppak,Shusharra,Shushin,Sikan,Sippar,Sippar-Amnanum,Sippar-sha-Annunitum,Subatum,Susuka,Tadmor,Tarbisu,Telul,Terqa,Tirazish,Tisbon,Tuba,Tushhan,Tuttul,Tutub,Ubaid,Umma,Ur,Urah,Urbilum,Urkesh,Ursa'um,Uruk,Urum,Uzarlulu,Warka,Washukanni,Zabalam,Zarri-Amnan"
+    "b": "Adab,Adamndun,Adma,Admatum,Agrab,Akkad,Akshak,Amnanum,Andarig,Anshan,Apiru,Apum,Arantu,Arbid,Arpachiyah,Arpad,Arrapha,Ashlakka,Assur,Awan,Babilim,Bad-Tibira,Balawat,Barsip,Birtu,Bit-Bunakki,Borsippa,Chuera,Dashrah,Der,Dilbat,Diniktum,Doura,Dur-Kurigalzu,Dur-Sharrukin,Dur-Untash,Dr-gurgurri,Ebla,Ekallatum,Ekalte,Emar,Erbil,Eresh,Eridu,Eshnunn,Eshnunna,Gargamish,Gasur,Gawra,Gibil,Girsu,Gizza,Habirun,Habur,Hadatu,Hakkulan,Halab,Halabit,Hamazi,Hamoukar,Haradum,Harbidum,Harran,Harranu,Hassuna,Hatarikka,Hatra,Hissar,Hiyawa,Hormirzad,Ida-Maras,Idamaraz,Idu,Imerishu,Imgur-Enlil,Irisagrig,Irnina,Irridu,Isin,Issinnitum,Iturungal,Izubitum,Jarmo,Jemdet,Kabnak,Kadesh,Kahat,Kalhu,Kar-Shulmanu-Asharedu,Kar-Tukulti-Ninurta,Karana,Karatepe,Kartukulti,Kazallu,Kesh,Kidsha,Kinza,Kish,Kisiga,Kisurra,Kuara,Kurda,Kurruhanni,Kutha,Lagaba,Lagash,Larak,Larsa,Leilan,Malgium,Marad,Mardaman,Mari,Marlik,Mashkan,Mashkan-shapir,Matutem,Me-Turan,Meliddu,Mumbaqat,Nabada,Nagar,Nanagugal,Nerebtum,Nigin,Nimrud,Nina,Nineveh,Ninua,Nippur,Niru,Niya,Nuhashe,Nuhasse,Nuzi,Puzrish-Dagan,Qalatjarmo,Qatara,Qatna,Qattunan,Qidshu,Rapiqum,Rawda,Sagaz,Shaduppum,Shaggaratum,Shalbatu,Shanidar,Sharrukin,Shawwan,Shehna,Shekhna,Shemshara,Shibaniba,Shubat-Enlil,Shurkutir,Shuruppak,Shusharra,Shushin,Sikan,Sippar,Sippar-Amnanum,Sippar-sha-Annunitum,Subatum,Susuka,Tadmor,Tarbisu,Telul,Terqa,Tirazish,Tisbon,Tuba,Tushhan,Tuttul,Tutub,Ubaid,Umma,Ur,Urah,Urbilum,Urkesh,Ursa'um,Uruk,Urum,Uzarlulu,Warka,Washukanni,Zabalam,Zarri-Amnan"
   },
   {
     "name": "Iranian",
@@ -44,7 +44,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0.1,
-    "b": "Abali,Abrisham,Absard,Abuzeydabad,Afus,Alavicheh,Alikosh,Amol,Anarak,Anbar,Andisheh,Anshan,Aran,Ardabil,Arderica,Ardestan,Arjomand,Asgaran,Asgharabad,Ashian,Awan,Babajan,Badrud,Bafran,Baghestan,Baghshad,Bahadoran,Baharan Shahr,Baharestan,Bakun,Bam,Baqershahr,Barzok,Bastam,Behistun,Bitistar,Bumahen,Bushehr,Chadegan,Chahardangeh,Chamgardan,Chermahin,Choghabonut,Chugan,Damaneh,Damavand,Darabgard,Daran,Dastgerd,Dehaq,Dehaqan,Dezful,Dizicheh,Dorcheh,Dowlatabad,Duruntash,Ecbatana,Eslamshahr,Estakhr,Ezhiyeh,Falavarjan,Farrokhi,Fasham,Ferdowsieh,Fereydunshahr,Ferunabad,Firuzkuh,Fuladshahr,Ganjdareh,Ganzak,Gaz,Geoy,Godin,Goldasht,Golestan,Golpayegan,Golshahr,Golshan,Gorgab,Guged,Habibabad,Hafshejan,Hajjifiruz,Hana,Harand,Hasanabad,Hasanlu,Hashtgerd,Hecatompylos,Hormirzad,Imanshahr,Isfahan,Jandaq,Javadabad,Jiroft,Jowsheqan ,Jowzdan,Kabnak,Kahrizak,Kahriz Sang,Kangavar,Karaj,Karkevand,Kashan,Kelishad,Kermanshah,Khaledabad,Khansar,Khorramabad,Khur,Khvorzuq,Kilan,Komeh,Komeshcheh,Konar,Kuhpayeh,Kul,Kushk,Lavasan,Laybid,Liyan,Lyan,Mahabad,Mahallat,Majlesi,Malard,Manzariyeh,Marlik,Meshkat,Meymeh,Miandasht,Mish,Mobarakeh,Nahavand,Nain,Najafabad,Naqshe,Narezzash,Nasimshahr,Nasirshahr,Nasrabad,Natanz,Neyasar,Nikabad,Nimvar,Nushabad,Pakdasht,Parand,Pardis,Parsa,Pasargadai,Patigrabana,Pir Bakran,Pishva,Qahderijan,Qahjaverestan,Qamsar,Qarchak,Qods,Rabat,Ray-shahr,Rezvanshahr,Rhages,Robat Karim,Rozveh,Rudehen,Sabashahr,Safadasht,Sagzi,Salehieh,Sandal,Sarvestan,Sedeh,Sefidshahr,Semirom,Semnan,Shadpurabad,Shah,Shahdad,Shahedshahr,Shahin,Shahpour,Shahr,Shahreza,Shahriar,Sharifabad,Shemshak,Shiraz,Shushan,Shushtar,Sialk,Sin,Sukhteh,Tabas,Tabriz,Takhte,Talkhuncheh,Talli,Tarq,Temukan,Tepe,Tiran,Tudeshk,Tureng,Urmia,Vahidieh,Vahrkana,Vanak,Varamin,Varnamkhast,Varzaneh,Vazvan,Yahya,Yarim,Yasuj,Zarrin Shahr,Zavareh,Zayandeh,Zazeran,Ziar,Zibashahr,Zranka"
+    "b": "Abali,Abrisham,Absard,Abuzeydabad,Afus,Alavicheh,Alikosh,Amol,Anarak,Anbar,Andisheh,Anshan,Aran,Ardabil,Arderica,Ardestan,Arjomand,Asgaran,Asgharabad,Ashian,Awan,Babajan,Badrud,Bafran,Baghestan,Baghshad,Bahadoran,Baharan Shahr,Baharestan,Bakun,Bam,Baqershahr,Barzok,Bastam,Behistun,Bitistar,Bumahen,Bushehr,Chadegan,Chahardangeh,Chamgardan,Chermahin,Choghabonut,Chugan,Damaneh,Damavand,Darabgard,Daran,Dastgerd,Dehaq,Dehaqan,Dezful,Dizicheh,Dorcheh,Dowlatabad,Duruntash,Ecbatana,Eslamshahr,Estakhr,Ezhiyeh,Falavarjan,Farrokhi,Fasham,Ferdowsieh,Fereydunshahr,Ferunabad,Firuzkuh,Fuladshahr,Ganjdareh,Ganzak,Gaz,Geoy,Godin,Goldasht,Golestan,Golpayegan,Golshahr,Golshan,Gorgab,Guged,Habibabad,Hafshejan,Hajjifiruz,Hana,Harand,Hasanabad,Hasanlu,Hashtgerd,Hecatompylos,Hormirzad,Imanshahr,Isfahan,Jandaq,Javadabad,Jiroft,Jowsheqan,Jowzdan,Kabnak,Kahrizak,Kahriz Sang,Kangavar,Karaj,Karkevand,Kashan,Kelishad,Kermanshah,Khaledabad,Khansar,Khorramabad,Khur,Khvorzuq,Kilan,Komeh,Komeshcheh,Konar,Kuhpayeh,Kul,Kushk,Lavasan,Laybid,Liyan,Lyan,Mahabad,Mahallat,Majlesi,Malard,Manzariyeh,Marlik,Meshkat,Meymeh,Miandasht,Mish,Mobarakeh,Nahavand,Nain,Najafabad,Naqshe,Narezzash,Nasimshahr,Nasirshahr,Nasrabad,Natanz,Neyasar,Nikabad,Nimvar,Nushabad,Pakdasht,Parand,Pardis,Parsa,Pasargadai,Patigrabana,Pir Bakran,Pishva,Qahderijan,Qahjaverestan,Qamsar,Qarchak,Qods,Rabat,Ray-shahr,Rezvanshahr,Rhages,Robat Karim,Rozveh,Rudehen,Sabashahr,Safadasht,Sagzi,Salehieh,Sandal,Sarvestan,Sedeh,Sefidshahr,Semirom,Semnan,Shadpurabad,Shah,Shahdad,Shahedshahr,Shahin,Shahpour,Shahr,Shahreza,Shahriar,Sharifabad,Shemshak,Shiraz,Shushan,Shushtar,Sialk,Sin,Sukhteh,Tabas,Tabriz,Takhte,Talkhuncheh,Talli,Tarq,Temukan,Tepe,Tiran,Tudeshk,Tureng,Urmia,Vahidieh,Vahrkana,Vanak,Varamin,Varnamkhast,Varzaneh,Vazvan,Yahya,Yarim,Yasuj,Zarrin Shahr,Zavareh,Zayandeh,Zazeran,Ziar,Zibashahr,Zranka"
   },
   {
     "name": "Karnataka",
@@ -602,7 +602,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fogo,Sao Filipe,Mosteiros,Châ”œÃº das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,SÃ£o Filipe,ChÃ£ das Caldeiras,Portela,Relva,Figueira PavÃ£o,CabeÃ§a FundÃ£o,Monte Genebra,Bangaeira,EstÃ¢ncia Roque"
+    "b": "Fogo,Sao Filipe,Mosteiros,Chº das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,S£o Filipe,Ch£ das Caldeiras,Portela,Relva,Figueira Pav£o,Cabeça Fund£o,Monte Genebra,Bangaeira,Est¢ncia Roque"
   },
   {
     "name": "Juk (Bahnaric)",
@@ -665,7 +665,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,LiquiÃ§Ã¡"
+    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,Liquiçá"
   },
   {
     "name": "Santali",
@@ -1118,7 +1118,7 @@ window.AsiaNameBases = [
     "b": "Dadeldhura,Amargadhi,Parashuram,Alital,Nawadurga,Ajaimaru,Ganeshpur,Bhagwati,Ghatal,Shikharpur,Rupal,Kailapal"
   },
   {
-    "name": "MonÃ©gasque",
+    "name": "Monégasque",
     "i": 494,
     "min": 4,
     "max": 11,
@@ -1136,16 +1136,16 @@ window.AsiaNameBases = [
     "b": "Zamboanga,Cavite,Ternate,Ermita,Intramuros,Binondo,Malate,Quiapo,Sampaloc,San Miguel,Santa Ana,Santa Cruz"
   },
   {
-    "name": "SomontanÃ©s",
+    "name": "Somontanés",
     "i": 42,
     "min": 4,
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Barbastro,MonzÃ³n,BinÃ©far,Graus,Tamarite de Litera,AlquÃ©zar,Abizanda,Adahuesca,Albalate de Cinca,Alberuela de Tubo,Alcampell,Alcolea de Cinca"
+    "b": "Barbastro,Monzón,Binéfar,Graus,Tamarite de Litera,Alquézar,Abizanda,Adahuesca,Albalate de Cinca,Alberuela de Tubo,Alcampell,Alcolea de Cinca"
   },
   {
-    "name": "â•¦Ã‡Azd dialect ",
+    "name": "ƁAzd dialect",
     "i": 737,
     "min": 4,
     "max": 11,
@@ -1154,7 +1154,7 @@ window.AsiaNameBases = [
     "b": "Nizwa,Bahla,Ibri,Yanqul,Rustaq,Nakhal,Awabi,Samail,Bidbid,Izki,Adam,Manah"
   },
   {
-    "name": "â”¼â•—ejtun dialect ",
+    "name": "Ħejtun dialect",
     "i": 738,
     "min": 4,
     "max": 11,
@@ -1163,7 +1163,7 @@ window.AsiaNameBases = [
     "b": "Å»ejtun,Marsaxlokk,BirÅ¼ebbuÄ¡a,GÄ§axaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Å»urrieq,Bubaqra,Ä¦al Far"
   },
   {
-    "name": "A Ou ",
+    "name": "A Ou",
     "i": 740,
     "min": 4,
     "max": 11,
@@ -1172,7 +1172,7 @@ window.AsiaNameBases = [
     "b": "Anshun,Zhijin,Nayong,Bijie,Dafang,Qianxi,På®š,Zhenning,Guanling,Ziyun,Panxian,Pu'an"
   },
   {
-    "name": "Abba Gorgoryos ",
+    "name": "Abba Gorgoryos",
     "i": 742,
     "min": 4,
     "max": 11,
@@ -1181,7 +1181,7 @@ window.AsiaNameBases = [
     "b": "Gondar,Axum,Lalibela,Harar,Addis Ababa,Bahir Dar,Mek'ele,Dire Dawa,Jimma,Dessie,Adama,Hawassa"
   },
   {
-    "name": "Achang ",
+    "name": "Achang",
     "i": 745,
     "min": 4,
     "max": 11,
@@ -1190,7 +1190,7 @@ window.AsiaNameBases = [
     "b": "Longchuan,Lianghe,Luxi,Yingjiang,Ruili,Mangshi,Wanding,Gengma,Cangyuan,Lancang,Menglian,Ximeng"
   },
   {
-    "name": "Adi ",
+    "name": "Adi",
     "i": 748,
     "min": 4,
     "max": 11,
@@ -1199,7 +1199,7 @@ window.AsiaNameBases = [
     "b": "Pasighat,Along,Yingkiong,Roing,Anini,Tezu,Hayuliang,Khonsa,Changlang,Ziro,Daporijo,Seppa"
   },
   {
-    "name": "Adjaran Georgian ",
+    "name": "Adjaran Georgian",
     "i": 749,
     "min": 4,
     "max": 11,
@@ -1208,7 +1208,7 @@ window.AsiaNameBases = [
     "b": "Batumi,Kobuleti,Khelvachauri,Khulo,Shuakhevi,Keda,Sarpi,Gonio,Tsikhisdziri,Chakvi,Makhinjauri,Mtsvane Kontskhi"
   },
   {
-    "name": "Aer ",
+    "name": "Aer",
     "i": 751,
     "min": 4,
     "max": 11,
@@ -1217,7 +1217,7 @@ window.AsiaNameBases = [
     "b": "Jati,Sujawal,Thatta,Badin,Mirpur Khas,Umerkot,Mithi,Islamkot,Chachro,Nagarparkar,Diplo,Kaloi"
   },
   {
-    "name": "Agalega Creole ",
+    "name": "Agalega Creole",
     "i": 756,
     "min": 4,
     "max": 11,
@@ -1226,7 +1226,7 @@ window.AsiaNameBases = [
     "b": "Vingt Cinq,La Fourche,Sainte Rita,North Island,South Island,Port Saint James,Port Victoria,Agalega,Mauritius,Port Louis,Beau Bassin,Rose Hill"
   },
   {
-    "name": "Ahom ",
+    "name": "Ahom",
     "i": 766,
     "min": 4,
     "max": 11,
@@ -1235,7 +1235,7 @@ window.AsiaNameBases = [
     "b": "Sibsagar,Jorhat,Dibrugarh,Tinsukia,Golaghat,Sadiya,Charaideo,Gargaon,Rangpur,Bakata,Namrup,Moranhat"
   },
   {
-    "name": "Ahirani ",
+    "name": "Ahirani",
     "i": 43,
     "min": 4,
     "max": 11,
@@ -1244,7 +1244,7 @@ window.AsiaNameBases = [
     "b": "Dhule,Jalgaon,Nandurbar,Nashik,Aurangabad,Malegaon,Bhusawal,Amalner,Shirpur,Dondaicha,Shahada,Taloda"
   },
   {
-    "name": "Ai Cham ",
+    "name": "Ai Cham",
     "i": 44,
     "min": 4,
     "max": 11,
@@ -1253,7 +1253,7 @@ window.AsiaNameBases = [
     "b": "Libo,Qiannan,Guizhou,Duyun,Sandu,Dushan,Pingtang,Luodian,Huishui,Longli,Guiyang,Anshun"
   },
   {
-    "name": "Aiton ",
+    "name": "Aiton",
     "i": 792,
     "min": 4,
     "max": 11,
@@ -1262,7 +1262,7 @@ window.AsiaNameBases = [
     "b": "Jorhat,Sibsagar,Dibrugarh,Tinsukia,Golaghat,Sadiya,Charaideo,Gargaon,Rangpur,Bakata,Namrup,Moranhat"
   },
   {
-    "name": "Aramaic ",
+    "name": "Aramaic",
     "i": 801,
     "min": 4,
     "max": 11,
@@ -1271,7 +1271,7 @@ window.AsiaNameBases = [
     "b": "Maaloula,Jubb'adin,Bakh'a,Al-Qamishli,Al-Hasakah,Mardin,Midyat,Tur Abdin,Urmia,Salamas,Qaraqosh,Alqosh"
   },
   {
-    "name": "Aranadan ",
+    "name": "Aranadan",
     "i": 802,
     "min": 4,
     "max": 11,
@@ -1280,7 +1280,7 @@ window.AsiaNameBases = [
     "b": "Nilambur,Malappuram,Ernad,Kondotty,Manjeri,Perinthalmanna,Tirur,Ponnani,Kottakkal,Wandoor,Edakkara,Chaliyar"
   },
   {
-    "name": "Aka-Jeru ",
+    "name": "Aka-Jeru",
     "i": 806,
     "min": 4,
     "max": 11,
@@ -1289,7 +1289,7 @@ window.AsiaNameBases = [
     "b": "Mayabunder,Diglipur,Port Blair,Rangat,Billy Ground,Kadamtala,Baratang,Havelock,Neil Island,Long Island,Hut Bay,Campbell Bay"
   },
   {
-    "name": "Akkadian ",
+    "name": "Akkadian",
     "i": 807,
     "min": 4,
     "max": 11,
@@ -1298,7 +1298,7 @@ window.AsiaNameBases = [
     "b": "Babylon,Nineveh,Assur,Ur,Uruk,Nippur,Lagash,Kish,Akkad,Borsippa,Sippar,Mari"
   },
   {
-    "name": "Aka-Bo ",
+    "name": "Aka-Bo",
     "i": 808,
     "min": 4,
     "max": 11,
@@ -1307,7 +1307,7 @@ window.AsiaNameBases = [
     "b": "Port Blair,Mayabunder,Diglipur,Rangat,Billy Ground,Kadamtala,Baratang,Havelock,Neil Island,Long Island,Hut Bay,Campbell Bay"
   },
   {
-    "name": "Alak Bahnaric ",
+    "name": "Alak Bahnaric",
     "i": 812,
     "min": 4,
     "max": 11,
@@ -1316,7 +1316,7 @@ window.AsiaNameBases = [
     "b": "Saravane,Sekong,Attapeu,Pakse,Champasak,Paksong,Lao Ngam,Salavan,Thateng,Samakhixay,Sanamxay,Phouvong"
   },
   {
-    "name": "Alar-Tunka Buryat ",
+    "name": "Alar-Tunka Buryat",
     "i": 813,
     "min": 4,
     "max": 11,
@@ -1325,7 +1325,7 @@ window.AsiaNameBases = [
     "b": "Kyren,Arshan,Tunka,Mondy,Turan,Zhemchug,Tory,Shimki,Nilovka,Khoito-Gol,Tagarkhai,Guzhiry"
   },
   {
-    "name": "Alasha Mongol ",
+    "name": "Alasha Mongol",
     "i": 814,
     "min": 4,
     "max": 11,
@@ -1334,7 +1334,7 @@ window.AsiaNameBases = [
     "b": "Bayanhot,Alxa Left Banner,Alxa Right Banner,Ejin Banner,Dalaihob,Barunbair,Jilantai,Wuhai,Dengkou,Linhe,Bayannur,Otog Banner"
   },
   {
-    "name": "Assyrian Neo-Aramaic ",
+    "name": "Assyrian Neo-Aramaic",
     "i": 816,
     "min": 4,
     "max": 11,
@@ -1343,7 +1343,7 @@ window.AsiaNameBases = [
     "b": "Dohuk,Ankawa,Zakho,Alqosh,Tel Keppe,Batnaya,Telleskuf,Karamles,Qaraqosh,Shaqlawa,Diana,Rawanduz"
   },
   {
-    "name": "Hebrew ",
+    "name": "Hebrew",
     "i": 817,
     "min": 4,
     "max": 11,
@@ -1352,7 +1352,7 @@ window.AsiaNameBases = [
     "b": "Jerusalem,Tel Aviv,Haifa,Rishon LeZion,Petah Tikva,Ashdod,Netanya,Beersheba,Holon,Bnei Brak,Ramat Gan,Rehovot"
   },
   {
-    "name": "Western Neo-Aramaic ",
+    "name": "Western Neo-Aramaic",
     "i": 818,
     "min": 4,
     "max": 11,
@@ -1361,7 +1361,7 @@ window.AsiaNameBases = [
     "b": "Maaloula,Jubb'adin,Bakh'a,Saidnaya,Rankous,Yabroud,Nabk,Deir Atiyah,Qalamoun,Damascus,Homs,Hama"
   },
   {
-    "name": "Pashto ",
+    "name": "Pashto",
     "i": 820,
     "min": 4,
     "max": 11,
@@ -1370,7 +1370,7 @@ window.AsiaNameBases = [
     "b": "Kabul,Kandahar,Jalalabad,Peshawar,Quetta,Mardan,Swat,Kohat,Bannu,Charsadda,Nowshera,Dera Ismail Khan"
   },
   {
-    "name": "Tajik ",
+    "name": "Tajik",
     "i": 821,
     "min": 4,
     "max": 11,
@@ -1379,7 +1379,7 @@ window.AsiaNameBases = [
     "b": "Dushanbe,Khujand,Kulob,Qurghonteppa,Istaravshan,Konibodom,Panjakent,Tursunzoda,Khorugh,Hisor,Danghara,Vahdat"
   },
   {
-    "name": "Iranian Persian ",
+    "name": "Iranian Persian",
     "i": 822,
     "min": 4,
     "max": 11,
@@ -1388,7 +1388,7 @@ window.AsiaNameBases = [
     "b": "Tehran,Mashhad,Isfahan,Karaj,Shiraz,Tabriz,Qom,Ahvaz,Kermanshah,Urmia,Rasht,Zahedan"
   },
   {
-    "name": "Sorani Kurdish ",
+    "name": "Sorani Kurdish",
     "i": 824,
     "min": 4,
     "max": 11,
@@ -1397,7 +1397,7 @@ window.AsiaNameBases = [
     "b": "Sulaymaniyah,Erbil,Kirkuk,Halabja,Koya,Ranya,Qaladiza,Penjwen,Chamchamal,Said Sadiq,Darbandikhan,Dokan"
   },
   {
-    "name": "Uyghur ",
+    "name": "Uyghur",
     "i": 826,
     "min": 4,
     "max": 11,
@@ -1406,7 +1406,7 @@ window.AsiaNameBases = [
     "b": "Urumqi,Kashgar,Hotan,Turpan,Aksu,Karamay,Korla,Yining,Hami,Altay,Kucha,Artux"
   },
   {
-    "name": "Central Plains Mandarin ",
+    "name": "Central Plains Mandarin",
     "i": 829,
     "min": 4,
     "max": 11,
@@ -1415,7 +1415,7 @@ window.AsiaNameBases = [
     "b": "Beijing,Tianjin,Shijiazhuang,Taiyuan,Zhengzhou,Jinan,Qingdao,Xuzhou,Hefei,Nanjing,Wuhan,Changsha"
   },
   {
-    "name": "Lan-Yin Mandarin ",
+    "name": "Lan-Yin Mandarin",
     "i": 830,
     "min": 4,
     "max": 11,
@@ -1424,7 +1424,7 @@ window.AsiaNameBases = [
     "b": "Lanzhou,Xining,Yinchuan,Xian,Baoji,Tianshui,Jiayuguan,Jiuquan,Zhangye,Wuwei,Dingxi,Qingyang"
   },
   {
-    "name": "Northeastern Mandarin ",
+    "name": "Northeastern Mandarin",
     "i": 831,
     "min": 4,
     "max": 11,
@@ -1433,7 +1433,7 @@ window.AsiaNameBases = [
     "b": "Shenyang,Dalian,Changchun,Harbin,Jilin,Qiqihar,Daqing,Fushun,Anshan,Benxi,Liaoyang,Panjin"
   },
   {
-    "name": "Southwestern Mandarin ",
+    "name": "Southwestern Mandarin",
     "i": 832,
     "min": 4,
     "max": 11,
@@ -1442,7 +1442,7 @@ window.AsiaNameBases = [
     "b": "Chengdu,Chongqing,Kunming,Guiyang,Leshan,Yibin,Luzhou,Zigong,Nanchong,Mianyang,Deyang,Yaan"
   },
   {
-    "name": "Lower Yangtze Mandarin ",
+    "name": "Lower Yangtze Mandarin",
     "i": 833,
     "min": 4,
     "max": 11,
@@ -1451,7 +1451,7 @@ window.AsiaNameBases = [
     "b": "Shanghai,Suzhou,Hangzhou,Nanjing,Wuxi,Changzhou,Nantong,Yangzhou,Zhenjiang,Maanshan,Hefei,Anqing"
   },
   {
-    "name": "Athpahariya (Athpare) ",
+    "name": "Athpahariya (Athpare)",
     "i": 834,
     "min": 4,
     "max": 11,
@@ -1460,7 +1460,7 @@ window.AsiaNameBases = [
     "b": "Kathmandu,Pokhara,Bharatpur,Lalitpur,Birgunj,Biratnagar,Ghorahi,Dhangadhi,Itahari,Janakpur,Butwal,Hetauda"
   },
   {
-    "name": "Bantawa ",
+    "name": "Bantawa",
     "i": 835,
     "min": 4,
     "max": 11,
@@ -1469,7 +1469,7 @@ window.AsiaNameBases = [
     "b": "Tulsipur,Dharan,Nepalgunj,Kalaiya,Jitpursimara,Tribhuvannagar,Bidur,Bhimeshwor,Birtamod,Damak,Lahan,Kamalamai"
   },
   {
-    "name": "Bahing ",
+    "name": "Bahing",
     "i": 836,
     "min": 4,
     "max": 11,
@@ -1478,7 +1478,7 @@ window.AsiaNameBases = [
     "b": "Surkhet,Gulariya,Rajbiraj,Siraha,Hanumannagar,Gaighat,Okhaldhunga,Phidim,Ilam,Mechinagar,Kanchanpur,Krishnapur"
   },
   {
-    "name": "Belhare ",
+    "name": "Belhare",
     "i": 837,
     "min": 4,
     "max": 11,
@@ -1487,7 +1487,7 @@ window.AsiaNameBases = [
     "b": "Tikapur,Lamki,Kohalpur,Amargadhi,Sanfebagar,Mangalsen,Dipayal,Silgadhi,Dhangadi,Mahendranagar,Dadeldhura,Baitadi"
   },
   {
-    "name": "Chintang ",
+    "name": "Chintang",
     "i": 838,
     "min": 4,
     "max": 11,
@@ -1496,7 +1496,7 @@ window.AsiaNameBases = [
     "b": "Baglung,Kushma,Beni,Tatopani,Shikha,Raghuganga,Jaljala,Galeshwor,Dana,Bobang,Baranja,Narchayang"
   },
   {
-    "name": "Dumi ",
+    "name": "Dumi",
     "i": 839,
     "min": 4,
     "max": 11,
@@ -1505,7 +1505,7 @@ window.AsiaNameBases = [
     "b": "Mustang,Jomsom,Kagbeni,Muktinath,LoManthang,Tsho,Tangbe,Chhoser,Samar,Ghiling,Ghami,Tsarang"
   },
   {
-    "name": "Sampang ",
+    "name": "Sampang",
     "i": 840,
     "min": 4,
     "max": 11,
@@ -1514,7 +1514,7 @@ window.AsiaNameBases = [
     "b": "Dolpa,Dunai,Tarakot,Chharka,Saldang,Phoksundo,Tinje,Shimen,Dho,Lawan,Mugu,Gamgadhi"
   },
   {
-    "name": "Sunuwar ",
+    "name": "Sunuwar",
     "i": 841,
     "min": 4,
     "max": 11,
@@ -1523,7 +1523,7 @@ window.AsiaNameBases = [
     "b": "Manang,Chame,Pisang,Braga,Hongde,TankiManang,Koto,Tal,Bagarchhap,Dana,Nar,Phu"
   },
   {
-    "name": "Thulung ",
+    "name": "Thulung",
     "i": 842,
     "min": 4,
     "max": 11,
@@ -1532,7 +1532,7 @@ window.AsiaNameBases = [
     "b": "Solukhumbu,Salleri,Nunthala,Bung,Chheskam,Gudel,Kerung,Takasindu,Madesa,Sisuwakhola,Paktanglung,Necha"
   },
   {
-    "name": "Yamphu ",
+    "name": "Yamphu",
     "i": 843,
     "min": 4,
     "max": 11,
@@ -1541,7 +1541,7 @@ window.AsiaNameBases = [
     "b": "Khotang,Diktel,Ramechhap,Manthali,Okhaldhunga,Salleri,Bhojpur,Taksar,Terhathum,Myanglung,Chainpur,Basantapur"
   },
   {
-    "name": "Chulung ",
+    "name": "Chulung",
     "i": 844,
     "min": 4,
     "max": 11,
@@ -1550,7 +1550,7 @@ window.AsiaNameBases = [
     "b": "Udayapur,Gaighat,Triyuga,Katari,Beltar,Basaha,Jalpa,Panchawati,Rautamai,Limchungbung,Hadiya,Dharan"
   },
   {
-    "name": "Mewahang ",
+    "name": "Mewahang",
     "i": 845,
     "min": 4,
     "max": 11,
@@ -1559,7 +1559,7 @@ window.AsiaNameBases = [
     "b": "Sankhuwasabha,Khandbari,Chainpur,Num,Sabha,Madi,Tamku,Panchkhapan,Barmaga,Makalu,Tumlingtar,Hattisar"
   },
   {
-    "name": "Jerung (Jero) ",
+    "name": "Jerung (Jero)",
     "i": 846,
     "min": 4,
     "max": 11,
@@ -1568,7 +1568,7 @@ window.AsiaNameBases = [
     "b": "Ilam,Suryodaya,Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari"
   },
   {
-    "name": "Limbu ",
+    "name": "Limbu",
     "i": 847,
     "min": 4,
     "max": 11,
@@ -1577,7 +1577,7 @@ window.AsiaNameBases = [
     "b": "Taplejung,Phungling,Phakumba,Dokhu,Lelep,Olangchunggola,Yamphuding,Mamankhe,Sivathapu,Sukathum,Pedang,Thukima"
   },
   {
-    "name": "Lohorung ",
+    "name": "Lohorung",
     "i": 848,
     "min": 4,
     "max": 11,
@@ -1586,7 +1586,7 @@ window.AsiaNameBases = [
     "b": "Tehrathum,Myanglung,Morang,Urlabari,Damak,Jhapa,Birtamod,Gauradaha,Shivasatakshi,Buddhashanti,Duhavi,Mahadeva"
   },
   {
-    "name": "Nachhiring ",
+    "name": "Nachhiring",
     "i": 849,
     "min": 4,
     "max": 11,
@@ -1595,7 +1595,7 @@ window.AsiaNameBases = [
     "b": "Sankhuwasabha,Madi,Halesi,Diktel,Ramechhap,Manthali,Okhaldhunga,Salleri,Bhojpur,Taksar,Terhathum,Myanglung"
   },
   {
-    "name": "Puma ",
+    "name": "Puma",
     "i": 850,
     "min": 4,
     "max": 11,
@@ -1604,7 +1604,7 @@ window.AsiaNameBases = [
     "b": "Sindhuli,Sindhulimadhi,Kamalamai,Mahadevsthan,Tinkanya,Kapilakasturi,Bahuntilpung,Jalkanya,Ranichauri,Bhimeshwor,Hetauda,Gorkha"
   },
   {
-    "name": "Dungmali ",
+    "name": "Dungmali",
     "i": 851,
     "min": 4,
     "max": 11,
@@ -1613,7 +1613,7 @@ window.AsiaNameBases = [
     "b": "Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari,Kummayak,Srijunga"
   },
   {
-    "name": "Saam ",
+    "name": "Saam",
     "i": 852,
     "min": 4,
     "max": 11,
@@ -1622,7 +1622,7 @@ window.AsiaNameBases = [
     "b": "Ilam,Suryodaya,Panchthar,Phidim,Phungling,Yangwarak,Aathrai,Miklajung,Tumbewa,Prithvinagar,Amarpur,Jorpokhari"
   },
   {
-    "name": "Hayu/Vayu ",
+    "name": "Hayu/Vayu",
     "i": 853,
     "min": 4,
     "max": 11,
@@ -1631,7 +1631,7 @@ window.AsiaNameBases = [
     "b": "Kavrepalanchok,Dhulikhel,Banepa,Panauti,Panchkhal,Sanga,Baluwa,Khopasi,Temal,MandanDeupur,Bhumlungtar,Kushadevi"
   },
   {
-    "name": "Chantyal ",
+    "name": "Chantyal",
     "i": 854,
     "min": 4,
     "max": 11,
@@ -1640,7 +1640,7 @@ window.AsiaNameBases = [
     "b": "Myagdi,Beni,Baglung,Kushma,Galeshwor,Dana,Raghuganga,Shikha,Jaljala,Tatopani,Baranja,Bobang"
   },
   {
-    "name": "Ghale ",
+    "name": "Ghale",
     "i": 855,
     "min": 4,
     "max": 11,
@@ -1649,7 +1649,7 @@ window.AsiaNameBases = [
     "b": "Gorkha,Palungtar,Arughat,Ghyachchok,Takukot,Masryngdi,Chumchet,Prok,SahidLakhanRuralMunicipality,Dharche,Laprak,Keraunja"
   },
   {
-    "name": "Kaike (Magar Kaike) ",
+    "name": "Kaike (Magar Kaike)",
     "i": 856,
     "min": 4,
     "max": 11,
@@ -1658,7 +1658,7 @@ window.AsiaNameBases = [
     "b": "Dolpa,Dunai,Tarakot,Chharka,Saldang,Phoksundo,Tinje,Shimen,Dho,Lawan,Mugu,Gamgadhi"
   },
   {
-    "name": "Manang (Manange) ",
+    "name": "Manang (Manange)",
     "i": 857,
     "min": 4,
     "max": 11,
@@ -1667,7 +1667,7 @@ window.AsiaNameBases = [
     "b": "Manang,Chame,Pisang,Braga,Hongde,TankiManang,Koto,Tal,Bagarchhap,Dana,Nar,Phu"
   },
   {
-    "name": "Altai ",
+    "name": "Altai",
     "i": 858,
     "min": 4,
     "max": 11,
@@ -1676,7 +1676,7 @@ window.AsiaNameBases = [
     "b": "GornoAltaysk,KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek"
   },
   {
-    "name": "Altai Uriankhai ",
+    "name": "Altai Uriankhai",
     "i": 859,
     "min": 4,
     "max": 11,
@@ -1685,7 +1685,7 @@ window.AsiaNameBases = [
     "b": "KoshAgach,Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk"
   },
   {
-    "name": "Alyutor ",
+    "name": "Alyutor",
     "i": 862,
     "min": 4,
     "max": 11,
@@ -1694,7 +1694,7 @@ window.AsiaNameBases = [
     "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky"
   },
   {
-    "name": "Sui Lang ",
+    "name": "Sui Lang",
     "i": 863,
     "min": 4,
     "max": 11,
@@ -1703,7 +1703,7 @@ window.AsiaNameBases = [
     "b": "Guizhou,Kaili,Duyun,Zunyi,Anshun,Liupanshui,Qingzhen,Fuquan,Chishui,Tongren,Bijie,Xingren"
   },
   {
-    "name": "Tai Dam ",
+    "name": "Tai Dam",
     "i": 864,
     "min": 4,
     "max": 11,
@@ -1712,7 +1712,7 @@ window.AsiaNameBases = [
     "b": "DienBienPhu,LaiChau,MuongLay,PhongTho,TamDuong,SinHo,TuanGiao,MuongTe,MuongNhe,PaSo,MuongAng,TiaBia"
   },
   {
-    "name": "Tai Ya ",
+    "name": "Tai Ya",
     "i": 865,
     "min": 4,
     "max": 11,
@@ -1721,7 +1721,7 @@ window.AsiaNameBases = [
     "b": "Xishuangbanna,Jinghong,Menghai,Mengla,Puer,Mojiang,Jiangcheng,Lancang,Simao,Zhenyuan,Menglian,Ximeng"
   },
   {
-    "name": "Taishanese ",
+    "name": "Taishanese",
     "i": 866,
     "min": 4,
     "max": 11,
@@ -1730,7 +1730,7 @@ window.AsiaNameBases = [
     "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Zhongshan,Foshan,Guangzhou,Shenzhen,Dongguan,Zhuhai"
   },
   {
-    "name": "Wutunhua ",
+    "name": "Wutunhua",
     "i": 867,
     "min": 4,
     "max": 11,
@@ -1739,7 +1739,7 @@ window.AsiaNameBases = [
     "b": "Tongren,Huangnan,Hainan,Guide,Xining,Huzhu,Datong,Menyuan,Qilian,Tianjun,Ulan,Delingha"
   },
   {
-    "name": "Yi ",
+    "name": "Yi",
     "i": 868,
     "min": 4,
     "max": 11,
@@ -1748,7 +1748,7 @@ window.AsiaNameBases = [
     "b": "Kunming,Dali,Lijiang,Chuxiong,Qujing,Yuxi,Zhaotong,Baoshan,Puer,Honghe,Wenshan,Xishuangbanna"
   },
   {
-    "name": "Amdo Tibetan ",
+    "name": "Amdo Tibetan",
     "i": 869,
     "min": 4,
     "max": 11,
@@ -1757,7 +1757,7 @@ window.AsiaNameBases = [
     "b": "Lhasa,Shigatse,Chamdo,Nyingchi,Lhokha,Nagqu,Ngari,Gannan,Haibei,Huangnan,Hainan,Golog"
   },
   {
-    "name": "Nubri ",
+    "name": "Nubri",
     "i": 875,
     "min": 4,
     "max": 11,
@@ -1766,7 +1766,7 @@ window.AsiaNameBases = [
     "b": "Sirdibas,Lho,Prok,Bihi,Chumchet,Ghap,Samagaon,Sama,Lhogaon,Pungmo,Thame,Namche"
   },
   {
-    "name": "Boro (Bodo) ",
+    "name": "Boro (Bodo)",
     "i": 876,
     "min": 4,
     "max": 11,
@@ -1775,7 +1775,7 @@ window.AsiaNameBases = [
     "b": "Kokrajhar,Guwahati,Dhubri,Bongaigaon,Barpeta,Nalbari,Kamrup,Goalpara,Darrang,Sonitpur,Lakhimpur,Udalguri"
   },
   {
-    "name": "Dhimal ",
+    "name": "Dhimal",
     "i": 877,
     "min": 4,
     "max": 11,
@@ -1784,7 +1784,7 @@ window.AsiaNameBases = [
     "b": "Darjeeling,Kalimpong,Siliguri,Jalpaiguri,CoochBehar,Alipurduar,Malda,Murshidabad,Nadia,North24Parganas,South24Parganas,Kolkata"
   },
   {
-    "name": "Proto-Karenic ",
+    "name": "Proto-Karenic",
     "i": 878,
     "min": 4,
     "max": 11,
@@ -1793,7 +1793,7 @@ window.AsiaNameBases = [
     "b": "Yangon,Mandalay,Bago,Mawlamyine,Pathein,Monywa,Meiktila,Sittwe,Taunggyi,Myeik,Dawei,Pyay"
   },
   {
-    "name": "Baram Thangmi ",
+    "name": "Baram Thangmi",
     "i": 888,
     "min": 4,
     "max": 11,
@@ -1802,7 +1802,7 @@ window.AsiaNameBases = [
     "b": "Baram,Thangmi,Barpak,Laprak,Gumda,Sirdibas,Larpak,Arughat,Khar,Dhadkhark,Takukot,Manakamana"
   },
   {
-    "name": "Dhimalish ",
+    "name": "Dhimalish",
     "i": 889,
     "min": 4,
     "max": 11,
@@ -1811,7 +1811,7 @@ window.AsiaNameBases = [
     "b": "Jhapa,Morang,Sunsari,Ilam,Panchthar,Taplejung,Dhankuta,Tehrathum,Sankhuwasabha,Bhojpur,Khotang,Okhaldhunga"
   },
   {
-    "name": "Mijiic ",
+    "name": "Mijiic",
     "i": 891,
     "min": 4,
     "max": 11,
@@ -1820,7 +1820,7 @@ window.AsiaNameBases = [
     "b": "Ziro,Yachuli,Palin,Nacho,Taliha,Daporijo,Along,Basar,Liromoba,Kamba,Mechuk,Tato"
   },
   {
-    "name": "Ammonite ",
+    "name": "Ammonite",
     "i": 897,
     "min": 4,
     "max": 11,
@@ -1829,7 +1829,7 @@ window.AsiaNameBases = [
     "b": "Amman,RabbathAmmon,Jerash,Madaba,Heshbon,Dibon,Aroer,KirMoab,Jazer,Mahanaim,Penuel,Succoth"
   },
   {
-    "name": "Amorite ",
+    "name": "Amorite",
     "i": 898,
     "min": 4,
     "max": 11,
@@ -1838,7 +1838,7 @@ window.AsiaNameBases = [
     "b": "Mari,Ebla,Aleppo,Hama,Qatna,Ugarit,Alalakh,Carchemish,TilBarsip,Halab,Yamhad,Emar"
   },
   {
-    "name": "Amur Dagur ",
+    "name": "Amur Dagur",
     "i": 899,
     "min": 4,
     "max": 11,
@@ -1847,7 +1847,7 @@ window.AsiaNameBases = [
     "b": "Blagoveshchensk,Heihe,Aihui,Mohe,Jiagedaqi,Huma,Tahe,Amursk,Zeya,Shimanovsk,Svobodny,Belogorsk"
   },
   {
-    "name": "Anca ",
+    "name": "Anca",
     "i": 911,
     "min": 4,
     "max": 11,
@@ -1856,7 +1856,7 @@ window.AsiaNameBases = [
     "b": "AddisAbaba,DireDawa,Mekelle,BahirDar,Gondar,Hawassa,Jimma,Dessie,Kombolcha,Adama,Shashamane,ArbaMinch"
   },
   {
-    "name": "Ancient Egyptian ",
+    "name": "Ancient Egyptian",
     "i": 912,
     "min": 4,
     "max": 11,
@@ -1865,7 +1865,7 @@ window.AsiaNameBases = [
     "b": "Memphis,Thebes,Heliopolis,Abydos,Karnak,Luxor,Aswan,Edfu,Dendera,Philae,KomOmbo,AbuSimbel"
   },
   {
-    "name": "Ancient North Arabian ",
+    "name": "Ancient North Arabian",
     "i": 913,
     "min": 4,
     "max": 11,
@@ -1874,7 +1874,7 @@ window.AsiaNameBases = [
     "b": "Petra,Hegra,Mada'inSalih,Dedan,Tayma,Qurayyah,DumatAlJandal,AlUla,Khaybar,Yathrib,AlHijr,Badr"
   },
   {
-    "name": "Arabic Javanese of Klego ",
+    "name": "Arabic Javanese of Klego",
     "i": 942,
     "min": 4,
     "max": 11,
@@ -1883,7 +1883,7 @@ window.AsiaNameBases = [
     "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Tangerang,Depok,Bekasi,Bogor,Batam"
   },
   {
-    "name": "Armazic ",
+    "name": "Armazic",
     "i": 945,
     "min": 4,
     "max": 11,
@@ -1892,7 +1892,7 @@ window.AsiaNameBases = [
     "b": "Tbilisi,Kutaisi,Batumi,Sukhumi,Zugdidi,Poti,Gori,Rustavi,Telavi,Akhaltsikhe,Ambrolauri,Tkibuli"
   },
   {
-    "name": "Arunachal ",
+    "name": "Arunachal",
     "i": 949,
     "min": 4,
     "max": 11,
@@ -1901,7 +1901,7 @@ window.AsiaNameBases = [
     "b": "Itanagar,Tawang,Ziro,Pasighat,Bomdila,Tezu,Along,Khonsa,Seppa,Yupia,Roing,Anini"
   },
   {
-    "name": "Assamese ",
+    "name": "Assamese",
     "i": 952,
     "min": 4,
     "max": 11,
@@ -1910,7 +1910,7 @@ window.AsiaNameBases = [
     "b": "Guwahati,Silchar,Dibrugarh,Jorhat,Nagaon,Tezpur,Tinsukia,Goalpara,Sivasagar,Barpeta,NorthLakhimpur,Karimganj"
   },
   {
-    "name": "Assyrian ",
+    "name": "Assyrian",
     "i": 954,
     "min": 4,
     "max": 11,
@@ -1919,7 +1919,7 @@ window.AsiaNameBases = [
     "b": "Nineveh,Assur,Nimrud,Khorsabad,DurSharrukin,Arbela,Ashur,Calah,Erbil,Duhok,Sulaymaniyah,Kirkuk"
   },
   {
-    "name": "Buryat ",
+    "name": "Buryat",
     "i": 958,
     "min": 4,
     "max": 11,
@@ -1928,7 +1928,7 @@ window.AsiaNameBases = [
     "b": "UlanUde,Severobaikalsk,Kyakhta,Babushkin,Gusinoozyorsk,Zakamensk,Selenginsk,Tankhoy,Nizhneangarsk,Barguzin,UstBarguzin,Ivolginsk"
   },
   {
-    "name": "Daur ",
+    "name": "Daur",
     "i": 959,
     "min": 4,
     "max": 11,
@@ -1937,25 +1937,25 @@ window.AsiaNameBases = [
     "b": "Harbin,Qiqihar,Mudanjiang,Jiamusi,Daqing,Hegang,Shuangyashan,Jixi,Yichun,Qitaihe,Heihe,Suihua"
   },
   {
-    "name": "Oirat ",
+    "name": "Oirat",
     "i": 960,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Altay, Khovd,Olgii,Ulaangom,Hovd,Uliastai,Bulgan,Tosontsengel,Altai,BayanOlgii,GoviAltai,Zavkhan"
+    "b": "Altay,Khovd,Olgii,Ulaangom,Hovd,Uliastai,Bulgan,Tosontsengel,Altai,BayanOlgii,GoviAltai,Zavkhan"
   },
   {
-    "name": "Torgut Oirat ",
+    "name": "Torgut Oirat",
     "i": 961,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "ÃœrÃ¼mqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
+    "b": "œrümqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
   },
   {
-    "name": "Burushaski ",
+    "name": "Burushaski",
     "i": 992,
     "min": 4,
     "max": 11,
@@ -1964,7 +1964,7 @@ window.AsiaNameBases = [
     "b": "Gilgit,Hunza,Nagar,Sost,Ghizer,Yasin,Gupis,Ishkoman,Punial,Baltit,Khaplu,Skardu"
   },
   {
-    "name": "Hinglish ",
+    "name": "Hinglish",
     "i": 993,
     "min": 4,
     "max": 11,
@@ -1973,7 +1973,7 @@ window.AsiaNameBases = [
     "b": "Mumbai,Delhi,Bangalore,Hyderabad,Chennai,Kolkata,Pune,Ahmedabad,Jaipur,Lucknow,Kanpur,Nagpur"
   },
   {
-    "name": "Hindko, Northern ",
+    "name": "Hindko, Northern",
     "i": 994,
     "min": 4,
     "max": 11,
@@ -1982,7 +1982,7 @@ window.AsiaNameBases = [
     "b": "Peshawar,Abbottabad,Mardan,Swabi,Nowshera,Kohat,Bannu,DeraIsmailKhan,Mingora,Chitral,Dir,Timergara"
   },
   {
-    "name": "Indian English ",
+    "name": "Indian English",
     "i": 995,
     "min": 4,
     "max": 11,
@@ -1991,7 +1991,7 @@ window.AsiaNameBases = [
     "b": "Bangalore,Chennai,Hyderabad,Kolkata,Mumbai,NewDelhi,Pune,Ahmedabad,Jaipur,Lucknow,Kanpur,Nagpur"
   },
   {
-    "name": "Korku ",
+    "name": "Korku",
     "i": 996,
     "min": 4,
     "max": 11,
@@ -2000,7 +2000,7 @@ window.AsiaNameBases = [
     "b": "Bhopal,Indore,Jabalpur,Gwalior,Ujjain,Sagar,Ratlam,Satna,Dewas,Burhanpur,Khandwa,Chhindwara"
   },
   {
-    "name": "Nepalese English ",
+    "name": "Nepalese English",
     "i": 997,
     "min": 4,
     "max": 11,
@@ -2009,7 +2009,7 @@ window.AsiaNameBases = [
     "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Biratnagar,Birgunj,Dharan,Hetauda,Bhaktapur,Nepalganj,Bidur,Tulsipur"
   },
   {
-    "name": "Newar ",
+    "name": "Newar",
     "i": 998,
     "min": 4,
     "max": 11,
@@ -2018,7 +2018,7 @@ window.AsiaNameBases = [
     "b": "Patan,Bhaktapur,Kirtipur,Thimi,Banepa,Dhulikhel,Panauti,Namobuddha,Bungamati,Khokana,Tika,Bhimeshwor"
   },
   {
-    "name": "Sora (Savara) ",
+    "name": "Sora (Savara)",
     "i": 999,
     "min": 4,
     "max": 11,
@@ -2027,7 +2027,7 @@ window.AsiaNameBases = [
     "b": "Visakhapatnam,Vijayawada,Warangal,Nellore,Kurnool,Guntur,Tirupati,Rajahmundry,Kakinada,Anantapur,Ongole,Eluru"
   },
   {
-    "name": "Manchu ",
+    "name": "Manchu",
     "i": 1000,
     "min": 4,
     "max": 11,
@@ -2036,7 +2036,7 @@ window.AsiaNameBases = [
     "b": "Shenyang,Dalian,Harbin,Changchun,Shijiazhuang,Taiyuan,Hohhot,Shanghai,Nanjing,Hangzhou,Hefei,Fuzhou"
   },
   {
-    "name": "Jurchen ",
+    "name": "Jurchen",
     "i": 1001,
     "min": 4,
     "max": 11,
@@ -2045,7 +2045,7 @@ window.AsiaNameBases = [
     "b": "Beijing,Tianjin,Qinhuangdao,Tangshan,Cangzhou,Langfang,Zhangjiakou,Chengde,Baoding,Datong,Jinzhou,Huludao"
   },
   {
-    "name": "Xibe ",
+    "name": "Xibe",
     "i": 1002,
     "min": 4,
     "max": 11,
@@ -2054,7 +2054,7 @@ window.AsiaNameBases = [
     "b": "Qiqihar,Heihe,Jiamusi,Mudanjiang,Jixi,Shangzhi,Hailin,Ningan,Wangkui,Zhaodong,Zhaozhou,Nehe"
   },
   {
-    "name": "Nanai ",
+    "name": "Nanai",
     "i": 1003,
     "min": 4,
     "max": 11,
@@ -2063,7 +2063,7 @@ window.AsiaNameBases = [
     "b": "Khabarovsk,Birobidzhan,Amursk,Leninskoye,Solnechnyy,Vyazemskiy,Raychikhinsk,Artemyevskiy,Oktyabrskiy,Skovorodino,Tynda,Zeya"
   },
   {
-    "name": "Evenki ",
+    "name": "Evenki",
     "i": 1004,
     "min": 4,
     "max": 11,
@@ -2072,7 +2072,7 @@ window.AsiaNameBases = [
     "b": "Norilsk,Irkutsk,Yakutsk,Chita,UlanUde,Krasnoyarsk,Bratsk,UstKut,Angarsk,Tayshet,Kirensk,Bodaibo"
   },
   {
-    "name": "Oroqen ",
+    "name": "Oroqen",
     "i": 1005,
     "min": 4,
     "max": 11,
@@ -2081,7 +2081,7 @@ window.AsiaNameBases = [
     "b": "Harbin,Heilongjiang,Qiqihar,Mudanjiang,Jiamusi,Daqing,Yichun,Shuangyashan,Jixi,Hegang,Suihua"
   },
   {
-    "name": "Man Met (Kemie) ",
+    "name": "Man Met (Kemie)",
     "i": 1011,
     "min": 4,
     "max": 11,
@@ -2090,7 +2090,7 @@ window.AsiaNameBases = [
     "b": "Asmara,Keren,Massawa,Assab,Mendefera,Barentu,Tesseney,AdiKeyih,Senafe,Dekemhare,AdiQuala,Bieta"
   },
   {
-    "name": "Hu (Angku, Kon Keu) ",
+    "name": "Hu (Angku, Kon Keu)",
     "i": 1012,
     "min": 4,
     "max": 11,
@@ -2099,7 +2099,7 @@ window.AsiaNameBases = [
     "b": "Kunming,Chengdu,Chongqing,Guiyang,Nanning,Guilin,Lijiang,Dali,Jinghong,Mangshi,Ruili,Baoshan"
   },
   {
-    "name": "U (Pouma) ",
+    "name": "U (Pouma)",
     "i": 1013,
     "min": 4,
     "max": 11,
@@ -2108,16 +2108,16 @@ window.AsiaNameBases = [
     "b": "Haikou,Sanya,Zhuhai,Shantou,Jiangmen,Zhanjiang,Beihai,Qinzhou,Fangchenggang,Dongxing,Chongzuo,Hezhou"
   },
   {
-    "name": "Baarin Mongol ",
+    "name": "Baarin Mongol",
     "i": 1014,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
+    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Mörön,Nalaikh,Bayankhongor,Ölgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
   },
   {
-    "name": "Babylonian ",
+    "name": "Babylonian",
     "i": 1016,
     "min": 4,
     "max": 11,
@@ -2126,7 +2126,7 @@ window.AsiaNameBases = [
     "b": "Baghdad,Basrah,Mosul,Kirkuk,Najaf,Erbil,Nasiriyah,Karbala,Ramadi,Sulaymaniyah,AlDiwaniyah,Amarah"
   },
   {
-    "name": "Badaga ",
+    "name": "Badaga",
     "i": 1018,
     "min": 4,
     "max": 11,
@@ -2135,7 +2135,7 @@ window.AsiaNameBases = [
     "b": "Delhi,Mumbai,Kolkata,Bangalore,Chennai,Hyderabad,Ahmedabad,Surat,Pune,Jaipur,Lucknow,Indore"
   },
   {
-    "name": "Baoan ",
+    "name": "Baoan",
     "i": 1019,
     "min": 4,
     "max": 11,
@@ -2144,7 +2144,7 @@ window.AsiaNameBases = [
     "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Xian,Tianjin,Nanjing,Chongqing,Hangzhou,Suzhou"
   },
   {
-    "name": "Baoanic ",
+    "name": "Baoanic",
     "i": 1020,
     "min": 4,
     "max": 11,
@@ -2153,7 +2153,7 @@ window.AsiaNameBases = [
     "b": "Dalian,Qingdao,Shenyang,Zhengzhou,Taiyuan,Shijiazhuang,Jinan,Changsha,Nanchang,Fuzhou,Xiamen,Harbin"
   },
   {
-    "name": "Baoting Hlai ",
+    "name": "Baoting Hlai",
     "i": 1021,
     "min": 4,
     "max": 11,
@@ -2162,7 +2162,7 @@ window.AsiaNameBases = [
     "b": "Lanzhou,Urumqi,Hohhot,Yinchuan,Xining,Lhasa,Kunming,Guiyang,Nanning,Haikou,Sanya,Guilin"
   },
   {
-    "name": "Badong Yao ",
+    "name": "Badong Yao",
     "i": 1024,
     "min": 4,
     "max": 11,
@@ -2171,7 +2171,7 @@ window.AsiaNameBases = [
     "b": "Yichang,Jingzhou,Xiangyang,Huangshi,Huanggang,Xianning,Ezhou,Xiaogan,Shiyan,Suizhou,Jingmen,Enshi"
   },
   {
-    "name": "Baekje Korean ",
+    "name": "Baekje Korean",
     "i": 1025,
     "min": 4,
     "max": 11,
@@ -2180,7 +2180,7 @@ window.AsiaNameBases = [
     "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Suwon,Changwon,Ulsan,Cheonan,Jeonju,Namyangju"
   },
   {
-    "name": "Bahnar ",
+    "name": "Bahnar",
     "i": 1028,
     "min": 4,
     "max": 11,
@@ -2189,7 +2189,7 @@ window.AsiaNameBases = [
     "b": "Hanoi,HoChiMinhCity,Haiphong,CanTho,DaNang,Hue,HaiDuong,NamDinh,Vinh,QuangNinh,BienHoa,LongXuyen"
   },
   {
-    "name": "Bengali ",
+    "name": "Bengali",
     "i": 1029,
     "min": 4,
     "max": 11,
@@ -2198,7 +2198,7 @@ window.AsiaNameBases = [
     "b": "Dhaka,Chittagong,Sylhet,Rajshahi,Bogra,Khulna,Comilla,Barisal,Mymensingh,Rangpur,Feni,Narayanganj"
   },
   {
-    "name": "Bengali Portuguese Creole ",
+    "name": "Bengali Portuguese Creole",
     "i": 1030,
     "min": 4,
     "max": 11,
@@ -2207,7 +2207,7 @@ window.AsiaNameBases = [
     "b": "Delhi,Mumbai,Kolkata,Bangalore,Chennai,Hyderabad,Ahmedabad,Surat,Pune,Jaipur,Lucknow,Indore"
   },
   {
-    "name": "Gelao ",
+    "name": "Gelao",
     "i": 1054,
     "min": 4,
     "max": 11,
@@ -2216,7 +2216,7 @@ window.AsiaNameBases = [
     "b": "Liuzhi,Guizhou,Anshun,Zunyi,Qianxin,Duyun,Songtao,Zhenyuan,Libo,Huishui,Weng'an,Guiding"
   },
   {
-    "name": "Tongzha ",
+    "name": "Tongzha",
     "i": 1055,
     "min": 4,
     "max": 11,
@@ -2225,7 +2225,7 @@ window.AsiaNameBases = [
     "b": "Tongzi,Zunyi,Chishui,Xishui,Meitan,Fenggang,Wuchuan,Suiyang,Guizhou,Changning"
   },
   {
-    "name": "Telue ",
+    "name": "Telue",
     "i": 1056,
     "min": 4,
     "max": 11,
@@ -2234,7 +2234,7 @@ window.AsiaNameBases = [
     "b": "Pingtai,Zhongshan,Zhaoqing,Liannan,Guizhou,Libo,Hechi,Yizhou,Laibin,Guiping,Nandan"
   },
   {
-    "name": "Then Kam Sui ",
+    "name": "Then Kam Sui",
     "i": 1057,
     "min": 4,
     "max": 11,
@@ -2243,7 +2243,7 @@ window.AsiaNameBases = [
     "b": "Libo,Jinxiu,Luocheng,Rongshui,Hechi,Nandan,Huanjiang,Guangxi,Sandu,Du'an,Donglan"
   },
   {
-    "name": "Nong Zhuang ",
+    "name": "Nong Zhuang",
     "i": 1058,
     "min": 4,
     "max": 11,
@@ -2252,7 +2252,7 @@ window.AsiaNameBases = [
     "b": "Guangxi,Nanning,Liuzhou,Laibin,Baise,Hechi,Guigang,Wuzhou,Chongzuo,Hezhou,Nandan"
   },
   {
-    "name": "Vandu ",
+    "name": "Vandu",
     "i": 1059,
     "min": 4,
     "max": 11,
@@ -2261,7 +2261,7 @@ window.AsiaNameBases = [
     "b": "Vandu,Vanuatu,Santo,Malakula,Pentecost,Maewo,Ambae,Banks,Torres,Shepherd,Epi,Efate"
   },
   {
-    "name": "Chadong ",
+    "name": "Chadong",
     "i": 1060,
     "min": 4,
     "max": 11,
@@ -2270,7 +2270,7 @@ window.AsiaNameBases = [
     "b": "Chadong,Zhaoqing,Xingyi,Nandan,Hechi,Liuzhou,Guangxi,Guizhou,Du'an,Sandu,Laibin,Libo"
   },
   {
-    "name": "En Kra ",
+    "name": "En Kra",
     "i": 1061,
     "min": 4,
     "max": 11,
@@ -2279,7 +2279,7 @@ window.AsiaNameBases = [
     "b": "Kra,Bolaven Plateau,Champasak,Attapeu,Sekong,Xekong,Saravan,Salavan,Laos,Kra River"
   },
   {
-    "name": "Nuoxi Naxi Yao ",
+    "name": "Nuoxi Naxi Yao",
     "i": 1062,
     "min": 4,
     "max": 11,
@@ -2288,7 +2288,7 @@ window.AsiaNameBases = [
     "b": "Nuoxi,Lijiang,Ninglang,Yongsheng,Yanyuan,Weixi,Muli,Northwest Yunnan,Jinsha River,Yalong River,Sichuan,Yunnan"
   },
   {
-    "name": "Lauhut ",
+    "name": "Lauhut",
     "i": 1063,
     "min": 4,
     "max": 11,
@@ -2297,7 +2297,7 @@ window.AsiaNameBases = [
     "b": "Lauhut,Maluku,Ambon,Seram,Halmahera,Buru,Kai,Aru,Tanimbar,Maluku Islands,Kei Islands"
   },
   {
-    "name": "Bahrani Arabic ",
+    "name": "Bahrani Arabic",
     "i": 1073,
     "min": 4,
     "max": 11,
@@ -2306,7 +2306,7 @@ window.AsiaNameBases = [
     "b": "Manama,Riffa,Muharraq,Hamad Town,Isa Town,Sitra,Budaiya,A'ali,Madinat Hamad,Al Muharraq,Jidhafs"
   },
   {
-    "name": "Bai ",
+    "name": "Bai",
     "i": 1074,
     "min": 4,
     "max": 11,
@@ -2315,7 +2315,7 @@ window.AsiaNameBases = [
     "b": "Dali,Xiaguan,Jianchuan,Midu,Eryuan,Yongsheng,Yunshan,Heqing,Binchuan,Yunlong,Binshuan"
   },
   {
-    "name": "Baima ",
+    "name": "Baima",
     "i": 1075,
     "min": 4,
     "max": 11,
@@ -2324,7 +2324,7 @@ window.AsiaNameBases = [
     "b": "Baima,Butuo,Mabian,Puge,Jinyang,Leibo,Zhaojue,Meigu,Dechang,Huidong,Xichang,Yanyuan"
   },
   {
-    "name": "Baisha Hlai ",
+    "name": "Baisha Hlai",
     "i": 1076,
     "min": 4,
     "max": 11,
@@ -2333,7 +2333,7 @@ window.AsiaNameBases = [
     "b": "Baisha,Sanya,Dongfang,Wanning,Wenchang,Ledong,Chengmai,Qionghai,Lingshui,Danzhou"
   },
   {
-    "name": "Balochi ",
+    "name": "Balochi",
     "i": 1099,
     "min": 4,
     "max": 11,
@@ -2342,7 +2342,7 @@ window.AsiaNameBases = [
     "b": "Quetta,Turbat,Gwadar,Hub,Ormara,Pasni,Bela,Uthal,Sibi,Loralai,Zhob,Sui,Dera Bugti"
   },
   {
-    "name": "Balti ",
+    "name": "Balti",
     "i": 1100,
     "min": 4,
     "max": 11,
@@ -2351,7 +2351,7 @@ window.AsiaNameBases = [
     "b": "Skardu,Khaplu,Shigar,Kharmang,Rondu,Roundu,Ghanche,Shyok,Deosai,Nanga Parbat,Stak"
   },
   {
-    "name": "Pashto, Central ",
+    "name": "Pashto, Central",
     "i": 1109,
     "min": 4,
     "max": 11,
@@ -2360,16 +2360,16 @@ window.AsiaNameBases = [
     "b": "Kabul,Kandahar,Herat,Jalalabad,Mazar-i-Sharif,Kunduz,Ghazni,Khost,Paktia,Farah,Bamyan,Kapisa"
   },
   {
-    "name": "Waneci ",
+    "name": "Waneci",
     "i": 1110,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Waneci,Tocantins,Palmas,TocantinÃ³polis,Gurupi,Porto Nacional,ParaÃ­so do Tocantins,AraguaÃ­na,Miranorte,Pedro Afonso"
+    "b": "Waneci,Tocantins,Palmas,Tocantinópolis,Gurupi,Porto Nacional,Paraíso do Tocantins,Araguaína,Miranorte,Pedro Afonso"
   },
   {
-    "name": "Eastern Indonesian Malay ",
+    "name": "Eastern Indonesian Malay",
     "i": 1111,
     "min": 4,
     "max": 11,
@@ -2378,7 +2378,7 @@ window.AsiaNameBases = [
     "b": "Manado,Kendari,Makassar,Palu,Gorontalo,Malili,Bau-Bau,Sangihe,Tolitoli,Tahuna"
   },
   {
-    "name": "Gorap ",
+    "name": "Gorap",
     "i": 1112,
     "min": 4,
     "max": 11,
@@ -2387,7 +2387,7 @@ window.AsiaNameBases = [
     "b": "Gorap,Morotai,Pulau Gorong,Bacan,Kayoa,Daruba,Kepulauan Aru,Weda,Wahai,Lenge"
   },
   {
-    "name": "Balinese ",
+    "name": "Balinese",
     "i": 1119,
     "min": 4,
     "max": 11,
@@ -2396,7 +2396,7 @@ window.AsiaNameBases = [
     "b": "Denpasar,Singaraja,Gianyar,Klungkung,Badung,Karangasem,Buleleng,Tabanan,Bangli,Jembrana"
   },
   {
-    "name": "Bangladeshi English ",
+    "name": "Bangladeshi English",
     "i": 1122,
     "min": 4,
     "max": 11,
@@ -2405,7 +2405,7 @@ window.AsiaNameBases = [
     "b": "Dhaka,Chittagong,Khulna,Rajshahi,Sylhet,Rangpur,Comilla,Barisal,Mymensingh,Bogra,Dinajpur"
   },
   {
-    "name": "Banjar ",
+    "name": "Banjar",
     "i": 1123,
     "min": 4,
     "max": 11,
@@ -2414,7 +2414,7 @@ window.AsiaNameBases = [
     "b": "Banjarmasin,Martapura,Amuntai,Banjarbaru,Barabai,Kandangan,Kuala Kapuas,Margasari,Sungai Pinang"
   },
   {
-    "name": "Bareqi Arabic ",
+    "name": "Bareqi Arabic",
     "i": 1125,
     "min": 4,
     "max": 11,
@@ -2423,7 +2423,7 @@ window.AsiaNameBases = [
     "b": "Tarut,Dammam,Al Khobar,Qatif,Al Jubail,Hofuf,Al Hasa,Abqaiq,Ras Tanura,Jubail,Haradh"
   },
   {
-    "name": "Bargut ",
+    "name": "Bargut",
     "i": 1126,
     "min": 4,
     "max": 11,
@@ -2432,16 +2432,16 @@ window.AsiaNameBases = [
     "b": "Bargut,Hulun Buir,Hinggan League,Chifeng,Ulanqab,Ordos,Ulaan Chab,Ar Horqin,Tongliao,Baotou,Datong"
   },
   {
-    "name": "Bargut Buryat ",
+    "name": "Bargut Buryat",
     "i": 1127,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ulan Ude,Shilin Gol,Ulan Bator,Erdenet,SÃ¼khbaatar,Darkhan,Choibalsan,Dornod,Bulgan,KhÃ¶vsgÃ¶l,Ulaangom"
+    "b": "Ulan Ude,Shilin Gol,Ulan Bator,Erdenet,Sükhbaatar,Darkhan,Choibalsan,Dornod,Bulgan,Khövsgöl,Ulaangom"
   },
   {
-    "name": "Barwar ",
+    "name": "Barwar",
     "i": 1132,
     "min": 4,
     "max": 11,
@@ -2450,7 +2450,7 @@ window.AsiaNameBases = [
     "b": "Barwar,Semele,Tell Halaf,Mardin,Nusaybin,Mosul,Erbil,Akre,Duhok,Zakho,Amediye"
   },
   {
-    "name": "Barzani Jewish Neo-Aramaic ",
+    "name": "Barzani Jewish Neo-Aramaic",
     "i": 1133,
     "min": 4,
     "max": 11,
@@ -2459,7 +2459,7 @@ window.AsiaNameBases = [
     "b": "Barzan,Amadiya,Aradhin,Sarsink,Sorengan,Betmane,Diza,Halabja,Dohuk,Zakho,Sandal,Amediye"
   },
   {
-    "name": "Basum ",
+    "name": "Basum",
     "i": 1137,
     "min": 4,
     "max": 11,
@@ -2468,7 +2468,7 @@ window.AsiaNameBases = [
     "b": "Basum,Mali,Sikasso,Bamako,Kayes,Segou,Mopti,Tombouctou,Gao,Kidal"
   },
   {
-    "name": "Bathari ",
+    "name": "Bathari",
     "i": 1139,
     "min": 4,
     "max": 11,
@@ -2477,7 +2477,7 @@ window.AsiaNameBases = [
     "b": "Bathari,Dhofar,Salalah,Mirbat,Sadah,Quryat,Ras al Hadd,Shinas,Suwaiq,Khasab,Bidiyah,Al Ghuwayfiah"
   },
   {
-    "name": "Bats ",
+    "name": "Bats",
     "i": 1140,
     "min": 4,
     "max": 11,
@@ -2486,7 +2486,7 @@ window.AsiaNameBases = [
     "b": "Zinvalani,Tusheti,Omalo,Mta,Tbatsvi,Tlivi,Vani,Kvaratsi,Oreli,Tsablata,Ingushetia,Vedeno"
   },
   {
-    "name": "Bayat Oirat ",
+    "name": "Bayat Oirat",
     "i": 1143,
     "min": 4,
     "max": 11,
@@ -2495,7 +2495,7 @@ window.AsiaNameBases = [
     "b": "Altay,Gorno-Altaysk,Biysk,Choy,Maima,Rubtsovskoy,Shebalino,Soloneshnoye,Turochak,Chemal,Ust-Kan"
   },
   {
-    "name": "Toba Batak ",
+    "name": "Toba Batak",
     "i": 1146,
     "min": 4,
     "max": 11,
@@ -2504,7 +2504,7 @@ window.AsiaNameBases = [
     "b": "Balige,Laguboti,Porsea,Siborongborong,Pematangsiantar,Bukit Malintang,Huta Bayu,Lumban Julu,Muara,Tuk-Tuk"
   },
   {
-    "name": "Bugan ",
+    "name": "Bugan",
     "i": 1147,
     "min": 4,
     "max": 11,
@@ -2513,7 +2513,7 @@ window.AsiaNameBases = [
     "b": "Lincang,Cangyuan,Menglian,Zhenkang,Menghai,Lancang,Yongde,Gengma,Fengqing,Yunnan"
   },
   {
-    "name": "Balochi, Sulaimani ",
+    "name": "Balochi, Sulaimani",
     "i": 1148,
     "min": 4,
     "max": 11,
@@ -2522,7 +2522,7 @@ window.AsiaNameBases = [
     "b": "Sulaiman Mountain,Zhob,Loralai,Shirani,Duki,Killa Saifullah,Musakhel,Khalif,Harnai,Barshor"
   },
   {
-    "name": "Badeshi ",
+    "name": "Badeshi",
     "i": 1149,
     "min": 4,
     "max": 11,
@@ -2531,7 +2531,7 @@ window.AsiaNameBases = [
     "b": "Badesh,Damghan,Shahrud,Sabzevar,Neyshabur,Bastam,Kashmar,Bejestan,Mahmudabad,Mayamey,Firuzkuh"
   },
   {
-    "name": "Uzbek ",
+    "name": "Uzbek",
     "i": 1150,
     "min": 4,
     "max": 11,
@@ -2540,7 +2540,7 @@ window.AsiaNameBases = [
     "b": "Tashkent,Samarkand,Bukhara,Namangan,Andijan,Fergana,Qo'qon,Navoiy,Urgench,Karshi,Termez,Jizzax"
   },
   {
-    "name": "Kyrgyz ",
+    "name": "Kyrgyz",
     "i": 1152,
     "min": 4,
     "max": 11,
@@ -2549,7 +2549,7 @@ window.AsiaNameBases = [
     "b": "Bishkek,Osh,Karakol,Jalal-Abad,Tokmok,Naryn,Talas,Batken,Kyzyl-Kiya,Isfana"
   },
   {
-    "name": "Tuvan ",
+    "name": "Tuvan",
     "i": 1154,
     "min": 4,
     "max": 11,
@@ -2558,7 +2558,7 @@ window.AsiaNameBases = [
     "b": "Kyzyl,Ak-Dovurak,Chadan,Turan,Kyzyl-Mazalyk,Saryg-Sep,Shestak,Erzin,Kungurtug,Uryup,Mongun-Taiga"
   },
   {
-    "name": "Ili Turki ",
+    "name": "Ili Turki",
     "i": 1155,
     "min": 4,
     "max": 11,
@@ -2567,7 +2567,7 @@ window.AsiaNameBases = [
     "b": "Ghulja,Qapqal,Yining,Korgas,Nilka,Qorghas,Kuytun,Borhoro,Tekes,Zhaosu"
   },
   {
-    "name": "Fuyu Kyrgyz ",
+    "name": "Fuyu Kyrgyz",
     "i": 1156,
     "min": 4,
     "max": 11,
@@ -2576,7 +2576,7 @@ window.AsiaNameBases = [
     "b": "Fuyu,Wuqia,Ulup,Artux,Shule,Poskam,Maigaiti,Yengisar,Kashgar,Yarkand,Tashkurgan,Akqi"
   },
   {
-    "name": "Salar ",
+    "name": "Salar",
     "i": 1157,
     "min": 4,
     "max": 11,
@@ -2585,7 +2585,7 @@ window.AsiaNameBases = [
     "b": "Xunhua,Qinghai,Ganjia,Hualong,Xining,Tongren,Huangzhong,Minhe,Huzhu,Gamnan,Datong"
   },
   {
-    "name": "Hlai ",
+    "name": "Hlai",
     "i": 1158,
     "min": 4,
     "max": 11,
@@ -2594,7 +2594,7 @@ window.AsiaNameBases = [
     "b": "Sanya,Dongfang,Wanning,Lingshui,Qionghai,Chengmai,Wenchang,Danzhou,Haikou,Lecheng"
   },
   {
-    "name": "Mulam ",
+    "name": "Mulam",
     "i": 1159,
     "min": 4,
     "max": 11,
@@ -2603,7 +2603,7 @@ window.AsiaNameBases = [
     "b": "Luocheng,Yizhou,Huanjiang,Hechi,Nandan,Tian'e,Fengshan,Du'an,Shanglin,Mashan,Pingguo,Bama"
   },
   {
-    "name": "Be ",
+    "name": "Be",
     "i": 1160,
     "min": 4,
     "max": 11,
@@ -2612,7 +2612,7 @@ window.AsiaNameBases = [
     "b": "Bijie,Weining,Hezhang,Yi liang,Zhaotong,Shuicheng,Dafang,Qianxi,Jinsha,Zhijin,Nayong"
   },
   {
-    "name": "Bouyei ",
+    "name": "Bouyei",
     "i": 1161,
     "min": 4,
     "max": 11,
@@ -2621,7 +2621,7 @@ window.AsiaNameBases = [
     "b": "Xingyi,Qinglong,Puan,Wangmo,Ceheng,Guizhou,Anlong,Zhenfeng,Libo,Dushan,Huishui"
   },
   {
-    "name": "E Tai ",
+    "name": "E Tai",
     "i": 1162,
     "min": 4,
     "max": 11,
@@ -2630,7 +2630,7 @@ window.AsiaNameBases = [
     "b": "Maolan,Jianhe,Libo,Leishan,Taijiang,Liuzhi,Songtao,Danzhai,Guiyang,Guizhou,China"
   },
   {
-    "name": "Kuan ",
+    "name": "Kuan",
     "i": 1163,
     "min": 4,
     "max": 11,
@@ -2639,7 +2639,7 @@ window.AsiaNameBases = [
     "b": "Kuan,Kaili,Danansai,Guizhou,Liuzhi,Qiandong,Zhenyuan,Songtao,Leigun,Rongjiang"
   },
   {
-    "name": "Lao Nyo ",
+    "name": "Lao Nyo",
     "i": 1164,
     "min": 4,
     "max": 11,
@@ -2648,7 +2648,7 @@ window.AsiaNameBases = [
     "b": "Nan,Leoy,Phongsaly,Muang Sing,Bokeo,Oudomxai,Luang Prabang,Xiang Khouang,Mueng Phin"
   },
   {
-    "name": "Tai Muong Vat ",
+    "name": "Tai Muong Vat",
     "i": 1165,
     "min": 4,
     "max": 11,
@@ -2657,16 +2657,16 @@ window.AsiaNameBases = [
     "b": "Muong Vat,Dai Bac,Vinh Phuc,Yen Bai,Son La,Tuyen Quang,Thai Nguyen,Hanoi,Lao Cai,Cao Bang"
   },
   {
-    "name": "Nung Tai ",
+    "name": "Nung Tai",
     "i": 1166,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,TuyÃªn Quang,Ha Giang,LÃ o Cai,Diá»…n BiÃªn"
+    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,Tuyªn Quang,Ha Giang,L o Cai,Diá»…n Biªn"
   },
   {
-    "name": "Lao Phutai ",
+    "name": "Lao Phutai",
     "i": 1167,
     "min": 4,
     "max": 11,
@@ -2675,16 +2675,16 @@ window.AsiaNameBases = [
     "b": "Phutai,Nan,Xiang Khouang,Houaphanh,Xieng Khouang,Xayaboury,Phongsaly,Oudomxai,Botene,Nong Khiaw"
   },
   {
-    "name": "Pa Di ",
+    "name": "Pa Di",
     "i": 1168,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pa Di,Kon Tum,PlÃ¢y Ku,Tu MÆ¡ RÃ´ng,Pleiku,ChÆ° PÄƒh,NghÄ© An,Äáº¯c Láº¯k,Gia Lai"
+    "b": "Pa Di,Kon Tum,Pl¢y Ku,Tu MÆ¡ R´ng,Pleiku,ChÆ° PÄƒh,NghÄ© An,Äáº¯c Láº¯k,Gia Lai"
   },
   {
-    "name": "Thai Song ",
+    "name": "Thai Song",
     "i": 1169,
     "min": 4,
     "max": 11,
@@ -2693,7 +2693,7 @@ window.AsiaNameBases = [
     "b": "Songkhla,Satun,Phattalung,Nakhon Si Thammarat,Trang,Krabi,Pang Nga,Phuket,Ko Yao,Ranong,Karabi,Kho Tao"
   },
   {
-    "name": "Northwestern Tai ",
+    "name": "Northwestern Tai",
     "i": 1170,
     "min": 4,
     "max": 11,
@@ -2702,7 +2702,7 @@ window.AsiaNameBases = [
     "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Nan,Phayao,Mae Hong Son,Mae Sotai,Phrae,Uttaradit"
   },
   {
-    "name": "Southwestern Tai ",
+    "name": "Southwestern Tai",
     "i": 1171,
     "min": 4,
     "max": 11,
@@ -2711,7 +2711,7 @@ window.AsiaNameBases = [
     "b": "Kanchanaburi,Suphan Buri,Chainat,Nakhon Pathom,Ratchaburi,Samut Songkhram,Samut Sakhon,Prachuap Khiri Khan,Hua Hin,Phetchaburi"
   },
   {
-    "name": "tay-tai ",
+    "name": "tay-tai",
     "i": 1172,
     "min": 4,
     "max": 11,
@@ -2720,16 +2720,16 @@ window.AsiaNameBases = [
     "b": "Tay,Guiyang,Libo,Zhou,Dehong,Lingxi,Guangxi,Yingping,Shaan,Chongqing,Yibin"
   },
   {
-    "name": "tai ",
+    "name": "tai",
     "i": 1173,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vientiane,Luang Prabang,Savannakhet,Pakxe,Thakhek,Phonsavan,Xayaboury,Oudomxay,Muang Xay,Muang PhÃ´nsavan,Muang Say"
+    "b": "Vientiane,Luang Prabang,Savannakhet,Pakxe,Thakhek,Phonsavan,Xayaboury,Oudomxay,Muang Xay,Muang Ph´nsavan,Muang Say"
   },
   {
-    "name": "tay-tac ",
+    "name": "tay-tac",
     "i": 1174,
     "min": 4,
     "max": 11,
@@ -2738,7 +2738,7 @@ window.AsiaNameBases = [
     "b": "Tuyen Quang,Ha Giang,Cao Bang,Bac Can,Lang Son,Thai Nguyen,Bac Ninh,Vinh Phuc,Yen Bai,Lao Cai,Dien Bien,Lai Chau"
   },
   {
-    "name": "northern-tai ",
+    "name": "northern-tai",
     "i": 1175,
     "min": 4,
     "max": 11,
@@ -2747,7 +2747,7 @@ window.AsiaNameBases = [
     "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Nan,Phayao,Mae Hong Son,Phrae,Uttaradit,Phitsanulok,Sukhothai,Tak"
   },
   {
-    "name": "min-zhuang ",
+    "name": "min-zhuang",
     "i": 1176,
     "min": 4,
     "max": 11,
@@ -2756,7 +2756,7 @@ window.AsiaNameBases = [
     "b": "Nanning,Guilin,Liuzhou,Wuzhou,Baise,Hechi,Laibin,Guigang,Chongzuo,Qinzhou,Fangchenggang,Beihai"
   },
   {
-    "name": "tai-long ",
+    "name": "tai-long",
     "i": 1177,
     "min": 4,
     "max": 11,
@@ -2765,7 +2765,7 @@ window.AsiaNameBases = [
     "b": "Dehong,Baoshan,Ruili,Mangshi,Luxi,Yingjiang,Zhangfeng,Longchuan,Lihe,Tengchong,Xianggeli,Longling"
   },
   {
-    "name": "yei-zhuang ",
+    "name": "yei-zhuang",
     "i": 1178,
     "min": 4,
     "max": 11,
@@ -2774,7 +2774,7 @@ window.AsiaNameBases = [
     "b": "Bose,Hechi,Nandan,Tian'e,Fengshan,Bama,Du'an,Huanjiang,Shanglin,Mashan,Pingguo"
   },
   {
-    "name": "tai-daeng ",
+    "name": "tai-daeng",
     "i": 1179,
     "min": 4,
     "max": 11,
@@ -2783,7 +2783,7 @@ window.AsiaNameBases = [
     "b": "Dien Bien,Lai Chau,Son La,Hoa Binh,Thanh Hoa,Nghe An,Moc Chau,Yen Chau,Tuong Duong,Tan Ky,Nam Can,Ha Giang"
   },
   {
-    "name": "Hâ”œÃ±n ",
+    "name": "Hñn",
     "i": 1195,
     "min": 4,
     "max": 11,
@@ -2792,7 +2792,7 @@ window.AsiaNameBases = [
     "b": "Dawson City,Eagle,Circle,Fort Selkirk,Kluane Lake,Whitehorse,Carcross,Tagish,Teslin,Atlin,Mayo,Keno City"
   },
   {
-    "name": "Beijing Mandarin ",
+    "name": "Beijing Mandarin",
     "i": 1226,
     "min": 4,
     "max": 11,
@@ -2801,7 +2801,7 @@ window.AsiaNameBases = [
     "b": "Beijing,Shijiazhuang,Tongzhou,Tianjin,Shijingshan,Chengde,Baoding,Langfang,Zhangjiakou,Chifeng,Cangzhou"
   },
   {
-    "name": "Betanure Jewish Neo-Aramaic ",
+    "name": "Betanure Jewish Neo-Aramaic",
     "i": 1236,
     "min": 4,
     "max": 11,
@@ -2810,7 +2810,7 @@ window.AsiaNameBases = [
     "b": "Betanure,Amedi,Zakho,Dohuk,Erbil,Mosul,Sulaymaniyah,Kirkuk,Akre,Sinjar,Bahdanan,Batnaye"
   },
   {
-    "name": "Betta Kurumba ",
+    "name": "Betta Kurumba",
     "i": 1238,
     "min": 4,
     "max": 11,
@@ -2819,7 +2819,7 @@ window.AsiaNameBases = [
     "b": "Betta Kurumba,Gudalur,Ooty,Udhagamandalam,Kotagiri,Coonoor,Mettupalayam,Nilgiri,Wayanad,Kalpetta,Sulthan Bathery,Mananthavady"
   },
   {
-    "name": "Hokkien ",
+    "name": "Hokkien",
     "i": 1240,
     "min": 4,
     "max": 11,
@@ -2828,7 +2828,7 @@ window.AsiaNameBases = [
     "b": "Xiamen,Quanzhou,Zhangzhou,Taipei,Kaohsiung,Taichung,Tainan,Penang,Singapore,Manila,Jakarta,Bangkok"
   },
   {
-    "name": "Teochew Min ",
+    "name": "Teochew Min",
     "i": 1241,
     "min": 4,
     "max": 11,
@@ -2837,7 +2837,7 @@ window.AsiaNameBases = [
     "b": "Chaozhou,Shantou,Jieyang,Chaoyang,Puning,Hong Kong,Macau,Singapore,Bangkok,Kuala Lumpur,Hanoi,Phnom Penh"
   },
   {
-    "name": "Hainanese ",
+    "name": "Hainanese",
     "i": 1242,
     "min": 4,
     "max": 11,
@@ -2846,7 +2846,7 @@ window.AsiaNameBases = [
     "b": "Haikou,Sanya,Wenchang,Qionghai,Wanning,Danzhou,Lingshui,Chengmai,Dongfang,Leadong,Ding'an"
   },
   {
-    "name": "Leizhou Min ",
+    "name": "Leizhou Min",
     "i": 1243,
     "min": 4,
     "max": 11,
@@ -2855,7 +2855,7 @@ window.AsiaNameBases = [
     "b": "Leizhou,Xuwen,Zhanjiang,Suixi,Lianjiang,Wuchuan,Maoming,Dianbai,Electron,Huazhou,Chandian"
   },
   {
-    "name": "PuÎ“Ã‡Ã´Xian Min ",
+    "name": "PuÎ“‡´Xian Min",
     "i": 1244,
     "min": 4,
     "max": 11,
@@ -2864,7 +2864,7 @@ window.AsiaNameBases = [
     "b": "Putian,Xianyou,Fuzhou,Quanzhou,Xiamen,Sanming,Longyan,Nanping,Ningde,Changde,Jieyang,Chaozhou"
   },
   {
-    "name": "Hâ”œÃ¡klâ”œÃ¡u Min ",
+    "name": "Hákláu Min",
     "i": 1245,
     "min": 4,
     "max": 11,
@@ -2873,7 +2873,7 @@ window.AsiaNameBases = [
     "b": "Hakka,Taichung,Hsinchu,Miaoli,Changhua,Nantou,Yunlin,Jiayi,Tainan,Kaohsiung,Pingtung,Meizhou"
   },
   {
-    "name": "Haryanvi ",
+    "name": "Haryanvi",
     "i": 1246,
     "min": 4,
     "max": 11,
@@ -2882,7 +2882,7 @@ window.AsiaNameBases = [
     "b": "Rohtak,Hissar,Karnal,Panipat,Faridabad,Gurgaon,Ambala,Kurukshetra,Jind,Kaithal,Sonepat,Bhiwani"
   },
   {
-    "name": "Balochi, Makrani ",
+    "name": "Balochi, Makrani",
     "i": 1247,
     "min": 4,
     "max": 11,
@@ -2891,7 +2891,7 @@ window.AsiaNameBases = [
     "b": "Makran,Gwadar,Jiwani,Turbat,Pasni,Ormara,Bela,Uthal,Karachi,Karachi Coastal,Hub,Kharan"
   },
   {
-    "name": "Balochi, Rakhshani ",
+    "name": "Balochi, Rakhshani",
     "i": 1248,
     "min": 4,
     "max": 11,
@@ -2900,7 +2900,7 @@ window.AsiaNameBases = [
     "b": "Rakhshan,Noshki,Dalbandin,Chagai,Nushki,Kharan,Zaranj,Zabol,Khash,Iranshahr,Saravan,Zahedan"
   },
   {
-    "name": "Bagri ",
+    "name": "Bagri",
     "i": 1249,
     "min": 4,
     "max": 11,
@@ -2909,7 +2909,7 @@ window.AsiaNameBases = [
     "b": "Bagri,Bikaner,Ganganagar,Hanumangarh,Sri Ganganagar,Churu,Jhunjhunu,Sikar,Jaipur,Jodhpur,Nagaur,Fatehpur"
   },
   {
-    "name": "Bawm ",
+    "name": "Bawm",
     "i": 1250,
     "min": 4,
     "max": 11,
@@ -2918,7 +2918,7 @@ window.AsiaNameBases = [
     "b": "Bawm,Rangamati,Bandarban,Khagrachari,Chittagong Hill Tracts,Mizoram,Manipur,Tripura,Meghalaya,Assam,Bangladesh,India"
   },
   {
-    "name": "Bola ",
+    "name": "Bola",
     "i": 1251,
     "min": 4,
     "max": 11,
@@ -2927,7 +2927,7 @@ window.AsiaNameBases = [
     "b": "Bola,West New Britain,Kimbe,Bialla,Talasea,Nakanai,Hoskins,Gloucester,Kokopo,Rabaul,Lae,Madang"
   },
   {
-    "name": "Chashan ",
+    "name": "Chashan",
     "i": 1252,
     "min": 4,
     "max": 11,
@@ -2936,7 +2936,7 @@ window.AsiaNameBases = [
     "b": "Chashan,Dehong,Baoshan,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli"
   },
   {
-    "name": "Langsu ",
+    "name": "Langsu",
     "i": 1253,
     "min": 4,
     "max": 11,
@@ -2945,7 +2945,7 @@ window.AsiaNameBases = [
     "b": "Langsu,Baoshan,Dehong,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli"
   },
   {
-    "name": "Lashi ",
+    "name": "Lashi",
     "i": 1254,
     "min": 4,
     "max": 11,
@@ -2954,7 +2954,7 @@ window.AsiaNameBases = [
     "b": "Lashi,Baoshan,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli,Dehong"
   },
   {
-    "name": "Zaiwa ",
+    "name": "Zaiwa",
     "i": 1255,
     "min": 4,
     "max": 11,
@@ -2963,7 +2963,7 @@ window.AsiaNameBases = [
     "b": "Zaiwa,Baoshan,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli,Dehong"
   },
   {
-    "name": "Bijiang Bai lect ",
+    "name": "Bijiang Bai lect",
     "i": 1256,
     "min": 4,
     "max": 11,
@@ -2972,7 +2972,7 @@ window.AsiaNameBases = [
     "b": "Bijiang,Lushui,Fugong,Gongshan,Baoshan,Yunnan,Nujiang,Lancang,Mekong,Dali,Lijiang,Kunming"
   },
   {
-    "name": "Bijiang Bai language ",
+    "name": "Bijiang Bai language",
     "i": 1257,
     "min": 4,
     "max": 11,
@@ -2981,7 +2981,7 @@ window.AsiaNameBases = [
     "b": "Bijiang,Lushui,Fugong,Gongshan,Baoshan,Yunnan,Nujiang,Lancang,Mekong,Dali,Lijiang,Kunming"
   },
   {
-    "name": "Dali Bai lect ",
+    "name": "Dali Bai lect",
     "i": 1258,
     "min": 4,
     "max": 11,
@@ -2990,7 +2990,7 @@ window.AsiaNameBases = [
     "b": "Dali,Eryuan,Yunshan,Xiaguan,Jianchuan,Yongsheng,Heqing,Binchuan,Yunlong,Lijiang,Shaxi,Kunming"
   },
   {
-    "name": "Dali Bai language ",
+    "name": "Dali Bai language",
     "i": 1259,
     "min": 4,
     "max": 11,
@@ -2999,7 +2999,7 @@ window.AsiaNameBases = [
     "b": "Dali,Eryuan,Yunshan,Xiaguan,Jianchuan,Yongsheng,Heqing,Binchuan,Yunlong,Lijiang,Shaxi,Kunming"
   },
   {
-    "name": "Heqing Bai lect ",
+    "name": "Heqing Bai lect",
     "i": 1260,
     "min": 4,
     "max": 11,
@@ -3008,7 +3008,7 @@ window.AsiaNameBases = [
     "b": "Heqing,Xiangyun,Eryuan,Yunshan,Dali,Xiaguan,Jianchuan,Yongsheng,Binchuan,Yunlong,Lijiang,Kunming"
   },
   {
-    "name": "Xiangyun Bai dialect ",
+    "name": "Xiangyun Bai dialect",
     "i": 1261,
     "min": 4,
     "max": 11,
@@ -3017,7 +3017,7 @@ window.AsiaNameBases = [
     "b": "Xiangyun,Biayun,Eryuan,Yunshan,Xiaguan,Jianchuan,Yongsheng,Heqing,Binchuan,Yunlong,Lijiang,Dali"
   },
   {
-    "name": "Choyo ",
+    "name": "Choyo",
     "i": 1264,
     "min": 4,
     "max": 11,
@@ -3026,7 +3026,7 @@ window.AsiaNameBases = [
     "b": "Choyo,Santo Domingo,Santiago,Hermanas Mirabal,La Vega,Mao,San Cristobal,San Pedro de Macoris,Moca,Bonao,Jarabacoa,Cotui"
   },
   {
-    "name": "Gyalrong ",
+    "name": "Gyalrong",
     "i": 1265,
     "min": 4,
     "max": 11,
@@ -3035,7 +3035,7 @@ window.AsiaNameBases = [
     "b": "Gyalrong,Kangding,Xinduqiao,Danba,Jinchuan,Lixian,Maowen,Heishui,Maoxian,Ngawa,Wenchuan,Dayi"
   },
   {
-    "name": "Horpa ",
+    "name": "Horpa",
     "i": 1266,
     "min": 4,
     "max": 11,
@@ -3044,7 +3044,7 @@ window.AsiaNameBases = [
     "b": "Horpa,Barkam,Xiaoheishan,Maoxian,Lixian,Jinchuan,Kangding,Danba,Wenchuan,Heishui,Ngawa,Maowen"
   },
   {
-    "name": "Khroskyabs ",
+    "name": "Khroskyabs",
     "i": 1267,
     "min": 4,
     "max": 11,
@@ -3053,7 +3053,7 @@ window.AsiaNameBases = [
     "b": "Khroskyabs,Sichuan,Garze,Kangding,Xinduqiao,Barkam,Ngawa,Wenchuan,Maoxian,Lixian,Jinchuan,Heishui"
   },
   {
-    "name": "Muya ",
+    "name": "Muya",
     "i": 1268,
     "min": 4,
     "max": 11,
@@ -3062,7 +3062,7 @@ window.AsiaNameBases = [
     "b": "Muya,Garze,Kangding,Xinduqiao,Barkam,Danba,Lixian,Wenchuan,Maoxian,Ngawa,Heishui,Jinchuan"
   },
   {
-    "name": "Prinmi ",
+    "name": "Prinmi",
     "i": 1269,
     "min": 4,
     "max": 11,
@@ -3071,7 +3071,7 @@ window.AsiaNameBases = [
     "b": "Prinmi,Ninglang,Lijiang,Muli,Yanyuan,Zhongdian,Deguqen,Yongsheng,Heqing,Yunshan,Eryuan,Dali"
   },
   {
-    "name": "Zhaba ",
+    "name": "Zhaba",
     "i": 1270,
     "min": 4,
     "max": 11,
@@ -3080,7 +3080,7 @@ window.AsiaNameBases = [
     "b": "Zhaba,Ninglang,Yongsheng,Lijiang,Dali,Yanyuan,Muli,Huaping,Zhongdian,Weixi,Deqen,Eryuan"
   },
   {
-    "name": "Mang ",
+    "name": "Mang",
     "i": 1271,
     "min": 4,
     "max": 11,
@@ -3089,7 +3089,7 @@ window.AsiaNameBases = [
     "b": "Mang,Lancang,Simao,Jinghong,Mengla,Daluo,Xishuangbanna,Menghai,Menglian,Zhenkang,Gengma,Cangyuan"
   },
   {
-    "name": "Bolyu ",
+    "name": "Bolyu",
     "i": 1272,
     "min": 4,
     "max": 11,
@@ -3098,7 +3098,7 @@ window.AsiaNameBases = [
     "b": "Bolyu,Lancang,Jinghong,Mengla,Xishuangbanna,Menghai,Menglian,Zhenkang,Gengma,Cangyuan,Lincang,Puer"
   },
   {
-    "name": "Blang ",
+    "name": "Blang",
     "i": 1273,
     "min": 4,
     "max": 11,
@@ -3107,7 +3107,7 @@ window.AsiaNameBases = [
     "b": "Blang,Menghai,Xishuangbanna,Mengla,Jinghong,Lancang,Menglian,Zhenkang,Gengma,Cangyuan,Lincang,Puer"
   },
   {
-    "name": "Riang ",
+    "name": "Riang",
     "i": 1274,
     "min": 4,
     "max": 11,
@@ -3116,7 +3116,7 @@ window.AsiaNameBases = [
     "b": "Riang,Dehong,Baoshan,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli"
   },
   {
-    "name": "Bhili ",
+    "name": "Bhili",
     "i": 1277,
     "min": 4,
     "max": 11,
@@ -3125,7 +3125,7 @@ window.AsiaNameBases = [
     "b": "Bhili,Ratlam,Dhar,Alirajpur,Jhabua,Dahod,Godhra,Panchmahals,Vadodara,Banswara,Pratapgarh,Dungarpur"
   },
   {
-    "name": "Bhaya ",
+    "name": "Bhaya",
     "i": 1278,
     "min": 4,
     "max": 11,
@@ -3134,7 +3134,7 @@ window.AsiaNameBases = [
     "b": "Bhaya,Bhopal,Indore,Ujjain,Jabalpur,Gwalior,Sagar,Dewas,Satna,Rewa,Ratlam,Morena"
   },
   {
-    "name": "Biao Kam-Sui ",
+    "name": "Biao Kam-Sui",
     "i": 1285,
     "min": 4,
     "max": 11,
@@ -3143,7 +3143,7 @@ window.AsiaNameBases = [
     "b": "Biao,Jinxiu,Sanjiang,Rongjiang,Congjiang,Liping,Zhaoxing,Hekou,Luocheng,Hechi,Bama,Nandan"
   },
   {
-    "name": "Biao Min ",
+    "name": "Biao Min",
     "i": 1286,
     "min": 4,
     "max": 11,
@@ -3152,7 +3152,7 @@ window.AsiaNameBases = [
     "b": "Biao Min,Zhaoping,Hexian,Zhaoqing,Deqing,Fengkai,Wuzhou,Yulin,Mengshan,Zhongshan,Foshan,Jiangmen"
   },
   {
-    "name": "Biao Mon ",
+    "name": "Biao Mon",
     "i": 1287,
     "min": 4,
     "max": 11,
@@ -3161,7 +3161,7 @@ window.AsiaNameBases = [
     "b": "Biao Mon,Zhaoqing,Foshan,Jiangmen,Zhongshan,Guangzhou,Dongguan,Shenzhen,Huizhou,Meizhou,Heyuan,Shaoguan"
   },
   {
-    "name": "Biblical Aramaic ",
+    "name": "Biblical Aramaic",
     "i": 1288,
     "min": 4,
     "max": 11,
@@ -3170,7 +3170,7 @@ window.AsiaNameBases = [
     "b": "Aram-Naharaim,Damascus,Euphrates,Tigris,Babylon,Nineveh,Egypt,Jordan,Israel,Syria,Assyria,Persia"
   },
   {
-    "name": "Biblical Hebrew ",
+    "name": "Biblical Hebrew",
     "i": 1289,
     "min": 4,
     "max": 11,
@@ -3179,16 +3179,16 @@ window.AsiaNameBases = [
     "b": "Jerusalem,Bethlehem,Hebron,Galilee,Nazareth,Jordan River,Dead Sea,Mount Sinai,Egypt,Babylon,Persia,Jericho"
   },
   {
-    "name": "Bidau Creole Portuguese ",
+    "name": "Bidau Creole Portuguese",
     "i": 1297,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bidau,Dili,Baucau,Maliana,Oecusse,LiquiÃ§a,Aileu,Ermera,Manatuto,Lautem,Viqueque"
+    "b": "Bidau,Dili,Baucau,Maliana,Oecusse,Liquiça,Aileu,Ermera,Manatuto,Lautem,Viqueque"
   },
   {
-    "name": "Bikol ",
+    "name": "Bikol",
     "i": 1299,
     "min": 4,
     "max": 11,
@@ -3197,7 +3197,7 @@ window.AsiaNameBases = [
     "b": "Naga City,Legaspi City,Iriga City,Legazpi City,Daet,Sorsogon City,Tabaco City,Masbate City,Calbayog City,Catbalogan,Catanduanes,Sorsogon"
   },
   {
-    "name": "Bote ",
+    "name": "Bote",
     "i": 1330,
     "min": 4,
     "max": 11,
@@ -3206,7 +3206,7 @@ window.AsiaNameBases = [
     "b": "Bote,Narayanghat,Chitwan,Pokhara,Butwal,Bhairahawa,Kathmandu,Chitwan National Park,Nepal,Terai,Rapti River"
   },
   {
-    "name": "Bodish ",
+    "name": "Bodish",
     "i": 1341,
     "min": 4,
     "max": 11,
@@ -3215,7 +3215,7 @@ window.AsiaNameBases = [
     "b": "Bodish,Lhasa,Shigatse,Gyantse,Nagqu,Qamdo,Nyingchi,Chamdo,Shannan,Ngari,Tibet,China"
   },
   {
-    "name": "Bodo ",
+    "name": "Bodo",
     "i": 1342,
     "min": 4,
     "max": 11,
@@ -3224,7 +3224,7 @@ window.AsiaNameBases = [
     "b": "Bodo,Kokrajhar,Guwahati,Tezpur,Dhubri,Bongaigaon,Barpeta,Nagaon,Goalpara,Assam,India"
   },
   {
-    "name": "Bohtan Neo-Aramaic ",
+    "name": "Bohtan Neo-Aramaic",
     "i": 1344,
     "min": 4,
     "max": 11,
@@ -3233,7 +3233,7 @@ window.AsiaNameBases = [
     "b": "Bohtan,Hakkari,Turkey,Iraq,Syria,Zakho,Dohuk,Erbil,Mosul,Semdinli,Van"
   },
   {
-    "name": "Bokar ",
+    "name": "Bokar",
     "i": 1345,
     "min": 4,
     "max": 11,
@@ -3242,7 +3242,7 @@ window.AsiaNameBases = [
     "b": "Bokar,Along,West Siang,Changlang,Arunachal Pradesh,India,Tibet,Bhutan"
   },
   {
-    "name": "Bonan ",
+    "name": "Bonan",
     "i": 1353,
     "min": 4,
     "max": 11,
@@ -3251,7 +3251,7 @@ window.AsiaNameBases = [
     "b": "Bonan,Gansu,Qinghai,Xiahe,Gannan,Ganzhou,Lanzhou,Xining,Yushu,Haibei,Guoluo"
   },
   {
-    "name": "Bonan-Kangjia ",
+    "name": "Bonan-Kangjia",
     "i": 1354,
     "min": 4,
     "max": 11,
@@ -3260,7 +3260,7 @@ window.AsiaNameBases = [
     "b": "Bonan-Kangjia,Gansu,Qinghai,Xiahe,Kangjia,Minhe,Xunhua,Tongren,Huangnan,Haibei,Guoluo"
   },
   {
-    "name": "Bonan Manegacha ",
+    "name": "Bonan Manegacha",
     "i": 1355,
     "min": 4,
     "max": 11,
@@ -3269,7 +3269,7 @@ window.AsiaNameBases = [
     "b": "Bonan Manegacha,Gansu,Qinghai,Xiahe,Minhe,Xunhua,Tongren,Manegacha,Haibei,Guoluo"
   },
   {
-    "name": "Bonan Manegacha lect ",
+    "name": "Bonan Manegacha lect",
     "i": 1356,
     "min": 4,
     "max": 11,
@@ -3278,7 +3278,7 @@ window.AsiaNameBases = [
     "b": "Bonan Manegacha,Gansu,Qinghai,Xiahe,Minhe,Xunhua,Tongren,Haibei,Guoluo,Huangnan"
   },
   {
-    "name": "Bouhin ",
+    "name": "Bouhin",
     "i": 1365,
     "min": 4,
     "max": 11,
@@ -3287,16 +3287,16 @@ window.AsiaNameBases = [
     "b": "Bouhin,Papua New Guinea,Morobe,Lae,Bulolo,Menyamya,Kainantu,Wau,Finschhafen,Madang"
   },
   {
-    "name": "Bourbonnais Creole ",
+    "name": "Bourbonnais Creole",
     "i": 1366,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "RÃ©union,Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Cilaos,Saint-Joseph,La Possession,Sainte-Marie,Sainte-Rose,Salazie,Mafate"
+    "b": "Réunion,Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Cilaos,Saint-Joseph,La Possession,Sainte-Marie,Sainte-Rose,Salazie,Mafate"
   },
   {
-    "name": "Bishnupriya Manipuri ",
+    "name": "Bishnupriya Manipuri",
     "i": 1368,
     "min": 4,
     "max": 11,
@@ -3305,7 +3305,7 @@ window.AsiaNameBases = [
     "b": "Bishnupriya,Imphal,Manipur,Assam,Tripura,Meghalaya,India,Bangladesh"
   },
   {
-    "name": "Brahui ",
+    "name": "Brahui",
     "i": 1374,
     "min": 4,
     "max": 11,
@@ -3314,7 +3314,7 @@ window.AsiaNameBases = [
     "b": "Brahui,Kalat,Khuzdar,Quetta,Loralai,Chagi,Mastung,Sibi,Mushkaf,Balochistan,Pakistan"
   },
   {
-    "name": "Braj ",
+    "name": "Braj",
     "i": 1375,
     "min": 4,
     "max": 11,
@@ -3323,7 +3323,7 @@ window.AsiaNameBases = [
     "b": "Braj,Agra,Mathura,Vrindavan,Bharatpur,Fatehpur Sikri,Aligarh,Eta,Uttar Pradesh,India"
   },
   {
-    "name": "Brao ",
+    "name": "Brao",
     "i": 1376,
     "min": 4,
     "max": 11,
@@ -3332,7 +3332,7 @@ window.AsiaNameBases = [
     "b": "Brao,Ratanakiri,Stung Treng,Mondulkiri,Vietnam,Cambodia,Laos,Attapeu,Saravan"
   },
   {
-    "name": "Baram ",
+    "name": "Baram",
     "i": 1377,
     "min": 4,
     "max": 11,
@@ -3341,7 +3341,7 @@ window.AsiaNameBases = [
     "b": "Baram,Nagaland,Kohima,Dimapur,Mokokchung,Wokha,Zunheboto,Tuensang,Kiphire,Peren,Phek"
   },
   {
-    "name": "Bru ",
+    "name": "Bru",
     "i": 1382,
     "min": 4,
     "max": 11,
@@ -3350,7 +3350,7 @@ window.AsiaNameBases = [
     "b": "Bru,Laos,Savannakhet,Khammouane,Vientiane,Bolikhamsai,Champasak,Saravan,Sekong,Vietnam"
   },
   {
-    "name": "Kati ",
+    "name": "Kati",
     "i": 1383,
     "min": 4,
     "max": 11,
@@ -3359,7 +3359,7 @@ window.AsiaNameBases = [
     "b": "Kati,Chitral,Gilgit-Baltistan,Pakistan,Afghanistan,Wakhan,Tajikistan,Hindu Kush"
   },
   {
-    "name": "Bateri ",
+    "name": "Bateri",
     "i": 1384,
     "min": 4,
     "max": 11,
@@ -3368,7 +3368,7 @@ window.AsiaNameBases = [
     "b": "Bateri,Poonch,Rajouri,Kashmir,Mirpur,Muzaffarabad,Jammu and Kashmir,India,Pakistan"
   },
   {
-    "name": "Buginese ",
+    "name": "Buginese",
     "i": 1386,
     "min": 4,
     "max": 11,
@@ -3377,7 +3377,7 @@ window.AsiaNameBases = [
     "b": "Buginese,Makassar,Ujung Pandang,Parepare,Watampone,Bulukumba,Sengkang,Palopo,Bone,Bone-Bone,Soppeng"
   },
   {
-    "name": "Bundeli ",
+    "name": "Bundeli",
     "i": 1391,
     "min": 4,
     "max": 11,
@@ -3386,7 +3386,7 @@ window.AsiaNameBases = [
     "b": "Bundeli,Sagar,Chhatarpur,Panna,Satna,Rewa,Katni,Jabalpur,Damoh,Tikamgarh,Uttar Pradesh,India"
   },
   {
-    "name": "Bunu ",
+    "name": "Bunu",
     "i": 1392,
     "min": 4,
     "max": 11,
@@ -3395,7 +3395,7 @@ window.AsiaNameBases = [
     "b": "Bunu,Guanxi,Bama,Hechi,Nandan,Fengshan,Du'an,Luocheng,Sanjiang,Rongjiang,Yizhou"
   },
   {
-    "name": "Buyang ",
+    "name": "Buyang",
     "i": 1403,
     "min": 4,
     "max": 11,
@@ -3404,7 +3404,7 @@ window.AsiaNameBases = [
     "b": "Buyang,Guangxi,Yunnan,Guizhou,Napo,Longlin,Xilin,Baise,Hechi,Nandan,Bama,China"
   },
   {
-    "name": "Buyeo Korean ",
+    "name": "Buyeo Korean",
     "i": 1404,
     "min": 4,
     "max": 11,
@@ -3413,7 +3413,7 @@ window.AsiaNameBases = [
     "b": "Buyeo,Pyongyang,Seoul,Gaeseong,Busan,North Korea,South Korea,Korean Peninsula"
   },
   {
-    "name": "Cai Long ",
+    "name": "Cai Long",
     "i": 1418,
     "min": 4,
     "max": 11,
@@ -3422,7 +3422,7 @@ window.AsiaNameBases = [
     "b": "Cai Long,Kashmir,Muzaffarabad,Bhimber,Mirpur,Kotli,Hattian,Bagh,Poonch,Rawalakot,Neelum Valley"
   },
   {
-    "name": "Camtho ",
+    "name": "Camtho",
     "i": 1431,
     "min": 4,
     "max": 11,
@@ -3431,7 +3431,7 @@ window.AsiaNameBases = [
     "b": "Camtho,Chad,N'Djamena,Chari,Bagirmi,Massenya,Guelendeng,Melfi,Bongor,N'Guigmi,Mao,Guera"
   },
   {
-    "name": "Canaano-Akkadian ",
+    "name": "Canaano-Akkadian",
     "i": 1432,
     "min": 4,
     "max": 11,
@@ -3440,7 +3440,7 @@ window.AsiaNameBases = [
     "b": "Canaano-Akkadian,Babylon,Assur,Nineveh,Akkad,Mesopotamia,Tigris,Euphrates,Iraq,Syria,Turkey"
   },
   {
-    "name": "Cannanore Portuguese Creole ",
+    "name": "Cannanore Portuguese Creole",
     "i": 1433,
     "min": 4,
     "max": 11,
@@ -3449,7 +3449,7 @@ window.AsiaNameBases = [
     "b": "Cannanore,Kannur,Kozhikode,Kerala,India,Malabar Coast,Arabian Sea,Varkala,Kochi"
   },
   {
-    "name": "Chakma ",
+    "name": "Chakma",
     "i": 1435,
     "min": 4,
     "max": 11,
@@ -3458,7 +3458,7 @@ window.AsiaNameBases = [
     "b": "Chakma,Chittagong Hill Tracts,Rangamati,Bandarban,Khagrachari,Chittagong,Bangladesh,India,Tripura"
   },
   {
-    "name": "Koda ",
+    "name": "Koda",
     "i": 1456,
     "min": 4,
     "max": 11,
@@ -3467,7 +3467,7 @@ window.AsiaNameBases = [
     "b": "Koda,South Sudan,Juba,Yei,Mundri,Bor,Rajaf,Mariadi,Yambio,Aweil,Wau,Maridi"
   },
   {
-    "name": "Cebuano native-speakers subset ",
+    "name": "Cebuano native-speakers subset",
     "i": 1458,
     "min": 4,
     "max": 11,
@@ -3476,16 +3476,16 @@ window.AsiaNameBases = [
     "b": "Cebuano,Lapu-Lapu City,Mandaue,Talisay,Naga,Carcar,Danao,Toledo,Bogo,Argao,Bohol,Camotes,Philippines"
   },
   {
-    "name": "Central Hilali dialects ",
+    "name": "Central Hilali dialects",
     "i": 1473,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hilali,GhardaÃ¯a,BÃ©char,Adrar,BÃ©ni AbbÃ¨s,El Oued,Touggourt,Laghouat,Ouargla,Illizi,In Salah,Djanet,Algeria"
+    "b": "Hilali,Gharda¯a,Béchar,Adrar,Béni Abbès,El Oued,Touggourt,Laghouat,Ouargla,Illizi,In Salah,Djanet,Algeria"
   },
   {
-    "name": "Central Min ",
+    "name": "Central Min",
     "i": 1481,
     "min": 4,
     "max": 11,
@@ -3494,7 +3494,7 @@ window.AsiaNameBases = [
     "b": "Min Nan,Xiamen,Quanzhou,Zhangzhou,Longyan,Fuzhou,Fujian,China,Min River,Min Dialect"
   },
   {
-    "name": "Central Tai ",
+    "name": "Central Tai",
     "i": 1484,
     "min": 4,
     "max": 11,
@@ -3503,7 +3503,7 @@ window.AsiaNameBases = [
     "b": "Central Tai,Nan,Phrae,Phayao,Uttaradit,Tak,Sukhothai,Thailand,Southeast Asia,Mekong"
   },
   {
-    "name": "Central Tibeto Burman ",
+    "name": "Central Tibeto Burman",
     "i": 1489,
     "min": 4,
     "max": 11,
@@ -3512,7 +3512,7 @@ window.AsiaNameBases = [
     "b": "Central Tibeto-Burman,Lhasa,Shigatse,Gyantse,Shannan,Tibet Autonomous Region,China,Himalayas,Asian Mountains"
   },
   {
-    "name": "Falam ",
+    "name": "Falam",
     "i": 1493,
     "min": 4,
     "max": 11,
@@ -3521,7 +3521,7 @@ window.AsiaNameBases = [
     "b": "Falam,Chin State,Hakha,Matupi,Mindat,Falam Tlang,Myanmar,India Border"
   },
   {
-    "name": "Khaling ",
+    "name": "Khaling",
     "i": 1494,
     "min": 4,
     "max": 11,
@@ -3530,7 +3530,7 @@ window.AsiaNameBases = [
     "b": "Khaling,Khotang,Udayapur,Bhojpur,Nepal,Himalayas,Kirat Region,Eastern Nepal"
   },
   {
-    "name": "Koi ",
+    "name": "Koi",
     "i": 1495,
     "min": 4,
     "max": 11,
@@ -3539,7 +3539,7 @@ window.AsiaNameBases = [
     "b": "Koi,Kalahari,Ghanzi,Kang,Sehitwa,Maun,Botswana,Southern Africa,Kalahari Desert"
   },
   {
-    "name": "Tilung ",
+    "name": "Tilung",
     "i": 1496,
     "min": 4,
     "max": 11,
@@ -3548,7 +3548,7 @@ window.AsiaNameBases = [
     "b": "Tilung,Solukhumbu,Salleri,Taksindu,Nepal,Himalayas,Khumbu Region,Mount Everest"
   },
   {
-    "name": "Kachi Koli ",
+    "name": "Kachi Koli",
     "i": 1505,
     "min": 4,
     "max": 11,
@@ -3557,7 +3557,7 @@ window.AsiaNameBases = [
     "b": "Kachi Koli,Gujarat,Kutch,Bhuj,Mandvi,Pakistan,Sindh,Indus Delta,India,Pakistan Border"
   },
   {
-    "name": "Gujari ",
+    "name": "Gujari",
     "i": 1506,
     "min": 4,
     "max": 11,
@@ -3566,7 +3566,7 @@ window.AsiaNameBases = [
     "b": "Gujari,Ahmedabad,Rajkot,Vadodara,Surat,Gujarat,India,Kathiawar Peninsula"
   },
   {
-    "name": "Goguryeo Korean ",
+    "name": "Goguryeo Korean",
     "i": 1522,
     "min": 4,
     "max": 11,
@@ -3575,7 +3575,7 @@ window.AsiaNameBases = [
     "b": "Goguryeo,Pyeongyang,Seoul,Incheon,Korea,East Asia,Korean Peninsula"
   },
   {
-    "name": "Zway ",
+    "name": "Zway",
     "i": 1525,
     "min": 4,
     "max": 11,
@@ -3584,7 +3584,7 @@ window.AsiaNameBases = [
     "b": "Zway,Shashamane,Batu,Ziway,Ethiopia,Lake Ziway,Oromia Region"
   },
   {
-    "name": "Chakhar ",
+    "name": "Chakhar",
     "i": 1537,
     "min": 4,
     "max": 11,
@@ -3593,7 +3593,7 @@ window.AsiaNameBases = [
     "b": "Chakhar,Hohhot,Baotou,Ulanqab,Ordos,Inner Mongolia,China,Mongolia Border"
   },
   {
-    "name": "Chaldean Neo-Aramaic ",
+    "name": "Chaldean Neo-Aramaic",
     "i": 1538,
     "min": 4,
     "max": 11,
@@ -3602,7 +3602,7 @@ window.AsiaNameBases = [
     "b": "Chaldean,Mosul,Erbil,Dohuk,Akre,Zakho,Amadiya,Semel,Iraq,Kurdistan,Northern Iraq"
   },
   {
-    "name": "Chamdo ",
+    "name": "Chamdo",
     "i": 1539,
     "min": 4,
     "max": 11,
@@ -3611,7 +3611,7 @@ window.AsiaNameBases = [
     "b": "Chamdo,Nyingchi,Lhasa,Shannan,Tibet Autonomous Region,China,Himalayas,East Tibet"
   },
   {
-    "name": "Changjiang Hlai ",
+    "name": "Changjiang Hlai",
     "i": 1553,
     "min": 4,
     "max": 11,
@@ -3620,7 +3620,7 @@ window.AsiaNameBases = [
     "b": "Hlai,Changjiang,Hainan,China,South China Sea,Tropical,Hainan Island"
   },
   {
-    "name": "Chavacano ",
+    "name": "Chavacano",
     "i": 1554,
     "min": 4,
     "max": 11,
@@ -3629,7 +3629,7 @@ window.AsiaNameBases = [
     "b": "Chavacano,Zamboanga,Cavite,Ternate,Philippines,Mindanao,Visayas,Luzon"
   },
   {
-    "name": "Chenchu ",
+    "name": "Chenchu",
     "i": 1556,
     "min": 4,
     "max": 11,
@@ -3638,7 +3638,7 @@ window.AsiaNameBases = [
     "b": "Chenchu,Kurnool,Prakasam,Nalgonda,India,Andhra Pradesh,Deccan Plateau"
   },
   {
-    "name": "Tibeto-Kanauri ",
+    "name": "Tibeto-Kanauri",
     "i": 1558,
     "min": 4,
     "max": 11,
@@ -3647,7 +3647,7 @@ window.AsiaNameBases = [
     "b": "Tibeto-Kanauri,Kinnauri,Shimla,Sirmour,Himachal Pradesh,India,Kullu,Manali,Himalayas"
   },
   {
-    "name": "Western Himalayas ",
+    "name": "Western Himalayas",
     "i": 1559,
     "min": 4,
     "max": 11,
@@ -3656,7 +3656,7 @@ window.AsiaNameBases = [
     "b": "Western Himalayas,Kashmir,Ladakh,Jammu,Himachal Pradesh,Uttarakhand,India,Nepal Border,Tibet Border"
   },
   {
-    "name": "West Himalayish ",
+    "name": "West Himalayish",
     "i": 1560,
     "min": 4,
     "max": 11,
@@ -3665,7 +3665,7 @@ window.AsiaNameBases = [
     "b": "West Himalayish,Kullu,Manali,Shimla,Dharamsala,India,Himachal Pradesh,Himalayas,Tibet Border"
   },
   {
-    "name": "Dhuleli ",
+    "name": "Dhuleli",
     "i": 1561,
     "min": 4,
     "max": 11,
@@ -3674,7 +3674,7 @@ window.AsiaNameBases = [
     "b": "Dhuleli,Morang,Sunsari,Biratnagar,Nepal,Eastern Nepal,Terai Region,India Border"
   },
   {
-    "name": "Greater Magaric ",
+    "name": "Greater Magaric",
     "i": 1562,
     "min": 4,
     "max": 11,
@@ -3683,7 +3683,7 @@ window.AsiaNameBases = [
     "b": "Magaric,Magar,Pokhara,Baglung,Beni,Myagdi,Gorkha,Nepal,Himalayas"
   },
   {
-    "name": "Magaric ",
+    "name": "Magaric",
     "i": 1563,
     "min": 4,
     "max": 11,
@@ -3692,7 +3692,7 @@ window.AsiaNameBases = [
     "b": "Magaric,Syangja,Tanahun,Kaski,Nepal,Western Nepal,Himalayas"
   },
   {
-    "name": "Magar ",
+    "name": "Magar",
     "i": 1564,
     "min": 4,
     "max": 11,
@@ -3701,7 +3701,7 @@ window.AsiaNameBases = [
     "b": "Magar,Pokhara,Baglung,Rolpa,Salyan,Nepal,Western Nepal,Himalayas"
   },
   {
-    "name": "Mgp ",
+    "name": "Mgp",
     "i": 1565,
     "min": 4,
     "max": 11,
@@ -3710,7 +3710,7 @@ window.AsiaNameBases = [
     "b": "Eastern Magar,Rukum,Rolpa,Salyan,Nepal,Western Nepal,Himalayas"
   },
   {
-    "name": "Kip ",
+    "name": "Kip",
     "i": 1566,
     "min": 4,
     "max": 11,
@@ -3719,7 +3719,7 @@ window.AsiaNameBases = [
     "b": "Kip,Rukum,Rolpa,Dolpa,Nepal,Western Nepal,Himalayas,Tibet Border"
   },
   {
-    "name": "Drq ",
+    "name": "Drq",
     "i": 1567,
     "min": 4,
     "max": 11,
@@ -3728,7 +3728,7 @@ window.AsiaNameBases = [
     "b": "Kaike,Dolpa,Mugu,Nepal,Western Nepal,Himalayas,Tibet Border"
   },
   {
-    "name": "Japanese regional lects ",
+    "name": "Japanese regional lects",
     "i": 1571,
     "min": 4,
     "max": 11,
@@ -3737,7 +3737,7 @@ window.AsiaNameBases = [
     "b": "Japanese,Tokyo,Osaka,Kyoto,Sapporo,Sendai,Yokohama,Nagoya,Fukuoka,Kobe,Japan"
   },
   {
-    "name": "Kanbun Kundoku ",
+    "name": "Kanbun Kundoku",
     "i": 1572,
     "min": 4,
     "max": 11,
@@ -3746,7 +3746,7 @@ window.AsiaNameBases = [
     "b": "Kanbun,Kyoto,Nara,Osaka,Kobe,Kamakura,Tokyo,Japan,East Asia"
   },
   {
-    "name": "Chepangic ",
+    "name": "Chepangic",
     "i": 1582,
     "min": 4,
     "max": 11,
@@ -3755,7 +3755,7 @@ window.AsiaNameBases = [
     "b": "Chepangic,Chitwan,Makwanpur,Dhading,Nepal,Central Nepal,Himalayas"
   },
   {
-    "name": "Chhattisgarhi ",
+    "name": "Chhattisgarhi",
     "i": 1583,
     "min": 4,
     "max": 11,
@@ -3764,7 +3764,7 @@ window.AsiaNameBases = [
     "b": "Chhattisgarhi,Raipur,Bilaspur,Durg,Chhattisgarh,India,Central India,Chhattisgarh State"
   },
   {
-    "name": "Chiang Saen ",
+    "name": "Chiang Saen",
     "i": 1584,
     "min": 4,
     "max": 11,
@@ -3773,7 +3773,7 @@ window.AsiaNameBases = [
     "b": "Chiang Saen,Chiang Rai,Chiang Mai,Thailand,Northern Thailand,Mekong Border,Laos Border"
   },
   {
-    "name": "Chin ",
+    "name": "Chin",
     "i": 1587,
     "min": 4,
     "max": 11,
@@ -3782,7 +3782,7 @@ window.AsiaNameBases = [
     "b": "Chin,Hakha,Falam,Chin State,Myanmar,India Border,Hills,Southeast Asia"
   },
   {
-    "name": "Chinantec ",
+    "name": "Chinantec",
     "i": 1588,
     "min": 4,
     "max": 11,
@@ -3791,7 +3791,7 @@ window.AsiaNameBases = [
     "b": "Chinantec,Ojitlan,Choapa,Valle Nacional,Oaxaca,Mexico,Sierra Madre"
   },
   {
-    "name": "Chinese Korean ",
+    "name": "Chinese Korean",
     "i": 1589,
     "min": 4,
     "max": 11,
@@ -3800,7 +3800,7 @@ window.AsiaNameBases = [
     "b": "Chinese Korean,Yanji,Helong,Yanbian,Jilin Province,China,North Korea Border,Korea Peninsula"
   },
   {
-    "name": "Chinese Kyakala ",
+    "name": "Chinese Kyakala",
     "i": 1590,
     "min": 4,
     "max": 11,
@@ -3809,7 +3809,7 @@ window.AsiaNameBases = [
     "b": "Kyakala,Heilongjiang,Amur River,Russia China Border,Siberia,Manchuria"
   },
   {
-    "name": "Chinese Pidgin English ",
+    "name": "Chinese Pidgin English",
     "i": 1591,
     "min": 4,
     "max": 11,
@@ -3818,7 +3818,7 @@ window.AsiaNameBases = [
     "b": "Chinese Pidgin English,Canton,Hong Kong,Macau,Guangdong,China,Pearl River Delta"
   },
   {
-    "name": "Chittagonian ",
+    "name": "Chittagonian",
     "i": 1593,
     "min": 4,
     "max": 11,
@@ -3827,7 +3827,7 @@ window.AsiaNameBases = [
     "b": "Chittagonian,Chittagong,Cox's Bazar,Comilla,Bangladesh,Bay of Bengal,South Asia"
   },
   {
-    "name": "Cholanaikkan ",
+    "name": "Cholanaikkan",
     "i": 1594,
     "min": 4,
     "max": 11,
@@ -3836,16 +3836,16 @@ window.AsiaNameBases = [
     "b": "Cholanaikkan,Nilambur,Palakkad,India,Kerala,Western Ghats,South India"
   },
   {
-    "name": "Chong ",
+    "name": "Chong",
     "i": 1596,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chong,KratiÃ©,Kampong Cham,Cambodia,Mekong River,Southeast Asia"
+    "b": "Chong,Kratié,Kampong Cham,Cambodia,Mekong River,Southeast Asia"
   },
   {
-    "name": "Chrau Bahnaric ",
+    "name": "Chrau Bahnaric",
     "i": 1597,
     "min": 4,
     "max": 11,
@@ -3854,7 +3854,7 @@ window.AsiaNameBases = [
     "b": "Chrau,Loc Ninh,Phu Long,An Giang,Vietnam,Mekong Delta,Southeast Asia"
   },
   {
-    "name": "Christian Palestinian Aramaic ",
+    "name": "Christian Palestinian Aramaic",
     "i": 1598,
     "min": 4,
     "max": 11,
@@ -3863,7 +3863,7 @@ window.AsiaNameBases = [
     "b": "Christian Palestinian Aramaic,Bethlehem,Ramallah,Jerusalem,Bethany,Galilee,Palestine,Middle East"
   },
   {
-    "name": "Christian Urmi Neo-Aramaic ",
+    "name": "Christian Urmi Neo-Aramaic",
     "i": 1599,
     "min": 4,
     "max": 11,
@@ -3872,7 +3872,7 @@ window.AsiaNameBases = [
     "b": "Christian Urmi Neo-Aramaic,Urmia,Mahabad,Maku,Iran,Iraq Border,Kurdistan,Azerbaijan Border"
   },
   {
-    "name": "Chukchi ",
+    "name": "Chukchi",
     "i": 1601,
     "min": 4,
     "max": 11,
@@ -3881,7 +3881,7 @@ window.AsiaNameBases = [
     "b": "Chukchi,Anadyr,Provideniya,Uelen,Chukotka Autonomous Okrug,Russia,Siberia,Bering Sea,Chukchi Sea"
   },
   {
-    "name": "Chongqing Mandarin ",
+    "name": "Chongqing Mandarin",
     "i": 1602,
     "min": 4,
     "max": 11,
@@ -3890,7 +3890,7 @@ window.AsiaNameBases = [
     "b": "Chongqing,Chengdu,Wanzhou,Fuling,China,Sichuan,Yangtze River,Three Gorges"
   },
   {
-    "name": "Chukotkan ",
+    "name": "Chukotkan",
     "i": 1607,
     "min": 4,
     "max": 11,
@@ -3899,7 +3899,7 @@ window.AsiaNameBases = [
     "b": "Chukotkan,Anadyr,Provideniya,Markovo,Chukotka,Russia,Siberia,Bering Strait"
   },
   {
-    "name": "Chukotko-Kamchatkan ",
+    "name": "Chukotko-Kamchatkan",
     "i": 1608,
     "min": 4,
     "max": 11,
@@ -3908,7 +3908,7 @@ window.AsiaNameBases = [
     "b": "Chukotko-Kamchatkan,Anadyr,Palana,Kamchatka,Russia,Far East,Siberia,Pacific Ocean"
   },
   {
-    "name": "Chungcheong Korean ",
+    "name": "Chungcheong Korean",
     "i": 1610,
     "min": 4,
     "max": 11,
@@ -3917,7 +3917,7 @@ window.AsiaNameBases = [
     "b": "Chungcheong,Daejeon,Cheongju,Chungju,South Korea,Central Korea"
   },
   {
-    "name": "Chuvan ",
+    "name": "Chuvan",
     "i": 1612,
     "min": 4,
     "max": 11,
@@ -3926,7 +3926,7 @@ window.AsiaNameBases = [
     "b": "Chuvan,Anadyr,Markovo,Bilibino,Chukotka,Russia,Siberia,Kolyma River"
   },
   {
-    "name": "Cilician Arabic ",
+    "name": "Cilician Arabic",
     "i": 1614,
     "min": 4,
     "max": 11,
@@ -3935,7 +3935,7 @@ window.AsiaNameBases = [
     "b": "Cilician Arabic,Adana,Mersin,Turkey,Mediterranean Coast,Cilicia,Tarsus"
   },
   {
-    "name": "Circassian ",
+    "name": "Circassian",
     "i": 1617,
     "min": 4,
     "max": 11,
@@ -3944,7 +3944,7 @@ window.AsiaNameBases = [
     "b": "Circassian,Nalchik,Maikop,Maykop,Krasnodar,Russia,Adygea,Kabardino-Balkaria,Karachay-Cherkessia,Caucasus"
   },
   {
-    "name": "Cham ",
+    "name": "Cham",
     "i": 1619,
     "min": 4,
     "max": 11,
@@ -3953,7 +3953,7 @@ window.AsiaNameBases = [
     "b": "Cham,Phan Rang,Nha Trang,Ho Chi Minh City,Vietnam,Indochina,Mekong Delta"
   },
   {
-    "name": "Chak ",
+    "name": "Chak",
     "i": 1621,
     "min": 4,
     "max": 11,
@@ -3962,7 +3962,7 @@ window.AsiaNameBases = [
     "b": "Chak,Bandarban,Rangamati,Chittagong Hill Tracts,Bangladesh,Chittagong,South Asia"
   },
   {
-    "name": "Classical Arabic ",
+    "name": "Classical Arabic",
     "i": 1623,
     "min": 4,
     "max": 11,
@@ -3971,7 +3971,7 @@ window.AsiaNameBases = [
     "b": "Classical Arabic,Mecca,Medina,Jeddah,Cairo,Baghdad,Damascus,Arabian Peninsula,Middle East"
   },
   {
-    "name": "Classical Mongolian ",
+    "name": "Classical Mongolian",
     "i": 1624,
     "min": 4,
     "max": 11,
@@ -3980,7 +3980,7 @@ window.AsiaNameBases = [
     "b": "Classical Mongolian,Karakorum,Ulaanbaatar,Khovd,Mongolia,Inner Mongolia,China,Gobi Desert"
   },
   {
-    "name": "Classical Syriac ",
+    "name": "Classical Syriac",
     "i": 1625,
     "min": 4,
     "max": 11,
@@ -3989,7 +3989,7 @@ window.AsiaNameBases = [
     "b": "Classical Syriac,Aleppo,Antioch,Mardin,DiyarbakÄ±r,Turkey,Syria,Iraq,Mesopotamia"
   },
   {
-    "name": "Chilisso ",
+    "name": "Chilisso",
     "i": 1626,
     "min": 4,
     "max": 11,
@@ -3998,7 +3998,7 @@ window.AsiaNameBases = [
     "b": "Chilisso,Kohistan,Pattan,Besham,Pakistan,Khyber Pakhtunkhwa,Himalayas"
   },
   {
-    "name": "Idu Mishmi ",
+    "name": "Idu Mishmi",
     "i": 1627,
     "min": 4,
     "max": 11,
@@ -4007,7 +4007,7 @@ window.AsiaNameBases = [
     "b": "idu-mishmi_ake_9115,idu-mishmi_ari_9115,idu-mishmi_chetpa_9115,idu-mishmi_digaru_9115,chulikata_idu_9115,idu-mishmi_iguani_9115,idu-mishmi_roja_9115,idu-mishmi_kera_9115,idu-mishmi_midu_9115,idu-mishmi_tani_9115,idu-mishmi_talo_9115,idu-mishmi_yagro_9115"
   },
   {
-    "name": "Haka ",
+    "name": "Haka",
     "i": 1628,
     "min": 4,
     "max": 11,
@@ -4016,7 +4016,7 @@ window.AsiaNameBases = [
     "b": "Laiholh,Darzang,Thilem,Bualkhua,Ralkap,Hringlang,Mualbem,Pariat,Siallum,Tedimlai,Thuklai,Zokhua,Mizoram,Chin State,Myanmar"
   },
   {
-    "name": "Khumi ",
+    "name": "Khumi",
     "i": 1629,
     "min": 4,
     "max": 11,
@@ -4025,7 +4025,7 @@ window.AsiaNameBases = [
     "b": "Ainu,Chaungtha,Darlet,Kumilu,Lanasu,Lukkhi,Mro,Naring,Ngapha,Saipe,Thlengon,Ytho,Chittagong Hill Tracts,Bangladesh,Myanmar"
   },
   {
-    "name": "Cochin Portuguese Creole ",
+    "name": "Cochin Portuguese Creole",
     "i": 1631,
     "min": 4,
     "max": 11,
@@ -4034,7 +4034,7 @@ window.AsiaNameBases = [
     "b": "Cochin,Fort Emmanuel,Vypin,Mattancheri,Vaikom,Palloor,Kodungallur,Paravur,Chennamangalam,Kerala,India,Malabar Coast"
   },
   {
-    "name": "Corfiot Maltese ",
+    "name": "Corfiot Maltese",
     "i": 1637,
     "min": 4,
     "max": 11,
@@ -4043,7 +4043,7 @@ window.AsiaNameBases = [
     "b": "Corfiot Maltese,Corfu,Kerkyra,Greece,Ionian Sea,Europe"
   },
   {
-    "name": "Cottonera Dialect ",
+    "name": "Cottonera Dialect",
     "i": 1638,
     "min": 4,
     "max": 11,
@@ -4052,7 +4052,7 @@ window.AsiaNameBases = [
     "b": "Cottonera,Vittoriosa,Senglea,Cospicua,Malta,Mediterranean Sea,Valletta"
   },
   {
-    "name": "Asho ",
+    "name": "Asho",
     "i": 1643,
     "min": 4,
     "max": 11,
@@ -4061,7 +4061,7 @@ window.AsiaNameBases = [
     "b": "Asho,Mizoram,India,Chin State,Myanmar,Southeast Asia"
   },
   {
-    "name": "Cua ",
+    "name": "Cua",
     "i": 1644,
     "min": 4,
     "max": 11,
@@ -4070,7 +4070,7 @@ window.AsiaNameBases = [
     "b": "Cua,Bac Lieu,Long Xuyen,Ca Mau,Vietnam,Mekong Delta,Southeast Asia"
   },
   {
-    "name": "Cun Hlai ",
+    "name": "Cun Hlai",
     "i": 1645,
     "min": 4,
     "max": 11,
@@ -4079,7 +4079,7 @@ window.AsiaNameBases = [
     "b": "Cun Hlai,Cun,Hainan,China,South China Sea,Tropical,Hainan Island"
   },
   {
-    "name": "Cypriot Arabic ",
+    "name": "Cypriot Arabic",
     "i": 1647,
     "min": 4,
     "max": 11,
@@ -4088,7 +4088,7 @@ window.AsiaNameBases = [
     "b": "Cypriot Arabic,Nicosia,Limassol,Larnaca,Cyprus,Mediterranean Sea,Eastern Mediterranean"
   },
   {
-    "name": "Dadanitic ",
+    "name": "Dadanitic",
     "i": 1649,
     "min": 4,
     "max": 11,
@@ -4097,7 +4097,7 @@ window.AsiaNameBases = [
     "b": "Dadanitic,Al Ula,Madinah,Tayma,Al Jawf,Saudi Arabia,Hejaz,Northwestern Arabia,Arabian Desert"
   },
   {
-    "name": "Dagur ",
+    "name": "Dagur",
     "i": 1651,
     "min": 4,
     "max": 11,
@@ -4106,7 +4106,7 @@ window.AsiaNameBases = [
     "b": "Dagur,Hailar,Manzhouli,Inner Mongolia,China,Hulunbuir,Da Hinggan Mountains,Amur River Border"
   },
   {
-    "name": "Dai Zhuang ",
+    "name": "Dai Zhuang",
     "i": 1653,
     "min": 4,
     "max": 11,
@@ -4115,7 +4115,7 @@ window.AsiaNameBases = [
     "b": "Dai Zhuang,Nanning,Guilin,Liuzhou,Guangxi,China,South China"
   },
   {
-    "name": "Damu ",
+    "name": "Damu",
     "i": 1654,
     "min": 4,
     "max": 11,
@@ -4124,7 +4124,7 @@ window.AsiaNameBases = [
     "b": "Damu,Kondoa,Karatu,Tanzania,East Africa,Great Rift Valley"
   },
   {
-    "name": "Dari ",
+    "name": "Dari",
     "i": 1660,
     "min": 4,
     "max": 11,
@@ -4133,16 +4133,16 @@ window.AsiaNameBases = [
     "b": "Dari,Kabul,Herat,Kandahar,Mazar-i-Sharif,Afghanistan,Hindu Kush,Central Asia"
   },
   {
-    "name": "Darkhad ",
+    "name": "Darkhad",
     "i": 1661,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Darkhad,Murun,Khatgal,KhÃ¶vsgÃ¶l,Mongolia,Lake KhÃ¶vsgÃ¶l,Siberia Border,Arkhangai"
+    "b": "Darkhad,Murun,Khatgal,Khövsgöl,Mongolia,Lake Khövsgöl,Siberia Border,Arkhangai"
   },
   {
-    "name": "Holiya ",
+    "name": "Holiya",
     "i": 1671,
     "min": 4,
     "max": 11,
@@ -4151,7 +4151,7 @@ window.AsiaNameBases = [
     "b": "Holiya,Bagalkot,Belgaum,Karnataka,India,South India,Deccan Plateau"
   },
   {
-    "name": "Irula ",
+    "name": "Irula",
     "i": 1672,
     "min": 4,
     "max": 11,
@@ -4160,7 +4160,7 @@ window.AsiaNameBases = [
     "b": "Irula,Coimbatore,Erode,Nilgiris,Tamil Nadu,India,South India"
   },
   {
-    "name": "Jeseri ",
+    "name": "Jeseri",
     "i": 1673,
     "min": 4,
     "max": 11,
@@ -4169,7 +4169,7 @@ window.AsiaNameBases = [
     "b": "Jeseri,Kerala,Kochi,Kollam,India,South India,Malabar Coast,Arabian Sea"
   },
   {
-    "name": "Kadar Dravidian ",
+    "name": "Kadar Dravidian",
     "i": 1674,
     "min": 4,
     "max": 11,
@@ -4178,7 +4178,7 @@ window.AsiaNameBases = [
     "b": "Kadar,Thrissur,Palakkad,Kerala,India,South India,Western Ghats"
   },
   {
-    "name": "Kaikadi ",
+    "name": "Kaikadi",
     "i": 1675,
     "min": 4,
     "max": 11,
@@ -4187,7 +4187,7 @@ window.AsiaNameBases = [
     "b": "Kaikadi,Aurangabad,Maharashtra,India,West India,Deccan Plateau"
   },
   {
-    "name": "Kakkala ",
+    "name": "Kakkala",
     "i": 1676,
     "min": 4,
     "max": 11,
@@ -4196,7 +4196,7 @@ window.AsiaNameBases = [
     "b": "Kakkala,Salem,Namakkal,Tamil Nadu,India,South India"
   },
   {
-    "name": "Kalanadi ",
+    "name": "Kalanadi",
     "i": 1677,
     "min": 4,
     "max": 11,
@@ -4205,7 +4205,7 @@ window.AsiaNameBases = [
     "b": "Kalanadi,Kasaragod,Kannur,Kerala,India,South India,Malabar Coast"
   },
   {
-    "name": "Kanikkaran ",
+    "name": "Kanikkaran",
     "i": 1678,
     "min": 4,
     "max": 11,
@@ -4214,7 +4214,7 @@ window.AsiaNameBases = [
     "b": "Kanikkaran,Kanyakumari,Tirunelveli,Tamil Nadu,India,South India"
   },
   {
-    "name": "Khirwar ",
+    "name": "Khirwar",
     "i": 1679,
     "min": 4,
     "max": 11,
@@ -4223,7 +4223,7 @@ window.AsiaNameBases = [
     "b": "Khirwar,Baramula,Srinagar,Kashmir,India,Himalayas"
   },
   {
-    "name": "Kodava ",
+    "name": "Kodava",
     "i": 1680,
     "min": 4,
     "max": 11,
@@ -4232,7 +4232,7 @@ window.AsiaNameBases = [
     "b": "Kodava,Madikeri,Somwarpet,Virajpet,Kodagu,Karnataka,India,South India,Western Ghats"
   },
   {
-    "name": "Derung ",
+    "name": "Derung",
     "i": 1696,
     "min": 4,
     "max": 11,
@@ -4241,7 +4241,7 @@ window.AsiaNameBases = [
     "b": "Derung,Nujiang,Derung Autonomous County,China,Yunnan,Tibet Border,Himalayas"
   },
   {
-    "name": "Dhakaiya Kutti Bengali ",
+    "name": "Dhakaiya Kutti Bengali",
     "i": 1698,
     "min": 4,
     "max": 11,
@@ -4250,16 +4250,16 @@ window.AsiaNameBases = [
     "b": "Dhakaiya Kutti Bengali,Dhaka,Narayanganj,Comilla,Bangladesh,South Asia,Delta Region"
   },
   {
-    "name": "Dhivehi ",
+    "name": "Dhivehi",
     "i": 1699,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhivehi,MalÃ©,Addu,Hithadhoo,Maldives,Indian Ocean"
+    "b": "Dhivehi,Malé,Addu,Hithadhoo,Maldives,Indian Ocean"
   },
   {
-    "name": "Dimasa ",
+    "name": "Dimasa",
     "i": 1703,
     "min": 4,
     "max": 11,
@@ -4268,7 +4268,7 @@ window.AsiaNameBases = [
     "b": "Dimasa,Haflong,Maibong,Dima Hasao,Assam,India,Northeast India"
   },
   {
-    "name": "Domaaki ",
+    "name": "Domaaki",
     "i": 1705,
     "min": 4,
     "max": 11,
@@ -4277,7 +4277,7 @@ window.AsiaNameBases = [
     "b": "Domaaki,Karachi,Hyderabad,Sindh,Pakistan,Indus Delta"
   },
   {
-    "name": "Dameli ",
+    "name": "Dameli",
     "i": 1706,
     "min": 4,
     "max": 11,
@@ -4286,7 +4286,7 @@ window.AsiaNameBases = [
     "b": "Dameli,Chitral,Upper Chitral District,Khyber Pakhtunkhwa,Pakistan,Hindu Kush"
   },
   {
-    "name": "Dogri ",
+    "name": "Dogri",
     "i": 1707,
     "min": 4,
     "max": 11,
@@ -4295,7 +4295,7 @@ window.AsiaNameBases = [
     "b": "Dogri,Jammu,Kathua,Udhampur,Jammu and Kashmir,India,Himalayas"
   },
   {
-    "name": "Dongjia ",
+    "name": "Dongjia",
     "i": 1711,
     "min": 4,
     "max": 11,
@@ -4304,7 +4304,7 @@ window.AsiaNameBases = [
     "b": "Dongjia,Mashan,Libo,Sandu,Guizhou,China,Southwest China"
   },
   {
-    "name": "Dongxiang ",
+    "name": "Dongxiang",
     "i": 1713,
     "min": 4,
     "max": 11,
@@ -4313,7 +4313,7 @@ window.AsiaNameBases = [
     "b": "Dongxiang,Hezheng,Linxia,Gansu,China,Northwest China,Huang He"
   },
   {
-    "name": "Dorbet Oirat ",
+    "name": "Dorbet Oirat",
     "i": 1714,
     "min": 4,
     "max": 11,
@@ -4322,7 +4322,7 @@ window.AsiaNameBases = [
     "b": "Dorbet Oirat,Kalmykia,Elista,Astrakhan,Russia,Caspian Sea,Volga Delta"
   },
   {
-    "name": "Dolpo ",
+    "name": "Dolpo",
     "i": 1717,
     "min": 4,
     "max": 11,
@@ -4331,7 +4331,7 @@ window.AsiaNameBases = [
     "b": "Dolpo,Dolpo District,Mugu,Dunai,Nepal,Himalayas,Tibet Border"
   },
   {
-    "name": "Darai ",
+    "name": "Darai",
     "i": 1718,
     "min": 4,
     "max": 11,
@@ -4340,7 +4340,7 @@ window.AsiaNameBases = [
     "b": "Darai,Dang,Deukhuri,Nepal,Central Nepal,Chure Hills"
   },
   {
-    "name": "Duan ",
+    "name": "Duan",
     "i": 1719,
     "min": 4,
     "max": 11,
@@ -4349,7 +4349,7 @@ window.AsiaNameBases = [
     "b": "Duan,Duanzhou,Gaozhou,Guangdong,China,South China"
   },
   {
-    "name": "Duruwa ",
+    "name": "Duruwa",
     "i": 1724,
     "min": 4,
     "max": 11,
@@ -4358,7 +4358,7 @@ window.AsiaNameBases = [
     "b": "Duruwa,Bastar,Jagdalpur,Chhattisgarh,India,Central India"
   },
   {
-    "name": "E mixed ",
+    "name": "E mixed",
     "i": 1726,
     "min": 4,
     "max": 11,
@@ -4367,7 +4367,7 @@ window.AsiaNameBases = [
     "b": "E mixed,East Asia,Southeast Asia,Oceania,Australia,Indo-Pacific"
   },
   {
-    "name": "Early Modern Korean ",
+    "name": "Early Modern Korean",
     "i": 1727,
     "min": 4,
     "max": 11,
@@ -4376,7 +4376,7 @@ window.AsiaNameBases = [
     "b": "Early Modern Korean,Seoul,Busan,Incheon,Gyeongju,Daegu,Gwangju,Jeju Island,South Korea,Korea Peninsula"
   },
   {
-    "name": "East Bodish ",
+    "name": "East Bodish",
     "i": 1728,
     "min": 4,
     "max": 11,
@@ -4385,7 +4385,7 @@ window.AsiaNameBases = [
     "b": "East Bodish,Lhasa,Shigatse,Qamdo,Chamdo,Tibet Autonomous Region,China,Himalayas"
   },
   {
-    "name": "Duan Bahnaric ",
+    "name": "Duan Bahnaric",
     "i": 1732,
     "min": 4,
     "max": 11,
@@ -4394,7 +4394,7 @@ window.AsiaNameBases = [
     "b": "Duan Bahnaric,Buon Ma Thuot,Kon Tum,Dak Lak,Vietnam,Central Highlands,Southeast Asia"
   },
   {
-    "name": "Eastern Himalayas ",
+    "name": "Eastern Himalayas",
     "i": 1738,
     "min": 4,
     "max": 11,
@@ -4403,7 +4403,7 @@ window.AsiaNameBases = [
     "b": "Eastern Himalayas,Sikkim,West Bengal,Assam,India,Bhutan,Bangladesh Border"
   },
   {
-    "name": "Eastern Itelmen ",
+    "name": "Eastern Itelmen",
     "i": 1739,
     "min": 4,
     "max": 11,
@@ -4412,7 +4412,7 @@ window.AsiaNameBases = [
     "b": "Eastern Itelmen,Kamchatka,Palana,Petropavlovsk-Kamchatsky,Russia,Far East,Kamchatka Peninsula"
   },
   {
-    "name": "Arh ",
+    "name": "Arh",
     "i": 1741,
     "min": 4,
     "max": 11,
@@ -4421,7 +4421,7 @@ window.AsiaNameBases = [
     "b": "Arh,Aizawl,Lunglei,Mizoram,India,Northeast India,Mizoram State"
   },
   {
-    "name": "Bmr ",
+    "name": "Bmr",
     "i": 1742,
     "min": 4,
     "max": 11,
@@ -4430,7 +4430,7 @@ window.AsiaNameBases = [
     "b": "Bmr,Burmi,Hongdong,Sanmen,Shanxi,China,North China"
   },
   {
-    "name": "Dzao Min ",
+    "name": "Dzao Min",
     "i": 1745,
     "min": 4,
     "max": 11,
@@ -4439,7 +4439,7 @@ window.AsiaNameBases = [
     "b": "Dzao Min,Xiamen,Fuzhou,Quanzhou,Fujian,China,Southeast China"
   },
   {
-    "name": "Eastern Min ",
+    "name": "Eastern Min",
     "i": 1747,
     "min": 4,
     "max": 11,
@@ -4448,7 +4448,7 @@ window.AsiaNameBases = [
     "b": "Eastern Min,Fuzhou,Xiamen,Putian,Fujian,China,Southeast China"
   },
   {
-    "name": "Eastern Yugur ",
+    "name": "Eastern Yugur",
     "i": 1753,
     "min": 4,
     "max": 11,
@@ -4457,7 +4457,7 @@ window.AsiaNameBases = [
     "b": "Eastern Yugur,Huangnan,Xunhua,Qinghai,China,Tibetan Plateau,Amdo"
   },
   {
-    "name": "Ekherit Bulagat Buryat ",
+    "name": "Ekherit Bulagat Buryat",
     "i": 1758,
     "min": 4,
     "max": 11,
@@ -4466,7 +4466,7 @@ window.AsiaNameBases = [
     "b": "Ust-Barguzin,Ust-Kyakhta,Nizhneangarsk,Bokhan,Tankhoy,Mogzon,Khorinsk,Kudara,Selenginsk,Buryatia,Russia,Siberia,Baikal"
   },
   {
-    "name": "Ekhirit Bulagat Buryat ",
+    "name": "Ekhirit Bulagat Buryat",
     "i": 1759,
     "min": 4,
     "max": 11,
@@ -4475,7 +4475,7 @@ window.AsiaNameBases = [
     "b": "Ekhirit-Bulagat,Alzamai,Ulan-Ude,Baigus,Murino,Kyakhta,Irkut,Zaigraevo,Verkhneudinsk,Nizhneudinsk,Russia,Siberia,Buryatia"
   },
   {
-    "name": "Eravallan ",
+    "name": "Eravallan",
     "i": 1768,
     "min": 4,
     "max": 11,
@@ -4484,7 +4484,7 @@ window.AsiaNameBases = [
     "b": "Eravallan,Karur,Trichy,Thanjavur,Tamil Nadu,India,South India"
   },
   {
-    "name": "Ersuic ",
+    "name": "Ersuic",
     "i": 1769,
     "min": 4,
     "max": 11,
@@ -4493,7 +4493,7 @@ window.AsiaNameBases = [
     "b": "Qiangba,Heishui,Muli,Yanyuan,Panzhihua,Shimian,Xichang,Sichuan,China,Tibet Border,Qiang Region"
   },
   {
-    "name": "Even ",
+    "name": "Even",
     "i": 1777,
     "min": 4,
     "max": 11,
@@ -4502,7 +4502,7 @@ window.AsiaNameBases = [
     "b": "Even,Yakutsk,Tomsk,Mirny,Khandyga,Yakutia,Russia,Siberia,Lena River"
   },
   {
-    "name": "Ewenic ",
+    "name": "Ewenic",
     "i": 1780,
     "min": 4,
     "max": 11,
@@ -4511,7 +4511,7 @@ window.AsiaNameBases = [
     "b": "Ewenic,Karur,Salem,Tiruchirappalli,Tamil Nadu,India,South India"
   },
   {
-    "name": "Dzongkha ",
+    "name": "Dzongkha",
     "i": 1813,
     "min": 4,
     "max": 11,
@@ -4520,7 +4520,7 @@ window.AsiaNameBases = [
     "b": "Thimphu,Paro,Wangdue Phodrang,Punakha,Trongsa,Mongar,Bhutan,Himalayas,South Asia"
   },
   {
-    "name": "Goryeo Korean ",
+    "name": "Goryeo Korean",
     "i": 1825,
     "min": 4,
     "max": 11,
@@ -4529,7 +4529,7 @@ window.AsiaNameBases = [
     "b": "Gyeongju,Gaeseong,Gangneung,Gyeongju-Si,Gaya Kingdom,Korea,East Asia"
   },
   {
-    "name": "Greater Siangic ",
+    "name": "Greater Siangic",
     "i": 1828,
     "min": 4,
     "max": 11,
@@ -4538,7 +4538,7 @@ window.AsiaNameBases = [
     "b": "Siang,Adi,Karko,Galong,Mishing,Pasighat,Assam,Arunachal Pradesh,India,Northeast India"
   },
   {
-    "name": "Garo ",
+    "name": "Garo",
     "i": 1830,
     "min": 4,
     "max": 11,
@@ -4547,7 +4547,7 @@ window.AsiaNameBases = [
     "b": "Tura,Williamnagar,Rongjeng,Ampati,Garo Hills,Meghalaya,India,Northeast India"
   },
   {
-    "name": "Gan ",
+    "name": "Gan",
     "i": 1831,
     "min": 4,
     "max": 11,
@@ -4556,7 +4556,7 @@ window.AsiaNameBases = [
     "b": "Nanchang,Ganzhou,Ji'an,Jiujiang,Yichun,Pingxiang,Shangrao,Fuzhou,Jiangxi,China,Southeast China"
   },
   {
-    "name": "Gangwon Dialect ",
+    "name": "Gangwon Dialect",
     "i": 1832,
     "min": 4,
     "max": 11,
@@ -4565,7 +4565,7 @@ window.AsiaNameBases = [
     "b": "Chuncheon,Gangneung,Wonju,Sokcho,Hongcheon,South Korea,Gangwon Province"
   },
   {
-    "name": "Gaya Korean ",
+    "name": "Gaya Korean",
     "i": 1836,
     "min": 4,
     "max": 11,
@@ -4574,7 +4574,7 @@ window.AsiaNameBases = [
     "b": "Gyeongju,Gimhae,Andong,Yeongcheon,Gaya Confederacy,Korea,Nakdong River"
   },
   {
-    "name": "Garhwali ",
+    "name": "Garhwali",
     "i": 1837,
     "min": 4,
     "max": 11,
@@ -4583,7 +4583,7 @@ window.AsiaNameBases = [
     "b": "Srinagar,Uttarkashi,Karnaprayag,Pauri,Chamoli,Uttarakhand,India,Himalayas,Garhwal Region"
   },
   {
-    "name": "Gejia ",
+    "name": "Gejia",
     "i": 1840,
     "min": 4,
     "max": 11,
@@ -4592,7 +4592,7 @@ window.AsiaNameBases = [
     "b": "Gejia,Guizhou,China,Southwest China,Huangguoshu,Miao People"
   },
   {
-    "name": "Gurgula ",
+    "name": "Gurgula",
     "i": 1869,
     "min": 4,
     "max": 11,
@@ -4601,7 +4601,7 @@ window.AsiaNameBases = [
     "b": "Gurgula,Ngulu,Ngas,Chad,Mandara,North Africa,Chad Basin,Sahara"
   },
   {
-    "name": "Gta ",
+    "name": "Gta",
     "i": 1871,
     "min": 4,
     "max": 11,
@@ -4610,7 +4610,7 @@ window.AsiaNameBases = [
     "b": "Gta,Andaman Islands,India,Bay of Bengal,South Asia"
   },
   {
-    "name": "Guiyang ",
+    "name": "Guiyang",
     "i": 1877,
     "min": 4,
     "max": 11,
@@ -4619,7 +4619,7 @@ window.AsiaNameBases = [
     "b": "Guiyang,Gaoyang,Qingzhen,Guiyang County,Guizhou,China,Southwest China"
   },
   {
-    "name": "Gujarati ",
+    "name": "Gujarati",
     "i": 1878,
     "min": 4,
     "max": 11,
@@ -4628,7 +4628,7 @@ window.AsiaNameBases = [
     "b": "Ahmedabad,Surat,Vadodara,Rajkot,Bhavnagar,Jamnagar,Junagadh,Gandhinagar,Anand,Bharuch,Mehsana,Morbi"
   },
   {
-    "name": "Hezhang Buyi ",
+    "name": "Hezhang Buyi",
     "i": 1882,
     "min": 4,
     "max": 11,
@@ -4637,7 +4637,7 @@ window.AsiaNameBases = [
     "b": "Pu55,Hozi,Hezhang,Dazhai,Tiejiang,Xiu,Kra,Guizhou,China,Southwest,Buyi People"
   },
   {
-    "name": "Hezhou ",
+    "name": "Hezhou",
     "i": 1883,
     "min": 4,
     "max": 11,
@@ -4646,7 +4646,7 @@ window.AsiaNameBases = [
     "b": "Linxia,Gansu,Yuan,Mongolian,Turkic,Tibetan,Monguor,Mandarin,Hezhou,China,Northwest"
   },
   {
-    "name": "Hiligaynon ",
+    "name": "Hiligaynon",
     "i": 1884,
     "min": 4,
     "max": 11,
@@ -4655,7 +4655,7 @@ window.AsiaNameBases = [
     "b": "Iloilo,Bacolod,Capiz,Kabankalan,Roxas,Estancia,Talisay,Iloilo City,Visayas,Philippines"
   },
   {
-    "name": "Hindustani ",
+    "name": "Hindustani",
     "i": 1887,
     "min": 4,
     "max": 11,
@@ -4664,7 +4664,7 @@ window.AsiaNameBases = [
     "b": "Urdu,Hindi,Rekhta,Hindavi,Dehlavi,Dakhni,Lashkari,Zaban,Hindustan,India,North"
   },
   {
-    "name": "Hkongso ",
+    "name": "Hkongso",
     "i": 1889,
     "min": 4,
     "max": 11,
@@ -4673,7 +4673,7 @@ window.AsiaNameBases = [
     "b": "Hkum,Hkong,Som,Kla,Kasang,Anu,Mru,Paletwa,Chin,Myanmar,West"
   },
   {
-    "name": "Halabi ",
+    "name": "Halabi",
     "i": 1890,
     "min": 4,
     "max": 11,
@@ -4682,7 +4682,7 @@ window.AsiaNameBases = [
     "b": "Halba,Bastari,Halvas,Halvi,Holva,Odisha,Marathi,Mehari,Mahari,India,East"
   },
   {
-    "name": "Southern Ghale ",
+    "name": "Southern Ghale",
     "i": 1891,
     "min": 4,
     "max": 11,
@@ -4691,7 +4691,7 @@ window.AsiaNameBases = [
     "b": "Bungkot,Ghanpokhun,Naya Gaun,Naubini,Gorkha,Barpakot,Nepal,Western"
   },
   {
-    "name": "Northern Ghale ",
+    "name": "Northern Ghale",
     "i": 1892,
     "min": 4,
     "max": 11,
@@ -4700,7 +4700,7 @@ window.AsiaNameBases = [
     "b": "Ghanpokhun,Barpakot,Bungkot,Naubini,Naya Gaun,Gorkha,Nepal,Western"
   },
   {
-    "name": "Ghera ",
+    "name": "Ghera",
     "i": 1894,
     "min": 4,
     "max": 11,
@@ -4709,7 +4709,7 @@ window.AsiaNameBases = [
     "b": "Ghera,Mulua,Banyo,Touroudine,Libya,East,West Africa"
   },
   {
-    "name": "Hruso ",
+    "name": "Hruso",
     "i": 1896,
     "min": 4,
     "max": 11,
@@ -4718,7 +4718,7 @@ window.AsiaNameBases = [
     "b": "Hruso,Aka,Angka,Thrizino,Kameng,Arunachal,Dju,Tene,Sou,Piri,Arunachal Pradesh,India"
   },
   {
-    "name": "Huizhou Chinese ",
+    "name": "Huizhou Chinese",
     "i": 1899,
     "min": 4,
     "max": 11,
@@ -4727,7 +4727,7 @@ window.AsiaNameBases = [
     "b": "Huizhou,Huichina,Yu,Tunxi,Jixi,Shexian,Wuyuan,Anhui,Zhejiang,China,East"
   },
   {
-    "name": "Huishui Miao ",
+    "name": "Huishui Miao",
     "i": 1901,
     "min": 4,
     "max": 11,
@@ -4736,7 +4736,7 @@ window.AsiaNameBases = [
     "b": "Huishui,Miao,Hmong,Guizhou,China,Southwest,Huishui People"
   },
   {
-    "name": "Hwanghae Dialect ",
+    "name": "Hwanghae Dialect",
     "i": 1908,
     "min": 4,
     "max": 11,
@@ -4745,7 +4745,7 @@ window.AsiaNameBases = [
     "b": "Hwanghae,Haeju,Kaesong,Hongchong,Chuncheon,North Korea,Eastern,Korea"
   },
   {
-    "name": "Ibanag ",
+    "name": "Ibanag",
     "i": 1911,
     "min": 4,
     "max": 11,
@@ -4754,7 +4754,7 @@ window.AsiaNameBases = [
     "b": "Ibanag,Tuguegarao,Ilagan,Abulug,Isabela,Santa Maria,Luzon,Philippines"
   },
   {
-    "name": "Idu-Taraon ",
+    "name": "Idu-Taraon",
     "i": 1912,
     "min": 4,
     "max": 11,
@@ -4763,7 +4763,7 @@ window.AsiaNameBases = [
     "b": "Idu,Taraon,Arunachal Pradesh,India,Dibang Valley,Tibet Border,Assam,Northeast"
   },
   {
-    "name": "Goaria ",
+    "name": "Goaria",
     "i": 1916,
     "min": 4,
     "max": 11,
@@ -4772,7 +4772,7 @@ window.AsiaNameBases = [
     "b": "Goaria,Odisha,Sambalpur,Puri,India,East,Dravidian Languages"
   },
   {
-    "name": "Gurung ",
+    "name": "Gurung",
     "i": 1923,
     "min": 4,
     "max": 11,
@@ -4781,7 +4781,7 @@ window.AsiaNameBases = [
     "b": "Gurung,Ghandruk,Tapas,Bemba,Gorkha,Kaski,Chandigarh,India,Central"
   },
   {
-    "name": "Gawri ",
+    "name": "Gawri",
     "i": 1925,
     "min": 4,
     "max": 11,
@@ -4790,7 +4790,7 @@ window.AsiaNameBases = [
     "b": "Gawri,Pakistan,Swat Kohistan,Hindu Kush,Chitral Valley,North"
   },
   {
-    "name": "Gowro ",
+    "name": "Gowro",
     "i": 1926,
     "min": 4,
     "max": 11,
@@ -4799,7 +4799,7 @@ window.AsiaNameBases = [
     "b": "Gowro,Afghanistan,Nuristan,Kunar,Hindu Kush,Chitral Valley"
   },
   {
-    "name": "Gawar-Bati ",
+    "name": "Gawar-Bati",
     "i": 1927,
     "min": 4,
     "max": 11,
@@ -4808,7 +4808,7 @@ window.AsiaNameBases = [
     "b": "Gawar-Bati,Nuristan,Kunar,Hindu Kush,Kalam,Chitral,Chitral Valley"
   },
   {
-    "name": "Gyalrongic ",
+    "name": "Gyalrongic",
     "i": 1928,
     "min": 4,
     "max": 11,
@@ -4817,7 +4817,7 @@ window.AsiaNameBases = [
     "b": "Gyalrongic,Barkam,Mati,Kaglong,Danba,Litang,Sichuan,China,Tibetan,Plateau,Qiang"
   },
   {
-    "name": "Gyeonggi-Seoul Dialect ",
+    "name": "Gyeonggi-Seoul Dialect",
     "i": 1929,
     "min": 4,
     "max": 11,
@@ -4826,7 +4826,7 @@ window.AsiaNameBases = [
     "b": "Gyeonggi,Gyeonggi-Seoul,Seoul,Incheon,Suwon,Bucheon,South Korea,Province"
   },
   {
-    "name": "Gyeongsang Dialect ",
+    "name": "Gyeongsang Dialect",
     "i": 1930,
     "min": 4,
     "max": 11,
@@ -4835,7 +4835,7 @@ window.AsiaNameBases = [
     "b": "Gyeongsang,Busan,Ulsan,Tongyeongong,Changwon,Miryang,South Korea,Province"
   },
   {
-    "name": "Hani ",
+    "name": "Hani",
     "i": 1933,
     "min": 4,
     "max": 11,
@@ -4844,7 +4844,7 @@ window.AsiaNameBases = [
     "b": "Hani,Akha,Yuxi,Jiang,Laibin,Honghe,Lijiang,Yunnan,China,Southeast,Lolo"
   },
   {
-    "name": "Armenian (Hayeren) ",
+    "name": "Armenian (Hayeren)",
     "i": 1937,
     "min": 4,
     "max": 11,
@@ -4853,7 +4853,7 @@ window.AsiaNameBases = [
     "b": "Armenian,Yerevan,Gyumri,Vanadzor,Tavush,Kapan,Masisis,Armenia,Asia,Caucasus"
   },
   {
-    "name": "Armenian Dialect ",
+    "name": "Armenian Dialect",
     "i": 1938,
     "min": 4,
     "max": 11,
@@ -4862,7 +4862,7 @@ window.AsiaNameBases = [
     "b": "Armenian,East,Syunik,Echmiadzin,Tavush,Masisis,Armenia,Caucasus"
   },
   {
-    "name": "Modern Armenian ",
+    "name": "Modern Armenian",
     "i": 1939,
     "min": 4,
     "max": 11,
@@ -4871,7 +4871,7 @@ window.AsiaNameBases = [
     "b": "hayeren,Yerevan,Gyumri,Vanadzor,Abovyan,Kapan,Armavir,Gavar,Ararat,Ashtarak,Ijevan"
   },
   {
-    "name": "Modern Eastern Armenian ",
+    "name": "Modern Eastern Armenian",
     "i": 1940,
     "min": 4,
     "max": 11,
@@ -4880,7 +4880,7 @@ window.AsiaNameBases = [
     "b": "Modern,Eastern,Armenian,Yerevan,Sevan,Gyumri,Tavush,Republic,of,Armenia,Caucasus"
   },
   {
-    "name": "Modern Western Armenian ",
+    "name": "Modern Western Armenian",
     "i": 1941,
     "min": 4,
     "max": 11,
@@ -4889,7 +4889,7 @@ window.AsiaNameBases = [
     "b": "hayeren,Istanbul,Izmir,Bursa,Antalya,Adana,Konya,Mersin,Gaziantep,Ankara,Trabzon"
   },
   {
-    "name": "Old Armenian ",
+    "name": "Old Armenian",
     "i": 1942,
     "min": 4,
     "max": 11,
@@ -4898,7 +4898,7 @@ window.AsiaNameBases = [
     "b": "Old,Armenian,Classical,Language,Kingdom,Empire,Asia,Minor,Caucasus"
   },
   {
-    "name": "Old Cilician Armenian ",
+    "name": "Old Cilician Armenian",
     "i": 1943,
     "min": 4,
     "max": 11,
@@ -4907,7 +4907,7 @@ window.AsiaNameBases = [
     "b": "hayeren,Adana,Mersin,Antalya,Tarsus,Anamur,Silifke,Kozan,Kadirli,Osmaniye,Feke"
   },
   {
-    "name": "Hayu (Vayu) ",
+    "name": "Hayu (Vayu)",
     "i": 1944,
     "min": 4,
     "max": 11,
@@ -4916,7 +4916,7 @@ window.AsiaNameBases = [
     "b": "hayu,Gwangju,Bucheon,Gunpo,Uiwang,Hwaseong,Osan,Yongin,Pyeongtaek,Dongducheon,Paju"
   },
   {
-    "name": "Hazara (Hazaragi) ",
+    "name": "Hazara (Hazaragi)",
     "i": 1945,
     "min": 4,
     "max": 11,
@@ -4925,7 +4925,7 @@ window.AsiaNameBases = [
     "b": "Hazara,Quetta,Kandahar,Bamian,Herat,Parwan,Pakistan,Khorasan"
   },
   {
-    "name": "Ilocano native-speakers subset ",
+    "name": "Ilocano native-speakers subset",
     "i": 1947,
     "min": 4,
     "max": 11,
@@ -4934,7 +4934,7 @@ window.AsiaNameBases = [
     "b": "Laoag,Vigan,Candon,Batac,San Fernando,Agoo,Bangued,Narvacan,Tagudin,Sinait"
   },
   {
-    "name": "Antillean Creole ",
+    "name": "Antillean Creole",
     "i": 1956,
     "min": 4,
     "max": 11,
@@ -4943,7 +4943,7 @@ window.AsiaNameBases = [
     "b": "Basse-Terre,Fort-de-France,Roseau,Castries,Saint-Pierre,Les Abymes,Baie-Mahault,Lamentin,Schoelcher,Le Robert,Sainte-Anne,Vieux Fort"
   },
   {
-    "name": "Bhujel ",
+    "name": "Bhujel",
     "i": 1957,
     "min": 4,
     "max": 11,
@@ -4952,7 +4952,7 @@ window.AsiaNameBases = [
     "b": "Khairenitar,Damauli,Bandipur,Gorkha,Pokhara,Syangja,Baglung,Parbat,Myagdi,Gulmi,Arghakhanchi,Palpa"
   },
   {
-    "name": "Yuanmen Hlai ",
+    "name": "Yuanmen Hlai",
     "i": 1963,
     "min": 4,
     "max": 11,
@@ -4961,16 +4961,16 @@ window.AsiaNameBases = [
     "b": "Yuanmen,Baisha,Wuzhishan,Qiongzhong,Ledong,Dongfang,Changjiang,Lingshui,Baoting,Sanya,Haikou,Danzhou"
   },
   {
-    "name": "Qau ",
+    "name": "Qau",
     "i": 1964,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "HÃ  Giang,Äá»“ng VÄƒn,MÃ¨o Váº¡c,YÃªn Minh,Quáº£n Báº¡,Vá»‹ XuyÃªn,Báº¯c MÃª,HoÃ ng Su PhÃ¬,XÃ­n Máº§n,Malipo,Maguan,Funing"
+    "b": "H  Giang,Äá»“ng VÄƒn,Mèo Váº¡c,Yªn Minh,Quáº£n Báº¡,Vá»‹ Xuyªn,Báº¯c Mª,Ho ng Su Ph¬,Xín Máº§n,Malipo,Maguan,Funing"
   },
   {
-    "name": "Taman ",
+    "name": "Taman",
     "i": 1967,
     "min": 4,
     "max": 11,
@@ -4979,7 +4979,7 @@ window.AsiaNameBases = [
     "b": "Putussibau,Kalis,Mentebah,Bunut,Boyan Tanjung,Pengkadan,Selimbau,Suhaid,Semitau,Silat Hilir,Silat Hulu,Seberuang"
   },
   {
-    "name": "Tamangic ",
+    "name": "Tamangic",
     "i": 1968,
     "min": 4,
     "max": 11,
@@ -4988,7 +4988,7 @@ window.AsiaNameBases = [
     "b": "Kathmandu,Lalitpur,Bhaktapur,Nuwakot,Rasuwa,Dhading,Makwanpur,Sindhupalchok,Kavrepalanchok,Dolakha,Ramechhap,Okhaldhunga"
   },
   {
-    "name": "Kolami ",
+    "name": "Kolami",
     "i": 1974,
     "min": 4,
     "max": 11,
@@ -4997,7 +4997,7 @@ window.AsiaNameBases = [
     "b": "Yavatmal,Adilabad,Wardha,Chandrapur,Nanded,Nizamabad,Karimnagar,Warangal,Khammam,Medak,Hyderabad,Mahbubnagar"
   },
   {
-    "name": "Koraga ",
+    "name": "Koraga",
     "i": 1975,
     "min": 4,
     "max": 11,
@@ -5006,7 +5006,7 @@ window.AsiaNameBases = [
     "b": "Udupi,Mangalore,Kasaragod,Kundapura,Karkala,Belthangady,Puttur,Sullia,Bantwal,Moodabidri,Mulki,Manjeshwar"
   },
   {
-    "name": "Kota ",
+    "name": "Kota",
     "i": 1976,
     "min": 4,
     "max": 11,
@@ -5015,7 +5015,7 @@ window.AsiaNameBases = [
     "b": "Ooty,Coonoor,Kotagiri,Gudalur,Wellington,Kundah,Pykara,Masinagudi,Mudumalai,Bandipur,Wayanad,Malappuram"
   },
   {
-    "name": "Kudiya ",
+    "name": "Kudiya",
     "i": 1977,
     "min": 4,
     "max": 11,
@@ -5024,7 +5024,7 @@ window.AsiaNameBases = [
     "b": "Paivalika,Enmakaje,Puthige,Vorkady,Dakshina-Kannada,Udupi,Kodagu,Kasaragod,Kannur,Manjeswaram,Kerala,Karnataka,Tulu,Thenmala,Panathady,Balanthode,Kallar,Rajapuram,Odayanchal,Parappa,Bheemanady,Chittarikkal,Konnakkad,Kottodi,Malom,Vellarikundu"
   },
   {
-    "name": "Kui Dravidian ",
+    "name": "Kui Dravidian",
     "i": 1978,
     "min": 4,
     "max": 11,
@@ -5033,7 +5033,7 @@ window.AsiaNameBases = [
     "b": "Kandhamal,Rayagada,Phulbani,Baliguda,G-Udayagiri,Raikia,Daringbadi,Kotagarh,Tumudibandh,Chakapad,Tikabali,Khajuripada,Phiringia,K-Nuagaon,Saddali,Ha-Laakaa,Kandha,Khondi,Khond,Khondo,Kanda,Kodu,Kodulu,Kuinga,Kuy,Odisha,Goudaguda,Kalinga,Balliguda,Udayagiri,Belghar,Muniguda"
   },
   {
-    "name": "Kumbaran ",
+    "name": "Kumbaran",
     "i": 1979,
     "min": 4,
     "max": 11,
@@ -5042,7 +5042,7 @@ window.AsiaNameBases = [
     "b": "Palakkad,Wayanad,Kozhikode,Kannur,Malappuram,Thrissur,Malabar,Nilgiris,Kerala,Tamil-Nadu,Karnataka,Kumbara,Potter,Shoranur,Ottapalam,Pattambi,Cherpulassery,Mannarkkad,Perinthalmanna,Nilambur,Manjeri,Kondotty,Tirur,Ponnani,Valanchery"
   },
   {
-    "name": "Paniya ",
+    "name": "Paniya",
     "i": 1980,
     "min": 4,
     "max": 11,
@@ -5051,7 +5051,7 @@ window.AsiaNameBases = [
     "b": "Wayanad,Nilgiris,Malappuram,Kozhikode,Kannur,Palakkad,Gudalur,Pandalur,Vythiri,Mananthavady,Sulthan Bathery,Kalpetta"
   },
   {
-    "name": "Pardhan ",
+    "name": "Pardhan",
     "i": 1981,
     "min": 4,
     "max": 11,
@@ -5060,7 +5060,7 @@ window.AsiaNameBases = [
     "b": "Mandla,Seoni,Chhindwara,Balaghat,Betul,Hoshangabad,Jabalpur,Dindori,Anuppur,Shahdol,Umaria,Katni"
   },
   {
-    "name": "Pathiya ",
+    "name": "Pathiya",
     "i": 1982,
     "min": 4,
     "max": 11,
@@ -5069,7 +5069,7 @@ window.AsiaNameBases = [
     "b": "Kalpetta,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Pozhuthana,Muttil,Ambalavayal,Nenmeni,Noolpuzha,Pulpally,Mullankolly"
   },
   {
-    "name": "Itelmen ",
+    "name": "Itelmen",
     "i": 1987,
     "min": 4,
     "max": 11,
@@ -5078,7 +5078,7 @@ window.AsiaNameBases = [
     "b": "Tigil,Kovran,Khairyuzovo,Ust-Khairyuzovo,Sedanka,Belogolovoye,Moroshechnoye,Utkholok,Napana"
   },
   {
-    "name": "Iu Mien ",
+    "name": "Iu Mien",
     "i": 1989,
     "min": 4,
     "max": 11,
@@ -5087,7 +5087,7 @@ window.AsiaNameBases = [
     "b": "Luang Namtha,Phongsali,Nan,Chiang Rai,Ha Giang,Lao Cai,Jinxiu,Lipu,Mengla,Jinghong"
   },
   {
-    "name": "Joseon Korean Early Modern ",
+    "name": "Joseon Korean Early Modern",
     "i": 1991,
     "min": 4,
     "max": 11,
@@ -5096,7 +5096,7 @@ window.AsiaNameBases = [
     "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju"
   },
   {
-    "name": "Joseon Korean Middle ",
+    "name": "Joseon Korean Middle",
     "i": 1992,
     "min": 4,
     "max": 11,
@@ -5105,7 +5105,7 @@ window.AsiaNameBases = [
     "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju"
   },
   {
-    "name": "Joseon Korean Modern ",
+    "name": "Joseon Korean Modern",
     "i": 1993,
     "min": 4,
     "max": 11,
@@ -5114,7 +5114,7 @@ window.AsiaNameBases = [
     "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju"
   },
   {
-    "name": "Juk ",
+    "name": "Juk",
     "i": 1996,
     "min": 4,
     "max": 11,
@@ -5123,7 +5123,7 @@ window.AsiaNameBases = [
     "b": "Sekong,Lamam,Kaleum,Dakcheung,Thateng,Paksong,Attapeu,Saravane,Pakse,Champasak"
   },
   {
-    "name": "Jirel ",
+    "name": "Jirel",
     "i": 1997,
     "min": 4,
     "max": 11,
@@ -5132,7 +5132,7 @@ window.AsiaNameBases = [
     "b": "Jiri,Mali,Thulopatal,Kumpur,Shyama,Chyangba,Dhungue,Jugu,Gairimudi,Mirge"
   },
   {
-    "name": "Kam-Tai ",
+    "name": "Kam-Tai",
     "i": 1998,
     "min": 4,
     "max": 11,
@@ -5141,7 +5141,7 @@ window.AsiaNameBases = [
     "b": "Liping,Rongjiang,Congjiang,Sanjiang,Jinxiu,Longsheng,Huishui,Dushan,Sandu,Libo"
   },
   {
-    "name": "Kamassian ",
+    "name": "Kamassian",
     "i": 2001,
     "min": 4,
     "max": 11,
@@ -5150,7 +5150,7 @@ window.AsiaNameBases = [
     "b": "Abalakovo,Kan River,Mana River,Kizir River,Amyl River,Sayan,Krasnoyarsk,Minusinsk,Abakan,Yenisei"
   },
   {
-    "name": "Khmu ",
+    "name": "Khmu",
     "i": 2006,
     "min": 4,
     "max": 11,
@@ -5159,7 +5159,7 @@ window.AsiaNameBases = [
     "b": "Luang Prabang,Oudomxay,Phongsaly,Sayaboury,Bokeo,Luang Namtha,Dien Bien Phu,Son La,Lai Chau,Yen Bai"
   },
   {
-    "name": "Kuy ",
+    "name": "Kuy",
     "i": 2007,
     "min": 4,
     "max": 11,
@@ -5168,7 +5168,7 @@ window.AsiaNameBases = [
     "b": "Surin,Sisaket,Ubon Ratchathani,Buriram,Roi Et,Preah Vihear,Stung Treng,Kampong Thom,Salavan,Champasak"
   },
   {
-    "name": "Katuic ",
+    "name": "Katuic",
     "i": 2008,
     "min": 4,
     "max": 11,
@@ -5177,7 +5177,7 @@ window.AsiaNameBases = [
     "b": "Saravane,Sekong,Attapeu,Quang Nam,Thua Thien Hue,Quang Tri,Savannakhet,Mukdahan,Ubon Ratchathani,Amnat Charoen"
   },
   {
-    "name": "Khmuic ",
+    "name": "Khmuic",
     "i": 2009,
     "min": 4,
     "max": 11,
@@ -5186,7 +5186,7 @@ window.AsiaNameBases = [
     "b": "Luang Prabang,Oudomxay,Phongsaly,Nan,Phrae,Chiang Rai,Dien Bien,Son La,Houaphanh,Xieng Khouang"
   },
   {
-    "name": "Proto Tibeto Burman ",
+    "name": "Proto Tibeto Burman",
     "i": 2014,
     "min": 4,
     "max": 11,
@@ -5195,7 +5195,7 @@ window.AsiaNameBases = [
     "b": "Lhasa,Kathmandu,Thimphu,Gangtok,Itanagar,Kohima,Imphal,Aizawl,Shillong,Tawang"
   },
   {
-    "name": "Tibeto Burman ",
+    "name": "Tibeto Burman",
     "i": 2015,
     "min": 4,
     "max": 11,
@@ -5204,7 +5204,7 @@ window.AsiaNameBases = [
     "b": "Kunming,Chengdu,Guiyang,Mandalay,Myitkyina,Taunggyi,Kalay,Hakha,Sittwe,Mawlamyine"
   },
   {
-    "name": "Sal ",
+    "name": "Sal",
     "i": 2016,
     "min": 4,
     "max": 11,
@@ -5213,7 +5213,7 @@ window.AsiaNameBases = [
     "b": "Guwahati,Shillong,Tura,Williamnagar,Baghmara,Resubelpara,Goalpara,Dhubri,Kokrajhar,Barpeta"
   },
   {
-    "name": "Karakalpak ",
+    "name": "Karakalpak",
     "i": 2017,
     "min": 4,
     "max": 11,
@@ -5222,7 +5222,7 @@ window.AsiaNameBases = [
     "b": "Nukus,Beruniy,Khodjeyli,Kungrad,Takhiatash,Chimbay,Muynak,Turtkul,Shumanay,Kanlikul"
   },
   {
-    "name": "Kar ",
+    "name": "Kar",
     "i": 13491,
     "min": 4,
     "max": 11,
@@ -5231,7 +5231,7 @@ window.AsiaNameBases = [
     "b": "Hpa-an,Myawaddy,Kawkareik,Kyainseikgyi,Kamamaung,Shwegun,Paung,Thaton,Mawlamyine,Mudon"
   },
   {
-    "name": "Hrusish ",
+    "name": "Hrusish",
     "i": 2023,
     "min": 4,
     "max": 12,
@@ -5240,7 +5240,7 @@ window.AsiaNameBases = [
     "b": "Hruso,Aka,Miji,Dhammai,Sajolang,Bangni,Nishi,Tagin,Apatani,Hill Miri,Thrizino,Bhalukpong,Jamiri,Buragaon,Palizi,Nafra,Tenga,Bomdila,Dirang,Kalaktang"
   },
   {
-    "name": "Ilocano ",
+    "name": "Ilocano",
     "i": 2025,
     "min": 4,
     "max": 12,
@@ -5249,7 +5249,7 @@ window.AsiaNameBases = [
     "b": "Laoag,Vigan,Candon,Batac,San Fernando,Agoo,Bangued,Narvacan,Tagudin,Sinait,Cabugao,Magsingal,Santa Lucia,Santa Maria,Bantay,San Juan,Santo Domingo"
   },
   {
-    "name": "Iranun ",
+    "name": "Iranun",
     "i": 2029,
     "min": 4,
     "max": 12,
@@ -5258,7 +5258,7 @@ window.AsiaNameBases = [
     "b": "Iranun,Maranao,Maguindanao,Illanun,Cotabato,Malabang,Picong,Kapatagan,Lala,Tubod,Barira,Buldon,Matanog,Parang"
   },
   {
-    "name": "Isan ",
+    "name": "Isan",
     "i": 2031,
     "min": 4,
     "max": 12,
@@ -5267,7 +5267,7 @@ window.AsiaNameBases = [
     "b": "Khon Kaen,Udon Thani,Nakhon Ratchasima,Ubon Ratchathani,Nong Khai,Sakonnakhon,Roi Et,Surin,Buriram,Sisaket,Mukdahan,Yasothon,Amnat Charoen,Chaiyaphum"
   },
   {
-    "name": "Georgian dialects ",
+    "name": "Georgian dialects",
     "i": 2078,
     "min": 4,
     "max": 11,
@@ -5276,7 +5276,7 @@ window.AsiaNameBases = [
     "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Zugdidi,Gori,Poti,Samtredia,Khashuri,Senaki,Zestafoni,Telavi"
   },
   {
-    "name": "Old Georgian ",
+    "name": "Old Georgian",
     "i": 2079,
     "min": 4,
     "max": 11,
@@ -5285,7 +5285,7 @@ window.AsiaNameBases = [
     "b": "Mtskheta,Uplistsikhe,Vardzia,Gelati,Nekresi,Bolnisi,Samshvilde,Ateni,Dmanisi,Gremi,Zarzma,Sapara"
   },
   {
-    "name": "Proto-Georgianâ€“Zan ",
+    "name": "Proto-Georgian–“Zan",
     "i": 2080,
     "min": 4,
     "max": 11,
@@ -5294,7 +5294,7 @@ window.AsiaNameBases = [
     "b": "Colchis,Iberia,Phasis,Dioscurias,Gyenos,Kotatisi,Archaeopolis,Petra,Sebastopolis,Pityus,Apsaros,Rhizaion"
   },
   {
-    "name": "Proto-Kartvelian ",
+    "name": "Proto-Kartvelian",
     "i": 2081,
     "min": 4,
     "max": 11,
@@ -5303,7 +5303,7 @@ window.AsiaNameBases = [
     "b": "Kazbek,Elbrus,Shkhara,Ushba,Tetnuldi,Janga,Dykh-Tau,Koshtan-Tau,Mizhirgi,Katyn-Tau,Shota Rustaveli,Gestola"
   },
   {
-    "name": "Zan languages ",
+    "name": "Zan languages",
     "i": 2082,
     "min": 4,
     "max": 11,
@@ -5312,7 +5312,7 @@ window.AsiaNameBases = [
     "b": "Zugdidi,Senaki,Poti,Martvili,Khobi,Tsalenjikha,Chkhorotsqu,Abasha,Anaklia,Gali,Ochamchire,Tkvarcheli"
   },
   {
-    "name": "Judaeo-Georgian ",
+    "name": "Judaeo-Georgian",
     "i": 2083,
     "min": 4,
     "max": 11,
@@ -5321,7 +5321,7 @@ window.AsiaNameBases = [
     "b": "Tbilisi,Kutaisi,Akhaltsikhe,Oni,Kulashi,Sachkhere,Laituri,Surami,Kareli,Gori,Batumi,Poti"
   },
   {
-    "name": "Georgianâ€“Zan ",
+    "name": "Georgian–“Zan",
     "i": 2084,
     "min": 4,
     "max": 11,
@@ -5330,7 +5330,7 @@ window.AsiaNameBases = [
     "b": "Zugdidi,Senaki,Poti,Martvili,Khobi,Tsalenjikha,Chkhorotsqu,Abasha,Anaklia,Gali,Ochamchire,Tkvarcheli"
   },
   {
-    "name": "Kartvelian languages ",
+    "name": "Kartvelian languages",
     "i": 2085,
     "min": 4,
     "max": 11,
@@ -5339,7 +5339,7 @@ window.AsiaNameBases = [
     "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Zugdidi,Gori,Poti,Samtredia,Khashuri,Senaki,Zestafoni,Telavi"
   },
   {
-    "name": "Kamchatkan ",
+    "name": "Kamchatkan",
     "i": 2088,
     "min": 4,
     "max": 11,
@@ -5348,7 +5348,7 @@ window.AsiaNameBases = [
     "b": "Petropavlovsk,Yelizovo,Vilyuchinsk,Milkovo,Klyuchi,Ust-Kamchatsk,Ossora,Palana,Tigil,Esso,Kamenskoye,Tilichiki"
   },
   {
-    "name": "Kerek ",
+    "name": "Kerek",
     "i": 2089,
     "min": 4,
     "max": 11,
@@ -5357,16 +5357,16 @@ window.AsiaNameBases = [
     "b": "Anadyr,Pevek,Bilibino,Ugolnye Kopi,Egvekinot,Lavrentiya,Provideniya,Beringovsky,Lorino,Uelen,Khatyrka,Meynypilgyno"
   },
   {
-    "name": "Ket ",
+    "name": "Ket",
     "i": 2090,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kellog, Maduyka, Farkovo, Turukhansk, Bakhta, Verkhneimbatsk, Surgutikha, Goroshikha, Kangatovo, Kellogskoe, Yenisei, Kureyka, Pakulika, Yeloguy, Bakhtinskoye, Verkhneimbatskoye"
+    "b": "Kellog,Maduyka,Farkovo,Turukhansk,Bakhta,Verkhneimbatsk,Surgutikha,Goroshikha,Kangatovo,Kellogskoe,Yenisei,Kureyka,Pakulika,Yeloguy,Bakhtinskoye,Verkhneimbatskoye"
   },
   {
-    "name": "Koryak ",
+    "name": "Koryak",
     "i": 2091,
     "min": 4,
     "max": 11,
@@ -5375,7 +5375,7 @@ window.AsiaNameBases = [
     "b": "Palana,Ossora,Tigil,Kamenskoye,Tilichiki,Manily,Vyvenka,Karaga,Tymlat,Khailino,Pakhachi,Apuka"
   },
   {
-    "name": "Kott ",
+    "name": "Kott",
     "i": 2092,
     "min": 4,
     "max": 11,
@@ -5384,7 +5384,7 @@ window.AsiaNameBases = [
     "b": "Krasnoyarsk,Yeniseysk,Kansk,Achinsk,Minusinsk,Abakan,Kyzyl,Shushenskoye,Kuragino,Sayansk,Artemovsk,Zelenogorsk,Borodino,Uyar,Sosnovoborsk,Divnogorsk,Lesosibirsk,Dudinka,Igarka,Norilsk,Talnakh,Kayyerkan,Snezhnogorsk,Khatanga,Dikson,Karaul,Turukhansk,Baykit,Vanavara,Tura,Essey,Chirinda,Ekonda,Nidym,Uchami,Tutonchany,Kureyka,Bakhta,Farkovo,Maduyka,Kellog,Kangatovo,Surgutikha,Goroshikha,Verkhneimbatsk,Bakhtinskoye,Verkhneimbatskoye,Pakulika,Yeloguy,Yenisei"
   },
   {
-    "name": "Kangjia ",
+    "name": "Kangjia",
     "i": 2102,
     "min": 4,
     "max": 11,
@@ -5393,7 +5393,7 @@ window.AsiaNameBases = [
     "b": "Jainca,Tongren,Zeku,Henan,Guide,Hualong,Xunhua,Minhe,Ledu,Ping'an"
   },
   {
-    "name": "Kannada ",
+    "name": "Kannada",
     "i": 2104,
     "min": 4,
     "max": 11,
@@ -5402,7 +5402,7 @@ window.AsiaNameBases = [
     "b": "Bengaluru,Mysore,Hubballi,Mangaluru,Belagavi,Kalaburagi,Shivamogga,Davanagere,Ballari,Vijayapura"
   },
   {
-    "name": "Kapampangan ",
+    "name": "Kapampangan",
     "i": 2107,
     "min": 4,
     "max": 11,
@@ -5411,7 +5411,7 @@ window.AsiaNameBases = [
     "b": "San Fernando,Angeles,Mabalacat,Guagua,Lubao,Floridablanca,Mexico,Arayat,Candaba,Macabebe"
   },
   {
-    "name": "Karbi ",
+    "name": "Karbi",
     "i": 2108,
     "min": 4,
     "max": 11,
@@ -5420,7 +5420,7 @@ window.AsiaNameBases = [
     "b": "karbi,Diphu,Hamren,Bokajan,Howraghat,Dokmoka,Dongkamukam,Baithalangso,Bakulia,Langhin,Phuloni,Manja,Umrangso"
   },
   {
-    "name": "Karenic ",
+    "name": "Karenic",
     "i": 2111,
     "min": 4,
     "max": 11,
@@ -5429,7 +5429,7 @@ window.AsiaNameBases = [
     "b": "karenic,Pa-An,Hpa-An,Loikaw,Papun,Thandaung,Myawaddy,Kawkareik,Kyain-Seikgyi,Mawchi,Bawlake,Hpasawng,Mese"
   },
   {
-    "name": "Kashmiri ",
+    "name": "Kashmiri",
     "i": 2113,
     "min": 4,
     "max": 11,
@@ -5438,7 +5438,7 @@ window.AsiaNameBases = [
     "b": "kashmiri,Srinagar,Jammu,Anantnag,Baramulla,Sopore,Pulwama,Kupwara,Shopian,Ganderbal,Kulgam,Bandipora,Budgam"
   },
   {
-    "name": "Kathu ",
+    "name": "Kathu",
     "i": 2114,
     "min": 4,
     "max": 11,
@@ -5447,7 +5447,7 @@ window.AsiaNameBases = [
     "b": "kathu,Wenshan,Maguan,Malipo,Funing,Xichou,Guangnan,Yanshan,Qiubei,Ha-Giang,Dong-Van,Meo-Vac,Yen-Minh"
   },
   {
-    "name": "Kabutra ",
+    "name": "Kabutra",
     "i": 2116,
     "min": 4,
     "max": 11,
@@ -5456,7 +5456,7 @@ window.AsiaNameBases = [
     "b": "Mirpur-Khas,Sanghar,Umerkot,Tharparkar,Badin,Hyderabad,Tando-Allahyar,Tando-Adam,Shahdadpur,Khipro,Jamesabad,Digri"
   },
   {
-    "name": "Koch ",
+    "name": "Koch",
     "i": 2117,
     "min": 4,
     "max": 11,
@@ -5465,7 +5465,7 @@ window.AsiaNameBases = [
     "b": "Tura,Goalpara,Dhubri,Kokrajhar,Bongaigaon,Barpeta,Nalbari,Kamrup,Mangaldai,Tezpur,North-Lakhimpur,Dhemaji"
   },
   {
-    "name": "Tai Meuay ",
+    "name": "Tai Meuay",
     "i": 2127,
     "min": 4,
     "max": 11,
@@ -5474,7 +5474,7 @@ window.AsiaNameBases = [
     "b": "Bolikhamxay,Khamkeut,Pakkading,Thaphabath,Borikhane,Viengthong,Lak-Sao,Nam-Kading,Nakai,Gnommalath,Mahaxay,Boualapha"
   },
   {
-    "name": "Proto-Kra ",
+    "name": "Proto-Kra",
     "i": 2128,
     "min": 4,
     "max": 11,
@@ -5483,7 +5483,7 @@ window.AsiaNameBases = [
     "b": "Maguan,Malipo,Funing,Xichou,Guangnan,Yanshan,Qiubei,Wenshan,Ha-Giang,Cao-Bang,Lao-Cai,Yen-Bai"
   },
   {
-    "name": "Nadou ",
+    "name": "Nadou",
     "i": 2129,
     "min": 4,
     "max": 11,
@@ -5492,7 +5492,7 @@ window.AsiaNameBases = [
     "b": "Santa-Isabel-do-Rio-Negro,Sao-Gabriel-da-Cachoeira,Barcelos,Japura,Maraa,Fonte-Boa,Uarini,Tefe,Alvaraes,Coari,Codajas,Anori"
   },
   {
-    "name": "Mulao Kra ",
+    "name": "Mulao Kra",
     "i": 2130,
     "min": 4,
     "max": 11,
@@ -5501,7 +5501,7 @@ window.AsiaNameBases = [
     "b": "Luocheng,Hechi,Yizhou,Huanjiang,Nandan,Tiane,Donglan,Bama,Fengshan,Duan,Dahua,Mashan"
   },
   {
-    "name": "Shan ",
+    "name": "Shan",
     "i": 2131,
     "min": 4,
     "max": 11,
@@ -5510,7 +5510,7 @@ window.AsiaNameBases = [
     "b": "Taunggyi,Lashio,Kengtung,Muse,Tachileik,Namhsan,Hsipaw,Kyaukme,Kalaw,Nyaungshwe,Mong-Hsat,Mong-Hpayak"
   },
   {
-    "name": "Tani ",
+    "name": "Tani",
     "i": 2132,
     "min": 4,
     "max": 11,
@@ -5519,7 +5519,7 @@ window.AsiaNameBases = [
     "b": "Itanagar,Pasighat,Along,Ziro,Daporijo,Yingkiong,Roing,Tezu,Anini,Khonsa,Changlang,Bomdila"
   },
   {
-    "name": "Mising ",
+    "name": "Mising",
     "i": 2133,
     "min": 4,
     "max": 11,
@@ -5528,7 +5528,7 @@ window.AsiaNameBases = [
     "b": "Dhemaji,Lakhimpur,Sonitpur,Tinsukia,Dibrugarh,Sivasagar,Jorhat,Golaghat,Majuli,Brahmaputra,Subansiri,Siang,Lohit,Dibang,Ali-Aye-Ligang,Assam,Arunachal-Pradesh,Adi,Nyishi,Galo,Tagin,Apatani,Jonai,Silapathar,Gogamukh,Dhakuakhana,Bihpuria,Narayanpur,Panigaon,Telam,Simen-Chapori,Dekapam,Akajan,Kulajan,Silasuti,Bahir-Jonai,Beramjia,Pub-Jonai,Dimow,Sissiborgaon,Jiadhal,Machkhowa,Kherkata,Luit-Poriya,Disangmukh,Jengraimukh,Garmur,Kamalabari,Salmora,Auniati"
   },
   {
-    "name": "Keâ€™yagana ",
+    "name": "Ke'yagana",
     "i": 2134,
     "min": 4,
     "max": 11,
@@ -5537,7 +5537,7 @@ window.AsiaNameBases = [
     "b": "Goroka,Kainantu,Henganofi,Lufa,Okapa,Daulo,Obura-Wonenara,Unggai-Bena,Aiyura,Arona,Yonki,Kassam"
   },
   {
-    "name": "Kacchi ",
+    "name": "Kacchi",
     "i": 2141,
     "min": 4,
     "max": 11,
@@ -5546,7 +5546,7 @@ window.AsiaNameBases = [
     "b": "Mirpur-Khas,Sanghar,Umerkot,Tharparkar,Badin,Hyderabad,Tando-Allahyar,Tando-Adam,Shahdadpur,Khipro,Jamesabad,Digri"
   },
   {
-    "name": "Kumaoni ",
+    "name": "Kumaoni",
     "i": 2142,
     "min": 4,
     "max": 11,
@@ -5555,7 +5555,7 @@ window.AsiaNameBases = [
     "b": "Almora,Nainital,Pithoragarh,Champawat,Bageshwar,Ranikhet,Haldwani,Rudrapur,Kashipur,Jaspur,Khatima,Sitarganj"
   },
   {
-    "name": "Kusunda ",
+    "name": "Kusunda",
     "i": 2143,
     "min": 4,
     "max": 11,
@@ -5564,7 +5564,7 @@ window.AsiaNameBases = [
     "b": "Damauli,Bandipur,Gorkha,Pokhara,Lekhnath,Baglung,Beni,Kusma,Waling,Putalibazar,Tansen,Sandhikharka"
   },
   {
-    "name": "Dura Tandrange ",
+    "name": "Dura Tandrange",
     "i": 2144,
     "min": 4,
     "max": 12,
@@ -5573,7 +5573,7 @@ window.AsiaNameBases = [
     "b": "Lamjung,Gorkha,Sundarbazar,Besisahar,Dulegauda,Khudi,Bhoteodar,Bharatpur,Abukhaireni,Khanikhola,Ambukhaireni,Tanahun,Dumre,Rishing,Bhansar,Ghansikuwa,Risti,BhoteodarGaun,RampurBesi,Purkot,Tarkughat,Chandreshwar,Bhalayakharka,Kunchha,Jita,Tandrang,Dhamilikuwa,Rainas,Chakratirtha,Karapu"
   },
   {
-    "name": "Gong ",
+    "name": "Gong",
     "i": 2147,
     "min": 4,
     "max": 12,
@@ -5582,7 +5582,7 @@ window.AsiaNameBases = [
     "b": "Gongbo,Gonghe,Gongshan,Gongjue,Gonggar,Gongxian,Gongbujiangda,Gongzhuling,Gongru,Gongxing,Gongnong,Gongchang,Gongtan,Gongping,Gongdu,Gongkai,Gonglong,Gongrong,Gongbao,Thong Pha Phum,Sangkhla Buri,Si Sawat,Bo Phloi,Lao Khwan,Huai Krachao,Dan Chang,Doem Bang Nang Buat,Nong Ya Sai,Sam Chuk"
   },
   {
-    "name": "Gongduk ",
+    "name": "Gongduk",
     "i": 2148,
     "min": 4,
     "max": 12,
@@ -5591,7 +5591,7 @@ window.AsiaNameBases = [
     "b": "Gongdue,Panbang,Tingtibi,Zhemgang,Buli,Nangkor,Goshing,Bjoka,Sonamthang,Trong,Dakpai,Kheng,Bardo,Sharley,Gelephu,Sarpang,Umling,Chisopani,Chhuzargang,Gelephug,Yebilaptsa,Goling,Mamung,Praling,Langdurbi,BuliGaun,Neyling,Kaktong,Phangkhar,Phumthang"
   },
   {
-    "name": "Afroasiatic family ",
+    "name": "Afroasiatic family",
     "i": 2150,
     "min": 4,
     "max": 11,
@@ -5600,7 +5600,7 @@ window.AsiaNameBases = [
     "b": "Cairo,Riyadh,Addis-Ababa,Algiers,Casablanca,Khartoum,Mogadishu,Tunis,Tripoli,Beirut,Amman,Sanaa"
   },
   {
-    "name": "Aslian languages ",
+    "name": "Aslian languages",
     "i": 2155,
     "min": 4,
     "max": 11,
@@ -5609,7 +5609,7 @@ window.AsiaNameBases = [
     "b": "Grik,Gerik,Tapah,Kampar,Bidor,Sungkai,Slim-River,Tanjong-Malim,Kuala-Lipis,Raub,Bentong,Temerloh"
   },
   {
-    "name": "Khowar ",
+    "name": "Khowar",
     "i": 2159,
     "min": 4,
     "max": 11,
@@ -5618,7 +5618,7 @@ window.AsiaNameBases = [
     "b": "Chitral,Mastuj,Drosh,Booni,Garam-Chashma,Reshun,Mulkhow,Torkhow,Shishi-Koh,Lot-Koh,Ayun,Birir"
   },
   {
-    "name": "Kim Mun ",
+    "name": "Kim Mun",
     "i": 2167,
     "min": 4,
     "max": 11,
@@ -5627,7 +5627,7 @@ window.AsiaNameBases = [
     "b": "Shixing,Qujiang,Renhua,Lechang,Wengyuan,Ruyuan,Yingde,Fogang,Yangshan,Lianzhou,Lianshan,Liannan"
   },
   {
-    "name": "Khasi ",
+    "name": "Khasi",
     "i": 2189,
     "min": 4,
     "max": 11,
@@ -5636,7 +5636,7 @@ window.AsiaNameBases = [
     "b": "Shillong,Jowai,Nongpoh,Nongstoin,Cherrapunji,Mairang,Mawkyrwat,Khliehriat,Umling,Mylliem,Pynursla,Shella"
   },
   {
-    "name": "Lyngngam ",
+    "name": "Lyngngam",
     "i": 2190,
     "min": 4,
     "max": 11,
@@ -5645,7 +5645,7 @@ window.AsiaNameBases = [
     "b": "Nongstoin,Mawshynrut,Riangdo,Shallang,Aradonga,Kyrshai,Mawkyrwat,Langrin,Rambrai,Myriaw,Mariaw,Nobosohphoh"
   },
   {
-    "name": "Khasi native-speakers subset ",
+    "name": "Khasi native-speakers subset",
     "i": 2191,
     "min": 4,
     "max": 11,
@@ -5654,7 +5654,7 @@ window.AsiaNameBases = [
     "b": "Shillong,Jowai,Nongpoh,Nongstoin,Sohra,Mairang,Mawkyrwat,Khliehriat,Shangpung,Raliang,Sutnga,Nartiang"
   },
   {
-    "name": "Pnar ",
+    "name": "Pnar",
     "i": 2192,
     "min": 4,
     "max": 11,
@@ -5663,7 +5663,7 @@ window.AsiaNameBases = [
     "b": "Jowai,Khliehriat,Shangpung,Raliang,Sutnga,Nartiang,Laskein,Thadlaskein,Amlarem,Mowkaiaw,Saipung,Umkiang"
   },
   {
-    "name": "War Khasi ",
+    "name": "War Khasi",
     "i": 2193,
     "min": 4,
     "max": 11,
@@ -5672,7 +5672,7 @@ window.AsiaNameBases = [
     "b": "Sohra,Pynursla,Shella,Bholaganj,Dawki,Ichamati,Mawlong,Tyngna,Nongjri,Hat-Shella,Balat,Ryngku"
   },
   {
-    "name": "Khakas ",
+    "name": "Khakas",
     "i": 2194,
     "min": 4,
     "max": 11,
@@ -5681,7 +5681,7 @@ window.AsiaNameBases = [
     "b": "Abakan,Chernogorsk,Sayanogorsk,Abaza,Sorsk,Bely-Yar,Ust-Abakan,Shira,Kopievo,Tashtyp,Askiz,Biskamzha"
   },
   {
-    "name": "Kham ",
+    "name": "Kham",
     "i": 2195,
     "min": 4,
     "max": 11,
@@ -5690,7 +5690,7 @@ window.AsiaNameBases = [
     "b": "Tansen,Butwal,Gulmi,Arghakhanchi,Pyuthan,Rolpa,Rukum,Baglung,Beni,Jomsom,Ghorahi,Tulsipur"
   },
   {
-    "name": "Khamnigan Mongol ",
+    "name": "Khamnigan Mongol",
     "i": 2196,
     "min": 4,
     "max": 11,
@@ -5699,7 +5699,7 @@ window.AsiaNameBases = [
     "b": "Hulunbuir,Hailar,Evenk-Banner,Chen-Barag,Old-Barag,Ergun,Genhe,Manzhouli,Jalainur,Argun,Onon,Borzya"
   },
   {
-    "name": "Khams Tibetan ",
+    "name": "Khams Tibetan",
     "i": 2197,
     "min": 4,
     "max": 11,
@@ -5708,7 +5708,7 @@ window.AsiaNameBases = [
     "b": "Chamdo,Kangding,Garze,Jyekundo,Lithang,Derge,Batang,Markham,Riwoqe,Zogang,Gonjo,Banma"
   },
   {
-    "name": "Khamti ",
+    "name": "Khamti",
     "i": 2198,
     "min": 4,
     "max": 11,
@@ -5717,7 +5717,7 @@ window.AsiaNameBases = [
     "b": "Putao,Machanbaw,Naungmon,Khaunglanhpu,Sumprabum,Myitkyina,Mogaung,Mohnyin,Nanyun,Pangsau,Lekhapani,Namsai"
   },
   {
-    "name": "Khamyang ",
+    "name": "Khamyang",
     "i": 2199,
     "min": 4,
     "max": 11,
@@ -5726,7 +5726,7 @@ window.AsiaNameBases = [
     "b": "Tinsukia,Dibrugarh,Sivasagar,Jorhat,Golaghat,Margherita,Doomdooma,Namrup,Moran,Naharkatiya,Digboi,Sonari"
   },
   {
-    "name": "Kharia ",
+    "name": "Kharia",
     "i": 2200,
     "min": 4,
     "max": 11,
@@ -5735,7 +5735,7 @@ window.AsiaNameBases = [
     "b": "Simdega,Gumla,Lohardaga,Khunti,Ranchi,Palamu,Latehar,Jashpur,Raigarh,Sundargarh,Jharsuguda,Sambalpur"
   },
   {
-    "name": "Khmer ",
+    "name": "Khmer",
     "i": 2201,
     "min": 4,
     "max": 11,
@@ -5744,7 +5744,7 @@ window.AsiaNameBases = [
     "b": "Phnom-Penh,Siem-Reap,Battambang,Sihanoukville,Kampong-Cham,Kampong-Chhnang,Kampong-Speu,Kampot,Takeo,Prey-Veng,Svay-Rieng,Pursat"
   },
   {
-    "name": "Khe Khmer ",
+    "name": "Khe Khmer",
     "i": 2202,
     "min": 4,
     "max": 11,
@@ -5753,7 +5753,7 @@ window.AsiaNameBases = [
     "b": "Stung-Treng,Kratie,Banlung,Sen-Monorom,Koh-Kong,Kep,Pailin,Samraong,Lumphat,Veun-Sai,Siempang,Thalaborivat"
   },
   {
-    "name": "Northern Khmer ",
+    "name": "Northern Khmer",
     "i": 2203,
     "min": 4,
     "max": 11,
@@ -5762,7 +5762,7 @@ window.AsiaNameBases = [
     "b": "Surin,Buriram,Sisaket,Ubon-Ratchathani,Roi-Et,Maha-Sarakham,Yasothon,Amnat-Charoen,Kalasin,Mukdahan,Chaiyaphum,Korat"
   },
   {
-    "name": "Kho Bwa ",
+    "name": "Kho Bwa",
     "i": 2204,
     "min": 4,
     "max": 11,
@@ -5771,7 +5771,7 @@ window.AsiaNameBases = [
     "b": "Bomdila,Dirang,Kalaktang,Rupa,Shergaon,Nafra,Thrizino,Jamiri,Buragaon,Singchung,Bhalukpong,Tenga"
   },
   {
-    "name": "Khori Buryat ",
+    "name": "Khori Buryat",
     "i": 2205,
     "min": 4,
     "max": 11,
@@ -5780,7 +5780,7 @@ window.AsiaNameBases = [
     "b": "Khorinsk,Kizhinga,Yeravna,Sosnovo-Ozerskoye,Romanovka,Udinsk,Bagdarin,Baunt,Mukhorshibir,Bichura,Kyakhta,Gusinoozyorsk"
   },
   {
-    "name": "Khortha ",
+    "name": "Khortha",
     "i": 2206,
     "min": 4,
     "max": 11,
@@ -5789,7 +5789,7 @@ window.AsiaNameBases = [
     "b": "Giridih,Bokaro,Dhanbad,Hazaribagh,Ramgarh,Koderma,Chatra,Dumka,Deoghar,Jamtara,Sahibganj,Pakur"
   },
   {
-    "name": "Khun ",
+    "name": "Khun",
     "i": 2233,
     "min": 4,
     "max": 11,
@@ -5798,7 +5798,7 @@ window.AsiaNameBases = [
     "b": "Kengtung,Mong Hpayak,Mong Yawng,Mong Yang,Mong La,Mong Khet,Mong Ping,Mong Hsat,Mong Ton,Tachileik,Loimwe,Panghsang"
   },
   {
-    "name": "Kiong Nai ",
+    "name": "Kiong Nai",
     "i": 2234,
     "min": 4,
     "max": 11,
@@ -5807,7 +5807,7 @@ window.AsiaNameBases = [
     "b": "Jinxiu,Dayaoshan,Liuzhou,Laibin,Guiping,Wuxuan,Xiangzhou,Lipu,Mengshan,Zhaoping,Pingle,Gongcheng"
   },
   {
-    "name": "Kiranti ",
+    "name": "Kiranti",
     "i": 2235,
     "min": 4,
     "max": 11,
@@ -5816,7 +5816,7 @@ window.AsiaNameBases = [
     "b": "Dhankuta,Bhojpur,Diktel,Okhaldhunga,Salleri,Khandbari,Chainpur,Taplejung,Phidim,Ilam,Panchthar,Terhathum"
   },
   {
-    "name": "Kulung ",
+    "name": "Kulung",
     "i": 2240,
     "min": 4,
     "max": 11,
@@ -5825,7 +5825,7 @@ window.AsiaNameBases = [
     "b": "Bung,Cheskam,Chachung,Pelmang,Sotang,Namlung,Gudel,Waku,Pawai,Khiraule,Lokhim,Jubing"
   },
   {
-    "name": "Kalasha ",
+    "name": "Kalasha",
     "i": 2242,
     "min": 4,
     "max": 11,
@@ -5834,7 +5834,7 @@ window.AsiaNameBases = [
     "b": "Bumburet,Rumbur,Birir,Krakal,Brun,Batrik,Anish,Kandesar,Gromel,Kalashagram,Urtsun,Jinjiret"
   },
   {
-    "name": "Mednyj Aleut ",
+    "name": "Mednyj Aleut",
     "i": 2243,
     "min": 4,
     "max": 11,
@@ -5843,7 +5843,7 @@ window.AsiaNameBases = [
     "b": "Nikolskoye,Preobrazhenskoye,Bering,Commander,Petropavlovsk,Ust-Kamchatskiy,Ossora,Palana,Tilichiki,Tigil,Esso,Milkovo"
   },
   {
-    "name": "Mon ",
+    "name": "Mon",
     "i": 2244,
     "min": 4,
     "max": 11,
@@ -5852,7 +5852,7 @@ window.AsiaNameBases = [
     "b": "Mawlamyine,Thaton,Mudon,Ye,Kyaikmaraw,Mottama,Paung,Chaungzon,Bilin,Kyaikto,Sangkhla Buri,Ban Pong"
   },
   {
-    "name": "Mon (native speakers) ",
+    "name": "Mon (native speakers)",
     "i": 2245,
     "min": 4,
     "max": 11,
@@ -5861,7 +5861,7 @@ window.AsiaNameBases = [
     "b": "Mawlamyine,Thaton,Mudon,Ye,Mottama,Kyaikmaraw,Chaungzon,Paung,Bilin,Kyaikto,Kamawet,Kalwi"
   },
   {
-    "name": "Lakkia-Kam-Sui ",
+    "name": "Lakkia-Kam-Sui",
     "i": 2246,
     "min": 4,
     "max": 11,
@@ -5870,7 +5870,7 @@ window.AsiaNameBases = [
     "b": "Jinxiu,Rongjiang,Liping,Congjiang,Sandu,Libo,Dushan,Pingle,Mengshan,Zhaoping,Lipu,Gongcheng"
   },
   {
-    "name": "Tai Hongjin ",
+    "name": "Tai Hongjin",
     "i": 2247,
     "min": 4,
     "max": 11,
@@ -5879,7 +5879,7 @@ window.AsiaNameBases = [
     "b": "Yuanjiang,Xinping,Mojiang,Puer,Jiangcheng,Honghe,Shiping,Jianshui,Yuanyang,Luchun,Jinping,Maguan"
   },
   {
-    "name": "Qabiao ",
+    "name": "Qabiao",
     "i": 2248,
     "min": 4,
     "max": 11,
@@ -5888,7 +5888,7 @@ window.AsiaNameBases = [
     "b": "Ha Giang,Dong Van,Meo Vac,Yen Minh,Quan Ba,Malipo,Maguan,Wenshan,Funing,Guangnan,Xichou,Hekou"
   },
   {
-    "name": "Koho ",
+    "name": "Koho",
     "i": 2251,
     "min": 4,
     "max": 11,
@@ -5897,7 +5897,7 @@ window.AsiaNameBases = [
     "b": "Di Linh,Bao Loc,Lam Dong,Da Lat,Duc Trong,Lac Duong,Don Duong,Lam Ha,Cat Tien,Da Huoai,Da Teh,Dam Rong"
   },
   {
-    "name": "Kombaiâ€“Wanggom ",
+    "name": "Kombai–“Wanggom",
     "i": 2254,
     "min": 4,
     "max": 11,
@@ -5906,7 +5906,7 @@ window.AsiaNameBases = [
     "b": "Tanah Merah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Asmat"
   },
   {
-    "name": "Konda ",
+    "name": "Konda",
     "i": 2259,
     "min": 4,
     "max": 11,
@@ -5915,7 +5915,7 @@ window.AsiaNameBases = [
     "b": "Araku,Paderu,Gudem Kotha Veedhi,Chintapalli,Munchingiputtu,Ananthagiri,Dumbriguda,Hukumpeta,Pedabayalu,Koyyuru,Rajavommangi,Addateegala"
   },
   {
-    "name": "Konkani ",
+    "name": "Konkani",
     "i": 2262,
     "min": 4,
     "max": 11,
@@ -5924,7 +5924,7 @@ window.AsiaNameBases = [
     "b": "Panaji,Margao,Vasco da Gama,Mapusa,Ponda,Bicholim,Curchorem,Pernem,Canacona,Karwar,Mangalore,Honnavar"
   },
   {
-    "name": "Konyak ",
+    "name": "Konyak",
     "i": 2263,
     "min": 4,
     "max": 11,
@@ -5933,7 +5933,7 @@ window.AsiaNameBases = [
     "b": "Mon,Tizit,Naganimora,Phomching,Chen,Aboi,Tobu,Mopungchuket,Wakching,Longwa,Shiyong,Totok"
   },
   {
-    "name": "Kor ",
+    "name": "Kor",
     "i": 2265,
     "min": 4,
     "max": 11,
@@ -5942,7 +5942,7 @@ window.AsiaNameBases = [
     "b": "Tra Bong,Tay Tra,Son Ha,Son Tay,Minh Long,Nghia Hanh,Ba To,Duc Pho,Mo Duc,Tu Nghia,Son Tinh,Binh Son"
   },
   {
-    "name": "Korlai Portuguese Creole ",
+    "name": "Korlai Portuguese Creole",
     "i": 2267,
     "min": 4,
     "max": 11,
@@ -5951,7 +5951,7 @@ window.AsiaNameBases = [
     "b": "Korlai,Revdanda,Chaul,Alibag,Roha,Murud,Shrivardhan,Mangaon,Mahad,Pen,Nagothane,Poladpur"
   },
   {
-    "name": "Koro ",
+    "name": "Koro",
     "i": 2268,
     "min": 4,
     "max": 11,
@@ -5960,7 +5960,7 @@ window.AsiaNameBases = [
     "b": "Seppa,Chayang Tajo,Bameng,Lada,Pipu,Pakke-Kessang,Sangdupota,Sagalee,Leporiang,Toru,Mengio,Parang"
   },
   {
-    "name": "Koya ",
+    "name": "Koya",
     "i": 2274,
     "min": 4,
     "max": 11,
@@ -5969,7 +5969,7 @@ window.AsiaNameBases = [
     "b": "Khammam,Bhadrachalam,Paloncha,Kothagudem,Yellandu,Manuguru,Burgampahad,Pinapaka,Cherla,Dummagudem,Venkatapuram,Wazeed"
   },
   {
-    "name": "Kumhali ",
+    "name": "Kumhali",
     "i": 2277,
     "min": 4,
     "max": 11,
@@ -5978,7 +5978,7 @@ window.AsiaNameBases = [
     "b": "Rama,Krishna,Sita,Hari,Gopal,Devi,Maya,Bishnu,Shiva,Lakshmi"
   },
   {
-    "name": "Kristang ",
+    "name": "Kristang",
     "i": 2283,
     "min": 4,
     "max": 11,
@@ -5987,7 +5987,7 @@ window.AsiaNameBases = [
     "b": "Malacca,Hilir,Klebang,Limbongan,Ujong Pasir,Padang Temu,Semabok,Alai,Telok Mas,Pernu,Duyong,Kandang"
   },
   {
-    "name": "Kuki Chin ",
+    "name": "Kuki Chin",
     "i": 2286,
     "min": 4,
     "max": 11,
@@ -5996,7 +5996,7 @@ window.AsiaNameBases = [
     "b": "Hakha,Falam,Tedim,Mindat,Matupi,Kanpetlet,Paletwa,Tonzang,Thantlang,Rezua,Lailenpi,Sami"
   },
   {
-    "name": "Kuki Chin Naga ",
+    "name": "Kuki Chin Naga",
     "i": 2287,
     "min": 4,
     "max": 11,
@@ -6005,7 +6005,7 @@ window.AsiaNameBases = [
     "b": "Kohima,Dimapur,Mokokchung,Tuensang,Wokha,Zunheboto,Phek,Mon,Peren,Kiphire,Longleng,Noklak"
   },
   {
-    "name": "Kumhali (alias) ",
+    "name": "Kumhali (alias)",
     "i": 2292,
     "min": 4,
     "max": 11,
@@ -6014,7 +6014,7 @@ window.AsiaNameBases = [
     "b": "Gorkha,Tanahun,Nawalparasi,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Parbat,Baglung,Myagdi"
   },
   {
-    "name": "Kunduvadi ",
+    "name": "Kunduvadi",
     "i": 2294,
     "min": 4,
     "max": 11,
@@ -6023,7 +6023,7 @@ window.AsiaNameBases = [
     "b": "Wayanad,Kalpetta,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Panamaram,Pozhuthana,Muttil,Kaniyambetta,Padinjarathara,Thariyode"
   },
   {
-    "name": "Kuril Ainu ",
+    "name": "Kuril Ainu",
     "i": 2295,
     "min": 4,
     "max": 11,
@@ -6032,7 +6032,7 @@ window.AsiaNameBases = [
     "b": "Sapporo,Hakodate,Kushiro,Obihiro,Asahikawa,Tomakomai,Kitami,Muroran,Kitahiroshima,Ebetsu"
   },
   {
-    "name": "Kuril dialects ",
+    "name": "Kuril dialects",
     "i": 2296,
     "min": 4,
     "max": 11,
@@ -6041,7 +6041,7 @@ window.AsiaNameBases = [
     "b": "Sapporo,Obihiro,Kushiro,Hakodate,Asahikawa,Tomakomai,Chitose,Kitami,Muroran,Iwamizawa"
   },
   {
-    "name": "Kurukh ",
+    "name": "Kurukh",
     "i": 2297,
     "min": 4,
     "max": 11,
@@ -6050,7 +6050,7 @@ window.AsiaNameBases = [
     "b": "Ranchi,Gumla,Simdega,Khunti,Lohardaga,Chaibasa,Saraikela,Jamshedpur,Dhanbad,Bokaro"
   },
   {
-    "name": "Kuvi ",
+    "name": "Kuvi",
     "i": 2298,
     "min": 4,
     "max": 11,
@@ -6059,7 +6059,7 @@ window.AsiaNameBases = [
     "b": "Koraput,Rayagada,Kalahandi,Nabarangpur,Malkangiri,Kandhamal,Gajapati,Ganjam,Nayagarh,Khordha"
   },
   {
-    "name": "Parkari Koli ",
+    "name": "Parkari Koli",
     "i": 2300,
     "min": 4,
     "max": 11,
@@ -6068,7 +6068,7 @@ window.AsiaNameBases = [
     "b": "Taveta,Mombasa,Malindi,Lamu,Kilifi,Voi,Mwatate,Wundanyi,Mariakani,Taita"
   },
   {
-    "name": "Kwoma-Manambu Pidgin ",
+    "name": "Kwoma-Manambu Pidgin",
     "i": 2301,
     "min": 4,
     "max": 11,
@@ -6077,16 +6077,16 @@ window.AsiaNameBases = [
     "b": "Ambunti,Wewak,Maprik,Yangoru,Boram,Bitapaka,Madang,Rabaul,Kokopo,Lae"
   },
   {
-    "name": "Kui (India) ",
+    "name": "Kui (India)",
     "i": 2302,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bakel,Mbao,SalÃ©mata,KÃ©dougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
+    "b": "Bakel,Mbao,Salémata,Kédougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
   },
   {
-    "name": "Kyakhta Russian-Chinese Pidgin ",
+    "name": "Kyakhta Russian-Chinese Pidgin",
     "i": 2304,
     "min": 4,
     "max": 11,
@@ -6095,7 +6095,7 @@ window.AsiaNameBases = [
     "b": "Kyakhta,Ulan-Ude,Chita,Irkutsk,Ulaanbaatar,Erlian,Troitskosavsk,Selenginsk,Gusinoozersk,Zakamensk"
   },
   {
-    "name": "Kyowa-go ",
+    "name": "Kyowa-go",
     "i": 2305,
     "min": 4,
     "max": 11,
@@ -6104,7 +6104,7 @@ window.AsiaNameBases = [
     "b": "Sapporo,Obihiro,Asahikawa,Kushiro,Kitami,Hakodate,Tomakomai,Chitose,Muroran,Kitahiroshima"
   },
   {
-    "name": "Kewat ",
+    "name": "Kewat",
     "i": 2306,
     "min": 4,
     "max": 11,
@@ -6113,7 +6113,7 @@ window.AsiaNameBases = [
     "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Kisii,Meru,Thika,Nyeri"
   },
   {
-    "name": "Kurmali ",
+    "name": "Kurmali",
     "i": 2307,
     "min": 4,
     "max": 11,
@@ -6122,7 +6122,7 @@ window.AsiaNameBases = [
     "b": "Makurdi,Abakaliki,Enugu,Owerri,Awka,Umuahia,Oturkpo,Nsukka,Okigwe,Onitsha"
   },
   {
-    "name": "Lachi ",
+    "name": "Lachi",
     "i": 2312,
     "min": 4,
     "max": 11,
@@ -6131,7 +6131,7 @@ window.AsiaNameBases = [
     "b": "Ha Giang,Dien Bien Phu,Lao Cai,Lai Chau,Son La,Yen Bai,Bac Kan,Cao Bang,Tuyen Quang,Lang Son"
   },
   {
-    "name": "Laha ",
+    "name": "Laha",
     "i": 2313,
     "min": 4,
     "max": 11,
@@ -6140,7 +6140,7 @@ window.AsiaNameBases = [
     "b": "Ha Giang,Bac Kan,Cao Bang,Tuyen Quang,Lang Son,Yen Bai,Thai Nguyen,Vinh Phuc,Phu Tho,Bac Giang"
   },
   {
-    "name": "Lahu ",
+    "name": "Lahu",
     "i": 2314,
     "min": 4,
     "max": 11,
@@ -6149,7 +6149,7 @@ window.AsiaNameBases = [
     "b": "Chiang Mai,Mae Hong Son,Chiang Rai,Tak,Kamphaeng Phet,Lampang,Lamphun,Nan,Phayao,Phrae"
   },
   {
-    "name": "Lanping Bai dialect ",
+    "name": "Lanping Bai dialect",
     "i": 2319,
     "min": 4,
     "max": 11,
@@ -6158,7 +6158,7 @@ window.AsiaNameBases = [
     "b": "Dali,Lijiang,Shangri-La,Xiaguan,Heqing,Jianchuan,Eryuan,Yunlong,Binchuan,Midu"
   },
   {
-    "name": "Tsotsitaal And Camtho Aka Iscamtho ",
+    "name": "Tsotsitaal And Camtho Aka Iscamtho",
     "i": 2340,
     "min": 4,
     "max": 11,
@@ -6167,7 +6167,7 @@ window.AsiaNameBases = [
     "b": "Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Tshwane,Johannesburg"
   },
   {
-    "name": "Kurambhag Paharia ",
+    "name": "Kurambhag Paharia",
     "i": 2343,
     "min": 4,
     "max": 11,
@@ -6176,7 +6176,7 @@ window.AsiaNameBases = [
     "b": "Bankura,Purulia,Midnapore,Bardhaman,Birbhum,Howrah,Kolkata"
   },
   {
-    "name": "Kurichiya ",
+    "name": "Kurichiya",
     "i": 2344,
     "min": 4,
     "max": 11,
@@ -6185,7 +6185,7 @@ window.AsiaNameBases = [
     "b": "Wayanad,Kalpetta,Sultan Bathery,Mananthavady,Vythiri,Panamaram"
   },
   {
-    "name": "Azd Dialect ",
+    "name": "Azd Dialect",
     "i": 2345,
     "min": 4,
     "max": 11,
@@ -6194,7 +6194,7 @@ window.AsiaNameBases = [
     "b": "-Muscat,Salalah,Sohar,Seeb,Bawshar,Sur,Ibra,Rustaq"
   },
   {
-    "name": "Ejtun Dialect ",
+    "name": "Ejtun Dialect",
     "i": 2346,
     "min": 4,
     "max": 11,
@@ -6203,7 +6203,7 @@ window.AsiaNameBases = [
     "b": "-Mosta,Victoria,Nadur,Qormi,Å»ebbuÄ¡,XagÄ§ra,Safi,Kirkop"
   },
   {
-    "name": "Aqc ",
+    "name": "Aqc",
     "i": 2358,
     "min": 4,
     "max": 11,
@@ -6212,7 +6212,7 @@ window.AsiaNameBases = [
     "b": "Giza,Helwan,Alexandria,Assiut,Sohag,Qena,Luxor,Aswan"
   },
   {
-    "name": "Afro Seminole Creole ",
+    "name": "Afro Seminole Creole",
     "i": 2362,
     "min": 4,
     "max": 11,
@@ -6221,7 +6221,7 @@ window.AsiaNameBases = [
     "b": "Brackettville,Nacimiento de los Negros,Big Cypress,Hollywood,Seminole"
   },
   {
-    "name": "Lao ",
+    "name": "Lao",
     "i": 2370,
     "min": 4,
     "max": 11,
@@ -6230,7 +6230,7 @@ window.AsiaNameBases = [
     "b": "Vientiane,Luang Prabang,Pakse,Savannakhet,Thakhek,Xam Neua,Phonsavan,Muang Xay,Sayaboury,Paksan"
   },
   {
-    "name": "Kva ",
+    "name": "Kva",
     "i": 2384,
     "min": 4,
     "max": 11,
@@ -6239,7 +6239,7 @@ window.AsiaNameBases = [
     "b": "Tiruchirappalli,Pudukkottai,Thanjavur,Nagapattinam,Karaikudi,Sivaganga"
   },
   {
-    "name": "Kvx ",
+    "name": "Kvx",
     "i": 2385,
     "min": 4,
     "max": 11,
@@ -6248,7 +6248,7 @@ window.AsiaNameBases = [
     "b": "Taveta,Mombasa,Malindi,Lamu,Kilifi,Voi,Mwatate,Wundanyi,Mariakani,Taita"
   },
   {
-    "name": "Kwoma Manambu Pidgin ",
+    "name": "Kwoma Manambu Pidgin",
     "i": 2386,
     "min": 4,
     "max": 11,
@@ -6257,16 +6257,16 @@ window.AsiaNameBases = [
     "b": "Ambunti,Wewak,Maprik,Yangoru,Boram,Bitapaka,Madang,Rabaul,Kokopo,Lae"
   },
   {
-    "name": "Kxu ",
+    "name": "Kxu",
     "i": 2387,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bakel,Mbao,SalÃ©mata,KÃ©dougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
+    "b": "Bakel,Mbao,Salémata,Kédougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
   },
   {
-    "name": "Kyakhta Russian Chinese Pidgin ",
+    "name": "Kyakhta Russian Chinese Pidgin",
     "i": 2389,
     "min": 4,
     "max": 11,
@@ -6275,7 +6275,7 @@ window.AsiaNameBases = [
     "b": "Kyakhta,Ulan-Ude,Chita,Irkutsk,Ulaanbaatar,Erlian,Troitskosavsk,Selenginsk,Gusinoozersk,Zakamensk"
   },
   {
-    "name": "Kyowa Go ",
+    "name": "Kyowa Go",
     "i": 2390,
     "min": 4,
     "max": 11,
@@ -6284,7 +6284,7 @@ window.AsiaNameBases = [
     "b": "Sapporo,Obihiro,Asahikawa,Kushiro,Kitami,Hakodate,Tomakomai,Chitose,Muroran,Kitahiroshima"
   },
   {
-    "name": "Kyv ",
+    "name": "Kyv",
     "i": 2391,
     "min": 4,
     "max": 11,
@@ -6293,7 +6293,7 @@ window.AsiaNameBases = [
     "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Kisii,Meru,Thika,Nyeri"
   },
   {
-    "name": "Kyw ",
+    "name": "Kyw",
     "i": 2392,
     "min": 4,
     "max": 11,
@@ -6302,7 +6302,7 @@ window.AsiaNameBases = [
     "b": "Makurdi,Abakaliki,Enugu,Owerri,Awka,Umuahia,Oturkpo,Nsukka,Okigwe,Onitsha"
   },
   {
-    "name": "Kzi ",
+    "name": "Kzi",
     "i": 2393,
     "min": 4,
     "max": 11,
@@ -6311,7 +6311,7 @@ window.AsiaNameBases = [
     "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
   },
   {
-    "name": "Laven ",
+    "name": "Laven",
     "i": 2408,
     "min": 4,
     "max": 11,
@@ -6320,7 +6320,7 @@ window.AsiaNameBases = [
     "b": "Paksong,Sekong,Xekong,Attapeu,Champasak,Salavan"
   },
   {
-    "name": "Lavi ",
+    "name": "Lavi",
     "i": 2409,
     "min": 4,
     "max": 11,
@@ -6329,7 +6329,7 @@ window.AsiaNameBases = [
     "b": "Pakse,Salavan,Sekong,Champasak,Xekong,Attapeu,Saravan"
   },
   {
-    "name": "Ladakhi ",
+    "name": "Ladakhi",
     "i": 2413,
     "min": 4,
     "max": 11,
@@ -6338,7 +6338,7 @@ window.AsiaNameBases = [
     "b": "Yalta,Sevastopol,Simferopol,Feodosia,Evpatoria,Kerch"
   },
   {
-    "name": "Lepcha ",
+    "name": "Lepcha",
     "i": 2417,
     "min": 4,
     "max": 11,
@@ -6347,7 +6347,7 @@ window.AsiaNameBases = [
     "b": "Gangtok,Namchi,Gyalshing,Mangan,Jorethang,Singtam,Rangpo,Pakyong,Soreng,Yuksom,Pelling,Ravangla,Legship,Dentam,Kalimpong,Kurseong,Darjeeling,Pedong,Lava,Rishop,Lachung,Lachen,Yumthang,Thangu,Chungthang,Dzongu,Lingmoo,Dikchu,Makha,Tingvong"
   },
   {
-    "name": "Levantine Arabic ",
+    "name": "Levantine Arabic",
     "i": 2418,
     "min": 4,
     "max": 11,
@@ -6356,7 +6356,7 @@ window.AsiaNameBases = [
     "b": "Damascus,Aleppo,Homs,Latakia,Hama,Deir ez-Zor,Daraa,Qamishli,Beirut,Tripoli,Sidon,Tyre,Baalbek,Zahle,Jounieh,Byblos,Amman,Zarqa,Irbid,Aqaba,Karak,Madaba,Jerash,Mafraq,Nablus,Hebron,Ramallah,Bethlehem,Jericho,Jenin"
   },
   {
-    "name": "Lhomi ",
+    "name": "Lhomi",
     "i": 2420,
     "min": 4,
     "max": 11,
@@ -6365,7 +6365,7 @@ window.AsiaNameBases = [
     "b": "Kampong Cham,Kratie,Stung Treng,Ratanakiri,Mondulkiri"
   },
   {
-    "name": "Lhokpu ",
+    "name": "Lhokpu",
     "i": 2421,
     "min": 4,
     "max": 11,
@@ -6374,7 +6374,7 @@ window.AsiaNameBases = [
     "b": "Thimphu,Paro,Punakha,Wangdue Phodrang,Trongsa,Bumthang"
   },
   {
-    "name": "Lingling ",
+    "name": "Lingling",
     "i": 2427,
     "min": 4,
     "max": 11,
@@ -6383,16 +6383,16 @@ window.AsiaNameBases = [
     "b": "Daming,Guiping,Qinzhou,Yulin,Beihai,Fangchenggang"
   },
   {
-    "name": "Lisu ",
+    "name": "Lisu",
     "i": 2428,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,DÃªqÃªn,Deqin"
+    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Dªqªn,Deqin"
   },
   {
-    "name": "Yakkha ",
+    "name": "Yakkha",
     "i": 2430,
     "min": 4,
     "max": 11,
@@ -6401,13 +6401,13 @@ window.AsiaNameBases = [
     "b": "Lubumbashi,Kolwezi,Likasi,Kamina,Mwene-Ditu,Kananga"
   },
   {
-    "name": "Yerukala ",
+    "name": "Yerukala",
     "i": 2432,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kurru, Kulavatha, Yerukala, Andhra, Telangana, Rayalaseema, Vizianagaram, Srikakulam, Eturnagaram, Basha, Fortune, Soothsayer, Koravan, Kaikadi, Burgula, Kancheepuram"
+    "b": "Kurru,Kulavatha,Yerukala,Andhra,Telangana,Rayalaseema,Vizianagaram,Srikakulam,Eturnagaram,Basha,Fortune,Soothsayer,Koravan,Kaikadi,Burgula,Kancheepuram"
   },
   {
     "name": "Levantine",
@@ -6812,7 +6812,7 @@ window.AsiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,KÃ¶neÃ¼rgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
+    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
   },
   {
     "name": "Sindhi",
@@ -6860,16 +6860,16 @@ window.AsiaNameBases = [
     "b": "Wenshan,Guangnan,Funing,Maguan,Malipo,Qiubei,Pu'er,Xichou,Huize,Zhaotong,Baise,Tianlin,Longlin,Jingxi,Tiandong,Guanyang,Longsheng,Rongjiang,Sanjiang,Longzhou"
   },
   {
-    "name": "Nar-Phu (dedicated)",
+    "name": "Nar-Phu",
     "i": 2686,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Athpahariya (dedicated)",
+    "name": "Athpahariya",
     "i": 2699,
     "min": 4,
     "max": 11,
@@ -6878,7 +6878,7 @@ window.AsiaNameBases = [
     "b": "Dhankuta,Mahalaxmi,Pakhribas,Sangurigadhi,Chaubise,Shahidbhumi,Chhathar,Kantipur,Belhara"
   },
   {
-    "name": "Bantawa (dedicated)",
+    "name": "Bantawa",
     "i": 2700,
     "min": 4,
     "max": 11,
@@ -6887,7 +6887,7 @@ window.AsiaNameBases = [
     "b": "Bhojpur,Darjeeling,Gangtok,Sikkim,Kalimpong,Mangan,Diktel,Rhenock,Kurseong"
   },
   {
-    "name": "Bahing/Bayung (dedicated)",
+    "name": "Bahing/Bayung",
     "i": 2701,
     "min": 4,
     "max": 11,
@@ -6896,34 +6896,34 @@ window.AsiaNameBases = [
     "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa"
   },
   {
-    "name": "Awadhi (dedicated)",
+    "name": "Awadhi",
     "i": 2735,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Be-Jizhao (dedicated)",
+    "name": "Be-Jizhao",
     "i": 2739,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Be (dedicated)",
+    "name": "Be",
     "i": 2740,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Beary (dedicated)",
+    "name": "Beary",
     "i": 2742,
     "min": 4,
     "max": 11,
@@ -6959,7 +6959,7 @@ window.AsiaNameBases = [
     "b": "Malacca,George Town,Butterworth,Alor Setar,Ipoh,Johor Bahru,Pasir Gudang,Shah Alam,Petaling Jaya,Klang,Seremban,Melaka City,Kota Bharu,Kuala Terengganu,Kuantan,Kuching,Miri,Sibu,Kota Kinabalu,Sandakan,Tawau,Jakarta,Surabaya,Bandung,Semarang,Medan,Palembang"
   },
   {
-    "name": "Japanese Bamboo English (dedicated)",
+    "name": "Japanese Bamboo English",
     "i": 20006,
     "min": 4,
     "max": 12,
@@ -6968,7 +6968,7 @@ window.AsiaNameBases = [
     "b": "Tokyo,Yokohama,Osaka,Kobe,Kyoto,Sendai,Sapporo,Fukuoka,Hakata,Okinawa,Itazuke,Tachikawa,Yokosuka,Misawa,Atsugi,Iwakuni,Camp Zama,Camp Foster,Camp Kinser,Camp Hansen"
   },
   {
-    "name": "Japanese Pidgin English (dedicated)",
+    "name": "Japanese Pidgin English",
     "i": 20007,
     "min": 4,
     "max": 12,
@@ -6977,7 +6977,7 @@ window.AsiaNameBases = [
     "b": "Tokyo,Osaka,Nagoya,Fukuoka,Naha,Yokohama,Sasebo,Kure,Maizuru,Shimonoseki,Otaru,Niigata,Kitakyushu,Chiba,Saitama,Kawasaki,Shizuoka,Okayama,Hiroshima,Kanazawa,Nagasaki"
   },
   {
-    "name": "Korean Bamboo English (dedicated)",
+    "name": "Korean Bamboo English",
     "i": 20008,
     "min": 4,
     "max": 12,
@@ -6986,7 +6986,7 @@ window.AsiaNameBases = [
     "b": "Seoul,Incheon,Busan,Daegu,Daejeon,Gwangju,Uijeongbu,Camp Humphreys,Osan,Camp Casey,Camp Red Cloud,Yongsan,Jeju City,Ulsan,Pohang,Cheonan,Jeonju,Suwon,Gimhae,Changwon"
   },
   {
-    "name": "Thai Pidgin English (dedicated)",
+    "name": "Thai Pidgin English",
     "i": 20019,
     "min": 4,
     "max": 12,
@@ -6995,7 +6995,7 @@ window.AsiaNameBases = [
     "b": "Bangkok,Chiang Mai,Phuket,Pattaya,Chiang Rai,Khon Kaen,Udon Thani,Nakhon Ratchasima,Hua Hin,Rayong,Hat Yai,Krabi,Surat Thani,Nakhon Si Thammarat,Samut Prakan,Samut Sakhon,Ayutthaya,Trat,Mae Sot,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba"
   },
   {
-    "name": "Hindi (dedicated)",
+    "name": "Hindi",
     "i": 20026,
     "min": 4,
     "max": 12,
@@ -7004,7 +7004,7 @@ window.AsiaNameBases = [
     "b": "Delhi,New Delhi,Lucknow,Kanpur,Varanasi,Prayagraj,Agra,Meerut,Noida,Ghaziabad,Faridabad,Gurugram,Jaipur,Jodhpur,Udaipur,Bhopal,Indore,Gwalior,Jabalpur,Patna,Gaya,Muzaffarpur,Dehradun,Haridwar,Chandigarh"
   },
   {
-    "name": "Minkin (dedicated)",
+    "name": "Minkin",
     "i": 20030,
     "min": 4,
     "max": 12,
@@ -7013,34 +7013,34 @@ window.AsiaNameBases = [
     "b": "Burketown,Gulf of Carpentaria,Leichhardt River,Gregory River,Nicholson River,Doomadgee,Mornington Island,Karumba,Normanton,Cloncurry,Mount Isa,Boodjamulla,Lawn Hill"
   },
   {
-    "name": "Djinang (dedicated)",
+    "name": "Djinang",
     "i": 20061,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "Djinang,North East Arnhem,Galiwin'ku,Elcho Island,Yirrkala,Nhulunbuy,Arnhem Land,Arafura Sea,Blyth River,Maningrida,New Place"
   },
   {
-    "name": "Allar (dedicated)",
+    "name": "Allar",
     "i": 20075,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Alchuka (dedicated)",
+    "name": "Alchuka",
     "i": 20090,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Indonesian (dedicated)",
+    "name": "Indonesian",
     "i": 20091,
     "min": 4,
     "max": 12,
@@ -7049,7 +7049,7 @@ window.AsiaNameBases = [
     "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Depok,Bekasi,Tangerang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Pontianak,Banjarmasin,Samarinda,Balikpapan,Cirebon,Tasikmalaya,Mataram,Bengkulu"
   },
   {
-    "name": "Tagalog (dedicated)",
+    "name": "Tagalog",
     "i": 20092,
     "min": 4,
     "max": 12,
@@ -7058,16 +7058,16 @@ window.AsiaNameBases = [
     "b": "Manila,Quezon City,Caloocan,Makati,Pasig,Taguig,Marikina,Antipolo,Cavite,Laguna,Batangas,Bulacan,Davao,Cebu City,Zamboanga,Tacloban,Bacólod,Iloilo City,Naga City,General Santos,Olongapo,Legazpi,San Fernando"
   },
   {
-    "name": "Filipino (dedicated)",
+    "name": "Filipino",
     "i": 20093,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Philippines,Luzon,Visayas,Mindanao,Cebu,Davao,Iloilo,Baguio,Bacolod,Cagayan de Oro,Zamboanga,General Santos,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "Philippines,Luzon,Visayas,Mindanao,Cebu,Davao,Iloilo,Baguio,Bacolod,Cagayan de Oro,Zamboanga,General Santos,New Place"
   },
   {
-    "name": "Cantonese (dedicated)",
+    "name": "Cantonese",
     "i": 20097,
     "min": 4,
     "max": 12,
@@ -7076,7 +7076,7 @@ window.AsiaNameBases = [
     "b": "Guangzhou,Hong Kong,Macau,Foshan,Zhongshan,Zhuhai,Shenzhen,Dongguan,Jiangmen,Huizhou,Taishan,Zhaoqing,Shanwei,Qingyuan,Kaiqing,Yunfu,Maoming,Yangjiang,Chaozhou,Meizhou,Heyuan,Hezhou,Hechi"
   },
   {
-    "name": "Japanese (dedicated)",
+    "name": "Japanese",
     "i": 20099,
     "min": 4,
     "max": 12,
@@ -7085,25 +7085,25 @@ window.AsiaNameBases = [
     "b": "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Sapporo,Fukuoka,Kobe,Hiroshima,Sendai,Kagoshima,Naha,Kawasaki,Chiba,Kitakyushu,Okayama,Hamamatsu,Sagamihara,Akita,Shizuoka,Matsuyama,Nagasaki,Takamatsu"
   },
   {
-    "name": "Ambonese Malay (dedicated)",
+    "name": "Ambonese Malay",
     "i": 20100,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Andaman Creole Hindi (dedicated)",
+    "name": "Andaman Creole Hindi",
     "i": 20102,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Javanese (dedicated)",
+    "name": "Javanese",
     "i": 20114,
     "min": 4,
     "max": 11,
@@ -7112,211 +7112,211 @@ window.AsiaNameBases = [
     "b": "Jakarta,Bandung,Semarang,Yogyakarta,Surabaya,Malang,Salatiga,Cirebon,Pekalongan,Tegal,Purwokerto,Clungup"
   },
   {
-    "name": "Madurese (dedicated)",
+    "name": "Madurese",
     "i": 20115,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Baba Malay (dedicated)",
+    "name": "Baba Malay",
     "i": 20119,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Balinese Malay (dedicated)",
+    "name": "Balinese Malay",
     "i": 20120,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Banda Malay (dedicated)",
+    "name": "Banda Malay",
     "i": 20121,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Betawi (dedicated)",
+    "name": "Betawi",
     "i": 20122,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Dili Malay (dedicated)",
+    "name": "Dili Malay",
     "i": 20123,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Angami-Pochuri (dedicated)",
+    "name": "Angami-Pochuri",
     "i": 20134,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Ani (dedicated)",
+    "name": "Ani",
     "i": 20135,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Ano (dedicated)",
+    "name": "Ano",
     "i": 20137,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Anp (dedicated)",
+    "name": "Anp",
     "i": 20138,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Anca (dedicated)",
+    "name": "Anca",
     "i": 20139,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Ancient Egyptian (dedicated)",
+    "name": "Ancient Egyptian",
     "i": 20140,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Ancient North Arabian (dedicated)",
+    "name": "Ancient North Arabian",
     "i": 20141,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Cao Lan (dedicated)",
+    "name": "Cao Lan",
     "i": 20142,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Cao Miao (dedicated)",
+    "name": "Cao Miao",
     "i": 20143,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Car Nicobarese (dedicated)",
+    "name": "Car Nicobarese",
     "i": 20146,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Andalusi Arabic (dedicated)",
+    "name": "Andalusi Arabic",
     "i": 20147,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Anq (dedicated)",
+    "name": "Anq",
     "i": 20148,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Ao (dedicated)",
+    "name": "Ao",
     "i": 20149,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Aot (dedicated)",
+    "name": "Aot",
     "i": 20150,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Aoz (dedicated)",
+    "name": "Aoz",
     "i": 20151,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Attapady Kurumba (dedicated)",
+    "name": "Attapady Kurumba",
     "i": 20152,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Ava (dedicated)",
+    "name": "Ava",
     "i": 20155,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Andalusi Arabic (setBases aux)",
@@ -7325,7 +7325,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Anq (setBases aux)",
@@ -7334,7 +7334,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Ao (setBases aux)",
@@ -7343,7 +7343,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Aot (setBases aux)",
@@ -7352,7 +7352,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Aoz (setBases aux)",
@@ -7361,61 +7361,61 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Bimbashi Arabic (dedicated)",
+    "name": "Bimbashi Arabic",
     "i": 20167,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Bongor Arabic (dedicated)",
+    "name": "Bongor Arabic",
     "i": 20168,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Maridi Arabic (dedicated)",
+    "name": "Maridi Arabic",
     "i": 20171,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Turku Arabic (dedicated)",
+    "name": "Turku Arabic",
     "i": 20173,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Juba Arabic (dedicated)",
+    "name": "Juba Arabic",
     "i": 20174,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "San Andres-Providencia Creole (dedicated)",
+    "name": "San Andres-Providencia Creole",
     "i": 20182,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Daman (setBases aux)",
@@ -7424,7 +7424,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Daman and Diu Portuguese Creole (setBases aux)",
@@ -7442,7 +7442,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Portugis (setBases aux)",
@@ -7451,7 +7451,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "São Nicolau Creole (setBases aux)",
@@ -7460,7 +7460,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "São Vicente Creole (setBases aux)",
@@ -7469,7 +7469,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Santo Antão Creole (setBases aux)",
@@ -7478,7 +7478,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Indo-Portuguese (setBases aux)",
@@ -7487,7 +7487,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
     "name": "Indo-Portuguese Creole of Bombay (setBases aux)",
@@ -7499,43 +7499,43 @@ window.AsiaNameBases = [
     "b": "São Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goiânia"
   },
   {
-    "name": "Chagossian Creole (dedicated)",
+    "name": "Chagossian Creole",
     "i": 20203,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Dominican Creole French (dedicated)",
+    "name": "Dominican Creole French",
     "i": 20204,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "French Guianese Creole (dedicated)",
+    "name": "French Guianese Creole",
     "i": 20205,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Grenadian Creole French (dedicated)",
+    "name": "Grenadian Creole French",
     "i": 20206,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Karipúna French Creole (dedicated)",
+    "name": "Karipúna French Creole",
     "i": 20207,
     "min": 4,
     "max": 11,
@@ -7544,43 +7544,43 @@ window.AsiaNameBases = [
     "b": "Kingston,Spanish Town,Portmore,Montego Bay,Mandeville,May Pen,Old Harbour,Savanna-la-Mar,Half Way Tree,Santa Cruz,Bog Walk,Ocho Rios"
   },
   {
-    "name": "Louisiana Creole (dedicated)",
+    "name": "Louisiana Creole",
     "i": 20208,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Réunion Creole (dedicated)",
+    "name": "Réunion Creole",
     "i": 20209,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Rodriguan Creole (dedicated)",
+    "name": "Rodriguan Creole",
     "i": 20210,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Saint Lucian Creole (dedicated)",
+    "name": "Saint Lucian Creole",
     "i": 20211,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place,New Place"
+    "b": "New Place"
   },
   {
-    "name": "Tây Bồi Pidgin French (dedicated)",
+    "name": "Tây Bồi Pidgin French",
     "i": 1486,
     "min": 4,
     "max": 11,
@@ -7589,7 +7589,7 @@ window.AsiaNameBases = [
     "b": "Tây Bồi,Hanoi,Hai Phong,Haiphong,Vietnam,Hanoi Tonkin,Indochina,Red River"
   },
   {
-    "name": "Kiautschou Pidgin German (dedicated)",
+    "name": "Kiautschou Pidgin German",
     "i": 2161,
     "min": 4,
     "max": 11,

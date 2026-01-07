@@ -26,7 +26,7 @@ window.SouthAmericaNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Porto Velho,Ji-Paranâ”œÃ­,Cacoal,Vilhena,Guajarâ”œÃ­-Mirim,Ariquemes,Humaitâ”œÃ­,Altamira,Santarâ”œâŒm,Itaituba,Marabâ”œÃ­,Araguaâ”œÂ¡na,Palmas,Aracaju,Propriâ”œÃ­,Penedo,Paulo Afonso,Delmiro Gouveia"
+    "b": "Porto Velho,Ji-Paraná,Cacoal,Vilhena,Guajará-Mirim,Ariquemes,Humaitá,Altamira,Santarém,Itaituba,Marabá,Araguaína,Palmas,Aracaju,Propriá,Penedo,Paulo Afonso,Delmiro Gouveia"
   },
   {
     "name": "Seri",
@@ -35,7 +35,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
+    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peñasco,Bahía La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahía San Carlos,Ortiz,Pesqueira"
   },
   {
     "name": "Huave",
@@ -71,7 +71,7 @@ window.SouthAmericaNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Boa Vista,Caracaraâ”œÂ¡,Mucajaâ”œÂ¡,Alto Alegre,Pacaraima,San Gabriel da Cachoeira,Barcelos,Santa Isabel do Rio Negro,Maroa,La Esmeralda,Santa Elena de Uairâ”œâŒn,Maturacâ”œÃ­,Auaris,Surucucu,Parima,Catrimani,Demini,Mucajai,Tepequâ”œâŒm"
+    "b": "Boa Vista,Caracaraí,Mucajaí,Alto Alegre,Pacaraima,San Gabriel da Cachoeira,Barcelos,Santa Isabel do Rio Negro,Maroa,La Esmeralda,Santa Elena de Uairén,Maturacá,Auaris,Surucucu,Parima,Catrimani,Demini,Mucajai,Tepequém"
   },
   {
     "name": "Tsimané",
@@ -80,7 +80,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui,Tsimane,San Ignacio,Santa Ana,Riberalta,GuayaramerÃ­n,Trinidad,Magdalena"
+    "b": "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui,Tsimane,San Ignacio,Santa Ana,Riberalta,Guayaramerín,Trinidad,Magdalena"
   },
   {
     "name": "Cavineña",
@@ -116,7 +116,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sucre,La Paz,Cochabamba,Santa Cruz,Oruro,PotosÃ­,Tarija"
+    "b": "Sucre,La Paz,Cochabamba,Santa Cruz,Oruro,Potosí,Tarija"
   },
   {
     "name": "Brazilian Portuguese",
@@ -125,7 +125,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "SÃ£o Paulo,Rio de Janeiro,Belo Horizonte,BrasÃ­lia,Salvador,Fortaleza,Recife,Porto Alegre"
+    "b": "São Paulo,Rio de Janeiro,Belo Horizonte,Brasília,Salvador,Fortaleza,Recife,Porto Alegre"
   },
   {
     "name": "Chilean Spanish",
@@ -143,7 +143,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "LÃ©on,Valladolid,Zamora,Burgos,Palencia,Oviedo,GijÃ³n,Santander,Madrid"
+    "b": "León,Valladolid,Zamora,Burgos,Palencia,Oviedo,Gijón,Santander,Madrid"
   },
   {
     "name": "Colombian Spanish",
@@ -152,7 +152,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "BogotÃ¡,MedellÃ­n,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,CÃºcuta,IbaguÃ©,Villavicencio"
+    "b": "Bogotá,Medellín,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,Cúcuta,Ibagué,Villavicencio"
   },
   {
     "name": "Mineiro",
@@ -161,7 +161,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "pt-BR",
     "m": 0,
-    "b": "Belo Horizonte,UberlÃ¢ndia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,DivinÃ³polis,Varginha,Ouro Preto"
+    "b": "Belo Horizonte,Uberlândia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinópolis,Varginha,Ouro Preto"
   },
   {
     "name": "Chuj",
@@ -170,7 +170,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "may-GT",
     "m": 0,
-    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
+    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo Ixtatán,San Sebastián Coatán,Nentón,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel Acatán,Concepción Huista"
   },
   {
     "name": "Ch'orti'",
@@ -188,7 +188,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "es-PY",
     "m": 0,
-    "b": "AsunciÃ³n,Ciudad del Este,San Lorenzo,Luque,CapiatÃ¡,LambarÃ©,Fernando de la Mora,Limpio,Ã‘emby,Mariano Roque Alonso,Pedro Juan Caballero,EncarnaciÃ³n,CaaguazÃº"
+    "b": "Asunción,Ciudad del Este,San Lorenzo,Luque,Capiatá,Lambaré,Fernando de la Mora,Limpio,Ñemby,Mariano Roque Alonso,Pedro Juan Caballero,Encarnación,Caaguazú"
   },
   {
     "name": "Peruvian Spanish",
@@ -236,7 +236,7 @@ window.SouthAmericaNameBases = [
     "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Ciudad Guayana,Barcelona,Maturin,Turmero,Ciudad Bolivar,San Cristobal,El Tigre"
   },
   {
-    "name": "Inuktitut ",
+    "name": "Inuktitut",
     "i": 728,
     "min": 4,
     "max": 11,
@@ -245,22 +245,22 @@ window.SouthAmericaNameBases = [
     "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Panniqtuuq,Igloolik,Pond Inlet,Cape Dorset"
   },
   {
-    "name": "Achagua ",
+    "name": "Achagua",
     "i": 744,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,PopayÃ¡n"
+    "b": "Puerto Gaitán,Puerto Carreño,Inírida,Mitú,San José del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,Popayán"
   },
   {
-    "name": "Awakatek ",
+    "name": "Awakatek",
     "i": 75,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
+    "b": "Aguacatán,Huehuetenango,Chiantla,Malacatancito,Cuilco,Nentón,San Sebastián Coatán,Soloma,Ixtahuacán,Todos Santos Cuchumatán,San Juan Ixcoy,San Miguel Acatán"
   },
   {
     "name": "Movima",
@@ -269,7 +269,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Ana del Yacuma,Yacuma,Yacuma River,Mamorâ”œâŒ,Mamorâ”œâŒ River,Trinidad,Miraflores,Navidad,San Lorenzo,Bella Flor,Buen Dâ”œÂ¡a,Ipimo,18 de Noviembre,20 de Enero,Carmen de Iruyaâ”œâ–’ez,Carnavales"
+    "b": "Santa Ana del Yacuma,Yacuma,Yacuma River,Mamoré,Mamoré River,Trinidad,Miraflores,Navidad,San Lorenzo,Bella Flor,Buen Día,Ipimo,18 de Noviembre,20 de Enero,Carmen de Iruyaíez,Carnavales"
   },
   {
     "name": "Nonuya",
@@ -278,7 +278,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Putumayo,Iâ”œÂºâ”œÃ­,Pasto,Santo Antâ”œâ”¤nio do Iâ”œÂºâ”œÃ­,Guamuâ”œâŒs,Guamuâ”œâŒs River,San Miguel,Gâ”œâ•eppâ”œÂ¡,Cumpuya,Algodâ”œâ”‚n,Igara Paranâ”œÃ­,Cara Paranâ”œÃ­,Puretâ”œÂ¬,Cotuhâ”œâŒ,Solimâ”œâ•¡es,Japurâ”œÃ­"
+    "b": "Putumayo,Inírida,Pasto,Santo Antônio do Inírida,Guamués,Guamués River,San Miguel,Güeppí,Cumpuya,Algodón,Igara Paraná,Cará Paraná,Puré,Cotuhé,Solimões,Japurá"
   },
   {
     "name": "Ocaina",
@@ -287,7 +287,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dukaiya,Ibo'tsa,Dyo'xaiya,Ivo'tsa,Ocaina,Amazonas,Loreto,Putumayo,Cotuhâ”œâŒ,Yaguas,Cumpuya,Paranâ”œÃ­ de Jacurapâ”œÃ­,Koihoma,Orejone,Coeruna,Andoquero"
+    "b": "Dukaiya,Ibo'tsa,Dyo'xaiya,Ivo'tsa,Ocaina,Amazonas,Loreto,Putumayo,Cotuhé,Yaguas,Cumpuya,Paraná de Jacurapí,Koihoma,Orejone,Coeruna,Andoquero"
   },
   {
     "name": "Tacana",
@@ -305,7 +305,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Teutila,Tepeuxila,San Lucas Ojitlâ”œÃ­n,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlâ”œÃ­n,Caâ”œâ–’ada Region,Caâ”œâ–’ada,Ojitlâ”œÃ­n,Cuicatec,Mixtecan"
+    "b": "Teutila,Tepeuxila,San Lucas Ojitlán,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlán,Cañada Region,Cañada,Ojitlán,Cuicatec,Mixtecan"
   },
   {
     "name": "Guna",
@@ -323,7 +323,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sierra Nevada de Santa Marta,La Guajira,Magdalena,Cesar,Santa Marta,Rancherâ”œÂ¡a,Don Diego,Palomino,Buritaca,Guachaca,Ciâ”œâŒnaga Grande de Santa Marta,Ariguanâ”œÂ¡,Fundaciâ”œâ”‚n,Frâ”œÂ¡o,Aracataca"
+    "b": "Sierra Nevada de Santa Marta,La Guajira,Magdalena,Cesar,Santa Marta,Ranchería,Don Diego,Palomino,Buritaca,Guachaca,Ciénaga Grande de Santa Marta,Ariguaní,Fundación,Frío,Aracataca"
   },
   {
     "name": "Ahtna",
@@ -413,7 +413,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yopal,Inirida,MitÃº,SanJoseDelGuaviare,PuertoCarreÃ±o,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
+    "b": "Yopal,Inirida,Mitú,SanJoseDelGuaviare,PuertoCarreño,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
   },
   {
     "name": "Muinane",
@@ -422,7 +422,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cali,Buga,Buenaventura,Palmira,TuluÃ¡,JamundÃ­,Cartago,Guadalajara,Pasto,Ipiales"
+    "b": "Cali,Buga,Buenaventura,Palmira,Tuluá,Jamundí,Cartago,Guadalajara,Pasto,Ipiales"
   },
   {
     "name": "Nukak",
@@ -512,7 +512,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Villa Montes,Nuestra SeÃ±ora de la Paz,Tartagal,General Pinedo,EmbarcaciÃ³n,San RamÃ³n,Yacuiba,Bermejo,Monteagudo,Rivadavia"
+    "b": "Villa Montes,Nuestra Señora de la Paz,Tartagal,General Pinedo,Embarcación,San Ramón,Yacuiba,Bermejo,Monteagudo,Rivadavia"
   },
   {
     "name": "Wichí Lhamtés Vejoz",
@@ -521,7 +521,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Salta,Tartagal,General GÃ¼emes,OrÃ¡n,Tapir,San RamÃ³n de la Nueva OrÃ¡n,EmbarcaciÃ³n,Las Lajitas,Villa del RÃ­o Grande"
+    "b": "Salta,Tartagal,General Güemes,Orán,Tapir,San Ramón de la Nueva Orán,Embarcación,Las Lajitas,Villa del Río Grande"
   },
   {
     "name": "Paipai",
@@ -530,7 +530,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Catarina,Quitovac,San Miguel,MisiÃ³n San Javier,Chihuahua,San Ignacio,Terry,Cucurpe,Caborca,Pitiquito"
+    "b": "Santa Catarina,Quitovac,San Miguel,Misión San Javier,Chihuahua,San Ignacio,Terry,Cucurpe,Caborca,Pitiquito"
   },
   {
     "name": "Tiriyó",
@@ -539,7 +539,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "TiriyÃ³,MaturucÃ¡,Mucambira,SÃ£o Francisco,ParanÃ¡,MaringÃ¡,Araruna,Cascavel,Foz do IguaÃ§u,Campo MourÃ£o"
+    "b": "Tiriyó,Maturucá,Mucambira,São Francisco,Paraná,Maringá,Araruna,Cascavel,Foz do Iguaçu,Campo Mourão"
   },
   {
     "name": "Palikur",
@@ -548,7 +548,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "SiklÃ³s,PÃ©cs,Barcs,SzigetvÃ¡r,KaposvÃ¡r,SomogyvÃ¡r,BÃ³ly,Nagykanizsa,CsurgÃ³,Sellye,SzentgotthÃ¡rd"
+    "b": "Siklós,Pécs,Barcs,Szigetvár,Kaposvár,Somogyvár,Bóly,Nagykanizsa,Csurgó,Sellye,Szentgotthárd"
   },
   {
     "name": "Crow",
@@ -566,7 +566,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "SÃ£o Felix do Araguaia,SÃ£o Miguel do Araguaia,Barra do GarÃ§as,Cana Brava,Ãgua Boa,Mato Grosso,Rio Verde,Alto GarÃ§as"
+    "b": "São Félix do Araguaia,São Miguel do Araguaia,Barra do Garças,Cana Brava,Água Boa,Mato Grosso,Rio Verde,Alto Garças"
   },
   {
     "name": "Xerente",
@@ -575,7 +575,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tocantins,Palmas,Gurupi,ParaÃ­so do Tocantins,AraguaÃ­na,Porto Nacional,Pedro Afonso,Miranorte,TocantÃ­nia,DianÃ³polis"
+    "b": "Tocantins,Palmas,Gurupi,Paraíso do Tocantins,Araguaína,Porto Nacional,Pedro Afonso,Miranorte,Tocantínia,Dianópolis"
   },
   {
     "name": "Guajajara",
@@ -611,7 +611,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Maria IxcatlÃ¡n,AsunciÃ³n NochixtlÃ¡n,Tilantongo,YanhuitlÃ¡n,Teposcolula,Chalcatongo de Hidalgo,Tlaxiaco,Huajuapan de LeÃ³n,Santiago Juxtlahuaca,San Pedro TidaÃ¡,San Pedro Amuzgos,San Miguel Huautla"
+    "b": "Santa Maria Ixcatlán,Asunción Nochixtlán,Tilantongo,Yanhuitlán,Teposcolula,Chalcatongo de Hidalgo,Tlaxiaco,Huajuapan de León,Santiago Juxtlahuaca,San Pedro Tidaá,San Pedro Amuzgos,San Miguel Huautla"
   },
   {
     "name": "Q'anjob'al",
@@ -620,7 +620,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel AcatÃ¡n,San Rafael Petzal,Santiago Chimaltenango,AguacatÃ¡n"
+    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel Acatán,San Rafael Petzal,Santiago Chimaltenango,Aguacatán"
   },
   {
     "name": "Eyak",
@@ -704,16 +704,16 @@ window.SouthAmericaNameBases = [
     "b": "Northway,Tetlin,Tok,Eagle,Chicken,Dawson City,Whitehorse,Carcross,Teslin,Atlin,Skagway,Haines Junction"
   },
   {
-    "name": "Kiliwa ",
+    "name": "Kiliwa",
     "i": 1201,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kiliwa,Mexicali,San Felipe,Ensenada,Tijuana,Rosarito,La MisiÃ³n,Valle de Trinidad,CataviÃ±a,San Borja,Santa Rosalita,Guerrero Negro"
+    "b": "Kiliwa,Mexicali,San Felipe,Ensenada,Tijuana,Rosarito,La Misión,Valle de Trinidad,Cataviña,San Borja,Santa Rosalita,Guerrero Negro"
   },
   {
-    "name": "Mojave ",
+    "name": "Mojave",
     "i": 1202,
     "min": 4,
     "max": 11,
@@ -722,7 +722,7 @@ window.SouthAmericaNameBases = [
     "b": "Mojave,Needles,Bullhead City,Lake Havasu City,Laughlin,Kingman,Fort Mohave,Oatman,Golden Shores,Parker,Topock,Poston"
   },
   {
-    "name": "Quechan ",
+    "name": "Quechan",
     "i": 1203,
     "min": 4,
     "max": 11,
@@ -731,7 +731,7 @@ window.SouthAmericaNameBases = [
     "b": "Yuma,Somerton,San Luis,Wellton,Winterhaven,Fort Yuma,Quartermaster Landing,Pilot Knob,Madrid,Ogilby,Dateland,Arlington"
   },
   {
-    "name": "Yavapai ",
+    "name": "Yavapai",
     "i": 1206,
     "min": 4,
     "max": 11,
@@ -740,7 +740,7 @@ window.SouthAmericaNameBases = [
     "b": "Yavapai-Prescott,Clarkdale,Camp Verde,Cottonwood,Sedona,Mingus Mountain,Jerome,Flagstaff,Williams,Seligman,Williams Junction,Ash Fork"
   },
   {
-    "name": "Mohawk ",
+    "name": "Mohawk",
     "i": 1207,
     "min": 4,
     "max": 11,
@@ -749,7 +749,7 @@ window.SouthAmericaNameBases = [
     "b": "Akwesasne,Kahnawake,Kanesatake,Oneida,Onondaga,Syracuse,Saint Regis,Caughnawaga,Albany,Troy,Schenectady,Saratoga Springs"
   },
   {
-    "name": "Cayuga ",
+    "name": "Cayuga",
     "i": 1208,
     "min": 4,
     "max": 11,
@@ -758,7 +758,7 @@ window.SouthAmericaNameBases = [
     "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
   },
   {
-    "name": "Oneida ",
+    "name": "Oneida",
     "i": 1209,
     "min": 4,
     "max": 11,
@@ -767,16 +767,16 @@ window.SouthAmericaNameBases = [
     "b": "Oneida,Green Bay,Syracuse,Rome,Oneida Castle,Vernon,Stockbridge,Albany,De Pere,Appleton,Shawano,Manitowoc"
   },
   {
-    "name": "Onondaga ",
+    "name": "Onondaga",
     "i": 1210,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,DeWitt,Fayetteville,Manlius,Baldwinsville"
+    "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,Fayetteville,Manlius,Baldwinsville"
   },
   {
-    "name": "Seneca ",
+    "name": "Seneca",
     "i": 1211,
     "min": 4,
     "max": 11,
@@ -785,7 +785,7 @@ window.SouthAmericaNameBases = [
     "b": "Seneca,Buffalo,Rochester,Syracuse,Salamanca,Batavia,Jamestown,Olean,Albany,Tonawanda,Lockport,Canandaigua"
   },
   {
-    "name": "Tuscarora ",
+    "name": "Tuscarora",
     "i": 1212,
     "min": 4,
     "max": 11,
@@ -818,7 +818,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Desano,VaupÃ©s,TiquiÃ©,Papuri,UaupÃ©s,Yauarete,Querari,Miriti,Taraira,Pira-Parana,Apaporis,Yapura"
+    "b": "Desano,Vaupés,Tiquié,Papuri,Uaupés,Yauarete,Querari,Miriti,Taraira,Pira-Parana,Apaporis,Yapurá"
   },
   {
     "name": "Itene",
@@ -827,7 +827,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Itene,Beni,MamorÃ©,Madre de Dios,Orton,Puerto Rico,Reyes,Rurrenabaque,San Borja,San Ignacio,Yacuma,Itonomas"
+    "b": "Itene,Beni,Mamoré,Madre de Dios,Orton,Puerto Rico,Reyes,Rurrenabaque,San Borja,San Ignacio,Yacuma,Itonomas"
   },
   {
     "name": "Hupdë",
@@ -1838,15 +1838,6 @@ window.SouthAmericaNameBases = [
     "b": "São Paulo,Campinas,São Bernardo do Campo,Santo André,São José dos Campos,Sorocaba,Santos,Osasco,Ribeirão Preto,São José do Rio Preto"
   },
   {
-    "name": "Língua Geral Paulista",
-    "i": 14013,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "São Paulo,Campinas,São Bernardo do Campo,Santo André,São José dos Campos,Sorocaba,Santos,Osasco,Ribeirão Preto,São José do Rio Preto"
-  },
-  {
     "name": "Latin American Spanish",
     "i": 14025,
     "min": 4,
@@ -1901,7 +1892,7 @@ window.SouthAmericaNameBases = [
     "b": "Paramaribo,Nieuw Nickerie,Lelydorp,Moengo,Albina,Nieuw Amsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Meerzorg"
   },
   {
-    "name": "Pintupi (dedicated)",
+    "name": "Pintupi",
     "i": 20077,
     "min": 4,
     "max": 12,
@@ -1910,7 +1901,7 @@ window.SouthAmericaNameBases = [
     "b": "Pintupi,Western Desert,Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Gibson Desert,Great Sandy Desert,Lajamanu,Yarumanin,Watiwa,Kukatja,Walmajarri,Pitjantjatjara,Yankunytjatjara,Ngaanyatjarra,Wirrnga,Nyangatjatjara,Wirrngamana,Wikchantya"
   },
   {
-    "name": "Cofán (dedicated)",
+    "name": "Cofán",
     "i": 20189,
     "min": 4,
     "max": 11,
@@ -1919,7 +1910,7 @@ window.SouthAmericaNameBases = [
     "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
   },
   {
-    "name": "Fulnio (dedicated)",
+    "name": "Fulnio",
     "i": 20190,
     "min": 4,
     "max": 11,
@@ -1928,7 +1919,7 @@ window.SouthAmericaNameBases = [
     "b": "Fulni-ô,Águas Belas,Palmares,Pedra,Ouricuri,Caruaru,Recife,Pernambuco,Brazil"
   },
   {
-    "name": "Itonama (dedicated)",
+    "name": "Itonama",
     "i": 20191,
     "min": 4,
     "max": 11,
@@ -1937,7 +1928,7 @@ window.SouthAmericaNameBases = [
     "b": "Itonama,Magdalena,Beni,Mamoré,Trinidad,Santa Cruz de la Sierra,Bolivia,Ben River,Amazon Basin,Mamoré River"
   },
   {
-    "name": "Leco (dedicated)",
+    "name": "Leco",
     "i": 20192,
     "min": 4,
     "max": 11,
@@ -1946,7 +1937,7 @@ window.SouthAmericaNameBases = [
     "b": "Leco,Apolo,Apolo Province,La Paz,Bolivia,Amazon Basin,Madre de Dios,Peru,Beni River"
   },
   {
-    "name": "Nivaclé (dedicated)",
+    "name": "Nivaclé",
     "i": 20193,
     "min": 4,
     "max": 11,

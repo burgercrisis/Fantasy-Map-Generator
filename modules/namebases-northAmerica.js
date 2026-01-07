@@ -44,7 +44,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Braga,GuimarÃ£es,Viseu,Porto,Celorico da Beira,Vila Real"
+    "b": "Braga,Guimarães,Viseu,Porto,Celorico da Beira,Vila Real"
   },
   {
     "name": "Chiac",
@@ -53,7 +53,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Madrid,Toledo,Ãvila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
+    "b": "Madrid,Toledo,Ávila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
   },
   {
     "name": "Chipilo",
@@ -107,7 +107,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "ro-NC",
     "m": 0,
-    "b": "NoumÃ©a,PaÃ¯ta,Mont-Dore,DumbÃ©a,Tchamba,Lifou,Thio,Bourail,YatÃ©"
+    "b": "Nouméa,Païta,Mont-Dore,Dumbéa,Tchamba,Lifou,Thio,Bourail,Yaté"
   },
   {
     "name": "Mexican Spanish",
@@ -116,7 +116,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "es-MX",
     "m": 0,
-    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad JuÃ¡rez,Tijuana,LeÃ³n,Veracruz,CancÃºn,MazatlÃ¡n"
+    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad Juárez,Tijuana,León,Veracruz,Cancún,Mazatlán"
   },
   {
     "name": "Missouri French",
@@ -134,7 +134,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "ro-US",
     "m": 0,
-    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,RiviÃ¨re-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
+    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,Rivière-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
   },
   {
     "name": "New England French",
@@ -143,7 +143,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "ro-US",
     "m": 0,
-    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-FranÃ§ois,Saint-Dominique"
+    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-François,Saint-Dominique"
   },
   {
     "name": "Newfoundland French",
@@ -152,7 +152,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "ro-CA",
     "m": 0,
-    "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-Ã -Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
+    "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-à-Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
   },
   {
     "name": "Quebec French",
@@ -161,19 +161,19 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "ro-CA",
     "m": 0,
-    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-RiviÃ¨res,Saguenay,LÃ©vis"
+    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-Rivières,Saguenay,Lévis"
   },
   {
-    "name": "Cree ",
+    "name": "Cree",
     "i": 2069,
     "min": 4,
     "max": 11,
     "d": "cr-CA",
     "m": 0,
-    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,OujÃ©-Bougoumou"
+    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,Oujé-Bougoumou"
   },
   {
-    "name": "Ojibwe ",
+    "name": "Ojibwe",
     "i": 2070,
     "min": 4,
     "max": 11,
@@ -182,7 +182,7 @@ window.NorthAmericaNameBases = [
     "b": "Kenora,Thunder Bay,Sault Ste. Marie,Red Lake,Fort Frances,Dryden,Sioux Lookout,Rainy River,Nipigon,Geraldton,Manitouwadge,Marathon"
   },
   {
-    "name": "Yupik ",
+    "name": "Yupik",
     "i": 2071,
     "min": 4,
     "max": 11,
@@ -191,7 +191,7 @@ window.NorthAmericaNameBases = [
     "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga"
   },
   {
-    "name": "Cherokee ",
+    "name": "Cherokee",
     "i": 2073,
     "min": 4,
     "max": 11,
@@ -200,7 +200,7 @@ window.NorthAmericaNameBases = [
     "b": "Tahlequah,Park Hill,Stilwell,Sallisaw,Gore,Vian,Muldrow,Westville,Hulbert,Locust Grove,Salina,Jay"
   },
   {
-    "name": "Apache ",
+    "name": "Apache",
     "i": 2074,
     "min": 4,
     "max": 11,
@@ -209,7 +209,7 @@ window.NorthAmericaNameBases = [
     "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,Seven Mile,McNary,East Fork,Cedar Creek"
   },
   {
-    "name": "Athabaskan ",
+    "name": "Athabaskan",
     "i": 2075,
     "min": 4,
     "max": 11,
@@ -218,7 +218,7 @@ window.NorthAmericaNameBases = [
     "b": "Fairbanks,Fort Yukon,Galena,Nenana,Tanana,Huslia,Hughes,Ruby,Koyukuk,Nulato,Kaltag,Shageluk"
   },
   {
-    "name": "Navajo ",
+    "name": "Navajo",
     "i": 2076,
     "min": 4,
     "max": 11,
@@ -227,16 +227,16 @@ window.NorthAmericaNameBases = [
     "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Gallup,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms"
   },
   {
-    "name": "Achi ",
+    "name": "Achi",
     "i": 2223,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,SalamÃ¡,San JerÃ³nimo,PurulhÃ¡,Tactic,TamahÃº,TucurÃº,SenahÃº,CahabÃ³n,LanquÃ­n"
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Tactic,Tamahú,Tucurú,Senahú,Cahabón,Lanquín"
   },
   {
-    "name": "Afro-Seminole Creole ",
+    "name": "Afro-Seminole Creole",
     "i": 74,
     "min": 4,
     "max": 11,
@@ -245,7 +245,7 @@ window.NorthAmericaNameBases = [
     "b": "Brackettville,Nacimiento de los Negros,Del Rio,Eagle Pass,Uvalde,San Antonio,Houston,Galveston,New Orleans,Mobile,Pensacola,St. Augustine"
   },
   {
-    "name": "American Finnish ",
+    "name": "American Finnish",
     "i": 2570,
     "min": 4,
     "max": 11,
@@ -254,22 +254,22 @@ window.NorthAmericaNameBases = [
     "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely"
   },
   {
-    "name": "Sierra Popoluca ",
+    "name": "Sierra Popoluca",
     "i": 5828,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,CuitlapÃ¡n,Popoloca,Tlacolula,MazatlÃ¡n"
+    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,Cuitlapán,Popoloca,Tlacolula,Mazatlán"
   },
   {
-    "name": "Tlapanec (MeÎ©â‚§Ã®phaa) ",
+    "name": "Tlapanec (Me'phaa)",
     "i": 5829,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Malinaltepec,Tlapa,Ocotalpan,ZapotitlÃ¡n,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
+    "b": "Malinaltepec,Tlapa,Ocotalpan,Zapotitlán,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
   },
   {
     "name": "Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x) ",
@@ -281,7 +281,7 @@ window.NorthAmericaNameBases = [
     "b": "Prince Rupert,Hazelton,Kitimat,Terrace,Kitselas,Klemtu,Kitsumkalum,Lax Kw'ala,Metlakatla,Hartley Bay"
   },
   {
-    "name": "Dakota ",
+    "name": "Dakota",
     "i": 20508,
     "min": 4,
     "max": 11,
@@ -290,34 +290,34 @@ window.NorthAmericaNameBases = [
     "b": "Pierre,Rapid City,Sioux Falls,Fargo,Chamberlain,Yankton,Grand Forks,Valley City,Bismarck,Mandan,McLaughlin"
   },
   {
-    "name": "Tabasco Zoque ",
+    "name": "Tabasco Zoque",
     "i": 20525,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Villahermosa,CÃ¡rdenas,Comalcalco,Macuspana,Teapa,Jalpa de MÃ©ndez,CunduacÃ¡n,ParaÃ­so,Jonuta,BalancÃ¡n,Tenosique,Emiliano Zapata"
+    "b": "Villahermosa,Cárdenas,Comalcalco,Macuspana,Teapa,Jalpa de Méndez,Cunduacán,Paraíso,Jonuta,Balancán,Tenosique,Emiliano Zapata"
   },
   {
-    "name": "Chochotec ",
+    "name": "Chochotec",
     "i": 20526,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,SaÃ­n Alto,General Enrique Estrada"
+    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,Saín Alto,General Enrique Estrada"
   },
   {
-    "name": "Cauque Mayan language ",
+    "name": "Cauque Mayan language",
     "i": 1187,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santiago AtitlÃ¡n,San Lucas TolimÃ¡n,San Antonio PalopÃ³,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina PalopÃ³,Santa Cruz La Laguna,Panajachel,Patulul,San JosÃ© ChacayÃ¡,Santa Clara La Laguna"
+    "b": "Santiago Atitlán,San Lucas Tolimán,San Antonio Palopó,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina Palopó,Santa Cruz La Laguna,Panajachel,Patulul,San José Chacayá,Santa Clara La Laguna"
   },
   {
-    "name": "Mobilian Jargon ",
+    "name": "Mobilian Jargon",
     "i": 1188,
     "min": 4,
     "max": 11,
@@ -326,7 +326,7 @@ window.NorthAmericaNameBases = [
     "b": "Mobile,Pascagoula,Biloxi,Gulfport,Biloxi Bay,Mobile Bay,Tombigbee River,Pascagoula River,Alabama River,Pearl River,Choctawhatchee,Mobile County"
   },
   {
-    "name": "Pidgin Delaware ",
+    "name": "Pidgin Delaware",
     "i": 1189,
     "min": 4,
     "max": 11,
@@ -344,16 +344,16 @@ window.NorthAmericaNameBases = [
     "b": "Rae Behchoko,WhatÃ¬,GamÃ¨tÃ¬,WekweÃ¨tÃ¬,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
   },
   {
-    "name": "Cochimâ”œÂ¡ ",
+    "name": "Cochimí",
     "i": 1204,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "CochimÃ­,MulegÃ©,Loreto,Santa RosalÃ­a,Guerrero Negro,VizcaÃ­no,ComondÃº,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
+    "b": "Cochimí,Mulegé,Loreto,Santa Rosalía,Guerrero Negro,Vizcaíno,Comondú,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
   },
   {
-    "name": "Cocopa ",
+    "name": "Cocopa",
     "i": 1205,
     "min": 4,
     "max": 11,
@@ -362,7 +362,7 @@ window.NorthAmericaNameBases = [
     "b": "Cocopa,Somerton,Yuma,San Luis,Winterhaven,Fort Yuma,Wellton,Quartermaster Landing,Madrid,Ogilby,Imperial,El Centro"
   },
   {
-    "name": "Turks and Caicos Creole ",
+    "name": "Turks and Caicos Creole",
     "i": 1293,
     "min": 4,
     "max": 11,
@@ -371,7 +371,7 @@ window.NorthAmericaNameBases = [
     "b": "Providenciales,Cockburn Town,Grand Turk,South Caicos,Middle Caicos,North Caicos,East Caicos,Salt Cay,Turks,Caicos,Parrot Cay,Pine Cay"
   },
   {
-    "name": "Vincentian Creole ",
+    "name": "Vincentian Creole",
     "i": 1294,
     "min": 4,
     "max": 11,
@@ -380,7 +380,7 @@ window.NorthAmericaNameBases = [
     "b": "Kingstown,Georgetown,Byera Village,Layou,Barrouallie,Chateaubelair,Biabou,Owia,Calliaqua,Stubbs,Villa,Prospect"
   },
   {
-    "name": "Virgin Islands Creole ",
+    "name": "Virgin Islands Creole",
     "i": 1295,
     "min": 4,
     "max": 11,
@@ -389,7 +389,7 @@ window.NorthAmericaNameBases = [
     "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo"
   },
   {
-    "name": "Jamaican Maroon Creole ",
+    "name": "Jamaican Maroon Creole",
     "i": 1296,
     "min": 4,
     "max": 11,
@@ -398,7 +398,7 @@ window.NorthAmericaNameBases = [
     "b": "Accompong,Moore Town,Scotts Hall,Charles Town,Flagstaff,Barbecue Bottom,Trelawny,Portland,St James,Westmoreland,St Ann,St Mary"
   },
   {
-    "name": "Aleut ",
+    "name": "Aleut",
     "i": 1304,
     "min": 4,
     "max": 11,
@@ -407,7 +407,7 @@ window.NorthAmericaNameBases = [
     "b": "Unalaska,Dutch Harbor,Kodiak,Aleutian Islands,Adak,Atka,Umak,Cold Bay,Sand Point,King Cove,Port Heiden,Umnak"
   },
   {
-    "name": "Broken Oghibbeway ",
+    "name": "Broken Oghibbeway",
     "i": 1379,
     "min": 4,
     "max": 11,
@@ -416,7 +416,7 @@ window.NorthAmericaNameBases = [
     "b": "Broken Oghibbeway,Mississauga,Toronto,Lake Ontario,Niagara,Ontario,Canada,Iroquois,Huron"
   },
   {
-    "name": "Broken Slavey ",
+    "name": "Broken Slavey",
     "i": 1380,
     "min": 4,
     "max": 11,
@@ -425,16 +425,16 @@ window.NorthAmericaNameBases = [
     "b": "Broken Slavey,Fort Simpson,Fort Liard,Fort Nelson,Inuvik,Tuktoyaktuk,Mackenzie,Yellowknife,Northwest Territories,Canada"
   },
   {
-    "name": "Chol ",
+    "name": "Chol",
     "i": 1412,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chol,TumbalÃ¡,Palenque,CatazajÃ¡,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
+    "b": "Chol,Tumbalá,Palenque,Catazajá,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
   },
   {
-    "name": "Cahuilla ",
+    "name": "Cahuilla",
     "i": 1417,
     "min": 4,
     "max": 11,
@@ -443,16 +443,16 @@ window.NorthAmericaNameBases = [
     "b": "Cahuilla,Palm Springs,Palm Desert,Indio,Coachella,Desert Hot Springs,Thousand Palms,Rancho Mirage,California"
   },
   {
-    "name": "Huastec ",
+    "name": "Huastec",
     "i": 1428,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,PÃ¡nuco,Tantoyuca,Tamazunchale"
+    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,Pánuco,Tantoyuca,Tamazunchale"
   },
   {
-    "name": "Central Zapotec ",
+    "name": "Central Zapotec",
     "i": 1492,
     "min": 4,
     "max": 11,
@@ -461,16 +461,16 @@ window.NorthAmericaNameBases = [
     "b": "Zapotec,Oaxaca City,Mitla,Tlacolula,Zaachila,Mexico,Chiapas,Oaxaca,Mesoamerica"
   },
   {
-    "name": "Mazatec ",
+    "name": "Mazatec",
     "i": 1499,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mazatec,Huatla de JimÃ©nez,TeotitlÃ¡n de Flores MagÃ³n,MazatlÃ¡n,Ayautla,Oaxaca,Mexico"
+    "b": "Mazatec,Huatla de Jiménez,Teotitlán de Flores Magón,Mazatlán,Ayautla,Oaxaca,Mexico"
   },
   {
-    "name": "Chinook Jargon ",
+    "name": "Chinook Jargon",
     "i": 1592,
     "min": 4,
     "max": 11,
@@ -479,7 +479,7 @@ window.NorthAmericaNameBases = [
     "b": "Chinook Jargon,Portland,Seattle,Vancouver,Columbia River,Oregon,Washington,USA,Canada,Pacific Northwest"
   },
   {
-    "name": "Cholti Classic ",
+    "name": "Cholti Classic",
     "i": 1595,
     "min": 4,
     "max": 11,
@@ -488,7 +488,7 @@ window.NorthAmericaNameBases = [
     "b": "Cholti,Mixco,Antigua Guatemala,Guatemala,Central America,Maya Region"
   },
   {
-    "name": "Chorotega ",
+    "name": "Chorotega",
     "i": 1604,
     "min": 4,
     "max": 11,
@@ -497,25 +497,25 @@ window.NorthAmericaNameBases = [
     "b": "Chorotega,Guancaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua"
   },
   {
-    "name": "Chicomuceltec ",
+    "name": "Chicomuceltec",
     "i": 1630,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "ComitÃ¡n,Trinitaria,La Independencia,Francisco LeÃ³n,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
+    "b": "Comitán,Trinitaria,La Independencia,Francisco León,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
   },
   {
-    "name": "Coxoh ",
+    "name": "Coxoh",
     "i": 1640,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Coxoh,ComitÃ¡n,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
+    "b": "Coxoh,Comitán,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
   },
   {
-    "name": "Eskimo Trade Jargon ",
+    "name": "Eskimo Trade Jargon",
     "i": 1774,
     "min": 4,
     "max": 11,
@@ -524,7 +524,7 @@ window.NorthAmericaNameBases = [
     "b": "Eskimo Trade Jargon,Arctic,Inuit,Greenland,Canada,North America,Alaska"
   },
   {
-    "name": "Greenlandic ",
+    "name": "Greenlandic",
     "i": 1829,
     "min": 4,
     "max": 11,
@@ -533,7 +533,7 @@ window.NorthAmericaNameBases = [
     "b": "Nuuk,Ilulissat,Sisimiut,Qaqortoq,Aasiaat,Maniitsoq,Paamiut,Greenland,Kalaallit Nunaat,Arctic"
   },
   {
-    "name": "Gullah ",
+    "name": "Gullah",
     "i": 1879,
     "min": 4,
     "max": 11,
@@ -542,34 +542,34 @@ window.NorthAmericaNameBases = [
     "b": "Charleston,Savannah,Sea Islands,Georgetown,Beaufort,Low Country,Gullah Geechee,USA,Southeast Coast"
   },
   {
-    "name": "Isthmus Zapotec ",
+    "name": "Isthmus Zapotec",
     "i": 1984,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "JuchitÃ¡n de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,UniÃ³n Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
+    "b": "Juchitán de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,Unión Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
   },
   {
-    "name": "Itza ",
+    "name": "Itza",
     "i": 1988,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San JosÃ©,Flores,Santa Elena,San Benito,SayaxchÃ©,PoptÃºn,Melchor de Mencos,La Libertad,Dolores,San Luis"
+    "b": "San José,Flores,Santa Elena,San Benito,Sayaxché,Poptún,Melchor de Mencos,La Libertad,Dolores,San Luis"
   },
   {
-    "name": "Akatek ",
+    "name": "Akatek",
     "i": 2249,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Miguel AcatÃ¡n,San Rafael La Independencia,NentÃ³n,Jacaltenango,ConcepciÃ³n Huista,PetatÃ¡n,San Antonio Huista,Santa Ana Huista,Todos Santos CuchumatÃ¡n,Huehuetenango,Chiantla,AguacatÃ¡n"
+    "b": "San Miguel Acatán,San Rafael La Independencia,Nentón,Jacaltenango,Concepción Huista,Petatán,San Antonio Huista,Santa Ana Huista,Todos Santos Cuchumatán,Huehuetenango,Chiantla,Aguacatán"
   },
   {
-    "name": "Lakota ",
+    "name": "Lakota",
     "i": 2316,
     "min": 4,
     "max": 11,
@@ -602,7 +602,7 @@ window.NorthAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,UmÃ¡n,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
+    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,Umán,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
   },
   {
     "name": "Qanjobal",
@@ -611,7 +611,7 @@ window.NorthAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa-Eulalia,San-Juan-Ixcoy,San-Pedro-Solon,Soloma,San-Rafael-La-Independencia,San-Miguel-AcatÃ¡n,San-Sebastian-Coatan,Barillas,Nenton,Jacaltenango"
+    "b": "Santa Eulalia,San Juan Ixcoy,San Pedro Solon,Soloma,San Rafael La Independencia,San Miguel Acatán,San Sebastian Coatan,Barillas,Nenton,Jacaltenango"
   },
   {
     "name": "Southern-Quechua",
@@ -641,7 +641,7 @@ window.NorthAmericaNameBases = [
     "b": "Sheshatshiu,Natuashish,Maliotenam,Uashat,Matimekush,Lac-John,Ekuanitshit,Pessamit,Essipit,Unamen Shipu,La Romaine,Mingan,Schefferville,Sept-Iles,Baie-Comeau,Forestville,Port-Cartier,Chute-aux-Outardes,Longue-Pointe-de-Mingan,Havre-Saint-Pierre"
   },
   {
-    "name": "Spanglish (dedicated)",
+    "name": "Spanglish",
     "i": 20219,
     "min": 4,
     "max": 12,
@@ -650,7 +650,7 @@ window.NorthAmericaNameBases = [
     "b": "Miami,Los Angeles,New York,Chicago,San Antonio,El Paso,San Diego,Orlando,Houston,Dallas,San Juan,Havana,Tijuana,Monterrey,Guadalajara,Panama City,Santo Domingo,Caracas,Bogotá,Medellín,Lima,Madrid,Barcelona"
   },
   {
-    "name": "Anguillian Creole (dedicated)",
+    "name": "Anguillian Creole",
     "i": 20106,
     "min": 4,
     "max": 11,
@@ -659,7 +659,7 @@ window.NorthAmericaNameBases = [
     "b": "The Valley,Sandy Ground,Shoal Bay,Island Harbour,South Hill,Blowing Point,North Hill,Sandy Hill,West End,East End,Long Bay,Stony Ground"
   },
   {
-    "name": "Bahamian Creole (dedicated)",
+    "name": "Bahamian Creole",
     "i": 20107,
     "min": 4,
     "max": 11,
@@ -668,7 +668,7 @@ window.NorthAmericaNameBases = [
     "b": "Nassau,Freeport,George Town,Marsh Harbour,Alice Town,Coco Bay,Great Exuma,Eleuthera,Abaco,Andros,Bimini,Cat Island"
   },
   {
-    "name": "Bajan Creole (dedicated)",
+    "name": "Bajan Creole",
     "i": 20108,
     "min": 4,
     "max": 11,
@@ -677,7 +677,7 @@ window.NorthAmericaNameBases = [
     "b": "Bridgetown,Speightstown,Oistins,Holetown,Worthing,Saint Lawrence,Garrison,Saint Michael,Saint Peter,Saint James,Saint John,Saint Thomas"
   },
   {
-    "name": "Belizean Creole (dedicated)",
+    "name": "Belizean Creole",
     "i": 20109,
     "min": 4,
     "max": 11,
@@ -686,16 +686,16 @@ window.NorthAmericaNameBases = [
     "b": "Belize City,San Pedro,Orange Walk,Belmopan,Dangriga,San Ignacio,Punta Gorda,Caye Caulker,Placencia,Corozal Town,Benque Viejo,Hopkins"
   },
   {
-    "name": "Bocas del Toro Creole (dedicated)",
+    "name": "Bocas del Toro Creole",
     "i": 20110,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bocas Town,Almirante,Changuinola,Colón,Chiriquí Grande,Changuinola,Bocas del Toro,Almirante,Red Frog Beach,Casa de Campo,Colón Island,Bocas Archipelago"
+    "b": "Bocas Town,Almirante,Changuinola,Colón,Chiriquí Grande,Bocas del Toro,Red Frog Beach,Casa de Campo,Colón Island,Bocas Archipelago"
   },
   {
-    "name": "Grenadian Creole English (dedicated)",
+    "name": "Grenadian Creole English",
     "i": 20175,
     "min": 4,
     "max": 11,
@@ -704,7 +704,7 @@ window.NorthAmericaNameBases = [
     "b": "St. George's,Gouyave,Grenville,Hillsborough,Sauteurs,Tivoli,Victoria,Carriacou,Loufrik,St. David,St. Patrick,St. Andrew"
   },
   {
-    "name": "Leeward Caribbean Creole English (dedicated)",
+    "name": "Leeward Caribbean Creole English",
     "i": 20176,
     "min": 4,
     "max": 11,
@@ -713,7 +713,7 @@ window.NorthAmericaNameBases = [
     "b": "Basseterre,Charlestown,St. Kitts,Nevis,Antigua,Barbuda,Redonda,St. Eustatius,Saba,Sint Maarten,Saint-Barthélemy,Guadeloupe"
   },
   {
-    "name": "Limonese Creole (dedicated)",
+    "name": "Limonese Creole",
     "i": 20177,
     "min": 4,
     "max": 11,
@@ -722,7 +722,7 @@ window.NorthAmericaNameBases = [
     "b": "Puerto Limón,Moín,Cahuita,Puerto Viejo,Cocles,Sixaola,Gandoca,Manzanillo,Boca Pérez,Valle del Estrella,Reventazón,Parque Nacional Cahuita"
   },
   {
-    "name": "Miskito Coast Creole (dedicated)",
+    "name": "Miskito Coast Creole",
     "i": 20178,
     "min": 4,
     "max": 11,
@@ -731,7 +731,7 @@ window.NorthAmericaNameBases = [
     "b": "La Ceiba,Río Esteban,Cayos Cochinos,Roatán,Coxen Hole,French Harbour,West End,East End,Sandy Bay,West Bay,Saba,Utila"
   },
   {
-    "name": "Montserrat Creole (dedicated)",
+    "name": "Montserrat Creole",
     "i": 20179,
     "min": 4,
     "max": 11,
@@ -740,7 +740,7 @@ window.NorthAmericaNameBases = [
     "b": "Brades,Salem,Georgetown,Dukes,St. Peters,St. Georges,Old Town,Garvey,Lookout,Cork Hill,Sweeney's,Hope"
   },
   {
-    "name": "Rama Cay Creole (dedicated)",
+    "name": "Rama Cay Creole",
     "i": 20180,
     "min": 4,
     "max": 11,
@@ -749,7 +749,7 @@ window.NorthAmericaNameBases = [
     "b": "Rama Cay,Bluefields,Corn Island,San Juan de Nicaragua,Greytown,Pearl Lagoon,Waslala,Bonanza,Puertas Azules,Laguna de Perlas,Miskito Cays,Costa Caribe"
   },
   {
-    "name": "Saint Kitts Creole (dedicated)",
+    "name": "Saint Kitts Creole",
     "i": 20181,
     "min": 4,
     "max": 11,
@@ -758,7 +758,7 @@ window.NorthAmericaNameBases = [
     "b": "Basseterre,Frigate Bay,Sandy Point,Old Road,Dieppe Bay,St. Paul,St. George,St. Anne,St. Thomas,St. John,St. Christopher,St. James"
   },
   {
-    "name": "Tobagonian Creole (dedicated)",
+    "name": "Tobagonian Creole",
     "i": 20183,
     "min": 4,
     "max": 11,
@@ -767,7 +767,7 @@ window.NorthAmericaNameBases = [
     "b": "Scarborough,Fort King George,Plymouth,Rocky Bay,Black Rock,Arnos Vale,Crown Point,Bon Accord,Store Bay,Golden Lane,Pigeon Point,Castara"
   },
   {
-    "name": "Trinidadian Creole (dedicated)",
+    "name": "Trinidadian Creole",
     "i": 20184,
     "min": 4,
     "max": 11,
@@ -776,7 +776,7 @@ window.NorthAmericaNameBases = [
     "b": "Port of Spain,San Fernando,Arima,Chaguanas,San Juan,Diego Martin,Tunapuna,Piarco,Couva,Tabaquite,Talparo,Caroni"
   },
   {
-    "name": "Turks and Caicos Creole (dedicated)",
+    "name": "Turks and Caicos Creole",
     "i": 20185,
     "min": 4,
     "max": 11,
@@ -785,7 +785,7 @@ window.NorthAmericaNameBases = [
     "b": "Providenciales,Cockburn Town,Grand Turk,South Caicos,Middle Caicos,North Caicos,East Caicos,Salt Cay,Turks,Caicos,Parrot Cay,Pine Cay"
   },
   {
-    "name": "Vincentian Creole (dedicated)",
+    "name": "Vincentian Creole",
     "i": 20186,
     "min": 4,
     "max": 11,
@@ -794,7 +794,7 @@ window.NorthAmericaNameBases = [
     "b": "Kingstown,Georgetown,Byera Village,Layou,Barrouallie,Chateaubelair,Biabou,Owia,Calliaqua,Stubbs,Villa,Prospect"
   },
   {
-    "name": "Virgin Islands Creole (dedicated)",
+    "name": "Virgin Islands Creole",
     "i": 20187,
     "min": 4,
     "max": 11,
@@ -803,7 +803,7 @@ window.NorthAmericaNameBases = [
     "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo,Bayonne,St. Thomas,St. John,St. Croix,Tortola"
   },
   {
-    "name": "Jamaican Maroon Creole (dedicated)",
+    "name": "Jamaican Maroon Creole",
     "i": 20188,
     "min": 4,
     "max": 11,
@@ -812,7 +812,7 @@ window.NorthAmericaNameBases = [
     "b": "Accompong,Moore Town,Scotts Hall,Charles Town,Flagstaff,Barbecue Bottom,Trelawny,Portland,St James,Westmoreland,St Ann,St Mary"
   },
   {
-    "name": "Algonquian-Basque pidgin (dedicated)",
+    "name": "Algonquian-Basque pidgin",
     "i": 20074,
     "min": 4,
     "max": 11,
@@ -821,7 +821,7 @@ window.NorthAmericaNameBases = [
     "b": "Quebec City,Trois-Rivières,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Îles,Victoriaville,Granby,Québec"
   },
   {
-    "name": "Almosan (dedicated)",
+    "name": "Almosan",
     "i": 20076,
     "min": 4,
     "max": 11,
@@ -830,16 +830,16 @@ window.NorthAmericaNameBases = [
     "b": "Vancouver,Victoria,Prince Rupert,Kelowna,Abbotsford,Surrey,Langley,Delta,Saanich,Nanaimo,Kamloops,Prince George"
   },
   {
-    "name": "American Indian Pidgin English (dedicated)",
+    "name": "American Indian Pidgin English",
     "i": 20101,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Fort Benton,Fort Laramie,Fort Vancouver,Fort Vancouver,Fort Hall,Fort Bridger,Fort Union,Fort Pierre,Fort Snelling,Fort Gibson,Fort Atkinson,Fort Leavenworth"
+    "b": "Fort Benton,Fort Laramie,Fort Vancouver,Fort Hall,Fort Bridger,Fort Union,Fort Pierre,Fort Snelling,Fort Gibson,Fort Atkinson,Fort Leavenworth"
   },
   {
-    "name": "Jersey Dutch (dedicated)",
+    "name": "Jersey Dutch",
     "i": 20213,
     "min": 4,
     "max": 11,
@@ -848,7 +848,7 @@ window.NorthAmericaNameBases = [
     "b": "jersey-dutch,St. Helier,St. Saviour,St. Brelade,St. Lawrence,St. Mary,St. Peter,St. Ouen,St. John,St. Martin,Grouville,Trinity"
   },
   {
-    "name": "Inuktitut-English Pidgin (dedicated)",
+    "name": "Inuktitut-English Pidgin",
     "i": 1951,
     "min": 4,
     "max": 11,
@@ -857,7 +857,7 @@ window.NorthAmericaNameBases = [
     "b": "Iqaluit,Arviat,Rankin Inlet,Baker Lake,Cambridge Bay,Pangnirtung,Kugluktuk,Pond Inlet,Cape Dorset,Gjoa Haven"
   },
   {
-    "name": "Labrador Inuit Pidgin French (dedicated)",
+    "name": "Labrador Inuit Pidgin French",
     "i": 2311,
     "min": 4,
     "max": 11,
