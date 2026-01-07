@@ -1,8 +1,43 @@
 "use strict";
 
+/**
+ * Data Quality Issues Checker
+ * 
+ * Performs comprehensive data quality analysis:
+ * - Identifies small bases (< 5 cities)
+ * - Detects potential encoding issues
+ * - Flags suspicious names (abbreviations, placeholders)
+ * - Finds empty or invalid bases
+ * 
+ * Usage:
+ *   node tools/validation/check-losses.js
+ */
+
 const fs = require('fs');
-eval(fs.readFileSync('modules/namebases-real.js', 'utf8'));
-const namebases = window.realWorldNameBases;
+const path = require('path');
+
+const continentFiles = [
+  'modules/namebases-africa.js',
+  'modules/namebases-asia.js',
+  'modules/namebases-europe.js',
+  'modules/namebases-northAmerica.js',
+  'modules/namebases-southAmerica.js',
+  'modules/namebases-oceania.js'
+];
+
+const namebases = [];
+
+continentFiles.forEach(file => {
+  if (fs.existsSync(file)) {
+    const content = fs.readFileSync(file, 'utf8');
+    const window = {};
+    eval(content);
+    const arrayName = Object.keys(window).find(k => k.endsWith('NameBases'));
+    if (arrayName && Array.isArray(window[arrayName])) {
+      namebases.push(...window[arrayName]);
+    }
+  }
+});
 
 console.log('\n=== SMALL BASES (< 5 cities) ===\n');
 const smallBases = namebases.filter(nb => {

@@ -17,16 +17,24 @@ class NamebaseAggregator {
   constructor() {
     this.regionalFiles = [
       'namebases-africa.js',
-      'namebases-asia.js', 
-      'namebases-creole.js',
+      'namebases-asia.js',
       'namebases-europe.js',
       'namebases-fantasy.js',
-      'namebases-global.js',
       'namebases-northAmerica.js',
       'namebases-oceania.js',
       'namebases-southAmerica.js'
     ];
-    
+
+    this.continentArrays = {
+      'namebases-africa.js': 'AfricaNameBases',
+      'namebases-asia.js': 'AsiaNameBases',
+      'namebases-europe.js': 'EuropeNameBases',
+      'namebases-fantasy.js': 'FantasyNameBases',
+      'namebases-northAmerica.js': 'NorthAmericaNameBases',
+      'namebases-oceania.js': 'OceaniaNameBases',
+      'namebases-southAmerica.js': 'SouthAmericaNameBases'
+    };
+
     this.aggregatedBases = [];
     this.regionMappings = {};
     this.totalLanguages = 0;
@@ -38,31 +46,43 @@ class NamebaseAggregator {
    */
   loadRegionalFile(fileName) {
     const filePath = path.join(__dirname, '../../modules', fileName);
-    
+
     try {
       const content = fs.readFileSync(filePath, 'utf-8');
+      const vm = require('vm');
+      const context = { window: {} };
+      vm.runInContext(content, context, { filename: fileName });
+
+      const arrayName = this.continentArrays[fileName];
+      const entries = context.window[arrayName] || [];
       const region = fileName.replace('namebases-', '').replace('.js', '');
-      
+
       console.log(`Loading ${fileName} (${region})...`);
-      
-      // Parse the JavaScript file to extract namebase entries
-      const entries = this.parseNamebaseEntries(content);
-      
-      // Add region information to each entry
-      entries.forEach(entry => {
-        entry.region = region;
-      });
-      
+
+      const entriesWithRegion = entries.map((entry, idx) => ({
+        name: entry.name,
+        index: entry.i,
+        minLength: entry.min,
+        maxLength: entry.max,
+        d: entry.d,
+        m: entry.m,
+        placenames: entry.b ? entry.b.split(',').map(s => s.trim()).filter(s => s) : [],
+        region: region,
+        lineNumber: idx + 1,
+        raw: JSON.stringify(entry)
+      }));
+
       this.regionMappings[region] = {
         file: fileName,
-        entries: entries.length,
-        placenames: entries.reduce((sum, entry) => sum + (entry.placenames ? entry.placenames.length : 0), 0)
+        arrayName: arrayName,
+        entries: entriesWithRegion.length,
+        placenames: entriesWithRegion.reduce((sum, entry) => sum + entry.placenames.length, 0)
       };
-      
-      console.log(`  ✓ Loaded ${entries.length} languages, ${this.regionMappings[region].placenames} placenames`);
-      
-      return entries;
-      
+
+      console.log(`  ✓ Loaded ${entriesWithRegion.length} languages, ${this.regionMappings[region].placenames} placenames`);
+
+      return entriesWithRegion;
+
     } catch (error) {
       console.warn(`  ⚠ Failed to load ${fileName}: ${error.message}`);
       return [];
@@ -73,18 +93,12 @@ class NamebaseAggregator {
    * Parse namebase entries from JavaScript file content
    */
   parseNamebaseEntries(content) {
-    const entries = [];
-    const lines = content.split('\n');
-    
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
-      
-      // Look for namebase entry patterns
-      if (line.startsWith('{') && line.includes('name:')) {
-        const entry = this.parseEntry(line, i + 1);
-        if (entry) {
-          entries.push(entry);
-        }
+    return [];
+  }
+
+  parseEntry(line, lineNumber) {
+    return null;
+  }
       }
     }
     

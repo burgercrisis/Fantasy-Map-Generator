@@ -1,45 +1,63 @@
 "use strict";
 
-const fs = require('fs');
-eval(fs.readFileSync('modules/namebases-real.js', 'utf8'));
-const namebases = window.realWorldNameBases;
+const { loadAllNamebases } = require('./namebase-loader');
 
-let needsExpansion = 0;
-const entries425toEnd = namebases.slice(424);
+const { allNamebases, metadata } = loadAllNamebases();
 
-console.log('\n=== PLACEHOLDER INVENTORY (Lines 425 onwards) ===\n');
-console.log(`Total entries from line 425: ${entries425toEnd.length}\n`);
+console.log('\n=== PLACEHOLDER INVENTORY - ALL CONTINENTS ===\n');
 
-console.log('== ENTRIES WITH < 5 CITIES (NEED EXPANSION) ==');
-for (let i = 0; i < Math.min(20, entries425toEnd.length); i++) {
-  const nb = entries425toEnd[i];
+const entriesByContinent = {};
+for (const m of metadata) {
+  entriesByContinent[m.continent] = m.count;
+}
+
+console.log('Entries by continent:');
+for (const m of metadata) {
+  console.log(`  ${m.file}: ${m.count} entries`);
+}
+console.log('');
+
+console.log('== ENTRIES WITH < 5 CITIES (NEED EXPANSION) ==\n');
+
+const needsExpansion = [];
+for (const nb of allNamebases) {
   if (!nb.b) continue;
   const cities = nb.b.split(',');
   if (cities.length < 5) {
-    console.log(`Line ${425 + i}: ${nb.name} (${cities.length} cities) - ${nb.b.substring(0, 50)}...`);
-    needsExpansion++;
+    needsExpansion.push({
+      continent: nb._continent,
+      name: nb.name,
+      index: nb.i,
+      count: cities.length,
+      baseSample: nb.b.substring(0, 50)
+    });
   }
 }
 
-console.log(`\nTotal entries needing expansion: ${needsExpansion}\n`);
+console.log(`Total entries needing expansion: ${needsExpansion.length}\n`);
 
-console.log('== SAMPLE OF ENTRIES TO FIX ==');
-console.log('Examples (first 10 with minimal bases):');
-let count = 0;
-for (const nb of entries425toEnd) {
-  if (count >= 10) break;
-  if (!nb.b) continue;
-  const cities = nb.b.split(',');
-  if (cities.length >= 3 && cities.length <= 5) {
-    console.log(`- ${nb.name}: ${nb.b}`);
-    count++;
-  }
+console.log('== SAMPLE ENTRIES NEEDING FIX (first 20) ==\n');
+needsExpansion.slice(0, 20).forEach(e => {
+  console.log(`[${e.continent}] ${e.name} (index ${e.index}, ${e.count} cities)`);
+  console.log(`  ${e.baseSample}...`);
+  console.log('');
+});
+
+console.log('== BREAKDOWN BY CONTINENT ==');
+const byContinent = {};
+for (const e of needsExpansion) {
+  byContinent[e.continent] = (byContinent[e.continent] || 0) + 1;
+}
+for (const [continent, count] of Object.entries(byContinent)) {
+  const total = entriesByContinent[continent] || 1;
+  const pct = Math.round(count / total * 100);
+  console.log(`  ${continent}: ${count}/${total} (${pct}%)`);
 }
 
 console.log('\n== ACTION PLAN ==');
 console.log('1. Research authentic cities for each language');
 console.log('2. Create replacement entries with 6-10 authentic cities');
-console.log('3. Replace in batches of 20-30 entries');
+console.log('3. Replace in continent-specific batches');
 console.log('4. Test each batch in application');
 console.log('\n== NOTE ==');
 console.log('This will require ongoing work. Each replacement needs research.');

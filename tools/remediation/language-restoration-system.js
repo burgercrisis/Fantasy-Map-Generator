@@ -11,16 +11,25 @@ const path = require('path');
 
 class LanguageRestorationSystem {
   constructor() {
-    this.currentFile = path.join(__dirname, '../../modules/namebases-real.js');
+    this.modulesDir = path.join(__dirname, '../../modules');
     this.backupFile = path.join(__dirname, '../../modules/namebases-real.backup-20251228-221152.js');
     this.continentFiles = {
-      'africa': path.join(__dirname, '../../namebases/namebases-africa.js'),
-      'asia': path.join(__dirname, '../../namebases/namebases-asia.js'),
-      'europe': path.join(__dirname, '../../namebases/namebases-europe.js'),
-      'north-america': path.join(__dirname, '../../namebases/namebases-north-america.js'),
-      'south-america': path.join(__dirname, '../../namebases/namebases-south-america.js'),
-      'oceania': path.join(__dirname, '../../namebases/namebases-oceania.js'),
-      'antarctica': path.join(__dirname, '../../namebases/namebases-antarctica.js'),
+      'africa': path.join(this.modulesDir, 'namebases-africa.js'),
+      'asia': path.join(this.modulesDir, 'namebases-asia.js'),
+      'europe': path.join(this.modulesDir, 'namebases-europe.js'),
+      'north-america': path.join(this.modulesDir, 'namebases-northAmerica.js'),
+      'south-america': path.join(this.modulesDir, 'namebases-southAmerica.js'),
+      'oceania': path.join(this.modulesDir, 'namebases-oceania.js'),
+      'fantasy': path.join(this.modulesDir, 'namebases-fantasy.js')
+    };
+    this.continentArrays = {
+      'africa': 'AfricaNameBases',
+      'asia': 'AsiaNameBases',
+      'europe': 'EuropeNameBases',
+      'north-america': 'NorthAmericaNameBases',
+      'south-america': 'SouthAmericaNameBases',
+      'oceania': 'OceaniaNameBases',
+      'fantasy': 'FantasyNameBases'
     };
   }
 
@@ -29,30 +38,52 @@ class LanguageRestorationSystem {
    */
   analyzeCurrentStructure() {
     try {
-      const content = fs.readFileSync(this.currentFile, 'utf8');
-      
-      // Extract languages from current file
-      const languagePattern = /\{[^}]*name:\s*"([^"]+)"[^}]*i:\s*(\d+)[^}]*\}/g;
-      const currentLanguages = [];
-      let match;
-      
-      while ((match = languagePattern.exec(content)) !== null) {
-        currentLanguages.push({
-          name: match[1],
-          index: parseInt(match[2]),
-          fullMatch: match[0]
-        });
+      const allLanguages = [];
+
+      for (const [continent, filePath] of Object.entries(this.continentFiles)) {
+        if (fs.existsSync(filePath)) {
+          const content = fs.readFileSync(filePath, 'utf8');
+          const arrayName = this.continentArrays[continent];
+
+          const languages = this.extractLanguagesFromContent(content, arrayName, continent);
+          allLanguages.push(...languages);
+        }
       }
-      
+
       return {
-        totalLanguages: currentLanguages.length,
-        languages: currentLanguages,
-        fileSize: content.length
+        totalLanguages: allLanguages.length,
+        languages: allLanguages,
+        fileSize: allLanguages.reduce((sum, l) => sum + JSON.stringify(l).length, 0)
       };
     } catch (error) {
       console.error(`Error analyzing current structure: ${error.message}`);
       return null;
     }
+  }
+
+  extractLanguagesFromContent(content, arrayName, continent) {
+    const languages = [];
+    const vm = require('vm');
+    const context = { window: {} };
+    vm.runInContext(content, context, { filename: arrayName });
+
+    const entries = context.window[arrayName];
+    if (entries && Array.isArray(entries)) {
+      entries.forEach((entry, idx) => {
+        languages.push({
+          name: entry.name,
+          index: entry.i,
+          min: entry.min,
+          max: entry.max,
+          d: entry.d,
+          m: entry.m,
+          b: entry.b,
+          continent: continent,
+          arrayIndex: idx
+        });
+      });
+    }
+    return languages;
   }
 
   /**
@@ -61,23 +92,36 @@ class LanguageRestorationSystem {
   analyzeBackupStructure() {
     try {
       const content = fs.readFileSync(this.backupFile, 'utf8');
-      
-      // Extract languages from backup file
-      const languagePattern = /\{[^}]*"name":\s*"([^"]+)"[^}]*"i":\s*(\d+)[^}]*\}/g;
-      const backupLanguages = [];
-      let match;
-      
-      while ((match = languagePattern.exec(content)) !== null) {
-        backupLanguages.push({
-          name: match[1],
-          index: parseInt(match[2]),
-          fullMatch: match[0]
-        });
+
+      const languages = [];
+      const lines = content.split('\n');
+      for (const line of lines) {
+        if (line.includes('{') && line.includes('"name"')) {
+          const nameMatch = line.match(/"name":\s*"([^"]+)"/);
+          const iMatch = line.match(/"i":\s*(\d+)/);
+          const minMatch = line.match(/"min":\s*(\d+)/);
+          const maxMatch = line.match(/"max":\s*(\d+)/);
+          const dMatch = line.match(/"d":\s*"([^"]*)"/);
+          const mMatch = line.match(/"m":\s*([\d.]+)/);
+          const bMatch = line.match(/"b":\s*"([^"]*)"/);
+
+          if (nameMatch) {
+            languages.push({
+              name: nameMatch[1],
+              index: iMatch ? parseInt(iMatch[1]) : 0,
+              min: minMatch ? parseInt(minMatch[1]) : 3,
+              max: maxMatch ? parseInt(maxMatch[1]) : 15,
+              d: dMatch ? dMatch[1] : '',
+              m: mMatch ? parseFloat(mMatch[1]) : 0,
+              b: bMatch ? bMatch[1] : ''
+            });
+          }
+        }
       }
-      
+
       return {
-        totalLanguages: backupLanguages.length,
-        languages: backupLanguages,
+        totalLanguages: languages.length,
+        languages: languages,
         fileSize: content.length
       };
     } catch (error) {
@@ -267,29 +311,26 @@ class LanguageRestorationSystem {
    */
   validateDataModel(language) {
     const errors = [];
-    
-    // Check required fields
+
     if (!language.name) errors.push('Missing name field');
-    if (language.i === undefined || language.i === null) errors.push('Missing index field');
+    if (language.index === undefined || language.index === null) errors.push('Missing index field');
     if (language.min === undefined) errors.push('Missing min field');
     if (language.max === undefined) errors.push('Missing max field');
-    if (!language.d) errors.push('Missing d field');
+    if (language.d === undefined) errors.push('Missing d field');
     if (language.m === undefined) errors.push('Missing m field');
     if (!language.b) errors.push('Missing b field');
-    
-    // Validate field types
+
     if (language.name && typeof language.name !== 'string') errors.push('Name must be string');
-    if (language.i !== undefined && typeof language.i !== 'number') errors.push('Index must be number');
+    if (language.index !== undefined && typeof language.index !== 'number') errors.push('Index must be number');
     if (language.min !== undefined && typeof language.min !== 'number') errors.push('Min must be number');
     if (language.max !== undefined && typeof language.max !== 'number') errors.push('Max must be number');
     if (language.d && typeof language.d !== 'string') errors.push('D field must be string');
     if (language.m !== undefined && typeof language.m !== 'number') errors.push('M field must be number');
     if (language.b && typeof language.b !== 'string') errors.push('B field must be string');
-    
-    // Validate UTF-8 encoding
+
     if (language.name && !this.isValidUTF8(language.name)) errors.push('Name contains invalid UTF-8 characters');
     if (language.b && !this.isValidUTF8(language.b)) errors.push('B field contains invalid UTF-8 characters');
-    
+
     return {
       isValid: errors.length === 0,
       errors

@@ -1,3 +1,15 @@
+"use strict";
+
+/**
+ * Language Mixer Map Deduplicator
+ * 
+ * Removes duplicate entries from language-mixer-map.json while preserving
+ * the last occurrence of each ISO code (which contains the most complete data).
+ * 
+ * Usage:
+ *   node tools/mixer-core/dedupe-language-mixer-map.js
+ */
+
 const fs = require('fs');
 const path = require('path');
 
@@ -17,17 +29,20 @@ const path = require('path');
     process.exit(1);
   }
 
+  // Find last index for each ISO code
   const lastIndexByIso = new Map();
   data.forEach((entry, idx) => {
     if (!entry || typeof entry.iso !== 'string') return;
     lastIndexByIso.set(entry.iso, idx);
   });
 
+  // Keep only last occurrence of each ISO
   const deduped = data.filter((entry, idx) => {
     if (!entry || typeof entry.iso !== 'string') return true;
     return lastIndexByIso.get(entry.iso) === idx;
   });
 
+  // Validate ISO set integrity
   const origIsos = new Set();
   const newIsos = new Set();
 

@@ -395,80 +395,101 @@ class PlaceholderReplacementSystem {
    */
   processNamebaseFile(filePath) {
     console.log(`Processing ${filePath}...`);
-    
+
     try {
       const content = fs.readFileSync(filePath, 'utf-8');
-      const lines = content.split('\n');
-      const processedLines = [];
+      const vm = require('vm');
+      const context = { window: {} };
+      vm.runInContext(content, context, { filename: filePath });
+
+      const baseName = path.basename(filePath, '.js');
+      const continentName = baseName.replace('namebases-', '').replace(/([A-Z])/g, ' $1').trim();
+      const arrayName = continentName.replace(/ /g, '') + 'NameBases';
+      const entries = context.window[arrayName];
+
+      if (!entries || !Array.isArray(entries)) {
+        console.log(`  ⚠ No entries found in ${filePath}`);
+        return 0;
+      }
+
       let changes = 0;
-      
-      for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
-        
-        if (line.includes('b:') && line.includes('{name:')) {
-          const processedLine = this.processNamebaseLine(line);
-          if (processedLine !== line) {
+
+      for (const entry of entries) {
+        if (entry.b) {
+          const placenames = entry.b.split(',').map(s => s.trim()).filter(s => s);
+          const hasPlaceholders = placenames.some(name => this.identifyPlaceholders(name).length > 0);
+
+          if (hasPlaceholders) {
+            const region = this.detectRegion(continentName);
+            const replacements = this.generateReplacements(entry.name, placenames, region);
+            entry.b = replacements.join(',');
             changes++;
-            console.log(`  Line ${i + 1}: Replaced placeholders`);
           }
-          processedLines.push(processedLine);
-        } else {
-          processedLines.push(line);
         }
       }
-      
-      // Write processed content
+
       if (changes > 0) {
         const backupPath = `${filePath}.backup-${Date.now()}`;
         fs.writeFileSync(backupPath, content, 'utf-8');
-        fs.writeFileSync(filePath, processedLines.join('\n'), 'utf-8');
+
+        const newContent = this.generateFileContent(entries, arrayName);
+        fs.writeFileSync(filePath, newContent, 'utf-8');
         console.log(`  ✅ Saved changes to ${filePath}`);
         console.log(`  📋 Backup created: ${backupPath}`);
+      } else {
+        console.log(`  ✓ No placeholders found`);
       }
-      
+
       return changes;
-      
+
     } catch (error) {
       console.error(`  ❌ Error processing ${filePath}: ${error.message}`);
       return 0;
     }
   }
 
+  detectRegion(continentName) {
+    const mapping = {
+      'Africa': 'africa',
+      'Asia': 'asia',
+      'Europe': 'europe',
+      'NorthAmerica': 'americas.north_america',
+      'SouthAmerica': 'americas.south_america',
+      'Oceania': 'oceania',
+      'Fantasy': 'fantasy'
+    };
+    return mapping[continentName] || 'global';
+  }
+
+  generateFileContent(entries, arrayName) {
+    let content = `"use strict";
+
+window.${arrayName} = [
+`;
+
+    entries.forEach((entry, idx) => {
+      content += `  {
+    "name": "${entry.name}",
+    "i": ${entry.i},
+    "min": ${entry.min},
+    "max": ${entry.max},
+    "d": "${entry.d}",
+    "m": ${entry.m},
+    "b": "${entry.b}"
+  }${idx < entries.length - 1 ? ',' : ''}
+`;
+    });
+
+    content += `];
+`;
+    return content;
+  }
+
   /**
    * Process a single namebase entry line
    */
   processNamebaseLine(line) {
-    try {
-      // Extract language name
-      const nameMatch = line.match(/name:\s*"([^"]+)"/);
-      if (!nameMatch) return line;
-      
-      const languageName = nameMatch[1];
-      
-      // Extract placenames
-      const placenameMatch = line.match(/b:\s*"([^"]*)"/);
-      if (!placenameMatch) return line;
-      
-      const placenames = placenameMatch[1].split(',').map(s => s.trim()).filter(s => s);
-      
-      // Check for placeholders
-      const hasPlaceholders = placenames.some(name => this.identifyPlaceholders(name).length > 0);
-      
-      if (!hasPlaceholders) return line;
-      
-      // Generate replacements
-      const replacements = this.generateReplacements(languageName, placenames);
-      
-      // Reconstruct line
-      const newPlacenameString = replacements.join(',');
-      const newLine = line.replace(/b:\s*"[^"]*"/, `b: "${newPlacenameString}"`);
-      
-      return newLine;
-      
-    } catch (error) {
-      console.warn(`Error processing line: ${error.message}`);
-      return line;
-    }
+    return line;
   }
 
   /**
@@ -478,20 +499,18 @@ class PlaceholderReplacementSystem {
     const namebaseFiles = [
       'modules/namebases-africa.js',
       'modules/namebases-asia.js',
-      'modules/namebases-creole.js',
       'modules/namebases-europe.js',
       'modules/namebases-fantasy.js',
-      'modules/namebases-global.js',
       'modules/namebases-northAmerica.js',
       'modules/namebases-oceania.js',
       'modules/namebases-southAmerica.js'
     ];
-    
+
     console.log('🚀 Starting placeholder replacement process...\n');
-    
+
     let totalChanges = 0;
     const fileResults = {};
-    
+
     for (const file of namebaseFiles) {
       if (fs.existsSync(file)) {
         const changes = this.processNamebaseFile(file);
@@ -502,12 +521,11 @@ class PlaceholderReplacementSystem {
         console.log(`⚠ File not found: ${file}`);
       }
     }
-    
+
     console.log('📊 Placeholder Replacement Summary:');
     console.log(`Total files processed: ${Object.keys(fileResults).length}`);
     console.log(`Total lines changed: ${totalChanges}`);
-    
-    // Generate report
+
     const report = {
       timestamp: new Date().toISOString(),
       totalChanges: totalChanges,
@@ -515,12 +533,12 @@ class PlaceholderReplacementSystem {
       fileResults: fileResults,
       status: totalChanges > 0 ? 'completed' : 'no_changes_needed'
     };
-    
+
     const reportPath = path.join(__dirname, '../data/placeholder-replacement-report.json');
     fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
-    
+
     console.log(`📄 Report saved: ${reportPath}`);
-    
+
     return report;
   }
 
@@ -529,17 +547,24 @@ class PlaceholderReplacementSystem {
    */
   validateReplacements(filePath) {
     console.log(`Validating replacements in ${filePath}...`);
-    
+
     try {
       const content = fs.readFileSync(filePath, 'utf-8');
-      const lines = content.split('\n');
+      const vm = require('vm');
+      const context = { window: {} };
+      vm.runInContext(content, context, { filename: filePath });
+
+      const baseName = path.basename(filePath, '.js');
+      const continentName = baseName.replace('namebases-', '').replace(/([A-Z])/g, ' $1').trim();
+      const arrayName = continentName.replace(/ /g, '') + 'NameBases';
+      const entries = context.window[arrayName];
+
       let remainingPlaceholders = 0;
-      
-      for (const line of lines) {
-        if (line.includes('b:')) {
-          const placenameMatch = line.match(/b:\s*"([^"]*)"/);
-          if (placenameMatch) {
-            const placenames = placenameMatch[1].split(',');
+
+      if (entries && Array.isArray(entries)) {
+        for (const entry of entries) {
+          if (entry.b) {
+            const placenames = entry.b.split(',');
             for (const placename of placenames) {
               if (this.identifyPlaceholders(placename).length > 0) {
                 remainingPlaceholders++;
@@ -548,10 +573,10 @@ class PlaceholderReplacementSystem {
           }
         }
       }
-      
+
       console.log(`  Remaining placeholders: ${remainingPlaceholders}`);
       return remainingPlaceholders === 0;
-      
+
     } catch (error) {
       console.error(`Validation error: ${error.message}`);
       return false;

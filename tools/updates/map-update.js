@@ -1,7 +1,20 @@
+"use strict";
+
+/**
+ * Language Mixer Map Entry Updater
+ * 
+ * Updates the language-mixer-map.json with new base indices for multiple languages.
+ * Ensures proper mapping between ISO language codes and namebase indices.
+ * 
+ * Usage:
+ *   node tools/updates/map-update.js
+ */
+
 const fs = require('fs');
 const path = require('path');
 
-const mapPath = path.resolve(__dirname, 'config', 'language-mixer-map.json');
+const CONFIG_DIR = path.resolve(__dirname, '..', 'config');
+const mapPath = path.join(CONFIG_DIR, 'language-mixer-map.json');
 let map = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
 
 const isos = [
@@ -18,7 +31,6 @@ isos.forEach((iso, i) => {
     const row = map.find(r => r.iso === iso);
     if (row) {
         const newIdx = startIdx + i;
-        // Remove any existing high indices (> 13000) we might have added incorrectly
         row.bases = row.bases.filter(b => typeof b !== 'number' || b < 13000);
         row.bases.push(newIdx);
     }

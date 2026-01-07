@@ -1,111 +1,165 @@
 "use strict";
 
+/**
+ * Dedicated Namebase Merger
+ * 
+ * Merges "(dedicated)" suffix entries into their base entries across all continent files.
+ * Combines unique city names and generates deletion/update lists.
+ * 
+ * Usage:
+ *   node tools/utils/merge-dedicated-namebases.js
+ * 
+ * Output:
+ *   - dedicated-indices-to-delete.json: Indices to remove (per continent)
+ *   - dedicated-merge-updates.json: Merge details
+ */
+
 const fs = require('fs');
 const path = require('path');
 
-const filepath = path.join(__dirname, 'modules', 'namebases-real.js');
+const CONTINENT_FILES = [
+  'namebases-africa.js',
+  'namebases-asia.js',
+  'namebases-europe.js',
+  'namebases-northAmerica.js',
+  'namebases-southAmerica.js',
+  'namebases-oceania.js'
+];
 
-// Read the file
-const content = fs.readFileSync(filepath, 'utf-8');
+function readContinentFile(filename) {
+  const filepath = path.join(__dirname, '..', 'modules', filename);
+  const content = fs.readFileSync(filepath, 'utf-8');
+  
+  const arrayMatch = content.match(/window\.\w+NameBases\s*=\s*\[([\s\S]*?)\];?\s*$/);
+  if (!arrayMatch) {
+    console.error(`Could not find namebase array in ${filename}`);
+    return null;
+  }
 
-// Parse the namebases array
-const namebasesMatch = content.match(/window\.realWorldNameBases\s*=\s*\[([\s\S]*?)\];/);
-if (!namebasesMatch) {
-  console.error('Could not find window.realWorldNameBases array');
-  process.exit(1);
+  return { filename, content, arrayContent: arrayMatch[1] };
 }
 
-const arrayContent = namebasesMatch[1];
-
-// Parse individual entries
-const entries = [];
-const entryRegex = /\{\s*name:\s*"([^"]+)",\s*i:\s*(\d+),\s*min:\s*(\d+),\s*max:\s*(\d+),\s*d:\s*"([^"]*)",\s*m:\s*([^,]+),\s*b:\s*"([^"]+)"\s*\}/g;
-
-let match;
-while ((match = entryRegex.exec(arrayContent)) !== null) {
-  entries.push({
-    name: match[1],
-    i: parseInt(match[2]),
-    min: parseInt(match[3]),
-    max: parseInt(match[4]),
-    d: match[5],
-    m: match[6],
-    b: match[7],
-    fullMatch: match[0]
-  });
+function parseEntries(arrayContent) {
+  const entries = [];
+  const entryRegex = /\{\s*"name":\s*"([^"]+)",\s*"i":\s*(\d+),\s*"min":\s*(\d+),\s*"max":\s*(\d+),\s*"d":\s*"([^"]*)",\s*"m":\s*([^,]+),\s*"b":\s*"([^"]*)"\s*\}/g;
+  
+  let match;
+  while ((match = entryRegex.exec(arrayContent)) !== null) {
+    entries.push({
+      name: match[1],
+      i: parseInt(match[2]),
+      min: parseInt(match[3]),
+      max: parseInt(match[4]),
+      d: match[5],
+      m: parseFloat(match[6]),
+      b: match[7]
+    });
+  }
+  
+  return entries;
 }
 
-// Find dedicated entries and their bases
-const dedicatedEntries = entries.filter(e => e.name.includes('(dedicated)'));
+function findBaseEntry(entries, baseName, excludeIndex) {
+  return entries.find(e => e.name === baseName && e.i !== excludeIndex);
+}
 
-console.log(`Found ${dedicatedEntries.length} dedicated entries\n`);
+console.log('Scanning continent namebase files for "(dedicated)" entries...\n');
 
-let mergeCount = 0;
-const toDelete = [];
+let allDedicated = [];
+const toDelete = {};
 const updates = [];
 
-for (const dedicated of dedicatedEntries) {
-  const baseName = dedicated.name.replace(' (dedicated)', '');
+for (const filename of CONTINENT_FILES) {
+  const result = readContinentFile(filename);
+  if (!result) continue;
+
+  const entries = parseEntries(result.arrayContent);
+  const continent = filename.replace('namebases-', '').replace('.js', '');
   
-  // Find the base entry
-  const baseEntry = entries.find(e => e.name === baseName);
+  toDelete[continent] = [];
   
-  if (!baseEntry) {
-    console.log(`WARNING: No base entry found for "${dedicated.name}" (looking for "${baseName}")`);
-    continue;
-  }
+  const dedicatedEntries = entries.filter(e => e.name.includes('(dedicated)'));
+  console.log(`${filename}: Found ${dedicatedEntries.length} dedicated entries`);
   
-  // Merge the 'b' values (unique cities)
-  const baseCities = new Set(baseEntry.b.split(','));
-  const dedicatedCities = dedicated.b.split(',');
-  
-  let addedCount = 0;
-  for (const city of dedicatedCities) {
-    if (!baseCities.has(city)) {
-      baseCities.add(city);
-      addedCount++;
+  for (const dedicated of dedicatedEntries) {
+    const baseName = dedicated.name.replace(/\s*\(dedicated\)/, '');
+    const baseEntry = findBaseEntry(entries, baseName, dedicated.i);
+    
+    if (!baseEntry) {
+      console.log(`  WARNING: No base entry for "${dedicated.name}" (looking for "${baseName}")`);
+      continue;
+    }
+    
+    const baseCities = new Set(baseEntry.b.split(','));
+    const dedicatedCities = dedicated.b.split(',');
+    
+    let addedCount = 0;
+    for (const city of dedicatedCities) {
+      if (!baseCities.has(city)) {
+        baseCities.add(city);
+        addedCount++;
+      }
+    }
+    
+    if (addedCount > 0) {
+      const mergedB = Array.from(baseCities).join(',');
+      
+      updates.push({
+        continent,
+        baseName,
+        baseIndex: baseEntry.i,
+        dedicatedName: dedicated.name,
+        dedicatedIndex: dedicated.i,
+        addedCities: addedCount,
+        newB: mergedB
+      });
+      
+      toDelete[continent].push(dedicated.i);
+      
+      console.log(`  Merging "${dedicated.name}" (i:${dedicated.i}) -> "${baseName}" (i:${baseEntry.i}): +${addedCount} cities`);
     }
   }
-  
-  if (addedCount > 0) {
-    mergeCount++;
-    const mergedB = Array.from(baseCities).join(',');
-    
-    updates.push({
-      baseName: baseName,
-      baseIndex: baseEntry.i,
-      dedicatedName: dedicated.name,
-      dedicatedIndex: dedicated.i,
-      addedCities: addedCount,
-      newB: mergedB
-    });
-    
-    toDelete.push(dedicated.i);
-    
-    console.log(`\nMerging "${dedicated.name}" (i:${dedicated.i}) into "${baseName}" (i:${baseEntry.i})`);
-    console.log(`  Added ${addedCount} unique cities`);
+}
+
+console.log(`\n\n=== SUMMARY ===`);
+console.log(`Total updates: ${updates.length}`);
+console.log(`Total entries to delete: ${Object.values(toDelete).reduce((a, b) => a + b.length, 0)}`);
+
+for (const [continent, indices] of Object.entries(toDelete)) {
+  if (indices.length > 0) {
+    console.log(`  ${continent}: ${indices.length} entries to delete`);
   }
 }
 
-console.log(`\n\nSummary:`);
-console.log(`  Total merges: ${mergeCount}`);
-console.log(`  Entries to delete: ${toDelete.length}`);
+// Save merge details
+fs.writeFileSync(
+  path.join(__dirname, 'dedicated-merge-updates.json'),
+  JSON.stringify(updates, null, 2)
+);
+console.log(`\nMerge details saved to: dedicated-merge-updates.json`);
 
-// Output merge details
-if (updates.length > 0) {
-  console.log(`\n\nMerge Details:`);
-  for (const update of updates) {
-    console.log(`\n${update.baseName} (i:${update.baseIndex}):`);
-    console.log(`  Merged from: ${update.dedicatedName} (i:${update.dedicatedIndex})`);
-    console.log(`  Added ${update.addedCities} cities`);
-    console.log(`  New 'b' length: ${update.newB.length} characters`);
-  }
-}
+// Save delete indices per continent
+fs.writeFileSync(
+  path.join(__dirname, 'dedicated-indices-to-delete.json'),
+  JSON.stringify(toDelete, null, 2)
+);
+console.log(`Delete indices saved to: dedicated-indices-to-delete.json`);
 
-// Save to delete list
-fs.writeFileSync(path.join(__dirname, 'dedicated-indices-to-delete.json'), JSON.stringify(toDelete, null, 2));
-console.log(`\n\nSaved indices to delete in: dedicated-indices-to-delete.json`);
+// Save detailed report
+const report = {
+  summary: {
+    totalUpdates: updates.length,
+    totalDeletions: Object.values(toDelete).reduce((a, b) => a + b.length, 0),
+    byContinent: Object.fromEntries(
+      Object.entries(toDelete).map(([k, v]) => [k, v.length])
+    )
+  },
+  updates,
+  toDelete
+};
 
-// Save update details
-fs.writeFileSync(path.join(__dirname, 'dedicated-merge-updates.json'), JSON.stringify(updates, null, 2));
-console.log(`Saved merge updates in: dedicated-merge-updates.json`);
+fs.writeFileSync(
+  path.join(__dirname, 'dedicated-merge-report.json'),
+  JSON.stringify(report, null, 2)
+);
+console.log(`Full report saved to: dedicated-merge-report.json`);

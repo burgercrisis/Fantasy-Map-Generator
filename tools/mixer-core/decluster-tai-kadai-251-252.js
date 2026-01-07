@@ -22,15 +22,6 @@ function sortedUnique(arr) {
 function main() {
   const map = readJson("config/language-mixer-map.json");
 
-  // Cluster to decluster: bases exactly [251,252] (Thai+Lao).
-  // We keep both anchors but add a small, plausible third/fourth ingredient to make signatures unique.
-  // Ingredients:
-  // - 530 Zhuang (regional Kra-Dai neighbor)
-  // - 532 Shan (Tai, Myanmar)
-  // - 533 Kam-Sui (Kra-Dai neighbor)
-  // - 317 Kra (Kra branch)
-  // - 318 Hlai (Hlai branch)
-
   const targets = {
     "chiang-saen": [251, 252, 532],
     "southwestern-tai": [251, 252, 532, 530],
@@ -55,7 +46,6 @@ function main() {
     "tai": [251, 252, 530, 533]
   };
 
-  // Ensure all target signatures are unique (within this batch).
   const seen = new Map();
   for (const [iso, bases] of Object.entries(targets)) {
     const key = JSON.stringify(sortedUnique(bases));
@@ -82,7 +72,6 @@ function main() {
     const before = Array.isArray(entry.bases) ? entry.bases.slice() : [];
     const beforeKey = JSON.stringify(sortedUnique(before));
 
-    // Only apply if it is still exactly the target cluster.
     if (beforeKey !== "[251,252]") {
       skippedUnexpected++;
       continue;

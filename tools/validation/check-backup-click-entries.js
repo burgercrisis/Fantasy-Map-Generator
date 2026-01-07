@@ -1,25 +1,56 @@
+/**
+ * Backup Click Entries Extractor
+ * 
+ * Reads backup files to extract Click language entries.
+ * Searches across continent backup files for entries with click languages.
+ * Useful for restoring reference click language data.
+ * 
+ * Usage:
+ *   node tools/validation/check-backup-click-entries.js
+ */
+
 const fs = require('fs');
+const path = require('path');
 
-// Read backup file to find good click language entries
-const backupContent = fs.readFileSync('modules/namebases-real.js.backup-2025-12-23T14-13-48-162Z', 'utf-8');
+const modulesDir = 'modules';
+const backupFiles = fs.readdirSync(modulesDir)
+  .filter(f => f.includes('.js.backup') || f.includes('.backup-'))
+  .filter(f => !f.includes('namebases-real')) // Skip legacy monolithic backups
+  .sort();
 
-const lines = backupContent.split('\n');
-const clickEntries = [];
+console.log('\n=== CLICK LANGUAGE ENTRIES IN BACKUPS ===\n');
 
-for (const line of lines) {
-  if (line.includes('Click') && line.includes('i: 3')) {
-    // Find entry number for click languages (they're in 353-364 range)
-    const match = line.match(/i:\s*(\d{3})/);
-    if (match) {
-      const index = parseInt(match[1]);
-      if (index >= 353 && index <= 364) {
-        clickEntries.push({ line, index });
+const allClickEntries = [];
+
+backupFiles.forEach(backupFile => {
+  const backupPath = path.join(modulesDir, backupFile);
+  const content = fs.readFileSync(backupPath, 'utf-8');
+  const lines = content.split('\n');
+  
+  const fileClickEntries = [];
+  
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (line.includes('Click') && line.includes('i:')) {
+      // Extract index
+      const match = line.match(/i:\s*(\d+)/);
+      if (match) {
+        const index = parseInt(match[1]);
+        fileClickEntries.push({ file: backupFile, line: i + 1, index, lineContent: line.substring(0, 150) });
       }
     }
   }
-}
+  
+  if (fileClickEntries.length > 0) {
+    console.log(`[${backupFile}] - ${fileClickEntries.length} click entries`);
+    fileClickEntries.forEach(entry => {
+      console.log(`  Line ${entry.line} (i=${entry.index}): ${entry.lineContent}...`);
+      allClickEntries.push(entry);
+    });
+    console.log('');
+  }
+});
 
-console.log(`Found ${clickEntries.length} click entries in backup:`);
-for (const entry of clickEntries) {
-  console.log(`Index ${entry.index}: ${entry.line.substring(0, 120)}...`);
-}
+console.log(`\n=== SUMMARY ===\n`);
+console.log(`Total backup files scanned: ${backupFiles.length}`);
+console.log(`Total click entries found: ${allClickEntries.length}`);

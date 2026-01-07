@@ -1,8 +1,23 @@
+"use strict";
+
+/**
+ * Missing Click Language Adder
+ * 
+ * Adds missing click language entries to the Africa continent namebase file.
+ * Inserts entries after Kx'a Click A with proper indices and bases.
+ * Click languages are primarily African languages.
+ * 
+ * Usage:
+ *   node tools/utils/add-missing-clicks.js
+ */
+
 const fs = require('fs');
+const path = require('path');
 
-const content = fs.readFileSync('modules/namebases-real.js', 'utf-8');
+const AFRICA_FILE = path.resolve(__dirname, '..', 'modules', 'namebases-africa.js');
 
-// Click languages to add back with safe ASCII place names
+const content = fs.readFileSync(AFRICA_FILE, 'utf-8');
+
 const missingClickLanguages = [
   { name: "Kx'a Click B", index: 354, bases: "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Kgalagadi,Kumune,Epukiro,Gxai,Gobabis" },
   { name: "Kx'a Click C", index: 355, bases: "Tsumkwe,Aroab,Blouputs,Gobabis,Kgalagadi,Kumune,Epukiro,Gxai,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental" },
@@ -19,18 +34,16 @@ const missingClickLanguages = [
 const lines = content.split('\n');
 const newLines = [];
 
-let lastClickIndex = 353;
 let insertedAny = false;
 
 for (const line of lines) {
   newLines.push(line);
   
-  // After inserting Kx'a Click A (index 353), add the missing ones
-  if (line.includes('Kx\'a Click A') && line.includes('i: 353')) {
-    console.log('Found Kx\'a Click A, adding missing entries...');
+  if (line.includes("Kx'a Click A") && line.includes('i: 353')) {
+    console.log('Found Kx\'a Click A in Africa namebases, adding missing entries...');
     
     for (const lang of missingClickLanguages) {
-      const newEntry = `    { name: "${lang.name}", i: ${lang.index}, min: 3, max: 9, d: "lnrtkxgms", m: 0, b: "${lang.bases}" },`;
+      const newEntry = `    {\n      "name": "${lang.name}",\n      "i": ${lang.index},\n      "min": 3,\n      "max": 9,\n      "d": "lnrtkxgms",\n      "m": 0,\n      "b": "${lang.bases}"\n    },`;
       console.log(`Adding: ${lang.name}`);
       newLines.push(newEntry);
       insertedAny = true;
@@ -39,9 +52,9 @@ for (const line of lines) {
 }
 
 if (!insertedAny) {
-  console.log('ERROR: Could not find Kx\'a Click A entry to insert after');
+  console.log('ERROR: Could not find Kx\'a Click A entry in Africa namebases');
   process.exit(1);
 }
 
-fs.writeFileSync('modules/namebases-real.js', newLines.join('\n'), 'utf-8');
-console.log('✓ Added missing click language entries');
+fs.writeFileSync(AFRICA_FILE, newLines.join('\n'), 'utf-8');
+console.log('✓ Added missing click language entries to namebases-africa.js');

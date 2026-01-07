@@ -1,3 +1,13 @@
+/**
+ * Batch 1 Delta Integrity Verifier
+ *
+ * Verifies that batch 1 deltas can be successfully applied to namebases.
+ * Checks that each ISO's dedicated base index exists in modules/namebases-real.js.
+ *
+ * Usage:
+ *   node tools/mixer-core/verify-batch-1-integrity.js
+ */
+
 const fs = require('fs');
 const path = require('path');
 

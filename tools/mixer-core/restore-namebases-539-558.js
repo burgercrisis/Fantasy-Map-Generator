@@ -1,5 +1,15 @@
 "use strict";
 
+/**
+ * Namebase Restoration Script (Indices 539-558)
+ *
+ * Restores Papuan and other language namebase entries to modules/namebases-real.js.
+ * These entries were previously blocked or missing and are now being added back.
+ *
+ * Usage:
+ *   node tools/mixer-core/restore-namebases-539-558.js
+ */
+
 const fs = require("fs");
 const path = require("path");
 

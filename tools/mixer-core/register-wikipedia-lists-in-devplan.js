@@ -1,5 +1,18 @@
 "use strict";
 
+/**
+ * Wikipedia List Auto-Registration Script
+ *
+ * Discovers wikipedia*.json files in tools/mixer-meta/ and registers them
+ * in DEVplans/Languages-Status.md under section 8.99 (auto-registered wiki lists).
+ *
+ * Usage:
+ *   node tools/mixer-core/register-wikipedia-lists-in-devplan.js [--apply]
+ *
+ * Options:
+ *   --apply    Write changes to devplan (default is dry run)
+ */
+
 const fs = require("fs");
 const path = require("path");
 

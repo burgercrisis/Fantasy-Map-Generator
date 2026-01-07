@@ -23,20 +23,18 @@ function keyOf(arr) {
   return JSON.stringify(sortedUnique(arr));
 }
 
+function getContinentFromIndex(mapData, index) {
+  for (const entry of mapData) {
+    if (entry.bases && entry.bases.includes(index)) {
+      return entry;
+    }
+  }
+  return null;
+}
+
 function main() {
   const map = readJson("config/language-mixer-map.json");
 
-  // Cluster to decluster: bases exactly [3] (Italian hub).
-  // Keep `ita` as the anchor [3], and give the other Italian lects unique Italy-plausible
-  // Romance-local mixes.
-  // Neighbor bases used:
-  //  - 8   Roman
-  //  - 232 Occitan
-  //  - 233 Sardinian
-  //  - 234 Romansh
-  //  - 279 Corsican
-  //  - 2   French
-  //  - 13  Portuguese
   const targets = {
     ita: [3],
 
@@ -50,7 +48,6 @@ function main() {
     "italo-australian": [3, 2, 13]
   };
 
-  // Validate uniqueness among target base-sets
   const seen = new Map();
   for (const [iso, bases] of Object.entries(targets)) {
     const key = keyOf(bases);

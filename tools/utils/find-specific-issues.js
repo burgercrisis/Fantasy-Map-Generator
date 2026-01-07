@@ -1,23 +1,48 @@
 "use strict";
 
+/**
+ * Specific Issue Search Script
+ *
+ * Searches for known problematic entries by name patterns.
+ * Used for debugging and verifying specific known issues.
+ *
+ * Usage:
+ *   node tools/utils/find-specific-issues.js
+ */
+
 const fs = require('fs');
-const content = fs.readFileSync('modules/namebases-real.js', 'utf8');
-const lines = content.split('\n');
+const path = require('path');
+
+const namebaseFiles = [
+  'modules/namebases-africa.js',
+  'modules/namebases-asia.js',
+  'modules/namebases-europe.js',
+  'modules/namebases-northAmerica.js',
+  'modules/namebases-southAmerica.js',
+  'modules/namebases-oceania.js'
+];
+
+const searchPatterns = ['Big Flowery', 'BPh', 'Bum', 'Ita'];
 
 console.log('\n=== SEARCHING FOR SPECIFIC ISSUES ===\n');
 
-lines.forEach((line, idx) => {
-  const lineNum = idx + 1;
-  if (line.includes('Big Flowery')) {
-    console.log(`Line ${lineNum}: ${line.substring(0, 100)}...`);
+let totalFound = 0;
+
+namebaseFiles.forEach(filePath => {
+  if (!fs.existsSync(filePath)) {
+    return;
   }
-  if (line.includes('BPh')) {
-    console.log(`Line ${lineNum}: ${line.substring(0, 100)}...`);
-  }
-  if (line.includes('name: "Bum')) {
-    console.log(`Line ${lineNum}: ${line.substring(0, 100)}...`);
-  }
-  if (line.includes('name: "Ita')) {
-    console.log(`Line ${lineNum}: ${line.substring(0, 100)}...`);
-  }
+
+  const content = fs.readFileSync(filePath, 'utf8');
+  const entries = JSON.parse(content.match(/window\.\w+NameBases = (\[[\s\S]*?\]);/)?.[1] || '[]');
+
+  entries.forEach(entry => {
+    const isMatch = searchPatterns.some(p => entry.name.includes(p));
+    if (isMatch) {
+      console.log(`[${path.basename(filePath)}] Found: ${entry.name}`);
+      totalFound++;
+    }
+  });
 });
+
+console.log(`\n=== FOUND ${totalFound} ISSUES ===\n`);

@@ -1,5 +1,15 @@
 "use strict";
 
+/**
+ * Blocked 195 Batches Restoration Script
+ *
+ * Restores language-mixer-map.json entries for blocked batch 1-4 languages.
+ * Deduplicates map entries and applies dedicated base remaps for Papuan languages.
+ *
+ * Usage:
+ *   node tools/mixer-core/restore-blocked-195-batches-1-4.js
+ */
+
 const fs = require("fs");
 const path = require("path");
 

@@ -1,3 +1,13 @@
+/**
+ * Delta File Reformatter
+ *
+ * Converts delta batch files to the correct format for apply-mixer-deltas.js.
+ * Transforms array format to object format with setBases property.
+ *
+ * Usage:
+ *   node tools/mixer-core/reformat-deltas.js
+ */
+
 const fs = require('fs');
 const path = require('path');
 

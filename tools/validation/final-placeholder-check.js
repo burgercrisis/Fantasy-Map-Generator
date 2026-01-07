@@ -1,46 +1,53 @@
 "use strict";
 
-const fs = require('fs');
-eval(fs.readFileSync('modules/namebases-real.js', 'utf8'));
-const namebases = window.realWorldNameBases;
+const { loadAllNamebases } = require('./namebase-loader');
+
+const { allNamebases, metadata } = loadAllNamebases();
 
 console.log('\n=== FINAL PLACEHOLDER VERIFICATION ===\n');
 
-let count425_539 = 0;
+let countByContinent = {};
 let countAll = 0;
+const placeholders = [];
 
-// Check lines 425-539
-for (let i = 424; i < 539 && i < namebases.length; i++) {
-  const nb = namebases[i];
+for (const nb of allNamebases) {
   if (!nb || !nb.b) continue;
+
   const cities = nb.b.split(',');
-  
-  // Check if placeholder pattern
   const firstCity = cities[0] || '';
   const nameBase = nb.name.replace(/[^a-zA-Z]/g, '').toLowerCase();
-  
-  if (cities.length < 6 && firstCity.includes(nameBase)) {
-    count425_539++;
-    console.log(`Line ${i + 1}: ${nb.name} (${cities.length} cities)`);
-  }
-}
 
-// Check entire file
-for (let i = 0; i < namebases.length; i++) {
-  const nb = namebases[i];
-  if (!nb || !nb.b) continue;
-  const cities = nb.b.split(',');
-  
-  const firstCity = cities[0] || '';
-  const nameBase = nb.name.replace(/[^a-zA-Z]/g, '').toLowerCase();
-  
   if (cities.length < 6 && firstCity.includes(nameBase)) {
     countAll++;
+    countByContinent[nb._continent] = (countByContinent[nb._continent] || 0) + 1;
+    placeholders.push({
+      continent: nb._continent,
+      name: nb.name,
+      index: nb.i,
+      count: cities.length,
+      firstCity: firstCity
+    });
   }
 }
 
-console.log(`\n=== FINAL RESULTS ===\n`);
-console.log(`Placeholders in lines 425-539: ${count425_539}`);
-console.log(`Total placeholders in file: ${countAll}`);
-console.log(`\nProgress: 66 placeholders fixed in lines 425-539`);
-console.log('File now has much better quality with authentic cities.');
+console.log('== PLACEHOLDERS BY CONTINENT ==');
+for (const [continent, count] of Object.entries(countByContinent)) {
+  console.log(`  ${continent}: ${count}`);
+}
+
+console.log('\n== PLACEHOLDER DETAILS ==\n');
+for (const p of placeholders) {
+  console.log(`[${p.continent}] ${p.name} (index ${p.index}, ${p.count} cities)`);
+  console.log(`  First city: ${p.firstCity}`);
+  console.log('');
+}
+
+console.log('=== FINAL RESULTS ===\n');
+console.log(`Total placeholders: ${countAll}`);
+console.log(`Total namebases: ${allNamebases.length}`);
+console.log(`Quality: ${Math.round((allNamebases.length - countAll) / allNamebases.length * 100)}%`);
+
+console.log('\n== ENTRIES BY CONTINENT ==');
+for (const m of metadata) {
+  console.log(`  ${m.file}: ${m.count} entries`);
+}

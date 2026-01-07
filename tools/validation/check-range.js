@@ -1,28 +1,77 @@
+/**
+ * Range Checker for Primus Placeholders
+ * 
+ * Scans entries by index range for Primus placeholders.
+ * Shows progress of placeholder replacement in that range.
+ * Displays sample replacements made in the checked area.
+ * Uses the new continent-based namebase system.
+ * 
+ * Usage:
+ *   node tools/validation/check-range.js [startIndex] [endIndex]
+ *   Default range: 2150-2250
+ */
+
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, 'modules', 'namebases-real.js');
-const content = fs.readFileSync(filePath, 'utf8');
+const CONTINENT_FILES = [
+  'modules/namebases-africa.js',
+  'modules/namebases-asia.js',
+  'modules/namebases-europe.js',
+  'modules/namebases-northAmerica.js',
+  'modules/namebases-southAmerica.js',
+  'modules/namebases-oceania.js'
+];
 
-const lines = content.split('\n');
-const startLine = 2150;
-const endLine = 2250;
+function loadContinentNamebases() {
+  const namebases = [];
+  for (const file of CONTINENT_FILES) {
+    if (fs.existsSync(file)) {
+      eval(fs.readFileSync(file, 'utf8'));
+      const varName = file.replace('modules/namebases-', '').replace('.js', '');
+      const capitalized = varName.charAt(0).toUpperCase() + varName.slice(1);
+      const globalName = capitalized + 'NameBases';
+      if (window[globalName] && Array.isArray(window[globalName])) {
+        for (const nb of window[globalName]) {
+          nb._sourceFile = path.basename(file);
+        }
+        namebases.push(...window[globalName]);
+      }
+    }
+  }
+  return namebases;
+}
+
+const startIndex = parseInt(process.argv[2] || '2150', 10);
+const endIndex = parseInt(process.argv[3] || '2250', 10);
+
+console.log(`\n=== CHECKING ENTRIES ${startIndex}-${endIndex} ===\n`);
+
+const namebases = loadContinentNamebases();
+const byIndex = new Map(namebases.filter(n => typeof n.i === 'number').map(n => [n.i, n]));
 
 let primusInRange = 0;
+const entriesInRange = [];
 
-for (let i = startLine - 1; i < endLine && i < lines.length; i++) {
-  if (lines[i].includes('b: "Primus"')) {
-    primusInRange++;
-    console.log(`Line ${i + 1}: ${lines[i].trim().substring(0, 100)}`);
+for (let i = startIndex; i <= endIndex; i++) {
+  const nb = byIndex.get(i);
+  if (nb && nb.b) {
+    if (nb.b.includes('Primus')) {
+      primusInRange++;
+      console.log(`Index ${i}: ${nb.name} (from ${nb._sourceFile || 'unknown'})`);
+      console.log(`  ${nb.b.substring(0, 100)}...`);
+    }
+    entriesInRange.push({ index: i, name: nb.name, hasPrimus: nb.b.includes('Primus'), source: nb._sourceFile });
   }
 }
 
-console.log(`\nPrimus entries in lines ${startLine}-${endLine}: ${primusInRange}`);
+console.log(`\nPrimus entries in indices ${startIndex}-${endIndex}: ${primusInRange}`);
+console.log(`Total entries in range: ${entriesInRange.length}`);
 
-// Show some sample replacements
-console.log('\n--- Sample of replacements made in range ---');
-for (let i = startLine - 1; i < startLine + 10 && i < lines.length; i++) {
-  if (!lines[i].includes('b: "Primus"') && lines[i].includes('b: ')) {
-    console.log(`Line ${i + 1}: ${lines[i].trim().substring(0, 90)}...`);
-  }
+const nonPrimus = entriesInRange.filter(e => !e.hasPrimus);
+if (nonPrimus.length > 0) {
+  console.log(`\n--- Sample of non-Primus entries in range ---`);
+  nonPrimus.slice(0, 5).forEach(e => {
+    console.log(`Index ${e.index}: ${e.name} (from ${e.source})`);
+  });
 }

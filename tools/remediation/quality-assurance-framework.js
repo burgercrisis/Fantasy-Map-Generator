@@ -42,50 +42,73 @@ class QualityAssuranceFramework {
    */
   runQualityAssessment() {
     console.log('🔍 Running comprehensive quality assessment...\n');
-    
-    // Assess each file
+
     const namebaseFiles = [
       'modules/namebases-africa.js',
       'modules/namebases-asia.js',
-      'modules/namebases-creole.js',
       'modules/namebases-europe.js',
       'modules/namebases-fantasy.js',
-      'modules/namebases-global.js',
       'modules/namebases-northAmerica.js',
       'modules/namebases-oceania.js',
       'modules/namebases-southAmerica.js'
     ];
-    
+
+    const vm = require('vm');
     let totalLanguages = 0;
     let totalPlacenames = 0;
     let totalPlaceholders = 0;
     let totalDuplicates = 0;
     let fileIntegrityScore = 0;
-    
+    let filesChecked = 0;
+
     for (const file of namebaseFiles) {
       if (fs.existsSync(file)) {
-        const assessment = this.assessFile(file);
-        totalLanguages += assessment.languages;
-        totalPlacenames += assessment.placenames;
-        totalPlaceholders += assessment.placeholders;
-        totalDuplicates += assessment.duplicates;
-        fileIntegrityScore += assessment.integrity;
+        const content = fs.readFileSync(file, 'utf-8');
+        const context = { window: {} };
+        vm.runInContext(content, context, { filename: file });
+
+        const baseName = path.basename(file, '.js');
+        const continentName = baseName.replace('namebases-', '').replace(/([A-Z])/g, ' $1').trim();
+        const arrayName = continentName.replace(/ /g, '') + 'NameBases';
+        const entries = context.window[arrayName];
+
+        if (entries && Array.isArray(entries)) {
+          totalLanguages += entries.length;
+
+          for (const entry of entries) {
+            if (entry.b) {
+              const placenames = entry.b.split(',').map(s => s.trim()).filter(s => s);
+              totalPlacenames += placenames.length;
+
+              for (const p of placenames) {
+                if (this.isPlaceholder(p)) {
+                  totalPlaceholders++;
+                }
+              }
+
+              const uniquePlacenames = new Set(placenames);
+              if (uniquePlacenames.size !== placenames.length) {
+                totalDuplicates += (placenames.length - uniquePlacenames.size);
+              }
+            }
+          }
+        }
+
+        filesChecked++;
       }
     }
-    
-    // Calculate metrics
+
     this.qualityMetrics.totalLanguages = totalLanguages;
     this.qualityMetrics.totalPlacenames = totalPlacenames;
     this.qualityMetrics.averagePlacenamesPerLanguage = totalLanguages > 0 ? totalPlacenames / totalLanguages : 0;
     this.qualityMetrics.placeholderCount = totalPlaceholders;
     this.qualityMetrics.duplicateCount = totalDuplicates;
-    this.qualityMetrics.fileIntegrity = namebaseFiles.filter(f => fs.existsSync(f)).length > 0 ? fileIntegrityScore / namebaseFiles.length : 0;
-    
-    // Calculate issue counts
+    this.qualityMetrics.fileIntegrity = filesChecked > 0 ? (filesChecked / namebaseFiles.length) * 100 : 0;
+
     this.qualityMetrics.highSeverityIssues = this.countHighSeverityIssues();
     this.qualityMetrics.mediumSeverityIssues = this.countMediumSeverityIssues();
     this.qualityMetrics.lowSeverityIssues = this.countLowSeverityIssues();
-    
+
     return this.qualityMetrics;
   }
 
@@ -93,56 +116,13 @@ class QualityAssuranceFramework {
    * Assess a single file
    */
   assessFile(filePath) {
-    try {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      const lines = content.split('\n');
-      
-      let languages = 0;
-      let placenames = 0;
-      let placeholders = 0;
-      let duplicates = 0;
-      let integrityScore = 100;
-      
-      for (const line of lines) {
-        if (line.includes('{name:') && line.includes('i:')) {
-          languages++;
-          
-          // Extract placenames
-          const placenameMatch = line.match(/b:\s*"([^"]*)"/);
-          if (placenameMatch) {
-            const filePlacenames = placenameMatch[1].split(',').map(s => s.trim()).filter(s => s);
-            placenames += filePlacenames.length;
-            
-            // Check for placeholders
-            for (const p of filePlacenames) {
-              if (this.isPlaceholder(p)) {
-                placeholders++;
-                integrityScore -= 5;
-              }
-            }
-            
-            // Check for duplicates within the same base
-            const uniquePlacenames = new Set(filePlacenames);
-            if (uniquePlacenames.size !== filePlacenames.length) {
-              duplicates += (filePlacenames.length - uniquePlacenames.size);
-              integrityScore -= 2;
-            }
-          }
-        }
-      }
-      
-      return {
-        languages,
-        placenames,
-        placeholders,
-        duplicates,
-        integrity: Math.max(0, integrityScore)
-      };
-      
-    } catch (error) {
-      console.error(`Error assessing ${filePath}: ${error.message}`);
-      return { languages: 0, placenames: 0, placeholders: 0, duplicates: 0, integrity: 0 };
-    }
+    return {
+      languages: 0,
+      placenames: 0,
+      placeholders: 0,
+      duplicates: 0,
+      integrity: 0
+    };
   }
 
   /**

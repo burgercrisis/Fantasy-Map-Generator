@@ -1,3 +1,16 @@
+/**
+ * Next Batch ISO Selector
+ *
+ * Analyzes language mixer seed uniqueness report and extracts target ISOs
+ * for the next remediation batch (limited to 25 entries).
+ *
+ * Usage:
+ *   node tools/mixer-core/get-next-batch.js
+ *
+ * Output:
+ *   JSON array of ISO codes with NO_UNIQ_BASE status
+ */
+
 const { execSync } = require('child_process');
 const fs = require('fs');
 

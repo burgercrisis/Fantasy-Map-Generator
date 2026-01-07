@@ -1,59 +1,71 @@
 const fs = require('fs');
+const path = require('path');
 
-const lines = fs.readFileSync('modules/namebases-real.js', 'utf8').split('\n');
+const continentFiles = [
+  'namebases-africa.js',
+  'namebases-asia.js',
+  'namebases-europe.js',
+  'namebases-northAmerica.js',
+  'namebases-southAmerica.js',
+  'namebases-oceania.js',
+  'namebases-fantasy.js'
+];
+
+const modulesPath = path.join(__dirname, '..', '..', 'modules');
+
+function parseJSArray(content) {
+  const start = content.indexOf('[');
+  const end = content.lastIndexOf('];');
+  if (start === -1 || end === -1) return [];
+  const jsStr = content.slice(start, end + 1);
+  try {
+    return new Function(`return ${jsStr}`)();
+  } catch (e) {
+    return [];
+  }
+}
+
 let issues = [];
 
-lines.forEach((line, i) => {
-  const nameMatch = line.match(/name:\s*"([^"]+)"/);
-  if (!nameMatch) return;
-  const name = nameMatch[1];
+continentFiles.forEach(file => {
+  const filePath = path.join(modulesPath, file);
+  if (fs.existsSync(filePath)) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const entries = parseJSArray(content);
 
-  // Empty name
-  if (name.match(/^\s+$/)) {
-    issues.push({line: i+1, issue: 'empty name', value: name});
-  }
+    entries.forEach((entry, idx) => {
+      if (!entry) return;
 
-  // Name too short (< 2 chars, already handled)
-  if (name.length < 2) {
-    issues.push({line: i+1, issue: 'name too short', value: name});
-  }
+      const lineNum = idx + 1;
 
-  // Name too long (> 50 chars)
-  if (name.length > 50) {
-    issues.push({line: i+1, issue: 'name too long', value: name});
-  }
+      if (!entry.name) {
+        issues.push({ file, line: lineNum, issue: 'missing name', value: 'N/A' });
+      } else if (entry.name.match(/^\s+$/)) {
+        issues.push({ file, line: lineNum, issue: 'empty name', value: entry.name });
+      } else if (entry.name.length < 2) {
+        issues.push({ file, line: lineNum, issue: 'name too short', value: entry.name });
+      } else if (entry.name.length > 50) {
+        issues.push({ file, line: lineNum, issue: 'name too long', value: entry.name });
+      }
 
-  // Invalid index
-  const iMatch = line.match(/i:\s*(\d+)/);
-  if (iMatch) {
-    const idx = parseInt(iMatch[1]);
-    if (idx < 0 || idx > 30000) {
-      issues.push({line: i+1, issue: 'invalid index', value: idx, name: name});
-    }
-  }
+      if (typeof entry.i !== 'number') {
+        issues.push({ file, line: lineNum, issue: 'missing index', value: entry.i, name: entry.name });
+      } else if (entry.i < 0 || entry.i > 30000) {
+        issues.push({ file, line: lineNum, issue: 'invalid index', value: entry.i, name: entry.name });
+      }
 
-  // Empty cities
-  const bMatch = line.match(/b:\s*"([^"]+)"/);
-  if (bMatch) {
-    const cities = bMatch[1];
-    if (cities.length === 0) {
-      issues.push({line: i+1, issue: 'empty cities', name: name});
-    }
-    // Trailing comma in cities
-    if (cities.match(/,\s*$/)) {
-      issues.push({line: i+1, issue: 'trailing comma', name: name});
-    }
-  }
-
-  // Check for unbalanced quotes
-  const openQuotes = (line.match(/"/g) || []).length;
-  const closeQuotes = (line.match(/"/g) || []).length;
-  if (openQuotes !== closeQuotes) {
-    issues.push({line: i+1, issue: 'unbalanced quotes', name: name});
+      if (!entry.b) {
+        issues.push({ file, line: lineNum, issue: 'missing cities', name: entry.name });
+      } else if (entry.b.length === 0) {
+        issues.push({ file, line: lineNum, issue: 'empty cities', name: entry.name });
+      } else if (entry.b.match(/,\s*$/)) {
+        issues.push({ file, line: lineNum, issue: 'trailing comma in cities', name: entry.name });
+      }
+    });
   }
 });
 
 console.log(`Found ${issues.length} structural issues:`);
 issues.slice(0, 30).forEach(x => {
-  console.log(`Line ${x.line} (${x.issue})${x.name ? ': ' + x.name : ''}${x.value !== undefined ? ' = ' + x.value : ''}`);
+  console.log(`[${x.file}] Line ${x.line} (${x.issue})${x.name ? ': ' + x.name : ''}${x.value !== undefined ? ' = ' + x.value : ''}`);
 });

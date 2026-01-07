@@ -17,16 +17,24 @@ class NamebaseCompatibility {
   constructor() {
     this.regionalFiles = [
       'namebases-africa.js',
-      'namebases-asia.js', 
-      'namebases-creole.js',
+      'namebases-asia.js',
       'namebases-europe.js',
       'namebases-fantasy.js',
-      'namebases-global.js',
       'namebases-northAmerica.js',
       'namebases-oceania.js',
       'namebases-southAmerica.js'
     ];
-    
+
+    this.continentArrays = {
+      'namebases-africa.js': 'AfricaNameBases',
+      'namebases-asia.js': 'AsiaNameBases',
+      'namebases-europe.js': 'EuropeNameBases',
+      'namebases-fantasy.js': 'FantasyNameBases',
+      'namebases-northAmerica.js': 'NorthAmericaNameBases',
+      'namebases-oceania.js': 'OceaniaNameBases',
+      'namebases-southAmerica.js': 'SouthAmericaNameBases'
+    };
+
     this.compatibilityCache = new Map();
     this.isLoaded = false;
   }
@@ -36,26 +44,41 @@ class NamebaseCompatibility {
    */
   loadAllNamebases() {
     if (this.isLoaded) return this.compatibilityCache;
-    
+
     console.log('🔄 Loading regional namebase files for compatibility...');
-    
+
+    const vm = require('vm');
     let allBases = [];
     let totalPlacenames = 0;
-    
-    // Load each regional file
+
     for (const fileName of this.regionalFiles) {
       const filePath = path.join(__dirname, '../../modules', fileName);
-      
+
       try {
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf-8');
-          const bases = this.extractBasesFromFile(content, fileName);
-          allBases.push(...bases);
-          
+          const context = { window: {}, module: { exports: {} } };
+          vm.runInContext(content, context, { filename: fileName });
+
+          const arrayName = this.continentArrays[fileName];
+          const bases = context.window[arrayName] || [];
+
           totalPlacenames += bases.reduce((sum, base) => {
             return sum + (base.b ? base.b.split(',').length : 0);
           }, 0);
-          
+
+          allBases.push(...bases.map((base, idx) => ({
+            i: base.i || idx,
+            name: base.name,
+            b: base.b || '',
+            min: base.min || 3,
+            max: base.max || 15,
+            d: base.d || 0,
+            m: base.m || 0,
+            _source: fileName,
+            _continent: arrayName.replace('NameBases', '')
+          })));
+
           console.log(`  ✓ Loaded ${bases.length} languages from ${fileName}`);
         } else {
           console.log(`  ⚠ File not found: ${fileName}`);
@@ -64,21 +87,19 @@ class NamebaseCompatibility {
         console.warn(`  ⚠ Error loading ${fileName}: ${error.message}`);
       }
     }
-    
-    // Sort by index for consistency
+
     allBases.sort((a, b) => (a.i || 0) - (b.i || 0));
-    
-    // Cache the results
+
     this.compatibilityCache.set('allBases', allBases);
     this.compatibilityCache.set('totalCount', allBases.length);
     this.compatibilityCache.set('totalPlacenames', totalPlacenames);
-    
+
     this.isLoaded = true;
-    
+
     console.log(`\n📊 Compatibility Layer Loaded:`);
     console.log(`  Total languages: ${allBases.length}`);
     console.log(`  Total placenames: ${totalPlacenames}`);
-    
+
     return this.compatibilityCache;
   }
 
@@ -86,51 +107,12 @@ class NamebaseCompatibility {
    * Extract namebase entries from a JavaScript file
    */
   extractBasesFromFile(content, fileName) {
-    const bases = [];
-    
-    try {
-      // Execute the JavaScript content to get the window object
-      const window = {};
-      const module = { exports: {} };
-      
-      // Create a safe evaluation context
-      const evalCode = `
-        (function() {
-          ${content}
-          return { bases: window.creoleNameBases || window.namebases || [] };
-        })()
-      `;
-      
-      const result = eval(evalCode);
-      const fileBases = result.bases || [];
-      
-      // Convert to legacy format
-      fileBases.forEach((base, index) => {
-        const legacyBase = {
-          i: base.i || index,
-          name: base.name,
-          b: base.b || '',
-          min: base.min || 3,
-          max: base.max || 15,
-          d: base.d || 0,
-          m: base.m || 0,
-          _source: fileName
-        };
-        
-        bases.push(legacyBase);
-      });
-      
-    } catch (error) {
-      console.warn(`Error parsing ${fileName}: ${error.message}`);
-      
-      // Fallback: try to extract using regex
-      const lines = content.split('\n');
-      for (const line of lines) {
-        if (line.trim().startsWith('{') && line.includes('name:')) {
-          const base = this.parseBaseFromLine(line);
-          if (base) {
-            bases.push(base);
-          }
+    return [];
+  }
+
+  parseBaseFromLine(line) {
+    return null;
+  }
         }
       }
     }

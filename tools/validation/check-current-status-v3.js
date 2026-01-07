@@ -1,12 +1,41 @@
+/**
+ * Current Status Report (v3)
+ * 
+ * Most detailed status snapshot:
+ * - Entry count and total bases
+ * - Placeholder pattern detection
+ * - 'd' value analysis (lnrt, empty)
+ * - Short base identification with examples
+ * - "(dedicated)" suffix check
+ * 
+ * Usage:
+ *   node tools/validation/check-current-status-v3.js
+ */
+
 const fs = require('fs');
+const path = require('path');
 
-const content = fs.readFileSync('modules/namebases-real.js', 'utf8');
+const continentFiles = [
+  'modules/namebases-africa.js',
+  'modules/namebases-asia.js',
+  'modules/namebases-europe.js',
+  'modules/namebases-northAmerica.js',
+  'modules/namebases-southAmerica.js',
+  'modules/namebases-oceania.js'
+];
 
-console.log('Current Status of namebases-real.js:\n');
+let combinedContent = '';
+continentFiles.forEach(file => {
+  if (fs.existsSync(file)) {
+    combinedContent += fs.readFileSync(file, 'utf8') + '\n';
+  }
+});
+
+console.log('Current Status of continent namebase files:\n');
 
 // Count entries
 const entryPattern = /{ name: "([^"]+)", i: (\d+)/g;
-const matches = [...content.matchAll(entryPattern)];
+const matches = [...combinedContent.matchAll(entryPattern)];
 console.log(`Total entries: ${matches.length}`);
 
 // Check for placeholder names in "b" property
@@ -21,13 +50,13 @@ const placeholderPatterns = [
 ];
 
 placeholderPatterns.forEach(p => {
-  const matches = content.match(p.pattern);
+  const matches = combinedContent.match(p.pattern);
   console.log(`${p.name} placeholders: ${matches ? matches.length : 0}`);
 });
 
 // Check d values
-const lnrtMatches = content.match(/d:\s*"lnrt"/g);
-const emptyDMatches = content.match(/d:\s*""/g);
+const lnrtMatches = combinedContent.match(/d:\s*"lnrt"/g);
+const emptyDMatches = combinedContent.match(/d:\s*""/g);
 
 console.log(`\n"d" values:`);
 console.log(`  "lnrt": ${lnrtMatches ? lnrtMatches.length : 0}`);
@@ -37,7 +66,7 @@ console.log(`  Empty (""): ${emptyDMatches ? emptyDMatches.length : 0}`);
 const basePattern = /b:\s*"([^"]+)"/g;
 let baseMatch;
 const bases = [];
-while ((baseMatch = basePattern.exec(content)) !== null) {
+while ((baseMatch = basePattern.exec(combinedContent)) !== null) {
   const cities = baseMatch[1].split(',');
   bases.push(cities.length);
 }
@@ -56,7 +85,7 @@ console.log(`  Max cities: ${Math.max(...bases)}`);
 const entryBasePattern = /{[^}]*name:\s*"([^"]+)"[^}]*b:\s*"([^"]+)"[^}]*}/g;
 const shortBaseEntries = [];
 let entryMatch;
-while ((entryMatch = entryBasePattern.exec(content)) !== null) {
+while ((entryMatch = entryBasePattern.exec(combinedContent)) !== null) {
   const cities = entryMatch[2].split(',');
   if (cities.length < 4) {
     shortBaseEntries.push({
@@ -75,5 +104,5 @@ if (shortBaseEntries.length > 0) {
 }
 
 // Check for (dedicated) suffix
-const dedicatedMatches = content.match(/name:\s*"[^"]*\(dedicated\)/g);
+const dedicatedMatches = combinedContent.match(/name:\s*"[^"]*\(dedicated\)/g);
 console.log(`\n(dedicated) suffix: ${dedicatedMatches ? dedicatedMatches.length : 0}`);

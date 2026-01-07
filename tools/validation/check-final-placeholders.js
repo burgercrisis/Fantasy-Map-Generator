@@ -1,43 +1,62 @@
 "use strict";
 
-const fs = require('fs');
-eval(fs.readFileSync('modules/namebases-real.js', 'utf8'));
-const namebases = window.realWorldNameBases;
+/**
+ * Final Placeholder Verification
+ *
+ * Final check for remaining placeholders in all continent namebase files.
+ * Identifies entries where first city matches pattern: LanguageName + 'a,'
+ * Indicates placeholder-generated names needing authentic city replacement.
+ *
+ * Usage:
+ *   node tools/validation/check-final-placeholders.js
+ */
+
+const { loadAllNamebases } = require('./namebase-loader');
+
+const { allNamebases } = loadAllNamebases();
 
 console.log('\n=== CHECKING FOR REMAINING PLACEHOLDERS ===\n');
 
-let count = 0;
 const placeholders = [];
 
-for (let i = 0; i < namebases.length; i++) {
-  const nb = namebases[i];
+for (const nb of allNamebases) {
   if (!nb || !nb.b) continue;
-  
+
   const name = nb.name.replace(/[^a-zA-Z]/g, '').toLowerCase();
   const bases = nb.b.split(',');
-  
+
   if (bases.length < 5 && bases[0].includes(name + 'a,')) {
-    count++;
     placeholders.push({
-      line: i + 1,
+      continent: nb._continent,
       name: nb.name,
+      index: nb.i,
       count: bases.length
     });
   }
 }
 
-console.log(`Total remaining placeholders: ${count}\n`);
+console.log(`Total remaining placeholders: ${placeholders.length}\n`);
 
-if (count > 0) {
-  console.log('Placeholders found:');
+if (placeholders.length > 0) {
+  console.log('== PLACEHOLDERS BY CONTINENT ==');
+  const byContinent = {};
+  for (const p of placeholders) {
+    byContinent[p.continent] = (byContinent[p.continent] || 0) + 1;
+  }
+  for (const [continent, count] of Object.entries(byContinent)) {
+    console.log(`  ${continent}: ${count}`);
+  }
+
+  console.log('\n== PLACEHOLDER DETAILS ==\n');
   placeholders.forEach(p => {
-    console.log(`  Line ${p.line}: ${p.name} (${p.count} cities)`);
+    console.log(`[${p.continent}] ${p.name} (index ${p.index}, ${p.count} cities)`);
   });
+  console.log('');
 } else {
   console.log('✓ No placeholders found - all fixed!\n');
 }
 
-console.log('\n=== SUMMARY ===\n');
-console.log(`Total namebases: ${namebases.length}`);
-console.log(`Remaining placeholders: ${count}`);
-console.log(`Quality: ${Math.round((namebases.length - count) / namebases.length * 100)}%`);
+console.log('=== SUMMARY ===\n');
+console.log(`Total namebases: ${allNamebases.length}`);
+console.log(`Remaining placeholders: ${placeholders.length}`);
+console.log(`Quality: ${Math.round((allNamebases.length - placeholders.length) / allNamebases.length * 100)}%`);

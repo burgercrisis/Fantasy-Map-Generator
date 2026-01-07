@@ -1,7 +1,20 @@
+"use strict";
+
+/**
+ * Caucasian Language Mixer Map Updater
+ * 
+ * Updates the language-mixer-map.json with correct base indices for Caucasian languages.
+ * Specifically fixes Abkhaz, Adyghe, Chechen, Kva, and Ava language entries.
+ * 
+ * Usage:
+ *   node tools/updates/update_mixer_map_caucasian.js
+ */
+
 const fs = require('fs');
 const path = require('path');
 
-const mixerMapPath = path.resolve(__dirname, 'config/language-mixer-map.json');
+const CONFIG_DIR = path.resolve(__dirname, '..', 'config');
+const mixerMapPath = path.join(CONFIG_DIR, 'language-mixer-map.json');
 let mixerMap = JSON.parse(fs.readFileSync(mixerMapPath, 'utf8'));
 
 const updates = {

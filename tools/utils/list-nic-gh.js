@@ -1,35 +1,60 @@
 "use strict";
 
 const fs = require('fs');
+const path = require('path');
 
-const content = fs.readFileSync('modules/namebases-real.js', 'utf8');
+const CONTINENT_FILES = [
+  'namebases-africa.js',
+  'namebases-asia.js',
+  'namebases-europe.js',
+  'namebases-northAmerica.js',
+  'namebases-southAmerica.js',
+  'namebases-oceania.js',
+  'namebases-fantasy.js',
+  'namebases-creole.js'
+];
 
-// Extract all entries with nic-GH
+const MODULES_DIR = path.join(__dirname, '..', '..', 'modules');
+
+function parseContinentFile(filename) {
+  const filepath = path.join(MODULES_DIR, filename);
+  if (!fs.existsSync(filepath)) {
+    return { filename, content: null, error: 'File not found' };
+  }
+
+  const content = fs.readFileSync(filepath, 'utf-8');
+  return { filename, content, error: null };
+}
+
 const entries = [];
-const regex = /\{([^}]*name:\s*"([^"]+)"[^}]*)\}/g;
-let match;
 
-while ((match = regex.exec(content)) !== null) {
-  const fullEntry = match[0];
-  const name = match[2];
+for (const filename of CONTINENT_FILES) {
+  const result = parseContinentFile(filename);
+  if (result.error || !result.content) {
+    continue;
+  }
 
-  // Check if this entry has d: "nic-GH"
-  if (fullEntry.includes('d: "nic-GH"')) {
-    entries.push(name);
+  const regex = /\{\s*"name":\s*"([^"]+)"[^}]*"d":\s*"[^"]*nic-GH[^"]*"[^}]*\}/g;
+  let match;
+
+  while ((match = regex.exec(result.content)) !== null) {
+    entries.push({
+      name: match[1],
+      file: filename.replace('namebases-', '').replace('.js', '')
+    });
   }
 }
 
-console.log(`Languages with d: "nic-GH" (${entries.length} total):`);
+console.log(`Languages with d: "nic-GH" (${entries.length} total across ${CONTINENT_FILES.length} files):`);
 console.log('========================================');
 
-// Display in columns
 const cols = 4;
 for (let i = 0; i < entries.length; i += cols) {
   const row = entries.slice(i, i + cols);
-  console.log(row.map(name => name.padEnd(30)).join(''));
+  console.log(row.map(e => `${e.name.padEnd(28)} [${e.file}]`).join(''));
 }
 
 console.log('\n\nFirst 50 entries:');
-entries.slice(0, 50).forEach(name => {
-  console.log(`  - ${name}`);
+entries.slice(0, 50).forEach(e => {
+  console.log(`  - ${e.name} (${e.file})`);
 });

@@ -1,11 +1,30 @@
 "use strict";
 
-eval(fs.readFileSync('modules/namebases-real.js', 'utf8'));
+/**
+ * Final Verification Report (v2)
+ * 
+ * Alternative verification script checking for known placeholder patterns.
+ * Scans all continent namebase files for generated city name patterns.
+ * Reports on entries with potential placeholder data.
+ * 
+ * Usage:
+ *   node tools/validation/final-verification-v2.js
+ */
 
-const namebases = window.realWorldNameBases;
-console.log('\n=== FINAL VERIFICATION ===\n');
+const fs = require('fs');
+const path = require('path');
 
-let smallBases = 0;
+const modulesPath = 'modules';
+const continentFiles = [
+  'namebases-africa.js',
+  'namebases-asia.js',
+  'namebases-europe.js',
+  'namebases-northAmerica.js',
+  'namebases-southAmerica.js',
+  'namebases-oceania.js',
+  'namebases-fantasy.js'
+];
+
 const placeholderPatterns = [
   'fabrianob,fabrianoc,fabrianod,fabrianoe,fabrianof',
   'faetara,faetarb,faetarc,faetard,faetare',
@@ -29,27 +48,88 @@ const placeholderPatterns = [
   'jauer,jauera,jauerb,jauerc,jauerd,jauere'
 ];
 
-for (let i = 0; i < namebases.length; i++) {
-  const nb = namebases[i];
-  if (!nb || !nb.b) continue;
-  
-  const cities = nb.b.split(',');
-  
-  placeholderPatterns.some(p => cities[0].includes(p))
+function parseJSArray(filePath) {
+  let content = fs.readFileSync(filePath, 'utf8');
+  const startIndex = content.indexOf('[');
+  const endIndex = content.lastIndexOf('];');
+  if (startIndex === -1 || endIndex === -1) return [];
+  const jsStr = content.substring(startIndex, endIndex + 1);
+  try {
+    return new Function(`return ${jsStr}`)();
+  } catch (e) {
+    return [];
+  }
 }
 
-console.log(`\n=== PLACEHOLDER COUNT ===\n`);
-console.log(`Potential placeholders found: ${smallBases.length}\n`);
+console.log('\n=== FINAL VERIFICATION (v2) ===\n');
 
-if (smallBases.length > 0) {
-  console.log('Potential placeholders:');
-  smallBases.slice(0, 30).forEach(nb => {
-    console.log(`  Line ${nb.i + 1}: ${nb.name} (${nb.b.split(',').length} cities)`);
-    console.log(`  First: ${nb.b.split(',')[0].substring(0, 40)}...`);
+let totalEntries = 0;
+let smallBases = 0;
+let patternMatches = 0;
+const potentialPlaceholders = [];
+
+continentFiles.forEach(file => {
+  const filePath = path.join(modulesPath, file);
+  if (!fs.existsSync(filePath)) return;
+  
+  const entries = parseJSArray(filePath);
+  const continent = file.replace('namebases-', '').replace('.js', '');
+  
+  console.log(`Checking ${file}: ${entries.length} entries`);
+  
+  entries.forEach(nb => {
+    if (!nb || !nb.b) return;
+    totalEntries++;
+    
+    const cities = nb.b.split(',');
+    
+    if (cities.length < 5) {
+      smallBases++;
+      potentialPlaceholders.push({ name: nb.name, i: nb.i, count: cities.length, continent, file });
+    }
+    
+    const firstCity = cities[0] || '';
+    const matchesPattern = placeholderPatterns.some(p => firstCity.includes(p.substring(0, 10)));
+    if (matchesPattern) {
+      patternMatches++;
+      potentialPlaceholders.push({ name: nb.name, i: nb.i, count: cities.length, continent, file, reason: 'pattern' });
+    }
+  });
+});
+
+console.log('\n=== PLACEHOLDER COUNT ===\n');
+console.log(`Total entries scanned: ${totalEntries}`);
+console.log(`Entries with <5 cities: ${smallBases}`);
+console.log(`Pattern matches: ${patternMatches}`);
+console.log(`Total potential placeholders: ${potentialPlaceholders.length}`);
+
+console.log('\n=== QUALITY SCORE ===\n');
+const authenticQuality = totalEntries > 0 ? Math.round((totalEntries - potentialPlaceholders.length) / totalEntries * 100) : 0;
+console.log(`Authentic quality: ${authenticQuality}%`);
+
+if (potentialPlaceholders.length > 0) {
+  console.log('\n=== TOP POTENTIAL PLACEHOLDERS ===\n');
+  potentialPlaceholders.slice(0, 20).forEach(p => {
+    console.log(`  [${p.continent}] ${p.name} (i=${p.i}, cities=${p.count})`);
   });
 }
 
-console.log(`\n=== SUMMARY ===\n`);
-console.log(`Total namebases: ${namebases.length}`);
-console.log(`With <5 cities: ${smallBases.length}`);
-console.log(`Authentic quality: ${Math.round((namebases.length - smallBases.length) / namebases.length * 100)}%\n`);
+console.log('\n=== CONTINENT BREAKDOWN ===\n');
+const continentStats = {};
+continentFiles.forEach(file => {
+  const filePath = path.join(modulesPath, file);
+  if (!fs.existsSync(filePath)) return;
+  
+  const entries = parseJSArray(filePath);
+  const continent = file.replace('namebases-', '').replace('.js', '');
+  
+  let continentSmall = 0;
+  entries.forEach(nb => {
+    if (nb && nb.b) {
+      const cities = nb.b.split(',');
+      if (cities.length < 5) continentSmall++;
+    }
+  });
+  
+  console.log(`  ${continent}: ${entries.length} entries, ${continentSmall} with <5 cities`);
+});

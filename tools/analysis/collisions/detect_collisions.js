@@ -7,6 +7,9 @@ const files = fs.readdirSync(modulesDir).filter(f => f.startsWith('namebases-') 
 const indexMap = new Map();
 const collisions = [];
 
+/* This part of the code is iterating over each file in the `files` array, reading the content of each
+file synchronously using `fs.readFileSync`, and then using a regular expression to extract specific
+data from the file content. */
 files.forEach(file => {
     const content = fs.readFileSync(path.join(modulesDir, file), 'utf8');
     // regex to match {name: "...", i: 123, ...}

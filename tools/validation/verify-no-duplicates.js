@@ -1,21 +1,60 @@
-const fs = require('fs');
+"use strict";
 
-const content = fs.readFileSync('modules/namebases-real.js', 'utf-8');
-const lines = content.split('\n');
+/**
+ * Duplicate City Verification Script
+ *
+ * Checks if any namebase entries contain duplicate city names.
+ * Reports count of entries needing cleanup.
+ *
+ * Usage:
+ *   node tools/validation/verify-no-duplicates.js
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const continentFiles = [
+  'namebases-africa.js',
+  'namebases-asia.js',
+  'namebases-europe.js',
+  'namebases-northAmerica.js',
+  'namebases-southAmerica.js',
+  'namebases-oceania.js',
+  'namebases-fantasy.js'
+];
+
+const modulesPath = path.join(__dirname, '..', '..', 'modules');
+
+function parseJSArray(content) {
+  const start = content.indexOf('[');
+  const end = content.lastIndexOf('];');
+  if (start === -1 || end === -1) return [];
+  const jsStr = content.slice(start, end + 1);
+  try {
+    return new Function(`return ${jsStr}`)();
+  } catch (e) {
+    return [];
+  }
+}
 
 let count = 0;
-lines.forEach((line) => {
-  if (line.includes('{ name:') && line.includes('b:')) {
-    const bMatch = line.match(/b: "([^"]+)"/);
-    if (bMatch) {
-      const b = bMatch[1];
-      const cities = b.split(',');
-      const uniqueCities = new Set(cities);
 
-      if (uniqueCities.size < cities.length) {
-        count++;
+continentFiles.forEach(file => {
+  const filePath = path.join(modulesPath, file);
+  if (fs.existsSync(filePath)) {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const entries = parseJSArray(content);
+
+    entries.forEach(entry => {
+      if (entry && entry.b) {
+        const cities = entry.b.split(',');
+        const uniqueCities = new Set(cities);
+
+        if (uniqueCities.size < cities.length) {
+          count++;
+        }
       }
-    }
+    });
   }
 });
 

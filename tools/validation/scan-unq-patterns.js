@@ -1,24 +1,66 @@
+"use strict";
+
 const fs = require('fs');
+const path = require('path');
 
-const content = fs.readFileSync('modules/namebases-real.js', 'utf-8');
-const lines = content.split('\n');
+const CONTINENT_FILES = [
+  'modules/namebases-africa.js',
+  'modules/namebases-asia.js',
+  'modules/namebases-europe.js',
+  'modules/namebases-northAmerica.js',
+  'modules/namebases-southAmerica.js',
+  'modules/namebases-oceania.js',
+  'modules/namebases-fantasy.js'
+];
 
-// Find patterns with unq
 const unqPatterns = [];
-lines.forEach((line, index) => {
-  if (line.includes('unq') && line.includes('b:')) {
-    const match = line.match(/b: "([^"]+)"/);
-    if (match) {
-      unqPatterns.push({ line: index + 1, b: match[1] });
+const unqByContinent = {};
+let totalCount = 0;
+
+console.log('\n=== UNQ PATTERN SCANNER ===\n');
+
+for (const filePath of CONTINENT_FILES) {
+  if (!fs.existsSync(filePath)) continue;
+
+  const content = fs.readFileSync(filePath, 'utf8');
+  const continent = path.basename(filePath, '.js').replace('namebases-', '');
+  const lines = content.split('\n');
+
+  unqByContinent[continent] = [];
+
+  lines.forEach((line, index) => {
+    if (line.includes('unq') && line.includes('b:')) {
+      const match = line.match(/b: "([^"]+)"/);
+      if (match) {
+        const entry = { continent, line: index + 1, b: match[1] };
+        unqPatterns.push(entry);
+        unqByContinent[continent].push(entry);
+        totalCount++;
+      }
     }
+  });
+}
+
+console.log(`Found ${totalCount} lines with unq patterns across all continents:\n`);
+
+const displayLimit = 50;
+for (const [continent, patterns] of Object.entries(unqByContinent)) {
+  if (patterns.length > 0) {
+    console.log(`--- ${continent} (${patterns.length} entries) ---`);
+    patterns.slice(0, 10).forEach((item, i) => {
+      console.log(`${i + 1}. Line ${item.line}: ${item.b.substring(0, 70)}...`);
+    });
+    if (patterns.length > 10) {
+      console.log(`  ... and ${patterns.length - 10} more in ${continent}`);
+    }
+    console.log('');
   }
-});
+}
 
-console.log(`Found ${unqPatterns.length} lines with unq patterns:`);
-unqPatterns.slice(0, 30).forEach((item, i) => {
-  console.log(`${i + 1}. Line ${item.line}: ${item.b.substring(0, 80)}...`);
-});
+if (unqPatterns.length > displayLimit) {
+  console.log(`\n... and ${unqPatterns.length - displayLimit} more entries across all continents`);
+}
 
-if (unqPatterns.length > 30) {
-  console.log(`\n... and ${unqPatterns.length - 30} more`);
+if (totalCount === 0) {
+  console.log('✓ No unq patterns found');
 }
