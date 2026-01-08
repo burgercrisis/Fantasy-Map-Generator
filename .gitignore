@@ -47,3 +47,7 @@ TEMP_DO_NOT_CREATE
 .runtime/
 *.sqlite-shm
 *.sqlite-wal
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
