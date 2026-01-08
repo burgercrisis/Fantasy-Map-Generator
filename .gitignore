@@ -51,3 +51,4 @@ TEMP_DO_NOT_CREATE
 
 #Ignore vscode AI rules
 .github\instructions\codacy.instructions.md
+"docs/reports/language-quality-metrics.csv"  
