@@ -2,11 +2,11 @@
   "generatedAt": "2026-01-07T03:21:58.161Z",
   "summary": {
     "totalDedicatedEntries": 1942,
-    "renameOperations": 1879,
+    "renameOperations": 1923,
     "mergeOperations": 63,
     "linkedToExisting": 1,
     "needsNewNamebase": 63,
-    "requiresManualResearch": 1878
+    "requiresManualResearch": 1834
   },
   "operations": {
     "rename": [
@@ -11282,6 +11282,270 @@
         "sourceIndex": 20584,
         "originalName": "Yerukala (dedicated)",
         "targetName": "Yerukala",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 2686,
+        "originalName": "Nar-Phu (dedicated)",
+        "targetName": "Nar-Phu",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 2735,
+        "originalName": "Awadhi (dedicated)",
+        "targetName": "Awadhi",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 2739,
+        "originalName": "Be-Jizhao (dedicated)",
+        "targetName": "Be-Jizhao",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20061,
+        "originalName": "Djinang (dedicated)",
+        "targetName": "Djinang",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20075,
+        "originalName": "Allar (dedicated)",
+        "targetName": "Allar",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20090,
+        "originalName": "Alchuka (dedicated)",
+        "targetName": "Alchuka",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20093,
+        "originalName": "Filipino (dedicated)",
+        "targetName": "Filipino",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20100,
+        "originalName": "Ambonese Malay (dedicated)",
+        "targetName": "Ambonese Malay",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20102,
+        "originalName": "Andaman Creole Hindi (dedicated)",
+        "targetName": "Andaman Creole Hindi",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20115,
+        "originalName": "Madurese (dedicated)",
+        "targetName": "Madurese",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20119,
+        "originalName": "Baba Malay (dedicated)",
+        "targetName": "Baba Malay",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20120,
+        "originalName": "Balinese Malay (dedicated)",
+        "targetName": "Balinese Malay",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20121,
+        "originalName": "Banda Malay (dedicated)",
+        "targetName": "Banda Malay",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20122,
+        "originalName": "Betawi (dedicated)",
+        "targetName": "Betawi",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20123,
+        "originalName": "Dili Malay (dedicated)",
+        "targetName": "Dili Malay",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20134,
+        "originalName": "Angami-Pochuri (dedicated)",
+        "targetName": "Angami-Pochuri",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20135,
+        "originalName": "Ani (dedicated)",
+        "targetName": "Ani",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20137,
+        "originalName": "Ano (dedicated)",
+        "targetName": "Ano",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20138,
+        "originalName": "Anp (dedicated)",
+        "targetName": "Anp",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20142,
+        "originalName": "Cao Lan (dedicated)",
+        "targetName": "Cao Lan",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20143,
+        "originalName": "Cao Miao (dedicated)",
+        "targetName": "Cao Miao",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20146,
+        "originalName": "Car Nicobarese (dedicated)",
+        "targetName": "Car Nicobarese",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20147,
+        "originalName": "Andalusi Arabic (dedicated)",
+        "targetName": "Andalusi Arabic",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20148,
+        "originalName": "Anq (dedicated)",
+        "targetName": "Anq",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20149,
+        "originalName": "Ao (dedicated)",
+        "targetName": "Ao",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20150,
+        "originalName": "Aot (dedicated)",
+        "targetName": "Aot",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20151,
+        "originalName": "Aoz (dedicated)",
+        "targetName": "Aoz",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20152,
+        "originalName": "Attapady Kurumba (dedicated)",
+        "targetName": "Attapady Kurumba",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20155,
+        "originalName": "Ava (dedicated)",
+        "targetName": "Ava",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20167,
+        "originalName": "Bimbashi Arabic (dedicated)",
+        "targetName": "Bimbashi Arabic",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20168,
+        "originalName": "Bongor Arabic (dedicated)",
+        "targetName": "Bongor Arabic",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20171,
+        "originalName": "Maridi Arabic (dedicated)",
+        "targetName": "Maridi Arabic",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20173,
+        "originalName": "Turku Arabic (dedicated)",
+        "targetName": "Turku Arabic",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20174,
+        "originalName": "Juba Arabic (dedicated)",
+        "targetName": "Juba Arabic",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20182,
+        "originalName": "San Andres-Providencia Creole (dedicated)",
+        "targetName": "San Andres-Providencia Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20203,
+        "originalName": "Chagossian Creole (dedicated)",
+        "targetName": "Chagossian Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20204,
+        "originalName": "Dominican Creole French (dedicated)",
+        "targetName": "Dominican Creole French",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20205,
+        "originalName": "French Guianese Creole (dedicated)",
+        "targetName": "French Guianese Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20206,
+        "originalName": "Grenadian Creole French (dedicated)",
+        "targetName": "Grenadian Creole French",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20208,
+        "originalName": "Louisiana Creole (dedicated)",
+        "targetName": "Louisiana Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20209,
+        "originalName": "Réunion Creole (dedicated)",
+        "targetName": "Réunion Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20210,
+        "originalName": "Rodriguan Creole (dedicated)",
+        "targetName": "Rodriguan Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20211,
+        "originalName": "Saint Lucian Creole (dedicated)",
+        "targetName": "Saint Lucian Creole",
+        "action": "rename"
+      },
+      {
+        "sourceIndex": 20333,
+        "originalName": "Yiddish (dedicated)",
+        "targetName": "Yiddish",
         "action": "rename"
       }
     ],
