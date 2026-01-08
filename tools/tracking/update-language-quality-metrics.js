@@ -181,32 +181,53 @@ function fixSuspiciousName(name) {
 }
 
 /**
- * Calculate quality score based on issues
+ * Calculate index range for the index column
  */
-function calculateQualityScore(row, issues) {
+function calculateIndexRange(index) {
+    const idx = parseInt(index, 10);
+    if (idx < 1000) return "1-999";
+    if (idx < 10000) return "1000-9999";
+    if (idx < 20000) return "10000-19999";
+    return "20000+";
+}
+
+/**
+ * Calculate quality score based on issues with penalty support
+ */
+function calculateQualityScore(row, issues, penaltyCount) {
     const hasEncoding = issues.hasEncoding;
     const hasSuspicious = issues.hasSuspicious;
     const hasTrailing = issues.hasTrailing;
     const isPlaceholder = row.is_placeholder === "TRUE" || row.is_placeholder === true;
     const cityCount = parseInt(row.city_count, 10) || 0;
+    const hasNameCollision = penaltyCount.nameCollision > 0;
+    const hasDuplicateCities = penaltyCount.duplicateCities > 0;
+    
+    // Start with base score
+    let baseScore = 100;
     
     // Score 70: encoding issues or suspicious names
     if (hasEncoding || hasSuspicious) {
-        return 70;
+        baseScore = 70;
     }
     
     // Score 60: placeholders or trailing spaces
     if (isPlaceholder || hasTrailing) {
-        return 60;
+        baseScore = 60;
     }
     
     // Score 85: small datasets (< 10 entries)
     if (cityCount < 10) {
-        return 85;
+        baseScore = 85;
     }
     
-    // Score 100: all other valid entries
-    return 100;
+    // Apply penalties (don't go below 60)
+    let penalty = 0;
+    if (hasNameCollision) penalty += 5;
+    if (hasSuspicious && !isPlaceholder && !hasEncoding) penalty += 10;
+    if (hasDuplicateCities) penalty += 10;
+    
+    return Math.max(60, baseScore - penalty);
 }
 
 /**
@@ -228,6 +249,24 @@ function updateLanguageQualityMetrics() {
     
     console.log(`Found ${dataRows.length} language entries`);
     
+    // Check if d_value_collisions column exists, add if not
+    const dValueCollisionsIndex = header.indexOf("d_value_collisions");
+    if (dValueCollisionsIndex === -1) {
+        header.push("d_value_collisions");
+    }
+    
+    // Build d_value to language names mapping
+    const dValueMap = {};
+    dataRows.forEach(row => {
+        const dValue = row[15]; // d_value is column 15
+        if (dValue && dValue !== "" && dValue !== "empty") {
+            if (!dValueMap[dValue]) {
+                dValueMap[dValue] = [];
+            }
+            dValueMap[dValue].push(row[0]); // language_name
+        }
+    });
+    
     // Initialize tracking
     const summary = {
         totalLanguages: dataRows.length,
@@ -236,6 +275,7 @@ function updateLanguageQualityMetrics() {
         suspiciousNamesFixed: 0,
         placeholdersMarked: 0,
         qualityScoreUpdated: 0,
+        dValueCollisionsFound: 0,
         issues: {
             trailingSpace: [],
             encoding: [],
@@ -248,7 +288,7 @@ function updateLanguageQualityMetrics() {
     };
     
     // Process each row
-    const updatedRows = dataRows.map((row, index) => {
+    dataRows.forEach((row, index) => {
         const languageName = row[0];
         const originalName = languageName;
         const rowIndex = index + 2; // 1-based with header
@@ -314,24 +354,40 @@ function updateLanguageQualityMetrics() {
         }
         
         // Check for duplicates
-        const isDuplicate = row[12] === "TRUE" || row[12] === true;
-        if (isDuplicate) {
-            summary.issues.duplicates.push({
-                row: rowIndex,
-                name: row[0]
-            });
-        }
+        const isDuplicate = row[6] === "TRUE" || row[6] === true;
         
-        // Recalculate quality score
+        // Add d_value_collisions column at correct position
+        const dValue = row[15];
+        let dValueCollisions = "";
+        if (dValue && dValue !== "" && dValue !== "empty" && dValueMap[dValue] && dValueMap[dValue].length > 1) {
+            // Find other languages with same d_value
+            const otherLanguages = dValueMap[dValue].filter(name => name !== languageName);
+            if (otherLanguages.length > 0) {
+                dValueCollisions = otherLanguages.join(", ");
+                summary.dValueCollisionsFound++;
+            }
+        }
+        row[18] = dValueCollisions;
+        
+        // Recalculate quality score with penalty counts
+        const penaltyCount = {
+            nameCollision: row[14] === "TRUE" ? 1 : 0,
+            duplicateCities: isDuplicate ? 1 : 0
+        };
+        
         const newScore = calculateQualityScore({
             language_name: row[0],
             is_placeholder: row[7],
             city_count: row[4]
-        }, issues);
+        }, issues, penaltyCount);
         
-        const oldScore = parseInt(row[16], 10);
+        // Update index_range column
+        const indexValue = row[1];
+        row[16] = calculateIndexRange(indexValue);
+        
+        const oldScore = parseInt(row[17], 10);
         if (newScore !== oldScore) {
-            row[16] = String(newScore);
+            row[17] = String(newScore);
             summary.qualityScoreUpdated++;
             summary.issues.lowScore.push({
                 row: rowIndex,
@@ -357,8 +413,6 @@ function updateLanguageQualityMetrics() {
                 note: "Consider replacing with actual language data"
             });
         }
-        
-        return [header, ...dataRows];
     });
     
     // Flatten updated rows
@@ -367,7 +421,7 @@ function updateLanguageQualityMetrics() {
     // Generate quality distribution
     const qualityDistribution = {};
     dataRows.forEach(row => {
-        const score = parseInt(row[16], 10) || 0;
+        const score = parseInt(row[17], 10) || 0;
         qualityDistribution[score] = (qualityDistribution[score] || 0) + 1;
     });
     
@@ -389,6 +443,7 @@ function updateLanguageQualityMetrics() {
     console.log(`Suspicious names fixed: ${summary.suspiciousNamesFixed}`);
     console.log(`Placeholders marked: ${summary.placeholdersMarked}`);
     console.log(`Quality scores updated: ${summary.qualityScoreUpdated}`);
+    console.log(`d_value collisions found: ${summary.dValueCollisionsFound}`);
     console.log(`\nReport saved to: ${REPORT_PATH}`);
     
     return summary;
