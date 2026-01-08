@@ -2069,7 +2069,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla,Simo,Ranua,KemijÃ¤rvi,Pelkosenniemi,Savukoski,Kuusamo"
+    "b": "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla,Simo,Ranua,Kemijärvi,Pelkosenniemi,Savukoski,Kuusamo"
   },
   {
     "name": "Kildin Sami",
@@ -2087,7 +2087,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jokkmokk,Gâ”œÃ±llivare,Kiruna,Luleâ”œÃ‘,Boden,â”œÃ»rrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,Sâ”œâ•¢rkaitum,GÃ¤llivare,Harads,LuleÃ¥,Ã„lvsbyn,Sorsele,Storuman"
+    "b": "Jokkmokk,Gâ”œÃ±llivare,Kiruna,Luleâ”œÃ‘,Boden,â”œÃ»rrenjarka,Porjus,Vuollerim,Arjeplog,Arvidsjaur,Saltoluokta,Sâ”œâ•¢rkaitum,Gällivare,Harads,LuleÃ¥,Ã„lvsbyn,Sorsele,Storuman"
   },
   {
     "name": "Catalan",
@@ -5060,7 +5060,7 @@ window.realWorldNameBases = [
     "b": "Kondo-Vozhe,Shaitanka,Pelim,Lozva,Sosva,Ivdel,Gari,Verkhoturye,Tavda,Turinsk"
   },
   {
-    "name": "CsÃ¡ngÃ³",
+    "name": "Csangó",
     "i": 562,
     "min": 4,
     "max": 11,
@@ -9479,7 +9479,7 @@ window.realWorldNameBases = [
     "b": "TiriyÃ³,MaturucÃ¡,Mucambira,SÃ£o Francisco,ParanÃ¡,MaringÃ¡,Araruna,Cascavel,Foz do IguaÃ§u,Campo MourÃ£o"
   },
   {
-    "name": "Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x) ",
+    "name": "Coast Tsimshian (Sm“Ã‡Ã–algyaâ• â–’x) ",
     "i": 1053,
     "min": 4,
     "max": 11,
@@ -9827,7 +9827,7 @@ window.realWorldNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "PerÃ¤pohjola,Oulu,Kemi,Kokkola,Rovaniemi,KemijÃ¤rvi,Simo,Tornio,Haparanda,Pajala,KilpisjÃ¤rvi"
+    "b": "PerÃ¤pohjola,Oulu,Kemi,Kokkola,Rovaniemi,Kemijärvi,Simo,Tornio,Haparanda,Pajala,KilpisjÃ¤rvi"
   },
   {
     "name": "Fingelska ",
@@ -16724,13 +16724,13 @@ window.realWorldNameBases = [
     "b": "Fyer,Mubi,Bama,Gwoza,Kukawa,Adamawa State,Nigeria,North East"
   },
   {
-    "name": "GÃ¤llivare ",
+    "name": "Gällivare ",
     "i": 1858,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "GÃ¤llivare,Kiruna,Malmberget,Norrbottn,Sweden,Arctic,Lapland,Sami Region"
+    "b": "Gällivare,Kiruna,Malmberget,Norrbottn,Sweden,Arctic,Lapland,Sami Region"
   },
   {
     "name": "Ga'anda ",
@@ -19235,7 +19235,7 @@ window.realWorldNameBases = [
     "b": "Kemi,Tornio,Simo,Tervola,Keminmaa,Ranua,Posio,Rovaniemi,Ii,Haukipudas,Kiiminki,Oulu"
   },
   {
-    "name": "KemijÃ¤rvi ",
+    "name": "Kemijärvi ",
     "i": 2137,
     "min": 4,
     "max": 11,
@@ -19253,7 +19253,7 @@ window.realWorldNameBases = [
     "b": "Seremban,Kuala-Pilah,Bahau,Jelebu,Rembau,Tampin,Port-Dickson,Nilai,Senawang,Mantin,Bentong,Temerloh"
   },
   {
-    "name": "Keuruu-EvijÃ¤rvi ",
+    "name": "Keuruu-Evijärvi ",
     "i": 2139,
     "min": 4,
     "max": 11,
