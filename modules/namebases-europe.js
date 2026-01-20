@@ -248,7 +248,7 @@ window.EuropeNameBases = [
     "max": 11,
     "d": "lr",
     "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Mílaga,Bilbao,Montevideo,Buenos Aires,Santiago,Lima,Bogotí,Caracas,La Habana,San Juan,Asunci,n,Santo Domingo,Quito,Guayaquil,Cali"
+    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Málaga,Bilbao,Montevideo,Buenos Aires,Santiago,Lima,Bogotá,Caracas,La Habana,San Juan,Asunción,Santo Domingo,Quito,Guayaquil,Cali"
   },
 
 {
