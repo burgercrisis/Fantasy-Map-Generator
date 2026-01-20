@@ -3479,6 +3479,7 @@ window.OceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Kirakira,Atoifi,Buala,Taro,Nendo,Lata,Malaita,Guadalcanal,Choiseul,Temotu,Rennell,Isabel,Western Province,Shortlands"
-  },
+  }
+]
 
 {
