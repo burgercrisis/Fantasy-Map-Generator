@@ -1009,6 +1009,7 @@ window.NorthAmericaNameBases = [
     "d": "ae",
     "m": 0,
     "b": "Castries,Choiseul,Dennery,Gros Islet,Laborie,Micoud,Soufriere,Vieux Fort,Anse-la-Raye,Canaries"
-  },
+  }
+]
 
 {
