@@ -52,3 +52,8 @@ TEMP_DO_NOT_CREATE
 #Ignore vscode AI rules
 .github\instructions\codacy.instructions.md
 "docs/reports/language-quality-metrics.csv"  
+nul
+temp/analyze-oceania.js
+temp/current-oceania-languages.txt
+temp/oceania-critical.txt
+temp/oceania-poor.txt

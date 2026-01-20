@@ -43,9 +43,9 @@ const CONTINENT_MAP = {
 
 const SUSPICIOUS_NAMES = new Set([
   'Riang', 'BPh', 'Big Flowery', 'Français Tirailleur', 'Tày Bôi Pidgin French',
-  'Bole Chadic language', 'BiuΓÇôMandara', 'Cavineña', 'Yuracaré', 'Fulniô', 'Nivaclé',
-  'Bjarmian S├ími', 'Borgarm├Ñlet', 'Baur├⌐', 'Cof├ín', 'Fran├ºais', 'Central Erzya',
-  'Be', 'E'
+  'Bole Chadic language', 'BiuΓÇôMandara', 'Fulniô',
+  'Bjarmian S├ími', 'Borgarm├Ñlet', 'Baur├⌐', 'Cof├ín', 'Fran├ºais',
+  'E'
 ]);
 
 const PATTERN_DEDICATED = /\(dedicated\)/;
