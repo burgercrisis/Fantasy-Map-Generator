@@ -2878,7 +2878,7 @@ window.EuropeNameBases = [
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Reims,Châlons-en-Champagne,Épernay,Vitry-le-François,Sainte-Menehould,Romilly-sur-Seine,Sézanne,Bar-sur-Aube,Montmirail,Troyes"
+    "b": "Reims,Chalons-en-Champagne,Epernay,Vitry-le-Francois,Sainte-Menehould,Romilly-sur-Seine,Sezanne,Bar-sur-Aube,Montmirail,Troyes"
   },
 
 {
@@ -4638,7 +4638,7 @@ window.EuropeNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gestuno,ISL,Sign,Visual,Expression,Gesture,Motion,Signal,Contact,Union,Global,Universal,Bridge,Unity"
+    "b": "Geneva,Paris,London,Washington,Rome,Madrid,Berlin,Tokyo,Moscow,Beijing,Ottawa,Canberra,Sydney,Mexico City,Brazilia"
   },
 
 {
