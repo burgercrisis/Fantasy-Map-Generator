@@ -1,0 +1,5617 @@
+{
+  "timestamp": "2026-01-20T21:52:40.784Z",
+  "summary": {
+    "totalLanguages": 789,
+    "totalNames": 14898,
+    "totalIssues": 7,
+    "encodingIssues": 2,
+    "suspiciousNames": 0
+  },
+  "continents": {
+    "europe": {
+      "languages": [
+        {
+          "name": "German",
+          "totalNames": 265,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "English",
+          "totalNames": 237,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "French",
+          "totalNames": 276,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Italian",
+          "totalNames": 230,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Castillian",
+          "totalNames": 218,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nordic",
+          "totalNames": 249,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Greek",
+          "totalNames": 228,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Roman",
+          "totalNames": 200,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Finnic",
+          "totalNames": 226,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Portuguese",
+          "totalNames": 207,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hungarian",
+          "totalNames": 221,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Turkish",
+          "totalNames": 261,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Basque",
+          "totalNames": 200,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Celtic",
+          "totalNames": 200,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lechitic",
+          "totalNames": 31,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Czech-Slovak",
+          "totalNames": 31,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "South Slavic BCS",
+          "totalNames": 29,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bulgarian",
+          "totalNames": 38,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ukrainian",
+          "totalNames": 39,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Irish Gaelic",
+          "totalNames": 59,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Scottish Gaelic",
+          "totalNames": 56,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "South Estonian A",
+          "totalNames": 28,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "South Estonian B",
+          "totalNames": 28,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Middle English",
+          "totalNames": 51,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Spanish Global",
+          "totalNames": 21,
+          "issueCount": 1,
+          "qualityScore": 95,
+          "issues": [
+            {
+              "name": "n",
+              "issues": [
+                {
+                  "type": "too_short",
+                  "severity": "high"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "English Global",
+          "totalNames": 32,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old English",
+          "totalNames": 45,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Archi",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Samoyedic Arctic",
+          "totalNames": 29,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nenets",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bustocco-Legnanese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cadorino",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Calabro",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Campano",
+          "totalNames": 17,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Campidanese",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Canarian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Akkala Sami",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Finnmark Sami",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Inari Sami",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kainuu Sami",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kemi Sami",
+          "totalNames": 18,
+          "issueCount": 1,
+          "qualityScore": 94,
+          "issues": [
+            {
+              "name": "II",
+              "issues": [
+                {
+                  "type": "all_caps",
+                  "severity": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kildin Sami",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lule Sami",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Catalan",
+          "totalNames": 23,
+          "issueCount": 1,
+          "qualityScore": 96,
+          "issues": [
+            {
+              "name": "",
+              "issues": [
+                {
+                  "type": "too_short",
+                  "severity": "high"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cantabrian",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Casto",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Castrapo",
+          "totalNames": 24,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Anglo-Norman",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Norman",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cauchois",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Augeron",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cotentinais",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Auregnais",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guernésiais",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "JÂ¿rriais",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Jersey Legal French",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aragonese",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Aragonese",
+          "totalNames": 24,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Castilian",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Castelmezzano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Italian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Marchigiano",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Metafonetica",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central-Southern Calabrian",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Butler English",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Abaza",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Abkhaz",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Adyghe",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bzyb",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aghul",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Catalan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Angevin",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Burgundian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Champenois",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Poitevin",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Saintongeais",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aas-whistled",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aranese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "B-arnese",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Abruzzese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Arianese",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Barese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Basilicatine",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Benevento",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cilentan",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cosentino",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Irpino",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Molisan",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Neapolitan",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Calabrian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pugliese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "South Lucanian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Latian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Laziale",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tarantino",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Vastese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ardennais",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Berrichon",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bourbonnais",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "French (fra)",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Frainc-Comtou",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gallo",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gaumais",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Law French",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lorrain",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mayennais",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Meridional French",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Moselle Romance",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Orleanais",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Paydret",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Picard",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aeolian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Alentejan",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Algherese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ancona",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Andalusi Romance",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Andalusian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ans,",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aretino-Chianaiolo",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Argentinian Spanish",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Arpitan",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Asturian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Auvergnat",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Balearic",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Banat",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Barranquenho",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Benasquese",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bercian",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bergamasque",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bolognese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Brianzoo",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Brigasc",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "British Latin",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bukovinian",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Canzes",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central-Northern Lazian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cheso",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Comasco-Lecchese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Corsican",
+          "totalNames": 39,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cremish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cremun-S",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cri-ana",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Daco-Romanian",
+          "totalNames": 55,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Dalmatian",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Aragonese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Catalan",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Lombard",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Nonmetafonetica",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Romanian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ecuadorian Spanish",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Emilian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ennese",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eonavian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Estremenho",
+          "totalNames": 24,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "European Portuguese",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Extremaduran",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Fabriano",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Faetar",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Fala",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ferrarese",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Fiuman",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Florentine",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Forlivese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Fornes",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Franco-Italian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Franco-Provençal",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Friulian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Galician",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Galician-Asturian",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gallo-Italic of Basilicata",
+          "totalNames": 31,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gallo-Italic of Sicily",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gallo-Picene",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gallurese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gardiol",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gascon",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Genoese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Grossetano",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Haketia",
+          "totalNames": 25,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Intemelio",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Istriot",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Italo-Australian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Jauer",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Aragonese",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Catalan",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Gascon",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Italian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Mantuan",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Piedmontese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Portuguese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Provençal",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Judeo-Spanish",
+          "totalNames": 17,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ladin",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ladino",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Landese",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Languedocien",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Latin",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Leonese",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ligurian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Limousin",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Llanito",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Logudorese",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lombard",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lucchese",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "M-tis French",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Macerata",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mallorcan",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Maltese-Italian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Manduriano",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Maramure\u0011",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Menorcan",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mentonasc",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Messinese",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Milanese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Minderico",
+          "totalNames": 21,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mirandese",
+          "totalNames": 26,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Moldavian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mozarabic",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Murcian",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Navarrese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Navarro-Aragonese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Niçard",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nones",
+          "totalNames": 39,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Catalan",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Portuguese",
+          "totalNames": 21,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Romanian",
+          "totalNames": 17,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northwestern Catalan",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Novarese",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Occitan",
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Catalan",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Gallo-Romance",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Leonese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Lombard",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Occitan",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Romagnol",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Old Spanish",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Oliventine",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Oltenian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ossolano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Palafrugués",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Palra",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pannonian Latin",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pantesco",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Parmigiano",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pavese",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Peruvian Ribereño",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pesciatino",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bjarmian Finnic",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Sami",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Forest Nenets",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Finnic",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southwestern Finnish",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Uralic",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Karelian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Permic",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Somero region",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Jñmtland",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tundra Nenets",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "North Estonian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Estonian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Erzya",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southeastern Erzya",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Erzya",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Shoksha",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Piedmontese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pisano-Livornese",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pistoiese",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Poitevin-Saintongeais",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Khanty",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Mansi",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Mansi",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Csangó",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northeast Hungary",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Transylvanian Plain",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Sami",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Eastern Romance",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Romance",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Provençal",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Putèr",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mator",
+          "totalNames": 50,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mator proper",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Ob-Ugric",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kamas",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nganasan",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Lombard",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Varesino",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ticinese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Triestine",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Rémois",
+          "totalNames": 10,
+          "issueCount": 1,
+          "qualityScore": 90,
+          "issues": [
+            {
+              "name": "Châlons-en-Champagne",
+              "issues": [
+                {
+                  "type": "encoding",
+                  "severity": "high"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Regional Italian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ribagorçan",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Riberan",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Riojan",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Riunorese",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Romagnol",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Romanesco",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Romanian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Romansh",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Romanian Daco-Romanian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Royasc",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Istro-Romanian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aromanian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Megleno-Romanian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sabino",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Salentino",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sammarinese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sardinian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sardo-Corsican",
+          "totalNames": 41,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sassarese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Savoyard",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Senese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sicilian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southeast Metafonetica",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Aragonese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Surmiran",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sursilvan",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sutsilvan",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tuatschin",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Vallader",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Standard French",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Standard Italian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Swiss Italian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tuscan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Cilentan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tabarchino",
+          "totalNames": 34,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Talian",
+          "totalNames": 39,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Transylvanian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tuscia",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Umbrian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Valdtain",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Valencian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Venetian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Versiliese",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Viareggino",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Vivaro-Alpine",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Vosgien",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wallachian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Welche",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "West Walloon",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Aragonese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Catalan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Sicilian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wisconsin Walloon",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Atlym",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Atlym-Nizyam Khanty",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nizyam",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Salym Khanty",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Khanty",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ala-Satakunta",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Avam",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Berjozov",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Besermyan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Akhvakh",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Armenian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kurdish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Georgian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Azerbaijani",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lower Inva",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kudymkar-Inva",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ingrian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kven",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Livonian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ludic",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Meänkieli",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Veps",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Võro",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Votic",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Savonlinna",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Danish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Icelandic",
+          "totalNames": 24,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Norwegian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bavarian",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cimbrian",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Limburgish",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Low German",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mainfränkisch",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Palatinate German",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ripuarian Platt",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hollola",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Heart Tavastian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Savonian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hollola (setBases aux)",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Heart Tavastian (setBases aux)",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Savonian (setBases aux)",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Arp",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Transdanubian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tisza-Káros",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Transdanubian",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Great Plain",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kosa-Kama",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Upper Lupya",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proper Southeastern",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Luokta-Mávas",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Standard Finnish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Udora",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Torne Sami",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tavastian",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tornio",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hevaha",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Karelian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Upper Vychegda",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pori region",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Peräpohjola",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Fingelska",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Selkup",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Vadey",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Basque-Icelandic pidgin",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kazakh",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tatar",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bjarmian Sámi",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bolze",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Borgarmalet",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bozal Spanish",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Erzya",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Estonian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Finland",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Ludic",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Mansi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Moksha",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Selkup",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Petuh",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sercquiais",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Veps",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Central Vychegda",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hinuq",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chechen",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chovashi",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chukotko-Kamchatkan-Amuric",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chusovaya",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cingali",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chamalal",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Colloquial Finnish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Core Mansi",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Courland Livonian",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Crimean Tatar",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Dargwa",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Estonian",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Mari",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Savonian",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern South Estonian",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eastern Votic",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Enets",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Erzya",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Estonian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Far Eastern Khanty",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tsez",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gaulish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Godoberi",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Finnish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Forest Enets",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gallivare",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gagauz",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hill Mari",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hunzib",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Iitti",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Udmurt",
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ingush",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Insular Estonian",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Albanian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Alutaguse",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Italian Eritrean",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Izhma",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karagas",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karasuk",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "International Sign",
+          "totalNames": 14,
+          "issueCount": 1,
+          "qualityScore": 93,
+          "issues": [
+            {
+              "name": "ISL",
+              "issues": [
+                {
+                  "type": "all_caps",
+                  "severity": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Proto-Samoyedic",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karelian",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karelian proper",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kemi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kemijärvi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Keuruu-Evijärvi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gaelic",
+          "totalNames": 25,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Khwarshi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Udmurt",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Udmurt",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Meadow Mari",
+          "totalNames": 34,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Meadow Mari Proper",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northwestern Mari",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Proto-Mari",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kochevo",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Koibal",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Komi-Permyak",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Konda Khanty",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Koryo-mar",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karata",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kraasna",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Krasnojarsk Khanty",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karachay-Balkar",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Krevinian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kukkuzi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kumyk",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bagvalal",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Laiuse Romani",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tura",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Khanty",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sherkal",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southern Khanty",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Upper Demjanka",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Surgut Khanty",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Malij Jugan",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tremjugan",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aas Whistled",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Southeastern Moksha",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Western Moksha",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Syktyvkar",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Sami",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sanchursk",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sharanga",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Selkup",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Selkup",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Northern Mansi",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sosva",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Laz",
+          "totalNames": 30,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lak",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Leivu",
+          "totalNames": 30,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lemi region",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lezgin",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Livvi",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Avar",
+          "totalNames": 25,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Maltese",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Scottish-Gaelic",
+          "totalNames": 25,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Welsh",
+          "totalNames": 29,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Breton",
+          "totalNames": 23,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cornish",
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lithuanian",
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Latvian",
+          "totalNames": 21,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yiddish",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Frisian",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Faroese",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ossetian",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Manx",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bashkir",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chuvash",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Komi Permyak",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Komi Zyryan",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Luxembourgish",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Silesian",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nogai",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kalmyk",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Walloon",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mari",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Moksha",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ob-Ugric",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Elfdalian",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Swedish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Russian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Rusyn",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Belarusian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Czech",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Slovak",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Polish",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kashubian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Upper Sorbian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bosnian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Croatian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Montenegrin",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Serbian",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Macedonian",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Slovene",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Dutch",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Swiss German",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Scots",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Slavic",
+          "totalNames": 50,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Franglish",
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Solombala-English",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cappadocian Greek",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        }
+      ]
+    },
+    "southAmerica": {
+      "languages": [
+        {
+          "name": "Quechua",
+          "totalNames": 201,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kwaza-Xocó Amazonian",
+          "totalNames": 18,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Seri",
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Huave",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Shipibo-Conibo Amazonian",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Warao Delta",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yanomami Amazonian",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tsimané",
+          "totalNames": 19,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cavineña",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kallawaya",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chiquitano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bolivian Spanish",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Brazilian Portuguese",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chilean Spanish",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Colombian Spanish",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mineiro",
+          "totalNames": 12,
+          "issueCount": 1,
+          "qualityScore": 92,
+          "issues": [
+            {
+              "name": "Uberlândia",
+              "issues": [
+                {
+                  "type": "encoding",
+                  "severity": "high"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chuj",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ch'orti'",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Paraguayan Spanish",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Peruvian Spanish",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Rioplatense Spanish",
+          "totalNames": 5,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Uruguayan Portuguese",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Uruguayan Spanish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Venezuelan Spanish",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Inuktitut",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Achagua",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Awakatek",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Movima",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nonuya",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ocaina",
+          "totalNames": 16,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tacana",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cuicatec",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guna",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wiwa",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ahtna",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Arawak",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aluku",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Amuzgo",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ashaninka",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Aymara",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Berbice",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Macaguán (Hitnü)",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Arhuaco (Ikë)",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Minica Huitoto",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Muinane",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nukak",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sateré-Mawé",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tenetehára",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Warízu",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wari'",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sanumá",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Trinitario",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Reyesano (Maropa)",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Toromona",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wichí Lhamtés Nocten (Weenhayek)",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wichí Lhamtés Vejoz",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Paipai",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tiriyó",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Palikur",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Crow",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Xavante",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Xerente",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guajajara",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Língua Geral Amazônica",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mixe",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ixcatec",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Q'anjob'al",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Eyak",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Dena'ina",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chipewyan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Deg Xinag",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Gwich'in",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Holikachuk",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Koyukon",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Upper Kuskokwim",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Upper Tanana",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kiliwa",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mojave",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Quechan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yavapai",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mohawk",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cayuga",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Oneida",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Onondaga",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Seneca",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tuscarora",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Macuna",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cubeo",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Desano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Itene",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hupdë",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Koreguaje",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tukano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wanano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tatuyo",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Siriano",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Siona",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Rama",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kiowa",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tewa",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chimila",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Piaroa",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Toba",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Choctaw",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Muscogee",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mikasuki",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wayuu",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cogui/Kogi",
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Barí",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ese Ejja",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yuracaré",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guambiano",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Awa Pit",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Paez",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bora",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Comanche",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Hopi",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Shoshoni",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kumeyaay",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Bauré",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Enlhet",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kanamari",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mocoví",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wounaan",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mapudungun",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ona",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yahgan",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kalaallisut",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cabiyari",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Carijona",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kakwa (Cacua)",
+          "totalNames": 13,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chontal Maya",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cora",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cuiba",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Culina",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cayuvava",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Alutiiq",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guarani",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guahibo (Sikuani)",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guayabero",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guajá",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guarayu",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Huichol",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Inuinnaqtun",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Q'eqchi'",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tzeltal",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tzotzil",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yucatec Maya",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kaqchikel",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Ixil",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Jakaltek",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "K'iche'",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Lacandon",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mam",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mopán",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Poqomam",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Poqomchi'",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tojolab'al",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tz'utujil",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sakapultek",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sipakapense",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tektitek",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Uspanteko",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Matlatzinca",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mazahua",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mixtec",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Otomi",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Zapotec",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Mayo",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "O'odham",
+          "totalNames": 10,
+          "issueCount": 1,
+          "qualityScore": 90,
+          "issues": [
+            {
+              "name": "USA",
+              "issues": [
+                {
+                  "type": "all_caps",
+                  "severity": "low"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pima Bajo",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tarahumara",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Huarijio",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yaqui",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Macushi",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Waiwai",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yukpa",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Piapoco",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Terêna",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Wapishana",
+          "totalNames": 6,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Chorote",
+          "totalNames": 7,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Choshuenco",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cocoliche",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Huilliche",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Guyanese Creole",
+          "totalNames": 8,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Iñupiaq",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Inuvialuktun",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Blackfoot",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Puinave",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Yanomami",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sanöma",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Italo-Paulista",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Haida",
+          "totalNames": 25,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kashinawa",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Camsá",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Garifuna",
+          "totalNames": 40,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kichwa",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kaiwá",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Kaingang",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Keresan",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Karajá",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Língua Geral Paulista",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Latin American Spanish",
+          "totalNames": 30,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Totonac",
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Miskito",
+          "totalNames": 30,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tikuna",
+          "totalNames": 30,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Tlingit",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Sranan",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Pintupi",
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Cofán",
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Fulnio",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Itonama",
+          "totalNames": 10,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Leco",
+          "totalNames": 9,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Nivaclé",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        }
+      ]
+    },
+    "fantasy": {
+      "languages": [
+        {
+          "name": "Human Generic",
+          "totalNames": 242,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Elven",
+          "totalNames": 216,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Dark Elven",
+          "totalNames": 200,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Dwarven",
+          "totalNames": 184,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Goblin",
+          "totalNames": 109,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Orc",
+          "totalNames": 200,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Giant",
+          "totalNames": 200,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Draconic",
+          "totalNames": 212,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Arachnid",
+          "totalNames": 215,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
+          "name": "Serpents",
+          "totalNames": 199,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        }
+      ]
+    }
+  }
+}
