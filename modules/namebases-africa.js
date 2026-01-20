@@ -5084,9 +5084,8 @@ window.AfricaNameBases = [
     "max": 10,
     "d": "ae",
     "m": 0,
-    "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma,Tomba,Nzara,Ezo,Yei,Lopa,Mundri,Rumbek,Abyei,Kajo Keji,Tambura,Tunguru,Tore,Kudujage,M切口"
-  },
-
-{
+    "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma,Tomba,Nzara,Ezo,Yei,Lopa,Mundri,Rumbek,Abyei,Kajo Keji,Tambura,Tunguru,Tore,Kudujage"
+  }
+]
 
 {
