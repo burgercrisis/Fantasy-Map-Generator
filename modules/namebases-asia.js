@@ -1042,8 +1042,6 @@ window.AsiaNameBases = [
   },
 
 {
-
-{
     "name": "Baghdadi Arabic",
     "i": 20322,
     "min": 4,
@@ -7964,16 +7962,6 @@ window.AsiaNameBases = [
   },
 
 {
-
-{
-
-{
-
-{
-
-{
-
-{
     "name": "Bimbashi Arabic",
     "i": 30054,
     "min": 4,
@@ -7982,10 +7970,6 @@ window.AsiaNameBases = [
     "m": 0,
     "b": "Cairo,Alexandria,Port Said,Suez,Ismailia,Giza,Shubra,Mansoura,Zagazig,Asyut"
   },
-
-{
-
-{
 
 {
     "name": "Turku Arabic",
@@ -8008,10 +7992,6 @@ window.AsiaNameBases = [
   },
 
 {
-
-{
-
-{
     "name": "Daman and Diu Portuguese Creole (setBases aux)",
     "i": 20195,
     "min": 4,
@@ -8020,18 +8000,6 @@ window.AsiaNameBases = [
     "m": 0,
     "b": "SÃ£o Paulo,Rio de Janeiro,BrasÃ­lia,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,BelÃ©m,GoiÃ¢nia"
   },
-
-{
-
-{
-
-{
-
-{
-
-{
-
-{
 
 {
     "name": "Indo-Portuguese Creole of Bombay (setBases aux)",
