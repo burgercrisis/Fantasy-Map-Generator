@@ -1252,16 +1252,6 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ãsele",
-    "i": 1136,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ãsele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,MalÃ¥,NorsjÃ¶,Robertsfors,Vindeln,VÃ¤nnÃ¤s,Bjurholm"
-  },
-
-{
     "name": "Afade language",
     "i": 584,
     "min": 4,
@@ -2382,7 +2372,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Bole Chadic language",
+    "name": "Bole Chadic",
     "i": 20583,
     "min": 4,
     "max": 11,
@@ -5062,82 +5052,41 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ancient Egyptian",
-    "i": 10,
-    "min": 4,
-    "max": 9,
-    "d": "ae",
-    "m": 0,
-    "b": "Cairo,Luxor,Aswan,Alexandria,Giza,Saqqara,Memphis,Thebes,Heliopolis,Edfu"
-  },
 
 {
-    "name": "Ancient North Arabian",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "Hegra,Dedan,Tayma,Umm al-Dabadib,Khaybar,Jeddah,Medina,Tabuk,Al-Ula,Wadi al-Qura"
-  },
 
 {
     "name": "Andalusi Arabic",
-    "i": 10,
+    "i": 30005,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
-    "b": "Seville,Cordoba,Granada,Toledo,Malaga,Valencia,Murcia,Almeria,Cordoba,Jerez"
+    "b": "Seville,Cordoba,Granada,Toledo,Malaga,Valencia,Murcia,Almeria,Jerez,Cadiz,Huelva,Alcala de Henares,Zaragoza,Tarragona,Leon,Valladolid,Palma,Santander,Albacete,Alicante,Badajoz,Caceres,Castellon,Ciudad Real,Cuenca,Gerona,Guadalajara,Huesca,Jaen,Lleida,Logrono,Navarra,Orense,Oviedo,Pontevedra,Salamanca,Segovia,Soria,Tenerife,Teruel,Zamora"
   },
 
 {
-    "name": "Bimbashi Arabic",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "Cairo,Alexandria,Port Said,Suez,Ismailia,Giza,Shubra,Mansoura,Zagazig,Asyut"
-  },
 
 {
     "name": "Bongor Arabic",
-    "i": 10,
+    "i": 30036,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
-    "b": "Bongor,N Djamena,Moundou,Sarh,Ab ech,Doba,Lai,Bodo,Bongor,Goz Beida"
+    "b": "Bongor,N Djamena,Moundou,Sarh,Abeche,Doba,Lai,Bodo,Goz Beida,Mongo,Bitkine,Abéché,Moussoro,Batha,Biltine,Bahr el Ghazal,Barh El Gazal,Faya-Largeau,Bardaït,Dourbali,Guelendeng,Bol,Mao,Kelo,Laï,Yao,Raga,Am Dam,Betki,Pala,Fianga,Béré"
   },
 
 {
     "name": "Maridi Arabic",
-    "i": 10,
+    "i": 30037,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
-    "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma,Juba"
+    "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma,Tomba,Nzara,Ezo,Yei,Lopa,Mundri,Rumbek,Abyei,Kajo Keji,Tambura,Tunguru,Tore,Kudujage,M切口"
   },
 
 {
-    "name": "Turku Arabic",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "Khartoum,Omdurman,Port Sudan,Kassala,El Obeid,Nyala,Dongola,Atbara,Kosti,Wad Medani"
-  },
 
-{
-    "name": "Juba Arabic",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "Juba,Wau,Malakal,Nimule,Bor,Rumbek,Yei,Abyei,Kajo Keji,Tambura"
-  }
-];
+{
