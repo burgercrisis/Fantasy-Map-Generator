@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-20T21:52:40.784Z",
+  "timestamp": "2026-01-20T22:14:26.998Z",
   "summary": {
     "totalLanguages": 789,
-    "totalNames": 14898,
-    "totalIssues": 7,
-    "encodingIssues": 2,
+    "totalNames": 14918,
+    "totalIssues": 0,
+    "encodingIssues": 0,
     "suspiciousNames": 0
   },
   "continents": {
@@ -180,20 +180,10 @@
         },
         {
           "name": "Spanish Global",
-          "totalNames": 21,
-          "issueCount": 1,
-          "qualityScore": 95,
-          "issues": [
-            {
-              "name": "n",
-              "issues": [
-                {
-                  "type": "too_short",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "totalNames": 20,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "English Global",
@@ -302,20 +292,10 @@
         },
         {
           "name": "Kemi Sami",
-          "totalNames": 18,
-          "issueCount": 1,
-          "qualityScore": 94,
-          "issues": [
-            {
-              "name": "II",
-              "issues": [
-                {
-                  "type": "all_caps",
-                  "severity": "low"
-                }
-              ]
-            }
-          ]
+          "totalNames": 17,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Kildin Sami",
@@ -333,20 +313,10 @@
         },
         {
           "name": "Catalan",
-          "totalNames": 23,
-          "issueCount": 1,
-          "qualityScore": 96,
-          "issues": [
-            {
-              "name": "",
-              "issues": [
-                {
-                  "type": "too_short",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "totalNames": 22,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Cantabrian",
@@ -2052,19 +2022,9 @@
         {
           "name": "Rémois",
           "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "Châlons-en-Champagne",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Regional Italian",
@@ -3293,20 +3253,10 @@
         },
         {
           "name": "International Sign",
-          "totalNames": 14,
-          "issueCount": 1,
-          "qualityScore": 93,
-          "issues": [
-            {
-              "name": "ISL",
-              "issues": [
-                {
-                  "type": "all_caps",
-                  "severity": "low"
-                }
-              ]
-            }
-          ]
+          "totalNames": 15,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Proto-Samoyedic",
@@ -4127,19 +4077,9 @@
         {
           "name": "Mineiro",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "Uberlândia",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Chuj",
@@ -5214,20 +5154,10 @@
         },
         {
           "name": "O'odham",
-          "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "USA",
-              "issues": [
-                {
-                  "type": "all_caps",
-                  "severity": "low"
-                }
-              ]
-            }
-          ]
+          "totalNames": 32,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Pima Bajo",
