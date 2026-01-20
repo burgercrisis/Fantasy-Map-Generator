@@ -158,7 +158,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "pt-BR",
     "m": 0,
-    "b": "Belo Horizonte,Uberlândia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinópolis,Varginha,Ouro Preto"
+    "b": "Belo Horizonte,Uberlandia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinopolis,Varginha,Ouro Preto"
   },
 
 {
@@ -1698,7 +1698,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "O'odham,Sells,Tucson,Arizona,Ajo,Papago,USA,Sonora,Mexico,Arizona Desert"
+    "b": "Sells,Tucson,Ajo,Gu Vo,San Xavier,Schuk Toak,Ali Chukson,Ali Molina,Chuichu,Comobabi,Couderc,Fresnal,Happy,Hohe,Keystone,Kohatk,Komatke,Laos,McNary,Mescal,Palominas,Pan Tak,Peridot,San Manuel,San Simon,Sasabe,Sel ls,Topawa,Turkey,Tushe,Machuk,Hotevilla"
   },
 
 {
