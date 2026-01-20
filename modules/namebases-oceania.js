@@ -1372,16 +1372,6 @@ window.OceaniaNameBases = [
   },
 
 {
-    "name": "E",
-    "i": 1814,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "East,Southeast,Oceania,Australia,Papuan,Trans-New Guinea,Indo-Pacific Language"
-  },
-
-{
     "name": "Favorlang",
     "i": 1820,
     "min": 4,
@@ -3491,13 +3481,4 @@ window.OceaniaNameBases = [
     "b": "Honiara,Auki,Gizo,Noro,Munda,Tulagi,Kirakira,Atoifi,Buala,Taro,Nendo,Lata,Malaita,Guadalcanal,Choiseul,Temotu,Rennell,Isabel,Western Province,Shortlands"
   },
 
-{
-    "name": "Djinang",
-    "i": 10,
-    "min": 4,
-    "max": 11,
-    "d": "ae",
-    "m": 0,
-    "b": "Katherine,Daly River,Wadeye,Marrakulu,Maningrida,Gunbalanya,Minjilang,Barunga,Wugularr,Beswick"
-  }
-];
+{

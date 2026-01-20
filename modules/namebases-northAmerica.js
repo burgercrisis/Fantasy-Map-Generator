@@ -923,7 +923,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "San Andres-Providencia Creole",
-    "i": 10,
+    "i": 30059,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -933,7 +933,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "Chagossian Creole",
-    "i": 10,
+    "i": 30060,
     "min": 4,
     "max": 12,
     "d": "ae",
@@ -943,7 +943,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "Dominican Creole French",
-    "i": 10,
+    "i": 30061,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -953,7 +953,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "French Guianese Creole",
-    "i": 10,
+    "i": 30062,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -963,7 +963,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "Grenadian Creole French",
-    "i": 10,
+    "i": 30063,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -973,7 +973,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "Louisiana Creole",
-    "i": 10,
+    "i": 30064,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -993,7 +993,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "Rodriguan Creole",
-    "i": 10,
+    "i": 30065,
     "min": 4,
     "max": 12,
     "d": "ae",
@@ -1003,7 +1003,7 @@ window.NorthAmericaNameBases = [
 
 {
     "name": "Saint Lucian Creole",
-    "i": 10,
+    "i": 30066,
     "min": 4,
     "max": 12,
     "d": "ae",
@@ -1011,13 +1011,4 @@ window.NorthAmericaNameBases = [
     "b": "Castries,Choiseul,Dennery,Gros Islet,Laborie,Micoud,Soufriere,Vieux Fort,Anse-la-Raye,Canaries"
   },
 
-{
-    "name": "Yiddish",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "New York,Los Angeles,Chicago,Miami,Brooklyn,Montreal,London,Paris,Tel Aviv,Buenos Aires"
-  }
-];
+{

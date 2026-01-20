@@ -5253,7 +5253,7 @@ window.EuropeNameBases = [
 
 {
     "name": "Yiddish",
-    "i": 10,
+    "i": 30049,
     "min": 4,
     "max": 10,
     "d": "ae",
