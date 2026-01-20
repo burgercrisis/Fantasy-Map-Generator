@@ -1011,5 +1011,4 @@ window.NorthAmericaNameBases = [
     "b": "Castries,Choiseul,Dennery,Gros Islet,Laborie,Micoud,Soufriere,Vieux Fort,Anse-la-Raye,Canaries"
   }
 ]
-
 {
