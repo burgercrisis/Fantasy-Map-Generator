@@ -408,7 +408,7 @@ window.EuropeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kemi,Tornio,Simon,Kuivaniemi,II,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla,Simo,Ranua,Kemij¤rvi,Pelkosenniemi,Savukoski,Kuusamo"
+    "b": "Kemi,Tornio,Simon,Kuivaniemi,Oulu,Ylitornio,Pello,Rovaniemi,Tervola,Posio,Salla,Simo,Ranua,Kemijärvi,Pelkosenniemi,Savukoski,Kuusamo"
   },
 
 {
@@ -438,7 +438,7 @@ window.EuropeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matar,,Vic,Olot,Tortosa,Sant Cugat del Vallès,Cornell  de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,Gav,El Prat de Llobregat,Cerdanyola del Vallès,Mollet del Vallès,Montcada i Reixac"
+    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matar,Vic,Olot,Tortosa,Sant Cugat del Vallès,Cornellà de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,Gavà,El Prat de Llobregat,Cerdanyola del Vallès,Mollet del Vallès,Montcada i Reixac"
   },
 
 {
