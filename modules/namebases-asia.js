@@ -1,4 +1,4 @@
-"use strict";
+﻿"use strict";
 
 window.AsiaNameBases = [
 {
@@ -13,7 +13,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Chinese",
-    "i": 30001,
+    "i": 10,
     "min": 5,
     "max": 10,
     "d": "",
@@ -433,7 +433,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Car Nicobarese",
-    "i": 30002,
+    "i": 10,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -593,7 +593,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ambonese Malay",
-    "i": 30003,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "lrt",
@@ -633,7 +633,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Madurese",
-    "i": 30004,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "lrt",
@@ -1039,6 +1039,16 @@ window.AsiaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Mersin,Adana,Hatay,Gaziantep,Kilis,Sanliurfa,Antakya,Iskenderun,Tarsus,Osmaniye,Kahramanmaras,Diyarbakir"
+  },
+
+{
+    "name": "Andalusi Arabic",
+    "i": 10,
+    "min": 4,
+    "max": 10,
+    "d": "ae",
+    "m": 0,
+    "b": "Seville,Cordoba,Granada,Toledo,Malaga,Valencia,Murcia,Almeria,Cordoba,Jerez"
   },
 
 {
@@ -2043,7 +2053,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Anca",
-    "i": 30006,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -2053,7 +2063,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ancient Egyptian",
-    "i": 30052,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -2063,7 +2073,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ancient North Arabian",
-    "i": 30053,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -2883,7 +2893,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Be",
-    "i": 30009,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -6863,7 +6873,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Azd Dialect",
-    "i": 30070,
+    "i": 2345,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -7293,7 +7303,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ao",
-    "i": 30010,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7303,7 +7313,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Angami-Pochuri",
-    "i": 30011,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7613,7 +7623,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Nar-Phu",
-    "i": 30012,
+    "i": 10,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -7643,7 +7653,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Awadhi",
-    "i": 30013,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7653,12 +7663,12 @@ window.AsiaNameBases = [
 
 {
     "name": "Be-Jizhao",
-    "i": 30014,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
-    "b": "Bengbu,Huainan,Fuyang,Suzhou,Anqing,Chuzhou,Huanggang,Xuancheng,Jingmen,Maanshan,Tongling,Wuhu,Bozhou,Luzhou,Chaohu,Sixian,Huangshan,Jixi,Wangjiang,Danyang"
+    "b": "Bengbu,Huainan,Fuyang,Bengbu,Suzhou,Anqing,Chuzhou,Huanggang,Xuancheng,Jingmen"
   },
 
 {
@@ -7753,7 +7763,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Djinang",
-    "i": 30050,
+    "i": 10,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -7763,7 +7773,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Allar",
-    "i": 30016,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7773,7 +7783,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Alchuka",
-    "i": 30017,
+    "i": 10,
     "min": 4,
     "max": 11,
     "d": "ae",
@@ -7783,7 +7793,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Filipino",
-    "i": 30018,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7793,7 +7803,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Andaman Creole Hindi",
-    "i": 30019,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7813,7 +7823,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Baba Malay",
-    "i": 30020,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "lrt",
@@ -7823,7 +7833,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Balinese Malay",
-    "i": 30021,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "lrt",
@@ -7833,7 +7843,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Banda Malay",
-    "i": 30022,
+    "i": 10,
     "min": 4,
     "max": 11,
     "d": "lrt",
@@ -7843,7 +7853,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Betawi",
-    "i": 30023,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "lrt",
@@ -7853,7 +7863,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Dili Malay",
-    "i": 30024,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "lrt",
@@ -7863,7 +7873,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ani",
-    "i": 30025,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -7873,7 +7883,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ano",
-    "i": 30026,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -7883,7 +7893,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Anp",
-    "i": 30027,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7893,7 +7903,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Cao Lan",
-    "i": 30028,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7903,7 +7913,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Cao Miao",
-    "i": 30029,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -7913,7 +7923,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Anq",
-    "i": 30030,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -7923,7 +7933,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Aot",
-    "i": 30031,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7933,7 +7943,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Aoz",
-    "i": 30032,
+    "i": 10,
     "min": 4,
     "max": 9,
     "d": "ae",
@@ -7943,7 +7953,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Attapady Kurumba",
-    "i": 30033,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7953,7 +7963,7 @@ window.AsiaNameBases = [
 
 {
     "name": "Ava",
-    "i": 30034,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7962,8 +7972,58 @@ window.AsiaNameBases = [
   },
 
 {
+    "name": "Andalusi Arabic (setBases aux)",
+    "i": 20157,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Anq (setBases aux)",
+    "i": 20158,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Ao (setBases aux)",
+    "i": 20159,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Aot (setBases aux)",
+    "i": 20160,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Aoz (setBases aux)",
+    "i": 20161,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
     "name": "Bimbashi Arabic",
-    "i": 30054,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7972,8 +8032,28 @@ window.AsiaNameBases = [
   },
 
 {
+    "name": "Bongor Arabic",
+    "i": 10,
+    "min": 4,
+    "max": 10,
+    "d": "ae",
+    "m": 0,
+    "b": "Bongor,N Djamena,Moundou,Sarh,Ab ech,Doba,Lai,Bodo,Bongor,Goz Beida"
+  },
+
+{
+    "name": "Maridi Arabic",
+    "i": 10,
+    "min": 4,
+    "max": 10,
+    "d": "ae",
+    "m": 0,
+    "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma,Juba"
+  },
+
+{
     "name": "Turku Arabic",
-    "i": 30057,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
@@ -7983,12 +8063,32 @@ window.AsiaNameBases = [
 
 {
     "name": "Juba Arabic",
-    "i": 30058,
+    "i": 10,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
     "b": "Juba,Wau,Malakal,Nimule,Bor,Rumbek,Yei,Abyei,Kajo Keji,Tambura"
+  },
+
+{
+    "name": "San Andres-Providencia Creole",
+    "i": 10,
+    "min": 4,
+    "max": 11,
+    "d": "ae",
+    "m": 0,
+    "b": "San Andres,Providencia,Old Providence,San Luis,La Loma,Hill Valley,Bottom House,Rocky Point,Bocachica,Swarteen"
+  },
+
+{
+    "name": "Daman (setBases aux)",
+    "i": 20194,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
   },
 
 {
@@ -8002,6 +8102,66 @@ window.AsiaNameBases = [
   },
 
 {
+    "name": "Diu (setBases aux)",
+    "i": 20196,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Portugis (setBases aux)",
+    "i": 20197,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "SÃ£o Nicolau Creole (setBases aux)",
+    "i": 20198,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "SÃ£o Vicente Creole (setBases aux)",
+    "i": 20199,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Santo AntÃ£o Creole (setBases aux)",
+    "i": 20200,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
+    "name": "Indo-Portuguese (setBases aux)",
+    "i": 20201,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
+
+{
     "name": "Indo-Portuguese Creole of Bombay (setBases aux)",
     "i": 20202,
     "min": 4,
@@ -8012,12 +8172,44 @@ window.AsiaNameBases = [
   },
 
 {
+    "name": "Chagossian Creole",
+    "i": 10,
+    "min": 4,
+    "max": 12,
+    "d": "ae",
+    "m": 0,
+    "b": "Diego Garcia,Peros Banhos,Salomon Islands,Nelson Island,Eagle Islands,Plymouth,Cockburn Harbour,Longwood,Ginger Hill,Baie St. Anne"
+  },
 
 {
+    "name": "Dominican Creole French",
+    "i": 10,
+    "min": 4,
+    "max": 10,
+    "d": "ae",
+    "m": 0,
+    "b": "Roseau,Portsmouth,Banse,Grand Bay,St. Joseph,Marigot,Belley,La Plaine,Wesley,Colihaut"
+  },
 
 {
+    "name": "French Guianese Creole",
+    "i": 10,
+    "min": 4,
+    "max": 10,
+    "d": "ae",
+    "m": 0,
+    "b": "Cayenne,Kourou,Remire,Macouria,Matoury,Saint-Laurent,Mana,Apatou,Grand-Santi,Saul"
+  },
 
 {
+    "name": "Grenadian Creole French",
+    "i": 10,
+    "min": 4,
+    "max": 11,
+    "d": "ae",
+    "m": 0,
+    "b": "St. George,Gouyave,Grenville,Victoria,St. David,St. Andrew,St. John,St. Mark,St. Patrick,St. Lucia"
+  },
 
 {
     "name": "KaripÃºna French Creole",
@@ -8030,12 +8222,44 @@ window.AsiaNameBases = [
   },
 
 {
+    "name": "Louisiana Creole",
+    "i": 10,
+    "min": 4,
+    "max": 11,
+    "d": "ae",
+    "m": 0,
+    "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Alexandria,Thibodaux,Houma,New Iberia,Slidell"
+  },
 
 {
+    "name": "RÃ©union Creole",
+    "i": 20209,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "New Place"
+  },
 
 {
+    "name": "Rodriguan Creole",
+    "i": 10,
+    "min": 4,
+    "max": 12,
+    "d": "ae",
+    "m": 0,
+    "b": "Port Mathurin,Port Louis,Saint Gabriel,Batelam,Coromandel,Riviere du Rempart,Grand Gaube,Pamplemousses,Grand Baie,Cap Malheureux"
+  },
 
 {
+    "name": "Saint Lucian Creole",
+    "i": 10,
+    "min": 4,
+    "max": 12,
+    "d": "ae",
+    "m": 0,
+    "b": "Castries,Choiseul,Dennery,Gros Islet,Laborie,Micoud,Soufriere,Vieux Fort,Anse-la-Raye,Canaries"
+  },
 
 {
     "name": "Tay Boi Pidgin French",
