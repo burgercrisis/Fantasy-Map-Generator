@@ -378,7 +378,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rae Behchoko,WhatÃ¬,GamÃ¨tÃ¬,WekweÃ¨tÃ¬,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
+    "b": "Rae Behchoko,Whatì,Gamètì,Wekwèètì,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
   },
 
 {
@@ -522,13 +522,25 @@ window.NorthAmericaNameBases = [
   },
 
 {
+    "name": "Chakato",
+    "i": 20703,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Lawrence,Topeka,Oklahoma City,Tulsa,Wichita,Kansas City,St. Louis,Springfield,Joplin,Pittsburg,Independence,Kansas"
+  },
+
+  
+
+{
     "name": "Chinook Jargon",
     "i": 1592,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chinook Jargon,Portland,Seattle,Vancouver,Columbia River,Oregon,Washington,USA,Canada,Pacific Northwest"
+    "b": "Fort Vancouver,The Dalles,Celilo,Wasco,Shaniko,Boardman,Oregon City,Maryhill,Goldendale,The Cove,Priest Rapids,Yakima"
   },
 
 {
@@ -598,7 +610,7 @@ window.NorthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Charleston,Savannah,Sea Islands,Georgetown,Beaufort,Low Country,Gullah Geechee,USA,Southeast Coast"
+    "b": "Charleston,Mount Pleasant,Summerville,Savannah,Hilton Head,Bluffton,Beaufort,Georgetown,Parris Island,Edisto Island,Hunting Island,Fripp Island"
   },
 
 {
