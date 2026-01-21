@@ -1378,7 +1378,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "East,Southeast,Oceania,Australia,Papuan,Trans-New Guinea,Indo-Pacific Language"
+    "b": "Bena,Yalë,Wari,Vitu,Wari-La,Maralango,Garuh,Keibina,Sisi,Silurong,Bina"
   },
 
 {
