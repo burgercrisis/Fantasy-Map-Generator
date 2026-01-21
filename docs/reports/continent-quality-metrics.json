@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-01-21T04:56:34.558Z",
+  "timestamp": "2026-01-21T06:28:48.394Z",
   "summary": {
     "totalLanguages": 2583,
-    "totalNames": 40774,
-    "totalIssues": 292,
-    "encodingIssues": 285,
-    "suspiciousNames": 2
+    "totalNames": 40793,
+    "totalIssues": 3,
+    "encodingIssues": 1,
+    "suspiciousNames": 0
   },
   "continents": {
     "africa": {
@@ -90,19 +90,9 @@
         {
           "name": "Nama Click",
           "totalNames": 16,
-          "issueCount": 1,
-          "qualityScore": 94,
-          "issues": [
-            {
-              "name": "GrÃ¼nau",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Naro Click",
@@ -177,366 +167,37 @@
         {
           "name": "East Chadic",
           "totalNames": 20,
-          "issueCount": 2,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ©rÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
-          "name": "Angolar SÃ£o TomÃ©",
+          "name": "Angolar S£o Tomé",
           "totalNames": 44,
-          "issueCount": 7,
-          "qualityScore": 84,
-          "issues": [
-            {
-              "name": "SÃ£o JoÃ£o dos Angolares",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "IlhÃ©u das Rolas",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia MicondÃ³",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia CamÃ£o",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia CaixÃ£o",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia San AntÃ³nio",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia SÃ£o Joaquim",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
-          "name": "Annobonese PalÃ©",
+          "name": "Annobonese Palé",
           "totalNames": 43,
-          "issueCount": 3,
-          "qualityScore": 93,
-          "issues": [
-            {
-              "name": "San Antonio de PalÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "TchindÃ­",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Ponta MÃ³",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
-          "name": "Forro SÃ£o TomÃ©",
+          "name": "Forro S£o Tomé",
           "totalNames": 48,
-          "issueCount": 13,
-          "qualityScore": 73,
-          "issues": [
-            {
-              "name": "SÃ£o TomÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Ãgua Grande",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BatepÃ¡",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "MicolÃ³",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Monte CafÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Ãgua IzÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ£o MarÃ§al",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ£o Miguel",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ£o Pedro",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Monte MÃ¡rio",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "CaixÃ£o Grande",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ£o LÃ¡zaro",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃªbÃª Forro",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Principense Sundy",
           "totalNames": 42,
-          "issueCount": 11,
-          "qualityScore": 74,
-          "issues": [
-            {
-              "name": "Santo AntÃ³nio",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ£o Joaquim",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "OquÃª Daniel",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia CaixÃ£o",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia TÃ©tin",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia Ribeira IzÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia CatamarÃ£",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia CaÃ§a",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia BoiÃ£o",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia GaleÃ£o",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Praia Santo AntÃ³nio",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bura",
@@ -639,37 +300,9 @@
         {
           "name": "Dangaleat",
           "totalNames": 19,
-          "issueCount": 3,
-          "qualityScore": 84,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ©rÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "N'DjamÃ©na",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Liberian Interior Pidgin English",
@@ -681,19 +314,9 @@
         {
           "name": "African Romance",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "SÃ©tif",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Equatoguinean Spanish",
@@ -705,45 +328,16 @@
         {
           "name": "Baka",
           "totalNames": 9,
-          "issueCount": 2,
-          "qualityScore": 78,
-          "issues": [
-            {
-              "name": "LomiÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SangmÃ©lima",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bube",
           "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "BasilÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Saya",
@@ -769,141 +363,37 @@
         {
           "name": "Sinyar",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "KadjaksÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Songhoyboro Ciine",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "TillabÃ©ri",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GothÃ¨ye",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "FilinguÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Surbakhal",
           "totalNames": 12,
-          "issueCount": 4,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "MoudeÃ¯na",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "AdÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "OuaddaÃ¯",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GuÃ©ra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Teda",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "Ounianga KÃ©bir",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tondi Songway Kiini",
           "totalNames": 11,
-          "issueCount": 2,
-          "qualityScore": 82,
-          "issues": [
-            {
-              "name": "DjennÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SevarÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Sukur",
@@ -936,63 +426,16 @@
         {
           "name": "Saharan Spanish",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "El AaiÃºn",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "La GÃ¼era",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Syer-Tenyer",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "SoubakaniÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "TiÃ©fora",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "OuÃ©lÃ©ni",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tiv",
@@ -1039,72 +482,16 @@
         {
           "name": "Tadaksahak",
           "totalNames": 50,
-          "issueCount": 5,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "TillabÃ©ri",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GothÃ¨ye",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "IllÃ©la",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "TÃ©baram",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "AguiÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Saba",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Shabo",
@@ -1116,19 +503,9 @@
         {
           "name": "Besme",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Senara",
@@ -1140,36 +517,16 @@
         {
           "name": "Sucite",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "DjennÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Supyire",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "DjennÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Suwu",
@@ -1181,45 +538,16 @@
         {
           "name": "Spanish",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "MÃ¡laga",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "CÃ³rdoba",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tetuani",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "TetuÃ¡n",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Abon",
@@ -1308,196 +636,30 @@
         {
           "name": "Djimini",
           "totalNames": 12,
-          "issueCount": 5,
-          "qualityScore": 58,
-          "issues": [
-            {
-              "name": "BoniÃ©rÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NiÃ©mÃ©nÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "TendÃ©nÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KoniÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "YaossÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Doghose",
           "totalNames": 12,
-          "issueCount": 6,
-          "qualityScore": 50,
-          "issues": [
-            {
-              "name": "SidÃ©radougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DiÃ©bougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "LoropÃ©ni",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BatiÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "PÃ©rigban",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DjigouÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Dogoso",
           "totalNames": 12,
-          "issueCount": 6,
-          "qualityScore": 50,
-          "issues": [
-            {
-              "name": "SidÃ©radougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DiÃ©bougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "LoropÃ©ni",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BatiÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "PÃ©rigban",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DjigouÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Eton",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "MonatÃ©lÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Evant",
@@ -1544,72 +706,16 @@
         {
           "name": "Goundo",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "LÃ©rÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KÃ©lo",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KyabÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
-          "name": "GourmanchÃ©",
+          "name": "Gourmanché",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "BogandÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GayÃ©ri",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "PiÃ©la",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Gumuz",
@@ -1656,28 +762,9 @@
         {
           "name": "Samwe",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "LankouÃ¨",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ToÃ©ni",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Shwai",
@@ -1689,19 +776,9 @@
         {
           "name": "Sighu",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "LambarÃ©nÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Siwu",
@@ -1727,72 +804,16 @@
         {
           "name": "Susu",
           "totalNames": 19,
-          "issueCount": 3,
-          "qualityScore": 84,
-          "issues": [
-            {
-              "name": "ForÃ©cariah",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DubrÃ©ka",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "TÃ©limÃ©lÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tagwana",
           "totalNames": 13,
-          "issueCount": 3,
-          "qualityScore": 77,
-          "issues": [
-            {
-              "name": "TafirÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NiÃ©diÃ©kaha",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SinÃ©matiali",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Talni",
@@ -1832,55 +853,9 @@
         {
           "name": "Viemo",
           "totalNames": 12,
-          "issueCount": 5,
-          "qualityScore": 58,
-          "issues": [
-            {
-              "name": "Karangasso-ViguÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "HoundÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ©rÃ©ba",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "PadÃ©ma",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DandÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Viti",
@@ -1911,65 +886,18 @@
           "issues": []
         },
         {
-          "name": "Ãsele",
+          "name": "sele",
           "totalNames": 12,
-          "issueCount": 4,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "Ãsele",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "MalÃ¥",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NorsjÃ¶",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "VÃ¤nnÃ¤s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Afade language",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "KoussÃ©ri",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Afar",
@@ -2065,45 +993,16 @@
         {
           "name": "Yulu",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "NdÃ©lÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Air Tamajeq language",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "IfÃ©rouane",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "IllÃ©la",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Ait Seghrouchen Berber",
@@ -2185,19 +1084,9 @@
         {
           "name": "Barein language",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Beele language",
@@ -2244,28 +1133,9 @@
         {
           "name": "Asoa",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "MbaÃ¯ki",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BerbÃ©rati",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Assan",
@@ -2529,37 +1399,9 @@
         {
           "name": "Tsamai",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "GuÃ©ra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "MangalmÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ©noye",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "El Molo",
@@ -2592,37 +1434,9 @@
         {
           "name": "Baldemu language",
           "totalNames": 11,
-          "issueCount": 3,
-          "qualityScore": 73,
-          "issues": [
-            {
-              "name": "BaÃ¯ssouroum",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KoÃ¯bim",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KoupÃ©lentÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Balo",
@@ -2634,19 +1448,9 @@
         {
           "name": "Bamali",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "NkambÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bambalang",
@@ -2658,19 +1462,9 @@
         {
           "name": "Bambara",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "SÃ©gou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bamukumbit",
@@ -2696,19 +1490,9 @@
         {
           "name": "Bana language",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "BantadjÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bangime",
@@ -2720,80 +1504,23 @@
         {
           "name": "Bariba",
           "totalNames": 11,
-          "issueCount": 4,
-          "qualityScore": 64,
-          "issues": [
-            {
-              "name": "BembÃ¨rÃ¨kÃ¨",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SinendÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KouandÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ChÃ©rou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bassari",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "SÃ©dhiou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bata language",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "YaoundÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Batu",
@@ -2882,28 +1609,9 @@
         {
           "name": "Bete",
           "totalNames": 11,
-          "issueCount": 2,
-          "qualityScore": 82,
-          "issues": [
-            {
-              "name": "TaÃ¯",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BouaflÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bfy",
@@ -2929,19 +1637,9 @@
         {
           "name": "Bidiya language",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bina",
@@ -2953,37 +1651,9 @@
         {
           "name": "Birgit language",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "GuÃ©ra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BaÃ¯bokoum",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Biu-Mandara",
@@ -3023,19 +1693,9 @@
         {
           "name": "Birri",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "N'DÃ©lÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Biseni",
@@ -3054,53 +1714,23 @@
         {
           "name": "Bitare",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "NgaoundÃ©rÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bobo",
           "totalNames": 9,
-          "issueCount": 1,
-          "qualityScore": 89,
-          "issues": [
-            {
-              "name": "DÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Boga language",
           "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "GuÃ©rÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Boko",
@@ -3154,19 +1784,9 @@
         {
           "name": "Bonjo",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "NgaoundÃ©rÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bono Ghana-Ivory Coast",
@@ -3206,45 +1826,16 @@
         {
           "name": "Buru-Angwe",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "DjouÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bwi",
           "totalNames": 9,
-          "issueCount": 2,
-          "qualityScore": 78,
-          "issues": [
-            {
-              "name": "KoupÃ©la",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ManÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Caka",
@@ -3270,8 +1861,8 @@
         {
           "name": "Central Banda",
           "totalNames": 13,
-          "issueCount": 3,
-          "qualityScore": 77,
+          "issueCount": 1,
+          "qualityScore": 92,
           "issues": [
             {
               "name": "CAR",
@@ -3279,24 +1870,6 @@
                 {
                   "type": "all_caps",
                   "severity": "low"
-                }
-              ]
-            },
-            {
-              "name": "M'BaÃ¯ssÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
                 }
               ]
             }
@@ -3499,23 +2072,6 @@
           "issues": []
         },
         {
-          "name": "Chakato language",
-          "totalNames": 8,
-          "issueCount": 1,
-          "qualityScore": 88,
-          "issues": [
-            {
-              "name": "USA",
-              "issues": [
-                {
-                  "type": "all_caps",
-                  "severity": "low"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Fut",
           "totalNames": 6,
           "issueCount": 0,
@@ -3693,36 +2249,16 @@
         {
           "name": "Lisan al-Gharbi",
           "totalNames": 6,
-          "issueCount": 1,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "GhadamÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Matmata Berber",
           "totalNames": 9,
-          "issueCount": 1,
-          "qualityScore": 89,
-          "issues": [
-            {
-              "name": "GabÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Ouargli",
@@ -3734,28 +2270,9 @@
         {
           "name": "Sanhaja de Srair",
           "totalNames": 10,
-          "issueCount": 2,
-          "qualityScore": 80,
-          "issues": [
-            {
-              "name": "TÃ©touan",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "FÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Sened",
@@ -3767,19 +2284,9 @@
         {
           "name": "Sheliff Basin Berber",
           "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "TÃ©nÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Sokna",
@@ -3791,37 +2298,9 @@
         {
           "name": "South Oran-Figuig Berber",
           "totalNames": 10,
-          "issueCount": 3,
-          "qualityScore": 70,
-          "issues": [
-            {
-              "name": "BÃ©char",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ©ni AbbÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NaÃ¢ma",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tawellemmet",
@@ -3840,19 +2319,9 @@
         {
           "name": "Dida",
           "totalNames": 6,
-          "issueCount": 1,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "CÃ´te d'Ivoire",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Diri language",
@@ -4011,37 +2480,9 @@
         {
           "name": "Ewe",
           "totalNames": 10,
-          "issueCount": 3,
-          "qualityScore": 70,
-          "issues": [
-            {
-              "name": "LomÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KpalimÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SokodÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Fali of Mubi",
@@ -4060,28 +2501,9 @@
         {
           "name": "Fang Cameroon",
           "totalNames": 11,
-          "issueCount": 2,
-          "qualityScore": 82,
-          "issues": [
-            {
-              "name": "YaoundÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "EdÃ©a",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Fang Equatorial Guinea and Gabon",
@@ -4121,19 +2543,9 @@
         {
           "name": "Douiret",
           "totalNames": 9,
-          "issueCount": 1,
-          "qualityScore": 89,
-          "issues": [
-            {
-              "name": "GabÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Dry",
@@ -4145,54 +2557,16 @@
         {
           "name": "Ewondo",
           "totalNames": 10,
-          "issueCount": 2,
-          "qualityScore": 80,
-          "issues": [
-            {
-              "name": "YaoundÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "EdÃ©a",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Ewondo Populaire",
           "totalNames": 8,
-          "issueCount": 2,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "YaoundÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "EdÃ©a",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Gonga",
@@ -4314,7 +2688,7 @@
           "issues": []
         },
         {
-          "name": "GhadamÃ¨s",
+          "name": "Ghadamès",
           "totalNames": 7,
           "issueCount": 0,
           "qualityScore": 100,
@@ -4351,28 +2725,9 @@
         {
           "name": "Guinea-Bissau Creole",
           "totalNames": 7,
-          "issueCount": 2,
-          "qualityScore": 71,
-          "issues": [
-            {
-              "name": "BafatÃ¡",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BijagÃ³s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Gurara",
@@ -4566,36 +2921,16 @@
         {
           "name": "Tuareg Berber",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "IfÃ©rouane",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tuareg languages",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "TidermÃ¨ne",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tuwat Berber",
@@ -4607,187 +2942,30 @@
         {
           "name": "Western Berber",
           "totalNames": 12,
-          "issueCount": 4,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "Keur MassÃ¨ne",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BoghÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BababÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KaÃ©di",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Western Berber family",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "Keur MassÃ¨ne",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BoghÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KaÃ©di",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Zenaga Berber",
           "totalNames": 50,
-          "issueCount": 7,
-          "qualityScore": 86,
-          "issues": [
-            {
-              "name": "Keur MassÃ¨ne",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BoghÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BababÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KaÃ©di",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Ould YengÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BouanzÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NiÃ©lÃ©ba",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Zenati languages",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "TÃ©bessa",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ©tif",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Bordj Bou ArrÃ©ridj",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Telugu",
@@ -4797,7 +2975,7 @@
           "issues": []
         },
         {
-          "name": "SetlÃ´kwa",
+          "name": "Setl´kwa",
           "totalNames": 12,
           "issueCount": 0,
           "qualityScore": 100,
@@ -4911,37 +3089,9 @@
         {
           "name": "Laal",
           "totalNames": 10,
-          "issueCount": 3,
-          "qualityScore": 70,
-          "issues": [
-            {
-              "name": "LaÃ¯",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GuÃ©ra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KÃ©mo",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Lusoga",
@@ -4960,46 +3110,9 @@
         {
           "name": "Ber Family",
           "totalNames": 10,
-          "issueCount": 4,
-          "qualityScore": 60,
-          "issues": [
-            {
-              "name": "FÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "MeknÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KÃ©nitra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SalÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Tasawaq",
@@ -5067,19 +3180,9 @@
         {
           "name": "Zenati Berber",
           "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "Sidi Bel AbbÃ©s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Sele",
@@ -5133,37 +3236,9 @@
         {
           "name": "Nyabwa",
           "totalNames": 20,
-          "issueCount": 3,
-          "qualityScore": 85,
-          "issues": [
-            {
-              "name": "MadiÃ©pa",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GuÃ©ra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NiÃ©ko",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Mumuye",
@@ -5175,55 +3250,9 @@
         {
           "name": "Moore",
           "totalNames": 20,
-          "issueCount": 5,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "BoussÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ZiniarÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Ourgou-ManÃ©ga",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KoupÃ©la",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BoussÃ©Town",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Oromo",
@@ -5361,72 +3390,16 @@
         {
           "name": "Boze",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "NiambÃ©zaria",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GalÃ©brÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bozo",
           "totalNames": 12,
-          "issueCount": 4,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "DjennÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "SÃ©gou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DiafarabÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NiafunkÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Buu",
@@ -5466,71 +3439,23 @@
         {
           "name": "Ghanaian Pidgin English",
           "totalNames": 36,
-          "issueCount": 1,
-          "qualityScore": 97,
-          "issues": [
-            {
-              "name": "BouakÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Nigerian Pidgin",
           "totalNames": 35,
-          "issueCount": 1,
-          "qualityScore": 97,
-          "issues": [
-            {
-              "name": "BouakÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "West African Pidgin English",
           "totalNames": 32,
-          "issueCount": 3,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "LomÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "YaoundÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BouakÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Kru Pidgin English",
@@ -5542,62 +3467,23 @@
         {
           "name": "Angolar Creole",
           "totalNames": 6,
-          "issueCount": 2,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "SÃ£o JoÃ£o dos Angolares",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "IÃ´ Grande",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Annobonese Creole",
           "totalNames": 6,
-          "issueCount": 1,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "San Antonio de PalÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Cape Verdean Creole",
           "totalNames": 7,
-          "issueCount": 1,
-          "qualityScore": 86,
-          "issues": [
-            {
-              "name": "SÃ£o Filipe",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Avokaya",
@@ -5630,31 +3516,12 @@
         {
           "name": "Chadian Arabic",
           "totalNames": 8,
-          "issueCount": 2,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "AbÃ©chÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KÃ©lo",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
-          "name": "KujargÃ©",
+          "name": "Kujargé",
           "totalNames": 5,
           "issueCount": 0,
           "qualityScore": 100,
@@ -6213,19 +4080,9 @@
         {
           "name": "Fogo Creole",
           "totalNames": 19,
-          "issueCount": 1,
-          "qualityScore": 95,
-          "issues": [
-            {
-              "name": "CabeÃ§a FundÂ£o",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Juk (Bahnaric)",
@@ -6272,19 +4129,9 @@
         {
           "name": "Tetum",
           "totalNames": 17,
-          "issueCount": 1,
-          "qualityScore": 94,
-          "issues": [
-            {
-              "name": "LiquiÃ§Ã¡",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Santali",
@@ -6303,16 +4150,12 @@
         {
           "name": "Bunun (Isbukun)",
           "totalNames": 24,
-          "issueCount": 2,
-          "qualityScore": 92,
+          "issueCount": 1,
+          "qualityScore": 96,
           "issues": [
             {
-              "name": "Ã¥Â»Â¶Ã¥Â¹Â³",
+              "name": "瑞岩",
               "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                },
                 {
                   "type": "all_caps",
                   "severity": "low"
@@ -6651,7 +4494,7 @@
           "issues": []
         },
         {
-          "name": "MonÃ©gasque",
+          "name": "Monégasque",
           "totalNames": 12,
           "issueCount": 0,
           "qualityScore": 100,
@@ -6665,39 +4508,11 @@
           "issues": []
         },
         {
-          "name": "SomontanÃ©s",
+          "name": "Somontanés",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "MonzÃ³n",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BinÃ©far",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "AlquÃ©zar",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Azd dialect",
@@ -6709,55 +4524,9 @@
         {
           "name": "Hejtun dialect",
           "totalNames": 12,
-          "issueCount": 5,
-          "qualityScore": 58,
-          "issues": [
-            {
-              "name": "ÃÂ»ejtun",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BirÃÂ¼ebbuÃÂ¡a",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GÃÂ§axaq",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ÃÂ»urrieq",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ÃÂ¦al Far",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "A Ou",
@@ -7371,19 +5140,9 @@
         {
           "name": "Torgut Oirat",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "ÅrÃ¼mqi",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Burushaski",
@@ -7507,28 +5266,9 @@
         {
           "name": "Baarin Mongol",
           "totalNames": 12,
-          "issueCount": 2,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "MÃ¶rÃ¶n",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Ãlgii",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Babylonian",
@@ -7722,37 +5462,9 @@
         {
           "name": "Waneci",
           "totalNames": 10,
-          "issueCount": 3,
-          "qualityScore": 70,
-          "issues": [
-            {
-              "name": "TocantinÃ³polis",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ParaÃ­so do Tocantins",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "AraguaÃ­na",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Eastern Indonesian Malay",
@@ -7806,28 +5518,9 @@
         {
           "name": "Bargut Buryat",
           "totalNames": 11,
-          "issueCount": 2,
-          "qualityScore": 82,
-          "issues": [
-            {
-              "name": "SÃ¼khbaatar",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KhÃ¶vsgÃ¶l",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Barwar",
@@ -7999,38 +5692,10 @@
         },
         {
           "name": "Nung Tai",
-          "totalNames": 10,
-          "issueCount": 3,
-          "qualityScore": 70,
-          "issues": [
-            {
-              "name": "Cao BÃ¡ÂºÂ±ng",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ¡ÂºÂ¯c Giang",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "DiÃ¡Â»â¦n BiÂªn",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Lao Phutai",
@@ -8042,46 +5707,9 @@
         {
           "name": "Pa Di",
           "totalNames": 9,
-          "issueCount": 4,
-          "qualityScore": 56,
-          "issues": [
-            {
-              "name": "Tu MÃÂ¡ RÂ´ng",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ChÃÂ° PÃÆh",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "NghÃÂ© An",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "ÃÂÃ¡ÂºÂ¯c LÃ¡ÂºÂ¯k",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Thai Song",
@@ -8161,7 +5789,7 @@
           "issues": []
         },
         {
-          "name": "HÃ±n",
+          "name": "Hñn",
           "totalNames": 12,
           "issueCount": 0,
           "qualityScore": 100,
@@ -8224,7 +5852,7 @@
           "issues": []
         },
         {
-          "name": "HÃ¡klÃ¡u Min",
+          "name": "Hákláu Min",
           "totalNames": 12,
           "issueCount": 0,
           "qualityScore": 100,
@@ -8471,19 +6099,9 @@
         {
           "name": "Bidau Creole Portuguese",
           "totalNames": 11,
-          "issueCount": 1,
-          "qualityScore": 91,
-          "issues": [
-            {
-              "name": "LiquiÃ§a",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bikol",
@@ -8565,19 +6183,9 @@
         {
           "name": "Bourbonnais Creole",
           "totalNames": 12,
-          "issueCount": 1,
-          "qualityScore": 92,
-          "issues": [
-            {
-              "name": "RÃ©union",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Bishnupriya Manipuri",
@@ -8722,45 +6330,16 @@
         {
           "name": "Central Hilali dialects",
           "totalNames": 13,
-          "issueCount": 2,
-          "qualityScore": 85,
-          "issues": [
-            {
-              "name": "BÃ©char",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ©ni AbbÃ¨s",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Central Min",
-          "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "Min Dialect",
-              "issues": [
-                {
-                  "type": "dialect_suffix",
-                  "severity": "medium"
-                }
-              ]
-            }
-          ]
+          "totalNames": 14,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Central Tai",
@@ -9031,19 +6610,9 @@
         {
           "name": "Chong",
           "totalNames": 6,
-          "issueCount": 1,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "KratiÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Chrau Bahnaric",
@@ -9153,19 +6722,9 @@
         {
           "name": "Classical Syriac",
           "totalNames": 9,
-          "issueCount": 1,
-          "qualityScore": 89,
-          "issues": [
-            {
-              "name": "DiyarbakÃÂ±r",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Chilisso",
@@ -9282,28 +6841,9 @@
         {
           "name": "Darkhad",
           "totalNames": 8,
-          "issueCount": 2,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "KhÃ¶vsgÃ¶l",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "Lake KhÃ¶vsgÃ¶l",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Holiya",
@@ -9392,19 +6932,9 @@
         {
           "name": "Dhivehi",
           "totalNames": 6,
-          "issueCount": 1,
-          "qualityScore": 83,
-          "issues": [
-            {
-              "name": "MalÃ©",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Dimasa",
@@ -9955,64 +7485,9 @@
         {
           "name": "Qau",
           "totalNames": 12,
-          "issueCount": 6,
-          "qualityScore": 50,
-          "issues": [
-            {
-              "name": "ÃÂÃ¡Â»âng VÃÆn",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "MÃ¨o VÃ¡ÂºÂ¡c",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "QuÃ¡ÂºÂ£n BÃ¡ÂºÂ¡",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "VÃ¡Â»â¹ XuyÂªn",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BÃ¡ÂºÂ¯c MÂª",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "XÃ­n MÃ¡ÂºÂ§n",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Taman",
@@ -10878,28 +8353,9 @@
         {
           "name": "Kui (India)",
           "totalNames": 9,
-          "issueCount": 2,
-          "qualityScore": 78,
-          "issues": [
-            {
-              "name": "SalÃ©mata",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Kyakhta Russian-Chinese Pidgin",
@@ -10988,28 +8444,9 @@
         {
           "name": "Ejtun Dialect",
           "totalNames": 8,
-          "issueCount": 2,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "ÃÂ»ebbuÃÂ¡",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "XagÃÂ§ra",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Aqc",
@@ -11056,28 +8493,9 @@
         {
           "name": "Kxu",
           "totalNames": 9,
-          "issueCount": 2,
-          "qualityScore": 78,
-          "issues": [
-            {
-              "name": "SalÃ©mata",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "KÃ©dougou",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Kyakhta Russian Chinese Pidgin",
@@ -11502,19 +8920,9 @@
         {
           "name": "Turkmen",
           "totalNames": 15,
-          "issueCount": 1,
-          "qualityScore": 93,
-          "issues": [
-            {
-              "name": "KÃ¶neÃ¼rgench",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Sindhi",
@@ -11883,46 +9291,9 @@
         {
           "name": "Daman and Diu Portuguese Creole (setBases aux)",
           "totalNames": 12,
-          "issueCount": 4,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "SÃ£o Paulo",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BrasÃ­lia",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BelÃ©m",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GoiÃ¢nia",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Diu (setBases aux)",
@@ -11939,21 +9310,21 @@
           "issues": []
         },
         {
-          "name": "SÃ£o Nicolau Creole (setBases aux)",
+          "name": "S£o Nicolau Creole (setBases aux)",
           "totalNames": 1,
           "issueCount": 0,
           "qualityScore": 100,
           "issues": []
         },
         {
-          "name": "SÃ£o Vicente Creole (setBases aux)",
+          "name": "S£o Vicente Creole (setBases aux)",
           "totalNames": 1,
           "issueCount": 0,
           "qualityScore": 100,
           "issues": []
         },
         {
-          "name": "Santo AntÃ£o Creole (setBases aux)",
+          "name": "Santo Ant£o Creole (setBases aux)",
           "totalNames": 1,
           "issueCount": 0,
           "qualityScore": 100,
@@ -11969,46 +9340,9 @@
         {
           "name": "Indo-Portuguese Creole of Bombay (setBases aux)",
           "totalNames": 12,
-          "issueCount": 4,
-          "qualityScore": 67,
-          "issues": [
-            {
-              "name": "SÃ£o Paulo",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BrasÃ­lia",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "BelÃ©m",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GoiÃ¢nia",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Chagossian Creole",
@@ -12039,7 +9373,7 @@
           "issues": []
         },
         {
-          "name": "KaripÃºna French Creole",
+          "name": "Karipºna French Creole",
           "totalNames": 12,
           "issueCount": 0,
           "qualityScore": 100,
@@ -12053,7 +9387,7 @@
           "issues": []
         },
         {
-          "name": "RÃ©union Creole",
+          "name": "Réunion Creole",
           "totalNames": 1,
           "issueCount": 0,
           "qualityScore": 100,
@@ -16312,37 +13646,9 @@
         {
           "name": "Tlicho",
           "totalNames": 12,
-          "issueCount": 3,
-          "qualityScore": 75,
-          "issues": [
-            {
-              "name": "WhatÃ¬",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "GamÃ¨tÃ¬",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            },
-            {
-              "name": "WekweÃ¨tÃ¬",
-              "issues": [
-                {
-                  "type": "encoding",
-                  "severity": "high"
-                }
-              ]
-            }
-          ]
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Cochimí",
@@ -16443,21 +13749,18 @@
           "issues": []
         },
         {
+          "name": "Chakato",
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
+        },
+        {
           "name": "Chinook Jargon",
-          "totalNames": 10,
-          "issueCount": 1,
-          "qualityScore": 90,
-          "issues": [
-            {
-              "name": "USA",
-              "issues": [
-                {
-                  "type": "all_caps",
-                  "severity": "low"
-                }
-              ]
-            }
-          ]
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Cholti Classic",
@@ -16503,20 +13806,10 @@
         },
         {
           "name": "Gullah",
-          "totalNames": 9,
-          "issueCount": 1,
-          "qualityScore": 89,
-          "issues": [
-            {
-              "name": "USA",
-              "issues": [
-                {
-                  "type": "all_caps",
-                  "severity": "low"
-                }
-              ]
-            }
-          ]
+          "totalNames": 12,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Isthmus Zapotec",
@@ -19289,20 +16582,10 @@
         },
         {
           "name": "E",
-          "totalNames": 7,
-          "issueCount": 1,
-          "qualityScore": 86,
-          "issues": [
-            {
-              "name": "Indo-Pacific Language",
-              "issues": [
-                {
-                  "type": "language_suffix",
-                  "severity": "medium"
-                }
-              ]
-            }
-          ]
+          "totalNames": 11,
+          "issueCount": 0,
+          "qualityScore": 100,
+          "issues": []
         },
         {
           "name": "Favorlang",
