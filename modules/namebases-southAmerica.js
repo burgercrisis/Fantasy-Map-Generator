@@ -208,7 +208,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "es-AR",
     "m": 0,
-    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata"
+    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata,Santa Fe,Paraná,Concordia,Tandil,San Nicolás de los Arroyos,Vicente López,Pilar,Salto,Paysandú,Rivera"
   },
 
 {
