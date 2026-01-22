@@ -342,7 +342,7 @@ window.NorthAmericaNameBases = [
   },
 
 {
-    "name": "Cauque Mayan language",
+    "name": "Cauque Mayan",
     "i": 1187,
     "min": 4,
     "max": 11,
