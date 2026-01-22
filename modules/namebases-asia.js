@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 window.AsiaNameBases = [
 {
@@ -668,7 +668,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fogo,Sao Filipe,Mosteiros,Chº das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,S£o Filipe,Ch£ das Caldeiras,Portela,Relva,Figueira Pav£o,Cabeça Fund£o,Monte Genebra,Bangaeira,Est¢ncia Roque"
+    "b": "Fogo,Sao Filipe,Mosteiros,Chº das Caldeiras,Cova Figueira,Monte Velha,Ponta da Salina,Cutelo Capado,Praia Branca,Achada Furna,Sảo Filipe,Chả das Caldeiras,Portela,Relva,Figueira Pavảo,Cabeça Fundảo,Monte Genebra,Bangaeira,Estếncia Roque"
   },
 
 {
@@ -1142,7 +1142,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Japanese macro",
+    "name": "Japanese",
     "i": 320,
     "min": 4,
     "max": 11,
@@ -1272,7 +1272,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Azd dialect",
+    "name": "Azd",
     "i": 737,
     "min": 4,
     "max": 11,
@@ -1282,13 +1282,13 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Hejtun dialect",
+    "name": "Hejtun",
     "i": 738,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "»ejtun,Marsaxlokk,Bir¼ebbu¡a,G§axaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,»urrieq,Bubaqra,¦al Far"
+    "b": "»ejtun,Marsaxlokk,Bir¼ebbu¡a,Gệaxaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,»urrieq,Bubaqra,öal Far"
   },
 
 {
@@ -2168,7 +2168,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Årümqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
+    "b": "årümqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
   },
 
 {
@@ -2978,7 +2978,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pa Di,Kon Tum,Pl¢y Ku,Tu M¡ R´ng,Pleiku,Ch° PÆh,Ngh© An,áº¯c Láº¯k,Gia Lai"
+    "b": "Pa Di,Kon Tum,Plếy Ku,Tu M¡ R'ng,Pleiku,Ch° Pæh,Nghé An,áº¯c Láº¯k,Gia Lai"
   },
 
 {
@@ -3028,7 +3028,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vientiane,Luang Prabang,Savannakhet,Pakxe,Thakhek,Phonsavan,Xayaboury,Oudomxay,Muang Xay,Muang Ph´nsavan,Muang Say"
+    "b": "Vientiane,Luang Prabang,Savannakhet,Pakxe,Thakhek,Phonsavan,Xayaboury,Oudomxay,Muang Xay,Muang Ph'nsavan,Muang Say"
   },
 
 {
@@ -3292,7 +3292,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Bijiang Bai lect",
+    "name": "Bijiang Bai",
     "i": 1256,
     "min": 4,
     "max": 11,
@@ -3302,7 +3302,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Bijiang Bai language",
+    "name": "Bijiang Bai",
     "i": 1257,
     "min": 4,
     "max": 11,
@@ -3312,7 +3312,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Dali Bai lect",
+    "name": "Dali Bai",
     "i": 1258,
     "min": 4,
     "max": 11,
@@ -3322,7 +3322,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Dali Bai language",
+    "name": "Dali Bai",
     "i": 1259,
     "min": 4,
     "max": 11,
@@ -3332,7 +3332,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Heqing Bai lect",
+    "name": "Heqing Bai",
     "i": 1260,
     "min": 4,
     "max": 11,
@@ -3342,7 +3342,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Xiangyun Bai dialect",
+    "name": "Xiangyun Bai",
     "i": 1261,
     "min": 4,
     "max": 11,
@@ -3632,7 +3632,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Bonan Manegacha lect",
+    "name": "Bonan Manegacha",
     "i": 1356,
     "min": 4,
     "max": 11,
@@ -4492,7 +4492,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Cottonera Dialect",
+    "name": "Cottonera",
     "i": 1638,
     "min": 4,
     "max": 11,
@@ -5062,7 +5062,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Gangwon Dialect",
+    "name": "Gangwon",
     "i": 1832,
     "min": 4,
     "max": 11,
@@ -5118,7 +5118,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gta,Andaman Islands,India,Bay of Bengal,South Asia"
+    "b": "Malkangiri,Mathili,Chitrakonda,Balimela,Khairput,Kalimela,Motu,Podia,Koraput,Jeypore,Sunabeda,Kotpad,Lamput,DamanJodi,Padua,Lakshmipur"
   },
 
 {
@@ -5262,7 +5262,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Hwanghae Dialect",
+    "name": "Hwanghae",
     "i": 1908,
     "min": 4,
     "max": 11,
@@ -5352,7 +5352,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Gyeonggi-Seoul Dialect",
+    "name": "Gyeonggi-Seoul",
     "i": 1929,
     "min": 4,
     "max": 11,
@@ -5362,7 +5362,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Gyeongsang Dialect",
+    "name": "Gyeongsang",
     "i": 1930,
     "min": 4,
     "max": 11,
@@ -5392,7 +5392,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Armenian Dialect",
+    "name": "Armenian",
     "i": 1938,
     "min": 4,
     "max": 11,
@@ -5518,7 +5518,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "H  Giang,á»ưng VÆn,Mèo Váº¡c,Yªn Minh,Quáº£n Báº¡,Vự Xuyªn,Báº¯c Mª,Ho ng Su Ph¬,Xín Máº§n,Malipo,Maguan,Funing"
+    "b": "H  Giang,á»ưng Væn,Mèo Váº¡c,Yan Minh,Quáºản Báº¡,Vự Xuyan,Báº¯c Ma,Ho ng Su Ph¬,Xín Máºện,Malipo,Maguan,Funing"
   },
 
 {
@@ -6212,7 +6212,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Afroasiatic family",
+    "name": "Afroasiatic",
     "i": 2150,
     "min": 4,
     "max": 11,
@@ -6832,7 +6832,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Lanping Bai dialect",
+    "name": "Lanping Bai",
     "i": 2319,
     "min": 4,
     "max": 11,
@@ -6872,7 +6872,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Azd Dialect",
+    "name": "Azd",
     "i": 2345,
     "min": 4,
     "max": 11,
@@ -6882,13 +6882,13 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Ejtun Dialect",
+    "name": "Ejtun",
     "i": 2346,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "-Mosta,Victoria,Nadur,Qormi,»ebbu¡,Xag§ra,Safi,Kirkop"
+    "b": "-Mosta,Victoria,Nadur,Qormi,»ebbu¡,Xagệra,Safi,Kirkop"
   },
 
 {
@@ -6908,7 +6908,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Brackettville,Nacimiento de los Negros,Big Cypress,Hollywood,Seminole"
+    "b": "Brackettville,Nacimiento de los Negros,Big Cypress,Hollywood,Seminole,Wewoka,Sasakwa,Dusty,Bokchito,Keota,Krebs,McAlester,Muskogee,Eufaula,Stidham,Chickasha,Okfuskee,Okmulgee"
   },
 
 {
@@ -7068,7 +7068,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kampong Cham,Kratie,Stung Treng,Ratanakiri,Mondulkiri"
+    "b": "Shing,Sankhu,Melamchi,Rasu,Timure,Chame,Lamabagar,Samdo,Dolkha,Sallaghari,Charikot,Bhotekoshi,Lamjidanda,Khadachakra,Mali,Phali,Mikkotappu,Bahrabise,Khadadevi"
   },
 
 {
@@ -7098,7 +7098,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Dªqªn,Deqin"
+    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Daqan,Deqin"
   },
 
 {
@@ -8098,7 +8098,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "S£o Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goi¢nia"
+    "b": "Sảo Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goiếnia"
   },
 
 {
@@ -8122,7 +8122,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "S£o Nicolau Creole (setBases aux)",
+    "name": "Sảo Nicolau Creole (setBases aux)",
     "i": 20198,
     "min": 4,
     "max": 11,
@@ -8132,7 +8132,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "S£o Vicente Creole (setBases aux)",
+    "name": "Sảo Vicente Creole (setBases aux)",
     "i": 20199,
     "min": 4,
     "max": 11,
@@ -8142,7 +8142,7 @@ window.AsiaNameBases = [
   },
 
 {
-    "name": "Santo Ant£o Creole (setBases aux)",
+    "name": "Santo Antảo Creole (setBases aux)",
     "i": 20200,
     "min": 4,
     "max": 11,
@@ -8168,7 +8168,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "S£o Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goi¢nia"
+    "b": "Sảo Paulo,Rio de Janeiro,Brasília,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre,Belém,Goiếnia"
   },
 
 {
@@ -8238,7 +8238,7 @@ window.AsiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "New Place"
+    "b": "Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Saint-André,Saint-Louis,Saint-Joseph,Saint-Benoît,Saint-Leu,Sainte-Marie,La Possession,Le Port,Sainte-Suzanne,L'Étang-Salé,Bras-Panon,Petite-Île,Les Avirons,Salazie,Trois-Bassins,Entre-Deux,La Plaine-des-Palmistes,Sainte-Rose,Cilaos,Saint-Philippe"
   },
 
 {
