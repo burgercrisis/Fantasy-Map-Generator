@@ -1,6 +1,15 @@
 "use strict";
 
+// Heightmap templates define procedural generation scripts for creating various geographical features.
+// Each template is a sequence of commands that manipulate elevation values to create realistic terrain.
+// Commands include: Hill (add elevation), Range (set elevation range), Trough (lower elevation),
+// Pit (create depressions), Smooth (blur elevations), Multiply (scale elevations), Mask (clamp values), etc.
+// Parameters are typically: intensity min-max x-min-max y-min-max z-min-max (coordinates are percentages of map)
+
 const heightmapTemplates = (function () {
+  // Volcano: Creates a volcanic island with central cone, lava flows, and surrounding lowlands
+  // Central hill creates the main volcanic cone; multiply reduces overall height; range adds variation
+  // Additional hills create secondary cones and lava flows; pit creates crater at summit
   const volcano = `Hill 1 90-100 44-56 40-60
     Multiply 0.8 50-100 0 0
     Range 1.5 30-55 45-55 40-60
@@ -25,6 +34,9 @@ const heightmapTemplates = (function () {
     Range 1.5 30-40 15-85 60-70
     Pit 3-5 10-30 15-85 20-80`;
 
+  // Low Island: Creates a low-lying island with gentle hills, coastal plains, and inland lakes
+  // Central hill creates main island mass; hills add rolling terrain; troughs create coastal inlets
+  // Pits add freshwater lakes; multiply reduces height for low elevation; mask ensures land-water contrast
   const lowIsland = `Hill 1 90-99 60-80 45-55
     Hill 1-2 20-30 10-30 10-90
     Smooth 2 0 0 0

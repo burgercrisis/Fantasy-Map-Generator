@@ -1,6 +1,16 @@
 {
+  // Auto-generated mapping file for handling dedicated language entries during the language mixer cleanup process
+  // This file tracks operations to rename, merge, or delete dedicated entries that were created for specific languages
+  // Generated timestamp indicates when this mapping was created from the language mixer analysis
   "generatedAt": "2026-01-07T03:21:58.161Z",
   "summary": {
+    // Statistics showing the scope of operations needed:
+    // - totalDedicatedEntries: Total number of dedicated entries found in the system
+    // - renameOperations: Simple renames from "Language (dedicated)" to "Language"
+    // - mergeOperations: Entries that need to be merged with existing base entries
+    // - linkedToExisting: Entries already properly linked (rare case)
+    // - needsNewNamebase: Entries requiring creation of new base entries
+    // - requiresManualResearch: Entries needing human review before processing
     "totalDedicatedEntries": 1942,
     "renameOperations": 1923,
     "mergeOperations": 63,
@@ -9,12 +19,15 @@
     "requiresManualResearch": 1834
   },
   "operations": {
+    // Operations array containing all the specific actions needed to clean up dedicated entries
     "rename": [
+      // Rename operations: Simple transformations from dedicated entries to standard names
+      // These entries had "(dedicated)" suffix and just need the suffix removed
       {
-        "sourceIndex": 868,
-        "originalName": "Ladino (dedicated)",
-        "targetName": "Ladino",
-        "action": "rename"
+        "sourceIndex": 868, // Index in the original namebases array
+        "originalName": "Ladino (dedicated)", // Current name with dedicated suffix
+        "targetName": "Ladino", // Clean name without suffix
+        "action": "rename" // Type of operation
       },
       {
         "sourceIndex": 948,
@@ -11550,13 +11563,18 @@
       }
     ],
     "merge": [
+      // Merge operations: Dedicated entries that need to be combined with existing base entries
+      // These entries have additional cities that should be added to existing language entries
+      // baseIndex: Index of the existing base entry (empty string if not found)
+      // baseName: Name of the existing base entry to merge into
+      // addedCities: Number of cities this dedicated entry contributes
       {
-        "sourceIndex": 1030,
-        "originalName": "Nenets (dedicated)",
-        "baseIndex": "",
-        "baseName": "Nenets",
-        "addedCities": 8,
-        "action": "merge"
+        "sourceIndex": 1030, // Index of the dedicated entry
+        "originalName": "Nenets (dedicated)", // Name of the dedicated entry
+        "baseIndex": "", // Index of existing base (empty if not found)
+        "baseName": "Nenets", // Existing base entry to merge into
+        "addedCities": 8, // Number of cities added by this merge
+        "action": "merge" // Type of operation
       },
       {
         "sourceIndex": 1180,
@@ -12057,20 +12075,27 @@
     ]
   },
   "categorization": {
+    // Additional categorization for entries that are already properly linked
+    // These dedicated entries are correctly connected to existing namebases
     "linkedToExisting": [
+      // Entries that are already properly linked to existing namebases
+      // No action needed for these - they are correctly configured
       {
-        "sourceIndex": 11033,
-        "sourceName": "E (dedicated)",
-        "targetNamebase": "E",
-        "action": "link_to_existing_namebase"
+        "sourceIndex": 11033, // Index of the dedicated entry
+        "sourceName": "E (dedicated)", // Name of the dedicated entry
+        "targetNamebase": "E", // Existing namebase it's linked to
+        "action": "link_to_existing_namebase" // Already properly linked
       }
     ],
     "needsNewNamebase": [
+      // Entries that require verification of whether a corresponding namebase exists
+      // These dedicated entries may need new base entries created if they don't already exist
+      // The action "verify_namebase_exists" indicates these need manual checking
       {
-        "sourceIndex": 1030,
-        "sourceName": "Nenets (dedicated)",
-        "baseName": "Nenets",
-        "action": "verify_namebase_exists"
+        "sourceIndex": 1030, // Index of the dedicated entry
+        "sourceName": "Nenets (dedicated)", // Name of the dedicated entry
+        "baseName": "Nenets", // Expected base name to check for
+        "action": "verify_namebase_exists" // Action needed - verify if base exists
       },
       {
         "sourceIndex": 1180,
@@ -12446,11 +12471,15 @@
       }
     ],
     "requiresManualResearch": [
+      // Entries requiring manual human review before processing
+      // These dedicated entries need careful examination to determine the correct action
+      // May involve checking linguistic validity, historical context, or data integrity
+      // The action "manual_review_required" flags these for human intervention
       {
-        "sourceIndex": 868,
-        "sourceName": "Ladino (dedicated)",
-        "targetName": "Ladino",
-        "action": "manual_review_required"
+        "sourceIndex": 868, // Index of the dedicated entry needing review
+        "sourceName": "Ladino (dedicated)", // Current name with dedicated suffix
+        "targetName": "Ladino", // Proposed clean name
+        "action": "manual_review_required" // Requires human review before processing
       },
       {
         "sourceIndex": 948,

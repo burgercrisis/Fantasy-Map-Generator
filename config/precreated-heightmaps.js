@@ -1,5 +1,9 @@
 "use strict";
 
+// Precreated heightmaps provide real-world geographical starting points for map generation.
+// Each entry corresponds to a PNG file in the heightmaps/ directory with the same key name.
+// These heightmaps are derived from real elevation data and can be used as templates for more realistic maps.
+// The id field is used for internal referencing and must be unique.
 const precreatedHeightmaps = {
   "africa-centric": {id: 0, name: "Africa Centric"},
   arabia: {id: 1, name: "Arabia"},
