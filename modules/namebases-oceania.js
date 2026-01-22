@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 window.OceaniaNameBases = [
 {
@@ -1208,7 +1208,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dao,Santo,Vanuatu,Oceania,South Pacific"
+    "b": "Enarotali,Paniai,Moanemani,Tigi,Tage,Deiyai,Nabire,Wandai,OkaitEMA,Yaur,Nabar,Dabra,Mee,Wissel Lakes,Paniai Lakes"
   },
 
 {
@@ -1308,7 +1308,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ekari,Papua New Guinea,Enga Province,Western Highlands,Oceania"
+    "b": "Paniai,Enarotali,Moanemani,Wamena,Baliem Valley,Highland Papua,Kurulu,Jayawijaya,Tiom,Mamit,Mappi,Nabire,Ekari,Dani,Wissel Lakes"
   },
 
 {
@@ -2558,7 +2558,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mandalay,Monywa,Shwebo,Magway,Meiktila"
+    "b": "Ampibabo,Tinombo,Tolitoli,Palu,Central Sulawesi,Sulawesi,Parigi,Moutong,Doni,Balingara,Labuan,Malakosa,Olobuku,Tamanda,Indonesia"
   },
 
 {
