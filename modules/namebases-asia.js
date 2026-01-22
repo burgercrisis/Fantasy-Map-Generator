@@ -7076,9 +7076,9 @@ window.AsiaNameBases = [
     "i": 2421,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "sdt-BT",
     "m": 0,
-    "b": "Thimphu,Paro,Punakha,Wangdue Phodrang,Trongsa,Bumthang"
+    "b": "Dorokha,Dophuchen,Sengdhyen,Lotokuchu,Ngawang Dramtoe,Tading,Duenchukha,Dungtoe,Am Mo Chhu Valley,Phuntsholing,Samtse,Dogap,Pungthra"
   },
 
 {
@@ -7086,9 +7086,9 @@ window.AsiaNameBases = [
     "i": 2427,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "sdt-CN",
     "m": 0,
-    "b": "Daming,Guiping,Qinzhou,Yulin,Beihai,Fangchenggang"
+    "b": "Longsheng,Pingdeng,Taiping,Sanmen,Piaoli,Longji,Lejiang,Sishui,Madi,Jiangdi,Weijiang,Ping'an,Guilin"
   },
 
 {
@@ -7096,9 +7096,9 @@ window.AsiaNameBases = [
     "i": 2428,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "sdt-CN",
     "m": 0,
-    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Daqan,Deqin"
+    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Deqin,Lushui,Gongshan,Fugong,Bijiang,Yinjiang,Taiping"
   },
 
 {
@@ -7106,9 +7106,9 @@ window.AsiaNameBases = [
     "i": 2430,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "sdt-NP",
     "m": 0,
-    "b": "Lubumbashi,Kolwezi,Likasi,Kamina,Mwene-Ditu,Kananga"
+    "b": "Khandbari,Chainpur,Sankhuwasabha,Dhankuta,Tehrathum,Arun Valley,Madi,Dharmadevi,Panchkhapan,Chepuwa,Dhupu,Pangma,Sikkim,Darjeeling"
   },
 
 {
@@ -7116,9 +7116,9 @@ window.AsiaNameBases = [
     "i": 2432,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "dra-IN",
     "m": 0,
-    "b": "Kurru,Kulavatha,Yerukala,Andhra,Telangana,Rayalaseema,Vizianagaram,Srikakulam,Eturnagaram,Basha,Fortune,Soothsayer,Koravan,Kaikadi,Burgula,Kancheepuram"
+    "b": "Kurru,Kulavatha,Yerukala,Andhra,Telangana,Rayalaseema,Vizianagaram,Srikakulam,Eturnagaram,Basha,Koravan,Kaikadi,Burgula,Kancheepuram,Yerukulareddypalem,Yerukalapalem,Chirala,Khammam,Nellore"
   },
 
 {

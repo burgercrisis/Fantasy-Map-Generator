@@ -481,17 +481,10 @@ window.AfricaNameBases = [
     "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum"
   },
 
-{
-    "name": "Tamil",
-    "i": 497,
-    "min": 4,
-    "max": 11,
-    "d": "dra-IN",
-    "m": 0,
-    "b": "Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Tiruppur,Erode,Vellore,Thoothukudi,Thanjavur,Dindigul,Ranipet,Sivakasi"
-  },
+  {
 
-{
+    "name": "Berta",
+    "i": 500,
     "name": "Berta",
     "i": 500,
     "min": 4,
@@ -751,17 +744,9 @@ window.AfricaNameBases = [
     "b": "Suwu,Ghana,Bobo-Dioulasso,Koudougou,Ouahigouya,Banfora,Kaya,Ouagadougou,Tenkodogo,Fada N'Gourma"
   },
 
-{
-    "name": "Spanish",
-    "i": 1754,
-    "min": 4,
-    "max": 11,
-    "d": "es-ES",
-    "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Málaga,Murcia,Palma,Las Palmas,Bilbao,Alicante,Córdoba"
-  },
+  {
 
-{
+    "name": "Tetuani",
     "name": "Tetuani",
     "i": 1807,
     "min": 4,
@@ -1491,15 +1476,9 @@ window.AfricaNameBases = [
     "b": "Axum,Lalibela,Harar,DebreBerhan,DebreMarkos,DebreTabor,Sebeta,Ambo,Gonder,Woldia,Metekel,Assosa"
   },
 
-{
-    "name": "Boro Garo",
-    "i": 3253,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Guwahati,Shillong,Tura,Williamnagar,Baghmara,Resubelpara,Ampati,Mendipathar,Rongjeng,Songsak,Kharkutta,Dadenggre"
-  },
+  {
+
+    "name": "Atsam",
 
 {
     "name": "Angas",
@@ -1561,15 +1540,9 @@ window.AfricaNameBases = [
     "b": "IkotEkpene,Uyo,Abak,Eket,Oron,IkotAbasi,Etinan,Ibiaku,Nsit,Ibeno,EsitEket,Itu"
   },
 
-{
-    "name": "Arin",
-    "i": 5257,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Moscow,SaintPetersburg,Novosibirsk,Yekaterinburg,NizhnyNovgorod,Kazan,Chelyabinsk,Omsk,Samara,RostovonDon,Ufa,Krasnoyarsk"
-  },
+  {
+
+    "name": "Aringa",
 
 {
     "name": "Aringa",
@@ -1611,15 +1584,9 @@ window.AfricaNameBases = [
     "b": "Bangui,Bimbo,Mba¯ki,Berbérati,Carnot,Bambari,Bouar,Bossangoa,KagaBandoro,Mobaye,Sibut,Bria"
   },
 
-{
-    "name": "Assan",
-    "i": 5357,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Irkutsk,UlanUde,Chita,Bratsk,Angarsk,UsolyeSibirskoye,UstIlimsk,Shelekhov,Severobaikalsk,Tayshet,Bodaybo,Zima"
-  },
+  {
+
+    "name": "Aro",
 
 {
     "name": "Atsam",
@@ -2181,25 +2148,9 @@ window.AfricaNameBases = [
     "b": "Bayot,Ziguinchor,Bignona,Oussouye,Casamance,Gambia,Guinea-Bissau,Kolda,Sedhiou,Velingara,Bas-Casamance"
   },
 
-{
-    "name": "Bebe",
-    "i": 20549,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bebe,Fundong,Chenzhou,Loudi,Shiyan,Xiantao,Lianyuan,Meishan,Ningyuan,Yiyang"
-  },
+  {
 
-{
-    "name": "Bee",
-    "i": 20550,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bee,Beijing,Hangzhou,Xianyang,Shijiazhuang,Tianjin,Chengde,Qinhuangdao,Shijingshan,Chifeng"
-  },
+    "name": "Beja",
 
 {
     "name": "Beja",
@@ -2211,15 +2162,9 @@ window.AfricaNameBases = [
     "b": "Beja,Port Sudan,Sawakin,Halaib,Tokar,Shalatin,Suakin,Qadarif,Kassala,Atbara,Berenice,Gedaref"
   },
 
-{
-    "name": "Beli",
-    "i": 20552,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Beli,Changchun,Chongqing,Yibin,Zhongqing,Hechuan,Nanchong,Chengdu,Neijiang,Guang'an,Fuling,Mianyang"
-  },
+  {
+
+    "name": "Bemba",
 
 {
     "name": "Bemba",
@@ -2271,15 +2216,9 @@ window.AfricaNameBases = [
     "b": "Fwe,Mababe,Nxai Pan,Gweta,Nata,Sowa,Pandamatenga,Kasane,Kazungula,Maun,Sehonghong,Mohembo"
   },
 
-{
-    "name": "Belneng",
-    "i": 20559,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Belneng,Papua New Guinea,Enga,Mendi,Mount Hagen,Goroka,Wabag,Lae,Port Moresby,Kokopo,Rabaul,Wau"
-  },
+  {
+
+    "name": "Bete",
 
 {
     "name": "Bete",
@@ -2291,15 +2230,9 @@ window.AfricaNameBases = [
     "b": "Bete,Guiglo,Daloa,Issia,Duekoue,Man,Sassandra,San Pedro,Ta¯,Gagnoa,Bouaflé"
   },
 
-{
-    "name": "Bfy",
-    "i": 20561,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bagheli,New Delhi,Gurgaon,Faridabad,Ghaziabad,Noida,Greater Noida,Meerut,Agra,Aligarh,Mathura,Haridwar"
-  },
+  {
+
+    "name": "Bhaca",
 
 {
     "name": "Bhaca",
@@ -2311,15 +2244,9 @@ window.AfricaNameBases = [
     "b": "Bhaca,East London,Mthatha,Qunu,Butterworth,King William's Town,Port Alfred,Alice,Umtata,Umzimkhulu,Port Shepstone"
   },
 
-{
-    "name": "Bhojpuri",
-    "i": 20565,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Varanasi,Gorakhpur,Patna,Muzaffarpur,Bhagalpur,Purnia,Arrah,Mirzapur,Mau,Azamgarh,Jaunpur,Deoria"
-  },
+  {
+
+    "name": "Bidiya",
 
 {
     "name": "Bidiya",
@@ -2331,15 +2258,9 @@ window.AfricaNameBases = [
     "b": "Bidiya,Abéché,N'Djamena,Mao,Ati,Mongo,Biltine,Am Timan,Bokoro,Koumra,Melfi"
   },
 
-{
-    "name": "Bina",
-    "i": 20576,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bina,Papua New Guinea,Morobe,Lae,Madang,Mount Hagen,Goroka,Port Moresby,Kokopo,Rabaul,Wewak"
-  },
+  {
+
+    "name": "Birgit",
 
 {
     "name": "Birgit",
@@ -2931,15 +2852,9 @@ window.AfricaNameBases = [
     "b": "Butajira,Wolkite,Imdibir,Agena,Cheha,Endegagn,Gumer,Kokir Gedebano,Meskan,Mareko,Silti,Sodo"
   },
 
-{
-    "name": "Fut",
-    "i": 20707,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Futuna,Futuna Island,Wallis and Futuna,Territory,Pacific Ocean,Polynesia"
-  },
+  {
+
+    "name": "Soninke",
 
 {
     "name": "Soninke",
@@ -3501,15 +3416,9 @@ window.AfricaNameBases = [
     "b": "Eman,Mankon,Bamenda,Bali,Kumbo,Fundong,Ngie,Wum,Menka,Alcali,Batibo,Oshie-Nde,Akum,Baligham,Basuo,Bekora,Belo,Bokwa,Chomba,Essoh-Mbeng"
   },
 
-{
-    "name": "Esimbi",
-    "i": 10832,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Esimbi,Kuopio,Iisalmi,Kokkola,Finland,Bothnian,Baltic Sea"
-  },
+  {
+
+    "name": "Ewe",
 
 {
     "name": "Ewe",
@@ -3651,15 +3560,9 @@ window.AfricaNameBases = [
     "b": "Maji,Shoa,Wollega,Gamu,Gofa,Ethiopia,Oromia Region,Southwest Ethiopia,Omo Valley"
   },
 
-{
-    "name": "Gawar",
-    "i": 11134,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gawar,Arunachal Pradesh,India,Northeast India,Himalayas,China Border"
-  },
+  {
+
+    "name": "Geji",
 
 {
     "name": "Geji",
@@ -3681,15 +3584,9 @@ window.AfricaNameBases = [
     "b": "Fe'efe,Ka'a,Loko,Batibo,Mambila,Nigeria,Adamawa State,North East"
   },
 
-{
-    "name": "Fio",
-    "i": 11184,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fio,Mendi,Mount Hagen,Kundiawa,Papua New Guinea,Western Highlands,Oceania"
-  },
+  {
+
+    "name": "Fon",
 
 {
     "name": "Fon",
