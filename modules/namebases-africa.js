@@ -1,4 +1,4 @@
-﻿"use strict";
+"use strict";
 
 window.AfricaNameBases = [
 {
@@ -124,11 +124,11 @@ window.AfricaNameBases = [
 {
     "name": "Naro Click",
     "i": 632,
-    "min": 3,
-    "max": 9,
+    "min": 5,
+    "max": 12,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Naro,Koro,Maru,Garo"
+    "b": "Ghanzi,Dqae Qare,Gope,Kang,Karek Krai,Khunkhu,Kokong,Mabesekwa,Makalamabedi,Mmanyela,Mokolodi,Morwamosu,Nata,New Xade,Okavango,Qabo,Raikwara,Ramoka,Ranku,Ratholo,Saats,Rakops,Tshidilamolomo,Tshoyeloyelo,Tshane,Tshimoya,Tshamba,Tsau"
   },
 
 {
@@ -232,13 +232,13 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Angolar S£o Tomé",
+    "name": "Angolar São Tomé",
     "i": 437,
     "min": 5,
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "S£o Jo£o dos Angolares,Porto Alegre,Ribeira Peixe,Ilhéu das Rolas,Praia Inhame,Praia Jale,Praia Cabana,Praia Micondó,Praia Messias Alves,Praia Pesqueira,Praia Vagre,Praia Negal,Praia Yepipa,Praia Umbugo,Praia Martim,Praia Leve,Praia Abade,Praia Cascata,Praia Erasmo,Angolares,Budo Budo,Vila Malanza,Cabaceira,Monte Carmo,Emolve,Uba Budo,Malanza,Praia Salema,Praia Barrosa,Ponta Baleia,Praia Lozia,Praia Pesqueira Pequena,Praia Vermelha,Praia Viedade,Praia Cam£o,Praia Ihlo,Praia Caix£o,Praia Margarida,Praia San António,Praia Cabinda,Praia Boca de Inferno,Praia Santa Clara,Praia Santa Cruz,Praia S£o Joaquim"
+    "b": "São Joảo dos Angolares,Porto Alegre,Ribeira Peixe,Ilhéu das Rolas,Praia Inhame,Praia Jale,Praia Cabana,Praia Micondó,Praia Messias Alves,Praia Pesqueira,Praia Vagre,Praia Negal,Praia Yepipa,Praia Umbugo,Praia Martim,Praia Leve,Praia Abade,Praia Cascata,Praia Erasmo,Angolares,Budo Budo,Vila Malanza,Cabaceira,Monte Carmo,Emolve,Uba Budo,Malanza,Praia Salema,Praia Barrosa,Ponta Baleia,Praia Lozia,Praia Pesqueira Pequena,Praia Vermelha,Praia Viedade,Praia Camảo,Praia Ihlo,Praia Caixảo,Praia Margarida,Praia San António,Praia Cabinda,Praia Boca de Inferno,Praia Santa Clara,Praia Santa Cruz,Praia São Joaquim"
   },
 
 {
@@ -252,13 +252,13 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Forro S£o Tomé",
+    "name": "Forro São Tomé",
     "i": 475,
     "min": 5,
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "S£o Tomé,Trindade,Santana,Neves,Guadalupe,Bombom,Pantufo,gua Grande,Riboque,Mesquita,Batepá,Piedade,Ribeira Afonso,Ribeira Peixe,Madalena,Micoló,Monte Café,Conde,Boa Entrada,Boa Vista,Santa Margarida,Santa Catarina,Santa Cruz,Santa Clara,Santa Luzia,Diogo Vaz,Porto Alegre,Praia Cruz,Palmares,gua Izé,Fruta Fruta,S£o Marçal,S£o Miguel,S£o Pedro,Uba Budo,Emolve,Monte Mário,Caix£o Grande,Almas,Alto Douro,S£o Lázaro,Almeirim,Andrade,Bªbª Forro,Bela Vista,Bom Sucesso,Bom Bom,Bom Despacho"
+    "b": "São Tomé,Trindade,Santana,Neves,Guadalupe,Bombom,Pantufo,gua Grande,Riboque,Mesquita,Batepá,Piedade,Ribeira Afonso,Ribeira Peixe,Madalena,Micoló,Monte Café,Conde,Boa Entrada,Boa Vista,Santa Margarida,Santa Catarina,Santa Cruz,Santa Clara,Santa Luzia,Diogo Vaz,Porto Alegre,Praia Cruz,Palmares,gua Izé,Fruta Fruta,São Marçal,São Miguel,São Pedro,Uba Budo,Emolve,Monte Mário,Caixảo Grande,Almas,Alto Douro,São Lázaro,Almeirim,Andrade,Baba Forro,Bela Vista,Bom Sucesso,Bom Bom,Bom Despacho"
   },
 
 {
@@ -268,7 +268,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "Santo António,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,S£o Joaquim,Oquª Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caix£o,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia Tétin,Praia Uva,Praia Ribeira Izé,Praia Catamar£,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Caça,Praia Fantome,Praia Bacia,Praia Boi£o,Praia Infante,Praia Budo,Praia Esprainha,Praia Gale£o,Praia Santo António"
+    "b": "Santo António,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,São Joaquim,Oqua Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caixảo,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia Tétin,Praia Uva,Praia Ribeira Izé,Praia Catamarả,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Caça,Praia Fantome,Praia Bacia,Praia Boiảo,Praia Infante,Praia Budo,Praia Esprainha,Praia Galeảo,Praia Santo António"
   },
 
 {
@@ -418,7 +418,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ati,Oum Hadjer,Am Timan,Mongo,AbÂchÂ,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine,Dangaleat,Guera,Melfi,Abéché,Am Dam,Béré,N'Djaména"
+    "b": "Ati,Oum Hadjer,Am Timan,Mongo,Abch,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine,Dangaleat,Guera,Melfi,Abéché,Am Dam,Béré,N'Djaména"
   },
 
 {
@@ -1258,11 +1258,11 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "sele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,Mal¥,Norsjö,Robertsfors,Vindeln,V¤nn¤s,Bjurholm"
+    "b": "sele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,Malå,Norsjö,Robertsfors,Vindeln,Vännäs,Bjurholm"
   },
 
 {
-    "name": "Afade language",
+    "name": "Afade",
     "i": 584,
     "min": 4,
     "max": 11,
@@ -1412,7 +1412,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Air Tamajeq language",
+    "name": "Air Tamajeq",
     "i": 2473,
     "min": 4,
     "max": 11,
@@ -1432,7 +1432,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ajawa language",
+    "name": "Ajawa",
     "i": 2522,
     "min": 4,
     "max": 11,
@@ -1512,7 +1512,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Auyokawa language",
+    "name": "Auyokawa",
     "i": 3257,
     "min": 4,
     "max": 11,
@@ -1532,7 +1532,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Barein language",
+    "name": "Barein",
     "i": 3259,
     "min": 4,
     "max": 11,
@@ -1542,7 +1542,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Beele language",
+    "name": "Beele",
     "i": 3260,
     "min": 4,
     "max": 11,
@@ -1912,7 +1912,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Awjila language",
+    "name": "Awjila",
     "i": 5628,
     "min": 4,
     "max": 11,
@@ -1972,7 +1972,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Beni Snous dialect",
+    "name": "Beni Snous",
     "i": 5810,
     "min": 4,
     "max": 11,
@@ -2032,7 +2032,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Baldemu language",
+    "name": "Baldemu",
     "i": 20502,
     "min": 4,
     "max": 11,
@@ -2112,7 +2112,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Bana language",
+    "name": "Bana",
     "i": 20515,
     "min": 4,
     "max": 11,
@@ -2152,7 +2152,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Bata language",
+    "name": "Bata",
     "i": 20519,
     "min": 4,
     "max": 11,
@@ -2272,7 +2272,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Belneng language",
+    "name": "Belneng",
     "i": 20559,
     "min": 4,
     "max": 11,
@@ -2322,7 +2322,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Bidiya language",
+    "name": "Bidiya",
     "i": 20572,
     "min": 4,
     "max": 11,
@@ -2342,7 +2342,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Birgit language",
+    "name": "Birgit",
     "i": 20579,
     "min": 4,
     "max": 11,
@@ -2362,7 +2362,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Boghom language",
+    "name": "Boghom",
     "i": 20581,
     "min": 4,
     "max": 11,
@@ -2372,7 +2372,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Boor language",
+    "name": "Boor",
     "i": 20582,
     "min": 4,
     "max": 11,
@@ -2382,7 +2382,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Bole Chadic language",
+    "name": "Bole Chadic",
     "i": 20583,
     "min": 4,
     "max": 11,
@@ -2452,7 +2452,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Boga language",
+    "name": "Boga",
     "i": 20594,
     "min": 4,
     "max": 11,
@@ -2742,7 +2742,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Glavda language",
+    "name": "Glavda",
     "i": 20678,
     "min": 4,
     "max": 11,
@@ -2802,7 +2802,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Goemai language",
+    "name": "Goemai",
     "i": 20690,
     "min": 4,
     "max": 11,
@@ -2812,7 +2812,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Goji language",
+    "name": "Goji",
     "i": 20691,
     "min": 4,
     "max": 11,
@@ -3022,7 +3022,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Cibak language",
+    "name": "Cibak",
     "i": 20721,
     "min": 4,
     "max": 11,
@@ -3032,7 +3032,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Cineni language",
+    "name": "Cineni",
     "i": 20722,
     "min": 4,
     "max": 11,
@@ -3042,7 +3042,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ciwogai language",
+    "name": "Ciwogai",
     "i": 20723,
     "min": 4,
     "max": 11,
@@ -3062,7 +3062,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Cuvok language",
+    "name": "Cuvok",
     "i": 20726,
     "min": 4,
     "max": 11,
@@ -3092,7 +3092,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Dass language",
+    "name": "Dass",
     "i": 20729,
     "min": 4,
     "max": 11,
@@ -3112,7 +3112,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Dazawa language",
+    "name": "Dazawa",
     "i": 20731,
     "min": 4,
     "max": 11,
@@ -3125,10 +3125,10 @@ window.AfricaNameBases = [
     "name": "Ddo",
     "i": 20732,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ddo,Mikumi,Iringa,Tanzania,East Africa"
+    "b": "Poli,Samo,Sofol,Ridina,Djanguine,Tchamba,Vokré,Mokolo,Banyo,Guémé,Perma,Mba,Mayo-Darbet,Mokolo-Région,Tourou,Gashaka,Tibati,Betare-Yaala,Lomie"
   },
 
 {
@@ -3162,7 +3162,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Deno language",
+    "name": "Deno",
     "i": 20736,
     "min": 4,
     "max": 11,
@@ -3258,7 +3258,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Figuig,Béchar,Béni Abbès,Na¢ma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
+    "b": "Figuig,Béchar,Béni Abbès,Naếma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
   },
 
 {
@@ -3272,7 +3272,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Dghwede language",
+    "name": "Dghwede",
     "i": 1697,
     "min": 4,
     "max": 11,
@@ -3288,11 +3288,11 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dida,Daloa,Abidjan,Yamoussoukro,C´te d'Ivoire,West Africa"
+    "b": "Dida,Daloa,Abidjan,Yamoussoukro,C'te d'Ivoire,West Africa"
   },
 
 {
-    "name": "Diri language",
+    "name": "Diri",
     "i": 1702,
     "min": 4,
     "max": 11,
@@ -3325,14 +3325,14 @@ window.AfricaNameBases = [
     "name": "Dongo",
     "i": 1712,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dongo,Bunia,DR Congo,Central Africa,Lake Albert"
+    "b": "Dongo,Isiro,Durba,Wamba,Aketi,Likati,Viadana,Niangara,Bondo,Fungirume,Mabanga,Faradje,Gombari,Etoumbi,Okolo,Dingila"
   },
 
 {
-    "name": "Douiret language",
+    "name": "Douiret",
     "i": 1716,
     "min": 4,
     "max": 11,
@@ -3342,7 +3342,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Dugwor language",
+    "name": "Dugwor",
     "i": 1720,
     "min": 4,
     "max": 11,
@@ -3352,7 +3352,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Duhwa language",
+    "name": "Duhwa",
     "i": 1721,
     "min": 4,
     "max": 11,
@@ -3402,7 +3402,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Duwai language",
+    "name": "Duwai",
     "i": 10433,
     "min": 4,
     "max": 11,
@@ -3495,10 +3495,10 @@ window.AfricaNameBases = [
     "name": "Eman",
     "i": 10684,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eman,Papua New Guinea,Morobe Province,Highlands Region,Oceania"
+    "b": "Eman,Mankon,Bamenda,Bali,Kumbo,Fundong,Ngie,Wum,Menka,Alcali,Batibo,Oshie-Nde,Akum,Baligham,Basuo,Bekora,Belo,Bokwa,Chomba,Essoh-Mbeng"
   },
 
 {
@@ -3652,7 +3652,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Gawar Language",
+    "name": "Gawar",
     "i": 11134,
     "min": 4,
     "max": 11,
@@ -3902,7 +3902,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ghomara language",
+    "name": "Ghomara",
     "i": 11482,
     "min": 4,
     "max": 11,
@@ -3912,7 +3912,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Gidar language",
+    "name": "Gidar",
     "i": 11484,
     "min": 4,
     "max": 11,
@@ -3972,17 +3972,17 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Giiwo language",
+    "name": "Giiwo",
     "i": 11631,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Giiwo,Bauchi,Plateau State,Nigeria,West Africa"
+    "b": "Giiwo,Bauchi,Katagum,Misau,Azare,Darazo,Gambaru,Nigeria,Ningi,Rahama,Yana,Zungur,Tasha,Malamawa,Gobirawa,Matsango,Kirfi,Itas,Ganjuwa,Tafawa-Balewa"
   },
 
 {
-    "name": "Guruntum language",
+    "name": "Guruntum",
     "i": 11634,
     "min": 4,
     "max": 11,
@@ -3992,7 +3992,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Gvoko language",
+    "name": "Gvoko",
     "i": 11636,
     "min": 4,
     "max": 11,
@@ -4002,7 +4002,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Gwandara language",
+    "name": "Gwandara",
     "i": 11638,
     "min": 4,
     "max": 11,
@@ -4102,7 +4102,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "North Bauchi family",
+    "name": "North Bauchi",
     "i": 13445,
     "min": 4,
     "max": 11,
@@ -4112,7 +4112,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ron family",
+    "name": "Ron",
     "i": 13446,
     "min": 4,
     "max": 11,
@@ -4122,7 +4122,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "South Bauchi family",
+    "name": "South Bauchi",
     "i": 13447,
     "min": 4,
     "max": 11,
@@ -4132,7 +4132,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "West Chadic family",
+    "name": "West Chadic",
     "i": 13448,
     "min": 4,
     "max": 11,
@@ -4182,7 +4182,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Western Berber family",
+    "name": "Western Berber",
     "i": 13603,
     "min": 4,
     "max": 11,
@@ -4222,7 +4222,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Setl´kwa",
+    "name": "Setl'kwa",
     "i": 13664,
     "min": 4,
     "max": 12,
@@ -4272,7 +4272,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Angas family",
+    "name": "Angas",
     "i": 13723,
     "min": 4,
     "max": 11,
@@ -4282,7 +4282,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Bade family",
+    "name": "Bade",
     "i": 13729,
     "min": 4,
     "max": 11,
@@ -4412,7 +4412,7 @@ window.AfricaNameBases = [
   },
 
 {
-    "name": "Ber Family",
+    "name": "Ber",
     "i": 13948,
     "min": 4,
     "max": 11,
@@ -4928,7 +4928,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "S£o Jo£o dos Angolares,Ribeira Afonso,Dona Augusta,Praia das Conchas,Porto Alegre,I´ Grande"
+    "b": "São Joảo dos Angolares,Ribeira Afonso,Dona Augusta,Praia das Conchas,Porto Alegre,I' Grande"
   },
 
 {
@@ -4948,7 +4948,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Praia,Mindelo,Santa Maria,Espargos,Assomada,Porto Novo,S£o Filipe"
+    "b": "Praia,Mindelo,Santa Maria,Espargos,Assomada,Porto Novo,São Filipe"
   },
 
 {
@@ -5005,10 +5005,10 @@ window.AfricaNameBases = [
     "name": "Kujargé",
     "i": 20166,
     "min": 4,
-    "max": 11,
+    "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Jebel Mun,Geneina,Kulbus,Sirba,Darfur"
+    "b": "Goz Beïda,Mouraye,Adré,Hadjer Hadid,Fada,Dourbali,Abéché,Bokoro,Mongo,Bitkine"
   },
 
 {
@@ -5018,7 +5018,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kormakitis,Asomatos,Agia Marina,Karpasha,Kyrenia"
+    "b": "Kormakitis,Agia Marina,Karpasha,Kyrenia,Asomatos,Agios Amvrosios,Lapithos,Karavas,Bellapais,Lapethos,Famagusta,Limassol,Larnaca,Paphos"
   },
 
 {
@@ -5028,7 +5028,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Gidole,Gardulla,Derashe,Karat,Konso"
+    "b": "Tahoua,Abalak,Birni-N'Konni,Bouza,Illela,Keita,Madaoua,Tchintabaraden,Bagaroua,Tassara,Tillia,Alakoss,Tanout,Agadez,In-Gall"
   },
 
 {
