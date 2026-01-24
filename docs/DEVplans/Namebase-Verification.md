@@ -10,7 +10,33 @@
 8. Roman (i: 7) - ⏳ PENDING VERIFICATION
 9. Finnic (i: 8) - ⏳ PENDING VERIFICATION
 10. Korean (i: 9) - ⏳ PENDING VERIFICATION
-... (remaining languages pending)
+---
+
+## Restoration Notes [DATE: 2026-01-23]
+
+### Namebase Restoration (Wave 57)
+**Status**: COMPLETED (Partial)
+**Source of Truth**: `modules/namebases-all.js.backup` (2,751 entries found)
+**Current State (Pre-Restoration)**: 2,702 entries
+**Entries Restored**: 50
+**New Total Count**: 2,752
+**Target Count**: 2,779 (27 still missing)
+
+**Restoration Details**:
+- Identified 50 unique indices in the backup that were missing from the 8 continental files.
+- Restored these 50 entries to their respective files using name-based continent detection.
+- **namebases-africa.js**: 47 entries restored.
+- **namebases-asia.js**: 3 entries restored.
+
+**Remaining Discrepancy**:
+- The backup `namebases-all.js.backup` contains exactly 2,751 namebase entries (indices 0-2750, one duplicate index 1954).
+- The current set of continental files has 2,752 entries after restoration.
+- The target count of 2,779 remains 27 entries short, as these 27 entries are not present in the designated source of truth backup.
+
+**Next Steps**:
+- Verify if the missing 27 entries were added in Wave 56 and are present in other backup files (e.g., `namebases-africa.js.backup` which contains 352 unique entries not in the main backup).
+- Fix `modules/namebases-all.js` to include `unknownNameBases` in the global merge, as it is currently omitted from the application load logic.
+
 
 
 ---

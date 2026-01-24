@@ -1,467 +1,205 @@
-﻿"use strict";
+"use strict";
 
-window.NorthAmericaNameBases = [
-{
-    "name": "Inuit",
-    "i": 46,
-    "min": 5,
-    "max": 15,
-    "d": "alutsn",
+window.northAmericaNameBases = [
+  {
+    "name": "Nahuatl",
+    "i": 13,
+    "min": 6,
+    "max": 13,
+    "d": "azc-MX",
     "m": 0,
-    "b": "Aaluik,Aappilattoq,Aasiaat,Agissat,Agssaussat,Akuliarutsip,Akunnaaq,Alluitsup,Alluttoq,Amitsorsuaq,Ammassalik,Anarusuk,Anguniartarfik,Annertussoq,Annikitsoq,Apparsuit,Apusiaajik,Arsivik,Arsuk,Atammik,Ateqanaq,Atilissuaq,Attu,Augpalugtoq,Aukarnersuaq,Aumat,Auvilkikavsaup,Avadtlek,Avallersuaq,Bjornesk,Blabaerdalen,Blomsterdalen,Brattalhid,Bredebrae,Brededal,Claushavn,Edderfulegoer,Egger,Eqalugalinnguit,Eqalugarssuit,Eqaluit,Eqqua,Etah,Graah,Hakluyt,Haredalen,Hareoen,Hundeo,Igaliku,Igdlorssuit,Igdluluarssuk,Iginniafik,Ikamiut,Ikarissat,Ikateq,Ikermiut,Ikermoissuaq,Ikorfarssuit,Ilimanaq,Illorsuit,Illunnguit,Iluileq,Ilulissat,Imaarsivik,Imartunarssuk,Immikkoortukajik,Innaarsuit,Inneruulalik,Inussullissuaq,Iperaq,Ippik,Iqek,Isortok,Isungartussoq,Itileq,Itissaalik,Itivdleq,Ittit,Ittoqqortoormiit,Ivingmiut,Ivittuut,Kanajoorartuut,Kangaamiut,Kangeq,Kangerluk,Kangerlussuaq,Kanglinnguit,Kapisillit,Kekertamiut,Kiatak,Kiataussaq,Kigatak,Kinaussak,Kingittorsuaq,Kitak,Kitsissuarsuit,Kitsissut,Klenczner,Kook,Kraulshavn,Kujalleq,Kullorsuaq,Kulusuk,Kuurmiit,Kuusuaq,Laksedalen,Maniitsoq,Marrakajik,Mattaangassut,Mernoq,Mittivakkat,Moriusaq,Myggbukta,Naajaat,Nangissat,Nanuuseq,Nappassoq,Narsarmijt,Narsarsuaq,Narssaq,Nasiffik,Natsiarsiorfik,Naujanguit,Niaqornaarsuk,Niaqornat,Nordfjordspasset,Nugatsiaq,Nunarssit,Nunarsuaq,Nunataaq,Nunatakavsaup,Nutaarmiut,Nuugaatsiaq,Nuuk,Nuukullak,Olonkinbyen,Oodaaq,Oqaatsut,Oqaitsunguit,Oqonermiut,Paagussat,Paamiut,Paatuut,Palungataq,Pamialluk,Perserajoq,Pituffik,Puugutaa,Puulkuip,Qaanaq,Qaasuitsup,Qaersut,Qajartalik,Qallunaat,Qaneq,Qaqortok,Qasigiannguit,Qassimiut,Qeertartivaq,Qeqertaq,Qeqertasussuk,Qeqqata,Qernertoq,Qernertunnguit,Qianarreq,Qingagssat,Qoornuup,Qorlortorsuaq,Qullikorsuit,Qunnerit,Qutdleq,Ravnedalen,Ritenbenk,Rypedalen,Saarloq,Saatorsuaq,Saattut,Salliaruseq,Sammeqqat,Sammisoq,Sanningassoq,Saqqaq,Saqqarlersuaq,Saqqarliit,Sarfannguit,Sattiaatteq,Savissivik,Serfanguaq,Sermersooq,Sermiligaaq,Sermilik,Sermitsiaq,Simitakaja,Simiutaq,Singamaq,Siorapaluk,Sisimiut,Sisuarsuit,Sullorsuaq,Suunikajik,Sverdrup,Taartoq,Takiseeq,Tasirliaq,Tasiusak,Tiilerilaaq,Timilersua,Timmiarmiut,Tukingassoq,Tussaaq,Tuttulissuup,Tuujuk,Uiivaq,Uilortussoq,Ujuaakajiip,Ukkusissat,Upernavik,Uttorsiutit,Uumannaq,Uunartoq,Uvkusigssat,Ymer"
+    "b": "Tenochtitlan,Texcoco,Tlaxcala,Cholula,Xochimilco,Coyoacan,Azcapotzalco,Tacuba,Tlacopan,Cuautitlan,Chalco,Tepeyac,Iztapalapa,Tlatelolco,Cuernavaca,Cuauhnahuac,Teotihuacan,Tula,Tollan,Malinalco,Tepoztlan,Milpa Alta,Xalapa,Tlalnepantla,Naucalpan,Ecatepec,Nezahualcoyotl,Chimalhuacan,Ixtapaluca,Tizayuca,Tulancingo,Pachuca,Huejutla,Ixmiquilpan,Actopan,Zimapan,Metztitlan,Zacualtipan,Molango,Tenango,Apan,Tepeapulco,Tlahuelilpan,Atitalaquia,Mixquiahuala,Tezontepec,Ajacuba,Cardonal"
   },
-
-{
-    "name": "Purépecha",
-    "i": 48,
-    "min": 5,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Morelia,Uruapan,Zamora,Patzcuaro,Tzintzuntzan,Cheran,Paracho,LosReyes,Angamacutiro,Angangueo,Apatzingan,Acuitzio,Aguililla,Arteaga,Ario,Brisenas,Buenavista,Caracuaro,Charapan,Charo,Chavinda,Chilchota,Chinicuila,Chucandiro,Churintzio,Churumuco,Coahuayana,Coalcoman,Coeneo,Cojumatlan,Contepec,Copandaro,Cotija,Cuitzeo,Ecuandureo,Erongaricuaro,GabrielZamora,Hidalgo,Huandacareo,Huaniqueo,Huetamo,Huiramba,Indaparapeo,Irimbo,Ixtlan,Jacona,Jimenez,Jiquilpan,Jungapeo,Lagunillas,LaPiedad,Maravatio,Morelos"
-  },
-
-{
-    "name": "Canadian French",
-    "i": 68,
+  {
+    "name": "Chuj",
+    "i": 510,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "may-GT",
     "m": 0,
-    "b": "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"
+    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
   },
-
-{
-    "name": "Acadian",
-    "i": 765,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Moncton,Shediac,Bathurst,Fredericton,Charlottetown,Amherst,Truro,Yarmouth,Prince Edward Island"
-  },
-
-{
-    "name": "Brayon",
-    "i": 787,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Braga,Guimarães,Viseu,Porto,Celorico da Beira,Vila Real"
-  },
-
-{
-    "name": "Chiac",
-    "i": 796,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Madrid,Toledo,Ávila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
-  },
-
-{
-    "name": "Chipilo",
-    "i": 71,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chipilo,Puebla,Cholula,Atlixco,Huejotzingo,San Andres Cholula,San Pedro Cholula,Cuautlancingo,Tecali,Tepeaca,Amozoc,Tlaxcala"
-  },
-
-{
-    "name": "Franco-Ontarian",
-    "i": 82,
-    "min": 4,
-    "max": 11,
-    "d": "ro-CA",
-    "m": 0,
-    "b": "Toronto,Ottawa,Hamilton,Mississauga,Brampton,Kitchener,London,Windsor,Barrie,Sudbury,Sault Ste Marie"
-  },
-
-{
-    "name": "Frenchville French",
-    "i": 84,
-    "min": 4,
-    "max": 11,
-    "d": "ro-US",
-    "m": 0,
-    "b": "Paris,Lyon,Marseille,Toulouse,Lille,Bordeaux,Nantes,Strasbourg,Reims,Le Havre,Nancy,Rouen"
-  },
-
-{
-    "name": "Joual",
-    "i": 85,
-    "min": 4,
-    "max": 11,
-    "d": "ro-CA",
-    "m": 0,
-    "b": "Saint John,Miramichi,Moncton,Bathurst,Fredericton,Edmundston,Tracadie,Dieppe,Shediac,Campobello Island"
-  },
-
-{
-    "name": "Louisiana French",
-    "i": 86,
-    "min": 4,
-    "max": 11,
-    "d": "ro-US",
-    "m": 0,
-    "b": "New Orleans,Baton Rouge,Shreveport,Lafayette,Lake Charles,Kenner,Bossier City,Monroe,Alexandria,Houma,New Iberia,Opelousas"
-  },
-
-{
-    "name": "Magoua",
-    "i": 882,
-    "min": 4,
-    "max": 11,
-    "d": "ro-NC",
-    "m": 0,
-    "b": "Nouméa,Païta,Mont-Dore,Dumbéa,Tchamba,Lifou,Thio,Bourail,Yaté"
-  },
-
-{
-    "name": "Mexican Spanish",
-    "i": 890,
-    "min": 4,
-    "max": 11,
-    "d": "es-MX",
-    "m": 0,
-    "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad Juárez,Tijuana,León,Veracruz,Cancún,Mazatlán"
-  },
-
-{
-    "name": "Missouri French",
-    "i": 895,
-    "min": 4,
-    "max": 11,
-    "d": "ro-US",
-    "m": 0,
-    "b": "Saint Louis,Florissant,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
-  },
-
-{
-    "name": "Muskrat French",
-    "i": 900,
-    "min": 4,
-    "max": 11,
-    "d": "ro-US",
-    "m": 0,
-    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,Rivière-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
-  },
-
-{
-    "name": "New England French",
-    "i": 72,
-    "min": 4,
-    "max": 11,
-    "d": "ro-US",
-    "m": 0,
-    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-François,Saint-Dominique"
-  },
-
-{
-    "name": "Newfoundland French",
-    "i": 73,
-    "min": 4,
-    "max": 11,
-    "d": "ro-CA",
-    "m": 0,
-    "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-à-Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
-  },
-
-{
-    "name": "Quebec French",
-    "i": 1340,
-    "min": 4,
-    "max": 11,
-    "d": "ro-CA",
-    "m": 0,
-    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-Rivières,Saguenay,Lévis"
-  },
-
-{
+  {
     "name": "Cree",
-    "i": 2069,
+    "i": 725,
     "min": 4,
     "max": 11,
     "d": "cr-CA",
     "m": 0,
-    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,Oujé-Bougoumou"
+    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,OujÃ©-Bougoumou"
   },
-
-{
+  {
     "name": "Ojibwe",
-    "i": 2070,
+    "i": 726,
     "min": 4,
     "max": 11,
     "d": "oj-CA",
     "m": 0,
     "b": "Kenora,Thunder Bay,Sault Ste. Marie,Red Lake,Fort Frances,Dryden,Sioux Lookout,Rainy River,Nipigon,Geraldton,Manitouwadge,Marathon"
   },
-
-{
-    "name": "Yupik",
-    "i": 2071,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga"
-  },
-
-{
-    "name": "Cherokee",
-    "i": 2073,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tahlequah,Park Hill,Stilwell,Sallisaw,Gore,Vian,Muldrow,Westville,Hulbert,Locust Grove,Salina,Jay"
-  },
-
-{
+  {
     "name": "Apache",
-    "i": 2074,
+    "i": 730,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
     "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,Seven Mile,McNary,East Fork,Cedar Creek"
   },
-
-{
-    "name": "Athabaskan",
-    "i": 2075,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fairbanks,Fort Yukon,Galena,Nenana,Tanana,Huslia,Hughes,Ruby,Koyukuk,Nulato,Kaltag,Shageluk"
-  },
-
-{
+  {
     "name": "Navajo",
-    "i": 2076,
+    "i": 732,
     "min": 4,
     "max": 11,
     "d": "nv-US",
     "m": 0,
     "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Gallup,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms"
   },
-
-{
-    "name": "Achi",
-    "i": 2223,
+  {
+    "name": "Awakatek",
+    "i": 765,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Tactic,Tamahú,Tucurú,Senahú,Cahabón,Lanquín"
+    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
   },
-
-{
-    "name": "Afro-Seminole Creole",
-    "i": 74,
+  {
+    "name": "Cuicatec",
+    "i": 782,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Brackettville,Nacimiento de los Negros,Del Rio,Eagle Pass,Uvalde,San Antonio,Houston,Galveston,New Orleans,Mobile,Pensacola,St. Augustine"
+    "b": "Teutila,Tepeuxila,San Lucas Ojitlâ”œÃ­n,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlâ”œÃ­n,Caâ”œâ–’ada Region,Caâ”œâ–’ada,Ojitlâ”œÃ­n,Cuicatec,Mixtecan"
   },
-
-{
-    "name": "American Finnish",
-    "i": 2570,
+  {
+    "name": "Amuzgo",
+    "i": 900,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely"
+    "b": "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Pinotepa,Cuajinicuilapa,SanLuisAcatlan,Ayutla,Cualac,Huamuxtitlan,Tepecoacuilco,Taxco,Iguala"
   },
-
-{
-    "name": "Sierra Popoluca",
-    "i": 5828,
+  {
+    "name": "Mixe",
+    "i": 1182,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,Cuitlapán,Popoloca,Tlacolula,Mazatlán"
+    "b": "Totontepec,Mitla,Tlahuitoltepec,Tamazulapan,Tepelmeme,San Juan Guichicovi,San Juan Mixtepec,San Agustin Loxicha,San Juan Colorado,San Miguel Tilquiapan,San Pablo Huixtepec,San Mateo Penasco"
   },
-
-{
-    "name": "Tlapanec (Me'phaa)",
-    "i": 5829,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Malinaltepec,Tlapa,Ocotalpan,Zapotitlán,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
-  },
-
-{
-    "name": "Coast Tsimshian (Sm'algyax)",
-    "i": 5832,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Prince Rupert,Hazelton,Kitimat,Terrace,Kitselas,Klemtu,Kitsumkalum,Lax Kw'ala,Metlakatla,Hartley Bay"
-  },
-
-{
-    "name": "Dakota",
-    "i": 20508,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pierre,Rapid City,Sioux Falls,Fargo,Chamberlain,Yankton,Grand Forks,Valley City,Bismarck,Mandan,McLaughlin"
-  },
-
-{
-    "name": "Tabasco Zoque",
-    "i": 20525,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Villahermosa,Cárdenas,Comalcalco,Macuspana,Teapa,Jalpa de Méndez,Cunduacán,Paraíso,Jonuta,Balancán,Tenosique,Emiliano Zapata"
-  },
-
-{
+  {
     "name": "Chochotec",
-    "i": 20526,
+    "i": 1184,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,Saín Alto,General Enrique Estrada"
+    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,SaÃ­n Alto,General Enrique Estrada"
   },
-
-{
-    "name": "Cauque Mayan",
+  {
+    "name": "Q'anjob'al",
+    "i": 1186,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel AcatÃ¡n,San Rafael Petzal,Santiago Chimaltenango,AguacatÃ¡n"
+  },
+  {
+    "name": "Cauque Mayan language",
     "i": 1187,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santiago Atitlán,San Lucas Tolimán,San Antonio Palopó,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina Palopó,Santa Cruz La Laguna,Panajachel,Patulul,San José Chacayá,Santa Clara La Laguna"
+    "b": "Santiago AtitlÃ¡n,San Lucas TolimÃ¡n,San Antonio PalopÃ³,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina PalopÃ³,Santa Cruz La Laguna,Panajachel,Patulul,San JosÃ© ChacayÃ¡,Santa Clara La Laguna"
   },
-
-{
-    "name": "Mobilian Jargon",
-    "i": 1188,
+  {
+    "name": "Chipewyan",
+    "i": 1192,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mobile,Pascagoula,Biloxi,Gulfport,Biloxi Bay,Mobile Bay,Tombigbee River,Pascagoula River,Alabama River,Pearl River,Choctawhatchee,Mobile County"
+    "b": "Fort Resolution,Yellowknife,Fort Smith,Hay River,Fort Simpson,Lutselk'e,Nahanni Butte,Norman Wells,Inuvik,Tuktoyaktuk,Paulatuk,Sachs Harbour"
   },
-
-{
-    "name": "Pidgin Delaware",
-    "i": 1189,
+  {
+    "name": "Cayuga",
+    "i": 1208,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Trenton,Princeton,New Brunswick,Bridgeton,Camden,Cape May,Atlantic City,Toms River,Vineland,Millville,Hamilton,Middletown"
+    "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
   },
-
-{
-    "name": "Tlicho",
-    "i": 1198,
+  {
+    "name": "Onondaga",
+    "i": 1210,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rae Behchoko,Whatì,Gamètì,Wekwèètì,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
+    "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,DeWitt,Fayetteville,Manlius,Baldwinsville"
   },
-
-{
-    "name": "Cochimí",
-    "i": 1204,
+  {
+    "name": "Seneca",
+    "i": 1211,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cochimí,Mulegé,Loreto,Santa Rosalía,Guerrero Negro,Vizcaíno,Comondú,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
+    "b": "Seneca,Buffalo,Rochester,Syracuse,Salamanca,Batavia,Jamestown,Olean,Albany,Tonawanda,Lockport,Canandaigua"
   },
-
-{
-    "name": "Cocopa",
-    "i": 1205,
+  {
+    "name": "Tuscarora",
+    "i": 1212,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cocopa,Somerton,Yuma,San Luis,Winterhaven,Fort Yuma,Wellton,Quartermaster Landing,Madrid,Ogilby,Imperial,El Centro"
+    "b": "Tuscarora,Lewiston,Niagara Falls,Buffalo,Sanborn,North Tonawanda,Rochester,Syracuse,Albany,Lockport,Ransomville,Youngstown"
   },
-
-{
-    "name": "Turks and Caicos Creole",
-    "i": 1293,
+  {
+    "name": "Tewa",
+    "i": 1263,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Providenciales,Cockburn Town,Grand Turk,South Caicos,Middle Caicos,North Caicos,East Caicos,Salt Cay,Turks,Caicos,Parrot Cay,Pine Cay"
+    "b": "Pojoaque,Tesuque,Nambe,Ohkay,Owingeh,Puye,Tsankawi,Kotyiti,Shufinne,Pohwhoge,Wanike,Popay"
   },
-
-{
-    "name": "Vincentian Creole",
-    "i": 1294,
+  {
+    "name": "Choctaw",
+    "i": 1290,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kingstown,Georgetown,Byera Village,Layou,Barrouallie,Chateaubelair,Biabou,Owia,Calliaqua,Stubbs,Villa,Prospect"
+    "b": "Choctaw,Talihina,Poteau,McAlester,Atoka,Durant,Hugo,Tushka,Poteau Mountain,Kiamichi River,Red River,Arkansas River"
   },
-
-{
-    "name": "Virgin Islands Creole",
-    "i": 1295,
+  {
+    "name": "Muscogee",
+    "i": 1291,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo"
+    "b": "Muscogee,Okmulgee,Creek Nation,Tulsa,Muskogee,Okemah,Wewoka,Cheyenne,Henryetta,Eufaula,Wagoner,Tahlequah"
   },
-
-{
-    "name": "Jamaican Maroon Creole",
-    "i": 1296,
+  {
+    "name": "Hopi",
+    "i": 1370,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Accompong,Moore Town,Scotts Hall,Charles Town,Flagstaff,Barbecue Bottom,Trelawny,Portland,St James,Westmoreland,St Ann,St Mary"
+    "b": "Hopi,First Mesa,Second Mesa,Third Mesa,Polacca,Kykotsmovi,Kykotsmovi Village,Shungopavi,Mishongnovi,Orayvi,Sichomovi,Moenkopi"
   },
-
-{
-    "name": "Aleut",
-    "i": 1304,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Unalaska,Dutch Harbor,Kodiak,Aleutian Islands,Adak,Atka,Umak,Cold Bay,Sand Point,King Cove,Port Heiden,Umnak"
-  },
-
-{
-    "name": "Broken Oghibbeway",
-    "i": 1379,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Broken Oghibbeway,Mississauga,Toronto,Lake Ontario,Niagara,Ontario,Canada,Iroquois,Huron"
-  },
-
-{
+  {
     "name": "Broken Slavey",
     "i": 1380,
     "min": 4,
@@ -470,38 +208,70 @@ window.NorthAmericaNameBases = [
     "m": 0,
     "b": "Broken Slavey,Fort Simpson,Fort Liard,Fort Nelson,Inuvik,Tuktoyaktuk,Mackenzie,Yellowknife,Northwest Territories,Canada"
   },
-
-{
-    "name": "Chol",
-    "i": 1412,
+  {
+    "name": "Chontal Maya",
+    "i": 1411,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chol,Tumbalá,Palenque,Catazajá,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
+    "b": "Chontal Maya,Villahermosa,Macuspana,Comalcalco,ParaÃ­so,Jonuta,BalancÃ¡n,Emiliano Zapata,Tenosique,Tabasco,Mexico"
   },
-
-{
-    "name": "Cahuilla",
-    "i": 1417,
+  {
+    "name": "Q'eqchi'",
+    "i": 1436,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cahuilla,Palm Springs,Palm Desert,Indio,Coachella,Desert Hot Springs,Thousand Palms,Rancho Mirage,California"
+    "b": "Q'eqchi',Alta Verapaz,Baja Verapaz,Izabal,Guatemala,CobÃ¡n,SalamÃ¡,Chamelco,LanquÃ­n,Santa Cruz Verapaz"
   },
-
-{
-    "name": "Huastec",
-    "i": 1428,
+  {
+    "name": "Yucatec Maya",
+    "i": 1439,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,Pánuco,Tantoyuca,Tamazunchale"
+    "b": "Yucatec Maya,MÃ©rida,CancÃºn,ChichÃ©n ItzÃ¡,Tulum,Valladolid,TizimÃ­n,Campeche,YucatÃ¡n Peninsula,Mexico"
   },
-
-{
+  {
+    "name": "Ixil",
+    "i": 1441,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ixil,Nebaj,Chajul,Cotzal,El QuichÃ©,QuichÃ©,Guatemala,Ixil Triangle,Maya Highlands"
+  },
+  {
+    "name": "Jakaltek",
+    "i": 1442,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Jakaltek,Chiquimula,Zacapa,Quetzaltenango,Esquipulas,Guatemala,Ocotepeque,Santa Rosa,Livingston,CopÃ¡n"
+  },
+  {
+    "name": "K'iche'",
+    "i": 1443,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "K'iche',Quetzaltenango,TotonicapÃ¡n,SololÃ¡,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
+  },
+  {
+    "name": "Mopán",
+    "i": 1446,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Mopán,Ixtlán,Yucatán,Mexico,Chiapas,Tabasco,Campeche,Mérida,Yucatán Peninsula"
+  },
+  {
     "name": "Central Zapotec",
     "i": 1492,
     "min": 4,
@@ -510,200 +280,205 @@ window.NorthAmericaNameBases = [
     "m": 0,
     "b": "Zapotec,Oaxaca City,Mitla,Tlacolula,Zaachila,Mexico,Chiapas,Oaxaca,Mesoamerica"
   },
-
-{
-    "name": "Mazatec",
-    "i": 1499,
+  {
+    "name": "Mazahua",
+    "i": 1498,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mazatec,Huatla de Jiménez,Teotitlán de Flores Magón,Mazatlán,Ayautla,Oaxaca,Mexico"
+    "b": "Mazahua,Ixtlahuaca,Timilpan,Jilotepec,Atlacomulco,Acambay,Mexico,State of Mexico,Central Mexico"
   },
-
-{
-    "name": "Chakato",
-    "i": 20703,
+  {
+    "name": "Mayo",
+    "i": 1508,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lawrence,Topeka,Oklahoma City,Tulsa,Wichita,Kansas City,St. Louis,Springfield,Joplin,Pittsburg,Independence,Kansas"
+    "b": "Mayo,Navojoa,Huatabampo,Etchojoa,Sonora,Mexico,Yaqui River"
   },
-
-  
-
-{
-    "name": "Chinook Jargon",
-    "i": 1592,
+  {
+    "name": "O'odham",
+    "i": 1510,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fort Vancouver,The Dalles,Celilo,Wasco,Shaniko,Boardman,Oregon City,Maryhill,Goldendale,The Cove,Priest Rapids,Yakima"
+    "b": "O'odham,Sells,Tucson,Arizona,Ajo,Papago,USA,Sonora,Mexico,Arizona Desert"
   },
-
-{
-    "name": "Cholti Classic",
-    "i": 1595,
+  {
+    "name": "Pima Bajo",
+    "i": 1511,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cholti,Mixco,Antigua Guatemala,Guatemala,Central America,Maya Region"
+    "b": "Pima Bajo,YÃ©cora,Mazocahui,Maycoba,Sonora,Mexico,Sierra Madre"
   },
-
-{
-    "name": "Chorotega",
-    "i": 1604,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chorotega,Guancaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua"
-  },
-
-{
-    "name": "Chicomuceltec",
-    "i": 1630,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Comitán,Trinitaria,La Independencia,Francisco León,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
-  },
-
-{
-    "name": "Coxoh",
-    "i": 1640,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Coxoh,Comitán,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
-  },
-
-{
-    "name": "Eskimo Trade Jargon",
-    "i": 1774,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Eskimo Trade Jargon,Arctic,Inuit,Greenland,Canada,North America,Alaska"
-  },
-
-{
-    "name": "Greenlandic",
-    "i": 1829,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nuuk,Ilulissat,Sisimiut,Qaqortoq,Aasiaat,Maniitsoq,Paamiut,Greenland,Kalaallit Nunaat,Arctic"
-  },
-
-{
-    "name": "Gullah",
-    "i": 1879,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Charleston,Mount Pleasant,Summerville,Savannah,Hilton Head,Bluffton,Beaufort,Georgetown,Parris Island,Edisto Island,Hunting Island,Fripp Island"
-  },
-
-{
+  {
     "name": "Isthmus Zapotec",
-    "i": 1984,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Juchitán de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,Unión Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
-  },
-
-{
-    "name": "Itza",
-    "i": 1988,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San José,Flores,Santa Elena,San Benito,Sayaxché,Poptún,Melchor de Mencos,La Libertad,Dolores,San Luis"
-  },
-
-{
-    "name": "Akatek",
-    "i": 2249,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San Miguel Acatán,San Rafael La Independencia,Nentón,Jacaltenango,Concepción Huista,Petatán,San Antonio Huista,Santa Ana Huista,Todos Santos Cuchumatán,Huehuetenango,Chiantla,Aguacatán"
-  },
-
-{
-    "name": "Lakota",
-    "i": 2316,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pine Ridge,Rapid City,Chamberlain,Mobridge,Mitchell,Pierre,Yankton,Sioux Falls,Watertown,Aberdeen"
-  },
-
-{
-    "name": "Qeqchi",
-    "i": 2548,
+    "i": 2032,
     "min": 4,
     "max": 12,
-    "d": "lnrt",
+    "d": "nic-GH",
     "m": 0,
-    "b": "Coban,Raxruha,Chisec,Fray-Bartolome,San-Pedro-Carcha,San-Cristobal-Verapaz,Tactic,Tamahu,Panzos,Senahu,Lanquin,Chahal,El-Estor,La-Tinta,Santa-Cruz-Verapaz,Frayba"
+    "b": "JuchitÃ¡n,Tehuantepec,Salina Cruz,Ixtepec,Espinal,Ixtaltepec,Comitancillo,Xadani,San Blas Atempa,Santa Maria Petapa,Santo Domingo ChihuitÃ¡n,San Pedro Comitancillo,Santa Maria Mixtequilla,San Pedro Huilotepec"
   },
-
-{
-    "name": "Kiche",
-    "i": 2549,
+  {
+    "name": "Keresan",
+    "i": 2239,
     "min": 4,
-    "max": 12,
-    "d": "lnrt",
+    "max": 11,
+    "d": "nic-GH",
     "m": 0,
-    "b": "Quetzaltenango,Totonicapan,Momostenango,Santa-Cruz-del-Quiche,Joyabaj,Chichicastenango,Nahuala,San-Andres-Xecul,Salcaja,San-Cristobal-Totonicapan,San-Francisco-El-Alto,Chicaman,Pachalum,Patzite,Canilla,Zunil,Sibilia"
+    "b": "Acoma,Laguna,Santa Ana,San Felipe,Santo Domingo,Zia,Cochiti,Paguate,Mesita,Paraje,Seama,Encinal"
   },
-
-{
+  {
     "name": "Yucatec-Maya",
     "i": 2550,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,Umán,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
+    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,UmÃ¡n,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
   },
-
-{
-    "name": "Qanjobal",
-    "i": 2561,
+  {
+    "name": "Mam",
+    "i": 2551,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa Eulalia,San Juan Ixcoy,San Pedro Solon,Soloma,San Rafael La Independencia,San Miguel Acatán,San Sebastian Coatan,Barillas,Nenton,Jacaltenango"
+    "b": "San-Marcos,Malacatan,Tejutla,TacanÃ¡,Sibinal,Concepcion-Tutuapa,San-Miguel-Ixtahuacan,San-Antonio-Sacatepequez,San-Pedro-Sacatepequez,Ayutla,Huehuetenango,La-Democracia,Jacaltenango,San-Ildefonso-Ixtahuacan"
   },
-
-{
-    "name": "Southern-Quechua",
-    "i": 2565,
+  {
+    "name": "Mixtec",
+    "i": 2553,
     "min": 4,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Cusco,Ayacucho,Puno,Andahuaylas,Abancay,Huancavelica,Juliaca,Sicuani,Quillabamba,Urubamba,Calca,Anta,Espinar,Ilave,Moho"
+    "b": "Tlaxiaco,Huajuapan,Juxtlahuaca,Silacayoapan,Putla,Nochixtlan,Tezoatlan,Acatlan,Tamazulapan,Santiago-Juxtlahuaca,San-Juan-Mixtepec,Teotitlan,Huautla"
   },
-
-{
+  {
+    "name": "Zapotec",
+    "i": 2555,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Oaxaca,Tehuantepec,Juchitan,Mitla,Zaachila,Etla,Teotitlan-del-Valle,Matatlan,Ocotlan,Zimatlan,Ejutla,Tlacolula,San-Blas-Atempa,Salina-Cruz,Teopisca"
+  },
+  {
+    "name": "Kaqchikel",
+    "i": 2556,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Chimaltenango,Sumpango,Parramos,Itzapa,Patzun,Tecpan,Comalapa,Santa-Apolonia,Solola,Patzicia,Antigua,San-Lucas-Sacatepequez,San-Miguel-Duenas,Alotenango"
+  },
+  {
+    "name": "Otomi",
+    "i": 2557,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ixmiquilpan,Tula,Queretaro,Huichapan,Zimapan,Actopan,Tepeji,Tepetitlan,Atotonilco,Santiago-de-Anaya,Alfajayucan,Mixquiahuala,Cardonal,Jacala,Santa-Ana-Tlahuapan"
+  },
+  {
+    "name": "Mazatec",
+    "i": 2560,
+    "min": 11,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Huautla-de-Jimenez,Teotitlan-de-Flores,San-Jose-Tenango,Jalapa-de-Diaz,San-Felipe-Jalapa,Valerio-Trujano,San-Miguel-Huautepec,Chiquihuitlan,Acatlan-de-Perez,Ayautla"
+  },
+  {
+    "name": "Miskito",
+    "i": 2576,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bluefields,Bilwi,Waspam,Puerto Cabezas,Prinzapolka,Awasbila,Tuara,Krukira,Haulover,Karawala,Sandy Bay,Lamlaya,Tasbapauni,Kakabila,La Cruz Grande,Bismuna,Awas Tingni,Layasiksa,Dakura,Karata,Walpasiksa,Sinsin,Ubu,Tuapi,Krinkrin,San Jeronimo,Santa Marta,San Carlos,San Juan Coco,Siuna"
+  },
+  {
+    "name": "Garifuna",
+    "i": 2579,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dangriga,Hopkins,Seine Bight,Placencia,Punta Gorda,Barranco,Livingston,Puerto Barrios,Trujillo,La Ceiba,Sambo Creek,Corozal,Punta Negra,Monkey River,Big Creek,Limon,Iriona,Puerto Castilla,Santa Rosa Aguan,Nuevo San Juan,Masca,Triunfo de la Cruz,San Juan Tela,Miami Village,La Ensenada,Puerto Cortes,Omoa,Puerto Lempira,Brus Laguna,Palacios"
+  },
+  {
+    "name": "Huichol",
+    "i": 2581,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Andres Cohamiata,San Sebastian Teponahuaxtlan,Santa Catarina Cuexcomatitlan,Mezquitic,Huejuquilla,Bolanos,Valparaiso,Tuxpan,Nayarit,Tepic,Ruiz,La Yesca,Guadalupe Ocotan,Tuxpan de Bolanos,Bancos San Hipolito,Tuapurie,Wautia,Hauxa Manaka,Teacapan,Acaponeta,Compostela,San Blas,Mascota,Talpa de Allende,Ixtlan del Rio,Ahuacatlan,Villa Guerrero,Amatlan de Canas,Colotlan,Huajimic"
+  },
+  {
+    "name": "Yaqui",
+    "i": 2582,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Vicam,Potam,Rahum,Huirivis,Bacum,Cocorit,Guaymas,Empalme,Ciudad Obregon,Navojoa,Etchojoa,Benito Juarez,San Ignacio Rio Muerto,Pascua,Guadalupe,Las Guasimas,Tobarito,Buenavista,Marte R Gomez,Paredon Colorado,Esperanza,Ortiz,Tucson,Guadalupe Arizona,Marana,South Tucson,Guadalupe Village,Pascua Pueblo,New Pascua,Old Pascua"
+  },
+  {
+    "name": "Cherokee",
+    "i": 2583,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Chota,Tanasi,Kituwa,Nikwasi,Cowee,Tugaloo,Keowee,Etowah,New Echota,Oostanaula,Hiwassee,Toqua,Tellico,Tomotley,Seneca,Tuskegee,Coosa,Chiaha,Chilhowee,Citico,Mialoquo,Ustanali,Running Water,Nickajack,Ross Landing,Red Clay,Tahlequah,Park Hill,Fort Gibson,Webbers Falls"
+  },
+  {
+    "name": "Lakota",
+    "i": 2607,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pine Ridge,Porcupine,Kyle,Wanblee,Martin,Interior,Wall,Kadoka,Scenic,Red Shirt,Allen,Manderson,Sharps Corner,Porcupine Butte,St Francis,Mission,White River,Parmelee,Cherry Creek,Eagle Butte,Okreek"
+  },
+  {
+    "name": "Dakota",
+    "i": 2608,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sisseton,Waubay,Eden,Peever,Agency Village,Fort Thompson,Lower Brule,Mobridge,Standing Rock,Fort Yates,Selfridge,Cannon Ball,McLaughlin,Bismarck,Mandan,Fort Totten,Devils Lake,Spirit Lake,Fort Randall,Wagner"
+  },
+  {
+    "name": "Blackfoot",
+    "i": 2609,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Browning,Standoff,Cardston,Fort Macleod,Pincher Creek,Stand Off,Milk River,Lethbridge,Taber,Raymond,Magrath,Glacier,East Glacier,Heart Butte,Babb,Waterton,Piikani,Brocket,Hill Spring,Glenwood"
+  },
+  {
+    "name": "Mohawk",
+    "i": 2610,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kahnawake,Akwesasne,Tyendinaga,Ohsweken,Kanatsiohareke,Ganienkeh,Gananoque,Deseronto,Brantford,Cornwall,Massena,Hogansburg,Snye,Fort Covington,Kawehnoke,Kanawake"
+  },
+  {
     "name": "Salish",
     "i": 2613,
     "min": 4,
@@ -711,325 +486,5 @@ window.NorthAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Spokane,Colville,Nespelem,Inchelium,Omak,Okanogan,Kamloops,Chilliwack,Hope,Abbotsford,Coquitlam,Sechelt,Squamish,Nanaimo,Duncan,Courtenay,Campbell River,Bellingham,Everett,Skagit"
-  },
-
-{
-    "name": "Innu",
-    "i": 2662,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sheshatshiu,Natuashish,Maliotenam,Uashat,Matimekush,Lac-John,Ekuanitshit,Pessamit,Essipit,Unamen Shipu,La Romaine,Mingan,Schefferville,Sept-Iles,Baie-Comeau,Forestville,Port-Cartier,Chute-aux-Outardes,Longue-Pointe-de-Mingan,Havre-Saint-Pierre"
-  },
-
-{
-    "name": "Spanglish",
-    "i": 20219,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Miami,Los Angeles,New York,Chicago,San Antonio,El Paso,San Diego,Orlando,Houston,Dallas,San Juan,Havana,Tijuana,Monterrey,Guadalajara,Panama City,Santo Domingo,Caracas,Bogotá,Medellín,Lima,Madrid,Barcelona"
-  },
-
-{
-    "name": "Anguillian Creole",
-    "i": 20106,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "The Valley,Sandy Ground,Shoal Bay,Island Harbour,South Hill,Blowing Point,North Hill,Sandy Hill,West End,East End,Long Bay,Stony Ground"
-  },
-
-{
-    "name": "Bahamian Creole",
-    "i": 20107,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nassau,Freeport,George Town,Marsh Harbour,Alice Town,Coco Bay,Great Exuma,Eleuthera,Abaco,Andros,Bimini,Cat Island"
-  },
-
-{
-    "name": "Bajan Creole",
-    "i": 20108,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bridgetown,Speightstown,Oistins,Holetown,Worthing,Saint Lawrence,Garrison,Saint Michael,Saint Peter,Saint James,Saint John,Saint Thomas"
-  },
-
-{
-    "name": "Belizean Creole",
-    "i": 20109,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Belize City,San Pedro,Orange Walk,Belmopan,Dangriga,San Ignacio,Punta Gorda,Caye Caulker,Placencia,Corozal Town,Benque Viejo,Hopkins"
-  },
-
-{
-    "name": "Bocas del Toro Creole",
-    "i": 20110,
-    "min": 4,
-    "max": 11,
-    "d": "cr",
-    "m": 0,
-    "b": "Bocas Town,Almirante,Changuinola,Colón,Chiriquí Grande,Bocas del Toro,Red Frog Beach,Casa de Campo,Colón Island,Bocas Archipelago"
-  },
-
-{
-    "name": "Grenadian Creole English",
-    "i": 20175,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "St. George's,Gouyave,Grenville,Hillsborough,Sauteurs,Tivoli,Victoria,Carriacou,Loufrik,St. David,St. Patrick,St. Andrew"
-  },
-
-{
-    "name": "Leeward Caribbean Creole English",
-    "i": 20176,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Basseterre,Charlestown,St. Kitts,Nevis,Antigua,Barbuda,Redonda,St. Eustatius,Saba,Sint Maarten,Saint-Barthélemy,Guadeloupe"
-  },
-
-{
-    "name": "Limonese Creole",
-    "i": 20177,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Puerto Limón,Moín,Cahuita,Puerto Viejo,Cocles,Sixaola,Gandoca,Manzanillo,Boca Pérez,Valle del Estrella,Reventazón,Parque Nacional Cahuita"
-  },
-
-{
-    "name": "Miskito Coast Creole",
-    "i": 20178,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "La Ceiba,Río Esteban,Cayos Cochinos,Roatán,Coxen Hole,French Harbour,West End,East End,Sandy Bay,West Bay,Saba,Utila"
-  },
-
-{
-    "name": "Montserrat Creole",
-    "i": 20179,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Brades,Salem,Georgetown,Dukes,St. Peters,St. Georges,Old Town,Garvey,Lookout,Cork Hill,Sweeney's,Hope"
-  },
-
-{
-    "name": "Rama Cay Creole",
-    "i": 20180,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rama Cay,Bluefields,Corn Island,San Juan de Nicaragua,Greytown,Pearl Lagoon,Waslala,Bonanza,Puertas Azules,Laguna de Perlas,Miskito Cays,Costa Caribe"
-  },
-
-{
-    "name": "Saint Kitts Creole",
-    "i": 20181,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Basseterre,Frigate Bay,Sandy Point,Old Road,Dieppe Bay,St. Paul,St. George,St. Anne,St. Thomas,St. John,St. Christopher,St. James"
-  },
-
-{
-    "name": "Tobagonian Creole",
-    "i": 20183,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Scarborough,Fort King George,Plymouth,Rocky Bay,Black Rock,Arnos Vale,Crown Point,Bon Accord,Store Bay,Golden Lane,Pigeon Point,Castara"
-  },
-
-{
-    "name": "Trinidadian Creole",
-    "i": 20184,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Port of Spain,San Fernando,Arima,Chaguanas,San Juan,Diego Martin,Tunapuna,Piarco,Couva,Tabaquite,Talparo,Caroni"
-  },
-
-{
-    "name": "Algonquian-Basque pidgin",
-    "i": 20074,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Quebec City,Trois-Rivières,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Îles,Victoriaville,Granby,Québec"
-  },
-
-{
-    "name": "Almosan",
-    "i": 20076,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vancouver,Victoria,Prince Rupert,Kelowna,Abbotsford,Surrey,Langley,Delta,Saanich,Nanaimo,Kamloops,Prince George"
-  },
-
-{
-    "name": "American Indian Pidgin English",
-    "i": 20101,
-    "min": 4,
-    "max": 11,
-    "d": "en",
-    "m": 0,
-    "b": "Fort Benton,Fort Laramie,Fort Vancouver,Fort Hall,Fort Bridger,Fort Union,Fort Pierre,Fort Snelling,Fort Gibson,Fort Atkinson,Fort Leavenworth"
-  },
-
-{
-    "name": "Jersey Dutch",
-    "i": 20213,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "jersey-dutch,St. Helier,St. Saviour,St. Brelade,St. Lawrence,St. Mary,St. Peter,St. Ouen,St. John,St. Martin,Grouville,Trinity"
-  },
-
-{
-    "name": "Inuktitut-English Pidgin",
-    "i": 1951,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Iqaluit,Arviat,Rankin Inlet,Baker Lake,Cambridge Bay,Pangnirtung,Kugluktuk,Pond Inlet,Cape Dorset,Gjoa Haven"
-  },
-
-{
-    "name": "Labrador Inuit Pidgin French",
-    "i": 2311,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "St. John's,Corner Brook,Gander,Grand Falls-Windsor,Happy Valley-Goose Bay,Labrador City,Wabush,Port aux Basques,Marystown,Carbonear"
-  },
-
-{
-    "name": "San Andres-Providencia Creole",
-    "i": 10,
-    "min": 4,
-    "max": 11,
-    "d": "ae",
-    "m": 0,
-    "b": "San Andres,Providencia,Old Providence,San Luis,La Loma,Hill Valley,Bottom House,Rocky Point,Bocachica,Swarteen"
-  },
-
-{
-    "name": "Chagossian Creole",
-    "i": 10,
-    "min": 4,
-    "max": 12,
-    "d": "ae",
-    "m": 0,
-    "b": "Diego Garcia,Peros Banhos,Salomon Islands,Nelson Island,Eagle Islands,Plymouth,Cockburn Harbour,Longwood,Ginger Hill,Baie St. Anne"
-  },
-
-{
-    "name": "Dominican Creole French",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "Roseau,Portsmouth,Banse,Grand Bay,St. Joseph,Marigot,Belley,La Plaine,Wesley,Colihaut"
-  },
-
-{
-    "name": "French Guianese Creole",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "Cayenne,Kourou,Remire,Macouria,Matoury,Saint-Laurent,Mana,Apatou,Grand-Santi,Saul"
-  },
-
-{
-    "name": "Grenadian Creole French",
-    "i": 10,
-    "min": 4,
-    "max": 11,
-    "d": "ae",
-    "m": 0,
-    "b": "St. George,Gouyave,Grenville,Victoria,St. David,St. Andrew,St. John,St. Mark,St. Patrick,St. Lucia"
-  },
-
-{
-    "name": "Louisiana Creole",
-    "i": 10,
-    "min": 4,
-    "max": 11,
-    "d": "ae",
-    "m": 0,
-    "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Alexandria,Thibodaux,Houma,New Iberia,Slidell"
-  },
-
-{
-    "name": "Réunion Creole",
-    "i": 10,
-    "min": 4,
-    "max": 12,
-    "d": "ae",
-    "m": 0,
-    "b": "Saint-Denis,Saint-Pierre,Saint-Paul,Saint-Benoit,Saint-Louis,Le Tampon,Saint-Andre,Saint-Joseph,Saint-Marie,L'Etang-Sale"
-  },
-
-{
-    "name": "Rodriguan Creole",
-    "i": 10,
-    "min": 4,
-    "max": 12,
-    "d": "ae",
-    "m": 0,
-    "b": "Port Mathurin,Port Louis,Saint Gabriel,Batelam,Coromandel,Riviere du Rempart,Grand Gaube,Pamplemousses,Grand Baie,Cap Malheureux"
-  },
-
-{
-    "name": "Saint Lucian Creole",
-    "i": 10,
-    "min": 4,
-    "max": 12,
-    "d": "ae",
-    "m": 0,
-    "b": "Castries,Choiseul,Dennery,Gros Islet,Laborie,Micoud,Soufriere,Vieux Fort,Anse-la-Raye,Canaries"
-  },
-
-{
-    "name": "Yiddish",
-    "i": 10,
-    "min": 4,
-    "max": 10,
-    "d": "ae",
-    "m": 0,
-    "b": "New York,Los Angeles,Chicago,Miami,Brooklyn,Montreal,London,Paris,Tel Aviv,Buenos Aires"
   }
 ];
