@@ -1,0 +1,18 @@
+=== CONSOLIDATED LANGUAGE QUALITY SUMMARY REPORT ===
+
+BY CONTINENT:
+
+BY BASE SIZE CATEGORY:
+
+BY QUALITY SCORE:
+  Excellent (95+): 0
+  Good (80-94): 0
+  Fair (60-79): 0
+  Poor (40-59): 0
+  Critical (<40): 0
+
+CRITICAL ISSUES:
+  Placeholders: 0
+  Primus entries: 0
+  Suspicious names: 0
+  Index/name collisions: 0

@@ -8,22 +8,22 @@ BY CONTINENT:
   SouthAmerica: 13
   Oceania: 27
   Fantasy: 1
-  Unknown: 536
+  Unknown: 266
 
 BY BASE SIZE CATEGORY:
-  normal: 2064
-  large: 516
-  small: 5
+  normal: 1838
+  large: 474
+  small: 3
 
 BY QUALITY SCORE:
-  Excellent (95+): 2503
-  Good (80-94): 63
-  Fair (60-79): 19
+  Excellent (95+): 2253
+  Good (80-94): 61
+  Fair (60-79): 1
   Poor (40-59): 0
   Critical (<40): 0
 
 CRITICAL ISSUES:
   Placeholders: 0
   Primus entries: 0
-  Suspicious names: 2
-  Index/name collisions: 121
+  Suspicious names: 1
+  Index/name collisions: 78
