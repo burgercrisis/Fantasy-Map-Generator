@@ -110,13 +110,7 @@ window.asiaNameBases = [
     "b": "Libo,Qiannan,Guizhou,Duyun,Sandu,Dushan,Pingtang,Luodian,Huishui,Longli,Guiyang,Anshun"
   },
   {
-    "name": "Dani Papuan",
-    "i": 51,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wamena,Kurima,Pyramid,Asologaima,Musatfak,Elelim,Bokondini,Karubaga,Tiom,Ninia,Soba,Kurulu,Asolokobal,Welesi,Hubikosi,Huleka,Yiwika,Dugum,Hitigima,Sinakma"
+    "name": "Dani Papuan","i":6981,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Dani Papuan","i": 51,"min": 4,"max": 12,"d": "nic-GH","m": 0,"b": "Wamena,Kurima,Pyramid,Asologaima,Musatfak,Elelim,Bokondini,Karubaga,Tiom,Ninia,Soba,Kurulu,Asolokobal,Welesi,Hubikosi,Huleka,Yiwika,Dugum,Hitigima"
   },
   {
     "name": "Eastern Indonesian",
@@ -128,22 +122,10 @@ window.asiaNameBases = [
     "b": "Makassar,Kendari,Palopo,Parepare,Gorontalo,Manado,Bitung,Tolitoli,Poso,Luwuk,Mamuju,Kupang,Atambua,Kefamenanu,Soe,Maumere,Ende,Bajawa,Ruteng,Waingapu,Labuan Bajo,Ternate,Sofifi,Ambon,Namlea,Jailolo,Tual,Tomohon,Kotamobagu,Ratahan,Kalabahi,Larantuka"
   },
   {
-    "name": "Gondi",
-    "i": 59,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gondia,Balaghat,Bastar,Jagdalpur,Bijapur,Kondagaon,Narayanpur,Dantewada,Sukma,Kanker,Dhamtari,Rajnandgaon,Nagpur,Chandrapur,Gadchiroli,Adilabad,Nirmal,Khammam,Bhadrachalam,Warangal,Mulugu,Bhadradri,Kothagudem"
+    "name": "Gondi","i":4797,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Gondi","i": 59,"min": 5,"max": 11,"d": "nic-GH","m": 0,"b": "Gondia,Balaghat,Bastar,Jagdalpur,Bijapur,Kondagaon,Narayanpur,Dantewada,Sukma,Kanker,Dhamtari,Rajnandgaon,Nagpur,Chandrapur,Gadchiroli,Adilabad,Nirmal,Khammam,Bhadrachalam"
   },
   {
-    "name": "Kui-Kuvi Dravidian",
-    "i": 60,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Koraput,Rayagada,Phulbani,Kandhamal,Malkangiri,Nabarangpur,Bhawanipatna,Paralakhemundi,Baipariguda,Lamtaput,Digapahandi,Chhatrapur,Brahmapur,Kothapeta,Jeypore,Laxmipur,Muniguda,Bissamcuttack,Gudari,Gunupur"
+    "name": "Kui-Kuvi Dravidian","i":7023,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Kui-Kuvi Dravidian","i": 60,"min": 5,"max": 11,"d": "nic-GH","m": 0,"b": "Koraput,Rayagada,Phulbani,Kandhamal,Malkangiri,Nabarangpur,Bhawanipatna,Paralakhemundi,Baipariguda,Lamtaput,Digapahandi,Chhatrapur,Brahmapur,Kothapeta,Jeypore,Laxmipur,Muniguda,Bissamcuttack,Gudari"
   },
   {
     "name": "Koya-Konda-Manda-Pengo",
@@ -155,22 +137,10 @@ window.asiaNameBases = [
     "b": "Kothagudem,Bhadrachalam,Warangal,Mulugu,Aswaraopeta,Paloncha,Manuguru,Etapalli,Bijapur,Konta,Bhopalpatnam,Allapalli,Parvathipuram,Salur,Palakonda,Seethanagaram,Rampachodavaram,Chintoor,Khammam,Yellandu,Eturnagaram,Dummugudem,Kuntepalle,Lingapal,Madaram,Peruru,Kunavaram,Tadicherla"
   },
   {
-    "name": "Tungusic",
-    "i": 65,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Khabarovsk,Komsomolsk,Amursk,Solnechny,Nikolayevsk,Okhotsk,De-Kastri,Sovetskaya,Gavan,Vladivostok,Nakhodka,Magadan,Aldan,Blagoveshchensk,Birobidzhan,Tynda,Skovorodino,Belogorsk,Khandyga,Yakutsk,Tiksi"
+    "name": "Tungusic","i":9480,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Tungusic","i": 65,"min": 4,"max": 11,"d": "nic-GH","m": 0,"b": "Khabarovsk,Komsomolsk,Amursk,Solnechny,Nikolayevsk,Okhotsk,De-Kastri,Sovetskaya,Gavan,Vladivostok,Nakhodka,Magadan,Aldan,Blagoveshchensk,Birobidzhan,Tynda,Skovorodino,Belogorsk,Khandyga"
   },
   {
-    "name": "Shipibo-Conibo Amazonian",
-    "i": 84,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pucallpa,Yarinacocha,Contamana,Requena,Masisea,Iparia,Curimana,Boqueron,Calleria,Campo Verde,San Alejandro,Aguaytia,Tahuania,Puerto Esperanza,Iquitos,Nauta,Lagunas,Jeberos,Sarayacu"
+    "name": "Shipibo-Conibo Amazonian","i":3097,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Shipibo-Conibo Amazonian","i": 84,"min": 4,"max": 12,"d": "nic-GH","m": 0,"b": "Pucallpa,Yarinacocha,Contamana,Requena,Masisea,Iparia,Curimana,Boqueron,Calleria,Campo Verde,San Alejandro,Aguaytia,Tahuania,Puerto Esperanza,Iquitos,Nauta,Lagunas,Jeberos,Sarayacu""
   },
   {
     "name": "Iban",
@@ -182,13 +152,7 @@ window.asiaNameBases = [
     "b": "Kuching,Sibu,Miri,Bintulu,Sri Aman,Kapit,Mukah,Limbang,Lawas,Marudi,Sarikei,Betong,Serian,Bau,Lundu,Samarahan,Padawan,Asajaya,Simunjan,Sebuyau,Kanowit,Song,Belaga,Tatau,Dalat,Daro,Saratok,Selangau,Julau,Maradong,Pakan,Subis,Telang Usan,Engkilili,Batang Ai,Batang Lupar,Skrang,Lemanak,Saribas,Krian,Kalaka,Rajang,Batang Rajang,Batang Kayan,Ulu Ai,Ulu Skrang,Ulu Layar,Pantu,Maludam,Kabong,Roban,Debak,Sematan,Serikin,Tebedu,Ba Kelalan,Long Lama,Long Anap,Long Akah,Long Seridan,Long Moh,Long San,Long Busang,Long Jekitan,Nanga Skrang,Nanga Lemanak,Nanga Merirai,Nanga Entebai,Nanga Tada,Nanga Ngemah,Nanga Dap,Nanga Medamit,Nanga Kantu,Lubok Antu"
   },
   {
-    "name": "Brunei Malay",
-    "i": 99,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bandar Seri Begawan,Gadong,Berakas,Kiulap,Batu Satu,Sengkurong,Jerudong,Mentiri,Muara,Serasa,Tutong,Kuala Belait,Seria,Bangur,Temburong,Bangar,Labu,Manggis,Kampong Ayer,Telisai,Lumapas,Tanjong Nangka,Kota Batu"
+    "name": "Brunei Malay","i":8660,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Brunei Malay","i": 99,"min": 4,"max": 11,"d": "nic-GH","m": 0,"b": "Bandar Seri Begawan,Gadong,Berakas,Kiulap,Batu Satu,Sengkurong,Jerudong,Mentiri,Muara,Serasa,Tutong,Kuala Belait,Seria,Bangur,Temburong,Bangar,Labu,Manggis,Kampong Ayer"
   },
   {
     "name": "Standard Malay",
@@ -200,13 +164,7 @@ window.asiaNameBases = [
     "b": "Kuala Lumpur,Putrajaya,Shah Alam,Petaling Jaya,Subang Jaya,Johor Bahru,Melaka,Seremban,Ipoh,George Town,Alor Setar,Kota Bharu,Kuala Terengganu,Kuantan,Kuching,Kota Kinabalu,Bandar Seri Begawan,Singapore,Jakarta,Bogor,Depok,Tangerang,Bekasi,Bandung,Cirebon,Semarang,Yogyakarta,Surakarta,Surabaya,Malang,Denpasar,Medan,Palembang,Pekanbaru,Padang,Banda Aceh,Pontianak,Banjarmasin,Makassar,Manado,Balikpapan,Samarinda,Cyberjaya,Bandar Lampung,Jambi,Bengkulu"
   },
   {
-    "name": "Cocos Malay",
-    "i": 104,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "West Island,Home Island,Bantam Village,Kampong,Direction Island,Horsburgh Island,South Island,North Keeling Island,Pulu Cocos,Pulu Luar,Pulu Tikus,Pulu Gangsa,Pulu Panjang,Pulu Selma,Pulu Atas"
+    "name": "Cocos Malay","i":9821,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Cocos Malay","i": 104,"min": 4,"max": 11,"d": "nic-GH","m": 0,"b": "West Island,Home Island,Bantam Village,Kampong,Direction Island,Horsburgh Island,South Island,North Keeling Island,Pulu Cocos,Pulu Luar,Pulu Tikus,Pulu Gangsa,Pulu Panjang,Pulu Selma,Pulu Atas",West Island,Keelingham,Pulu Maria,North Keeling"
   },
   {
     "name": "Kupang Malay",
@@ -263,13 +221,7 @@ window.asiaNameBases = [
     "b": "Serui,Yapen,Wondama,Biak,Numfor,Nabire,Waropen,Ransiki,Wasior,Ansus,Jayapura,Sorong,Manokwari,Timika,Fakfak,Merauke,Sentani,Wamena,Kaimana,Teminabuan,Kumurkek,Arona,Bintuni,Genyem,Sarmi,Oksibil,Tanah Merah,Agats,Enarotali,Sugapa,Karubaga,Burmeso,Sumohai,Kobakma,Tiom,Kenyam,Elelim,Mulia,Ilaga,Waisai,Anggi,Maybrat,Ayamaru,Aitinyo,Inanwatan,Kokas,Babo,Menawi,Saubeba,Ambai"
   },
   {
-    "name": "Sri Lankan Malay",
-    "i": 114,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Colombo,Kandy,Galle,Matara,Negombo,Kalutara,Ratnapura,Batticaloa,Trincomalee,Jaffna,Hambantota,Anuradhapura,Polonnaruwa,Badulla,Kurunegala,Puttalam"
+    "name": "Sri Lankan Malay","i":4205,"min":4,"max":10,"d":"nic-GH","m":0,"b":""name": "Sri Lankan Malay","i": 114,"min": 4,"max": 11,"d": "nic-GH","m": 0,"b": "Colombo,Kandy,Galle,Matara,Negombo,Kalutara,Ratnapura,Batticaloa,Trincomalee,Jaffna,Hambantota,Anuradhapura,Polonnaruwa,Badulla,Kurunegala,Puttalam",Colombo,Kalmunai,Puttalam"
   },
   {
     "name": "Sula Malay",

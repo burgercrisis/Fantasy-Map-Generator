@@ -137,22 +137,10 @@ window.africaNameBases = [
     "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
   },
   {
-    "name": "Taa Click",
-    "i": 41,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs"
+    "name": "Taa Click","i":41,"min":4,"max":10,"d":"lnrtkxgms","m":0,"b":""name": "Taa Click","i": 41,"min": 3,"max": 9,"d": "lnrtkxgms","m": 0,"b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs",Rietfontein,Upington,Kakamas"
   },
   {
-    "name": "Nama Click",
-    "i": 43,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,Grünau,Holoog,Koes,Koeras,Gruenau,Kub"
+    "name": "Nama Click","i":43,"min":4,"max":10,"d":"lnrtkxgms","m":0,"b":""name": "Nama Click","i": 43,"min": 3,"max": 9,"d": "lnrtkxgms","m": 0,"b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,Grünau,Holoog,Koes,Koeras,Gruenau,Kub",Keetmanshoop,Lüderitz,Warmbad,Kuboes,Springbok,Klein-Aub,Seeis,Maltahöhe"
   },
   {
     "name": "Ju/'hoan Click",
@@ -164,22 +152,10 @@ window.africaNameBases = [
     "b": "Ghanzi,Dekar,Kang,Tshane,Nata,Maun,Shakawe,Kasane,Gumare,Sebina,Matsiloje,Mogoditshane,Namagari,bokakwa,namapo,Tsumkwe,Rundu,Epukiro,Omatako,Nyae Nyae,Dobe,Okahandja,Otjiwarongo,Oshikango,Ondangwa,Oshakati,Ruacaca,Kondjaku,Nkurenkuru,Katwitwi,Kahenge,Andara,Mandume,Okandjatu,Samudupe,Tjaka,Steinhausen,Kornberg,Otjimbingwe,Karibib,Omaruru,Usakos,Arandis,Swakopmund,Walvis Bay,Henties Bay,Ongwediva"
   },
   {
-    "name": "Hadza Click",
-    "i": 48,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Yumbi,yanga,nega,miko,hadza,kila,tesha,dooma,salama,Mangola,Endamaghang,Yaeda Chini,Kisimangeda,Gorofani,Barazani,Dunduhina"
+    "name": "Hadza Click","i":48,"min":4,"max":10,"d":"lnrtkxgms","m":0,"b":""name": "Hadza Click","i": 48,"min": 3,"max": 9,"d": "lnrtkxgms","m": 0,"b": "Yumbi,yanga,nega,miko,hadza,kila,tesha,dooma,salama,Mangola,Endamaghang,Yaeda Chini,Kisimangeda,Gorofani,Barazani,Dunduhina",Mwanza,Kansy,Mto wa Mbu,Eyasi,Mgoro,Hanang,Yaida,Mkalama"
   },
   {
-    "name": "Sandawe Click",
-    "i": 49,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Pahi,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela,Bumbuta,Mauno,Potea,Salare,Haubi,Sambwa"
+    "name": "Sandawe Click","i":49,"min":4,"max":10,"d":"lnrtkxgms","m":0,"b":""name": "Sandawe Click","i": 49,"min": 3,"max": 9,"d": "lnrtkxgms","m": 0,"b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Pahi,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela,Bumbuta,Mauno,Potea,Salare,Haubi,Sambwa",Kibaha,Kisongo,Kilosa,Mpwapwa,Ifakara,Mtemi,Rungwa"
   },
   {
     "name": "Bemba-Bembe-Fwe",
@@ -209,31 +185,13 @@ window.africaNameBases = [
     "b": "Maroua,Mokolo,Mora,Kousseri,Yagoua,Garoua,Guider,Kaele,Pouss,Bogo,Fotokol,Tokombere,Hina,Bourrha,Koza,Zama,Kerawa,Gwoza,Mubi,Madagali,Bama,Banki,Mozogo,Rhumsiki,Mindif,Moulvoudaye,Gulak,Dapchi,Biu"
   },
   {
-    "name": "Warao Delta",
-    "i": 85,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tucupita,Barrancas,Pedernales,Isla Tigre,Isla Curiapo,Isla Amacuro,Santa Catalina,San Jose de Amacuro,San Felix,Ciudad Guayana,Puerto Ordaz,Guasipati,El Dorado,Temblador,Soledad,La Horqueta,Rio Grande,Boca de Serpiente,Delta Amacuro"
+    "name": "Warao Delta","i":85,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Warao,Winikina,Arature,Moriche,Guara,Barrancas,Tucupita,Mabaruma,Wakaya,Korok,Pedernales,Manco,Arauca,Caroni,Barima,Amacuro,Tumeremo,Kumaracap,Guayabo,Siparia,Uruana,Guri,San Rafael,Punta Pecho"
   },
   {
-    "name": "Mandarin Global",
-    "i": 91,
-    "min": 5,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chongqing,Tianjin,Chengdu,Wuhan,Nanjing,Hangzhou,Xi'an,Harbin,Shenyang,Dalian,Qingdao,Jinan,Zhengzhou,Changsha,Nanchang,Fuzhou"
+    "name": "Mandarin Global","i":91,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Beijing,Shanghai,Guangzhou,Shenzhen,Chongqing,Tianjin,Wuhan,Chengdu,Xian,Nanjing,Hangzhou,Shenyang,Harbin,Suzhou,Zhengzhou,Jinan,Qingdao,Dalian,Foshan,Ningbo,Shijiazhuang,Tangshan,Handan,Xingtai,Baoding"
   },
   {
-    "name": "Arabic Global",
-    "i": 92,
-    "min": 4,
-    "max": 9,
-    "d": "ae",
-    "m": 0.2,
-    "b": "Cairo,Alexandria,Riyadh,Jeddah,Dubai,Abu Dhabi,Doha,Amman,Damascus,Aleppo,Baghdad,Basra,Khartoum,Casablanca,Algiers,Tunis,Tripoli,Muscat,Sanaa,Sharjah"
+    "name": "Arabic Global","i":92,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Cairo,Baghdad,Damascus,Riyadh,Amman,Beirut,Jerusalem,Tripoli,Algiers,Rabat,Khartoum,Tunis,Sanaa,Muscat,Doha,Kuwait City,Manama,Abu Dhabi,Dubai,Doha,Manama,Riyadh,Algiers"
   },
   {
     "name": "Sarawakian Malay",
@@ -272,13 +230,7 @@ window.africaNameBases = [
     "b": "Gua Musang,Jeli,Kuala Krai,Gerik,Pos Blau,Pos Simpor,Pos Tohoi,Sungai Perak,Grik,Baling,Tanah Rata,Pos Kemar"
   },
   {
-    "name": "Berta-Besme",
-    "i": 137,
-    "min": 5,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Asosa,Kurmuk,Komosha,Bambasi,Menge,Tongo,Gizan,SudanKurmuk,Rosaires,Damazin,Senar,Kosti,Ad-Damazin,Gadaref,Qallabat,Assosa,Metekel"
+    "name": "Berta-Besme","i":137,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Asosa,Mendi,Pawe,Tullu,Gimbi,Begi,Wambara,Yubdo,Dabat,Deghabur,Dima,Gelegu,Bula,Guliso,Chagni,Sirba,Abbay,Belbe,Arjo,Gida,Sire"
   },
   {
     "name": "North Sarawakan",
@@ -290,13 +242,7 @@ window.africaNameBases = [
     "b": "Miri,Bekenu,Niah,Marudi,Long Lama,Baram,Limbang,Lawas,Ba Kelalan,Long Semadoh,Bintulu,Samalaju,Tatau,Kuching"
   },
   {
-    "name": "Sabahan",
-    "i": 152,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kota Kinabalu,Penampang,Putatan,Papar,Tuaran,Kota Belud,Kudat,Kota Marudu,Ranau,Sandakan,Lahad Datu,Tawau,Semporna,Keningau,Tenom"
+    "name": "Sabahan","i":152,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Kota Kinabalu,Sandakan,Tawau,Keningau,Kota Belud,Lahad Datu,Semporna,Kunak,Pap,Beaufort,Keningau,Kota Marudu,Pitas,Kudat,Weston,Tenom,Tuaran,Paitan,Kota Belud,Pulau Gaya"
   },
   {
     "name": "Makassar Branch",
@@ -326,13 +272,7 @@ window.africaNameBases = [
     "b": "Kuala Lumpur,Petaling Jaya,Subang Jaya,Shah Alam,Klang,George Town,Butterworth,Ipoh,Seremban,Melaka,Johor Bahru,Kuching,Kota Kinabalu,Alor Setar,Kuala Terengganu,Batu Pahat,Muar,Kluang,Kulim,Sungai Petani,Taiping,Teluk Intan,Bentong,Kuantan,Temerloh,Miri,Sibu"
   },
   {
-    "name": "Singaporean Mandarin",
-    "i": 175,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Singapore,Chinatown,Toa Payoh,Bukit Timah,Bishan,Ang Mo Kio,Tampines,Bedok,Jurong,Woodlands,Yishun,Serangoon,Hougang,Punggol,Sengkang"
+    "name": "Singaporean Mandarin","i":175,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Singapore,Johor Bahru,Kuala Lumpur,Penang,Ipoh,Malacca,Seremban,Kuching,Kota Kinabalu,Bandar Seri Begawan,George Town,Alor Setar,Kangar,Kuantan,Kota Bharu"
   },
   {
     "name": "Juk (Bahnaric)",
