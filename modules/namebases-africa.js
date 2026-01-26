@@ -10,68 +10,68 @@ window.africaNameBases = [
     "m": 0,
     "b": "Seville,Cordoba,Granada,Toledo,Malaga,Valencia,Murcia,Almeria,Zaragoza,Jerez"
   },
-  {
+{
     "name": "Ancient Egyptian",
-    "i": 10,
+    "i": 1,
     "min": 4,
     "max": 9,
     "d": "ae",
     "m": 0,
     "b": "Cairo,Luxor,Aswan,Alexandria,Giza,Saqqara,Memphis,Thebes,Heliopolis,Edfu"
   },
-  {
+{
     "name": "Ancient North Arabian",
-    "i": 10,
+    "i": 2,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
     "b": "Hegra,Dedan,Tayma,Umm al-Dabadib,Khaybar,Jeddah,Medina,Tabuk,Al-Ula,Wadi al-Qura"
   },
-  {
+{
     "name": "Bimbashi Arabic",
-    "i": 10,
+    "i": 3,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
     "b": "Cairo,Alexandria,Port Said,Suez,Ismailia,Giza,Shubra,Mansoura,Zagazig,Asyut"
   },
-  {
+{
     "name": "Bongor Arabic",
-    "i": 10,
+    "i": 4,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
     "b": "Bongor,N Djamena,Moundou,Sarh,Abeche,Doba,Lai,Bodo,Koumra,Goz Beida"
   },
-  {
+{
     "name": "Maridi Arabic",
-    "i": 10,
+    "i": 5,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
     "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma,Wau"
   },
-  {
+{
     "name": "Turku Arabic",
-    "i": 10,
+    "i": 6,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
     "b": "Khartoum,Omdurman,Port Sudan,Kassala,El Obeid,Nyala,Dongola,Atbara,Kosti,Wad Medani"
   },
-  {
+{
     "name": "Juba Arabic",
-    "i": 10,
+    "i": 7,
     "min": 4,
     "max": 10,
     "d": "ae",
     "m": 0,
-    "b": "Juba,Wau,Malakal,Nimule,Bor,Rumbek,Yei,Abyei,Kajo Keji,Tambura"
+    "b": "Juba,Malakal,Wau,Aweil,Bentiu,Yei,Malakal,Kadugli,Torit,Nyala"
   },
   {
     "name": "Berber",
@@ -152,7 +152,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,GrÃ¼nau,Holoog,Koes,Koeras,Gruenau,Kub"
+    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,Grünau,Holoog,Koes,Koeras,Gruenau,Kub"
   },
   {
     "name": "Ju/'hoan Click",
@@ -575,7 +575,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,ChÃ¢teau-Salins,Mo-Selle,Saulnois"
+    "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,Château-Salins,Mo-Selle,Saulnois"
   },
   {
     "name": "Benasquese",
@@ -584,7 +584,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "BenasquÃ©,Fraga,Barbastro,BinÃ©far,BoltaÃ±a,MonzÃ³n"
+    "b": "Benasqué,Fraga,Barbastro,Binéfar,Boltaña,Monzón"
   },
   {
     "name": "Bauchi Chadic",
@@ -638,7 +638,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "he-ES",
     "m": 0,
-    "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,MonzÃ³n,Teruel,AlcaÃ±iz,Binefar"
+    "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,Monzón,Teruel,Alcañiz,Binefar"
   },
   {
     "name": "Judeo-Catalan",
@@ -692,16 +692,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "he-PT",
     "m": 0,
-    "b": "Porto,Lisbon,Faro,Braga,Coimbra,Ã‰vora,Beja,Funchal"
-  },
-  {
-    "name": "Judeo-ProvenÃ§al",
-    "i": 462,
-    "min": 4,
-    "max": 11,
-    "d": "he-FR",
-    "m": 0,
-    "b": "Avignon,Arles,Marseille,Carpentras,Aix-en-Provence,Orange,NÃ®mes,Carry-le-Rouet,Martigues,Salon-de-Provence,Tarascon,Cavaillon"
+    "b": "Porto,Lisbon,Faro,Braga,Coimbra,Évora,Beja,Funchal"
   },
   {
     "name": "Judeo-Spanish",
@@ -710,7 +701,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "he-ES",
     "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,MÃ¡laga,Tenerife,Bilbao,LÃ©rida,CÃ¡diz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
+    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,Málaga,Tenerife,Bilbao,Lérida,Cádiz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
   },
   {
     "name": "Forro São Tomé",
@@ -746,16 +737,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "ro-MD",
     "m": 0,
-    "b": "ChiÈ™inÄƒu,BÄƒlÈ›i,Tiraspol,Bender,CÄƒlÄƒraÈ™i,Orhei,Soroca,Ungheni,Comrat,EdineÈ›,HÃ®nceÈ™ti,CuÈ™eni"
-  },
-  {
-    "name": "MonÃ©gasque",
-    "i": 494,
-    "min": 4,
-    "max": 11,
-    "d": "ro-MC",
-    "m": 0,
-    "b": "Monaco,Monte Carlo,La Condamine,Fontvieille,Moneghetti,Larvotto,La Rousse,Saint Roman,Jardin Exotique,Les Moulins,Spelugues,Port Hercule"
+    "b": "Chișinău,Bălți,Tiraspol,Bender,Călărași,Orhei,Soroca,Ungheni,Comrat,Edineț,Hîncești,Cușeni"
   },
   {
     "name": "Mozarabic",
@@ -764,7 +746,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "CÃ³rdoba,Granada,MÃ¡laga,Sevilla,Toledo,Zaragoza,LÃ©rida,Burgos,Zamora,Soria,Ãvila,Salamanca"
+    "b": "Córdoba,Granada,Málaga,Sevilla,Toledo,Zaragoza,Lérida,Burgos,Zamora,Soria,Ávila,Salamanca"
   },
   {
     "name": "Berta",
@@ -827,7 +809,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-CM",
     "m": 0,
-    "b": "Yokadouma,Moloundou,LomiÃ©,Messok,Mintom,Ngoyla,Djoum,SangmÃ©lima,Batouri"
+    "b": "Yokadouma,Moloundou,Lomié,Messok,Mintom,Ngoyla,Djoum,Sangmélima,Batouri"
   },
   {
     "name": "Sucite",
@@ -1025,7 +1007,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "cdc-TD",
     "m": 0,
-    "b": "N'Djamena,AbÃ©chÃ©,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
+    "b": "N'Djamena,Abéché,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
   },
   {
     "name": "N!ung Click",
@@ -1412,7 +1394,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
+    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Mörön,Nalaikh,Bayankhongor,Ölgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
   },
   {
     "name": "El Molo",
@@ -1457,7 +1439,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bassari,SÃ©dhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
+    "b": "Bassari,Sédhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
   },
   {
     "name": "Bayat Oirat",
@@ -1565,7 +1547,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'DÃ©lÃ©,Kaga Bandoro,Sibut,Alindao"
+    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'Délé,Kaga Bandoro,Sibut,Alindao"
   },
   {
     "name": "Sinyar",
@@ -1673,7 +1655,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Central Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssÃ©,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,AbÃ©chÃ©,N'Djamena"
+    "b": "Central Banda,CAR,Bangassou,Bouar,M'Baïssé,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,Abéché,N'Djamena"
   },
   {
     "name": "Chewa",
@@ -1862,7 +1844,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Matmata,Douz,Tataouine,Medenine,GabÃ¨s,Remada,Tunisia,Sahara Desert,North Africa"
+    "b": "Matmata,Douz,Tataouine,Medenine,Gabès,Remada,Tunisia,Sahara Desert,North Africa"
   },
   {
     "name": "Sheliff Basin Berber",
@@ -1871,7 +1853,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,TÃ©nÃ¨s,Algeria,Tell Atlas,North Africa"
+    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,Ténès,Algeria,Tell Atlas,North Africa"
   },
   {
     "name": "South Oran-Figuig Berber",
@@ -1880,7 +1862,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Figuig,BÃ©char,BÃ©ni AbbÃ¨s,NaÃ¢ma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
+    "b": "Figuig,Béchar,Béni Abbès,Naâma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
   },
   {
     "name": "Tawellemmet",
@@ -2015,7 +1997,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Douala,YaoundÃ©,Bafoussam,Kribi,EdÃ©a,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
+    "b": "Douala,Yaoundé,Bafoussam,Kribi,Edéa,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
   },
   {
     "name": "Fang Equatorial Guinea and Gabon",
@@ -2312,7 +2294,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
+    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur Massène,Boutilimit,Aleg,Boghé,Kaédi,Selibaby,Maghama,M'Bagne"
   },
   {
     "name": "Vengo",
@@ -2465,7 +2447,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva"
+    "b": "Tartu,Valga,Võru,Põlva,Jõgeva,Viljandi,Pärnu,Rakvere,Kuressaare,Narva"
   },
   {
     "name": "Malij Jugan",
@@ -2591,7 +2573,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kaedi,Boghe,Selibaby,Matam,Podor,Thiadiaye,Tamba,LabÃ©,Pita,Mamou,LÃ©louma,TouguÃ©,Koundara,Gaoual,Koulikoro,Kayes,Segou,Diema,Nioro,Bakel"
+    "b": "Kaedi,Boghe,Selibaby,Matam,Podor,Thiadiaye,Tamba,Labé,Pita,Mamou,Lélouma,Tougué,Koundara,Gaoual,Koulikoro,Kayes,Segou,Diema,Nioro,Bakel"
   },
   {
     "name": "Wolof",
@@ -2609,7 +2591,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bamako,SÃ©gou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,DjennÃ©,Bankass,Bandiagara,TÃ©nenkou,Niono"
+    "b": "Bamako,Ségou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,Djenné,Bankass,Bandiagara,Ténenkou,Niono"
   },
   {
     "name": "Mandinka",
@@ -2627,7 +2609,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Nioro,Diema,Kayes,Ambidedi,Gourma,Rharous,Diafounou,BafoulabÃ©,Medine,Mourdiah,Didieni,Satadougou,Goumbou,Guidimakha,SÃ©libaby,Ould-YengÃ©,Tachott,Bakel,Matam,Ourossogui"
+    "b": "Nioro,Diema,Kayes,Ambidedi,Gourma,Rharous,Diafounou,Bafoulabé,Medine,Mourdiah,Didieni,Satadougou,Goumbou,Guidimakha,Sélibaby,Ould-Yengé,Tachott,Bakel,Matam,Ourossogui"
   },
   {
     "name": "Ga",
@@ -2645,7 +2627,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ouagadougou,Kaya,Koudougou,BoussÃ©,ZiniarÃ©,Ourgou-ManÃ©ga,Zorgho,Bogodogo,Tenkodogo,KoupÃ©la,ZorghoTown,Po,Leo,Boromo,Sapouy,Garango,Manga,Ouahigouya,KayaTown,BoussÃ©Town"
+    "b": "Ouagadougou,Kaya,Koudougou,Boussé,Ziniaré,Ourgou-Manéga,Zorgho,Bogodogo,Tenkodogo,Koupéla,ZorghoTown,Po,Leo,Boromo,Sapouy,Garango,Manga,Ouahigouya,KayaTown,BousséTown"
   },
   {
     "name": "Limba",
@@ -2783,15 +2765,6 @@ window.africaNameBases = [
     "b": "Temnikov,Insar,Krasnoslobodsk,Chamzinka,Zubova Polyana,Potma,Atyuryevo,Tengushevo,Staroye Gorodishche,Chamzinka-2,Zubovo,Spassk,Shiryaevo,Bolshie Berezniki,Narovchat,Ichalki,Aturevo,Kadoshkino,Bolshoye Nagatkino,Kamchatka (Moksha village)"
   },
   {
-    "name": "Bahing/Bayung (dedicated)",
-    "i": 2701,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa"
-  },
-  {
     "name": "Aku",
     "i": 2719,
     "min": 4,
@@ -2799,15 +2772,6 @@ window.africaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Banjul,Serrekunda,Brikama,Bakau,Farafenni,Lamin,Sukuta,Gunjur,Soma,Sierra Leone,Freetown,Waterloo"
-  },
-  {
-    "name": "Montenegrin (dedicated)",
-    "i": 2722,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Podgorica,Cetinje,Budva,Kotor,Nikšić,Herceg Novi,Bar,Tivat,Ulcinj,Pljevlja,Bijelo Polje,Berane,Rožaje,Kolašin,Žabljak,Mojkovac,Plav,Andrijevica,Šavnik,Plužine,Danilovgrad,Gusinje,Petnjica,Tuzi"
   },
   {
     "name": "Hamer",

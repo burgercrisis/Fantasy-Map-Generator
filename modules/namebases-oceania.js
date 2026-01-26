@@ -62,7 +62,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guambiano,PopayÃ¡n,Silvia,PiendamÃ³,TotorÃ³,Mojarras,InzÃ¡,El Tambo,JambalÃ³,PuracÃ©,Cauca,Colombia"
+    "b": "Guambiano,Popayán,Silvia,Piendamó,Totoró,Mojarras,Inzá,El Tambo,Jambaló,Puracé,Cauca,Colombia"
   },
   {
     "name": "Hiri Motu",
@@ -135,15 +135,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Shimla,Solan,Kasauli,Dharampur,Parwanoo,Kandaghat,Nahan,Paonta Sahib,Chamba,Dalhousie,Kangra,Dharamshala,Palampur,Jogindernagar,Kullu,Manali,Mandi,Sundernagar,Bilaspur,Hamirpur,Una,Rampur,Baijnath,Keylong,Reckong Peo,Kalpa,Sangla,Theog,Rohru,Bhuntar,Banjar"
-  },
-  {
-    "name": "Ao",
-    "i": 2477,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mokokchung,Chuchuyimlang,Changtongya,Ungma,Longkhum,Alongkima,Tuli,Khensa,Longsa,Metsuben,Aliba,Chungtia,Kumlong,Saringyim,Aoizu,Changki,Imsong,Tzudir,Kinunger,Yimyu"
   },
   {
     "name": "Maori",

@@ -1635,13 +1635,13 @@
  "b": "Densar,Kisangani,Bukavu,DR Congo,Central Africa,Lake Kivu"
  },
  {
- "name": "Sened",
+"name": "Sened",
  "i": 1686,
  "min": 4,
  "max": 11,
- "d": "nic-GH",
+ "d": "ber-TN",
  "m": 0,
- "b": "Sened,Sened Island,Mediterranean Sea,Tunisia"
+ "b": "Sened,Gafsa,Tozeur,Kebili,Tamerza,Mides,Chebika,Nefta,El Hamma,Metlaoui,Redeyef,Bir el Hafey,Maknassy,Sidi Bouzid"
  },
  {
  "name": "Dghwede language",
@@ -1731,7 +1731,7 @@
  "max": 11,
  "d": "nic-GH",
  "m": 0,
- "b": "Ekari,Papua New Guinea,Enga Province,Western Highlands,Oceania"
+ "b": "Enarotali,Sugapa,Ilaga,Paniai,Deiyai,Dogiyai,Moanemani,Waghete,Obano,Bibida,Tigi,Kaimana,Nabire,Timika,Wamena"
  },
  {
  "name": "Enga",
@@ -2082,7 +2082,7 @@
  "max": 11,
  "d": "nic-GH",
  "m": 0,
- "b": "Giiwo,Bauchi,Plateau State,Nigeria,West Africa"
+ "b": "Toro,Bauchi,Jos,Pankshin,Shendam,Langtang,Kanke,Mangu,Bokkos,Barkin Ladi,Riyom,Bassa,Wase,Kanam,Mikang"
  },
  {
  "name": "Gimi",
@@ -2490,24 +2490,6 @@
  "b": "Basco,Itbayat,Ivana,Mahatao,Uyugan,Sabtang,Batan,Diogo,Siayan,Mabudis,Ibuhos,Dequey"
  },
  {
- "name": "Proto-Georgian-Zan",
- "i": 2080,
- "min": 4,
- "max": 11,
- "d": "nic-GH",
- "m": 0,
- "b": "Colchis,Iberia,Phasis,Dioscurias,Gyenos,Kotatisi,Archaeopolis,Petra,Sebastopolis,Pityus,Apsaros,Rhizaion"
- },
- {
- "name": "Georgian-Zan",
- "i": 2084,
- "min": 4,
- "max": 11,
- "d": "nic-GH",
- "m": 0,
- "b": "Zugdidi,Senaki,Poti,Martvili,Khobi,Tsalenjikha,Chkhorotsqu,Abasha,Anaklia,Gali,Ochamchire,Tkvarcheli"
- },
- {
  "name": "Setlokwa",
  "i": 2094,
  "min": 4,
@@ -2904,15 +2886,6 @@
  "b": "Port Moresby,Hanuabada,Kila Kila,Baruni,Tatana,Pari,Vabukori,Kilakila,Korobosea,Gerehu,Waigani,Boroko"
  },
  {
- "name": "Kombai-Wanggom",
- "i": 2254,
- "min": 4,
- "max": 11,
- "d": "nic-GH",
- "m": 0,
- "b": "Tanah Merah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Asmat"
- },
- {
  "name": "Komolom",
  "i": 2256,
  "min": 4,
@@ -3066,24 +3039,6 @@
  "b": "-Mosta,Victoria,Nadur,Qormi,Åebbua¡,Xaga§ra,Safi,Kirkop"
  },
  {
- "name": "Afroasiatic Family",
- "i": 2363,
- "min": 4,
- "max": 11,
- "d": "nic-GH",
- "m": 0,
- "b": "Cairo,Baghdad,Damascus,Jeddah,Riyadh,Sanaa,Khartoum,Tripoli"
- },
- {
- "name": "Kuril Dialects",
- "i": 2381,
- "min": 4,
- "max": 11,
- "d": "nic-GH",
- "m": 0,
- "b": "Sapporo,Obihiro,Kushiro,Hakodate,Asahikawa,Tomakomai,Chitose,Kitami,Muroran,Iwamizawa"
- },
- {
  "name": "L Ngua Geral Paulista",
  "i": 2394,
  "min": 4,
@@ -3108,7 +3063,7 @@
  "max": 11,
  "d": "nic-GH",
  "m": 0,
- "b": "Mandalay,Monywa,Shwebo,Magway,Meiktila"
+ "b": "Tinombo,Moutong,Parigi,Tomini,Ampibabo,Toribulu,Balinggi,Sidoan,Ogotua,Kasimbar,Palasa,Dampelas,Balaesang,Damsol,Sausu"
  },
  {
  "name": "Lembena",
@@ -3318,7 +3273,7 @@
  "b": "Atafu,Fakaofo,Nukunonu,Fale,Tokelau,Atafu Village,Fakaofo Village,Nukunonu Village,Fenuafala,Fale islet"
  },
  {
- "name": "Nar-Phu (dedicated)",
+ "name": "Nar-Phu",
  "i": 2686,
  "min": 4,
  "max": 11,
@@ -3327,196 +3282,7 @@
  "b": "Manang,Nar,Phu,Chame,Pisang,Braga,Ngawal,Ghyaru,Humde,Khangsar,Tilicho,Thorong,Muktinath,Kagbeni,Jomsom,Marpha,Tukuche,Larjung,Lete,Ghasa,Dana,Tatopani,Beni,Baglung,Pokhara,Gorkha,Lamjung,Syangja,Parbat,Myagdi"
  },
  {
- "name": "Amira (dedicated)",
- "i": 2687,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Foumban,Bamenda,Bafoussam,Kumbo,Wum,Nkambe,Fundong,Bafut,Mankon,Bali,Batibo,Mbengwi,Njinikom,Ndu,Jakiri,Oku,Sabga,Santa,Pinyin,Bambili,Bambui,Kedjom,Balikumbat,Bafanji,Babungo"
- },
- {
- "name": "Babanki (dedicated)",
- "i": 2688,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Babanki,Kedjom,Kekukesim,Finge,Big Babanki,Small Babanki,Bamenda,Ndop,Jakiri,Kumbo,Nkambe,Sabga,Santa,Bambui,Bambili,Bafut,Mankon,Bali,Ndu,Oku,Wum,Fundong,Mbengwi,Njinikom,Batibo"
- },
- {
- "name": "Baca (dedicated)",
- "i": 2689,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Kinshasa,Mbandaka,Lisala,Bumba,Basoko,Kisangani,Isangi,Yangambi,Buta,Aketi,Gemena,Libenge,Zongo,Gbadolite,Businga,Bosobolo,Yakoma,Bangui,Mobaye,Bimbo,Begoua,Damara,Sibut,Kaga-Bandoro"
- },
- {
- "name": "Bangala (dedicated)",
- "i": 2690,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Mbandaka,Bikoro,Ingende,Boende,Djolu,Befale,Basankusu,Bolomba,Lukolela,Makanza,Bomongo,Kungu,Libenge,Businga,Gemena,Lisala,Bumba,Basoko,Yangambi,Kisangani,Isangi,Aketi,Buta,Bondo,Ango"
- },
- {
- "name": "Bangi (dedicated)",
- "i": 2691,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Brazzaville,Kinshasa,Mbandaka,Lukolela,Makanza,Bomongo,Bikoro,Ingende,Boende,Djolu,Befale,Basankusu,Bolomba,Kungu,Libenge,Businga,Gemena,Lisala,Bumba,Impfondo,Dongou,Epena,Betou,Liranga"
- },
- {
- "name": "Bangolan (dedicated)",
- "i": 2692,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Bangolan,Ndop,Bamessing,Bamunka,Baba,Babessi,Babungo,Balikumbat,Bafanji,Bambalang,Bamenda,Kumbo,Jakiri,Nkambe,Wum,Fundong,Mbengwi,Njinikom,Batibo,Bafut,Mankon,Bali,Santa,Sabga,Bambui"
- },
- {
- "name": "Bomboli-Bozaba (dedicated)",
- "i": 2693,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Mbandaka,Bikoro,Ingende,Boende,Djolu,Befale,Basankusu,Bolomba,Lukolela,Makanza,Bomongo,Kungu,Bolobo,Mushie,Kutu,Nioki,Oshwe,Dekese,Ilebo,Idiofa,Bulungu,Kikwit,Bandundu,Kenge,Kasongo-Lunda"
- },
- {
- "name": "Bomboma (dedicated)",
- "i": 2694,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Basankusu,Bolomba,Djolu,Befale,Boende,Ingende,Bikoro,Mbandaka,Lukolela,Makanza,Bomongo,Kungu,Gemena,Libenge,Businga,Lisala,Bumba,Basoko,Yangambi,Kisangani,Isangi,Aketi,Buta,Bondo,Ango"
- },
- {
- "name": "Boze (dedicated)",
- "i": 2695,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Mopti,Djenne,Sevare,Bandiagara,Koro,Bankass,Douentza,Tenenkou,Youwarou,Sofara,Sio,Fatoma,Soufroulaye,Konna,Bore,Diafarabe,Bozo,Sarafere,Niafunke,Dire,Goundam,Timbuktu,Gao,Ansongo"
- },
- {
- "name": "Bozo (dedicated)",
- "i": 2696,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Mopti,Djenne,Sevare,Bandiagara,Koro,Bankass,Douentza,Tenenkou,Youwarou,Sofara,Sio,Fatoma,Soufroulaye,Konna,Bore,Diafarabe,Sarafere,Niafunke,Dire,Goundam,Timbuktu,Segou,Markala,Niono,Diabaly"
- },
- {
- "name": "Buu (dedicated)",
- "i": 2697,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Jos,Bauchi,Gombe,Yola,Maiduguri,Damaturu,Potiskum,Azare,Misau,Katagum,Jama'are,Ningi,Toro,Bogoro,Tafawa Balewa,Dass,Kirfi,Alkaleri,Ganjuwa,Itas,Warji,Zaki,Gamawa,Shira,Dambam"
- },
- {
- "name": "Dagaare (dedicated)",
- "i": 2698,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie"
- },
- {
- "name": "Athpahariya (dedicated)",
- "i": 2699,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Dhankuta,Mahalaxmi,Pakhribas,Sangurigadhi,Chaubise,Shahidbhumi,Chhathar,Kantipur,Belhara"
- },
- {
- "name": "Bantawa (dedicated)",
- "i": 2700,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Bhojpur,Darjeeling,Gangtok,Sikkim,Kalimpong,Mangan,Diktel,Rhenock,Kurseong"
- },
- {
- "name": "Elfdalian (dedicated)",
- "i": 2702,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "alvdalen,Idre,Särna,Västermyckeläng,Storvätteshågna,Fulufjället,Töfsingdalen,Rättvik,Brunnsberg,Evertsberg,Klitten,Åsen,Väsa"
- },
- {
- "name": "Manx (dedicated)",
- "i": 2708,
- "min": 4,
- "max": 11,
- "d": "gv-IM",
- "m": 0,
- "b": "Douglas,Peel,Ramsey,Castletown,Port Erin,Laxey,Onchan,Port St Mary,Kirk Michael,Ballasalla,Sulby,Ballaugh,Andreas,Bride,Jurby,Maughold,Lonan,Santon,Malew,Arbory,Rushen,Patrick,German,Marown,Braddan,Crosby,Union Mills,Glen Vine,Foxdale,St Johns"
- },
- {
- "name": "Rusyn (dedicated)",
- "i": 2712,
- "min": 4,
- "max": 11,
- "d": "rue-UA",
- "m": 0,
- "b": "Uzhhorod,Mukachevo,Khust,Berehove,Vynohradiv,Irshava,Svaliava,Rakhiv,Tiachiv,Perechyn,Volovets,Mizhgirya,Velykyi Bereznyi,Chop,Korolevo,Seredne,Dubove,Bushtyno,Yasinia,Kolochava,Synevyr,Pylypets,Mizhhirya,Svalyava,Poliana,Lumshory,Nevytske,Solotvyno,Kosiv,Verkhovyna"
- },
- {
- "name": "Belarusian (dedicated)",
- "i": 2713,
- "min": 4,
- "max": 11,
- "d": "be-BY",
- "m": 0,
- "b": "Minsk,Homel,Mahiliou,Vitebsk,Hrodna,Brest,Babruysk,Baranavichy,Pinsk,Orsha,Mazyr,Salihorsk,Navahrudak,Lida,Maladzyechna,Polatsk,Zhlobin,Svietlahorsk,Rechytsa,Kalinkavichy,Slutsk,Kobryn,Vileyka,Bykhaw,Horki,Dzyarzhynsk,Asipovichy,Rahachou,Navapolatsk,Hlybokaye"
- },
- {
- "name": "Slovene (dedicated)",
- "i": 2726,
- "min": 4,
- "max": 11,
- "d": "sl-SI",
- "m": 0,
- "b": "Ljubljana,Maribor,Celje,Kranj,Koper,Velenje,Novo Mesto,Ptuj,Trbovlje,Kamnik,Jesenice,Nova Gorica,Domzale,Skofja Loka,Murska Sobota,Postojna,Izola,Ajdovscina,Logatec,Slovenj Gradec,Ravne na Koroskem,Krsko,Brezice,Sevnica,Lasko,Sentjur,Rogaska Slatina,Slovenska Bistrica,Menges,Trzic"
- },
- {
- "name": "Frisian (dedicated)",
- "i": 2730,
- "min": 4,
- "max": 11,
- "d": "fy-NL",
- "m": 0,
- "b": "Ljouwert,Drachten,Snits,Hearrenfean,Dokkum,Frjentsjer,Harns,Boalsert,Wolvega,Burgum,Balk,Kollum,Grou,Warkum,Makkum,Starum,Hylpen,Sleat,Joure,Akkrum,Easterwalde,Gordyk,Bakkefean,Surhústerfean,Damwald,Stiens,Berltsum,Menaam,Froubuurt,Wytmarsum"
- },
- {
- "name": "Scots (dedicated)",
- "i": 2733,
- "min": 4,
- "max": 11,
- "d": "sco-GB",
- "m": 0,
- "b": "Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Stirling,Perth,Paisley,Dunfermline,Livingston,Kirkcaldy,Hamilton,Ayr,Greenock,Kilmarnock,Falkirk,Coatbridge,Motherwell,Dumfries,Arbroath,Elgin,Irvine,Cumbernauld,Airdrie,Peterhead,Alloa,Stranraer,Hawick,Galashiels,Selkirk"
- },
- {
- "name": "Awa (dedicated)",
+ "name": "Awa",
  "i": 2734,
  "min": 4,
  "max": 11,
@@ -3525,7 +3291,7 @@
  "b": "Tulcan,Ipiales,San Gabriel,Mira,Espejo,Montufar,Huaca,Julio Andrade,Cristobal Colon,Chitan,Tufiño,Maldonado,Chical,Tobar Donoso,Lita,Alto Tambo,Ricaurte,Tumaco,Barbacoas,Magui,Payan"
  },
  {
- "name": "Awadhi (dedicated)",
+ "name": "Awadhi",
  "i": 2735,
  "min": 4,
  "max": 11,
@@ -3534,7 +3300,7 @@
  "b": "Lucknow,Kanpur,Allahabad,Varanasi,Faizabad,Ayodhya,Sultanpur,Pratapgarh,Rae Bareli,Unnao,Hardoi,Sitapur,Lakhimpur,Bahraich,Gonda,Basti,Gorakhpur,Azamgarh,Jaunpur,Mirzapur,Banda,Fatehpur,Bareilly,Shahjahanpur,Pilibhit"
  },
  {
- "name": "Awbono (dedicated)",
+ "name": "Awbono",
  "i": 2736,
  "min": 4,
  "max": 11,
@@ -3543,7 +3309,7 @@
  "b": "Oksibil,Tanah Merah,Boven Digoel,Merauke,Mindiptana,Waropko,Jair,Kouh,Ninati,Kawagit,Senggo,Bupul,Kepi,Muting,Getentiri,Tanahmerah,Kimaam,Okaba,Kurik,Elikobel,Sota,Naukenjerai"
  },
  {
- "name": "Awin (dedicated)",
+ "name": "Awin",
  "i": 2737,
  "min": 4,
  "max": 11,
@@ -3552,16 +3318,7 @@
  "b": "Kiunga,Ningerum,Olsobip,Tabubil,Rumginae,Ambunti,Pagwi,Maprik,Wewak,Angoram,Timbunke,Wagu,Hunstein,Amboin,Oum,Sio,Green River,Vanimo,Aitape,Lumi,Nuku,Dreikikir,Yangoru,Kubalia"
  },
  {
- "name": "Awing (dedicated)",
- "i": 2738,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Awing,Santa,Bamenda,Bafut,Mankon,Bali,Batibo,Mbengwi,Njinikom,Ndu,Jakiri,Oku,Sabga,Pinyin,Bambili,Bambui,Kedjom,Balikumbat,Bafanji,Babungo,Kumbo,Nkambe,Wum,Fundong,Foumban"
- },
- {
- "name": "Be-Jizhao (dedicated)",
+ "name": "Be-Jizhao",
  "i": 2739,
  "min": 4,
  "max": 11,
@@ -3570,7 +3327,7 @@
  "b": "Nanning,Beihai,Qinzhou,Fangchenggang,Dongxing,Pingxiang,Chongzuo,Ningming,Longzhou,Daxin,Tiandeng,Fusui,Shangsi,Pubei,Lingshan,Hepu,Bobai,Yulin,Beiliu,Xingye,Rongxian,Luchuan,Guiping,Pingnan"
  },
  {
- "name": "Be (dedicated)",
+ "name": "Be",
  "i": 2740,
  "min": 4,
  "max": 11,
@@ -3579,31 +3336,13 @@
  "b": "Lingao,Haikou,Danzhou,Dongfang,Changjiang,Baisha,Qiongzhong,Tunchang,Chengmai,Lingshui,Wanning,Qionghai,Wenchang,Dingan,Ledong,Sanya,Baoting,Wuzhishan,Sansha,Yangpu,Meilan,Longhua"
  },
  {
- "name": "Beami (dedicated)",
+ "name": "Beami",
  "i": 2741,
  "min": 4,
  "max": 11,
  "d": "lnrt",
  "m": 0,
  "b": "Bosavi,Kaluli,Ologo,Walulu,Wisesi,Kikori,Strickland,Nomad,Komofio,Mougulu,Sulamesi,Bedamini"
- },
- {
- "name": "Beary (dedicated)",
- "i": 2742,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Mangalore,Udupi,Kundapura,Barkur,Basrur,Byndoor,Gangolli,Bhatkal,Innanje,Padubidri,Kollur,Basroor"
- },
- {
- "name": "Beba (dedicated)",
- "i": 2743,
- "min": 4,
- "max": 11,
- "d": "lnrt",
- "m": 0,
- "b": "Beba,Benakuma,Menchum,Bamenda,Mbekunyam,Nsoka,Muala,Mbamba,Shisong,Fombi,Agah,Ntamecheh,Widikum"
  },
  {
  "name": "Rarotongan",

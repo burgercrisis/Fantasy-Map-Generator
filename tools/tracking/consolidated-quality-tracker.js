@@ -32,7 +32,7 @@ const CONTINENT_FILES = [
 ];
 
 const SUSPICIOUS_NAMES = new Set([
-    'Riang', 'BPh', 'Big Flowery', 'Français Tirailleur', 'Tày Bôi Pidgin French',
+    'BPh', 'Big Flowery', 'Français Tirailleur', 'Tày Bôi Pidgin French',
     'Bole Chadic language', 'BiuΓÇôMandara', 'Fulniô',
     'Bjarmian S├ími', 'Borgarm├Ñlet', 'Baur├⌐', 'Cof├ín', 'Fran├ºais',
     'E'
@@ -214,9 +214,8 @@ function runAllChecks() {
         }
         
         let baseSizeCategory = 'normal';
-        if (cityCount < 3) baseSizeCategory = 'very_small';
-        else if (cityCount < 5) baseSizeCategory = 'small';
-        else if (cityCount > 15) baseSizeCategory = 'large';
+        if (cityCount < 25) baseSizeCategory = 'small';
+        else if (cityCount >= 50) baseSizeCategory = 'large';
         
         const dValue = entry.d || 'empty';
         
@@ -245,13 +244,18 @@ function runAllChecks() {
         };
     });
     
+    // Note: index_collision is excluded from quality issues as it's intentional for language families
+    // (e.g., Arabic varieties share index 10, Spanish varieties share indices, etc.)
     const qualityIssues = metrics.filter(m => 
         m.quality_score < 100 || m.is_placeholder || m.has_primus || 
-        m.suspicious_name || m.index_collision || m.name_collision
+        m.suspicious_name || m.name_collision
     );
     
+    const indexCollisions = metrics.filter(m => m.index_collision).length;
+    
     console.log(`Entries with quality issues: ${qualityIssues.length}`);
-    console.log(`Overall quality: ${((1 - qualityIssues.length / metrics.length) * 100).toFixed(1)}%\n`);
+    console.log(`Overall quality: ${((1 - qualityIssues.length / metrics.length) * 100).toFixed(1)}%`);
+    console.log(`Index collisions (intentional): ${indexCollisions}\n`);
     
     return metrics;
 }

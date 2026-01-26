@@ -11,8 +11,8 @@ window.asiaNameBases = [
     "b": "Anjung,Ansan,Anseong,Anyang,Aphae,Apo,Baekseok,Baeksu,Beolgyo,Boeun,Boseong,Busan,Buyeo,Changnyeong,Changwon,Cheonan,Cheongdo,Cheongjin,Cheongsong,Cheongyang,Cheorwon,Chirwon,Chuncheon,Chungju,Daedeok,Daegaya,Daejeon,Damyang,Dangjin,Dasa,Donghae,Dongsong,Doyang,Eonyang,Gaeseong,Ganggyeong,Ganghwa,Gangneung,Ganseong,Gaun,Geochang,Geoje,Geoncheon,Geumho,Geumil,Geumwang,Gijang,Gimcheon,Gimhwa,Gimje,Goa,Gochang,Gohan,Gongdo,Gongju,Goseong,Goyang,Gumi,Gunpo,Gunsan,Guri,Gurye,Gwangju,Gwangyang,Gwansan,Gyeongseong,Hadong,Hamchang,Hampyeong,Hamyeol,Hanam,Hapcheon,Hayang,Heungnam,Hongnong,Hongseong,Hwacheon,Hwando,Hwaseong,Hwasun,Hwawon,Hyangnam,Incheon,Inje,Iri,Janghang,Jangheung,Jangseong,Jangseungpo,Jangsu,Jecheon,Jeju,Jeomchon,Jeongeup,Jeonggwan,Jeongju,Jeongok,Jeongseon,Jeonju,Jido,Jiksan,Jinan,Jincheon,Jindo,Jingeon,Jinjeop,Jinnampo,Jinyeong,Jocheon,Jochiwon,Jori,Maepo,Mangyeong,Mokpo,Muju,Munsan,Naesu,Naju,Namhae,Namwon,Namyang,Namyangju,Nongong,Nonsan,Ocheon,Okcheon,Okgu,Onam,Onsan,Onyang,Opo,Paengseong,Pogok,Poseung,Pungsan,Pyeongchang,Pyeonghae,Pyeongyang,Sabi,Sacheon,Samcheok,Samho,Samrye,Sancheong,Sangdong,Sangju,Sapgyo,Sariwon,Sejong,Seocheon,Seogwipo,Seonghwan,Seongjin,Seongju,Seongnam,Seongsan,Seosan,Seungju,Siheung,Sindong,Sintaein,Soheul,Sokcho,Songak,Songjeong,Songnim,Songtan,Suncheon,Taean,Taebaek,Tongjin,Uijeongbu,Uiryeong,Uiwang,Uljin,Ulleung,Unbong,Ungcheon,Ungjin,Waegwan,Wando,Wayang,Wiryeseong,Wondeok,Yangju,Yangsan,Yangyang,Yecheon,Yeomchi,Yeoncheon,Yeongam,Yeongcheon,Yeongdeok,Yeongdong,Yeonggwang,Yeongju,Yeongwol,Yeongyang,Yeonil,Yongin,Yongjin,Yugu,Gwangmyeong,Pyeongtaek,Icheon,Gimpo,Pocheon,Geumsan,Yesan,Asan,Cheongju,Danyang,Andong,Munmak,Wolnyeong,Songju,Pohang,Gyeongju,Jeongseok,Seoul,Pyongyang,Hamhung,Chongjin,Wonsan,Nampo,Kaesong,Sinuiju,Hamhŭng,Wŏnsan,Namp'o,Kaesŏng,Sinŭiju,Tanchon,Kaechon,Sunchon,Hungnam,Rason,Kimchaek,Haeju,Kanggye,Hyesan,Tokchon,Kusong,P'yongsong,Manp'o,Pyongsong,Uiju,Hoeryong,Ulsan,Suwon,Bucheon,Iksan,Jinju,Yeosu,Wonju,Gimhae,Tongyeong"
   },
   {
-    "name": "Chinese",
-    "i": 10,
+"name": "Chinese",
+    "i": 1000,
     "min": 5,
     "max": 10,
     "d": "",
@@ -575,7 +575,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,LiquiÃ§Ã¡"
+    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,Liquiçá"
   },
   {
     "name": "Santali",
@@ -890,7 +890,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Troyes,ChÃ¢lons-en-Champagne,Reims,Ã‰pernay,SÃ©zanne,ChÃ¢lons-sur-Marne,Vitry-le-FranÃ§ois,Saint-Dizier,ChÃ¢teau-Thierry"
+    "b": "Troyes,Châlons-en-Champagne,Reims,Épernay,Sézanne,Châlons-sur-Marne,Vitry-le-François,Saint-Dizier,Château-Thierry"
   },
   {
     "name": "Cosentino",
@@ -908,7 +908,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "BesanÃ§on,Belfort,MontbÃ©liard,Dole,Lons-le-Saunier,Vesoul,Gray"
+    "b": "Besançon,Belfort,Montbéliard,Dole,Lons-le-Saunier,Vesoul,Gray"
   },
   {
     "name": "Colombian Spanish",
@@ -917,7 +917,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "BogotÃ¡,MedellÃ­n,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,CÃºcuta,IbaguÃ©,Villavicencio"
+    "b": "Bogotá,Medellín,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,Cúcuta,Ibagué,Villavicencio"
   },
   {
     "name": "Comasco-Lecchese",
@@ -998,7 +998,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "it-PT",
     "m": 0,
-    "b": "Minde,Alcanena,SantarÃ©m,OurÃ©m,Tomar,Almeida,FÃ¡tima,Leiria,Porto,Lisboa,Coimbra,Ã‰vora,SetÃºbal,Faro,Aveiro,Braga,Viseu,Guarda,Castelo Branco,Vila Real,Viana do Castelo"
+    "b": "Minde,Alcanena,Santarém,Ourém,Tomar,Almeida,Fátima,Leiria,Porto,Lisboa,Coimbra,Évora,Setúbal,Faro,Aveiro,Braga,Viseu,Guarda,Castelo Branco,Vila Real,Viana do Castelo"
   },
   {
     "name": "Mineiro",
@@ -1007,16 +1007,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "pt-BR",
     "m": 0,
-    "b": "Belo Horizonte,UberlÃ¢ndia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,DivinÃ³polis,Varginha,Ouro Preto"
-  },
-  {
-    "name": "Monégasque",
-    "i": 494,
-    "min": 4,
-    "max": 11,
-    "d": "ro-MC",
-    "m": 0,
-    "b": "Monaco,Monte Carlo,La Condamine,Fontvieille,Moneghetti,Larvotto,La Rousse,Saint Roman,Jardin Exotique,Les Moulins,Spelugues,Port Hercule"
+    "b": "Belo Horizonte,Uberlândia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinópolis,Varginha,Ouro Preto"
   },
   {
     "name": "Tamil",
@@ -1043,7 +1034,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "ro-IT",
     "m": 0,
-    "b": "Ajaccio,Bastia,Porto-Vecchio,Bonifacio,Calvi,Corte,Propriano,SartÃ¨ne,Ghisonaccia,L'ÃŽle-Rousse,Borgo,Biguglia,Furiani,Lucciana,Ville-di-Pietrabugno,Sainte-Lucie-de-Porto-Vecchio,Zonza,Levie,Sotta,Figari,Pianottoli-Caldarello,Monacia-d'AullÃ¨ne,CargÃ¨se,Piana,Ota,Ã‰visa,Vico,Soccia,Guagno,Orto,Poggiolo,Letia,Arbori,Renno,Cristinacce,Marignana,Serriera,Partinello,Osani,GalÃ©ria,Manso"
+    "b": "Ajaccio,Bastia,Porto-Vecchio,Bonifacio,Calvi,Corte,Propriano,Sartène,Ghisonaccia,L'Île-Rousse,Borgo,Biguglia,Furiani,Lucciana,Ville-di-Pietrabugno,Sainte-Lucie-de-Porto-Vecchio,Zonza,Levie,Sotta,Figari,Pianottoli-Caldarello,Monacia-d'Aullène,Cargèse,Piana,Ota,Évisa,Vico,Soccia,Guagno,Orto,Poggiolo,Letia,Arbori,Renno,Cristinacce,Marignana,Serriera,Partinello,Osani,Galéria,Manso"
   },
   {
     "name": "Azd",
@@ -1952,7 +1943,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yopal,Inirida,MitÃº,SanJoseDelGuaviare,PuertoCarreÃ±o,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
+    "b": "Yopal,Inirida,Mitú,SanJoseDelGuaviare,PuertoCarreño,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
   },
   {
     "name": "Coast Tsimshian (Sm'algyax)",
@@ -2348,7 +2339,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,TuyÃªn Quang,Ha Giang,LÃ o Cai,Diá»…n BiÃªn"
+    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,Tuyên Quang,Ha Giang,Lào Cai,Diá»…n Biên"
   },
   {
     "name": "Lao Phutai",
@@ -2483,7 +2474,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "CochimÃ­,MulegÃ©,Loreto,Santa RosalÃ­a,Guerrero Negro,VizcaÃ­no,ComondÃº,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
+    "b": "Cochimí,Mulegé,Loreto,Santa Rosalía,Guerrero Negro,Vizcaíno,Comondú,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
   },
   {
     "name": "Cocopa",
@@ -2906,7 +2897,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "CofÃ¡n,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
+    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
   },
   {
     "name": "Bodish",
@@ -3095,7 +3086,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bunak,Timor-Leste,LiquiÃ§a,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
+    "b": "Bunak,Timor-Leste,Liquiça,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
   },
   {
     "name": "Bundeli",
@@ -3140,7 +3131,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cora,JesÃºs MarÃ­a,Mesa del Nayar,El Nayar,Acaponeta,Rosamorada,Tepic,Nayarit,Mexico,Sierra Madre Occidental"
+    "b": "Cora,Jesús María,Mesa del Nayar,El Nayar,Acaponeta,Rosamorada,Tepic,Nayarit,Mexico,Sierra Madre Occidental"
   },
   {
     "name": "Cai Long",
@@ -3761,7 +3752,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Stadi,Heltsi,Turku,Tampere,Oulu,JyvÃ¤skylÃ¤,Kuopio,Vaasa,Lahti,Pori,Lappeenranta,Finland"
+    "b": "Stadi,Heltsi,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Vaasa,Lahti,Pori,Lappeenranta,Finland"
   },
   {
     "name": "Cook Islands Maori Pidgin",
@@ -3806,7 +3797,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Courland Livonian,Riga,Ventspils,LiepÄja,Latvia,Baltic,Baltic Sea"
+    "b": "Courland Livonian,Riga,Ventspils,Liepāja,Latvia,Baltic,Baltic Sea"
   },
   {
     "name": "Coxoh",
@@ -3815,7 +3806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Coxoh,ComitÃ¡n,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
+    "b": "Coxoh,Comitán,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
   },
   {
     "name": "Asho",
@@ -3896,7 +3887,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dao,Santo,Vanuatu,Oceania,South Pacific"
+    "b": "Luganville,Port Olry,Hog Harbour,Big Bay,Sakao,Tutuba,Aore,Malo,Fanafo,Matantas,Champagne Beach,Lonnoc,Palikulo,Sarakata,Santo"
   },
   {
     "name": "Dari",
@@ -4031,7 +4022,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhivehi,MalÃ©,Addu,Hithadhoo,Maldives,Indian Ocean"
+    "b": "Dhivehi,Malé,Addu,Hithadhoo,Maldives,Indian Ocean"
   },
   {
     "name": "Dimasa",
@@ -4976,7 +4967,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,MuÃ±oz,San Jose"
+    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,Muñoz,San Jose"
   },
   {
     "name": "Georgian dialects",
@@ -5597,7 +5588,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaniruma,MabÃ¼l,KhafalÃ¼o,MyanÃ¼,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
+    "b": "Yaniruma,Mabül,Khafalüo,Myanü,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
   },
   {
     "name": "Koya",
@@ -5933,15 +5924,6 @@ window.asiaNameBases = [
     "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
   },
   {
-    "name": "Lanping Bai Dialect",
-    "i": 2404,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dali,Lijiang,Shangri-La,Xiaguan,Heqing,Jianchuan,Eryuan,Yunlong,Binchuan,Midu"
-  },
-  {
     "name": "Laven",
     "i": 2408,
     "min": 4,
@@ -6011,7 +5993,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,DÃªqÃªn,Deqin"
+    "b": "Baoshan,Lijiang,Tengchong,Ruili,Dali,Dêqên,Deqin"
   },
   {
     "name": "Yakkha",
@@ -6470,7 +6452,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Diyarbakir,Erbil,Sulaimaniyah,Duhok,Kirkuk,Van,Hakkari,Siirt,Mardin,Cizre,Amadiya,Zakho,Qamishli,KobanÃ®,Afrin,Halabja,Chamchamal,Ranya,Kalar,Derik,Sinjar"
+    "b": "Diyarbakir,Erbil,Sulaimaniyah,Duhok,Kirkuk,Van,Hakkari,Siirt,Mardin,Cizre,Amadiya,Zakho,Qamishli,Kobanî,Afrin,Halabja,Chamchamal,Ranya,Kalar,Derik,Sinjar"
   },
   {
     "name": "Pashto",
@@ -6542,7 +6524,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,KÃ¶neÃ¼rgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
+    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
   },
   {
     "name": "Comorian",
@@ -6662,24 +6644,6 @@ window.asiaNameBases = [
     "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa"
   },
   {
-    "name": "Cornish (dedicated)",
-    "i": 2707,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Truro,Penzance,Falmouth,St Austell,Newquay,Bodmin,Launceston,Helston,Camborne,Redruth,Saltash,St Ives,Bude,Wadebridge,Looe,Liskeard,Fowey,Padstow,Tintagel,Boscastle,Port Isaac,Mevagissey,Charlestown,St Mawes,Marazion,Mousehole,Polperro,Coverack,Porthleven,Hayle,St Agnes,Perranporth,Portreath,St Columb Major,St Dennis,Delabole,Camelford,Callington,Torpoint,Millbrook,Downderry,Polruan,Lostwithiel,Luxulyan,St Blazey,Par,St Stephen,Roche,Indian Queens,Summercourt"
-  },
-  {
-    "name": "Yiddish (dedicated)",
-    "i": 2729,
-    "min": 4,
-    "max": 11,
-    "d": "yi-IL",
-    "m": 0,
-    "b": "Vilna,Warsaw,Krakow,Lodz,Lublin,Minsk,Odessa,Kiev,Lviv,Vilnius,Kaunas,Berdichev,Zhitomir,Vitebsk,Gomel,Grodno,Bialystok,Brest,Pinsk,Chelm,Radom,Siedlce,Piotrkow,Kielce,Czestochowa,Sosnowiec,Katowice,Przemysl,Tarnow,Rzeszow,Vinnitsa,Proskurov,Kishinev,Belz,Satmar,Munkacs,Ungvar,Presov,Satu Mare,Iasi,Bucharest,Budapest,Miskolc,Debrecen,Szeged,Kosice,Bratislava,Prague,Brno,Bnei Brak"
-  },
-  {
     "name": "Beary",
     "i": 2742,
     "min": 4,
@@ -6750,15 +6714,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Jakarta,Bandung,Semarang,Yogyakarta,Surabaya,Malang,Salatiga,Cirebon,Pekalongan,Tegal,Purwokerto,Clungup"
-  },
-  {
-    "name": "Andalusi Arabic",
-    "i": 20157,
-    "min": 4,
-    "max": 11,
-    "d": "ae",
-    "m": 0,
-    "b": "Qurtuba,Ishbiliya,Gharnata,Tulaitula,Balansiya,Saraqusta,Mursiya,Malqa,Almeria,Jaen,Shantarin,Lishbuna,Batalyaws,Marida,Shilb,Labla,Runda,Antaqira,Qarmuna"
   },
   {
     "name": "Ao Naga",

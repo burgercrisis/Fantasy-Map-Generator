@@ -26,7 +26,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "SÃ£o Felix do Araguaia,SÃ£o Miguel do Araguaia,Barra do GarÃ§as,Cana Brava,Ãgua Boa,Mato Grosso,Rio Verde,Alto GarÃ§as"
+    "b": "São Felix do Araguaia,São Miguel do Araguaia,Barra do Garças,Cana Brava,Água Boa,Mato Grosso,Rio Verde,Alto Garças"
   },
   {
     "name": "Guajajara",
@@ -89,7 +89,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Asuncion,Encarnacion,Ciudad-del-Este,Coronel-Oviedo,Villarrica,Caacupe,Fernando-de-la-Mora,San-Lorenzo,Itaugua,LambarÃ©,Luque,Concepcion,Pedro-Juan-Caballero,Paraguari,Misiones"
+    "b": "Asuncion,Encarnacion,Ciudad-del-Este,Coronel-Oviedo,Villarrica,Caacupe,Fernando-de-la-Mora,San-Lorenzo,Itaugua,Lambaré,Luque,Concepcion,Pedro-Juan-Caballero,Paraguari,Misiones"
   },
   {
     "name": "Aymara",
@@ -98,7 +98,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "La-Paz,El-Alto,Oruro,Patacamaya,Achacachi,Viacha,Desaguadero,Llave,Juli,Tiwanaku,Laja,Batallas,Ancoraimes,Challapata,PoopÃ³"
+    "b": "La-Paz,El-Alto,Oruro,Patacamaya,Achacachi,Viacha,Desaguadero,Llave,Juli,Tiwanaku,Laja,Batallas,Ancoraimes,Challapata,Poopó"
   },
   {
     "name": "Kichwa",
@@ -107,7 +107,7 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Quito,Otavalo,Cotacachi,Saquisili,Latacunga,Riobamba,Guaranda,Ambato,Puyo,Tena,Macas,Guamote,AlausÃ­,Cayambe,Quininde"
+    "b": "Quito,Otavalo,Cotacachi,Saquisili,Latacunga,Riobamba,Guaranda,Ambato,Puyo,Tena,Macas,Guamote,Alausí,Cayambe,Quininde"
   },
   {
     "name": "Mapudungun",

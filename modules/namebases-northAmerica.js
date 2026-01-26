@@ -17,7 +17,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "may-GT",
     "m": 0,
-    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
+    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo Ixtatán,San Sebastián Coatán,Nentón,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel Acatán,Concepción Huista"
   },
   {
     "name": "Cree",
@@ -26,7 +26,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "cr-CA",
     "m": 0,
-    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,OujÃ©-Bougoumou"
+    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,Oujé-Bougoumou"
   },
   {
     "name": "Ojibwe",
@@ -62,7 +62,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
+    "b": "Aguacatán,Huehuetenango,Chiantla,Malacatancito,Cuilco,Nentón,San Sebastián Coatán,Soloma,Ixtahuacán,Todos Santos Cuchumatán,San Juan Ixcoy,San Miguel Acatán"
   },
   {
     "name": "Cuicatec",
@@ -71,7 +71,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Teutila,Tepeuxila,San Lucas Ojitlâ”œÃ­n,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlâ”œÃ­n,Caâ”œâ–’ada Region,Caâ”œâ–’ada,Ojitlâ”œÃ­n,Cuicatec,Mixtecan"
+    "b": "Teutila,Tepeuxila,San Lucas Ojitlâ”œín,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlâ”œín,Caâ”œâ–’ada Region,Caâ”œâ–’ada,Ojitlâ”œín,Cuicatec,Mixtecan"
   },
   {
     "name": "Amuzgo",
@@ -98,7 +98,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,SaÃ­n Alto,General Enrique Estrada"
+    "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,Saín Alto,General Enrique Estrada"
   },
   {
     "name": "Q'anjob'al",
@@ -107,7 +107,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel AcatÃ¡n,San Rafael Petzal,Santiago Chimaltenango,AguacatÃ¡n"
+    "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel Acatán,San Rafael Petzal,Santiago Chimaltenango,Aguacatán"
   },
   {
     "name": "Cauque Mayan language",
@@ -116,7 +116,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Santiago AtitlÃ¡n,San Lucas TolimÃ¡n,San Antonio PalopÃ³,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina PalopÃ³,Santa Cruz La Laguna,Panajachel,Patulul,San JosÃ© ChacayÃ¡,Santa Clara La Laguna"
+    "b": "Santiago Atitlán,San Lucas Tolimán,San Antonio Palopó,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina Palopó,Santa Cruz La Laguna,Panajachel,Patulul,San José Chacayá,Santa Clara La Laguna"
   },
   {
     "name": "Chipewyan",
@@ -215,7 +215,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chontal Maya,Villahermosa,Macuspana,Comalcalco,ParaÃ­so,Jonuta,BalancÃ¡n,Emiliano Zapata,Tenosique,Tabasco,Mexico"
+    "b": "Chontal Maya,Villahermosa,Macuspana,Comalcalco,Paraíso,Jonuta,Balancán,Emiliano Zapata,Tenosique,Tabasco,Mexico"
   },
   {
     "name": "Q'eqchi'",
@@ -224,7 +224,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Q'eqchi',Alta Verapaz,Baja Verapaz,Izabal,Guatemala,CobÃ¡n,SalamÃ¡,Chamelco,LanquÃ­n,Santa Cruz Verapaz"
+    "b": "Q'eqchi',Alta Verapaz,Baja Verapaz,Izabal,Guatemala,Cobán,Salamá,Chamelco,Lanquín,Santa Cruz Verapaz"
   },
   {
     "name": "Yucatec Maya",
@@ -233,7 +233,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yucatec Maya,MÃ©rida,CancÃºn,ChichÃ©n ItzÃ¡,Tulum,Valladolid,TizimÃ­n,Campeche,YucatÃ¡n Peninsula,Mexico"
+    "b": "Yucatec Maya,Mérida,Cancún,Chichén Itzá,Tulum,Valladolid,Tizimín,Campeche,Yucatán Peninsula,Mexico"
   },
   {
     "name": "Ixil",
@@ -242,7 +242,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ixil,Nebaj,Chajul,Cotzal,El QuichÃ©,QuichÃ©,Guatemala,Ixil Triangle,Maya Highlands"
+    "b": "Ixil,Nebaj,Chajul,Cotzal,El Quiché,Quiché,Guatemala,Ixil Triangle,Maya Highlands"
   },
   {
     "name": "Jakaltek",
@@ -251,7 +251,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jakaltek,Chiquimula,Zacapa,Quetzaltenango,Esquipulas,Guatemala,Ocotepeque,Santa Rosa,Livingston,CopÃ¡n"
+    "b": "Jakaltek,Chiquimula,Zacapa,Quetzaltenango,Esquipulas,Guatemala,Ocotepeque,Santa Rosa,Livingston,Copán"
   },
   {
     "name": "K'iche'",
@@ -260,7 +260,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "K'iche',Quetzaltenango,TotonicapÃ¡n,SololÃ¡,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
+    "b": "K'iche',Quetzaltenango,Totonicapán,Sololá,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
   },
   {
     "name": "Mopán",
@@ -314,7 +314,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pima Bajo,YÃ©cora,Mazocahui,Maycoba,Sonora,Mexico,Sierra Madre"
+    "b": "Pima Bajo,Yécora,Mazocahui,Maycoba,Sonora,Mexico,Sierra Madre"
   },
   {
     "name": "Isthmus Zapotec",
@@ -323,7 +323,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "JuchitÃ¡n,Tehuantepec,Salina Cruz,Ixtepec,Espinal,Ixtaltepec,Comitancillo,Xadani,San Blas Atempa,Santa Maria Petapa,Santo Domingo ChihuitÃ¡n,San Pedro Comitancillo,Santa Maria Mixtequilla,San Pedro Huilotepec"
+    "b": "Juchitán,Tehuantepec,Salina Cruz,Ixtepec,Espinal,Ixtaltepec,Comitancillo,Xadani,San Blas Atempa,Santa Maria Petapa,Santo Domingo Chihuitán,San Pedro Comitancillo,Santa Maria Mixtequilla,San Pedro Huilotepec"
   },
   {
     "name": "Keresan",
@@ -341,7 +341,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,UmÃ¡n,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
+    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,Umán,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
   },
   {
     "name": "Mam",
@@ -350,7 +350,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "San-Marcos,Malacatan,Tejutla,TacanÃ¡,Sibinal,Concepcion-Tutuapa,San-Miguel-Ixtahuacan,San-Antonio-Sacatepequez,San-Pedro-Sacatepequez,Ayutla,Huehuetenango,La-Democracia,Jacaltenango,San-Ildefonso-Ixtahuacan"
+    "b": "San-Marcos,Malacatan,Tejutla,Tacaná,Sibinal,Concepcion-Tutuapa,San-Miguel-Ixtahuacan,San-Antonio-Sacatepequez,San-Pedro-Sacatepequez,Ayutla,Huehuetenango,La-Democracia,Jacaltenango,San-Ildefonso-Ixtahuacan"
   },
   {
     "name": "Mixtec",
