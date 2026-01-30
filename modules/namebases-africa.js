@@ -2213,7 +2213,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-CI",
     "m": 0,
-    "b": "Dabakala,Satama-Sokoro,Satama-Sokoura,Bassawa,Boniérédougou,Foumbolo,Sokala-Sobara,Niéméné,Tendéné,M'Borla-Dioulasso,Koniédougou,Yaossédougou"
+    "b": "Dabakala,Satama-Sokoro,Satama-Sokoura,Bassawa,Boniérédougou,Foumbolo,Sokala-Sobara,Niéméné,Tendéné,M'Borla-Dioulasso,Koniédougou,Yaossédougou,Katiola,Niakaramandougou,Tafiré,Tortiya,Fronan,Arikokaha,Badikaha,Niakara,Marabadiassa,Bouaflé,Kondrobo,Gbangbégouiné,Tiébissou"
   },
   {
     "name": "Dogoso",
@@ -2222,7 +2222,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
+    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué,Banfora,Niangoloko,Sindou,Mangodara,Douna,Ouéléni,Niankorodougou,Soubakaniédougou,Tiéfora,Bérégadougou,Moussodougou,Kankalaba,Dakoro"
   },
   {
     "name": "Evant",
@@ -2231,7 +2231,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Manyu,Akwaya,Mamfe,Eyumojock,Tinto,Upper Banyang,Central Ejagham,South Etung,North Etung,Oban,Ikom,Etung"
+    "b": "Akwaya,Mamfe,Eyumojock,Tinto,Oban,Ikom,Calabar,Ogoja,Obudu,Obanliku,Boki,Yala,Ugep,Sankwala,Ekok,Ossing,Kembong,Mfum,Mundemba,Kumba,Nguti,Bangem,Fontem,Bachou-Ntai,Bachou-Akagbe"
   },
   {
     "name": "Fongoro",
@@ -2240,7 +2240,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Habila,Geneina,Adre,Birao,Tissi,Am Dafok,Um Shaluba,Forobaranga,Beida,Arara,Masteri,Kongo Haraza"
+    "b": "Habila,Geneina,Adre,Birao,Tissi,Am Dafok,Um Shaluba,Forobaranga,Beida,Arara,Masteri,Kongo Haraza,Goz Beida,Koukou Angarana,Iriba,Guereda,Arada,Biltine,Am Zoer,Farchana,Maro,Mogororo,Ade,Djouna,Abéché"
   },
   {
     "name": "Fungor",
@@ -2249,7 +2249,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Heiban,Kauda,Delami,Um Heitan,Abri,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
+    "b": "Heiban,Kauda,Delami,Um Heitan,Abri,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila,Julud,Tira,Koalib,Miri,Otoro,Teis,Ghulfan,Tegali,Tulishi,Katla,Korongo,Liri,Kalogi"
   },
   {
     "name": "Ghomala'",
