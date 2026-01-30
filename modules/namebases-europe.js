@@ -512,7 +512,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vigo,A Coruña,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcu¡a de Arousa,Redondela,Maru¡n,Ribeira,Carballo,Castro,Lecce,Brindisi,Taranto,Bari,Foggia,Andria,Trani,Barletta,Molfetta,Bitonto,Altamura"
+    "b": "Vigo,A Coruña,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcía de Arousa,Redondela,Marín,Ribeira,Carballo,Castro,Lecce,Brindisi,Taranto,Bari,Foggia,Andria,Trani,Barletta,Molfetta,Bitonto,Altamura,Tui"
   },
   {
     "name": "Anglo-Norman",
@@ -602,7 +602,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla,Huesca,Barbastro,Monzón,Binéfar,Graus,Benabarre,Tamarite,Alquézar,Aínsa,Boltaña,Sabiñánigo,Jaca"
+    "b": "Ayerbe,Biescas,Hecho,Canfranc,Bielsa,Borau,Loarre,Almudevar,Aragues del Puerto,Valle de Tena,Broto,Torla,Huesca,Barbastro,Monzón,Binéfar,Graus,Benabarre,Tamarite,Alquézar,Aínsa,Boltaña,Sabiñánigo,Jaca,Ansó"
   },
   {
     "name": "Castilian",
@@ -1430,7 +1430,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "it-PT",
     "m": 0,
-    "b": "Lisbon,Sintra,Cascais,Setubal,Santarem,Leiria,Torres Vedras,Mafra,Caldas da Rainha,Obidos,Peniche,Alenquer,Cáceres,Badajoz,Mérida,Plasencia,Don Benito,Almendralejo,Villanueva,Zafra,Navalmoral,Coria,Trujillo,Olivenza"
+    "b": "Lisbon,Sintra,Cascais,Setubal,Santarem,Leiria,Torres Vedras,Mafra,Caldas da Rainha,Obidos,Peniche,Alenquer,Cáceres,Badajoz,Mérida,Plasencia,Don Benito,Almendralejo,Villanueva,Zafra,Navalmoral,Coria,Trujillo,Olivenza,Estremoz"
   },
   {
     "name": "European Portuguese",
@@ -3374,7 +3374,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Reykjavik,Kopavogur,Hafnarfjordur,Akureyri,Reykjanesbaer,Selfoss,Akranes,Isafjordur,Egilsstadir,Husavik,Saudarkrokur,Vik,Gar°abör,Mosfellsbör,Seltjarnarnes,Vestmannaeyjar,Grindavík,lftanes,Hverager°i,Sandger°i,Dalvík,Sey°isfjör°ur,Fjardabyggd,Flateyri"
+    "b": "Reykjavik,Kopavogur,Hafnarfjordur,Akureyri,Reykjanesbaer,Selfoss,Akranes,Isafjordur,Egilsstadir,Husavik,Saudarkrokur,Vik,Garðabær,Mosfellsbær,Seltjarnarnes,Vestmannaeyjar,Grindavík,Álftanes,Hveragerði,Sandgerði,Dalvík,Seyðisfjörður,Fjardabyggd,Flateyri,Stykkishólmur"
   },
   {
     "name": "Norwegian",

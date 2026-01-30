@@ -179,7 +179,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren,nau_20215_u1,nau_20215_u2,nau_20215_u3,nau_20215_u4,nau_20215_u5,nau_20215_u6,nau_20215_u7,nau_20215_u8,nau_20215_u9,nau_20215_u10"
+    "b": "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren,Command Ridge,Anibare Bay,Aiwo Harbour,Denigomodu Station,Location Point,Capelle,Ideril,Orro,Arubo,Georgetown,Point"
   },
   {
     "name": "Tongan",
