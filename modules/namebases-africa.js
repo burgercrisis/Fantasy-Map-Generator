@@ -1799,7 +1799,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-ML",
     "m": 0,
-    "b": "Sikasso,Kadiolo,Kolondieba,Niena,Minidian,Djenné,Sokoroni,Sirakoroni,Nafara,Ouesso,Faranseka"
+    "b": "Sikasso,Kadiolo,Koutiala,Yorosso,Bougouni,Kolondieba,Yanfolila,Niena,Minidian,Zegoua,Lobougoula,Kignan,Klela,Finkolo,Missirikoro,Nafanga,Kapala,Kaboila,Denguele,Lofinè,Diou,Kebila,Koumantou,Garalo,Bougoudiana"
   },
   {
     "name": "Cilician Arabic",
@@ -1844,7 +1844,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dendi,Niamey,Maradi,Tahoua,Zinder,Niger,West Africa,Sahel"
+    "b": "Djougou,Parakou,Natitingou,Kandi,Malanville,Nikki,Banikoara,Tanguiéta,Bembéréké,Sinendé,Kalalé,Ségbana,Gogounou,Cobly,Matéri,Boukoumbé,Kouandé,Péhunco,Copargo,Ouaké,Bassila,Tchaourou,Pèrèrè,Ndali,Bori"
   },
   {
     "name": "Jerba Berber",
@@ -1898,7 +1898,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dghwede,Gwoza,Bama,Bornu State,Nigeria,North East,West Africa"
+    "b": "Gwoza,Pulka,Ngoshe,Kirawa,Ashigashiya,Limankara,Agapalawa,Attagara,Gavva,Warabe,Chikide,Hambagda,Ngoshe Sama,Midlu,Bazza,Kughum,Ghulak,Sabon Gari,Barawa,Ziver,Ɓakwa,Kwajakwajiri,Dure,Azare,Wala"
   },
   {
     "name": "Dida",
@@ -1907,7 +1907,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dida,Daloa,Abidjan,Yamoussoukro,C'te d'Ivoire,West Africa"
+    "b": "Guitry,Divo,Lakota,Yocoboué,Lozoua,Fresco,Grand-Lahou,Tiassalé,Taabo,Sikensi,Dabou,Jacqueville,Toumodi,Oumé,Gagnoa,Sinfra,Issia,Soubré,Buyo,Guéyo,Sassandra,San-Pédro,Tabou,Grabo,Méagui"
   },
   {
     "name": "Dizoid",
@@ -1916,7 +1916,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dizoid,Majang,Dizi,Sheko,Southwest Ethiopia,Omo Valley"
+    "b": "Maji,Tum,Dima,Guraferda,Sheko,Yeki,Tepi,Mizan Teferi,Bebeka,Jimma,Bonga,Chena,Gewata,Kelem,Birbir,Metu,Gore,Gambela,Mocha,Chiri,Gecha,Saylem,Decha,Anderacha,Shishinda"
   },
   {
     "name": "Doko",
@@ -1952,7 +1952,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dullay,Arba Minch,Konso,Yabello,Ethiopia,Omo Valley"
+    "b": "Gidole,Konso,Arba Minch,Yabello,Sagan,Tsemai,Gewada,Burji,Moyale,Hagere Mariam,Dila,Yirga Alem,Yirga Cheffe,Gelana,Bule,Amaro,Chencha,Dorze,Gamo,Bonke,Boreda,Dita,Kucha,Kemba,Kamba"
   },
   {
     "name": "Early Modern Korean",
@@ -1970,7 +1970,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dinka,Juba,Bor,Malakal,Wau,Aweil,Rumbek,South Sudan,White Nile,Nile River"
+    "b": "Bor,Juba,Malakal,Wau,Aweil,Rumbek,Bentiu,Kuajok,Tonj,Yirol,Abyei,Gogrial,Turalei,Panyagor,Kongor,Kolnyang,Duk,Twic,Agar,Aliab,Ciec,Padang,Luanyjang,Malual,Awerial"
   },
   {
     "name": "Eastern Berber",
