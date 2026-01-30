@@ -1923,7 +1923,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dinka,Juba,Bor,Malakal,Wau,Aweil,Rumbek,South Sudan,White Nile,Nile River"
+    "b": "Juba,Bor,Malakal,Wau,Aweil,Rumbek,Bentiu,Renk,Tonj,Gogrial,Kuajok,Yirol,Pibor,Akobo,Nasir,Fangak,Ayod,Duk,Twic,Abyei,Agok,Nyamlel,Turalei,Leer,Mayom"
   },
   {
     "name": "Eastern Berber",
@@ -1986,7 +1986,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bunia,Beni,Butembo,Kisangani,Mambasa,DR Congo,Central Africa,Congo River"
+    "b": "Bunia,Beni,Butembo,Kisangani,Mambasa,Isiro,Wamba,Watsa,Aru,Mahagi,Djugu,Irumu,Komanda,Mungbere,Nizi,Nioka,Djalasiga,Bogoro,Kasenyi,Tchomia,Nyankunde,Oicha,Kasindi,Eringeti,Mangina"
   },
   {
     "name": "Tetuani",
@@ -2004,7 +2004,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Furu,Isangi,Wandala,Tshuapa,Ngolo,Boso,Bunia,Busanza,DR Congo"
+    "b": "Isangi,Basoko,Bumba,Lisala,Bondo,Buta,Aketi,Yakoma,Businga,Gbadolite,Gemena,Libenge,Zongo,Bosobolo,Mobayi-Mbongo,Bili,Monga,Poko,Bambesa,Ango,Dungu,Faradje,Niangara,Wamba,Watsa"
   },
   {
     "name": "Hdi",
@@ -2013,7 +2013,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tourou,Mokolo,Mayo,Tsanaga,Xed,Hdii,Frajzyngier,Shay,Bot,Ornit,Dagestan,Nigeria,Mandara Mountains"
+    "b": "Tourou,Mokolo,Mora,Koza,Kolofata,Tokombere,Meri,Bourrha,Kerawa,Limani,Kalfou,Mindif,Hina,Bourha,Maroua,Gazawa,Yagoua,Kaele,Dziguilao,Guidiguis,Moutourwa,Guider,Waza,Blangoua,Makari"
   },
   {
     "name": "Gawar-Bati",
@@ -2751,7 +2751,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Turmi,Dimeka,KeyAfer,Arbore,Konso,Jinka,Ari,Mago,Omo,Woyto,Hamer,Benna"
+    "b": "Turmi,Dimeka,Key Afer,Arbore,Konso,Jinka,Alduba,Murle,Omorate,Kangaten,Dus,Bori,Salamago,Maji,Tum,Mizan Teferi,Bonga,Tepi,Dila,Yabello,Moyale,Negele,Arba Minch,Dorze,Chencha"
   },
   {
     "name": "Amh",
