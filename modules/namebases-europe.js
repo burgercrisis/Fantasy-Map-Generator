@@ -287,7 +287,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Makassar,Parepare,Palopo,Watampone,Sengkang,Soppeng,Enrekang,Pinrang,Sidrap,Sinjai,Bulukumba,Rantepao,Bantaeng,Jeneponto,Takalar,Maros,Pangkajene,Barru,Malino,Majene,Polewali,Mamuju"
+    "b": "Makassar,Parepare,Palopo,Watampone,Sengkang,Soppeng,Enrekang,Pinrang,Sidrap,Sinjai,Bulukumba,Rantepao,Bantaeng,Jeneponto,Takalar,Maros,Pangkajene,Barru,Malino,Majene,Polewali,Mamuju,Sungguminasa,Gowa,SombaOpu"
   },
   {
     "name": "Northern South Sulawesi",
@@ -296,7 +296,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Palopo,Luwu,Belopa,Masamba,Malili,Sorowako,Rantepao,Tana Toraja,Toraja Utara,Enrekang,Pinrang,Parepare,Makale,Sangalla,Bittuang,Bonggakaradeng,Simbuang,Rembon,Malimbong,Mengkendek,Gandangbatu,Sillanan"
+    "b": "Palopo,Luwu,Belopa,Masamba,Malili,Sorowako,Rantepao,Tana Toraja,Toraja Utara,Enrekang,Pinrang,Parepare,Makale,Sangalla,Bittuang,Bonggakaradeng,Simbuang,Rembon,Malimbong,Mengkendek,Gandangbatu,Sillanan,Manado,Tomohon,Bitung"
   },
   {
     "name": "Central South Sulawesi",
@@ -305,7 +305,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sengkang,Wajo,Soppeng,Watampone,Bone,Cenrana,Awangpone,Sibulue,Amali,Cendana,Tellu Limpoe,Sinjai,Panyula,Bajoe,Mare,Libureng,Kahu,Bontocani,Lamuru,Tellu Siattinge,Lapri,Kajuara"
+    "b": "Sengkang,Wajo,Soppeng,Watampone,Bone,Cenrana,Awangpone,Sibulue,Amali,Cendana,Tellu Limpoe,Sinjai,Panyula,Bajoe,Mare,Libureng,Kahu,Bontocani,Lamuru,Tellu Siattinge,Lapri,Kajuara,Palu,Poso,Luwuk"
   },
   {
     "name": "Ambonese Malay",
@@ -4778,7 +4778,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "nld",
     "m": 0,
-    "b": "Truro,Penzance,St Ives,Falmouth,Helston,Redruth,Camborne,Hayle,Newquay,St Austell,Bodmin,Launceston,Liskeard,Callington,Padstow,Wadebridge,St Just,St Agnes,Marazion,Looe,Polperro,Mousehole"
+    "b": "Truro,Penzance,St Ives,Falmouth,Helston,Redruth,Camborne,Hayle,Newquay,St Austell,Bodmin,Launceston,Liskeard,Callington,Padstow,Wadebridge,St Just,St Agnes,Marazion,Looe,Polperro,Mousehole,Bude,Fowey,Port Isaac"
   },
   {
     "name": "Lithuanian",
@@ -4787,7 +4787,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lt-LT",
     "m": 0,
-    "b": "Vilnius,Kaunas,Klaipeda,Siauliai,Panevezys,Alytus,Marijampole,Mažeikiai,Jonava,Utena,Telsiai,Taurage,Ukmerge,Plunge,Gargždai,Palanga,Druskininkai,Birstonas,Birzai,Kedainiai,Raseiniai,Radviliskis"
+    "b": "Vilnius,Kaunas,Klaipeda,Siauliai,Panevezys,Alytus,Marijampole,Mažeikiai,Jonava,Utena,Telsiai,Taurage,Ukmerge,Plunge,Gargždai,Palanga,Druskininkai,Birstonas,Birzai,Kedainiai,Raseiniai,Radviliskis,Elektrenai,Visaginas,Rokiskis"
   },
   {
     "name": "Latvian",
@@ -5156,7 +5156,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Paris,Montreal,Quebec City,Ottawa,Geneva,Brussels,Kinshasa,Abidjan,Dakar,Yaoundé,Marseille,Lyon,Toulouse,Vancouver,Toronto,Abbotsford,Port-au-Prince,Fort-de-France,Cayenne,Lausanne,Nice,Lille"
+    "b": "Paris,Montreal,Quebec City,Ottawa,Geneva,Brussels,Kinshasa,Abidjan,Dakar,Yaoundé,Marseille,Lyon,Toulouse,Vancouver,Toronto,Abbotsford,Port-au-Prince,Fort-de-France,Cayenne,Lausanne,Nice,Lille,Saint-Malo,Cherbourg,Caen"
   },
   {
     "name": "Solombala-English",
