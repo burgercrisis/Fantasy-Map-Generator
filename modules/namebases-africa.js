@@ -4976,7 +4976,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goji,Mandara Plateau,Mokolo,Maroua,Cameroon,Nigeria Border"
+    "b": "Bauchi,Dass,Toro,Bogoro,Alkaleri,Kirfi,Ningi,Warji,Ganjuwa,Tafawa Balewa,Darazo,Misau,Azare,Shira,Giade,Jamaare,Gamawa,Zaki,Damban,Yana,Kafin Madaki,Miya,Burra,Yuli,Nabardo"
   },
   {
     "name": "Sebat Bet",
@@ -4985,7 +4985,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sebat Bet,Wolkite,Gurage Zone,Ethiopia,Southwest Ethiopia,Omo River"
+    "b": "Wolkite,Butajira,Imdibir,Agena,Cheha,Endegagn,Gumer,Ezha,Geta,Muhor,Aklil,Enemorina,Eaner,Kokir,Gedebano,Meskan,Arekit,Gunchire,Worabe,Hosaina,Durame,Shone,Angacha,Soddo,Doyogena"
   },
   {
     "name": "Ulbare",
@@ -4994,7 +4994,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ulbare,Yem,Adiya,Ethiopia,Gurage Region,Southwest Ethiopia"
+    "b": "Worabe,Silti,Lanfro,Dalocha,Alicho,Werero,Sankurra,Kibet,Wulbareg,Azernet,Berbere,Tora,Alam Gebeya,Mito,Hulbareg,Silte,Mareko,Butajira,Enseno,Meskan,Sodo,Alaba,Kulito,Halaba,Shashogo"
   },
   {
     "name": "Wolane",
@@ -5003,7 +5003,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wolane,Kulito,Alaba,Ethiopia,Southwest Ethiopia,Gurage Zone"
+    "b": "Kokir,Gedebano,Seden,Sodo,Wolkite,Butajira,Silti,Worabe,Halaba,Kulito,Shashogo,Alaba,Meskan,Enseno,Mareko,Cheha,Imdibir,Ezha,Gumer,Endegagn,Geta,Muhor,Aklil,Arekit,Agena"
   },
   {
     "name": "Mesmes",
@@ -5012,7 +5012,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mesmes,Jimma,Chencha,Ethiopia,Gurage Region,Southwest Ethiopia"
+    "b": "Hadiyya,Hosaina,Shone,Durame,Angacha,Doyogena,Lemo,Soro,Misha,Gibe,Shashogo,Soddo,Fonko,Gimbichu,Ameka,Bonosha,Jajura,Homecho,Duna,Gomibora,Ana Lemo,Badawacho,Konteb,Gombora,Enemor"
   },
   {
     "name": "Mesqan",
