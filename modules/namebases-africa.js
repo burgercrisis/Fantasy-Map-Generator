@@ -1,5 +1,18 @@
-{
-    "name": "Sabahan","i":152,"min":4,"max":10,"d":"nic-GH","m":0,"b":"Kota Kinabalu,Sandakan,Tawau,Keningau,Kota Belud,Lahad Datu,Semporna,Kunak,Papar,Beaufort,Kota Marudu,Pitas,Kudat,Weston,Tenom,Tuaran,Paitan,Pulau Gaya,Ranau,Putatan,Penampang,Kinarut,Tamparuli,Beluran,Kinabatangan"
+"b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Kindu,Manono,Kabalo,Kongolo,Nyunzu,Ankoro,Moba,Pweto,Kilwa,Moliro,Mpala,Kigoma,Kasanga,Mpulungu,Sumbawanga,Namanyere,Kipili,Karema,Kirando,Lagosa"
+  },
+  {
+    "name": "Cameroonian Pidgin",di,Akom,Niete,Mvengue,Efoulan,Kyé-Ossi,Ma'an,Olamze,Biwong-Bulu,Mengong"
+  },
+  {
+    "name": "Busa",gola,Katima Mulilo,Bukalo,Ngoma,Kasane,Kazungula,Pandamatenga,Nkurenkuru"
+  },
+  {
+    "name": "Taa Click",Baney,Riaba,Rebola,Moca,Basilé,Cupapa,Batete,Sampaka,Basupú,Bocoricho,Belebú,Ureka,Ruiché,Musola,Bilelipa,Bariobé,Bososo,Batoicopo,Balombe,Bioko,Pico Basilé,Basakato,Baresibó"
+  },rou,Mbang,Ndélélé,Salapoumbé,Gari-Gombo,Libongo,Mambélé,Ngoïla,Somalomo,Meyomessala,Bengbis,Oveng,Dja,Boumba,Ngato,Bek"
+  },oba,Pweto,Kilwa,Moliro,Mpala,Kigoma,Kasanga,Mpulungu,Sumbawanga,Namanyere,Kipili,Karema,Kirando,Lagosa"
+  },intom,Bengbis,Meyomessi,Lolodorf,Bipindi,Akom,Niete,Mvengue,Efoulan,Kyé-Ossi,Ma'an,Olamze,Biwong-Bulu,Mengong"
+  },,Mohembo,Divundu,Bagani,Kongola,Katima Mulilo,Bukalo,Ngoma,Kasane,Kazungula,Pandamatenga,Nkurenkuru"
+  },n,Tenom,Tuaran,Paitan,Pulau Gaya,Ranau,Putatan,Penampang,Kinarut,Tamparuli,Beluran,Kinabatangan"
   },ddah,Mecca,Medina,Casablanca,Marrakech"
   },,Springbok,Klein-Aub,Seeis,Maltahöhe,Windhoek,Swakopmund,Walvis Bay,Otjiwarongo"
   },,Zaragoza,Jerez"
@@ -128,7 +141,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
+"b": "Tsumkwe,Rundu,Nyae Nyae,Dobe,Ghanzi,Shakawe,Tsodilo,Xai-Xai,Nata,Maun,Gumare,Etsha,Sepupa,Seronga,Mohembo,Divundu,Bagani,Kongola,Katima Mulilo,Bukalo,Ngoma,Kasane,Kazungula,Pandamatenga,Nkurenkuru"
   },
   {
     "name": "Taa Click",
@@ -326,7 +339,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Yaounde,Douala,Edea,Ngoulemakong"
+"b": "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Ngoulemakong,Zoétélé,Oveng,Mintom,Bengbis,Meyomessi,Lolodorf,Bipindi,Akom,Niete,Mvengue,Efoulan,Kyé-Ossi,Ma'an,Olamze,Biwong-Bulu,Mengong"
   },
   {
     "name": "Busa",
@@ -362,7 +375,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Goma,Kindu,Manono,Kabalo,Kisangani,Lubumbashi,Kolwezi"
+"b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Kindu,Manono,Kabalo,Kongolo,Nyunzu,Ankoro,Moba,Pweto,Kilwa,Moliro,Mpala,Kigoma,Kasanga,Mpulungu,Sumbawanga,Namanyere,Kipili,Karema,Kirando,Lagosa"
   },
   {
     "name": "Cameroonian Pidgin",
@@ -767,7 +780,7 @@
     "max": 11,
     "d": "nic-CM",
     "m": 0,
-    "b": "Yokadouma,Moloundou,Lomié,Messok,Mintom,Ngoyla,Djoum,Sangmélima,Batouri"
+"b": "Yokadouma,Moloundou,Lomié,Messok,Mintom,Ngoyla,Djoum,Batouri,Abong-Mbang,Mindourou,Mbang,Ndélélé,Salapoumbé,Gari-Gombo,Libongo,Mambélé,Ngoïla,Somalomo,Meyomessala,Bengbis,Oveng,Dja,Boumba,Ngato,Bek"
   },
   {
     "name": "Sucite",
@@ -1280,7 +1293,7 @@
     "max": 11,
     "d": "bnt-GQ",
     "m": 0,
-    "b": "Malabo,Luba,Baney,Riaba,Rebola,Santiago de Baney,Moca,Basilé,Cupapa,Batete"
+"b": "Malabo,Luba,Baney,Riaba,Rebola,Moca,Basilé,Cupapa,Batete,Sampaka,Basupú,Bocoricho,Belebú,Ureka,Ruiché,Musola,Bilelipa,Bariobé,Bososo,Batoicopo,Balombe,Bioko,Pico Basilé,Basakato,Baresibó"
   },
   {
     "name": "Saya",

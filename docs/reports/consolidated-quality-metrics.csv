@@ -1,5 +1,4 @@
 language_name,index,continent,source_file,city_count,base_size_category,duplicate_cities,is_placeholder,has_primus,has_dedicated_suffix,suspicious_name,has_trailing_space,has_encoding_issue,index_collision,name_collision,d_value,index_range,quality_score
-Sabahan,152,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Ancient Egyptian,1,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ae,1-999,100
 Ancient North Arabian,2,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ae,1-999,100
 Bimbashi Arabic,3,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ae,1-999,100
@@ -13,7 +12,7 @@ Nigerian,20,Africa,namebases-africa.js,322,large,FALSE,FALSE,FALSE,FALSE,FALSE,F
 Swahili,27,Africa,namebases-africa.js,204,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1-999,100
 Gurage,31,Africa,namebases-africa.js,54,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Berber (Maghreb),37,Africa,namebases-africa.js,71,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,afa-DZ,1-999,100
-Sekele,39,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
+Sekele,39,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Taa Click,41,Africa,namebases-africa.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Nama Click,43,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Ju/'hoan Click,47,Africa,namebases-africa.js,47,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
@@ -31,7 +30,7 @@ Makassar Malay,107,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,F
 Temiar,121,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Berta-Besme,137,Africa,namebases-africa.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 North Sarawakan,151,Africa,namebases-africa.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Sabahan,152,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
+Sabahan,152,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Makassar Branch,155,Africa,namebases-africa.js,50,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Moklenic,162,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Malaysian Mandarin,171,Africa,namebases-africa.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -39,11 +38,11 @@ Singaporean Mandarin,175,Africa,namebases-africa.js,15,small,FALSE,FALSE,FALSE,F
 Juk (Bahnaric),184,Africa,namebases-africa.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Wa,185,Africa,namebases-africa.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Benabena,201,Africa,namebases-africa.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Bulu,241,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Bulu,241,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Busa,242,Africa,namebases-africa.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bushong,243,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bwela,244,Africa,namebases-africa.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Buyu,245,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Buyu,245,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cameroonian Pidgin,246,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cameroonian Pidgin English,247,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bole Tangale,248,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -88,7 +87,7 @@ Werni,510,Africa,namebases-africa.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALS
 Zhire,511,Africa,namebases-africa.js,49,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cdc-NG,1-999,100
 Zhoa,526,Africa,namebases-africa.js,40,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,100
 Shabo,530,Africa,namebases-africa.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cus-ET,1-999,100
-Baka,542,Africa,namebases-africa.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,100
+Baka,542,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,100
 Sucite,543,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-ML,1-999,100
 Suwu,544,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-BF,1-999,100
 Acheron,545,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-SD,1-999,100
@@ -145,7 +144,7 @@ Lower Yangtze Mandarin,833,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE
 Bahing,836,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Amharic-Argobba,873,Africa,namebases-africa.js,33,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Arabic Javanese of Klego,942,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Bube,946,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,bnt-GQ,1-999,100
+Bube,946,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,bnt-GQ,1-999,100
 Saya,947,Africa,namebases-africa.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,wba-NG,1-999,100
 Tumbuka,979,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Sakata,980,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1385,9 +1384,9 @@ Samoyedic Arctic,96,Europe,namebases-europe.js,29,normal,FALSE,FALSE,FALSE,FALSE
 Malaysian Malay,101,Europe,namebases-europe.js,50,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Berau Malay,102,Europe,namebases-europe.js,45,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Larantuka Malay,106,Europe,namebases-europe.js,17,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-South Sulawesi,156,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Northern South Sulawesi,157,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Central South Sulawesi,158,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+South Sulawesi,156,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Northern South Sulawesi,157,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Central South Sulawesi,158,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Ambonese Malay,170,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Malayo-Chamic,172,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Malayo-Polynesian,173,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1407,7 +1406,7 @@ Kainuu Sami,228,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALS
 Kemi Sami,229,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Kildin Sami,230,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Lule Sami,231,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Catalan,232,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Catalan,232,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cantabrian,233,Europe,namebases-europe.js,13,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Casto,234,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Castrapo,235,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1572,16 +1571,16 @@ Murcian,496,Europe,namebases-europe.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FA
 Muskrat French,497,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 Navarrese,498,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-ES,1-999,100
 Navarro-Aragonese,499,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-ES,1-999,100
-New England French,500,Europe,namebases-europe.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,ro-US,1-999,100
+New England French,500,Europe,namebases-europe.js,25,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,ro-US,1-999,80
 Newfoundland French,501,Europe,namebases-europe.js,13,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,ro-CA,1-999,100
 Niçard,502,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oc-FR,1-999,100
 Nones,503,Europe,namebases-europe.js,39,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-IT,1-999,100
-Northern Catalan,504,Europe,namebases-europe.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oc-ES,1-999,100
+Northern Catalan,504,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oc-ES,1-999,100
 Northern Portuguese,505,Europe,namebases-europe.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-PT,1-999,100
 Northern Romanian,506,Europe,namebases-europe.js,17,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-RO,1-999,100
 Northwestern Catalan,507,Europe,namebases-europe.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oc-ES,1-999,100
 Novarese,508,Europe,namebases-europe.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,it-IT,1-999,100
-Occitan,509,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oc-FR,1-999,100
+Occitan,509,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oc-FR,1-999,100
 Old Catalan,512,Europe,namebases-europe.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-ES,1-999,100
 Old Gallo-Romance,513,Europe,namebases-europe.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-FR,1-999,100
 Old Leonese,514,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-ES,1-999,100
@@ -1668,7 +1667,7 @@ Senese,623,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FAL
 Sicilian,624,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,it-IT,1-999,100
 Southeast Metafonetica,626,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,it-IT,1-999,100
 Southern Aragonese,627,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-ES,1-999,100
-Surmiran,635,Europe,namebases-europe.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CH,1-999,100
+Surmiran,635,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CH,1-999,100
 Sursilvan,636,Europe,namebases-europe.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CH,1-999,100
 Sutsilvan,637,Europe,namebases-europe.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CH,1-999,100
 Tuatschin,638,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CH,1-999,100
@@ -1814,7 +1813,7 @@ Hill Mari,1885,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE
 Hunzib,1906,Europe,namebases-europe.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Iitti,1915,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Guyanese Creole,1921,Europe,namebases-europe.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Udmurt,1946,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Udmurt,1946,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Ingush,1948,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Insular Estonian,1950,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Inuktitut-English Pidgin,1951,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -1884,8 +1883,8 @@ Southern-Quechua,2565,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALS
 Scottish-Gaelic,2575,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Welsh,2597,Europe,namebases-europe.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cy-GB,1000-9999,100
 Breton,2598,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,br-FR,1000-9999,100
-Cornish,2599,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nld,1000-9999,100
-Lithuanian,2604,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lt-LT,1000-9999,100
+Cornish,2599,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nld,1000-9999,100
+Lithuanian,2604,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lt-LT,1000-9999,100
 Latvian,2605,Europe,namebases-europe.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lv-LV,1000-9999,100
 Estonian,2606,Europe,namebases-europe.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Sardinian,2624,Europe,namebases-europe.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,sc-IT,1000-9999,100
@@ -1926,14 +1925,14 @@ Swiss German,2732,Europe,namebases-europe.js,40,normal,FALSE,FALSE,FALSE,FALSE,F
 Cappadocian Greek,20218,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Lechitic,20223,Europe,namebases-europe.js,31,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,20000+,100
 Montenegrin,20306,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
-Franglish,20308,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
+Franglish,20308,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Solombala-English,20309,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Slavic,20328,Europe,namebases-europe.js,50,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Slovene,20332,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Scots,20336,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Yiddish,30049,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ae,20000+,100
 Nahuatl,13,NorthAmerica,namebases-northAmerica.js,48,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,azc-MX,1-999,100
-Chuj,510,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,may-GT,1-999,100
+Chuj,510,NorthAmerica,namebases-northAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,may-GT,1-999,100
 Cree,725,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cr-CA,1-999,100
 Ojibwe,726,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,oj-CA,1-999,100
 Apache,730,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1969,7 +1968,7 @@ O'odham,1510,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,F
 Pima Bajo,1511,NorthAmerica,namebases-northAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Isthmus Zapotec,2032,NorthAmerica,namebases-northAmerica.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,100
 Keresan,2239,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Yucatec-Maya,2550,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
+Yucatec-Maya,2550,NorthAmerica,namebases-northAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Mam,2551,NorthAmerica,namebases-northAmerica.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Mixtec,2553,NorthAmerica,namebases-northAmerica.js,13,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Zapotec,2555,NorthAmerica,namebases-northAmerica.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
@@ -1981,9 +1980,9 @@ Garifuna,2579,NorthAmerica,namebases-northAmerica.js,30,normal,FALSE,FALSE,FALSE
 Huichol,2581,NorthAmerica,namebases-northAmerica.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Yaqui,2582,NorthAmerica,namebases-northAmerica.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Cherokee,2583,NorthAmerica,namebases-northAmerica.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
-Lakota,2607,NorthAmerica,namebases-northAmerica.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
-Dakota,2608,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
-Blackfoot,2609,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
+Lakota,2607,NorthAmerica,namebases-northAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
+Dakota,2608,NorthAmerica,namebases-northAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
+Blackfoot,2609,NorthAmerica,namebases-northAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Mohawk,2610,NorthAmerica,namebases-northAmerica.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Salish,2613,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Quechua,26,SouthAmerica,namebases-southAmerica.js,201,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,l,1-999,100
