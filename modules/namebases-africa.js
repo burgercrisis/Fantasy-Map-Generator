@@ -1889,7 +1889,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tawellemmet,Mosul,Ain Sefra,Tamanrasset,Algeria,Sahara Desert,North Africa"
+    "b": "Agadez,Tahoua,Arlit,Kidal,Menaka,Tessalit,Gao,Ingall,Iferouane,Timia,Bilma,Tchin-Tabaraden,Anderamboukane,Abalak,Madaoua,Konni,Bouza,Keita,Illéla,Dakoro,Tanout,Tassara,Tillia,Abala,Filingué"
   },
   {
     "name": "Dghwede",
@@ -3473,7 +3473,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ghadames,Ghat,Fezzan,Nalut,Algeria,Sahara Desert,North Africa"
+    "b": "Ghadames,Nalut,Derj,Sinawan,Wazzin,Ghat,Ubari,Murzuq,Sabha,Jadu,Yefren,Zintan,Kabaw,Zuwara,Zuwarah,Sabratha,Sorman,Gharyan,Mizda,Bani Walid,Tarhuna,Zawiya,Tripoli,Ajdabiya,Sirte"
   },
   {
     "name": "Guanche",
@@ -3518,7 +3518,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bissau,Bafatá,Bijagós,Guinea-Bissau,West Africa,Lusophone,Atlantic Coast"
+    "b": "Bissau,Bafatá,Gabú,Cacheu,Bolama,Mansôa,Catió,Canchungo,Farim,Quinhámel,Buba,Bubaque,Fulacunda,Bambadinca,Sonaco,Pirada,Bigene,Safim,Ziguinchor,Kolda,Sédhiou,Oussouye,Bignona,Goudomp,Diouloulou"
   },
   {
     "name": "Gurara",
@@ -3608,7 +3608,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guruntum,Shelleng,Tel,Kambari,Adamawa State,Nigeria,North East"
+    "b": "Bauchi,Alkaleri,Kuuku,Gayar,Mbaaru,Dooka,Gar,Karakara,Tafawa Balewa,Dass,Bogoro,Kirfi,Darazo,Ganjuwa,Ningi,Warji,Misau,Jama'are,Itas,Gadau,Zaki,Katagum,Azare,Shira,Giade"
   },
   {
     "name": "Gvoko",
@@ -4238,7 +4238,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Praia,Mindelo,Santa Maria,Espargos,Assomada,Porto Novo,São Filipe"
+    "b": "Praia,Mindelo,Santa Maria,Espargos,Assomada,Porto Novo,São Filipe,Tarrafal,Pedra Badejo,São Domingos,Calheta,Mosteiros,Vila Nova Sintra,Ribeira Grande,Ponta do Sol,Sal Rei,Ribeira Brava,Vila do Maio,Cidade Velha,Cova Figueira,João Teves,Rui Vaz,Achada Fazenda,Orgãos,Chã de Igreja"
   },
   {
     "name": "Avokaya",
