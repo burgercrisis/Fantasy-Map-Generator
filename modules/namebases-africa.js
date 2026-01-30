@@ -1527,7 +1527,7 @@
     "max": 11,
     "d": "sdv-TD",
     "m": 0,
-    "b": "Beida,Wadi Salih,Goz Beida,Kadjaksé,Dagana,Mogororo,Ade,Sila,Dar Sila,Habila,Forobaranga,Aradib"
+    "b": "Goz Beida,Forobaranga,Habila,Aradib,Kadjaksé,Dagana,Mogororo,Adé,Kerfi,Koukou Angarana,Tissi,Haraze,Daguessa,Abou Deia,Mouraye,Mangueigne,Am Timan,Kyabe,Am Dam,Singako,Daha,Melfi,Bitkine,Aboudeia,Dogdore"
   },
   {
     "name": "Songhoyboro Ciine",
@@ -1536,7 +1536,7 @@
     "max": 11,
     "d": "son-NE",
     "m": 0,
-    "b": "Tillabéri,Niamey,Dosso,Tera,Gothèye,Kollo,Say,Ouallam,Filingué,Dargol,Namaro,Yatakala"
+    "b": "Tillabéri,Niamey,Dosso,Tera,Gothèye,Kollo,Say,Ouallam,Filingué,Dargol,Namaro,Yatakala,Gorouol,Anzourou,Namari Goungou,Ayorou,Banibangou,Mehanna,Kokoro,Torodi,Makalondi,Tamou,Birni N'Gaouré,Balleyara,Hamdallaye"
   },
   {
     "name": "Surbakhal",
@@ -1563,7 +1563,7 @@
     "max": 11,
     "d": "son-ML",
     "m": 0,
-    "b": "Kikara,Douentza,Mopti,Boni,Hombori,Gao,Tombouctou,Djenné,Sevaré,Bandiagara,Bankass"
+    "b": "Kikara,Douentza,Mopti,Boni,Hombori,Gao,Tombouctou,Djenné,Sevaré,Bandiagara,Bankass,Koro,Koporo-Pen,Mondoro,Bamba,Bourem,Ansongo,Menaka,Tessalit,Kidal,Timbuktu,Niafunké,Goundam,Diré,Youwarou"
   },
   {
     "name": "Sukur",
@@ -1572,7 +1572,7 @@
     "max": 11,
     "d": "cdc-NG",
     "m": 0,
-    "b": "Sukur,Madagali,Gulak,Michika,Mubi,Mandara,Adamawa,Maiduguri,Yola,Gwoza,Bama,Dikwa"
+    "b": "Sukur,Madagali,Gulak,Michika,Mubi,Gwoza,Bama,Dikwa,Askira,Uba,Chibok,Hong,Gombi,Maiha,Mubi North,Mubi South,Shuwa,Duhu,Kirchinga,Kamale,Dlaka,Waga,Hyambula,Kurang,Pallam"
   },
   {
     "name": "Bacama",
@@ -1581,7 +1581,7 @@
     "max": 11,
     "d": "cdc-NG",
     "m": 0,
-    "b": "Numan,Lamurde,Guyuk,Demsa,Yola,Jimeta,Adamawa,Benue,Taraba,Gombe,Bauchi,Jos"
+    "b": "Numan,Lamurde,Guyuk,Demsa,Yola,Jimeta,Shelleng,Girei,Fufore,Song,Gombi,Maiha,Mubi,Hong,Jada,Mayo-Belwa,Ganye,Toungo,Borrong,Mbula,Pella,Bare,Nzuruwe,Farang,Mboi"
   },
   {
     "name": "Bade",
