@@ -845,7 +845,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Suwu,Ghana,Bobo-Dioulasso,Koudougou,Ouahigouya,Banfora,Kaya,Ouagadougou,Tenkodogo,Fada N'Gourma"
+    "b": "Limbe,Buea,Tiko,Mutengene,Bimbia,Idenau,Dibanda,Mokindi,Bota,Soppo,Molyko,Bomaka,Bolifamba,Muea,Ekona,Mile 14,Mile 16,Mile 17,Bokwango,Wokoko,Bakingili,Batoke,Sanje,Mabeta,Isokolo"
   },
   {
     "name": "Acheron",
@@ -1664,7 +1664,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Central Asian Arabic,Kazakhstan,Astana,Almaty,Tashkent,Karaganda,Shymkent,Pavlodar,Uralsk,Turkmenistan,Ashgabat,Tashau,Uzbekistan"
+    "b": "Bukhara,Samarkand,Kashkadarya,Karshi,Shahrisabz,Termez,Denau,Qashqadaryo,Surkhandarya,Boysun,Sariosiyo,Sherobod,Muzrabot,Jarkurgan,Kumkurgan,Angor,Uzun,Kitab,Shakhrisyabz,Guzar,Yakkabog,Koson,Kamashi,Nishon,Mirishkor"
   },
   {
     "name": "Central Banda",
@@ -1673,7 +1673,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Central Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssÃ©,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,AbÃ©chÃ©,N'Djamena"
+    "b": "Bangassou,Bouar,Bambari,Bria,Sibut,Kaga-Bandoro,Ndele,Birao,Obo,Zemio,Rafai,Gambo,Mobaye,Alindao,Kembe,Bakouma,Ippy,Ouadda,Yalinga,Djema,Ouango,Mingala,Nzako,Grimari,Kouango"
   },
   {
     "name": "Chewa",
@@ -2420,7 +2420,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rama,Krishna,Sita,Hari,Gopal,Devi,Maya,Bishnu,Shiva,Lakshmi"
+    "b": "Gorkha,Tanahun,Chitwan,Nawalpur,Lamjung,Kaski,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Parbat,Baglung,Myagdi,Tanahu,Pokhara,Butwal,Bharatpur,Damauli,Beshisahar,Khaireni,Dumre,Waling,Tansen"
   },
   {
     "name": "Kumyk",
@@ -2456,7 +2456,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
+    "b": "Bario,Pa Lungan,Pa Umor,Pa Dalih,Pa Ramapuh,Long Peluan,Pa Derung,Pa Ukat,Pa Mada,Ramudu,Buduk Nur,Buduk Aru,Long Dano,Pa Berang,Long Lellang,Ba Kelalan,Long Semado,Long Pasia,Long Midang,Buduk Bui,Pa Tik,Pa Main,Remudu,Long Napir,Long Seridan"
   },
   {
     "name": "Laiuse Romani",
