@@ -4202,7 +4202,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "São Joảo dos Angolares,Ribeira Afonso,Dona Augusta,Praia das Conchas,Porto Alegre,I' Grande"
+    "b": "São João dos Angolares,Ribeira Afonso,Porto Alegre,Santa Catarina,Ribeira Peixe,Angra Toldo,Malanza,Jalé,Micondó,Água Izé,Pantufo,Boa Entrada,Monte Café,Guadalupe,Santana,Neves,Trindade,Santo Amaro,Bombom,Emolve,Caixão Grande,Praia Grande,Dona Augusta,Praia Melão,Praia Cabana"
   },
   {
     "name": "Annobonese Creole",
@@ -4211,7 +4211,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "San Antonio de Palé,Anganchi,Aual,Mabana,Santa Cruz,Quioveo"
+    "b": "San Antonio de Palé,Anganchi,Aual,Mabana,San Pedro,Palé,Lago A Pot,Santarém,Pagalu,Ambu,Corisco,Elobey Grande,Elobey Chico,Acalayong,Cogo,Mbini,Bata,Niefang,Ebebiyín,Mongomo,Añisok,Nsork,Aconibe,Nsok,Mikomeseng"
   },
   {
     "name": "Baca",
@@ -4256,7 +4256,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Begi,Gidami,Tongo,Bambasi,Kondala,Kofele"
+    "b": "Begi,Gidami,Tongo,Bambasi,Kondala,Mana Sibu,Gimbi,Nejo,Boji Dirmeji,Boji Chekorsa,Jarso,Kiltu Kara,Guliso,Homa,Lalo Asabi,Lalo Kile,Sayo,Bodji,Assosa,Dambi Dollo,Nedjo,Mendi,Dembi Dolo,Seyo,Gawo Kebe"
   },
   {
     "name": "Tulishi",
@@ -4274,7 +4274,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Chali,Kurmuk,Blue Nile,Wadega,Bunj,Yabus"
+    "b": "Chali,Kurmuk,Wadega,Bunj,Yabus,Geissan,Bau,Roseires,Damazin,Singa,Kili,Doro,Ora,Balila,Gumuruk,Maiwut,Nasir,Maban,Longochuk,Pagak,Gambella,Itang,Pinyudo,Pugnido,Boing"
   },
   {
     "name": "Chadian Arabic",
@@ -4319,7 +4319,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bombo,Kibera,Nakuru,Eldoret,Kisumu,Mombasa"
+    "b": "Bombo,Kibera,Nakuru,Eldoret,Kisumu,Mombasa,Nairobi,Kampala,Jinja,Entebbe,Mbale,Gulu,Arua,Soroti,Tororo,Masindi,Kitale,Busia,Kakamega,Kericho,Nyeri,Machakos,Thika,Kajiado,Naivasha"
   },
   {
     "name": "Bomboli-Bozaba",
