@@ -10,9 +10,9 @@ BY CONTINENT:
   Unknown: 237
 
 BY BASE SIZE CATEGORY:
-  small: 2016
+  small: 2011
   large: 61
-  normal: 190
+  normal: 195
 
 BY QUALITY SCORE:
   Excellent (95+): 2253

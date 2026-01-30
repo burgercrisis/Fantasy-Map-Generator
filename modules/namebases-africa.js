@@ -2258,7 +2258,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bafoussam,Mbouda,Bandjoun,Baham,Bayangam,Bamendjou,Bansoa,Batcham,Baleng,Bafounda,Bamougoum,Bameka"
+    "b": "Bafoussam,Mbouda,Bandjoun,Baham,Bayangam,Bamendjou,Bansoa,Batcham,Baleng,Bafounda,Bamougoum,Bameka,Dschang,Foumban,Foumbot,Bangangté,Bafang,Bana,Bazou,Bangang,Balessing,Bandenkop,Bangou,Foto,Fotouni,Galim,Kékem,Santchou,Tonga,Penka-Michel,Nkong-Ni,Bangwa,Batié,Batie,Bangoua,Bamendou,Fondonera,Fossong,Fomopéa"
   },
   {
     "name": "Gikuyu",
@@ -2267,7 +2267,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nyeri,Murang'a,Kiambu,Kerugoya,Othaya,Karatina,Limuru,Thika,Githunguri,Gatundu,Maragua,Kandara"
+    "b": "Nyeri,Murang'a,Kiambu,Kerugoya,Othaya,Karatina,Limuru,Thika,Githunguri,Gatundu,Maragua,Kandara,Ruiru,Juja,Kikuyu,Kabete,Ruaka,Karuri,Ndumberi,Wangige,Kinoo,Kangemi,Dagoretti,Naivasha,Gilgil,Narok,Kijabe,Uplands,Mwea,Makuyu,Kenol,Sagana,Kutus,Wanguru,Embu,Kirinyaga,Nanyuki,Kagio"
   },
   {
     "name": "Goundo",
@@ -2276,7 +2276,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pala,Léré,Fianga,Binder,Gounou Gaya,Kélo,Bongor,Moundou,Doba,Koumra,Sarh,Kyabé"
+    "b": "Pala,Léré,Fianga,Binder,Gounou Gaya,Kélo,Bongor,Moundou,Doba,Koumra,Sarh,Kyabé,Guelendeng,Laï,Béré,Torrock,Gagal,Lamé,Guidari,Pont Carol,Djodo Gassa,Mayo Boneye,Domo,Moulkou,Hollom,Tagobo,Kim,Zimado,Tikem,Djouman,Yagoua,Guégou,Goundo,Mbikou,Ngam"
   },
   {
     "name": "Gourmanché",
@@ -2285,7 +2285,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fada N'gourma,Pama,Diapaga,Bogandé,Kantchari,Matiacoali,Gayéri,Piéla,Bilanga,Manni,Botou,Tambaga"
+    "b": "Fada N'gourma,Pama,Diapaga,Bogandé,Kantchari,Matiacoali,Gayéri,Piéla,Bilanga,Manni,Botou,Tambaga,Coalla,Yamba,Tibga,Namounou,Logobou,Tansarga,Partiaga,Thion,Kompienga,Madjoari,Folpodi,Koaré,Bartiébougou,Soudougui,Nagré,Tanwalbougou,Natiaboani,Dakiri,Ougarou,Liptougou,Gourcy,Koupéla,Pouytenga,Tenkodogo"
   },
   {
     "name": "Joseon Korean Early Modern",
@@ -2303,7 +2303,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Katiola,Niakaramandougou,Tortiya,Fronan,Arikokaha,Badikaha,Tafiré,Niédiékaha,Kanawolo,Korhogo,Dikodougou,Sinématiali,Niakara"
+    "b": "Katiola,Niakaramandougou,Tortiya,Fronan,Arikokaha,Badikaha,Tafiré,Niédiékaha,Kanawolo,Korhogo,Dikodougou,Sinématiali,Niakara,Dabakala,Bouaké,Sakassou,Béoumi,Bodokro,Diabo,Brobo,Botro,Kounahiri,Tiemelekro,Kondrobo,Mbahiakro,Prikro,Daoukro,Ouellé,Satama-Sokoura,Satama-Sokoro,Sokoro,Tiéningboué,Mankono"
   },
   {
     "name": "Western Berber family",
