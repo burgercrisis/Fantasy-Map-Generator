@@ -818,7 +818,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "cus-ET",
     "m": 0,
-    "b": "Gambela,Itang,Jikawo,Gog,Pagak,Nasir,Mading,Dembi,Bure,South Sudan,South Omo"
+    "b": "Anderaccha,Gecha,Kaabo,Tepi,Mizan Teferi,Masha,Yeki,Sheko,Sheka,Bonga,Bebeka,Decha,Gimbo,Gewata,Godare,Guraferda,Menit,Bench Maji,Shay Bench,Gidi,Tum,Gacheb,Yepho,Saja,Koisha,Gizera,Chena,Anderacha,Keficho"
   },
   {
     "name": "Baka",
@@ -1052,7 +1052,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Gase,Gai,Gasa,Gan,Gaixom,Gaiigas,Gaib,Gais,Gauida,GGai,GGaiim,GGauis"
+    "b": "Ghanzi,Rakops,New Xade,Kaudwane,Molapo,Mothomelo,Xere,Kukama,Gope,Metsiamenong,Khutse,Bere,Piper Pan,Deception Valley,Passarge Valley,Letiahau,Motokwe,Kuke,Tsau,Maun,Sehitwa,Toteng,Shakawe,Gumare,Nokaneng,Etsha,Seronga,Nata,Gweta,Kazungula"
   },
   {
     "name": "Ju|'hoan Click",
@@ -1070,7 +1070,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Monrovia,Harper,Buchanan,Greenville,Frutehn,Grand Cess,Cape Palmas,Sinoe River,Palm Grove,Barclayville,Kanweaken,Konobo,Tabou,Sassandra,San Pedro,Abidjan,Paynesville,New Kru Town,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Gbarnga,Kakata,Tubmanburg,Robertsport,Bensonville"
+    "b": "Monrovia,Harper,Buchanan,Greenville,Frutehn,Grand Cess,Barclayville,Kanweaken,Konobo,Tabou,Sassandra,San Pedro,Abidjan,Paynesville,Gbarnga,Kakata,Tubmanburg,Robertsport,Bensonville,Pleebo,Fish Town,Zwedru,River Cess,Cestos City,Sasstown,Nana Kru,Picnicess,Grand Kru,Webbo,Nyaake,Garraway,Wlogba,Klowein,Blebo,Tienpo,Grandcess"
   },
   {
     "name": "Liberian Interior Pidgin English",
@@ -1556,7 +1556,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Biu-Mandara,Mafa,Giziga,Mandara,Mokoko,Mofu,Bata,Guduf,Zizilivakan,Muyang,Dghwede,Biya"
+    "b": "Biu,Maroua,Mokolo,Mora,Gwoza,Mubi,Madagali,Michika,Askira,Uba,Chibok,Damboa,Pulka,Limankara,Ngoshe,Kirchinga,Koza,Kolofata,Tokombere,Waza,Fotokol,Kousseri,Kerawa,Mozogo,Rhumsiki,Meri,Bourha,Hina,Mindif,Moulvoudaye"
   },
   {
     "name": "Birri",
@@ -1565,7 +1565,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'DÃ©lÃ©,Kaga Bandoro,Sibut,Alindao"
+    "b": "Bamingui,Bangor,Ouadda,Bria,Birao,Ndele,Kaga Bandoro,Sibut,Alindao,Bangassou,Rafai,Zemio,Obo,Djema,Gambo,Mobaye,Kembe,Bakouma,Nzacko,Ouango,Ippy,Mingala,Mbres,Bamingui-Bangoran,Vakaga,Haute-Kotto,Basse-Kotto"
   },
   {
     "name": "Sinyar",
