@@ -834,7 +834,7 @@
     "max": 11,
     "d": "nic-TD",
     "m": 0,
-    "b": "Goz Beida,Am Dam,Koukou Angarana,Ade,Mongororo,Tissi,Haraze,Birao,Ndele,Ouadda Haddad,Abgue,Djouna"
+    "b": "Goz Beida,Am Dam,Koukou Angarana,Tissi,Haraze,Birao,Ndele,Am Timan,Mangueigne,Abou Deia,Mouraye,Daguessa,Zakouma,Sarh,Kyabe,Singako,Daha,Melfi,Bitkine,Aboudeia,Dogdore,Mongo,Bokoro,Ati,Massaguet"
   },
   {
     "name": "Amdang",
@@ -843,16 +843,16 @@
     "max": 11,
     "d": "nic-TD",
     "m": 0,
-    "b": "Biltine,Arada,Iriba,Guereda,Am Zorer,Matadjana,Kalait,Fada,Oum Chalouba,Wadi Fira,Kapka,Bao"
+    "b": "Biltine,Arada,Iriba,Guereda,Am Zoer,Matadjana,Kalait,Fada,Oum Chalouba,Abéché,Adré,Am Dam,Goz Beida,Koukou Angarana,Ouaddaï,Kobo,Kouchane,Sounta,Yaouada,Tere,Farchana,Ouara,Molou,Guéna,Habila"
   },
   {
-    "name": "Doghose",
+"name": "Doghose",
     "i": 582,
     "min": 4,
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
+    "b": "Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Gbomblora,Tiankoura,Dano,Dissin,Iolonioro,Niangoloko,Banfora,Sindou,Orodara,Mangodara,Dakoro,Douna,Niankorodougou,Wolonkoto,Tiéfora,Soubakaniédougou,Moussodougou,Ouéléni,Kankalaba"
   },
   {
     "name": "Afade",
@@ -879,7 +879,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Biu,Gombi,Marama,Kubit,Hyambula,Askira,Uba,Pella,Shani,Chibok,Gwoza,Michika"
+    "b": "Biu,Gombi,Marama,Kubit,Hyambula,Askira,Uba,Shani,Chibok,Gwoza,Michika,Hawul,Kwaya Kusar,Damboa,Bama,Konduga,Maiduguri,Jere,Kaga,Monguno,Nganzai,Magumeri,Guzamala,Mobbar,Abadam"
   },
   {
     "name": "Bure",
@@ -969,7 +969,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mbem,Rom,Kwak,Ntong,Ngung,Mfe,Bom,Gamfe,Yang,Nwa,Sabongari,Gom"
+    "b": "Mbem,Ntem,Nkot,Kwak,Ntong,Mfe,Bom,Nwa,Nkambe,Misaje,Ako,Mbiame,Oku,Kumbo,Binka,Ndu,Jakiri,Bamunka,Ndop,Bamessing,Bafut,Njinikom,Fundong,Belo,Wum"
   },
   {
     "name": "Saba",
