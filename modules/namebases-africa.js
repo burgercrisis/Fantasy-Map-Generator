@@ -1761,7 +1761,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cilician Arabic,Adana,Mersin,Turkey,Mediterranean Coast,Cilicia,Tarsus"
+    "b": "Adana,Mersin,Tarsus,Antakya,Iskenderun,Ceyhan,Kozan,Silifke,Erdemli,Anamur,Dörtyol,Kırıkhan,Reyhanlı,Samandağ,Altınözü,Hassa,Arsuz,Belen,Yayladağı,Kumlu,Erzin,İmamoğlu,Karataş,Yumurtalık,Mut"
   },
   {
     "name": "Classical Arabic",
@@ -1797,7 +1797,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dendi,Niamey,Maradi,Tahoua,Zinder,Niger,West Africa,Sahel"
+    "b": "Malanville,Karimama,Kandi,Banikoara,Ségbana,Gogounou,Sinendé,Bembèrèkè,Parakou,Nikki,Pèrèrè,Kalalé,Djougou,Copargo,Ouaké,Kouandé,Natitingou,Kérou,Péhunco,Tchaourou,Bassila,N'Dali,Bétérou,Ndali,Guéné"
   },
   {
     "name": "Jerba Berber",
@@ -1806,7 +1806,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jerba Berber,Jerba,Tataouine,Morocco,Atlas Mountains,North Africa"
+    "b": "Houmt Souk,Midoun,Ajim,Guellala,El May,Sedouikech,Mahboubine,Cedriyan,Er-Riadh,Mellita,Fatou,Mezraya,Aghir,Taguermess,Medenine,Zarzis,Ben Gardane,Gabès,Mareth,Matmata,Douz,Remada,Beni Kheddache,Sidi Makhlouf,Ghomrassen"
   },
   {
     "name": "Matmata Berber",
@@ -1851,7 +1851,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dghwede,Gwoza,Bama,Bornu State,Nigeria,North East,West Africa"
+    "b": "Gwoza,Pulka,Limankara,Ashigashiya,Kirawa,Warabe,Ngoshe,Gavva,Hambagda,Izge,Agapalwa,Bama,Konduga,Dikwa,Damboa,Chibok,Askira,Hawul,Kwaya Kusar,Biu,Shani,Maiduguri,Monguno,Ngala,Kala Balge"
   },
   {
     "name": "Dida",
@@ -1860,7 +1860,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dida,Daloa,Abidjan,Yamoussoukro,C'te d'Ivoire,West Africa"
+    "b": "Divo,Guitry,Lakota,Fresco,Grand-Lahou,Jacqueville,Dabou,Tiassalé,N'Douci,Sikensi,Gagnoa,Oumé,Issia,Sinfra,Vavoua,Bouaflé,Zuénoula,Soubré,San-Pédro,Sassandra,Buyo,Guibéroua,Hiré,Taabo,Djékanou"
   },
   {
     "name": "Dizoid",
