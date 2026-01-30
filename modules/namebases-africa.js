@@ -771,7 +771,7 @@
     "max": 11,
     "d": "cus-ET",
     "m": 0,
-    "b": "Gambela,Itang,Jikawo,Gog,Pagak,Nasir,Mading,Dembi,Bure,South Sudan,South Omo"
+    "b": "Gambela,Itang,Gog,Abobo,Jikawo,Lare,Akobo,Pochalla,Godere,Tepi,Masha,Anderaccha,Gecha,Kaabo,Mizan,Bebeka,Didu,Dima,Yeki,Sheka,Tum,Mengesh,Gesha,Gimbi,Metu"
   },
   {
     "name": "Baka",
@@ -825,7 +825,7 @@
     "max": 11,
     "d": "nic-CM",
     "m": 0,
-    "b": "Wum,We,Zhoa,Bu,Kuk,Nyos,Fang,Isu,Kung,Benakuma,Bawuru,Menchum"
+    "b": "Wum,We,Zhoa,Bu,Kuk,Nyos,Fang,Isu,Kung,Benakuma,Bawuru,Menchum,Esu,Weh,Fungom,Bum,Zoa,Furu-Awa,Koshin,Mmen,Abar,Befang,Obang,Ngwo,Mundum"
   },
   {
     "name": "Aiki",
@@ -870,7 +870,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Djibouti,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Assab,Edd,Ti'o,Afambo,Asaita,Dubti"
+    "b": "Djibouti,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Assab,Edd,Afambo,Asaita,Dubti,Semera,Logiya,Awash,Gewane,Mille,Elidar,Erebti,Chifra,Yalo,Teru,Dicil,Beilul,Rahayta,Thio"
   },
   {
     "name": "Bura",
@@ -951,7 +951,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yambio,Nzara,Ezo,Tombura,Maridi,Ibba,Li-Rangu,Gangura,Ri-Yubu,Obo,Zemio,Rafai"
+    "b": "Yambio,Nzara,Ezo,Tombura,Maridi,Ibba,Li-Rangu,Gangura,Ri-Yubu,Obo,Zemio,Rafai,Nagero,Tambura,Naandi,Sakure,Bangasu,Wau,Bahr el Ghazal,Deim Zubeir,Raga,Bangadi,Dungu,Isiro,Faradje,Ango"
   },
   {
     "name": "Wannu",
@@ -1005,7 +1005,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Gase,Gai,Gasa,Gan,Gaixom,Gaiigas,Gaib,Gais,Gauida,GGai,GGaiim,GGauis"
+    "b": "Ghanzi,Dekar,Kang,Tshane,Rakops,Molapo,Motokwe,Bere,Qabo,Xade,New Xade,Kuke,Khutse,Dutlwe,Letlhakeng,Sorilatholo,Takatokwane,Makalamabedi,Mopipi,Nata,Gweta,Mababe,Maun,Nxai Pan,Serowe"
   },
   {
     "name": "Ju|'hoan Click",
