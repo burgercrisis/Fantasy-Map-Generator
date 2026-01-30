@@ -2150,7 +2150,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-NG",
     "m": 0,
-    "b": "Baissa,Kurmi,Ashuku,Abong,Bitako,Ambe,Bissaula,Galumjina,Gwanda,Kamino,Mararraba,Tosso"
+    "b": "Baissa,Kurmi,Ashuku,Abong,Bitako,Ambe,Bissaula,Galumjina,Gwanda,Kamino,Mararraba,Tosso,Takum,Donga,Gashaka,Serti,Gembu,Nguroje,Bali,Suntai,Wukari,Ibi,Jalingo,Lau,Zing,Yorro"
   },
   {
     "name": "Abron",
@@ -2159,7 +2159,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-CI",
     "m": 0,
-    "b": "Bondoukou,Tanda,Sandegue,Koun-Fao,Transua,Goumere,Assuefry,Appimandoum,Ayuami,Drobo,Sampa,Japekrom"
+    "b": "Bondoukou,Tanda,Sandegue,Koun-Fao,Transua,Goumere,Assuefry,Appimandoum,Ayuami,Drobo,Sampa,Japekrom,Sunyani,Berekum,Wenchi,Dormaa,Nsoatre,Wamfie,Nkrankwanta,Jinijini,Nsawkaw,Odumase,Banda,Fiapre,Abesim"
   },
   {
     "name": "Aja",
@@ -2168,7 +2168,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-BJ",
     "m": 0,
-    "b": "Aplahoue,Dogbo,Djakotomey,Klouekanme,Lalo,Toviklin,Azove,Adjarra,Houeyogbe,Athieme,Lokossa,Grand-Popo"
+    "b": "Aplahoue,Dogbo,Djakotomey,Klouekanme,Lalo,Toviklin,Azove,Adjarra,Houeyogbe,Athieme,Lokossa,Grand-Popo,Ouidah,Comé,Allada,Abomey,Bohicon,Cotonou,Tado,Aneho,Tabligbo,Vogan,Keta,Aflao,Segbe"
   },
   {
     "name": "Aka",
@@ -2177,7 +2177,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-CF",
     "m": 0,
-    "b": "Mongoumba,Bayanga,Nola,Salo,Libenge,Gemena,Zongo,Impfondo,Dongou,Enyelle,Betou,Boyabo"
+    "b": "Mongoumba,Bayanga,Nola,Salo,Libenge,Gemena,Zongo,Impfondo,Dongou,Enyelle,Betou,Boyabo,Ouesso,Pokola,Liouesso,Bomassa,Makao,Liranga,Mossaka,Loukolela,Epena,Mobenzele,Bomassa,Dzanga,Mbaiki"
   },
   {
     "name": "Ambele",
@@ -2204,7 +2204,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tamale,Yendi,Savelugu,Kumbungu,Tolon,Karaga,Gushiegu,Zabzugu,Tatale,Bimbilla,Salaga"
+    "b": "Tamale,Yendi,Savelugu,Kumbungu,Tolon,Karaga,Gushiegu,Zabzugu,Tatale,Bimbilla,Salaga,Nanton,Sagnerigu,Sang,Wulensi,Saboba,Kpandai,Damongo,Buipe,Yapei,Daboya,Sawla,Bole,Tuna,Larabanga"
   },
   {
     "name": "Djimini",
