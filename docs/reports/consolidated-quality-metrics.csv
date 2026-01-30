@@ -15,7 +15,7 @@ Gurage,31,Africa,namebases-africa.js,54,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALS
 Berber (Maghreb),37,Africa,namebases-africa.js,71,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,afa-DZ,1-999,100
 Sekele,39,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Taa Click,41,Africa,namebases-africa.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
-Nama Click,43,Africa,namebases-africa.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
+Nama Click,43,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Ju/'hoan Click,47,Africa,namebases-africa.js,47,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Hadza Click,48,Africa,namebases-africa.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Sandawe Click,49,Africa,namebases-africa.js,17,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
@@ -39,11 +39,11 @@ Singaporean Mandarin,175,Africa,namebases-africa.js,15,small,FALSE,FALSE,FALSE,F
 Juk (Bahnaric),184,Africa,namebases-africa.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Wa,185,Africa,namebases-africa.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Benabena,201,Africa,namebases-africa.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Bulu,241,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Bulu,241,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Busa,242,Africa,namebases-africa.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bushong,243,Africa,namebases-africa.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bwela,244,Africa,namebases-africa.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Buyu,245,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Buyu,245,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cameroonian Pidgin,246,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cameroonian Pidgin English,247,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bole Tangale,248,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -90,7 +90,7 @@ Werni,510,Africa,namebases-africa.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALS
 Zhire,511,Africa,namebases-africa.js,49,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cdc-NG,1-999,100
 Zhoa,526,Africa,namebases-africa.js,40,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,100
 Shabo,530,Africa,namebases-africa.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cus-ET,1-999,100
-Baka,542,Africa,namebases-africa.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,100
+Baka,542,Africa,namebases-africa.js,25,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,80
 Sucite,543,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-ML,1-999,100
 Suwu,544,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-BF,1-999,100
 Acheron,545,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-SD,1-999,100
@@ -118,7 +118,7 @@ Naro Click,632,Africa,namebases-africa.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALS
 G!ui Click,633,Africa,namebases-africa.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Ju|'hoan Click,634,Africa,namebases-africa.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Kru Pidgin English,666,Africa,namebases-africa.js,36,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1-999,100
-Liberian Interior Pidgin English,667,Africa,namebases-africa.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Liberian Interior Pidgin English,667,Africa,namebases-africa.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bakhtiari Arabic,680,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Eton,692,Africa,namebases-africa.js,33,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-CM,1-999,100
 Fur,696,Africa,namebases-africa.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100

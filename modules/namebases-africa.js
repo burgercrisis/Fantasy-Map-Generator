@@ -152,7 +152,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,GrÃ¼nau,Holoog,Koes,Koeras,Gruenau,Kub"
+    "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Gibeon,Helmeringhausen,Grunau,Koes,Aroab,Berseba,Tses,Maltahohe,Schlip,Hoachanas,Stampriet,Gochas,Aranos,Leonardville,Rehoboth,Windhoek,Okahandja,Otjiwarongo"
   },
   {
     "name": "Ju/'hoan Click",
@@ -368,7 +368,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Yaounde,Douala,Edea,Ngoulemakong"
+    "b": "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Yaounde,Douala,Edea,Ngoulemakong,Akom,Bipindi,Lolodorf,Mvila,Mengong,Bengbis,Zoetele,Nkpwang,Olamze,Efoulan,Meyo,Minta,Endom"
   },
   {
     "name": "Busa",
@@ -404,7 +404,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Goma,Kindu,Manono,Kabalo,Kisangani,Lubumbashi,Kolwezi"
+    "b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Goma,Kindu,Manono,Kabalo,Kisangani,Lubumbashi,Kolwezi,Moba,Kongolo,Nyunzu,Ankoro,Pweto,Kasenga,Kipushi,Likasi,Kamina,Kabongo,Kaniama,Luena,Sandoa"
   },
   {
     "name": "Cameroonian Pidgin",
@@ -827,7 +827,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-CM",
     "m": 0,
-    "b": "Yokadouma,Moloundou,LomiÃ©,Messok,Mintom,Ngoyla,Djoum,SangmÃ©lima,Batouri"
+    "b": "Yokadouma,Moloundou,Lomie,Messok,Mintom,Ngoyla,Djoum,Sangmelima,Batouri,Abong-Mbang,Mindourou,Somalomo,Lomie,Ngoila,Mouloundou,Salapoumbe,Gari-Gombo,Mbang,Doumaintang,Angossas,Dimako,Doume,Bertoua,Garoua-Boulai,Ndelele"
   },
   {
     "name": "Sucite",
@@ -1079,7 +1079,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Monrovia,Gbarnga,Harper,Buchanan,Kakata,Zwedru,Voinjama,Tappita,Sanniquellie"
+    "b": "Monrovia,Gbarnga,Harper,Buchanan,Kakata,Zwedru,Voinjama,Tappita,Sanniquellie,Tubmanburg,Robertsport,Bensonville,Harbel,Paynesville,Totota,Salala,Bopolu,Foya,Kolahun,Zorzor,Saclepea,Ganta,Karnplay,Pleebo,Greenville"
   },
   {
     "name": "Bakhtiari Arabic",
