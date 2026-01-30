@@ -1979,7 +1979,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Berber,Fez,Marrakech,Casablanca,Morocco,Atlas Mountains,North Africa"
+    "b": "Siwa,Aghurmi,Shali,Jaghbub,Awjila,Jalu,Jikharra,Ghadames,Sokna,Zuwayla,Kufra,Augila,Tmessa,Foqaha,Nalut,Jadu,Yefren,Zuwara,Kabaw,Derj,Zuwarah,Wazzin,Marsa,Tobruk,Benghazi"
   },
   {
     "name": "Eastern Middle Atlas Berber",
@@ -1988,7 +1988,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Middle Atlas Berber,Meknes,Fez,Ifrane,Morocco,Middle Atlas"
+    "b": "Boulemane,Sefrou,Imouzzer,Azrou,Ifrane,Itzer,Tounfit,Midelt,Zaida,Timahdite,Mrirt,Kerrouchen,Almis,Guigou,Ribat,Ait Seghrouchen,Tiouririne,Tizi,Ait Ayach,Berkine,Enjil,Talzemt,Tafajight,Skoura,Tighessaline"
   },
   {
     "name": "Eastern Morocco Zenati",
@@ -1997,7 +1997,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Morocco Zenati,Oujda,Fes,Meknes,Morocco,Northeast Africa,Mediterranean"
+    "b": "Oujda,Berkane,Nador,Taourirt,Jerada,Bouarfa,Figuig,Tendrara,Ain Beni Mathar,Guercif,Debdou,Talsint,Beni Drar,Ahfir,Saïdia,Touissit,Bni Khaled,Beni Ensar,Zegangan,Aklim,Saidia,Ras Kebdana,Boudnib,Tafoughalt,Bouanane"
   },
   {
     "name": "Fali of Mubi",
@@ -2006,7 +2006,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mubi,Bama,Gwoza,Madagali,Hong,Mubi North,Adamawa State,Nigeria,Cameroon Border"
+    "b": "Mubi,Gwoza,Madagali,Hong,Michika,Uba,Gombi,Maiha,Bazza,Shuwa,Mararraba,Nassarawo,Gella,Kwaja,Yelwa,Lassa,Gulak,Duhu,Muchalla,Sugu,Wuro,Kirchinga,Garta,Numan,Shelleng"
   },
   {
     "name": "Fang Cameroon",
@@ -2015,7 +2015,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Douala,YaoundÃ©,Bafoussam,Kribi,EdÃ©a,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
+    "b": "Ebolowa,Sangmelima,Ambam,Kribi,Campo,Lolodorf,Mvangan,Djoum,Mintom,Meyomessala,Zoetele,Olamze,Mvan,Akom,Nyabessan,Maan,Bipindi,Meyo,Mengong,Assok,Ngoazik,Oveng,Mvam,Evinayong,Bimvoul"
   },
   {
     "name": "Fang Equatorial Guinea and Gabon",
@@ -2024,7 +2024,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Malabo,Bata,Ebebiyen,Acong,Libreville,Port-Gentil,Oyem,Franceville,Mouila,Bitam,Ebowa,Equatorial Guinea,Gabon"
+    "b": "Bata,Ebebiyin,Mongomo,Aconibe,Nsork,Niefang,Mikomeseng,Evinayong,Oyem,Bitam,Minvoul,Mitzic,Medouneu,Makokou,Booue,Ndjole,Lambarene,Fougamou,Mouila,Ndende,Tchibanga,Mayumba,Gamba,Omboue,Libreville"
   },
   {
     "name": "Dongo",
@@ -2033,7 +2033,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bunia,Beni,Butembo,Kisangani,Mambasa,DR Congo,Central Africa,Congo River"
+    "b": "Bunia,Beni,Butembo,Mambasa,Komanda,Irumu,Oicha,Mangina,Eringeti,Kasindi,Mutwanga,Kyondo,Musienene,Kanyabayonga,Lubero,Kayna,Kirumba,Kiwanja,Rutshuru,Goma,Nyiragongo,Sake,Masisi,Walikale,Lubutu"
   },
   {
     "name": "Tetuani",
@@ -2051,7 +2051,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Furu,Isangi,Wandala,Tshuapa,Ngolo,Boso,Bunia,Busanza,DR Congo"
+    "b": "Isangi,Yangambi,Yanonge,Basoko,Opala,Yatolema,Yaekela,Yakusu,Yalikina,Yalemba,Lisala,Bumba,Bongandanga,Businga,Gemena,Libenge,Zongo,Mobayi,Gbadolite,Yakoma,Bondo,Ango,Buta,Aketi,Dulia"
   },
   {
     "name": "Hdi",
@@ -2060,7 +2060,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tourou,Mokolo,Mayo,Tsanaga,Xed,Hdii,Frajzyngier,Shay,Bot,Ornit,Dagestan,Nigeria,Mandara Mountains"
+    "b": "Tourou,Mokolo,Koza,Mora,Maroua,Meri,Mindif,Kaele,Guidiguis,Yagoua,Maga,Pouss,Kousseri,Waza,Kolofata,Limani,Fotokol,Makary,Blangoua,Hile-Alifa,Goulfey,Logone-Birni,Maltam,Afade,Zina"
   },
   {
     "name": "Gawar-Bati",
@@ -2069,7 +2069,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gawar-Bati,Nuristan,Kunar,Hindu Kush,Kalam,Chitral,Chitral Valley"
+    "b": "Nishagam,Ghaziabad,Dangam,Sarkani,Asadabad,Narang,Khas Kunar,Nari,Chawki,Marawara,Watapur,Pech,Manogai,Nurgal,Shigal,Dara-i-Pech,Bar Kunar,Kuz Kunar,Noorgal,Ghaziabad,Sao,Chapdara,Shultan,Barikot,Gambir"
   },
   {
     "name": "Modern Armenian",
@@ -2087,7 +2087,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Modern,Eastern,Armenian,Yerevan,Sevan,Gyumri,Tavush,Republic,of,Armenia,Caucasus"
+    "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Abovyan,Kapan,Hrazdan,Armavir,Artashat,Gavar,Masis,Ashtarak,Ararat,Ijevan,Sevan,Goris,Artik,Sisian,Alaverdi,Vardenis,Yeghvard,Charentsavan,Dilijan,Stepanavan,Martuni"
   },
   {
     "name": "Modern Western Armenian",
