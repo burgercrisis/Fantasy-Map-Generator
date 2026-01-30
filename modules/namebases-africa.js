@@ -3221,7 +3221,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dyula,Sikasso,Koutiala,Mali,West Africa,Sahel"
+    "b": "Bobo-Dioulasso,Sikasso,Koutiala,Kong,Odienné,Boundiali,Korhogo,Ferké,Banfora,Gaoua,Orodara,Dédougou,Boromo,Nouna,Solenzo,Tougan,Djibasso,Houndé,Léo,Pô,Tenkodogo,Ouagadougou,Koudougou,Fada,Diébougou,Bouaké,Daloa,Yamoussoukro,San-Pédro,Man"
   },
   {
     "name": "Dzando",
@@ -3410,7 +3410,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gadang,Mubi,Nigeria,Adamawa State,North East,West Africa"
+    "b": "Sarh,Moundou,Koumra,Doba,Bébédja,Kélo,Laï,Bongor,Pala,Fianga,Léré,Gounou-Gaya,Bousso,Moïssala,Kyabé,Bodo,Baibokoum,Goré,Maro,Béssao,Békamba,Ngalo,Danamadji,Doyaba,Kouno,Balimba,Bédaya,Korbol,Goundi,Béboro"
   },
   {
     "name": "Galambu",
@@ -3437,7 +3437,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gendza,Bauchi,Nigeria,Plateau State,West Africa,Chadic Languages"
+    "b": "Bauchi,Jos,Dass,Tafawa Balewa,Bogoro,Toro,Alkaleri,Ningi,Misau,Jama'are,Katagum,Azare,Ganjuwa,Darazo,Kirfi,Itas,Gadau,Shira,Giade,Warji,Zaki,Gamawa,Dambam,Udubo,Yana,Kari,Duguri,Lame,Kafin Madaki,Gwaram"
   },
   {
     "name": "Gengele Creole",
@@ -4040,7 +4040,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "-Sele,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
+    "b": "Santrokofi,Akpafu,Lolobi,Likpe,Bowiri,Hohoe,Kadjebi,Jasikan,Nkwanta,Kpassa,Dambai,Kete Krachi,Kpando,Amedzofe,Wli,Tafi,Gbi,Vakpo,Golokwati,Alavanyo,Fodome,Ziope,Tsito,Peki,Kpalimé,Nyagbo,Tomegbe,Logba,Avatime,Abutia"
   },
   {
     "name": "Liberian Kreyol",
@@ -4049,7 +4049,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Bensenville"
+    "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Bensonville,Voinjama,Zwedru,Sanniquellie,Tubmanburg,Robertsport,Greenville,Fish Town,Pleebo,Barclayville,River Cess,Cestos City,Totota,Salala,Bopolu,Foya,Kolahun,Zorzor,Saclepea,Ganta,Tappita,Karnplay,Toe Town,Harbel,Paynesville"
   },
   {
     "name": "Libyan Arabic",
