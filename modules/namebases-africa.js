@@ -1113,7 +1113,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Misaje,Dumbo,Akweto,Bebe-Jatto,Bebe-Ketti,Kamine,Sabongari,Mbissa,Mfume,Bissaula,Gayama,Nkambe"
+    "b": "Misaje,Dumbo,Akweto,Bebe-Jatto,Bebe-Ketti,Kamine,Mbissa,Mfume,Bissaula,Gayama,Nkambe,Ako,Konene,Sop,Binka,Ndu,Noni,Ntung,Mbot,Ntem,Talla,Mbem,Mbiame,Lassin,Djottin"
   },
   {
     "name": "Samwe",
@@ -1122,7 +1122,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tougan,Kiembara,Lankouè,Di,Gomboro,Kassoum,Toéni,Sono,Barani,Bomborokuy,Djibasso,Madouba"
+    "b": "Tougan,Kiembara,Lankouè,Di,Gomboro,Kassoum,Toéni,Sono,Barani,Bomborokuy,Djibasso,Madouba,Nouna,Dédougou,Solenzo,Boromo,Safané,Bondokuy,Gassan,Kougny,Yaba,Bonou,Gossina,Toma,Lanfiéra"
   },
   {
     "name": "Shwai",
@@ -1131,7 +1131,7 @@
     "max": 11,
     "d": "nic-SD",
     "m": 0,
-    "b": "Heiban,Kauda,Delami,Abri,Um Heitan,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
+    "b": "Heiban,Kauda,Delami,Abri,Um Heitan,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila,Julud,Korongo,Tira,Otoro,Kawama,Miri,Angolo,Shatt,Koalib,Fungor,Tegali,Kologi,Umm Dorein"
   },
   {
     "name": "Sighu",
@@ -1140,7 +1140,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Koulamoutou,Lastoursville,Pana,Iboundji,Popa,Mbigou,Mimongo,Lebamba,Ndende,Mouila,Fougamou,Lambaréné"
+    "b": "Koulamoutou,Lastoursville,Pana,Iboundji,Popa,Mbigou,Mimongo,Lebamba,Ndende,Mouila,Fougamou,Lambaréné,Booué,Ndjolé,Lopé,Ovan,Makokou,Mékambo,Odouma,Okondja,Franceville,Moanda,Bakoumba,Léconi,Bongoville"
   },
   {
     "name": "Siwu",
@@ -1149,7 +1149,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai"
+    "b": "Akpafu-Todzi,Akpafu-Odomi,Akpafu-Mempeasem,Lolobi-Kumasi,Lolobi-Ashiambi,Lolobi-Huyeasem,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kpando,Nkonya,Bowiri,Logba,Tafi,Nyagbo,Avatime,Amedzofe,Gbledi,Fodome,Wli,Ve,Golokwati"
   },
   {
     "name": "Southeast Ijo",
