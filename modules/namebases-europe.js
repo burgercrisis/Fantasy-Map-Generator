@@ -1970,7 +1970,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "ro-US",
     "m": 0,
-    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-François,Saint-Dominique"
+    "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-François,Saint-Dominique,Burlington,Montpelier,Barre,St. Johnsbury,Newport"
   },
   {
     "name": "Newfoundland French",
@@ -2006,7 +2006,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "oc-ES",
     "m": 0,
-    "b": "Perpinyà,Canet de Rosselló,Sant Esteve del Monestir,Sant Cebrià de Rosselló,Sant Llorenç de la Salanca,Argelers de la Marenda,Ribesaltes,Tuïr,Elna,Prada,Ceret,Illa,Millars,Bages,Toluges,Pià,Salses,Pollestres,Vernet,Sant Pau de Fenollet"
+    "b": "Perpinyà,Canet de Rosselló,Sant Esteve del Monestir,Sant Cebrià de Rosselló,Sant Llorenç de la Salanca,Argelers de la Marenda,Ribesaltes,Tuïr,Elna,Prada,Ceret,Illa,Millars,Bages,Toluges,Pià,Salses,Pollestres,Vernet,Sant Pau de Fenollet,Perpignan,Prades,Céret,Argelès-sur-Mer,Collioure"
   },
   {
     "name": "Northern Portuguese",
@@ -2834,7 +2834,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "ro-CH",
     "m": 0,
-    "b": "Savognin,Tinizong,Mulegns,Sur,Marmorera,Salouf,Riom,Parsonz,Cunter,Alvaneu,Tiefencastel,Filisur,Lantsch,Vaz,Brienz,Surava,Alvaschein,Mon,Stierva,Bivio"
+    "b": "Savognin,Tinizong,Mulegns,Sur,Marmorera,Salouf,Riom,Parsonz,Cunter,Alvaneu,Tiefencastel,Filisur,Lantsch,Vaz,Brienz,Surava,Alvaschein,Mon,Stierva,Bivio,Bergün,Schmitten,Wiesen,Zorten,Latsch"
   },
   {
     "name": "Sursilvan",
