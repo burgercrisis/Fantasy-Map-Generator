@@ -485,7 +485,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matarâ”œâ”‚,Vic,Olot,Tortosa,Sant Cugat del Vallès,Cornellà de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,Gavà,El Prat de Llobregat,Cerdanyola del Vallès,Mollet del Vallès,Montcada i Reixac"
+    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matarâ”œâ”‚,Vic,Olot,Tortosa,Sant Cugat del Vallès,Cornellà de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,Gavà,El Prat de Llobregat,Cerdanyola del Vallès,Mollet del Vallès,Montcada i Reixac,Badalona,LHospitalet de Llobregat,Santa Coloma de Gramenet"
   },
   {
     "name": "Cantabrian",
@@ -2051,7 +2051,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Tolosa,Bordèu,Montpelhièr,Limòtges,Clarmont d'Auvèrnhe,Pau,Baiona,Biàrritz,Tarba,Periguers,Caors,Albi,Rodés,Mende,Lo Puèi de Velai,Valença,Gap,Dinha,Avinhon,Marselha,Tolon,Niça"
+    "b": "Tolosa,Bordèu,Montpelhièr,Limòtges,Clarmont d'Auvèrnhe,Pau,Baiona,Biàrritz,Tarba,Periguers,Caors,Albi,Rodés,Mende,Lo Puèi de Velai,Valença,Gap,Dinha,Avinhon,Marselha,Tolon,Niça,Perpignan,Narbonne,Beziers"
   },
   {
     "name": "Old Catalan",
@@ -4148,7 +4148,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Izhevsk,Sarapul,Glazov,Votkinsk,Mozhga,Uva,Balezino,Igra,Kez,Yakshur-Bodya,Malaya Purga,Kiyasovo,Alnashi,Grakhovo,Kizner,Vavozh,Syumsi,Selty,Debesy,Sharkan,Yukamenskoye,Yar"
+    "b": "Izhevsk,Sarapul,Glazov,Votkinsk,Mozhga,Uva,Balezino,Igra,Kez,Yakshur-Bodya,Malaya Purga,Kiyasovo,Alnashi,Grakhovo,Kizner,Vavozh,Syumsi,Selty,Debesy,Sharkan,Yukamenskoye,Yar,Kambarka,Seltso,Yelabuga"
   },
   {
     "name": "Ingush",
