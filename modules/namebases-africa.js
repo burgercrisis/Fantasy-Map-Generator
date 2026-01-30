@@ -3111,7 +3111,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Assab,Dekemhare,Beilul,Afambo,Hirgigo,Arare,Bera'isole,Eddi,Guluj,Mersa Gulud,Mersa Fatma"
+    "b": "Assab,Dekemhare,Beilul,Afambo,Hirgigo,Arare,Adi Keih,Senafe,Mendefera,Segeneiti,Adi Quala,Tsorona,Zalambessa,Foro,Irafayle,Buia,Ghinda,Nefasit,Embatkala,Beleza,Mai Mine,Tio,Shieb,Ingal,Massawa"
   },
   {
     "name": "Dhd",
@@ -3138,7 +3138,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duwai,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Hadejia,Dutse,Ringim,Gumel,Birnin Kudu,Taura,Kaugama,Kazaure,Babura,Gwaram,Jahun,Kiyawa,Miga,Gwiwa,Maigatari,Sule-Tankarkar,Yankwashi,Auyo,Guri,Kafin Hausa,Kirikasamma,Birniwa,Gagarawa,Mallam Madori,Roni"
   },
   {
     "name": "Dwz",
@@ -3156,7 +3156,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dyula,Sikasso,Koutiala,Mali,West Africa,Sahel"
+    "b": "Bobo-Dioulasso,Kong,Odienné,Korhogo,Bouaké,Bondoukou,Séguéla,Touba,Mankono,Dabakala,Boundiali,Tengrela,Ferkessédougou,Ouangolodougou,Niangoloko,Banfora,Orodara,Sindou,Sikasso,Koutiala,Kadiolo,Bougouni,Yanfolila,Kolondiéba,Djenné"
   },
   {
     "name": "Dzando",
@@ -3273,7 +3273,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaoundé,Douala,Edéa,Bafoussam,Nkongsamba,Kribi,Akonolinga,Eseka,Cameroon,Central Africa"
+    "b": "Yaoundé,Mbalmayo,Ebolowa,Sangmélima,Akonolinga,Mfou,Soa,Obala,Ngoumou,Monatélé,Esse,Evodoula,Okola,Awaé,Bikok,Dzeng,Mengueme,Nkolafamba,Nkometou,Mbandjock,Nanga Eboko,Minta,Ngomedzap,Biyem-Assi,Efoulan"
   },
   {
     "name": "Ewondo Populaire",
@@ -3318,7 +3318,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cotonou,Porto-Novo,Abomey,Ouidah,Parakou,Allada,Benin,West Africa"
+    "b": "Cotonou,Porto-Novo,Abomey,Ouidah,Allada,Bohicon,Lokossa,Dogbo,Comé,Grand-Popo,Aplahoué,Djakotomey,Klouékanmè,Toviklin,Lalo,Bopa,Houéyogbé,Athiémé,Adjarra,Sèmè-Kpodji,Akpro-Missérété,Avrankou,Dangbo,Adjohoun,Bonou"
   },
   {
     "name": "Fyer",
