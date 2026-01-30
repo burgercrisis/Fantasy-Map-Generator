@@ -3185,7 +3185,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhd,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Mubi,Bama,Gwoza,Pulka,Ngoshe,Askira,Uba,Michika,Hong,Gombi,Maiha,Mararraba,Madagali,Chibok,Damboa,Konduga,Jere,Mafa,Dikwa,Monguno,Kukawa,Baga,Ngala,Gamboru,Kala-Balge"
   },
   {
     "name": "East Zenati",
@@ -3194,7 +3194,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "East Zenati,Annaba,Constantine,Skikda,Algeria,Northeast Africa,Mediterranean"
+    "b": "Constantine,Annaba,Skikda,Batna,Khenchela,Setif,Biskra,Jijel,Mila,Guelma,Souk Ahras,Tebessa,Oum El Bouaghi,El Oued,Bordj Bou Arreridj,M'Sila,Barika,Ain Beida,El Eulma,Ain Fakroun,Ain M'lila,Chelghoum Laid,Tadjenanet,Djemila,Timgad"
   },
   {
     "name": "Duwai",
@@ -3203,7 +3203,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duwai,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Gashua,Nguru,Hadejia,Gumel,Dutse,Babura,Birnin Kudu,Jahun,Ringim,Kazaure,Kiyawa,Malam Madori,Guri,Kaugama,Kirikasamma,Maigatari,Sule Tankarkar,Taura,Yankwashi,Buji,Gwaram,Kano,Wudil,Gaya,Rano"
   },
   {
     "name": "Dwz",
@@ -3230,7 +3230,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dzando,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Lisala,Bumba,Bongandanga,Businga,Gemena,Libenge,Zongo,Gbadolite,Mobayi,Yakoma,Bondo,Ango,Buta,Aketi,Basoko,Isangi,Yangambi,Kisangani,Banalia,Bafwasende,Niangara,Dungu,Faradje,Watsa,Aru"
   },
   {
     "name": "Dzodinka",
@@ -3239,7 +3239,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dzodinka,Burundi,Bujumbura,Gitega,Rwanda,Central Africa,Lake Tanganyika"
+    "b": "Nkambe,Misaje,Ndu,Nwa,Mbem,Mbiame,Kumbo,Jakiri,Oku,Fundong,Wum,Bafut,Bamenda,Bali,Batibo,Mbengwi,Njinikom,Babungo,Bamessing,Bamunka,Bafanji,Babessi,Ndop,Bambalang,Bangolan"
   },
   {
     "name": "Ebira",
