@@ -3183,7 +3183,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ebira,Okene,Auchi,Benin,Edo State,Edo,Delta State,Nigeria,North Central,West Africa"
+    "b": "Okene,Ajaokuta,Lokoja,Kabba,Obangede,Ihima,Ogaminana,Adavi,Okehi,Ogori,Magongo,Idoji,Eika,Odenku,Obehira,Okengwe,Ebiya,Ageva,Eganyi,Iruvucheba,Upogoro,Ohueta,Kuroko,Ozuri,Takete-Ide"
   },
   {
     "name": "Eman",
@@ -3201,7 +3201,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ewe,Lomé,Kpalimé,Sokodé,Togo,Kumasi,Ghana,Accra,Volta Region,West Africa"
+    "b": "Ho,Keta,Aflao,Anloga,Kpando,Hohoe,Amedzofe,Peki,Tsévié,Aného,Vogan,Tabligbo,Notsé,Atakpamé,Badou,Kpalimé,Agou,Danyi,Akatsi,Adidome,Sogakofe,Denu,Dzodze,Kpetoe,Ave-Dakpa"
   },
   {
     "name": "Fanagalo",
@@ -3228,7 +3228,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Navrongo,Bolgatanga,Fumbisi,Zuarungu,Kumasi,Tamale,Ghana,Burkina Faso,Volta Region"
+    "b": "Bolgatanga,Navrongo,Bongo,Tongo,Zuarungu,Paga,Sirigu,Nangodi,Sekoti,Zorko,Gowrie,Gambibgo,Nangurugu,Naga,Beo,Pelungu,Namoo,Sheaga,Kongo,Kandiga,Sumbrungu,Kumbosco,Zaare,Dulugu,Asunia"
   },
   {
     "name": "Doko-Uyanga",
@@ -3408,7 +3408,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ghadames,Ghat,Fezzan,Nalut,Algeria,Sahara Desert,North Africa"
+    "b": "Ghadames,Ghat,Derj,Nalut,Sinawan,Kabaw,Jadu,Yefren,Zintan,Gharyan,Mizda,Brak,Sebha,Murzuq,Ubari,Awbari,Idri,Tmassah,Tahala,Waw,Traghen,Tininai,Wadi Tanezzuft,Targa,Al-Qatrun"
   },
   {
     "name": "Guanche",
@@ -3453,7 +3453,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bissau,Bafatá,Bijagós,Guinea-Bissau,West Africa,Lusophone,Atlantic Coast"
+    "b": "Bissau,Bafatá,Gabú,Cacheu,Bolama,Bissorã,Catió,Farim,Mansôa,Buba,Quinhámel,Bubaque,Fulacunda,Canchungo,Bigene,Caió,São Domingos,Contuboel,Pitche,Sonaco,Quebo,Nhacra,Safim,Prábis,Bambadinca"
   },
   {
     "name": "Gurara",
