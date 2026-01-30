@@ -10,8 +10,8 @@ BY CONTINENT:
   Unknown: 237
 
 BY BASE SIZE CATEGORY:
-  small: 2006
-  normal: 195
+  small: 2001
+  normal: 200
   large: 61
 
 BY QUALITY SCORE:

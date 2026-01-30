@@ -726,7 +726,7 @@
     "max": 11,
     "d": "sdv-ET",
     "m": 0,
-    "b": "Asosa,Bambasi,Kurmuk,Guba,Sherkole,Menge,Homosha,Oda,Beni Shangul,Blue Nile,Famaka,Fazogli"
+    "b": "Asosa,Bambasi,Kurmuk,Guba,Sherkole,Menge,Homosha,Oda,Famaka,Fazogli,Belo Jeganfoy,Agalo Mite,Wenbera,Bullen,Mandura,Dangur,Dibate,Gilgel Beles,Pawe,Mankush,Kamashi,Yabus,Sirba,Tongo,Odumso"
   },
   {
     "name": "Saharan Spanish",
@@ -798,7 +798,7 @@
     "max": 11,
     "d": "nic-BF",
     "m": 0,
-    "b": "Suwu,Ghana,Bobo-Dioulasso,Koudougou,Ouahigouya,Banfora,Kaya,Ouagadougou,Tenkodogo,Fada N'Gourma"
+    "b": "Bobo-Dioulasso,Koudougou,Ouahigouya,Banfora,Kaya,Tenkodogo,Fada N'Gourma,Houndé,Boromo,Dédougou,Nouna,Tougan,Djibo,Dori,Gorom-Gorom,Sebba,Bogandé,Gayéri,Diapaga,Kantchari,Pama,Kompienga,Tansarga,Ouargaye,Solenzo"
   },
   {
     "name": "Acheron",
@@ -1374,7 +1374,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "El Molo,Lake Turkana,Marsabit,Moyale,Chalbi Desert,North Horr,Koobi Fora,Kakuma,Kenya,Turkana,Loiyangalani"
+    "b": "Loiyangalani,Marsabit,Moyale,North Horr,Illeret,Sibiloi,Koobi Fora,Moite,Komote,Elmolo Bay,Laisamis,Kargi,Korr,Logologo,Merille,Ngurunit,Baragoi,South Horr,Kulal,Gatab,Arapal,Sirima,Sarima,Longech,El Molo"
   },
   {
     "name": "Bahrani Arabic",
@@ -1410,7 +1410,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bassari,Sédhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
+    "b": "Kedougou,Bandafassi,Salémata,Ethiolo,Ibel,Egale,Ninefescha,Oubadji,Bokore,Fongolembi,Dindéfélo,Segou,Nepen Diakha,Dalaba,Dindefello,Wassadou,Saraya,Sabodala,Tomboronkoto,Khossanto,Mako,Kenieba,Boundoukondi,Diakha,Nafadji"
   },
   {
     "name": "Bayat Oirat",
@@ -1554,7 +1554,7 @@
     "max": 11,
     "d": "ssa-TD",
     "m": 0,
-    "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kébir,Wour,Yebbi-Bou,Aouzou,Kourizo,Trou au Natron,Tibesti,Ennedi,Borkou"
+    "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kébir,Wour,Yebbi-Bou,Aouzou,Kourizo,Gouro,Teguidda,Segedine,Bilma,Dirkou,Chirfa,Fachi,Orida,Djado,Seguedine,Yat,Emi Koussi,Miski,Tieroko,Kouba Olanga,Yebbi Souma,Trou"
   },
   {
     "name": "Tondi Songway Kiini",
