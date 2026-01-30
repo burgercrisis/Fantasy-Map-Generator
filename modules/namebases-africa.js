@@ -2312,7 +2312,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
+    "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur Massene,Boutilimit,Aleg,Boghe,Kaedi,Selibaby,Maghama,Mbagne,Atar,Chinguetti,Ouadane,Tichit,Oualata,Akjoujt,Zouerat,Fderik,Nema,Aioun el Atrouss,Kiffa,Tidjikja,Moudjeria,Tamchakett,Timbedra,Kobeni,Bassikounou,Djiguenni,Fassala,Adel Bagrou,Bir Mogrein"
   },
   {
     "name": "Vengo",
@@ -2321,7 +2321,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Babungo,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Bangolan,Babessi,Bambalang"
+    "b": "Babungo,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Bangolan,Babessi,Bambalang,Kumbo,Nkambe,Wum,Fundong,Belo,Jakiri,Ndu,Mbengwi,Njinikom,Bafut,Batibo,Bambui,Sabga,Bamenda,Nkwen,Mankon,Bali,Mbot,Widikum,Bana,Babanki,Awing,Pinyin,Santa,Tubah,Mbingo"
   },
   {
     "name": "Viemo",
@@ -2330,7 +2330,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Karangasso-Vigué,Bobo-Dioulasso,Houndé,Béréba,Koumbia,Lena,Padéma,Satiri,Dandé,Faramana,Kourouma,Bekuy"
+    "b": "Karangasso-Vigue,Bobo-Dioulasso,Hounde,Bereba,Koumbia,Lena,Padema,Satiri,Dande,Faramana,Kourouma,Bekuy,Bama,Banzon,Toussiana,Orodara,Sindou,Niangoloko,Banfora,Mangodara,Loumana,Douna,Karankasso-Samba,Koundougou,Peni,Boni,Darsalami,Tengrela,Kimini,Samogohiri,Soubakaniedougou,Tiefora,Morolaba,Soubakanie,Dindéresso,Matourkou"
   },
   {
     "name": "Viti",
@@ -2339,7 +2339,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Michika,Madagali,Bazza,Vi,Gulak,Shuwa,Mubi,Hong,Gombi,Little Gombi,Song,Girei"
+    "b": "Michika,Madagali,Bazza,Gulak,Shuwa,Mubi,Hong,Gombi,Song,Girei,Yola,Jimeta,Fufore,Numan,Demsa,Ganye,Mayo-Belwa,Jada,Toungo,Shelleng,Guyuk,Lamurde,Maiha,Mubi North,Mubi South,Nassarawo,Sangere,Ngurore,Jalingo,Zing,Bali,Gashaka,Gembu,Takum,Wukari,Donga"
   },
   {
     "name": "Vori",
@@ -2348,7 +2348,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yabassi,Nkondjock,Yingui,Ndobian,Ndom,Ngambe,Loum,Mbanga,Njombe,Penja,Dibombari,Bonaberi"
+    "b": "Yabassi,Nkondjock,Yingui,Ndobian,Ndom,Ngambe,Loum,Mbanga,Njombe,Penja,Dibombari,Bonaberi,Douala,Edea,Nkongsamba,Melong,Manjo,Bafang,Bafoussam,Dschang,Foumban,Mbouda,Nkong-Ni,Limbe,Buea,Tiko,Mutengene,Kumba,Mamfe,Mundemba,Tombel,Bangem,Fontem,Kekem,Bangangte,Tonga,Bazou"
   },
   {
     "name": "Voro",
