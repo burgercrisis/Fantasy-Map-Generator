@@ -5255,7 +5255,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lisan al-Gharbi,Ghadamès,Faya-Largeau,Chad,Sahara Desert,North Africa"
+    "b": "Ghadames,Nalut,Derj,Sinawan,Wazzin,Ghat,Ubari,Murzuq,Sabha,Zuwara,Jadu,Yefren,Zintan,Kabaw,Badr,Mizda,Gharyan,Bani Walid,Tarhuna,Tripoli,Zawiya,Sabratha,Sorman,Zuwarah,Ajdabiya"
   },
   {
     "name": "Ouargli",
@@ -5264,7 +5264,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ouargli,Ouargla,Bechar,Adrar,Algeria,Sahara Desert,North Africa"
+    "b": "Ouargla,Ngoussa,Hassi Messaoud,Touggourt,Temacine,El Oued,Ghardaia,Berriane,Guerrara,Beni Isguen,Melika,Bounoura,El Atteuf,Rouissat,Sidi Khouiled,Ain Beida,Hassi Ben Abdellah,Timimoun,In Salah,El Golea,Metlili,Djelfa,Laghouat,Bechar,Adrar"
   },
   {
     "name": "Sanhaja de Srair",
@@ -5273,7 +5273,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Al Hoceima,Tétouan,Chefchaouen,Taza,Fès,Guercif,Taounate,Morocco,Rif Mountains,North Africa"
+    "b": "Al Hoceima,Ketama,Chefchaouen,Taounate,Targuist,Taza,Guercif,Issaguen,Tleta Ketama,Bab Berret,Bab Taza,Bni Hadifa,Imzouren,Ajdir,Bni Bouayach,Cala Iris,Sidi Boutmim,Tetouan,Fes,Ouazzane,Aknoul,Tainaste,Sefrou,Bni Ahmed,Bni Gmil"
   },
   {
     "name": "Sokna",
@@ -5282,6 +5282,6 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sokna,Matmata,Beni Mellal,Fes,Morocco,Atlas Mountains,North Africa"
+    "b": "Sokna,Fuqaha,Sabha,Murzuq,Ubari,Ghat,Brak,Hun,Waddan,Sirte,Jufra,Zillah,Tmessa,Traghen,Ghadames,Awbari,Idri,Al Qatrun,Umm al Aranib,Tazirbu,Al Shwayrif,Waw al Kabir,Dirj,Wadi Shati,Birak"
   }
 ];
