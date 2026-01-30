@@ -440,7 +440,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Inari,Ivalo,Saariselka,Nellim,Kaamanen,Utsjoki,Enontekio,Sodankyla,Rovaniemi,Vuotso,Muotka,Nuorgam,Sevettijarvi,Partakko,Vatsari,Lemmenjoki,Saariselka,Kittila,Sodankyla,Pulju,Angel,Lakselv,Karasjok"
+    "b": "Inari,Ivalo,Saariselka,Nellim,Kaamanen,Utsjoki,Enontekio,Sodankyla,Rovaniemi,Vuotso,Muotka,Nuorgam,Sevettijarvi,Partakko,Vatsari,Lemmenjoki,Saariselka,Kittila,Sodankyla,Pulju,Angel,Lakselv,Karasjok,Ivalojoki,Tankavaara"
   },
   {
     "name": "Kainuu Sami",
@@ -1943,7 +1943,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "ro-US",
     "m": 0,
-    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,Rivière-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
+    "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,Rivière-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield,Prairie du Rocher,Fort de Chartres"
   },
   {
     "name": "Navarrese",
@@ -4769,7 +4769,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "br-FR",
     "m": 0,
-    "b": "Brest,Quimper,Lorient,Vannes,Saint-Brieuc,Morlaix,Lannion,Concarneau,Douarnenez,Carhaix,Guingamp,Paimpol,Roscoff,Quimperle,Plouescat,Landivisiau,Plougastel,Plouzané,Perros-Guirec,Ploumanac'h,Pontivy,Auray,Plouguerneau"
+    "b": "Brest,Quimper,Lorient,Vannes,Saint-Brieuc,Morlaix,Lannion,Concarneau,Douarnenez,Carhaix,Guingamp,Paimpol,Roscoff,Quimperle,Plouescat,Landivisiau,Plougastel,Plouzane,Perros-Guirec,Ploumanach,Pontivy,Auray,Plouguerneau,Landerneau,Lesneven"
   },
   {
     "name": "Cornish",

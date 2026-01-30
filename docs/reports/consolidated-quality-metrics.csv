@@ -1402,7 +1402,7 @@ Campidanese,223,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FAL
 Canarian,224,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Akkala Sami,225,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Finnmark Sami,226,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Inari Sami,227,Europe,namebases-europe.js,23,small,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
+Inari Sami,227,Europe,namebases-europe.js,25,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
 Kainuu Sami,228,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Kemi Sami,229,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Kildin Sami,230,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1569,7 +1569,7 @@ Milanese,488,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,F
 Mirandese,491,Europe,namebases-europe.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-PT,1-999,100
 Missouri French,492,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 Murcian,496,Europe,namebases-europe.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-ES,1-999,100
-Muskrat French,497,Europe,namebases-europe.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
+Muskrat French,497,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 Navarrese,498,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-ES,1-999,100
 Navarro-Aragonese,499,Europe,namebases-europe.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-ES,1-999,100
 New England French,500,Europe,namebases-europe.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,ro-US,1-999,100
@@ -1883,7 +1883,7 @@ Maltese,2528,Europe,namebases-europe.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,F
 Southern-Quechua,2565,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Scottish-Gaelic,2575,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Welsh,2597,Europe,namebases-europe.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cy-GB,1000-9999,100
-Breton,2598,Europe,namebases-europe.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,br-FR,1000-9999,100
+Breton,2598,Europe,namebases-europe.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,br-FR,1000-9999,100
 Cornish,2599,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nld,1000-9999,100
 Lithuanian,2604,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lt-LT,1000-9999,100
 Latvian,2605,Europe,namebases-europe.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lv-LV,1000-9999,100
