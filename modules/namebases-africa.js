@@ -1439,7 +1439,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Harari-East,Koumbia,Mao,Guerey,Banki,Bodi,Ngaoundere,Gobir,Kargari,Yalogo"
+    "b": "Harar,Dire Dawa,Alemaya,Babile,Gursum,Deder,Hirna,Chiro,Gelemso,Aweday,Kulubi,Kersa,Kombolcha,Haramaya,Bedeno,Jarso,Fedis,Gola Oda,Midega Tola,Girawa,Meta,Kurfa Chele,Goro Gutu,Doba,Tullo"
   },
   {
     "name": "Bareqi Arabic",
@@ -1457,7 +1457,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bassari,SÃ©dhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
+    "b": "Salémata,Bandafassi,Kédougou,Saraya,Fongolembi,Oubadji,Dindéfélo,Ségou,Fongolimbi,Ethiolo,Ibel,Nénéfécha,Boundoukondi,Dimboli,Afia,Tomboronkoto,Mako,Dalaba,Sabodala,Khossanto,Dialakoto,Médina Gounass,Goudiry,Koumpentoum,Tambacounda"
   },
   {
     "name": "Bayat Oirat",
@@ -1529,7 +1529,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bemba,Bamenda,Bertoua,Guider,Ngong,Mbe,Meiganga,Mom,Banyo,Mbombari,Bankim"
+    "b": "Kasama,Mbala,Mansa,Luwingu,Mpulungu,Chinsali,Mpika,Isoka,Nakonde,Mporokoso,Kawambwa,Samfya,Mwense,Nchelenge,Chembe,Kaputa,Chilubi,Nsama,Luchindashi,Shiwa Ngandu,Mungwi,Kasaba,Chitambo,Serenje,Luapula"
   },
   {
     "name": "Fwe",
@@ -1871,7 +1871,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,TÃ©nÃ¨s,Algeria,Tell Atlas,North Africa"
+    "b": "Chlef,Ténès,Ouled Fares,Oued Sly,Chettia,El Karimia,Boukadir,Sobha,Zeboudja,El Marsa,Beni Haoua,El Attaf,Ain Defla,Djendel,Khemis Miliana,Tissemsilt,Bordj Bou Naama,Lardjem,Ammari,Theniet El Had,Tiaret,Frenda,Ksar Chellala,Djelfa,Relizane"
   },
   {
     "name": "South Oran-Figuig Berber",
