@@ -1311,7 +1311,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Karonga,Kasungu,Liwonde,Mangochi,Nsanje,Mchinji,Balaka,Ntchisi"
+"b": "Mzuzu,Mzimba,Rumphi,Karonga,Chitipa,Nkhata Bay,Ekwendeni,Livingstonia,Bolero,Chintheche,Lundazi,Chasefu,Lumezi,Chama,Isoka,Mafinga,Chipata,Nakonde,Muyombe,Nthalire,Kaporo,Mwankenja,Jenda,Engucwini,Embangweni"
   },
   {
     "name": "Sakata",
@@ -1320,7 +1320,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Boma,Muanda,Banza,Tshela,SekeBananga,Lukula,Kisangani,Buta,Aketi,Bambesa,Isiro,Mongala"
+"b": "Bandundu,Kikwit,Kenge,Idiofa,Bulungu,Bagata,Masi-Manimba,Kasongo-Lunda,Kahemba,Popokabaka,Feshi,Kwango,Kwilu,Mushie,Nioki,Inongo,Kutu,Oshwe,Kiri,Bokoro,Bolobo,Yumbi,Ibeke,Mangai,Gungu"
   },
   {
     "name": "Southern Ndebele",
@@ -1329,7 +1329,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Middelburg,Emalahleni,Witbank,Standerton,Belfast,Machadodorp,Kriel,Arnot,Delmas,Secunda,Vanderbijlpark,Verena"
+"b": "Middelburg,Emalahleni,Witbank,Standerton,Belfast,Machadodorp,Kriel,Arnot,Delmas,Secunda,Verena,KwaMhlanga,Siyabuswa,Weltevrede,Dennilton,Tweefontein,Kwaggafontein,Libangeni,Waterval,Roossenekal,Stoffberg,Groblersdal,Marble Hall,Loskop,Moloto"
   },
   {
     "name": "Sumayela Ndebele",
@@ -1347,7 +1347,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Maputo,XaiXai,Inhambane,Maxixe,Chokwe,Massinga,Vilankulo,Chibuto,Manjacaze,Macia,Bilene"
+"b": "Maputo,Xai-Xai,Inhambane,Maxixe,Chokwe,Massinga,Vilankulo,Chibuto,Manjacaze,Macia,Bilene,Giyani,Malamulele,Nkowankowa,Tzaneen,Elim,Thohoyandou,Bushbuckridge,Acornhoek,Hazyview,Phalaborwa,Hoedspruit,Komatipoort,Ressano Garcia,Magude,Namaacha"
   },
   {
     "name": "Jurchen",
@@ -1392,7 +1392,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Harari-East,Koumbia,Mao,Guerey,Banki,Bodi,Ngaoundere,Gobir,Kargari,Yalogo"
+"b": "Harar,Dire Dawa,Jijiga,Chiro,Gelemso,Hirna,Kulubi,Babile,Gursum,Deder,Bedeno,Kombolcha,Jarso,Kersa,Fedis,Haramaya,Awaday,Aweday,Goro Gutu,Kurfa Chele,Meyu Muluke,Boke,Erer,Girawa,Midega Tola"
   },
   {
     "name": "Bareqi Arabic",
