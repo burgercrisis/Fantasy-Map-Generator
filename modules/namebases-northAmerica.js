@@ -17,7 +17,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "may-GT",
     "m": 0,
-    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo Ixtatán,San Sebastián Coatán,Nentón,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel Acatán,Concepción Huista"
+    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo Ixtatán,San Sebastián Coatán,Nentón,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel Acatán,Concepción Huista,Aguacatán,Colotenango,La Libertad,Malacatancito,Petatán"
   },
   {
     "name": "Cree",
@@ -341,7 +341,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,Umán,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
+    "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,Umán,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila,Kanasín,Motul,Hunucmá,Espita,Halachó"
   },
   {
     "name": "Mam",
@@ -449,7 +449,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Pine Ridge,Porcupine,Kyle,Wanblee,Martin,Interior,Wall,Kadoka,Scenic,Red Shirt,Allen,Manderson,Sharps Corner,Porcupine Butte,St Francis,Mission,White River,Parmelee,Cherry Creek,Eagle Butte,Okreek"
+    "b": "Pine Ridge,Porcupine,Kyle,Wanblee,Martin,Interior,Wall,Kadoka,Scenic,Red Shirt,Allen,Manderson,Sharps Corner,Porcupine Butte,St Francis,Mission,White River,Parmelee,Cherry Creek,Eagle Butte,Okreek,Rapid City,Rosebud,Lower Brule,Standing Rock"
   },
   {
     "name": "Dakota",
@@ -458,7 +458,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Sisseton,Waubay,Eden,Peever,Agency Village,Fort Thompson,Lower Brule,Mobridge,Standing Rock,Fort Yates,Selfridge,Cannon Ball,McLaughlin,Bismarck,Mandan,Fort Totten,Devils Lake,Spirit Lake,Fort Randall,Wagner"
+    "b": "Sisseton,Waubay,Eden,Peever,Agency Village,Fort Thompson,Lower Brule,Mobridge,Standing Rock,Fort Yates,Selfridge,Cannon Ball,McLaughlin,Bismarck,Mandan,Fort Totten,Devils Lake,Spirit Lake,Fort Randall,Wagner,Porcupine,Timber Lake,Kenel,Wakpala,Little Eagle"
   },
   {
     "name": "Blackfoot",
@@ -467,7 +467,7 @@ window.northAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Browning,Standoff,Cardston,Fort Macleod,Pincher Creek,Stand Off,Milk River,Lethbridge,Taber,Raymond,Magrath,Glacier,East Glacier,Heart Butte,Babb,Waterton,Piikani,Brocket,Hill Spring,Glenwood"
+    "b": "Browning,Standoff,Cardston,Fort Macleod,Pincher Creek,Stand Off,Milk River,Lethbridge,Taber,Raymond,Magrath,Glacier,East Glacier,Heart Butte,Babb,Waterton,Piikani,Brocket,Hill Spring,Glenwood,Cut Bank,Shelby,Conrad,St. Mary,Starr School"
   },
   {
     "name": "Mohawk",
