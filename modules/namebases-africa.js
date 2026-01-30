@@ -5201,7 +5201,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Daza,Faya-Largeau,Mao,Chad,Sahara Desert,North Africa,Chad Basin"
+    "b": "Faya-Largeau,Gouro,Kirdimi,Koro Toro,Yarda,Mao,Bol,Bagasola,Ngouri,Massakory,Moussoro,Bardai,Zouar,Aouzou,Ounianga,Fada,Kalait,Biltine,Abeche,Am Timan,Oum Hadjer,Ati,Mongo,Bokoro,Bitkine"
   },
   {
     "name": "Dazawa",
@@ -5210,7 +5210,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dazawa,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Darazo,Jimbim,Yautare,Sade,Garakawa,Ganjuwa,Kafin Madaki,Bauchi,Misau,Azare,Katagum,Gamawa,Giade,Jama'are,Itas,Gadau,Zaki,Ningi,Toro,Bogoro,Kirfi,Alkaleri,Dass,Tafawa Balewa,Warji"
   },
   {
     "name": "Ddo",
@@ -5228,7 +5228,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Deh,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Mubi,Michika,Madagali,Maiha,Hong,Gombi,Guyuk,Shelleng,Ganye,Jada,Toungo,Numan,Demsa,Lamurde,Girei,Yola,Fufore,Song,Mubi North,Mubi South,Mayo-Belwa,Nassarawo,Jimeta,Ngurore,Uba"
   },
   {
     "name": "Dengese",
@@ -5237,7 +5237,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dengese,Kisangani,Beni,DR Congo,Central Africa,Congo River"
+    "b": "Mbuji-Mayi,Tshilenge,Katanda,Miabi,Kabeya-Kamwanga,Lupatapata,Kabinda,Mwene-Ditu,Ngandajika,Luputa,Lodja,Lusambo,Kole,Lomela,Katako-Kombe,Lubefu,Dekese,Ilebo,Kananga,Tshikapa,Dibaya,Demba,Kazumba,Dimbelenge,Luebo"
   },
   {
     "name": "Deno",
@@ -5246,7 +5246,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Deno,Kisangani,Bunia,DR Congo,Central Africa,Lake Albert"
+    "b": "Darazo,Ganjuwa,Kafin Madaki,Bauchi,Misau,Azare,Katagum,Gamawa,Giade,Jama'are,Itas,Gadau,Zaki,Ningi,Toro,Bogoro,Kirfi,Alkaleri,Dass,Tafawa Balewa,Warji,Shira,Dambam,Burra,Bununu"
   },
   {
     "name": "Lisan al-Gharbi",
