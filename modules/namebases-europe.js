@@ -404,7 +404,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cagliari,Quartu Sant'Elena,Assemini,Monserrato,Selargius,Capoterra,Decimomannu,Sestu,Villasimius,Iglesias,Carbonia,Sanluri,Quartu,Sassari,Olbia,Nuoro,Oristano,Villacidro,Guspini,Serramanna"
+    "b": "Cagliari,Quartu Sant'Elena,Assemini,Monserrato,Selargius,Capoterra,Decimomannu,Sestu,Villasimius,Iglesias,Carbonia,Sanluri,Quartu,Sassari,Olbia,Nuoro,Oristano,Villacidro,Guspini,Serramanna,San Sperate,Elmas,Sarroch,Maracalagonis,Quartucciu"
   },
   {
     "name": "Canarian",
@@ -440,7 +440,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Inari,Ivalo,Saariselkâ”œñ,Nellim,Kaamanen,Utsjoki,Enontekiâ”œâ•¢,Sodankylâ”œñ,Rovaniemi,Vuotso,Muotka,Nuorgam,Sevettijärvi,Partakko,Vätsäri,Lemmenjoki,Saariselkä,Kittilä,Sodankylä"
+    "b": "Inari,Ivalo,Saariselka,Nellim,Kaamanen,Utsjoki,Enontekio,Sodankyla,Rovaniemi,Vuotso,Muotka,Nuorgam,Sevettijarvi,Partakko,Vatsari,Lemmenjoki,Saariselka,Kittila,Sodankyla,Pulju,Angel,Lakselv,Karasjok"
   },
   {
     "name": "Kainuu Sami",
@@ -2708,7 +2708,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Bucuresti,Iasi,Timisoara,Cluj-Napoca,Constanta,Craiova,Brasov,Galati,Ploiesti,Oradea,Braila,Pitesti,Arad,Sibiu,Bacau,Buzau,Botosani,Suceava,Targoviste,Focsani,Tulcea,Bistrita,Alba Iulia"
+    "b": "Bucuresti,Iasi,Timisoara,Cluj-Napoca,Constanta,Craiova,Brasov,Galati,Ploiesti,Oradea,Braila,Pitesti,Arad,Sibiu,Bacau,Buzau,Botosani,Suceava,Targoviste,Focsani,Tulcea,Bistrita,Alba Iulia,Deva,Resita"
   },
   {
     "name": "Royasc",

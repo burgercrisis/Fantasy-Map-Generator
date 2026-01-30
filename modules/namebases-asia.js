@@ -1,14 +1,12 @@
-"use strict";
-
-window.asiaNameBases = [
-  {
-    "name": "Korean",
-    "i": 9,
-    "min": 5,
-    "max": 11,
-    "d": "",
+{
+    "name": "Dani Papuan",
+    "i": 51,
+    "min": 4,
+    "max": 12,
+    "d": "nic-GH",
     "m": 0,
-    "b": "Anjung,Ansan,Anseong,Anyang,Aphae,Apo,Baekseok,Baeksu,Beolgyo,Boeun,Boseong,Busan,Buyeo,Changnyeong,Changwon,Cheonan,Cheongdo,Cheongjin,Cheongsong,Cheongyang,Cheorwon,Chirwon,Chuncheon,Chungju,Daedeok,Daegaya,Daejeon,Damyang,Dangjin,Dasa,Donghae,Dongsong,Doyang,Eonyang,Gaeseong,Ganggyeong,Ganghwa,Gangneung,Ganseong,Gaun,Geochang,Geoje,Geoncheon,Geumho,Geumil,Geumwang,Gijang,Gimcheon,Gimhwa,Gimje,Goa,Gochang,Gohan,Gongdo,Gongju,Goseong,Goyang,Gumi,Gunpo,Gunsan,Guri,Gurye,Gwangju,Gwangyang,Gwansan,Gyeongseong,Hadong,Hamchang,Hampyeong,Hamyeol,Hanam,Hapcheon,Hayang,Heungnam,Hongnong,Hongseong,Hwacheon,Hwando,Hwaseong,Hwasun,Hwawon,Hyangnam,Incheon,Inje,Iri,Janghang,Jangheung,Jangseong,Jangseungpo,Jangsu,Jecheon,Jeju,Jeomchon,Jeongeup,Jeonggwan,Jeongju,Jeongok,Jeongseon,Jeonju,Jido,Jiksan,Jinan,Jincheon,Jindo,Jingeon,Jinjeop,Jinnampo,Jinyeong,Jocheon,Jochiwon,Jori,Maepo,Mangyeong,Mokpo,Muju,Munsan,Naesu,Naju,Namhae,Namwon,Namyang,Namyangju,Nongong,Nonsan,Ocheon,Okcheon,Okgu,Onam,Onsan,Onyang,Opo,Paengseong,Pogok,Poseung,Pungsan,Pyeongchang,Pyeonghae,Pyeongyang,Sabi,Sacheon,Samcheok,Samho,Samrye,Sancheong,Sangdong,Sangju,Sapgyo,Sariwon,Sejong,Seocheon,Seogwipo,Seonghwan,Seongjin,Seongju,Seongnam,Seongsan,Seosan,Seungju,Siheung,Sindong,Sintaein,Soheul,Sokcho,Songak,Songjeong,Songnim,Songtan,Suncheon,Taean,Taebaek,Tongjin,Uijeongbu,Uiryeong,Uiwang,Uljin,Ulleung,Unbong,Ungcheon,Ungjin,Waegwan,Wando,Wayang,Wiryeseong,Wondeok,Yangju,Yangsan,Yangyang,Yecheon,Yeomchi,Yeoncheon,Yeongam,Yeongcheon,Yeongdeok,Yeongdong,Yeonggwang,Yeongju,Yeongwol,Yeongyang,Yeonil,Yongin,Yongjin,Yugu,Gwangmyeong,Pyeongtaek,Icheon,Gimpo,Pocheon,Geumsan,Yesan,Asan,Cheongju,Danyang,Andong,Munmak,Wolnyeong,Songju,Pohang,Gyeongju,Jeongseok,Seoul,Pyongyang,Hamhung,Chongjin,Wonsan,Nampo,Kaesong,Sinuiju,Hamhŭng,Wŏnsan,Namp'o,Kaesŏng,Sinŭiju,Tanchon,Kaechon,Sunchon,Hungnam,Rason,Kimchaek,Haeju,Kanggye,Hyesan,Tokchon,Kusong,P'yongsong,Manp'o,Pyongsong,Uiju,Hoeryong,Ulsan,Suwon,Bucheon,Iksan,Jinju,Yeosu,Wonju,Gimhae,Tongyeong"
+    "b": "Wamena,Kurima,Pyramid,Asologaima,Musatfak,Elelim,Bokondini,Karubaga,Tiom,Ninia,Soba,Kurulu,Asolokobal,Welesi,Hubikosi,Huleka,Yiwika,Dugum,Hitigima"
+  },yang,Cheorwon,Chirwon,Chuncheon,Chungju,Daedeok,Daegaya,Daejeon,Damyang,Dangjin,Dasa,Donghae,Dongsong,Doyang,Eonyang,Gaeseong,Ganggyeong,Ganghwa,Gangneung,Ganseong,Gaun,Geochang,Geoje,Geoncheon,Geumho,Geumil,Geumwang,Gijang,Gimcheon,Gimhwa,Gimje,Goa,Gochang,Gohan,Gongdo,Gongju,Goseong,Goyang,Gumi,Gunpo,Gunsan,Guri,Gurye,Gwangju,Gwangyang,Gwansan,Gyeongseong,Hadong,Hamchang,Hampyeong,Hamyeol,Hanam,Hapcheon,Hayang,Heungnam,Hongnong,Hongseong,Hwacheon,Hwando,Hwaseong,Hwasun,Hwawon,Hyangnam,Incheon,Inje,Iri,Janghang,Jangheung,Jangseong,Jangseungpo,Jangsu,Jecheon,Jeju,Jeomchon,Jeongeup,Jeonggwan,Jeongju,Jeongok,Jeongseon,Jeonju,Jido,Jiksan,Jinan,Jincheon,Jindo,Jingeon,Jinjeop,Jinnampo,Jinyeong,Jocheon,Jochiwon,Jori,Maepo,Mangyeong,Mokpo,Muju,Munsan,Naesu,Naju,Namhae,Namwon,Namyang,Namyangju,Nongong,Nonsan,Ocheon,Okcheon,Okgu,Onam,Onsan,Onyang,Opo,Paengseong,Pogok,Poseung,Pungsan,Pyeongchang,Pyeonghae,Pyeongyang,Sabi,Sacheon,Samcheok,Samho,Samrye,Sancheong,Sangdong,Sangju,Sapgyo,Sariwon,Sejong,Seocheon,Seogwipo,Seonghwan,Seongjin,Seongju,Seongnam,Seongsan,Seosan,Seungju,Siheung,Sindong,Sintaein,Soheul,Sokcho,Songak,Songjeong,Songnim,Songtan,Suncheon,Taean,Taebaek,Tongjin,Uijeongbu,Uiryeong,Uiwang,Uljin,Ulleung,Unbong,Ungcheon,Ungjin,Waegwan,Wando,Wayang,Wiryeseong,Wondeok,Yangju,Yangsan,Yangyang,Yecheon,Yeomchi,Yeoncheon,Yeongam,Yeongcheon,Yeongdeok,Yeongdong,Yeonggwang,Yeongju,Yeongwol,Yeongyang,Yeonil,Yongin,Yongjin,Yugu,Gwangmyeong,Pyeongtaek,Icheon,Gimpo,Pocheon,Geumsan,Yesan,Asan,Cheongju,Danyang,Andong,Munmak,Wolnyeong,Songju,Pohang,Gyeongju,Jeongseok,Seoul,Pyongyang,Hamhung,Chongjin,Wonsan,Nampo,Kaesong,Sinuiju,Hamhŭng,Wŏnsan,Namp'o,Kaesŏng,Sinŭiju,Tanchon,Kaechon,Sunchon,Hungnam,Rason,Kimchaek,Haeju,Kanggye,Hyesan,Tokchon,Kusong,P'yongsong,Manp'o,Pyongsong,Uiju,Hoeryong,Ulsan,Suwon,Bucheon,Iksan,Jinju,Yeosu,Wonju,Gimhae,Tongyeong"
   },
   {
 "name": "Chinese",
@@ -284,7 +282,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kamorta,Camorta,Nancowry,Trinkat,Katchal,Teressa,Chowra,Bompoka,Port Blair,Car Nicobar,Trinket,Tillangchong,Nancowrie,Pilomilo,Menchal"
+    "b": "Kamorta,Camorta,Nancowry,Trinkat,Katchal,Teressa,Chowra,Bompoka,Port Blair,Car Nicobar,Trinket,Tillangchong,Nancowrie,Pilomilo,Menchal,Alheat,Chongamong,Kuitasuk,Raiheon,Ta-eela,Kalatapu,Meroe,Tapong,Sawai,Lapathy"
   },
   {
     "name": "Chaura Nicobarese",
@@ -293,7 +291,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chowra,Chaura,Teressa,Nancowry,Kamorta,Trinkat,Katchal,Bompoka,Port Blair,Car Nicobar,Tillangchong,Menchal,Kondul,Kabra,Pulomilo,Trak,Treis,Battimalv"
+    "b": "Chowra,Chaura,Teressa,Nancowry,Kamorta,Trinkat,Katchal,Bompoka,Port Blair,Car Nicobar,Tillangchong,Menchal,Kondul,Kabra,Pulomilo,Trak,Treis,Battimalv,Raiheon,Kuitasuk,Chongamong,Alheat,Ta-eela,Kalasi,Lapathy"
   },
   {
     "name": "Nancowry Nicobarese",
@@ -302,7 +300,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nancowry,Kamorta,Trinkat,Katchal,Teressa,Bompoka,Chowra,Port Blair,Car Nicobar,Camorta,Trinket,Nancowrie,Pilomilo,Meroe,Tapong,Sawai,Lapathy,Kimios,Hitui"
+    "b": "Nancowry,Kamorta,Trinkat,Katchal,Teressa,Bompoka,Chowra,Port Blair,Car Nicobar,Camorta,Trinket,Nancowrie,Pilomilo,Meroe,Tapong,Sawai,Lapathy,Kimios,Hitui,Balu Basti,Champin,Kinyuka,Munak,Tapaming,Perka"
   },
   {
     "name": "Nicobarese (macro)",
@@ -383,7 +381,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Padang,Bukittinggi,Payakumbuh,Pariaman,Solok,Padang Panjang,Sawahlunto,Batusangkar,Agam,Pasaman,Painan,Padang Pariaman,Lubuk Basung,Sijunjung,Dharmasraya"
+    "b": "Padang,Bukittinggi,Payakumbuh,Pariaman,Solok,Padang Panjang,Sawahlunto,Batusangkar,Agam,Pasaman,Painan,Padang Pariaman,Lubuk Basung,Sijunjung,Dharmasraya,Maninjau,Harau,Singkarak,Tanah Datar,Mentawai,Padang Lawas,Mandailing,Bonjol,Sungai Puar,Batu Sangkar"
   },
   {
     "name": "Lampung",
@@ -401,7 +399,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ende,Maumere,Sikka,Wolowaru,Detusoko,Kelimutu,Bajawa,Ruteng,Labuan Bajo,Manggarai,Larantuka,Lembata,Lewoleba,Adonara,Solor"
+    "b": "Ende,Maumere,Sikka,Wolowaru,Detusoko,Kelimutu,Bajawa,Ruteng,Labuan Bajo,Manggarai,Larantuka,Lembata,Lewoleba,Adonara,Solor,Riung,Mbay,Nangapanda,Paga,Aimere,Jerebuu,Todo,Golewa,Wewo,Mautapaga"
   },
   {
     "name": "Timoric",
@@ -473,7 +471,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ternate,Tidore,Sofifi,Weda,Tobelo,Galela,Sanana,Bacan,Obi,Morotai,Patani,Buli,Gebe,Seram,Ambon"
+    "b": "Ternate,Tidore,Sofifi,Weda,Tobelo,Galela,Sanana,Bacan,Obi,Morotai,Patani,Buli,Gebe,Seram,Ambon,Labuha,Bula,Maba,Wasile,Jailolo,Loloda,Ibu,Sahu,Daruba,Bobong"
   },
   {
     "name": "Barlavento Creoles",
@@ -518,7 +516,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jakarta,Batavia,Tugu,Cilincing,Koja,Tanjung Priok,Kemayoran,Gambir,Sunda Kelapa,Ancol,Marunda,Bekasi,Tangerang,Bogor,Depok,Krawang"
+    "b": "Jakarta,Batavia,Tugu,Cilincing,Koja,Tanjung Priok,Kemayoran,Gambir,Sunda Kelapa,Ancol,Marunda,Bekasi,Tangerang,Bogor,Depok,Krawang,Jatinegara,Matraman,Senen,Tanah Abang,Menteng,Cikini,Salemba,Pulo Gadung,Cakung,Pejagalan"
   },
   {
     "name": "Tetum",
@@ -527,7 +525,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,Liquiçá"
+    "b": "Dili,Baucau,Suai,Maliana,Same,Manatuto,Viqueque,Aileu,Ainaro,Ermera,Liquica,Los Palos,Atauro,Oecusse,Maubisse,Lospalos,Liquiçá,Balibo,Bobonaro,Lautem,Manufahi,Cova Lima,Ainaru,Gleno,Hatolia"
   },
   {
     "name": "Santali",
@@ -554,7 +552,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Agats,Atsj,Asmat,Unir,Sawa Erma,Ewer,Suator,Atat,Betcbamu,Fayit,Aswi,Timika,Merauke,Pirimapun,Yepem"
+    "b": "Agats,Atsj,Asmat,Unir,Sawa Erma,Ewer,Suator,Atat,Betcbamu,Fayit,Aswi,Timika,Merauke,Pirimapun,Yepem,Otenep,Senggo,Kolf,Kaimo,Kawe,Atsy,Amborop,Omades,Yosakor,Erma"
   },
   {
     "name": "Asmat Citak",
@@ -4847,7 +4845,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Laoag,Vigan,Candon,Batac,San Fernando,Agoo,Bangued,Narvacan,Tagudin,Sinait,Cabugao,Magsingal,Santa Lucia,Santa Maria,Bantay,San Juan,Santo Domingo"
+    "b": "Laoag,Vigan,Candon,Batac,San Fernando,Agoo,Bangued,Narvacan,Tagudin,Sinait,Cabugao,Magsingal,Santa Lucia,Santa Maria,Bantay,San Juan,Santo Domingo,Piddig,Dingras,Badoc,Currimao,San Vicente,Burgos,San Nicolas,Pagudpud"
   },
   {
     "name": "Iranun",
@@ -6449,7 +6447,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bishkek,Osh,Jalal-Abad,Karakol,Tokmok,Talas,Batken,Isfana,Kadamjay,Kyzyl-Kiya,Sulukta,Tash-Kumyr,Kemin,Naryn,Cholpon-Ata,Balykchy,KarakolTown"
+    "b": "Bishkek,Osh,Jalal-Abad,Karakol,Tokmok,Talas,Batken,Isfana,Kadamjay,Kyzyl-Kiya,Sulukta,Tash-Kumyr,Kemin,Naryn,Cholpon-Ata,Balykchy,KarakolTown,Kerben,Nookat,Kochkor-Ata,Kök-Janggak,Aidarken,Shopokov,Kaindy,Orlovka"
   },
   {
     "name": "Uyghur",
@@ -6476,7 +6474,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket"
+    "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket,Boldumsaz,Yoloten,Gumdag,Farap,Charjew,Khauz,Darganata,Gazachak,Bayramaly,Abadan"
   },
   {
     "name": "Comorian",
