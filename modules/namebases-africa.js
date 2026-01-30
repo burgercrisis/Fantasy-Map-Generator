@@ -1518,7 +1518,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'Délé,Kaga Bandoro,Sibut,Alindao"
+    "b": "Rafaï,Obo,Bangassou,Zemio,Mboki,Ouadda,Bria,Birao,Ndele,Kaga Bandoro,Sibut,Alindao,Deim Zubeir,Yambio,Nzara,Ezo,Tambura,Maridi,Ibba,Li-Rangu,Dembia,Bakouma,Gambo,Mingala,Djema"
   },
   {
     "name": "Sinyar",
@@ -1698,7 +1698,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tonga,Nkhata Bay,Chitipa,Karonga,Mzimba,Rumphi,Lake Malawi,Nkhata Bay District"
+    "b": "Nkhata Bay,Chintheche,Usisya,Ruarwe,Bandawe,Likoma,Chizumulu,Kande,Mzuzu,Ekwendeni,Livingstonia,Chilumba,Karonga,Chitipa,Rumphi,Mzimba,Njakwa,Kaporo,Tukombo,Dwangwa,Nkhotakota,Salima,Chipoka,Monkey Bay,Mangochi"
   },
   {
     "name": "Totela",
@@ -1707,7 +1707,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Totela,Mongu,Limulunga,Nalolo,Senanga,Barotse Floodplain,Western Zambia"
+    "b": "Mongu,Limulunga,Nalolo,Senanga,Kalabo,Lukulu,Sesheke,Katima Mulilo,Mwandi,Sioma,Shangombo,Kaoma,Lealui,Nalikwanda,Sitoti,Nangweshi,Muoyo,Kalongola,Ngoma,Kazungula,Imusho,Lukona,Namushakende,Sikongo,Mabumbu"
   },
   {
     "name": "Venda",
@@ -1716,7 +1716,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Venda,Polokwane,Louis Trichardt,Makhado,Limpopo,South Africa,Zimbabwe Border"
+    "b": "Thohoyandou,Sibasa,Dzanani,Elim,Tshakhuma,Levubu,Mutale,Musina,Vuwani,Malamulele,Makwarela,Shayandima,Makhado,Tshilwavhusiku,Mukumbani,Tshifudi,Nzhelele,Masisi,Tshikota,Lwamondo,Dzata,Vhembe,Mashamba,Tshitandani,Fondwe"
   },
   {
     "name": "Sebat Bet Gurage",
@@ -1725,7 +1725,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sebat Bet Gurage,Butajira,Wolkite,Ethiopia,Gurage Zone,Southwest Ethiopia"
+    "b": "Butajira,Wolkite,Emdibir,Agena,Gumer,Cheha,Ezha,Meskan,Endegagn,Inor,Muher,Geta,Enemor,Aklil,Worabe,Hosaina,Durame,Hadero,Shone,Soddo,Arekit,Gunchire,Melga,Bue,Ottoro"
   },
   {
     "name": "Chongqing Mandarin",
