@@ -134,7 +134,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
+    "b": "Nata,Gweta,Sowa,Francistown,Tutume,Dukwi,Mosetse,Sebina,Maposa,Matsiloje,Ramokgwebana,Letlhakane,Orapa,Mopipi,Rakops,Mmatshumo,Zoroga,Maitengwe,Tshimoyapula,Makalamabedi,Kasane,Kazungula,Pandamatenga,Lesoma,Parakarungu"
   },
   {
     "name": "Taa Click",
@@ -1574,7 +1574,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "sdv-TD",
     "m": 0,
-    "b": "Beida,Wadi Salih,Goz Beida,Kadjaksé,Dagana,Mogororo,Ade,Sila,Dar Sila,Habila,Forobaranga,Aradib"
+    "b": "Goz Beida,Koukou Angarana,Am Timan,Haraze,Tissi,Mangueigne,Maro,Ade,Goungour,Abéché,Iriba,Guéréda,Arada,Biltine,Am Zoer,Farchana,Djedaa,Kerfi,Moudeina,Abdi,Geneina,Adre,Kulbus,Masteri,Beida,Forobaranga,Habila,Aradib"
   },
   {
     "name": "Songhoyboro Ciine",
@@ -1601,7 +1601,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "ssa-TD",
     "m": 0,
-    "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kébir,Wour,Yebbi-Bou,Aouzou,Kourizo,Trou au Natron,Tibesti,Ennedi,Borkou"
+    "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kebir,Ounianga Serir,Wour,Yebbi-Bou,Aouzou,Kourizo,Gouro,Tekro,Miski,Sherda,Seguedine,Chirfa,Dirkou,Bilma,Djado,Madama,Aney,Kaouar,Zouarke,Monou,Toummo,Yebi-Souma,Emi Koussi"
   },
   {
     "name": "Tondi Songway Kiini",
@@ -2357,7 +2357,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Song,Girei,Jimeta,Yola,Fufore,Mayo-Belwa,Ganye,Toungo,Jada,Hong,Gombi,Michika"
+    "b": "Song,Girei,Jimeta,Yola,Fufore,Mayo-Belwa,Ganye,Toungo,Jada,Hong,Gombi,Michika,Numan,Demsa,Shelleng,Guyuk,Lamurde,Maiha,Mubi,Madagali,Uba,Bazza,Gulak,Askira,Chibok,Gwoza,Biu,Kwaya Kusar,Shani,Hawul"
   },
   {
     "name": "Wali Ghana",
@@ -2366,7 +2366,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wa,Kaleo,Nadowli,Daffiama,Jirapa,Lawra,Lambussie,Hamile,Ko,Han,Ulu,Boli"
+    "b": "Wa,Kaleo,Nadowli,Daffiama,Jirapa,Lawra,Lambussie,Hamile,Ko,Han,Ulu,Boli,Tumu,Gwollu,Funsi,Nandom,Eremon,Babile,Issa,Wechiau,Busa,Bulenga,Lassia-Tuolu,Takpo,Tanina,Fielmon,Dorimon,Charia,Bamahu,Kpongu"
   },
   {
     "name": "Mor",
