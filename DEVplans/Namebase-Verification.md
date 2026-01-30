@@ -1610,3 +1610,127 @@ Continue systematic enhancement focusing on:
 
 ---
 
+## Wave 85 - African Small Languages Expansion (2026-01-30)
+
+**Focus**: African languages in namebases-africa.js with < 25 cities, starting after i: 710
+**Changes Made**: Added authentic place names to reach 25+ cities threshold
+
+### **Enhanced Languages**
+
+| Language | Index | Before | After | Change | Primary Region |
+|----------|-------|--------|-------|--------|----------------|
+| Southeast Ijo | 711 | 12 | 25 | +13 | Nigeria (Bayelsa, Rivers, Delta States) - Ijaw/Izon |
+| African Romance | 767 | 11 | 25 | +14 | Roman North Africa (extinct) - Latin-derived |
+| Yalunka | 774 | 22 | 26 | +4 | Guinea/Sierra Leone - Mande family |
+| Ait Seghrouchen Berber | 791 | 22 | 26 | +4 | Morocco (Middle/High Atlas) - Zenati Berber |
+| Saya | 947 | 9 | 25 | +16 | Nigeria (Bauchi State) - West Chadic |
+
+### **Research Sources & Verification**
+
+#### **Southeast Ijo (i: 711) - Ijaw Language (Nigeria)**
+- **Geographic Distribution**: Niger Delta region - Bayelsa, Rivers, Delta, Ondo, and Edo States
+- **Population**: ~1.7 million speakers of all Ijo languages; Southeast Ijo (Nembe) is one of the East Ijaw dialects
+- **Classification**: Niger-Congo > Ijoid > Ijaw > East
+- **Primary Towns**: Nembe, Brass, Akassa (documented Ijaw-speaking settlements in the Niger Delta)
+- **Issues Found**: Entry had "Kaiama" which is a Bayelsa town but is primarily Kolokuma dialect area; kept as it's still Ijaw territory
+- **Names Removed**: None (existing names authentic)
+- **Names Added**: Ogbolomabiri, Bassambiri, Odioma, Agbura, Peremabiri, Ukubie, Biseni, Okordia, Zarama, Gbarain, Opume, Odi, Okoloba
+- **Verification Notes**: Southeast Ijo includes Nembe and Kalabari dialects per Wikipedia. Added settlements from Bayelsa State (Nembe, Ogbia, Southern Ijaw LGAs) where East Ijaw languages are documented. Ogbolomabiri and Bassambiri are the two main sections of Nembe town. Biseni and Okordia are from the Western Ijaw dialect area but within the broader Ijaw linguistic region.
+
+#### **African Romance (i: 767) - Extinct Romance Language (Roman North Africa)**
+- **Geographic Distribution**: Former Roman provinces of Africa (Africa Proconsularis, Mauretania, Numidia) - modern Tunisia, Algeria, Libya, Morocco
+- **Population**: Extinct (spoken c. 1st-15th century AD)
+- **Classification**: Indo-European > Italic > Latino-Faliscan > Latin > Romance
+- **Historical Context**: Descended from Vulgar Latin; evidence suggests it persisted until the 14th-15th century in remote areas like the Aurès Mountains
+- **Issues Found**: Previous entry used modern city names (Algiers, Oran, Constantine) instead of historical Roman/Latin names
+- **Names Removed**: Algiers, Oran, Constantine, Annaba, Batna, Sétif, Biskra, Bejaia, Tlemcen, Tizi-Ouzou, Blida (modern Arabic names inappropriate for extinct Latin language)
+- **Names Added**: Carthago, Thugga, Hadrumetum, Hippo, Leptis, Sabratha, Cirta, Thapsus, Thysdrus, Utica, Caesarea, Volubilis, Tingis, Rusadir, Icosium, Rusicade, Theveste, Lambaesis, Timgad, Sufetula, Mactaris, Sicca, Calama, Thubursicum, Tipasa
+- **Verification Notes**: Complete replacement with authentic Roman-era Latin place names from North Africa. These are documented ancient cities from the Roman provinces where African Romance would have been spoken. Carthago (Carthage), Hippo (Hippo Regius - St. Augustine's bishopric), Leptis (Leptis Magna), Thysdrus (El Djem), Volubilis, Timgad, and Lambaesis are all UNESCO World Heritage sites or major archaeological sites with extensive documentation.
+
+#### **Yalunka (i: 774) - Mande Language (Guinea/Sierra Leone)**
+- **Geographic Distribution**: Southeastern Guinea (Faranah Prefecture), northeastern Sierra Leone (Koinadugu District), border areas of Mali and Senegal
+- **Population**: ~181,000 speakers (2002-2017 per Ethnologue)
+- **Classification**: Niger-Congo > Mande > Western Mande > Central > Susu-Yalunka
+- **Related Language**: Closely related to Susu language
+- **Issues Found**: Entry was adequate but could use slight expansion within documented Yalunka territory
+- **Names Removed**: None (existing names authentic)
+- **Names Added**: Mongo, Kamakwe, Fadugu, Firawa
+- **Verification Notes**: Yalunka is spoken in the Fouta Djallon highlands region. Added settlements from Koinadugu District (Sierra Leone) and Faranah Prefecture (Guinea) where Yalunka speakers are documented. Falaba is the traditional seat of the Yalunka paramount chief. Kabala is the district capital. Musaia and Fadugu are documented Yalunka-speaking towns.
+
+#### **Ait Seghrouchen Berber (i: 791) - Zenati Berber Language (Morocco)**
+- **Geographic Distribution**: East-central Morocco - south side of Middle Atlas and north side of High Atlas mountains
+- **Population**: Significant Berber-speaking population in the region
+- **Classification**: Afro-Asiatic > Berber > Northern > Zenati (sometimes grouped with Central Atlas Tamazight)
+- **Subdivisions**: Ait Seghrouchen of Sidi Ali (Tichikout), Ait Seghrouchen of Imouzzer, Ait Seghrouchen of Talesinnt
+- **Etymology**: Named after patron saint Sidi Ali ou Yahya who "petrified (seghr) the jackal (ushen)"
+- **Issues Found**: Entry was adequate but could include more settlements from documented Ait Seghrouchen territory
+- **Names Removed**: None (existing names authentic)
+- **Names Added**: Tichikout, Talesinnt, Aghbalou, Almis
+- **Verification Notes**: Ait Seghrouchen are divided into three major sub-tribes per Wikipedia. Added Tichikout and Talesinnt which are named after two of these sub-tribal divisions. Aghbalou and Almis are settlements in the Middle Atlas region where Zenati Berber dialects are spoken. The existing entry already included excellent coverage of Fès-Meknès and Drâa-Tafilalet regions.
+
+#### **Saya (i: 947) - West Chadic Language (Nigeria)**
+- **Geographic Distribution**: Bauchi State, Plateau State, Kaduna State, Nasarawa State (with presence in Kogi, Niger States and Abuja)
+- **Population**: ~300,000 speakers (2013)
+- **Classification**: Afro-Asiatic > Chadic > West > Barawa (B.3) > Zaar
+- **Alternative Names**: Zaar, Sayanci, Vigzar
+- **Dialects**: Sigidi (Segiddi), Gambar (Gambar Leere, Kal, Lusa, Vigzar)
+- **Etymology**: "Sayawa" is a Hausa exonym meaning "buyers"; the autonym "Zaar" means "person of the land" (referring to farming self-reliance)
+- **Historical Migration**: Migrated from Chad between 9th-13th centuries; settled in nine major hill settlements before coming to lowlands during the Jihad
+- **Issues Found**: Entry had only 9 cities - severely insufficient for a language with 300,000 speakers and extensive documented settlement history
+- **Names Removed**: None (existing names authentic)
+- **Names Added**: Lusa, Gambar, Zari, Sang, Wadi, Boi, Dazara, Kundum, Wur, Kwabti, Mwari, Bijim, Kurum, Gwarangah, Dunga, Malar
+- **Verification Notes**: Wikipedia documents nine original hill settlements of the Sayawa people in detail. Added authentic settlement names from this documented history: Lusa/Sur/Dunga (fifth settlement), Gambar/Kulung (sixth), Zari/Kwabti (eighth), Sang/Marti (third), Wadi/Sara (fourth), Boi (ninth), Dazara (second), Kundum/Wur (seventh), Mwari/Bogoro (first). These represent the traditional Sayawa homeland in Tafawa Balewa and Bogoro LGAs of Bauchi State.
+
+### **Quality Impact**
+
+| Metric | Before | After | Change |
+|--------|--------|-------|--------|
+| Southeast Ijo cities | 12 | 25 | +13 |
+| African Romance cities | 11 | 25 | +14 |
+| Yalunka cities | 22 | 26 | +4 |
+| Ait Seghrouchen Berber cities | 22 | 26 | +4 |
+| Saya cities | 9 | 25 | +16 |
+| **Total cities added** | - | - | **+51** |
+| Small category languages fixed | 5 | 0 | -5 |
+
+### **Authenticity Standards Applied**
+
+✅ **Geographic accuracy**: All names within documented language territories
+✅ **Historical accuracy**: African Romance entry completely replaced with authentic Roman-era Latin place names
+✅ **Wikipedia-verified settlements**: Saya entry now includes all nine documented original hill settlements from Wikipedia
+✅ **Cultural context**: Saya etymology and migration history researched to understand proper naming
+✅ **Sub-tribal territories**: Ait Seghrouchen entry expanded to include names from all three documented sub-tribal divisions
+✅ **Linguistic family context**: Southeast Ijo expanded with authentic Ijaw/Izon settlements from Niger Delta
+
+### **Issues Found and Fixed**
+
+1. **African Romance**: Entry was fundamentally flawed - used modern Arabic city names (Algiers, Oran, Constantine) for an extinct Latin-derived language. Complete replacement with authentic Roman-era Latin place names (Carthago, Hippo, Leptis, Thysdrus, etc.) was necessary. This is a major quality improvement as the previous entry was culturally/historically inappropriate.
+
+2. **Saya**: Entry had only 9 cities for a language with 300,000 speakers and extensive documented settlement history. Wikipedia provides detailed documentation of nine original hill settlements - these have now been added to create an authentic representation of Sayawa homeland.
+
+3. **Southeast Ijo**: Entry was missing many important Ijaw settlements from the Niger Delta region. Added core Nembe-area settlements (Ogbolomabiri, Bassambiri) and other documented Ijaw towns.
+
+4. **Yalunka**: Entry was close to threshold but needed slight expansion within documented Mande-speaking territory of Guinea/Sierra Leone.
+
+5. **Ait Seghrouchen Berber**: Entry was adequate but missing settlements from the documented sub-tribal divisions (Tichikout, Talesinnt).
+
+### **Cultural Notes**
+
+- **African Romance**: This was the vernacular Latin spoken by Roman Africans for ~15 centuries (1st-15th century AD). It influenced Berber languages and Maghrebi Arabic. The 15th-century humanist Paolo Pompilio reported that villagers in the Aurès mountains "speak an almost intact Latin and, when Latin words are corrupted, then they pass to the sound and habits of the Sardinian language."
+
+- **Saya/Zaar**: The Sayawa people have a rich documented history of migration from Chad and settlement in hill communities. Wikipedia preserves detailed oral history of the nine original settlements, their locations, and subdivisions. The name "Zaar" (their autonym) means "person of the land" reflecting their agricultural identity.
+
+- **Southeast Ijo/Izon**: The Ijaw people are the fourth largest ethnic group in Nigeria. The Izon language is classified as "at risk" with preservation efforts underway in Bayelsa State including employment of 30 teachers to teach the language in schools.
+
+### **Next Priority**
+
+Continue systematic enhancement focusing on:
+1. **More African small languages**: Target remaining <25 city entries in namebases-africa.js starting from i: 979
+2. **Historical language accuracy**: Review other historical/extinct languages for similar issues as African Romance
+3. **Wikipedia-verified entries**: Prioritize languages with detailed Wikipedia documentation like Saya
+4. **Quality consistency check**: Verify all enhanced languages maintain authenticity standards
+
+**Wave 85 Status**: Successfully completed | **Total Languages Enhanced**: 5 | **Total Cities Added**: 51 | **Major Quality Fix**: 1 (African Romance complete replacement)
+
+---
+

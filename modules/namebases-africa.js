@@ -1158,7 +1158,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nembe,Brass,Akassa,Okpoama,Twon-Brass,Ogbia,Yenagoa,Kaiama,Sagbama,Ekeremor,Oporoma,Amassoma"
+    "b": "Nembe,Brass,Akassa,Okpoama,Twon-Brass,Ogbia,Yenagoa,Sagbama,Ekeremor,Oporoma,Amassoma,Ogbolomabiri,Bassambiri,Odioma,Agbura,Peremabiri,Ukubie,Biseni,Okordia,Zarama,Gbarain,Opume,Odi,Okoloba,Kaiama"
   },
   {
     "name": "Susu",
@@ -1176,7 +1176,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Algiers,Oran,Constantine,Annaba,Batna,Sétif,Biskra,Bejaia,Tlemcen,Tizi-Ouzou,Blida"
+    "b": "Carthago,Thugga,Hadrumetum,Hippo,Leptis,Sabratha,Cirta,Thapsus,Thysdrus,Utica,Caesarea,Volubilis,Tingis,Rusadir,Icosium,Rusicade,Theveste,Lambaesis,Timgad,Sufetula,Mactaris,Sicca,Calama,Thubursicum,Tipasa"
   },
   {
     "name": "Yalunka",
@@ -1185,7 +1185,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Faranah,Sangardo,Musaia,Falaba,Kabala,Heremakono,Sinkhunia,Gberia Fotombu,Dogoloya,Sulima,Koinadugu,Sengbe,Firia,Dantila,Koubia,Marela,Banora,Dialakoro,Kalako,Solon,Yana,Sanya"
+    "b": "Faranah,Sangardo,Musaia,Falaba,Kabala,Heremakono,Sinkhunia,Gberia Fotombu,Dogoloya,Sulima,Koinadugu,Sengbe,Firia,Dantila,Koubia,Marela,Banora,Dialakoro,Kalako,Solon,Yana,Sanya,Mongo,Kamakwe,Fadugu,Firawa"
   },
   {
     "name": "Yela-Kela",
@@ -1203,7 +1203,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Taza,Boulemane,Missour,Outat El Haj,Guercif,Sefrou,Ifrane,Azrou,El Hajeb,Midelt,Zeida,Itzer,Skoura M'Daz,El Menzel,Ribat El Kheir,Bir Tam Tam,Ras El Ma,Immouzer Kandar,Dayet Aoua,Ain Leuh,Timahdite,Bekrit"
+    "b": "Taza,Boulemane,Missour,Outat El Haj,Guercif,Sefrou,Ifrane,Azrou,El Hajeb,Midelt,Zeida,Itzer,Skoura M'Daz,El Menzel,Ribat El Kheir,Bir Tam Tam,Ras El Ma,Immouzer Kandar,Dayet Aoua,Ain Leuh,Timahdite,Bekrit,Tichikout,Talesinnt,Aghbalou,Almis"
   },
   {
     "name": "Alasha Mongol",
@@ -1302,7 +1302,7 @@
     "max": 11,
     "d": "wba-NG",
     "m": 0,
-    "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum"
+    "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum,Lusa,Gambar,Zari,Sang,Wadi,Boi,Dazara,Kundum,Wur,Kwabti,Mwari,Bijim,Kurum,Gwarangah,Dunga,Malar"
   },
   {
     "name": "Tumbuka",
