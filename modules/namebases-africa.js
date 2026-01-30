@@ -1853,7 +1853,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jerba Berber,Jerba,Tataouine,Morocco,Atlas Mountains,North Africa"
+    "b": "Houmt Souk,Midoun,Ajim,Guellala,Mahboubine,Mezraya,Sedouikech,Arkou,Fatou,El May,Mellita,Hara Kebira,Hara Sghira,Cedghiane,Erriadh,Borj Djillidj,Sidi Yati,El Kantara,Aghir,Tezdaine,Cedouikech,Meninx,Motki,Robbana,Oualegh"
   },
   {
     "name": "Matmata Berber",
@@ -1862,7 +1862,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Matmata,Douz,Tataouine,Medenine,GabÃ¨s,Remada,Tunisia,Sahara Desert,North Africa"
+    "b": "Matmata,Tamezret,Chenini,Douiret,Zraoua,Beni Kheddache,Ghomrassen,Guermessa,Toujane,Haddej,Techine,Ksar Ouled Soltane,Ksar Hallouf,Ksar Jouamaa,Tataouine,Medenine,Gabes,Mareth,Zarzis,Djerba,Douz,Kebili,Tozeur,Remada,Dehiba"
   },
   {
     "name": "Sheliff Basin Berber",
@@ -1925,7 +1925,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Doko,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Numan,Demsa,Lamurde,Guyuk,Shelleng,Gombi,Hong,Song,Maiha,Mubi,Michika,Uba,Ganye,Jada,Mayo Belwa,Fufore,Girei,Yola,Jimeta,Ngurore,Sangere,Borrong,Nassarawo,Vunoklang,Lau"
   },
   {
     "name": "Dugwor",
@@ -1934,7 +1934,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dugwor,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Maroua,Meri,Mokolo,Mora,Koza,Kaele,Mindif,Tokombere,Moulvoudaye,Gazawa,Pette,Bogo,Dargala,Salak,Tchakidjeke,Tchere,Diamare,Godola,Balda,Gawar,Djaoundere,Gayak,Doulek,Guider,Yagoua"
   },
   {
     "name": "Duhwa",
@@ -1943,7 +1943,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duhwa,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Lafia,Keffi,Akwanga,Nasarawa,Karu,Doma,Keana,Wamba,Awe,Obi,Kokona,Toto,Garaku,Mararaba,Masaka,Uke,Gudi,Shabu,Udege,Karshi,Nyanya,Jikwoyi,Orozo,Karmo,Kurudu"
   },
   {
     "name": "Dullay",
