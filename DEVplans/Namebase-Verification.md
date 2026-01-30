@@ -4116,3 +4116,142 @@ Continue systematic enhancement focusing on:
 
 ---
 
+## 🚀 **WAVE 105 - SMALL LANGUAGE CLEANUP (NUBA, OMETO, CHADIC, DAHLAK)**
+
+**Status**: ✅ **SUCCESSFULLY COMPLETED**
+
+**Date**: 2026-01-30
+**Languages Enhanced**: 5 small African languages (all had 6 cities)
+**Research Time**: ~30 minutes
+**Changes Made**: Removed language names, country names, geographic features, and regional descriptors; replaced with authentic settlements
+
+### **Enhanced Languages**
+
+#### **Tulishi (i: 20163) - Kordofanian/Nilo-Saharan Language (Nuba Mountains, Sudan)**
+- **Geographic Distribution**: South Kordofan State, Sudan - part of the Tulishi-Tukum-Tocho-El Amira language cluster
+- **Population**: ~2,500 speakers (severely endangered)
+- **Classification**: Nilo-Saharan > Kordofanian > Rashad > Tulishi
+- **Key Regions**: Rashad County and surrounding areas in the Nuba Mountains
+- **Issues Found**: Entry contained "Tulishi" (language name), "Nuba" (generic ethnic/regional term). Only 2 actual settlements (Lagawa, potentially Kamda/Keiga/Moro as village names).
+- **Names Removed**: Tulishi (language name), Nuba (ethnic/regional descriptor)
+- **Names Added**: Kadugli,Dilling,Rashad,Talodi,Lagawa,Heiban,Kauda,Habila,Abu Jibeha,Delami,Um Heitan,Abri,Julud,Tira,Koalib,Miri,Otoro,Ghulfan,Tegali,Katla,Korongo,Liri,Kalogi,Wali,Kau
+- **Verification Notes**: Added authentic Nuba Mountains settlements from South Kordofan State. Includes major towns (Kadugli - state capital, Dilling, Rashad, Talodi) and smaller Nuba settlements. The Tulishi people live in the eastern Nuba Mountains near Rashad.
+- **Cities Before**: 6 | **Cities After**: 25
+
+#### **Ometo (i: 20714) - Omotic Language FAMILY (SNNPR, Ethiopia)**
+- **Geographic Distribution**: Southern Nations, Nationalities, and Peoples' Region (SNNPR), Ethiopia - NOT a single language but a language FAMILY
+- **Population**: Ometo languages collectively have ~3 million speakers (Wolaytta ~2M, Gamo ~750K, etc.)
+- **Classification**: Afro-Asiatic > Omotic > North Omotic > Ometo (language family)
+- **Key Regions**: Wolaytta Zone, Gamo Gofa Zone, Dawro Zone, Konso Special Woreda
+- **Issues Found**: Entry contained "Ometo" (language FAMILY name, not a language!), "Ethiopia" (country), "Omo Valley" (geographic region), "Southwest Ethiopia" (regional descriptor). Only 2 actual settlements (Wolayta - misspelled zone name, Soddo).
+- **Names Removed**: Ometo (language family name), Ethiopia (country), Omo Valley (geographic region), Southwest Ethiopia (regional descriptor)
+- **Names Added**: Sodo,Areka,Boditi,Gesuba,Bele,Dimtu,Humbo,Boloso Sore,Damot Gale,Damot Weyde,Kindo Koysha,Ofa,Duguna Fango,Arba Minch,Chencha,Dorze,Konso,Gidole,Sawla,Bulki,Gofa,Geresse,Oyda,Malo,Basketo
+- **Verification Notes**: Added authentic settlements from the Ometo-speaking regions of SNNPR. Includes Wolaytta Zone towns (Sodo - capital, Areka, Boditi, Gesuba), Gamo Zone (Arba Minch, Chencha, Dorze), Gofa (Sawla, Bulki), Dawro (Basketo), and Konso. These represent the geographic spread of the Ometo language family.
+- **Cities Before**: 6 | **Cities After**: 25
+
+#### **Cuvok (i: 20726) - Biu-Mandara Chadic Language (Far North Region, Cameroon)**
+- **Geographic Distribution**: Far North Region, Cameroon - specifically around Mokolo and the Mandara Mountains
+- **Population**: ~15,000 speakers (2000 estimate)
+- **Classification**: Afro-Asiatic > Chadic > Biu-Mandara > Mafa-Tera > Mafa > South Mafa > Cuvok
+- **Key Regions**: Mayo-Tsanaga Department, specifically around Mokolo
+- **Issues Found**: Entry contained "Cuvok" (language name), "Cameroon" (country), "Mandara Mountains" (geographic feature), "West Africa" (continental region). Only 2 actual settlements (Mokolo, Maroua).
+- **Names Removed**: Cuvok (language name), Cameroon (country), Mandara Mountains (geographic feature), West Africa (continental region)
+- **Names Added**: Mokolo,Koza,Mora,Meri,Bourha,Hina,Tokombere,Kolofata,Kerawa,Limani,Maroua,Mindif,Kaele,Guidiguis,Yagoua,Maga,Pouss,Waza,Fotokol,Makary,Blangoua,Goulfey,Logone-Birni,Kousseri,Zina
+- **Verification Notes**: Added authentic Far North Cameroon settlements where Cuvok and related Biu-Mandara languages are spoken. Mokolo (main town for Cuvok speakers) is in Mayo-Tsanaga Department. Includes surrounding Mandara Mountain settlements and towns in the Extreme North.
+- **Cities Before**: 6 | **Cities After**: 25
+
+#### **Dahalik (i: 20728) - Semitic Language (Dahlak Archipelago, Eritrea)**
+- **Geographic Distribution**: Dahlak Archipelago in the Red Sea, off the coast of Eritrea
+- **Population**: ~2,500 speakers (severely endangered)
+- **Classification**: Afro-Asiatic > Semitic > South Semitic > Ethiopic > North Ethiopic > Tigre > Dahalik
+- **Key Regions**: Dahlak Kebir (main island), smaller islands of the archipelago, Massawa coastal area
+- **Issues Found**: Entry contained "Dahalik" (language name), "Eritrea" (country), "Red Sea" (geographic feature), "Africa" (continent!). Only 2 actual place names (Dahlak Kebir - island name, Massawa - mainland city).
+- **Names Removed**: Dahalik (language name), Eritrea (country), Red Sea (geographic feature), Africa (continent name!)
+- **Names Added**: Dahlak Kebir,Nora,Dese,Nakura,Harmil,Howakil,Dohul,Shumma,Massawa,Ghela'alo,Foro,Hirgigo,Adulis,Zula,Arkiko,Emberemi,Tio,Assab,Edd,Beylul,Rahayta,Thio,Afambo,Buri,Irafayle
+- **Verification Notes**: Added authentic Dahlak Islands settlements (Dahlak Kebir, Nora, Dese, Nakura, Harmil, Howakil, Dohul, Shumma) plus Eritrean Red Sea coast towns where Dahalik speakers interact (Massawa, Ghela'alo, Foro, Hirgigo). Also included historic sites (Adulis - ancient port) and Afar coast towns to the south. The Dahlak Islands have been inhabited since ancient times and were part of the Aksumite Empire.
+- **Cities Before**: 6 | **Cities After**: 25
+
+#### **Dass (i: 20729) - West Chadic Language (BAUCHI STATE, Nigeria - NOT Plateau State!)**
+- **Geographic Distribution**: Dass Local Government Area, Bauchi State, northeastern Nigeria
+- **Population**: ~23,000 speakers
+- **Classification**: Afro-Asiatic > Chadic > West Chadic > Bole-Tangale > South Bauchi
+- **Key Regions**: Dass LGA, Bauchi State (surrounding areas include Tafawa Balewa, Bogoro)
+- **CRITICAL ISSUE FOUND**: Entry listed "Plateau State" - THIS IS WRONG! Dass language is spoken in BAUCHI STATE, not Plateau State! Also contained "Nigeria" (country), "North Central" (wrong region - Bauchi is North East!), "West Africa" (continental region).
+- **Names Removed**: Dass (language name), Plateau State (WRONG STATE!), Nigeria (country), North Central (WRONG REGION!), West Africa (continental region)
+- **Names Added**: Bununu,Baraza,Kagadama,Bajama,Lere,Tafawa Balewa,Bogoro,Bauchi,Toro,Ningi,Warji,Alkaleri,Kirfi,Misau,Ganjuwa,Darazo,Itas,Gadau,Shira,Giade,Azare,Jama'are,Katagum,Zaki,Gamawa
+- **Verification Notes**: CORRECTED STATE from Plateau to Bauchi! Wikipedia and Ethnologue confirm Dass is spoken in Dass LGA of Bauchi State, NOT Plateau State. Added authentic Bauchi State settlements including Dass LGA villages (Bununu - LGA headquarters, Baraza, Kagadama, Bajama, Lere) and surrounding towns. Bauchi State is in the North East zone, not North Central.
+- **Cities Before**: 6 | **Cities After**: 25
+
+### **Quality Impact**
+
+| Language | i | Before | After | Change | Primary Region | Critical Issue |
+|----------|---|--------|-------|--------|----------------|----------------|
+| Tulishi | 20163 | 6 | 25 | +19 | Nuba Mountains, Sudan | Language name + ethnic descriptor as places |
+| Ometo | 20714 | 6 | 25 | +19 | SNNPR, Ethiopia | Language FAMILY name as place + country/region |
+| Cuvok | 20726 | 6 | 25 | +19 | Far North Cameroon | Language name + country + mountain range |
+| Dahalik | 20728 | 6 | 25 | +19 | Dahlak Islands, Eritrea | Language name + continent "Africa" as place! |
+| Dass | 20729 | 6 | 25 | +19 | Bauchi State, Nigeria | **WRONG STATE!** (listed Plateau instead of Bauchi) |
+| **Total** | - | **30** | **125** | **+95** | - | - |
+
+### **Critical Issues Fixed**
+
+1. **WRONG STATE**: Dass entry listed "Plateau State" but Dass language is spoken in BAUCHI STATE - these are two different states ~150km apart!
+2. **WRONG REGION**: Dass entry listed "North Central" but Bauchi State is in the "North East" geopolitical zone
+3. **Language family as place**: "Ometo" is a language FAMILY (containing Wolaytta, Gamo, Gofa, Dawro, etc.), not a single language or place
+4. **Continent as place**: Dahalik entry contained "Africa" as a place name - absurd placeholder
+5. **Language names as places**: Tulishi, Ometo, Cuvok, Dahalik, Dass - all 5 entries had this error
+6. **Country names as places**: Ethiopia, Cameroon, Eritrea, Nigeria - 4 instances
+7. **Geographic features as places**: Red Sea, Mandara Mountains, Omo Valley - 3 instances
+8. **Regional descriptors**: West Africa (x2), Southwest Ethiopia, North Central - 4 instances
+
+### **Generic Descriptors Removed**
+
+1. **Language/family names**: "Tulishi", "Ometo", "Cuvok", "Dahalik", "Dass" - 5 instances
+2. **Country names**: "Ethiopia", "Cameroon", "Eritrea", "Nigeria" - 4 instances
+3. **Continental/regional**: "Africa", "West Africa" (x2), "Southwest Ethiopia", "North Central" - 5 instances
+4. **Geographic features**: "Omo Valley", "Mandara Mountains", "Red Sea", "Nuba" - 4 instances
+5. **Wrong state**: "Plateau State" - 1 instance
+
+**Total problematic entries removed**: 19
+
+### **Authenticity Standards Applied**
+
+✅ **Wrong state correction**: Dass - changed from Plateau State to Bauchi State
+✅ **Wrong region correction**: Dass - changed from North Central to North East zone
+✅ **Language family clarification**: Ometo is a family, added towns from multiple Ometo-speaking areas
+✅ **Language name removal**: Removed all 5 language names used as place names
+✅ **Country name removal**: Removed Ethiopia, Cameroon, Eritrea, Nigeria
+✅ **Continental absurdity fix**: Removed "Africa" as a place name from Dahalik
+✅ **Geographic feature removal**: Removed Red Sea, Mandara Mountains, Omo Valley, Nuba
+✅ **Minimum count achieved**: All 5 languages now have 25 authentic place names
+
+### **Cultural Notes**
+
+- **Tulishi**: A severely endangered Kordofanian language with only ~2,500 speakers. Part of the Rashad group of languages. The Tulishi people live in the eastern Nuba Mountains and have faced displacement due to conflict in South Kordofan.
+
+- **Ometo**: NOT a language but a language FAMILY within North Omotic. Major members include Wolaytta (~2M speakers), Gamo (~750K), Gofa, Dawro, and Konso. The namebase represents the broader Ometo-speaking region of southern Ethiopia.
+
+- **Cuvok**: Also spelled "Tchuvok" - a Biu-Mandara Chadic language closely related to Mafa. Spoken in the Mandara Mountains foothills near Mokolo. Part of the rich linguistic diversity of Far North Cameroon.
+
+- **Dahalik**: A Semitic language related to Tigre, spoken on the Dahlak Islands in the Eritrean Red Sea. The islands have been inhabited since ancient times and were part of the Aksumite Empire's maritime trade network. Only ~2,500 speakers remain.
+
+- **Dass**: A West Chadic language of Bauchi State's southern zone. The entry's listing of "Plateau State" was a clear geographic error - Dass LGA is firmly within Bauchi State. Bununu is the LGA headquarters.
+
+### **File Integrity Verification**
+
+- **Languages before edits**: 587
+- **Languages after edits**: 587 ✅
+- **File structure**: Intact (proper header, proper closing bracket)
+- **Edit method**: Targeted string replacement only (no file rewrites)
+
+### **Next Priority**
+
+Continue systematic enhancement focusing on:
+1. **More state/province verification**: Check other Nigerian languages for similar state misattribution errors
+2. **Language family vs language audit**: Check other entries that might be language family names instead of actual languages
+3. **Continental absurdities**: Look for other entries with "Africa" or other continents as place names
+
+**Wave 105 Status**: Successfully completed | **Total Languages Enhanced**: 5 | **Total Cities Added**: 95 | **Critical Issues Fixed**: 2 (wrong state attribution, language family as place) | **Generic/Problematic Entries Removed**: 19 | **File Integrity**: Verified (587 languages)
+
+---
+

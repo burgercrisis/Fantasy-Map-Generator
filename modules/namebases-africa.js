@@ -4265,7 +4265,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tulishi,Kamda,Lagawa,Keiga,Moro,Nuba"
+    "b": "Kadugli,Dilling,Rashad,Talodi,Lagawa,Heiban,Kauda,Habila,Abu Jibeha,Delami,Um Heitan,Abri,Julud,Tira,Koalib,Miri,Otoro,Ghulfan,Tegali,Katla,Korongo,Liri,Kalogi,Wali,Kau"
   },
   {
     "name": "Uduk",
@@ -5111,7 +5111,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ometo,Wolayta,Soddo,Ethiopia,Omo Valley,Southwest Ethiopia"
+    "b": "Sodo,Areka,Boditi,Gesuba,Bele,Dimtu,Humbo,Boloso Sore,Damot Gale,Damot Weyde,Kindo Koysha,Ofa,Duguna Fango,Arba Minch,Chencha,Dorze,Konso,Gidole,Sawla,Bulki,Gofa,Geresse,Oyda,Malo,Basketo"
   },
   {
     "name": "Chichewa",
@@ -5165,7 +5165,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cuvok,Mokolo,Maroua,Cameroon,Mandara Mountains,West Africa"
+    "b": "Mokolo,Koza,Mora,Meri,Bourha,Hina,Tokombere,Kolofata,Kerawa,Limani,Maroua,Mindif,Kaele,Guidiguis,Yagoua,Maga,Pouss,Waza,Fotokol,Makary,Blangoua,Goulfey,Logone-Birni,Kousseri,Zina"
   },
   {
     "name": "Daba",
@@ -5183,7 +5183,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dahalik,Dahlak Kebir,Massawa,Eritrea,Red Sea,Africa"
+    "b": "Dahlak Kebir,Nora,Dese,Nakura,Harmil,Howakil,Dohul,Shumma,Massawa,Ghela'alo,Foro,Hirgigo,Adulis,Zula,Arkiko,Emberemi,Tio,Assab,Edd,Beylul,Rahayta,Thio,Afambo,Buri,Irafayle"
   },
   {
     "name": "Dass",
@@ -5192,7 +5192,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dass,Bauchi,Plateau State,Nigeria,North Central,West Africa"
+    "b": "Bununu,Baraza,Kagadama,Bajama,Lere,Tafawa Balewa,Bogoro,Bauchi,Toro,Ningi,Warji,Alkaleri,Kirfi,Misau,Ganjuwa,Darazo,Itas,Gadau,Shira,Giade,Azare,Jama'are,Katagum,Zaki,Gamawa"
   },
   {
     "name": "Daza",
