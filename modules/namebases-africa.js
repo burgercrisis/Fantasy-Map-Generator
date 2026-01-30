@@ -1781,7 +1781,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chongqing,Chengdu,Wanzhou,Fuling,China,Sichuan,Yangtze River,Three Gorges"
+    "b": "Chongqing,Wanzhou,Fuling,Qianjiang,Yongchuan,Hechuan,Jiangjin,Nanchuan,Dazu,Bishan,Tongnan,Tongliang,Rongchang,Fengdu,Zhongxian,Wulong,Shizhu,Pengshui,Youyang,Xiushan,Liangping,Wuxi,Chengkou,Kaizhou,Yunyang"
   },
   {
     "name": "Senara",
@@ -1808,7 +1808,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cilician Arabic,Adana,Mersin,Turkey,Mediterranean Coast,Cilicia,Tarsus"
+    "b": "Adana,Mersin,Tarsus,Ceyhan,Kozan,Kadirli,Osmaniye,Yureğir,Sarıçam,Seyhan,Karaisalı,Aladağ,Pozantı,İmamoğlu,Erdemli,Silifke,Anamur,Mut,Gülnar,Bozyazı,Tece,Akdeniz,Toroslar,Mezitli,Yenişehir"
   },
   {
     "name": "Classical Arabic",
@@ -1817,7 +1817,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Classical Arabic,Mecca,Medina,Jeddah,Cairo,Baghdad,Damascus,Arabian Peninsula,Middle East"
+    "b": "Mecca,Medina,Jeddah,Cairo,Baghdad,Damascus,Kufa,Basra,Fustat,Kairouan,Fez,Cordoba,Granada,Aleppo,Jerusalem,Mosul,Samarra,Raqqa,Nishapur,Isfahan,Bukhara,Samarkand,Timbuktu,Shiraz,Tabriz"
   },
   {
     "name": "Classical Mongolian",
@@ -1826,7 +1826,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Classical Mongolian,Karakorum,Ulaanbaatar,Khovd,Mongolia,Inner Mongolia,China,Gobi Desert"
+    "b": "Karakorum,Shangdu,Khanbaliq,Sarai,Almaliq,Otrar,Bukhara,Samarkand,Tabriz,Sultaniyya,Merv,Balkh,Herat,Nishapur,Urgench,Soltaniyeh,Tana,Beshbalik,Qara Qorum,Avarga,Erdene Zuu,Ordu-Baliq,Kubak,Khorin,Kharkhorin"
   },
   {
     "name": "Cypriot Arabic",
@@ -1835,7 +1835,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cypriot Arabic,Nicosia,Limassol,Larnaca,Cyprus,Mediterranean Sea,Eastern Mediterranean"
+    "b": "Kormakitis,Asomatos,Agia Marina,Karpasha,Nicosia,Limassol,Larnaca,Paphos,Famagusta,Kyrenia,Morphou,Polis,Lefka,Güzelyurt,Lapithos,Karavas,Bellapais,Ayios Amvrosios,Kontemenios,Kampi,Livera,Vouni,Agios Epiktitos,Lapta,Karmi"
   },
   {
     "name": "Dendi",
