@@ -5021,7 +5021,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mesqan,Butajira,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+    "b": "Butajira,Wolkite,Enseno,Meskane,Koshe,Gubre,Tiya,Ziway,Soddo,Buee,Agena,Arekit,Cheha,Emdibir,Gumer,Ezha,Endegagn,Geta,Abeshge,Gunchire,Kokir,Mareko,Silti,Worabe,Hosaina"
   },
   {
     "name": "Muher",
@@ -5030,7 +5030,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Muher,Wolkite,Emdibir,Ethiopia,Gurage Region,Southwest Ethiopia"
+    "b": "Wolkite,Emdibir,Cheha,Gumer,Endegagn,Ezha,Geta,Agena,Arekit,Gunchire,Abeshge,Kokir,Gedebano,Butajira,Enseno,Soddo,Aklil,Enemor,Enner,Inor,Silti,Worabe,Dalocha,Hosaina,Durame"
   },
   {
     "name": "Inneqor",
@@ -5039,7 +5039,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Inneqor,Chencha,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+    "b": "Wolkite,Butajira,Emdibir,Cheha,Gumer,Endegagn,Ezha,Geta,Agena,Arekit,Gunchire,Kokir,Gedebano,Enseno,Soddo,Aklil,Abeshge,Silti,Worabe,Dalocha,Lanfro,Kibet,Mito,Hosaina,Shone"
   },
   {
     "name": "Inor",
@@ -5048,7 +5048,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Inor,Chencha,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+    "b": "Wolkite,Butajira,Emdibir,Cheha,Gumer,Endegagn,Ezha,Geta,Agena,Arekit,Gunchire,Kokir,Gedebano,Enseno,Soddo,Aklil,Abeshge,Silti,Worabe,Alam Gebeya,Dalocha,Lanfro,Kibet,Mito,Durame"
   },
   {
     "name": "Chaha",
@@ -5084,7 +5084,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Defaka,Nigeria,Rivers State,Niger Delta,West Africa,Oil Region"
+    "b": "Nkoro,Opobo,Iwoma,Bonny,Degema,Bakana,Abonnema,Buguma,Okrika,Kalabari,Ke,Abalama,Bille,Soku,Finima,Onne,Eleme,Bori,Khana,Gokana,Tai,Andoni,Okirika,Tombia,Afam"
   },
   {
     "name": "Mao-Omotic",
