@@ -2373,7 +2373,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rama,Krishna,Sita,Hari,Gopal,Devi,Maya,Bishnu,Shiva,Lakshmi"
+    "b": "Gorkha,Tanahun,Nawalparasi,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Parbat,Baglung,Myagdi,Lamjung,Kaski,Chitwan,Makwanpur,Dhading,Nuwakot,Rasuwa,Sindhupalchok,Dolakha,Ramechhap,Okhaldhunga,Solukhumbu,Bhojpur"
   },
   {
     "name": "Kumyk",
@@ -2895,7 +2895,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "toma_samo,tougan_samo,solenzo_samo,nouna_samo,toeni_samo,kiembara_samo,sourou_samo,yatenga_samo,zondoma_samo,nayala_samo,sanguie_samo,passore_samo"
+    "b": "Toma,Tougan,Solenzo,Nouna,Toéni,Kiembara,Di,Gomboro,Lankoué,Lanfiéra,Kassoum,Gassan,Gossina,Kougny,Yaba,Bonou,Bangassogo,Dédougou,Boromo,Djibasso,Barani,Bomborokuy,Madouba,Safané,Bondokuy"
   },
   {
     "name": "Ekoka !Kung",
@@ -3102,7 +3102,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Irgalam,Tchad,Guéra,N'Djamena,Mangalmé,Bénoye,Chari,Logone,Mayo-Kebbi,Kanem,Batha,North Cameroon"
+    "b": "Weyto,Konso,Turmi,Dimeka,Key Afer,Jinka,Arbore,Omorate,Weito,Teltele,Yabello,Mega,Moyale,Negele,Dila,Arba Minch,Dorze,Chencha,Gidole,Bonke,Sodo,Sawla,Basketo,Bulki,Alduba"
   },
   {
     "name": "Saho",
@@ -3120,7 +3120,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhd,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Mubi,Maiha,Michika,Madagali,Hong,Gombi,Song,Girei,Yola,Jimeta,Numan,Demsa,Lamurde,Guyuk,Shelleng,Ganye,Toungo,Jada,Mayo-Belwa,Fufore,Mararaba,Nassarawo,Sangere,Ngurore,Yelwa"
   },
   {
     "name": "East Zenati",
@@ -3129,7 +3129,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "East Zenati,Annaba,Constantine,Skikda,Algeria,Northeast Africa,Mediterranean"
+    "b": "Oued Zenati,Guelma,El Eulma,Bordj Bou Arreridj,M'Sila,Batna,Khenchela,Souk Ahras,Tebessa,El Oued,Biskra,Djelfa,Ain Beida,Ain M'lila,Ain Fakroun,Sigus,Chelghoum Laid,Tadjenanet,Teleghma,Ain Kercha,El Khroub,Didouche Mourad,Hamma Bouziane,Mila,Ferdjioua"
   },
   {
     "name": "Duwai",
