@@ -1340,7 +1340,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "bnt-GQ",
     "m": 0,
-    "b": "Malabo,Luba,Baney,Riaba,Rebola,Santiago de Baney,Moca,Basilé,Cupapa,Batete"
+    "b": "Malabo,Luba,Baney,Riaba,Rebola,Moca,Basile,Cupapa,Batete,Basupu,Banapa,Bakake,Bombe,Ruiche,Basacato,Sampaka,Sanza,Bososo,Musola,Bilelipa,Ureca,Bocoricho,Bariobe,Batete del Sur,Concepcion"
   },
   {
     "name": "Saya",
@@ -1349,7 +1349,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "wba-NG",
     "m": 0,
-    "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum"
+    "b": "Tafawa Balewa,Bogoro,Dass,Lusa,Gambar,Sang,Wadi,Mwari,Boi,Dazara,Zari,Kulung,Kundum,Wur,Kwabti,Sur,Dunga,Malar,Bijim,Gwarangah,Bar,Kurum,Bom,Gobbiya,Mingil"
   },
   {
     "name": "Tumbuka",
@@ -1358,7 +1358,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Karonga,Kasungu,Liwonde,Mangochi,Nsanje,Mchinji,Balaka,Ntchisi"
+    "b": "Mzuzu,Rumphi,Mzimba,Karonga,Chitipa,Nkhata Bay,Likoma,Ekwendeni,Livingstonia,Embangweni,Edingeni,Engucwini,Enukweni,Ezondweni,Jenda,Bolero,Lundazi,Chama,Chasefu,Lumezi,Isoka,Mafinga,Mbala,Nakonde,Kasama"
   },
   {
     "name": "Sakata",
@@ -1367,7 +1367,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Boma,Muanda,Banza,Tshela,SekeBananga,Lukula,Kisangani,Buta,Aketi,Bambesa,Isiro,Mongala"
+    "b": "Inongo,Kutu,Kiri,Nioki,Oshwe,Bokoro,Mushie,Yumbi,Bolobo,Bandundu,Kikwit,Idiofa,Gungu,Bulungu,Bagata,Mangai,Dibaya-Lubwe,Masi-Manimba,Kwango,Feshi,Kahemba,Tembo,Popokabaka,Kasongo-Lunda,Kenge"
   },
   {
     "name": "Southern Ndebele",
@@ -1421,7 +1421,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "El Molo,Lake Turkana,Marsabit,Moyale,Chalbi Desert,North Horr,Koobi Fora,Kakuma,Kenya,Turkana,Loiyangalani"
+    "b": "Loiyangalani,Marsabit,North Horr,Moyale,Laisamis,Kargi,Korr,Maikona,Bubisa,Turbi,Sololo,Walda,Dukana,Illeret,Sibiloi,Kalacha,Balesa,Forole,Logologo,Ngurunit,Baragoi,South Horr,Kurungu,Gatab,Sarima"
   },
   {
     "name": "Bahrani Arabic",
