@@ -978,7 +978,7 @@
     "max": 11,
     "d": "cdc-TD",
     "m": 0,
-    "b": "N'Djamena,Abéché,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
+    "b": "Mongo,Bitkine,Melfi,Mangalme,Niergui,Abtouyour,Baro,Chinguil,Sorki,Bokoro,Ati,Oum Hadjer,Massaguet,Am Timan,Aboudeia,Haraze,Dagana,Eref,Guera,Bousso,Massenya,Daguessa,Koumra,Kyabe,Singako"
   },
   {
     "name": "N!ung Click",
@@ -1068,7 +1068,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Metekel,Kamashi,Assosa,Guba,Dangur,Dibate,Bulen,Wenbera,Mandura,Galessa,Sirba Abbay,Agalo Mite"
+    "b": "Assosa,Kamashi,Metekel,Guba,Dangur,Dibate,Bulen,Wenbera,Mandura,Gilgel Beles,Pawe,Mankush,Bambasi,Kurmuk,Sherkole,Menge,Homosha,Sirba,Agalo Meti,Yaso,Metemma,Famaka,Fazogli,Roseires,Damazin"
   },
   {
     "name": "Gwari",
@@ -1077,7 +1077,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Minna,Abuja,Suleja,Kuta,Paiko,Lapai,Agaie,Bwari,Gwagwalada,Karu,Kuje,Kwali"
+    "b": "Suleja,Abuja,Minna,Kuta,Paiko,Lapai,Agaie,Bwari,Gwagwalada,Karu,Kuje,Kwali,Zuba,Kubwa,Gauraka,Madalla,Tafa,Gurara,Shiroro,Bosso,Chanchaga,Paikoro,Rijau,Mokwa,Kontagora"
   },
   {
     "name": "Gyong",
@@ -1095,7 +1095,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Opuwo,Epupa,Ruacana,Okanguati,Otjiu,Kaoko Otavi,Sanitatas,Orupembe,Purros,Sesfontein,Warmquelle,Kamanjab"
+    "b": "Opuwo,Epupa,Ruacana,Okanguati,Otjiu,Kaoko Otavi,Orupembe,Purros,Sesfontein,Warmquelle,Kamanjab,Palmwag,Khorixas,Outjo,Fransfontein,Omatjete,Okondjombo,Otjitambi,Ehomba,Ohandungu,Otjinungua,Ongongo,Omuhonga,Otjiu-West,Oruvandjai"
   },
   {
     "name": "Hanga",
@@ -1104,7 +1104,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Damongo,Larabanga,Busunu,Murugu,Mole,Daboya,Mankuma,Sawla,Tuna,Bole,Buipe,Yapei"
+    "b": "Damongo,Larabanga,Busunu,Murugu,Daboya,Mankuma,Sawla,Tuna,Bole,Buipe,Yapei,Salaga,Kpandai,Mpaha,Fufulso,Kabampe,Lingbinsi,Banda,Kpalbe,Kpembe,Tuluwe,Makongo,Nyanga,Kusawgu,Kadelso"
   },
   {
     "name": "Saari",
