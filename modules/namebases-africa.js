@@ -3446,7 +3446,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gengele,Nigeria,Cameroon,Cross River,Pidgin,West Africa"
+    "b": "Calabar,Ikom,Ogoja,Obudu,Obanliku,Bekwarra,Yala,Boki,Etung,Akamkpa,Biase,Yakurr,Abi,Odukpani,Akpabuyo,Bakassi,Ugep,Okpoma,Mbube,Nde,Obanlikwu,Wula,Ukelle,Bansara,Abini"
   },
   {
     "name": "Gera",
@@ -3617,7 +3617,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gvoko,Gwoza,Mubi,Bama,Adamawa State,Nigeria,North East"
+    "b": "Gwoza,Ngossi,Pulka,Kirawa,Ashigashiya,Ngoshe,Limankara,Kerawa,Tourou,Mokolo,Koza,Mora,Kolofata,Meme,Waza,Gawar,Maroua,Mubi,Bama,Konduga,Dikwa,Gamboru,Ngala,Damboa,Chibok"
   },
   {
     "name": "Gwandara",
@@ -4247,7 +4247,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Maridi,Mundri,Amadi,Kotobi,Lui,Kediba,Bangolo"
+    "b": "Maridi,Mundri,Amadi,Kotobi,Lui,Kediba,Bangolo,Faradje,Tore,Yei,Mambe,Olo,Ibba,Naandi,Bahr,Nzara,Ezo,Tambura,Nagero,Li-Rangu,Duru,Gangura,Source Yubo,Sakure,Wau,Rumbek,Mvolo,Yambio,Rimenze"
   },
   {
     "name": "Hozo",
@@ -4958,7 +4958,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Venda,Thohoyandou,Sibasa,Vuwani,Limpopo,South Africa,Zimbabwe Border"
+    "b": "Thohoyandou,Sibasa,Vuwani,Makhado,Musina,Mutale,Tshilamba,Elim,Levubu,Dzanani,Malamulele,Tshitandani,Tshikota,Shayandima,Makwarela,Tshifudi,Tshisahulu,Nzhelele,Ha-Mashamba,Mashau,Tshaulu,Waterval,Mashamba,Tshakhuma,Lwamondo"
   },
   {
     "name": "Goemai",
@@ -4967,7 +4967,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goemai,Shendam,Langtang,Plateau State,Nigeria,Jos,West Africa"
+    "b": "Shendam,Langtang,Mikang,Wase,Kanam,Dengi,Amper,Kwande,Garkawa,Dokan Tofa,Namu,Shimankar,Gyel,Kwalla,Doemak,Pushit,Mabudi,Kerang,Long,Yelwa,Bashar,Pankshin,Kanke,Kabwir,Kwal"
   },
   {
     "name": "Goji",

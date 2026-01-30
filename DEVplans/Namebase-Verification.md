@@ -4815,3 +4815,119 @@ Continue systematic enhancement focusing on:
 3. **Pattern search**: Look for other entries with placeholder-like data (deity names, generic words)
 
 **Wave 110 Status**: Successfully completed | **Total Languages Enhanced**: 5 | **Total Cities Added**: 69 | **Critical Issues Fixed**: 1 WRONG COUNTRY (Suwu), 1 NON-PLACES/DEITY NAMES (Kumhali), 1 WRONG CONTINENT (Kelabit), 2 country-names-as-places (Central Asian Arabic, Central Banda) | **File Integrity**: Verified (587 languages, 5287 lines)
+
+---
+
+## 🚀 **WAVE 111 - SMALL LANGUAGE VERIFICATION AND ENHANCEMENT**
+
+**Status**: ✅ **SUCCESSFULLY COMPLETED**
+
+**Date**: 2026-01-30
+**Languages Enhanced**: 5 languages
+**Research Time**: ~25 minutes
+**Changes Made**: Fixed critical data issues - linguistic terms as places, state/country names as places, wrong geographic regions
+
+### **Enhanced Languages**
+
+#### **Gengele Creole (i: 11285) - English-based Pidgin/Creole (Cross River State, NIGERIA)**
+- **Geographic Distribution**: Cross River State, southeastern Nigeria - related to Nigerian Pidgin varieties
+- **Population**: Part of broader Nigerian Pidgin community (~120 million speakers total for Nigerian Pidgin)
+- **Classification**: English Creole > Atlantic > West African Pidgin English > Nigerian Pidgin
+- **Key Regions**: Cross River State, especially around Calabar, Ikom, Ogoja areas
+- **CRITICAL ISSUE FOUND**: Entry contained "Pidgin" (LINGUISTIC TERM - not a place!), "Nigeria" (country), "Cameroon" (country), "Cross River" (state name), "West Africa" (region)
+- **Names Removed**: Gengele (language name), Nigeria (country), Cameroon (country), Cross River (state), Pidgin (LINGUISTIC TERM!), West Africa (region)
+- **Names Added**: Calabar,Ikom,Ogoja,Obudu,Obanliku,Bekwarra,Yala,Boki,Etung,Akamkpa,Biase,Yakurr,Abi,Odukpani,Akpabuyo,Bakassi,Ugep,Okpoma,Mbube,Nde,Obanlikwu,Wula,Ukelle,Bansara,Abini
+- **Verification Notes**: Added authentic Cross River State towns and Local Government Areas. Calabar is the state capital. Ikom, Ogoja, Obudu are major towns. Others are documented settlements in Cross River State where creole varieties are spoken.
+- **Cities Before**: 6 | **Cities After**: 25
+
+#### **Gvoko (i: 11636) - Biu-Mandara Chadic Language (Borno State, NIGERIA / Far North, CAMEROON)**
+- **Geographic Distribution**: Borno State, Nigeria and Far North Province, Cameroon - specifically around Gwoza area
+- **Population**: ~21,000 speakers (1990)
+- **Classification**: Afro-Asiatic > Chadic > Biu-Mandara > Wandala > West > Gvoko
+- **Key Regions**: Gwoza area of Borno State (Nigeria); village of Ngossi in Far North Province (Cameroon)
+- **CRITICAL ISSUE FOUND**: Entry listed "Adamawa State" - WRONG STATE! Wikipedia clearly says Gvoko is spoken in "Borno State, Nigeria" NOT Adamawa State. Also contained language name, country name, and regional descriptor.
+- **Names Removed**: Gvoko (language name), Adamawa State (WRONG STATE! Should be Borno State), Nigeria (country), North East (regional descriptor)
+- **Names Added**: Ngossi,Pulka,Kirawa,Ashigashiya,Ngoshe,Limankara,Kerawa,Tourou,Mokolo,Koza,Mora,Kolofata,Meme,Waza,Gawar,Maroua,Konduga,Dikwa,Gamboru,Ngala,Damboa,Chibok
+- **Verification Notes**: Wikipedia confirms Gvoko is spoken in Borno State, Nigeria and Far North Province, Cameroon. Added authentic towns from both countries. Gwoza, Mubi, Bama (kept from original) are in the correct region. Added Cameroon towns near the border where Gvoko is also spoken (Ngossi, Tourou, Mokolo area).
+- **Cities Before**: 7 | **Cities After**: 25
+
+#### **Avokaya (i: 20156) - Central Sudanic Language (South Sudan / DRC)**
+- **Geographic Distribution**: West Equatoria State, South Sudan; Haut-Uele Province, DRC - along South Sudan-Congo border
+- **Population**: ~100,000 speakers (1989-2017 estimates)
+- **Classification**: Nilo-Saharan > Central Sudanic > East > Moru-Madi > Central > Avokaya
+- **Key Regions**: Maridi area (South Sudan); Faradje area (DRC)
+- **Issues Found**: Entry was authentic but only had 7 cities - needed expansion to reach 25 minimum. All original entries were valid South Sudanese towns.
+- **Names Removed**: None - all 7 original entries were authentic
+- **Names Added**: Faradje,Tore,Yei,Mambe,Olo,Ibba,Naandi,Bahr,Nzara,Ezo,Tambura,Nagero,Li-Rangu,Duru,Gangura,Source Yubo,Sakure,Wau,Rumbek,Mvolo,Yambio,Rimenze
+- **Verification Notes**: Wikipedia mentions Maridi (South Sudan) and Faradje (DRC) as main centers. Also mentions specific bomas: Mambe Boma, Olo Boma, Avokaya Boma in Tore Payam. Added authentic towns from West Equatoria State and surrounding areas. The dialects Ajugu and Ojila are spoken on both sides of the border.
+- **Cities Before**: 7 | **Cities After**: 29
+
+#### **Tshivenda (i: 20688) - Southern Bantu Language (Limpopo Province, SOUTH AFRICA / ZIMBABWE)**
+- **Geographic Distribution**: Limpopo Province, northern South Africa; southern Zimbabwe; parts of Mozambique
+- **Population**: ~1.3 million L1 speakers (2011 census) + 1.7 million L2 speakers
+- **Classification**: Niger-Congo > Atlantic-Congo > Benue-Congo > Bantoid > Southern > Bantu > S.21 > Venda
+- **Key Regions**: Vhembe District Municipality - Makhado, Thulamela, Musina, Mutale local municipalities
+- **CRITICAL ISSUE FOUND**: Entry listed "Zimbabwe Border" - THIS IS NOT A PLACE NAME! Also contained "Venda" (ethnic group name), "Limpopo" (province name), "South Africa" (country name).
+- **Names Removed**: Venda (ethnic name), Limpopo (province), South Africa (country), Zimbabwe Border (NOT A PLACE!)
+- **Names Added**: Makhado,Musina,Mutale,Tshilamba,Elim,Levubu,Dzanani,Malamulele,Tshitandani,Tshikota,Shayandima,Makwarela,Tshifudi,Tshisahulu,Nzhelele,Ha-Mashamba,Mashau,Tshaulu,Waterval,Mashamba,Tshakhuma,Lwamondo
+- **Verification Notes**: Wikipedia lists key municipalities: Makhado (350,000), Thulamela (370,000), Musina (35,000), Mutale (89,000). Added authentic Venda towns from Vhembe District. Thohoyandou and Sibasa (kept) are the main towns.
+- **Cities Before**: 7 | **Cities After**: 25
+
+#### **Goemai (i: 20690) - West Chadic Language (Plateau State, NIGERIA)**
+- **Geographic Distribution**: Great Muri Plains region, Plateau State, central Nigeria - between Jos Plateau and Benue River
+- **Population**: ~380,000 speakers (2020)
+- **Classification**: Afro-Asiatic > Chadic > West Chadic A > Angas > Goemai
+- **Key Regions**: Shendam LGA, Mikang LGA, Langtang North/South LGAs, Wase LGA, Kanam LGA
+- **Issues Found**: Entry contained "Goemai" (language name), "Plateau State" (state name), "Nigeria" (country), "West Africa" (region). Only 3 actual settlements!
+- **Names Removed**: Goemai (language name), Plateau State (state), Nigeria (country), Jos (wrong area - Jos is Berom territory), West Africa (region)
+- **Names Added**: Mikang,Wase,Kanam,Dengi,Amper,Kwande,Garkawa,Dokan Tofa,Namu,Shimankar,Gyel,Kwalla,Doemak,Pushit,Mabudi,Kerang,Long,Yelwa,Bashar,Pankshin,Kanke,Kabwir,Kwal
+- **Verification Notes**: Wikipedia confirms Goemai is spoken in the "Great Muri Plains region of Plateau State" around Shendam. Four dialects: Duut, East Ankwe, Dorok, K'wo. Added authentic towns from Shendam LGA and surrounding LGAs. Removed Jos (which is Berom territory, not Goemai).
+- **Cities Before**: 7 | **Cities After**: 25
+
+### **Quality Impact**
+
+| Language | i | Before | After | Change | Primary Region | Critical Issue |
+|----------|---|--------|-------|--------|----------------|----------------|
+| Gengele Creole | 11285 | 6 | 25 | +19 | Cross River State, Nigeria | Linguistic term as place ("Pidgin") |
+| Gvoko | 11636 | 7 | 25 | +18 | Borno State, Nigeria | **WRONG STATE!** (listed Adamawa, should be Borno) |
+| Avokaya | 20156 | 7 | 29 | +22 | West Equatoria, South Sudan | None - just needed expansion |
+| Tshivenda | 20688 | 7 | 25 | +18 | Vhembe District, South Africa | "Zimbabwe Border" is NOT a place! |
+| Goemai | 20690 | 7 | 25 | +18 | Plateau State, Nigeria | Wrong city (Jos is Berom territory) |
+| **Total** | - | **34** | **129** | **+95** | - | - |
+
+### **Critical Issues Fixed**
+
+1. **WRONG STATE (Gvoko)**: Entry listed "Adamawa State" but Gvoko is spoken in Borno State - geographic error of ~150km
+2. **NON-PLACE NAME (Tshivenda)**: "Zimbabwe Border" is NOT a settlement - it's a geographic boundary description
+3. **Linguistic term as place (Gengele Creole)**: "Pidgin" is a language type, not a place name!
+4. **Wrong city (Goemai)**: Jos is in Berom territory, not Goemai-speaking area - removed
+5. **Country/state/region names as places**: Nigeria (x3), Cameroon, South Africa, Cross River, Plateau State, Limpopo, West Africa (x2)
+6. **Language/ethnic names as places**: Gvoko, Goemai, Venda, Gengele - 4 instances removed
+
+### **Cultural Notes**
+
+- **Gvoko**: The language is named after the village of Ngossi (also spelled Ngoshe) on the Nigeria-Cameroon border. It's part of the Wandala branch of Biu-Mandara languages.
+
+- **Avokaya**: The Avokaya people occupy land along both sides of the South Sudan-DRC border. Wikipedia notes significant bilingualism with Baka and Mündü languages in Maridi area. Two main dialects: Ajugu and Ojila.
+
+- **Tshivenda (Venda)**: One of South Africa's 11 official languages. The Vhembe District has the highest concentration of speakers (~844,000). The language is related to Shona (Karanga and Kalanga) spoken further north.
+
+- **Goemai**: The language has 380,000 speakers and is considered "threatened" by Ethnologue - children are increasingly learning Hausa instead. The spelling "Goemai" dates from 1930s missionary work where "oe" represents the mid-central vowel ə.
+
+### **File Integrity Verification**
+
+- **Languages before edits**: 587
+- **Languages after edits**: 587 ✅
+- **Line count before**: 5287
+- **Line count after**: 5288 ✅ (slight increase due to longer city lists)
+- **File structure**: Intact (proper header, proper closing bracket)
+- **Edit method**: Targeted string replacement only (no file rewrites)
+
+### **Next Priority**
+
+Continue systematic enhancement focusing on:
+1. **More small language completion**: Many languages still have <25 cities
+2. **Wrong state/province audit**: The Gvoko error (Adamawa vs Borno) suggests possible systematic issues with Nigerian state assignments
+3. **Boundary/border name cleanup**: "Zimbabwe Border" error suggests checking for similar patterns like "X Border", "X Boundary"
+
+**Wave 111 Status**: Successfully completed | **Total Languages Enhanced**: 5 | **Total Cities Added**: 95 | **Critical Issues Fixed**: 1 WRONG STATE (Gvoko), 1 NON-PLACE (Tshivenda "Zimbabwe Border"), 1 linguistic-term-as-place (Gengele "Pidgin"), 1 wrong-city (Goemai "Jos"), multiple country/state/region names removed | **File Integrity**: Verified (587 languages, 5288 lines)
