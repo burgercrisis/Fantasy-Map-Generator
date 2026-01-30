@@ -1115,7 +1115,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Metekel,Kamashi,Assosa,Guba,Dangur,Dibate,Bulen,Wenbera,Mandura,Galessa,Sirba Abbay,Agalo Mite"
+    "b": "Metekel,Kamashi,Assosa,Guba,Dangur,Dibate,Bulen,Wenbera,Mandura,Galessa,Sirba Abbay,Agalo Meti,Pawe,Bambasi,Komosha,Menge,Sherkole,Gilgel Beles,Belo-Jiganfoy,Yaso,Metemma,Mankush,Fazoglo,Famaka,Roseires,Oda Godere,Sedal,Kurmuk,Gizen,Dabus,Sirba,Parzait,Gimbi,Nedjo,Dembi Dolo,Bure,Jawi,Chagni,Injibara,Finote Selam,Dembecha,Debre Markos"
   },
   {
     "name": "Gwari",
@@ -1124,7 +1124,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Minna,Abuja,Suleja,Kuta,Paiko,Lapai,Agaie,Bwari,Gwagwalada,Karu,Kuje,Kwali"
+    "b": "Minna,Abuja,Suleja,Kuta,Paiko,Lapai,Agaie,Bwari,Gwagwalada,Karu,Kuje,Kwali,Zuba,Gawu,Jiwa,Kuchigoro,Garki,Dutse,Paikoro,Bosso,Kontagora,Wushishi,Mashegu,Mariga,Gurara,Shiroro,Chanchaga,Katcha,Mokwa,Lavun,Bida,Gbako,Tafa,Kafanchan,Kagoro,Kachia,Kaduna,Kagarko,Jere,Izom,Ija,Toto,Nasarawa,Lafia"
   },
   {
     "name": "Gyong",
@@ -3833,7 +3833,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Maiduguri,Dikwa,Ngala,Bama,Monguno,Kukawa,Gubio,Magumeri,Konduga,Mafa"
+    "b": "Maiduguri,Dikwa,Ngala,Bama,Monguno,Kukawa,Gubio,Magumeri,Konduga,Mafa,Damaturu,Potiskum,Gashua,Nguru,Geidam,Hadejia,Biu,Chibok,Askira,Gwoza,Damboa,Pulka,Banki,Gambaru,Diffa,Nguigmi,Bilma,Zinder,Goure,Tanout,Tesker,Agadez,Mao,Bol,Ndjamena,Massakory,Moussoro,Kousseri,Mora,Maroua,Kolofata,Fotokol"
   },
   {
     "name": "Kiga",
@@ -3896,7 +3896,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Freetown,Waterloo,Hastings,Newton,Benguema,Tombo,York,Kent,Aberdeen,Murray Town,Lumley,Kissy"
+    "b": "Freetown,Waterloo,Hastings,Newton,Benguema,Tombo,York,Kent,Aberdeen,Lumley,Kissy,Wellington,Calaba Town,Regent,Leicester,Gloucester,Goderich,Sussex,Banana Islands,Bonthe,Shenge,Moyamba,Bo,Kenema,Koidu,Makeni,Lunsar,Magburaka,Kabala,Kambia,Port Loko,Pepel,Lungi,Rogbonko,Mile 91,Yele,Bumpe,Pujehun,Zimmi,Sulima,Kailahun,Segbwema"
   },
   {
     "name": "Kunama",
@@ -4067,7 +4067,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kinshasa,Brazzaville,Kisangani,Mbandaka,Kananga,Lubumbashi"
+    "b": "Kinshasa,Brazzaville,Kisangani,Mbandaka,Kananga,Lubumbashi,Matadi,Boma,Kikwit,Bandundu,Gemena,Lisala,Bumba,Basankusu,Boende,Inongo,Bikoro,Lukolela,Makanza,Bolobo,Mushie,Kwamouth,Tshikapa,Mbuji-Mayi,Kolwezi,Likasi,Kamina,Kalemie,Uvira,Bukavu,Goma,Butembo,Beni,Isiro,Buta,Aketi,Gbadolite,Zongo,Libenge,Impfondo,Ouesso,Owando,Oyo,Djambala,Sibiti,Dolisie,Nkayi,Madingou,Kinkala,Mindouli"
   },
   {
     "name": "Boro-Garo",
