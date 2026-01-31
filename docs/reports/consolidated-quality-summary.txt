@@ -1,28 +1,28 @@
 === CONSOLIDATED LANGUAGE QUALITY SUMMARY REPORT ===
 
 BY CONTINENT:
-  Africa: 508
+  Africa: 542
   Asia: 764
-  Europe: 578
-  NorthAmerica: 54
-  SouthAmerica: 13
-  Oceania: 26
-  Unknown: 237
+  Europe: 415
+  NorthAmerica: 25
+  SouthAmerica: 194
+  Oceania: 292
+  Unknown: 1059
 
 BY BASE SIZE CATEGORY:
-  large: 58
-  normal: 269
-  small: 1853
+  large: 55
+  normal: 354
+  small: 2882
 
 BY QUALITY SCORE:
-  Excellent (95+): 58
-  Good (80-94): 260
-  Fair (60-79): 1831
-  Poor (40-59): 29
-  Critical (<40): 2
+  Excellent (95+): 54
+  Good (80-94): 349
+  Fair (60-79): 2763
+  Poor (40-59): 75
+  Critical (<40): 50
 
 CRITICAL ISSUES:
-  Placeholders: 0
+  Placeholders: 46
   Primus entries: 0
   Suspicious names: 2
-  Index/name collisions: 91
+  Index/name collisions: 897

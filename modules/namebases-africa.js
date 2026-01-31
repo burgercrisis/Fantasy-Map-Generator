@@ -98,7 +98,7 @@ window.AfricaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Naro,Koro,Maru,Garo"
+    "b": "Ghanzi,Dekar,Charles Hill,Ncojane,Bere,Chobokwane,East Hanahai,Groote,Laagte,Kacgae,Karakobis,Kule,Makunda,New Xade,New Xanagas,Qabo,Tsootsha,West Hanahai,Grootlagatle"
   },
 {
     "name": "Hadza Click",
@@ -107,7 +107,7 @@ window.AfricaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Yumbi,yanga,nega,miko,hadza,kila,tesha,dooma,salama"
+    "b": "Lake Eyasi,Yaeda Valley,Baray,Mangola,Karatu,Oldeani,Buger,Daa,Endabash,Endamaghang,Endamarariek,Ganako,Kansay,Mbulumbulu,Qurus,Rhotia,Eyasi Cliff,Kidero Mountains,Serengeti Plateau,Oldeani Mountain,Sibiti River,Baray River,Makang'wa"
   },
 {
     "name": "Sandawe Click",
@@ -2825,7 +2825,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ddo,Mikumi,Iringa,Tanzania,East Africa"
+    "b": "Tibati,Banyo,Bankim,Mayo-Darle,Ngaoundal,Djerek River,Mbam,Ndop,Bamenda,Bali,Chang,Mbandjok,Doume,Linte,Yangba,Ngorro,Sangbe,Mbenguédje,Wawa,Konchanou,Bamareng,Djalingo,Bikop,Lama,Bipindi,Lomie,Messok"
   },
 {
     "name": "Deh",
@@ -2915,7 +2915,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sened,Sened Island,Mediterranean Sea,Tunisia"
+    "b": "Sened,Gafsa,El Guettar,El Ksar,Mdhila,Metlaoui,Moulares,Redeyef,Ain Moulares,Lalla,Belkhir,Tmagourt,Nefta,Douz,Kebili,Chebika,Tozeur,Chott el Jerid,Oued El Kebir,Djebel Bou Ramli,El Founi,Sidi Ali Ben Ali,Sidi Bou Said,Sidi Hassine,Sidi Abdallah"
   },
 {
     "name": "Sheliff Basin Berber",
