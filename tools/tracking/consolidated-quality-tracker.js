@@ -2,12 +2,23 @@
 
 /**
  * Consolidated Language/Namebase Quality Metrics Tracker
- * 
- * Reads from ALL continental namebase files (not namebases-all.js),
+ *
+ * Reads from all continental namebase files (excluding fantasy and all),
  * identifies issues, and generates quality reports.
- * 
+ *
+ * Continental files:
+ *   - namebases-africa.js
+ *   - namebases-asia.js
+ *   - namebases-europe.js
+ *   - namebases-northAmerica.js
+ *   - namebases-southAmerica.js
+ *   - namebases-oceania.js
+ *   - namebases-unknown.js
+ *
+ * Note: Creole languages are already distributed within continent files.
+ *
  * Usage: node tools/tracking/consolidated-quality-tracker.js
- * 
+ *
  * Output:
  *   reports/consolidated-quality-metrics.csv
  *   reports/consolidated-quality-summary.txt
@@ -19,7 +30,6 @@ const path = require('path');
 const MODULES_DIR = path.join(__dirname, '..', '..', 'modules');
 const REPORTS_DIR = path.join(__dirname, '..', '..', 'docs', 'reports');
 
-// All continental namebase files
 const CONTINENT_FILES = [
     'namebases-africa.js',
     'namebases-asia.js',
@@ -27,7 +37,6 @@ const CONTINENT_FILES = [
     'namebases-northAmerica.js',
     'namebases-southAmerica.js',
     'namebases-oceania.js',
-    'namebases-fantasy.js',
     'namebases-unknown.js'
 ];
 
@@ -53,7 +62,6 @@ function detectContinentFromFilename(filename) {
         'namebases-northAmerica.js': 'NorthAmerica',
         'namebases-southAmerica.js': 'SouthAmerica',
         'namebases-oceania.js': 'Oceania',
-        'namebases-fantasy.js': 'Fantasy',
         'namebases-unknown.js': 'Unknown'
     };
     return mapping[filename] || 'Unknown';

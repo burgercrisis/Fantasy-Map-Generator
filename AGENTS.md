@@ -1,24 +1,22 @@
-# Fantasy Map Generator - Agent Development Guide
-
-## Development Environment
-- **Static web app - NO BUILD PROCESS** - direct file editing only
-- Run with HTTP server: `python3 -m http.server 8000` (never file://)
-- Access at: `http://localhost:8000` (startup takes 2-3 seconds)
-- Multi-agent language mixer coordination: see `DEVplans/Language-Mixer-Compliance.md`
-- MCP Coordination Hub workstreams and locks for multi-agent coordination
-- Reference `.windsurf/workflows/` for language mixer workstreams
-
-## Commands
-### Testing
-- `pnpm test` - Run all tests (Jest)
-- `pnpm test:watch` - Run tests in watch mode
-- `pnpm test:coverage` - Run with coverage report (70% thresholds)
-- `jest tools/mixer-core/normalize-language-names.test.js` - Run specific test file
-- `pnpm test:normalize` - Run single test: `tools/mixer-core/normalize-language-names.test.js`
-- `pnpm test:placenames` - Run placename tests with custom config
-
 ### Language Mixer Tools (Primary Domain)
 - `pnpm mixer:qa` - Full QA (diff + coverage)
+- `pnpm mixer:full` - Complete regeneration pipeline
+- `pnpm mixer:full-with-normalize` - Full pipeline with name normalization
+- `pnpm mixer:health` - Run health checks
+- `pnpm mixer:doctor` - Comprehensive diagnostics
+- `pnpm mixer:guardrails` - Check language mixer guardrails
+- `pnpm mixer:apply-deltas` - Apply mixer deltas to namebases (integrator only)
+- `pnpm mixer:check-deltas` - Check delta conflicts without applying
+
+### Language Quality Metrics
+- `node tools/tracking/consolidated-quality-tracker.js` - Generate quality metrics CSV from continental namebase files
+
+### Node.js Tools
+- `node tools/mixer-core/check-language-mixer-coverage.js` - Check coverage
+- `node tools/mixer-core/check-language-mixer-failures.js` - Check failures
+- `node tools/mixer-diagnostics/report-language-mixer-seed-uniqueness.js --only-failures` - Check seed uniqueness
+- `node tools/mixer-diagnostics/report-language-mixer-base-clusters.js --min-size=2` - Check base clusters
+- `node tools/mixer-core/apply-mixer-deltas.js --check` - Verify deltas without applyingm mixer:qa` - Full QA (diff + coverage)
 - `pnpm mixer:full` - Complete regeneration pipeline
 - `pnpm mixer:full-with-normalize` - Full pipeline with name normalization
 - `pnpm mixer:health` - Run health checks

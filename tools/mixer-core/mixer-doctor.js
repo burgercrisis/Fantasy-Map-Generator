@@ -255,16 +255,6 @@ if (require.main === module) {
     process.exitCode = 1;
   }
 }
-
-  const maxBaselinesRaw = findValue("--max-baselines");
-  const maxBaselines = maxBaselinesRaw != null && maxBaselinesRaw !== "" ? Number(maxBaselinesRaw) : 5;
-
-  return {
-    strict: args.includes("--strict"),
-    maxBaselines: Number.isFinite(maxBaselines) && maxBaselines > 0 ? maxBaselines : 5,
-  };
-}
-
 function runScript(scriptRelPath, args) {
   const full = path.join(root, scriptRelPath);
   const cmdArgs = [full].concat(args || []);

@@ -1,4 +1,4 @@
-mixer-doctor run 2025-12-20T11:07:14.792Z
+mixer-doctor run 2026-01-30T03:20:40.960Z
 
 === report-lost-language-mappings (baselines) ===
 Wrote tools/mixer-diagnostics/_lost-languages-from-baselines.json
@@ -15,165 +15,79 @@ Running language mixer health diagnostics...
 === Diagnostics summaries ===
 
 === diff-language-families.js summary ===
-Total entries in JSON: 3504
-Total entries in language-mixes-all.js: 3504
+Total entries in JSON: 3526
+Total entries in language-mixes-all.js: 3526
 
 === check-language-mixer-coverage.js summary ===
-Total ISO codes in mixer map: 3504
-Total ISO codes in mixer catalog: 3504
+Total ISO codes in mixer map: 3526
+Total ISO codes in mixer catalog: 3526
 ISOs in map but missing from catalog (won't appear in dropdown): 0
 
 === check-language-mixer-failures.js summary ===
 === Markov mixer failure check ===
-Total catalog entries: 3504
-Languages that will fail in local mixer (no usable bases): 0
+Total catalog entries: 3526
+Languages that will fail in local mixer (no usable bases): 3425
   - Missing mapping entries: 0
   - Mapped but bases array empty: 0
-  - Mapped but all bases invalid: 0
+  - Mapped but all bases invalid: 3425
 
 === check-language-mixer-name-duplicates.js summary ===
 === Exact duplicate language names in catalog ===
-Total catalog entries: 3504
+Total catalog entries: 3526
 Names with duplicates: 0
 
 === report-language-mixer-duplicates.js summary ===
-Total catalog entries: 3504
+Total catalog entries: 3526
 
 === report-language-mixer-base-clusters.js summary ===
--- bases=[132] | base_names=[Hausa] | members=112 --
-majera-language | Majera language | Africa | Chadic | Afroasiatic | 
-malgbe-language | Malgbe language | Africa | Chadic | Afroasiatic | 
-margi-language | Margi language | Africa | Chadic | Afroasiatic | 
-margi-south-language | Margi South language | Africa | Chadic | Afroasiatic | 
-maslam-language | Maslam language | Africa | Chadic | Afroasiatic | 
-matal-language | Matal language | Africa | Chadic | Afroasiatic | 
-mazagway-language | Mazagway language | Africa | Chadic | Afroasiatic | 
-mbara-language-chad | Mbara language (Chad) | Africa | Chadic | Afroasiatic | 
-mbudum-language | Mbudum language | Africa | Chadic | Afroasiatic | 
-mbuko-language | Mbuko language | Africa | Chadic | Afroasiatic | 
-mefele-language | Mefele language | Africa | Chadic | Afroasiatic | 
-merey-language | Merey language | Africa | Chadic | Afroasiatic | 
-mofu-gudur-language | Mofu-Gudur language | Africa | Chadic | Afroasiatic | 
-moloko-language | Moloko language | Africa | Chadic | Afroasiatic | 
-mpade-language | Mpade language | Africa | Chadic | Afroasiatic | 
-mser-language | Mser language | Africa | Chadic | Afroasiatic | 
-musgu-language | Musgu language | Africa | Chadic | Afroasiatic | 
-muskum-language | Muskum language | Africa | Chadic | Afroasiatic | 
-muyang-language | Muyang language | Africa | Chadic | Afroasiatic | 
-nggwahyi-language | Nggwahyi language | Africa | Chadic | Afroasiatic | 
-ngwaba-language | Ngwaba language | Africa | Chadic | Afroasiatic | 
-north-giziga-language | North Giziga language | Africa | Chadic | Afroasiatic | 
-north-mofu-language | North Mofu language | Africa | Chadic | Afroasiatic | 
-nzanyi-language | Nzanyi language | Africa | Chadic | Afroasiatic | 
-parkwa-language | Parkwa language | Africa | Chadic | Afroasiatic | 
-polci | Polci | Africa | Chadic | Afroasiatic | 
-psikye-dialect | Psikye dialect | Africa | Chadic | Afroasiatic | dialect
-putai-language | Putai language | Africa | Chadic | Afroasiatic | 
-sharwa-language | Sharwa language | Africa | Chadic | Afroasiatic | 
-south-giziga-language | South Giziga language | Africa | Chadic | Afroasiatic | 
-sukur-language | Sukur Chadic | Africa | Chadic | Afroasiatic | 
-tala-chadic | Tala | Africa | Chadic | Afroasiatic | 
-tera-chadic-language | Tera language | Africa | Chadic | Afroasiatic | 
-tsuvan-language | Tsuvan language | Africa | Chadic | Afroasiatic | 
-vame-language | Vame language | Africa | Chadic | Afroasiatic | 
-vemgo-mabas-language | Vemgo-Mabas language | Africa | Chadic | Afroasiatic | 
-wandala-language | Wandala language | Africa | Chadic | Afroasiatic | 
-wuzlam-language | Wuzlam language | Africa | Chadic | Afroasiatic | 
-yedina-language | Yedina language | Africa | Chadic | Afroasiatic | 
-zari-chadic | Zari | Africa | Chadic | Afroasiatic | 
-zeem-chadic | Zeem | Africa | Chadic | Afroasiatic | 
-zirenkel-language | Zirenkel language | Africa | Chadic | Afroasiatic | 
-zumaya | Zumaya | Africa | Chadic | Afroasiatic | 
-zumbun-language | Zumbun language | Africa | Chadic | Afroasiatic | 
-mantsi-language-nigeria | Mantsi language (Nigeria) | Africa | Chadic | Afroasiatic | 
-marba | Marba | Africa | Chadic | Afroasiatic | 
-mawa-chadic-language | Mawa language | Africa | Chadic | Afroasiatic | 
-mburku-language | Mburku language | Africa | Chadic | Afroasiatic | 
-mesme | Mesme | Africa | Chadic | Afroasiatic | 
-migaama-language | Migaama language | Africa | Chadic | Afroasiatic | 
-miler-language | Miler language | Africa | Chadic | Afroasiatic | 
-miltu-language | Miltu language | Africa | Chadic | Afroasiatic | 
-mire-language | Mire language | Africa | Chadic | Afroasiatic | 
-miship-language | Miship language | Africa | Chadic | Afroasiatic | 
-miya-language | Miya language | Africa | Chadic | Afroasiatic | 
-mogum-language | Mogum language | Africa | Chadic | Afroasiatic | 
-mokilko-language | Mokilko language | Africa | Chadic | Afroasiatic | 
-montol-language | Montol language | Africa | Chadic | Afroasiatic | 
-mubi-chadic-language | Mubi language | Africa | Chadic | Afroasiatic | 
-mundat-language | Mundat language | Africa | Chadic | Afroasiatic | 
-musey | Musey | Africa | Chadic | Afroasiatic | 
-mwaghavul-language | Mwaghavul language | Africa | Chadic | Afroasiatic | 
-nancere-language | Nancere language | Africa | Chadic | Afroasiatic | 
-ndam-language | Ndam language | Africa | Chadic | Afroasiatic | 
-ngamo-language | Ngamo language | Africa | Chadic | Afroasiatic | 
-ngas-language | Ngas language | Africa | Chadic | Afroasiatic | 
-ngete-herde | Ngeté-Herdé | Africa | Chadic | Afroasiatic | 
-ngizim-language | Ngizim language | Africa | Chadic | Afroasiatic | 
-north-bauchi | North Bauchi | Africa | Chadic | Afroasiatic | 
-nteng-language | Nteng language | Africa | Chadic | Afroasiatic | 
-nyam-language | Nyam language | Africa | Chadic | Afroasiatic | 
-paa-chadic-language | Paa language | Africa | Chadic | Afroasiatic | 
-pali-chadic-language | Pali language (Chadic) | Africa | Chadic | Afroasiatic | 
-pan-chadic-language | Pan language | Africa | Chadic | Afroasiatic | 
-pero-language | Pero language | Africa | Chadic | Afroasiatic | 
-peve | Peve | Africa | Chadic | Afroasiatic | 
-piya-language | Piya language | Africa | Chadic | Afroasiatic | 
-poki-language | Poki language | Africa | Chadic | Afroasiatic | 
-proto-ron | Proto-Ron | Africa | Chadic | Afroasiatic | proto,extinct,historical
-proto-warji | Proto-Warji | Africa | Chadic | Afroasiatic | proto,extinct,historical
-pyapun-language | Pyapun language | Africa | Chadic | Afroasiatic | 
-ron-chadic | Ron | Africa | Chadic | Afroasiatic | 
-ron-language | Ron Chadic | Africa | Chadic | Afroasiatic | 
-saba-chadic-language | Saba Chadic | Africa | Chadic | Afroasiatic | 
-sarua-language | Sarua language | Africa | Chadic | Afroasiatic | 
-sha-chadic-language | Sha language | Africa | Chadic | Afroasiatic | 
-siri-chadic-language | Siri Chadic | Africa | Chadic | Afroasiatic | 
-south-bauchi | South Bauchi | Africa | Chadic | Afroasiatic | 
-southern-gabri-language | Southern Gabri language | Africa | Chadic | Afroasiatic | 
-tal-language | Tal language | Africa | Chadic | Afroasiatic | 
-tambas-language | Tambas language | Africa | Chadic | Afroasiatic | 
-tamki-language | Tamki language | Africa | Chadic | Afroasiatic | 
-teshenawa-language | Teshenawa language | Africa | Chadic | Afroasiatic | 
-tobanga-language | Tobanga language | Africa | Chadic | Afroasiatic | 
-toram-language | Toram language | Africa | Chadic | Afroasiatic | 
-tumak-language | Tumak language | Africa | Chadic | Afroasiatic | 
-ubi-language | Ubi language | Africa | Chadic | Afroasiatic | 
-warji-language | Warji language | Africa | Chadic | Afroasiatic | 
-west-chadic | West Chadic | Africa | Chadic | Afroasiatic | 
-yiwom-language | Yiwom language | Africa | Chadic | Afroasiatic | 
-zizilivakan-language | Zizilivakan language | Africa | Chadic | Afroasiatic | 
-zulgo-gemzek-language | Zulgo-Gemzek language | Africa | Chadic | Afroasiatic | 
-jimi-language-nigeria | Jimi Nigeria | Africa | Chadic | Afroasiatic | 
-kabalai-language | Kabalai language | Africa | Chadic | Afroasiatic | 
-kajakse-language | Kajakse language | Africa | Chadic | Afroasiatic | 
-kanakuru-language | Kanakuru language | Africa | Chadic | Afroasiatic | 
-karai-karai | Karai-karai | Africa | Chadic | Afroasiatic | 
-kariya-language | Kariya language | Africa | Chadic | Afroasiatic | 
-kera-chadic-language | Kera language | Africa | Chadic | Afroasiatic | 
-kholok-language | Kholok language | Africa | Chadic | Afroasiatic | 
-kimre-language | Kimré language | Africa | Chadic | Afroasiatic | 
-kir-balar-language | Kir-Balar language | Africa | Chadic | Afroasiatic | 
+-- bases=[312] | base_names=[?] | members=4 --
+amharic-argobba | Amharic-Argobba | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
+argobba | Argobba | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
+harari | Harari | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
+harari-east-gurage | Harari-East Gurage | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
 
 
 === generate-language-integration-table ===
-Wrote tools/mixer-diagnostics/language-integration-table.tsv
-Wrote tools/mixer-diagnostics/language-integration-table.json
-Wrote tools/mixer-diagnostics/wiki-only-language-items.tsv
-Wrote tools/mixer-diagnostics/wiki-only-language-items.json
+
+[stderr]
+node:fs:440
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open 'E:\code\Fantasy-Map-Generator\DEVplans\Languages-Status.md'
+    at Object.readFileSync (node:fs:440:20)
+    at readText (E:\code\Fantasy-Map-Generator\tools\mixer-core\_report-utils.js:43:13)
+    at parseWikiListPathsFromDevplan (E:\code\Fantasy-Map-Generator\tools\mixer-core\generate-language-integration-table.js:52:15)
+    at main (E:\code\Fantasy-Map-Generator\tools\mixer-core\generate-language-integration-table.js:385:28)
+    at Object.<anonymous> (E:\code\Fantasy-Map-Generator\tools\mixer-core\generate-language-integration-table.js:652:1)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'E:\\code\\Fantasy-Map-Generator\\DEVplans\\Languages-Status.md'
+}
+
+Node.js v24.11.1
+
 
 === report-language-history-totals ===
 Wrote tools/mixer-diagnostics/_language-history-totals.json
-Commits scanned: 205
+Commits scanned: 230
 History totals:
-  catalog ISOs: 3684
-  map ISOs: 3684
-  all ISOs: 3684
+  catalog ISOs: 3706
+  map ISOs: 3706
+  all ISOs: 3706
 Current totals:
-  catalog ISOs: 3504
-  map ISOs: 3504
-  all ISOs: 3504
+  catalog ISOs: 3526
+  map ISOs: 3526
+  all ISOs: 3526
 Loss counts (history minus current):
   from catalog: 180
   from map: 180
   from all: 180
 
+Skipping baseline snapshot due to prior failures.

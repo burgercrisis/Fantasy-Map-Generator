@@ -267,7 +267,7 @@ function main() {
     console.log(`Suffixes removed: ${totals.suffixRemovals}`);
     console.log("\nNext steps:");
     console.log("1. Regenerate CSV: node tools/generate-csv-from-namebases.js");
-    console.log("2. Update metrics: node tools/tracking/update-language-quality-metrics.js");
+    console.log("2. Update metrics: node tools/tracking/consolidated-quality-tracker.js");
     console.log("3. Review report: docs/reports/language-quality-report.md");
 }
 
