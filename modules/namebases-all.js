@@ -12,6 +12,7 @@
     if (window.NorthAmericaNameBases) continentArrays.push(...window.NorthAmericaNameBases);
     if (window.SouthAmericaNameBases) continentArrays.push(...window.SouthAmericaNameBases);
     if (window.OceaniaNameBases) continentArrays.push(...window.OceaniaNameBases);
+    if (window.UnknownNameBases) continentArrays.push(...window.UnknownNameBases);
     
     // All continent data goes into realWorldNameBases for now
     window.realWorldNameBases = continentArrays;
