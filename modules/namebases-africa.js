@@ -112,11 +112,11 @@ window.AfricaNameBases = [
   {
     "name": "Naro Click",
     "i": 632,
-    "min": 3,
-    "max": 9,
+    "min": 4,
+    "max": 11,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Naro,Koro,Maru,Garo"
+    "b": "Ghanzi,Dekar,Charles Hill,Chobokwane,Bere,Karakobis,Kule,Makunda,Ncojane,New Xade,Qabo,Tsootsha,West Hanahai,East Hanahai,Laagte,Groote,Kacgae,New Xanagas,Tsabong,Kang,Hukuntsi,Lobu,Mabutsane,Tshane,Lokwabe,Gobabis,Tsumkwe,Kgalagadi,Kumune,Epukiro"
   },
   {
     "name": "G!ui Click",
@@ -2844,7 +2844,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ddo,Mikumi,Iringa,Tanzania,East Africa"
+    "b": "Bamenda,Bafoussam,Yaounde,Douala,Bertoua,Garoua,Maroua,Kumba,Loum,Mokolo,Ngaoundere,Batouri,Mbouda,Bandjoun,Galim,Dschang,Mokolo,Bogo,Kousseri,Waza,Mora,Makari,Kousséri"
   },
   {
     "name": "Deh",
@@ -2934,7 +2934,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sened,Sened Island,Mediterranean Sea,Tunisia"
+    "b": "Tataouine,Chenini,Douiret,Guermessa,ksar Ouled Soltan,Ksar Ghilane,Matmata,Toujane,Beni Zelten,Medenine,Zarzis,Ben Gardane,Houmt Souk,Midoun,Djerba,Gabes,Tozeur,Douz,Kebili,Nefta,El Borma,Bir Soltane,Ghoumrassen,Tataouine Sud,Tataouine Nord"
   },
   {
     "name": "Sheliff Basin Berber",
@@ -3024,7 +3024,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dongo,Bunia,DR Congo,Central Africa,Lake Albert"
+    "b": "Bunia,Buta,Aru,Isiro,Doko,Mambasa,Beni,Kasindi,Nyahera,Lubero,Goma,Rutshuru,Masisi,Walikale,Nyiragongo,Kalehe,Shabunda,Idjwi,Ituri,Mahagi,Adi"
   },
   {
     "name": "Douiret language",
@@ -3177,7 +3177,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eman,Papua New Guinea,Morobe Province,Highlands Region,Oceania"
+    "b": "Ngaoundere,Garoua,Maroua,Bertoua,Batouri,Yokadouma,Lomie,Meiganga,Mokolo,Mbalaman,Moundou,Lac,Tchad,Bongor,Pala,Sarh,Kelo,Abéché,Mongo,Mao"
   },
   {
     "name": "Esimbi",
@@ -3609,7 +3609,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Giiwo,Bauchi,Plateau State,Nigeria,West Africa"
+    "b": "Bauchi,Gombe,Azare,Yamaltu,Deba,Billiri,Kaltungo,Nigeria,Ningi,Darazo,Tafawa Balewa,Shira,Katagum,Jama'are,Dass,Bogoro,Toro,Itas,Ganjuwa,Warji"
   },
   {
     "name": "Guruntum language",
@@ -4545,7 +4545,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kormakitis,Asomatos,Agia Marina,Karpasha,Kyrenia"
+    "b": "Kormakitis,Asomatos,Agia Marina,Karpasha,Kyrenia,Lefkoniko,Lapithos,Karpas,Trikombo,Vatili,Lourouzin,Melounda,Derince,Boghaz,Lapethos,Myrtou,Pileia,Deneia,Knodara,Lympia"
   },
   {
     "name": "Gadal (dedicated)",
