@@ -3203,7 +3203,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Esimbi,Kuopio,Iisalmi,Kokkola,Finland,Bothnian,Baltic Sea"
+    "b": "Wum,Benakuma,Beba,Zhoa,Furu-Awa,Bafut,Fundong,Ndop,Kumbo,Bali,Nkambe,Bamenda,Santa,Mankon,Bambili,Bambui,Kake,Oshie,Nyen,Tatum,Akeh,Mbinjong,Momo"
   },
 {
     "name": "Ewe",
