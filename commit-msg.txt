@@ -1,0 +1,23 @@
+Quality Wave Multiple: Fix 13 critical geographic mismatches
+
+AFRICA (4 languages fixed):
+- Chakato (2 entries): USA → Ethiopia (Addis Ababa, Bahir Dar, Gondar, etc.)
+- Bariba: Benin → Togo (Sokodé, Kara, Bassar, Kpalimé, etc.)
+- Ewe: Generic descriptors → Togo/Ghana cities (Lomé, Kpalimé, Ho, Akatsi, etc.)
+- Buli: Ghana districts → Ghana towns (Bolgatanga, Navrongo, Bawku, etc.)
+
+EUROPE (11 languages expanded to 16-32 cities):
+- Ribagorçan: 4→27 cities (Ribagorça Valley, Spain)
+- Romanian Daco-Romanian: 4→32 cities (Romania)
+- Istro-Romanian: 4→19 cities (Istrian Peninsula, Croatia)
+- Royasc: 4→20 cities (Roya Valley, Italy/France)
+- Western Erzya: 4→16 cities (Mordovia, Russia)
+- Judeo-Catalan: 8→25 cities (Catalonia, Spain)
+- Judeo-Italian: 8→19 cities (Italy)
+- Judeo-Mantuan: 8→20 cities (Lombardy/Emilia-Romagna, Italy)
+- Judeo-Piedmontese: 8→17 cities (Piedmont, Italy)
+- Judeo-Portuguese: 8→19 cities (Portugal)
+- Judeo-Gascon: 7→16 cities (Gascony, France)
+
+Total: 13 languages fixed, 250+ authentic cities added
+All JSON validated: Africa (542), Europe (415), N.America (25), S.America (194), Oceania (292)

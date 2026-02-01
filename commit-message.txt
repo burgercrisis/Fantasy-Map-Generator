@@ -1,0 +1,5 @@
+Fix Esimbi language: Finland → Cameroon (Northwest Region)
+
+- Replaced Finland cities with 24 authentic Northwest Region Cameroon towns
+- Esimbi is a Grassfields Bantu language from Cameroon, not Europe
+- Cities: Wum, Benakuma, Beba, Zhoa, Furu-Awa, Bafut, Fundong, etc.
