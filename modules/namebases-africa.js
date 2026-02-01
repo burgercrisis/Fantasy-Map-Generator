@@ -2312,7 +2312,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Caka,Afghanistan,Badakhshan,Fayzabad,Ishkashim,Vakhan,Khorog,Tajikistan,Pamir Mountains"
+    "b": "Bafoussam,Dschang,Bafang,Mbouda,Bandjoun,Bangangte,Foumban,Foumbot,Bali,Baham,Bamendjou,Bamelong,Baleveng,Batie,Bangou,Bapa,Bazou,Batcham,Banka,Bansoa,Bamenkom,Batchingou,Bahouoc,Badjoun"
   },
 {
     "name": "Cebaara",
