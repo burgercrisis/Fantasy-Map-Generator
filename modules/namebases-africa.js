@@ -3176,7 +3176,7 @@ window.AfricaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eman,Papua New Guinea,Morobe Province,Highlands Region,Oceania"
+    "b": "N'Djamena,Moundou,Sarh,Abéché,Doba,Bongor,Kousséri,Goz Beïda,Pala,Mongo,Ati,Bokoro,Bol,Lai,Oum Hadjer,Kelo,Yao,Bardaï,Fada,Ennedi,Faya-Largeau,Mboursou Léré,Mao,Bebaya,Béboto,Bébédjia"
   },
 {
     "name": "Ebira",
