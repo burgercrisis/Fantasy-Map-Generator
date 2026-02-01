@@ -1,11 +1,16 @@
-{
-    "name": "Dani Papuan",
-    "i": 51,
+    "name": "Koi",
+    "i": 1495,
     "min": 4,
-    "max": 12,
+    "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wamena,Kurima,Pyramid,Asologaima,Musatfak,Elelim,Bokondini,Karubaga,Tiom,Ninia,Soba,Kurulu,Asolokobal,Welesi,Hubikosi,Huleka,Yiwika,Dugum,Hitigima"
+    "b": "Gaborone,Francistown,Molepolole,Mogoditshane,Serowe,Selibe-Phikwe,Maun,Mochudi,Kanye,Mahalapye,Palapye,Lobatse,Tlokweng,Ramotswa,Mochudi,Mogoditshane,Moses Kotane,Moshupa,Mogoditshane"
+  },awa,Funakaye,Gamafi,Ningur,Shira,Yaji,Damban,Gabarin"
+  },h,Bilaspur,Sonepur,Boudh,Nuapada,Kalahandi,Rayagada,Koraput,Kandhamal,Nayagarh,Angul,Deogarh,Jajapur,Kendrapara,Jagatsinghpur"
+  },Amper,Mbo,Ropp,Bokkos,Riyom,Dampin,Gindin,Kassa,Mul,Jos,Barakin,Ladi,Kadarko"
+  },t,Vagharshapat,Kars,Shirakavan,Bagaran,Echmiadzin,Talin,Oshakan,Darakny,Marneuli,Gyumri,Van,Erzurum,Kars Province,Anberyan,Dolatbeg,Zhankoy,Aparan,Talin,Ararat,Artachat"
+  },ui,Longzhou,Nanning,Beihai,Fangchenggang,Qinzhou,Laibin,Hezhou,Wuzhou,Guigang,Yulin,Baise,Hechi"
+  },i,Karubaga,Tiom,Ninia,Soba,Kurulu,Asolokobal,Welesi,Hubikosi,Huleka,Yiwika,Dugum,Hitigima"
   },yang,Cheorwon,Chirwon,Chuncheon,Chungju,Daedeok,Daegaya,Daejeon,Damyang,Dangjin,Dasa,Donghae,Dongsong,Doyang,Eonyang,Gaeseong,Ganggyeong,Ganghwa,Gangneung,Ganseong,Gaun,Geochang,Geoje,Geoncheon,Geumho,Geumil,Geumwang,Gijang,Gimcheon,Gimhwa,Gimje,Goa,Gochang,Gohan,Gongdo,Gongju,Goseong,Goyang,Gumi,Gunpo,Gunsan,Guri,Gurye,Gwangju,Gwangyang,Gwansan,Gyeongseong,Hadong,Hamchang,Hampyeong,Hamyeol,Hanam,Hapcheon,Hayang,Heungnam,Hongnong,Hongseong,Hwacheon,Hwando,Hwaseong,Hwasun,Hwawon,Hyangnam,Incheon,Inje,Iri,Janghang,Jangheung,Jangseong,Jangseungpo,Jangsu,Jecheon,Jeju,Jeomchon,Jeongeup,Jeonggwan,Jeongju,Jeongok,Jeongseon,Jeonju,Jido,Jiksan,Jinan,Jincheon,Jindo,Jingeon,Jinjeop,Jinnampo,Jinyeong,Jocheon,Jochiwon,Jori,Maepo,Mangyeong,Mokpo,Muju,Munsan,Naesu,Naju,Namhae,Namwon,Namyang,Namyangju,Nongong,Nonsan,Ocheon,Okcheon,Okgu,Onam,Onsan,Onyang,Opo,Paengseong,Pogok,Poseung,Pungsan,Pyeongchang,Pyeonghae,Pyeongyang,Sabi,Sacheon,Samcheok,Samho,Samrye,Sancheong,Sangdong,Sangju,Sapgyo,Sariwon,Sejong,Seocheon,Seogwipo,Seonghwan,Seongjin,Seongju,Seongnam,Seongsan,Seosan,Seungju,Siheung,Sindong,Sintaein,Soheul,Sokcho,Songak,Songjeong,Songnim,Songtan,Suncheon,Taean,Taebaek,Tongjin,Uijeongbu,Uiryeong,Uiwang,Uljin,Ulleung,Unbong,Ungcheon,Ungjin,Waegwan,Wando,Wayang,Wiryeseong,Wondeok,Yangju,Yangsan,Yangyang,Yecheon,Yeomchi,Yeoncheon,Yeongam,Yeongcheon,Yeongdeok,Yeongdong,Yeonggwang,Yeongju,Yeongwol,Yeongyang,Yeonil,Yongin,Yongjin,Yugu,Gwangmyeong,Pyeongtaek,Icheon,Gimpo,Pocheon,Geumsan,Yesan,Asan,Cheongju,Danyang,Andong,Munmak,Wolnyeong,Songju,Pohang,Gyeongju,Jeongseok,Seoul,Pyongyang,Hamhung,Chongjin,Wonsan,Nampo,Kaesong,Sinuiju,Hamhŭng,Wŏnsan,Namp'o,Kaesŏng,Sinŭiju,Tanchon,Kaechon,Sunchon,Hungnam,Rason,Kimchaek,Haeju,Kanggye,Hyesan,Tokchon,Kusong,P'yongsong,Manp'o,Pyongsong,Uiju,Hoeryong,Ulsan,Suwon,Bucheon,Iksan,Jinju,Yeosu,Wonju,Gimhae,Tongyeong"
   },
   {

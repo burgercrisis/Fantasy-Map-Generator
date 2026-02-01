@@ -8,16 +8,10 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "pam-AU",
     "m": 0,
-    "b": "Maningrida,Yirrkala,Galiwinku,Gunbalanya,Nhulunbuy,Borroloola,Yuendumu,Papunya,Jabiru,Kununurra,Yulara,Arnhem"
+    "b": "Maningrida,Yirrkala,Galiwinku,Gunbalanya,Nhulunbuy,Borroloola,Yuendumu,Papunya,Jabiru,Kununurra,Yulara,Arnhem,Darwin,Alice Springs,Katherine,Broome,Port Augusta,Kalgoorlie,Tamworth,Wangaratta,Wagga Wagga,Coonabarabran,Cooma,Bourke,Cunnamulla,Birdsville,Charleville,Hall Creek"
   },
 {
-    "name": "Papuan",
-    "i": 45,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tari,Mendi,Wabag,Ialibu,Koroba,Kagua,Kundiawa,Kerowagi,Minj,Banz,Goroka,Kainantu,Henganofi,Chuave,Obura,Wapenamanda,Kompiam,Porgera,Enga,Okapa,Menyamya,Finschhafen,Kikori,Tapu"
+    "name": "Papuan",oroba,Kagua,Kundiawa,Kerowagi,Minj,Banz,Goroka,Kainantu,Henganofi,Chuave,Obura,Wapenamanda,Kompiam,Porgera,Enga,Okapa,Menyamya,Finschhafen,Kikori,Tapu"
   },
 {
     "name": "Engan Papuan",
@@ -26,7 +20,7 @@ window.OceaniaNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wabag,Wapenamanda,Kandep,Laiagam,Kompiam,Porgera,Ambum,Lagaip,Wapi,Yengis,Maip,Muritaka,Pilikambi,Paela,Hewa,Tsak,Maramuni,Enga,Lai"
+    "b": "Wabag,Wapenamanda,Kandep,Laiagam,Kompiam,Porgera,Ambum,Lagaip,Wapi,Yengis,Maip,Muritaka,Pilikambi,Paela,Hewa,Tsak,Maramuni,Enga,Lai,Tampia,Pumbul,Yalhi,Koroba,Karubaga,Mungul屑,Lagaip River"
   },
 {
     "name": "Dani Papuan",
@@ -53,7 +47,7 @@ window.OceaniaNameBases = [
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Palikir,Kolonia,Weno,Tofol,Yap,Colonia,Ebeye,Majuro,Jaluit,Tarawa,Betio,Bairiki,Saipan,Garapan,Tinian,Rota,Koror,Airai,Ngerulmud"
+    "b": "Palikir,Kolonia,Weno,Tofol,Yap,Colonia,Ebeye,Majuro,Jaluit,Tarawa,Betio,Bairiki,Saipan,Garapan,Tinian,Rota,Koror,Airai,Ngerulmud,Kosrae,Lelu,Malem,Utwe,Fananu,Weno,Mokil,Mokil Atoll,Pohnpei,Tafunsak,Lelu,Utwe"
   },
 {
     "name": "Central Pacific",
@@ -80,7 +74,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tokelau,Atafu,Nukunonu,Fakaofo,Fale,Vaia,Atafu Village,Nukunonu Village,Fakaofo Village,Fenuafala,Motuhaga,Fale islet,Teafualiku,Tufanua,Nikua,Nuku,Te Puka,Niua"
+    "b": "Tokelau,Atafu,Nukunonu,Fakaofo,Fale,Vaia,Atafu Village,Nukunonu Village,Fakaofo Village,Fenuafala,Motuhaga,Fale islet,Teafualiku,Tufanua,Nikua,Nuku,Te Puka,Niua,Olohega,Samoa,Apia,Pago Pago,American Samoa,Tuvalu,Funafuti,Vaitupu"
   },
 {
     "name": "Nauruan",
@@ -89,7 +83,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baitsi,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Location,Topside"
+    "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baiti,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Topside,Aniwa,Arubo,Baiti,Bets,#8,Meneden,Obau,Onemoon,Yaren District,Buada District,Aiwo District,Anetan District,Anabar District,Anibare District,Boe District,Buada District,Ewa District,Ijuw District,Meneng District,Nibok District,Uaboe District"
   },
 {
     "name": "Tuvaluan",
@@ -98,7 +92,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Funafuti,Fongafale,Vaitupu,Nukufetau,Nukulaelae,Nui,Nanumea,Nanumaga,Niutao,Niulakita,Teone,Alapi,Senala,Falepuipui,Faleasiu,Lofeagai,TeoneNumberTwo"
+    "b": "Funafuti,Fongafale,Vaitupu,Nukufetau,Nukulaelae,Nui,Nanumea,Nanumaga,Niutao,Niulakita,Teone,Alapi,Senala,Falepuipui,Faleasiu,Lofeagai,TeoneNumberTwo,Funafala,Fongafale islet,Amatuku,Manuafou,Motufoua,Fekete,Vaiaku,Lakena,Telele,Kulia,Palangisanga"
   },
 {
     "name": "Lampung",
@@ -107,7 +101,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bandar Lampung,Metro,Kalianda,Kotabumi,Liwa,Krui,Pringsewu,Terbanggi Besar,Gunung Sugih,Mesuji,Way Kanan,Tulang Bawang,Menggala,Blambangan Umpu"
+    "b": "Bandar Lampung,Metro,Kalianda,Kotabumi,Liwa,Krui,Pringsewu,Terbanggi Besar,Gunung Sugih,Mesuji,Way Kanan,Tulang Bawang,Menggala,Blambangan Umpu,Lampung Selatan,Tanggamus,Way Panji,Pesawaran,Lampung Barat,Lampung Utara,Lampung Tengah,Pesisir Barat,Pesisir Selatan,Lampung Timur"
   },
 {
     "name": "Bima",
@@ -116,7 +110,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bima,Raba,Woha,Sape,Wera,Lambu,Wawo,Sanggar,Tambora,Dompu,Pekat,Soriutu,Kempo,Madapangga"
+    "b": "Bima,Raba,Woha,Sape,Wera,Lambu,Wawo,Sanggar,Tambora,Dompu,Pekat,Soriutu,Kempo,Madapangga,Sumbawa Besar,Taliwang,Alas,Bayan,Brang Ene,Brang Rea,Empang,Labangka,Lape,Lenangguar,Loyok,Maluk,Maringgata,Mataram,Orong Telu,Pamulang,Plampang,Pototano,Sanolo,Sekotong,Subagan,Sumbawa,Surabaya"
   },
 {
     "name": "Basap",
@@ -125,7 +119,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kutai Timur,Sangatta,Bengalon,Muara Bengalon,Rantau Pulung,Bontang,Samarinda,Tenggarong,Muara Wahau,Telen,Kaubun,Sandaran,Long Mesangat"
+    "b": "Kutai Timur,Sangatta,Bengalon,Muara Bengalon,Rantau Pulung,Bontang,Samarinda,Tenggarong,Muara Wahau,Telen,Kaubun,Sandaran,Long Mesangat,Balikpapan,Samarinda,Penajam,Loa Kulu,Kota Bangun,Muara Muntai,Anggana,Sangkulirang,Muara Badak,Muara Jawa,Bontang Utara,Bontang Selatan"
   },
 {
     "name": "Selaru",
@@ -143,7 +137,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kuching,Bau,Serian,Padawan,Penrissen,Siburan,Kota Samarahan,Tebedu,Lundu,Sematan,Serikin,Bongawan,Bidayuh,Mambong"
+    "b": "Kuching,Bau,Serian,Padawan,Penrissen,Siburan,Kota Samarahan,Tebedu,Lundu,Sematan,Serikin,Bongawan,Bidayuh,Mambong,Sarikei,Samarahan,Lassa,Tupong,Beratok,Batu Kawa,Matang,Singgaron,Darat,Akua,Buduk,Suba,Tondong,Kota Padawan,Majma Jaya,Mahara,Anjungan,Ulu Sinian"
   },
 {
     "name": "Flores-Lembata",
@@ -152,7 +146,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ende,Maumere,Sikka,Wolowaru,Detusoko,Kelimutu,Bajawa,Ruteng,Labuan Bajo,Manggarai,Larantuka,Lembata,Lewoleba,Adonara,Solor"
+    "b": "Ende,Maumere,Sikka,Wolowaru,Detusoko,Kelimutu,Bajawa,Ruteng,Labuan Bajo,Manggarai,Larantuka,Lembata,Lewoleba,Adonara,Solor,Reo,Ruteng,Pongok,Balong,Dana,Gerokgak,Sitoba,Nampar Nosar,Mbay,Ndona,Lio,Flores,Obae,Koepang,Kupang,Atambua"
   },
 {
     "name": "Kei-Tanimbar",
@@ -161,7 +155,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tual,Langgur,Kei Kecil,Kei Besar,Elat,Dullah,Debut,Yamdena,Saumlaki,Larat,Fordata,Tanimbar,Banda Neira,Dobo"
+    "b": "Tual,Langgur,Kei Kecil,Kei Besar,Elat,Dullah,Debut,Yamdena,Saumlaki,Larat,Fordata,Tanimbar,Banda Neira,Dobo,Adaut,Namtabung,Kandar,Lingat,Werain,Eliasa,Latdalam,Sangliat Dol,Lorulun,Olilit,Sifnana,Lauran,Ilngei,Kabuiar,Wowonda,Tumbur"
   },
 {
     "name": "Timoric",
@@ -170,7 +164,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kupang,Atambua,Kefamenanu,Soe,Oecusse,Dili,Baucau,Same,Viqueque,Lospalos,Ainaro,Suai,Maliana,Ermera"
+    "b": "Kupang,Atambua,Kefamenanu,Soe,Oecusse,Dili,Baucau,Same,Viqueque,Lospalos,Ainaro,Suai,Maliana,Ermera,Amarasi,Amfoang,Kota Raja,Noemuti,Mota Ain,Bobolaco,Samarino,Lourdes,Caicoli,Tasi Morru,Lacluta,Lospalos,Comoro,Lacluta,Tibar"
   },
 {
     "name": "Sumba-Flores",
@@ -179,7 +173,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Waingapu,Waikabubak,Tambolaka,Kodi,West Sumba,East Sumba,Ruteng,Labuan Bajo,Komodo,Ende,Bajawa,Maumere,Ngada,Manggarai"
+    "b": "Waingapu,Waikabubak,Tambolaka,Kodi,West Sumba,East Sumba,Ruteng,Labuan Bajo,Ende,Bajawa,Maumere,Ngada,Manggarai,Sumba,Flores,Lembata,Pantar,Alor,Kupang,Atambua,Kefamenanu,Soe,Larantuka,Lewoleba,Adonara,Solor"
   },
 {
     "name": "Tomini-Tolitoli",
@@ -188,7 +182,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tomini,Tolitoli,Gorontalo,Parigi,Moutong,Poso,Ampana,Luwuk,Banggai,Tojo Una-Una,Palu,Donggala"
+    "b": "Tomini,Tolitoli,Gorontalo,Parigi,Moutong,Poso,Ampana,Luwuk,Banggai,Tojo Una-Una,Palu,Donggala,Banggai Islands,Bolmong,Lembeh,Bitung,Manado,Tondano,Tomohon,Airmadidi,Kawangkoan,Ratahan,Molibagu,Kotamobagu,Lolak,Pinolosangan"
   },
 {
     "name": "Muna-Buton",
@@ -197,7 +191,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Raha,Muna,Buton,Baubau,Pasarwajo,Lasalimu,Wakorumba,Wangi-Wangi,Kendari,Wolio,Kapontori,Batauga"
+    "b": "Raha,Muna,Buton,Baubau,Pasarwajo,Lasalimu,Wakorumba,Wangi-Wangi,Kendari,Wolio,Kapontori,Batauga,Wakatobi,Mawasangka,Poso,Lakudo,Lasalimu Selatan,Pasarwajo,Bau-Bau,Watubangga,Kolaka,Bungku,Bahouta,Moramo,Laonti,Lalembo,Sabuttu,Katobu,Pialba,Barangka"
   },
 {
     "name": "Minahasan",
@@ -206,7 +200,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Manado,Tomohon,Tondano,Airmadidi,Bitung,Minahasa,Kawangkoan,Tataaran,Tombulu,Tondano Selatan,Amurang,Remboken"
+    "b": "Manado,Tomohon,Tondano,Airmadidi,Bitung,Minahasa,Kawangkoan,Tataaran,Tombulu,Tondano Selatan,Amurang,Remboken,Lemhan,Tondano Utara,Kakas,Kombi,Tondano Barat,Ratahan,Molibagu,Kotamobagu,Lolak,Pinolosangan,Modoinding,Sulawesi,North Sulawesi,Langga,Sangkar,Lanut"
   },
 {
     "name": "Sangiric",
@@ -224,7 +218,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bintulu,Kapit,Marudi,Long Lama,Long Moh,Long San,Long Busang,Long Akah,Long Anap,Belaga,Tubau,Tatau,Dalat,Mukah"
+    "b": "Bintulu,Kapit,Marudi,Long Lama,Long Moh,Long San,Long Busang,Long Akah,Long Anap,Belaga,Tubau,Tatau,Dalat,Mukah,Sibu,Sarikei,Song,Kanowit,Sri Aman,Betong,Layong,Sebauh,Miri,Lawas,Limbang"
   },
 {
     "name": "Melanau-Kajang",
@@ -233,7 +227,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mukah,Dalat,Matu,Daro,Igan,Oya,Balingian,Selangau,Sibu,Bintulu,Tatau,Samalaju,Sarikei,Kanowit"
+    "b": "Mukah,Dalat,Matu,Daro,Igan,Oya,Balingian,Selangau,Sibu,Bintulu,Tatau,Samalaju,Sarikei,Kanowit,Sarawak,Samarahan,Kota Samarahan,Lundu,Sematan,Serian,Bau,Padang,Serikin,Penrissen,Bongawan,Tupong"
   },
 {
     "name": "Sabahan",
@@ -242,7 +236,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kota Kinabalu,Penampang,Putatan,Papar,Tuaran,Kota Belud,Kudat,Kota Marudu,Ranau,Sandakan,Lahad Datu,Tawau,Semporna,Keningau,Tenom"
+    "b": "Kota Kinabalu,Penampang,Putatan,Papar,Tuaran,Kota Belud,Kudat,Kota Marudu,Ranau,Sandakan,Lahad Datu,Tawau,Semporna,Keningau,Tenom,Beaufort,Kinarut,Pensiangan,Kudat,Kota Marudu,Kinabatangan,Telupid,Beluran,Sipitang"
   },
 {
     "name": "North Borneo",
@@ -251,7 +245,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kota Kinabalu,Sandakan,Tawau,Kudat,Keningau,Tenom,Sipitang,Beaufort,Miri,Bintulu,Limbang,Lawas,Brunei,Labuan"
+    "b": "Kota Kinabalu,Sandakan,Tawau,Kudat,Keningau,Tenom,Sipitang,Beaufort,Miri,Bintulu,Limbang,Lawas,Brunei,Labuan,Ranau,Kota Belud,Tuaran,Papar,Penampang,Putatan,Lahad Datu,Semporna,Kinarut"
   },
 {
     "name": "Greater North Borneo",

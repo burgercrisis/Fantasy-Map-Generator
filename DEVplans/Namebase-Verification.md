@@ -1,13 +1,105 @@
+
 ---
 
-## 🚀 **WAVE 133 - AFRICAN SMALL LANGUAGES ENHANCEMENT**
+## 🚀 **WAVE 138 - SOUTH AMERICAN LANGUAGES ENHANCEMENT**
 
-**Status**: ✅ **SUCCESSFULLY COMPLETED**
+**Status**: 🔄 **IN PROGRESS** (Partial Completion)
 
-**Date**: 2026-01-31
-**Languages Enhanced**: 5 African languages from small to normal category
-**Research Time**: ~45 minutes
-**Changes Made**: Removed generic descriptors, language names as places, incorrect territory entries; added authentic place names to reach 25 cities threshold
+**Date**: 2026-02-01
+**Focus**: South American languages with < 20 cities and geographic mismatches
+
+### **Critical Geographic Issues Identified**
+
+| Language | Index | Issue | Status |
+|----------|-------|-------|--------|
+| Chilean Spanish | 395 | Contains Spanish cities (Barcelona, Girona) instead of Chilean | **NEEDS FIX** |
+| Chilote | 396 | Contains Spanish cities (León, Valladolid) instead of Patagonia | **NEEDS FIX** |
+| Rama | 1229 | Contains Chinese cities instead of Nicaraguan Caribbean | **NEEDS FIX** |
+| Siriano | 1222 | Contains Italian cities instead of Colombian Amazon | **NEEDS FIX** |
+| Siona | 1223 | Contains Italian cities instead of Colombian Amazon | **NEEDS FIX** |
+| Kakwa (Cacua) | 1410 | Contains African cities (Juba, Uganda) instead of Colombian Vaupés | **NEEDS FIX** |
+
+### **Languages with < 20 Cities (Requiring Expansion)**
+
+**Spanish Dialects:**
+- Bolivian Spanish (i:383): 7 cities
+- Brazilian Portuguese (i:386): 8 cities
+- Rioplatense Spanish (i:596): 5 cities
+- Peruvian Spanish (i:530): 16 cities
+- Paraguayan Spanish (i:526): 13 cities
+- Colombian Spanish (i:398): 10 cities
+
+**Amazonian Languages:**
+- Kallawaya (i:276, 1407): 12 cities each
+- Chiquitano (i:277, 1281): 12 cities each
+- Shipibo-Conibo (i:84): 19 cities
+- Warao Delta (i:85): 19 cities
+- Yanomami Amazonian (i:86): 19 cities
+- Movima (i:778): 16 cities
+- Siriano (i:1222): 11 cities
+- Siona (i:1223): 12 cities
+
+### **Research Notes**
+
+#### **Chilean Spanish Fix (Critical)**
+- **Original**: Barcelona, Girona, Tarragona, Lleida, Tortosa, Reus, Manresa, Granollers, Vic (Spanish cities)
+- **Required**: Santiago, Valparaiso, Concepcion, Puente Alto, Antofagasta, Temuco, Vina del Mar, Talcahuano, San Bernardo, Iquique, Rancagua, La Serena, Puerto Montt, Chillan, Calama, Osorno, Valdivia, Quillota, Los Angeles, Punta Arenas, Arica, Talca, Coquimbo, Linares, Coronel (25 cities)
+
+#### **Chilote Fix (Critical)**
+- **Original**: León, Valladolid, Zamora, Burgos, Palencia, Oviedo, Gijón, Santander, Madrid (Spanish cities)
+- **Required**: Ancud, Castro, Chonchi, Quellon, Dalcahue, Queilen, Quemchi, Quinchao, Curaco de Velez, Puqueldon, Calbuco, Puerto Montt, Osorno, Frutillar, Puerto Varas, Llanquihue, Maullin, Fresia, Los Muermos, Hualaihue, Lenca, Chaiten (22 cities)
+
+#### **Rama Fix (Critical)**
+- **Original**: Gaozhou, Liuzhou, Ziyang, Nanchong, Chengdu (Chinese cities)
+- **Required**: Rama Cay, Bluefields, Greytown, San Juan de Nicaragua, Corn Island, Laguna de Perlas, Nueva Guinea, El Rama, Muelle de los Rios, Siuna, Rosita, Wiwili, Bonanza, Pueblo Nuevo, San Carlos, San Miguelito, La Cruz de Rio Grande, Kukra River, La Fonseca, Muelle de Rios (20 cities)
+
+#### **Siriano Fix (Critical)**
+- **Original**: Siena, Poggibonsi, San Gimignano, Firenze, Prato, Empoli (Italian cities)
+- **Required**: Mitu, Caruru, Papuri, Tiquie, Ubey, Icana, Taraira, Araracuara, La Victoria, Buenos Aires, Miraflores, San Jose del Guaviare, Villa Fatima, Curare, Piracanga, Yuruyacu, Cabara, Carapana, Mirimiri, Cuieiras, Yarupa (21 cities)
+
+#### **Siona Fix (Critical)**
+- **Original**: San Sepolcro, Massa Marittima (Italian cities)
+- **Required**: Wisuya, Buenavista, Leticia, Puerto Asis, Orito, San Miguel, Mocoa, Leguizamo, La Chorrera, Puerto Caicedo, La Joya, Puerto Loyola, Pto Arango, Tagua, Condoto, El Encanto, La Merced, Pto Arturo, Remolinos, Pastaza, Morelia (21 cities)
+
+#### **Kakwa (Cacua) Fix (Critical)**
+- **Original**: Juba, Yei, Bor, Moroto, Kotido, Kitgum, Uganda (African cities)
+- **Required**: Wacara, Nuevo Pueblo, Mitu, Caruru, Papuri, Taraira, Querari, Boca de Papuri, Pto Cacan, Yavarate, Mapiripana, Puerto Colombia, Pana Pana (13 cities)
+
+### **Challenges Encountered**
+
+1. **File Corruption**: During editing, the file became corrupted due to improper edit application, requiring restoration from git
+2. **Duplicate Entries**: Several languages (Kallawaya, Chiquitano, Aymara, etc.) appear twice in the file with different indices, suggesting either intentional variants or accidental duplications
+3. **Encoding Issues**: Some entries have encoding problems (Ã©, â”œ, etc.) that need cleanup
+
+### **Remaining Work**
+
+1. **Apply all 6 critical geographic fixes** to the restored file
+2. **Expand 10+ languages** from < 20 cities to 20-25 cities
+3. **Validate JSON structure** after edits
+4. **Document final state** in verification log
+
+### **Next Steps**
+
+Continue with careful, one-at-a-time edits to fix:
+1. Chilean Spanish (i:395)
+2. Chilote (i:396)  
+3. Rama (i:1229)
+4. Siriano (i:1222)
+5. Siona (i:1223)
+6. Kakwa (Cacua) (i:1410)
+
+Then expand:
+- Bolivian Spanish, Brazilian Portuguese, Rioplatense Spanish
+- Kallawaya, Chiquitano (both instances)
+- Peruvian Spanish, Paraguayan Spanish
+- Amazonian languages near 19 cities
+
+**File Status**: Restored from git backup after corruption. All planned changes documented above for systematic re-application.
+
+---
+*Document generated: 2026-02-01*
+*Wave 138 initiated for South American language enhancement*
+*Note: File was restored due to edit corruption - all fixes need re-application*ded authentic place names to reach 25 cities threshold
 
 ### **Enhanced Languages**
 
@@ -1066,3 +1158,126 @@ Continue systematic enhancement focusing on:
 *Total small languages reduced from 1907 to 1902 (-5 enhanced)*
 *Normal category increased from 298 to 303 (+5 promoted)*
 *Critical country-level error in Bure fixed (Nigeria → Ghana)*
+
+---
+
+## 🚀 **WAVE 138 - SOUTH AMERICAN LANGUAGES ENHANCEMENT**
+
+**Status**: 🔄 **IN PROGRESS** (Partial Completion)
+
+**Date**: 2026-02-01
+**Focus**: South American languages with < 20 cities and geographic mismatches
+
+### **Critical Geographic Issues Identified**
+
+| Language | Index | Issue | Status |
+|----------|-------|-------|--------|
+| Chilean Spanish | 395 | Contains Spanish cities (Barcelona, Girona) instead of Chilean | **NEEDS FIX** |
+| Chilote | 396 | Contains Spanish cities (León, Valladolid) instead of Patagonia | **NEEDS FIX** |
+| Rama | 1229 | Contains Chinese cities instead of Nicaraguan Caribbean | **NEEDS FIX** |
+| Siriano | 1222 | Contains Italian cities instead of Colombian Amazon | **NEEDS FIX** |
+| Siona | 1223 | Contains Italian cities instead of Colombian Amazon | **NEEDS FIX** |
+| Kakwa (Cacua) | 1410 | Contains African cities (Juba, Uganda) instead of Colombian Vaupés | **NEEDS FIX** |
+
+### **Languages with < 20 Cities (Requiring Expansion)**
+
+**Spanish Dialects:**
+- Bolivian Spanish (i:383): 7 cities
+- Brazilian Portuguese (i:386): 8 cities
+- Rioplatense Spanish (i:596): 5 cities
+- Peruvian Spanish (i:530): 16 cities
+- Paraguayan Spanish (i:526): 13 cities
+- Colombian Spanish (i:398): 10 cities
+
+**Amazonian Languages:**
+- Kallawaya (i:276, 1407): 12 cities each
+- Chiquitano (i:277, 1281): 12 cities each
+- Shipibo-Conibo (i:84): 19 cities
+- Warao Delta (i:85): 19 cities
+- Yanomami Amazonian (i:86): 19 cities
+- Movima (i:778): 16 cities
+- Siriano (i:1222): 11 cities
+- Siona (i:1223): 12 cities
+
+### **Research Notes - Critical Fixes**
+
+#### **Chilean Spanish Fix (Critical)**
+- **Original**: Barcelona, Girona, Tarragona, Lleida, Tortosa, Reus, Manresa, Granollers, Vic (Spanish cities)
+- **Required**: Santiago, Valparaiso, Concepcion, Puente Alto, Antofagasta, Temuco, Vina del Mar, Talcahuano, San Bernardo, Iquique, Rancagua, La Serena, Puerto Montt, Chillan, Calama, Osorno, Valdivia, Quillota, Los Angeles, Punta Arenas, Arica, Talca, Coquimbo, Linares, Coronel (25 cities)
+
+#### **Chilote Fix (Critical)**
+- **Original**: León, Valladolid, Zamora, Burgos, Palencia, Oviedo, Gijón, Santander, Madrid (Spanish cities)
+- **Required**: Ancud, Castro, Chonchi, Quellon, Dalcahue, Queilen, Quemchi, Quinchao, Curaco de Velez, Puqueldon, Calbuco, Puerto Montt, Osorno, Frutillar, Puerto Varas, Llanquihue, Maullin, Fresia, Los Muermos, Hualaihue, Lenca, Chaiten (22 cities)
+
+#### **Rama Fix (Critical)**
+- **Original**: Gaozhou, Liuzhou, Ziyang, Nanchong, Chengdu (Chinese cities)
+- **Required**: Rama Cay, Bluefields, Greytown, San Juan de Nicaragua, Corn Island, Laguna de Perlas, Nueva Guinea, El Rama, Muelle de los Rios, Siuna, Rosita, Wiwili, Bonanza, Pueblo Nuevo, San Carlos, San Miguelito, La Cruz de Rio Grande, Kukra River, La Fonseca, Muelle de Rios (20 cities)
+
+#### **Siriano Fix (Critical)**
+- **Original**: Siena, Poggibonsi, San Gimignano, Firenze, Prato, Empoli (Italian cities)
+- **Required**: Mitu, Caruru, Papuri, Tiquie, Ubey, Icana, Taraira, Araracuara, La Victoria, Buenos Aires, Miraflores, San Jose del Guaviare, Villa Fatima, Curare, Piracanga, Yuruyacu, Cabara, Carapana, Mirimiri, Cuieiras, Yarupa (21 cities)
+
+#### **Siona Fix (Critical)**
+- **Original**: San Sepolcro, Massa Marittima (Italian cities)
+- **Required**: Wisuya, Buenavista, Leticia, Puerto Asis, Orito, San Miguel, Mocoa, Leguizamo, La Chorrera, Puerto Caicedo, La Joya, Puerto Loyola, Pto Arango, Tagua, Condoto, El Encanto, La Merced, Pto Arturo, Remolinos, Pastaza, Morelia (21 cities)
+
+#### **Kakwa (Cacua) Fix (Critical)**
+- **Original**: Juba, Yei, Bor, Moroto, Kotido, Kitgum, Uganda (African cities)
+- **Required**: Wacara, Nuevo Pueblo, Mitu, Caruru, Papuri, Taraira, Querari, Boca de Papuri, Pto Cacan, Yavarate, Mapiripana, Puerto Colombia, Pana Pana (13 cities)
+
+### **Challenges Encountered**
+
+1. **File Corruption**: During editing, the file became corrupted due to improper edit application, requiring restoration from git
+2. **Duplicate Entries**: Several languages (Kallawaya, Chiquitano, Aymara, etc.) appear twice in the file with different indices
+3. **Encoding Issues**: Some entries have encoding problems (Ã©, â"œ, etc.)
+
+### **Remaining Work**
+
+1. **Apply all 6 critical geographic fixes** to the restored file
+2. **Expand 10+ languages** from < 20 cities to 20-25 cities
+3. **Validate JSON structure** after edits
+4. **Document final state** in verification log
+
+### **Next Steps**
+
+Continue with careful, one-at-a-time edits to fix:
+1. Chilean Spanish (i:395)
+2. Chilote (i:396)  
+3. Rama (i:1229)
+4. Siriano (i:1222)
+5. Siona (i:1223)
+6. Kakwa (Cacua) (i:1410)
+
+Then expand:
+- Bolivian Spanish, Brazilian Portuguese, Rioplatense Spanish
+- Kallawaya, Chiquitano (both instances)
+- Peruvian Spanish, Paraguayan Spanish
+- Amazonian languages near 19 cities
+
+**File Status**: Restored from git backup after corruption. All planned changes documented above for systematic re-application.
+
+---
+*Document generated: 2026-02-01*
+*Wave 138 initiated for South American language enhancement*
+*Note: File was restored due to edit corruption - all fixes need re-application*\"\"  
+\"---\"  
+\"\"  
+\"## ?? WAVE 138 - SOUTH AMERICAN LANGUAGES ENHANCEMENT\"  
+\"\"  
+\"**Status**: IN PROGRESS\"  
+\"**Date**: 2026-02-01\"  
+\"**Focus**: South American languages with < 20 cities and geographic mismatches\"  
+\"\"  
+\"### Critical Issues Found\"  
+\"- Chilean Spanish (i:395): Contains Spanish cities (Barcelona, Girona)\"  
+\"- Chilote (i:396): Contains Spanish cities (Le�n, Valladolid)\"  
+\"- Rama (i:1229): Contains Chinese cities (Gaozhou, Liuzhou)\"  
+\"- Siriano (i:1222): Contains Italian cities (Siena, Firenze)\"  
+\"- Siona (i:1223): Contains Italian cities (San Sepolcro)\"  
+\"- Kakwa (Cacua) (i:1410): Contains African cities (Juba, Uganda)\"  
+\"\"  
+\"### Languages Below 20 Cities\"  
+\"- Bolivian Spanish: 7 | Rioplatense: 5 | Brazilian Portuguese: 8\"  
+\"- Kallawaya: 12 | Chiquitano: 12 | Shipibo-Conibo: 19\"  
+\"\"  
+\"**Note**: File restored from git after edit corruption. All fixes need re-application.\" 
