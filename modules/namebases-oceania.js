@@ -83,7 +83,7 @@ window.OceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baiti,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Topside,Aniwa,Arubo,Baiti,Bets,#8,Meneden,Obau,Onemoon,Yaren District,Buada District,Aiwo District,Anetan District,Anabar District,Anibare District,Boe District,Buada District,Ewa District,Ijuw District,Meneng District,Nibok District,Uaboe District"
+    "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baiti,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Topside,Aniwa,Arubo,Odike,Eaboe,Anam,Komwar,Tabwe,Tab汶,Anetan,Anabar,Anibare,Buada"
   },
 {
     "name": "Tuvaluan",

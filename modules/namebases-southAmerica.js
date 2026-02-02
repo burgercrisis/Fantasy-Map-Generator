@@ -71,7 +71,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Charazani,Curva,Chajaya,Amarete,Kaata,Carabuco,Achacachi,Sorata,La Paz,Copacabana,Titicaca,Ancoraimes"
+    "b": "Charazani,Curva,Chajaya,Amarete,Kaata,Carabuco,Achacachi,Sorata,La Paz,Copacabana,Titicaca,Ancoraimes,Apolo,Chulumani,Irupana,Coroico,Caranavi,Tapacá,Charasa,Inicua,Mocochaca,Puina,Quime,Chara,Ayata,Aucapata,Limbani,Tacopaya"
   },
 {
     "name": "Chiquitano",
@@ -80,7 +80,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,San Jose de Chiquitos,Robore,Puerto Suarez,Santa Cruz,Chiquitania,Velasco,Chiquitos"
+    "b": "San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,San Jose de Chiquitos,Robore,Puerto Suarez,Santa Cruz,Chiquitania,Velasco,Chiquitos,San Antonio de Lomerío,Puerto Rico,Pilar,San Ramón,San Juan,Cuatro Cañadas,Comarapa,Vallegrande,Mauroa,El Torno,La Guardia,Warnes"
   },
 {
     "name": "Bolivian Spanish",
@@ -161,7 +161,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "es-PY",
     "m": 0,
-    "b": "AsunciÃ³n,Ciudad del Este,San Lorenzo,Luque,CapiatÃ¡,LambarÃ©,Fernando de la Mora,Limpio,Ã‘emby,Mariano Roque Alonso,Pedro Juan Caballero,EncarnaciÃ³n,CaaguazÃº"
+    "b": "Asunción,Ciudad del Este,San Lorenzo,Luque,Capiatá,Lambaré,Fernando de la Mora,Limpio,Ñemby,Mariano Roque Alonso,Pedro Juan Caballero,Encarnación,Caaguazú,Villarrica,Concepción,Coronel Oviedo,San Antonio de Páez,San Juan Bautista,Caazapá,Horqueta,Paraguarí,Alto Paraná,Itauguá,Pirayú"
   },
 {
     "name": "Peruvian Spanish",

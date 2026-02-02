@@ -1,11 +1,11 @@
 language_name,index,continent,source_file,city_count,base_size_category,duplicate_cities,is_placeholder,has_primus,has_dedicated_suffix,suspicious_name,has_trailing_space,has_encoding_issue,index_collision,name_collision,d_value,index_range,quality_score
-Berber,16,Africa,namebases-africa.js,200,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,s,1-999,100
+Awing (dedicated),2738,Africa,namebases-africa.js,14,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Arabic,17,Africa,namebases-africa.js,222,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ae,1-999,100
 Nigerian,20,Africa,namebases-africa.js,209,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1-999,100
 Swahili,27,Africa,namebases-africa.js,204,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1-999,100
 Gurage,31,Africa,namebases-africa.js,47,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Harari-Argobba,312,Africa,namebases-africa.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Berber,37,Africa,namebases-africa.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,afa-DZ,1-999,100
+Berber,37,Africa,namebases-africa.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,afa-DZ,1-999,100
 Sekele,39,Africa,namebases-africa.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Taa Click,41,Africa,namebases-africa.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
 Nama Click,43,Africa,namebases-africa.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrtkxgms,1-999,100
@@ -88,7 +88,7 @@ Eton,692,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Evant,693,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Fongoro,694,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Fungor,695,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Fur,696,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Fur,696,Africa,namebases-africa.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Gikuyu,698,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Goundo,699,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Gumuz,701,Africa,namebases-africa.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -539,9 +539,9 @@ Boze (dedicated),2695,Africa,namebases-africa.js,12,small,FALSE,TRUE,FALSE,TRUE,
 Bozo (dedicated),2696,Africa,namebases-africa.js,12,small,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,40
 Buu (dedicated),2697,Africa,namebases-africa.js,12,small,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,40
 Dagaare (dedicated),2698,Africa,namebases-africa.js,11,small,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,60
-Awing (dedicated),2738,Africa,namebases-africa.js,12,small,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,40
+Awing (dedicated),2738,Africa,namebases-africa.js,12,small,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,lnrt,1000-9999,40
 Beba (dedicated),2743,Africa,namebases-africa.js,13,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
-Dani Papuan,51,Asia,namebases-asia.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Koi,1495,Asia,namebases-asia.js,19,small,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Chinese,1000,Asia,namebases-asia.js,269,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1000-9999,100
 Japanese,11,Asia,namebases-asia.js,232,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1-999,100
 Mesopotamian,23,Asia,namebases-asia.js,189,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,srpl,1-999,100
@@ -553,7 +553,7 @@ Mongolian,30,Asia,namebases-asia.js,205,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALS
 Somontanés,42,Asia,namebases-asia.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-ES,1-999,100
 Ahirani,43,Asia,namebases-asia.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1-999,100
 Ai Cham,44,Asia,namebases-asia.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1-999,100
-Dani Papuan,6981,Asia,namebases-asia.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,nic-GH,1000-9999,100
+Dani Papuan,6981,Asia,namebases-asia.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Eastern Indonesian,52,Asia,namebases-asia.js,32,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Gondi,4797,Asia,namebases-asia.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Kui-Kuvi Dravidian,7023,Asia,namebases-asia.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -903,7 +903,7 @@ Tay Boi Pidgin French,1486,Asia,namebases-asia.js,8,small,FALSE,FALSE,FALSE,FALS
 Central Tibeto Burman,1489,Asia,namebases-asia.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Falam,1493,Asia,namebases-asia.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Khaling,1494,Asia,namebases-asia.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Koi,1495,Asia,namebases-asia.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Koi,1495,Asia,namebases-asia.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
 Tilung,1496,Asia,namebases-asia.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Kachi Koli,1505,Asia,namebases-asia.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Gujari,1506,Asia,namebases-asia.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -1346,7 +1346,7 @@ Finnmark Sami,226,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FA
 Inari Sami,227,Europe,namebases-europe.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Kainuu Sami,228,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Kemi Sami,229,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Kildin Sami,230,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Kildin Sami,230,Europe,namebases-europe.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Lule Sami,231,Europe,namebases-europe.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Catalan,232,Europe,namebases-europe.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cantabrian,233,Europe,namebases-europe.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1752,17 +1752,17 @@ Huave,82,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,FALSE
 Shipibo-Conibo Amazonian,84,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,nic-GH,1-999,100
 Warao Delta,85,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Yanomami Amazonian,86,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Kallawaya,276,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Chiquitano,277,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Kallawaya,276,SouthAmerica,namebases-southAmerica.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Chiquitano,277,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Bolivian Spanish,383,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Brazilian Portuguese,386,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Chilean Spanish,395,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Chilote,396,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Chilean Spanish,395,SouthAmerica,namebases-southAmerica.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Chilote,396,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Colombian Spanish,398,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
 Mineiro,490,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,pt-BR,1-999,100
 Chuj,510,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,may-GT,1-999,100
 Ch'orti',511,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,may-GT,1-999,100
-Paraguayan Spanish,526,SouthAmerica,namebases-southAmerica.js,13,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-PY,1-999,100
+Paraguayan Spanish,526,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-PY,1-999,100
 Peruvian Spanish,530,SouthAmerica,namebases-southAmerica.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-PE,1-999,100
 Rioplatense Spanish,596,SouthAmerica,namebases-southAmerica.js,5,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-AR,1-999,100
 Uruguayan Portuguese,652,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pt-UY,1-999,100
@@ -1813,9 +1813,9 @@ Koreguaje,1218,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE
 Tukano,1219,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Wanano,1220,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Tatuyo,1221,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Siriano,1222,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Siona,1223,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Rama,1229,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Siriano,1222,SouthAmerica,namebases-southAmerica.js,31,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Siona,1223,SouthAmerica,namebases-southAmerica.js,25,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Rama,1229,SouthAmerica,namebases-southAmerica.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Kiowa,1262,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Tewa,1263,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Chiquitano,1281,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,nic-GH,1000-9999,100
@@ -1939,34 +1939,33 @@ Tlingit,2611,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,F
 Haida,2612,SouthAmerica,namebases-southAmerica.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
 Sranan,2654,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Arawak,2655,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
-Australian Aboriginal,33,Oceania,namebases-oceania.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pam-AU,1-999,100
-Papuan,45,Oceania,namebases-oceania.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Engan Papuan,50,Oceania,namebases-oceania.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Dani Papuan,51,Oceania,namebases-oceania.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
+Australian Aboriginal,33,Oceania,namebases-oceania.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pam-AU,1-999,100
+Engan Papuan,50,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Dani Papuan,51,Oceania,namebases-oceania.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,nic-GH,1-999,100
 Melanesian Vanuatu,53,Oceania,namebases-oceania.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Micronesian,54,Oceania,namebases-oceania.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Micronesian,54,Oceania,namebases-oceania.js,31,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
 Central Pacific,55,Oceania,namebases-oceania.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 New Caledonia,56,Oceania,namebases-oceania.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Tokelauan,79,Oceania,namebases-oceania.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Nauruan,80,Oceania,namebases-oceania.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Tuvaluan,83,Oceania,namebases-oceania.js,17,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Lampung,135,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
-Bima,136,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Basap,138,Oceania,namebases-oceania.js,13,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Tokelauan,79,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Nauruan,80,Oceania,namebases-oceania.js,27,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
+Tuvaluan,83,Oceania,namebases-oceania.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Lampung,135,Oceania,namebases-oceania.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
+Bima,136,Oceania,namebases-oceania.js,37,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Basap,138,Oceania,namebases-oceania.js,25,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
 Selaru,139,Oceania,namebases-oceania.js,50,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Land Dayak,140,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Flores-Lembata,141,Oceania,namebases-oceania.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
-Kei-Tanimbar,142,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Timoric,143,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
-Sumba-Flores,144,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Tomini-Tolitoli,145,Oceania,namebases-oceania.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Muna-Buton,146,Oceania,namebases-oceania.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Minahasan,147,Oceania,namebases-oceania.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
+Land Dayak,140,Oceania,namebases-oceania.js,32,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Flores-Lembata,141,Oceania,namebases-oceania.js,31,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,80
+Kei-Tanimbar,142,Oceania,namebases-oceania.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Timoric,143,Oceania,namebases-oceania.js,29,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,80
+Sumba-Flores,144,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Tomini-Tolitoli,145,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Muna-Buton,146,Oceania,namebases-oceania.js,30,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
+Minahasan,147,Oceania,namebases-oceania.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
 Sangiric,148,Oceania,namebases-oceania.js,50,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
-Kayan-Murik,149,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Melanau-Kajang,150,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Sabahan,152,Oceania,namebases-oceania.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-North Borneo,153,Oceania,namebases-oceania.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Kayan-Murik,149,Oceania,namebases-oceania.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Melanau-Kajang,150,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Sabahan,152,Oceania,namebases-oceania.js,24,small,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
+North Borneo,153,Oceania,namebases-oceania.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Greater North Borneo,154,Oceania,namebases-oceania.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 South Sulawesi,156,Oceania,namebases-oceania.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Northern South Sulawesi,157,Oceania,namebases-oceania.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -2219,7 +2218,7 @@ Light Warlpiri,2424,Oceania,namebases-oceania.js,6,small,FALSE,FALSE,FALSE,FALSE
 Maori,2587,Oceania,namebases-oceania.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Samoan,2588,Oceania,namebases-oceania.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Fijian,2589,Oceania,namebases-oceania.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
-Papuan,2671,Oceania,namebases-oceania.js,36,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
+Papuan,2671,Oceania,namebases-oceania.js,36,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Tokelauan,2684,Oceania,namebases-oceania.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
 Nauruan,2685,Oceania,namebases-oceania.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
 Awa (dedicated),2734,Oceania,namebases-oceania.js,12,small,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,40

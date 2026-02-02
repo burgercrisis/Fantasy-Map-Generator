@@ -808,7 +808,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "El Fasher,Nyala,Zalingei,Jebel Marra,Geneina,Kas,Kabkabiya,Kutum,Mellit,Ed Daein,Gereida,Bulbul"
+    "b": "El Fasher,Nyala,Zalingei,Jebel Marra,Geneina,Kas,Kabkabiya,Kutum,Mellit,Ed Daein,Gereida,Bulbul,Shearia,Kabo,Kajj,Umm Kadada,Sofaya,Tokar,Tandalt,Tahoua,Abéché,Moundou"
   },
 {
     "name": "Gikuyu",

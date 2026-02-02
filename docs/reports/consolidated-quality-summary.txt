@@ -6,17 +6,17 @@ BY CONTINENT:
   Europe: 415
   NorthAmerica: 25
   SouthAmerica: 194
-  Oceania: 292
+  Oceania: 291
   Unknown: 1059
 
 BY BASE SIZE CATEGORY:
-  large: 55
-  normal: 124
-  small: 3112
+  small: 3089
+  large: 54
+  normal: 147
 
 BY QUALITY SCORE:
-  Excellent (95+): 3158
-  Good (80-94): 8
+  Excellent (95+): 3146
+  Good (80-94): 19
   Fair (60-79): 79
   Poor (40-59): 46
   Critical (<40): 0
@@ -25,4 +25,4 @@ CRITICAL ISSUES:
   Placeholders: 46
   Primus entries: 0
   Suspicious names: 2
-  Index/name collisions: 897
+  Index/name collisions: 896

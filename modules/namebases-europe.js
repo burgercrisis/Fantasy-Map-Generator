@@ -377,7 +377,7 @@ window.EuropeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lovozero,Revda,Umba,Kirovsk,Apatity,Monchegorsk,Olenegorsk,Kandalaksha,Murmansk,Polyarny,Snezhnogorsk,Zaozersk,Polyarnye Zori,Varzuga,Sosnovka,Ponoy"
+    "b": "Lovozero,Revda,Umba,Kirovsk,Apatity,Monchegorsk,Olenegorsk,Kandalaksha,Murmansk,Polyarny,Snezhnogorsk,Zaozersk,Polyarnye Zori,Varzuga,Sosnovka,Ponoy,Teriberka,Lavanga,Kola,Shonguy,Gremikha,Svyatoy Nos,Ura-Guba,Zimnegorsk,Kildin,Vedanga"
   },
 {
     "name": "Lule Sami",
