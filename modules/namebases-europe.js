@@ -556,7 +556,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca,Assoro,Belice,Gagliano,Santa Caterina Valfrida,Valguarnera,Calascibetta"
+    "b": "Enna,Caltanissetta,Piazza Armerina,Leonforte,Nicosia,Agira,Aidone,Valguarnera Caropepe,San Cataldo,Sutera,Mussomeli,Barrafranca,Assoro,Belice,Gagliano,Santa Caterina Villarmosa,Valguarnera,Calascibetta,Raddusa,Campofranco,Delia,Marianopoli,Serradifalco,Vallelunga Pratameno,Montedoro,Villalba,Santo Stefano Quisquina,Blufi"
   },
 {
     "name": "Central-Southern Calabrian",

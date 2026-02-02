@@ -340,7 +340,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cali,Buga,Buenaventura,Palmira,TuluÃ¡,JamundÃ­,Cartago,Guadalajara,Pasto,Ipiales"
+    "b": "Cali,Buga,Buenaventura,Palmira,Tuluá,Jamundí,Cartago,Guadalajara de Buga,Pasto,Ipiales,Popayán,Santander de Quilichao,Caloto,Padilla,Florida,Pradera,Buenos Aires,Timbaú,Tuchín,Yumbo,Jamundí,La Vega,Sibundoy,Mocoa,Puerto Guzmán"
   },
 {
     "name": "Nukak",
