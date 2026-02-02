@@ -484,7 +484,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbiâ”œÂ¿re,La Hougue Bie,Grâ”œÂ¿ve de Lecq"
+    "b": "St Helier,St Brelade,St Ouen,Gorey,St Clement,Trinity,St John,St Lawrence,St Martin,La Corbière,La Hougue Bie,Grève de Lecq,St Saviour,St Peter,St Mary,St John,Les Creux,Mont Orgueil,Fort Regent,Sarahond,Portinfer,La Moye,St Aubin,First Tower,West Park,Red Houses,Belle Vue,L'Hermitage,Roche Noire,Giffard,St Denis"
   },
 {
     "name": "Jersey Legal French",

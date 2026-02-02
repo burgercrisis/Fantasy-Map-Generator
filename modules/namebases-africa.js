@@ -277,7 +277,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Garoua,Maroua,Ngaoundere,Bertoua,Edea"
+    "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Garoua,Maroua,Ngaoundere,Bertoua,Edea,Tiko,Mokolo,Edéa,Kribi,Mbalmayo,Meiganga,Mokolo,Dschang,Mbouda,Fontem,Bangangté,Foumban"
   },
 {
     "name": "Cameroonian Pidgin English",
