@@ -322,7 +322,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Monrovia,Gbarnga,Harper,Buchanan,Kakata,Zwedru,Voinjama,Tappita,Sanniquellie,Ganta,Greenville"
+    "b": "Monrovia,Gbarnga,Harper,Buchanan,Kakata,Zwedru,Voinjama,Tappita,Sanniquellie,Ganta,Greenville,Bopolu,Foya,Kolahun,Kle,Menikoma,Massabolahun,Belle,Yekepa,Robertport,Tubmanburg"
   },
 {
     "name": "African Romance",

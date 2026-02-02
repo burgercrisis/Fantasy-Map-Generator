@@ -367,7 +367,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mamore,Itenez,Beni,Apere,Yacuma,Secure,SanLorenzoMoxos,SanFranciscoMoxos,SanIgnacioMoxos,LlanosMoxos,IsiboroSecure,Trinidad"
+    "b": "Mamore,Itenez,Beni,Apere,Yacuma,Secure,San Lorenzo Moxos,San Francisco Moxos,San Ignacio Moxos,Llanos Moxos,Isiboro Secure,Trinidad,Reyes,Rurrenabaque,San Borja,Santa Rosa,Yacumo,Exaltación,San Joaquín,Baures,Huacaraje,Magdalena,Porvenir,Puerto Siles,El Carmen"
   },
 {
     "name": "Reyesano (Maropa)",

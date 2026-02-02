@@ -655,7 +655,7 @@
     "max": 11,
     "d": "ro-FR",
     "m": 0,
-    "b": "Troyes,ChÃ¢lons-en-Champagne,Reims,Ã‰pernay,SÃ©zanne,ChÃ¢lons-sur-Marne,Vitry-le-FranÃ§ois,Saint-Dizier,ChÃ¢teau-Thierry"
+    "b": "Troyes,Châlons-en-Champagne,Reims,Épernay,Sézanne,Châlons-sur-Marne,Vitry-le-François,Saint-Dizier,Château-Thierry,Bar-sur-Aube,Nogent-sur-Seine,Romilly-sur-Seine,Sainte-Savine,Saint-André-les-Vergers,La Chapelle-Saint-Luc,Saint-Julien-les-Villas,Brienne-le-Château,Lunéville,Bar-sur-Seine,Les Riceys,Ervy-le-Châtel,Chaource,Mussy-sur-Seine"
   },
 {
     "name": "Poitevin",
