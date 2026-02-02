@@ -170,7 +170,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "es-PE",
     "m": 0,
-    "b": "Lima,Arequipa,Trujillo,Chiclayo,Piura,Iquitos,Cusco,Huancayo,Chimbote,Pucallpa,Tacna,Ica,Juliaca,Ayacucho,Cajamarca,Puno"
+    "b": "Lima,Arequipa,Trujillo,Chiclayo,Piura,Iquitos,Cusco,Huancayo,Chimbote,Pucallpa,Tacna,Ica,Juliaca,Ayacucho,Cajamarca,Puno,Chachapoyas,Huaraz,Tarapoto,Cajabamba,Celendín,Moquegua,Tumbes,Pisco,Huancavelica,Abancay,Tarma"
   },
 {
     "name": "Rioplatense Spanish",
@@ -179,7 +179,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "es-AR",
     "m": 0,
-    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata"
+    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata,Córdoba,Paraná,Santa Fe,Resistencia,Corrientes,Posadas,San Juan,Mendoza,Neuquén,Trelew,Río Gallegos,Ushuaia,San Miguel de Tucumán,San Fernando del Valle de Catamarca,San Salvador de Jujuy,La Rioja,Santa Rosa,Viedma,Rawson"
   },
 {
     "name": "Uruguayan Portuguese",

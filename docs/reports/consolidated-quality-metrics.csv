@@ -1305,7 +1305,6 @@ Réunion Creole,20209,Asia,namebases-asia.js,24,small,FALSE,FALSE,FALSE,FALSE,FA
 Caribbean English Creole,20214,Asia,namebases-asia.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Pacific English Creole,20215,Asia,namebases-asia.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Malay-based Creole,20216,Asia,namebases-asia.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
-German,0,Europe,namebases-europe.js,265,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lt,1-999,100
 English,1,Europe,namebases-europe.js,237,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1-999,100
 French,2,Europe,namebases-europe.js,276,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nlrs,1-999,100
 Italian,3,Europe,namebases-europe.js,230,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,cltr,1-999,100
@@ -1763,8 +1762,8 @@ Mineiro,490,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FA
 Chuj,510,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,may-GT,1-999,100
 Ch'orti',511,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,may-GT,1-999,100
 Paraguayan Spanish,526,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-PY,1-999,100
-Peruvian Spanish,530,SouthAmerica,namebases-southAmerica.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-PE,1-999,100
-Rioplatense Spanish,596,SouthAmerica,namebases-southAmerica.js,5,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-AR,1-999,100
+Peruvian Spanish,530,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-PE,1-999,100
+Rioplatense Spanish,596,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-AR,1-999,100
 Uruguayan Portuguese,652,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pt-UY,1-999,100
 Uruguayan Spanish,653,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-UY,1-999,100
 Venezuelan Spanish,657,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-VE,1-999,100
