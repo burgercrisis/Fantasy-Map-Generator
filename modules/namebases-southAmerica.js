@@ -620,7 +620,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Siriano,Siena,Poggibonsi,San Gimignano,Colle Val d'Elsa,Montalcinato,Radicofani,Buonconvento,Firenze,Prato,Empoli"
+    "b": "Mitú,Carurú,Inírida,Puerto Colombia,Araracuara,La Chorrera,Puerto Santander,Cumarú,Tarapacá,Cahuanano,La Urbana,Belén,El Encanto,Pto蓮,Ánime,Cabo Triunfo,Bocachica,Capiá,Charara,Manejo,Maper,Marital,Mongora,Morichal,Puerto Alvira,Pto蓮,Santa Rosa,Santos,Solano,Trompeteros,Varz das"
   },
 {
     "name": "Siona",
