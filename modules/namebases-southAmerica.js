@@ -629,7 +629,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Siona,San Sepolcro,Massa Marittima,Carbonia,Iglesias,Oristano,Terranu,Villacidro,Folignano,Arborea,Livorno,Pistoia"
+    "b": "Puerto Asís,Mocoa,Villagarzón,Orito,San Francisco,Puerto Leguízamo,Puerto Caicedo,La Hormonga,La Dorada,Tambo,San Miguel,La Nueva,El Encanto,La Valdivia,Cundinamarca,Pto蓮,Remedios,La Merced,Leticia,La Chorrera,El Retorno,San José del Fragua,Pto蓮,Albania,Pto蓮"
   },
 {
     "name": "Rama",
@@ -638,7 +638,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Rama,Gaozhou,Liuzhou,Ziyang,Nanchong,Chengdu,Dazhou,Neijiang,Bazhong,Suining,Leshan"
+    "b": "Rama Cay,Bluefields,Corn Island,Big Corn Island,Little Corn Island,Pearl Lagoon,Waunta,Kukra River,Punta Gorda,Sandy Bay,Orinoco,Wawa,Mohkin Birn,Awasting,Belize,Monkey Point,South Monkey Point,Caña de Castillo,Coffee Grove,El Rama,El Bluff,La Cruz,Boca de Sábalo"
   },
 {
     "name": "Kiowa",
