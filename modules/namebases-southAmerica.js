@@ -107,7 +107,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Reus,Manresa,Granollers,Vic"
+    "b": "Santiago,Valparaíso,Concepción,La Serena,Antofagasta,Temuco,Rancagua,Chillán, Punta Arenas,Iquique,Osorno, Puerto Montt,Coquimbo,San Bernardo,El Santa,Viña del Mar,Talca,Arica,Calama,Copiapo,Los Ángeles,Linares,Quillota,San Fernando,Puerto Varas,Castro,Dalcahue,Quellón"
   },
 {
     "name": "Chilote",
