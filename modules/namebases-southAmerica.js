@@ -116,7 +116,7 @@ window.SouthAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "LÃ©on,Valladolid,Zamora,Burgos,Palencia,Oviedo,GijÃ³n,Santander,Madrid"
+    "b": "Castro,Dalcahue,Quellón,Ancud,Puerto Varas,Puerto Montt,Osorno,Frutillar,Llanquihue,Cochamó,Chaitén,Futaleufú,Palena,Chonchi,Queilén,Quemchi,Quinchao,Dalcache,Chaicura,Mecura,Pumalín,Ayacara,Dichato,Tirúa"
   },
 {
     "name": "Colombian Spanish",
