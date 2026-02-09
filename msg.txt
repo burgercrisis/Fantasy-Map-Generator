@@ -1,0 +1,10 @@
+Fix Siriano: Italy â†’ Colombian Amazon
+
+- Replaced Siena, Firenze with MitÃº, CarurÃº, InÃ­rida, etc.
+- All 25 cities authentic VaupÃ©s Department, ColombiaFix 3 South American geographic mismatches:
+
+1. Chilean Spanish: Spain ? Chile cities (Barcelona?Santiago, Valparaíso, Concepción)
+2. Chilote: Spain ? Chilote/Patagonia (León?Castro, Dalcahue, Quellón)  
+3. Siriano: Italy ? Colombian Amazon (Siena?Mitú, Carurú, Inírida)
+4. Siona: Italy ? Colombian Putumayo (San Sepolcro?Puerto Asís, Mocoa)
+5. Rama: China ? Nicaraguan Caribbean (Gaozhou?Rama Cay, Bluefields)
