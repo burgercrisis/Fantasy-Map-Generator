@@ -16,8 +16,8 @@ BY BASE SIZE CATEGORY:
 
 BY QUALITY SCORE:
   Excellent (95+): 3192
-  Good (80-94): 83
-  Fair (60-79): 25
+  Good (80-94): 85
+  Fair (60-79): 23
   Poor (40-59): 0
   Critical (<40): 0
 

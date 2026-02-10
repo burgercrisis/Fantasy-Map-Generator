@@ -1699,16 +1699,16 @@ Kashubian (dedicated),2717,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE
 Silesian (dedicated),2718,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Upper Sorbian (dedicated),2719,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Bosnian (dedicated),2720,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
-Croatian (dedicated),2721,Europe,namebases-europe.js,79,large,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,60
+Croatian (dedicated),2721,Europe,namebases-europe.js,86,large,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Montenegrin (dedicated),2722,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
-Serbian (dedicated),2723,Europe,namebases-europe.js,64,large,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,60
+Serbian (dedicated),2723,Europe,namebases-europe.js,71,large,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,60
 Bulgarian (dedicated),2724,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Macedonian (dedicated),2725,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Slovene (dedicated),2726,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 German (dedicated),2727,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Dutch (dedicated),2728,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Yiddish (dedicated),2729,Europe,namebases-europe.js,34,normal,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
-Frisian (dedicated),2730,Europe,namebases-europe.js,64,large,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,60
+Frisian (dedicated),2730,Europe,namebases-europe.js,73,large,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Faroese (dedicated),2731,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Swiss German (dedicated),2732,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Scots (dedicated),2733,Europe,namebases-europe.js,15,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80

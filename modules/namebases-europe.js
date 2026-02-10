@@ -3606,7 +3606,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Zagreb,Split,Rijeka,Osijek,Zadar,Pula,Dubrovnik,Šibenik,Vukovar,Vinkovci,Karlovac,Velika Gorica,Sisak,Varazdin,Slavonski Brod,Pozega,Đakovo,Kastav,Gospić,Knin,Sinj,Makarska,Metković,Opuzen,Imotski,Omiš,Dugi Rat,Solin,Kaštela,Trogir,Biograd na Moru,Vir,Novalja,Malinska,Krk,Rab,Senj,Korenica,Plitvice,Ogulin,Slunj,Kraljevica,Bakar,Opatija,Labin,Rovinj,Poreč,Pazin,Vrbovec,Čakovec,Križevci,Koprivnica,Bjelovar,Virovitica,Našice,Orahovica,Ilok,Đurđevac,Pakrac,Daruvar,Gospić,Benkovac,Obrovac,Gračac,Krapina,Zabok,Zlatar,Bedekovčina,Oroslavje,Marija Bistrica,Pregrada,Krapina,Kumrovec,Donja Stubica,Klanjec,Tuhelj,Prelog,Čakovec,Sveti Juraj"
+    "b": "Zagreb,Split,Rijeka,Osijek,Zadar,Pula,Dubrovnik,Šibenik,Vukovar,Vinkovci,Karlovac,Velika Gorica,Sisak,Varazdin,Slavonski Brod,Pozega,Đakovo,Kastav,Gospić,Knin,Sinj,Makarska,Metković,Opuzen,Imotski,Omiš,Dugi Rat,Solin,Kaštela,Trogir,Biograd na Moru,Vir,Novalja,Malinska,Krk,Rab,Senj,Korenica,Plitvice,Ogulin,Slunj,Kraljevica,Bakar,Opatija,Labin,Rovinj,Poreč,Pazin,Vrbovec,Čakovec,Križevci,Koprivnica,Bjelovar,Virovitica,Našice,Orahovica,Ilok,Đurđevac,Pakrac,Daruvar,Benkovac,Obrovac,Gračac,Krapina,Zabok,Zlatar,Bedekovčina,Oroslavje,Marija Bistrica,Pregrada,Kumrovec,Donja Stubica,Klanjec,Tuhelj,Prelog,Sveti Juraj,Nin,Biograd,Bibinje,Primošten,Rogoznica,Hvar,Brač,Korčula,Vis,Lastovo"
   },
   {
     "name": "Montenegrin (dedicated)",
@@ -3624,7 +3624,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Vranje,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Negotinska Ražina,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Kosovo Polje,Peć,Priština,Prizren,Uroševac,Gnjilane,Vranje,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Lapljin Gaj,Kukurovci,Medveda"
+    "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Negotinska Ražina,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Priština,Prizren,Uroševac,Gnjilane,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Lapljin Gaj,Kukurovci,Medveda,Ćuprija,Paraćin,Prokuplje,Bojnik,Lebane,Doljevac,Gadžin Han,Palilula,Mediana,Pantelej,Crveni Krst"
   },
   {
     "name": "Bulgarian (dedicated)",
@@ -3687,7 +3687,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Leeuwarden,Groningen,Drachten,Sneek,Harlingen,Dokkum,Stavoren,Balk,Woudsend,Lemmer,Franeker,Makkum,Workum,IJlst,Heerenveen,Appelscha,Oosterwolde,Burgum,Dantumadeel,Marssum,Menaam,Bolsward,Westerkwartier,Goutum,Gytsjerk,Koarnjum,Britswert,Wiuwert,Wommels,Idaerd,Reduzum,Earnewâld,Warstiens,Wâlterswâlde,Skingen,Dokkum,Westerkwartier,Noordwolde,L围观dert,Veenhoop,Smalle Ee,Lyksewierrum,Sibrandabuorren,Reads,Allingawier,Harum,Idaard,Rauwerd,Boelenslaan,De Falom,Tzum,Wijnaldum,Pietersbierum,Kollum,Kollumerzwaag,Munnekezijl,Visvliet,Grijpskerk,Oldehove,Aa en Hunze,Eelde,Harens,Everdingen,Westerkwartier"
+    "b": "Leeuwarden,Groningen,Drachten,Sneek,Harlingen,Dokkum,Stavoren,Balk,Woudsend,Lemmer,Franeker,Makkum,Workum,IJlst,Heerenveen,Appelscha,Oosterwolde,Burgum,Dantumadeel,Marssum,Menaam,Bolsward,Westerkwartier,Goutum,Gytsjerk,Koarnjum,Britswert,Wiuwert,Wommels,Idaerd,Reduzum,Earnewald,Warstiens,Walterswalde,Skingen,Noordwolde,Leeuwert,Veenhoop,Smalle Ee,Lyksewierrum,Sibrandabuorren,Reads,Allingawier,Harum,Idaard,Rauwerd,Boelenslaan,De Falom,Tzum,Wijnaldum,Pietersbierum,Kollum,Kollumerzwaag,Munnekezijl,Visvliet,Grijpskerk,Oldehove,Eelde,Harens,Aduard,Sauwerd,Zuidhorn,Grootegast,Leek,Peize,Roden,Norg,Anloo,Schinveld,Winsum,Uithuizen,Delfzijl,Appingedam"
   },
   {
     "name": "Faroese (dedicated)",
