@@ -6,7 +6,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Vilnius,Kaunas,Klaipėda,Šiauliai,Panevėžys,Alytus,Marijampolė,Utena,Tauragė,Telsiai,Anyksciai,Birzai,Druskininkai,Ignalina,Kėdainiai,Kretinga,Neringa,Palanga,Rokiskis,Šilutė,Trakai,Varėna,Zarasai,Jonava,Joniškis,Jurbarkas,Kaišiadorys,Kelmė,Kazlų Rūda,Lazdijai,Moletai,Naujoji Akmenė,Nemenčinė,Obeliai,Pakruojis,Pasvalys,Priekulė,Radviliškis,Raseiniai,Rietavas,Salantai,Seda,Šalčininkai,Švenčionys,Ukmergė,Viekšniai,Vievis,Žarasai,Akmenė,Birštonas,Kupiškis,Marijampolė,Plungė,Prienai,Rokiškis,Šakiai,Šiauliai,Šilalė,Širvintos,Skuodas,Švenčionys,Tauragė,Telšiai,Trakai,Ukmergė,Utena,Varėna,Vilkaviškis,Zarasai,Anykščiai,Ariogala,Biržai,Druskininkai,Eišiškės,Kelmė,Kretinga,Kuršėnai,Kybartai,Lentvaris,Molėtai,Neringa,Palanga,Ramygala,Raseiniai,Rietavas,Švenčionys,Tauragė,Telšiai,Trakai,Utena,Varėna,Vievis,Zarasai,Elektrėnai,Grigiškės,Jurbarkas,Karmėlava,Klaipėda,Kretinga,Kuršėnai,Molėtai,Panemunė,Pirčiupiai,Vidiškiai,Vilkaviškis,Juodkrantė,Nida,Pervalka,Uostadvaris,Sirvintos,Ginučiai"
+    "b": "Vilnius,Kaunas,Klaipėda,Šiauliai,Panevėžys,Alytus,Marijampolė,Utena,Tauragė,Telsiai,Anyksciai,Birzai,Druskininkai,Ignalina,Kėdainiai,Kretinga,Neringa,Palanga,Rokiskis,Šilutė,Trakai,Varėna,Zarasai,Jonava,Joniškis,Jurbarkas,Kaišiadorys,Kelmė,Kazlų Rūda,Lazdijai,Moletai,Naujoji Akmenė,Nemenčinė,Obeliai,Pakruojis,Pasvalys,Priekulė,Radviliškis,Raseiniai,Rietavas,Salantai,Seda,Šalčininkai,Švenčionys,Ukmergė,Viekšniai,Vievis,Žarasai,Akmenė,Birštonas,Kupiškis,Plungė,Prienai,Rokiškis,Šakiai,Šilalė,Širvintos,Skuodas,Telšiai,Vilkaviškis,Anykščiai,Ariogala,Biržai,Eišiškės,Kuršėnai,Kybartai,Lentvaris,Molėtai,Ramygala,Elektrėnai,Grigiškės,Karmėlava,Panemunė,Pirčiupiai,Vidiškiai,Juodkrantė,Nida,Pervalka,Uostadvaris,Sirvintos,Ginučiai,Visaginas,Mažeikiai,Kalvarija"
   },
   {
     "name": "English",
@@ -421,15 +421,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Vigo,A Coruâ”œâ–’a,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcâ”œÂ¡a de Arousa,Redondela,Marâ”œÂ¡n,Ribeira,Carballo,Castro,Lecce,Brindisi,Taranto,Bari,Foggia,Andria,Trani,Barletta,Molfetta,Bitonto,Altamura"
-  },
-  {
-    "name": "Nǁng",
-    "i": 256,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bayeux,Domfront,Argentan,Lisieux,Falaise,Barfleur,Villedieu-les-Poâ”œÂ¬les,La Haye-du-Puits,Pont-l'â”œÃ«vâ”œÂ¬que,Beuvron-en-Auge,Carentan,Avranches"
   },
   {
     "name": "Norman",
@@ -1053,13 +1044,13 @@
     "b": "Sevilla,CÃ³rdoba,MÃ¡laga,Granada,CÃ¡diz,Huelva,JaÃ©n,AlmerÃ­a,Zaragoza"
   },
   {
-    "name": "Ansâ”œâ”‚",
+    "name": "Ansó",
     "i": 371,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "ro-ES",
     "m": 0,
-    "b": "Angers,Saumur,Cholet,Nantes,Le Mans,Tours,Niort,Chinon"
+    "b": "Ansó,Fago,Hecho,Aragüés del Puerto,Aísa,Candanchú,Esposa,Sinués,Borau,Canfranc,Canal de Berdún,Castiello de Jaca,Jasa,Villanúa,Jaca,Artieda,Bailo,Mianos,Sigüés,Salvatierra de Esca,Santa Cilia,Santa Cruz de la Serós,Puente la Reina de Jaca,Biescas,Sabiñanigo,Ainsa,Boltaña,Torla,Broto,Benasque,Biescas,Jasa,Loarre,Almudevar,Benabarre,Graus,Tamarite"
   },
   {
     "name": "Aretino-Chianaiolo",
@@ -1869,7 +1860,7 @@
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Maramureș,TÃ¢rgu Mure,Reghin,Topli,Sighioara,SÃ¢ngeru,TÃ¢rnÄƒveni,Bistri"
+    "b": "Baia Mare,Sighetu Marmației,Borșa,Vișeu de Sus,Târgu Lăpuș,Seini,Șomcuta Mare,Ulmeni,Săliștea de Sus,Tăuții-Măgherăuș,Cavnic,Baia Sprie,Dragomirești,Bârsana,Săpânța,Desești,Budești,Ieud,Botiza,Rozavlea,Bogdan Vodă,Poienile Izei,Vadu Izei,Ocna Șugatag,Oncești,Satulung,Șișești,Fărcașa,Moisei,Leordina,Petrova,Ruscova,Repedea,Săcel,Strâmtura,Vișeu de Jos,Ardusat,Băița de sub Codru,Băiuț"
   },
   {
     "name": "Menorcan",
@@ -2428,15 +2419,6 @@
     "d": "urj-RU",
     "m": 0,
     "b": "Kondo-Vozhe,Shaitanka,Pelim,Lozva,Sosva,Ivdel,Gari,Verkhoturye,Tavda,Turinsk"
-  },
-  {
-    "name": "Nǁng",
-    "i": 563,
-    "min": 4,
-    "max": 11,
-    "d": "urj-HU",
-    "m": 0,
-    "b": "Miskolc,NyÃ­regyhÃ¡za,Debrecen,Eger,SÃ¡rospatak,Tokaj,Szerencs,Kazincbarcika,TiszaÃºjvÃ¡ros,MezÅ‘kÃ¶vesd"
   },
   {
     "name": "Transylvanian Plain",
@@ -3453,7 +3435,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Älvdalen,Idre,Särna,Västermyckeläng,Storvätteshågna,Fulufjället,Töfsingdalen,Rättvik,Brunnsberg,Evertsberg,Klitten,Åsen,Väsa,Västermyckeläng"
+    "b": "Älvdalen,Idre,Särna,Västermyckeläng,Storvätteshågna,Fulufjället,Töfsingdalen,Rättvik,Brunnsberg,Evertsberg,Klitten,Åsen,Väsa,Mora,Leksand,Borlänge,Falun,Västerås,Avesta,Ludvika,Ängelholm,Helsingborg,Landskrona,Malmö,Lund,Halmstad,Falkenberg,Varberg,Kungsbacka,Höör,Eslöv,Ystad,Trelleborg,Kristianstad,Hässleholm,Osby,Olofström,Karlskrona,Ronneby,Karlshamn,Sölvesborg,Ljungby,Ljungbyhed"
   },
   {
     "name": "Swedish (dedicated)",
@@ -3480,7 +3462,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Vilnius,Kaunas,Klaipėda,Šiauliai,Panevėžys,Alytus,Marijampolė,Utena,Telšiai,Tauragė,Utena,Visaginas,Kretinga,Plungė,Radviliškis,Šilutė,Palanga,Druskininkai,Birštonas,Neringa"
+    "b": "Vilnius,Kaunas,Klaipėda,Šiauliai,Panevėžys,Alytus,Marijampolė,Utena,Telšiai,Tauragė,Visaginas,Kretinga,Plungė,Radviliškis,Šilutė,Palanga,Druskininkai,Birštonas,Neringa,Jonava,Kėdainiai,Kazlų Rūda,Šakiai,Jurbarkas,Šilalė,Skuodas,Mažeikiai,Rokiškis,Biržai,Kelmė,Akmenė,Lentvaris,Grigiškės,Elektrėnai,Kalvarija,Vilkaviškis"
   },
   {
     "name": "Breton (dedicated)",
@@ -3489,7 +3471,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Rennes,Brest,Quimper,Vannes,Saint-Malo,Lannion,Dinan,Lorient,Saint-Nazaire,Auray,Carnac,Carhaix,Guingamp,Pontivy,Morlaix,Landivisiau,Douarnenez,Concarneau,Pleyben,Locronan,Callac,Gourin,Hennebont,Lanester,Pont-Scorff,Rosporden,Bannalec,Scaër,Le Faouët,Rostrenen,Châteaulin,Plougonven,Plougrescu,Bégard,Plouaret,Plestin-Grèves,Tregastel,Ploumanac'h,Perros-Guirec,Tréguier,Saint-Pol-de-Léon,Roscoff,Saint-Méen,Loudéac,Uzel,Corseul,Matignon,Plancoët,Bécherel,Brocéliande,Lamballe,Merdrignac,Jugon-les-Lacs,Dolo,Moncontour,Guingamp,Kérentreven,Languidic,Plouay,Cleguerec,Gouarec,Mûr-de-Bretagne,Caran-Crozon,Kérlouan,Plouzane,Brélès,Lanneuffret,Ploudalmézeau,Lannilis,Plabennec,Landéda,Ouessant,Molène,Séché,Mézières,Kerfaven,Kergloff,Berrien,Saint-Rivoal,Brennilis,Saint-Cadou,Saint-Herbot,Locmaria-Berrien,Pleyben,Cast,Lennon,Gouézec,Ploéven,Plomodiern,Treffiagat,Guiler-sur-Goyen,Mahalon,Cléden-Cap-Sizun,Primelin,Audierne,Esquibien,Beuzec-Cap-Sizun,Pont-Croix,Plogoff,Camaret,Morgat,Crozon,Batz,Kérlouan,Brignogan,Plounéour-Trez,Lanneuffret,Guissény,Plouzane,Lannémuziau,Poulgoazec,Guidel,Caudan,Quéven,Kervénanlec,Riantec,Larmor-Plage,Ploemeur"
+    "b": "Rennes,Brest,Quimper,Vannes,Saint-Malo,Lannion,Dinan,Lorient,Saint-Nazaire,Auray,Carnac,Carhaix,Guingamp,Pontivy,Morlaix,Landivisiau,Douarnenez,Concarneau,Pleyben,Locronan,Callac,Gourin,Hennebont,Lanester,Pont-Scorff,Rosporden,Bannalec,Scaër,Le Faouët,Rostrenen,Châteaulin,Plougonven,Plougrescu,Bégard,Plouaret,Plestin-Grèves,Tregastel,Ploumanac'h,Perros-Guirec,Tréguier,Saint-Pol-de-Léon,Roscoff,Saint-Méen,Loudéac,Uzel,Corseul,Matignon,Plancoët,Bécherel,Brocéliande,Lamballe,Merdrignac,Jugon-les-Lacs,Dolo,Moncontour,Kérentreven,Languidic,Plouay,Cleguerec,Gouarec,Mûr-de-Bretagne,Caran-Crozon,Kérlouan,Plouzane,Brélès,Lanneuffret,Ploudalmézeau,Lannilis,Plabennec,Landéda,Ouessant,Molène,Séché,Mézières,Kerfaven,Kergloff,Berrien,Saint-Rivoal,Brennilis,Saint-Cadou,Saint-Herbot,Locmaria-Berrien,Cast,Lennon,Gouézec,Ploéven,Plomodiern,Treffiagat,Guiler-sur-Goyen,Mahalon,Cléden-Cap-Sizun,Primelin,Audierne,Esquibien,Beuzec-Cap-Sizun,Pont-Croix,Plogoff,Camaret,Morgat,Crozon,Batz,Brignogan,Plounéour-Trez,Guissény,Lannémuziau,Poulgoazec,Guidel,Caudan,Quéven,Kervénanlec,Riantec,Larmor-Plage,Ploemeur,Gommenec'h,Saint-Yvi,Plonéour-Lanvéziec,Plogonnec,Plonévez-Port-Blanc,Pleven,Plouzané,Ploudaniel,Plouédern,Ploujean,Kérilis"
   },
   {
     "name": "Cornish (dedicated)",
@@ -3498,7 +3480,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Truro,Penzance,Falmouth,St Ives,Newquay,Bodmin,Redruth,Camborne,St Austell,Bude,Liskeard,Fowey,Looe,Padstow,Tintagel,Helston,Perranporth,Newlyn,Marazion,St Mawes,Mousehole,Boscastle,Mevagissey,Polperro,Mullion,Manaccan,Grampound,St Germans,Callington,Kingsand,Cawsand,Par,St Blazey,Lostwithiel,Penryn,Golant,Crank,St Keverne,Perranarworthal,St Buryan,Lands End,Sennen,Porthcurno,Godrevy,Hayle,St Agnes,Portreath,Gwennap,Chacewater,Wendron,Kehelland,Penzance"
+    "b": "Truro,Penzance,Falmouth,St Ives,Newquay,Bodmin,Redruth,Camborne,St Austell,Bude,Liskeard,Fowey,Looe,Padstow,Tintagel,Helston,Perranporth,Newlyn,Marazion,St Mawes,Mousehole,Boscastle,Mevagissey,Polperro,Mullion,Manaccan,Grampound,St Germans,Callington,Kingsand,Cawsand,Par,St Blazey,Lostwithiel,Penryn,Golant,Crank,St Keverne,Perranarworthal,St Buryan,Lands End,Sennen,Porthcurno,Godrevy,Hayle,St Agnes,Portreath,Gwennap,Chacewater,Wendron,Kehelland,St Just,St Levan,Zennor,Morvah,Pendeen, Lelant,Carbis Bay,Gwithian,Connor Downs,Crowan,Stithians,Mawnan Smith,Mylor,Flushing,Portloe,Veryan,Gerrans,Portscatho,St Antony,Torpoint,Saltash,Quethiock,South Hill,Stoke Climsland,Gunnislake,Calstock,Bere Ferrers,Tavistock,Peter Tavy,Mary Tavy"
   },
   {
     "name": "Manx (dedicated)",
@@ -3543,7 +3525,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Uzhhorod,Mukachevo,Khust,Berehove,Svalyava,Uzhhorod,Rakhiv,Tyachiv,Irshava,Vynohradiv,Snina,Medzilaborce,Stará Ľubovňa,Bardejov,Svidník"
+    "b": "Uzhhorod,Mukachevo,Khust,Berehove,Svalyava,Rakhiv,Tyachiv,Irshava,Vynohradiv,Snina,Medzilaborce,Stará Ľubovňa,Bardejov,Svidník,Prešov,Košice,Humenné,Michalovce,Vranov nad Topľou,Levoča,Kežmarok,Spišská Nová Ves,Poprad"
   },
   {
     "name": "Belarusian (dedicated)",
@@ -3624,7 +3606,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Zagreb,Split,Rijeka,Osijek,Zadar,Pula,Dubrovnik,Šibenik,Vukovar,Vinkovci,Karlovac,Pula,Rijeka,Poljud,Stari Grad,Hvar"
+    "b": "Zagreb,Split,Rijeka,Osijek,Zadar,Pula,Dubrovnik,Šibenik,Vukovar,Vinkovci,Karlovac,Velika Gorica,Sisak,Varazdin,Slavonski Brod,Pozega,Đakovo,Kastav,Gospić,Knin,Sinj,Makarska,Metković,Opuzen,Imotski,Omiš,Dugi Rat,Solin,Kaštela,Trogir,Biograd na Moru,Vir,Novalja,Malinska,Krk,Rab,Senj,Korenica,Plitvice,Ogulin,Slunj,Kraljevica,Bakar,Opatija,Labin,Rovinj,Poreč,Pazin,Vrbovec,Čakovec,Križevci,Koprivnica,Bjelovar,Virovitica,Našice,Orahovica,Ilok,Đurđevac,Pakrac,Daruvar,Gospić,Benkovac,Obrovac,Gračac,Krapina,Zabok,Zlatar,Bedekovčina,Oroslavje,Marija Bistrica,Pregrada,Krapina,Kumrovec,Donja Stubica,Klanjec,Tuhelj,Prelog,Čakovec,Sveti Juraj"
   },
   {
     "name": "Montenegrin (dedicated)",
@@ -3642,7 +3624,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Kragujevac,Vranje,Užice,Sombor,Vršac,Zemun"
+    "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Vranje,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Negotinska Ražina,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Kosovo Polje,Peć,Priština,Prizren,Uroševac,Gnjilane,Vranje,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Lapljin Gaj,Kukurovci,Medveda"
   },
   {
     "name": "Bulgarian (dedicated)",
@@ -3696,7 +3678,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Warsaw,Krakow,Lodz,Vilnius,Bialystok,Lublin,Moscow,Kiev,Odessa,Kishinev,Chernivtsi,Warsaw,New York,London,Tel Aviv,Jerusalem"
+    "b": "Warsaw,Krakow,Lodz,Vilnius,Bialystok,Lublin,Kiev,Odessa,Kishinev,Chernivtsi,Lviv,Ivano-Frankivsk,Ternopil,Rivne,Lutsk,Dnipropetrovsk,Zhytomyr,Vinnytsia,Uzhhorod,Stanyslaviv, Brody, Radziviliv, Zamosc, Lubartow, Hrubieszow, Chełm, Przemyśl, Jarosław, Sanok, Lesko, Ustrzyki Dolne, Krościenko, Nowy Targ, Zakopane"
   },
   {
     "name": "Frisian (dedicated)",
@@ -3705,7 +3687,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Leeuwarden,Groningen,Drachten,Sneek,Harlingen,Dokkum,Stavoren,Balk,Woudsend,Lemmer,Franeker,Dokkum,Makkum,Workum,IJlst"
+    "b": "Leeuwarden,Groningen,Drachten,Sneek,Harlingen,Dokkum,Stavoren,Balk,Woudsend,Lemmer,Franeker,Makkum,Workum,IJlst,Heerenveen,Appelscha,Oosterwolde,Burgum,Dantumadeel,Marssum,Menaam,Bolsward,Westerkwartier,Goutum,Gytsjerk,Koarnjum,Britswert,Wiuwert,Wommels,Idaerd,Reduzum,Earnewâld,Warstiens,Wâlterswâlde,Skingen,Dokkum,Westerkwartier,Noordwolde,L围观dert,Veenhoop,Smalle Ee,Lyksewierrum,Sibrandabuorren,Reads,Allingawier,Harum,Idaard,Rauwerd,Boelenslaan,De Falom,Tzum,Wijnaldum,Pietersbierum,Kollum,Kollumerzwaag,Munnekezijl,Visvliet,Grijpskerk,Oldehove,Aa en Hunze,Eelde,Harens,Everdingen,Westerkwartier"
   },
   {
     "name": "Faroese (dedicated)",

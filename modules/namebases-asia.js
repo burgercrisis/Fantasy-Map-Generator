@@ -1377,15 +1377,6 @@
     "b": "Tehrathum,Myanglung,Morang,Urlabari,Damak,Jhapa,Birtamod,Gauradaha,Shivasatakshi,Buddhashanti,Duhavi,Mahadeva"
   },
   {
-    "name": "Nǁng",
-    "i": 849,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sankhuwasabha,Madi,Halesi,Diktel,Ramechhap,Manthali,Okhaldhunga,Salleri,Bhojpur,Taksar,Terhathum,Myanglung"
-  },
-  {
     "name": "Puma",
     "i": 850,
     "min": 4,
@@ -1764,15 +1755,6 @@
     "b": "Bhopal,Indore,Jabalpur,Gwalior,Ujjain,Sagar,Ratlam,Satna,Dewas,Burhanpur,Khandwa,Chhindwara"
   },
   {
-    "name": "Nǁng",
-    "i": 997,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Biratnagar,Birgunj,Dharan,Hetauda,Bhaktapur,Nepalganj,Bidur,Tulsipur"
-  },
-  {
     "name": "Sora (Savara)",
     "i": 999,
     "min": 4,
@@ -1987,15 +1969,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Libo,Jinxiu,Luocheng,Rongshui,Hechi,Nandan,Huanjiang,Guangxi,Sandu,Du'an,Donglan"
-  },
-  {
-    "name": "Nǁng",
-    "i": 1058,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Guangxi,Nanning,Liuzhou,Laibin,Baise,Hechi,Guigang,Wuzhou,Chongzuo,Hezhou,Nandan"
   },
   {
     "name": "Vandu",
@@ -2329,15 +2302,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Muong Vat,Dai Bac,Vinh Phuc,Yen Bai,Son La,Tuyen Quang,Thai Nguyen,Hanoi,Lao Cai,Cao Bang"
-  },
-  {
-    "name": "Nǁng",
-    "i": 1166,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,Tuyên Quang,Ha Giang,Lào Cai,Diá»…n Biên"
   },
   {
     "name": "Lao Phutai",
@@ -5445,15 +5409,6 @@
     "b": "Kengtung,Mong Hpayak,Mong Yawng,Mong Yang,Mong La,Mong Khet,Mong Ping,Mong Hsat,Mong Ton,Tachileik,Loimwe,Panghsang"
   },
   {
-    "name": "Nǁng",
-    "i": 2234,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Jinxiu,Dayaoshan,Liuzhou,Laibin,Guiping,Wuxuan,Xiangzhou,Lipu,Mengshan,Zhaoping,Pingle,Gongcheng"
-  },
-  {
     "name": "Kiranti",
     "i": 2235,
     "min": 4,
@@ -6280,15 +6235,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Medog,Beibeng,Gedang,Aniqiao,Damu,Hanmi,Motuo,Dexing,Xirang,Barong,Peilung,Kanpu,Geling,Mepu,Xirangzhong,Mipeng,Baihan,Xirangshang,Renqingbeng,Bade"
-  },
-  {
-    "name": "Nǁng",
-    "i": 2492,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Liuku,Fugong,Gongshan,Lushui,Bingzhongluo,Pianma,Lameng,Nankang,Shangpa,Jigong,Nuodeng,Bijiang,Dimaluo,Lijiang,Yongsheng,Dechang,Muli,Huaping,GongshanTown,Songta"
   },
   {
     "name": "Cai-Long",

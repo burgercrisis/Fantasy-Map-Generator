@@ -2166,7 +2166,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bole,Nigeria,Kano,Kaduna,Jos,Bauchi,Birnin Kebbi,Sokoto,Katsina,Zaria,Niger State"
+    "b": "Upington,Kimberley,Kuruman,Kakamas,Kenhardt,Kathu,Askham,Andriesvale,Augrabies,Grobblershoop,Keimoes,Louisvale,Olifantshoek,Onseepkans,Postmasburg,Putsonderwater,Riemvasmaak,Rietfontein,Danielskuil,Lime Acres,Kanoneiland,Mier,TweeRivieren,MataMata,Nossob,UnionsEnd,Khomani,Witdraai,Witsand,DeAar,Prieska,VictoriaWest,Colesberg,Strydenburg,Norvalspont,BarklyWest,Warrenton,Hartswater,JanKempdorp,Delportshoop,Griquatown,Campbell,Ganyesa,Vryburg,SchweizerReneke,Windsorton,Douglas,Calvinia,Nieuwoudtville,Loeriesfontein,Brandvlei,Fraserburg,Sutherland,Carnarvon,Loxton,Richmond,Hanover,Middelburg,GraaffReinet"
   },
   {
     "name": "Bole-Tangale",
@@ -4767,7 +4767,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bamenda,Bambili,Bambui,Kumbo,Nkwen,Mankon,Kejom Ketinguh,Kejom Keku,Bafut,Bali,Banso,Batibo,Mendankwe,Nkambe,Wum,Oku,Oshie,Ngie,Ngor,Pinyin,Kwakwa,Ntem,Ndop,Balikumbat,Bamenda,Santa,Bui,Nwa"
+    "b": "Bamenda,Bambili,Bambui,Kumbo,Nkwen,Mankon,Kejom Ketinguh,Kejom Keku,Bafut,Bali,Banso,Batibo,Mendankwe,Nkambe,Wum,Oku,Oshie,Ngie,Ngor,Pinyin,Kwakwa,Ntem,Ndop,Balikumbat,Santa,Bui,Nwa,Ngemba,Bali Nyonga,Mbesumbu,Alim,Bamessing,Ndzong,Big Babanki,Bamenda II,Bamenda III,Bali Subdivision,Bessomb,Bamendankwe,Bamougong,Bamegoum,Bamendou,Bamenyam,Bamendjo,Bamenkou,Bamendjou,Bamenfong,Bamendzie,Bamena"
   },
   {
     "name": "Baca (dedicated)",
@@ -4776,7 +4776,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bobo Dioulasso,Ouahigouya,Koudougou,Kaya,Tenkodogo,Ouagadougou,Bansang,Kassena,Kaya,Nouna,Solenzo,Bourou,Dedougou,Boulgou,Gnagna,Kouritenga,Bam,Sanmatenga,Soudan,Seno,Oudalan"
+    "b": "Bobo Dioulasso,Ouahigouya,Koudougou,Kaya,Tenkodogo,Ouagadougou,Bansang,Kassena,Nouna,Solenzo,Bourou,Dedougou,Boulgou,Gnagna,Kouritenga,Bam,Sanmatenga,Soudan,Seno,Oudalan,Diapaga,Fada N'gourma,Pama,Manni,Loumana,Soubakaniédougou,Bendré,Midegla,Bendraré,Bendresp,Bogandé,Manné,Diabo,Komtoèga,Tchériba,Bougounou,Dano,Moussa"
   },
   {
     "name": "Bangala (dedicated)",
@@ -4857,7 +4857,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie,Nandom,Jirapa,Lambussie,Kunku,Bussie"
+    "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie,Bolgatanga,Bawku,Navrongo,Paga,Kumasi,Tamale,Savelugu,Mion,Sang,Garu,Bunkpurugu,Nalerigu,Daffiama,Busie,Ko,Nadowli,Gbarnaba,Bangou,Dano,Kperou,Koumbri,Tchériba,Pô,Léo,Midegla,Moussa,Solenzo,Nouna,Bobo Dioulasso,Diapaga,Fada N'gourma,Pama"
   },
   {
     "name": "Awing (dedicated)",

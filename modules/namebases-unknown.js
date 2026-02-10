@@ -27,15 +27,6 @@
     "b": "Tsumkwe,Aroab,Blouputs,Gobabis,Kgalagadi,Kumune,Epukiro,Gxai,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental"
   },
   {
-    "name": "Nǁng",
-    "i": 42,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet"
-  },
-  {
     "name": "Gǃui",
     "i": 46,
     "min": 3,
@@ -81,13 +72,13 @@
     "b": "Sâ”œÃºo Joâ”œÃºo dos Angolares,Porto Alegre,Ribeira Peixe,Ilhâ”œâŒu das Rolas,Praia Inhame,Praia Jale,Praia Cabana,Praia Micondâ”œâ”‚,Praia Messias Alves,Praia Pesqueira,Praia Vagre,Praia Negal,Praia Yepipa,Praia Umbugo,Praia Martim,Praia Leve,Praia Abade,Praia Cascata,Praia Erasmo,Angolares,Budo Budo,Vila Malanza,Cabaceira,Monte Carmo,Emolve,Uba Budo,Malanza,Praia Salema,Praia Barrosa,Ponta Baleia,Praia Lozia,Praia Pesqueira Pequena,Praia Vermelha,Praia Viedade,Praia Camâ”œÃºo,Praia Ihlo,Praia Caixâ”œÃºo,Praia Margarida,Praia San Antâ”œâ”‚nio,Praia Cabinda,Praia Boca de Inferno,Praia Santa Clara,Praia Santa Cruz,Praia Sâ”œÃºo Joaquim"
   },
   {
-    "name": "Annobonese Palâ”œâŒ",
+    "name": "Annobonese Palé",
     "i": 73,
     "min": 5,
     "max": 11,
     "d": "lnr",
     "m": 0,
-    "b": "San Antonio de Palâ”œâŒ,Fogo,Mabana,Matamba,Angochi,San Antonio Pequeno,Calvario,Amoco,Amoco Pequeno,Machado,Angu,Moletry,Pingano,Lagoa Azul,Makoko,Matar,Mangueira,Mombaba,Morro Lopes,Morro Fina,Praia da Morena,Praia de Fogo,Praia das Galinhas,Praia da Uva,Praia do Leste,Praia do Sul,Praia de San Antonio,Tchindâ”œÃ­,Tandjang,Tanfafe,Tanque,Kapam,Kapado,Ponta Velha,Ponta Kapelo,Ponta Mâ”œâ”‚,Novo Caminho,Quissanga,Pollonia,Annybon,Anapo,Praia Cabinda,Praia Boa Vista"
+    "b": "San Antonio de Palé,Fogo,Mabana,Matamba,Angochi,San Antonio Pequeno,Calvario,Amoco,Amoco Pequeno,Machado,Angu,Moletry,Pingano,Lagoa Azul,Makoko,Matar,Mangueira,Mombaba,Morro Lopes,Morro Fina,Praia da Morena,Praia de Fogo,Praia das Galinhas,Praia da Uva,Praia do Leste,Praia do Sul,Praia de San Antonio,Tchindá,Tandjang,Tanfafe,Tanque,Kapam,Kapado,Ponta Velha,Ponta Kapelo,Ponta Mó,Novo Caminho,Quissanga,Pollonia,Annybon,Anapo,Praia Cabinda,Praia Boa Vista"
   },
   {
     "name": "Forro São Tomé",
@@ -522,7 +513,7 @@
     "b": "Brussels,Namur,Rosiere,Champion,Duvall,Dyckesville,Fairland,Gardner,Luxemburg,Misere,Thiry Daems,Tonet"
   },
   {
-    "name": "â•¦Ã‡Azd dialect",
+    "name": "ƁAzd dialect",
     "i": 737,
     "min": 4,
     "max": 11,
@@ -531,22 +522,22 @@
     "b": "Nizwa,Bahla,Ibri,Yanqul,Rustaq,Nakhal,Awabi,Samail,Bidbid,Izki,Adam,Manah"
   },
   {
-    "name": "â”¼â•—ejtun dialect",
+    "name": "Żejtun dialect",
     "i": 738,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Å»ejtun,Marsaxlokk,BirÅ¼ebbuÄ¡a,GÄ§axaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Å»urrieq,Bubaqra,Ä¦al Far"
+    "b": "Żejtun,Marsaxlokk,Birżebbuġa,Għaxaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Żurrieq,Bubaqra,Ħal Far"
   },
   {
-    "name": "â”œÃ sele",
+    "name": "Åsele",
     "i": 739,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ã…sele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,MalÃ¥,NorsjÃ¶,Robertsfors,Vindeln,VÃ¤nnÃ¤s,Bjurholm"
+    "b": "Åsele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,Malå,Norsjö,Robertsfors,Vindeln,Vännäs,Bjurholm"
   },
   {
     "name": "A Ou",
@@ -1159,15 +1150,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tehrathum,Myanglung,Morang,Urlabari,Damak,Jhapa,Birtamod,Gauradaha,Shivasatakshi,Buddhashanti,Duhavi,Mahadeva"
-  },
-  {
-    "name": "Nǁng",
-    "i": 849,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sankhuwasabha,Madi,Halesi,Diktel,Ramechhap,Manthali,Okhaldhunga,Salleri,Bhojpur,Taksar,Terhathum,Myanglung"
   },
   {
     "name": "Puma",
@@ -1863,15 +1845,6 @@
     "b": "Bhopal,Indore,Jabalpur,Gwalior,Ujjain,Sagar,Ratlam,Satna,Dewas,Burhanpur,Khandwa,Chhindwara"
   },
   {
-    "name": "Nǁng",
-    "i": 997,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Biratnagar,Birgunj,Dharan,Hetauda,Bhaktapur,Nepalganj,Bidur,Tulsipur"
-  },
-  {
     "name": "Newar",
     "i": 998,
     "min": 4,
@@ -2212,15 +2185,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Libo,Jinxiu,Luocheng,Rongshui,Hechi,Nandan,Huanjiang,Guangxi,Sandu,Du'an,Donglan"
-  },
-  {
-    "name": "Nǁng",
-    "i": 1058,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Guangxi,Nanning,Liuzhou,Laibin,Baise,Hechi,Guigang,Wuzhou,Chongzuo,Hezhou,Nandan"
   },
   {
     "name": "Vandu",
@@ -2887,15 +2851,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Muong Vat,Dai Bac,Vinh Phuc,Yen Bai,Son La,Tuyen Quang,Thai Nguyen,Hanoi,Lao Cai,Cao Bang"
-  },
-  {
-    "name": "Nǁng",
-    "i": 1166,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nung,Vietnam,Lang Son,Cao Bang,Cao Báº±ng,Báº¯c Giang,TuyÃªn Quang,Ha Giang,LÃ o Cai,Diá»…n BiÃªn"
   },
   {
     "name": "Lao Phutai",
@@ -7684,15 +7639,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kengtung,Mong Hpayak,Mong Yawng,Mong Yang,Mong La,Mong Khet,Mong Ping,Mong Hsat,Mong Ton,Tachileik,Loimwe,Panghsang"
-  },
-  {
-    "name": "Nǁng",
-    "i": 2234,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Jinxiu,Dayaoshan,Liuzhou,Laibin,Guiping,Wuxuan,Xiangzhou,Lipu,Mengshan,Zhaoping,Pingle,Gongcheng"
   },
   {
     "name": "Kiranti",
