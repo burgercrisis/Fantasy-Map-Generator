@@ -1773,15 +1773,6 @@
     "b": "Ürümqi,Turpan,Hami,Kashgar,Yarkant,Hotan,Aksu,Korla,Kucha,Karashahr,Altay,Karamay"
   },
   {
-    "name": "ǂKx'ao'ae",
-    "i": 967,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Windhoek,Swakopmund,WalvisBay,Luderitz,Otjiwarongo,Oshakati,Rundu,Keetmanshoop,Mariental,Gobabis,Okahandja,Rehoboth,Tsumkwe,Grootfontein,Outjo,Omaruru,Okakarara,Otavi,Karibib,Khorixas,Usakos,Arandis,Henties Bay,Walvisbaai,Oranjemund,Aus,Luderitzburg,Swakop,Erongo,Kunene,Omusati,Oshana,Ohangwena,Okavango,Omaheke,Hardap,Karas,Khomas,Zambezi,Caprivi,Katima Mulilo,Nkurenkuru,Rundu East,Divundu,Omega,Kongola,Linyanti,Chinchimane,Ncamagoro,Tondoro,Mashare,Rupara,Bagani,Shakawe,Gumare,Maun,Shorobe,Seronga,Jao,Chobe,Kasane,Kazungula,Pandamatenga,Savuti,Linyanti,Satau,Parakarungu,Nogatsaa,Savuti,Kachikau,Kajaja,Mogotlho,Sekondomboro,Mohembo,Xaxaba,Khwai,Mababe,Mopipi,Rakops,Letlhakane,Orapa,Tshabong,Hukuntsi,Tshane,Kang,Lehututu,Ghanzi,Charles Hill,Dekar,Kang,Tshane,Ncojane,Karakobis,New Xade,New Xanagas,East Hanahai,West Hanahai,Chobokwane,Bere,Kacgae,Kule,Qabo,Tsootsha,Grootlagatle,Laagte,Makunda"
-  },
-  {
     "name": "Burushaski",
     "i": 992,
     "min": 4,
@@ -3024,15 +3015,6 @@
     "b": "Dawson City,Eagle,Circle,Fort Selkirk,Kluane Lake,Whitehorse,Carcross,Tagish,Teslin,Atlin,Mayo,Keno City,Moosehide Village,Tr'ondëk,Minto Landing,Little Salmon,Black Hills,Granville,Stewart River,Fortymile River,Indian River,Bear Creek,Domino,Clinton Creek,Sulphur Creek,Flat Creek,Rock Creek,Gold Bottom Creek,Hunker Creek,Too Much Gold Hill,Gold Run Creek,Sulphur Springs,Bear Gulch,Black Hill Creek,Quartz Creek,Skookum Jim Creek,Bonanza Creek,Eldorado Creek,Henderson Creek,Thistle Creek,Last Chance Creek,Gold Hill,Little Gold Hill,Mount Nansen,Mount Pelly,Mount Golden,Dome Hill,Whitney Peak,Clayton Peak,Ogilvie Mountains,North Fork Pass,Windy Pass,Dawson Range,Tintina Trench,Stewart Crossing,Pelly Crossing,Carmacks"
   },
   {
-    "name": "Tłįch",
-    "i": 1198,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells,Edzo,Frank's Channel,Rae Lakes,Mackenzie River,Great Slave Lake,Tindi Lake,Sanguez Lake,Prosperous Lake,Willaumez Lake,Indineko Lake,Tsetso Lake,Jackfish Lake,Beaverlodge Lake,Atlı̀,Mackenzie Delta,Minto,Chiefs Island,Snare Lake,Winter Lake,Wekweètì,Mohì,Mbehcho,Łà,Indé,Kaché,Dechı,Nı̨hshì,Àatsà,Yatı̀,Somba K'e,Nało,Kozì,Tłı̨chǫ,Yamba,Chints,Dibaa,Amo,Yegà,Tèhk'è,Àcho,Yatı̀,Weleche,Mahsı,Edzo,Belis925,Jimmy Lake,Jackfish Lake,Marlow River,Dogrib Rock,Beaverlodge Lake,Indineko Lake,Sanguez Lake,Prosperous Lake,Tsetso Lake,Lockhart River,Mackenzie River,Frank's Channel,Wylie Lake,Hearn Lake,Yamba,Yegà,Mohì,Kaché,Dechı,Nı̨hshì,Àatsà,Tłı̨chǫ,Norweta"
-  },
-  {
     "name": "Kiliwa",
     "i": 1201,
     "min": 4,
@@ -4158,33 +4140,6 @@
     "b": "Central Tai,Nan,Phrae,Phayao,Uttaradit,Tak,Sukhothai,Thailand,Southeast Asia,Mekong"
   },
   {
-    "name": "Français Tirailleur",
-    "i": 1485,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dakar,Saint-Louis,Bamako,Ouagadougou,Abidjan,Conakry,Niamey,Porto-Novo,Lomé,Libreville,Brazzaville,Kinshasa,Lubumbashi,Douala,Yaoundé,Ndjamena,Fort-Lamy,Ségou,Kayes,Mopti,Sikasso,Tombouctou,Gao,Kidal,Zinder,Maradi,Tahoua,Agadez,Arlit,Diffa,Dosso,Tillabéri,Bobo-Dioulasso,Banfora,Koudougou,Ouahigouya,Kaya,Tenkodogo,Fada N'Gourma,Gorom-Gorom,Dori,Téra,Djibo,Nouna,Solenzo,Tougan,Toma,Bambari,Bouar,Bozoum,Obo,Franceville,Moanda,Lékoni,Mékambo,Okondja,Gamba,Lambarene,Mouila,Tchibanga,Bitam,Ebolowa,Foumban,Bafoussam,Bafang,Bertoua,Garoua,Maroua,Ngaoundéré,Yagoua,Kousséri,Mora,Waza,Rhumsiki,Poli,Tignère,Meiganga,Tibati,Banyo,Foumbot,Kumba,Buea,Bamenda,Ebolowa,Sangmélima,G Abon,Kye-Ossi,Mintom,Ambam,Maï,En,Bitam"
-  },
-  {
-    "name": "Tày Bối Pidgin French",
-    "i": 1486,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hanoi,Haiphong,Hai Phong,Nam Dinh,Bac Ninh,Vinh,Hue,Da Nang,Nha Trang,Saigon,Ho Chi Minh City,Bien Hoa,Tay Ninh,My Tho,Can Tho,Long Xuyen,Rach Gia,Vinh Long,Chau Doc,Ha Tien,Lang Son,Cao Bang,Thai Nguyen,Tuyen Quang,Yen Bai,Lao Cai,Son La,Dien Bien Phu,Lai Chau,Hoa Binh,Thanh Hoa,Nghe An,Ha Tinh,Quang Binh,Quang Tri,Quang Nam,Quang Ngai,Binh Dinh,Phu Yen,Khanh Hoa,Ninh Thuan,Binh Thuan,Lam Dong,Dak Lak,Gia Lai,Kon Tum,Binh Duong,Binh Phuoc,Dong Nai,Ba Ria,Vung Tau,Phu Quoc,Tay Ninh,Long An,Dong Thap,An Giang,Kien Giang,Tra Vinh,Soc Trang,Bac Lieu,Ca Mau"
-  },
-  {
-    "name": "Tâ”œÃ³y BÃŸâ•—Ã´i Pidgin French",
-    "i": 1486,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "TÃ¢y Bá»™i,Hanoi,Hai Phong,Haiphong,Vietnam,Hanoi Tonkin,Indochina,Red River"
-  },
-  {
     "name": "Petuh",
     "i": 1487,
     "min": 4,
@@ -4912,15 +4867,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Stadi,Heltsi,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Vaasa,Lahti,Pori,Lappeenranta,Finland"
-  },
-  {
-    "name": "Cook Islands Māori Pidgin",
-    "i": 1634,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Avarua,Arorangi,Ngatangia,Muri,Titikaveka,Vaimaanga,Aranga,Arorangi,Papaoa,Amuri,Uhia,Punarea,Arutanga,Vaitupe,Tautu,Reureu,Aitutaki,Arutanga,Amuri,Uhia,Punarea,Vaitupe,Tautu,Reureu,Savai'i,Nukunonu,Fakaofo,Atafu,Mataiva,Fenua Fala,Fenua Loa,Motufetau,Te Puka,Te Fakanava,Nassau,Palmerston,Tongareva,Manihiki,Rakahanga,Pukapuka,Suwarrow,Manuae,Takutea,Mitiaro,Mauke,Mangaia,Arorangi,Vaimaanga,Titikaveka,Ngatangia,Tupapa,Papaoa,Nikao,Aranga,Turangi,Pue,Arerenga,Arera,Areora,Aratangia,Araura,Avana,Avatiu,Arangi,Aratangi,Aronoa,Arave,Areiti,Arakuo,Aramiti,Aravai,Aramaro,Arakino,Aramona,Aratika,Arakino,Aramango,Aramona,Aratika,Arakino,Aramango"
   },
   {
     "name": "Core Mansi",

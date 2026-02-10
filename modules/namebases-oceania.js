@@ -6,7 +6,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Amanab,Vanimo,Lumi,Mapor,Kamanak,Yalog,Yapsiei,Kavis,Tali,Wamira,Mapor,Mul,Bongwis,Kwangga,Wakisa,Yaram,Sawata,Yelogu,Mawase,Komiat,Ari,Yamit,Dusun,Malu,Balup,Sel,Tamit,Poru,Yakum,Wogam,Yamatom,Yapimaka"
+    "b": "Amanab,Vanimo,Lumi,Mapor,Kamanak,Yalog,Yapsiei,Kavis,Tali,Wamira,Mul,Bongwis,Kwangga,Wakisa,Yaram,Sawata,Yelogu,Mawase,Komiat,Ari,Yamit,Dusun,Malu,Balup,Sel,Tamit,Poru,Yakum,Wogam,Yamatom,Yapimaka,Port Moresby,Lae,Mount Hagen,Madang,Wewak,Goroka,Ramu,Sepik,Baining,Whitsunday,Kokoda,Mendi,Kikori,Daru,Kiunga,Tabubil,Kerema,Kavieng,Rabaul,Kokopo,Buala,Finschhafen,Salamaua,Lorengau,Arawa,Panguna,Buka,Kundiawa,Chimbu,Kainantu,Wabag,Tari,Komo,Lake Kopiago,Nipa"
   },
   {
     "name": "Papuan",
@@ -459,7 +459,7 @@
     "b": "Agats,Citak,Kaokonao,Kokonao,Tanam,Asmat,Suator,Kepi,Okaba,Merauke,Obaa,Bade,Passel,Yowon"
   },
   {
-    "name": "AsmatÎ“Ã‡Ã´Kamoro",
+    "name": "Asmat-Kamoro",
     "i": 199,
     "min": 4,
     "max": 11,
@@ -2571,7 +2571,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jayapura,Merauke,Sorong,Manokwari,Timika,Wamena,Sentani,Nabire,Mokmer,Kema,T PNGBorder,Awin,Paniai,Yahukimo,Pegunungan"
+    "b": "Jayapura,Merauke,Sorong,Manokwari,Timika,Wamena,Sentani,Nabire,Mokmer,Kema,T PNGBorder,Awin,Paniai,Yahukimo,Pegunungan,Port Moresby,Lae,Mount Hagen,Madang,Wewak,Goroka,Ramu,Sepik,Baining,Whitsunday,Kokoda,Mendi,Kikori,Daru,Kiunga,Tabubil,Kerema,Kavieng,Rabaul,Kokopo,Buala,Finschhafen,Salamaua,Lorengau,Arawa,Panguna,Buka,Kundiawa,Chimbu,Kainantu,Wabag,Tari,Komo,Lake Kopiago,Nipa"
   },
   {
     "name": "Beami (dedicated)",
@@ -2635,5 +2635,14 @@
     "d": "lnrt",
     "m": 0,
     "b": "Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Mutitjulu,Yulara,Alice Springs,WATIYA,Warnerr,Japali,Karrinyrra,Patjarr,Bell Springs,Mungari,Tyrrell,West MacDonnell,Graham,Wilton,Browns,Davenport,Mount Riddell,Katoomba,Leura,Blackheath,Perisher,Thredbo"
+  },
+  {
+    "name": "Cook Islands Māori Pidgin",
+    "i": 1634,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Avarua,Arorangi,Ngatangia,Muri,Titikaveka,Vaimaanga,Aranga,Arorangi,Papaoa,Amuri,Uhia,Punarea,Arutanga,Vaitupe,Tautu,Reureu,Aitutaki,Arutanga,Amuri,Uhia,Punarea,Vaitupe,Tautu,Reureu,Savai'i,Nukunonu,Fakaofo,Atafu,Mataiva,Fenua Fala,Fenua Loa,Motufetau,Te Puka,Te Fakanava,Nassau,Palmerston,Tongareva,Manihiki,Rakahanga,Pukapuka,Suwarrow,Manuae,Takutea,Mitiaro,Mauke,Mangaia,Arorangi,Vaimaanga,Titikaveka,Ngatangia,Tupapa,Papaoa,Nikao,Aranga,Turangi,Pue,Arerenga,Arera,Areora,Aratangia,Araura,Avana,Avatiu,Arangi,Aratangi,Aronoa,Arave,Areiti,Arakuo,Aramiti,Aravai,Aramaro,Arakino,Aramona,Aratika,Arakino,Aramango,Aramona,Aratika,Arakino,Aramango"
   }
 ]

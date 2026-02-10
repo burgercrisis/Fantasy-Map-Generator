@@ -223,5 +223,14 @@
     "d": "lnrt",
     "m": 0,
     "b": "Sheshatshiu,Natuashish,Maliotenam,Uashat,Matimekush,Lac-John,Ekuanitshit,Pessamit,Essipit,Unamen Shipu,La Romaine,Mingan,Schefferville,Sept-Iles,Baie-Comeau,Forestville,Port-Cartier,Chute-aux-Outardes,Longue-Pointe-de-Mingan,Havre-Saint-Pierre"
+  },
+{
+    "name": "Tłįch",
+    "i": 1198,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells,Edzo,Frank's Channel,Rae Lakes,Mackenzie River,Great Slave Lake,Tindi Lake,Sanguez Lake,Prosperous Lake,Willaumez Lake,Indineko Lake,Tsetso Lake,Jackfish Lake,Beaverlodge Lake,Atlı̀,Mackenzie Delta,Minto,Chiefs Island,Snare Lake,Winter Lake,Wekweètì,Mohì,Mbehcho,Łà,Indé,Kaché,Dechı,Nı̨hshì,Àatsà,Yatı̀,Somba K'e,Nało,Kozì,Tłı̨chǫ,Yamba,Chints,Dibaa,Amo,Yegà,Tèhk'è,Àcho,Yatı̀,Weleche,Mahsı,Edzo,Belis925,Jimmy Lake,Jackfish Lake,Marlow River,Dogrib Rock,Beaverlodge Lake,Indineko Lake,Sanguez Lake,Prosperous Lake,Tsetso Lake,Lockhart River,Mackenzie River,Frank's Channel,Wylie Lake,Hearn Lake,Yamba,Yegà,Mohì,Kaché,Dechı,Nı̨hshì,Àatsà,Tłı̨chǫ,Norweta"
   }
 ]

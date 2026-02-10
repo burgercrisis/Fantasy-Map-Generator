@@ -541,6 +541,8 @@ Buu (dedicated),2697,Africa,namebases-africa.js,22,small,FALSE,FALSE,FALSE,TRUE,
 Dagaare (dedicated),2698,Africa,namebases-africa.js,38,normal,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
 Awing (dedicated),2738,Africa,namebases-africa.js,17,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,lnrt,1000-9999,80
 Beba (dedicated),2743,Africa,namebases-africa.js,13,small,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,80
+ǂKx'ao'ae,967,Africa,namebases-africa.js,106,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,nic-GH,1-999,50
+Français Tirailleur,1485,Africa,namebases-africa.js,92,large,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,40
 Koi,1495,Asia,namebases-asia.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Chinese,1000,Asia,namebases-asia.js,269,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1000-9999,100
 Japanese,11,Asia,namebases-asia.js,232,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,empty,1-999,100
@@ -1737,6 +1739,7 @@ Qanjobal,2561,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,
 Southern-Quechua,2565,NorthAmerica,namebases-northAmerica.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Salish,2613,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Innu,2662,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
+Tłįch,1198,NorthAmerica,namebases-northAmerica.js,80,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,nic-GH,1000-9999,50
 Nahuatl,13,SouthAmerica,namebases-southAmerica.js,189,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,l,1-999,80
 Quechua,26,SouthAmerica,namebases-southAmerica.js,201,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,l,1-999,100
 Kwaza-Xoc,47,SouthAmerica,namebases-southAmerica.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -2246,6 +2249,7 @@ Marshallese,2746,Oceania,namebases-oceania.js,17,small,FALSE,FALSE,FALSE,FALSE,F
 Kiribati,2749,Oceania,namebases-oceania.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,lnrt,1000-9999,100
 Rarotongan,2750,Oceania,namebases-oceania.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,100
 Pintupi (dedicated),20077,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,80
+Cook Islands Māori Pidgin,1634,Oceania,namebases-oceania.js,81,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,nic-GH,1000-9999,50
 Gǃui,46,Unknown,namebases-unknown.js,54,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,lnrtkxgms,1-999,70
 Ekoka ǃKung,38,Unknown,namebases-unknown.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,lnrtkxgms,1-999,70
 ǂAmkoe,40,Unknown,namebases-unknown.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,lnrtkxgms,1-999,70
@@ -2443,7 +2447,6 @@ Buryat,958,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,F
 Daur,959,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
 Oirat,960,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
 Torgut Oirat,961,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
-ǂKx'ao'ae,967,Unknown,namebases-unknown.js,106,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,nic-GH,1-999,50
 Burushaski,992,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
 Hinglish,993,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
 "Hindko, Northern",994,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1-999,100
@@ -2582,7 +2585,6 @@ Mobilian Jargon,1188,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FAL
 Pidgin Delaware,1189,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Gwich'in,1194,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,nic-GH,1000-9999,100
 Hän,1195,Unknown,namebases-unknown.js,57,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,100
-Tłįch,1198,Unknown,namebases-unknown.js,80,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,nic-GH,1000-9999,50
 Kiliwa,1201,Unknown,namebases-unknown.js,47,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,100
 Mojave,1202,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,100
 Quechan,1203,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,100
@@ -2708,9 +2710,6 @@ Central Min,1481,Unknown,namebases-unknown.js,10,small,FALSE,FALSE,FALSE,FALSE,F
 Central Moksha,1482,Unknown,namebases-unknown.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Central Selkup,1483,Unknown,namebases-unknown.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Central Tai,1484,Unknown,namebases-unknown.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
-Français Tirailleur,1485,Unknown,namebases-unknown.js,92,large,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,lnrt,1000-9999,40
-Tày Bối Pidgin French,1486,Unknown,namebases-unknown.js,61,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,nic-GH,1000-9999,50
-Tâ”œÃ³y BÃŸâ•—Ã´i Pidgin French,1486,Unknown,namebases-unknown.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,nic-GH,1000-9999,70
 Petuh,1487,Unknown,namebases-unknown.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Sercquiais,1488,Unknown,namebases-unknown.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Central Tibeto Burman,1489,Unknown,namebases-unknown.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
@@ -2792,7 +2791,6 @@ Khumi,1629,Unknown,namebases-unknown.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,F
 Chicomuceltec,1630,Unknown,namebases-unknown.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Cochin Portuguese Creole,1631,Unknown,namebases-unknown.js,39,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,80
 Colloquial Finnish,1633,Unknown,namebases-unknown.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
-Cook Islands Māori Pidgin,1634,Unknown,namebases-unknown.js,81,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,nic-GH,1000-9999,50
 Core Mansi,1636,Unknown,namebases-unknown.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
 Corfiot Maltese,1637,Unknown,namebases-unknown.js,6,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
 Cottonera Dialect,1638,Unknown,namebases-unknown.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,nic-GH,1000-9999,100
