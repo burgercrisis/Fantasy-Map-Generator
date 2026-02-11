@@ -6,7 +6,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Gase,Gai,Gasa,Gan,Gaixom,Gaiigas,Gaib,Gais,Gauida,GGai,GGaiim,GGauis,Dutlwe,Ghanzi,Dekar,Dqae Qare,Maun,Shakawe,Kasane,Gumare,Sebina,Matsiloje,Mogoditshane,Namagari,bokakwa,namapo,Gweta,Nata,Orapa,Letlhakane,Tshabong,Hukuntsi,Kang,Tshane,Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Tsumkwe,Blouputs"
+    "b": "Ghanzi,Dekar,D'Kar,Dqae Qare,Xade,New Xade,Charles Hill,Motokwe,Gudigwa,Trap-Trap,Kalkfontein,Takatokwane,Makalamabedi,Mosesane,Maun,Shakawe,Kasane,Gumare,Sebina,Matsiloje,Mogoditshane,Gweta,Nata,Orapa,Letlhakane,Tshabong,Hukuntsi,Kang,Tshane,Tsumkwe,Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Blouputs,Ramotswa,Mokolodi"
   },
   {
     "name": "Ekoka ǃKung",
@@ -24,7 +24,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Tsumkwe,Aroab,Blouputs,Gobabis,Kgalagadi,Kumune,Epukiro,Gxai,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental"
+    "b": "Ghanzi,Dekar,D'Kar,Charles Hill,Xade,New Xade,Motokwe,Mosesane,Gudigwa,Trap-Trap,Kalkfontein,Takatokwane,Makalamabedi,Mogoditshane,Sebina,Matsiloje,Gweta,Nata,Orapa,Letlhakane,Tshabong,Hukuntsi,Kang,Tshane,Molapo,Dutlwe,Gopane,Moshupa,Mmadinare,Bobonong"
   },
   {
     "name": "Ju/'hoan Click",
@@ -3642,7 +3642,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Águas Belas,Ouricuri,Caruaru,Recife,Palmares,Pedra,Belo Jardim,Pesqueira,Cachoeirinha,São Bento do Una,Sanharó,Capoeiras,Ibirajuba,Lajedo,Bom Conselho,Alagoinha,São Caetano,Santa Cruz do Capibaribe,Toritama,Taquituba,Serrita,Arcoverde,Sertânia,Triunfo,Custódia,Bodocó,Moreilândia,Exu,Cedro,Calumbi,Ipubi,Carnaíba,Itacuruba,Betânia,Flores,Quixaba,Salgueiro,Araripina,Granjeiro,Santa Filomena,Cabo de Santo Agostinho,Igarassu,Abreu e Lima,Camaragibe,Jaboatão dos Guararapes,Olinda,Paulista,Praia da Conceição,Serra Talhada,Parnamirim,Petrolina,Juazeiro,Barreiras,Bom Jesus da Lapa,Palmas,Porto Nacional,Gurupi,Imperatriz,São Luís,Timon,Caxias,Presidente Dutra,Chapadinha"
+    "b": "Águas Belas,Ouricuri,Caruaru,Recife,Palmares,Pedra,Belo Jardim,Pesqueira,Cachoeirinha,São Bento do Una,Sanharó,Capoeiras,Ibirajuba,Lajedo,Bom Conselho,Alagoinha,São Caetano,Santa Cruz do Capibaribe,Toritama,Taquaritinga do Norte,Serrita,Arcoverde,Sertânia,Triunfo,Custódia,Bodocó,Moreilândia,Exu,Cedro,Calumbi,Ipubi,Carnaíba,Itacuruba,Betânia,Flores,Quixaba,Salgueiro,Araripina,Santa Filomena,Cabo de Santo Agostinho,Igarassu,Abreu e Lima,Camaragibe,Jaboatão dos Guararapes,Olinda,Paulista,Serra Talhada,Parnamirim,Petrolina"
   },
   {
     "name": "Itonama",

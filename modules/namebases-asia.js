@@ -3186,13 +3186,13 @@
     "b": "Central Tai,Nan,Phrae,Phayao,Uttaradit,Tak,Sukhothai,Thailand,Southeast Asia,Mekong"
   },
   {
-    "name": "Tày Bối Pidgin French",
+    "name": "Tây Bồi Pidgin French",
     "i": 1486,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tay Boi,Hanoi,Hai Phong,Haiphong,Vietnam,Hanoi Tonkin,Indochina,Red River"
+    "b": "Hanoi,Haiphong,Hai Duong,Nam Dinh,Thai Binh,Ninh Binh,Ha Nam,Hung Yen,Quang Ninh,Bac Ninh,Bac Giang,Lang Son,Cao Bang,Thai Nguyen,Tuyen Quang,Yen Bai,Ha Giang,Bac Kan,Lao Cai,Dien Bien Phu,Lai Chau,Muong Lay,Phong Tho,Tam Duong,Son La,Hoa Binh,Quynh Phu,Van Yen,Muong Te,Tuan Giao,Sin Ho,Pa So,Muong Ang,Tia Bia,Dong Van,Meo Vac,Yen Minh,Quang Ha,Hiep Hoa,Bac Quang,Vinh Yen,Phuc Yen,Ha Long,Cam Pha,Uong Bi,Hon Gai,Mong Cai,Tra Co,Van Don,Lai Vu,Nam Sach,Kinh Mon,Khoai Chau,Tien Lang,Hai Ha,An Lao,Yen Dung,Ba Che,Cam Giang,Thanh Ha,Kim Thanh,Binh Gia,Dong Hy,Bac Son,Trang Dinh,Nguyen Hue,Dong Chien,Da Bang,Bang Ha,Thong Nhat,Bac Van,Dong Lac,Bac Co,Ngan Son,Bao Lac,Bao Yen,Cho Don,Chi Ma,Dong Mien,Ha Hoa,Hang Chuong,Hung Ha,Lam Thao,Lao Cai,Mai Chau,Nan Muong,Ngoi Nua,Phieng Ban,Pho Lu,Quang Uy,Song Thao,Tam Đình,Thanh Ba,Thanh Thuy,Tuan Giao,Xam Neua,Yen Lap,Quang Ha,Bac Quang,Viet Tri,Hai Duong,An Lao,Y Yen,Nam Dinh,Ninh Binh"
   },
   {
     "name": "Central Tibeto Burman",
