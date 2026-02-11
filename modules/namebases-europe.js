@@ -1860,7 +1860,7 @@
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Baia Mare,Sighetu Marmației,Borșa,Vișeu de Sus,Târgu Lăpuș,Seini,Șomcuta Mare,Ulmeni,Săliștea de Sus,Tăuții-Măgherăuș,Cavnic,Baia Sprie,Dragomirești,Bârsana,Săpânța,Desești,Budești,Ieud,Botiza,Rozavlea,Bogdan Vodă,Poienile Izei,Vadu Izei,Ocna Șugatag,Oncești,Satulung,Șișești,Fărcașa,Moisei,Leordina,Petrova,Ruscova,Repedea,Săcel,Strâmtura,Vișeu de Jos,Ardusat,Băița de sub Codru,Băiuț"
+    "b": "Baia Mare,Sighetu Marmației,Borșa,Vișeu de Sus,Târgu Lăpuș,Seini,Șomcuta Mare,Ulmeni,Săliștea de Sus,Tăuții-Măgherăuș,Cavnic,Baia Sprie,Dragomirești,Bârsana,Săpânța,Desești,Budești,Ieud,Botiza,Rozavlea,Bogdan Vodă,Poienile Izei,Vadu Izei,Ocna Șugatag,Oncești,Satulung,Șișești,Fărcașa,Moisei,Leordina,Petrova,Ruscova,Repedea,Săcel,Strâmtura,Vișeu de Jos,Ardusat,Băița de sub Codru,Băiuț,Ariniș,Asuaju de Sus,Băsești,Bicaz,Bistra,Bocicoiu Mare,Boiu Mare,Breb,Călinești,Câmpulung la Tisa,Cernești,Cicârlău,Coaș,Coltău,Copalnic-Mănăștur,Coroieni,Cupșeni,Dumbrăvița,Gârdani,Giulești,Groși,Groșii Țibleșului,Lăpuș,Mireșu Mare,Oarța de Jos,Poienile de sub Munte,Recea,Remetea Chioarului,Remeți,Rona de Jos,Rona de Sus,Săcălășeni,Sălsig,Sarasău,Șieu,Suciu de Sus,Valea Chioarului,Vima Mică"
   },
   {
     "name": "Menorcan",
