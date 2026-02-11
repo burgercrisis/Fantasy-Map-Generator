@@ -15,7 +15,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs"
+    "b": "Karibib,Grootfontein,Tsumkwe,Otjiwarongo,Okahandja,Okakarara,Otavi,Tsintsabis,Opuwo,Khorixas,Kamanjab,Outjo,Usakos,Omaruru,Ruacana,Arandis,Ondangwa,Oshakati"
   },
   {
     "name": "ǂAmkoe",
