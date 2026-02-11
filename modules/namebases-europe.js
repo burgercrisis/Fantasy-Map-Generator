@@ -3624,7 +3624,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Priština,Prizren,Uroševac,Gnjilane,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Kukurovci,Prokuplje,Bojnik,Lebane,Doljevac,Gadžin Han,Kraljevo,Zaječar,Vranje,Požarevac,Sremska Mitrovica,Vrbas,Bečej,Novi Bečej,Aradac,Ljig,Lazarevac,Mladenovac,Sopot,Velika Plana,Svilajnac,Aleksinac,Boljevac,Knjaževac,Dimitrovgrad,Vladikin Han,Sijarinska Banja,Gornja Stopanja"
+     "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Priština,Prizren,Uroševac,Gnjilane,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Kukurovići,Prokuplje,Bojnik,Lebane,Doljevac,Gadžin Han,Kraljevo,Zaječar,Vranje,Požarevac,Sremska Mitrovica,Vrbas,Bečej,Novi Bečej,Aradac,Ljig,Lazarevac,Mladenovac,Sopot,Velika Plana,Svilajnac,Aleksinac,Boljevac,Knjaževac,Dimitrovgrad,Vladičin Han,Sijarinska Banja,Gornje Stopanje,Bačka Palanka,Ruma,Inđija,Šid,Beočin,Topola,Varvarin,Ćićevac,Rekovac,Brus,Sokobanja"
   },
   {
     "name": "Bulgarian (dedicated)",
