@@ -24,7 +24,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Ghanzi,Dekar,D'Kar,Charles Hill,Xade,New Xade,Motokwe,Mosesane,Gudigwa,Trap-Trap,Kalkfontein,Takatokwane,Makalamabedi,Mogoditshane,Sebina,Matsiloje,Gweta,Nata,Orapa,Letlhakane,Tshabong,Hukuntsi,Kang,Tshane,Molapo,Dutlwe,Gopane,Moshupa,Mmadinare,Bobonong"
+    "b": "Mogoditshane,Molepolole,Dutlwe,Moshupa,Thamaga,Letlhakeng,Lentsweletau,Kopong,Gabane,Oodi,Kweneng,Goodhope,Mmathethe,Sedibeng,Pitsane,Mogojogojo,Mokatako,Phitshane,Mmakgori,Tshidilamolomo,Mabule,Metlobo,Digawana,Lejwana,Metlojane,Borobadilepe,Ramatlabama"
   },
   {
     "name": "Ju/'hoan Click",
@@ -504,22 +504,22 @@
     "b": "Brussels,Namur,Rosiere,Champion,Duvall,Dyckesville,Fairland,Gardner,Luxemburg,Misere,Thiry Daems,Tonet"
   },
   {
-    "name": "ƁAzd dialect",
+    "name": "Al-Azdi dialect",
     "i": 737,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nizwa,Bahla,Ibri,Yanqul,Rustaq,Nakhal,Awabi,Samail,Bidbid,Izki,Adam,Manah"
+    "b": "Nizwa,Bahla,Izki,Manah,Adam,Samail,Bidbid,Al Hamra,Birkat Al Mouz,Misfat Al Abriyyin,Nakhal,Awabi,Rustaq,Yanqul,Ibri,Bahla Fort,Jebel Akhdar,Saiq Plateau,Al Hamra Old Town,Zukait,Bat,Al Khutm,Al Ayn,Bahla Oasis,Falaj Daris"
   },
   {
     "name": "Żejtun dialect",
     "i": 738,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "mt",
     "m": 0,
-    "b": "Żejtun,Marsaxlokk,Birżebbuġa,Għaxaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Żurrieq,Bubaqra,Ħal Far"
+    "b": "Żejtun,Marsaxlokk,Birżebbuġa,Għaxaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Żurrieq,Bubaqra,Ħal Far,Tarxien,Paola,Fgura,Luqa,Siġġiewi,Rabat,Mdina,Valletta,Mosta,Birkirkara,Sliema,Attard,Lija"
   },
   {
     "name": "Åsele",
@@ -2223,13 +2223,13 @@
     "b": "Szeged,KecskemÃ©t,Szolnok,JÃ¡szberÃ©ny,Karcag,MezÅ‘tÃºr,Szentes,KunszentmÃ¡rton,TÃºrkeve,KiskunfÃ©legyhÃ¡za"
   },
   {
-    "name": "Páləc",
+    "name": "Palóc",
     "i": 1070,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "SiklÃ³s,PÃ©cs,Barcs,SzigetvÃ¡r,KaposvÃ¡r,SomogyvÃ¡r,BÃ³ly,Nagykanizsa,CsurgÃ³,Sellye,SzentgotthÃ¡rd"
+    "b": "Hollókő,Balassagyarmat,Salgótarján,Rétság,Bánk,Berkenye,Szendehely,Felsőpetény,Alsópetény,Nógrád,Pásztó,Szécsény,Magyarnándor,Diósjenő,Érsekvadkert,Eger,Gyöngyös,Hatvan,Miskolc,Pálháza,Sátoraljaújhely,Mezőkövesd"
   },
   {
     "name": "Southern Transdanubian",
