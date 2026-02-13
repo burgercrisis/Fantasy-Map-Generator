@@ -6,7 +6,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Ghanzi,Dekar,D'Kar,Dqae Qare,Xade,New Xade,Charles Hill,Motokwe,Gudigwa,Trap-Trap,Kalkfontein,Takatokwane,Makalamabedi,Mosesane,Maun,Shakawe,Kasane,Gumare,Sebina,Matsiloje,Mogoditshane,Gweta,Nata,Orapa,Letlhakane,Tshabong,Hukuntsi,Kang,Tshane,Tsumkwe,Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Blouputs,Ramotswa,Mokolodi"
+    "b": "Ghanzi,Dekar,D'Kar,Dqae Qare,Xade,New Xade,Charles Hill,Motokwe,Gudigwa,Trap-Trap,Takatokwane,Makalamabedi,Mosesane,Gweta,Nata,Orapa,Letlhakane,Tshabong,Hukuntsi,Kang,Tshane,Tsau,Ncojane,East Hanahai,Kuke,Qabo,Khuis,Sehithwa,Seronga,Shakawe"
   },
   {
     "name": "Ekoka ǃKung",
@@ -24,7 +24,7 @@
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Mogoditshane,Molepolole,Dutlwe,Moshupa,Thamaga,Letlhakeng,Lentsweletau,Kopong,Gabane,Oodi,Kweneng,Goodhope,Mmathethe,Sedibeng,Pitsane,Mogojogojo,Mokatako,Phitshane,Mmakgori,Tshidilamolomo,Mabule,Metlobo,Digawana,Lejwana,Metlojane,Borobadilepe,Ramatlabama"
+    "b": "Mogoditshane,Molepolole,Dutlwe,Thamaga,Letlhakeng,Lentsweletau,Kopong,Gabane,Ditshegwane,Kubung,Keng,Ngware,Metsimotlhaba,Kumakwane,Takatokwane,Shadishadi,Morwa,Mmopane,Mmadianare,Sesung"
   },
   {
     "name": "Ju/'hoan Click",

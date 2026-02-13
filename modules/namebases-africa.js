@@ -2164,9 +2164,9 @@
     "i": 1347,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "tuu-ZA",
     "m": 0,
-    "b": "Upington,Kimberley,Kuruman,Kakamas,Kenhardt,Kathu,Askham,Andriesvale,Augrabies,Grobblershoop,Keimoes,Louisvale,Olifantshoek,Onseepkans,Postmasburg,Putsonderwater,Riemvasmaak,Rietfontein,Danielskuil,Lime Acres,Kanoneiland,Mier,TweeRivieren,MataMata,Nossob,UnionsEnd,Khomani,Witdraai,Witsand,DeAar,Prieska,VictoriaWest,Colesberg,Strydenburg,Norvalspont,BarklyWest,Warrenton,Hartswater,JanKempdorp,Delportshoop,Griquatown,Campbell,Ganyesa,Vryburg,SchweizerReneke,Windsorton,Douglas,Calvinia,Nieuwoudtville,Loeriesfontein,Brandvlei,Fraserburg,Sutherland,Carnarvon,Loxton,Richmond,Hanover,Middelburg,GraaffReinet"
+    "b": "Upington,Kimberley,Kuruman,Kakamas,Kenhardt,Kathu,Askham,Andriesvale,Augrabies,Grobblershoop,Keimoes,Louisvale,Olifantshoek,Onseepkans,Postmasburg,Putsonderwater,Riemvasmaak,Rietfontein,Danielskuil,Lime Acres,Kanoneiland,Mier,TweeRivieren,MataMata,Nossob,Witdraai,Witsand,DeAar,Prieska,VictoriaWest,Colesberg,Strydenburg,Norvalspont,BarklyWest,Warrenton,Hartswater,JanKempdorp,Delportshoop,Griquatown,Campbell,Ganyesa,Vryburg,SchweizerReneke,Windsorton,Douglas,Calvinia,Nieuwoudtville,Loeriesfontein,Brandvlei,Fraserburg,Sutherland,Carnarvon,Loxton,Richmond,Hanover,Middelburg,GraaffReinet,Philandersbron,Loubos,KleinMier,GrootMier,Noenieput"
   },
   {
     "name": "Bole-Tangale",
