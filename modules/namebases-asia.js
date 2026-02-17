@@ -3717,15 +3717,6 @@
     "b": "Stadi,Heltsi,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Vaasa,Lahti,Pori,Lappeenranta,Finland"
   },
   {
-    "name": "Cook Islands Maori Pidgin",
-    "i": 1634,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Avarua,Araura,Mitiaro,Aitutaki,Mangaia,Atiu,Takutea,Manuae,Nassau,Rarotonga,Cook Islands"
-  },
-  {
     "name": "Core Mansi",
     "i": 1636,
     "min": 4,

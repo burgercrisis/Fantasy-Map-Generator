@@ -1,14 +1,5 @@
 [
   {
-    "name": "Lithuanian (dedicated)",
-    "i": 2705,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vilnius,Kaunas,Klaipėda,Šiauliai,Panevėžys,Alytus,Marijampolė,Utena,Tauragė,Telsiai,Anyksciai,Birzai,Druskininkai,Ignalina,Kėdainiai,Kretinga,Neringa,Palanga,Rokiskis,Šilutė,Trakai,Varėna,Zarasai,Jonava,Joniškis,Jurbarkas,Kaišiadorys,Kelmė,Kazlų Rūda,Lazdijai,Moletai,Naujoji Akmenė,Nemenčinė,Obeliai,Pakruojis,Pasvalys,Priekulė,Radviliškis,Raseiniai,Rietavas,Salantai,Seda,Šalčininkai,Švenčionys,Ukmergė,Viekšniai,Vievis,Žarasai,Akmenė,Birštonas,Kupiškis,Plungė,Prienai,Rokiškis,Šakiai,Šilalė,Širvintos,Skuodas,Telšiai,Vilkaviškis,Anykščiai,Ariogala,Biržai,Eišiškės,Kuršėnai,Kybartai,Lentvaris,Molėtai,Ramygala,Elektrėnai,Grigiškės,Karmėlava,Panemunė,Pirčiupiai,Vidiškiai,Juodkrantė,Nida,Pervalka,Uostadvaris,Sirvintos,Ginučiai,Visaginas,Mažeikiai,Kalvarija"
-  },
-  {
     "name": "English",
     "i": 1,
     "min": 6,

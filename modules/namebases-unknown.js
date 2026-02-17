@@ -3633,7 +3633,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,San Miguel de Sucumbíos,Lago Agrio,El Eno,La Punta,Cascales,Shushufindi,Tarapoa,Putumayo,Hollín,Loreto,Santa Cecilia,Reventador,Baeza,El Chaco,Quijos,Cosanga,Papallacta,Cuyuja,Archidona,Tena,Puyo,Shell,Mera,Baños,Río Verde,El Triunfo,General Villamil,Playas,Puerto López,Montalvo,Sangay,Makuma,Alshi,Puerto Napo,Talag,Jatunyacu,Misahuallí,Huasquila,Shiripuno,Coca,Dayuma,Nuevo Rocafuerte"
+    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,San Miguel de Sucumbíos,Lago Agrio,El Eno,La Punta,Cascales,Tarapoa,Putumayo,Santa Cecilia,Reventador,Baeza,El Chaco,Quijos,Cosanga,Papallacta,Cuyuja,Archidona,Puerto Napo,Jatunyacu,Misahuallí,Huasquila,Shiripuno,Nuevo Rocafuerte,Dureno,Enokanqui,San Carlos,Cuyeteno"
   },
   {
     "name": "Fulniô",
@@ -4849,15 +4849,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "ComitÃ¡n,Trinitaria,La Independencia,Francisco LeÃ³n,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
-  },
-  {
-    "name": "Cochin Portuguese Creole",
-    "i": 1631,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cochin,Fort Emmanuel,Vypin,Mattancheri,Vaikom,Palloor,Kodungallur,Paravur,Chennamangalam,Fort Kochi,Ernakulam,Aluva,Angamaly,Perumbavoor,Muvattupuzha,Kothamangalam,Adimali,Aluva,Angamaly,Perumbavoor,Muvattupuzha,Kothamangalam,Adimali,Kothamangalam,Muvattupuzha,Perumbavoor,Angamaly,Aluva,Kalady,Perumbavoor,Aluva,Angamaly,Kalady,Kothamangalam,Muvattupuzha,Perumbavoor,Aluva,Angamaly,Kalady"
   },
   {
     "name": "Colloquial Finnish",

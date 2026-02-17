@@ -1,14 +1,5 @@
 [
   {
-    "name": "Awing (dedicated)",
-    "i": 2738,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Awing,Bamenda,Bambaluwe,Bafut,Bambili,Bambui,Mankon,Nkwen,Pinyin,Ngemba,Bali,Baligard,Banso,Batibo"
-  },
-  {
     "name": "Arabic",
     "i": 17,
     "min": 4,
@@ -4886,13 +4877,4 @@
     "m": 0,
     "b": "Windhoek,Swakopmund,WalvisBay,Luderitz,Otjiwarongo,Oshakati,Rundu,Keetmanshoop,Mariental,Gobabis,Okahandja,Rehoboth,Tsumkwe,Grootfontein,Outjo,Omaruru,Okakarara,Otavi,Karibib,Khorixas,Usakos,Arandis,Henties Bay,Walvisbaai,Oranjemund,Aus,Luderitzburg,Swakop,Erongo,Kunene,Omusati,Oshana,Ohangwena,Okavango,Omaheke,Hardap,Karas,Khomas,Zambezi,Caprivi,Katima Mulilo,Nkurenkuru,Rundu East,Divundu,Omega,Kongola,Linyanti,Chinchimane,Ncamagoro,Tondoro,Mashare,Rupara,Bagani,Shakawe,Gumare,Maun,Shorobe,Seronga,Jao,Chobe,Kasane,Kazungula,Pandamatenga,Savuti,Linyanti,Satau,Parakarungu,Nogatsaa,Savuti,Kachikau,Kajaja,Mogotlho,Sekondomboro,Mohembo,Xaxaba,Khwai,Mababe,Mopipi,Rakops,Letlhakane,Orapa,Tshabong,Hukuntsi,Tshane,Kang,Lehututu,Ghanzi,Charles Hill,Dekar,Kang,Tshane,Ncojane,Karakobis,New Xade,New Xanagas,East Hanahai,West Hanahai,Chobokwane,Bere,Kacgae,Kule,Qabo,Tsootsha,Grootlagatle,Laagte,Makunda"
   },
-  {
-    "name": "Français Tirailleur",
-    "i": 1485,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dakar,Saint-Louis,Bamako,Ouagadougou,Abidjan,Conakry,Niamey,Porto-Novo,Lomé,Libreville,Brazzaville,Kinshasa,Lubumbashi,Douala,Yaoundé,Ndjamena,Fort-Lamy,Ségou,Kayes,Mopti,Sikasso,Tombouctou,Gao,Kidal,Zinder,Maradi,Tahoua,Agadez,Arlit,Diffa,Dosso,Tillabéri,Bobo-Dioulasso,Banfora,Koudougou,Ouahigouya,Kaya,Tenkodogo,Fada N'Gourma,Gorom-Gorom,Dori,Téra,Djibo,Nouna,Solenzo,Tougan,Toma,Bambari,Bouar,Bozoum,Obo,Franceville,Moanda,Lékoni,Mékambo,Okondja,Gamba,Lambarene,Mouila,Tchibanga,Bitam,Ebolowa,Foumban,Bafoussam,Bafang,Bertoua,Garoua,Maroua,Ngaoundéré,Yagoua,Kousséri,Mora,Waza,Rhumsiki,Poli,Tignère,Meiganga,Tibati,Banyo,Foumbot,Kumba,Buea,Bamenda,Ebolowa,Sangmélima,G Abon,Kye-Ossi,Mintom,Ambam,Maï,En,Bitam"
-  }
 ]
