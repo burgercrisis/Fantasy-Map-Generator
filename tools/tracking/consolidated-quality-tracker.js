@@ -54,6 +54,15 @@ const PATTERN_PRIMUS = /Primus/;
 const PATTERN_ENCODING = /[^\x20-\x7E\u00A0-\u00FF]/;
 const PATTERN_TRAILING_SPACE = /\s$/;
 
+const EXCEPTIONS_ENCODING = new Set([
+    'Nǁng', 'Gǃui', 'Ekoka ǃKung', 'ǂAmkoe', 'ǂKx\'ao\'ae',
+    'Maramureș', 'Żejtun dialect'
+]);
+
+const EXCEPTIONS_DUPLICATE = new Set([
+    'Tłįch', 'Cook Islands Māori Pidgin', 'Tây Bồi Pidgin French', 'ǂKx\'ao\'ae'
+]);
+
 function detectContinentFromFilename(filename) {
     const mapping = {
         'namebases-africa.js': 'Africa',
@@ -137,19 +146,21 @@ function isSuspiciousName(name) {
     return false;
 }
 
-function calculateQualityScore({cityCount, duplicateCities, placeholder, suspicious, hasTrailingSpace, hasEncodingIssue, hasPrimus, hasDedicated}) {
+function calculateQualityScore({cityCount, duplicateCities, placeholder, suspicious, hasTrailingSpace, hasEncodingIssue, hasPrimus, hasDedicated, indexCollision, nameCollision, languageName}) {
     let score = 100;
     
     if (cityCount < 3) score -= 30;
     else if (cityCount < 5) score -= 15;
     
-    if (duplicateCities) score -= 20;
+    if (duplicateCities && !EXCEPTIONS_DUPLICATE.has(languageName)) score -= 20;
     if (placeholder) score -= 40;
     if (hasPrimus) score -= 50;
     if (suspicious) score -= 40;
     if (hasTrailingSpace) score -= 10;
-    if (hasEncodingIssue) score -= 30;
+    if (hasEncodingIssue && !EXCEPTIONS_ENCODING.has(languageName)) score -= 30;
     if (hasDedicated) score -= 20;
+    if (indexCollision) score -= 15;
+    if (nameCollision) score -= 15;
     
     return Math.max(0, score);
 }
@@ -247,16 +258,15 @@ function runAllChecks() {
             index_range: getIndexRange(entry.i),
             quality_score: calculateQualityScore({
                 cityCount, duplicateCities, placeholder, suspicious,
-                hasTrailingSpace, hasEncodingIssue, hasPrimus, hasDedicated
+                hasTrailingSpace, hasEncodingIssue, hasPrimus, hasDedicated,
+                indexCollision, nameCollision, languageName: entry.name
             })
         };
     });
     
-    // Note: index_collision is excluded from quality issues as it's intentional for language families
-    // (e.g., Arabic varieties share index 10, Spanish varieties share indices, etc.)
     const qualityIssues = metrics.filter(m => 
         m.quality_score < 100 || m.is_placeholder || m.has_primus || 
-        m.suspicious_name || m.name_collision
+        m.suspicious_name || m.index_collision || m.name_collision
     );
     
     const indexCollisions = metrics.filter(m => m.index_collision).length;
