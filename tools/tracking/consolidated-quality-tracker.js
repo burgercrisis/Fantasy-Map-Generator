@@ -42,7 +42,7 @@ const CONTINENT_FILES = [
 
 const SUSPICIOUS_NAMES = new Set([
     'BPh', 'Big Flowery', 'Français Tirailleur', 'Tày Bôi Pidgin French',
-    'Bole Chadic language', 'BiuΓÇôMandara', 'Fulniô',
+    'Bole Chadic language', 'BiuΓÇôMandara',
     'Bjarmian S├ími', 'Borgarm├Ñlet', 'Baur├⌐', 'Cof├ín', 'Fran├ºais',
     'E'
 ]);
