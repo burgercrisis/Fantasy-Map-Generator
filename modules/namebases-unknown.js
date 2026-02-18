@@ -3699,15 +3699,6 @@
     "b": "GuajÃ­,El Carrizal,MaucarÃ¡,Socorro,La Palma,San MartÃ­n,San CristÃ³bal,Casanare,Santander,Colombia,Venezuela"
   },
   {
-    "name": "Huastec",
-    "i": 1428,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,PÃ¡nuco,Tantoyuca,Tamazunchale"
-  },
-  {
     "name": "Camtho",
     "i": 1431,
     "min": 4,
@@ -4111,15 +4102,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Western Himalayas,Kashmir,Ladakh,Jammu,Himachal Pradesh,Uttarakhand,India,Nepal Border,Tibet Border"
-  },
-  {
-    "name": "West Himalayish",
-    "i": 1560,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "West Himalayish,Kullu,Manali,Shimla,Dharamsala,India,Himachal Pradesh,Himalayas,Tibet Border"
   },
   {
     "name": "Dhuleli",
@@ -5157,15 +5139,6 @@
     "b": "Eravallan,Karur,Trichy,Thanjavur,Tamil Nadu,India,South India"
   },
   {
-    "name": "Erzya",
-    "i": 1770,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Erzya,Erode,Arad,Alba County,Romania,Transylvania,East Europe"
-  },
-  {
     "name": "Eskimo Trade Jargon",
     "i": 1774,
     "min": 4,
@@ -5173,15 +5146,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Eskimo Trade Jargon,Arctic,Inuit,Greenland,Canada,North America,Alaska"
-  },
-  {
-    "name": "Estonian",
-    "i": 1775,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tallinn,Tartu,Narva,PÃ¤rnu,Kohtla-JÃ¤rve,Viljandi,Rakvere,Maardu,SillamÃ¤e,Kuressaare,VÃµru,Valga"
   },
   {
     "name": "Even",
@@ -5344,15 +5308,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Siang,Adi,Karko,Galong,Mishing,Pasighat,Assam,Arunachal Pradesh,India,Northeast India"
-  },
-  {
-    "name": "Greenlandic",
-    "i": 1829,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Nuuk,Ilulissat,Sisimiut,Qaqortoq,Aasiaat,Maniitsoq,Paamiut,Greenland,Kalaallit Nunaat,Arctic"
   },
   {
     "name": "Garo",
@@ -5850,15 +5805,6 @@
     "b": "UtqiaÄ¡vik,Kotzebue,Point Hope,Noorvik,Selawik,Wainwright,Kivalina,Buckland,Kiana,Ambler"
   },
   {
-    "name": "Albanian",
-    "i": 1954,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tirana,Pristina,DurrÃ«s,VlorÃ«,ShkodÃ«r,Elbasan,Fier,KorÃ§Ã«,Berat,GjakovÃ«,PejÃ«,Prizren"
-  },
-  {
     "name": "Alutaguse",
     "i": 1955,
     "min": 4,
@@ -5992,15 +5938,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kalpetta,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Pozhuthana,Muttil,Ambalavayal,Nenmeni,Noolpuzha,Pulpally,Mullankolly"
-  },
-  {
-    "name": "Isthmus Zapotec",
-    "i": 1984,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "JuchitÃ¡n de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,UniÃ³n Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
   },
   {
     "name": "Italian Eritrean",
@@ -6343,15 +6280,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kotagiri,Ooty,Coonoor,Gudalur,Pykara,Masinagudi,Mudumalai,Bikkatti,Kunda,Kallikorai,Sholur,Thunakeri"
-  },
-  {
-    "name": "Kumbaran",
-    "i": 2047,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kalpetta,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Muttil,Pozhuthana,Thariyode,Panamaram,Kaniyambetta,Padinjarathara,Vengappally"
   },
   {
     "name": "Paniya",
@@ -7074,15 +7002,6 @@
     "b": "Yoshkar-Ola,Volzhsk,Zvenigovo,Morki,Sernur,Orshanka,Kuzhener,Paranga,Mari-Turek,Kilemary,Medvedevo,Sovetsky"
   },
   {
-    "name": "Northwestern Mari",
-    "i": 2231,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yaransk,Kiknur,Tuzha,Sanchursk,Tonshaevo,Sharanga,Lipsha,Varnavino,Uren,Shakhunya,Vetluga,Tonkino"
-  },
-  {
     "name": "Proto-Mari",
     "i": 2232,
     "min": 4,
@@ -7801,15 +7720,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Syktyvkar,Ukhta,Vuktyl,Pechora,Sosnogorsk,Inta"
-  },
-  {
-    "name": "Northern Sami",
-    "i": 2374,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kautokeino,Karasjok,Tana,BÃ¥tsfjord,Lebesby,Alta,TromsÃ¸"
   },
   {
     "name": "Sanchursk",
