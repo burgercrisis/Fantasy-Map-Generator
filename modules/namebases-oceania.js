@@ -954,15 +954,6 @@
     "b": "Buruwai,Papua New Guinea,Southern Highlands,Mendi,Imbonggu,Nembil,Erave,Laiagam,Kar,Porgera,Mt Hagen"
   },
   {
-    "name": "Basay",
-    "i": 1416,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Basay,Taiwan,Chenggong,Donghe,Changbin,Guanshan,Luye,Hualien,Taiwan Pacific Coast"
-  },
-  {
     "name": "Cemuhî",
     "i": 1420,
     "min": 4,

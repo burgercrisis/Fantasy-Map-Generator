@@ -54,15 +54,6 @@
     "b": "Agadir,Tizi Ouzou,BÃƒÂ©jaÃƒÂ¯a,Ouargla,Tamanrasset,Imilchil,Taroudant,Tafraout,Tiznit,Azrou,Midelt,Settat,Marrakech,FÃƒÂ¨s,Tanger,MeknÃƒÂ¨s,Rabat,Oujda,KÃƒÂ©nitra,TÃƒÂ©touan,Safi,El Jadida,BÃƒÂ©ni Mellal"
   },
   {
-    "name": "Sekele",
-    "i": 39,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
-  },
-  {
     "name": "Taa Click",
     "i": 41,
     "min": 3,
@@ -1989,15 +1980,6 @@
     "b": "Upington,Kimberley,Kuruman,Kakamas,Kenhardt,Kathu,Askham,Andriesvale,Augrabies,Grobblershoop,Keimoes,Louisvale,Olifantshoek,Onseepkans,Postmasburg,Putsonderwater,Riemvasmaak,Rietfontein,Danielskuil,Lime Acres,Kanoneiland,Mier,TweeRivieren,MataMata,Nossob,Witdraai,Witsand,DeAar,Prieska,VictoriaWest,Colesberg,Strydenburg,Norvalspont,BarklyWest,Warrenton,Hartswater,JanKempdorp,Delportshoop,Griquatown,Campbell,Ganyesa,Vryburg,SchweizerReneke,Windsorton,Douglas,Calvinia,Nieuwoudtville,Loeriesfontein,Brandvlei,Fraserburg,Sutherland,Carnarvon,Loxton,Richmond,Hanover,Middelburg,GraaffReinet,Philandersbron,Loubos,KleinMier,GrootMier,Noenieput"
   },
   {
-    "name": "Bole-Tangale",
-    "i": 1348,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bole,Kaltungo,Tangale,Billiri,Shongom,Balanga,Gombe State,Nigeria,Yobe,Bauchi"
-  },
-  {
     "name": "Bolon",
     "i": 1349,
     "min": 4,
@@ -2547,15 +2529,6 @@
     "b": "Dass,Bauchi,Plateau State,Nigeria,North Central,West Africa"
   },
   {
-    "name": "Daza",
-    "i": 1663,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Daza,Faya-Largeau,Mao,Chad,Sahara Desert,North Africa,Chad Basin"
-  },
-  {
     "name": "Dazawa language",
     "i": 1664,
     "min": 4,
@@ -2716,15 +2689,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Diri,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
-  },
-  {
-    "name": "Dizoid",
-    "i": 1704,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dizoid,Majang,Dizi,Sheko,Southwest Ethiopia,Omo Valley"
   },
   {
     "name": "Doko",

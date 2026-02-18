@@ -3915,15 +3915,6 @@
     "b": "Khaling,Khotang,Udayapur,Bhojpur,Nepal,Himalayas,Kirat Region,Eastern Nepal"
   },
   {
-    "name": "Koi",
-    "i": 1495,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Koi,Kalahari,Ghanzi,Kang,Sehitwa,Maun,Botswana,Southern Africa,Kalahari Desert"
-  },
-  {
     "name": "Tilung",
     "i": 1496,
     "min": 4,
@@ -3931,15 +3922,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tilung,Solukhumbu,Salleri,Taksindu,Nepal,Himalayas,Khumbu Region,Mount Everest"
-  },
-  {
-    "name": "Mazatec",
-    "i": 1499,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mazatec,Huatla de JimÃ©nez,TeotitlÃ¡n de Flores MagÃ³n,MazatlÃ¡n,Ayautla,Oaxaca,Mexico"
   },
   {
     "name": "Hinuq",
@@ -8017,15 +7999,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Khunzakh,Gunib,Chokh,Sogratl,Gimry,Untsukul,Gergebil,Gotsatl,Koroda,Tidib,Tlokh,Batlaich,Archi,Rugudzha,Teletl,Karata,Mehelta,Dylym,Inkhokvari,Khushtada,Magharul,Bolmac,Gamzatov,Shamil,Hadji Murad"
-  },
-  {
-    "name": "Yerukala",
-    "i": 2432,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kurru,Kulavatha,Yerukala,Andhra,Telangana,Rayalaseema,Vizianagaram,Srikakulam,Eturnagaram,Basha,Fortune,Soothsayer,Koravan,Kaikadi,Burgula,Kancheepuram"
   },
   {
     "name": "Newar",
