@@ -531,15 +531,6 @@
     "b": "Santa Catarina,Quitovac,San Miguel,MisiÃ³n San Javier,Chihuahua,San Ignacio,Terry,Cucurpe,Caborca,Pitiquito"
   },
   {
-    "name": "Tiriyó",
-    "i": 5831,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "TiriyÃ³,MaturucÃ¡,Mucambira,SÃ£o Francisco,ParanÃ¡,MaringÃ¡,Araruna,Cascavel,Foz do IguaÃ§u,Campo MourÃ£o"
-  },
-  {
     "name": "Palikur",
     "i": 6002,
     "min": 4,
@@ -583,15 +574,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Barra do Corda,Formosa da Serra,Arame,Buritirana,Maranhao,Grajau,Presidente Dutra,Colinas,Ribamar Fiquene,Sao Luis,Imperatriz,Boa Vista"
-  },
-  {
-    "name": "Língua Geral Amazônica",
-    "i": 6621,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Belem,Santarem,Manaus,Macapa,Boa Vista,Rio Branco,Porto Velho,Manacapuru,Parintins,Itacoatiara,Coari,Tefe"
   },
   {
     "name": "Mixe",
@@ -1681,15 +1663,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Inuvik,Tuktoyaktuk,Paulatuk,Sachs Harbour,Ulukhaktok,Aklavik,Tsiigehtchic,Fort McPherson,Old Crow,Dawson City"
-  },
-  {
-    "name": "Blackfoot",
-    "i": 13243,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Browning,Heart Butte,Starr School,Brocket,Cardston,Gleichen,Stand Off,Cluny,Morley,Eden Valley,Big Horn,Tsuut'ina"
   },
   {
     "name": "Puinave",

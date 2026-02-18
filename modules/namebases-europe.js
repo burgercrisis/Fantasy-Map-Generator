@@ -2799,15 +2799,6 @@
     "b": "Venice,Verona,Padua,Vicenza,Treviso,Mestre,Chioggia,Bassano del Grappa,San Dona di Piave,Schio,Mira,Belluno"
   },
   {
-    "name": "Proto-Sami",
-    "i": 879,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "TromsÃ¸,Kirkenes,Rovaniemi,Inari,Utsjoki,Karasjok,Kautokeino,Alta,Hammerfest,VadsÃ¸,Tana,Lakselv"
-  },
-  {
     "name": "Forest Nenets",
     "i": 880,
     "min": 4,

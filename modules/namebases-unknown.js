@@ -8595,15 +8595,6 @@
     "b": "Tashkent,Samarkand,Bukhara,Namangan,Andijan,Fergana,Nukus,Qarshi,Qoqand,Jizzakh,Chirchiq,Margilan,Urgench,Angren,Bekabad,Denau,Kitab,Navoiy,Termez"
   },
   {
-    "name": "Kyrgyz",
-    "i": 2618,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bishkek,Osh,Jalal-Abad,Karakol,Tokmok,Talas,Batken,Isfana,Kadamjay,Kyzyl-Kiya,Sulukta,Tash-Kumyr,Kemin,Naryn,Cholpon-Ata,Balykchy,KarakolTown"
-  },
-  {
     "name": "Uyghur",
     "i": 2619,
     "min": 4,

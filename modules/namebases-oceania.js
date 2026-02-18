@@ -783,15 +783,6 @@
     "b": "Baruga,Papua New Guinea,Oro Province,Ioma,Kokoda,Gona,Buna,Samarai,Popondetta,Morobe"
   },
   {
-    "name": "Basap",
-    "i": 1134,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Basap,Sintang,Setulam,Balikpapan,Bangarmasin,Samarinda,Penajam,Tanjung Selor,Sangatta,Berau,Muara Muntai"
-  },
-  {
     "name": "Bauwaki",
     "i": 1142,
     "min": 4,
@@ -817,15 +808,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Biangai,Morobe,Wau,Bulolo,Lae,Popondetta,Kokopo,Rabaul,Madang,Mount Hagen,Goroka,Port Moresby"
-  },
-  {
-    "name": "Bima",
-    "i": 1300,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bima,Sumbawa,Dompu,Mbojo,Raba,Wawo,Sape,Lambitu,Bele,Kawindoto,Hu'u,Werang"
   },
   {
     "name": "Binahari",
@@ -2473,24 +2455,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Suva,Nausori,Nadi,Lautoka,Ba,Tavua,Rakiraki,Labasa,Savusavu,Taveuni,Sigatoka,Navua,Levuka,Seaqaqa,Nabouwalu,Nailaga,Keiyasi,Korolevu,Malolo,Lomawai,Nausori Highlands,Nasinu,Lami,Kinoya,Nakasi,Rewa,Nailaga Village,Cuvu,Naweni,Vatutavui"
-  },
-  {
-    "name": "Papuan",
-    "i": 2671,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tari,Mendi,Wabag,Ialibu,Koroba,Kagua,Kundiawa,Kerowagi,Minj,Banz,Goroka,Kainantu,Henganofi,Chuave,Obura,Wapenamanda,Kompiam,Porgera,Enga,Okapa,Menyamya,Finschhafen,Kikori,Tapu,qabiao_20214_u1,qabiao_20214_u2,qabiao_20214_u3,qabiao_20214_u4,qabiao_20214_u5,qabiao_20214_u6,qabiao_20214_u7,qabiao_20214_u8,qabiao_20214_u9,qabiao_20214_u10,qabiao_20214_u11,qabiao_20214_u12"
-  },
-  {
-    "name": "Tokelauan",
-    "i": 2684,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Atafu,Fakaofo,Nukunonu,Fale,Tokelau,Atafu Village,Fakaofo Village,Nukunonu Village,Fenuafala,Fale islet"
   },
   {
     "name": "Nauruan",
