@@ -1035,15 +1035,6 @@
     "b": "Afade,KoussÃƒÂ©ri,Makari,Goulfey,Blangoua,Fotokol,Logone-Birni,Waza,Mora,Meri,Bogo,Maroua"
   },
   {
-    "name": "Afar",
-    "i": 753,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Djibouti,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Assab,Edd,Ti'o,Afambo,Asaita,Dubti"
-  },
-  {
     "name": "Afrikaans",
     "i": 754,
     "min": 4,
@@ -3852,15 +3843,6 @@
     "b": "-SelÃƒÂ¨,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
   },
   {
-    "name": "Afar",
-    "i": 2359,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Djibouti,Tadjoura,Dikhil,Assab,Obock,Mersa Fatma,Edd"
-  },
-  {
     "name": "African Romance",
     "i": 2360,
     "min": 4,
@@ -3877,15 +3859,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Cape Town,Pretoria,Johannesburg,Durban,Port Elizabeth,Bloemfontein,Pietermaritzburg"
-  },
-  {
-    "name": "Agaw",
-    "i": 2365,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Debre Birhan,Debre Markos,Dessie,Bahir Dar,Gonder,Debre Tabor"
   },
   {
     "name": "Laal",

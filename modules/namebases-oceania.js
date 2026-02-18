@@ -1377,15 +1377,6 @@
     "b": "Fiwaga,Wabag,Kagua,Tapinin,Papua New Guinea,Enga Province,Western Highlands,Oceania"
   },
   {
-    "name": "Flores-Lembata",
-    "i": 1847,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Maumere,Larantuka,Lewoleba,Nusa,Tanjung Bunga,East Nusa Tenggara,Indonesia,Lembata Island"
-  },
-  {
     "name": "Foe",
     "i": 1848,
     "min": 4,
@@ -2403,15 +2394,6 @@
     "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
   },
   {
-    "name": "Lampung",
-    "i": 2317,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bandar Lampung,Metro,Pesawaran,Pringsewu,South Lampung,Tanggamus,West Lampung,Way Kanan,Way Panji"
-  },
-  {
     "name": "Land Dayak",
     "i": 2318,
     "min": 4,
@@ -2428,15 +2410,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Goroka,Kainantu,Kundiawa,Mendi,Mt Hagen,Wabag,Chimbu,Jiwaka,Hela,Enga"
-  },
-  {
-    "name": "Lampung",
-    "i": 2402,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bandar Lampung,Metro,Pesawaran,Pringsewu,South Lampung,Tanggamus,West Lampung,Way Kanan,Way Panji"
   },
   {
     "name": "Land Dayak",
