@@ -5787,15 +5787,6 @@
     "b": "Ghadames,Ghat,Nalut,Tataouine,Medenine,Gabès,Matmata,Kebili,Tozeur,Gafsa,El Hamma,Douz,Ben Gardane,Dehiba,Remada,Zarzis,Sidi Bouzid,Kasserine,Sfax,Sidi Ali Ben Aoun,Bir Hfay,Beni Khedache,Mareth,Tameghza,Nefta,Chébika,Tamerza,Mides,El Borma,Beni M'Tir,Thala,Fériana,Haïdra,Kasserine,Sbeitla,Maknassy,Mezzouna,Dar Chichou,Rebaya,Sidi Ali Belabass,El Guettar,Redeyef,Moulares,Oum El Arouss,Mdhilla,Metlaoui,Lawdhat,Menzel Bourguiba,Ras Jebel,Ghar El Melh,Bizerte,Sejnane,Tabarka,Aïn Draham,Fernana,Ghardimaou,Jendouba,Bou Salem,El Kef,Tajerouine,Nebbeur,Sakiet Sidi Youssef,Kalaat Senan,Jérissa,El Aroussa,Siliana,Bou Arada,Gaafour,Kesra,Dahmani,Makthar,Rouhia,Sidi Bouzid,Mezzouna,Sabala,Bir El Hafey,Cebbala Ouled Asker,Sidi Ali Ben Aoun,Menzel Bouzaiane,Essâaida,Souk Lahad,Rejiche,Chahda,Jelma,Baten El Hawa,Hajeb El Ayoun,Souani,Kondar,Thélepte,Fériana,Thala,Haidra,Kasserine,Sbeitla"
   },
   {
-    "name": "Gta",
-    "i": 1871,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gta,Andaman Islands,India,Bay of Bengal,South Asia"
-  },
-  {
     "name": "Guiyang",
     "i": 1877,
     "min": 4,
@@ -7245,15 +7236,6 @@
     "b": "Qingdao,Kiaochow,Tsingtao,Litsun,Syfang,Tsangkow,Shatsykou,Taitungchen,Taihsi-chen,Kaomi,Tsimo,Kiahsien"
   },
   {
-    "name": "Kiliwa",
-    "i": 2164,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ensenada,San-Quintin,Maneadero,El-Sauzal,Francisco-Zarco,Camalu,Vicente-Guerrero,Colonet,Real-del-Castillo,Santo-Tomas,San-Vicente,Valle-de-la-Trinidad"
-  },
-  {
     "name": "Kim Mun",
     "i": 2167,
     "min": 4,
@@ -8676,24 +8658,6 @@
     "b": "Derbent,Makhachkala,Khasavyurt,Kizlyar,Buynaksk"
   },
   {
-    "name": "Lhomi",
-    "i": 2420,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kampong Cham,Kratie,Stung Treng,Ratanakiri,Mondulkiri"
-  },
-  {
-    "name": "Lhokpu",
-    "i": 2421,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Thimphu,Paro,Punakha,Wangdue Phodrang,Trongsa,Bumthang"
-  },
-  {
     "name": "Lingling",
     "i": 2427,
     "min": 4,
@@ -8719,15 +8683,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Petrozavodsk,Kondopoga,Sortavala,Kostomuksha,Suoyarvi,Pitkyaranta"
-  },
-  {
-    "name": "Yakkha",
-    "i": 2430,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lubumbashi,Kolwezi,Likasi,Kamina,Mwene-Ditu,Kananga"
   },
   {
     "name": "Avar",
