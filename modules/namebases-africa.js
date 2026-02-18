@@ -4500,7 +4500,7 @@
     "b": "Beba,Benakuma,Menchum,Bamenda,Mbekunyam,Nsoka,Muala,Mbamba,Shisong,Fombi,Agah,Ntamecheh,Widikum"
   },
   {
-    "name": "Ç‚Kx'ao'ae",
+    "name": "ǂKx'ao'ae",
     "i": 967,
     "min": 4,
     "max": 11,
