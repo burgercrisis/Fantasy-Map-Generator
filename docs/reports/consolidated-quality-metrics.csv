@@ -1633,8 +1633,8 @@ Rioplatense Spanish,237,SouthAmerica,namebases-southAmerica.js,5,small,FALSE,FAL
 Uruguayan Portuguese,1856,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pt-UY,1000-9999,100
 Uruguayan Spanish,1857,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,es-UY,1000-9999,85
 Venezuelan Spanish,657,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-VE,1-999,100
-Achagua ,744,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1-999,90
-Awakatek ,75,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,nic-GH,1-999,75
+Achagua,744,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Awakatek,75,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1-999,85
 Movima,2435,SouthAmerica,namebases-southAmerica.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,85
 Nonuya,2436,SouthAmerica,namebases-southAmerica.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,85
 Ocaina,2437,SouthAmerica,namebases-southAmerica.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,nic-GH,1000-9999,85
@@ -1682,14 +1682,14 @@ Holikachuk,6636,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALS
 Koyukon,6637,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Upper Kuskokwim,6639,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Upper Tanana,6640,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Mojave ,1202,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Quechan ,1203,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Yavapai ,1206,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Cayuga ,1208,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Oneida ,1209,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Onondaga ,1210,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Seneca ,1211,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
-Tuscarora ,1212,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,nic-GH,1000-9999,90
+Mojave,1202,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Quechan,1203,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Yavapai,1206,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Cayuga,1208,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Oneida,1209,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Onondaga,1210,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Seneca,1211,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Tuscarora,1212,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Macuna,6653,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Cubeo,6654,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Desano,6655,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
