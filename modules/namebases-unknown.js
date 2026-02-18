@@ -1998,15 +1998,6 @@
     "b": "Hanoi,HoChiMinhCity,Haiphong,CanTho,DaNang,Hue,HaiDuong,NamDinh,Vinh,QuangNinh,BienHoa,LongXuyen"
   },
   {
-    "name": "Bengali",
-    "i": 1029,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dhaka,Chittagong,Sylhet,Rajshahi,Bogra,Khulna,Comilla,Barisal,Mymensingh,Rangpur,Feni,Narayanganj"
-  },
-  {
     "name": "Bengali Portuguese Creole",
     "i": 1030,
     "min": 4,

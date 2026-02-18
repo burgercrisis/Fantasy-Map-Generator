@@ -1008,15 +1008,6 @@
     "b": "Belo Horizonte,Uberlândia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinópolis,Varginha,Ouro Preto"
   },
   {
-    "name": "Tamil",
-    "i": 545,
-    "min": 4,
-    "max": 11,
-    "d": "dra-IN",
-    "m": 0,
-    "b": "Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Tiruppur,Erode,Vellore,Thoothukudi,Thanjavur,Dindigul,Ranipet,Sivakasi"
-  },
-  {
     "name": "Philippine Spanish",
     "i": 554,
     "min": 4,

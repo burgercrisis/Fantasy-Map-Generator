@@ -360,15 +360,6 @@
     "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum"
   },
   {
-    "name": "Tamil",
-    "i": 545,
-    "min": 4,
-    "max": 11,
-    "d": "dra-IN",
-    "m": 0,
-    "b": "Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Tiruppur,Erode,Vellore,Thoothukudi,Thanjavur,Dindigul,Ranipet,Sivakasi"
-  },
-  {
     "name": "Berta",
     "i": 580,
     "min": 4,
@@ -1188,15 +1179,6 @@
     "b": "Bauchi,Misau,Katagum,Azare,Ningi,Jama'are,Dass,Tafawa Balewa,Bogoro,Shira,Giade,Warji"
   },
   {
-    "name": "Akan",
-    "i": 794,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kumasi,Accra,Sekondi-Takoradi,Tamale,Sunyani,Obuasi,Koforidua,Cape Coast,Techiman,Tema,Tarkwa,Dunkwa"
-  },
-  {
     "name": "Aku",
     "i": 810,
     "min": 4,
@@ -1827,15 +1809,6 @@
     "b": "Bembe,Butembo,Ekonda,Mbuji,Monie,Bokungo,Kikwit,Boyela,Ndoko,Kabarega,Bikoro"
   },
   {
-    "name": "Comorian",
-    "i": 1233,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Moroni,Mutsamudu,Fomboni,Domoni,Mirontsi,Koungou,Mamoudzou,Dzaoudzi,Sada,Chirongui,Pamandzi,Mtsangamouji"
-  },
-  {
     "name": "Fwe",
     "i": 1234,
     "min": 4,
@@ -1852,15 +1825,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Belneng,Papua New Guinea,Enga,Mendi,Mount Hagen,Goroka,Wabag,Lae,Port Moresby,Kokopo,Rabaul,Wau"
-  },
-  {
-    "name": "Bete",
-    "i": 1237,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bete,Guiglo,Daloa,Issia,Duekoue,Man,Sassandra,San Pedro,TaÃƒÂ¯,Gagnoa,BouaflÃƒÂ©"
   },
   {
     "name": "Bfy",
@@ -2529,15 +2493,6 @@
     "b": "Ometo,Wolayta,Soddo,Ethiopia,Omo Valley,Southwest Ethiopia"
   },
   {
-    "name": "Chichewa",
-    "i": 1585,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chichewa,Lilongwe,Blantyre,Zomba,Malawi,Central Africa,Lake Malawi"
-  },
-  {
     "name": "Cibak language",
     "i": 1613,
     "min": 4,
@@ -2763,15 +2718,6 @@
     "b": "Tawellemmet,Mosul,Ain Sefra,Tamanrasset,Algeria,Sahara Desert,North Africa"
   },
   {
-    "name": "Chichewa",
-    "i": 1694,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chichewa,Lilongwe,Blantyre,Zomba,Malawi,Central Africa,Lake Malawi"
-  },
-  {
     "name": "Dghwede language",
     "i": 1697,
     "min": 4,
@@ -2779,15 +2725,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Dghwede,Gwoza,Bama,Bornu State,Nigeria,North East,West Africa"
-  },
-  {
-    "name": "Dida",
-    "i": 1700,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dida,Daloa,Abidjan,Yamoussoukro,CÃƒÂ´te d'Ivoire,West Africa"
   },
   {
     "name": "Diri language",
@@ -3103,15 +3040,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Faya-Largeau,Mao,Bardai,Biltine,Chad,Sahara Desert,North Africa,Chad Basin,Tibesti Mountains"
-  },
-  {
-    "name": "Dida",
-    "i": 1803,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Daloa,Abidjan,Yamoussoukro,Issia,San-PÃƒÂ©dro,Bonoua,CÃƒÂ´te d'Ivoire,West Africa,Ivorian Coast"
   },
   {
     "name": "Diri",
@@ -3645,15 +3573,6 @@
     "b": "Batna,Khenchela,Oum el Bouaghi,TÃƒÂ©bessa,Biskra,SÃƒÂ©tif,Bordj Bou ArrÃƒÂ©ridj,M'Sila,Djelfa,Laghouat,Tiaret,Saida"
   },
   {
-    "name": "Telugu",
-    "i": 2093,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Kurnool,Rajahmundry,Tirupati,Kakinada,Anantapur,Kadapa,Nizamabad"
-  },
-  {
     "name": "Shanjo",
     "i": 2095,
     "min": 4,
@@ -3769,15 +3688,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Bauchi,Misau,Katagum,Azare,Jama'are,Ningi,Dass,Tafawa Balewa,Toro,Alkaleri,Kirfi,Bogoro"
-  },
-  {
-    "name": "Akan",
-    "i": 2222,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kumasi,Accra,Cape Coast,Sekondi-Takoradi,Koforidua,Sunyani,Obuasi,Tarkwa,Dunkwa-on-Offin,Oda,Winneba,Techiman"
   },
   {
     "name": "Kituba",
@@ -3978,15 +3888,6 @@
     "b": "Debre Birhan,Debre Markos,Dessie,Bahir Dar,Gonder,Debre Tabor"
   },
   {
-    "name": "Akan",
-    "i": 2369,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kumasi,Cape Coast,Takoradi,Tema,Accra,Sunyani,Tamale,Wa"
-  },
-  {
     "name": "Laal",
     "i": 2395,
     "min": 4,
@@ -4012,24 +3913,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tripoli,Benghazi,Misrata,Bayda,Zawiya,Zliten,Ajdabiya,Tobruk,Sabha,Derna,Sirte,Gharyan,Khoms,Bani Walid,Nalut,Ghat,Murzuq,Ubari,Waddan,Hun,Sokna,Jalu,Awjila,Kufra,Tazerbo,Rebiana,Tmassa,Gatrun,Zuwara,Sabratha"
-  },
-  {
-    "name": "Limba",
-    "i": 2425,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Makeni,Kabala,Bumbuna,Koidu,Tonkolili,Magburaka"
-  },
-  {
-    "name": "Lingala",
-    "i": 2426,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kinshasa,Brazzaville,Kisangani,Mbandaka,Kananga,Lubumbashi"
   },
   {
     "name": "Boro-Garo",
