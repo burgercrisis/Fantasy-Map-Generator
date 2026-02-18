@@ -432,15 +432,6 @@
     "b": "Padang,Bukittinggi,Payakumbuh,Pariaman,Solok,Padang Panjang,Sawahlunto,Batusangkar,Agam,Pasaman,Painan,Padang Pariaman,Lubuk Basung,Sijunjung,Dharmasraya,Maninjau,Harau,Singkarak,Tanah Datar,Mentawai,Padang Lawas,Mandailing,Bonjol,Sungai Puar,Batu Sangkar"
   },
   {
-    "name": "Lampung",
-    "i": 135,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bandar Lampung,Metro,Kalianda,Kotabumi,Liwa,Krui,Pringsewu,Terbanggi Besar,Gunung Sugih,Mesuji,Way Kanan,Tulang Bawang,Menggala,Blambangan Umpu"
-  },
-  {
     "name": "Flores-Lembata",
     "i": 141,
     "min": 4,
@@ -448,24 +439,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Ende,Maumere,Sikka,Wolowaru,Detusoko,Kelimutu,Bajawa,Ruteng,Labuan Bajo,Manggarai,Larantuka,Lembata,Lewoleba,Adonara,Solor,Riung,Mbay,Nangapanda,Paga,Aimere,Jerebuu,Todo,Golewa,Wewo,Mautapaga"
-  },
-  {
-    "name": "Timoric",
-    "i": 143,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kupang,Atambua,Kefamenanu,Soe,Oecusse,Dili,Baucau,Same,Viqueque,Lospalos,Ainaro,Suai,Maliana,Ermera"
-  },
-  {
-    "name": "Minahasan",
-    "i": 147,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Manado,Tomohon,Tondano,Airmadidi,Bitung,Minahasa,Kawangkoan,Tataaran,Tombulu,Tondano Selatan,Amurang,Remboken"
   },
   {
     "name": "Sangiric",
@@ -880,15 +853,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Ryukyu,Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami"
-  },
-  {
-    "name": "Champenois",
-    "i": 325,
-    "min": 4,
-    "max": 11,
-    "d": "ro-FR",
-    "m": 0,
-    "b": "Troyes,Châlons-en-Champagne,Reims,Épernay,Sézanne,Châlons-sur-Marne,Vitry-le-François,Saint-Dizier,Château-Thierry"
   },
   {
     "name": "Cosentino",
@@ -1647,15 +1611,6 @@
     "b": "Nineveh,Assur,Nimrud,Khorsabad,DurSharrukin,Arbela,Ashur,Calah,Erbil,Duhok,Sulaymaniyah,Kirkuk"
   },
   {
-    "name": "Buryat",
-    "i": 958,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "UlanUde,Severobaikalsk,Kyakhta,Babushkin,Gusinoozyorsk,Zakamensk,Selenginsk,Tankhoy,Nizhneangarsk,Barguzin,UstBarguzin,Ivolginsk"
-  },
-  {
     "name": "Daur",
     "i": 959,
     "min": 4,
@@ -2106,15 +2061,6 @@
     "b": "Barzan,Amadiya,Aradhin,Sarsink,Sorengan,Betmane,Diza,Halabja,Dohuk,Zakho,Sandal,Amediye"
   },
   {
-    "name": "Basum",
-    "i": 1137,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Basum,Mali,Sikasso,Bamako,Kayes,Segou,Mopti,Tombouctou,Gao,Kidal"
-  },
-  {
     "name": "Bathari",
     "i": 1139,
     "min": 4,
@@ -2212,15 +2158,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Xunhua,Qinghai,Ganjia,Hualong,Xining,Tongren,Huangzhong,Minhe,Huzhu,Gamnan,Datong"
-  },
-  {
-    "name": "Hlai",
-    "i": 1158,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sanya,Dongfang,Wanning,Lingshui,Qionghai,Chengmai,Wenchang,Danzhou,Haikou,Lecheng"
   },
   {
     "name": "Mulam",

@@ -441,15 +441,6 @@
     "b": "Mendi,Tari,Ialibu,Porgera,Wabag,Mount Hagen,Kundiawa,Goroka,Kagua,Nipa,Pangia,Kompiam,Koroba,Tambul,Erave"
   },
   {
-    "name": "Asmat",
-    "i": 197,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Agats,Atsj,Asmat,Unir,Sawa Erma,Ewer,Suator,Atat,Betcbamu,Fayit,Aswi,Timika,Merauke,Pirimapun,Yepem"
-  },
-  {
     "name": "Asmat Citak",
     "i": 198,
     "min": 4,

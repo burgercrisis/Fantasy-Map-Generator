@@ -1728,15 +1728,6 @@
     "b": "Nineveh,Assur,Nimrud,Khorsabad,DurSharrukin,Arbela,Ashur,Calah,Erbil,Duhok,Sulaymaniyah,Kirkuk"
   },
   {
-    "name": "Buryat",
-    "i": 958,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "UlanUde,Severobaikalsk,Kyakhta,Babushkin,Gusinoozyorsk,Zakamensk,Selenginsk,Tankhoy,Nizhneangarsk,Barguzin,UstBarguzin,Ivolginsk"
-  },
-  {
     "name": "Daur",
     "i": 959,
     "min": 4,
@@ -2590,15 +2581,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Reykjavik,Akureyri,KÃ³pasker,Vestmannaeyjar,Bakki,Biludalur,GrundarfjÃ¶rdur,ReynisfjÃ¶rdur,SiglufjÃ¶rdur,Iceland,Basque"
-  },
-  {
-    "name": "Basum",
-    "i": 1137,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Basum,Mali,Sikasso,Bamako,Kayes,Segou,Mopti,Tombouctou,Gao,Kidal"
   },
   {
     "name": "Bathari",
