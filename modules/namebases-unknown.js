@@ -396,60 +396,6 @@
     "b": "Fada N'gourma,Pama,Diapaga,BogandÃ©,Kantchari,Matiacoali,GayÃ©ri,PiÃ©la,Bilanga,Manni,Botou,Tambaga"
   },
   {
-    "name": "Cree",
-    "i": 725,
-    "min": 4,
-    "max": 11,
-    "d": "cr-CA",
-    "m": 0,
-    "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,OujÃ©-Bougoumou"
-  },
-  {
-    "name": "Ojibwe",
-    "i": 726,
-    "min": 4,
-    "max": 11,
-    "d": "oj-CA",
-    "m": 0,
-    "b": "Kenora,Thunder Bay,Sault Ste. Marie,Red Lake,Fort Frances,Dryden,Sioux Lookout,Rainy River,Nipigon,Geraldton,Manitouwadge,Marathon"
-  },
-  {
-    "name": "Yupik",
-    "i": 727,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga"
-  },
-  {
-    "name": "Inuktitut",
-    "i": 728,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Panniqtuuq,Igloolik,Pond Inlet,Cape Dorset"
-  },
-  {
-    "name": "Cherokee",
-    "i": 729,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tahlequah,Park Hill,Stilwell,Sallisaw,Gore,Vian,Muldrow,Westville,Hulbert,Locust Grove,Salina,Jay"
-  },
-  {
-    "name": "Apache",
-    "i": 730,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,Seven Mile,McNary,East Fork,Cedar Creek"
-  },
-  {
     "name": "Athabaskan",
     "i": 731,
     "min": 4,
@@ -8604,33 +8550,6 @@
     "b": "Shillong,Jowai,Nongstoin,Mairang,Nongpoh,Cherrapunji,Mawkyrwat,Pynursla,Mawphlang,Panisagar,Dawki,Mawlynnong,Smit,Umsning"
   },
   {
-    "name": "Cree",
-    "i": 2577,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Chisasibi,Wemindji,Waskaganish,Whapmagoostui,Eastmain,Waswanipi,Mistissini,Nemaska,Ouje-Bougoumou,Moose Factory,Moosonee,Attawapiskat,Kashechewan,Fort Albany,Peawanuck,Wabowden,Norway House,Cross Lake,Pukatawagan,The Pas,La Ronge,Pelican Narrows,Sandy Bay,Opaskwayak,Deschambault,Misipawistik,Thompson,Ochapowace,Kahkewistahaw,Red Earth"
-  },
-  {
-    "name": "Ojibwe",
-    "i": 2578,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sagkeeng,Wikwemikong,Manitoulin,Garden River,Batchewana,Sheshegwaning,Serpent River,Temagami,Nipissing,Dokis,Alderville,Curve Lake,Hiawatha,Beausoleil,Rama,Georgina Island,Saugeen,Nawash,Saugeen Shores,Whitefish River,Atikameksheng,Mississauga,Couchiching,Rainy River,Lake of the Woods,Lac Seul,Lac La Croix,Mille Lacs,Red Lake,Grand Portage"
-  },
-  {
-    "name": "Cherokee",
-    "i": 2583,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Chota,Tanasi,Kituwa,Nikwasi,Cowee,Tugaloo,Keowee,Etowah,New Echota,Oostanaula,Hiwassee,Toqua,Tellico,Tomotley,Seneca,Tuskegee,Coosa,Chiaha,Chilhowee,Citico,Mialoquo,Ustanali,Running Water,Nickajack,Ross Landing,Red Clay,Tahlequah,Park Hill,Fort Gibson,Webbers Falls"
-  },
-  {
     "name": "Bengali",
     "i": 2592,
     "min": 5,
@@ -8917,15 +8836,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Unalaska,Akutan,Atka,Adak,Nikolski,King Cove,False Pass,Sand Point,Cold Bay,Dutch Harbor,Biorka,Chernofski,Kaguyak,Kashega,Kinak,Makushin,Morzhovoi,Nazan,Pauloff,Popof,Qagan Toyagungin,Reef Bay,Sedanka,Squaw Harbor,Tanax Angunax,Tigalda,Unga,Uyak,Voznesenka"
-  },
-  {
-    "name": "Yupik",
-    "i": 2682,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bethel,Dillingham,Ekwok,Emmonak,Hooper Bay,Kotlik,Kwethluk,Napaskiak,Nunapitchuk,Oscarville,Pilot Station,Platinum,Quinhagak,Red Devil,Sleetmute,Stebbins,Togiak,Toksook Bay,Tuluksak,Tuntutuliak,Tununak,Nightmute,Chefornak,Chevak,Kongiganak,Kwigillingok,Mekoryuk,Newtok,Akiachak,Akiak"
   },
   {
     "name": "Athabaskan",
