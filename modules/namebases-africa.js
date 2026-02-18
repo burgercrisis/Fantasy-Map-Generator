@@ -1116,15 +1116,6 @@
     "b": "Yambio,Nzara,Ezo,Tombura,Maridi,Ibba,Li-Rangu,Gangura,Ri-Yubu,Obo,Zemio,Rafai"
   },
   {
-    "name": "Yoruba",
-    "i": 772,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ibadan,Lagos,Abeokuta,Akure,Ilorin,Oshogbo,Ife,Oyo,Ogbomosho,Ado Ekiti,Iwo,Ondo"
-  },
-  {
     "name": "Wannu",
     "i": 773,
     "min": 4,
@@ -1215,15 +1206,6 @@
     "b": "Banjul,Serrekunda,Brikama,Bakau,Farafenni,Lamin,Sukuta,Gunjur,Soma,Sierra Leone,Freetown,Waterloo"
   },
   {
-    "name": "Arabic",
-    "i": 815,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Riyadh,Baghdad,Khartoum,Amman,Beirut,Damascus,Kuwait,Doha,Abu Dhabi,Muscat,Sana'a"
-  },
-  {
     "name": "Hamer",
     "i": 870,
     "min": 4,
@@ -1240,15 +1222,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "AddisAbaba,DireDawa,Mekelle,Gondar,BahirDar,Hawassa,Adama,Jimma,Dessie,Shashamane,Hosaena,Kombolcha"
-  },
-  {
-    "name": "Amharic",
-    "i": 872,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Axum,Lalibela,Harar,DebreBerhan,DebreMarkos,DebreTabor,Sebeta,Ambo,Gonder,Woldia,Metekel,Assosa"
   },
   {
     "name": "Boro Garo",
@@ -1312,15 +1285,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "IkotEkpene,Uyo,Abak,Eket,Oron,IkotAbasi,Etinan,Ibiaku,Nsit,Ibeno,EsitEket,Itu"
-  },
-  {
-    "name": "Arabic",
-    "i": 930,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Baghdad,Riyadh,Mecca,Medina,Jersualem,Amman,Beirut,KuwaitCity,Manama,Doha,Muscat"
   },
   {
     "name": "Arin",
@@ -1429,15 +1393,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Gaborone,Francistown,Maun,Molepolobe,Kasane,Mogoditshane,Serowe,Mahalapye,Lobatse,Palapye,Kanye,Mochudi"
-  },
-  {
-    "name": "Wolof",
-    "i": 969,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dakar,Touba,Thies,Rufisque,Kaolack,SaintLouis,Mbour,Ziguinchor,Diourbel,Louga,Fatick,Kolda"
   },
   {
     "name": "Sesotho",
@@ -1699,15 +1654,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Algiers,Oran,Constantine,Annaba,Blida,Batna,Djelfa,Setif,SidiBelAbbes,Biskra,Tebessa,Skikda"
-  },
-  {
-    "name": "Berber",
-    "i": 1032,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Casablanca,Rabat,Fes,Agadir,Sale,Meknes,Kenitra,Tetouan,Safi,Marrakech,Oujda,ElJadida"
   },
   {
     "name": "Tsamai",
@@ -2347,15 +2293,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Central Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssÃ©,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,AbÃ©chÃ©,N'Djamena"
-  },
-  {
-    "name": "Swahili",
-    "i": 1465,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Swahili,Dar es Salaam,Zanzibar,Mombasa,Mwanza,Nairobi,Nakuru,Lamu,Kilifi,Malindi"
   },
   {
     "name": "Xhosa",
@@ -3688,15 +3625,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "han-samhan,Seoul,Busan,Daegu,Incheon,Gwangju,Daejeon,Ulsan,Goyang,Seongnam,Suwon"
-  },
-  {
-    "name": "Hausa",
-    "i": 1934,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hausa,Kano,Kaduna,Zaria,Jos,Maiduguri,Bauchi,Gombe,Yola,Sokoto,Katsina,Dutse,Birnin,Kebbi"
   },
   {
     "name": "Hausa-Gwandara",

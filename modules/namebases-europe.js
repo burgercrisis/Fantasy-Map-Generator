@@ -2430,15 +2430,6 @@
     "b": "SnÃ¥sa,RÃ¸yrvik,Hattfjelldal,Grane,Namsskogan,Overhalla,Steinkjer,Verdal,MerÃ¥ker,Tydal"
   },
   {
-    "name": "Portuguese",
-    "i": 566,
-    "min": 4,
-    "max": 11,
-    "d": "it-PT",
-    "m": 0,
-    "b": "Lisboa,Porto,Coimbra,Braga,Ã‰vora,Faro,SetÃºbal,Aveiro,Viseu,Guarda"
-  },
-  {
     "name": "Proto-Eastern Romance",
     "i": 567,
     "min": 4,
@@ -2907,15 +2898,6 @@
     "b": "Venice,Verona,Padua,Vicenza,Treviso,Mestre,Chioggia,Bassano del Grappa,San Dona di Piave,Schio,Mira,Belluno"
   },
   {
-    "name": "Turkish",
-    "i": 828,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Konya,Adana,Sanliurfa,Gaziantep,Mersin,Diyarbakir,Kayseri"
-  },
-  {
     "name": "Proto-Sami",
     "i": 879,
     "min": 4,
@@ -3013,15 +2995,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
-  },
-  {
-    "name": "Basque",
-    "i": 1776,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bilbao,Donostia,Gasteiz,IruÃ±a,Barakaldo,Vitoria-Gasteiz,Pamplona,Baiona,Getxo,Hondarribia,Zumaia,Basque Country"
   },
   {
     "name": "Abaza",
@@ -3615,7 +3588,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-     "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Priština,Prizren,Uroševac,Gnjilane,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Kukurovići,Prokuplje,Bojnik,Lebane,Doljevac,Gadžin Han,Kraljevo,Zaječar,Vranje,Požarevac,Sremska Mitrovica,Vrbas,Bečej,Novi Bečej,Aradac,Ljig,Lazarevac,Mladenovac,Sopot,Velika Plana,Svilajnac,Aleksinac,Boljevac,Knjaževac,Dimitrovgrad,Vladičin Han,Sijarinska Banja,Gornje Stopanje,Bačka Palanka,Ruma,Inđija,Šid,Beočin,Topola,Varvarin,Ćićevac,Rekovac,Brus,Sokobanja"
+    "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Smederevo,Kruševac,Čačak,Užice,Sombor,Vršac,Zemun,Valjevo,Leskovac,Šabac,Kikinda,Novi Pazar,Smederevska Palanka,Jagodina,Ćuprija,Paraćin,Loznica,Aranđelovac,Gornji Milanovac,Aleksandrovac,Vrnjačka Banja,Raška,Sjenica,Tutin,Priboj,Prijepolje,Pojate,Negotin,Kladovo,Majdanpek,Bor,Svrljig,Bela Palanka,Pirot,Babušnica,Vlasotince,Leposavić,Zvečan,Zubin Potok,Priština,Prizren,Uroševac,Gnjilane,Surdulica,Bosilegrad,Trgovište,Bujanovac,Preševo,Medveđa,Kukurovići,Prokuplje,Bojnik,Lebane,Doljevac,Gadžin Han,Kraljevo,Zaječar,Vranje,Požarevac,Sremska Mitrovica,Vrbas,Bečej,Novi Bečej,Aradac,Ljig,Lazarevac,Mladenovac,Sopot,Velika Plana,Svilajnac,Aleksinac,Boljevac,Knjaževac,Dimitrovgrad,Vladičin Han,Sijarinska Banja,Gornje Stopanje,Bačka Palanka,Ruma,Inđija,Šid,Beočin,Topola,Varvarin,Ćićevac,Rekovac,Brus,Sokobanja"
   },
   {
     "name": "Bulgarian (dedicated)",
