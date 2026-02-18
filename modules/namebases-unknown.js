@@ -3411,15 +3411,6 @@
     "b": "Blang,Menghai,Xishuangbanna,Mengla,Jinghong,Lancang,Menglian,Zhenkang,Gengma,Cangyuan,Lincang,Puer"
   },
   {
-    "name": "Riang",
-    "i": 1274,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Riang,Dehong,Baoshan,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli"
-  },
-  {
     "name": "Bhili",
     "i": 1277,
     "min": 4,
@@ -4390,15 +4381,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Magaric,Syangja,Tanahun,Kaski,Nepal,Western Nepal,Himalayas"
-  },
-  {
-    "name": "Magar",
-    "i": 1564,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Magar,Pokhara,Baglung,Rolpa,Salyan,Nepal,Western Nepal,Himalayas"
   },
   {
     "name": "Mgp",
@@ -5409,15 +5391,6 @@
     "b": "Eravallan,Karur,Trichy,Thanjavur,Tamil Nadu,India,South India"
   },
   {
-    "name": "Ersuic",
-    "i": 1769,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Qiangba,Heishui,Muli,Yanyuan,Panzhihua,Shimian,Xichang,Sichuan,China,Tibet Border,Qiang Region"
-  },
-  {
     "name": "Erzya",
     "i": 1770,
     "min": 4,
@@ -5859,15 +5832,6 @@
     "b": "Ghera,Mulua,Banyo,Touroudine,Libya,East,West Africa"
   },
   {
-    "name": "Hruso",
-    "i": 1896,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hruso,Aka,Angka,Thrizino,Kameng,Arunachal,Dju,Tene,Sou,Piri,Arunachal Pradesh,India"
-  },
-  {
     "name": "Huizhou Chinese",
     "i": 1899,
     "min": 4,
@@ -5911,15 +5875,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Ibanag,Tuguegarao,Ilagan,Abulug,Isabela,Santa Maria,Luzon,Philippines"
-  },
-  {
-    "name": "Idu-Taraon",
-    "i": 1912,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Idu,Taraon,Arunachal Pradesh,India,Dibang Valley,Tibet Border,Assam,Northeast"
   },
   {
     "name": "Iitti",
@@ -5974,15 +5929,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Gawar-Bati,Nuristan,Kunar,Hindu Kush,Kalam,Chitral,Chitral Valley"
-  },
-  {
-    "name": "Gyalrongic",
-    "i": 1928,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gyalrongic,Barkam,Mati,Kaglong,Danba,Litang,Sichuan,China,Tibetan,Plateau,Qiang"
   },
   {
     "name": "Gyeonggi-Seoul Dialect",
@@ -6183,15 +6129,6 @@
     "b": "Basse-Terre,Fort-de-France,Roseau,Castries,Saint-Pierre,Les Abymes,Baie-Mahault,Lamentin,Schoelcher,Le Robert,Sainte-Anne,Vieux Fort"
   },
   {
-    "name": "Bhujel",
-    "i": 1957,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Khairenitar,Damauli,Bandipur,Gorkha,Pokhara,Syangja,Baglung,Parbat,Myagdi,Gulmi,Arghakhanchi,Palpa"
-  },
-  {
     "name": "Yuanmen Hlai",
     "i": 1963,
     "min": 4,
@@ -6226,15 +6163,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Putussibau,Kalis,Mentebah,Bunut,Boyan Tanjung,Pengkadan,Selimbau,Suhaid,Semitau,Silat Hilir,Silat Hulu,Seberuang"
-  },
-  {
-    "name": "Tamangic",
-    "i": 1968,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kathmandu,Lalitpur,Bhaktapur,Nuwakot,Rasuwa,Dhading,Makwanpur,Sindhupalchok,Kavrepalanchok,Dolakha,Ramechhap,Okhaldhunga"
   },
   {
     "name": "Kolami",
@@ -6543,15 +6471,6 @@
     "b": "Hruso,Aka,Miji,Dhammai,Sajolang,Bangni,Nishi,Tagin,Apatani,Hill Miri,Thrizino,Bhalukpong,Jamiri,Buragaon,Palizi,Nafra,Tenga,Bomdila,Dirang,Kalaktang"
   },
   {
-    "name": "Ilocano",
-    "i": 2025,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Laoag,Vigan,Candon,Batac,San Fernando,Agoo,Bangued,Narvacan,Tagudin,Sinait,Cabugao,Magsingal,Santa Lucia,Santa Maria,Bantay,San Juan,Santo Domingo"
-  },
-  {
     "name": "International Sign",
     "i": 2026,
     "min": 4,
@@ -6676,24 +6595,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kotagiri,Ooty,Coonoor,Gudalur,Pykara,Masinagudi,Mudumalai,Bikkatti,Kunda,Kallikorai,Sholur,Thunakeri"
-  },
-  {
-    "name": "Kudiya",
-    "i": 2045,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Madikeri,Virajpet,Somwarpet,Kushalnanagar,Gonikoppal,Pollibetta,Siddapur,Napoklu,Ponnampet,Bhagamandala,Talakaveri,Hudikeri"
-  },
-  {
-    "name": "Kui Dravidian",
-    "i": 2046,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Phulbani,Baliguda,Kotagarh,Tumudibandh,Tikabali,Chakapad,Raikia,Daringbadi,Khajuripada,Nuagaon,Harbhanga,Kantamal"
   },
   {
     "name": "Kumbaran",
@@ -6903,15 +6804,6 @@
     "b": "San Fernando,Angeles,Mabalacat,Guagua,Lubao,Floridablanca,Mexico,Arayat,Candaba,Macabebe"
   },
   {
-    "name": "Karbi",
-    "i": 2108,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "karbi,Diphu,Hamren,Bokajan,Howraghat,Dokmoka,Dongkamukam,Baithalangso,Bakulia,Langhin,Phuloni,Manja,Umrangso"
-  },
-  {
     "name": "Karelian",
     "i": 2109,
     "min": 4,
@@ -6946,15 +6838,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "kashmiri,Srinagar,Jammu,Anantnag,Baramulla,Sopore,Pulwama,Kupwara,Shopian,Ganderbal,Kulgam,Bandipora,Budgam"
-  },
-  {
-    "name": "Kathu",
-    "i": 2114,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "kathu,Wenshan,Maguan,Malipo,Funing,Xichou,Guangnan,Yanshan,Qiubei,Ha-Giang,Dong-Van,Meo-Vac,Yen-Minh"
   },
   {
     "name": "CamsÃ¡",
@@ -7027,15 +6910,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Taunggyi,Lashio,Kengtung,Muse,Tachileik,Namhsan,Hsipaw,Kyaukme,Kalaw,Nyaungshwe,Mong-Hsat,Mong-Hpayak"
-  },
-  {
-    "name": "Tani",
-    "i": 2132,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Itanagar,Pasighat,Along,Ziro,Daporijo,Yingkiong,Roing,Tezu,Anini,Khonsa,Changlang,Bomdila"
   },
   {
     "name": "Mising",

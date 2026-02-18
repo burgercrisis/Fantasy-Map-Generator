@@ -1881,15 +1881,6 @@
     "b": "Paramaribo,Nieuw Nickerie,Lelydorp,Moengo,Albina,Nieuw Amsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Meerzorg"
   },
   {
-    "name": "Cofán",
-    "i": 20189,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
-  },
-  {
     "name": "Fulnio (dedicated)",
     "i": 20190,
     "min": 4,

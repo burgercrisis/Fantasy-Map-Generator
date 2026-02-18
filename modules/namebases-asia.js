@@ -2736,15 +2736,6 @@
     "b": "Bote,Narayanghat,Chitwan,Pokhara,Butwal,Bhairahawa,Kathmandu,Chitwan National Park,Nepal,Terai,Rapti River"
   },
   {
-    "name": "Cofán",
-    "i": 1335,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,Shushufindi,Orellana,Ecuador,Amazon Basin,Putumayo"
-  },
-  {
     "name": "Bodish",
     "i": 1341,
     "min": 4,
@@ -3265,15 +3256,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Magaric,Syangja,Tanahun,Kaski,Nepal,Western Nepal,Himalayas"
-  },
-  {
-    "name": "Magar",
-    "i": 1564,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Magar,Pokhara,Baglung,Rolpa,Salyan,Nepal,Western Nepal,Himalayas"
   },
   {
     "name": "Mgp",
@@ -4050,15 +4032,6 @@
     "b": "Eravallan,Karur,Trichy,Thanjavur,Tamil Nadu,India,South India"
   },
   {
-    "name": "Ersuic",
-    "i": 1769,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Qiangba,Heishui,Muli,Yanyuan,Panzhihua,Shimian,Xichang,Sichuan,China,Tibet Border,Qiang Region"
-  },
-  {
     "name": "Even",
     "i": 1777,
     "min": 4,
@@ -4293,15 +4266,6 @@
     "b": "Ghera,Mulua,Banyo,Touroudine,Libya,East,West Africa"
   },
   {
-    "name": "Hruso",
-    "i": 1896,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hruso,Aka,Angka,Thrizino,Kameng,Arunachal,Dju,Tene,Sou,Piri,Arunachal Pradesh,India"
-  },
-  {
     "name": "Huizhou Chinese",
     "i": 1899,
     "min": 4,
@@ -4338,15 +4302,6 @@
     "b": "Ibanag,Tuguegarao,Ilagan,Abulug,Isabela,Santa Maria,Luzon,Philippines"
   },
   {
-    "name": "Idu-Taraon",
-    "i": 1912,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Idu,Taraon,Arunachal Pradesh,India,Dibang Valley,Tibet Border,Assam,Northeast"
-  },
-  {
     "name": "Goaria",
     "i": 1916,
     "min": 4,
@@ -4381,15 +4336,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Gowro,Afghanistan,Nuristan,Kunar,Hindu Kush,Chitral Valley"
-  },
-  {
-    "name": "Gyalrongic",
-    "i": 1928,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gyalrongic,Barkam,Mati,Kaglong,Danba,Litang,Sichuan,China,Tibetan,Plateau,Qiang"
   },
   {
     "name": "Gyeonggi-Seoul",
@@ -4482,15 +4428,6 @@
     "b": "Basse-Terre,Fort-de-France,Roseau,Castries,Saint-Pierre,Les Abymes,Baie-Mahault,Lamentin,Schoelcher,Le Robert,Sainte-Anne,Vieux Fort"
   },
   {
-    "name": "Bhujel",
-    "i": 1957,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Khairenitar,Damauli,Bandipur,Gorkha,Pokhara,Syangja,Baglung,Parbat,Myagdi,Gulmi,Arghakhanchi,Palpa"
-  },
-  {
     "name": "Yuanmen Hlai",
     "i": 1963,
     "min": 4,
@@ -4516,15 +4453,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Putussibau,Kalis,Mentebah,Bunut,Boyan Tanjung,Pengkadan,Selimbau,Suhaid,Semitau,Silat Hilir,Silat Hulu,Seberuang"
-  },
-  {
-    "name": "Tamangic",
-    "i": 1968,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kathmandu,Lalitpur,Bhaktapur,Nuwakot,Rasuwa,Dhading,Makwanpur,Sindhupalchok,Kavrepalanchok,Dolakha,Ramechhap,Okhaldhunga"
   },
   {
     "name": "Kolami",
@@ -4941,24 +4869,6 @@
     "b": "San Fernando,Angeles,Mabalacat,Guagua,Lubao,Floridablanca,Mexico,Arayat,Candaba,Macabebe"
   },
   {
-    "name": "Karbi",
-    "i": 2108,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "karbi,Diphu,Hamren,Bokajan,Howraghat,Dokmoka,Dongkamukam,Baithalangso,Bakulia,Langhin,Phuloni,Manja,Umrangso"
-  },
-  {
-    "name": "Kathu",
-    "i": 2114,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "kathu,Wenshan,Maguan,Malipo,Funing,Xichou,Guangnan,Yanshan,Qiubei,Ha-Giang,Dong-Van,Meo-Vac,Yen-Minh"
-  },
-  {
     "name": "Kabutra",
     "i": 2116,
     "min": 4,
@@ -5011,15 +4921,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Luocheng,Hechi,Yizhou,Huanjiang,Nandan,Tiane,Donglan,Bama,Fengshan,Duan,Dahua,Mashan"
-  },
-  {
-    "name": "Tani",
-    "i": 2132,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Itanagar,Pasighat,Along,Ziro,Daporijo,Yingkiong,Roing,Tezu,Anini,Khonsa,Changlang,Bomdila"
   },
   {
     "name": "Mising",
