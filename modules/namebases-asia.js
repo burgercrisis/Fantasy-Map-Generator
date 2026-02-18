@@ -108,15 +108,6 @@
     "b": "Libo,Qiannan,Guizhou,Duyun,Sandu,Dushan,Pingtang,Luodian,Huishui,Longli,Guiyang,Anshun"
   },
   {
-    "name": "Dani Papuan",
-    "i": 6981,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wamena,Kurima,Pyramid,Asologaima,Musatfak,Elelim,Bokondini,Karubaga,Tiom,Ninia,Soba,Kurulu,Asolokobal,Welesi,Hubikosi,Huleka,Yiwika,Dugum,Hitigima"
-  },
-  {
     "name": "Eastern Indonesian",
     "i": 52,
     "min": 4,
@@ -160,15 +151,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Khabarovsk,Komsomolsk,Amursk,Solnechny,Nikolayevsk,Okhotsk,De-Kastri,Sovetskaya,Gavan,Vladivostok,Nakhodka,Magadan,Aldan,Blagoveshchensk,Birobidzhan,Tynda,Skovorodino,Belogorsk,Khandyga"
-  },
-  {
-    "name": "Shipibo-Conibo Amazonian",
-    "i": 3097,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pucallpa,Yarinacocha,Contamana,Requena,Masisea,Iparia,Curimana,Boqueron,Calleria,Campo Verde,San Alejandro,Aguaytia,Tahuania,Puerto Esperanza,Iquitos,Nauta,Lagunas,Jeberos,Sarayacu"
   },
   {
     "name": "Iban",
@@ -432,24 +414,6 @@
     "b": "Padang,Bukittinggi,Payakumbuh,Pariaman,Solok,Padang Panjang,Sawahlunto,Batusangkar,Agam,Pasaman,Painan,Padang Pariaman,Lubuk Basung,Sijunjung,Dharmasraya,Maninjau,Harau,Singkarak,Tanah Datar,Mentawai,Padang Lawas,Mandailing,Bonjol,Sungai Puar,Batu Sangkar"
   },
   {
-    "name": "Flores-Lembata",
-    "i": 141,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ende,Maumere,Sikka,Wolowaru,Detusoko,Kelimutu,Bajawa,Ruteng,Labuan Bajo,Manggarai,Larantuka,Lembata,Lewoleba,Adonara,Solor,Riung,Mbay,Nangapanda,Paga,Aimere,Jerebuu,Todo,Golewa,Wewo,Mautapaga"
-  },
-  {
-    "name": "Sangiric",
-    "i": 148,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tahuna,Sangihe,Talaud,Melonguane,Lirung,Beo,Miangas,Salibabu,Rainis,Bitung,Manado,Tomohon,Tondano,Amurang,Ratahan,Kotamobagu,Boroko,Tutuyan,Lolak,Molibagu,Tagulandang,Siau,Ondong,Ulu,Karatung,Nanusa,Marampit,Kakorotan,Gemeh,Essang,Kabaruan,Mangaran,Damau,Salibabu Island,Karakelong,Sangihe Island,Talaud Island,Tagulandang Island,Biaro,Ruang,Lipang,Bukide,Matutuang,Kawio,Marore,Kalama,Karakitang,Para,Sanggeluhang,Bebalang"
-  },
-  {
     "name": "Saluan-Banggai",
     "i": 160,
     "min": 4,
@@ -576,33 +540,6 @@
     "b": "Agats,Atsj,Asmat,Unir,Sawa Erma,Ewer,Suator,Atat,Betcbamu,Fayit,Aswi,Timika,Merauke,Pirimapun,Yepem,Otenep,Senggo,Kolf,Kaimo,Kawe,Atsy,Amborop,Omades,Yosakor,Erma"
   },
   {
-    "name": "Asmat Citak",
-    "i": 198,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Agats,Citak,Kaokonao,Kokonao,Tanam,Asmat,Suator,Kepi,Okaba,Merauke,Obaa,Bade,Passel,Yowon"
-  },
-  {
-    "name": "Asmat-Kamoro",
-    "i": 199,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Timika,Mimika,Mapurujaya,Kokonao,Kaokonao,Agats,Atuka,Pouweri,Carstensz,Puncak Jaya,Kuala Kencana,Nabire"
-  },
-  {
-    "name": "Bunun",
-    "i": 211,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Xinyi,Nantou,Puli,Shuili,Renai,Hehuanshan,Sun Moon Lake,Yuchi,Tongpu,Alishan,Hualien,Taitung,Kaohsiung,Pingtung,Chiayi,Yushan,Taroko,Wulu,Laonong,Namasia"
-  },
-  {
     "name": "Bunun (Isbukun)",
     "i": 212,
     "min": 4,
@@ -682,15 +619,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Yokohama,Kanagawa,Negishi,Honmoku,Yamate,Motomachi,Sakuragicho,Minato Mirai,Shinagawa,Yokosuka,Kamakura,Ofuna"
-  },
-  {
-    "name": "Cotentinais",
-    "i": 260,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cherbourg-en-Cotentin,Valognes,Barneville-Carteret,Les Pieux,La Haye,Carentan-les-Marais,Saint-Vaast-la-Hougue,Bricquebec,Portbail,Quettehou,La Pernelle,Montebourg"
   },
   {
     "name": "Burmish",
@@ -855,42 +783,6 @@
     "b": "Ryukyu,Okinawa,Naha,Shuri,Amami,Miyako,Yaeyama,Yonaguni,Tokunoshima,Okinoerabu,Kikai,Kunigami"
   },
   {
-    "name": "Cosentino",
-    "i": 337,
-    "min": 4,
-    "max": 11,
-    "d": "it-IT",
-    "m": 0,
-    "b": "Cosenza,Rende,Corigliano,Castrovillari,Roggiano Gravina,Acri,Rossano,San Marco Argentano,Paola,Cassano all'Ionio"
-  },
-  {
-    "name": "Frainc-Comtou",
-    "i": 352,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Besançon,Belfort,Montbéliard,Dole,Lons-le-Saunier,Vesoul,Gray"
-  },
-  {
-    "name": "Colombian Spanish",
-    "i": 398,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bogotá,Medellín,Cali,Barranquilla,Bucaramanga,Cartagena,Pereira,Cúcuta,Ibagué,Villavicencio"
-  },
-  {
-    "name": "Comasco-Lecchese",
-    "i": 399,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Como,Lecco,Bellagio,Menaggio,Cernobbio,Brunate,Varenna,Colico,Dongo,Erba,Valmadrera,Molteno"
-  },
-  {
     "name": "Doteli",
     "i": 413,
     "min": 4,
@@ -954,24 +846,6 @@
     "b": "Dadeldhura,Amargadhi,Parashuram,Alital,Nawadurga,Ajaimaru,Ganeshpur,Bhagwati,Ghatal,Shikharpur,Rupal,Kailapal"
   },
   {
-    "name": "Minderico",
-    "i": 489,
-    "min": 4,
-    "max": 11,
-    "d": "it-PT",
-    "m": 0,
-    "b": "Minde,Alcanena,Santarém,Ourém,Tomar,Almeida,Fátima,Leiria,Porto,Lisboa,Coimbra,Évora,Setúbal,Faro,Aveiro,Braga,Viseu,Guarda,Castelo Branco,Vila Real,Viana do Castelo"
-  },
-  {
-    "name": "Mineiro",
-    "i": 490,
-    "min": 4,
-    "max": 11,
-    "d": "pt-BR",
-    "m": 0,
-    "b": "Belo Horizonte,Uberlândia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,Divinópolis,Varginha,Ouro Preto"
-  },
-  {
     "name": "Philippine Spanish",
     "i": 554,
     "min": 4,
@@ -979,15 +853,6 @@
     "d": "es-PH",
     "m": 0,
     "b": "Zamboanga,Cavite,Ternate,Ermita,Intramuros,Binondo,Malate,Quiapo,Sampaloc,San Miguel,Santa Ana,Santa Cruz"
-  },
-  {
-    "name": "Sardo-Corsican",
-    "i": 620,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Ajaccio,Bastia,Porto-Vecchio,Bonifacio,Calvi,Corte,Propriano,Sartène,Ghisonaccia,L'Île-Rousse,Borgo,Biguglia,Furiani,Lucciana,Ville-di-Pietrabugno,Sainte-Lucie-de-Porto-Vecchio,Zonza,Levie,Sotta,Figari,Pianottoli-Caldarello,Monacia-d'Aullène,Cargèse,Piana,Ota,Évisa,Vico,Soccia,Guagno,Orto,Poggiolo,Letia,Arbori,Renno,Cristinacce,Marignana,Serriera,Partinello,Osani,Galéria,Manso"
   },
   {
     "name": "Azd",
@@ -1836,15 +1701,6 @@
     "b": "Delhi,Mumbai,Kolkata,Bangalore,Chennai,Hyderabad,Ahmedabad,Surat,Pune,Jaipur,Lucknow,Indore"
   },
   {
-    "name": "Minica Huitoto",
-    "i": 1036,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yopal,Inirida,Mitú,SanJoseDelGuaviare,PuertoCarreño,Providencia,SanAndres,Leticia,Turbo,Barrancabermeja,Tibu,Cucuta"
-  },
-  {
     "name": "Coast Tsimshian",
     "i": 1053,
     "min": 4,
@@ -2077,15 +1933,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Zinvalani,Tusheti,Omalo,Mta,Tbatsvi,Tlivi,Vani,Kvaratsi,Oreli,Tsablata,Ingushetia,Vedeno"
-  },
-  {
-    "name": "Bauwaki",
-    "i": 1142,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bauwaki,Bumadi,Bumayong,Morobe,Lae,Madang,Bulolo,Wau,Yandera,Mumeng,Siassi,Mengino"
   },
   {
     "name": "Toba Batak",
@@ -2709,15 +2556,6 @@
     "b": "Naga City,Legaspi City,Iriga City,Legazpi City,Daet,Sorsogon City,Tabaco City,Masbate City,Calbayog City,Catbalogan,Catanduanes,Sorsogon"
   },
   {
-    "name": "Cogui/Kogi",
-    "i": 1302,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Teyuna,Gonawindua,Arhuaco,Nabusimake,Kankuamo,Sevillano,Guachaca,Buritaca,DonDiego,Minca,Palomino,Tayrona,Pico Bolivar,Cherua,Sogrome"
-  },
-  {
     "name": "Bote",
     "i": 1330,
     "min": 4,
@@ -2817,15 +2655,6 @@
     "b": "Bishnupriya,Imphal,Manipur,Assam,Tripura,Meghalaya,India,Bangladesh"
   },
   {
-    "name": "Comanche",
-    "i": 1369,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Comanche,Apache,Fort Sill,Anadarko,Lawton,Cyrus,Oklahoma,Texas,New Mexico,Amarillo,Albuquerque,Santa Fe"
-  },
-  {
     "name": "Brahui",
     "i": 1374,
     "min": 4,
@@ -2907,15 +2736,6 @@
     "b": "Buginese,Makassar,Ujung Pandang,Parepare,Watampone,Bulukumba,Sengkang,Palopo,Bone,Bone-Bone,Soppeng"
   },
   {
-    "name": "Bunak",
-    "i": 1390,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bunak,Timor-Leste,Liquiça,Baucau,Bobonaro,Cova Lima,Oecusse,Dili,Aileu,Ermera,Ainaro,Viqueque"
-  },
-  {
     "name": "Bundeli",
     "i": 1391,
     "min": 4,
@@ -2950,15 +2770,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Buyeo,Pyongyang,Seoul,Gaeseong,Busan,North Korea,South Korea,Korean Peninsula"
-  },
-  {
-    "name": "Cora",
-    "i": 1413,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cora,Jesús María,Mesa del Nayar,El Nayar,Acaponeta,Rosamorada,Tepic,Nayarit,Mexico,Sierra Madre Occidental"
   },
   {
     "name": "Cai Long",
@@ -3166,15 +2977,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Chamdo,Barkam,Aba,Nagqu,Tibet Autonomous Region,China,Himalayas,East Tibet,Yangtze Headwaters"
-  },
-  {
-    "name": "Waiwai",
-    "i": 1546,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Waiwai,Mabura Hill,Karanambu,Guyana,Brazil,Amazon Rainforest,Roraima"
   },
   {
     "name": "Changjiang Hlai",
@@ -3555,15 +3357,6 @@
     "b": "Cochin,Fort Emmanuel,Vypin,Mattancheri,Vaikom,Palloor,Kodungallur,Paravur,Chennamangalam,Kerala,India,Malabar Coast"
   },
   {
-    "name": "Cocoliche",
-    "i": 1632,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Buenos Aires,La Boca,San Telmo,Balvanera,Cafayate,Mendoza,La Plata,Rosario,Cordoba,Santa Fe,Argentina"
-  },
-  {
     "name": "Colloquial Finnish",
     "i": 1633,
     "min": 4,
@@ -3679,15 +3472,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Damu,Kondoa,Karatu,Tanzania,East Africa,Great Rift Valley"
-  },
-  {
-    "name": "Dani",
-    "i": 1655,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dani,Wamena,Tiom,Wosilimo,Papua,Indonesia,Baliem Valley,New Guinea,Oceania"
   },
   {
     "name": "Dao",
@@ -4084,15 +3868,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Gyeongju,Gaeseong,Gangneung,Gyeongju-Si,Gaya Kingdom,Korea,East Asia"
-  },
-  {
-    "name": "Grand Valley Dani",
-    "i": 1826,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wamena,Tiom,Wosilimo,Kurima,Wolo,Papua,Indonesia,Baliem Valley,New Guinea,Oceania"
   },
   {
     "name": "Greater Siangic",
@@ -4581,24 +4356,6 @@
     "b": "Luang Prabang,Oudomxay,Phongsaly,Nan,Phrae,Chiang Rai,Dien Bien,Son La,Houaphanh,Xieng Khouang"
   },
   {
-    "name": "North Bauchi family",
-    "i": 2010,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Warji,Ningi,Ganjuwa,Bauchi,Toro,Dass,Tafawa Balewa,Bogoro,Alkeleri,Kirfi"
-  },
-  {
-    "name": "South Bauchi family",
-    "i": 2012,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bauchi,Toro,Dass,Tafawa Balewa,Bogoro,Alkeleri,Kirfi,Misau,Katagum,Shira"
-  },
-  {
     "name": "Proto Tibeto Burman",
     "i": 2014,
     "min": 4,
@@ -4687,42 +4444,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Gaegyeong,Seorabeol,Ungjin,Sabi,Hanseong,Pyongyang,Gyerim,Geumseong,Namwon,Gwangju,Naju,Cheongju,Chungju,Gangneung"
-  },
-  {
-    "name": "Northern Luzon",
-    "i": 2070,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Laoag,Vigan,Tuguegarao,Tabuk,Ilagan,Cauayan,Santiago,Bangued,Bontoc,Lagawe,Cabarroguis,Bayombong"
-  },
-  {
-    "name": "Northern Mindoro",
-    "i": 2071,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Calapan,Puerto Galera,Baco,San Teodoro,Naujan,Victoria,Pola,Pinamalayan,Gloria,Bansud,Bongabong,Mansalay"
-  },
-  {
-    "name": "South Mindanao",
-    "i": 2073,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Davao,Cotabato,Kidapawan,Koronadal,Digos,Tacurong,Isulan,Alabel,Malita,Polomolok,Glan,Kiamba"
-  },
-  {
-    "name": "Central Luzon",
-    "i": 2077,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,Muñoz,San Jose"
   },
   {
     "name": "Georgian dialects",
@@ -5272,15 +4993,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Korlai,Revdanda,Chaul,Alibag,Roha,Murud,Shrivardhan,Mangaon,Mahad,Pen,Nagothane,Poladpur"
-  },
-  {
-    "name": "Korowai",
-    "i": 2269,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yaniruma,Mabül,Khafalüo,Myanü,Dayo,Baigon,Manggel,Wanggom,Kombai,Korowai,Citak,Mitak"
   },
   {
     "name": "Koya",
@@ -6066,15 +5778,6 @@
     "b": "Kuala Lumpur,Shah Alam,Petaling Jaya,Subang Jaya,Putrajaya,Cyberjaya,George Town,Butterworth,Ipoh,Taiping,Alor Setar,Kangar,Kota Bharu,Kuantan,Johor Bahru,Batu Pahat,Muar,Melaka,Seremban,Port Dickson,Kuala Terengganu,Raub,Bentong,Temerloh,Segamat,Kluang,Mersing,Tumpat"
   },
   {
-    "name": "Telugu",
-    "i": 2591,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Warangal,Karimnagar,Khammam,Kurnool,Anantapur,Tirupati,Chittoor,Eluru,Tenali,Proddatur,Adoni,Machilipatnam,Ongole,Nandyal,Kadapa,Rajahmundry,Kakinada,Bhimavaram,Narasaraopet,Srikakulam,Palasa,Bobbili"
-  },
-  {
     "name": "Bengali",
     "i": 2592,
     "min": 5,
@@ -6201,15 +5904,6 @@
     "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket,Boldumsaz,Yoloten,Gumdag,Farap,Charjew,Khauz,Darganata,Gazachak,Bayramaly,Abadan"
   },
   {
-    "name": "Comorian",
-    "i": 2648,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Moroni,Mitsamiouli,Iconi,Itsandra,Domoni,Moutsamoudou,Fomboni,Chindini,Koimbani,Ouzeni,Mirontsi,Nioumadzaha,Koni-Djojoh,Koki,Adda,Sima,Bandajou,Ouellah,Kavani,Hajoho"
-  },
-  {
     "name": "Kashmiri",
     "i": 2651,
     "min": 4,
@@ -6289,15 +5983,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Taunggyi,Lashio,Kyaingtong,Mong Hsat,Mong Yawng,Mong La,Kunlong,Mong Kung,Mong Pan,Mong Ping,Mong Ton,Namhsan,Namtu,Tachileik"
-  },
-  {
-    "name": "Mari",
-    "i": 2676,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Mari-Turek,Orshanka,Medvedevo,Novotoryal,Paranga,Kilemary,Shariboksad,Volzhskoye,Morki,Kuzhener,Sernur,Vyatskiye Polyany,Cheboksary,Kirov,Kazan,Elabuga"
   },
   {
     "name": "Athpahariya",

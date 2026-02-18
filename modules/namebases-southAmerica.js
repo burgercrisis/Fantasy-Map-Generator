@@ -702,15 +702,6 @@
     "b": "Yavapai-Prescott,Clarkdale,Camp Verde,Cottonwood,Sedona,Mingus Mountain,Jerome,Flagstaff,Williams,Seligman,Williams Junction,Ash Fork"
   },
   {
-    "name": "Mohawk ",
-    "i": 1207,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Akwesasne,Kahnawake,Kanesatake,Oneida,Onondaga,Syracuse,Saint Regis,Caughnawaga,Albany,Troy,Schenectady,Saratoga Springs"
-  },
-  {
     "name": "Cayuga ",
     "i": 1208,
     "min": 4,
@@ -1825,15 +1816,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Leticia,Tabatinga,Benjamin Constant,Santo Antonio,Sao Paulo Olivenca,Puerto Narino,Santa Sofia,Nazaret,San Martin,Tarapoto,Atalaia do Norte,Amatura,Tonantins,Islandia,San Pedro,Santa Rita,Caballococha,Yavari,San Pablo,Cushillo Cocha,Tres Fronteras,Lago Tarapoto,Puerto Alegria,Puerto Arica,Santa Rosa,Pucaurquillo,Bellavista,Pevas,Nuevo Israel,San Jose Amazonas"
-  },
-  {
-    "name": "Tlingit",
-    "i": 2611,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sitka,Juneau,Hoonah,Yakutat,Kake,Angoon,Haines,Skagway,Pelican,Tenakee,Klukwan,Wrangell,Ketchikan,Saxman,Metlakatla,Hydaburg,Kasaan,Craig,Thorne Bay,Klawaock"
   },
   {
     "name": "Sranan",

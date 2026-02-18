@@ -4194,15 +4194,6 @@
     "b": "Chennai,Madurai,Coimbatore,Trichy,Tiruchirappalli,Salem,Erode,Tirunelveli,Thanjavur,Vellore,Kancheepuram,Tuticorin,Dindigul,Nagercoil,Kumbakonam,Namakkal,Karur,Cuddalore,Nagapattinam,Pudukkottai,Virudhunagar,Sivakasi,Ramanathapuram,Krishnagiri,Hosur,Pollachi,Udumalaipettai"
   },
   {
-    "name": "Telugu",
-    "i": 2591,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Warangal,Karimnagar,Khammam,Kurnool,Anantapur,Tirupati,Chittoor,Eluru,Tenali,Proddatur,Adoni,Machilipatnam,Ongole,Nandyal,Kadapa,Rajahmundry,Kakinada,Bhimavaram,Narasaraopet,Srikakulam,Palasa,Bobbili"
-  },
-  {
     "name": "Zarma",
     "i": 2638,
     "min": 4,
