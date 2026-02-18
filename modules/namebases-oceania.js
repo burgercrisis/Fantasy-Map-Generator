@@ -15,7 +15,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Port Moresby,Lae,Mount Hagen,Goroka,Wewak,Kokopo,Alotau,Tari,Vanimo,Tabubil,Kiunga,Kerema,Lorengau,Wau,Wabag,Namatanai,Mendi,Kundiawa,Ambunti,Angoram,Aitape,Madang,Bulolo,Finschhafen,Arawa,Buka,Mendir,Mount Hagen,Papua,Kavieng,Daru,Kikori,Popondetta,Kieta,Oro Bay,Samarai,Keroro,Lake Murray,Baimuru,Kaintiba,Kokoda,Wari,Beni,Buna,Sangapi,Tapini,Kairuku,Ishasha"
+    "b": "Port Moresby,Lae,Mount Hagen,Goroka,Wewak,Kokopo,Alotau,Tari,Vanimo,Tabubil,Kiunga,Kerema,Lorengau,Wau,Wabag,Namatanai,Mendi,Kundiawa,Ambunti,Angoram,Aitape,Madang,Bulolo,Finschhafen,Arawa,Buka,Mendir,Papua,Kavieng,Daru,Kikori,Popondetta,Kieta,Oro Bay,Samarai,Keroro,Lake Murray,Baimuru,Kaintiba,Kokoda,Wari,Beni,Buna,Sangapi,Tapini,Kairuku,Ishasha"
   },
   {
     "name": "Engan Papuan",
@@ -51,7 +51,7 @@
     "max": 12,
     "d": "nic-GH",
     "m": 0,
-    "b": "Palikir,Kolonia,Weno,Tofol,Yap,Colonia,Ebeye,Majuro,Jaluit,Tarawa,Betio,Bairiki,Saipan,Garapan,Tinian,Rota,Koror,Airai,Ngerulmud,Kosrae,Lelu,Malem,Utwe,Fananu,Weno,Mokil,Mokil Atoll,Pohnpei,Tafunsak,Lelu,Utwe"
+    "b": "Palikir,Kolonia,Weno,Tofol,Yap,Colonia,Ebeye,Majuro,Jaluit,Tarawa,Betio,Bairiki,Saipan,Garapan,Tinian,Rota,Koror,Airai,Ngerulmud,Kosrae,Lelu,Malem,Utwe,Fananu,Mokil,Mokil Atoll,Pohnpei,Tafunsak"
   },
   {
     "name": "Central Pacific",
@@ -87,7 +87,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baiti,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Topside,Aniwa,Arubo,Odike,Eaboe,Anam,Komwar,Tabwe,Buada District,Anabar District,Meneng,Aniwa"
+    "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baiti,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Topside,Aniwa,Arubo,Odike,Eaboe,Anam,Komwar,Tabwe,Buada District,Anabar District"
   },
   {
     "name": "Tuvaluan",
@@ -123,7 +123,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kutai Timur,Sangatta,Bengalon,Muara Bengalon,Rantau Pulung,Bontang,Samarinda,Tenggarong,Muara Wahau,Telen,Kaubun,Sandaran,Long Mesangat,Balikpapan,Samarinda,Penajam,Loa Kulu,Kota Bangun,Muara Muntai,Anggana,Sangkulirang,Muara Badak,Muara Jawa,Bontang Utara,Bontang Selatan"
+    "b": "Kutai Timur,Sangatta,Bengalon,Muara Bengalon,Rantau Pulung,Bontang,Samarinda,Tenggarong,Muara Wahau,Telen,Kaubun,Sandaran,Long Mesangat,Balikpapan,Penajam,Loa Kulu,Kota Bangun,Muara Muntai,Anggana,Sangkulirang,Muara Badak,Muara Jawa,Bontang Utara,Bontang Selatan"
   },
   {
     "name": "Selaru",
@@ -195,7 +195,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Raha,Muna,Buton,Baubau,Pasarwajo,Lasalimu,Wakorumba,Wangi-Wangi,Kendari,Wolio,Kapontori,Batauga,Wakatobi,Mawasangka,Poso,Lakudo,Lasalimu Selatan,Pasarwajo,Bau-Bau,Watubangga,Kolaka,Bungku,Bahouta,Moramo,Laonti,Lalembo,Sabuttu,Katobu,Pialba,Barangka"
+    "b": "Raha,Muna,Buton,Baubau,Pasarwajo,Lasalimu,Wakorumba,Wangi-Wangi,Kendari,Wolio,Kapontori,Batauga,Wakatobi,Mawasangka,Poso,Lakudo,Lasalimu Selatan,Bau-Bau,Watubangga,Kolaka,Bungku,Bahouta,Moramo,Laonti,Lalembo,Sabuttu,Katobu,Pialba,Barangka"
   },
   {
     "name": "Minahasan",
@@ -240,7 +240,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kota Kinabalu,Penampang,Putatan,Papar,Tuaran,Kota Belud,Kudat,Kota Marudu,Ranau,Sandakan,Lahad Datu,Tawau,Semporna,Keningau,Tenom,Beaufort,Kinarut,Pensiangan,Kudat,Kota Marudu,Kinabatangan,Telupid,Beluran,Sipitang"
+    "b": "Kota Kinabalu,Penampang,Putatan,Papar,Tuaran,Kota Belud,Kudat,Kota Marudu,Ranau,Sandakan,Lahad Datu,Tawau,Semporna,Keningau,Tenom,Beaufort,Kinarut,Pensiangan,Kinabatangan,Telupid,Beluran,Sipitang"
   },
   {
     "name": "North Borneo",

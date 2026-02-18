@@ -1032,7 +1032,7 @@
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Ansó,Fago,Hecho,Aragüés del Puerto,Aísa,Candanchú,Esposa,Sinués,Borau,Canfranc,Canal de Berdún,Castiello de Jaca,Jasa,Villanúa,Jaca,Artieda,Bailo,Mianos,Sigüés,Salvatierra de Esca,Santa Cilia,Santa Cruz de la Serós,Puente la Reina de Jaca,Biescas,Sabiñanigo,Ainsa,Boltaña,Torla,Broto,Benasque,Biescas,Jasa,Loarre,Almudevar,Benabarre,Graus,Tamarite"
+    "b": "Ansó,Fago,Hecho,Aragüés del Puerto,Aísa,Candanchú,Esposa,Sinués,Borau,Canfranc,Canal de Berdún,Castiello de Jaca,Jasa,Villanúa,Jaca,Artieda,Bailo,Mianos,Sigüés,Salvatierra de Esca,Santa Cilia,Santa Cruz de la Serós,Puente la Reina de Jaca,Biescas,Sabiñanigo,Ainsa,Boltaña,Torla,Broto,Benasque,Loarre,Almudevar,Benabarre,Graus,Tamarite"
   },
   {
     "name": "Aretino-Chianaiolo",
