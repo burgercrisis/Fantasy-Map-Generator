@@ -2700,15 +2700,6 @@
     "b": "Xunhua,Qinghai,Ganjia,Hualong,Xining,Tongren,Huangzhong,Minhe,Huzhu,Gamnan,Datong"
   },
   {
-    "name": "Hlai",
-    "i": 1158,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sanya,Dongfang,Wanning,Lingshui,Qionghai,Chengmai,Wenchang,Danzhou,Haikou,Lecheng"
-  },
-  {
     "name": "Mulam",
     "i": 1159,
     "min": 4,

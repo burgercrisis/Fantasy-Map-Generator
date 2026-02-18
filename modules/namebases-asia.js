@@ -2637,15 +2637,6 @@
     "b": "Blang,Menghai,Xishuangbanna,Mengla,Jinghong,Lancang,Menglian,Zhenkang,Gengma,Cangyuan,Lincang,Puer"
   },
   {
-    "name": "Riang",
-    "i": 1274,
-    "min": 4,
-    "max": 11,
-    "d": "tbq-CN",
-    "m": 0,
-    "b": "Dehong,Baoshan,Ruili,Mangshi,Yingjiang,Tengchong,Longchuan,Lianghe,Zhangfeng,Luxi,Xianggeli,Menglian,Lancang,Ximeng,Cangyuan,Gengma,Zhenkang,Yongde"
-  },
-  {
     "name": "Bhili",
     "i": 1277,
     "min": 4,
@@ -5668,15 +5659,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Shing,Sankhu,Melamchi,Rasu,Timure,Chame,Lamabagar,Samdo,Dolkha,Sallaghari,Charikot,Bhotekoshi,Lamjidanda,Khadachakra,Mali,Phali,Mikkotappu,Bahrabise,Khadadevi"
-  },
-  {
-    "name": "Lhokpu",
-    "i": 2421,
-    "min": 4,
-    "max": 11,
-    "d": "sdt-BT",
-    "m": 0,
-    "b": "Dorokha,Dophuchen,Sengdhyen,Lotokuchu,Ngawang Dramtoe,Tading,Duenchukha,Dungtoe,Am Mo Chhu Valley,Phuntsholing,Samtse,Dogap,Pungthra"
   },
   {
     "name": "Lingling",
