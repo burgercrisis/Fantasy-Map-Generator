@@ -891,24 +891,6 @@
     "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Hrazdan,Abovyan,Kapan,Armavir,Gavar,Artashat,Goris,Ashtarak"
   },
   {
-    "name": "Pashto",
-    "i": 820,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kabul,Kandahar,Jalalabad,Peshawar,Quetta,Mardan,Swat,Kohat,Bannu,Charsadda,Nowshera,Dera Ismail Khan"
-  },
-  {
-    "name": "Tajik",
-    "i": 821,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dushanbe,Khujand,Kulob,Qurghonteppa,Istaravshan,Konibodom,Panjakent,Tursunzoda,Khorugh,Hisor,Danghara,Vahdat"
-  },
-  {
     "name": "Iranian Persian",
     "i": 822,
     "min": 4,
@@ -934,15 +916,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tbilisi,Batumi,Kutaisi,Rustavi,Gori,Poti,Zugdidi,Telavi,Akhaltsikhe,Borjomi,Mtskheta,Chiatura"
-  },
-  {
-    "name": "Uyghur",
-    "i": 826,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Urumqi,Kashgar,Hotan,Turpan,Aksu,Karamay,Korla,Yining,Hami,Altay,Kucha,Artux"
   },
   {
     "name": "Azerbaijani",
@@ -2394,15 +2367,6 @@
     "b": "Vadey,Vayda,Trubcev,Sharanga,Tonsha,Tenug,Shugurovo,Tatarshley,Vasilsursk,Yadrin,Yelnya,Ryazan"
   },
   {
-    "name": "Balochi",
-    "i": 1099,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Quetta,Turbat,Gwadar,Hub,Ormara,Pasni,Bela,Uthal,Sibi,Loralai,Zhob,Sui,Dera Bugti"
-  },
-  {
     "name": "Balti",
     "i": 1100,
     "min": 4,
@@ -2626,33 +2590,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Badesh,Damghan,Shahrud,Sabzevar,Neyshabur,Bastam,Kashmar,Bejestan,Mahmudabad,Mayamey,Firuzkuh"
-  },
-  {
-    "name": "Uzbek",
-    "i": 1150,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tashkent,Samarkand,Bukhara,Namangan,Andijan,Fergana,Qo'qon,Navoiy,Urgench,Karshi,Termez,Jizzax"
-  },
-  {
-    "name": "Kazakh",
-    "i": 1151,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Almaty,Astana,Shymkent,Aktobe,Karaganda,Taraz,Oskemen,Semei,Pavlodar,Ust-Kamenogorsk,Atyrau"
-  },
-  {
-    "name": "Kyrgyz",
-    "i": 1152,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bishkek,Osh,Karakol,Jalal-Abad,Tokmok,Naryn,Talas,Batken,Kyzyl-Kiya,Isfana"
   },
   {
     "name": "Tatar",
@@ -6775,15 +6712,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "karelian-proper,Kalevala,Loukhi,Muyezersky,Belomorsk,Kem,Segezha,Medvezhyegorsk,Kondopoga,Prionezhsky,Pryazha,Olonets,Pitkyaranta"
-  },
-  {
-    "name": "Kashmiri",
-    "i": 2113,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "kashmiri,Srinagar,Jammu,Anantnag,Baramulla,Sopore,Pulwama,Kupwara,Shopian,Ganderbal,Kulgam,Bandipora,Budgam"
   },
   {
     "name": "CamsÃ¡",
