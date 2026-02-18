@@ -1332,15 +1332,6 @@
     "b": "Fembe,Port Vila,Efate,Maevo,Santo,Tanna,Vanuatu,Oceania,South Pacific"
   },
   {
-    "name": "Fijian",
-    "i": 1843,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Suva,Lautoka,Nadi,Ba,Rakiraki,Labasa,Savusavu,Nasinu,Nausori,Lami,Sigatoka,Levuka,Tavua,Taveuni"
-  },
-  {
     "name": "Fiwaga",
     "i": 1846,
     "min": 4,
@@ -1926,15 +1917,6 @@
     "b": "Rabaul,Madang,Lae,Kimbe,Kavieng,Lorengau,Alotau,Popondetta,Vanimo,Daru,Kerema,Kundiawa"
   },
   {
-    "name": "Kei-Tanimbar",
-    "i": 2135,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Saumlaki,Larat,Adaut,Seira,Molu,Wuar-Labobar,Kormomolin,Nirun,Tumbur,Sangliat-Dol,Olilit,Sifnana"
-  },
-  {
     "name": "Kewa",
     "i": 2140,
     "min": 4,
@@ -2367,15 +2349,6 @@
     "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
   },
   {
-    "name": "Land Dayak",
-    "i": 2318,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kuching,Sibu,Bintulu,Miri,Sarikei,Sri Aman,Kapit,Betong,Marudi,Limbang"
-  },
-  {
     "name": "Kyaka",
     "i": 2388,
     "min": 4,
@@ -2383,15 +2356,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Goroka,Kainantu,Kundiawa,Mendi,Mt Hagen,Wabag,Chimbu,Jiwaka,Hela,Enga"
-  },
-  {
-    "name": "Land Dayak",
-    "i": 2403,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kuching,Sibu,Bintulu,Miri,Sarikei,Sri Aman,Kapit,Betong,Marudi,Limbang"
   },
   {
     "name": "Laua",

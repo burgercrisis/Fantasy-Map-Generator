@@ -144,15 +144,6 @@
     "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Tubmanburg,Robertsport, Greenville,Bensonville"
   },
   {
-    "name": "Ladino",
-    "i": 465,
-    "min": 4,
-    "max": 11,
-    "d": "ro-ES",
-    "m": 0,
-    "b": "Ãvila,Salamanca,Valladolid,Zamora,CÃ¡ceres,Badajoz,Plasencia,Ãvila de los Caballeros,ArÃ©valo"
-  },
-  {
     "name": "Csangó",
     "i": 562,
     "min": 4,
@@ -810,15 +801,6 @@
     "b": "Maaloula,Jubb'adin,Bakh'a,Saidnaya,Rankous,Yabroud,Nabk,Deir Atiyah,Qalamoun,Damascus,Homs,Hama"
   },
   {
-    "name": "Armenian",
-    "i": 819,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Hrazdan,Abovyan,Kapan,Armavir,Gavar,Artashat,Goris,Ashtarak"
-  },
-  {
     "name": "Iranian Persian",
     "i": 822,
     "min": 4,
@@ -835,15 +817,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Sulaymaniyah,Erbil,Kirkuk,Halabja,Koya,Ranya,Qaladiza,Penjwen,Chamchamal,Said Sadiq,Darbandikhan,Dokan"
-  },
-  {
-    "name": "Georgian",
-    "i": 825,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tbilisi,Batumi,Kutaisi,Rustavi,Gori,Poti,Zugdidi,Telavi,Akhaltsikhe,Borjomi,Mtskheta,Chiatura"
   },
   {
     "name": "Azerbaijani",
@@ -1593,15 +1566,6 @@
     "b": "Paris,Marseille,Lyon,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims"
   },
   {
-    "name": "Arunachal",
-    "i": 949,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Itanagar,Tawang,Ziro,Pasighat,Bomdila,Tezu,Along,Khonsa,Seppa,Yupia,Roing,Anini"
-  },
-  {
     "name": "Assamese",
     "i": 952,
     "min": 4,
@@ -1690,15 +1654,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Bhopal,Indore,Jabalpur,Gwalior,Ujjain,Sagar,Ratlam,Satna,Dewas,Burhanpur,Khandwa,Chhindwara"
-  },
-  {
-    "name": "Newar",
-    "i": 998,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Patan,Bhaktapur,Kirtipur,Thimi,Banepa,Dhulikhel,Panauti,Namobuddha,Bungamati,Khokana,Tika,Bhimeshwor"
   },
   {
     "name": "Sora (Savara)",
@@ -3355,15 +3310,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Catatumbo,Tibu,LaGabarra,Sardinata,Convencion,ElTarra,Ocaâ”œâ–’a,Teorama,Hacarâ”œÂ¡,SanCalixto,LaPlaya,Abrego"
-  },
-  {
-    "name": "Aleut",
-    "i": 1304,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Unalaska,Dutch Harbor,Kodiak,Aleutian Islands,Adak,Atka,Umak,Cold Bay,Sand Point,King Cove,Port Heiden,Umnak"
   },
   {
     "name": "Cavineña",
