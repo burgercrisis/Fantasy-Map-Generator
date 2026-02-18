@@ -261,15 +261,6 @@
     "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Garoua,Maroua,Ngaoundere,Bertoua,Edea,Tiko,Mokolo,EdÃ©a,Kribi,Mbalmayo,Meiganga,Dschang,Mbouda,Fontem,BangangtÃ©,Foumban"
   },
   {
-    "name": "Cameroonian Pidgin English",
-    "i": 247,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Kribi,Garoua,Maroua,Ngaoundere,Calabar"
-  },
-  {
     "name": "Bole-Tangale",
     "i": 248,
     "min": 4,
