@@ -234,7 +234,7 @@
     "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Ciudad Guayana,Barcelona,Maturin,Turmero,Ciudad Bolivar,San Cristobal,El Tigre"
   },
   {
-    "name": "Achagua ",
+    "name": "Achagua",
     "i": 744,
     "min": 4,
     "max": 11,
@@ -243,7 +243,7 @@
     "b": "Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,PopayÃ¡n"
   },
   {
-    "name": "Awakatek ",
+    "name": "Awakatek",
     "i": 75,
     "min": 4,
     "max": 11,
@@ -675,7 +675,7 @@
     "b": "Northway,Tetlin,Tok,Eagle,Chicken,Dawson City,Whitehorse,Carcross,Teslin,Atlin,Skagway,Haines Junction"
   },
   {
-    "name": "Mojave ",
+    "name": "Mojave",
     "i": 1202,
     "min": 4,
     "max": 11,
@@ -684,7 +684,7 @@
     "b": "Mojave,Needles,Bullhead City,Lake Havasu City,Laughlin,Kingman,Fort Mohave,Oatman,Golden Shores,Parker,Topock,Poston"
   },
   {
-    "name": "Quechan ",
+    "name": "Quechan",
     "i": 1203,
     "min": 4,
     "max": 11,
@@ -693,7 +693,7 @@
     "b": "Yuma,Somerton,San Luis,Wellton,Winterhaven,Fort Yuma,Quartermaster Landing,Pilot Knob,Madrid,Ogilby,Dateland,Arlington"
   },
   {
-    "name": "Yavapai ",
+    "name": "Yavapai",
     "i": 1206,
     "min": 4,
     "max": 11,
@@ -702,7 +702,7 @@
     "b": "Yavapai-Prescott,Clarkdale,Camp Verde,Cottonwood,Sedona,Mingus Mountain,Jerome,Flagstaff,Williams,Seligman,Williams Junction,Ash Fork"
   },
   {
-    "name": "Cayuga ",
+    "name": "Cayuga",
     "i": 1208,
     "min": 4,
     "max": 11,
@@ -711,7 +711,7 @@
     "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
   },
   {
-    "name": "Oneida ",
+    "name": "Oneida",
     "i": 1209,
     "min": 4,
     "max": 11,
@@ -720,7 +720,7 @@
     "b": "Oneida,Green Bay,Syracuse,Rome,Oneida Castle,Vernon,Stockbridge,Albany,De Pere,Appleton,Shawano,Manitowoc"
   },
   {
-    "name": "Onondaga ",
+    "name": "Onondaga",
     "i": 1210,
     "min": 4,
     "max": 11,
@@ -729,7 +729,7 @@
     "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,DeWitt,Fayetteville,Manlius,Baldwinsville"
   },
   {
-    "name": "Seneca ",
+    "name": "Seneca",
     "i": 1211,
     "min": 4,
     "max": 11,
@@ -738,7 +738,7 @@
     "b": "Seneca,Buffalo,Rochester,Syracuse,Salamanca,Batavia,Jamestown,Olean,Albany,Tonawanda,Lockport,Canandaigua"
   },
   {
-    "name": "Tuscarora ",
+    "name": "Tuscarora",
     "i": 1212,
     "min": 4,
     "max": 11,
