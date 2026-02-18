@@ -1395,33 +1395,6 @@
     "b": "Gaborone,Francistown,Maun,Molepolobe,Kasane,Mogoditshane,Serowe,Mahalapye,Lobatse,Palapye,Kanye,Mochudi"
   },
   {
-    "name": "Sesotho",
-    "i": 970,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Maseru,Mafeteng,MohaleHoek,Quthing,Berea,Leribe,Mokhotlong,ThabaTseka,QachasNek,Matseng,Teyateyaneng,Roma"
-  },
-  {
-    "name": "Tswana",
-    "i": 971,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gaborone,Francistown,Molepolobe,Mogoditshane,Kanye,Mochudi,Mahalapye,Serowe,Kasane,Lobatse,Maun,Ramotswa"
-  },
-  {
-    "name": "Zarma",
-    "i": 972,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Niamey,Zinder,Maradi,Tahoua,Agadez,Dosso,Diffa,Tillaberi,Arlit,BirniNKonni,Madaoua,Mirriah"
-  },
-  {
     "name": "Seze",
     "i": 973,
     "min": 4,
@@ -1429,15 +1402,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "AddisAbaba,Mekele,BahirDar,Gonder,DireDawa,Hawassa,Adama,Jijiga,Dessie,Shashamane,DebreBirhan,Nekemte"
-  },
-  {
-    "name": "Shona",
-    "i": 974,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Harare,Bulawayo,Chitungwiza,Mutare,Gweru,Kwekwe,Kadoma,Masvingo,Maronderangwa,Chinhoyi,VictoriaFalls,Hwange"
   },
   {
     "name": "Sena",
@@ -1537,15 +1501,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Aketi,Bambesa,Buta,Djugu,Isiro,Mongbwalu,Niangara,Poko,Rungu,Tchadian,Wamba,Yangambi"
-  },
-  {
-    "name": "Zulu",
-    "i": 986,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Durban,Pietermaritzburg,Empangeni,RichardsBay,Ladysmith,Newcastle,Ulundi,Mtubatuba,Mthatha,Kokstad,Eshowe,Underberg"
   },
   {
     "name": "Sepedi",
@@ -1683,15 +1638,6 @@
     "b": "Assab,Dekemhare,Beilul,Afambo,Hirgigo,Arare,Bera'isole,Eddi,Guluj,Mersa Gulud,Mersa Fatma"
   },
   {
-    "name": "Somali",
-    "i": 1067,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mogadishu,Hargeysa,Burao,Bossaso,Galkacyo,Beledweyne,Garoowe,Jamaame,Marka,Dhuusamareb,Berbera"
-  },
-  {
     "name": "Bala",
     "i": 1077,
     "min": 4,
@@ -1735,15 +1681,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Bambalang,Bamenda,Mbengwi,Nkambe,Nkwen,Bambili,Bamessing,Babungo,Bafut,Fonfuka,Kedjom"
-  },
-  {
-    "name": "Bambara",
-    "i": 1103,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bamako,Sikasso,Koutiala,SÃ©gou,Mopti,Kayes,Koulikoro,Tombouctou,Kidal,Gao,Markala,Nara"
   },
   {
     "name": "Bamukumbit",
@@ -1852,15 +1789,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Bee,Beijing,Hangzhou,Xianyang,Shijiazhuang,Tianjin,Chengde,Qinhuangdao,Shijingshan,Chifeng"
-  },
-  {
-    "name": "Beja",
-    "i": 1227,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Beja,Port Sudan,Sawakin,Halaib,Tokar,Shalatin,Suakin,Qadarif,Kassala,Atbara,Berenice,Gedaref"
   },
   {
     "name": "Beli",
@@ -2295,15 +2223,6 @@
     "b": "Central Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssÃ©,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,AbÃ©chÃ©,N'Djamena"
   },
   {
-    "name": "Xhosa",
-    "i": 1466,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Xhosa,Eastern Cape,East London,Port Elizabeth,Grahamstown,Qonce,Nelson Mandela Bay,Port Alfred,Buffalo City,Mthatha,King William's Town"
-  },
-  {
     "name": "Chewa",
     "i": 1467,
     "min": 4,
@@ -2329,15 +2248,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tetela,Congo,South Kivu,Lubumbashi,Kindu,Mbuji-Mayi,Kananga,Mbuji,Maniema,Kalemie,Kikwit"
-  },
-  {
-    "name": "Tigrinya",
-    "i": 1475,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tigrinya,Asmara,Keren,Massawa,Mendefera,Barentu,Adi Quala,Decamhare,Senafe,Eritrea,Ethiopia,Tigray"
   },
   {
     "name": "Qwara",
