@@ -297,15 +297,6 @@
     "b": "Sitka,Juneau,Hoonah,Yakutat,Kake,Angoon,Haines,Skagway,Pelican,Tenakee,Klukwan,Wrangell,Ketchikan,Saxman,Metlakatla,Hydaburg,Kasaan,Craig,Thorne Bay,Klawaock"
   },
   {
-    "name": "Haida",
-    "i": 2709,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Skidegate,Old Massett,Masset,Port Clements,Queen Charlotte,Sandspit,Tlell,Prince Rupert,Lax Kw'alaams,Kitkatla,Metlakatla Village,Hydaburg,Kasaan,Alert Bay"
-  },
-  {
     "name": "Apache",
     "i": 2711,
     "min": 4,
@@ -340,14 +331,5 @@
     "d": "lnrt",
     "m": 0,
     "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Panniqtuuq,Igloolik,Pond Inlet,Cape Dorset,Naujaat,Whale Cove,Coral Harbour,Repulse Bay,Chesterfield Inlet,Kimmirut,Clyde River,Resolute,Grise Fiord,Pangnirtung,Qikiqtarjuaq,Hall Beach"
-  },
-  {
-    "name": "Athabaskan",
-    "i": 2715,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Fairbanks,Fort Yukon,Galena,Nenana,Tanana,Huslia,Hughes,Ruby,Koyukuk,Nulato,Kaltag,Shageluk,Anvik,Grayling,Holy Cross,McGrath,Takotna,Nikolai,Medfra,Lime Village,Sleetmute,Stony River,Red Devil,Crooked Creek,Chuathbaluk,Aniak"
   }
 ]

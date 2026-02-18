@@ -396,24 +396,6 @@
     "b": "Fada N'gourma,Pama,Diapaga,BogandÃ©,Kantchari,Matiacoali,GayÃ©ri,PiÃ©la,Bilanga,Manni,Botou,Tambaga"
   },
   {
-    "name": "Athabaskan",
-    "i": 731,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Fairbanks,Fort Yukon,Galena,Nenana,Tanana,Huslia,Hughes,Ruby,Koyukuk,Nulato,Kaltag,Shageluk"
-  },
-  {
-    "name": "Navajo",
-    "i": 732,
-    "min": 4,
-    "max": 11,
-    "d": "nv-US",
-    "m": 0,
-    "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Gallup,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms"
-  },
-  {
     "name": "Western Aragonese",
     "i": 733,
     "min": 4,
@@ -2320,15 +2302,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Monrovia,Harper,Gbarnga,Buchanan,Tubmanburg,Kakata,Ganta,Bensonville,Careysburg,Blolequin,Fish Town"
-  },
-  {
-    "name": "Dakota",
-    "i": 1105,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pierre,Rapid City,Sioux Falls,Fargo,Chamberlain,Yankton,Grand Forks,Valley City,Bismarck,Mandan,McLaughlin"
   },
   {
     "name": "Pashto, Central",
@@ -7659,15 +7632,6 @@
     "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva"
   },
   {
-    "name": "Lakota",
-    "i": 2316,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pine Ridge,Rapid City,Chamberlain,Mobridge,Mitchell,Pierre,Yankton,Sioux Falls,Watertown,Aberdeen"
-  },
-  {
     "name": "Lanping Bai dialect",
     "i": 2319,
     "min": 4,
@@ -8118,15 +8082,6 @@
     "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva"
   },
   {
-    "name": "Lakota",
-    "i": 2401,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Pine Ridge,Rapid City,Chamberlain,Mobridge,Mitchell,Pierre,Yankton,Sioux Falls,Watertown,Aberdeen"
-  },
-  {
     "name": "Lanping Bai Dialect",
     "i": 2404,
     "min": 4,
@@ -8514,15 +8469,6 @@
     "b": "Ciudad-Valles,Tampico,Mante,El-Naranjo,Tamuin,Tancanhuitz,Axtla,Matlapa,Xilitla,Aquismon,Huejutla,Tempoal,Panuco,Tantoyuca,Chicontepec"
   },
   {
-    "name": "Navajo",
-    "i": 2563,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Window-Rock,Shiprock,Chinle,Kayenta,Tuba-City,Fort-Defiance,Tohatchi,Thoreau,Crownpoint,Many-Farms,Leupp,Monument-Valley,Page,Ganado,Pinon"
-  },
-  {
     "name": "Khmer",
     "i": 2570,
     "min": 4,
@@ -8602,24 +8548,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Tallinn,Tartu,Narva,Parnu,Kohtla-Jarve,Viljandi,Rakvere,Maardu,Kuressaare,Haapsalu,Paide,Valga,Valka,Voru,Polva,Tapa,Johvi,Sillamae,Elva,Keila,Saue,est215u1,est215u2,est215u3,est215u4,est215u5,est215u6"
-  },
-  {
-    "name": "Lakota",
-    "i": 2607,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pine Ridge,Porcupine,Kyle,Wanblee,Martin,Interior,Wall,Kadoka,Scenic,Red Shirt,Allen,Manderson,Sharps Corner,Porcupine Butte,St Francis,Mission,White River,Parmelee,Cherry Creek,Eagle Butte,Okreek"
-  },
-  {
-    "name": "Dakota",
-    "i": 2608,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sisseton,Waubay,Eden,Peever,Agency Village,Fort Thompson,Lower Brule,Mobridge,Standing Rock,Fort Yates,Selfridge,Cannon Ball,McLaughlin,Bismarck,Mandan,Fort Totten,Devils Lake,Spirit Lake,Fort Randall,Wagner"
   },
   {
     "name": "Mohawk",
