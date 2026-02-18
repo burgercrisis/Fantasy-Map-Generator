@@ -5085,15 +5085,6 @@
     "b": "Abakan,Chernogorsk,Sayanogorsk,Abaza,Sorsk,Bely-Yar,Ust-Abakan,Shira,Kopievo,Tashtyp,Askiz,Biskamzha"
   },
   {
-    "name": "Kham",
-    "i": 2195,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tansen,Butwal,Gulmi,Arghakhanchi,Pyuthan,Rolpa,Rukum,Baglung,Beni,Jomsom,Ghorahi,Tulsipur"
-  },
-  {
     "name": "Khams Tibetan",
     "i": 2197,
     "min": 4,
@@ -5184,15 +5175,6 @@
     "b": "Kengtung,Mong Hpayak,Mong Yawng,Mong Yang,Mong La,Mong Khet,Mong Ping,Mong Hsat,Mong Ton,Tachileik,Loimwe,Panghsang"
   },
   {
-    "name": "Kiranti",
-    "i": 2235,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dhankuta,Bhojpur,Diktel,Okhaldhunga,Salleri,Khandbari,Chainpur,Taplejung,Phidim,Ilam,Panchthar,Terhathum"
-  },
-  {
     "name": "Kulung",
     "i": 2240,
     "min": 4,
@@ -5281,15 +5263,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Panaji,Margao,Vasco da Gama,Mapusa,Ponda,Bicholim,Curchorem,Pernem,Canacona,Karwar,Mangalore,Honnavar"
-  },
-  {
-    "name": "Konyak",
-    "i": 2263,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mon,Tizit,Naganimora,Phomching,Chen,Aboi,Tobu,Mopungchuket,Wakching,Longwa,Shiyong,Totok"
   },
   {
     "name": "Kor",
