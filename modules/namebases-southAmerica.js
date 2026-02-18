@@ -234,15 +234,6 @@
     "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Ciudad Guayana,Barcelona,Maturin,Turmero,Ciudad Bolivar,San Cristobal,El Tigre"
   },
   {
-    "name": "Inuktitut ",
-    "i": 728,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Panniqtuuq,Igloolik,Pond Inlet,Cape Dorset"
-  },
-  {
     "name": "Achagua ",
     "i": 744,
     "min": 4,
