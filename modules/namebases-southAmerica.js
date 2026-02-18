@@ -702,15 +702,6 @@
     "b": "Northway,Tetlin,Tok,Eagle,Chicken,Dawson City,Whitehorse,Carcross,Teslin,Atlin,Skagway,Haines Junction"
   },
   {
-    "name": "Kiliwa ",
-    "i": 1201,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kiliwa,Mexicali,San Felipe,Ensenada,Tijuana,Rosarito,La MisiÃ³n,Valle de Trinidad,CataviÃ±a,San Borja,Santa Rosalita,Guerrero Negro"
-  },
-  {
     "name": "Mojave ",
     "i": 1202,
     "min": 4,

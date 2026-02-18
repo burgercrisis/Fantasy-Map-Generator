@@ -1764,15 +1764,6 @@
     "b": "Visakhapatnam,Vijayawada,Warangal,Nellore,Kurnool,Guntur,Tirupati,Rajahmundry,Kakinada,Anantapur,Ongole,Eluru"
   },
   {
-    "name": "Manchu",
-    "i": 1000,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Shenyang,Dalian,Harbin,Changchun,Shijiazhuang,Taiyuan,Hohhot,Shanghai,Nanjing,Hangzhou,Hefei,Fuzhou"
-  },
-  {
     "name": "Xibe",
     "i": 1002,
     "min": 4,
@@ -2421,15 +2412,6 @@
     "b": "Dien Bien,Lai Chau,Son La,Hoa Binh,Thanh Hoa,Nghe An,Moc Chau,Yen Chau,Tuong Duong,Tan Ky,Nam Can,Ha Giang"
   },
   {
-    "name": "Hñn",
-    "i": 1195,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dawson City,Eagle,Circle,Fort Selkirk,Kluane Lake,Whitehorse,Carcross,Tagish,Teslin,Atlin,Mayo,Keno City"
-  },
-  {
     "name": "Cochimi",
     "i": 1204,
     "min": 4,
@@ -2509,15 +2491,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Putian,Xianyou,Fuzhou,Quanzhou,Xiamen,Sanming,Longyan,Nanping,Ningde,Changde,Jieyang,Chaozhou"
-  },
-  {
-    "name": "Hakka Min",
-    "i": 1245,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hakka,Taichung,Hsinchu,Miaoli,Changhua,Nantou,Yunlin,Jiayi,Tainan,Kaohsiung,Pingtung,Meizhou"
   },
   {
     "name": "Haryanvi",

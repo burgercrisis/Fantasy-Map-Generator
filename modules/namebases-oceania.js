@@ -1089,15 +1089,6 @@
     "b": "Dano,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania"
   },
   {
-    "name": "Dao",
-    "i": 1657,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dao,Santo,Vanuatu,Oceania,South Pacific"
-  },
-  {
     "name": "Dap",
     "i": 1658,
     "min": 4,
