@@ -56,7 +56,9 @@ const PATTERN_TRAILING_SPACE = /\s$/;
 
 const EXCEPTIONS_ENCODING = new Set([
     'Nǁng', 'Gǃui', 'Ekoka ǃKung', 'ǂAmkoe', 'ǂKx\'ao\'ae',
-    'Maramureș', 'Żejtun dialect'
+    'Maramureș', 'Żejtun dialect',
+    'Tây Bồi Pidgin French', 'Tłįch', 'Cook Islands Māori Pidgin',
+    'Ju\hoan Click'
 ]);
 
 const EXCEPTIONS_DUPLICATE = new Set([

@@ -1,22 +1,6 @@
-[
-  {
-    "name": "Koi",
-    "i": 1495,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Koi,Sogeri,Efogi,Boridi,Kagi,Manari,Osabewai,Mesime,Vaiagai,Furimuti,Kailaki,Edevu"
-  },
-  {
-    "name": "Chinese",
-    "i": 1000,
-    "min": 5,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Anding,Anlu,Anqing,Anshun,Baixing,Banyang,Baoqing,Binzhou,Caozhou,Changbai,Changchun,Changde,Changling,Changsha,Changzhou,Chengdu,Chenzhou,Chizhou,Chongqing,Chuxiong,Chuzhou,Dading,Daming,Datong,Daxing,Dengzhou,Deqing,Dihua,Dingli,Dongan,Dongchang,Dongchuan,Dongping,Duyun,Fengtian,Fengxiang,Fengyang,Fenzhou,Funing,Fuzhou,Ganzhou,Gaoyao,Gaozhou,Gongchang,Guangnan,Guangning,Guangping,Guangxin,Guangzhou,Guiyang,Hailong,Hangzhou,Hanyang,Hanzhong,Heihe,Hejian,Henan,Hengzhou,Hezhong,Huaian,Huaiqing,Huanglong,Huangzhou,Huining,Hulan,Huzhou,Jiading,Jian,Jianchang,Jiangning,Jiankang,Jiaxing,Jiayang,Jilin,Jinan,Jingjiang,Jingzhao,Jinhua,Jinzhou,Jiujiang,Kaifeng,Kaihua,Kangding,Kuizhou,Laizhou,Lianzhou,Liaoyang,Lijiang,Linan,Linhuang,Lintao,Liping,Liuzhou,Longan,Longjiang,Longxing,Luan,Lubin,Luzhou,Mishan,Nanan,Nanchang,Nandian,Nankang,Nanyang,Nenjiang,Ningbo,Ningguo,Ningwu,Ningxia,Ningyuan,Pingjiang,Pingliang,Pingyang,Puer,Puzhou,Qianzhou,Qingyang,Qingyuan,Qingzhou,Qujing,Quzhou,Raozhou,Rende,Ruian,Ruizhou,Shafeng,Shajing,Shaoqing,Shaowu,Shaoxing,Shaozhou,Shinan,Shiqian,Shouchun,Shuangcheng,Shulei,Shunde,Shuntian,Shuoping,Sicheng,Sinan,Sizhou,Songjiang,Suiding,Suihua,Suining,Suzhou,Taian,Taibei,Taiping,Taiwan,Taiyuan,Taizhou,Taonan,Tengchong,Tingzhou,Tongchuan,Tongqing,Tongzhou,Weihui,Wensu,Wenzhou,Wuchang,Wuding,Wuzhou,Xian,Xianchun,Xianping,Xijin,Xiliang,Xincheng,Xingan,Xingde,Xinghua,Xingjing,Xingyi,Xingyuan,Xingzhong,Xining,Xinmen,Xiping,Xuanhua,Xunzhou,Xuzhou,Yanan,Yangzhou,Yanji,Yanping,Yanzhou,Yazhou,Yichang,Yidu,Yilan,Yili,Yingchang,Yingde,Yingtian,Yingzhou,Yongchang,Yongping,Yongshun,Yuanzhou,Yuezhou,Yulin,Yunnan,Yunyang,Zezhou,Zhang,Zhangzhou,Zhaoqing,Zhaotong,Zhenan,Zhending,Zhenhai,Zhenjiang,Zhenxi,Zhenyun,Zhongshan,Zunyi,Beijing,Shanghai,Shenzhen,Wuhan,Xi'an,Tianjin,Nanjing,Shenyang,Dalian,Qingdao,Xiamen,Harbin,Taipei,Kaohsiung,Taichung,Tainan,New Taipei,Taoyuan,Chiayi,Hsinchu,Keelung,Miaoli,Changhua,Nantou,Yunlin,Pingtung,Hualien,Taitung,Penghu,Kinmen,Zhubei,Fengyuan,Yangmei,Hualien City,Taitung City,Magong,Kunming,Linyi,Foshan,Dongguan,Shijiazhuang,Hefei,Shantou,Nanning,Wuxi,Urumqi,Lanzhou,Tangshan,Huizhou"
-  },
+"use strict";
+
+window.asiaNameBases = [
   {
     "name": "Japanese",
     "i": 11,
@@ -117,24 +101,6 @@
     "b": "Makassar,Kendari,Palopo,Parepare,Gorontalo,Manado,Bitung,Tolitoli,Poso,Luwuk,Mamuju,Kupang,Atambua,Kefamenanu,Soe,Maumere,Ende,Bajawa,Ruteng,Waingapu,Labuan Bajo,Ternate,Sofifi,Ambon,Namlea,Jailolo,Tual,Tomohon,Kotamobagu,Ratahan,Kalabahi,Larantuka"
   },
   {
-    "name": "Gondi",
-    "i": 4797,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Gondia,Balaghat,Bastar,Jagdalpur,Bijapur,Kondagaon,Narayanpur,Dantewada,Sukma,Kanker,Dhamtari,Rajnandgaon,Nagpur,Chandrapur,Gadchiroli,Adilabad,Nirmal,Khammam,Bhadrachalam"
-  },
-  {
-    "name": "Kui-Kuvi Dravidian",
-    "i": 7023,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Koraput,Rayagada,Phulbani,Kandhamal,Malkangiri,Nabarangpur,Bhawanipatna,Paralakhemundi,Baipariguda,Lamtaput,Digapahandi,Chhatrapur,Brahmapur,Kothapeta,Jeypore,Laxmipur,Muniguda,Bissamcuttack,Gudari"
-  },
-  {
     "name": "Koya-Konda-Manda-Pengo",
     "i": 61,
     "min": 5,
@@ -142,15 +108,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kothagudem,Bhadrachalam,Warangal,Mulugu,Aswaraopeta,Paloncha,Manuguru,Etapalli,Bijapur,Konta,Bhopalpatnam,Allapalli,Parvathipuram,Salur,Palakonda,Seethanagaram,Rampachodavaram,Chintoor,Khammam,Yellandu,Eturnagaram,Dummugudem,Kuntepalle,Lingapal,Madaram,Peruru,Kunavaram,Tadicherla"
-  },
-  {
-    "name": "Tungusic",
-    "i": 9480,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Khabarovsk,Komsomolsk,Amursk,Solnechny,Nikolayevsk,Okhotsk,De-Kastri,Sovetskaya,Gavan,Vladivostok,Nakhodka,Magadan,Aldan,Blagoveshchensk,Birobidzhan,Tynda,Skovorodino,Belogorsk,Khandyga"
   },
   {
     "name": "Iban",
@@ -162,15 +119,6 @@
     "b": "Kuching,Sibu,Miri,Bintulu,Sri Aman,Kapit,Mukah,Limbang,Lawas,Marudi,Sarikei,Betong,Serian,Bau,Lundu,Samarahan,Padawan,Asajaya,Simunjan,Sebuyau,Kanowit,Song,Belaga,Tatau,Dalat,Daro,Saratok,Selangau,Julau,Maradong,Pakan,Subis,Telang Usan,Engkilili,Batang Ai,Batang Lupar,Skrang,Lemanak,Saribas,Krian,Kalaka,Rajang,Batang Rajang,Batang Kayan,Ulu Ai,Ulu Skrang,Ulu Layar,Pantu,Maludam,Kabong,Roban,Debak,Sematan,Serikin,Tebedu,Ba Kelalan,Long Lama,Long Anap,Long Akah,Long Seridan,Long Moh,Long San,Long Busang,Long Jekitan,Nanga Skrang,Nanga Lemanak,Nanga Merirai,Nanga Entebai,Nanga Tada,Nanga Ngemah,Nanga Dap,Nanga Medamit,Nanga Kantu,Lubok Antu"
   },
   {
-    "name": "Brunei Malay",
-    "i": 8660,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bandar Seri Begawan,Gadong,Berakas,Kiulap,Batu Satu,Sengkurong,Jerudong,Mentiri,Muara,Serasa,Tutong,Kuala Belait,Seria,Bangur,Temburong,Bangar,Labu,Manggis,Kampong Ayer"
-  },
-  {
     "name": "Standard Malay",
     "i": 103,
     "min": 4,
@@ -178,15 +126,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kuala Lumpur,Putrajaya,Shah Alam,Petaling Jaya,Subang Jaya,Johor Bahru,Melaka,Seremban,Ipoh,George Town,Alor Setar,Kota Bharu,Kuala Terengganu,Kuantan,Kuching,Kota Kinabalu,Bandar Seri Begawan,Singapore,Jakarta,Bogor,Depok,Tangerang,Bekasi,Bandung,Cirebon,Semarang,Yogyakarta,Surakarta,Surabaya,Malang,Denpasar,Medan,Palembang,Pekanbaru,Padang,Banda Aceh,Pontianak,Banjarmasin,Makassar,Manado,Balikpapan,Samarinda,Cyberjaya,Bandar Lampung,Jambi,Bengkulu"
-  },
-  {
-    "name": "Cocos Malay",
-    "i": 9821,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "West Island,Home Island,Bantam Village,Kampong,Direction Island,Horsburgh Island,South Island,North Keeling Island,Pulu Cocos,Pulu Luar,Pulu Tikus,Pulu Gangsa,Pulu Panjang,Pulu Selma,Pulu Atas"
   },
   {
     "name": "Kupang Malay",
@@ -241,15 +180,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Serui,Yapen,Wondama,Biak,Numfor,Nabire,Waropen,Ransiki,Wasior,Ansus,Jayapura,Sorong,Manokwari,Timika,Fakfak,Merauke,Sentani,Wamena,Kaimana,Teminabuan,Kumurkek,Arona,Bintuni,Genyem,Sarmi,Oksibil,Tanah Merah,Agats,Enarotali,Sugapa,Karubaga,Burmeso,Sumohai,Kobakma,Tiom,Kenyam,Elelim,Mulia,Ilaga,Waisai,Anggi,Maybrat,Ayamaru,Aitinyo,Inanwatan,Kokas,Babo,Menawi,Saubeba,Ambai"
-  },
-  {
-    "name": "Sri Lankan Malay",
-    "i": 4205,
-    "min": 4,
-    "max": 10,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Colombo,Kandy,Galle,Matara,Negombo,Kalutara,Ratnapura,Batticaloa,Trincomalee,Jaffna,Hambantota,Anuradhapura,Polonnaruwa,Badulla,Kurunegala,Puttalam"
   },
   {
     "name": "Sula Malay",
@@ -412,6 +342,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Padang,Bukittinggi,Payakumbuh,Pariaman,Solok,Padang Panjang,Sawahlunto,Batusangkar,Agam,Pasaman,Painan,Padang Pariaman,Lubuk Basung,Sijunjung,Dharmasraya,Maninjau,Harau,Singkarak,Tanah Datar,Mentawai,Padang Lawas,Mandailing,Bonjol,Sungai Puar,Batu Sangkar"
+  },
+  {
+    "name": "Rejang",
+    "i": 137,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bengkulu,Curup,Kepahiang,Lebong,Rejang Lebong,Manna,Mukomuko,Arga Makmur,Ipuh,Bintuhan,Seluma,Enggano,Kaur,Pagar Jati"
   },
   {
     "name": "Saluan-Banggai",
@@ -864,6 +803,15 @@
     "b": "Nizwa,Bahla,Ibri,Yanqul,Rustaq,Nakhal,Awabi,Samail,Bidbid,Izki,Adam,Manah"
   },
   {
+    "name": "Al-Azdi dialect",
+    "i": 737,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Nizwa,Bahla,Izki,Manah,Adam,Samail,Bidbid,Al Hamra,Birkat Al Mouz,Misfat Al Abriyyin,Nakhal,Awabi,Rustaq,Yanqul,Ibri,Bahla Fort,Jebel Akhdar,Saiq Plateau,Al Hamra Old Town,Zukait,Bat,Al Khutm,Al Ayn,Bahla Oasis,Falaj Daris"
+  },
+  {
     "name": "Hejtun",
     "i": 738,
     "min": 4,
@@ -1017,6 +965,15 @@
     "b": "Kyren,Arshan,Tunka,Mondy,Turan,Zhemchug,Tory,Shimki,Nilovka,Khoito-Gol,Tagarkhai,Guzhiry"
   },
   {
+    "name": "Alasha Mongol",
+    "i": 814,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bayanhot,Alxa Left Banner,Alxa Right Banner,Ejin Banner,Dalaihob,Barunbair,Jilantai,Wuhai,Dengkou,Linhe,Bayannur,Otog Banner"
+  },
+  {
     "name": "Assyrian Neo-Aramaic",
     "i": 816,
     "min": 4,
@@ -1071,6 +1028,51 @@
     "b": "Baku,Ganja,Sumgait,Lankaran,Mingachevir,Nakhchivan,Shaki,Shirvan,Khankendi,Quba,Shamakhi,Barda"
   },
   {
+    "name": "Central Plains Mandarin",
+    "i": 829,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Beijing,Tianjin,Shijiazhuang,Taiyuan,Zhengzhou,Jinan,Qingdao,Xuzhou,Hefei,Nanjing,Wuhan,Changsha"
+  },
+  {
+    "name": "Lan-Yin Mandarin",
+    "i": 830,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Lanzhou,Xining,Yinchuan,Xian,Baoji,Tianshui,Jiayuguan,Jiuquan,Zhangye,Wuwei,Dingxi,Qingyang"
+  },
+  {
+    "name": "Northeastern Mandarin",
+    "i": 831,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Shenyang,Dalian,Changchun,Harbin,Jilin,Qiqihar,Daqing,Fushun,Anshan,Benxi,Liaoyang,Panjin"
+  },
+  {
+    "name": "Southwestern Mandarin",
+    "i": 832,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chengdu,Chongqing,Kunming,Guiyang,Leshan,Yibin,Luzhou,Zigong,Nanchong,Mianyang,Deyang,Yaan"
+  },
+  {
+    "name": "Lower Yangtze Mandarin",
+    "i": 833,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Shanghai,Suzhou,Hangzhou,Nanjing,Wuxi,Changzhou,Nantong,Yangzhou,Zhenjiang,Maanshan,Hefei,Anqing"
+  },
+  {
     "name": "Athpahariya (Athpare)",
     "i": 834,
     "min": 4,
@@ -1087,6 +1089,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tulsipur,Dharan,Nepalgunj,Kalaiya,Jitpursimara,Tribhuvannagar,Bidur,Bhimeshwor,Birtamod,Damak,Lahan,Kamalamai"
+  },
+  {
+    "name": "Bahing",
+    "i": 836,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Surkhet,Gulariya,Rajbiraj,Siraha,Hanumannagar,Gaighat,Okhaldhunga,Phidim,Ilam,Mechinagar,Kanchanpur,Krishnapur"
   },
   {
     "name": "Belhare",
@@ -1449,6 +1460,15 @@
     "b": "Copenhagen,Aarhus,Odense,Aalborg,Esbjerg,Randers,Kolding,Horsens,Vejle,Roskilde,Helsingor,Svendborg"
   },
   {
+    "name": "Arabic Javanese of Klego",
+    "i": 942,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Tangerang,Depok,Bekasi,Bogor,Batam"
+  },
+  {
     "name": "Armazic",
     "i": 945,
     "min": 4,
@@ -1557,6 +1577,24 @@
     "b": "Visakhapatnam,Vijayawada,Warangal,Nellore,Kurnool,Guntur,Tirupati,Rajahmundry,Kakinada,Anantapur,Ongole,Eluru"
   },
   {
+    "name": "Chinese",
+    "i": 1000,
+    "min": 5,
+    "max": 10,
+    "d": "",
+    "m": 0,
+    "b": "Anding,Anlu,Anqing,Anshun,Baixing,Banyang,Baoqing,Binzhou,Caozhou,Changbai,Changchun,Changde,Changling,Changsha,Changzhou,Chengdu,Chenzhou,Chizhou,Chongqing,Chuxiong,Chuzhou,Dading,Daming,Datong,Daxing,Dengzhou,Deqing,Dihua,Dingli,Dongan,Dongchang,Dongchuan,Dongping,Duyun,Fengtian,Fengxiang,Fengyang,Fenzhou,Funing,Fuzhou,Ganzhou,Gaoyao,Gaozhou,Gongchang,Guangnan,Guangning,Guangping,Guangxin,Guangzhou,Guiyang,Hailong,Hangzhou,Hanyang,Hanzhong,Heihe,Hejian,Henan,Hengzhou,Hezhong,Huaian,Huaiqing,Huanglong,Huangzhou,Huining,Hulan,Huzhou,Jiading,Jian,Jianchang,Jiangning,Jiankang,Jiaxing,Jiayang,Jilin,Jinan,Jingjiang,Jingzhao,Jinhua,Jinzhou,Jiujiang,Kaifeng,Kaihua,Kangding,Kuizhou,Laizhou,Lianzhou,Liaoyang,Lijiang,Linan,Linhuang,Lintao,Liping,Liuzhou,Longan,Longjiang,Longxing,Luan,Lubin,Luzhou,Mishan,Nanan,Nanchang,Nandian,Nankang,Nanyang,Nenjiang,Ningbo,Ningguo,Ningwu,Ningxia,Ningyuan,Pingjiang,Pingliang,Pingyang,Puer,Puzhou,Qianzhou,Qingyang,Qingyuan,Qingzhou,Qujing,Quzhou,Raozhou,Rende,Ruian,Ruizhou,Shafeng,Shajing,Shaoqing,Shaowu,Shaoxing,Shaozhou,Shinan,Shiqian,Shouchun,Shuangcheng,Shulei,Shunde,Shuntian,Shuoping,Sicheng,Sinan,Sizhou,Songjiang,Suiding,Suihua,Suining,Suzhou,Taian,Taibei,Taiping,Taiwan,Taiyuan,Taizhou,Taonan,Tengchong,Tingzhou,Tongchuan,Tongqing,Tongzhou,Weihui,Wensu,Wenzhou,Wuchang,Wuding,Wuzhou,Xian,Xianchun,Xianping,Xijin,Xiliang,Xincheng,Xingan,Xingde,Xinghua,Xingjing,Xingyi,Xingyuan,Xingzhong,Xining,Xinmen,Xiping,Xuanhua,Xunzhou,Xuzhou,Yanan,Yangzhou,Yanji,Yanping,Yanzhou,Yazhou,Yichang,Yidu,Yilan,Yili,Yingchang,Yingde,Yingtian,Yingzhou,Yongchang,Yongping,Yongshun,Yuanzhou,Yuezhou,Yulin,Yunnan,Yunyang,Zezhou,Zhang,Zhangzhou,Zhaoqing,Zhaotong,Zhenan,Zhending,Zhenhai,Zhenjiang,Zhenxi,Zhenyun,Zhongshan,Zunyi,Beijing,Shanghai,Shenzhen,Wuhan,Xi'an,Tianjin,Nanjing,Shenyang,Dalian,Qingdao,Xiamen,Harbin,Taipei,Kaohsiung,Taichung,Tainan,New Taipei,Taoyuan,Chiayi,Hsinchu,Keelung,Miaoli,Changhua,Nantou,Yunlin,Pingtung,Hualien,Taitung,Penghu,Kinmen,Zhubei,Fengyuan,Yangmei,Hualien City,Taitung City,Magong,Kunming,Linyi,Foshan,Dongguan,Shijiazhuang,Hefei,Shantou,Nanning,Wuxi,Urumqi,Lanzhou,Tangshan,Huizhou"
+  },
+  {
+    "name": "Manchu",
+    "i": 1000,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Shenyang,Dalian,Harbin,Changchun,Shijiazhuang,Taiyuan,Hohhot,Shanghai,Nanjing,Hangzhou,Hefei,Fuzhou"
+  },
+  {
     "name": "Xibe",
     "i": 1002,
     "min": 4,
@@ -1618,6 +1656,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Haikou,Sanya,Zhuhai,Shantou,Jiangmen,Zhanjiang,Beihai,Qinzhou,Fangchenggang,Dongxing,Chongzuo,Hezhou"
+  },
+  {
+    "name": "Baarin Mongol",
+    "i": 1014,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur"
   },
   {
     "name": "Babylonian",
@@ -1791,6 +1838,15 @@
     "b": "Lauhut,Maluku,Ambon,Seram,Halmahera,Buru,Kai,Aru,Tanimbar,Maluku Islands,Kei Islands"
   },
   {
+    "name": "Bahrani Arabic",
+    "i": 1073,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Manama,Riffa,Muharraq,Hamad Town,Isa Town,Sitra,Budaiya,A'ali,Madinat Hamad,Al Muharraq,Jidhafs"
+  },
+  {
     "name": "Baima",
     "i": 1075,
     "min": 4,
@@ -1881,6 +1937,15 @@
     "b": "Banjarmasin,Martapura,Amuntai,Banjarbaru,Barabai,Kandangan,Kuala Kapuas,Margasari,Sungai Pinang"
   },
   {
+    "name": "Bareqi Arabic",
+    "i": 1125,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tarut,Dammam,Al Khobar,Qatif,Al Jubail,Hofuf,Al Hasa,Abqaiq,Ras Tanura,Jubail,Haradh"
+  },
+  {
     "name": "Bargut",
     "i": 1126,
     "min": 4,
@@ -1933,6 +1998,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Zinvalani,Tusheti,Omalo,Mta,Tbatsvi,Tlivi,Vani,Kvaratsi,Oreli,Tsablata,Ingushetia,Vedeno"
+  },
+  {
+    "name": "Bayat Oirat",
+    "i": 1143,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Altay,Gorno-Altaysk,Biysk,Choy,Maima,Rubtsovskoy,Shebalino,Soloneshnoye,Turochak,Chemal,Ust-Kan"
   },
   {
     "name": "Toba Batak",
@@ -2016,6 +2090,15 @@
     "b": "Luocheng,Yizhou,Huanjiang,Hechi,Nandan,Tian'e,Fengshan,Du'an,Shanglin,Mashan,Pingguo,Bama"
   },
   {
+    "name": "Be",
+    "i": 1160,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bijie,Weining,Hezhang,Yi liang,Zhaotong,Shuicheng,Dafang,Qianxi,Jinsha,Zhijin,Nayong"
+  },
+  {
     "name": "Bouyei",
     "i": 1161,
     "min": 4,
@@ -2032,6 +2115,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Maolan,Jianhe,Libo,Leishan,Taijiang,Liuzhi,Songtao,Danzhai,Guiyang,Guizhou,China"
+  },
+  {
+    "name": "Kuan",
+    "i": 1163,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kuan,Kaili,Danansai,Guizhou,Liuzhi,Qiandong,Zhenyuan,Songtao,Leigun,Rongjiang"
   },
   {
     "name": "Lao Nyo",
@@ -2187,6 +2279,15 @@
     "b": "Cocopa,Somerton,Yuma,San Luis,Winterhaven,Fort Yuma,Wellton,Quartermaster Landing,Madrid,Ogilby,Imperial,El Centro"
   },
   {
+    "name": "Beijing Mandarin",
+    "i": 1226,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Beijing,Shijiazhuang,Tongzhou,Tianjin,Shijingshan,Chengde,Baoding,Langfang,Zhangjiakou,Chifeng,Cangzhou"
+  },
+  {
     "name": "Betanure Jewish Neo-Aramaic",
     "i": 1236,
     "min": 4,
@@ -2248,6 +2349,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Putian,Xianyou,Fuzhou,Quanzhou,Xiamen,Sanming,Longyan,Nanping,Ningde,Changde,Jieyang,Chaozhou"
+  },
+  {
+    "name": "Haklau Min",
+    "i": 1245,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Taichung,Hsinchu,Miaoli,Changhua,Nantou,Yunlin,Chiayi,Tainan,Kaohsiung,Pingtung,Meizhou,Shexian,Jixi,Huizhou,Tunxi,Yixian,Quzhou,Jiangshan,Changshan,Kaihua,Longyou,Jinhua,Lanxi,Pujiang,Yiwu,Dongyang,Pan'an,Jiande,Tonglu,Fuyang,Xiaoshan,Lin'an,Yuqing,Wuyi,Yongkang,Tongxiang,Haining,Haiyan,Pinghu,Jiaxing,Chun'an,Sui'an"
   },
   {
     "name": "Haryanvi",
@@ -2520,6 +2630,15 @@
     "b": "Biao Min,Zhaoping,Hexian,Zhaoqing,Deqing,Fengkai,Wuzhou,Yulin,Mengshan,Zhongshan,Foshan,Jiangmen"
   },
   {
+    "name": "Biao Mon",
+    "i": 1287,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Biao Mon,Zhaoqing,Foshan,Jiangmen,Zhongshan,Guangzhou,Dongguan,Shenzhen,Huizhou,Meizhou,Heyuan,Shaoguan"
+  },
+  {
     "name": "Biblical Aramaic",
     "i": 1288,
     "min": 4,
@@ -2626,6 +2745,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Bonan Manegacha,Gansu,Qinghai,Xiahe,Minhe,Xunhua,Tongren,Manegacha,Haibei,Guoluo"
+  },
+  {
+    "name": "Bonan Manegacha lect",
+    "i": 1356,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bonan Manegacha,Gansu,Qinghai,Xiahe,Minhe,Xunhua,Tongren,Haibei,Guoluo,Huangnan"
   },
   {
     "name": "Bouhin",
@@ -2904,7 +3032,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Koi,Kalahari,Ghanzi,Kang,Sehitwa,Maun,Botswana,Southern Africa,Kalahari Desert"
+    "b": "Koi,Sogeri,Efogi,Boridi,Kagi,Manari,Osabewai,Mesime,Vaiagai,Furimuti,Kailaki,Edevu"
   },
   {
     "name": "Tilung",
@@ -3231,6 +3359,15 @@
     "b": "Chukchi,Anadyr,Provideniya,Uelen,Chukotka Autonomous Okrug,Russia,Siberia,Bering Sea,Chukchi Sea"
   },
   {
+    "name": "Chongqing Mandarin",
+    "i": 1602,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chongqing,Chengdu,Wanzhou,Fuling,China,Sichuan,Yangtze River,Three Gorges"
+  },
+  {
     "name": "Chukotkan",
     "i": 1607,
     "min": 4,
@@ -3249,6 +3386,15 @@
     "b": "Chukotko-Kamchatkan,Anadyr,Palana,Kamchatka,Russia,Far East,Siberia,Pacific Ocean"
   },
   {
+    "name": "Chukotko-Kamchatkan-Amuric",
+    "i": 1609,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chukotko-Kamchatkan-Amuric,Anadyr,Blagoveshchensk,Khabarovsk,Russia,Amur River,Far East"
+  },
+  {
     "name": "Chungcheong Korean",
     "i": 1610,
     "min": 4,
@@ -3265,6 +3411,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Chuvan,Anadyr,Markovo,Bilibino,Chukotka,Russia,Siberia,Kolyma River"
+  },
+  {
+    "name": "Cilician Arabic",
+    "i": 1614,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cilician Arabic,Adana,Mersin,Turkey,Mediterranean Coast,Cilicia,Tarsus"
   },
   {
     "name": "Circassian",
@@ -3699,6 +3854,15 @@
     "b": "E mixed,East Asia,Southeast Asia,Oceania,Australia,Indo-Pacific"
   },
   {
+    "name": "Early Modern Korean",
+    "i": 1727,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Early Modern Korean,Seoul,Busan,Incheon,Gyeongju,Daegu,Gwangju,Jeju Island,South Korea,Korea Peninsula"
+  },
+  {
     "name": "East Bodish",
     "i": 1728,
     "min": 4,
@@ -4059,6 +4223,15 @@
     "b": "Hwanghae,Haeju,Kaesong,Hongchong,Chuncheon,North Korea,Eastern,Korea"
   },
   {
+    "name": "Hwanghae Dialect",
+    "i": 1908,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hwanghae,Haeju,Kaesong,Hongchong,Chuncheon,North Korea,Eastern,Korea"
+  },
+  {
     "name": "Ibanag",
     "i": 1911,
     "min": 4,
@@ -4104,6 +4277,15 @@
     "b": "Gowro,Afghanistan,Nuristan,Kunar,Hindu Kush,Chitral Valley"
   },
   {
+    "name": "Gawar-Bati",
+    "i": 1927,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gawar-Bati,Nuristan,Kunar,Hindu Kush,Kalam,Chitral,Chitral Valley"
+  },
+  {
     "name": "Gyeonggi-Seoul",
     "i": 1929,
     "min": 4,
@@ -4113,7 +4295,25 @@
     "b": "Gyeonggi,Gyeonggi-Seoul,Seoul,Incheon,Suwon,Bucheon,South Korea,Province"
   },
   {
+    "name": "Gyeonggi-Seoul Dialect",
+    "i": 1929,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gyeonggi,Gyeonggi-Seoul,Seoul,Incheon,Suwon,Bucheon,South Korea,Province"
+  },
+  {
     "name": "Gyeongsang",
+    "i": 1930,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gyeongsang,Busan,Ulsan,Tongyeongong,Changwon,Miryang,South Korea,Province"
+  },
+  {
+    "name": "Gyeongsang Dialect",
     "i": 1930,
     "min": 4,
     "max": 11,
@@ -4138,6 +4338,42 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Armenian,Yerevan,Gyumri,Vanadzor,Tavush,Kapan,Masisis,Armenia,Asia,Caucasus"
+  },
+  {
+    "name": "Armenian Dialect",
+    "i": 1938,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Armenian,East,Syunik,Echmiadzin,Tavush,Masisis,Armenia,Caucasus"
+  },
+  {
+    "name": "Modern Armenian",
+    "i": 1939,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "hayeren,Yerevan,Gyumri,Vanadzor,Abovyan,Kapan,Armavir,Gavar,Ararat,Ashtarak,Ijevan"
+  },
+  {
+    "name": "Modern Eastern Armenian",
+    "i": 1940,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Modern,Eastern,Armenian,Yerevan,Sevan,Gyumri,Tavush,Republic,of,Armenia,Caucasus"
+  },
+  {
+    "name": "Modern Western Armenian",
+    "i": 1941,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "hayeren,Istanbul,Izmir,Bursa,Antalya,Adana,Konya,Mersin,Gaziantep,Ankara,Trabzon"
   },
   {
     "name": "Old Armenian",
@@ -4239,6 +4475,15 @@
     "b": "Udupi,Mangalore,Kasaragod,Kundapura,Karkala,Belthangady,Puttur,Sullia,Bantwal,Moodabidri,Mulki,Manjeshwar"
   },
   {
+    "name": "Kota",
+    "i": 1976,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ooty,Coonoor,Kotagiri,Gudalur,Wellington,Kundah,Pykara,Masinagudi,Mudumalai,Bandipur,Wayanad,Malappuram"
+  },
+  {
     "name": "Kudiya",
     "i": 1977,
     "min": 4,
@@ -4255,6 +4500,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kandhamal,Rayagada,Phulbani,Baliguda,G-Udayagiri,Raikia,Daringbadi,Kotagarh,Tumudibandh,Chakapad,Tikabali,Khajuripada,Phiringia,K-Nuagaon,Saddali,Ha-Laakaa,Kandha,Khondi,Khond,Khondo,Kanda,Kodu,Kodulu,Kuinga,Kuy,Odisha,Goudaguda,Kalinga,Balliguda,Udayagiri,Belghar,Muniguda"
+  },
+  {
+    "name": "Kumbaran",
+    "i": 1979,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Palakkad,Wayanad,Kozhikode,Kannur,Malappuram,Thrissur,Malabar,Nilgiris,Kerala,Tamil-Nadu,Karnataka,Kumbara,Potter,Shoranur,Ottapalam,Pattambi,Cherpulassery,Mannarkkad,Perinthalmanna,Nilambur,Manjeri,Kondotty,Tirur,Ponnani,Valanchery"
   },
   {
     "name": "Paniya",
@@ -4291,6 +4545,24 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tigil,Kovran,Khairyuzovo,Ust-Khairyuzovo,Sedanka,Belogolovoye,Moroshechnoye,Utkholok,Napana"
+  },
+  {
+    "name": "Joseon Korean Modern",
+    "i": 1993,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju"
+  },
+  {
+    "name": "Juk",
+    "i": 1996,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sekong,Lamam,Kaleum,Dakcheung,Thateng,Paksong,Attapeu,Saravane,Pakse,Champasak"
   },
   {
     "name": "Jirel",
@@ -4435,6 +4707,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Yao,Mien,Panh,Saelee,Chao,Phan,Tang,Lai,Lee,Wong,Teng,Kwang,Chew,Lu"
+  },
+  {
+    "name": "Joseon Korean Early Modern",
+    "i": 2040,
+    "min": 4,
+    "max": 12,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hanyang,Pyongyang,Kaesong,Jeonju,Chungju,Sangju,Gyeongju,Jinju,Haeju,Hamhung,Wonsan,Ulsan,Dongnae,Suwon"
   },
   {
     "name": "Joseon Korean Middle",
@@ -4662,6 +4943,15 @@
     "b": "Mirpur-Khas,Sanghar,Umerkot,Tharparkar,Badin,Hyderabad,Tando-Allahyar,Tando-Adam,Shahdadpur,Khipro,Jamesabad,Digri"
   },
   {
+    "name": "Kumaoni",
+    "i": 2142,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Almora,Nainital,Pithoragarh,Champawat,Bageshwar,Ranikhet,Haldwani,Rudrapur,Kashipur,Jaspur,Khatima,Sitarganj"
+  },
+  {
     "name": "Kusunda",
     "i": 2143,
     "min": 4,
@@ -4797,6 +5087,15 @@
     "b": "Abakan,Chernogorsk,Sayanogorsk,Abaza,Sorsk,Bely-Yar,Ust-Abakan,Shira,Kopievo,Tashtyp,Askiz,Biskamzha"
   },
   {
+    "name": "Khamnigan Mongol",
+    "i": 2196,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hulunbuir,Hailar,Evenk-Banner,Chen-Barag,Old-Barag,Ergun,Genhe,Manzhouli,Jalainur,Argun,Onon,Borzya"
+  },
+  {
     "name": "Khams Tibetan",
     "i": 2197,
     "min": 4,
@@ -4914,6 +5213,15 @@
     "b": "Nikolskoye,Preobrazhenskoye,Bering,Commander,Petropavlovsk,Ust-Kamchatskiy,Ossora,Palana,Tilichiki,Tigil,Esso,Milkovo"
   },
   {
+    "name": "Mon (native speakers)",
+    "i": 2245,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Mawlamyine,Thaton,Mudon,Ye,Mottama,Kyaikmaraw,Chaungzon,Paung,Bilin,Kyaikto,Kamawet,Kalwi"
+  },
+  {
     "name": "Lakkia-Kam-Sui",
     "i": 2246,
     "min": 4,
@@ -4968,6 +5276,15 @@
     "b": "Araku,Paderu,Gudem Kotha Veedhi,Chintapalli,Munchingiputtu,Ananthagiri,Dumbriguda,Hukumpeta,Pedabayalu,Koyyuru,Rajavommangi,Addateegala"
   },
   {
+    "name": "Konda Khanty",
+    "i": 2260,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kondinskoye,Mezhdurechensky,Lugovoy,Mortka,Kuminsky,Yagodny,Boltino,Leushi,Shaim,Mulymya,Nakhabalovka,Polovinka"
+  },
+  {
     "name": "Konkani",
     "i": 2262,
     "min": 4,
@@ -4995,6 +5312,15 @@
     "b": "Korlai,Revdanda,Chaul,Alibag,Roha,Murud,Shrivardhan,Mangaon,Mahad,Pen,Nagothane,Poladpur"
   },
   {
+    "name": "Koryo-mar",
+    "i": 2270,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tashkent,Almaty,Bishkek,Dushanbe,Samarkand,Bukhara,Nukus,Kyzylorda,Taldykorgan,Taraz,Shymkent,Khujand"
+  },
+  {
     "name": "Koya",
     "i": 2274,
     "min": 4,
@@ -5002,6 +5328,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Khammam,Bhadrachalam,Paloncha,Kothagudem,Yellandu,Manuguru,Burgampahad,Pinapaka,Cherla,Dummagudem,Venkatapuram,Wazeed"
+  },
+  {
+    "name": "Kumhali",
+    "i": 2277,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Rama,Krishna,Sita,Hari,Gopal,Devi,Maya,Bishnu,Shiva,Lakshmi"
   },
   {
     "name": "Kristang",
@@ -5029,6 +5364,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kohima,Dimapur,Mokokchung,Tuensang,Wokha,Zunheboto,Phek,Mon,Peren,Kiphire,Longleng,Noklak"
+  },
+  {
+    "name": "Kumhali (alias)",
+    "i": 2292,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gorkha,Tanahun,Nawalparasi,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Parbat,Baglung,Myagdi"
   },
   {
     "name": "Kunduvadi",
@@ -5175,6 +5519,15 @@
     "b": "Dali,Lijiang,Shangri-La,Xiaguan,Heqing,Jianchuan,Eryuan,Yunlong,Binchuan,Midu"
   },
   {
+    "name": "Tura",
+    "i": 2320,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Doha,Al Wakrah,Al Khor,Dukhan,Al Rayyan,Mesaieed,Shahaniya,Umm Salal,Lusail,Al Daayen"
+  },
+  {
     "name": "Sherkal",
     "i": 2322,
     "min": 4,
@@ -5209,6 +5562,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Wayanad,Kalpetta,Sultan Bathery,Mananthavady,Vythiri,Panamaram"
+  },
+  {
+    "name": "Azd Dialect",
+    "i": 2345,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "-Muscat,Salalah,Sohar,Seeb,Bawshar,Sur,Ibra,Rustaq"
   },
   {
     "name": "Ejtun",
@@ -5346,6 +5708,15 @@
     "b": "Pakse,Salavan,Sekong,Champasak,Xekong,Attapeu,Saravan"
   },
   {
+    "name": "Laz",
+    "i": 2411,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Rize,Artvin,Hopa,BorÃ§ka,Arhavi,FÄ±ndÄ±klÄ±,ArdeÅŸen,Ã‡amlÄ±hemÅŸin,Ä°kizdere,Kalkandere,Pazar,HemÅŸin,Ã‡ayeli,DerepazarÄ±,GÃ¼neysu,Ä°yidere,Batumi,Kobuleti,Chakvi,Gonio,Sarpi,Khelvachauri,Machakhela,Adjara,KemalpaÅŸa,ÅžavÅŸat,Yusufeli,Oltu,Tortum,Uzundere"
+  },
+  {
     "name": "Ladakhi",
     "i": 2413,
     "min": 4,
@@ -5362,6 +5733,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Gangtok,Namchi,Gyalshing,Mangan,Jorethang,Singtam,Rangpo,Pakyong,Soreng,Yuksom,Pelling,Ravangla,Legship,Dentam,Kalimpong,Kurseong,Darjeeling,Pedong,Lava,Rishop,Lachung,Lachen,Yumthang,Thangu,Chungthang,Dzongu,Lingmoo,Dikchu,Makha,Tingvong"
+  },
+  {
+    "name": "Levantine Arabic",
+    "i": 2418,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Damascus,Aleppo,Homs,Latakia,Hama,Deir ez-Zor,Daraa,Qamishli,Beirut,Tripoli,Sidon,Tyre,Baalbek,Zahle,Jounieh,Byblos,Amman,Zarqa,Irbid,Aqaba,Karak,Madaba,Jerash,Mafraq,Nablus,Hebron,Ramallah,Bethlehem,Jericho,Jenin"
   },
   {
     "name": "Lhomi",
@@ -5436,6 +5816,15 @@
     "b": "Yangon,Mandalay,Naypyidaw,Bago,Mawlamyine,Pathein,Monywa,Sittwe,Taunggyi,Pyay,Pyin Oo Lwin,Lashio,Myeik,Dawei,Myitkyina,Hpa-An,Hakha,Kengtung,Tachileik,Meiktila,Magway,Minbu,Pakokku,Pyapon,Thaketa,Insein,Hlaingthaya,Thanlyin,Kyaukpyu,Mawlamyinegyun,Bogale,Kyaiklat,Dala,Kawhmu,Thongwa,Phyu,Nyaungshwe,Kalaw,Loikaw,Letpadan,Chauk,Nyaunglebin,Thandwe"
   },
   {
+    "name": "Newar",
+    "i": 2440,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Thimi,Banepa,Panauti,Dhulikhel,Thamel,Chabahil,Boudha,Sankhu,Tokha,Thankot,Satungal,Chapagaun,Imadol,Harisiddhi,Khokana,Godavari,Naikap,Pharping,Bungamati,Changu Narayan,Suryabinayak,Anantalingeshwar,Gokarna,Dakshinkali,Lele,Bhattedanda,Nagarkot"
+  },
+  {
     "name": "Meitei",
     "i": 2441,
     "min": 4,
@@ -5472,6 +5861,33 @@
     "b": "Jishou,Zhangjiajie,Enshi,Laifeng,Longshan,Guzhang,Baojing,Yongshun,Sangzhi,Shimen,Chengbu,Xupu,Yuanling,Huaihua,Hecheng,Tongren,Lixian,Dayong,Fenghuang,Luxi,Mayang,Hongjiang"
   },
   {
+    "name": "West Himalayish",
+    "i": 2445,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Shimla,Solan,Kasauli,Dharampur,Parwanoo,Kandaghat,Nahan,Paonta Sahib,Chamba,Dalhousie,Kangra,Dharamshala,Palampur,Jogindernagar,Kullu,Manali,Mandi,Sundernagar,Bilaspur,Hamirpur,Una,Rampur,Baijnath,Keylong,Reckong Peo,Kalpa,Sangla,Theog,Rohru,Bhuntar,Banjar"
+  },
+  {
+    "name": "Tamangic",
+    "i": 2446,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dhunche,Syabrubesi,Trisuli,Bidur,Nuwakot,Kakani,Melamchi,Helambu,Chautara,Bahrabise,Balaju,Boudha,Thankot,Chandragiri,Pharping,Naubise,Gorkha,Lamjung,Rasuwa,Nagarkot,Dhulikhel,Panauti"
+  },
+  {
+    "name": "Kiranti",
+    "i": 2447,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dhankuta,Bhojpur,Khotang,Okhaldhunga,Terhathum,Panchthar,Taplejung,Ilam,Sankhuwasabha,Udayapur,Katari,Gaighat,Letang,Biratnagar,Birtamod,Inaruwa,Dharan,Itahari,Rangeli,Pathari,Urlabari,Kanepokhari"
+  },
+  {
     "name": "Qiangic",
     "i": 2448,
     "min": 4,
@@ -5479,6 +5895,24 @@
     "d": "lnrt",
     "m": 0,
     "b": "Wenchuan,Lixian,Maoxian,Songpan,Heishui,Li,Xiaojin,Danba,Jinchuan,Maerkang,Aba,Jiuzhaigou,Dujiangyan,Beichuan,Anxian,Jiangyou,Shifang,Mianzhu,Guangyuan,Cangxi,Qingchuan,Langzhong,Pengzhou,Miyaluo"
+  },
+  {
+    "name": "Gyalrongic",
+    "i": 2449,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Barkam,Jinchuan,Xiaojin,Danba,Rangtang,Luhuo,Maerkang,Nyagrong,Daofu,Heishui,Seda,Ganzi,Derge,Dege,Xinlong,Jiulong,Lianghekou,Maoxian,Songpan,Aba,Jiuzhaigou"
+  },
+  {
+    "name": "Ersuic",
+    "i": 2450,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Shimian,Hanyuan,Ganluo,Meigu,Yuexi,Mianning,Muli,Puge,Xide,Zhaojue,Leibo,Butuo,Ningnan,Xichang,Dechang,Huili,Huidong,Mashan,Meiguo"
   },
   {
     "name": "Naic",
@@ -5515,6 +5949,24 @@
     "d": "lnrt",
     "m": 0,
     "b": "Myitkyina,Mogaung,Mohnyin,Hpakant,Bhamo,Waingmaw,Putao,Sumprabum,Machanbaw,Tanai,Sinbo,Myitsone,Ruili,Longchuan,Yingjiang,Lianghe,Luxi,Tengchong,Baoshan,Kunming"
+  },
+  {
+    "name": "Arunachal",
+    "i": 2456,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Itanagar,Naharlagun,Ziro,Daporijo,Aalo,Pasighat,Roing,Tezu,Anini,Yingkiong,Along,Basar,Likabali,Seppa,Bomdila,Tawang,Namsai,Changlang,Khonsa,Jairampur,Doimukh,Dirang,Bhalukpong,Rupa,Ruksin,Nongstoin"
+  },
+  {
+    "name": "Mandarin",
+    "i": 2457,
+    "min": 5,
+    "max": 10,
+    "d": "",
+    "m": 0,
+    "b": "Beijing,Tianjin,Shijiazhuang,Zhengzhou,Wuhan,Changsha,Nanchang,Nanjing,Hefei,Jinan,Lanzhou,Xi'an,Chengdu,Chongqing,Kunming,Guiyang,Shenyang,Harbin,Changchun,Luoyang,Baoji,Xinyang,Xiangyang,Suizhou,Handan,Baoding,Cangzhou,Anyang,Kaifeng,Huaihua"
   },
   {
     "name": "Gan",
@@ -5589,6 +6041,42 @@
     "b": "Meizhou,Heyuan,Huizhou,Longchuan,Xingning,Dapu,Fengshun,Jiaoling,Wuhua,Pingyuan,Longyan,Yongding,Changting,Shanghang,Liancheng,Xinfeng,Nanxiong,Guangning,Fogang"
   },
   {
+    "name": "Magar",
+    "i": 2466,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Rolpa,Rukum,Pyuthan,Baglung,Gulmi,Arghakhanchi,Myagdi,Syangja,Palpa,Tanahun,Lamjung,Gorkha,Tansen,Beni,Waling,Libang,Musikot,Harichaur,Arnakot,Burtibang"
+  },
+  {
+    "name": "Kham",
+    "i": 2467,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Thabang,Gam,Ghorahi,Tulsipur,Salyan,Sharada,Bafikot,Kotgaun,Pajaru,Maikot,Kureli,Jajarkot,Burtibang,Musikhola,Syarpu,Holeri,Sisne,Rukumkot,Bijaysal,Odaichaur"
+  },
+  {
+    "name": "Bhujel",
+    "i": 2469,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bhujel,Khaireni,Bharatpur,Bhoteodar,Dulegauda,Khudi,Bhujung,Pasgaun,Ghalegaun,Hariharpur,Lamachaur,Gaindakot,Devghat,Rampur,Chainpur,Sardikhola,Gagangauda,Simalgairi,Syangjaon,Putalibazar"
+  },
+  {
+    "name": "Dhimal",
+    "i": 2471,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Budhabare,Mangalbare,Sanishchare,Damak,Biratnagar,Birtamod,Bhadrapur,Letang,Pathari,Rangeli,Urlabari,Gauradaha,Surunga,Inaruwa,Ratuwamai,Katahari,Kechana,Prithvinagar,Kanchanbari,Ghopa"
+  },
+  {
     "name": "Toto",
     "i": 2472,
     "min": 4,
@@ -5596,6 +6084,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Totopara,Alipurduar,Madarihat,Birpara,Kalchini,Hasimara,Jaigaon,Buxa,Jayanti,Chilapata,Phuentsholing,Sipsu,Gomtu,Samchi,Nagrakata,Banarhat,Chengmari,Kalchinihat,Salbari,Barobisha"
+  },
+  {
+    "name": "Hruso",
+    "i": 2473,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Thrizino,Shergaon,Rupa,Naogaon,Bichom,Singchung,Balemu,Jamiri,Khuppi,Palizi,Sialsyi,Chayangtajo,Pakke,Thungri,Dikshang,PaliziCamp,Chayang,Kameng,Seppa"
   },
   {
     "name": "Miju-Meyor",
@@ -5616,6 +6113,15 @@
     "b": "Pangin,Boleng,Rebo,Pugi,Yembung,Sile,Komsing,Ledum,Remi,Yagrung,Rayeng,Kerang,Molom,Pangi,Riga,Yeksi,Kebang,Raling,Rotung,Pasighat"
   },
   {
+    "name": "Idu-Taraon",
+    "i": 2476,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Roing,Anini,Hunli,Etalin,Anelih,Arzoo,Dambuk,Meka,Paglam,Iduli,Desali,Mipi,NewAnaya,Angrim,AniniCamp,Simari,Doni,Paya,Deopani,Ekwhite"
+  },
+  {
     "name": "Zeme",
     "i": 2479,
     "min": 4,
@@ -5623,6 +6129,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Peren,Jalukie,Athibung,Tening,Heningkunglwa,NewPeren,Lamhai,Ngwalwa,Beisumpuikam,Puilwa,Henchem,Khelma,Samziuram,Bungte,Kepeilo,Leinak,Mhelam,Missam,Nsong,BaraBosti"
+  },
+  {
+    "name": "Konyak",
+    "i": 2480,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mon,Chen,Longwa,Phomching,Longching,Monyakshu,Angjangyang,Tizit,Shangnyu,Chui,Naginimora,Wakching,Totokchingnyu,Chi,Sheanghah,Tangnyu,Oting,Lapa,Roying,WakchingCamp"
   },
   {
     "name": "Tangkhulic",
@@ -5643,6 +6158,15 @@
     "b": "Thanchi,Alikadam,Naikhongchari,Bandarban,Ruma,Rowangchhari,Lama,Remakri,Gomdol,Roangchhari,Gumti,Dhemagiri,ThanchiBazar,RemakriPara,Naikhong,Chimbuk,BogaLake,Modak,Mongpu,Alutila"
   },
   {
+    "name": "Karbi",
+    "i": 2483,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Diphu,Bokajan,Donkamokam,Howraghat,Phuloni,Balipathar,Manja,Nilbagan,Hidipi,Borlangpher,Umrangso,Haflong,Jatinga,Langting,Maibang,Kampur,Diyungmukh,Samelangso,Sarupathar,Dauki"
+  },
+  {
     "name": "Tshangla",
     "i": 2484,
     "min": 4,
@@ -5650,6 +6174,24 @@
     "d": "lnrt",
     "m": 0,
     "b": "Trashigang,Kanglung,Khaling,Wamrong,Samdrup Jongkhar,Dewathang,Pemagatshel,Nganglam,Mongar,Lhuentse,Rangjung,Kangpara,Phongmey,Bartsham,Kanglungthang,Orong,Bhangtar,Phuntshothang,Gyalpozhing,Drametse"
+  },
+  {
+    "name": "Tani",
+    "i": 2485,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ziro,Daporijo,Aalo,Pasighat,Itanagar,Naharlagun,Yazali,Raga,Palin,Koloriang,Taliha,Likabali,Basar,Yachuli,Doimukh,Kimin,Nirjuli,Seppa,Sagalee,Poma"
+  },
+  {
+    "name": "Basum",
+    "i": 2486,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Basumthang,Tangmachu,Lhuntse,Autsho,Khoma,Tshochen,Menbi,Jarey,Minjey,Gangzur,KhomaDung,Ngatshang,Thimyul,Kidlung,Gomchu,Khini,Baling,Jaraythang,Thimyulthang,Tshona"
   },
   {
     "name": "Ole",
@@ -5677,6 +6219,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Medog,Beibeng,Gedang,Aniqiao,Damu,Hanmi,Motuo,Dexing,Xirang,Barong,Peilung,Kanpu,Geling,Mepu,Xirangzhong,Mipeng,Baihan,Xirangshang,Renqingbeng,Bade"
+  },
+  {
+    "name": "Kathu",
+    "i": 2494,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Malipo,Maguan,Wenshan,Funing,Xichou,Yanshan,Guangnan,Qiaowu,Nanlao,Babao,Bamei,Poxi,Lianghekou,Qiubei,Nanpan,Panlong,Shuicheng,Luoda,Shuangshan,Laojun,GuangnanTown"
   },
   {
     "name": "Cai-Long",
@@ -5713,6 +6264,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Pithoragarh,Champawat,Didihat,Lohaghat,Askot,Dharchula,Berinag,Kaninag,Jhulaghat,Tanakpur,Jogbuda,Kalapani,Dogra,Jauljibi,Dailekh,Surkhet,Kailali,Rajapur,Kanchanpur,Dhangadhi"
+  },
+  {
+    "name": "Lhokpu",
+    "i": 2502,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Samtse,Haa,Phuentsholing,Gomtu,Sibsu,Tashicholing,Tendu,Chengmari,Pugli,Charghare,Khuru,Jitti,Ghumauney,Birpara,Hasimara,Nilkamal,Samchi,Nainital,PagliBusti,Chamurchi"
   },
   {
     "name": "Mehri",
@@ -5850,6 +6410,24 @@
     "b": "Tehran,Shiraz,Isfahan,Tabriz,Mashhad,Yazd,Kerman,Ahvaz,Qom,Karaj,Hamedan,Arak,Kermanshah,Sanandaj,Orumiyeh,Rasht,Anzali,Zanjan,Qazvin,Khorramabad,Bushehr,Abadan"
   },
   {
+    "name": "Georgian",
+    "i": 2614,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Khashuri,Samtredia,Senaki,Zestaponi,Telavi,Ozurgeti,Chiatura,Borjomi,Mtskheta,Lagodekhi,Akhaltsikhe,Marneuli"
+  },
+  {
+    "name": "Armenian",
+    "i": 2615,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Hrazdan,Abovyan,Kapan,Armavir,Artashat,Gavar,Sevan,Dilijan,Spitak,Alaverdi,Ijevan,Martuni,Vardenis,Meghri,Goris,Stepanavan"
+  },
+  {
     "name": "Kazakh",
     "i": 2616,
     "min": 4,
@@ -5902,6 +6480,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Ashgabat,Turkmenbashi,Balkanabat,Tejen,Mary,Turkmenabat,Dashoguz,Köneürgench,Serdar,Atamyrat,Gazojak,Kerki,Koytendag,Seydi,Bereket,Boldumsaz,Yoloten,Gumdag,Farap,Charjew,Khauz,Darganata,Gazachak,Bayramaly,Abadan"
+  },
+  {
+    "name": "Buryat",
+    "i": 2637,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ulan-Ude,Gusinoozersk,Babushkin,Severobaikalsk,Kabansk,Ivolginsk,Tarbagatay,Zaigrayevo,Kyakhta,Zakamensk,Selenginsk,Kamensk,Nizhneangarsk,Baikalsk,Goryachinsk,Turuntayevo,Mukhorshibir,Khorinsk,Barguzin,Novy Uoyan"
   },
   {
     "name": "Kashmiri",
@@ -5976,6 +6563,15 @@
     "b": "Wenshan,Guangnan,Funing,Maguan,Malipo,Qiubei,Pu'er,Xichou,Huize,Zhaotong,Baise,Tianlin,Longlin,Jingxi,Tiandong,Guanyang,Longsheng,Rongjiang,Sanjiang,Longzhou"
   },
   {
+    "name": "Hlai",
+    "i": 2674,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Haikou,Sanya,Qionghai,Wanning,Wenchang,Chengmai,Dingan,Changjiang,Ledong,Lingshui,Lingao,Danzhou,White Sand,Baisha,Baoting,Ledong County,Wuzhishan,Boao,Yinggehai"
+  },
+  {
     "name": "Shan",
     "i": 2675,
     "min": 4,
@@ -6010,6 +6606,60 @@
     "d": "lnrt",
     "m": 0,
     "b": "Mangalore,Udupi,Kundapura,Barkur,Basrur,Byndoor,Gangolli,Bhatkal,Innanje,Padubidri,Kollur,Basroor"
+  },
+  {
+    "name": "Sri Lankan Malay",
+    "i": 4205,
+    "min": 4,
+    "max": 10,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Colombo,Kandy,Galle,Matara,Negombo,Kalutara,Ratnapura,Batticaloa,Trincomalee,Jaffna,Hambantota,Anuradhapura,Polonnaruwa,Badulla,Kurunegala,Puttalam"
+  },
+  {
+    "name": "Gondi",
+    "i": 4797,
+    "min": 4,
+    "max": 10,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gondia,Balaghat,Bastar,Jagdalpur,Bijapur,Kondagaon,Narayanpur,Dantewada,Sukma,Kanker,Dhamtari,Rajnandgaon,Nagpur,Chandrapur,Gadchiroli,Adilabad,Nirmal,Khammam,Bhadrachalam"
+  },
+  {
+    "name": "Kui-Kuvi Dravidian",
+    "i": 7023,
+    "min": 4,
+    "max": 10,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Koraput,Rayagada,Phulbani,Kandhamal,Malkangiri,Nabarangpur,Bhawanipatna,Paralakhemundi,Baipariguda,Lamtaput,Digapahandi,Chhatrapur,Brahmapur,Kothapeta,Jeypore,Laxmipur,Muniguda,Bissamcuttack,Gudari"
+  },
+  {
+    "name": "Brunei Malay",
+    "i": 8660,
+    "min": 4,
+    "max": 10,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bandar Seri Begawan,Gadong,Berakas,Kiulap,Batu Satu,Sengkurong,Jerudong,Mentiri,Muara,Serasa,Tutong,Kuala Belait,Seria,Bangur,Temburong,Bangar,Labu,Manggis,Kampong Ayer"
+  },
+  {
+    "name": "Tungusic",
+    "i": 9480,
+    "min": 4,
+    "max": 10,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Khabarovsk,Komsomolsk,Amursk,Solnechny,Nikolayevsk,Okhotsk,De-Kastri,Sovetskaya,Gavan,Vladivostok,Nakhodka,Magadan,Aldan,Blagoveshchensk,Birobidzhan,Tynda,Skovorodino,Belogorsk,Khandyga"
+  },
+  {
+    "name": "Cocos Malay",
+    "i": 9821,
+    "min": 4,
+    "max": 10,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "West Island,Home Island,Bantam Village,Kampong,Direction Island,Horsburgh Island,South Island,North Keeling Island,Pulu Cocos,Pulu Luar,Pulu Tikus,Pulu Gangsa,Pulu Panjang,Pulu Selma,Pulu Atas"
   },
   {
     "name": "Kar",
@@ -6236,4 +6886,4 @@
     "m": 0,
     "b": "Malacca,George Town,Butterworth,Alor Setar,Ipoh,Johor Bahru,Pasir Gudang,Shah Alam,Petaling Jaya,Klang,Seremban,Melaka City,Kota Bharu,Kuala Terengganu,Kuantan,Kuching,Miri,Sibu,Kota Kinabalu,Sandakan,Tawau,Jakarta,Surabaya,Bandung,Semarang,Medan,Palembang"
   }
-]
+];

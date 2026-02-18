@@ -1,13 +1,6 @@
-[
-  {
-    "name": "Awin (dedicated)",
-    "i": 2737,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Amanab,Vanimo,Lumi,Mapor,Kamanak,Yalog,Yapsiei,Kavis,Tali,Wamira,Mul,Bongwis,Kwangga,Wakisa,Yaram,Sawata,Yelogu,Mawase,Komiat,Ari,Yamit,Dusun,Malu,Balup,Sel,Tamit,Poru,Yakum,Wogam,Yamatom,Yapimaka,Kiunga,Tabubil,Daru,Kikori,Mendi,Balimo,Oriomo,Weam,Wabo,Kwikila,Kokoda,Wewak,Goroka,Madang,Lae,Mount Hagen"
-  },
+"use strict";
+
+window.oceaniaNameBases = [
   {
     "name": "Papuan",
     "i": 49,
@@ -88,6 +81,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Yaren,Denigomodu,Aiwo,Anetan,Anabar,Anibare,Baiti,Boe,Buada,Ewa,Ijuw,Meneng,Nibok,Uaboe,Topside,Aniwa,Arubo,Odike,Eaboe,Anam,Komwar,Tabwe,Buada District,Anabar District"
+  },
+  {
+    "name": "Tok Pisin",
+    "i": 81,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Kokopo,Popondetta,Kimbe,Daru,Alotau,Vanimo,Kundiawa,Kavieng,Buka,Lorengau,Kerema,Aitape,Wabag,Kieta,Mendi,Tari,Buin,Kiunga,Tufi,Kikori,Ihu,Balimo,Ambunti"
   },
   {
     "name": "Tuvaluan",
@@ -414,6 +416,15 @@
     "b": "Kalabahi,Alor,Alor Kecil,Alor Besar,Teluk Mutiara,Bukapiting,Baranusa,Pantar,Marisa,Atambua,Kupang,Larantuka,Aitui,Liba,Lantoka,Waisika,Kamot,Siduan,Mebung,Kafelmani,Buraga,Bakalan,Pura,Ternate Island (Alor)"
   },
   {
+    "name": "Tiwi",
+    "i": 186,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Wurrumiyanga,Nguiu,Pirlangimpi,Milikapiti,Snake Bay,Garden Point,Bathurst Island,Melville Island,Pickertaramoor,Ranku,Kulama,Putjamirra,Andranangoo,Apsley Strait,Fort Dundas"
+  },
+  {
     "name": "Ari (Papuan)",
     "i": 187,
     "min": 4,
@@ -601,6 +612,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Goroka,Henganofi,Kainantu,Lufa,Okapa,Daulo,Obura-Wonenara,Unggai-Bena,Chuave,Gumine,Karimui-Nomane,Kundiawa"
+  },
+  {
+    "name": "Aboriginal Pidgin English",
+    "i": 743,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Darwin,Alice Springs,Katherine,Tennant Creek,Nhulunbuy,Jabiru,Alyangula,Wadeye,Maningrida,Galiwin'ku,Nguiu,Port Keats"
   },
   {
     "name": "Adang",
@@ -1015,6 +1035,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kavalan,Su'ao,Yilan,Taiwan,East Coast,East Asia"
+  },
+  {
+    "name": "Cook Islands Māori Pidgin",
+    "i": 1634,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Avarua,Arorangi,Ngatangia,Muri,Titikaveka,Vaimaanga,Aranga,Papaoa,Amuri,Uhia,Punarea,Arutanga,Vaitupe,Tautu,Reureu,Aitutaki,Mataiva,Nassau,Palmerston,Tongareva,Manihiki,Rakahanga,Pukapuka,Suwarrow,Manuae,Takutea,Mitiaro,Mauke,Mangaia,Tupapa,Nikao,Turangi,Pue,Areora,Araura,Avana,Avatiu,Aronoa,Areiti,Atiu,Ngatangi,Takuvae,Tauranga"
   },
   {
     "name": "Lonwolwol",
@@ -1456,6 +1485,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Hamtai,Warahuta,Mendeng,Kalam,Yani,Mendi,Papua New Guinea,Eastern Highlands"
+  },
+  {
+    "name": "Hawaiian",
+    "i": 1936,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hawaiian,Honolulu,Laie,Kaneohe,Maui,Molokai,Kauai,USA,Pacific Ocean,Islands"
   },
   {
     "name": "Inoke-Yate",
@@ -2430,6 +2468,15 @@
     "b": "Port Moresby,Lae,Mount Hagen,Madang,Wewak,Goroka,Ramu,Sepik,Baining,Whitsunday,Kokoda,Mendi,Kikori,Daru,Kiunga"
   },
   {
+    "name": "Awin (dedicated)",
+    "i": 2737,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Amanab,Vanimo,Lumi,Mapor,Kamanak,Yalog,Yapsiei,Kavis,Tali,Wamira,Mul,Bongwis,Kwangga,Wakisa,Yaram,Sawata,Yelogu,Mawase,Komiat,Ari,Yamit,Dusun,Malu,Balup,Sel,Tamit,Poru,Yakum,Wogam,Yamatom,Yapimaka,Kiunga,Tabubil,Daru,Kikori,Mendi,Balimo,Oriomo,Weam,Wabo,Kwikila,Kokoda,Wewak,Goroka,Madang,Lae,Mount Hagen"
+  },
+  {
     "name": "Beami (dedicated)",
     "i": 2741,
     "min": 4,
@@ -2466,6 +2513,24 @@
     "b": "Majuro,Ebeye,Ailinglaplap,Jaluit,Wotje,Kwajalein,Enewetak,Ujelang,Bikini,Rongelap,Namoro,Ujae,Ebon,Kili,Mili,Aur,Lae"
   },
   {
+    "name": "Palauan",
+    "i": 2747,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Koror,Airai,Meliikeok,Ngchesar,Ngeremlengui,Ngerchelong,Ngaraard,Peleliu,Angaur,Kayangel,Sonsorol,Hatohobei,Rock Islands,Urukthapel"
+  },
+  {
+    "name": "Chamorro",
+    "i": 2748,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Hagatna,Dededo,Tamuning,Mongmong-Toto-Maite,Yigo,Agat,Santa Rita,Barrigada,Merizo,Piti,Inarajan,Umatac,Talofofo,Asan-Maina,Agana Heights"
+  },
+  {
     "name": "Kiribati",
     "i": 2749,
     "min": 4,
@@ -2491,14 +2556,5 @@
     "d": "lnrt",
     "m": 0,
     "b": "Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Mutitjulu,Yulara,Alice Springs,WATIYA,Warnerr,Japali,Karrinyrra,Patjarr,Bell Springs,Mungari,Tyrrell,West MacDonnell,Graham,Wilton,Browns,Davenport,Mount Riddell,Katoomba,Leura,Blackheath,Perisher,Thredbo"
-  },
-  {
-    "name": "Cook Islands Māori Pidgin",
-    "i": 1634,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Avarua,Arorangi,Ngatangia,Muri,Titikaveka,Vaimaanga,Aranga,Papaoa,Amuri,Uhia,Punarea,Arutanga,Vaitupe,Tautu,Reureu,Aitutaki,Mataiva,Nassau,Palmerston,Tongareva,Manihiki,Rakahanga,Pukapuka,Suwarrow,Manuae,Takutea,Mitiaro,Mauke,Mangaia,Tupapa,Nikao,Turangi,Pue,Areora,Araura,Avana,Avatiu,Aronoa,Areiti,Atiu,Ngatangi,Takuvae,Tauranga"
   }
-]
+];

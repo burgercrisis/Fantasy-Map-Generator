@@ -1,4 +1,6 @@
-[
+"use strict";
+
+window.southAmericaNameBases = [
   {
     "name": "Nahuatl",
     "i": 13,
@@ -27,15 +29,6 @@
     "b": "Porto Velho,Ji-Paranâ”œÃ­,Cacoal,Vilhena,Guajarâ”œÃ­-Mirim,Ariquemes,Humaitâ”œÃ­,Altamira,Santarâ”œâŒm,Itaituba,Marabâ”œÃ­,Araguaâ”œÂ¡na,Palmas,Aracaju,Propriâ”œÃ­,Penedo,Paulo Afonso,Delmiro Gouveia"
   },
   {
-    "name": "Seri",
-    "i": 396,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
-  },
-  {
     "name": "Huave",
     "i": 49,
     "min": 4,
@@ -54,15 +47,6 @@
     "b": "Pucallpa,Yarinacocha,Contamana,Requena,Masisea,Iparia,Curimana,Boqueron,Calleria,Campo Verde,San Alejandro,Aguaytia,Tahuania,Puerto Esperanza,Iquitos,Nauta,Lagunas,Jeberos,Sarayacu"
   },
   {
-    "name": "Warao Delta",
-    "i": 422,
-    "min": 4,
-    "max": 12,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tucupita,Barrancas,Pedernales,Isla Tigre,Isla Curiapo,Isla Amacuro,Santa Catalina,San Jose de Amacuro,San Felix,Ciudad Guayana,Puerto Ordaz,Guasipati,El Dorado,Temblador,Soledad,La Horqueta,Rio Grande,Boca de Serpiente,Delta Amacuro"
-  },
-  {
     "name": "Yanomami Amazonian",
     "i": 63,
     "min": 4,
@@ -70,15 +54,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Boa Vista,Caracaraâ”œÂ¡,Mucajaâ”œÂ¡,Alto Alegre,Pacaraima,San Gabriel da Cachoeira,Barcelos,Santa Isabel do Rio Negro,Maroa,La Esmeralda,Santa Elena de Uairâ”œâŒn,Maturacâ”œÃ­,Auaris,Surucucu,Parima,Catrimani,Demini,Mucajai,Tepequâ”œâŒm"
-  },
-  {
-    "name": "Tsimané",
-    "i": 625,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui,Tsimane,San Ignacio,Santa Ana,Riberalta,GuayaramerÃ­n,Trinidad,Magdalena"
   },
   {
     "name": "Cavineña",
@@ -99,6 +74,114 @@
     "b": "Charazani,Curva,Chajaya,Amarete,Kaata,Carabuco,Achacachi,Sorata,La Paz,Copacabana,Titicaca,Ancoraimes"
   },
   {
+    "name": "Chilean Spanish",
+    "i": 69,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Reus,Manresa,Granollers,Vic"
+  },
+  {
+    "name": "Chilote",
+    "i": 70,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "LÃ©on,Valladolid,Zamora,Burgos,Palencia,Oviedo,GijÃ³n,Santander,Madrid"
+  },
+  {
+    "name": "Awakatek",
+    "i": 75,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
+  },
+  {
+    "name": "Sanöma",
+    "i": 78,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Auaris,Ericó,Toototobi,Demini,Homoxi,Xidea,Catrimani,Surucucu,Mavaca,Ocamo,Platanal,Santa Isabel"
+  },
+  {
+    "name": "Chuj",
+    "i": 236,
+    "min": 4,
+    "max": 11,
+    "d": "may-GT",
+    "m": 0,
+    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
+  },
+  {
+    "name": "Rioplatense Spanish",
+    "i": 237,
+    "min": 4,
+    "max": 11,
+    "d": "es-AR",
+    "m": 0,
+    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata"
+  },
+  {
+    "name": "Tacana",
+    "i": 238,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ixiamas,San Buenaventura,Abel Iturralde,Iturralde,Madidi,Beni,Beni River,Madre de Dios,Heath River,Franz Tamayo,Pando,Tambopata"
+  },
+  {
+    "name": "Wiwa",
+    "i": 239,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sierra Nevada de Santa Marta,La Guajira,Magdalena,Cesar,Santa Marta,Rancherâ”œÂ¡a,Don Diego,Palomino,Buritaca,Guachaca,Ciâ”œâŒnaga Grande de Santa Marta,Ariguanâ”œÂ¡,Fundaciâ”œâ”‚n,Frâ”œÂ¡o,Aracataca"
+  },
+  {
+    "name": "Nivaclé",
+    "i": 278,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Filadelfia,Loma Plata,Neuland,Mariscal Estigarribia,Teniente Irala Fernandez,Pozo Hondo,Fortin Boqueron,Villa Hayes,Chaco,Pilcomayo,Paraguay,Presidente Hayes"
+  },
+  {
+    "name": "Seri",
+    "i": 396,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
+  },
+  {
+    "name": "Warao Delta",
+    "i": 422,
+    "min": 4,
+    "max": 12,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tucupita,Barrancas,Pedernales,Isla Tigre,Isla Curiapo,Isla Amacuro,Santa Catalina,San Jose de Amacuro,San Felix,Ciudad Guayana,Puerto Ordaz,Guasipati,El Dorado,Temblador,Soledad,La Horqueta,Rio Grande,Boca de Serpiente,Delta Amacuro"
+  },
+  {
+    "name": "Tsimané",
+    "i": 625,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "San Borja,Yucumo,Rurrenabaque,Reyes,Santa Ana del Yacuma,Triple A,Beni,Yacuma,Bala,Yumano,Chimanes,Maniqui,Tsimane,San Ignacio,Santa Ana,Riberalta,GuayaramerÃ­n,Trinidad,Magdalena"
+  },
+  {
     "name": "Chiquitano",
     "i": 628,
     "min": 4,
@@ -106,6 +189,24 @@
     "d": "nic-GH",
     "m": 0,
     "b": "San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,San Jose de Chiquitos,Robore,Puerto Suarez,Santa Cruz,Chiquitania,Velasco,Chiquitos"
+  },
+  {
+    "name": "Venezuelan Spanish",
+    "i": 657,
+    "min": 4,
+    "max": 11,
+    "d": "es-VE",
+    "m": 0,
+    "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Ciudad Guayana,Barcelona,Maturin,Turmero,Ciudad Bolivar,San Cristobal,El Tigre"
+  },
+  {
+    "name": "Achagua",
+    "i": 744,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,PopayÃ¡n"
   },
   {
     "name": "Bolivian Spanish",
@@ -126,24 +227,6 @@
     "b": "SÃ£o Paulo,Rio de Janeiro,Belo Horizonte,BrasÃ­lia,Salvador,Fortaleza,Recife,Porto Alegre"
   },
   {
-    "name": "Chilean Spanish",
-    "i": 69,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Reus,Manresa,Granollers,Vic"
-  },
-  {
-    "name": "Chilote",
-    "i": 70,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "LÃ©on,Valladolid,Zamora,Burgos,Palencia,Oviedo,GijÃ³n,Santander,Madrid"
-  },
-  {
     "name": "Colombian Spanish",
     "i": 800,
     "min": 4,
@@ -160,15 +243,6 @@
     "d": "pt-BR",
     "m": 0,
     "b": "Belo Horizonte,UberlÃ¢ndia,Juiz de Fora,Contagem,Betim,Montes Claros,Governador Valadares,Ipatinga,Sete Lagoas,DivinÃ³polis,Varginha,Ouro Preto"
-  },
-  {
-    "name": "Chuj",
-    "i": 236,
-    "min": 4,
-    "max": 11,
-    "d": "may-GT",
-    "m": 0,
-    "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
   },
   {
     "name": "Ch'orti'",
@@ -198,13 +272,166 @@
     "b": "Lima,Arequipa,Trujillo,Chiclayo,Piura,Iquitos,Cusco,Huancayo,Chimbote,Pucallpa,Tacna,Ica,Juliaca,Ayacucho,Cajamarca,Puno"
   },
   {
-    "name": "Rioplatense Spanish",
-    "i": 237,
+    "name": "Tiriyó",
+    "i": 1052,
     "min": 4,
     "max": 11,
-    "d": "es-AR",
+    "d": "nic-GH",
     "m": 0,
-    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata"
+    "b": "Paramakatoi,Maharuma,Karaina,Potaro,Sipu,Sipaliwini,Tapanahoni,Palumeu,Spalivini,Commedi,Kumu,Pelelu Tepu,Alalapadu,Bakhuis,Aramixó,Cachoeirinha,Tiriyó,Apoera,Afobaka,Brownsweg,Brokopondo,Stoelmanseiland,Pokigron,Atjoni,Goddo,Stroe,Talhuwen,Albina,Galibi,Wanhatti,Oualika,Langa Tiki,Apatou,Malmanbourg,Kalina Wayana,Benzdorp,Totness,Corneliskondre,Pikinslee,Bigiston,Washabo,Aurora,Drietabbetje,Tjongalangapassi,Bitagron,Sarakreek,Jawjaw,Kajana,Nieuw Jacobkondre,Redi Doti,Bersaba,Tonka,Matawai,Langatabbetje"
+  },
+  {
+    "name": "Língua Geral Amazônica",
+    "i": 1181,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Belém,Santarém,Manaus,Macapá,Boa Vista,Rio Branco,Porto Velho,Manacapuru,Parintins,Itacoatiara,Coari,Tefé,Barcarena,Soure,Marabá,Altamira,Itaituba,Tucuruí,Redenção,São Miguel do Guamá,Bragança,Castanhal,Capitão Poço,Moju,Abaetetuba,Tailândia,Capanema,Óbidos,Alenquer,Aveiro,Novo Progresso,Jacareacanga,Monte Alegre,Prainha,Almeirim,Porto de Moz,Curuçá,Chaves,Salgado,Colares,Augusto Corrêa,Igarapé-Açu,Marapanim,Maracanã,Nova Timboteua,Peixe-Boi,Primavera,São Caetano de Odivelas,Quatipuru,Terra Alta,Viseu,Vigia,Bujaru,Inhangapi,Santa Isabel do Pará,Benevides,Marituba,Santa Bárbara do Pará,Ananindeua,Cachoeira do Piriá,Concórdia do Pará,Guamá,Ourém,Ourilândia do Norte,Pacajá,Palestina do Pará,São Domingos do Capim,São Francisco do Pará,São Geraldo do Araguaia,São João da Ponta,São João de Pirabas,São Sebastião da Boa Vista,Terra Santa,Trairão,Ulianópolis,Vitória do Xingu,Afuá,Anajás,Bagre,Breves,Curralinho,Mãe do Rio,Medicilândia,Portel,Anapu,Bannach,Cumaru do Norte,Dom Eliseu,Mojuí dos Campos,Água Azul do Norte,Itupiranga,Abel Figueiredo,Bom Jesus do Tocantins,Goianésia do Pará,Santa Cruz do Arari,Cachoeira do Arari,Muaná,Ponta de Pedras,Salvaterra,Magalhães Barata,Marudá,Salinas,Santa Luzia do Pará,Santana do Araguaia,São Domingos do Araguaia,São Félix do Xingu,São Miguel do Tapajós,Belterra,Rurópolis,Uruará,Curionópolis,Eldorado dos Carajás,Floresta do Araguaia,Jacundá,Nova Ipixuna,Novo Jardim,Parauapebas,Rondon do Pará,São João do Araguaia"
+  },
+  {
+    "name": "Mojave",
+    "i": 1202,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Mojave,Needles,Bullhead City,Lake Havasu City,Laughlin,Kingman,Fort Mohave,Oatman,Golden Shores,Parker,Topock,Poston"
+  },
+  {
+    "name": "Quechan",
+    "i": 1203,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yuma,Somerton,San Luis,Wellton,Winterhaven,Fort Yuma,Quartermaster Landing,Pilot Knob,Madrid,Ogilby,Dateland,Arlington"
+  },
+  {
+    "name": "Yavapai",
+    "i": 1206,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yavapai-Prescott,Clarkdale,Camp Verde,Cottonwood,Sedona,Mingus Mountain,Jerome,Flagstaff,Williams,Seligman,Williams Junction,Ash Fork"
+  },
+  {
+    "name": "Cayuga",
+    "i": 1208,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
+  },
+  {
+    "name": "Oneida",
+    "i": 1209,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Oneida,Green Bay,Syracuse,Rome,Oneida Castle,Vernon,Stockbridge,Albany,De Pere,Appleton,Shawano,Manitowoc"
+  },
+  {
+    "name": "Onondaga",
+    "i": 1210,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,DeWitt,Fayetteville,Manlius,Baldwinsville"
+  },
+  {
+    "name": "Seneca",
+    "i": 1211,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Seneca,Buffalo,Rochester,Syracuse,Salamanca,Batavia,Jamestown,Olean,Albany,Tonawanda,Lockport,Canandaigua"
+  },
+  {
+    "name": "Tuscarora",
+    "i": 1212,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tuscarora,Lewiston,Niagara Falls,Buffalo,Sanborn,North Tonawanda,Rochester,Syracuse,Albany,Lockport,Ransomville,Youngstown"
+  },
+  {
+    "name": "Hupdä",
+    "i": 1217,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "HupdÃ«h,Yaualapiti,Tucano,Apuinahua,Amacaari,Papuri,TiquiÃ©,UaupÃ©s,VaupÃ©s,Macuna,Canuma,Apaporis"
+  },
+  {
+    "name": "Bará",
+    "i": 1303,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Catatumbo,Tibu,LaGabarra,Sardinata,Convencion,ElTarra,Ocaâ”œâ–’a,Teorama,Hacarâ”œÂ¡,SanCalixto,LaPlaya,Abrego"
+  },
+  {
+    "name": "Cofán",
+    "i": 1335,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cofán,Sinangoe,Zabalo,Bermejo,Agua Rico,Lumbaqui,San Miguel de Sucumbíos,Lago Agrio,El Eno,La Punta,Cascales,Tarapoa,Putumayo,Santa Cecilia,Reventador,Baeza,El Chaco,Quijos,Cosanga,Papallacta,Cuyuja,Archidona,Puerto Napo,Jatunyacu,Misahuallí,Huasquila,Shiripuno,Nuevo Rocafuerte,Dureno,Enokanqui,San Carlos,Cuyeteno"
+  },
+  {
+    "name": "Fulniô",
+    "i": 1336,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Águas Belas,Ouricuri,Caruaru,Recife,Palmares,Pedra,Belo Jardim,Pesqueira,Cachoeirinha,São Bento do Una,Sanharó,Capoeiras,Ibirajuba,Lajedo,Bom Conselho,Alagoinha,São Caetano,Santa Cruz do Capibaribe,Toritama,Taquaritinga do Norte,Serrita,Arcoverde,Sertânia,Triunfo,Custódia,Bodocó,Moreilândia,Exu,Cedro,Calumbi,Ipubi,Carnaíba,Itacuruba,Betânia,Flores,Quixaba,Salgueiro,Araripina,Santa Filomena,Cabo de Santo Agostinho,Igarassu,Abreu e Lima,Camaragibe,Jaboatão dos Guararapes,Olinda,Paulista,Serra Talhada,Parnamirim,Petrolina"
+  },
+  {
+    "name": "Itonama",
+    "i": 1337,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Itonama,Magdalena,Beni,Mamoré,Trinidad,Santa Cruz de la Sierra,Rurrenabaque,San Javier,San Ramón,San Borja,Riberalta,Guayaramerín,Reyes,San Ignacio de Moxos,Santa Ana del Yacuma,Yacuma,Baures,Huacaraje,Cachuela Esperanza,El Carmen,El Triunfo,El Recreo,San Pedro,San Pablo,Loreto,San Joaquín,San Martín,Bella Vista,San Antonio,San Miguel,Santa Rosa,El Dorado,La Esperanza,El Progreso,La Nueva Era,La Unión,La Paz,El Paraíso,Santa Cruz,San Rafael,La Trinidad,Loma Suárez,Tejerina,San Ignacio,Estancia San Antonio,Estancia San Pedro,Estancia San Juan,Estancia San Andrés"
+  },
+  {
+    "name": "Leco",
+    "i": 1338,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Leco,Apolo,Apolo Province,La Paz,Bolivia,Amazon Basin,Madre de Dios,Peru,Beni River"
+  },
+  {
+    "name": "Baur",
+    "i": 1378,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "BaurÃ©,Bolivia,Charagua,Camiri,Beni,Santa Cruz de la Sierra,Amazon Basin,Guarani,Chiquitano"
+  },
+  {
+    "name": "Guají",
+    "i": 1426,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "GuajÃ­,El Carrizal,MaucarÃ¡,Socorro,La Palma,San MartÃ­n,San CristÃ³bal,Casanare,Santander,Colombia,Venezuela"
   },
   {
     "name": "Uruguayan Portuguese",
@@ -225,31 +452,22 @@
     "b": "Montevideo,Salto,Ciudad de la Costa,Paysandu,Las Piedras,Rivera,Maldonado,Tacuarembo,Melo,Mercedes,Artigas,Minas"
   },
   {
-    "name": "Venezuelan Spanish",
-    "i": 657,
-    "min": 4,
-    "max": 11,
-    "d": "es-VE",
-    "m": 0,
-    "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Ciudad Guayana,Barcelona,Maturin,Turmero,Ciudad Bolivar,San Cristobal,El Tigre"
-  },
-  {
-    "name": "Achagua",
-    "i": 744,
+    "name": "Macaguán (Hitnú)",
+    "i": 2046,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Puerto GaitÃ¡n,Puerto CarreÃ±o,InÃ­rida,MitÃº,San JosÃ© del Guaviare,Villavicencio,Yopal,Arauca,Leticia,Florencia,Mocoa,PopayÃ¡n"
+    "b": "San José de Lipa,Agualinda,La Vorágine,La Conquista,El Romano,La Ilusión,Puyeros,Parreros,Cuiloto,Cuiloto2,Iguanito,El Vigía,Cusay la Colorada,Puerto Rondón,Caño Claro,Providencia,Macarieros,San José de Macarieros,Tame,Arauca,Arauquita,Saravena,Fortul,Buenavista,Cravo Norte,Santa Ana,El Morro,El Caimán,La Esmeralda,El Silencio,La Fortaleza,El Recreo,El Progreso,La Paz,El Carmen,Buenos Aires,Santa Rosa,El Paraíso,El Triunfo,La Unión,El Mirador,La Floresta,El Danubio,El Rincón,San Luis,El Portal,El Guamo,El Refugio,La Casona,El Bosque,El Prado,El Recuerdo,El Vergel,La Esperanza,La Florida,La Victoria,Las Mercedes,Los Angeles,San Antonio,San Carlos,San Fernando,San Isidro,San Joaquín,San Jorge,San Juan,San Marcos,San Martín,San Miguel,San Pedro,San Rafael,San Ramón,San Vicente,Santa Bárbara,Santa Catalina,Santa Cecilia,Santa Clara,Santa Cruz,Santa Elena,Santa Fe,Santa Isabel,Santa Lucía,Santa Magdalena,Santa María,Santa Mónica,Santa Rita,Santa Sofía,Santiago,Santo Domingo,Santo Tomás"
   },
   {
-    "name": "Awakatek",
-    "i": 75,
+    "name": "L Ngua Geral Paulista",
+    "i": 2394,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
+    "b": "SÃ£o Paulo,Campinas,SÃ£o Bernardo do Campo,Santo AndrÃ©,SÃ£o JosÃ© dos Campos,Sorocaba,Santos,Osasco,RibeirÃ£o Preto,SÃ£o JosÃ© do Rio Preto"
   },
   {
     "name": "Movima",
@@ -279,15 +497,6 @@
     "b": "Dukaiya,Ibo'tsa,Dyo'xaiya,Ivo'tsa,Ocaina,Amazonas,Loreto,Putumayo,Cotuhâ”œâŒ,Yaguas,Cumpuya,Paranâ”œÃ­ de Jacurapâ”œÃ­,Koihoma,Orejone,Coeruna,Andoquero"
   },
   {
-    "name": "Tacana",
-    "i": 238,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ixiamas,San Buenaventura,Abel Iturralde,Iturralde,Madidi,Beni,Beni River,Madre de Dios,Heath River,Franz Tamayo,Pando,Tambopata"
-  },
-  {
     "name": "Cuicatec",
     "i": 2439,
     "min": 4,
@@ -306,15 +515,6 @@
     "b": "Guna Yala,San Blas Archipelago,San Blas,Dubwala,Gannirdub,Goedub,Sasardi,Muladub,Usdub,Agligandi,Mammidub,Assudub,Uggubseni,Nargana,Aggwanusadub"
   },
   {
-    "name": "Wiwa",
-    "i": 239,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sierra Nevada de Santa Marta,La Guajira,Magdalena,Cesar,Santa Marta,Rancherâ”œÂ¡a,Don Diego,Palomino,Buritaca,Guachaca,Ciâ”œâŒnaga Grande de Santa Marta,Ariguanâ”œÂ¡,Fundaciâ”œâ”‚n,Frâ”œÂ¡o,Aracataca"
-  },
-  {
     "name": "Ahtna",
     "i": 2470,
     "min": 4,
@@ -324,6 +524,33 @@
     "b": "Gulkana,Gakona,Tazlina,Copper Center,Chitina,Cantwell,Mentasta Lake,Chistochina,Kenny Lake,Glennallen,Paxson,Slana"
   },
   {
+    "name": "Totonac",
+    "i": 2558,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Papantla,Poza-Rica,Coatzintla,Espinal,Cazones,Zozocolco,Chumatlan,Filomeno-Mata,Martinez-de-La-Torre,Tlapacoyan,Misantla,Naolinco,Teziutlan,Zacapoaxtla"
+  },
+  {
+    "name": "Miskito",
+    "i": 2576,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bluefields,Bilwi,Waspam,Puerto Cabezas,Prinzapolka,Awasbila,Tuara,Krukira,Haulover,Karawala,Sandy Bay,Lamlaya,Tasbapauni,Kakabila,La Cruz Grande,Bismuna,Awas Tingni,Layasiksa,Dakura,Karata,Walpasiksa,Sinsin,Ubu,Tuapi,Krinkrin,San Jeronimo,Santa Marta,San Carlos,San Juan Coco,Siuna"
+  },
+  {
+    "name": "Tikuna",
+    "i": 2580,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Leticia,Tabatinga,Benjamin Constant,Santo Antonio,Sao Paulo Olivenca,Puerto Narino,Santa Sofia,Nazaret,San Martin,Tarapoto,Atalaia do Norte,Amatura,Tonantins,Islandia,San Pedro,Santa Rita,Caballococha,Yavari,San Pablo,Cushillo Cocha,Tres Fronteras,Lago Tarapoto,Puerto Alegria,Puerto Arica,Santa Rosa,Pucaurquillo,Bellavista,Pevas,Nuevo Israel,San Jose Amazonas"
+  },
+  {
     "name": "Arawak",
     "i": 2622,
     "min": 4,
@@ -331,6 +558,15 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Georgetown,Paramaribo,Cayenne,Linden,New Amsterdam,Corriverton,Albina,Saint-Laurent-du-Maroni,Kourou,Manaus,Bartica,Lethem"
+  },
+  {
+    "name": "Sranan",
+    "i": 2654,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Paramaribo,Nieuw Nickerie,Lelydorp,Moengo,Albina,Nieuw Amsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Meerzorg"
   },
   {
     "name": "Aluku",
@@ -673,78 +909,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Northway,Tetlin,Tok,Eagle,Chicken,Dawson City,Whitehorse,Carcross,Teslin,Atlin,Skagway,Haines Junction"
-  },
-  {
-    "name": "Mojave",
-    "i": 1202,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mojave,Needles,Bullhead City,Lake Havasu City,Laughlin,Kingman,Fort Mohave,Oatman,Golden Shores,Parker,Topock,Poston"
-  },
-  {
-    "name": "Quechan",
-    "i": 1203,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yuma,Somerton,San Luis,Wellton,Winterhaven,Fort Yuma,Quartermaster Landing,Pilot Knob,Madrid,Ogilby,Dateland,Arlington"
-  },
-  {
-    "name": "Yavapai",
-    "i": 1206,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yavapai-Prescott,Clarkdale,Camp Verde,Cottonwood,Sedona,Mingus Mountain,Jerome,Flagstaff,Williams,Seligman,Williams Junction,Ash Fork"
-  },
-  {
-    "name": "Cayuga",
-    "i": 1208,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
-  },
-  {
-    "name": "Oneida",
-    "i": 1209,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Oneida,Green Bay,Syracuse,Rome,Oneida Castle,Vernon,Stockbridge,Albany,De Pere,Appleton,Shawano,Manitowoc"
-  },
-  {
-    "name": "Onondaga",
-    "i": 1210,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,DeWitt,Fayetteville,Manlius,Baldwinsville"
-  },
-  {
-    "name": "Seneca",
-    "i": 1211,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Seneca,Buffalo,Rochester,Syracuse,Salamanca,Batavia,Jamestown,Olean,Albany,Tonawanda,Lockport,Canandaigua"
-  },
-  {
-    "name": "Tuscarora",
-    "i": 1212,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tuscarora,Lewiston,Niagara Falls,Buffalo,Sanborn,North Tonawanda,Rochester,Syracuse,Albany,Lockport,Ransomville,Youngstown"
   },
   {
     "name": "Macuna",
@@ -1665,15 +1829,6 @@
     "b": "Surucucu,Catrimani,Toototobi,Paapiú,Demini,Homoxi,Xidea,Ericó,Auaris,Mavaca,Ocamo,Platanal"
   },
   {
-    "name": "Sanöma",
-    "i": 78,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Auaris,Ericó,Toototobi,Demini,Homoxi,Xidea,Catrimani,Surucucu,Mavaca,Ocamo,Platanal,Santa Isabel"
-  },
-  {
     "name": "Italo-Paulista",
     "i": 13366,
     "min": 4,
@@ -1791,42 +1946,6 @@
     "b": "Guadalajara,Monterrey,Puebla,Tijuana,León,Juárez,Torreón,Querétaro,San Luis Potosí,Mérida,Aguascalientes,Cuernavaca,Saltillo,Hermosillo,Culiacán,Durango,Tampico,Morelia,Reynosa,Toluca,Chihuahua,Acapulco,Tlaxcala,Pachuca,Cancún,Veracruz,Villahermosa,Tuxtla,Oaxaca,Campeche"
   },
   {
-    "name": "Totonac",
-    "i": 2558,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papantla,Poza-Rica,Coatzintla,Espinal,Cazones,Zozocolco,Chumatlan,Filomeno-Mata,Martinez-de-La-Torre,Tlapacoyan,Misantla,Naolinco,Teziutlan,Zacapoaxtla"
-  },
-  {
-    "name": "Miskito",
-    "i": 2576,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bluefields,Bilwi,Waspam,Puerto Cabezas,Prinzapolka,Awasbila,Tuara,Krukira,Haulover,Karawala,Sandy Bay,Lamlaya,Tasbapauni,Kakabila,La Cruz Grande,Bismuna,Awas Tingni,Layasiksa,Dakura,Karata,Walpasiksa,Sinsin,Ubu,Tuapi,Krinkrin,San Jeronimo,Santa Marta,San Carlos,San Juan Coco,Siuna"
-  },
-  {
-    "name": "Tikuna",
-    "i": 2580,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Leticia,Tabatinga,Benjamin Constant,Santo Antonio,Sao Paulo Olivenca,Puerto Narino,Santa Sofia,Nazaret,San Martin,Tarapoto,Atalaia do Norte,Amatura,Tonantins,Islandia,San Pedro,Santa Rita,Caballococha,Yavari,San Pablo,Cushillo Cocha,Tres Fronteras,Lago Tarapoto,Puerto Alegria,Puerto Arica,Santa Rosa,Pucaurquillo,Bellavista,Pevas,Nuevo Israel,San Jose Amazonas"
-  },
-  {
-    "name": "Sranan",
-    "i": 2654,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Paramaribo,Nieuw Nickerie,Lelydorp,Moengo,Albina,Nieuw Amsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Meerzorg"
-  },
-  {
     "name": "Fulnio (dedicated)",
     "i": 20190,
     "min": 4,
@@ -1862,4 +1981,4 @@
     "m": 0,
     "b": "Filadelfia,Loma Plata,Neuland,Mariscal Estigarribia,Teniente Irala Fernandez,Pozo Hondo,Fortin Boqueron,Villa Hayes,Chaco,Pilcomayo,Paraguay,Presidente Hayes"
   }
-]
+];

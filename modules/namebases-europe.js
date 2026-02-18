@@ -1,4 +1,6 @@
-[
+"use strict";
+
+window.europeNameBases = [
   {
     "name": "English",
     "i": 1,
@@ -2349,6 +2351,15 @@
     "b": "Kondo-Vozhe,Shaitanka,Pelim,Lozva,Sosva,Ivdel,Gari,Verkhoturye,Tavda,Turinsk"
   },
   {
+    "name": "Csangó",
+    "i": 562,
+    "min": 4,
+    "max": 11,
+    "d": "urj-RO",
+    "m": 0,
+    "b": "BacÄƒu,OneÈ™ti,MoineÈ™ti,SÄƒcele,SfÃ¢ntu Gheorghe,Roman,PaÈ™cani,Adjud,TÃ¢rgu Ocna,SlÄƒnic-Moldova"
+  },
+  {
     "name": "Transylvanian Plain",
     "i": 564,
     "min": 4,
@@ -2392,6 +2403,15 @@
     "d": "oc-FR",
     "m": 0,
     "b": "Marseille,Aix-en-Provence,Arles,Toulon,Avignon,Digne-les-Bains,Gap,Nice"
+  },
+  {
+    "name": "Putèr",
+    "i": 570,
+    "min": 4,
+    "max": 11,
+    "d": "ro-CH",
+    "m": 0,
+    "b": "Zuoz,Samedan,Pontresina,La Punt Chamues-ch,Madulain,S-chanf,Celerina,Bever"
   },
   {
     "name": "Mator",
@@ -2691,6 +2711,33 @@
     "b": "Scuol,Ardez,Guarda,Sent,Ftan,Tarasp,Zernez,Susch,Lavin,MÃ¼stair,Santa Maria,Valchava,Fuldera,Tschierv,LÃ¼,VnÃ,Ramosch,Strada,Martina"
   },
   {
+    "name": "Standard French",
+    "i": 641,
+    "min": 4,
+    "max": 11,
+    "d": "ro-FR",
+    "m": 0,
+    "b": "Paris,Marseille,Lyon,Toulouse,Nice,Nantes,Montpellier,Strasbourg,Bordeaux,Lille,Rennes,Reims"
+  },
+  {
+    "name": "Standard Italian",
+    "i": 642,
+    "min": 4,
+    "max": 11,
+    "d": "it-IT",
+    "m": 0,
+    "b": "Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Verona,Venice"
+  },
+  {
+    "name": "Swiss Italian",
+    "i": 643,
+    "min": 4,
+    "max": 11,
+    "d": "it-CH",
+    "m": 0,
+    "b": "Lugano,Bellinzona,Locarno,Mendrisio,Chiasso,Biasca,Giubiasco,Minusio,Losone,Capriasca,Massagno,Roveredo"
+  },
+  {
     "name": "Tuscan",
     "i": 644,
     "min": 4,
@@ -2754,6 +2801,15 @@
     "b": "Perugia,Terni,Foligno,Citta di Castello,Spoleto,Gubbio,Assisi,Bastia Umbra,Orvieto,Narni,Marsciano,Todi"
   },
   {
+    "name": "Valdô",
+    "i": 654,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Aosta,Saint-Vincent,Chatillon,Sarre,Pont-Saint-Martin,Quart,Gressan,Saint-Christophe,Courmayeur,Nus,Ayas,Gressoney"
+  },
+  {
     "name": "Valencian",
     "i": 655,
     "min": 4,
@@ -2770,6 +2826,222 @@
     "d": "it-IT",
     "m": 0,
     "b": "Venice,Verona,Padua,Vicenza,Treviso,Mestre,Chioggia,Bassano del Grappa,San Dona di Piave,Schio,Mira,Belluno"
+  },
+  {
+    "name": "Versiliese",
+    "i": 658,
+    "min": 4,
+    "max": 11,
+    "d": "it-IT",
+    "m": 0,
+    "b": "Pietrasanta,Forte dei Marmi,Seravezza,Stazzema,Camaiore,Massarosa,Querceta,Valdicastello,Marina di Pietrasanta"
+  },
+  {
+    "name": "Viareggino",
+    "i": 659,
+    "min": 4,
+    "max": 11,
+    "d": "it-IT",
+    "m": 0,
+    "b": "Viareggio,Torre del Lago,Lido di Camaiore,Marco Polo,Darsena,Ex Campo d Aviazione,Varignano,Terminetto"
+  },
+  {
+    "name": "Vivaro-Alpine",
+    "i": 660,
+    "min": 4,
+    "max": 11,
+    "d": "oc-FR",
+    "m": 0,
+    "b": "Gap,Briancon,Embrun,Barcelonnette,Digne,Sisteron,Manosque,Forcalquier,Castellane,Seyne,Larche,Jausiers"
+  },
+  {
+    "name": "Vosgien",
+    "i": 661,
+    "min": 4,
+    "max": 11,
+    "d": "ro-FR",
+    "m": 0,
+    "b": "Epinal,Saint-Die,Remiremont,Gerardmer,Bruyeres,Fraize,Corcieux,ProvenchÃ¨res,Senones,Raon-l'Etape,Charmes,Mirecourt"
+  },
+  {
+    "name": "Wallachian",
+    "i": 662,
+    "min": 4,
+    "max": 11,
+    "d": "ro-RO",
+    "m": 0,
+    "b": "Bucharest,Ploiesti,PiteÈ™ti,Targoviste,Buzau,Braila,Craiova,RÃ¢mnicu VÃ¢lcea,Drobeta-Turnu Severin,TÃ¢rgu Jiu,Slatina,Alexandria"
+  },
+  {
+    "name": "Welche",
+    "i": 663,
+    "min": 4,
+    "max": 11,
+    "d": "gm-FR",
+    "m": 0,
+    "b": "Orbey,Le Bonhomme,Lapoutroie,Freyland,Sainte-Marie-aux-Mines,Aubure,Liepvre,Rombach-le-Franc"
+  },
+  {
+    "name": "West Walloon",
+    "i": 664,
+    "min": 4,
+    "max": 11,
+    "d": "ro-FR",
+    "m": 0,
+    "b": "Charleroi,Thuin,Beaumont,Chimay,Walcourt,Gerpinnes,Fleurus,Gosselies,Jumet,Marchienne-au-Pont,Mont-sur-Marchienne,Marcinelle"
+  },
+  {
+    "name": "Western Aragonese",
+    "i": 733,
+    "min": 4,
+    "max": 11,
+    "d": "an-ES",
+    "m": 0,
+    "b": "Hecho,AnsÃ³,EmbÃºn,UrduÃ©s,Fago,AragÃ¼Ã©s,Jasa,AÃ­sa,Borau,AratorÃ©s,Castiello,VillanÃºa"
+  },
+  {
+    "name": "Western Catalan",
+    "i": 734,
+    "min": 4,
+    "max": 11,
+    "d": "ca-ES",
+    "m": 0,
+    "b": "Lleida,Balaguer,TÃ rrega,Mollerussa,Cervera,Les Borges Blanques,Fraga,Tamarit de Llitera,Mequinensa,Tremp,Sort,La Seu d'Urgell"
+  },
+  {
+    "name": "Western Sicilian",
+    "i": 735,
+    "min": 4,
+    "max": 11,
+    "d": "it-IT",
+    "m": 0,
+    "b": "Palermo,Trapani,Marsala,Mazara del Vallo,Alcamo,Castelvetrano,Erice,Castellammare del Golfo,Partinico,Carini,Monreale,Bagheria"
+  },
+  {
+    "name": "Żejtun dialect",
+    "i": 738,
+    "min": 4,
+    "max": 11,
+    "d": "mt",
+    "m": 0,
+    "b": "Żejtun,Marsaxlokk,Birżebbuġa,Għaxaq,Gudja,Kirkop,Safi,Mqabba,Qrendi,Żurrieq,Bubaqra,Ħal Far,Tarxien,Paola,Fgura,Luqa,Siġġiewi,Rabat,Mdina,Valletta,Mosta,Birkirkara,Sliema,Attard,Lija"
+  },
+  {
+    "name": "Åsele",
+    "i": 739,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Åsele,Dorotea,Vilhelmina,Storuman,Sorsele,Lycksele,Malå,Norsjö,Robertsfors,Vindeln,Vännäs,Bjurholm"
+  },
+  {
+    "name": "Atlym",
+    "i": 757,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Atlym,Bolshoy Atlym,Malyy Atlym,Oktyabrskoye,Kondinskoye,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Nyagan,Langepas,Megion"
+  },
+  {
+    "name": "Atlym-Nizyam Khanty",
+    "i": 758,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Atlym,Nizyam,Polnovat,Kazym,Sherkaly,Beryozovo,Beloyarskiy,Igrim,Saranpaul,Sosva,Shishshat,Vogulka"
+  },
+  {
+    "name": "Nizyam",
+    "i": 759,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Nizyam,Nizyamka,Polnovat,Sherkaly,Oktyabrskoye,Beryozovo,Igrim,Sosva,Saranpaul,Khanty-Mansiysk,Surgut,Nefteyugansk"
+  },
+  {
+    "name": "Salym Khanty",
+    "i": 760,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Salym,Kut-Yakh,Lempino,Sentyabrskiy,Nefteyugansk,Surgut,Pyt-Yakh,Khanty-Mansiysk,Nizhnevartovsk,Megion,Langepas,Kogalym"
+  },
+  {
+    "name": "Western Khanty",
+    "i": 761,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Nyagan,Kogalym,Langepas,Megion,Raduzhny,Pokachi,Uray,Lyantor"
+  },
+  {
+    "name": "Ala-Satakunta",
+    "i": 795,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Rauma,Eura,Huittinen,KokemÃ¤ki,KÃ¶yliÃ¶,Luvia,Nakkila,SÃ¤kylÃ¤,Ulvila,Harjavalta,Eurajoki,Kiukainen"
+  },
+  {
+    "name": "American Finnish",
+    "i": 796,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely"
+  },
+  {
+    "name": "Avam",
+    "i": 797,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Dudinka,Norilsk,Khatanga,Karaul,Dikson,Talnakh,Kayyerkan,Snezhnogorsk,Ust-Avam,Volochanka,Potapovo,Nosok"
+  },
+  {
+    "name": "Berjozov",
+    "i": 798,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Beryozovo,Igrim,Saranpaul,Sosva,Lombovozh,Nyaksimvol,Khudumsunt,Shchekurya,Sartynya,Telposiz,Nerakhi,Vysoky Mys"
+  },
+  {
+    "name": "Besermyan",
+    "i": 799,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Glazov,Balezino,Kez,Yukamenskoye,Yar,Igra,Debesy,Selty,Uva,Syumsi,Kizner,Alnashi"
+  },
+  {
+    "name": "Akhvakh",
+    "i": 811,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Karata,Akvakh,Tlyarata,Kvanada,Tad-Magitl,Kudutl,Tsedok,Lologotl,Mashada,Archo,Kovada,Siydib"
+  },
+  {
+    "name": "Lower Inva",
+    "i": 874,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Guwahati,Dispur,Jorhat,Dibrugarh,Silchar,Tezpur,Nagaon,Tinsukia,Bongaigaon,Karimganj,Sualkuchi,Hajo"
   },
   {
     "name": "Forest Nenets",
@@ -2835,6 +3107,204 @@
     "b": "Somero,Salo,Paimio,Kaarina,Turku,Lieto,Aura,MynÃ¤mÃ¤ki,Nousiainen,Masku,Naantali,Raisio"
   },
   {
+    "name": "Kudymkar-Inva",
+    "i": 887,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kudymkar,Krasnovishersk,Nyrob,Gainsky,Kochyov,Osa,Chernushka,Belyayevka,BolshayaSosnova,Vereshchagino,Nytva,Karagay"
+  },
+  {
+    "name": "Ingrian",
+    "i": 902,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kingisepp,Ivangorov,Jaama,Narva,SanktPeterburg,Gatchina,Luga,Volosovo,Tosno,Slantsy,Kikery,Soykins"
+  },
+  {
+    "name": "Kven",
+    "i": 903,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "TromsÃ¸,Alta,Hammerfest,VadsÃ¸,Kirkenes,BÃ¥tsfjord,VardÃ¸,Tana,Karasjok,Kautokeino,Lakselv,HonningsvÃ¥g"
+  },
+  {
+    "name": "Livonian",
+    "i": 904,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Riga,LiepÄja,Daugavpils,Jelgava,JÅ«rmala,Ventspils,RÄ“zekne,Valmiera,Ogre,Tukums,CÄ“sis,KuldÄ«ga"
+  },
+  {
+    "name": "Ludic",
+    "i": 905,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Petrozavodsk,Medvezhyegorsk,Kondopoga,Segezha,Kem,Belomorsk,Loukhi,Kalevala,Pitkyaranta,SuojÃ¤rvi,Olonets,Sortavala"
+  },
+  {
+    "name": "Meänkieli",
+    "i": 906,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Stockholm,Uppsala,VÃ¤sterÃ¥s,Ã–rebro,LinkÃ¶ping,Helsingborg,JÃ¶nkÃ¶ping,NorrkÃ¶ping,UmeÃ¥,GÃ¤vle,MalmÃ¶,Gothenburg"
+  },
+  {
+    "name": "Veps",
+    "i": 907,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "SaintPetersburg,Petrozavodsk,Tikhvin,LodeynoyePole,Vytegra,Belozersk,Kirillov,Cherepovets,Vologda,Totma,VelikyUstyug,Nyandoma"
+  },
+  {
+    "name": "Võro",
+    "i": 908,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tartu,VÃµru,PÃµlva,Valga,OtepÃ¤Ã¤,Elva,TÃµrva,KarksiNuia,Antsla,RÃµuge,Kanepi,MÃµniste"
+  },
+  {
+    "name": "Votic",
+    "i": 909,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kingisepp,Ivangorod,Luga,Slantsy,Volosovo,Tosno,Gatchina,SanktPeterburg,Vsevolozhsk,Vyborg,Priozersk,Lomonosov"
+  },
+  {
+    "name": "Savonlinna",
+    "i": 910,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Savonlinna,Olavinlinna,Punkaharju,Kerimaki,Enonkoski,Rantasalmi,Sulkava,Mikkeli,Varkaus,Heinavesi,Oravi,Pihlajavesi"
+  },
+  {
+    "name": "isl",
+    "i": 917,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Reykjavik,Kopavogur,Hafnarfjordur,Akureyri,Reykjanesbaer,Selfoss,Akranes,Isafjordur,Egilsstadir,Husavik,Saudarkrokur,Vik,GarÃ°abÃ¦r,MosfellsbÃ¦r,Seltjarnarnes,Vestmannaeyjar,GrindavÃ­k,Ãlftanes,HveragerÃ°i,SandgerÃ°i,DalvÃ­k,SeyÃ°isfjÃ¶rÃ°ur,Fjardabyggd,Flateyri"
+  },
+  {
+    "name": "Norwegian",
+    "i": 918,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Oslo,Bergen,Trondheim,Stavanger,Drammen,Kristiansand,Tromso,Skien,Alesund,Haugesund,Bodo,Moss"
+  },
+  {
+    "name": "Bavarian",
+    "i": 919,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Munich,Nuremberg,Augsburg,Regensburg,Ingolstadt,FÃ¼rth,WÃ¼rzburg,Erlangen,Bamberg,Passau,Landshut"
+  },
+  {
+    "name": "Cimbrian",
+    "i": 920,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Luserna,Lavarone,Folgaria,Sette Comuni,Tredici Comuni,Vicenza,Trento,Verona,Rovereto"
+  },
+  {
+    "name": "Limburgish",
+    "i": 921,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Maastricht,Sittard,Heerlen,Venlo,Roermond,Geleen,Weert,Kerkrade,Bergen,Valkenburg"
+  },
+  {
+    "name": "Low German",
+    "i": 922,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hamburg,Bremen,LÃ¼neburg,Oldenburg,Hanover,LÃ¼beck,OsnabrÃ¼ck,MÃ¼nster,Braunschweig,Kiel,Flensburg"
+  },
+  {
+    "name": "Mainfränkisch",
+    "i": 923,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "WÃ¼rzburg,Schweinfurt,Kitzingen,Bad Kissingen,Aschaffenburg,Bamberg,Forchheim,HaÃŸfurt,Lichtenfels"
+  },
+  {
+    "name": "Palatinate German",
+    "i": 924,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kaiserslautern,Ludwigshafen,Mannheim,Mainz,Worms,Speyer,Neustadt,Idar-Oberstein,ZweibrÃ¼cken,Pirmasens"
+  },
+  {
+    "name": "Ripuarian Platt",
+    "i": 925,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cologne,Bonn,Aachen,DÃ¼sseldorf,DÃ¼ren,Eschweiler,Bad Godesberg,MÃ¼lheim,Bergisch Gladbach"
+  },
+  {
+    "name": "Hollola",
+    "i": 926,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Lahti,Heinola,HÃ¤meenlinna,RiihimÃ¤ki,Forssa,Kouvola,Kotka,Porvoo,Espoo,Vantaa,Tampere,Turku"
+  },
+  {
+    "name": "Heart Tavastian",
+    "i": 927,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tampere,HÃ¤meenlinna,Lahti,RiihimÃ¤ki,Forssa,Valkeakoski,Nokia,Kangasala,YlÃ¶jÃ¤rvi,JÃ¤msÃ¤,Orivesi,Virrat"
+  },
+  {
+    "name": "Savonian",
+    "i": 928,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
+  },
+  {
     "name": "Hollola (setBases aux)",
     "i": 934,
     "min": 4,
@@ -2860,6 +3330,852 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
+  },
+  {
+    "name": "Arp",
+    "i": 948,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Paris,Marseille,Lyon,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims"
+  },
+  {
+    "name": "Central Transdanubian",
+    "i": 1068,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "SzÃ©kesfehÃ©rvÃ¡r,TatabÃ¡nya,GyÅ‘r,MosonmagyarÃ³vÃ¡r,KomÃ¡rom,Esztergom,Dorog,BÃ¡bolna,OroszlÃ¡ny,MÃ³richida"
+  },
+  {
+    "name": "Kárás",
+    "i": 1069,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Szeged,KecskemÃ©t,Szolnok,JÃ¡szberÃ©ny,Karcag,MezÅ‘tÃºr,Szentes,KunszentmÃ¡rton,TÃºrkeve,KiskunfÃ©legyhÃ¡za"
+  },
+  {
+    "name": "Palóc",
+    "i": 1070,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hollókő,Balassagyarmat,Salgótarján,Rétság,Bánk,Berkenye,Szendehely,Felsőpetény,Alsópetény,Nógrád,Pásztó,Szécsény,Magyarnándor,Diósjenő,Érsekvadkert,Eger,Gyöngyös,Hatvan,Miskolc,Pálháza,Sátoraljaújhely,Mezőkövesd"
+  },
+  {
+    "name": "Southern Transdanubian",
+    "i": 1071,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "PÃ©cs,SzekszÃ¡rd,SzigetvÃ¡r,Baja,MohÃ¡cs,BonyhÃ¡d,KaposvÃ¡r,Sombathely,Szombathely,VasvÃ¡r,Zalaegerszeg"
+  },
+  {
+    "name": "Southern Great Plain",
+    "i": 1072,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Szeged,MakÃ³,BÃ©kÃ©scsaba,NagyvÃ¡rad,Debrecen,HajdÃºbÃ¶szÃ¶rmÃ©ny,Karcag,MezÅ‘tÃºr,Szentes,Kunhegyes"
+  },
+  {
+    "name": "Proper Southeastern",
+    "i": 1080,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "PÃ©cs,Barcs,ValpÃ³,BonyhÃ¡d,HosszÃºvÃ¶lgyy,KaposvÃ¡r,Komlo,BabÃ³csa,PÃ©csvÃ¡rad,SzigetvÃ¡r,MohÃ¡cs"
+  },
+  {
+    "name": "Standard Finnish",
+    "i": 1082,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Helsinki,Tampere,Turku,Oulu,Lahti,JyvÃ¤skylÃ¤,Kuopio,Kouvola,Vaasa,Pori,SeinÃ¤joki,Kotka"
+  },
+  {
+    "name": "Udora",
+    "i": 1083,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Udora,Ust-Chorna,Mikun,Krasnopolye,Klintsy,Lukyanovo,Navashino,Kovrov,Yelatma,Mokshoe,Sasovo"
+  },
+  {
+    "name": "Torne Sami",
+    "i": 1084,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Torne River,Pajala,Haparanda,KilpisjÃ¤rvi,Ylitornio,MellatrÃ¤sk,NÃ¤kkÃ¤lÃ¤,Vojakkala,Korpilombolo,Kainuu"
+  },
+  {
+    "name": "Tavastian",
+    "i": 1085,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "HÃ¤meenlinna,Lahti,RiihimÃ¤ki,Forssa,Hollola,HyvinkÃ¤Ã¤,Orimattila,Janakkala,Turenki,Loppi,Asikkala"
+  },
+  {
+    "name": "Tornio",
+    "i": 1086,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tornio,Haparanda,Pajala,Ylitornio,Kemi,Rovaniemi,Tornedalen,Haukipudas,Pello,Kolari,TorÃ¥"
+  },
+  {
+    "name": "Hevaha",
+    "i": 1087,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hevaha,Ob,Tobolsk,Tyumen,Khanty-Mansiysk,Surgut,Yugorsk,Noyabrsk,Nefteyugansk,Kondinskoye,Salym"
+  },
+  {
+    "name": "Northern Karelian",
+    "i": 1088,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Joensuu,Savonlinna,Ilomantsi,Kitee,Outokumpu,TohmajÃ¤rvi,Kontiolahti,PolvijÃ¤rvi,Valtimo,Lieksa"
+  },
+  {
+    "name": "Upper Vychegda",
+    "i": 1089,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Vychegda,Yarensk,Velikiy Ustyug,Kotlas,Syktyvkar,Mikun,Krasnovishersk,Vorkuta,Ust-Tsilma,Ukhta,Pechora"
+  },
+  {
+    "name": "Pori region",
+    "i": 1090,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Pori,Rauma,Eura,Eurajoki,KokemÃ¤ki,KankaanpÃ¤Ã¤,Kiukainen,Luvia,Meriharju,Nakkila,Harjavalta,Ulvila"
+  },
+  {
+    "name": "Peräpohjola",
+    "i": 1091,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "PerÃ¤pohjola,Oulu,Kemi,Kokkola,Rovaniemi,Kemijärvi,Simo,Tornio,Haparanda,Pajala,KilpisjÃ¤rvi"
+  },
+  {
+    "name": "Fingelska",
+    "i": 1092,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Fingelska,EkenÃ¤s,Karis,Helsinki,IngÃ¥,Nummela,PernÃ¥,Loviisa,Askola,MyrskylÃ¤,Sipoo,Sibbo"
+  },
+  {
+    "name": "Southern Selkup",
+    "i": 1093,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tomsk,Taymyr,Norilsk,Krasnoselkupsk,Dikson,Tursunskoye,Ust-Port,Bai,Kureyka,Pakhalino,Parabel,Tolka"
+  },
+  {
+    "name": "Vadey",
+    "i": 1094,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Vadey,Vayda,Trubcev,Sharanga,Tonsha,Tenug,Shugurovo,Tatarshley,Vasilsursk,Yadrin,Yelnya,Ryazan"
+  },
+  {
+    "name": "Basque-Icelandic pidgin",
+    "i": 1135,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Reykjavik,Akureyri,KÃ³pasker,Vestmannaeyjar,Bakki,Biludalur,GrundarfjÃ¶rdur,ReynisfjÃ¶rdur,SiglufjÃ¶rdur,Iceland,Basque"
+  },
+  {
+    "name": "Tatar",
+    "i": 1153,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kazan,Naberezhnye Chelny,Nizhnekamsk,Almetyevsk,Yelabuga,Bugulma,Zelenodolsk,Chistopol,Leninogorsk,Buinsk,Menzelinsk"
+  },
+  {
+    "name": "Central Erzya",
+    "i": 1470,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Central Erzya,Zanibar,Karshi,Fayzabad,Dushanbe,Yazd,Qamdo,Bokhtar,Tajikistan,Afghanistan,Punjab"
+  },
+  {
+    "name": "Central Estonian",
+    "i": 1471,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Estonian,Tallinn,Tartu,Rakvere,Viljandi,PÃ¤rnu,Paide,Narva,Kohtla-JÃ¤rve,JÃµgeva,Valga,Estonia"
+  },
+  {
+    "name": "Central Finland",
+    "i": 1472,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Finnish,JyvÃ¤skylÃ¤,Kuopio,Tampere,Lahti,Mikkeli,JÃ¤msÃ¤,Pori,SeinÃ¤joki,Kokkola,Savonlinna,Finland"
+  },
+  {
+    "name": "Central Ludic",
+    "i": 1474,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Ludic,Karelia,Petrozavodsk,Kostomuksha,Sortavala,Olonets,Kondopoga,Karelian Republic,Russia,Finland"
+  },
+  {
+    "name": "Central Mansi",
+    "i": 1480,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Mansi,Khanty-Mansi,Surgut,Nizhnevartovsk,Nefteyugansk,Pyt-Yakh,Uray,Kogalym,Lyantor,Yugorsk,Russia,Urals"
+  },
+  {
+    "name": "Central Moksha",
+    "i": 1482,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Moksha,Saransk,Kovylkino,Ruzaevka,Krasnoslobodsk,Tenyshevo,Insar,Mordovia,Russia,Volga"
+  },
+  {
+    "name": "Central Selkup",
+    "i": 1483,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Selkup,Turukhansk,Krasnoselkup,Narym,Kolpashevo,Tomsk,Siberia,Russia,Yenisei River"
+  },
+  {
+    "name": "Petuh",
+    "i": 1487,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Petuh,Flensburg,Schleswig,Kiel,Nordfriesland,Schleswig-Holstein,Germany,Denmark Border"
+  },
+  {
+    "name": "Sercquiais",
+    "i": 1488,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sercquiais,Sark,Channel Islands,Guernsey,Jersey,United Kingdom,English Channel,Norman French"
+  },
+  {
+    "name": "Central Veps",
+    "i": 1490,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Veps,Petrozavodsk,Syamozero,Olonets,Karelia,Russia,Finnish,East Finland,Baltic"
+  },
+  {
+    "name": "Central Vychegda",
+    "i": 1491,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Vychegda Komi,Syktyvkar,Ukhta,Vorkuta,Pechora,Komi Republic,Russia,Arctic,Komi"
+  },
+  {
+    "name": "Hinuq",
+    "i": 1503,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hinuq,Dagestan,Tsumadinskiy,Khashakhtar,Caucasus,Russia,North Caucasus,Tsezic Languages"
+  },
+  {
+    "name": "Chechen",
+    "i": 1555,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Grozny,Gudermes,Argun,Shali,Urus-Martan,Kurchaloy,Achkhoy-Martan,Samashki,Avtury,Bamut,Vedeno,Itum-Kale,Shatoy,Nozhay-Yurt,Shelkovskaya,Naurskaya,Znamenskoye,Sernovodskoye,Alkhan-Yurt,Gekhi"
+  },
+  {
+    "name": "Chovashi",
+    "i": 1606,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chovashi,Cheboksary,Kanash,Alatyr,Shumerlya,Chuvash Republic,Russia,Volga Region"
+  },
+  {
+    "name": "Chusovaya",
+    "i": 1611,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chusovoy,Chusovaya River,Perm,Yekaterinburg,Russia,Ural Mountains,Kama River"
+  },
+  {
+    "name": "Crimean Tatar",
+    "i": 1642,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Crimean Tatar,Simferopol,Sevastopol,Kerch,Evpatoria,Crimea,Ukraine,Black Sea"
+  },
+  {
+    "name": "Cypriot Arabic",
+    "i": 1647,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cypriot Arabic,Nicosia,Limassol,Larnaca,Cyprus,Mediterranean Sea,Eastern Mediterranean"
+  },
+  {
+    "name": "Dargwa",
+    "i": 1659,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Dargwa,Makhachkala,Derbent,Kizlyar,Dagestan,Russia,North Caucasus,Caspian Sea"
+  },
+  {
+    "name": "Eastern Estonian",
+    "i": 1737,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Eastern Estonian,Tartu,PÃµlva,VÃµru,Estonia,Baltic,Baltic Sea"
+  },
+  {
+    "name": "Eastern Mari",
+    "i": 1740,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Birsk,Mishkino,Kaltasy,Baltachevo,Dyurtyuli,Yanaul,Sharipovo,Churaevo,Novosulino,Arlan,Nikolo-Berezovka,Redikyul"
+  },
+  {
+    "name": "Eastern Savonian",
+    "i": 1749,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Eastern Savonian,Lappeenranta,Joensuu,Savonlinna,Finland,Lake Region,Eastern Finland,Baltic Sea"
+  },
+  {
+    "name": "Eastern South Estonian",
+    "i": 1750,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Eastern South Estonian,Tartu,VÃµru,PÃµlva,Estonia,Baltic,Baltic Sea"
+  },
+  {
+    "name": "Eastern Votic",
+    "i": 1752,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Eastern Votic,Narva,VÃ¤rska,Ingria,Estonia,Baltic,Baltic Sea"
+  },
+  {
+    "name": "Enets",
+    "i": 1766,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Enets,Surgut,Krasnoselkup,Turukhansk,Yamal-Nenets,Russia,Siberia,Yenisei River"
+  },
+  {
+    "name": "Far Eastern Khanty",
+    "i": 1787,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Surgut,Nizhnevartovsk,Khanty-Mansiysk,Pyt-Yakh,Lyantor,Sovetsky,Oktyabrsky,Yugorsk,Uray,Russia,Siberia,Ob River"
+  },
+  {
+    "name": "Tsez",
+    "i": 1802,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kidero,Mokok,Genichobli,Gakvari,Tlisi,Gunib,Russia,Dagestan,Caucasus,Tsumada,Bezhita"
+  },
+  {
+    "name": "Godoberi",
+    "i": 1838,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Godoberi,Kheb,Botlikh,Russia,Dagestan,Andi Mountains,Caucasus"
+  },
+  {
+    "name": "Finnish",
+    "i": 1844,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Helsinki,Espoo,Tampere,Vantaa,Oulu,Turku,JyvÃ¤skylÃ¤,Lahti,Kuopio,Pori,Kouvola,Joensuu"
+  },
+  {
+    "name": "Forest Enets",
+    "i": 1852,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Forest Enets,Sovetsky,Potapovo,Sumary,Verkhnyaya,Yamal-Nenets,Russia,Siberia,Ob River"
+  },
+  {
+    "name": "Gällivare",
+    "i": 1858,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Gällivare,Kiruna,Malmberget,Norrbottn,Sweden,Arctic,Lapland,Sami Region"
+  },
+  {
+    "name": "Gagauz",
+    "i": 1861,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Comrat,CeadÃ®r-Lunga,Taraclia,CuÈ™elcÄƒu,Gagauzia,Moldova,Romania,Balkans"
+  },
+  {
+    "name": "Hill Mari",
+    "i": 1885,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kozmodemyansk,Gornomariysky,Elasy,Vilovatovo,Kuznetsovo,Mikryakovo,Emeshevo,Paygusovo,Troitskiy Posad,Akpars,Kogo,Iz,Viche,Shura,Osh"
+  },
+  {
+    "name": "Hunzib",
+    "i": 1906,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Hunzib,Tlisi,Bezhta,Russia,Dagestan,Caucasus,Kapucha,Western"
+  },
+  {
+    "name": "Iitti",
+    "i": 1915,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Iitti,Tamil Nadu,India,South India,Dravidian Languages"
+  },
+  {
+    "name": "Udmurt",
+    "i": 1946,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Izhevsk,Sarapul,Glazov,Votkinsk,Mozhga,Uva,Balezino,Igra,Kez,Yakshur-Bodya,Malaya Purga,Kiyasovo,Alnashi,Grakhovo,Kizner,Vavozh,Syumsi,Selty,Debesy,Sharkan,Yukamenskoye,Yar"
+  },
+  {
+    "name": "Insular Estonian",
+    "i": 1950,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kuressaare,KÃ¤rdla,Orissaare,Valjala,Muhu,KÃ¤ina,Emmaste,PÃ¼halepa,Laimjala,Kihelkonna"
+  },
+  {
+    "name": "Alutaguse",
+    "i": 1955,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "JÃµhvi,Narva,Kohtla-JÃ¤rve,SillamÃ¤e,KiviÃµli,PÃ¼ssi,Oru,Ahtme,Sompa,Viivikonna,Sirgala,Narva-JÃµesuu"
+  },
+  {
+    "name": "Karagas",
+    "i": 2018,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Alygdzher,Nerkha,Verkhnyaya Gutara,Tofalariya,Nizhneudinsk,Tulun,Sayany,Biryusa,Uda,Kan"
+  },
+  {
+    "name": "Karasuk",
+    "i": 2021,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Karasuk,Minusinsk,Abakan,Krasnoyarsk,Yeniseysk,Tomsk,Kemerovo,Biysk,Barnaul,Novosibirsk"
+  },
+  {
+    "name": "Izhma",
+    "i": 2038,
+    "min": 4,
+    "max": 12,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Izhma,Komi,Pechora,Ukhta,Syktyvkar,Vorkuta,Inta,Usinsk,Sosnogorsk,Emva,Mikun,Ust-Tsilma,Vuktyl,Troitsko-Pechorsk"
+  },
+  {
+    "name": "Judaeo-Georgian",
+    "i": 2083,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tbilisi,Kutaisi,Akhaltsikhe,Oni,Kulashi,Sachkhere,Laituri,Surami,Kareli,Gori,Batumi,Poti"
+  },
+  {
+    "name": "Karelian",
+    "i": 2109,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "karelian,Petrozavodsk,Kondopoga,Segezha,Kostomuksha,Sortavala,Medvezhyegorsk,Kem,Pitkyaranta,Belomorsk,Suoyarvi,Olonets,Pudozh"
+  },
+  {
+    "name": "Karelian proper",
+    "i": 2110,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "karelian-proper,Kalevala,Loukhi,Muyezersky,Belomorsk,Kem,Segezha,Medvezhyegorsk,Kondopoga,Prionezhsky,Pryazha,Olonets,Pitkyaranta"
+  },
+  {
+    "name": "Kemi",
+    "i": 2136,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kemi,Tornio,Simo,Tervola,Keminmaa,Ranua,Posio,Rovaniemi,Ii,Haukipudas,Kiiminki,Oulu"
+  },
+  {
+    "name": "Kemijärvi",
+    "i": 2137,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kemijarvi,Pelkosenniemi,Savukoski,Salla,Sodankyla,Kittila,Kolari,Muonio,Enontekio,Inari,Utsjoki,Ranua"
+  },
+  {
+    "name": "Keuruu-Evijärvi",
+    "i": 2139,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Keuruu,Evijarvi,Lappajarvi,Vimpeli,Alajarvi,Soini,Ahtari,Multia,Petajavesi,Karstula,Saarijarvi,Kyyjarvi"
+  },
+  {
+    "name": "Gaelic",
+    "i": 2146,
+    "min": 4,
+    "max": 12,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Stornoway,Portree,Fort-William,Oban,Mallaig,Ullapool,Inverness,Skye,Lochinver,Thurso,Wick,Dornoch,Tobermory,Islay,Campbeltown,Uig,Dunvegan,Broadford,Kyleakin,Armadale,Carloway,Callanish,Barvas,Ness,Leverburgh"
+  },
+  {
+    "name": "Khwarshi",
+    "i": 2160,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kwada,Khwarshi,Inkhokvari,Santlada,Khvaini,Mitil,Khushet,Tsumada,Agvali,Botlikh,Khunzakh,Gunib"
+  },
+  {
+    "name": "Southern Udmurt",
+    "i": 2227,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Alnashi,Grakhovo,Kizner,Malaya Purga,Kiyasovo,Mozhga,Sarapul,Karakulino,Kambarka,Vavozh,Syumsi,Uva"
+  },
+  {
+    "name": "Northern Udmurt",
+    "i": 2228,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Glazov,Balezino,Kez,Debesy,Yar,Yukamenskoye,Igra,Yakshur-Bodya,Sharkan,Votkinsk,Krasnogorskoye,Seltov"
+  },
+  {
+    "name": "Meadow Mari",
+    "i": 2229,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yoshkar-Ola,Volzhsk,Zvenigovo,Morki,Sernur,Orshanka,Kuzhener,Paranga,Mari-Turek,Kilemary,Medvedevo,Tanygin,Yamaleev,Eshmyaev,Chitaykin,Elmanov,Sabaev,Aydarov,Shabayev,Olyk,Mari,Meariu,Viche,Shura,Osh,Kugu,Izzi,Porys,Er,Pel,Kudo,Jal,Tol,Ver"
+  },
+  {
+    "name": "Meadow Mari Proper",
+    "i": 2230,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yoshkar-Ola,Volzhsk,Zvenigovo,Morki,Sernur,Orshanka,Kuzhener,Paranga,Mari-Turek,Kilemary,Medvedevo,Sovetsky"
+  },
+  {
+    "name": "Kochevo",
+    "i": 2250,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kochevo,Bolshe-Kocha,Yukseevo,Marat,Sezh,Pelym,Olyshen,Kuyanov,Volgo-Shor,Otov,Kyrtim,Pozhva"
+  },
+  {
+    "name": "Koibal",
+    "i": 2252,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Abakan,Minusinsk,Yeniseysk,Krasnoyarsk,Achinsk,Kansk,Turukhansk,Bogotol,Nazarovo,Sharypovo,Uzhur,Kuragino"
+  },
+  {
+    "name": "Komi-Permyak",
+    "i": 2255,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kudymkar,Gayny,Kochevo,Kososa,Yurlinskoye,Yusva,Karagay,Siva,Ocher,Vereshchagino,Nytva,Krasnokamsk"
+  },
+  {
+    "name": "Karata",
+    "i": 2276,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Karata,Anchikh,Tukita,Rachabalda,Lower Inelo,Upper Inelo,Mashada,Archo,Kovada,Siydib,Tad-Magitl,Botlikh"
+  },
+  {
+    "name": "Kraasna",
+    "i": 2278,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Jaan,Peeter,Johannes,Mihkel,Nikolai,Aleksander,Vladimir,Mari,Anna,Liisa"
+  },
+  {
+    "name": "Krasnojarsk Khanty",
+    "i": 2279,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sergei,Nikolai,Ivan,Olga,Maria,Anna,Vladimir,Tatiana,Dmitri,Ekaterina"
+  },
+  {
+    "name": "Karachay-Balkar",
+    "i": 2280,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Karachayevsk,Nalchik,Tyrnyauz,Teberda,Elbrus,Kashkhatau,Chegem,Baksan,Khasanya,Yanikoy,Gundelen,Bylym"
+  },
+  {
+    "name": "Krevinian",
+    "i": 2281,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Bauska,Vecsaule,Code,MeÅ¾otne,Brunava,Ceraukste,Stelpe,Iecava,Skaistkalne,BÄrbele,GailÄ«Å¡i,Svitene"
+  },
+  {
+    "name": "Kukkuzi",
+    "i": 2288,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kingisepp,Ivangorod,Kotly,Luzhki,Krakolye,Pustomerzha,Ust-Luga,Vistino,Nezhnovo,Koporye,Soikino,Bolshoye Kuzyomkino"
+  },
+  {
+    "name": "Kumyk",
+    "i": 2290,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Makhachkala,Khasavyurt,Buinaksk,Izberbash,Kizilyurt,Karabudakhkent,Babayurt,Kayakent,Korkmaskala,Kumtorkala,Tarki,Leninkent"
+  },
+  {
+    "name": "Bagvalal",
+    "i": 2299,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Khushtada,Tlonodo,Kvanada,Gemerso,Tissi,Akhvakh,Bagvalal,Chamalal,Godoberi,Andi,Botlikh,Karata,Tindi,Khwarshi,Ginukh,Dido,Bezhta,Hunzib,Khvanada"
+  },
+  {
+    "name": "Laiuse Romani",
+    "i": 2315,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva"
+  },
+  {
+    "name": "Northern Khanty",
+    "i": 2321,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Surgut,Nizhnevartovsk,Langepas,Megion,Kogalym,Pyt-Yakh,Krasnoleninsk,Nefteyugansk,Novy Urengoy,Pokachi"
+  },
+  {
+    "name": "Southern Khanty",
+    "i": 2323,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Khanty-Mansiysk,Uray,Nyagan,Sovetsky,Yugorsk,Kondinskoye,Megion,Langepas,Pyt-Yakh"
+  },
+  {
+    "name": "Upper Demjanka",
+    "i": 2324,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Demjanka,Ust-Demjanka,Tara,Tukalin,Kalachinsk,Muravlenko,Noyabrsk,Pyt-Yakh"
+  },
+  {
+    "name": "Surgut Khanty",
+    "i": 2325,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Surgut,Nizhnevartovsk,Langepas,Megion,Kogalym,Pyt-Yakh,Krasnoleninsk"
+  },
+  {
+    "name": "Malij Jugan",
+    "i": 2326,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Malij-Jugan,Megion,Nefteyugansk,Krasnoleninsk,Pokachi,Pyt-Yakh"
+  },
+  {
+    "name": "Tremjugan",
+    "i": 2327,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tremjugan,Nefteyugansk,Krasnoleninsk,Surgut,Langepas,Kogalym"
+  },
+  {
+    "name": "Ejtun Dialect",
+    "i": 2346,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "-Mosta,Victoria,Nadur,Qormi,Å»ebbuÄ¡,XagÄ§ra,Safi,Kirkop"
+  },
+  {
+    "name": "Aas Whistled",
+    "i": 2348,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Orthez,Bidache,Saint-Palais,Tardets,Mont-de-Marsan,Hasparren,Aire-sur-l'Adour,Navarrenx"
   },
   {
     "name": "Abkhaz",
@@ -2896,6 +4212,141 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Marettimo,Lipari,Salina,Vulcano,Panarea,Stromboli,Filicudi,Alicudi"
+  },
+  {
+    "name": "Southeastern Moksha",
+    "i": 2371,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Saransk,Kovylkino,Ruzaevka,Krasnoslobodsk,Insar,Temnikov"
+  },
+  {
+    "name": "Western Moksha",
+    "i": 2372,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Saransk,Kovylkino,Ruzaevka,Krasnoslobodsk,Insar,Temnikov"
+  },
+  {
+    "name": "Syktyvkar",
+    "i": 2373,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Syktyvkar,Ukhta,Vuktyl,Pechora,Sosnogorsk,Inta"
+  },
+  {
+    "name": "Sanchursk",
+    "i": 2375,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sanchursk,Khanty-Mansiysk,Surgut,Noyabrsk,Pyt-Yakh,Muravlenko"
+  },
+  {
+    "name": "Sharanga",
+    "i": 2376,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Chhindwara,Multanpur,Narsimhapur,Seoni,Mandla,Jabalpur"
+  },
+  {
+    "name": "Selkup",
+    "i": 2377,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tazovsky,Krasnoselkup,Turukhansk,Krasnyy Yar,Tarko-Sale,Pangody"
+  },
+  {
+    "name": "Northern Selkup",
+    "i": 2378,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tobolsk,Khanty-Mansiysk,Noyabrsk,Puy-Yakh,Surgut,Muravlenko"
+  },
+  {
+    "name": "Northern Mansi",
+    "i": 2379,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nyagan,Uray,Yugorsk"
+  },
+  {
+    "name": "Sosva",
+    "i": 2380,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sosva,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
+  },
+  {
+    "name": "Lak",
+    "i": 2412,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Tula,Kolomna,Ryazan,Novomoskovsk,Kasimov,Dankov"
+  },
+  {
+    "name": "Leivu",
+    "i": 2414,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Kolka,Mazirbe,SÄ«krags,KoÅ¡rags,Pitrags,Saunags,Vaide,LÅ«Å¾Å†a,MiÄ·eÄ¼tornis,Lielirbe,Jaunciems,Melnsils,OvÄ«Å¡i,Ä¢ipka,Dundaga,Talsi,Ventspils,Roja,Engure,Tukums,JÅ«rmala,SlÄ«tere,Irbe,Pope,Ance,Lielupe,DaugavgrÄ«va,SalacgrÄ«va,AinaÅ¾i,PÄvilosta"
+  },
+  {
+    "name": "Lemi region",
+    "i": 2416,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Yekaterinburg,Nizhny Tagil,Pyt-Yakh,Nefteyugansk,Novy Urengoy"
+  },
+  {
+    "name": "Lezgin",
+    "i": 2419,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Derbent,Makhachkala,Khasavyurt,Kizlyar,Buynaksk"
+  },
+  {
+    "name": "Livvi",
+    "i": 2429,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Petrozavodsk,Kondopoga,Sortavala,Kostomuksha,Suoyarvi,Pitkyaranta"
+  },
+  {
+    "name": "Avar",
+    "i": 2431,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Khunzakh,Gunib,Chokh,Sogratl,Gimry,Untsukul,Gergebil,Gotsatl,Koroda,Tidib,Tlokh,Batlaich,Archi,Rugudzha,Teletl,Karata,Mehelta,Dylym,Inkhokvari,Khushtada,Magharul,Bolmac,Gamzatov,Shamil,Hadji Murad"
   },
   {
     "name": "Romanian",
@@ -2979,6 +4430,15 @@
     "b": "Truro,Penzance,St Ives,Falmouth,Helston,Redruth,Camborne,Hayle,Newquay,St Austell,Bodmin,Launceston,Liskeard,Callington,Padstow,Wadebridge,St Just,St Agnes,Marazion,Looe,Polperro,Mousehole"
   },
   {
+    "name": "Albanian",
+    "i": 2600,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tirane,DurrÃ«s,ShkodÃ«r,Elbasan,VlorÃ«,Fier,GjirokastÃ«r,Berat,KorÃ§Ã«,LushnjÃ«,KavajÃ«,LezhÃ«,LaÃ§,SarandÃ«,Pogradec,Librazhd,Peqin,KuÃ§ovÃ«,Burrel,Krume,KukÃ«s,TropojÃ«,Peshkopi"
+  },
+  {
     "name": "Lithuanian",
     "i": 2604,
     "min": 4,
@@ -2997,6 +4457,15 @@
     "b": "Riga,Daugavpils,Liepaja,Jelgava,Jurmala,Ventspils,Rezekne,Valmiera,Ogre,Jekabpils,Cesis,Smiltene,Gulbene,Aluksne,Talsi,Kuldiga,Saldus,Dobele,Ludza,Preili,Livani"
   },
   {
+    "name": "Estonian",
+    "i": 2606,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tallinn,Tartu,Narva,Parnu,Kohtla-Jarve,Viljandi,Rakvere,Maardu,Kuressaare,Haapsalu,Paide,Valga,Valka,Voru,Polva,Tapa,Johvi,Sillamae,Elva,Keila,Saue,est215u1,est215u2,est215u3,est215u4,est215u5,est215u6"
+  },
+  {
     "name": "Yiddish",
     "i": 2621,
     "min": 4,
@@ -3004,6 +4473,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Brooklyn,Manhattan,Queens,Bronx,Jerusalem,Tel Aviv,Bnei Brak,Jerusalem North,Jerusalem South,Holon,Bat Yam,Rishon LeZion,Petah Tikva,Ashdod,Netanya,Haifa,Beer Sheva,Ashkelon,Rehovot"
+  },
+  {
+    "name": "Ladino",
+    "i": 2622,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Istanbul,Sofia,Thessaloniki,Sarajevo,Belgrade,Bucharest,Alexandria,Cairo,Tangier,Fez,Marrakesh,Jerusalem,Tel Aviv,Safed,Tiberias,Haifa,Acre,Gaza,Jaffa,Ramla"
   },
   {
     "name": "Occitan",
@@ -3060,6 +4538,15 @@
     "b": "Sukhumi,Gagra,Gudauta,Ochamchire,Tkvarcheli,Gali,Adygea,Sochi,Tuapse,Novorossiysk,Gelendzhik,Anapa,Armavir,Stavropo,Krasnodar,Maykop"
   },
   {
+    "name": "Ingush",
+    "i": 2630,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Magas,Nazran,Ordzhonikidzevskaya,Malgobek,Plievo,Sleptsovskaya,Nesterovskaya,Yandare,Gazi-Yurt,Beslan,Vladikavkaz,Alagir,Ardon,Digora,Chikola"
+  },
+  {
     "name": "Ossetian",
     "i": 2631,
     "min": 4,
@@ -3067,6 +4554,15 @@
     "d": "lnrt",
     "m": 0,
     "b": "Vladikavkaz,Beslan,Alagir,Ardon,Digora,Chikola,Mozdok,Tskhinvali,Java,Kvemo-Kartuli,Shida-Kartuli,Gori,Kareli,Khashuri,Kaspi,GoriTown"
+  },
+  {
+    "name": "Northern Sami",
+    "i": 2635,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Karasjok,Kautokeino,Alta,Lakselv,Tana,Nesseby,Porsanger,Kafjord,Nordkapp,Hammerfest,Kiruna,Jokkmokk,Gallivare,Inari,Utsjoki,Enontekio,Sodankyla,Narvik,Tromso,Bodo"
   },
   {
     "name": "Manx",
@@ -3204,6 +4700,15 @@
     "b": "Liege,Namur,Charleroi,La Louviere,Mons,Tournai,Verviers,Seraing,Arlon,Bastogne,Huy,Dinant,Marche-en-Famenne,Soignies,Ath,Nivelles,Chimay,Rochefort,Stavelot,Malmedy"
   },
   {
+    "name": "Greenlandic",
+    "i": 2668,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Maniitsoq,Narsaq,Paamiut,Tasiilaq,Ittoqqortoormiit,Uummannaq,Upernavik,Nanortalik,Qasigiannguit,Qeqertarsuaq,Kangerlussuaq,Qeqertarsuatsiaat,Kullorsuaq,Savissivik,Illoqqortoormiut"
+  },
+  {
     "name": "Neapolitan",
     "i": 2669,
     "min": 4,
@@ -3220,6 +4725,24 @@
     "d": "lnrt",
     "m": 0,
     "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Mari-Turek,Orshanka,Medvedevo,Novotoryal,Paranga,Kilemary,Shariboksad,Volzhskoye,Morki,Kuzhener,Sernur,Vyatskiye Polyany,Cheboksary,Kirov,Kazan,Elabuga"
+  },
+  {
+    "name": "Erzya",
+    "i": 2677,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Saransk,Ruzaevka,Kovylkino,Ardatov,Insar,Krasnoslobodsk,Temnikov,Chamzinka,Atyuryevo,Staroye Shaygovo,Aturevo,Torbeyevo,Lyambir,Tengushevo,Bolshie Berezniki,Narovchat,Ichalki,Kadoshkino,Spassk,Alatyr"
+  },
+  {
+    "name": "Northwestern Mari",
+    "i": 2678,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Yaransk,Kiknur,Sharanga,Tonshaevo,Tuzha,Sanchursk,Lipsha,Kotel'nich,Luza,Malmyzh,Slobodskoy,Orichi,Urzhum,Oparino,Shabalino,Zuevka,Omutninsk,Bogorodskoye,Belaya Kholunitsa"
   },
   {
     "name": "Moksha",
@@ -3527,4 +5050,4 @@
     "m": 0,
     "b": "Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Stirling,Perth,Ayr,Kilmarnock,Greenock,Paisley,Falkirk,Cumbernauld,Dunfermline,Kirkcaldy"
   }
-]
+];
