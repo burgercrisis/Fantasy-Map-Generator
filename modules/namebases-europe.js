@@ -774,15 +774,6 @@
     "b": "Campobasso,Isernia,Termoli,Venafro,Larino,Bojano,Agnone,Rionero,Pescasseroli,Capracotta"
   },
   {
-    "name": "Neapolitan",
-    "i": 340,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Naples,Sorrento,Pompei,Ercolano,Avellino,Benevento,Caserta,Salerno,Amalfi,Ravello,Positano"
-  },
-  {
     "name": "Northern Calabrian",
     "i": 341,
     "min": 4,
@@ -1069,15 +1060,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Aosta,Ivrea,Valdosta,Biella,Novara,Verbania,Vercelli,Alessandria,Asti,Cuneo"
-  },
-  {
-    "name": "Asturian",
-    "i": 375,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Oviedo,GijÃ³n,AvilÃ©s,Mieres,Sama,Langreo,Laviana,Polares,Cangas de Narcea"
   },
   {
     "name": "Auvergnat",
@@ -1476,15 +1458,6 @@
     "b": "Grenoble,Annecy,ChambÃ©ry,Aix-les-Bains,Valence,Chambery,Lyon,Vald'Aosta,Sion,Fribourg,NeuchÃ¢tel,Geneva"
   },
   {
-    "name": "Friulian",
-    "i": 438,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Udine,Trieste,Pordenone,Gorizia,Cervignano del Friuli,Latisana,Spilimbergo,San Daniele del Friuli,Grado,Muggia"
-  },
-  {
     "name": "Galician",
     "i": 439,
     "min": 4,
@@ -1699,15 +1672,6 @@
     "d": "he-ES",
     "m": 0,
     "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,MÃ¡laga,Tenerife,Bilbao,LÃ©rida,CÃ¡diz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
-  },
-  {
-    "name": "Ladin",
-    "i": 464,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Ortisei,Selva di Cadore,Cortina d'Ampezzo,Cortina d'Anpezzo,Belluno,Feltre,Pieve di Cadore,Cortina,Cavalese"
   },
   {
     "name": "Landese",
@@ -2997,15 +2961,6 @@
     "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani"
   },
   {
-    "name": "Abaza",
-    "i": 2349,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cherkessk,Karachayevsk,Zelenchukskaya,Ust-Dzheguta,Teberda,Nyaksim,Krasny Kut"
-  },
-  {
     "name": "Abkhaz",
     "i": 2351,
     "min": 4,
@@ -3220,15 +3175,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Douglas,Ramsey,Peel,Castletown,Port Erin,Port St Mary,Laxey,Onchan,Ballasalla,Kirk Michael,Ballaugh,Sulby,Foxdale,Glen Vine,Crosby,Santon,Jurby,Andreas,Bride,Colby"
-  },
-  {
-    "name": "Corsican",
-    "i": 2640,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ajaccio,Bastia,Corte,Porto-Vecchio,Calvi,Sartene,Propriano,Borgo,Ghisonaccia,Moriani,Alata,Albitreccia,Afa,Pietrosella,Sisco,Lumio,Saint-Florent,Piana,Cargese,Zonza"
   },
   {
     "name": "Sicilian",

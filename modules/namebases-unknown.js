@@ -2241,15 +2241,6 @@
     "b": "PÃ©cs,Barcs,ValpÃ³,BonyhÃ¡d,HosszÃºvÃ¶lgyy,KaposvÃ¡r,Komlo,BabÃ³csa,PÃ©csvÃ¡rad,SzigetvÃ¡r,MohÃ¡cs"
   },
   {
-    "name": "Lule Sami",
-    "i": 1081,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Luokta,MÃ¤vas,Ust-MÃ¡vas,Kalvala,Nuorgam,Karesuando,Paadar,Inari,Ivalo,SodankylÃ¤,LevÃ¤joki,Utsjoki"
-  },
-  {
     "name": "Standard Finnish",
     "i": 1082,
     "min": 4,
