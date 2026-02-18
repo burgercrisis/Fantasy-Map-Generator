@@ -1341,15 +1341,6 @@
     "b": "Kokrajhar,Guwahati,Dhubri,Bongaigaon,Barpeta,Nalbari,Kamrup,Goalpara,Darrang,Sonitpur,Lakhimpur,Udalguri"
   },
   {
-    "name": "Dhimal",
-    "i": 877,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Darjeeling,Kalimpong,Siliguri,Jalpaiguri,CoochBehar,Alipurduar,Malda,Murshidabad,Nadia,North24Parganas,South24Parganas,Kolkata"
-  },
-  {
     "name": "Proto-Karenic",
     "i": 878,
     "min": 4,
@@ -4471,15 +4462,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Kanbun,Kyoto,Nara,Osaka,Kobe,Kamakura,Tokyo,Japan,East Asia"
-  },
-  {
-    "name": "Terêna",
-    "i": 1580,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Terena,Mato Grosso do Sul,Ponta PorÃ£,Brazil,Paraguay Border,Guarani Region"
   },
   {
     "name": "Chepangic",
@@ -8242,24 +8224,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Cairo,Baghdad,Damascus,Jeddah,Riyadh,Sanaa,Khartoum,Tripoli"
-  },
-  {
-    "name": "Agalega Creole",
-    "i": 2364,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Vingt Cinq,La Fourche,Grand Gaube,Goodlands,Mapou,RiviÃ¨re du Rempart"
-  },
-  {
-    "name": "Ahom",
-    "i": 2366,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sibsagar,Jorhat,Mariyani,Golaghat,Dibrugarh,Tinsukia"
   },
   {
     "name": "Aiton",

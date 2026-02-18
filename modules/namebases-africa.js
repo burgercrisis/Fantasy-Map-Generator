@@ -2151,15 +2151,6 @@
     "b": "Central Atlas Tamazight,Morocco,Atlas Mountains,High Atlas,Marrakech,Fes,Ouarzazate,Errachidia,Beni Mellal,Midelt,Meknes,Taza"
   },
   {
-    "name": "Cameroonian Pidgin",
-    "i": 1461,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cameroonian Pidgin,Douala,YaoundÃƒÂ©,Bafoussam,Dschang,EdÃƒÂ©a,Nkongsamba,Kribi,Bambalos,Garoua,Bertoua"
-  },
-  {
     "name": "Cameroonian Pidgin English",
     "i": 1462,
     "min": 4,
@@ -2799,15 +2790,6 @@
     "b": "Dhd,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
   },
   {
-    "name": "East Chadic",
-    "i": 1729,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "East Chadic,Nigeria,Chad,Cameroon,North East,North Central,West Africa"
-  },
-  {
     "name": "East Zenati",
     "i": 1730,
     "min": 4,
@@ -3058,15 +3040,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Dry,Somalia,Hawd,Laasqoray,Eyl,Bandarbeyla,Baraawe,Somali,Horn of Africa,Indian Ocean"
-  },
-  {
-    "name": "East Chadic",
-    "i": 1817,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Maiduguri,Yola,Bauchi,Gombe,Mubi,Nigeria,Chad,Cameroon,North East,North Central"
   },
   {
     "name": "Ewondo",

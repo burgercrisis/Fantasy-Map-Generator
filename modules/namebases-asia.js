@@ -1548,15 +1548,6 @@
     "b": "Kokrajhar,Guwahati,Dhubri,Bongaigaon,Barpeta,Nalbari,Kamrup,Goalpara,Darrang,Sonitpur,Lakhimpur,Udalguri"
   },
   {
-    "name": "Dhimal",
-    "i": 877,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Darjeeling,Kalimpong,Siliguri,Jalpaiguri,CoochBehar,Alipurduar,Malda,Murshidabad,Nadia,North24Parganas,South24Parganas,Kolkata"
-  },
-  {
     "name": "Proto-Karenic",
     "i": 878,
     "min": 4,
@@ -1636,15 +1627,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Tbilisi,Kutaisi,Batumi,Sukhumi,Zugdidi,Poti,Gori,Rustavi,Telavi,Akhaltsikhe,Ambrolauri,Tkibuli"
-  },
-  {
-    "name": "Arunachal",
-    "i": 949,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Itanagar,Tawang,Ziro,Pasighat,Bomdila,Tezu,Along,Khonsa,Seppa,Yupia,Roing,Anini"
   },
   {
     "name": "Assamese",

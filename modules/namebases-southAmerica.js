@@ -1611,15 +1611,6 @@
     "b": "Piapoco,Puerto Carreño,Orocue,Vichada,Colombia,Meta,Orinoco River,South America"
   },
   {
-    "name": "Terêna",
-    "i": 8654,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Terena,Mato Grosso do Sul,Ponta Porã,Brazil,Paraguay Border,Guarani Region"
-  },
-  {
     "name": "Wapishana",
     "i": 8655,
     "min": 4,
