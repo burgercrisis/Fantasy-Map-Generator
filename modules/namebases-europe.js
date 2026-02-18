@@ -2574,24 +2574,6 @@
     "b": "Rome,Ostia,Guidonia,Fiumicino,Pomezia"
   },
   {
-    "name": "Romanian",
-    "i": 600,
-    "min": 4,
-    "max": 11,
-    "d": "ro-RO",
-    "m": 0,
-    "b": "Bucharest,Cluj-Napoca,TimiÈ™oara,IaÈ™i,ConstanÈ›a,Craiova,BraÈ™ov,GalaÈ›i"
-  },
-  {
-    "name": "Romansh",
-    "i": 601,
-    "min": 4,
-    "max": 11,
-    "d": "ro-CH",
-    "m": 0,
-    "b": "Chur,Davos,St. Moritz,Scuol,Disentis,MustÃ©r"
-  },
-  {
     "name": "Romanian Daco-Romanian",
     "i": 602,
     "min": 4,
@@ -2608,33 +2590,6 @@
     "d": "ro-FR",
     "m": 0,
     "b": "La Brigue,Tende,Saorge,Breil-sur-Roya"
-  },
-  {
-    "name": "Istro-Romanian",
-    "i": 604,
-    "min": 4,
-    "max": 11,
-    "d": "ro-HR",
-    "m": 0,
-    "b": "Å½ejane,Å uÅ¡njevica,Nova Vas,KostrÄani"
-  },
-  {
-    "name": "Aromanian",
-    "i": 605,
-    "min": 4,
-    "max": 11,
-    "d": "ro-GR",
-    "m": 0,
-    "b": "Metsovo,Samarina,Moskopolje,KruÅ¡evo,KorÃ§Ã«,Bitola,Ioannina,Grebena,Florina,Kastoria,Veria,Katerini"
-  },
-  {
-    "name": "Megleno-Romanian",
-    "i": 606,
-    "min": 4,
-    "max": 11,
-    "d": "ro-MK",
-    "m": 0,
-    "b": "Gevgelija,Archangelos,Skra,Koupa,Luma,NÃ¢nti,Oshani,Birislav,Huma,Lumnitsa,TshreÅ¡nevo,Barovitsa"
   },
   {
     "name": "Sabino",
@@ -2662,15 +2617,6 @@
     "d": "it-SM",
     "m": 0,
     "b": "City of San Marino,Borgo Maggiore,Dogana,Serravalle,Domagnano,Fiorentino,Faetano,Montegiardino,Chiesanuova,Acquaviva,Falciano,Rovereta"
-  },
-  {
-    "name": "Sardinian",
-    "i": 619,
-    "min": 4,
-    "max": 11,
-    "d": "ro-IT",
-    "m": 0,
-    "b": "Cagliari,Sassari,Quartu Sant'Elena,Olbia,Alghero,Nuoro,Oristano,Selargius,Carbonia,Iglesias,Macomer,Bosa"
   },
   {
     "name": "Sardo-Corsican",
@@ -2707,15 +2653,6 @@
     "d": "it-IT",
     "m": 0,
     "b": "Siena,Poggibonsi,Colle di Val d'Elsa,Montepulciano,Chiusi,San Gimignano,Sinalunga,Sovicille,Asciano,Monteriggioni,Castelnuovo Berardenga,Rapolano Terme"
-  },
-  {
-    "name": "Sicilian",
-    "i": 624,
-    "min": 4,
-    "max": 11,
-    "d": "it-IT",
-    "m": 0,
-    "b": "Palermo,Catania,Messina,Syracuse,Marsala,Gela,Ragusa,Trapani,Caltanissetta,Agrigento,Bagheria,Modica"
   },
   {
     "name": "Southeast Metafonetica",
