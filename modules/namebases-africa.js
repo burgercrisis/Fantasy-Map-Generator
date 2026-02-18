@@ -1086,7 +1086,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dschang, Foreke-Dschang, Foto, Fongo-Tongo, Fossong-Wentcheng, Fotset-Kan, Baleveng, Bafou, Bameka, Bansoa, Bamendjou, Menoua, Menchi, Batcham, Bamendou, Bamoungoum"
+    "b": "Dschang,Foreke-Dschang,Foto,Fongo-Tongo,Fossong-Wentcheng,Fotset-Kan,Baleveng,Bafou,Bameka,Bansoa,Bamendjou,Menoua,Menchi,Batcham,Bamendou,Bamoungoum"
   },
   {
     "name": "Zande",
@@ -1851,7 +1851,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bidiya,AbÃƒÂ©chÃƒÂ©,N'Djamena,Mao,Ati, Mongo,Biltine,Am Timan,Bokoro,Koumra,Melfi"
+    "b": "Bidiya,AbÃƒÂ©chÃƒÂ©,N'Djamena,Mao,Ati,Mongo,Biltine,Am Timan,Bokoro,Koumra,Melfi"
   },
   {
     "name": "Bina",
@@ -4200,7 +4200,7 @@
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mthatha,East-London,Port-Elizabeth,King-William's-Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode, Elliotdale,Fort-Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni"
+    "b": "Mthatha,East-London,Port-Elizabeth,King-William's-Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort-Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni"
   },
   {
     "name": "Sesotho",

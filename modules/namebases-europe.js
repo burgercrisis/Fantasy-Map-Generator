@@ -384,7 +384,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matarâ”œâ”‚,Vic,Olot,Tortosa,Sant Cugat del VallÃ¨s,CornellÃ  de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,GavÃ ,El Prat de Llobregat,Cerdanyola del VallÃ¨s,Mollet del VallÃ¨s,Montcada i Reixac"
+    "b": "Barcelona,Girona,Lleida,Tarragona,Manresa,Reus,Sabadell,Terrassa,Matarâ”œâ”‚,Vic,Olot,Tortosa,Sant Cugat del VallÃ¨s,CornellÃ  de Llobregat,Sant Boi de Llobregat,Castelldefels,Viladecans,GavÃ,El Prat de Llobregat,Cerdanyola del VallÃ¨s,Mollet del VallÃ¨s,Montcada i Reixac"
   },
   {
     "name": "Cantabrian",
@@ -1941,7 +1941,7 @@
     "max": 11,
     "d": "oc-ES",
     "m": 0,
-    "b": "PerpinyÃ ,Canet de RossellÃ³,Sant Esteve del Monestir,Sant CebriÃ  de RossellÃ³,Sant LlorenÃ§ de la Salanca,Argelers de la Marenda,Ribesaltes,TuÃ¯r,Elna,Prada,Ceret,Illa,Millars,Bages,Toluges,PiÃ ,Salses,Pollestres,Vernet,Sant Pau de Fenollet"
+    "b": "PerpinyÃ,Canet de RossellÃ³,Sant Esteve del Monestir,Sant CebriÃ  de RossellÃ³,Sant LlorenÃ§ de la Salanca,Argelers de la Marenda,Ribesaltes,TuÃ¯r,Elna,Prada,Ceret,Illa,Millars,Bages,Toluges,PiÃ,Salses,Pollestres,Vernet,Sant Pau de Fenollet"
   },
   {
     "name": "Northern Portuguese",
@@ -1995,7 +1995,7 @@
     "max": 11,
     "d": "ro-ES",
     "m": 0,
-    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Vic,Manresa,Urgell,EmpÃºries,BesalÃº,Cervera,PuigcerdÃ ,Camprodon,Peralada"
+    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Vic,Manresa,Urgell,EmpÃºries,BesalÃº,Cervera,PuigcerdÃ,Camprodon,Peralada"
   },
   {
     "name": "Old Gallo-Romance",
@@ -2085,7 +2085,7 @@
     "max": 11,
     "d": "es-ES",
     "m": 0,
-    "b": "Palafrugell,Llafranc,Calella de Palafrugell,Tamariu,Llofriu,PalamÃ³s,Montserrat,Begur,Pals,Peratallada,RegencÃ³s,CruÃ¯lles,Monells,La Bisbal d'EmpordÃ "
+    "b": "Palafrugell,Llafranc,Calella de Palafrugell,Tamariu,Llofriu,PalamÃ³s,Montserrat,Begur,Pals,Peratallada,RegencÃ³s,CruÃ¯lles,Monells,La Bisbal d'EmpordÃ"
   },
   {
     "name": "Palra",
@@ -2112,7 +2112,7 @@
     "max": 11,
     "d": "it-IT",
     "m": 0,
-    "b": "Pantelleria,Scauri,Rekhale,Gadir,Khamma,Tracino,Bugeber,Mueggen,Bukkuram,SibÃ ,Campobello"
+    "b": "Pantelleria,Scauri,Rekhale,Gadir,Khamma,Tracino,Bugeber,Mueggen,Bukkuram,SibÃ,Campobello"
   },
   {
     "name": "Parmigiano",
@@ -2715,7 +2715,7 @@
     "max": 11,
     "d": "ro-CH",
     "m": 0,
-    "b": "Scuol,Ardez,Guarda,Sent,Ftan,Tarasp,Zernez,Susch,Lavin,MÃ¼stair,Santa Maria,Valchava,Fuldera,Tschierv,LÃ¼,VnÃ ,Ramosch,Strada,Martina"
+    "b": "Scuol,Ardez,Guarda,Sent,Ftan,Tarasp,Zernez,Susch,Lavin,MÃ¼stair,Santa Maria,Valchava,Fuldera,Tschierv,LÃ¼,VnÃ,Ramosch,Strada,Martina"
   },
   {
     "name": "Tuscan",
@@ -2985,7 +2985,7 @@
     "max": 12,
     "d": "nld",
     "m": 0,
-    "b": "Caerdydd,Swansea,Newport,Bangor,Wrexham,Aberystwyth,Caernarfon,Conwy,Llandudno,Colwyn Bay,Rhyl,Prestatyn,Merthyr,Tonypandy, Pontypridd,Bridgend,Neath,Port Talbot,Llanelli,Carmarthen,Haverfordwest,Cardigan,Aberdare,Barry,Penarth,Flint,Mold,Denbigh,Ruthin"
+    "b": "Caerdydd,Swansea,Newport,Bangor,Wrexham,Aberystwyth,Caernarfon,Conwy,Llandudno,Colwyn Bay,Rhyl,Prestatyn,Merthyr,Tonypandy,Pontypridd,Bridgend,Neath,Port Talbot,Llanelli,Carmarthen,Haverfordwest,Cardigan,Aberdare,Barry,Penarth,Flint,Mold,Denbigh,Ruthin"
   },
   {
     "name": "Breton",
@@ -3318,7 +3318,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Truro,Penzance,Falmouth,St Ives,Newquay,Bodmin,Redruth,Camborne,St Austell,Bude,Liskeard,Fowey,Looe,Padstow,Tintagel,Helston,Perranporth,Newlyn,Marazion,St Mawes,Mousehole,Boscastle,Mevagissey,Polperro,Mullion,Manaccan,Grampound,St Germans,Callington,Kingsand,Cawsand,Par,St Blazey,Lostwithiel,Penryn,Golant,Crank,St Keverne,Perranarworthal,St Buryan,Lands End,Sennen,Porthcurno,Godrevy,Hayle,St Agnes,Portreath,Gwennap,Chacewater,Wendron,Kehelland,St Just,St Levan,Zennor,Morvah,Pendeen, Lelant,Carbis Bay,Gwithian,Connor Downs,Crowan,Stithians,Mawnan Smith,Mylor,Flushing,Portloe,Veryan,Gerrans,Portscatho,St Antony,Torpoint,Saltash,Quethiock,South Hill,Stoke Climsland,Gunnislake,Calstock,Bere Ferrers,Tavistock,Peter Tavy,Mary Tavy"
+    "b": "Truro,Penzance,Falmouth,St Ives,Newquay,Bodmin,Redruth,Camborne,St Austell,Bude,Liskeard,Fowey,Looe,Padstow,Tintagel,Helston,Perranporth,Newlyn,Marazion,St Mawes,Mousehole,Boscastle,Mevagissey,Polperro,Mullion,Manaccan,Grampound,St Germans,Callington,Kingsand,Cawsand,Par,St Blazey,Lostwithiel,Penryn,Golant,Crank,St Keverne,Perranarworthal,St Buryan,Lands End,Sennen,Porthcurno,Godrevy,Hayle,St Agnes,Portreath,Gwennap,Chacewater,Wendron,Kehelland,St Just,St Levan,Zennor,Morvah,Pendeen,Lelant,Carbis Bay,Gwithian,Connor Downs,Crowan,Stithians,Mawnan Smith,Mylor,Flushing,Portloe,Veryan,Gerrans,Portscatho,St Antony,Torpoint,Saltash,Quethiock,South Hill,Stoke Climsland,Gunnislake,Calstock,Bere Ferrers,Tavistock,Peter Tavy,Mary Tavy"
   },
   {
     "name": "Manx (dedicated)",
@@ -3327,7 +3327,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Douglas,Ramsey,Castletown, Peel,Port Erin,Laxey,Kirk Michael,St Johns,Michael,Andreas,Bride,Maughold,Santon,Onchan,Glenfaba"
+    "b": "Douglas,Ramsey,Castletown,Peel,Port Erin,Laxey,Kirk Michael,St Johns,Michael,Andreas,Bride,Maughold,Santon,Onchan,Glenfaba"
   },
   {
     "name": "Welsh (dedicated)",
@@ -3336,7 +3336,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Caerdydd,Abertawe,Caernarfon,Wrecsam,Bangor,Casnewydd,Hwlffordd,Aberystwyth,Tyddewi,Llanfairpwllgwyngyll,Rhosllanerchrugog,Llansantffraid,Penrhyndeudraeth,Bethesda,Porthmadog,Ammanford,Rhydyffordd,Caerphilly,Barry,Y Barri,Carmarthen,Caerfyrddin,Lampeter,Cardigan,Aberaeron,New Quay,St David's,Haverfordwest,Milford Haven,Neyland,Goodwick,Tenby,Dinbych-y-pysgod,Barmouth,Aberdyfi,Harlech,Blaenau Ffestiniog,Betws-y-Coed,Capel Curig,Llanberis,Beddgelert,Dolgellau,Machynlleth,Welshpool, Newtown, Llandrindod Wells,Builth Wells,Brecon,Ystrad Mynach,Trefforest,Pontypridd,Tonypandy,Treorchy,Trecelyn,Tirphil,Bedwas,Machen,Risca,Crumlin,Bargoed,Houghton,Bishop's Cleeve,Charlton Kings,Lydbrook,Tidenham,Woolaston,Awre,Blakeney,Longhope,Minsterworth,Westbury-on-Severn"
+    "b": "Caerdydd,Abertawe,Caernarfon,Wrecsam,Bangor,Casnewydd,Hwlffordd,Aberystwyth,Tyddewi,Llanfairpwllgwyngyll,Rhosllanerchrugog,Llansantffraid,Penrhyndeudraeth,Bethesda,Porthmadog,Ammanford,Rhydyffordd,Caerphilly,Barry,Y Barri,Carmarthen,Caerfyrddin,Lampeter,Cardigan,Aberaeron,New Quay,St David's,Haverfordwest,Milford Haven,Neyland,Goodwick,Tenby,Dinbych-y-pysgod,Barmouth,Aberdyfi,Harlech,Blaenau Ffestiniog,Betws-y-Coed,Capel Curig,Llanberis,Beddgelert,Dolgellau,Machynlleth,Welshpool,Newtown,Llandrindod Wells,Builth Wells,Brecon,Ystrad Mynach,Trefforest,Pontypridd,Tonypandy,Treorchy,Trecelyn,Tirphil,Bedwas,Machen,Risca,Crumlin,Bargoed,Houghton,Bishop's Cleeve,Charlton Kings,Lydbrook,Tidenham,Woolaston,Awre,Blakeney,Longhope,Minsterworth,Westbury-on-Severn"
   },
   {
     "name": "Russian (dedicated)",
@@ -3516,7 +3516,7 @@
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Warsaw,Krakow,Lodz,Vilnius,Bialystok,Lublin,Kiev,Odessa,Kishinev,Chernivtsi,Lviv,Ivano-Frankivsk,Ternopil,Rivne,Lutsk,Dnipropetrovsk,Zhytomyr,Vinnytsia,Uzhhorod,Stanyslaviv, Brody, Radziviliv, Zamosc, Lubartow, Hrubieszow, Chełm, Przemyśl, Jarosław, Sanok, Lesko, Ustrzyki Dolne, Krościenko, Nowy Targ, Zakopane"
+    "b": "Warsaw,Krakow,Lodz,Vilnius,Bialystok,Lublin,Kiev,Odessa,Kishinev,Chernivtsi,Lviv,Ivano-Frankivsk,Ternopil,Rivne,Lutsk,Dnipropetrovsk,Zhytomyr,Vinnytsia,Uzhhorod,Stanyslaviv,Brody,Radziviliv,Zamosc,Lubartow,Hrubieszow,Chełm,Przemyśl,Jarosław,Sanok,Lesko,Ustrzyki Dolne,Krościenko,Nowy Targ,Zakopane"
   },
   {
     "name": "Frisian (dedicated)",

@@ -141,7 +141,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Tubmanburg,Robertsport, Greenville,Bensonville"
+    "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Tubmanburg,Robertsport,Greenville,Bensonville"
   },
   {
     "name": "Csangó",
@@ -1599,7 +1599,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Altay, Khovd,Olgii,Ulaangom,Hovd,Uliastai,Bulgan,Tosontsengel,Altai,BayanOlgii,GoviAltai,Zavkhan"
+    "b": "Altay,Khovd,Olgii,Ulaangom,Hovd,Uliastai,Bulgan,Tosontsengel,Altai,BayanOlgii,GoviAltai,Zavkhan"
   },
   {
     "name": "Torgut Oirat",
@@ -6423,7 +6423,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kellog, Maduyka, Farkovo, Turukhansk, Bakhta, Verkhneimbatsk, Surgutikha, Goroshikha, Kangatovo, Kellogskoe, Yenisei, Kureyka, Pakulika, Yeloguy, Bakhtinskoye, Verkhneimbatskoye"
+    "b": "Kellog,Maduyka,Farkovo,Turukhansk,Bakhta,Verkhneimbatsk,Surgutikha,Goroshikha,Kangatovo,Kellogskoe,Yenisei,Kureyka,Pakulika,Yeloguy,Bakhtinskoye,Verkhneimbatskoye"
   },
   {
     "name": "Koryak",
@@ -7728,7 +7728,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sanchursk,Khanty-Mansiysk, Surgut,Noyabrsk,Pyt-Yakh,Muravlenko"
+    "b": "Sanchursk,Khanty-Mansiysk,Surgut,Noyabrsk,Pyt-Yakh,Muravlenko"
   },
   {
     "name": "Sharanga",
@@ -8079,7 +8079,7 @@
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kurru, Kulavatha, Yerukala, Andhra, Telangana, Rayalaseema, Vizianagaram, Srikakulam, Eturnagaram, Basha, Fortune, Soothsayer, Koravan, Kaikadi, Burgula, Kancheepuram"
+    "b": "Kurru,Kulavatha,Yerukala,Andhra,Telangana,Rayalaseema,Vizianagaram,Srikakulam,Eturnagaram,Basha,Fortune,Soothsayer,Koravan,Kaikadi,Burgula,Kancheepuram"
   },
   {
     "name": "Newar",
