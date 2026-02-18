@@ -396,15 +396,6 @@
     "b": "Santander,Torrelavega,Castro Urdiales,Laredo,Reinosa,Santoâ”œâ–’a,Comillas,San Vicente de la Barquera,Potes,Cabezâ”œâ”‚n de la Sal,Noja,Ampuero"
   },
   {
-    "name": "Castilian",
-    "i": 234,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Badajoz,Mâ”œâŒrida,Câ”œÃ­ceres,Plasencia,Don Benito,Villanueva de la Serena,Zafra,Almendralejo,Trujillo,Navalmoral de la Mata,Olivenza,Jerez de los Caballeros"
-  },
-  {
     "name": "Castrapo",
     "i": 235,
     "min": 4,
@@ -574,24 +565,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Abaza,Cherkessk,Karachay,Cherkessia,Elbrus,Teberda,Dombay,Khasaut,Khabez,Ust-Dzheguta,Zelenchuk,Arkhyz,CherkessiaElbrus"
-  },
-  {
-    "name": "Abkhaz",
-    "i": 301,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Sukhumi,Gagra,Gudauta,Pitsunda,Ochamchira,Tkvarcheli,Gal,New Athos,Bzyb,Apsny,Lykhny,Kodor,SukhumiApsny,GagraLykhny,KodorBzyb,PitsundaApsny"
-  },
-  {
-    "name": "Adyghe",
-    "i": 302,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Maykop,Adygeya,Enem,Tulsky,Khanskaya,Koshekhabl,Giaginskaya,Shovgenovsky,Teuchezhsky,Psebay,Laba,Afips,MaykopAdygeya,LabaAfips"
   },
   {
     "name": "Bzyb",

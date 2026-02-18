@@ -2736,15 +2736,6 @@
     "b": "Doko,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
   },
   {
-    "name": "Dongo",
-    "i": 1712,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Dongo,Bunia,DR Congo,Central Africa,Lake Albert"
-  },
-  {
     "name": "Douiret language",
     "i": 1716,
     "min": 4,
@@ -3814,24 +3805,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "-SelÃƒÂ¨,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
-  },
-  {
-    "name": "African Romance",
-    "i": 2360,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Carthage,Leptis Magna,Thysdrus,Sabratha,Hippo Regius,Setif,DjÃƒÂ©mila,Timgad"
-  },
-  {
-    "name": "Afrikaans",
-    "i": 2361,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cape Town,Pretoria,Johannesburg,Durban,Port Elizabeth,Bloemfontein,Pietermaritzburg"
   },
   {
     "name": "Laal",

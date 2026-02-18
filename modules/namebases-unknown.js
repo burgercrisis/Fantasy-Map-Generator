@@ -3663,15 +3663,6 @@
     "b": "Buyeo,Pyongyang,Seoul,Gaeseong,Busan,North Korea,South Korea,Korean Peninsula"
   },
   {
-    "name": "Chol",
-    "i": 1412,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chol,TumbalÃ¡,Palenque,CatazajÃ¡,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
-  },
-  {
     "name": "Cahuilla",
     "i": 1417,
     "min": 4,
@@ -5769,15 +5760,6 @@
     "b": "Laoag,Vigan,Candon,Batac,San Fernando,Agoo,Bangued,Narvacan,Tagudin,Sinait"
   },
   {
-    "name": "Ingush",
-    "i": 1948,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Magas,Nazran,Sunzha,Karabulak,Malgobek,Ekazhevo,Kantyshevo,Pliyevo,Surkhakhi,Yandare"
-  },
-  {
     "name": "Insular Estonian",
     "i": 1950,
     "min": 4,
@@ -5940,15 +5922,6 @@
     "b": "Kalpetta,Mananthavady,Sulthan Bathery,Vythiri,Meppadi,Pozhuthana,Muttil,Ambalavayal,Nenmeni,Noolpuzha,Pulpally,Mullankolly"
   },
   {
-    "name": "Italian Eritrean",
-    "i": 1985,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Asmara,Massawa,Keren,Mendefera,Dekemhare,Adi Keyh,Barentu,Assab,Ghinda,Segeneiti"
-  },
-  {
     "name": "Itelmen",
     "i": 1987,
     "min": 4,
@@ -5958,15 +5931,6 @@
     "b": "Tigil,Kovran,Khairyuzovo,Ust-Khairyuzovo,Sedanka,Belogolovoye,Moroshechnoye,Utkholok,Napana"
   },
   {
-    "name": "Itza",
-    "i": 1988,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San JosÃ©,Flores,Santa Elena,San Benito,SayaxchÃ©,PoptÃºn,Melchor de Mencos,La Libertad,Dolores,San Luis"
-  },
-  {
     "name": "Iu Mien",
     "i": 1989,
     "min": 4,
@@ -5974,24 +5938,6 @@
     "d": "nic-GH",
     "m": 0,
     "b": "Luang Namtha,Phongsali,Nan,Chiang Rai,Ha Giang,Lao Cai,Jinxiu,Lipu,Mengla,Jinghong"
-  },
-  {
-    "name": "Izhma",
-    "i": 1990,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Izhma,Ust-Tsilma,Pechora,Inta,Usinsk,Sosnogorsk,Ukhta,Syktyvkar,Vorkuta,Emva"
-  },
-  {
-    "name": "Joseon Korean Early Modern",
-    "i": 1991,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju"
   },
   {
     "name": "Joseon Korean Middle",
@@ -8476,15 +8422,6 @@
     "d": "lnrt",
     "m": 0,
     "b": "Istanbul,Sofia,Thessaloniki,Sarajevo,Belgrade,Bucharest,Alexandria,Cairo,Tangier,Fez,Marrakesh,Jerusalem,Tel Aviv,Safed,Tiberias,Haifa,Acre,Gaza,Jaffa,Ramla"
-  },
-  {
-    "name": "Chechen",
-    "i": 2629,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Grozny,Urus-Martan,Shali,Argun,Gudermes,Kurchaloy,Nozhay-Yurt,Shelkovskaya,Naurskaya,Znamenskoye,Staraya Sunzha,Sernovodskoye,Itum-Kale,Vedeno,Shatoy,Dishni,VedenoTown"
   },
   {
     "name": "Ingush",

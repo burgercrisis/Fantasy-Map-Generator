@@ -2169,15 +2169,6 @@
     "b": "Kerema,Malalaua,Ihu,Baimuru,Kikori,Purari,Vailala,Murua,Orokolo,Toaripi,Eleman,Kamea"
   },
   {
-    "name": "Kiribati",
-    "i": 2236,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tarawa,Butaritari,Makin,Abaiang,Marakei,Maiana,Abemama,Kuria,Aranuka,Nonouti,Tabiteuea,Beru"
-  },
-  {
     "name": "Kiwai",
     "i": 2238,
     "min": 4,
