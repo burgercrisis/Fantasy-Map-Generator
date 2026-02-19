@@ -29,17 +29,8 @@ window.southAmericaNameBases = [
     "b": "Porto Velho,Ji-Paranâ”œÃ­,Cacoal,Vilhena,Guajarâ”œÃ­-Mirim,Ariquemes,Humaitâ”œÃ­,Altamira,Santarâ”œâŒm,Itaituba,Marabâ”œÃ­,Araguaâ”œÂ¡na,Palmas,Aracaju,Propriâ”œÃ­,Penedo,Paulo Afonso,Delmiro Gouveia"
   },
   {
-    "name": "Huave",
-    "i": 49,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "San Mateo del Mar,San Dionisio del Mar,San Francisco del Mar,Santa Maria del Mar,Tehuantepec,Santo Domingo Tehuantepec,Salina Cruz,Juchitan de Zaragoza,Juchitan,Union Hidalgo,San Blas Atempa,San Pedro Huamelula,San Pedro Tapanatepec,Chahuites,San Francisco Ixhuatan,Asuncion Ixtaltepec,Matias Romero,Tonala,Arriaga"
-  },
-  {
     "name": "Shipibo-Conibo Amazonian",
-    "i": 62,
+    "i": 50011,
     "min": 4,
     "max": 12,
     "d": "nic-GH",
@@ -66,7 +57,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Kallawaya",
-    "i": 67,
+    "i": 50042,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -75,7 +66,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Chilean Spanish",
-    "i": 69,
+    "i": 50015,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -93,7 +84,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Awakatek",
-    "i": 75,
+    "i": 50016,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -183,7 +174,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Chiquitano",
-    "i": 628,
+    "i": 50043,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -237,7 +228,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Mineiro",
-    "i": 893,
+    "i": 50044,
     "min": 4,
     "max": 11,
     "d": "pt-BR",
@@ -444,7 +435,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Uruguayan Spanish",
-    "i": 1857,
+    "i": 50029,
     "min": 4,
     "max": 11,
     "d": "es-UY",
@@ -552,7 +543,7 @@ window.southAmericaNameBases = [
   },
   {
     "name": "Arawak",
-    "i": 2622,
+    "i": 50045,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1935,5 +1926,14 @@ window.southAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Fulni-ô,Águas Belas,Palmares,Pedra,Ouricuri,Caruaru,Recife,Pernambuco,Brazil"
+  },
+  {
+    "name": "Huave",
+    "i": 50001,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "San Mateo del Mar,San Dionisio del Mar,San Francisco del Mar,Santa Maria del Mar,Tehuantepec,Santo Domingo Tehuantepec,Salina Cruz,Juchitan de Zaragoza,Juchitan,Union Hidalgo,San Blas Atempa,San Pedro Huamelula,San Pedro Tapanatepec,Chahuites,San Francisco Ixhuatan,Asuncion Ixtaltepec,Matias Romero,Tonala,Arriaga"
   }
 ];

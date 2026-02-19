@@ -2,7 +2,7 @@
 
 BY CONTINENT:
   Africa: 497
-  Asia: 764
+  Asia: 756
   Europe: 536
   NorthAmerica: 76
   SouthAmerica: 215
@@ -12,11 +12,11 @@ BY CONTINENT:
 BY BASE SIZE CATEGORY:
   large: 69
   normal: 153
-  small: 2148
+  small: 2140
 
 BY QUALITY SCORE:
-  Excellent (95+): 2322
-  Good (80-94): 48
+  Excellent (95+): 2362
+  Good (80-94): 0
   Fair (60-79): 0
   Poor (40-59): 0
   Critical (<40): 0
@@ -25,4 +25,4 @@ CRITICAL ISSUES:
   Placeholders: 0
   Primus entries: 0
   Suspicious names: 0
-  Index/name collisions: 48
+  Index/name collisions: 0

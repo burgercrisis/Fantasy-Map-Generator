@@ -102,7 +102,7 @@ window.africaNameBases = [
   },
   {
     "name": "Ju/'hoan Click",
-    "i": 47,
+    "i": 50010,
     "min": 3,
     "max": 9,
     "d": "lnrtkxgms",
@@ -119,15 +119,6 @@ window.africaNameBases = [
     "b": "Lake Eyasi,Yaeda Valley,Baray,Mangola,Karatu,Oldeani,Buger,Daa,Endabash,Endamaghang,Endamarariek,Ganako,Kansay,Mbulumbulu,Qurus,Rhotia,Eyasi Cliff,Kidero Mountains,Serengeti Plateau,Oldeani Mountain,Sibiti River,Baray River,Makang'wa"
   },
   {
-    "name": "Sandawe Click",
-    "i": 49,
-    "min": 3,
-    "max": 9,
-    "d": "lnrtkxgms",
-    "m": 0,
-    "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Sandawe,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela"
-  },
-  {
     "name": "Bemba-Bembe-Fwe",
     "i": 62,
     "min": 5,
@@ -138,7 +129,7 @@ window.africaNameBases = [
   },
   {
     "name": "Berta-Besme",
-    "i": 63,
+    "i": 50012,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -147,7 +138,7 @@ window.africaNameBases = [
   },
   {
     "name": "Omaio-Shabo-Seze",
-    "i": 64,
+    "i": 50013,
     "min": 5,
     "max": 11,
     "d": "nic-GH",
@@ -156,7 +147,7 @@ window.africaNameBases = [
   },
   {
     "name": "Mandara Chadic",
-    "i": 67,
+    "i": 50014,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -219,7 +210,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bura",
-    "i": 236,
+    "i": 50017,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -228,7 +219,7 @@ window.africaNameBases = [
   },
   {
     "name": "Bure",
-    "i": 237,
+    "i": 50018,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -237,7 +228,7 @@ window.africaNameBases = [
   },
   {
     "name": "Buwal",
-    "i": 238,
+    "i": 50019,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -246,7 +237,7 @@ window.africaNameBases = [
   },
   {
     "name": "Cakfem-Mushere",
-    "i": 239,
+    "i": 50020,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -381,7 +372,7 @@ window.africaNameBases = [
   },
   {
     "name": "Equatoguinean Spanish",
-    "i": 422,
+    "i": 50021,
     "min": 4,
     "max": 11,
     "d": "es-GQ",
@@ -588,7 +579,7 @@ window.africaNameBases = [
   },
   {
     "name": "Saba",
-    "i": 628,
+    "i": 50022,
     "min": 4,
     "max": 11,
     "d": "cdc-TD",
@@ -1308,7 +1299,7 @@ window.africaNameBases = [
   },
   {
     "name": "Auyokawa language",
-    "i": 893,
+    "i": 50025,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -4473,5 +4464,14 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Beba,Benakuma,Menchum,Bamenda,Mbekunyam,Nsoka,Muala,Mbamba,Shisong,Fombi,Agah,Ntamecheh,Widikum"
+  },
+  {
+    "name": "Sandawe Click",
+    "i": 50002,
+    "min": 3,
+    "max": 9,
+    "d": "lnrtkxgms",
+    "m": 0,
+    "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Sandawe,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela"
   }
 ];

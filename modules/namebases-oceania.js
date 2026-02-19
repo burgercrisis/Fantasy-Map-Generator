@@ -660,7 +660,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Aimele",
-    "i": 788,
+    "i": 50023,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -678,7 +678,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Arafundi-Enga Pidgin",
-    "i": 800,
+    "i": 50024,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -705,7 +705,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Aneme-Wake",
-    "i": 914,
+    "i": 50026,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1344,7 +1344,7 @@ window.oceaniaNameBases = [
   },
   {
     "name": "Fuyug",
-    "i": 1856,
+    "i": 50028,
     "min": 4,
     "max": 11,
     "d": "nic-GH",

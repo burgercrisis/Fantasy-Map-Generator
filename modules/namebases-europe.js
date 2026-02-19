@@ -4269,7 +4269,7 @@ window.europeNameBases = [
   },
   {
     "name": "Aromanian",
-    "i": 2435,
+    "i": 50030,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -4278,7 +4278,7 @@ window.europeNameBases = [
   },
   {
     "name": "Megleno-Romanian",
-    "i": 2436,
+    "i": 50031,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -4287,7 +4287,7 @@ window.europeNameBases = [
   },
   {
     "name": "Istro-Romanian",
-    "i": 2437,
+    "i": 50032,
     "min": 5,
     "max": 12,
     "d": "lnrt",
@@ -4332,7 +4332,7 @@ window.europeNameBases = [
   },
   {
     "name": "Ladino",
-    "i": 2622,
+    "i": 50035,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -4592,17 +4592,8 @@ window.europeNameBases = [
     "b": "Älvdalen,Idre,Särna,Västermyckeläng,Storvätteshågna,Fulufjället,Töfsingdalen,Rättvik,Brunnsberg,Evertsberg,Klitten,Åsen,Väsa,Mora,Leksand,Borlänge,Falun,Västerås,Avesta,Ludvika,Ängelholm,Helsingborg,Landskrona,Malmö,Lund,Halmstad,Falkenberg,Varberg,Kungsbacka,Höör,Eslöv,Ystad,Trelleborg,Kristianstad,Hässleholm,Osby,Olofström,Karlskrona,Ronneby,Karlshamn,Sölvesborg,Ljungby,Ljungbyhed"
   },
   {
-    "name": "Swedish",
-    "i": 2703,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Stockholm,Gothenburg,Malmö,Uppsala,Västerås,Örebro,Linköping,Växjö,Kalmar,Lund,Ystad,Kiruna"
-  },
-  {
     "name": "Latvian",
-    "i": 2704,
+    "i": 50036,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -4611,7 +4602,7 @@ window.europeNameBases = [
   },
   {
     "name": "Lithuanian",
-    "i": 2705,
+    "i": 50037,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -4620,7 +4611,7 @@ window.europeNameBases = [
   },
   {
     "name": "Breton",
-    "i": 2706,
+    "i": 50038,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -4629,7 +4620,7 @@ window.europeNameBases = [
   },
   {
     "name": "Cornish",
-    "i": 2707,
+    "i": 50039,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -4655,26 +4646,8 @@ window.europeNameBases = [
     "b": "Moscow,Saint Petersburg,Novosibirsk,Yekaterinburg,Kazan,Nizhny Novgorod,Chelyabinsk,Omsk,Samara,Rostov,Ufa,Krasnoyarsk,Perm,Voronezh,Volgograd"
   },
   {
-    "name": "Rusyn",
-    "i": 2712,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Uzhhorod,Mukachevo,Khust,Berehove,Svalyava,Rakhiv,Tyachiv,Irshava,Vynohradiv,Snina,Medzilaborce,Stará Ľubovňa,Bardejov,Svidník,Prešov,Košice,Humenné,Michalovce,Vranov nad Topľou,Levoča,Kežmarok,Spišská Nová Ves,Poprad"
-  },
-  {
-    "name": "Belarusian",
-    "i": 2713,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Baranovichi,Borisov,Pinsk,Orsha,Mazyr,Lida,Slutsk,Kobryn,Molodechno,Rechytsa"
-  },
-  {
     "name": "Czech",
-    "i": 2714,
+    "i": 50040,
     "min": 4,
     "max": 11,
     "d": "lnrt",
@@ -4824,5 +4797,32 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Stirling,Perth,Ayr,Kilmarnock,Greenock,Paisley,Falkirk,Cumbernauld,Dunfermline,Kirkcaldy"
+  },
+  {
+    "name": "Swedish",
+    "i": 50005,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Stockholm,Gothenburg,Malmö,Uppsala,Västerås,Örebro,Linköping,Växjö,Kalmar,Lund,Ystad,Kiruna"
+  },
+  {
+    "name": "Rusyn",
+    "i": 50006,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Uzhhorod,Mukachevo,Khust,Berehove,Svalyava,Rakhiv,Tyachiv,Irshava,Vynohradiv,Snina,Medzilaborce,Stará Ľubovňa,Bardejov,Svidník,Prešov,Košice,Humenné,Michalovce,Vranov nad Topľou,Levoča,Kežmarok,Spišská Nová Ves,Poprad"
+  },
+  {
+    "name": "Belarusian",
+    "i": 50007,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Baranovichi,Borisov,Pinsk,Orsha,Mazyr,Lida,Slutsk,Kobryn,Molodechno,Rechytsa"
   }
 ];

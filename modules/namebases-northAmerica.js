@@ -587,15 +587,6 @@ window.northAmericaNameBases = [
     "b": "Chisasibi,Wemindji,Waskaganish,Whapmagoostui,Eastmain,Waswanipi,Mistissini,Nemaska,Ouje-Bougoumou,Moose Factory,Moosonee,Attawapiskat,Kashechewan,Fort Albany,Peawanuck,Wabowden,Norway House,Cross Lake,Pukatawagan,The Pas,La Ronge,Pelican Narrows,Sandy Bay,Opaskwayak,Deschambault,Misipawistik,Thompson,Ochapowace,Kahkewistahaw,Red Earth"
   },
   {
-    "name": "Ojibwe",
-    "i": 2702,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sagkeeng,Wikwemikong,Manitoulin,Garden River,Batchewana,Sheshegwaning,Serpent River,Temagami,Nipissing,Dokis,Alderville,Curve Lake,Hiawatha,Beausoleil,Rama,Georgina Island,Saugeen,Nawash,Saugeen Shores,Whitefish River,Atikameksheng,Mississauga,Couchiching,Rainy River,Lake of the Woods,Lac Seul,Lac La Croix,Mille Lacs,Red Lake,Grand Portage"
-  },
-  {
     "name": "Cherokee",
     "i": 2703,
     "min": 4,
@@ -633,7 +624,7 @@ window.northAmericaNameBases = [
   },
   {
     "name": "Mohawk",
-    "i": 2707,
+    "i": 50041,
     "min": 4,
     "max": 12,
     "d": "lnrt",
@@ -684,5 +675,14 @@ window.northAmericaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Panniqtuuq,Igloolik,Pond Inlet,Cape Dorset,Naujaat,Whale Cove,Coral Harbour,Repulse Bay,Chesterfield Inlet,Kimmirut,Clyde River,Resolute,Grise Fiord,Pangnirtung,Qikiqtarjuaq,Hall Beach"
+  },
+  {
+    "name": "Ojibwe",
+    "i": 50004,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sagkeeng,Wikwemikong,Manitoulin,Garden River,Batchewana,Sheshegwaning,Serpent River,Temagami,Nipissing,Dokis,Alderville,Curve Lake,Hiawatha,Beausoleil,Rama,Georgina Island,Saugeen,Nawash,Saugeen Shores,Whitefish River,Atikameksheng,Mississauga,Couchiching,Rainy River,Lake of the Woods,Lac Seul,Lac La Croix,Mille Lacs,Red Lake,Grand Portage"
   }
 ];
