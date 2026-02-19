@@ -1793,15 +1793,6 @@ window.southAmericaNameBases = [
     "b": "Guyanese,Creole,Georgetown,Bartica,Lethem,Corentyne,Guyana,South America"
   },
   {
-    "name": "Iñupiaq",
-    "i": 13194,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "UtqiaÄ¡vik,Kotzebue,Point Hope,Noorvik,Selawik,Wainwright,Kivalina,Buckland,Kiana,Ambler"
-  },
-  {
     "name": "Inuvialuktun",
     "i": 13195,
     "min": 4,
@@ -1921,15 +1912,6 @@ window.southAmericaNameBases = [
   {
     "name": "Língua Geral Paulista",
     "i": 13927,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "São Paulo,Campinas,São Bernardo do Campo,Santo André,São José dos Campos,Sorocaba,Santos,Osasco,Ribeirão Preto,São José do Rio Preto"
-  },
-  {
-    "name": "Língua Geral Paulista",
-    "i": 14013,
     "min": 4,
     "max": 11,
     "d": "nic-GH",

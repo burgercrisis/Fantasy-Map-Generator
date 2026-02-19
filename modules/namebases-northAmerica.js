@@ -422,7 +422,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "UtqiaÄ¡vik,Kotzebue,Point Hope,Noorvik,Selawik,Wainwright,Kivalina,Buckland,Kiana,Ambler"
+    "b": "Utqiagvik,Kaktovik,Nuiqsut,Atqasuk,Wainwright,Point Hope,Point Lay,Anaktuvuk Pass,Kivalina,Noatak,Kotzebue,Selawik,Noorvik,Kiana,Ambler,Shungnak,Kobuk,Buckland,Deering,Wales,Shishmaref,Brevig Mission,Teller,Nome,Golovin,White Mountain,Elim,Koyuk,Shaktoolik,Unalakleet,Stebbins,St. Michael,Savoonga,Gambell,Diomede,Tin City,Little Diomede,Wainwright Inlet,Peard Bay,Kukpowruk River,Jewel Creek"
   },
   {
     "name": "Isthmus Zapotec",

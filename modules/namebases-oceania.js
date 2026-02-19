@@ -1100,15 +1100,6 @@ window.oceaniaNameBases = [
     "b": "Densar,Kisangani,Bukavu,DR Congo,Central Africa,Lake Kivu"
   },
   {
-    "name": "Chimbu",
-    "i": 1695,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chimbu,Kundiawa,Papua New Guinea,Chimbu Province,Highlands Region,Oceania"
-  },
-  {
     "name": "Dima",
     "i": 1701,
     "min": 4,
@@ -1181,15 +1172,6 @@ window.oceaniaNameBases = [
     "b": "Ekari,Papua New Guinea,Enga Province,Western Highlands,Oceania"
   },
   {
-    "name": "Edolo",
-    "i": 1764,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Edolo,Edo State,Benin City,Nigeria,South South,Niger Delta,West Africa"
-  },
-  {
     "name": "Enga",
     "i": 1767,
     "min": 4,
@@ -1242,42 +1224,6 @@ window.oceaniaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Lospalos,Baucau,Tutuala,Fatularu,Iliomar,Ossu,LautÃ©m,Timor-Leste,Timor Island,Oceania"
-  },
-  {
-    "name": "Dom",
-    "i": 1796,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Mubi,Bama,Gombi,Uba,Maiha,Adamawa State,Nigeria,North East,West Africa"
-  },
-  {
-    "name": "Domu",
-    "i": 1797,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Domu,Morobe Province,Bulolo,Lae,Wau,Papua New Guinea,Highlands Region,Oceania"
-  },
-  {
-    "name": "Dima",
-    "i": 1804,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Yola,Jalingo,Gongola,Muri,Mubi,Adamawa State,Nigeria,North East,West Africa"
-  },
-  {
-    "name": "Doromu",
-    "i": 1808,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Doromu,Kundiawa,Mawatobo,Yombi,Papua New Guinea,Chimbu Province,Eastern Highlands,Oceania"
   },
   {
     "name": "Eibela",
@@ -2153,51 +2099,6 @@ window.oceaniaNameBases = [
     "b": "Kehu,West-Papua,Nabire,Enarotali,Moanemani,Mapia,Siriwo,Uwapa,Wanggar,Yaur,Teluk-Etna,Kaimana"
   },
   {
-    "name": "Agarabi",
-    "i": 2207,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kainantu,Yonki,Aiyura,Punano,Agarabi,Obura,Wonenara,Arona,Kassam,Barola,Henganofi,Okapa"
-  },
-  {
-    "name": "Aghu",
-    "i": 2209,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bade,Tanah Merah,Mappi,Kepi,Assue,Citak Mitak,Kaibar,Bamgi,Yaqai,Yenimyana,Marind,Okaba"
-  },
-  {
-    "name": "Aimele",
-    "i": 2215,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Lake Murray,Boboa,Pukaduka,Miwa,Kaim,Kuse,Pari,Aim,Ele,Bosavi,Nomad,Kiunga"
-  },
-  {
-    "name": "Nataoran",
-    "i": 2218,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Hualien,Ji'an,Shoufeng,Fenglin,Guangfu,Ruisui,Yuli,Fuli,Xincheng,Xiulin,Wanrong,Zhuoxi"
-  },
-  {
-    "name": "Akoye",
-    "i": 2226,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Kerema,Malalaua,Ihu,Baimuru,Kikori,Purari,Vailala,Murua,Orokolo,Toaripi,Eleman,Kamea"
-  },
-  {
     "name": "Kiwai",
     "i": 2238,
     "min": 4,
@@ -2369,15 +2270,6 @@ window.oceaniaNameBases = [
     "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
   },
   {
-    "name": "Kyaka",
-    "i": 2388,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Goroka,Kainantu,Kundiawa,Mendi,Mt Hagen,Wabag,Chimbu,Jiwaka,Hela,Enga"
-  },
-  {
     "name": "Laua",
     "i": 2407,
     "min": 4,
@@ -2439,15 +2331,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Suva,Nausori,Nadi,Lautoka,Ba,Tavua,Rakiraki,Labasa,Savusavu,Taveuni,Sigatoka,Navua,Levuka,Seaqaqa,Nabouwalu,Nailaga,Keiyasi,Korolevu,Malolo,Lomawai,Nausori Highlands,Nasinu,Lami,Kinoya,Nakasi,Rewa,Nailaga Village,Cuvu,Naweni,Vatutavui"
-  },
-  {
-    "name": "Nauruan",
-    "i": 2685,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren,nau_20215_u1,nau_20215_u2,nau_20215_u3,nau_20215_u4,nau_20215_u5,nau_20215_u6,nau_20215_u7,nau_20215_u8,nau_20215_u9,nau_20215_u10"
   },
   {
     "name": "Awa",

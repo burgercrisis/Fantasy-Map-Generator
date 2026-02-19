@@ -2054,15 +2054,6 @@ window.africaNameBases = [
     "b": "Boor,Murle,Dinka,Nuer,Anuak,Bari,Luo,Acholi,Madi,Shilluk"
   },
   {
-    "name": "Bole",
-    "i": 1316,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bole,Kirfi,Shira,Bi,Yashi,Zari,Kariya,Boghom,Mahamuda,Warji,Saya,Ningi"
-  },
-  {
     "name": "Binza",
     "i": 1320,
     "min": 4,
@@ -2232,15 +2223,6 @@ window.africaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Boon,Somalia,Mogadishu,Kismayo,Marka,Baidoa,Jowhar,Balad,Beledweyne,Galguduud,Hiran,Shabelle"
-  },
-  {
-    "name": "Wushi",
-    "i": 1373,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wushi,Kofyar,Mangu,Lantang,Nembe,Akwanga,Bassa,Jos,Kaduna,Plateau State,Nigeria"
   },
   {
     "name": "Budza",
@@ -2547,24 +2529,6 @@ window.africaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Chakato,Addis Ababa,Bahir Dar,Gondar,Mekelle,Dessie,Adama,Hawassa,Jimma,Hosaena,Butajira,Wolkite,Emdibir,Arba Minch,Awasa,Kombolcha,Debre Birhan,Debre Tabor,Majete,Wukro"
-  },
-  {
-    "name": "Chaha",
-    "i": 1540,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Muhur Na Aklil,Abeshge,Kebena,Ezha,Muher,Soddo,Kibet,Goro,Arekit,Geta,Gumer Bosa,Welene"
-  },
-  {
-    "name": "Chakato language",
-    "i": 1541,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Chakato,Addis Abeba,Adama,Nazret,Dire Dawa,Bahir Dar,Gondar,Mekelle,Dessie,Jimma,Hosaena,Arba Minch,Awassa,Butajira,Wolkite,Emdibir,Sodo,Arekit,Agena,Chaha"
   },
   {
     "name": "Fut",
@@ -3033,24 +2997,6 @@ window.africaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "N'Djamena,Moundou,Sarh,AbÃ©chÃ©,Doba,Bongor,KoussÃ©ri,Goz BeÃ¯da,Pala,Mongo,Ati,Bokoro,Bol,Lai,Oum Hadjer,Kelo,Yao,BardaÃ¯,Fada,Ennedi,Faya-Largeau,Mboursou LÃ©rÃ©,Mao,Bebaya,BÃ©boto,BÃ©bÃ©djia"
-  },
-  {
-    "name": "Ebira",
-    "i": 1763,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Ebira,Okene,Auchi,Benin,Edo State,Edo,Delta State,Nigeria,North Central,West Africa"
-  },
-  {
-    "name": "East Zenati",
-    "i": 1771,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "East Zenati,Annaba,Constantine,Skikda,Algeria,Northeast Africa,Mediterranean"
   },
   {
     "name": "Esimbi",
@@ -3620,15 +3566,6 @@ window.africaNameBases = [
     "b": "Asmara,Massawa,Keren,Assab,Mendefera,Barentu,Adi Keyh,Edd,Ghinda,Dekemhare,Segeneiti,Senafe,Teseney,Agordat"
   },
   {
-    "name": "Tidikelt Berber",
-    "i": 2051,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "In Salah,Foggaret Ezzaouia,In Ghar,Tit,Akabli,Aoulef,Reggane,Timimoun,El Golea,Ghardaia,El Guerrara,Metlili"
-  },
-  {
     "name": "Tuareg Berber",
     "i": 2052,
     "min": 4,
@@ -3737,15 +3674,6 @@ window.africaNameBases = [
     "b": "Maiduguri,Dikwa,Ngala,Bama,Monguno,Kukawa,Gubio,Magumeri,Konduga,Mafa"
   },
   {
-    "name": "Afroasiatic family",
-    "i": 2150,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Riyadh,Addis-Ababa,Algiers,Casablanca,Khartoum,Mogadishu,Tunis,Tripoli,Beirut,Amman,Sanaa"
-  },
-  {
     "name": "Angas family",
     "i": 2152,
     "min": 4,
@@ -3789,42 +3717,6 @@ window.africaNameBases = [
     "d": "nic-GH",
     "m": 0,
     "b": "Bujumbura,Gitega,Ngozi,Rumonge,Kayanza,Muyinga,Bubanza,Bururi,Cankuzo,Cibitoke,Karuzi,Kirundo"
-  },
-  {
-    "name": "Agaw",
-    "i": 2208,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Injibara,Dangila,Chagni,Kosober,Guangua,Banja,Faggeta Lekoma,Sekota,Lalibela,Wag Hemra,Keren,Hagaz"
-  },
-  {
-    "name": "Air Tamajeq language",
-    "i": 2217,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Agadez,Arlit,Bilma,Iferouane,Tchirozerine,In-Gall,Tabelot,Timia,Aderbissinat,Gougaram,Dabaga,Assasas"
-  },
-  {
-    "name": "Ait Seghrouchen Berber",
-    "i": 2219,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Taza,Sefrou,Boulemane,Missour,Outat El Haj,Guercif,Ahermoumou,Skoura,Marmoucha,Enjil,El Menzel,Ribat El Kheir"
-  },
-  {
-    "name": "Ajawa language",
-    "i": 2221,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Bauchi,Misau,Katagum,Azare,Jama'are,Ningi,Dass,Tafawa Balewa,Toro,Alkaleri,Kirfi,Bogoro"
   },
   {
     "name": "Kituba",
@@ -3995,16 +3887,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cairo,Baghdad,Damascus,Jeddah,Riyadh,Sanaa,Khartoum,Tripoli"
-  },
-  {
-    "name": "Laal",
-    "i": 2395,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Doba,Moyen-Chari,Logone,Chari,LaÃƒÂ¯,Mandoul,Mayo-Kebbi,Salamat,GuÃƒÂ©ra,KÃƒÂ©mo"
+    "b": "Cairo,Alexandria,Baghdad,Riyadh,Amman,Damascus,Beirut,Jerusalem,Marrakech,Casablanca,Fes,Algiers,Tunis,Tripoli,Addis Ababa,Khartoum,Sanaa,Abu Dhabi,Doha,Muscat,Ndjamena,Nouakchott,Djibouti,Asmara,Omdurman,Jeddah,Mecca,Medina,Basra,Mosul,Aleppo,Irbid,Aqaba,Nablus,Gaza,Haifa,Tel Aviv,Jericho,Bethlehem,Hebron,Ramallah,Sfax,Sousse,Tangier,Meknes,Oujda,Constantine,Oran,Benghazi,Misrata,Juba,Aswan,Luxor,Port Said,Suez,Ismailia"
   },
   {
     "name": "Liberian Kreyol",
@@ -4464,15 +4347,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bangui,Bimbo,Berberati,Bambari,Bouar,Bossangoa,Bozoum,Bangassou,Bria,Kaga Bandoro,Mbaiki,Sibut,Paoua,Nola,Boda,Ippy,Alindao,Obo,Carnot,Ndele"
-  },
-  {
-    "name": "Fon",
-    "i": 2661,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cotonou,Porto-Novo,Abomey,Abomey-Calavi,Bohicon,Ouidah,Allada,Lokossa,Dogbo,Com?,Dassa-Zoume,Parakou,Savalou,Kandi,Natitingou,Save,Bante,Glazoue,Bembereke,Nikki"
   },
   {
     "name": "Amira",

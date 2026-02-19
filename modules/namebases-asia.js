@@ -4988,15 +4988,6 @@ window.asiaNameBases = [
     "b": "Gongdue,Panbang,Tingtibi,Zhemgang,Buli,Nangkor,Goshing,Bjoka,Sonamthang,Trong,Dakpai,Kheng,Bardo,Sharley,Gelephu,Sarpang,Umling,Chisopani,Chhuzargang,Gelephug,Yebilaptsa,Goling,Mamung,Praling,Langdurbi,BuliGaun,Neyling,Kaktong,Phangkhar,Phumthang"
   },
   {
-    "name": "Afroasiatic",
-    "i": 2150,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Riyadh,Addis-Ababa,Algiers,Casablanca,Khartoum,Mogadishu,Tunis,Tripoli,Beirut,Amman,Sanaa"
-  },
-  {
     "name": "Aslian languages",
     "i": 2155,
     "min": 4,
