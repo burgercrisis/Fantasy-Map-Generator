@@ -2450,7 +2450,7 @@ window.oceaniaNameBases = [
     "b": "Aiwo,Anabar,Anetan,Anibare,Baiti,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren,nau_20215_u1,nau_20215_u2,nau_20215_u3,nau_20215_u4,nau_20215_u5,nau_20215_u6,nau_20215_u7,nau_20215_u8,nau_20215_u9,nau_20215_u10"
   },
   {
-    "name": "Awa (dedicated)",
+    "name": "Awa",
     "i": 2734,
     "min": 4,
     "max": 11,
@@ -2459,7 +2459,7 @@ window.oceaniaNameBases = [
     "b": "Wewak,Aitape,Vanimo,Lumi,Tabulam,Samok,Bongu,Tingelin,Saragosa,Maprik,Wamrong,Yapsiei"
   },
   {
-    "name": "Awbono (dedicated)",
+    "name": "Awbono",
     "i": 2736,
     "min": 4,
     "max": 11,
@@ -2468,7 +2468,7 @@ window.oceaniaNameBases = [
     "b": "Port Moresby,Lae,Mount Hagen,Madang,Wewak,Goroka,Ramu,Sepik,Baining,Whitsunday,Kokoda,Mendi,Kikori,Daru,Kiunga"
   },
   {
-    "name": "Awin (dedicated)",
+    "name": "Awin",
     "i": 2737,
     "min": 4,
     "max": 11,
@@ -2477,7 +2477,7 @@ window.oceaniaNameBases = [
     "b": "Amanab,Vanimo,Lumi,Mapor,Kamanak,Yalog,Yapsiei,Kavis,Tali,Wamira,Mul,Bongwis,Kwangga,Wakisa,Yaram,Sawata,Yelogu,Mawase,Komiat,Ari,Yamit,Dusun,Malu,Balup,Sel,Tamit,Poru,Yakum,Wogam,Yamatom,Yapimaka,Kiunga,Tabubil,Daru,Kikori,Mendi,Balimo,Oriomo,Weam,Wabo,Kwikila,Kokoda,Wewak,Goroka,Madang,Lae,Mount Hagen"
   },
   {
-    "name": "Beami (dedicated)",
+    "name": "Beami",
     "i": 2741,
     "min": 4,
     "max": 11,
@@ -2549,7 +2549,7 @@ window.oceaniaNameBases = [
     "b": "Avarua,Takuvaine,Matavera,Ngatangiia,Nikao,Tupapa,Aitutaki,Atiu,Mitiaro,Mauke,Titikaveka,Avatiu,Arutanga,Amuri,Areora,Teenui,Tengatangi,Tukao,Omoka,Oneroa,Pukapuka"
   },
   {
-    "name": "Pintupi (dedicated)",
+    "name": "Pintupi",
     "i": 20077,
     "min": 4,
     "max": 12,

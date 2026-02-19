@@ -1946,39 +1946,12 @@ window.southAmericaNameBases = [
     "b": "Guadalajara,Monterrey,Puebla,Tijuana,León,Juárez,Torreón,Querétaro,San Luis Potosí,Mérida,Aguascalientes,Cuernavaca,Saltillo,Hermosillo,Culiacán,Durango,Tampico,Morelia,Reynosa,Toluca,Chihuahua,Acapulco,Tlaxcala,Pachuca,Cancún,Veracruz,Villahermosa,Tuxtla,Oaxaca,Campeche"
   },
   {
-    "name": "Fulnio (dedicated)",
+    "name": "Fulnio",
     "i": 20190,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
     "b": "Fulni-ô,Águas Belas,Palmares,Pedra,Ouricuri,Caruaru,Recife,Pernambuco,Brazil"
-  },
-  {
-    "name": "Itonama (dedicated)",
-    "i": 20191,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Itonama,Magdalena,Beni,Mamoré,Trinidad,Santa Cruz de la Sierra,Bolivia,Ben River,Amazon Basin,Mamoré River"
-  },
-  {
-    "name": "Leco (dedicated)",
-    "i": 20192,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Leco,Apolo,Apolo Province,La Paz,Bolivia,Amazon Basin,Madre de Dios,Peru,Beni River"
-  },
-  {
-    "name": "Nivaclé (dedicated)",
-    "i": 20193,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Filadelfia,Loma Plata,Neuland,Mariscal Estigarribia,Teniente Irala Fernandez,Pozo Hondo,Fortin Boqueron,Villa Hayes,Chaco,Pilcomayo,Paraguay,Presidente Hayes"
   }
 ];

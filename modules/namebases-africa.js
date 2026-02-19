@@ -767,105 +767,6 @@ window.africaNameBases = [
     "b": "Biltine,Arada,Iriba,Guereda,Am Zorer,Matadjana,Kalait,Fada,Oum Chalouba,Wadi Fira,Kapka,Bao"
   },
   {
-    "name": "Amira",
-    "i": 676,
-    "min": 4,
-    "max": 11,
-    "d": "nic-SD",
-    "m": 0,
-    "b": "Jebel Amira,Lira,Fungor,Kau,Nyaro,Werni,Talodi,Moro,Tira,Otoro,Shira,Heiban"
-  },
-  {
-    "name": "Babanki",
-    "i": 677,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CM",
-    "m": 0,
-    "b": "Kedjom Keku,Kedjom Ketinguh,Bamenda,Tubah,Bambui,Bafut,Mankon,Bali,Akum,Santa,Pinyin,Chomba"
-  },
-  {
-    "name": "Baca",
-    "i": 678,
-    "min": 4,
-    "max": 11,
-    "d": "afr-ZA",
-    "m": 0,
-    "b": "Mount Frere,Umzimkhulu,Ixopo,Harding,Richmond,Bulwer,Underberg,Matatiele,Cedarville,Kokstad,Franklin,Swartberg"
-  },
-  {
-    "name": "Bangala",
-    "i": 679,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CD",
-    "m": 0,
-    "b": "Kinshasa,Mbandaka,Lisala,Bumba,Basankusu,Makanza,Bolobo,Lukolela,Irebu,Lukole,Mobayi-Mbongo,Yakoma"
-  },
-  {
-    "name": "Bangolan",
-    "i": 681,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CM",
-    "m": 0,
-    "b": "Bangolan,Babessi,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Babungo,Bambalang"
-  },
-  {
-    "name": "Bomboli-Bozaba",
-    "i": 682,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CD",
-    "m": 0,
-    "b": "Kungu,Libenge,Gemena,Budjala,Bomongo,Makanza,Mobayi-Mbongo,Yakoma,Bumba,Lisala,Bongandanga,Basankusu"
-  },
-  {
-    "name": "Bomboma",
-    "i": 683,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CD",
-    "m": 0,
-    "b": "Kungu,Libenge,Gemena,Budjala,Bomongo,Makanza,Mobayi-Mbongo,Yakoma,Bumba,Lisala,Bongandanga,Basankusu"
-  },
-  {
-    "name": "Boze",
-    "i": 684,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CI",
-    "m": 0,
-    "b": "Divo,Lakota,Guitry,Fresco,Sassandra,Grand-Lahou,Lozoua,Hirie,Zikisso,NiambÃ©zaria,Gnagbodougnoa,GalÃ©brÃ©"
-  },
-  {
-    "name": "Bozo",
-    "i": 685,
-    "min": 4,
-    "max": 11,
-    "d": "nic-ML",
-    "m": 0,
-    "b": "Mopti,DjennÃ©,SÃ©gou,DiafarabÃ©,Youwarou,Tenenkou,Konna,Akka,Deboye,NiafunkÃ©,Dire,Goundam"
-  },
-  {
-    "name": "Buu",
-    "i": 686,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CD",
-    "m": 0,
-    "b": "Wamba,Isiro,Mambasa,Nia-Nia,Epulu,Bomili,Pawa,Ibambi,Gombari,Betongwe,Makere,Mangbele"
-  },
-  {
-    "name": "Dagaare",
-    "i": 687,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Wa,Jirapa,Lawra,Nadowli,Lambussie,Hamile,Daffiama,Kaleo,Nadoli,Ulu,Han,Ko"
-  },
-  {
     "name": "Dagbani",
     "i": 688,
     "min": 4,
@@ -3710,15 +3611,6 @@ window.africaNameBases = [
     "b": "Kano,Katsina,Zaria,Bauchi,Gombe,Potiskum,Nguru,Maradi,Zinder,Diffa"
   },
   {
-    "name": "Bangi",
-    "i": 2019,
-    "min": 4,
-    "max": 11,
-    "d": "nic-CD",
-    "m": 0,
-    "b": "Bolobo,Lukolela,Mossaka,Loukolela,Makotimpoko,Mpouya,Bouemba,Yumbi,Kwamouth,Mushie,Inongo"
-  },
-  {
     "name": "Italian Eritrean",
     "i": 2033,
     "min": 4,
@@ -4583,7 +4475,7 @@ window.africaNameBases = [
     "b": "Cotonou,Porto-Novo,Abomey,Abomey-Calavi,Bohicon,Ouidah,Allada,Lokossa,Dogbo,Com?,Dassa-Zoume,Parakou,Savalou,Kandi,Natitingou,Save,Bante,Glazoue,Bembereke,Nikki"
   },
   {
-    "name": "Amira (dedicated)",
+    "name": "Amira",
     "i": 2687,
     "min": 4,
     "max": 11,
@@ -4592,7 +4484,7 @@ window.africaNameBases = [
     "b": "Kadugli,Dilling,Abu Jibeiha,Talodi,Lagawa,Keiga,Abyei,Karko,Umm Durein,Kassala,Port Sudan,Nuba Mountains,Kordofan,South Kordofan,En Nahud,Abu Zabad,Babanusa,Sodiri,Gebeit,Erkowit,Kokiram,Kululu,Kwaleg,Karema,Leley,Nertiti,Kurmuk,Yabus,Darfur,El Fasher,El Geneina"
   },
   {
-    "name": "Babanki (dedicated)",
+    "name": "Babanki",
     "i": 2688,
     "min": 4,
     "max": 11,
@@ -4601,7 +4493,7 @@ window.africaNameBases = [
     "b": "Bamenda,Bambili,Bambui,Kumbo,Nkwen,Mankon,Kejom Ketinguh,Kejom Keku,Bafut,Bali,Banso,Batibo,Mendankwe,Nkambe,Wum,Oku,Oshie,Ngie,Ngor,Pinyin,Kwakwa,Ntem,Ndop,Balikumbat,Santa,Bui,Nwa,Ngemba,Bali Nyonga,Mbesumbu,Alim,Bamessing,Ndzong,Big Babanki,Bamenda II,Bamenda III,Bali Subdivision,Bessomb,Bamendankwe,Bamougong,Bamegoum,Bamendou,Bamenyam,Bamendjo,Bamenkou,Bamendjou,Bamenfong,Bamendzie,Bamena"
   },
   {
-    "name": "Baca (dedicated)",
+    "name": "Baca",
     "i": 2689,
     "min": 4,
     "max": 11,
@@ -4610,7 +4502,7 @@ window.africaNameBases = [
     "b": "Bobo Dioulasso,Ouahigouya,Koudougou,Kaya,Tenkodogo,Ouagadougou,Bansang,Kassena,Nouna,Solenzo,Bourou,Dedougou,Boulgou,Gnagna,Kouritenga,Bam,Sanmatenga,Soudan,Seno,Oudalan,Diapaga,Fada N'gourma,Pama,Manni,Loumana,SoubakaniÃ©dougou,BendrÃ©,Midegla,BendrarÃ©,Bendresp,BogandÃ©,MannÃ©,Diabo,KomtoÃ¨ga,TchÃ©riba,Bougounou,Dano,Moussa"
   },
   {
-    "name": "Bangala (dedicated)",
+    "name": "Bangala",
     "i": 2690,
     "min": 4,
     "max": 11,
@@ -4619,7 +4511,7 @@ window.africaNameBases = [
     "b": "Isiro,Niangara,Dungu,Faradje,Wamba,Rungu,Aba,Buta,Bondo,Bunia,Goma,Beni,Kasindi,Mambasa,Kisangani,Lubutu,Kindu,Uvira,Bangala,Ariangona,Bafwasende,Logo,Poko"
   },
   {
-    "name": "Bangi (dedicated)",
+    "name": "Bangi",
     "i": 2691,
     "min": 4,
     "max": 11,
@@ -4628,7 +4520,7 @@ window.africaNameBases = [
     "b": "Bandundu,Kikongo,Masi-Manimba,Gungu,Idiofa,Kahemba,Kasai Lualaba,Sakania,Lubumbashi,Kolwezi,Kisangani,Kindu,Uvira,Bukavu,Goma,Bangala,Makanza,Lisala,Ingende,Bikoro"
   },
   {
-    "name": "Bangolan (dedicated)",
+    "name": "Bangolan",
     "i": 2692,
     "min": 4,
     "max": 11,
@@ -4637,7 +4529,7 @@ window.africaNameBases = [
     "b": "Babessi,Bangolan,Bamenda,Bali,Banso,Bafut,Ndop,Ngoketunjia,Ngo-Ketunjia,Nyang,Nkambe,N Rtindang,Baligard,Benakuma,Menchum Valley,Fontem,Buea,Limbe,Kumba,Mamfe,Tombel,Alonkong,Bangolan Village,Njem,Nkongho"
   },
   {
-    "name": "Bomboli-Bozaba (dedicated)",
+    "name": "Bomboli-Bozaba",
     "i": 2693,
     "min": 4,
     "max": 11,
@@ -4646,7 +4538,7 @@ window.africaNameBases = [
     "b": "Mbandaka,Coquilhatville,Bikoro,Inongo,Kasai,Makanza,Ingende,Lotumbe,Budjala,Bangala,Bonga,Bokungu,Ilebo,Kabinda,Kandaji"
   },
   {
-    "name": "Bomboma (dedicated)",
+    "name": "Bomboma",
     "i": 2694,
     "min": 4,
     "max": 11,
@@ -4655,7 +4547,7 @@ window.africaNameBases = [
     "b": "Bikoro,Mbandaka,Inongo,Coquilhatville,Lotumbe,Ingende,Kiri,Bonginda,Bongandanga,Monsole,Bangala,Yakoma,Gbadolite,Mobayi,Zongo"
   },
   {
-    "name": "Boze (dedicated)",
+    "name": "Boze",
     "i": 2695,
     "min": 4,
     "max": 11,
@@ -4664,7 +4556,7 @@ window.africaNameBases = [
     "b": "Mopti,DjennÃ©,SÃ©gou,Tombouctou,Gao,Kidal,Bobo Dioulasso,Bougouni,Sikasso,Kayes,Kita,Koulikoro,Kati,Koutiala,San,Nioro,Yorosso"
   },
   {
-    "name": "Bozo (dedicated)",
+    "name": "Bozo",
     "i": 2696,
     "min": 4,
     "max": 11,
@@ -4673,7 +4565,7 @@ window.africaNameBases = [
     "b": "Mopti,DjennÃ©,SÃ©gou,Sokolo,Tominian,Niono,Kouakourou,KÃ©-Macina,Sivarou,Soubala,KÃ©ta,KÃ©-Wara,Tamani,Bougoufala,Borondougou,Ganie"
   },
   {
-    "name": "Buu (dedicated)",
+    "name": "Buu",
     "i": 2697,
     "min": 4,
     "max": 11,
@@ -4682,7 +4574,7 @@ window.africaNameBases = [
     "b": "Mombasa,Nairobi,Kisumu,Nakuru,Eldoret,Thika,Malindi,Kitale,Garissa,Nyeri,Meru,Embu,Tanga,Dar es Salaam,Arusha,Mwanza,Dodoma,Kilimanjaro,Lindi,Morogoro,Tabora,Mbeya"
   },
   {
-    "name": "Dagaare (dedicated)",
+    "name": "Dagaare",
     "i": 2698,
     "min": 4,
     "max": 11,
@@ -4691,7 +4583,7 @@ window.africaNameBases = [
     "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie,Bolgatanga,Bawku,Navrongo,Paga,Kumasi,Tamale,Savelugu,Mion,Sang,Garu,Bunkpurugu,Nalerigu,Daffiama,Busie,Ko,Nadowli,Gbarnaba,Bangou,Dano,Kperou,Koumbri,TchÃ©riba,PÃ´,LÃ©o,Midegla,Moussa,Solenzo,Nouna,Bobo Dioulasso,Diapaga,Fada N'gourma,Pama"
   },
   {
-    "name": "Awing (dedicated)",
+    "name": "Awing",
     "i": 2738,
     "min": 4,
     "max": 11,
@@ -4700,7 +4592,7 @@ window.africaNameBases = [
     "b": "Bamenda,Awing,Bambili,Bambui,Nkwen,Mankon,Bafut,Bali,Banso,Pinyin,Ngemba,Bali Nyonga,Santa,Mbesumbu,Alim,Bamessing,Ndzong"
   },
   {
-    "name": "Beba (dedicated)",
+    "name": "Beba",
     "i": 2743,
     "min": 4,
     "max": 11,
