@@ -69,18 +69,18 @@ window.southAmericaNameBases = [
     "i": 50015,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "es-CL",
     "m": 0,
-    "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Reus,Manresa,Granollers,Vic"
+    "b": "Santiago,Puente Alto,Maipu,San Bernardo,La Florida,Las Condes,Valparaiso,Vina del Mar,Quilpue,Villa Alemana,Concepcion,Talcahuano,Coronel,Antofagasta,Iquique,Calama,Arica,Temuco,Rancagua,Talca,Chillan,Curico,La Serena,Coquimbo,Puerto Montt,Puerto Varas,Valdivia,Osorno,Punta Arenas,Copiapo,Los Angeles,Castro,Ancud,San Felipe,Los Andes,Quillota,Ovalle,San Antonio,Linares,Chillan Viejo,Coronel,Lota,Tomé,Hualpen,San Pedro de la Paz,Chiguayante,Penco,Dichato,Lebu,Canete,Arauco,Los Alamos,Curanilahue"
   },
   {
     "name": "Chilote",
     "i": 70,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "es-CL",
     "m": 0,
-    "b": "LÃ©on,Valladolid,Zamora,Burgos,Palencia,Oviedo,GijÃ³n,Santander,Madrid"
+    "b": "Castro,Ancud,Quellon,Dalcahue,Chonchi,Curaco de Velez,Puqueldon,Queilen,Quemchi,Quinchao,Achao,Tenaun,Quicavi,Cucao,Chaulinec,Alao,Apiao,Caguach,Rilan,Nercon,Chelin,Vilupulli,Ichuac,Aldachildo,San Juan,Colo,Detico,Chadmo,Rauco,Llicaldad,Chacao,Huellon,Melinka,Puerto Montt,Calbuco,Puerto Varas,Osorno,Cochamo,Maullin,Fresia,Llanquihue,Frutillar,Puerto Octay,San Juan de la Costa,Purranque,Rio Negro,Los Muermos"
   },
   {
     "name": "Awakatek",
@@ -116,7 +116,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "es-AR",
     "m": 0,
-    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata"
+    "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata,La Matanza,San Justo,Quilmes,Tigre,Lomas de Zamora,Moron,Avellaneda,Lanus,Bahia Blanca,Tandil,Trenque Lauquen,Balcarce,Necochea,Colonia del Sacramento,Punta del Este,Maldonado,Piriapolis,Salto,Paysandu,Santa Fe,Parana,Concordia,Gualeguaychu,Concepcion del Uruguay,San Lorenzo,Venado Tuerto,San Antonio de Areco,Lobos,Lujan,Chascomus,Azul,Olavarria,Pergamino,Junin,Zarate,Campana,Escobar,Pilar,Merlo,Moreno,San Miguel,Jose C. Paz,Malvinas Argentinas,San Fernando,Isidro Casanova,Gregorio de Laferrere,Gerli,Banfield,Lomas del Mirador,Turdera,Adrogue, Temperley,Remedios de Escalada,Lanus Este,Lanus Oeste,Monte Grande,Los Polvorines,Pablo Nogues,Bella Vista,Grand Bourg,Jose Ingenieros,Ciudadela,Ramos Mejia,Ciudad Evita,Caseros,Santos Lugares"
   },
   {
     "name": "Tacana",
@@ -204,18 +204,18 @@ window.southAmericaNameBases = [
     "i": 785,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "es-BO",
     "m": 0,
-    "b": "Sucre,La Paz,Cochabamba,Santa Cruz,Oruro,PotosÃ­,Tarija"
+    "b": "Sucre,La Paz,Cochabamba,Santa Cruz,Oruro,Potosi,Tarija,El Alto,Montero,Trinidad,Yacuiba,Riberalta,Guayaramerin,Cobija,Viacha,Tupiza,Villazón,Quillacollo,Sacaba,Tiquipaya,Punata,Tarata,Cliza,Vinto,Pasorapa,Aiquile,Totora,Mizque,Omereque,Pasorapa,Chimore,Villa Tunari,Santivanez,Sicaya,Tarata,Arani,Arbieto,Bolivar,Chapare,Colonias Junin,Puerto Villarroel,Lauca Mayu,San Benito,San Esteban,San Javier,Concepcion,San Ignacio de Velasco,San Miguel,San Rafael,Robore,Puerto Suarez,Puerto Quijarro,Warnes,La Guardia,Porongo,Cotoca,El Puente,El Torno,La Angostura,San Jose de Chiquitos"
   },
   {
     "name": "Brazilian Portuguese",
     "i": 788,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "pt-BR",
     "m": 0,
-    "b": "SÃ£o Paulo,Rio de Janeiro,Belo Horizonte,BrasÃ­lia,Salvador,Fortaleza,Recife,Porto Alegre"
+    "b": "Sao Paulo,Rio de Janeiro,Belo Horizonte,Brasilia,Salvador,Fortaleza,Recife,Porto Alegre,Curitiba,Florianopolis,Manaus,Belem,Goiania,Campinas,Santos,Maceio,Natal,Joao Pessoa,Aracaju,Teresina,Sao Luis,Ouro Preto,Paraty,Tiradentes,Diamantina,Olinda,Petropolis,Angra dos Reis,Joinville,Blumenau,Londrina,Foz do Iguacu,Pelotas,Caxias do Sul,Ribeirao Preto,Juiz de Fora,Vitoria,Campo Grande,Cuiaba,Gramado,Congonhas,Mariana,Feira de Santana,Campina Grande,Caruaru,Caxias,Novo Hamburgo,Sao Jose dos Campos,Sorocaba,Osasco,Santo Andre,Sao Bernardo do Campo,Guarulhos,Campo Limpo Paulista,Embu das Artes,Itapecerica da Serra,Jandira,Barueri,Cotia,Taboao da Serra,Vargem Grande Paulista,Sao Caetano do Sul,Diadema,Maua,Ribeirao Pires,Rio Grande da Serra,Santo Andre,Sao Vicente,Praia Grande,Guaruja,Bertioga,Santos,Sao Sebastiao,Caraguatatuba,Ubatuba"
   },
   {
     "name": "Colombian Spanish",
