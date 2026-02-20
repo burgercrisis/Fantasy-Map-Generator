@@ -10,13 +10,13 @@ BY CONTINENT:
   Unknown: 11
 
 BY BASE SIZE CATEGORY:
-  large: 69
-  normal: 153
-  small: 2140
+  large: 81
+  normal: 197
+  small: 2084
 
 BY QUALITY SCORE:
-  Excellent (95+): 2362
-  Good (80-94): 0
+  Excellent (95+): 2338
+  Good (80-94): 24
   Fair (60-79): 0
   Poor (40-59): 0
   Critical (<40): 0

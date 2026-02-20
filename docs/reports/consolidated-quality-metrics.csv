@@ -1790,26 +1790,26 @@ Rusyn,50006,Europe,namebases-europe.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FA
 Belarusian,50007,Europe,namebases-europe.js,16,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Purépecha,71,NorthAmerica,namebases-northAmerica.js,53,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Canadian French,292,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Acadian,363,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Brayon,385,NorthAmerica,namebases-northAmerica.js,6,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Acadian,363,NorthAmerica,namebases-northAmerica.js,58,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,80
+Brayon,385,NorthAmerica,namebases-northAmerica.js,46,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Chiac,394,NorthAmerica,namebases-northAmerica.js,18,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Chipilo,397,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Franco-Ontarian,435,NorthAmerica,namebases-northAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CA,1-999,100
 Frenchville French,437,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 Joual,454,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CA,1-999,100
 Louisiana French,475,NorthAmerica,namebases-northAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
-Magoua,479,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-NC,1-999,100
+Magoua,479,NorthAmerica,namebases-northAmerica.js,42,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CA,1-999,100
 Mexican Spanish,487,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-MX,1-999,100
 Missouri French,492,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 Muskrat French,497,NorthAmerica,namebases-northAmerica.js,23,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 New England French,500,NorthAmerica,namebases-northAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-US,1-999,100
 Newfoundland French,501,NorthAmerica,namebases-northAmerica.js,13,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CA,1-999,100
-Quebec French,590,NorthAmerica,namebases-northAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CA,1-999,100
+Quebec French,590,NorthAmerica,namebases-northAmerica.js,52,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,ro-CA,1-999,80
 Wisconsin Walloon,736,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Achi,746,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Afro-Seminole Creole,755,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Sierra Popoluca,1049,NorthAmerica,namebases-northAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Me'phaa,1050,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Sierra Popoluca,1049,NorthAmerica,namebases-northAmerica.js,44,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Me'phaa,1050,NorthAmerica,namebases-northAmerica.js,45,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Tabasco Zoque,1183,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Chochotec,1184,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Cauque Mayan language,1187,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -1821,18 +1821,18 @@ Kiliwa,1201,NorthAmerica,namebases-northAmerica.js,47,normal,FALSE,FALSE,FALSE,F
 Cochimí,1204,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Turks and Caicos Creole,1293,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Vincentian Creole,1294,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Virgin Islands Creole,1295,NorthAmerica,namebases-northAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Virgin Islands Creole,1295,NorthAmerica,namebases-northAmerica.js,46,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Jamaican Maroon Creole,1296,NorthAmerica,namebases-northAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Bozal Spanish,1367,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Broken Oghibbeway,1379,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Broken Oghibbeway,1379,NorthAmerica,namebases-northAmerica.js,50,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Broken Slavey,1380,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Cahuilla,1417,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Central Zapotec,1492,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Cahuilla,1417,NorthAmerica,namebases-northAmerica.js,59,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Central Zapotec,1492,NorthAmerica,namebases-northAmerica.js,44,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Chinook Jargon,1592,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Chorotega,1604,NorthAmerica,namebases-northAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Chicomuceltec,1630,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Eskimo Trade Jargon,1774,NorthAmerica,namebases-northAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Gullah,1879,NorthAmerica,namebases-northAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Chorotega,1604,NorthAmerica,namebases-northAmerica.js,61,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Chicomuceltec,1630,NorthAmerica,namebases-northAmerica.js,50,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Eskimo Trade Jargon,1774,NorthAmerica,namebases-northAmerica.js,54,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Gullah,1879,NorthAmerica,namebases-northAmerica.js,62,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Inuktitut-English Pidgin,1951,NorthAmerica,namebases-northAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Iñupiaq,1952,NorthAmerica,namebases-northAmerica.js,41,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Isthmus Zapotec,2032,NorthAmerica,namebases-northAmerica.js,14,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -1871,12 +1871,12 @@ Shipibo-Conibo Amazonian,50011,SouthAmerica,namebases-southAmerica.js,19,small,F
 Yanomami Amazonian,63,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Cavineña,64,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Kallawaya,50042,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,20000+,100
-Chilean Spanish,50015,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,20000+,100
-Chilote,70,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Chilean Spanish,50015,SouthAmerica,namebases-southAmerica.js,53,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-CL,20000+,80
+Chilote,70,SouthAmerica,namebases-southAmerica.js,47,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-CL,1-999,100
 Awakatek,50016,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,20000+,100
 Sanöma,78,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Chuj,236,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,may-GT,1-999,100
-Rioplatense Spanish,237,SouthAmerica,namebases-southAmerica.js,5,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-AR,1-999,100
+Rioplatense Spanish,237,SouthAmerica,namebases-southAmerica.js,71,large,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-AR,1-999,100
 Tacana,238,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Wiwa,239,SouthAmerica,namebases-southAmerica.js,15,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Nivaclé,278,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
@@ -1886,8 +1886,8 @@ Tsimané,625,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,F
 Chiquitano,50043,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,20000+,100
 Venezuelan Spanish,657,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-VE,1-999,100
 Achagua,744,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Bolivian Spanish,785,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
-Brazilian Portuguese,788,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
+Bolivian Spanish,785,SouthAmerica,namebases-southAmerica.js,60,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-BO,1-999,80
+Brazilian Portuguese,788,SouthAmerica,namebases-southAmerica.js,75,large,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pt-BR,1-999,80
 Colombian Spanish,800,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Mineiro,50044,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pt-BR,20000+,100
 Ch'orti',914,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,may-GT,1-999,100
@@ -1908,8 +1908,8 @@ Bará,1303,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FAL
 Cofán,1335,SouthAmerica,namebases-southAmerica.js,32,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Fulniô,1336,SouthAmerica,namebases-southAmerica.js,49,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Itonama,1337,SouthAmerica,namebases-southAmerica.js,48,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Leco,1338,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Baur,1378,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Leco,1338,SouthAmerica,namebases-southAmerica.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Baur,1378,SouthAmerica,namebases-southAmerica.js,20,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Guají,1426,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Uruguayan Portuguese,1856,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,pt-UY,1000-9999,100
 Uruguayan Spanish,50029,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,es-UY,20000+,100
@@ -1945,11 +1945,11 @@ Trinitario,5823,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALS
 Reyesano (Maropa),5824,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Toromona,5825,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Weenhayek,5826,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Wichí,5827,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Wichí,5827,SouthAmerica,namebases-southAmerica.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Paipai,5830,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Palikur,6002,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Crow,6111,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Xavante,6112,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Xavante,6112,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Xerente,6113,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Guajajara,6620,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Mixe,6622,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -1997,14 +1997,14 @@ Comanche,7835,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,
 Hopi,7836,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Shoshoni,7837,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Kumeyaay,7838,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Bauré,7879,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Enlhet,7940,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Bauré,7879,SouthAmerica,namebases-southAmerica.js,21,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Enlhet,7940,SouthAmerica,namebases-southAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Kanamari,7941,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Mocoví,7942,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Wounaan,7943,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Mapudungun,7944,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Ona,7945,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Yahgan,7946,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Ona,7945,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Yahgan,7946,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Kalaallisut,8050,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Cabiyari,8052,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Carijona,8053,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
@@ -2013,55 +2013,55 @@ Chontal Maya,8055,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FA
 Cora,8057,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Cuiba,8058,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Culina,8059,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Cayuvava,8110,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Cayuvava,8110,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Alutiiq,8111,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Guarani,8112,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Guahibo (Sikuani),8113,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Guayabero,8114,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Guayabero,8114,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Guajá,8115,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Guarayu,8116,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Huichol,8118,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Guarayu,8116,SouthAmerica,namebases-southAmerica.js,27,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Huichol,8118,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Inuinnaqtun,8119,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Q'eqchi',8125,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Tzeltal,8126,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Tzotzil,8127,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Tzeltal,8126,SouthAmerica,namebases-southAmerica.js,28,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Tzotzil,8127,SouthAmerica,namebases-southAmerica.js,27,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Yucatec Maya,8128,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Kaqchikel,8129,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Ixil,8130,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Kaqchikel,8129,SouthAmerica,namebases-southAmerica.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Ixil,8130,SouthAmerica,namebases-southAmerica.js,24,small,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Jakaltek,8131,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-K'iche',8132,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Lacandon,8133,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Mam,8134,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Mopán,8135,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Poqomam,8136,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Poqomchi',8137,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Tojolab'al,8138,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Tz'utujil,8139,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Sakapultek,8141,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Sipakapense,8142,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Tektitek,8143,SouthAmerica,namebases-southAmerica.js,6,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Uspanteko,8144,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Matlatzinca,8425,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Mazahua,8426,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Mixtec,8428,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Otomi,8429,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Zapotec,8430,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Mayo,8481,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+K'iche',8132,SouthAmerica,namebases-southAmerica.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Lacandon,8133,SouthAmerica,namebases-southAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Mam,8134,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Mopán,8135,SouthAmerica,namebases-southAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Poqomam,8136,SouthAmerica,namebases-southAmerica.js,22,small,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Poqomchi',8137,SouthAmerica,namebases-southAmerica.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Tojolab'al,8138,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Tz'utujil,8139,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Sakapultek,8141,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Sipakapense,8142,SouthAmerica,namebases-southAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Tektitek,8143,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Uspanteko,8144,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Matlatzinca,8425,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Mazahua,8426,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Mixtec,8428,SouthAmerica,namebases-southAmerica.js,22,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Otomi,8429,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Zapotec,8430,SouthAmerica,namebases-southAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Mayo,8481,SouthAmerica,namebases-southAmerica.js,29,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 O'odham,8483,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Pima Bajo,8484,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Tarahumara,8485,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Huarijio,8486,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Pima Bajo,8484,SouthAmerica,namebases-southAmerica.js,27,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Tarahumara,8485,SouthAmerica,namebases-southAmerica.js,30,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
+Huarijio,8486,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
 Yaqui,8487,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Macushi,8605,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Waiwai,8606,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Yukpa,8607,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Piapoco,8653,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Wapishana,8655,SouthAmerica,namebases-southAmerica.js,6,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Chorote,8866,SouthAmerica,namebases-southAmerica.js,7,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Choshuenco,8868,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Macushi,8605,SouthAmerica,namebases-southAmerica.js,31,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Waiwai,8606,SouthAmerica,namebases-southAmerica.js,28,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Yukpa,8607,SouthAmerica,namebases-southAmerica.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Piapoco,8653,SouthAmerica,namebases-southAmerica.js,24,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Wapishana,8655,SouthAmerica,namebases-southAmerica.js,29,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Chorote,8866,SouthAmerica,namebases-southAmerica.js,25,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
+Choshuenco,8868,SouthAmerica,namebases-southAmerica.js,26,normal,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,80
 Cocoliche,9165,SouthAmerica,namebases-southAmerica.js,11,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1000-9999,100
-Huilliche,11534,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
-Guyanese Creole,11635,SouthAmerica,namebases-southAmerica.js,8,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
+Huilliche,11534,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
+Guyanese Creole,11635,SouthAmerica,namebases-southAmerica.js,27,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
 Inuvialuktun,13195,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
 Puinave,13341,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
 Yanomami,13345,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
@@ -2077,7 +2077,7 @@ Keresan,13856,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,
 Karajá,13893,SouthAmerica,namebases-southAmerica.js,12,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
 Língua Geral Paulista,13927,SouthAmerica,namebases-southAmerica.js,10,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
 Latin American Spanish,14025,SouthAmerica,namebases-southAmerica.js,30,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,10000-19999,100
-Fulnio,20190,SouthAmerica,namebases-southAmerica.js,9,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
+Fulnio,20190,SouthAmerica,namebases-southAmerica.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,lnrt,20000+,100
 Huave,50001,SouthAmerica,namebases-southAmerica.js,19,small,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,20000+,100
 Papuan,49,Oceania,namebases-oceania.js,47,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
 Engan Papuan,50,Oceania,namebases-oceania.js,26,normal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,nic-GH,1-999,100
