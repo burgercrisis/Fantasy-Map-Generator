@@ -1439,7 +1439,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tzeltal,Ocosingo,San Cristóbal de las Casas,Comitán,Chiapas,Altos de Chiapas,Maya Region,Mexico"
+    "b": "Ocosingo,Altamirano,Cancuc,Oxchuc,Tenejapa,Chanal,Chilon,Sitala,Petalcingo,Aguacatenango,Amatenango del Valle,Yajalon,Villa Las Rosas,Guaquitepec,Sibaca,Tenango,Abasolo,Damasco,Taniperla,San Quintin,Santo Domingo,Cintalapa,Perla de Acapulco,Santa Elena,Frontera Corozal,Nueva Palestina,Bachajon,Chilon"
   },
   {
     "name": "Tzotzil",
@@ -1448,7 +1448,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tzotzil,San Juan Chamula,Zinacantán,Chenalhó,Chiapas,Altos de Chiapas,Maya Region,Mexico"
+    "b": "San Juan Chamula,San Lorenzo Zinacantan,San Cristobal de las Casas,San Bartolome de los Llanos,Chenalho,Pantelho,San Andres Larrainzar,Santa Marta,Bochil,El Bosque,Huitiupan,Simojovel,San Pablo Chalchihuitan,Santa Catalina Pantelho,San Juan Cancuc,Tenejapa,Huixtan,Teopisca,Amatenango del Valle,Aguacatenango,San Pedro Chenalho,Chalchihuitan,San Miguel Mitontic,Mitontic,Chamula,Zinacantan,Chenalho"
   },
   {
     "name": "Yucatec Maya",
@@ -1466,7 +1466,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kaqchikel,Chimaltenango,Sololá,Tecpán,Guatemala,Antigua,Chichicastenango,Comalapa,Guatemala City"
+    "b": "Chimaltenango,Solola,Tecpan,Patzicia,Patzun,Comalapa,San Jose Poaquil,Sumpango,San Martin Jilotepeque,Santa Apolonia,San Juan Comalapa,Panajachel,San Antonio Palopo,Santa Catarina Palopo,San Lucas Toliman,Santiago Atitlan,San Pedro La Laguna,San Juan La Laguna,San Pablo La Laguna,San Marcos La Laguna,Santa Cruz La Laguna,Tzununa,Jaibalito,Santa Catarina Barahona,San Andres Itzapa,Zaragoza,Antigua Guatemala,Godinez,San Andres Semetabaj"
   },
   {
     "name": "Ixil",
@@ -1493,7 +1493,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "K'iche',Quetzaltenango,Totonicapán,Sololá,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
+    "b": "Xelaju,Totonicapan,Chichicastenango,Santa Cruz del Quiche,Sacapulas,Uspantan,Joyabaj,Canilla,Chicaman,Chiche,Chinique,Cunen,Patzite,Pachalum,San Andres Sajcabaja,San Antonio Ilotenango,San Bartolome Jocotenango,San Pedro Jocopilas,Zacualpa,Santa Lucia La Reforma,Chuguexa,Paquix,Xecocom,Panajachel,Santa Clara La Laguna,Quetzaltenango,Nebaj,Chajul,Cotzal"
   },
   {
     "name": "Lacandon",
@@ -1511,7 +1511,7 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mam,Huehuetenango,Todos Santos,Cuchumatanes,Chiantla,Negrito,Aguacatán,Guatemala,Maya Region"
+    "b": "Todos Santos Cuchumatan,Huehuetenango,San Martin Cuchumatan,Comitancillo,Tajumulco,San Juan Atitan,San Sebastian Huehuetenango,San Rafael Petzal,San Ildefonso Ixtahuacan,Cuilco,La Libertad,San Pedro Necta,Santiago Chimaltenango,Concepcion Huista,Jacaltenango,San Antonio Huista,Santa Ana Huista,Malacatancito,San Gaspar Ixchil,Colotenango,San Miguel Acatan,San Rafael La Independencia,Tacana,Sibinal,Cuchumatanes,Gracias"
   },
   {
     "name": "Mopán",
