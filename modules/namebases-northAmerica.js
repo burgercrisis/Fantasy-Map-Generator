@@ -26,7 +26,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Moncton,Shediac,Bathurst,Fredericton,Charlottetown,Amherst,Truro,Yarmouth,Prince Edward Island"
+    "b": "Moncton,Shediac,Bathurst,Fredericton,Charlottetown,Amherst,Truro,Yarmouth,Dieppe,Bouctouche,Caraquet,Shippagan,Lameque,Petit-Rocher,Belledune,Bertrand,Grande-Anse,Paquetville,Tracadie,Caraquet,Grand-Barachois,Cap-Pele,Barachois,Port-Elgin,Dorchester,Sackville,Tantramar,Memramcook,St-Joseph,Notre-Dame,Richibucto,Rogersville,Cocagne,Bouctouche,Church Point,Clare,Meteghan,Corberrie,Salmon River,Digby,Weymouth,Annapolis Royal,Grand Pre,Wolfville,Kentville,New Minas,Bridgewater,Lunenburg,Mahone Bay,Cajun,Lafayette,Lake Charles,New Iberia,Abbeville,Eunice,Opelousas,Grand Chenier,Cheniere Caminada"
   },
   {
     "name": "Brayon",
@@ -35,7 +35,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Braga,GuimarÃ£es,Viseu,Porto,Celorico da Beira,Vila Real"
+    "b": "Edmundston,Saint-Basile,Baker-Brook,Clair,Connors,Riviere-Verte,Saint-Andre,Sainte-Anne-de-Madawaska,Saint-Francois-de-Madawaska,Saint-Hilaire,Saint-Jacques,Saint-Leonard,Notre-Dame-de-Lourdes,Lac-Baker,Quisibis,Madawaska,Fort Kent,Frenchville,Van Buren,Saint-Agatha,Saint-Francis,Grand-Isle,Eagle Lake,Wallagrass,New-Canada,Sinclair,Daigle,Saint-David,Degelis,Cabano,Notre-Dame-du-Lac,Pohenegamook,Saint-Juste-du-Lac,Auclair,Presquile,Massabielle,Glazier Lake,Green River,Saint-Onesime,Sainte-Lucie,Saint-Jean-Baptiste,Saint-Hilaire-de-Baker-Brook,Conners,Blue River,Saint-Jacques-de-Madawaska,Saint-Leonard-Parent"
   },
   {
     "name": "Chiac",
@@ -96,9 +96,9 @@ window.northAmericaNameBases = [
     "i": 479,
     "min": 4,
     "max": 11,
-    "d": "ro-NC",
+    "d": "ro-CA",
     "m": 0,
-    "b": "NoumÃ©a,PaÃ¯ta,Mont-Dore,DumbÃ©a,Tchamba,Lifou,Thio,Bourail,YatÃ©"
+    "b": "Trois-Rivieres,Shawinigan,La Tuque,Louiseville,Yamachiche,Maskinonge,Champlain,Batiscan,Sainte-Anne-de-la-Perade,Saint-Maurice,Saint-Etienne-des-Gres,Saint-Boniface,Saint-Tite,Notre-Dame-du-Mont-Carmel,Saint-Alexis-des-Monts,Sainte-Thecle,Saint-Elie-de-Caxton,Saint-Narcisse,Saint-Paulin,Saint-Mathieu-du-Parc,Lac-aux-Sables,Herouxville,Sainte-Ursule,Saint-Barnabe,Charette,Sainte-Genevieve-de-Batiscan,Saint-Stanislas,Saint-Leon-le-Grand,Saint-Justin,Saint-Adelphe,Notre-Dame-de-Montauban,Saint-Severin,Saint-Edouard-de-Maskinonge,Sainte-Angela-de-Premont,La Bostonnais,Saint-Luc-de-Vincennes,Trois-Rives,Grandes-Piles,Cap-de-la-Madeleine,Pointe-du-Lac,Sainte-Marthe-du-Cap,Saint-Louis-de-France"
   },
   {
     "name": "Mexican Spanish",
@@ -152,7 +152,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "ro-CA",
     "m": 0,
-    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-RiviÃ¨res,Saguenay,LÃ©vis"
+    "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-Rivieres,Saguenay,Levis,Laval,Longueuil,Terrebonne,Brossard,Repentigny,Saint-Jean-sur-Richelieu,Drummondville,Granby,Rimouski,Riviere-du-Loup,Val-d'Or,Saint-Jerome,Shawinigan,Joliette,Alma,Baie-Comeau,Rouyn-Noranda,Mont-Laurier,La Tuque,Saint-Hyacinthe,Victoriaville,Beauport,Chicoutimi,Jonquiere,Sept-Iles,Gaspe,Matane,Amos,Chateauguay,Saint-Eustache,Chambly,Beloeil,Magog,Coaticook,Thetford Mines,Asbestos,Victoriaville,Plessisville,Lac-Megantic,La Malbaie,Baie-Saint-Paul,Sept-Iles,Port-Cartier,Fermont,Schefferville"
   },
   {
     "name": "Wisconsin Walloon",
@@ -188,7 +188,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,CuitlapÃ¡n,Popoloca,Tlacolula,MazatlÃ¡n"
+    "b": "Soteapan,Tatahuicapan,San Pedro Soteapan,Jalapa,Cuitlapan,Popoloca,Tlacolula,Mazatlan,Hueyapan de Ocampo,Catemaco,Piedra Labrada,Santa Rosa Cintepec,Ocotal Chico,Benito Juarez,San Fernando,Catamacan,Mecayapan,Pajapan,Coatzacoalcos,Minatitlan,Cosoleacaque,Jaltipan,Ixhuatlan del Sureste,Nanchital,Las Choapas,Agua Dulce,Moloacan,Oteapan,Zaragoza,Sayula de Aleman,Soconusco,Jesus Carranza,Uxpanapa,Chinameca,Chacalapa,Naranjos,Amatlan,Hidalgotitlan,Ixhuatlan de Madero,Santiago Tuxtla,San Andres Tuxtla,Catemaco,Saltepec,Mata de Otate"
   },
   {
     "name": "Me'phaa",
@@ -197,7 +197,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Malinaltepec,Tlapa,Ocotalpan,ZapotitlÃ¡n,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
+    "b": "Malinaltepec,Tlapa,Ocotalpan,Zapotitlan,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac,Zapotitlan Tablas,Azoyu,Copanatoyac,Alcozauca,Xalpatlahuac,Iliatenco,Metlatonoc,Tlacoachistlahuaca,Xochistlahuaca,Olinala,Tlapehuala,Tlalixtaquilla,Totomixtlahuaca,Tenamazapa,Huitzapula,Nanzintla,Teocuitlapa,Zilacayotitlan,Huehuetepec,Huehuetan,Zontecomapa,Tlachinollan,Yopitzinco,Atlxtac,Chilapa,Iliatenco,Zitlala,Ahuacatitlan,Huamuxtitlan,Xalpatlahuac,Tlacoapa,Zapotitlan Tablas,San Luis Acatlan,Marquelia,Cruz Grande,Huitzapula"
   },
   {
     "name": "Tabasco Zoque",
@@ -305,7 +305,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo"
+    "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo,Hull Bay,Sapphire Bay,Smith Bay,Frenchtown,Anna's Retreat,Upper Contant,Nadir,Altona,John's Folly,Enighed,Emmaus,La Grange,Whim,Frederiksted,Hannah's Rest,Castelberg,Punch,Montpellier,Hovensdotte,Grove Place,Contentment,Sion Farm,Sunny Isle,Susannaberg,Mohnings Hope,Barren Spot,La Vallee,Work and Rest,Profit,Concordia,Catherine's Rest,Peters Rest,Adventure,Mango Ts,pol,Barrel of Beef,Castle Coakley,Barren Spot,Estate Thomas"
   },
   {
     "name": "Jamaican Maroon Creole",
@@ -332,7 +332,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Broken Oghibbeway,Mississauga,Toronto,Lake Ontario,Niagara,Ontario,Canada,Iroquois,Huron"
+    "b": "Broken Oghibbeway,Mississauga,Toronto,Lake Ontario,Niagara,Ontario,Canada,Iroquois,Huron,Mackinac,Sault Ste Marie,Grand Portage,Fond du Lac,Lac Courte Oreilles,Lac du Flambeau,Red Cliff,Bad River,White Earth,Leech Lake,Red Lake,Bois Forte,Mille Lacs,Ontonagon,Marquette,Sault,Michilimackinac,St Ignace,Grosse Pointe,Windsor,Detroit River,Maumee,Toledo,Sandusky,Bay City,Saginaw,Grand Traverse,Traverse City,Petoskey,Harbor Springs,Cheboygan,Sturgeon Bay,Green Bay,Door County,Escanaba,Manistique,Munising,Marquette,Houghton,Calumet,Copper Harbor"
   },
   {
     "name": "Broken Slavey",
@@ -350,7 +350,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cahuilla,Palm Springs,Palm Desert,Indio,Coachella,Desert Hot Springs,Thousand Palms,Rancho Mirage,California"
+    "b": "Cahuilla,Palm Springs,Palm Desert,Indio,Coachella,Desert Hot Springs,Thousand Palms,Rancho Mirage,California,Torres Martinez,Agua Caliente,Morongo,Cabazon,Agua Dulce,Santa Rosa,Los Coyotes,Ramona,Soboba,Mission Creek,Martinez Canyon,Whitewater,Chino Canyon,Andreas Canyon,Murray Canyon,Palm Canyon,Indian Wells,La Quinta,Indian Wells,Rancho Mirage,Cathedral City,Desert Hot Springs,Sky Valley,Desert Shores,Salton Sea,Thermal,Mecca,North Shore,Bombay Beach,Niland,Calipatria,Brawley,Imperial,El Centro,Calexico,Mexicali,Borrego Springs,Julian,Banner,Anza,Idyllwild,Pine Cove,Mountain Center,Hemet,San Jacinto,Beaumont,Banning,Cabazon,Whitewater,Desert Hot Springs"
   },
   {
     "name": "Central Zapotec",
@@ -359,7 +359,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Zapotec,Oaxaca City,Mitla,Tlacolula,Zaachila,Mexico,Chiapas,Oaxaca,Mesoamerica"
+    "b": "Zapotec,Oaxaca City,Mitla,Tlacolula,Zaachila,Mexico,Chiapas,Oaxaca,Mesoamerica,Teotitlan del Valle,Santa Maria del Tule,San Bartolo Coyotepec,San Martin Tilcajete,Santa Catarina Minas,San Jeronimo Tlacochahuaya,San Juan Guelavia,San Juan Teitipac,San Lorenzo Albarradas,San Lucas Quiavini,San Miguel del Valle,San Pablo Villa de Mitla,San Pedro Quiatoni,San Pedro Totolapan,Santa Ana del Valle,Santa Cruz Papalutla,Santa Maria Guelace,Santa Maria Lachiguiri,Santa Maria Quiegolani,Santiago Matatlan,Santo Domingo Albarradas,Santo Domingo Tomaltepec,Tlacolula de Matamoros,Valle Grande,Etla,San Agustin Etla,Santa Ana Etla,Santiago Suchilquitongo,Guadalupe Etla,Soledad Etla,Oaxaca,San Raymundo Jalpan,Huayapan,San Andres Huayapan,Santa Catalina Quieri"
   },
   {
     "name": "Chinook Jargon",
@@ -377,7 +377,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chorotega,Guancaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua"
+    "b": "Chorotega,Guanacaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua,Santa Cruz,Nandayure,Carillo,Hojancha,Abangares,Tilaran,Canas,Bagaces,Caiblanco,La Cruz,La Virgen,Filadelfia,Belen,Sardinal,Panama,Nosara,Samara,Carrillo,Tamarindo,Playa Grande,Papagayo,Playa Hermosa,Playas del Coco,Rincón de la Vieja,Palo Verde,Bebedero,Punta Arenas,Puntarenas,Jacó,Quepos,Parrita,Matapalo,Dominical,Uvita,Orotina,San Ramon,Naranjo,Palmichal,Aserri,Acosta,Puriscal,Santiago,Colon,Granada,Masaya,Nindiri,Niquinohomo,Catarina,San Juan del Sur,Rivas,Tola,Potosi,Cardenas"
   },
   {
     "name": "Chicomuceltec",
@@ -386,7 +386,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "ComitÃ¡n,Trinitaria,La Independencia,Francisco LeÃ³n,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
+    "b": "Comitan,Trinitaria,La Independencia,Francisco Leon,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America,Chicomuselo,La Trinitaria,Zapotitlan,Amatenango del Valle,Teopisca,Villaflores,Angel Albino Corzo,Motozintla,El Porvenir,Mazapa de Madero,Cacahoatan,Union Juarez,Tapachula,Suchiate,Frontera Hidalgo,Metapa,Tuxtla Chico,Ciudad Hidalgo,Talisman,Puerto Madero,Escuintla,Huehuetan,Villa Comaltitlan,Acacoyagua,Acapetahua,Escuintla,Chapultenango,Paraiso,Ocozocoautla,Berriozabal,Ostuacan,Pichucalco,Jitotol,Bochil,El Bosque,Simojovel,Reyes Mantecuan,Huitiupan,Sabana,Amatan,Santa Martha"
   },
   {
     "name": "Eskimo Trade Jargon",
@@ -395,7 +395,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eskimo Trade Jargon,Arctic,Inuit,Greenland,Canada,North America,Alaska"
+    "b": "Eskimo Trade Jargon,Arctic,Inuit,Greenland,Canada,North America,Alaska,Nuuk,Ilulissat,Sisimiut,Qaqortoq,Aasiaat,Maniitsoq,Tasiilaq,Kangerlussuaq,Kulusuk,Ittoqqortoormiit,Upernavik,Qaanaaq,Thule,Pituffik,Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Pangnirtung,Pond Inlet,Cape Dorset,Resolute,Grise Fiord,Alert,Eureka,Barrow,Prudhoe Bay,Nome,Kotzebue,Point Hope,Wainwright,Kaktovik,Nuiqsut,Utqiagvik,Inuvik,Tuktoyaktuk,Aklavik,Paulatuk,Sachs Harbour,Uluhaktuk,Cambridge Bay,Kugluktuk,Bathurst Inlet"
   },
   {
     "name": "Gullah",
@@ -404,7 +404,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Charleston,Savannah,Sea Islands,Georgetown,Beaufort,Low Country,Gullah Geechee,USA,Southeast Coast"
+    "b": "Charleston,Savannah,Sea Islands,Georgetown,Beaufort,Low Country,Gullah Geechee,USA,Southeast Coast,James Island,Johns Island,Wadmalaw Island,Edisto Island,Seabrook Island,Kiawah Island,Wild Dunes,Sullivans Island,Isle of Palms,Dewees Island,Goat Island,Hilton Head,Daufuskie Island,Parris Island,Lady Island,Hunting Island,Fripp Island,St Helena Island,Dataw Island,Harbor Island,Pawleys Island,DeBordieu,DeBordieu Colony,Murrells Inlet,Litchfield,Pawleys Island,Magnolia Beach,McColl,Marion,Mullins,Nichols,Prospect,Quinby,Rains,Raybourne,Richmond Hill,Round O,Ruffs,St George,Shady Grove,Smoaks,Springfield,St Matthews,Summerville,Swansea,Timonium, Ulmer,Varntown,Vance,Walterboro,Williams,Williston,Yemassee"
   },
   {
     "name": "Inuktitut-English Pidgin",
