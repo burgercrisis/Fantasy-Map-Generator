@@ -944,7 +944,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bukawa,Morobe Province,Lae,Finschhafen,Bukawa Bay,Salamaua,Lae Nadzab,Huon Gulf,Papua New Guinea"
+    "b": "Busamang,Buakap,Apo,Mumpum,Labu,Labu Tali,Buang,Mangga,Salamaua,Hote,Yemly,Bobodum,Selebob,Kamiatam,Mubo,Kui,Buko,Buki,Morobe,Gabensis,Mambu,Zaka,Laugui,Yalu,Buimo,Gain,Butibam,Wampar,Taraka,Atzera,Yalu"
   },
   {
     "name": "Bunak",
@@ -989,7 +989,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Carolinian,Saipan,Tinian,Rota,Caroline Islands,Pacific,Micronesia,Northern Mariana Islands"
+    "b": "Tanapag,Talaabwogh,Matansa,San Roque,Garapan,Chalan Kanoa,Koblerville,Kagman,Dandan,Susupe,Achugao,Afetnas,As Lito,Chalan Piao,Capitol Hill,Gualo Rai,Songsong,Tinian,Taga,Rota"
   },
   {
     "name": "Ginuman",
@@ -998,7 +998,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ginuman,Papua New Guinea,Sepik,Ambunti,East Sepik,Wewak,Oceania"
+    "b": "Dime,Abau,Naraka,Mount Simpson,Goodenough Bay,Milne Bay,Central Province,Amazon Bay,Cloudy Bay,Orangerie Bay,Boniara,Daga,Misima,Sudest,Rossel"
   },
   {
     "name": "Gobasi",
@@ -1007,7 +1007,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gobasi,Western Province,Kiunga,Papua New Guinea,Fly River,Oceania,Coastal"
+    "b": "Mougulu,Igimi,Kofabi,Adumari,Ugubi,Sefalobi,Igibia,Sedado,Ugulubabi,Sadubi,Fuma,Hafemi,Yulabi,Suabi,Beredina,Pipila,Wakela,Egebila,Honabi,Udugombi,Kukudobi,Sirigubi,Mabomanibi,Wasubi,Bubusmabi,Aeyedubi,Tinahai,Sinabi,Wambobi"
   },
   {
     "name": "Chimbu",
@@ -1016,7 +1016,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chimbu,Kundiawa,Papua New Guinea,Chimbu Province,Highlands Region,Oceania"
+    "b": "Kundiawa,Gembogl,Kerowagi,Nigil,Barola,Nondri,Gaigai,Kurumul,Mingende,Kup,Gembogl,Womatne,Derin,Dena,Gon,Golumkane,Dinga,Dumun,Ombondo,Munuma,Womatne,Keglsugl,Gango,Bogo,Nogar,Demange,Miunde,Neragaima,Gamar,Kup"
   },
   {
     "name": "Chuave",
@@ -1025,7 +1025,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chuave,Chuave District,Simbu Province,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Chuave Urban,Eigun,Onoma,Keu,Mainamo,Goi,Maimagu,Kautambandi,Agugu,Togoma,Membimangi,Emegi,Sirikoge,Movi,Gogo,Elimbari,Siane,Wangoi,Nambayiufa,Tua Valley,Yonggomugl,Digine,Marigl,Gira,Koge,Kuna"
   },
   {
     "name": "Kavalan",
@@ -1034,7 +1034,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kavalan,Su'ao,Yilan,Taiwan,East Coast,East Asia"
+    "b": "Pate Rungan,Laila,Xinshe,Dazhi,Toucheng,Yilan,Jiaoxi,Suao,Waiao,Dali,Fengbin,Lanyang,Beiguan,Honeymoon Bay,Jingpu,Shihtiping,Xingang,Changbin,Chenggong,Donghe,Taimali,Dawu,Daren,Manzhou,Hengchun"
   },
   {
     "name": "Cook Islands Māori Pidgin",
@@ -1052,7 +1052,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lonwolwol,Santo,Port Vila,Vanuatu,Oceania,South Pacific"
+    "b": "Craig Cove,Ranon,Lalinda,Emyotungan,Fanrereo,Port Vato,Baiap,Towor,Toak,Asse,Fali,Lewoleba,Melip,Loltong,Longana,Lorevilko,Port Olry,Norsup,Lakatoro"
   },
   {
     "name": "Daga",
@@ -1061,7 +1061,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Daga,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Gaunani,Birat,Bonenau,Param,Kakaia,Payawa,Ilakae,Modeni,Uni,Bibitan,Danawan,Biman,Gwagut,Gwadede,Eviaua,Gwaira,Kanaturu,Gauwa,Gwiroro,Rabaraba,Abau,Awala,Yaviyufa,Magarida,Bore,Boni,Waigani,Domara,Irupara,Amazon Bay"
   },
   {
     "name": "Dani",
@@ -1070,7 +1070,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dani,Wamena,Tiom,Wosilimo,Papua,Indonesia,Baliem Valley,New Guinea,Oceania"
+    "b": "Wamena,Jiwika,Aikima,Suroba,Sumpaima,Wesagalep,Kurulu,Pyramid,Soba,Tanggeam,Anemaugi,Yogosem,Kurima,Kimbin,Tangma,Hitadipa,Tangguh,Bokondini,Karubaga,Oksibil,Ilaga,Sugapa,Timika,Mulia,Kobakma,Anggruk,Abenah"
   },
   {
     "name": "Dano",
@@ -1079,7 +1079,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dano,Mendi,Mount Hagen,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Anengu,Kombiangu,Amaiufa,Namta,Pikosa,Aneguyufa,Kwonggi,Wesan,Goroka,Asaro,Daulo,Lufa,Henganofi,Kainantu,Obura,Wonenara,Okapa,Bena,Unggai,Fimito,Oshara,Hogu,Kurafunugo,Mando,Pindiu,Henganofi"
   },
   {
     "name": "Dap",
@@ -1088,7 +1088,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dap,Mount Hagen,Kundiawa,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Dap,Wonevaro,Weam,Kandarisa,Wereaver,Tewara,Lewada,Mutam,Bensbach,Morehead,Wipim,Balimo,Lake Murray,Awaba,Wipim,Dorogori,Bula,Mabadauan,Old Mawatta,Mawatta,Parama,Wadauda,Katuru,Dibiri,Bamu"
   },
   {
     "name": "Densar",
@@ -1097,7 +1097,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Densar,Kisangani,Bukavu,DR Congo,Central Africa,Lake Kivu"
+    "b": "Seradela,Dekai,Anggruk,Bomela,Dirwemna,Holuwonia,Kona,Korupun,Obio,Pagamba,Piliam,Pronggoli,Soba,Sumtamon,Tomon,Wesaput,Yahukimo,Pass Valley,Holuwonia,Kwelemdua,Laryat,Molof,Nipsan,Pija,Tangke,Tenggin,Ubahak"
   },
   {
     "name": "Dima",
@@ -1106,7 +1106,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dima,Yola,Jalingo,Gongola State,Nigeria,North East,West Africa"
+    "b": "Jimajima,Alotau,Wagawaga,Bolu Bolu,East Cape,Suau,Bonarua,Panabala,Kaibola,Kiriwina,Kitava,Vakuta,Omarakana,Losuia,Kavataria,Oyabia,Wabutuma,Sinaketa,Yalumgwa,Kaduwaga,Kaileuna,Simsim,Brooker,Nimoa,Sewa Bay"
   },
   {
     "name": "Dom",
@@ -1115,7 +1115,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dom,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+    "b": "Karamaril,Minuma,Gaima,Moremaule,Buli,Gumine,Tagla,Omkolai,Boromil,Yani,Dirima,Bokolma,Mul,Dia,Gomgale,Waramond,Nondri,Amia,Era,Non Ku,Ilai Ku,Karimui,Nomane,Yani,Bokolma,Golin,Yuri,Sinasina,Yonggomugl"
   },
   {
     "name": "Domu",
@@ -1124,7 +1124,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Domu,Morobe Province,Bulolo,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Abuia,Unau,Tutuba,Waniana,Gobudo,Uwini-Ana,Gobo,Owo,Baibara,Maopa,Alukuni,Domara,Puilani,Kwikila,Bore,Alepa,Kalo,Aroma,Deuboa,Vaihua,Paibuna,Aibea,Kapa Kapa,Irupara,Biabak,Wanigela,Kupiano"
   },
   {
     "name": "Doromu",
@@ -1133,7 +1133,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Doromu,Kundiawa,Papua New Guinea,Chimbu Province,Highlands Region,Oceania"
+    "b": "Koki,Kokila,Koriko,Doromu,Sivori,Perakoho,Babaka,Goromoromu,Kwalakesi,Iomarina,Kwarula,Kwalu,Irupara,Gaile,Makeru,Mahuta,Kwaibeku,Boineyama,Arova,Helesu,Kemabu,Kwaipo,Moropa,Kalikai,Touaguba,Hohola"
   },
   {
     "name": "Duna",
@@ -1142,7 +1142,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duna,Mount Hagen,Kundiawa,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Puyane,Puni,Hagia,Koni,Kuhapia,Kewe,Aiyane,Akira,Muya,Yange,Wamira,Piru,Hirubaya,Waluni,Tarane,Hawinda,Kewa,Ayane,Paliaki,Wanga,Hewago,Lane,Hembe,Teruni,Paka,Haredege,Arou,Hagini,Poko,Hora,Kopiago,Koroba"
   },
   {
     "name": "Duvle Wano Pidgin",
@@ -1151,7 +1151,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duvle Wano Pidgin,Morobe Province,Lae,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Dagai,Fedide,Wedi,Sikwari,Wiri,Duvde,Duvele,Kuba,Yaletimika,Sugapa,Bilogai,Hitadipa,Hompe,Ilaga,Beoga,Ilu,Pogapa,Timika,Tembagapura,Kuala Kencana,Aroanop,Banti,Kwamki Lama,Kwamki Baru,Mapurujaya"
   },
   {
     "name": "Edolo",
@@ -1160,7 +1160,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Edolo,Edo State,Benin City,Nigeria,South South,Niger Delta,West Africa"
+    "b": "Bobole,Wabo,Onabasalu,Hidaboru,Hegigoro,Fugodo,Yaluba,Ambiapa,Buduaba,Goyame,Kenaba,Hidoparu,Bodibo,Popona,Arodobo,Gimisowi,Hoboru,Tombe,Kenembo,Omati"
   },
   {
     "name": "Ekari",
@@ -1169,7 +1169,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ekari,Papua New Guinea,Enga Province,Western Highlands,Oceania"
+    "b": "Enarotali,Tigi,Epabutu,Madi,Maiyai,Gayda,Kaniyapa,Wotai,Odero,Hei,Bogesiga,Aroepa,Borobaida,Orado,Kumopa,Kobetakaiba,Iyei,Toyaimoti,Komoepa,Madi,Paniai,Tigi Dua,Waghete,Nabire,Mapia,Deiya,Dogiyai,Moanemani"
   },
   {
     "name": "Enga",
@@ -1178,7 +1178,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Enga,Wabag,Lae,Papua New Guinea,Morobe Province,Oceania"
+    "b": "Wabag,Laiagam,Porgera,Kandep,Kompiam,Wapenamanda,Tsak,Maramuni,Ambum,Wage,Maip,Muritaka,Pilikambi,Paiela,Hewa,Yengis,Wapi,Mulitaka,Lyumbi,Pakelem,Kumul,Maramuni,Kaiap,Patpatan,Aipanda,Yamumb,Sakar,Pompom,Kopen"
   },
   {
     "name": "Ese'Ekit",
@@ -1187,7 +1187,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ese Ã–mie,Kuopio,HaapajÃ¤rvi,Oulu,Finland,Bothnian,Baltic Sea"
+    "b": "Afore,Popondetta,Kawawoki,Managalasi,Muaturaina,Chimona,Dea,Akabafa,Nami,Mesari,Averi,Minjori,Oko,Wakue,Numba,Jimuni,Karira,Kokoda,Buna,Gona,Sanananda,Soputa,Awala,Pongani,Tufi,Wanigela,Uiaku,Cape Nelson,Collingwood Bay"
   },
   {
     "name": "Ewage",
@@ -1196,7 +1196,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ewage,Morobe Province,Lae,Papua New Guinea,Highlands Region,Oceania"
+    "b": "Gona,Okeina,Okena,Yega,Sose,Sohe,Ifane,Ihane,Popondetta,Oro Bay,Afore,Tufi,Wanigela,Safia,Ioma,Kira,Ajoa,Waseta,Bareji,Singa,Soroputa,Higaturu,Embessa,Sambaa,Hoiebia,Sewa,Weregera"
   },
   {
     "name": "Faiwol",
@@ -1205,7 +1205,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Faiwol,Enga Province,Wabag,Papua New Guinea,Western Highlands,Oceania"
+    "b": "Tabubil,Finalbin,Bultem,Migalsim,Sisimakam,Ok Ma,Atemkit,Ninggerum,Kiunga,Ningerum,Mougulu,Telefolmin,Tifalmin,Olsobip,Bimin,Ok Tedi,Mt Fubilan,Nomad,Lake Murray,Balimo,Gawi,Awaba,Wipim,Morehead,Oriomo"
   },
   {
     "name": "Fasu",
@@ -1214,7 +1214,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mendi,Mount Hagen,Kundiawa,Papua New Guinea,Western Highlands,Oceania"
+    "b": "Dugubali,Genaabo,Irika,Damayu,Harabiyu,Herebo,Inu,Gesege,Iorogobayu,Manu,Gobe,Hidinihia,Fiwaga,Tugiri,Kafa,Yalanda,Sisibia,Baguale,Moro,Lake Kutubu,Nipa,Kiburu,Walio,Semin,Hides,Juha,Homa,Paua"
   },
   {
     "name": "Fataluku",
@@ -1250,7 +1250,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Simbu,Kundiawa,Mari-Mari,Gembogl,Papua New Guinea,Simbu Province,Highlands Region,Oceania"
+    "b": "Gumine,Boromil,Yani,Dirima,Bokolma,Mul,Karamaril,Minuma,Gaima,Moremaule,Buli,Tagla,Omkolai,Dia,Gomgale,Waramond,Nondri,Amia,Kundiawa,Gembogl,Chuave,Sinasina,Kerowagi,Kundiawa,Denglagu,Dumun,Diro,Koge,Womatne"
   },
   {
     "name": "Goroka",
@@ -1259,7 +1259,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goroka,Kundiawa,Mendi,Chuave,Papua New Guinea,Eastern Highlands,Simbu Province"
+    "b": "Goroka,Asarufa,Gahuku,Bena,Bena Bena,Finiptigl,Kamelka,Numbaira,Sikasifa,Asaro,Henganofi,Kainantu,Lufa,Daulo,Obura,Wonenara,Hogitu,Marawaka,Oraudena,Komiufa"
   },
   {
     "name": "Grand Valley Dani",
@@ -1277,7 +1277,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Koiari,Kwikila,Kalana,Maopa,Papua New Guinea,Central Province,Oceania"
+    "b": "Sogeri,Osabewai,Mesime,Vaiagai,Furimuti,Mageri,Vesilogo,Bereadabu,Kailaki,Doe,Ogotana,Kahitana,Berebei,Varutanamu,Suria,Kotoi,Boridi,Kagi,Efogi,Manari,Edevu"
   },
   {
     "name": "Gauwa",
@@ -1286,7 +1286,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gauwa,Andra,Pradiput,Simlipal,Odisha,India,Eastern India,Kalahandi Region"
+    "b": "Kainantu,Aiyura,Agarabi,Ramu,Onkono,Aubana,Pakino,Anonapa,Akuitenu,Anawa,Yonki,Gadsup,Orona,Mamarain,Binumarien,Pundibasa,Asa,Kubana,Yomuka,Karawepa,Binakemu,Arau,Osarora,Andandara,Erandora,Norikori,Nompia,Usarufa,Awa"
   },
   {
     "name": "Fembe",
@@ -1295,7 +1295,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fembe,Port Vila,Efate,Maevo,Santo,Tanna,Vanuatu,Oceania,South Pacific"
+    "b": "Pango,Eton,Erakor,Eratap,Mele,Emua,Epao,Ebao,Elouk,Emoa,Ifira,Tongoa,Emae,Makatea,Tongamea,Pele,Eretap,Melcoff,Manuro,Elevenele,Etos,Unakap,Forari"
   },
   {
     "name": "Fiwaga",
@@ -1304,7 +1304,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fiwaga,Wabag,Kagua,Tapinin,Papua New Guinea,Enga Province,Western Highlands,Oceania"
+    "b": "Dugubali,Genaabo,Damayu,Irika,Harabiyu,Herebo,Inu,Gesege,Iorogobayu,Manu,Gobe,Hidinihia,Tugiri,Kafa,Yalanda,Sisibia,Baguale,Kutubu,Mubi,Ifigi"
   },
   {
     "name": "Foe",
@@ -1313,7 +1313,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Foe,Kurikupapa,Oro,Baimuru,Papua New Guinea,Gulf Province,Oceania"
+    "b": "Kutubu,Mubi,Ifigi,Kafa,Harabuyu,Orokana,Morodobo,Hegeso,Waragu,Fimaga,Wabagame,Sepe,Morigu,Tugiri,Yebi,Agibamo,Wobalu,Gesevi,Kaimari,Waro,Amu,Hegeso"
   },
   {
     "name": "Foia Foia",
@@ -1322,7 +1322,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Foia,Papua New Guinea,Kimbe,Walomo,Mendi,Western Highlands,Oceania"
+    "b": "Bibisa,Kamusi,Mahigi,Minanibai,Goaribari,Omati,Ikobi,Kairi,Bamu,Daru,Balimo,Awe,Mapaio,Morigu,Dibiri"
   },
   {
     "name": "Fore",
@@ -1331,7 +1331,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fore,Kukukuku,Sene,Poraro,Papua New Guinea,Simbu Province,Eastern Highlands,Oceania"
+    "b": "Okapa,Purosa,Ofafina,Ibusa,Anumpa,Ivingoi,Umasa,Awarosa,Orie,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Kasoru,Kawaina,Amaira,Asempa,Sefuna,Iwaki"
   },
   {
     "name": "Siraya",
@@ -1340,7 +1340,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Siraya,Tainan,Tamsui,Taiwan,Sinckan,Banciao,Tsoyan,Taiwanese"
+    "b": "Sinkan,Soulang,Mattau,Bakloan,Tavocan,Dorcko,Tevorang,Takareiang,Tibole,Tipol,Terrisan,Sinkang,Tavocan,Teyovan,Mattauw,Soulangh,Baccloangh,Dorenap,Tefurang,Douliou,Xinhua"
   },
   {
     "name": "Fuyug",
@@ -1349,7 +1349,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Fuyug,Mafulu,Orongomo,Managalasi,Iome,Papua New Guinea,Central Province,Oceania"
+    "b": "Tapini,Woitape,Fatima,Ononge,Fane,Kosipe,Guari,Moapa,Laloki,Veifa,Udabe,Dilava,Aiwara,Kataipa,Lowa,Ariome,Aporota,Kunimaipa,Kataya,Nairilavava,Erumelavava,Kupova,Korauava,Tororo,Pomutu,Matsilavava,Giumu,Sopu,Kekeipo"
   },
   {
     "name": "Gende",
@@ -1358,7 +1358,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gende,Finisterre,Popondetta,Yam,Papua New Guinea,Madang Province,Oceania"
+    "b": "Bundi,Boni,Imuri,Gobug-Agu,Yandara,Kindaukevi,Karamuke,Simbai,Faita,Karawari,Yauso,Madang,Karkar,Bogia,Rai Coast"
   },
   {
     "name": "Hiri Motu",
@@ -1367,7 +1367,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hiri,Motu,Police,Papuan,Austronesian,Port Moresby,Sago,Papua New Guinea,Oceania"
+    "b": "Porebada,Boera,Papa,Roku,Lealea,Kido,Manumanu,Barakau,Tubusereia,Gaire,Hanuabada,Baruni,Konedobu,Vabukori,Motukea,Pari,Kirakira,Bolu"
   },
   {
     "name": "Huli",
@@ -1376,7 +1376,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huli,Tari,Iba,Muli,Png,Southern,Highlands,Papua New Guinea"
+    "b": "Benaria,Hobia,Hungomo,Timbunki,Mali,Yaluba,Pimaga,Tari,Helia,Komo,Magarima,Koroba,Kopiago,Tagali,Hayapuga,Tebi,Awipori,Pori,Lake Kopiago"
   },
   {
     "name": "Humene",
@@ -1385,7 +1385,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Humene,Kwaia,Manubara,Png,Central,Province,Oceania"
+    "b": "Manugoro,Gaire,Kapakapa,Babaka,Mount Suckling,Koari,Sogeri,Veimauri,Granville,Diava,Hiritana,Babaka,Gomorehu,Kalo,Kwikila"
   },
   {
     "name": "Hupla",
@@ -1394,7 +1394,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hupla,Dani,Baliem,Indonesia,Highlands,Papua,Papua New Guinea"
+    "b": "Wamena,Jiwika,Kurulu,Akupug,Kolo,Pugima,Soba,Hipmak,Yogonima,Kelila,Kanggime,Tagime,Piramid,Wolo,Pini,Walakma,Hubikaki,Anemaugi,Tanggeam,Aikima"
   },
   {
     "name": "Iha",
@@ -1403,7 +1403,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Iha,Tidore,Halmahera,Papua New Guinea,West Sepik Province,Oceania"
+    "b": "Kokas,Fakfak,Kaimana,Kokonao,Babo,Kamatnusa,Sisir,Patimburak,Ibuar,Mandoni,Kami,Tetar,Fafanlapo,Arguni,Mbaham,Kokas Tua,Tapurarang,Urarom,Sneuren"
   },
   {
     "name": "Gimi",
@@ -1412,7 +1412,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gimi,Mendi,Mandj,Kundiawa,Chimbu,Papua New Guinea,Eastern Highlands"
+    "b": "Gomia,Mainomoi,Aura,Yamofi,Ave,Maimafu,Homoka,Marawaka,Kamve,Tongusu,Yawanemba,Yaniyufa,Asaro,Bena,Moka,Gahuku"
   },
   {
     "name": "Gurindji Kriol",
@@ -1421,7 +1421,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gurindji,Kriol,Daguragu,Ngukurrwurr,Victoria,Australia,Northern Territory,Kriol Languages"
+    "b": "Kalkaringi,Daguragu,Wattie Creek,Wave Hill,Victoria River,Buntine,Hooker Creek,Limbunya,Killarney,Top Springs,Lajamanu,Tennant Creek,Katherine,Timber Creek,Yarralin,Pigeon Hole,Bulla,Amanbidji,Kalano,Binjari,Manyallaluk,Barunga,Wugularr,Beswick,Jilkminggan"
   },
   {
     "name": "Hamtai",
@@ -1430,7 +1430,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hamtai,Warahuta,Mendeng,Kalam,Yani,Mendi,Papua New Guinea,Eastern Highlands"
+    "b": "Menyamya,Kapao,Kome,Aseki,Nanima,Kariba,Wau,Bulolo,Edie Creek,Kaindi,Watut,Mumeng,Biaru,Sim,Akwansi,Andakombe,Azimba,Dangai,Gain,Hote,Iloko,Indagen,Kapau,Kumian,Mupi,Nauti,Oiwen,Quembu,Sawaneta,Tifalmin"
   },
   {
     "name": "Hawaiian",
@@ -2285,7 +2285,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mandalay,Monywa,Shwebo,Magway,Meiktila"
+    "b": "Tolitoli,Baolan,Galang,Dondo,Ampibabo,Tinombo,Sindue,Sirenja,Basidondo,Balaesang,Tajio,Kasimbar,Ogoamas,Dolago,Sidole,Siwali,Toboli,Balinggi,Moutong,Parigi,Palu,Donggala,Sigi,Biromaru,Kulawi,Nokilalaki,Gumbasa,Tanantovea,Banawa,Marawola"
   },
   {
     "name": "Lembena",
@@ -2303,7 +2303,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Alice Springs,Yuendumu,Lajamanu,Harts Range,Alice,Ayawarri"
+    "b": "Lajamanu,Yuendumu,Nyirrpi,Willowra,Tanami,Hooker Creek,The Granites,Rabbit Flat,Mt Denison,Mt Doreen,Chilla Well,Lander River,Lake Mackay,Reynolds Range,Anmatyerr,Ti Tree,Ali Curung,Papunya,Haasts Bluff,Kintore,Kiwirrkura,Balgo,Mulan"
   },
   {
     "name": "Maori",
