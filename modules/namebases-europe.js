@@ -2276,7 +2276,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "urj-RU",
     "m": 0,
-    "b": "Shoksha,Tengushevo,Barashevo,Dudnikovo,Stanovaya"
+    "b": "Shoksha,Tengushev,Torbeyevsky,Krasnaya Porya,Chamzinka,Attemar,Ichalki,Kozlovka,Bolshoye Ignatovo,Staryye Altanchiki,Novoye Selishche,Pyrma,Katta,Sadosharey,Uyma,Achkoy-Martan,Staroshchedary,Novocherkassk,Progress,Sernovodsk,Shaamy,Urus-Martan"
   },
   {
     "name": "Piedmontese",
@@ -2357,7 +2357,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "ro-RO",
     "m": 0,
-    "b": "Cluj-Napoca,Turda,CÃ¢mpia Turzii,LuduÈ™,Gherla,Dej,Beclean,Reghin,TÃ¢rgu MureÈ™"
+    "b": "Brasov,Sibiu,Targu Mures,Cluj-Napoca,Mures,Satu Mare,Bistrita,Alba Iulia,Deva,Zalau,Suceava,Bacau,Piatra Neamt,Onesti,Dorohoi,Botosani,Roman,Bacau,Zimnicea,Alexandria,Turnu Magurele,Giurgiu,Pitesti,Craiova,Dragasani,Filiasi,Bailesti,Rimnicu Vilcea,Slatina,Ploiesti,Campina,Buzau,Focsani,Braila,Galati,Tulcea,Constanta,Medgidia,Mangalia"
   },
   {
     "name": "Southern Sami",
@@ -2393,7 +2393,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Marseille,Aix-en-Provence,Arles,Toulon,Avignon,Digne-les-Bains,Gap,Nice"
+    "b": "Marseille,Nice,Aix-en-Provence,Arles,Avignon,Toulon,Cannes,Antibes,Orange,Draguignan,Gap,Digne-les-Bains,Fréjus,Saint-Tropez,Menton,Briançon,Hyères,Saint-Raphaël,Manosque,Sisteron,Carpentras,Cavaillon,Apt,Salon-de-Provence,Istres,Martigues,Aubagne,La Ciotat,Les Baux-de-Provence,Gordes,Roussillon,Bonnieux,Lourmarin,Cassis,Bandol,Pertuis,Orange,Cadenet,LIsle-sur-la-Sorgue,Fontaine-de-Vaucluse"
   },
   {
     "name": "Putèr",
@@ -3518,7 +3518,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Selkup,Turukhansk,Krasnoselkup,Narym,Kolpashevo,Tomsk,Siberia,Russia,Yenisei River"
+    "b": "Narym,Kolpashevo,Tym,Kargasok,Parabel,Kedrovy,Aleksandrovskoye,Bely Yar,Strezhevoy,Nizhnyaya Tunguska,Baykalovo,Pinyug,Olekmino,Srednyaya Bakta,Staroakbashikha,Togur,Kezhetskoye,Krutoye,Lukovkoye,Marinskoye,Mikhaylovskoye,Norskovo,Predchikovskoye"
   },
   {
     "name": "Petuh",
@@ -3662,7 +3662,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Votic,Narva,VÃ¤rska,Ingria,Estonia,Baltic,Baltic Sea"
+    "b": "Jogopera,Liivcula,Luditsa,Krakolye,Peski,Luzhitsy,Kattilby,Rapya,Kipina,Narva,Kingisepp,Volkhov,Leningradskaya,Kexholm,Shlissky,Siversky,Oredezh,Postolovo,Tokarovka,Kolpny,Medvezhyegorsk,Sortavala,Vyborg,Padany,Kola,Varzuga,Umba,Kovda,Petchenga,Zaozyorsk"
   },
   {
     "name": "Enets",
@@ -4148,7 +4148,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Syktyvkar,Ukhta,Vuktyl,Pechora,Sosnogorsk,Inta"
+    "b": "Syktyvkar,Vylgort,Ukhta,Vorkuta,Inta,Pechora,Usinsk,Sosnogorsk,Sysolsky,Izhemsky,Knyazhpogostsky,Koygorodsky,Kortkerossky,Priluzsky,Udorsky,Ust-Vymsky,Ust-Tsilma,Ust-Kulom,Troitsko-Pechorsk,Mikun,Shchelya,Vele,Pomozdino,Voyvozh,Letka,Sedkyrkeshch,Koslan,Karakulino,Zheshart"
   },
   {
     "name": "Sanchursk",
@@ -4157,7 +4157,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sanchursk,Khanty-Mansiysk,Surgut,Noyabrsk,Pyt-Yakh,Muravlenko"
+    "b": "Sanchursk,Votchinsk,Belaya Kholunitsa,Orlov,Shabalino,Siva,Klimovo,Nema,Murashi,Oparino,Darovskoy,Faustovo,Russkoye,Nagorskoye,Slobodskoy,Kumeny,Lbyazh,Bereznik,Vyatskoye,Khalturino,Chernukha,Sosnovka,Peselga,Zvyozdnoye,Ochevizh,Polom,Bykovka,Russkiy,Luzhsky,Kurako,Kosa"
   },
   {
     "name": "Sharanga",
@@ -4166,7 +4166,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chhindwara,Multanpur,Narsimhapur,Seoni,Mandla,Jabalpur"
+    "b": "Sharanga,Vyazniki,Gorokhovets,Murom,Navashino,Sechenovo,Pervomaysk,Krasnaya Gorka,Shakhunskoye,Bolsheboldinsky,Buturlino,Dalnekonstantinovo,Drovyanaya,Gagino,Kstovo,Kulebaki,Lyskovo,Pavlovo,Podnovye,Sechenovo,Sergach,Tonkino,Uren,Varnavino,Vetluga,Volodarsk,Vozhega,Zeleny Gorod,Chkalovsk"
   },
   {
     "name": "Selkup",
@@ -4175,7 +4175,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tazovsky,Krasnoselkup,Turukhansk,Krasnyy Yar,Tarko-Sale,Pangody"
+    "b": "Narym,Kolpashevo,Parabel,Kedrovy,Aleksandrovskoye,Bely Yar,Nizhnyaya Tunguska,Baykalovo,Strezhevoy,Khanty-Mansiysk,Surgut,Nefteyugansk,Nyagan,Beloyarsky,Fyodorovskoye,Gorkovskoye,Kargasok,Kezhetskoye,Kolpashevskoye,Krutoye,Lukovkoye,Marinskoye,Mikhaylovskoye,Norskovo,Olekmino,Pinyug,Predchikovskoye,Pynyug,Srednyaya Bakta,Staroakbashikha,Togur"
   },
   {
     "name": "Northern Selkup",
@@ -4184,7 +4184,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tobolsk,Khanty-Mansiysk,Noyabrsk,Puy-Yakh,Surgut,Muravlenko"
+    "b": "Ratta,Kikkiakki,Tolka,Purovskaya,Salekhard,Farkovo,Kellog,Krasnoselkup,Tarko-Sale,Muravlenko,Gubkinsky,Novy Urengoy,Noyabrsk,Nadym,Tazovsky,Yamburg,Anti-Pay,Khadyta,Nyda,Oksky,Purpe,Urengoy,Vyngapur,Yar-Sale"
   },
   {
     "name": "Northern Mansi",
@@ -4229,7 +4229,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Yekaterinburg,Nizhny Tagil,Pyt-Yakh,Nefteyugansk,Novy Urengoy"
+    "b": "Lemi,Lappeenranta,Imatra,Savitaipale,Taipalsaari,Luumaki,Parikkala,Rautjarvi,Ruokolahti,Joutseno,Lauritsala,Karhula,Kotka,Hamina,Virolahti,Miehikkala,Pyhtaa,Siltakyla,Kymi,Taavetti,Lappee,Mattila,Nuijamaa,Pulsa,Rautjarvi,Syvaro,Jarvenpaa,Tuulos,Kirkonmaki"
   },
   {
     "name": "Lezgin",
@@ -4238,7 +4238,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Derbent,Makhachkala,Khasavyurt,Kizlyar,Buynaksk"
+    "b": "Makhachkala,Derbent,Khasavyurt,Dagestanskiye Ogni,Izberbash,Kaspiysk,Buinaks,Kizilyurt,Kizlar,Khiv,Kumukh,Akhty,Derbentsky,Kasumkent,Magaramkentsky,Akhtynsky,Rutulsky,Dokuzparinsky,Kurakhsky,Tabasaransky,Khvsky,Tsumadinsky,Gelbakh,Karabudakhkent,Kazbekovsky,Kayakentsky,Khabarovky,Kochubey,Kyzlyar,Levashi"
   },
   {
     "name": "Livvi",
