@@ -2727,5 +2727,95 @@ window.oceaniaNameBases = [
       "d": "",
       "m": 0,
       "b": "Alofi,Niue,Fiji,New Zealand,Auckland,Sydney,Melbourne,Brisbane,Perth,Wellington,Christchurch,Hamilton,Tauranga,Niue Island,Pacific,Cook Islands,Tonga,Samoa,Wallis,Futuna,Avarua,Rarotonga,Aitutaki,Pukapuka,Penrhyn,Manihiki,Rakahanga,Samoan Language,Tongan Language,Fijian Language,Tokelau Language,Maori Language,Pacific Languages,Polynesian,Niue,Niuean Language,Vagahau Niue,Niue Island,Tofol,Alofi"
+    },
+    {
+      "name": "Tiwi",
+      "i": 304,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Darwin,Palmerston,Alice Springs,Tiwi Islands,Wurrumiyanga,Nguiu,Milikapati,Pirlangimpi,Japingka,Warddjak,Melville Island,Bathurst Island,Darwin Region,Northern Territory,Australia,Aboriginal,Tiwi Language,Tiwi Islands,Pirlangimpi,Milikapati,Wurrumiyanga,Nguiu,Japingka,Warddjak,John Matungs,Bay,Cox,Dead Horse,Trunk,Garden Point,Pmill,Buchanan,Malu,Kars,St. Teresa"
+    },
+    {
+      "name": "Anindilyakwa",
+      "i": 305,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Groote Eylandt,Angurugu,Umbakumba,Southeast Gulf,Drilsa,Yikbal,Barni-Walbanga,Wurankgak,Ltalngura,Wurrbbarna,Arlnga,Barni-Walak,Waljbena,Murnk-Empumal,Anindilyakwa Language,Groote Eylandt,Aboriginal,Australian,Alfred Save,Angurugu Community,Umbakumba Community,Gulf Region,Northern Territory,AUSTRALIA,FLINDERS ISLAND,Chasm Island,Bickerton Island,Wurrumba,Engeburra,Chase,Palmerston"
+    },
+    {
+      "name": "Gunwinggu",
+      "i": 306,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Maningrida,Ramingining,Maningrida,Bininj Kunwok,Kuninjku,Kunwinjku,Kunwinjku,Central Arnhem,Western Arnhem,Rembarrnga,Djokan,Manyarring,Dja,Kunwinjku,Kuninjku,Kundjok,Maningrida Community,Ramingining Community,Oenpelli,Outstations,West Arnhem,East Arnhem,Kakadu,Alligator Rivers,Katherine,Darwin,Northern Territory,Aboriginal,Australian,Bininj,Kunwok"
+    },
+    {
+      "name": "Murrinhpatha",
+      "i": 307,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Wadeye,Port Keats,Palmerston,Darwin,Katherine,Wadeye Community,Port Keats,Ngukurr,Nightcliff,Fannie Bay,Parap,Larrakeyah,Ludmilla,Bagot,Knuckeys,Gurindji,Dalabon,MalakMalak,Djabugay,Jaru,Kriol,Wadeye,Port Keats,Fitzroy,Darwin,Rising Sun,St. Marys,Ngurru,Murrumu,West Daly,Victoria Daly,West Arnhem"
+    },
+    {
+      "name": "Kriol",
+      "i": 308,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Katherine,Darwin,Alice Springs,R番,Fitzroy Crossing,Halls Creek,Broome,Derby,Kununurra,Rising,Murrumu,West Daly,Victoria Daly,West Arnhem,East Arnhem,Kimberley,Northern Territory,Western Australia,Queensland,Aboriginal,Kriol Language,Australian Kriol,Kriol,Bible,Auslan,Ringers,Western Desert,Crocodile,Maningrida,Ramingining,Katherine Region"
+    },
+    {
+      "name": "Yolngu",
+      "i": 309,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Yirrkala,Nhulunbuy,Gove,Nhulunbuy,Yirrkala Community,Bark Hut,Yirrkala Mission,Gove Peninsula,Dhuwa,Yolngu Matha,Rirratjingu,Bandalinda,Djambarrpuyngu,Gumatj,Ritharrngu,Wanguri,Liwaluma,Gupapuygu,Dhuwa,Yolngu,Yirrk,Dhanbul,Dhanbul,Djalwa,Yirrkala,Nhulunbuy,Gove,Elcho Island,Galiwinku,Milingimbi,Ramingining,Maningrida,Bickerton Island,Cape Stewart"
+    },
+    {
+      "name": "Wiradjuri",
+      "i": 310,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Wagga Wagga,Dubbo,Cowra,Parkes,Forbes,Coonabarabran,Gilgandra,Warrumbungle,Cobar,Narromine,Trangie,Nyngan,Bourke,Wanaaring,Brewarrina,Enngonia,Yantabulla,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Trangie,Warrumbungle,Forbes,Cowra,Wagga Wagga,Dubbo,Parkes,Mudgee,Gulgong,Wellington,Orange,Bathurst,Canowindra,Carcoar"
+    },
+    {
+      "name": "Gamilaraay",
+      "i": 311,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Moree,Goondiwindi,Moonie,Dalby,Warwick,Stanthorpe,Tenterfield,Glen Innes,Inverell,Armidale,Grafton,Coffs Harbour,Bellingen,Dorrigo,Bourke,Wanaaring,Brewarrina,Cobar,Warren,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Carinda,Nevertire,Mount Tenandra,Coolah,Sandona,Coolatai,Burren,Bollon,Cumalong,Coonamble"
+    },
+    {
+      "name": "Kamilaroi",
+      "i": 312,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Moree,Gwydir,North Star,Bellata,Gurley,Toowoomba,Dalby,Roma,Miles,Bollon,St George,Charleville,Cunnamulla,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Carinda,Nevertire,Mount Tenandra,Coolah,Sandona,Coolatai,Burren,Walgett,Lightning Ridge,Coonabarabran,Bingara,Ashford,Kempsey,Maclean,Yamba,Grafton,Coffs Harbour"
+    },
+    {
+      "name": "Paakantyi",
+      "i": 313,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Broken Hill,Dareton,Pooncarie,Mildura,Balranald,Hay,Griffith,Leeton,West Wyalong,Wagga Wagga,Dubbo,Parkes,Forbes,Cowra,Canowindra,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Warramboo,Wilcannia,Menindee,Ivanhoe,Tibbob,Mount Brown,Boolcarroll,Moolpa,Kiacatoo,Mount Boppy"
     }
   ];
