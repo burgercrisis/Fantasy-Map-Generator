@@ -3275,7 +3275,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cholanaikkan,Nilambur,Palakkad,India,Kerala,Western Ghats,South India"
+    "b": "Palakkad,Malappuram,Kozhikode,Wayanad,Kannur,Kasaragod,Kollam,Thiruvananthapuram,Alappuzha,Kottayam,Idukki,Ernakulam,Thrissur,Naduvannur,Kunnamkulam,Ponnani,Tirur,Kottakkal,Manjeri,Nilambur"
   },
   {
     "name": "Chong",
@@ -3284,7 +3284,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chong,Kratié,Kampong Cham,Cambodia,Mekong River,Southeast Asia"
+    "b": "Phnom Penh,Siem Reap,Battambang,Sihanoukville,Kampot,Kep,Kampong Cham,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Kampong Thom,Kampong Chhnang,Pursat,Banteay Meanchey,Oddar Meanchey,Preah Vihear,Takeo,Kampong Speu"
   },
   {
     "name": "Chrau Bahnaric",
@@ -3293,7 +3293,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chrau,Loc Ninh,Phu Long,An Giang,Vietnam,Mekong Delta,Southeast Asia"
+    "b": "Ho Chi Minh,Da Nang,Hue,Hanoi,Hai Phong,Nha Trang,Vung Tau,Quy Nhon,Phan Thiet,Mui Ne,Phan Rang,Cam Ranh,Dalat,Can Tho"
   },
   {
     "name": "Christian Palestinian Aramaic",
@@ -3707,7 +3707,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kodava,Madikeri,Somwarpet,Virajpet,Kodagu,Karnataka,India,South India,Western Ghats"
+    "b": "Coorg,Kodagu,Mysore,Mangalore,Bangalore,Madikeri,Virajpet,Kushalnagar,Siddapur,Ponnampet,Kutta,Kadekodi,Kothatt,Karnataka,Mercara,Iruppu"
   },
   {
     "name": "Derung",
@@ -3716,7 +3716,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Derung,Nujiang,Derung Autonomous County,China,Yunnan,Tibet Border,Himalayas"
+    "b": "Myitkyina,Bhamo,Putao,Mandalay,Sagaing,Shwebo,Monywa,Pyinoolwin,Lashio,Kyaing Tong,Tachileik,Kengtung,Mong Hsu,Mong Yai,Loi Kaw"
   },
   {
     "name": "Dhakaiya Kutti Bengali",
@@ -3725,7 +3725,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhakaiya Kutti Bengali,Dhaka,Narayanganj,Comilla,Bangladesh,South Asia,Delta Region"
+    "b": "Dhaka,Chittagong,Khulna,Barisal,Rajshahi,Sylhet,Comilla,Narayanganj,Gazipur,Lakshmipur,Noakhali,Feni,Lakshmipur,Bhola,Patuakhali,Barguna"
   },
   {
     "name": "Dhivehi",
@@ -3734,7 +3734,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhivehi,Malé,Addu,Hithadhoo,Maldives,Indian Ocean"
+    "b": "Male,Addu,Fuvahmulah,Thoddoo,Mahibadhoo,Dhidhdhoo,Kudahuvadhoo,Kulhudhuffushi,Naifaru,Ukulhas,Rasdhoo,Feridhoo,Bodufolhudhoo,Muli,Vani,Veymandoo,Kanditheem,Olhuvelifushi,Dhonakulhi,Maafushi"
   },
   {
     "name": "Dimasa",
@@ -3743,7 +3743,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dimasa,Haflong,Maibong,Dima Hasao,Assam,India,Northeast India"
+    "b": "Guwahati,Silchar,Dibrugarh,Jorhat,Tezpur,Tinsukia,Nagaon,Karbi Anglong,Diphu,Haflong,Maibong,Dima Hasao,North Cachar,Karbi,Manja,Donka"
   },
   {
     "name": "Domaaki",
