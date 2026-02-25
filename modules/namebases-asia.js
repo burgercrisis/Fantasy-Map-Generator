@@ -3806,7 +3806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duruwa,Bastar,Jagdalpur,Chhattisgarh,India,Central India"
+    "b": "Jagdalpur,Bastar,Dantewada,Kondagaon,Narayanpur,Kanker,Kanker,Raipur,Bilaspur,Durg,Rajnandgaon,Kawardha,Pandariya,Mungeli,Baloda Bazar,Gariaband,Mahasamund,Dhamtari,K门,Narayanpur,Bhadur,Bastar,Dantewada,Kondagaon"
   },
   {
     "name": "E mixed",
@@ -3932,7 +3932,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eravallan,Karur,Trichy,Thanjavur,Tamil Nadu,India,South India"
+    "b": "Tiruchirappalli,Karur,Thanjavur,Tanjore,Madurai,Dindigul,Theni,Sivaganga,Ramanathapuram,Virudhunagar,Tirunelveli,Thoothukudi,Kanyakumari,Kumbakonam,Puducherry,Cuddalore,Nagapattinam,Mayiladuthurai,Thiruvarur,Mannai,Karur"
   },
   {
     "name": "Even",
@@ -3950,7 +3950,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ewenic,Karur,Salem,Tiruchirappalli,Tamil Nadu,India,South India"
+    "b": "Tiruchirappalli,Salem,Namakkal,Erode,Coimbatore,Tiruppur,Dharmapuri,Krishnagiri,Dindigul,Theni,Madurai,Virudhunagar,Ramanathapuram,Sivaganga,Thanjavur,Puducherry,Cuddalore,Vellore,Tiruvannamalai,Salem,Attur,Mettur"
   },
   {
     "name": "Dogri",
@@ -4202,7 +4202,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goaria,Odisha,Sambalpur,Puri,India,East,Dravidian Languages"
+    "b": "Sambalpur,Rourkela,Bargarh,Balangir,Sonepur,Subarnapur,Kalahandi,Nuapada,Sambalpur,Jharsuguda,Deogarh,Sundargarh,Keonjhar,Mayurbhanj,Balasore,Bhadrak,Jajpur,Cuttack,Puri,Khordha,Bhubaneswar,Konark,Berhampur"
   },
   {
     "name": "Gurung",
@@ -4220,7 +4220,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gawri,Pakistan,Swat Kohistan,Hindu Kush,Chitral Valley,North"
+    "b": "Swat,Kohistan,Shangla,Chitral,Dir,Upper Dir,Lower Dir,Malakand,Mardan,Swabi,Nowshera,Peshawar,Charsadda,Khyber,Kashmir,Mansehra,Abbottabad,Haripur,Kohat,Hangu,Karak,Bannu,Tank,Dera Ismail Khan"
   },
   {
     "name": "Gowro",
@@ -4229,7 +4229,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gowro,Afghanistan,Nuristan,Kunar,Hindu Kush,Chitral Valley"
+    "b": "Nuristan,Kunar,Laghman,Kabul,Herat,Kandahar,Mazar-i-Sharif,Jalalabad,Peshawar,Khyber,Kashmir,Parun,Wama,Kamdesh,Asadabad,Nangarhar,Badakhshan,Takhar,Kundoz,Baghlan,Panjshir,Bamian,Ghor,Daykundi"
   },
   {
     "name": "Gawar-Bati",
@@ -4238,7 +4238,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gawar-Bati,Nuristan,Kunar,Hindu Kush,Kalam,Chitral,Chitral Valley"
+    "b": "Nuristan,Kunar,Lagman,Kabul,Herat,Kandahar,Mazar-i-Sharif,Jalalabad,Peshawar,Kashmir,Parun,Wama,Kamdesh,Asadabad,Nangarhar,Badakhshan,Kunar,Nuristan,Kabul,Afghanistan,Pakistan,Hindu Kush,Pamir,Himalaya"
   },
   {
     "name": "Gyeonggi-Seoul",
@@ -5534,7 +5534,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tiruchirappalli,Pudukkottai,Thanjavur,Nagapattinam,Karaikudi,Sivaganga"
+    "b": "Tiruchirappalli,Pudukkottai,Thanjavur,Nagapattinam,Mayiladuthurai,Tiruvarur,Kumbakonam,Mannai,Karur,Namakkal,Salem,Erode,Coimbatore,Tiruppur,Dindigul,Madurai,Theni,Sivaganga,Ramanathapuram,Virudhunagar,Tirunelveli"
   },
   {
     "name": "Kvx",
