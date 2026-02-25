@@ -3185,7 +3185,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kanbun,Kyoto,Nara,Osaka,Kobe,Kamakura,Tokyo,Japan,East Asia"
+    "b": "Kyoto,Nara,Osaka,Kobe,Kamakura,Tokyo,Heian,Kashihara,Asuka,Nara,Heian-kyo,Yamato,Kai,Suruga,Izumo,Yamashiro,Settsu,Harima,Bizen,Echizen,Kaga,Noto,Etchu,Echigo, Dewa,Mutsu,Sado,Izu,Hitachi"
   },
   {
     "name": "Chepangic",
@@ -3248,7 +3248,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kyakala,Heilongjiang,Amur River,Russia China Border,Siberia,Manchuria"
+    "b": "Heilongjiang,Harbin,Qiqihar,Mudanjiang,Jiamusi,Daqing,Yichun,Heihe,Mudanjiang,Jixi,Hegang,Shuangyashan,Daqing,Suihua,Yichun,Qitaihe,Mudanjiang,Wudalianchi,Zhaodong,Fujin,Fuyuan,Jixian,Tieli,Shangzhi"
   },
   {
     "name": "Chinese Pidgin English",
@@ -3257,7 +3257,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chinese Pidgin English,Canton,Hong Kong,Macau,Guangdong,China,Pearl River Delta"
+    "b": "Hong Kong,Canton,Guangzhou,Shantou,Xiamen,Shanghai,Tianjin,Beijing,Macau,Hong Kong,British,Colonial,Treaty Ports,Shanghai,Canton,Hong Kong,Guangdong,Fujian,Taiwan,Southeast Asia,Trade,British East India,Hong Kong"
   },
   {
     "name": "Chittagonian",
@@ -5507,7 +5507,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Giza,Helwan,Alexandria,Assiut,Sohag,Qena,Luxor,Aswan"
+    "b": "Cairo,Alexandria,Giza,Port Said,Suez,Zagazig,Luxor,Aswan,Mansoura,Tanta,Faiyum,Zagazig,Ismailia,Damietta,Damanhour,Minya,Beni Suef,Sohag,Qena,New Cairo,Sharm El Sheikh,Hurghada,Marsa Matruh,Siwa,Tobruk,Benghazi,Derne,Tripoli,Libya"
   },
   {
     "name": "Afro Seminole Creole",
@@ -5561,7 +5561,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bakel,Mbao,Salémata,Kédougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
+    "b": "Dakar,Thiès,Diourbel,Kaolack,Ziguinchor,Saint-Louis,Louga,Tambacounda,Kolda,Kédougou,Matam,Bakel,Touba,Kaffrine,Kébemer,Linguère,Ranérou,Fatick,Sédhiou,Goudomp,Koungheul,Mbour,Diamniadio,Pikine,Guédiawaye"
   },
   {
     "name": "Kyakhta Russian Chinese Pidgin",
@@ -5588,7 +5588,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Kisii,Meru,Thika,Nyeri"
+    "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Kisii,Meru,Thika,Nyeri,Mombasa,Nairobi,Kakamega,Kitale,Garissa,Lamu,Malindi,Nanyuki,Isiolo,Marsabit,Wajir,Mandera"
   },
   {
     "name": "Kyw",
@@ -5624,7 +5624,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Pakse,Salavan,Sekong,Champasak,Xekong,Attapeu,Saravan"
+    "b": "Vientiane,Luang Prabang,Pakse,Champasak,Savannakhet,Thakhek,Luang Namtha,Oudomxay,Bokeo,Houaphanh,Xieng Khouang,Phongsaly,Sayaboury,Sekong,Attapeu,Salavan,Khammouane,Bolikhamxai,Xaisomboun,Xieng Khouang,Phonhong,Kasy,Vang Vieng"
   },
   {
     "name": "Laz",
