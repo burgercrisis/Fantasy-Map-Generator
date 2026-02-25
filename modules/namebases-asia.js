@@ -4076,7 +4076,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Guiyang,Gaoyang,Qingzhen,Guiyang County,Guizhou,China,Southwest China"
+    "b": "Guiyang,Guizhou,Zunyi,Anshun,Bijie,Liupanshui,Dushan,Libo,Rongjiang,Congjiang,Sandu,Danzhai,Jinping,Leishan,Kaili,Duyun,Pingtang,Shiqian,Wutan,Wumeng,Weining,Zhijin,Panzhou,Xifeng,Wujiang"
   },
   {
     "name": "Hezhang Buyi",
@@ -4139,7 +4139,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bungkot,Ghanpokhun,Naya Gaun,Naubini,Gorkha,Barpakot,Nepal,Western"
+    "b": "Pokhara,Kaski,Lamjung,Tanahu,Gandaki,Baglung,Parbat,Myagdi,Gurung,Manang,Mustang,Dolpo,Morang,Butwal,Bhairahawa,Narayangadh,Chitwan,Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur"
   },
   {
     "name": "Northern Ghale",
@@ -4148,7 +4148,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ghanpokhun,Barpakot,Bungkot,Naubini,Naya Gaun,Gorkha,Nepal,Western"
+    "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Damak,Inaruwa,Narayangadh,Kavre,Nuwakot,Rasua,Dhading,Makwanpur"
   },
   {
     "name": "Ghera",
@@ -4184,7 +4184,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hwanghae,Haeju,Kaesong,Hongchong,Chuncheon,North Korea,Eastern,Korea"
+    "b": "Pyongyang,Hwanghae,Kaesong,Nampo,Sinuiju,Chongjin,Wonsan,Hamhung,Haeju, Sariwon,Munchon,Kaesong,Pochon,Yonggwang,Suan,Huichon,Kusong,Chosan,Sakchu,Huichon,Yonggwang,Kowon,Sangwon,Taedong"
   },
   {
     "name": "Ibanag",
@@ -4481,7 +4481,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tigil,Kovran,Khairyuzovo,Ust-Khairyuzovo,Sedanka,Belogolovoye,Moroshechnoye,Utkholok,Napana"
+    "b": "Petropavlovsk,Kamchatsky,Klyuchi,Ust-Kamchatsk,Kozyrevsk,Milkovo,Ellizovo,Vilyuchinsk,Paratunka,Semyonov,Mikhalkovo,Khalaktyr,Napa,Dachny,Tsentr,Oktyabrsky,Vulkanny,Gorodok,Sadovy,Krasny,Voyenny,Vnukovo,Naberezhny"
   },
   {
     "name": "Joseon Korean Modern",
@@ -5399,7 +5399,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Kisii,Meru,Thika,Nyeri"
+    "b": "Patna,Gaya,Muzaffarpur,Bhagalpur,Darbhanga,Munger,Begusarai,Samastipur,Madhubani,Sitamarhi,Siwan,Chapra,Hajipur,Vaishali,Khagaria,Saharsa,Supaul,Araria,Kishanganj,Purnia,Katihar,Madhepura,Banka,Jamui"
   },
   {
     "name": "Kurmali",
@@ -5489,7 +5489,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Wayanad,Kalpetta,Sultan Bathery,Mananthavady,Vythiri,Panamaram"
+    "b": "Kozhikode,Kannur,Wayanad,Malappuram,Palakkad,Kasaragod,Kollam,Thiruvananthapuram,Alappuzha,Kottayam,Ernakulam,Thrissur,Kochi,Kannur,Kalpetta,Mananthavady,Sultan Battery,Vythiri,Meppadi,Kuppadi,Nadavayal,Thondernad,Kunjappan"
   },
   {
     "name": "Azd Dialect",
@@ -6506,7 +6506,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dhankuta,Mahalaxmi,Pakhribas,Sangurigadhi,Chaubise,Shahidbhumi,Chhathar,Kantipur,Belhara"
+    "b": "Kathmandu,Pokhara,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Damak,Inaruwa,Narayangadh,Kaski,Lamjung,Tanahu,Gandaki"
   },
   {
     "name": "Beary",
