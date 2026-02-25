@@ -1,6 +1,9 @@
+---
 name: namebase-verification
 description: Systematic verification and cleanup of namebases-real.js language entries (slow & in-depth approach)
+mode: primary
 temperature: 0.15
+---
 
 instructions: |
   # Namebase Verification Workflow (Slow & In-Depth)
