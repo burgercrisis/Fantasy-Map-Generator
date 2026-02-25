@@ -3833,7 +3833,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "East Bodish,Lhasa,Shigatse,Qamdo,Chamdo,Tibet Autonomous Region,China,Himalayas"
+    "b": "Thimphu,Paro,Wangdue Phodrang,Punakha,Trongsa,Mongar,Bumthang,Trashigang,Samdrup Jongkhar,Phuntsholing,Chukha,Gasa,Haa,Sarpang,Zhemgang,Lhuentse,Tashigang,Mongar,Trashiyangtse,Yangtse,Dagana,Tsirang,Thimphu,Chukha"
   },
   {
     "name": "Duan Bahnaric",
@@ -3851,7 +3851,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Himalayas,Sikkim,West Bengal,Assam,India,Bhutan,Bangladesh Border"
+    "b": "Darjeeling,Sikkim,Gangtok,Kalimpong,Kurseong,Mirik,Namchi,Pelling,Lachen,Lachung,Zuluk,Pelling,Yuksam,Uttarakhand,Kumaon,Almora,Nainital,Mussoorie,Dehradun,Haridwar,Rishikesh,Chakrata,Dhanaulti"
   },
   {
     "name": "Eastern Itelmen",
@@ -3860,7 +3860,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Itelmen,Kamchatka,Palana,Petropavlovsk-Kamchatsky,Russia,Far East,Kamchatka Peninsula"
+    "b": "Petropavlovsk,Kamchatsky,Klyuchi,Ust-Kamchatsk,Kozyrevsk,Milkovo,Ellizovo,Vilyuchinsk,Paratunka,Semyonov,Mikhalkovo,Khalaktyr,Napa,Dachny,Tsentr,Oktyabrsky,Vulkanny,Gorodok,Sadovy,Krasny,Voyenny"
   },
   {
     "name": "Arh",
@@ -3896,7 +3896,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Min,Fuzhou,Xiamen,Putian,Fujian,China,Southeast China"
+    "b": "Fuzhou,Quanzhou,Xiamen,Zhangzhou,Putian,Sanming,Ningde,Nanping,Longyan,Quanzhou,Jinjiang,Shishi,Houquan,Quanzhou,Fujian,Taiwan,Taipei,Kaohsiung,Taichung,Tainan,Keelung,Chiayi,Hsinchu,Taoyuan"
   },
   {
     "name": "Eastern Yugur",
@@ -4193,7 +4193,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ibanag,Tuguegarao,Ilagan,Abulug,Isabela,Santa Maria,Luzon,Philippines"
+    "b": "Tuguegarao,Cauayan,Ilagan,Santiago,Cabagan,San Mateo,Maddela,Cabarroguis,Quirino,Sierra Madre,Isabela,Cagayan,Aparri,Lal-lo,Gattaran,Baggao,Tao,San Mariano,Ilocos,Vigan,Laoag,Pagudpud,Sicnarf,Suyo"
   },
   {
     "name": "Goaria",
@@ -4211,7 +4211,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gurung,Ghandruk,Tapas,Bemba,Gorkha,Kaski,Chandigarh,India,Central"
+    "b": "Pokhara,Kaski,Lamjung,Tanahu,Gandaki,Baglung,Parbat,Myagdi,Manang,Mustang,Dolpa,Morang,Butwal,Bhairahawa,Narayangadh,Chitwan,Damas"
   },
   {
     "name": "Gawri",
@@ -4346,7 +4346,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hazara,Quetta,Kandahar,Bamian,Herat,Parwan,Pakistan,Khorasan"
+    "b": "Kabul,Herat,Kandahar,Mazar-i-Sharif,Bamyan,Wardak,Logar,Panjshir,Ghor,Daykundi,Urozgan,Zabul,Kandahar,Hilmand,Nangarhar,Kunar,Nuristan,Badakhshan,Takhar,Baghlan,Kundoz,Balkh,Jowzjan,Faryab,Diamond,Helmand,Herat,Bamian,Central,Hazarajat,Qala-i-Naib,Sar-e Pol,Balkhab,Shahrak,Pul-i-Khumri,Charikar"
   },
   {
     "name": "Ilocano native-speakers subset",
