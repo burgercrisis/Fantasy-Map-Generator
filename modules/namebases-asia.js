@@ -3401,7 +3401,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cham,Phan Rang,Nha Trang,Ho Chi Minh City,Vietnam,Indochina,Mekong Delta"
+    "b": "Phan Rang,Phan Thiet,Nha Trang,Ho Chi Minh,Saigon,Cambodia,Phnom Penh,Siem Reap,Battambang,Sihanoukville,Kampot,Kep,Kampong Cham,Kratie,Stung Treng,Ratanakiri,Mondulkiri,Kampong Thom,Kampong Chhnang,Pursat,Battambang,Pailin,Preah Vihear,Oddar Meanchey,Takeo,Kampot,Kampong Speu,Koh Kong,Preah Sihanouk,Kampong Bay"
   },
   {
     "name": "Chamalal",
@@ -3410,7 +3410,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chamalal,Khasavyurt,Tlokh,Dagestan,Russia,North Caucasus"
+    "b": "Makhachkala,Derbent,Kizilyurt,Kizlar,Khasavyurt,G Grozny,Dagestan,Kumukh,Tsumada,Tsunta,Urava,Kuk,Khibir,Kadar,Mekh,Chirkey,Miatli,Kochubey,Kizlyar,Kuma,Kumukh,Gunib,Akusha,Kara,Aushi"
   },
   {
     "name": "Chak",
@@ -3419,7 +3419,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chak,Bandarban,Rangamati,Chittagong Hill Tracts,Bangladesh,Chittagong,South Asia"
+    "b": "Chittagong,Cox's Bazar,Rangamati,Bandarban,Khagrachari,Mymensingh,Tangail,Sirajganj,Pabna,Bogra,Rajshahi,Jessore,Khulna,Barisal,Patuakhali,Bhola,Lakshmipur,Noakhali,Feni,Comilla,Brahmanbaria,Habiganj,Sunamganj,Sylhet,Maulvi Bazar,Habiganj,Moulvi Bazar"
   },
   {
     "name": "Classical Syriac",
@@ -3437,7 +3437,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chilisso,Kohistan,Pattan,Besham,Pakistan,Khyber Pakhtunkhwa,Himalayas"
+    "b": "Kathmandu,Pokhara,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Narayangadh,Kaski,Lamjung,Manang,Mustang,Dolpa,Baglung,Parbat,Myagdi,Rukum,Jumla,Kalikot,Mugu,Humla,Jajarkot"
   },
   {
     "name": "Idu Mishmi",
@@ -3500,7 +3500,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Corfiot Maltese,Corfu,Kerkyra,Greece,Ionian Sea,Europe"
+    "b": "Corfu,Kerkyra,Paxos,Antipaxos,Ioannina,Thessaloniki,Athens,Peloponnese,Kefalonia,Zakynthos,Lefkada,Ithaca,Kythira,Peloponnese,Messinia,Laconia,Arcadia,Argolis,Corinthia,Achaea,Elis,Patras,Kalamata"
   },
   {
     "name": "Cottonera Dialect",
@@ -3509,7 +3509,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cottonera,Vittoriosa,Senglea,Cospicua,Malta,Mediterranean Sea,Valletta"
+    "b": "Vittoriosa,Cospicua,Senglea,Kalkara,Vittoriosa,Birgu,Isla,Bormla,Valletta,Sliema,St Julian's,Gzira,Mosta,Naxxar,Gargur,Msida,Bormla,Ta' Xbiex,Pembroke,Swieqi,Qawra,Bugibba,Mellieha,Gozo"
   },
   {
     "name": "Courland Livonian",
@@ -3518,7 +3518,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Courland Livonian,Riga,Ventspils,Liepāja,Latvia,Baltic,Baltic Sea"
+    "b": "Riga,Liepaja,Klaipeda,Jelgava,Jurmala,Ventspils,Daugavpils,Liepaja,Kurland,Kurlanija,Talsi,Tukums,Kandava,Sabile,Stende,Valdemarpils,Kolka,Mersrags,Roja,Pavilosta,Durbe,Priekule,Grobina,Aizpute,Skrunda,Saldus,Jelgava,Tukums,Mitau"
   },
   {
     "name": "Coxoh",
@@ -3536,7 +3536,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Asho,Mizoram,India,Chin State,Myanmar,Southeast Asia"
+    "b": "Mandalay,Sagaing,Monywa,Pyinoolwin,Kyaukse,Meiktila,Yamethin,Myingyan,Natogyi,Myittha,Kani,Yinmabin,Salingyi,Tabayin,Mandalay,Amarapura,Ava,Inwa,Sagaing,Mandalay,Mandalay Hill,Shwebo,Wetlet,Khin,Chaung U,Yandoon,Kyangin,Yesagyo,Pakokku,Gangaw,Tilin"
   },
   {
     "name": "Cua",
