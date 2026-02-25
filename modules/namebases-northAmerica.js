@@ -918,5 +918,95 @@ window.northAmericaNameBases = [
       "d": "",
       "m": 0,
       "b": "New York City,Rochester,Syracuse,Buffalo,Albany,Niagara Falls,Utica,Schenectady,Binghamton,Jamestown,Olean,Corning,Watertown,Massena,Plattsburgh,Akron,Auburn,Syracuse,Iroquois,Haudenosaunee,Five Nations,Six Nations,Onondaga,Mohawk,Oneida,Cayuga,Seneca,Tuscarora,Mohawk,Onondaga,Oneida Language,Cayuga Language,Six Nations Iroquois Confederacy,Grand River,Akwasasne,Kahnawake,Tuscarora Nation,Onondaga Nation,Cayuga Nation,Sensata,Onoñode,Onoton,Onguiaahronon"
+    },
+    {
+      "name": "Miskito",
+      "i": 103,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Bilwi,Puerto Cabezas,Waspam,Prinzapolka,Rosita,Bocana,Caiman,Waspan,Bilwi,Bonanza,Siuna,La Cruz,Rosita,Dakura,Wawa,Mosquito Coast,Atlantic Coast,Nicaragua,Honduras,Miskito Language,Mosquito,Miskitu,Sumu,Tawahka,Miskitu Coast,Yulu,Sibun,Patuca,Pia,Poplite,Lum,Prinzapolka,Waspam,Puerto Cabezas,Bilwi Cape Gracias a Dios,Rio Coco,Coco River,Wawa River,Patu River,Pilona,Karawara,Dakota,Bluefields,Corn Island,Pearl Lagoon"
+    },
+    {
+      "name": "Garifuna",
+      "i": 104,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Belize City,Belmopan,Dangriga,Placencia,Hopkins,Sittee River,Leyton Grove,Punta Gorda,Toledo District,Stann Creek District,Belize District,Cayo District,Orange Walk District,Corozal District,Honduras,Guatemala,Nicaragua,Garifuna Language,Caribbean,Garinagu,Black Carib,Dangriga,Placencia,Hopkins,Sittee,Livingston,Guatemala,La Ceiba,Tela,Santa Barbara,Balas,Trinidad,Sula,Choloma,San Pedro Sula,Pimentel,Danto"
+    },
+    {
+      "name": "Kuna",
+      "i": 105,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Panama City,Colón,Cartagena,San Blas Islands,Kuna Yala,Guna Yala,Comarca Kuna Yala,Wargandí,Cemitu,Madungandí,Chepigana,Sand Are,Kuna Language,Panama,Colombia,Kuna People,Dule,Guna,San Blas Archipelago,Cartagena,Panama City,Colón,Portobelo,Kuna Yala,Comarca Kuna Yala,Wargandi,Cacique,Dule,Kuna Village,Panama Caribbean"
+    },
+    {
+      "name": "Bribri",
+      "i": 106,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "San Jose,Limón,Puerto Viejo,Talamanca,Cahuita,Port Limón,Costa Rica,Costa Rica Caribbean,Costa Rica,Alajuela,Cartago,Heredia,Guanacaste,Puntarenas,Bribri Language,Talamanca,Cabécar,Bribri,Salt Creek,Talamanca,Bribri,Southern Costa Rica,Caribbean Coast,Costa Rica Caribbean,Bribri Village,Cabécar Language,Indigenous Costa Rica"
+    },
+    {
+      "name": "Cabecar",
+      "i": 107,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Limón,Puerto Viejo,Cahuita,San Jose,Talamanca,Costa Rica,Cartago,Heredia,Alajuela,Guanacaste,Puntarenas,Cabécar Language,Talamanca,Bribri,Cabécar,Costa Rica Caribbean,Bribri Language,Caribbean Costa Rica,Costa Rica,Indigenous,Cabécar People,Cabécar Village,Indigenous Languages"
+    },
+    {
+      "name": "Ngabere",
+      "i": 108,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Panama City,Colón,Portobelo,David,Chiriqui,Bocas del Toro,Ngäbe-Buglé,Comarca Ngäbe-Buglé,Veraguas,Panama West,Panama East,Coclé,Herrera,Los Santos,Ngabere Language,Guaymí,Ngobe,Ngobe Language,Panama Caribbean,Panama West,Coclé,Ngabere,Ngobe Bugle,Indigenous Panama"
+    },
+    {
+      "name": "Embera",
+      "i": 109,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Panama City,Colón,Darien,Embera,Choco,Colombia,Chocó,Antioquia,Embera Language,Embera-Copan,Darien Province,Panama Caribbean,Colombia Pacific,Kuna,Yaviza,La Palma,Darien,Embera Village,Indigenous Panama,Embera People,Embera Language,Choco Region,Pacific Panama"
+    },
+    {
+      "name": "Waunana",
+      "i": 110,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Chocó,Colombia,Panama,Pacific Coast,Darien,Embera,Waunan,Waunana Language,Chocó Department,Antioquia,Pacific Colombia,Panama West,Veraguas,Colombia Pacific,Waunana,Embera,Darien Region,Pacific Coast Panama,Pacific Coast Colombia,Indigenous Choco,Choco Languages"
+    },
+    {
+      "name": "Boruca",
+      "i": 111,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "San Jose,Puntarenas,Costa Ballena,Osa Peninsula,Corcovado,Dominical,Quepos,Manuel Antonio,Golfito,Coto Brus,Puntarenas Province,Boruca,Boruca Language,Bruka,Brunku,Costa Rica Southern,Pacific Coast,Costa Rica,Puntarenas,Boruca Village,Indigenous Costa Rica,Boruca People,Boruca Community,Costa Rica Indigenous"
+    },
+    {
+      "name": "Teribe",
+      "i": 112,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Bocas del Toro,Panama,Chiriqui,Veraguas,Ngobe-Bugle,Comarca,Bocas del Toro Province,Teribe,Teribe Language,Teribe People,Northern Panama,Panama Caribbean,Teribe Village,Bocas Town,Colón,Chiriquí Grande,Valle de Riscado,Pember,Norquinto,Burica,Panama West"
     }
   ];
