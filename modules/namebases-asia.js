@@ -3635,7 +3635,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Irula,Coimbatore,Erode,Nilgiris,Tamil Nadu,India,South India"
+    "b": "Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tiruppur,Vellore,Erode,Thanjavur,Dindigul,Thiruvannamalai,Vellore,Krishnagiri,Dharmapuri,Namakkal,Karur,Perambalur,Ariyalur,Nagapattinam,Mayiladuthurai,Puducherry"
   },
   {
     "name": "Jeseri",
@@ -3644,7 +3644,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Jeseri,Kerala,Kochi,Kollam,India,South India,Malabar Coast,Arabian Sea"
+    "b": "Hyderabad,Secunderabad,Warangal,Karimnagar,Nizamabad,Khammam,Rangareddy,Medak,Mahbubnagar,Adilabad,Gulbarga,Raichur,Koppal,Bellary,Chitapur,Bidar,Kalaburagi,Guntur,Vijayawada,Kurnool,Anantapur,Kadapa,Nellore"
   },
   {
     "name": "Kadar Dravidian",
@@ -3653,7 +3653,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kadar,Thrissur,Palakkad,Kerala,India,South India,Western Ghats"
+    "b": "Kochi,Thiruvananthapuram,Kozhikode,Kollam,Thrissur,Palakkad,Malappuram,Kannur,Kasaragod,Kottayam,Alappuzha,Idukki,Ernakulam,Pathanamthitta,Wayanad,Ooty,Coonoor,Kodaikanal,Madurai,Dindigul,Theni,Sivaganga"
   },
   {
     "name": "Kaikadi",
@@ -3662,7 +3662,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kaikadi,Aurangabad,Maharashtra,India,West India,Deccan Plateau"
+    "b": "Mumbai,Pune,Nagpur,Nashik,Aurangabad,Solapur,Kolhapur,Navi Mumbai,Thane,Sangli,Satara,Ahmednagar,Beed,Latur,Nanded,Osmanabad,Parbhani,Jalna,Ahmadnagar,Dhule,Jalgaon,Buldhana,Amravati,Akola"
   },
   {
     "name": "Kakkala",
@@ -3671,7 +3671,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kakkala,Salem,Namakkal,Tamil Nadu,India,South India"
+    "b": "Vijayawada,Guntur,Kurnool,Rajahmundry,Tirupati,Kadapa,Nellore,Anantapur,Kurnool,Adoni,Kadiri,Tadipatri,Guntakal,Dhone,Nandyal,Yemmiganur,Proddatur,Jammalamadugu,Maddur,Cumbum,Markapur,Ongole,Chirala"
   },
   {
     "name": "Kalanadi",
@@ -3680,7 +3680,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kalanadi,Kasaragod,Kannur,Kerala,India,South India,Malabar Coast"
+    "b": "Mysore,Mangalore,Bangalore,Hubli,Dharwad,Belgaum,Tumkur,Hassan,Chitradurga,Shimoga,Udupi,Dakshina Kannada,Uttara Kannada,Karwar,Kumta,Honnavar,Bhatkal,Kundapur,Bailur,Karkala,Moodabidri,Mangalore,Ullal"
   },
   {
     "name": "Kanikkaran",
@@ -3689,7 +3689,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kanikkaran,Kanyakumari,Tirunelveli,Tamil Nadu,India,South India"
+    "b": "Thiruvananthapuram,Kollam,Pathanamthitta,Alappuzha,Kottayam,Idukki,Ernakulam,Thrissur,Palakkad,Malappuram,Kozhikode,Kannur,Wayanad,Kasaragod,Kochi,Kasaragod,Kochi,Mavelikkara,Kayamkulam,Chengannur"
   },
   {
     "name": "Khirwar",
@@ -3698,7 +3698,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Khirwar,Baramula,Srinagar,Kashmir,India,Himalayas"
+    "b": "Jaipur,Jodhpur,Udaipur,Kota,Bikaner,Ajmer,Pilani,Bharatpur,Alwar,Bhilwara,Sikar,Pali,Nagaur,Dungarpur,Banswara,Chittorgarh,Kotputali,Rajsamand,Dholpur,Karauli,Sawai Madhopur,Baran,Jhalawar"
   },
   {
     "name": "Kodava",
