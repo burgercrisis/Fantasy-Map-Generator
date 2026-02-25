@@ -1098,5 +1098,95 @@ window.northAmericaNameBases = [
       "d": "",
       "m": 0,
       "b": "Chicago,Detroit,Milwaukee,Green Bay,Appleton,Oshkosh,Manitowoc,Fond du Lac,Grand Rapids,Lansing,Kalamazoo,South Bend,Fort Wayne,Indianapolis,Cedar Rapids,Iowa City,Davenport,Cedar Rapids,Iowa,Wisconsin,Michigan,Illinois,Indiana,Iowa,Kentucky,Potawatomi Language,Bodwem,Bodewadmik,Potawatomi Nation,Potawatomi Tribe,Forest County"
+    },
+    {
+      "name": "Wabanaki",
+      "i": 123,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Boston,Maine,New Hampshire,Vermont,Maine,Acadia,Bar Harbor,Camden,Portland,Kennebunkport,Rockport,Camden,Bar Harbor,Acadia National Park,Mount Desert Island,Penobscot,Passamaquoddy,Maliseet,Mi'kmaq,Pembroke,Calais,Eastport,Machias,Ellsworth,Augusta,Waterville,Lewiston,Auburn,Bangor,Brewer,Orono,Old Town,Penobscot Nation,Indian Township,Passamaquoddy Nation"
+    },
+    {
+      "name": "Abenaki",
+      "i": 124,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "New Hampshire,Vermont,Maine,Massachusetts,New England,Concord,Manchester,Nashua,Dover,Rochester,Keene,Claremont,White Mountains,Green Mountains,Berkshires,Connecticut River,Connecticut,Massachusetts,New England,Abenaki Nation,St. Francis,Sokoki,Missisquoi,New Hampshire,Vermont,Maine"
+    },
+    {
+      "name": "Mi'kmaq",
+      "i": 125,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Halifax,Dartmouth,Truro,New Glasgow,Sydney,Glace Bay,Cape Breton,Nova Scotia,New Brunswick,Prince Edward Island,Newfoundland,New England,Halifax,Dartmouth,Cape Breton Island,Prince Edward Island,Mi'kmaq Nation,Mi'kmaw,Unama'ki,Mikmaq,Restigouche,Listuguj,Eel River,Esgenoopititj,Mi'kmaw Language"
+    },
+    {
+      "name": "Passamaquoddy",
+      "i": 126,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Calais,Eastport,Machias,Dover-Foxcroft,Ellsworth,Bar Harbor,Acadia,Portland,Kennebunkport,Maine,New Brunswick,Passamaquoddy Bay,St. Croix River,Passamaquoddy Nation,Indian Township,Pleasant Point,Sipayik,Mi'kmaq,Maliseet,Wabanaki,Maine,New Brunswick,Bay of Fundy"
+    },
+    {
+      "name": "Maliseet",
+      "i": 127,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Fredericton,Saint John,Edmundston,Woodstock,New Brunswick,Maine,St. John River,Passamaquoddy,Mi'kmaq,Wabanaki,Houlton,Fort Fairfield,Caribou,Presque Isle,Aroostook,Northern Maine,New Brunswick Canada,Maliseet Nation,Vital Grand Chief,Maliseet Language"
+    },
+    {
+      "name": "Cherokee",
+      "i": 128,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Tahlequah,Muscogee,Oklahoma City,Tulsa,Broken Arrow,Fort Smith,Fayetteville,Rogers,Bentonville,Eureka Springs,North Carolina,Western North Carolina,Smoky Mountains,Qualla Boundary,Cherokee Nation,Eastern Band,Western Cherokee,Ozark,Ouachita,Arkansas River,Tennessee River,Georgia,North Carolina,Tennessee,Oklahoma,Cherokee Nation,UKB,CN"
+    },
+    {
+      "name": "Chickasaw",
+      "i": 129,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Chickasaw,Chickasaw Nation,Tulsa,Oklahoma City,Ada,Ardmore,Durant,Atoka,Choctaw,McAlester,Poteau,Sallisaw,Idabel,Wilburton,Hugo,Antlers,Coalgate,Davis,Murray County,Oklahoma,Chickasaw Language,Chickasaw Nation,Chickasaw Country,Chickasaw People,Lahoma,Tulsa Metro"
+    },
+    {
+      "name": "Natchez",
+      "i": 130,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Natchez,Mississippi,Louisiana,New Orleans,St. Francisville,St. Catherine Creek,Mississippi River,Red River,Bayou Teche,Atchafalaya,Baton Rouge,Natchez Trace,Natchez Nation,Natchez People,Natchez Language,Tunique,Cajun,French Louisiana,Cane River,St. Mary Parish,Louisiana Delta"
+    },
+    {
+      "name": "Catawba",
+      "i": 131,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Rock Hill,Charleston,Columbia,Charlotte,Greenville,Spartanburg,South Carolina,North Carolina,Catawba River,York County,Lancaster County,Chester County,Catawba Nation,Catawba Indians,Catawba Language,Rock Hill South Carolina,York County,Catawba Tribe,Ridge,Catawba Village,Catawba Culture"
+    },
+    {
+      "name": "Yuchi",
+      "i": 132,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Sapulpa,Tulsa,Creek,Oklahoma City,Muscogee,Okmulgee,Holdenville,Wetumka,Eufaula,McAlester,Thorntown,Creek Nation,Yuchi Tribe,Yuchi Language,Sapulpa,Okmulgee,Muscogee Nation,Creek,Yuchi People,Ponca City,Blackburn"
     }
   ];

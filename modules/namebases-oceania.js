@@ -2907,5 +2907,95 @@ window.oceaniaNameBases = [
       "d": "",
       "m": 0,
       "b": "Yaren,Denigomodu,Buada,Anetan,Ewa,Anibare,Meneng,Olotokon,Yangoru,Montgomery,Central District,District,Nauru Island,Pacific Ocean,Gilbert Islands,Kiribati,Papua New Guinea,Australia,Nauru Language,Nauruan,Nauru People,Pacific Island,Ocean Island,Nauruan Language,Nauru"
+    },
+    {
+      "name": "Bislama",
+      "i": 324,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Port Vila,Espiritu Santo,Luganville,Tanna, Efate,Malampa,Sanma,Tafea,Penama,Shefa,Vanuatu,Pacific,Melanesia,Vanuatu Islands,Pacific Ocean,Santo,Luganville,Lenakel,Tanna,Futuna,Aniwa,Epi,Ambae,Maewo, Pentecost,Aoba,Malo,Banks Islands,Torres Islands"
+    },
+    {
+      "name": "Anejom",
+      "i": 325,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Tanna,Vanuatu,Port Vila,Espiritu Santo,Luganville,Yasur,Tanna Island,White Grass,Tanna,Vanuatu,Melanesia,Aniwa,Anelcauhat,Futuna,Erromango,Anatom,Vanuatu,Pacific,South Pacific,Tafea Province,Yasur Volcano,Tanna Languages"
+    },
+    {
+      "name": "Lenakel",
+      "i": 326,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Tanna,Port Vila,Vanuatu,Lenakel,Tanna Island,White Grass,Port Resolution,Yasur Volcano,Tanna,Isangel,Vanuatu,Melanesia,Pacific,Tafea Province,South West Bay,North Tanna,Middle Tanna,South Tanna,Yasur,Tanna Languages"
+    },
+    {
+      "name": "Kwamera",
+      "i": 327,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Tanna,Vanuatu,Port Vila,Kwamera,Tanna Island,Tafea,Isangel,Tanna,Southern Tanna,Tanna Languages,Vanuatu,Melanesia,Pacific,Anelcauhat,Tanna,Tanna Language,Kwamera Language,Southern Vanuatu"
+    },
+    {
+      "name": "Nengone",
+      "i": 328,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Maré,New Caledonia,Nouméa,Maré Island,Loyalty Islands,Noumea,Maré,Tadine,La Roche,Routh,Mus,New Caledonia,Pacific,Melanesia,Loyalty Islands,Nengone Language,Maré Language,Drehu,Drehu Language,Loyalty Islands"
+    },
+    {
+      "name": "Drehu",
+      "i": 329,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Lifou,New Caledonia,Nouméa,Loyalty Islands,Lifou Island,Wé,Lifou,Tadine,Wé,Loyalty Islands,New Caledonia,Pacific,Melanesia,Nengone,Drehu Language,Lifou Language,Loyalty Islands,Maré,Nouméa"
+    },
+    {
+      "name": "Xârâcùù",
+      "i": 330,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Nouméa,New Caledonia,Grand Terre,Canala,Thio,Kouaoua,Houailou,Poindimié,Canala,Xârâcùù,New Caledonia,Pacific,Melanesia,Grande Terre,Kanaka,New Caledonia,Kanaki,Xârâcùù Language,Kanak Languages"
+    },
+    {
+      "name": "Jawe",
+      "i": 331,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "New Caledonia,Nouméa,Grand Terre,Pwailè,Jawe,Hienghène, Kouaoua,Canala,Thio,Tchambia,Tchambri,Hienghène,Xârâcùù,New Caledonia,Pacific,Melanesia,Kanaka,New Caledonian Languages,Kanak Languages"
+    },
+    {
+      "name": "Hinukh",
+      "i": 332,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Honiara,Guadalcanal,Malaita,Temotu,Central Province,Makira,Isatele,Tulagi,Gela,Parlington,Islands,Solomon Islands,Pacific,Melanesia,Bougainville,Guadalcanal,Malaita,San Cristobal,New Georgia,Isabel,Central Islands,Solomon Islands"
+    },
+    {
+      "name": "Lau",
+      "i": 333,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Malaita,Solomon Islands,Honiara,Guadalcanal,Auki,Gela,Malaita Island,Tulagi,Faul,Tandai,Bina,Haunue,Lau Language,Lau Dialect,Solomon Islands,Pacific,Melanesia,Malaita Province,Auki,Turukofe"
     }
   ];
