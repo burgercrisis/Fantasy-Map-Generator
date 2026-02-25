@@ -44,7 +44,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cholti,Mixco,Antigua Guatemala,Guatemala,Central America,Maya Region"
+    "b": "Chichicastenango,Quetzaltenango,Antigua Guatemala,Guatemala City,Tikal,Copan,Flores,Peten,Mixco,Villa Nueva,San Miguel,Pachaj,San Pedro,Santiago,San Juan,San Bartolo,Yaxha,El Zotz,Cahal Pech,Lamanai,Xcaret,Coba"
   },
   {
     "name": "Classical Arabic",
@@ -53,7 +53,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Classical Arabic,Mecca,Medina,Jeddah,Cairo,Baghdad,Damascus,Arabian Peninsula,Middle East"
+    "b": "Mecca,Medina,Jeddah,Riyadh,Damascus,Baghdad,Cairo,Alexandria,Fustat,Kufa,Basra,Aden,Oman,Yemen,Hijaz,Najd,Hejaz,Tayma,Ubar,Zagros,Arabian Gulf,Persian Gulf,Red Sea,Mediterranean,Sinai"
   },
   {
     "name": "Classical Mongolian",
@@ -62,7 +62,7 @@ window.unknownNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Classical Mongolian,Karakorum,Ulaanbaatar,Khovd,Mongolia,Inner Mongolia,China,Gobi Desert"
+    "b": "Karakorum,Ulaanbaatar,Khovd,Ulan Bator,Gobi,Mongolia,Inner Mongolia,Ordos,Khanbaliq,Dadu,Beijing,Karakorum,Xanadu,Shangdu,Khan,Genghis,Kublai,Mongol,Yuan,Mongol Empire,Eurasian Steppe,Altai"
   },
   {
     "name": "Gaulish",
