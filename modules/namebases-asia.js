@@ -1916,7 +1916,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Banjarmasin,Martapura,Amuntai,Banjarbaru,Barabai,Kandangan,Kuala Kapuas,Margasari,Sungai Pinang"
+    "b": "Banjarmasin,Banjarmasin,Martapura,Kotabaru,Barito,Tapin,Hulu Sungai,Tanah Bumbu,Tanah Laut,Barih,Pelaihari,Rantau,Kintap,Sungai Loban,Sungai Durian,Bajaimas,Pamuka,Simpur,Karya,Bumi,Makmur,Jua,Mentaya,Sampit,Pulang Pisau,Gunung Mas,Kapuas,Murung,Barito Utara,Barito Selatan,Lamandau,Sukamara,Seruyan,Katingan,Palangkaraya,Pangkajene"
   },
   {
     "name": "Bareqi Arabic",
@@ -3230,7 +3230,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chinantec,Ojitlan,Choapa,Valle Nacional,Oaxaca,Mexico,Sierra Madre"
+    "b": "Oaxaca,San Juan,Chiquihuitlan,Usila,Valle Nacional,Ixtlan,Tuxtepec,Papalo,Comaltepec,Cuyamecalco,Santa Maria,San Pedro,San Jose,San Lucas,San Miguel,San Francisco,San Antonio,Santiago,Santa Cruz,La Trinidad,El Porvenir,El Triunfo,San Cristobal,Lachivilla,Zaniza,Yolox,Chichihualco"
   },
   {
     "name": "Chinese Korean",
@@ -3356,7 +3356,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chukotko-Kamchatkan-Amuric,Anadyr,Blagoveshchensk,Khabarovsk,Russia,Amur River,Far East"
+    "b": "Anadyr,Petropavlovsk,Bilibino,Pevek,Egvekinot,Provideniya,Klyuchi,Vilyuchinsk,Kozirevsk,Milkovo,Ellizovo,Ust-Kamchatsk,Anadyr,Markovo,Ushakovskoye,Beringovsky,Uelen,Lavrentia,Neshkan,Krasneno,Kamchatka,Chukotka,Kolyma,Itelmen,Koryak,Kamenskoye,Kanchalan,Omolon"
   },
   {
     "name": "Chungcheong Korean",
@@ -3365,7 +3365,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chungcheong,Daejeon,Cheongju,Chungju,South Korea,Central Korea"
+    "b": "Cheonan,Asan,Seosan,Taean,Hongseong,Yesan,Cheongju,Jincheon,Boeun,Okcheon,Yeongdong,Jangseong,Gwangju,Damyang,Gokseong,Gyeonggi,Yongin,Suwon,Seongnam,Goyang,Yongin,Pangyo,Icheon,Yeoju,Yangpyeong,Gapyeong,Pocheon,Yangju,Uijeongbu,Namyangju"
   },
   {
     "name": "Chuvan",
@@ -3374,7 +3374,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chuvan,Anadyr,Markovo,Bilibino,Chukotka,Russia,Siberia,Kolyma River"
+    "b": "Anadyr,Bilibino,Markovo,Ushakovskoye,Lavrentia,Egvekinot,Provideniya,Krasneno,Neshkan,Beringovsky,Uelen,Chukotka,Kolyma,Koryaksky,Kamchatsky,Penzhinsky,Sobolevsky,Aleutsky,Karaginsky, Ust-Belaya,Khatyrka,Velikoretsk,Sibirsky,Zvyozdny,Zolotoy,Sagyn,Kuyul"
   },
   {
     "name": "Cilician Arabic",
@@ -3383,7 +3383,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cilician Arabic,Adana,Mersin,Turkey,Mediterranean Coast,Cilicia,Tarsus"
+    "b": "Adana,Mersin,Istanbul,Ankara,Izmir,Antalya,Konya,Gaziantep,Hatay,Mersin,Tarsus,Kadirli,Osmaniye,Iskenderun,Antakya,Mardin,Diyarbakir,Sanliurfa,Gaziantep,Kahramanmaras,Kayseri,Kocaeli,Sakarya,Samsun,Trabzon,Erzurum,Malatya,Elazig,Bursa,Balikesir,Denizli"
   },
   {
     "name": "Circassian",
@@ -3428,7 +3428,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Classical Syriac,Aleppo,Antioch,Mardin,Diyarbak±r,Turkey,Syria,Iraq,Mesopotamia"
+    "b": "Edessa,Mosul,Nisibis,Mardin,Tur Abdin,Syria,Iraq,Turkey,Ctesiphon,Baghdad,Basra,Karkh,Seleucia,Crusade,Antioch,Aleppo,Damascus,Homs,Hama,Al Qamishli,Al Hasakah,Deir ez-Zor,Raqqa,Syriac,Mesopotamia,Tigris,Euphrates,Kurdistan,Beth Nuhadra,Nisibin"
   },
   {
     "name": "Chilisso",
@@ -3527,7 +3527,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Coxoh,Comitán,Trinitaria,Chiapas,Mexico,Maya Region,Central America"
+    "b": "Guatemala,Quetzaltenango,San Marcos,Huehuetenango,Quiche,Totonicapan,Solola,Chimaltenango,Escuintla,Suchitepequez,Retalhuleu,Suchitepequez,Coatepeque,Colomba,Flores,Peten,Tikal,Copan,Guatemala City,Antigua,Chichicastenango,Panajachel,Lake Atitlan,Rio Dulce,Livingston"
   },
   {
     "name": "Asho",
