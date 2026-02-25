@@ -2969,7 +2969,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Central Tibeto-Burman,Lhasa,Shigatse,Gyantse,Shannan,Tibet Autonomous Region,China,Himalayas,Asian Mountains"
+    "b": "Lhasa,Shigatse,Gyantse,Nagqu,Dinggye,Tingri,Zhangmu,Rikaze,Gyantse,Xigaze,Karnali,Gandaki,Baglung,Pokhara,Kathmandu,Patan,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Birgunj,Butwal,Bhairahawa,Siddharthanagar,Nepalgunj,Mahendranagar,Dhangadhi,Maheshpur,Nayapyul,Thimi,Kageshwari,Maha,Tokha,Chabahil"
   },
   {
     "name": "Falam",
@@ -2978,7 +2978,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Falam,Chin State,Hakha,Matupi,Mindat,Falam Tlang,Myanmar,India Border"
+    "b": "Hakha,Falam,Thantlang,Tedim,Tonzang,Matupi,Mindat,Kanpetlet,Paletwa,Chin,Mizoram,Aizawl,Lunglei,Saiha,Champhai,Kolasib,Mamit,Serchhip,Lawngtlai,Hmar,Mizo,Bawm,Zomi,Lushai,Kuki,Zahau,Zanniat,Taisun,Khualsim,Lente,Riang,Mara,Lai,Falam Chin,Riam,Mimt,Htuang,Teik,Cikha,Tlang,Vai,Vaimak,Lungtan"
   },
   {
     "name": "Khaling",
@@ -3086,7 +3086,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chavacano,Zamboanga,Cavite,Ternate,Philippines,Mindanao,Visayas,Luzon"
+    "b": "Zamboanga,Cavite,Ternate,Basilan,Cotabato,Davao,Iloilo,Bacolod,Dumaguete,Cebu,Manila,Ermita,Intramuros,Caloocan,Pasay,Makati,Quezon,Tagbilaran,Cagayan,Jolo,Tawi-Tawi,Sulu,Basilian,Isabela,Puerto,San Jose,Maguindanao,Lanao,Ozamis,Pagadian,Dipolog,Butuan,Surigao,Camarines,Albay,Sorsogon,Legazpi,Naga,Iriga,Masbate"
   },
   {
     "name": "Chenchu",
@@ -3095,7 +3095,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chenchu,Kurnool,Prakasam,Nalgonda,India,Andhra Pradesh,Deccan Plateau"
+    "b": "Hyderabad,Warangal,Karimnagar,Nalgonda,Khammam,Rangareddy,Medak,Mahbubnagar,Nizamabad,Adilabad,Secunderabad,Guntur,Vijayawada,Kurnool,Anantapur,Kadapa,Nellore,Prakasam,Visakhapatnam,East Godavari,West Godavari,Krishna,Guntur,Chittoor,Srikakulam,Vizianagaram,Malkangiri,Koraput,Rayagada,Gajapati,Paderu,Araku,Ananthagiri,Pottangi,Korukonda"
   },
   {
     "name": "Tibeto-Kanauri",
@@ -3104,7 +3104,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Tibeto-Kanauri,Kinnauri,Shimla,Sirmour,Himachal Pradesh,India,Kullu,Manali,Himalayas"
+    "b": "Shimla,Kinnaur,Lahul,Spiti,Kullu,Manali,Chamba,Kangra,Mandi,Solan,Sundernagar,Jogindernagar,Bilaspur,Hamirpur,Una,Palampur,Dharamshala,Mcleodganj,Kangra,Nagar,Jaisinghpur,Nagrota,Bhawarna,Jawalamukhi,Mewla,Guler,Kotron,Chadour,Bhawarna,Sullah,Gagret,Una,Santokhgarh,Bangana,Dhar,Rohri,Gaddi,Bharmaur"
   },
   {
     "name": "Western Himalayas",
@@ -3113,7 +3113,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Western Himalayas,Kashmir,Ladakh,Jammu,Himachal Pradesh,Uttarakhand,India,Nepal Border,Tibet Border"
+    "b": "Srinagar,Gulmarg,Pahalgam,Sonamarg,Anantnag,Kupwara,Pulwama,Budgam,Bandipora,Baramulla,Ganderbal,Kulgam,Shopian,Shupiyan,Kashmir,Vaishnavi,Kashmir,Patnitop,Jammu,Udhampur,Katra,Reasi,Rajouri,Poonch,Doda,Kishtwar,Ramban,Akhnoor,Jammu,Samba,Hiranagar,Basohli,Billawar,Kathua,Chhamb,Nowshera,Sunderbani"
   },
   {
     "name": "Dhuleli",
@@ -3203,7 +3203,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chhattisgarhi,Raipur,Bilaspur,Durg,Chhattisgarh,India,Central India,Chhattisgarh State"
+    "b": "Raipur,Bilaspur,Bhilai,Durg,Rajnandgaon,Korba,Raigarh,Jagdalpur,Ambikapur,Dhamtari,Mahasamund,Kanker,Kondagaon,Narayanpur,Bijapur,Dantewada,Bastar,Sukma,Surajpur,Surguja,Jashpur,Korea,Koriya,Balrampur,Gariaband,Mungeli,Baloda Bazar,Bemetara,Balod,Kawardha,Kawardha,Pandariya,Lormi,Mungeli,Takhatpur,Bilha,Kota,Ratanpur,Khadga,Chhuikhadan,Khairagarh,Dongargarh,Saja,Bhatapara,Ahiwara"
   },
   {
     "name": "Chiang Saen",
@@ -3212,7 +3212,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chiang Saen,Chiang Rai,Chiang Mai,Thailand,Northern Thailand,Mekong Border,Laos Border"
+    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Phrae,Nan,Phayao,Uttaradit,Sukhotai,Phitsanulok,Phichit,Nakhon Sawan,Udon Thani,Khon Kaen,Chaiyaphum,Kampang Phet,Tak,Mae Hong Son,Chiang Saen,Chiang Khong,Doi Chang,Doi Inthanon,Mae Sai,Mae Sot,Pai,Doi Tao,Hot,San Kamphaeng,San Pa Tong,Hang Dong,San Sai,Muang,Samoeng,Omkoi,Mae Wang"
   },
   {
     "name": "Chin",
