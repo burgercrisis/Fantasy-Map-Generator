@@ -3968,7 +3968,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Mashan,Libo,Sandu,Zhijin,Guizhou,China,Southwest China,Dongjia People"
+    "b": "Guiyang,Guizhou,Zunyi,Anshun,Bijie,Liupanshui,Dushan,Libo,Rongjiang,Congjiang,Sandu,Danzhai,Jinping,Leishan,Kaili,Duyun,Pingtang,Shiqian,Wutan,Wumeng,Weining,Zhijin,Panzhou,Xifeng,Wujiang"
   },
   {
     "name": "Dongxiang",
@@ -4049,7 +4049,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gejia,Guizhou,China,Southwest China,Huangguoshu,Miao People"
+    "b": "Guiyang,Guizhou,Zunyi,Anshun,Bijie,Liupanshui,Dushan,Libo,Rongjiang,Kaili,Duyun,Pingtang,Danzhai,Jinping,Leishan,Rongjiang,Congjiang,Dushan,Libo,Sandu,Jinping,Miao,Buyi,Zhuang,Guizhou,Guangxi"
   },
   {
     "name": "Gurgula",
@@ -4058,7 +4058,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gurgula,Ngulu,Ngas,Chad,Mandara,North Africa,Chad Basin,Sahara"
+    "b": "Delhi,Mumbai,Kolkata,Chennai,Ahmedabad,Pune,Jaipur,Surat,Lucknow,Kanpur,Nagpur,Indore,Patna,Bhopal,Ludhiana,Coimbatore,Kochi,Jaipur,Ajmer, Jodhpur,Udaipur,Bikaner, Kota,Pilani,Bharatpur,Alwar"
   },
   {
     "name": "Gta",
@@ -5372,7 +5372,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bakel,Mbao,Salémata,Kédougou,Saraya,Kidira,Matam,Ouro Sogui,Diam Diabo"
+    "b": "Bhubaneswar,Cuttack,Rourkera,Berhampur,Sambalpur,Puri,Konark,Jeypore,Koraput,Rayagada,Ganjam,Gajapati,Kalahandi,Nuapada,Balangir,Sonepur,Boudh,Angul,Dhenkanal,Jajpur,Kendrapara,Jagatsinghpur,Khordha,Puri,Ganjam,Srikakulam,Vizianagaram,Visakhapatnam,Odisha,Bolangir,Khandamal,Phulbani"
   },
   {
     "name": "Kyakhta Russian-Chinese Pidgin",
@@ -5462,7 +5462,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Sherkaly,Kondinskoye,Pelim,Lozva,Sosva,Ivdel,Gari,Verkhoturye,Tavda"
+    "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Pokhara,Chitwan,Narayangadh,Damak,Inaruwa,Kavre,Nuwakot,Dhading"
   },
   {
     "name": "Tsotsitaal And Camtho Aka Iscamtho",
@@ -5471,7 +5471,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Tshwane,Johannesburg"
+    "b": "Johannesburg,Soweto,Alexandra,Sandton,Midrand,Pretoria,Carletonville,East Rand,West Rand,Vereeniging, Vanderbijlpark,Benoni,Springs,Kempton Park,Germiston,Alberton,Randburg,Roodepoort,Middelburg,Witbank,Lebowakgomo"
   },
   {
     "name": "Kurambhag Paharia",
@@ -5480,7 +5480,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bankura,Purulia,Midnapore,Bardhaman,Birbhum,Howrah,Kolkata"
+    "b": "Ranchi,Dhanbad,Jamshedpur,Bokaro,Hazaribagh,Giridih,Deoghar,Dumka,Pakur,Sahibganj,Godda,Simdega,Gumla,Khunti,Latehar,Palamu,Garhwa,Chatra,Koderma,Ramgarh,Bokaro,Dhanbad,Jamshedpur,Ranchi"
   },
   {
     "name": "Kurichiya",
@@ -5498,7 +5498,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "-Muscat,Salalah,Sohar,Seeb,Bawshar,Sur,Ibra,Rustaq"
+    "b": "Medina,Mecca,Jeddah,Riyadh,Taif,Yanbu,Khobar,Dammam,Qatif,Hofuf,Mubarraz,Hafr Al-Batin,Tabuk,Najran,Jizan,Abha,Khamis Mushait,Asir,Hejaz,Najd,Qunfudhah,Al Bahah,Al Qunfudhah,Umm Lajj,Al Wajh"
   },
   {
     "name": "Aqc",
