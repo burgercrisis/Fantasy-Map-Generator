@@ -2070,5 +2070,77 @@ window.southAmericaNameBases = [
       "d": "",
       "m": 0,
       "b": "Santa Fe,Rosario,Parana,Esperanza,Santo Tome,Corrientes,Resistencia,Charata,Paso de los Libres,Monte Caseros,Mercedes,Goya,Bahia Blanca,Neuquen,Cipolleti,Bariloche,San Carlos de Bariloche,San Miguel de Tucuman,Avenida Roca,Avenida Sarmiento,Barrio Norte,Las Talitas,San Felipe,Belgrano,Mendoza,San Rafael,San Juan,Mendoza,Aconcagua,Uco,San Carlos,Maipu,Rivadavia,Godoy Cruz,Lujan,Jocoli,Las Heras,Guaymallen,Maipu,Lavalle,Suipacha,Canchayuda,Montevideo,Uruguay"
+    },
+    {
+      "name": "Kawishana",
+      "i": 231,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Manaus,Belem,Parintins,Itacoatiara,Manacapuru,Coari,Tefe,Caroebe,Boa Vista,Roraima,Brazil,Bolivar,Venezuela,Amazonas,Rio Negro,Branco,Japura,Caquete,Uaupes,Pacoa,Tariana,Tucano,Barasana,Cabernete,Cahua,Cucuhy,Caracarai,Canoeiro,Xingu,Kararao,Kayapo,Gorotire,Mebengokre,Kayapo,Panara,Kreen-Akarore,Panara,Kreenak,Kerendeng,Javae,Suya,Kayapo,Kuben,Kranwog,Meni,Kayapo,Bororo,Arawak,Amazonas,Roraima,Bolivar,Pacaraima,Mount Roraima"
+    },
+    {
+      "name": "Kawishana",
+      "i": 232,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Santiago del Estero,San Miguel de Tucuman,Tafi Viejo,Alderetes,Banda del Rio Sal,Lules,Famailla,Monteros,Graneros,Tafi del Valle,El Mollar,Quebrada de los Sosa,Rio Colorado,Santa Maria,Dique Los大唐,Tucuman,San Miguel de Tucuman,Avenida Roca,Avenida Sarmiento,Barrio Norte,Las Talitas,San Felipe,Barrio San Jose,Barrio 9 de Julio,Barrio San Martin,Banco,Belgrano,Boca del Rio,El Canton,Bolivar,Cadillal,Campo de la Cruz,Cañete,Capitan Bermudez,Capitán Bermúdez,Barrio Final,Barrio 23 de Abril"
+    },
+    {
+      "name": "Chukot",
+      "i": 233,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "La Paz,Cochabamba,Santa Cruz de la Sierra,Sucre,Tarija,Potosi,Carnavi,Vallegrande,Robore,Charagua,Cotoca,San Jose de Chiquitos,San Miguel de Velasco,Santa Rosa de la Muerte,Santiago de Chiquitos,Padilla,Cliza,Tocoa,Capinota,Sacaba,Quillacollo,Vinto,T克拉,Colomi,Chimarea,Sipes,Bulo,Bulo,Bulo,Arani,Arque,Ayopaya,Mizque,Campero,Nucleo,Carrasco,Tapacari,Capinota,Punata,Capiata,Lambare,Villarrica,Guasdualito"
+    },
+    {
+      "name": "Ayoreo",
+      "i": 234,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Santa Cruz de la Sierra,Beni,Cochabamba,Pando,La Paz,Potosi,Tarija,Chiquitania,Moxos,Riberalta,Guayaramerin,Trinidad,Santa Ana,San Ignacio,Rurrenabaque,Santa Rosa,Yuruna,San Javier,Concepcion,San Ramon,San Jose,San Antonio,San Felipe,San Juan,San Marcos,San Pedro,San Lorenzo,Ayoreo,Chiquitano,Moxeno,Trinitario,Camba,Moreno,Toto,Mestizo,Camba,Paicone,Chocote,Moxeño,Trinitario,Yuracare,Tacanan,Arawakan,Uru-Chipaya,Harakmbut,Puquina,Takana, Reyesano"
+    },
+    {
+      "name": "Chak",
+      "i": 235,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Cuzco,Arequipa,Puno,Juliaca,Cusco,Machu Picchu,Ollantaytambo,Sacred Valley,Urubamba,Tambo,Kayam,Chinchero,Pisac,Calca,Sicuani,Ayacucho,Huancayo,Junin,Pasco,Tingo Maria,Pucallpa,Satipo,La Merced,Chanchamayo,San Ramon,Jauja,Huancayo,Huaylas,Caraz,Huaraz,Ancash,Huailas,Pallasca,Corongo,Pomabamba,Sihuas,Aija,Tarica,Amazonas,Chachapoyas,Bagua,Condorcanqui,Luya,Cajamarca,Cajabamba,San Marcos,Hualgayoc,Bambamarca,Jaen"
+    },
+    {
+      "name": "Chaco",
+      "i": 236,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Asuncion,Encarnacion,Ciudad del Este,Luque,San Lorenzo,Lambare,Villarrica,Itaugua,Caaguazu,Concepcion,Coronel Oviedo,Pedro Juan Caballero,Salto del Guaira,Mariscal Estigarribia,Filadelfia,Pilcomayo,Paraguay,Paraguari,Ita,San Antonio,Luque,Villarrica,Caazapa,Yuty,General Resquin,San Jose,Arroyos y Esteros,Atyra,Altos, Guarambare, Ypacarai, San Antonio,Itakyry,Mbuyapey,Tebicuary,Paraguay River,Pilcomayo River,Parana River,Argentina,Chaco,Bolivia,Paraguay,Argentina"
+    },
+    {
+      "name": "Mataco",
+      "i": 237,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Formosa,Resistencia,Corrientes,Charata,Las Lomitas,Ingeniero Juarez,Los Chiriguanos,Machagai,Castelli,Pampa del Indio,Laguna Limpia,La Leonesa,General San Martin,Campo Largo,Concepcion del Bermejo,Cruz del Eje,Dean Funes,Ischilin,Molinos,San Carlos Mina,Alta Gracia,Almafuerte,Arroyito,Bell Ville,Billinghurst,Córdoba,Cruz del Eje,De La Quintana,Devoto,Elena,Estacion Juarez Celman,Famatanca"
+    },
+    {
+      "name": "Guaraní",
+      "i": 238,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Asuncion,Ciudad del Este,Encarnacion,Luque,San Lorenzo,Lambare,Villarrica,Itaugua,Caaguazu,Concepcion,Coronel Oviedo,Pedro Juan Caballero,Buenos Aires,Corrientes,Posadas,Resistencia,Formosa,Misiones,Entre Rios,Santa Fe,Cordoba,Mendoza,Asuncion,Paraguay,Argentina,Brazil,Bolivia,Guarani,Paraguari,Tupã,Ñanduti,Arandu,Jopara,Karai,Yvate,Kaa,Tataendy,Yvyrague,Ivy,Mbarakaja,Petei,Ko'e Pyahu,Karai Guasu,Yasy,Kaavo"
     }
   ];

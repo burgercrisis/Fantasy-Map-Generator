@@ -828,5 +828,95 @@ window.northAmericaNameBases = [
       "d": "",
       "m": 0,
       "b": "Phoenix,Tucson,Mesa,Scottsdale,Tempe,Chandler,Glendale,Gilbert,Peoria,Surprise,Avondale,Goodyear,Flagstaff,Prescott,Yuma,Bullhead City,Lake Havasu City,Parker,Casa Grande,Sahuarita,Vail,Marana,Nogales,Sells,Gila Bend,Ajo,Why,Kearny,Mammoth,Oracle,SaddleBrooke,Coolidge,Florence,Eloy,Tolleson,Avondale,Goodyear,Litchfield Park,Peoria,Sun City,Sun City West,Youngtown,El Mirage,Laveen,Tolleson,west valley,Ak-Chin,Scottsdale,Tempe,Mesa,Chandler,Gilbert,Queen Creek,Apache Junction,San Tan Valley,Florence,Eloy,Casa Grande,Sahuarita,Vail,Marana"
+    },
+    {
+      "name": "Cree",
+      "i": 93,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Edmonton,Calgary,Winnipeg,Regina,Saskatoon,Prince Albert,North Battleford,The Battlefords,Swift Current,Moose Jaw,Yorkton,Kindersley,Estevan,Weyburn,Cree,Nehiyaw,Asini,Saskatchewan,Alberta,Manitoba,Montreal,Quebec,James Bay,Cree Nation,Nation Cree,Cree Language,Northern Cree,Southern Cree,Woods Cree,Swampy Cree,Plains Cree,Rocky Cree,Moose Cree,James Bay Cree,Attawapiskat,Fort Albany,Kashechewan,Nipissing,Opasatika,Weenusk,Cree Languages"
+    },
+    {
+      "name": "Ojibwe",
+      "i": 94,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Chicago,Detroit,Minneapolis,Milwaukee,Green Bay,Madison,Chippewa,Fond du Lac,Saint Paul,Sault Ste Marie,Duluth,Thunder Bay,Windsor,Detroit River,Great Lakes,Anishinaabe,Ojibwe,Ojibway,Chippewa,Anishinabe,Ottawa,Potawatomi,Menominee,Ho-Chunk,Winnebago,Ojibwa,Saulteaux,Nipissing,Ojibwe Language,Chippewa Language,Anishinaabemowin,Ojibwemowin,Ojibwe Nation,Red Lake,White Earth,Leech Lake,Mille Lacs,Fond du Lac,Bad River,St. Croix,Stockbridge-Munsee"
+    },
+    {
+      "name": "Inuktitut",
+      "i": 95,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Iqaluit,Nuuk,Yellowknife,Whitehorse,Inuvik,Rankin Inlet,Arviat, Baker Lake,Cape Dorset, Pangnirtung,Clyde River,Igloolik,Kugaaruk,Repulse Bay,Sanikiluaq,Arctic Bay,Pond Inlet,Kimmirut,Qikiqtarjuaq,Resolute,Grise Fiord,Alert,Eureka,Resolute Bay,Inuit,Nunavut,Greenland,Canada,Arctic,Inuit Language,Eskimo-Aleut,Inuktitut Syllabics,Kalaallisut,Inuinnaqtun,Inupiaq,Uummarmiutun,Aivilik,North Baffin,South Baffin,Keewatin,Kivalliq,Kitikmeot,Qikiqtaaluk,Nunavik,Nunatsiavut"
+    },
+    {
+      "name": "Dakota",
+      "i": 96,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Pierre,Rapid City,Sioux Falls,Aberdeen,Bismarck,Mandan,Fargo,Grand Forks,Minot,Devils Lake,Bemidji,Brainerd,Duluth,Winnebago,Omaha,Sioux City,Dakota, Lakota,Nakota,Sioux,Great Sioux Nation,Lakota Language,Dakota Language,Nakota Language,Standing Rock,Pine Ridge,Rosebud,Crow Creek,Lower Brule,Santee,Flandreau,Yankton,Dakota Territory,Minnesota River,Missouri River,James River,Red River,Great Plains,Great Basin,Black Hills"
+    },
+    {
+      "name": "Lakota",
+      "i": 97,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Rapid City,Deadwood,Sturgis,Spearfish,Custer,Hot Springs,Pine Ridge,Porcupine,Wounded Knee,Manderson,Oglala,Kyle,Allen,Batesland,Allen,Pine Ridge Indian Reservation,Oglala Sioux Tribe,Lakota,Lakota Nation,Lakota Language,Teton Sioux,Teton,Lakota Country,Black Hills,Paha Sapa,Badlands,Bighorn Mountains,Rosebud,Lakota Territory,Great Sioux Nation,Sioux,Lakota Indians,Lakota People,Lakota Nation,Lakota Country"
+    },
+    {
+      "name": "Sioux",
+      "i": 98,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Sioux City,Sioux Falls,Rapid City,St. Paul,Denver,Cheyenne,Crookston,Moorhead,Bismarck,Mandan,Fort Yates,Bullhead,Kyle,Porcupine,Pine Ridge,Wanblee,Manderson,White River,Allen,Batesland,Rock Creek,Oglala,Minneconjou,Hunkpapa,Oglala,Lakota,Dakota,Nakota,Sioux Nation,Great Sioux Nation,Sioux Tribes,Lakota Sioux,Dakota Sioux,Nakota Sioux,Standing Rock,Pine Ridge,Rosebud,Crow Creek,Lower Brule,Santee,Flandreau,Yankton"
+    },
+    {
+      "name": "Fox",
+      "i": 99,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Kansas City,St. Louis,Springfield,Columbia,Jefferson City,St. Joseph,Sedalia,Lebanon,Cape Girardeau,Poplar Bluff,Caruthersville,West Plains,Marshfield,Rogersville,Ozark,Nixa,Republic,Carthage,Joplin,Lebanon,Rolla,Fort Leonard Wood,Warrensburg,Independence,Blue Springs,Lee's Summit,Olathe,Topeka,Shawnee,Manhattan,Wichita,Omaha,Fox,Sauk,Meskwaki,Iowa,Kickapoo,Ho-Chunk,Winnebago,Kaw,Osage,Quapaw,Otoe,Missouria,Kansa,Kansa,Kaws"
+    },
+    {
+      "name": "Sauk",
+      "i": 100,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Chicago,Milwaukee,Detroit,St. Louis,Kansas City,Oklahoma City,Tulsa,Peoria,Rock Island,Davenport,Bettendorf,Quad Cities,Des Moines,Cedar Rapids,Iowa City,Sioux City,Waterloo,Cedar Falls,Dubuque,Clinton,Muscatine,Fort Madison,Keokuk,Burlington,Sauk,Sac,Fox,Meskwaki,Iowa,Ho-Chunk,Winnebago,Kickapoo,Omaha,Ponca,Osage,Kaw,Quapaw,Sauk Language,Sac Language,Meskwaki Language,Sauk Nation,Sac Nation,Meskwaki Tribe,Sauk Tribe,Sac Tribe"
+    },
+    {
+      "name": "Menominee",
+      "i": 101,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Green Bay,Appleton,Oshkosh,Manitowoc,Sheboygan,Fond du Lac,Marinette,Eau Claire,La Crosse,Wausau,Rhinelander,Ashland,Hayward,Ashland,Iron County,Kewaunee,Door County,Oconto,Marinette County,Menominee,Keshena,Neopit,South Branch,Carter,Lanenet,Abbotsford,Colby,Stratford,Marshfield,Mosinee,Rothschild,Wausau,Rib Mountain,Kronenwetter,Schofield,Menominee,Menominee Language,Menominee Nation,Menominee Tribe,Menominee Indian Reservation,Oneida,Stockbridge-Munsee,Ho-Chunk"
+    },
+    {
+      "name": "Iroquois",
+      "i": 102,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "New York City,Rochester,Syracuse,Buffalo,Albany,Niagara Falls,Utica,Schenectady,Binghamton,Jamestown,Olean,Corning,Watertown,Massena,Plattsburgh,Akron,Auburn,Syracuse,Iroquois,Haudenosaunee,Five Nations,Six Nations,Onondaga,Mohawk,Oneida,Cayuga,Seneca,Tuscarora,Mohawk,Onondaga,Oneida Language,Cayuga Language,Six Nations Iroquois Confederacy,Grand River,Akwasasne,Kahnawake,Tuscarora Nation,Onondaga Nation,Cayuga Nation,Sensata,Onoñode,Onoton,Onguiaahronon"
     }
   ];

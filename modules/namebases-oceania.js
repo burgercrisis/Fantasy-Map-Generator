@@ -2583,5 +2583,149 @@ window.oceaniaNameBases = [
       "d": "",
       "m": 0,
       "b": "Porgera,Kandep,Laiagam,Papua New Guinea,Enga Province,Southern Highlands,Papua,Kukukuku,Western Highlands,Eastern Highlands,Papuan,Trans-New Guinea,Papua New Guinea,Papua,Oceania,Papuan Languages,Kandep,Laiagam,Porgera,Papua,Kukukuku,Porgera Mine,Mendi,Tari,Laiagam,Kandep,Kukukuku,Trans-New Guinea,Papuan Languages,Highlands,Porgera Mine"
+    },
+    {
+      "name": "Pitjantjatjara",
+      "i": 288,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Alice Springs,Uluṟu,Kata Tjuṯa,Ernabella,Amata,Tjukurla,Pitjantjatjara,Yankunytjatjara,Ngaanyatjarra,Spinifex,Tjuṯatjarra,Western Desert,Mallee,Salt Lake,Marla,Moppe,Onya,Mimili,Indulkana,Fregon,Kalka,Tintjara,Warburton,Yalata,Coober Pedy,Marree,Birdsville,William Creek,Oodnadatta,Anna Creek,Cadia,Pseudo"
+    },
+    {
+      "name": "Arrernte",
+      "i": 289,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Alice Springs,Mparntwe,Rutherglen,Santa Teresa,Ti Tree,Alcoota,Anmatjerr,Atitjete,Canteen,Null,Stirling,Hale,Barton,Tnorala,Gosse,Bulletin,Lyunde,Michells,Reds,Perth,Brunette,Docker,River,Stuart,Sandover,Hale,Tnorala,Gosse Hill,DArcy,Baines,Baines,Nixon,Crocodile,Emily,Jesse,Mpartnwe,Anthelk,Elephant,Ellery,Larrakia,CW Hill,Olive,Pink,Lone,Star,Daly,Mount Allan"
+    },
+    {
+      "name": " Warlpiri",
+      "i": 290,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Yuendumu,Warlpiri,Papunya,Lajamanu,Nyirrpi,Mt Allan,Kalkaringi,Daguragu,Lajamanu,Yuendumu,Willowra,Yuelamu,Mataranka,Katherine,Darwin,Alice Springs,Tennant Creek,Nyirripi,Mt Allan,Kalkaringi,Lajamanu,Yuendumu,Papunya,Yuelamu,Willowra,Warlpiri,Nyirripi,Mt Allan,Kalkaringi,Daguragu,Lajamanu,Papunya,Yuendumu,Yuelamu,Willowra,Mataranka,Katherine,Darwin,Alice Springs"
+    },
+    {
+      "name": "Pitjantjatjara",
+      "i": 291,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Alice Springs,Uluṟu,Kata Tjuṯa,Ernabella,Amata,Tjukurla,Pitjantjatjara,Yankunytjatjara,Ngaanyatjarra,Spinifex,Tjuṯatjarra,Western Desert,Mallee,Salt Lake,Marla,Moppe,Onya,Mimili,Indulkana,Fregon,Kalka,Tintjara,Warburton,Yalata,Coober Pedy,Marree,Birdsville,William Creek,Oodnadatta,Anna Creek,Cadia,Pseudo,Albany,Adelaide,Queensland"
+    },
+    {
+      "name": "Yolŋu",
+      "i": 292,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Yirrkala,Nhulunbuy,Gove,Maningrida,Ramingining,Milingimbi,Cape Stewart,Bickerton,Elcho Island,Galiwinḵu,Milingimbi,Ramingining,Maningrida,Djok,Yolngu,Arnhem Land,East Alligator,Kakadu,Nourlangie,Jim Jim Falls,Twin Falls,Gulngay,Buku-Larrnggay,Yirrkala Art Centre,Nhulunbuy,Gove Peninsula,Yolngu Matha,Dhuwa,Yirrk Dhanbul,Djanbun,Djambarrpuynu,Gumatj,Gupapuyŋu,Ritharrŋu,Wanguri,Liyagaway"
+    },
+    {
+      "name": "Miriwoong",
+      "i": 293,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Katherine,Darwin,Timber Creek,Kununurra,Gregory,Dampier,Halls Creek, Fitzroy Crossing,Broome,Cable Beach,Cossack,Dampier Peninsula,Derby,Halls Creek,Jarlmaddah,Jurabi,Karratha,Koolijerrn,Looma,Mimbi,Miriwoong,Miriwoong Language,Gurindji,Dalabon,Jaru,Kriol,Malak Malak,Kakadu,Kimberley,Western Australia,Northern Territory,Boab,Bungle Bungle,Purnululu,Kakadu National Park"
+    },
+    {
+      "name": "Gooniyandi",
+      "i": 294,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Fitzroy Crossing,Broome,Derby,Halls Creek,Kununurra,Warmun,Fitzroy Crossing,Bayulu,Wangkatjunka,Noonkanbah,Yirr,Gooniyandi,Bunuba,Walmajarri,Jaru,Kriol,Djaru,Wangkatjunka,Walmajarri,Ngaring,Boab,Kimberley,Western Australia,Northern Territory,Great Sandy Desert,West Kimberley,East Kimberley,Ord River,Pemberton,King Leopold Ranges,Geikie Gorge,Tunnel Creek,Windjana Gorge"
+    },
+    {
+      "name": "Walmajarri",
+      "i": 295,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Halls Creek,Warmun,Fitzroy Crossing,Derby,Broome,Kununurra,Wangkatjunka,Balgo,Warmun Community,Billiluna,M往返,Fitzroy Crossing,Bayulu,Noonkanbah,Yirr,Gooniyandi,Bunuba,Walmajarri,Jaru,Kriol,Djaru,Wangkatjunka,Jaru,Kriol,Balgo,Wangkatjunka,Wangkatjungka,Balgo Hills,Lurrm,Boddington,Kalgoorlie,Boulder,Coolgardie,Kambalda,Leonora,Laverton,Norseman,Esperance,Ravensthorpe"
+    },
+    {
+      "name": "Bunuba",
+      "i": 296,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Fitzroy Crossing,Derby,Halls Creek,Broome,Kununurra,Bayulu,Noonkanbah,Yirr,Gooniyandi,Bunuba,Walmajarri,Jaru,Kriol,Djaru,Wangkatjunka,Boab,Kimberley,Western Australia,Northern Territory,Great Sandy Desert,West Kimberley,East Kimberley,Ord River,Pemberton,King Leopold Ranges,Geikie Gorge,Tunnel Creek,Windjana Gorge,Fitzroy River,Margaret River,Geikie,Gorge,Windjana,Gorge,Tunnel,Creek,Djaru"
+    },
+    {
+      "name": "Fijian",
+      "i": 297,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Suva,Nadi,Lautoka,Labasa,Levuka,Ba,Tavua,Rakiraki,Sigatoka,Korovatu,Navua,Nasinu,Nausori,Suva,Nadi International Airport,Lautoka Industrial,Fiji,Vanua Levu,Viti Levu,Taveuni,Kadavu,Lau Islands,Mamanuca Islands,Yasawa Islands,Rotuma,Fiji Islands,Fiji Language,Viti,Fiji Hindi,Fijian Language,Bauan,Standard Fijian,Vosotho,Vou,Voli,Tokalau,Fiji,Suva,Nadi,Lautoka"
+    },
+    {
+      "name": "Samoan",
+      "i": 298,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Apia,Lautoka,Suva,Nadi,Labasa,Tavua,Rakiraki,Sigatoka,Fiji,Samoa,American Samoa,Tutuila,Pago Pago,Upolu,Savaii,Auckland,Sydney,Melbourne,Brisbane,Perth,Hawaii,Los Angeles,San Francisco,Seattle,Portland,Las Vegas,Denver,Salt Lake City,Houston,Dallas,Phoenix,Honolulu,Maui,Kauai,Oahu,American Samoa,Western Samoa,Samoan Language,Gagana Samoa,Samoan Islands,Pacific"
+    },
+    {
+      "name": "Tongan",
+      "i": 299,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Nuku'alofa,Neiafu,Pangai,Nuku'alofa,Tongatapu,Vava'u,Ha'apai,Eua,Fiji,Australia,New Zealand,Auckland,Sydney,Melbourne,Brisbane,Perth,Adelaide,Hawaii,Los Angeles,San Francisco,Seattle,Portland,Houston,Dallas,Denver,Phoenix,Tonga,Tongan Language,Tonga Islands,Tongatapu,Vava'u,Ha'apai,Eua,Niuas,Hawaiian,Tongan Community,Pacific Islander,Tongan diaspora,Aotearoa"
+    },
+    {
+      "name": "Maori",
+      "i": 300,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Napier,Hastings,New Plymouth,Palmerston North,Dunedin,Rotorua,Taupo,Gisborne,Whanganui,Invercargill,Blenheim,Nelson,Greymouth,West Coast,Canterbury,Otago,Southland,Waikato,Bay of Plenty,Gisborne,Northland,Auckland Region,Bay of Islands,Far North District,Whangarei,Kerikeri,Paihia,Russell,Doubtless Bay,Mangonui,Kaitaia,Kawakawa,Kaikohe,Whangarei,Auckland,Waikato"
+    },
+    {
+      "name": "Hawaiian",
+      "i": 301,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Honolulu,Maui,Kauai,Oahu,Big Island,Hawaii,Hilo,Kona,Kahului,Lahaina,Kapaa,Poipu,Lihue,Hanalei,Waimea,Kahului,Kihei,Wailuku,Lahaina,Hana,Hamoa,Paia,Makawao,Pukalani,Kula,Waihee,Waikapu,Puunene,Haiku,Keanae,Kualoa,Kaneohe,Wahiawa,Waialua,Ewa,Waianae,Makaha,Kaneoh,Lualualei,Maili,Pearl City,Aiea,Manoa,Diamond Head,Koko Head,Pali,Puuowaka"
+    },
+    {
+      "name": "Tahitian",
+      "i": 302,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Papeete,Moorea,Tahiti,French Polynesia,Bora Bora,Huahine,Raiatea,Tahaa,Papeete,Papeete,Faaa,Pirae,Mahina,Arue,Paea,Punaauia,Papara,Tiipaar,Outumaoro,Patuto,PK 18,Pk19,Pk20,Pk21,Pk22,Pk23,Pk24,Pk25,Pk26,Pk27,Pk28,Pk29,Pk30,Pk31,Pk32,Pk33,Pk34,Pk35,Pk36,Pk37,Pk38,Pk39,Pk40,Pk41,Pk42,Pk43,Pk44,Pk45,Pk46,Pk47,Pk48,Pk49,Pk50,Marquesas,Tuamotu,Gambier,Australs"
+    },
+    {
+      "name": "Niuean",
+      "i": 303,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Alofi,Niue,Fiji,New Zealand,Auckland,Sydney,Melbourne,Brisbane,Perth,Wellington,Christchurch,Hamilton,Tauranga,Niue Island,Pacific,Cook Islands,Tonga,Samoa,Wallis,Futuna,Avarua,Rarotonga,Aitutaki,Pukapuka,Penrhyn,Manihiki,Rakahanga,Samoan Language,Tongan Language,Fijian Language,Tokelau Language,Maori Language,Pacific Languages,Polynesian,Niue,Niuean Language,Vagahau Niue,Niue Island,Tofol,Alofi"
     }
   ];
