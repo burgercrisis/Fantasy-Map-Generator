@@ -3032,7 +3032,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Goguryeo,Pyeongyang,Seoul,Incheon,Korea,East Asia,Korean Peninsula"
+    "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Sejong,Suwon,Goyang,Yongin,Seongnam,Bucheon,Ansan,Anyang,Suwon,Gwangju,Gyeongju,Pyeongchang,Gangwon,Jeonju,Cheongju,Jinju,Mokpo,Sunchang,Gwangyang,Suncheon,Yeosu,Ulleung,Jeju,Seogwipo,Gimhae,Gimcheon,Andong,Gyeongsang,Daegu,Pohang,Gumi,Sangju"
   },
   {
     "name": "Zway",
@@ -3068,7 +3068,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chamdo,Barkam,Aba,Nagqu,Tibet Autonomous Region,China,Himalayas,East Tibet,Yangtze Headwaters"
+    "b": "Chamdo,Dali,Lijiang,Deqen,Shangri-La,Dêqên,Diqing,Zhongdian,Lijiang,Yunnan,Kunming,Dali,Xam,Qamdo,Bamda,Ganzi,Kham,Garze,Sichuan,Tibet,Xizang,Qinghai,Gansu,Lanzhou,Xining,Kangding,Garze,Daocheng,Litang,Batang,Derge,Ganzi,Serta, Luhuo,S Xiaojin,Danba,Jiuzhaigou,Songpan,Maoxian,Wenchuan"
   },
   {
     "name": "Changjiang Hlai",
@@ -3077,7 +3077,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hlai,Changjiang,Hainan,China,South China Sea,Tropical,Hainan Island"
+    "b": "Haikou,Sanya,Qionghai,Wenchang,Qikou,Danzhou,Lingao,Chengmai,Ding'an,Tunchang,Qiongzhong,Baoting,Ledong,Sanya,Yacheng,Yingge,Haitang,Yalong,Sanya,Bahou,Xisha,Wuzhishan,Wuyao,Jiangbei,Meilan,Xiuying,Longhua,Liu,Fuxian,Fengxiang,Lushan,Songlian,Baisha,Liangyuan,Xiangshan,Dadong,Wenlan,Jinjiang,Tianya,Houhai"
   },
   {
     "name": "Chavacano",
@@ -3122,7 +3122,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dhuleli,Morang,Sunsari,Biratnagar,Nepal,Eastern Nepal,Terai Region,India Border"
+    "b": "Kathmandu,Pokhara,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Morang,Sunsari,Udayapur,Khotang,Okhaldhunga,Solukhumbu,Sindhuli,Ramechhap,Dolakha,Sindhupalchok,Kavre,Nuwakot,Rasua,Dhading,Makwanpur,Gorkha,Lamjung,Tanahu,Kaski,Manang"
   },
   {
     "name": "Greater Magaric",
@@ -3131,7 +3131,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Magaric,Magar,Pokhara,Baglung,Beni,Myagdi,Gorkha,Nepal,Himalayas"
+    "b": "Pokhara,Kaski,Lamjung,Tanahu,Gorkha,Manang,Mustang,Dolpa,Baglung,Parbat,Myagdi,Rukum,Jumla,Kalikot,Mugu,Humla,Jajarkot,Surkhet,Dailekh,Jumla,Dolpa,Mugu,Karnali,Seti,Mahakali,Kanchanpur,Kailali,Dadeldhura,Doti,Bajhang,Bajura,Achham,Darchula,Salyan,Rukum,Rolpa,Pyuthan,Baglung,Gandaki"
   },
   {
     "name": "Magaric",
@@ -3140,7 +3140,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Magaric,Syangja,Tanahun,Kaski,Nepal,Western Nepal,Himalayas"
+    "b": "Pokhara,Kaski,Lamjung,Tanahu,Gorkha,Butwal,Bhairahawa,Dang,Deukhuri,Ghorahi,Tulsipur,Baglung,Parbat,Myagdi,Rukum,Salyan,Pyuthan,Rolpa,Limbudi,Chhath,Waling,Syangja,Arba,Kavre,Palpa,Syangja,Tanahu,Madi,Khola,Marsyangdi,Gandaki,Narayanhity"
   },
   {
     "name": "Mgp",
@@ -3221,7 +3221,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chin,Hakha,Falam,Chin State,Myanmar,India Border,Hills,Southeast Asia"
+    "b": "Hakha,Tedim,Falam,Thantlang,Tonzang,Matupi,Mindat,Kanpetlet,Paletwa,Chin,Kalay,Kalemyo,Monywa,Mandalay,Sagaing,Shwebo,Mogok,Pyinoolwin,Kyaukse,Meiktila,Yamethin,Myingyan,Natogyi,Myittha,Kani,Yinmabin,Salingyi,Tabayin,Mandalay,Amarapura,Mogyaung,Katha,Bhamo,Shwebo,Wetlet,Khin,Mandalay,Monywa"
   },
   {
     "name": "Chinantec",
@@ -3239,7 +3239,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chinese Korean,Yanji,Helong,Yanbian,Jilin Province,China,North Korea Border,Korea Peninsula"
+    "b": "Yanbian,Hunchun,Tumen,Yanji,Dunhua,Mudanjiang,Jilin,Changbai,Antu,Helong,Wangqing,Jingyu,Siping,Liaoyuan,Gongzhuling,Dehui,Fuyuan,Jiaohe,Panshi,Chaoyang,Kangping,Tieling,Kaiyuan,Beipiao,Lingyuan,Kazuo,Fuxin,Zhangwu,Heishan,Liaozhong,Xifeng,Kangning,Qiqihar,Daqing,Yichun,Mudanjiang,Jiamusi"
   },
   {
     "name": "Chinese Kyakala",
