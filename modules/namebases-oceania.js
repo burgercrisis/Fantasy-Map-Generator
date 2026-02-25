@@ -2817,5 +2817,95 @@ window.oceaniaNameBases = [
       "d": "",
       "m": 0,
       "b": "Broken Hill,Dareton,Pooncarie,Mildura,Balranald,Hay,Griffith,Leeton,West Wyalong,Wagga Wagga,Dubbo,Parkes,Forbes,Cowra,Canowindra,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Warramboo,Wilcannia,Menindee,Ivanhoe,Tibbob,Mount Brown,Boolcarroll,Moolpa,Kiacatoo,Mount Boppy"
+    },
+    {
+      "name": "Wallisian",
+      "i": 314,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Mata-Utu,Wallis Island,Uvea,Futuna,Alofi,Wallis and Futuna,French Polynesia,Samoa,Tonga,Fiji,New Caledonia,Loyalty Islands,Ouvéa,Fidji,Lautoka,Suva,Nadi,Fiji Islands,Pacific,S-Pacific,Papeete,Tahiti,Moorea,Raiatea,Bora Bora,Tahaa,Society Islands,Tuamotu,Marquesas,Gambier,Australs"
+    },
+    {
+      "name": "Futunan",
+      "i": 315,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Alofi,Wallis Island,Uvea,Futuna,Wallis and Futuna,Mata-Utu,Wallis,Uvea,Futunan Language,Futuna Island,Alofi,Poirier,Futunan,Wallisian,Fiji,Samoa,Tonga,Pacific,Papua New Guinea,New Caledonia,Vanuatu,Solomon Islands,Ouvéa,Uvea,Futunan"
+    },
+    {
+      "name": "Kiribati",
+      "i": 316,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Tarawa,South Tarawa,Betio,Maiana,Abaiang,Marakei,Butaritari,Makin,Nonouti,Bairiki,Central Gilbert,Kiribati,Gilbert Islands,Gilberts,Pacific Ocean,Gilbertese,I-Kiribati,Tarawa Atoll,Gilbert Islands,Banaba,Ocean Island,Rongelap,Marshall Islands,Kosrae,Pohnpei,Caroline Islands,Federated States Micronesia,Pacific"
+    },
+    {
+      "name": "Marshallese",
+      "i": 317,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Majuro,Rongelap,Kwajalein,Ebon,Mili,Kosrae,Pohnpei,Chuuk,Yap,Caroline Islands,Marshall Islands,Ratak Chain,Ralik Chain,Marshallese Language,Ebon Atoll,Jaluit,Arno,Wotho,Ujae,Lae,Ailinglaplap,Namu,Aur,Maloelap,Marshall Islands,Pacific Ocean,Marshallese,Marshall Language"
+    },
+    {
+      "name": "Chuukese",
+      "i": 318,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Chuuk,Truk,Weno,Moen,Pohnpei,Kosrae,Yap,Caroline Islands,Federated States Micronesia,Micronesia,Pacific Ocean,Chuuk Lagoon,Chuuk Islands,Trukese,Chuuk Language,Chuukese,Moen Island,Weno,Truk,Chuuk Atoll,Pohnpei Island,Kosrae,Yap,Federated States of Micronesia"
+    },
+    {
+      "name": "Pohnpeian",
+      "i": 319,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Pohnpei,Kosrae,Chuuk,Yap,Caroline Islands,Federated States Micronesia,Micronesia,Pacific,Pohnpei Island,Kosrae Island,Chuuk Lagoon,Yap Island,Pohnpei State,Kosrae State,Chuuk State,Yap State,Pohnpeian Language,Pohnpei,Kosraean,Chuukese,Yapese,Micronesian Languages"
+    },
+    {
+      "name": "Yapese",
+      "i": 320,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Yap,Weno,Chuuk,Pohnpei,Kosrae,Caroline Islands,Federated States Micronesia,Micronesia,Pacific,Yap Island,Yap Main Island,Ulithi,Fais,Woleai,Ifalik,Eauripik,Faraulep,Garok,Xavier,Yap State,Yapese Language,Yap Language,Micronesian,Yap Islands"
+    },
+    {
+      "name": "Rarotongan",
+      "i": 321,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Rarotonga,Avarua,Cook Islands,Aitutaki,Mauke,Atiu,Mitiaro,Manihiki,Pukapuka,Nassau,Palmerston,Suwarrow,Cook Islands,Pacific,Aitutaki,Mitiaro,Mauke,Atiu,Island,Maori Language,Cook Islands Maori,Aotearoa,New Zealand,Auckland,Sydney,Pacific Islands,Rarotongan Language,Cook Islands"
+    },
+    {
+      "name": "Tuvalu",
+      "i": 322,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Funafuti,Nanumea,Niutao,Nanumanga,Nui,Vaitupu,Nukufetau,Nukulaelae,Nanumanga,Nanumea,Niutao,Funafuti Atoll,Tuvalu Islands,Pacific Ocean,Gilbert Islands,Kiribati,Fiji,Samoa,Tuvalu Language,Tuvalu,Gilbertese,Pacific Atolls,Tuvalu Atolls,Tuvalu Islands,Pacific"
+    },
+    {
+      "name": "Nauru",
+      "i": 323,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Yaren,Denigomodu,Buada,Anetan,Ewa,Anibare,Meneng,Olotokon,Yangoru,Montgomery,Central District,District,Nauru Island,Pacific Ocean,Gilbert Islands,Kiribati,Papua New Guinea,Australia,Nauru Language,Nauruan,Nauru People,Pacific Island,Ocean Island,Nauruan Language,Nauru"
     }
   ];

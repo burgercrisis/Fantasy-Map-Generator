@@ -1008,5 +1008,95 @@ window.northAmericaNameBases = [
       "d": "",
       "m": 0,
       "b": "Bocas del Toro,Panama,Chiriqui,Veraguas,Ngobe-Bugle,Comarca,Bocas del Toro Province,Teribe,Teribe Language,Teribe People,Northern Panama,Panama Caribbean,Teribe Village,Bocas Town,Colón,Chiriquí Grande,Valle de Riscado,Pember,Norquinto,Burica,Panama West"
+    },
+    {
+      "name": "Haida",
+      "i": 113,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Skidegate,Masset,Queen Charlotte Islands,Haida Gwaii,British Columbia,Prince Rupert,Terrace,Smithers,Houston,Burns Lake,Vanderhoof,Fraser Lake,Fort St James,Cariboo,Williams Lake,Quesnel,Merritt,Kamloops,Salmon Arm,Revelstoke,Haida Language,Haida Nation,Haida Gwaii,Skidegate Haida,Masset Haida,Northern Haida,Southern Haida,Haida Culture,Haida Art,Haida Gwaii Islands"
+    },
+    {
+      "name": "Tsimshian",
+      "i": 114,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Prince Rupert, Terrace, Smithers, Houston, Burns Lake, Kitimat, Stewart, Nisga'a, Nass River, Skeena River, British Columbia, Coastal BC, Northern BC, Kitimat, Kemano, Kitselas, Kitsumkalum, Terrace, Thornhill, Lakelse, Hazelton, New Hazelton, Gitanmaax, Kispiox, Gitxsan, Wet'suwet'en,Tsimshian Language,Coast Salish,Skeena,Nass,Gitxsan,Wet'suwet'en,Metlakatla"
+    },
+    {
+      "name": "Tlingit",
+      "i": 115,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Juneau,Sitka,Ketchikan,Wrangell,Petersburg,Craig,Hoonah,Angoon,Yakutat,Haines,Skagway,Juneau,Alaska,Canadian Yukon,Whitehorse,Dawson City,Carcross,Teslin,Carcross,Tlingit,Taku River,Tanana,Yukon River,Chilkat,Taku,Kootenai,Southeastern Alaska,Yukon Territory,Tlingit Language,Tlingit Nation,Eagle Clan,Wolf Clan,Raven Clan,Kaagwaantaan"
+    },
+    {
+      "name": "Inupiaq",
+      "i": 116,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Barrow,Utqiagvik,Point Hope,Kivalina,Noatak,Deering,Kotzebue,Selawik,Shungnak,Ambler,Kobuk,Bettles,Allakaket,Ruby,Grayling,Huslia,Kaltag,Nulato,Galena,Norton Sound,Bering Strait,Seward Peninsula,Northwest Arctic,Arctic Alaska,Alaska Arctic,Inupiaq Language,Iñupiat,Iñupiaq,Kuuk,Inupiat,North Slope,Barrow Alaska,Utqiagvik,Barrow"
+    },
+    {
+      "name": "Yupik",
+      "i": 117,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Bethel,Dillingham,Nome,Emmonak,Marshall,Niku,Scott,St. Marys,Napakiak,Napaskiak,Kwigillingok,Kongiganak,Tuluksak,Tuntutuliak,Napakiak,Kipnuk,Friendship,Kasigluk,Nightmute,Niku,Kuskokwim,Yukon River,Bristol Bay,Seward Peninsula,Yupik Language,Yupiik,Cup'ik,Siberia,Chukotka,Russian Alaska,Yupik Eskimo,Yupiit,Yupik People"
+    },
+    {
+      "name": "Aleut",
+      "i": 118,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Unalaska,Adak,Attu,Atka, Nikolski,Egegik,King Cove,Cold Bay,Sand Point,False Pass,Akutan,Dutch Harbor,Unalaska Island,Aleutian Islands,Aleutians West,Aleutian Chain,Pribilof Islands,St. Paul Island,St. George Island,Aleut Language,Unangan,Unalashka,Aleut Nation,Aleutian,Aleutian Islands,Aleut Corporation,Aleut History"
+    },
+    {
+      "name": "Salish",
+      "i": 119,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Vancouver,Victoria,Nanaimo,Port Hardy,Campbell River,Powell River,Whistler,Penticton,Kelowna,Kamloops,Salmon Arm,Merritt,Hope,Chilliwack,Fraser Valley,BC Interior,Coast Salish,Interior Salish,Salish Language,Salish Sea,Straits Salish,Coast Salish,Interior Salish,Salish Nation,Salish Tribes,Secwepemc,Nlaka'pamux,Thompson,Okanagan,Salish"
+    },
+    {
+      "name": "Kootenai",
+      "i": 120,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Bonners Ferry,Idaho,Libby,Montana,Kalispell,Whitefish,Columbia Falls,Polson,Missoula,Idaho Panhandle,Montana Rockies,Kootenai River,Kootenay Lake,Boundary County,Lincoln County,Sandpoint,Dover,Hope, Bonners Ferry,Kootenai Language,Kootenai,Kutenai,Kootenay,Kootenai Nation,Kootenai Tribe,Kootenai Indians,Kootenai Culture"
+    },
+    {
+      "name": "Kaskaskia",
+      "i": 121,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "St. Louis,Missouri,Kaskaskia,Illinois,Kaskaskia River,Randolph County,Carbondale,Evansville,Indiana,Paducah,Kentucky,Cape Girardeau,Pomfret,Mississippi River,Great Lakes Region,Midwest US,Illinois Country,Kaskaskia Language,Kaskaskia,Kaskaskia Tribe,Illiniwek,Kaskaskia Indians,Kaskaskia Nation,Illinois Confederacy"
+    },
+    {
+      "name": "Potawatomi",
+      "i": 122,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Chicago,Detroit,Milwaukee,Green Bay,Appleton,Oshkosh,Manitowoc,Fond du Lac,Grand Rapids,Lansing,Kalamazoo,South Bend,Fort Wayne,Indianapolis,Cedar Rapids,Iowa City,Davenport,Cedar Rapids,Iowa,Wisconsin,Michigan,Illinois,Indiana,Iowa,Kentucky,Potawatomi Language,Bodwem,Bodewadmik,Potawatomi Nation,Potawatomi Tribe,Forest County"
     }
   ];
