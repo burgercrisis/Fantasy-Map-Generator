@@ -3149,7 +3149,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Magar,Rukum,Rolpa,Salyan,Nepal,Western Nepal,Himalayas"
+    "b": "Pokhara,Kaski,Lamjung,Tanahu,Gandaki,Baglung,Parbat,Myagdi,Manang,Mustang,Dolpa,Morang,Butwal,Bhairahawa,Narayangadh,Chitwan,Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar"
   },
   {
     "name": "Kip",
@@ -3158,7 +3158,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kip,Rukum,Rolpa,Dolpa,Nepal,Western Nepal,Himalayas,Tibet Border"
+    "b": "Pokhara,Kaski,Lamjung,Tanahu,Gandaki,Baglung,Parbat,Myagdi,Rukum,Rolpa,Dolpa,Mugu,Humla,Jumla,Kalikot,Dailekh,Surkhet,Jajarkot,Salyan,Bajhang"
   },
   {
     "name": "Drq",
@@ -3167,7 +3167,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kaike,Dolpa,Mugu,Nepal,Western Nepal,Himalayas,Tibet Border"
+    "b": "Dolpa,Mugu,Humla,Jumla,Kalikot,Dailekh,Surkhet,Jajarkot,Salyan,Rolpa,Rukum,Pyuthan,Baglung,Parbat,Myagdi,Karnali,Seti,Mahakali,Achham,Bajura"
   },
   {
     "name": "Japanese regional lects",
@@ -3842,7 +3842,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duan Bahnaric,Buon Ma Thuot,Kon Tum,Dak Lak,Vietnam,Central Highlands,Southeast Asia"
+    "b": "Dak Lak,Dak Nong,Kon Tum,Gia Lai,Buon Ma Thuot,Pleiku,Kon Tum,Sa Pa,Lai Chau,Dien Bien,Sơn La,Hoa Binh,Thanh Hoa,Nghe An,Ha Tinh,Quang Binh,Quang Tri,Hue"
   },
   {
     "name": "Eastern Himalayas",
@@ -3869,7 +3869,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Arh,Aizawl,Lunglei,Mizoram,India,Northeast India,Mizoram State"
+    "b": "Aizawl,Lunglei,Saiha,Champhai,Kolasib,Mamit,Serchhip,Lawngtlai,Hmar,Mizo,Mizoram,Tripura,Assam,Meghalaya,Manipur,Nagaland,Guwahati,Shillong,Imphal,Kohima"
   },
   {
     "name": "Bmr",
@@ -3878,7 +3878,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bmr,Burmi,Hongdong,Sanmen,Shanxi,China,North China"
+    "b": "Taiyuan,Datong,Yangquan,Changzhi,Jincheng,Shuozhou,Jinzhong,Yuncheng,Xinzhou,Linfen,Lvliang,Shanxi,Hebei,Beijing,Tianjin,Inner Mongolia,Henan,Shaanxi"
   },
   {
     "name": "Dzao Min",
@@ -3887,7 +3887,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dzao Min,Xiamen,Fuzhou,Quanzhou,Fujian,China,Southeast China"
+    "b": "Xiamen,Fuzhou,Quanzhou,Zhangzhou,Putian,Sanming,Ningde,Nanping,Longyan,Quanzhou,Jinjiang,Shishi,Houquan,Fujian,Taiwan,Taipei,Kaohsiung,Taichung,Tainan,Keelung"
   },
   {
     "name": "Eastern Min",
@@ -5615,7 +5615,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Paksong,Sekong,Xekong,Attapeu,Champasak,Salavan"
+    "b": "Pakse,Champasak,Sekong,Attapeu,Salavan,Xekong,Savannakhet,Khammouane,Vientiane,Luang Prabang,Houaphanh,Xieng Khouang,Phongsaly,Luang Namtha,Oudomxay,Bokeo,Luang Prabang"
   },
   {
     "name": "Lavi",
