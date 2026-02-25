@@ -3545,7 +3545,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cua,Bac Lieu,Long Xuyen,Ca Mau,Vietnam,Mekong Delta,Southeast Asia"
+    "b": "Nha Trang,Phan Thiet,Phan Rang,Cam Ranh,Vinh,Dong Hoi,Hue,Da Nang,Hoi An,Quy Nhon,Tuy Hoa,Ninh Chu,Ca Na,Phuoc Dinh,Thuan Hai,Binh Thuan,Ninh Thuan,Khanh Hoa,Phu Yen,Binh Dinh,Quang Ngai,Quang Nam"
   },
   {
     "name": "Cun Hlai",
@@ -3554,7 +3554,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cun Hlai,Cun,Hainan,China,South China Sea,Tropical,Hainan Island"
+    "b": "Haikou,Sanya,Qionghai,Wenchang,Qikou,Danzhou,Lingao,Chengmai,Ding'an,Tunchang,Qiongzhong,Baoting,Ledong,Sanya,Yacheng,Yingge,Haitang,Yalong,Sanya,Bahou,Wuzhishan,Wuyao,Jiangbei,Meilan,Xiuying,Longhua,Lushan,Songlian,Baisha,Liangyuan,Xiangshan"
   },
   {
     "name": "Dadanitic",
@@ -3563,7 +3563,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dadanitic,Al Ula,Madinah,Tayma,Al Jawf,Saudi Arabia,Hejaz,Northwestern Arabia,Arabian Desert"
+    "b": "AlUla,Medina,Hegra,Mada'in Saleh,Hejaz,Tabuk,Tayma,Duma,Dedan,Hijaz,Arabia,Saudi,Northwest,Nabatean,Ancient,Archaeological,Desert,Rock,Inscriptions,Lihyan,Dadanim,Northwest Arabia,Hijaz"
   },
   {
     "name": "Dagur",
@@ -3572,7 +3572,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dagur,Hailar,Manzhouli,Inner Mongolia,China,Hulunbuir,Da Hinggan Mountains,Amur River Border"
+    "b": "Hulunbuir,Hailar,Zhalantun,Yakeshi,Zhonglu,Zhaodong,Harbin,Qiqihar,Mudanjiang,Jiamusi,Daqing,Heihe,Blagoveshchensk,Amur,Inner Mongolia,Daur,Mongol,Buryat,Manchuria,Heilongjiang,Jilin"
   },
   {
     "name": "Dai Zhuang",
@@ -3581,7 +3581,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dai Zhuang,Nanning,Guilin,Liuzhou,Guangxi,China,South China"
+    "b": "Kunming,Yuxi,Qujing,Yunnann,Xam,Sipsong,Panna,Jinggu,Jingdong,Zhenghe,Wenshan,Mengzi,Kaiyuan,Gejiu,Mang,Lijiang,Dali,Chuxiong,Kunming,Yibin,Weining,Zhaotong,Dongchuan,Anning"
   },
   {
     "name": "Damu",
@@ -3590,7 +3590,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Damu,Kondoa,Karatu,Tanzania,East Africa,Great Rift Valley"
+    "b": "Mandalay,Sagaing,Monywa,Pyinoolwin,Kyaukse,Meiktila,Shwebo,Wetlet,Khin,Chaung U,Yandoon,Kyangin,Yesagyo,Pakokku,Gangaw,Mandalay,Amarapura,Inwa,Ava,Sagaing,Mandalay,Bagan,Nyaung U"
   },
   {
     "name": "Dao",
@@ -3617,7 +3617,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Darkhad,Murun,Khatgal,Khövsgöl,Mongolia,Lake Khövsgöl,Siberia Border,Arkhangai"
+    "b": "Ulaanbaatar,Ulan Bator,Darkhad,Khovd,Uvs,Bulgan,Arkhangai,Zavkhan,Govi-Altai,Bayankhongor,Omnogovi,Sukhbaatar,Selenge,Tuv,Khentii,Dornogovi,Dundgovi,Govisumber,Bayan-Olgii,Govi"
   },
   {
     "name": "Holiya",
@@ -3626,7 +3626,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Holiya,Bagalkot,Belgaum,Karnataka,India,South India,Deccan Plateau"
+    "b": "Bangalore,Mysore,Mangalore,Chitradurga,Tumkur,Hassan,Dharwad,Belgaum,Hubli,Dharwad,Bellary,Raichur,Koppal,Bellary,Chitapur"
   },
   {
     "name": "Irula",
