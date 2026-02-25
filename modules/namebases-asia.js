@@ -3995,7 +3995,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gyeongju,Gaeseong,Gangneung,Gyeongju-Si,Gaya Kingdom,Korea,East Asia"
+    "b": "Gaegyeong,Kaesong,Seoul,Gyeongju,Busan,Gwangju,Daegu,Incheon,Daejeon,Ulsan,Sejong,Wando,Jindo,Heuksan,Jangheung,Haenam,Gochang,Iksan,Gyeongju,Andong,Gyeongju,Naju,Mokpo,Yeonggwang,Muan,Hampyeong,Jangseung"
   },
   {
     "name": "Greater Siangic",
@@ -4022,7 +4022,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chuncheon,Gangneung,Wonju,Sokcho,Hongcheon,South Korea,Gangwon Province"
+    "b": "Gangwon,Gangneung,Sokcho,Pyeongchang,Gangwon-do,Chuncheon,Wonju,Taebaek,Jeongseon,Samcheok,Daejeon,Asan,Seosan,Taean,Hongseong,Yesan,Cheonan,Pyeongtaek,Osan,Icheon,Yeoju,Yangpyeong,Gapyeong,Pocheon,Yangju,Uijeongbu"
   },
   {
     "name": "Gaya Korean",
@@ -4031,7 +4031,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gyeongju,Gimhae,Andong,Yeongcheon,Gaya Confederacy,Korea,Nakdong River"
+    "b": "Gaya,Gimhae,Sacheon,Jinju,Changwon,Masan,Tongyeong,Geoje,Gyeongsang,Gimhae,Nakdong,Gyeongsangnam-do,Busan,Ulsan,Daegu,Gumi,Pohang,Gyeongju,Ulleung,Daehan,Goryeo,Silla,Hamgyeong,Jeolla,Gwangju,Jeonju,Naju"
   },
   {
     "name": "Garhwali",
@@ -4175,7 +4175,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Huishui,Miao,Hmong,Guizhou,China,Southwest,Huishui People"
+    "b": "Guiyang,Guizhou,Zunyi,Anshun,Bijie,Liupanshui,Qiannan,Qiandongnan,Dushan,Libo,Rongjiang,Congjiang,Sandu,Danzhai,Jinping,Leishan,Kaili,Duyun,Dushan,Pingtang,Shiqian,Wutan,Wumeng,Weining,Zhijin"
   },
   {
     "name": "Hwanghae",
@@ -4247,7 +4247,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gyeonggi,Gyeonggi-Seoul,Seoul,Incheon,Suwon,Bucheon,South Korea,Province"
+    "b": "Seoul,Incheon,Suwon,Goyang,Yongin,Seongnam,Bucheon,Ansan,Anyang,Gwangmyeong,Paju,Uijeongbu,Namyangju,Gwangju,Uiwang,Siheung,Gwangmyeong,Gunpo,Yongin,Seongnam,Bundang,Songpa,Gangnam,Jongno,Jung,Yongsan,Mapo,Eunpyeong,Seodaemun,Hongdae,Itaewon,Insadong,Myeongdong,Dongdaemun"
   },
   {
     "name": "Gyeongsang",
@@ -4256,7 +4256,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Gyeongsang,Busan,Ulsan,Tongyeongong,Changwon,Miryang,South Korea,Province"
+    "b": "Busan,Daegu,Ulsan,Changwon,Gyeongsang,Pohang,Gimhae,Gyeongsangbuk-do,Gyeongsangnam-do,Gumi,Gyeongju,Masan,Jinju,Tongyoung,Sacheon,Goseong,Miryang,Seongju,Geumwang,Yecheon,Sangju,Yeongju,Andong,Uljin,Yeongdeok"
   },
   {
     "name": "Hani",
@@ -4283,7 +4283,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Armenian,East,Syunik,Echmiadzin,Tavush,Masisis,Armenia,Caucasus"
+    "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Kapan,Armavir,Alaverdi,Gyumri,Hrazdan,Kumayri,Garni,Geghard,Sevan,Dilijan,Tatev,Zorats Karer,Armenia,Caucasus,Tavush,Syunik,Lori,Ararat,Kotayk,Gegharkunik,Vayots Dzor"
   },
   {
     "name": "Modern Armenian",
@@ -4319,7 +4319,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Old,Armenian,Classical,Language,Kingdom,Empire,Asia,Minor,Caucasus"
+    "b": "Ani,Armenia,Yerevan,Gyumri,Caucasus,Tigranakert,Artashat,Armavir,Yervandashat,Zvarnots,Bagaran,Arsharunik,Syunik,Vayots Dzor,Gegharkunik,Ararat,Armavir,Mamikat,Arsacid,Mesrop,Vahan,Sebeos,Yakob,Lazar,Byzantine,Cilicia"
   },
   {
     "name": "Old Cilician Armenian",
