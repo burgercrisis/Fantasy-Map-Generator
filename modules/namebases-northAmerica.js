@@ -638,7 +638,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Sitka,Juneau,Hoonah,Yakutat,Kake,Angoon,Haines,Skagway,Pelican,Tenakee,Klukwan,Wrangell,Ketchikan,Saxman,Metlakatla,Hydaburg,Kasaan,Craig,Thorne Bay,Klawaock"
+      "b": "Dzantik'i Héeni,Kichx̱áan,Sheet'ká,Tlaguwu Aan,Aansadaak'w,Yéil Kaawu,Áakʼw K̲wáan,T’aak̲ú K̲wáan,Xunaa Kaawu,Yaakwdaat Kwaan,Sheet'ká Kwaan,Jilkaat Kwaan,Soulé,Deishú,Taku,Kootznoowoo,Gunstoney,L'uknax.án,Kaagwaantaan,Deisheetaan"
     },
     {
       "name": "Apache",
@@ -962,7 +962,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Limón,Puerto Viejo,Cahuita,San Jose,Talamanca,Costa Rica,Cartago,Heredia,Alajuela,Guanacaste,Puntarenas,Cabécar Language,Talamanca,Bribri,Cabécar,Costa Rica Caribbean,Bribri Language,Caribbean Costa Rica,Costa Rica,Indigenous,Cabécar People,Cabécar Village,Indigenous Languages"
+      "b": "Chirripó,Nairi-Awari,Tayni,Telire,Talamanca-Cabécar,Ujarrás,Cabagra,Estrella,Tucurrique,China Kichá,Bajo Chirripó,Pacuare,Valle del Pacuare,Ditsä Si,Sektu,Kabé,Kabekwa,Talamanca,Amón,Cahuita,Tayni,Keko,Lari,Miramar,Brigadilla,Sixio,Sibú,Dorlay"
     },
     {
       "name": "Ngabere",
@@ -971,7 +971,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Panama City,Colón,Portobelo,David,Chiriqui,Bocas del Toro,Ngäbe-Buglé,Comarca Ngäbe-Buglé,Veraguas,Panama West,Panama East,Coclé,Herrera,Los Santos,Ngabere Language,Guaymí,Ngobe,Ngobe Language,Panama Caribbean,Panama West,Coclé,Ngabere,Ngobe Bugle,Indigenous Panama"
+      "b": "Buäbiti,Kusapín,Kankintú,Jirondai,Mironó,Nole Duima,Besiko,Ñürün,Münä,Bledeshia,Samboa,Büri,Tuwai,Guariviara,Bisira,Hato Pilón,Cerro Iglesias,Cascabel,Cerro Chorcha,Cerro Colorado,Kätärä Teri,Coto Brus,Conte Burica,Abrojos Montezuma,Guaymi de Osa,Sibá,Dupa,Soloy,Ngöbe"
     },
     {
       "name": "Embera",
@@ -1016,7 +1016,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Skidegate,Masset,Queen Charlotte Islands,Haida Gwaii,British Columbia,Prince Rupert,Terrace,Smithers,Houston,Burns Lake,Vanderhoof,Fraser Lake,Fort St James,Cariboo,Williams Lake,Quesnel,Merritt,Kamloops,Salmon Arm,Revelstoke,Haida Language,Haida Nation,Haida Gwaii,Skidegate Haida,Masset Haida,Northern Haida,Southern Haida,Haida Culture,Haida Art,Haida Gwaii Islands"
+      "b": "Skidegate,Masset,Haida Gwaii,Graham Island,Moresby Island,Langara Island,Lyell Island,Burnaby Island,Anthony Island,Old Massett,Gwaii Haanas,Naden Harbour,Hippa,Kung,Tallheo,Kaisun,Kloo,Yan,Dadens,Tanoo,Tlingsans,Kunst,Gaat,Kunst,Kaigani,Sangibaba,Skidegate Haida,Masset Haida"
     },
     {
       "name": "Tsimshian",
@@ -1034,7 +1034,7 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Juneau,Sitka,Ketchikan,Wrangell,Petersburg,Craig,Hoonah,Angoon,Yakutat,Haines,Skagway,Juneau,Alaska,Canadian Yukon,Whitehorse,Dawson City,Carcross,Teslin,Carcross,Tlingit,Taku River,Tanana,Yukon River,Chilkat,Taku,Kootenai,Southeastern Alaska,Yukon Territory,Tlingit Language,Tlingit Nation,Eagle Clan,Wolf Clan,Raven Clan,Kaagwaantaan"
+      "b": "Dzantik'i Héeni,Kichx̱áan,Sheet'ká,Tlaguwu Aan,Aansadaak'w,Yéil Kaawu,Áakʼw K̲wáan,T’aak̲ú K̲wáan,Xunaa Kaawu,Yaakwdaat Kwaan,Sheet'ká Kwaan,Jilkaat Kwaan,Soulé,Deishú,Taku,Kootznoowoo,Gunstoney,L'uknax.án,Kaagwaantaan,Deisheetaan,L'uknax.án,X'aak'w,Tlein,Koo.éex'"
     },
     {
       "name": "Inupiaq",
