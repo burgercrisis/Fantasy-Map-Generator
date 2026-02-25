@@ -3194,7 +3194,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chepangic,Chitwan,Makwanpur,Dhading,Nepal,Central Nepal,Himalayas"
+    "b": "Kathmandu,Chitwan,Pokhara,Daman,Muglin,Kaski,Lamjung,Tanahu,Gorkha,Daman,Hetauda,Bharatpur,Narayangadh,Mekh,Dugun,Dhading,Nuwakot,Rasua,Kavre,Makwanpur,Ramechhap,Sindhuli,Udayapur,Okhaldhunga,Khotang,Solukhumbu,Sankhuwasabha,Bhojpur,Dhankuta,Terhathum,Ilam,Panchthar,Taplejung,Sunsari,Morang,Jhapa"
   },
   {
     "name": "Chhattisgarhi",
@@ -3266,7 +3266,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chittagonian,Chittagong,Cox's Bazar,Comilla,Bangladesh,Bay of Bengal,South Asia"
+    "b": "Chittagong,Cox's Bazar,Comilla,Noakhali,Feni,Lakshmipur,Chandpur,Lokkipara,Bandarban,Rangamati,Khagrachari,Satkania,Patiya,Anowara,Boalkhali,Sitakunda,Mirsarai,Karnaphuli,Chandanaish,Sandwip,Hatiya,Bhola,Barisal,Barguna,Patuakhali,Jhalokati,Pirojpur,Khulna,Bagerhat,Satkhira,Jessore,Narail,Magura,Kushtia,Meherpur,Narayanganj,Gazipur,Mymensingh,Tangail,Jamalpur,Sherpur,Bogra"
   },
   {
     "name": "Cholanaikkan",
@@ -3302,7 +3302,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Christian Palestinian Aramaic,Bethlehem,Ramallah,Jerusalem,Bethany,Galilee,Palestine,Middle East"
+    "b": "Jerusalem,Bethlehem,Nazareth,Haifa,Jaffa,Ramallah,Gaza,Nablus,Hebron,Bethany,Jericho,Galilee,Samaria,Golan,Gaza Strip,West Bank,Akko,Caesarea,Safed,Tiberias,Sepphoris,Capernaum,Bethsaida,Magdala,Cana,Nain,Endor,Arbel,Mount Tabor,Sea of Galilee,Mount Carmel,Jordan River,Dead Sea,Mediterranean,Negev,Judea,Samaria,Galilee"
   },
   {
     "name": "Christian Urmi Neo-Aramaic",
@@ -3311,7 +3311,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Christian Urmi Neo-Aramaic,Urmia,Mahabad,Maku,Iran,Iraq Border,Kurdistan,Azerbaijan Border"
+    "b": "Urmia,Tabriz,Tehran,Salmas,Mahabad,Sardasht,Buka,Naghadeh,Saujbulagh,Shnof,Khoshi,Qalateh,Seyid,Tatat,Kurdistan,Iran,Erbil,Mosul,Baghdad,Ninawa, Dohuk,Zakho,Akra,KRG,Assyria,Nineveh,Nineveh Plains,Kurdistan Region,Iraqi Kurdistan,West Azerbaijan"
   },
   {
     "name": "Chukchi",
@@ -3320,7 +3320,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chukchi,Anadyr,Provideniya,Uelen,Chukotka Autonomous Okrug,Russia,Siberia,Bering Sea,Chukchi Sea"
+    "b": "Anadyr,Bilibino,Pevek,Egvekinot,Provideniya,Lavrentia,Markovo,Ushakovskoye,Alkino,Komsomolsky,Uelen,Neshkan,Krasneno,Beringovsky,Chukotka,Kolyma,Anadyr,Kanchalan,Mavro,Omolon,Belta,Aviat,Zvyozdny,Ust-Belaya,Khatyrka,Velikoretsk,Sibirsky,Zolotoy,Sagyn,Kuyul,Tilichiki,Snyat,Septemvri,Tumanny,Alutor,Nauch,Kuchum"
   },
   {
     "name": "Chongqing Mandarin",
@@ -3329,7 +3329,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chongqing,Chengdu,Wanzhou,Fuling,China,Sichuan,Yangtze River,Three Gorges"
+    "b": "Chongqing,Chengdu,Mianyang,Deyang,Nanchong,Dazhou,Luzhou,Yibin,Leshan,Zigong,Panzhihua,Liangshan,Guangyuan,Suining,Neijiang,Lezhi,Ziyang,Anyue,Tianfu,Chengdu,Chongqing,Wanzhou,Fuling,Yongchuan,Hechuan,Nanchuan,Banan,Yubei,Bishan,Tongliang,Dazu,Qijiang,Jiangjin,Changshou,Shuangqiao,Wulong,Fengdu"
   },
   {
     "name": "Chukotkan",
@@ -3338,7 +3338,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chukotkan,Anadyr,Provideniya,Markovo,Chukotka,Russia,Siberia,Bering Strait"
+    "b": "Anadyr,Bilibino,Pevek,Egvekinot,Provideniya,Lavrentia,Markovo,Ushakovskoye,Alkino,Komsomolsky,Uelen,Neshkan,Krasneno,Beringovsky,Chukotka,Kolyma,Anadyr,Kanchalan,Mavro,Omolon,Belta,Aviat,Zvyozdny,Ust-Belaya,Khatyrka,Velikoretsk,Sibirsky,Zolotoy,Sagyn"
   },
   {
     "name": "Chukotko-Kamchatkan",
@@ -3347,7 +3347,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chukotko-Kamchatkan,Anadyr,Palana,Kamchatka,Russia,Far East,Siberia,Pacific Ocean"
+    "b": "Petropavlovsk,Kamchatsky,Klyuchi,Ust-Kamchatsk,Kozyrevsk,Milkovo,Ellizovo,Vilyuchinsk,Petropavlovsk,Kamchatsk,Yelizovo,Paratunka,Zavoiko,Semyonov,Mikhalkovo,Khalaktyr,Napa,Dachny,Tsentr,Oktyabrsky,Vulkanny,Gorodok,Sadovy,Krasny,Voyenny,Vnukovo,Naberezhny,Yuzhny,Severny,Vostochny,Zapadny,Centralny,Sputnik"
   },
   {
     "name": "Chukotko-Kamchatkan-Amuric",
