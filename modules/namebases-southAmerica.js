@@ -2142,5 +2142,77 @@ window.southAmericaNameBases = [
       "d": "",
       "m": 0,
       "b": "Asuncion,Ciudad del Este,Encarnacion,Luque,San Lorenzo,Lambare,Villarrica,Itaugua,Caaguazu,Concepcion,Coronel Oviedo,Pedro Juan Caballero,Buenos Aires,Corrientes,Posadas,Resistencia,Formosa,Misiones,Entre Rios,Santa Fe,Cordoba,Mendoza,Asuncion,Paraguay,Argentina,Brazil,Bolivia,Guarani,Paraguari,Tupã,Ñanduti,Arandu,Jopara,Karai,Yvate,Kaa,Tataendy,Yvyrague,Ivy,Mbarakaja,Petei,Ko'e Pyahu,Karai Guasu,Yasy,Kaavo"
+    },
+    {
+      "name": "Barasana-Edur",
+      "i": 239,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Leticia,Tabatinga,Brazil,Colombia,Amazonas,Puerto Colombia,Venezuela,Caño Cristales,Rio Vaupes,Caño Cucuy,Puinave,Cabernete,Tariana,Tucano,Karapan,Cabuhy,Curri,Carapana,Barasana,Cubeo,Desano,Guanano,Kurina,Mirana,Kawishana,Tapuya,Resí,Bora,Witoto,Ocaina,Andoke,Kakataibo,Kashibo,Kapanahua,Sharanahua,Matses,Kakataibo,Huitoto,Ocaina"
+    },
+    {
+      "name": "Kurripako",
+      "i": 240,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Leticia,Puerto Colombia,Amazonas,Colombia,Venezuela,Manaus,Tabatinga,Benjamin Constant,Atalaia do Norte,Sao Paulo de Olivenca,Japurá,Caquetá,Putumayo,CañApurima,Mocoa,Valle del Guamuez,Puerto Asís,Caucasia,Antioquia,Cartagena,Santa Marta,Barranquilla,Soledad,Bogota,Cali,Pasto,Ipiales,Tulcan,Ibarra"
+    },
+    {
+      "name": "Kawishana",
+      "i": 241,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Manaus,Belem,Parintins,Itacoatiara,Manacapuru,Coari,Tefe,Caroebe,Boa Vista,Roraima,Brazil,Bolivar,Venezuela,Amazonas,Rio Negro,Branco,Japura,Caquete,Uaupes,Pacoa,Tariana,Tucano,Barasana,Cabernete,Cahua,Cucuhy,Caracarai,Canoeiro,Xingu,Kararao,Kayapo,Gorotire,Mebengokre,Kayapo,Panara,Kreen-Akarore"
+    },
+    {
+      "name": "Toto",
+      "i": 242,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Bogota,Cali,Medellin,Barranquilla,Cartagena,Santa Marta,Bucaramanga,Pereira,Cúcuta,Manizales,Ibagué,Armenia,Pasto,Neiva,Popayán,Tuluá,Palmira,Buenaventura,Cartago,Florencia,Cartagena,Barranquilla,Santa Marta,Bogotá,Medellín,Cali,Barranquillla,Cúcuta,Bucaramanga,Manizales,Ibagué,Cali,Medellin,Cartagena,Santa Marta"
+    },
+    {
+      "name": "Wanai",
+      "i": 243,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Bogota,Medellin,Barranquilla,Cali,Cartagena,Bucaramanga,Pereira,Cúcuta,Manizales,Ibagué,Armenia,Pasto,Neiva,Popayán,Tuluá,Palmira,Buenaventura,Cartago,Florencia,Casanare,Llanos,Vichada,Meta,Guaviare,Caquetá,Putumayo,Nariño,Caucasia,Antioquia,Córdoba,Sucre,Bolívar,Cesar,La Guajira"
+    },
+    {
+      "name": "Piaroa-Slanguages",
+      "i": 244,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Ciudad Bolivar,Puerto Ordaz,Caroni,Venezuela,Manaus,Brazil,Amazonas,Orinoco,Alto Orinoco,Mavaca,Himara,Ocamo,Maroa,San Carlos de Rio Negro,San Fernando de Atabapo,Yavita,Pimichin,Tucano,Marahuaca,Aman,Sarak,Parhue,Sivangi,Himara,Eneq,Sorhu,Shamathali,Paraka,Moema,Korua,Tucano,Pemon,Arawak,Caribe,Arawak,Cayana,Cuyuni,Mazaruni"
+    },
+    {
+      "name": "Sikuani",
+      "i": 245,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Bogota,Casanare,Meta,Guaviare,Vichada,Arauca,Caucasia,Antioquia,Medellin,Barranquilla,Cali,Cartagena,Santa Marta,Bucaramanga,Pereira,Cúcuta,Manizales,Ibagué,Armenia,Pasto,Neiva,Popayán,Tuluá,Palmira,Buenaventura,Cartago,Florencia,Yopal,Villavicencio,Arauca,Riohacha,Valledupar,Sincelejo,Monteria,Tubara"
+    },
+    {
+      "name": "Cubeo",
+      "i": 246,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Leticia,Bogota,Casanare,Meta,Puerto Inirida,Guainia,Venezuela,Colombia,Brazil,Puerto Colombia,Puerto Carreno,Inirida,Caño Guaviare,Vichada,Orinoco,Meta,Casanare,Piedemonte,Llanura,Caucasia,Antioquia,Pacifico,Choco,Cauca,Valle del Cauca,Nariño,Caucasia"
     }
   ];
