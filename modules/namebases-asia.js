@@ -3752,7 +3752,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Domaaki,Karachi,Hyderabad,Sindh,Pakistan,Indus Delta"
+    "b": "Karakoram,Gilgit,Baltistan,Skardu,Shigar,Kashmir,Hunza,Nagar,Yasin,Chitral,Upper Dir,Swat,Khyber,Pakhtunkhwa,Kashmir"
   },
   {
     "name": "Dameli",
@@ -3761,7 +3761,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dameli,Chitral,Upper Chitral District,Khyber Pakhtunkhwa,Pakistan,Hindu Kush"
+    "b": "Peshawar,Mardan,Nowshera,Charsadda,Khyber,Kohat,Bannu,Dera Ismail Khan,Karak,Hangu,Abbottabad,Mansehra,Haripur,Swabi,Mardan,Chitral"
   },
   {
     "name": "Dorbet Oirat",
@@ -3770,7 +3770,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dorbet Oirat,Kalmykia,Elista,Astrakhan,Russia,Caspian Sea,Volga Delta"
+    "b": "Ulaanbaatar,Khovd,Uvs,Zavkhan,Govi-Altai,Bayankhongor,Omnogovi,Kalmykia,Elista,Astrakhan,Volgograd,Krasnodar,Dagestan,Chechnya"
   },
   {
     "name": "Dolpo",
@@ -3779,7 +3779,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Dolpo,Dolpo District,Mugu,Dunai,Nepal,Himalayas,Tibet Border"
+    "b": "Dolpa,Jumla,Mugu,Humla,Simikot,Dunai,Jhang,Kangchenjunga,Mustang,Lo Manthang,Upper Mustang,Tibet,Lhasa,Shigatse,Zhangmu,Rikaze"
   },
   {
     "name": "Darai",
@@ -3788,7 +3788,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Darai,Dang,Deukhuri,Nepal,Central Nepal,Chure Hills"
+    "b": "Kathmandu,Pokhara,Lalitpur,Bhaktapur,Hetauda,Bharatpur,Birgunj,Narayangadh,Butwal,Bhairahawa,Kaski,Lamjung,Gandaki,Chitwan,Nawalparasi"
   },
   {
     "name": "Duan",
@@ -3797,7 +3797,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Duan,Duanzhou,Gaozhou,Guangdong,China,South China"
+    "b": "Hanoi,Ho Chi Minh,Da Nang,Hue,Hai Phong,Nha Trang,Can Tho,Vinh,Hue,Quy Nhon,Dalat,Vung Tau,Phan Thiet,Mui Ne,Long Hai,Ha Long"
   },
   {
     "name": "Duruwa",
@@ -3905,7 +3905,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Eastern Yugur,Huangnan,Xunhua,Qinghai,China,Tibetan Plateau,Amdo"
+    "b": "Dunhuang,Zhangye,Wuwei,Jiuquan,Yumen,Anxi,Hami,Turpan,Kashgar,Urumqi,Gansu,Silk Road,Hexi Corridor,Qilian Mountains,Altay,Yumen"
   },
   {
     "name": "Ekherit Bulagat Buryat",
@@ -3941,7 +3941,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Even,Yakutsk,Tomsk,Mirny,Khandyga,Yakutia,Russia,Siberia,Lena River"
+    "b": "Yakutsk,Aldan,Nerchinsk,Chita,Ulan-Ude,Irkutsk,Bratsk,Krasnoyarsk,Taksimo,Lensk,Olyokminsk,Mirny,Udachny,Polyarny,Zolotinka,Saskylakh"
   },
   {
     "name": "Ewenic",
