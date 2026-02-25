@@ -3815,7 +3815,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "E mixed,East Asia,Southeast Asia,Oceania,Australia,Indo-Pacific"
+    "b": "Tokyo,Seoul,Beijing,Shanghai,Hong Kong,Taipei,Bangkok,Hanoi,Ho Chi Minh,Manila,Jakarta,Singapore,Kuala Lumpur,Yangon,Phnom Penh,Vientiane,Luanda Prabang,Daejeon,Incheon,Osaka,Kyoto,Busan,Taipei,Kaohsiung,Da Nang,Hue,Nha Trang,Kuala Lumpur,Penang,Johor,Bali,Surabaya,Medan,Manila,Cebu,Davao,Jakarta,Bandung,Semarang,Balikpapan,Macau,Guangzhou,Shenzhen,Chengdu,Chongqing,Guangzhou"
   },
   {
     "name": "Early Modern Korean",
@@ -4157,7 +4157,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Ghera,Mulua,Banyo,Touroudine,Libya,East,West Africa"
+    "b": "Tripoli,Libya,Sabha,Ghadames,Awjila,Derj,Djarabub,Marj,Derna,Benghazi,Tobruk,Misrata,Zliten,Al Khums,Sirte,Niger,Mali,Chad,Agadez,Zinder,Niamey,Mopti,Gao,Timbuktu,Koulikoro,Segou,Kayes,Kita,Bougouni,Nioro,Bamako,Kidal,Tessalit,Menaka,Gaoch,Libya,Sahara,Desert,Fezzan,Kufra,Djado,Rebiana,Murzuq,Wadi al Hayaa,Al Wattiyah,Wadi Shati"
   },
   {
     "name": "Huizhou Chinese",
