@@ -539,7 +539,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Spokane,Colville,Nespelem,Inchelium,Omak,Okanogan,Kamloops,Chilliwack,Hope,Abbotsford,Coquitlam,Sechelt,Squamish,Nanaimo,Duncan,Courtenay,Campbell River,Bellingham,Everett,Skagit"
+      "b": "Squamish,Suquamish,Duwamish,Snoqualmie,Stillaguamish,Snohomish,Muckleshoot,Tulalip,Lummi,Samish,Saanich,Songhees,Klallam,Nooksack,Comox,Sechelt,Pentlatch,Tsleil-Waututh,Musqueam,Semiahmoo,Squaxin,Skokomish,Swinomish,Upper Skagit,Cowlitz,Quinault,Chehalis,Stolo"
     },
     {
       "name": "Innu",
@@ -557,7 +557,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Unalaska,Akutan,Atka,Adak,Nikolski,King Cove,False Pass,Sand Point,Cold Bay,Dutch Harbor,Biorka,Chernofski,Kaguyak,Kashega,Kinak,Makushin,Morzhovoi,Nazan,Pauloff,Popof,Qagan Toyagungin,Reef Bay,Sedanka,Squaw Harbor,Tanax Angunax,Tigalda,Unga,Uyak,Voznesenka"
+      "b": "Unalaska,Akutan,Atka,Adak,Attu,Nikolski,Umnak,Biorka,Kashega,Makushin,Sedanka,Pauloff,Sanak,Ikatan,Agattu,Amchitka,Kiska,Tanaga,Kanaga,Adargak,Gareloi,Kanaton,Sledge,Unga,Uyak,Qagan-Toyagungin,Morzhovoi"
     },
     {
       "name": "Athabaskan",
@@ -575,7 +575,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Kitigan Zibi,Pikwakanagan,Timiskaming,Eagle Village,Wolf Lake,Long Point,Kitcisakik,Lac Simon,Barriere Lake,Abitibiwinni,Maniwaki,Val-d'Or,Amos,Grand-Remous,Gracefield,Kazabazua,Bouchette,Mont-Laurier,Notre-Dame-du-Nord,New Liskeard,Haileybury,Earlton,Belleterre,Winneway,Hunter's Point"
+      "b": "Kitigan Zibi,Pikwakanagan,Timiskaming,Kitcisakik,Lac Simon,Barriere Lake,Abitibiwinni,Winneway,Kippewa,Long Point,Ottawa River,Golden Lake,Algonquin Park,Alderville,Whitney,Petawawa,Madawaska,Roche Capitale,Quinte,Michipicoten,Wawa,Chapleau,Fox Lake,Deer Lake"
     },
     {
       "name": "Cree",
@@ -620,7 +620,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Browning,Standoff,Cardston,Fort Macleod,Pincher Creek,Stand Off,Milk River,Lethbridge,Taber,Raymond,Magrath,Glacier,East Glacier,Heart Butte,Babb,Waterton,Piikani,Brocket,Hill Spring,Glenwood"
+      "b": "Siksiká,Káka,Piikáni,Kainai,Nitawahsinniggok,Iksis,Amskapi,Náátsíí,Apatohpi,Moccasin,Belly River,St. Mary River,Milk River,Bow River,Red Deer River,Rocky Mountains,Sweet Grass Hills,Chief Mountain,Cypress Hills,Blood Reserve,Peigan Reserve,Blackfoot Reserve,Siksika,Standoff,Cardston,Pincher Creek,Browning,Glacier,East Glacier,Waterton,Lethbridge,Taber,Magrath,Raymond"
     },
     {
       "name": "Mohawk",
@@ -629,7 +629,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Kahnawake,Akwesasne,Tyendinaga,Ohsweken,Kanatsiohareke,Ganienkeh,Gananoque,Deseronto,Brantford,Cornwall,Massena,Hogansburg,Snye,Fort Covington,Kawehnoke,Kanawake"
+      "b": "Kahnawake,Akwesasne,Tyendinaga,Ohsweken,Kanatsiohareke,Ganienkeh,Deseronto,Brantford,Kanawake,Kawehnoke,Kenhtè:ke,Shoal Lake,Iroquois Falls,Fort Albany,Rosseau,Thornloe,Mc Loughlin,Snye,Saint Regis,Moshav"
     },
     {
       "name": "Tlingit",
@@ -647,7 +647,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,Seven Mile,McNary,East Fork,Cedar Creek,Canyon Day,Christmas Creek,Klishknawat,Carrizo,Hawley Lake,Martinez Creek"
+      "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,McNary,East Fork,Canyon Day,Carrizo,Jicarilla,White Mountain,Crook,Cañon,Cienega,Apache-Sitgreaves,Narrow Gauge,San Andres,Mimbres,Ojo Caliente,Pinedale,Clifton,Springerville,Eagar"
     },
     {
       "name": "Navajo",
@@ -656,7 +656,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Gallup,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms,Red Mesa,Round Rock,Rock Point,Dennehotso,Montezuma Creek,Mexican Hat,Oljato,Monument Valley,Shonto,Kaibeto,Leupp,Tonalea,Cameron,Hotevilla,Bacavi,Oraibi,Kykotsmovi"
+      "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms,Red Mesa,Round Rock,Rock Point,Dennehotso,Montezuma Creek,Mexican Hat,Oljato,Monument Valley,Shonto,Kaibeto,Leupp,Tonalea,Cameron,Hotevilla,Bacavi,Oraibi,Kykotsmovi,Tsaile,Black Mesa"
     },
     {
       "name": "Yupik",
@@ -665,7 +665,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga,Gambell,Emmonak,Nunapitchuk,Oscarville,Napaskiak,Napakiak,Kwethluk,Tuntutuliak,Kipnuk,Kongiganak,Kwigillingok"
+      "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga,Gambell,Emmonak,Nunapitchuk,Oscarville,Napaskiak,Napakiak,Kwethluk,Tuntutuliak"
     },
     {
       "name": "Inuktitut",
@@ -692,7 +692,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "",
       "m": 0,
-      "b": "Oklahoma City,Tulsa,Broken Arrow,Fort Smith,Muskogee,McAlester,Durwood,Poteau,Sallisaw,Stigler,Hugo,Idabel,Wilburton,Atoka,Coalgate,Antlers,Hugo,Kiamichi,Choctaw,Chahta,Miko,Chickasaw,Natchez,Oka Ahoyo,Pisgah,Tuskahoma,Panola,Bokchito,Bokoshe,Kullit,Looping,Koshkonong,Red Oak,Kinta,Tuskahoma,Panola,Springfield,Philadelphia,Noxubee,Winona,Canton,Yazoo,Vicksburg,Natchez,Jackson,Hattiesburg,Meridian,Gulfport,Biloxi,Pascagoula,Mobile,Montgomery,Birmingham,Huntsville,Tuscaloosa"
+      "b": "Chahta,Nanih Waiya,Chahta Hokma,Imat Apof,Okla Hannapa,Chickasawhay,Bogue Chitto,Pascagoula,Mobile,Chatahomma,Choctawhatchee,Tennessee,Mississippi,Alabama,Louisiana,Arkansas,Red River,Black River,Yazoo River,Pearl River,Chickasaw,Oklahoma,Mississippi,Alabama,Baton Rouge,Macon,Mergather,Talua,Chukka,Aholpa,Issubatuba"
     },
     {
       "name": "Chickasaw",
@@ -701,7 +701,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Chickasaw,Chickasaw Nation,Tulsa,Oklahoma City,Ada,Ardmore,Durwood,Poteau,Sallisaw,McAlester,Durant,Atoka,Coalgate,Antlers,Tishomingo,Johnston,Coal,Jones,Marietta,Lexington,Oklahoma,Tulsa County,Oklahoma County,Cleveland,McClain,Pontotoc,Pickens,Houston,Kiamichi,Red Oak,Frink,Calera,Byron,Ft Gibson,Wister,Pocolocco,Ketona,Blaine,Canadian,Caddo,Grady"
+      "b": "Chickasaw,Chahta,Iti Immatapha,Ababinili,Chickasaw Nation,Oklahoma,Arkansas River,Red River,Kiamichi River,Poteau,Canadian River,Illinois River,Tennessee River,Ouachita Mountains,Arbuckle Mountains,Chickasaw Hills,Austin,Ardmore,Davis,Murray County,Pontotoc,Atoka,Coal,Jones,Marietta,Lexington,Ada,Durant,Chickasaw Country"
     },
     {
       "name": "Comanche",
@@ -710,7 +710,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Lawton,Fort Sill,Wichita Falls,Dallas,Austin,San Antonio,Houston,El Paso,Lubbock,Amarillo,Abilene,Midland,Odessa,San Angelo,Temple,Kerrville,Fredericksburg,Burnet,Llano,Mason,Deleon,Stephenville,Granbury,Weatherford,Fort Worth,Arlington,Irving,Denton,Plano,Frisco,McKinney,Allen,Waco,Temple,Killeen,Copperas Cove,Gatesville,Belton,Salado,Marble Falls,Lampasas,Brady,Colorado City,Westbrook,Ballinger,San Saba,Burnet,Llano,Mason,Junction,Menard,Eldorado,Mertzon,Stanton,Big Lake,Crane,Iraan,Sheffield"
+      "b": "Nermernuh,Comanche,Pemabe,Texas,Oklahoma,Kansas,New Mexico,Panhandle,Red River,Wichita Mountains,Double Mountain,Brazos River,Colorado River,Pecos River,Concho River,Llano Estacado,Staked Plains,Caprock,Big Bend,Sabinal,Medina,Frio,San Antonio,Guarache,Yaparos,Tonkawa,Wichita,Caddo,Kiowa,Apache,Fort Sill,Lawton,Wichita Falls,Anadarko"
     },
     {
       "name": "Kiowa",
@@ -719,7 +719,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Lawton,Fort Sill,Anadarko,Wichita Falls,Dallas,Oklahoma City,Tulsa,Ardmore,Poteau,Sallisaw,Eldorado,Brady,Mason,Junction,Menard,Fort Concho,San Angelo,Del Rio,Big Bend,Marfa,Presidio,Alpine,Fort Davis,Fort Stockton,Pecos,Monahans,Wink,Lamesa,Snyder,Sweetwater,Abilene,Stamford,Hamlin,Aspermont,Jayton,Spur,Post,Guthrie,Roaring Springs,Matador,Paducah,Muleshoe,Littlefield,Levelland,Hockley,Lubbock,Lamesa,Dallas,Austin,Houston,San Antonio"
+      "b": "Ka'igwu,K'â,Tâ,Guah,Kiowa,Black Hills,Paha Sapa,Badlands,Bighorn Mountains,Wyoming,Colorado,Kansas,Oklahoma,Texas,Arkansas River,Washita River,Cimarron River,Prairie Dog Creek,Tongue River,Powder River,Wichita Mountains,Plains,Kiowa Country,Fort Sill,Lawton,Anadarko,Apache"
     },
     {
       "name": "Hopi",
@@ -728,7 +728,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Flagstaff,Grand Canyon,Williams,Kingman,Phoenix,Tucson,Yuma,Prescott,Sedona,Jerome,Cottonwood,Camp Verde,Payson,Show Low,Winslow,Holbrook,Kayenta,Monument Valley,Tuba City,Moenkopi,Winslow,Second Mesa,Third Mesa,Oraibi,Shongopavi,Mishongnovi,Shupaulavu,Tawapa,Hotevilla,Bacavi,Keams Canyon,Window Rock,Gallup,Albuquerque,Santa Fe,Taos,Los Alamos,Santa Ana,Zia,Jemez,Sandia,Isleta,Laguna,Acoma,Zuni,Hopi,Navajo,Farmington,Shiprock,Cortez,Durango,Pagosa Springs,Chama,Abiquiu,Chaco Canyon"
+      "b": "Walpi,Sichomovi,Hano,Tewa,Shungopavi,Mishongnovi,Sipaulovi,Kykotsmovi,Oraibi,Hotevilla,Bacavi,Moenkopi,Keams Canyon,Polacca,Pueblo of Hopi,First Mesa,Second Mesa,Third Mesa,Navajo,Kya'ka'mana,Tusayan,Mishongnovi,Songopavi,Sipayvi"
     },
     {
       "name": "Zuni",
@@ -737,7 +737,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Zuni,Albuquerque,Santa Fe,Taos,Los Alamos,Sandia,Isleta,Laguna,Acoma,Zia,Jemez,Hopi,Navajo,Gallup,Window Rock,Shiprock,Farmington,Cortez,Durango,Pagosa Springs,Four Corners,Aztec,Chama,Canjilon,Carson,Chimayo,Cordova,Costa Mesa,Dixon,Embudo,Espanola,La Puebla,Las Vegas,Los Alamos,Luna,Pecos,Pojoaque,Quay,Ranchos,Red River,San Juan,Sandia,San Jose,Santa Ana,Santa Clara,Santa Cruz,Santa Fe,Seama,Taos,Tes,Thoreau,Tularosa,Vaughn,Veguitas,Wheelock"
+      "b": "Zuni,Halona Idiwan'a,Itiwana,Hawikuh,Kiakima,Matsaki,Kwakina,Kechipaun,Nutria,Ojo Caliente,Black Rock,Corn Mesa,Zuni River,Zuni Mountains,Pueblo of Zuni,Zuni Reservation,A:shiwi,Shiwi'ma,Middle Place,Zuni Pueblo,Halona,Matsya,Kiu,Namongo"
     },
     {
       "name": "Shoshone",
@@ -746,7 +746,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Boise,Twin Falls,Idaho Falls,Pocatello,Idaho,Nampa,Meridian,Caldwell,Boise City,Elko,Winnemucca,Reno,Carson City,Sacramento,Fresno,Bakersfield,San Jose,Oakland,Los Angeles,San Diego,Phoenix,Tucson,Las Vegas,Henderson,Reno,Sparks,Carson City,Yerington,Dayton,Gardnerville,Minden,South Lake Tahoe,Truckee,Placerville,Auburn,Roseville,Rocklin,Lincoln,Newcastle,Penryn,Loomis,Folsom,El Dorado Hills,Cameron Park,Shingle Springs,Pine Grove,Pine Valley,Jackson,Amador,Martell,Sutter Creek,Ione,Jacksonville,BTRY,Jackson"
+      "b": "Fort Hall,Duck Valley,Wind River,Pocatello,Lemhi,Bear River,Snake River,Bonneville,Washakie,Soda Springs,Idaho Falls,Twin Falls,Shoshone,Boa Ogoi,Boise River,Salmon River,Lemhi Valley,Northern Shoshone,Western Shoshone,Eastern Shoshone,Newe,Shoshoni,Bannock,Rock Creek"
     },
     {
       "name": "Ute",
@@ -755,7 +755,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Denver,Colorado Springs,Aurora,Lakewood,Thornton,Pueblo,Boulder,Fort Collins,Greeley,Centennial,Broomfield,Loveland,Grand Junction,Durango,Montrose,Cortez,Steamboat Springs,Vail,Aspen,Crested Butte,Telluride,Silverton,Leadville,Central City,Black Hawk,Idaho Springs,Georgetown,Silver Plume,Fall River,Clear Creek,Empire,Winter Park,Fraser,Granby,Hot Sulphur Springs,Parshall,Kremmling,Yampa,Craig,Meeker,Rifle,Glenwood Springs,Carbondale,BASALT,Eagle,Avon,Vail,Edwards,Red Cliff,Minturn,Leadville,Kokopelli,Four Corners"
+      "b": "Fort Duchesne,Uintah,Ouray,Ignacio,Towaoc,Provo,White River,Yampa,Uncompahgre,Tabeguache,Grand River,Uintah Basin,Ouray,Roosevelt,South Fork,Avon,Park City,Heber City,Uintah-Ouray,Southern Ute,Ute Mountain,Northern Ute,PahUTE,White Mesa,Four Corners"
     },
     {
       "name": "Paiute",
@@ -764,7 +764,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Las Vegas,Henderson,Reno,Sparks,Carson City,Fallon,Yerington,Dayton,Gardnerville,Minden,South Lake Tahoe,Truckee,Sacramento,Fresno,Bakersfield,Visalia,Tulare,Porterville,Merced,Modesto,Stockton,Oakland,San Jose,San Francisco,Fresno,Madera,Merced,Mariposa,Tuolumne,Inyo,Mono,Kern,Tulare,Kings,San Luis Obispo,Santa Barbara,Ventura,Los Angeles,Orange,San Bernardino,Riverside,San Diego,Phoenix,Tucson,Yuma,Parker,Havasu,Needles,Kingman,Flagstaff,Williams,Grand Canyon"
+      "b": "Las Vegas,Pahrump,Moapa,Cedar City,Kanosh,Koosharem,Shivwits,Indian Peaks,Kaibab,Willow Springs,Supai,Tuba City,San Juan,Paiute,Nuwuvi,Pyramid Lake,Walker Lake,Havasupai,Southern Paiute,Western Paiute,Northern Paiute,Paiute Indian Tribe of Utah"
     },
     {
       "name": "Kickapoo",
@@ -773,7 +773,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Kansas City,Topeka,Lawrence,Manhattan,Olathe,Shawnee,Lenexa,Overland Park,Ottawa,Emporia,Salina,Hutchinson,Dodge City,Wichita,Pittsburg,Fort Scott,Independence,Neodesha,Eureka,El Dorado,Andover,Derby,Belton,Raymore,Lone Jack,Lees Summit,Blue Springs,Independence,Kansas City,St Joseph,Springfield,Joplin,Carthage,Neosho,Pineville,McDonald County,Barry County,Stone County,Taney County,Christian County,Greene County,Webster County,Wright County,Douglas County,Jackson County,Lafayette County,Johnson County,Miami County,Bates County,Vernon County,Crawford County"
+      "b": "Kickapoo,Kiikaapoi,Nacimiento,Múzquiz,Coahuila,Kansas,Oklahoma,Texas,Illinois,Wisconsin,Manhattan,Kearney,Salina,Hutchinson,Lawrence,Emporia,Fort Leavenworth,LeRoy,Bethalto,Sangamon,Pike,Rock River,Green River,Wabash,Grand Village,Wigwam,Kickapoo Creek,Pottawatomie,Shawnee,Wea,Piankeshaw,Kaw,River,Valley,Prairie,Woodland,Algonquian,Great Lakes,Midwest,Heartland,Plains,Summit,League,Mound,Territory,Homeland,Village,Encampment,Council Bluffs,Travois,Maize,Bean,Squash,Wild Rice,Hunting,Warpath,Pegace"
     },
     {
       "name": "Osage",
@@ -782,7 +782,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Tulsa,Oklahoma City,Bartlesville,Pawhuska,Skiatook,Collinsville,Copper,Sperry,Oologah,Inola,Chouteau,Locust Grove,Salina,Ada,Bachelor,Preston,Kaw City,Ponca City,Blackwell,Kaw,Marland,Red Fork,Hannibal,Troutdale,Homeland,Coronado,Cunningham,Hillside,LaCrosse,Lindsborg,Luray,Macksville,Marquette,Nickerson,Norcatur,Olmitz,Osage City,Otis,Pawnee City,Quenemo,Rantoul,Roseland,Scarbrough,Skyline,Strawn,Subscribers,Thompsonville,Tobias,Utica,Valley Center,Wakefield,Waldron,Watson,Wheaton,Willard,Wilmington,Windsor,Witt"
+      "b": "Osage,Ni-U-Kon-Ska,Wah-Zha-Zhi,Pawhuska,Claremore,Neodesha,Owasso,Hominy,Ponca City,Kaw City,Bartlesville,Skiatook,Collinsville,Oologah,Inola,Locust Grove,Salina,Wynona,Preston,Kaw,Marland,Red Fork,Wah-Sha-She,Big Cedar,Three Forks,Osage Hills,Osage River,Missouri River,Arkansas River,Cimarron,Verdigris,Caney,Kah-heh-ki,Ni-U-Kon-Skah,Hopeth,Kah-Wah-Tah,Hodulge,Shing Wakoa,Kah-Wah-Nah,Oua-Quaw,Sacred,Middle,Waters,Children,Chief,Fire,Blood,Red,Eagle,Hawk,Deer,Buffalo,Bear,Wolf,Panther,Thunderbird"
     },
     {
       "name": "Pawnee",
@@ -791,7 +791,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Lincoln,Omaha,Bellevue,Grand Island,Kearney,Fremont,Norfolk,Columbus,Scottsbluff,Beatrice,South Sioux City,Chalco,La Vista,Papillion,Ralston,Boys Town,Valley,Dakota City,South Sioux City,Walthill,Macy,Winnebago,Ho-Chunk,Niobrara,Ponca,Fort Robinson,Crawford,Chadron,Valentine,Mullen,Thedford,Barneston,St Edward,Algernon,Beatrice,Blue Springs,Clatonia,Concord,Cortland,De Witt,Dorchester,Filley,Garland,Grafton,Lincoln,Martell,Marysville,Nemaha,Oketo,Osmond,Otoe,Palmyra,Rockford,Saint Edward,Steinauer,Sterling,Stuart,Table Rock,Tecumseh,Virginia,Westboro,Wymore,Yankee Hill"
+      "b": "Pawnee,Chahiksichahiks,Skiri,Kitkahahki,Chaui,Pitahawirata,Pa-huk,Pawnee,Loup River,Republican River,Platte River,Nebraska,Kansas,Genoa,Fullerton,Nance,Columbus,Fremont,Stanton,Madison,Norfolk,Grand Island,Kearney,Skidi Wolf,Tappage,Republican,Grand,Kah-Wah-Pah,Ti-ra-wa,Sacred,Four Directions,Earth,Morning Star,Above,Below,Male,Female,Thunder,Rain,Wind,Cloud,Sky,Star,Moon,Sun,Earthlodge,Village,Camp,Hunt,Buffalo,Corn,Bean,Squash,Tobacco,Peace,War,Chief,Warrior,Medicine,Healer,Scout,Runner,Horse,Travois,Tipi,Dome"
     },
     {
       "name": "Wichita",
@@ -800,7 +800,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Wichita,Dodge City,Liberal,Garden City,Hugoton,Eureka,Arkansas City,Winfield,Cowley,Sumner,Burton,Hays,Haysville,Maize,Park City,Belvue,Santa Fe,Carbondale,Burlington,Cassoday,Cedar Vale,Chautauqua,Elk City,Elk Falls,Grenola,Hamilton,Howard,Kiowa,Madera,Moline,Niotaze,Peru,Quincy,Rosedale, Sedan,Sharon,Spring Hill,Stroud,Sudanese,Sun City,Towanda,Walterville,Webb City,Carthage,Jasper,Oronogo,Duenweg,Pittsburg,Cherokee,L Baxter,Joplin,Sarcoxie,Fairview,Stella,Carr Lane,Pr Mills,Quincy,Walnut Grove"
+      "b": "Wichita,Kitikiti'sh,Waco,Tawakoni,Kichai,Taovaya,Yscani,Anadarko,Camp Creek,Sugar Creek,Washita River,Oklahoma,Texas,Kansas,Arkansas,Red River,Canadian River,Arkansas River,Caddo,Wichita Mountains,Double Mountain,Brazos,Colorado,Pecos,Concho,Llano,Staked Plains,Grass Lodge,Beehive,Corn,Bean,Squash,Melon,Tobacco,Caddoan,People,Preeminent,Faraway,River,Valley,Village,Camp,Gathering,Grass House,Council,Sun Dance,Native,Homeland"
     },
     {
       "name": "Yuma",
@@ -809,7 +809,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Yuma,Phoenix,Tucson,Mesa,Scottsdale,Tempe,Chandler,Glendale,Gilbert,Peoria,Surprise,Avondale,Goodyear,Flagstaff,Prescott,Kingman,Bullhead City,Lake Havasu City,Parker,Parker Dam,Havasu,Needles,Topock,Gadsden,San Luis,San Luis Colorado, Somerton,Wellton,Cibola,Imperial,El Centro,Calexico,Brawley,El Centro,Westmorland,Calipatria,Bombay Beach,Salton City,Westmorland,Ocotillo,Wells,Manvel,Friendswood,League City,El Lago,Taylor Lake Village,Nassau Bay,Clear Lake Shores,Kemah,Seabrook,Liverpool,Alvin,Pearland,Friendship,Tiki Island"
+      "b": "Yuma,Quechan,Kwtsaan,Fort Yuma,Colorado River,Gila River,Yuma,Fort Yuma Indian Reservation,Imperial Valley,Parker Dam,Havasu,Needles,Topock,Gadsden,San Luis,Andrade,Winterhaven,Algodones,Quechan,Smoke,Descendants,Aha Makhav,People,River,Valley,Desert,Valley,Basin,Floodplain,Delta,Agricultural,Irrigation,Farming,Corn,Melon,Squash,Bean,Harvest,Fishing,Raft,Reed,Canoe,Tattoo,Face Painting,Trading,Trade,Route,Jornada,Trail"
     },
     {
       "name": "Mojave",
@@ -818,7 +818,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Las Vegas,Henderson,Pahrump,Tonopah,Goldfield,Ridgecrest,Barstow,Lancaster,Palmdale,Victorville,Hesperia,Apple Valley,Adelanto,Needles,Kings Beach,Truckee,Tahoe City,South Lake Tahoe,Mojave,Rosamond,Mojave,Randsburg,Johannesburg,California City,Trona,Inyokern,China Lake,Ridgecrest,Kernville,Wofford Heights,Lake Isabella,Bodfish,Cartago,Owenyo,Lone Pine,Big Pine,Independen,Deep Springs,Darbyspring,Dyer,Salt Lake,Sarcobatus,Furnace Creek,Stovepipe Wells,Panamint Springs,Ballarat,Darwin Falls,Keeler,Olancha,Pearsonville,Waldo"
+      "b": "Mojave,Mohave,Aha Macav,Fort Mojave,Colorado River,Parker,Needles,Mojave Valley,Yucca,Beaty,Chemehuevi,Mohave Valley,Topock,Goffs,Mojave Desert,Arizona,California,Nevada,Three Mountains,Needles Rocks,Mastamho,First Time,River People,People by the River,Aha,Macav,Water,Alongside,Colorado,Black Canyon,Hualapai,Hopi,Navajo,Chemehuevi,Indian Tribes,Reservation,Agricultural,Farming,Corn,Melon,Pumpkin,Bean,Harvest,Fishing,Raft,Reed,Tattoo,Pottery,Bird Singing,Dance,Social,Mats,Willow,Mesquite,Arrowweed"
     },
     {
       "name": "Pima",
@@ -827,7 +827,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Phoenix,Tucson,Mesa,Scottsdale,Tempe,Chandler,Glendale,Gilbert,Peoria,Surprise,Avondale,Goodyear,Flagstaff,Prescott,Yuma,Bullhead City,Lake Havasu City,Parker,Casa Grande,Sahuarita,Vail,Marana,Nogales,Sells,Gila Bend,Ajo,Why,Kearny,Mammoth,Oracle,SaddleBrooke,Coolidge,Florence,Eloy,Tolleson,Avondale,Goodyear,Litchfield Park,Peoria,Sun City,Sun City West,Youngtown,El Mirage,Laveen,Tolleson,west valley,Ak-Chin,Scottsdale,Tempe,Mesa,Chandler,Gilbert,Queen Creek,Apache Junction,San Tan Valley,Florence,Eloy,Casa Grande,Sahuarita,Vail,Marana"
+      "b": "S-oik,Kawkabsh,Vaak,Kaka,Chukut,Kuk,Otak,Akimel,Gila River,Salt River,Kah,He-muk,Kohatk,San Xavier,Blackwater,Indian Butte,Vip,Vaya,Kearny,Mammoth,Oracle,SaddleBrooke,Coolidge,Florence,Eloy,Ak-Chin,Scottsdale,Tempe,Mesa,Chandler,Gilbert,Queen Creek,Apache Junction,San Tan Valley,Florence,Eloy,Casa Grande,Sahuarita,Vail,Marana,Gu Vo,Vegua,Sells,Chui Cha,Cottonwood,Cherry,Keg,Cienega,Hildalgo,Comobabi"
     },
     {
       "name": "Cree",
@@ -890,7 +890,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Kansas City,St. Louis,Springfield,Columbia,Jefferson City,St. Joseph,Sedalia,Lebanon,Cape Girardeau,Poplar Bluff,Caruthersville,West Plains,Marshfield,Rogersville,Ozark,Nixa,Republic,Carthage,Joplin,Lebanon,Rolla,Fort Leonard Wood,Warrensburg,Independence,Blue Springs,Lee's Summit,Olathe,Topeka,Shawnee,Manhattan,Wichita,Omaha,Fox,Sauk,Meskwaki,Iowa,Kickapoo,Ho-Chunk,Winnebago,Kaw,Osage,Quapaw,Otoe,Missouria,Kansa,Kansa,Kaws"
+      "b": "Saukenuk,Koshkonong,Rock River,Winnebago,Green Bay,Milwaukee,Chicago,Detroit,St. Louis,Kansas City,Mississippi River,Wisconsin River,Fox River,Rock Island,Davenport,Quad Cities,Des Moines,Cedar Rapids,Iowa City,Sioux City,Waterloo,Cedar Falls,Dubuque,Clinton,Muscatine,Fort Madison,Keokuk,Burlington,Meskwaki,Tama,Rock Falls,Prophetstown,Kellogg,Cascade,Maquoketa,Bellevue,Sabula,Thompson,Lytton,Grinnell,Pella,Knoxville,Oskaloosa,Ottumwa,Fairfield,Burlington,Fort Madison,Keokuk,Appanoose,Decatur"
     },
     {
       "name": "Sauk",
@@ -899,7 +899,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Chicago,Milwaukee,Detroit,St. Louis,Kansas City,Oklahoma City,Tulsa,Peoria,Rock Island,Davenport,Bettendorf,Quad Cities,Des Moines,Cedar Rapids,Iowa City,Sioux City,Waterloo,Cedar Falls,Dubuque,Clinton,Muscatine,Fort Madison,Keokuk,Burlington,Sauk,Sac,Fox,Meskwaki,Iowa,Ho-Chunk,Winnebago,Kickapoo,Omaha,Ponca,Osage,Kaw,Quapaw,Sauk Language,Sac Language,Meskwaki Language,Sauk Nation,Sac Nation,Meskwaki Tribe,Sauk Tribe,Sac Tribe"
+      "b": "Saukenuk,Rock River,Mississippi River,Wisconsin River,Illinois River,Kaskaskia,Red Banks,Green Bay,Milwaukee,Chicago,Detroit,St. Louis,Kansas City,Oklahoma City,Tulsa,Peoria,Rock Island,Davenport,Bettendorf,Quad Cities,Des Moines,Cedar Rapids,Iowa City,Sioux City,Waterloo,Cedar Falls,Dubuque,Clinton,Muscatine,Fort Madison,Keokuk,Burlington,Sauk,Sac,Fox,Meskwaki,Iowa,Ho-Chunk,Winnebago,Kickapoo,Omaha,Ponca,Osage,Kaw,Quapaw,Kishwaukee,Kankakee,Rockford,Dixon,Streator,Ottawa,LaSalle,Peru,Princeton,Geneseo,Morrison,Prophetstown,Aledo,Cambridge,York,Viola,North Henderson"
     },
     {
       "name": "Menominee",
@@ -908,7 +908,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Green Bay,Appleton,Oshkosh,Manitowoc,Sheboygan,Fond du Lac,Marinette,Eau Claire,La Crosse,Wausau,Rhinelander,Ashland,Hayward,Ashland,Iron County,Kewaunee,Door County,Oconto,Marinette County,Menominee,Keshena,Neopit,South Branch,Carter,Lanenet,Abbotsford,Colby,Stratford,Marshfield,Mosinee,Rothschild,Wausau,Rib Mountain,Kronenwetter,Schofield,Menominee,Menominee Language,Menominee Nation,Menominee Tribe,Menominee Indian Reservation,Oneida,Stockbridge-Munsee,Ho-Chunk"
+      "b": "Menominee River,Oconto,Green Bay,Appleton,Oshkosh,Manitowoc,Sheboygan,Fond du Lac,Marinette,Eau Claire,La Crosse,Wausau,Rhinelander,Ashland,Hayward,Ashland,Iron County,Kewaunee,Door County,Oconto,Marinette County,Keshena,Neopit,South Branch,Carter,Lanenet,Abbotsford,Colby,Stratford,Marshfield,Mosinee,Rothschild,Wausau,Rib Mountain,Kronenwetter,Schofield,Menominee,Menominee Language,Menominee Nation,Menominee Tribe,Menominee Indian Reservation,Oneida,Stockbridge-Munsee,Ho-Chunk,Powderhorn,Peshtigo,Pensaukee,Wolf River,Pine Creek,Little River,Big River,Red River"
     },
     {
       "name": "Iroquois",
@@ -917,7 +917,7 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "New York City,Rochester,Syracuse,Buffalo,Albany,Niagara Falls,Utica,Schenectady,Binghamton,Jamestown,Olean,Corning,Watertown,Massena,Plattsburgh,Akron,Auburn,Syracuse,Iroquois,Haudenosaunee,Five Nations,Six Nations,Onondaga,Mohawk,Oneida,Cayuga,Seneca,Tuscarora,Mohawk,Onondaga,Oneida Language,Cayuga Language,Six Nations Iroquois Confederacy,Grand River,Akwasasne,Kahnawake,Tuscarora Nation,Onondaga Nation,Cayuga Nation,Sensata,Onoñode,Onoton,Onguiaahronon"
+      "b": "Ganienkeh,Ganondagan,Onondaga,Niagara,Rochester,Syracuse,Buffalo,Albany,Utica,Schenectady,Binghamton,Jamestown,Olean,Watertown,Massena,Plattsburgh,Akron,Auburn,Syracuse,Iroquois,Haudenosaunee,Five Nations,Six Nations,Onondaga,Mohawk,Oneida,Cayuga,Seneca,Tuscarora,Mohawk,Onondaga,Oneida Language,Cayuga Language,Six Nations Iroquois Confederacy,Grand River,Akwasasne,Kahnawake,Tuscarora Nation,Onondaga Nation,Cayuga Nation,Sensata,Onoñode,Onoton,Onguiaahronon,Kenhtèke,Ohsweken,Tyendinaga,Akwesasne,Kahnawake,Brantford,Deseronto,Kanesatake,Lafontaine,Sharon,Atherton,Centerfield,Red House,Cayuga Heights,Three Forks,Montezuma,Cayuga,Seneca Falls,Romulus,Waterloo,Fayette,Canoga Seneca,Canadice,Springwater"
     },
     {
       "name": "Miskito",
@@ -926,7 +926,7 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Bilwi,Puerto Cabezas,Waspam,Prinzapolka,Rosita,Bocana,Caiman,Waspan,Bilwi,Bonanza,Siuna,La Cruz,Rosita,Dakura,Wawa,Mosquito Coast,Atlantic Coast,Nicaragua,Honduras,Miskito Language,Mosquito,Miskitu,Sumu,Tawahka,Miskitu Coast,Yulu,Sibun,Patuca,Pia,Poplite,Lum,Prinzapolka,Waspam,Puerto Cabezas,Bilwi Cape Gracias a Dios,Rio Coco,Coco River,Wawa River,Patu River,Pilona,Karawara,Dakota,Bluefields,Corn Island,Pearl Lagoon"
+      "b": "Bilwi,Waspam,Prinzapolka,Rosita,Bonanza,Siuna,Bocana,Caiman,Waspan,Wawa,Kukalaya,Kara,Tuapi,Awasting,Wangki,Banghun,Laguna de Perlas,Pearl Lagoon,Cabo Gracias a Dios,Bluefields,Corn Island,Pearl Keys,Miskito Keys,Mosquito Coast,Coco River,Wawa River,Prinzapolka River,Patuca River,Río Segovia"
     },
     {
       "name": "Garifuna",
@@ -935,7 +935,7 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Belize City,Belmopan,Dangriga,Placencia,Hopkins,Sittee River,Leyton Grove,Punta Gorda,Toledo District,Stann Creek District,Belize District,Cayo District,Orange Walk District,Corozal District,Honduras,Guatemala,Nicaragua,Garifuna Language,Caribbean,Garinagu,Black Carib,Dangriga,Placencia,Hopkins,Sittee,Livingston,Guatemala,La Ceiba,Tela,Santa Barbara,Balas,Trinidad,Sula,Choloma,San Pedro Sula,Pimentel,Danto"
+      "b": "Dangriga,Hopkins,Placencia,Sittee River,Punta Gorda,Seine Bight,Barranco,Georgetown,Libertad,Livingston,Tela,La Ceiba,Trujillo,San Pedro Sula,Puerto Cortés,Roatán,Coxen Hole,West End,Sandy Bay,Utila,Guanaja,Mosquitia,Peten,Belize City,Belmopan,Cayo,Orange Walk,Corozal,Stann Creek,Toledo"
     },
     {
       "name": "Kuna",
@@ -944,7 +944,7 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Panama City,Colón,Cartagena,San Blas Islands,Kuna Yala,Guna Yala,Comarca Kuna Yala,Wargandí,Cemitu,Madungandí,Chepigana,Sand Are,Kuna Language,Panama,Colombia,Kuna People,Dule,Guna,San Blas Archipelago,Cartagena,Panama City,Colón,Portobelo,Kuna Yala,Comarca Kuna Yala,Wargandi,Cacique,Dule,Kuna Village,Panama Caribbean"
+      "b": "Guna Yala,Kuna Yala,San Blas,Nargana,Carti,Ustup,Tupile,Uchutupu,Isle Obi,Isla Iguana,Mamitupu,Pilton,Mogpo,Ogokpu,Dupbir,Ogobdub,Arritam,Suappiapu,Aili,Tiwi,Pur PUR,Sualo,Paptaa,Tusik,Dules,Dulep,Kalati,Dulopia,Sawum,Tupile,Caimancito,Punta San Blas,Puertobelo,Cartagena,Colón"
     },
     {
       "name": "Bribri",
@@ -953,7 +953,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "San Jose,Limón,Puerto Viejo,Talamanca,Cahuita,Port Limón,Costa Rica,Costa Rica Caribbean,Costa Rica,Alajuela,Cartago,Heredia,Guanacaste,Puntarenas,Bribri Language,Talamanca,Cabécar,Bribri,Salt Creek,Talamanca,Bribri,Southern Costa Rica,Caribbean Coast,Costa Rica Caribbean,Bribri Village,Cabécar Language,Indigenous Costa Rica"
+      "b": "Talamanca,Amubri,Shiroles,Tzankela,Coroma,Salitre,Cabagra,Suretka,Yorkin,Kbapi,Kebe,Trojas,Cahuita,Puerto Viejo,Sixaola,Tilapa,Chorrera,Cantarrana,Chimurria,Costa Rica Caribbean,Limón,Port Limón,Caribbean Costa Rica,Alajuela,Cartago,Heredia,Guanacaste,Puntarenas,Southern Talamanca,Bribri Territory"
     },
     {
       "name": "Cabecar",
@@ -1007,7 +1007,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Bocas del Toro,Panama,Chiriqui,Veraguas,Ngobe-Bugle,Comarca,Bocas del Toro Province,Teribe,Teribe Language,Teribe People,Northern Panama,Panama Caribbean,Teribe Village,Bocas Town,Colón,Chiriquí Grande,Valle de Riscado,Pember,Norquinto,Burica,Panama West"
+      "b": "Teribe,Changuinola,Sieykin,Naso Tjër Di,Bocas del Toro,Almirante,Sixaola,Valle de Riscado,Pember,Norquinto,Burica,Chiriquí Grande,Miramar,Guabito,La Gloria,El Silencio,Finca 41,Quebrada de Sal,Teribe River,Tjër Di,Valle del Teribe,Bocas Province,Panama Caribbean,Ngöbe-Buglé,Comarca Naso"
     },
     {
       "name": "Haida",
@@ -1016,16 +1016,16 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Skidegate,Masset,Haida Gwaii,Graham Island,Moresby Island,Langara Island,Lyell Island,Burnaby Island,Anthony Island,Old Massett,Gwaii Haanas,Naden Harbour,Hippa,Kung,Tallheo,Kaisun,Kloo,Yan,Dadens,Tanoo,Tlingsans,Kunst,Gaat,Kunst,Kaigani,Sangibaba,Skidegate Haida,Masset Haida"
+      "b": "Hydaburg,Kasaan,Old Massett,Skidegate,Chaatl,Cumshewa,Dadens,Haina,Hiellen,Howkan,Kaisun,Kayung,Kloo,Kung,Skidegate Inlet,Masset Inlet,Cumshewa Inlet,Gwaii Haanas,Langara Island,Lyell Island,Moresby Island,Graham Island,Anthony Island,Naden Harbour,Hippa,Tanuu,Tlingsans,Gaat,Kunst,Sangibaba,Skidegate Haida,Masset Haida,Gaaw Tlagee,HlGgaagilda Llnagaay,Tsaahl,Daadans,Xaayna Llnagaay,Hl'yaalan Llengee,Kaysuun,K'aayang"
     },
-    {
+{
       "name": "Tsimshian",
       "i": 114,
       "min": 10,
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Prince Rupert, Terrace, Smithers, Houston, Burns Lake, Kitimat, Stewart, Nisga'a, Nass River, Skeena River, British Columbia, Coastal BC, Northern BC, Kitimat, Kemano, Kitselas, Kitsumkalum, Terrace, Thornhill, Lakelse, Hazelton, New Hazelton, Gitanmaax, Kispiox, Gitxsan, Wet'suwet'en,Tsimshian Language,Coast Salish,Skeena,Nass,Gitxsan,Wet'suwet'en,Metlakatla"
+      "b": "Kitselas,Kitsumkalum,Gitanmaax,Lax Kw'alaams,Metlakatla,Nisga'a,Kitkatla,Kitasoo,Gitga'at,Kitisoo,Crescent,Greenville,Canyon,Terrace,Prince Rupert,Laxgalts'ap,Gingolx,Skeena River,Nass River,Laxspa'aws,Maaxłaxaała,XaaydaGa,TlhohTsiit,Ts'msyen,Kitselas Canyon,Kitsumkalum Lake,Kitkatla Channel,Kitasoo Bay"
     },
     {
       "name": "Tlingit",
@@ -1036,14 +1036,14 @@ window.northAmericaNameBases = [
       "m": 0,
       "b": "Dzantik'i Héeni,Kichx̱áan,Sheet'ká,Tlaguwu Aan,Aansadaak'w,Yéil Kaawu,Áakʼw K̲wáan,T’aak̲ú K̲wáan,Xunaa Kaawu,Yaakwdaat Kwaan,Sheet'ká Kwaan,Jilkaat Kwaan,Soulé,Deishú,Taku,Kootznoowoo,Gunstoney,L'uknax.án,Kaagwaantaan,Deisheetaan,L'uknax.án,X'aak'w,Tlein,Koo.éex'"
     },
-    {
+{
       "name": "Inupiaq",
       "i": 116,
       "min": 10,
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Barrow,Utqiagvik,Point Hope,Kivalina,Noatak,Deering,Kotzebue,Selawik,Shungnak,Ambler,Kobuk,Bettles,Allakaket,Ruby,Grayling,Huslia,Kaltag,Nulato,Galena,Norton Sound,Bering Strait,Seward Peninsula,Northwest Arctic,Arctic Alaska,Alaska Arctic,Inupiaq Language,Iñupiat,Iñupiaq,Kuuk,Inupiat,North Slope,Barrow Alaska,Utqiagvik,Barrow"
+      "b": "Utqiaġvik,Kivalina,Noatak,Point Hope,Kivalina,Wainwright,Atqasuk,Barrow,Anaktuvuk Pass,Point Lay,Nuiqsut,Kaktovik,Selawik,Noorvik,Kiana,Ambler,Shungnak,Kobuk,Buckland,Deering,Wales,Shishmaref,Brevig Mission,Teller,Nome,Golovin,White Mountain,Elim,Koyuk,Shaktoolik,Unalakleet,Stebbins,Savoonga,Gambell,Diomede,Siberian Yupik,North Slope,Bering Strait,Arctic Ocean,Chukchi Sea,Kupreau,Inupiat Ilitqu"
     },
     {
       "name": "Yupik",
@@ -1079,7 +1079,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Bonners Ferry,Idaho,Libby,Montana,Kalispell,Whitefish,Columbia Falls,Polson,Missoula,Idaho Panhandle,Montana Rockies,Kootenai River,Kootenay Lake,Boundary County,Lincoln County,Sandpoint,Dover,Hope, Bonners Ferry,Kootenai Language,Kootenai,Kutenai,Kootenay,Kootenai Nation,Kootenai Tribe,Kootenai Indians,Kootenai Culture"
+      "b": "Bonners Ferry,Libby,Kalispell,Flathead Lake,Thompson Falls,Troy,Rexford,Yaak,Kootenay River,Kootenay Lake,Lake Koocanusa,Fisher River,Ktunaxa,ʔaq̓anqmi,Lower Kootenai,Upper Kootenai,Kootenai Falls,Kootenai Canyon,Agent,Kootenay National Park,Arrow Lake,Columbia River,Castlegar,Nelson,Revelstoke"
     },
     {
       "name": "Kaskaskia",
@@ -1088,7 +1088,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "St. Louis,Missouri,Kaskaskia,Illinois,Kaskaskia River,Randolph County,Carbondale,Evansville,Indiana,Paducah,Kentucky,Cape Girardeau,Pomfret,Mississippi River,Great Lakes Region,Midwest US,Illinois Country,Kaskaskia Language,Kaskaskia,Kaskaskia Tribe,Illiniwek,Kaskaskia Indians,Kaskaskia Nation,Illinois Confederacy"
+      "b": "Kaskaskia,Starved Rock,Peoria,Cahokia,Fort de Buade,Prairie du Rocher,Fort Chartres,Mississippi River,Illinois River,Kaskaskia River,Randolph County,Illinois Country,Inoka,Illiniwek,Kaskaskia Tribe,Illinois Confederacy,Des Peres,Cahokia Mounds,Pierre Menard,Alton,Kaskaskia River Valley"
     },
     {
       "name": "Potawatomi",
@@ -1097,52 +1097,52 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Chicago,Detroit,Milwaukee,Green Bay,Appleton,Oshkosh,Manitowoc,Fond du Lac,Grand Rapids,Lansing,Kalamazoo,South Bend,Fort Wayne,Indianapolis,Cedar Rapids,Iowa City,Davenport,Cedar Rapids,Iowa,Wisconsin,Michigan,Illinois,Indiana,Iowa,Kentucky,Potawatomi Language,Bodwem,Bodewadmik,Potawatomi Nation,Potawatomi Tribe,Forest County"
+      "b": "Green Bay,Milwaukee,Chicago,Detroit,St. Joseph,Kalamazoo,Grand Rapids,Lansing,South Bend,Fort Wayne,Appleton,Oshkosh,Manitowoc,Fond du Lac,Cedar Rapids,Davenport,Lake Michigan,Door Peninsula,Wisconsin River,Fox River,St. Joseph River,Bodéwadmi,Neshnabek,Bodwéwadmik,Potawatomi Nation,Potawatomi Tribe,Forest County,Prairie Island,Menominee,Carter,Walk,Waukesha,Kewaunee"
     },
-    {
+{
       "name": "Wabanaki",
       "i": 123,
       "min": 10,
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Boston,Maine,New Hampshire,Vermont,Maine,Acadia,Bar Harbor,Camden,Portland,Kennebunkport,Rockport,Camden,Bar Harbor,Acadia National Park,Mount Desert Island,Penobscot,Passamaquoddy,Maliseet,Mi'kmaq,Pembroke,Calais,Eastport,Machias,Ellsworth,Augusta,Waterville,Lewiston,Auburn,Bangor,Brewer,Orono,Old Town,Penobscot Nation,Indian Township,Passamaquoddy Nation"
+      "b": "Panawamskek,Penobscot,Kennebec,Androscoggin,Sagadahoc,Popham,Pesamkuk,Wabanaki,Pennacook,Sokoki,Meductic,Aukpaque,Passamaquoddy,Penobscot Nation,Indian Island,Old Town,Bangor,Wassataquoik,Meduxnekeag,Passamaquoddy Bay,St. Croix,Bay of Fundy,Kennebec River,Penobscot River,Androscoggin River,Saco,York,Kennebunk,Wells,Ogunquit,Casco Bay,Portland Head,Lubec,Eastport,Machias,Calais,Mount Desert Island,Acadia,Pembina,Pemadumcook,Passadumkeag,Mattawamkeag,Piscataquis,Mattawamkeag,Lincoln,Millinocket,Dover-Foxcroft,Milo,Greenville,Indian Township,Pleasant Point,Sipayik,Motahkokmikuk,Peskotomuhkati,Orono,Brewer,Waterville,Skowhegan,Madison,Norridgewock,Hartland,Palmyra,Pittsfield,Newport,Stetson,Etna,Carmel,Hampden,Winterport,Frankfort,Bucksport,Castine,Blue Hill,Deer Isle,Stonington,Southwest Harbor,Tremont,Bar Harbor,Trenton,Mount Desert,Sullivan,Sargentsville,Blue Hill Falls,Seal Cove,McKinley,Pemberton"
     },
-    {
+{
       "name": "Abenaki",
       "i": 124,
       "min": 10,
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "New Hampshire,Vermont,Maine,Massachusetts,New England,Concord,Manchester,Nashua,Dover,Rochester,Keene,Claremont,White Mountains,Green Mountains,Berkshires,Connecticut River,Connecticut,Massachusetts,New England,Abenaki Nation,St. Francis,Sokoki,Missisquoi,New Hampshire,Vermont,Maine"
+      "b": "Odanak,Wolinak,Missisquoi,Sokoki,Cowasuck,Pennacook,Suncook,Pennacook,Nahantika,Watapana,Quampechin,Massabesic,Kearsarge,Ossipee,Pawtucket,Concord,Manchester,Nashua,Dover,Rochester,Keene,Claremont,Laconia,Conway,Berlin,Lakes Region,Merrimack,Connecticut River,Lake Champlain,White Mountains,Green Mountains,Berkshires,Merrimack River,Pemigewasset,Winnipesaukee,Androscoggin,Saco,Swift River,Fryeburg,Bartlett,North Conway,Jackson,Lincoln,Franconia,Littleton,Lisbon,Lancaster,Groveton,Pittsburg,Claremont,Newport,Charlestown,Walpole,Keene,Swanzey,Winchester,Richmond,Jaffrey,Rindge,Peterborough,Hancock,Greenville,Mason,Brookline,Hollis,Amherst,Milford,Nashua,Pembroke,Allenstown,Hooksett,Chichester,Epsom,Pittsfield,Northwood,Nottingham,Stratham,Greenland,Newington,Newmarket,Durham,Lee,Epping,Exeter,Hampton,Seabrook,Hampton Falls,North Hampton,Rye,Portsmouth,New Castle,Kittery,Kearsarge,Sunapee,Mount Sunapee,New London,Springfield,Wilmot,Andover,Franklin,Sanbornton,Tilton,Belmont,Laconia,Meredith,Moultonborough,Tuftonboro,Wolfeboro,Tamworth,Conway,Albany,Madalay,Chatham,Lovell,Stow,Fryeburg,Bartlett,Jackson,Glenn,Intervale,Kearsarge,Bethlehem,Lisbon,Lyman,Twin Mountain,Jefferson,Lancaster,Groveton,Northumberland,Stratford"
     },
-    {
+{
       "name": "Mi'kmaq",
       "i": 125,
       "min": 10,
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Halifax,Dartmouth,Truro,New Glasgow,Sydney,Glace Bay,Cape Breton,Nova Scotia,New Brunswick,Prince Edward Island,Newfoundland,New England,Halifax,Dartmouth,Cape Breton Island,Prince Edward Island,Mi'kmaq Nation,Mi'kmaw,Unama'ki,Mikmaq,Restigouche,Listuguj,Eel River,Esgenoopititj,Mi'kmaw Language"
+      "b": "Mi'kma'ki,Unama'ki,Esgenoopititj,Listuguj,Eel Ground,Tobique,Oromocto,Kingsclear,St. Mary's,Miramichi,Restigouche,Gaspé,Gespe'gewa'gi,Kespukwitk,Sipekne'katik,Sipekne'katik,We'koqma'q,Paqtn,Millkekbrook,Pictou Landing,Wagmatcook,Membertou, Eskasoni,Potlotek,Ku'ku'kwes,Acadia First Nation,Annapolis Valley,Halifax,Dartmouth,Truro,New Glasgow,Sydney,Glace Bay,Cape Breton,Nova Scotia,Prince Edward Island,New Brunswick,Newfoundland,St. John River,Miramichi River,Restigouche River,Bay of Fundy,Gulf of St. Lawrence,Cabot Strait,Northumberland Strait,Strait of Canso,Antigonish,Shelburne,Yarmouth,Argyle,Clare,Digby,Annapolis,Bear River,Lunenburg,Mahone Bay,Bridgewater, Liverpool,Lockeport,Shelburne,Mabou,Glenholme,Whycocomagh,Baddeck,Margaree,Cheticamp,Inverness,Richmond,Pictou,Colchester,Cumberland,Queens,Lunenburg,Annapolis Valley,Kingston,Greenwood,Middleton,Bridgetown,Berwick,Kentville,Windsor,Hantsport,Stewiacke,Musquodoboit,Sheet Harbour,Canso,Guysborough,Antigonish County,Cape Breton County,Inverness County,Richmond County,Victoria County"
     },
-    {
+{
       "name": "Passamaquoddy",
       "i": 126,
       "min": 10,
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Calais,Eastport,Machias,Dover-Foxcroft,Ellsworth,Bar Harbor,Acadia,Portland,Kennebunkport,Maine,New Brunswick,Passamaquoddy Bay,St. Croix River,Passamaquoddy Nation,Indian Township,Pleasant Point,Sipayik,Mi'kmaq,Maliseet,Wabanaki,Maine,New Brunswick,Bay of Fundy"
+      "b": "Sipayik,Motahkokmikuk,Peskotomuhkati,Passamaquoddy Bay,St. Croix,St. Stephen,St. Andrews,Campobello,Grand Manan,Lubec,Eastport,Calais,Machias,Danforth,Forest City,Pembroke,Robbinston,Perry,Wesley,Crawford,Alexander,Baileyville,Wilmington,Charlotte,Vanceboro,Weston,Topsfield,Harrington,Milbridge,Winter Harbor,Gouldsboro,Sullivan,Mount Desert,Bar Harbor,Trenton,Lamoine,Ellsworth,Bucksport,Castine,Blue Hill,Deer Isle,Stonington,Southwest Harbor,Tremont,East Machias,Machias,Cutler,Whiting,Dennysville,Lubec,Eastport,Calais,St. Stephen,St. Andrews,Campobello Island,Grand Manan Island,Passamaquoddy Nation,Indian Township,Pleasant Point,Peter Dana Point,West Passamaquoddy,Bay of Fundy,Saint John,St. John River,Mediac,Meductic,Aroostook,Houlton,Caribou,Presque Isle,Fort Fairfield,Fort Kent,Van Buren,Mapleton,Limestone,Caswell,Madawaska,Fort Fairfield,Ashland,New Sweden,Keg,St. Agatha,Sinclair,Wallagrass,New Canada,Eagle Lake,Madawaska County,Victoria County,Restigouche"
     },
-    {
+{
       "name": "Maliseet",
       "i": 127,
       "min": 10,
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Fredericton,Saint John,Edmundston,Woodstock,New Brunswick,Maine,St. John River,Passamaquoddy,Mi'kmaq,Wabanaki,Houlton,Fort Fairfield,Caribou,Presque Isle,Aroostook,Northern Maine,New Brunswick Canada,Maliseet Nation,Vital Grand Chief,Maliseet Language"
+      "b": "Wolastoqiyik,Wolastokuk,Fredericton,Saint John,Edmundston,Woodstock,Meductic,Aukpaque,Madawaska,Restigouche,St. John River,St. John Valley,Passamaquoddy,Mi'kmaq,Wabanaki,Houlton,Fort Fairfield,Caribou,Presque Isle,Aroostook,New Brunswick,Maine,Vital Grand Chief,Maliseet Nation,Tobique,Oromocto,Kingsclear,St. Mary's,Eel Ground,Miramichi,Buctouche,Richibicto,Kent,Shediac,Sackville,Memramcook,Tantramar,Cocagne,Buctouche,Cap-Pelé,Baie Verte,Port Elgin,Dorchester,Sackville,Moncton,Salisbury,Elgin,Florenceville,Bristol,Hartland,McAdam,St. George,St. Andrews,Campobello,Grand Manan,St. Stephen,St. John,St. Martins,Fundy National Park,Hopewell Rocks,Cape Enrage,St. Martins,Cape Spear,Quaco,Lake George,Grand Lake,Canoose,Richmond Corner,Swan Creek,Burlington,Middle Southampton,Saint James,Saint Martins,Upper Woodstock,Upper Kent,Glassville,Bethel,Carlisle,Bishop,Brookville,Centreville,Cordova,Dover, Doyles,Dunns,Pine,Dixfield,River de Chute,River du Portage,Riverpoint,Roller,Skiff Lake,South Hamtown,Thorntown,Upper,Kennett,West,Burlington,Carlisle,Cordova,Dover,Dunns,Fayette,Forest,Fox,Coldstream,Bethlehem,Brookdale,Coldstream,Deerfield,East,Frederickton,Greenfield,Harriman,Hillman,Jaffrey,Juniper,Kedron,Lake,Lancaster,Leadmine,Londonderry,Lowell,Marlow,Mason,McGregor,Michels,Middle,Monadnock,Morgan,Mount,Murphy,New,Boston,Nelson,North,Otter,Old,Pawtucket,Pembroke,Perry,Pittsburg,Plainfield,Plymouth,Polly,Pratt,Readfield,Richmond,River,Rome,South,Springfield,Stirling,Stockholm,Stow,Stratford,Sunapee,Temple,Unity,Walton,Warner,Weare,Webster,Wilmington,Windham,Windsor,Winn"
     },
     {
       "name": "Cherokee",
@@ -1151,7 +1151,7 @@ window.northAmericaNameBases = [
       "max": 30,
       "d": "",
       "m": 0,
-      "b": "Tahlequah,Muscogee,Oklahoma City,Tulsa,Broken Arrow,Fort Smith,Fayetteville,Rogers,Bentonville,Eureka Springs,North Carolina,Western North Carolina,Smoky Mountains,Qualla Boundary,Cherokee Nation,Eastern Band,Western Cherokee,Ozark,Ouachita,Arkansas River,Tennessee River,Georgia,North Carolina,Tennessee,Oklahoma,Cherokee Nation,UKB,CN"
+      "b": "Chota,Tanasi,Kituwa,Nikwasi,Cowee,Tugaloo,Keowee,Etowah,New Echota,Oostanaula,Hiwassee,Toqua,Tellico,Tomotley,Seneca,Tuskegee,Coosa,Chiaha,Chilhowee,Citico,Mialoquo,Ustanali,Running Water,Nickajack,Red Clay,Qualla Boundary,Tahlequah,Park Hill,Webbers Falls,Salisaw,Vinita"
     },
     {
       "name": "Chickasaw",
@@ -1160,7 +1160,7 @@ window.northAmericaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Chickasaw,Chickasaw Nation,Tulsa,Oklahoma City,Ada,Ardmore,Durant,Atoka,Choctaw,McAlester,Poteau,Sallisaw,Idabel,Wilburton,Hugo,Antlers,Coalgate,Davis,Murray County,Oklahoma,Chickasaw Language,Chickasaw Nation,Chickasaw Country,Chickasaw People,Lahoma,Tulsa Metro"
+      "b": "Ackia,Amalahta,Ashukhuma,Chatelaw,Chucalissa,Chukafalava,Chula,Hvkehah,Pontotoc,Shatara,Taposa,Tuckahaw,Tuskawillas,Yaneka,Tchichatala,Chookheereso,Hykehah,Phalacheho,Chickafalaya,Chokkillisa,Chisha Talla,Pharr Mounds,Tupelo,Okolona,Houston,Moundsville,Coles Creek,Blackland Prairie,Natchez Trace"
     },
     {
       "name": "Natchez",
@@ -1169,7 +1169,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Natchez,Mississippi,Louisiana,New Orleans,St. Francisville,St. Catherine Creek,Mississippi River,Red River,Bayou Teche,Atchafalaya,Baton Rouge,Natchez Trace,Natchez Nation,Natchez People,Natchez Language,Tunique,Cajun,French Louisiana,Cane River,St. Mary Parish,Louisiana Delta"
+      "b": "Grand Village,Fatherland Site,Great Suns Mound,Temple Mound,St Catherine Creek,Emerald Mound,Jene,Mount Locust,Anna Site,Taylor Mound,Dopson Mound,Natchez Bluffs,Village Natchez,French Settlement,Coles Creek,Plaquemine,Mound Sites,Mississippian,Culture,Sun Chief,Great Sun,Little Sun,Tobacco Stick,Moundville,Southwest Mississippi"
     },
     {
       "name": "Catawba",
@@ -1178,7 +1178,7 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Rock Hill,Charleston,Columbia,Charlotte,Greenville,Spartanburg,South Carolina,North Carolina,Catawba River,York County,Lancaster County,Chester County,Catawba Nation,Catawba Indians,Catawba Language,Rock Hill South Carolina,York County,Catawba Tribe,Ridge,Catawba Village,Catawba Culture"
+      "b": "Nassaw,Weyapee,Charraw Town,Old Town,Nisbet Site,Ayers Town,New Town,Bowers Site,Nauvasa,Catawba River,York County,Lancaster County,Rock Hill,Catawba Nation,Issa,Iswa,River People,Catawba Cultural Center,Catawba Reservation,Wolf King,Chief King,Two Row,Piedmont,Wateree,Santee,Confederate,Yamassee"
     },
     {
       "name": "Yuchi",
@@ -1187,6 +1187,6 @@ window.northAmericaNameBases = [
       "max": 20,
       "d": "",
       "m": 0,
-      "b": "Sapulpa,Tulsa,Creek,Oklahoma City,Muscogee,Okmulgee,Holdenville,Wetumka,Eufaula,McAlester,Thorntown,Creek Nation,Yuchi Tribe,Yuchi Language,Sapulpa,Okmulgee,Muscogee Nation,Creek,Yuchi People,Ponca City,Blackburn"
+      "b": "Duck Creek,Polecat,Sand Creek,Hector,Sapulpa,Bristow,Tennessee River,Savannah River,Euchee,Tsoyaha,Chestua,Hiwassee,Eucheeanna,Polecat Creek,Deep Fork Creek,Blackjack Town,Children of the Sun,Roundtown People,Water People,Creek Nation,Square Ground,Green Corn Ceremony,Tukabahchee,Muscogee,Creek"
     }
   ];
