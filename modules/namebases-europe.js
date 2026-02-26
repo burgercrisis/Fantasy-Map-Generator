@@ -80,7 +80,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "",
     "m": 0.1,
-    "b": "Abrigada,Afonsoeiro,Agueda,Aguilada,Alagoas,Alagoinhas,Albufeira,Alcanhoes,Alcobaca,Alcoutim,Aldoar,Alenquer,Alfeizerao,Algarve,Almada,Almagreira,Almeirim,Alpalhao,Alpedrinha,Alvorada,Amieira,Anapolis,Apelacao,Aranhas,Arganil,Armacao,Assenceira,Aveiro,Avelar,Balsas,Barcarena,Barreiras,Barretos,Batalha,Beira,Benavente,Betim,Braga,Braganca,Brasilia,Brejo,Cabeceiras,Cabedelo,Cachoeiras,Cadafais,Calhandriz,Calheta,Caminha,Campinas,Canidelo,Canoas,Capinha,Carmoes,Cartaxo,Carvalhal,Carvoeiro,Cascavel,Castanhal,Caxias,Chapadinha,Chaves,Cocais,Coentral,Coimbra,Comporta,Conde,Coqueirinho,Coruche,Damaia,Dourados,Enxames,Ericeira,Ervidel,Escalhao,Esmoriz,Espinhal,Estela,Estoril,Eunapolis,Evora,Famalicao,Fanhoes,Faro,Fatima,Felgueiras,Ferreira,Figueira,Flecheiras,Florianopolis,Fornalhas,Fortaleza,Freiria,Freixeira,Fronteira,Fundao,Gracas,Gradil,Grainho,Gralheira,Guimaraes,Horta,Ilhavo,Ilheus,Lages,Lagos,Laranjeiras,Lavacolhos,Leiria,Limoeiro,Linhares,Lisboa,Lomba,Lorvao,Lourical,Lourinha,Luziania,Macedo,Machava,Malveira,Marinhais,Maxial,Mealhada,Milharado,Mira,Mirandela,Mogadouro,Montalegre,Mourao,Nespereira,Nilopolis,Obidos,Odemira,Odivelas,Oeiras,Oleiros,Olhalvo,Olinda,Olival,Oliveira,Oliveirinha,Palheiros,Palmeira,Palmital,Pampilhosa,Pantanal,Paradinha,Parelheiros,Pedrosinho,Pegoes,Penafiel,Peniche,Pinhao,Pinheiro,Pombal,Pontal,Pontinha,Portel,Portimao,Quarteira,Queluz,Ramalhal,Reboleira,Recife,Redinha,Ribadouro,Ribeira,Ribeirao,Rosais,Sabugal,Sacavem,Sagres,Sandim,Sangalhos,Santarem,Santos,Sarilhos,Seixas,Seixezelo,Seixo,Silvares,Silveira,Sinhaem,Sintra,Sobral,Sobralinho,Tabuaco,Tabuleiro,Taveiro,Teixoso,Telhado,Telheiro,Tomar,Torreira,Trancoso,Troviscal,Vagos,Varzea,Velas,Viamao,Viana,Vidigal,Vidigueira,Vidual,Vilamar,Vimeiro,Vinhais,Vitoria"
+    "b": "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Evora,Guimaraes,Viseu,Setubal,Leiria,Santarem,Almada,Vila Nova de Gaia,Barreiro,Funchal,Ponta Delgada,Porto Santo,Viana do Castelo,Vila Real,Beja,Castelo Branco,Leixoes,Figueira da Foz,Portalegre,Santana"
   },
   {
     "name": "Hungarian",
@@ -208,25 +208,7 @@ window.europeNameBases = [
     "m": 0.1,
     "b": "London,York,Canterbury,Winchester,Lincoln,Durham,Exeter,Gloucester,Oxford,Cambridge,Shrewsbury,Chester,Salisbury,Hereford,Worcester,Colchester,Ipswich,Norwich,Bristol,Nottingham,Derby,Leicester,Doncaster,Bury,Warwick,Northampton,Stafford,Tamworth,Ludlow,Bridgnorth,Lancaster,Carlisle,Leeds,Sheffield,Barnsley,Newcastle,Southampton,Portsmouth,Dover,Hastings,Brighton,Kingston,Reading,Bedford,StAlbans,Peterborough,Ely,Grimsby,Scarborough,Whitby,Dudley"
   },
-  {
-    "name": "Spanish Global",
-    "i": 90,
-    "min": 5,
-    "max": 11,
-    "d": "lr",
-    "m": 0,
-    "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Mâ”œÃ­laga,Bilbao,Montevideo,Buenos Aires,Santiago,Lima,Bogotâ”œÃ­,Caracas,La Habana,San Juan,Asunciâ”œâ”‚n,Santo Domingo,Quito,Guayaquil,Cali"
-  },
-  {
-    "name": "English Global",
-    "i": 93,
-    "min": 6,
-    "max": 11,
-    "d": "",
-    "m": 0.1,
-    "b": "London,New York,Sydney,Toronto,Los Angeles,Chicago,Melbourne,Auckland,Manchester,Birmingham,Glasgow,Bristol,Leeds,Cardiff,Dublin,Belfast,Perth,Adelaide,Brisbane,Ottawa,Atlanta,Boston,Brighton,Calgary,Canberra,Vancouver,Edinburgh,Wellington,Cape Town,Nairobi,Singapore,Accra"
-  },
-  {
+   {
     "name": "Old English",
     "i": 94,
     "min": 5,
@@ -404,7 +386,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vigo,A Coruâ”œâ–’a,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcâ”œÂ¡a de Arousa,Redondela,Marâ”œÂ¡n,Ribeira,Carballo,Castro,Lecce,Brindisi,Taranto,Bari,Foggia,Andria,Trani,Barletta,Molfetta,Bitonto,Altamura"
+    "b": "Vigo,A Coruna,Santiago de Compostela,Lugo,Ourense,Pontevedra,Ferrol,Vilagarcia de Arousa,Redondela,Marin,Ribeira,Carballo,Cee,Fisterra,Muros,Noia,Ortigueira,Cedeira,Cee,Dumbría,Betanzos,Pontevedra,O Grove,Cangas,Baiona"
   },
   {
     "name": "Norman",
@@ -557,7 +539,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kolkata,Chennai,Mumbai,Delhi,Bangalore,Hyderabad,Pune,Ahmedabad,Jaipur,Lucknow,Kanpur,Nagpur"
+    "b": "Birmingham,Manchester,Leeds,Liverpool,Sheffield,Bristol,Newcastle,Nottingham,Southampton,Leicester,Coventry,Brighton,Portsmouth,Oxford,Cambridge,York,Edinburgh,Glasgow,Aberdeen,Cardiff,Belfast,Birmingham,Bristol,Burnley,Blackpool,Bournemouth,Bradford"
   },
   {
     "name": "Abaza",
@@ -1160,7 +1142,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Cannes,Nice,Grasse,Antibes,Mandelieu,Draguignan,Vence,FrÃ©jus,Le Muy,Saint-Tropez"
+    "b": "Roma,Latina,Aprilia,Terracina,Cisterna di Latina,Pomezia,Guidonia,Nettuno,Anzio,Frosinone,Cassino,Alatri,Veroli,Sora,Cecci"
   },
   {
     "name": "Cheso",
@@ -1549,16 +1531,7 @@ window.europeNameBases = [
     "m": 0,
     "b": "Rovinj,Vodnjan,Bale,Fazana,Galizana,Pula,Porec,Novigrad,Umag,Buje,Motovun,Buzet,Labin,Rabac,Medulin,Liznjan,Valtura,Marcana,Barban,Svetvincenat,Zminj,Kanfanar,Sveti Lovrec,Visnjan,Vizinada,Groznjan,Oprtalj,Livade,Motovun,Momjan,Brtonigla,Nova Vas,Krsan,Plomin,Krsan,Rasa,Labin,Vodnjan,Galizana,Peroj,Barbariga,Kavran,Rakalj,Krnica,Divsici,Hreljici,Muntic,Valtura,Sisan,Jadreski,Vinkuran,Banjole,Pjescana Uvala,Verudela,Puntizela,Valkanela,Valbandon,Fazana"
   },
-  {
-    "name": "Italo-Australian",
-    "i": 452,
-    "min": 4,
-    "max": 11,
-    "d": "ro-AU",
-    "m": 0,
-    "b": "Melbourne,Sydney,Perth,Adelaide,Brisbane,Canberra,Hobart,Geelong,Wollongong,Ballarat,Newcastle,Fremantle"
-  },
-  {
+   {
     "name": "Jauer",
     "i": 453,
     "min": 4,
