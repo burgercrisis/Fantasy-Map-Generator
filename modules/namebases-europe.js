@@ -4719,12 +4719,12 @@ window.europeNameBases = [
   },
   {
     "name": "German",
-    "i": 2727,
+    "i": 0,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig,Bremen,Dresden,Hanover,Nuremberg,Duisburg,Bochum"
+    "b": "Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig,Bremen,Dresden,Hanover,Nuremberg,Duisburg,Bochum,Wuppertal,Bielefeld,Bonn,Münster,Karlsruhe,Augsburg,Wiesbaden,Mönchengladbach,Gelsenkirchen,Brunswick,Aachen,Kiel,Lübeck,Oberhausen,Magdeburg,Freiburg,Krefeld,Lüneburg,Kassel,Hagen,Erfurt,Saarbrücken,Hamm,Herne,Potsdam,Oldenburg,Solingen,Hildesheim,Minden,Koblenz,Köln,Neuss,Rostock,Heidelberg,Paderborn,Darmstadt,Würzburg,Braunschweig,Ingolstadt,ULM,Heilbronn,Ulm,Offenbach, Recklinghausen, Bottrop, Tübingen, Flensburg, Gießen, Ratingen, Lünen, Düren, Marburg, Troisdorf, Minden, Villingen-Schwenningen, Iserlohn, Gladbeck"
   },
   {
     "name": "Dutch",

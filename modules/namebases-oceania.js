@@ -569,6 +569,42 @@ window.oceaniaNameBases = [
       "b": "Lae,Morobe,Bulolo,Wau,Watut,Markham Valley,Nadzab,Finschhafen,Madang,Goroka,Mount Hagen,Kenati,Hides,Nogoli,Koroba,Tari,Kopiago,Porgera,Kandep,Wabag,Laiagam,Wapenamanda,Kompiam"
     },
     {
+      "name": "Bunun",
+      "i": 211,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Xinyi,Nantou,Puli,Shuili,Renai,Hehuanshan,Sun Moon Lake,Yuchi,Tongpu,Alishan,Hualien,Taitung,Kaohsiung,Pingtung,Chiayi,Yushan,Taroko,Wulu,Laonong,Namasia"
+    },
+    {
+      "name": "Basay",
+      "i": 214,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Keelung,Taipei,Tamsui,Beitou,Shilin,Songshan,Neihu,Banqiao,Sanchong,Xinzhuang,Yilan,Toucheng"
+    },
+    {
+      "name": "Babuza",
+      "i": 215,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Taichung,Changhua,Lukang,Yuanlin,Wufeng,Dadu,Shalu,Qingshui,Fengyuan,Taiping,Ershui,Tianzhong,Dacun,Xiushi"
+    },
+    {
+      "name": "Amis",
+      "i": 216,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Hualien,Taitung,Yuli,Fengbin,Guangfu,Ruisui,Chenggong,Dulan,Beinan,Guanshan,Changbin,Fuli,Mataian,Shoufeng"
+    },
+    {
       "name": "Abaga",
       "i": 741,
       "min": 4,
@@ -584,7 +620,7 @@ window.oceaniaNameBases = [
       "max": 11,
       "d": "nic-GH",
       "m": 0,
-      "b": "Wadeye,Maningrida,Galiwin'ku,Nguiu,Wurrumiyanga,Milikapiti,Pirlangimpi,Nhulunbuy,Yirrkala,Gunbalanya,Milingimbi,Ramingining,Bickerton Island,Elcho Island,Gulf Region,Arnhem Land,Cobourg Peninsula,Croker Island,Goulburn Island,Warruwi"
+      "b": "Darwin,Alice Springs,Katherine,Tennant Creek,Nhulunbuy,Jabiru,Alyangula,Wadeye,Maningrida,Galiwin'ku,Nguiu,Port Keats"
     },
     {
       "name": "Adang",
@@ -632,6 +668,15 @@ window.oceaniaNameBases = [
       "b": "Nomad,Mougulu,Yehebi,Honinabi,Oksapmin,Telefomin,Kiunga,Tabubil,Ningerum,Olsobip,Gobe,Kantobo"
     },
     {
+      "name": "Nataoran",
+      "i": 790,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Hualien,Ji'an,Shoufeng,Fenglin,Guangfu,Ruisui,Yuli,Fuli,Zhuoxi,Wanrong,Xincheng,Xiulin"
+    },
+    {
       "name": "Arafundi-Enga Pidgin",
       "i": 50024,
       "min": 4,
@@ -648,6 +693,15 @@ window.oceaniaNameBases = [
       "d": "nic-GH",
       "m": 0,
       "b": "Kerema,Malalaua,Ihu,Baimuru,Kikori,Purari,Gulf,Papua,Port Moresby,Lae,Madang,Wewak"
+    },
+    {
+      "name": "Alu",
+      "i": 860,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Turochak,Chemal,Mayminskoye,Shebalino,Aktash,Inya,Onguday,UstKan,UstKoksa,KyzylOzek,GornoAltaysk,KoshAgach"
     },
     {
       "name": "Aneme-Wake",
@@ -695,6 +749,24 @@ window.oceaniaNameBases = [
       "b": "PortMoresby,Lae,Morobe,MountHagen,Arawa,Bougainville,Madang,Wewak,Goroka,Kokopo,Popondetta,Aitape"
     },
     {
+      "name": "Baham",
+      "i": 1027,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Cairo,Lagos,Nairobi,Johannesburg,Casablancha,Dakar,AddisAbaba,Tunis,Kampala,Abidjan,Accra,Kigali"
+    },
+    {
+      "name": "Bami",
+      "i": 1115,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Bami,Bamenda,Bali,Bamessing,Babanki,Bafut,Kumbo,Nkambe,Mbengwi,Bambalang,NkambÃ©"
+    },
+    {
       "name": "Baramu",
       "i": 1124,
       "min": 4,
@@ -711,6 +783,15 @@ window.oceaniaNameBases = [
       "d": "nic-GH",
       "m": 0,
       "b": "Bariji,Papua New Guinea,Kundiawa,Mendi,Murua,Ialibu,Porgera,Mount Hagen,Goroka,Wabag,Lae"
+    },
+    {
+      "name": "Barikanchi Pidgin",
+      "i": 1130,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Jos,Kano,Maiduguri,Kaduna,Zaria,Bauchi,Gombe,Yola,Benue,Ilorin,Birnin Kebbi"
     },
     {
       "name": "Baruga",
@@ -792,6 +873,15 @@ window.oceaniaNameBases = [
       "d": "nic-GH",
       "m": 0,
       "b": "Bisorio,Papua New Guinea,Enga,Mendi,Kandep,Wabag,Laiagam,Mount Hagen,Porgera,Wapenamanda,Tsaka,Kar"
+    },
+    {
+      "name": "Bitur",
+      "i": 1327,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Bitur,Chad,Moyen-Chari,Moundou,Sarh,Koumra,Doba,Logone-Oriental,Bongor,N'Djamena,Chari-Baguirmi,Lac"
     },
     {
       "name": "Blagar",
@@ -936,6 +1026,15 @@ window.oceaniaNameBases = [
       "d": "nic-GH",
       "m": 0,
       "b": "Chuave Urban,Eigun,Onoma,Keu,Mainamo,Goi,Maimagu,Kautambandi,Agugu,Togoma,Membimangi,Emegi,Sirikoge,Movi,Gogo,Elimbari,Siane,Wangoi,Nambayiufa,Tua Valley,Yonggomugl,Digine,Marigl,Gira,Koge,Kuna"
+    },
+    {
+      "name": "Kavalan",
+      "i": 1622,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Pate Rungan,Laila,Xinshe,Dazhi,Toucheng,Yilan,Jiaoxi,Suao,Waiao,Dali,Fengbin,Lanyang,Beiguan,Honeymoon Bay,Jingpu,Shihtiping,Xingang,Changbin,Chenggong,Donghe,Taimali,Dawu,Daren,Manzhou,Hengchun"
     },
     {
       "name": "Cook Islands Māori Pidgin",
@@ -1136,6 +1235,15 @@ window.oceaniaNameBases = [
       "b": "Wewak,Aitape,Vanimo,Maprik,Wamrong,Lumi,Yapsiei,Tabulam,Samok,Bongu,Tingelin,Saragosa"
     },
     {
+      "name": "Favorlang",
+      "i": 1820,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Favorlang,Taoyuan,Taipei,Hsinchu,Taiwan,Formosan,Changhua,Nantou,Zhanghua,China,Taiwan Strait"
+    },
+    {
       "name": "Golin",
       "i": 1821,
       "min": 4,
@@ -1226,6 +1334,15 @@ window.oceaniaNameBases = [
       "b": "Okapa,Purosa,Ofafina,Ibusa,Anumpa,Ivingoi,Umasa,Awarosa,Orie,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Kasoru,Kawaina,Amaira,Asempa,Sefuna,Iwaki"
     },
     {
+      "name": "Siraya",
+      "i": 1853,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Sinkan,Soulang,Mattau,Bakloan,Tavocan,Dorcko,Tevorang,Takareiang,Tibole,Tipol,Terrisan,Sinkang,Tavocan,Teyovan,Mattauw,Soulangh,Baccloangh,Dorenap,Tefurang,Douliou,Xinhua"
+    },
+    {
       "name": "Fuyug",
       "i": 50028,
       "min": 4,
@@ -1304,7 +1421,7 @@ window.oceaniaNameBases = [
       "max": 11,
       "d": "nic-GH",
       "m": 0,
-      "b": "Kalkaringi,Daguragu,Wattie Creek,Wave Hill,Victoria River,Buntine,Hooker Creek,Limbunya,Killarney,Top Springs,Lajamanu,Lajamanu,Yarralin,Pigeon Hole,Bulla,Amanbidji,Kalano,Binjari,Manyallaluk,Barunga,Wugularr,Beswick,Jilkminggan,Daguragu,Kalkaringi,Fitzroy Crossing,Derby,Broome,Kununurra"
+      "b": "Kalkaringi,Daguragu,Wattie Creek,Wave Hill,Victoria River,Buntine,Hooker Creek,Limbunya,Killarney,Top Springs,Lajamanu,Tennant Creek,Katherine,Timber Creek,Yarralin,Pigeon Hole,Bulla,Amanbidji,Kalano,Binjari,Manyallaluk,Barunga,Wugularr,Beswick,Jilkminggan"
     },
     {
       "name": "Hamtai",
@@ -1322,7 +1439,7 @@ window.oceaniaNameBases = [
       "max": 11,
       "d": "nic-GH",
       "m": 0,
-      "b": "Hawaiian,Honolulu,Hilo,Kahului,Kailua,Kaneohe,Kapaa,Lahaina,Lihue,Waimea,Kahului,Kihei,Wailuku,Lahaina,Hana,Hamoa,Paia,Makawao,Pukalani,Kula,Waihee,Waikapu,Puunene,Haiku,Keanae,Kualoa,Wahiawa,Waialua,Ewa,Waianae,Makaha,Lualualei,Maili,Pearl City,Aiea,Manoa,Puowaka"
+      "b": "Hawaiian,Honolulu,Laie,Kaneohe,Maui,Molokai,Kauai,USA,Pacific Ocean,Islands"
     },
     {
       "name": "Inoke-Yate",
@@ -1566,6 +1683,78 @@ window.oceaniaNameBases = [
       "d": "nic-GH",
       "m": 0,
       "b": "Wulai,Atayal,Seediq,Taroko,Jianshi,Nan'ao,Datong,Fuxing,Jinfeng,Zhuoxi,Wanrong,Xiulin"
+    },
+    {
+      "name": "Northern Luzon",
+      "i": 2070,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Laoag,Vigan,Tuguegarao,Tabuk,Ilagan,Cauayan,Santiago,Bangued,Bontoc,Lagawe,Cabarroguis,Bayombong"
+    },
+    {
+      "name": "Northern Mindoro",
+      "i": 2071,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Calapan,Puerto Galera,Baco,San Teodoro,Naujan,Victoria,Pola,Pinamalayan,Gloria,Bansud,Bongabong,Mansalay"
+    },
+    {
+      "name": "Philippine",
+      "i": 2072,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Manila,Quezon City,Cebu City,Davao City,Zamboanga City,Antipolo,Pasig,Taguig,Valenzuela,DasmariÃ±as,Bacoor,General Santos"
+    },
+    {
+      "name": "South Mindanao",
+      "i": 2073,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Davao,Cotabato,Kidapawan,Koronadal,Digos,Tacurong,Isulan,Alabel,Malita,Polomolok,Glan,Kiamba"
+    },
+    {
+      "name": "Tsouic",
+      "i": 2074,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Alishan,Dabang,Tfuya,Saviki,Tapangu,Sinvi,Lalauya,Namasia,Taoyuan,Maolin,Wanshan,Tona"
+    },
+    {
+      "name": "Greater Central Philippine",
+      "i": 2075,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Cebu,Davao,Cagayan de Oro,Iloilo,Bacolod,Butuan,Cotabato,General Santos,Ormoc,Tacloban,Tagbilaran,Surigao"
+    },
+    {
+      "name": "Batanic",
+      "i": 2076,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Basco,Itbayat,Ivana,Mahatao,Uyugan,Sabtang,Batan,Diogo,Siayan,Mabudis,Ibuhos,Dequey"
+    },
+    {
+      "name": "Central Luzon",
+      "i": 2077,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "San Fernando,Angeles,Olongapo,Tarlac,Balanga,Iba,Malolos,Cabanatuan,Palayan,Gapan,MuÃ±oz,San Jose"
     },
     {
       "name": "Kamono",
@@ -2072,6 +2261,15 @@ window.oceaniaNameBases = [
       "b": "Goroka,Kainantu,Kundiawa,Mendi,Mt Hagen,Wabag,Chimbu,Jiwaka,Hela,Enga"
     },
     {
+      "name": "Kelabit",
+      "i": 2308,
+      "min": 4,
+      "max": 11,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta"
+    },
+    {
       "name": "Laua",
       "i": 2407,
       "min": 4,
@@ -2240,7 +2438,7 @@ window.oceaniaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Mutitjulu,Yulara,WATIYA,Warnerr,Japali,Karrinyrra,Patjarr,Bell Springs,Mungari,Tyrrell,West MacDonnell,Graham,Wilton,Browns,Davenport,Mount Riddell,Katoomba,Leura,Blackheath,Tjalpi,Wati,Puntu,Wanka,Warnti,Mamarru,Tjukurla,Kukuku"
+      "b": "Papunya,Kintore,Haasts Bluff,Kiwirrkurra,Mutitjulu,Yulara,Alice Springs,WATIYA,Warnerr,Japali,Karrinyrra,Patjarr,Bell Springs,Mungari,Tyrrell,West MacDonnell,Graham,Wilton,Browns,Davenport,Mount Riddell,Katoomba,Leura,Blackheath,Perisher,Thredbo"
     },
     {
       "name": "Tok Pisin",
@@ -2258,7 +2456,7 @@ window.oceaniaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Port Moresby,Gulf,Central,Papua,Hiri,Motu,Moro,Lae,Madang,Rabaul,Goroka,Mount Hagen,Hohola,Gordons,Koitakin,Hanuabada,Koura,Kokoda,Pari,Bunu,Mekeo,Motu,Koita,Motuan,Hiri,Motu Language"
+      "b": "Port Moresby,Gulf,Central,Papua,Hiri,Motu,Moro,Lae,Madang,Rabaul,Goroka,Mount Hagen,Moresby,Hohola,Gordons,Koitakin,Hanuabada,Koura,Kokoda,Pari,Bunu,Mekeo,Motu,Koita,Motuan,Hiri,Motu Language,Eruna,Muria,Kuni,Motu,Lawes,Moresby,Port Moresby,Hiri,Motu,Poli,Papuan,Tok Pisin,English,Papua New Guinea,Pidgin,Oceania,Papua,Australia,Pacific Islands,Melanesia,Micronesia,Polynesia"
     },
     {
       "name": "Enga",
@@ -2393,6 +2591,537 @@ window.oceaniaNameBases = [
       "max": 25,
       "d": "",
       "m": 0,
-      "b": "Uluṟu,Kata Tjuṯa,Ernabella,Amata,Tjukurla,Pitjantjatjara,Yankunytjatjara,Ngaanyatjarra,Spinifex,Tjuṯatjarra,Western Desert,Mallee,Salt Lake,Marla,Moppe,Onya,Mimili,Indulkana,Fregon,Kalka,Tintjara,Warburton,Yalata,Coober Pedy,Marree,Birdsville,William Creek,Oodnadatta,Anna Creek,Cadia,Pseudo,Tjayanka,Ngaatjatjarra,Antakirinja"
+      "b": "Alice Springs,Uluṟu,Kata Tjuṯa,Ernabella,Amata,Tjukurla,Pitjantjatjara,Yankunytjatjara,Ngaanyatjarra,Spinifex,Tjuṯatjarra,Western Desert,Mallee,Salt Lake,Marla,Moppe,Onya,Mimili,Indulkana,Fregon,Kalka,Tintjara,Warburton,Yalata,Coober Pedy,Marree,Birdsville,William Creek,Oodnadatta,Anna Creek,Cadia,Pseudo"
+    },
+    {
+      "name": "Arrernte",
+      "i": 289,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Alice Springs,Mparntwe,Rutherglen,Santa Teresa,Ti Tree,Alcoota,Anmatjerr,Atitjete,Canteen,Null,Stirling,Hale,Barton,Tnorala,Gosse,Bulletin,Lyunde,Michells,Reds,Perth,Brunette,Docker,River,Stuart,Sandover,Hale,Tnorala,Gosse Hill,DArcy,Baines,Baines,Nixon,Crocodile,Emily,Jesse,Mpartnwe,Anthelk,Elephant,Ellery,Larrakia,CW Hill,Olive,Pink,Lone,Star,Daly,Mount Allan"
+    },
+    {
+      "name": " Warlpiri",
+      "i": 290,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Yuendumu,Warlpiri,Papunya,Lajamanu,Nyirrpi,Mt Allan,Kalkaringi,Daguragu,Lajamanu,Yuendumu,Willowra,Yuelamu,Mataranka,Katherine,Darwin,Alice Springs,Tennant Creek,Nyirripi,Mt Allan,Kalkaringi,Lajamanu,Yuendumu,Papunya,Yuelamu,Willowra,Warlpiri,Nyirripi,Mt Allan,Kalkaringi,Daguragu,Lajamanu,Papunya,Yuendumu,Yuelamu,Willowra,Mataranka,Katherine,Darwin,Alice Springs"
+    },
+    {
+      "name": "Pitjantjatjara",
+      "i": 291,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Alice Springs,Uluṟu,Kata Tjuṯa,Ernabella,Amata,Tjukurla,Pitjantjatjara,Yankunytjatjara,Ngaanyatjarra,Spinifex,Tjuṯatjarra,Western Desert,Mallee,Salt Lake,Marla,Moppe,Onya,Mimili,Indulkana,Fregon,Kalka,Tintjara,Warburton,Yalata,Coober Pedy,Marree,Birdsville,William Creek,Oodnadatta,Anna Creek,Cadia,Pseudo,Albany,Adelaide,Queensland"
+    },
+    {
+      "name": "Yolŋu",
+      "i": 292,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Yirrkala,Nhulunbuy,Gove,Maningrida,Ramingining,Milingimbi,Cape Stewart,Bickerton,Elcho Island,Galiwinḵu,Milingimbi,Ramingining,Maningrida,Djok,Yolngu,Arnhem Land,East Alligator,Kakadu,Nourlangie,Jim Jim Falls,Twin Falls,Gulngay,Buku-Larrnggay,Yirrkala Art Centre,Nhulunbuy,Gove Peninsula,Yolngu Matha,Dhuwa,Yirrk Dhanbul,Djanbun,Djambarrpuynu,Gumatj,Gupapuyŋu,Ritharrŋu,Wanguri,Liyagaway"
+    },
+    {
+      "name": "Miriwoong",
+      "i": 293,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Katherine,Darwin,Timber Creek,Kununurra,Gregory,Dampier,Halls Creek, Fitzroy Crossing,Broome,Cable Beach,Cossack,Dampier Peninsula,Derby,Halls Creek,Jarlmaddah,Jurabi,Karratha,Koolijerrn,Looma,Mimbi,Miriwoong,Miriwoong Language,Gurindji,Dalabon,Jaru,Kriol,Malak Malak,Kakadu,Kimberley,Western Australia,Northern Territory,Boab,Bungle Bungle,Purnululu,Kakadu National Park"
+    },
+    {
+      "name": "Gooniyandi",
+      "i": 294,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Fitzroy Crossing,Broome,Derby,Halls Creek,Kununurra,Warmun,Fitzroy Crossing,Bayulu,Wangkatjunka,Noonkanbah,Yirr,Gooniyandi,Bunuba,Walmajarri,Jaru,Kriol,Djaru,Wangkatjunka,Walmajarri,Ngaring,Boab,Kimberley,Western Australia,Northern Territory,Great Sandy Desert,West Kimberley,East Kimberley,Ord River,Pemberton,King Leopold Ranges,Geikie Gorge,Tunnel Creek,Windjana Gorge"
+    },
+    {
+      "name": "Walmajarri",
+      "i": 295,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Halls Creek,Warmun,Fitzroy Crossing,Derby,Broome,Kununurra,Wangkatjunka,Balgo,Warmun Community,Billiluna,M往返,Fitzroy Crossing,Bayulu,Noonkanbah,Yirr,Gooniyandi,Bunuba,Walmajarri,Jaru,Kriol,Djaru,Wangkatjunka,Jaru,Kriol,Balgo,Wangkatjunka,Wangkatjungka,Balgo Hills,Lurrm,Boddington,Kalgoorlie,Boulder,Coolgardie,Kambalda,Leonora,Laverton,Norseman,Esperance,Ravensthorpe"
+    },
+    {
+      "name": "Bunuba",
+      "i": 296,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Fitzroy Crossing,Derby,Halls Creek,Broome,Kununurra,Bayulu,Noonkanbah,Yirr,Gooniyandi,Bunuba,Walmajarri,Jaru,Kriol,Djaru,Wangkatjunka,Boab,Kimberley,Western Australia,Northern Territory,Great Sandy Desert,West Kimberley,East Kimberley,Ord River,Pemberton,King Leopold Ranges,Geikie Gorge,Tunnel Creek,Windjana Gorge,Fitzroy River,Margaret River,Geikie,Gorge,Windjana,Gorge,Tunnel,Creek,Djaru"
+    },
+    {
+      "name": "Fijian",
+      "i": 297,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Suva,Nadi,Lautoka,Labasa,Levuka,Ba,Tavua,Rakiraki,Sigatoka,Korovatu,Navua,Nasinu,Nausori,Suva,Nadi International Airport,Lautoka Industrial,Fiji,Vanua Levu,Viti Levu,Taveuni,Kadavu,Lau Islands,Mamanuca Islands,Yasawa Islands,Rotuma,Fiji Islands,Fiji Language,Viti,Fiji Hindi,Fijian Language,Bauan,Standard Fijian,Vosotho,Vou,Voli,Tokalau,Fiji,Suva,Nadi,Lautoka"
+    },
+    {
+      "name": "Samoan",
+      "i": 298,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Apia,Lautoka,Suva,Nadi,Labasa,Tavua,Rakiraki,Sigatoka,Fiji,Samoa,American Samoa,Tutuila,Pago Pago,Upolu,Savaii,Auckland,Sydney,Melbourne,Brisbane,Perth,Hawaii,Los Angeles,San Francisco,Seattle,Portland,Las Vegas,Denver,Salt Lake City,Houston,Dallas,Phoenix,Honolulu,Maui,Kauai,Oahu,American Samoa,Western Samoa,Samoan Language,Gagana Samoa,Samoan Islands,Pacific"
+    },
+    {
+      "name": "Tongan",
+      "i": 299,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Nuku'alofa,Neiafu,Pangai,Nuku'alofa,Tongatapu,Vava'u,Ha'apai,Eua,Fiji,Australia,New Zealand,Auckland,Sydney,Melbourne,Brisbane,Perth,Adelaide,Hawaii,Los Angeles,San Francisco,Seattle,Portland,Houston,Dallas,Denver,Phoenix,Tonga,Tongan Language,Tonga Islands,Tongatapu,Vava'u,Ha'apai,Eua,Niuas,Hawaiian,Tongan Community,Pacific Islander,Tongan diaspora,Aotearoa"
+    },
+    {
+      "name": "Maori",
+      "i": 300,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Napier,Hastings,New Plymouth,Palmerston North,Dunedin,Rotorua,Taupo,Gisborne,Whanganui,Invercargill,Blenheim,Nelson,Greymouth,West Coast,Canterbury,Otago,Southland,Waikato,Bay of Plenty,Gisborne,Northland,Auckland Region,Bay of Islands,Far North District,Whangarei,Kerikeri,Paihia,Russell,Doubtless Bay,Mangonui,Kaitaia,Kawakawa,Kaikohe,Whangarei,Auckland,Waikato"
+    },
+    {
+      "name": "Hawaiian",
+      "i": 301,
+      "min": 10,
+      "max": 30,
+      "d": "",
+      "m": 0,
+      "b": "Honolulu,Maui,Kauai,Oahu,Big Island,Hawaii,Hilo,Kona,Kahului,Lahaina,Kapaa,Poipu,Lihue,Hanalei,Waimea,Kahului,Kihei,Wailuku,Lahaina,Hana,Hamoa,Paia,Makawao,Pukalani,Kula,Waihee,Waikapu,Puunene,Haiku,Keanae,Kualoa,Kaneohe,Wahiawa,Waialua,Ewa,Waianae,Makaha,Kaneoh,Lualualei,Maili,Pearl City,Aiea,Manoa,Diamond Head,Koko Head,Pali,Puuowaka"
+    },
+    {
+      "name": "Tahitian",
+      "i": 302,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Papeete,Moorea,Tahiti,French Polynesia,Bora Bora,Huahine,Raiatea,Tahaa,Papeete,Papeete,Faaa,Pirae,Mahina,Arue,Paea,Punaauia,Papara,Tiipaar,Outumaoro,Patuto,PK 18,Pk19,Pk20,Pk21,Pk22,Pk23,Pk24,Pk25,Pk26,Pk27,Pk28,Pk29,Pk30,Pk31,Pk32,Pk33,Pk34,Pk35,Pk36,Pk37,Pk38,Pk39,Pk40,Pk41,Pk42,Pk43,Pk44,Pk45,Pk46,Pk47,Pk48,Pk49,Pk50,Marquesas,Tuamotu,Gambier,Australs"
+    },
+    {
+      "name": "Niuean",
+      "i": 303,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Alofi,Niue,Fiji,New Zealand,Auckland,Sydney,Melbourne,Brisbane,Perth,Wellington,Christchurch,Hamilton,Tauranga,Niue Island,Pacific,Cook Islands,Tonga,Samoa,Wallis,Futuna,Avarua,Rarotonga,Aitutaki,Pukapuka,Penrhyn,Manihiki,Rakahanga,Samoan Language,Tongan Language,Fijian Language,Tokelau Language,Maori Language,Pacific Languages,Polynesian,Niue,Niuean Language,Vagahau Niue,Niue Island,Tofol,Alofi"
+    },
+    {
+      "name": "Tiwi",
+      "i": 304,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Darwin,Palmerston,Alice Springs,Tiwi Islands,Wurrumiyanga,Nguiu,Milikapati,Pirlangimpi,Japingka,Warddjak,Melville Island,Bathurst Island,Darwin Region,Northern Territory,Australia,Aboriginal,Tiwi Language,Tiwi Islands,Pirlangimpi,Milikapati,Wurrumiyanga,Nguiu,Japingka,Warddjak,John Matungs,Bay,Cox,Dead Horse,Trunk,Garden Point,Pmill,Buchanan,Malu,Kars,St. Teresa"
+    },
+    {
+      "name": "Anindilyakwa",
+      "i": 305,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Groote Eylandt,Angurugu,Umbakumba,Southeast Gulf,Drilsa,Yikbal,Barni-Walbanga,Wurankgak,Ltalngura,Wurrbbarna,Arlnga,Barni-Walak,Waljbena,Murnk-Empumal,Anindilyakwa Language,Groote Eylandt,Aboriginal,Australian,Alfred Save,Angurugu Community,Umbakumba Community,Gulf Region,Northern Territory,AUSTRALIA,FLINDERS ISLAND,Chasm Island,Bickerton Island,Wurrumba,Engeburra,Chase,Palmerston"
+    },
+    {
+      "name": "Gunwinggu",
+      "i": 306,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Maningrida,Ramingining,Maningrida,Bininj Kunwok,Kuninjku,Kunwinjku,Kunwinjku,Central Arnhem,Western Arnhem,Rembarrnga,Djokan,Manyarring,Dja,Kunwinjku,Kuninjku,Kundjok,Maningrida Community,Ramingining Community,Oenpelli,Outstations,West Arnhem,East Arnhem,Kakadu,Alligator Rivers,Katherine,Darwin,Northern Territory,Aboriginal,Australian,Bininj,Kunwok"
+    },
+    {
+      "name": "Murrinhpatha",
+      "i": 307,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Wadeye,Port Keats,Palmerston,Darwin,Katherine,Wadeye Community,Port Keats,Ngukurr,Nightcliff,Fannie Bay,Parap,Larrakeyah,Ludmilla,Bagot,Knuckeys,Gurindji,Dalabon,MalakMalak,Djabugay,Jaru,Kriol,Wadeye,Port Keats,Fitzroy,Darwin,Rising Sun,St. Marys,Ngurru,Murrumu,West Daly,Victoria Daly,West Arnhem"
+    },
+    {
+      "name": "Kriol",
+      "i": 308,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Katherine,Darwin,Alice Springs,R番,Fitzroy Crossing,Halls Creek,Broome,Derby,Kununurra,Rising,Murrumu,West Daly,Victoria Daly,West Arnhem,East Arnhem,Kimberley,Northern Territory,Western Australia,Queensland,Aboriginal,Kriol Language,Australian Kriol,Kriol,Bible,Auslan,Ringers,Western Desert,Crocodile,Maningrida,Ramingining,Katherine Region"
+    },
+    {
+      "name": "Yolngu",
+      "i": 309,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Yirrkala,Nhulunbuy,Gove,Nhulunbuy,Yirrkala Community,Bark Hut,Yirrkala Mission,Gove Peninsula,Dhuwa,Yolngu Matha,Rirratjingu,Bandalinda,Djambarrpuyngu,Gumatj,Ritharrngu,Wanguri,Liwaluma,Gupapuygu,Dhuwa,Yolngu,Yirrk,Dhanbul,Dhanbul,Djalwa,Yirrkala,Nhulunbuy,Gove,Elcho Island,Galiwinku,Milingimbi,Ramingining,Maningrida,Bickerton Island,Cape Stewart"
+    },
+    {
+      "name": "Wiradjuri",
+      "i": 310,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Wagga Wagga,Dubbo,Cowra,Parkes,Forbes,Coonabarabran,Gilgandra,Warrumbungle,Cobar,Narromine,Trangie,Nyngan,Bourke,Wanaaring,Brewarrina,Enngonia,Yantabulla,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Trangie,Warrumbungle,Forbes,Cowra,Wagga Wagga,Dubbo,Parkes,Mudgee,Gulgong,Wellington,Orange,Bathurst,Canowindra,Carcoar"
+    },
+    {
+      "name": "Gamilaraay",
+      "i": 311,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Moree,Goondiwindi,Moonie,Dalby,Warwick,Stanthorpe,Tenterfield,Glen Innes,Inverell,Armidale,Grafton,Coffs Harbour,Bellingen,Dorrigo,Bourke,Wanaaring,Brewarrina,Cobar,Warren,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Carinda,Nevertire,Mount Tenandra,Coolah,Sandona,Coolatai,Burren,Bollon,Cumalong,Coonamble"
+    },
+    {
+      "name": "Kamilaroi",
+      "i": 312,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Moree,Gwydir,North Star,Bellata,Gurley,Toowoomba,Dalby,Roma,Miles,Bollon,St George,Charleville,Cunnamulla,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Carinda,Nevertire,Mount Tenandra,Coolah,Sandona,Coolatai,Burren,Walgett,Lightning Ridge,Coonabarabran,Bingara,Ashford,Kempsey,Maclean,Yamba,Grafton,Coffs Harbour"
+    },
+    {
+      "name": "Paakantyi",
+      "i": 313,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Broken Hill,Dareton,Pooncarie,Mildura,Balranald,Hay,Griffith,Leeton,West Wyalong,Wagga Wagga,Dubbo,Parkes,Forbes,Cowra,Canowindra,Bourke,Wanaaring,Brewarrina,Cobar,Nyngan,Coonabarabran,Coonamble,Gilgandra,Warrumbungle,Warramboo,Wilcannia,Menindee,Ivanhoe,Tibbob,Mount Brown,Boolcarroll,Moolpa,Kiacatoo,Mount Boppy"
+    },
+    {
+      "name": "Wallisian",
+      "i": 314,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Mata-Utu,Wallis Island,Uvea,Futuna,Alofi,Wallis and Futuna,French Polynesia,Samoa,Tonga,Fiji,New Caledonia,Loyalty Islands,Ouvéa,Fidji,Lautoka,Suva,Nadi,Fiji Islands,Pacific,S-Pacific,Papeete,Tahiti,Moorea,Raiatea,Bora Bora,Tahaa,Society Islands,Tuamotu,Marquesas,Gambier,Australs"
+    },
+    {
+      "name": "Futunan",
+      "i": 315,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Alofi,Wallis Island,Uvea,Futuna,Wallis and Futuna,Mata-Utu,Wallis,Uvea,Futunan Language,Futuna Island,Alofi,Poirier,Futunan,Wallisian,Fiji,Samoa,Tonga,Pacific,Papua New Guinea,New Caledonia,Vanuatu,Solomon Islands,Ouvéa,Uvea,Futunan"
+    },
+    {
+      "name": "Kiribati",
+      "i": 316,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Tarawa,South Tarawa,Betio,Maiana,Abaiang,Marakei,Butaritari,Makin,Nonouti,Bairiki,Central Gilbert,Kiribati,Gilbert Islands,Gilberts,Pacific Ocean,Gilbertese,I-Kiribati,Tarawa Atoll,Gilbert Islands,Banaba,Ocean Island,Rongelap,Marshall Islands,Kosrae,Pohnpei,Caroline Islands,Federated States Micronesia,Pacific"
+    },
+    {
+      "name": "Marshallese",
+      "i": 317,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Majuro,Rongelap,Kwajalein,Ebon,Mili,Kosrae,Pohnpei,Chuuk,Yap,Caroline Islands,Marshall Islands,Ratak Chain,Ralik Chain,Marshallese Language,Ebon Atoll,Jaluit,Arno,Wotho,Ujae,Lae,Ailinglaplap,Namu,Aur,Maloelap,Marshall Islands,Pacific Ocean,Marshallese,Marshall Language"
+    },
+    {
+      "name": "Chuukese",
+      "i": 318,
+      "min": 10,
+      "max": 25,
+      "d": "",
+      "m": 0,
+      "b": "Chuuk,Truk,Weno,Moen,Pohnpei,Kosrae,Yap,Caroline Islands,Federated States Micronesia,Micronesia,Pacific Ocean,Chuuk Lagoon,Chuuk Islands,Trukese,Chuuk Language,Chuukese,Moen Island,Weno,Truk,Chuuk Atoll,Pohnpei Island,Kosrae,Yap,Federated States of Micronesia"
+    },
+    {
+      "name": "Pohnpeian",
+      "i": 319,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Pohnpei,Kosrae,Chuuk,Yap,Caroline Islands,Federated States Micronesia,Micronesia,Pacific,Pohnpei Island,Kosrae Island,Chuuk Lagoon,Yap Island,Pohnpei State,Kosrae State,Chuuk State,Yap State,Pohnpeian Language,Pohnpei,Kosraean,Chuukese,Yapese,Micronesian Languages"
+    },
+    {
+      "name": "Yapese",
+      "i": 320,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Yap,Weno,Chuuk,Pohnpei,Kosrae,Caroline Islands,Federated States Micronesia,Micronesia,Pacific,Yap Island,Yap Main Island,Ulithi,Fais,Woleai,Ifalik,Eauripik,Faraulep,Garok,Xavier,Yap State,Yapese Language,Yap Language,Micronesian,Yap Islands"
+    },
+    {
+      "name": "Rarotongan",
+      "i": 321,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Rarotonga,Avarua,Cook Islands,Aitutaki,Mauke,Atiu,Mitiaro,Manihiki,Pukapuka,Nassau,Palmerston,Suwarrow,Cook Islands,Pacific,Aitutaki,Mitiaro,Mauke,Atiu,Island,Maori Language,Cook Islands Maori,Aotearoa,New Zealand,Auckland,Sydney,Pacific Islands,Rarotongan Language,Cook Islands"
+    },
+    {
+      "name": "Tuvalu",
+      "i": 322,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Funafuti,Nanumea,Niutao,Nanumanga,Nui,Vaitupu,Nukufetau,Nukulaelae,Nanumanga,Nanumea,Niutao,Funafuti Atoll,Tuvalu Islands,Pacific Ocean,Gilbert Islands,Kiribati,Fiji,Samoa,Tuvalu Language,Tuvalu,Gilbertese,Pacific Atolls,Tuvalu Atolls,Tuvalu Islands,Pacific"
+    },
+    {
+      "name": "Nauru",
+      "i": 323,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Yaren,Denigomodu,Buada,Anetan,Ewa,Anibare,Meneng,Olotokon,Yangoru,Montgomery,Central District,District,Nauru Island,Pacific Ocean,Gilbert Islands,Kiribati,Papua New Guinea,Australia,Nauru Language,Nauruan,Nauru People,Pacific Island,Ocean Island,Nauruan Language,Nauru"
+    },
+    {
+      "name": "Bislama",
+      "i": 324,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Port Vila,Espiritu Santo,Luganville,Tanna, Efate,Malampa,Sanma,Tafea,Penama,Shefa,Vanuatu,Pacific,Melanesia,Vanuatu Islands,Pacific Ocean,Santo,Luganville,Lenakel,Tanna,Futuna,Aniwa,Epi,Ambae,Maewo, Pentecost,Aoba,Malo,Banks Islands,Torres Islands"
+    },
+    {
+      "name": "Anejom",
+      "i": 325,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Tanna,Vanuatu,Port Vila,Espiritu Santo,Luganville,Yasur,Tanna Island,White Grass,Tanna,Vanuatu,Melanesia,Aniwa,Anelcauhat,Futuna,Erromango,Anatom,Vanuatu,Pacific,South Pacific,Tafea Province,Yasur Volcano,Tanna Languages"
+    },
+    {
+      "name": "Lenakel",
+      "i": 326,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Tanna,Port Vila,Vanuatu,Lenakel,Tanna Island,White Grass,Port Resolution,Yasur Volcano,Tanna,Isangel,Vanuatu,Melanesia,Pacific,Tafea Province,South West Bay,North Tanna,Middle Tanna,South Tanna,Yasur,Tanna Languages"
+    },
+    {
+      "name": "Kwamera",
+      "i": 327,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Tanna,Vanuatu,Port Vila,Kwamera,Tanna Island,Tafea,Isangel,Tanna,Southern Tanna,Tanna Languages,Vanuatu,Melanesia,Pacific,Anelcauhat,Tanna,Tanna Language,Kwamera Language,Southern Vanuatu"
+    },
+    {
+      "name": "Nengone",
+      "i": 328,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Maré,New Caledonia,Nouméa,Maré Island,Loyalty Islands,Noumea,Maré,Tadine,La Roche,Routh,Mus,New Caledonia,Pacific,Melanesia,Loyalty Islands,Nengone Language,Maré Language,Drehu,Drehu Language,Loyalty Islands"
+    },
+    {
+      "name": "Drehu",
+      "i": 329,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Lifou,New Caledonia,Nouméa,Loyalty Islands,Lifou Island,Wé,Lifou,Tadine,Wé,Loyalty Islands,New Caledonia,Pacific,Melanesia,Nengone,Drehu Language,Lifou Language,Loyalty Islands,Maré,Nouméa"
+    },
+    {
+      "name": "Xârâcùù",
+      "i": 330,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Nouméa,New Caledonia,Grand Terre,Canala,Thio,Kouaoua,Houailou,Poindimié,Canala,Xârâcùù,New Caledonia,Pacific,Melanesia,Grande Terre,Kanaka,New Caledonia,Kanaki,Xârâcùù Language,Kanak Languages"
+    },
+    {
+      "name": "Jawe",
+      "i": 331,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "New Caledonia,Nouméa,Grand Terre,Pwailè,Jawe,Hienghène, Kouaoua,Canala,Thio,Tchambia,Tchambri,Hienghène,Xârâcùù,New Caledonia,Pacific,Melanesia,Kanaka,New Caledonian Languages,Kanak Languages"
+    },
+    {
+      "name": "Hinukh",
+      "i": 332,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Honiara,Guadalcanal,Malaita,Temotu,Central Province,Makira,Isatele,Tulagi,Gela,Parlington,Islands,Solomon Islands,Pacific,Melanesia,Bougainville,Guadalcanal,Malaita,San Cristobal,New Georgia,Isabel,Central Islands,Solomon Islands"
+    },
+    {
+      "name": "Lau",
+      "i": 333,
+      "min": 10,
+      "max": 20,
+      "d": "",
+      "m": 0,
+      "b": "Malaita,Solomon Islands,Honiara,Guadalcanal,Auki,Gela,Malaita Island,Tulagi,Faul,Tandai,Bina,Haunue,Lau Language,Lau Dialect,Solomon Islands,Pacific,Melanesia,Malaita Province,Auki,Turukofe"
+    },
+    {
+      "name": "Hawaiian Pidgin",
+      "i": 335,
+      "min": 4,
+      "max": 15,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Honolulu,Hilo,Kahului,Pearl City,Kailua,Waipahu,Ewa Beach,Mililani,Makawao,Lahaina,Kapaa,Poipu,Lihue,Hanalei,Waimea,Kihei,Wailuku,Hana,Hamakuja,Paia,Makawao,Pukalani,Kula,Waihee,Waikapu,Puunene,Haiku,Keanae,Kualoa,Kaneohe,Wahiawa,Waialua,Ewa,Waianae,Makaha,Kaneohe,Lualualei,Maili,Pearl City,Aiea,Manoa,Diamond Head,Koko Head,Pali,Puuowaka"
+    },
+    {
+      "name": "Pijin",
+      "i": 336,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Honiara,Gizo,Auki,Noro,Tulagi,Henderson,Guadalcanal,Malaita,Makira,Isabel,Central Province,Rennell,Bellona,Bougainville,Buka,Choiseul,Santa Cruz,New Georgia,Ross Island,Nggela,Marau Sound,Tarum,Verahouse,Buala,Munda,Gizo Island,Vila,Ranonga,Kolombangara"
+    },
+    {
+      "name": "Rotuman",
+      "i": 337,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Motusa,Ahau,Ituni,Solnoh,Oinafa,Malapa,Ututu,Ano,Paea,Tuei,Sualaha,Aka,Fap,Hauma,Lehongotaha,Pakopa,Paptea,Solnoh Mission,Ahau Village,Motusa Village,Oinafa Village,Rotuma"
+    },
+    {
+      "name": "Norfuk",
+      "i": 338,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Kingston,Cascades,Norfolk Island,Burnt Pine,Dundee,Steels Point,Anson Bay,Emily Bay,Queenstown,Baiter,Bluff Point,Middlesex,Wanguri,Sino,Ball Bay,Mount Pitt,Kingston Norfolk Island,Douglas Drive,Queen Elizabeth Avenue,Martin Fullerton Lane,Taylor's Road"
+    },
+    {
+      "name": "Bardi",
+      "i": 339,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Broome,Cable Beach,Roebuck Bay,Derby,Beagle Bay,Lombadina,Ardyaloon,One Arm Point,Dampier Peninsula,Cygnet Bay,Cape Leveque,Kooljaman,La Djardir,Bayulu,Biara,Minyirr,Bilingurr,Shelter Cove,Djarindjin,Oobagooma,Crown Beach,Mini"
+    },
+    {
+      "name": "Bundjalung",
+      "i": 340,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Lismore,Casino,Grafton,Evans Head,Kyogle,Ballina,Coraki,Woodburn,Clunes,The Channon,Bexhill,Mullumbimby,Bangalweed,Lismore Heights,Goolmangar,Dunoon,Terania Creek,Wiangaree,Loadstone,Muli Muli,Boggabilla"
+    },
+    {
+      "name": "Gurindji",
+      "i": 341,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Wave Hill,Daguragu,Kalkaringi,Wattie Creek,Victoria River,Hooker Creek,Lajamanu,Yarralin,Pigeon Hole,Bulla,Amanbidji,Kalano,Barunga,Beswick,Jilkminggan,Wugularr,Katherine,Tennant Creek,Timber Creek,Dry River,Wave Hill Station"
+    },
+    {
+      "name": "Guugu Yimidhirr",
+      "i": 342,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Cooktown,Hope Vale,Laura,Coen,Musterville,Hann River,Lakeland,Wujal Wujal,Shannonvale,Bloomfield,Rossville,Chillagoe,Mt Carbine,Helenvale,Mareeba,Dimbulah,Katherine,Darwin,Cape Bedford,Cape Flattery,St. Lawrence"
+    },
+    {
+      "name": "Noongar",
+      "i": 343,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Perth,Fremantle,Swanbourne,Boorowa,Mundaring,Kalamunda,Joondalup,Wanneroo,Rockingham,Mandurah,Bunbury,Busselton,Albany,Denmark,Mount Barker,Beverley,York,Toodyay,New Norcia,Pinjarr,Beelu,Yokine,Maylands"
+    },
+    {
+      "name": "Asmat",
+      "i": 344,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Agats,Sawa Er,Basmi,Yapseda,Ecy,Bawor,Bitur,Bisik,Yetik,Yaosakor,Sempu,Betelbum,Ayip,Bokondini,Poumaka,Bete,Kocjair,Baba,Ojan,Simanim,Bian,Emete,Ase,Bam,Undi,Biamo,Sermow,Solong,Denge,Kawit,Wari,Pu,Dat"
+    },
+    {
+      "name": "Kokoda",
+      "i": 345,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Kokoda,Popondetta,Oro Bay,Gona,Buna,Samarai,Kokoda Track,Sohano,Ioma,Afore,Tufi,Uiaku,Wanigela,Safia,Kira,Sangara,Wari,Sekeri,Managalasi,Ajeka,Garaja,Kokoda Village,Ingi,Iska,Kokoda Station"
+    },
+    {
+      "name": "Maisin",
+      "i": 346,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Morehead,Kiunga,Tabubil,Daru,Balimo,Oriomo,Bensbach,Weam,Wipim,Nomad,Awaba,Kundiawa,Ambum,Wabag,Porgera,Kandep,Kompiam,Mendi,Tari,Paiela,Maip,Muritaka,Pilikambi"
+    },
+    {
+      "name": "Motu",
+      "i": 347,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Port Moresby,Hanuabada,Kila Kila,Baruni,Tatana,Pari,Vabukori,Kilakila,Korobosea,Gerehu,Waigani,Boroko,Konedobu,Motukea,Pari,Kirakira,Gabutu,Elevala,Hohola,Gordons,Badili,Koki"
+    },
+    {
+      "name": "Huli",
+      "i": 348,
+      "min": 4,
+      "max": 12,
+      "d": "nic-GH",
+      "m": 0,
+      "b": "Tari,Mendi,Kopiago,Koroba,Komo,Margarima,Hewag,Pori,Fugwa,Pureni,Tani,Bogaya,Benaria,Hobia,Hungomo,Timbunki,Pimaga,Helia,Tagali,Hayapuga,Lake Kopiago,Karoma,Hangi,Bani,Duna,Hela Province"
     }
   ];
