@@ -2961,3 +2961,53 @@ Africa was already complete before our bulk changes, so entries should be more a
 **Rating**: MOSTLY VERIFIED
 **Issue**: 2-3 duplicates (Butajira ×2, Welkite/Wolkite same, Imdibir/Endibir same); 3 names in adjacent Silt'e Zone
 **Action**: MINOR FIX needed - remove duplicates
+
+
+### Verification Log - Africa Batch 3 (2026-03-19)
+
+#### Berber (i:37) - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - Minor issues (Thizert spelling, Fes vs Fez)
+**Action**: ACCEPTABLE
+
+#### Yoruba (i:2503) - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - BeninCity is Edo state, 2 Lagos neighborhoods
+**Action**: MINOR FIX
+
+#### Igbo (i:2504) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: PortHarcourt is Ijaw territory (not Igbo), 12 LGA names mixed with town names, 1 duplicate
+**Action**: PENDING FIX
+
+#### Hausa (i:2523) - NEEDS FIX
+**Rating**: NEEDS FIX - CRITICAL
+**Issue**: Kumasi (Ghana!), 3 Yoruba cities (Ibadan, Abeokuta, Lagos), 4 duplicates, 2 country names
+**Action**: PENDING FIX - URGENT
+
+#### Zulu (i:2540) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: Mpumalanga (wrong province), Mbabane (Eswatini capital), 2 province names
+**Action**: PENDING FIX
+
+#### Amharic - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - 1 duplicate (AddisAbaba/Addis Ababa)
+**Action**: MINOR FIX
+
+#### Somali - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - 1 duplicate (Gaalkacyo/Galkayo)
+**Action**: MINOR FIX
+
+#### Oromo - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - 1 duplicate (Nazret/Adama)
+**Action**: MINOR FIX
+
+#### Tigrinya - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - duplicates, country names included
+**Action**: MINOR FIX
+
+#### Wolof - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED - 1 duplicate (Rufisque)
+**Action**: MINOR FIX
+
+#### Mandinka - VERIFIED
+**Rating**: VERIFIED - 2 country names included
+**Action**: ACCEPTABLE

@@ -3923,7 +3923,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Enugu,Onitsha,Aba,Owerri,PortHarcourt,Umuahia,Nnewi,Awka,Abakaliki,Orlu,Okigwe,Asaba,Oguta,Ogidi,Nsukka,Ohafia,Mbaise,Ngwa,Ikot-Ekpene,Obosi,Okpoko,Onitsha North,Onitsha South,Idemili,Owerri Municipal,Owerri North,Owerri West,Ehime Mbano,Obowo,Ohuhu,Ngwa,Isiala Mbano,Isuikwuato,Umunneochi,Ukwa"
+    "b": "Enugu,Onitsha,Aba,Owerri,Umuahia,Nnewi,Awka,Abakaliki,Orlu,Okigwe,Asaba,Oguta,Ogidi,Nsukka,Ohafia,Mbaise,Ngwa,Ikot-Ekpene,Obosi,Nkpor,Ihiala,Uga,Ogidi,Agulu,Neni,Awka,Enugwu-Ukwu,Abagana,Ukpo,Nimo,Ifitedunu,Amawbia,Aguleri,Umueri,Achalla,Akpu,Udi,Achi,Oji River,Isuochi,Afikpo,Amasiri,Ezza,Ohaozara,Okposi,Uburu"
   },
   {
     "name": "Fula",
@@ -4094,7 +4094,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kano,Abuja,Kaduna,Zaria,Katsina,Sokoto,Gusau,Bauchi,Gombe,Jos,Dutse,Azare,Potiskum,Funtua,Daura,Kazaure,Birnin-Kebbi,Kontagora,Minna,Malumfashi,Wudil,Hadejia,Kumasi,Katsina,Kano,Gombe,Bauchi,Maiduguri,Abeokuta,Ibadan,Lagos,Nigeria,Niger"
+    "b": "Kano,Abuja,Kaduna,Zaria,Katsina,Sokoto,Gusau,Bauchi,Gombe,Jos,Dutse,Azare,Potiskum,Funtua,Daura,Kazaure,Birnin-Kebbi,Kontagora,Minna,Malumfashi,Wudil,Hadejia,Maiduguri,Nguru,Gombe,Geidam,Damaturu,Yola,Jalingo,Numan,Mubi,Jimeta,Gashua,Biu,Shani,Potiskum,Bade,Nasarawa,Lafia,Akwanga,Keffi,Abaji,Kwali,Bwari,Gwagwalada,Kuje,Suleja,Bida,Lapai,Agaie,Mokwa,Kontagora"
   },
   {
     "name": "Amharic",
@@ -4229,7 +4229,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Durban,Pietermaritzburg,Umlazi,KwaMashu,Empangeni,Richards-Bay,Newcastle,Stanger,Port-Shepstone,Ulundi,Eshowe,Greytown,Ladysmith,Howick,Hammarsdale,Tugela,Felixton,Umzimkhulu,Harding,Melmoth,Mpumalanga,KwaZulu-Natal,Zululand,Nongoma,Hluhluwe,Mkuze,Jozini,Mbabane,eThekwini"
+    "b": "Durban,Pietermaritzburg,Umlazi,KwaMashu,Empangeni,Richards Bay,Newcastle,Stanger,Port Shepstone,Ulundi,Eshowe,Greytown,Ladysmith,Howick,Hammarsdale,Tugela,Felixton,Umzimkhulu,Harding,Melmoth,Nongoma,Hluhluwe,Mkuze,Jozini,eThekwini,Dannhauser,Utrecht,Vryheid,Dundee,Glencoe,Estcourt,Bergville,Colenso,Winterton,Mooi River"
   },
   {
     "name": "Xhosa",
