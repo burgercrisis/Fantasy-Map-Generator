@@ -53,7 +53,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Karibib,Grootfontein,Tsumkwe,Otjiwarongo,Okahandja,Okakarara,Otavi,Tsintsabis,Opuwo,Khorixas,Kamanjab,Outjo,Usakos,Omaruru,Ruacana,Arandis,Ondangwa,Oshakati,Windhoek,Swakopmund,Walvis Bay,Henties Bay,Otjimbingwe,Klein Windhoek,Katutura"
+    "b": "Eenhana,Helao Nafidi,Okongo,Ongha,Ongenga,Omungwelume,Omundaungilo,Engela,Oshikango,Eehongo,Okahenge,Onane,Oupili,Onamwilwa,Tsumeb,Omuthiya,Oniipa,Tsintsabis,Okankolo,Omuntele,Tsumkwe,Grootfontein,Otavi,Okakarara,Rundu"
   },
   {
     "name": "ǂAmkoe",
@@ -62,7 +62,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Mogoditshane,Molepolole,Dutlwe,Thamaga,Letlhakeng,Lentsweletau,Kopong,Gabane,Ditshegwane,Kubung,Keng,Ngware,Metsimotlhaba,Kumakwane,Takatokwane,Shadishadi,Morwa,Mmopane,Mmadianare,Sesung,Gumare,Shakawe,Tshabong,Hukuntsi,Kang,Tsau,Ncojane,Kuke,Qabo,Khuis,Sehithwa,Seronga,Gweta,Nata,Orapa,Letlhakane,Mosesane,Makalamabedi,Mogoditshane,Dekar,Charles Hill"
+    "b": "Khekhenye,Tswaane,Dutlwe,Salajwe,Sorilatholo,Mokgenene,Poloka,Dibete,Lethajwe,Takatokwane,Letlhakeng,Khudumelapye,Maboane,Sojwe,Mmanoko,Mmankgodi,Kaudwane,Tsetseng,Lentsweletau,Monwane,Ngware,Mahetlwe,Malwelwe,Kotolaname,Boatlaname"
   },
   {
     "name": "Taa Click",
@@ -71,7 +71,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs,Mogoditshane,Molepolole,Gumare,Maun,Shakawe,Kasane,Otjiwarongo,Okahandja,Omaruru,Outjo,Khorixas,Kamanjab"
+    "b": "Ghanzi,Ncojane,Charles Hill,D'Kar,Kuke,Tsabong,Hukuntsi,Kang,Tshane,Lehututu,Lokgwabe,Ukwi,Hunhukwe,Zutswa,Monong,Inalegolo,Phuduhudu,Ncaang,Ngwatle,Gobabis,Witvlei,Aminuis,Leonardville,Mariental,Aranos"
   },
   {
     "name": "Nama Click",
@@ -89,7 +89,7 @@ window.africaNameBases = [
     "max": 9,
     "d": "lnrtkxgms",
     "m": 0,
-    "b": "Ghanzi,Dekar,Charles Hill,Ncojane,Bere,Chobokwane,East Hanahai,Groote,Laagte,Kacgae,Karakobis,Kule,Makunda,New Xade,New Xanagas,Qabo,Tsootsha,West Hanahai,Grootlagatle,Mogoditshane,Molepolole,Thamaga,Dutlwe,Kopong,Gabane,Mmopane,Kumakwane,Takatokwane,Ditshegwane,Letlhakeng,Kang,Tshane"
+    "b": "Ghanzi,D'Kar,Ncojane,Charles Hill,Kuke,New Xade,Kaudwane,Tsetseng,Motokwe,Gakgatla,Botlhapatlou,Hukuntsi,Kang,Tshane,Lehututu,Lokgwabe,Gobabis,Witvlei,Aminuis,Leonardville,Epukiro,Okorukambe,Otjinene,Otjombinde,Mabutsane"
   },
   {
     "name": "Gǃui",

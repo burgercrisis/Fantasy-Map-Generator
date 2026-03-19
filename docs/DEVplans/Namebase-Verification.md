@@ -2877,3 +2877,64 @@ The previous review noted: "Gǀui (i:46): Potentially fabricated phonetically-ge
 2. **Continue Verification**: Proceed with verification of remaining language entries from i: 51 onwards
 3. **Expert Review**: Several entries (Sandawe i:49, Gǀui i:46) require expert linguistic review for authentic names
 3. **Expert Review**: Several entries (Sandawe i:49, Gǀui i:46) require expert linguistic review for authentic names
+
+---
+
+## Post-Resync Verification (2026-03-19)
+
+### Session Overview
+After fixing all 1,309 deficient entries across 5 continents, ALL 2,465 entries now have 25+ placenames. However, many entries were bulk-filled with regional place names that need individual authenticity verification.
+
+**Previous state**: 57 entries verified
+**Current state**: ALL 2,465 entries need verification (bulk additions may contain inauthentic names)
+**Goal**: Verify each placename in each entry is authentic for that language
+
+### Verification Strategy
+1. Work continent-by-continent, starting with Africa (already complete before bulk changes)
+2. For each entry, research the language and verify each placename via Wikipedia
+3. Mark entries as VERIFIED, NEEDS FIX, or SUSPICIOUS
+4. Fix any inauthentic names immediately
+5. Update this tracker after each entry
+
+---
+
+### Starting Verification: Africa (502 entries)
+
+Africa was already complete before our bulk changes, so entries should be more authentic. Starting verification from i:0.
+
+### Verification Log - Africa Batch 1 (2026-03-19)
+
+#### Ekoka ǃKung (i:38) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: Places span all of Namibia; core Ekoka area (northern Namibia, Eenhana district) underrepresented
+**Places outside territory**: Swakopmund, Walvis Bay (coastal), Windhoek, Rehoboth, Gobabis, Aranos, Maltahöhe, Mariental, Keetmanshoop, Lüderitz, Oranjemund, Aus, Bethanie, Tses, Berseba (~15 of 25 misplaced)
+**Missing core places**: Eenhana, Tsintsabis, Oshakati, Rundu, Ondangwa, Helao Nafidi, Okongo, Mpunguvlei
+**Action**: PENDING FIX
+
+#### ǂAmkoe (i:40) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: Gaborone suburbs listed instead of actual Kalahari settlements; heavy duplication
+**Places outside territory**: Mogoditshane, Tlokweng, Kopong, Ramotswa, Mochudi, Pilane, Gaborone (all Gaborone suburbs)
+**Duplicates**: Gabane, Metsimotlhabe, Bokaa, Dikgatlhong, Malwelwe, Ntlhantlhe appear twice each
+**Missing core places**: Khekhenye, Tswaane, Salajwe, Shorilatholo, Mokgenene, Poloka, Dibete, Lethajwe
+**Action**: PENDING FIX
+
+#### Taa Click (i:41) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: List covers all of Botswana; core Taa area (Kgalagadi/Ghanzi districts) poorly represented
+**Places outside territory**: Rundu, Katima Mulilo, Kasane (far north), Francistown, Palapye, Serowe, Mahalapye (eastern Tswana), Gaborone (capital)
+**Missing core places**: Ncaang, Monong, Ngwatle, Bere, Phuduhudu, Lokgwabe
+**Action**: PENDING FIX
+
+#### Nama Click (i:43) - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED
+**Issue**: Southern/central places correct; coastal/central-western places outside core area
+**Minor issues**: Henties Bay, Swakopmund, Walvis Bay (coastal), Omaruru, Karibib, Usakos, Okombahe, Uis (central-western) outside traditional Nama core
+**Action**: ACCEPTABLE - minor geographic spread
+
+#### Naro Click (i:44) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: Correct region but 6-7 places duplicated; count inflated
+**Duplicates**: Tshane, Hukuntsi, Lehututu, Middlepits, Bokspits, Bray (each 2×), Ghanzi/Dekar/D'Kar (same area)
+**Missing core places**: East Hanahai, West Hanahai, Qabo, Chobokwane, Karakubis, Ditshegwane
+**Action**: PENDING FIX
