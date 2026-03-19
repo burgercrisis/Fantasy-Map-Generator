@@ -1502,7 +1502,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Johannesburg,CapeTown,Durban,Pretoria,PortElizabeth,Bloemfontein,EastLondon,Pietermaritzburg,Nelspruit,Kimberley,Polokwane,Welkom,South Africa,Gauteng,Western Cape,Eastern Cape,KwaZulu-Natal,Limpopo,Mpumalanga,Free State,North West,Northern Cape,Lesotho,Maseru,Mafeteng,Mohale's Hoek,Butha-Buthe,Leribe,Berea,Quthing,Qacha's Nek,Mokhotlong,Thaba-Tseka,Teyateyaneng,Nako,Berea,Mafeteng,Mohale,Roma,Moramora,Matsapa"
+    "b": "Maseru,Mafeteng,Mohale's Hoek,Butha-Buthe,Leribe,Berea,Quthing,Qacha's Nek,Mokhotlong,Thaba-Tseka,Teyateyaneng,Nako,Roma,Moramora,Matsapa,Mafeteng,Mazenod,Peka,Maputsoe,Hlotse,Mokhotlong,Quthing,Qacha's Nek,Thaba-Tseka,Teyateyaneng,Nako,Roma,Moramora,Matsapa,Mazenod,Peka,Maputsoe,Hlotse,Mafeteng,Mohale's Hoek"
   },
   {
     "name": "Swazi",
@@ -2303,7 +2303,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Chewa,Malawi,Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza,Lilongwe,Blantyre,Zomba,Mzuzu,Mchinji,Nsanje,Likuni,Balaka,Mchinji,Dedza,Mw,Nkhotakota,Ntchisi,Mzimba,Kasungu,Karonga,Mwanza,Machinga,Phalombe,Chitipa,Rumphi,Nkhata Bay,Chitipa,Karonga,Rumphi,Nkhotakota,Mzimba North,Mzimba South,Mchinji,Dedza,Salima,Lilongwe Rural,Lilongwe Urban,Blantyre Rural,Blantyre Urban,Zomba,Mzuzu,Mwansa"
+    "b": "Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza,Mchinji,Nsanje,Phalombe,Mangochi,Ntcheu,Ntchisi,Dowa,Lilongwe,Chiradzulu,Thyolo,Chikwawa,Neno,Mwanza,Nkhotakota,Ntchisi,Dowa,Kasungu,Mchinji,Dedza,Ntcheu,Mangochi,Blantyre,Zomba,Mulanje,Phalombe,Nsanje,Balaka,Machinga,Karonga"
   },
   {
     "name": "Chopi",
@@ -4202,7 +4202,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kinshasa,Mbandaka,Boende,Bikoro,Lukolela,Inongo,Kutu,Kikwit,Bandundu,Boma,Matadi,Muanda,Kenge,Kasongo-Lunda,Idiofa,Mushie,Bolobo,Ngombe,Madimba,Kasangulu,Lubumbashi,Kisangani,Goma,Bukavu,Beni,Butembo,Kalemie,Kindu,Uvira,Fizi,Baraka,Minembwe,Pangi, Shabunda"
+    "b": "Kinshasa,Mbandaka,Boende,Bikoro,Lukolela,Inongo,Kutu,Kikwit,Bandundu,Boma,Matadi,Muanda,Kenge,Kasongo-Lunda,Idiofa,Mushie,Bolobo,Ngombe,Madimba,Kasangulu,Lisala,Bumba,Aketi,Basankusu,Businga,Yakoma,Gemena,Libenge,Bumba,Aketi,Lisala,Businga,Basankusu,Yakoma,Gemena,Libenge,Bumba,Aketi"
   },
   {
     "name": "Kinyarwanda",
@@ -4238,7 +4238,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mthatha,East-London,Port-Elizabeth,King-William's-Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort-Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni,South Africa,Eastern Cape,Mthatha,East London,Port Elizabeth,King William's Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni,Eastern Cape,Western Cape,Northern Cape,Free State,Mthatha,East London,Port Elizabeth,King William's Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni,Mthatha Qumbu,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha,Mthatha"
+    "b": "Mthatha,East London,Port Elizabeth,King William's Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni,Willowvale,Cofimvaba,Sterkspruit,Nqamakwe,Tsomo,Ntabanku,Mqanduli,Clearwater,Idutywa,Kwilitshe,Mdantsane,Grahamstown,Cradock,Graaff-Reinet,Umtata,Mount Frere,Mount Ayliff,Tabankulu,Flagstaff,Ngqeleni,Peddie,Keiskammahoek,Stutterheim,Seymour,Hamburg"
   },
   {
     "name": "Sesotho",
@@ -4292,7 +4292,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Nyeri,Thika,Murang'a,Kiambu,Karatina,Nanyuki,Kerugoya,Sagana,Embu,Chuka,Runyenjes,Limuru,Githunguri,Ruiru,Lari,Wanguru,KaratinaTown,Nyahururu,Ol-Kalou,Githurai,Mwea,Kirinyaga,Isiolo,Marsabit,Meru,Narok,Kajiado,Machakos,Makindu,Kibwezi,Mitto,Moyale"
+    "b": "Nyeri,Thika,Murang'a,Kiambu,Karatina,Nanyuki,Kerugoya,Sagana,Embu,Chuka,Runyenjes,Limuru,Githunguri,Ruiru,Lari,Wanguru,Nyahururu,Githurai,Mwea,Kirinyaga,Mitumaini,Othaya,Karatina,Mukurweini,Tetu,Othaya,Kiganjo,Kangema,Mathioya,Kandara,Gatanga,Makuyu,Kangari,Kiriaini,Kagumo,Nairutia,Mweiga,Naromoru,Nanyuki,Timau,Meru"
   },
   {
     "name": "Tamil",

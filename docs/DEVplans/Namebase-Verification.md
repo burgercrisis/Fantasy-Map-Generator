@@ -3011,3 +3011,28 @@ Africa was already complete before our bulk changes, so entries should be more a
 #### Mandinka - VERIFIED
 **Rating**: VERIFIED - 2 country names included
 **Action**: ACCEPTABLE
+
+
+### Verification Log - Africa Batches 5-6 (2026-03-19)
+
+#### Afrikaans - VERIFIED
+#### Shona - MOSTLY VERIFIED (3x duplication)
+#### Xhosa - NEEDS FIX (Mthatha 18x duplication)
+#### Sotho - NEEDS FIX (concatenated names, non-Sotho cities)
+#### Tswana - VERIFIED (minor duplication)
+#### Kinyarwanda - MOSTLY VERIFIED (old/new names)
+#### Kirundi - MOSTLY VERIFIED (DG artifact)
+#### Lingala - NEEDS FIX (Swahili-zone cities)
+#### Kikuyu - NEEDS FIX (non-Kikuyu places: Isiolo, Marsabit, Meru, Narok)
+#### Akan/Twi - VERIFIED
+
+#### Ewe - NEEDS FIX (encoding corruption, duplicates, non-Ewe places)
+#### Fula - NEEDS FIX (non-Fula cities, overlap with Wolof)
+#### Bambara - MOSTLY VERIFIED (non-Mali places)
+#### Chewa - NEEDS FIX (language name in list, duplicates, district names)
+#### Tumbuka - MOSTLY VERIFIED (best quality entry)
+#### Sango - MOSTLY VERIFIED (encoding corruption)
+
+**Missing languages**: Mossi (Burkina Faso), Luo (Kenya/Uganda), Makhuwa (Mozambique)
+
+**Status**: 15 entries verified across 6 batches. ~2,450 remaining.
