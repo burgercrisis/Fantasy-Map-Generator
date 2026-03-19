@@ -2938,3 +2938,26 @@ Africa was already complete before our bulk changes, so entries should be more a
 **Duplicates**: Tshane, Hukuntsi, Lehututu, Middlepits, Bokspits, Bray (each 2×), Ghanzi/Dekar/D'Kar (same area)
 **Missing core places**: East Hanahai, West Hanahai, Qabo, Chobokwane, Karakubis, Ditshegwane
 **Action**: PENDING FIX
+
+
+#### Swahili (i:27) - NEEDS FIX
+**Rating**: NEEDS FIX
+**Issue**: All 204 placenames are Ugandan districts/towns, NOT Swahili-speaking coastal settlements
+**Problem**: Swahili is spoken along the East African coast (Kenya, Tanzania, Mozambique). Uganda's main languages are Luganda, Runyankole, Acholi, etc.
+**Authentic names**: 0/204 are authentic Swahili coast settlements
+**Action**: PENDING FIX - replace with Dar es Salaam, Mombasa, Zanzibar, Lamu, Malindi, Tanga, etc.
+
+#### Nigerian (i:20) - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED
+**Issue**: Names are authentic Nigerian settlements but label Nigerian is a nationality, not a language
+**Action**: ACCEPTABLE - names are real, label issue is metadata
+
+#### Arabic (i:17) - VERIFIED
+**Rating**: VERIFIED
+**Issue**: No significant issues
+**Action**: ACCEPTABLE
+
+#### Gurage (i:31) - MOSTLY VERIFIED
+**Rating**: MOSTLY VERIFIED
+**Issue**: 2-3 duplicates (Butajira ×2, Welkite/Wolkite same, Imdibir/Endibir same); 3 names in adjacent Silt'e Zone
+**Action**: MINOR FIX needed - remove duplicates
