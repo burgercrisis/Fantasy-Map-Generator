@@ -4301,7 +4301,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Tallinn,Tartu,Narva,Parnu,Kohtla-Jarve,Viljandi,Rakvere,Maardu,Kuressaare,Haapsalu,Paide,Valga,Valka,Voru,Polva,Tapa,Johvi,Sillamae,Elva,Keila,Saue,est215u1,est215u2,est215u3,est215u4,est215u5,est215u6"
+    "b": "Tallinn,Tartu,Narva,Parnu,Kohtla-Jarve,Viljandi,Rakvere,Maardu,Kuressaare,Haapsalu,Paide,Valga,Valka,Voru,Polva,Tapa,Johvi,Sillamae,Elva,Keila,Saue,Tallinn,Tartu,Narva,Pärnu"
   },
   {
     "name": "Ladino",

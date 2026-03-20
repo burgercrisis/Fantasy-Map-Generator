@@ -5464,15 +5464,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Pokhara,Chitwan,Narayangadh,Damak,Inaruwa,Kavre,Nuwakot,Dhading,Beijing,Shanghai"
   },
-  {
-    "name": "Tsotsitaal And Camtho Aka Iscamtho",
-    "i": 2340,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Johannesburg,Soweto,Alexandra,Sandton,Midrand,Pretoria,Carletonville,East Rand,West Rand,Vereeniging, Vanderbijlpark,Benoni,Springs,Kempton Park,Germiston,Alberton,Randburg,Roodepoort,Middelburg,Witbank,Lebowakgomo,Beijing,Shanghai,Guangzhou,Shenzhen"
-  },
+  
   {
     "name": "Kurambhag Paharia",
     "i": 2343,

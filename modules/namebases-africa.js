@@ -1873,15 +1873,7 @@ window.africaNameBases = [
     "m": 0,
     "b": "Bata,Equatorial Guinea,Kribi,Douala,Yaounde,Jong,Dibambari,Kogo,Akonolinga,Ntem,Bolondo,Malabo,Oyala,Bata,Limbaye,Mongomo,Ebibeyin,Micomeseng,Ange Raphael,Esobiti,Rebola,Niefang,Cogo,Miyobo,Mongomeyen,Cristobal Cobian,Ukovie,Nsok,Ayene,Nsang,Cura,Ada,Benito,Ebanga,Engong"
   },
-  {
-    "name": "Batu",
-    "i": 1141,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Batu,Ambon,Kairatu,Buru Island,Manip,Ternate,Halmahera,Morotai,Sanana,Sula Islands,Kai Islands,Seram,Ambon,Buru,Manado,Makassar,Jakarta,Surabaya,Bandung,Semarang,Yogyakarta,Denpasar,Mataram,Kupang,Jayapura,Sorong,Manokwari,Fakfak,Timika,Paniai,Wamena,Merauke,Bitung"
-  },
+  
   {
     "name": "Bayot",
     "i": 1145,

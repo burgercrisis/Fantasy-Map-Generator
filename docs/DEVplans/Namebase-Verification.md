@@ -3207,3 +3207,24 @@ Africa was already complete before our bulk changes, so entries should be more a
 - Bambara: BURKINA FASO CITIES still present (Bobo-Dioulasso, Ouagadougou)
 
 **Status**: ~100 entries verified across 17 batches. ~2,365 remaining.
+
+
+### Verification Log - Final Batch (2026-03-19)
+
+#### European French City Padding
+- **266/533 entries** (50%) have French cities appended as padding
+- Pattern: Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier,Rennes,...
+- Affects even non-French entries (Archi, Nenets, Sami, etc.)
+- This is a systematic bulk-edit error
+
+#### Placeholder Names Found
+- Scottish-Gaelic: FIXED (10 placeholders removed)
+- Estonian: 6 placeholders (est215u1-est215u6) - NEEDS FIX
+
+#### Cross-Contamination
+- Asia has 6 African language entries with Chinese city padding
+- Africa has 2 non-African entries (Batu=Indonesian, Bfy=Indian)
+- All 6 Asia entries have nic-GH (Niger-Congo) domain codes
+
+**Status**: ~105 entries verified across 18 batches. ~2,360 remaining.
+**Next**: Fix European French padding, Estonian placeholders, misfiled entries
