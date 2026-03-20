@@ -2411,7 +2411,7 @@ window.oceaniaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Hagatna,Dededo,Tamuning,Yigo,Mangilao,Barrigada,Yona,Agana Heights,Asan-Maina,Sinajana,Mongmong-Toto-Maite,Chalan Pago-Ordot,Talofofo,Hagat,Inalahan,Malesso,Humatak,Piti,Santa Rita-Sumai,Yigo,Tamuning,Hagatna,Mangilao,Barrigada"
+      "b": "Hagatna,Dededo,Tamuning,Yigo,Mangilao,Barrigada,Yona,Agana Heights,Asan-Maina,Sinajana,Mongmong-Toto-Maite,Chalan Pago-Ordot,Talofofo,Hagat,Inalahan,Malesso,Humatak,Piti,Santa Rita-Sumai,Yigo,Tamuning,Hagatna,Mangilao,Barrigada,Popondetta"
     },
     {
       "name": "Kiribati",
