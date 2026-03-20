@@ -656,7 +656,7 @@ window.northAmericaNameBases = [
       "max": 12,
       "d": "lnrt",
       "m": 0,
-      "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms,Red Mesa,Round Rock,Rock Point,Dennehotso,Montezuma Creek,Mexican Hat,Oljato,Monument Valley,Shonto,Kaibeto,Leupp,Tonalea,Cameron,Hotevilla,Bacavi,Oraibi,Kykotsmovi,Tsaile,Black Mesa"
+      "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms,Red Mesa,Round Rock,Rock Point,Dennehotso,Montezuma Creek,Mexican Hat,Oljato,Monument Valley,Shonto,Kaibeto,Leupp,Tonalea,Cameron,Tsaile,Black Mesa,Teec Nos Pos,Pinon,Forest Lake,Low Mountain"
     },
     {
       "name": "Yupik",
@@ -746,7 +746,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Fort Hall,Duck Valley,Wind River,Pocatello,Lemhi,Bear River,Snake River,Bonneville,Washakie,Soda Springs,Idaho Falls,Twin Falls,Shoshone,Boa Ogoi,Boise River,Salmon River,Lemhi Valley,Bannock,Ethete,Crowheart,Arapahoe,Riverton,Owyhee,Ross Fork,Duckwater,Seuhubeogoi"
+      "b": "Fort Hall,Duck Valley,Wind River,Pocatello,Lemhi,Bear River,Snake River,Bonneville,Washakie,Soda Springs,Idaho Falls,Twin Falls,Shoshone,Boa Ogoi,Boise River,Salmon River,Lemhi Valley,Bannock,Ethete,Crowheart,Riverton,Owyhee,Ross Fork,Duckwater,Seuhubeogoi,Fort Washakie"
     },
     {
       "name": "Ute",
@@ -764,7 +764,7 @@ window.northAmericaNameBases = [
       "max": 10,
       "d": "",
       "m": 0,
-      "b": "Las Vegas,Pahrump,Moapa,Cedar City,Kanosh,Koosharem,Shivwits,Indian Peaks,Kaibab,Willow Springs,Supai,Tuba City,Pyramid Lake,Walker Lake,Havasupai,Panguitch,Panaca,Gunlock,Beaver,Ivins,Uinkaret,Lovelock,Yerington,Bridgeport,Burns"
+      "b": "Las Vegas,Pahrump,Moapa,Cedar City,Kanosh,Koosharem,Shivwits,Indian Peaks,Kaibab,Willow Springs,Pyramid Lake,Walker Lake,Panguitch,Panaca,Gunlock,Beaver,Ivins,Uinkaret,Lovelock,Yerington,Bridgeport,Burns,McDermitt,Schurz,Fallon"
     },
     {
       "name": "Kickapoo",

@@ -3036,3 +3036,59 @@ Africa was already complete before our bulk changes, so entries should be more a
 **Missing languages**: Mossi (Burkina Faso), Luo (Kenya/Uganda), Makhuwa (Mozambique)
 
 **Status**: 15 entries verified across 6 batches. ~2,450 remaining.
+
+
+### Verification Log - Parallel Batches (2026-03-19)
+
+#### Africa Major Languages
+- Oromo: MOSTLY VERIFIED (3 wrong-region, 1 duplicate)
+- Amharic: MOSTLY VERIFIED (6 wrong-region, 1 duplicate)
+- Somali: VERIFIED
+- Tigrinya: NEEDS FIX (3x duplication, country/region names)
+- Wolof: MOSTLY VERIFIED (1 duplicate, encoding)
+- Fula: MOSTLY VERIFIED (10 wrong-region, encoding)
+- Ewe: MOSTLY VERIFIED (massive duplicates, encoding)
+- Akan: MOSTLY VERIFIED (3x duplicates, 2 wrong-region)
+- Bambara: MOSTLY VERIFIED (8 wrong-region Burkina Faso)
+- Sango: MOSTLY VERIFIED (2 country names)
+
+#### Europe Major Languages
+- German: B+ (encoding, mixed exonyms, French filler)
+- French: A (excellent)
+- Italian: A (excellent)
+- Spanish/Castillian: B+ (2 distant cities)
+- Russian: C+ (very sparse, French filler)
+- Polish: C (severe encoding, duplicates)
+- Dutch: C+ (English exonym, sparse)
+- Swedish: C (severe encoding, duplicates)
+- Finnish: C (severe encoding, duplicates)
+- Greek: A- (one typo)
+- **ISSUE**: Many European entries have French cities appended as filler
+
+#### Asia Major Languages
+- Japanese: A+ (excellent)
+- Chinese: A (Taiwan listed as city)
+- Vietnamese: A+ (excellent)
+- Tagalog: A+ (excellent)
+- Malay: A+ (excellent)
+- Bengali: A+ (excellent)
+- Hindi: B+ (5 non-Hindi-belt filler cities)
+- Urdu: A (4 non-Pakistani filler cities)
+- Korean: MISSING from file
+- Thai: MISSING from file
+
+#### North America
+- Hopi (i:81): 8/10 (2 unverified, 1 English colonial name)
+- Zuni (i:82): 6/10 (5 English translations, 3 unverified)
+- Shoshone (i:83): 8/10 (1 wrong tribe Arapahoe)
+- Paiute (i:85): 6/10 (Havasupai is Yuman wrong tribe, duplicate)
+- Cherokee: 10/10 (perfect)
+- Navajo (i:2712): 5/10 - CRITICAL: 4 Hopi villages mixed in
+- Cree (i:2701): 9/10
+- Cree (i:93): 2/10 - mostly generic terms
+- Inuktitut (i:2714): 10/10
+- Inuktitut (i:95): 4/10 - mixed with non-Inuit cities
+- Yucatec Maya: 10/10
+- K'iche': 7/10 (3 neighboring groups)
+
+**Critical fixes needed**: Navajo (4 Hopi villages), Paiute (Havasupai), Tigrinya (duplicates), Cree i:93 (generic terms), Inuktitut i:95 (mixed)
