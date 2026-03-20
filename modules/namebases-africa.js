@@ -3932,7 +3932,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kaedi,Boghe,Selibaby,Matam,Podor,Thiadiaye,Tamba,Labé,Pita,Mamou,Lélouma,Tougué,Koundara,Gaoual,Koulikoro,Kayes,Segou,Diema,Nioro,Bakel,Dakar,Guédiawaye,Pikine,Rufisque,Mbour,Thiès,Louga,Saint-Louis,Ziguinchor,Kédougou,Tambacounda,Kolda,Sédhiou"
+    "b": "Kaedi,Boghe,Seleliby,Matam,Podor,Labé,Pita,Mamou,Tougué,Koundara,Gaoual,Tambacounda,Kolda,Sédhiou,Bignona,Ziguinchor,Fatick,Kaffrine,Kéniéba,Bafoulabé,Diena,Djenné,Niafunké,Douentza,Bandiagara,Mopti"
   },
   {
     "name": "Wolof",
@@ -3959,7 +3959,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Bamako,Ségou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,Djenné,Bankass,Bandiagara,Ténenkou,Niono,Bobo-Dioulasso,Ouahigouya,Ouagadougou,Koudougou,Banfora,Gaoua,Diapaga,Fada N'gourma"
+    "b": "Bamako,Ségou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,Djenné,Bankass,Bandiagara,Ténenkou,Niono,Markala,San,Sikasso,Bougouni,Ségou"
   },
   {
     "name": "Mandinka",

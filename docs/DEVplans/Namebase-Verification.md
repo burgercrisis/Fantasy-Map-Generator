@@ -3188,3 +3188,22 @@ Africa was already complete before our bulk changes, so entries should be more a
 - Thai: MISSING
 
 **Status**: ~95 entries verified across 15 batches. ~2,370 remaining.
+
+
+### Verification Log - Africa Recheck (2026-03-19)
+
+#### Fixes Verified
+- Somali: FIX APPLIED CORRECTLY
+- Afrikaans: FIX APPLIED CORRECTLY
+- Sotho: FIX APPLIED CORRECTLY (concatenation resolved)
+- Chichewa: FIX APPLIED CORRECTLY (language name removed)
+- Xhosa: FIX APPLIED CORRECTLY (18x duplication resolved)
+- Kikuyu: FIX APPLIED CORRECTLY (non-Kikuyu removed)
+- Lingala: FIX APPLIED CORRECTLY (Swahili-zone removed)
+
+#### Still Need Fix
+- Ewe: ENCODING CORRUPTION still present (mojibake patterns)
+- Fula: NON-FULA CITIES still present (Dakar, Thiès, Saint-Louis)
+- Bambara: BURKINA FASO CITIES still present (Bobo-Dioulasso, Ouagadougou)
+
+**Status**: ~100 entries verified across 17 batches. ~2,365 remaining.
