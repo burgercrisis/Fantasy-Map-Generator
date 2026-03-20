@@ -3121,3 +3121,35 @@ Africa was already complete before our bulk changes, so entries should be more a
 - Motu: FAIL (13 Asmat villages not Motu)
 
 **Status**: ~55 entries verified across 10 batches. ~2,410 remaining.
+
+
+### Verification Log - EU + Africa Recheck (2026-03-19)
+
+#### Europe Dialects
+- Sami entries (10): POOR - French city padding in 10/11 entries
+- Kildin Sami: GOOD (26 authentic)
+- Catalan (8): FAIR - non-Catalan Spanish padding (Madrid, Seville, etc.)
+- Basque: EXCELLENT (200 authentic)
+- Irish: GOOD
+- Scottish Gaelic (56): GOOD
+- Scottish-Gaelic (25): CRITICAL - 10 placeholder strings (gla184u1-10)
+- Welsh: FAIR - 13 English Gloucestershire placenames
+- Romanian entries: GOOD
+- Czech: POOR - 10 duplicates
+- Slovak: FAIR - 10 Czech cities as padding
+- Bulgarian: GOOD
+
+#### Africa Recheck
+- Luganda: B (1 duplicate, BuikweTown merged)
+- Kinyarwanda: B- (Burundi cities included)
+- Shona: D (79 names but only 34 unique - massive duplication)
+- Swahili: A- (266 names, 1 duplicate - excellent)
+- Malagasy: MISSING entirely
+- Tigrinya: D (83 names but only 45 unique - massive duplication)
+- Yoruba: B- (BeninCity wrong, Lagos neighborhoods)
+- Hausa: B (3 duplicates, Kumasi removed correctly)
+- Iggo: B (2 duplicates, PortHarcourt removed correctly)
+- Zulu: A (clean, no issues)
+
+**Status**: ~75 entries verified across 12 batches. ~2,390 remaining.
+**Critical fixes needed**: Scottish-Gaelic placeholders, Czech duplicates, Shona/Tigrinya massive duplication

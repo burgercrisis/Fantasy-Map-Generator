@@ -4112,7 +4112,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Asmara,Massawa,Keren,Barentu,Mendefera,Adi-Keyh,Adi-Ugri,Tsorona,Dekemhare,Segeneiti,Afabet,Senafe,Teseney,Shambuko,Himbirti,Adi-Halo,Adi-Golgol,Adi-Girat,Akrur,Adi-Abeto,Eritrea,Tigray,Ethiopia,Asmara,Massawa,Keren,Barentu,Mendefera,Adi Keyh,Adi Ugri,Tsorona,Dekemhare,Segeneiti,Afabet,Senafe,Teseney,Shambuko,Himbirti,Adi Halo,Adi Golgol,Adi Girat,Akrur,Adi Abeto,Eritrea,East Africa,Red Sea,Horn of Africa,Asmara,Massawa,Keren,Barentu,Mendefera,Adi Keyh,Adi Ugri,Tsorona,Dekemhare,Segeneiti,Afabet,Senafe,Teseney,Shambuko,Himbirti,Adi Halo,Adi Golgol,Adi Girat,Akrur,Adi Abeto,Eritrea,Tigray,Ethiopia,Adi Quala,Areza,Mai Dma,Segeneity,Adi Caieh,Sheeb,Kulul,Maychefit,Golod,Fah,Daer,Karora,Sebeta"
+    "b": "Asmara,Massawa,Keren,Barentu,Mendefera,Adi-Keyh,Adi-Ugri,Tsorona,Dekemhare,Segeneiti,Afabet,Senafe,Teseney,Shambuko,Himbirti,Adi-Halo,Adi-Golgol,Adi-Girat,Akrur,Adi-Abeto,Adi Keyh,Adi Ugri,Adi Halo,Adi Golgol,Adi Girat"
   },
   {
     "name": "Tigre",
@@ -4220,7 +4220,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff,Zimbabwe,Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff,Zimbabwe,Harare Province,Bulawayo Province,Manicaland,Mashonaland Central,Mashonaland East,Mashonaland West,Masvingo,Matabeleland North,Matabeleland South,Midlands,Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff,Chegutu,Chinhoyi,Marondera,Mutoko,Murehwa,Seke,Zvimba"
+    "b": "Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff,Mashonaland Central,Mashonaland East,Mashonaland West,Chegutu,Mutoko,Seke,Zvimba"
   },
   {
     "name": "Zulu",

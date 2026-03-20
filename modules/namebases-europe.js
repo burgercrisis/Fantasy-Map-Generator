@@ -4625,7 +4625,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Prague,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,České Budějovice,Pardubice,Zlín,Jihlava,Třebíč,Karlovy Vary,Most,Prague,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,Pardubice,Zlín"
+    "b": "Prague,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,Pardubice,Zlín,České Budějovice,Karlovy Vary,Jihlava,Kladno,Most,Opava,Frýdek-Místek,Chomutov,Děčín,Teplice,Tábor,Příbram,Cheb,Karlovy Vary,Mladá Boleslav"
   },
   {
     "name": "Slovak",
