@@ -6781,4 +6781,68 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Xián,Nanjing,Tianjin,Suzhou,Zhengzhou,Changsha,Jinan"
   }
+,
+  {
+    "name": "Korean",
+    "i": 33327,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan,Jeonju,Anyang,Pohang,Uijeongbu,Gimhae,Pyeongtaek,Paju,Gimpo,Chuncheon,Jeju City"
+  },
+  {
+    "name": "Thai",
+    "i": 34834,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Bangkok,Chiang Mai,Nakhon Ratchasima,Khon Kaen,Hat Yai,Udon Thani,Nakhon Si Thammarat,Surat Thani,Phuket,Pattaya,Nonthaburi,Pak Kret,Ubon Ratchathani,Nakhon Sawan,Phitsanulok,Chiang Rai,Lampang,Songkhla,Nakhon Pathom,Rayong,Lop Buri,Saraburi,Phra Nakhon Si Ayutthaya,Samut Prakan,Pathum Thani"
+  },
+  {
+    "name": "Marathi",
+    "i": 24621,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Mumbai,Pune,Nagpur,Nashik,Aurangabad,Solapur,Kolhapur,Amravati,Nanded,Sangli,Jalgaon,Akola,Latur,Ahmednagar,Chandrapur,Dhule,Ichalkaranji,Parbhani,Jalna,Bhusawal,Panvel,Thane,Ulhasnagar,Kalyan,Mira-Bhayandar"
+  },
+  {
+    "name": "Malayalam",
+    "i": 23341,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Thiruvananthapuram,Kochi,Kozhikode,Thrissur,Kollam,Palakkad,Alappuzha,Kannur,Kottayam,Malappuram,Pathanamthitta,Idukki,Wayanad,Kasaragod,Ernakulam,Muvattupuzha,Thodupuzha,Kothamangalam,Angamaly,Perumbavoor,Aluva,Tripunithura,Fort Kochi,Cherthala,Kayamkulam"
+  },
+  {
+    "name": "Nepali",
+    "i": 60031,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Biratnagar,Birgunj,Dharan,Butwal,Hetauda,Nepalgunj,Janakpur,Dhangadhi,Itahari,Tulsipur,Ghorahi,Jeetpur,Kalaiya,Siddharthanagar,Lahan,Rajbiraj,Gaur,Malangwa,Siraha,Damak,Bhadrapur"
+  },
+  {
+    "name": "Telugu",
+    "i": 84702,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Kurnool,Tirupati,Rajahmundry,Kakinada,Kadapa,Anantapur,Eluru,Ongole,Chittoor,Srikakulam,Vizianagaram,Nandyal,Proddatur,Adoni,Tenali,Bhimavaram,Chilakaluripet,Narasaraopet,Tadepalligudem,Suryapet"
+  },
+  {
+    "name": "Tamil",
+    "i": 55997,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Chennai,Coimbatore,Madurai,Tiruchirappalli,Salem,Tirunelveli,Tiruppur,Erode,Vellore,Thoothukudi,Dindigul,Thanjavur,Sivakasi,Karur,Cuddalore,Kumbakonam,Nagercoil,Kanchipuram,Krishnagiri,Namakkal,Dharmapuri,Pudukkottai,Sivaganga,Ramanathapuram,Virudhunagar"
+  }
 ];

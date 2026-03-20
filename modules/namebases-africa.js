@@ -4511,4 +4511,41 @@ window.africaNameBases = [
     "m": 0,
     "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Sandawe,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela,Dodoma,Singida,Mbulu,Iramba,Masawa,Shinyanga,Mwanza,Arusha,Moshi,Tarangire,Ngorongoro,Serengeti,Karatu,Oldeani,Buger,Daa,Endabash,Endamaghang,Endamarariek,Ganako,Kansay,Mbulumbulu,Qurus,Rhotia,Eyasi Cliff,Kidero Mountains,Oldeani Mountain,Sibiti River,Baray River,Makang'wa"
   }
+,
+  {
+    "name": "Malagasy",
+    "i": 64582,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Antananarivo,Toamasina,Antsirabe,Fianarantsoa,Mahajanga,Toliara,Antsiranana,Morondava,Ambanja,Mananjary,Farafangana,Manakara,Moramanga,Ambatondrazaka,Fenoarivo,Marovoay,Ambositra,Ihosy,Tsiroanomandidy,Miandrivazo,Maintirano,Antalaha,Sambava,Vohemar,Taolagnaro"
+  },
+  {
+    "name": "Mossi",
+    "i": 97803,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Pouytenga,Kaya,Tenkodogo,Manga,Ziniaré,Réo,Dédougou,Gaoua,Tougan,Fada Ngourma,Djibo,Kombissiri,Kokologo,Sapouy,Gourcy,Titao,Yako,Boussé,Boulsa,Léo"
+  },
+  {
+    "name": "Luo",
+    "i": 72004,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Kisumu,Homa Bay,Migori,Siaya,Bondo,Kendu Bay,Ahero,Awendo,Rongo,Oyugis,Sindo,Mbita,Karachuonyo,Ndhiwa,Nyatike,Suna Magongo,Kuria,Ukwala,Gem,Ugenya,Asembo,Sakwa,Usenge,Luanda,Maseno"
+  },
+  {
+    "name": "Makhuwa",
+    "i": 39172,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Nampula,Angoche,Ilha de Moçambique,Monapo,Malema,Ribáuè,Meconta,Murrupula,Mogovolas,Lalaua,Larde,Liúpo,Mecubúri,Muecate,Nacarôa,Rapale,Eráti,Memba,Mogincual,Mossuril,Nacala-a-Velha,Nacala Porto,Quelimane,Gurúè,Milange"
+  }
 ];
