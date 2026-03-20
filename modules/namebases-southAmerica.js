@@ -688,7 +688,7 @@ window.southAmericaNameBases = [
       "max": 11,
       "d": "nic-GH",
       "m": 0,
-      "b": "Uribia,Maicao,Manaure,Riohacha,Maracaibo,El Molino,Puerto López,Barrancas,La Paz,San Juan del César,Villanueva,Fonseca,Distracción,Hatonuevo,Barrancas,Albania,La Jagua del Pilar,Urumita,El Cardón,Cuestecita,Paraguaipoa,Tomarrazón,Caspana,Camarones,Manaure"
+      "b": "Uribia,Maicao,Manaure,Riohacha,El Molino,Maracaibo,La Paz,San Juan del César,Villanueva,Fonseca,Distracción,Hatonuevo,Albania,La Jagua del Pilar,Urumita,Paraguaipoa,Barrancas,El Cardón,Cuestecita,Tomarrazón,Camarones,Manaure,Barrancas,La Paz,San Juan"
     },
     {
       "name": "Cogui/Kogi",

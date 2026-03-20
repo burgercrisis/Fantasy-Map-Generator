@@ -3092,3 +3092,32 @@ Africa was already complete before our bulk changes, so entries should be more a
 - K'iche': 7/10 (3 neighboring groups)
 
 **Critical fixes needed**: Navajo (4 Hopi villages), Paiute (Havasupai), Tigrinya (duplicates), Cree i:93 (generic terms), Inuktitut i:95 (mixed)
+
+
+### Verification Log - SA + Oceania Parallel (2026-03-19)
+
+#### South America
+- Venezuelan Spanish: A (perfect)
+- Colombian Spanish: A (perfect)
+- Brazilian Portuguese: B+ (2 duplicates)
+- Shipibo-Conibo: C+ (6 outside Ucayali)
+- Yanomami: C (ethnic group name, unverifiable)
+- Quechua: B- (~25 vocabulary words not placenames)
+- Aymara: B- (Lima, Sucre, Tarija NOT Aymara)
+- Guarani: C+ (~30 vocabulary words)
+- Mapudungun: A- (excellent)
+- Wayuu: B (Caspana is Chilean!, Puerto López wrong region)
+
+#### Oceania
+- Hawaiian: PASS
+- Maori: PASS
+- Samoan: PASS
+- Fijian: PASS
+- Tahitian: FAIL (PK markers, duplicates, regions)
+- Tongan: PASS
+- Marshallese: PASS
+- Palauan: PASS
+- Chamorro: FAIL (Popondetta PNG, duplicates)
+- Motu: FAIL (13 Asmat villages not Motu)
+
+**Status**: ~55 entries verified across 10 batches. ~2,410 remaining.
