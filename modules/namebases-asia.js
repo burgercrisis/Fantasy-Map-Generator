@@ -4787,7 +4787,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Bengaluru,Mysore,Hubballi,Mangaluru,Belagavi,Kalaburagi,Shivamogga,Davanagere,Ballari,Vijayapura,Delhi,Mumbai,Bangalore,Hyderabad,Ahmedabad,Chennai,Kolkata,Surat,Jaipur,Lucknow,Kanpur,Nagpur,Indore,Thane,Bhopal"
+    "b": "Bengaluru,Mysuru,Hubballi,Dharwad,Mangaluru,Belagavi,Kalaburagi,Shivamogga,Davanagere,Ballari,Vijayapura,Tumakuru,Raichur,Hassan,Mandya,Chitradurga,Udupi,Shimoga,Hospet,Chikkamagaluru,Chamarajanagar,Madikeri,Kolar,Haveri,Gadag"
   },
   {
     "name": "Kapampangan",
@@ -5525,7 +5525,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Vientiane,Luang Prabang,Pakse,Savannakhet,Thakhek,Xam Neua,Phonsavan,Muang Xay,Sayaboury,Paksan,Bangkok,Chiang Mai,Nakhon Ratchasima,Khon Kaen,Hat Yai,Udon Thani,Nakhon Si Thammarat,Surat Thani,Phuket,Pattaya,Nonthaburi,Pak Kret,Rangsit,Nakhon Pathom,Ubon Ratchathani"
+    "b": "Vientiane,Luang Prabang,Pakse,Savannakhet,Thakhek,Xam Neua,Phonsavan,Muang Xay,Sayaboury,Paksan,Luang Namtha,Houayxay,Salavan,Attapeu,Sekong,Saravan,Pakbeng,Nong Khiaw,Vieng Xay,Xieng Khouang,Tha Khek,Pak Lay,Ban Nahin,Phonesavanh,Ta Oy"
   },
   {
     "name": "Kva",
@@ -6227,7 +6227,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Delhi,Jaipur,Agra,Kanpur,Lucknow,Varanasi,Allahabad,Gorakhpur,Gwalior,Bhopal,Indore,Rewa,Jhansi,Aligarh,Meerut,Patna,Ranchi,Jabalpur,Satna,Muzaffarpur,Delhi,Mumbai,Bangalore,Hyderabad,Ahmedabad"
+    "b": "Delhi,Jaipur,Agra,Kanpur,Lucknow,Varanasi,Allahabad,Gorakhpur,Gwalior,Bhopal,Indore,Rewa,Jhansi,Aligarh,Meerut,Patna,Ranchi,Jabalpur,Satna,Muzaffarpur,Bareilly,Moradabad,Saharanpur,Mathura,Rampur"
   },
   {
     "name": "Tagalog",
@@ -6281,7 +6281,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Karachi,Hyderabad,Sukkur,Larkana,Islamabad,Rawalpindi,Peshawar,Quetta,Faisalabad,Lahore,Multan,Gujranwala,Sahiwal,Sargodha,Bahawalpur,Dera Ghazi Khan,Jhang,Okara,Mirpur,Kotli,Muzaffarabad,Delhi,Mumbai,Bangalore,Hyderabad"
+    "b": "Karachi,Lahore,Islamabad,Rawalpindi,Peshawar,Quetta,Faisalabad,Multan,Gujranwala,Sahiwal,Sargodha,Bahawalpur,Dera Ghazi Khan,Jhang,Okara,Mirpur,Kotli,Muzaffarabad,Sialkot,Sheikhupura,Kasur,Gujrat,Hafizabad,Narowal,Mandi Bahauddin"
   },
   {
     "name": "Gujarati",
@@ -6299,7 +6299,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Colombo,Kandy,Galle,Matara,Negombo,Anuradhapura,Polonnaruwa,Kurunegala,Ratnapura,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Ampara,Kalutara,Gampaha,Hambantota,Chilaw,Panadura,Beruwala,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu"
+    "b": "Colombo,Kandy,Galle,Matara,Negombo,Anuradhapura,Polonnaruwa,Kurunegala,Ratnapura,Badulla,Nuwara Eliya,Trincomalee,Batticaloa,Ampara,Kalutara,Gampaha,Hambantota,Chilaw,Panadura,Beruwala,Dehiwala-Mount Lavinia,Moratuwa,Ja-Ela,Wattala,Kegalle"
   },
   {
     "name": "Kurdish",
@@ -6452,7 +6452,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Cebu City,Mandaue,Lapu-Lapu,Talisay,Toledo,Danao,Carcar,Naga,Bogo,Tuburan,Argao,Oslob,Bantayan,Consolacion,Liloan,San Fernando,Minglanilla,Dumanjug,Barili,Balamban,Manila,Quezon City,Davao City,Cebu City,Zamboanga City"
+    "b": "Cebu City,Mandaue,Lapu-Lapu,Talisay,Toledo,Danao,Carcar,Naga,Bogo,Tuburan,Argao,Oslob,Bantayan,Consolacion,Liloan,San Fernando,Minglanilla,Dumanjug,Barili,Balamban,Samboan,Moalboal,Alegria,Malabuyoc,Ginatilan"
   },
   {
     "name": "Zhuang",
@@ -6632,7 +6632,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Jakarta,Bandung,Semarang,Yogyakarta,Surabaya,Malang,Salatiga,Cirebon,Pekalongan,Tegal,Purwokerto,Clungup,Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Depok,Tangerang,South Tangerang,Bekasi,Bogor,Malang,Yogyakarta"
+    "b": "Semarang,Yogyakarta,Surabaya,Malang,Salatiga,Cirebon,Pekalongan,Tegal,Purwokerto,Magelang,Kediri,Blitar,Madiun,Pacitan,Bojonegoro,Jember,Banyuwangi,Situbondo,Probolinggo,Pasuruan,Lumajang,Tuban,Lamongan,Gresik,Sidoarjo"
   },
   {
     "name": "Ao Naga",

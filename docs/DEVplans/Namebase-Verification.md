@@ -3153,3 +3153,38 @@ Africa was already complete before our bulk changes, so entries should be more a
 
 **Status**: ~75 entries verified across 12 batches. ~2,390 remaining.
 **Critical fixes needed**: Scottish-Gaelic placeholders, Czech duplicates, Shona/Tigrinya massive duplication
+
+
+### Verification Log - Asia Parallel (2026-03-19)
+
+#### South/SE Asia
+- Lao: NEEDS FIX (15/25 are Thai cities - Bangkok, Chiang Mai, etc.)
+- Burmese: VERIFIED (43 names, excellent)
+- Khmer: MOSTLY VERIFIED (duplicates, hyphenation)
+- Tagalog: MOSTLY VERIFIED (missing ñ)
+- Cebuano: NEEDS FIX (5 non-Cebuano: Manila, QC, Davao, Zamboanga)
+- Ilocano: VERIFIED
+- Malay: VERIFIED
+- Indonesian: VERIFIED
+- Javanese: NEEDS FIX (6 non-Javanese, 6 duplicates)
+- Thai: MISSING entirely
+
+#### South Asia
+- Bengali: VERIFIED (9/10)
+- Punjabi: NEEDS FIX (2 non-Punjabi cities: Delhi, Mumbai)
+- Gujarati: NEEDS FIX (2 non-Gujarati cities: Delhi, Mumbai)
+- Hindi: NEEDS FIX (4 non-Hindi cities: Mumbai, Bangalore, Hyderabad, Ahmedabad)
+- Urdu: NEEDS FIX (4 non-Pakistani cities: Delhi, Mumbai, Bangalore, Hyderabad)
+- Kannada: NEEDS FIX (15/25 wrong cities)
+- Sinhala: NEEDS FIX (5 Chinese cities - CRITICAL cross-contamination)
+- Tamil: WRONG FILE (in namebases-africa.js, not asia.js)
+- Telugu: MISSING
+- Marathi: MISSING
+- Malayalam: MISSING
+- Nepali: MISSING
+
+#### East Asia
+- Korean: MISSING (only historical dialects exist)
+- Thai: MISSING
+
+**Status**: ~95 entries verified across 15 batches. ~2,370 remaining.
