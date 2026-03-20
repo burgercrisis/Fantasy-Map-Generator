@@ -4150,15 +4150,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Damak,Inaruwa,Narayangadh,Kavre,Nuwakot,Rasua,Dhading,Makwanpur,Beijing,Shanghai"
   },
-  {
-    "name": "Ghera",
-    "i": 1894,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Tripoli,Libya,Sabha,Ghadames,Awjila,Derj,Djarabub,Marj,Derna,Benghazi,Tobruk,Misrata,Zliten,Al Khums,Sirte,Niger,Mali,Chad,Agadez,Zinder,Niamey,Mopti,Gao,Timbuktu,Koulikoro,Segou,Kayes,Kita,Bougouni,Nioro,Bamako,Kidal,Tessalit,Menaka,Gaoch,Libya,Sahara,Desert,Fezzan,Kufra,Djado,Rebiana,Murzuq,Wadi al Hayaa,Al Wattiyah,Wadi Shati"
-  },
+  ,
   {
     "name": "Huizhou Chinese",
     "i": 1899,
@@ -5492,15 +5484,7 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Medina,Mecca,Jeddah,Riyadh,Taif,Yanbu,Khobar,Dammam,Qatif,Hofuf,Mubarraz,Hafr Al-Batin,Tabuk,Najran,Jizan,Abha,Khamis Mushait,Asir,Hejaz,Najd,Qunfudhah,Al Bahah,Al Qunfudhah,Umm Lajj,Al Wajh"
   },
-  {
-    "name": "Aqc",
-    "i": 2358,
-    "min": 4,
-    "max": 11,
-    "d": "nic-GH",
-    "m": 0,
-    "b": "Cairo,Alexandria,Giza,Port Said,Suez,Zagazig,Luxor,Aswan,Mansoura,Tanta,Faiyum,Zagazig,Ismailia,Damietta,Damanhour,Minya,Beni Suef,Sohag,Qena,New Cairo,Sharm El Sheikh,Hurghada,Marsa Matruh,Siwa,Tobruk,Benghazi,Derne,Tripoli,Libya"
-  },
+  ,
   {
     "name": "Afro Seminole Creole",
     "i": 2362,

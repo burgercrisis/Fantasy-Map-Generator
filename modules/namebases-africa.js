@@ -962,7 +962,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai,Todzi,Odomi,Mempeasem,Sokpoo,Adoko,Kumasi,Ashiambi,Hunyasem,Kawu,Avatime,Amedofe,Ghana,Volta Region,Hohoe Municipal,Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai,Todzi,Odomi,Mempeasem,Sokpoo,Adoko,Kumasi,Ashiambi,Hunyasem,Kawu,Avatime,Amedofe,Ketu South,Ketu North,HO Municipal, Hohoe, Kpalimé,Togo,Plateaux,Région des Plateaux,Kpalimé,Atakpamé,Tabligh,Badou,Tchamba,Notsé,Sokodé,Bassar,Kara,Kévé,Blitta,Tchèchedie,Amlamé,Akebou,Kpalimé,Adeta,Badou,Gbandi,Kamboli,Kévé,Amlamé,Djékpodé,Akmapé,Klamid"
+    "b": "Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai,Todzi,Odomi,Mempeasem,Sokpoo,Adoko,Kumasi,Ashiambi,Hunyasem,Kawu,Avatime,Amedofe,Ghana,Volta Region,Hohoe Municipal,Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai,Todzi,Odomi,Mempeasem,Sokpoo,Adoko,Kumasi,Ashiambi,Hunyasem,Kawu,Avatime,Amedofe,Ketu South,Ketu North,HO Municipal, Hohoe, Kpalimé,Togo,Plateaux,Région des Plateaux,Kpalimé,Atakpamé,Tabligh,Badou,Tchamba,Notsé,Sokodé,Bassar,Kara,Kévé,Blitta,Tchèchedie,Amlamé,Akebou,Kpalimé,Adeta,Badou,Gbandi,Kamboli,Kévé,Amlamé,Djékpodé,Akmapé,Klamidjé"
   },
   {
     "name": "Southeast Ijo",
@@ -3978,7 +3978,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ho,Kpalime,Hohoe,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,AbutiaKloe,Anyirawase,Agotime,Shia,Wli,Togo,Ghana,Volta Region,Togo,Plateaux,Région Maritime,Ho,Hohoe,Kpalime,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,Abutia Kloe,Anyirawase,Agotime,Shia,Wli,Togo,Lomé,Sokodé,Kara,Kpalimé,Atakpamé,Badou,Tchamba,Notsé,Bassar,Blitta,Tchèchedie,Amlamé,Akebou,Kpalimé,Adeta,Badou,Gbandi,Kamboli,Kévé,Amlamé,Djékpodé,Akmapé,Klamid,Bafilo,Bakpa,Bélaso,Bérégougo,Bétérou,Bougoun,Dékpo,Djèton,Djigblé,Dossa,Gbadan,Gblizigan,Gbossankpé,Kélé, Kloto,Kpalimé,Kpondjo,Notsé,Pya,Sérèma,Sokodé,Tchamba,Tchèchedie,Togo,Lomé,Sokodé,Kara,Kpalimé,Atakpamé"
+    "b": "Ho,Kpalime,Hohoe,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,Abutia Kloe,Anyirawase,Agotime,Shia,Wli,Togo,Ghana,Volta Region,Togo,Plateaux,Région Maritime,Ho,Hohoe,Kpalime,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,Abutia Kloe,Anyirawase,Agotime,Shia,Wli,Togo,Lomé,Sokodé,Kara,Kpalimé,Atakpamé,Badou,Tchamba,Notsé,Bassar,Blitta,Tchèchedie,Amlamé,Akebou,Kpalimé,Adeta,Badou,Gbandi,Kamboli,Kévé,Amlamé,Djékpodé,Akmapé,Klamidjé,Bafilo,Bakpa,Bélaso,Bérégougo,Bétérou,Bougoun,Dékpo,Djèton,Djigblé,Dossa,Gbadan,Gblizigan,Gbossankpé,Kélé, Kloto,Kpalimé,Kpondjo,Notsé,Pya,Sérèma,Sokodé,Tchamba,Tchèchedie,Togo,Lomé,Sokodé,Kara,Kpalimé,Atakpamé"
   },
   {
     "name": "Ga",
