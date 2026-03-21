@@ -4238,7 +4238,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Alba Iulia,Arad,Bacau,Baia Mare,Bistrita,Botosani,Braila,Brasov,Bucuresti,Buzau,Calafat,Campina,Campulung,Caransebes,Cluj-Napoca,Constanta,Craiova,Curtea de Arges,Dej,Deva,Drobeta Turnu Severin,Fagaras,Fetesti,Focsani,Galati,Giurgiu,Hunedoara,Iasi,Medias,Miercurea Ciuc,Navodari,Odorheiu Secuiesc,Onesti,Oradea,Orsova,Pascani,Petrosani,Piatra Neamt,Pitesti,Ploiesti,Reghin,Resita,Roman,Ramnicu Sarat,Ramnicu Valcea,Satu Mare,Sfantu Gheorghe,Sibiu,Slatina,Slobozia,Suceava,Targoviste,Targu Jiu,Targu Mures,Timisoara,Toplita,Turda,Vaslui,Zalau"
+    "b": "Alba Iulia,Arad,Bacau,Baia Mare,Bistrita,Botosani,Braila,Brasov,București,Buzau,Calafat,Campina,Campulung,Caransebes,Cluj-Napoca,Constanta,Craiova,Curtea de Arges,Dej,Deva,Drobeta Turnu Severin,Fagaras,Fetesti,Focsani,Galati,Giurgiu,Hunedoara,Iasi,Medias,Miercurea Ciuc,Navodari,Odorheiu Secuiesc,Onesti,Oradea,Orsova,Pascani,Petrosani,Piatra Neamt,Pitesti,Ploiesti,Reghin,Resita,Roman,Ramnicu Sarat,Ramnicu Valcea,Satu Mare,Sfantu Gheorghe,Sibiu,Slatina,Slobozia,Suceava,Targoviste,Targu Jiu,Targu Mures,Timisoara,Toplita,Turda,Vaslui,Zalau"
   },
   {
     "name": "Aromanian",
