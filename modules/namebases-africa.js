@@ -4077,7 +4077,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Adama,Jimma,Nekemte,Asella,Shashamane,Bishoftu,Ambo,Goba,Robe,Gimbi,Metu,Bedele,Sebeta,Mojo,Assasa,Agaro,Woliso,Fiche,Holeta,Guder,Harar,Dire Dawa,Jijiga,Nazret,Dessie,Kombolcha,Awash,Aweday,Babile,Gursum,Deder,Hirna,Chiro,Gelemso"
+    "b": "Adama,Jimma,Nekemte,Asella,Shashamane,Bishoftu,Ambo,Goba,Robe,Gimbi,Metu,Bedele,Sebeta,Mojo,Assasa,Agaro,Woliso,Fiche,Holeta,Guder,Babile,Gursum,Deder,Hirna,Chiro,Gelemso,Meki,Dera,Metahara,Burayu,Sululta,Ginchi,Chancho,Addis Alem"
   },
   {
     "name": "Hausa",
@@ -4095,7 +4095,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "AddisAbaba,Gondar,Harar,DireDawa,BahirDar,Dessie,Mekelle,Debre-Markos,Debre-Birhan,Adigrat,Lalibela,Shire,Woldiya,Kombolcha,Debre-Tabor,Finote-Selam,Nekemte,Ambo,Debre-Zeit,Holeta,Injibara,Debre-Sina,Addis Ababa,Asella,Batu"
+    "b": "Gondar,Harar,DireDawa,BahirDar,Dessie,Debre-Markos,Debre-Birhan,Lalibela,Woldiya,Kombolcha,Debre-Tabor,Finote-Selam,Injibara,Debre-Sina,Debre Markos,Debre Berhan,Debre Tabor,Finote Selam,Debre Sina,Bahir Dar,Dire Dawa"
   },
   {
     "name": "Tigrinya",
@@ -4230,7 +4230,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Mthatha,East London,Port Elizabeth,King William's Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni,Willowvale,Cofimvaba,Sterkspruit,Nqamakwe,Tsomo,Ntabanku,Mqanduli,Clearwater,Idutywa,Kwilitshe,Mdantsane,Grahamstown,Cradock,Graaff-Reinet,Umtata,Mount Frere,Mount Ayliff,Tabankulu,Flagstaff,Ngqeleni,Peddie,Keiskammahoek,Stutterheim,Seymour,Hamburg"
+    "b": "Mthatha,East London,Port Elizabeth,King William's Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni,Willowvale,Cofimvaba,Sterkspruit,Nqamakwe,Tsomo,Mqanduli,Mdantsane,Grahamstown,Cradock,Graaff-Reinet,Mount Frere,Mount Ayliff,Tabankulu,Flagstaff,Peddie,Keiskammahoek,Seymour,Hamburg"
   },
   {
     "name": "Sesotho",

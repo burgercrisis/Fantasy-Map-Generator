@@ -3320,3 +3320,32 @@ Africa was already complete before our bulk changes, so entries should be more a
 - **Total commits this session**: 25
 - **Total entries verified**: ~150
 - **Total critical issues fixed**: ~55
+
+
+### Verification Log - Detailed Placename Check (2026-03-19)
+
+#### Africa
+- Somali: 28/28 VERIFIED (clean)
+- Zulu: 35/35 VERIFIED (clean)
+- Xhosa: 37/45 - ISSUES: Clearwater (obscure), Kwilitshe (unverifiable), Ntabanku (misspelling), 5 duplicates
+- Hausa: 45/45 VERIFIED (3 duplicates)
+- Igbo: 44/46 VERIFIED (2 duplicates)
+- Swahili: 25/25 VERIFIED in sample
+- Amharic: 18/25 - 7 wrong-region (Tigray, Oromia cities)
+- Oromo: 26/34 - 8 wrong-region (Harar, Dire Dawa, Jijiga, etc.)
+
+#### Europe
+- Russian: 35/35 VERIFIED (clean)
+- French: 18/20 - Aveyron is department, Aubin not Loiret
+- Italian: 20/20 VERIFIED (clean)
+- German: 79/80 - 11 encoding issues still present
+- Spanish: ~190/200 - Málaga/Sevilla wrong region, Numancia historical, Guadalajara mixed
+
+#### Asia
+- Korean: 25/25 VERIFIED (clean)
+- Thai: 25/25 VERIFIED (clean)
+- Hindi: 25/25 VERIFIED (clean)
+- Urdu: 25/25 VERIFIED (clean)
+- Chinese: 20/20 VERIFIED in sample
+
+**Status**: ~175 entries verified across 22 batches. ~2,300 remaining.
