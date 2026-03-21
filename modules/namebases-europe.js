@@ -1934,7 +1934,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "oc-FR",
     "m": 0,
-    "b": "Tolosa,BordÃ¨u,MontpelhiÃ¨r,LimÃ²tges,Clarmont d'AuvÃ¨rnhe,Pau,Baiona,BiÃ rritz,Tarba,Periguers,Caors,Albi,RodÃ©s,Mende,Lo PuÃ¨i de Velai,ValenÃ§a,Gap,Dinha,Avinhon,Marselha,Tolon,NiÃ§a,Paris,Lyon,Marseille"
+    "b": "Toulouse,Tolosa,Montpellier,Bordeaux,Nîmes,Perpignan,Agen,Pau,Tarbes,Auch,Cahors,Rodez,Albi,Castres,Foix,Pamiers,Mureth,Carcassonne,Narbonne,Béziers,Sète,Lodève,Millau,Le Puy-en-Velay,Saint-Flour"
   },
   {
     "name": "Old Catalan",
@@ -3122,7 +3122,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Munich,Nuremberg,Augsburg,Regensburg,Ingolstadt,FÃ¼rth,WÃ¼rzburg,Erlangen,Bamberg,Passau,Landshut,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg,Duisburg"
+    "b": "Munich,Nuremberg,Augsburg,Regensburg,Ingolstadt,Fürth,Würzburg,Erlangen,Bamberg,Passau,Landshut,Freising,Straubing,Deggendorf,Rosenheim,Bad Kissingen,Aschaffenburg,Schweinfurt,Amberg,Weiden,Neumarkt,Kelheim,Pfaffenhofen,Dachau,Starnberg"
   },
   {
     "name": "Cimbrian",
@@ -3149,7 +3149,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hamburg,Bremen,LÃ¼neburg,Oldenburg,Hanover,LÃ¼beck,OsnabrÃ¼ck,MÃ¼nster,Braunschweig,Kiel,Flensburg,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg,Duisburg"
+    "b": "Hamburg,Bremen,Lüneburg,Oldenburg,Hanover,Lübeck,Osnabrück,Münster,Braunschweig,Kiel,Flensburg,Rostock,Wismar,Stralsund,Greifswald,Neubrandenburg,Schwerin,Wittenberg,Stendal,Magdeburg,Hildesheim,Celle,Goslar,Hameln,Wolfsburg"
   },
   {
     "name": "Mainfränkisch",
@@ -4319,7 +4319,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "nld",
     "m": 0,
-    "b": "Cagliari,Sassari,Oristano,Nuoro,Alghero,Olbia,Carbonia,Iglesias,Arbatax,La Maddalena,Ozieri,Macomer,Sanluri,Porto Torres,Villanova Monteleone,Tempio Pausania,Orroli,Bitti,Atzara,Paris,Lyon,Marseille,Toulouse,Nice,Nantes"
+    "b": "Cagliari,Sassari,Olbia,Alghero,Nuoro,Iglesias,Oristano,Carbonia,Quartu Sant Elena,Selargius,Assemini,Capoterra,Monserrato,Sinnai,Decimomannu,Villasor,Serrenti,Samassi,Sanluri,Villacidro,Guspini,Arbus,San Gavino Monreale,Gonnosfanadiga,Pabillonis"
   },
   {
     "name": "Romansh",
@@ -4427,7 +4427,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Oviedo,Gijon,Aviles,Mieres,Langreo,Siero,Villaviciosa,Cangas de Onis,Ribadesella,Llanes,Navia,Luarca,Cangas del Narcea,Grado,Pravia,Pola de Laviana,Pola de Lena,Tineo,Cudillero,Tapia de Casariego,Paris,Lyon,Marseille,Toulouse,Nice"
+    "b": "Oviedo,Gijón,Avilés,Mieres,Langreo,Siero,Pola de Lena,Cangas de Onís,Cudillero,Luarca,Navia,Pravia,Grado,Salas,Tineo,Cangas del Narcea,Pola de Allande,Grandas de Salime,Belmonte,Ibias,San Martín del Rey Aurelio,Laviana,Parres,Llanes,Ribadesella"
   },
   {
     "name": "Luxembourgish",
@@ -4436,7 +4436,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Luxembourg,Esch-sur-Alzette,Differdange,Dudelange,Ettelbruck,Diekirch,Grevenmacher,Remich,Redange,Clervaux,Vianden,Wiltz,Bertrange,Strassen,Mamer,Bettembourg,Pentange,Schifflange,Sanem,Kayl,Paris,Lyon,Marseille,Toulouse,Nice"
+    "b": "Luxembourg,Esch-sur-Alzette,Differdange,Dudelange,Bettembourg,Pétange,Sanem,Schifflange,Mondercange,Rumelange,Kayl,Rodange,Bascharage,Soleuvre,Belvaux,Niederkorn,Oberkorn,Wiltz,Ettelbruck,Diekirch,Vianden,Clervaux,Echternach,Grevenmacher,Remich"
   },
   {
     "name": "Silesian",
@@ -4616,7 +4616,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Moscow,Saint Petersburg,Novosibirsk,Yekaterinburg,Kazan,Nizhny Novgorod,Chelyabinsk,Omsk,Samara,Rostov,Ufa,Krasnoyarsk,Perm,Voronezh,Volgograd,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen"
+    "b": "Moscow,Saint Petersburg,Novosibirsk,Yekaterinburg,Kazan,Nizhny Novgorod,Chelyabinsk,Omsk,Samara,Rostov-on-Don,Ufa,Krasnoyarsk,Perm,Voronezh,Volgograd,Saratov,Krasnodar,Tolyatti,Izhevsk,Ulyanovsk,Irkutsk,Khabarovsk,Yaroslavl,Vladivostok,Tomsk,Orenburg,Kemerovo,Ryazan,Astrakhan,Penza,Naberezhnye Chelny,Lipetsk,Tula,Kirov,Kaliningrad"
   },
   {
     "name": "Czech",
@@ -4634,7 +4634,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bratislava,Košice,Žilina,Prešov,Nitra,Banská Bystrica,Trnava,Trenčín,Poprad,Prievidza,Zvolen,Považská Bystrica,Lučenec,Spišská Nová Ves,Levice,Prague,Brno,Ostrava,Plzeň,Liberec,Olomouc,Ústí nad Labem,Hradec Králové,Pardubice,Zlín"
+    "b": "Bratislava,Košice,Žilina,Prešov,Nitra,Banská Bystrica,Trnava,Trenčín,Poprad,Prievidza,Zvolen,Považská Bystrica,Lučenec,Spišská Nová Ves,Levice,Ružomberok,Partizánske,Topoľčany,Čadca,Dubnica nad Váhom,Rimavská Sobota,Šaľa,Senica,Nové Zámky,Michalovce"
   },
   {
     "name": "Polish",
@@ -4760,7 +4760,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Zürich,Bern,Basel,Geneva,Lausanne,Lucerne,St. Gallen,Lugano,Winterthur,Biel,Neuchâtel,Schaffhausen,Fribourg,Chur,Aarau,Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier,Rennes"
+    "b": "Zürich,Bern,Basel,Lucerne,St. Gallen,Chur,Thun,Biel,Bellinzona,Interlaken,Aarau,Solothurn,Schaffhausen,Glarus,Schwyz,Zug,Sarnen,Altdorf,Herisau,Appenzell,Flawil,Wil,Rapperswil,Winterthur,Steffisburg"
   },
   {
     "name": "Scots",
@@ -4796,6 +4796,6 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Baranovichi,Borisov,Pinsk,Orsha,Mazyr,Lida,Slutsk,Kobryn,Molodechno,Rechytsa,Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier"
+    "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Baranovichi,Borisov,Pinsk,Orsha,Mazyr,Lida,Slutsk,Kobryn,Molodechno,Rechytsa,Polotsk,Zhlobin,Svetlogorsk,Novopolotsk,Rogachev,Mozyr,Bobruysk,Slonim,Volkovysk"
   }
 ];
