@@ -2295,7 +2295,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "nic-GH",
     "m": 0,
-    "b": "Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza,Mchinji,Nsanje,Phalombe,Mangochi,Ntcheu,Ntchisi,Dowa,Lilongwe,Chiradzulu,Thyolo,Chikwawa,Neno,Mwanza,Nkhotakota,Ntchisi,Dowa,Kasungu,Mchinji,Dedza,Ntcheu,Mangochi,Blantyre,Zomba,Mulanje,Phalombe,Nsanje,Balaka,Machinga,Karonga"
+    "b": "Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza,Mchinji,Nsanje,Phalombe,Mangochi,Ntcheu,Ntchisi,Dowa,Chiradzulu,Thyolo,Chikwawa,Neno,Mwanza,Chipata,Lundazi"
   },
   {
     "name": "Chopi",
@@ -3906,7 +3906,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Lagos,Ibadan,Abeokuta,Oyo,Ife,BeninCity,Ogbomoso,Oshogbo,Ilesa,Akure,Ado-Ekiti,Ondo,Ikere,Shagamu,Sango,Ota,Ikorodu,Badagry,Ijebu-Ode,Modakeke,Owo,Ilorin,Ede,Ikoyi,Apapa"
+    "b": "Lagos,Ibadan,Abeokuta,Oyo,Ife,Ogbomoso,Oshogbo,Ilesa,Akure,Ado-Ekiti,Ondo,Ikere,Shagamu,Sango,Ota,Ikorodu,Badagry,Ijebu-Ode,Modakeke,Owo,Ilorin,Ede,Ikoyi,Apapa,Ilesha"
   },
   {
     "name": "Igbo",
@@ -3942,7 +3942,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Kumasi,Accra,Koforidua,Obuasi,Tema,Konongo,Ejisu,New-Tafo,Offinso,Sunyani,Techiman,Bechem,Mampong,Asamankese,Nkawkaw,Agogo,Juaso,Akosombo,Winneba,Cape-Coast,Ghana,Ashanti,Greater Accra,Eastern,Western,Central,Volta,Ashanti Region,Kumasi,Accra,Koforidua,Obuasi,Tema,Konongo,Ejisu,New Tafo,Offinso,Sunyani,Techiman,Bechem,Mampong,Asamankese,Nkawkaw,Agogo,Juaso,Akosombo,Winneba,Cape Coast,Elmina,Keta,Ho,Aflao,Takoradi,Sekondi,Tarkwa,Bogoso,Prestea,Axim,Effia,Kumasi,Obuasi,Mampong,Konongo,Ejisu,New Tafo,Offinso,Bekwai,Asokwa,Mampong Cocoa,New Edubiase,Atwima Nwabiagya,Amansie Central,Amansie West,Asante Akim Central,Asante Akim North,Asante Akim South,Ahafo Ano North,Ahafo Ano South"
+    "b": "Kumasi,Accra,Koforidua,Obuasi,Tema,Konongo,Ejisu,New-Tafo,Offinso,Sunyani,Techiman,Bechem,Mampong,Asamankese,Nkawkaw,Agogo,Juaso,Akosombo,Winneba,Cape-Coast,New Tafo,Cape Coast,Elmina,Keta,Ho"
   },
   {
     "name": "Bambara",
@@ -3978,7 +3978,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ho,Kpalime,Hohoe,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,Abutia Kloe,Anyirawase,Agotime,Shia,Wli,Togo,Ghana,Volta Region,Togo,Plateaux,Région Maritime,Ho,Hohoe,Kpalime,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,Abutia Kloe,Anyirawase,Agotime,Shia,Wli,Togo,Lomé,Sokodé,Kara,Kpalimé,Atakpamé,Badou,Tchamba,Notsé,Bassar,Blitta,Tchèchedie,Amlamé,Akebou,Kpalimé,Adeta,Badou,Gbandi,Kamboli,Kévé,Amlamé,Djékpodé,Akmapé,Klamidjé,Bafilo,Bakpa,Bélaso,Bérégougo,Bétérou,Bougoun,Dékpo,Djèton,Djigblé,Dossa,Gbadan,Gblizigan,Gbossankpé,Kélé, Kloto,Kpalimé,Kpondjo,Notsé,Pya,Sérèma,Sokodé,Tchamba,Tchèchedie,Togo,Lomé,Sokodé,Kara,Kpalimé,Atakpamé"
+    "b": "Ho,Kpalime,Hohoe,Aflao,Anloga,Akatsi,Denu,Keta,Adidome,Sogakope,Abor,Atiavi,Abutia,Adaklu,Akrofu,Abutia Kloe,Anyirawase,Agotime,Shia,Wli,Lomé,Sokodé,Kara,Kpalimé,Atakpamé"
   },
   {
     "name": "Ga",
@@ -4212,7 +4212,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff,Mashonaland Central,Mashonaland East,Mashonaland West,Chegutu,Mutoko,Seke,Zvimba"
+    "b": "Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff,Chegutu,Mutoko,Seke,Zvimba,Gwanda,Beitbridge,Chipinge"
   },
   {
     "name": "Zulu",

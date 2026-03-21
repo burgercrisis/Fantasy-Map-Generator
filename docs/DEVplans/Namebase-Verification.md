@@ -3349,3 +3349,56 @@ Africa was already complete before our bulk changes, so entries should be more a
 - Chinese: 20/20 VERIFIED in sample
 
 **Status**: ~175 entries verified across 22 batches. ~2,300 remaining.
+
+
+### Verification Log - Detailed Placename Check #2 (2026-03-19)
+
+#### Africa (Detailed)
+- Afrikaans: 25/25 VERIFIED (clean)
+- Shona: 24/27 - 3 province names (not cities)
+- Chichewa: 29/31 - 2 duplicates
+- Tumbuka: 23/26 - 1 duplicate, 3 wrong-region (central Malawi)
+- Chewa: 20/40 - SEVERE: entire list duplicated verbatim
+- Yoruba: 23/24 - BeninCity wrong region
+- Ewe: ~25 unique/98 - SEVERE: ~70 duplicates, 5 country/region names, encoding
+- Akan: ~35 unique/78 - SEVERE: ~30 duplicates, 15 region/district names
+- Bambara: 21/25 - 4 duplicates
+- Wolof: 22/27 - 1 duplicate, 3 Dakar neighborhoods
+
+#### Europe (Detailed)
+- Polish (separate): 16/24 - 8 mojibake, 8 duplicates - BROKEN
+- Czech (separate): 15/24 - 9 mojibake, 1 duplicate - BROKEN
+- Slovak (separate): 25/25 - 16 mojibake - BROKEN
+- Ukrainian: 39/39 VERIFIED (clean)
+- Belarusian: 25/25 - 1 duplicate (Mozyr=Mazyr)
+- Bulgarian: 38/38 - 1 duplicate (Haskovo=Khaskovo)
+- Romanian: 59/59 - 1 encoding issue
+- Hungarian: 215/215 VERIFIED (clean)
+- Croatian: 86/86 - 16 mojibake
+- Serbian: 100/100 VERIFIED (clean)
+
+#### Asia (Detailed)
+- Marathi: 25/25 VERIFIED (clean)
+- Malayalam: 25/25 VERIFIED (clean)
+- Nepali: 25/25 VERIFIED (clean)
+- Telugu: 25/25 VERIFIED (clean)
+- Tamil: 25/25 VERIFIED (clean)
+- Bengali: 25/25 VERIFIED (clean)
+- Punjabi: 23/25 - Delhi, Mumbai wrong region
+- Gujarati: 22/25 - Delhi, Mumbai wrong region
+- Japanese: 20/20 VERIFIED (clean)
+- Vietnamese: 20/20 VERIFIED (clean)
+
+#### Oceania (Detailed)
+- Maori: 29/29 VERIFIED (clean)
+- Samoan: 30/30 VERIFIED (clean)
+- Fijian: 30/30 VERIFIED (clean)
+- Tongan: 25/25 VERIFIED (clean)
+- Marshallese: 23/25 - 2 duplicates
+- Palauan: 25/25 VERIFIED (clean)
+- Chamorro: 19/25 - 5 duplicates, 1 PNG place (Popondetta)
+- Kiribati: 25/25 VERIFIED (clean)
+- Tahitian: 25/25 VERIFIED (clean)
+- Nauruan: 14/28 - 14 duplicates
+
+**Status**: ~280 entries verified across 26 batches. ~2,195 remaining.
