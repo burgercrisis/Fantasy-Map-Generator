@@ -4798,4 +4798,32 @@ window.europeNameBases = [
     "m": 0,
     "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Baranovichi,Borisov,Pinsk,Orsha,Mazyr,Lida,Slutsk,Kobryn,Molodechno,Rechytsa,Polotsk,Zhlobin,Svetlogorsk,Novopolotsk,Rogachev,Mozyr,Bobruysk,Slonim,Volkovysk"
   }
+,
+  {
+    "name": "Slovenian",
+    "i": 44747,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Ljubljana,Maribor,Celje,Kranj,Koper,Novo Mesto,Velenje,Novo Mesto,Trbovlje,Domžale,Kamnik,Škofja Loka,Jesenice,Litija,Murska Sobota,Ptuj,Slovenj Gradec,Postojna,Ajdovščina,Idrija,Logatec,Vrhnika,Grosuplje,Krško,Brežice"
+  },
+  {
+    "name": "Austrian German",
+    "i": 51484,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Vienna,Graz,Linz,Salzburg,Innsbruck,Klagenfurt,Villach,Wels,Sankt Pölten,Dornbirn,Steyr,Wiener Neustadt,Feldkirch,Bregenz,Leonding,Baden,Leoben,Wolfsberg,Perchtoldor,Hallein,Traun,Braunau,Wörgl,Kufstein,Saalfelden"
+  },
+  {
+    "name": "Flemish",
+    "i": 88382,
+    "min": 4,
+    "max": 11,
+    "d": "und",
+    "m": 0,
+    "b": "Antwerp,Ghent,Bruges,Leuven,Mechelen,Aalst,Kortrijk,Hasselt,Sint-Niklaas,Ostend,Genk,Roeselare,Veurne,Ieper,Diksmuide,Poperinge,Tielt,Waregem,Menen,Roulers,Tournai,Mons,Charleroi,Namur,Liège"
+  }
 ];
