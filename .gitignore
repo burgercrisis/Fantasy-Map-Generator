@@ -1,60 +1,55 @@
+# IDE
 .vscode
 .idea
+
+# Dependencies
 /node_modules
+
+# Build outputs
 /reports
 /dist
-/tmp
 /coverage
+
+# Temporary directories
+/tmp
 /tools/agents/
 /tools/placename-replacement
-/tools/mixer-diagnostics/_last-language-base-clusters-utf8.txt
-/tools/mixer-diagnostics/_last-language-base-clusters.txt
-/tools/mixer-diagnostics/_report-language-mixer-base-clusters.txt
-/tools/mixer-diagnostics/_no_uniq_base_claims.lock
 /tools/mixer-diagnostics/tmp
-/tools/mixer-diagnostics/_decluster_claims.lock
-/tools/mixer-diagnostics/_wiki_multiagent_claims.lock
-/tools/mixer-core/_apply-mixer-deltas.lock
+/tools/batch
+/tools/updates
+/tools/state
+
+# Lock files
+/tools/mixer-diagnostics/*.lock
+/tools/mixer-core/*.lock
+
+# Report files
+/docs/reports/
+
+# Project files
 /mods
 /pdf_splitter
-/.tmp-*
-.tmp
-.tmp*
-/DEVplans/Game-Plan.md
-# Snyk Security Extension - AI Rules (auto-generated)
-.windsurf/rules/snyk_rules.md
-
-# Temporary files and directories
-/tmp/**/*
-!tmp/.gitkeep
-
-# Batch processing temporary files
-/tools/batch/*.log
-/tools/updates/*.log
-
-# State files
-/tools/state/*
-!tools/state/.gitkeep
+/DEVplans
 
 # Temporary files
-TEMP_*
+/.tmp-*
+.tmp
 *.tmp
 *.temp
-TEMP_DO_NOT_CREATE
 *.log
-
-# Runtime files
-.runtime/
+TEMP_*
+TEMP_DO_NOT_CREATE
 *.sqlite-shm
 *.sqlite-wal
 
-
-#Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
-"docs/reports/language-quality-metrics.csv"  
-nul
-temp/analyze-oceania.js
-temp/current-oceania-languages.txt
-temp/oceania-critical.txt
-temp/oceania-poor.txt
-docs/reports/language-quality-metrics.csv
+# Dev tools
+.docker
+.cursor
+.kilo
+.kiro
+.opencode
+.roo
+.ruff_cache
+.runtime
+.trae
+.windsurf
