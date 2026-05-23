@@ -241,20 +241,26 @@ function cleanup(config) {
     // Check for invalid base indices
     if (Array.isArray(entry.bases)) {
       const validIndices = new Set();
-      const namebaseFiles = [
-        "modules/namebases-real.js",
-        "modules/namebases-fantasy.js",
-        "modules/namebases-creole.js"
+      // Continental namebase files (replaced legacy namebases-real.js / namebases-creole.js)
+      const continentFiles = [
+        "namebases-africa.js",
+        "namebases-asia.js",
+        "namebases-europe.js",
+        "namebases-northAmerica.js",
+        "namebases-oceania.js",
+        "namebases-southAmerica.js",
+        "namebases-unknown.js",
+        "namebases-fantasy.js"
       ];
       
-      for (const nbFile of namebaseFiles) {
-        const nbPath = path.join(root, nbFile);
+      for (const nbFile of continentFiles) {
+        const nbPath = path.join(root, "modules", nbFile);
         if (fs.existsSync(nbPath)) {
           const content = fs.readFileSync(nbPath, "utf8");
-          const idxMatch = content.match(/i:\s*(\d+)/g);
+          const idxMatch = content.match(/"i":\s*(\d+)/g);
           if (idxMatch) {
             idxMatch.forEach(m => {
-              validIndices.add(Number(m.replace("i:", "")));
+              validIndices.add(Number(m.replace(/"i":\s*/, "")));
             });
           }
         }

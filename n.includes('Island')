@@ -1,1 +1,0 @@
-entries.forEach((entry) = if (!entry.b) return; const names = entry.b.split(','); const hasGeneric = names.some(n = 

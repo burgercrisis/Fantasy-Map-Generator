@@ -37,25 +37,35 @@ const path = require("path");
 const root = path.resolve(__dirname, "..", "..");
 
 function loadBaseIndexToNameMap() {
+  // Continental namebase files (replaced legacy namebases-real.js / namebases-creole.js).
+  // Format: {"name": "English", "i": 1, ...}
+  const baseDir = path.join(root, "modules");
   const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js")
+    "namebases-africa.js",
+    "namebases-asia.js",
+    "namebases-europe.js",
+    "namebases-northAmerica.js",
+    "namebases-oceania.js",
+    "namebases-southAmerica.js",
+    "namebases-unknown.js",
+    "namebases-fantasy.js"
   ];
 
   const byIndex = new Map();
-  const re = /\{name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
 
-  for (const file of files) {
+  for (const f of files) {
+    const full = path.join(baseDir, f);
     let src;
     try {
-      src = fs.readFileSync(file, "utf8");
+      src = fs.readFileSync(full, "utf8");
     } catch (e) {
       continue;
     }
 
+    // Match each entry block: {"name": "X", "i": N, ...}
+    const entryRe = /\{[^}]*?"name"\s*:\s*"([^"]+)"[^}]*?"i"\s*:\s*(\d+)[^}]*?\}/g;
     let m;
-    while ((m = re.exec(src))) {
+    while ((m = entryRe.exec(src))) {
       const name = m[1];
       const idx = Number(m[2]);
       if (Number.isNaN(idx)) continue;

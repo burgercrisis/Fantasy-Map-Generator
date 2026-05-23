@@ -6,13 +6,13 @@
     // Collect all continent namebases
     const continentArrays = [];
     
-    if (window.AfricaNameBases) continentArrays.push(...window.AfricaNameBases);
-    if (window.AsiaNameBases) continentArrays.push(...window.AsiaNameBases);
-    if (window.EuropeNameBases) continentArrays.push(...window.EuropeNameBases);
-    if (window.NorthAmericaNameBases) continentArrays.push(...window.NorthAmericaNameBases);
-    if (window.SouthAmericaNameBases) continentArrays.push(...window.SouthAmericaNameBases);
-    if (window.OceaniaNameBases) continentArrays.push(...window.OceaniaNameBases);
-    if (window.UnknownNameBases) continentArrays.push(...window.UnknownNameBases);
+if (window.africaNameBases) continentArrays.push(...window.africaNameBases);
+    if (window.asiaNameBases) continentArrays.push(...window.asiaNameBases);
+    if (window.europeNameBases) continentArrays.push(...window.europeNameBases);
+    if (window.northAmericaNameBases) continentArrays.push(...window.northAmericaNameBases);
+    if (window.southAmericaNameBases) continentArrays.push(...window.southAmericaNameBases);
+    if (window.oceaniaNameBases) continentArrays.push(...window.oceaniaNameBases);
+    if (window.unknownNameBases) continentArrays.push(...window.unknownNameBases);
     
     // All continent data goes into realWorldNameBases for now
     window.realWorldNameBases = continentArrays;

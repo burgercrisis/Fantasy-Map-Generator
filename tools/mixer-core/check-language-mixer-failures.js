@@ -27,28 +27,36 @@ function readJson(relPath) {
 }
 
 function loadValidBaseIndices() {
+  // Continental namebase files now replace the legacy namebases-real.js / namebases-creole.js.
+  // The continental files use quoted JSON keys: "i": 1 (vs old format i: 1).
+  const baseDir = path.join(root, "modules");
   const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js")
+    "namebases-africa.js",
+    "namebases-asia.js",
+    "namebases-europe.js",
+    "namebases-northAmerica.js",
+    "namebases-oceania.js",
+    "namebases-southAmerica.js",
+    "namebases-unknown.js",
+    "namebases-fantasy.js"
   ];
 
   const indices = new Set();
-  const re = /\{\s*name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
+  const re = /"i":\s*(\d+)/g;
 
-  for (const file of files) {
+  for (const f of files) {
+    const full = path.join(baseDir, f);
     let src;
     try {
-      src = fs.readFileSync(file, "utf8");
+      src = fs.readFileSync(full, "utf8");
     } catch (e) {
-      console.error("Failed to read", file, e.message || e);
       continue;
     }
 
     re.lastIndex = 0;
     let m;
     while ((m = re.exec(src))) {
-      const idx = Number(m[2]);
+      const idx = Number(m[1]);
       if (!Number.isNaN(idx)) indices.add(idx);
     }
   }

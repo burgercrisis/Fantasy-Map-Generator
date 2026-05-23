@@ -108,21 +108,27 @@ function checkFailures() {
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
 
-  // Load valid base indices
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js")
+  // Load valid base indices from continental namebase files (replaced legacy namebases-real.js)
+  const baseDir = path.join(root, "modules");
+  const namebaseFiles = [
+    "namebases-africa.js",
+    "namebases-asia.js",
+    "namebases-europe.js",
+    "namebases-northAmerica.js",
+    "namebases-oceania.js",
+    "namebases-southAmerica.js",
+    "namebases-unknown.js",
+    "namebases-fantasy.js"
   ];
   const validBaseIndices = new Set();
-  const re = /\{\s*name:\s*"([^"]+)",\s*i:\s*(\d+)/g;
-  for (const file of files) {
+  const re = /"i":\s*(\d+)/g;
+  for (const f of namebaseFiles) {
     try {
-      const src = fs.readFileSync(file, "utf8");
+      const src = fs.readFileSync(path.join(baseDir, f), "utf8");
       re.lastIndex = 0;
       let m;
       while ((m = re.exec(src))) {
-        const idx = Number(m[2]);
+        const idx = Number(m[1]);
         if (!Number.isNaN(idx)) validBaseIndices.add(idx);
       }
     } catch (e) { /* ignore */ }

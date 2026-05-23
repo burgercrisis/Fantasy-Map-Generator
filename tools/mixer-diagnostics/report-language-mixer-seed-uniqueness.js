@@ -21,14 +21,20 @@ function loadDefaultNameBases() {
   sandbox.globalThis = sandbox;
   const context = vm.createContext(sandbox);
 
-  const files = [
-    path.join(root, "modules", "namebases-real.js"),
-    path.join(root, "modules", "namebases-fantasy.js"),
-    path.join(root, "modules", "namebases-creole.js"),
-    path.join(root, "modules", "namebases-all.js")
+  // Continental files (replaced legacy namebases-real.js / namebases-creole.js)
+  const continentFiles = [
+    "namebases-africa.js",
+    "namebases-asia.js",
+    "namebases-europe.js",
+    "namebases-northAmerica.js",
+    "namebases-oceania.js",
+    "namebases-southAmerica.js",
+    "namebases-unknown.js"
   ];
+  const files = continentFiles.concat(["namebases-fantasy.js", "namebases-all.js"]);
 
-  for (const full of files) {
+  for (const f of files) {
+    const full = path.join(root, "modules", f);
     const src = fs.readFileSync(full, "utf8");
     vm.runInContext(src, context, {filename: full});
   }
