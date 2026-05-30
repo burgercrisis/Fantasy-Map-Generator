@@ -5,19 +5,19 @@
   if (!window.realWorldNameBases && !window.fantasyNameBases) {
     // Collect all continent namebases
     const continentArrays = [];
-    
-if (window.africaNameBases) continentArrays.push(...window.africaNameBases);
+
+    if (window.africaNameBases) continentArrays.push(...window.africaNameBases);
     if (window.asiaNameBases) continentArrays.push(...window.asiaNameBases);
     if (window.europeNameBases) continentArrays.push(...window.europeNameBases);
     if (window.northAmericaNameBases) continentArrays.push(...window.northAmericaNameBases);
     if (window.southAmericaNameBases) continentArrays.push(...window.southAmericaNameBases);
     if (window.oceaniaNameBases) continentArrays.push(...window.oceaniaNameBases);
     if (window.unknownNameBases) continentArrays.push(...window.unknownNameBases);
-    
+
     // All continent data goes into realWorldNameBases for now
     window.realWorldNameBases = continentArrays;
   }
-  
+
   if (!Array.isArray(window.realWorldNameBases)) window.realWorldNameBases = [];
   if (!Array.isArray(window.fantasyNameBases)) window.fantasyNameBases = [];
 
@@ -60,10 +60,21 @@ if (window.africaNameBases) continentArrays.push(...window.africaNameBases);
     );
   }
 
-  window.defaultNameBases = byIndex;
+  // defaultNameBases gets a snapshot copy so runtime pushes to
+  // window.nameBases (culture-mixer, race-mixer, editor) do not
+  // mutate the backup used for save/restore gap-filling.
+  window.defaultNameBases = byIndex.slice();
   window.nameBases = byIndex;
   window.defaultNameBaseIds = byIndex.reduce((ids, b, i) => {
     if (b) ids.push(i);
     return ids;
   }, []);
+
+  // Rebuild defaultNameBaseIds after culture/race-mixer or editor bases are pushed.
+  window.refreshDefaultNameBaseIds = function () {
+    window.defaultNameBaseIds = window.nameBases.reduce((ids, b, i) => {
+      if (b) ids.push(i);
+      return ids;
+    }, []);
+  };
 })();

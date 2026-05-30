@@ -59,10 +59,21 @@
     );
   }
 
-  window.defaultNameBases = byIndex;
+  // defaultNameBases gets a snapshot copy so runtime pushes to
+  // window.nameBases (culture-mixer, race-mixer, editor) do not
+  // mutate the backup used for save/restore gap-filling.
+  window.defaultNameBases = byIndex.slice();
   window.nameBases = byIndex;
   window.defaultNameBaseIds = byIndex.reduce((ids, b, i) => {
     if (b) ids.push(i);
     return ids;
   }, []);
+
+  // Rebuild defaultNameBaseIds after culture/race-mixer or editor bases are pushed.
+  window.refreshDefaultNameBaseIds = function () {
+    window.defaultNameBaseIds = window.nameBases.reduce((ids, b, i) => {
+      if (b) ids.push(i);
+      return ids;
+    }, []);
+  };
 })();

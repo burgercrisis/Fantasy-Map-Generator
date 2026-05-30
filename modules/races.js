@@ -1126,6 +1126,9 @@ function ensureRaceMixerBaseIndex(raceName, options) {
   } else {
     nameBases.push({ name: getRaceMixerBaseDisplayName(raceName), min, max, d: "", m: 0, b, raceMixerFor: raceName });
   }
+  if (typeof window.refreshDefaultNameBaseIds === "function") {
+    window.refreshDefaultNameBaseIds();
+  }
   return baseIndex;
 }
 

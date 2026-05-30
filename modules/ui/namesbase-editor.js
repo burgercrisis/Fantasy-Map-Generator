@@ -254,6 +254,7 @@ function editNamesbase() {
     const b =
       "This,is,an,example,of,name,base,showing,correct,format,It,should,have,at,least,one,hundred,names,separated,with,comma";
     nameBases.push({ name: "Base" + base, min: 5, max: 12, d: "", m: 0, b });
+    if (typeof window.refreshDefaultNameBaseIds === "function") window.refreshDefaultNameBaseIds();
     document.getElementById("namesbaseSelect").add(new Option("Base" + base, base));
     document.getElementById("namesbaseSelect").value = base;
     document.getElementById("namesbaseTextarea").value = b;
@@ -303,6 +304,7 @@ function editNamesbase() {
       const name = rawName.replace(unsafe, "");
       const names = rawNames.replace(unsafe, "");
       nameBases.push({ name, min: +min, max: +max, d, m: +m, b: names });
+      if (typeof window.refreshDefaultNameBaseIds === "function") window.refreshDefaultNameBaseIds();
     });
 
     createBasesList();
@@ -931,6 +933,7 @@ Guidelines:
       const b = uniqueNewNames.join(", ");
 
       nameBases.push({ name: baseName, min, max, d, m, b });
+      if (typeof window.refreshDefaultNameBaseIds === "function") window.refreshDefaultNameBaseIds();
 
       createBasesList();
       const select = document.getElementById("namesbaseSelect");

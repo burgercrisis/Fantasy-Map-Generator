@@ -321,6 +321,9 @@ window.Cultures = (function () {
         cultureMixerFor: cultureId,
         isoWeights
       });
+      if (typeof window.refreshDefaultNameBaseIds === "function") {
+        window.refreshDefaultNameBaseIds();
+      }
 
       return baseIndex;
     };
