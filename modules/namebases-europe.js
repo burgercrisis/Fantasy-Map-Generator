@@ -4797,8 +4797,7 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Minsk,Gomel,Mogilev,Vitebsk,Grodno,Brest,Baranovichi,Borisov,Pinsk,Orsha,Mazyr,Lida,Slutsk,Kobryn,Molodechno,Rechytsa,Polotsk,Zhlobin,Svetlogorsk,Novopolotsk,Rogachev,Mozyr,Bobruysk,Slonim,Volkovysk"
-  }
-,
+  },
   {
     "name": "Slovenian",
     "i": 44747,

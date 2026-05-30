@@ -4150,7 +4150,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Damak,Inaruwa,Narayangadh,Kavre,Nuwakot,Rasua,Dhading,Makwanpur,Beijing,Shanghai"
   },
-  ,
   {
     "name": "Huizhou Chinese",
     "i": 1899,
@@ -5484,7 +5483,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Medina,Mecca,Jeddah,Riyadh,Taif,Yanbu,Khobar,Dammam,Qatif,Hofuf,Mubarraz,Hafr Al-Batin,Tabuk,Najran,Jizan,Abha,Khamis Mushait,Asir,Hejaz,Najd,Qunfudhah,Al Bahah,Al Qunfudhah,Umm Lajj,Al Wajh"
   },
-  ,
   {
     "name": "Afro Seminole Creole",
     "i": 2362,
@@ -6780,8 +6778,7 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa,Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Xián,Nanjing,Tianjin,Suzhou,Zhengzhou,Changsha,Jinan"
-  }
-,
+  },
   {
     "name": "Korean",
     "i": 33327,

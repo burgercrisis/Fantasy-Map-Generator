@@ -4510,8 +4510,7 @@ window.africaNameBases = [
     "d": "lnrtkxgms",
     "m": 0,
     "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Sandawe,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela,Dodoma,Singida,Mbulu,Iramba,Masawa,Shinyanga,Mwanza,Arusha,Moshi,Tarangire,Ngorongoro,Serengeti,Karatu,Oldeani,Buger,Daa,Endabash,Endamaghang,Endamarariek,Ganako,Kansay,Mbulumbulu,Qurus,Rhotia,Eyasi Cliff,Kidero Mountains,Oldeani Mountain,Sibiti River,Baray River,Makang'wa"
-  }
-,
+  },
   {
     "name": "Malagasy",
     "i": 64582,
