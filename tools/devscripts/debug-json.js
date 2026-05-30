@@ -1,0 +1,10 @@
+const fs = require("fs");
+const data = fs.readFileSync("config/language-mixer-map.json", "utf8");
+const output = [];
+output.push("File length: " + data.length);
+output.push("First 300 chars: " + data.substring(0, 300));
+const map = JSON.parse(data);
+output.push("First entry: " + JSON.stringify(map[0]));
+output.push("Total entries: " + map.length);
+fs.writeFileSync("debug-output.txt", output.join("\n"), "utf8");
+console.log("Wrote output to debug-output.txt");
