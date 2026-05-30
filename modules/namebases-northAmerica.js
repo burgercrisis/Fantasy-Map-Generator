@@ -687,7 +687,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Choctaw",
-      "i": 77,
+      "i": 97903,
       "min": 5,
       "max": 12,
       "d": "",
@@ -777,7 +777,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Osage",
-      "i": 87,
+      "i": 97909,
       "min": 5,
       "max": 10,
       "d": "",
@@ -786,7 +786,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Pawnee",
-      "i": 88,
+      "i": 97910,
       "min": 5,
       "max": 10,
       "d": "",
@@ -795,7 +795,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Wichita",
-      "i": 89,
+      "i": 97911,
       "min": 5,
       "max": 10,
       "d": "",
@@ -840,7 +840,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Ojibwe",
-      "i": 94,
+      "i": 97912,
       "min": 10,
       "max": 30,
       "d": "",
@@ -849,7 +849,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Inuktitut",
-      "i": 95,
+      "i": 97913,
       "min": 10,
       "max": 30,
       "d": "",
@@ -858,7 +858,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Dakota",
-      "i": 96,
+      "i": 97914,
       "min": 10,
       "max": 25,
       "d": "",
@@ -867,7 +867,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Lakota",
-      "i": 97,
+      "i": 97915,
       "min": 10,
       "max": 25,
       "d": "",
@@ -921,7 +921,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Miskito",
-      "i": 103,
+      "i": 97916,
       "min": 10,
       "max": 25,
       "d": "",
@@ -939,7 +939,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Kuna",
-      "i": 105,
+      "i": 97917,
       "min": 10,
       "max": 25,
       "d": "",
@@ -966,7 +966,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Ngabere",
-      "i": 108,
+      "i": 97918,
       "min": 10,
       "max": 20,
       "d": "",
@@ -975,7 +975,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Embera",
-      "i": 109,
+      "i": 97919,
       "min": 10,
       "max": 25,
       "d": "",
@@ -984,7 +984,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Waunana",
-      "i": 110,
+      "i": 97920,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1002,7 +1002,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Teribe",
-      "i": 112,
+      "i": 97921,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1011,7 +1011,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Haida",
-      "i": 113,
+      "i": 97922,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1029,7 +1029,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Tlingit",
-      "i": 115,
+      "i": 97923,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1038,7 +1038,7 @@ window.northAmericaNameBases = [
     },
 {
       "name": "Inupiaq",
-      "i": 116,
+      "i": 97924,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1047,7 +1047,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Yupik",
-      "i": 117,
+      "i": 97925,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1056,7 +1056,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Aleut",
-      "i": 118,
+      "i": 97926,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1065,7 +1065,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Salish",
-      "i": 119,
+      "i": 97927,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1074,7 +1074,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Kootenai",
-      "i": 120,
+      "i": 97928,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1092,7 +1092,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Potawatomi",
-      "i": 122,
+      "i": 97929,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1110,7 +1110,7 @@ window.northAmericaNameBases = [
     },
 {
       "name": "Abenaki",
-      "i": 124,
+      "i": 97930,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1119,7 +1119,7 @@ window.northAmericaNameBases = [
     },
 {
       "name": "Mi'kmaq",
-      "i": 125,
+      "i": 97931,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1128,7 +1128,7 @@ window.northAmericaNameBases = [
     },
 {
       "name": "Passamaquoddy",
-      "i": 126,
+      "i": 97932,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1137,7 +1137,7 @@ window.northAmericaNameBases = [
     },
 {
       "name": "Maliseet",
-      "i": 127,
+      "i": 97933,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1146,7 +1146,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Cherokee",
-      "i": 128,
+      "i": 97934,
       "min": 10,
       "max": 30,
       "d": "",
@@ -1155,7 +1155,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Chickasaw",
-      "i": 129,
+      "i": 97935,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1164,7 +1164,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Natchez",
-      "i": 130,
+      "i": 97936,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1173,7 +1173,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Catawba",
-      "i": 131,
+      "i": 97937,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1182,7 +1182,7 @@ window.northAmericaNameBases = [
     },
     {
       "name": "Yuchi",
-      "i": 132,
+      "i": 97938,
       "min": 10,
       "max": 20,
       "d": "",

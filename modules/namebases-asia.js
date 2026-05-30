@@ -1578,7 +1578,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Xibe",
-    "i": 1002,
+    "i": 98028,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1587,7 +1587,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Nanai",
-    "i": 1003,
+    "i": 98029,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1596,7 +1596,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Evenki",
-    "i": 1004,
+    "i": 98030,
     "min": 4,
     "max": 11,
     "d": "nic-GH",
@@ -1605,7 +1605,7 @@ window.asiaNameBases = [
   },
   {
     "name": "Oroqen",
-    "i": 1005,
+    "i": 98031,
     "min": 4,
     "max": 11,
     "d": "nic-GH",

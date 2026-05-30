@@ -66,7 +66,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Tokelauan",
-      "i": 79,
+      "i": 97905,
       "min": 4,
       "max": 11,
       "d": "nic-GH",
@@ -75,7 +75,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Nauruan",
-      "i": 80,
+      "i": 97906,
       "min": 4,
       "max": 11,
       "d": "nic-GH",
@@ -84,7 +84,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Tok Pisin",
-      "i": 81,
+      "i": 97907,
       "min": 4,
       "max": 11,
       "d": "nic-GH",
@@ -93,7 +93,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Tuvaluan",
-      "i": 83,
+      "i": 97908,
       "min": 4,
       "max": 11,
       "d": "nic-GH",
@@ -597,7 +597,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Amis",
-      "i": 216,
+      "i": 97939,
       "min": 4,
       "max": 11,
       "d": "nic-GH",
@@ -2442,7 +2442,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Tok Pisin",
-      "i": 272,
+      "i": 97969,
       "min": 5,
       "max": 15,
       "d": "",
@@ -2451,7 +2451,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Hiri Motu",
-      "i": 273,
+      "i": 97970,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2496,7 +2496,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Angal",
-      "i": 278,
+      "i": 97971,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2505,7 +2505,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Melpa",
-      "i": 279,
+      "i": 97972,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2514,7 +2514,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kewa",
-      "i": 280,
+      "i": 97973,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2523,7 +2523,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Huli",
-      "i": 281,
+      "i": 97974,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2532,7 +2532,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Duna",
-      "i": 282,
+      "i": 97975,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2541,7 +2541,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Asaro",
-      "i": 283,
+      "i": 97976,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2550,7 +2550,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kaluli",
-      "i": 284,
+      "i": 97977,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2559,7 +2559,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Mekeo",
-      "i": 285,
+      "i": 97978,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2568,7 +2568,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Koita",
-      "i": 286,
+      "i": 97979,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2577,7 +2577,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kewa",
-      "i": 287,
+      "i": 97980,
       "min": 5,
       "max": 10,
       "d": "",
@@ -2586,7 +2586,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Pitjantjatjara",
-      "i": 288,
+      "i": 97981,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2595,7 +2595,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Arrernte",
-      "i": 289,
+      "i": 97982,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2604,7 +2604,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": " Warlpiri",
-      "i": 290,
+      "i": 97983,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2613,7 +2613,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Pitjantjatjara",
-      "i": 291,
+      "i": 97984,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2622,7 +2622,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Yolŋu",
-      "i": 292,
+      "i": 97985,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2631,7 +2631,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Miriwoong",
-      "i": 293,
+      "i": 97986,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2640,7 +2640,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Gooniyandi",
-      "i": 294,
+      "i": 97987,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2649,7 +2649,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Walmajarri",
-      "i": 295,
+      "i": 97988,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2658,7 +2658,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Bunuba",
-      "i": 296,
+      "i": 97989,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2667,7 +2667,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Fijian",
-      "i": 297,
+      "i": 97990,
       "min": 10,
       "max": 30,
       "d": "",
@@ -2676,7 +2676,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Samoan",
-      "i": 298,
+      "i": 97991,
       "min": 10,
       "max": 30,
       "d": "",
@@ -2685,7 +2685,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Tongan",
-      "i": 299,
+      "i": 97992,
       "min": 10,
       "max": 30,
       "d": "",
@@ -2694,7 +2694,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Maori",
-      "i": 300,
+      "i": 97993,
       "min": 10,
       "max": 30,
       "d": "",
@@ -2721,7 +2721,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Niuean",
-      "i": 303,
+      "i": 97994,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2730,7 +2730,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Tiwi",
-      "i": 304,
+      "i": 97995,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2757,7 +2757,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Murrinhpatha",
-      "i": 307,
+      "i": 97996,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2802,7 +2802,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kamilaroi",
-      "i": 312,
+      "i": 97997,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2838,7 +2838,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kiribati",
-      "i": 316,
+      "i": 97998,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2847,7 +2847,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Marshallese",
-      "i": 317,
+      "i": 97999,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2856,7 +2856,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Chuukese",
-      "i": 318,
+      "i": 98000,
       "min": 10,
       "max": 25,
       "d": "",
@@ -2874,7 +2874,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Yapese",
-      "i": 320,
+      "i": 98001,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2883,7 +2883,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Rarotongan",
-      "i": 321,
+      "i": 98002,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2901,7 +2901,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Nauru",
-      "i": 323,
+      "i": 98003,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2910,7 +2910,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Bislama",
-      "i": 324,
+      "i": 98004,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2919,7 +2919,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Anejom",
-      "i": 325,
+      "i": 98005,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2928,7 +2928,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Lenakel",
-      "i": 326,
+      "i": 98006,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2937,7 +2937,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kwamera",
-      "i": 327,
+      "i": 98007,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2946,7 +2946,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Nengone",
-      "i": 328,
+      "i": 98008,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2955,7 +2955,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Drehu",
-      "i": 329,
+      "i": 98009,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2964,7 +2964,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Xârâcùù",
-      "i": 330,
+      "i": 98010,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2973,7 +2973,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Jawe",
-      "i": 331,
+      "i": 98011,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2982,7 +2982,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Hinukh",
-      "i": 332,
+      "i": 98012,
       "min": 10,
       "max": 20,
       "d": "",
@@ -2991,7 +2991,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Lau",
-      "i": 333,
+      "i": 98013,
       "min": 10,
       "max": 20,
       "d": "",
@@ -3000,7 +3000,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Hawaiian Pidgin",
-      "i": 335,
+      "i": 98014,
       "min": 4,
       "max": 15,
       "d": "nic-GH",
@@ -3009,7 +3009,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Pijin",
-      "i": 336,
+      "i": 98015,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3018,7 +3018,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Rotuman",
-      "i": 337,
+      "i": 98016,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3027,7 +3027,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Norfuk",
-      "i": 338,
+      "i": 98017,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3036,7 +3036,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Bardi",
-      "i": 339,
+      "i": 98018,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3054,7 +3054,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Gurindji",
-      "i": 341,
+      "i": 98019,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3063,7 +3063,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Guugu Yimidhirr",
-      "i": 342,
+      "i": 98020,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3072,7 +3072,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Noongar",
-      "i": 343,
+      "i": 98021,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3081,7 +3081,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Asmat",
-      "i": 344,
+      "i": 98022,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3090,7 +3090,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Kokoda",
-      "i": 345,
+      "i": 98023,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3099,7 +3099,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Maisin",
-      "i": 346,
+      "i": 98024,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3108,7 +3108,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Motu",
-      "i": 347,
+      "i": 98025,
       "min": 4,
       "max": 12,
       "d": "nic-GH",
@@ -3117,7 +3117,7 @@ window.oceaniaNameBases = [
     },
     {
       "name": "Huli",
-      "i": 348,
+      "i": 98026,
       "min": 4,
       "max": 12,
       "d": "nic-GH",

@@ -21,7 +21,7 @@ window.unknownNameBases = [
   },
   {
     "name": "Jurchen",
-    "i": 1001,
+    "i": 98027,
     "min": 4,
     "max": 11,
     "d": "nic-GH",

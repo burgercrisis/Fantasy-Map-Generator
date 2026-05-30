@@ -93,7 +93,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Sanöma",
-      "i": 78,
+      "i": 97904,
       "min": 4,
       "max": 11,
       "d": "nic-GH",
@@ -1480,7 +1480,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Warao",
-      "i": 217,
+      "i": 97940,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1489,7 +1489,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Tucano",
-      "i": 218,
+      "i": 97941,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1498,7 +1498,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Barasana",
-      "i": 219,
+      "i": 97942,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1507,7 +1507,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Kawishana",
-      "i": 220,
+      "i": 97943,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1516,7 +1516,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Piratapuyo",
-      "i": 221,
+      "i": 97944,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1525,7 +1525,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Pemon",
-      "i": 222,
+      "i": 97945,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1534,7 +1534,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Yanomami",
-      "i": 223,
+      "i": 97946,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1543,7 +1543,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Hixkaryana",
-      "i": 224,
+      "i": 97947,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1552,7 +1552,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Karuk",
-      "i": 225,
+      "i": 97948,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1561,7 +1561,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Asháninka",
-      "i": 226,
+      "i": 97949,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1570,7 +1570,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Aguaruna",
-      "i": 227,
+      "i": 97950,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1579,7 +1579,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Kawishana",
-      "i": 228,
+      "i": 97951,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1588,7 +1588,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Chukot",
-      "i": 229,
+      "i": 97952,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1597,7 +1597,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Mocovi",
-      "i": 230,
+      "i": 97953,
       "min": 5,
       "max": 10,
       "d": "",
@@ -1606,7 +1606,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Kawishana",
-      "i": 231,
+      "i": 97954,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1615,7 +1615,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Kawishana",
-      "i": 232,
+      "i": 97955,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1624,7 +1624,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Chukot",
-      "i": 233,
+      "i": 97956,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1642,7 +1642,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Chak",
-      "i": 235,
+      "i": 97957,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1651,7 +1651,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Chaco",
-      "i": 236,
+      "i": 97958,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1660,7 +1660,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Mataco",
-      "i": 237,
+      "i": 97959,
       "min": 10,
       "max": 25,
       "d": "",
@@ -1669,7 +1669,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Guaraní",
-      "i": 238,
+      "i": 97960,
       "min": 10,
       "max": 30,
       "d": "",
@@ -1678,7 +1678,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Barasana-Edur",
-      "i": 239,
+      "i": 97961,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1687,7 +1687,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Kurripako",
-      "i": 240,
+      "i": 97962,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1696,7 +1696,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Kawishana",
-      "i": 241,
+      "i": 97963,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1705,7 +1705,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Toto",
-      "i": 242,
+      "i": 97964,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1714,7 +1714,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Wanai",
-      "i": 243,
+      "i": 97965,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1723,7 +1723,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Piaroa-Slanguages",
-      "i": 244,
+      "i": 97966,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1732,7 +1732,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Sikuani",
-      "i": 245,
+      "i": 97967,
       "min": 10,
       "max": 20,
       "d": "",
@@ -1741,7 +1741,7 @@ window.southAmericaNameBases = [
     },
     {
       "name": "Cubeo",
-      "i": 246,
+      "i": 97968,
       "min": 10,
       "max": 20,
       "d": "",

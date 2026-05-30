@@ -1,0 +1,776 @@
+[
+  {
+    "file": "namebases-asia.js",
+    "oldIndex": 1002,
+    "name": "Xibe",
+    "newIndex": 98028
+  },
+  {
+    "file": "namebases-asia.js",
+    "oldIndex": 1003,
+    "name": "Nanai",
+    "newIndex": 98029
+  },
+  {
+    "file": "namebases-asia.js",
+    "oldIndex": 1004,
+    "name": "Evenki",
+    "newIndex": 98030
+  },
+  {
+    "file": "namebases-asia.js",
+    "oldIndex": 1005,
+    "name": "Oroqen",
+    "newIndex": 98031
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 77,
+    "name": "Choctaw",
+    "newIndex": 97903
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 87,
+    "name": "Osage",
+    "newIndex": 97909
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 88,
+    "name": "Pawnee",
+    "newIndex": 97910
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 89,
+    "name": "Wichita",
+    "newIndex": 97911
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 94,
+    "name": "Ojibwe",
+    "newIndex": 97912
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 95,
+    "name": "Inuktitut",
+    "newIndex": 97913
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 96,
+    "name": "Dakota",
+    "newIndex": 97914
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 97,
+    "name": "Lakota",
+    "newIndex": 97915
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 103,
+    "name": "Miskito",
+    "newIndex": 97916
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 105,
+    "name": "Kuna",
+    "newIndex": 97917
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 108,
+    "name": "Ngabere",
+    "newIndex": 97918
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 109,
+    "name": "Embera",
+    "newIndex": 97919
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 110,
+    "name": "Waunana",
+    "newIndex": 97920
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 112,
+    "name": "Teribe",
+    "newIndex": 97921
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 113,
+    "name": "Haida",
+    "newIndex": 97922
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 115,
+    "name": "Tlingit",
+    "newIndex": 97923
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 116,
+    "name": "Inupiaq",
+    "newIndex": 97924
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 117,
+    "name": "Yupik",
+    "newIndex": 97925
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 118,
+    "name": "Aleut",
+    "newIndex": 97926
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 119,
+    "name": "Salish",
+    "newIndex": 97927
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 120,
+    "name": "Kootenai",
+    "newIndex": 97928
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 122,
+    "name": "Potawatomi",
+    "newIndex": 97929
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 124,
+    "name": "Abenaki",
+    "newIndex": 97930
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 125,
+    "name": "Mi'kmaq",
+    "newIndex": 97931
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 126,
+    "name": "Passamaquoddy",
+    "newIndex": 97932
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 127,
+    "name": "Maliseet",
+    "newIndex": 97933
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 128,
+    "name": "Cherokee",
+    "newIndex": 97934
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 129,
+    "name": "Chickasaw",
+    "newIndex": 97935
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 130,
+    "name": "Natchez",
+    "newIndex": 97936
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 131,
+    "name": "Catawba",
+    "newIndex": 97937
+  },
+  {
+    "file": "namebases-northAmerica.js",
+    "oldIndex": 132,
+    "name": "Yuchi",
+    "newIndex": 97938
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 78,
+    "name": "Sanöma",
+    "newIndex": 97904
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 217,
+    "name": "Warao",
+    "newIndex": 97940
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 218,
+    "name": "Tucano",
+    "newIndex": 97941
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 219,
+    "name": "Barasana",
+    "newIndex": 97942
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 220,
+    "name": "Kawishana",
+    "newIndex": 97943
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 221,
+    "name": "Piratapuyo",
+    "newIndex": 97944
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 222,
+    "name": "Pemon",
+    "newIndex": 97945
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 223,
+    "name": "Yanomami",
+    "newIndex": 97946
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 224,
+    "name": "Hixkaryana",
+    "newIndex": 97947
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 225,
+    "name": "Karuk",
+    "newIndex": 97948
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 226,
+    "name": "Asháninka",
+    "newIndex": 97949
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 227,
+    "name": "Aguaruna",
+    "newIndex": 97950
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 228,
+    "name": "Kawishana",
+    "newIndex": 97951
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 229,
+    "name": "Chukot",
+    "newIndex": 97952
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 230,
+    "name": "Mocovi",
+    "newIndex": 97953
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 231,
+    "name": "Kawishana",
+    "newIndex": 97954
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 232,
+    "name": "Kawishana",
+    "newIndex": 97955
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 233,
+    "name": "Chukot",
+    "newIndex": 97956
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 235,
+    "name": "Chak",
+    "newIndex": 97957
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 236,
+    "name": "Chaco",
+    "newIndex": 97958
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 237,
+    "name": "Mataco",
+    "newIndex": 97959
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 238,
+    "name": "Guaraní",
+    "newIndex": 97960
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 239,
+    "name": "Barasana-Edur",
+    "newIndex": 97961
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 240,
+    "name": "Kurripako",
+    "newIndex": 97962
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 241,
+    "name": "Kawishana",
+    "newIndex": 97963
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 242,
+    "name": "Toto",
+    "newIndex": 97964
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 243,
+    "name": "Wanai",
+    "newIndex": 97965
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 244,
+    "name": "Piaroa-Slanguages",
+    "newIndex": 97966
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 245,
+    "name": "Sikuani",
+    "newIndex": 97967
+  },
+  {
+    "file": "namebases-southAmerica.js",
+    "oldIndex": 246,
+    "name": "Cubeo",
+    "newIndex": 97968
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 79,
+    "name": "Tokelauan",
+    "newIndex": 97905
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 80,
+    "name": "Nauruan",
+    "newIndex": 97906
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 81,
+    "name": "Tok Pisin",
+    "newIndex": 97907
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 83,
+    "name": "Tuvaluan",
+    "newIndex": 97908
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 216,
+    "name": "Amis",
+    "newIndex": 97939
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 272,
+    "name": "Tok Pisin",
+    "newIndex": 97969
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 273,
+    "name": "Hiri Motu",
+    "newIndex": 97970
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 278,
+    "name": "Angal",
+    "newIndex": 97971
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 279,
+    "name": "Melpa",
+    "newIndex": 97972
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 280,
+    "name": "Kewa",
+    "newIndex": 97973
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 281,
+    "name": "Huli",
+    "newIndex": 97974
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 282,
+    "name": "Duna",
+    "newIndex": 97975
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 283,
+    "name": "Asaro",
+    "newIndex": 97976
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 284,
+    "name": "Kaluli",
+    "newIndex": 97977
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 285,
+    "name": "Mekeo",
+    "newIndex": 97978
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 286,
+    "name": "Koita",
+    "newIndex": 97979
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 287,
+    "name": "Kewa",
+    "newIndex": 97980
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 288,
+    "name": "Pitjantjatjara",
+    "newIndex": 97981
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 289,
+    "name": "Arrernte",
+    "newIndex": 97982
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 290,
+    "name": " Warlpiri",
+    "newIndex": 97983
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 291,
+    "name": "Pitjantjatjara",
+    "newIndex": 97984
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 292,
+    "name": "Yolŋu",
+    "newIndex": 97985
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 293,
+    "name": "Miriwoong",
+    "newIndex": 97986
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 294,
+    "name": "Gooniyandi",
+    "newIndex": 97987
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 295,
+    "name": "Walmajarri",
+    "newIndex": 97988
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 296,
+    "name": "Bunuba",
+    "newIndex": 97989
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 297,
+    "name": "Fijian",
+    "newIndex": 97990
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 298,
+    "name": "Samoan",
+    "newIndex": 97991
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 299,
+    "name": "Tongan",
+    "newIndex": 97992
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 300,
+    "name": "Maori",
+    "newIndex": 97993
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 303,
+    "name": "Niuean",
+    "newIndex": 97994
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 304,
+    "name": "Tiwi",
+    "newIndex": 97995
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 307,
+    "name": "Murrinhpatha",
+    "newIndex": 97996
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 312,
+    "name": "Kamilaroi",
+    "newIndex": 97997
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 316,
+    "name": "Kiribati",
+    "newIndex": 97998
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 317,
+    "name": "Marshallese",
+    "newIndex": 97999
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 318,
+    "name": "Chuukese",
+    "newIndex": 98000
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 320,
+    "name": "Yapese",
+    "newIndex": 98001
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 321,
+    "name": "Rarotongan",
+    "newIndex": 98002
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 323,
+    "name": "Nauru",
+    "newIndex": 98003
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 324,
+    "name": "Bislama",
+    "newIndex": 98004
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 325,
+    "name": "Anejom",
+    "newIndex": 98005
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 326,
+    "name": "Lenakel",
+    "newIndex": 98006
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 327,
+    "name": "Kwamera",
+    "newIndex": 98007
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 328,
+    "name": "Nengone",
+    "newIndex": 98008
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 329,
+    "name": "Drehu",
+    "newIndex": 98009
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 330,
+    "name": "Xârâcùù",
+    "newIndex": 98010
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 331,
+    "name": "Jawe",
+    "newIndex": 98011
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 332,
+    "name": "Hinukh",
+    "newIndex": 98012
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 333,
+    "name": "Lau",
+    "newIndex": 98013
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 335,
+    "name": "Hawaiian Pidgin",
+    "newIndex": 98014
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 336,
+    "name": "Pijin",
+    "newIndex": 98015
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 337,
+    "name": "Rotuman",
+    "newIndex": 98016
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 338,
+    "name": "Norfuk",
+    "newIndex": 98017
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 339,
+    "name": "Bardi",
+    "newIndex": 98018
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 341,
+    "name": "Gurindji",
+    "newIndex": 98019
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 342,
+    "name": "Guugu Yimidhirr",
+    "newIndex": 98020
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 343,
+    "name": "Noongar",
+    "newIndex": 98021
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 344,
+    "name": "Asmat",
+    "newIndex": 98022
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 345,
+    "name": "Kokoda",
+    "newIndex": 98023
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 346,
+    "name": "Maisin",
+    "newIndex": 98024
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 347,
+    "name": "Motu",
+    "newIndex": 98025
+  },
+  {
+    "file": "namebases-oceania.js",
+    "oldIndex": 348,
+    "name": "Huli",
+    "newIndex": 98026
+  },
+  {
+    "file": "namebases-unknown.js",
+    "oldIndex": 1001,
+    "name": "Jurchen",
+    "newIndex": 98027
+  }
+]
