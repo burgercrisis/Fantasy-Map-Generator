@@ -53,3 +53,4 @@ TEMP_DO_NOT_CREATE
 .trae
 .windsurf
 modules/backups/
+tmp_*
