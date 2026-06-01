@@ -1,7 +1,0 @@
-{
-  "setBases": {
-    "michif": [0, 1, 2],
-    "mohawk-dutch": [1, 2, 6],
-    "franglish": [1, 2]
-  }
-}

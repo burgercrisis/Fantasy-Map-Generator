@@ -1,9 +1,0 @@
-{
-  "description": "Wikipedia1 Americas Indigenous: break bases collisions via dedicatedPins for comanche/hopi/shoshoni/dih",
-  "dedicatedPins": {
-    "comanche": 7835,
-    "hopi": 7836,
-    "shoshoni": 7837,
-    "dih": 7838
-  }
-}

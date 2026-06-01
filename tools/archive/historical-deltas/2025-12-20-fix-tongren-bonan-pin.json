@@ -1,8 +1,0 @@
-{
-  "setBases": {
-    "tongren-bonan": [7785, 381]
-  },
-  "dedicatedPins": {
-    "tongren-bonan": 7785
-  }
-}

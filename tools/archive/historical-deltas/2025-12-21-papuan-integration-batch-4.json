@@ -1,8 +1,0 @@
-{
-  "name": "Papuan Integration - Batch 4",
-  "date": "2025-12-21",
-  "description": "Integrating 7 Papuan languages (Damal, Dem, Dibiyaso, Guriaso, Kaki Ae, Karami, Kehu) with dedicated unique bases.",
-  "operations": [
-    { "type": "dedicatedPins", "pins": { "uhn": 13797, "dem": 13798, "dby": 13799, "grx": 13800, "tbd": 13801, "xar": 13802, "khh": 13803 } }
-  ]
-}

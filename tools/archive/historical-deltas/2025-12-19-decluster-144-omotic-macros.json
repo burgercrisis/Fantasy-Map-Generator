@@ -1,9 +1,0 @@
-{
-  "setBases": {
-    "dizoid": [144, 311],
-    "gonga": [144, 312],
-    "mao-omotic": [17, 144],
-    "north-omotic": [18, 144],
-    "ometo": [17, 18, 144]
-  }
-}
