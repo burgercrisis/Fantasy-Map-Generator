@@ -1,11 +1,11 @@
-mixer-doctor run 2026-01-30T03:20:40.960Z
+mixer-doctor run 2026-06-01T02:34:47.906Z
 
 === report-lost-language-mappings (baselines) ===
 Wrote tools/mixer-diagnostics/_lost-languages-from-baselines.json
-Lost languages total: 0
-Lost from catalog: 0
-Lost from map: 0
-Lost from all: 0
+Lost languages total: 281
+Lost from catalog: 180
+Lost from map: 281
+Lost from all: 180
 Baselines used: 5
 
 === run-language-mixer-health ===
@@ -19,17 +19,17 @@ Total entries in JSON: 3526
 Total entries in language-mixes-all.js: 3526
 
 === check-language-mixer-coverage.js summary ===
-Total ISO codes in mixer map: 3526
+Total ISO codes in mixer map: 3425
 Total ISO codes in mixer catalog: 3526
 ISOs in map but missing from catalog (won't appear in dropdown): 0
 
 === check-language-mixer-failures.js summary ===
 === Markov mixer failure check ===
 Total catalog entries: 3526
-Languages that will fail in local mixer (no usable bases): 3425
+Languages that will fail in local mixer (no usable bases): 0
   - Missing mapping entries: 0
   - Mapped but bases array empty: 0
-  - Mapped but all bases invalid: 3425
+  - Mapped but all bases invalid: 0
 
 === check-language-mixer-name-duplicates.js summary ===
 === Exact duplicate language names in catalog ===
@@ -40,54 +40,46 @@ Names with duplicates: 0
 Total catalog entries: 3526
 
 === report-language-mixer-base-clusters.js summary ===
--- bases=[312] | base_names=[?] | members=4 --
-amharic-argobba | Amharic-Argobba | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
-argobba | Argobba | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
-harari | Harari | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
-harari-east-gurage | Harari-East Gurage | Horn of Africa | Harari-Argobba Ethio-Semitic | Afroasiatic | 
+-- bases=[10] | base_names=[Ancient Egyptian] | members=13 --
+western-pre-hilali-dialects | Western pre-Hilali dialects | Middle East | Maghrebi | Afroasiatic | dialect
+bimbashi-arabic | Bimbashi Arabic | Misc | Pidgin | Pidgin | pidgin
+bongor-arabic | Bongor Arabic | Misc | Other Arabic | Pidgin | pidgin,extinct
+bozal-spanish | Bozal Spanish | Misc | Spanish-based | Creole | creole,pidgin
+cappadocian-greek | Cappadocian Greek | Misc | Mixed | Mixed | mixed
+juba-arabic | Juba Arabic | Misc | Arabic-based | Creole | creole
+maridi-arabic | Maridi Arabic | Misc | Other Arabic | Pidgin | pidgin,extinct
+micronesian-pidgin-english | Micronesian Pidgin English | Misc | English-based | Pidgin | pidgin
+papuan-pidgin-english | Papuan Pidgin English | Misc | English-based | Pidgin | pidgin
+pretoria-sotho | Pretoria Sotho | Misc | Sotho-Tswana-based | Creole | creole
+solombala-english | Solombala-English | Misc | English-based | Pidgin | pidgin
+solomon-islands-pijin | Solomon Islands Pijin | Misc | English-based | Pidgin | pidgin
+turku-arabic | Turku Arabic | Misc | Other Arabic | Pidgin | pidgin,extinct
 
 
 === generate-language-integration-table ===
 
 [stderr]
-node:fs:440
+node:fs:436
     return binding.readFileUtf8(path, stringToFlags(options.flag));
                    ^
 
 Error: ENOENT: no such file or directory, open 'E:\code\Fantasy-Map-Generator\DEVplans\Languages-Status.md'
-    at Object.readFileSync (node:fs:440:20)
+    at Object.readFileSync (node:fs:436:20)
     at readText (E:\code\Fantasy-Map-Generator\tools\mixer-core\_report-utils.js:43:13)
     at parseWikiListPathsFromDevplan (E:\code\Fantasy-Map-Generator\tools\mixer-core\generate-language-integration-table.js:52:15)
     at main (E:\code\Fantasy-Map-Generator\tools\mixer-core\generate-language-integration-table.js:385:28)
     at Object.<anonymous> (E:\code\Fantasy-Map-Generator\tools\mixer-core\generate-language-integration-table.js:652:1)
-    at Module._compile (node:internal/modules/cjs/loader:1761:14)
-    at Object..js (node:internal/modules/cjs/loader:1893:10)
-    at Module.load (node:internal/modules/cjs/loader:1481:32)
-    at Module._load (node:internal/modules/cjs/loader:1300:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+    at Module._compile (node:internal/modules/cjs/loader:1811:14)
+    at Object..js (node:internal/modules/cjs/loader:1951:10)
+    at Module.load (node:internal/modules/cjs/loader:1532:32)
+    at Module._load (node:internal/modules/cjs/loader:1334:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19) {
   errno: -4058,
   code: 'ENOENT',
   syscall: 'open',
   path: 'E:\\code\\Fantasy-Map-Generator\\DEVplans\\Languages-Status.md'
 }
 
-Node.js v24.11.1
+Node.js v25.7.0
 
 
-=== report-language-history-totals ===
-Wrote tools/mixer-diagnostics/_language-history-totals.json
-Commits scanned: 230
-History totals:
-  catalog ISOs: 3706
-  map ISOs: 3706
-  all ISOs: 3706
-Current totals:
-  catalog ISOs: 3526
-  map ISOs: 3526
-  all ISOs: 3526
-Loss counts (history minus current):
-  from catalog: 180
-  from map: 180
-  from all: 180
-
-Skipping baseline snapshot due to prior failures.
