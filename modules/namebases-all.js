@@ -3,7 +3,6 @@
 (function () {
   // If no base arrays exist, check for continent files and merge them
   if (!window.realWorldNameBases && !window.fantasyNameBases) {
-    // Collect all continent namebases
     const continentArrays = [];
 
     if (window.africaNameBases) continentArrays.push(...window.africaNameBases);
@@ -14,7 +13,6 @@
     if (window.oceaniaNameBases) continentArrays.push(...window.oceaniaNameBases);
     if (window.unknownNameBases) continentArrays.push(...window.unknownNameBases);
 
-    // All continent data goes into realWorldNameBases for now
     window.realWorldNameBases = continentArrays;
   }
 
@@ -35,37 +33,59 @@
     return b.i > max ? b.i : max;
   }, 0);
 
-  const byIndex = new Array(maxIndex + 1);
-  const collisions = [];
+  const byIndex = new Map();
+  const skipped = []; // Type B: same-name duplicates
+  const reassigned = []; // Type C: different-name collisions
 
   for (const b of all) {
     if (!b || typeof b.i !== "number" || !Number.isFinite(b.i)) continue;
     const i = b.i;
-    if (byIndex[i]) {
-      collisions.push({ i, existing: byIndex[i].name, incoming: b.name });
-      // relocate to next free slot beyond current maxIndex
+
+    if (byIndex.has(i)) {
+      const existing = byIndex.get(i);
+
+      if (existing.name === b.name) {
+        // Type B: same name, same data — skip the duplicate
+        skipped.push({ i, name: b.name, file: b.file || "?" });
+        continue;
+      }
+
+      // Type C: different name — assign a new unique index
       let j = maxIndex + 1;
-      while (byIndex[j]) j++;
-      byIndex[j] = b;
+      while (byIndex.has(j)) j++;
+      byIndex.set(j, b);
       maxIndex = j > maxIndex ? j : maxIndex;
+      reassigned.push({ oldI: i, newI: j, name: b.name, displacedBy: existing.name });
       continue;
     }
-    byIndex[i] = b;
+
+    byIndex.set(i, b);
   }
 
-  if (collisions.length) {
+  // Convert Map to sparse array for backward compatibility
+  const maxKey = Math.max(...byIndex.keys());
+  const byIndexArray = new Array(maxKey + 1);
+  byIndex.forEach((v, k) => { byIndexArray[k] = v; });
+
+  if (skipped.length || reassigned.length) {
     console.warn(
-      "Namebase index collisions detected. Only the first base per index is used:",
-      collisions
+      "Namebase index collisions resolved:",
+      skipped.length, "duplicate(s) skipped,",
+      reassigned.length, "reassigned."
     );
+    if (reassigned.length) {
+      reassigned.forEach((r) => {
+        console.warn("  i=" + r.oldI + " -> " + r.newI + ': "' + r.name + '" (displaced by "' + r.displacedBy + '")');
+      });
+    }
   }
 
   // defaultNameBases gets a snapshot copy so runtime pushes to
   // window.nameBases (culture-mixer, race-mixer, editor) do not
   // mutate the backup used for save/restore gap-filling.
-  window.defaultNameBases = byIndex.slice();
-  window.nameBases = byIndex;
-  window.defaultNameBaseIds = byIndex.reduce((ids, b, i) => {
+  window.defaultNameBases = byIndexArray.slice();
+  window.nameBases = byIndexArray;
+  window.defaultNameBaseIds = byIndexArray.reduce((ids, b, i) => {
     if (b) ids.push(i);
     return ids;
   }, []);
