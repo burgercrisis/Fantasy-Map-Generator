@@ -2,6 +2,11 @@
 
 window.oceaniaNameBases = [
   
+
+
+
+
+
 {
     "name": "North Sarawakan",
   "i": 151,
@@ -217,15 +222,6 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Aiwo,Anabar,Anetan,Anibare,Baitsi,Boe,Buada,Denigomodu,Ewa,Ijuw,Meneng,Nibok,Uaboe,Yaren"
-},
-{
-    "name": "Tok Pisin",
-  "i": 97907,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Kokopo,Popondetta,Kimbe,Daru,Alotau,Vanimo,Kundiawa,Kavieng,Buka,Lorengau,Kerema,Aitape,Wabag,Kieta,Mendi,Tari,Buin,Kiunga,Tufi,Kikori,Ihu,Balimo,Ambunti"
 },
 {
     "name": "Tuvaluan",
@@ -1488,24 +1484,6 @@ window.oceaniaNameBases = [
   "b": "Bundi,Boni,Imuri,Gobug-Agu,Yandara,Kindaukevi,Karamuke,Simbai,Faita,Karawari,Yauso,Madang,Karkar,Bogia,Rai Coast,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema"
 },
 {
-    "name": "Hiri Motu",
-  "i": 1888,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Hanuabada,Porebada,Tatana,Baruni,Boera,Lea Lea,Kila Kila,Vabukori,Korobosea,Konedobu,Boroko,Waigani,Gerehu,Gordons,Tokarara,Six Mile,Nine Mile,Badihagwa,Hohola,Moresby South,Badili,Gabutu"
-},
-{
-    "name": "Huli",
-  "i": 1902,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Tari,Koroba,Kagua,Margarima,Nipa,Komo,Morobe,Koke"
-},
-{
     "name": "Humene",
   "i": 1903,
   "min": 4,
@@ -1558,15 +1536,6 @@ window.oceaniaNameBases = [
   "d": "",
   "m": 0,
   "b": "Menyamya,Kapao,Kome,Aseki,Nanima,Kariba,Wau,Bulolo,Edie Creek,Kaindi,Watut,Mumeng,Biaru,Sim,Akwansi,Andakombe,Azimba,Dangai,Gain,Hote,Iloko,Indagen,Kapau,Kumian,Mupi,Nauti,Oiwen,Quembu,Sawaneta,Tifalmin"
-},
-{
-    "name": "Hawaiian",
-  "i": 1936,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Honolulu,Hilo,Kahului,Lihue,Kailua,Kaneohe,Waipahu,Kihei,Wahiawa,Wailuku,Lahaina,Kapaa,Waimea,Makawao,Kula,Hanalei,Hana,Pupukea,Pearl City,Ewa Beach,Waianae,Nanakuli,Makaha,Waimanalo,Hauula"
 },
 {
     "name": "Inoke-Yate",
@@ -2017,15 +1986,6 @@ window.oceaniaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Rabaul,Madang,Lae,Kimbe,Kavieng,Lorengau,Alotau,Popondetta,Vanimo,Daru,Kerema,Kundiawa,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
-},
-{
-    "name": "Kewa",
-  "i": 2140,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Mendi,Ialibu,Pangia,Kagua,Margarima,Nipa,Komo,Morobe,Koke"
 },
 {
     "name": "Admiralty",
@@ -3250,5 +3210,59 @@ window.oceaniaNameBases = [
   "d": "",
   "m": 0,
   "b": "Tari,Mendi,Kopiago,Koroba,Komo,Margarima,Hewag,Pori,Fugwa,Pureni,Tani,Bogaya,Benaria,Hobia,Hungomo,Timbunki,Pimaga,Helia,Tagali,Hayapuga,Lake Kopiago,Karoma,Hangi,Bani,Duna,Hela Province"
+},
+{
+    "name": "Tok Pisin (Papua Coastal)",
+  "i": 22003,
+  "min": 4,
+  "max": 11,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Kokopo,Popondetta,Kimbe,Daru,Alotau,Vanimo,Kundiawa,Kavieng,Buka,Lorengau,Kerema,Aitape,Wabag,Kieta,Mendi,Tari,Buin,Kiunga,Tufi,Kikori,Ihu,Balimo,Ambunti"
+},
+{
+    "name": "Hiri Motu (Port Moresby Villages)",
+  "i": 22004,
+  "min": 4,
+  "max": 11,
+  "d": "",
+  "m": 0,
+  "b": "Hanuabada,Porebada,Tatana,Baruni,Boera,Lea Lea,Kila Kila,Vabukori,Korobosea,Konedobu,Boroko,Waigani,Gerehu,Gordons,Tokarara,Six Mile,Nine Mile,Badihagwa,Hohola,Moresby South,Badili,Gabutu"
+},
+{
+    "name": "Hawaiian (Oahu Neighbor Islands)",
+  "i": 22005,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Honolulu,Hilo,Kahului,Lihue,Kailua,Kaneohe,Waipahu,Kihei,Wahiawa,Wailuku,Lahaina,Kapaa,Waimea,Makawao,Kula,Hanalei,Hana,Pupukea,Pearl City,Ewa Beach,Waianae,Nanakuli,Makaha,Waimanalo,Hauula"
+},
+{
+    "name": "Huli (Tari Region)",
+  "i": 23008,
+  "min": 4,
+  "max": 11,
+  "d": "",
+  "m": 0,
+  "b": "Tari,Koroba,Kagua,Margarima,Nipa,Komo,Morobe,Koke"
+},
+{
+    "name": "Hawaiian (Island Cities)",
+  "i": 23009,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Honolulu,Hilo,Kahului,Lihue,Kailua,Kaneohe,Waipahu,Kihei,Wahiawa,Wailuku,Lahaina,Kapaa,Waimea,Makawao,Kula,Hanalei,Hana,Pupukea,Pearl City,Ewa Beach,Waianae,Nanakuli,Makaha,Waimanalo,Hauula"
+},
+{
+    "name": "Kewa (Southern Highlands Core)",
+  "i": 23010,
+  "min": 4,
+  "max": 11,
+  "d": "",
+  "m": 0,
+  "b": "Mendi,Ialibu,Pangia,Kagua,Margarima,Nipa,Komo,Morobe,Koke"
 }
 ];

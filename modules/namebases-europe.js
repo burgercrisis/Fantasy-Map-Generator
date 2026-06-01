@@ -2,6 +2,8 @@
 
 window.europeNameBases = [
   
+
+
 {
     "name": "Laiuse Romani",
   "i": 2315,
@@ -39,42 +41,6 @@ window.europeNameBases = [
   "b": "Temnikov,Insar,Krasnoslobodsk,Chamzinka,Zubova Polyana,Potma,Atyuryevo,Tengushevo,Staroye Gorodishche,Chamzinka-,Zubovo,Spassk,Shiryaevo,Bolshie Berezniki,Narovchat,Ichalki,Aturevo,Kadoshkino,Bolshoye Nagatkino,Kamchatka (Moksha village)"
 },
 {
-    "name": "Molisan",
-  "i": 339,
-  "min": 4,
-  "max": 11,
-  "d": "cltr",
-  "m": 0,
-  "b": "Campobasso,Isernia,Termoli,Venafro,Larino,Bojano,Agnone,Rionero,Pescasseroli,Capracotta"
-},
-{
-    "name": "Moselle Romance",
-  "i": 359,
-  "min": 4,
-  "max": 11,
-  "d": "nlrs",
-  "m": 0,
-  "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,ChÃ¢teau-Salins,Mo-Selle,Saulnois"
-},
-{
-    "name": "Benasquese",
-  "i": 380,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "BenasquÃ©,Fraga,Barbastro,BinÃ©far,BoltaÃ±a,MonzÃ³n"
-},
-{
-    "name": "Judeo-Aragonese",
-  "i": 455,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,MonzÃ³n,Teruel,AlcaÃ±iz,Binefar"
-},
-{
     "name": "Judeo-Catalan",
   "i": 456,
   "min": 4,
@@ -93,42 +59,6 @@ window.europeNameBases = [
   "b": "Bayonne,Biarritz,Dax,Mont-de-Marsan,Agen,Perigueux,Bergerac,Toulon,Grenoble,Angers,Dijon,Nîmes,Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier,Rennes,Lille,Reims,Le Havre"
 },
 {
-    "name": "Judeo-Italian",
-  "i": 458,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "Rome,Venice,Trieste,Milan,Florence,Livorno,Ancona,Genoa"
-},
-{
-    "name": "Judeo-Mantuan",
-  "i": 459,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "Mantova,Cremona,Verona,Brescia,Bergamo,Sirmione,Viadana,Suzzara"
-},
-{
-    "name": "Judeo-Piedmontese",
-  "i": 460,
-  "min": 4,
-  "max": 11,
-  "d": "cltr",
-  "m": 0,
-  "b": "Turin,Nice,Asti,Alessandria,Cuneo,Novara,Verbania,Biella"
-},
-{
-    "name": "Judeo-Portuguese",
-  "i": 461,
-  "min": 4,
-  "max": 11,
-  "d": "lrs",
-  "m": 0,
-  "b": "Porto,Lisbon,Faro,Braga,Coimbra,Ã‰vora,Beja,Funchal"
-},
-{
     "name": "Judeo-Spanish",
   "i": 463,
   "min": 4,
@@ -136,15 +66,6 @@ window.europeNameBases = [
   "d": "lr",
   "m": 0,
   "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,MÃ¡laga,Tenerife,Bilbao,LÃ©rida,CÃ¡diz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
-},
-{
-    "name": "Moldavian",
-  "i": 493,
-  "min": 4,
-  "max": 11,
-  "d": "lnr",
-  "m": 0,
-  "b": "ChiÈ™inÄƒu,BÄƒlÈ›i,Tiraspol,Bender,CÄƒlÄƒraÈ™i,Orhei,Soroca,Ungheni,Comrat,EdineÈ›,HÃ®nceÈ™ti,CuÈ™eni"
 },
 {
     "name": "Mozarabic",
@@ -948,15 +869,6 @@ window.europeNameBases = [
   "b": "Avellino,Atripalda,Mercogliano,Monteforte Irpino,Baiano,Avella,Sperone,Rocca,San Martino Valle Caudina,Cervinara,Rotondi,Ariano Irpino,Vallata,Melito Irpino,Greci,Savignano Irpino,Castel Baronia,San Nicola Baronia,Flumeri,Bovino,Orsara di Puglia,Troia,Foggia,Biccari,Alberona,Roseto Valfortore,San Bartolomeo in Galdo,San Marco dei Cavoti,Ginestra degli Schiavoni,San Giorgio La Molara,Molinara,Buonalbergo,Casalbore,Montecalvo Irpino,Grottolella,Prata di Principato Ultra,Pratola Serra,Altavilla Irpina,Tufo,Santa Paolina,Montefredane,Capriglia Irpino,Volturara Irpina"
 },
 {
-    "name": "Molisan",
-  "i": 21052,
-  "min": 4,
-  "max": 11,
-  "d": "cltr",
-  "m": 0,
-  "b": "Campobasso,Isernia,Termoli,Venafro,Larino,Bojano,Agnone,Rionero,Pescasseroli,Capracotta,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg,Duisburg,Bochum"
-},
-{
     "name": "Northern Calabrian",
   "i": 341,
   "min": 4,
@@ -1117,15 +1029,6 @@ window.europeNameBases = [
   "d": "nlrs",
   "m": 0,
   "b": "Toulouse,Montpellier,Nimes,Perpignan,Beziers,Narbonne,Carcassonne,Foix,Albi,Castres,Rodez,Mende,Paris,Lyon,Marseille,Nice,Nantes,Strasbourg,Bordeaux,Rennes,Lille,Reims,Le Havre"
-},
-{
-    "name": "Moselle Romance",
-  "i": 21053,
-  "min": 4,
-  "max": 11,
-  "d": "nlrs",
-  "m": 0,
-  "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,ChÃ¢teau-Salins,Mo-Selle,Saulnois,Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Venice,Verona,Messina"
 },
 {
     "name": "Orleanais",
@@ -1767,15 +1670,6 @@ window.europeNameBases = [
   "b": "Mustair,Santa Maria Val Mustair,Valchava,Fuldera,Liu,Tschierv,Liu-Tschierv,Fuldera-Daint,Valchava-Selva,Mustair-Plaun,Mustair-Baselgia,Santa Maria,Sta Maria,Val Mustair,Zernez,Susch,Lavin,Guarda,Ardez,Ftan,Tarasp,Scuol,Sent,Vna,Tschlin,Ramosch,Strada,Martina,Nauders,Pfunds,Spiss,Ladis,Fiss,Serfaus,Ried im Oberinntal,Prutz,Fendels,Kaunertal,Feichten,St Leonhard im Pitztal,Wenns,Jerzens,Solden,Vent,Obergurgl,Gries im Sulztal,Langenfeld,Umhausen,Sautens,Otztal-Bahnhof,Haiming,Haimingerberg,Roppen,Ambach,Oetz,Habichen,Winklen,Otztal"
 },
 {
-    "name": "Judeo-Aragonese",
-  "i": 21055,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,MonzÃ³n,Teruel,AlcaÃ±iz,Binefar,Madrid,Barcelona,Valencia,Seville,Málaga,Murcia,Palma,Bilbao,Alicante,Córdoba,Valladolid,Vigo,Gijón"
-},
-{
     "name": "Judeo-Catalan",
   "i": 21056,
   "min": 4,
@@ -2044,15 +1938,6 @@ window.europeNameBases = [
   "d": "lr",
   "m": 0,
   "b": "Miranda do Douro,Sendim,Mogadouro,Vimioso,Braganca,Freixo de Espada a Cinta,Torre de Moncorvo,Macedo de Cavaleiros,Alfandega da Fe,Mirandela,Vila Flor,Carrazeda de Ansiaes,Angueira,PalaÃ§oulo,Picote,Ifanes,Constantim,Cicouro,Paradela,SÃ£o Martinho de Angueira,Duas Igrejas,Malhadas,GenÃ­sio,Silva,Ãguas Vivas,Vila ChÃ£ de Braciosa"
-},
-{
-    "name": "Moldavian",
-  "i": 21064,
-  "min": 4,
-  "max": 11,
-  "d": "lnr",
-  "m": 0,
-  "b": "ChiÈ™inÄƒu,BÄƒlÈ›i,Tiraspol,Bender,CÄƒlÄƒraÈ™i,Orhei,Soroca,Ungheni,Comrat,EdineÈ›,HÃ®nceÈ™ti,CuÈ™eni,Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Brașov,Galați,Ploiești,Oradea,Brăila,Arad,Pitești"
 },
 {
     "name": "Mozarabic",
@@ -4843,5 +4728,77 @@ window.europeNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Mari,Merya,Muroma,Meshera,Ceremis,Osh,Viche,Shura,Kugu,Izzi,Porys,Er"
+},
+{
+    "name": "Benasquese (Benasque Valley)",
+  "i": 23004,
+  "min": 4,
+  "max": 11,
+  "d": "lr",
+  "m": 0,
+  "b": "BenasquÃ©,Fraga,Barbastro,BinÃ©far,BoltaÃ±a,MonzÃ³n"
+},
+{
+    "name": "Judeo-Italian (Standard)",
+  "i": 23005,
+  "min": 4,
+  "max": 11,
+  "d": "lr",
+  "m": 0,
+  "b": "Rome,Venice,Trieste,Milan,Florence,Livorno,Ancona,Genoa"
+},
+{
+    "name": "Judeo-Mantuan (Lombardy)",
+  "i": 23006,
+  "min": 4,
+  "max": 11,
+  "d": "lr",
+  "m": 0,
+  "b": "Mantova,Cremona,Verona,Brescia,Bergamo,Sirmione,Viadana,Suzzara"
+},
+{
+    "name": "Judeo-Piedmontese (Turin)",
+  "i": 23007,
+  "min": 4,
+  "max": 11,
+  "d": "cltr",
+  "m": 0,
+  "b": "Turin,Nice,Asti,Alessandria,Cuneo,Novara,Verbania,Biella"
+},
+{
+    "name": "Molisan (Molise)",
+  "i": 23011,
+  "min": 4,
+  "max": 11,
+  "d": "cltr",
+  "m": 0,
+  "b": "Campobasso,Isernia,Termoli,Venafro,Larino,Bojano,Agnone,Rionero,Pescasseroli,Capracotta"
+},
+{
+    "name": "Moselle Romance (Lorraine)",
+  "i": 23012,
+  "min": 4,
+  "max": 11,
+  "d": "nlrs",
+  "m": 0,
+  "b": "Metz,Thionville,Sarrebourg,Sarreguemines,Forbach,Boulay,Bouzonville,Saint-Avold,Bitche,ChÃ¢teau-Salins,Mo-Selle,Saulnois"
+},
+{
+    "name": "Moldavian (Moldova)",
+  "i": 23013,
+  "min": 4,
+  "max": 11,
+  "d": "lnr",
+  "m": 0,
+  "b": "ChiÈ™inÄƒu,BÄƒlÈ›i,Tiraspol,Bender,CÄƒlÄƒraÈ™i,Orhei,Soroca,Ungheni,Comrat,EdineÈ›,HÃ®nceÈ™ti,CuÈ™eni"
+},
+{
+    "name": "Judeo-Aragonese (Aragon)",
+  "i": 23014,
+  "min": 4,
+  "max": 11,
+  "d": "lr",
+  "m": 0,
+  "b": "Huesca,Jaca,Zaragoza,Tarazona,Calatayud,Barbastro,Fraga,MonzÃ³n,Teruel,AlcaÃ±iz,Binefar"
 }
 ];

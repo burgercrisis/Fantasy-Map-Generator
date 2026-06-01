@@ -2,6 +2,8 @@
 
 window.asiaNameBases = [
   
+
+
 {
     "name": "Arabic",
   "i": 17,
@@ -129,15 +131,6 @@ window.asiaNameBases = [
   "b": "Ahvaz,Masjed Soleyman,Izeh,Shushtar,Dezful,Andimeshk,Lali,Gotvand,Khorramshahr,Abadan,Behbahan,Ramhormoz"
 },
 {
-    "name": "Arabic",
-  "i": 930,
-  "min": 4,
-  "max": 11,
-  "d": "ae",
-  "m": 0,
-  "b": "Abha,Ajman,Alabar,Alarjam,Alashraf,Alawali,Albawadi,Albirk,Aldhabiyah,Alduwaid,Alfareeq,Algayed,Alhazim,Alhrateem,Alhudaydah,Alhuwaya,Aljahra,Aljubail,Alkhafah,Alkhalas,Alkhawaneej,Alkhen,Alkhobar,Alkhuznah,Allisafah,Almshaykh,Almurjan,Almuwayh,Almuzaylif,Alnaheem,Alnashifah,Alqah,Alqouz,Alqurayyat,Alradha,Alraqmiah,Alsadyah,Alsafa,Alshagab,Alshuqaiq,Alsilaa,Althafeer,Alwasqah,Amaq,Amran,Annaseem,Aqbiyah,Arafat,Arar,Ardah,Asfan,Ashayrah,Askar,Ayaar,Aziziyah,Baesh,Bahrah,Balhaf,Banizayd,Bidiyah,Bisha,Biyatah,Buqhayq,Burayda,Dafiyat,Damad,Dammam,Dariyah,Dhafar,Dhahran,Dhalkut,Dhurma,Dibab,Doha,Dukhan,Duwaibah,Enaker,Fadhla,Fahaheel,Fanateer,Farasan,Fardah,Fujairah,Ghalilah,Ghar,Ghizlan,Ghomgyah,Ghran,Hadiyah,Haffah,Hajanbah,Hajrah,Haqqaq,Haradh,Hasar,Hawiyah,Hebaa,Hefar,Hijal,Husnah,Huwailat,Huwaitah,Irqah,Isharah,Ithrah,Jamalah,Jarab,Jareef,Jazan,Jeddah,Jiblah,Jihanah,Jilah,Jizan,Joraibah,Juban,Jumeirah,Kamaran,Keyad,Khab,Khaiybar,Khasab,Khathirah,Khawarah,Khulais,Kumzar,Limah,Linah,Madrak,Mahab,Mahalah,Makhtar,Mashwar,Masirah,Masliyah,Mastabah,Mazhar,Medina,Meeqat,Mirbah,Mokhtara,Muharraq,Muladdah,Musaykah,Mushayrif,Musrah,Mussafah,Nafhan,Najran,Nakhab,Nizwa,Oman,Qadah,Qalhat,Qamrah,Qasam,Qosmah,Qurain,Quriyat,Qurwa,Radaa,Rafha,Rahlah,Rakamah,Rasheedah,Rasmadrakah,Risabah,Rustaq,Riyadh,Sabtaljarah,Sadah,Safinah,Saham,Saihat,Salalah,Salmiya,Shabwah,Shalim,Shaqra,Sharjah,Sharurah,Shatifiyah,Shidah,Shihar,Shoqra,Shuwaq,Sibah,Sihmah,Sinaw,Sirwah,Sohar,Suhailah,Sulaibiya,Sunbah,Tabuk,Taif,Taqah,Tarif,Tharban,Thuqbah,Thuwal,Tubarjal,Turaif,Turbah,Tuwaiq,Ubar,Umaljerem,Urayarah,Urwah,Wabrah,Warbah,Yabreen,Yadamah,Yafur,Yarim,Yemen,Yiyallah,Zabid,Zahwah,Zallaq,Zinjibar,Zulumah,Cairo,Alexandria,Baghdad,Khartoum,Damascus,Aleppo,Beirut,Amman,Casablanca,Tunis,Tripoli,Marrakesh,Algiers,Kuwait City,Manama,Dubai,Abu Dhabi,Muscat,Sanaa,Aden,Taiz,Hodeidah,Hail,Mecca,Basra,Mosul,Erbil,Najaf,Karbala,Nasiriyah,Diwaniyah,Kut,Hilla,Ramadi,Fallujah,Tikrit,Kirkuk,Sulaymaniyah,Duhok,Zahle,Sidon,Tyre,Nabatieh,Gaza,Hebron,Nablus,Jericho,Bethlehem,Rafah,Khan Younis,Jibalia,Suez,Port Said,Luxor,Aswan,Hurghada,Sharm El Sheikh,Marsa Matruh,Tanta,Mansoura,Zagazig,Marrakech,Fez,Rabat,Tangier,Oujda,Kenitra,Safi,Agadir,Laayoune,Dakhla,Benghazi,Misurata,Sirte,Sabha,Derna,Tobruk,Ghat,Zliten,Al Khums,Sfax,Sousse,Kairouan,Gabes,Medenine,Gafsa,Kasserine,Bizerte,Nabeul,Hammamet,Al Ain,Ras Al Khaimah,Umm Al Quwain,Jebel Ali,Al Ahmadi,Hawally,Sabah Al Salem,Jabriya,Mishref,Rumaithiya,Al Rayyan,Al Wakrah,Lusail,Al Khor,Al Thumama,Al Gharrafa,Al Shahaniya,Al Karaana,Khamis Mushait,Al Hofuf,Al Ahsa,Al Qatif,Yanbu,Al Wajh,Al Ula,Al Bad,Ibb,Seiyun,Shahr,Rada',Bayda,Abyan,Hadramawt,Mahrah,Socotra,Marib,Sa'dah,Al Jawfilla,Farwaniyah,Isa Town,Riffa,Sitra,Budaiya,Hamad Town,Zinj,Tubli,Sanad,Makkah,Madinah,Al Khobar,Jubail,Al Hudaydah,Mukalla,Al Jawf"
-},
-{
     "name": "Adeni Arabic",
   "i": 937,
   "min": 4,
@@ -246,15 +239,6 @@ window.asiaNameBases = [
   "b": "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh"
 },
 {
-    "name": "Arabic",
-  "i": 21017,
-  "min": 4,
-  "max": 11,
-  "d": "ae",
-  "m": 0,
-  "b": "Cairo,Baghdad,Riyadh,Mecca,Medina,Jersualem,Amman,Beirut,KuwaitCity,Manama,Doha,Muscat"
-},
-{
     "name": "Cairene Arabic",
   "i": 1460,
   "min": 4,
@@ -280,24 +264,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Mecca,Medina,Jeddah,Riyadh,Damascus,Baghdad,Cairo,Alexandria,Fustat,Kufa,Basra,Aden,Oman,Yemen,Hijaz,Najd,Hejaz,Tayma,Ubar,Zagros,Arabian Gulf,Persian Gulf,Red Sea,Mediterranean,Sinai"
-},
-{
-    "name": "Egyptian Arabic",
-  "i": 1756,
-  "min": 4,
-  "max": 11,
-  "d": "ae",
-  "m": 0,
-  "b": "Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,Beni Suef,Qena,Sohag,Hurghada,Kafr El Sheikh,Mallawi"
-},
-{
-    "name": "Egyptian Arabic",
-  "i": 1765,
-  "min": 4,
-  "max": 11,
-  "d": "ae",
-  "m": 0,
-  "b": "Cairo,Alexandria,Giza,Shubra El Kheima,Port Said,Suez,Luxor,Mansoura,El Mahalla El Kubra,Tanta,Asyut,Ismailia"
 },
 {
     "name": "Joseon Korean Early Modern",
@@ -345,15 +311,6 @@ window.asiaNameBases = [
   "b": "Makhachkala,Khasavyurt,Buinaksk,Izberbash,Kizilyurt,Karabudakhkent,Babayurt,Kayakent,Korkmaskala,Kumtorkala,Tarki,Leninkent,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
-    "name": "Adeni Arabic",
-  "i": 2355,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Aden,Crater,Tawahi,Maalla,Khormaksar,Mansoura,Sheikh Othman,Lahij,Zinjibar,Shuqra,Mukalla,Al Hudaydah"
-},
-{
     "name": "Levantine Arabic",
   "i": 2418,
   "min": 4,
@@ -388,15 +345,6 @@ window.asiaNameBases = [
   "d": "",
   "m": 0,
   "b": "Singapore,Chinatown,Toa Payoh,Bukit Timah,Bishan,Ang Mo Kio,Tampines,Bedok,Jurong,Woodlands,Yishun,Serangoon,Hougang,Punggol,Sengkang"
-},
-{
-    "name": "Arabic",
-  "i": 815,
-  "min": 4,
-  "max": 11,
-  "d": "ae",
-  "m": 0,
-  "b": "Abha,Ajman,Alabar,Alarjam,Alashraf,Alawali,Albawadi,Albirk,Aldhabiyah,Alduwaid,Alfareeq,Algayed,Alhazim,Alhrateem,Alhudaydah,Alhuwaya,Aljahra,Aljubail,Alkhafah,Alkhalas,Alkhawaneej,Alkhen,Alkhobar,Alkhuznah,Allisafah,Almshaykh,Almurjan,Almuwayh,Almuzaylif,Alnaheem,Alnashifah,Alqah,Alqouz,Alqurayyat,Alradha,Alraqmiah,Alsadyah,Alsafa,Alshagab,Alshuqaiq,Alsilaa,Althafeer,Alwasqah,Amaq,Amran,Annaseem,Aqbiyah,Arafat,Arar,Ardah,Asfan,Ashayrah,Askar,Ayaar,Aziziyah,Baesh,Bahrah,Balhaf,Banizayd,Bidiyah,Bisha,Biyatah,Buqhayq,Burayda,Dafiyat,Damad,Dammam,Dariyah,Dhafar,Dhahran,Dhalkut,Dhurma,Dibab,Doha,Dukhan,Duwaibah,Enaker,Fadhla,Fahaheel,Fanateer,Farasan,Fardah,Fujairah,Ghalilah,Ghar,Ghizlan,Ghomgyah,Ghran,Hadiyah,Haffah,Hajanbah,Hajrah,Haqqaq,Haradh,Hasar,Hawiyah,Hebaa,Hefar,Hijal,Husnah,Huwailat,Huwaitah,Irqah,Isharah,Ithrah,Jamalah,Jarab,Jareef,Jazan,Jeddah,Jiblah,Jihanah,Jilah,Jizan,Joraibah,Juban,Jumeirah,Kamaran,Keyad,Khab,Khaiybar,Khasab,Khathirah,Khawarah,Khulais,Kumzar,Limah,Linah,Madrak,Mahab,Mahalah,Makhtar,Mashwar,Masirah,Masliyah,Mastabah,Mazhar,Medina,Meeqat,Mirbah,Mokhtara,Muharraq,Muladdah,Musaykah,Mushayrif,Musrah,Mussafah,Nafhan,Najran,Nakhab,Nizwa,Oman,Qadah,Qalhat,Qamrah,Qasam,Qosmah,Qurain,Quriyat,Qurwa,Radaa,Rafha,Rahlah,Rakamah,Rasheedah,Rasmadrakah,Risabah,Rustaq,Riyadh,Sabtaljarah,Sadah,Safinah,Saham,Saihat,Salalah,Salmiya,Shabwah,Shalim,Shaqra,Sharjah,Sharurah,Shatifiyah,Shidah,Shihar,Shoqra,Shuwaq,Sibah,Sihmah,Sinaw,Sirwah,Sohar,Suhailah,Sulaibiya,Sunbah,Tabuk,Taif,Taqah,Tarif,Tharban,Thuqbah,Thuwal,Tubarjal,Turaif,Turbah,Tuwaiq,Ubar,Umaljerem,Urayarah,Urwah,Wabrah,Warbah,Yabreen,Yadamah,Yafur,Yarim,Yemen,Yiyallah,Zabid,Zahwah,Zallaq,Zinjibar,Zulumah,Cairo,Alexandria,Baghdad,Khartoum,Damascus,Aleppo,Beirut,Amman,Casablanca,Tunis,Tripoli,Marrakesh,Algiers,Kuwait City,Manama,Dubai,Abu Dhabi,Muscat,Sanaa,Aden,Taiz,Hodeidah,Hail,Mecca,Basra,Mosul,Erbil,Najaf,Karbala,Nasiriyah,Diwaniyah,Kut,Hilla,Ramadi,Fallujah,Tikrit,Kirkuk,Sulaymaniyah,Duhok,Zahle,Sidon,Tyre,Nabatieh,Gaza,Hebron,Nablus,Jericho,Bethlehem,Rafah,Khan Younis,Jibalia,Suez,Port Said,Luxor,Aswan,Hurghada,Sharm El Sheikh,Marsa Matruh,Tanta,Mansoura,Zagazig,Marrakech,Fez,Rabat,Tangier,Oujda,Kenitra,Safi,Agadir,Laayoune,Dakhla,Benghazi,Misurata,Sirte,Sabha,Derna,Tobruk,Ghat,Zliten,Al Khums,Sfax,Sousse,Kairouan,Gabes,Medenine,Gafsa,Kasserine,Bizerte,Nabeul,Hammamet,Al Ain,Ras Al Khaimah,Umm Al Quwain,Jebel Ali,Al Ahmadi,Hawally,Sabah Al Salem,Jabriya,Mishref,Rumaithiya,Al Rayyan,Al Wakrah,Lusail,Al Khor,Al Thumama,Al Gharrafa,Al Shahaniya,Al Karaana,Khamis Mushait,Al Hofuf,Al Ahsa,Al Qatif,Yanbu,Al Wajh,Al Ula,Al Bad,Ibb,Seiyun,Shahr,Rada',Bayda,Abyan,Hadramawt,Mahrah,Socotra,Marib,Sa'dah,Al Jawfilla,Farwaniyah,Isa Town,Riffa,Sitra,Budaiya,Hamad Town,Zinj,Tubli,Sanad,Makkah,Madinah,Al Khobar,Jubail,Al Hudaydah,Mukalla,Al Jawf"
 },
 {
     "name": "Central Plains Mandarin",
@@ -577,15 +525,6 @@ window.asiaNameBases = [
   "d": "",
   "m": 0,
   "b": "Chaiwan,Chingchung,Chinghoi,Chingsen,Chingshing,Chiunam,Chiuon,Chiuyeung,Chiyuen,Choihung,Chuehoi,Chuiman,Chungfu,Chungsan,Chunguktsuen,Dakhing,Daopo,Daumun,Dingwu,Dinpak,Donggun,Dongyuen,Duenchau,Fachau,Fanling,Fatgong,Fatshan,Fotan,Fuktien,Fumun,Funggong,Funghoi,Fungshun,Fungtei,Gamtin,Gochau,Goming,Gonghoi,Gongshing,Goyiu,Guangzhou,Hanghau,Hangmei,Hengon,Heungchau,Heunggong,Heungkiu,Hingning,Hohfuktong,Hoichue,Hoifung,Hoiping,Hokong,Hokshan,Hong Kong,Hoyuen,Hunghom,Hungshuikiu,Jiuling,Kamsheung,Kamwan,Kaulongtong,Keilun,Kinon,Kinsang,Kityeung,Kongmun,Kukgong,Kwaifong,Kwaihing,Kwongchau,Kwongling,Kwongming,Kwuntong,Laichikok,Laiking,Laiwan,Lamtei,Lamtin,Leitung,Leungking,Limkong,Linping,Linshan,Loding,Lokcheong,Lokfu,Longchuen,Longgong,Longmun,Longping,Longwa,Longwu,Lowu,Luichau,Lukfung,Lukho,Lungmun,Macheung,Maliushui,Maonshan,Mauming,Maunam,Meifoo,Mingkum,Mogong,Mongkok,Muichau,Muigong,Muiyuen,Naiwai,Namcheong,Namhoi,Namhong,Namsha,Nganwai,Ngautaukok,Ngchuen,Ngwa,Onting,Pakwun,Paotoishan,Pingshan,Pingyuen,Poklo,Pongon,Poning,Potau,Puito,Punyue,Saiwanho,Saiyingpun,Samshing,Samshui,Samtsen,Samyuenlei,Sanfung,Sanhing,Sanhui,Sanwai,Seiwui,Shamshuipo,Shanmei,Shantau,Shauking,Shekmun,Shekpai,Sheungshui,Shengkai,Shenzhen,Shingkui,Shiuhing,Shundak,Shunyi,Shupinwai,Simshing,Siuhei,Siuhong,Siukwan,Siulun,Suikai,Taihing,Taikoo,Taipo,Taishuihang,Taiwai,Taiwohau,Tinhau,Tinshuiwai,Tiukengleng,Toishan,Tongfong,Tonglowan,Tsakyoochung,Tsamgong,Tsangshing,Tseungkwano,Tsimshatsui,Tsinggong,Tsingshantsuen,Tsingwun,Tsingyi,Tsingyuen,Tsiuchau,Tsuenshekshan,Tsuenwan,Tuenmun,Tungchung,Waichap,Waichau,Waidong,Wailoi,Waishing,Waiyeung,Wanchai,Wanfau,Wanshing,Wingon,Wongpo,Wongtaisin,Woping,Wukaisha,Yano,Yaumatei,Yautong,Yenfa,Yeungchun,Yeungdong,Yeungsai,Yeungshan,Yimtin,Yingdak,Yiuping,Yongshing,Yongyuen,Yuenlong,Yuenshing,Yuetsau,Yuknam,Yunping,Zhongshan,Zhaoqing,Zhuhai"
-},
-{
-    "name": "Mongolian",
-  "i": 30,
-  "min": 5,
-  "max": 12,
-  "d": "aou",
-  "m": 0.3,
-  "b": "Adaatsag,Airag,Alag Erdene,Altai,Altanshiree,Altantsogts,Arbulag,Baatsagaan,Batnorov,Batshireet,Battsengel,Bayan Adarga,Bayan Agt,Bayanbulag,Bayandalai,Bayandun,Bayangovi,Bayanjargalan,Bayankhongor,Bayankhutag,Bayanlig,Bayanmonkh,Bayannur,Bayannuur,Bayan Ondor,Bayan Ovoo,Bayantal,Bayantsagaan,Bayantumen,Bayan Uul,Bayanzurkh,Berkh,Biger,Binder,Bogd,Bombogor,Bor Ondor,Bugat,Bugt,Bulgan,Buregkhangai,Burentogtokh,Buutsagaan,Buyant,Chandmani,Chandmani Ondor,Choibalsan,Chuluunkhoroot,Chuluut,Dadal,Dalanjargalan,Dalanzadgad,Darhan Muminggan,Darkhan,Darvi,Dashbalbar,Dashinchilen,Delger,Delgerekh,Delgerkhaan,Delgerkhangai,Delgertsogt,Deluun,Deren,Dorgon,Duut,Erdene,Erdenebulgan,Erdeneburen,Erdenedalai,Erdenemandal,Erdenetsogt,Galshar,Galt,Galuut,Govi Ugtaal,Gurvan,Gurvanbulag,Gurvansaikhan,Gurvanzagal,Hinggan,Hodong,Holingol,Hondlon,Horin Ger,Horqin,Hulunbuir,Hure,Ikhkhet,Ikh Tamir,Ikh Uul,Jargalan,Jargalant,Jargaltkhaan,Jarud,Jinst,Khairkhan,Khalhgol,Khaliun,Khanbogd,Khangai,Khangal,Khankh,Khankhongor,Khashaat,Khatanbulag,Khatgal,Kherlen,Khishig Ondor,Khokh,Kholonbuir,Khongor,Khotont,Khovd,Khovsgol,Khuld,Khureemaral,Khurmen,Khutag Ondor,Luus,Mandakh,Mandal Ovoo,Mankhan,Manlai,Matad,Mogod,Monkhkhairkhan,Moron,Most,Myangad,Nogoonnuur,Nomgon,Norovlin,Noyon,Ogii,Olgii,Olziit,Omnodelger,Ondorkhaan,Ondorshil,Ondor Ulaan,Ongniud,Ordos,Orgon,Orkhon,Rashaant,Renchinlkhumbe,Sagsai,Saikhan,Saikhandulaan,Saikhan Ovoo,Sainshand,Saintsagaan,Selenge,Sergelen,Sevrei,Sharga,Sharyngol,Shine Ider,Shinejinst,Shiveegovi,Sumber,Taishir,Tarialan,Tariat,Teshig,Togrog,Togtoh,Tolbo,Tomorbulag,Tonkhil,Tosontsengel,Tsagaandelger,Tsagaannuur,Tsagaan Ovoo,Tsagaan Uur,Tsakhir,Tseel,Tsengel,Tsenkher,Tsenkhermandal,Tsetseg,Tsetserleg,Tsogt,Tsogt Ovoo,Tsogttsetsii,Tumed,Tunel,Tuvshruulekh,Ulaanbadrakh,Ulaankhus,Ulaan Uul,Ulanhad,Ulanqab,Ulaanbaatar,Erdenet,Ulaangom,Uliastai,Mandalgovi,Uyench,Yesonbulag,Zag,Zalainur,Zamyn Uud,Zereg"
 },
 {
     "name": "Ahirani",
@@ -1488,51 +1427,6 @@ window.asiaNameBases = [
   "b": "Baku,Ganja,Sumgait,Lankaran,Mingachevir,Nakhchivan,Shaki,Shirvan,Khankendi,Quba,Shamakhi,Barda,Delhi,Mumbai,Bangalore,Hyderabad,Ahmedabad,Chennai,Kolkata,Surat,Jaipur,Lucknow,Kanpur,Nagpur,Indore"
 },
 {
-    "name": "Central Plains Mandarin",
-  "i": 21067,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "BeijBeijing"
-},
-{
-    "name": "Lan-Yin Mandarin",
-  "i": 21068,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "LanzLanzhou,Xining,Yinchuan,Xian,Baoji,Tianshui,Jiayuguan"
-},
-{
-    "name": "Northeastern Mandarin",
-  "i": 21069,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "ShenShenyang"
-},
-{
-    "name": "Southwestern Mandarin",
-  "i": 21070,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "ChenChengdu,Chongqing,Kunming,Guiyang,Leshan,Yibin,Luzhou,Zigong,Nanchong,Mianyang,Deyang,Yaan"
-},
-{
-    "name": "Lower Yangtze Mandarin",
-  "i": 21071,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "ShanShanghai,Suzhou,Hangzhou,Nanjing,Wuxi,Changzhou,Nantong,Yangzhou,Zhenjiang,Maanshan"
-},
-{
     "name": "Athpahariya (Athpare)",
   "i": 834,
   "min": 4,
@@ -1549,15 +1443,6 @@ window.asiaNameBases = [
   "d": "",
   "m": 0,
   "b": "TulsTulsipur,Dharan,Nepalgunj,Kalaiya,Jitpursimara,Tribhuvannagar,Bidur,Bhimeshwor,Birtamod,Damak,Lahan,Kamalamai"
-},
-{
-    "name": "Bahing",
-  "i": 21072,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "SurkSurkhet,Gulariya,Rajbiraj,Siraha,Hanumannagar,Gaighat,Okhaldhunga,Phidim,Ilam,Mechinagar,Kanchanpur,Krishnapur"
 },
 {
     "name": "Belhare",
@@ -2109,15 +1994,6 @@ window.asiaNameBases = [
   "b": "HaikHaikou,Sanya,Zhuhai,Shantou,Jiangmen,Zhanjiang,Beihai,Qinzhou,Fangchenggang,Dongxing,Chongzuo,Hezhou"
 },
 {
-    "name": "Baarin Mongol",
-  "i": 21022,
-  "min": 4,
-  "max": 11,
-  "d": "aou",
-  "m": 0,
-  "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur,Yangon,Mandalay,Naypyidaw,Bago,Mawlamyine,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha,Lashio"
-},
-{
     "name": "Babylonian",
   "i": 1016,
   "min": 4,
@@ -2289,15 +2165,6 @@ window.asiaNameBases = [
   "b": "LauhLauhut,Maluku,Ambon,Seram,Halmahera,Buru,Kai,Aru,Tanimbar,Maluku Islands,Kei Islands"
 },
 {
-    "name": "Bahrani Arabic",
-  "i": 21024,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "ManaManama,Riffa,Muharraq,Hamad Town,Isa Town,Sitra,Budaiya,A'ali,Madinat Hamad,Al Muharraq,Jidhafs"
-},
-{
     "name": "Baima",
   "i": 1075,
   "min": 4,
@@ -2388,15 +2255,6 @@ window.asiaNameBases = [
   "b": "Banjarmasin,Martapura,Kotabaru,Barito,Tapin,Hulu Sungai,Tanah Bumbu,Tanah Laut,Barih,Pelaihari,Rantau,Kintap,Sungai Loban,Sungai Durian,Bajaimas,Pamuka,Simpur,Karya,Bumi,Makmur,Jua,Mentaya,Sampit,Pulang Pisau,Gunung Mas,Kapuas,Murung,Barito Utara,Barito Selatan,Lamandau,Sukamara,Seruyan,Katingan,Palangkaraya,Pangkajene"
 },
 {
-    "name": "Bareqi Arabic",
-  "i": 21025,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "TaruTarut,Dammam,Al Khobar,Qatif,Al Jubail,Hofuf,Al Hasa,Abqaiq,Ras Tanura,Jubail,Haradh"
-},
-{
     "name": "Bargut",
   "i": 1126,
   "min": 4,
@@ -2449,15 +2307,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "ZinvZinvalani,Tusheti,Omalo,Mta,Tbatsvi,Tlivi,Vani,Kvaratsi,Oreli,Tsablata,Ingushetia,Vedeno"
-},
-{
-    "name": "Bayat Oirat",
-  "i": 21026,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "AltaAltay,Gorno-Altaysk,Biysk,Choy,Maima,Rubtsovskoy,Shebalino,Soloneshnoye,Turochak,Chemal,Ust-Kan"
 },
 {
     "name": "Toba Batak",
@@ -2566,15 +2415,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "MaolMaolan,Jianhe,Libo,Leishan,Taijiang,Liuzhi,Songtao,Danzhai,Guiyang,Guizhou,China"
-},
-{
-    "name": "Kuan",
-  "i": 21027,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "KuanKuan,Kaili,Danansai,Guizhou,Liuzhi,Qiandong,Zhenyuan,Songtao,Leigun,Rongjiang"
 },
 {
     "name": "Lao Nyo",
@@ -2710,15 +2550,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "DienDien Bien,Lai Chau,Son La,Hoa Binh,Thanh Hoa,Nghe An,Moc Chau,Yen Chau,Tuong Duong,Tan Ky,Nam Can,Ha Giang"
-},
-{
-    "name": "Beijing Mandarin",
-  "i": 21073,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "BeijBeijing,Shijiazhuang,Tongzhou,Tianjin,Shijingshan"
 },
 {
     "name": "Betanure Jewish Neo-Aramaic",
@@ -4692,15 +4523,6 @@ window.asiaNameBases = [
   "b": "hayehayeren,Yerevan,Gyumri,Vanadzor,Abovyan,Kapan,Armavir,Gavar,Ararat,Ashtarak,Ijevan"
 },
 {
-    "name": "Modern Eastern Armenian",
-  "i": 21031,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "ModeModern,Eastern,Armenian,Yerevan,Sevan,Gyumri,Tavush,Republic,of,Armenia,Caucasus"
-},
-{
     "name": "Modern Western Armenian",
   "i": 21081,
   "min": 4,
@@ -4809,15 +4631,6 @@ window.asiaNameBases = [
   "b": "UdupUdupi,Mangalore,Kasaragod,Kundapura,Karkala,Belthangady,Puttur,Sullia,Bantwal,Moodabidri,Mulki,Manjeshwar"
 },
 {
-    "name": "Kota",
-  "i": 21082,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "OotyOoty,Coonoor,Kotagiri,Gudalur,Wellington,Kundah,Pykara,Masinagudi,Mudumalai,Bandipur,Wayanad,Malappuram"
-},
-{
     "name": "Kudiya",
   "i": 1977,
   "min": 4,
@@ -4879,15 +4692,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju,Seoul,Busan,Incheon,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan"
-},
-{
-    "name": "Juk",
-  "i": 21033,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "SekoSekong,Lamam,Kaleum,Dakcheung,Thateng,Paksong,Attapeu,Saravane,Pakse,Champasak"
 },
 {
     "name": "Jirel",
@@ -5268,15 +5072,6 @@ window.asiaNameBases = [
   "b": "MirpMirpur-Khas,Sanghar,Umerkot,Tharparkar,Badin,Hyderabad,Tando-Allahyar,Tando-Adam,Shahdadpur,Khipro,Jamesabad,Digri"
 },
 {
-    "name": "Kumaoni",
-  "i": 21038,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "AlmoAlmora,Nainital,Pithoragarh,Champawat,Bageshwar,Ranikhet,Haldwani,Rudrapur,Kashipur,Jaspur,Khatima,Sitarganj"
-},
-{
     "name": "Kusunda",
   "i": 2143,
   "min": 4,
@@ -5401,15 +5196,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "AbakAbakan,Chernogorsk,Sayanogorsk,Abaza,Sorsk,Bely-Yar,Ust-Abakan,Shira,Kopievo,Tashtyp,Askiz,Biskamzha"
-},
-{
-    "name": "Khamnigan Mongol",
-  "i": 21039,
-  "min": 4,
-  "max": 11,
-  "d": "aou",
-  "m": 0,
-  "b": "HuluHulunbuir,Hailar,Evenk-Banner,Chen-Barag,Old-Barag,Ergun,Genhe,Manzhouli,Jalainur,Argun,Onon,Borzya"
 },
 {
     "name": "Khams Tibetan",
@@ -5628,15 +5414,6 @@ window.asiaNameBases = [
   "b": "KhamKhammam,Bhadrachalam,Paloncha,Kothagudem,Yellandu,Manuguru,Burgampahad,Pinapaka,Cherla,Dummagudem,Venkatapuram,Wazeed"
 },
 {
-    "name": "Kumhali",
-  "i": 21041,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "RamaRama,Krishna,Sita,Hari,Gopal,Devi,Maya,Bishnu,Shiva,Lakshmi"
-},
-{
     "name": "Kristang",
   "i": 2283,
   "min": 4,
@@ -5662,15 +5439,6 @@ window.asiaNameBases = [
   "d": "",
   "m": 0,
   "b": "KohiKohima,Dimapur,Mokokchung,Tuensang,Wokha,Zunheboto,Phek,Mon,Peren,Kiphire,Longleng,Noklak"
-},
-{
-    "name": "Kumhali (alias)",
-  "i": 21044,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "GorkGorkha,Tanahun,Nawalparasi,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Parbat,Baglung,Myagdi"
 },
 {
     "name": "Kunduvadi",
@@ -6202,15 +5970,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Itanagar,Naharlagun,Ziro,Daporijo,Aalo,Pasighat,Roing,Tezu,Anini,Yingkiong,Along,Basar,Likabali,Seppa,Bomdila,Tawang,Namsai,Changlang,Khonsa,Jairampur,Doimukh,Dirang,Bhalukpong,Rupa,Ruksin,Nongstoin"
-},
-{
-    "name": "Mandarin",
-  "i": 21048,
-  "min": 5,
-  "max": 10,
-  "d": "",
-  "m": 0,
-  "b": "BeijBeijing,Tianjin,Shijiazhuang,Zhengzhou,Wuhan,Changsha,Nanchang,Nanjing,Hefei,Jinan,Lanzhou,Xi'an,Chengdu,Chongqing,Kunming,Guiyang"
 },
 {
     "name": "Gan",
@@ -7435,5 +7194,14 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Mecca,Medina,Jeddah,Riyadh,Damascus,Baghdad,Cairo,Alexandria,Fustat,Kufa,Basra,Aden,Oman,Yemen,Hijaz,Najd,Hejaz,Tayma,Ubar,Zagros,Arabian Gulf,Persian Gulf,Red Sea,Mediterranean,Sinai"
+},
+{
+    "name": "Arabic (Gulf)",
+  "i": 23003,
+  "min": 4,
+  "max": 11,
+  "d": "ae",
+  "m": 0,
+  "b": "Cairo,Baghdad,Riyadh,Mecca,Medina,Jersualem,Amman,Beirut,KuwaitCity,Manama,Doha,Muscat"
 }
 ];

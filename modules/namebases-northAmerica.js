@@ -2,6 +2,8 @@
 
 window.NorthAmericaNameBases = [
   
+
+
 {
     "name": "Deg Xinag",
   "i": 1193,
@@ -28,15 +30,6 @@ window.NorthAmericaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Kumeyaay,Alpine,Potrero,Manzanita,Jamul,Barona,Sycuan,Viejas,San Diego,California,Tijuana,Mexico"
-},
-{
-    "name": "Cocopa",
-  "i": 1205,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "CocoCocopa,Somerton,Yuma,San Luis,Winterhaven,Fort Yuma,Wellton,Quartermaster Landing,Madrid,Ogilby,Imperial,El Centro"
 },
 {
     "name": "Chinantec",
