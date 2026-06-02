@@ -15,12 +15,15 @@ const CONTINENT_FILES = [
   "modules/namebases-fantasy.js"
 ];
 
-const CONTINENT_MAP = {};
-CONTINENT_FILES.forEach(f => {
-  const base = path.basename(f, ".js").replace("namebases-", "");
-  const capitalized = base.charAt(0).toUpperCase() + base.slice(1);
-  CONTINENT_MAP[f] = { name: base, arrayName: capitalized + "NameBases" };
-});
+const CONTINENT_MAP = {
+  "modules/namebases-africa.js":       { name: "africa",         arrayName: "africaNameBases" },
+  "modules/namebases-asia.js":         { name: "asia",           arrayName: "asiaNameBases" },
+  "modules/namebases-europe.js":       { name: "europe",         arrayName: "europeNameBases" },
+  "modules/namebases-northAmerica.js": { name: "northAmerica",   arrayName: "NorthAmericaNameBases" },
+  "modules/namebases-southAmerica.js": { name: "southAmerica",   arrayName: "SouthAmericaNameBases" },
+  "modules/namebases-oceania.js":      { name: "oceania",        arrayName: "oceaniaNameBases" },
+  "modules/namebases-fantasy.js":      { name: "fantasy",        arrayName: "fantasyNameBases" }
+};
 
 // ── Shared loader ────────────────────────────────────────────────────────────
 
@@ -31,7 +34,8 @@ function loadAllNamebases() {
     if (!fs.existsSync(full)) continue;
     const content = fs.readFileSync(full, "utf8");
     const context = { module: { exports: {} }, window: {} };
-    try { vm.runInContext(content, context, { filename: file }); } catch (e) { console.error(`Error loading ${file}: ${e.message}`); continue; }
+    const ctx = vm.createContext(context);
+    try { vm.runInContext(content, ctx, { filename: file }); } catch (e) { console.error(`Error loading ${file}: ${e.message}`); continue; }
     const { arrayName } = CONTINENT_MAP[file];
     const entries = context.window[arrayName];
     if (Array.isArray(entries)) {
@@ -46,7 +50,8 @@ function loadOneFile(file) {
   if (!fs.existsSync(full)) return [];
   const content = fs.readFileSync(full, "utf8");
   const context = { module: { exports: {} }, window: {} };
-  vm.runInContext(content, context, { filename: file });
+  const ctx = vm.createContext(context);
+  vm.runInContext(content, ctx, { filename: file });
   const { arrayName } = CONTINENT_MAP[file];
   return context.window[arrayName] || [];
 }
@@ -167,7 +172,7 @@ function cmdIntegrity() {
   console.log(`Index collisions: ${indexCollisions}`);
   console.log(`Name collisions: ${nameCollisions}`);
 
-  if (indexCollissions === 0 && nameCollisions === 0) console.log("\n✅ No collisions found.");
+  if (indexCollisions === 0 && nameCollisions === 0) console.log("\n✅ No collisions found.");
 }
 
 // ── Subcommand: validate ─────────────────────────────────────────────────────
@@ -188,8 +193,9 @@ function cmdValidate() {
 
     // JS syntax check
     const context = { module: { exports: {} }, window: {} };
+    const ctx = vm.createContext(context);
     try {
-      vm.runInContext(content, context, { filename: f });
+      vm.runInContext(content, ctx, { filename: f });
       const { arrayName } = CONTINENT_MAP[f];
       if (!Array.isArray(context.window[arrayName])) {
         console.error(`  STRUCTURE ERROR: ${f} missing ${arrayName} array`);
