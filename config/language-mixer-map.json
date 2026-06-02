@@ -116,7 +116,7 @@
   {
     "iso": "ajawa",
     "bases": [
-      2004
+      200000
     ]
   },
   {
@@ -128,7 +128,7 @@
   {
     "iso": "akan",
     "bases": [
-      2005
+      200001
     ]
   },
   {
@@ -170,7 +170,7 @@
   {
     "iso": "anca",
     "bases": [
-      545
+      200002
     ]
   },
   {
@@ -200,7 +200,7 @@
   {
     "iso": "atlas-berber",
     "bases": [
-      546
+      200003
     ]
   },
   {
@@ -416,7 +416,7 @@
   {
     "iso": "bebe",
     "bases": [
-      584
+      200004
     ]
   },
   {
@@ -434,7 +434,7 @@
   {
     "iso": "belneng",
     "bases": [
-      767
+      200005
     ]
   },
   {
@@ -446,13 +446,13 @@
   {
     "iso": "bembe-congo",
     "bases": [
-      596
+      200006
     ]
   },
   {
     "iso": "bembe-drc",
     "bases": [
-      608
+      200007
     ]
   },
   {
@@ -470,7 +470,7 @@
   {
     "iso": "besme",
     "bases": [
-      566
+      200008
     ]
   },
   {
@@ -488,13 +488,13 @@
   {
     "iso": "bidiyo",
     "bases": [
-      580
+      200009
     ]
   },
   {
     "iso": "bina",
     "bases": [
-      2473
+      200010
     ]
   },
   {
@@ -536,7 +536,7 @@
   {
     "iso": "biu-mandara",
     "bases": [
-      2010
+      200011
     ]
   },
   {
@@ -566,7 +566,7 @@
   {
     "iso": "bole-afroasiatic",
     "bases": [
-      2011
+      200012
     ]
   },
   {
@@ -584,7 +584,7 @@
   {
     "iso": "bole-tangale",
     "bases": [
-      2719
+      200013
     ]
   },
   {
@@ -596,7 +596,7 @@
   {
     "iso": "bomboli-bozaba",
     "bases": [
-      2012
+      200014
     ]
   },
   {
@@ -704,7 +704,7 @@
   {
     "iso": "bum",
     "bases": [
-      2013
+      200015
     ]
   },
   {
@@ -722,7 +722,7 @@
   {
     "iso": "buru-angwe",
     "bases": [
-      581
+      200016
     ]
   },
   {
@@ -800,7 +800,7 @@
   {
     "iso": "chakato",
     "bases": [
-      20300
+      200017
     ]
   },
   {
@@ -872,7 +872,7 @@
   {
     "iso": "dangaleat",
     "bases": [
-      3331
+      200018
     ]
   },
   {
@@ -1064,7 +1064,7 @@
   {
     "iso": "ekoka-kung",
     "bases": [
-      3256
+      200019
     ]
   },
   {
@@ -1088,7 +1088,7 @@
   {
     "iso": "esimbi",
     "bases": [
-      5258
+      200020
     ]
   },
   {
@@ -1148,13 +1148,13 @@
   {
     "iso": "fe-fe",
     "bases": [
-      5306
+      200021
     ]
   },
   {
     "iso": "fio",
     "bases": [
-      5310
+      200022
     ]
   },
   {
@@ -1196,7 +1196,7 @@
   {
     "iso": "fut",
     "bases": [
-      5360
+      200023
     ]
   },
   {
@@ -1238,7 +1238,7 @@
   {
     "iso": "gawar",
     "bases": [
-      3257
+      200024
     ]
   },
   {
@@ -1286,7 +1286,7 @@
   {
     "iso": "ghomala",
     "bases": [
-      20156
+      200025
     ]
   },
   {
@@ -1406,13 +1406,13 @@
   {
     "iso": "g-ui",
     "bases": [
-      20230
+      200026
     ]
   },
   {
     "iso": "hadza",
     "bases": [
-      5628
+      200027
     ]
   },
   {
@@ -1442,7 +1442,7 @@
   {
     "iso": "hausa-gwandara",
     "bases": [
-      5659
+      200028
     ]
   },
   {
@@ -1460,7 +1460,7 @@
   {
     "iso": "holma",
     "bases": [
-      20301
+      200029
     ]
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "iso": "huba",
     "bases": [
-      20124
+      200030
     ]
   },
   {
@@ -1496,91 +1496,91 @@
   {
     "iso": "jalaa",
     "bases": [
-      1337
+      200031
     ]
   },
   {
     "iso": "jara",
     "bases": [
-      5661
+      200032
     ]
   },
   {
     "iso": "jelkung",
     "bases": [
-      1338
+      200033
     ]
   },
   {
     "iso": "jibyal",
     "bases": [
-      3258
+      200034
     ]
   },
   {
     "iso": "jilbe",
     "bases": [
-      492
+      200035
     ]
   },
   {
     "iso": "jimi-language-cameroon",
     "bases": [
-      20502
+      200036
     ]
   },
   {
     "iso": "jimi-language-nigeria",
     "bases": [
-      20503
+      200037
     ]
   },
   {
     "iso": "jina",
     "bases": [
-      20504
+      200038
     ]
   },
   {
     "iso": "jonkor",
     "bases": [
-      20505
+      200039
     ]
   },
   {
     "iso": "ju-chadic",
     "bases": [
-      1103
+      200040
     ]
   },
   {
     "iso": "ju-hoan",
     "bases": [
-      5366
+      200041
     ]
   },
   {
     "iso": "kabalai",
     "bases": [
-      20512
+      200042
     ]
   },
   {
     "iso": "kajakse",
     "bases": [
-      20513
+      200043
     ]
   },
   {
     "iso": "kamwe",
     "bases": [
-      20514
+      200044
     ]
   },
   {
     "iso": "kanakuru",
     "bases": [
-      20515
+      200045
     ]
   },
   {
@@ -1592,25 +1592,25 @@
   {
     "iso": "karai-karai",
     "bases": [
-      20125
+      200046
     ]
   },
   {
     "iso": "kariya",
     "bases": [
-      20323
+      200047
     ]
   },
   {
     "iso": "kera-chadic",
     "bases": [
-      20516
+      200048
     ]
   },
   {
     "iso": "kholok",
     "bases": [
-      20324
+      200049
     ]
   },
   {
@@ -1628,7 +1628,7 @@
   {
     "iso": "kimre",
     "bases": [
-      5712
+      200050
     ]
   },
   {
@@ -1640,7 +1640,7 @@
   {
     "iso": "kir-balar",
     "bases": [
-      3259
+      200051
     ]
   },
   {
@@ -1652,13 +1652,13 @@
   {
     "iso": "kirya-konzal",
     "bases": [
-      20517
+      200052
     ]
   },
   {
     "iso": "koenoem",
     "bases": [
-      20518
+      200053
     ]
   },
   {
@@ -1676,7 +1676,7 @@
   {
     "iso": "kubi",
     "bases": [
-      20519
+      200054
     ]
   },
   {
@@ -1688,13 +1688,13 @@
   {
     "iso": "kulere",
     "bases": [
-      20520
+      200055
     ]
   },
   {
     "iso": "kulung-west-chadic-language",
     "bases": [
-      20521
+      200056
     ]
   },
   {
@@ -1706,19 +1706,19 @@
   {
     "iso": "kutto",
     "bases": [
-      20231
+      200057
     ]
   },
   {
     "iso": "kwaami",
     "bases": [
-      3260
+      200058
     ]
   },
   {
     "iso": "kwang-chadic",
     "bases": [
-      1228
+      200059
     ]
   },
   {
@@ -1730,19 +1730,19 @@
   {
     "iso": "lagwan",
     "bases": [
-      1230
+      200060
     ]
   },
   {
     "iso": "lamang",
     "bases": [
-      16
+      200061
     ]
   },
   {
     "iso": "lele-language-chad",
     "bases": [
-      500
+      200062
     ]
   },
   {
@@ -1772,7 +1772,7 @@
   {
     "iso": "lozi",
     "bases": [
-      20560
+      200063
     ]
   },
   {
@@ -1790,55 +1790,55 @@
   {
     "iso": "maaka",
     "bases": [
-      20564
+      200064
     ]
   },
   {
     "iso": "mabire",
     "bases": [
-      20587
+      200065
     ]
   },
   {
     "iso": "mada",
     "bases": [
-      20579
+      200066
     ]
   },
   {
     "iso": "mafa",
     "bases": [
-      20588
+      200067
     ]
   },
   {
     "iso": "majera",
     "bases": [
-      20589
+      200068
     ]
   },
   {
     "iso": "mlg",
     "bases": [
-      20590
+      200069
     ]
   },
   {
     "iso": "malagasy",
     "bases": [
-      20591
+      200070
     ]
   },
   {
     "iso": "malgbe",
     "bases": [
-      20593
+      200071
     ]
   },
   {
     "iso": "manding",
     "bases": [
-      20594
+      200072
     ]
   },
   {
@@ -1850,205 +1850,205 @@
   {
     "iso": "mantsi-language-nigeria",
     "bases": [
-      20581
+      200073
     ]
   },
   {
     "iso": "mao-omotic",
     "bases": [
-      20595
+      200074
     ]
   },
   {
     "iso": "marba",
     "bases": [
-      20583
+      200075
     ]
   },
   {
     "iso": "margi",
     "bases": [
-      20596
+      200076
     ]
   },
   {
     "iso": "margi-south",
     "bases": [
-      20598
+      200077
     ]
   },
   {
     "iso": "masa-chadic",
     "bases": [
-      20221
+      200078
     ]
   },
   {
     "iso": "masa-north",
     "bases": [
-      20599
+      200079
     ]
   },
   {
     "iso": "masa-south",
     "bases": [
-      20600
+      200080
     ]
   },
   {
     "iso": "maslam",
     "bases": [
-      20601
+      200081
     ]
   },
   {
     "iso": "masmaje",
     "bases": [
-      20602
+      200082
     ]
   },
   {
     "iso": "massa-chadic",
     "bases": [
-      20603
+      200083
     ]
   },
   {
     "iso": "matal",
     "bases": [
-      20604
+      200084
     ]
   },
   {
     "iso": "mawa-chadic",
     "bases": [
-      20605
+      200085
     ]
   },
   {
     "iso": "mazagway",
     "bases": [
-      20606
+      200086
     ]
   },
   {
     "iso": "mbara-language-chad",
     "bases": [
-      20582
+      200087
     ]
   },
   {
     "iso": "mbudum",
     "bases": [
-      20222
+      200088
     ]
   },
   {
     "iso": "mbuko",
     "bases": [
-      20227
+      200089
     ]
   },
   {
     "iso": "mburku",
     "bases": [
-      946
+      200090
     ]
   },
   {
     "iso": "mefele",
     "bases": [
-      20612
+      200091
     ]
   },
   {
     "iso": "mende",
     "bases": [
-      590
+      200092
     ]
   },
   {
     "iso": "merey",
     "bases": [
-      20613
+      200093
     ]
   },
   {
     "iso": "merico",
     "bases": [
-      241
+      200094
     ]
   },
   {
     "iso": "mesme",
     "bases": [
-      586
+      200095
     ]
   },
   {
     "iso": "migaama",
     "bases": [
-      587
+      200096
     ]
   },
   {
     "iso": "miler",
     "bases": [
-      242
+      200097
     ]
   },
   {
     "iso": "miltu",
     "bases": [
-      243
+      200098
     ]
   },
   {
     "iso": "mire",
     "bases": [
-      20228
+      200099
     ]
   },
   {
     "iso": "miship",
     "bases": [
-      588
+      200100
     ]
   },
   {
     "iso": "miya",
     "bases": [
-      245
+      200101
     ]
   },
   {
     "iso": "mofu-gudur",
     "bases": [
-      244
+      200102
     ]
   },
   {
     "iso": "mogum",
     "bases": [
-      20631
+      200103
     ]
   },
   {
     "iso": "mokilko",
     "bases": [
-      589
+      200104
     ]
   },
   {
     "iso": "moloko",
     "bases": [
-      246
+      200105
     ]
   },
   {
     "iso": "montol",
     "bases": [
-      20660
+      200106
     ]
   },
   {
@@ -2060,31 +2060,31 @@
   {
     "iso": "mozabite",
     "bases": [
-      1464
+      200107
     ]
   },
   {
     "iso": "mpade",
     "bases": [
-      20165
+      200108
     ]
   },
   {
     "iso": "mpre",
     "bases": [
-      1467
+      200109
     ]
   },
   {
     "iso": "mser",
     "bases": [
-      20718
+      200110
     ]
   },
   {
     "iso": "mubi-chadic",
     "bases": [
-      20665
+      200111
     ]
   },
   {
@@ -2096,73 +2096,73 @@
   {
     "iso": "mundat",
     "bases": [
-      20709
+      200112
     ]
   },
   {
     "iso": "musey",
     "bases": [
-      20721
+      200113
     ]
   },
   {
     "iso": "musgu",
     "bases": [
-      20722
+      200114
     ]
   },
   {
     "iso": "muskum",
     "bases": [
-      20723
+      200115
     ]
   },
   {
     "iso": "muyang",
     "bases": [
-      20726
+      200116
     ]
   },
   {
     "iso": "mwaghavul",
     "bases": [
-      20727
+      200117
     ]
   },
   {
     "iso": "mzab-wargla",
     "bases": [
-      20229
+      200118
     ]
   },
   {
     "iso": "nafusi",
     "bases": [
-      2027
+      200119
     ]
   },
   {
     "iso": "naq",
     "bases": [
-      20670
+      200120
     ]
   },
   {
     "iso": "nancere",
     "bases": [
-      20729
+      200121
     ]
   },
   {
     "iso": "nhr",
     "bases": [
-      20730
+      200122
     ]
   },
   {
     "iso": "ndam",
     "bases": [
-      20731
+      200123
     ]
   },
   {
@@ -2174,43 +2174,43 @@
   {
     "iso": "ngambay",
     "bases": [
-      20710
+      200124
     ]
   },
   {
     "iso": "ngamo",
     "bases": [
-      20711
+      200125
     ]
   },
   {
     "iso": "ngas",
     "bases": [
-      1667
+      200126
     ]
   },
   {
     "iso": "ngete-herde",
     "bases": [
-      20735
+      200127
     ]
   },
   {
     "iso": "nggwahyi",
     "bases": [
-      20736
+      200128
     ]
   },
   {
     "iso": "ngizim",
     "bases": [
-      1697
+      200129
     ]
   },
   {
     "iso": "ngwaba",
     "bases": [
-      1700
+      200130
     ]
   },
   {
@@ -2222,7 +2222,7 @@
   {
     "iso": "nkore",
     "bases": [
-      1731
+      200131
     ]
   },
   {
@@ -2234,13 +2234,13 @@
   {
     "iso": "north-giziga",
     "bases": [
-      1702
+      200132
     ]
   },
   {
     "iso": "north-mofu",
     "bases": [
-      1704
+      200133
     ]
   },
   {
@@ -2252,19 +2252,19 @@
   {
     "iso": "northern-berber",
     "bases": [
-      2028
+      200134
     ]
   },
   {
     "iso": "nteng",
     "bases": [
-      582
+      200135
     ]
   },
   {
     "iso": "nus",
     "bases": [
-      2030
+      200136
     ]
   },
   {
@@ -2276,19 +2276,19 @@
   {
     "iso": "nyam",
     "bases": [
-      1708
+      200137
     ]
   },
   {
     "iso": "nzanyi",
     "bases": [
-      1712
+      200138
     ]
   },
   {
     "iso": "nng",
     "bases": [
-      1720
+      200139
     ]
   },
   {
@@ -2306,7 +2306,7 @@
   {
     "iso": "omo-tana",
     "bases": [
-      1721
+      200140
     ]
   },
   {
@@ -2318,73 +2318,73 @@
   {
     "iso": "oromoid",
     "bases": [
-      1722
+      200141
     ]
   },
   {
     "iso": "paa-chadic",
     "bases": [
-      10433
+      200142
     ]
   },
   {
     "iso": "pali-chadic-language",
     "bases": [
-      10532
+      200143
     ]
   },
   {
     "iso": "pan-chadic",
     "bases": [
-      10533
+      200144
     ]
   },
   {
     "iso": "parkwa",
     "bases": [
-      10630
+      200145
     ]
   },
   {
     "iso": "pero",
     "bases": [
-      386
+      200146
     ]
   },
   {
     "iso": "peve",
     "bases": [
-      10384
+      200147
     ]
   },
   {
     "iso": "pichinglis",
     "bases": [
-      1736
+      200148
     ]
   },
   {
     "iso": "piya",
     "bases": [
-      1748
+      200149
     ]
   },
   {
     "iso": "poki",
     "bases": [
-      10633
+      200150
     ]
   },
   {
     "iso": "polci",
     "bases": [
-      1065
+      200151
     ]
   },
   {
     "iso": "proto-berber",
     "bases": [
-      10684
+      200152
     ]
   },
   {
@@ -2402,19 +2402,19 @@
   {
     "iso": "psikye-dialect",
     "bases": [
-      490
+      200153
     ]
   },
   {
     "iso": "putai",
     "bases": [
-      583
+      200154
     ]
   },
   {
     "iso": "pyapun",
     "bases": [
-      2032
+      200155
     ]
   },
   {
@@ -2426,7 +2426,7 @@
   {
     "iso": "rendille-boni",
     "bases": [
-      10838
+      200156
     ]
   },
   {
@@ -2438,7 +2438,7 @@
   {
     "iso": "ron-language",
     "bases": [
-      11037
+      200157
     ]
   },
   {
@@ -2456,7 +2456,7 @@
   {
     "iso": "saba-chadic-language",
     "bases": [
-      1782
+      200158
     ]
   },
   {
@@ -2468,7 +2468,7 @@
   {
     "iso": "saho-afar",
     "bases": [
-      10883
+      200159
     ]
   },
   {
@@ -2492,7 +2492,7 @@
   {
     "iso": "sandawe",
     "bases": [
-      1785
+      200160
     ]
   },
   {
@@ -2504,13 +2504,13 @@
   {
     "iso": "sar",
     "bases": [
-      10885
+      200161
     ]
   },
   {
     "iso": "sarua",
     "bases": [
-      10887
+      200162
     ]
   },
   {
@@ -2558,7 +2558,7 @@
   {
     "iso": "setlokwa",
     "bases": [
-      11189
+      200163
     ]
   },
   {
@@ -2570,7 +2570,7 @@
   {
     "iso": "sha-chadic",
     "bases": [
-      2033
+      200164
     ]
   },
   {
@@ -2588,13 +2588,13 @@
   {
     "iso": "sharwa",
     "bases": [
-      1854
+      200165
     ]
   },
   {
     "iso": "shenwa",
     "bases": [
-      2034
+      200166
     ]
   },
   {
@@ -2636,13 +2636,13 @@
   {
     "iso": "siri",
     "bases": [
-      696
+      200167
     ]
   },
   {
     "iso": "siri-chadic-language",
     "bases": [
-      1855
+      200168
     ]
   },
   {
@@ -2654,7 +2654,7 @@
   {
     "iso": "sokoro",
     "bases": [
-      1234
+      200169
     ]
   },
   {
@@ -2666,7 +2666,7 @@
   {
     "iso": "somrai",
     "bases": [
-      11236
+      200170
     ]
   },
   {
@@ -2690,7 +2690,7 @@
   {
     "iso": "south-banda",
     "bases": [
-      2512
+      200171
     ]
   },
   {
@@ -2702,13 +2702,13 @@
   {
     "iso": "south-cushitic",
     "bases": [
-      11238
+      200172
     ]
   },
   {
     "iso": "south-giziga",
     "bases": [
-      11239
+      200173
     ]
   },
   {
@@ -2720,13 +2720,13 @@
   {
     "iso": "southern-birifor",
     "bases": [
-      11281
+      200174
     ]
   },
   {
     "iso": "southern-gabri",
     "bases": [
-      11138
+      200175
     ]
   },
   {
@@ -2738,13 +2738,13 @@
   {
     "iso": "standard-algerian-berber",
     "bases": [
-      11282
+      200176
     ]
   },
   {
     "iso": "standard-moroccan-amazigh",
     "bases": [
-      11284
+      200177
     ]
   },
   {
@@ -2780,7 +2780,7 @@
   {
     "iso": "sukur-language",
     "bases": [
-      11285
+      200178
     ]
   },
   {
@@ -2834,7 +2834,7 @@
   {
     "iso": "taa",
     "bases": [
-      11286
+      200179
     ]
   },
   {
@@ -2852,7 +2852,7 @@
   {
     "iso": "tagdal-language",
     "bases": [
-      11287
+      200180
     ]
   },
   {
@@ -2870,19 +2870,19 @@
   {
     "iso": "tal",
     "bases": [
-      20000
+      200181
     ]
   },
   {
     "iso": "tala-chadic",
     "bases": [
-      11484
+      200182
     ]
   },
   {
     "iso": "talni",
     "bases": [
-      11631
+      200183
     ]
   },
   {
@@ -2894,25 +2894,25 @@
   {
     "iso": "tamahaq",
     "bases": [
-      2037
+      200184
     ]
   },
   {
     "iso": "tamasheq",
     "bases": [
-      20678
+      200185
     ]
   },
   {
     "iso": "tambas",
     "bases": [
-      20690
+      200186
     ]
   },
   {
     "iso": "tamki",
     "bases": [
-      20691
+      200187
     ]
   },
   {
@@ -2930,7 +2930,7 @@
   {
     "iso": "tawellemmet-language",
     "bases": [
-      1524
+      200188
     ]
   },
   {
@@ -2960,19 +2960,19 @@
   {
     "iso": "temne",
     "bases": [
-      11082
+      200189
     ]
   },
   {
     "iso": "tera-chadic",
     "bases": [
-      2038
+      200190
     ]
   },
   {
     "iso": "teshenawa",
     "bases": [
-      2039
+      200191
     ]
   },
   {
@@ -2990,7 +2990,7 @@
   {
     "iso": "tetserret-language",
     "bases": [
-      11332
+      200192
     ]
   },
   {
@@ -3008,7 +3008,7 @@
   {
     "iso": "tikar",
     "bases": [
-      11333
+      200193
     ]
   },
   {
@@ -3020,7 +3020,7 @@
   {
     "iso": "tiro",
     "bases": [
-      11334
+      200194
     ]
   },
   {
@@ -3032,7 +3032,7 @@
   {
     "iso": "tobanga",
     "bases": [
-      701
+      200195
     ]
   },
   {
@@ -3056,19 +3056,19 @@
   {
     "iso": "tonga-mozambique",
     "bases": [
-      11634
+      200196
     ]
   },
   {
     "iso": "tonga-zimbabwe-zambia-and-mozambique",
     "bases": [
-      11636
+      200197
     ]
   },
   {
     "iso": "toram",
     "bases": [
-      11638
+      200198
     ]
   },
   {
@@ -3104,19 +3104,19 @@
   {
     "iso": "tsotsitaal-and-camtho-aka-iscamtho",
     "bases": [
-      702
+      200199
     ]
   },
   {
     "iso": "tsuvan",
     "bases": [
-      703
+      200200
     ]
   },
   {
     "iso": "tswa",
     "bases": [
-      704
+      200201
     ]
   },
   {
@@ -3140,7 +3140,7 @@
   {
     "iso": "tumak",
     "bases": [
-      3125
+      200202
     ]
   },
   {
@@ -3158,7 +3158,7 @@
   {
     "iso": "tunisian-arabic",
     "bases": [
-      705
+      200203
     ]
   },
   {
@@ -3170,7 +3170,7 @@
   {
     "iso": "twi",
     "bases": [
-      1934
+      200204
     ]
   },
   {
@@ -3182,7 +3182,7 @@
   {
     "iso": "ubi",
     "bases": [
-      1881
+      200205
     ]
   },
   {
@@ -3200,13 +3200,13 @@
   {
     "iso": "vame",
     "bases": [
-      11435
+      200206
     ]
   },
   {
     "iso": "vemgo-mabas",
     "bases": [
-      20162
+      200207
     ]
   },
   {
@@ -3260,7 +3260,7 @@
   {
     "iso": "wandala",
     "bases": [
-      11581
+      200208
     ]
   },
   {
@@ -3278,13 +3278,13 @@
   {
     "iso": "warji",
     "bases": [
-      11583
+      200209
     ]
   },
   {
     "iso": "weh",
     "bases": [
-      1913
+      200210
     ]
   },
   {
@@ -3302,7 +3302,7 @@
   {
     "iso": "west-banda",
     "bases": [
-      2105
+      200211
     ]
   },
   {
@@ -3320,7 +3320,7 @@
   {
     "iso": "somali-western",
     "bases": [
-      13743
+      200212
     ]
   },
   {
@@ -3344,7 +3344,7 @@
   {
     "iso": "wuzlam",
     "bases": [
-      2166
+      200213
     ]
   },
   {
@@ -3368,13 +3368,13 @@
   {
     "iso": "yangere",
     "bases": [
-      13749
+      200214
     ]
   },
   {
     "iso": "yedina",
     "bases": [
-      13750
+      200215
     ]
   },
   {
@@ -3392,13 +3392,13 @@
   {
     "iso": "yeyi",
     "bases": [
-      13751
+      200216
     ]
   },
   {
     "iso": "yiwom",
     "bases": [
-      2282
+      200217
     ]
   },
   {
@@ -3416,7 +3416,7 @@
   {
     "iso": "yoruba",
     "bases": [
-      20166
+      200218
     ]
   },
   {
@@ -3428,7 +3428,7 @@
   {
     "iso": "zaghawa",
     "bases": [
-      13911
+      200219
     ]
   },
   {
@@ -3440,7 +3440,7 @@
   {
     "iso": "zari-chadic",
     "bases": [
-      13928
+      200220
     ]
   },
   {
@@ -3452,19 +3452,19 @@
   {
     "iso": "zeem-chadic",
     "bases": [
-      14041
+      200221
     ]
   },
   {
     "iso": "zemba",
     "bases": [
-      14042
+      200222
     ]
   },
   {
     "iso": "zenaga",
     "bases": [
-      2425
+      200223
     ]
   },
   {
@@ -3494,19 +3494,19 @@
   {
     "iso": "zirenkel",
     "bases": [
-      14045
+      200224
     ]
   },
   {
     "iso": "zizilivakan",
     "bases": [
-      14164
+      200225
     ]
   },
   {
     "iso": "zulgo-gemzek",
     "bases": [
-      13946
+      200226
     ]
   },
   {
@@ -3518,25 +3518,25 @@
   {
     "iso": "zumaya",
     "bases": [
-      2509
+      200227
     ]
   },
   {
     "iso": "zumbun",
     "bases": [
-      14137
+      200228
     ]
   },
   {
     "iso": "kx-ao-ae",
     "bases": [
-      14136
+      200229
     ]
   },
   {
     "iso": "amkoe",
     "bases": [
-      2647
+      200230
     ]
   },
   {
@@ -3560,7 +3560,7 @@
   {
     "iso": "spanglish",
     "bases": [
-      765
+      200231
     ]
   },
   {
@@ -3620,19 +3620,19 @@
   {
     "iso": "naukan",
     "bases": [
-      1304
+      200232
     ]
   },
   {
     "iso": "sirenik",
     "bases": [
-      8111
+      200233
     ]
   },
   {
     "iso": "yuit",
     "bases": [
-      1829
+      200234
     ]
   },
   {
@@ -3650,13 +3650,13 @@
   {
     "iso": "aot",
     "bases": [
-      740
+      200235
     ]
   },
   {
     "iso": "achhami-doteli",
     "bases": [
-      751
+      200236
     ]
   },
   {
@@ -3710,7 +3710,7 @@
   {
     "iso": "alak-bahnaric",
     "bases": [
-      50008
+      200237
     ]
   },
   {
@@ -3728,13 +3728,13 @@
   {
     "iso": "alchuka",
     "bases": [
-      766
+      200238
     ]
   },
   {
     "iso": "allar",
     "bases": [
-      50009
+      200239
     ]
   },
   {
@@ -3764,7 +3764,7 @@
   {
     "iso": "ambonese-malay",
     "bases": [
-      316
+      200240
     ]
   },
   {
@@ -3782,7 +3782,7 @@
   {
     "iso": "anp",
     "bases": [
-      792
+      200241
     ]
   },
   {
@@ -3812,13 +3812,13 @@
   {
     "iso": "attapady-kurumba",
     "bases": [
-      808
+      200242
     ]
   },
   {
     "iso": "awadhi",
     "bases": [
-      806
+      200243
     ]
   },
   {
@@ -3830,7 +3830,7 @@
   {
     "iso": "baba-malay",
     "bases": [
-      813
+      200244
     ]
   },
   {
@@ -3848,7 +3848,7 @@
   {
     "iso": "bfy",
     "bases": [
-      814
+      200245
     ]
   },
   {
@@ -3884,25 +3884,25 @@
   {
     "iso": "baitadeli-doteli",
     "bases": [
-      169
+      200246
     ]
   },
   {
     "iso": "bajhangi-doteli",
     "bases": [
-      858
+      200247
     ]
   },
   {
     "iso": "vjk",
     "bases": [
-      859
+      200248
     ]
   },
   {
     "iso": "bajureli-doteli",
     "bases": [
-      293
+      200249
     ]
   },
   {
@@ -3914,7 +3914,7 @@
   {
     "iso": "balinese-malay",
     "bases": [
-      869
+      200250
     ]
   },
   {
@@ -3950,7 +3950,7 @@
   {
     "iso": "banda-malay",
     "bases": [
-      899
+      200251
     ]
   },
   {
@@ -3962,7 +3962,7 @@
   {
     "iso": "x-nepal-bankariya",
     "bases": [
-      802
+      200252
     ]
   },
   {
@@ -4046,7 +4046,7 @@
   {
     "iso": "be-jizhao",
     "bases": [
-      1643
+      200253
     ]
   },
   {
@@ -4076,7 +4076,7 @@
   {
     "iso": "betawi",
     "bases": [
-      952
+      200254
     ]
   },
   {
@@ -4100,13 +4100,13 @@
   {
     "iso": "bhojpuri",
     "bases": [
-      834
+      200255
     ]
   },
   {
     "iso": "biao-kam-sui",
     "bases": [
-      1014
+      200256
     ]
   },
   {
@@ -4244,7 +4244,7 @@
   {
     "iso": "bee",
     "bases": [
-      1018
+      200257
     ]
   },
   {
@@ -4262,19 +4262,19 @@
   {
     "iso": "cao-lan",
     "bases": [
-      1149
+      200258
     ]
   },
   {
     "iso": "cao-miao",
     "bases": [
-      1249
+      200259
     ]
   },
   {
     "iso": "car-nicobarese",
     "bases": [
-      836
+      200260
     ]
   },
   {
@@ -4304,7 +4304,7 @@
   {
     "iso": "chakhar",
     "bases": [
-      1028
+      200261
     ]
   },
   {
@@ -4316,7 +4316,7 @@
   {
     "iso": "rab",
     "bases": [
-      1075
+      200262
     ]
   },
   {
@@ -4346,7 +4346,7 @@
   {
     "iso": "cdm",
     "bases": [
-      1076
+      200263
     ]
   },
   {
@@ -4406,7 +4406,7 @@
   {
     "iso": "chrau-bahnaric",
     "bases": [
-      20501
+      200264
     ]
   },
   {
@@ -4424,7 +4424,7 @@
   {
     "iso": "xct",
     "bases": [
-      2653
+      200265
     ]
   },
   {
@@ -4448,7 +4448,7 @@
   {
     "iso": "dadeldhuri-doteli",
     "bases": [
-      1247
+      200266
     ]
   },
   {
@@ -4460,7 +4460,7 @@
   {
     "iso": "daman",
     "bases": [
-      1248
+      200267
     ]
   },
   {
@@ -4478,7 +4478,7 @@
   {
     "iso": "dwz",
     "bases": [
-      1148
+      200268
     ]
   },
   {
@@ -4490,7 +4490,7 @@
   {
     "iso": "darchuleli-doteli",
     "bases": [
-      1100
+      200269
     ]
   },
   {
@@ -4502,7 +4502,7 @@
   {
     "iso": "darkhad",
     "bases": [
-      1122
+      200270
     ]
   },
   {
@@ -4514,13 +4514,13 @@
   {
     "iso": "dagur",
     "bases": [
-      835
+      200271
     ]
   },
   {
     "iso": "deh",
     "bases": [
-      1019
+      200272
     ]
   },
   {
@@ -4532,7 +4532,7 @@
   {
     "iso": "mki",
     "bases": [
-      1020
+      200273
     ]
   },
   {
@@ -4550,13 +4550,13 @@
   {
     "iso": "dhd",
     "bases": [
-      1021
+      200274
     ]
   },
   {
     "iso": "dili-malay",
     "bases": [
-      1377
+      200275
     ]
   },
   {
@@ -4568,7 +4568,7 @@
   {
     "iso": "diu",
     "bases": [
-      1126
+      200276
     ]
   },
   {
@@ -4592,7 +4592,7 @@
   {
     "iso": "x-nepal-done",
     "bases": [
-      1127
+      200277
     ]
   },
   {
@@ -4640,7 +4640,7 @@
   {
     "iso": "drq",
     "bases": [
-      2642
+      200278
     ]
   },
   {
@@ -4682,7 +4682,7 @@
   {
     "iso": "ekhirit-bulagat-buryat",
     "bases": [
-      116
+      200279
     ]
   },
   {
@@ -4760,7 +4760,7 @@
   {
     "iso": "ghr",
     "bases": [
-      1384
+      200280
     ]
   },
   {
@@ -4820,7 +4820,7 @@
   {
     "iso": "ha-em",
     "bases": [
-      1250
+      200281
     ]
   },
   {
@@ -4832,19 +4832,19 @@
   {
     "iso": "hagei",
     "bases": [
-      1143
+      200282
     ]
   },
   {
     "iso": "hailar-dagur",
     "bases": [
-      1160
+      200283
     ]
   },
   {
     "iso": "haj",
     "bases": [
-      2742
+      200284
     ]
   },
   {
@@ -4856,19 +4856,19 @@
   {
     "iso": "halang-bahnaric",
     "bases": [
-      837
+      200285
     ]
   },
   {
     "iso": "hlb",
     "bases": [
-      2592
+      200286
     ]
   },
   {
     "iso": "hoj",
     "bases": [
-      1030
+      200287
     ]
   },
   {
@@ -4880,7 +4880,7 @@
   {
     "iso": "haz",
     "bases": [
-      1238
+      200288
     ]
   },
   {
@@ -4904,7 +4904,7 @@
   {
     "iso": "hnd",
     "bases": [
-      1278
+      200289
     ]
   },
   {
@@ -4928,31 +4928,31 @@
   {
     "iso": "hoc",
     "bases": [
-      1277
+      200290
     ]
   },
   {
     "iso": "ho-munda",
     "bases": [
-      1297
+      200291
     ]
   },
   {
     "iso": "hokchiu",
     "bases": [
-      1299
+      200292
     ]
   },
   {
     "iso": "hokkaido-ainu",
     "bases": [
-      1368
+      200293
     ]
   },
   {
     "iso": "hokkaido-dialects",
     "bases": [
-      1273
+      200294
     ]
   },
   {
@@ -4964,7 +4964,7 @@
   {
     "iso": "hre",
     "bases": [
-      1342
+      200295
     ]
   },
   {
@@ -4976,7 +4976,7 @@
   {
     "iso": "scp",
     "bases": [
-      1272
+      200296
     ]
   },
   {
@@ -5018,7 +5018,7 @@
   {
     "iso": "mvy",
     "bases": [
-      1353
+      200297
     ]
   },
   {
@@ -5042,13 +5042,13 @@
   {
     "iso": "jdg",
     "bases": [
-      1355
+      200298
     ]
   },
   {
     "iso": "jnd",
     "bases": [
-      1356
+      200299
     ]
   },
   {
@@ -5060,7 +5060,7 @@
   {
     "iso": "jpn-lang",
     "bases": [
-      876
+      200300
     ]
   },
   {
@@ -5072,13 +5072,13 @@
   {
     "iso": "anq",
     "bases": [
-      1330
+      200301
     ]
   },
   {
     "iso": "jeh-bahnaric",
     "bases": [
-      1365
+      200302
     ]
   },
   {
@@ -5096,7 +5096,7 @@
   {
     "iso": "jiamao",
     "bases": [
-      1161
+      200303
     ]
   },
   {
@@ -5108,19 +5108,19 @@
   {
     "iso": "jizhao",
     "bases": [
-      1374
+      200304
     ]
   },
   {
     "iso": "jog",
     "bases": [
-      1375
+      200305
     ]
   },
   {
     "iso": "jru-bahnaric",
     "bases": [
-      1376
+      200306
     ]
   },
   {
@@ -5132,7 +5132,7 @@
   {
     "iso": "jml",
     "bases": [
-      1382
+      200307
     ]
   },
   {
@@ -5144,7 +5144,7 @@
   {
     "iso": "jurchenic",
     "bases": [
-      1147
+      200308
     ]
   },
   {
@@ -5168,19 +5168,19 @@
   {
     "iso": "kaco-bahnaric",
     "bases": [
-      1391
+      200309
     ]
   },
   {
     "iso": "kadar-dravidian",
     "bases": [
-      992
+      200310
     ]
   },
   {
     "iso": "syw",
     "bases": [
-      2637
+      200311
     ]
   },
   {
@@ -5216,7 +5216,7 @@
   {
     "iso": "xka",
     "bases": [
-      1403
+      200312
     ]
   },
   {
@@ -5228,19 +5228,19 @@
   {
     "iso": "kaloeng",
     "bases": [
-      122
+      200313
     ]
   },
   {
     "iso": "kam-dong",
     "bases": [
-      1433
+      200314
     ]
   },
   {
     "iso": "kam-sui",
     "bases": [
-      1458
+      200315
     ]
   },
   {
@@ -5252,7 +5252,7 @@
   {
     "iso": "xvi",
     "bases": [
-      1484
+      200316
     ]
   },
   {
@@ -5264,7 +5264,7 @@
   {
     "iso": "xnr",
     "bases": [
-      1060
+      200317
     ]
   },
   {
@@ -5300,7 +5300,7 @@
   {
     "iso": "kasong",
     "bases": [
-      1621
+      200318
     ]
   },
   {
@@ -5318,19 +5318,19 @@
   {
     "iso": "katu",
     "bases": [
-      1435
+      200319
     ]
   },
   {
     "iso": "katua-bahnaric",
     "bases": [
-      1553
+      200320
     ]
   },
   {
     "iso": "kayong-bahnaric",
     "bases": [
-      854
+      200321
     ]
   },
   {
@@ -5342,7 +5342,7 @@
   {
     "iso": "x-nepal-kewarat",
     "bases": [
-      124
+      200322
     ]
   },
   {
@@ -5366,7 +5366,7 @@
   {
     "iso": "khalkha",
     "bases": [
-      1556
+      200323
     ]
   },
   {
@@ -5396,7 +5396,7 @@
   {
     "iso": "kharchin-khorchin",
     "bases": [
-      1583
+      200324
     ]
   },
   {
@@ -5420,7 +5420,7 @@
   {
     "iso": "xhe",
     "bases": [
-      1584
+      200325
     ]
   },
   {
@@ -5444,13 +5444,13 @@
   {
     "iso": "khorchin",
     "bases": [
-      1626
+      200326
     ]
   },
   {
     "iso": "khorchin-mongol",
     "bases": [
-      1587
+      200327
     ]
   },
   {
@@ -5468,7 +5468,7 @@
   {
     "iso": "khoton",
     "bases": [
-      1590
+      200328
     ]
   },
   {
@@ -5498,13 +5498,13 @@
   {
     "iso": "kili",
     "bases": [
-      838
+      200329
     ]
   },
   {
     "iso": "xis",
     "bases": [
-      1593
+      200330
     ]
   },
   {
@@ -5648,7 +5648,7 @@
   {
     "iso": "shd",
     "bases": [
-      1594
+      200331
     ]
   },
   {
@@ -5714,7 +5714,7 @@
   {
     "iso": "kurumba",
     "bases": [
-      1596
+      200332
     ]
   },
   {
@@ -5756,13 +5756,13 @@
   {
     "iso": "lakkia-kam-sui",
     "bases": [
-      844
+      200333
     ]
   },
   {
     "iso": "lmn",
     "bases": [
-      1624
+      200334
     ]
   },
   {
@@ -5780,19 +5780,19 @@
   {
     "iso": "lao-phutai",
     "bases": [
-      1631
+      200335
     ]
   },
   {
     "iso": "larantuka-malay",
     "bases": [
-      1644
+      200336
     ]
   },
   {
     "iso": "lss",
     "bases": [
-      1645
+      200337
     ]
   },
   {
@@ -5822,7 +5822,7 @@
   {
     "iso": "loy",
     "bases": [
-      1653
+      200338
     ]
   },
   {
@@ -5834,7 +5834,7 @@
   {
     "iso": "lrk",
     "bases": [
-      20195
+      200339
     ]
   },
   {
@@ -5846,13 +5846,13 @@
   {
     "iso": "longsang-zhuang",
     "bases": [
-      1706
+      200340
     ]
   },
   {
     "iso": "lower-uda-buryat",
     "bases": [
-      1718
+      200341
     ]
   },
   {
@@ -5870,31 +5870,31 @@
   {
     "iso": "macro-zhuang",
     "bases": [
-      1660
+      200342
     ]
   },
   {
     "iso": "madiya",
     "bases": [
-      959
+      200343
     ]
   },
   {
     "iso": "magahi",
     "bases": [
-      1698
+      200344
     ]
   },
   {
     "iso": "mgp",
     "bases": [
-      1699
+      200345
     ]
   },
   {
     "iso": "kip",
     "bases": [
-      1561
+      200346
     ]
   },
   {
@@ -5912,25 +5912,25 @@
   {
     "iso": "maithili",
     "bases": [
-      1703
+      200347
     ]
   },
   {
     "iso": "mjz",
     "bases": [
-      1794
+      200348
     ]
   },
   {
     "iso": "mak-kam-sui",
     "bases": [
-      1717
+      200349
     ]
   },
   {
     "iso": "mala-malasar",
     "bases": [
-      1705
+      200350
     ]
   },
   {
@@ -5942,19 +5942,19 @@
   {
     "iso": "malankuravan",
     "bases": [
-      1800
+      200351
     ]
   },
   {
     "iso": "malapandaram",
     "bases": [
-      1714
+      200352
     ]
   },
   {
     "iso": "malasar",
     "bases": [
-      413
+      200353
     ]
   },
   {
@@ -5966,19 +5966,19 @@
   {
     "iso": "x-nepal-malpande",
     "bases": [
-      1719
+      200354
     ]
   },
   {
     "iso": "malto",
     "bases": [
-      1732
+      200355
     ]
   },
   {
     "iso": "mup",
     "bases": [
-      839
+      200356
     ]
   },
   {
@@ -6008,7 +6008,7 @@
   {
     "iso": "manda-dravidian",
     "bases": [
-      851
+      200357
     ]
   },
   {
@@ -6020,31 +6020,31 @@
   {
     "iso": "mangghuer",
     "bases": [
-      1724
+      200358
     ]
   },
   {
     "iso": "manglish",
     "bases": [
-      1813
+      200359
     ]
   },
   {
     "iso": "nlm",
     "bases": [
-      1162
+      200360
     ]
   },
   {
     "iso": "maonan",
     "bases": [
-      1111
+      200361
     ]
   },
   {
     "iso": "mrh",
     "bases": [
-      1753
+      200362
     ]
   },
   {
@@ -6062,31 +6062,31 @@
   {
     "iso": "wry",
     "bases": [
-      1758
+      200363
     ]
   },
   {
     "iso": "maumere-malay",
     "bases": [
-      1061
+      200364
     ]
   },
   {
     "iso": "mef",
     "bases": [
-      1768
+      200365
     ]
   },
   {
     "iso": "mel-khaonh-bahnaric",
     "bases": [
-      1777
+      200366
     ]
   },
   {
     "iso": "mby",
     "bases": [
-      98030
+      200367
     ]
   },
   {
@@ -6098,25 +6098,25 @@
   {
     "iso": "mtr",
     "bases": [
-      1780
+      200368
     ]
   },
   {
     "iso": "wtm",
     "bases": [
-      1493
+      200369
     ]
   },
   {
     "iso": "middle-mongol",
     "bases": [
-      1837
+      200370
     ]
   },
   {
     "iso": "min-zhuang",
     "bases": [
-      1830
+      200371
     ]
   },
   {
@@ -6128,19 +6128,19 @@
   {
     "iso": "mnong",
     "bases": [
-      1927
+      200372
     ]
   },
   {
     "iso": "moghol",
     "bases": [
-      1925
+      200373
     ]
   },
   {
     "iso": "mogholi",
     "bases": [
-      1054
+      200374
     ]
   },
   {
@@ -6152,13 +6152,13 @@
   {
     "iso": "mongghul",
     "bases": [
-      855
+      200375
     ]
   },
   {
     "iso": "mongghuor",
     "bases": [
-      1916
+      200376
     ]
   },
   {
@@ -6170,31 +6170,31 @@
   {
     "iso": "monguor",
     "bases": [
-      4797
+      200377
     ]
   },
   {
     "iso": "monom-bahnaric",
     "bases": [
-      1112
+      200378
     ]
   },
   {
     "iso": "moyfaw",
     "bases": [
-      1926
+      200379
     ]
   },
   {
     "iso": "muduga",
     "bases": [
-      1871
+      200380
     ]
   },
   {
     "iso": "muk",
     "bases": [
-      2595
+      200381
     ]
   },
   {
@@ -6212,49 +6212,49 @@
   {
     "iso": "mullu-kurumba",
     "bases": [
-      1506
+      200382
     ]
   },
   {
     "iso": "mundari",
     "bases": [
-      1869
+      200383
     ]
   },
   {
     "iso": "muong",
     "bases": [
-      1923
+      200384
     ]
   },
   {
     "iso": "muria",
     "bases": [
-      317
+      200385
     ]
   },
   {
     "iso": "muthuvan",
     "bases": [
-      1628
+      200386
     ]
   },
   {
     "iso": "myang-zhuang",
     "bases": [
-      1246
+      200387
     ]
   },
   {
     "iso": "mymensinghi-bengali",
     "bases": [
-      1882
+      200388
     ]
   },
   {
     "iso": "ncd",
     "bases": [
-      2574
+      200389
     ]
   },
   {
@@ -6266,13 +6266,13 @@
   {
     "iso": "nagpuri",
     "bases": [
-      994
+      200390
     ]
   },
   {
     "iso": "naiki",
     "bases": [
-      1887
+      200391
     ]
   },
   {
@@ -6284,7 +6284,7 @@
   {
     "iso": "nanaic",
     "bases": [
-      993
+      200392
     ]
   },
   {
@@ -6296,25 +6296,25 @@
   {
     "iso": "nantoq-baoan",
     "bases": [
-      2674
+      200393
     ]
   },
   {
     "iso": "npa",
     "bases": [
-      1671
+      200394
     ]
   },
   {
     "iso": "negidal",
     "bases": [
-      1012
+      200395
     ]
   },
   {
     "iso": "nepalese-english",
     "bases": [
-      1911
+      200396
     ]
   },
   {
@@ -6326,37 +6326,37 @@
   {
     "iso": "nll",
     "bases": [
-      2025
+      200397
     ]
   },
   {
     "iso": "noe",
     "bases": [
-      1947
+      200398
     ]
   },
   {
     "iso": "noakhailla",
     "bases": [
-      995
+      200399
     ]
   },
   {
     "iso": "nong-zhuang",
     "bases": [
-      20201
+      200400
     ]
   },
   {
     "iso": "nonni-dagur",
     "bases": [
-      20202
+      200401
     ]
   },
   {
     "iso": "north-moluccan-malay",
     "bases": [
-      822
+      200402
     ]
   },
   {
@@ -6368,7 +6368,7 @@
   {
     "iso": "northern-khalkha",
     "bases": [
-      1672
+      200403
     ]
   },
   {
@@ -6380,19 +6380,19 @@
   {
     "iso": "northern-tai",
     "bases": [
-      2031
+      200404
     ]
   },
   {
     "iso": "northern-thai",
     "bases": [
-      11
+      200405
     ]
   },
   {
     "iso": "northern-tungusic",
     "bases": [
-      1571
+      200406
     ]
   },
   {
@@ -6410,7 +6410,7 @@
   {
     "iso": "nung-tai",
     "bases": [
-      846
+      200407
     ]
   },
   {
@@ -6422,37 +6422,37 @@
   {
     "iso": "nyah-kur",
     "bases": [
-      1673
+      200408
     ]
   },
   {
     "iso": "nyaheun-bahnaric",
     "bases": [
-      1997
+      200409
     ]
   },
   {
     "iso": "odk",
     "bases": [
-      1996
+      200410
     ]
   },
   {
     "iso": "odia",
     "bases": [
-      1001
+      200411
     ]
   },
   {
     "iso": "oeld",
     "bases": [
-      2116
+      200412
     ]
   },
   {
     "iso": "oi-bahnaric",
     "bases": [
-      2141
+      200413
     ]
   },
   {
@@ -6464,7 +6464,7 @@
   {
     "iso": "oirat-mongolian",
     "bases": [
-      1505
+      200414
     ]
   },
   {
@@ -6482,25 +6482,25 @@
   {
     "iso": "old-khitan",
     "bases": [
-      1675
+      200415
     ]
   },
   {
     "iso": "old-serbi",
     "bases": [
-      856
+      200416
     ]
   },
   {
     "iso": "ollari",
     "bases": [
-      1676
+      200417
     ]
   },
   {
     "iso": "oon",
     "bases": [
-      1677
+      200418
     ]
   },
   {
@@ -6512,25 +6512,25 @@
   {
     "iso": "ordos",
     "bases": [
-      2242
+      200419
     ]
   },
   {
     "iso": "oru",
     "bases": [
-      2659
+      200420
     ]
   },
   {
     "iso": "oroch",
     "bases": [
-      1998
+      200421
     ]
   },
   {
     "iso": "orok",
     "bases": [
-      2102
+      200422
     ]
   },
   {
@@ -6548,25 +6548,25 @@
   {
     "iso": "paha",
     "bases": [
-      1678
+      200423
     ]
   },
   {
     "iso": "phj",
     "bases": [
-      2104
+      200424
     ]
   },
   {
     "iso": "phr",
     "bases": [
-      2107
+      200425
     ]
   },
   {
     "iso": "pakistani-english",
     "bases": [
-      2017
+      200426
     ]
   },
   {
@@ -6578,25 +6578,25 @@
   {
     "iso": "paliyan",
     "bases": [
-      2651
+      200427
     ]
   },
   {
     "iso": "phl",
     "bases": [
-      132
+      200428
     ]
   },
   {
     "iso": "pangasinan",
     "bases": [
-      1383
+      200429
     ]
   },
   {
     "iso": "pkh",
     "bases": [
-      133
+      200430
     ]
   },
   {
@@ -6638,13 +6638,13 @@
   {
     "iso": "pbu",
     "bases": [
-      2306
+      200431
     ]
   },
   {
     "iso": "pbt",
     "bases": [
-      2194
+      200432
     ]
   },
   {
@@ -6656,19 +6656,19 @@
   {
     "iso": "pattapu",
     "bases": [
-      1494
+      200433
     ]
   },
   {
     "iso": "pear",
     "bases": [
-      2196
+      200434
     ]
   },
   {
     "iso": "pengo",
     "bases": [
-      2197
+      200435
     ]
   },
   {
@@ -6680,7 +6680,7 @@
   {
     "iso": "phake",
     "bases": [
-      2198
+      200436
     ]
   },
   {
@@ -6692,13 +6692,13 @@
   {
     "iso": "phu-thai",
     "bases": [
-      2199
+      200437
     ]
   },
   {
     "iso": "phuan",
     "bases": [
-      2200
+      200438
     ]
   },
   {
@@ -6710,37 +6710,37 @@
   {
     "iso": "portugis",
     "bases": [
-      2189
+      200439
     ]
   },
   {
     "iso": "proto-ainu",
     "bases": [
-      2202
+      200440
     ]
   },
   {
     "iso": "proto-austroasiatic",
     "bases": [
-      1679
+      200441
     ]
   },
   {
     "iso": "proto-hlai",
     "bases": [
-      2570
+      200442
     ]
   },
   {
     "iso": "proto-hokkaido-kuril",
     "bases": [
-      2006
+      200443
     ]
   },
   {
     "iso": "proto-kam-sui",
     "bases": [
-      2205
+      200444
     ]
   },
   {
@@ -6752,25 +6752,25 @@
   {
     "iso": "proto-kra-dai",
     "bases": [
-      2206
+      200445
     ]
   },
   {
     "iso": "proto-mongolic",
     "bases": [
-      2159
+      200446
     ]
   },
   {
     "iso": "proto-sakhalin",
     "bases": [
-      1629
+      200447
     ]
   },
   {
     "iso": "proto-tai",
     "bases": [
-      2233
+      200448
     ]
   },
   {
@@ -6788,7 +6788,7 @@
   {
     "iso": "pyang-zhuang",
     "bases": [
-      294
+      200449
     ]
   },
   {
@@ -6806,79 +6806,79 @@
   {
     "iso": "qifu",
     "bases": [
-      2117
+      200450
     ]
   },
   {
     "iso": "ra-ong-bahnaric",
     "bases": [
-      1456
+      200451
     ]
   },
   {
     "iso": "rah",
     "bases": [
-      1680
+      200452
     ]
   },
   {
     "iso": "rajasthani",
     "bases": [
-      2251
+      200453
     ]
   },
   {
     "iso": "rjs",
     "bases": [
-      1495
+      200454
     ]
   },
   {
     "iso": "thr",
     "bases": [
-      1974
+      200455
     ]
   },
   {
     "iso": "rkt",
     "bases": [
-      2259
+      200456
     ]
   },
   {
     "iso": "rau",
     "bases": [
-      2262
+      200457
     ]
   },
   {
     "iso": "ravula",
     "bases": [
-      1975
+      200458
     ]
   },
   {
     "iso": "rengao-bahnaric",
     "bases": [
-      996
+      200459
     ]
   },
   {
     "iso": "ril",
     "bases": [
-      2267
+      200460
     ]
   },
   {
     "iso": "rohingya",
     "bases": [
-      1976
+      200461
     ]
   },
   {
     "iso": "rouran",
     "bases": [
-      2274
+      200462
     ]
   },
   {
@@ -6890,7 +6890,7 @@
   {
     "iso": "sa-och",
     "bases": [
-      2283
+      200463
     ]
   },
   {
@@ -6908,31 +6908,31 @@
   {
     "iso": "sck",
     "bases": [
-      1163
+      200464
     ]
   },
   {
     "iso": "saek",
     "bases": [
-      1977
+      200465
     ]
   },
   {
     "iso": "sakhalin-ainu",
     "bases": [
-      2302
+      200466
     ]
   },
   {
     "iso": "sakhalin-dialects",
     "bases": [
-      1978
+      200467
     ]
   },
   {
     "iso": "spv",
     "bases": [
-      2240
+      200468
     ]
   },
   {
@@ -6944,43 +6944,43 @@
   {
     "iso": "samre",
     "bases": [
-      2142
+      200469
     ]
   },
   {
     "iso": "san",
     "bases": [
-      1979
+      200470
     ]
   },
   {
     "iso": "santa",
     "bases": [
-      2277
+      200471
     ]
   },
   {
     "iso": "santa-mongol",
     "bases": [
-      2292
+      200472
     ]
   },
   {
     "iso": "santa-sijiaji",
     "bases": [
-      2294
+      200473
     ]
   },
   {
     "iso": "santa-suonanba",
     "bases": [
-      295
+      200474
     ]
   },
   {
     "iso": "santa-wangjiaji",
     "bases": [
-      105
+      200475
     ]
   },
   {
@@ -6992,43 +6992,43 @@
   {
     "iso": "sapa",
     "bases": [
-      2343
+      200476
     ]
   },
   {
     "iso": "sapuan-bahnaric",
     "bases": [
-      2601
+      200477
     ]
   },
   {
     "iso": "skr",
     "bases": [
-      2344
+      200478
     ]
   },
   {
     "iso": "sart-kalmyk",
     "bases": [
-      2295
+      200479
     ]
   },
   {
     "iso": "sauria-paharia",
     "bases": [
-      2296
+      200480
     ]
   },
   {
     "iso": "sdg",
     "bases": [
-      2307
+      200481
     ]
   },
   {
     "iso": "sedang",
     "bases": [
-      2297
+      200482
     ]
   },
   {
@@ -7058,55 +7058,55 @@
   {
     "iso": "shan",
     "bases": [
-      2143
+      200483
     ]
   },
   {
     "iso": "xsr",
     "bases": [
-      2298
+      200484
     ]
   },
   {
     "iso": "shilingol-khalkha",
     "bases": [
-      2007
+      200485
     ]
   },
   {
     "iso": "scl",
     "bases": [
-      2312
+      200486
     ]
   },
   {
     "iso": "plk",
     "bases": [
-      2413
+      200487
     ]
   },
   {
     "iso": "shira-yugur",
     "bases": [
-      2313
+      200488
     ]
   },
   {
     "iso": "shirongol",
     "bases": [
-      2370
+      200489
     ]
   },
   {
     "iso": "shirwi",
     "bases": [
-      1164
+      200490
     ]
   },
   {
     "iso": "sholaga",
     "bases": [
-      1063
+      200491
     ]
   },
   {
@@ -7118,7 +7118,7 @@
   {
     "iso": "sip",
     "bases": [
-      2408
+      200492
     ]
   },
   {
@@ -7130,7 +7130,7 @@
   {
     "iso": "sbn",
     "bases": [
-      2409
+      200493
     ]
   },
   {
@@ -7142,19 +7142,19 @@
   {
     "iso": "somray",
     "bases": [
-      2420
+      200494
     ]
   },
   {
     "iso": "soi",
     "bases": [
-      847
+      200495
     ]
   },
   {
     "iso": "sonid",
     "bases": [
-      848
+      200496
     ]
   },
   {
@@ -7184,7 +7184,7 @@
   {
     "iso": "southern-khalkha",
     "bases": [
-      2190
+      200497
     ]
   },
   {
@@ -7196,19 +7196,19 @@
   {
     "iso": "southern-tai",
     "bases": [
-      279
+      200498
     ]
   },
   {
     "iso": "southern-thai",
     "bases": [
-      188
+      200499
     ]
   },
   {
     "iso": "southern-tungusic",
     "bases": [
-      117
+      200500
     ]
   },
   {
@@ -7220,7 +7220,7 @@
   {
     "iso": "sri-lankan-english",
     "bases": [
-      108
+      200501
     ]
   },
   {
@@ -7232,31 +7232,31 @@
   {
     "iso": "sri-lankan-portuguese-creole",
     "bases": [
-      23341
+      200502
     ]
   },
   {
     "iso": "tibetan",
     "bases": [
-      1011
+      200503
     ]
   },
   {
     "iso": "standard-zhuang",
     "bases": [
-      109
+      200504
     ]
   },
   {
     "iso": "stieng-bahnaric",
     "bases": [
-      857
+      200505
     ]
   },
   {
     "iso": "su-bahnaric",
     "bases": [
-      50027
+      200506
     ]
   },
   {
@@ -7274,7 +7274,7 @@
   {
     "iso": "sundanese-lang",
     "bases": [
-      1271
+      200507
     ]
   },
   {
@@ -7286,43 +7286,43 @@
   {
     "iso": "suoy",
     "bases": [
-      24621
+      200508
     ]
   },
   {
     "iso": "sgj",
     "bases": [
-      191
+      200509
     ]
   },
   {
     "iso": "sjp",
     "bases": [
-      845
+      200510
     ]
   },
   {
     "iso": "syl",
     "bases": [
-      280
+      200511
     ]
   },
   {
     "iso": "tabghach",
     "bases": [
-      2244
+      200512
     ]
   },
   {
     "iso": "tai",
     "bases": [
-      957
+      200513
     ]
   },
   {
     "iso": "tai-daeng",
     "bases": [
-      1159
+      200514
     ]
   },
   {
@@ -7334,13 +7334,13 @@
   {
     "iso": "tai-don",
     "bases": [
-      2130
+      200515
     ]
   },
   {
     "iso": "tai-hang-tong",
     "bases": [
-      2129
+      200516
     ]
   },
   {
@@ -7352,25 +7352,25 @@
   {
     "iso": "tai-khang",
     "bases": [
-      98029
+      200517
     ]
   },
   {
     "iso": "tai-laing",
     "bases": [
-      125
+      200518
     ]
   },
   {
     "iso": "tai-long",
     "bases": [
-      60031
+      200519
     ]
   },
   {
     "iso": "tai-lue",
     "bases": [
-      1892
+      200520
     ]
   },
   {
@@ -7388,25 +7388,25 @@
   {
     "iso": "tai-nuea",
     "bases": [
-      2203
+      200521
     ]
   },
   {
     "iso": "tai-pao",
     "bases": [
-      1170
+      200522
     ]
   },
   {
     "iso": "tai-song",
     "bases": [
-      875
+      200523
     ]
   },
   {
     "iso": "tai-thanh",
     "bases": [
-      1062
+      200524
     ]
   },
   {
@@ -7418,25 +7418,25 @@
   {
     "iso": "tai-yao",
     "bases": [
-      960
+      200525
     ]
   },
   {
     "iso": "tai-yo",
     "bases": [
-      296
+      200526
     ]
   },
   {
     "iso": "takua-bahnaric",
     "bases": [
-      282
+      200527
     ]
   },
   {
     "iso": "tge",
     "bases": [
-      127
+      200528
     ]
   },
   {
@@ -7448,37 +7448,37 @@
   {
     "iso": "tampuan-bahnaric",
     "bases": [
-      98031
+      200529
     ]
   },
   {
     "iso": "tnv",
     "bases": [
-      1168
+      200530
     ]
   },
   {
     "iso": "tangut",
     "bases": [
-      194
+      200531
     ]
   },
   {
     "iso": "tariang-bahnaric",
     "bases": [
-      1980
+      200532
     ]
   },
   {
     "iso": "tay-tai",
     "bases": [
-      112
+      200533
     ]
   },
   {
     "iso": "tay-tac",
     "bases": [
-      1981
+      200534
     ]
   },
   {
@@ -7502,19 +7502,19 @@
   {
     "iso": "njm",
     "bases": [
-      2300
+      200535
     ]
   },
   {
     "iso": "teressa-nicobarese",
     "bases": [
-      2602
+      200536
     ]
   },
   {
     "iso": "thachanadan",
     "bases": [
-      1109
+      200537
     ]
   },
   {
@@ -7526,7 +7526,7 @@
   {
     "iso": "thai-siamese",
     "bases": [
-      1982
+      200538
     ]
   },
   {
@@ -7538,25 +7538,25 @@
   {
     "iso": "ths",
     "bases": [
-      128
+      200539
     ]
   },
   {
     "iso": "thf",
     "bases": [
-      554
+      200540
     ]
   },
   {
     "iso": "thar-bede",
     "bases": [
-      2192
+      200541
     ]
   },
   {
     "iso": "the",
     "bases": [
-      2128
+      200542
     ]
   },
   {
@@ -7568,7 +7568,7 @@
   {
     "iso": "thmon-bahnaric",
     "bases": [
-      850
+      200543
     ]
   },
   {
@@ -7580,7 +7580,7 @@
   {
     "iso": "tcn",
     "bases": [
-      2593
+      200544
     ]
   },
   {
@@ -7592,13 +7592,13 @@
   {
     "iso": "toda",
     "bases": [
-      2248
+      200545
     ]
   },
   {
     "iso": "todrah-bahnaric",
     "bases": [
-      1964
+      200546
     ]
   },
   {
@@ -7610,7 +7610,7 @@
   {
     "iso": "tongren-bonan",
     "bases": [
-      321
+      200547
     ]
   },
   {
@@ -7628,37 +7628,37 @@
   {
     "iso": "trw",
     "bases": [
-      852
+      200548
     ]
   },
   {
     "iso": "bonan-kangjia",
     "bases": [
-      100
+      200549
     ]
   },
   {
     "iso": "tripuri",
     "bases": [
-      840
+      200550
     ]
   },
   {
     "iso": "tsun-lao",
     "bases": [
-      193
+      200551
     ]
   },
   {
     "iso": "tulu",
     "bases": [
-      118
+      200552
     ]
   },
   {
     "iso": "turung",
     "bases": [
-      119
+      200553
     ]
   },
   {
@@ -7670,7 +7670,7 @@
   {
     "iso": "tuyuhun",
     "bases": [
-      120
+      200554
     ]
   },
   {
@@ -7682,31 +7682,31 @@
   {
     "iso": "udege",
     "bases": [
-      113
+      200555
     ]
   },
   {
     "iso": "udegheic",
     "bases": [
-      129
+      200556
     ]
   },
   {
     "iso": "uilta",
     "bases": [
-      2652
+      200557
     ]
   },
   {
     "iso": "ulaanchab",
     "bases": [
-      2596
+      200558
     ]
   },
   {
     "iso": "ulch",
     "bases": [
-      999
+      200559
     ]
   },
   {
@@ -7718,13 +7718,13 @@
   {
     "iso": "ush",
     "bases": [
-      824
+      200560
     ]
   },
   {
     "iso": "vgr",
     "bases": [
-      281
+      200561
     ]
   },
   {
@@ -7736,13 +7736,13 @@
   {
     "iso": "varendri",
     "bases": [
-      1891
+      200562
     ]
   },
   {
     "iso": "vay",
     "bases": [
-      130
+      200563
     ]
   },
   {
@@ -7754,43 +7754,43 @@
   {
     "iso": "vie-central",
     "bases": [
-      1171
+      200564
     ]
   },
   {
     "iso": "vie-china",
     "bases": [
-      4205
+      200565
     ]
   },
   {
     "iso": "vie-hue",
     "bases": [
-      863
+      200566
     ]
   },
   {
     "iso": "vie-northern",
     "bases": [
-      115
+      200567
     ]
   },
   {
     "iso": "vie-southern",
     "bases": [
-      841
+      200568
     ]
   },
   {
     "iso": "vie-us",
     "bases": [
-      864
+      200569
     ]
   },
   {
     "iso": "vishavan",
     "bases": [
-      2247
+      200570
     ]
   },
   {
@@ -7802,25 +7802,25 @@
   {
     "iso": "kxp",
     "bases": [
-      2127
+      200571
     ]
   },
   {
     "iso": "wbr",
     "bases": [
-      1165
+      200572
     ]
   },
   {
     "iso": "ola",
     "bases": [
-      865
+      200573
     ]
   },
   {
     "iso": "wme",
     "bases": [
-      55997
+      200574
     ]
   },
   {
@@ -7838,19 +7838,19 @@
   {
     "iso": "wayanad-chetti",
     "bases": [
-      1056
+      200575
     ]
   },
   {
     "iso": "waziri-pashto",
     "bases": [
-      13663
+      200576
     ]
   },
   {
     "iso": "khm-western",
     "bases": [
-      121
+      200577
     ]
   },
   {
@@ -7862,7 +7862,7 @@
   {
     "iso": "ydg",
     "bases": [
-      34834
+      200578
     ]
   },
   {
@@ -7880,7 +7880,7 @@
   {
     "iso": "yakut",
     "bases": [
-      1169
+      200579
     ]
   },
   {
@@ -7892,13 +7892,13 @@
   {
     "iso": "yang-zhuang",
     "bases": [
-      1057
+      200580
     ]
   },
   {
     "iso": "yei-zhuang",
     "bases": [
-      842
+      200581
     ]
   },
   {
@@ -7916,7 +7916,7 @@
   {
     "iso": "yong",
     "bases": [
-      1496
+      200582
     ]
   },
   {
@@ -7928,7 +7928,7 @@
   {
     "iso": "yoy",
     "bases": [
-      283
+      200583
     ]
   },
   {
@@ -7940,19 +7940,19 @@
   {
     "iso": "zakhchin",
     "bases": [
-      1055
+      200584
     ]
   },
   {
     "iso": "zandui",
     "bases": [
-      961
+      200585
     ]
   },
   {
     "iso": "zhangzhung",
     "bases": [
-      1154
+      200586
     ]
   },
   {
@@ -7988,31 +7988,31 @@
   {
     "iso": "burarra",
     "bases": [
-      750
+      200587
     ]
   },
   {
     "iso": "dhuwal",
     "bases": [
-      305
+      200588
     ]
   },
   {
     "iso": "djaru",
     "bases": [
-      98018
+      200589
     ]
   },
   {
     "iso": "djinang",
     "bases": [
-      340
+      200590
     ]
   },
   {
     "iso": "gbu",
     "bases": [
-      21011
+      200591
     ]
   },
   {
@@ -8024,7 +8024,7 @@
   {
     "iso": "githabul",
     "bases": [
-      97987
+      200592
     ]
   },
   {
@@ -8048,79 +8048,79 @@
   {
     "iso": "iwaidja",
     "bases": [
-      98019
+      200593
     ]
   },
   {
     "iso": "kaytetye",
     "bases": [
-      98020
+      200594
     ]
   },
   {
     "iso": "kija",
     "bases": [
-      20030
+      200595
     ]
   },
   {
     "iso": "kukatja",
     "bases": [
-      97986
+      200596
     ]
   },
   {
     "iso": "kuku-yalanji",
     "bases": [
-      98021
+      200597
     ]
   },
   {
     "iso": "ggk",
     "bases": [
-      21126
+      200598
     ]
   },
   {
     "iso": "kunwinjku",
     "bases": [
-      97984
+      200599
     ]
   },
   {
     "iso": "kuuk-thaayore",
     "bases": [
-      186
+      200600
     ]
   },
   {
     "iso": "lrg",
     "bases": [
-      97983
+      200601
     ]
   },
   {
     "iso": "luritja",
     "bases": [
-      21010
+      200602
     ]
   },
   {
     "iso": "manytjilyitjarra",
     "bases": [
-      750
+      200603
     ]
   },
   {
     "iso": "martu-wangka",
     "bases": [
-      305
+      200604
     ]
   },
   {
     "iso": "maung",
     "bases": [
-      98018
+      200605
     ]
   },
   {
@@ -8138,19 +8138,19 @@
   {
     "iso": "murrinh-patha",
     "bases": [
-      340
+      200606
     ]
   },
   {
     "iso": "ngaanyatjarra",
     "bases": [
-      21011
+      200607
     ]
   },
   {
     "iso": "ngarrindjeri",
     "bases": [
-      97987
+      200608
     ]
   },
   {
@@ -8162,25 +8162,25 @@
   {
     "iso": "nunggubuyu",
     "bases": [
-      98019
+      200609
     ]
   },
   {
     "iso": "nyangumarta",
     "bases": [
-      98020
+      200610
     ]
   },
   {
     "iso": "palawa-kani",
     "bases": [
-      20030
+      200611
     ]
   },
   {
     "iso": "panyjima",
     "bases": [
-      97986
+      200612
     ]
   },
   {
@@ -8204,43 +8204,43 @@
   {
     "iso": "umr",
     "bases": [
-      98021
+      200613
     ]
   },
   {
     "iso": "upper-arrernte",
     "bases": [
-      21126
+      200614
     ]
   },
   {
     "iso": "wdj",
     "bases": [
-      97984
+      200615
     ]
   },
   {
     "iso": "waq",
     "bases": [
-      186
+      200616
     ]
   },
   {
     "iso": "wajarri",
     "bases": [
-      97983
+      200617
     ]
   },
   {
     "iso": "walmatjarri",
     "bases": [
-      21010
+      200618
     ]
   },
   {
     "iso": "wangkatha",
     "bases": [
-      750
+      200619
     ]
   },
   {
@@ -8252,13 +8252,13 @@
   {
     "iso": "warumungu",
     "bases": [
-      305
+      200620
     ]
   },
   {
     "iso": "wik-mungkan",
     "bases": [
-      98018
+      200621
     ]
   },
   {
@@ -8270,49 +8270,49 @@
   {
     "iso": "yankunytjatjara",
     "bases": [
-      340
+      200622
     ]
   },
   {
     "iso": "yinjibarndi",
     "bases": [
-      21011
+      200623
     ]
   },
   {
     "iso": "yugambeh",
     "bases": [
-      97987
+      200624
     ]
   },
   {
     "iso": "anguillian-creole",
     "bases": [
-      13716
+      200625
     ]
   },
   {
     "iso": "bahamian-creole",
     "bases": [
-      1296
+      200626
     ]
   },
   {
     "iso": "bajan-creole",
     "bases": [
-      1293
+      200627
     ]
   },
   {
     "iso": "belizean-creole",
     "bases": [
-      1294
+      200628
     ]
   },
   {
     "iso": "bocas-del-toro-creole",
     "bases": [
-      1295
+      200629
     ]
   },
   {
@@ -8324,19 +8324,19 @@
   {
     "iso": "grenadian-creole-english",
     "bases": [
-      13716
+      200630
     ]
   },
   {
     "iso": "haitian-creole",
     "bases": [
-      1296
+      200631
     ]
   },
   {
     "iso": "jamaican-creole",
     "bases": [
-      1293
+      200632
     ]
   },
   {
@@ -8348,67 +8348,67 @@
   {
     "iso": "jamaican-patois",
     "bases": [
-      1294
+      200633
     ]
   },
   {
     "iso": "leeward-caribbean-creole-english",
     "bases": [
-      1295
+      200634
     ]
   },
   {
     "iso": "limonese-creole",
     "bases": [
-      13716
+      200635
     ]
   },
   {
     "iso": "miskito-coast-creole",
     "bases": [
-      1296
+      200636
     ]
   },
   {
     "iso": "montserrat-creole",
     "bases": [
-      1293
+      200637
     ]
   },
   {
     "iso": "papiamento",
     "bases": [
-      1294
+      200638
     ]
   },
   {
     "iso": "rama-cay-creole",
     "bases": [
-      1295
+      200639
     ]
   },
   {
     "iso": "saint-kitts-creole",
     "bases": [
-      13716
+      200640
     ]
   },
   {
     "iso": "san-andres-providencia-creole",
     "bases": [
-      1296
+      200641
     ]
   },
   {
     "iso": "tobagonian-creole",
     "bases": [
-      1293
+      200642
     ]
   },
   {
     "iso": "trinidadian-creole",
     "bases": [
-      1294
+      200643
     ]
   },
   {
@@ -8468,7 +8468,7 @@
   {
     "iso": "ani",
     "bases": [
-      300
+      200644
     ]
   },
   {
@@ -8510,13 +8510,13 @@
   {
     "iso": "kap",
     "bases": [
-      2351
+      200645
     ]
   },
   {
     "iso": "bph",
     "bases": [
-      749
+      200646
     ]
   },
   {
@@ -8588,13 +8588,13 @@
   {
     "iso": "kabardian",
     "bases": [
-      2356
+      200647
     ]
   },
   {
     "iso": "xdq",
     "bases": [
-      304
+      200648
     ]
   },
   {
@@ -8618,7 +8618,7 @@
   {
     "iso": "ugh",
     "bases": [
-      811
+      200649
     ]
   },
   {
@@ -8648,7 +8648,7 @@
   {
     "iso": "mingrelian",
     "bases": [
-      95
+      200650
     ]
   },
   {
@@ -8672,7 +8672,7 @@
   {
     "iso": "proto-georgian-zan",
     "bases": [
-      2615
+      200651
     ]
   },
   {
@@ -8684,31 +8684,31 @@
   {
     "iso": "rut",
     "bases": [
-      2431
+      200652
     ]
   },
   {
     "iso": "svan",
     "bases": [
-      827
+      200653
     ]
   },
   {
     "iso": "tabasaran",
     "bases": [
-      2299
+      200654
     ]
   },
   {
     "iso": "ttt",
     "bases": [
-      1140
+      200655
     ]
   },
   {
     "iso": "tin",
     "bases": [
-      303
+      200656
     ]
   },
   {
@@ -8720,7 +8720,7 @@
   {
     "iso": "uby",
     "bases": [
-      1620
+      200657
     ]
   },
   {
@@ -8744,7 +8744,7 @@
   {
     "iso": "pipil",
     "bases": [
-      1604
+      200658
     ]
   },
   {
@@ -8774,13 +8774,13 @@
   {
     "iso": "sarikoli",
     "bases": [
-      2616
+      200659
     ]
   },
   {
     "iso": "sogdian",
     "bases": [
-      2618
+      200660
     ]
   },
   {
@@ -8810,7 +8810,7 @@
   {
     "iso": "wakhi",
     "bases": [
-      2620
+      200661
     ]
   },
   {
@@ -8846,7 +8846,7 @@
   {
     "iso": "big-flowery",
     "bases": [
-      1024
+      200662
     ]
   },
   {
@@ -8930,7 +8930,7 @@
   {
     "iso": "gangwon-dialect",
     "bases": [
-      1025
+      200663
     ]
   },
   {
@@ -8966,13 +8966,13 @@
   {
     "iso": "gyeonggi-seoul-dialect",
     "bases": [
-      1226
+      200664
     ]
   },
   {
     "iso": "gyeongsang-dialect",
     "bases": [
-      1286
+      200665
     ]
   },
   {
@@ -8990,31 +8990,31 @@
   {
     "iso": "hamgyong-dialect",
     "bases": [
-      1287
+      200666
     ]
   },
   {
     "iso": "han-samhan",
     "bases": [
-      1392
+      200667
     ]
   },
   {
     "iso": "hm-nai",
     "bases": [
-      1404
+      200668
     ]
   },
   {
     "iso": "hmong",
     "bases": [
-      29
+      200669
     ]
   },
   {
     "iso": "hmu",
     "bases": [
-      1481
+      200670
     ]
   },
   {
@@ -9026,13 +9026,13 @@
   {
     "iso": "huishui",
     "bases": [
-      829
+      200671
     ]
   },
   {
     "iso": "hwanghae-dialect",
     "bases": [
-      1589
+      200672
     ]
   },
   {
@@ -9050,25 +9050,25 @@
   {
     "iso": "jeju",
     "bases": [
-      1602
+      200673
     ]
   },
   {
     "iso": "jeolla-dialect",
     "bases": [
-      1610
+      200674
     ]
   },
   {
     "iso": "jiaoliao-mandarin",
     "bases": [
-      1798
+      200675
     ]
   },
   {
     "iso": "jilu-mandarin",
     "bases": [
-      1745
+      200676
     ]
   },
   {
@@ -9098,7 +9098,7 @@
   {
     "iso": "kiong-nai",
     "bases": [
-      1727
+      200677
     ]
   },
   {
@@ -9134,13 +9134,13 @@
   {
     "iso": "luobohe",
     "bases": [
-      1747
+      200678
     ]
   },
   {
     "iso": "mahan-korean",
     "bases": [
-      1156
+      200679
     ]
   },
   {
@@ -9152,55 +9152,55 @@
   {
     "iso": "maojia",
     "bases": [
-      1836
+      200680
     ]
   },
   {
     "iso": "mashan",
     "bases": [
-      1840
+      200681
     ]
   },
   {
     "iso": "middle-korean",
     "bases": [
-      1522
+      200682
     ]
   },
   {
     "iso": "mo-piu",
     "bases": [
-      1825
+      200683
     ]
   },
   {
     "iso": "modern-korean",
     "bases": [
-      1877
+      200684
     ]
   },
   {
     "iso": "munhwao",
     "bases": [
-      1242
+      200685
     ]
   },
   {
     "iso": "n-meo",
     "bases": [
-      1245
+      200686
     ]
   },
   {
     "iso": "nao-klao",
     "bases": [
-      1240
+      200687
     ]
   },
   {
     "iso": "north-korean",
     "bases": [
-      1155
+      200688
     ]
   },
   {
@@ -9212,91 +9212,91 @@
   {
     "iso": "northern-min",
     "bases": [
-      21094
+      200689
     ]
   },
   {
     "iso": "numao",
     "bases": [
-      1991
+      200690
     ]
   },
   {
     "iso": "old-korean",
     "bases": [
-      2041
+      200691
     ]
   },
   {
     "iso": "pa-na",
     "bases": [
-      1993
+      200692
     ]
   },
   {
     "iso": "pa-hng",
     "bases": [
-      2167
+      200693
     ]
   },
   {
     "iso": "pingtang",
     "bases": [
-      2265
+      200694
     ]
   },
   {
     "iso": "proto-hmong-mien",
     "bases": [
-      830
+      200695
     ]
   },
   {
     "iso": "proto-hmongic",
     "bases": [
-      1243
+      200696
     ]
   },
   {
     "iso": "proto-koreanic",
     "bases": [
-      2427
+      200697
     ]
   },
   {
     "iso": "proto-mienic",
     "bases": [
-      833
+      200698
     ]
   },
   {
     "iso": "pu-xian-min",
     "bases": [
-      171
+      200699
     ]
   },
   {
     "iso": "puyo",
     "bases": [
-      831
+      200700
     ]
   },
   {
     "iso": "pyojuneo",
     "bases": [
-      1157
+      200701
     ]
   },
   {
     "iso": "pyongan-dialect",
     "bases": [
-      175
+      200702
     ]
   },
   {
     "iso": "raojia",
     "bases": [
-      832
+      200703
     ]
   },
   {
@@ -9308,37 +9308,37 @@
   {
     "iso": "sanqiao",
     "bases": [
-      866
+      200704
     ]
   },
   {
     "iso": "shanghainese",
     "bases": [
-      1241
+      200705
     ]
   },
   {
     "iso": "shao-jiang-min",
     "bases": [
-      2670
+      200706
     ]
   },
   {
     "iso": "she",
     "bases": [
-      1024
+      200707
     ]
   },
   {
     "iso": "she-chinese",
     "bases": [
-      1025
+      200708
     ]
   },
   {
     "iso": "silla-korean",
     "bases": [
-      1226
+      200709
     ]
   },
   {
@@ -9350,19 +9350,19 @@
   {
     "iso": "small-flowery",
     "bases": [
-      1286
+      200710
     ]
   },
   {
     "iso": "south-korean",
     "bases": [
-      1287
+      200711
     ]
   },
   {
     "iso": "southern-min",
     "bases": [
-      1392
+      200712
     ]
   },
   {
@@ -9374,7 +9374,7 @@
   {
     "iso": "suzhounese",
     "bases": [
-      1404
+      200713
     ]
   },
   {
@@ -9386,7 +9386,7 @@
   {
     "iso": "taiwanese-mandarin",
     "bases": [
-      29
+      200714
     ]
   },
   {
@@ -9398,73 +9398,73 @@
   {
     "iso": "wenzhounese",
     "bases": [
-      1481
+      200715
     ]
   },
   {
     "iso": "xixiu",
     "bases": [
-      829
+      200716
     ]
   },
   {
     "iso": "xong",
     "bases": [
-      1589
+      200717
     ]
   },
   {
     "iso": "yangchun-pai-yao",
     "bases": [
-      1602
+      200718
     ]
   },
   {
     "iso": "ye-maek",
     "bases": [
-      1610
+      200719
     ]
   },
   {
     "iso": "yeheni",
     "bases": [
-      1798
+      200720
     ]
   },
   {
     "iso": "yeongdong-dialect",
     "bases": [
-      1745
+      200721
     ]
   },
   {
     "iso": "yeongseo-dialect",
     "bases": [
-      1727
+      200722
     ]
   },
   {
     "iso": "younian",
     "bases": [
-      1747
+      200723
     ]
   },
   {
     "iso": "younuo",
     "bases": [
-      1156
+      200724
     ]
   },
   {
     "iso": "yukjin-dialect",
     "bases": [
-      1836
+      200725
     ]
   },
   {
     "iso": "zainichi-korean",
     "bases": [
-      1840
+      200726
     ]
   },
   {
@@ -9488,7 +9488,7 @@
   {
     "iso": "almosan",
     "bases": [
-      225
+      200727
     ]
   },
   {
@@ -9542,7 +9542,7 @@
   {
     "iso": "bjarmian-s-mi",
     "bases": [
-      795
+      200728
     ]
   },
   {
@@ -9620,7 +9620,7 @@
   {
     "iso": "cingali",
     "bases": [
-      1955
+      200729
     ]
   },
   {
@@ -9650,13 +9650,13 @@
   {
     "iso": "cs-ng-",
     "bases": [
-      739
+      200730
     ]
   },
   {
     "iso": "den-yeniseian",
     "bases": [
-      757
+      200731
     ]
   },
   {
@@ -9806,13 +9806,13 @@
   {
     "iso": "j-kk-kaska",
     "bases": [
-      758
+      200732
     ]
   },
   {
     "iso": "j-llivaara",
     "bases": [
-      797
+      200733
     ]
   },
   {
@@ -9824,19 +9824,19 @@
   {
     "iso": "jugan",
     "bases": [
-      798
+      200734
     ]
   },
   {
     "iso": "jukonda",
     "bases": [
-      799
+      200735
     ]
   },
   {
     "iso": "kainuu",
     "bases": [
-      1328
+      200736
     ]
   },
   {
@@ -9854,7 +9854,7 @@
   {
     "iso": "kamassian-proper",
     "bases": [
-      1470
+      200737
     ]
   },
   {
@@ -9884,7 +9884,7 @@
   {
     "iso": "kazym",
     "bases": [
-      1471
+      200738
     ]
   },
   {
@@ -9914,7 +9914,7 @@
   {
     "iso": "kiknur",
     "bases": [
-      1472
+      200739
     ]
   },
   {
@@ -9944,13 +9944,13 @@
   {
     "iso": "komi-yodzyak",
     "bases": [
-      1474
+      200740
     ]
   },
   {
     "iso": "komi-zyryan",
     "bases": [
-      1480
+      200741
     ]
   },
   {
@@ -9968,13 +9968,13 @@
   {
     "iso": "kosa-kama",
     "bases": [
-      1482
+      200742
     ]
   },
   {
     "iso": "kozymodemyan",
     "bases": [
-      1483
+      200743
     ]
   },
   {
@@ -10010,7 +10010,7 @@
   {
     "iso": "kuu-rv-ludic",
     "bases": [
-      1068
+      200744
     ]
   },
   {
@@ -10040,13 +10040,13 @@
   {
     "iso": "likrisovskoe",
     "bases": [
-      1490
+      200745
     ]
   },
   {
     "iso": "lipsha",
     "bases": [
-      1491
+      200746
     ]
   },
   {
@@ -10064,7 +10064,7 @@
   {
     "iso": "lower-demjanka",
     "bases": [
-      1609
+      200747
     ]
   },
   {
@@ -10076,25 +10076,25 @@
   {
     "iso": "lower-konda",
     "bases": [
-      1611
+      200748
     ]
   },
   {
     "iso": "lower-lozva",
     "bases": [
-      1633
+      200749
     ]
   },
   {
     "iso": "lower-luga",
     "bases": [
-      1636
+      200750
     ]
   },
   {
     "iso": "lower-vychegda",
     "bases": [
-      1639
+      200751
     ]
   },
   {
@@ -10106,7 +10106,7 @@
   {
     "iso": "ludza",
     "bases": [
-      1642
+      200752
     ]
   },
   {
@@ -10118,13 +10118,13 @@
   {
     "iso": "luokta-m-vas",
     "bases": [
-      1737
+      200753
     ]
   },
   {
     "iso": "luza-letka",
     "bases": [
-      559
+      200754
     ]
   },
   {
@@ -10166,31 +10166,31 @@
   {
     "iso": "merya",
     "bases": [
-      560
+      200755
     ]
   },
   {
     "iso": "meshcherian",
     "bases": [
-      1740
+      200756
     ]
   },
   {
     "iso": "middle-botnian",
     "bases": [
-      1749
+      200757
     ]
   },
   {
     "iso": "middle-konda",
     "bases": [
-      1750
+      200758
     ]
   },
   {
     "iso": "middle-lozva",
     "bases": [
-      1752
+      200759
     ]
   },
   {
@@ -10202,19 +10202,19 @@
   {
     "iso": "mulgi",
     "bases": [
-      1766
+      200760
     ]
   },
   {
     "iso": "muromian",
     "bases": [
-      2677
+      200761
     ]
   },
   {
     "iso": "mysy",
     "bases": [
-      1787
+      200762
     ]
   },
   {
@@ -10226,7 +10226,7 @@
   {
     "iso": "nerdva",
     "bases": [
-      1092
+      200763
     ]
   },
   {
@@ -10250,25 +10250,25 @@
   {
     "iso": "north-vagilsk",
     "bases": [
-      226
+      200764
     ]
   },
   {
     "iso": "northeast-hungary",
     "bases": [
-      1852
+      200765
     ]
   },
   {
     "iso": "northeastern-coastal-estonian",
     "bases": [
-      534
+      200766
     ]
   },
   {
     "iso": "northern-botnian",
     "bases": [
-      1858
+      200767
     ]
   },
   {
@@ -10292,7 +10292,7 @@
   {
     "iso": "northern-ludic",
     "bases": [
-      927
+      200768
     ]
   },
   {
@@ -10304,7 +10304,7 @@
   {
     "iso": "northern-savonian",
     "bases": [
-      1087
+      200769
     ]
   },
   {
@@ -10322,7 +10322,7 @@
   {
     "iso": "northern-veps",
     "bases": [
-      1885
+      200770
     ]
   },
   {
@@ -10334,43 +10334,43 @@
   {
     "iso": "ob-mansi",
     "bases": [
-      926
+      200771
     ]
   },
   {
     "iso": "obdorsk",
     "bases": [
-      1915
+      200772
     ]
   },
   {
     "iso": "old-hungarian",
     "bases": [
-      227
+      200773
     ]
   },
   {
     "iso": "old-komi",
     "bases": [
-      902
+      200774
     ]
   },
   {
     "iso": "on",
     "bases": [
-      1950
+      200775
     ]
   },
   {
     "iso": "orodezhi",
     "bases": [
-      21095
+      200776
     ]
   },
   {
     "iso": "p-ij-nne-tavastia",
     "bases": [
-      541
+      200777
     ]
   },
   {
@@ -10382,13 +10382,13 @@
   {
     "iso": "pechora",
     "bases": [
-      228
+      200778
     ]
   },
   {
     "iso": "pelym",
     "bases": [
-      574
+      200779
     ]
   },
   {
@@ -10400,13 +10400,13 @@
   {
     "iso": "pim",
     "bases": [
-      2018
+      200780
     ]
   },
   {
     "iso": "pite-sami",
     "bases": [
-      2021
+      200781
     ]
   },
   {
@@ -10418,7 +10418,7 @@
   {
     "iso": "porvoo",
     "bases": [
-      2109
+      200782
     ]
   },
   {
@@ -10436,7 +10436,7 @@
   {
     "iso": "proto-hungarian",
     "bases": [
-      2110
+      200783
     ]
   },
   {
@@ -10454,7 +10454,7 @@
   {
     "iso": "proto-mordvinic",
     "bases": [
-      2136
+      200784
     ]
   },
   {
@@ -10490,13 +10490,13 @@
   {
     "iso": "ruija",
     "bases": [
-      229
+      200785
     ]
   },
   {
     "iso": "salaca-livonian",
     "bases": [
-      2137
+      200786
     ]
   },
   {
@@ -10526,7 +10526,7 @@
   {
     "iso": "sea-sami",
     "bases": [
-      2139
+      200787
     ]
   },
   {
@@ -10538,25 +10538,25 @@
   {
     "iso": "semisjaur-njarg",
     "bases": [
-      230
+      200788
     ]
   },
   {
     "iso": "sernur-morkin",
     "bases": [
-      2250
+      200789
     ]
   },
   {
     "iso": "serri",
     "bases": [
-      2252
+      200790
     ]
   },
   {
     "iso": "seto",
     "bases": [
-      2255
+      200791
     ]
   },
   {
@@ -10580,31 +10580,31 @@
   {
     "iso": "siberian-finnish",
     "bases": [
-      2260
+      200792
     ]
   },
   {
     "iso": "siberian-ingrian-finnish",
     "bases": [
-      2270
+      200793
     ]
   },
   {
     "iso": "sirkas",
     "bases": [
-      2278
+      200794
     ]
   },
   {
     "iso": "skolt-sami",
     "bases": [
-      2279
+      200795
     ]
   },
   {
     "iso": "soikkola",
     "bases": [
-      2281
+      200796
     ]
   },
   {
@@ -10616,7 +10616,7 @@
   {
     "iso": "s-rkaitum",
     "bases": [
-      887
+      200797
     ]
   },
   {
@@ -10628,13 +10628,13 @@
   {
     "iso": "south-estonian",
     "bases": [
-      2288
+      200798
     ]
   },
   {
     "iso": "south-vagilsk",
     "bases": [
-      903
+      200799
     ]
   },
   {
@@ -10646,7 +10646,7 @@
   {
     "iso": "southeastern-finnish",
     "bases": [
-      2315
+      200800
     ]
   },
   {
@@ -10658,13 +10658,13 @@
   {
     "iso": "southeastern-tavastian",
     "bases": [
-      2414
+      200801
     ]
   },
   {
     "iso": "southern-botnian",
     "bases": [
-      2416
+      200802
     ]
   },
   {
@@ -10676,7 +10676,7 @@
   {
     "iso": "southern-karelian",
     "bases": [
-      904
+      200803
     ]
   },
   {
@@ -10688,7 +10688,7 @@
   {
     "iso": "southern-mansi",
     "bases": [
-      2429
+      200804
     ]
   },
   {
@@ -10700,7 +10700,7 @@
   {
     "iso": "southern-savonian",
     "bases": [
-      874
+      200805
     ]
   },
   {
@@ -10712,7 +10712,7 @@
   {
     "iso": "southern-tavastian",
     "bases": [
-      905
+      200806
     ]
   },
   {
@@ -10730,7 +10730,7 @@
   {
     "iso": "southern-veps",
     "bases": [
-      231
+      200807
     ]
   },
   {
@@ -10754,13 +10754,13 @@
   {
     "iso": "svaipa",
     "bases": [
-      2326
+      200808
     ]
   },
   {
     "iso": "sygva",
     "bases": [
-      571
+      200809
     ]
   },
   {
@@ -10772,19 +10772,19 @@
   {
     "iso": "sz-kely",
     "bases": [
-      572
+      200810
     ]
   },
   {
     "iso": "tagil",
     "bases": [
-      2229
+      200811
     ]
   },
   {
     "iso": "tartu",
     "bases": [
-      2230
+      200812
     ]
   },
   {
@@ -10802,31 +10802,31 @@
   {
     "iso": "tavda",
     "bases": [
-      906
+      200813
     ]
   },
   {
     "iso": "taygi",
     "bases": [
-      21049
+      200814
     ]
   },
   {
     "iso": "ter-sami",
     "bases": [
-      183
+      200815
     ]
   },
   {
     "iso": "tisza-k-r-s",
     "bases": [
-      575
+      200816
     ]
   },
   {
     "iso": "tonshaevo",
     "bases": [
-      759
+      200817
     ]
   },
   {
@@ -10838,7 +10838,7 @@
   {
     "iso": "torne-valley",
     "bases": [
-      548
+      200818
     ]
   },
   {
@@ -10862,7 +10862,7 @@
   {
     "iso": "tundra-enets",
     "bases": [
-      550
+      200819
     ]
   },
   {
@@ -10874,7 +10874,7 @@
   {
     "iso": "tuorpon",
     "bases": [
-      1088
+      200820
     ]
   },
   {
@@ -10886,19 +10886,19 @@
   {
     "iso": "turku-highlands",
     "bases": [
-      2321
+      200821
     ]
   },
   {
     "iso": "tuzha",
     "bases": [
-      2379
+      200822
     ]
   },
   {
     "iso": "tysfjord",
     "bases": [
-      2378
+      200823
     ]
   },
   {
@@ -10910,7 +10910,7 @@
   {
     "iso": "ume-sami",
     "bases": [
-      2228
+      200824
     ]
   },
   {
@@ -10922,25 +10922,25 @@
   {
     "iso": "upper-konda",
     "bases": [
-      2678
+      200825
     ]
   },
   {
     "iso": "upper-lozva",
     "bases": [
-      1070
+      200826
     ]
   },
   {
     "iso": "upper-lupya",
     "bases": [
-      1091
+      200827
     ]
   },
   {
     "iso": "upper-sysola",
     "bases": [
-      1090
+      200828
     ]
   },
   {
@@ -10952,13 +10952,13 @@
   {
     "iso": "uralic-yukaghir",
     "bases": [
-      1080
+      200829
     ]
   },
   {
     "iso": "uralo-siberian",
     "bases": [
-      535
+      200830
     ]
   },
   {
@@ -10970,25 +10970,25 @@
   {
     "iso": "vakh",
     "bases": [
-      538
+      200831
     ]
   },
   {
     "iso": "v-rmland-savonian",
     "bases": [
-      2232
+      200832
     ]
   },
   {
     "iso": "vartovskoe",
     "bases": [
-      573
+      200833
     ]
   },
   {
     "iso": "vasjugan",
     "bases": [
-      539
+      200834
     ]
   },
   {
@@ -11000,19 +11000,19 @@
   {
     "iso": "verkhne-kalimsk",
     "bases": [
-      533
+      200835
     ]
   },
   {
     "iso": "vishera",
     "bases": [
-      2086
+      200836
     ]
   },
   {
     "iso": "volga",
     "bases": [
-      537
+      200837
     ]
   },
   {
@@ -11030,7 +11030,7 @@
   {
     "iso": "vym",
     "bases": [
-      760
+      200838
     ]
   },
   {
@@ -11066,67 +11066,67 @@
   {
     "iso": "western-transdanubian",
     "bases": [
-      2375
+      200839
     ]
   },
   {
     "iso": "western-uusimaa",
     "bases": [
-      928
+      200840
     ]
   },
   {
     "iso": "western-votic",
     "bases": [
-      910
+      200841
     ]
   },
   {
     "iso": "yaran",
     "bases": [
-      2377
+      200842
     ]
   },
   {
     "iso": "yaransk",
     "bases": [
-      2376
+      200843
     ]
   },
   {
     "iso": "yazva",
     "bases": [
-      2322
+      200844
     ]
   },
   {
     "iso": "yl-satakunta",
     "bases": [
-      553
+      200845
     ]
   },
   {
     "iso": "yoshkar-olin",
     "bases": [
-      540
+      200846
     ]
   },
   {
     "iso": "yurats",
     "bases": [
-      2380
+      200847
     ]
   },
   {
     "iso": "zyuzdino",
     "bases": [
-      551
+      200848
     ]
   },
   {
     "iso": "aas-whistled",
     "bases": [
-      331
+      200849
     ]
   },
   {
@@ -11174,7 +11174,7 @@
   {
     "iso": "andalusian",
     "bases": [
-      364
+      200850
     ]
   },
   {
@@ -11186,7 +11186,7 @@
   {
     "iso": "anglo-norman",
     "bases": [
-      2600
+      200851
     ]
   },
   {
@@ -11306,7 +11306,7 @@
   {
     "iso": "b-arnese",
     "bases": [
-      366
+      200852
     ]
   },
   {
@@ -11372,7 +11372,7 @@
   {
     "iso": "brianz-",
     "bases": [
-      367
+      200853
     ]
   },
   {
@@ -11450,7 +11450,7 @@
   {
     "iso": "canz-s",
     "bases": [
-      368
+      200854
     ]
   },
   {
@@ -11462,7 +11462,7 @@
   {
     "iso": "castilian",
     "bases": [
-      369
+      200855
     ]
   },
   {
@@ -11474,7 +11474,7 @@
   {
     "iso": "cast-o",
     "bases": [
-      323
+      200856
     ]
   },
   {
@@ -11606,13 +11606,13 @@
   {
     "iso": "cremun-s",
     "bases": [
-      371
+      200857
     ]
   },
   {
     "iso": "cri-ana",
     "bases": [
-      284
+      200858
     ]
   },
   {
@@ -11822,7 +11822,7 @@
   {
     "iso": "franglish",
     "bases": [
-      329
+      200859
     ]
   },
   {
@@ -11930,7 +11930,7 @@
   {
     "iso": "deu",
     "bases": [
-      348
+      200860
     ]
   },
   {
@@ -11966,7 +11966,7 @@
   {
     "iso": "isl",
     "bases": [
-      372
+      200861
     ]
   },
   {
@@ -11978,7 +11978,7 @@
   {
     "iso": "gle",
     "bases": [
-      332
+      200862
     ]
   },
   {
@@ -12008,7 +12008,7 @@
   {
     "iso": "italo-australian",
     "bases": [
-      50030
+      200863
     ]
   },
   {
@@ -12032,7 +12032,7 @@
   {
     "iso": "judeo-aragonese",
     "bases": [
-      374
+      200864
     ]
   },
   {
@@ -12194,7 +12194,7 @@
   {
     "iso": "lower-sorbian",
     "bases": [
-      2649
+      200865
     ]
   },
   {
@@ -12242,7 +12242,7 @@
   {
     "iso": "maltese-italian",
     "bases": [
-      259
+      200866
     ]
   },
   {
@@ -12326,19 +12326,19 @@
   {
     "iso": "moldavian",
     "bases": [
-      261
+      200867
     ]
   },
   {
     "iso": "molisan",
     "bases": [
-      376
+      200868
     ]
   },
   {
     "iso": "mon-gasque",
     "bases": [
-      377
+      200869
     ]
   },
   {
@@ -12350,7 +12350,7 @@
   {
     "iso": "moselle-romance",
     "bases": [
-      378
+      200870
     ]
   },
   {
@@ -12464,7 +12464,7 @@
   {
     "iso": "old-church-slavonic",
     "bases": [
-      333
+      200871
     ]
   },
   {
@@ -12500,7 +12500,7 @@
   {
     "iso": "old-prussian",
     "bases": [
-      379
+      200872
     ]
   },
   {
@@ -12530,7 +12530,7 @@
   {
     "iso": "orl-anais",
     "bases": [
-      334
+      200873
     ]
   },
   {
@@ -12548,7 +12548,7 @@
   {
     "iso": "pa-uezu",
     "bases": [
-      19
+      200874
     ]
   },
   {
@@ -12620,7 +12620,7 @@
   {
     "iso": "podlachian",
     "bases": [
-      919
+      200875
     ]
   },
   {
@@ -12638,7 +12638,7 @@
   {
     "iso": "polabian",
     "bases": [
-      50007
+      200876
     ]
   },
   {
@@ -12650,7 +12650,7 @@
   {
     "iso": "pomeranian",
     "bases": [
-      21054
+      200877
     ]
   },
   {
@@ -12722,7 +12722,7 @@
   {
     "iso": "ripuarian-platt",
     "bases": [
-      335
+      200878
     ]
   },
   {
@@ -12746,7 +12746,7 @@
   {
     "iso": "romani",
     "bases": [
-      381
+      200879
     ]
   },
   {
@@ -12854,7 +12854,7 @@
   {
     "iso": "serbo-croatian",
     "bases": [
-      382
+      200880
     ]
   },
   {
@@ -12872,7 +12872,7 @@
   {
     "iso": "silesian-german",
     "bases": [
-      349
+      200881
     ]
   },
   {
@@ -12890,7 +12890,7 @@
   {
     "iso": "slovincian",
     "bases": [
-      384
+      200882
     ]
   },
   {
@@ -12938,7 +12938,7 @@
   {
     "iso": "spa",
     "bases": [
-      2720
+      200883
     ]
   },
   {
@@ -12956,7 +12956,7 @@
   {
     "iso": "swe",
     "bases": [
-      350
+      200884
     ]
   },
   {
@@ -12980,13 +12980,13 @@
   {
     "iso": "swabian-german",
     "bases": [
-      50038
+      200885
     ]
   },
   {
     "iso": "swedish-native-speakers",
     "bases": [
-      388
+      200886
     ]
   },
   {
@@ -13076,7 +13076,7 @@
   {
     "iso": "sxu",
     "bases": [
-      389
+      200887
     ]
   },
   {
@@ -13088,13 +13088,13 @@
   {
     "iso": "urum",
     "bases": [
-      390
+      200888
     ]
   },
   {
     "iso": "vald-tain",
     "bases": [
-      57
+      200889
     ]
   },
   {
@@ -13166,7 +13166,7 @@
   {
     "iso": "walser-german",
     "bases": [
-      324
+      200890
     ]
   },
   {
@@ -13184,7 +13184,7 @@
   {
     "iso": "west-polesian",
     "bases": [
-      219
+      200891
     ]
   },
   {
@@ -13220,19 +13220,19 @@
   {
     "iso": "wisconsin-walloon",
     "bases": [
-      220
+      200892
     ]
   },
   {
     "iso": "wym",
     "bases": [
-      221
+      200893
     ]
   },
   {
     "iso": "yec",
     "bases": [
-      222
+      200894
     ]
   },
   {
@@ -13244,7 +13244,7 @@
   {
     "iso": "zea",
     "bases": [
-      223
+      200895
     ]
   },
   {
@@ -13262,13 +13262,13 @@
   {
     "iso": "forro-creole",
     "bases": [
-      20103
+      200896
     ]
   },
   {
     "iso": "principense-creole",
     "bases": [
-      20104
+      200897
     ]
   },
   {
@@ -13298,7 +13298,7 @@
   {
     "iso": "argobba",
     "bases": [
-      585
+      200898
     ]
   },
   {
@@ -13322,7 +13322,7 @@
   {
     "iso": "harari",
     "bases": [
-      3126
+      200899
     ]
   },
   {
@@ -13436,7 +13436,7 @@
   {
     "iso": "chagossian-creole",
     "bases": [
-      756
+      200900
     ]
   },
   {
@@ -13454,7 +13454,7 @@
   {
     "iso": "mauritian-creole",
     "bases": [
-      1366
+      200901
     ]
   },
   {
@@ -13466,7 +13466,7 @@
   {
     "iso": "rodriguan-creole",
     "bases": [
-      9821
+      200902
     ]
   },
   {
@@ -13478,7 +13478,7 @@
   {
     "iso": "tayo-creole",
     "bases": [
-      20557
+      200903
     ]
   },
   {
@@ -13520,13 +13520,13 @@
   {
     "iso": "chol",
     "bases": [
-      2223
+      200904
     ]
   },
   {
     "iso": "cholti-classic",
     "bases": [
-      2249
+      200905
     ]
   },
   {
@@ -13598,7 +13598,7 @@
   {
     "iso": "itza",
     "bases": [
-      3330
+      200906
     ]
   },
   {
@@ -13676,13 +13676,13 @@
   {
     "iso": "mhc",
     "bases": [
-      75
+      200907
     ]
   },
   {
     "iso": "mop",
     "bases": [
-      1492
+      200908
     ]
   },
   {
@@ -13730,7 +13730,7 @@
   {
     "iso": "sierra-juarez-zapotec",
     "bases": [
-      914
+      200909
     ]
   },
   {
@@ -13760,13 +13760,13 @@
   {
     "iso": "tpx",
     "bases": [
-      1630
+      200910
     ]
   },
   {
     "iso": "toj",
     "bases": [
-      1588
+      200911
     ]
   },
   {
@@ -13778,7 +13778,7 @@
   {
     "iso": "trique",
     "bases": [
-      6624
+      200912
     ]
   },
   {
@@ -13802,7 +13802,7 @@
   {
     "iso": "usp",
     "bases": [
-      8055
+      200913
     ]
   },
   {
@@ -13910,13 +13910,13 @@
   {
     "iso": "assyrian-neo-aramaic",
     "bases": [
-      742
+      200914
     ]
   },
   {
     "iso": "aws-nian",
     "bases": [
-      265
+      200915
     ]
   },
   {
@@ -13976,7 +13976,7 @@
   {
     "iso": "ba-ari",
     "bases": [
-      266
+      200916
     ]
   },
   {
@@ -14114,7 +14114,7 @@
   {
     "iso": "maghrebi-arabic",
     "bases": [
-      267
+      200917
     ]
   },
   {
@@ -14126,31 +14126,31 @@
   {
     "iso": "turoyo",
     "bases": [
-      268
+      200918
     ]
   },
   {
     "iso": "ugaritic",
     "bases": [
-      897
+      200919
     ]
   },
   {
     "iso": "western-egyptian-bedawi-arabic",
     "bases": [
-      898
+      200920
     ]
   },
   {
     "iso": "western-hilali-dialects",
     "bases": [
-      308
+      200921
     ]
   },
   {
     "iso": "western-middle-aramaic",
     "bases": [
-      10
+      200922
     ]
   },
   {
@@ -14162,37 +14162,37 @@
   {
     "iso": "western-pre-hilali-dialects",
     "bases": [
-      21107
+      200923
     ]
   },
   {
     "iso": "yafii-arabic",
     "bases": [
-      21108
+      200924
     ]
   },
   {
     "iso": "yemeni-arabic",
     "bases": [
-      17
+      200925
     ]
   },
   {
     "iso": "zabidi-dialect",
     "bases": [
-      801
+      200926
     ]
   },
   {
     "iso": "zakho",
     "bases": [
-      945
+      200927
     ]
   },
   {
     "iso": "zay",
     "bases": [
-      954
+      200928
     ]
   },
   {
@@ -14210,7 +14210,7 @@
   {
     "iso": "-azd-dialect",
     "bases": [
-      1016
+      200929
     ]
   },
   {
@@ -14222,25 +14222,25 @@
   {
     "iso": "algonquian-basque-pidgin",
     "bases": [
-      743
+      200930
     ]
   },
   {
     "iso": "american-indian-pidgin-english",
     "bases": [
-      50024
+      200931
     ]
   },
   {
     "iso": "andaman-creole-hindi",
     "bases": [
-      20507
+      200932
     ]
   },
   {
     "iso": "arabic-javanese-of-klego",
     "bases": [
-      1130
+      200933
     ]
   },
   {
@@ -14282,7 +14282,7 @@
   {
     "iso": "bolze",
     "bases": [
-      1135
+      200934
     ]
   },
   {
@@ -14294,13 +14294,13 @@
   {
     "iso": "borgarm-let",
     "bases": [
-      5812
+      200935
     ]
   },
   {
     "iso": "bozal-spanish",
     "bases": [
-      21109
+      200936
     ]
   },
   {
@@ -14342,13 +14342,13 @@
   {
     "iso": "cappadocian-greek",
     "bases": [
-      21110
+      200937
     ]
   },
   {
     "iso": "cauque-mayan",
     "bases": [
-      1379
+      200938
     ]
   },
   {
@@ -14372,7 +14372,7 @@
   {
     "iso": "cypriot-maronite-arabic",
     "bases": [
-      1380
+      200939
     ]
   },
   {
@@ -14384,7 +14384,7 @@
   {
     "iso": "duvle-wano-pidgin",
     "bases": [
-      1381
+      200940
     ]
   },
   {
@@ -14414,7 +14414,7 @@
   {
     "iso": "fran-ais-tirailleur",
     "bases": [
-      297
+      200941
     ]
   },
   {
@@ -14432,13 +14432,13 @@
   {
     "iso": "haflong-hindi",
     "bases": [
-      247
+      200942
     ]
   },
   {
     "iso": "hawaiian-pidgin-english",
     "bases": [
-      1431
+      200943
     ]
   },
   {
@@ -14456,13 +14456,13 @@
   {
     "iso": "inuktitut-english-pidgin",
     "bases": [
-      1554
+      200944
     ]
   },
   {
     "iso": "italian-eritrean",
     "bases": [
-      1591
+      200945
     ]
   },
   {
@@ -14486,13 +14486,13 @@
   {
     "iso": "javindo",
     "bases": [
-      9165
+      200946
     ]
   },
   {
     "iso": "jersey-dutch",
     "bases": [
-      1657
+      200947
     ]
   },
   {
@@ -14516,7 +14516,7 @@
   {
     "iso": "kikar",
     "bases": [
-      1726
+      200948
     ]
   },
   {
@@ -14558,7 +14558,7 @@
   {
     "iso": "labrador-inuit-pidgin-french",
     "bases": [
-      1774
+      200949
     ]
   },
   {
@@ -14588,19 +14588,19 @@
   {
     "iso": "loucheux-jargon",
     "bases": [
-      11038
+      200950
     ]
   },
   {
     "iso": "macanese-patois",
     "bases": [
-      10882
+      200951
     ]
   },
   {
     "iso": "madras-bashai",
     "bases": [
-      20170
+      200952
     ]
   },
   {
@@ -14618,25 +14618,25 @@
   {
     "iso": "maritime-polynesian-pidgin",
     "bases": [
-      1919
+      200953
     ]
   },
   {
     "iso": "mbugu",
     "bases": [
-      1883
+      200954
     ]
   },
   {
     "iso": "media-lengua",
     "bases": [
-      2026
+      200955
     ]
   },
   {
     "iso": "mediterranean-lingua-franca",
     "bases": [
-      13366
+      200956
     ]
   },
   {
@@ -14648,25 +14648,25 @@
   {
     "iso": "mekeo-pidgins",
     "bases": [
-      20006
+      200957
     ]
   },
   {
     "iso": "michif",
     "bases": [
-      20007
+      200958
     ]
   },
   {
     "iso": "micronesian-pidgin-english",
     "bases": [
-      21113
+      200959
     ]
   },
   {
     "iso": "missingsch",
     "bases": [
-      1572
+      200960
     ]
   },
   {
@@ -14678,55 +14678,55 @@
   {
     "iso": "mohawk-dutch",
     "bases": [
-      2161
+      200961
     ]
   },
   {
     "iso": "nagamese",
     "bases": [
-      13854
+      200962
     ]
   },
   {
     "iso": "namibian-black-german",
     "bases": [
-      20008
+      200963
     ]
   },
   {
     "iso": "nauru-pidgin-english",
     "bases": [
-      666
+      200964
     ]
   },
   {
     "iso": "ndyuka-tiriy-pidgin",
     "bases": [
-      2301
+      200965
     ]
   },
   {
     "iso": "nefamese",
     "bases": [
-      2304
+      200966
     ]
   },
   {
     "iso": "negerhollands",
     "bases": [
-      2305
+      200967
     ]
   },
   {
     "iso": "negro-dutch",
     "bases": [
-      667
+      200968
     ]
   },
   {
     "iso": "nootka-jargon",
     "bases": [
-      21102
+      200969
     ]
   },
   {
@@ -14738,31 +14738,31 @@
   {
     "iso": "oorlams-creole",
     "bases": [
-      6621
+      200970
     ]
   },
   {
     "iso": "palenquero",
     "bases": [
-      13927
+      200971
     ]
   },
   {
     "iso": "papua-new-guinea-pidgin",
     "bases": [
-      107
+      200972
     ]
   },
   {
     "iso": "papuan-pidgin-english",
     "bases": [
-      21111
+      200973
     ]
   },
   {
     "iso": "petjo",
     "bases": [
-      2243
+      200974
     ]
   },
   {
@@ -14780,127 +14780,127 @@
   {
     "iso": "pidgin-hawaiian",
     "bases": [
-      1188
+      200975
     ]
   },
   {
     "iso": "pidgin-iha",
     "bases": [
-      20172
+      200976
     ]
   },
   {
     "iso": "pidgin-ngarluma",
     "bases": [
-      1487
+      200977
     ]
   },
   {
     "iso": "pidgin-onin",
     "bases": [
-      1189
+      200978
     ]
   },
   {
     "iso": "pidgin-wolof",
     "bases": [
-      1486
+      200979
     ]
   },
   {
     "iso": "port-jackson-pidgin-english",
     "bases": [
-      20019
+      200980
     ]
   },
   {
     "iso": "pretoria-sotho",
     "bases": [
-      21112
+      200981
     ]
   },
   {
     "iso": "qoqmoncaq",
     "bases": [
-      867
+      200982
     ]
   },
   {
     "iso": "queensland-kanaka-english",
     "bases": [
-      254
+      200983
     ]
   },
   {
     "iso": "roquetas-pidgin-spanish",
     "bases": [
-      255
+      200984
     ]
   },
   {
     "iso": "russenorsk",
     "bases": [
-      743
+      200985
     ]
   },
   {
     "iso": "samoan-plantation-pidgin",
     "bases": [
-      50024
+      200986
     ]
   },
   {
     "iso": "settler-swahili",
     "bases": [
-      20507
+      200987
     ]
   },
   {
     "iso": "simplified-italian-of-libya",
     "bases": [
-      1130
+      200988
     ]
   },
   {
     "iso": "simplified-italian-of-somalia",
     "bases": [
-      1135
+      200989
     ]
   },
   {
     "iso": "skepi-dutch-creole",
     "bases": [
-      5812
+      200990
     ]
   },
   {
     "iso": "solombala-english",
     "bases": [
-      21109
+      200991
     ]
   },
   {
     "iso": "solomon-islands-pijin",
     "bases": [
-      21110
+      200992
     ]
   },
   {
     "iso": "taimyr-pidgin-russian",
     "bases": [
-      1379
+      200993
     ]
   },
   {
     "iso": "tangwang",
     "bases": [
-      1380
+      200994
     ]
   },
   {
     "iso": "tansi",
     "bases": [
-      1381
+      200995
     ]
   },
   {
@@ -14912,7 +14912,7 @@
   {
     "iso": "te-parau-tinito",
     "bases": [
-      297
+      200996
     ]
   },
   {
@@ -14924,13 +14924,13 @@
   {
     "iso": "tinglish",
     "bases": [
-      247
+      200997
     ]
   },
   {
     "iso": "tsotsitaal",
     "bases": [
-      1431
+      200998
     ]
   },
   {
@@ -14942,25 +14942,25 @@
   {
     "iso": "unserdeutsch",
     "bases": [
-      1554
+      200999
     ]
   },
   {
     "iso": "vedda",
     "bases": [
-      1591
+      201000
     ]
   },
   {
     "iso": "waxiang",
     "bases": [
-      9165
+      201001
     ]
   },
   {
     "iso": "west-greenlandic-pidgin",
     "bases": [
-      1657
+      201002
     ]
   },
   {
@@ -14972,7 +14972,7 @@
   {
     "iso": "xieheyu",
     "bases": [
-      1726
+      201003
     ]
   },
   {
@@ -14996,7 +14996,7 @@
   {
     "iso": "beni-snous-dialect",
     "bases": [
-      791
+      201004
     ]
   },
   {
@@ -15026,7 +15026,7 @@
   {
     "iso": "ghadames",
     "bases": [
-      20661
+      201005
     ]
   },
   {
@@ -15050,7 +15050,7 @@
   {
     "iso": "iznasen",
     "bases": [
-      20725
+      201006
     ]
   },
   {
@@ -15068,7 +15068,7 @@
   {
     "iso": "kabyle",
     "bases": [
-      10988
+      201007
     ]
   },
   {
@@ -15104,7 +15104,7 @@
   {
     "iso": "shawiya",
     "bases": [
-      1746
+      201008
     ]
   },
   {
@@ -15116,13 +15116,13 @@
   {
     "iso": "shilha",
     "bases": [
-      11482
+      201009
     ]
   },
   {
     "iso": "siwi",
     "bases": [
-      11331
+      201010
     ]
   },
   {
@@ -15134,13 +15134,13 @@
   {
     "iso": "south-oran-figuig-berber",
     "bases": [
-      11339
+      201011
     ]
   },
   {
     "iso": "tarifit",
     "bases": [
-      1681
+      201012
     ]
   },
   {
@@ -15152,43 +15152,43 @@
   {
     "iso": "tidikelt",
     "bases": [
-      13375
+      201013
     ]
   },
   {
     "iso": "tuareg-tamasheq",
     "bases": [
-      20738
+      201014
     ]
   },
   {
     "iso": "tugurt",
     "bases": [
-      20739
+      201015
     ]
   },
   {
     "iso": "tuwat",
     "bases": [
-      20740
+      201016
     ]
   },
   {
     "iso": "western-algerian-zenatic-dialects",
     "bases": [
-      20741
+      201017
     ]
   },
   {
     "iso": "zurg",
     "bases": [
-      20742
+      201018
     ]
   },
   {
     "iso": "zuwara-berber",
     "bases": [
-      20743
+      201019
     ]
   },
   {
@@ -15218,7 +15218,7 @@
   {
     "iso": "arp",
     "bases": [
-      74
+      201020
     ]
   },
   {
@@ -15284,13 +15284,13 @@
   {
     "iso": "tsi",
     "bases": [
-      2470
+      201021
     ]
   },
   {
     "iso": "coj",
     "bases": [
-      796
+      201022
     ]
   },
   {
@@ -15368,7 +15368,7 @@
   {
     "iso": "gwi",
     "bases": [
-      2074
+      201023
     ]
   },
   {
@@ -15380,7 +15380,7 @@
   {
     "iso": "haa",
     "bases": [
-      2075
+      201024
     ]
   },
   {
@@ -15476,7 +15476,7 @@
   {
     "iso": "m-tis-french",
     "bases": [
-      13243
+      201025
     ]
   },
   {
@@ -15488,7 +15488,7 @@
   {
     "iso": "mikmaq",
     "bases": [
-      1417
+      201026
     ]
   },
   {
@@ -15506,7 +15506,7 @@
   {
     "iso": "mov",
     "bases": [
-      1208
+      201027
     ]
   },
   {
@@ -15530,7 +15530,7 @@
   {
     "iso": "na-dene",
     "bases": [
-      2073
+      201028
     ]
   },
   {
@@ -15566,7 +15566,7 @@
   {
     "iso": "occaneechi",
     "bases": [
-      21117
+      201029
     ]
   },
   {
@@ -15638,13 +15638,13 @@
   {
     "iso": "southern-tepehuan",
     "bases": [
-      1592
+      201030
     ]
   },
   {
     "iso": "tcb",
     "bases": [
-      6632
+      201031
     ]
   },
   {
@@ -15662,7 +15662,7 @@
   {
     "iso": "dgr",
     "bases": [
-      71
+      201032
     ]
   },
   {
@@ -15692,13 +15692,13 @@
   {
     "iso": "ute",
     "bases": [
-      7365
+      201033
     ]
   },
   {
     "iso": "wiyot",
     "bases": [
-      21114
+      201034
     ]
   },
   {
@@ -15716,13 +15716,13 @@
   {
     "iso": "yurok",
     "bases": [
-      7835
+      201035
     ]
   },
   {
     "iso": "zun",
     "bases": [
-      8057
+      201036
     ]
   },
   {
@@ -15770,7 +15770,7 @@
   {
     "iso": "alekano",
     "bases": [
-      2180
+      201037
     ]
   },
   {
@@ -15782,7 +15782,7 @@
   {
     "iso": "aneme-wake",
     "bases": [
-      2181
+      201038
     ]
   },
   {
@@ -15800,13 +15800,13 @@
   {
     "iso": "ankave",
     "bases": [
-      2182
+      201039
     ]
   },
   {
     "iso": "ari",
     "bases": [
-      2183
+      201040
     ]
   },
   {
@@ -15824,31 +15824,31 @@
   {
     "iso": "asmat-kamoro",
     "bases": [
-      2184
+      201041
     ]
   },
   {
     "iso": "tay",
     "bases": [
-      2185
+      201042
     ]
   },
   {
     "iso": "atohwaim-kaugat",
     "bases": [
-      2186
+      201043
     ]
   },
   {
     "iso": "australian-kriol",
     "bases": [
-      741
+      201044
     ]
   },
   {
     "iso": "auye",
     "bases": [
-      195
+      201045
     ]
   },
   {
@@ -15950,7 +15950,7 @@
   {
     "iso": "becking-dawi",
     "bases": [
-      747
+      201046
     ]
   },
   {
@@ -16052,7 +16052,7 @@
   {
     "iso": "rukai-budai-labuan-taromak",
     "bases": [
-      762
+      201047
     ]
   },
   {
@@ -16094,7 +16094,7 @@
   {
     "iso": "cam",
     "bases": [
-      764
+      201048
     ]
   },
   {
@@ -16106,7 +16106,7 @@
   {
     "iso": "mrn",
     "bases": [
-      50023
+      201049
     ]
   },
   {
@@ -16202,7 +16202,7 @@
   {
     "iso": "ese-omie",
     "bases": [
-      809
+      201050
     ]
   },
   {
@@ -16358,7 +16358,7 @@
   {
     "iso": "hagen",
     "bases": [
-      97939
+      201051
     ]
   },
   {
@@ -16388,13 +16388,13 @@
   {
     "iso": "hoanya",
     "bases": [
-      915
+      201052
     ]
   },
   {
     "iso": "hoia-hoia",
     "bases": [
-      97971
+      201053
     ]
   },
   {
@@ -16460,13 +16460,13 @@
   {
     "iso": "bunun-isbukun",
     "bases": [
-      98022
+      201054
     ]
   },
   {
     "iso": "javanese",
     "bases": [
-      198
+      201055
     ]
   },
   {
@@ -16478,19 +16478,19 @@
   {
     "iso": "kaera",
     "bases": [
-      2734
+      201056
     ]
   },
   {
     "iso": "kafoa",
     "bases": [
-      2736
+      201057
     ]
   },
   {
     "iso": "kaguel",
     "bases": [
-      2737
+      201058
     ]
   },
   {
@@ -16502,13 +16502,13 @@
   {
     "iso": "kainantu",
     "bases": [
-      206
+      201059
     ]
   },
   {
     "iso": "kalamian",
     "bases": [
-      215
+      201060
     ]
   },
   {
@@ -16562,7 +16562,7 @@
   {
     "iso": "xnb",
     "bases": [
-      1027
+      201061
     ]
   },
   {
@@ -16604,13 +16604,13 @@
   {
     "iso": "kawacha",
     "bases": [
-      1115
+      201062
     ]
   },
   {
     "iso": "kayagar-kaygir",
     "bases": [
-      1022
+      201063
     ]
   },
   {
@@ -16622,7 +16622,7 @@
   {
     "iso": "ke-yagana",
     "bases": [
-      1124
+      201064
     ]
   },
   {
@@ -16652,7 +16652,7 @@
   {
     "iso": "kae",
     "bases": [
-      1129
+      201065
     ]
   },
   {
@@ -16664,13 +16664,13 @@
   {
     "iso": "kij",
     "bases": [
-      1131
+      201066
     ]
   },
   {
     "iso": "kimaama-kimaghama",
     "bases": [
-      138
+      201067
     ]
   },
   {
@@ -16700,7 +16700,7 @@
   {
     "iso": "kombai-wanggom",
     "bases": [
-      214
+      201068
     ]
   },
   {
@@ -16766,7 +16766,7 @@
   {
     "iso": "kowiai",
     "bases": [
-      1142
+      201069
     ]
   },
   {
@@ -16796,7 +16796,7 @@
   {
     "iso": "uon",
     "bases": [
-      1144
+      201070
     ]
   },
   {
@@ -16808,7 +16808,7 @@
   {
     "iso": "kunimaipa",
     "bases": [
-      2741
+      201071
     ]
   },
   {
@@ -16856,7 +16856,7 @@
   {
     "iso": "lowland-iwur",
     "bases": [
-      21007
+      201072
     ]
   },
   {
@@ -16868,19 +16868,19 @@
   {
     "iso": "madurese",
     "bases": [
-      1280
+      201073
     ]
   },
   {
     "iso": "rukai-maga-tona",
     "bases": [
-      136
+      201074
     ]
   },
   {
     "iso": "mailu",
     "bases": [
-      202
+      201075
     ]
   },
   {
@@ -16892,31 +16892,31 @@
   {
     "iso": "maiwa",
     "bases": [
-      1306
+      201076
     ]
   },
   {
     "iso": "makalero",
     "bases": [
-      1307
+      201077
     ]
   },
   {
     "iso": "makasae",
     "bases": [
-      21086
+      201078
     ]
   },
   {
     "iso": "makassar-branch",
     "bases": [
-      1308
+      201079
     ]
   },
   {
     "iso": "makayam",
     "bases": [
-      1321
+      201080
     ]
   },
   {
@@ -16940,13 +16940,13 @@
   {
     "iso": "mandobo",
     "bases": [
-      98004
+      201081
     ]
   },
   {
     "iso": "rukai-mantauran",
     "bases": [
-      1324
+      201082
     ]
   },
   {
@@ -16958,31 +16958,31 @@
   {
     "iso": "maori",
     "bases": [
-      1327
+      201083
     ]
   },
   {
     "iso": "mapena",
     "bases": [
-      1329
+      201084
     ]
   },
   {
     "iso": "maria",
     "bases": [
-      21087
+      201085
     ]
   },
   {
     "iso": "marind",
     "bases": [
-      21088
+      201086
     ]
   },
   {
     "iso": "maring",
     "bases": [
-      1359
+      201087
     ]
   },
   {
@@ -17000,7 +17000,7 @@
   {
     "iso": "melanesian-pidgin",
     "bases": [
-      1387
+      201088
     ]
   },
   {
@@ -17012,13 +17012,13 @@
   {
     "iso": "menya",
     "bases": [
-      1390
+      201089
     ]
   },
   {
     "iso": "mian",
     "bases": [
-      211
+      201090
     ]
   },
   {
@@ -17030,7 +17030,7 @@
   {
     "iso": "moikodi",
     "bases": [
-      1401
+      201091
     ]
   },
   {
@@ -17042,43 +17042,43 @@
   {
     "iso": "mombum",
     "bases": [
-      1402
+      201092
     ]
   },
   {
     "iso": "momina",
     "bases": [
-      1434
+      201093
     ]
   },
   {
     "iso": "momuna",
     "bases": [
-      2748
+      201094
     ]
   },
   {
     "iso": "moni",
     "bases": [
-      1586
+      201095
     ]
   },
   {
     "iso": "moraori",
     "bases": [
-      21090
+      201096
     ]
   },
   {
     "iso": "morawa",
     "bases": [
-      1634
+      201097
     ]
   },
   {
     "iso": "morigi",
     "bases": [
-      1650
+      201098
     ]
   },
   {
@@ -17090,31 +17090,31 @@
   {
     "iso": "mountain",
     "bases": [
-      1655
+      201099
     ]
   },
   {
     "iso": "mountain-koiari",
     "bases": [
-      1656
+      201100
     ]
   },
   {
     "iso": "mubami",
     "bases": [
-      1670
+      201101
     ]
   },
   {
     "iso": "mulaha",
     "bases": [
-      1701
+      201102
     ]
   },
   {
     "iso": "mnb",
     "bases": [
-      1709
+      201103
     ]
   },
   {
@@ -17126,37 +17126,37 @@
   {
     "iso": "muyu",
     "bases": [
-      1710
+      201104
     ]
   },
   {
     "iso": "nakai",
     "bases": [
-      1715
+      201105
     ]
   },
   {
     "iso": "namiae",
     "bases": [
-      1723
+      201106
     ]
   },
   {
     "iso": "namumi",
     "bases": [
-      1755
+      201107
     ]
   },
   {
     "iso": "narak",
     "bases": [
-      1757
+      201108
     ]
   },
   {
     "iso": "nrm",
     "bases": [
-      1767
+      201109
     ]
   },
   {
@@ -17180,67 +17180,67 @@
   {
     "iso": "nawaru",
     "bases": [
-      1778
+      201110
     ]
   },
   {
     "iso": "ndom",
     "bases": [
-      1781
+      201111
     ]
   },
   {
     "iso": "nduga",
     "bases": [
-      1789
+      201112
     ]
   },
   {
     "iso": "nedebang",
     "bases": [
-      1790
+      201113
     ]
   },
   {
     "iso": "nem",
     "bases": [
-      1820
+      201114
     ]
   },
   {
     "iso": "new-zealand-pidgin-english",
     "bases": [
-      1842
+      201115
     ]
   },
   {
     "iso": "ngalum",
     "bases": [
-      2589
+      201116
     ]
   },
   {
     "iso": "ngatikese-creole",
     "bases": [
-      1846
+      201117
     ]
   },
   {
     "iso": "nggem",
     "bases": [
-      141
+      201118
     ]
   },
   {
     "iso": "nii",
     "bases": [
-      1848
+      201119
     ]
   },
   {
     "iso": "ninggerum",
     "bases": [
-      1849
+      201120
     ]
   },
   {
@@ -17252,7 +17252,7 @@
   {
     "iso": "nomane",
     "bases": [
-      1851
+      201121
     ]
   },
   {
@@ -17288,7 +17288,7 @@
   {
     "iso": "bunun-northern-central",
     "bases": [
-      50028
+      201122
     ]
   },
   {
@@ -17324,79 +17324,79 @@
   {
     "iso": "nxl",
     "bases": [
-      203
+      201123
     ]
   },
   {
     "iso": "odoodee",
     "bases": [
-      204
+      201124
     ]
   },
   {
     "iso": "oirata",
     "bases": [
-      1834
+      201125
     ]
   },
   {
     "iso": "ok-oksapmin",
     "bases": [
-      1864
+      201126
     ]
   },
   {
     "iso": "oksapmin",
     "bases": [
-      1918
+      201127
     ]
   },
   {
     "iso": "omati",
     "bases": [
-      21089
+      201128
     ]
   },
   {
     "iso": "onjob",
     "bases": [
-      1520
+      201129
     ]
   },
   {
     "iso": "onobasulu",
     "bases": [
-      205
+      201130
     ]
   },
   {
     "iso": "ontenu",
     "bases": [
-      1821
+      201131
     ]
   },
   {
     "iso": "orokaiva",
     "bases": [
-      1824
+      201132
     ]
   },
   {
     "iso": "oweina",
     "bases": [
-      1826
+      201133
     ]
   },
   {
     "iso": "pa",
     "bases": [
-      1827
+      201134
     ]
   },
   {
     "iso": "paiwan",
     "bases": [
-      1931
+      201135
     ]
   },
   {
@@ -17408,31 +17408,31 @@
   {
     "iso": "paniai-lakes",
     "bases": [
-      301
+      201136
     ]
   },
   {
     "iso": "papora",
     "bases": [
-      98014
+      201137
     ]
   },
   {
     "iso": "ppu",
     "bases": [
-      97970
+      201138
     ]
   },
   {
     "iso": "papuan-tip",
     "bases": [
-      97974
+      201139
     ]
   },
   {
     "iso": "pzh",
     "bases": [
-      1903
+      201140
     ]
   },
   {
@@ -17450,37 +17450,37 @@
   {
     "iso": "pisa",
     "bases": [
-      1905
+      201141
     ]
   },
   {
     "iso": "pitcairn-norfolk",
     "bases": [
-      1914
+      201142
     ]
   },
   {
     "iso": "pitkern",
     "bases": [
-      2024
+      201143
     ]
   },
   {
     "iso": "pogaya",
     "bases": [
-      2585
+      201144
     ]
   },
   {
     "iso": "puyuma",
     "bases": [
-      1949
+      201145
     ]
   },
   {
     "iso": "rapa-nui",
     "bases": [
-      21091
+      201146
     ]
   },
   {
@@ -17498,19 +17498,19 @@
   {
     "iso": "retta",
     "bases": [
-      21092
+      201147
     ]
   },
   {
     "iso": "riantana",
     "bases": [
-      21093
+      201148
     ]
   },
   {
     "iso": "rotokas",
     "bases": [
-      21096
+      201149
     ]
   },
   {
@@ -17522,25 +17522,25 @@
   {
     "iso": "rukai",
     "bases": [
-      159
+      201150
     ]
   },
   {
     "iso": "rumu",
     "bases": [
-      97977
+      201151
     ]
   },
   {
     "iso": "rusenu",
     "bases": [
-      1999
+      201152
     ]
   },
   {
     "iso": "sxr",
     "bases": [
-      2000
+      201153
     ]
   },
   {
@@ -17552,31 +17552,31 @@
   {
     "iso": "sabakor",
     "bases": [
-      2002
+      201154
     ]
   },
   {
     "iso": "safeyoka",
     "bases": [
-      2003
+      201155
     ]
   },
   {
     "iso": "xsy",
     "bases": [
-      2098
+      201156
     ]
   },
   {
     "iso": "szy",
     "bases": [
-      208
+      201157
     ]
   },
   {
     "iso": "salt-yui",
     "bases": [
-      2099
+      201158
     ]
   },
   {
@@ -17588,13 +17588,13 @@
   {
     "iso": "samberigi",
     "bases": [
-      2100
+      201159
     ]
   },
   {
     "iso": "samo",
     "bases": [
-      2101
+      201160
     ]
   },
   {
@@ -17612,7 +17612,7 @@
   {
     "iso": "sawi",
     "bases": [
-      2103
+      201161
     ]
   },
   {
@@ -17624,13 +17624,13 @@
   {
     "iso": "snv",
     "bases": [
-      2020
+      201162
     ]
   },
   {
     "iso": "trv",
     "bases": [
-      207
+      201163
     ]
   },
   {
@@ -17648,19 +17648,19 @@
   {
     "iso": "sempan",
     "bases": [
-      1622
+      201164
     ]
   },
   {
     "iso": "setaman",
     "bases": [
-      149
+      201165
     ]
   },
   {
     "iso": "shiaxa",
     "bases": [
-      142
+      201166
     ]
   },
   {
@@ -17672,31 +17672,31 @@
   {
     "iso": "siane",
     "bases": [
-      2308
+      201167
     ]
   },
   {
     "iso": "silimo",
     "bases": [
-      210
+      201168
     ]
   },
   {
     "iso": "simbari",
     "bases": [
-      209
+      201169
     ]
   },
   {
     "iso": "sinasina",
     "bases": [
-      97973
+      201170
     ]
   },
   {
     "iso": "singlish",
     "bases": [
-      2749
+      201171
     ]
   },
   {
@@ -17708,25 +17708,25 @@
   {
     "iso": "somahai",
     "bases": [
-      2238
+      201172
     ]
   },
   {
     "iso": "some",
     "bases": [
-      2241
+      201173
     ]
   },
   {
     "iso": "sonia",
     "bases": [
-      2253
+      201174
     ]
   },
   {
     "iso": "sonsorolese",
     "bases": [
-      2256
+      201175
     ]
   },
   {
@@ -17762,7 +17762,7 @@
   {
     "iso": "atayal-squliq",
     "bases": [
-      2257
+      201176
     ]
   },
   {
@@ -17774,19 +17774,19 @@
   {
     "iso": "suena",
     "bases": [
-      2258
+      201177
     ]
   },
   {
     "iso": "suganga",
     "bases": [
-      2261
+      201178
     ]
   },
   {
     "iso": "suki",
     "bases": [
-      2264
+      201179
     ]
   },
   {
@@ -17804,7 +17804,7 @@
   {
     "iso": "susuami",
     "bases": [
-      2266
+      201180
     ]
   },
   {
@@ -17822,61 +17822,61 @@
   {
     "iso": "tainae",
     "bases": [
-      2269
+      201181
     ]
   },
   {
     "iso": "tairoa",
     "bases": [
-      2272
+      201182
     ]
   },
   {
     "iso": "tairora",
     "bases": [
-      2271
+      201183
     ]
   },
   {
     "iso": "tamagario",
     "bases": [
-      2273
+      201184
     ]
   },
   {
     "iso": "tangko",
     "bases": [
-      21008
+      201185
     ]
   },
   {
     "iso": "taokas",
     "bases": [
-      2284
+      201186
     ]
   },
   {
     "iso": "tauade",
     "bases": [
-      2285
+      201187
     ]
   },
   {
     "iso": "teiwa",
     "bases": [
-      2289
+      201188
     ]
   },
   {
     "iso": "telefol",
     "bases": [
-      2291
+      201189
     ]
   },
   {
     "iso": "tembagla",
     "bases": [
-      2303
+      201190
     ]
   },
   {
@@ -17888,19 +17888,19 @@
   {
     "iso": "ssf",
     "bases": [
-      135
+      201191
     ]
   },
   {
     "iso": "tifal",
     "bases": [
-      140
+      201192
     ]
   },
   {
     "iso": "timor-alor-pantar",
     "bases": [
-      2407
+      201193
     ]
   },
   {
@@ -17912,13 +17912,13 @@
   {
     "iso": "tirio-lower-fly",
     "bases": [
-      2410
+      201194
     ]
   },
   {
     "iso": "tobian",
     "bases": [
-      2415
+      201195
     ]
   },
   {
@@ -17930,7 +17930,7 @@
   {
     "iso": "tokano",
     "bases": [
-      1641
+      201196
     ]
   },
   {
@@ -17954,25 +17954,25 @@
   {
     "iso": "torres-strait-creole",
     "bases": [
-      2118
+      201197
     ]
   },
   {
     "iso": "atayal-tsole",
     "bases": [
-      98024
+      201198
     ]
   },
   {
     "iso": "tsaukambo",
     "bases": [
-      2586
+      201199
     ]
   },
   {
     "iso": "tsu",
     "bases": [
-      172
+      201200
     ]
   },
   {
@@ -17984,13 +17984,13 @@
   {
     "iso": "turaka",
     "bases": [
-      173
+      201201
     ]
   },
   {
     "iso": "turama-kikorian",
     "bases": [
-      2587
+      201202
     ]
   },
   {
@@ -18002,37 +18002,37 @@
   {
     "iso": "aoz",
     "bases": [
-      2746
+      201203
     ]
   },
   {
     "iso": "uare",
     "bases": [
-      150
+      201204
     ]
   },
   {
     "iso": "umanakaina",
     "bases": [
-      97972
+      201205
     ]
   },
   {
     "iso": "urapmin",
     "bases": [
-      147
+      201206
     ]
   },
   {
     "iso": "usarufa",
     "bases": [
-      162
+      201207
     ]
   },
   {
     "iso": "piv",
     "bases": [
-      98025
+      201208
     ]
   },
   {
@@ -18044,91 +18044,91 @@
   {
     "iso": "waboda",
     "bases": [
-      146
+      201209
     ]
   },
   {
     "iso": "waffa",
     "bases": [
-      163
+      201210
     ]
   },
   {
     "iso": "wahgi",
     "bases": [
-      790
+      201211
     ]
   },
   {
     "iso": "wmh",
     "bases": [
-      97906
+      201212
     ]
   },
   {
     "iso": "walak",
     "bases": [
-      97994
+      201213
     ]
   },
   {
     "iso": "wambon",
     "bases": [
-      98017
+      201214
     ]
   },
   {
     "iso": "wano",
     "bases": [
-      153
+      201215
     ]
   },
   {
     "iso": "waruna",
     "bases": [
-      178
+      201216
     ]
   },
   {
     "iso": "wyy",
     "bases": [
-      151
+      201217
     ]
   },
   {
     "iso": "were",
     "bases": [
-      2119
+      201218
     ]
   },
   {
     "iso": "weri",
     "bases": [
-      21118
+      201219
     ]
   },
   {
     "iso": "wersing",
     "bases": [
-      21119
+      201220
     ]
   },
   {
     "iso": "west-bomberai",
     "bases": [
-      21120
+      201221
     ]
   },
   {
     "iso": "western",
     "bases": [
-      157
+      201222
     ]
   },
   {
     "iso": "western-dani",
     "bases": [
-      164
+      201223
     ]
   },
   {
@@ -18146,43 +18146,43 @@
   {
     "iso": "western-pantar",
     "bases": [
-      2747
+      201224
     ]
   },
   {
     "iso": "wiru",
     "bases": [
-      2072
+      201225
     ]
   },
   {
     "iso": "wolani",
     "bases": [
-      98015
+      201226
     ]
   },
   {
     "iso": "wlo",
     "bases": [
-      2750
+      201227
     ]
   },
   {
     "iso": "yagaria",
     "bases": [
-      21085
+      201228
     ]
   },
   {
     "iso": "yagwoia",
     "bases": [
-      98016
+      201229
     ]
   },
   {
     "iso": "yali",
     "bases": [
-      152
+      201230
     ]
   },
   {
@@ -18194,61 +18194,61 @@
   {
     "iso": "yaqay",
     "bases": [
-      160
+      201231
     ]
   },
   {
     "iso": "yareba",
     "bases": [
-      2588
+      201232
     ]
   },
   {
     "iso": "yaweyuha",
     "bases": [
-      148
+      201233
     ]
   },
   {
     "iso": "yekora",
     "bases": [
-      179
+      201234
     ]
   },
   {
     "iso": "yipma",
     "bases": [
-      161
+      201235
     ]
   },
   {
     "iso": "yogo-tamagario",
     "bases": [
-      139
+      201236
     ]
   },
   {
     "iso": "yonggom",
     "bases": [
-      166
+      201237
     ]
   },
   {
     "iso": "zia",
     "bases": [
-      1853
+      201238
     ]
   },
   {
     "iso": "zimakani",
     "bases": [
-      21121
+      201239
     ]
   },
   {
     "iso": "alu",
     "bases": [
-      156
+      201240
     ]
   },
   {
@@ -18266,13 +18266,13 @@
   {
     "iso": "arin",
     "bases": [
-      862
+      201241
     ]
   },
   {
     "iso": "assan",
     "bases": [
-      1601
+      201242
     ]
   },
   {
@@ -18314,7 +18314,7 @@
   {
     "iso": "jie",
     "bases": [
-      1607
+      201243
     ]
   },
   {
@@ -18350,55 +18350,55 @@
   {
     "iso": "nivkh",
     "bases": [
-      1608
+      201244
     ]
   },
   {
     "iso": "omok",
     "bases": [
-      1612
+      201245
     ]
   },
   {
     "iso": "pumpokol",
     "bases": [
-      1739
+      201246
     ]
   },
   {
     "iso": "southern-itelmen",
     "bases": [
-      1987
+      201247
     ]
   },
   {
     "iso": "southern-yukaghir",
     "bases": [
-      2088
+      201248
     ]
   },
   {
     "iso": "tundra-yukaghir",
     "bases": [
-      2089
+      201249
     ]
   },
   {
     "iso": "western-itelmen",
     "bases": [
-      2090
+      201250
     ]
   },
   {
     "iso": "yeniseian",
     "bases": [
-      2091
+      201251
     ]
   },
   {
     "iso": "yugh",
     "bases": [
-      2092
+      201252
     ]
   },
   {
@@ -18416,7 +18416,7 @@
   {
     "iso": "angami-pochuri",
     "bases": [
-      745
+      201253
     ]
   },
   {
@@ -18458,7 +18458,7 @@
   {
     "iso": "bijiang-bai",
     "bases": [
-      748
+      201254
     ]
   },
   {
@@ -18488,7 +18488,7 @@
   {
     "iso": "boro-garo",
     "bases": [
-      20159
+      201255
     ]
   },
   {
@@ -18554,7 +18554,7 @@
   {
     "iso": "dali-bai",
     "bases": [
-      2456
+      201256
     ]
   },
   {
@@ -18590,7 +18590,7 @@
   {
     "iso": "mhu",
     "bases": [
-      2443
+      201257
     ]
   },
   {
@@ -18674,7 +18674,7 @@
   {
     "iso": "heqing-bai-dialect",
     "bases": [
-      888
+      201258
     ]
   },
   {
@@ -18716,7 +18716,7 @@
   {
     "iso": "idu-taraon",
     "bases": [
-      2486
+      201259
     ]
   },
   {
@@ -18728,19 +18728,19 @@
   {
     "iso": "jingpho",
     "bases": [
-      2469
+      201260
     ]
   },
   {
     "iso": "jingpho-luish",
     "bases": [
-      1256
+      201261
     ]
   },
   {
     "iso": "jino",
     "bases": [
-      1341
+      201262
     ]
   },
   {
@@ -18854,7 +18854,7 @@
   {
     "iso": "lolo-burmese",
     "bases": [
-      1345
+      201263
     ]
   },
   {
@@ -18866,19 +18866,19 @@
   {
     "iso": "longjia-luren",
     "bases": [
-      1251
+      201264
     ]
   },
   {
     "iso": "njh",
     "bases": [
-      270
+      201265
     ]
   },
   {
     "iso": "macro-bai",
     "bases": [
-      271
+      201266
     ]
   },
   {
@@ -18896,7 +18896,7 @@
   {
     "iso": "mahakiranti",
     "bases": [
-      1418
+      201267
     ]
   },
   {
@@ -18908,7 +18908,7 @@
   {
     "iso": "meitei",
     "bases": [
-      272
+      201268
     ]
   },
   {
@@ -18920,19 +18920,19 @@
   {
     "iso": "mxj",
     "bases": [
-      1489
+      201269
     ]
   },
   {
     "iso": "miju-meyor",
     "bases": [
-      1544
+      201270
     ]
   },
   {
     "iso": "milang",
     "bases": [
-      1252
+      201271
     ]
   },
   {
@@ -18956,7 +18956,7 @@
   {
     "iso": "njo",
     "bases": [
-      273
+      201272
     ]
   },
   {
@@ -18968,7 +18968,7 @@
   {
     "iso": "mruic",
     "bases": [
-      1582
+      201273
     ]
   },
   {
@@ -18998,7 +18998,7 @@
   {
     "iso": "naxi",
     "bases": [
-      1264
+      201274
     ]
   },
   {
@@ -19010,43 +19010,43 @@
   {
     "iso": "newaric",
     "bases": [
-      1258
+      201275
     ]
   },
   {
     "iso": "dap",
     "bases": [
-      1654
+      201276
     ]
   },
   {
     "iso": "northern-qiang",
     "bases": [
-      1696
+      201277
     ]
   },
   {
     "iso": "nu",
     "bases": [
-      2471
+      201278
     ]
   },
   {
     "iso": "nung",
     "bases": [
-      889
+      201279
     ]
   },
   {
     "iso": "nungish",
     "bases": [
-      2144
+      201280
     ]
   },
   {
     "iso": "nusu",
     "bases": [
-      1728
+      201281
     ]
   },
   {
@@ -19058,7 +19058,7 @@
   {
     "iso": "nph",
     "bases": [
-      1738
+      201282
     ]
   },
   {
@@ -19076,25 +19076,25 @@
   {
     "iso": "proto-hakka",
     "bases": [
-      2450
+      201283
     ]
   },
   {
     "iso": "proto-loloish",
     "bases": [
-      2458
+      201284
     ]
   },
   {
     "iso": "proto-min",
     "bases": [
-      2147
+      201285
     ]
   },
   {
     "iso": "proto-sino-tibetan",
     "bases": [
-      2148
+      201286
     ]
   },
   {
@@ -19112,19 +19112,19 @@
   {
     "iso": "puroik",
     "bases": [
-      1562
+      201287
     ]
   },
   {
     "iso": "pyu",
     "bases": [
-      1828
+      201288
     ]
   },
   {
     "iso": "qiang",
     "bases": [
-      1265
+      201289
     ]
   },
   {
@@ -19136,25 +19136,25 @@
   {
     "iso": "raji-raute",
     "bases": [
-      2449
+      201290
     ]
   },
   {
     "iso": "rouruo",
     "bases": [
-      2465
+      201291
     ]
   },
   {
     "iso": "rung",
     "bases": [
-      1933
+      201292
     ]
   },
   {
     "iso": "shaozhou-tuhua",
     "bases": [
-      1889
+      201293
     ]
   },
   {
@@ -19166,13 +19166,13 @@
   {
     "iso": "southern-qiang",
     "bases": [
-      1266
+      201294
     ]
   },
   {
     "iso": "nsm",
     "bases": [
-      2023
+      201295
     ]
   },
   {
@@ -19202,13 +19202,13 @@
   {
     "iso": "tcz",
     "bases": [
-      21104
+      201296
     ]
   },
   {
     "iso": "tibetic",
     "bases": [
-      2463
+      201297
     ]
   },
   {
@@ -19220,7 +19220,7 @@
   {
     "iso": "tibeto-kanauri",
     "bases": [
-      1627
+      201298
     ]
   },
   {
@@ -19268,7 +19268,7 @@
   {
     "iso": "xiangnan-tuhua",
     "bases": [
-      2462
+      201299
     ]
   },
   {
@@ -19286,13 +19286,13 @@
   {
     "iso": "yitdut-bai",
     "bases": [
-      2483
+      201300
     ]
   },
   {
     "iso": "yitdut-bai-dialect",
     "bases": [
-      2442
+      201301
     ]
   },
   {
@@ -19304,7 +19304,7 @@
   {
     "iso": "zkr",
     "bases": [
-      2494
+      201302
     ]
   },
   {
@@ -19322,7 +19322,7 @@
   {
     "iso": "zho",
     "bases": [
-      2467
+      201303
     ]
   },
   {
@@ -19340,13 +19340,13 @@
   {
     "iso": "ano",
     "bases": [
-      744
+      201304
     ]
   },
   {
     "iso": "aro",
     "bases": [
-      3008
+      201305
     ]
   },
   {
@@ -19358,13 +19358,13 @@
   {
     "iso": "argentinian-spanish",
     "bases": [
-      2622
+      201306
     ]
   },
   {
     "iso": "arh",
     "bases": [
-      5309
+      201307
     ]
   },
   {
@@ -19388,7 +19388,7 @@
   {
     "iso": "ayo",
     "bases": [
-      7601
+      201308
     ]
   },
   {
@@ -19490,13 +19490,13 @@
   {
     "iso": "con",
     "bases": [
-      5630
+      201309
     ]
   },
   {
     "iso": "kog",
     "bases": [
-      7421
+      201310
     ]
   },
   {
@@ -19538,7 +19538,7 @@
   {
     "iso": "fun",
     "bases": [
-      7879
+      201311
     ]
   },
   {
@@ -19556,7 +19556,7 @@
   {
     "iso": "gub",
     "bases": [
-      785
+      201312
     ]
   },
   {
@@ -19610,13 +19610,13 @@
   {
     "iso": "ito",
     "bases": [
-      7660
+      201313
     ]
   },
   {
     "iso": "urb",
     "bases": [
-      788
+      201314
     ]
   },
   {
@@ -19658,7 +19658,7 @@
   {
     "iso": "bwi",
     "bases": [
-      8052
+      201315
     ]
   },
   {
@@ -19670,7 +19670,7 @@
   {
     "iso": "txu",
     "bases": [
-      13685
+      201316
     ]
   },
   {
@@ -19688,25 +19688,25 @@
   {
     "iso": "cul",
     "bases": [
-      8053
+      201317
     ]
   },
   {
     "iso": "kwaza",
     "bases": [
-      64
+      201318
     ]
   },
   {
     "iso": "kwinti",
     "bases": [
-      8110
+      201319
     ]
   },
   {
     "iso": "lec",
     "bases": [
-      69
+      201320
     ]
   },
   {
@@ -19736,7 +19736,7 @@
   {
     "iso": "matawai",
     "bases": [
-      70
+      201321
     ]
   },
   {
@@ -19772,25 +19772,25 @@
   {
     "iso": "myu",
     "bases": [
-      7316
+      201322
     ]
   },
   {
     "iso": "ndyuka",
     "bases": [
-      21016
+      201323
     ]
   },
   {
     "iso": "nheengatu",
     "bases": [
-      8866
+      201324
     ]
   },
   {
     "iso": "cag",
     "bases": [
-      8868
+      201325
     ]
   },
   {
@@ -19820,7 +19820,7 @@
   {
     "iso": "pbb",
     "bases": [
-      800
+      201326
     ]
   },
   {
@@ -19856,7 +19856,7 @@
   {
     "iso": "piraha",
     "bases": [
-      6654
+      201327
     ]
   },
   {
@@ -19886,13 +19886,13 @@
   {
     "iso": "xsu",
     "bases": [
-      8058
+      201328
     ]
   },
   {
     "iso": "saramaccan",
     "bases": [
-      6655
+      201329
     ]
   },
   {
@@ -19904,13 +19904,13 @@
   {
     "iso": "shipibo-conibo",
     "bases": [
-      7940
+      201330
     ]
   },
   {
     "iso": "jiv",
     "bases": [
-      7515
+      201331
     ]
   },
   {
@@ -19928,13 +19928,13 @@
   {
     "iso": "srq",
     "bases": [
-      8113
+      201332
     ]
   },
   {
     "iso": "southern-quechua",
     "bases": [
-      8115
+      201333
     ]
   },
   {
@@ -19946,7 +19946,7 @@
   {
     "iso": "sranan-tongo",
     "bases": [
-      7600
+      201334
     ]
   },
   {
@@ -20018,7 +20018,7 @@
   {
     "iso": "tupi",
     "bases": [
-      8112
+      201335
     ]
   },
   {
@@ -20060,19 +20060,19 @@
   {
     "iso": "warao",
     "bases": [
-      8116
+      201336
     ]
   },
   {
     "iso": "psm",
     "bases": [
-      8114
+      201337
     ]
   },
   {
     "iso": "pav",
     "bases": [
-      11635
+      201338
     ]
   },
   {
@@ -20114,7 +20114,7 @@
   {
     "iso": "xoc-",
     "bases": [
-      11534
+      201339
     ]
   },
   {
@@ -20126,7 +20126,7 @@
   {
     "iso": "yaminawa",
     "bases": [
-      6657
+      201340
     ]
   },
   {
@@ -20162,7 +20162,7 @@
   {
     "iso": "lus",
     "bases": [
-      2191
+      201341
     ]
   },
   {
@@ -20186,7 +20186,7 @@
   {
     "iso": "berau-malay",
     "bases": [
-      176
+      201342
     ]
   },
   {
@@ -20222,13 +20222,13 @@
   {
     "iso": "eno",
     "bases": [
-      1119
+      201343
     ]
   },
   {
     "iso": "filipino",
     "bases": [
-      1123
+      201344
     ]
   },
   {
@@ -20240,7 +20240,7 @@
   {
     "iso": "hmn",
     "bases": [
-      8660
+      201345
     ]
   },
   {
@@ -20264,25 +20264,25 @@
   {
     "iso": "kac",
     "bases": [
-      1386
+      201346
     ]
   },
   {
     "iso": "kar",
     "bases": [
-      50033
+      201347
     ]
   },
   {
     "iso": "kasiguranin",
     "bases": [
-      2667
+      201348
     ]
   },
   {
     "iso": "kayah",
     "bases": [
-      1619
+      201349
     ]
   },
   {
@@ -20294,25 +20294,25 @@
   {
     "iso": "mak",
     "bases": [
-      1884
+      201350
     ]
   },
   {
     "iso": "malaysian-malay",
     "bases": [
-      97
+      201351
     ]
   },
   {
     "iso": "maranao",
     "bases": [
-      2029
+      201352
     ]
   },
   {
     "iso": "mji",
     "bases": [
-      20114
+      201353
     ]
   },
   {
@@ -20324,13 +20324,13 @@
   {
     "iso": "mnw-native-speakers",
     "bases": [
-      177
+      201354
     ]
   },
   {
     "iso": "rakhine",
     "bases": [
-      134
+      201355
     ]
   },
   {
@@ -20354,7 +20354,7 @@
   {
     "iso": "tausug",
     "bases": [
-      98
+      201356
     ]
   },
   {
@@ -20372,7 +20372,7 @@
   {
     "iso": "waray",
     "bases": [
-      2675
+      201357
     ]
   },
   {
@@ -20384,37 +20384,37 @@
   {
     "iso": "dominican-creole-french",
     "bases": [
-      1956
+      201358
     ]
   },
   {
     "iso": "french-guianese-creole",
     "bases": [
-      1956
+      201359
     ]
   },
   {
     "iso": "grenadian-creole-french",
     "bases": [
-      1956
+      201360
     ]
   },
   {
     "iso": "karip-na-french-creole",
     "bases": [
-      1956
+      201361
     ]
   },
   {
     "iso": "louisiana-creole",
     "bases": [
-      1956
+      201362
     ]
   },
   {
     "iso": "saint-lucian-creole",
     "bases": [
-      1956
+      201363
     ]
   },
   {
@@ -20432,25 +20432,25 @@
   {
     "iso": "santiago-creole",
     "bases": [
-      182
+      201364
     ]
   },
   {
     "iso": "santo-ant-o-creole",
     "bases": [
-      11335
+      201365
     ]
   },
   {
     "iso": "s-o-nicolau-creole",
     "bases": [
-      182
+      201366
     ]
   },
   {
     "iso": "s-o-vicente-creole",
     "bases": [
-      11335
+      201367
     ]
   },
   {
