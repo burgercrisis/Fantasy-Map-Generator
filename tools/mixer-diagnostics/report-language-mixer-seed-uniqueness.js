@@ -31,7 +31,7 @@ function loadDefaultNameBases() {
     "namebases-southAmerica.js",
     "namebases-unknown.js"
   ];
-  const files = continentFiles.concat(["namebases-fantasy.js", "namebases-all.js"]);
+  const files = continentFiles.concat(["namebases-fantasy.js", "namebases-dedicated.js", "namebases-all.js"]);
 
   for (const f of files) {
     const full = path.join(root, "modules", f);

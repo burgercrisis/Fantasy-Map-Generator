@@ -21,7 +21,8 @@
 
   // Merge all bases and sort by their declared index i so that
   // nameBases[base] lines up with the i values used in configs.
-  const all = window.realWorldNameBases.concat(window.fantasyNameBases);
+  const dedicated = window.dedicatedNameBases || [];
+  const all = window.realWorldNameBases.concat(window.fantasyNameBases).concat(dedicated);
   all.sort((a, b) => {
     const ai = typeof a.i === "number" ? a.i : 0;
     const bi = typeof b.i === "number" ? b.i : 0;

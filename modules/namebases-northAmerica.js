@@ -137,7 +137,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paris,Lyon,Marseille,Toulouse,Lille,Bordeaux,Nantes,Strasbourg,Reims,Le Havre,Nancy,Rouen"
+  "b": "BrousnStaobr,Cheukue,ToankMuund,CloyQoe,Smuag,OuthStao,Muerrey,MuekrTeyb,Kluudzoa,SmuaJiu"
 },
 {
     "name": "Joual",
@@ -416,7 +416,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kingstown,Georgetown,Byera Village,Layou,Barrouallie,Chateaubelair,Biabou,Owia,Calliaqua,Stubbs,Villa,Prospect"
+  "b": "Qiangaan,Sheeua,Clooayss,IottMae,IoskMae,Clooayst,OiskChio,UeskPrey,Smeoial,IettBrie"
 },
 {
     "name": "Virgin Islands Creole",
@@ -425,7 +425,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo"
+  "b": "FriiXui,ChourrFaop,Juatiuprae,ProachKluunk,Juaxiuntae,ChoukFaosn,Qiaxaantuu,TiochMaenk,Qiaaast,Muubroatruafr"
 },
 {
     "name": "Jamaican Maroon Creole",
@@ -902,7 +902,7 @@ window.northAmericaNameBases = [
   "max": 13,
   "d": "l",
   "m": 0,
-  "b": ""
+  "b": "Criiuigr,YeamFleuch,Gauswollu,GreuskThuek,NoKhe,Gaurogu,YeattFleusp,Criiui,Flaobouskoe,RieskSniek"
 },
 {
     "name": "Seri",

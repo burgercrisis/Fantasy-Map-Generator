@@ -11,7 +11,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva,Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Venice,Verona,Messina,Padua,Trieste"
+  "b": "Hiovaezzoedr,Sloifliofual,LoeLai,Diaslaashi,Diallaassi,OiTwiosn,Hiofaevoest,PhoathWuurr,Ziilluissu,Spautsostuu"
 },
 {
     "name": "Malij Jugan",
@@ -47,7 +47,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "CÃ³rdoba,Granada,MÃ¡laga,Sevilla,Toledo,Zaragoza,LÃ©rida,Burgos,Zamora,Soria,Ãvila,Salamanca,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "UevFley,EyflThea,Vayoyie,SnirrRoip,KhooNay,AoYoudz,UefFley,UuKoarr,GuaCriu,UuzzKoa"
 },
 {
     "name": "Central Moksha",
@@ -65,7 +65,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saransk,Ruzayevka,Krasnoslobodsk,Temnikov,Tengushevo,Torbeyevo,Zubova Polyana,Yavas,Staroye Shaygovo,Kovylkino,Atashevo,Potizh,Burnak,Bolshiye Berezniki,Staroye Drakino,Shein-Maidan,Kocheetov,Pervomaysk,Kozlovka,Parcely,Vyazovka,Vasilyevka,Rakhmanovka,Krivoy Uzey,Lepelevka,Tatarskaya Pishlya,Yerusalim,Staroye Senskoye,Baevo,Trofimovshchina,Kepino"
+  "b": "Xoyr,Joteproi,Smooaysh,Tuubroatroyng,Tuutwoamoyn,ChichFoink,Broukrao,Xoypr,OiTiofl,Free"
 },
 {
     "name": "Western Moksha",
@@ -146,7 +146,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "TashTashkent,Almaty,Bishkek,Dushanbe,Samarkand,Bukhara,Nukus,Kyzylorda,Taldykorgan,Taraz,Shymkent,Khujand"
+  "b": "GroarrThuup,PluiPlau,Craimpeor,CidzKoi,CrooGay,Triifruisw,Pluiaud,GroakThuusn,Ciotwae,YadzFla"
 },
 {
     "name": "Tura",
@@ -164,7 +164,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kathmandu,Lalitpur,Bhaktapur,Kirtipur,Hetauda,Bharatpur,Birgunj,Janakpur,Biratnagar,Butwal,Bhairahawa,Nepalgunj,Mahendranagar,Dhangadhi,Itahari,Pokhara,Chitwan,Narayangadh,Damak,Inaruwa,Kavre,Nuwakot,Dhading"
+  "b": "EiSluv,Laaoodr,UettPey,OaWuuf,OaWuufl,UethPey,Suiaudr,EiSlufl,EumPhue,Seeuash"
 },
 {
     "name": "English",
@@ -650,7 +650,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rome,Perugia,Assisi,Spoleto,Terni,Viterbo,Rieti,Foligno,Orvieto,Gubbio,Narni,Civitavecchia,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Venice,Verona,Messina"
+  "b": "Qiasmaang,EiTuv,Smayngoyn,IomMae,Clooaysh,OimChio,UemPrey,Smeoiash,IemBrie,OutrFao"
 },
 {
     "name": "Central Marchigiano",
@@ -857,7 +857,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "Bari,Brindisi,Taranto,Foggia,Lecce,Barletta,Andria,Bisceglie,Bitonto,Molfetta,Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Catania,Venice,Verona,Messina,Padua,Trieste"
+  "b": "SoyDoe,OurrBlao,Glooaysm,SpiiZui,WuuthPhoarr,Glooayng,OudzBlao,OiWiob,ZhiuGlii,SpeZee"
 },
 {
     "name": "South Lucanian",
@@ -1379,7 +1379,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bologna,Modena,Ferrara,Parma,Reggio Emilia,Piacenza,Ravenna,Rimini,Forli,Cesenatico,Rome,Milan,Naples,Turin,Palermo,Genoa,Florence,Bari,Catania,Venice,Verona,Messina,Padua,Trieste"
+  "b": "Triint,EimbCu,KeichCunk,Raetwi,SwaaTroo,GroachThuunk,Ciobae,SwoeTrai,IoflKae,Groanduu"
 },
 {
     "name": "Ennese",
@@ -1415,7 +1415,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lrs",
   "m": 0,
-  "b": "Lisbon,Porto,Coimbra,Braga,Aveiro,Faro,Evora,Guimaraes,Viseu,Setubal,Leiria,Santarem,Amadora,SetÃºbal,Funchal,Almada,Vila Nova de Gaia,Barreiro,Setúbal"
+  "b": "Viunt,Thuekreybaull,Pluiaump,Roiioseots,Tre,IeFlierr,Giapr,Snaokroubuill,UuCoadz,Groauusiats"
 },
 {
     "name": "Extremaduran",
@@ -1550,7 +1550,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palermo,Catania,Messina,Syracuse,Trapani,Agrigento,Enna,Caltanissetta,Ragusa,Gela,Rome,Milan,Naples,Turin,Genoa,Bologna,Florence,Bari,Venice,Verona,Padua,Trieste"
+  "b": "Bluefleyfol,Zhiuxiintue,Kraydroyt,Pivoizzuidr,Pimboimbuish,Kraystoyx,Tweymbeamboysh,Bluembeymbosh,Spiidruit,Zuampiuroa"
 },
 {
     "name": "Gallo-Picene",
@@ -1586,7 +1586,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bordeaux,Bayonne,Pau,Tarbes,Dax,Mont-de-Marsan,Agen,Biarritz,PÃ©rigueux,Bergerac,Toulouse,Auch,Paris,Lyon,Marseille,Nice,Nantes,Strasbourg,Montpellier,Rennes,Lille,Reims,Le Havre"
+  "b": "RoimbSniomb,Khayoyl,Viupriiz,Viuntiisl,CioflKaef,Pleeual,OasThuu,KeiflCuf,GroazzThuufl,OitwSnio"
 },
 {
     "name": "Genoese",
@@ -1685,7 +1685,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Avignon,Arles,Marseille,Carpentras,Aix-en-Provence,Orange,NÃ®mes,Carry-le-Rouet,Martigues,Salon-de-Provence,Tarascon,Cavaillon,Paris,Lyon,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier,Rennes,Lille,Reims,Le Havre"
+  "b": "IesSnie,GauCro,Niuiidr,Veoswiall,Veoiats,Niuiist,OasGruu,IebSnie,IoRaenk,SwiaTraa"
 },
 {
     "name": "Judeo-Spanish",
@@ -1694,7 +1694,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lr",
   "m": 0,
-  "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,MÃ¡laga,Tenerife,Bilbao,LÃ©rida,CÃ¡diz,Santander,Valladolid,Pontevedra,Huelva,Burgos,Seville,Málaga,Murcia,Palma"
+  "b": "IoKaesk,Nuaxiuntue,UetrGrey,Swoeaiz,EaGreuth,GiaCraa,EuYueth,IoKaeth,EyYeatr,Pluiaull"
 },
 {
     "name": "Landese",
@@ -1775,7 +1775,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "Milan,Brescia,Bergamo,Como,Varese,Monza,Mantua,Pavia,Cremona,Lodi,Rome,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Venice,Verona,Messina,Padua,Trieste"
+  "b": "IeFliek,Croograysmuu,KheoNia,AoRousp,Viuiia,OuzzRao,Crooayd,FleudzYue,AeSnisp,EuYuech"
 },
 {
     "name": "Lucchese",
@@ -2054,7 +2054,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Burgos,Toledo,Sevilla,CÃ³rdoba,Granada,Valladolid,Segovia,Ãvila,Salamanca,LeÃ³n,Zaragoza,Valencia,Murcia,JaÃ©n,Madrid,Barcelona,Seville,Málaga,Palma,Bilbao,Alicante,Córdoba"
+  "b": "StattBrasp,UukrToa,Smayzoylea,ChouthFaorr,ChoumFaoch,Smaylloyssea,MuumToach,StamBrach,EySteap,FreXee"
 },
 {
     "name": "Oliventine",
@@ -2306,7 +2306,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "Turin,Alessandria,Asti,Biella,Cuneo,Novara,Vercelli,Verbania,Moncalieri,Rivoli,Nichelino,Settimo Torinese,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "UKeisk,Pleeuatsou,Theitru,IoThaetr,Gainteosloa,Theiusauts,ASnath,UKeith,Grittoi,IeSnietr"
 },
 {
     "name": "Pisano-Livornese",
@@ -2666,7 +2666,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "Chieti,Pescara,Teramo,Campobasso,Termoli,Isernia,Lanciano,Vasto,Sulmona,Ortona,Francavilla al Mare,Giulianova,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "AeBrisp,Jeoiamp,EuvFue,OaMuudz,OaMuurr,EuzzFue,Jeoniagrae,AeBrich,UzzMei,Qaieofr"
 },
 {
     "name": "Southern Aragonese",
@@ -2729,7 +2729,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "nlrs",
   "m": 0,
-  "b": "Paris,Marseille,Lyon,Toulouse,Nice,Nantes,Montpellier,Strasbourg,Bordeaux,Lille,Rennes,Reims,Le Havre"
+  "b": "Yaebritrofr,Neopr,Khuaniugr,Coasuuthiid,Khau,Khuasmiung,Neoxiantue,Yaetwimomp,Criasmaang,Griosaethiad"
 },
 {
     "name": "Standard Italian",
@@ -2738,7 +2738,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Verona,Venice,Messina"
+  "b": "BliepHietw,PheisnWubr,Gleoshiafr,KriuKrii,Gleog,SpooZay,Heukue,Diiuisl,HeukrBlueb,Bliedzie"
 },
 {
     "name": "Swiss Italian",
@@ -2855,7 +2855,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Viareggio,Forte dei Marmi,Pietrasanta,Seravezza,Stazzema,Massarosa,Camaiore,Torre del Lago Puccini,Querceta,Marina di Pietrasanta,Lido di Camaiore,Marina di Massa,Cinquale,Motrone,Le Tonfane,Vittoria Apuana,Ripa,Fiumetto,Pozzi,Terrinca,Pruno,Retignano,Levigliani,Ruosina,Gallena,Strettoia,Capezzano Monte,Capezzano Pianore,Piano di Mommio,Pieve a Elici,Bargecchia,Bozzano,Massaciuccoli,Torre del Lago,Viareggio Marina,Viareggio Centro,Viareggio Ponente,Viareggio Levante"
+  "b": "Friituiprey,Smeoxiantue,Breupue,OaKluumb,Proabruutriifr,Juaniugr,Choundaottoex,Friimpuirey,Qianaagr,Claiteoproa"
 },
 {
     "name": "Vivaro-Alpine",
@@ -2882,7 +2882,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnr",
   "m": 0,
-  "b": "Bucharest,Ploiesti,PiteÈ™ti,Targoviste,Buzau,Braila,Craiova,RÃ¢mnicu VÃ¢lcea,Drobeta-Turnu Severin,TÃ¢rgu Jiu,Slatina,Alexandria,Cluj-Napoca,Timișoara,Iași,Constanța,Brașov,Galați,Ploiești,Oradea,Brăila,Arad,Pitești"
+  "b": "Weudzueiig,Zhaisl,Suiau,Blarraposl,AeTwidz,Zhaiz,Weuchuenkiiz,Laaoon,Hirroipaasl,Bliekiesniuts"
 },
 {
     "name": "Welche",
@@ -2981,7 +2981,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Nyagan,Kogalym,Langepas,Megion,Raduzhny,Pokachi,Uray,Lyantor,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "AeHidz,Zooay,Krodretie,PeykrDreab,EyDreak,Peudzueeeng,Zheoiang,AeHik,Wumbei,SluukrTwoab"
 },
 {
     "name": "Ala-Satakunta",
@@ -2999,7 +2999,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dudinka,Norilsk,Khatanga,Karaul,Dikson,Talnakh,Kayyerkan,Snezhnogorsk,Ust-Avam,Volochanka,Potapovo,Nosok,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "No,Khaint,Criidui,Koiiosair,Treesw,CriiGui,Khaisw,Nosw,IembSnie,Flouaosaar"
 },
 {
     "name": "Berjozov",
@@ -3017,7 +3017,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Glazov,Balezino,Kez,Yukamenskoye,Yar,Igra,Debesy,Selty,Uva,Syumsi,Kizner,Alnashi,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "Droibioskeot,Wiobraetriifr,Kriuii,Zhuat,Zhuantiuslue,HeyttBleasp,Paondouttuix,Droisiotheod,Zhauosm,Spoot"
 },
 {
     "name": "Lower Inva",
@@ -3206,7 +3206,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lahti,Heinola,HÃ¤meenlinna,RiihimÃ¤ki,Forssa,Kouvola,Kotka,Porvoo,Espoo,Vantaa,Tampere,Turku,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "Weirrupiisl,Driechienkeoz,SiaDaa,Tweycheankoyz,Zaudr,UTwei,Laadr,Spedr,EuSlue,Deedr"
 },
 {
     "name": "Heart Tavastian",
@@ -3215,7 +3215,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tampere,HÃ¤meenlinna,Lahti,RiihimÃ¤ki,Forssa,Valkeakoski,Nokia,Kangasala,YlÃ¶jÃ¤rvi,JÃ¤msÃ¤,Orivesi,Virrat,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "OuBlaodz,OaPhuurr,Doesl,Luiau,IePiek,Doez,Spoyoeng,OuBlaok,Bloimbio,Gluaiu"
 },
 {
     "name": "Savonian",
@@ -3224,7 +3224,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuopio,Joensuu,Mikkeli,Savonlinna,Varkaus,PieksÃ¤mÃ¤ki,Iisalmi,Kouvola,Kotka,Lappeenranta,Imatra,Kajaani,Helsinki,Tampere,Turku,Oulu,Jyväskylä,Lahti,Pori,Vaasa,Rovaniemi,Seinäjoki"
+  "b": "Ploeaits,Cruantiusl,OuRaokr,Vayproyz,Vayswoyll,Khozeloi,Kubei,Ploeswaill,Noogaydrea,Koabruu"
 },
 {
     "name": "Hollola (setBases aux)",
@@ -3323,7 +3323,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Helsinki,Tampere,Turku,Oulu,Lahti,JyvÃ¤skylÃ¤,Kuopio,Kouvola,Vaasa,Pori,SeinÃ¤joki,Kotka,Jyväskylä,Joensuu,Lappeenranta,Rovaniemi,Seinäjoki"
+  "b": "KhuaNiu,TroeSwai,OiFlionk,SwiiTrui,OiFliop,EaCeu,EupRue,EiGrup,CriaGaa,GooCray"
 },
 {
     "name": "Udora",
@@ -3629,7 +3629,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Surgut,Nizhnevartovsk,Khanty-Mansiysk,Pyt-Yakh,Lyantor,Sovetsky,Oktyabrsky,Yugorsk,Uray,Russia,Siberia,Ob River,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "Siaaafr,AoBlourr,Krayr,Glooaymp,Glooayd,Kraypr,Zhiuiid,Siaaad,Spiint,Zuaiump"
 },
 {
     "name": "Finnish",
@@ -3638,7 +3638,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Helsinki,Espoo,Tampere,Vantaa,Oulu,Turku,JyvÃ¤skylÃ¤,Lahti,Kuopio,Pori,Kouvola,Joensuu,Jyväskylä,Lappeenranta,Vaasa,Rovaniemi,Seinäjoki"
+  "b": "Klaechinkooz,Feaspeukriull,ClauQo,Teurruepiasl,Teukuesniats,OakrTuu,Feakeusniuts,Klaekisnoots,AonkFou,Stiettie"
 },
 {
     "name": "Forest Enets",
@@ -3692,7 +3692,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Izhevsk,Sarapul,Glazov,Votkinsk,Mozhga,Uva,Balezino,Igra,Kez,Yakshur-Bodya,Malaya Purga,Kiyasovo,Alnashi,Grakhovo,Kizner,Vavozh,Syumsi,Selty,Debesy,Sharkan,Yukamenskoye,Yar,Paris,Lyon,Marseille"
+  "b": "Yafavo,Craideoei,KhayNoy,Vofreswie,Vomperie,UuCoath,Yavazzosw,FleyYeas,Trempeerio,Nauxontea"
 },
 {
     "name": "Insular Estonian",
@@ -3827,7 +3827,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yoshkar-Ola,Volzhsk,Zvenigovo,Morki,Sernur,Orshanka,Kuzhener,Paranga,Mari-Turek,Kilemary,Medvedevo,Sovetsky,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
+  "b": "DroirrPiop,GlayZhoy,Heysea,TwudzSlei,TwuchSleink,Kriufriisw,Glayoyd,DroikPiosn,Twoatwuu,WidzPhoi"
 },
 {
     "name": "Kochevo",
@@ -3899,7 +3899,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Surgut,Nizhnevartovsk,Langepas,Megion,Kogalym,Pyt-Yakh,Krasnoleninsk,Nefteyugansk,Novy Urengoy,Pokachi,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg,Duisburg,Bochum"
+  "b": "CunkKeind,AbSna,Sweeen,UundGroa,GaiCreo,EiGrurr,PleePlua,CukrKeib,IThoirr,UendCey"
 },
 {
     "name": "Southern Khanty",
@@ -4007,7 +4007,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sosva,Beryozovo,Saranpaul,Shuryshkary,Muzhi,Gorno-Knyazevsky,Verkhne-Nildino,Kayukovo,Aneyevo,Vozh,Lombo-Vozh,Yasunt,Khulugum,Ushma,Tugry,Kumba,Bolshoy Tarym,Malyy Tarym,Kak-Payevskiy,Yepanchino,Tyumentsy,Kumynskoye,Viterye,Zaprudnoye,Solomirskoye,Kharin,Perevoznoye,Chantarya,Verkhnyaya Kardynka,Nizhnyaya Kardynka,Polunochnoye,Kedrovskoe,Losinoborskiy,Perevalnaya,Anushovskiy,Verkhniy Tagil,Kytlym,Ivdel,Burmantovo,Pelym"
+  "b": "PourrDraop,TwoadzSluu,LuiLau,Sleabreu,TwoakSluusn,PoukDraosn,Droitwio,EuvBlue,Pousao,OazzSluu"
 },
 {
     "name": "Sosva",
@@ -4016,7 +4016,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sosva,Beryozovo,Saranpaul,Shuryshkary,Muzhi,Gorno-Knyazevsky,Verkhne-Nildino,Kayukovo,Aneyevo,Vozh,Lombo-Vozh,Yasunt,Khulugum,Ushma,Tugry,Kumba,Bolshoy Tarym,Malyy Tarym,Kak-Payevskiy,Yepanchino,Tyumentsy,Kumynskoye,Viterye,Zaprudnoye,Solomirskoye,Kharin,Perevoznoye,Chantarya,Verkhnyaya Kardynka,Nizhnyaya Kardynka,Polunochnoye,Kedrovskoe,Losinoborskiy,Perevalnaya,Anushovskiy,Verkhniy Tagil,Kytlym,Ivdel,Burmantovo,Pelym,Garni,Nazarovo,Krasnogorye"
+  "b": "Cloyoet,AeBrirr,UuflProa,PrikKloisn,PrirrKloip,Qaifreosw,Shuiaux,Cloyoex,AoflStou,FakChasn"
 },
 {
     "name": "Leivu",
@@ -4466,7 +4466,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Podgorica,Nikšić,Pljevlja,Bijelo Polje,Cetinje,Budva,Kotor,Bar,Herceg Novi,Ulcinj,Rožaje,Andrijevica,Mojkovac,Šavnik,Žabljak,Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Čačak,Leskovac,Novi Pazar,Kraljevo"
+  "b": "Zuadriut,Zhoeg,IotrDrae,IoskDrae,OuBlaoth,Zuassiump,Loessaimp,Glooayg,Soyssoemp,Gloostayx"
 },
 {
     "name": "Serbian",

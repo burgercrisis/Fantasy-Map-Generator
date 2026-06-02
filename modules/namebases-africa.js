@@ -59,7 +59,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses"
+  "b": "Khiosnaichui,Ainkuig,Uavdu,Ioreenk,Qiompaitwui,Aikwuind,Ousuuvosp,Uohietreisk,Brouiuv,Ziodziosnee"
 },
 {
     "name": "Taa Click",
@@ -302,7 +302,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lilongwe,Blantyre,Mzuzu,Zomba,Karonga,Kasungu,Liwonde,Mangochi,Nsanje,Mchinji,Balaka,Ntchisi"
+  "b": "Kioswiokree,Uoziekreith,Oislqoi,Snioxifrau,Kwiopringau,Ciokairui,Fliontiovee,Qouiuzh,Ntiospaijui,Oisnjoi,Iisledzius,Aisnuiw"
 },
 {
     "name": "Sakata",
@@ -590,7 +590,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bunia,Beni,Butembo,Kisangani,Mambasa,DR Congo,Central Africa,Congo River"
+  "b": "Spioslioflee,Ointtwoi,Uaphtru,Aizhuik,Dziozhioxee,Ouxuurosw,Fliontivau,Iombeent"
 },
 {
     "name": "Dinka",
@@ -851,7 +851,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gorkha,Tanahun,Nawalparasi,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Parbat,Baglung,Myagdi"
+  "b": "Iismempiuy,Giondiogwee,Poshtaa,Uofliesneizh,Riokrinau,Yuungedr,Doskhaa,Oiploi,Thiovikau,Iosteej,Khosnnkue,Aiguitw"
 },
 {
     "name": "Zenati Berber",
@@ -1301,7 +1301,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Garoua,Maroua,Ngaoundere,Bertoua,Edea"
+  "b": "Uangnu,Nguunkiets,Huudreq,Uasnju,Stiotwiodee,Uakrxu,Thouiun,Mboqdzue,Flouiukr,Ngonkmbue,Riokrainui,Oitrmpoi"
 },
 {
     "name": "Cameroonian Pidgin English",
@@ -1310,7 +1310,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Douala,Yaounde,Bamenda,Buea,Limbe,Kumba,Bafoussam,Kribi,Garoua,Maroua,Ngaoundere,Calabar"
+  "b": "CuuskKoak,RamSnach,Swoymp,GreumThuech,Guaiun,Thoatwuumaun,RatrSnadz,CuutrKoadz,Greytweamoyn,RiemSniech"
 },
 {
     "name": "Bole Tangale",
@@ -1391,7 +1391,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bauchi,Tafawa Balewa,Bogoro,Dass,Toro,Alkaleri,Kirfi,Misau,Katagum"
+  "b": "Aihuitr,Brotvue,Wuurem,Zhouiuch,Gwoskflaa,Aigruiq,Smopbrue,Siostiphau,Hodrdue"
 },
 {
     "name": "Berta",
@@ -1751,7 +1751,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
+  "b": "Nouiug,Kioswaikrui,Ountuuxoph,Iingeskiusm,Snioxiofree,Aituid,Biobaibui,Nkokwque,Nkuukwey,Iotseet,Iineyiupr,Fliontaivui"
 },
 {
     "name": "Dogoso",
@@ -1760,7 +1760,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouo,Sidéradougou,Diébougou,Gaoua,Kampti,Loropéni,Batié,Legmoin,Gbomblora,Tiankoura,Périgban,Djigoué"
+  "b": "Iosneew,Ruukrien,Cuuker,Ioveefr,Juuflieth,Triobraispui,Swathoo,Uogietweih,Uaczu,Thovnue,Luufiekw,Uojiekheidz"
 },
 {
     "name": "Eton",
@@ -1796,7 +1796,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heiban,Kauda,Delami,Um Heitan,Abri,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
+  "b": "Ndouiusl,Vojwue,Dzazhia,Waroo,Ndogrslaa,Phodfrue,Skiogaitui,Mpuuhiemb,Oifrthoi,Xiozikhau,Ngankia,Guundiegw"
 },
 {
     "name": "Ghomala'",
@@ -1904,7 +1904,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heiban,Kauda,Delami,Abri,Um Heitan,Talodi,Kadugli,Dilling,Rashad,Abu Jibeha,Lagawa,Habila"
+  "b": "Spiosliflau,Oukuulokh,Ndogrslue,Khuusniech,Uofriemeikr,Suusteph,Oiphtroi,Tiogwaitrui,Ioheetr,Mpuuhemb,Slouiusw,Uodriebreig"
 },
 {
     "name": "Sighu",
@@ -1949,7 +1949,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Babungo,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Bangolan,Babessi,Bambalang"
+  "b": "Iicepriufr,Tagwia,Yongtwaa,Lafia,Biobibau,Twambia,Vuujiesw,Fochtsaa,Oigngoi,Muunep"
 },
 {
     "name": "Viemo",
@@ -2039,7 +2039,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wukari,Ibi,Bantaji,Akwana,Jukun,Taraba,Donga,Takum,Gassol,Bali,Suntai,Gidan Kaya"
+  "b": "Yiongidrau,Iocheesh,Uahsmu,Oiczoi,Iofleesn,Iiswefiusn,Ainuiy,Xozpraa,Nkakwoo,Ioqeesp,Oithphoi,Aibuib"
 },
 {
     "name": "Wushi",
@@ -2075,7 +2075,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wukari,Ibi,Bantaji,Akwana,Taraba,Donga,Takum,Gassol,Bali,Jukun,Suntai,Gidan Kaya"
+  "b": "Grosmtraa,Dasoo,Snuuxefr,Griosmigau,Iondeemb,Uakwru,Smouiubr,Priolionkee,Swathia,Driotsaimpui,Buubieb,Yongtwue"
 },
 {
     "name": "Yalunka",
@@ -2147,7 +2147,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "AddisAbaba,DireDawa,Mekelle,Gondar,BahirDar,Hawassa,Adama,Jimma,Dessie,Shashamane,Hosaena,Kombolcha"
+  "b": "Chaonkoundoesw,Joosmayngoi,Xeedua,Stieieseor,Stiepietweo,Xeempuar,Preiputwii,Smiur,Feandeu,Brioaeseer"
 },
 {
     "name": "Angas",
@@ -2228,7 +2228,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "AddisAbaba,DireDawa,Mekelle,BahirDar,Gondar,Hawassa,Jimma,Dessie,Kombolcha,Adama,Shashamane,ArbaMinch"
+  "b": "Ounuuyopr,Xazoo,Trobrthaa,Bobbue,Sliotrintau,Jaflia,Oumpuuslogw,Smapoo,Shuumesm,Couiup,Uaymu,Spioslaiflui"
 },
 {
     "name": "Asoa",
@@ -2246,7 +2246,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Pankshin,Shendam,Langtang,Wase,Kanam,Kanke,Bassa,Bokkos,Mangu,QuaanPan"
+  "b": "Uampgru,Snuuxiefr,Ngionkaitsui,Ntiospiojee,Rouiugr,Phodfraa,Snaxoo,Kwapria,Iokreekw,Zhaphia,Twamboo,Outruuzhost"
 },
 {
     "name": "Bambassi",
@@ -2327,7 +2327,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Lubumbashi,MbujiMayi,Kananga,Kisangani,Bukavu,Kikwit,Tshikapa,Matadi,Kolwezi,Bandundu,Butembo"
+  "b": "Skiogitau,Iosweef,Iikrekwiuch,Aigwuis,Stiotwaidui,Stouiux,Ousnuuwok,Touiuj,Oibboi,Uadrpu,Ainduimb,Iidethiunt"
 },
 {
     "name": "Sotho",
@@ -2444,7 +2444,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaounde,Douala,Bamenda,Mbouda,Loum,Bafoussam,Garoua,Maroua,Kumba,Ngaoundere,Bertoua,Edea"
+  "b": "Tsioyiohee,Slotrswaa,Aixuir,Iiyegwiugr,Fluuntiev,Oumbuuntobr,Joflraa,Tsoystue,Sluutrient,Uodzieceiv,Iixeriusw,Iopreegr"
 },
 {
     "name": "Bacama alias",
@@ -2453,7 +2453,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Kano,Abuja,Ibadan,PortHarcourt,BeninCity,Onitsha,Uyo,Nnewi,Aba,Kaduna,Ilorin"
+  "b": "Oumuutsokw,Tuugwietr,Jioflaithui,Oispmboi,Fuuchepr,Iokheen,Ntaspoo,Juufleth,Twuumbies,Uastu,Sostsnue,Mionipau"
 },
 {
     "name": "Barambu",
@@ -2462,7 +2462,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Lubumbashi,MbujiMayi,Kisangani,Kananga,Bukavu,Kikwit,Tshikapa,Matadi,Kolwezi,Bandundu,Likasi"
+  "b": "Uaswzhu,Smiopiondee,Chofryaa,Oistoi,Uotsieteind,Frakhoo,Ounduumbodr,Hiodraiqui,Chiofrilau,Dzozhfue,Uosmiempeiy,Shuumiesm"
 },
 {
     "name": "Beni Snous",
@@ -2876,7 +2876,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bono,Nigeria,Benue,Keffi,Karu,Abuja,Nasarawa,Lokoja,Plateau State,Niger River"
+  "b": "Uastgwu,Stiotwidau,Phiodaidzui,Iithechiux,Oiwkhoi,Chuufriel,Krocsmaa,Khiosnichau,Togwjue,Uosliedzeis"
 },
 {
     "name": "Boon",
@@ -3110,7 +3110,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inor,Chencha,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+  "b": "Zheoiaz,WoandPhuutt,Doesmaingi,DrietwPiem,Doengaini,WoabrPhuutr,TwindSloitt,Leenguanou,PeutwDruem,Leeuats"
 },
 {
     "name": "Chaha",
@@ -3254,7 +3254,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dass,Bauchi,Plateau State,Nigeria,North Central,West Africa"
+  "b": "Uazhslu,Muuniep,Diosaizhui,Uasmpru,Jiofliothee,Cakoo"
 },
 {
     "name": "Daza",
@@ -3371,7 +3371,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Sokna,Matmata,Beni Mellal,Fes,Morocco,Atlas Mountains,North Africa"
+  "b": "Seeez,TwiobSlaesk,Kriungiina,WubPheisk,WutwPheim,Peythearruish,HaotwBloum,Seeell,Spoydr,Zooayll"
 },
 {
     "name": "Tawellemmet",
@@ -3425,7 +3425,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Doko,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "Oismproi,Pralia,Drouius,Iopeeh,Kracoo,Oimpgroi,Shiomaismui"
 },
 {
     "name": "Dugwor",
@@ -3560,7 +3560,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Douala,Yaoundé,Bafoussam,Kribi,Edéa,Bertoua,Maroua,Bamenda,Kumba,Cameroon,Central Africa"
+  "b": "Suustieph,Uatsshu,Thavoo,Outsuutond,Uaqndu,Ouswuufosn,Aifruim,Iikheniuc,Aivuifr,Uaxflu,Oufruumokr"
 },
 {
     "name": "Fanji",
@@ -3965,7 +3965,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Warji,Ningi,Ganjuwa,Bauchi,Toro,Dass,Tafawa Balewa,Bogoro,Alkeleri,Kirfi"
+  "b": "Ouquuspot,Khasnoo,Iigreqiuts,Iogwees,Zodzlaa,Baboo,Iozheek,Pouiut,Trobrthue,Iiskestiump"
 },
 {
     "name": "Ron",
@@ -3983,7 +3983,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bauchi,Toro,Dass,Tafawa Balewa,Bogoro,Alkeleri,Kirfi,Misau,Katagum,Shira"
+  "b": "Ioleesm,Briotislau,Uodietheint,Aitruizh,Gwouiufl,Oigrkwoi,Dzozhfaa,Ioyeegw,Twiombaisui,Aistuij"
 },
 {
     "name": "West Chadic",
@@ -3992,7 +3992,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kano,Katsina,Zaria,Bauchi,Gombe,Potiskum,Nguru,Maradi,Zinder,Diffa"
+  "b": "Uaplu,Briotioslee,Shouiugw,Friokhifau,Mouiusk,Pioshaigrui,Mbioqiostee,Uanttwu,Triobrispau,Friokhaifui"
 },
 {
     "name": "Tuareg Berber",
@@ -4001,7 +4001,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Tamanrasset,Agadez,Timbuktu,Kidal,Gao,Menaka,Tahoua,Arlit,Iférouane,In-Gall,Dirkou,Bilma"
+  "b": "Puushiegr,Uashfu,Outwuuflotr,Aibruiph,Jafloo,Aichuish,Uombienteibr,Ouskuustomp,Oikwroi,Fouiuts,Swothmue,Uopriegreim"
 },
 {
     "name": "Tuareg languages",
@@ -4019,7 +4019,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Mederdra,Tiguent,Rosso,Keur Massène,Boutilimit,Aleg,Boghé,Bababé,Kaédi,Selibaby,Maghama,M'Bagne"
+  "b": "Ounguuskosm,Kracia,Bratia,Nkiokwaiyui,Ngouiumb,Iimpesliugw,Puushegr,Qampoo,Mpiohiombee,Khiosniochee,Statwia,Phuudedz"
 },
 {
     "name": "Zenaga Berber",
@@ -4181,7 +4181,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Agadez,Arlit,Bilma,Dirkou,Iferouane,Madama,Tahoua,Tchintabaraden"
+  "b": "Xouiupr,Uoswiefeisn,Ualcu,Gwuuskebr,Cokpue,Aimuits,Iiwengiul,Fachia"
 },
 {
     "name": "Tagdal",
@@ -4190,7 +4190,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tahoua,Tchintabaraden,Madaoua,Bouza,Abalak,Keita,Illela,Mayahi"
+  "b": "Joflrue,Gondspaa,Aikuil,Niowioshee,Iilesmiun,Ougwuusoq,Diosizhau,Ioxeer"
 },
 {
     "name": "Talodi",
@@ -4208,7 +4208,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rashad,Tagoi,Kadugli,Talodi,Muglad,Kalog,Dilling,Bashiri"
+  "b": "Oirsnoi,Thuuvek,Aisuiv,Gruusmieg,Oitwskoi,Vuujesw,Praloo,Kaswia"
 },
 {
     "name": "Tegem",
@@ -4217,7 +4217,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kadugli,Talodi,Rashad,Tagoi,Dilling,Kalog,Muglad,Abyei"
+  "b": "Iishedriunk,Doskhue,Iogeetw,Mionaipui,Hadroo,Grouiutr,Iinkegiup,Drotssue"
 },
 {
     "name": "Tima",
@@ -4226,7 +4226,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kadugli,Talodi,Rashad,Tagoi,Dilling,Muglad,Kalog,Bashiri"
+  "b": "Iiseviusp,Sliotriontee,Grasmia,Aidzuic,Ntospcue,Zuudzesn,Liofiokwee,Uoliesmein"
 },
 {
     "name": "Tembo",
@@ -4235,7 +4235,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bukavu,Goma,Uvira,Butembo,Kalemie,Kindu,Kisangani,Beni,Rutshuru,Masisi"
+  "b": "Sposlkaa,Uafku,Aiphuisw,Hodrdaa,Cuukier,Tsayoo,Nowgue,Iindembiudr,Ouphuuswofl,Uazntu"
 },
 {
     "name": "Tocho",
@@ -4244,7 +4244,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rashad,Kadugli,Talodi,Kalog,Dilling,Muglad,Abyei,Tagoi"
+  "b": "Frakhia,Kwuuprieng,Gwaskoo,Kriociwau,Khosnnkaa,Diosiozhee,Ndagria,Tsoystaa"
 },
 {
     "name": "Tumtum",
@@ -4253,7 +4253,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rashad,Kadugli,Talodi,Kalog,Dilling,Muglad,Tagoi,Bashiri"
+  "b": "Uanfru,Uomietseikw,Kruucew,Ainguisk,Iosleedz,Chuufrel,Uotiedeimb,Oifkoi"
 },
 {
     "name": "Sele",
@@ -4289,7 +4289,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Brazzaville,Kisangani,Mbandaka,Kananga,Lubumbashi"
+  "b": "Oikrxoi,Aiskuist,Oufuupow,Oikhvoi,Chiofrailui,Spuusliefl"
 },
 {
     "name": "Boro-Garo",
@@ -4451,7 +4451,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangolan,Babessi,Bamunka,Bamessing,Bamali,Bafanji,Balikumbat,Ndop,Babungo,Bambalang"
+  "b": "Uambgu,Phiodidzau,Fluuntev,Uotriezheist,Zodzlue,Uoviefreiz,Frouiung,Oichswoi,Wioraimui,Flantoo"
 },
 {
     "name": "Bomboli-Bozaba",
@@ -4469,7 +4469,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kungu,Libenge,Gemena,Budjala,Bomongo,Makanza,Mobayi-Mbongo,Yakoma,Bumba,Lisala,Bongandanga,Basankusu"
+  "b": "Mania,Sposlkue,Rokrgraa,Iigetwiuh,Dasia,Smiopindau,Spaslia,Oufluusnozh,Kuuswiekr,Twombzaa,Oiprkroi,Ouspuuzod"
 },
 {
     "name": "Boze",
@@ -4514,7 +4514,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Awing,Bamenda,Santa,Pinyin,Akum,Mankon,Bali,Bafut"
+  "b": "Chouiuy,Oiymoi,Xiozaikhui,Ciokirau,Gwioskiobree,Uadbru,Zhaphoo,Ounkuugop"
 },
 {
     "name": "Beba",
@@ -4559,7 +4559,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Monrovia,Freetown,Conakry,Banjul,Bissau,Lomé,Cotonou,Libreville,Douala,Yaoundé,Abidjan,Bouaké,Abuja,Accra,Lagos,Takoradi,Warri,Sekondi,Bamako,Niamey,Ouagadougou,Praia,Yamoussoukro,Bobo-Dioulasso,Koudougou,Sikasso,Segou,Mopti,Kayes,Koulikoro,Kidal,Tombouctou"
+  "b": "Pashia,Lofdrue,Iibrephiutw,Oupruugrom,Twiombisau,Drotssaa,Souiusn,Snioxaifrui,Aipruigr,Fochtsue,Twouiuz,Togwjaa,Zadzia,Shomgwue,Uontiexeiph,Uajsu,Ioskeest,Oustuujosl,Uoxiereisw,Ousmuumpoy,Gwaskia,Iikeliukh,Flontkrue,Uachswu,Stotwxue,Spasloo,Uafrthu,Iotreezh,Kwaproo,Ngonkmbaa,Krocsmue,Iomeets"
 },
 {
     "name": "Kru Pidgin English",
@@ -4640,7 +4640,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "N'Djamena,Moundou,Sarh,Abéché,Kélo,Koumra,Pala,Am Timan"
+  "b": "Iipehiung,Trabria,Oiskyoi,Brotvaa,Iimbentiubr,Ntaspia,Xazia,Ouwuungol"
 },
 {
     "name": "Kujargé",
@@ -4712,7 +4712,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "ae",
   "m": 0,
-  "b": "Maridi,Yambio,Nairobi,Kampala,Juba,Kigali,Bujumbura,Kisangani,Goma"
+  "b": "Kheoiax,Nauofr,Swoedai,Pluiaufr,Swoefraisw,OaThuusp,Kheoiamp,Pleefruasw,FleukYuesn,Pleeuad"
 },
 {
     "name": "Turku Arabic",

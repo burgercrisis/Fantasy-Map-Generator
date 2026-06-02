@@ -11,7 +11,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Teressa,Kalasi,Katchal,Nancowry,Kamorta,Trinkat,Chowra,Bompoka,Car Nicobar,Port Blair,Great Nicobar,Little Nicobar,Campbell Bay,Govind Nagar,Afra Bay,Pulobhao,Tilangchong,Battimalv,Meroe,Trak,Treis,Menchal,Kondul,Kabra,Pulomilo,Malacca,Mus,Kinmai,Kakana,Tamaloo,Big Lapati,Small Lapati,Sawyerpur,Arong,Sawai,Teetop,Perka,Lapathy,Kimios,Tapaming,Hitui,Oll-ta-hoe,Munak,Pulo-u-pah,Dring,En-h-nam,Ok-chun-ga,Kah-he-la,Sah-he-la,Lah-chu-ful"
+  "b": "Viuiix,Giaaafr,YiespFliekr,Pleesmuangao,Pleegruasmao,IembFlie,UeGreysp,Viuiimp,AevSni,AozzRou"
 },
 {
     "name": "Peruvian Ribereño",
@@ -119,7 +119,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Reus,Manresa,Granollers,Vic"
+  "b": "Swiipruiz,Neoriag,Khuaiud,OapKuu,OaKuu,Khuaiux,Neoswiall,Swiiswuill,Criaaat,IopThae"
 },
 {
     "name": "Chilote",
@@ -164,7 +164,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lima,Arequipa,Trujillo,Chiclayo,Piura,Iquitos,Cusco,Huancayo,Chimbote,Pucallpa,Tacna,Ica,Juliaca,Ayacucho,Cajamarca,Puno"
+  "b": "IYoip,AeGrink,TriaSwaa,OaCuunk,OaCuu,UeSney,IeFlie,IYoikr,UCei,OiGrionk"
 },
 {
     "name": "Rioplatense Spanish",
@@ -173,7 +173,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buenos Aires,Montevideo,Rosario,La Plata,Mar del Plata"
+  "b": "OiPriodz,UeCheysp,Cluatiupr,Teypeatwoy,Smiuniigrue,Cluafriusw,Fuenkeyndosw,OiPriorr,Choubrao,Shoenaigrou"
 },
 {
     "name": "Uruguayan Portuguese",
@@ -290,7 +290,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lima,Cusco,Arequipa,Trujillo,Chiclayo,Piura,Iquitos,Huancayo,Chimbote,Pucallpa,Ica,Tacna"
+  "b": "Sleittuspaust,Haotroudzaal,Woakuu,Spianaagruu,Phuetheyrroosh,OazzPhuu,Zoosh,EazzWeu,Zheoniagrue,Pheatheurraish"
 },
 {
     "name": "Aymara",

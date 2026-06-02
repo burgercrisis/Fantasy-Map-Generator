@@ -32,7 +32,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Goroka,Kainantu,Henganofi,Lufa,Okapa,Obura,Wonenara,Daulo,Watabung,Unggai,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua,Baimuru,Kikori,Moro,Gulf"
+  "b": "UuThoasn,AFla,EapSneu,UCeip,UCeisn,Troyroeg,YattFlasp,Naizeolue,CrauGo,AeGrisn"
 },
 {
     "name": "Mor",
@@ -59,7 +59,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sokoto,Kano,Kaduna,Zaria,Bauchi,Jos,Maiduguri,Makurdi,Benin,Abeokuta,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua,Baimuru,Kikori,Moro,Gulf"
+  "b": "OachThuu,Raendittayx,Tretseest,EidzCu,Raebiskayt,Swaazool,OadzThuu,Ciosaethiid,EadzGreu,IorrKae"
 },
 {
     "name": "Sabahan",
@@ -356,7 +356,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kota Kinabalu,Sandakan,Tawau,Kudat,Keningau,Tenom,Sipitang,Beaufort,Miri,Bintulu,Limbang,Lawas,Brunei,Labuan,Ranau,Kota Belud,Tuaran,Papar,Penampang,Putatan,Lahad Datu,Semporna,Kinarut,Popondetta,Kokoda"
+  "b": "Fruimpaureu,Kloabruutroong,Jiuiidr,Brousaothuism,Jiuiist,Kloasuuthoosm,Fruitaupreu,ChiochFaenk,Xiaxaanti,Bayxoyntie"
 },
 {
     "name": "Greater North Borneo",
@@ -482,7 +482,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakarta,Bandung,Surabaya,Denpasar,Makassar,Manado,Balikpapan,Samarinda,Ambon,Ternate,Jayapura,Port Moresby,Dili,Cebu,Manila,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema"
+  "b": "Zoy,UefTwey,ZiaSpaa,Zhaur,Soent,OufDrao,AvHa,Spoosw,Ziapr,UeflTwey"
 },
 {
     "name": "Western Malayo-Polynesian",
@@ -491,7 +491,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuala Lumpur,Singapore,Melaka,Johor Bahru,Medan,Padang,Palembang,Pekanbaru,Pontianak,Banjarmasin,Bandung,Manila,Cebu,Davao,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua"
+  "b": "Kriuz,Phuevey,Bloizzio,Bloiflio,Luifrausw,Phuerreypoo,Peyrreapui,Zaixeont,Pheacheunkaigr,Zaits"
 },
 {
     "name": "North New Guinea",
@@ -500,7 +500,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jayapura,Sentani,Genyem,Sarmi,Serui,Biak,Manokwari,Sorong,Nabire,Timika,Wewak,Vanimo,Aitape,Lae,Madang,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema"
+  "b": "Jeosmiang,Smaust,Froezailey,Fiemie,EaTeuf,Toamuu,Prittoi,Sheesluashao,Cheuthue,Stoitrio"
 },
 {
     "name": "Sawila",
@@ -581,7 +581,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Tabubil,Telefomin,Oksapmin,Kiunga,Ok Tedi,Fly River,Vanimo,Aitape,Wewak,Sandaun,Green River,Imonda,Bimin,Lumi,Nuku,Ambunti,Angoram,Maprik,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta"
+  "b": "Cruagriusm,Naingeon,Giiduiu,Thoiio,Sweeua,Giimpuiru,Vayngoyn,Cruangiun,Yiendiettiugr,Veoia"
 },
 {
     "name": "Gadsup",
@@ -608,7 +608,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Kerema,Gogodala,Gulf Province,Purari River,Kikori,Baimuru,Popondetta,Alotau,Daru,Port Moresby,Balimo,Aramia,Bamu,Wamena,Kiunga,Wipim,Ningerum,Tabubil,Ok Tedi,Fly River,Kokoda,Ioma,Tufi,Sohano"
+  "b": "Smauot,FiedzChie,Staetwi,KleikPrusn,Staendi,FierrChiep,ToarrMuup,Qaimpeor,MeakTeusn,PriochKlaenk"
 },
 {
     "name": "Awiyaana",
@@ -734,7 +734,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Kainantu,Yonki,Arona,Obura,Wonenara,Henganofi,Lufa,Goroka,Okapa,Daulo,Unggai-Bena,Bena Bena,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Riebieskeo,Niulliiss,Floutwaomaan,OuYaos,Niugiidr,IeSnies,Sniovae,Swiaswaalley,Sniobraetreeng,Plaatsoost"
 },
 {
     "name": "Aghu",
@@ -752,7 +752,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Nomad,Mougulu,Yehebi,Honinabi,Oksapmin,Telefomin,Kiunga,Tabubil,Ningerum,Olsobip,Gobe,Kantobo,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Klufei,Baytoypr,Smaisteoxue,Teiflu,Clefreesw,Smaileodue,Braozzou,Kluzzei,Fruissaumpeu,Broumbao"
 },
 {
     "name": "Nataoran",
@@ -779,7 +779,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Kerema,Malalaua,Ihu,Baimuru,Kikori,Purari,Gulf,Papua,Port Moresby,Lae,Madang,Wewak,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "EyReak,UeCeyrr,Pluill,OiFliosp,OiFliok,Pluifrausw,UeCeysp,Viuiism,Swiiz,Croyoe"
 },
 {
     "name": "Alu",
@@ -833,7 +833,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "PortMoresby,Lae,Morobe,MountHagen,Arawa,Bougainville,Madang,Wewak,Goroka,Kokopo,Popondetta,Aitape,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Qaugrosm,Teibrutriang,AethTi,Maepi,Teitwumian,Beogriasm,Qaungon,Moibioskua,Jiugriism,Freenuagr"
 },
 {
     "name": "Baham",
@@ -878,7 +878,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Kano,Maiduguri,Kaduna,Zaria,Bauchi,Gombe,Yola,Benue,Ilorin,Birnin Kebbi,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua,Baimuru,Kikori,Moro"
+  "b": "Droizziofleor,Glayxoyntoi,Zhuatiuprue,Heufuevoe,Kriuiiz,Spaixeontei,Droifioveo,TwoasnSluubr,Spootaypruu,OaSluutt"
 },
 {
     "name": "Baruga",
@@ -941,7 +941,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Binumarien,Lae,Bulolo,Menyamya,Kainantu,Wau,Finschhafen,Madang,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua,Baimuru,Kikori,Moro,Gulf,Kandrian,Talasea"
+  "b": "Truizaul,Swoyfr,Greuvue,Flouzzao,GreythThearr,Truigaudr,AospYou,Rievie,Flaofou,TruiSwau"
 },
 {
     "name": "Bipim",
@@ -1391,7 +1391,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Dugubali,Genaabo,Damayu,Irika,Harabiyu,Herebo,Inu,Gesege,Iorogobayu,Manu,Gobe,Hidinihia,Tugiri,Kafa,Yalanda,Sisibia,Baguale,Kutubu,Mubi,Ifigi,Popondetta,Kokoda,Ioma,Tufi,Sohano"
+  "b": "Doyl,Glodr,HitwBloim,Zhaist,Zhaiss,Kreoiasl,Weumuechiit,Doyss,Zeeeg,Weyskeakefr"
 },
 {
     "name": "Foe",
@@ -1508,7 +1508,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Goroka,Kainantu,Henganofi,Lufa,Okapa,Obura,Wonenara,Daulo,Watabung,Unggai,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua,Baimuru,Kikori,Moro,Gulf"
+  "b": "Zhayfr,Wumbeimbepr,Daaswooll,Drazzaflayr,Draba,IesnPie,Spiad,Zhayx,Luintausl,Peyzzeafluir"
 },
 {
     "name": "Abinomn",
@@ -1814,7 +1814,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Noumea,Kone,Koumac,Poindimie,Bourail,Canala,Hienghene,Lifou,Mare,Ouvea,Popondetta,Kokoda,Ioma,Tufi,Sohano,Buka,Kieta,Arawa,Buin,Kerema,Malalaua,Baimuru,Kikori,Moro,Gulf"
+  "b": "Jopr,IFoiv,Broutwaomuin,Kloatwuumoon,Cleeel,Preybreatreng,Clesw,Xoyoess,Broubaoskui,Chiboiskaa"
 },
 {
     "name": "Kanasi",
@@ -1931,7 +1931,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rabaul,Madang,Lae,Kimbe,Kavieng,Lorengau,Alotau,Popondetta,Vanimo,Daru,Kerema,Kundiawa,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Qiaraaguu,OiChiosk,Fren,UuToath,Clainteosloa,Meimu,Sheentuaslou,Qiantaasluu,Smeo,Xaantooslio"
 },
 {
     "name": "Admiralty",
@@ -2165,7 +2165,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Yos Sudarso,Kimaam,Kimaghama,Riantana,Merauke,Okaba,Kaptel,Muting,Jibi,Waan,Tabonji,Kolam,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "EadzFleu,OaGruutw,EurrThue,OaGruund,PloePlai,AoYoutw,NiuKhii,AeCibr,SwoyTroe,EuThues"
 },
 {
     "name": "Komyandaret",
@@ -2192,7 +2192,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Merauke,Okaba,Kaptel,Muting,Jibi,Waan,Tabonji,Kolam,Kimaam,Kimaghama,Riantana,Yos Sudarso,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Wuuspoakrell,Deezuali,Soygroesm,Sludzeiuag,Zuatsiustoa,Soyoe,Draspakrayll,Wuudzoaeg,EysnSlea,Duigaudrio"
 },
 {
     "name": "Kopkaka",
@@ -2201,7 +2201,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Tanah Merah,Kouh,Bomakia,Mandobo,Yaniruma,Wanggom,Kombai,Korowai,Citak,Mitak,Auyu,Asmat,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "IeFlieb,Troyoets,Khiuziil,SnousRaoth,Veoiag,Khiusliish,KoandCuutt,YiesFlieth,IoflYae,RuesSneyth"
 },
 {
     "name": "Korafe",
@@ -2210,7 +2210,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Oro Bay,Tufi,Kokoda,Popondetta,Ioma,Sohano,Buka,Kieta,Arawa,Buin"
+  "b": "Swoeaint,UuCoaf,AonkRou,EuYuemb,SnaosRouth,Craitseostei,AFlamb,NauKho,EiCufl,Nauo"
 },
 {
     "name": "Korowai",
@@ -2255,7 +2255,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Nomad,Mougulu,Yehebi,Honinabi,Oksapmin,Telefomin,Kiunga,Tabubil,Ningerum,Olsobip,Gobe,Kantobo,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Xeestuaxi,UuToatt,Tioskae,Smeoswiallue,OuFaom,Tiothae,Friipruizey,ABram,Breytrea,OiChiom"
 },
 {
     "name": "Kui Alor-Pantar",
@@ -2354,7 +2354,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wewak,Aitape,Vanimo,Lumi,Tabulam,Samok,Bongu,Tingelin,Saragosa,Maprik,Wamrong,Yapsiei,Agats,Atsy,Bisman,Bou,Briten,Kaye,Per,Saw,Suwru,Uwus,Yomoth,Kokonao,Amar"
+  "b": "Shoenaigr,Smoe,Beoiasw,IokrStae,Jaigreosm,Beoia,EusnMue,EasnCheu,PreibKlusk,Claugrosm"
 },
 {
     "name": "Awbono",
@@ -2993,7 +2993,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "",
   "m": 0,
-  "b": "Morehead,Kiunga,Tabubil,Daru,Balimo,Oriomo,Bensbach,Weam,Wipim,Nomad,Awaba,Kundiawa,Ambum,Wabag,Porgera,Kandep,Kompiam,Mendi,Tari,Paiela,Maip,Muritaka,Pilikambi,Popondetta,Kokoda"
+  "b": "Cinkoi,CiovKaezz,CraiGeo,Crooswayll,RoifSniov,Snouao,OubrRao,RoizzSniofl,Ciopae,Tresm"
 },
 {
     "name": "Motu",
