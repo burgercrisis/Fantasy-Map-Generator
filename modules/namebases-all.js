@@ -1,8 +1,8 @@
 "use strict";
 
 (function () {
-  // If no base arrays exist, check for continent files and merge them
-  if (!window.realWorldNameBases && !window.fantasyNameBases) {
+  // If real-world bases haven't been merged yet, merge continent arrays
+  if (!window.realWorldNameBases) {
     const continentArrays = [];
 
     if (window.africaNameBases) continentArrays.push(...window.africaNameBases);

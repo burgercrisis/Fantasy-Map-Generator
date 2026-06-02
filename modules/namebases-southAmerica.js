@@ -1,6 +1,6 @@
 "use strict";
 
-window.SouthAmericaNameBases = [
+window.southAmericaNameBases = [
   
 
 
