@@ -24,7 +24,8 @@ for (const f of CONTINENT_FILES) {
   let m;
   while ((m = re.exec(content)) !== null) {
     const idx = parseInt(m[1], 10);
-    const afterIdx = content.indexOf('"name":', m.index);
+    const before = content.slice(0, m.index);
+    const afterIdx = before.lastIndexOf('"name":');
     if (afterIdx === -1) continue;
     const nameMatch = content.slice(afterIdx, afterIdx + 300).match(/"name":\s*"([^"]+)"/);
     if (!nameMatch) continue;

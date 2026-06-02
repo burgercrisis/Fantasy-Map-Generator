@@ -76,8 +76,9 @@ function loadNamebasesByRegion() {
     let m;
     while ((m = entryRe.exec(content)) !== null) {
       const idx = parseInt(m[1], 10);
-      // Find the nearest "name": "..." after this index
-      const afterIdx = content.indexOf('"name":', m.index);
+      // Find the nearest "name": "..." before this index (name precedes i in the file format)
+      const before = content.slice(0, m.index);
+      const afterIdx = before.lastIndexOf('"name":');
       if (afterIdx === -1) continue;
       const nameMatch = content.slice(afterIdx, afterIdx + 200).match(/"name":\s*"([^"]+)"/);
       if (!nameMatch) continue;
@@ -100,7 +101,8 @@ function buildNameToBaseMap() {
     let m;
     while ((m = entryRe.exec(content)) !== null) {
       const idx = parseInt(m[1], 10);
-      const afterIdx = content.indexOf('"name":', m.index);
+      const before = content.slice(0, m.index);
+      const afterIdx = before.lastIndexOf('"name":');
       if (afterIdx === -1) continue;
       const nameMatch = content.slice(afterIdx, afterIdx + 200).match(/"name":\s*"([^"]+)"/);
       if (!nameMatch) continue;

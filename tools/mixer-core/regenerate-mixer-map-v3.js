@@ -76,9 +76,12 @@ function loadAllNamebaseEntries() {
     let m;
     while ((m = re.exec(content)) !== null) {
       const idx = parseInt(m[1], 10);
-      const afterIdx = content.indexOf('"name":', m.index);
-      if (afterIdx === -1) continue;
-      const nameMatch = content.slice(afterIdx, afterIdx + 200).match(/"name":\s*"([^"]+)"/);
+      // Search BACKWARDS from the "i" field to find the preceding "name" field
+      // (in the file format, "name" comes before "i" in each entry)
+      const before = content.slice(0, m.index);
+      const nameIdx = before.lastIndexOf('"name":');
+      if (nameIdx === -1) continue;
+      const nameMatch = content.slice(nameIdx, nameIdx + 200).match(/"name":\s*"([^"]+)"/);
       if (!nameMatch) continue;
       entries.push({ idx, name: nameMatch[1].trim(), continent });
     }
