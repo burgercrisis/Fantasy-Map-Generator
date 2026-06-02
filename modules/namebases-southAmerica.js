@@ -50,15 +50,6 @@ window.SouthAmericaNameBases = [
   "b": "Pucallpa,Yarinacocha,Contamana,Requena,Masisea,Iparia,Curimana,Boqueron,Calleria,Campo Verde,San Alejandro,Aguaytia,Tahuania,Puerto Esperanza,Iquitos,Nauta,Lagunas,Jeberos,Sarayacu"
 },
 {
-    "name": "Warao Delta",
-  "i": 422,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Tucupita,Barrancas,Pedernales,Isla Tigre,Isla Curiapo,Isla Amacuro,Santa Catalina,San Jose de Amacuro,San Felix,Ciudad Guayana,Puerto Ordaz,Guasipati,El Dorado,Temblador,Soledad,La Horqueta,Rio Grande,Boca de Serpiente,Delta Amacuro"
-},
-{
     "name": "Yanomami Amazonian",
   "i": 63,
   "min": 4,
@@ -968,15 +959,6 @@ window.SouthAmericaNameBases = [
   "b": "Piapoco,Puerto Carreño,Orocue,Vichada,Colombia,Meta,Orinoco River,South America"
 },
 {
-    "name": "Terêna",
-  "i": 8654,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Teressa,Kalasi,Katchal,Nancowry,Kamorta,Trinkat,Chowra,Bompoka,Car Nicobar,Port Blair,Great Nicobar,Little Nicobar,Campbell Bay,Govind Nagar,Afra Bay,Pulobhao,Tilangchong,Battimalv,Meroe,Trak,Treis,Menchal,Kondul,Kabra,Pulomilo,Malacca,Mus,Kinmai,Kakana,Tamaloo,Big Lapati,Small Lapati,Sawyerpur,Arong,Sawai,Teetop,Perka,Lapathy,Kimios,Tapaming,Hitui,Oll-ta-hoe,Munak,Pulo-u-pah,Dring,En-h-nam,Ok-chun-ga,Kah-he-la,Sah-he-la,Lah-chu-ful"
-},
-{
     "name": "Wapishana",
   "i": 8655,
   "min": 4,
@@ -1123,15 +1105,6 @@ window.SouthAmericaNameBases = [
 {
     "name": "Língua Geral Paulista",
   "i": 13927,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "São Paulo,Campinas,São Bernardo do Campo,Santo André,São José dos Campos,Sorocaba,Santos,Osasco,Ribeirão Preto,São José do Rio Preto"
-},
-{
-    "name": "Língua Geral Paulista",
-  "i": 14013,
   "min": 4,
   "max": 11,
   "d": "lnrt",

@@ -59,15 +59,6 @@ window.NorthAmericaNameBases = [
   "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely,Helsinki,Tampere,Turku,Oulu,Jyväskylä,Lahti,Kuopio,Pori,Joensuu,Lappeenranta,Vaasa,Rovaniemi,Seinäjoki"
 },
 {
-    "name": "Greenlandic",
-  "i": 2668,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Maniitsoq,Narsaq,Paamiut,Tasiilaq,Ittoqqortoormiit,Uummannaq,Upernavik,Nanortalik,Qasigiannguit,Qeqertarsuaq,Kangerlussuaq,Qeqertarsuatsiaat,Kullorsuaq,Savissivik,Illoqqortoormiut,Paris,Lyon,Marseille,Toulouse,Nice"
-},
-{
     "name": "Inuit",
   "i": 46,
   "min": 5,
@@ -311,15 +302,6 @@ window.NorthAmericaNameBases = [
   "b": "Brackettville,Nacimiento de los Negros,Del Rio,Eagle Pass,Uvalde,San Antonio,Houston,Galveston,New Orleans,Mobile,Pensacola,St. Augustine"
 },
 {
-    "name": "American Finnish",
-  "i": 21116,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely,Helsinki,Tampere,Turku,Oulu,Jyväskylä,Lahti,Kuopio,Pori,Joensuu,Lappeenranta,Vaasa,Rovaniemi,Seinäjoki"
-},
-{
     "name": "Sierra Popoluca",
   "i": 5828,
   "min": 4,
@@ -561,15 +543,6 @@ window.NorthAmericaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "ComitÃ¡n,Trinitaria,La Independencia,Francisco LeÃ³n,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
-},
-{
-    "name": "Coxoh",
-  "i": 21115,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Guatemala,Quetzaltenango,San Marcos,Huehuetenango,Quiche,Totonicapan,Solola,Chimaltenango,Escuintla,Suchitepequez,Retalhuleu,Coatepeque,Colomba,Flores,Peten,Tikal,Copan,Guatemala City,Antigua,Chichicastenango,Panajachel,Lake Atitlan,Rio Dulce,Livingston"
 },
 {
     "name": "Eskimo Trade Jargon",
@@ -1085,15 +1058,6 @@ window.NorthAmericaNameBases = [
   "b": "Fort Resolution,Yellowknife,Fort Smith,Hay River,Fort Simpson,Lutselk'e,Nahanni Butte,Norman Wells,Inuvik,Tuktoyaktuk,Paulatuk,Sachs Harbour"
 },
 {
-    "name": "Deg Xinag",
-  "i": 6633,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Anvik,Grayling,Holy Cross,Shageluk,Ruby,Iditarod,Dishkaket,Stony River,Nikolai,Takotna,Ophir,Cutoff"
-},
-{
     "name": "Holikachuk",
   "i": 6636,
   "min": 4,
@@ -1272,15 +1236,6 @@ window.NorthAmericaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Shoshoni,Wind River,Fort Hall,Duck Valley,Elko,Ely,Wells,Wendover,Twin Falls,Idaho Falls,Jackpot,Elko County"
-},
-{
-    "name": "Kumeyaay",
-  "i": 7838,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Kumeyaay,Alpine,Potrero,Manzanita,Jamul,Barona,Sycuan,Viejas,San Diego,California,Tijuana,Mexico"
 },
 {
     "name": "Kalaallisut",

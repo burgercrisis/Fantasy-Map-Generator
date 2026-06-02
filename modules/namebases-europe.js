@@ -23,24 +23,6 @@ window.europeNameBases = [
   "b": "Malij-Jugan,Megion,Nefteyugansk,Krasnoleninsk,Pokachi,Pyt-Yakh,Toulon,Grenoble,Angers,Dijon,Nîmes,Villeurbanne,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
-    "name": "Laiuse Romani",
-  "i": 2400,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva,Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Venice,Verona,Messina,Padua,Trieste"
-},
-{
-    "name": "Moksha",
-  "i": 2679,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Temnikov,Insar,Krasnoslobodsk,Chamzinka,Zubova Polyana,Potma,Atyuryevo,Tengushevo,Staroye Gorodishche,Chamzinka-,Zubovo,Spassk,Shiryaevo,Bolshie Berezniki,Narovchat,Ichalki,Aturevo,Kadoshkino,Bolshoye Nagatkino,Kamchatka (Moksha village)"
-},
-{
     "name": "Judeo-Catalan",
   "i": 456,
   "min": 4,
@@ -57,15 +39,6 @@ window.europeNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Bayonne,Biarritz,Dax,Mont-de-Marsan,Agen,Perigueux,Bergerac,Toulon,Grenoble,Angers,Dijon,Nîmes,Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier,Rennes,Lille,Reims,Le Havre"
-},
-{
-    "name": "Judeo-Spanish",
-  "i": 463,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "Madrid,Barcelona,Valencia,Sevilla,Zaragoza,Badajoz,Granada,MÃ¡laga,Tenerife,Bilbao,LÃ©rida,CÃ¡diz,Santander,Valladolid,Pontevedra,Huelva,Burgos"
 },
 {
     "name": "Mozarabic",
@@ -1670,24 +1643,6 @@ window.europeNameBases = [
   "b": "Mustair,Santa Maria Val Mustair,Valchava,Fuldera,Liu,Tschierv,Liu-Tschierv,Fuldera-Daint,Valchava-Selva,Mustair-Plaun,Mustair-Baselgia,Santa Maria,Sta Maria,Val Mustair,Zernez,Susch,Lavin,Guarda,Ardez,Ftan,Tarasp,Scuol,Sent,Vna,Tschlin,Ramosch,Strada,Martina,Nauders,Pfunds,Spiss,Ladis,Fiss,Serfaus,Ried im Oberinntal,Prutz,Fendels,Kaunertal,Feichten,St Leonhard im Pitztal,Wenns,Jerzens,Solden,Vent,Obergurgl,Gries im Sulztal,Langenfeld,Umhausen,Sautens,Otztal-Bahnhof,Haiming,Haimingerberg,Roppen,Ambach,Oetz,Habichen,Winklen,Otztal"
 },
 {
-    "name": "Judeo-Catalan",
-  "i": 21056,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Barcelona,Girona,Tarragona,Lleida,Tortosa,Perpignan,Besalu,Castello d Empuries,Figueres,Olot,Vic,Manresa,Berga,Cervera,Tarrega,Balaguer,Tremp,La Seu d Urgell,Puigcerda,Ripoll,Sant Feliu de Guixols,Palafrugell,Palamos,Roses,Cadaques,Portbou,Solsona,Cardona,Terrassa,Sabadell,Mataro,Granollers,Vilafranca del Penedes,Vilanova i la Geltru,Sitges,Igualada,Valls,Reus,Montblanc,El Vendrell,Calafell,Torredembarra,Salou,Cambrils"
-},
-{
-    "name": "Judeo-Gascon",
-  "i": 21057,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Bayonne,Biarritz,Dax,Mont-de-Marsan,Agen,Perigueux,Bergerac,Toulon,Grenoble,Angers,Dijon,Nîmes,Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Bordeaux,Montpellier,Rennes,Lille,Reims,Le Havre"
-},
-{
     "name": "Judeo-Italian",
   "i": 21058,
   "min": 4,
@@ -1938,15 +1893,6 @@ window.europeNameBases = [
   "d": "lr",
   "m": 0,
   "b": "Miranda do Douro,Sendim,Mogadouro,Vimioso,Braganca,Freixo de Espada a Cinta,Torre de Moncorvo,Macedo de Cavaleiros,Alfandega da Fe,Mirandela,Vila Flor,Carrazeda de Ansiaes,Angueira,PalaÃ§oulo,Picote,Ifanes,Constantim,Cicouro,Paradela,SÃ£o Martinho de Angueira,Duas Igrejas,Malhadas,GenÃ­sio,Silva,Ãguas Vivas,Vila ChÃ£ de Braciosa"
-},
-{
-    "name": "Mozarabic",
-  "i": 21065,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "CÃ³rdoba,Granada,MÃ¡laga,Sevilla,Toledo,Zaragoza,LÃ©rida,Burgos,Zamora,Soria,Ãvila,Salamanca,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
     "name": "Murcian",
@@ -3551,15 +3497,6 @@ window.europeNameBases = [
   "b": "Mansi,Khanty-Mansi,Surgut,Nizhnevartovsk,Nefteyugansk,Pyt-Yakh,Uray,Kogalym,Lyantor,Yugorsk,Russia,Urals,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
-    "name": "Central Moksha",
-  "i": 21074,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Moksha,Saransk,Kovylkino,Ruzaevka,Krasnoslobodsk,Tenyshevo,Insar,Mordovia,Russia,Volga,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg,Duisburg,Bochum"
-},
-{
     "name": "Central Selkup",
   "i": 1483,
   "min": 4,
@@ -3956,15 +3893,6 @@ window.europeNameBases = [
   "b": "Kingisepp,Ivangorod,Kotly,Luzhki,Krakolye,Pustomerzha,Ust-Luga,Vistino,Nezhnovo,Koporye,Soikino,Bolshoye Kuzyomkino,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
-    "name": "Laiuse Romani",
-  "i": 21046,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Tartu,Valga,VÃµru,PÃµlva,JÃµgeva,Viljandi,PÃ¤rnu,Rakvere,Kuressaare,Narva,Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Bari,Catania,Venice,Verona,Messina,Padua,Trieste"
-},
-{
     "name": "Northern Khanty",
   "i": 2321,
   "min": 4,
@@ -4001,15 +3929,6 @@ window.europeNameBases = [
   "b": "Surgut,Lyantor,Pyt-Yakh,Fedorovsky,Russkinskaya,Lokosovo,Ult-Yagun,Yugra,Sungino,Tundrino,Syomin,Bachiykiy,Taurovo,Ushtakovo,Barsovo,Beliy Yar,Gorno-Knyazevsky,Singapai,Kedrovyy,Cheuskin,Agan,Tromyegan,Pim,Yugan,Salym,Varyegan,Pokur,Vanzevat,Kazym,Lar-Yak,Vakhovsk,Korcheya,Megion,Nizhnevartovsk,Pokachi,Kogalym,Langepas,Uray,Noyabrsk,Muravlenko,Nefteyugansk,Beryozovo,Beloyarsky,Igrim,Priobye"
 },
 {
-    "name": "Malij Jugan",
-  "i": 21047,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Malij-Jugan,Megion,Nefteyugansk,Krasnoleninsk,Pokachi,Pyt-Yakh,Toulon,Grenoble,Angers,Dijon,Nîmes,Villeurbanne,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
-},
-{
     "name": "Tremjugan",
   "i": 2327,
   "min": 4,
@@ -4035,24 +3954,6 @@ window.europeNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Orthez,Bidache,Saint-Palais,Tardets,Mont-de-Marsan,Hasparren,Aire-sur-l'Adour,Navarrenx,Toulon,Grenoble,Angers,Dijon,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
-},
-{
-    "name": "Southeastern Moksha",
-  "i": 21083,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Saransk,Ruzayevka,Krasnoslobodsk,Temnikov,Tengushevo,Torbeyevo,Zubova Polyana,Yavas,Staroye Shaygovo,Kovylkino,Atashevo,Potizh,Burnak,Bolshiye Berezniki,Staroye Drakino,Shein-Maidan,Kocheetov,Pervomaysk,Kozlovka,Parcely,Vyazovka,Vasilyevka,Rakhmanovka,Krivoy Uzey,Lepelevka,Tatarskaya Pishlya,Yerusalim,Staroye Senskoye,Baevo,Trofimovshchina,Kepino"
-},
-{
-    "name": "Western Moksha",
-  "i": 21084,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Kovylkino,Temnikov,Tengushevo,Torbeyevo,Zubova Polyana,Yavas,Staroye Shaygovo,Kadoshka,Krasnoslobodsk,Potizh,Burnak,Bolshiye Berezniki,Staroye Drakino,Shein-Maidan,Kocheetov,Pervomaysk,Kozlovka,Parcely,Vyazovka,Vasilyevka,Rakhmanovka,Krivoy Uzey,Lepelevka,Tatarskaya Pishlya,Yerusalim,Staroye Senskoye,Baevo,Trofimovshchina,Kepino,Barashevo,Mordovskoye Davydovo,Novyye Verkhissy,Kuracheyevka,Kirlyay,Pokrovsky Vyezd"
 },
 {
     "name": "Syktyvkar",

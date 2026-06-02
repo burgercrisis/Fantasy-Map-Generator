@@ -59,15 +59,6 @@ window.asiaNameBases = [
   "b": "Mersin,Adana,Hatay,Gaziantep,Kilis,Sanliurfa,Antakya,Iskenderun,Tarsus,Osmaniye,Kahramanmaras,Diyarbakir"
 },
 {
-    "name": "Andalusi Arabic",
-  "i": 309,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Cordoba,Sevilla,Granada,Malaga,Almeria,Cadiz,Huelva,Jaen,Alhambra,Medina,Alcazar,Alpujarras"
-},
-{
     "name": "Baghdadi Arabic",
   "i": 310,
   "min": 4,
@@ -131,60 +122,6 @@ window.asiaNameBases = [
   "b": "Ahvaz,Masjed Soleyman,Izeh,Shushtar,Dezful,Andimeshk,Lali,Gotvand,Khorramshahr,Abadan,Behbahan,Ramhormoz"
 },
 {
-    "name": "Adeni Arabic",
-  "i": 937,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Aden,Crater,Maalla,Tawahi,Khormaksar,Mansura,Sheikh-Othman,Dar-Saad,Little-Aden,Inshaa,Bureika,Madinat-ash-Shaab"
-},
-{
-    "name": "Aleppine Arabic",
-  "i": 938,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Aleppo,Damascus,Homs,Hama,Latakia,Tartus,Deirezzor,Raqqa,Idlib,Daraa,AlHasakah,Qamishli"
-},
-{
-    "name": "Algerian Arabic",
-  "i": 939,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Algiers,Oran,Constantine,Annaba,Blida,Batna,SÃ©tif,Djelfa,Biskra,TÃ©bessa,ElOued,Skikda"
-},
-{
-    "name": "Algerian Saharan Arabic",
-  "i": 940,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "GhardaÃ¯a,Ouargla,Timimoun,ElMenia,InSalah,Adrar,Tamanrasset,Djanet,Illizi,BordjBadjiMokhtar,Tindjikane,Touggourt"
-},
-{
-    "name": "Anatolian Arabic",
-  "i": 941,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Istanbul,Ankara,Izmir,Bursa,Antalya,Konya,Adana,Gaziantep,Kocaeli,Mersin,DiyarbakÄ±r,Samsun"
-},
-{
-    "name": "Baghdadi Arabic",
-  "i": 1026,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Baghdad,Basrah,Mosul,Kirkuk,Najaf,Erbil,Nasiriyah,Karbala,Ramadi,Sulaymaniyah,AlDiwaniyah,Amarah"
-},
-{
     "name": "Bahrani Arabic",
   "i": 1073,
   "min": 4,
@@ -192,24 +129,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Manama,Riffa,Muharraq,Hamad Town,Isa Town,Sitra,Budaiya,A'ali,Madinat Hamad,Al Muharraq,Jidhafs"
-},
-{
-    "name": "Bahraini Gulf Arabic",
-  "i": 1095,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Manama,Muharraq,Riffa,Isa Town,Hamad Town,Sitra,Budaiya,Jidhafs,Sanabis,Seef,Busaiteen,A'ali"
-},
-{
-    "name": "Bakhtiari Arabic",
-  "i": 1096,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Ahvaz,Masjed Soleyman,Izeh,Shushtar,Dezful,Andimeshk,Lali,Gotvand,Khorramshahr,Abadan,Behbahan,Ramhormoz"
 },
 {
     "name": "Bareqi Arabic",
@@ -228,33 +147,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Biao Mon,Zhaoqing,Foshan,Jiangmen,Zhongshan,Guangzhou,Dongguan,Shenzhen,Huizhou,Meizhou,Heyuan,Shaoguan"
-},
-{
-    "name": "Bukharian Arabic",
-  "i": 1388,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh"
-},
-{
-    "name": "Cairene Arabic",
-  "i": 1460,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Cairo,Giza,Hilwan,Shubra El-Kheima,Maadi,Nasr City,Imbaba,Old Cairo,Abbasiya,Zamalek,Al-Marg,Al-Matariya"
-},
-{
-    "name": "Central Asian Arabic",
-  "i": 1463,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Central Asian Arabic,Kazakhstan,Astana,Almaty,Tashkent,Karaganda,Shymkent,Pavlodar,Uralsk,Turkmenistan,Ashgabat,Tashau,Uzbekistan"
 },
 {
     "name": "Classical Arabic",
@@ -282,15 +174,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju,Seoul,Busan,Incheon,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan"
-},
-{
-    "name": "Joseon Korean Early Modern",
-  "i": 2040,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Hanyang,Pyongyang,Kaesong,Jeonju,Chungju,Sangju,Gyeongju,Jinju,Haeju,Hamhung,Wonsan,Ulsan,Dongnae,Suwon,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Changwon,Goyang,Yongin"
 },
 {
     "name": "Judaeo-Georgian",
@@ -430,15 +313,6 @@ window.asiaNameBases = [
 {
     "name": "Early Modern Korean",
   "i": 1727,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Early Modern Korean,Seoul,Busan,Incheon,Gyeongju,Daegu,Gwangju,Jeju Island,South Korea,Korea Peninsula,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan"
-},
-{
-    "name": "Early Modern Korean",
-  "i": 1815,
   "min": 4,
   "max": 11,
   "d": "",
@@ -1364,15 +1238,6 @@ window.asiaNameBases = [
   "b": "Kyren,Arshan,Tunka,Mondy,Turan,Zhemchug,Tory,Shimki,Nilovka,Khoito-Gol,Tagarkhai,Guzhiry,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Mörön,Ölgii,Khovd,Ulaangom,Tsetserleg,Arvaikheer,Dalandzadgad,Sainshand,Zuunmod"
 },
 {
-    "name": "Alasha Mongol",
-  "i": 21066,
-  "min": 4,
-  "max": 11,
-  "d": "aou",
-  "m": 0,
-  "b": "Bayanhot,Alxa Left Banner,Alxa Right Banner,Ejin Banner,Dalaihob,Barunbair,Jilantai,Wuhai,Dengkou,Linhe,Bayannur,Otog Banner,Yangon,Mandalay,Naypyidaw,Bago,Mawlamyine,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha,Lashio"
-},
-{
     "name": "Assyrian Neo-Aramaic",
   "i": 816,
   "min": 4,
@@ -1794,15 +1659,6 @@ window.asiaNameBases = [
   "d": "aou",
   "m": 0,
   "b": "BlagBlagoveshchensk,Heihe,Aihui,Mohe,Jiagedaqi,Huma,Tahe,Amursk,Zeya,Shimanovsk,Svobodny,Belogorsk"
-},
-{
-    "name": "Arabic Javanese of Klego",
-  "i": 21018,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Tangerang,Depok,Bekasi,Bogor,Batam,South Tangerang,Malang,Yogyakarta"
 },
 {
     "name": "Armazic",
@@ -2894,15 +2750,6 @@ window.asiaNameBases = [
   "b": "BiaoBiao Min,Zhaoping,Hexian,Zhaoqing,Deqing,Fengkai,Wuzhou,Yulin,Mengshan,Zhongshan,Foshan,Jiangmen"
 },
 {
-    "name": "Biao Mon",
-  "i": 21028,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Biao Mon,Zhaoqing,Foshan,Jiangmen,Zhongshan,Guangzhou,Dongguan,Shenzhen,Huizhou,Meizhou,Heyuan,Shaoguan"
-},
-{
     "name": "Biblical Aramaic",
   "i": 1288,
   "min": 4,
@@ -3605,15 +3452,6 @@ window.asiaNameBases = [
   "b": "Anadyr,Bilibino,Pevek,Egvekinot,Provideniya,Lavrentia,Markovo,Ushakovskoye,Alkino,Komsomolsky,Uelen,Neshkan,Krasneno,Beringovsky,Chukotka,Kolyma,Kanchalan,Mavro,Omolon,Belta,Aviat,Zvyozdny,Ust-Belaya,Khatyrka,Velikoretsk,Sibirsky,Zolotoy,Sagyn,Kuyul,Tilichiki,Snyat,Septemvri,Tumanny,Alutor,Nauch,Kuchum"
 },
 {
-    "name": "Chongqing Mandarin",
-  "i": 21075,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Chongqing,Chengdu,Mianyang,Deyang,Nanchong,Dazhou,Luzhou,Yibin,Leshan,Zigong,Panzhihua,Liangshan,Guangyuan,Suining,Neijiang,Lezhi,Ziyang,Anyue,Tianfu,Wanzhou,Fuling,Yongchuan,Hechuan,Nanchuan,Banan,Yubei,Bishan,Tongliang,Dazu,Qijiang,Jiangjin,Changshou,Shuangqiao,Wulong,Fengdu"
-},
-{
     "name": "Chukotkan",
   "i": 1607,
   "min": 4,
@@ -3648,15 +3486,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Anadyr,Bilibino,Markovo,Ushakovskoye,Lavrentia,Egvekinot,Provideniya,Krasneno,Neshkan,Beringovsky,Uelen,Chukotka,Kolyma,Koryaksky,Kamchatsky,Penzhinsky,Sobolevsky,Aleutsky,Karaginsky,Ust-Belaya,Khatyrka,Velikoretsk,Sibirsky,Zvyozdny,Zolotoy,Sagyn,Kuyul"
-},
-{
-    "name": "Cilician Arabic",
-  "i": 21076,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Adana,Mersin,Istanbul,Ankara,Izmir,Antalya,Konya,Gaziantep,Hatay,Tarsus,Kadirli,Osmaniye,Iskenderun,Antakya,Mardin,Diyarbakir,Sanliurfa,Kahramanmaras,Kayseri,Kocaeli,Sakarya,Samsun,Trabzon,Erzurum,Malatya,Elazig,Bursa,Balikesir,Denizli"
 },
 {
     "name": "Circassian",
@@ -4055,15 +3884,6 @@ window.asiaNameBases = [
   "b": "TokyTokyo,Seoul"
 },
 {
-    "name": "Early Modern Korean",
-  "i": 21079,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Early Modern Korean,Seoul,Busan,Incheon,Gyeongju,Daegu,Gwangju,Jeju Island,South Korea,Korea Peninsula,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan"
-},
-{
     "name": "East Bodish",
   "i": 1728,
   "min": 4,
@@ -4460,15 +4280,6 @@ window.asiaNameBases = [
   "b": "Nuristan,Kunar,Laghman,Kabul,Herat,Kandahar,Mazar-i-Sharif,Jalalabad,Peshawar,Khyber,Kashmir,Parun,Wama,Kamdesh,Asadabad,Nangarhar,Badakhshan,Takhar,Kundoz,Baghlan,Panjshir,Bamian,Ghor,Daykundi,Beijing"
 },
 {
-    "name": "Gawar-Bati",
-  "i": 21080,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Nuristan,Kunar,Lagman,Kabul,Herat,Kandahar,Mazar-i-Sharif,Jalalabad,Peshawar,Kashmir,Parun,Wama,Kamdesh,Asadabad,Nangarhar,Badakhshan,Afghanistan,Pakistan,Hindu Kush,Pamir,Himalaya,Beijing"
-},
-{
     "name": "Gyeonggi-Seoul",
   "i": 1929,
   "min": 4,
@@ -4512,24 +4323,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Kapan,Armavir,Alaverdi,Hrazdan,Kumayri,Garni,Geghard,Sevan,Dilijan,Tatev,Zorats Karer,Armenia,Caucasus,Tavush,Syunik,Lori,Ararat,Kotayk,Gegharkunik,Vayots Dzor"
-},
-{
-    "name": "Modern Armenian",
-  "i": 21030,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "hayehayeren,Yerevan,Gyumri,Vanadzor,Abovyan,Kapan,Armavir,Gavar,Ararat,Ashtarak,Ijevan"
-},
-{
-    "name": "Modern Western Armenian",
-  "i": 21081,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "hayehayeren,Istanbul,Izmir,Bursa,Antalya,Adana,Konya,Mersin,Gaziantep,Ankara,Trabzon"
 },
 {
     "name": "Old Armenian",
@@ -4685,15 +4478,6 @@ window.asiaNameBases = [
   "b": "Petropavlovsk,Kamchatsky,Klyuchi,Ust-Kamchatsk,Kozyrevsk,Milkovo,Ellizovo,Vilyuchinsk,Paratunka,Semyonov,Mikhalkovo,Khalaktyr,Napa,Dachny,Tsentr,Oktyabrsky,Vulkanny,Gorodok,Sadovy,Krasny,Voyenny,Vnukovo,Naberezhny"
 },
 {
-    "name": "Joseon Korean Modern",
-  "i": 21032,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Hanseong,Gaegyeong,Pyongyang,Jeonju,Gyeongju,Daegu,Jinju,Hamhung,Wonsan,Haeju,Seoul,Busan,Incheon,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Goyang,Yongin,Seongnam,Bucheon,Cheongju,Ansan"
-},
-{
     "name": "Jirel",
   "i": 1997,
   "min": 4,
@@ -4836,15 +4620,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Yao,Yao,Mien,Panh,Saelee,Chao,Phan,Tang,Lai,Lee,Wong,Teng,Kwang,Chew,Lu"
-},
-{
-    "name": "Joseon Korean Early Modern",
-  "i": 21035,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Hanyang,Pyongyang,Kaesong,Jeonju,Chungju,Sangju,Gyeongju,Jinju,Haeju,Hamhung,Wonsan,Ulsan,Dongnae,Suwon,Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Changwon,Goyang,Yongin"
 },
 {
     "name": "Joseon Korean Middle",
@@ -5313,15 +5088,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "NikoNikolskoye,Preobrazhenskoye,Bering,Commander,Petropavlovsk,Ust-Kamchatskiy,Ossora,Palana,Tilichiki,Tigil,Esso,Milkovo"
-},
-{
-    "name": "Mon (native speakers)",
-  "i": 21040,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Mawlamyine,Thaton,Mudon,Ye,Mottama,Kyaikmaraw,Chaungzon,Paung,Bilin,Kyaikto,Kamawet,Kalwi,Yangon,Mandalay,Naypyidaw,Bago,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha,Lashio"
 },
 {
     "name": "Lakkia-Kam-Sui",
@@ -6296,15 +6062,6 @@ window.asiaNameBases = [
   "b": "Phnom-Penh,Siem-Reap,Battambang,Takeo,Kampong-Cham,Kampot,Kep,Kratie,Stung-Treng,Poipet,Pailin,Ta-Khmau,Sihanoukville,Kampong-Chhnang,Kampong-Thom,Phnom Penh,Siem Reap,Kampong Cham,Kampong Speu,Prey Veng,Ta Khmau,Sisophon,Pursat"
 },
 {
-    "name": "Mon",
-  "i": 2571,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Mawlamyine,Thaton,Kyaikto,Paung,Chaungzon,Thanbyuzayat,Ye,Khawzar,ThanbyuzayatTown,Kyaikkami,Setse,Thanbyu,Kamamaung,Yangon,Mandalay,Naypyidaw,Bago,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha"
-},
-{
     "name": "Hindi",
   "i": 2574,
   "min": 5,
@@ -6899,15 +6656,6 @@ window.asiaNameBases = [
   "b": "Kathmandu,Pokhara,Lalitpur,Bharatpur,Biratnagar,Birgunj,Dharan,Butwal,Hetauda,Nepalgunj,Janakpur,Dhangadhi,Itahari,Tulsipur,Ghorahi,Jeetpur,Kalaiya,Siddharthanagar,Lahan,Rajbiraj,Gaur,Malangwa,Siraha,Damak,Bhadrapur"
 },
 {
-    "name": "Telugu",
-  "i": 84702,
-  "min": 4,
-  "max": 11,
-  "d": "und",
-  "m": 0,
-  "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Kurnool,Tirupati,Rajahmundry,Kakinada,Kadapa,Anantapur,Eluru,Ongole,Chittoor,Srikakulam,Vizianagaram,Nandyal,Proddatur,Adoni,Tenali,Bhimavaram,Chilakaluripet,Narasaraopet,Tadepalligudem,Suryapet"
-},
-{
     "name": "Tamil",
   "i": 55997,
   "min": 4,
@@ -6998,15 +6746,6 @@ window.asiaNameBases = [
   "b": "Grozny,Gudermes,Argun,Shali,Urus-Martan,Kurchaloy,Achkhoy-Martan,Samashki,Avtury,Bamut,Vedeno,Itum-Kale,Shatoy,Nozhay-Yurt,Shelkovskaya,Naurskaya,Znamenskoye,Sernovodskoye,Alkhan-Yurt,Gekhi,Paris,Lyon,Marseille,Toulouse,Nice"
 },
 {
-    "name": "Cypriot Arabic",
-  "i": 21078,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Cypriot Arabic,Nicosia,Limassol,Larnaca,Cyprus,Mediterranean Sea,Eastern Mediterranean,Toulon,Grenoble,Angers,Dijon,Nîmes,Athens,Thessaloniki,Patras,Heraklion,Larissa,Volos,Ioannina,Chania,Chalcis,Trikala,Serres,Alexandroupoli,Xanthi"
-},
-{
     "name": "Dargwa",
   "i": 1659,
   "min": 4,
@@ -7043,15 +6782,6 @@ window.asiaNameBases = [
   "b": "Hunzib,Tlisi,Bezhta,Russia,Dagestan,Caucasus,Kapucha,Western,Toulon,Grenoble,Angers,Dijon,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
-    "name": "Judaeo-Georgian",
-  "i": 21037,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Tbilisi,Kutaisi,Akhaltsikhe,Oni,Kulashi,Sachkhere,Laituri,Surami,Kareli,Gori,Batumi,Poti,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
-},
-{
     "name": "Khwarshi",
   "i": 2160,
   "min": 4,
@@ -7077,15 +6807,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Karachayevsk,Nalchik,Tyrnyauz,Teberda,Elbrus,Kashkhatau,Chegem,Baksan,Khasanya,Yanikoy,Gundelen,Bylym,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
-},
-{
-    "name": "Kumyk",
-  "i": 21042,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Makhachkala,Khasavyurt,Buinaksk,Izberbash,Kizilyurt,Karabudakhkent,Babayurt,Kayakent,Korkmaskala,Kumtorkala,Tarki,Leninkent,Berlin,Hamburg,Munich,Cologne,Frankfurt,Stuttgart,Leipzig,Dortmund,Essen,Bremen,Dresden,Hanover,Nuremberg"
 },
 {
     "name": "Bagvalal",
@@ -7167,33 +6888,6 @@ window.asiaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Karachayevsk,Kaspiysk,Kizlyar,Khasavyurt,Babayurt,Izberbash,Derbent,Kizilyurt,Buynaksk,Terekli-Mekteb,Neftekumsk,Noginskaya,Solnechnodolsk,Stepnoye,Zelmicino,Achi-Su,Arslanbekovo,Kochubey,Karasuvbazar,Manas,Paris,Lyon,Marseille,Toulouse,Nice"
-},
-{
-    "name": "Ancient Egyptian",
-  "i": 912,
-  "min": 4,
-  "max": 11,
-  "d": "",
-  "m": 0,
-  "b": "Memphis,Thebes,Heliopolis,Abydos,Karnak,Luxor,Aswan,Edfu,Dendera,Philae,KomOmbo,AbuSimbel"
-},
-{
-    "name": "Ancient North Arabian",
-  "i": 913,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Petra,Hegra,Mada'inSalih,Dedan,Tayma,Qurayyah,DumatAlJandal,AlUla,Khaybar,Yathrib,AlHijr,Badr"
-},
-{
-    "name": "Classical Arabic",
-  "i": 21029,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Mecca,Medina,Jeddah,Riyadh,Damascus,Baghdad,Cairo,Alexandria,Fustat,Kufa,Basra,Aden,Oman,Yemen,Hijaz,Najd,Hejaz,Tayma,Ubar,Zagros,Arabian Gulf,Persian Gulf,Red Sea,Mediterranean,Sinai"
 },
 {
     "name": "Arabic (Gulf)",
