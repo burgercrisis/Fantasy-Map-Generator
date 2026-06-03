@@ -11,7 +11,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anvik,Grayling,Holy Cross,Shageluk,Ruby,Iditarod,Dishkaket,Stony River,Nikolai,Takotna,Ophir,Cutoff"
+  "b": "3021150,3021263,3021372,3021382,3021411,Deuil-la-Barre,3021516,Denain,3021605,Décines-Charpieu,3021662,3021670,Dammarie-les-Lys,3021852,Cugnaux,3022151,Croix,3022376,Créteil,3022530"
 },
 {
     "name": "Mohawk",
@@ -20,7 +20,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Akwesasne,Kahnawake,Kanesatake,Oneida,Onondaga,Syracuse,Saint Regis,Caughnawaga,Albany,Troy,Schenectady,Saratoga Springs"
+  "b": "Cachan,3029276,Paris 19 Buttes-Chaumont,3029372,Paris 18 Buttes-Montmartre,3029374,Bry-sur-Marne,3029706,Brunoy,3029748,Bruay-la-Buissière,3029825,Bron,3029931,3029974,Brignoles,3030057,Brie-Comte-Robert,3030101,Brétigny-sur-Orge"
 },
 {
     "name": "Kumeyaay",
@@ -29,7 +29,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kumeyaay,Alpine,Potrero,Manzanita,Jamul,Barona,Sycuan,Viejas,San Diego,California,Tijuana,Mexico"
+  "b": "613988,614455,615532,Samtskhe-Javakheti,615860,Stantsiya Novyy Afon,615912,French Guiana,Guyane,3380387,Rémire-Montjoly,3380892,Matoury,3380965,3381303,3382160,Guernsey,3042287,2293801,Yegyi"
 },
 {
     "name": "Chinantec",
@@ -38,7 +38,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oaxaca,San Juan,Chiquihuitlan,Usila,Valle Nacional,Ixtlan,Tuxtepec,Papalo,Comaltepec,Cuyamecalco,Santa Maria,San Pedro,San Jose,San Lucas,San Miguel,San Francisco,San Antonio,Santiago,Santa Cruz,La Trinidad,El Porvenir,El Triunfo,San Cristobal,Lachivilla,Zaniza,Yolox,Chichihualco"
+  "b": "3313472,Sandyford,3315278,Donaghmede,6691033,South Dublin,6697759,281184,Giv`at H̱ananya,281187,Modi‘in Makkabbim Re‘ut,282926,Zikhron Ya‘aqov,293067,Northern District,293100,Yoqne‘am ‘Illit,293153,Yirkā,293181"
 },
 {
     "name": "Coxoh",
@@ -47,7 +47,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guatemala,Quetzaltenango,San Marcos,Huehuetenango,Quiche,Totonicapan,Solola,Chimaltenango,Escuintla,Suchitepequez,Retalhuleu,Coatepeque,Colomba,Flores,Peten,Tikal,Copan,Guatemala City,Antigua,Chichicastenango,Panajachel,Lake Atitlan,Rio Dulce,Livingston"
+  "b": "1256593,Sheohar,1256597,Sheoganj,1256598,Shenkottai,1256608,Shehera,1256616,Shegaon,1256620,Shāntipur,1256639,Shamsābād,1256659,1256660,Shāmli,1256671,Shāmgarh,1256673"
 },
 {
     "name": "American Finnish",
@@ -56,7 +56,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hancock,Calumet,Duluth,Thunder Bay,Sudbury,Sault Ste. Marie,Ishpeming,Marquette,Virginia,Hibbing,Chisholm,Ely,Helsinki,Tampere,Turku,Oulu,Jyväskylä,Lahti,Kuopio,Pori,Joensuu,Lappeenranta,Vaasa,Rovaniemi,Seinäjoki"
+  "b": "2838053,Schmalkalden,2838059,Schlüchtern,2838201,Schleswig,2838634,Schkeuditz,2839050,Schiffweiler,2839316,Schifferstadt,2839335,Scharnhorst,2840287,Bad Saulgau,2841125,Sasel,2841374,Sarstedt"
 },
 {
     "name": "Inuit",
@@ -65,7 +65,7 @@ window.northAmericaNameBases = [
   "max": 15,
   "d": "alutsn",
   "m": 0,
-  "b": "Aaluik,Aappilattoq,Aasiaat,Agissat,Agssaussat,Akuliarutsip,Akunnaaq,Alluitsup,Alluttoq,Amitsorsuaq,Ammassalik,Anarusuk,Anguniartarfik,Annertussoq,Annikitsoq,Apparsuit,Apusiaajik,Arsivik,Arsuk,Atammik,Ateqanaq,Atilissuaq,Attu,Augpalugtoq,Aukarnersuaq,Aumat,Auvilkikavsaup,Avadtlek,Avallersuaq,Bjornesk,Blabaerdalen,Blomsterdalen,Brattalhid,Bredebrae,Brededal,Claushavn,Edderfulegoer,Egger,Eqalugalinnguit,Eqalugarssuit,Eqaluit,Eqqua,Etah,Graah,Hakluyt,Haredalen,Hareoen,Hundeo,Igaliku,Igdlorssuit,Igdluluarssuk,Iginniafik,Ikamiut,Ikarissat,Ikateq,Ikermiut,Ikermoissuaq,Ikorfarssuit,Ilimanaq,Illorsuit,Illunnguit,Iluileq,Ilulissat,Imaarsivik,Imartunarssuk,Immikkoortukajik,Innaarsuit,Inneruulalik,Inussullissuaq,Iperaq,Ippik,Iqek,Isortok,Isungartussoq,Itileq,Itissaalik,Itivdleq,Ittit,Ittoqqortoormiit,Ivingmiut,Ivittuut,Kanajoorartuut,Kangaamiut,Kangeq,Kangerluk,Kangerlussuaq,Kanglinnguit,Kapisillit,Kekertamiut,Kiatak,Kiataussaq,Kigatak,Kinaussak,Kingittorsuaq,Kitak,Kitsissuarsuit,Kitsissut,Klenczner,Kook,Kraulshavn,Kujalleq,Kullorsuaq,Kulusuk,Kuurmiit,Kuusuaq,Laksedalen,Maniitsoq,Marrakajik,Mattaangassut,Mernoq,Mittivakkat,Moriusaq,Myggbukta,Naajaat,Nangissat,Nanuuseq,Nappassoq,Narsarmijt,Narsarsuaq,Narssaq,Nasiffik,Natsiarsiorfik,Naujanguit,Niaqornaarsuk,Niaqornat,Nordfjordspasset,Nugatsiaq,Nunarssit,Nunarsuaq,Nunataaq,Nunatakavsaup,Nutaarmiut,Nuugaatsiaq,Nuuk,Nuukullak,Olonkinbyen,Oodaaq,Oqaatsut,Oqaitsunguit,Oqonermiut,Paagussat,Paamiut,Paatuut,Palungataq,Pamialluk,Perserajoq,Pituffik,Puugutaa,Puulkuip,Qaanaq,Qaasuitsup,Qaersut,Qajartalik,Qallunaat,Qaneq,Qaqortok,Qasigiannguit,Qassimiut,Qeertartivaq,Qeqertaq,Qeqertasussuk,Qeqqata,Qernertoq,Qernertunnguit,Qianarreq,Qingagssat,Qoornuup,Qorlortorsuaq,Qullikorsuit,Qunnerit,Qutdleq,Ravnedalen,Ritenbenk,Rypedalen,Saarloq,Saatorsuaq,Saattut,Salliaruseq,Sammeqqat,Sammisoq,Sanningassoq,Saqqaq,Saqqarlersuaq,Saqqarliit,Sarfannguit,Sattiaatteq,Savissivik,Serfanguaq,Sermersooq,Sermiligaaq,Sermilik,Sermitsiaq,Simitakaja,Simiutaq,Singamaq,Siorapaluk,Sisimiut,Sisuarsuit,Sullorsuaq,Suunikajik,Sverdrup,Taartoq,Takiseeq,Tasirliaq,Tasiusak,Tiilerilaaq,Timilersua,Timmiarmiut,Tukingassoq,Tussaaq,Tuttulissuup,Tuujuk,Uiivaq,Uilortussoq,Ujuaakajiip,Ukkusissat,Upernavik,Uttorsiutit,Uumannaq,Uunartoq,Uvkusigssat,Ymer"
+  "b": "3435910,Boedo,3436003,Berazategui,3436043,3436061,Belgrano,3436077,Barranqueras,3436124,Barracas,3436134,3436177,3436199,3436221,3436230,Aristóbulo del Valle,3436287,Apóstoles,3436311"
 },
 {
     "name": "Purépecha",
@@ -74,7 +74,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Morelia,Uruapan,Zamora,Patzcuaro,Tzintzuntzan,Cheran,Paracho,LosReyes,Angamacutiro,Angangueo,Apatzingan,Acuitzio,Aguililla,Arteaga,Ario,Brisenas,Buenavista,Caracuaro,Charapan,Charo,Chavinda,Chilchota,Chinicuila,Chucandiro,Churintzio,Churumuco,Coahuayana,Coalcoman,Coeneo,Cojumatlan,Contepec,Copandaro,Cotija,Cuitzeo,Ecuandureo,Erongaricuaro,GabrielZamora,Hidalgo,Huandacareo,Huaniqueo,Huetamo,Huiramba,Indaparapeo,Irimbo,Ixtlan,Jacona,Jimenez,Jiquilpan,Jungapeo,Lagunillas,LaPiedad,Maravatio,Morelos"
+  "b": "4887398,4887442,4887463,4888015,4888892,4889107,4889229,4889426,4889447,4889553,4889668,4889772,4889959,Dolton,4890009,4890075,Downers Grove,4890119,East Garfield Park,4890507"
 },
 {
     "name": "Canadian French",
@@ -83,7 +83,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quebec,Montreal,Trois-Rivieres,Sherbrooke,Saguenay,Gatineau,Drummondville,Rimouski,Chicoutimi,Sept-Iles,Victoriaville,Granby"
+  "b": "2063523,2065594,2065665,Morphett Vale,2065740,2067119,Kwinana,2068079,2068823,Gosnells,2070571,2070998,Gawler,2071059,2073124,Byford,2075230,2075265,2075432,Australind"
 },
 {
     "name": "Acadian",
@@ -92,7 +92,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moncton,Shediac,Bathurst,Fredericton,Charlottetown,Amherst,Truro,Yarmouth,Prince Edward Island"
+  "b": "2817599,Velbert,2817724,Vegesack,2817783,Vechta,2817812,Vechelde,2817813,Vaterstetten,2817818,Varel,2817873,Vaihingen an der Enz,2817927,Uetersen,2818067,Uslar,2818094,Unterschleißheim"
 },
 {
     "name": "Brayon",
@@ -101,7 +101,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Braga,GuimarÃ£es,Viseu,Porto,Celorico da Beira,Vila Real"
+  "b": "Steglitz,2829109,Staßfurt,2829422,2829457,Stadtlohn,2829758,Stadthagen,2829777,Stadtallendorf,2829804,Hansestadt Stade,2829901,Staaken,2829962,Sprockhövel,2829998,Springe,2830035,2830582"
 },
 {
     "name": "Chiac",
@@ -110,7 +110,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madrid,Toledo,Ãvila,Segovia,Valladolid,Zamora,Salamanca,Burgos,Soria"
+  "b": "5123247,5123280,Kew Gardens,5123344,Kings Bridge,5123443,Kings Park,5123456,5123477,Kiryas Joel,5123533,Lackawanna,5123718,Lake Ronkonkoma,5123840,Latham,5124045,Laurelton,5124078,5124276"
 },
 {
     "name": "Chipilo",
@@ -119,7 +119,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "Chipilo,Puebla,Cholula,Atlixco,Huejotzingo,San Andres Cholula,San Pedro Cholula,Cuautlancingo,Tecali,Tepeaca,Amozoc,Tlaxcala"
+  "b": "2146218,2146268,2146793,Thomastown,2146827,Templestowe,2147140,Tarneit,2147357,Taree,2147381,2147497,2147714,Surry Hills,2147821,Surfers Paradise,2147849,Sunbury,2147914,Strathfield"
 },
 {
     "name": "Franco-Ontarian",
@@ -128,7 +128,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Toronto,Ottawa,Hamilton,Mississauga,Brampton,Kitchener,London,Windsor,Barrie,Sudbury,Sault Ste Marie"
+  "b": "2164691,2164771,2164837,2165087,2165171,2165200,2165290,2165329,2165478,2165798,2166143,Frankston,2166144,Footscray,2166370,Fairfield,2166952,Essendon,2167208,Epping"
 },
 {
     "name": "Frenchville French",
@@ -137,7 +137,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "BrousnStaobr,Cheukue,ToankMuund,CloyQoe,Smuag,OuthStao,Muerrey,MuekrTeyb,Kluudzoa,SmuaJiu"
+  "b": "2167279,2167280,Engadine,2167312,Eltham,2167445,Eight Mile Plains,2167651,Echuca,2167817,Eastwood,2167840,Earlwood,2167949,2168305,Doreen,2168537,Doncaster East,2168605,2168607"
 },
 {
     "name": "Joual",
@@ -146,7 +146,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint John,Miramichi,Moncton,Bathurst,Fredericton,Edmundston,Tracadie,Dieppe,Shediac,Campobello Island"
+  "b": "4900080,4900292,Logan Square,4900358,Lombard,4900373,Loves Park,4900579,Lower West Side,4900611,Machesney Park,4900801,Macomb,4900817,Matteson,4901445,4901514,McHenry,4901663,McKinley Park"
 },
 {
     "name": "Louisiana French",
@@ -155,7 +155,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "New Orleans,Baton Rouge,Shreveport,Lafayette,Lake Charles,Kenner,Bossier City,Monroe,Alexandria,Houma,New Iberia,Opelousas"
+  "b": "2171707,2171845,2171945,2172111,2172191,2172264,2172293,2172303,2172434,2172517,2172686,2172710,2172797,Caboolture,2172832,Burwood,2172995,Burnie,2173125,Bundaberg"
 },
 {
     "name": "Magoua",
@@ -164,7 +164,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "NoumÃ©a,PaÃ¯ta,Mont-Dore,DumbÃ©a,Tchamba,Lifou,Thio,Bourail,YatÃ©"
+  "b": "2947444,Bobingen,2947449,Blomberg,2947641,Blieskastel,2947739,Blasewitz,2948000,Blankenburg,2948071,Bitterfeld-Wolfen,2948164,Bingen am Rhein,2948825,Billstedt,2948917,Bietigheim-Bissingen,2949012,Biesdorf"
 },
 {
     "name": "Mexican Spanish",
@@ -173,7 +173,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mexico City,Guadalajara,Monterrey,Puebla,Ciudad JuÃ¡rez,Tijuana,LeÃ³n,Veracruz,CancÃºn,MazatlÃ¡n"
+  "b": "Bad Salzuflen,2953358,Bad Säckingen,2953363,Bad Reichenhall,2953371,Bad Rappenau,2953374,Bad Pyrmont,2953379,Bad Oldesloe,2953385,Bad Oeynhausen,2953386,Bad Neustadt an der Saale,2953389,Bad Neuenahr-Ahrweiler,2953391,Bad Nauheim,2953395"
 },
 {
     "name": "Missouri French",
@@ -182,7 +182,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint Louis,Florissant,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
+  "b": "2954602,Aue,2954695,Attendorn,2954932,Aschersleben,2955168,Ascheberg,2955224,2955272,Bad Arolsen,2955421,Arnstadt,2955439,Arnsberg,2955471,Arheilgen,2955599,Apolda,2955770"
 },
 {
     "name": "Muskrat French",
@@ -191,7 +191,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Detroit,Monroe,Frenchtown,Green Bay,Cahokia,Kaskaskia,St. Ignace,Michilimackinac,Lake St. Clair,Detroit River,Lake Erie,Monroe County,RiviÃ¨re-aux-Raisins,Navarre Trading Post,St. Louis,Ste. Genevieve,Washington,Farmington,Kirkwood,Wildwood,Eureka,Manchester,Chesterfield"
+  "b": "3274966,Filderstadt,3336891,Ostfildern,3336892,Rodgau,3336893,Gropiusstadt,3337408,Seeheim-Jugenheim,3337504,Bonn Hardtberg,6472198,Charlottenburg-Nord,6545288,Mitte,6545310,Rheinstetten,6558039,Südstadt"
 },
 {
     "name": "New England French",
@@ -200,7 +200,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lewiston,Biddeford,Woonsocket,Manchester,Lowell,Fall River,Holyoke,Worcester,Burlington,Berlin,Waterville,Augusta,Petit Canada,Saint-Jean-Baptiste,Notre-Dame-de-Lourdes,Sainte-Anne,Saint-Joseph,Saint-Louis,Saint-FranÃ§ois,Saint-Dominique"
+  "b": "2148088,Springvale,2148591,South Yarra,2148876,Southport,2148928,Shepparton,2149645,Seven Hills,2149847,2149975,Saint Kilda,2150660,Saint Ives,2150669,Saint Albans,2150717,Ryde,2150767"
 },
 {
     "name": "Newfoundland French",
@@ -209,7 +209,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cap Saint-Georges,L'Anse-aux-Canards,Maisons-d'Hiver,Grand'Terre,Trois-Cailloux,La Grand'Mare,Petit Jardin,L'Anse-Ã -Miroir,Cap-de-Nage,Lourdes,Aguathuna,Boswarlos,Port-au-Port"
+  "b": "Rowville,2150894,Rockhampton,2151437,Rockdale,2151443,Ringwood,2151576,2151649,Reservoir,2151716,Quakers Hill,2152329,2152558,Port Melbourne,2152658,Port Macquarie,2152659,Point Cook,2152819"
 },
 {
     "name": "Quebec French",
@@ -218,7 +218,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Montreal,Quebec City,Gatineau,Sherbrooke,Trois-RiviÃ¨res,Saguenay,LÃ©vis"
+  "b": "2656867,Ashton-under-Lyne,2656915,Ashton in Makerfield,2656918,Ashington,2656946,2656954,2656955,Ascot,2656992,Arnold,2657030,Arbroath,2657215,Antrim,2657255,2657324,Ampthill,2657337"
 },
 {
     "name": "Cree",
@@ -227,7 +227,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moose Factory,Attawapiskat,Fort Albany,Moosonee,Kashechewan,Wemindji,Chisasibi,Eastmain,Waskaganish,Mistissini,Waswanipi,OujÃ©-Bougoumou"
+  "b": "90026,90150,90199,90353,90532,90708,91057,91083,91597,91696,91772,Babil,91812,Ṟuwandiz,92002,Rānyah,92052,Al Qā’im,92138,Al-Hamdaniya"
 },
 {
     "name": "Ojibwe",
@@ -236,7 +236,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kenora,Thunder Bay,Sault Ste. Marie,Red Lake,Fort Frances,Dryden,Sioux Lookout,Rainy River,Nipigon,Geraldton,Manitouwadge,Marathon"
+  "b": "92430,Qal‘at Sukkar,Dhi Qar,92511,Qal‘at Şāliḩ,Maysan,92537,Qeładizê,92615,Mandalī,93709,Koysinceq,94220,Kifrī,94298,Khānaqīn,94591,94787,94824,Kelar"
 },
 {
     "name": "Yupik",
@@ -245,7 +245,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bethel,Nome,Kotzebue,Unalakleet,Hooper Bay,Chevak,Scammon Bay,St. Mary's,Marshall,Russian Mission,Akiak,Tuluksak,Quinhagak,Toksook Bay,Alakanuk,Kotlik,Mountain Village,Pilot Station,Stebbins,Savoonga"
+  "b": "95005,95446,Hīt,95788,Ḩarir,96046,96205,Ḩadīthah,96309,Soran,96961,Dihok,96994,Jamjamāl,97417,Bayjī,97783,Batifa,97825,Baqubah"
 },
 {
     "name": "Cherokee",
@@ -254,7 +254,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tahlequah,Park Hill,Stilwell,Sallisaw,Gore,Vian,Muldrow,Westville,Hulbert,Locust Grove,Salina,Jay"
+  "b": "Ash Shāmīyah,98629,Ar Ruţbah,98677,Ar Rumaythah,98685,98717,‘Aqrah,98822,An Nu‘mānīyah,98846,98854,98860,‘Anat al Qadīmah,98885,Al Qurnah,98993,Al-Qāsim,99010,Al-Musayab"
 },
 {
     "name": "Apache",
@@ -263,7 +263,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Whiteriver,San Carlos,Bylas,Cibecue,Mescalero,Dulce,Fort Apache,Peridot,Seven Mile,McNary,East Fork,Cedar Creek"
+  "b": "99039,Al Mishkhāb,99060,Al Miqdādīyah,99062,Al Mawşil al Jadīdah,99071,99072,99100,Al Maḩāwīl,99103,99106,99131,99135,99169,99226,99306,99344,99347,99350"
 },
 {
     "name": "Athabaskan",
@@ -272,7 +272,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fairbanks,Fort Yukon,Galena,Nenana,Tanana,Huslia,Hughes,Ruby,Koyukuk,Nulato,Kaltag,Shageluk"
+  "b": "99369,99434,99439,99446,99454,99532,99548,99608,99738,99759,99762,100077,Al Başrah al Qadīmah,388349,445694,Khasnahzān,446208,Khalīfān,446732,Hajiawa"
 },
 {
     "name": "Navajo",
@@ -281,7 +281,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Window Rock,Chinle,Kayenta,Tuba City,Shiprock,Gallup,Fort Defiance,St. Michaels,Crownpoint,Ganado,Lukachukai,Many Farms"
+  "b": "447022,448149,‘Anah,6765385,6871926,7802746,Simele,10303650,Shūrash,13631406,Abū al-Kahṣīb,13631407,Iran, Islamic Republic of,490,Alvand,Qazvin Province,10570,Zīr Āb,Mazandaran,11725"
 },
 {
     "name": "Achi",
@@ -290,7 +290,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rabinal,Cubulco,San Miguel Chicaj,SalamÃ¡,San JerÃ³nimo,PurulhÃ¡,Tactic,TamahÃº,TucurÃº,SenahÃº,CahabÃ³n,LanquÃ­n"
+  "b": "1863953,1863967,1863973,1863978,1863985,1863997,1864009,1864025,1864031,1864055,1864092,1864098,1864099,1864105,1864132,1864134,1864155,1864180,1864263,1864381"
 },
 {
     "name": "Afro-Seminole Creole",
@@ -299,7 +299,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Brackettville,Nacimiento de los Negros,Del Rio,Eagle Pass,Uvalde,San Antonio,Houston,Galveston,New Orleans,Mobile,Pensacola,St. Augustine"
+  "b": "Pascoe Vale,2153720,Palm Beach,2153925,Pakenham,2153953,2154219,Officer,2154481,North Melbourne,2154912,Northcote,2155001,Noble Park,2155204,2155472,Nerang,2155542,Narre Warren,2155718"
 },
 {
     "name": "Sierra Popoluca",
@@ -308,7 +308,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Soteapan,Tatahuicapa,San Pedro Soteapan,Jalapa,CuitlapÃ¡n,Popoloca,Tlacolula,MazatlÃ¡n"
+  "b": "Świerczewo,8426094,Osiedle Kosmonautów,12047617,Rejon placu Grunwaldzkiego,12047623,Rejon ulicy Traugutta,12047628,Kozanów,12047636,Rejon placu Świętego Macieja,12047644,Różanka-Polanka,12047651,Orunia Górna-Gdańsk Południe,13100477,13562332,Psie Pole,13562335,Saint Pierre and Miquelon"
 },
 {
     "name": "Tlapanec (MeÎ©â‚§Ã®phaa)",
@@ -317,7 +317,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malinaltepec,Tlapa,Ocotalpan,ZapotitlÃ¡n,Tlalcozacoyuca,Tlacoapa,Acatepec,Cualancingo,Atlixtac"
+  "b": "3424934,Pitcairn,4030723,Aguadilla,4562506,Arecibo,4562635,Barceloneta,4562768,Bayamón,4562831,Caguas,4563008,Toa Baja,4563122,4563243,Cataño,4563298,Cayey,4563308"
 },
 {
     "name": "Coast Tsimshian (SmÎ“Ã‡Ã–algyaâ• â–’x)",
@@ -326,7 +326,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Prince Rupert,Hazelton,Kitimat,Terrace,Kitselas,Klemtu,Kitsumkalum,Lax Kw'ala,Metlakatla,Hartley Bay"
+  "b": "282476,282615,Ma‘ale Adummim,282993,Janīn,283506,Idhnā,283621,Ḩalḩūl,283806,Dūrā,284011,284315,Bayt Jālā,284324,Bayt Ḩanīnā,284335,Battir,284375,Banī Na‘īm"
 },
 {
     "name": "Dakota",
@@ -335,7 +335,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pierre,Rapid City,Sioux Falls,Fargo,Chamberlain,Yankton,Grand Forks,Valley City,Bismarck,Mandan,McLaughlin"
+  "b": "2264087,2264268,Quelfes,2264269,2264299,2264359,2264428,2264456,2264508,2264526,2264575,2264718,2264736,2264923,2265169,2265223,2265326,2265428,2265432,2265447"
 },
 {
     "name": "Tabasco Zoque",
@@ -344,7 +344,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Villahermosa,CÃ¡rdenas,Comalcalco,Macuspana,Teapa,Jalpa de MÃ©ndez,CunduacÃ¡n,ParaÃ­so,Jonuta,BalancÃ¡n,Tenosique,Emiliano Zapata"
+  "b": "Ovar,2736930,Oliveira do Douro,2737039,2737523,2737824,2738014,Lordelo do Ouro,2738214,Leça do Bailio,2738347,Leça da Palmeira,2738348,Ílhavo,2738707,2738752,2738785,2738925,2739590,2739693"
 },
 {
     "name": "Chochotec",
@@ -353,7 +353,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chochotec,Zacatecas,Fresnillo,Guadalupe,Jerez,Sombrerete,Rio Grande,Vetagrande,Loreto,Villa de Cos,SaÃ­n Alto,General Enrique Estrada"
+  "b": "2739723,Fânzeres,2739756,Fafe,2739788,2739848,2739868,2739997,2740057,2740174,2740313,2740593,2740637,2740761,2741551,2741667,2741865,2742027,2742032,2742051"
 },
 {
     "name": "Cauque Mayan language",
@@ -362,7 +362,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santiago AtitlÃ¡n,San Lucas TolimÃ¡n,San Antonio PalopÃ³,San Juan La Laguna,San Pedro La Laguna,San Marcos La Laguna,Santa Catarina PalopÃ³,Santa Cruz La Laguna,Panajachel,Patulul,San JosÃ© ChacayÃ¡,Santa Clara La Laguna"
+  "b": "3018074,Fontaine,3018095,Floirac,3018246,Fleury-les-Aubrais,3018280,3018339,Firminy,3018455,Fécamp,3018794,Faches-Thumesnil,3019153,Eysines,3019193,Évry,3019256,Évreux,3019265"
 },
 {
     "name": "Pidgin Delaware",
@@ -371,7 +371,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Trenton,Princeton,New Brunswick,Bridgeton,Camden,Cape May,Atlantic City,Toms River,Vineland,Millville,Hamilton,Middletown"
+  "b": "Élancourt,3020310,Écully,3020392,Échirolles,3020495,Eaubonne,3020601,Dunkirk,3020686,3020810,Draveil,3020832,Drancy,3020839,3020850,3020996,Douai,3021000,Domont"
 },
 {
     "name": "Tâ”¼Ã©â”€Â»châ•ŸÂ½",
@@ -380,7 +380,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rae Behchoko,WhatÃ¬,GamÃ¨tÃ¬,WekweÃ¨tÃ¬,Dettah,Enterprise,Lutselk'e,Fort Smith,Yellowknife,Inuvik,Hay River,Norman Wells"
+  "b": "Crépy-en-Valois,3022569,Creil,3022610,Cran-Gevrier,3022700,3022988,Courbevoie,3023141,Coulommiers,3023240,Couëron,3023324,Coudekerque-Branche,3023356,Cormeilles-en-Parisis,3023645,Corbeil-Essonnes,3023763,Conflans-Sainte-Honorine"
 },
 {
     "name": "Cochimâ”œÂ¡",
@@ -389,7 +389,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "CochimÃ­,MulegÃ©,Loreto,Santa RosalÃ­a,Guerrero Negro,VizcaÃ­no,ComondÃº,San Ignacio,Santa Marta,San Borja,Santa Clara,Puerto Escondido"
+  "b": "3027105,3027422,3027453,3027484,3027487,Challans,3027513,Cestas,3027763,Cesson-Sévigné,3027767,Cergy,3027883,Cenon,3027950,3028134,3028263,Castelnau-le-Lez,3028337,Carvin"
 },
 {
     "name": "Cocopa",
@@ -398,7 +398,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cocopa,Somerton,Yuma,San Luis,Winterhaven,Fort Yuma,Wellton,Quartermaster Landing,Madrid,Ogilby,Imperial,El Centro"
+  "b": "5121026,Holtsville,5121163,Howard Beach,5121407,5121636,Huntington Station,5121650,Hunts Point,5121666,Irondequoit,5122331,Islip,5122413,5122432,Jackson Heights,5122477,5122520,5122534,Kenmore"
 },
 {
     "name": "Turks and Caicos Creole",
@@ -407,7 +407,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Providenciales,Cockburn Town,Grand Turk,South Caicos,Middle Caicos,North Caicos,East Caicos,Salt Cay,Turks,Caicos,Parrot Cay,Pine Cay"
+  "b": "2647227,Hazel Grove,2647246,Haywards Heath,2647248,Hayes,2647261,2647262,Haydock,2647265,Hawarden,2647303,Haverhill,2647310,Havant,2647317,2647349,2647356,Haslingden,2647363"
 },
 {
     "name": "Vincentian Creole",
@@ -416,7 +416,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Qiangaan,Sheeua,Clooayss,IottMae,IoskMae,Clooayst,OiskChio,UeskPrey,Smeoial,IettBrie"
+  "b": "Haslemere,2647365,Harwich,2647383,Hartley,2647398,Hartlepool,2647400,Harrow,2647425,Harrogate,2647428,Harpenden,2647451,2647461,Harlesden,2647468,Hanworth,2647514,Hampton"
 },
 {
     "name": "Virgin Islands Creole",
@@ -425,7 +425,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "FriiXui,ChourrFaop,Juatiuprae,ProachKluunk,Juaxiuntae,ChoukFaosn,Qiaxaantuu,TiochMaenk,Qiaaast,Muubroatruafr"
+  "b": "2647550,2647570,2647632,Halewood,2647637,2647639,2647644,Hailsham,2647655,Hadleigh,2647679,Guiseley,2647784,Guisborough,2647785,2647793,2647878,Greenwich,2647937,2647948"
 },
 {
     "name": "Jamaican Maroon Creole",
@@ -434,7 +434,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Accompong,Moore Town,Scotts Hall,Charles Town,Flagstaff,Barbecue Bottom,Trelawny,Portland,St James,Westmoreland,St Ann,St Mary"
+  "b": "Greenford,2647972,Great Yarmouth,2647984,Great Wyrley,2647985,Great Sankey,2648026,Great Malvern,2648063,Grays,2648182,Gravesend,2648187,2648208,Grangemouth,2648215,Gosport,2648272,Gosforth"
 },
 {
     "name": "Aleut",
@@ -443,7 +443,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Unalaska,Dutch Harbor,Kodiak,Aleutian Islands,Adak,Atka,Umak,Cold Bay,Sand Point,King Cove,Port Heiden,Umnak"
+  "b": "2649198,Folkestone,2649258,Flint,2649301,2649312,Fleet,2649322,Finchley,2649441,Feltham,2649571,Felling,2649578,Felixstowe,2649579,Fazakerley,2649610,Faversham,2649622"
 },
 {
     "name": "Broken Oghibbeway",
@@ -452,7 +452,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Broken Oghibbeway,Mississauga,Toronto,Lake Ontario,Niagara,Ontario,Canada,Iroquois,Huron"
+  "b": "2301639,2302002,2302357,2302541,2302821,2303026,Western North,2303060,2303125,2303224,2303236,2303258,2303287,2303611,2303789,2303878,2304121,2304220,2304389,2304421"
 },
 {
     "name": "Broken Slavey",
@@ -461,7 +461,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Broken Slavey,Fort Simpson,Fort Liard,Fort Nelson,Inuvik,Tuktoyaktuk,Mackenzie,Yellowknife,Northwest Territories,Canada"
+  "b": "2304548,2304848,2304931,2305191,2305537,Aflao,2305677,2306079,2306104,2306119,7281088,7648641,8456972,8457205,8541923,11205476,11428216,11467879,11808941,12640505"
 },
 {
     "name": "Chol",
@@ -470,7 +470,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chol,TumbalÃ¡,Palenque,CatazajÃ¡,Salto de Agua,Mexico,Chiapas,Tabasco,Maya Region"
+  "b": "3589475,3589548,3589626,3589643,San Pedro Ayampuc,3589646,3589671,3589805,3589822,3589852,3589885,3589977,3590197,3590219,3590288,3590316,3590389,3590406,3590520,3590529"
 },
 {
     "name": "Cahuilla",
@@ -479,7 +479,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cahuilla,Palm Springs,Palm Desert,Indio,Coachella,Desert Hot Springs,Thousand Palms,Rancho Mirage,California"
+  "b": "3590605,3590616,3590858,3590924,3590979,3591060,Izabal Department,3591062,3591093,3591181,3591415,3591512,3591523,3591541,3591676,3591833,3591851,3591997,3592105,3592237"
 },
 {
     "name": "Huastec",
@@ -488,7 +488,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huastec,Tampico,Ciudad Victoria,Veracruz,East Mexico,Huasteca Region,PÃ¡nuco,Tantoyuca,Tamazunchale"
+  "b": "3598529,3598572,3598655,3598678,3599069,3599287,Barberena,3599582,Asunción Mita,3599639,3599699,Amatitlán,3599735,Alotenango,3599788,Tamuning-Tumon-Harmon Village,4038659,Yigo Village,4038794,Dededo Village"
 },
 {
     "name": "Central Zapotec",
@@ -497,7 +497,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zapotec,Oaxaca City,Mitla,Tlacolula,Zaachila,Mexico,Chiapas,Oaxaca,Mesoamerica"
+  "b": "3047211,Naphegy,3047450,3047651,3047679,Mosonmagyaróvár,3047896,3047942,3047967,Mátyásföld,3048274,Lágymányos,3049022,3049512,3049519,Kőbánya,3049646,Kispest,3049795,Kiskunhalas"
 },
 {
     "name": "Mazatec",
@@ -506,7 +506,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mazatec,Huatla de JimÃ©nez,TeotitlÃ¡n de Flores MagÃ³n,MazatlÃ¡n,Ayautla,Oaxaca,Mexico"
+  "b": "Budapest XXI. kerület,7284839,Budapest XX. kerület,7284840,Budapest XVII. kerület,7284841,Budapest III. kerület,7284842,Budapest II. kerület,7284843,Budapest I. kerület,7284844,Józsefváros,11054704,Csepel-Királyerdő,12503655,Csepel-Csillagtelep,12749851,Középső-Ferencváros,12749860"
 },
 {
     "name": "Chinook Jargon",
@@ -515,7 +515,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chinook Jargon,Portland,Seattle,Vancouver,Columbia River,Oregon,Washington,USA,Canada,Pacific Northwest"
+  "b": "293969,Ofaqim,293992,Netivot,294068,294071,Ness Ziona,294074,Nesher,294078,Naẕerat ‘Illit,294097,294098,Nahariyya,294117,Migdal Ha‘Emeq,294210,Mevasseret Tsiyyon,294245,Majd el Kurūm"
 },
 {
     "name": "Cholti Classic",
@@ -524,7 +524,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chichicastenango,Quetzaltenango,Antigua Guatemala,Guatemala City,Tikal,Copan,Flores,Peten,Mixco,Villa Nueva,San Miguel,Pachaj,San Pedro,Santiago,San Juan,San Bartolo,Yaxha,El Zotz,Cahal Pech,Lamanai,Xcaret,Coba"
+  "b": "295130,Er Reina,295174,Eilat,295277,Dimona,295328,Daliyat al Karmel,295365,Binyamina-Giv‘at ‘Ada,295410,Bet Shemesh,295432,Bet She’an,295435,295514,Be’er Ya‘aqov,295525,295530,Bat Yam"
 },
 {
     "name": "Chorotega",
@@ -533,7 +533,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chorotega,Guancaste,Nicoya,Liberia,Costa Rica,Managua,Granada,Nicaragua"
+  "b": "1253286,Vellakkovil,1253296,Vejalpur,1253315,Vedaraniyam,1253330,Vayalār,1253340,Vattalkundu,1253352,Vāsudevanallūr,1253357,Vasind,1253363,1253367,Vaso,1253374,Varkala,1253392"
 },
 {
     "name": "Chicomuceltec",
@@ -542,7 +542,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "ComitÃ¡n,Trinitaria,La Independencia,Francisco LeÃ³n,Socoltenango,Huehuetenango,Guatemala,Maya Region,Central America"
+  "b": "Sopur,1255714,Sonkach,1255743,Sonīpat,1255744,Songadh,1255762,1255763,Sonpet,1255764,Rajpur Sonarpur,1255783,1255788,Sonāmukhi,1255792,Sompeta,1255816,Someshwar,1255823"
 },
 {
     "name": "Eskimo Trade Jargon",
@@ -551,7 +551,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eskimo Trade Jargon,Arctic,Inuit,Greenland,Canada,North America,Alaska"
+  "b": "Khatauli,1266849,Khārupatia,1266862,Kharsia,1266872,Kharkhauda,1266891,Kharhiāl,1266924,Khargone,1266928,Khardah,1266945,Kharar,1266960,Kharakvasla,1266966,1266975,1266976"
 },
 {
     "name": "Greenlandic",
@@ -560,7 +560,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Maniitsoq,Narsaq,Paamiut,Tasiilaq,Ittoqqortoormiit,Uummannaq,Upernavik,Nanortalik,Qasigiannguit,Qeqertarsuaq,Kangerlussuaq,Qeqertarsuatsiaat,Kullorsuaq,Savissivik,Illoqqortoormiut,Paris,Lyon,Marseille,Toulouse,Nice"
+  "b": "Jadcherla,1269625,1269633,Etmadpur,1269646,Itārsi,1269653,1269655,Islāmpur,1269665,1269666,Islāmnagar,1269670,Irugūr,1269690,Irinjālakuda,1269693,Iringal,1269694,Malda"
 },
 {
     "name": "Gullah",
@@ -569,7 +569,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Charleston,Savannah,Sea Islands,Georgetown,Beaufort,Low Country,Gullah Geechee,USA,Southeast Coast"
+  "b": "1273265,Denkanikota,1273272,Delhi Cantonment,1273292,1273294,1273313,Davorlim,1273367,Davangere,1273368,1273369,Daund,1273374,Daudnagar,1273390,Dattāpur,1273397,Datia,1273403"
 },
 {
     "name": "Isthmus Zapotec",
@@ -578,7 +578,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "JuchitÃ¡n de Zaragoza,Tehuantepec,Salina Cruz,Ixtepec,UniÃ³n Hidalgo,Espinal,Ixtaltepec,San Blas Atempa"
+  "b": "Karjan,8477241,8504418,8541454,Jalandhar Cantonment,8541484,Kagaznāgār,8541672,Prāntij,8541964,Kirandul,8581647,Nedumbassery,8618019,Ganaur,8629543,8629640,Shiraguppi,8714565,Gadag-Betageri"
 },
 {
     "name": "Itza",
@@ -587,7 +587,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San JosÃ©,Flores,Santa Elena,San Benito,SayaxchÃ©,PoptÃºn,Melchor de Mencos,La Libertad,Dolores,San Luis"
+  "b": "8741053,Lateri,8741091,V.S.K.Valasai (Dindigul-Dist.),8948694,Dhamanagar,9035005,9036524,Joda,9063948,Kadodara,9072777,9072827,Maithon,9161141,Neelankarai,9212568,Injambakkam,9212569,Palavakkam"
 },
 {
     "name": "Akatek",
@@ -596,7 +596,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Miguel AcatÃ¡n,San Rafael La Independencia,NentÃ³n,Jacaltenango,ConcepciÃ³n Huista,PetatÃ¡n,San Antonio Huista,Santa Ana Huista,Todos Santos CuchumatÃ¡n,Huehuetenango,Chiantla,AguacatÃ¡n"
+  "b": "6822144,6822146,6822147,6822148,6822149,6822152,6822153,6822154,6822155,6822158,6822159,6822161,6822162,6822163,6822164,6822165,6822167,6822168,6822169,6822170"
 },
 {
     "name": "Lakota",
@@ -605,7 +605,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pine Ridge,Rapid City,Chamberlain,Mobridge,Mitchell,Pierre,Yankton,Sioux Falls,Watertown,Aberdeen"
+  "b": "1239047,1239593,1240622,1240723,1240935,Uva Province,1241076,1241622,1241750,1241964,1242110,1242833,1242835,1243936,1244397,1244596,1244773,1244926,1246000,1246294"
 },
 {
     "name": "Qeqchi",
@@ -614,7 +614,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Coban,Raxruha,Chisec,Fray-Bartolome,San-Pedro-Carcha,San-Cristobal-Verapaz,Tactic,Tamahu,Panzos,Senahu,Lanquin,Chahal,El-Estor,La-Tinta,Santa-Cruz-Verapaz,Frayba"
+  "b": "7797211,7797910,7798288,7858022,7858028,8504423,10063567,Putra Heights,10792382,10941913,Bukit Bintang,11054399,Bandar Sunway,11054411,Bandar Puncak Alam,11429145,Kota Damansara,12514556,Damansara Damai,12514620"
 },
 {
     "name": "Kiche",
@@ -623,7 +623,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Quetzaltenango,Totonicapan,Momostenango,Santa-Cruz-del-Quiche,Joyabaj,Chichicastenango,Nahuala,San-Andres-Xecul,Salcaja,San-Cristobal-Totonicapan,San-Francisco-El-Alto,Chicaman,Pachalum,Patzite,Canilla,Zunil,Sibilia"
+  "b": "12534340,Bandar Sri Damansara,12535033,12547009,Taman Petaling,12557764,12622018,Denai Alam,12625525,Tropicana Indah,12625526,Taman Greenwood,12648574,Taman Melati,12680194,Ara Damansara,12746668,Desa Parkcity,12746672,Kampung Setia"
 },
 {
     "name": "Yucatec-Maya",
@@ -632,7 +632,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Merida,Valladolid,Tizimin,Izamal,Progreso,Chemax,Tekom,Peto,Oxkutzcab,Ticul,Tekax,Maxcanu,UmÃ¡n,Muna,Tinum,Homun,Hoctun,Acanceh,Temozon,Chichimila"
+  "b": "12746683,Mont Kiara,12750571,Taman OUG,12750572,Taman Tun Dr Ismail,12750574,Bangsar,12750575,Seremban 2,12750582,12750583,12750606,12750607,12750614,12750617,12750644,12750652,12750654,13061022"
 },
 {
     "name": "Qanjobal",
@@ -641,7 +641,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa-Eulalia,San-Juan-Ixcoy,San-Pedro-Solon,Soloma,San-Rafael-La-Independencia,San-Miguel-AcatÃ¡n,San-Sebastian-Coatan,Barillas,Nenton,Jacaltenango"
+  "b": "13118224,Bukit Rahman Putra,13118225,Setia Tropika,13118228,Bandar Tasik Puteri,13118229,Desa Petaling,13118230,Bukit Kerinchi,13118231,Titiwangsa,13118233,Horizon Hills,13118269,Bandar Putra Kulai,13118270,Taman Scientex,13118271,Bandar Seri Alam"
 },
 {
     "name": "Southern-Quechua",
@@ -650,7 +650,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Cusco,Ayacucho,Puno,Andahuaylas,Abancay,Huancavelica,Juliaca,Sicuani,Quillabamba,Urubamba,Calca,Anta,Espinar,Ilave,Moho"
+  "b": "13118272,FELDA Chini,13118274,Bandar Baru Salak Tinggi,13118276,Bandar Utama,13118277,Bukit Jalil,13118362,Taman Desa,13118381,Gaza Province,1024552,Sofala,1024680,1024683,1024685,1024687,1024692,Zambezia Province"
 },
 {
     "name": "Salish",
@@ -659,7 +659,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Spokane,Colville,Nespelem,Inchelium,Omak,Okanogan,Kamloops,Chilliwack,Hope,Abbotsford,Coquitlam,Sechelt,Squamish,Nanaimo,Duncan,Courtenay,Campbell River,Bellingham,Everett,Skagit"
+  "b": "2346561,Buguma,2346615,2346812,Bode Saadu,2346951,2346995,Birnin Kudu,2347057,2347059,Sofo-Birnin-Gwari,2347061,Biliri,2347155,2347209,2347283,Bende,2347303,2347330,2347470"
 },
 {
     "name": "Innu",
@@ -668,7 +668,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Sheshatshiu,Natuashish,Maliotenam,Uashat,Matimekush,Lac-John,Ekuanitshit,Pessamit,Essipit,Unamen Shipu,La Romaine,Mingan,Schefferville,Sept-Iles,Baie-Comeau,Forestville,Port-Cartier,Chute-aux-Outardes,Longue-Pointe-de-Mingan,Havre-Saint-Pierre"
+  "b": "Nelson Region,2182311,Rolleston,2183310,Tasman District,2183472,Pukekohe East,2184155,2184397,2184904,Palmerston North,2185018,North Shore,2185964,New Plymouth,Taranaki Region,2186239,2186280,Napier,Hawke's Bay Region"
 },
 {
     "name": "Spanglish (dedicated)",
@@ -677,7 +677,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Miami,Los Angeles,New York,Chicago,San Antonio,El Paso,San Diego,Orlando,Houston,Dallas,San Juan,Havana,Tijuana,Monterrey,Guadalajara,Panama City,Santo Domingo,Caracas,Bogotá,Medellín,Lima,Madrid,Barcelona"
+  "b": "231848,Katabi,231954,Kasozi,231990,232066,Kasanje,232107,Kasangati,232110,Kasanda,232115,Kasambya,232137,Kasaali,232146,232235,232287,232371,232397"
 },
 {
     "name": "Anguillian Creole (dedicated)",
@@ -686,7 +686,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "The Valley,Blowing Point,East End,George Hill,Island Harbour,North Hill,North Side,Sandy Ground,Sandy Hill,South Hill,Stoney Ground,The Farrington,The Quarter,West End"
+  "b": "Jinhu,Fukien,1675170,Xiluo,1675232,1675281,1675393,1676242,1676682,Erlin,1676914,Zhudong,1677053,1677099,1677112,1678008,1678228,Chiayi City,1678836,1679047"
 },
 {
     "name": "Bahamian Creole (dedicated)",
@@ -695,7 +695,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Nassau,Freeport,Marsh Harbour,Andros Town,Arthur's Town,Clarence Town,Dunmore Town,George Town,Alice Town,Sweeting Cay,Matthew Town,Nicholls Town,Colonel Hill,Pirates Well,Port Nelson,Duncan Town,Albert Town,Snug Corner,Cockburn Town"
+  "b": "1679136,1993459,6696918,Zhongxing New Village,7601921,New Taipei City,12908892,Tanzania, United Republic of,Zanzibar Urban/West,148730,Wete,Pemba North,148842,Vwawa,Songwe,148942,Vikindu,148987,Uyovu,149027"
 },
 {
     "name": "Bajan Creole (dedicated)",
@@ -704,7 +704,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bridgetown,Speightstown,Holetown,Oistins,Hastings,Worthing,Crab Hill,Black Rock,Belle,St. Lawrence,Scarborough,Maxwell,Newton Terrace,Rockley,Welches,Wotton,Chancery Lane,Clapham"
+  "b": "Uvinza,149050,Utengule,149072,Ushirombo,149129,Usevia,149132,Usangi,149143,Usagara,149151,Usa River,149155,Urunda,149158,Urambo,149172,149402,149418"
 },
 {
     "name": "Belizean Creole (dedicated)",
@@ -713,7 +713,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Belize City,Belmopan,San Ignacio,Orange Walk,Punta Gorda,Dangriga,Corozal Town,Benque Viejo del Carmen,San Pedro,Placencia,Crooked Tree,Gales Point,Monkey River Town,Roaring Creek,Bermudian Landing,Graceville"
+  "b": "Tukuyu,149437,Tinde,149512,149581,149606,149658,Rukwa,149703,Songwa,149775,Somanda,Simiyu,149792,Sokoni,Zanzibar Central/South,149812,Sirari,149854,149879"
 },
 {
     "name": "Bocas del Toro Creole (dedicated)",
@@ -722,7 +722,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bocas Town,Bastimentos,Carenero,Almirante,Changuinola,Cauchero,Tierra Oscura,Punta Laurel,Isla Popa,Red Frog,Quebrada de Sal,Bahia Honda,Old Bank,Big Creek,Boca Del Drago"
+  "b": "Sikonge,149929,149996,150006,Shelui,150037,Shanwa,150044,Sepuka,150099,Sengerema,150103,150276,Rulenge,150436,Rujewa,150453,Puma,150634,Old Shinyanga"
 },
 {
     "name": "Grenadian Creole English (dedicated)",
@@ -731,7 +731,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "St. George's,Grenville,Gouyave,Sauteurs,Victoria,St. David's,Hillsborough,Grand Anse,Westerhall,Tivoli,Springs,True Blue,Upper La Tante,Lower La Tante,Industry,Sugar Loaf,Syracuse"
+  "b": "691650,Telychka,691743,Siverskodonetsk,691999,Svitlovodsk,692087,Dovzhansk,692105,Svatove,692118,692129,692194,Sukhodilsk,692254,Sudak,692315,Stryi,692372,Stebnyk"
 },
 {
     "name": "Leeward Caribbean Creole English (dedicated)",
@@ -740,7 +740,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "St. John's,Basseterre,The Valley,Brades,St. Peter's,St. George's,Falmouth,Parham,English Harbour,Dickenson Bay,Codrington,Swetes,Piggotts,All Saints,St. Johnston,Willikies,Bolans,Cedar Grove"
+  "b": "692632,Starokostyantyniv,692818,Starobilsk,692832,Stara Darnytsya,692909,Kadiyivka,692975,Sotsmisto,693065,Sokal,693301,Snizhne,693381,Smila,693457,Slovyansk,693468,Slavuta"
 },
 {
     "name": "Limonese Creole (dedicated)",
@@ -749,7 +749,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Puerto Limón,Cahuita,Puerto Viejo,Talamanca,Siquirres,Guápiles,Matina,Battan,Estrella,Cariari,Colorado,Guácimo,Pococí,Jiménez,Roxana,La Rita,Cariari,Gandoca"
+  "b": "693581,Skvyra,693615,Skadovsk,693709,Synelnykove,693796,Simferopol,693805,Sykhiv,693821,Shpola,693920,693942,Shepetivka,694216,Shakhtarsk,694382,Sevastopol,Sevastopol City"
 },
 {
     "name": "Miskito Coast Creole (dedicated)",
@@ -758,7 +758,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bluefields,Puerto Cabezas,Bilwi,Pearl Lagoon,Corn Islands,Prinzapolka,Siuna,Bonanza,Rosita,Haulover,Kakabila,Marshall Point,Orinoco,La Fe,Raitipura,Brown Bank,Tasbapauni,Wawashan"
+  "b": "694423,Selydove,694677,Sarny,694792,Sambir,694864,694910,Rubizhne,695274,Rozdilna,695344,Kurakhove,695357,Rovenky,695379,Romny,695464,695594,695859"
 },
 {
     "name": "Montserrat Creole (dedicated)",
@@ -767,7 +767,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Brades,Salem,Lookout,Little Bay,St. John's,St. Peter's,Olveston,Davy Hill,Cudjoe Head,Baker Hill,Carr's Bay,Woodlands,Flemmings,Gerald's,Hope,Jack Boy Hill,Katy Hill,Sweeney's,Yellow Hill"
+  "b": "Radomyshl,695912,Pyatykhatky,695965,Pryluky,Chernihiv Oblast,696108,Popasna,696566,696643,Polonne,696660,Polohy,696677,Podil,696877,Pidhorodnye,696943,697302,697488"
 },
 {
     "name": "Rama Cay Creole (dedicated)",
@@ -776,7 +776,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Rama Cay,Bluefields,Pearl Lagoon,Corn Islands,Prinzapolka,Krukira,Desembocadura de Río Grande,Karawala,Sandy Bay,La Esperanza,La Barra,Walpa"
+  "b": "697576,697592,697593,697616,697637,697650,697771,697889,698131,698436,698625,698709,698740,698782,698874,699035,699078,699445,699553,699753"
 },
 {
     "name": "Saint Kitts Creole (dedicated)",
@@ -785,7 +785,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Basseterre,Sandy Point Town,Challengers,Cayon,Dieppe Bay Town,Old Road Town,St. Paul's,St. Anne's,St. Thomas,Mansion,Harris,Fig Tree,St. Mary's,Christ Church Nichola Town,St. George's,St. James',St. John's,St. Peter's"
+  "b": "699839,699871,699942,700022,700051,Netishyn,700261,Nadvirna,700507,Mykolayiv,700569,700646,Mostyska,700696,Otamanivka,700829,Mohyliv-Podilskyy,700918,Myrhorod,701075"
 },
 {
     "name": "Tobagonian Creole (dedicated)",
@@ -794,7 +794,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Scarborough,Plymouth,Black Rock,Crown Point,Castara,Speyside,Goodwood,Moriah,Roxborough,Parlatuvier,Charlotteville,Mason Hall,Patience Hill,Bethel,Mount St. George,L'Anse Fourmi,Canaan,Bacolet"
+  "b": "Merefa,701347,701404,Masany,701643,701822,Marhanets,701855,Malyn,702116,Makiyivka,702320,Liubotyn,702417,702550,Lutuhyne,702563,702569,702658,Lubny"
 },
 {
     "name": "Trinidadian Creole (dedicated)",
@@ -803,7 +803,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Port of Spain,San Fernando,Chaguanas,Arima,Sangre Grande,Couva,Point Fortin,Princes Town,Diego Martin,Marabella,Tunapuna,St. Joseph,Arouca,Barataria,Curepe,St. Augustine,Laventille,Carenage"
+  "b": "702723,Lozova,702760,Lysychansk,702972,Ladyzhyn,703428,703448,Kupyansk,703656,703845,703853,704000,704138,704143,704147,704202,704204,704362,704388"
 },
 {
     "name": "Turks and Caicos Creole (dedicated)",
@@ -812,7 +812,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Cockburn Town,Grand Turk,South Caicos,Middle Caicos,North Caicos,East Caicos,Salt Cay,Providenciales,Wheeland,Blue Hills,The Bight,Leeward,Long Bay,Bottle Creek,Kew,Whitby,Bamboo Settlement"
+  "b": "704403,704422,704492,704508,704608,704617,704670,704679,704737,704858,704885,704901,Kostyantynivka,705104,705135,Slobozhanske,705183,Kolomyia,705392,Khrestivka"
 },
 {
     "name": "Vincentian Creole (dedicated)",
@@ -821,7 +821,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Kingstown,Georgetown,Byera Village,Layou,Barrouallie,Chateaubelair,Biabou,Owia,Calliaqua,Stubbs,Villa,Prospect,Richmond,Park Hill,Diamond,New Kingstown,Arnos Vale,Stubbs,Calder"
+  "b": "705797,Holubivka,705809,Kropyvnytskyi,705812,Kiliya,705883,706165,706369,Khmilnyk,706380,706448,Khartsyzk,706466,706483,Khanzhonkove,706488,Kerch,706524,Kozyatyn"
 },
 {
     "name": "Virgin Islands Creole (dedicated)",
@@ -830,7 +830,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Coral Bay,Red Hook,Bolongo,St. Thomas,St. Croix,St. John,Tortola,Virgin Gorda,Anegada,Jost Van Dyke,Road Town,Spanish Town,East End,West End"
+  "b": "706571,Kaniv,706900,Kamyanets-Podilskyi,706950,Kalush,707099,Kalynivka,707155,Kakhovka,707244,Izyum,707292,Iziaslav,707296,Izmayil,707308,707471,Irpin,707565"
 },
 {
     "name": "Jamaican Maroon Creole (dedicated)",
@@ -839,7 +839,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Accompong,Moore Town,Charles Town,Scott's Hall,Trelawny,Portland,St. James,Westmoreland,St. Ann,St. Elizabeth,Manchester,Clarendon,St. Catherine,St. Mary,St. Thomas,Kingston,Spanish Town"
+  "b": "Inhulets,707601,Ilovays’k,707679,Chornomors’k,707688,Horodok,707752,Horlivka,707753,Hlukhiv,707758,Hostomel,708251,708313,Henichesk,708878,Haysyn,708901,Hadyach"
 },
 {
     "name": "Algonquian-Basque pidgin (dedicated)",
@@ -848,7 +848,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Quebec City,Tadoussac,Saguenay,Trois-Rivières,Montreal,Sept-Îles,Gaspé,Percé,Bonaventure,Carleton-sur-Mer,Rimouski,Rivière-du-Loup"
+  "b": "7628416,Sultanbeyli,7628419,Sancaktepe,7628420,Karabağlar,7701384,İncirli,7926667,Oba,8068982,Cikcilli,8069036,Muratpaşa,8074174,Çubuklu,8623183,9888776,Bostanlı,9888792"
 },
 {
     "name": "Almosan (dedicated)",
@@ -857,7 +857,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Plymouth,Boston,Providence,Hartford,Albany,Philadelphia,Jamestown,Williamsburg,Charleston,Savannah,New Amsterdam,Fort Orange,Deerfield,Hadley,Springfield"
+  "b": "Şemikler,9888806,Nilüfer,10346824,Merkezefendi,11238838,Altınşehir,13591680,Trinidad and Tobago,Tunapuna/Piarco,3573576,Tobago,3573703,Sangre Grande Regional Corporation,3573732,3573738,Mayaro,3573840,3573890,3573899"
 },
 {
     "name": "American Indian Pidgin English (dedicated)",
@@ -866,7 +866,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Plymouth,Boston,Providence,Hartford,Albany,Philadelphia,Jamestown,Williamsburg,Charleston,Savannah,New Amsterdam,Fort Orange,Deerfield,Hadley,Springfield"
+  "b": "1665491,1665892,Citong,1666323,Donggang,1666596,Caotun,1666855,Toufen,1667027,Tianwei,1667121,1667471,1667982,1668295,1668341,Taibao,1668347,Xinying,1668353"
 },
 {
     "name": "Jersey Dutch (dedicated)",
@@ -875,7 +875,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Bergen,Hoboken,Jersey City,Newark,Paterson,Elizabeth,New Brunswick,Princeton,Morristown,Somerville,Hackensack,Ridgewood,Mahwah,Ramsey,Wyckoff,Franklin Lakes,Oakland"
+  "b": "226267,Rutoma,Western Region,226554,226600,226690,226823,226835,226853,Nyahuka,227525,Nyachera,227528,227592,227593,227812,227843,227904,228094,Namayumba"
 },
 {
     "name": "Inuktitut-English Pidgin (dedicated)",
@@ -884,7 +884,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iqaluit,Arviat,Rankin Inlet,Baker Lake,Cambridge Bay,Pangnirtung,Kugluktuk,Pond Inlet,Cape Dorset,Gjoa Haven"
+  "b": "1278895,Amarpātan,1278899,Ambarnath,1278903,1278931,Amalāpuram,1278935,Alwaye,1278941,1278946,1278964,1278969,1278973,1278974,Allinagaram,1278983,1278985,Prayagraj,1278994"
 },
 {
     "name": "Labrador Inuit Pidgin French (dedicated)",
@@ -893,7 +893,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "St. John's,Corner Brook,Gander,Grand Falls-Windsor,Happy Valley-Goose Bay,Labrador City,Wabush,Port aux Basques,Marystown,Carbonear"
+  "b": "Savannakhet Province,1653316,Champasak Province,1654379,1655078,1655087,Loungnamtha,1655107,Muang Phônsavan,Xiangkhoang,1655123,Pakxan,1655140,Khammouane Province,1655199,Luang Prabang Province,1655559,Borikhan,1657897,Ban Xénô"
 },
 {
     "name": "Nahuatl",
@@ -902,7 +902,7 @@ window.northAmericaNameBases = [
   "max": 13,
   "d": "l",
   "m": 0,
-  "b": "Criiuigr,YeamFleuch,Gauswollu,GreuskThuek,NoKhe,Gaurogu,YeattFleusp,Criiui,Flaobouskoe,RieskSniek"
+  "b": "3184271,3184497,Patos Fshat,Fier County,3184517,Patos,3184518,Lushnjë,3184862,Lezhë,Lezhe County,3184935,Kuçovë,Berat County,3185060,Krujë,3185082,Kavajë,3185211,Fushë-Krujë"
 },
 {
     "name": "Seri",
@@ -911,7 +911,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Punta Chueca,El Desemboque,Bahia Kino,Bahia de Kino,Hermosillo,Guaymas,Empalme,Puerto Libertad,Puerto Peâ”œâ–’asco,Bahâ”œÂ¡a La Choya,La Cholla,Kino Nuevo,Pitiquito,Caborca,Altar,Santa Ana,Magdalena de Kino,Imuris,San Carlos,Bahâ”œÂ¡a San Carlos,Ortiz,Pesqueira"
+  "b": "Calgary,5913490,5913695,5914132,Camrose,5914653,Candiac,5914826,Cariboo,5916896,Cartierville,5917781,Central Saanich,5919137,Centretown,5919248,Chambly,5919566,5920288,Châteauguay"
 },
 {
     "name": "Huave",
@@ -920,7 +920,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Mateo del Mar,San Dionisio del Mar,San Francisco del Mar,Santa Maria del Mar,Tehuantepec,Santo Domingo Tehuantepec,Salina Cruz,Juchitan de Zaragoza,Juchitan,Union Hidalgo,San Blas Atempa,San Pedro Huamelula,San Pedro Tapanatepec,Chahuites,San Francisco Ixhuatan,Asuncion Ixtaltepec,Matias Romero,Tonala,Arriaga"
+  "b": "East Moline,4890536,East Peoria,4890549,4890701,4890864,Elk Grove Village,4890925,Elmhurst,4891010,Elmwood Park,4891051,Englewood,4891176,4891382,Evergreen Park,4891431,4893037,Franklin Park,4893070"
 },
 {
     "name": "Chuj",
@@ -929,7 +929,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huehuetenango,San Mateo Ixtatan,Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Barillas,Nenton,San Sebastian Coatan,Santa Cruz Barillas,Jacaltenango,La Democracia,Chiantla,San Mateo IxtatÃ¡n,San SebastiÃ¡n CoatÃ¡n,NentÃ³n,Cantinil,San Juan Soloma,San Rafael La Independencia,San Miguel AcatÃ¡n,ConcepciÃ³n Huista"
+  "b": "3448877,3448879,3448892,3448902,3448903,3448906,3449045,3449053,3449055,3449056,3449099,3449102,3449112,3449116,3449121,3449124,3449176,3449194,3449195,3449219"
 },
 {
     "name": "Ch'orti'",
@@ -938,7 +938,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chiquimula,Jocotan,Camotan,Olopa,Esquipulas,Ipala,Quezaltepeque,Zacapa,Rio Hondo,San Jacinto,La Union,San Juan Ermita"
+  "b": "2620425,Helsingør,2620473,Hedensted,2620583,Haderslev,2620964,Greve,2621215,Glostrup,2621356,Frederikssund,2621912,Frederikshavn,2621927,Frederiksberg,2621942,Fredericia,2621951,Farum"
 },
 {
     "name": "Inuktitut",
@@ -947,7 +947,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Cambridge Bay,Kugluktuk,Gjoa Haven,Taloyoak,Panniqtuuq,Igloolik,Pond Inlet,Cape Dorset"
+  "b": "3559318,3559416,3562827,3562895,3563145,3563317,3563504,3563559,3563609,3563843,3563856,3563908,3564084,3564114,3564124,3564178,3564394,3564436,3564885,3565432"
 },
 {
     "name": "Awakatek",
@@ -956,7 +956,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "AguacatÃ¡n,Huehuetenango,Chiantla,Malacatancito,Cuilco,NentÃ³n,San SebastiÃ¡n CoatÃ¡n,Soloma,IxtahuacÃ¡n,Todos Santos CuchumatÃ¡n,San Juan Ixcoy,San Miguel AcatÃ¡n"
+  "b": "Narangba,2155787,Muswellbrook,2156034,Mulgrave,2156340,Mount Waverley,2156492,Mount Martha,2156578,Mount Gambier,2156643,Mount Eliza,2156663,Mount Druitt,2156671,Mosman,2156813,Mornington,2156878"
 },
 {
     "name": "Cuicatec",
@@ -965,7 +965,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Teutila,Tepeuxila,San Lucas Ojitlâ”œÃ­n,San Pedro Teutila,San Juan Tepeuxila,Oaxaca,Tuxtepec,Papaloapan,Cuicatlâ”œÃ­n,Caâ”œâ–’ada Region,Caâ”œâ–’ada,Ojitlâ”œÃ­n,Cuicatec,Mixtecan"
+  "b": "3519907,3520064,3520235,3520271,3520274,3520339,Reforma,3520407,3520994,3521051,3521081,3521103,3521108,3521168,3521305,3521342,3521476,3521596,3521628,3521912"
 },
 {
     "name": "Ahtna",
@@ -974,7 +974,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gulkana,Gakona,Tazlina,Copper Center,Chitina,Cantwell,Mentasta Lake,Chistochina,Kenny Lake,Glennallen,Paxson,Slana"
+  "b": "3996893,3996910,Madera,3996956,Los Reyes de Salgado,3997211,Los Mochis,3997479,3998291,León de los Aldama,3998655,Las Pintas de Arriba,3999325,4000821,4000900,4001056,4002224,4002745,4003526,4003662"
 },
 {
     "name": "Amuzgo",
@@ -983,7 +983,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Pinotepa,Cuajinicuilapa,SanLuisAcatlan,Ayutla,Cualac,Huamuxtitlan,Tepecoacuilco,Taxco,Iguala"
+  "b": "8299649,Ayala Alabang,8335226,Banco Filipino Homes,8534157,10628881,General Salipada K. Pendatun,13060471,Bagong Silang,13060482,Al-Barka,13118057,13118244,1106880,Chuhar Jamali,1108161,Azad Kashmir,1161983,Pir Jo Goth,1161991"
 },
 {
     "name": "Paipai",
@@ -992,7 +992,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Catarina,Quitovac,San Miguel,MisiÃ³n San Javier,Chihuahua,San Ignacio,Terry,Cucurpe,Caborca,Pitiquito"
+  "b": "Fajardo,4564946,Guayama,4565105,4565119,4565564,4566002,Manati,4566137,Mayagueez,4566385,4566880,4568127,4568451,4568533,4568917,Palestine, State of,281102,281109,281124"
 },
 {
     "name": "Crow",
@@ -1001,7 +1001,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Billings,Lodge Grass,Big Horn,Crow Agency,Pryor,Hardin,Laurel,Busby,Bighorn,St Xavier,Rosebud,Lame Deer"
+  "b": "2265464,2265467,2265726,2265788,2265927,2266249,2266319,2266621,2266629,2266703,Lumiar,2266940,Loures,2266977,Loulé,2266988,2267057,Linda-a-Velha,2267067,2267095"
 },
 {
     "name": "Mixe",
@@ -1010,7 +1010,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Totontepec,Mitla,Tlahuitoltepec,Tamazulapan,Tepelmeme,San Juan Guichicovi,San Juan Mixtepec,San Agustin Loxicha,San Juan Colorado,San Miguel Tilquiapan,San Pablo Huixtepec,San Mateo Penasco"
+  "b": "São Mamede de Infesta,2734434,São João da Madeira,2734484,Santo Ovídio,2734576,Santo António dos Olivais,2734585,2735083,Ribeira de Frades,2735175,Póvoa de Varzim,2735787,2735943,Ponte de Lima,2736041,2736521,2736657,Paranhos,2736680"
 },
 {
     "name": "Ixcatec",
@@ -1019,7 +1019,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Maria IxcatlÃ¡n,AsunciÃ³n NochixtlÃ¡n,Tilantongo,YanhuitlÃ¡n,Teposcolula,Chalcatongo de Hidalgo,Tlaxiaco,Huajuapan de LeÃ³n,Santiago Juxtlahuaca,San Pedro TidaÃ¡,San Pedro Amuzgos,San Miguel Huautla"
+  "b": "2742136,2742416,2742493,2742504,2742506,2742611,2742700,2742804,2743095,2743131,2743304,2743373,6559488,Alfragide,6930153,Alvalade,6930162,Azores,6941014,São Jorge de Arroios"
 },
 {
     "name": "Q'anjob'al",
@@ -1028,7 +1028,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Santa Eulalia,Barillas,La Democracia,San Pedro Soloma,San Juan Ixcoy,San Rafael La Independencia,San Antonio Huista,San Sebastian Huehuetenango,San Miguel AcatÃ¡n,San Rafael Petzal,Santiago Chimaltenango,AguacatÃ¡n"
+  "b": "6946669,Azeitão,11808241,Parque das Nações,11886964,Cidade Universitária,12776117,Campo De Ourique,12777908,8063361,Yby Yaú,3436622,3436714,3436725,Villa Elisa,Central Department,3436728,3437056,Misiones Department,3437063"
 },
 {
     "name": "Eyak",
@@ -1037,7 +1037,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eyak,Cordova,Bering River,Copper River,Malaspina Glacier,Montague Island,Hinchinbrook Island,Prince William Sound,Scott Glacier,Columbian Glacier,Meadow Glacier,Heiden Glacier"
+  "b": "3437127,Presidente Franco,Alto Parana Department,3437444,Neembucu Department,3437526,Amambay Department,3437547,3437665,Boqueron Department,3437824,3437842,3437863,Itauguá,3437918,Itá,3437954,3438115,Itapua,3438735"
 },
 {
     "name": "Dena'ina",
@@ -1046,7 +1046,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kenai,Soldotna,Homer,Seward,Anchorage,Wasilla,Palmer,Tyonek,Nikiski,Kasilof,Sterling"
+  "b": "Caaguazu Department,3438819,3438834,3438995,3439101,3439214,Caazapá,3439297,3439317,Cordillera Department,3439320,3439389,3867291,Al ‘Unayzah,Baladiyat ad Dawhah,289511,Umm Şalāl Muḩammad,289523,Umm Ghuwaylīnah,289545"
 },
 {
     "name": "Chipewyan",
@@ -1055,7 +1055,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fort Resolution,Yellowknife,Fort Smith,Hay River,Fort Simpson,Lutselk'e,Nahanni Butte,Norman Wells,Inuvik,Tuktoyaktuk,Paulatuk,Sachs Harbour"
+  "b": "Nu‘ayjah,289698,Mu‘aydhir Rawḑat Rāshid,Baladiyat ar Rayyan,289716,Madīnat Khalīfah,289738,Az̧ Z̧a‘āyin,289847,Ar Rayyān,289888,289915,Al Khawr,289962,290030,As Sulţah al Jadīdah,411752,Al Manşūrah,411759,An Najmah"
 },
 {
     "name": "Holikachuk",
@@ -1064,7 +1064,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Holy Cross,Holikachuk,Anvik,Grayling,Shageluk,Ruby,Kaltag,Nulato,Koyukuk,Galena,Huslia,Hughes"
+  "b": "12242646,Farīj al Amīr,12242742,13512674,Réunion,935214,935221,935223,935225,935227,935248,935255,935264,935267,935268,935582,935616,935691,Piton Saint-Leu,7932385"
 },
 {
     "name": "Koyukon",
@@ -1073,7 +1073,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koyukuk,Old Minto,Allakaket,Hughes,Huslia,Galena,Nulato,Kaltag,Ruby,Tanana,Manley Hot Springs"
+  "b": "Romania,Teleorman County,662187,Zărnești,Brasov County,662284,Salaj County,662334,Vulcan,Hunedoara County,662432,Voluntari,Ilfov,662476,Maramures,662699,663100,Vaslui County,663118,Urziceni"
 },
 {
     "name": "Upper Kuskokwim",
@@ -1082,7 +1082,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "McGrath,Nikolai,Telida,Stony River,Sleetmute,Red Devil,Crooked Creek,Kalagwev,Pile Bay,Flat,Horn Mountain"
+  "b": "Ialomita County,664074,664437,Cluj County,664460,Tulcea County,664518,Târnăveni,Mures County,664963,Târgu Secuiesc,Covasna County,665000,Neamt County,665003,665004,Gorj County,665010,Dambovita County,665024"
 },
 {
     "name": "Upper Tanana",
@@ -1091,7 +1091,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Northway,Tetlin,Tok,Eagle,Chicken,Dawson City,Whitehorse,Carcross,Teslin,Atlin,Skagway,Haines Junction"
+  "b": "Timis County,665087,Galati County,665355,665850,Olt,666767,667101,667227,Sibiu County,667268,667303,Alba County,667526,Satu Mare County,667873,Bihor County,668129,Săcele,668314"
 },
 {
     "name": "Kiliwa",
@@ -1100,7 +1100,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kiliwa,Mexicali,San Felipe,Ensenada,Tijuana,Rosarito,La MisiÃ³n,Valle de Trinidad,CataviÃ±a,San Borja,Santa Rosalita,Guerrero Negro"
+  "b": "3023924,3024035,Compiègne,3024066,Combs-la-Ville,3024107,Pontault-Combault,3024195,Colomiers,3024223,Colombes,3024266,Colmar,3024297,3024440,Cluses,3024532,Clichy-sous-Bois,3024596,Clichy"
 },
 {
     "name": "Quechan",
@@ -1109,7 +1109,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yuma,Somerton,San Luis,Wellton,Winterhaven,Fort Yuma,Quartermaster Landing,Pilot Knob,Madrid,Ogilby,Dateland,Arlington"
+  "b": "3025715,Chaumont,3025892,Chatou,3026033,3026083,Châtenay-Malabry,3026108,3026141,3026194,3026204,Châteaudun,3026285,3026467,3026613,Charenton-le-Pont,3026637,Champs-sur-Marne,3027014,Champigny-sur-Marne"
 },
 {
     "name": "Yavapai",
@@ -1118,7 +1118,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yavapai-Prescott,Clarkdale,Camp Verde,Cottonwood,Sedona,Mingus Mountain,Jerome,Flagstaff,Williams,Seligman,Williams Junction,Ash Fork"
+  "b": "3028486,Carrières-sous-Poissy,3028521,Carquefou,3028535,3028542,3028641,Canteleu,3028779,3028808,3029030,Caluire-et-Cuire,3029096,Calais,3029162,Cahors,3029213,Cagnes-sur-Mer,3029227,3029241"
 },
 {
     "name": "Cayuga",
@@ -1127,7 +1127,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cayuga,Six Nations of the Grand River,Tuscarora,Brantford,Hamilton,Buffalo,Rochester,Ithaca,Syracuse,Oswego,Auburn,Cortland"
+  "b": "3030257,3030300,3030303,Paris 02 Bourse,3030864,Bourg-lès-Valence,3030985,Bourg-la-Reine,3030990,3031005,Bourg-en-Bresse,3031009,Boulogne-sur-Mer,3031133,Boulogne-Billancourt,3031137,Bouguenais,3031268,3031582,Bonneuil-sur-Marne"
 },
 {
     "name": "Oneida",
@@ -1136,7 +1136,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oneida,Green Bay,Syracuse,Rome,Oneida Castle,Vernon,Stockbridge,Albany,De Pere,Appleton,Shawano,Manitowoc"
+  "b": "3031709,Bondy,3031815,Boissy-Saint-Léger,3031898,Bois-Colombes,3032070,Bobigny,3032179,3032213,Blanquefort,3032340,Blagnac,3032469,Bischheim,3032551,3032797,Bezons,3032824,3032833"
 },
 {
     "name": "Onondaga",
@@ -1145,7 +1145,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Onondaga,Syracuse,Nedrow,Liverpool,Dewitt,Lysander,Salina,Cicero,Fayetteville,Manlius,Baldwinsville"
+  "b": "3033002,3033123,3033391,Berck,3033415,Berck-Plage,3033416,3033791,Bègles,3033881,3034006,3034126,3034475,3034483,Paris 17 Batignolles-Monceau,3034610,3034640,3034911,Balma,3035204"
 },
 {
     "name": "Seneca",
@@ -1154,7 +1154,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seneca,Buffalo,Rochester,Syracuse,Salamanca,Batavia,Jamestown,Olean,Albany,Tonawanda,Lockport,Canandaigua"
+  "b": "Bagnols-sur-Cèze,3035396,Bagnolet,3035403,Bagneux,3035409,Avon,3035654,Avion,3035667,3035681,3035843,3035883,3036016,Aulnay-sous-Bois,3036145,3036240,3036281,Aubervilliers,3036386"
 },
 {
     "name": "Tuscarora",
@@ -1163,7 +1163,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tuscarora,Lewiston,Niagara Falls,Buffalo,Sanborn,North Tonawanda,Rochester,Syracuse,Albany,Lockport,Ransomville,Youngstown"
+  "b": "3036433,Athis-Mons,3036460,Asnières-sur-Seine,3036572,3036784,Armentières,3036903,3036938,Argenteuil,3037044,3037051,Arcueil,3037157,Antony,3037423,3037456,Annonay,3037514,Annemasse"
 },
 {
     "name": "Kiowa",
@@ -1172,7 +1172,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Anadarko,Lawton,Meers,Gotebo,Hobart,Cache,Snyder,Carnegie,Apache,Geronimo,SugarCreek,RainyMtn"
+  "b": "463835,Zelenchukskaya,Karachayevo-Cherkesiya Republic,463885,Zavolzh’ye,464101,Zavety Il’icha,464176,Zarechnyy,Penza Oblast,464625,Zaraysk,464687,Zapolyarnyy,464790,Zamoskvorech’ye,465057,465543,Yushkovo,466171"
 },
 {
     "name": "Tewa",
@@ -1181,7 +1181,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pojoaque,Tesuque,Nambe,Ohkay,Owingeh,Puye,Tsankawi,Kotyiti,Shufinne,Pohwhoge,Wanike,Popay"
+  "b": "Yur’yev-Pol’skiy,Vladimir Oblast,466215,Mariy-El Republic,466806,Yeysk,466885,Yessentukskaya,466989,Yessentuki,466990,Yershov,467120,Yemva,467525,Yelizavetinskaya,467854,Yelets,Lipetsk Oblast,467978"
 },
 {
     "name": "Choctaw",
@@ -1190,7 +1190,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Choctaw,Talihina,Poteau,McAlester,Atoka,Durant,Hugo,Tushka,Poteau Mountain,Kiamichi River,Red River,Arkansas River"
+  "b": "472234,Vol’sk,472278,Volokolamsk,472433,Vologda,Vologda Oblast,472459,472722,Nagornyy,472732,Volgorechensk,Kostroma Oblast,472750,472757,Volgodonsk,472761,Novovladykino,473127,473247"
 },
 {
     "name": "Muscogee",
@@ -1199,7 +1199,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muscogee,Okmulgee,Creek Nation,Tulsa,Muskogee,Okemah,Wewoka,Cheyenne,Henryetta,Eufaula,Wagoner,Tahlequah"
+  "b": "North Ossetia-Alania,473249,Vidnoye,473778,Vichuga,Ivanovo Oblast,473788,Veshnyaki,473972,475777,Venëv,475881,Vel’sk,475938,476062,Velikiye Luki,Pskov Oblast,476077,Vatutino,476368"
 },
 {
     "name": "Mikasuki",
@@ -1208,7 +1208,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mikasuki,Immokalee,Brighton,Big Cypress,Hollywood,Tampa,Miami,Reservation,Lee County,Collier County,Glades County,Hendry County"
+  "b": "Valuyki,477192,Valday,Novgorod Oblast,477301,Vagonoremont,477377,Uzlovaya,477494,Uvarovo,477626,477656,Ust’-Labinsk,478044,Ust’-Katav,478071,478130,Usman’,478317,Uryupinsk"
 },
 {
     "name": "Comanche",
@@ -1217,7 +1217,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Comanche,Apache,Fort Sill,Anadarko,Lawton,Cyrus,Oklahoma,Texas,New Mexico,Amarillo,Albuquerque,Santa Fe"
+  "b": "496285,Severnyy,496348,Setun’,496456,Sestroretsk,496478,Sertolovo,496519,496527,496638,496802,496934,497206,497218,497271,497450,497610,497927,498418"
 },
 {
     "name": "Hopi",
@@ -1226,7 +1226,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Hopi,First Mesa,Second Mesa,Third Mesa,Polacca,Kykotsmovi,Kykotsmovi Village,Shungopavi,Mishongnovi,Orayvi,Sichomovi,Moenkopi"
+  "b": "498525,498677,498687,Mordoviya Republic,498698,498708,498817,499099,499161,499292,499453,499717,499975,500004,500019,500047,500096,500299,500843,500886"
 },
 {
     "name": "Shoshoni",
@@ -1235,7 +1235,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shoshoni,Wind River,Fort Hall,Duck Valley,Elko,Ely,Wells,Wendover,Twin Falls,Idaho Falls,Jackpot,Elko County"
+  "b": "501175,501183,501187,501215,501231,501283,501320,501730,502011,502018,502400,502540,502793,502965,502971,503550,503977,504003,504042,504250"
 },
 {
     "name": "Kalaallisut",
@@ -1244,7 +1244,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalaallisut,Nuuk,Ilulissat,Paamiut,Maniitsoq,Qaqortoq,Sisimiut,Aasiaat,Nuussuaq,Greenland,Kalaallit Nunaat"
+  "b": "519336,Novaya Usman’,519447,Novaya Derevnya,519711,Noginsk,520068,Nizhnyaya Tura,520204,Nizhny Tagil,520494,Nizhniy Novgorod,520555,Nizhniy Lomov,520574,521118,Nikulino,521416,Nikol’skoye,521500"
 },
 {
     "name": "Chontal Maya",
@@ -1253,7 +1253,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chontal Maya,Villahermosa,Macuspana,Comalcalco,Paraíso,Jonuta,Balancán,Emiliano Zapata,Tenosique,Tabasco,Mexico"
+  "b": "529073,529237,Manturovo,529505,Yaroslavskiy,530088,Maloyaroslavets,530849,531129,Malakhovka,531820,532096,Magnitogorsk,532288,Lyudinovo,532459,Lyublino,532535,Lyubertsy,532615"
 },
 {
     "name": "Cora",
@@ -1262,7 +1262,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cora,Jesús María,Mesa del Nayar,El Nayar,Acaponeta,Rosamorada,Tepic,Nayarit,Mexico,Sierra Madre Occidental"
+  "b": "Lytkarino,532657,Lys’va,532675,532715,Luzhniki,533067,Lukhovitsy,533543,533690,Losino-Petrovskiy,534015,Lomonosov,534341,Lodeynoye Pole,534560,Lobnya,534595,Livny,534701"
 },
 {
     "name": "Alutiiq",
@@ -1271,7 +1271,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alutiiq,Kodiak,Karluk,Oognak,Larsen Bay,Old Harbor,Akhiok,Afognak,Alaska Pacific Islands,Alaska Peninsula"
+  "b": "Kurchatov,538908,538913,Kupchino,539061,Kuntsevo,539110,539147,539283,539555,Kukmor,539689,539817,Kudrovo,539839,Kudepsta,539907,Kubinka,540030,540103"
 },
 {
     "name": "Huichol",
@@ -1280,7 +1280,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huichol,Guadalajara,Nayarit,San José de Gracia,Bolaños,Mezquitic,Mezquitic Mountains,Jalisco,Nayarit Coast"
+  "b": "Kholmskiy,549741,Khimki,550280,550478,Kharabali,550671,Khadyzhensk,550846,551487,Katav-Ivanovsk,551794,Kastanayevo,551835,551847,Kasimov,551891,Kashira,551964,Kashin"
 },
 {
     "name": "Inuinnaqtun",
@@ -1289,7 +1289,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inuinnaqtun,Igloolik,Pond Inlet,Rankin Inlet,Baker Lake,Chesterfield Inlet,Nunavut,Canada,Arctic,Coppermine"
+  "b": "551986,Karachev,552920,552924,552951,Karabanovo,552977,Kapotnya,553034,Kantyshevo,553092,Kanevskaya,553152,553190,553216,Kamyzyak,553248,Kamyshin,553287,Kamensk-Shakhtinsky"
 },
 {
     "name": "Q'eqchi'",
@@ -1298,7 +1298,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Q'eqchi',Alta Verapaz,Baja Verapaz,Izabal,Guatemala,Cobán,Salamá,Chamelco,Lanquín,Santa Cruz Verapaz"
+  "b": "553399,Kamenka,553725,Kaluga,553915,Kalininsk,554199,Korolev,554233,554234,Kalach-na-Donu,554397,Kalach,554410,Kachkanar,554599,Kabanovo,554679,Izobil’nyy,554770"
 },
 {
     "name": "Tzeltal",
@@ -1307,7 +1307,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tzeltal,Ocosingo,San Cristóbal de las Casas,Comitán,Chiapas,Altos de Chiapas,Maya Region,Mexico"
+  "b": "Izmaylovo,554787,554840,554894,Ivanteyevka,555111,555129,555312,Istra,555746,555980,Ipatovo,556230,556283,Inozemtsevo,556320,Il’skiy,556951,557469,Gus’-Khrustal’nyy"
 },
 {
     "name": "Tzotzil",
@@ -1316,7 +1316,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tzotzil,San Juan Chamula,Zinacantán,Chenalhó,Chiapas,Altos de Chiapas,Maya Region,Mexico"
+  "b": "557775,Gusev,557882,Gul’kevichi,558066,Gukovo,558082,558118,Gubkin,558146,Gubakha,558209,Gryazovets,558236,Gryazi,558312,558418,Gribanovskiy,558799,559029"
 },
 {
     "name": "Yucatec Maya",
@@ -1325,7 +1325,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yucatec Maya,Mérida,Cancún,Chichén Itzá,Tulum,Valladolid,Tizimín,Campeche,Yucatán Peninsula,Mexico"
+  "b": "559317,559320,559654,559678,560142,560465,560756,561347,561515,561627,561667,561731,561762,561887,562161,562237,562309,562319,562321,562389"
 },
 {
     "name": "Kaqchikel",
@@ -1334,7 +1334,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaqchikel,Chimaltenango,Sololá,Tecpán,Guatemala,Antigua,Chichicastenango,Comalapa,Guatemala City"
+  "b": "562820,563379,563464,563472,Kalmykiya Republic,563514,563522,563523,563524,563551,563705,563708,563719,563822,564654,564719,565197,565289,565290,565348"
 },
 {
     "name": "Ixil",
@@ -1343,7 +1343,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ixil,Nebaj,Chajul,Cotzal,El Quiché,Quiché,Guatemala,Ixil Triangle,Maya Highlands"
+  "b": "565381,565614,565778,565955,566155,566181,566199,566384,566532,566854,Davydkovo,566976,567006,Dankov,567109,Danilov,567183,567290,Dachnoye,567311"
 },
 {
     "name": "Jakaltek",
@@ -1352,7 +1352,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakaltek,Chiquimula,Zacapa,Quetzaltenango,Esquipulas,Guatemala,Ocotepeque,Santa Rosa,Livingston,Copán"
+  "b": "567434,Chudovo,567774,567990,568012,Chernyanka,568587,Chernyakhovsk,568595,568608,Chernogolovka,568808,569154,Cherepovets,569223,Cherëmushki,569273,Chekhov,569591,569636"
 },
 {
     "name": "K'iche'",
@@ -1361,7 +1361,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "K'iche',Quetzaltenango,Totonicapán,Sololá,Comalapa,Guatemala City,Antigua Guatemala,Guatemala,Maya Highlands"
+  "b": "569696,Chaykovskiy,569742,Chapayevsk,569955,Buzuluk,570427,570479,Buy,570508,Buturlinovka,570563,571155,Buguruslan,571159,571170,Budyonnovsk,571306,Bryukhovetskaya,571420"
 },
 {
     "name": "Lacandon",
@@ -1370,7 +1370,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lacandon,Lacandona Jungle,Chiapas,Mexico,Tabasco,Guatemala,Peten,Rain Forest,Usumacinta River"
+  "b": "Bryansk,571476,Bronnitsy,571557,Brateyevo,571741,Borovichi,572154,Borisoglebsk,572525,572665,Bol’shaya Setun’,574675,Bologoye,575349,Boksitogorsk,575410,Boguchar,575457,575505"
 },
 {
     "name": "Mam",
@@ -1379,7 +1379,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mam,Huehuetenango,Todos Santos,Cuchumatanes,Chiantla,Negrito,Aguacatán,Guatemala,Maya Region"
+  "b": "Bogorodsk,575560,Bogoroditsk,575591,Bobrov,575948,576116,Blagodarnyy,576172,Biryulëvo,576279,576317,Bibirevo,576432,Bezhetsk,576566,Bezenchuk,576590,576697,577206"
 },
 {
     "name": "Poqomam",
@@ -1388,7 +1388,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Poqomam,Quiché,Guatemala,Quiché Department,Maya Highlands,Mesoamerica,El Quiché,Guatemala City"
+  "b": "579529,579574,579738,579771,579870,580054,580062,580218,580222,580420,580497,580660,580716,580724,580850,580922,581049,581126,581179,581313"
 },
 {
     "name": "Poqomchi'",
@@ -1397,7 +1397,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Poqomchi',Quiché,Guatemala,Maya Highlands,Chichicastenango,Sololá,Quiché Department"
+  "b": "581321,581357,581671,581928,582182,582266,582432,582750,582846,582956,582993,Aleksandrovsk,583041,583350,583437,583589,583673,583785,583798,583983"
 },
 {
     "name": "Tz'utujil",
@@ -1406,7 +1406,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tz'utujil,Quiché,Guatemala,Quiché Department,Maya Highlands,Chajul,Cotzal,Nebaj"
+  "b": "Dagomys,823674,Gorod Shebekino,824988,827329,Belidzhi,828055,Lesnoy,829005,Trëkhgornyy,830844,Mirnyy,831129,Znamensk,831130,831165,Kochubeyevskoye,841006,857689,Moskovskiy"
 },
 {
     "name": "Sakapultek",
@@ -1415,7 +1415,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sakapultek,Guatemala,Sacapulas,Santa Rosa,El Progreso,San Benito,Ciudad Hidalgo,Quiché"
+  "b": "857690,863061,Obukhovo,873901,Staryy Malgobek,874045,Zavodoukovsk,1485357,Altai Krai,1485439,1485445,Yuzhnyy,1485627,Yuzhnoural’sk,1485634,Yurga,Kuzbass,1485724,Krasnoyarsk Krai,1485997"
 },
 {
     "name": "Sipakapense",
@@ -1424,7 +1424,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sipakapense,Sipakapa,Santa Cruz de Yojoa,Copán,Honduras,El Paraíso,San Pedro Sula,Olancho"
+  "b": "Yemanzhelinsk,1486039,1486209,Yashkino,1486298,1486340,Yalutorovsk,1486468,1486910,Vorgashor,1486913,Verkhnyaya Salda,1487277,Verkhnyaya Pyshma,1487281,Verkhniy Ufaley,1487394,1487882,1488253,Khanty-Mansia"
 },
 {
     "name": "Tektitek",
@@ -1433,7 +1433,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tektitek,Guatemala,San Cristóbal Acasaguastlán,Santa Rosa de Lima,San Marcos,Cuatemala"
+  "b": "1488429,1488754,1488933,1489246,Topki,1489394,1489425,Toguchin,Novosibirsk Oblast,1489508,1489530,Irkutsk Oblast,1489870,Tayga,1489907,1489962,Tatarsk,1490003,Tashtagol,1490042"
 },
 {
     "name": "Matlatzinca",
@@ -1442,7 +1442,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Matlatzinca,Toluca,Almoloya de Juárez,Calimaya,Metepec,San Mateo Atenco,Mexico,State of Mexico"
+  "b": "1491706,1491953,1491999,1492401,1492517,1492663,Khakasiya Republic,1492893,1493197,1493467,1493648,1493687,1494091,1494114,1494276,1494456,Polevskoy,1494573,1494907,1495974"
 },
 {
     "name": "Mazahua",
@@ -1451,7 +1451,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mazahua,Ixtlahuaca,Timilpan,Jilotepec,Atlacomulco,Acambay,Mexico,State of Mexico,Central Mexico"
+  "b": "1496153,1496421,1496476,1496503,1496511,1496739,1496747,1496990,1497173,1497337,1497393,1497543,1497549,1497795,1497917,1497951,1498087,Myski,1498129,1498693"
 },
 {
     "name": "Mixtec",
@@ -1460,7 +1460,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mixtec,Tlaxiaco,Tilantongo,Yanhuitlán,Nochixtlán,Oaxaca,Mexico,Mixteca"
+  "b": "Miass,1498894,Mezhdurechensk,1498920,1499053,1499163,Mariinsk,1499350,Linëvo,1500532,1500607,Leninsk-Kuznetsky,1500665,1500933,Republic of Tyva,1500973,Kyshtym,1500997,Kuybyshev,1501141"
 },
 {
     "name": "Otomi",
@@ -1469,7 +1469,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Otomi,Querétaro,Santiago de Querétaro,Toluca,Ixmiquilpan,Mexico,Central Mexico"
+  "b": "Kurtamysh,1501255,Kurgan,1501321,Kupino,1501365,1501460,1502026,Krasnoural’sk,1502060,Krasnoturinsk,1502061,Krasnoobsk,1502091,Korkino,1502536,Kopeysk,1502603,1502725,1502862"
 },
 {
     "name": "Zapotec",
@@ -1478,7 +1478,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zapotec,Oaxaca,Tlacolula,Teotitlán del Valle,Mitla,Juchitán,Mexico,Oaxaca State"
+  "b": "Kodinsk,1503037,Kochenëvo,1503082,Kiselëvsk,1503277,Kirovgrad,1503335,1503772,1503901,1503940,1504139,1504212,1504251,1504317,1504343,1504489,1504636,1504682,1504769"
 },
 {
     "name": "Mayo",
@@ -1487,7 +1487,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mayo,Navojoa,Huatabampo,Etchojoa,Sonora,Mexico,Yaqui River"
+  "b": "1504826,1504871,1504972,1505074,1505260,1505429,1505438,1505453,1505526,1505579,1505933,1506073,1506260,1506271,1507116,1507379,1507488,1507636,1508054,1508161"
 },
 {
     "name": "O'odham",
@@ -1496,7 +1496,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "O'odham,Sells,Tucson,Arizona,Ajo,Papago,USA,Sonora,Mexico,Arizona Desert"
+  "b": "1508291,Chebarkul’,1508350,Borovskiy,1508879,1508943,Bolotnoye,1509819,1509852,Bogdanovich,1509888,1510018,Beryozovsky,1510203,Berëzovskiy,1510205,Berëzovka,1510255,Berdsk,1510350"
 },
 {
     "name": "Pima Bajo",
@@ -1505,7 +1505,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pima Bajo,Yécora,Mazocahui,Maycoba,Sonora,Mexico,Sierra Madre"
+  "b": "Belyy Yar,1510366,1510450,Belovo,1510469,1510853,Barabinsk,1510916,Asino,1511309,Asbest,1511330,Artëmovskiy,1511368,Aramil,1511466,Anzhero-Sudzhensk,1511494,1511783,Alapayevsk"
 },
 {
     "name": "Tarahumara",
@@ -1514,7 +1514,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tarahumara,Guachochi,Bocoyna,Creel,Chihuahua,Mexico,Copper Canyon,Sierra Madre Occidental"
+  "b": "1511954,Akademgorodok,1512086,1512165,1512205,1512236,Snezhinsk,1536289,Ozersk,1538634,1538635,1538636,1538637,1539209,1540356,1540711,1541359,2012484,2012557,2012593"
 },
 {
     "name": "Huarijio",
@@ -1523,7 +1523,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huarijio,Alamos,El Fuerte,Sonora,Sinaloa,Mexico,Sierra Madre Occidental"
+  "b": "2013159,2013229,Primorye,2013258,2013348,2013399,2013923,2013952,2014006,2014022,Buryatiya Republic,2014407,2014624,2014718,2014927,2015051,2015310,2015833,2016187,2016422"
 },
 {
     "name": "Yaqui",
@@ -1532,7 +1532,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vícam,Pótam,Bácum,Huirivis,Ráhum,Belem,Cócorit,Loma de Guamúchil,Bataconsica,Tórim"
+  "b": "2016701,2016764,2016910,2017487,Petrovsk-Zabaykal’skiy,Zabaykalskiy (Transbaikal) Kray,2017945,Partizansk,2018116,Neryungri,2019309,2019326,2019528,2019951,Luchegorsk,2020689,Lesozavodsk,2020812,2020838,2021066"
 },
 {
     "name": "Iñupiaq",
@@ -1541,7 +1541,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "UtqiaÄ¡vik,Kotzebue,Point Hope,Noorvik,Selawik,Wainwright,Kivalina,Buckland,Kiana,Ambler"
+  "b": "11703857,243590,243787,Ennedi-Ouest,244128,244878,245338,Ouadai,245669,245785,2425791,Mayo-Kebbi Ouest,2426240,2426370,2427123,Barh el Gazel,2427336,Logone Occidental,2427455,2427637"
 },
 {
     "name": "Inuvialuktun",
@@ -1550,7 +1550,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inuvik,Tuktoyaktuk,Paulatuk,Sachs Harbour,Ulukhaktok,Aklavik,Tsiigehtchic,Fort McPherson,Old Crow,Dawson City"
+  "b": "Moïssala,2427697,2428042,Hadjer-Lamis,2428228,2428231,2428281,2428394,2428450,2428480,2429158,Tandjile,2429296,2429344,2429605,2430506,Mayo-Kebbi Est,2431573,2431724,2431907"
 },
 {
     "name": "Blackfoot",
@@ -1559,7 +1559,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Browning,Heart Butte,Starr School,Brocket,Cardston,Gleichen,Stand Off,Cluny,Morley,Eden Valley,Big Horn,Tsuut'ina"
+  "b": "2432639,2432678,2433055,2433437,2434011,2434584,2434910,2434979,2434985,2435124,2435474,2435508,2435779,2435854,2436400,Ennedi-Est,9534257,French Southern Territories,Kerguelen,1546102"
 },
 {
     "name": "Haida",
@@ -1568,7 +1568,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "",
   "m": 0,
-  "b": "Masset,Skidegate,Old Massett,Hydaburg,Kasaan,Kuper,Kiusta,Dadens,Kung,Yan,Kayung,Hiellan,Sukkwan,Howkan,Klinkwan,Ninstints,Cumshewa,Skedans,Tanu,Cha'atl,Kaisun,Hippa,Tsahl,Tian,Tartlee"
+  "b": "1609032,Lom Sak,1609043,1609071,Laem Sing,1609278,Laem Ngop,1609283,Kut Chap,1609324,Kuchinarai,1609345,1609350,Krathum Baen,1609395,Klaeng,1609610,1609776,Khon Buri,1609795"
 },
 {
     "name": "Garifuna",
@@ -1577,7 +1577,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Dangriga,Hopkins,Seine Bight,Placencia,Punta Gorda,Barranco,Livingston,Puerto Barrios,Trujillo,La Ceiba,Sambo Creek,Corozal,Punta Negra,Monkey River,Big Creek,Limon,Iriona,Puerto Castilla,Santa Rosa Aguan,Nuevo San Juan,Masca,Triunfo de la Cruz,San Juan Tela,Miami Village,La Ensenada,Puerto Cortes,Omoa,Puerto Lempira,Brus Laguna,Palacios,Santa Fe,San Antonio,Guadalupe,Batalla,Pueblo Nuevo,Plaplaya,Ibans,Cocobila,Raista,Belén"
+  "b": "13494063,Khetsamsenok,13494065,Chorakhe Bua,13494066,Chan Kasem,13494067,Khwaeng Bang Plat,13494068,Khlong Sam Wa,13494069,Bang Bon Nuea,13494070,Bangbontai,13494071,Khlong Chan,13494072,Bang Khae Nuea,13494073,Bang Phai"
 },
 {
     "name": "Keresan",
@@ -1586,7 +1586,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Acoma,Laguna,Santa Ana,San Felipe,Santo Domingo,Zia,Cochiti,Paguate,Mesita,Paraje,Seama,Encinal"
+  "b": "Sbeitla,2464979,Siliana,Siliana Governorate,2465030,Sidi Bouzid,Sidi Bouzid Governorate,2465840,Sidi Abid,Sfax Governorate,2466698,2467242,2467243,2467246,2467454,Ben Arous Governorate,2467521,2467732,2467815,Mahdia Governorate"
 },
 {
     "name": "Totonac",
@@ -1595,7 +1595,7 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Papantla,Poza-Rica,Coatzintla,Espinal,Cazones,Zozocolco,Chumatlan,Filomeno-Mata,Martinez-de-La-Torre,Tlapacoyan,Misantla,Naolinco,Teziutlan,Zacapoaxtla"
+  "b": "13100478,13117827,13118055,13118085,13118086,13118091,13118095,13118096,13118145,13118146,13118149,Bandar Country Homes,13118193,Alam Damai,13118197,SS2,13118198,Sungai Jawi,13118223,Bandar Saujana Utama"
 },
 {
     "name": "Tlingit",
@@ -1604,6 +1604,6 @@ window.northAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Sitka,Juneau,Hoonah,Yakutat,Kake,Angoon,Haines,Skagway,Pelican,Tenakee,Klukwan,Wrangell,Ketchikan,Saxman,Metlakatla,Hydaburg,Kasaan,Craig,Thorne Bay,Klawaock"
+  "b": "2343983,2343985,2344053,Ebute Ikorodu,2344082,Dutsen Wai,2344229,2344245,2344418,2344600,2344854,2345029,2345094,2345096,2345152,2345498,2345521,2346229,Burutu,2346317"
 }
 ];

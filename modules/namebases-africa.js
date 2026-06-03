@@ -14,7 +14,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "s",
   "m": 0.2,
-  "b": "Abkhouch,Adrar,Aeraysh,Afrag,Agadir,Agelmam,Aghmat,Agrakal,Agulmam,Ahaggar,Ait Baha,Ajdir,Akka,Almou,Amegdul,Amizmiz,Amknas,Amlil,Amurakush,Anfa,Annaba,Aousja,Arbat,Arfud,Argoub,Arif,Asfi,Asfru,Ashawen,Assamer,Assif,Awlluz,Ayt Melel,Azaghar,Azila,Azilal,Azmour,Azro,Azrou,Beccar,Beja,Bennour,Benslimane,Berkane,Berrechid,Bizerte,Bjaed,Bouayach,Boudenib,Boufrah,Bouskoura,Boutferda,Casablanca,Chenini,Darallouch,Dar Bouazza,Darchaabane,Dcheira,Demnat,Denden,Djebel,Djedeida,Douiret,Drargua,Elhusima,Essaouira,Ezzahra,Fas,Fnideq,Ghardaia,Ghezeze,Goubellat,Grisaffen,Guelmim,Guercif,Hammamet,Harrouda,Hdifa,Hoceima,Houara,Idhan,Idurar,Ifendassen,Ifoghas,Ifrane,Ighoud,Ikbir,Imilchil,Imzuren,Inezgane,Irherm,Izoughar,Jendouba,Kacem,Kelibia,Kenitra,Kerrando,Khalidia,Khemisset,Khenifra,Khouribga,Khourigba,Kidal,Korba,Korbous,Lahraouyine,Larache,Leyun,Lqliaa,Manouba,Martil,Matmata,Mazagan,Mcherga,Mdiq,Megrine,Mellal,Melloul,Meknes,Midelt,Misur,Mohammedia,Mornag,Mrirt,Nabeul,Nadhour,Nador,Nawaksut,Nefza,Ouarzazate,Ouazzane,Oued Zem,Oujda,Ouladteima,Qsentina,Rades,Rafraf,Safi,Sefrou,Sejnane,Settat,Sfax,Sijilmassa,Skhirat,Slimane,Somaa,Sraghna,Susa,Tabarka,Tadrart,Taferka,Tafilalt,Tafrawt,Tafza,Tagbalut,Tagerdayt,Taghzut,Takelsa,Taliouine,Tanja,Tantan,Tataouine,Taourirt,Targuist,Taroudant,Tarudant,Tasfelalayt,Tassort,Tata,Tattiwin,Tawnat,Taza,Tazagurt,Tazerka,Tazizawt,Taznakht,Tebourba,Teboursouk,Temara,Testour,Tetouan,Tibeskert,Tifelt,Tijdit,Tinariwen,Tinduf,Tinja,Tittawan,Tizi Ouzou,Tiznit,Toubkal,Trables,Tubqal,Tunes,Ultasila,Urup,Wagguten,Wararni,Warzazat,Watlas,Wehran,Wejda,Xamida,Yedder,Youssoufia,Zaghouan,Zahret,Zemmour,Zriba,Zagora,Tinghir,Boumalne"
+  "b": "866164,Kanaker-Zeytun,7647071,Malatia-Sebastia,7670934,Kentron,7670941,Shengavit,11111027,Arabkir,13156582,Saurimo,Lunda Sul,145531,Lucapa,Luanda Norte,145724,Dundo,145757,Chitato"
 },
 {
     "name": "Nigerian",
@@ -23,7 +23,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "",
   "m": 0.3,
-  "b": "Abadogo,Abafon,Adealesu,Adeto,Adyongo,Afaga,Afamju,Agigbigi,Agogoke,Ahute,Aiyelaboro,Ajebe,Ajola,Akarekwu,Akunuba,Alawode,Alkaijji,Amangam,Amgbaye,Amtasa,Amunigun,Animahun,Anyoko,Arapagi,Asande,Awgbagba,Awhum,Awodu,Babateduwa,Bandakwai,Bangdi,Bilikani,Birnindodo,Braidu,Bulakawa,Buriburi,Cainnan,Chakum,Chondugh,Dagwarga,Darpi,Dokatofa,Dozere,Ebelibri,Efem,Ekoku,Ekpe,Ewhoeviri,Galea,Gamen,Ganjin,Gantetudu,Gargar,Garinbode,Gbure,Gerti,Gidan,Gitabaremu,Giyagiri,Giyawa,Gmawa,Golakochi,Golumba,Gunji,Gwambula,Gwodoti,Hayinlere,Hayinmaialewa,Hirishi,Hombo,Ibefum,Iberekodo,Icharge,Idofin,Idofinoka,Igbogo,Ijoko,Ijuwa,Ikawga,Ikhin,Ikpakidout,Ikpeoniong,Imuogo,Ipawo,Ipinlerere,Isicha,Itakpa,Jangi,Jare,Jataudakum,Jaurogomki,Jepel,Kafinmalama,Katab,Katanga,Katinda,Katirije,Kaurakimba,Keffinshanu,Kellumiri,Kiagbodor,Kirbutu,Kita,Kogogo,Kopje,Korokorosei,Kotoku,Kuata,Kujum,Kukau,Kunboon,Kuonubogbene,Kurawe,Kushinahu,Kwaramakeri,Ladimeji,Lafiaro,Lahaga,Laindebajanle,Laindegoro,Lakati,Litenswa,Maba,Madarzai,Maianita,Malikansaa,Mata,Megoyo,Meku,Miama,Modi,Mshi,Msugh,Muduvu,Murnachehu,Namnai,Ndamanma,Ndiwulunbe,Ndonutim,Ngbande,Nguengu,Ntoekpe,Nyajo,Nyior,Odajie,Ogbaga,Ogultu,Ogunbunmi,Ojopode,Okehin,Olugunna,Omotunde,Onipede,Onma,Orhere,Orya,Otukwang,Otunade,Rampa,Rimi,Rugan,Rumbukawa,Sabiu,Sangabama,Sarabe,Seboregetore,Shafar,Shagwa,Shata,Shengu,Sokoron,Sunnayu,Tafoki,Takula,Talontan,Tarhemba,Tayu,Ter,Timtim,Timyam,Tindirke,Tokunbo,Torlwam,Tseakaadza,Tseanongo,Tsebeeve,Tsepaegh,Tuba,Tumbo,Tungalombo,Tunganyakwe,Uhkirhi,Umoru,Umuabai,Umuajuju,Unchida,Ungua,Unguwar,Unongo,Usha,Utongbo,Vembera,Wuro,Yanbashi,Yanmedi,Yoku,Zarunkwari,Zilumo,Zulika,Lagos,Kano,Ibadan,Abuja,Port Harcourt,Benin City,Kaduna,Onitsha,Owerri,Enugu,Jos,Bauchi,Maiduguri,Zaria,Ife,Abeokuta,Ijebu-Ode,Nsukka,Akure,Ado-Ekiti,Uyo,Calabar,Makurdi,Katsina,Sokoto,Minna,Lokoja,Oyo,Osogbo,Dutse,Gombe,Yola,Damaturu,Jalingo,Birnin Kebbi,Argungu,Gusau,Aba,Warri,Badagry,Ogbomosho,Ilorin,Ekiti,Ikere-Ekiti,Ijesha,Ondo,Ore,Sagamu,Shagamu,Epe,Lekki,Ikoyi,Surulere,Mushin,Shomolu,Kosofe,Agege,Alimosho,Amuwo-Odofin,Ojo,Ibeju-Lekki,Eti-Osa,Ifako-Ijaiye,Ojodu,Babcock,Mile ,Ojuelegba,Yaba,Festac,Chevron,Victoria Island,Banana Island,Lekki Phase ,Abraham Adesanya,Bethel,Ibogbo,Ikorodu,Kumasi,Ketu,Alaba,Otta,Sango,Dala,Hotoro,Sabon Gari,Zangon,Tudun Wada,Fagge,Gwale,Nassarawa,Kura,Madobi,Kibiya,Bebeji,Kiru,Tofa,Rano,Bunkure,Kunchi,Tsanyawa,Shanono,Bagwai,Gwarzo,Karaye,Rogo,Kabo,Gaya,Dawakin Kudu,Dawakin Tofa,Gabas,Yamma"
+  "b": "2239520,Maquela do Zombo,2239732,2239862,Maianga,2239888,Mabubas,2240004,Lucala,2240393,Lubalo,2240416,2240449,Kunda dya Baze,2240686,Benfica,2240937,2240958,Golungo Alto,2240975"
 },
 {
     "name": "Dendi",
@@ -32,7 +32,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dendi,Niamey,Maradi,Tahoua,Zinder,Niger,West Africa,Sahel"
+  "b": "Rājgīr,1258864,Rājgarh,1258868,1258869,1258875,1258876,Rajaori,1258891,Rajauli,1258895,Rajapalayam,1258916,Rāzampeta,1258922,Rājaldesar,1258928,Rājākhera,1258930,Rajamahendravaram"
 },
 {
     "name": "Gurage",
@@ -41,7 +41,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Butajira,Welkite,Imdibir,Worabe,Agena,Arekit,Endibir,Wolkite,Melga,Gunchire,Ottoro,Bue,Hosaena,Shone,Durame,Hadero,Doyogena,Soddo,Angacha,Gedeb,Ajora,Gumer,Endegagn,Inor,Ezha,Cheha,Geta,Meskane,Goro,Mohoni,Gunchi,Bozena,Wulbare,Zay,Lemen,Becho,Modjo,Dukem,Adama,Koka,Assela,Shashamane,Ambo,Buta,Jima,Bako,Metahara,Sebeta,Sululta,Telliso,Tepi,Mora,Mekane Selam,Areka"
+  "b": "Sambizanga,13546343,Navegantes,13607978,Kima Kieza,13608165,Panguíla,13631347,Ramiros,13631350,Hoji ya Henda,13631351,3427213,Colonia Wanda,3427327,Villa Ortúzar,Buenos Aires F.D.,3427387,Villa Ocampo,3427388"
 },
 {
     "name": "Berber (Maghreb)",
@@ -50,7 +50,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "lnrt",
   "m": 0.2,
-  "b": "Agadir,Tizi Ouzou,Béjaïa,Ouargla,Tamanrasset,Imilchil,Taroudant,Tafraout,Tiznit,Azrou,Midelt,Settat,Marrakech,Fès,Tanger,Meknès,Rabat,Oujda,Kenitra,Tétouan,Safi,El Jadida,Béni Mellal,Taza,Errachidia,Al Hoceima,Khemisset,Guelmim,Ouarzazate,Figuig,Jerada,Sidi Kacem,Ouezzane,Chefchaouen,Berrechid,Zagora,Essaouira,Agdz,Alnif,Taznakht,Tinghir,Taghazout,Ait Benhaddou,Kasbah Ait Ben Mouh,Todgha Gorge,M'Goun,Ighrem,Amizmiz,Imlil,Asni,Oukaimeden,Aourirt,Tata,Oumjrane,Boudnib,Abadla,Beni Ensar,Tafersit,Tazekka,Tizi n'Berber,Tizi Ghatri,Aghbalou,Kerrouchen,Timitar,Sidi Ifni,Massa,Mogador,Khouribga,Fquih Ben Salah,Youssoufia,El Kelaa des Sraghna"
+  "b": "3430340,Nogoyá,3430415,Necochea,3430443,Muñiz,3430513,3430545,Monte Caseros,3430598,3430601,3430697,3430708,3430709,Haedo,3430835,3430863,Mar de Ajó,3430866,3430988"
 },
 {
     "name": "Sekele",
@@ -59,7 +59,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Khiosnaichui,Ainkuig,Uavdu,Ioreenk,Qiompaitwui,Aikwuind,Ousuuvosp,Uohietreisk,Brouiuv,Ziodziosnee"
+  "b": "Los Polvorines,3431057,Lomas de Zamora,3431271,3432043,3432079,Jardín América,3433349,Ituzaingó,3433360,Hurlingham,3433522,Gualeguaychú,3433658,Gualeguay,3433663,Goya,3433715,Gobernador Virasora,3433753"
 },
 {
     "name": "Taa Click",
@@ -68,7 +68,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs"
+  "b": "General Pacheco,3433787,General Juan Madariaga,3433801,General José de San Martín,3433803,Garupá,3433836,3433899,3433901,Federal,3433956,Ezeiza,3433975,Esquina,3434095,El Soberbio,3434291,El Palomar,3434509"
 },
 {
     "name": "Ju/'hoan Click",
@@ -77,7 +77,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Ghanzi,Dekar,Kang,Tshane,Nata,Maun,Shakawe,Kasane,Gumare,Sebina,Matsiloje,Mogoditshane,Namagari,bokakwa,namapo,Tsumkwe,Rundu,Epukiro,Omatako,Nyae Nyae,Dobe,Okahandja,Otjiwarongo,Oshikango,Ondangwa,Oshakati,Ruacaca,Kondjaku,Nkurenkuru,Katwitwi,Kahenge,Andara,Mandume,Okandjatu,Samudupe,Tjaka,Steinhausen,Kornberg,Otjimbingwe,Karibib,Omaruru,Usakos,Arandis,Swakopmund,Walvis Bay,Henties Bay,Ongwediva"
+  "b": "Zapala,3832132,Yerba Buena,3832260,Villa Regina,3832647,Villa Paula de Sarmiento,3832653,3832662,Villa María,3832694,Villa Dolores,3832756,Villa Constitución,3832778,3832791,Villa Ángela,3832811,Villa Allende,3832815"
 },
 {
     "name": "Hadza Click",
@@ -86,7 +86,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Yumbi,yanga,nega,miko,hadza,kila,tesha,dooma,salama,Mangola,Endamaghang,Yaeda Chini,Kisimangeda,Gorofani,Barazani,Dunduhina"
+  "b": "Viedma,3832899,3832934,Vera,3833027,Venado Tuerto,3833062,Veinticinco de Mayo,3833112,3833367,Unquillo,3833412,Tres Isletas,3833794,Tres Arroyos,3833859,3833875,Trelew,Chubut,3833883"
 },
 {
     "name": "Sandawe Click",
@@ -95,7 +95,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Pahi,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela,Bumbuta,Mauno,Potea,Salare,Haubi,Sambwa"
+  "b": "Termas de Río Hondo,3834502,3834601,Tafí Viejo,3834813,Sunchales,3834971,3835793,3835869,3835994,3836194,3836277,San Salvador de Jujuy,3836564,San Ramón de la Nueva Orán,3836620,3836669,San Pedro de Jujuy,3836772,San Nicolás de los Arroyos"
 },
 {
     "name": "Bemba-Bembe-Fwe",
@@ -104,7 +104,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lusaka,Ndola,Kitwe,Chingola,Mufulira,Luanshya,Kasama,Mbala,Mansa,Chipata,Solwezi,Mazabuka,Mpongwe,Kabwe,Serenje,Kapiri Mposhi,Mwinilunga,Mongu,Senanga,Kaoma,Livingstone,Victoria Falls,Siavonga,Katima Mulilo,Kalabo,Nakonde,Mpororo,Mpulungu,Luwingu,Isoka,Chinsali,Mpika,Sesheke,Lukulu,Sioma,Mwandi,Pweto,Kasongo,Manono"
+  "b": "Carinthia,2760910,Wilten,Tyrol,2761164,Lower Austria,2761353,2761369,Wetzelsdorf,Styria,2761436,Upper Austria,2761524,2762372,2763423,Telfs,2763810,Straßgang,2764178,Stockerau"
 },
 {
     "name": "Southern Mongolic",
@@ -113,7 +113,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lanzhou,Wuwei,Zhangye,Jiuquan,Dunhuang,Zhongwei,Yinchuan,Wuzhong,Guyuan,Shapotou,Qingyang,Tianshui,Dingxi,Baiyin,Xining,Haibei,Haidong,Hainan,Huangyuan,Minhe,Ledu,Yongchang,Jinchang,Qinghai,Tongren,Haiyan,Jiayuguan,Tiechang"
+  "b": "2779469,2779674,2779912,2780361,2780741,2781503,2781680,2782067,2782315,2782555,8063098,11903636,11903637,11903638,11903639,11903640,Andritz,11903641,Gries,11903642"
 },
 {
     "name": "Mandara Chadic",
@@ -122,7 +122,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maroua,Mokolo,Mora,Kousseri,Yagoua,Garoua,Guider,Kaele,Pouss,Bogo,Fotokol,Tokombere,Hina,Bourrha,Koza,Zama,Kerawa,Gwoza,Mubi,Madagali,Bama,Banki,Mozogo,Rhumsiki,Mindif,Moulvoudaye,Gulak,Dapchi,Biu"
+  "b": "Währing,12196319,Landstraße,12214069,Margareten,12214070,Mariahilf,12214071,Neubau,12214072,Josefstadt,12214073,Alsergrund,12214080,Brigittenau,12214081,2061840,2062338,Port Hedland,2063042"
 },
 {
     "name": "Warao Delta",
@@ -131,7 +131,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Tucupita,Barrancas,Pedernales,Isla Tigre,Isla Curiapo,Isla Amacuro,Santa Catalina,San Jose de Amacuro,San Felix,Ciudad Guayana,Puerto Ordaz,Guasipati,El Dorado,Temblador,Soledad,La Horqueta,Rio Grande,Boca de Serpiente,Delta Amacuro"
+  "b": "Devonport,2168943,Deer Park,2169145,Deception Bay,2169220,Dandenong,2169460,2169867,Cronulla,2169956,2170079,2170089,2170307,2170435,2170697,2171085,2171168,2171400,2171507"
 },
 {
     "name": "Arabic Global",
@@ -140,7 +140,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "ae",
   "m": 0.2,
-  "b": "Cairo,Alexandria,Riyadh,Jeddah,Dubai,Abu Dhabi,Doha,Amman,Damascus,Aleppo,Baghdad,Basra,Khartoum,Casablanca,Algiers,Tunis,Tripoli,Muscat,Sanaa,Sharjah"
+  "b": "7281838,Carindale,7281839,Parramatta,7281840,Ferntree Gully,7281850,Adelaide Hills,7302628,Canning Vale,7302631,Glenmore Park,7302642,Southbank,7302683,Docklands,7521471,Helensvale,7576707,Elwood"
 },
 {
     "name": "Temiar",
@@ -149,7 +149,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gua Musang,Jeli,Kuala Krai,Gerik,Pos Blau,Pos Simpor,Pos Tohoi,Sungai Perak,Grik,Baling,Tanah Rata,Pos Kemar"
+  "b": "1188204,Sarishābāri,1188569,Sakhipur,1189056,Raojān,1189638,Phultala,1191139,Pālang,1191368,Pār Naogaon,1192366,Nagar Naluākot,1193745,Nabīnagar,1193823,Mohammadpur,1194041,Mātuail"
 },
 {
     "name": "Juk (Bahnaric)",
@@ -158,7 +158,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gia Lai,Kon Tum,Pleiku,Kon Tum City,An Khe,Ayun Pa,Chu Se,Dak Doa,Dak Lak,Buon Ma Thuot,Mang Yang,Cambodia,Ratanakiri,Stung Treng"
+  "b": "Salvaterra,3389780,Salitre,3389819,Salinópolis,3389822,Salgueiro,3389860,Russas,3390160,3390188,Rio Tinto,3390280,Rio Largo,3390288,Rio Formoso,3390295,3390326,Riacho das Almas,3390490"
 },
 {
     "name": "Wa",
@@ -167,7 +167,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wa State,Panghsang,Pangkham,Mongmao,Shan State,Kengtung,Lashio,Muse,Namhsan,Hopang,Menglian,Cangyuan,Lincang,Yunnan,Namhkam,Namtit"
+  "b": "Riachão,3390581,Reriutaba,3390659,Remígio,3390674,Remanso,3390682,Regeneração,3390700,Redenção,3390732,3390760,Quixeré,3390896,Quixeramobim,3390901,Quixelô,3390902,Quixadá"
 },
 {
     "name": "Bulu",
@@ -176,7 +176,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ebolowa,Sangmelima,Kribi,Campo,Ambam,Mvangan,Djoum,Meyomessala,Yaounde,Douala,Edea,Ngoulemakong"
+  "b": "3450671,3450710,3450719,3450759,3450817,3450832,3450843,3450872,3450873,3450909,3450963,3450964,3451051,3451055,3451071,3451094,3451100,3451102,3451121,3451124"
 },
 {
     "name": "Busa",
@@ -185,7 +185,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bussa,New Bussa,Borgu,Illo,Kaiama,Jebba,Yelwa,Kontagora,Bida,Ilorin,Minna,Niamey,Busa,Nikki,Kandi,Segbana,Banikoara,Gogounou,Kalale,Pehunco,Sinende,Bembereke,Parakou"
+  "b": "3451134,3451138,3451152,3451190,3451202,3451205,3451215,3451232,3451234,3451241,3451242,3451261,3451263,3451305,3451328,3451329,3451353,3451357,3451362,3451383"
 },
 {
     "name": "Fur",
@@ -194,7 +194,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "El Fasher,Nyala,Zalingei,Jebel Marra,Geneina,Kas,Kabkabiya,Kutum,Mellit,Ed Daein,Gereida,Bulbul,Wadi Salih,Um Dukhun,Bindisi,Mukjar,Wadi Azum,Golo,Rokero,Nertiti,Deribat,Kidingir,Thur,Guldo,Forobaranga,Habila,Murnei,Ardamata,Sirba,Kulbus"
+  "b": "3682573,3682631,3682682,3683233,3684276,3684452,3684579,3684615,3684666,3684689,3684917,3684945,3685084,3685095,3685273,3685295,3685335,3685435,3685533,3685724"
 },
 {
     "name": "Susu",
@@ -203,7 +203,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Conakry,Kindia,Forécariah,Dubréka,Boffa,Fria,Télimélé,Coyah,Kambia,Port Loko,Lungi,Mange,Kamakwie,Rokupr,Kukuna,Laya,Mambolo,Tombo,Benty,Kolenté,Souguéta,Mambia,Friguiagbé,Molota,Madina Oula,Wonkifong,Maferinyah"
+  "b": "3556168,3556268,3556334,3556351,3556437,3556969,3557332,3557347,3557378,3557689,3557758,3557801,3557846,3557923,3558315,3558729,3558744,3558771,3558792,Esmeralda"
 },
 {
     "name": "Yoruba",
@@ -212,7 +212,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ibadan,Lagos,Abeokuta,Akure,Ilorin,Oshogbo,Ife,Oyo,Ogbomosho,Ado Ekiti,Iwo,Ondo,Ijebu Ode,Sagamu,Ilesa,Ede,Ikirun,Ila Orangun,Offa,Ikare,Owo,Ijebu Igbo,Ikorodu,Epe,Badagry,Otta,Ilaro,Ayetoro,Igboora,Lanlate,Eruwa,Fiditi,Iseyin,Okeho,Saki,Kisi,Igbeti,Igboho,Omu Aran,Kabba,Ketu,Save,Sakete,Porto Novo,Atakpame"
+  "b": "2823590,Tegel,2823708,Taunusstein,2823799,Taufkirchen,2823812,Syke,2824461,Sundern,2824655,Sulzbach-Rosenberg,2824801,Sulzbach,2824841,Suhl,2824948,2825297,Stuhr,2825422"
 },
 {
     "name": "Ait Seghrouchen Berber",
@@ -221,7 +221,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Taza,Boulemane,Missour,Outat El Haj,Guercif,Sefrou,Ifrane,Azrou,El Hajeb,Midelt,Zeida,Itzer,Skoura M'Daz,El Menzel,Ribat El Kheir,Bir Tam Tam,Ras El Ma,Immouzer Kandar,Dayet Aoua,Ain Leuh,Timahdite,Bekrit"
+  "b": "2833296,Sehnde,2833475,Seevetal,2833564,2833592,Seelze,2833641,Schwetzingen,2834240,Schwerte,2834265,2834282,Schwelm,2834372,2834498,Schwedt (Oder),2834629,Schwarzenberg,2834978"
 },
 {
     "name": "Amharic",
@@ -230,7 +230,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Axum,Lalibela,Harar,DebreBerhan,DebreMarkos,DebreTabor,Sebeta,Ambo,Gonder,Woldia,Metekel,Assosa,AddisAbaba,BahirDar,Dessie,Mekelle,DireDawa,Jimma,Hawassa,Bishoftu,Adama,Shashamane,ArbaMinch,Hosanna,Sodo,Dilla,Nekemte,DebreZeit,Kombolcha,Jijiga,Gambela,Semera,Asaita,Goba,Robe,Butajira,Ziway,Modjo,Welkite,Areka,Boditi,Jinka,Sawla,Bonga,MizanTeferi,Tepi,Metu,Bedele,Gimbi,DembiDolo,NegeleBorana,Yabelo,Moyale,Adwa,Shire,Humera,Alamata,Maychew,Korem,Debark,Dabat,AddisZemen,Wereta,Hamusit,Libo,AmbaMariam"
+  "b": "Darmstadt,2938913,Damme,2939167,Dahlem,2939440,2939623,Cuxhaven,2939658,Crimmitschau,2939747,Crailsheim,2939797,2939811,Coswig,2939820,Coesfeld,2939945,2939951,Cloppenburg"
 },
 {
     "name": "Amharic-Argobba",
@@ -239,7 +239,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harar,DireDawa,Jijiga,Chiro,Gode,KebriDehar,Degehabur,Filtu,Gurdumi,Shinile,Erer,Babile,Shonke,Tolaha,AliyuAmba,Ankober,Berehet,Mafud,Hundene,Bisidimo,Koromi,Metahara,Awash,Gewane,ErerGota,Hurso,Gursum,Chinaksen,FugnanBira,Fedis,MidegaTola,Grawa,KurfaChele"
+  "b": "2939969,Clausthal-Zellerfeld,2939995,Chemnitz,2940132,Charlottenburg,2940187,2940204,2940213,Castrop-Rauxel,2940231,Calw,2940383,Buxtehude,2940451,Butzbach,2940512,Bürstadt,2940938,Burscheid"
 },
 {
     "name": "Arabic Javanese of Klego",
@@ -248,7 +248,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jakarta,Surabaya,Bandung,Medan,Semarang,Makassar,Palembang,Tangerang,Depok,Bekasi,Bogor,Batam,South Tangerang,Malang,Yogyakarta"
+  "b": "Guerara,2495524,2495601,2495662,Grarem,2495846,Ghazaouet,2496042,2496049,Gdyel,2496059,Frenda,2496232,Freha,2496241,Feraoun,2496573,Feidh el Botma,2496643,Fedj M’Zala"
 },
 {
     "name": "Mongolian",
@@ -257,7 +257,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "aou",
   "m": 0,
-  "b": "Adaatsag,Airag,Alag Erdene,Altai,Altanshiree,Altantsogts,Arbulag,Baatsagaan,Batnorov,Batshireet,Battsengel,Bayan Adarga,Bayan Agt,Bayanbulag,Bayandalai,Bayandun,Bayangovi,Bayanjargalan,Bayankhongor,Bayankhutag,Bayanlig,Bayanmonkh,Bayannur,Bayannuur,Bayan Ondor,Bayan Ovoo,Bayantal,Bayantsagaan,Bayantumen,Bayan Uul,Bayanzurkh,Berkh,Biger,Binder,Bogd,Bombogor,Bor Ondor,Bugat,Bugt,Bulgan,Buregkhangai,Burentogtokh,Buutsagaan,Buyant,Chandmani,Chandmani Ondor,Choibalsan,Chuluunkhoroot,Chuluut,Dadal,Dalanjargalan,Dalanzadgad,Darhan Muminggan,Darkhan,Darvi,Dashbalbar,Dashinchilen,Delger,Delgerekh,Delgerkhaan,Delgerkhangai,Delgertsogt,Deluun,Deren,Dorgon,Duut,Erdene,Erdenebulgan,Erdeneburen,Erdenedalai,Erdenemandal,Erdenetsogt,Galshar,Galt,Galuut,Govi Ugtaal,Gurvan,Gurvanbulag,Gurvansaikhan,Gurvanzagal,Hinggan,Hodong,Holingol,Hondlon,Horin Ger,Horqin,Hulunbuir,Hure,Ikhkhet,Ikh Tamir,Ikh Uul,Jargalan,Jargalant,Jargaltkhaan,Jarud,Jinst,Khairkhan,Khalhgol,Khaliun,Khanbogd,Khangai,Khangal,Khankh,Khankhongor,Khashaat,Khatanbulag,Khatgal,Kherlen,Khishig Ondor,Khokh,Kholonbuir,Khongor,Khotont,Khovd,Khovsgol,Khuld,Khureemaral,Khurmen,Khutag Ondor,Luus,Mandakh,Mandal Ovoo,Mankhan,Manlai,Matad,Mogod,Monkhkhairkhan,Moron,Most,Myangad,Nogoonnuur,Nomgon,Norovlin,Noyon,Ogii,Olgii,Olziit,Omnodelger,Ondorkhaan,Ondorshil,Ondor Ulaan,Ongniud,Ordos,Orgon,Orkhon,Rashaant,Renchinlkhumbe,Sagsai,Saikhan,Saikhandulaan,Saikhan Ovoo,Sainshand,Saintsagaan,Selenge,Sergelen,Sevrei,Sharga,Sharyngol,Shine Ider,Shinejinst,Shiveegovi,Sumber,Taishir,Tarialan,Tariat,Teshig,Togrog,Togtoh,Tolbo,Tomorbulag,Tonkhil,Tosontsengel,Tsagaandelger,Tsagaannuur,Tsagaan Ovoo,Tsagaan Uur,Tsakhir,Tseel,Tsengel,Tsenkher,Tsenkhermandal,Tsetseg,Tsetserleg,Tsogt,Tsogt Ovoo,Tsogttsetsii,Tumed,Tunel,Tuvshruulekh,Ulaanbadrakh,Ulaankhus,Ulaan Uul,Ulanhad,Ulanqab,Ulaanbaatar,Erdenet,Ulaangom,Uliastai,Mandalgovi,Uyench,Yesonbulag,Zag,Zalainur,Zamyn Uud,Zereg"
+  "b": "2503847,Birine,2503852,Bir el Djir,2503874,Bir el Ater,2503878,Besbes,2504072,Berrouaghia,2504099,Berriane,2504110,Berrahal,2504136,Bensekrane,2504385,Ben Mehidi,2504486,Beni Tamou"
 },
 {
     "name": "Wolof",
@@ -266,7 +266,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dakar,Thies,Rufisque,Kaolack,Diourbel,Louga,Saint-Louis,Richard-Toll,Mbour,Fatick,Foundiougne,Podor,Mboro,Nguekhokh,Guinguineo,Joal,Fimela,Sokone,Ndiaganiao,Tivaouane"
+  "b": "2508059,Aïn Fakroun,2508102,’Aïn el Turk,2508119,’Aïn el Melh,2508130,’Aïn el Hammam,2508152,Ain el Hadjel,2508157,Aïn el Bya,2508174,’Aïn el Berd,2508180,’Aïn el Bell,2508184,’Aïn Deheb,2508225,2508228"
 },
 {
     "name": "Sesotho",
@@ -275,7 +275,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maseru,Teyateyaneng,Mafeteng,Mohale's-Hoek,Quthing,Qacha's-Nek,Mokhotlong,Butha-Buthe,Leribe,Hlotse,Maputsoe,Semonkong,Thaba-Tseka,Mount-Moorosi,Sehonghong,Phuthaditjhaba,Ficksburg,Bethlehem,Clocolan,Senekal"
+  "b": "Aïn Bessem,2508268,’Aïn Benian,2508275,Aïn Beïda,2508287,’Aïn Azel,2508295,Aïn Arnat,2508297,’Aïn Abid,2508309,Ahmed Bel Hadj,2508455,Aflou,2508737,2508813,Abou el Hassan,2509031,Babor"
 },
 {
     "name": "Tswana",
@@ -284,7 +284,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaborone,Francistown,Molepolole,Maun,Serowe,Palapye,Mochudi,Lobatse,Jwaneng,Selebi-Phikwe,Tlokweng,Ramotswa,Letlhakane,Mahalapye,Ghanzi,Kanye,Otse,Mmankgodi,Thamaga,Mmadinare"
+  "b": "6698360,6930641,Ali Mendjeli,11204500,District of Taher,12326384,Collo,12640237,Maâtkas,12640238,Sidi Amar,12640239,Zamora Chinchipe,3649959,Yaguachi Nuevo,Guayas,3650121,Vinces,Los Rios,3650186"
 },
 {
     "name": "Shona",
@@ -293,7 +293,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harare,Bulawayo,Mutare,Gweru,Masvingo,Kwekwe,Chitungwiza,Chinhoyi,Bindura,Marondera,Chipinge,Beitbridge,Gokwe,Karoi,Rusape,Gwanda,Lupane,Nyanga,Murehwa,Redcliff"
+  "b": "Ventanas,3650267,3650273,3650301,3650472,3650721,Manabi,3650960,Santo Domingo de los Tsachilas,3651297,El Oro,3651356,3651438,3651694,3652065,3652100,3652257,Chimborazo Province,3652350,Pichincha"
 },
 {
     "name": "Tumbuka",
@@ -302,7 +302,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kioswiokree,Uoziekreith,Oislqoi,Snioxifrau,Kwiopringau,Ciokairui,Fliontiovee,Qouiuzh,Ntiospaijui,Oisnjoi,Iisledzius,Aisnuiw"
+  "b": "3652462,Quevedo,3652567,Pastaza Province,3652584,3652684,Orellana Province,3652743,3652928,Portoviejo,3652941,3652977,3653015,Piñas,3653130,Pelileo,Tungurahua Province,3653287,Pedro Carbo,3653295"
 },
 {
     "name": "Sakata",
@@ -311,7 +311,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boma,Muanda,Banza,Tshela,SekeBananga,Lukula,Kisangani,Buta,Aketi,Bambesa,Isiro,Mongala"
+  "b": "Pasaje,3653403,Imbabura,3653693,3653873,Naranjal,3653882,Montecristi,3654055,Montalvo,3654064,Milagro,3654215,Manta,3654410,Machala,3654533,Machachi,3654536,Morona-Santiago Province"
 },
 {
     "name": "Zulu",
@@ -320,7 +320,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Durban,Pietermaritzburg,Umlazi,KwaMashu,Empangeni,Richards-Bay,Newcastle,Stanger,Port-Shepstone,Ulundi,Eshowe,Greytown,Ladysmith,Howick,Hammarsdale,Tugela,Felixton,Umzimkhulu,Harding,Melmoth"
+  "b": "3654541,3654667,La Troncal,Canar,3654853,3654870,La Maná,3655117,3655131,Nueva Loja,Sucumbios,3655185,Jipijapa,3655446,3655673,Huaquillas,3655720,3657509,3657571,Gualaceo"
 },
 {
     "name": "Southern Ndebele",
@@ -329,7 +329,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Middelburg,Emalahleni,Witbank,Standerton,Belfast,Machadodorp,Kriel,Arnot,Delmas,Secunda,Vanderbijlpark,Verena"
+  "b": "3657670,Guabo,3657722,3657990,3658053,Eloy Alfaro,3658192,Daule,3658501,3658666,Chone,3659139,Cayambe,3659578,Catamayo,3659599,Cariamanga,3659711,Calceta,3659926"
 },
 {
     "name": "Sumayela Ndebele",
@@ -338,7 +338,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bulawayo,Hwange,VictoriaFalls,Kariba,Karoi,Chinhoyi,Kadoma,Kwekwe,Gweru,Masvingo,Maronderangwa,Mutare"
+  "b": "Boca Suno,3660152,Balzar,3660361,Bahía de Caráquez,3660401,Babahoyo,3660418,Azogues,3660434,Atuntaqui,3660478,Arenillas,3660559,3660689,Viljandimaa,587577,588335,Harjumaa,588409"
 },
 {
     "name": "Tsonga or Xitsonga",
@@ -347,7 +347,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maputo,XaiXai,Inhambane,Maxixe,Chokwe,Massinga,Vilankulo,Chibuto,Manjacaze,Macia,Bilene"
+  "b": "Paernumaa,589580,Nõmme,589947,Ida-Virumaa,590031,590447,591260,Zefta,Gharbia,346030,Zaafarana,346201,Ţūkh,Qalyubia,347236,Timayy al Imdīd,347289,Ţimā,347296"
 },
 {
     "name": "Jurchen",
@@ -356,7 +356,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beijing,Tianjin,Qinhuangdao,Tangshan,Cangzhou,Langfang,Zhangjiakou,Chengde,Baoding,Datong,Jinzhou,Huludao"
+  "b": "359815,359823,359841,359849,359867,359892,359900,359953,360048,360150,360159,360170,360464,360471,360502,360526,360531,360542,360577,360610"
 },
 {
     "name": "Baarin Mongol",
@@ -365,7 +365,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "aou",
   "m": 0,
-  "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,MÃ¶rÃ¶n,Nalaikh,Bayankhongor,Ã–lgii,Khovd,Arvaikheer,Ulaangom,Baganuur,Yangon,Mandalay,Naypyidaw,Bago,Mawlamyine,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha,Lashio"
+  "b": "12640381,13118928,Western Sahara,2461993,2462881,2463029,2463447,Northern Red Sea,330546,Anseba,333287,334717,342711,Maekel,343300,Southern Red Sea,343386,Debub,344901,2509305"
 },
 {
     "name": "El Molo",
@@ -374,7 +374,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "El Molo,Lake Turkana,Marsabit,Moyale,Chalbi Desert,North Horr,Koobi Fora,Kakuma,Kenya,Turkana,Loiyangalani"
+  "b": "3116224,3116262,3116478,3116503,3116527,3116553,3116562,3116653,3116689,3116789,3116963,3117010,3117164,3117232,3117331,3117409,3117533,3117539,3117636,3117667"
 },
 {
     "name": "Somali",
@@ -383,7 +383,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mogadishu,Hargeisa,Berbera,Bosaso,Kismayo,Garowe,Galkayo,Burao,Borama,Beledweyne,Baidoa,Marka,Jowhar,Afgooye,Bardera,Luuq,Erigavo,Lasanod,Gaalkacyo,Eyl"
+  "b": "3117735,3117814,3118150,3118212,3118228,3118514,3118532,3118554,3118594,3118848,3119027,3119045,Sant Pere, Santa Caterina i La Ribera,3119123,3119198,3119231,3119536,3119631,3119739,3119746"
 },
 {
     "name": "Bambara",
@@ -392,7 +392,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamako,SÃ©gou,Koutiala,Sikasso,Bougouni,San,Banamba,Kolokani,Kati,Kayes,Koulikoro,Dioila,Bla,Tominian,Mopti,DjennÃ©,Bankass,Bandiagara,TÃ©nenkou,Niono"
+  "b": "336931,337010,Gēdo,337083,337114,Gebre Guracha,337152,337405,Funyan Bīra,337614,337712,Filakit,337748,337771,Felege Neway,337853,Felana,337864,Golwayn,338123"
 },
 {
     "name": "Harari-East Gurage",
@@ -401,7 +401,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harari-East,Koumbia,Mao,Guerey,Banki,Bodi,Ngaoundere,Gobir,Kargari,Yalogo"
+  "b": "344267,‘Alem Ketema,344272,344282,344357,344420,Hagere Maryam,344620,344661,344797,Ādīs Zemen,344923,Ādīs K’idamē,344928,Ādīs ‘Alem,344976,344979,345149,Ādēt,345353"
 },
 {
     "name": "Bayat Oirat",
@@ -410,7 +410,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Altay,Gorno-Altaysk,Biysk,Choy,Maima,Rubtsovskoy,Shebalino,Soloneshnoye,Turochak,Chemal,Ust-Kan"
+  "b": "2972350,Torcy,2972444,2972742,2972811,Thiais,2972893,Tergnier,2973146,Paris 03 Temple,2973189,Taverny,2973258,Tassin-la-Demi-Lune,2973317,2973385,Talence,2973495,Suresnes,2973675"
 },
 {
     "name": "Kuan",
@@ -419,7 +419,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kuan,Kaili,Danansai,Guizhou,Liuzhi,Qiandong,Zhenyuan,Songtao,Leigun,Rongjiang"
+  "b": "2992367,Montigny-lès-Metz,2992402,Montigny-lès-Cormeilles,2992404,Montigny-le-Bretonneux,2992415,Montgeron,2992536,Montfermeil,2992616,Montesson,2992650,Montereau-Fault-Yonne,2992671,Montélimar,2992703,2992771,Montceau-les-Mines,2992863"
 },
 {
     "name": "Mobilian Jargon",
@@ -428,7 +428,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mobile,Pascagoula,Biloxi,Gulfport,Biloxi Bay,Mobile Bay,Tombigbee River,Pascagoula River,Alabama River,Pearl River,Choctawhatchee,Mobile County"
+  "b": "Étampes,3019459,La Baule-Escoublac,3019766,Ermont,3019897,Éragny,3019952,Équeurdreville-Hainneville,3019960,Épinay-sur-Seine,3020020,3020035,3020062,Paris 10 Entrepôt,3020216,Paris 08 Élysée,3020270,Elbeuf,3020307"
 },
 {
     "name": "Mojave",
@@ -437,7 +437,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mojave,Needles,Bullhead City,Lake Havasu City,Laughlin,Kingman,Fort Mohave,Oatman,Golden Shores,Parker,Topock,Poston"
+  "b": "3024597,3024635,Clamart,3024783,3025053,Choisy-le-Roi,3025055,Chilly-Mazarin,3025144,Chevilly-Larue,3025314,Cherbourg,3025466,Chenôve,3025496,Chennevières-sur-Marne,3025509,Chelles,3025622,Chaville"
 },
 {
     "name": "Beli",
@@ -446,7 +446,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beli,Changchun,Chongqing,Yibin,Zhongqing,Hechuan,Nanchong,Chengdu,Neijiang,Guang'an,Fuling,Mianyang"
+  "b": "3038354,3038634,Agde,3038638,Achères,3038712,3038789,Paris 01 Louvre,6269531,Villeneuve-d'Ascq,6543862,Lyon 02,6543968,Lyon 03,6543969,Lyon 04,6543970,Lyon 05,6543971,Lyon 06"
 },
 {
     "name": "Bemba",
@@ -455,7 +455,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bemba,Bamenda,Bertoua,Guider,Ngong,Mbe,Meiganga,Mom,Banyo,Mbombari,Bankim"
+  "b": "6543972,Lyon 07,6543973,Lyon 08,6543974,Lyon 09,6543975,Les Ulis,6615536,Lyon 01,6949674,Marseille 01,7284882,Marseille 02,7284883,Marseille 03,7284884,Marseille 04,7284885,Marseille 05"
 },
 {
     "name": "Fwe",
@@ -464,7 +464,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fwe,Mababe,Nxai Pan,Gweta,Nata,Sowa,Pandamatenga,Kasane,Kazungula,Maun,Sehonghong,Mohembo"
+  "b": "7284886,Marseille 06,7284887,Marseille 07,7284888,Marseille 08,7284889,Marseille 10,7284890,Marseille 09,7284891,Marseille 11,7284892,Marseille 12,7284893,Marseille 13,7284894,Marseille 14,7284895,Marseille 15"
 },
 {
     "name": "Biu-Mandara",
@@ -473,7 +473,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Biu-Mandara,Mafa,Giziga,Mandara,Mokoko,Mofu,Bata,Guduf,Zizilivakan,Muyang,Dghwede,Biya"
+  "b": "Dumbarton,2650802,Dukinfield,2650815,2650839,Droylsden,2650962,Dronfield,2650967,Droitwich,2650983,2651048,Dorking,2651095,Dorchester,2651101,2651123,Dinnington,2651241,Didcot"
 },
 {
     "name": "Central Banda",
@@ -482,7 +482,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Central Banda,CAR,Bangassou,Bouar,M'BaÃ¯ssÃ©,Bambari,Koumba,Bamingui,Grebaya,Chad,Ibbi,AbÃ©chÃ©,N'Djamena"
+  "b": "Cheung Chau,1819968,Chek Chue,1819980,1931681,Fortress Hill,7778986,8224045,Wong Chuk Hang,9172583,10170102,11101593,Sung Wong Toi,12640671,So Uk,12640674,City One,12640679,12640681,Kadoorie"
 },
 {
     "name": "Xhosa",
@@ -491,7 +491,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mthatha,East-London,Port-Elizabeth,King-William's-Town,Bisho,Butterworth,Idutywa,Engcobo,Qumbu,Lusikisiki,Libode,Elliotdale,Fort-Beaufort,Alice,Stutterheim,Queenstown,Cathcart,Komani,Ngcobo,Ngqeleni"
+  "b": "12640682,Kai Tak,12640684,The Peak,12640687,12640693,Pok Hong,12687141,Shui Chuen O,12687143,12687144,Discovery Park,12689054,12689055,Olympic,12689056,Whampoa,12689057,Laguna City,12689059"
 },
 {
     "name": "Chewa",
@@ -500,7 +500,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lilongwe,Salima,Blantyre,Zomba,Nkhotakota,Kasungu,Karonga,Machinga,Mulanje,Balaka,Dedza,Mzuzu,Mangochi,Nsanje,Rumphi,Mchinji,Mzimba,Nkhata Bay,Thyolo,Chikwawa,Chiradzulu,Dowa,Ntcheu,Limbe,Liwonde,Luchenza,Phalombe,Neno,Njata,Zalewa,Malosa,Marka,Monkey Bay,Bangula,Chiwembe,Domasi,Nkaya,Chitipa,Chilumba,Ekwendeni,Likoma,Livingstonia,Chintheche,Embangweni,Aaron,Chipoka,Madisi,Nkhoma,Ntchisi"
+  "b": "Choi Wan,12689060,Sun Tin Wai,12689062,Pat Heung,12689063,Butterfly,12689065,Fairview Park,12689069,Shap Pat Heung,12719430,South Horizons,12719432,LOHAS Park,12719433,Braemar Hill,12719438,Hok Yuen,12719439"
 },
 {
     "name": "Tetela",
@@ -509,7 +509,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tetela,Congo,South Kivu,Lubumbashi,Kindu,Mbuji-Mayi,Kananga,Mbuji,Maniema,Kalemie,Kikwit"
+  "b": "Laguna Verde,12719440,12719443,Lee On,12719444,Kam Ying,12719445,12719540,Aldrich Bay,12719542,City Garden,12719544,Keng Hau,12719547,Un Chau Estate,12719552,Pak Tin Estate,12719553,Shek Kip Mei Estate,12719555"
 },
 {
     "name": "Tonga Malawi",
@@ -518,7 +518,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tonga,Nkhata Bay,Chitipa,Karonga,Mzimba,Rumphi,Lake Malawi,Nkhata Bay District"
+  "b": "1625420,1625585,1625708,1625812,1625822,Sungai Raya,West Kalimantan,1625908,Sungai Penuh,1625929,Sungailiat,1625958,1626099,Sumedang Utara,1626100,1626103,Sumberpucung,1626134,1626183,1626185"
 },
 {
     "name": "Totela",
@@ -527,7 +527,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Totela,Mongu,Limulunga,Nalolo,Senanga,Barotse Floodplain,Western Zambia"
+  "b": "Sokaraja,1626312,1626381,1626444,Srono,1626486,Srandakan,1626493,Sragen,1626498,1626542,Soreang,1626560,West Sumatra,1626649,Soko,1626673,1626698,1626703,Sleman"
 },
 {
     "name": "Venda",
@@ -536,7 +536,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Venda,Polokwane,Louis Trichardt,Makhado,Limpopo,South Africa,Zimbabwe Border"
+  "b": "1626754,Slawi,1626758,1626801,Sintang,1626887,1626895,Singosari,1626899,Singojuruh,1626903,Singkawang,1626916,1626921,1626932,Singaparna,1626936,1627035,1627185,1627253"
 },
 {
     "name": "Gola",
@@ -545,7 +545,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bopolu,Bomi,Tubmanburg,Robertsport,Madina,Royesville,Mambo,Totoquelleh,Sasstown,Sinje,Voinjama,Foya,Kolahun,Kle,Menikoma,Massabolahun,Belle,Yekepa,Gbarnga,Ganta"
+  "b": "1630333,1630341,Purbalingga,1630366,Pundong,1630416,1630634,Prigen,1630649,1630662,Candi Prambanan,1630681,Central Sulawesi,1630723,1630789,Ponorogo,1630798,West Sulawesi,1630935,Plumbon"
 },
 {
     "name": "Sebat Bet Gurage",
@@ -554,7 +554,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sebat Bet Gurage,Butajira,Wolkite,Ethiopia,Gurage Zone,Southwest Ethiopia"
+  "b": "Pasarkemis,1632228,Parung,1632276,1632334,1632353,Pare,1632358,Panji,1632566,1632654,Pangkalanbuun,1632694,1632823,Pandaan,1632859,Pandak,1632861,Panarukan,1632903"
 },
 {
     "name": "Soninke",
@@ -563,7 +563,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nioro,Diema,Kayes,Ambidedi,Gourma,Rharous,Diafounou,BafoulabÃ©,Medine,Mourdiah,Didieni,Satadougou,Goumbou,Guidimakha,SÃ©libaby,Ould-YengÃ©,Tachott,Bakel,Matam,Ourossogui"
+  "b": "1635882,1635984,1636022,1636029,Margasari,1636121,Margahayukencana,1636125,1636308,Manismata,1636322,Manggar,1636426,Mendaha,1636507,1636544,Malinau,1636657,1636722,1636806"
 },
 {
     "name": "Jerba Berber",
@@ -572,7 +572,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Jerba Berber,Jerba,Tataouine,Morocco,Atlas Mountains,North Africa"
+  "b": "Peddanāyakkanpālaiyam,1259965,Pedana,1259986,Payyanur,1259994,Pawāyan,1260003,Pāvugada,1260014,1260016,Pawni,1260022,Pātūr,1260035,Pattukkottai,1260040,Pattiyūrgrāmam,1260041,Patti"
 },
 {
     "name": "South Oran-Figuig Berber",
@@ -581,7 +581,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Figuig,BÃ©char,BÃ©ni AbbÃ¨s,NaÃ¢ma,Taghit,Kenadsa,Morocco,Algeria Border,Sahara Desert,North Africa"
+  "b": "1260045,Pattan,1260050,1260052,Patrātu,1260063,Patnāgarh,1260082,1260086,1260107,Pāthri,1260120,Patharia,1260129,Pāthardih,1260134,Pāthardi,1260135,1260137,1260138"
 },
 {
     "name": "Dongo",
@@ -590,7 +590,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Spioslioflee,Ointtwoi,Uaphtru,Aizhuik,Dziozhioxee,Ouxuurosw,Fliontivau,Iombeent"
+  "b": "1261800,Narela,1261809,1261810,Nārāyanpet,1261823,Nārāyankher,1261826,Naraingarh,1261828,Nāravārikuppam,1261835,Naraura,1261837,Narauli,1261839,1261848,Narasapur,1261852,Narasannapeta"
 },
 {
     "name": "Dinka",
@@ -599,7 +599,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dinka,Juba,Bor,Malakal,Wau,Aweil,Rumbek,South Sudan,White Nile,Nile River"
+  "b": "1263522,Mariāhu,1263523,Marhaura,1263528,1263532,Marakkanam,1263564,Marayur,1263566,Mārahra,1263567,1263580,Manwath,1263591,1263594,Manthani,1263610,1263622,1263623"
 },
 {
     "name": "Eastern Berber",
@@ -608,7 +608,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eastern Berber,Fez,Marrakech,Casablanca,Morocco,Atlas Mountains,North Africa"
+  "b": "1263826,Mandsaur,1263834,Mandlā,1263852,Mandi Dabwāli,1263859,1263862,Mandāwar,1263879,Mandāwa,1263883,Mandapeta,1263898,Mandapam,1263900,Māndalgarh,1263911,Māndal,1263917"
 },
 {
     "name": "Eastern Middle Atlas Berber",
@@ -617,7 +617,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Eastern Middle Atlas Berber,Meknes,Fez,Ifrane,Morocco,Middle Atlas"
+  "b": "1264756,1264757,Loni,1264773,Lonavla,1264793,Lonar,1264794,Lonand,1264795,1264839,Lohāra,1264845,1264890,Limbdi,1264912,Leteri,1264949,1264976,1264986"
 },
 {
     "name": "Eastern Morocco Zenati",
@@ -626,7 +626,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eastern Morocco Zenati,Oujda,Fes,Meknes,Morocco,Northeast Africa,Mediterranean"
+  "b": "Lalgudi,1265163,Lālgola,1265166,Lālganj,1265169,1265170,1265201,Laksar,1265208,Lakhyabad,1265220,Lakhnādon,1265233,Lakhipur,1265239,1265242,Lākheri,1265246,Lāharpur"
 },
 {
     "name": "Fali of Mubi",
@@ -635,7 +635,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mubi,Bama,Gwoza,Madagali,Hong,Mubi North,Adamawa State,Nigeria,Cameroon Border"
+  "b": "Kātoya,1267457,Kātol,1267461,1267480,1267486,Kāthor,1267492,Kathlāl,1267495,Katghora,1267517,Katangi,1267537,1267538,Kasrāwad,1267558,Kāsībugga,1267573,1267579"
 },
 {
     "name": "Fang Equatorial Guinea and Gabon",
@@ -644,7 +644,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malabo,Bata,Ebebiyen,Acong,Libreville,Port-Gentil,Oyem,Franceville,Mouila,Bitam,Ebowa,Equatorial Guinea,Gabon"
+  "b": "Kāsganj,1267588,1267616,Kasāra,1267617,Chitrakoot Dham,1267629,1267635,1267648,Karungappalli,1267657,Karumattampatti,1267661,Kartārpur,1267669,1267675,Karol Bāgh,1267696,1267708,Karmāla"
 },
 {
     "name": "Fula",
@@ -653,7 +653,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaedi,Boghe,Selibaby,Matam,Podor,Thiadiaye,Tamba,LabÃ©,Pita,Mamou,LÃ©louma,TouguÃ©,Koundara,Gaoual,Koulikoro,Kayes,Segou,Diema,Nioro,Bakel"
+  "b": "Fīrozpur Jhirka,1271881,1271883,Fīrozābād,1271885,Ferokh,1271888,Fazilka,1271891,Fatwa,1271892,1271900,1271910,1271911,1271912,Fatehgarh Chūriān,1271923,Fatehganj West,1271929,Fatehābād"
 },
 {
     "name": "Furu",
@@ -662,7 +662,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Furu,Isangi,Wandala,Tshuapa,Ngolo,Boso,Bunia,Busanza,DR Congo"
+  "b": "1271934,1271936,Farrukhnagar,1271940,Farrukhābād,1271942,1271947,1271949,1271951,Farakka,1271954,Fālākāta,1271965,Faizpur,1271975,Fyzābād,1271976,Ettumānūr,1271982,Etāwah"
 },
 {
     "name": "Hdi",
@@ -671,7 +671,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tourou,Mokolo,Mayo,Tsanaga,Xed,Hdii,Frajzyngier,Shay,Bot,Ornit,Dagestan,Nigeria,Mandara Mountains"
+  "b": "Dātāganj,1273409,Dasūya,1273410,Dāsna,1273416,Daryāpur,1273434,Dārwha,1273440,Darsi,1273448,Dārjiling,1273467,1273491,Dāpoli,1273512,Danta,1273528,1273574"
 },
 {
     "name": "Igbo",
@@ -680,7 +680,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Enugu,Onitsha,Aba,Owerri,Umuahia,Nnewi,Awka,Abakaliki,Orlu,Okigwe,Asaba,Oguta,Ogidi,Nsukka,Ohafia,Mbaise,Ngwa,Ikot-Ekpene,Obosi,Okpoko"
+  "b": "1275708,Bihtā,1275712,Bihār Sharīf,1275716,Bihārīganj,1275719,Bidhūna,1275732,Bīdāsar,1275736,1275738,Biaora,1275762,Kīl Bhuvanagiri,1275768,Boothapandi,1275775,1275778,Bhundsi"
 },
 {
     "name": "Hausa",
@@ -689,7 +689,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kano,Kaduna,Zaria,Katsina,Sokoto,Gusau,Bauchi,Gombe,Jos,Dutse,Azare,Potiskum,Funtua,Daura,Kazaure,Birnin-Kebbi,Kontagora,Minna,Malumfashi,Wudil"
+  "b": "1277255,Banmankhi,1277263,Bānkura,1277264,1277273,Bankāpur,1277283,1277289,Bāngarmau,1277318,1277320,Bangaon,1277322,1277324,Banganapalle,1277330,1277333,1277338,Bandipura"
 },
 {
     "name": "Hausa-Gwandara",
@@ -698,7 +698,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hausa,Gwandara,Kaduna,Kano,Zaria,Dutse,Birnin Kebbi,Nigeria,North,West"
+  "b": "1277358,Bāndīkūi,1277362,1277397,1277398,Banat,1277409,Bānapur,1277426,Bāmor Kalān,1277442,Bāmaur,1277482,Balussheri,1277505,Bālurghāt,1277508,Bālugaon,1277514,Bālugān"
 },
 {
     "name": "Modern Armenian",
@@ -707,7 +707,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "hayeren,Yerevan,Gyumri,Vanadzor,Abovyan,Kapan,Armavir,Gavar,Ararat,Ashtarak,Ijevan"
+  "b": "1277780,Bahraigh,1277799,Bahjoi,1277808,Baheri,1277814,Baharampur,1277820,Bahadurgarh,1277835,Bahādurganj,1277836,Bāh,1277841,Bagulā,1277844,Bāghpat,1277882,Bagdogra"
 },
 {
     "name": "Modern Eastern Armenian",
@@ -716,7 +716,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Modern,Eastern,Armenian,Yerevan,Sevan,Gyumri,Tavush,Republic,of,Armenia,Caucasus"
+  "b": "1277897,Bagha Purana,1277902,1277909,Bāgbahra,1277918,Bagasra,1277924,Bagar,1277930,1277936,Bagaha,1277939,1277940,Badvel,1277949,Badūria,1277950,Bādshāhpur,1277955"
 },
 {
     "name": "Kumbaran",
@@ -725,7 +725,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Palakkad,Wayanad,Kozhikode,Kannur,Malappuram,Thrissur,Malabar,Nilgiris,Kerala,Tamil-Nadu,Karnataka,Kumbara,Potter,Shoranur,Ottapalam,Pattambi,Cherpulassery,Mannarkkad,Perinthalmanna,Nilambur,Manjeri,Kondotty,Tirur,Ponnani,Valanchery"
+  "b": "Ashoknagar Kalyangarh,7302861,Bahula,7302862,Thanneermukkom,7303235,Aymanam,7576656,Bhawanipur,7626554,Bakhtiarpur,7626561,Pimpri-Chinchwad,7626690,Zira,7645176,Longowal,7645181,7646705,Shamshabad"
 },
 {
     "name": "Tidikelt Berber",
@@ -734,7 +734,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "In Salah,Foggaret Ezzaouia,In Ghar,Tit,Akabli,Aoulef,Reggane,Timimoun,El Golea,Ghardaia,El Guerrara,Metlili"
+  "b": "8441290,Azhikkōd,8441383,8441674,Nannambra,8441929,Vellalūr,8441952,Thimiri,8442323,Tādikombu,8442529,Mechcheri,8442536,Vāniyamkulam,8443029,Mehidpur,8457516,Khoni,8468820"
 },
 {
     "name": "Juk",
@@ -743,7 +743,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sekong,Lamam,Kaleum,Dakcheung,Thateng,Paksong,Attapeu,Saravane,Pakse,Champasak"
+  "b": "10209444,Chāndāmeta,10210427,Wānādongri,10214288,Nildoh,10214289,Vadgaon,10214681,Umarsera,10214682,Belpahar,10244604,Bhauri,10249440,Mahna,10249538,Rāman,10249965,Bhuwāna"
 },
 {
     "name": "Tuwat Berber",
@@ -752,7 +752,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Adrar,Timimoun,Reggane,Aoulef,Tsabit,Fenoughil,Tamest,Zaouiet Kounta,In Ghar,Tit,Bouda,Ouled Ahmed"
+  "b": "13156960,13156961,13156992,13156993,13156994,13156998,13156999,13157000,13157001,13157004,13157005,13157006,13157007,13157008,13157009,13157010,13157011,13157012,13157013,13157025"
 },
 {
     "name": "Western Berber family",
@@ -761,7 +761,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mederdra,Rosso,Nouakchott,Tiguent,Keur MassÃ¨ne,Boutilimit,Aleg,BoghÃ©,KaÃ©di,Selibaby,Maghama,M'Bagne"
+  "b": "13157026,13157031,13157118,13157119,13157120,13157121,13157122,13157123,13157124,13157125,13157126,13157127,13157128,13157129,13157130,13157131,13157132,13157133,13157134,13157135"
 },
 {
     "name": "Soli",
@@ -770,7 +770,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Lusaka,Kafue,Chongwe,Rufunsa,Luangwa,Chilanga,Shibuyunji,Mumbwa,Itezhi-Tezhi,Mazabuka,Monze,Choma"
+  "b": "134255,134256,134282,134441,134462,134518,134598,134602,134613,134636,134721,134762,134781,135053,135094,135175,135205,135298,135355,135423"
 },
 {
     "name": "Kanuri",
@@ -779,7 +779,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maiduguri,Dikwa,Ngala,Bama,Monguno,Kukawa,Gubio,Magumeri,Konduga,Mafa"
+  "b": "418838,418851,418863,418868,418875,418886,418896,418911,418943,418950,449504,Sistan and Baluchestan,1113217,1159301,1159362,1159384,1159713,1159716,1159877,1159975"
 },
 {
     "name": "Kumaoni",
@@ -788,7 +788,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Almora,Nainital,Pithoragarh,Champawat,Bageshwar,Ranikhet,Haldwani,Rudrapur,Kashipur,Jaspur,Khatima,Sitarganj"
+  "b": "Marcianise,3173995,3174021,3174051,3174092,3174096,3174141,3174295,3174358,3174380,3174494,3174526,3174530,3174638,3174659,3174679,3174702,3174719,3174741,3174748"
 },
 {
     "name": "Kikuyu",
@@ -797,7 +797,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nyeri,Thika,Murang'a,Kiambu,Karatina,Nanyuki,Kerugoya,Sagana,Embu,Chuka,Runyenjes,Limuru,Githunguri,Ruiru,Lari,Wanguru,KaratinaTown,Nyahururu,Ol-Kalou,Githurai"
+  "b": "13607972,13607975,13607979,Jersey,St Helier,3042091,Jamaica,Saint Catherine Parish,3488465,3488613,3488981,3489227,Saint Andrew Parish,3489297,Saint James Parish,3489460,3489523,3489577,3489760,3489854"
 },
 {
     "name": "Khamnigan Mongol",
@@ -806,7 +806,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hulunbuir,Hailar,Evenk-Banner,Chen-Barag,Old-Barag,Ergun,Genhe,Manzhouli,Jalainur,Argun,Onon,Borzya"
+  "b": "1859079,1859093,1859094,1859100,1859113,1859146,1859171,1859175,1859210,1859234,1859307,1859319,1859335,1859355,1859383,1859388,1859393,1859400,1859405,1859436"
 },
 {
     "name": "Mon",
@@ -815,7 +815,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mawlamyine,Thaton,Kyaikto,Paung,Chaungzon,Thanbyuzayat,Ye,Khawzar,ThanbyuzayatTown,Kyaikkami,Setse,Thanbyu,Kamamaung,Yangon,Mandalay,Naypyidaw,Bago,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha"
+  "b": "2129003,2129005,2129034,2129101,2129138,2129163,2129211,2129218,2129262,2129324,2129365,2129376,2129395,2129427,Shimokizukuri,2129513,2129537,Kamiiso,2129766,2129870"
 },
 {
     "name": "Mon (native speakers)",
@@ -824,7 +824,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mawlamyine,Thaton,Mudon,Ye,Mottama,Kyaikmaraw,Chaungzon,Paung,Bilin,Kyaikto,Kamawet,Kalwi,Yangon,Mandalay,Naypyidaw,Bago,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha,Lashio"
+  "b": "2129909,Hitokawame,2130050,2130054,Hirosaki,2130057,Hanawa,2130146,2130188,Hachinohe,2130203,2130306,Fukagawa,2130332,2130387,2130404,2130421,2130452,2130534,2130612"
 },
 {
     "name": "Kumhali",
@@ -833,7 +833,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rama,Krishna,Sita,Hari,Gopal,Devi,Maya,Bishnu,Shiva,Lakshmi"
+  "b": "Kihancha,191837,Kiminini,191908,191919,192067,192126,192710,Khwisero,192785,192859,Kericho County,192900,Karuri,193624,193627,193827,Kapsabet,194038,Kapenguria"
 },
 {
     "name": "Krio",
@@ -842,7 +842,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Freetown,Waterloo,Hastings,Newton,Benguema,Tombo,York,Kent,Aberdeen,Murray Town,Lumley,Kissy"
+  "b": "1527903,1528091,1528121,1528124,1528182,1528193,1528249,1528252,1528283,1528339,1528675,1528702,1528717,1528735,1528875,1538648,8145969,1821306,Kandal,1821935"
 },
 {
     "name": "Kumhali (alias)",
@@ -851,7 +851,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iismempiuy,Giondiogwee,Poshtaa,Uofliesneizh,Riokrinau,Yuungedr,Doskhaa,Oiploi,Thiovikau,Iosteej,Khosnnkue,Aiguitw"
+  "b": "Myŏnggan-dong,2055401,Yŏch’im-dong,2055638,Unggi,13446724,Heunghae,Korea, Republic of,1832015,Yeonil,1832215,1832257,1832384,1832501,North Chungcheong,1832566,1832617,1832743,1832771,1832798"
 },
 {
     "name": "Zenati Berber",
@@ -860,7 +860,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tlemcen,Mascara,Oran,Sidi Bel AbbÃ¨s,Mostaganem,Chlef,Relizane,Tiaret,Saida,Ain Defla"
+  "b": "2212882,Qaşr Khiyār,2213570,Qaşr Bin Ghashīr,2213618,Qaşr al Qarabūllī,2213695,2214433,Murzuk,Murzuq District,2214603,Mizdah,2214827,2214846,Al Burayqah,2215210,Janzūr,Al Jafarah,2216349,Al Jufrah"
 },
 {
     "name": "Limba",
@@ -869,7 +869,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makeni,Bumbuna,Binkolo,Kamalo,BumbunaTown,BumbunaFalls,Bompeh,Kamabai,Kalangba,Lunsar,Magburaka,Mateboi,Lokuya,MakeniTown,Masanga,Rokulan,Konike,Sanda,Matotoka,Masingbi"
+  "b": "Ducos,3570785,Zouérat,Tiris Zemmour,2375558,Tembedgha,Hodh Ech Chargi,2376115,Tékane,Trarza,2376189,Guidimaka,2376719,2376898,Elghabra,Assaba,2376976,2377450,Nouadhibou,Dakhlet Nouadhibou"
 },
 {
     "name": "Mandarin",
@@ -878,7 +878,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "",
   "m": 0,
-  "b": "Beijing,Tianjin,Shijiazhuang,Zhengzhou,Wuhan,Changsha,Nanchang,Nanjing,Hefei,Jinan,Lanzhou,Xi'an,Chengdu,Chongqing,Kunming,Guiyang,Shenyang,Harbin,Changchun,Luoyang,Baoji,Xinyang,Xiangyang,Suizhou,Handan,Baoding,Cangzhou,Anyang,Kaifeng,Huaihua"
+  "b": "3827598,3827606,Miguel Alemán (La Doce),3970972,Gabriel Leyva Solano,3976775,Cihuatlán,3976999,Lázaro Cárdenas,3979174,3979442,Ciudad Guadalupe Victoria,3979505,Zinapécuaro de Figueroa,Michoacan,3979665,Ixtapa-Zihuatanejo,3979673,Zapotlanejo,3979717"
 },
 {
     "name": "Nam",
@@ -887,7 +887,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Nang,Namling,Mainling,Milin,Cona,Langxian,Zayul,Nedong,Tsona,Gyatsa,Sangri,Qusum,Lhozhag,Nangxian,Nyingchi,Gongbo,Gyamda,Zedang,Taktse,Dranang"
+  "b": "Penang,1733331,1733353,1733376,1733432,Donggongon,1733438,1733440,1733449,Tambunan,1733468,1733502,1733697,1733782,1733868,1733874,1733953,1734052,1734098,Bandar Nabawan"
 },
 {
     "name": "Mondzish",
@@ -896,7 +896,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malipo,Hekou,Mengzi,Gejiu,Shiping,Mi'le,Kaiyuan,Lvchun,Yuanjiang,Mojiang,Pingbian,Maguan,Wenshan,Funing,Xichou,Guangnan,Qiubei,Qiushan,Aluyi,Mengla"
+  "b": "1735459,Gurun,1735485,Yan Besar,1735489,1735498,Kepala Batas,1735506,Pasir Puteh,1735545,1735553,1735572,1735634,1735681,1735799,1735837,1735851,1735889,1735902,1735963"
 },
 {
     "name": "Mandinka",
@@ -905,7 +905,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Banjul,Serekunda,Brikama,Farafenni,Basse,Georgetown,Mansa-Konko,Bansang,Barra,Essau,Kuntaur,Janjanbureh,Bakau,Lamin,Abuko,Sukuta,Latriya,Brufut,Kalagi,Kanilai"
+  "b": "1741562,Sungai Lalang,1742731,Sungai Dua,1742815,1744246,1744288,Seputeh,1744508,Sentul,1744763,Relau,1748731,1749822,Permatang Kuching,1750500,Peringat,1750582,Ladang Seri Kundang,1750974"
 },
 {
     "name": "Ga",
@@ -914,7 +914,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Accra,Teshie,Nungua,La,Osu,Madina,Dome,Adenta,Ashaiman,Tema,Dansoman,Sowutuom,Ablekuma,Kasoa,Weija,Achimota,Lapaz,Odorkor,Kaneshie,Chorkor"
+  "b": "Pantai Remis,1752256,Padang Besar,1753004,Lukut,1756720,Kubang Semang,1759378,1759486,Kuala Ketil,1759564,Kepong,1760605,Klebang Besar,1761242,Kampung Kangkar Teberau,1762110,Kampung Tanjung Minyak,1763378,Kampung Tanjung Karang"
 },
 {
     "name": "Oromo",
@@ -923,7 +923,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Adama,Jimma,Nekemte,Asella,Shashamane,Bishoftu,Ambo,Goba,Robe,Gimbi,Metu,Bedele,Sebeta,Mojo,Assasa,Agaro,Woliso,Fiche,Holeta,Guder"
+  "b": "1763412,Kampung Sungai Kajang,1763999,Kampung Sungai Glugur,1764027,Kampung Sungai Ara,1764160,Kampung Simpang Renggam,1764318,Kampong Sidam,1764375,Kampung Selang,1764685,Pendang,1765769,Kampong Pangkal Kalong,1766249,Kampung Minyak Beku,1766795,Kampong Masjid Tanah"
 },
 {
     "name": "Gamo-Gofa-Dawro",
@@ -932,7 +932,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Arba-Minch,Chencha,Geresse,Mirab-Abaya,Bonke,Kamba,Sawla,Selam-Ber,Offa,Zala,Dubra,Lante,Kucha,Derashe,Gidole,Karate,Konso,Key-Afer,Jinka,Basketo"
+  "b": "6807244,6819209,6833189,6847278,6847550,6930887,7302815,7473418,7473443,7566098,7614200,7619704,7619709,7620438,7620439,7620470,7697762,7779082,7792200,7795834"
 },
 {
     "name": "Ndebele",
@@ -941,7 +941,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Bulawayo,Gwanda,Plumtree,Lupane,Nkayi,Tsholotsho,Esigodini,Filabusi,Kezi,Nyamandlovu,Umguza,Insiza,Matobo,Magwegwe,Mzilikazi,Makokoba,Pumula,Luveve,Nketa,Cowdray Park"
+  "b": "2759016,2759040,2759113,2759132,2759145,2759154,2759178,2759197,Barneveld,2759407,Barendrecht,2759426,Badhoevedorp,2759524,2759544,Assendelft,2759631,Assen,2759633,2759661"
 },
 {
     "name": "Bahing/Bayung (dedicated)",
@@ -950,7 +950,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bulaadi,Chisopani,Moli,Pankhu,Bhadaure,Aapsowra,Rangadeep,Bigutar,Mamkha,Narayasthan,Waksa"
+  "b": "3941584,Chosica,3943423,Chincha Alta,3943789,Chaupimarca,3944179,Chancay,3944399,Cerro de Pasco,3944797,3945985,3946083,3946818,3946820,3946985,3947019,3947322,Apurimac Department,3947740"
 },
 {
     "name": "Montenegrin (dedicated)",
@@ -959,7 +959,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Podgorica,Cetinje,Budva,Kotor,Nikšić,Herceg Novi,Bar,Tivat,Ulcinj,Pljevlja,Bijelo Polje,Berane,Rožaje,Kolašin,Žabljak,Mojkovac,Plav,Andrijevica,Šavnik,Plužine,Danilovgrad,Gusinje,Petnjica,Tuzi"
+  "b": "1687409,Santo Tomas,1687534,1687687,1687801,1687894,1688017,1688058,1688216,1688232,1688248,1688253,1688363,1688372,1688398,1688425,1688749,1688795,1688830,1688859"
 },
 {
     "name": "Swahili",
@@ -968,7 +968,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "",
   "m": 0,
-  "b": "Abim,Adjumani,Alebtong,Amolatar,Amuru,Apac,Arua,Arusha,Babati,Baragoi,Bombo,Budaka,Bugembe,Bugiri,Buikwe,Bukedea,Bukoba,Bukomansimbi,Bukungu,Buliisa,Bundibugyo,Bungoma,Busembatya,Bushenyi,Busia,Busolwe,Butaleja,Butambala,Butere,Buwenge,Buyende,Dadaab,Dodoma,Dokolo,Eldoret,Elegu,Emali,Embu,Entebbe,Garissa,Gede,Gulu,Handeni,Hima,Hoima,Hola,Ibanda,Iganga,Iringa,Isingiro,Isiolo,Jinja,Kaabong,Kabuyanda,Kabwohe,Kagadi,Kajiado,Kakinga,Kakiri,Kakuma,Kalangala,Kaliro,Kalongo,Kalungu,Kampala,Kamwenge,Kanungu,Kapchorwa,Kasese,Kasulu,Katakwi,Kayunga,Keroka,Kiambu,Kibaale,Kibaha,Kibingo,Kibwezi,Kigoma,Kihiihi,Kilifi,Kiruhura,Kiryandongo,Kisii,Kisoro,Kisumu,Kitale,Kitgum,Kitui,Koboko,Korogwe,Kotido,Kumi,Kyazanga,Kyegegwa,Kyenjojo,Kyotera,Lamu,Langata,Lindi,Lodwar,Lokichoggio,Londiani,Loyangalani,Lugazi,Lukaya,Luweero,Lwakhakha,Lwengo,Lyantonde,Machakos,Mafinga,Makambako,Makindu,Malaba,Malindi,Manafwa,Mandera,Marsabit,Masaka,Masindi,Masulita,Matugga,Mayuge,Mbale,Mbarara,Mbeya,Meru,Mitooma,Mityana,Mombasa,Morogoro,Moroto,Moyale,Moyo,Mpanda,Mpigi,Mpondwe,Mtwara,Mubende,Mukono,Muranga,Musoma,Mutomo,Mutukula,Mwanza,Nagongera,Nairobi,Naivasha,Nakapiripirit,Nakaseke,Nakasongola,Nakuru,Namanga,Namayingo,Namutumba,Nansana,Nanyuki,Narok,Naromoru,Nebbi,Ngora,Njeru,Njombe,Nkokonjeru,Ntungamo,Nyahururu,Nyeri,Oyam,Pader,Paidha,Pakwach,Pallisa,Rakai,Ruiru,Rukungiri,Rwimi,Sanga,Sembabule,Shimoni,Shinyanga,Singida,Sironko,Songea,Soroti,Ssabagabo,Sumbawanga,Tabora,Takaungu,Tanga,Thika,Tororo,Tunduma,Vihiga,Voi,Wajir,Wakiso,Watamu,Webuye,Wobulenzi,Wote,Wundanyi,Yumbe,Zanzibar"
+  "b": "3349229,Conda,3349324,Chitembo,3349515,Chinguar,3349723,Chindumbo,3349746,3350123,Catumbela,3350246,3350372,Capunda,3350550,Camucuio,3350867,Cambundi Catembo,3350917,Camacupa"
 },
 {
     "name": "Mandarin Global",
@@ -977,7 +977,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "",
   "m": 0,
-  "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chongqing,Tianjin,Chengdu,Wuhan,Nanjing,Hangzhou,Xi'an,Harbin,Shenyang,Dalian,Qingdao,Jinan,Zhengzhou,Changsha,Nanchang,Fuzhou"
+  "b": "6619280,Kingsford,6621337,Springfield Lakes,6693094,Bracken Ridge,6943558,Kallangur,6943560,North Lakes,6943562,The Gap,6943585,Pittwater,6949382,Caroline Springs,7281805,Hoppers Crossing,7281807,Logan City"
 },
 {
     "name": "Sabah Malay",
@@ -986,7 +986,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kota Kinabalu,Penampang,Putatan,Papar,Kinarut,Tamparuli,Tuaran,Kota Belud,Kudat,Kota Marudu,Pitas,Ranau,Kundasang,Sandakan,Lahad Datu,Tawau,Semporna,Kunak,Telupid,Kinabatangan,Beluran,Keningau,Tenom,Nabawan,Beaufort,Weston,Kuala Penyu,Sipitang"
+  "b": "Melbourne City Centre,11523810,Adelaide city centre,11523825,Wollongong city centre,11523847,Tanki Leendert,Aruba,3577072,3577089,Oranjestad,3577154,Noord,3577159,Mariehamn,Åland Islands,3041732,Əhmədbəyli,Saatli,147059"
 },
 {
     "name": "Makassar Malay",
@@ -995,7 +995,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makassar,Gowa,Maros,Takalar,Pangkep,Barru,Sungguminasa,Tanjung Bunga,Panakkukang,Tallo,Bontoala,Ujung Pandang"
+  "b": "Yevlax City,584649,Göygöl,Goygol Rayon,584716,Xaçmaz,584717,Ujar,Ucar,584791,Tovuz,Tovuz District,584821,Terter,Tartar District,584871,Sumqayıt,Sumqayit,584923,Qaraçuxur"
 },
 {
     "name": "Makassar Branch",
@@ -1004,7 +1004,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makassar,Gowa,Maros,Takalar,Jeneponto,Bantaeng,Bulukumba,Sungguminasa,Pangkajene,Barru,Selayar,Parepare,Pinrang,Sidrap,Soppeng,Wajo,Sengkang,Bone,Watampone,Sinjai,Enrekang,Luwu,Belopa,Palopo,Masamba,Malili,Sorowako,Toraja,Makale,Rantepao,Mamuju,Majene,Polewali,Pasangkayu,Mamasa,Benteng,Somba Opu,Turikale,Pattallassang,Bontosunggu,Pallangga,Bajeng,Barombong,Tinggimoncong,Parangloe,Bontomarannu,Manuju,Tompobulu,Parigi,Bungaya"
+  "b": "Svilengrad,726546,726848,Dupnitsa,726872,Sofia-Capital,727011,727030,727079,727221,727233,727337,727447,Samokov,727462,727523,727696,Rakovski,727791,Parvomay"
 },
 {
     "name": "Judeo-ProvenÃ§al",
@@ -1013,7 +1013,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Avignon,Arles,Marseille,Carpentras,Aix-en-Provence,Orange,NÃ®mes,Carry-le-Rouet,Martigues,Salon-de-Provence,Tarascon,Cavaillon"
+  "b": "3870306,O'Higgins Region,3871276,3871286,3871336,3871616,3872073,3872154,3872205,3872255,3872264,3872306,Nuble,3872326,3872348,3872395,3872648,3873145,3873441,3873454"
 },
 {
     "name": "MonÃ©gasque",
@@ -1022,7 +1022,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monaco,Monte Carlo,La Condamine,Fontvieille,Moneghetti,Larvotto,La Rousse,Saint Roman,Jardin Exotique,Les Moulins,Spelugues,Port Hercule"
+  "b": "Zhangzhai,1785022,1785036,Zhangjiachuan,1785212,Zhangji,1785222,Zibo,1785286,1785294,Zhancheng,1785345,Zhabei,1785412,Zaozhuang,1785453,Zaoyang,1785462,Yuyao,1785545"
 },
 {
     "name": "Alasha Mongol",
@@ -1031,7 +1031,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "aou",
   "m": 0,
-  "b": "Bayanhot,Alxa Left Banner,Alxa Right Banner,Ejin Banner,Dalaihob,Barunbair,Jilantai,Wuhai,Dengkou,Linhe,Bayannur,Otog Banner,Yangon,Mandalay,Naypyidaw,Bago,Mawlamyine,Taunggyi,Meiktila,Myitkyina,Pathein,Monywa,Sittwe,Hakha,Lashio"
+  "b": "Nienburg,2862620,Niederschönhausen,2862888,2863199,2863223,Nieder-Ingelheim,2863240,Nidderau,2863712,Nidda,2863716,Neu Wulmstorf,2863795,Neuwied,2863840,Neu-Ulm,2863941,Neustrelitz,2864005"
 },
 {
     "name": "Bahing",
@@ -1040,7 +1040,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Surkhet,Gulariya,Rajbiraj,Siraha,Hanumannagar,Gaighat,Okhaldhunga,Phidim,Ilam,Mechinagar,Kanchanpur,Krishnapur"
+  "b": "Laatzen,2882087,Bad Laasphe,2882091,Kürten,2882318,Künzelsau,2882439,Künzell,2882440,Kulmbach,2882588,Kronberg,2883754,Kronach,2883784,Kreuztal,2884050,Kreuzberg,2884161"
 },
 {
     "name": "Classical Mongolian",
@@ -1049,7 +1049,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karakorum,Ulaanbaatar,Khovd,Ulan Bator,Gobi,Mongolia,Inner Mongolia,Ordos,Khanbaliq,Dadu,Beijing,Xanadu,Shangdu,Khan,Genghis,Kublai,Mongol,Yuan,Mongol Empire,Eurasian Steppe,Altai"
+  "b": "1254948,Tanuku,1254953,Tandur,1255004,1255023,1255024,1255027,Tammampatti,1255044,Tamlūk,1255046,1255056,Tambaram,1255062,Talwāra,1255076,Talwandi Sābo,1255078,Talwandi Bhai"
 },
 {
     "name": "Gawar-Bati",
@@ -1058,7 +1058,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nuristan,Kunar,Lagman,Kabul,Herat,Kandahar,Mazar-i-Sharif,Jalalabad,Peshawar,Kashmir,Parun,Wama,Kamdesh,Asadabad,Nangarhar,Badakhshan,Afghanistan,Pakistan,Hindu Kush,Pamir,Himalaya,Beijing"
+  "b": "1276752,1276754,Basmat,1276757,Basirhat City,1276759,1276764,1276765,1276767,Basavana Bāgevādi,1276782,1276783,Barwāni,1276810,Barwāla,1276815,Barwāh,1276817,1276829,Baruipur"
 },
 {
     "name": "Modern Western Armenian",
@@ -1067,7 +1067,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "hayeren,Istanbul,Izmir,Bursa,Antalya,Adana,Konya,Mersin,Gaziantep,Ankara,Trabzon"
+  "b": "Badnāwar,1277970,Badlapur,1277976,Badgām,1277997,1278017,Badagara,1278023,Bada Barabīl,1278026,Bachhraon,1278036,Babrāla,1278052,Bābra,1278054,Babīna,1278058,Baberu"
 },
 {
     "name": "Kota",
@@ -1076,7 +1076,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ooty,Coonoor,Kotagiri,Gudalur,Wellington,Kundah,Pykara,Masinagudi,Mudumalai,Bandipur,Wayanad,Malappuram"
+  "b": "7284820,Akkarampalle,7302805,Bellampalli,7302806,Chemmumiahpet,7302808,Gaddi Annaram,7302810,Dasnapur,7302812,Kanuru,7302825,Lal Bahadur Nagar,7302826,Madhira,7302827,Malkajgiri,7302828,Mandamarri"
 },
 {
     "name": "Harari-Argobba",
@@ -1085,7 +1085,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Harar,Dire-Dawa,Alemaya,Babile,Gursum,Deder,Hirna,Chiro,Gelemso,Aweday,Metahara,Awash,Adama,Nazret,Asebe-Teferi,Kulubi,Aliyu-Amba,Shewa-Robit,Debre-Birhan,Awash-Sebat"
+  "b": "Diadema,3464739,Descalvado,3464809,Curvelo,3464891,Curitibanos,3464974,3464975,Cunha,3465010,Cuiabá,3465038,Cubatão,3465059,Cruz Machado,3465067,Cruzília,3465071,Cruzeiro do Oeste"
 },
 {
     "name": "Ekoka !Kung",
@@ -1094,7 +1094,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental,Kalahari,Tsumkwe,Blouputs,Luanda,Huambo,Lubango,Benguela,Kuito,Malanje,Namibe,Soyo,Cabinda,Sumbe,Ondjiva,Menongue"
+  "b": "1174872,Kanganpur,1174984,Kandiaro,1175010,1175021,Kamra,1175082,Kamoke,1175088,Chak One Hundred Twenty Nine Left,1175098,Kamar Mushani,1175125,Kamalia,1175156,Kalur Kot,1175180,Kallar Kahar,1175232"
 },
 {
     "name": "Amkoe",
@@ -1103,7 +1103,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Tsumkwe,Aroab,Blouputs,Gobabis,Kgalagadi,Kumune,Epukiro,Gxai,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet,Mariental"
+  "b": "4138102,Dupont Circle,4138321,Foggy Bottom,4138666,4139673,Park View,4139953,Petworth,4140007,Pleasant Plains,4140040,Shaw,4140463,4140963,Bear,Delaware,4141363,4142290,4143637"
 },
 {
     "name": "N!ung Click",
@@ -1112,7 +1112,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Kgalagadi,Kumune,Epukiro,Gxai,Gobabis,Karibib,Tsabis,Nossob,Leonardsville,Tses,Aminuis,Aroab,Grootfontein,Wilhelmstal,Araub,Witvlei,Stampriet"
+  "b": "Baolong,8398265,Tonggu,8398266,Sanxi,8398672,Liangping,8398673,Longxi,8398676,Futian,8398677,Dashu,8399036,Kangle,8399040,Fenhe,8399041,Baidi,8399042"
 },
 {
     "name": "Nama Click",
@@ -1121,7 +1121,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Keetmanshoop,Mariental,Luderitz,Oranjemund,Aus,Karasburg,Bethanie,Ausis,Gibeon,Helmeringhausen,Grünau,Holoog,Koes,Koeras,Gruenau,Kub"
+  "b": "8399043,8399044,8399045,8399049,8399050,8399052,8399478,8400052,8400053,8400054,8400056,8400057,8400058,8400059,8400137,8400138,8400139,8400140,8400141,8400142"
 },
 {
     "name": "Naro Click",
@@ -1130,7 +1130,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Ghanzi,Dqae Qare,Gope,Kang,Karek Krai,Khunkhu,Kokong,Mabesekwa,Makalamabedi,Mmanyela,Mokolodi,Morwamosu,Nata,New Xade,Okavango,Qabo,Raikwara,Ramoka,Ranku,Ratholo,Saats,Rakops,Tshidilamolomo,Tshoyeloyelo,Tshane,Tshimoya,Tshamba,Tsau"
+  "b": "8400143,8400146,8400147,8400149,8400150,8400151,8400694,8403605,8403607,8403609,8403610,8403611,8403612,8403613,8403614,8403615,8403616,8403617,8403618,8403619"
 },
 {
     "name": "G!ui Click",
@@ -1139,7 +1139,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Gase,Gai,Gasa,Gan,Gaixom,Gaiigas,Gaib,Gais,Gauida,GGai,GGaiim,GGauis"
+  "b": "8403620,8403846,8403867,8403868,8403872,8403877,8403881,8403882,8403883,8404735,8404770,8405248,8405691,8405692,8405693,8405694,8405695,8405696,8405699,8405701"
 },
 {
     "name": "Ju|'hoan Click",
@@ -1148,7 +1148,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Ghanzi,Dekar,Kang,Tshane,Nata,Maun,Shakawe,Kasane,Gumare,Sebina,Matsiloje,Mogoditshane,Namagari,bokakwa,namapo"
+  "b": "8405703,8405713,8405715,8405717,8405721,8405722,8405727,8405728,8405731,8405732,8405736,8406198,8406200,8406204,8406205,8406214,8406218,8406221,8406223,8406649"
 },
 {
     "name": "Berta-Besme",
@@ -1157,7 +1157,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Asosa,Kurmuk,Komosha,Bambasi,Menge,Tongo,Gizan,SudanKurmuk,Rosaires,Damazin,Senar,Kosti,Ad-Damazin,Gadaref,Qallabat,Assosa,Metekel"
+  "b": "Maasmechelen,2791961,Maaseik,2791964,Louvain-la-Neuve,2792073,Lommel,2792179,Lokeren,2792196,Lochristi,2792235,2792360,2792397,2792413,2792482,Lessines,2792567,Lede,2793077"
 },
 {
     "name": "Omaio-Shabo-Seze",
@@ -1166,7 +1166,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gambela,Itang,Gog,Abobo,Jikawo,Lare,Akobo,Pochalla,Pagak,Nasir,Mading,Raik,Asosa,Metekel,Guba,Kamashi,Tepi,Godere"
+  "b": "5920433,Chatham,5920457,Chestermere,5921060,5921225,5921356,Chomedey,5921719,Clarence-Rockland,5923101,Cliffcrest,5923921,Cloverdale,5924204,Cobourg,5924579,Cochrane,5924618,Collingwood"
 },
 {
     "name": "Bauchi Chadic",
@@ -1175,7 +1175,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bauchi,Toro,Dass,Bogoro,Tafawa Balewa,Kirfi,Alkaleri,Shira,Giade,Katagum,Jama'are,Itas,Ganjuwa,Warji,Ningi,Azare,Miyaa,Dogon Ruwa,Gombe,Kaltungo,Billiri,Dukku"
+  "b": "Horad Zhodzina,618800,Homyel' Voblasc',618806,Žytkavičy,618815,Zaslawye,619066,620127,Vileyka,620181,Vaukavysk,Grodnenskaya,620391,621074,Stowbtsy,621266,Smarhoń,621713,Smaliavičy"
 },
 {
     "name": "East Chadic",
@@ -1184,7 +1184,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "N'Djamena,Bol,Massakory,Mao,Moussoro,Massaguet,Bongor,Pala,Kelo,Lai,Sarh,Am Timan,Ati,Mongo,Biltine,Abéché,Bitkine,Bousso,Fianga,Béré"
+  "b": "621729,621741,621754,Shchuchyn,622113,Soligorsk,622428,Rahachow,622739,622794,Pruzhany,622997,623317,623549,Pastavy,623760,Astraviec,623941,Osipovichi,624034"
 },
 {
     "name": "Angolar São Tomé",
@@ -1193,7 +1193,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnr",
   "m": 0,
-  "b": "São Joảo dos Angolares,Porto Alegre,Ribeira Peixe,Ilhéu das Rolas,Praia Inhame,Praia Jale,Praia Cabana,Praia Micondó,Praia Messias Alves,Praia Pesqueira,Praia Vagre,Praia Negal,Praia Yepipa,Praia Umbugo,Praia Martim,Praia Leve,Praia Abade,Praia Cascata,Praia Erasmo,Angolares,Budo Budo,Vila Malanza,Cabaceira,Monte Carmo,Emolve,Uba Budo,Malanza,Praia Salema,Praia Barrosa,Ponta Baleia,Praia Lozia,Praia Pesqueira Pequena,Praia Vermelha,Praia Viedade,Praia Camảo,Praia Ihlo,Praia Caixảo,Praia Margarida,Praia San António,Praia Cabinda,Praia Boca de Inferno,Praia Santa Clara,Praia Santa Cruz,Praia São Joaquim"
+  "b": "2255542,Sangha,2255564,Niari,2256895,2256900,Bouenza,2257329,2257879,2258080,2258248,2258261,2258378,2258604,2259383,2259655,Plateaux,2259947,2260401,2260535"
 },
 {
     "name": "Annobonese Palé",
@@ -1202,7 +1202,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnr",
   "m": 0,
-  "b": "San Antonio de Palé,Fogo,Mabana,Matamba,Angochi,San Antonio Pequeno,Calvario,Amoco,Amoco Pequeno,Machado,Angu,Moletry,Pingano,Lagoa Azul,Makoko,Matar,Mangueira,Mombaba,Morro Lopes,Morro Fina,Praia da Morena,Praia de Fogo,Praia das Galinhas,Praia da Uva,Praia do Leste,Praia do Sul,Praia de San Antonio,Tchindí,Tandjang,Tanfafe,Tanque,Kapam,Kapado,Ponta Velha,Ponta Kapelo,Ponta Mó,Novo Caminho,Quissanga,Pollonia,Annybon,Anapo,Praia Cabinda,Praia Boa Vista"
+  "b": "2596874,2596898,2596934,2596935,2597400,7848483,7848493,7848497,7849068,7849082,7849539,7849877,7849902,7849905,7850551,10629379,12687195,12687196,12687197,12687198"
 },
 {
     "name": "Forro São Tomé",
@@ -1211,7 +1211,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "São Tomé,Trindade,Santana,Neves,Guadalupe,Bombom,Pantufo,gua Grande,Riboque,Mesquita,Batepá,Piedade,Ribeira Afonso,Ribeira Peixe,Madalena,Micoló,Monte Café,Conde,Boa Entrada,Boa Vista,Santa Margarida,Santa Catarina,Santa Cruz,Santa Clara,Santa Luzia,Diogo Vaz,Porto Alegre,Praia Cruz,Palmares,gua Izé,Fruta Fruta,São Marçal,São Miguel,São Pedro,Uba Budo,Emolve,Monte Mário,Caixảo Grande,Almas,Alto Douro,São Lázaro,Almeirim,Andrade,Baba Forro,Bela Vista,Bom Sucesso,Bom Bom,Bom Despacho"
+  "b": "2231320,2231482,Foumbot,2231504,2231506,2231564,2231636,2231881,2232102,2232239,2232283,2232444,2232593,2232997,Buea,2233410,2233805,2234359,2234536,2234663"
 },
 {
     "name": "Principense Sundy",
@@ -1220,7 +1220,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnr",
   "m": 0,
-  "b": "Santo António,Porto Real,Belo Monte,Bom Bom,Nova Estrela,Fazenda Sundy,Sundy,Bom Viver,São Joaquim,Oqua Daniel,Praia Banana,Praia Bom Bom,Praia Sundy,Praia Boi,Praia Inhame,Praia Abade,Praia Caixảo,Praia Campainha,Praia Burra,Praia Curral Velho,Praia Grande,Praia Ponta Cabinda,Praia Tétin,Praia Uva,Praia Ribeira Izé,Praia Catamarả,Praia Macaco,Praia Caixote,Praia Croa,Praia Pedra,Praia Coco,Praia Luanda,Praia Agulhas,Praia Caça,Praia Fantome,Praia Bacia,Praia Boiảo,Praia Infante,Praia Budo,Praia Esprainha,Praia Galeảo,Praia Santo António"
+  "b": "1280948,1280951,1280957,1281003,1281015,1281019,1281105,1281157,1281278,1281368,1281369,1281426,1281622,1281650,1281673,1281743,1346629,1346630,1346644,1346645"
 },
 {
     "name": "Bura",
@@ -1229,7 +1229,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Biu,Gombi,Marama,Kubit,Hyambula,Askira,Uba,Pella,Shani,Chibok,Gwoza,Michika"
+  "b": "1817543,Baima,1817553,Bailin,1817589,Baihua,1817676,Baihecun,1817701,Shangyu,1817720,Baichihe,1817762,Bachuan,1817848,Babu,1817858,1817862,Aoxi,1817884"
 },
 {
     "name": "Bure",
@@ -1238,7 +1238,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gashua,Nguru,Geidam,Potiskum,Katagum,Damboa,Konduga,Magumeri,Kukawa,Marte,Dikwa,Mafa"
+  "b": "1817925,Anyuan,1817932,Shenliu,1817952,Ānwén,1817958,1817968,Anqiu,1817990,1817993,Anping,1818002,1818004,1818016,1818019,Anliu,1818020,Anju,1818042"
 },
 {
     "name": "Buwal",
@@ -1247,7 +1247,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mokolo,Mora,Koza,Meri,Bourrha,Kalfou,Limani,Kolofata,Tokombere,Kerawa,Ziver,Hitawa,Buwal,Gadala,Bourha,Maroua,Gazawa,Fotokol"
+  "b": "Anjiang,1818051,Anhua,1818062,Anfu,1818082,Naxi,1818086,Anbu,1818116,Ahu,1818165,1885400,1885823,1886760,Zhoushan,1886762,Dacheng,1893595,Wuduan"
 },
 {
     "name": "Cakfem-Mushere",
@@ -1256,7 +1256,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi"
+  "b": "1897997,1898013,Mudu,1898359,Songling,1898494,Lüfeng,1904024,Xinsheng,1904026,Yongxi,1904046,Pulü,1904048,Caijiagang,1904050,Tieshan,1904058,Hebao,1904071"
 },
 {
     "name": "Bukusu",
@@ -1265,7 +1265,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bungoma,Webuye,Kimilili,Malakisi,Sirisia,Chwele,Kanduyi,Mt Elgon,Kitale,Mumias,Kakamega,Eldoret,Tongaren,Bumula,Kabuchai,Cheptais,Kapsokwony,Kapkatamoi,Chepyuk"
+  "b": "Baoxing,1904072,1904076,1904080,Jinlong,1904091,1904094,Guangpu,1904121,Chenshi,1904136,Qingfeng,1904138,1904163,Wujian,1904172,Hegeng,1904174,Xianlong,1904187"
 },
 {
     "name": "Bushong",
@@ -1274,7 +1274,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kananga,Tshikapa,Ilebo,Mweka,Luebo,Lusambo,Mbuji-Mayi,Kikwit,Kinshasa,Kwamouth,Inongo,Boende,Lubumbashi,Likasi,Kolwezi,Matadi,Boma,Moanda,Muanda,Songololo"
+  "b": "3451399,3451448,3451474,Riachão do Dantas,3451476,Riachão das Neves,3451478,Resplendor,3451650,Reserva,3451663,Resende,3451668,Registro,3451704,Regente Feijó,3451709,Realeza,3451783,Raul Soares"
 },
 {
     "name": "Bwela",
@@ -1283,7 +1283,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Matadi,Boma,Luozi,Kimpese,Tshela,Muanda,Kikwit,Idiofa,Bandundu,Kinshasa,Ango,Bananza,Bwela,Kisangani,Bunia,Aru,Mahagi,Beni,Butembo,Goma,Bukavu,Uvira,Fizi,Baraka"
+  "b": "3451791,Raposos,3451812,Rancharia,3451856,Quissamã,3451927,Quirinópolis,3451931,Quijingue,3452029,Queimados,3452073,3452085,Quatro Barras,3452141,3452179,Prudentópolis,3452216,Propriá"
 },
 {
     "name": "Buyu",
@@ -1292,7 +1292,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalemie,Uvira,Fizi,Baraka,Bukavu,Goma,Kindu,Manono,Kabalo,Kisangani,Lubumbashi,Kolwezi"
+  "b": "3452233,Promissão,3452237,Presidente Venceslau,3452320,Presidente Prudente,3452324,Presidente Olegário,3452327,Presidente Getúlio,3452330,Presidente Epitácio,3452331,Prata,3452440,3452465,Pradópolis,3452478,Prado,3452483"
 },
 {
     "name": "Cameroonian Pidgin",
@@ -1301,7 +1301,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Uangnu,Nguunkiets,Huudreq,Uasnju,Stiotwiodee,Uakrxu,Thouiun,Mboqdzue,Flouiukr,Ngonkmbue,Riokrainui,Oitrmpoi"
+  "b": "Poxoréu,3452490,Pouso Redondo,3452502,Pouso Alegre,3452525,Potirendaba,3452547,Posse,3452599,Porto União,3452623,Porto Seguro,3452640,Porto Real do Colégio,3452671,3452672,3452711,Porto Ferreira,3452775"
 },
 {
     "name": "Cameroonian Pidgin English",
@@ -1310,7 +1310,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "CuuskKoak,RamSnach,Swoymp,GreumThuech,Guaiun,Thoatwuumaun,RatrSnadz,CuutrKoadz,Greytweamoyn,RiemSniech"
+  "b": "Porto Feliz,3452779,Porto Belo,3452900,3452925,Porteirinha,3452956,Portão,3452982,Porciúncula,3453010,Porangatu,3453014,Ponto Novo,3453025,Pontes e Lacerda,3453060,Ponte Nova,3453078,3453150"
 },
 {
     "name": "Bole Tangale",
@@ -1319,7 +1319,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gombe,Kaltungo,Billiri,Kumo,Deba,Balanga,Dukku,Bajoga,Nafada,Akko,Funakaye,Ashaka"
+  "b": "Pontalina,3453158,Pontal,3453171,Ponta Grossa,3453186,Pompéu,3453240,Pompéia,3453242,Pomerode,3453245,Pojuca,3453286,Poço Verde,3453300,Poços de Caldas,3453303,Poconé,3453315"
 },
 {
     "name": "Tangale",
@@ -1328,7 +1328,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kaltungo,Billiri,Shongom,Kumo,Deba,Balanga,Cham,Nyuwar,Kalmai,Ture,Tongo,Boh"
+  "b": "Poço Fundo,3453324,Poções,3453337,3453406,Planaltina,3453420,Piúma,3453435,Piumhi,3453439,Pitangui,3453457,Pitangueiras,3453467,Pitanga,3453478,Piritiba,3453494,Pires do Rio"
 },
 {
     "name": "Dangaleat",
@@ -1337,7 +1337,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ati,Oum Hadjer,Am Timan,Mongo,Abch,Moussoro,Mao,Bokoro,Massakory,Baga Sola,Ndjamena,Biltine,Dangaleat,Guera,Melfi,Abéché,Am Dam,Béré,N'Djaména"
+  "b": "3453503,Pirenópolis,3453512,Piratininga,3453518,Piratini,3453524,Piraquara,3453535,Pirapozinho,3453542,Pirapora do Bom Jesus,3453544,Pirapora,3453546,Piranga,3453597,Pirajuí,3453605,Piraju"
 },
 {
     "name": "Liberian Interior Pidgin English",
@@ -1346,7 +1346,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Monrovia,Gbarnga,Harper,Buchanan,Kakata,Zwedru,Voinjama,Tappita,Sanniquellie"
+  "b": "3678097,3678405,3678674,3679065,3679277,3679554,3680176,3680387,3680434,3680450,3680539,3680656,3680840,3680944,3681563,3681596,3681702,3681733,3681797,3681957"
 },
 {
     "name": "African Romance",
@@ -1355,7 +1355,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "ln",
   "m": 0,
-  "b": "Algiers,Oran,Constantine,Annaba,Batna,Sétif,Biskra,Bejaia,Tlemcen,Tizi-Ouzou,Blida"
+  "b": "2820973,2821029,Trier,2821164,Traunstein,2821515,Traunreut,2821517,Torgau,2821807,2821899,Tettnang,2823368,Templin,2823533,Tempelhof,2823538,Teltow,2823567,Telgte"
 },
 {
     "name": "Equatoguinean Spanish",
@@ -1364,7 +1364,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lr",
   "m": 0,
-  "b": "Malabo,Bata,Ebebiyin,Mongomo,Luba,Evinayong,Micomeseng,Aconibe,Anisoc,Niefang,Rebola,Riaba"
+  "b": "Báigōng Jiēdào,1784199,Zhongzhai,1784207,Zhongxing,1784253,Zhongxin,1784272,1784285,Zhongshu,1784310,Zhonghe,1784388,1784393,Zhongduo,1784417,Gusong,1784450,Zhongchao,1784452"
 },
 {
     "name": "Baka",
@@ -1373,7 +1373,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yokadouma,Moloundou,Lomié,Messok,Mintom,Ngoyla,Djoum,Sangmélima,Batouri"
+  "b": "1784697,Zhengding,1784712,Zhelou,1784750,Yongji,1784818,1784820,1784841,1784853,Zhaogezhuang,1784929,Zhaodun,1784939,Zhaoyuan,1784953,1784990,Zhanhe,1784994,1785018"
 },
 {
     "name": "Bube",
@@ -1382,7 +1382,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Malabo,Luba,Baney,Riaba,Rebola,Santiago de Baney,Moca,Basilé,Cupapa,Batete"
+  "b": "El Hadjira,2498172,El Hadjar,2498183,El Menia,2498305,El Eulma,2498392,El Bayadh,2498543,El Attaf,2498590,2498611,El Arrouch,2498614,El Aouinet,2498667,El Amria,2498704,El Affroun"
 },
 {
     "name": "Saya",
@@ -1391,7 +1391,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aihuitr,Brotvue,Wuurem,Zhouiuch,Gwoskflaa,Aigruiq,Smopbrue,Siostiphau,Hodrdue"
+  "b": "2498752,El Achir,2498766,El Abiodh Sidi Cheikh,2498775,El Abadia,2498782,Ech Chettia,2498954,Drean,2499055,Draa el Mizan,2499104,Draa Ben Khedda,2499116,Douéra,2499193,2500017,Djamaa,2500282"
 },
 {
     "name": "Berta",
@@ -1400,7 +1400,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Asosa,Bambasi,Kurmuk,Guba,Sherkole,Menge,Homosha,Oda,Beni Shangul,Blue Nile,Famaka,Fazogli"
+  "b": "Yinma,1786515,Zhongxiang,1786546,Yingtan,Jiangxi,1786577,Yingshang Chengguanzhen,1786587,Yinggen,1786620,Chengzhong,1786640,1786657,Yima,1786676,Yigou,1786720,1786731,1786746"
 },
 {
     "name": "Sinyar",
@@ -1409,7 +1409,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beida,Wadi Salih,Goz Beida,Kadjaksé,Dagana,Mogororo,Ade,Sila,Dar Sila,Habila,Forobaranga,Aradib"
+  "b": "2653935,2653941,2653945,Camberley,2653947,2653974,2654089,Buxton,2654141,Bushey,2654179,Bury St Edmunds,2654186,2654187,Burton upon Trent,2654200,Burntwood,2654252,2654264,Burnham-on-Sea"
 },
 {
     "name": "Songhoyboro Ciine",
@@ -1418,7 +1418,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tillabéri,Niamey,Dosso,Tera,Gothèye,Kollo,Say,Ouallam,Filingué,Dargol,Namaro,Yatakala"
+  "b": "2654269,Burgess Hill,2654308,Buckley,2654394,Brymbo,2654450,Broxburn,2654480,Brough,2654532,Bromsgrove,2654579,Broadstairs,2654635,Brixham,2654663,Briton Ferry,2654668,2654675"
 },
 {
     "name": "Surbakhal",
@@ -1427,7 +1427,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goz Beida,Koukou Angarana,Kerfi,Moude¯na,Adé,Tissi,Mongororo,Haraze,Sila,Ouadda¯,Batha,Guéra"
+  "b": "2654710,Brighouse,2654715,Brierley Hill,2654724,2654728,Bridgwater,2654730,Bridgend,2654755,Brentwood,2654782,Brent,2654789,Bredbury,2654814,Braunstone,2654859,Bramhall,2654927"
 },
 {
     "name": "Teda",
@@ -1436,7 +1436,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bardai,Zouar,Faya-Largeau,Ounianga Kébir,Wour,Yebbi-Bou,Aouzou,Kourizo,Trou au Natron,Tibesti,Ennedi,Borkou"
+  "b": "Braintree,2654938,2654993,Bracknell,2655009,Bow,2655076,2655095,2655138,Borehamwood,2655186,Bootle,2655198,Bonnyrigg,2655210,2655237,Bognor Regis,2655262,2655273,Blyth"
 },
 {
     "name": "Tondi Songway Kiini",
@@ -1445,7 +1445,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kikara,Douentza,Mopti,Boni,Hombori,Gao,Tombouctou,Djenné,Sevaré,Bandiagara,Bankass"
+  "b": "2655315,Bloxwich,2655329,Bletchley,2655351,Blaydon-on-Tyne,2655369,Blackwall,2655438,2655459,Blackburn,2655524,Bishopstoke,2655557,Bishops Stortford,2655562,Bishopbriggs,2655582,Bishop Auckland,2655583"
 },
 {
     "name": "Sukur",
@@ -1454,7 +1454,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sukur,Madagali,Gulak,Michika,Mubi,Mandara,Adamawa,Maiduguri,Yola,Gwoza,Bama,Dikwa"
+  "b": "2655603,Birkenhead,2655613,2655642,Billingham,2655664,Billericay,2655672,Biggleswade,2655689,2655707,Biddulph,2655708,Bicester,2655729,2655775,Bexhill-on-Sea,2655777,Beverley,2655785"
 },
 {
     "name": "Bacama",
@@ -1463,7 +1463,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Numan,Lamurde,Guyuk,Demsa,Yola,Jimeta,Adamawa,Benue,Taraba,Gombe,Bauchi,Jos"
+  "b": "Berkhamsted,2655858,Bentley,2655882,Belper,2655942,Bellshill,2655952,2655984,Bedworth,2656031,Bedlington,2656039,2656046,Beckenham,2656065,Bebington,2656070,Bearsden,2656086"
 },
 {
     "name": "Bade",
@@ -1472,7 +1472,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gashua,Bade,Jakusko,Potiskum,Nguru,Yobe,Damaturu,Geidam,Yusufari,Machina,Karasuwa,Yunusari"
+  "b": "Batley,2656168,Bathgate,2656169,2656173,2656192,Basildon,2656194,Basford,2656196,2656235,Barrow in Furness,2656241,Barrhead,2656258,Barnstaple,2656281,2656284,Barnet,2656295"
 },
 {
     "name": "Bole",
@@ -1481,7 +1481,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Potiskum,Fika,Nafada,Bajoga,Gombe,Dukku,Bauchi,Azare,Misau,Darazo,Kari,Bara"
+  "b": "Barnes,2656296,Barking,2656333,Banstead,2656379,2656396,2656397,Banbury,2656406,Banbridge,2656407,2656490,Baildon,2656627,2656708,2656719,Atherton,2656847,Aston"
 },
 {
     "name": "Saharan Spanish",
@@ -1490,7 +1490,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lr",
   "m": 0,
-  "b": "El Aaiºn,Dakhla,Smara,La Güera,Boujdour,Cape Bojador,Tichla,Zug,Auserd,Mahbes,Guelta Zemmur,Bir Lehlou"
+  "b": "Yicheng,1786759,Yixing,1786760,1786764,1786770,Yezhou,1786778,Yeyuan,1786783,Yatou,1786855,Yashan,1786867,Yaowan,1786910,Yaoji,1786969,Yanzibu,1787019"
 },
 {
     "name": "Syer-Tenyer",
@@ -1499,7 +1499,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Banfora,Niangoloko,Soubakaniédougou,Tiéfora,Moussodougou,Dakoro,Sindou,Douna,Loumana,Ouéléni,Mangodara,Kankalaba"
+  "b": "Óhegy,12749904,Újlipótváros,13589152,Alsórákos,13645442,Tongging,North Sumatra,1213442,Teluk Nibung,1213493,1213495,1213500,Tarutung,1213504,Tanjungtiram,1213530,1213547,Sunggal,1213614"
 },
 {
     "name": "Tiv",
@@ -1508,7 +1508,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makurdi,Gboko,Katsina-Ala,Otukpo,Zaki Biam,Vandeikya,Adikpo,Ushongo,Aliade,Tse-Agberagba,Lessel,Buruku"
+  "b": "Stabat,1213655,Aceh,1213713,1213821,Sidikalang,1213840,1213855,Sabang,1214026,Reuleuet,1214055,Rantauprapat,1214073,Percut,1214189,Perbaungan,1214191,1214204,Paropo"
 },
 {
     "name": "Tyap",
@@ -1517,7 +1517,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zangon Kataf,Kafanchan,Kagoro,Manchok,Zonkwa,Samaru Kataf,Gidan Waya,Mabushi,Fadan Kaje,Unguwan Rimi,Kamuru,Zonzon"
+  "b": "1214256,Pangkalan Brandan,1214302,Padangsidempuan,1214369,Meulaboh,1214488,1214520,1214658,1214724,Lahewa,1214776,Labuhan Deli,1214800,Kisaran,1214882,Kabanjahe,1214965,1215102,Deli Tua"
 },
 {
     "name": "Werni",
@@ -1526,7 +1526,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Werni,Talodi,Kadugli,Dilling,Rashad,Abu Jubaiyah,Habila,Lagawa,Kauda,Heiban,Tegali"
+  "b": "1790100,1790251,1790254,Xiaochuan,1790296,Xianyang,1790353,Xiantao,1790371,Xianshuigu,1790379,Xiannü,1790392,1790396,Xianju,1790413,Xiangzhou,1790434,1790437,Xiangcheng"
 },
 {
     "name": "Yobe",
@@ -1535,7 +1535,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Damaturu,Potiskum,Gashua,Nguru,Geidam,Buni Yadi,Gujba,Fune,Jakusko,Yusufari,Machina,Karasuwa,Yunusari,Bade,Tarmuwa,Gulani,Nangere,Fika,Goniri,Dapchi,Bayamari,Kanamma,Kumagannam,Kaska,Yadi,Dawayo,Gorgoram,Jajimaji,Amshi,Degubi,Kukuwa,Lantewa,Babban Gida,Dumas,Garin Gada,Garin Maji,Garin Tuwo,Garin Boka,Garin Sambo,Garin Jibrin,Garin Alkali,Garin Malam,Garin Gabas,Garin Yamma,Garin Arewa,Garin Kudu,Garin Shuaibu,Garin Audu,Garin Musa,Garin Isa"
+  "b": "Wonopringgo,1621416,Wongsorejo,East Java,1621439,Wiradesa,1621520,Weru,West Java,1621613,Weleri,1621655,Welahan,1621659,1621678,South Sulawesi,1621884,Wangon,1622090,Wanaraja"
 },
 {
     "name": "Zhire",
@@ -1544,7 +1544,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kachia,Gumel,Kajuru,Zonkwa,Kafanchan,Zangon Kataf,Kaduna,Kwoi,Kagarko,Jere,Katari,Bishini,Kurmin Musa,Gidan Mana,Gidan Tagwai,Gidan Waya,Gidan Jatau,Gidan Dadi,Gidan Gado,Gidan Gidau,Gidan Goma,Gidan Goro,Gidan Habu,Gidan Isa,Gidan Jibrin,Gidan Kudi,Gidan Ladi,Gidan Mai,Gidan Nono,Gidan Oro,Gidan Pawa,Gidan Rana,Gidan Sani,Gidan Tudu,Gidan Uba,Gidan Wada,Gidan Yaro,Gidan Zaki,Gidan Abba,Gidan Baba,Gidan Chori,Gidan Danasabe,Gidan Ehis,Gidan Fada,Gidan Garba,Gidan Haruna,Gidan Idris,Gidan Kwasau,Gidan Leke"
+  "b": "1790442,Wenxing,1790451,Xiangxiang,1790471,1790492,Xiangshui,1790497,1790587,1790601,Xianfeng,1790615,1790630,1790645,Xiagezhuang,1790744,1790840,1790842,Wuzhen,1790848"
 },
 {
     "name": "Zhoa",
@@ -1553,7 +1553,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zhoa,Wum,Bafut,Bali,Mankon,Bamenda,Menchum,Esu,Weh,Aghem,Fungom,Bum,Kom,Nso,Mmetta,Moghamo,Ngie,Ngworekum,Oshie,Pinyin,Awing,Akum,Santa,Tuba,Bambui,Bambili,Kedjom,Babanki,Nkwen,Mendankwe,Chomba,Mbatu,Nsongwa,Mbu,Forbi,Njong,Njah,Mofou,Baforchu,Bambalang"
+  "b": "Shekou,1795708,1795751,Shawan,1795776,Rensha,1795811,Shaping,1795833,1795842,1795855,1795857,Shaoshan,1795860,1795874,Shaodian,1795880,Shancheng,1795919,1795928"
 },
 {
     "name": "Tadaksahak",
@@ -1562,7 +1562,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Menaka,Ansongo,Abalak,In-Gall,Tahoua,Gao,Kidal,Agadez,Tchin-Tabaraden,Tassara,Tillia,Ouallam,Banibangou,Ayorou,Tillabéri,Gothèye,Tera,Dargol,Namaro,Say,Kollo,Dosso,Dogondoutchi,Birni-N'Konni,Madaoua,Bouza,Keita,Illéla,Bagaroua,Tébaram,Aderbissinat,Ingall,Iferouane,Arlit,Bilma,Fachi,N'Guigmi,Maine-Soroa,Diffa,Goure,Zinder,Tanout,Mirriah,Magaria,Matameye,Tessaoua,Mayahi,Dakoro,Aguié,Madarounfa"
+  "b": "North Kalimantan,1624725,Tanjung Selor,1624827,Riau Islands,1624863,Tanjung Pandan,Bangka-Belitung Islands,1624877,1624917,1624974,Tanjungagung,South Sumatra,1624987,South Kalimantan,1625014,Tanggulangin,1625067,1625084,West Nusa Tenggara"
 },
 {
     "name": "Saba",
@@ -1571,7 +1571,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "N'Djamena,Abéché,Sarh,Mondou,Pala,Bongor,Massakory,Mao,Moussoro,Biltine,Ati,Mongo"
+  "b": "Wārāseonī,1252946,1252948,Wanparti,1252956,Wānkāner,1252958,Wani,1252960,Waluj Buzurg,1252980,Walajapet,1252997,1253013,1253041,Wadgaon,1253056,1253073,Vyāra,1253074"
 },
 {
     "name": "Shabo",
@@ -1580,7 +1580,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "r",
   "m": 0,
-  "b": "Gambela,Itang,Jikawo,Gog,Pagak,Nasir,Mading,Dembi,Bure,South Sudan,South Omo"
+  "b": "1797172,Renqiu,1797181,Renhe,1797213,1797264,1797318,Qufu,1797333,1797353,1797417,Zhuangyuan,1797438,Qiuji,1797471,Qishan,1797505,Qisha,1797514,Qiongshan"
 },
 {
     "name": "Senara",
@@ -1589,7 +1589,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koutiala,Sikasso,Yorosso,Orodara,Toussiana,Minian,Bougouni,Sienso,Koara,Famanie,Banzon,Djiboula,Dianguina,Nientiena,Dionougoro"
+  "b": "1253193,Vidisha,1253200,Vettūr,1253216,Vettavalam,1253217,Vettaikkaranpudur,1253219,Vetapālem,1253220,1253237,Vepagunta,1253242,Venkatagiri,1253251,Vemalwāda,1253275,Velur,1253278"
 },
 {
     "name": "Sucite",
@@ -1598,7 +1598,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikasso,Kadiolo,Odienne,Toussiana,Boundiali,Orodara,Karangana,Mopti,Yorosso,Djenné,Tominian,Bougouni"
+  "b": "Lushar,1801734,1801740,1801792,1801797,1801799,Luorong,1801850,Luoqi,1801859,1801862,Luomen,1801876,Luolong,1801885,Luojiang,1801909,Luohuang,1801926,Luohe"
 },
 {
     "name": "Supyire",
@@ -1607,7 +1607,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sikasso,Kadiolo,Kolondieba,Niena,Minidian,Djenné,Sokoroni,Sirakoroni,Nafara,Ouesso,Faranseka"
+  "b": "Varangaon,1253403,1253405,Vaniyambadi,1253437,Vandavāsi,1253452,Vandalūr,1253454,1253468,Valparai,1253472,Vallam,1253481,Vallabh Vidyanagar,1253482,Valavanur,1253490,Valabhīpur,1253512"
 },
 {
     "name": "Suwu",
@@ -1616,7 +1616,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suwu,Ghana,Bobo-Dioulasso,Koudougou,Ouahigouya,Banfora,Kaya,Ouagadougou,Tenkodogo,Fada N'Gourma"
+  "b": "1801934,1801983,Lulou,1802020,Lucheng,1802068,Lüeyang Chengguanzhen,1802136,1802171,Lubu,1802177,Luancheng,1802204,1802206,Loudi,1802238,1802276,1802296,Longtan,1802407"
 },
 {
     "name": "Tetuani",
@@ -1625,7 +1625,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lr",
   "m": 0,
-  "b": "Tetuán,Tangier,Chefchaouen,Larache,Ksar el-Kebir,Asilah,Ceuta,Melilla,Gibraltar,Oran,Algiers,Casablanca"
+  "b": "1268601,Kaimori,1268615,Kaimganj,1268616,1268622,Kailāras,1268624,Kaikalūr,1268627,Kaij,1268628,Kāgal,1268651,1268662,Kadod,1268667,1268673,Kadikkād,1268678"
 },
 {
     "name": "Abon",
@@ -1634,7 +1634,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baissa,Kurmi,Ashuku,Abong,Bitako,Ambe,Bissaula,Galumjina,Gwanda,Kamino,Mararraba,Tosso"
+  "b": "Yerkhera,10469721,Nārsala,10469865,Hudkeshwar Buzurg,10469872,10469921,Vijayapuri North,10490140,Mahārājpur,10493516,Umbri,10503881,Desāīganj,10519399,Rāmachandrapuran,10524011,Amīnpur,10524013,Bolārum"
 },
 {
     "name": "Abron",
@@ -1643,7 +1643,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bondoukou,Tanda,Sandegue,Koun-Fao,Transua,Goumere,Assuefry,Appimandoum,Ayuami,Drobo,Sampa,Japekrom"
+  "b": "10524016,Bāspalli,10524017,10524295,Nivāri,10524858,10525092,10525684,10527154,10530672,10530675,10535156,10541309,10548728,10549556,10555146,10555165,10571120,10627510,10628607"
 },
 {
     "name": "Acheron",
@@ -1652,7 +1652,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kadugli,Dilling,Rashad,Abu Jubaiyah,Talodi,Lagawa,Habila,Kauda,Heiban,Julud,Um Dami,Korongo"
+  "b": "1802408,Longshui,1802420,Longshi,1802426,1802441,Longquan,1802476,Longmen,1802501,1802523,1802541,Longgang,1802550,Longju,1802563,Longgu,1802640,1802651,1802656"
 },
 {
     "name": "Adara",
@@ -1661,7 +1661,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kachia,Kajuru,Adara,Kujama,Kasuwan Magani,Maraban Rido,Iri,Katari,Bishini,Jere,Kagarko,Gumel"
+  "b": "Longfeng,1802659,Long’e,1802665,Longchi,1802685,Longcheng,1802686,1802695,Licheng,1802788,Lixin,1802802,1802811,Liuyin,1802870,Guankou,1802875,Liuxin,1802880"
 },
 {
     "name": "Aghem",
@@ -1670,7 +1670,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wum,We,Zhoa,Bu,Kuk,Nyos,Fang,Isu,Kung,Benakuma,Bawuru,Menchum"
+  "b": "Guye,1809159,Guxian,1809178,Guxi,1809193,Gupi,1809250,Guozhen,1809263,Guofu,1809338,Gunan,1809380,Gulin,1809408,Guli,1809412,1809461,Guixi"
 },
 {
     "name": "Aiki",
@@ -1679,7 +1679,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goz Beida,Am Dam,Koukou Angarana,Ade,Mongororo,Tissi,Haraze,Birao,Ndele,Ouadda Haddad,Abgue,Djouna"
+  "b": "Chefushan,1815345,1815395,Chaotian,1815413,Chaohu,1815427,1815456,1815463,Changyuan,1815477,Changyi,1815482,Changxin,1815494,1815577,Changqing,1815585,1815611,1815617"
 },
 {
     "name": "Aja",
@@ -1688,7 +1688,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aplahoue,Dogbo,Djakotomey,Klouekanme,Lalo,Toviklin,Azove,Adjarra,Houeyogbe,Athieme,Lokossa,Grand-Popo"
+  "b": "10878482,Kunnimangalam,10878484,Molakālumuru,10883966,Bhadauni,10885305,Satyāmangala,10888572,Pariyāram,10892271,Bihāt,10894229,Hutagalli,10896944,Hinakallu,10896954,Cherukunnu,10910167,Kannapuram"
 },
 {
     "name": "Aka",
@@ -1697,7 +1697,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongoumba,Bayanga,Nola,Salo,Libenge,Gemena,Zongo,Impfondo,Dongou,Enyelle,Betou,Boyabo"
+  "b": "10910171,Pallikunnu,10910174,Chirakkal,10910176,Kalliyasshēri,10910181,Puzhathi,10910185,Kolaccheri,10910197,Elayavur,10910205,Pinarāyi,10910220,Chālakilakākara,10910227,Irivēri,10910231,Chelora"
 },
 {
     "name": "Ambele",
@@ -1706,7 +1706,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Batibo,Widikum,Guzang,Ashong,Mbengwi,Njikwa,Andek,Ngie,Oshie,Bessi,Tiben,Eka"
+  "b": "10910247,Kudali,10910251,Munderi,10910255,Saknepalli,10916655,Keevallur,10922727,Patuvilāyi,10922733,Patiriyat,10922736,Eruvatti,10922739,Katirur,10922740,Erannoli,10922741,Pāttyam"
 },
 {
     "name": "Ambo",
@@ -1715,7 +1715,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Petauke,Nyimba,Luangwa,Feira,Mfuwe,Katete,Sinda,Kacholola,Rufunsa,Chongwe,Mpanshya,Chipata"
+  "b": "10922743,Mokēri,10922760,Kolavallúr,10922793,Māniyūr,10924880,Chōrōd,10924889,Edacchēri,10924919,Erāmala,10924923,Azhiyūr,10924927,Tūnēri,10924934,Panniyannūr,10924946,Chekkiād"
 },
 {
     "name": "Amdang",
@@ -1724,7 +1724,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Biltine,Arada,Iriba,Guereda,Am Zorer,Matadjana,Kalait,Fada,Oum Chalouba,Wadi Fira,Kapka,Bao"
+  "b": "Changli,1815656,Changleng,1815667,Changle,1815669,1815678,Changdian,1815758,1815779,Changba,1815797,Chaigou,1815847,Chahe,1815856,1815878,Caoqiao,1815971,Caohe"
 },
 {
     "name": "Dagbani",
@@ -1733,7 +1733,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tamale,Yendi,Savelugu,Kumbungu,Tolon,Karaga,Gushiegu,Zabzugu,Tatale,Bimbilla,Salaga"
+  "b": "11463890,Vengola Kizhakkumbāgam,11463913,Pirāyiri,11477647,Ambikāpuram,11477658,Puthuppariyāram,11477665,Marutharōd,11477730,Ūttukuli,11484545,Mēppādam,11484907,Kumārapuram,11484935,Vakkam,11487287,Kīlattingal"
 },
 {
     "name": "Djimini",
@@ -1742,7 +1742,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dabakala,Satama-Sokoro,Satama-Sokoura,Bassawa,Boniérédougou,Foumbolo,Sokala-Sobara,Niéméné,Tendéné,M'Borla-Dioulasso,Koniédougou,Yaossédougou"
+  "b": "11487291,Vellūr,11487382,Vettanād,11487471,Vattiyūrkāvu,11487540,Srvanampatti,11488243,Kālappatti,11488244,Sāmalāpuram,11488277,Iramallūr,11499877,Pudusseri,11500480,Kurichchi,11500546,Kuniyamuttūr"
 },
 {
     "name": "Doghose",
@@ -1751,7 +1751,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nouiug,Kioswaikrui,Ountuuxoph,Iingeskiusm,Snioxiofree,Aituid,Biobaibui,Nkokwque,Nkuukwey,Iotseet,Iineyiupr,Fliontaivui"
+  "b": "1816026,1816028,1816080,1816162,Caidian,1816176,Buhe,1816221,Bozhou,1816234,1816256,Boshan,1816265,1816269,Biyang,1816316,1816329,1816336,Bikou,1816369"
 },
 {
     "name": "Dogoso",
@@ -1760,7 +1760,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iosneew,Ruukrien,Cuuker,Ioveefr,Juuflieth,Triobraispui,Swathoo,Uogietweih,Uaczu,Thovnue,Luufiekw,Uojiekheidz"
+  "b": "11501709,Ayanavelikulangara Vadakku,11501853,Kalleribhāgam,11501867,Panayāttur Vadakkumbhāgam,11502044,Karuva,11502046,Perunād,11502057,Tirkadavūr,11502076,Kottangara,11502085,Mayyanād,11502105,Trikonavattam,11502168,Adichānallūr"
 },
 {
     "name": "Eton",
@@ -1769,7 +1769,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Obala,Sa'a,Okola,Monatélé,Evodoula,Batchenga,Efok,Elig-Mfomo,Lobo,Ngog-Sa'a,Minlaba,Nkol-Meyos,Ebebda,Minkama,Nkol-Eton,Nkol-Veng,Nkol-Kos,Nkol-Nguele,Nkol-Nyada,Nkol-Mvolo,Nkol-Obang,Nkol-Abele,Nkol-Akon,Nkol-Atem,Nkol-Bikok,Nkol-Bilouck,Nkol-Dibi,Nkol-Dobo,Nkol-Don,Nkol-Ebae,Nkol-Ebende,Nkol-Ebol,Nkol-Edjo"
+  "b": "1816373,Bianzhuang,1816406,Biantang,1816412,Bengbu,1816440,Beiwangli,1816535,Beisu,1816560,Beimeng,1816620,1816670,1816705,Beidao,1816751,Beibei,1816790,Bayiji"
 },
 {
     "name": "Evant",
@@ -1778,7 +1778,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Manyu,Akwaya,Mamfe,Eyumojock,Tinto,Upper Banyang,Central Ejagham,South Etung,North Etung,Oban,Ikom,Etung"
+  "b": "Nerupperichchal,11520202,Mangalam,11520272,Murugampālaiyam,11520292,Mannarai,11520308,Muttanampālaiyam,11520318,11520363,11520375,11520454,11522068,11522093,11522111,11522157,11522212,11522307,11522310"
 },
 {
     "name": "Fongoro",
@@ -1787,7 +1787,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Habila,Geneina,Adre,Birao,Tissi,Am Dafok,Um Shaluba,Forobaranga,Beida,Arara,Masteri,Kongo Haraza"
+  "b": "11522311,11522316,11522317,11522389,11522441,11523476,11532691,11556470,11556532,11556871,11556989,11557957,11563145,11563175,11578914,11604574,11604632,11607796,11624842,11626023"
 },
 {
     "name": "Fungor",
@@ -1796,7 +1796,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ndouiusl,Vojwue,Dzazhia,Waroo,Ndogrslaa,Phodfrue,Skiogaitui,Mpuuhiemb,Oifrthoi,Xiozikhau,Ngankia,Guundiegw"
+  "b": "11626032,11627210,11628556,11628557,11628594,11628608,11628615,11655282,11655500,11655503,11655515,11655528,11655531,11655540,11655546,11655584,11655747,11655763,11655782,11655802"
 },
 {
     "name": "Ghomala'",
@@ -1805,7 +1805,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bafoussam,Mbouda,Bandjoun,Baham,Bayangam,Bamendjou,Bansoa,Batcham,Baleng,Bafounda,Bamougoum,Bameka"
+  "b": "11656142,11656271,11656566,11657280,11657313,11657535,11657965,11658143,11660715,11661417,11661831,11661969,11662007,11662151,11663179,11663358,11663359,11663478,11664417,11664459"
 },
 {
     "name": "Gikuyu",
@@ -1814,7 +1814,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nyeri,Murang'a,Kiambu,Kerugoya,Othaya,Karatina,Limuru,Thika,Githunguri,Gatundu,Maragua,Kandara"
+  "b": "11664489,11664493,11664494,11664510,11664517,11664525,11664530,11664532,11664565,11664942,11676044,11676045,11677565,11677688,11678557,11678976,11679084,11679708,11679729,11679731"
 },
 {
     "name": "Goundo",
@@ -1823,7 +1823,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pala,Léré,Fianga,Binder,Gounou Gaya,Kélo,Bongor,Moundou,Doba,Koumra,Sarh,Kyabé"
+  "b": "11679803,11680409,11680524,11680678,11680724,11680754,11682149,11683679,11685075,12032137,12069922,12165955,12165956,12196119,12261477,12493784,12495083,12501142,12501153,12501195"
 },
 {
     "name": "Gourmanché",
@@ -1832,7 +1832,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fada N'gourma,Pama,Diapaga,Bogandé,Kantchari,Matiacoali,Gayéri,Piéla,Bilanga,Manni,Botou,Tambaga"
+  "b": "12501197,12501265,12501475,12501476,12501480,12503489,12503616,12518878,12518919,12518993,12519043,12519055,12519184,12519446,12519678,12519688,12522576,12522807,12522811,12523250"
 },
 {
     "name": "Gumuz",
@@ -1841,7 +1841,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Metekel,Kamashi,Assosa,Guba,Dangur,Dibate,Bulen,Wenbera,Mandura,Galessa,Sirba Abbay,Agalo Mite"
+  "b": "3685733,3685823,3685871,3685949,3686013,3686233,3686255,3686272,3686279,3686445,3686479,3686513,3686540,3686561,3686585,3686636,3686675,3686793,3686922,3687025"
 },
 {
     "name": "Gwari",
@@ -1850,7 +1850,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Minna,Abuja,Suleja,Kuta,Paiko,Lapai,Agaie,Bwari,Gwagwalada,Karu,Kuje,Kwali"
+  "b": "3687230,3687238,3687318,3687634,3687644,3687758,3687806,3687925,Caldas,3687952,3687964,3688006,3688071,3688256,3688266,3688451,3688452,3688465,3688566,Bogota D.C."
 },
 {
     "name": "Gyong",
@@ -1859,7 +1859,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kachia,Kagarko,Jere,Gumel,Zaria,Kaduna,Kafanchan,Kwoi,Nok,Fadan Karshe,Gwantu,Saminaka"
+  "b": "3688689,3688840,3688928,3688989,3689026,3689147,3689162,3689169,3689205,3689206,3689235,3689292,3689381,3689458,3689560,3689570,3689589,3689718,3689759,3689798"
 },
 {
     "name": "Hakaona",
@@ -1868,7 +1868,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Opuwo,Epupa,Ruacana,Okanguati,Otjiu,Kaoko Otavi,Sanitatas,Orupembe,Purros,Sesfontein,Warmquelle,Kamanjab"
+  "b": "3689816,3689833,3689899,3689905,3689952,3690250,Aguazul,3690316,3690431,3690465,3690577,3690592,3770718,3770955,3780602,3781636,3792375,3792376,3792380,3792383"
 },
 {
     "name": "Hanga",
@@ -1877,7 +1877,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Damongo,Larabanga,Busunu,Murugu,Mole,Daboya,Mankuma,Sawla,Tuna,Bole,Buipe,Yapei"
+  "b": "3792385,3792389,3792392,Guaviare Department,3828545,3829343,7033318,8633918,Cartago Province,3621184,3621335,Limon Province,3621440,3621505,3621655,3621659,3621689,3621717,Heredia Province,3621729"
 },
 {
     "name": "Saari",
@@ -1886,7 +1886,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Misaje,Dumbo,Akweto,Bebe-Jatto,Bebe-Ketti,Kamine,Sabongari,Mbissa,Mfume,Bissaula,Gayama,Nkambe"
+  "b": "3621753,3621804,3621819,Alajuela Province,3621841,3621849,3621889,3621911,3621922,3621926,3622190,3622217,Puntarenas Province,3622228,3622247,3622507,3622547,Guanacaste Province,3622716,3622881"
 },
 {
     "name": "Samwe",
@@ -1895,7 +1895,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tougan,Kiembara,Lankouè,Di,Gomboro,Kassoum,Toéni,Sono,Barani,Bomborokuy,Djibasso,Madouba"
+  "b": "3623076,3623394,3623486,3623580,3623593,3623781,3623977,3624174,3624288,3624370,3624468,3624509,3624848,3624955,6612154,Granma Province,3533753,Sancti Spiritus Province,3533826,Pinar del Rio"
 },
 {
     "name": "Shwai",
@@ -1904,7 +1904,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Spiosliflau,Oukuulokh,Ndogrslue,Khuusniech,Uofriemeikr,Suusteph,Oiphtroi,Tiogwaitrui,Ioheetr,Mpuuhemb,Slouiusw,Uodriebreig"
+  "b": "3534094,3534332,Camaguey,3534363,Ciego de Avila Province,3534432,3534597,3534599,Matanzas Province,3534632,Holguin Province,3534749,3534761,3534915,3536259,Villa Clara Province,3536640,3536724,Santiago de Cuba Province,3536729"
 },
 {
     "name": "Sighu",
@@ -1913,7 +1913,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Koulamoutou,Lastoursville,Pana,Iboundji,Popa,Mbigou,Mimongo,Lebamba,Ndende,Mouila,Fougamou,Lambaréné"
+  "b": "3537840,Mayabeque,3537845,3537906,3538803,3539093,3539560,3540667,3540680,3540885,3541440,3541446,Cienfuegos Province,3541999,Guantanamo Province,3542137,3542167,3542455,3542502,3542744"
 },
 {
     "name": "Siwu",
@@ -1922,7 +1922,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Akpafu,Lolobi,Hohoe,Likpe,Santrokofi,Jasikan,Kadjebi,Worawora,Kwamekrom,Kajaji,Kete Krachi,Dambai"
+  "b": "Las Tunas Province,3543299,3543498,3543961,3544091,3544171,3544393,3544607,3545040,3545064,3545841,Isla de la Juventud,3545867,3545981,3546242,3546434,3546791,3546882,3546894,3547260"
 },
 {
     "name": "Southeast Ijo",
@@ -1931,7 +1931,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nembe,Brass,Akassa,Okpoama,Twon-Brass,Ogbia,Yenagoa,Kaiama,Sagbama,Ekeremor,Oporoma,Amassoma"
+  "b": "Matanzas,3547398,3547600,3547640,3547867,3547932,3547976,3548441,3548529,3548993,3549835,3550209,3550598,3551184,3551608,3553343,3553478,3555907,3556077,3556078"
 },
 {
     "name": "Tagwana",
@@ -1940,7 +1940,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Katiola,Niakaramandougou,Tortiya,Fronan,Arikokaha,Badikaha,Tafiré,Niédiékaha,Kanawolo,Korhogo,Dikodougou,Sinématiali,Niakara"
+  "b": "13156769,13156770,13156771,13156772,13156773,13156774,13156775,13156776,13156777,13156905,13156906,13156907,13156908,13156928,13156929,13156930,13156931,13156932,13156958,13156959"
 },
 {
     "name": "Vengo",
@@ -1949,7 +1949,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iicepriufr,Tagwia,Yongtwaa,Lafia,Biobibau,Twambia,Vuujiesw,Fochtsaa,Oigngoi,Muunep"
+  "b": "13157136,13157137,13157138,13157139,13157140,13157141,13157156,13157157,13157158,13157159,13157160,13308246,13353372,13353373,13353374,13353432,13353433,13353434,13353435,13353436"
 },
 {
     "name": "Viemo",
@@ -1958,7 +1958,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Karangasso-Vigué,Bobo-Dioulasso,Houndé,Béréba,Koumbia,Lena,Padéma,Satiri,Dandé,Faramana,Kourouma,Bekuy"
+  "b": "13353437,13353438,13353439,13353440,13353441,13353461,13353462,13353494,13353497,13353498,13353499,13353500,13353501,13353502,13353503,13353504,13353505,13353506,13353507,13353508"
 },
 {
     "name": "Viti",
@@ -1967,7 +1967,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Michika,Madagali,Bazza,Vi,Gulak,Shuwa,Mubi,Hong,Gombi,Little Gombi,Song,Girei"
+  "b": "13353509,13353510,13353511,13353512,13353513,13353514,13353515,13353516,13353517,13353518,13353519,13353520,13353521,13353522,13353523,13353524,13353525,13353526,13353527,13353528"
 },
 {
     "name": "Vori",
@@ -1976,7 +1976,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yabassi,Nkondjock,Yingui,Ndobian,Ndom,Ngambe,Loum,Mbanga,Njombe,Penja,Dibombari,Bonaberi"
+  "b": "13353529,13353530,13353531,13353532,13353533,13353534,13353535,13353536,13353537,13353538,13353539,13353540,13353541,13353542,13353543,13353544,13353545,13353546,13353547,13353548"
 },
 {
     "name": "Voro",
@@ -1985,7 +1985,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Song,Girei,Jimeta,Yola,Fufore,Mayo-Belwa,Ganye,Toungo,Jada,Hong,Gombi,Michika"
+  "b": "13353549,13353550,13353551,13353552,13353553,13353554,13353555,13353556,13353557,13353558,13353559,13353560,13353561,13353562,13353563,13353564,13353565,13353566,13353567,13353568"
 },
 {
     "name": "Wali Ghana",
@@ -1994,7 +1994,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wa,Kaleo,Nadowli,Daffiama,Jirapa,Lawra,Lambussie,Hamile,Ko,Han,Ulu,Boli"
+  "b": "13353569,13353570,13353571,13353572,13353573,13353574,13353575,13353576,13353577,Pallikal,13353579,Komalapuram,13353580,Vengara,13353581,Vazhakkala,13353582,Pallichal,13353583,Moonniyur"
 },
 {
     "name": "Afade",
@@ -2003,7 +2003,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Afade,Kousséri,Makari,Goulfey,Blangoua,Fotokol,Logone-Birni,Waza,Mora,Meri,Bogo,Maroua"
+  "b": "1816813,1816821,Baiyang,1816824,1816838,1816851,1816858,Bashan,1816865,1816868,Baoying,1816890,Baocheng,1816904,1816917,Shaoyang,1816920,1816924,Baoluan,1816929"
 },
 {
     "name": "Afar",
@@ -2012,7 +2012,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Djibouti,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Assab,Edd,Ti'o,Afambo,Asaita,Dubti"
+  "b": "Baojia,1816942,1816971,1817038,Balu,1817137,Baizi,1817193,1817240,Baixi,1817294,Baituo,1817306,Baitu,1817310,Baitao,1817330,1817441,1817456,Baimajing"
 },
 {
     "name": "Afrikaans",
@@ -2021,7 +2021,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cape Town,Pretoria,Bloemfontein,Johannesburg,Stellenbosch,Paarl,Worcester,Oudtshoorn,George,Knysna,Mossel Bay,Beaufort West"
+  "b": "Wuyishan,1922014,Leifeng,1927558,1927639,Bojia,1929434,Santangpu,1930074,Zhaojia,1942226,1942230,Zouma,1942248,1942254,Sanmiao,1942265,Rongxi,1942269,1942274"
 },
 {
     "name": "Agaw",
@@ -2030,7 +2030,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Injibara,Dangila,Chagni,Kosober,Addis Kidam,Tilili,Guangua,Banja,Faggeta Lekoma,Sekela,Quarit,Mecha"
+  "b": "Mujiayingzi,2035707,2035715,2035746,2035754,2035758,Meihekou,2035801,2035836,Longjing,2035966,2035970,2035980,Liuhe,2036033,Lishu,2036055,Linkou,2036066,2036069"
 },
 {
     "name": "Wapan",
@@ -2039,7 +2039,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yiongidrau,Iocheesh,Uahsmu,Oiczoi,Iofleesn,Iiswefiusn,Ainuiy,Xozpraa,Nkakwoo,Ioqeesp,Oithphoi,Aibuib"
+  "b": "Saint Francis Xavier,1821279,Luhuan,1821292,Zhuojiacun,1821294,13527317,Northern Mariana Islands,7828758,Martinique,3569915,3569926,3570412,Le Lamentin,3570428,Le François,3570429,La Trinité,3570446,3570675"
 },
 {
     "name": "Wushi",
@@ -2048,7 +2048,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wushi,Babungo,Ndop,Bamunka,Babessi,Bangolan,Bambalang,Bamessing,Bafanji,Bamali,Balikumbat,Basing"
+  "b": "2377457,2377539,Magṭa‘ Laḥjar,Brakna,2378160,2378538,Gorgol,2378736,El ’Ayoûn,2380066,Boutilimitt,2380670,Bougadoum,2380817,2380954,Hodh El Gharbi,2381291,2381334,2381659,Inchiri"
 },
 {
     "name": "Yemba",
@@ -2057,7 +2057,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dschang,Foreke-Dschang,Foto,Fongo-Tongo,Fossong-Wentcheng,Fotset-Kan,Baleveng,Bafou,Bameka,Bansoa,Bamendjou,Menoua,Menchi,Batcham,Bamendou,Bamoungoum"
+  "b": "2036389,Jiutai,2036401,Jiupu,2036403,Jishu,2036418,2036427,2036434,2036458,2036502,Jidong,2036519,Jiaohe,2036536,2036581,2036595,2036597,Hushitai,2036619"
 },
 {
     "name": "Zande",
@@ -2066,7 +2066,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yambio,Nzara,Ezo,Tombura,Maridi,Ibba,Li-Rangu,Gangura,Ri-Yubu,Obo,Zemio,Rafai"
+  "b": "2036653,2036662,Hulan Ergi,2036670,2036671,Huinan,2036685,Huanren,2036713,Huangnihe,2036734,Huanan,2036753,Huadian,2036776,Honggang,2036876,2036892,Hengshan,2036920"
 },
 {
     "name": "Wannu",
@@ -2075,7 +2075,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Grosmtraa,Dasoo,Snuuxefr,Griosmigau,Iondeemb,Uakwru,Smouiubr,Priolionkee,Swathia,Driotsaimpui,Buubieb,Yongtwue"
+  "b": "2036933,Heishan,2036959,2036973,2036986,2037013,Hailun,2037069,2037075,2037078,Haicheng,2037086,Beining,2037201,2037222,Gongchangling,2037240,2037252,2037311,2037330"
 },
 {
     "name": "Yalunka",
@@ -2084,7 +2084,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Faranah,Sangardo,Musaia,Falaba,Kabala,Heremakono,Sinkhunia,Gberia Fotombu,Dogoloya,Sulima,Koinadugu,Sengbe,Firia,Dantila,Koubia,Marela,Banora,Dialakoro,Kalako,Solon,Yana,Sanya"
+  "b": "Fuyu,2037334,2037335,Fuxin,2037346,2037355,Jixian,2037370,Fujin,2037375,Beichengqu,2037391,2037393,2037411,Fate,2037416,Erenhot,2037485,Erdaojiang,2037494"
 },
 {
     "name": "Yamba",
@@ -2093,7 +2093,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mbem,Rom,Kwak,Ntong,Ngung,Mfe,Bom,Gamfe,Yang,Nwa,Sabongari,Gom"
+  "b": "2037534,Dongning,2037611,Dongling,2037620,Dongfeng,2037658,Didao,2037685,Dehui,2037712,2037799,Dashitou,2037820,Dashiqiao,2037823,2037860,Dandong,2037886,Linghai"
 },
 {
     "name": "Yela-Kela",
@@ -2102,7 +2102,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kole,Dekese,Lodja,Katako-Kombe,Lubefu,Lusambo,Sankuru,Tshumbe,Wembo-Nyama,Bena Dibele,Minghe,Omendjadi,Lomela,Eali,Shuku,Mondombe,Ikela,Bokungu,Boende,Befale,Djolu"
+  "b": "2037913,Dalain Hob,2037927,Dalai,2037930,2038067,Chengzihe,2038080,2038087,2038118,2038120,Changtu,2038139,Changping,2038154,2038158,2038180,2038185,Chaihe,2038198"
 },
 {
     "name": "Yulu",
@@ -2111,7 +2111,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouadda,Yulu,Bamingui,Bangoran,Vakaga,Birao,Ndélé,Sam Ouandja,Kotto,Mbomou,Raga,Deim Zubeir"
+  "b": "Tlapa de Comonfort,3515384,3515386,Tlalpan,3515428,Tlalnepantla,3515431,Tláhuac,3515463,3515504,Tizayuca,3515505,Tixtla de Guerrero,3515510,3515665,3515696,Texcoco de Mora,3515715,Tequixquiac,3515794"
 },
 {
     "name": "Air Tamajeq",
@@ -2120,7 +2120,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Agadez,Arlit,Tchirozerine,Bilma,Iférouane,Ingall,Tahoua,Abalak,Tchintabaraden,Dakoro,Madaoua,Illéla"
+  "b": "4005864,Ciudad General Escobedo,4005867,San Pedro Garza García,4005937,4006163,Francisco I. Madero,4006194,Escuinapa de Hidalgo,4006622,4006702,Encarnación de Díaz,4006783,4006806,El Salto,4007673,4007676,4007682,4007684,San José del Quince"
 },
 {
     "name": "Aku",
@@ -2129,7 +2129,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Banjul,Serrekunda,Brikama,Bakau,Farafenni,Lamin,Sukuta,Gunjur,Soma,Sierra Leone,Freetown,Waterloo"
+  "b": "1683818,1683860,1683877,1683881,Talipapa,1683906,1684016,Talacogon,1684137,Magugpo Poblacion,Davao Region,1684269,1684308,1684320,Tagoloan,1684379,Tagbina,1684491,Tagbilaran City,1684497"
 },
 {
     "name": "Hamer",
@@ -2138,7 +2138,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Turmi,Dimeka,KeyAfer,Arbore,Konso,Jinka,Ari,Mago,Omo,Woyto,Hamer,Benna"
+  "b": "Brookes Point,1723763,Botolan,1723822,Borongan,1723893,1723983,Bongao,1724088,Bongabon,1724106,1724435,Bocaue,1724489,Bislig,1724767,Binonga,1724933,1724936,Binmaley"
 },
 {
     "name": "Amh",
@@ -2147,7 +2147,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chaonkoundoesw,Joosmayngoi,Xeedua,Stieieseor,Stiepietweo,Xeempuar,Preiputwii,Smiur,Feandeu,Brioaeseer"
+  "b": "1724956,1725094,Biñan,1725115,Binalbagan,1725157,Bignay Uno,1725359,Upper Bicutan,1725426,1725627,Bayugan,1725684,1725729,Baybay,1725799,Bayawan,1725804,Bayanan,1725851"
 },
 {
     "name": "Angas",
@@ -2156,7 +2156,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jos,Bukuru,Pankshin,Shendam,Wase,Langtang,Kanke,Kanam,Bassa,QuaanPan,Mikang,Mangu"
+  "b": "Bayambang,1725863,1725919,Bauang,1725983,Bauan,1725991,1726156,1726280,Batac City,1726339,Baras,1726765,1727043,1727052,Bansalan,1727080,1727214,1727400,1727401"
 },
 {
     "name": "Auyokawa",
@@ -2165,7 +2165,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kano,Katsina,Dutse,Hadejia,Ringim,Gwarzo,Rano,TudunWada,Gaya,Albasu,Danbatta,Makoda"
+  "b": "Bambang,1727663,Bamban,1727681,Balulang,1727741,Baliuag,1727995,Balayan,1728336,1728523,1728546,Balagtas,1728584,Bais,1728772,Bah-Bah,1728825,1728930,Bagong Barrio"
 },
 {
     "name": "Bade alias",
@@ -2174,7 +2174,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nguru,Gashua,Yusufari,Geidam,Bursali,Jakusko,Karasuwa,Machina,Mobbar,Kukawa,Abadam,Marte"
+  "b": "1729048,Bago City,1729085,Baggabag B,1729324,1729524,Bacolod City,1729564,Baclaran,1729613,Babo-Pangulo,1729734,Baao,1729814,Atimonan,1729987,1730097,Aringay,1730171,1730225"
 },
 {
     "name": "Barein",
@@ -2183,7 +2183,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "AmTiman,Abéché,Ati,Mongo,Biltine,Iriba,OumHadjer,Bokoro,Massaguet,Massakory,NDjamena,Sarh"
+  "b": "1730398,Apalit,1730413,1730501,1730713,Angeles City,1730737,Angat,1730749,Amadeo,1731212,Alicia,1731486,Aliaga,1731528,1731686,1731744,1731959,Aglipay,1732040"
 },
 {
     "name": "Beele",
@@ -2192,7 +2192,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bauchi,Ningi,Dass,Toro,Jamaa,Darazo,Misau,Katagum,Shira,Zaki,Giade,Gamawa"
+  "b": "Abuyog,1732312,Abucay,1732354,Bagong Pagasa,1966336,Malingao,1978681,Jose Rizal,7083355,Commonwealth,7090983,Bagong Silangan,7090987,Pasig City,7290466,Poblacion,7391141,8031389,Pandan"
 },
 {
     "name": "Anaang",
@@ -2201,7 +2201,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "IkotEkpene,Uyo,Abak,Eket,Oron,IkotAbasi,Etinan,Ibiaku,Nsit,Ibeno,EsitEket,Itu"
+  "b": "1162004,1162105,1162261,1162275,1162285,1162316,1162456,1162500,1162572,1162589,1162813,1162855,1162862,1162868,1162959,1163021,1163054,1163198,1163224,Toba Tek Singh"
 },
 {
     "name": "Aringa",
@@ -2210,7 +2210,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kampala,Entebbe,Jinja,Mbarara,Gulu,Lira,FortPortal,Mbale,Masaka,Kasese,Soroti,Arua"
+  "b": "1165744,1165789,1166000,1166062,1166066,1166073,1166146,1166164,1166265,1166381,1166547,1166548,1166652,1166827,1166933,1166993,1167031,1167142,Rajanpur,1167380"
 },
 {
     "name": "Aro",
@@ -2219,7 +2219,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Abuja,Kano,Ibadan,Kaduna,PortHarcourt,BeninCity,Maiduguri,Zaria,Aba,Jos,Ilorin"
+  "b": "1167386,1167398,Rahim Yar Khan,1167460,1167501,1167507,1167528,1167534,1167622,1167648,1167669,Pishin,1167821,Pir Mahal,1167873,Pindi Gheb,1168015,Pindi Bhattian,1168021,Pind Dadan Khan"
 },
 {
     "name": "Aroid",
@@ -2228,7 +2228,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ounuuyopr,Xazoo,Trobrthaa,Bobbue,Sliotrintau,Jaflia,Oumpuuslogw,Smapoo,Shuumesm,Couiup,Uaymu,Spioslaiflui"
+  "b": "1168036,Phalia,1168166,1168197,Pattoki,1168226,Pasrur,1168307,1168312,Pano Aqil,1168412,Pallandri,1168544,Pakpattan,1168555,Paharpur,1168633,Pad Idan,1168652,Pabbi"
 },
 {
     "name": "Asoa",
@@ -2237,7 +2237,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangui,Bimbo,Mba¯ki,Berbérati,Carnot,Bambari,Bouar,Bossangoa,KagaBandoro,Mobaye,Sibut,Bria"
+  "b": "Nankana Sahib,1169372,Muzaffargarh,1169605,1169607,1169620,Murree,1169684,Muridke,1169692,1169825,1170013,Model Town,1170157,1170219,Mitha Tiwana,1170222,Mirpur Mathelo,1170294,1170295"
 },
 {
     "name": "Atsam",
@@ -2246,7 +2246,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uampgru,Snuuxiefr,Ngionkaitsui,Ntiospiojee,Rouiugr,Phodfraa,Snaxoo,Kwapria,Iokreekw,Zhaphia,Twamboo,Outruuzhost"
+  "b": "1170395,Minchinabad,1170398,Mianwali,1170425,Mian Sahib,1170436,Mian Channun,1170486,Mehrabpur,1170564,Mehar,1170584,Matli,1170667,1170677,1170706,1170880,1170951,Manjhand"
 },
 {
     "name": "Bambassi",
@@ -2255,7 +2255,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Assosa,Kamashi,Pawe,Guba,Dibate,Mandura,Bambasi,BeloJeganfoy,Oda,Sirba,Yaso,Agalo"
+  "b": "1170989,Manhala,1171006,1171050,1171123,1171165,1171198,1171305,1171376,1171502,1171757,1171868,Lodhran,1171965,1172035,1172059,1172128,1172295,1172318,1172339"
 },
 {
     "name": "Tagoi",
@@ -2264,7 +2264,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "ElFasher,Nyala,Geneina,Zalingei,ElDaein,Kutum,Gereida,Tawila,Rijail,Buram,Kass,Kadugli"
+  "b": "1172451,1172488,1172513,1172595,1172657,1172663,1172682,1172779,Kot Samaba,1172888,Kotri,1172904,Kot Radha Kishan,1172915,Kot Mumin,1172964,Kot Malik Barkhurdar,1172993,Kotli Loharan,1173025"
 },
 {
     "name": "Wali Sudan",
@@ -2273,7 +2273,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "WadMadani,Sennar,Singa,AdDamazin,Roseires,Kusti,Rabak,AbuHamad,Berber,Dongola,Merowe,Karima"
+  "b": "1173055,Kot Ghulam Muhammad,1173272,Kot Diji,1173302,Kot Addu,1173378,1173491,1173664,Khushāb,1173687,Khurarianwala,1173692,Khewra,1173920,Kharian,1174042,1174062,Khanpur,1174167"
 },
 {
     "name": "Samo (Burkina)",
@@ -2282,7 +2282,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "tomasamo,tougansamo,solenzosamo,nounasamo,toenisamo,kiembarasamo,sourousamo,yatengasamo,zondomasamo,nayalasamo,sanguiesamo,passoresamo"
+  "b": "Khanpur Mahar,1174171,Khangarh,1174211,Khangah Dogran,1174217,Khalabat,1174301,Khairpur Nathan Shah,1174344,Khairpur Tamewah,1174355,1174357,Garhi Khairo,1174376,1174625,Kashmor,1174653,Karor,1174720"
 },
 {
     "name": "!Kx'ao-'ae",
@@ -2291,7 +2291,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Windhoek,Swakopmund,WalvisBay,Luderitz,Otjiwarongo,Oshakati,Rundu,Keetmanshoop,Mariental,Gobabis,Okahandja,Rehoboth"
+  "b": "Kaleke Mandi,1175283,1175296,Kalabagh,1175365,Kahuta,1175436,Kahror Pakka,1175446,Kahna Nau,1175453,Kabirwala,1175560,1175678,1175712,1175748,1175762,Jhelum,1175864,1175870"
 },
 {
     "name": "Zarma",
@@ -2300,7 +2300,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Niamey,Zinder,Maradi,Tahoua,Agadez,Dosso,Diffa,Tillaberi,Arlit,BirniNKonni,Madaoua,Mirriah"
+  "b": "1175892,1176022,1176035,1176106,1176218,1176233,1176241,1176358,1176368,1176444,1176445,1176452,1176470,1176515,1176615,1176734,1176800,1176889,1176948,Havelian"
 },
 {
     "name": "Seze",
@@ -2309,7 +2309,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "AddisAbaba,Mekele,BahirDar,Gonder,DireDawa,Hawassa,Adama,Jijiga,Dessie,Shashamane,DebreBirhan,Nekemte"
+  "b": "1176995,Haveli Lakha,1176997,Hasilpur,1177042,Chak Thirty-one -Eleven Left,1177064,Harunabad,1177073,Harnoli,1177089,1177107,1177203,Hala,1177278,Hajira,1177308,1177384,Hadali,1177397"
 },
 {
     "name": "Sena",
@@ -2318,7 +2318,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maputo,Matola,Nampula,Chimoio,Beira,Quelimane,Tete,XaiXai,Lichinga,Pemba,Guru,Mocuba"
+  "b": "1177446,1177654,1177662,Gujar Khan,1177682,Gojra,1178231,1178338,1178456,Ghauspur,1178560,Gharo,1178587,Garh Maharaja,1178841,Gambat,1179061,Fort Abbas,1179223,Fazilpur"
 },
 {
     "name": "Tshiluba",
@@ -2327,7 +2327,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Skiogitau,Iosweef,Iikrekwiuch,Aigwuis,Stiotwaidui,Stouiux,Ousnuuwok,Touiuj,Oibboi,Uadrpu,Ainduimb,Iidethiunt"
+  "b": "1179255,1179305,Fatehjang,1179331,Faruka,1179346,1179377,1179400,1179406,1179423,1179450,1179463,1179496,1179757,1179760,1179790,1179834,1179837,1179902,1180133"
 },
 {
     "name": "Sotho",
@@ -2336,7 +2336,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Johannesburg,CapeTown,Durban,Pretoria,PortElizabeth,Bloemfontein,EastLondon,Pietermaritzburg,Nelspruit,Kimberley,Polokwane,Welkom"
+  "b": "1180281,1180289,1180295,1180374,1180419,1180436,1180454,1180752,1180809,1180825,1180942,1180983,Chhor,1181022,Choa Saidan Shah,1181053,1181065,Chishtian,1181073,Chiniot"
 },
 {
     "name": "Swazi",
@@ -2345,7 +2345,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mbabane,Manzini,Siteki,Nhlangano,PiggsPeak,Matsapha,Lobamba,Mhlume,Hluti,Bulembu,Simunye,Mhlambanyatsi"
+  "b": "1181096,Chichawatni,1181163,Chawinda,1181352,1181439,1181611,Chakwal,1181636,Chak Azam Sahu,1181887,Burewala,1182092,Buni,1182122,Bhopalwala,1182577,Bhit Shah,1182607,1182637"
 },
 {
     "name": "Sengele",
@@ -2354,7 +2354,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bukavu,Goma,Beni,Butembo,Lubero,Rutshuru,Masisi,Walikale,Nyiragongo,Kalehe,Shabunda,Idjwi"
+  "b": "Bhera,1182665,Bhawana,1182682,Bhaun,1182688,Bhan,1182775,Bhalwal,1182787,Bhakkar,1182815,Phool Nagar,1182829,1182998,1183090,Battagram,1183105,1183224,1183460"
 },
 {
     "name": "Shi",
@@ -2363,7 +2363,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kigali,Bujumbura,Gitega,Musanze,Ruhengeri,Nyanza,Kibuye,Cyangugu,Rubavu,Kicukiro,Nyabugogo,Gisenyi"
+  "b": "Karimabad,1183614,1183880,Bahawalnagar,1183883,1183992,1184055,1184075,1184249,Arifwala,1184370,1184569,1184644,1184655,1184752,1184845,1185056,1332083,1340665,1341204"
 },
 {
     "name": "Suba",
@@ -2372,7 +2372,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Ruiru,Kehancha,Kijauri,Migori,HomaBay,Kisii,Mbita"
+  "b": "1346926,1356491,1357699,1385128,1386114,1386329,1397479,1412008,Sook Kalan,1412851,Risalpur Cantonment,1448637,Malakwal City,6457378,Karachi University Employees Co-operative Housing Society,7046010,Oghi,7091688,Dayal,7101024"
 },
 {
     "name": "Suku",
@@ -2381,7 +2381,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kikwit,Mbandaka,Basankusu,Boende,Lisala,Bumba,Bikoro,Ingende,Yakoma,Boso,Bolomba,Mongala"
+  "b": "Dhirkot,8986037,Taftan,9969716,Nowshera Kalan,11124382,Daharki,11179544,11250625,Chaksawari,11467709,Alahabad,11535259,Wah Cantt,11785389,12524485,Żyrardów,Poland,Mazovia,752967"
 },
 {
     "name": "Wongo",
@@ -2390,7 +2390,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aketi,Bambesa,Buta,Djugu,Isiro,Mongbwalu,Niangara,Poko,Rungu,Tchadian,Wamba,Yangambi"
+  "b": "Żoliborz,753142,Zielonka,753276,753866,Zambrów,Podlasie,753895,Ząbki,754351,Wyszków,754454,Wołomin,754800,755330,Włochy,755475,Wieliczka,Lesser Poland,755889"
 },
 {
     "name": "Sepedi",
@@ -2399,7 +2399,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Polokwane,Mokopane,Thabazimbi,Mafikeng,Lephalale,Mogwase,BelaBela,Mamelodi,Soshanguve,Atteridgeville,Swartruggens,Rustenburg"
+  "b": "Wesoła,756004,Wawer,756092,756135,Ursus,756320,Tomaszów Mazowiecki,Lodz Voivodeship,756867,Tomaszów Lubelski,756868,757026,Tarnobrzeg,Subcarpathia,757033,Targówek,757065,Szczytno,Warmia-Masuria"
 },
 {
     "name": "Umbundu",
@@ -2408,7 +2408,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huambo,Lubango,Benguela,Kuito,Malanje,Namibe,Soyo,Cabinda,Sumbe,Ondjiva,Menongue,Cacuaco"
+  "b": "757357,Świdnik,757692,Suwałki,757718,Sulejówek,757809,Staszów,Swietokrzyskie,758252,Starachowice,758390,Stalowa Wola,758445,Śródmieście,758470,Sokołów Podlaski,758626,Sokółka,758651"
 },
 {
     "name": "Awjila",
@@ -2417,7 +2417,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tripoli,Benghazi,Misurata,Zawiya,AlBayda,Tobruk,Ajdabiya,Sabha,Sirte,Derna,Khums,Zuwarah"
+  "b": "Sochaczew,758682,Skierniewice,759123,Skarżysko-Kamienna,759141,Siemiatycze,759320,Siedlce,759412,759591,Sandomierz,759603,759734,Ropczyce,760343,Rembertów,760503,Rawa Mazowiecka,760584"
 },
 {
     "name": "Ayo",
@@ -2426,7 +2426,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "AddisAbaba,Harar,Gonder,BahirDar,DireDawa,Mekelle,Hawassa,Adama,Jijiga,Dessie,Shashamane,Nazret"
+  "b": "762788,762850,762863,762909,763111,763166,763291,763442,763523,763534,763556,763829,764312,764484,764634,764679,764749,764849,764862,765191"
 },
 {
     "name": "Ba-Ari",
@@ -2435,7 +2435,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jimma,ArbaMinch,DebreBirhan,DebreMarkos,DebreTabor,Weldya,Gonder,Bishofu,Sebeta,Ambo,Nekemte,Gambela"
+  "b": "765749,765876,765927,766027,766042,766307,766555,766583,766783,766810,767470,767605,767623,767814,768216,768218,768905,769250,769274,769893"
 },
 {
     "name": "Baba",
@@ -2444,7 +2444,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tsioyiohee,Slotrswaa,Aixuir,Iiyegwiugr,Fluuntiev,Oumbuuntobr,Joflraa,Tsoystue,Sluutrient,Uodzieceiv,Iixeriusw,Iopreegr"
+  "b": "769981,770157,770293,770380,770966,771158,771401,771506,771804,772195,772227,772339,772621,772748,773357,773380,774208,774558,774747,775183"
 },
 {
     "name": "Bacama alias",
@@ -2453,7 +2453,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oumuutsokw,Tuugwietr,Jioflaithui,Oispmboi,Fuuchepr,Iokheen,Ntaspoo,Juufleth,Twuumbies,Uastu,Sostsnue,Mionipau"
+  "b": "775758,775922,Bieńczyce,775984,Bielsk Podlaski,775986,Bielany,776029,776069,Białołeka,776103,Biała Podlaska,776175,Bemowo,776251,Bartoszyce,776337,Augustów,776597,Żywiec"
 },
 {
     "name": "Barambu",
@@ -2462,7 +2462,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uaswzhu,Smiopiondee,Chofryaa,Oistoi,Uotsieteind,Frakhoo,Ounduumbodr,Hiodraiqui,Chiofrilau,Dzozhfue,Uosmiempeiy,Shuumiesm"
+  "b": "Silesia,3079855,3080004,Złotów,Greater Poland,3080071,Złotoryja,Lower Silesia,3080074,Lubusz,3080165,Zgorzelec,3080231,Zgierz,3080251,Zduńska Wola,3080414,Zawiercie,3080526,Żary"
 },
 {
     "name": "Beni Snous",
@@ -2471,7 +2471,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Algiers,Oran,Constantine,Annaba,Blida,Batna,Djelfa,Setif,SidiBelAbbes,Biskra,Tebessa,Skikda"
+  "b": "3080644,3080866,Żagań,3080944,3080985,Ząbkowice Śląskie,3081046,Wrzeszcz,Pomerania,3081318,Września,3081324,3081368,Wodzisław Śląski,3081677,Włocławek,Kujawsko-Pomorskie,3081741,Wieluń,3082197"
 },
 {
     "name": "Tsamai",
@@ -2480,7 +2480,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Irgalam,Tchad,Guéra,N'Djamena,Mangalmé,Bénoye,Chari,Logone,Mayo-Kebbi,Kanem,Batha,North Cameroon"
+  "b": "284431,Balāţah,284446,Az̧ Z̧āhirīyah,284486,‘Aţārūt,284572,As Samū‘,284583,Ar Rām wa Ḑāḩiyat al Barīd,284890,284899,Al Yāmūn,284999,285066,Al Bīrah,285108,Al ‘Ayzarīyah,285111,Old City"
 },
 {
     "name": "Saho",
@@ -2489,7 +2489,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Assab,Dekemhare,Beilul,Afambo,Hirgigo,Arare,Bera'isole,Eddi,Guluj,Mersa Gulud,Mersa Fatma"
+  "b": "6945291,Al Qarārah,6967865,Az Zuwāydah,6967990,East Jerusalem,7303419,Vila Franca de Xira,Portugal,2261639,Vialonga,2261697,2262581,Torres Novas,2262582,2262644,Tavira,2262744,2262912,Sesimbra"
 },
 {
     "name": "Bala",
@@ -2498,7 +2498,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bala,Bila,Yangor,Toucountoura,Koumbia,Bangassou,Bambari,Kagoro,Mbaiki,Kounde,Moyenne-Sangha"
+  "b": "Cantonment,4149956,Cape Coral,4149962,Carol City,4150066,Carrollwood,4150115,Carrollwood Village,4150118,Casselberry,4150190,Citrus Park,4151157,Clearwater,4151316,Clermont,4151352,Cocoa,4151440"
 },
 {
     "name": "Baldemu",
@@ -2507,7 +2507,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Baldemu,Madam,Sokoro,Ba¯ssouroum,Ngoumi,Ko¯bim,Koupélenté,Maidam,Yangorola,Yagandou,Mbail"
+  "b": "Coconut Creek,4151455,Coconut Grove,4151460,Cooper City,4151824,Coral Gables,4151871,Coral Springs,4151909,Coral Terrace,4151921,Country Walk,4152064,Country Club,4152093,Crestview,4152311,Cutler,4152564"
 },
 {
     "name": "Balo",
@@ -2516,7 +2516,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balo,Tonkiri,Makoua,Bonon-Djoulasso,M'Bengono,Kong,Man,Bobo-Dioulasso,Dimbokro,Katiola,Kodougou"
+  "b": "Cutler Ridge,4152574,Dania Beach,4152772,Davie,4152820,Daytona Beach,4152872,DeLand,4152890,DeBary,4152926,Deerfield Beach,4153071,Delray Beach,4153132,Deltona,4153146,Doral,4153471"
 },
 {
     "name": "Bamali",
@@ -2525,7 +2525,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamali,Bamenda,Kumbo,Nkambé,Bafanji,Fundong,Mbengwi,Njombe,Ndu,Nwa,Bawock,Mankon"
+  "b": "4153759,East Lake,4154008,East Naples,4154031,East Pensacola Heights,4154047,Edgewater,4154205,Egypt Lake-Leto,4154280,Eloise,4154396,Ensley,4154489,Estero,4154568,Eustis,4154606,Ferry Pass"
 },
 {
     "name": "Bambalang",
@@ -2534,7 +2534,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bambalang,Bamenda,Mbengwi,Nkambe,Nkwen,Bambili,Bamessing,Babungo,Bafut,Fonfuka,Kedjom"
+  "b": "4155017,Flagami,4155529,Fleming Island,4155594,Florida Ridge,4155726,Fort Lauderdale,4155966,Fort Myers,4155995,Fort Pierce,4156018,Fort Walton Beach,4156042,Fountainebleau,4156091,Fruit Cove,4156331,Gainesville"
 },
 {
     "name": "Bamukumbit",
@@ -2543,7 +2543,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamukumbit,Bamenda,Babungo,Bambui,Kom,Mankon,Nkwen,Fundong,Bafut,Bali,Babanki"
+  "b": "4159896,4160021,4160023,4160100,4160610,4160705,4160711,4160812,4160822,4160983,4161178,4161313,4161373,4161400,4161422,4161424,4161438,Lakeside,4161461,Land O' Lakes"
 },
 {
     "name": "Bamum",
@@ -2552,7 +2552,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Foumban,Bafoussam,Bafang,Bamenda,Nkongsamba,Dschang,Santchou,Bafia,Kumba,Mbanga,Melong"
+  "b": "4161534,Largo,4161580,Lauderdale Lakes,4161616,Lauderhill,4161625,Lealman,4161705,Leesburg,4161771,Lehigh Acres,4161785,Leisure City,4161797,Lutz,4163033,Lynn Haven,4163049,4163220"
 },
 {
     "name": "Bamwe",
@@ -2561,7 +2561,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bamwe,Mbuji-Mayi,Monkoto,Beni,Mwene-Ditu,Lubutu,Kikwit,Kananga,Kasongo,Lubao"
+  "b": "Marco Island,4163388,4163407,Marion Oaks,4163487,Meadow Woods,4163918,4163971,Merritt Island,4164092,4164138,Miami Beach,4164143,Miami Gardens,4164167,Miami Lakes,4164186,4164601,Myrtle Grove,4165519"
 },
 {
     "name": "Bana",
@@ -2570,7 +2570,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bana,Garoua,Mokolo,Bamessing,Nsimey,Tignere,Nkamenbekoma,Guidar,Bantadjé,Koumoulou,Mbe"
+  "b": "4165565,4165637,New Port Richey,4165869,New Smyrna Beach,4165913,Norland,4166066,North Fort Myers,4166195,North Lauderdale,4166222,North Miami,4166232,North Miami Beach,4166233,4166274,Oak Ridge,4166583,Oakland Park"
 },
 {
     "name": "Bangime",
@@ -2579,7 +2579,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "r",
   "m": 0,
-  "b": "Bangime,Kigni,Sonkorong,Zimana,Samogohiri,Beni,Guira,Ziria,Mopti,Bandiagara,San,Niono"
+  "b": "4166638,Ocala,4166673,Ocoee,4166776,Ojus,4166805,Opa-locka,4167003,4167147,Ormond Beach,4167178,4167348,Pace,4167424,Palm Bay,4167499,Palm Beach Gardens,4167519,Palm City"
 },
 {
     "name": "Bariba",
@@ -2588,7 +2588,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Parakou,Nikki,Bembèrèkè,Kandi,N'Dali,Tchaourou,Sinendé,Banikoara,Gogounou,Kouandé,Chérou"
+  "b": "4167536,Palm Coast,4167538,Palm Harbor,4167545,4167583,Palm Valley,4167601,Palmetto Bay,4167634,4167694,Parkland,4167829,Pembroke Pines,4168139,4168228,Pine Hills,4168459,Pinecrest,4168590"
 },
 {
     "name": "Bassari",
@@ -2597,7 +2597,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bassari,Sédhiou,Bandafassi,Mampel,Dianfaye,Kedougou,Mali,Tambacounda,Niger,Senegal,Guinea"
+  "b": "Pinellas Park,4168630,Pinewood,4168659,Plant City,4168773,Plantation,4168782,Poinciana,4168930,Pompano Beach,4169014,Ponte Vedra Beach,4169060,Port Charlotte,4169130,Port Orange,4169156,Port Saint Lucie,4169171"
 },
 {
     "name": "Bata",
@@ -2606,7 +2606,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bata,Equatorial Guinea,Kribi,Douala,Yaoundé,Jong,Dibambari,Kogo,Akonolinga,Ntem,Bolondo"
+  "b": "4169345,4169452,Punta Gorda Isles,4169455,Richmond West,4170005,4170156,Riviera Beach,4170174,Rockledge,4170358,Royal Palm Beach,4170617,Ruskin,4170688,Safety Harbor,4170797,4170965,4171563,San Carlos Park"
 },
 {
     "name": "Batu",
@@ -2615,7 +2615,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Batu,Ambon,Kairatu,Buru Island,Manip,Ternate,Halmahera,Morotai,Sanana,Sula Islands,Kai Islands"
+  "b": "4171782,Sanford,4172086,4172094,4172131,4172372,4172434,4173392,4173497,4173600,4173838,4174201,4174317,4174383,4174402,4174425,4174600,4174715,4174738,4174744"
 },
 {
     "name": "Bayot",
@@ -2624,7 +2624,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bayot,Ziguinchor,Bignona,Oussouye,Casamance,Gambia,Guinea-Bissau,Kolda,Sedhiou,Velingara,Bas-Casamance"
+  "b": "4174757,4174855,4174861,4174969,4175091,4175117,4175179,4175296,4175437,4175538,4176217,4176318,4176380,4176409,4177671,4177703,4177727,4177779,4177834,4177865"
 },
 {
     "name": "Beja",
@@ -2633,7 +2633,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beja,Port Sudan,Sawakin,Halaib,Tokar,Shalatin,Suakin,Qadarif,Kassala,Atbara,Berenice,Gedaref"
+  "b": "4177872,4177887,4177897,4177908,4177960,4177965,4178003,4178550,4178552,4178560,4178573,4178775,4179074,4179320,Alpharetta,4179574,Americus,4179667,4180386,Atlanta"
 },
 {
     "name": "Bembe (Congo)",
@@ -2642,7 +2642,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bembe,Kitambo,Lemba,Mont-Ngafula,Ngaliema,Kalamu,Makala,Selembao,Kimbaseke,Funa,Matete,Ngiri-Ngiri"
+  "b": "4180439,4180531,Belvedere Park,4181936,Brookhaven,4184530,4184845,Calhoun,4185657,4186213,Carrollton,4186416,Cartersville,4186531,Chamblee,4187204,Columbus,4188985,Conyers,4189213"
 },
 {
     "name": "Bembe (DRC)",
@@ -2651,7 +2651,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bembe,Butembo,Ekonda,Mbuji,Monie,Bokungo,Kikwit,Boyela,Ndoko,Kabarega,Bikoro"
+  "b": "4190581,4191124,Douglasville,4191955,4192205,4192289,Dunwoody,4192375,East Point,4192674,Evans,4193699,4194474,Forest Park,4195701,4196586,Griffin,4198322,Hinesville,4200671"
 },
 {
     "name": "Comorian",
@@ -2660,7 +2660,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moroni,Mutsamudu,Fomboni,Domoni,Mirontsi,Koungou,Mamoudzou,Dzaoudzi,Sada,Chirongui,Pamandzi,Mtsangamouji"
+  "b": "Kennesaw,4203696,Kingsland,4204007,LaGrange,4204230,Lawrenceville,4205196,Lithia Springs,4205885,Mableton,4207226,4207400,Marietta,4207783,Martinez,4207981,McDonough,4208442,Milledgeville"
 },
 {
     "name": "Bete",
@@ -2669,7 +2669,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bete,Guiglo,Daloa,Issia,Duekoue,Man,Sassandra,San Pedro,Ta¯,Gagnoa,Bouaflé"
+  "b": "4209448,Newnan,4212684,Norcross,4212888,North Decatur,4212992,North Druid Hills,4212995,Peachtree City,4215110,Peachtree Corners,4215114,Perry,4215391,Pooler,4216948,Redan,4218165,Riverdale"
 },
 {
     "name": "Bhaca",
@@ -2678,7 +2678,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhaca,East London,Mthatha,Qunu,Butterworth,King William's Town,Port Alfred,Alice,Umtata,Umzimkhulu,Port Shepstone"
+  "b": "4219001,4219762,Roswell,4219934,4220629,Sandy Springs,4221333,4221552,4223379,Snellville,4223413,Statesboro,4224413,4224681,Sugar Hill,4225039,Suwanee,4225309,Thomasville,4226348"
 },
 {
     "name": "Bidiya",
@@ -2687,7 +2687,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bidiya,Abéché,N'Djamena,Mao,Ati,Mongo,Biltine,Am Timan,Bokoro,Koumra,Melfi"
+  "b": "Tifton,4226552,Tucker,4227213,Union City,4227777,4228147,Warner Robins,4229476,Wilmington Island,4231354,Winder,4231523,4231874,4232679,4233813,Carbondale,4235193,4235668,Collinsville"
 },
 {
     "name": "Birgit",
@@ -2696,7 +2696,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Birgit,Chad,Biltine,Guéra,N'Djamena,Mongo,Ba¯bokoum,Moundou,Sarh,Koumra,Doba,Abéché"
+  "b": "4236191,4236895,East Saint Louis,4237579,Edwardsville,4237717,Fairview Heights,4238132,Godfrey,4239509,Granite City,4239714,4241704,Marion,4243899,Mattoon,4244099,Mount Vernon,4245152,O'Fallon"
 },
 {
     "name": "Boghom",
@@ -2705,7 +2705,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boghom,Nigeria,Missau,Jama'are,Bauchi,Potiskum,Dambam,Kirfi,Bi,Shira,Yashi,Zari"
+  "b": "4245926,Quincy,4247703,4250542,Upper Alton,4251841,4254021,Bloomington,4254679,Broad Ripple,4254957,Brownsburg,4255056,Carmel,4255466,Clarksville,4255836,4256038,Evansville,4257227"
 },
 {
     "name": "Boor",
@@ -2714,7 +2714,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boor,Murle,Dinka,Nuer,Anuak,Bari,Luo,Acholi,Madi,Shilluk"
+  "b": "Fishers,4257494,Greenfield,4258285,Greenwood,4258313,Indianapolis,4259418,Jasper,4259640,Jeffersonville,4259671,Lawrence,4260210,New Albany,4262045,4262072,Plainfield,4263108,4263681"
 },
 {
     "name": "Bole Chadic",
@@ -2723,7 +2723,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bole,Kirfi,Shira,Bi,Yashi,Zari,Kariya,Boghom,Mahamuda,Warji,Saya,Ningi"
+  "b": "Seymour,4264617,Shelbyville,4264688,Terre Haute,4265737,4266307,Zionsville,4267336,4270356,Emporia,4271086,Gardner,4271935,Great Bend,4272340,Hays,4272782,Hutchinson,4273299"
 },
 {
     "name": "Binza",
@@ -2732,7 +2732,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Binza,Ngiri,Equateur,Mbandaka,Mobeka,Bikoro,Ingende,Lisala,Basankusu,Coquilhatville,Kinshasa"
+  "b": "Junction City,4273680,Kansas City,4273837,4274277,Leavenworth,4274305,Leawood,4274317,Lenexa,4274356,Manhattan,4274994,4276248,Olathe,4276614,Overland Park,4276873,Pittsburg,4277241"
 },
 {
     "name": "Birri",
@@ -2741,7 +2741,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Birri,Central African Republic,Bamingui,Bangor,Ouadda,Bria,Birao,N'Délé,Kaga Bandoro,Sibut,Alindao"
+  "b": "Prairie Village,4277718,4278890,Shawnee,4279247,4280539,4281730,Ashland,4282757,Bowling Green,4285268,4286281,Covington,4288809,Danville,4289445,Elizabethtown,4290988,Erlanger,4291255"
 },
 {
     "name": "Biseni",
@@ -2750,7 +2750,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Biseni,Nigeria,Brass,Nembe,Yenagoa,Ogbia,Opokuma,Sagbama,Kolokuma,Okrika,Bayelsa,Niger Delta"
+  "b": "Fern Creek,4291620,4291945,Fort Thomas,4292071,Frankfort,4292188,4292686,4294494,Highview,4294799,Hopkinsville,4295251,Independence,4295776,Jeffersontown,4296218,Lexington,4297983,Lexington-Fayette"
 },
 {
     "name": "Bissa",
@@ -2759,7 +2759,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bissa,Burkina Faso,Zoundweogo,Zorgo,Manga,Koupela,Tenkodogo,Fada N'Gourma,Kaya,Ouahigouya,Bobo Dioulasso,Ouagadougou"
+  "b": "4297999,Louisville,4299276,Madisonville,4299670,Meads,4300488,Murray,4302035,Newburg,4302504,4302529,Nicholasville,4302561,Okolona,4303012,Owensboro,4303436,Pleasure Ridge Park,4304713"
 },
 {
     "name": "Bitare",
@@ -2768,7 +2768,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bitare,Ngaoundere,Banyo,Tignere,Mbem,Tibati,Ngaoundéré,Adamawa,Cameroon,North Region,Faro,Deo"
+  "b": "Radcliff,4305504,4305974,Saint Matthews,4307238,4308122,Shively,4308225,Valley Station,4311963,4313697,4314550,4315588,Bayou Cane,4315768,4317639,4319435,Chalmette,4319518,Estelle"
 },
 {
     "name": "Bobo",
@@ -2777,7 +2777,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bobo,Bobo-Dioulasso,San Koba,Dédougou,Banfora,Koudougou,Ouagadougou,Fara N'Gourma,Burkina Faso"
+  "b": "4323873,Gretna,4326575,4326868,Harvey,4327047,4328010,4329753,4330145,4330236,Laplace,4330525,Marrero,4332628,Metairie,4333177,Metairie Terrace,4333190,4333669,Natchitoches"
 },
 {
     "name": "Boga",
@@ -2786,7 +2786,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boga,Chad,Chari-Baguirmi,N'Djamena,Massaguet,Massakory,Bongor,Logone Oriental,Mao,Guéré"
+  "b": "4334720,4334971,4335045,4336153,Prairieville,4338012,Ruston,4339348,Shenandoah,4341378,4341513,Slidell,4341727,Sulphur,4342816,Terrytown,4343327,Zachary,4346788,Maryland"
 },
 {
     "name": "Boko",
@@ -2795,7 +2795,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boko,Nigeria,Benue,Keffi,Karu,Abuja,Nasarawa,Lokoja,Plateau State,Benue River"
+  "b": "4346913,Adelphi,4346991,Annapolis,4347242,Arbutus,4347371,4347426,Aspen Hill,4347553,Baltimore,4347778,Ballenger Creek,4347839,Beltsville,4348353,4348599,Bowie,4349159,Calverton"
 },
 {
     "name": "Bole Niger-Congo",
@@ -2804,7 +2804,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bole,Nigeria,Kano,Kaduna,Jos,Bauchi,Birnin Kebbi,Sokoto,Katsina,Zaria,Niger State"
+  "b": "4350160,Camp Springs,4350288,Carney,4350413,Catonsville,4350635,Chillum,4351383,Cloverly,4351851,Clinton,4351871,Cockeysville,4351887,College Park,4351977,Columbia,4352053,Crofton"
 },
 {
     "name": "Bolon",
@@ -2813,7 +2813,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bolon,Burkina Faso,Mouhoun,San Koba,Boromo,Sapouy,Ouagadougou,Solenzo,Koudougou"
+  "b": "4352539,Cumberland,4352681,4352728,4353765,East Riverdale,4353925,Easton,4353962,Edgewood,4354087,Eldersburg,4354163,Elkton,4354234,Elkridge,4354256,Ellicott City,4354265,Essex"
 },
 {
     "name": "Bomitaba",
@@ -2822,7 +2822,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bomitaba,Congo,Brazzaville,Djambala,Ouesso,Owando,Makoua,Gamboma,Kinkala,Mossaka,Impfondo"
+  "b": "4354428,Fairland,4354573,Ferndale,4354821,Fort Washington,4355355,Frederick,4355585,Gaithersburg,4355843,Germantown,4356050,Glassmanor,4356165,Glen Burnie,4356188,Green Haven,4356783,Greenbelt"
 },
 {
     "name": "Bomu",
@@ -2831,7 +2831,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bomu,Mali,Bamako,Segou,Mopti,Tombouctou,Gao,Kayes,Koulikoro,Sikasso,Kidal"
+  "b": "4356847,Gwynn Oak,4357116,Hagerstown,4357141,4357340,Hillcrest Heights,4358082,Hunt Valley,4358701,Hyattsville,4358821,Ilchester,4358864,Lake Shore,4360201,Landover,4360287,Langley Park,4360314"
 },
 {
     "name": "Bongili",
@@ -2840,7 +2840,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bongili,Congo,Brazzaville,Ouesso,Mossaka,Makoua,Impfondo,Libongo,Gamboma,Kindamba,Mayama,Nkayi"
+  "b": "4360369,Lochearn,4360954,Maryland City,4361831,Middle River,4362344,Milford Mill,4362438,Montgomery Village,4362743,North Bel Air,4363836,North Bethesda,4363843,North Potomac,4363990,Odenton,4364362,4364537"
 },
 {
     "name": "Bongo",
@@ -2849,7 +2849,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bongo,South Sudan,Yambio,Tambura,Mundri,Yei,Bor,Juba,Maridi,Terekeka"
+  "b": "Owings Mills,4364727,Oxon Hill,4364759,Parkville,4364946,Parole,4364964,Pasadena,4364990,Perry Hall,4365227,Pikesville,4365387,Potomac,4366001,Randallstown,4366476,Redland,4366593"
 },
 {
     "name": "Bonjo",
@@ -2858,7 +2858,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bonjo,Cameroon,North Province,Adamawa,Tignere,Banyo,Ngong,Meiganga,Mbem,Guider,Ngaoundéré"
+  "b": "Reisterstown,4366647,Rockville,4367175,Rosedale,4367372,4367419,Saint Charles,4367734,4368711,Scaggsville,4368918,Seabrook,4369076,Severn,4369190,Severna Park,4369224,Silver Spring,4369596"
 },
 {
     "name": "Bono Ghana-Ivory Coast",
@@ -2867,7 +2867,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bono,Kumasi,Techiman,Sunyani,Brong Ahafo,Ashanti,Berekum,Wenchi,Kintampo,Goaso,Tamale,Bawku"
+  "b": "South Bel Air,4369928,South Gate,4369964,South Laurel,4369978,Suitland,4370616,Takoma Park,4370890,Towson,4371582,Waldorf,4372599,West Elkridge,4373104,4373238,Wheaton,4373349,White Oak"
 },
 {
     "name": "Bono Nigeria",
@@ -2876,7 +2876,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uastgwu,Stiotwidau,Phiodaidzui,Iithechiux,Oiwkhoi,Chuufriel,Krocsmaa,Khiosnichau,Togwjue,Uosliedzeis"
+  "b": "4373449,4374054,Affton,Missouri,4374513,4375087,Ballwin,4375663,Belton,4376482,Blue Springs,4377664,Cape Girardeau,4379966,4381072,4381478,4381982,Concord,4382072,Creve Coeur"
 },
 {
     "name": "Boon",
@@ -2885,7 +2885,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boon,Somalia,Mogadishu,Kismayo,Marka,Baidoa,Jowhar,Balad,Beledweyne,Galguduud,Hiran,Shabelle"
+  "b": "4382837,East Independence,4385018,4386289,Ferguson,4386387,4386802,4387990,Grandview,4388460,Hannibal,4389418,Hazelwood,4389967,4391812,Jefferson City,4392388,Joplin,4392768,4393217"
 },
 {
     "name": "Budza",
@@ -2894,7 +2894,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Budza,Congo,Kinshasa,Kikwit,Bandundu,Kasai-Kananga,Mbuji-Mayi,Kananga,Equateur,Congo River"
+  "b": "4393739,Lee's Summit,4394870,Lemay,4394905,Liberty,4395052,4396915,Maryland Heights,4397340,Mehlville,4397962,Nixa,4400648,4401242,4401618,Overland,4402178,Ozark,4402245"
 },
 {
     "name": "Buli",
@@ -2903,7 +2903,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buli,Ghana,Bolgatanga,Navrongo,Bawku,Tumu,Bongo,Kassena-Nankana,Bawku Municipal,Bawku West"
+  "b": "Poplar Bluff,4404233,Raymore,4405180,Raytown,4405188,4405434,Rolla,4406282,4406831,4407010,4407066,4407237,Sedalia,4408000,Sikeston,4408672,Spanish Lake,4409591,4409896"
 },
 {
     "name": "Buru-Angwe",
@@ -2912,7 +2912,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Buru-Angwe,Congo,Brazzaville,Likouala,Ouesso,Mossaka,Kinkala,Djoué,Impfondo,Gamboma,Makoua"
+  "b": "University City,4412697,Warrensburg,4413595,Webster Groves,4413872,Wentzville,4414001,4414749,Mississippi,4418478,4419290,Clarksdale,4421935,4422133,4422442,Gautier,4427569,4428475,4428495"
 },
 {
     "name": "Bwi",
@@ -2921,7 +2921,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bwi,Burkina Faso,Sanmatenga,Kaya,Ouagadougou,Koupéla,Zorgho,Boulsa,Mané"
+  "b": "4428667,Hattiesburg,4429295,Hernando,4429589,Horn Lake,4430400,Jackson,4431410,4433039,Long Beach,4434069,4434663,Meridian,4435764,Natchez,4437982,Ocean Springs,4439506,Olive Branch"
 },
 {
     "name": "Caka",
@@ -2930,7 +2930,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caka,Afghanistan,Badakhshan,Fayzabad,Ishkashim,Vakhan,Khorog,Tajikistan,Pamir Mountains"
+  "b": "4439869,4440076,4440397,Pearl,4440559,Ridgeland,4443296,Southaven,4446675,Starkville,4447161,Tupelo,4448903,Vicksburg,4449620,West Gulfport,4450687,Albemarle,North Carolina,4452303"
 },
 {
     "name": "Cebaara",
@@ -2939,7 +2939,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cebaara,Tanzania,Mwanza,Singida,Tabora,Shinyanga,Mbeya,Kahama,Nzega,Kigoma,Chunya,Mpanda"
+  "b": "Apex,4452808,Asheboro,4453035,Asheville,4453066,Boone,4456703,4458228,Carrboro,4459343,Cary,4459467,Chapel Hill,4460162,Charlotte,4460243,4460943,Clemmons,4461015"
 },
 {
     "name": "Central Atlas Tamazight",
@@ -2948,7 +2948,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Central Atlas Tamazight,Morocco,Atlas Mountains,High Atlas,Marrakech,Fes,Ouarzazate,Errachidia,Beni Mellal,Midelt,Meknes,Taza"
+  "b": "4461574,Cornelius,4461941,4464368,Eden,4464873,Elizabeth City,4465088,4466033,Fuquay-Varina,4467485,Garner,4467657,Gastonia,4467732,Goldsboro,4468261,Greensboro,4469146,4469160"
 },
 {
     "name": "Chopi",
@@ -2957,7 +2957,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chopi,Chibuto,Bilene,Xai-Xai,Manjacaze,Quissico,Machanga,Massinga,Inhambane,Maxixe,Mozambique,Gaza,Inhambane Province"
+  "b": "4470244,4470566,Hickory,4470778,High Point,4471025,Holly Springs,4471641,Hope Mills,4471851,Huntersville,4472370,Indian Trail,4472687,4473083,Kannapolis,4474040,Kernersville,4474221,Kinston"
 },
 {
     "name": "Tigrinya",
@@ -2966,7 +2966,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tigrinya,Asmara,Keren,Massawa,Mendefera,Barentu,Adi Quala,Decamhare,Senafe,Eritrea,Ethiopia,Tigray"
+  "b": "4474436,Laurinburg,4475347,4475622,Lenoir,4475640,4475773,Lumberton,4477525,Matthews,4478334,Mint Hill,4479759,4479946,Mooresville,4480125,Morganton,4480219,Morrisville,4480285"
 },
 {
     "name": "Qwara",
@@ -2975,7 +2975,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Qwara,Gondar,Bahir Dar,Debre Marqos,Debre Tabor,Dembia,Metemma,Amhara,Ethiopia,Tigray,Sudan"
+  "b": "New Bern,4481682,Pinehurst,4485272,Raleigh,4487042,Roanoke Rapids,4488232,Rocky Mount,4488762,4489985,4490329,Shelby,4491180,Stallings,4493186,Statesville,4493316,4494942,Wake Forest"
 },
 {
     "name": "Dangme",
@@ -2984,7 +2984,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dangme,Ada,Prampram,Afienya,Manya Krobo,Yilo Krobo,Ayikuma,Somanya,Odumase,Akuse,Ghana,Volta Region"
+  "b": "4497290,West Raleigh,4498303,4499379,Wilson,4499389,4499612,New Jersey,4500546,Bayville,4500688,4500942,4501018,Cherry Hill,4501198,Glassboro,4501931,4502434,Lindenwold,4502687"
 },
 {
     "name": "Seychellois Creole",
@@ -2993,7 +2993,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Seychellois Creole,Victoria,Anse Boileau,Anse Royale,Beau Vallon,Takamaka,Seychelles,Praslin,La Digue,Indian Ocean"
+  "b": "Maple Shade,4502901,4503078,Mount Laurel,4503136,Ocean Acres,4503346,Pennsauken,4503548,Pleasantville,4503646,Sewell,4504048,Sicklerville,4504118,South Vineland,4504225,4504476,Vincentown,4504618"
 },
 {
     "name": "Glavda",
@@ -3002,7 +3002,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Glavda,Adamawa,Bama,Gwoza,Maiduguri,Nigeria,Cameroon,Chad Border"
+  "b": "4504621,Williamstown,4504871,Ohio,4505542,Beavercreek,4506008,Centerville,4508204,Cincinnati,4508722,4509177,Dayton,4509884,Fairborn,4511263,4511283,4512060,Grove City,4513409"
 },
 {
     "name": "Simaa",
@@ -3011,7 +3011,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Simaa,Western Province,Mongu,Senanga,Kalabo,Zambia,Zambezi River,Africa"
+  "b": "4513575,Huber Heights,4514746,4515843,4516233,4516412,Mason,4517698,Miamisburg,4518188,4518264,Norwood,4519995,4520760,Pataskala,4520905,Pickerington,4521209,4521816,Reynoldsburg"
 },
 {
     "name": "Tshivenda",
@@ -3020,7 +3020,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Venda,Thohoyandou,Sibasa,Vuwani,Limpopo,South Africa,Zimbabwe Border"
+  "b": "4522411,Riverside,4522586,Springboro,4525304,4525353,Trotwood,4526576,Upper Arlington,4526993,Vandalia,4527124,4528259,Whitehall,4528291,Xenia,4528810,Zanesville,4528923,4529096"
 },
 {
     "name": "Goemai",
@@ -3029,7 +3029,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goemai,Shendam,Langtang,Plateau State,Nigeria,Jos,West Africa"
+  "b": "Altus,4529292,Ardmore,4529469,Bartlesville,4529987,4530372,Bixby,4530801,Broken Arrow,4531405,4533029,Claremore,4533580,Del City,4534934,4535389,4535414,Edmond,4535740"
 },
 {
     "name": "Goji",
@@ -3038,7 +3038,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Goji,Mandara Plateau,Mokolo,Maroua,Cameroon,Nigeria Border"
+  "b": "El Reno,4535783,Enid,4535961,Jenks,4539615,4540737,4542367,Midwest City,4542765,Moore,4542975,4543338,4543352,Norman,4543762,Oklahoma City,4544349,Owasso,4547407"
 },
 {
     "name": "Sebat Bet",
@@ -3047,7 +3047,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sebat Bet,Wolkite,Gurage Zone,Ethiopia,Southwest Ethiopia,Omo River"
+  "b": "Ponca City,4548267,Sand Springs,4550659,Sapulpa,4550881,4551177,Stillwater,4552215,4552707,4553433,4556165,Chambersburg,Pennsylvania,4557109,4557137,Cobbs Creek,4557264,Drexel Hill,4557606"
 },
 {
     "name": "Ulbare",
@@ -3056,7 +3056,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ulbare,Yem,Adiya,Ethiopia,Gurage Region,Southwest Ethiopia"
+  "b": "Elmwood,4557787,4557983,Haddington,4558442,4558475,Hartranft,4558510,Havertown,4558523,Kingsessing,4558980,Overbrook,4560179,Pennsport,4560303,4560349,Point Breeze,4560490,Port Richmond"
 },
 {
     "name": "Wolane",
@@ -3065,7 +3065,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wolane,Kulito,Alaba,Ethiopia,Southwest Ethiopia,Gurage Zone"
+  "b": "4560691,Rittenhouse,4560722,4561407,Strawberry Mansion,4561553,4561871,West Chester,4562144,Wharton,4562193,Whitman,4562237,4562407,Aiken,South Carolina,4569067,Anderson,4569298,Bluffton"
 },
 {
     "name": "Mesmes",
@@ -3074,7 +3074,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mesmes,Jimma,Chencha,Ethiopia,Gurage Region,Southwest Ethiopia"
+  "b": "4571722,4574324,Clemson,4574989,4575352,4575461,Easley,4577263,4578737,Goose Creek,4580098,4580543,4580569,Greer,4580599,Hanahan,4581023,Hilton Head Island,4581832,Hilton Head"
 },
 {
     "name": "Mesqan",
@@ -3083,7 +3083,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mesqan,Butajira,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+  "b": "4581833,4585000,Mauldin,4586523,4588165,Myrtle Beach,4588718,North Augusta,4589368,North Charleston,4589387,North Myrtle Beach,4589446,Rock Hill,4593142,4593724,4595374,Simpsonville,4595864,Socastee"
 },
 {
     "name": "Muher",
@@ -3092,7 +3092,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Muher,Wolkite,Emdibir,Ethiopia,Gurage Region,Southwest Ethiopia"
+  "b": "4596208,Spartanburg,4597200,Summerville,4597919,Sumter,4597948,Taylors,4598353,Wade Hampton,4599937,West Columbia,4600541,Bartlett,4604183,4608408,Brentwood Estates,4608418,4608657,Chattanooga"
 },
 {
     "name": "Inneqor",
@@ -3101,7 +3101,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Inneqor,Chencha,Wolkite,Ethiopia,Gurage Region,Southwest Ethiopia"
+  "b": "4612862,4613868,Cleveland,4614088,Collierville,4614748,4614867,Cookeville,4615145,Dickson,4618057,Dyersburg,4619800,East Brainerd,4619943,East Chattanooga,4619947,East Ridge,4620131,Ellendale"
 },
 {
     "name": "Inor",
@@ -3110,7 +3110,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Zheoiaz,WoandPhuutt,Doesmaingi,DrietwPiem,Doengaini,WoabrPhuutr,TwindSloitt,Leenguanou,PeutwDruem,Leeuats"
+  "b": "4620732,Farragut,4621846,4623560,Gallatin,4624180,4624601,Goodlettsville,4625282,Greeneville,4626334,Hendersonville,4628735,Hermitage,4628929,4632595,Johnson City,4633419,Kingsport,4634662"
 },
 {
     "name": "Chaha",
@@ -3119,7 +3119,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Butajira,Wolkite,Imdibir,Agena,Cheha,Endegagn,Gumer,Kokir Gedebano,Meskan,Mareko,Silti,Sodo"
+  "b": "Knoxville,4634946,La Vergne,4635031,4636045,Maryville,4639848,4641239,4642938,Mount Juliet,4643336,Murfreesboro,4644312,Nashville,4644585,New South Memphis,4645421,4646571,Sevierville,4656585"
 },
 {
     "name": "Chung",
@@ -3128,7 +3128,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chung,West Africa,Savanna,Nigeria,Niger,Cameroon,Sahel"
+  "b": "4657077,4658590,4659446,4659557,Tullahoma,4663494,Abilene,4669635,Addison,4669828,Alamo,4670074,Aldine,4670146,4670234,Alief,4670249,4670300,4670555,Alvin"
 },
 {
     "name": "Dciriku",
@@ -3137,7 +3137,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diriku,Rundu,Nkurenkuru,Namibia,Caprivi Strip,Botswana Border,Kwando River"
+  "b": "4670592,Angleton,4670866,4671240,Atascocita,4671524,Austin,4671654,Balch Springs,4672059,Baytown,4672731,4672989,4673094,Bellaire,4673353,4673425,Benbrook,4673482,4676206"
 },
 {
     "name": "Defaka",
@@ -3146,7 +3146,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Defaka,Nigeria,Rivers State,Niger Delta,West Africa,Oil Region"
+  "b": "4676740,4676798,4676920,4677008,4677551,4678901,4679195,4679803,4679867,4679944,4680388,4681462,4681485,4681976,4682127,College Station,4682464,4682478,4682991,4683021"
 },
 {
     "name": "Mao-Omotic",
@@ -3155,7 +3155,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mao,Bako,Hosa,Ethiopia,Omo Valley,Omotic Region,Southwest Ethiopia"
+  "b": "4683217,4683244,4683317,Corpus Christi,4683416,4683462,Cypress,4684724,4684888,DeSoto,4685524,4685737,Denison,4685892,4685907,Dickinson,4686163,Donna,4686593,Duncanville"
 },
 {
     "name": "North Omotic",
@@ -3164,7 +3164,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "North Omotic,Wolayta,Dimma,Ethiopia,Omo Valley,Omotic Region,Southwest Ethiopia"
+  "b": "4687331,Edinburg,4688275,4689311,Euless,4689550,Farmers Branch,4690198,Flower Mound,4691585,Forney,4691833,Fort Worth,4691930,4692400,Friendswood,4692521,Frisco,4692559,4692746"
 },
 {
     "name": "Ometo",
@@ -3173,7 +3173,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ometo,Wolayta,Soddo,Ethiopia,Omo Valley,Southwest Ethiopia"
+  "b": "4692883,Garland,4693003,Gatesville,4693150,4693342,Grand Prairie,4694482,Grapevine,4694568,4695066,Groves,4695317,Haltom City,4695912,Harker Heights,4696202,4696233,Highland Village,4697645"
 },
 {
     "name": "Chichewa",
@@ -3182,7 +3182,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chichewa,Lilongwe,Blantyre,Zomba,Malawi,Central Africa,Lake Malawi"
+  "b": "4699066,Humble,4699442,4699540,Hurst,4699575,Hutto,4699626,Irving,4700168,Jollyville,4701458,Katy,4702732,Keller,4702828,Kerrville,4703078,Killeen,4703223"
 },
 {
     "name": "Cibak",
@@ -3191,7 +3191,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cibak,Bama,Mubi,Mubi North,Adamawa State,Nigeria,North East"
+  "b": "4703384,Kyle,4703811,La Marque,4704027,La Porte,4704108,Lake Jackson,4704628,4705191,4705349,League City,4705692,Leander,4705708,Lewisville,4706057,Little Elm,4706736,Live Oak"
 },
 {
     "name": "Cineni",
@@ -3200,7 +3200,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cineni,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "4707055,Longview,4707814,Lufkin,4708308,4709013,4709272,McAllen,4709796,McKinney,4710178,4710749,Mesquite,4710826,Midlothian,4711156,4711725,Mission Bend,4711729,Missouri City"
 },
 {
     "name": "Ciwogai",
@@ -3209,7 +3209,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ciwogai,Mayo Belwa,Jalingo,Gongola State,Nigeria,North East,West Africa"
+  "b": "4711801,4712933,Murphy,4713507,4713735,4713932,4714131,4714149,4714582,4715292,4716805,4717232,4717560,4717782,4718097,4718209,4718711,4718721,Plano,4719457"
 },
 {
     "name": "Coptic",
@@ -3218,7 +3218,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Cairo,Alexandria,Akhmim,Asyut,Minya,Sohag,Qena,Luxor,Fayyum,Dakahlia,Beheira,Egypt"
+  "b": "Port Arthur,4720039,4720131,4720833,4722625,4723406,4723914,4724129,4724194,4724564,4724642,4726206,4726290,4726440,4726491,4727326,4727605,4727756,4728328,4733042"
 },
 {
     "name": "Cuvok",
@@ -3227,7 +3227,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cuvok,Mokolo,Maroua,Cameroon,Mandara Mountains,West Africa"
+  "b": "4733313,4733624,4734005,4734350,4734825,4734909,4735702,4735966,4736028,4736096,4736134,4736388,4736476,4738214,4738574,4738604,4738606,4738721,4739157,4739526"
 },
 {
     "name": "Daba",
@@ -3236,7 +3236,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daba,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "4740214,4740328,4740364,4740629,4741100,4741616,4741752,4743275,4744091,4744468,4744709,4744870,4745272,4747845,4748305,4748993,4749627,4749950,4751421,Centreville"
 },
 {
     "name": "Dahalik",
@@ -3245,7 +3245,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dahalik,Dahlak Kebir,Massawa,Eritrea,Red Sea,Africa"
+  "b": "4751839,4751935,4752031,4752136,Chesapeake,4752186,4752229,4752665,4753671,4754966,4755158,4755280,4756955,4758023,4759968,Fredericksburg,4760059,Front Royal,4760232,Great Falls"
 },
 {
     "name": "Dass",
@@ -3254,7 +3254,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uazhslu,Muuniep,Diosaizhui,Uasmpru,Jiofliothee,Cakoo"
+  "b": "4761951,4762894,Harrisonburg,4763231,Herndon,4763793,Highland Springs,4764127,Hopewell,4764826,Hybla Valley,4765520,Idylwood,4765553,Lake Ridge,4768351,4768678,4769125,Lincolnia,4769608"
 },
 {
     "name": "Daza",
@@ -3263,7 +3263,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daza,Faya-Largeau,Mao,Chad,Sahara Desert,North Africa,Chad Basin"
+  "b": "Linton Hall,4769667,Lorton,4770714,Lynchburg,4771075,Manassas,4771401,Manassas Park,4771414,McLean,4772354,Mechanicsville,4772566,Merrifield,4772735,4772943,Montclair,4773677,Newport News"
 },
 {
     "name": "Dazawa",
@@ -3272,7 +3272,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dazawa,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "4776024,4776222,Oakton,4776970,Petersburg,4778626,4779999,Portsmouth Heights,4780011,Radford,4780837,Reston,4781530,4781708,Roanoke,4782167,4782864,4784112,Short Pump,4785576"
 },
 {
     "name": "Ddo",
@@ -3281,7 +3281,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Poli,Samo,Sofol,Ridina,Djanguine,Tchamba,Vokré,Mokolo,Banyo,Guémé,Perma,Mba,Mayo-Darbet,Mokolo-Région,Tourou,Gashaka,Tibati,Betare-Yaala,Lomie"
+  "b": "South Riding,4786667,South Suffolk,4786714,4787117,Staunton,4787440,4787534,Sudley,4788145,Suffolk,4788158,Tuckahoe,4790207,Tysons,4790534,4791160,4791259,Waynesboro,4792522"
 },
 {
     "name": "Deh",
@@ -3290,7 +3290,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Deh,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "West Lynchburg,4792867,West Springfield,4792901,4793846,4794120,Wolf Trap,4794350,4794531,Beckley,West Virginia,4798308,4801859,Clarksburg,4802316,Fairmont,4805404,Huntington,4809537,Martinsburg"
 },
 {
     "name": "Dengese",
@@ -3299,7 +3299,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dengese,Kisangani,Beni,DR Congo,Central Africa,Congo River"
+  "b": "4813878,Morgantown,4815352,Parkersburg,4817641,Sherwood,4828193,4828382,Chillicothe,4828890,Bay City,4829307,Alabaster,4829762,4829791,Anniston,4830198,4830668,4830796,Glendale Heights"
 },
 {
     "name": "Deno",
@@ -3308,7 +3308,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Deno,Kisangani,Bunia,DR Congo,Central Africa,Lake Albert"
+  "b": "4832038,North Andover,Massachusetts,4832272,4832294,Danbury,Connecticut,4832353,4832425,Inkster,Michigan,4832554,Cleveland Heights,4833320,East Hartford,4833403,East Haven,4833425,East Norwalk,4833505"
 },
 {
     "name": "Lisan al-Gharbi",
@@ -3317,7 +3317,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Lisan al-Gharbi,Ghadamès,Faya-Largeau,Chad,Sahara Desert,North Africa"
+  "b": "Enfield,4834040,4834157,4834272,Glastonbury,4835003,Guilford,4835512,Hamden,4835654,4835797,Killingly Center,4837278,Ledyard,4837648,4838116,4838174,Mansfield City,4838204,Meriden"
 },
 {
     "name": "Matmata Berber",
@@ -3326,7 +3326,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Matmata,Douz,Tataouine,Medenine,Gabès,Remada,Tunisia,Sahara Desert,North Africa"
+  "b": "4838524,4838633,Milford,4838652,Montville Center,4838887,Naugatuck,4839222,New Britain,4839292,New Canaan,4839319,New Haven,4839366,New London,4839416,Newington,4839497,North Haven,4839704"
 },
 {
     "name": "Ouargli",
@@ -3335,7 +3335,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Ouargli,Ouargla,Bechar,Adrar,Algeria,Sahara Desert,North Africa"
+  "b": "North Stamford,4839745,Norwalk,4839822,4839843,4840755,Plainville,4840767,4842818,Shelton,4842898,South Windsor,4843353,Southbury,4843362,Southington,4843378,4843564,4843786,4843811"
 },
 {
     "name": "Sanhaja de Srair",
@@ -3344,7 +3344,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Al Hoceima,Tétouan,Chefchaouen,Taza,Fès,Guercif,Taounate,Morocco,Rif Mountains,North Africa"
+  "b": "4844309,4844459,4845056,4845193,4845411,4845419,4845519,4845585,4845612,4845823,4845871,4845898,4845920,4845984,4846757,4846834,4846960,4848489,4849826,4850699"
 },
 {
     "name": "Sened",
@@ -3353,7 +3353,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Sened,Bir el Hafey,Sidi Bou Said,Djebel Ressas,Sidi Thabet,Mornag,Bou Arada,Gafsa,Tozeur,Kairouan"
+  "b": "Cedar Rapids,4850751,4852022,4852065,4852640,4852832,4853423,Des Moines,4853828,4854529,4857486,4861719,Iowa City,4862034,Johnston,4862760,4866263,Marshalltown,4866371,Mason City"
 },
 {
     "name": "Sheliff Basin Berber",
@@ -3362,7 +3362,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Chelif,Mila,Ain Defla,Tissemsilt,Relizane,Tiaret,Ténès,Algeria,Tell Atlas,North Africa"
+  "b": "4866445,Muscatine,4868404,4868907,North Liberty,4869195,Ottumwa,4870380,Sioux City,4876523,Urbandale,4879890,4880889,Waukee,4880981,West Des Moines,4881346,4882920,Albany Park,4883012"
 },
 {
     "name": "Sokna",
@@ -3371,7 +3371,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Seeez,TwiobSlaesk,Kriungiina,WubPheisk,WutwPheim,Peythearruish,HaotwBloum,Seeell,Spoydr,Zooayll"
+  "b": "Algonquin,4883078,Alsip,4883207,Arlington Heights,4883555,4883679,4883817,4883904,4884141,4884192,Bellwood,4884434,Belmont Cragin,4884442,Belvidere,4884453,4884509,Berwyn,4884597"
 },
 {
     "name": "Tawellemmet",
@@ -3380,7 +3380,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Tawellemmet,Mosul,Ain Sefra,Tamanrasset,Algeria,Sahara Desert,North Africa"
+  "b": "Pathalgaon,1260141,Pataudi,1260156,Patancheru,1260168,1260173,Patāmundai,1260178,1260206,Pasān,1260210,Parvatsar,1260221,Pārvatipuram,1260222,Parūr,1260225,Partūr,1260228"
 },
 {
     "name": "Dghwede",
@@ -3389,7 +3389,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dghwede,Gwoza,Bama,Bornu State,Nigeria,North East,West Africa"
+  "b": "1260393,Pāppinisshēri,1260406,Papanasam,1260417,1260421,1260434,Panth Pīplia,1260442,Panruti,1260448,1260454,Ponmana,1260456,1260476,Pānihāti,1260482,Pandua,1260527,Pāndhurnā"
 },
 {
     "name": "Dida",
@@ -3398,7 +3398,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dida,Daloa,Abidjan,Yamoussoukro,C'te d'Ivoire,West Africa"
+  "b": "Paliā Kalān,1260713,1260716,1260718,1260728,1260730,Palera,1260734,Palāsa,1260771,Pālanpur,1260777,Palakollu,1260792,Pālakkodu,1260793,1260824,Pākāla,1260830,Paithan"
 },
 {
     "name": "Diri",
@@ -3407,7 +3407,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Diri,Mubi,Bama,Uba,Askira,Adamawa State,Nigeria,North East,West Africa"
+  "b": "1260959,Pachor,1260960,1261008,Dharashiv,1261012,Orai,1261039,1261045,Omalur,1261049,Okha,1261066,Ozar,1261068,1261084,Obra,1261086,Nūzvīd,1261110"
 },
 {
     "name": "Dizoid",
@@ -3416,7 +3416,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dizoid,Majang,Dizi,Sheko,Southwest Ethiopia,Omo Valley"
+  "b": "1261258,Nīsang,1261279,Nirmāli,1261285,1261288,1261309,Neem ka Thana,1261342,Nīmbāhera,1261369,Nimāparha,1261375,Nīmāj,1261378,Nīlokheri,1261382,Nīlēshwar,1261394,Nilanga"
 },
 {
     "name": "Doko",
@@ -3425,7 +3425,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oismproi,Pralia,Drouius,Iopeeh,Kracoo,Oimpgroi,Shiomaismui"
+  "b": "Nawāpāra,1261604,Nawalgarh,1261613,Niwai,1261614,Nawāda,1261631,1261639,1261641,1261642,1261647,1261653,1261664,1261667,Navadwīp,1261669,Nautanwa,1261672,Naugachhia"
 },
 {
     "name": "Dugwor",
@@ -3434,7 +3434,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dugwor,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "1262346,1262374,Musiri,1262380,Mushābani,1262382,Murwāra,1262395,Murtajāpur,1262410,Murshidābād,1262412,Murlīganj,1262419,Morinda,1262426,Murbād,1262444,Murādnagar,1262453"
 },
 {
     "name": "Duhwa",
@@ -3443,7 +3443,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Duhwa,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "Munnar,1262463,1262482,1262484,Mungaoli,1262485,Mūndwa,1262491,Mundra,1262497,1262510,1262516,Multai,1262534,1262546,1262553,1262562,Muluppilagadu,1262566,Mūlanūr"
 },
 {
     "name": "Dullay",
@@ -3452,7 +3452,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dullay,Arba Minch,Konso,Yabello,Ethiopia,Omo Valley"
+  "b": "1262567,1262574,Muktsar,1262578,Mukher,1262591,Mukeriān,1262596,Muhammadābād,1262624,1262625,1262626,Mughal Sarāi,1262634,Mudkhed,1262651,1262663,1262664,1262669,1262672"
 },
 {
     "name": "Dhd",
@@ -3461,7 +3461,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dhd,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "Laylá,104716,Khulayş,104923,105072,105299,105343,105586,Ḩaql,106102,Ha'il Region,106281,Hafar Al-Batin,106297,Fayfā’,106667,106909,107117,Buraydah,107304"
 },
 {
     "name": "East Zenati",
@@ -3470,7 +3470,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "East Zenati,Annaba,Constantine,Skikda,Algeria,Northeast Africa,Mediterranean"
+  "b": "107312,Baq‘ā’,107588,Baljurashi,Al Bahah Region,107692,Badr Ḩunayn,107744,Az Zulfī,107781,107797,Aţ Ţaraf,107959,107968,107991,As Sulayyil,108048,108410,Ar Rass,108435"
 },
 {
     "name": "Duwai",
@@ -3479,7 +3479,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Duwai,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "108512,An Nimas,108617,108648,‘Inak,108655,108773,‘Uyūn al Jiwā’,108782,108841,Qaisumah,108918,108927,Al Munayzilah,109059,Al Mubarraz,109101,Al Mithnab,109131,109223"
 },
 {
     "name": "Dwz",
@@ -3488,7 +3488,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dwz,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "Al Līth,109253,Al Khurmah,109306,109323,Al Kharj,109353,Al Khafjī,109380,Al Khabrā’,109391,Al Jumūm,109417,Al Jubayl,109435,Al Hufūf,109571,Al Bukayrīyah,109878,Al Baţţālīyah"
 },
 {
     "name": "Dyula",
@@ -3497,7 +3497,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dyula,Sikasso,Koutiala,Mali,West Africa,Sahel"
+  "b": "109915,109953,Al ‘Awwāmīyah,109998,Al ‘Aqīq,110059,110060,Afif,110250,110312,110314,110325,110336,110619,110690,393275,397833,409682,410096,11670045"
 },
 {
     "name": "Dzando",
@@ -3506,7 +3506,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dzando,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "11835536,12495725,12500245,12513572,12546009,13631408,2104533,Guadalcanal Province,2105033,2108502,13526998,13526999,13527001,13527002,La Riviere Anglaise,241131,Northern State,363417,Central Darfur,363533"
 },
 {
     "name": "Dzodinka",
@@ -3515,7 +3515,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dzodinka,Burundi,Bujumbura,Gitega,Rwanda,Central Africa,Lake Tanganyika"
+  "b": "364103,364621,North Kordofan,364706,365137,Southern Darfur,365641,366323,366426,Sinkat,366846,366847,River Nile,367308,367544,367644,367972,368230,368277,369004"
 },
 {
     "name": "Ebira",
@@ -3524,7 +3524,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ebira,Okene,Auchi,Benin,Edo State,Edo,Delta State,Nigeria,North Central,West Africa"
+  "b": "Northern Darfur,370181,370838,371745,371760,371870,372386,372527,372753,372773,Southern Kordofan,373141,373198,373296,374272,West Kordofan,374866,376332,376450,377039"
 },
 {
     "name": "Eman",
@@ -3533,7 +3533,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Eman,Mankon,Bamenda,Bali,Kumbo,Fundong,Ngie,Wum,Menka,Alcali,Batibo,Oshie-Nde,Akum,Baligham,Basuo,Bekora,Belo,Bokwa,Chomba,Essoh-Mbeng"
+  "b": "377108,377690,377724,377962,378231,378271,378459,378493,378699,379003,379014,379062,379102,379149,379251,379252,Western Darfur,379302,379303,379406"
 },
 {
     "name": "Ewe",
@@ -3542,7 +3542,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ewe,Lomé,Kpalimé,Sokodé,Togo,Kumasi,Ghana,Accra,Volta Region,West Africa"
+  "b": "379416,379427,379535,379555,379630,380129,Eastern Darfur,380148,380151,Ad-Damir,380173,380174,380308,380348,Abu Jibeha,380757,8504621,Al Jazeera Aba,12493849,Ad-Dindar"
 },
 {
     "name": "Fanagalo",
@@ -3551,7 +3551,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Johannesburg,Pretoria,Cape Town,Durban,Bloemfontein,Pietermaritzburg,Kimberley,East London,Port Elizabeth,South Africa,Mining Towns"
+  "b": "13132448,Al-Fashaqah,13132449,Al-Fāw,13132450,Al-Quṭaynah,13132451,13132452,Sh'īarīah,13132453,Sweden,Vaesterbotten,602150,Skellefteå,602913,Piteå,Norrbotten,603570,604490,605155"
 },
 {
     "name": "Fang Cameroon",
@@ -3560,7 +3560,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Suustieph,Uatsshu,Thavoo,Outsuutond,Uaqndu,Ouswuufosn,Aifruim,Iikheniuc,Aivuifr,Uaxflu,Oufruumokr"
+  "b": "606531,Skane,2662149,Visby,Gotland,2662689,Kronoberg,2663536,Västra Frölunda,Vaestra Goetaland,2664050,Västervik,2664203,Vaestmanland,2664454,Vasastaden,2664740,Värnamo,Joenkoeping,2664855"
 },
 {
     "name": "Fanji",
@@ -3569,7 +3569,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fanji,Bamenda,Nkambe,Batibo,Tong,Tikom,Bambili,Meiganga,Cameroon,Northwest Region"
+  "b": "Halland,2664996,Vänersborg,2665171,Vallentuna,2665452,2666199,Upplands Väsby,2666238,Uddevalla,2666670,Tumba,2667094,Tullinge,2667109,Trollhättan,2667303,2667402,2669772,Vaesternorrland"
 },
 {
     "name": "Farefare",
@@ -3578,7 +3578,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Navrongo,Bolgatanga,Fumbisi,Zuarungu,Kumasi,Tamale,Ghana,Burkina Faso,Volta Region"
+  "b": "2670781,2670879,2673730,2674649,2675397,2675408,2676176,2676209,2677234,Gaevleborg,2680075,2682484,2683034,2684395,Jaemtland,2685750,2685828,2686162,2686469,OErebro"
 },
 {
     "name": "Doko-Uyanga",
@@ -3587,7 +3587,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Doko,Uyanga,Mubi,Bama,Adamawa State,Nigeria,North East,West Africa"
+  "b": "2686657,Soedermanland,2687700,2688250,OEstergoetland,2688368,2690170,2690580,2690960,2691440,2691459,2692475,2692613,2692969,2693678,Dalarna,2693759,2694560,2694762,2696329"
 },
 {
     "name": "Douiret",
@@ -3596,7 +3596,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Douiret,Chenini,Tataouine,Matmata,Medenine,Gabès,Tunisia,North Africa,Sahara Border"
+  "b": "2696334,2696503,2697720,2698691,2698729,2698739,2698767,Vaermland,2699282,2699310,2699791,2700839,2701223,2701680,Blekinge,2701713,2701715,2701727,2702261,2702979"
 },
 {
     "name": "Dry",
@@ -3605,7 +3605,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dry,Somalia,Hawd,Laasqoray,Eyl,Bandarbeyla,Baraawe,Somali,Horn of Africa,Indian Ocean"
+  "b": "2703396,2704136,2704613,2704620,2706767,2707399,2707462,2707684,2707953,2708365,2709628,2711537,2712414,2712993,2715459,2715568,2715573,2715946,2715953,2716166"
 },
 {
     "name": "Ewondo",
@@ -3614,7 +3614,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaoundé,Douala,Edéa,Bafoussam,Nkongsamba,Kribi,Akonolinga,Eseka,Cameroon,Central Africa"
+  "b": "2718000,2719111,2720383,2720501,2721259,2721946,2725201,2725901,2726756,2727234,6619708,7304427,1880135,1880137,1880159,1880176,1880177,1880184,1880214,1880216"
 },
 {
     "name": "Ewondo Populaire",
@@ -3623,7 +3623,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yaoundé,Cameroon,Populaire Ewondo,Messamemendongo,Kribi,Edéa,Akonolinga,Batouri"
+  "b": "1880226,1880252,1880268,1880271,1880283,1880348,1880398,1880463,1880469,1880486,1880517,1880574,1880586,1880594,1880628,Hong Kah,1880650,Geylang,1880668,1880744"
 },
 {
     "name": "Gonga",
@@ -3632,7 +3632,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maji,Shoa,Wollega,Gamu,Gofa,Ethiopia,Oromia Region,Southwest Ethiopia,Omo Valley"
+  "b": "Bukit Merah Estate,1880750,Brickworks Estate,1880756,Boon Lay,1880761,Bishan New Town,1881919,Bukit Batok New Town,1881921,Hougang New Town,1881948,Jurong East,1881952,Jurong Town,1881953,Jurong West,1881955,Kaki Bukit Estate,1881957"
 },
 {
     "name": "Geji",
@@ -3641,7 +3641,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Geji,Kalasha,Pankshin,Yola,Bauchi,Nigeria,Plateau State,West Africa"
+  "b": "MacPherson,1882033,Outram Park,1882044,Serangoon New Town,1882101,Simei New Town,1882103,Tampines New Town,1882115,Yishun New Town,1882155,1882316,Kangkar,1882402,Marine Parade,1882778,Ang Mo Kio New Town,1884365,Bukit Panjang New Town"
 },
 {
     "name": "Fe-fe",
@@ -3650,7 +3650,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fe'efe,Ka'a,Loko,Batibo,Mambila,Nigeria,Adamawa State,North East"
+  "b": "1884367,Bedok New Town,1884382,Clementi Housing Estate,1884384,Pasir Ris New Town,1884385,Queenstown Estate,1884386,Telok Blangah,1884403,Choa Chu Kang New Town,1884737,Novena,7281987,Eunos,7289731,Sengkang New Town,7289760,Fajar"
 },
 {
     "name": "Fon",
@@ -3659,7 +3659,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cotonou,Porto-Novo,Abomey,Ouidah,Parakou,Allada,Benin,West Africa"
+  "b": "13100482,Saujana,13100483,Bangkit,13100484,Margaret Drive,13118122,13118135,Senja,13118136,13118138,Peng Siang,13118139,Teck Whye,13118140,Saint Helena, Ascension and Tristan da Cunha,Saint Helena,3370903,Slovenia,Municipality of Trbovlje"
 },
 {
     "name": "Fyer",
@@ -3668,7 +3668,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fyer,Mubi,Bama,Gwoza,Kukawa,Adamawa State,Nigeria,North East"
+  "b": "3188915,Urban Municipality of Velenje,3189075,Urban Municipality of Ptuj,3192241,Urban Municipality of Novo Mesto,3194351,Urban Municipality of Maribor,3195506,3196359,Urban Municipality of Kranj,3197378,Urban Municipality of Koper,3197753,Urban Municipality of Celje,3202781,Longyearbyen,Svalbard and Jan Mayen,Svalbard,2729907"
 },
 {
     "name": "Ga'anda",
@@ -3677,7 +3677,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ga'anda,Mubi,Gombi,Pela,Askira,Adamawa State,Nigeria,North East"
+  "b": "Slovakia,Presov Region,723195,Trebišov,Kosice Region,723358,723505,723526,723559,Rožňava,723713,Banska Bystrica Region,723736,723819,723846,724144,724443,724503,724627,725168"
 },
 {
     "name": "Gadang",
@@ -3686,7 +3686,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gadang,Mubi,Nigeria,Adamawa State,North East,West Africa"
+  "b": "3056459,Zilina Region,3056508,Žiar nad Hronom,3056523,Vrakuňa,Bratislava Region,3056708,Trnava Region,3057124,Trencin Region,3057140,Nitra Region,3057174,Staré Mesto,3057478,Skalica,3057630,Sereď,3057685"
 },
 {
     "name": "Galambu",
@@ -3695,7 +3695,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Galambu,Mubi,Bama,Yola,Nigeria,Adamawa State,North East,West Africa"
+  "b": "3057691,Senec,3057692,3057769,3057789,Púchov,3057963,3058000,3058060,Podunajské Biskupice,3058117,Piešťany,3058202,Pezinok,3058210,Petržalka,3058213,3058268,3058472,Nové Mesto nad Váhom"
 },
 {
     "name": "Geme",
@@ -3704,7 +3704,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Geme,Gao,Mali,Timbuktu,Niger River,Sahel,West Africa"
+  "b": "3058477,3058531,3058780,Malacky,3058897,3058986,Liptovský Mikuláš,3059050,3059101,3059435,3059436,Karlova Ves,3059564,Hlohovec,3060095,Handlová,3060139,Galanta,3060219,3060308"
 },
 {
     "name": "Gendza",
@@ -3713,7 +3713,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gendza,Bauchi,Nigeria,Plateau State,West Africa,Chadic Languages"
+  "b": "3060322,3060346,3060405,3060835,3060950,3060972,3061186,3061188,3077170,13118651,Western Area,2403094,2404041,2404433,2404837,2406407,2406916,2407656,2407790,2408329"
 },
 {
     "name": "Gengele Creole",
@@ -3722,7 +3722,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gengele,Nigeria,Cameroon,Cross River,Pidgin,West Africa"
+  "b": "2409306,2409823,2410048,9191693,12718740,San Marino,3168070,2243940,2244177,Diourbel Region,2244322,2244386,2244616,2244786,2244797,2244799,2244802,2244991,2245704,2245709"
 },
 {
     "name": "Gera",
@@ -3731,7 +3731,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gera,Gombi,Mubi,Bama,Yola,Adamawa State,Nigeria,North East"
+  "b": "2246452,2246512,2246544,2246606,2246608,2246678,2246922,2247157,Niakoul Rab,2247298,2247381,Ndioum,2247684,Ndibène Dahra,2247813,Keur Médoune,2248385,Mékhé,2248409,Médina Gounas"
 },
 {
     "name": "Geruma",
@@ -3740,7 +3740,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Geruma,Mubi,Kalkalim,Uba,Askira,Adamawa State,Nigeria,North East"
+  "b": "2248433,2248477,2248515,Mbaké,2248698,2248752,2249222,2249281,Koungneul Sossé,2249550,2249554,Koumpentoum,2249576,2249782,Khombole,2249901,2250645,2250659,Kbombole,2250668"
 },
 {
     "name": "Ghadamès",
@@ -3749,7 +3749,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ghadames,Ghat,Fezzan,Nalut,Algeria,Sahara Desert,North Africa"
+  "b": "Kayar,2250677,2250805,Kanel,2250849,Kahone,2250982,2251007,2251084,2251230,2251470,Gossas Village,2251490,Gandiaye,2251688,2251911,Dougnane,2252132,2252309,Diaoubé"
 },
 {
     "name": "Guanche",
@@ -3758,7 +3758,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Guanche,Tenerife,Adeje,La Laguna,La Orotava,Canary Islands,Spain,Africa,Atlantic"
+  "b": "2252685,Dara,2253277,2253354,2253375,2253901,Bargny Guèdj,2254153,Bargny,2254154,Sali,2595222,Bargny Ngoude,2595382,2595640,Le Plateau,2595758,2595778,Bambey,7670740"
 },
 {
     "name": "Gude",
@@ -3767,7 +3767,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gude,Kheb,Tlyarata,Chkala,Russia,Dagestan,Andi Mountains,Caucasus"
+  "b": "N’diareme limamoulaye,11101616,Rufisque est,11101625,Jaxaay Parcelle Niakoul Rap,13117829,Wanlaweyn,Lower Shabeelle,50672,Tog Wajaale,Woqooyi Galbeed,51228,Saylac,Awdal,52078,Ruqi,52407,Qoryooley,52867,Qandala"
 },
 {
     "name": "Gudu",
@@ -3776,7 +3776,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gudu,Kheb,Inkhokvari,Russia,Dagestan,Andi Mountains,Caucasus,Northeast Caucasus"
+  "b": "53157,Banaadir,53654,54225,54715,Lower Juba,55671,Kaambooni,56055,Jilib,Middle Juba,56166,Jawhar,Middle Shabele,56335,Jamaame,56399,Hargeysa,57289,Gebiley"
 },
 {
     "name": "Guduf-Gava",
@@ -3785,7 +3785,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guduf-Gava,Rus,Ans,Rus-Kurshi,Russia,Dagestan,Andi Mountains,Caucasus"
+  "b": "58831,Garoowe,Nugaal,58933,Mudug,59611,60019,El Dibir,60149,Diinsoor,60809,Dhamas,61360,Ceerigaabo,Sanaag,62691,Ceeldheer,62788,Cabudwaaq,63400"
 },
 {
     "name": "Guinea-Bissau Creole",
@@ -3794,7 +3794,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bissau,Bafatá,Bijagós,Guinea-Bissau,West Africa,Lusophone,Atlantic Coast"
+  "b": "Buurhakaba,63571,Buulobarde,Hiiraan,63689,Togdheer,63795,64013,64021,64435,64460,64536,Baardheere,65170,65785,Balanbale,342803,Laascaanood,400769,Saaxo"
 },
 {
     "name": "Gurara",
@@ -3803,7 +3803,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Gurara,Tamanrasset,In Salah,Janine,Nigeria,Kebbi State,North West"
+  "b": "6311111,Dhabad,6311126,8045596,Beled Hawo,12212406,Rainville,Suriname,Paramaribo District,3383188,3383330,Wanica District,3383714,Flora,3384242,Blauwgrond,3384562,Munder Buiten,8220838,Tammenga"
 },
 {
     "name": "Hina",
@@ -3812,7 +3812,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mina,Besleri,Cameroon,Fula,Fulfulde,Nigeria,Adamawa State,North East"
+  "b": "8220851,Welgelegen,8220924,Beekhuizen,8220949,Pontbuiten,13607830,13607831,Weg naar Zee,13607832,Central Equatoria,363619,Western Equatoria,363656,Winejok,Northern Bahr al Ghazal,363807,Western Bahr al Ghazal,363885,364367"
 },
 {
     "name": "Ghomara",
@@ -3821,7 +3821,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Ghomara,Marrakech,El Hajeb,Ait Mellal,Taroudant,Tinrhir,Morocco,Atlas,North"
+  "b": "Torit,Eastern Equatoria,365742,Tonj,Warrap,365763,Lakes,367927,Upper Nile,370737,371466,Kuacjok,371712,Kafia Kingi,373130,373303,Gogrial,374739,Pajok,375495"
 },
 {
     "name": "Gidar",
@@ -3830,7 +3830,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gidar,Mubi,Bama,Pala,Kuje,Gujj,Bauchi,Adamawa,Nigeria,East"
+  "b": "Jonglei,377241,Sao Tome Island,2410763,Zacatecoluca,El Salvador,3582805,Usulután,3582883,Soyapango,San Salvador Department,3583096,Sonzacate,Sonsonate Department,3583098,Sonsonate,3583102,Sensuntepeque,3583158,San Vicente Department"
 },
 {
     "name": "Kilba",
@@ -3839,7 +3839,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Huba,Kilba,Nya,Adamawa,Nigeria,Bura,Higi,Hausa,Chadic"
+  "b": "3583178,Santiago de María,3583199,Santa Ana Department,3583334,San Salvador,3583361,San Rafael Oriente,San Miguel Department,3583379,3583446,Cuscatlan,3583471,3583480,Morazan,3583747,La Libertad Department,3583981,Puerto El Triunfo,3584003"
 },
 {
     "name": "Hun-Saare",
@@ -3848,7 +3848,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hun,Saare,Duka,Dukawa,Nigeria,Kebbi,Niger,Sahel"
+  "b": "Chalatenango,Chalatenango Department,3587091,Ayutuxtepeque,3587308,Apopa,3587345,Antiguo Cuscatlán,3587362,Ahuachapán,3587426,3587428,Acajutla,3587498,Sint Maarten (Dutch part),3513392,Zākīyah,Syrian Arab Republic,Rif-dimashq,162560"
 },
 {
     "name": "Hwana",
@@ -3857,7 +3857,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hwana,Nigeria,Gombe,Mubi,Adamawa State,North East,West Africa"
+  "b": "Yabrūd,162627,Ţayyibat al Imām,163270,163345,Tall Rif‘at,163476,Tallkalakh,163533,Tallbīsah,163779,Ţafas,163806,163808,Tādif,163811,Şūrān,163915,Subaykhān,164025"
 },
 {
     "name": "Hya",
@@ -3866,7 +3866,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hya,Nigeria,Dza,Kebbi,Borno,North East,West Africa,Chad Border"
+  "b": "Shaykh Miskīn,164328,Saraqib,164816,Salqīn,164898,As Salamīyah,164947,Şaḩnāyā,164994,Şāfītā,165060,Qaţanā,165929,Jāsim,165997,Qārah,166111,Kabbasin,166285"
 },
 {
     "name": "Giiwo",
@@ -3875,7 +3875,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Giiwo,Bauchi,Katagum,Misau,Azare,Darazo,Gambaru,Nigeria,Ningi,Rahama,Yana,Zungur,Tasha,Malamawa,Gobirawa,Matsango,Kirfi,Itas,Ganjuwa,Tafawa-Balewa"
+  "b": "Nubl,166331,166365,al-Yarmūk,Damascus Governorate,166716,Maharda,166742,Maşyāf,167046,167357,Ma‘arratmişrīn,167605,Khān Shaykhūn,168325,Kafr Zaytā,168620,Kafr Takhārīm,168629,Kafranbel"
 },
 {
     "name": "Guruntum",
@@ -3884,7 +3884,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guruntum,Shelleng,Tel,Kambari,Adamawa State,Nigeria,North East"
+  "b": "168661,Kafr Lāhā,168668,169023,Jayrūd,169113,Jaramānā,169174,169179,Jablah,169304,‘Irbīn,169372,Inkhil,169375,169389,169577,Ḩarastā,169897,Ḩamāh"
 },
 {
     "name": "Gvoko",
@@ -3893,7 +3893,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gvoko,Gwoza,Mubi,Bama,Adamawa State,Nigeria,North East"
+  "b": "Bāniyās,171830,Babīlā,171998,Az Zabadānī,172059,I‘zāz,172082,172256,At Tall,172349,Al-Tabqa,172374,As-Suwayda,Suwayda,172408,Aş Şanamayn,172469,As Safīrah,172503"
 },
 {
     "name": "Gwandara",
@@ -3902,7 +3902,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gwandara,Gwari,Kaduna,Kano,Birnin Kebbi,Kano State,Nigeria,West"
+  "b": "Ar Rastan,172946,Ar Raqqah,172955,An Nabk,173193,173230,Al Quţayfah,173312,173322,Al Qunayţirah,Quneitra,173334,Al Qaryatayn,173361,173377,Al Mayādīn,173480,173530,173576"
 },
 {
     "name": "Han-Samhan",
@@ -3911,7 +3911,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "han-samhan,Seoul,Busan,Daegu,Incheon,Gwangju,Daejeon,Ulsan,Goyang,Seongnam,Suwon"
+  "b": "Al Kiswah,173598,173811,Al Ḩirāk,173819,174018,174186,Ad Dānā,174259,Ālbū Kamāl,174448,Hajīn,174506,Hhohho Region,934985,Manzini Region,934995,935048,Turks and Caicos Islands,3576994"
 },
 {
     "name": "Omaio",
@@ -3920,7 +3920,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Omaio,Te Kaha,Whangaparaoa,Raukokore,Waihau Bay,Lottin Point,Hicks Bay,Te Araroa,Tikitiki,Ruatoria,Te Puia Springs,Tokomaru Bay"
+  "b": "Maritime,2363490,Tsévié,2363534,Centrale,2363908,2364041,2364079,2364104,2364752,2364812,Savanes,2365190,2365267,2365560,2366152,2367164,2367226,2367568,2367656"
 },
 {
     "name": "Ongota",
@@ -3929,7 +3929,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Weito,Birayle,Gidole,Konso,Jinka,Turmi,Omorate,Dimeka,Key Afer,Karat,Arba Minch,Sawla"
+  "b": "2367660,2367886,2367981,Aného,2367990,1117652,1117656,1117823,1149698,1150007,1150085,1150154,1150210,Kanchanaburi,1150246,1150275,1150490,1150515,1150533,1150624"
 },
 {
     "name": "Judeo-Berber",
@@ -3938,7 +3938,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Tinghir,Ouarzazate,Demnate,Imlil,Taroudant,Tiznit,Agadir,Marrakech,Fes,Meknes"
+  "b": "1157266,Ban I Chang,1157290,Bang Saphan,1157662,Bang Phae,1157683,Nong Kung Si,1595679,Ban Nong Wua So,1599640,Ban Mai,1601579,Ban Khlong Bang Bon,1602708,Ban Huai Thalaeng,1603235,Ban Khlong Bang Sao Thong,1604452,Na Klang"
 },
 {
     "name": "Proto-Ron",
@@ -3947,7 +3947,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bokkos,Mangu,Pankshin,Barkin Ladi,Daffo,Mushere,Kulere,Karfa,Shagawu,Richa"
+  "b": "Nong Bua Lamphu,1604654,1604769,Yaring,Pattani,1604771,Yan Nawa,1604792,Yala,1604870,Wiset Chaichan,Ang Thong,1605018,Wichian Buri,1605024,Warin Chamrap,1605069,Warichaphum,1605070,Wang Saphung"
 },
 {
     "name": "Proto-Warji",
@@ -3956,7 +3956,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Warji,Gwaram,Ningi,Ganjuwa,Dambam,Katagum,Misau,Shira,Giade,Jama'are"
+  "b": "Loei,1605102,Wang Noi,1605118,Wang Nam Yen,Sa Kaeo,1605119,1605215,1605221,1605239,1605245,1605279,Thon Buri,1605403,Tha Yang,1605467,Tha Ruea,1605509,1605538,Chanthaburi"
 },
 {
     "name": "North Bauchi",
@@ -3965,7 +3965,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouquuspot,Khasnoo,Iigreqiuts,Iogwees,Zodzlaa,Baboo,Iozheek,Pouiut,Trobrthue,Iiskestiump"
+  "b": "1605601,1605677,1605754,1605843,Narathiwat,1605957,1606030,1606033,1606050,1606147,1606239,Chon Buri,1606250,Sing Buri,1606270,Prachin Buri,1606291,Bueng Kan,1606343,1606350"
 },
 {
     "name": "Ron",
@@ -3974,7 +3974,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bokkos,Mangu,Pankshin,Barkin Ladi,Jos,Riyom,Bassa,Jos East,Jos South,Jos North"
+  "b": "1606376,1606386,1606418,1606586,1606588,1606590,1606638,1606640,1606790,1606807,1606939,1607001,1607017,1607055,1607068,1607083,1607257,1607280,1607284,1607327"
 },
 {
     "name": "South Bauchi",
@@ -3983,7 +3983,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ioleesm,Briotislau,Uodietheint,Aitruizh,Gwouiufl,Oigrkwoi,Dzozhfaa,Ioyeegw,Twiombaisui,Aistuij"
+  "b": "1607435,1607439,1607508,1607512,1607532,1607542,1607552,1607615,1607708,1607725,1607730,1607737,Phatthalung,1607779,1607782,1607793,Chachoengsao,1607801,1607838,1607865"
 },
 {
     "name": "West Chadic",
@@ -3992,7 +3992,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uaplu,Briotioslee,Shouiugw,Friokhifau,Mouiusk,Pioshaigrui,Mbioqiostee,Uanttwu,Triobrispau,Friokhaifui"
+  "b": "1607978,1607983,Pak Phanang,1608033,1608048,Pak Chong,1608057,Mueang Nonthaburi,1608133,Non Sung,1608136,Nong Phai,1608191,1608232,Nong Khaem,1608236,Nong Khae,1608239,Nong Chok,1608258"
 },
 {
     "name": "Tuareg Berber",
@@ -4001,7 +4001,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Puushiegr,Uashfu,Outwuuflotr,Aibruiph,Jafloo,Aichuish,Uombienteibr,Ouskuustomp,Oikwroi,Fouiuts,Swothmue,Uopriegreim"
+  "b": "Khlong Yai,1609863,Khlong San,1609879,Khlong Luang,1609899,Khao Wong,1609990,Khao Saming,1609997,Kaset Wisai,1610185,Kaset Sombun,1610187,Kantharalak,1610227,Kamalasai,1610459,1610469,Kaeng Khoi"
 },
 {
     "name": "Tuareg languages",
@@ -4010,7 +4010,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Tessalit,Bourem,Gossi,Ansongo,Gourma-Rharous,Abeibara,Tin-Essako,Tidermène,Alata,Inekar,Aderbissinat,Tabelot"
+  "b": "1610503,Kaeng Khro,1610505,Kabin Buri,1610538,1610780,Dusit,1610858,1610940,Den Chai,1610943,Dan Khun Thot,1610963,Chum Phae,1611026,Chong Nonsi,1611088,Chon Daen,1611106,1611110"
 },
 {
     "name": "Western Berber",
@@ -4019,7 +4019,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Ounguuskosm,Kracia,Bratia,Nkiokwaiyui,Ngouiumb,Iimpesliugw,Puushegr,Qampoo,Mpiohiombee,Khiosniochee,Statwia,Phuudedz"
+  "b": "Chok Chai,1611135,1611269,1611407,1611416,Chai Badan,1611424,1611439,1611453,Bua Yai,1611492,1611635,Ban Tha Kham,1612696,Ban Selaphum,1613284,1613409,Ban Samae Dam,1613549,Ban Phra"
 },
 {
     "name": "Zenaga Berber",
@@ -4028,7 +4028,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mederdra,Tiguent,Rosso,Keur Massène,Boutilimit,Aleg,Boghé,Bababé,Kaédi,Selibaby,Maghama,M'Bagne,Ould Yengé,Gouraye,Khabou,Ghabou,Arr,Wompou,Tachott,Hassi Cheggar,Boully,Dafort,Bouanzé,Souvi,Baydam,Ganki,Niéléba,Diaguili,Koumbou,N'Diago,N'Tekane,Lexeiba,Monguel,M'Bout,Foum Gleita,Barkeol,Guerou,Kiffa,Kankossa,Tamchakett,Aioun,Tintane,Kobenni,Djiguenni,Amourj,Bassikounou,Nema,Walata,Tichit,Ouadane"
+  "b": "1614115,Ban Phe,1614288,1614295,Ban Phan Don,1614336,Ban Phai,1614455,Ban Phaeo,1614465,Thambon Na Mueang,1616222,1616464,Ban Mo,1616658,Ban Lam Luk Ka,1617111,Ban Khlong Prawet,1618177,Ban Khlong Bang Ramat"
 },
 {
     "name": "Zenati languages",
@@ -4037,7 +4037,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Batna,Khenchela,Oum el Bouaghi,Tébessa,Biskra,Sétif,Bordj Bou Arréridj,M'Sila,Djelfa,Laghouat,Tiaret,Saida"
+  "b": "1618363,Bang Rakam,1619276,Bang Rak,1619278,Bang Racham,1619281,Bang Pakong,1619363,Bang Pa-in,1619369,Bang Mun Nak,1619400,Bang Len,1619415,Bang Lamung,1619423,Bang Kruai,1619434,Bang Krathum"
 },
 {
     "name": "Telugu",
@@ -4046,7 +4046,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "und",
   "m": 0,
-  "b": "Hyderabad,Visakhapatnam,Vijayawada,Guntur,Nellore,Kurnool,Tirupati,Rajahmundry,Kakinada,Kadapa,Anantapur,Eluru,Ongole,Chittoor,Srikakulam,Vizianagaram,Nandyal,Proddatur,Adoni,Tenali,Bhimavaram,Chilakaluripet,Narasaraopet,Tadepalligudem,Suryapet"
+  "b": "1619437,Bangkok Yai,1619457,Bangkok Noi,1619460,Bang Khun Thian,1619485,Bang Khlo,1619496,Bang Kapi,1619532,Bang Bua Thong,1619602,Bang Ban,1619616,1619650,Ban Chang,1620254,Ban Bueng,1620371"
 },
 {
     "name": "Setl'kwa",
@@ -4055,7 +4055,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Gaborone,Francistown,Molepolole,Selebi-Phikwe,Maun,Kanye,Serowe,Mochudi,Lobatse,Palapye,Jwaneng,Mahalapye"
+  "b": "Ban Talat Bueng,1620442,Bang Phlat,1620706,Bang Na,1620755,Ban Bang Kadi,1620875,Bang Bo District,1620919,Ban Bang Bamru,1620924,Ban Ang Sila,1620954,1621020,1621060,Amphoe Sikhiu,1948015,Din Daeng,6694101"
 },
 {
     "name": "Shanjo",
@@ -4064,7 +4064,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Mongu,Senanga,Sesheke,Kalabo,Lukulu,Kaoma,Limulunga,Shangombo,Sikongo,Nalolo,Sioma,Mitete"
+  "b": "Wichit,6696291,Bang Sue,6845329,Khlong Toei,6908641,Lat Krabang,6957690,Bang Khae,7026720,Bang Kho Laem,7026735,Bueng Kum,7026776,Chatuchak,7026785,Chom Thong,7026787,Huai Khwang,7026800"
 },
 {
     "name": "Suba-Simbiti",
@@ -4073,7 +4073,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Migori,Tarime,Musoma,Bunda,Serengeti,Rorya,Butiama,Suna,Kehancha,Mabera,Isibania,Shirati"
+  "b": "Khan Na Yao,7026817,Lak Si,7026833,Lat Phrao,7026837,Pathum Wan,7026842,Phaya Thai,7026870,Ratchathewi,7026885,Sai Mai,7026886,Saphan Sung,7026889,Sathon,7026897,Suan Luang,7026898"
 },
 {
     "name": "Kiga",
@@ -4082,7 +4082,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kabale,Kisoro,Kanungu,Rukungiri,Ntungamo,Rubanda,Rukiga,Muhanga,Hamurwa,Mpalo,Kamwezi,Nyakigugwe"
+  "b": "13494087,Wat Tha Phra,13494089,Khlong Kum,13494090,13494091,Sena Nikhom,13494092,Chomphon,13494093,Chatuchak subdistrict,13494094,Khatlon Province,1220112,1220163,1220219,Sughd,1220253,1220571,1220747"
 },
 {
     "name": "Kikar",
@@ -4091,7 +4091,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nairobi,Kiambu,Thika,Muranga,Nyeri,Kirinyaga,Embu,Meru,Karatina,Limuru,Kikuyu,Gatundu"
+  "b": "1220798,1220826,Republican Subordination,1220855,1220905,1220981,1221194,1221259,Gorno-Badakhshan,1221328,1221614,1221714,1221874,1221965,1221970,1221997,1222107,1222175,1282601,1514829"
 },
 {
     "name": "Kinyarwanda",
@@ -4100,7 +4100,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kigali,Butare,Gisenyi,Ruhengeri,Cyangugu,Kibuye,Byumba,Kibungo,Gitarama,Nyanza,Ruhango,Musanze"
+  "b": "1514839,1514879,1514883,Konibodom,1514891,1514896,Buston,1538311,8416817,1626459,Maubara,1635826,1636670,Likisá,1637730,Dili Municipality,1645457,Baukau,1649539,Atsabe"
 },
 {
     "name": "Kirundi",
@@ -4109,7 +4109,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bujumbura,Gitega,Ngozi,Rumonge,Kayanza,Muyinga,Bubanza,Bururi,Cankuzo,Cibitoke,Karuzi,Kirundo"
+  "b": "1651079,1651816,1937274,1943235,Balkan,161616,Kaka,Ahal,161901,Gyzylarbat,161931,161943,Gökdepe,161950,161974,Magtymguly,161980,Jebel,161997,162099"
 },
 {
     "name": "Kongo",
@@ -4118,7 +4118,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Brazzaville,Matadi,Boma,Pointe-Noire,Mbanza-Ngungu,Kikwit,Bandundu,Moanda,Cabinda,Soyo,Mbanza-Kongo"
+  "b": "Bäherden,162158,162183,Änew,162199,Yylanly,Dasoguz,601432,Gubadag,601460,Görogly,601475,Oýrat,601534,Türkmenbaşy,601594,Köneürgenç,601608,601661,601734"
 },
 {
     "name": "Kituba",
@@ -4127,7 +4127,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Brazzaville,Pointe-Noire,Matadi,Boma,Kikwit,Bandundu,Dolisie,Madingou,Kinkala,Sibiti,Owando"
+  "b": "Nabeul Governorate,2464804,Tajerouine,Kef Governorate,2464809,2464858,Teboulbou,Gabes Governorate,2464860,Teboulba,Monastir Governorate,2464861,Jendouba Governorate,2464871,2464915,Soliman,2464953,Sukrah,Ariana Governorate,2464960"
 },
 {
     "name": "Kunama",
@@ -4136,7 +4136,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Barentu,Shambuko,Tokombia,Guluj,Teseney,Haikota,Augaro,Omhajer,Gash-Barka,Humera,Sheraro,Inda Selassie"
+  "b": "2469230,2469250,2469256,2469262,2469264,2469268,2469274,Beja Governorate,2469386,2469473,2470088,2470173,2470191,Houmt Souk,2470384,2470579,2470588,2470656,2471003,2471012"
 },
 {
     "name": "Laal",
@@ -4145,7 +4145,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Doba,Moyen-Chari,Logone,Chari,La¯,Mandoul,Mayo-Kebbi,Salamat,Guéra,Kémo"
+  "b": "2473164,Chebba,2473229,Aryanah,2473247,Ar Rudayyif,2473257,Ouardenine,2473420,2473449,2473457,El Ksar,2473466,Gremda,2473470,Kalaa Srira,2473481,Kelaa Kebira,2473483,La Mornaghia"
 },
 {
     "name": "Lusoga",
@@ -4154,7 +4154,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jinja,Iganga,Kamuli,Bugiri,Mayuge,Namayingo,Luuka,Buyende,Bukedea,Kaliro"
+  "b": "2473489,2473493,Moknine,2473496,La Mohammedia,2473499,Metlaoui,2473517,La Marsa,2473540,El Mgarsa,2473551,Mahires,2473570,Mahdia,2473572,Le Kram,2473626,Kellabine,2473633"
 },
 {
     "name": "Tetserret",
@@ -4163,7 +4163,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Agadez,Arlit,Bilma,Dirkou,Iferouane,Madama,Tahoua,In Gall"
+  "b": "El Kef,2473634,Jedeïda,2473639,El Jem,2473654,2473744,El Hamma,2473747,Bekalta,2473826,El Ain,2473835,El Alia,2473876,Akouda,2473913,Ajim,2473937,Douane"
 },
 {
     "name": "Ber",
@@ -4172,7 +4172,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Agadir,Casablanca,Fès,Marrakech,Tanger,Meknès,Oujda,Kénitra,Rabat,Salé"
+  "b": "2581754,Dar el Haj Taïeb,2584420,2586370,Borj Cedria,6692494,Ouerdanine,7870039,La Gazelle,7870240,El Mourouj,11204413,Ezzouhour,11204573,12037388,Boumhel El Bassatine,12037507,Bembla et Mnara,13132708,Chenini Nahal"
 },
 {
     "name": "Tasawaq",
@@ -4181,7 +4181,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Xouiupr,Uoswiefeisn,Ualcu,Gwuuskebr,Cokpue,Aimuits,Iiwengiul,Fachia"
+  "b": "13132709,Mnihla,13132710,Douar Hicher,13132711,Ettadhamen,13132712,4032402,Yüksekova,Türkiye,296173,Yozgat,296562,Yeşilova,296829,Yeşilli,296832,296852,Yerköy,296895"
 },
 {
     "name": "Tagdal",
@@ -4190,7 +4190,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Joflrue,Gondspaa,Aikuil,Niowioshee,Iilesmiun,Ougwuusoq,Diosizhau,Ioxeer"
+  "b": "Didim,Aydin,297090,Yatağan,Mugla,297564,Yalvaç,297789,Yahyalı,297917,Viranşehir,298033,Varto,298088,298117,Cimin,Erzincan,298230,Uşak,298299"
 },
 {
     "name": "Talodi",
@@ -4199,7 +4199,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Talodi,Kadugli,Muglad,Abyei,Kalog,Dilling,Bashiri,Soderi"
+  "b": "Urla,Izmir Province,298316,Ürgüp,Nevsehir Province,298326,Şanlıurfa,298333,Arsuz,298435,Turgutlu,Manisa,298806,Tunceli,298846,Torbalı,298935,Tire,299137,Tavşanlı"
 },
 {
     "name": "Tegali",
@@ -4208,7 +4208,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oirsnoi,Thuuvek,Aisuiv,Gruusmieg,Oitwskoi,Vuujesw,Praloo,Kaswia"
+  "b": "Kuetahya,299545,Tatvan,Bitlis,299582,Taşucu,299643,299817,299900,Susurluk,300058,Suruç,300075,Sorgun,300352,300371,Solhan,Bingoel,300377,Söke"
 },
 {
     "name": "Tegem",
@@ -4217,7 +4217,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iishedriunk,Doskhue,Iogeetw,Mionaipui,Hadroo,Grouiutr,Iinkegiup,Drotssue"
+  "b": "300399,Siverek,300614,Sivas,300619,Şırnak,Sirnak,300640,Simav,300791,Silvan,Diyarbakir Province,300796,Silopi,300797,300808,300822,301010,301089,301101"
 },
 {
     "name": "Tima",
@@ -4226,7 +4226,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iiseviusp,Sliotriontee,Grasmia,Aidzuic,Ntospcue,Zuudzesn,Liofiokwee,Uoliesmein"
+  "b": "301116,301172,301209,301256,301350,301537,301539,301827,Afyonkarahisar Province,301911,301975,302043,302355,302525,302800,Agri,302819,302824,303195,303290"
 },
 {
     "name": "Tembo",
@@ -4235,7 +4235,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sposlkaa,Uafku,Aiphuisw,Hodrdaa,Cuukier,Tsayoo,Nowgue,Iindembiudr,Ouphuuswofl,Uazntu"
+  "b": "Ortaca,303354,Ödemiş,303700,303750,Nizip,303798,Niğde,Nigde Province,303827,Nevşehir,303831,Nazilli,303873,Mut,304013,304081,304184,Mucur,Kirsehir"
 },
 {
     "name": "Tocho",
@@ -4244,7 +4244,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Frakhia,Kwuuprieng,Gwaskoo,Kriociwau,Khosnnkaa,Diosiozhee,Ndagria,Tsoystaa"
+  "b": "304196,Milas,304355,304382,304531,Menemen,304612,Marmaris,304782,304797,304827,Manavgat,304854,Malazgirt,304916,304922,Mahmutlar,304964,Lice,305089"
 },
 {
     "name": "Tumtum",
@@ -4253,7 +4253,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uanfru,Uomietseikw,Kruucew,Ainguisk,Iosleedz,Chuufrel,Uotiedeimb,Oifkoi"
+  "b": "Kütahya,305268,Kuşadası,305359,Kurtalan,305532,Beykonak,305680,305742,Kulp,305750,305810,Küçükçiğli,305969,Kozluk,Batman,306041,306112,Kovancılar,306207"
 },
 {
     "name": "Sele",
@@ -4262,7 +4262,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "-Sele,Khanty-Mansiysk,Noyabrsk,Pyt-Yakh,Surgut,Muravlenko"
+  "b": "Korkuteli,306474,306571,Konaklı,306626,Konak,306641,Kızıltepe,307084,Serinhisar,307211,Kırşehir,307515,Kırkağaç,307623,Kırıkkale,Kirikkale,307654,Kırıkhan,307657"
 },
 {
     "name": "Liberian Kreyol",
@@ -4271,7 +4271,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "",
   "m": 0,
-  "b": "Monrovia,Harper,Buchanan,Gbarnga,Kakata,Bensenville"
+  "b": "310859,310892,310907,311046,311073,311111,311314,311453,311553,Igdir,311665,311704,312024,312114,312134,312156,Hadim,312899,Hacılar,313013"
 },
 {
     "name": "Libyan Arabic",
@@ -4280,7 +4280,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "ae",
   "m": 0,
-  "b": "Tripoli,Benghazi,Misrata,Bayda,Zawiya,Zliten,Ajdabiya,Tobruk,Sabha,Derna,Sirte,Gharyan,Khoms,Bani Walid,Nalut,Ghat,Murzuq,Ubari,Waddan,Hun,Sokna,Jalu,Awjila,Kufra,Tazerbo,Rebiana,Tmassa,Gatrun,Zuwara,Sabratha"
+  "b": "Güroymak,313331,Gölbaşı,314133,314136,Göksun,314188,Genç,314648,Gemerek,314665,Gediz,314716,Gazipaşa,314812,314830,314903,Fethiye,314967,Ezine"
 },
 {
     "name": "Lingala",
@@ -4289,7 +4289,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oikrxoi,Aiskuist,Oufuupow,Oikhvoi,Chiofrailui,Spuusliefl"
+  "b": "Canakkale,315061,Etlik,315153,Eskişehir,315202,315368,315373,Ermenek,315401,Ergani,315468,Ereğli,315498,Erdemli,315515,Erciş,315530,Emirdağ,315621"
 },
 {
     "name": "Boro-Garo",
@@ -4298,7 +4298,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kokrajhar,Gossaigaon,Bijni,Bongaigaon,Barpeta,Nalbari,Goalpara,Dudhnoi,Dhubri,Guwahati,Dispur,Tamulpur,Udalguri,Tezpur,Tura,Williamnagar,Resubelpara,Baghmara,Ampati,Rongjeng,Mendipathar,Damra,Rongram,Dalu"
+  "b": "Emet,315639,Elmalı,315697,Elmadağ,315720,Elbistan,315795,Elazığ,315808,Eğirdir,315905,Edremit,315985,Dursunbey,316102,Dörtyol,316284,Doğubayazıt,316411"
 },
 {
     "name": "Nyabwa",
@@ -4307,7 +4307,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Sassandra,San-Pedro,Tabou,Grand-Bereby,Doke,Djapadji,Madiépa,Grabo,Nero-Mer,Buyo,Meagui,Soubre,Guéra,Okrouyo,Grand-Zattry,Niéko,Payo,Tiapoum,Ayemou,Aboisso"
+  "b": "Diyarbakır,316541,Diyadin,316542,Dinar,316634,Develi,316795,317109,317241,Dargeçit,317587,Darende,317588,Çumra,317844,Menderes,317851,318137,318253"
 },
 {
     "name": "Mumuye",
@@ -4316,7 +4316,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Jalingo,Zing,Yorro,Lau,Ardo-Kola,Bali,Gassol,Mutum-Biyu,Monkin,Serti,Numan,Ganye,Demsa,Gombi,Lamurde,Mayo-Belwa,Taraba,Didango,YorroTown,ZingTown"
+  "b": "Çine,318372,Ceylanpınar,318668,Ceyhan,318675,Çeşme,318755,Çermik,318766,Çay,319104,Çat,319357,Kestel,319528,Çağlayancerit,320004,Çiğli,320257"
 },
 {
     "name": "Moore",
@@ -4325,7 +4325,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Ouagadougou,Kaya,Koudougou,Boussé,Ziniaré,Ourgou-Manéga,Zorgho,Bogodogo,Tenkodogo,Koupéla,ZorghoTown,Po,Leo,Boromo,Sapouy,Garango,Manga,Ouahigouya,KayaTown,BousséTown"
+  "b": "Burhaniye,320369,Burdur,320392,Bulanık,320448,Bucak,320533,Bozyazı,320552,Bozüyük,320557,Bozova,320581,320871,Bolvadin,320879,Bodrum,320995,321025"
 },
 {
     "name": "Tigre",
@@ -4334,7 +4334,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Keren,Akordat,Barentu,Teseney,Haykota,Afabet,Karora,Shambuko,Mensura,Agordat,Bisha,Omhajer,Hagher,Kerkebet,Adi-Quala,Tokombia,Goluj,Hagaz,Asmat,Tsorona"
+  "b": "Bismil,321031,Birecik,321062,Bingöl,321082,Bigadiç,321136,Beyşehir,321191,Besni,321337,Bergama,321426,321572,Belek,321580,Bayındır,321786,321836"
 },
 {
     "name": "Geez",
@@ -4343,7 +4343,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Aksum,Yeha,Adulis,Debre-Damo,Lalibela,Gondar,Axum,Adwa,Shire,Debre-Birhan,Debre-Libonos,Debre-Tabor,Debre-Sina,Debre-DamoMonastery,Wukro,Adigrat,YehaTown,Gheralta,Abba-Garima,Hayk"
+  "b": "Baskil,321929,Banaz,322051,Balıkesir,322165,Balatçık,322212,Ayvalık,322673,Aydın,322830,323094,323777,323779,323786,323828,324106,Alaşehir,324172"
 },
 {
     "name": "Hadiyya",
@@ -4352,7 +4352,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Hosaena,Shone,Gimbichu,Lemu,Soro,Gibe,Hombole,Boditi,Buesha,Mehal-Amba,Guguma,Angecha,Duna,Gorche,Gughe,Dimtu,GibeTown,Dalocha,Badawacho,Lalo"
+  "b": "Alanya,324190,Akşehir,324490,324496,324698,324768,324859,324944,325103,325303,325304,325330,325336,325363,438055,438400,442301,447273,Zonguldak Province"
 },
 {
     "name": "Sidama",
@@ -4361,7 +4361,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Hawassa,Yirgalem,Bona,Bensa,Aleta-Wendo,Dale,Shebedino,Chuko,Boricha,Malga,Wondo-Genet,Arbegona,Gorche,Bursa,Gedeo,Bule,Dilla,Hula,Daye,Wensho"
+  "b": "737022,Tokat Province,737054,737071,737081,737421,Bursa Province,737611,737961,738025,738064,738167,738228,Edirne,738251,738329,Ordu,738349,738377,738618"
 },
 {
     "name": "Wolaitta",
@@ -4370,7 +4370,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Sodo,Boditi,Gesuba,Gununo,Areka,Dimtu,Beklo-Segno,Humbo,Abala-Faracho,ShoneTown,Duguna-Fango,SodoZuria,Gacheno,HumboTown,Abela,Gipeta,Bola,SodoTown,Odoramo,Fango"
+  "b": "738648,738662,738743,Giresun,738753,738803,738858,738907,Tekirdag,738927,Amasya,739015,739061,739110,Suşehri,739209,Sürmene,739215,Sungurlu,Corum"
 },
 {
     "name": "Ganza",
@@ -4379,7 +4379,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Asosa,Kurmuk,Bambasi,Menge,Guba,Kamor,Gizen,Belo-Jiganfoy,Sherkole,Ayra,Tsore,Tapi,Meka,Begi,Metekel,Agelo,Gidami,Dembidolo,Gidole,Danbal"
+  "b": "739236,Suluova,739251,Şişli,739549,739600,Silivri,739634,Şebin Karahisar,739914,Sarıkamış,Kars Province,740088,Sapanca,740230,740264,Safranbolu,Karabuek Province,740430,Rize Province"
 },
 {
     "name": "Luganda",
@@ -4388,7 +4388,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Kampala,Entebbe,Mukono,Jinja,Masaka,Mityana,Kayunga,Luweero,Nansana,Kira,Seeta,Bombo,Masindi,Hoima,Bukomero,Zirobwe,Buikwe,Lugazi,BuikweTown,Nyenga"
+  "b": "740483,Osmaneli,740881,Osmancık,740883,Orhangazi,741045,741100,741160,741240,Niksar,741304,Nallıhan,741347,Mustafakemalpaşa,741385,Mudanya,741487,Mimarsinan,741529"
 },
 {
     "name": "Sango",
@@ -4397,7 +4397,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangui,Bimbo,Berberati,Bambari,Bouar,Bossangoa,Bozoum,Bangassou,Bria,Kaga Bandoro,Mbaiki,Sibut,Paoua,Nola,Boda,Ippy,Alindao,Obo,Carnot,Ndele"
+  "b": "741609,741763,741771,Kirklareli,741855,742238,742658,742902,743051,743166,743404,743439,Guemueshane Province,743537,743615,Duzce,743624,743818,743882,743952"
 },
 {
     "name": "Amira",
@@ -4406,7 +4406,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jebel Amira,Lira,Fungor,Kau,Nyaro,Werni,Talodi,Moro,Tira,Otoro,Shira,Heiban"
+  "b": "4094163,4094212,4094455,4095415,Arkansas,4101114,4101241,4101260,4103448,4103957,4106458,4109785,4110486,4111410,4115412,4116315,4116834,4119403,4120792,4124112"
 },
 {
     "name": "Babanki",
@@ -4415,7 +4415,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kedjom Keku,Kedjom Ketinguh,Bamenda,Tubah,Bambui,Bafut,Mankon,Bali,Akum,Santa,Pinyin,Chomba"
+  "b": "4125388,4126226,4128894,4129397,4130430,4131116,4132093,Texarkana,4133367,Van Buren,4134716,West Memphis,4135865,Adams Morgan,District of Columbia,4137457,Brightwood,4137810,4137919,Columbia Heights"
 },
 {
     "name": "Baca",
@@ -4424,7 +4424,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mount Frere,Umzimkhulu,Ixopo,Harding,Richmond,Bulwer,Underberg,Matatiele,Cedarville,Kokstad,Franklin,Swartberg"
+  "b": "151986,152224,152376,152403,152451,152497,152546,152632,152663,152718,152743,152781,152933,Mpwapwa,153094,153176,153209,153220,153352,Mlimba"
 },
 {
     "name": "Bangala",
@@ -4433,7 +4433,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kinshasa,Mbandaka,Lisala,Bumba,Basankusu,Makanza,Bolobo,Lukolela,Irebu,Lukole,Mobayi-Mbongo,Yakoma"
+  "b": "153384,153408,153412,153423,153482,Pemba South,153600,153709,Misungwi,153759,153871,154002,154097,154313,154321,154380,154470,154551,154566,154638"
 },
 {
     "name": "Bangi",
@@ -4442,7 +4442,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bolobo,Lukolela,Mossaka,Loukolela,Makotimpoko,Mpouya,Bouemba,Yumbi,Kwamouth,Mushie,Inongo"
+  "b": "4143861,4145381,Allapattah,4145805,Altamonte Springs,4145941,Apopka,4146166,Auburndale,4146389,Aventura,4146429,Bartow,4146723,Bayonet Point,4146901,Bayshore Gardens,4146934,Belle Glade,4147241"
 },
 {
     "name": "Bangolan",
@@ -4451,7 +4451,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uambgu,Phiodidzau,Fluuntev,Uotriezheist,Zodzlue,Uoviefreiz,Frouiung,Oichswoi,Wioraimui,Flantoo"
+  "b": "Bellview,4147290,Bloomingdale,4148207,Boca Del Mar,4148399,Boca Raton,4148411,Bonita Springs,4148533,Boynton Beach,4148677,Bradenton,4148708,4148757,4148803,Brownsville,4149077,Buenaventura Lakes,4149269"
 },
 {
     "name": "Bomboli-Bozaba",
@@ -4460,7 +4460,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kungu,Libenge,Gemena,Budjala,Bomongo,Makanza,Mobayi-Mbongo,Yakoma,Bumba,Lisala,Bongandanga,Basankusu"
+  "b": "232422,Kalisizo,232522,232526,Kakumiro,232619,232652,Kakira,232661,Kajansi,232713,232834,233070,233114,Iryango,233194,233275,233299,233312,233346"
 },
 {
     "name": "Bomboma",
@@ -4469,7 +4469,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mania,Sposlkue,Rokrgraa,Iigetwiuh,Dasia,Smiopindau,Spaslia,Oufluusnozh,Kuuswiekr,Twombzaa,Oiprkroi,Ouspuuzod"
+  "b": "233382,233476,233508,233563,Bwizibwera,233730,233840,233886,Butemba,233975,234004,234043,234077,Busesa,234088,Busembatia,234092,234178,Bunamwaya,234179"
 },
 {
     "name": "Boze",
@@ -4478,7 +4478,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Divo,Lakota,Guitry,Fresco,Sassandra,Grand-Lahou,Lozoua,Hirie,Zikisso,Niambézaria,Gnagbodougnoa,Galébré"
+  "b": "Bukuya,234329,234368,234480,Buhimba,234496,Buhesi,234497,234565,234578,234658,Budadiri,234660,234717,235039,235130,Anaka,235178,235489,235574"
 },
 {
     "name": "Bozo",
@@ -4487,7 +4487,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mopti,Djenné,Ségou,Diafarabé,Youwarou,Tenenkou,Konna,Akka,Deboye,Niafunké,Dire,Goundam"
+  "b": "Ishaka,448001,7911405,7911406,Opit,8198328,Buyale,8261621,Nakivale Refugee Camp,8581615,Kisinga,8629023,8629414,Rwiimi,8642874,Kyengera,10858926,10943053,Namavundu,11259341"
 },
 {
     "name": "Buu",
@@ -4496,7 +4496,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wamba,Isiro,Mambasa,Nia-Nia,Epulu,Bomili,Pawa,Ibambi,Gombari,Betongwe,Makere,Mangbele"
+  "b": "Muhorro,11496345,Butunduzi,13132713,Kiryandongo Refugee Camp,13132714,Kyaka II Refugee Camp,13132715,Kyangwali Refugee Camp,13132716,Nyamunuka,13132717,Rwamwanja Refugee Camp,13132719,Fort Hunt,United States,4046704,Bessemer,Alabama,4048023"
 },
 {
     "name": "Dagaare",
@@ -4505,7 +4505,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nandom,Wa,Jirapa,Lambussie,Kunku,Bussie,Lawra,Nadowli,Hamile,Daffiama,Kaleo,Nadoli,Ulu,Han,Ko"
+  "b": "Paducah,4048662,4049979,4050552,Center Point,4054378,Cullman,4057835,Daphne,4058219,Decatur,4058553,Dothan,4059102,East Florence,4059870,4060791,Fairhope,4061234,4062577"
 },
 {
     "name": "Awing",
@@ -4514,7 +4514,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chouiuy,Oiymoi,Xiozaikhui,Ciokirau,Gwioskiobree,Uadbru,Zhaphoo,Ounkuugop"
+  "b": "Foley,4062644,Gadsden,4063619,Helena,4066811,Homewood,4067927,Hoover,4067994,Hueytown,4068446,4068590,Madison,4074267,Millbrook,4076239,4076598,4076784,Mountain Brook"
 },
 {
     "name": "Beba",
@@ -4523,7 +4523,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Beba,Benakuma,Menchum,Bamenda,Mbekunyam,Nsoka,Muala,Mbamba,Shisong,Fombi,Agah,Ntamecheh,Widikum"
+  "b": "4078646,Northport,4080555,Opelika,4081644,4081914,Pelham,4082569,Phenix City,4082866,Prattville,4084796,Prichard,4084888,Selma,4089114,Talladega,4092788,Tillmans Corner,4093753"
 },
 {
     "name": "West African English Creole",
@@ -4532,7 +4532,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Freetown,Bo,Kenema,Koindu,Waterloo,Port Loko,Makeni,Koidu,Monrovia,Buchanan,Gbarnga,Harper,Robertsport,Paynesville,Clara Town,New Kru Town,Lagos,Port Harcourt,Warri,Benin City,Calabar,Accra,Tema,Sekondi,Takoradi,Koforidua,Tamale,Kumasi"
+  "b": "3463432,Feira de Santana,3463478,Faxinal,3463573,3463590,Fartura,3463604,3463605,Extrema,3463668,Eunápolis,3463690,Euclides da Cunha,3463698,Estrela,3463761,3463762,Esteio,3463859"
 },
 {
     "name": "Ghanaian Pidgin English",
@@ -4541,7 +4541,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Accra,Kumasi,Tema,Takoradi,Sekondi,Kasoa,Ho,Sunyani,Tamale,Bolgatanga,Cape Coast,Obuasi,Koforidua,Wa,Techiman,Madina,Dansoman,Osu,Labadi,Jamestown,Chorkor,Nungua,Legon,Spintex,Kaneshie,Ashaiman,Abidjan,Bouaké,Yamoussoukro,Bobo-Dioulasso,Ouagadougou,Koudougou,Bamako,Sikasso,Segou,Mopti"
+  "b": "744092,744093,744168,744537,744562,744873,İznik,745026,İzmit,745028,İstinye,745039,745044,İskilip,745076,İnegol,745169,Horasan,745527,745530"
 },
 {
     "name": "Nigerian Pidgin",
@@ -4550,7 +4550,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Abuja,Port Harcourt,Warri,Benin City,Onitsha,Enugu,Kano,Kaduna,Ibadan,Abeokuta,Ilorin,Jos,Owerri,Uyo,Calabar,Yenagoa,Asaba,Akure,Minna,Sapele,Bonny Island,Aba,Makurdi,Sokoto,Abidjan,Bouaké,Yamoussoukro,Bobo-Dioulasso,Ouagadougou,Koudougou,Bamako,Sikasso,Segou,Mopti"
+  "b": "Hendek,745664,Hayrabolu,745697,Havza,745714,Gürsu,746232,Gürpınar,746234,Gürgentepe,746252,Gümüşhane,746425,Görükle,746552,Görele,746565,Gönen,746574"
 },
 {
     "name": "West African Pidgin English",
@@ -4559,7 +4559,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Pashia,Lofdrue,Iibrephiutw,Oupruugrom,Twiombisau,Drotssaa,Souiusn,Snioxaifrui,Aipruigr,Fochtsue,Twouiuz,Togwjaa,Zadzia,Shomgwue,Uontiexeiph,Uajsu,Ioskeest,Oustuujosl,Uoxiereisw,Ousmuumpoy,Gwaskia,Iikeliukh,Flontkrue,Uachswu,Stotwxue,Spasloo,Uafrthu,Iotreezh,Kwaproo,Ngonkmbaa,Krocsmue,Iomeets"
+  "b": "Gölcük,746666,746881,Geyve,746898,Gerede,746940,Gemlik,746958,Gelibolu,746983,Gebze,747014,Ferizli,747135,Fatsa,747155,Esenyurt,747323,Esenler"
 },
 {
     "name": "Kru Pidgin English",
@@ -4568,7 +4568,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Monrovia,Harper,Buchanan,Greenville,Frutehn,Grand Cess,Cape Palmas,Sinoe River,Palm Grove,Barclayville,Kanweaken,Konobo,Tabou,Sassandra,San Pedro,Abidjan,Paynesville,New Kru Town,Sydney,Melbourne,Brisbane,Perth,Adelaide,Canberra,Hobart,Darwin,Wollongong,Toowoomba,Gbarnga,Kakata,Tubmanburg,Robertsport,Bensonville"
+  "b": "3675443,3675512,3675595,3675605,3675657,3675668,3675692,3675707,3675826,3675975,3676397,3676604,Amazonas Department,3676623,3676626,3676720,3676923,3676928,3676934,3677010"
 },
 {
     "name": "Angolar Creole",
@@ -4577,7 +4577,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Joảo dos Angolares,Ribeira Afonso,Dona Augusta,Praia das Conchas,Porto Alegre,I' Grande"
+  "b": "1668355,1668399,Daxi,1668467,Shulin,1668875,Shetou,1669506,1670029,1670106,1670157,1670264,Budai,1670295,1670310,Pitou,1670436,Beidou,1670697,Beigang"
 },
 {
     "name": "Annobonese Creole",
@@ -4586,7 +4586,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Antonio de Palé,Anganchi,Aual,Mabana,Santa Cruz,Quioveo"
+  "b": "1670826,1670909,Neili,1671444,1671467,1671566,1671971,1672228,Lugu,1672551,Linnei,1672869,Takao,1673816,1673820,1674199,1674504,1674615,1674975,1675151"
 },
 {
     "name": "Cape Verdean Creole",
@@ -4595,7 +4595,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Praia,Mindelo,Santa Maria,Espargos,Assomada,Porto Novo,São Filipe"
+  "b": "154648,154654,154780,154805,154837,155016,155056,155076,155077,155101,155125,Ruvuma,155285,155307,155310,Dar es Salaam Region,155321,155334,155405,155515"
 },
 {
     "name": "Avokaya",
@@ -4604,7 +4604,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Maridi,Mundri,Amadi,Kotobi,Lui,Kediba,Bangolo"
+  "b": "155569,155743,155794,Liwale,155921,156025,156080,156098,Kyela,156111,156479,156510,156627,156963,156973,156974,157107,157198,157268,157377"
 },
 {
     "name": "Hozo",
@@ -4613,7 +4613,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Begi,Gidami,Tongo,Bambasi,Kondala,Kofele"
+  "b": "161100,161154,161197,161204,161218,161290,161312,161325,877378,877384,877391,877401,877433,877471,877532,877534,877581,877597,877605,Nachingwea"
 },
 {
     "name": "Tulishi",
@@ -4622,7 +4622,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tulishi,Kamda,Lagawa,Keiga,Moro,Nuba"
+  "b": "877702,877747,Mbinga,877998,878041,Masasi,878058,878073,878195,Luchingu,878223,878281,Kitama,878367,Kigonsera,878400,Merelani,6640202,Nungwi,Zanzibar North"
 },
 {
     "name": "Uduk",
@@ -4631,7 +4631,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chali,Kurmuk,Blue Nile,Wadega,Bunj,Yabus"
+  "b": "7284275,Magu,8549456,Mhalamba,8549608,Tarakea,11905975,Diobahika,13132454,Dumila,13132455,Kibaigwa,13132456,Madizini,13132457,13132458,Matongo,13132459,Mwandege,13132460"
 },
 {
     "name": "Chadian Arabic",
@@ -4640,7 +4640,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Iipehiung,Trabria,Oiskyoi,Brotvaa,Iimbentiubr,Ntaspia,Xazia,Ouwuungol"
+  "b": "Mwanhuzi,13132461,Ruaha,13132462,Lebedyn,Ukraine,613273,Druzhkivka,616743,Zvenyhorodka,686803,Zuhres,686818,Zolotonosha,686875,Zolochiv,686896,Znamyanka,Kirovohrad,686919"
 },
 {
     "name": "Kujargé",
@@ -4649,7 +4649,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Goz Beïda,Mouraye,Adré,Hadjer Hadid,Fada,Dourbali,Abéché,Bokoro,Mongo,Bitkine"
+  "b": "Zhytomyr Oblast,686967,Zhmerynka,687116,Zhovti Vody,687196,Zdolbuniv,Rivne Oblast,687432,Zaporizhzhya,687700,Pivdenne,687997,Katerynivka,Luhansk,688089,Yevpatoriya,688105,Yenakiyeve,688148"
 },
 {
     "name": "Cypriot Maronite Arabic",
@@ -4658,7 +4658,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kormakitis,Agia Marina,Karpasha,Kyrenia,Asomatos,Agios Amvrosios,Lapithos,Karavas,Bellapais,Lapethos,Famagusta,Limassol,Larnaca,Paphos"
+  "b": "Yasynuvata,688373,688533,Yahotyn,Kyiv Oblast,688587,Vyshhorod,688723,Zakarpattia,688746,Vyhurivshchyna-Troyeshchyna,Kyiv City,688758,Voznesensk,688860,Volochysk,689159,Volnovakha,689198,Vilnohirsk"
 },
 {
     "name": "Gadal",
@@ -4667,7 +4667,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tahoua,Abalak,Birni-N'Konni,Bouza,Illela,Keita,Madaoua,Tchintabaraden,Bagaroua,Tassara,Tillia,Alakoss,Tanout,Agadez,In-Gall"
+  "b": "689200,Vovchansk,689304,Volodymyr-Volynskyi,Volyn,689378,Vyshneve,689487,Vinnytsya,689558,Vynnyky,689564,Vilnyansk,689584,Verkhnodniprovsk,689916,Velyka Kokhnivka,690254,Bahacheve,690312"
 },
 {
     "name": "Nubi",
@@ -4676,7 +4676,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bombo,Kibera,Nakuru,Eldoret,Kisumu,Mombasa"
+  "b": "Vasylkiv,690412,690548,690688,Tulchyn,691016,Oleshky,691037,Truskavets,691179,Trostyanets,691255,Chystyakove,691374,Tokmak,691469,Terny,691605,Ternivka,691628"
 },
 {
     "name": "Bamboo English",
@@ -4685,7 +4685,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Monrovia,Harper,Gbarnga,Buchanan,Tubmanburg,Kakata,Ganta,Bensonville,Careysburg,Blolequin,Fish Town"
+  "b": "4156404,Glenvar Heights,4156857,Golden Gate,4156920,Golden Glades,4156931,Greenacres City,4157467,Haines City,4157827,4157898,Hialeah,4158476,4158482,4158865,4158928,4159050,4159553,4159805"
 },
 {
     "name": "Bimbashi Arabic",
@@ -4694,7 +4694,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "ae",
   "m": 0,
-  "b": "Cairo,Alexandria,Port Said,Suez,Ismailia,Giza,Shubra,Mansoura,Zagazig,Asyut"
+  "b": "5112375,5112540,5112710,Clay,5112861,Clifton Park,5112961,Cohoes,5113142,College Point,5113302,Commack,5113412,Coney Island,5113481,Copiague,5113683,Coram,5113694,Corona"
 },
 {
     "name": "Bongor Arabic",
@@ -4703,7 +4703,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "ae",
   "m": 0,
-  "b": "Bongor,N Djamena,Moundou,Sarh,Ab ech,Doba,Lai,Bodo,Goz Beida"
+  "b": "5113779,5113790,Cypress Hills,5114418,5114731,Depew,5114900,Dix Hills,5115107,Dyker Heights,5115614,East Amherst,5115699,East Elmhurst,5115835,East Flatbush,5115843,East Meadow,5115960,East Massapequa"
 },
 {
     "name": "Maridi Arabic",
@@ -4712,7 +4712,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "ae",
   "m": 0,
-  "b": "Kheoiax,Nauofr,Swoedai,Pluiaufr,Swoefraisw,OaThuusp,Kheoiamp,Pleefruasw,FleukYuesn,Pleeuad"
+  "b": "5115962,East New York,5115985,East Northport,5115989,East Patchogue,5116004,East Setauket,5116060,East Tremont,5116083,East Village,5116093,Eastchester,5116118,Eggertsville,5116303,5116495,Elmira,5116497"
 },
 {
     "name": "Turku Arabic",
@@ -4721,7 +4721,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "ae",
   "m": 0,
-  "b": "Khartoum,Omdurman,Port Sudan,Kassala,El Obeid,Nyala,Dongola,Atbara,Kosti,Wad Medani"
+  "b": "Elmont,5116508,Emerson Hill,5116570,5116917,5116937,5117378,5117388,5117438,5117549,5117575,5117663,5117891,5117949,5118005,5118226,5118626,Glendale,5118670,5118701"
 },
 {
     "name": "Juba Arabic",
@@ -4730,7 +4730,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "ae",
   "m": 0,
-  "b": "Juba,Wau,Malakal,Nimule,Bor,Rumbek,Yei,Abyei,Kajo Keji,Tambura"
+  "b": "5118743,5119019,5119049,5119167,5119211,5119347,5119383,5120034,5120095,5120228,5120442,5120478,Henrietta,5120521,Hicksville,5120656,5120824,Holbrook,5120987,Hollis"
 },
 {
     "name": "Naro Click (Kalahari East)",
@@ -4739,7 +4739,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Naro,Koro,Maru,Garo,D'kar,New Xade,East Hanahai,Molapo,Dekar,Metsiamanong,Dutlwe,Tshwaane,Ghanzi,Xanagas,Kuke,Charles Hill"
+  "b": "5146089,5146233,Austintown,5146256,5146277,Avon Center,5146282,Avon Lake,5146286,Barberton,5146491,Bay Village,5146675,5147097,Boardman,5147784,5147968,Broadview Heights,5148273,Brook Park"
 },
 {
     "name": "Sandawe Click (Central Tanzania)",
@@ -4748,7 +4748,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Bahi,Gumbi,Kigwe,Nyambwa,Mbete,Sandawe,Tumbi,Kwamtili,Ilunde,Ngongwa,Ndolela"
+  "b": "5148326,5148480,5149222,5150529,Collinwood,5150792,Cuyahoga Falls,5151613,Defiance,5151861,5151891,5152333,East Cleveland,5152599,5152833,Elyria,5153207,Euclid,5153420,5153680"
 },
 {
     "name": "Yoruba (Nigeria Coastal)",
@@ -4757,7 +4757,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Lagos,Ibadan,Abeokuta,Ogbomoso,Oshogbo,Ilesa,Akure,Ado-Ekiti,Ondo,Ikere,Shagamu,Sango,Ota,Ikorodu,Badagry,Ijebu-Ode,Ife,Modakeke,Owo,Ilorin"
+  "b": "Findlay,5153924,5155207,Gahanna,5155393,Garfield Heights,5155499,5155858,5156371,5157588,5158067,5158164,5159537,5160315,5160783,5161262,5161723,5161803,5161902,5162077"
 },
 {
     "name": "Berber (Morocco)",
@@ -4766,7 +4766,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "stnlrkm",
   "m": 0,
-  "b": "Casablanca,Rabat,Fes,Agadir,Sale,Meknes,Kenitra,Tetouan,Safi,Marrakech,Oujda,ElJadida"
+  "b": "5177773,Allentown,5178127,Allison Park,5178165,5178195,Back Mountain,5178800,5178940,Bensalem,5179995,5180199,5180225,5182529,5183234,5188140,5188843,5190219,5190311,5192726"
 },
 {
     "name": "Ethiopian Amharic",
@@ -4775,7 +4775,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Addis-Ababa,Bahir-Dar,Gondar,Dessie,Mekelle,Debre-Markos,Debre-Birhan,Adigrat,Lalibela,Shire,Woldiya,Kombolcha,Debre-Tabor,Finote-Selam,Nekemte,Ambo,Debre-Zeit,Holeta,Injibara,Debre-Sina"
+  "b": "5193011,5193309,5193955,5194584,5195561,5195674,5196220,5197079,5197159,5197430,5197517,5197796,5198034,5198748,5200499,5201734,5202215,5202765,5203127,5203393"
 },
 {
     "name": "Mongolian (Africa)",
@@ -4784,6 +4784,6 @@ window.africaNameBases = [
   "max": 11,
   "d": "aou",
   "m": 0,
-  "b": "Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Murun,Olgii,Hovd,Sukhbaatar,Tsetserleg,Altai,Bayankhongor,ZamynUud"
+  "b": "Norristown,5203506,5204465,Oxford Circle,5204783,Parkwood Manor,5205163,Penn Hills,5205377,Phoenixville,5205849,Pittsburgh,5206379,Plum,5206606,Pottstown,5207069,Radnor,5207490,5207728"
 }
 ];
