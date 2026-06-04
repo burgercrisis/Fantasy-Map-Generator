@@ -90,7 +90,7 @@ window.unknownNameBases = [
   "i": 200938,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Santiago Sacatepéquez,San Lucas Sacatepéquez,San Bartolomé Milpas Altas,Sumpango,Santo Domingo Xenacoj,San Mateo Milpas Altas,Santa Lucía Milpas Altas,Pastores,San Juan Gascón,San Miguel Milpas Altas,Jocotenango,Antigua Guatemala,San Pedro Sacatepéquez,San Felipe de Jesús,Santa Marta,San Lorenzo El Tejar,San Miguel Morazán,El Manzanillo,Buena Vista,La Embaulada"
 },
@@ -243,7 +243,7 @@ window.unknownNameBases = [
   "i": 200955,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Quito,Cuenca,Loja,Ambato,Riobamba,Ibarra,Latacunga,Tulcán,Esmeraldas,Guaranda,Azogues,Macas,Tena,Puyo,Zamora,Machala,Portoviejo,Manta,Babahoyo,Quevedo"
 },
@@ -270,7 +270,7 @@ window.unknownNameBases = [
   "i": 200958,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "St. Laurent,Pembina,Winnipeg,Brandon,Dauphin,Swan River,The Pas,Flin Flon,Thompson,Churchill,Regina,Saskatoon,Prince Albert,North Battleford,Meadow Lake,Lloydminster,Medicine Hat,Lethbridge,Calgary,Edmonton"
 },
@@ -315,7 +315,7 @@ window.unknownNameBases = [
   "i": 200963,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Windhoek,Swakopmund,Walvis Bay,Lüderitz,Keetmanshoop,Gobabis,Otjiwarongo,Okahandja,Omaruru,Tsumeb,Grootfontein,Mariental,Rehoboth,Maltahöhe,Bethanie,Karasburg,Oranjemund,Rundu,Katima Mulio,Oshakati"
 },
@@ -333,7 +333,7 @@ window.unknownNameBases = [
   "i": 200965,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Diitabiki,Poeloegoedoe,Paloemeu,Apetina,Kawemhakan,Lensidede,Manlobi,Moitaki,Pikienkondre,Tutu Kampu,Aloepi,Benzdorp,Cottica,Godo Holo,Kumakahpan,Lokatabiki,Nason,Stoelmanseiland,Akani Pata,Antonio do Brinco"
 },
@@ -495,7 +495,7 @@ window.unknownNameBases = [
   "i": 200983,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Mackay,Cairns,Townsville,Bundaberg,Rockhampton,Gladstone,Maryborough,Hervey Bay,Toowoomba,Ipswich,Brisbane,Gold Coast,Sunshine Coast,Innisfail,Atherton,Mossman,Innisfail,Tully,Cardwell,Ingham"
 },
@@ -513,7 +513,7 @@ window.unknownNameBases = [
   "i": 200985,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Kirkenes,Vardø,Vadsø,Hammerfest,Tromsø,Bodø,Narvik,Harstad,Alta,Lakselv,Honningsvåg,Nordkapp,Skarsvåg,Gjesvær,Kiberg,Båtsfjord,Berlevåg,Mehamn,Gamvik,Sør-Varanger"
 },
@@ -531,7 +531,7 @@ window.unknownNameBases = [
   "i": 200987,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Thika,Machakos,Meru,Nyeri,Embu,Kitale,Kakamega,Bungoma,Malaba,Garissa,Wajir,Lamu,Malindi,Voi,Moyale"
 },
@@ -549,7 +549,7 @@ window.unknownNameBases = [
   "i": 200989,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Mogadishu,Kismayo,Baidoa,Baraawe,Marka,Galkayo,Garowe,Bosaso,Berbera,Hargeisa,Burao,Erigavo,Las Anod,Beledweyne,Jowhar,Afgooye,Bardera,Dhusa Mareb,Garbaharrey,Qoryoley"
 },
@@ -576,7 +576,7 @@ window.unknownNameBases = [
   "i": 200992,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Honiara,Gizo,Auki,Taro,Kirakira,Lata,Tulagi,Munda,Seghe,Noro,Kolombangara,Munda,Gizo,Noro,Taro,Auki,Lata,Kirakira,Honiara,Tulagi"
 },
@@ -585,7 +585,7 @@ window.unknownNameBases = [
   "i": 200993,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Dudinka,Norilsk,Khatanga,Taimyr,Ust-Port,Dikson,Kayerkan,Talnakh,Igarka,Turukhansk,Yeniseisk,Lesosibirsk,Boguchany,Kodinsk,Motygino,Severo-Yeniseysk,Baykit,Vanavara,Strelka,Turukhansk"
 },
@@ -594,7 +594,7 @@ window.unknownNameBases = [
   "i": 200994,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Tangwang,Linxia,Hezuo,Xiahe,Lintan,Zhuoni,Diebu,Zhouqu,Wudu,Wenxian,Kangxian,Chengxian,Hui County,Liangdang,Li County,Tianshui,Qinan,Gangu,Zhangjiachuan,Qingshui"
 },
@@ -603,7 +603,7 @@ window.unknownNameBases = [
   "i": 200995,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Tangwang,Linxia,Hezuo,Xiahe,Lintan,Zhuoni,Diebu,Zhouqu,Wudu,Wenxian,Kangxian,Chengxian,Hui County,Liangdang,Li County,Tianshui,Qinan,Gangu,Zhangjiachuan,Qingshui"
 },
@@ -612,7 +612,7 @@ window.unknownNameBases = [
   "i": 200996,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Papeete,Faaa,Punaauia,Pirae,Mahina,Paea,Papenoo,Arue,Hitiaa,Taravao,Teahupoo,Tautira,Afaahiti,Mataiea,Papara,Teva I Uta,Taiarapu,Hitiaa O Te Ra,Mahina,Paea"
 },
@@ -666,7 +666,7 @@ window.unknownNameBases = [
   "i": 201002,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Maniitsoq,Tasiilaq,Paamiut,Uummannaq,Upernavik,Qasigiannguit,Qeqertarsuaq,Kangaatsiaq,Kangerlussuaq,Kullorsuaq,Savissivik,Kulusuk,Ittoqqortoormiit,Narsarsuaq,Nanortalik"
 },

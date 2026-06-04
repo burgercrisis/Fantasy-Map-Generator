@@ -1008,7 +1008,7 @@ window.southAmericaNameBases = [
   "i": 11635,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "170017,Ḩalfāyā,170044,170063,170592,170654,Dayr Ḩāfir,170785,170794,Ad Darbāsīyah,170887,170892,170905,170959,Burj Islām,171147,Binnish,171451,Batabo,171694"
 },
@@ -1152,7 +1152,7 @@ window.southAmericaNameBases = [
   "i": 20077,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "3573989,Mon Repos,3574116,3574194,San Juan/Laventille,3574309,Diego Martin Regional Corporation,3574636,3574810,Borough of Arima,3575051,2110394,Douliu,Taiwan, Province of China,1665196,1665221,1665259,Yujing,1665357,1665443"
 },
@@ -1315,7 +1315,7 @@ window.southAmericaNameBases = [
   "i": 201316,
   "min": 5,
   "max": 14,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Gorotire,Kuben Kran Kegnte,Krẽhí,Baú,Arara,Parakanã,Xikrin,Mẽbêngôkre,Kayapó,Altamira,São Félix do Xingu,Ourilândia do Norte,Tucumã,Marabá,Santana do Araguaia,Redenção,Tucuruí,Pacajá,Rio Xingu,Rio Bacajá,Rio Fresco,Iriri,Terra do Meio,Koatinemo,Kararaô,Araraucauã,Pukatôti,Afukaká,Kabitutu,Ngôkre,Metuktire"
 },
@@ -1360,7 +1360,7 @@ window.southAmericaNameBases = [
   "i": 201321,
   "min": 5,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Nieuw Lombé,Matawai,Paramaribo,Sara Creek,Misidjan,Kwakoegron,Poesoegroenoe,Pokigron,Nason,Gansee,Pakka-Pakka,Bitagron,Wittikamba,Tabrikiekondre,Ochiwaken,Kaaimanston,Kalebaskreek,Mary's Hope,Amphisina,Langa Tabiki,Apensa,Heidoti,Goddo,Poeloegoedoe,Wittikamba,Saramacca,Lombé,Groningen,Moengo,Albina,Brokopondo,Lebidoti"
 },
@@ -1423,7 +1423,7 @@ window.southAmericaNameBases = [
   "i": 201328,
   "min": 5,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Yanomami,Toototobi,Parawa,Auaris,Surucucus,Ajarani,Xamatauteri,Catrimani,Demini,Aracacá,Inukuxi,Uataca,Homoxi,Hekura,Tamau,Iauitata,Wathau,Marauiá,Serra dos Surucucus,Roraima,Amazonas,Venezuela,Alto Orinoco,Casiquiare,Padamo,Ocamo,Mavaca,Shi共产党,Waiká,Yanomamö"
 },

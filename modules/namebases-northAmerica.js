@@ -693,7 +693,7 @@ window.northAmericaNameBases = [
   "i": 20107,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "1679136,1993459,6696918,Zhongxing New Village,7601921,New Taipei City,12908892,Tanzania, United Republic of,Zanzibar Urban/West,148730,Wete,Pemba North,148842,Vwawa,Songwe,148942,Vikindu,148987,Uyovu,149027"
 },
@@ -711,7 +711,7 @@ window.northAmericaNameBases = [
   "i": 20109,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Tukuyu,149437,Tinde,149512,149581,149606,149658,Rukwa,149703,Songwa,149775,Somanda,Simiyu,149792,Sokoni,Zanzibar Central/South,149812,Sirari,149854,149879"
 },
@@ -720,7 +720,7 @@ window.northAmericaNameBases = [
   "i": 20110,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Sikonge,149929,149996,150006,Shelui,150037,Shanwa,150044,Sepuka,150099,Sengerema,150103,150276,Rulenge,150436,Rujewa,150453,Puma,150634,Old Shinyanga"
 },
@@ -729,7 +729,7 @@ window.northAmericaNameBases = [
   "i": 20175,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "691650,Telychka,691743,Siverskodonetsk,691999,Svitlovodsk,692087,Dovzhansk,692105,Svatove,692118,692129,692194,Sukhodilsk,692254,Sudak,692315,Stryi,692372,Stebnyk"
 },
@@ -738,7 +738,7 @@ window.northAmericaNameBases = [
   "i": 20176,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "692632,Starokostyantyniv,692818,Starobilsk,692832,Stara Darnytsya,692909,Kadiyivka,692975,Sotsmisto,693065,Sokal,693301,Snizhne,693381,Smila,693457,Slovyansk,693468,Slavuta"
 },
@@ -747,7 +747,7 @@ window.northAmericaNameBases = [
   "i": 20177,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "693581,Skvyra,693615,Skadovsk,693709,Synelnykove,693796,Simferopol,693805,Sykhiv,693821,Shpola,693920,693942,Shepetivka,694216,Shakhtarsk,694382,Sevastopol,Sevastopol City"
 },
@@ -756,7 +756,7 @@ window.northAmericaNameBases = [
   "i": 20178,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "694423,Selydove,694677,Sarny,694792,Sambir,694864,694910,Rubizhne,695274,Rozdilna,695344,Kurakhove,695357,Rovenky,695379,Romny,695464,695594,695859"
 },
@@ -765,7 +765,7 @@ window.northAmericaNameBases = [
   "i": 20179,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Radomyshl,695912,Pyatykhatky,695965,Pryluky,Chernihiv Oblast,696108,Popasna,696566,696643,Polonne,696660,Polohy,696677,Podil,696877,Pidhorodnye,696943,697302,697488"
 },
@@ -783,7 +783,7 @@ window.northAmericaNameBases = [
   "i": 20181,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "699839,699871,699942,700022,700051,Netishyn,700261,Nadvirna,700507,Mykolayiv,700569,700646,Mostyska,700696,Otamanivka,700829,Mohyliv-Podilskyy,700918,Myrhorod,701075"
 },
@@ -801,7 +801,7 @@ window.northAmericaNameBases = [
   "i": 20184,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "702723,Lozova,702760,Lysychansk,702972,Ladyzhyn,703428,703448,Kupyansk,703656,703845,703853,704000,704138,704143,704147,704202,704204,704362,704388"
 },
@@ -810,7 +810,7 @@ window.northAmericaNameBases = [
   "i": 20185,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "704403,704422,704492,704508,704608,704617,704670,704679,704737,704858,704885,704901,Kostyantynivka,705104,705135,Slobozhanske,705183,Kolomyia,705392,Khrestivka"
 },
@@ -819,7 +819,7 @@ window.northAmericaNameBases = [
   "i": 20186,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "705797,Holubivka,705809,Kropyvnytskyi,705812,Kiliya,705883,706165,706369,Khmilnyk,706380,706448,Khartsyzk,706466,706483,Khanzhonkove,706488,Kerch,706524,Kozyatyn"
 },
@@ -828,7 +828,7 @@ window.northAmericaNameBases = [
   "i": 20187,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "706571,Kaniv,706900,Kamyanets-Podilskyi,706950,Kalush,707099,Kalynivka,707155,Kakhovka,707244,Izyum,707292,Iziaslav,707296,Izmayil,707308,707471,Irpin,707565"
 },
@@ -837,7 +837,7 @@ window.northAmericaNameBases = [
   "i": 20188,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Inhulets,707601,Ilovays’k,707679,Chornomors’k,707688,Horodok,707752,Horlivka,707753,Hlukhiv,707758,Hostomel,708251,708313,Henichesk,708878,Haysyn,708901,Hadyach"
 },
@@ -846,7 +846,7 @@ window.northAmericaNameBases = [
   "i": 20074,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "7628416,Sultanbeyli,7628419,Sancaktepe,7628420,Karabağlar,7701384,İncirli,7926667,Oba,8068982,Cikcilli,8069036,Muratpaşa,8074174,Çubuklu,8623183,9888776,Bostanlı,9888792"
 },
@@ -864,7 +864,7 @@ window.northAmericaNameBases = [
   "i": 20101,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "1665491,1665892,Citong,1666323,Donggang,1666596,Caotun,1666855,Toufen,1667027,Tianwei,1667121,1667471,1667982,1668295,1668341,Taibao,1668347,Xinying,1668353"
 },
@@ -1612,7 +1612,7 @@ window.northAmericaNameBases = [
   "i": 200231,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "El Cenizo,La Joya,Los Fresnos,Hidalgo,Laredo,Brownsville,McAllen,Rio Bravo,Mirando City,Ranchitos Las Lomas,La Presa,Los Veteranos,Tanquecitos South Acres,San Carlos,Pueblo Nuevo,Oilton,Bruni,Botines,Colorado Acres,Hillside Acres,La Coma,La Moca Ranch,Las Haciendas,Los Altos,Los Arcos,Los Centenarios,Los Corralitos,Los Huisaches,Los Minerales,Los Nopalitos,Ranchitos East,Sunset Acres"
 },
@@ -1801,7 +1801,7 @@ window.northAmericaNameBases = [
   "i": 200904,
   "min": 5,
   "max": 16,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Tumbalá,Tila,Sabanilla,Salto de Agua,Palenque,Yajalón,Ocosingo,Bachajón, Chilón,Hidalgo,Petalsingo,San Pedro Sabana,Guadalupe,El Tumbo,Juan Crisóstomo Bonilla,El Horizonte,Nueva Esperanza,Lázaro Cárdenas,Belisario Domínguez,Tzeltal,Chankom,Oxchuc,Cancuc,Tenejapa,Chalchihuitán,Chenalhó,Aldama,Pantelhó,Sitalá,Santiago El Pinar,Amatenango del Valle,Aguacatenango,Colonia Puebla"
 },
@@ -1819,7 +1819,7 @@ window.northAmericaNameBases = [
   "i": 200906,
   "min": 5,
   "max": 16,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "San José,Petén,Tayasal,Nojpetén,San Andrés,San Pedro,Santa Cruz,Flores,El Remate,San Benito,La Libertad,Melchor de Mencos,Poptún,Dolores,San Luis,Macanché,Jacinto,Yalain,Chinajá,Lake Petén Itzá,El Naranjo,Ixlú,Motul de San José,Topoxte,Nakum,Yaxhá,Ipakal,Chau Hiix,Tipu,Lamanai,Xunantunich,Cahal Pech,Barton Creek,Actuncan,Buena Vista del Cayo"
 },

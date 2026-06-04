@@ -21,7 +21,7 @@ window.africaNameBases = [
   "i": 20,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0.3,
   "b": "2239520,Maquela do Zombo,2239732,2239862,Maianga,2239888,Mabubas,2240004,Lucala,2240393,Lubalo,2240416,2240449,Kunda dya Baze,2240686,Benfica,2240937,2240958,Golungo Alto,2240975"
 },
@@ -966,7 +966,7 @@ window.africaNameBases = [
   "i": 27,
   "min": 4,
   "max": 9,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "3349229,Conda,3349324,Chitembo,3349515,Chinguar,3349723,Chindumbo,3349746,3350123,Catumbela,3350246,3350372,Capunda,3350550,Camucuio,3350867,Cambundi Catembo,3350917,Camacupa"
 },
@@ -975,7 +975,7 @@ window.africaNameBases = [
   "i": 91,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "6619280,Kingsford,6621337,Springfield Lakes,6693094,Bracken Ridge,6943558,Kallangur,6943560,North Lakes,6943562,The Gap,6943585,Pittwater,6949382,Caroline Springs,7281805,Hoppers Crossing,7281807,Logan City"
 },
@@ -1344,7 +1344,7 @@ window.africaNameBases = [
   "i": 667,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "3678097,3678405,3678674,3679065,3679277,3679554,3680176,3680387,3680434,3680450,3680539,3680656,3680840,3680944,3681563,3681596,3681702,3681733,3681797,3681957"
 },
@@ -2127,7 +2127,7 @@ window.africaNameBases = [
   "i": 2719,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "1683818,1683860,1683877,1683881,Talipapa,1683906,1684016,Talacogon,1684137,Magugpo Poblacion,Davao Region,1684269,1684308,1684320,Tagoloan,1684379,Tagbina,1684491,Tagbilaran City,1684497"
 },
@@ -3216,7 +3216,7 @@ window.africaNameBases = [
   "i": 20725,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Port Arthur,4720039,4720131,4720833,4722625,4723406,4723914,4724129,4724194,4724564,4724642,4726206,4726290,4726440,4726491,4727326,4727605,4727756,4728328,4733042"
 },
@@ -4819,7 +4819,7 @@ window.africaNameBases = [
   "i": 200003,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Imlil,Aroumd,Megdaz,Asni,Setti Fatma,Tnine Ourika,Ouarzazate,Azrou,Tizi n-Toumlilt,Tizi Melloul,Imilchil,Tafza,Tamesna,Tinmal,Ait Tamellilt,Ait Mizane,Ait Ouaouzguit,Aghbala,Agdz,Arazan,Bin el Ouidane,Bou Iblane,Boutferda,Chefchaouen,Dayet er Roumi,Ifrane,Khenifra,Midelt,Moulouya,Oued Beth,Oued el Abid,Ras el-Ma,Safi,Tiflet,Tounfit,Yeffren,Zawiya Sidi Yahya"
 },
@@ -4855,7 +4855,7 @@ window.africaNameBases = [
   "i": 200007,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Fizi,Baraka,Uvira,Minembwe,Bibogobogo,Kisombe,Lulenge,Itombwe,Mutambala,Ngandja,Bijombo,Kianjovu,Masango,Kirungu,Luemba,Kabambare,Kasongo,Kongolo,Nyunzu,Kasenga,Pweto,Mitwaba,Manono,Kabalo,Lubao,Kalemie,Kalundu,Kiliba,Sange,Runingu,Luvungi,Nemba,Burhale,Kalungu,Kashandama,Itara,Lubarika,Katogota,Kavimvira,Kigongo,Ruzizi"
 },
@@ -4864,7 +4864,7 @@ window.africaNameBases = [
   "i": 200008,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Besmé,Bodor,Kélo,Laï,Moundou,Doba,Bongor,Pala,Fianga,Léré,Koumra,Dourbali,Béré,Koro,Tapol,Gounou Gaya,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Fianga,Goré,Goundi,Grégué,Guélengdeng,Kélo,Koumra,Kyabé,Léré,Moundou,Ndam,Ngourkosso,Pala,Sarh"
 },
@@ -4891,7 +4891,7 @@ window.africaNameBases = [
   "i": 200011,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Biu,Mandaragirau,Gulak,Lasa,Gwoza,Damboa,Askira-Uba,Bama,Gombi,Mubi,Michika,Madagali,Hong,Maiha,Sukur,Damay,Kurang,Kirawa,Kwaya,Miringa,Buratai,Kida,Gur,Gunda,Garubula,Hyema,Vina,Zira,Wuyo,Shani,Shellen,Gasi,Kaltungo,Billiri,Shongom,Akko,Filiya,Gwandum,Gundale"
 },
@@ -4927,7 +4927,7 @@ window.africaNameBases = [
   "i": 200015,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Fonfuka,Su-Bum,Kimbi,Buabua,Ngunabum,Sawe,Lagabum,Mbuk,Ngunakimbi,Kichako,Kichambo,Mungong,Saff,Sawi,Lakabum,Fio,Mbamlu,Faat,Mulung,Kichowi,Noni,Fundong,Nkambe,Belo,Wum,Furawa,Misaje,Bansobi,Akweto,Kamine,Nkanchi,Dumbu,Kwei,Chako,Kibbo,Mbissa,Mfume,Bem,Chunghe,Mayo-Kila,Sabon-gida,Bebe-Kete,Bebe-Jato"
 },
@@ -6043,7 +6043,7 @@ window.africaNameBases = [
   "i": 200139,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "ǁKhauxaǃnas,Koes,Rietfontein,Grootfontein,Upington,Kakamas,Keimoes,Grootdrink,Groblershoop,Marydale,Prieska,Douglas,Campbell,Barkly West,Delportshoop,Ulco,Warrenton,Bloemhof,Christiana,Mahikeng,Zeerust,Sannieshof,Coligny,Delareyville,Ottosdal,Hartbeesfontein,Koster,Rustenburg,Swartruggens,Groot Marico,Vleesbaai,Herbertsdale,Stilbaai,Riversdale,Albertinia,Bredasdorp,Napier,Arniston,Struisbaai,L'Agulhas,Elim,Bredasdorp,Napier"
 },
@@ -6133,7 +6133,7 @@ window.africaNameBases = [
   "i": 200149,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Piya,Taraba,Karim Lamido,Didango,Jalingo,Wukari,Takum,Bali,Gassol,Ibi,Yorro,Zing,Donga,Kurmi,Ussa,Ardo Kola,Gashaka,Jalingo,Lau,Mutum Biyu,Sardauna,Takum,Wukari,Yorro,Zing,Bali,Donga,Gassol,Ibi,Karim Lamido,Kurmi,Lau,Mutum Biyu,Sardauna,Takum,Ussa,Wukari"
 },
@@ -6241,7 +6241,7 @@ window.africaNameBases = [
   "i": 200161,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Sar,Chad,Mayo-Kebbi,Bongor,Pala,Fianga,Léré,Koumra,Doba,Moundou,Bébédjia,Béïnamar,Béïssa,Békiri,Béladja,Béssao,Béti,Boumo,Danamadji,Déressia,Djedah,Dourbali,Goré,Goundi,Grégué,Guélengdeng,Kélo,Kyabé,Mbaïbokoum,Mbaïkoro,Ndam,Ngourkosso,Sarh,Béré,Biltine,Am Timan,Abou Deïa,Adré,Am Dam,Assinet,Bahaï,Baktchoro,Daguessa,Dar Tama,Djourf Al Ahmar,Ennedi,Fada,Iriba,Ounianga"
 },
@@ -6709,7 +6709,7 @@ window.africaNameBases = [
   "i": 200213,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Wuzlam,Mayo-Tsanaga,Mokolo,Mogodé,Gawar,Kortchi,Maroua,Mora,Waza,Kousséri,Mayo-Moskota,Mayo-Ouldémé,Mayo-Louti,Mayo-Maskola,Dzigilao,Gawawa,Gawar Lamordé,Gawar Windé,Mafa,Mofu,Hina,Daba,Buwal,Galdala,Gadala,Kapsiki,Cuvok,Bulahay,Matakam,Mogoré,Mouhour,Rhumsiki,Mémé,Mokong,Mofoué,Moulvoudaye,Moutourwa,Moyen Chari,Ngaoundéré,Ngaoundal,Tibati,Banyo,Galim,Tignère"
 },
@@ -6763,7 +6763,7 @@ window.africaNameBases = [
   "i": 200219,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Zaghawa,Darfur,El Fasher,Kutum,Kabkabiya,Saraf Omra,Um Kadada,Mellit,Al Malha,Al Tina,Beida,Birao,Tissi,Am Dafok,Bahaï,Birao,Tissi,Am Dafok,Bahaï,El Fasher,Kutum,Kabkabiya,Saraf Omra,Um Kadada,Mellit,Al Malha,Al Tina,Beida,Birao,Tissi,Am Dafok,Bahaï,El Fasher,Kutum,Kabkabiya,Saraf Omra,Um Kadada,Mellit,Al Malha,Al Tina,Beida"
 },
@@ -6799,7 +6799,7 @@ window.africaNameBases = [
   "i": 200223,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Zenaga,Mauritania,Nouakchott,Nouadhibou,Rosso,Kaédi,Boghé,Bababé,Mâl,Ndiago,Tidjikja,Kiffa,Kankossa,Aleg,Boutilimit,Mederdra,Tintane,Tamchakett,Aioun,Timbedra,Nema,Oualata,Chinguetti,Ouadane,Tichla,Akjoujt,Atar,Zouérat,Fderik,Bir Moghrein,Choum,Nouadhibou,Nouakchott,Rosso,Kaédi,Boghé,Bababé,Mâl,Ndiago,Tidjikja,Kiffa,Kankossa,Aleg,Boutilimit"
 },
@@ -6880,7 +6880,7 @@ window.africaNameBases = [
   "i": 200897,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Santo António,Príncipe,Sundy,Porto Real,Neves Ferreira,Ribeira Izé,Bom Viver,Praia Inhame,Praia Burra,Praia Formiga,Praia Grande,Praia Abade,Praia Salgada,Praia de Santa Catarina,Praia de São Tomé,Praia de Santo António,Praia de Príncipe,Praia de Sundy,Praia de Porto Real,Praia de Neves Ferreira,Praia de Ribeira Izé,Praia de Bom Viver,Praia de Praia Inhame,Praia de Praia Burra,Praia de Praia Formiga,Praia de Praia Grande,Praia de Praia Abade,Praia de Praia Salgada,Praia de Praia de Santa Catarina,Praia de Praia de São Tomé,Praia de Praia de Santo António,Praia de Praia de Príncipe,Praia de Praia de Sundy,Praia de Praia de Porto Real,Praia de Praia de Neves Ferreira,Praia de Praia de Ribeira Izé,Praia de Praia de Bom Viver"
 },
@@ -6907,7 +6907,7 @@ window.africaNameBases = [
   "i": 200900,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Diego Garcia,Peros Banhos,Salomon,Six Îles,Three Brothers,Eagle Island,Île Boddam,Île Anglaise,Île du Coin,Île Fouquet,Île Poule,Île Vache Marine,Île Yeye,Île Mapou,Île Diable,Île Parasol,Île Longue,Île Bois Mangue,Île Manoël,Île Animaux,Île Lubine,Île Cipaye,Île Carpathe,Île Crabe,Île aux Vaches,Île aux Rats,Île aux Fous,Île aux Goëlettes,Île aux Coco,Île aux Sables,Île aux Bois,Île aux Souimangas,Île aux Frégates,Île aux Mouettes,Île aux Sternes,Île aux Phaetons,Île aux Albatros,Île aux Fouquets,Île aux Moustiques,Île aux Pintades,Île aux Canards,Île aux Sarcelles,Île aux Hérons,Île aux Aigrettes,Île aux Flamants,Île aux Pélicans,Île aux Cormorans,Île aux Frigates"
 },
@@ -6943,7 +6943,7 @@ window.africaNameBases = [
   "i": 201004,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnrt",
   "m": 0,
   "b": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Bab El Assa,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès,Tlemcen,Maghnia,Hammam Boughrana,Bab El Assa,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès"
 },
