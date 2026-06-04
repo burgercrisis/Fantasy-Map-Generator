@@ -252,7 +252,7 @@ window.europeNameBases = [
   "i": 14,
   "min": 6,
   "max": 13,
-  "d": "",
+  "d": "lr",
   "m": 0.1,
   "b": "3185638,Fier-Çifçi,3185670,3185672,Durrës,3185728,3186084,174875,174895,174979,174991,616052,616062,616250,Masis,616435,616530,616599,616627,616629"
 },
@@ -360,7 +360,7 @@ window.europeNameBases = [
   "i": 89,
   "min": 5,
   "max": 11,
-  "d": "",
+  "d": "cl",
   "m": 0.1,
   "b": "2177576,2177671,Albany Creek,2178208,Maroochydore,2207268,Cheltenham,2207618,Randwick,2208285,Dee Why,2208305,Umina Beach,2208313,6301965,Hervey Bay,6354957,Blue Mountains,6615604,Sydney Central Business District"
 },
@@ -369,7 +369,7 @@ window.europeNameBases = [
   "i": 94,
   "min": 5,
   "max": 11,
-  "d": "",
+  "d": "eos",
   "m": 0.1,
   "b": "7932620,7932622,Balwyn North,7932629,Malvern East,7932638,Brighton East,7932646,Redbank Plains,7932670,Labrador,8012683,8015209,Central Coast,8310663,Endeavour Hills,8347325,Kellyville,8347736,Taylors Lakes"
 },
@@ -4708,7 +4708,7 @@ window.europeNameBases = [
   "i": 200232,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lr",
   "m": 0,
   "b": "Uelen,Lavrentiya,Provideniya,Lorino,Naukan,Nunyamo,Uelkal,Chaplino,Sireniki,Imtuk,Avan,Nutaq,Napaqutaq,Siqlluk,Itygran,Arakamchechen,Yanrakynnot,Mechigmen,Kolyuchin,Inakhpak,Rumilet,Tkachen,Penkigney,Senyavin,Aboleshev,Kygynin,Ergyn,Nunlygran,Nutepenmen,Nuvuqaghmiit,Sighineq,Ungaziq,Qelengay,Teflleq,Wewtengay,Yagrakenutaq,Masiq,Qigi,Pagilleq,Inqetuq,Nashqaq,Qeyuvaggpak,Uuggsit,Yarga,Akhpak"
 },
@@ -4717,7 +4717,7 @@ window.europeNameBases = [
   "i": 200233,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gilnu",
   "m": 0,
   "b": "Sireniki,Imtuk,Ungaziq,Chaplino,Naukan,Lavrentiya,Provideniya,Lorino,Uelen,Avan,Sighineq,Siqlluk,Itygran,Arakamchechen,Mechigmen,Kolyuchin,Penkigney,Yanrakynnot,Nutaq,Napaqutaq,Qelengay,Teflleq,Masiq,Qigi,Inakhpak,Rumilet,Aboleshev,Kygynin,Ergyn,Nunlygran,Nutepenmen,Wewtengay,Yagrakenutaq,Pagilleq,Inqetuq,Nashqaq,Uuggsit,Yarga"
 },
@@ -4726,7 +4726,7 @@ window.europeNameBases = [
   "i": 200234,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "glnu",
   "m": 0,
   "b": "Chaplino,Ungaziq,Sireniki,Naukan,Lavrentiya,Provideniya,Lorino,Uelen,Imtuk,Avan,Savoonga,Gambell,Sivuqaq,Itygran,Arakamchechen,Mechigmen,Kolyuchin,Penkigney,Yanrakynnot,Nutaq,Napaqutaq,Siqlluk,Qelengay,Teflleq,Masiq,Qigi,Inakhpak,Rumilet,Aboleshev,Kygynin,Ergyn,Nunlygran,Nutepenmen,Wewtengay,Yagrakenutaq,Pagilleq,Inqetuq,Nashqaq,Uuggsit,Yarga,Akhpak,Sighineq"
 },
@@ -4735,7 +4735,7 @@ window.europeNameBases = [
   "i": 200644,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "glnou",
   "m": 0,
   "b": "Andi,Gunkha,Gagatl,Ashali,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Bichonni,Rushukha,Tsibilda,Koisu,Botlikh,Tlisi,Chirkata,Gimali,Tsumada,Kvanada,Akhalchi,Sogratl,Oboda,Kizhani,Gakvari,Tindi,Echeda,Aknada,Tissi,Khushet,Goba,Tadiyal,Maali,Khvered,Tlondoda,Gagar,Dzilebki,Koroda,Terek,Ardon,Alagir,Vladikavkaz"
 },
@@ -4744,7 +4744,7 @@ window.europeNameBases = [
   "i": 200645,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ans",
   "m": 0,
   "b": "Bezhta,Tladal,Khasharkhota,Balakuri,Isso,Sinatli,Zhammod,Andzhaga,Kachalay,Tsunta,Koyshula,Shamil,Tindi,Echeda,Aknada,Tissi,Khushet,Goba,Botlikh,Andi,Gagatl,Gunkha,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Ashali,Tlisi,Chirkata,Gimali,Tsumada,Sogratl,Oboda,Kizhani,Gakvari,Dagestan,Makhachkala,Derbent"
 },
@@ -4753,7 +4753,7 @@ window.europeNameBases = [
   "i": 200646,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ms",
   "m": 0,
   "b": "Botlikh,Miarso,Ashino,Chontaul,Ankho,Batlakhatli,Koyshula,Tindi,Echeda,Aknada,Tissi,Khushet,Goba,Andi,Gagatl,Gunkha,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Ashali,Tlisi,Chirkata,Gimali,Tsumada,Sogratl,Oboda,Kizhani,Gakvari,Bezhta,Tladal,Khasharkhota,Balakuri,Isso,Sinatli,Dagestan,Makhachkala,Derbent"
 },
@@ -4762,7 +4762,7 @@ window.europeNameBases = [
   "i": 200647,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Nalchik,Baksan,Prokhladny,Terek,Mozdok,Nartan,Kislovodsk,Piatigorsk,Essentuki,Zheleznovodsk,Cherkessk,Maykop,Adygeisk,Giaginskaya,Khadyzhensk,Apsheronsk,Krasnodar,Armavir,Nevinnomyssk,Stavropol,Georgiyevsk,Budyonnovsk,Blagodarny,Izobilny,Neftekumsk,Kavkazskaya,Ust-Dzheguta,Teberda,Dombay,Elbrus,Cheget,Azau,Terskol,Verkhnyaya Balkariya,Zolskoye,Psygansu,Kashkhatau,Aushiger,Kenzhe,Staraya Krepost,Islamey,Kyzburun"
 },
@@ -4771,7 +4771,7 @@ window.europeNameBases = [
   "i": 200648,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ns",
   "m": 0,
   "b": "Kaitag,Urkarakh,Kara-Kureysh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Turaga,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik"
 },
@@ -4780,7 +4780,7 @@ window.europeNameBases = [
   "i": 200649,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Kubachi,Amuzgi,Shari,Sulevkent,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Turaga,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly"
 },
@@ -4789,7 +4789,7 @@ window.europeNameBases = [
   "i": 200650,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Zugdidi,Poti,Senaki,Martvili,Chkhorotsku,Tsalenjikha,Khobi,Ochamchire,Gali,Gulripshi,Abasha,Nokalakevi,Kveda Nasakirali,Mestia,Lentekhi,Oni,Ambrolauri,Tkibuli,Tskaltubo,Kutaisi,Batumi,Kobuleti,Ozurgeti,Gori,Khashuri,Kareli,Kaspi,Akhaltsikhe,Adigeni,Aspindza,Akhalkalaki,Ninotsminda,Bolnisi,Dmanisi,Tetri Tskaro,Tsalka,Marneuli,Gardabani,Sagarejo,Telavi,Kvareli"
 },
@@ -4834,7 +4834,7 @@ window.europeNameBases = [
   "i": 200655,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Lahıc,Ismailli,Shamakhi,Khachmaz,Guba,Xizi,Zarat,Qonaqkənd,Qusar,Xudat,Derbent,Mərdəkan,Biləcəri,Binəqədi,Qala,Lökbatan,Ramana,Suraxanı,Sabunçu,Bakıxanov,Balaxanı,Bülbülə,Xocəsən,Masazır,Hövsan,Pirşağı,Şüvəlan,Çilov,Nardaran,Qobustan,Göytəpə,Lənkəran,Astara,Masallı,Yardımlı,Cəlilabad,Biləsuvar,Saatlı,Sabirabad,Salyan,Neftçala,Xıllı,Qaracuxur,Göyçay,Ucar"
 },
@@ -4843,7 +4843,7 @@ window.europeNameBases = [
   "i": 200656,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "al",
   "m": 0,
   "b": "Tindi,Idari,Aknada,Echeda,Tissi,Khushet,Goba,Botlikh,Miarso,Ashino,Chontaul,Ankho,Batlakhatli,Andi,Gagatl,Gunkha,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Ashali,Tlisi,Chirkata,Gimali,Tsumada,Sogratl,Oboda,Kizhani,Gakvari,Bezhta,Tladal,Khasharkhota,Dagestan,Makhachkala"
 },
@@ -4852,7 +4852,7 @@ window.europeNameBases = [
   "i": 200657,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Sochi,Tuapse,Gelendzhik,Novorossiysk,Krasnodar,Lazarevskoye,Khosta,Matsesta,Dagomys,Loo,Adler,Kudepsta,Mzymta,Psou,Shahe,Khamysh,AkhinTam,Akhun,Pehu,Psesh,Psezuapse,Bziy,Nabze,Hadzhyko,Shakhe,Kodori,Bzyb,Gumista,Psirtskha,Mokvi,Otkhara,Duripsh,Lykhny,Gudauta,Sukhum,Gagra,Pitsunda,Bichvinta,Gulripshi,Ochamchire"
 },
@@ -4861,7 +4861,7 @@ window.europeNameBases = [
   "i": 200727,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "os",
   "m": 0,
   "b": "Ural,Ob,Yenisei,Lena,Kolyma,Anadyr,Kamchatka,Chukotka,Taimyr,Yamal,Gydan,Taz,Pur,Nadym,Salekhard,Khanty-Mansiysk,Tomsk,Novosibirsk,Omsk,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Arkhangelsk,Vologda,Kostroma,Yaroslavl,Nizhny Novgorod,Kazan,Ufa,Chelyabinsk,Tyumen,Surgut,Nizhnevartovsk,Nefteyugansk,Khanty,Mansi,Nenets,Selkup,Ket,Evenk,Yukaghir,Chukchi,Koryak,Itelmen"
 },
@@ -4879,7 +4879,7 @@ window.europeNameBases = [
   "i": 200729,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aiklnptuy",
   "m": 0,
   "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Syktyvkar,Yekaterinburg,Tyumen,Tobolsk,Tomsk,Omsk,Novosibirsk,Barnaul,Kemerovo,Novokuznetsk,Abakan,Kyzyl,Minusinsk,Achinsk,Krasnoyarsk"
 },
@@ -4897,7 +4897,7 @@ window.europeNameBases = [
   "i": 200731,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Stony Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Khatanga,Volochanka,Ust-Port,Kayerkan,Talnakh,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk,Yenisey,Mana,Kan,Biriusa,Tagul"
 },
@@ -4906,7 +4906,7 @@ window.europeNameBases = [
   "i": 200732,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Kiruna,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -4915,7 +4915,7 @@ window.europeNameBases = [
   "i": 200733,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Kiruna,Gllivare,Jokkmokk,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Boden,Lule,Pite,Arjeplog,Arvidsjaur,Lycksele,Vilhelmina,Strmsund,Dorotea,Sele,Sorsele,Mala,Norsj,Skellefte,Byske,Lvanger,Burtrsk,Jrn,Bastutrsk,Vannas,Ume,Holmsund,Tfte,Svar,Robertsfors,Bure,Boliden"
 },
@@ -4924,7 +4924,7 @@ window.europeNameBases = [
   "i": 200734,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kln",
   "m": 0,
   "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Syktyvkar,Yekaterinburg,Tyumen,Tobolsk,Tomsk,Omsk,Novosibirsk,Barnaul,Kemerovo,Novokuznetsk,Abakan,Kyzyl,Minusinsk,Achinsk,Krasnoyarsk"
 },
@@ -4951,7 +4951,7 @@ window.europeNameBases = [
   "i": 200737,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Khatanga,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
 },
@@ -4960,7 +4960,7 @@ window.europeNameBases = [
   "i": 200738,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Syktyvkar,Yekaterinburg,Tyumen,Tobolsk,Tomsk,Omsk,Novosibirsk,Barnaul,Kemerovo,Novokuznetsk,Abakan,Kyzyl,Minusinsk,Achinsk,Krasnoyarsk"
 },
@@ -4978,7 +4978,7 @@ window.europeNameBases = [
   "i": 200740,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -4987,7 +4987,7 @@ window.europeNameBases = [
   "i": 200741,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -4996,7 +4996,7 @@ window.europeNameBases = [
   "i": 200742,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5005,7 +5005,7 @@ window.europeNameBases = [
   "i": 200743,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5014,7 +5014,7 @@ window.europeNameBases = [
   "i": 200744,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Petrozavodsk,Kondopoga,Medvezhyegorsk,Segezha,Pitkyaranta,Sortavala,Lahdenpohja,Imatra,Joutseno,Lappeenranta,Savonlinna,Varkaus,Pieksmki,Jyvskyl,Mikkeli,Heinola,Sysm,Hmeenlinna,Lahti,Kouvola,Kotka,Hamina,Loviisa,Porvoo,Lohja,Hyvink,Northern Ludic,Kuuarv Ludic"
 },
@@ -5023,7 +5023,7 @@ window.europeNameBases = [
   "i": 200745,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "eiknopu",
   "m": 0,
   "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Syktyvkar,Yekaterinburg,Tyumen,Tobolsk,Tomsk,Omsk,Novosibirsk,Barnaul,Kemerovo,Novokuznetsk,Abakan,Kyzyl,Minusinsk,Achinsk,Krasnoyarsk"
 },
@@ -5041,7 +5041,7 @@ window.europeNameBases = [
   "i": 200747,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Syktyvkar,Yekaterinburg,Tyumen,Tobolsk,Tomsk,Omsk,Novosibirsk,Barnaul,Kemerovo,Novokuznetsk,Abakan,Kyzyl,Minusinsk,Achinsk,Krasnoyarsk"
 },
@@ -5077,7 +5077,7 @@ window.europeNameBases = [
   "i": 200751,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kp",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5086,7 +5086,7 @@ window.europeNameBases = [
   "i": 200752,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haapsalu,Paide,Tapa,Plva,Rapla,Saaremaa,Hiiumaa,Muhu,Vormsi,Kihnu,Manilaid,Ruhnu,Vinameri,Peipsiarne,Narva-Joesuu,Srve,Krdla,Phalepa,Kina,Emmaste,Orissaare"
 },
@@ -5095,7 +5095,7 @@ window.europeNameBases = [
   "i": 200753,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ailmnsu",
   "m": 0,
   "b": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5104,7 +5104,7 @@ window.europeNameBases = [
   "i": 200754,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5113,7 +5113,7 @@ window.europeNameBases = [
   "i": 200755,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Rostov,Yaroslavl,Kostroma,Ivanovo,Vologda,Kineshma,Galich,Chukhloma,Soligalich,Buy,Kologriv,Manturovo,Makaryev,Nerekhta,Kadyysky,Parfenyevo,Neja,Ostrovskoye,Krasnoye-na-Volge,Privolzhsk,Furmanov,Teykovo,Gavrilov-Yam,Nekrasovskoye,Borisoglebsky,Tutayev,Danilov,Lyubim,Prechistoye"
 },
@@ -5122,7 +5122,7 @@ window.europeNameBases = [
   "i": 200756,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "y",
   "m": 0,
   "b": "Kasimov,Sasovo,Yelatma,Vladimir,Murom,Gorokhovets,Sobinka,Kovrov,Sudogda,Melenki,Kameshkovo,Vyazniki,Kolchugino,Alexandrov,Kirzhach,Pokrov,Petushki,Kosteryovo,Strunino,Lakinsk"
 },
@@ -5140,7 +5140,7 @@ window.europeNameBases = [
   "i": 200758,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5167,7 +5167,7 @@ window.europeNameBases = [
   "i": 200761,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ailmnsu",
   "m": 0,
   "b": "Murom,Vyazniki,Gorokhovets,Kasimov,Sasovo,Yelatma,Vladimir,Sobinka,Kovrov,Sudogda,Melenki,Kameshkovo,Kolchugino,Alexandrov,Kirzhach,Pokrov,Petushki,Kosteryovo,Strunino,Lakinsk"
 },
@@ -5212,7 +5212,7 @@ window.europeNameBases = [
   "i": 200766,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haapsalu,Paide,Tapa,Plva,Rapla,Saaremaa,Hiiumaa,Muhu,Vormsi,Kihnu,Manilaid,Ruhnu,Vinameri,Peipsiarne,Narva-Joesuu,Srve,Krdla,Phalepa,Kina,Emmaste,Orissaare"
 },
@@ -5221,7 +5221,7 @@ window.europeNameBases = [
   "i": 200767,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ailmnsu",
   "m": 0,
   "b": "Oulu,Kemi,Tornio,Rovaniemi,Kemijrvi,Salla,Kuusamo,Pudasjrvi,Taivalkoski,Posio,Ranua,Yli-Ii,Ii,Haukipudas,Kiiminki,Ylikiiminki,Pyhjrvi,Haapajrvi,Nivala,Sievi,Ylivieska,Oulainen,Kalajoki,Himanka,Kokkola,Kannus,Toholampi,Kaustinen,Halsua,Veteli,Evijrvi,Kortesjrvi,Lappajrvi,Alajrvi,Soini,htri,Saarijrvi,Kyyjrvi,Karstula,Kivijrvi,Kannonkoski,Pihtipudas,Keitele,Vesanto"
 },
@@ -5230,7 +5230,7 @@ window.europeNameBases = [
   "i": 200768,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aiklnpuy",
   "m": 0,
   "b": "Petrozavodsk,Kondopoga,Medvezhyegorsk,Segezha,Pitkyaranta,Sortavala,Lahdenpohja,Imatra,Joutseno,Lappeenranta,Savonlinna,Varkaus,Pieksmki,Jyvskyl,Mikkeli,Heinola,Sysm,Hmeenlinna,Lahti,Kouvola,Kotka,Hamina,Loviisa,Porvoo,Lohja,Hyvink"
 },
@@ -5239,7 +5239,7 @@ window.europeNameBases = [
   "i": 200769,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "eiknop",
   "m": 0,
   "b": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lappeenranta,Mikkeli,Savonlinna,Kouvola,Hmeenlinna,Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomantsi,Lieksa"
 },
@@ -5248,7 +5248,7 @@ window.europeNameBases = [
   "i": 200770,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Babayevo,Vologda,Cherepovets,Kirillov,Belozersk,Pudozh,Medvezhyegorsk,Segezha,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Imatra,Joutseno,Lappeenranta,Savonlinna,Varkaus,Pieksmki,Jyvskyl,Mikkeli,Heinola,Sysm"
 },
@@ -5257,7 +5257,7 @@ window.europeNameBases = [
   "i": 200771,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "eklnp",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5284,7 +5284,7 @@ window.europeNameBases = [
   "i": 200774,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5293,7 +5293,7 @@ window.europeNameBases = [
   "i": 200775,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Kudymkar,Gaynsk,Yurla,Kosa,Kochevo,Yusva,Leninsk,Sepol,Pozhva,Maykor,Nytva,Okhansk,Ochyor,Perm,Berezniki,Solikamsk,Kungur,Chusovoy,Lysva,Gremyachinsk,Aleksandrovsk,Kizel,Gubakha,Krasnokamsk,Dobryanka,Polazna,Usva,Vsevolodo-Vilva,Yayva,Yugo-Kamsky,Skalny,Shirokovsky,Ust-Kachka,Kueda,Bolshaya Sosnova,Zvyozdny,Chernushka,Barda,Kuyeda,Orda"
 },
@@ -5311,7 +5311,7 @@ window.europeNameBases = [
   "i": 200777,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kp",
   "m": 0,
   "b": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lappeenranta,Mikkeli,Savonlinna,Kouvola,Hmeenlinna,Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomantsi,Lieksa"
 },
@@ -5320,7 +5320,7 @@ window.europeNameBases = [
   "i": 200778,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5329,7 +5329,7 @@ window.europeNameBases = [
   "i": 200779,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5356,7 +5356,7 @@ window.europeNameBases = [
   "i": 200782,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Helsinki,Espoo,Vantaa,Kauniainen,Sipoo,Pornainen,Mntsala,Pukkila,Askola,Myrskyl,Lapinjrvi,Liljendal,Loviisa,Ruotsinpyht,Pyht,Kotka,Hamina,Vehkalahti,Miehikkala,Virolahti,Luumki,Lemi,Taipalsaari,Ruokolahti,Parikkala,Saari,Uukuniemi,Kitee,Tohmajrvi,Ilomantsi,Lieksa"
 },
@@ -5365,7 +5365,7 @@ window.europeNameBases = [
   "i": 200783,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aeikmou",
   "m": 0,
   "b": "Budapest,Debrecen,Szeged,Miskolc,Pcs,Gyr,Nyregyhza,Kecskemt,Szkesfehvar,Szombathely,Szolnok,Tatabnya,Kaposvr,Veszprm,Bkscsaba,Zalaegerszeg,Eger,Sopron,Nagykanizsa,Dnjvros,Hodmezvsarhely,Dunakeszi,Cegld,Vc,Gdll,Szentendre,Esztergom,Komrom,Gyula,Orohza,Kazincbarcika,Salgtrjn,Vrpalota,Ppa,Kiskunflegyhza,Baja,Kiskunhalas,Mezksd,Szarvas,Bks"
 },
@@ -5374,7 +5374,7 @@ window.europeNameBases = [
   "i": 200784,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Saransk,Ardatov,Insar,Kovylkino,Ruzayevka,Zubova Polyana,Chamzinka,Romodanovo,Kadoshkino,Lyambir,Atyashevo,Torbeyevo,Yelniki,Krasnoslobodsk,Temnikov,Barashevo,Atyuryevo,Dubyonki,Yavas"
 },
@@ -5392,7 +5392,7 @@ window.europeNameBases = [
   "i": 200786,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Kolka,Mazirbe,Skrags,Vaide,Pitrags,Kosrags,Lielirbe,Miktornis,Salaca,Riga,Dundaga,Talsi,Tukums,Jurmala,Sigulda,Cesis,Valmiera,Limbazi,Aizkraukle,Jekabpils,Ludza,Rezekne,Valka,Smiltene,Strenci,Aluksne,Gulbene,Madona,Cesvaine,Lubna,Varaklani,Vilaka,Baltinava,Karsava,Zilupe"
 },
@@ -5410,7 +5410,7 @@ window.europeNameBases = [
   "i": 200788,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5419,7 +5419,7 @@ window.europeNameBases = [
   "i": 200789,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5428,7 +5428,7 @@ window.europeNameBases = [
   "i": 200790,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Kiruna,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5437,7 +5437,7 @@ window.europeNameBases = [
   "i": 200791,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haapsalu,Paide,Tapa,Plva,Rapla,Saaremaa,Hiiumaa,Muhu,Vormsi,Kihnu,Manilaid,Ruhnu,Vinameri,Peipsiarne,Narva-Joesuu,Srve,Krdla,Phalepa,Kina,Emmaste,Orissaare"
 },
@@ -5446,7 +5446,7 @@ window.europeNameBases = [
   "i": 200792,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ailmnsu",
   "m": 0,
   "b": "Helsinki,Turku,Tampere,Oulu,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Rovaniemi,Kemi,Tornio,Kotka,Lappeenranta,Mikkeli,Savonlinna,Kouvola,Hmeenlinna,Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomantsi,Lieksa"
 },
@@ -5455,7 +5455,7 @@ window.europeNameBases = [
   "i": 200793,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk,Orodezhi,Soikkola"
 },
@@ -5464,7 +5464,7 @@ window.europeNameBases = [
   "i": 200794,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kp",
   "m": 0,
   "b": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Kiruna,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5473,7 +5473,7 @@ window.europeNameBases = [
   "i": 200795,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Sevettajrvi,Nellim,Inari,Ivalo,Saariselk,Utsjoki,Nuorgam,Ntm,Kautokeino,Karasjok,Skolt,Hetta,Jukkasjrvi,Gllivare,Kiruna,Jokkmokk,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Karesuando,Pajala,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5482,7 +5482,7 @@ window.europeNameBases = [
   "i": 200796,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk,Orodezhi,Soikkola"
 },
@@ -5491,7 +5491,7 @@ window.europeNameBases = [
   "i": 200797,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kp",
   "m": 0,
   "b": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Kiruna,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5500,7 +5500,7 @@ window.europeNameBases = [
   "i": 200798,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Tallinn,Tartu,Narva,Prnu,Viljandi,Rakvere,Kohtla-Jrve,Maardu,Sillamae,Kuressaare,Valga,Vru,Jgeva,Haapsalu,Paide,Tapa,Plva,Rapla,Saaremaa,Hiiumaa,Muhu,Vormsi,Kihnu,Manilaid,Ruhnu,Vinameri,Peipsiarne,Narva-Joesuu,Srve,Krdla,Phalepa,Kina,Emmaste,Orissaare"
 },
@@ -5509,7 +5509,7 @@ window.europeNameBases = [
   "i": 200799,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ailmnsu",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5527,7 +5527,7 @@ window.europeNameBases = [
   "i": 200801,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Hmeenlinna,Lahti,Kouvola,Hollola,Orimattila,Artjrvi,Asikkala,Hattula,Hauho,Jankkala,Krkl,Lammi,Nastola,Padasjoki,Sysm,Tuulos,Vanaja,Vesilahti,Ypj,Heinol,Jms,Jmsnkoski,Kuhmoinen,Luhanka,Orivesi,Toivakka,Kangasala,Haukkavaara,Lempal,Nokia,Pirkkala,Tampere,Yljrvi,Hmeenkoski,Kylmkoski,Luopioinen,Plkne,Urjala,Valkeakoski"
 },
@@ -5536,7 +5536,7 @@ window.europeNameBases = [
   "i": 200802,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aeklmntu",
   "m": 0,
   "b": "Vaasa,Pori,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomantsi,Lieksa,Jyvskyl,Kuopio,Joensuu,Lappeenranta,Mikkeli,Savonlinna,Kouvola,Hmeenlinna,Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo"
 },
@@ -5545,7 +5545,7 @@ window.europeNameBases = [
   "i": 200803,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Lappeenranta,Imatra,Joutseno,Savonlinna,Varkaus,Pieksmki,Jyvskyl,Mikkeli,Heinola,Sysm,Hmeenlinna,Lahti,Kouvola,Kotka,Hamina,Loviisa,Porvoo,Lohja,Hyvink,Nurmijrvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Kokkola,Pietarsaari,Kajaani,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajrvi,Ilomantsi,Lieksa,Nurmes,Kontiolahti,Liperi,Outokumpu,Polvijrvi,Juuka,Rautavaara,Valtimo,Rautjarvi,Tuupovaara,Kiihtelysvaara,Joensuu"
 },
@@ -5554,7 +5554,7 @@ window.europeNameBases = [
   "i": 200804,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aeikmnopsu",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5572,7 +5572,7 @@ window.europeNameBases = [
   "i": 200806,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aekmnopsu",
   "m": 0,
   "b": "Hmeenlinna,Lahti,Kouvola,Hollola,Orimattila,Artjrvi,Asikkala,Hattula,Hauho,Jankkala,Krkl,Lammi,Nastola,Padasjoki,Sysm,Tuulos,Vanaja,Vesilahti,Ypj,Heinol,Jms,Jmsnkoski,Kuhmoinen,Luhanka,Orivesi,Toivakka,Kangasala,Haukkavaara,Lempal,Nokia,Pirkkala,Tampere,Yljrvi,Hmeenkoski,Kylmkoski,Luopioinen,Plkne,Urjala,Valkeakoski"
 },
@@ -5581,7 +5581,7 @@ window.europeNameBases = [
   "i": 200807,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aeklmntu",
   "m": 0,
   "b": "Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Babayevo,Vologda,Cherepovets,Kirillov,Belozersk,Pudozh,Medvezhyegorsk,Segezha,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Imatra,Joutseno,Lappeenranta,Savonlinna,Varkaus,Pieksmki,Jyvskyl,Mikkeli,Heinola,Sysm"
 },
@@ -5590,7 +5590,7 @@ window.europeNameBases = [
   "i": 200808,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "eklnp",
   "m": 0,
   "b": "Arjeplog,Arvidsjaur,Jokkmokk,Gllivare,Kiruna,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5599,7 +5599,7 @@ window.europeNameBases = [
   "i": 200809,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5617,7 +5617,7 @@ window.europeNameBases = [
   "i": 200811,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5635,7 +5635,7 @@ window.europeNameBases = [
   "i": 200813,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ailmnsu",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5653,7 +5653,7 @@ window.europeNameBases = [
   "i": 200815,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Lovozero,Revda,Kildinstroy,Teriberka,Ostrovnoy,Gremikha,Pechenga,Zapolyarny,Nikel,Kola,Murmansk,Severomorsk,Polyarnye Zori,Monchegorsk,Olenegorsk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh,Vytegra,Podporozhye,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki"
 },
@@ -5671,7 +5671,7 @@ window.europeNameBases = [
   "i": 200817,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5680,7 +5680,7 @@ window.europeNameBases = [
   "i": 200818,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Tornio,Haparanda,Pajala,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Helsinki,Turku,Tampere,Jyvskyl,Kuopio,Lahti,Pori,Joensuu,Vaasa,Kemi,Kotka,Lappeenranta"
 },
@@ -5689,7 +5689,7 @@ window.europeNameBases = [
   "i": 200819,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aelptu",
   "m": 0,
   "b": "Dikson,Kharuta,Bugrino,Varandey,Tazovsky,Nadyms,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Gyda,Antipayuta,Nakhodka,Taz,Pur,Salekhard,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol"
 },
@@ -5698,7 +5698,7 @@ window.europeNameBases = [
   "i": 200820,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Kiruna,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5707,7 +5707,7 @@ window.europeNameBases = [
   "i": 200821,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Turku,Kaarina,Laitila,Loimaa,Naantali,Paimio,Pargas,Raisio,Salo,Somero,Uusikaupunki,Lieto,Masku,Mynämäki,Rusko,Nousiainen,Aura,Sauvo,Koski,Vehmaa,Pyhäranta,Marttila,Taivassalo,Oripää,Kustavi,Kimitoön,Pöytyä,Kiikala,Utö,Archipelago Sea"
 },
@@ -5716,7 +5716,7 @@ window.europeNameBases = [
   "i": 200822,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aistu",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5725,7 +5725,7 @@ window.europeNameBases = [
   "i": 200823,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Jokkmokk,Gllivare,Pajala,Karesuando,Jukkasjrvi,Tarend,Overkalix,Kalix,Haparanda,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Kiruna,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5734,7 +5734,7 @@ window.europeNameBases = [
   "i": 200824,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmtu",
   "m": 0,
   "b": "Ume,Vannas,Robertsfors,Nordmaling,Bjurholm,Vindeln,Sele,Sorsele,Mala,Norsj,Kautokeino,Karasjok,Inari,Utsjoki,Skolt,Nellim,Sevettajrvi,Hetta,Jukkasjrvi,Gllivare,Kiruna,Jokkmokk,Arjeplog,Troms,Alta,Hammerfest,Vads,Vard,Tana,Porsanger,Lakselv,Nuorgam,Ntm,Karesuando,Pajala,Muonio,Enontekio,Kittil,Sodankyl,Rovaniemi,Oulu,Kuusamo,Salla,Ivalo,Saariselk,Levitunturi,Ksivarsi,Halti,Korvatunturi,Ounasvaara,Pyhkero"
 },
@@ -5743,7 +5743,7 @@ window.europeNameBases = [
   "i": 200825,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aklmntu",
   "m": 0,
   "b": "Uray,Nyagan,Kogalym,Langepas,Megion,Nizhnevartovsk,Nefteyugansk,Surgut,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky,Khanty-Mansiysk,Tyumen,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Kostroma,Vologda,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Segezha,Medvezhyegorsk,Pudozh"
 },
@@ -5779,7 +5779,7 @@ window.europeNameBases = [
   "i": 200829,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Yenisei,Lena,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Khatanga,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk,Yenisey,Mana,Kan,Biriusa,Tagul,Ural,Ob"
 },
@@ -5788,7 +5788,7 @@ window.europeNameBases = [
   "i": 200830,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Ural,Ob,Yenisei,Lena,Kolyma,Anadyr,Kamchatka,Chukotka,Taimyr,Yamal,Gydan,Taz,Pur,Nadym,Salekhard,Khanty-Mansiysk,Tomsk,Novosibirsk,Omsk,Tobolsk,Yekaterinburg,Perm,Syktyvkar,Arkhangelsk,Vologda,Kostroma,Yaroslavl,Nizhny Novgorod,Kazan,Ufa,Chelyabinsk,Tyumen,Surgut,Nizhnevartovsk,Nefteyugansk,Khanty,Mansi,Nenets,Selkup,Ket,Evenk,Yukaghir,Chukchi,Koryak,Itelmen"
 },
@@ -5860,7 +5860,7 @@ window.europeNameBases = [
   "i": 200838,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5869,7 +5869,7 @@ window.europeNameBases = [
   "i": 200839,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Budapest,Debrecen,Szeged,Miskolc,Pcs,Gyr,Nyregyhza,Kecskemt,Szkesfehvar,Szombathely,Szolnok,Tatabnya,Kaposvr,Veszprm,Bkscsaba,Zalaegerszeg,Eger,Sopron,Nagykanizsa,Dnjvros,Hodmezvsarhely,Dunakeszi,Cegld,Vc,Gdll,Szentendre,Esztergom,Komrom,Gyula,Orohza,Kazincbarcika,Salgtrjn,Vrpalota,Ppa,Kiskunflegyhza,Baja,Kiskunhalas,Mezksd,Szarvas,Bks"
 },
@@ -5878,7 +5878,7 @@ window.europeNameBases = [
   "i": 200840,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lp",
   "m": 0,
   "b": "Helsinki,Espoo,Vantaa,Kauniainen,Kirkkonummi,Vihti,Nurmijrvi,Tuusula,Kerava,Sipoo,Pornainen,Mntsala,Pukkila,Askola,Myrskyl,Lapinjrvi,Liljendal,Loviisa,Ruotsinpyht,Pyht,Kotka,Hamina,Raseborg,Hanko,Ing,Siuntio,Salo,Somero,Paimio,Kaarina,Lieto,Masku,Nousiainen,Pyty,Rusko,Sauvo,Turku,Naantali,Raisio"
 },
@@ -5887,7 +5887,7 @@ window.europeNameBases = [
   "i": 200841,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aikmou",
   "m": 0,
   "b": "Kingisepp,Ivangorod,Volkhov,Tikhvin,Kirishi,Vyborg,Sosnovy Bor,Luga,Slantsy,Boksitogorsk,Podporozhye,Lodeynoye Pole,Pikalyovo,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Svetogorsk,Primorsk,Vysotsk"
 },
@@ -5896,7 +5896,7 @@ window.europeNameBases = [
   "i": 200842,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5905,7 +5905,7 @@ window.europeNameBases = [
   "i": 200843,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5914,7 +5914,7 @@ window.europeNameBases = [
   "i": 200844,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5923,7 +5923,7 @@ window.europeNameBases = [
   "i": 200845,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Pori,Rauma,Ulvila,Harjavalta,Kokemki,Huittinen,Sastamala,Ikaalinen,Kihni,Parkano,Jmijrvi,Kankaanp,Karvia,Kullaa,Lavia,Merikarvia,Nakkila,Pomarkku,Siikainen,Sakyl,Vampula"
 },
@@ -5932,7 +5932,7 @@ window.europeNameBases = [
   "i": 200846,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aiklt",
   "m": 0,
   "b": "Yoshkar-Ola,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Volga"
 },
@@ -5941,7 +5941,7 @@ window.europeNameBases = [
   "i": 200847,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Tazovsky,Nadyms,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Gyda,Antipayuta,Nakhodka,Dikson,Kharuta,Bugrino,Varandey,Taz,Pur,Salekhard,Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Raduzhny,Uray,Nyagan,Kogalym,Pyt-Yakh,Pokachi,Igrim,Beryozovo,Shuryshkary,Oktyabrskoye,Kondinskoye,Mortka,Saranpaul,Nyaksimvol,Vanzhil,Vysoky,Polnovat,Tegi,Kazymsky"
 },
@@ -5950,7 +5950,7 @@ window.europeNameBases = [
   "i": 200848,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Syktyvkar,Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Kosa,Yarega,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Yamburg,Novy Port,Mys Kamennyy,Urengoy,Nadym,Tazovsky,Gyda,Antipayuta,Nakhodka,Dikson"
 },
@@ -5959,7 +5959,7 @@ window.europeNameBases = [
   "i": 200849,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ny",
   "m": 0,
   "b": "Toulouse,Montpellier,Nmes,Marseille,Nice,Perpignan,Montauban,Albi,Carcassonne,Narbonne,Aas,Luchon,Saint-Bat,Bagnres-de-Luchon,Saint-Lary-Soulan,Arreau,Avezac-Prat-Lahitte,Labassre,Lannemezan,Castillon-en-Couserans,Saint-Girons,Aulus-les-Bains,Auzat,Vicdessos,Tarascon-sur-Arige,Foix,Pamiers,Mirepoix,Lavelanet,Blesta,Quillan,Espraza,Limoux,Bziers,St,Arles,Avignon,Aix-en-Provence,Gap,Digne,Pau,Tarbes,Lourdes"
 },
@@ -5968,7 +5968,7 @@ window.europeNameBases = [
   "i": 200850,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "alnrst",
   "m": 0,
   "b": "Seville,Mlaga,Crdoba,Granada,Almera,Huelva,Jan,Antequera,Marbella,Jerez,Rota,El Puerto,Sanlcar,Chiclana,Algeciras,Roquetas,Motril,beda,Baeza,cija,Osuna,Estepa,Priego,Lucena,Puerto Real,Lepe,Ayamonte,Isla Cristina,Arcos,Medina Sidonia,Vejer,Tarifa,Conil,Zahara,Olvera,Setenil,Grazalema,Aracena"
 },
@@ -5977,7 +5977,7 @@ window.europeNameBases = [
   "i": 200851,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "London,York,Canterbury,Winchester,Durham,Lincoln,Norwich,Exeter,Hereford,Worcester,Gloucester,Chester,Shrewsbury,Stafford,Lichfield,Coventry,Bath,Salisbury,Wells,Ripon,Beverley,Whitby,Glastonbury,Rievaulx,Fountains"
 },
@@ -5986,7 +5986,7 @@ window.europeNameBases = [
   "i": 200852,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "fl",
   "m": 0,
   "b": "Pau,Oloron-Sainte-Marie,Orthez,Monein,Navarrenx,Salies-de-Brn,Lembeye,Morlas,Gan,Boeil-Bezing,Abos,Artix,Bsingrand,Cardesse,Casttis,Cuqueron,Doazon,Gurs,Lacommande,Lagor,Lahourcade,Lannepla,Lons,Lucq-de-Brn,Maslacq,Mazres-Lezons,Mourenx,Nabas,Navailles-Angos,Ogenne-Camptort,Os-Marsillon,Pardies,Piets-Plasence-Moustrou,Poey-de-Lescar,Prechacq-Navarrenx,Rontignon,Saint-Boes,Saint-Faust,Saint-Girons-en-Brn,Saint-Pd-de-Lren,Sallespisse,Sault-de-Navailles,Sauvagnon,Sby,Siros,Sus,Uzein,Viellenave-d'Arthez,Viellesgure"
 },
@@ -5995,7 +5995,7 @@ window.europeNameBases = [
   "i": 200853,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lmnrst",
   "m": 0,
   "b": "Milan,Brescia,Monza,Bergamo,Como,Varese,Pavia,Cremona,Mantua,Lecco,Lodi,Sondrio,Vigevano,Busto Arsizio,Legnano,Gallarate,Rho,Paderno Dugnano,Cinisello Balsamo,Sesto San Giovanni,Lissone,Desio,Parabiago,Cassano Magnago,Tradate,Saronno"
 },
@@ -6004,7 +6004,7 @@ window.europeNameBases = [
   "i": 200854,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "clns",
   "m": 0,
   "b": "Milan,Brescia,Monza,Bergamo,Como,Varese,Pavia,Cremona,Mantua,Lecco,Lodi,Sondrio,Vigevano,Busto Arsizio,Legnano,Gallarate,Rho,Paderno Dugnano,Cinisello Balsamo,Sesto San Giovanni,Lissone,Desio,Parabiago,Cassano Magnago,Tradate,Saronno"
 },
@@ -6013,7 +6013,7 @@ window.europeNameBases = [
   "i": 200855,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "clns",
   "m": 0,
   "b": "Madrid,Toledo,Segovia,vila,Burgos,Valladolid,Soria,Palencia,Len,Zamora,Salamanca,Ciudad Real,Cuenca,Guadalajara,Siguenza,Medina del Campo,Aranda,Lerma,Sepulveda,Pedraza,Riaza,Aylln,Madrigal,Tordesillas,Almazn,Berlanga,Atienza,Molina,Medinaceli,Calatayud"
 },
@@ -6022,7 +6022,7 @@ window.europeNameBases = [
   "i": 200856,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Cceres,Badajoz,Mrida,Plasencia,Trujillo,Almendralejo,Don Benito,Villanueva de la Serena,Zafra,Monesterio,Hornachos,Llerena,Azuaga,Fuente de Cantos,Montemn,Segura de Len,Calera de Leon,Fregenal de la Sierra,Higuera la Real,Oliva de la Frontera,Puebla de Sancho Prez,Salvaleon,Valle de la Serena,Villalba de los Barros,Zarza-Capilla,Alburquerque,Alconchel,Almendral,Barcarrota,Cheles,Eljas,Fuentes de Len,Herrera del Duque,Jerez de los Caballeros,Oliva de Mrida,Puebla de Obando,Ribera del Fresno,Salvatierra de los Barros,Siruela,Solana de los Barros,Torre de Miguel Sesmero,Torremayor,Usagre,Valdecaballeros,Valdelacalzada,Valverde de Burguillos,Valverde de la Vera,Valverde de Legans,Valverde de Mrida,Villanueva del Fresno,Zarza de Granadilla"
 },
@@ -6031,7 +6031,7 @@ window.europeNameBases = [
   "i": 200857,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "clr",
   "m": 0,
   "b": "Milan,Brescia,Monza,Bergamo,Como,Varese,Pavia,Cremona,Mantua,Lecco,Lodi,Sondrio,Vigevano,Busto Arsizio,Legnano,Gallarate,Rho,Paderno Dugnano,Cinisello Balsamo,Sesto San Giovanni,Lissone,Desio,Parabiago,Cassano Magnago,Tradate,Saronno"
 },
@@ -6040,7 +6040,7 @@ window.europeNameBases = [
   "i": 200858,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "clns",
   "m": 0,
   "b": "Bucharest,Cluj-Napoca,Timioara,Iai,Constana,Craiova,Braul,Galaoi,Ploieti,Oradea,Brila,Arad,Pitei,Sibiu,Bacu,Trgu Mure,Baia Mare,Buzau,Satu Mare,Botani,Rmnicu Vlcea,Drobeta-Turnu Severin,Focani,Trgovite,Alba Iulia,Giurgiu,Suceava,Vaslui,Bistria,Tulcea,Reita,Slatina,Calafat,Zalu,Sfntu Gheorghe,Turda,Media,Lugoj,Petroani,Trnveni"
 },
@@ -6058,7 +6058,7 @@ window.europeNameBases = [
   "i": 200861,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lnr",
   "m": 0,
   "b": "Reykjavk,Kpavogur,Hafnarfjrur,Akureyri,Reykjanesbr,Garabr,Mosfellsbr,rborg,Akranes,Fjarbygg,Seltjarnarnes,Vestmannaeyjar,Skagafjrur,safjrur,Bolungarvk,Hvsavk,Siglufjrur,Dalvkl,lafsfjrur,Grmsy,Vopnafjrur,Egilsstaair,Seyisfjrur,Borgarfjrur eystri,Neskaupstaaur,Eskifjrur,Reyarfjrur,Fskrfjrur,Stvarfjur,Breiddalsvk,Djpivgur,Hfn,Selfoss,Hveragerair,orlakshfn,Hella,Hvolsvllur,Vk,Kirkjubjarklaustur"
 },
@@ -6067,7 +6067,7 @@ window.europeNameBases = [
   "i": 200862,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "adglns",
   "m": 0,
   "b": "Dublin,Cork,Galway,Limerick,Waterford,Kilkenny,Sligo,Drogheda,Dundalk,Bray,Navan,Ennis,Tralee,Wexford,Letterkenny,Athlone,Mullingar,Clonmel,Arklow,Cobh,Greystones,Naas,Portlaoise,Carlow,Cashel,Ballina,Westport,Tuam,Listowel,Killarney,Enniscorthy,Tipperary,Loughrea,Birr,Portumna,Bundoran,Cahersiveen,Kenmare,Dingle"
 },
@@ -6076,7 +6076,7 @@ window.europeNameBases = [
   "i": 200863,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aelnprt",
   "m": 0,
   "b": "Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Catania,Bari,Venice,Verona,Messina,Padua,Trieste,Brescia,Parma,Taranto,Modena,Reggio Calabria,Reggio Emilia,Perugia,Livorno,Ravenna,Cagliari,Foggia,Rimini,Salerno,Ferrara,Sassari,Latina,Giugliano,Monza,Syracuse,Pescara,Bergamo,Forl,Trento,Vicenza,Terni"
 },
@@ -6085,7 +6085,7 @@ window.europeNameBases = [
   "i": 200865,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "gnrs",
   "m": 0,
   "b": "Bautzen,Cottbus,Hoyerswerda,Weiwasser,Niesky,Grlitz,Zittau,Kamenz,Bischofswerda,Radeberg,Wittichenau,Schirgiswalde,Kirchain,Neugersdorf,Seifhennersdorf,Varnsdorf,Rumburk,Jichn,Chrastava,Cesk Lpa,Dcin,Jablonec,Liberec,Turnov,Mnichovo Hradit,Novy Bor"
 },
@@ -6094,7 +6094,7 @@ window.europeNameBases = [
   "i": 200866,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "nst",
   "m": 0,
   "b": "Rome,Milan,Naples,Turin,Palermo,Genoa,Bologna,Florence,Catania,Bari,Venice,Verona,Messina,Padua,Trieste,Brescia,Parma,Taranto,Modena,Reggio Calabria,Reggio Emilia,Perugia,Livorno,Ravenna,Cagliari,Foggia,Rimini,Salerno,Ferrara,Sassari,Latina,Giugliano,Monza,Syracuse,Pescara,Bergamo,Forl,Trento,Vicenza,Terni"
 },
@@ -6103,7 +6103,7 @@ window.europeNameBases = [
   "i": 200869,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gnrs",
   "m": 0,
   "b": "Kudymkar,Gaynsk,Yurla,Kosa,Kochevo,Yusva,Leninsk,Sepol,Pozhva,Maykor,Nytva,Okhansk,Ochyor,Perm,Berezniki,Solikamsk,Kungur,Chusovoy,Lysva,Gremyachinsk,Aleksandrovsk,Kizel,Gubakha,Krasnokamsk,Dobryanka,Polazna,Usva,Vsevolodo-Vilva,Yayva,Yugo-Kamsky,Skalny,Shirokovsky,Ust-Kachka,Kueda,Bolshaya Sosnova,Zvyozdny,Chernushka,Barda,Kuyeda,Orda"
 },
@@ -6121,7 +6121,7 @@ window.europeNameBases = [
   "i": 200872,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "nps",
   "m": 0,
   "b": "Knigsberg,Elbing,Thorn,Marienburg,Insterburg,Tilsit,Rastenburg,Osterode,Allenstein,Neidenburg,Bartenstein,Lbau,Ragnit,Tapiau,Labiau,Wehlau,Gerdauen,Friedland,Preuisch Eylau,Heilsberg,Mohrungen,Sensburg"
 },
@@ -6130,7 +6130,7 @@ window.europeNameBases = [
   "i": 200873,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Orlans,Blois,Tours,Bourges,Chartres,Chteauroux,Montargis,Pithiviers,Gien,Vierzon,Amboise,Chinon,Loches,Vendme,Romorantin-Lanthenay,La Chtre,Issoudun,Le Blanc,Buzanes,Selles-sur-Cher,Saint-Aignan,Contres,Mareau-aux-Prs,Meung-sur-Loire,Patay,Saint-Pryv-Saint-Mesmin,Saint-Jean-de-la-Ruelle,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Olivet,Saint-Hilaire-Saint-Mesmin,Ingr,Artenay,Chaingy,La Chapelle-Saint-Mesmin,Saint-Ay,Saint-Denis-en-Val"
 },
@@ -6139,7 +6139,7 @@ window.europeNameBases = [
   "i": 200874,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ls",
   "m": 0,
   "b": "Oviedo,Gijn,Avils,Langreo,Mieres,Sama,Luanco,Cangas del Narcea,Cudillero,Llanes,Ribadesella,Villaviciosa,Cangas de Ons,Arriondas,Infiesto,Pola de Lena,Pola de Laviana,Pola de Aller,Moreda,Turon,Riao,Cabaaquinta,Boar,Sahagn,Len,Ponferrada,Astorga,La Baeza,Benavente,Zamora,Salamanca,Ciudad Rodrigo,Alcaices,Puebla de Sanabria"
 },
@@ -6148,7 +6148,7 @@ window.europeNameBases = [
   "i": 200875,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "alr",
   "m": 0,
   "b": "Bialystok,Bielskodlaski,Hajnwwka,Siemiatycze,Wysokie Mazowieckie,Lapy,Bransk,Kleszczele,Czye,Bielsk,Pinsk,Luninets,Stolin,Davyd-Haradok,Turov"
 },
@@ -6157,7 +6157,7 @@ window.europeNameBases = [
   "i": 200876,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "w",
   "m": 0,
   "b": "Lneburg,Ratzeburg,Lbeck,Hamburg,Bardowick,Dahlenburg,Bleckede,Bevensen,Bienenbttel,Rullstorf,Tostedt,Jesteburg,Hanstedt,Asendorf,Salzhausen,Gdenstorf,Barendorf,Harburg,Stelle,Marschacht,Brackel,Buchholz"
 },
@@ -6166,7 +6166,7 @@ window.europeNameBases = [
   "i": 200877,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "hlt",
   "m": 0,
   "b": "Szczecin,Gdansk,Supsk,Koszalin,Sopot,Gdynia,Malbork,Tczew,Wejherowo,Rumia,Reda,Hel,Wladyslawowo,Jastarnia,Kuznica,Chalupy,Krynica Morska,Frombork,Braniewo,Lidzbark Warmiski,Orneta,Pieniezno,Lidzbark,Bartoszyce,Gorowo Ilaweckie,Pisz,Mrgowo,Nidzica,Szczytno,Olsztyn"
 },
@@ -6184,7 +6184,7 @@ window.europeNameBases = [
   "i": 200879,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "ans",
   "m": 0,
   "b": "Pristina,Belgrade,Bucharest,Athens,Sofia,Zagreb,Rome,Milan,Barcelona,Madrid,Paris,Berlin,Vienna,Prague,Warsaw,Kiev,Moscow,Copenhagen,Stockholm,Oslo,Helsinki,Amsterdam,Brussels,London,Dublin,Lisbon,Seville,Valencia,Marseille,Lyon,Cluj-Napoca,Iai,Timioara,Constana"
 },
@@ -6193,7 +6193,7 @@ window.europeNameBases = [
   "i": 200880,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lns",
   "m": 0,
   "b": "Belgrade,Zagreb,Sarajevo,Ljubljana,Split,Rijeka,Novi Sad,Banja Luka,Podgorica,Skopje,Ni,Osijek,Tuzla,Mostar,Zenica,Bijeljina,Prijedor,Trebinje,Dubrovnik,Zadar,ibenik,Pula,Varaadin,Karlovac,Sisak,Slavonski Brod,Vukovar,Cakovec,Koprivnica,Virovitica,Gospi,Knin,Sinj,Imetovo,Makarska,Omi,Solin,Kaštela,Trogir"
 },
@@ -6202,7 +6202,7 @@ window.europeNameBases = [
   "i": 200881,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "a",
   "m": 0,
   "b": "Wrocaw,Opole,Gliwice,Zabrze,Bytom,Rybnik,Ruda lska,Tychy,Dabrowa Gornicza,Chorz,Jastrzbie-Zdrj,Myslowice,Siemianowice lskie,Piekary lskie,Swietochowice"
 },
@@ -6229,7 +6229,7 @@ window.europeNameBases = [
   "i": 200884,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lrs",
   "m": 0,
   "b": "Stockholm,Gothenburg,Malm,Uppsala,Linkping,rebro,Vsteras,Norrkping,Helsingborg,Jnkping,Lund,Ume,Gvle,Boras,Sundsvall,Eskilstuna,Karlstad,Halmstad,Vxj,Lule,Trollhttan,Ostersund,Borlngne,Falun,Kalmar,Kristianstad,Skellefte,Uddevalla,Motala,Varberg,ngelholm,Liding,Tumba"
 },
@@ -6238,7 +6238,7 @@ window.europeNameBases = [
   "i": 200885,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "dlprt",
   "m": 0,
   "b": "Stuttgart,Ulm,Tbingen,Reutlingen,Esslingen,Heilbronn,Ludwigsburg,Gppingen,Aalen,Schwbisch Gmnd,Heidenheim,Crailsheim,Bblingen,Leonberg,Sindelfingen,Leinfelden-Echterdingen,Fellbach,Kornwestheim,Ostfildern,Ditzingen,Remseck,Waiblingen,Schwbisch Hall,Ellwangen,Schorndorf,Backnang,Murrhardt,Gaildorf,Gerabronn,Kirchheim,Lorch,Welzheim"
 },
@@ -6247,7 +6247,7 @@ window.europeNameBases = [
   "i": 200886,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "abhlnprst",
   "m": 0,
   "b": "Stockholm,Gothenburg,Malm,Uppsala,Linkping,rebro,Vsteras,Norrkping,Helsingborg,Jnkping,Lund,Ume,Gvle,Boras,Sundsvall,Eskilstuna,Karlstad,Halmstad,Vxj,Lule,Trollhttan,Ostersund,Borlngne,Falun,Kalmar,Kristianstad,Skellefte,Uddevalla,Motala,Varberg,ngelholm,Liding,Tumba"
 },
@@ -6256,7 +6256,7 @@ window.europeNameBases = [
   "i": 200887,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "dlprt",
   "m": 0,
   "b": "Leipzig,Dresden,Chemnitz,Zwickau,Plauen,Grlitz,Freiberg,Meissen,Torgau,Bautzen,Grimma,Delitzsch,Eilenburg,Borna,Riesa,Groitzsch,Dbeln,Oschatz,Mugeln,Nossen,Wurzen,Leisnig,Lbau,Bischofswerda,Kamenz,Radeberg,Ottewig,Wilkau-HaKirchberg,Crimmitschau,Werdau,Reichenbach,Glauchau,Hohenstein-Ernstthal,Lugau,Stollberg,Zsch"
 },
@@ -6265,7 +6265,7 @@ window.europeNameBases = [
   "i": 200888,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lmst",
   "m": 0,
   "b": "Mariupol,Donetsk,Luhansk,Zaporizhzhia,Dnipro,Kharkiv,Odesa,Kryvyi Rih,Mykolaiv,Vinnytsia,Poltava,Kropyvnytskyi,Chernihiv,Sumy,Zhytomyr,Khmelnytskyi,Ternopil,Ivano-Frankivsk,Uzhhorod,Chernivtsi,Rivne,Lutsk,Bila Tserkva,Sevastopol,Kerch,Yalta,Simferopol,Feodosiak,Yevpatoria,Alushta,Sudak"
 },
@@ -6274,7 +6274,7 @@ window.europeNameBases = [
   "i": 200889,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "hn",
   "m": 0,
   "b": "Lyon,Grenoble,Saint-tienne,Chambry,Annecy,Valence,Bourg-en-Bresse,Ambrieu-en-Bugey,Oyonnax,Vienne,Roanne,Montbrison,Riom,Thiers,Le Puy-en-Velay,Aurillac,Moulins,Vichy,Cusset,Gannat"
 },
@@ -6283,7 +6283,7 @@ window.europeNameBases = [
   "i": 200890,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lns",
   "m": 0,
   "b": "Zermatt,Saas-Fees,Evolne,Alagna Valsesia,Rima San Giuseppe,Carcano,Rimella,Riva Valdobbia,Mollia,Boccioleto,Campertogno,Pila,Gressoney-Saint-Jean,Gressoney-La-Trinit,Issime,Lillianes,Perloz,Carema,Quinet,Settimo Vittone,Donnas,Pont-Saint-Martin,Oyace,Valprato Soana,Allein,Antey-Saint-Andr,Avise,Chambave,Chamois,Champdepraz,Champorcher,Cogne,Doues,Emarse,Etroubles,Fnis,Gaby,Gignod,Introd,Issogne"
 },
@@ -6292,7 +6292,7 @@ window.europeNameBases = [
   "i": 200891,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "abcelnpst",
   "m": 0,
   "b": "Pinsk,Stolin,Davyd-Haradok,Turov,Gomel,Mazyr,Brest,Olevsk,Sarny,Rokitno,Khoiniki,Kalinkavichy,Luninyets,Mikashevichy,Zhabinka,Kobryn,Pruzhany,Ivanava,Drahichyn,Kamyenyets,Byaroza,Lyakhavichy,Malaryta,Hantsavichy,Vysokaye,Kosava,Pripyat River,Horyn River,Western Bug,Pinsk Marshes,Dnieper-Bug Canal"
 },
@@ -6310,7 +6310,7 @@ window.europeNameBases = [
   "i": 200893,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Wilamowice,Bielsko-Biaa,Kty,Andrychow,Wadowice,Myylenice,Sucha Beskidzka,Zywiec,Jelesnia,Lekawica,Koszarzyska,Slemie,Gilowice,Pisarzowice,Ochaby,Haach,Dankowice,Kozy,Goczalkowice-Zdroj,Pszczyna,Tychy,Kobior,Bojszowy,Miedzna,Bestwina,Brzeszcze,Kanow,Stara Wie,Lazy,Porabka,Kobiernice,Tresna,winna"
 },
@@ -6319,7 +6319,7 @@ window.europeNameBases = [
   "i": 200894,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "any",
   "m": 0,
   "b": "Bern,Zrich,Geneva,Basel,Lausanne,Winterthur,St. Gallen,Lucerne,Lugano,Biel,Thun,Knigstetten,Rheinfelden,Baden,Zug,Fribourg,Solothurn,Chur,Neuchtel,Uster,Schaffhausen,Verbier,Grindelwald,Lauterbrunnen,Wengen,Murren,Jungfrau,Eiger,Mnch,Jungfraujoch,Gornergrat,Matterhorn,Zermatt,Saas-Fee"
 },
@@ -6328,7 +6328,7 @@ window.europeNameBases = [
   "i": 200895,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "aeflnrt",
   "m": 0,
   "b": "Middelburg,Goes,Vlissingen,Terneuzen,Bergen op Zoom,Roosendaal,Breda,Tilburg,Den Bosch,Boxtel,Oisterwijk,Waalwijk,Zaltbommel,Gorinchem,Dordrecht,Leiden,The Hague,Rotterdam,Haarlem,Amsterdam,Utrecht,Groningen,Leeuwarden,Enschede,Deventer,Zwolle,Arnhem,Nijmegen,Apeldoorn,Almere,Lelystad,Emmen,Assen,Veendam,Winschoten,Delfzijl"
 },
@@ -6337,7 +6337,7 @@ window.europeNameBases = [
   "i": 201241,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "adelmost",
   "m": 0,
   "b": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Stony Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
 },
@@ -6346,7 +6346,7 @@ window.europeNameBases = [
   "i": 201242,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Stony Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
 },
@@ -6355,7 +6355,7 @@ window.europeNameBases = [
   "i": 201243,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Stony Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
 },
@@ -6364,7 +6364,7 @@ window.europeNameBases = [
   "i": 201244,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Nogliki,Okha,Tymovskoye,Poronaysk,Alexandrovsk-Sakhalinsky,Kholmsk,Korsakov,Nevelsk,Uglegorsk,Makarov,Tomari,Dolinsk,Aniva,Kurilsk,Severo-Kurilsk,Yuzhno-Sakhalinsk,Shakhtyorsk,Smirnykh,Vakhrushev,Tym River,Poronay River,Amgun River,Amur Liman,Shantar Islands,Sakhalin Island,Sea of Okhotsk"
 },
@@ -6391,7 +6391,7 @@ window.europeNameBases = [
   "i": 201247,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Klyuchi,Kozyrevsk,Milkovo,Esso,Palana,Tigil,Sobolevka,Korf,Krasnogorye,Atlasovo,Ust-Khayryuzovo,Kovran,Sedanka,Ust-Bolsheretsk,Ossora,Karaga,Tymlat,Kakhtana,Ilpyrskoye,Khayryuzovo"
 },
@@ -6400,7 +6400,7 @@ window.europeNameBases = [
   "i": 201248,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Nizhnekolymsk,Verkhnekolymsk,Chersky,Andryushkino,Kolymskoye,Pokhotsk,Srednekolymsk,Chokurdakh,Belaya Gora,Deputatsky,Ust-Nera,Zyryanka,Verkhoyansk,Batagay,Tomtor,Oymyakon,Ust-Maya,Eldikan,Khandyga,Topolinoye,Krest-Khaldzhan,Ulakhan-Kyuyol,Dzhardzhan,Keskil,Tolon,Metyaki,Alysardakh,Kulun-Yelbyut,Orto-Balagan,Suntar,Berdigestyakh"
 },
@@ -6427,7 +6427,7 @@ window.europeNameBases = [
   "i": 201251,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Stony Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
 },
@@ -6436,7 +6436,7 @@ window.europeNameBases = [
   "i": 201252,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Yenisei,Angara,Lena,Khatanga,Kolyma,Indigirka,Alazeya,Anabar,Olenyok,Vilyuy,Podkamennaya Tunguska,Nizhnyaya Tunguska,Stony Tunguska,Krasnoyarsk,Yeniseisk,Kyzyl,Igarka,Dudinka,Norilsk,Tura,Volochanka,Ust-Port,Nidym,Turukhansk,Vereshchagino,Kellog,Sym,Bakhtinka,Yartsevo,Podtyosovo,Bor,Novoselovo,Shiversk,Abalakovo,Vorogovo,Kuminsk"
 }
@@ -6446,7 +6446,7 @@ window.europeNameBases = [
   "i": 200860,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "München,Nürnberg,Augsburg,Regensburg,Würzburg,Bamberg,Bayreuth,Erlangen,Ingolstadt,Passau,Dresden,Leipzig,Chemnitz,Zwickau,Görlitz,Freiberg,Meissen,Bautzen,Koblenz,Trier,Kaiserslautern,Worms,Speyer,Bad Kreuznach,Idar-Oberstein,Stuttgart,Heidelberg,Freiburg,Tübingen,Ulm"
 },
@@ -6455,7 +6455,7 @@ window.europeNameBases = [
   "i": 200864,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "st",
   "m": 0,
   "b": "Huesca,Zaragoza,Teruel,Jaca,Barbastro,Monzón,Fraga,Binéfar,Sabiñánigo,Calatayud,Tarazona,Caspe,Alcañiz,Andorra,Borja,Tauste,Ejea de los Caballeros,Zuera,Utebo,La Almunia de Doña Godina,Daroca,Calamocha,Albarracín,Graus,Benabarre,Aínsa,Bielsa,Ansó,Hecho,Jasa,Broto"
 },
@@ -6464,7 +6464,7 @@ window.europeNameBases = [
   "i": 200867,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lr",
   "m": 0,
   "b": "Chișinău,Bălți,Tiraspol,Bender,Ungheni,Cahul,Orhei,Soroca,Comrat,Strășeni,Ceadîr-Lunga,Căușeni,Drochia,Edineț,Fălești,Florești,Hîncești,Ialoveni,Nisporeni,Călărași,Rezina,Glodeni,Leova,Dondușeni,Cimișlia,Rîșcani,Sîngerei,Telenești,Ocnița,Briceni"
 },
@@ -6482,7 +6482,7 @@ window.europeNameBases = [
   "i": 200870,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bclnrstz",
   "m": 0,
   "b": "Metz,Thionville,Forbach,Sarreguemines,Saint-Avold,Bitche,Sarrebourg,Hayange,Fameck,Creutzwald,Freyming-Merlebach,Hagondange,Florange,Uckange,Guénange,Moyeuvre-Grande,Rosselange,Rombas,Amnéville,Maizières-lès-Metz,Woippy,Marly,Montigny-lès-Metz,Moulins-lès-Metz,Scy-Chazelles,Plappeville,Jouy-aux-Arches,Ars-sur-Moselle,Dabo,Phalsbourg"
 }

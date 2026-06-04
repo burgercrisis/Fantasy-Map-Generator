@@ -216,7 +216,7 @@ window.asiaNameBases = [
   "i": 171,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lnr",
   "m": 0,
   "b": "Vitória de Santo Antão,3384987,3385022,Paraiba,3385077,Vigia,3385088,Viçosa do Ceará,Ceara,3385106,Viçosa,3385109,Vicência,3385118,3385122,Vertentes,3385131,Venturosa,3385230,Várzea Alegre"
 },
@@ -288,7 +288,7 @@ window.asiaNameBases = [
   "i": 1602,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "1253127,1253132,Virār,1253133,Viramgām,1253143,Vinukonda,1253150,Villupuram,1253166,Villianur,1253169,Vilattikulam,1253175,Vikramasingapuram,1253180,Vikārābād,1253182,1253184,Vijāpur"
 },
@@ -315,7 +315,7 @@ window.asiaNameBases = [
   "i": 1727,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "d",
   "m": 0,
   "b": "Mehkar,1263195,1263214,Medinīpur,1263220,Medchal,1263226,1263230,1263247,1263255,Māyābandar,1263259,Mawāna,1263275,Mavoor,1263280,Māvelikara,1263285,1263293,Mauganj"
 },
@@ -351,7 +351,7 @@ window.asiaNameBases = [
   "i": 11,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "eo",
   "m": 0,
   "b": "1148205,1148311,1148658,Bāzārak,1429434,Markaz-e Woluswalī-ye Āchīn,1469706,Saint John’s,Antigua and Barbuda,Saint John Parish,3576022,Anguilla,3573374,Sarandë,Vlore County,363243,Korce County,781988,Elbasan County,782519"
 },
@@ -369,7 +369,7 @@ window.asiaNameBases = [
   "i": 24,
   "min": 5,
   "max": 11,
-  "d": "",
+  "d": "r",
   "m": 0.1,
   "b": "Camama,2591957,Talatona,2591976,Xangongo,Cunene,3345492,Alto Hama,3345495,Virei,3345517,3345668,Ucu Seles,3345669,Tômbua,3345790,3346015,Quipungo,Huila,3346497"
 },
@@ -387,7 +387,7 @@ window.asiaNameBases = [
   "i": 28,
   "min": 3,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 1,
   "b": "3351014,Caluquembe,3351023,Calulo,3351064,Caála,3351500,Bocoio,3351599,3351663,Balombo,3351764,Baía Farta,3351786,Andulo,3351884,Cambundi,7745410,Kikolo,7758790"
 },
@@ -855,7 +855,7 @@ window.asiaNameBases = [
   "i": 270,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Minas Novas,3457152,Mimoso do Sul,3457161,Miguel Pereira,3457191,Miguelópolis,3457192,Miguel Calmon,3457202,Mendes,3457247,3457358,Medianeira,3457359,Medeiros Neto,3457360,Mauá,3457381,Matozinhos"
 },
@@ -873,7 +873,7 @@ window.asiaNameBases = [
   "i": 272,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "3457595,3457641,3457671,3457692,3457708,3457736,3457741,3457770,3457772,3457809,3457817,3457818,3457819,3457850,3457854,3457859,3457933,3457950,3457952,3457967"
 },
@@ -1179,7 +1179,7 @@ window.asiaNameBases = [
   "i": 801,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Reinheim,2848762,Reinbek,2848845,Reichenbach/Vogtland,2849156,2849483,2849548,Recklinghausen,2849647,Ravensburg,2849802,Ratingen,2850174,Rathenow,2850213,Ratekau,2850235,Rastede,2850253"
 },
@@ -1197,7 +1197,7 @@ window.asiaNameBases = [
   "i": 806,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lt",
   "m": 0,
   "b": "Püttlingen,2851584,2851746,Puchheim,2851782,Prenzlauer Berg,2852217,Prenzlau,2852218,Preetz,2852280,Potsdam,2852458,Porz am Rhein,2852566,Porta Westfalica,2852577,Poppenbüttel,2852673,Plettenberg"
 },
@@ -1215,7 +1215,7 @@ window.asiaNameBases = [
   "i": 808,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "fln",
   "m": 0,
   "b": "Peine,2855047,2855328,Pasing,2855334,Parchim,2855441,Papenburg,2855525,Pankow,2855598,Paderborn,2855745,Oyten,2855794,Overath,2855859,Ottobrunn bei München,2855935,Ottensen"
 },
@@ -1296,7 +1296,7 @@ window.asiaNameBases = [
   "i": 834,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lmps",
   "m": 0,
   "b": "2879139,2879185,Leimen,2879241,Leichlingen,2879315,Lehrte,2879367,2879697,Lebach,2879832,Laupheim,2880077,Lauf an der Pegnitz,2880144,Lauchhammer,2880221,Lankwitz,2880498,Langenhagen"
 },
@@ -1305,7 +1305,7 @@ window.asiaNameBases = [
   "i": 835,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "hm",
   "m": 0,
   "b": "2881062,2881085,Langendreer,2881104,Langen,2881276,2881279,2881485,Landsberg am Lech,2881509,Landau in der Pfalz,2881646,Lampertheim,2881695,Lahr,2881885,Lahnstein,2881889,Lage,2881956"
 },
@@ -1314,7 +1314,7 @@ window.asiaNameBases = [
   "i": 837,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "e",
   "m": 0,
   "b": "2884509,Köthen,2885237,Korschenbroich,2885397,Kornwestheim,2885408,Korntal,2885412,Korbach,2885536,Köpenick,2885656,Berlin Köpenick,2885657,Konz,2885672,Konstanz,2885679,Königs Wusterhausen"
 },
@@ -1332,7 +1332,7 @@ window.asiaNameBases = [
   "i": 839,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "not",
   "m": 0,
   "b": "2888523,Kladow,2890136,2890158,Kirchlengern,2890425,Kirchheim unter Teck,2890473,Kirchhain,2890504,Kierspe,2891014,2891122,Kevelaer,2891258,2891524,Kempten (Allgäu),2891621,2891643,Kelkheim"
 },
@@ -1341,7 +1341,7 @@ window.asiaNameBases = [
   "i": 840,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "hl",
   "m": 0,
   "b": "2891832,2891834,Kehl,2891951,Kaulsdorf,2892051,Kaufbeuren,2892080,Kassel,2892518,Karow,2892705,Karlstadt,2892786,Karlsruhe,2892794,Karlshorst,2892811,Karlsfeld,2892874"
 },
@@ -1350,7 +1350,7 @@ window.asiaNameBases = [
   "i": 841,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Karben,2892980,2893152,Kamp-Lintfort,2893264,Kamenz,2893437,Kamen,2893438,Kaltenkirchen,2893544,2894003,Kaarst,2894375,2894553,2894637,Johannisthal,2894755,Jena,2895044"
 },
@@ -1359,7 +1359,7 @@ window.asiaNameBases = [
   "i": 842,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "an",
   "m": 0,
   "b": "Itzehoe,2895569,Isernhagen Farster Bauerschaft,2895664,Iserlohn,2895669,2895992,Ingelheim am Rhein,2896020,Ilmenau,2896514,Illingen,2896538,Illertissen,2896546,Idstein,2896736,2896753,Ibbenbueren,2896817"
 },
@@ -1368,7 +1368,7 @@ window.asiaNameBases = [
   "i": 843,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "bls",
   "m": 0,
   "b": "2897132,2897216,Hünfeld,2897436,Hummelsbüttel,2897674,Humboldtkolonie,2897732,Hude,2898079,Hückeswagen,2898098,Hückelhoven,2898111,Huckarde,2898117,2898304,Höxter,2898321,Hövelhof"
 },
@@ -1377,7 +1377,7 @@ window.asiaNameBases = [
   "i": 844,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "mt",
   "m": 0,
   "b": "2898364,Hörstel,2898603,Horn,2898917,Hörde,2899070,Horb am Neckar,2899101,Homburg,2899449,Holzwickede,2899538,Holzminden,2899601,Holzkirchen,2899676,Hohenstein-Ernstthal,2901420,Hohen Neuendorf"
 },
@@ -1386,7 +1386,7 @@ window.asiaNameBases = [
   "i": 845,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "2901588,Hofheim am Taunus,2902533,Hofgeismar,2902559,Hof,2902768,Hockenheim,2902852,Hochheim am Main,2903175,Hochfeld,2903237,Hille,2904725,2904789,2904795,Hilchenbach,2904808,Hiddenhausen"
 },
@@ -1395,7 +1395,7 @@ window.asiaNameBases = [
   "i": 846,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "dhl",
   "m": 0,
   "b": "2904886,Heusweiler,2904985,Heusenstamm,2904992,Hettstedt,2905206,Hessisch Oldendorf,2905290,2905455,Herzogenaurach,2905457,Herten,2905560,Herrenberg,2905826,Herne,2905891,Hermsdorf,2905904"
 },
@@ -1404,7 +1404,7 @@ window.asiaNameBases = [
   "i": 847,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "mrst",
   "m": 0,
   "b": "Herford,2906121,Herdecke,2906152,Herborn,2906199,Heppenheim an der Bergstrasse,2906268,Hennigsdorf,2906331,Hennef (Sieg),2906376,Hemmingen,2906530,Hemer,2906595,Helmstedt,2906676,Hellersdorf,2906809"
 },
@@ -1413,7 +1413,7 @@ window.asiaNameBases = [
   "i": 848,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lmnps",
   "m": 0,
   "b": "2907201,Heilbad Heiligenstadt,2907545,Heiligensee,2907551,Heiligenhaus,2907585,Heilbronn,2907669,Heidenheim an der Brenz,2907851,Heidenau,2907887,Heidelberg,2907911,Heide,2908032,Hechingen,2908495,Hausbruch"
 },
@@ -1422,7 +1422,7 @@ window.asiaNameBases = [
   "i": 850,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "en",
   "m": 0,
   "b": "2908942,Hattingen,2909230,Hattersheim,2909240,Haßloch,2909313,Haselhorst,2909794,Harvestehude,2909972,Harsewinkel,2910278,Harpen,2910367,Haren,2910514,Harburg,2910685,Hannover"
 },
@@ -1431,7 +1431,7 @@ window.asiaNameBases = [
   "i": 851,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "2910831,Hanau am Main,2911007,Hamminkeln,2911051,Hamm,2911234,2911240,2911271,Wandsbek,2911285,Marienthal,2911287,Hamburg-Mitte,2911288,Eimsbüttel,2911293,Altona,2911296,2911298"
 },
@@ -1440,7 +1440,7 @@ window.asiaNameBases = [
   "i": 852,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "mt",
   "m": 0,
   "b": "Halver,2911384,Haltern am See,2911395,Halstenbek,2911408,2911520,Halle (Saale),2911522,Haldensleben I,2911584,Halberstadt,2911665,Hakenfelde,2911710,Haiger,2911964,2912621,Haar,2913192"
 },
@@ -1458,7 +1458,7 @@ window.asiaNameBases = [
   "i": 854,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "m",
   "m": 0,
   "b": "2916630,Gronau,2917138,Gröbenzell,2917221,Grimma,2917325,Griesheim,2917412,2917540,Greven,2917544,Greiz,2917737,Universitäts- und Hansestadt Greifswald,2917788,2917816,Göttingen,2918632,Gotha"
 },
@@ -1467,7 +1467,7 @@ window.asiaNameBases = [
   "i": 855,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lmt",
   "m": 0,
   "b": "2918752,2918840,2918987,Gorbitz,2919039,Göppingen,2919054,Gonsenheim,2919095,Gohlis,2919502,Goch,2919625,Glinde,2919880,Glauchau,2920020,Gladbeck,2920236,Ginsheim-Gustavsburg"
 },
@@ -1476,7 +1476,7 @@ window.asiaNameBases = [
   "i": 856,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "2920329,Gilching,2920433,Gifhorn,2920478,Gießen,2920512,Giengen an der Brenz,2920620,Gevelsberg,2920757,Gesundbrunnen,2920789,Geseke,2920834,Gescher,2920842,Gersthofen,2920891,Germersheim"
 },
@@ -1485,7 +1485,7 @@ window.asiaNameBases = [
   "i": 857,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "2921034,Germering,2921039,Gerlingen,2921061,Geretsried,2921139,2921232,Georgsmarienhütte,2921242,Gelsenkirchen,2921466,Gelnhausen,2921473,Geldern,2921528,Geislingen an der Steige,2921653,2921837,Geesthacht"
 },
@@ -1548,7 +1548,7 @@ window.asiaNameBases = [
   "i": 866,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lt",
   "m": 0,
   "b": "2931574,Einbeck,2931804,Eilenburg,2931871,Eilbek,2931877,Ehingen,2932924,Eggenstein-Leopoldshafen,2933101,Edewecht,2933364,Eckernförde,2933627,Eberswalde,2933882,Ebersbach an der Fils,2933959,Eberbach"
 },
@@ -1575,7 +1575,7 @@ window.asiaNameBases = [
   "i": 869,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "2937040,Diepholz,2937317,Dieburg,2937591,Deutz,2937790,Detmold,2937936,Dessau,2937959,Delmenhorst,2938323,Delitzsch,2938376,Delbrück,2938389,2938540,Datteln,2938784"
 },
@@ -1584,7 +1584,7 @@ window.asiaNameBases = [
   "i": 875,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "st",
   "m": 0,
   "b": "2942323,Französisch Buchholz,2942341,Buchen in Odenwald,2942634,2943320,Brüggen,2943336,Bruckmühl,2943408,Bruchsal,2943560,Bruchköbel,2943573,Britz,2944027,Brilon,2944079,Bretten,2944200"
 },
@@ -1593,7 +1593,7 @@ window.asiaNameBases = [
   "i": 876,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ght",
   "m": 0,
   "b": "Bremervörde,2944354,Bremerhaven,2944368,2944388,2945024,Brandenburg an der Havel,2945358,Bramsche,2945474,Brakel,2945542,Brake (Unterweser),2945545,Brackenheim,2945591,Brackel,2945601,Bottrop,2945756"
 },
@@ -1602,7 +1602,7 @@ window.asiaNameBases = [
   "i": 878,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Bothfeld,2945798,2946111,Borna,2946172,Borken,2946228,Boppard,2946366,2946447,Bönen,2946478,Bogenhausen,2947022,Bockum,2947214,2947416,Bocholt,2947421,Böblingen"
 },
@@ -1611,7 +1611,7 @@ window.asiaNameBases = [
   "i": 888,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Bergisch Gladbach,2950349,2950438,Bensheim,2950978,Bendorf,2951111,Bemerode,2951125,2951648,Beckum,2951654,Beckingen,2951679,Bayreuth,2951825,2951881,Baunatal,2951923,Baumschulenweg"
 },
@@ -1629,7 +1629,7 @@ window.asiaNameBases = [
   "i": 891,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ns",
   "m": 0,
   "b": "Bad Münder am Deister,2953400,Bad Mergentheim,2953402,Bad Lippspringe,2953405,Bad Langensalza,2953413,Bad Kreuznach,2953416,2953424,2953435,Bad Homburg vor der Höhe,2953436,Bad Hersfeld,2953439,Bad Harzburg,2953449,Bad Essen,2953464"
 },
@@ -1665,7 +1665,7 @@ window.asiaNameBases = [
   "i": 945,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "al",
   "m": 0,
   "b": "2496681,Es Senia,2497060,En Nedjma,2497269,2497411,El Milia,2497509,El Meghaïer,2497655,El Malah,2497714,El Kseur,2497796,El Khroub,2497849,El Kala,2497988,El Idrissia,2498000"
 },
@@ -1746,7 +1746,7 @@ window.asiaNameBases = [
   "i": 995,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "352628,352679,352733,352878,352913,352951,353136,353183,353219,353223,353225,353229,353471,353492,353802,353828,354076,354105,354123,354365"
 },
@@ -2430,7 +2430,7 @@ window.asiaNameBases = [
   "i": 1240,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "rst",
   "m": 0,
   "b": "12808661,12808662,Paris 12e Arrondissement,12808663,Bel-Air,12808664,Paris 13e Arrondissement,12808673,Croulebarbe,12808674,Gare,12808675,Maison Blanche,12808676,Salpêtrière,12808677,Plaine du Var,13580310,Tchibanga,2396253"
 },
@@ -2439,7 +2439,7 @@ window.asiaNameBases = [
   "i": 1241,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "rs",
   "m": 0,
   "b": "Ogooue-Maritime,2396518,Woleu-Ntem,2396646,Moyen-Ogooue,2396651,Owendo,Estuaire,2396657,Ntoum,2397169,Ngouni,2398073,Haut-Ogooue,2398269,Makokou,Ogooue-Ivindo,2399371,2399697,2399888"
 },
@@ -2448,7 +2448,7 @@ window.asiaNameBases = [
   "i": 1242,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Ogooue-Lolo,2399959,2400555,2401578,Akanda,12640495,United Kingdom,2633352,2633373,Yeadon,2633397,2633406,Yarm,2633415,Wrexham,Wales,2633485,2633521,Worksop,2633551"
 },
@@ -2457,7 +2457,7 @@ window.asiaNameBases = [
   "i": 1243,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Workington,2633553,Worcester Park,2633561,2633563,Wood Green,2633653,Woodford Green,2633655,Wombwell,2633681,Wolverhampton,2633691,Wokingham,2633708,Woking,2633709,Witney,2633729,2633749"
 },
@@ -2475,7 +2475,7 @@ window.asiaNameBases = [
   "i": 1245,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "2633948,Widnes,2633954,Wickford,2633976,Whitstable,2634021,Whitley Bay,2634032,Whitehaven,2634096,Whitefield,2634103,Whickham,2634155,2634202,Weybridge,2634204,Weston-super-Mare,2634308"
 },
@@ -2520,7 +2520,7 @@ window.asiaNameBases = [
   "i": 1250,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "opt",
   "m": 0,
   "b": "Tonbridge,2635703,2635762,Tipton,2635785,Thorne,2635997,Thornaby-on-Tees,2636005,2636032,2636049,Tewkesbury,2636071,Taunton,2636177,2636276,Tadley,2636333,Swinton,2636373"
 },
@@ -2529,7 +2529,7 @@ window.asiaNameBases = [
   "i": 1251,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "e",
   "m": 0,
   "b": "Swindon,2636389,Swansea,2636432,Swanscombe,2636433,Swanley,2636439,Swadlincote,2636465,Sutton in Ashfield,2636484,Sutton Coldfield,2636486,Sutton,2636503,Sunderland,2636531,Sunbury-on-Thames,2636534"
 },
@@ -2538,7 +2538,7 @@ window.asiaNameBases = [
   "i": 1252,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "2636564,Stroud,2636616,Strood,2636619,Stretford,2636663,Streatham,2636675,Stratford-upon-Avon,2636713,2636714,Stowmarket,2636749,Stourport-on-Severn,2636767,Stourbridge,2636769,Stoke-on-Trent,2636841"
 },
@@ -2547,7 +2547,7 @@ window.asiaNameBases = [
   "i": 1253,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Stockton-on-Tees,2636876,Stockport,2636882,2636910,Stevenage,2636940,Stepney,2636948,Staveley,2636995,Stanford-le-Hope,2637087,2637104,Stalybridge,2637106,Staines,2637126,2637142,Spennymoor"
 },
@@ -2556,7 +2556,7 @@ window.asiaNameBases = [
   "i": 1254,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "eno",
   "m": 0,
   "b": "2637235,Speke,2637241,Spalding,2637265,2637329,Southsea,2637330,2637343,South Ockendon,2637355,South Norwood,2637357,South Hayling,2637407,Southend-on-Sea,2637433,South Elmsall,2637435,South Benfleet"
 },
@@ -2565,7 +2565,7 @@ window.asiaNameBases = [
   "i": 1255,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "elo",
   "m": 0,
   "b": "2637476,2637487,Southall,2637490,2637546,Smethwick,2637607,Slough,2637627,Sleaford,2637659,Skelmersdale,2637752,Skegness,2637762,Sittingbourne,2637802,2637891,Shoreham-by-Sea,2637916"
 },
@@ -2574,7 +2574,7 @@ window.asiaNameBases = [
   "i": 1256,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lst",
   "m": 0,
   "b": "Shipley,2637958,Shepherds Bush,2638043,2638077,Sevenoaks,2638187,Selby,2638235,Seaham,2638302,2638311,Scunthorpe,2638324,2638419,Sandown,2638568,Sandhurst,2638580,Sandbach"
 },
@@ -2592,7 +2592,7 @@ window.asiaNameBases = [
   "i": 1258,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "df",
   "m": 0,
   "b": "2638879,Ryton,2638894,2638911,2638926,Rushden,2638946,Runcorn,2638960,Ruislip,2638976,Rugeley,2638977,Rugby,2638978,Royton,2639015,Royston,2639018,Royal Tunbridge Wells"
 },
@@ -2601,7 +2601,7 @@ window.asiaNameBases = [
   "i": 1259,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "2639022,Rottingdean,2639069,Rotherham,2639093,Romsey,2639189,Romford,2639192,Roehampton,2639223,Rochford,2639265,2639268,Rochdale,2639272,2639317,Ripon,2639323,Ripley"
 },
@@ -2619,7 +2619,7 @@ window.asiaNameBases = [
   "i": 1261,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "dln",
   "m": 0,
   "b": "2639563,2639577,Rayleigh,2639583,Rawtenstall,2639586,Rawmarsh,2639588,Ramsgate,2639660,Ramsbottom,2639668,Putney,2639835,Purley,2639842,Pudsey,2639866,Prestwich,2639897"
 },
@@ -2628,7 +2628,7 @@ window.asiaNameBases = [
   "i": 1264,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lt",
   "m": 0,
   "b": "2639912,Prestatyn,2639926,Prescot,2639928,Poulton-le-Fylde,2639958,Potters Bar,2639970,2639996,Portslade,2639998,Portishead,2640037,Porthcawl,2640054,Portadown,2640085,Poole,2640101"
 },
@@ -2637,7 +2637,7 @@ window.asiaNameBases = [
   "i": 1265,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ot",
   "m": 0,
   "b": "2640104,Pontypool,2640106,2640132,Ponders End,2640140,Plymstock,2640190,2640194,Plumstead,2640201,Pitsea,2640246,Pinner,2640275,Peterlee,2640349,2640351,2640354,2640358"
 },
@@ -2646,7 +2646,7 @@ window.asiaNameBases = [
   "i": 1266,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "eno",
   "m": 0,
   "b": "2640377,2640416,Penicuik,2640465,Penarth,2640496,Palmers Green,2640667,2640677,2640681,2640729,2640861,Ossett,2640869,Orpington,2640894,2640908,Omagh,2640967,Oldham"
 },
@@ -2655,7 +2655,7 @@ window.asiaNameBases = [
   "i": 1267,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "est",
   "m": 0,
   "b": "2641022,Oadby,2641134,Nuneaton,2641157,Notting Hill,2641168,2641170,2641181,Northwich,2641224,North Shields,2641267,Northolt,2641290,Lancing,2641319,2641430,Northallerton,2641435"
 },
@@ -2664,7 +2664,7 @@ window.asiaNameBases = [
   "i": 1268,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lt",
   "m": 0,
   "b": "Norbury,2641462,Newtownards,2641519,Newtownabbey,2641520,Newton Mearns,2641544,Newton-le-Willows,2641546,Newton Aycliffe,2641555,Newton Abbot,2641557,Newry,2641581,2641589,Newport Pagnell,2641591,Newport"
 },
@@ -2673,7 +2673,7 @@ window.asiaNameBases = [
   "i": 1269,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "bfl",
   "m": 0,
   "b": "2641598,2641599,New Milton,2641609,New Mills,2641612,2641616,New Malden,2641617,New Cross,2641661,Newcastle upon Tyne,2641673,Newcastle under Lyme,2641674,2641689,Newburn,2641690,Newark on Trent,2641731"
 },
@@ -2682,7 +2682,7 @@ window.asiaNameBases = [
   "i": 1270,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ls",
   "m": 0,
   "b": "Nether Edge,2641783,Neston,2641795,2641810,Neath,2641843,Nantwich,2641892,Nailsea,2641913,Musselburgh,2641942,Mountsorrel,2642096,Motherwell,2642135,2642189,Moreton,2642204"
 },
@@ -2754,7 +2754,7 @@ window.asiaNameBases = [
   "i": 1288,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "r",
   "m": 0,
   "b": "Houghton-Le-Spring,2646525,Horwich,2646542,2646557,Horsforth,2646558,Horley,2646606,Hook,2646653,Hoddesdon,2646807,2646826,Hindley,2646862,2646867,High Wycombe,2646914,Highbury"
 },
@@ -2799,7 +2799,7 @@ window.asiaNameBases = [
   "i": 1341,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "nr",
   "m": 0,
   "b": "2657345,2657356,2657402,Alton,2657408,Alloa,2657471,Alfreton,2657508,Aldridge,2657528,Aldershot,2657540,2657613,Adwick le Street,2657658,Acton,2657697,Acocks Green,2657703"
 },
@@ -2808,7 +2808,7 @@ window.asiaNameBases = [
   "i": 1342,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "el",
   "m": 0,
   "b": "Accrington,2657770,2657780,2657782,2657832,2657835,3345283,Blackwood,3345317,3345432,Camden Town,3345437,Telford,3345439,Craigavon,3345440,Soho,6545173,Bayswater,6545243"
 },
@@ -2826,7 +2826,7 @@ window.asiaNameBases = [
   "i": 1345,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lrs",
   "m": 0,
   "b": "6690592,Shadwell,6690595,Battersea,6690602,Tooting,6690824,South Croydon,6690862,Hornchurch,6690863,Surbiton,6690866,Ewell,6690867,Becontree,6690870,Brixton,6690877,Bethnal Green"
 },
@@ -2925,7 +2925,7 @@ window.asiaNameBases = [
   "i": 1377,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "2299625,Keta,2299645,2299945,2300068,2300182,2300372,2300379,2300721,2300749,2300883,2301184,2301190,2301217,2301245,2301367,2301400,2301424,2301464,2301529"
 },
@@ -3078,7 +3078,7 @@ window.asiaNameBases = [
   "i": 1481,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Sesvete,3190966,Samobor,3191316,Primorje-Gorski Kotar,3191648,Istria,3192224,County of Osijek-Baranja,3193935,Koprivnica-Krizevci,3197728,Dubrovnik-Neretva,3201047,3202220,Megimurje,3202888,Bjelovar-Bilogora,3203982,3345300"
 },
@@ -3105,7 +3105,7 @@ window.asiaNameBases = [
   "i": 1489,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "r",
   "m": 0,
   "b": "723030,Zugló,Budapest,3042430,Zala County,3042638,Veszprém,3042929,3042968,3043019,3043095,Vác,3043293,Újpest,3043470,Komarom-Esztergom,3044082,3044083,3044141,Vas County"
 },
@@ -3132,7 +3132,7 @@ window.asiaNameBases = [
   "i": 1495,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "3054643,Budaörs,3054646,Budafok,3054663,Buda,3054667,3055685,Angyalföld,3055970,Ajka,3056357,Újpalota,6690770,Budapest V. kerület,7117203,Budapest XII. kerület,7284823,Budapest XI. kerület,7284824"
 },
@@ -3141,7 +3141,7 @@ window.asiaNameBases = [
   "i": 1496,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "i",
   "m": 0,
   "b": "Budapest VIII. kerület,7284826,Budapest VI. kerület,7284828,Budapest XIII. kerület,7284830,Budapest IV. kerület,7284831,Budapest XV. kerület,7284832,Budapest XVI. kerület,7284833,Budapest XIX. kerület,7284835,Budapest XVIII. kerület,7284836,Budapest XXIII. kerület,7284837,Budapest XXII. kerület,7284838"
 },
@@ -3276,7 +3276,7 @@ window.asiaNameBases = [
   "i": 1563,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "1646034,1646170,Ciputat,1646194,1646448,Cileunyi,1646492,Cileungsir,1646494,Cilegon,1646511,Cilacap,1646559,Cikarang,1646678,Cikampek,1646698,Cicurug,1646893,Cibinong"
 },
@@ -3357,7 +3357,7 @@ window.asiaNameBases = [
   "i": 1587,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Dún Laoghaire,2964506,2964540,2964574,2964661,2964690,2965140,Cluain Meala,2965353,Celbridge,2965529,Carrigaline,2965715,2965768,2966022,Blanchardstown,2966110,Ballincollig,2966749,2966794"
 },
@@ -3366,7 +3366,7 @@ window.asiaNameBases = [
   "i": 1589,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lr",
   "m": 0,
   "b": "Yehud,293207,293222,293253,Yāfā,293254,Umm el Faḥm,293286,Tirat Karmel,293308,293322,293397,maalot Tarshīhā,293420,Tamra,293426,Shefar‘am,293539,Sderot,293619"
 },
@@ -3384,7 +3384,7 @@ window.asiaNameBases = [
   "i": 1591,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "y",
   "m": 0,
   "b": "293831,Qiryat Mal’akhi,293835,Qiryat HaYovel,293837,Kiryat Gat,293842,Qiryat Bialik,293844,Qiryat Ata,293845,Qalansuwa,293896,Petaẖ Tiqva,293918,Pardés H̱anna Karkur,293943,Or Yehuda,293962,Or Akiva"
 },
@@ -3429,7 +3429,7 @@ window.asiaNameBases = [
   "i": 1598,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Pūnch,1167718,Kilakarai,1252646,1252653,Zamānia,1252692,Zaidpur,1252698,Zahirābād,1252699,Yeola,1252738,1252744,1252745,Yelahanka,1252758,Yavatmāl,1252770,Yāval"
 },
@@ -3519,7 +3519,7 @@ window.asiaNameBases = [
   "i": 1621,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "knt",
   "m": 0,
   "b": "1254624,Tharād,1254638,Thara,1254640,1254649,Thānesar,1254657,1254661,Thandla,1254663,Thāna Bhawan,1254673,Thān,1254675,Thākurganj,1254694,Thakurdwara,1254695,1254709"
 },
@@ -3546,7 +3546,7 @@ window.asiaNameBases = [
   "i": 1627,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Sūrandai,1255372,1255381,Sūrajgarh,1255383,1255396,Sunel,1255425,Sundarnagar,1255434,Sundergarh,1255437,Sunām,1255449,Sumbal,1255478,Sullya,1255482,Sūlūru,1255483"
 },
@@ -3555,7 +3555,7 @@ window.asiaNameBases = [
   "i": 1628,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Sulur,1255484,Sultanpur,1255488,1255491,Suket,1255551,Sūjāngarh,1255560,Suār,1255597,Srivilliputhur,1255616,Srīvardhan,1255619,Srivaikuntam,1255620,Srīsailain,1255621,Srīrāmnagar"
 },
@@ -3564,7 +3564,7 @@ window.asiaNameBases = [
   "i": 1629,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "1255625,Srīperumbūdūr,1255630,1255631,1255634,1255635,Sri Mādhopur,1255643,Karanpur,1255646,1255647,Sri Dūngargarh,1255654,Soygaon,1255667,Soron,1255704,1255705,Sorada,1255712"
 },
@@ -3780,7 +3780,7 @@ window.asiaNameBases = [
   "i": 1696,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "dlnt",
   "m": 0,
   "b": "1260274,Parli Vaijnāth,1260290,Pariyāpuram,1260304,Parīchhatgarh,1260313,Pārdi,1260335,1260341,Paravūr Tekkumbhāgam,1260354,Pārassāla,1260363,Parāsia,1260368,Paramagudi,1260387,1260390,Parādīp Garh"
 },
@@ -3807,7 +3807,7 @@ window.asiaNameBases = [
   "i": 1703,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "lpt",
   "m": 0,
   "b": "Nūrpur,1261122,Nūh,1261145,Nowrangapur,1261162,1261163,Nowgong,1261164,1261181,North Guwāhāti,1261186,1261205,1261208,Nokha,1261227,Nohar,1261234,Noāmundi,1261242"
 },
@@ -3888,7 +3888,7 @@ window.asiaNameBases = [
   "i": 1728,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "1263300,Maudaha,1263303,Mau Aimma,1263306,Mau,1263309,1263311,Mattigiri,1263329,Mattanur,1263331,1263364,Mātābhānga,1263395,Masaurhi Buzurg,1263427,Mormugao,1263494,1263504"
 },
@@ -3906,7 +3906,7 @@ window.asiaNameBases = [
   "i": 1738,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "kn",
   "m": 0,
   "b": "Mālpura,1264032,Malpe,1264037,Mallasamudram,1264047,Malkāpur,1264071,Malakanagiri,1264075,Māliya,1264077,Malīhābād,1264085,Māler Kotla,1264111,1264115,1264136,Malout,1264138"
 },
@@ -3951,7 +3951,7 @@ window.asiaNameBases = [
   "i": 1747,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ehklt",
   "m": 0,
   "b": "Loha,1264987,Lāwar Khās,1264989,1265005,Laungowāl,1265007,1265014,Lāthi,1265022,1265025,Lāsalgaon,1265041,Lar,1265053,Lālsot,1265143,Lālpur,1265150,1265157"
 },
@@ -4041,7 +4041,7 @@ window.asiaNameBases = [
   "i": 1813,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "kl",
   "m": 0,
   "b": "Kadi,1268680,Kadayanallur,1268707,Kānchrāpāra,1268715,Kachhwa,1268722,Kabrāi,1268739,Junnar,1268761,Jūnāgarh,1268772,1268773,Jhumri Telaiya,1268775,1268782,Shādīpur Julāna,1268785"
 },
@@ -4068,7 +4068,7 @@ window.asiaNameBases = [
   "i": 1830,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "gy",
   "m": 0,
   "b": "1269723,Indri,1269731,1269743,1269751,Indergarh,1269752,Indargarh,1269757,Indāpur,1269761,1269762,1269771,1269784,Ilaiyankudi,1269796,Igatpuri,1269810,Idar,1269818"
 },
@@ -4176,7 +4176,7 @@ window.asiaNameBases = [
   "i": 1889,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Chik Ballāpur,1274243,Chīka,1274252,Chidambaram,1274256,Chicholi,1274265,Chhoti Sādri,1274284,Chhota Udepur,1274285,1274304,Chhibrāmau,1274315,1274336,1274337,Chhātāpur,1274342,Chhāta"
 },
@@ -4194,7 +4194,7 @@ window.asiaNameBases = [
   "i": 1891,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "hrt",
   "m": 0,
   "b": "1274414,Chennimalai,1274422,1274428,Chengam,1274429,Chengalpattu,1274430,Chavara,1274466,Chetwayi,1274468,Chaumu,1274496,Chaksu,1274532,1274533,1274536,Chas,1274553"
 },
@@ -4203,7 +4203,7 @@ window.asiaNameBases = [
   "i": 1892,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Charthāwal,1274560,Charkhi Dādri,1274571,Charkhāri,1274574,Chāpar,1274618,1274640,1274641,1274642,Changanācheri,1274664,Chāndor,1274673,Chāndūr Bāzār,1274674,Chāndūr,1274675,1274676"
 },
@@ -4257,7 +4257,7 @@ window.asiaNameBases = [
   "i": 1923,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "kt",
   "m": 0,
   "b": "1276328,Bhādra,1276330,Bhadohi,1276335,1276346,Bhadaur,1276353,Bhādāsar,1276355,Bhachāu,1276370,Bhabhua,1276371,Bhābhar,1276375,Beypore,1276378,Bewar,1276381"
 },
@@ -4401,7 +4401,7 @@ window.asiaNameBases = [
   "i": 1967,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "dh",
   "m": 0,
   "b": "1279403,Abhayāpuri,1279407,Dalli Rājhara,1333526,Contai,1344069,Haldia,1344377,Srirāmpur,1348562,Dumjor,1348739,Bankra,1348747,Chakapara,1348753,Mahiari,1348775,Dhulagari"
 },
@@ -4482,7 +4482,7 @@ window.asiaNameBases = [
   "i": 1997,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "10250933,Sātalkheri,10253590,10255848,Mūllānpur,10256367,Pehlādpur Bāngar,10261416,Siraspur,10261418,Kundli,10261433,Kādīpur,10261502,Libāspur,10261507,Burāri,10261509,Gil,10261622"
 },
@@ -4545,7 +4545,7 @@ window.asiaNameBases = [
   "i": 2014,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "klt",
   "m": 0,
   "b": "10924961,Āyanchēri,10924994,Eravattūr,10925004,Kunnummal,10925009,Chēmanchēri,10925345,Kizhariyūr,10926303,Nangli,10926750,Ulliyeri,10929613,Icchannūr,10929640,Talakkolattur,10929642,Nanminda"
 },
@@ -4554,7 +4554,7 @@ window.asiaNameBases = [
   "i": 2015,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "cklmnt",
   "m": 0,
   "b": "10929691,Kuruvattūr,10929715,Perumanna,10929726,Kuttikkāttūr,10929727,10929728,10929812,10929901,10930086,10930087,10930089,10930101,10933952,10933954,10933957,10941132,10941133,10973824"
 },
@@ -4563,7 +4563,7 @@ window.asiaNameBases = [
   "i": 2016,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "knt",
   "m": 0,
   "b": "11002689,11011454,11031613,11038551,11038553,11038564,11039180,11072202,Kakkanad,11073561,Abrama,11102685,Phusro,11127930,Alangad,11184118,Andipalayam,11184131,Anklav,11184132"
 },
@@ -4581,7 +4581,7 @@ window.asiaNameBases = [
   "i": 2023,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "k",
   "m": 0,
   "b": "11333755,11333780,11333814,11341323,11344163,11345757,11348644,11421465,Vinnamāla,11424018,Vengikkal,11439700,Puliyankannu,11441185,Sevilimedu,11442958,Nattappettai,11442994,Kottaikādu,11446369"
 },
@@ -4824,7 +4824,7 @@ window.asiaNameBases = [
   "i": 2133,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "3170676,3170694,3170778,Pianura,3170921,3171058,3171168,Pesaro,3171173,3171180,3171366,3171457,Parabiago,3171484,Palo del Colle,3171562,Palazzolo sull'Oglio,3171586,3171664,3171703"
 },
@@ -4851,7 +4851,7 @@ window.asiaNameBases = [
   "i": 2143,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "r",
   "m": 0,
   "b": "3174921,3174922,3174945,3174953,3175058,3175081,3175121,3175173,3175238,3175298,3175384,3175445,3175453,3175458,3175500,3175532,3175537,3175628,3175678,3175743"
 },
@@ -4869,7 +4869,7 @@ window.asiaNameBases = [
   "i": 2147,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "z",
   "m": 0,
   "b": "3176885,3176923,3176959,3176970,3177029,3177090,3177099,3177171,3177219,3177250,3177300,3177315,3177337,3177363,3177372,3177400,3177438,3177532,3177608,3177610"
 },
@@ -5337,7 +5337,7 @@ window.asiaNameBases = [
   "i": 2314,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "abr",
   "m": 0,
   "b": "280155,Aley,280425,Saint Lucia,Gros-Islet,3576686,3576812,Liechtenstein,3042030,1223648,Southern Province,1223738,1224085,Northern Province,1225018,1225142,Eastern Province,1225187,1226260,Sabaragamuwa Province"
 },
@@ -5526,7 +5526,7 @@ window.asiaNameBases = [
   "i": 2420,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "kn",
   "m": 0,
   "b": "OEmnoegovi,2032007,East Aimak,2032054,East Gobi Aymag,2032081,2032201,2032533,Baruun-Urt,Suhbaatar,2032614,Arvayheer,2032814,7648817,Taipa,Macao,Our Lady of Carmo,1821263,1821274,Lai Chi Van"
 },
@@ -5544,7 +5544,7 @@ window.asiaNameBases = [
   "i": 2428,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "bt",
   "m": 0,
   "b": "2562629,Il-Mosta,2562704,2563191,Plaines Wilhems,933945,Pamplemousses,933959,934032,934131,934154,Grand Port,934322,Riviere du Rempart,934488,934570,Flacq,934631,934750,934765"
 },
@@ -5553,7 +5553,7 @@ window.asiaNameBases = [
   "i": 2430,
   "min": 4,
   "max": 11,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "925596,925789,926087,926308,926747,927246,927834,927967,928534,930025,931755,931865,3483197,Ciudad Valles,3483849,Zumpango,3513966,Zumpango del Río,3513967,3514051"
 },
@@ -5751,7 +5751,7 @@ window.asiaNameBases = [
   "i": 2459,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lr",
   "m": 0,
   "b": "3980180,El Pueblito,3980187,3980190,Ciudad de Villa de Álvarez,3980194,Valle de Santiago,3980605,Valle de Bravo,3980621,3980760,Uriangato,3980777,Tuzantla,3980833,Tuxpan,3980841,3980844,3981254,3981369"
 },
@@ -5760,7 +5760,7 @@ window.asiaNameBases = [
   "i": 2460,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Tlaquepaque,3981461,Tlajomulco de Zúñiga,3981467,3981609,San Francisco Tesistán,3981791,Tequila,3981885,3981941,Tepatitlán de Morelos,3981984,Tepalcatepec,3982007,Teocaltiche,3982034,Tejupilco de Hidalgo,3982121,Técpan de Galeana,3982170"
 },
@@ -5778,7 +5778,7 @@ window.asiaNameBases = [
   "i": 2462,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Santiago Ixcuintla,3983636,3983671,Santa Rosa Jáuregui,3983820,3984583,Santa Anita,3984679,San Sebastián el Grande,3984790,3985035,3985129,San Nicolás de los Garza,3985241,San Miguel el Alto,3985323,San Miguel de Allende,3985344,San Luis Río Colorado,3985604"
 },
@@ -5787,7 +5787,7 @@ window.asiaNameBases = [
   "i": 2463,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "3985606,San Luis de la Paz,3985621,Cabo San Lucas,3985710,San Juan de los Lagos,3985865,San José Iturbide,3986088,San José del Castillo,3986165,San José del Cabo,3986172,San Francisco del Rincón,3986984,San Francisco de los Romo,3986985,3987224,3987246,Tlaltenango de Sánchez Román"
 },
@@ -5796,7 +5796,7 @@ window.asiaNameBases = [
   "i": 2464,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "3987402,3987500,San Agustín,3988025,Salvatierra,3988050,3988086,Salinas de Hidalgo,3988169,3988214,Sahuayo de Morelos,3988258,Ciudad Sabinas Hidalgo,3988327,Sabinas,3988333,3988392,3988416,Romita,3988462"
 },
@@ -5805,7 +5805,7 @@ window.asiaNameBases = [
   "i": 2465,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "r",
   "m": 0,
   "b": "3988594,Rincón de Romos,3988651,La Joya,3990040,Ramos Arizpe,3991043,3991164,Puruándiro,3991219,Purísima de Bustos,3991226,Purépero de Echáiz,3991253,Puerto Vallarta,3991328,Puerto Peñasco,3991347,Piedras Negras,3992619"
 },
@@ -6669,7 +6669,7 @@ window.asiaNameBases = [
   "i": 15,
   "min": 4,
   "max": 10,
-  "d": "",
+  "d": "lnot",
   "m": 0,
   "b": "616631,Shirak,616635,616752,Davtashen,616758,Charentsavan,616785,Avan,616864,Aragatsotn,616877,Artik,616887,617026,Erebuni,866152,Nor Nork,866153,Ajapnyak"
 },
@@ -6904,7 +6904,7 @@ window.asiaNameBases = [
   "i": 200235,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "flpr",
   "m": 0,
   "b": "Rajabala,Mahendraganj,Dobipur,Resubelpara,Tikrikilla,Cherrapunji,Mendipathar,Phulbari,Williamnagar,Chokpot,Gasuapara,Selsella,Mawsynram,Jowai,Shillong,Amlarem,Siju,Khliehriat,Nongpoh,Songsak,Tura,Rongara,Rongjeng,Nongstoin,Dadenggiri,Barengapara,Baghmara,Ampati,Zikzak"
 },
@@ -6913,7 +6913,7 @@ window.asiaNameBases = [
   "i": 200236,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "glr",
   "m": 0,
   "b": "Baitadi,Kohalpur,Achham,Rolpa,Tulsipur,Mahendranagar,Doti,Dadeldhura,Bajhang,Nepalgunj,Jumla,Pyuthan,Lamki,Bhajani,Dipayal,Tikapur,Gularia,Rukum,Dhangadhi,Ghorahi,Bajura,Salyan,Rajapur,Silgudi,Darchula"
 },
@@ -6922,7 +6922,7 @@ window.asiaNameBases = [
   "i": 200237,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Bolaven,Sekong,Lao Ngarm,Champasak,Khongsedone,Pakse,Tad Lo,Luansang,Lamam,Tai Oy,Toumlane,Attapeu,Salavan,Vapy,Ban Houay Houn,Sa Mouay,Lakhonepheng,Xe Sap,Thakhek,Katarn,Houayxay,Dong Hua Sao,Savannakhet"
 },
@@ -6931,7 +6931,7 @@ window.asiaNameBases = [
   "i": 200238,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Mudanjiang,Ning'an,Bei'an,Wuchang,Nenjiang,Shangzhi,Muling,Fuyuan,Heihe,Suifenhe,Shuangyashan,Zhaodong,Jixi,Harbin,Daqing,Qitaihe,Fujin,Mohe,Yichun,Hailun,Hegang,Jiamusi,Qiqihar,Dongning,Suihua,Hailin,Jiagedaqi,Tongjiang,Tieli"
 },
@@ -6949,7 +6949,7 @@ window.asiaNameBases = [
   "i": 200240,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klnopst",
   "m": 0,
   "b": "Aru,Piru,Saumlaki,Kai,Tanimbar,Sofifi,Masohi,Babar,Saparua,Seram,Nusa Laut,Gorom,Dobo,Tidore,Buru,Banda,Leti,Ternate,Tual,Haruku,Ambon,Kei,Amahai,Wetar,Namlea"
 },
@@ -6967,7 +6967,7 @@ window.asiaNameBases = [
   "i": 200242,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "frt",
   "m": 0,
   "b": "Chittur,Angamaly,Pala,Perumbavoor,Mannarkkad,Alathur,Kodungallur,Ettumanoor,Pattambi,Shoranur,Kothamangalam,Guruvayur,Bharananganam,Malappuram,Thrissur,Kanjirapally,Irinjalakuda,Ottapalam,Kottayam,Changanassery,Palakkad,Thodupuzha,Poonjar,Chalakudy,Muvattupuzha,Kunnamkulam,Vaikom"
 },
@@ -6976,7 +6976,7 @@ window.asiaNameBases = [
   "i": 200243,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klnopst",
   "m": 0,
   "b": "Gonda,Deoria,Lakhimpur Kheri,Chandauli,Jaunpur,Pratapgarh,Prayagraj,Barabanki,Amethi,Raebareli,Lucknow,Ayodhya,Sultanpur,Varanasi,Sitapur,Fatehpur,Hardoi,Ghazipur,Unnao,Mau,Gorakhpur,Bahraich,Azamgarh,Ballia,Raibareli"
 },
@@ -6985,7 +6985,7 @@ window.asiaNameBases = [
   "i": 200244,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Alor Setar,Pontian,Kulai,Kuala Lumpur,Malacca City,Jasin,Ipoh,Melaka Tengah,Kluang,Penang,Johor Bahru,Alor Gajah,Kuantan,Kangar,Batu Pahat,Singapore,Seremban,Muar,George Town,Segamat"
 },
@@ -6994,7 +6994,7 @@ window.asiaNameBases = [
   "i": 200245,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "c",
   "m": 0,
   "b": "Ballia,Deoria,Pratapgarh,Gorakhpur,Amethi,Chandauli,Lucknow,Raebareli,Azamgarh,Jaunpur,Sitapur,Sultanpur,Lakhimpur Kheri,Fatehpur,Prayagraj,Bahraich,Ayodhya,Ghazipur,Varanasi,Mau,Hardoi,Gonda,Raibareli,Unnao,Barabanki"
 },
@@ -7003,7 +7003,7 @@ window.asiaNameBases = [
   "i": 200246,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ln",
   "m": 0,
   "b": "Mahendranagar,Pyuthan,Bhajani,Salyan,Doti,Rukum,Gularia,Lamki,Silgudi,Tulsipur,Dadeldhura,Nepalgunj,Kohalpur,Dipayal,Rajapur,Achham,Jumla,Ghorahi,Tikapur,Baitadi,Bajhang,Darchula,Rolpa,Dhangadhi,Bajura"
 },
@@ -7012,7 +7012,7 @@ window.asiaNameBases = [
   "i": 200247,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Bajura,Tulsipur,Nepalgunj,Jumla,Dipayal,Rolpa,Rajapur,Pyuthan,Bajhang,Lamki,Achham,Doti,Baitadi,Dhangadhi,Silgudi,Tikapur,Kohalpur,Gularia,Salyan,Rukum,Darchula,Mahendranagar,Ghorahi,Dadeldhura,Bhajani"
 },
@@ -7021,7 +7021,7 @@ window.asiaNameBases = [
   "i": 200248,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Jamui,Arrah,Khagaria,Jehanabad,Sheikhpura,Chapra,Begusarai,Gaya,Motihari,Bettiah,Nawada,Madhubani,Purnia,Sitamarhi,Patna,Lakhisarai,Siwan,Samastipur,Banka,Muzaffarpur,Darbhanga,Munger,Sasaram,Bhagalpur,Katihar"
 },
@@ -7030,7 +7030,7 @@ window.asiaNameBases = [
   "i": 200249,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "frt",
   "m": 0,
   "b": "Lamki,Bajura,Dhangadhi,Rukum,Achham,Gularia,Dadeldhura,Darchula,Tikapur,Rajapur,Nepalgunj,Bhajani,Dipayal,Baitadi,Silgudi,Jumla,Kohalpur,Rolpa,Tulsipur,Ghorahi,Salyan,Mahendranagar,Doti,Bajhang,Pyuthan"
 },
@@ -7039,7 +7039,7 @@ window.asiaNameBases = [
   "i": 200250,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Ubud,Jimbaran,Amed,Nusa Dua,Singaraja,Candidasa,Gianyar,Buleleng,Klungkung,Bangli,Jembrana,Kuta,Uluwatu,Goa Gajah,Sanur,Canggu,Tabanan,Karangasem,Semarapura,Lovina,Padangbai,Denpasar,Tanah Lot,Badung,Tirta Gangga"
 },
@@ -7048,7 +7048,7 @@ window.asiaNameBases = [
   "i": 200251,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Masohi,Saumlaki,Buru,Ternate,Namlea,Seram,Haruku,Tual,Ambon,Gorom,Tidore,Nusa Laut,Leti,Tanimbar,Amahai,Sofifi,Aru,Wetar,Kai,Piru,Banda,Babar,Kei,Saparua,Dobo"
 },
@@ -7066,7 +7066,7 @@ window.asiaNameBases = [
   "i": 200253,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Haikou,Dingan,Fangchenggang,Baoting,Beihai,Guigang,Wuzhou,Danzhou,Dongfang,Lingao,Chengmai,Qinzhou,Tunchang,Baise,Guilin,Changjiang,Sanya,Hezhou,Yulin,Qionghai,Ledong,Nanning,Liuzhou,Wanning,Wenchang"
 },
@@ -7075,7 +7075,7 @@ window.asiaNameBases = [
   "i": 200254,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Senen,Bekasi,Bogor,Kebayoran,Tanjung Priok,Duren Sawit,Cengkareng,Cempaka Putih,Kemayoran,Tangerang,Menteng,Ciracas,Depok,Pasar Minggu,Pesanggrahan,Gambir,Cakung,Jagakarsa,Cilandak,Jakarta"
 },
@@ -7084,7 +7084,7 @@ window.asiaNameBases = [
   "i": 200255,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Bettiah,Jamui,Madhubani,Begusarai,Bhagalpur,Banka,Muzaffarpur,Gaya,Samastipur,Sheikhpura,Munger,Arrah,Chapra,Darbhanga,Katihar,Khagaria,Jehanabad,Patna,Lakhisarai,Sitamarhi,Sasaram,Nawada,Siwan,Motihari,Purnia"
 },
@@ -7093,7 +7093,7 @@ window.asiaNameBases = [
   "i": 200256,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "frt",
   "m": 0,
   "b": "Pu'an,Xingren,Libo,Wangmo,Congjiang,Duyun,Sandu,Pingtang,Tianzhu,Ceheng,Danzhai,Jianhe,Rongjiang,Jinping,Qinglong,Panzhou,Zhenyuan,Anlong,Sanshui,Taijiang,Dushan,Liping,Luodian,Kaili,Huangping"
 },
@@ -7111,7 +7111,7 @@ window.asiaNameBases = [
   "i": 200258,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Changjiang,Haikou,Tunchang,Guilin,Dongfang,Qionghai,Wuzhou,Guigang,Qinzhou,Wenchang,Beihai,Sanya,Ledong,Danzhou,Liuzhou,Chengmai,Baoting,Nanning,Fangchenggang,Yulin,Baise,Dingan,Hezhou,Lingao,Wanning"
 },
@@ -7120,7 +7120,7 @@ window.asiaNameBases = [
   "i": 200259,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Tianzhu,Jianhe,Duyun,Liping,Jinping,Pingtang,Wangmo,Rongjiang,Libo,Sanshui,Qinglong,Ceheng,Dushan,Panzhou,Danzhai,Congjiang,Taijiang,Pu'an,Huangping,Xingren,Anlong,Luodian,Kaili,Sandu,Zhenyuan"
 },
@@ -7138,7 +7138,7 @@ window.asiaNameBases = [
   "i": 200261,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lost",
   "m": 0,
   "b": "Altai,Sainshand,Erdenet,Darkhan,Songino,Baganuur,Tsetserleg,Öndörkhaan,Bayankhongor,Uliastai,Ulaangom,Ulaanbaatar,Bulgan,Mandalgovi,Khovd,Nalaikh,Chinggis City,Bayangol,Ölgii,Zuunmod,Choibalsan,Dalanzadgad,Mörön,Arvaikheer,Sükhbaatar"
 },
@@ -7147,7 +7147,7 @@ window.asiaNameBases = [
   "i": 200262,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Dhankuta,Bhojpur,Terhathum,Panchthar,Ilam,Jhapa,Morang,Sunsari,Udayapur,Khotang,Solukhumbu,Okhaldhunga,Kavrepalankot,Manthali,Ramechhap,Sindhuli,Chautara,Bhaktapur,Lalitpur, Kathmandu,Sindhupalchok,Nuwakot,Dhading,Gorkha,Lamjung,Tanahu,Syangja,Palpa,Gulmi,Arghakhanchi"
 },
@@ -7156,7 +7156,7 @@ window.asiaNameBases = [
   "i": 200263,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Chitwan,Makwanpur,Dhading,Nuwakot,Rasuwa,Sindhupalchok,Kavrepalankot,Ramechhap,Dolakha,Sindhuli,Udayapur,Khotang,Bhojpur,Dhankuta,Terhathum,Sankhuwasabha,Solukhumbu,Okhaldhunga,Manthali,Chautara,Bidur,Dhunche,Khimti,Melamchi,Barahbise,Gosainkunda,Tserko,Ri,Thodung"
 },
@@ -7165,7 +7165,7 @@ window.asiaNameBases = [
   "i": 200264,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Tai Oy,Dong Hua Sao,Sekong,Bolaven,Luansang,Ban Houay Houn,Katarn,Khongsedone,Vapy,Lao Ngarm,Xe Sap,Lakhonepheng,Attapeu,Toumlane,Tad Lo,Houayxay,Sa Mouay,Savannakhet,Pakse,Lamam,Thakhek,Salavan,Champasak"
 },
@@ -7174,7 +7174,7 @@ window.asiaNameBases = [
   "i": 200265,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Shannan,Mindroling,Nyingchi,Ngari,Shigatse,Yamdrok,Drepung,Gyantse,Ralung,Sera,Tsedang,Lhasa,Namtso,Menri,Dorje Drak,Chamdo,Jokhang,Potala,Tashilhunpo,Sakya,Ganden,Nagqu,Barkhor,Samye,Drag Yerpa"
 },
@@ -7183,7 +7183,7 @@ window.asiaNameBases = [
   "i": 200266,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Bhajani,Lamki,Doti,Dhangadhi,Rolpa,Silgudi,Baitadi,Tikapur,Dipayal,Pyuthan,Nepalgunj,Rajapur,Achham,Bajhang,Jumla,Kohalpur,Gularia,Darchula,Bajura,Dadeldhura,Ghorahi,Mahendranagar,Salyan,Rukum,Tulsipur"
 },
@@ -7192,7 +7192,7 @@ window.asiaNameBases = [
   "i": 200267,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Vasai,Bharuch,Kachigam,Chikhli,Silvassa,Palghar,Gandevi,Diu,Umbergaon,Pardi,Dahanu,Kalai,Sanjan,Navsari,Umargam,Jhagadia,Daman,Surat,Ankleshwar,Rajpipla,Bhilad,Vapi,Boisar,Valsad,Virar"
 },
@@ -7201,7 +7201,7 @@ window.asiaNameBases = [
   "i": 200268,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Dhading,Butwal,Katathet,Janakpur,Dharan,Kathmandu,Melamchi,Charikot,Nuwakot,Bharatpur,Chautara,Hetauda,Ramechhap,Khimti,Lalitpur,Kavrepalankot,Manthali,Pokhara,Bidur,Barahbise,Dhunche,Birgunj,Biratnagar,Sindhupalchok,Sindhuli"
 },
@@ -7210,7 +7210,7 @@ window.asiaNameBases = [
   "i": 200269,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Bajhang,Dipayal,Dadeldhura,Ghorahi,Nepalgunj,Achham,Jumla,Bajura,Dhangadhi,Rajapur,Gularia,Rolpa,Doti,Lamki,Tulsipur,Rukum,Baitadi,Bhajani,Silgudi,Pyuthan,Salyan,Tikapur,Darchula,Kohalpur,Mahendranagar"
 },
@@ -7219,7 +7219,7 @@ window.asiaNameBases = [
   "i": 200270,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Ulaanbaatar,Bayankhongor,Darkhan,Altai,Baganuur,Bayangol,Arvaikheer,Sükhbaatar,Chinggis City,Erdenet,Sainshand,Mandalgovi,Khovd,Songino,Bulgan,Mörön,Ulaangom,Nalaikh,Ölgii,Uliastai,Tsetserleg,Dalanzadgad,Zuunmod,Choibalsan,Öndörkhaan"
 },
@@ -7228,7 +7228,7 @@ window.asiaNameBases = [
   "i": 200271,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Khovd,Baganuur,Öndörkhaan,Erdenet,Ulaanbaatar,Ölgii,Chinggis City,Tsetserleg,Sükhbaatar,Uliastai,Arvaikheer,Darkhan,Altai,Bayangol,Zuunmod,Songino,Ulaangom,Bulgan,Dalanzadgad,Bayankhongor,Mandalgovi,Mörön,Choibalsan,Nalaikh,Sainshand"
 },
@@ -7237,7 +7237,7 @@ window.asiaNameBases = [
   "i": 200272,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Gawadar,Barkhan,Musakhel,Mand,Ormara,Zhob,Duki,Khuzdar,Loralai,Harnai,Nushki,Jiwani,Kalat,Pishin,Sibi,Chaman,Quetta,Surak,Turbat,Dalbandin,Chagai,Pasni,Taftan,Ziarat,Gwadar"
 },
@@ -7246,7 +7246,7 @@ window.asiaNameBases = [
   "i": 200273,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Sanghar,Kandhkot,Hala,Jacobabad,Larkana,Hyderabad,Thatta,Shikarpur,Mehar,Kamber,Karachi,Nawabshah,Khairpur,Tando Allahyar,Matli,Umerkot,Mirpur Khas,Tando Adam,Dadu,Badin,Tharparkar,Sukkur,Naushahro Feroze,Ratodero,Ghotki"
 },
@@ -7255,7 +7255,7 @@ window.asiaNameBases = [
   "i": 200274,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klt",
   "m": 0,
   "b": "Jodhpur,Bikaner,Barmer,Jalore,Sirohi,Udaipur,Dungarpur,Banswara,Pratapgarh,Chittorgarh,Bhilwara,Bundi,Kota,Baran,Jhalawar,Ajmer,Tonk,Sawai Madhopur,Karauli,Dausa,Alwar,Bharatpur,Jaipur,Sikar,Nagaur,Jhunjhunu,Churu,Ganganagar,Hanumangarh"
 },
@@ -7264,7 +7264,7 @@ window.asiaNameBases = [
   "i": 200275,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Fatuberliu,Viqueque,Manatuto,Maliana,Laleia,Quelicai,Com,Suai,Soibada,Same,Tutuala,Natarbora,Aileu,Ermera,Gleno,Lospalos,Barique,Oecusse,Baucau,Lacluta,Ainaro,Maubara,Dili,Batugade,Liquica"
 },
@@ -7273,7 +7273,7 @@ window.asiaNameBases = [
   "i": 200276,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Gandevi,Rajpipla,Navsari,Pardi,Bhilad,Jhagadia,Valsad,Vapi,Surat,Diu,Umargam,Virar,Bharuch,Sanjan,Umbergaon,Dahanu,Chikhli,Vasai,Daman,Ankleshwar,Kalai,Palghar,Silvassa,Kachigam,Boisar"
 },
@@ -7282,7 +7282,7 @@ window.asiaNameBases = [
   "i": 200277,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Melamchi,Manthali,Biratnagar,Birgunj,Chautara,Khimti,Sindhupalchok,Janakpur,Butwal,Lalitpur,Barahbise,Dhading,Bidur,Nuwakot,Sindhuli,Dharan,Ramechhap,Charikot,Kathmandu,Hetauda,Dhunche,Katathet,Pokhara,Kavrepalankot,Bharatpur"
 },
@@ -7291,7 +7291,7 @@ window.asiaNameBases = [
   "i": 200278,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Gorkha,Lamjung,Tanahu,Syangja,Palpa,Gulmi,Arghakhanchi,Kapilvastu,Rupandehi,Nawalparasi,Chitwan,Makwanpur,Dhading,Nuwakot,Rasuwa,Sindhupalchok,Kavrepalankot,Ramechhap,Dolakha,Sindhuli,Udayapur,Khotang,Bhojpur,Dhankuta,Terhathum,Sankhuwasabha,Solukhumbu,Okhaldhunga,Manthali"
 },
@@ -7300,7 +7300,7 @@ window.asiaNameBases = [
   "i": 200279,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Tsetserleg,Khovd,Nalaikh,Ulaanbaatar,Bayankhongor,Öndörkhaan,Mörön,Bayangol,Ölgii,Bulgan,Chinggis City,Sainshand,Choibalsan,Arvaikheer,Erdenet,Sükhbaatar,Baganuur,Dalanzadgad,Darkhan,Altai,Mandalgovi,Ulaangom,Songino,Uliastai,Zuunmod"
 },
@@ -7309,7 +7309,7 @@ window.asiaNameBases = [
   "i": 200280,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Jaipur,Jodhpur,Udaipur,Ajmer,Bikaner,Kota,Alwar,Bharatpur,Sikar,Sri Ganganagar,Pali,Barmer,Jalore,Sirohi,Bhilwara,Chittorgarh,Tonk,Bundi,Jhalawar,Dungarpur,Pratapgarh,Rajsamand,Banswara,Karauli,Dausa,Sawai Madhopur,Nagaur,Jhunjhunu,Churu,Fatehpur"
 },
@@ -7318,7 +7318,7 @@ window.asiaNameBases = [
   "i": 200281,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Shilu,Chengmai,Haikou,Qiongzhong,Qionghai,Lingshui,Tongza,Lingao,Nanluo,Baocheng,Xishui,Wenchang,Sanya,Changjiang,Baisha,Ledong,Luoxiu,Dingan,Danzhou,Wanning,Yinggen,Dongfang,Baoting,Tunchang,Yacheng"
 },
@@ -7327,7 +7327,7 @@ window.asiaNameBases = [
   "i": 200282,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Fuquan,Pu'an,Huangping,Guiding,Liping,Shibing,Wangmo,Sansui,Jianhe,Anlong,Majiang,Taijiang,Jinping,Dushan,Duyun,Libo,Ceheng,Cengong,Congjiang,Xingyi,Zhenfeng,Qinglong,Tianzhu,Pingtang,Luodian"
 },
@@ -7345,7 +7345,7 @@ window.asiaNameBases = [
   "i": 200284,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Dibrugarh,Bongaigaon,Kokrajhar,Hailakandi,Karimganj,Abhayapati,Rangapara,Rangia,Pathsala,Tezpur,Howly,Barpeta,Nalbari,Goalpara,Guwahati,Nagaon,Dhemaji,Silchar,Lakhimpur,Sorbhog,Dhubri,Jorhat,North Lakhimpur,Tangla,Morigaon"
 },
@@ -7363,7 +7363,7 @@ window.asiaNameBases = [
   "i": 200286,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Kondagaon,Kabirdham,Janjgir,Balod,Champa,Kawardha,Mahasamund,Goreaband,Jagdalpur,Bemetara,Rajnandgaon,Raigarh,Kanker,Antagarh,Narayanpur,Ambikapur,Bijapur,Durg,Dhamtari,Korba,Bilaspur,Sukma,Bhilai,Gariaband,Raipur"
 },
@@ -7381,7 +7381,7 @@ window.asiaNameBases = [
   "i": 200288,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Puli Alam,Kiti,Doshi,Gardez,Sharana,Gizab,Yakawlang,Shibar,Kajran,Mayden Shahr,Murghab,Shinwari,Jaghatu,Nili,Sayghan,Ghazni,Sharan,Panjshir,Talkhah,Kahmard,Du Layna,Behsard,Bamyan,Waras,Charikar"
 },
@@ -7399,7 +7399,7 @@ window.asiaNameBases = [
   "i": 200290,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bdknt",
   "m": 0,
   "b": "Hazaribagh,Deoghar,Pakur,Bokaro,Chandil,Purbi Singhbham,Dhanbad,Ramgarh,Jamshedpur,Lohardaga,Pashchim Singhbhum,Jagannathpur,Ranchi,Noamundi,Saraikela,Simdega,Dumka,Khunti,Giridih,Chatra,Chaibasa,Godda,Sahebganj,Gumla,Chakradharpur"
 },
@@ -7408,7 +7408,7 @@ window.asiaNameBases = [
   "i": 200291,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dn",
   "m": 0,
   "b": "Chatra,Ranchi,Pakur,Bokaro,Jagannathpur,Giridih,Lohardaga,Chandil,Simdega,Gumla,Hazaribagh,Dhanbad,Deoghar,Dumka,Godda,Noamundi,Pashchim Singhbhum,Chaibasa,Chakradharpur,Khunti,Sahebganj,Purbi Singhbham,Ramgarh,Saraikela,Jamshedpur"
 },
@@ -7417,7 +7417,7 @@ window.asiaNameBases = [
   "i": 200292,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dn",
   "m": 0,
   "b": "Yunxiao,Nanjing,Xiamen,Ningde,Dehua,Tong'an,Nanping,Sanming,Yongchun,Quanzhou,Dongshan,Nan'an,Longyan,Zhao'an,Huian,Zhangpu,Jinjiang,Pinghe,Shishi,Anxi,Jinmen,Zhangzhou,Putian,Fuzhou,Longhai"
 },
@@ -7435,7 +7435,7 @@ window.asiaNameBases = [
   "i": 200294,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kop",
   "m": 0,
   "b": "Sapporo,Asahikawa,Hakodate,Muroran,Kushiro,Obihiro,Kitami,Abashiri,Wakkanai,Rumoi,Otaru,Nemuro,Tomakomai,Iwamizawa,Bibai,Ashibetsu,Ebetsu,Akabira,Chitose,Eniwa,Hiroo,Makubetsu,Monbetsu,Shibetsu,Nayoro,Furano,Noboribetsu,Date,Mombetsu,Sunagawa"
 },
@@ -7444,7 +7444,7 @@ window.asiaNameBases = [
   "i": 200295,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kop",
   "m": 0,
   "b": "Khongsedone,Pakse,Tai Oy,Champasak,Ban Houay Houn,Houayxay,Tad Lo,Xe Sap,Katarn,Salavan,Attapeu,Dong Hua Sao,Sekong,Lamam,Vapy,Thakhek,Sa Mouay,Savannakhet,Lao Ngarm,Bolaven,Luansang,Toumlane,Lakhonepheng"
 },
@@ -7453,7 +7453,7 @@ window.asiaNameBases = [
   "i": 200296,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Helambu,Sindhupalchok,Nuwakot,Rasuwa,Dolakha,Ramechhap,Solukhumbu,Okhaldhunga,Kavrepalankot,Manthali,Sindhuli,Udayapur,Khotang,Bhojpur,Dhankuta,Terhathum,Panchthar,Ilam,Taplejung,Sankhuwasabha,Langtang,Gosainkunda,Kyirong,Nyalam,Tingri,Lhatse,Shigatse,Gyantse,Sakya"
 },
@@ -7462,7 +7462,7 @@ window.asiaNameBases = [
   "i": 200297,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Chitral,Jalkot,Dasu,Darel,Gupis,Shandur,Thowar,Kalash,Mastuj,Phandar,Seo,Pattan,Kareyis,Rajkot,Ishkoman,Gunai,Karimegh,Sherqila,Indus Kohistan,Yasin,Tangir,Kandia,Booni,Chilas,Gahkuch"
 },
@@ -7471,7 +7471,7 @@ window.asiaNameBases = [
   "i": 200298,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ot",
   "m": 0,
   "b": "Dalbandin,Ormara,Chagai,Duki,Pishin,Kalat,Musakhel,Taftan,Gwadar,Chaman,Jiwani,Surak,Quetta,Turbat,Zhob,Nushki,Sibi,Harnai,Ziarat,Mand,Loralai,Gawadar,Pasni,Khuzdar,Barkhan"
 },
@@ -7480,7 +7480,7 @@ window.asiaNameBases = [
   "i": 200299,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Taran Taran,Kalanaur,Fazilka,Faridkot,Amritsar,Firozpur,Hoshiarpur,Muktasar,Malaut,Jalalabad,Majitha,Ludhiana,Kapurthala,Ajnala,Bathinda,Patti,Mamdot,Khadoor Sahib,Jalandhar,Gurdaspur,Pathankot,Lambi,Giddarbaha,Abohar,Guru Har Sahai"
 },
@@ -7489,7 +7489,7 @@ window.asiaNameBases = [
   "i": 200300,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dot",
   "m": 0,
   "b": "Toyama,Sendai,Nagoya,Matsumoto,Kumamoto,Nagano,Sagamihara,Sapporo,Kyoto,Osaka,Kobe,Tokyo,Kanazawa,Sakai,Saitama,Niigata,Chiba,Shizuoka,Fukuoka,Kawasaki,Nara,Hiroshima,Yokohama,Okayama,Hamamatsu"
 },
@@ -7498,7 +7498,7 @@ window.asiaNameBases = [
   "i": 200301,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ip",
   "m": 0,
   "b": "Car Nicobar,Kadamtala,Kamorta,Port Blair,Rangat,Little Andaman,Kondul,Teressa,Ferrargunj,Mayabunder,Chowra,Bamboo Flat,Campbell Bay,Long Island,Pulomilo,Kalipur,Battimalv,Garachamara,Katchal,Hut Bay,Diglipur,Tillangchong,Havelock Island,Nancowry,Neil Island"
 },
@@ -7507,7 +7507,7 @@ window.asiaNameBases = [
   "i": 200302,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lorst",
   "m": 0,
   "b": "Tad Lo,Houayxay,Thakhek,Sa Mouay,Pakse,Lao Ngarm,Khongsedone,Salavan,Sekong,Champasak,Xe Sap,Luansang,Lamam,Vapy,Bolaven,Dong Hua Sao,Ban Houay Houn,Lakhonepheng,Savannakhet,Toumlane,Katarn,Tai Oy,Attapeu"
 },
@@ -7516,7 +7516,7 @@ window.asiaNameBases = [
   "i": 200303,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Haikou,Dongfang,Ledong,Qiongzhong,Sanya,Tunchang,Chengmai,Dingan,Nanluo,Wanning,Shilu,Baocheng,Yinggen,Qionghai,Tongza,Lingao,Baoting,Changjiang,Danzhou,Baisha,Xishui,Luoxiu,Wenchang,Lingshui,Yacheng"
 },
@@ -7525,7 +7525,7 @@ window.asiaNameBases = [
   "i": 200304,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Hezhou,Tunchang,Guilin,Sanya,Qionghai,Wenchang,Wanning,Dongfang,Wuzhou,Guigang,Danzhou,Beihai,Liuzhou,Qinzhou,Chengmai,Baise,Yulin,Haikou,Nanning,Changjiang,Baoting,Ledong,Lingao,Dingan,Fangchenggang"
 },
@@ -7534,7 +7534,7 @@ window.asiaNameBases = [
   "i": 200305,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Jaipur,Jodhpur,Udaipur,Ajmer,Bikaner,Kota,Alwar,Bharatpur,Sikar,Sri Ganganagar,Pali,Barmer,Jalore,Sirohi,Bhilwara,Chittorgarh,Tonk,Bundi,Jhalawar,Dungarpur,Pratapgarh,Rajsamand,Banswara,Karauli,Dausa,Sawai Madhopur,Nagaur,Jhunjhunu,Churu"
 },
@@ -7543,7 +7543,7 @@ window.asiaNameBases = [
   "i": 200306,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Lakhonepheng,Luansang,Bolaven,Champasak,Tad Lo,Toumlane,Houayxay,Thakhek,Lao Ngarm,Ban Houay Houn,Attapeu,Pakse,Vapy,Tai Oy,Sa Mouay,Khongsedone,Katarn,Savannakhet,Xe Sap,Salavan,Sekong,Dong Hua Sao,Lamam"
 },
@@ -7552,7 +7552,7 @@ window.asiaNameBases = [
   "i": 200307,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Silgudi,Lamki,Nepalgunj,Doti,Ghorahi,Bhajani,Baitadi,Achham,Mahendranagar,Dhangadhi,Rukum,Gularia,Tulsipur,Darchula,Bajura,Dipayal,Kohalpur,Bajhang,Dadeldhura,Tikapur,Rajapur,Salyan,Pyuthan,Jumla,Rolpa"
 },
@@ -7561,7 +7561,7 @@ window.asiaNameBases = [
   "i": 200308,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Heihe,Qiqihar,Ning'an,Mohe,Tongjiang,Mudanjiang,Fujin,Jiamusi,Dongning,Hegang,Tieli,Shuangyashan,Qitaihe,Muling,Nenjiang,Suihua,Shangzhi,Jixi,Yichun,Jiagedaqi,Bei'an,Hailin,Zhaodong,Harbin,Wuchang,Hailun,Fuyuan,Daqing,Suifenhe"
 },
@@ -7579,7 +7579,7 @@ window.asiaNameBases = [
   "i": 200310,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Perumbavoor,Kunnamkulam,Poonjar,Guruvayur,Bharananganam,Shoranur,Chittur,Changanassery,Irinjalakuda,Pattambi,Kottayam,Alathur,Muvattupuzha,Kanjirapally,Ettumanoor,Thodupuzha,Malappuram,Angamaly,Pala,Kodungallur,Chalakudy,Kothamangalam,Ottapalam,Vaikom,Palakkad,Thrissur,Mannarkkad"
 },
@@ -7588,7 +7588,7 @@ window.asiaNameBases = [
   "i": 200311,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klnopst",
   "m": 0,
   "b": "Helambu,Sindhupalchok,Nuwakot,Rasuwa,Dolakha,Ramechhap,Solukhumbu,Okhaldhunga,Kavrepalankot,Manthali,Sindhuli,Udayapur,Khotang,Bhojpur,Dhankuta,Terhathum,Panchthar,Ilam,Taplejung,Sankhuwasabha,Langtang,Gosainkunda,Kyirong,Nyalam,Tingri,Lhatse,Shigatse,Gyantse,Sakya"
 },
@@ -7597,7 +7597,7 @@ window.asiaNameBases = [
   "i": 200312,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Mastuj,Seo,Phandar,Gahkuch,Tangir,Jalkot,Dasu,Kandia,Booni,Pattan,Gunai,Rajkot,Sherqila,Darel,Chitral,Karimegh,Kalash,Indus Kohistan,Gupis,Ishkoman,Thowar,Shandur,Yasin,Kareyis,Chilas"
 },
@@ -7606,7 +7606,7 @@ window.asiaNameBases = [
   "i": 200313,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ot",
   "m": 0,
   "b": "Haikou,Lingao,Fangchenggang,Baoting,Qinzhou,Changjiang,Dongfang,Dingan,Guilin,Sanya,Beihai,Hezhou,Wanning,Chengmai,Qionghai,Wuzhou,Liuzhou,Baise,Nanning,Wenchang,Ledong,Danzhou,Yulin,Guigang,Tunchang"
 },
@@ -7615,7 +7615,7 @@ window.asiaNameBases = [
   "i": 200314,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Duyun,Tianzhu,Wangmo,Anlong,Panzhou,Jinping,Sandu,Pu'an,Qinglong,Jianhe,Kaili,Rongjiang,Libo,Congjiang,Zhenyuan,Danzhai,Xingren,Taijiang,Huangping,Liping,Sanshui,Ceheng,Pingtang,Luodian,Dushan"
 },
@@ -7642,7 +7642,7 @@ window.asiaNameBases = [
   "i": 200317,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Sundernagar,Santokhgarh,Nalagarh,Dharamshala,Joginder Nagar,Baijnath,Paonta Sahib,Hamirpur,Kullu,Manali,Una,Arki,Nahan,Shimla,Anandpur Sahib,Kiratpur,Rewalsar,Nurpur,Parwanoo,Solan,Mandi,Kangra,Bilaspur,Palampur,Ghumarwin"
 },
@@ -7651,7 +7651,7 @@ window.asiaNameBases = [
   "i": 200318,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lo",
   "m": 0,
   "b": "Kampot,Banteay Meanchey,Prey Veng,Battambang,Phnom Penh,Ratanakiri,Oddar Meanchey,Pailin,Poipet,Pursat,Preah Vihear,Kratie,Mondulkiri,Svay Rieng,Stung Treng,Kep,Kampong Cham,Sihanoukville,Kampong Chhnang,Siem Reap,Tboung Khmum,Takeo,Koh Kong,Kampong Thom,Kampong Speu"
 },
@@ -7660,7 +7660,7 @@ window.asiaNameBases = [
   "i": 200319,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dhlt",
   "m": 0,
   "b": "An Khe,Chu Se,Dak Doa,Mang Yang,Bao Lac,Pleiku,Chu Pah,Dak Plo,Dalat,Song Mao,Phan Rang,Ayun Pa,Da Lat,Dak Hrin,Krung Tra,Phu Tuc,Quy Nhon,Buon Ma Thuot,Dak Song,Tra Thu,Phan Thiet,Kon Tum,Kahet,Nha Trang"
 },
@@ -7678,7 +7678,7 @@ window.asiaNameBases = [
   "i": 200321,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Sekong,Bolaven,Vapy,Dong Hua Sao,Lao Ngarm,Tai Oy,Lamam,Thakhek,Katarn,Khongsedone,Champasak,Houayxay,Toumlane,Salavan,Lakhonepheng,Ban Houay Houn,Attapeu,Savannakhet,Pakse,Tad Lo,Xe Sap,Sa Mouay,Luansang"
 },
@@ -7687,7 +7687,7 @@ window.asiaNameBases = [
   "i": 200322,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Lalitpur,Bidur,Sindhuli,Bharatpur,Kavrepalankot,Sindhupalchok,Biratnagar,Barahbise,Hetauda,Butwal,Dharan,Chautara,Birgunj,Ramechhap,Janakpur,Kathmandu,Dhading,Pokhara,Charikot,Katathet,Nuwakot,Melamchi,Khimti,Manthali,Dhunche"
 },
@@ -7696,7 +7696,7 @@ window.asiaNameBases = [
   "i": 200323,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Arvaikheer,Zuunmod,Sükhbaatar,Choibalsan,Erdenet,Tsetserleg,Bayankhongor,Songino,Altai,Chinggis City,Bayangol,Dalanzadgad,Bulgan,Uliastai,Baganuur,Mandalgovi,Mörön,Öndörkhaan,Sainshand,Khovd,Ölgii,Nalaikh,Ulaangom,Darkhan,Ulaanbaatar"
 },
@@ -7705,7 +7705,7 @@ window.asiaNameBases = [
   "i": 200324,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Ölgii,Mörön,Ulaangom,Tsetserleg,Baganuur,Dalanzadgad,Songino,Erdenet,Bayangol,Bayankhongor,Nalaikh,Uliastai,Zuunmod,Darkhan,Choibalsan,Öndörkhaan,Sükhbaatar,Bulgan,Altai,Chinggis City,Arvaikheer,Khovd,Ulaanbaatar,Mandalgovi,Sainshand"
 },
@@ -7714,7 +7714,7 @@ window.asiaNameBases = [
   "i": 200325,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Karachi,Thatta,Tando Allahyar,Tando Adam,Badin,Ghotki,Tharparkar,Umerkot,Sanghar,Shikarpur,Larkana,Ratodero,Mirpur Khas,Hyderabad,Mehar,Naushahro Feroze,Kamber,Jacobabad,Matli,Khairpur,Nawabshah,Hala,Kandhkot,Sukkur,Dadu"
 },
@@ -7723,7 +7723,7 @@ window.asiaNameBases = [
   "i": 200326,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klt",
   "m": 0,
   "b": "Erdenet,Darkhan,Choibalsan,Zuunmod,Nalaikh,Ölgii,Khovd,Tsetserleg,Dalanzadgad,Sainshand,Uliastai,Mörön,Songino,Arvaikheer,Ulaanbaatar,Chinggis City,Sükhbaatar,Baganuur,Altai,Mandalgovi,Öndörkhaan,Bulgan,Bayangol,Bayankhongor,Ulaangom"
 },
@@ -7732,7 +7732,7 @@ window.asiaNameBases = [
   "i": 200327,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Sainshand,Songino,Öndörkhaan,Choibalsan,Ölgii,Erdenet,Arvaikheer,Darkhan,Dalanzadgad,Ulaanbaatar,Altai,Tsetserleg,Uliastai,Mandalgovi,Zuunmod,Nalaikh,Baganuur,Chinggis City,Khovd,Bayankhongor,Mörön,Bulgan,Bayangol,Ulaangom,Sükhbaatar"
 },
@@ -7741,7 +7741,7 @@ window.asiaNameBases = [
   "i": 200328,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Sainshand,Darkhan,Bayankhongor,Uliastai,Ölgii,Baganuur,Choibalsan,Altai,Mandalgovi,Chinggis City,Erdenet,Khovd,Bayangol,Songino,Arvaikheer,Zuunmod,Öndörkhaan,Nalaikh,Dalanzadgad,Bulgan,Mörön,Sükhbaatar,Ulaangom,Tsetserleg,Ulaanbaatar"
 },
@@ -7750,7 +7750,7 @@ window.asiaNameBases = [
   "i": 200329,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegiu",
   "m": 0,
   "b": "Vilyuysk,Udachny,Nyurba,Olyokminsk,Chulman,Zeya,Svobodny,Fevralsk,Tommot,Yakutsk,Komsomolsk,Neryungri,Lensk,Mirny,Bodaobo,Aldan,Tynda,Skovorodino,Magdagachi,Nikolayevsk,Poyarkov,Amursk,Shimanovsk,Birobidzhan,Arkhara"
 },
@@ -7759,7 +7759,7 @@ window.asiaNameBases = [
   "i": 200330,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "m",
   "m": 0,
   "b": "Godda,Sahebganj,Surajpur,Bokaro,Giridih,Garhwa,Latehar,Koriya,Gumla,Hazaribagh,Dumka,Chatra,Deoghar,Kawardha,Lohardaga,Bemetara,Balrampur,Jashpur,Simdega,Dhanbad,Pakur,Ranchi,Koderma,Palamu,Surguja"
 },
@@ -7768,7 +7768,7 @@ window.asiaNameBases = [
   "i": 200331,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "d",
   "m": 0,
   "b": "Bagh,Rawalakot,Mansehra,Sudhnati,Chikar,Haveli,Kotli,Abbottabad,Kohistan,Battagram,Mirpur,Dhirkot,Bhimber,Kel,Hajira,Poonch,Hattian,Haripur,Muzaffarabad,Sharda,Leepa,Diamer,Balakot,Athmuqam,Neelam Valley"
 },
@@ -7777,7 +7777,7 @@ window.asiaNameBases = [
   "i": 200332,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "beflot",
   "m": 0,
   "b": "Ooty,Pandalur,Gudalur,Tiruchirappalli,Dindigul,Salem,Theni,Erode,Karur,Nilgiris,Pudukkottai,Perambalur,Namakkal,Mukurthi,Thanjavur,Ramanathapuram,Tiruppur,Virudhunagar,Kotagiri,Coonoor,Madurai,Sivaganga,Vellore,Ariyalur,Coimbatore"
 },
@@ -7786,7 +7786,7 @@ window.asiaNameBases = [
   "i": 200333,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klopt",
   "m": 0,
   "b": "Zhenyuan,Dushan,Jianhe,Qinglong,Anlong,Taijiang,Wangmo,Xingren,Liping,Ceheng,Libo,Jinping,Duyun,Congjiang,Tianzhu,Huangping,Pu'an,Kaili,Sanshui,Panzhou,Danzhai,Rongjiang,Luodian,Pingtang,Sandu"
 },
@@ -7804,7 +7804,7 @@ window.asiaNameBases = [
   "i": 200335,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "et",
   "m": 0,
   "b": "Mukdahan,Nakhon Phanom,Sakon Nakhon,Kalasin,Khammouane,Savannakhet,Salavan,Champasak,Hoa Binh,Nghe An,Ha Tinh,Amnat Charoen,Yasothon,Roi Et,Udon Thani"
 },
@@ -7813,7 +7813,7 @@ window.asiaNameBases = [
   "i": 200336,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "mn",
   "m": 0,
   "b": "Larantuka,Ende,Konga,Wure,Lewotobi,Maumere,Bajawa,Sikka,Flores Timur,Adonara,Solor,Lembata,Pantar,Alor,Manggarai"
 },
@@ -7822,7 +7822,7 @@ window.asiaNameBases = [
   "i": 200337,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gk",
   "m": 0,
   "b": "Karachi,Hyderabad,Larkana,Sukkur,Quetta,Gwadar,Turbat,Khuzdar,Sibi,Dadu,Nawabshah,Jacobabad,Shikarpur,Ghotki,Pishin"
 },
@@ -7831,7 +7831,7 @@ window.asiaNameBases = [
   "i": 200338,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kt",
   "m": 0,
   "b": "Lo Manthang,Jomsom,Marpha,Tukuche,Kagbeni,Muktinath,Chhusang,Ghiling,Samar,Ghami,Bahragaun,Chhoyo,Dhi,Jharkot,Phalyak"
 },
@@ -7840,7 +7840,7 @@ window.asiaNameBases = [
   "i": 200339,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Jodhpur,Bikaner,Jaisalmer,Barmer,Pali,Nagaur,Sikar,Churu,Fatehpur,Jhunjhunu,Merta,Phalodi,Balotra,Sanchor,Siwana"
 },
@@ -7858,7 +7858,7 @@ window.asiaNameBases = [
   "i": 200341,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Nizhneudinsk,Kushun,Mungutubuluk,Irkutsk,Ust-Orda,Tulun,Kultuk,Slyudyanka,Baykalsk,Angarsk,Usolye,Cheremkhovo,Zima,Taishet,Bratsk"
 },
@@ -7876,7 +7876,7 @@ window.asiaNameBases = [
   "i": 200343,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Chandrapur,Gadchiroli,Nagpur,Bhandara,Gondia,Rajnandgaon,Kanker,Balaghat,Mandla,Seoni,Chhindwara,Betul,Harda,Buldhana,Wardha"
 },
@@ -7885,7 +7885,7 @@ window.asiaNameBases = [
   "i": 200344,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Patna,Gaya,Nalanda,Jehanabad,Arwal,Aurangabad,Lakhisarai,Sheikhpura,Nawada,Jamui,Banka,Munger,Bhagalpur,Hazaribagh,Bokaro"
 },
@@ -7921,7 +7921,7 @@ window.asiaNameBases = [
   "i": 200348,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "f",
   "m": 0,
   "b": "Ramechhap,Dolakha,Kavrepalanchok,Khotang,Okhaldhunga,Udayapur,Sindhuli,Sunsari,Morang,Jhapa,Ilam,Panchthar,Terhathum,Bhojpur,Dhankuta"
 },
@@ -7930,7 +7930,7 @@ window.asiaNameBases = [
   "i": 200349,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Libo,Dushan,Duyun,Sandu,Rongjiang,Congjiang,Liping,Jinping,Tongdao,Xinning,Chengbu,Wugang,Longhui,Suining,Huitong"
 },
@@ -7939,7 +7939,7 @@ window.asiaNameBases = [
   "i": 200350,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Coimbatore,Tiruppur,Erode,Palakkad,Thrissur,Mannarkkad,Attapadi,Nilgiris,Dindigul,Karur,Pollachi,Udumalaipettai,Valparai,Anaimalai,Velliangiri"
 },
@@ -7948,7 +7948,7 @@ window.asiaNameBases = [
   "i": 200351,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klnpst",
   "m": 0,
   "b": "Kollam,Thiruvananthapuram,Kanyakumari,Tirunelveli,Nagercoil,Palakkad,Malappuram,Wayanad,Idukki,Pathanamthitta,Alappuzha,Kottayam,Ernakulam,Thrissur,Kasaragod"
 },
@@ -7957,7 +7957,7 @@ window.asiaNameBases = [
   "i": 200352,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klpst",
   "m": 0,
   "b": "Kanyakumari,Tirunelveli,Nagercoil,Kollam,Thiruvananthapuram,Idukki,Wayanad,Palakkad,Pathanamthitta,Kottayam,Ernakulam,Malappuram,Thrissur,Kasaragod,Dindigul"
 },
@@ -7966,7 +7966,7 @@ window.asiaNameBases = [
   "i": 200353,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klpst",
   "m": 0,
   "b": "Palakkad,Thrissur,Coimbatore,Erode,Nilgiris,Parambikulam,Anaimalai,Nelliampathi,Kollengode,Nemmara,Chittoor,Malai,Velliangiri,Poondi,Mallung"
 },
@@ -7975,7 +7975,7 @@ window.asiaNameBases = [
   "i": 200354,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klmost",
   "m": 0,
   "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha"
 },
@@ -7993,7 +7993,7 @@ window.asiaNameBases = [
   "i": 200356,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "d",
   "m": 0,
   "b": "Ujjain,Indore,Dhar,Ratlam,Mandsaur,Neemuch,Rajgarh,Shajapur,Agar Malwa,Jhalawar,Kota,Bundi,Baran,Chittorgarh,Pratapgarh"
 },
@@ -8002,7 +8002,7 @@ window.asiaNameBases = [
   "i": 200357,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ejt",
   "m": 0,
   "b": "Balesore,Mayurbhanj,Jharsuguda,Sundargarh,Keonjhar,Sambalpur,Angul,Dhenkanal,Cuttack,Kendrapara,Jagatsinghpur,Puri,Khordha,Nayagarh,Ganjam"
 },
@@ -8011,7 +8011,7 @@ window.asiaNameBases = [
   "i": 200358,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Minhe,Huzhu,Datong,Ledu,Pingan,Hualong,Xunhua,Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang"
 },
@@ -8029,7 +8029,7 @@ window.asiaNameBases = [
   "i": 200360,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "cg",
   "m": 0,
   "b": "Abbottabad,Mansehra,Haripur,Battagram,Kohistan,Torghar,Havelian,Murree,Muzaffarabad,Hattian,Bagh,Poonch,Bhimber,Kotli,Mirpur"
 },
@@ -8038,7 +8038,7 @@ window.asiaNameBases = [
   "i": 200361,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "befort",
   "m": 0,
   "b": "Huanjiang,Dahua,Yizhou,Luocheng,Nandan,Tiane,Duan,Hechi,Du'an,Shangsi,Leye,Lingyun,Fengshan,Tianlin,Bama"
 },
@@ -8056,7 +8056,7 @@ window.asiaNameBases = [
   "i": 200363,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Jodhpur,Jaipur,Jaisalmer,Bikaner,Udaipur,Ajmer,Kota,Alwar,Bharatpur,Bhilwara,Pali,Sikar,Churu,Ganganagar,Nagaur"
 },
@@ -8074,7 +8074,7 @@ window.asiaNameBases = [
   "i": 200365,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gk",
   "m": 0,
   "b": "Tura,Williamnagar,Baghmara,Resubelpara,Mendipathar,Kharkutta,Dalu,Rongjeng,Ampati,Selsella,Phulbari,Rajabala,Gasuapara,Zikzak,Betasing"
 },
@@ -8083,7 +8083,7 @@ window.asiaNameBases = [
   "i": 200366,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lt",
   "m": 0,
   "b": "Kon Tum,Pleiku,Buon Ma Thuot,Da Lat,Nha Trang,Phan Rang,Phan Thiet,Dalat,Banmethuot,Gia Lai,Dak Lak,Lam Dong,Binh Dinh,Khanh Hoa,Ninh Thuan"
 },
@@ -8101,7 +8101,7 @@ window.asiaNameBases = [
   "i": 200368,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lmt",
   "m": 0,
   "b": "Udaipur,Chittorgarh,Rajsamand,Bhilwara,Pratapgarh,Banswara,Dungarpur,Sirohi,Pali,Jalore,Barmer,Jodhpur,Nagaur,Ajmer,Jaipur"
 },
@@ -8110,7 +8110,7 @@ window.asiaNameBases = [
   "i": 200369,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Alwar,Bharatpur,Dausa,Karauli,Sawai Madhopur,Gurgaon,Rewari,Mahendragarh,Nuh,Palwal,Faridabad,Mathura,Agra,Firozabad,Etah"
 },
@@ -8128,7 +8128,7 @@ window.asiaNameBases = [
   "i": 200371,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ah",
   "m": 0,
   "b": "Wenshan,Malipo,Guibian,Yanshan,Guangnan,Qiubei,Funing,Xichou,Maguan,Jianshui,Gejiu,Kaiyuan,Mengzi,Luxi,Yiliang"
 },
@@ -8209,7 +8209,7 @@ window.asiaNameBases = [
   "i": 200380,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "mnt",
   "m": 0,
   "b": "Nilgiris,Coimbatore,Palakkad,Wayanad,Malappuram,Thrissur,Erode,Dindigul,Theni,Idukki,Kannur,Kasaragod,Kozhikode,Kottayam,Pathanamthitta"
 },
@@ -8218,7 +8218,7 @@ window.asiaNameBases = [
   "i": 200381,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "knpst",
   "m": 0,
   "b": "Dolpa,Mugu,Jumla,Humla,Kalikot,Bajura,Bajhang,Darchula,Baitadi,Dadeldhura,Doti,Achham,Surkhet,Dailekh,Jajarkot"
 },
@@ -8227,7 +8227,7 @@ window.asiaNameBases = [
   "i": 200382,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Nilgiris,Wayanad,Malappuram,Palakkad,Kozhikode,Coimbatore,Erode,Dindigul,Theni,Idukki,Thrissur,Kannur,Kasaragod,Kottayam,Pathanamthitta"
 },
@@ -8236,7 +8236,7 @@ window.asiaNameBases = [
   "i": 200383,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "knpst",
   "m": 0,
   "b": "Ranchi,Khunti,Gumla,Lohardaga,Simdega,West Singhbhum,East Singhbhum,Saraikela,Jamshedpur,Chaibasa,Chakradharpur,Noamundi,Jagannathpur,Kolebira,Bano"
 },
@@ -8245,7 +8245,7 @@ window.asiaNameBases = [
   "i": 200384,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Hoa Binh,Thanh Hoa,Ninh Binh,Phu Tho,Son La,Dien Bien,Lai Chau,Yen Bai,Tuyen Quang,Bac Kan,Thai Nguyen,Vinh Phuc,Ha Nam,Nam Dinh,Ninh Binh"
 },
@@ -8263,7 +8263,7 @@ window.asiaNameBases = [
   "i": 200386,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Idukki,Ernakulam,Kottayam,Pathanamthitta,Wayanad,Palakkad,Thrissur,Coimbatore,Dindigul,Theni,Nilgiris,Kannur,Kasaragod,Malappuram,Kozhikode"
 },
@@ -8272,7 +8272,7 @@ window.asiaNameBases = [
   "i": 200387,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "knpst",
   "m": 0,
   "b": "Debao,Jingxi,Napo,Longsang,Tiandeng,Daxin,Chongzuo,Ningming,Longzhou,Pingxiang,Baise,Yunnan,Funing,Malipo,Guangnan"
 },
@@ -8281,7 +8281,7 @@ window.asiaNameBases = [
   "i": 200388,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Mymensingh,Netrokona,Jamalpur,Sherpur,Kishoreganj,Narsingdi,Gazipur,Tangail,Manikganj,Munshiganj,Dhaka,Narayanganj,Faridpur,Gopalganj,Madaripur"
 },
@@ -8317,7 +8317,7 @@ window.asiaNameBases = [
   "i": 200392,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "e",
   "m": 0,
   "b": "Khabarovsk,Vladivostok,Ussuriysk,Nakhodka,Dalnegorsk,Lesozavodsk,Spassk-Dalny,Artyom,Bolshoy Kamen,Fokino,Partizansk,Luchegorsk,Dalnerechensk,Bikin,Terney"
 },
@@ -8326,7 +8326,7 @@ window.asiaNameBases = [
   "i": 200393,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Jishishan,Linxia,Hezheng,Kangle,Yongjing,Guanghe,Zhengdie,Fengxiang,Xunhua,Hualong,Minhe,Huzhu,Datong,Ledu,Pingan"
 },
@@ -8344,7 +8344,7 @@ window.asiaNameBases = [
   "i": 200395,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Khabarovsk,Nikolayevsk,Tugur,Chumikan,Ayan,Okhotsk,Evensk,Magadan,Ola,Palatka,Bogorodskoye,Imeni Poliny Osipenko,Tyr,Ulchskiy,Nanaiski"
 },
@@ -8371,7 +8371,7 @@ window.asiaNameBases = [
   "i": 200398,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "e",
   "m": 0,
   "b": "Dewas,Shajapur,Agar Malwa,Rajgarh,Sehore,Raisen,Vidisha,Bhopal,Guna,Ashoknagar,Shivpuri,Datia,Gwalior,Morena,Bhind"
 },
@@ -8389,7 +8389,7 @@ window.asiaNameBases = [
   "i": 200400,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Jingxi,Debao,Napo,Longsang,Tiandeng,Daxin,Chongzuo,Ningming,Longzhou,Pingxiang,Baise,Yunnan,Funing,Malipo,Guangnan"
 },
@@ -8398,7 +8398,7 @@ window.asiaNameBases = [
   "i": 200401,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Hailar,Manzhouli,Yakeshi,Zhalantun,Nenjiang,Qiqihar,Fuyu,Nehe,Keshan,Baiquan,Mingshui,Hailun,Suileng,Wangkui,Lanxi"
 },
@@ -8425,7 +8425,7 @@ window.asiaNameBases = [
   "i": 200404,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aeu",
   "m": 0,
   "b": "Chiang Mai,Lampang,Lamphun,Phrae,Nan,Uttaradit,Phitsanulok,Sukhothai,Kamphaeng Phet,Tak,Nakhon Sawan,Uthai Thani,Chai Nat,Lopburi,Saraburi"
 },
@@ -8434,7 +8434,7 @@ window.asiaNameBases = [
   "i": 200405,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Phrae,Nan,Mae Hong Son,Phayao,Uttaradit,Phitsanulok,Sukhothai,Kamphaeng Phet,Tak,Nakhon Sawan,Uthai Thani"
 },
@@ -8443,7 +8443,7 @@ window.asiaNameBases = [
   "i": 200406,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Yakutsk,Neryungri,Mirny,Udachny,Nyurba,Vilyuysk,Lensk,Olyokminsk,Aldan,Tommot,Chulman,Berkakit,Zeya,Tynda,Skovorodino"
 },
@@ -8452,7 +8452,7 @@ window.asiaNameBases = [
   "i": 200407,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "m",
   "m": 0,
   "b": "Lao Cai,Ha Giang,Cao Bang,Lang Son,Bac Kan,Thai Nguyen,Tuyen Quang,Yen Bai,Lai Chau,Son La,Dien Bien,Phu Tho,Vinh Phuc,Bac Giang,Quang Ninh"
 },
@@ -8479,7 +8479,7 @@ window.asiaNameBases = [
   "i": 200410,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "mnt",
   "m": 0,
   "b": "Jodhpur,Bikaner,Jaisalmer,Barmer,Pali,Nagaur,Sikar,Churu,Fatehpur,Jhunjhunu,Merta,Phalodi,Balotra,Sanchor,Siwana"
 },
@@ -8497,7 +8497,7 @@ window.asiaNameBases = [
   "i": 200412,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Ulaanbaatar,Khovd,Ulaangom,Bayankhongor,Govi-Altai,Zavkhan,Uvs,Arvaikheer,Tsetserleg,Bulgan,Erdenet,Sukhbaatar,Darkhan,Moron,Ondorkhaan"
 },
@@ -8506,7 +8506,7 @@ window.asiaNameBases = [
   "i": 200413,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ae",
   "m": 0,
   "b": "Attapeu,Sekong,Salavan,Champasak,Savannakhet,Khammouane,Bolikhamxai,Vientiane,Xiangkhouang,Houaphan,Phongsali,Luang Prabang,Oudomxai,Bokeo,Sainyabuli"
 },
@@ -8515,7 +8515,7 @@ window.asiaNameBases = [
   "i": 200414,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "mnt",
   "m": 0,
   "b": "Khovd,Ulaangom,Bayankhongor,Govi-Altai,Zavkhan,Uvs,Kalmykia,Astrakhan,Elista,Iki-Burul,Komsomolsky,Priyutnoye,Tashang,Balkhash,Almaty"
 },
@@ -8524,7 +8524,7 @@ window.asiaNameBases = [
   "i": 200415,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "a",
   "m": 0,
   "b": "Hohhot,Chifeng,Tongliao,Hailar,Manzhouli,Xilinhot,Ulanhot,Arxan,Erenhot,Duolun,Shangdu,Yingchang,Dadu,Zhongdu,Shangjing"
 },
@@ -8533,7 +8533,7 @@ window.asiaNameBases = [
   "i": 200416,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Hohhot,Chifeng,Tongliao,Hailar,Manzhouli,Xilinhot,Ulanhot,Arxan,Erenhot,Duolun,Shangdu,Yingchang,Dadu,Zhongdu,Shangjing"
 },
@@ -8542,7 +8542,7 @@ window.asiaNameBases = [
   "i": 200417,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "h",
   "m": 0,
   "b": "Visakhapatnam,Vizianagaram,Srikakulam,East Godavari,West Godavari,Krishna,Guntur,Prakasam,Nellore,Chittoor,Kadapa,Anantapur,Kurnool,Sundargarh,Keonjhar"
 },
@@ -8551,7 +8551,7 @@ window.asiaNameBases = [
   "i": 200418,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lot",
   "m": 0,
   "b": "Little Andaman,Rutland Island,South Andaman,North Andaman,Middle Andaman,Havelock Island,Neil Island,Baratang,Ritchie Archipelago,Temple Sound,Interview Island,North Reef,Stewart Island,Sound Island,Alexandra Island"
 },
@@ -8560,7 +8560,7 @@ window.asiaNameBases = [
   "i": 200419,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "det",
   "m": 0,
   "b": "Ordos,Baotou,Hohhot,Bayannur,Wuhai,Alxa,Ulaanchab,Xilingol,Hinggan,Tongliao,Chifeng,Hulunbuir,Manzhouli,Erenhot,Arxan"
 },
@@ -8569,7 +8569,7 @@ window.asiaNameBases = [
   "i": 200420,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aghn",
   "m": 0,
   "b": "Kandahar,Lashkargah,Quetta,Zhob,Pishin,Chaman,Turbat,Khuzdar,Sibi,Loralai,Musakhel,Barkhan,Kohlu,Duki,Harnai"
 },
@@ -8578,7 +8578,7 @@ window.asiaNameBases = [
   "i": 200421,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Khabarovsk,Nikolayevsk,Sovetskaya Gavan,Vanino,Lazarev,Chumikan,Ayan,Okhotsk,Evensk,Magadan,Ola,Palatka,Bogorodskoye,Tyr,Ulchskiy"
 },
@@ -8623,7 +8623,7 @@ window.asiaNameBases = [
   "i": 200426,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bfot",
   "m": 0,
   "b": "Karachi,Lahore,Islamabad,Rawalpindi,Faisalabad,Multan,Peshawar,Quetta,Hyderabad,Sialkot,Gujranwala,Sargodha,Bahawalpur,Sukkur,Larkana"
 },
@@ -8632,7 +8632,7 @@ window.asiaNameBases = [
   "i": 200427,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kt",
   "m": 0,
   "b": "Madurai,Theni,Dindigul,Virudhunagar,Ramanathapuram,Sivaganga,Tirunelveli,Kanyakumari,Thoothukudi,Tiruchirapalli,Salem,Namakkal,Erode,Coimbatore,Karur"
 },
@@ -8641,7 +8641,7 @@ window.asiaNameBases = [
   "i": 200428,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "klo",
   "m": 0,
   "b": "Chitral,Drosh,Booni,Mastuj,Shishi,Golen,Phargram,Lotkoh,Shandur,Mulkhow,Torkhow,Laspur,Hunza,Gilgit,Skardu"
 },
@@ -8650,7 +8650,7 @@ window.asiaNameBases = [
   "i": 200429,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Lingayen,Dagupan,Manaoag,Urdaneta,Calasiao,Binmaley,Mangaldan,Mapandan,Santa Barbara,Malasiqui,Villasis,Santo Tomas,Bautista,Alaminos,San Carlos"
 },
@@ -8659,7 +8659,7 @@ window.asiaNameBases = [
   "i": 200430,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Aizawl,Lunglei,Champhai,Serchhip,Lawngtlai,Siaha,Khawzawl,Saitual,Hnahthial,Bairabi,Vairengte,Thenzawl,Tlabung,Zawlnuam,Phullen"
 },
@@ -8668,7 +8668,7 @@ window.asiaNameBases = [
   "i": 200431,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "hl",
   "m": 0,
   "b": "Kabul,Jalalabad,Kandahar,Herat,Mazar-i-Sharif,Peshawar,Quetta,Kunduz,Ghazni,Lashkargah,Khost,Gardez,Bamyan,Farah,Zaranj"
 },
@@ -8677,7 +8677,7 @@ window.asiaNameBases = [
   "i": 200432,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Kandahar,Lashkargah,Kabul,Jalalabad,Herat,Mazar-i-Sharif,Peshawar,Quetta,Kunduz,Ghazni,Khost,Gardez,Bamyan,Farah,Zaranj"
 },
@@ -8686,7 +8686,7 @@ window.asiaNameBases = [
   "i": 200433,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Nellore,Chittoor,Tirupati,Kadapa,Anantapur,Kurnool,Prakasam,Guntur,Krishna,East Godavari,West Godavari,Visakhapatnam,Vizianagaram,Srikakulam,YSR Kadapa"
 },
@@ -8695,7 +8695,7 @@ window.asiaNameBases = [
   "i": 200434,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lot",
   "m": 0,
   "b": "Battambang,Siem Reap,Pailin,Samlot,Phnom Penh,Kampong Cham,Kampong Thom,Kampong Speu,Takeo,Kampot,Sihanoukville,Kep,Koh Kong,Pursat,Banteay Meanchey"
 },
@@ -8704,7 +8704,7 @@ window.asiaNameBases = [
   "i": 200435,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "lt",
   "m": 0,
   "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha,Wangdue Phodrang"
 },
@@ -10081,7 +10081,7 @@ window.asiaNameBases = [
   "i": 200660,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegi",
   "m": 0,
   "b": "Almaty,Astana,Bishkek,Dushanbe,Tashkent,Ashgabat,Ulaanbaatar,Khovd,Olggii,Ulaangom,Moron,Erdenet,Darkhan,Choibalsan,Sukhbaatar,Arvaikheer,Dalanzadgad,Uliastai,Bayankhongor,Altai,Bulgan,Khovsgol,Khentii,Dornod,Govi-Altai,Omnogovi,Bayankhongor,Zavkhan,Uvs,Govisumber"
 },
@@ -10090,7 +10090,7 @@ window.asiaNameBases = [
   "i": 200661,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegi",
   "m": 0,
   "b": "Almaty,Astana,Bishkek,Dushanbe,Tashkent,Ashgabat,Ulaanbaatar,Khovd,Olggii,Ulaangom,Moron,Erdenet,Darkhan,Choibalsan,Sukhbaatar,Arvaikheer,Dalanzadgad,Uliastai,Bayankhongor,Altai,Bulgan,Khovsgol,Khentii,Dornod,Govi-Altai,Omnogovi,Bayankhongor,Zavkhan,Uvs,Govisumber"
 },
@@ -10099,7 +10099,7 @@ window.asiaNameBases = [
   "i": 200662,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aegi",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10108,7 +10108,7 @@ window.asiaNameBases = [
   "i": 200663,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10117,7 +10117,7 @@ window.asiaNameBases = [
   "i": 200664,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10126,7 +10126,7 @@ window.asiaNameBases = [
   "i": 200665,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10135,7 +10135,7 @@ window.asiaNameBases = [
   "i": 200666,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10144,7 +10144,7 @@ window.asiaNameBases = [
   "i": 200667,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10153,7 +10153,7 @@ window.asiaNameBases = [
   "i": 200668,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10162,7 +10162,7 @@ window.asiaNameBases = [
   "i": 200669,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10171,7 +10171,7 @@ window.asiaNameBases = [
   "i": 200670,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10180,7 +10180,7 @@ window.asiaNameBases = [
   "i": 200671,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10189,7 +10189,7 @@ window.asiaNameBases = [
   "i": 200672,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10198,7 +10198,7 @@ window.asiaNameBases = [
   "i": 200673,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10207,7 +10207,7 @@ window.asiaNameBases = [
   "i": 200674,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10216,7 +10216,7 @@ window.asiaNameBases = [
   "i": 200675,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10225,7 +10225,7 @@ window.asiaNameBases = [
   "i": 200676,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10234,7 +10234,7 @@ window.asiaNameBases = [
   "i": 200677,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10243,7 +10243,7 @@ window.asiaNameBases = [
   "i": 200678,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10252,7 +10252,7 @@ window.asiaNameBases = [
   "i": 200679,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10261,7 +10261,7 @@ window.asiaNameBases = [
   "i": 200680,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10270,7 +10270,7 @@ window.asiaNameBases = [
   "i": 200681,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10279,7 +10279,7 @@ window.asiaNameBases = [
   "i": 200682,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10288,7 +10288,7 @@ window.asiaNameBases = [
   "i": 200683,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10297,7 +10297,7 @@ window.asiaNameBases = [
   "i": 200684,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10306,7 +10306,7 @@ window.asiaNameBases = [
   "i": 200685,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10315,7 +10315,7 @@ window.asiaNameBases = [
   "i": 200686,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10324,7 +10324,7 @@ window.asiaNameBases = [
   "i": 200687,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10333,7 +10333,7 @@ window.asiaNameBases = [
   "i": 200688,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10342,7 +10342,7 @@ window.asiaNameBases = [
   "i": 200689,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10351,7 +10351,7 @@ window.asiaNameBases = [
   "i": 200690,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10360,7 +10360,7 @@ window.asiaNameBases = [
   "i": 200691,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10369,7 +10369,7 @@ window.asiaNameBases = [
   "i": 200692,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10378,7 +10378,7 @@ window.asiaNameBases = [
   "i": 200693,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10387,7 +10387,7 @@ window.asiaNameBases = [
   "i": 200694,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10396,7 +10396,7 @@ window.asiaNameBases = [
   "i": 200695,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10405,7 +10405,7 @@ window.asiaNameBases = [
   "i": 200696,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10414,7 +10414,7 @@ window.asiaNameBases = [
   "i": 200697,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10423,7 +10423,7 @@ window.asiaNameBases = [
   "i": 200698,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10432,7 +10432,7 @@ window.asiaNameBases = [
   "i": 200699,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10441,7 +10441,7 @@ window.asiaNameBases = [
   "i": 200700,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10450,7 +10450,7 @@ window.asiaNameBases = [
   "i": 200701,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10459,7 +10459,7 @@ window.asiaNameBases = [
   "i": 200702,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10468,7 +10468,7 @@ window.asiaNameBases = [
   "i": 200703,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10477,7 +10477,7 @@ window.asiaNameBases = [
   "i": 200704,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10486,7 +10486,7 @@ window.asiaNameBases = [
   "i": 200705,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10495,7 +10495,7 @@ window.asiaNameBases = [
   "i": 200706,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Beijing,Shanghai,Tokyo,Seoul,Osaka,Kyoto,Hiroshima,Nagoya,Yokohama,Kobe,Sendai,Sapporo,Fukuoka,Taipei,Kaohsiung,Taichung,Hsinchu,Busan,Incheon,Daegu,Gwangju,Daejeon,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang"
 },
@@ -10504,7 +10504,7 @@ window.asiaNameBases = [
   "i": 200707,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Huizhou,Boluo,Huidong,Haifeng,Zengcheng,Fuzhou,Ningde,Luoyuan,Xiapu,Longyan,Changting,Pingyang,Wenzhou,Lishui,Quzhou,Shangrao,Yingtan,Ganzhou,Huangshan,Xuancheng,Wuyuan,Dexing,Guixi,Yanshan,Qianshan,Wuning,Xiushui,Tonggu,Yifeng,Fengxin"
 },
@@ -10513,7 +10513,7 @@ window.asiaNameBases = [
   "i": 200708,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Fuqing,Youxi,Datian,Yongtai,Minhou,Lianjiang,Luoyuan,Fuding,Shouning,Zherong,Pingnan,Longxi,Dongtou,Cangnan,Taishun,Qingtian,Yunhe,Jingning,Longquan,Suichang,Songxi,Zhenghe,Jianyang,Shaowu,Wuyishan,Pucheng,Guangze,Shunchang,Jiangle,Mingxi"
 },
@@ -10540,7 +10540,7 @@ window.asiaNameBases = [
   "i": 200711,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Seoul,Busan,Incheon,Daegu,Daejeon,Gwangju,Ulsan,Suwon,Changwon,Goyang,Yongin,Cheongju,Jeonju,Pohang,Jeju,Chuncheon,Wonju,Gangneung,Sokcho,Donghae,Samcheok,Taebaek,Jecheon,Chungju,Cheongwon,Gimcheon,Gumi,Yeosu,Suncheon,Mokpo"
 },
@@ -10558,7 +10558,7 @@ window.asiaNameBases = [
   "i": 200713,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "en",
   "m": 0,
   "b": "Suzhou,Wuxi,Changzhou,Kunshan,Taicang,Wujiang,Zhangjiagang,Changshu,Jiangyin,Jintan,Liyang,Yixing,Huzhou,Jiaxing,Shaoxing,Ningbo,Zhoushan,Tongxiang,Haining,Pinghu,Deqing,Anji,Yuhang,Xiaoshan,Fuyang,Lin'an,Tonglu,Jiande,Fenshui"
 },
@@ -10576,7 +10576,7 @@ window.asiaNameBases = [
   "i": 200715,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "e",
   "m": 0,
   "b": "Wenzhou,Rui'an,Yueqing,Dongtou,Pingyang,Cangnan,Wencheng,Taishun,Yongjia,Kunyang,Fuding,Xiapu,Zherong,Shouning,Fu'an,Fuding,Ningde,Lishui,Jinyun,Qingtian,Xianju,Tiantai,Linhai,Wenling,Yuhuan,Sanmen,Xinchang,Shengzhou,Zhuji"
 },
@@ -10594,7 +10594,7 @@ window.asiaNameBases = [
   "i": 200717,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Jishou,Fenghuang,Guzhang,Luxi,Longshan,Baojing,Huayuan,Yongshun,Lichuan,Enshi,Xianfeng,Laifeng,Hefeng,Badong,Zigui,Yichang,Yidu,Zhijiang,Jianshi,Xuanen,Xianfeng,Songzi,Gong'an,Jiangling,Shishou,Honghu,Jianli,Shayang,Zhongxiang"
 },
@@ -10612,7 +10612,7 @@ window.asiaNameBases = [
   "i": 200719,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Hamhung,Chongjin,Rason,Wonsan,Kanggye,Sinuiju,Hyesan,Kimchaek,Kaesong,Sariwon,Nampo,Pyongyang,Tonghua,Baishan,Yanji,Tumen,Dunhua,Jiaohe,Huichun,Antu,Helong,Longjing,Wangqing,Qingyuan,Fushun,Benxi,Dandong,Liaoyuan,Siping,Changchun"
 },
@@ -10621,7 +10621,7 @@ window.asiaNameBases = [
   "i": 200720,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Xinning,Chengbu,Tongdao,Zhijiang,Xinhuang,Hongjiang,Zhongfang,Huitong,Jingzhou,Mayang,Yuanling,Chenxi,Xupu,Luxi,Fenghuang,Baojing,Guzhang,Yongshun,Longshan,Jishou,Lichuan,Enshi,Xianfeng,Laifeng,Hefeng,Badong,Zigui,Yichang"
 },
@@ -10630,7 +10630,7 @@ window.asiaNameBases = [
   "i": 200721,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Gangneung,Sokcho,Yangyang,Samcheok,Donghae,Taebaek,Jeongseon,Yeongwol,Pyeongchang,Jecheon,Danyang,Uljin,Cheorwon,Hwacheon,Yanggu,Inje,Goseong,Hongcheon,Hoengseong,Wonju,Chuncheon,Gapyeong,Pyeonggang,Anbyon,Kowon,Munchon,Sepo,Chonnae,Tongchon,Kosong"
 },
@@ -10639,7 +10639,7 @@ window.asiaNameBases = [
   "i": 200722,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Chuncheon,Wonju,Hongcheon,Hoengseong,Yeongwol,Pyeongchang,Jecheon,Danyang,Cheorwon,Hwacheon,Yanggu,Inje,Goseong,Gapyeong,Pocheon,Yeoncheon,Paju,Goyang,Uijeongbu,Namyangju,Guri,Hanam,Gwangju,Icheon,Yongin,Anseong,Pyeongtaek,Hwaseong,Osan"
 },
@@ -10648,7 +10648,7 @@ window.asiaNameBases = [
   "i": 200723,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Xinning,Chengbu,Tongdao,Zhijiang,Xinhuang,Hongjiang,Zhongfang,Huitong,Jingzhou,Mayang,Yuanling,Chenxi,Xupu,Luxi,Fenghuang,Baojing,Guzhang,Yongshun,Longshan,Jishou,Lichuan,Enshi,Xianfeng,Laifeng,Hefeng,Badong,Zigui,Yichang"
 },
@@ -10657,7 +10657,7 @@ window.asiaNameBases = [
   "i": 200724,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Longsheng,Sanjiang,Rongshui,Rong'an,Lingui,Xing'an,Quanzhou,Guanyang,Ziyuan,Chengbu,Xinning,Tongdao,Zhijiang,Xinhuang,Hongjiang,Zhongfang,Huitong,Jingzhou,Mayang,Yuanling,Chenxi,Xupu,Luxi,Fenghuang,Baojing,Guzhang,Yongshun,Longshan,Jishou"
 },
@@ -10666,7 +10666,7 @@ window.asiaNameBases = [
   "i": 200725,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Hamhung,Chongjin,Rason,Kimchaek,Kilju,Myongchon,Orang,Hwadae,Musan,Hoeryong,Onsong,Kyonghung,Kyongwon,Puryong,Kapsan,Kimhyongjik,Ryanggang,Kanggye,Huichon,Manpo,Sijung,Chosan,Uiju,Sinuiju,Kaesong,Sariwon,Nampo,Pyongyang,Wonsan,Kowon"
 },
@@ -10675,7 +10675,7 @@ window.asiaNameBases = [
   "i": 200726,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Tokyo,Osaka,Kyoto,Nagoya,Yokohama,Kobe,Sapporo,Fukuoka,Sendai,Hiroshima,Kitakyushu,Chiba,Saitama,Shizuoka,Hamamatsu,Okayama,Kumamoto,Kagoshima,Niigata,Kanazawa,Nagano,Oita,Miyazaki,Naha,Toyohashi,Toyonaka,Kawasaki,Sagamihara,Funabashi,Ichikawa"
 },
@@ -10684,7 +10684,7 @@ window.asiaNameBases = [
   "i": 200914,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ip",
   "m": 0,
   "b": "Mosul,Qaraqosh,Alqosh,Tel Keppe,Erbil,Duhok,Zakho,Amadiya,Barwari,Tkhuma,Tur Abdin,Mardin,Nusaybin,Qamishli,Al-Hasakah,Urmia,Tehran,Kirkuk,Baghdad,Basra,Hakkari,Sirnak,Cizre,Batman,Diyarbakir,Urfa,Antioch,Aleppo,Damascus,Beirut"
 },
@@ -10693,7 +10693,7 @@ window.asiaNameBases = [
   "i": 200915,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kp",
   "m": 0,
   "b": "Sana'a,Shabwa,Marib,Al-Jawf,Hadhramaut,Aden,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Al Hudaydah,Zabid,Amran,Sa'dah,Al Bayda,Lahij,Ataq,Al Ghaydah,Mahra,Socotra,Al-Mahwit,Hajja,Raymah,Al-Hudaydah"
 },
@@ -10702,7 +10702,7 @@ window.asiaNameBases = [
   "i": 200916,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bjl",
   "m": 0,
   "b": "Salalah,Shuwaimiyya,Sharbithat,Sawqara,Liqbi,Mirbat,Sadah,Rakhyut,Dhalkut,Mughsayl,Taqa,Hasik,Al-Mazyunah,Thumrait,Duqm,Mahout,Al-Kamil,Wafi,Jiddat al-Harasis,Haima,Adam,Bahla,Nizwa,Izki,Samail,Bidbid,Muscat,Sohar,Sur,Ibra"
 },
@@ -10711,7 +10711,7 @@ window.asiaNameBases = [
   "i": 200917,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dy",
   "m": 0,
   "b": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Oran,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,Misrata,Agadir,Oujda,Tlemcen,Annaba,Gabes,Kairouan,Tafilalt,Draa,Haha,Chiadma,Doukkala,Gharb,Rif,Kroumirie,Aurès"
 },
@@ -10720,7 +10720,7 @@ window.asiaNameBases = [
   "i": 200918,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aknrs",
   "m": 0,
   "b": "Mardin,Nusaybin,Midyat,Dargecit,Idil,Sirnak,Cizre,Hasankeyf,Batman,Diyarbakir,Urfa,Antioch,Aleppo,Qamishli,Al-Hasakah,Tur Abdin,Kfarze,Beth Debe,Iwardo,Anhel,Bequsyone,Midin,Arbo,Kefshenne,Beth Sbirino,Hah,Beth Mzizah,Karburan,Qarṭmin"
 },
@@ -10729,7 +10729,7 @@ window.asiaNameBases = [
   "i": 200919,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "np",
   "m": 0,
   "b": "Ugarit,Ras Shamra,Latakia,Tartus,Baniyas,Jableh,Safita,Homs,Hama,Aleppo,Damascus,Palmyra,Dura-Europos,Mari,Ebla,Apamea,Shaizar,Qatna,Byblos,Sidon,Tyre,Beirut,Tripoli,Arwad,Amrit,Carthage,Sarepta,Akko,Jerusalem"
 },
@@ -10738,7 +10738,7 @@ window.asiaNameBases = [
   "i": 200920,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kp",
   "m": 0,
   "b": "Cairo,Alexandria,Marsa Matruh,Siwa,Bahariya,Farafra,Dakhla,Kharga,Aswan,Luxor,Aswan,Sinai,Arish,Sharm el-Sheikh,Dahab,Nuweiba,Taba,Saint Catherine,Faiyum,Minya,Assiut,Sohag,Qena,Hurghada,Safaga,Quseir,Port Said,Suez,Ismailia"
 },
@@ -10747,7 +10747,7 @@ window.asiaNameBases = [
   "i": 200921,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Oran,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,Misrata,Agadir,Oujda,Tlemcen,Annaba,Gabes,Kairouan,Tafilalt,Draa,Haha,Chiadma,Doukkala,Gharb,Rif,Kroumirie,Aurès"
 },
@@ -10756,7 +10756,7 @@ window.asiaNameBases = [
   "i": 200922,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aknrs",
   "m": 0,
   "b": "Damascus,Aleppo,Homs,Hama,Jerusalem,Bethlehem,Nazareth,Capernaum,Tyre,Sidon,Byblos,Beirut,Tripoli,Antioch,Edessa,Palmyra,Dura-Europos,Mari,Ebla,Ugarit,Apamea,Shaizar,Qatna,Arwad,Amrit,Sarepta,Akko,Ashkelon,Gaza"
 },
@@ -10765,7 +10765,7 @@ window.asiaNameBases = [
   "i": 200923,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "kps",
   "m": 0,
   "b": "Casablanca,Rabat,Marrakech,Fes,Tangier,Algiers,Oran,Constantine,Tunis,Sfax,Sousse,Tripoli,Benghazi,Misrata,Agadir,Oujda,Tlemcen,Annaba,Gabes,Kairouan,Tafilalt,Draa,Haha,Chiadma,Doukkala,Gharb,Rif,Kroumirie,Aurès"
 },
@@ -10774,7 +10774,7 @@ window.asiaNameBases = [
   "i": 200924,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "aknrs",
   "m": 0,
   "b": "Sana'a,Aden,Lahij,Yafa,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Al Hudaydah,Zabid,Amran,Sa'dah,Al Bayda,Ataq,Al Ghaydah,Mahra,Marib,Al-Jawf,Hadhramaut,Shabwa,Al-Mahwit,Hajja,Raymah"
 },
@@ -10783,7 +10783,7 @@ window.asiaNameBases = [
   "i": 200925,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bjl",
   "m": 0,
   "b": "Sana'a,Aden,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Al Hudaydah,Zabid,Amran,Sa'dah,Al Bayda,Lahij,Ataq,Al Ghaydah,Mahra,Marib,Al-Jawf,Hadhramaut,Shabwa,Al-Mahwit,Hajja,Raymah,Al-Hudaydah"
 },
@@ -10792,7 +10792,7 @@ window.asiaNameBases = [
   "i": 200926,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bjl",
   "m": 0,
   "b": "Zabid,Al Hudaydah,Sana'a,Aden,Taiz,Ibb,Dhamar,Al-Mukalla,Sayun,Tarim,Seiyun,Ash Shihr,Amran,Sa'dah,Al Bayda,Lahij,Ataq,Al Ghaydah,Mahra,Marib,Al-Jawf,Hadhramaut,Shabwa,Al-Mahwit,Hajja,Raymah,Al-Hudaydah"
 },
@@ -10801,7 +10801,7 @@ window.asiaNameBases = [
   "i": 200927,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "bjl",
   "m": 0,
   "b": "Zakho,Duhok,Erbil,Mosul,Kirkuk,Sulaymaniyah,Halabja,Ranya,Chamchamal,Koya,Akre,Amadiya,Barwari,Tkhuma,Tur Abdin,Mardin,Nusaybin,Qamishli,Al-Hasakah,Urmia,Tehran,Baghdad,Basra,Hakkari,Sirnak,Cizre,Batman,Diyarbakir,Urfa,Antioch"
 },
@@ -10810,7 +10810,7 @@ window.asiaNameBases = [
   "i": 200928,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "k",
   "m": 0,
   "b": "Addis Ababa,Hawassa,Ziway,Butajira,Sodo,Arba Minch,Wolaita,Hosaina,Shashemene,Boditi,Areka,Worabe,Welkite,Durame,Hosaena,Angacha,Kedida Gamela,Leku,Aleta Wendo,Chuko,Dara,Boricha,Yirgalam,Adilo,Kochere,Bensa,Dale,Awasa"
 },
@@ -10819,7 +10819,7 @@ window.asiaNameBases = [
   "i": 200929,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ds",
   "m": 0,
   "b": "Muscat,Salalah,Sohar,Sur,Nizwa,Ibri,Bahla,Adam,Bidbid,Samail,Izki,Manah,Al Hamra,Bahla,Jebel Akhdar,Rustq,Al-Mussanah,Barka,Seeb,Qurayyat,Madha,Daba,Khasab,Dibba,Kalba,Fujairah,Ras Al Khaimah,Al Ain,Abu Dhabi"
 },
@@ -10828,7 +10828,7 @@ window.asiaNameBases = [
   "i": 201253,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "besy",
   "m": 0,
   "b": "Kohima,Dimapur,Mokokchung,Wokha,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,Chumukedima,Medziphema,Bhandari,Tizit,Changtongya,Alichen,Mangkolemba,Longching,Sakraba,Jotsoma,Viswema,Kigwema,Khonoma,Mima,Pfutsero"
 },
@@ -10855,7 +10855,7 @@ window.asiaNameBases = [
   "i": 201256,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Dali,Xiaguan,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Heqing,Jianchuan,Shuanglang,Lijiang,Shangri-La,Deqin,Lanping,Fugong,Gongshan,Nujiang,Lushui,Liuku,Pianma,Tengchong,Longling,Changning,Fengqing"
 },
@@ -10873,7 +10873,7 @@ window.asiaNameBases = [
   "i": 201258,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Heqing,Dali,Lijiang,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Jianchuan,Shuanglang,Shangri-La,Deqin,Lanping,Fugong,Gongshan,Nujiang,Lushui,Liuku,Pianma,Tengchong,Longling,Changning,Fengqing,Jianchuan"
 },
@@ -10891,7 +10891,7 @@ window.asiaNameBases = [
   "i": 201260,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Myitkyina,Bhamo,Mohnyin,Lashio,Ruili,Tengchong,Baoshan,Dali,Kunming,Jinghong,Mengla,Lincang,Puer,Simao,Dehong,Nujiang,Gongshan,Fugong,Lanping,Weixi,Zhongdian,Deqin,Shangri-La,Lijiang,Heqing,Jianchuan,Shuanglang,Eryuan,Binchuan"
 },
@@ -10918,7 +10918,7 @@ window.asiaNameBases = [
   "i": 201263,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Mandalay,Yangon,Lashio,Taunggyi,Kengtung,Tachileik,Mae Sai,Chiang Rai,Chiang Mai,Lampang,Phrae,Nan,Phitsanulok,Sukhothai,Tak,Mae Sot,Myawaddy,Hpa-an,Mawlamyine,Dawei,Myeik,Ranoon,Loikaw,Pekon,Langhko,Mongnai,Monghsu,Kengtung,Mongyang"
 },
@@ -10927,7 +10927,7 @@ window.asiaNameBases = [
   "i": 201264,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dgo",
   "m": 0,
   "b": "Guiyang,Zunyi,Anshun,Bijie,Liupanshui,Kaili,Duyun,Xingyi,Tongren,Qianxinan,Qiandongnan,Qiannan,Majiang,Danzhai,Sandu,Rongjiang,Liping,Jinping,Congjiang,Leishan,Taijiang,Jianhe,Sansui,Tianzhu,Cengong,Zhenyuan,Shibing,Huangping,Fuquan"
 },
@@ -10936,7 +10936,7 @@ window.asiaNameBases = [
   "i": 201265,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Wokha,Kohima,Dimapur,Mokokchung,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,Chumukedima,Medziphema,Bhandari,Tizit,Changtongya,Alichen,Mangkolemba,Longching,Sakraba,Jotsoma,Viswema,Kigwema,Khonoma,Mima,Pfutsero"
 },
@@ -10981,7 +10981,7 @@ window.asiaNameBases = [
   "i": 201270,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Jairampur,Miao,Deomali,Aalo,Basar"
 },
@@ -10990,7 +10990,7 @@ window.asiaNameBases = [
   "i": 201271,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Jairampur,Miao,Deomali,Aalo,Basar"
 },
@@ -10999,7 +10999,7 @@ window.asiaNameBases = [
   "i": 201272,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Mokokchung,Kohima,Dimapur,Wokha,Zunheboto,Phek,Tuensang,Mon,Longleng,Kiphire,Peren,Jalukie,Tseminyu,Chumukedima,Medziphema,Bhandari,Tizit,Changtongya,Alichen,Mangkolemba,Longching,Sakraba,Jotsoma,Viswema,Kigwema,Khonoma,Mima,Pfutsero"
 },
@@ -11017,7 +11017,7 @@ window.asiaNameBases = [
   "i": 201274,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "nt",
   "m": 0,
   "b": "Lijiang,Dali,Shangri-La,Deqin,Weixi,Lanping,Fugong,Gongshan,Nujiang,Lushui,Liuku,Pianma,Eryuan,Binchuan,Yongping,Yunlong,Yangbi,Weishan,Nanjian,Midu,Xiangyun,Heqing,Jianchuan,Shuanglang,Tengchong,Longling,Changning,Fengqing,Jianchuan"
 },
@@ -11044,7 +11044,7 @@ window.asiaNameBases = [
   "i": 201277,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Wenchuan,Li,Mao,Songpan,Heishui,Jinchuan,Xiaojin,Barkam,Zagunao,Zamtang,Aba,Rangtang,Daofu,Luhuo,Ganzi,Seda,Baiyu,Shiqu,Dege,Sershul,Dzogchen,Yushu,Golog,Maqen,Banma,Jiuzhi,Darlag,Hongyuan"
 },
@@ -11116,7 +11116,7 @@ window.asiaNameBases = [
   "i": 201285,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Fuzhou,Xiamen,Quanzhou,Zhangzhou,Longyan,Putian,Nanping,Sanming,Ningde,Fu'an,Fuding,Shouning,Zherong,Pingnan,Gutian,Minqing,Yongtai,Minhou,Lianjiang,Luoyuan,Fuqing,Changle,Jinjiang,Nan'an,Huian,Tong'an,Haikou,Sanya,Wenchang"
 },
@@ -11143,7 +11143,7 @@ window.asiaNameBases = [
   "i": 201288,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Sri Ksetra,Beikthano,Halin,Mandalay,Bagan,Yangon,Taunggyi,Lashio,Myitkyina,Bhamo,Mohnyin,Prome,Thayet,Akyab,Sandoway,Mergui,Tavoy,Pegu,Thaton,Moulmein,Amherst,Mergui,Tenasserim,Mergui,Tavoy,Prome,Thayet,Akyab"
 },
@@ -11152,7 +11152,7 @@ window.asiaNameBases = [
   "i": 201289,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gs",
   "m": 0,
   "b": "Wenchuan,Li,Mao,Songpan,Heishui,Jinchuan,Xiaojin,Barkam,Zagunao,Zamtang,Aba,Rangtang,Daofu,Luhuo,Ganzi,Seda,Baiyu,Shiqu,Dege,Sershul,Dzogchen,Yushu,Golog,Maqen,Banma,Jiuzhi,Darlag,Hongyuan"
 },
@@ -11179,7 +11179,7 @@ window.asiaNameBases = [
   "i": 201292,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Kathmandu,Pokhara,Biratnagar,Lalitpur,Bharatpur,Birgunj,Dharan,Butwal,Hetauda,Janakpur,Dhangadhi,Itahari,Nepalgunj,Bhaktapur,Gorkha,Tansen,Rajbiraj,Lahan,Siraha,Jaleshwar,Malangwa,Gaur,Chandrapur,Sindhuli,Dhulikhel,Bidur,Thimphu,Paro,Punakha"
 },
@@ -11197,7 +11197,7 @@ window.asiaNameBases = [
   "i": 201294,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Wenchuan,Li,Mao,Songpan,Heishui,Jinchuan,Xiaojin,Barkam,Zagunao,Zamtang,Aba,Rangtang,Daofu,Luhuo,Ganzi,Seda,Baiyu,Shiqu,Dege,Sershul,Dzogchen,Yushu,Golog,Maqen,Banma,Jiuzhi,Darlag,Hongyuan"
 },
@@ -11242,7 +11242,7 @@ window.asiaNameBases = [
   "i": 201299,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "elnot",
   "m": 0,
   "b": "Yongzhou,Hengyang,Chenzhou,Shaoyang,Loudi,Xiangtan,Zhuzhou,Changde,Yiyang,Zhangjiajie,Huaihua,Lianyuan,Lengshuijiang,Xinhua,Shuangfeng,Shaodong,Qidong,Qiyang,Lanshan,Jiangyong,Dao,Ningyuan,Xintian,Jianghua,Lianzhou,Rucheng,Guiyang,Zixing"
 },
@@ -11278,7 +11278,7 @@ window.asiaNameBases = [
   "i": 201303,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ap",
   "m": 0,
   "b": "Beijing,Shanghai,Guangzhou,Shenzhen,Chengdu,Wuhan,Hangzhou,Nanjing,Xi'an,Tianjin,Suzhou,Zhengzhou,Changsha,Qingdao,Dalian,Xiamen,Fuzhou,Kunming,Harbin,Shenyang,Jinan,Hefei,Nanchang,Guiyang,Lanzhou,Urumqi,Lhasa,Hohhot,Nanning"
 },
@@ -11287,7 +11287,7 @@ window.asiaNameBases = [
   "i": 201341,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "hn",
   "m": 0,
   "b": "Aizawl,Lunglei,Champhai,Serchhip,Kolasib,Lawngtlai,Mamit,Saiha,Hnahthial,Khawzawl,Saitual,Bairabi,Vairengte,Darlawn,Tlabung,Zawlnuam,Thingsulthliah,Phullen,Suangpuilawn,Hrangturzawl,Lengteng,Tuichang,Khawbung,Ngopa,Rabung,Sialsuk,Tuipang,Sangau"
 },
@@ -11296,7 +11296,7 @@ window.asiaNameBases = [
   "i": 201342,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "hl",
   "m": 0,
   "b": "Tanjung Redeb,Tarakan,Nunukan,Balikpapan,Samarinda,Bontang,Sangatta,Tenggarong,Kutai,Berau,Paser,Penajam,Mahakam,Loa Kulu,Samboja,Muara Jawa,Anggana,Maratua,Pulau Derawan,Sangalaki,Tanjung Batu,Teluk Bayur,Pantai Labu,Biduk-biduk,Sambaliung,Gunung Tabur,Segah,Kelai,Sebulu"
 },
@@ -11305,7 +11305,7 @@ window.asiaNameBases = [
   "i": 201343,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gt",
   "m": 0,
   "b": "Enggano,Bengkulu,Bandar Lampung,Palembang,Jakarta,Padang,Pekanbaru,Medan,Banda Aceh,Padang Sidempuan,Pariaman,Solok,Bukittinggi,Payakumbuh,Lubuk Sikaping,Sawahlunto,Painan,Mukomuko,Curup,Kepahiang,Lebong,Rejang Lebong,Tais,Seluma,Bengkulu Utara,Kaur,Mukomuko,Seluma"
 },
@@ -11314,7 +11314,7 @@ window.asiaNameBases = [
   "i": 201344,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gt",
   "m": 0,
   "b": "Manila,Quezon City,Cebu,Davao,Zamboanga,Cagayan de Oro,General Santos,Bacolod,Iloilo,Angeles,Baguio,Batangas,Lapu-Lapu,Mandaue,Tacloban,Butuan,Puerto Princesa,Olongapo,Dagupan,Naga,Legazpi,Iriga,Tuguegarao,Pagadian,Cotabato,Surigao,Ormoc,Dipolog,Tagbilaran"
 },
@@ -11350,7 +11350,7 @@ window.asiaNameBases = [
   "i": 201348,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "dmot",
   "m": 0,
   "b": "Manila,Quezon City,Cebu,Davao,Zamboanga,Cagayan de Oro,General Santos,Bacolod,Iloilo,Angeles,Baguio,Batangas,Lapu-Lapu,Mandaue,Tacloban,Butuan,Puerto Princesa,Olongapo,Dagupan,Naga,Legazpi,Iriga,Tuguegarao,Pagadian,Cotabato,Surigao,Ormoc,Dipolog,Tagbilaran"
 },
@@ -11368,7 +11368,7 @@ window.asiaNameBases = [
   "i": 201350,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "do",
   "m": 0,
   "b": "Makassar,Parepare,Pinrang,Bantaeng,Bulukumba,Jeneponto,Takalar,Gowa,Maros,Pangkep,Barru,Sidenrang,Enrekang,Luwu,Tana Toraja,Toraja Utara,Mamuju,Majene,Polewali,Mamasa,Wajo,Soppeng,Bone,Sinjai,Bulukumba,Selayar,Bantaeng,Jeneponto,Takalar"
 },
@@ -11377,7 +11377,7 @@ window.asiaNameBases = [
   "i": 201351,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "prs",
   "m": 0,
   "b": "Kuala Lumpur,Penang,Malacca,Johor Bahru,Kuching,Kota Kinabalu,Ipoh,Shah Alam,Petaling Jaya,Klang,Kuantan,Alor Setar,Kota Bharu,Kuala Terengganu,Seremban,Sandakan,Tawau,Miri,Sibu,Bintulu,Labuan,Putrajaya,Cyberjaya,Subang,Shah Alam,Klang,Kajang,Selayang"
 },
@@ -11386,7 +11386,7 @@ window.asiaNameBases = [
   "i": 201352,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "cg",
   "m": 0,
   "b": "Marawi,Iligan,Cagayan de Oro,Davao,Zamboanga,Manila,Quezon City,Cebu,Bacolod,Iloilo,Angeles,Baguio,Batangas,Lapu-Lapu,Mandaue,Tacloban,Butuan,Puerto Princesa,Olongapo,Dagupan,Naga,Legazpi,Iriga,Tuguegarao,Pagadian,Cotabato,Surigao,Ormoc,Dipolog"
 },
@@ -11404,7 +11404,7 @@ window.asiaNameBases = [
   "i": 201354,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "gn",
   "m": 0,
   "b": "Yangon,Mawlamyine,Thaton,Pa-an,Kyaikto,Mudon,Bago,Sittaung,Chaungzon,Kyaikmaraw,Thanbyuzayat,Ye,Lamine,Bangkok,Kanchanaburi,Ratchaburi,Nakhon Pathom,Suphan Buri,Samut Sakhon,Samut Songkhram,Phetchaburi,Prachuap Khiri Khan,Chumphon,Ranong,Phang Nga,Krabi,Trang,Satun"
 },
@@ -11413,7 +11413,7 @@ window.asiaNameBases = [
   "i": 201355,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Sittwe,Thandwe,Kyaukpyu,Mrauk U,Maungdaw,Buthidaung,Ponnagyan,Gwa,Toungup,Maei,Paletwa,Matupi,Hakha,Falam,Tedim,Tonzang,Cikha,Rih,Zotung,Lautu,Senthang,Lai,Mizo,Hmar,Pankhua,Sandoway,Akyab,Ramree"
 },
@@ -11422,7 +11422,7 @@ window.asiaNameBases = [
   "i": 201356,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "ent",
   "m": 0,
   "b": "Jolo,Zamboanga,Bongao,Siasi,Lapuyan,Kalamansig,Tandubas,Sitangkai,Languyan,Panglima Sugala,Sapa-Sapa,Simunul,Turtle Islands,Mapun,Lugus,Old Panamao,Pandami,Omar,Luuk,Panamao,Pangutaran,Tiptipon,Kalingalan Caluang,Maimbung,Talipao,Patikul,Indanan,Parang"
 },
@@ -11431,7 +11431,7 @@ window.asiaNameBases = [
   "i": 201357,
   "min": 4,
   "max": 12,
-  "d": "",
+  "d": "u",
   "m": 0,
   "b": "Tacloban,Catbalogan,Calbayog,Borongan,Catarman,Maasin,Ormoc,Baybay,Abuyog,Carigara,Jaro,Palo,Tanauan,Tolosa,Dulag,Julita,Burauen,La Paz,MacArthur,Mayorga,Pastrana,Santa Fe,Tabontabon,Tunga,Capoocan,Babatngon,San Miguel,Barugo,Alangalang"
 }

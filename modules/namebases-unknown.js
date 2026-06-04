@@ -18,7 +18,7 @@ window.unknownNameBases = [
   "i": 200930,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "kln",
   "m": 0,
   "b": "Gaspe,Tadoussac,Sept-Iles,Blanc-Sablon,Mingan,Natashquan,La Romaine,Saint-Augustin,Harrington Harbour,Chevery,Baie-Comeau,Port-Menier,Bonaventure,Percé,Gespeg,Rimouski,Trois-Pistoles,Bic,Matane,Cap-Chat"
 },
@@ -27,7 +27,7 @@ window.unknownNameBases = [
   "i": 200931,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "rs",
   "m": 0,
   "b": "Boston,Plymouth,Salem,Provincetown,Martha's Vineyard,Nantucket,Newport,Hartford,New Haven,Deerfield,Albany,Poughkeepsie,Niagara,Buffalo,Cleveland,Detroit,Green Bay,Milwaukee,Mackinac,Sault Sainte Marie"
 },
@@ -36,7 +36,7 @@ window.unknownNameBases = [
   "i": 200932,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "ef",
   "m": 0,
   "b": "Port Blair,Diglipur,Mayabander,Rangat,Havelock Island,Neil Island,Little Andaman,Baratang,Interview Island,Long Island,Rutland Island,North Bay,Wandoor,Ferrargunj,Chouldari,Jirkatang,Shadipur,Garacharma,Prothrapur,Sippighat"
 },
@@ -45,7 +45,7 @@ window.unknownNameBases = [
   "i": 200933,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "oprt",
   "m": 0,
   "b": "Klego,Sumberagung,Blumbang,Kedungori,Kedokan,Gunungmijil,Jlegong,Selorejo,Sumurduren,Karangmojo,Kopen,Tegalsari,Goligo,Pelemrejo,Nggulon,Kartoharjo,Sangge,Rejosari,Grembyuk,Seredan"
 },
@@ -54,7 +54,7 @@ window.unknownNameBases = [
   "i": 200934,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Fribourg,Freiburg,Sarine,Sense,Murten,Morat,Avenches,Payerne,Romont,Bulle,Gruyères,Châtel-Saint-Denis,Villars-sur-Glâne,Düdingen,Schmitten,Bösingen,Heitenried,Plaffeien,Giffers,St. Ursen"
 },
@@ -63,7 +63,7 @@ window.unknownNameBases = [
   "i": 200935,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "flt",
   "m": 0,
   "b": "Luleå,Kiruna,Gällivare,Boden,Piteå,Skellefteå,Jokkmokk,Arjeplog,Arvidsjaur,Sorsele,Storuman,Tärnaby,Jukkasjärvi,Abisko,Karesuando,Jäkkvik,Ammarnäs,Blåsmark,Nederluleå,Haparanda"
 },
@@ -72,7 +72,7 @@ window.unknownNameBases = [
   "i": 200936,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "klm",
   "m": 0,
   "b": "Matanzas,Perico,Pedro Betancourt,Unión de Reyes,Cárdenas,Colón,Jovellanos,Havana,Guanabacoa,Regla,Santiago de Cuba,Bayamo,Manzanillo,Cienfuegos,Santa Clara,Remedios,Caibarién,Sagua la Grande,Placetas,Trinidad"
 },
@@ -81,7 +81,7 @@ window.unknownNameBases = [
   "i": 200937,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Nevşehir,Ürgüp,Göreme,Avanos,Derinkuyu,Kaymaklı,Ihlara,Gülşehir,Niğde,Bor,Kayseri,Sivas,Soğanlı,Çavuşin,Zelve,Acıgöl,Tatlarin,Konaklı,Üçhisar,Ortahisar"
 },
@@ -99,7 +99,7 @@ window.unknownNameBases = [
   "i": 200939,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "l",
   "m": 0,
   "b": "Kormakitis,Asomatos,Agia Marina,Karpaseia,Kyrenia,Nicosia,Limassol,Larnaca,Paphos,Morphou,Lapithos,Karavas,Myrtou,Diorios,Bellapais,Famagusta,Trikomo,Lefkoniko,Lythrangomi,Vasilia"
 },
@@ -108,7 +108,7 @@ window.unknownNameBases = [
   "i": 200940,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "ls",
   "m": 0,
   "b": "Dagai,Puncak Jaya,Wamena,Jayapura,Merauke,Timika,Nabire,Manokwari,Sorong,Biak,Serui,Enarotali,Ilaga,Mulia,Tembagapura,Oksibil,Bokondini,Kiwirok,Angguruk,Karubaga"
 },
@@ -117,7 +117,7 @@ window.unknownNameBases = [
   "i": 200941,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Dakar,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Rufisque,Mbour,Diourbel,Louga,Tambacounda,Kolda,Matam,Sédhiou,Kaffrine,Bamako,Kayes,Sikasso,Ségou,Mopti"
 },
@@ -126,7 +126,7 @@ window.unknownNameBases = [
   "i": 200942,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "fs",
   "m": 0,
   "b": "Haflong,Silchar,Diphu,Lumding,Hojai,Lanka,Umrangso,Maibong,Jatinga,Harangajao,Gunjung,Ditokcherra,Dehangi,Baraigram,Kalachand,Diyungbra,Khobak,Hatikhali,Baghmara,Jatinga"
 },
@@ -135,7 +135,7 @@ window.unknownNameBases = [
   "i": 200943,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "r",
   "m": 0,
   "b": "Honolulu,Hilo,Kona,Kailua,Waikiki,Pearl City,Kaneohe,Wahiawa,Waimanalo,Kahului,Lihue,Kapaa,Hanalei,Lahaina,Kihei,Wailuku,Makawao,Paia,Kula,Hana"
 },
@@ -144,7 +144,7 @@ window.unknownNameBases = [
   "i": 200944,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "a",
   "m": 0,
   "b": "Pond Inlet,Naujaat,Kugluktuk,Cambridge Bay,Gjoa Haven,Taloyoak,Kugaaruk,Repulse Bay,Arviat,Rankin Inlet,Baker Lake,Chesterfield Inlet,Coral Harbour,Igloolik,Sanikiluaq,Cape Dorset,Pangnirtung,Iqaluit,Kimmirut,Qikiqtarjuaq"
 },
@@ -153,7 +153,7 @@ window.unknownNameBases = [
   "i": 200945,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "amo",
   "m": 0,
   "b": "Asmara,Keren,Massawa,Assab,Mendefera,Tessenei,Agordat,Barentu,Adi Keyh,Senafe,Dekemhare,Ghinda,Nakfa,Keren,Akordat,Biscia,Omhajer,Teseney,Haykota,Adi Quala"
 },
@@ -162,7 +162,7 @@ window.unknownNameBases = [
   "i": 200946,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Semarang,Surabaya,Yogyakarta,Solo,Malang,Bandung,Bogor,Tegal,Pekalongan,Madiun,Kediri,Probolinggo,Pasuruan,Magelang,Blitar,Salatiga,Cirebon,Tasikmalaya,Banjarmasin,Pontianak"
 },
@@ -171,7 +171,7 @@ window.unknownNameBases = [
   "i": 200947,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Bergen,Hackensack,Passaic,Paterson,Paramus,Ridgewood,Fair Lawn,Teaneck,Englewood,Fort Lee,Jersey City,Hoboken,Union City,West New York,North Bergen,Secaucus,Kearny,Newark,Elizabeth,Rahway"
 },
@@ -180,7 +180,7 @@ window.unknownNameBases = [
   "i": 200948,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "eos",
   "m": 0,
   "b": "Nairobi,Mombasa,Kisumu,Nakuru,Eldoret,Thika,Machakos,Meru,Nyeri,Embu,Kitale,Kakamega,Bungoma,Malaba,Garissa,Wajir,Lamu,Malindi,Voi,Moyale"
 },
@@ -189,7 +189,7 @@ window.unknownNameBases = [
   "i": 200949,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Rigolet,Makkovik,Hopedale,Nain,Postville,Black Tickle,Cartwright,Port Hope Simpson,St. Lewis,Red Bay,L'Anse-au-Loup,Forteau,L'Anse-Amour,West St. Modeste,Pinware,Cape Charles,Battle Harbour,Mary's Harbour,Williams Harbour"
 },
@@ -198,7 +198,7 @@ window.unknownNameBases = [
   "i": 200950,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "klt",
   "m": 0,
   "b": "Inuvik,Aklavik,Fort McPherson,Tsiigehtchic,Old Crow,Fort Yukon,Chalkyitsik,Birch Creek,Venetie,Arctic Village,Beaver,Stevens Village,Circle,Eagle,Central,Rampart,Tanana,Ruby,Galena,Kaltag"
 },
@@ -207,7 +207,7 @@ window.unknownNameBases = [
   "i": 200951,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "eil",
   "m": 0,
   "b": "Macau,Taipa,Coloane,Cotai,Guangzhou,Zhuhai,Shenzhen,Hong Kong,Zhongshan,Jiangmen,Foshan,Dongguan,Huizhou,Zhaoqing,Shantou,Xiamen,Quanzhou,Fuzhou,Ningbo,Wenzhou"
 },
@@ -216,7 +216,7 @@ window.unknownNameBases = [
   "i": 200952,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Chennai,Madras,Tambaram,Avadi,Ambattur,Pallavaram,Chromepet,Tiruvallur,Kanchipuram,Vellore,Tirupati,Salem,Coimbatore,Erode,Tiruchirappalli,Madurai,Thanjavur,Cuddalore,Villupuram,Puducherry"
 },
@@ -225,7 +225,7 @@ window.unknownNameBases = [
   "i": 200953,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "dlnprt",
   "m": 0,
   "b": "Tahiti,Bora Bora,Moorea,Huahine,Raiatea,Rangiroa,Fakarava,Hiva Oa,Nuku Hiva,Rapa Iti,Mangareva,Rarotonga,Aitutaki,Mauke,Mitiaro,Atiu,Mangaia,Manihiki,Penrhyn,Pukapuka"
 },
@@ -234,7 +234,7 @@ window.unknownNameBases = [
   "i": 200954,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "o",
   "m": 0,
   "b": "Magamba,Bumbuli,Rangwi,Lushoto,Mlalo,Mtae,Korogwe,Muheza,Pangani,Tanga,Mombasa,Same,Moshi,Arusha,Dodoma,Morogoro,Iringa,Mbeya,Songea,Mtwara"
 },
@@ -252,7 +252,7 @@ window.unknownNameBases = [
   "i": 200956,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "r",
   "m": 0,
   "b": "Algiers,Tunis,Tripoli,Valletta,Marseille,Genoa,Venice,Trieste,Naples,Palermo,Catania,Bari,Split,Dubrovnik,Corfu,Thessaloniki,Istanbul,Izmir,Antalya,Beirut"
 },
@@ -261,7 +261,7 @@ window.unknownNameBases = [
   "i": 200957,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lst",
   "m": 0,
   "b": "Ongofoina,Inauaisa,Bereina,Port Moresby,Kairuku,Hula,Kaparoko,Aipeana,Inawi,Paisapaisa,Ogofoina,Gagai,Okope,Ugo,Afai,Ipage,Lopia,Lalae,Iso"
 },
@@ -279,7 +279,7 @@ window.unknownNameBases = [
   "i": 200959,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnot",
   "m": 0,
   "b": "Pohnpei,Kosrae,Chuuk,Yap,Palau,Majuro,Kwajalein,Ebeye,Tarawa,Funafuti,Nauru,Kiribati,Tuvalu,Nauru,Banaba,Nauru,Nauru,Nauru,Nauru,Nauru"
 },
@@ -288,7 +288,7 @@ window.unknownNameBases = [
   "i": 200960,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "u",
   "m": 0,
   "b": "Hamburg,Bremen,Lübeck,Kiel,Rostock,Stralsund,Greifswald,Flensburg,Schwerin,Wismar,Cuxhaven,Wilhelmshaven,Emden,Oldenburg,Osnabrück,Münster,Bielefeld,Hannover,Braunschweig,Magdeburg"
 },
@@ -297,7 +297,7 @@ window.unknownNameBases = [
   "i": 200961,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "n",
   "m": 0,
   "b": "Albany,Schenectady,Troy,Cohoes,Watervliet,Rensselaer,Hudson,Catskill,Coxsackie,Athens,Mechanicville,Ballston Spa,Saratoga Springs,Glens Falls,Fort Edward,Hudson Falls,Schuylerville,Stillwater,Waterford,Green Island"
 },
@@ -306,7 +306,7 @@ window.unknownNameBases = [
   "i": 200962,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "els",
   "m": 0,
   "b": "Dimapur,Kohima,Mokokchung,Wokha,Zunheboto,Tuensang,Mon,Phek,Peren,Kiphire,Longleng,Tseminyu,Chuchuyimlang,Mongsenyimti,Jalukie,Tizit,Tening,Pfutsero,Meluri,Aboi"
 },
@@ -324,7 +324,7 @@ window.unknownNameBases = [
   "i": 200964,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "eo",
   "m": 0,
   "b": "Aiwo,Denigomodu,Meneng,Yaren,Boe,Buada,Anabar,Anetan,Anibare,Baiti,Ewa,Ijuw,Nibok,Uaboe,Yangor,Ewa,Anebenok,Anera,Aribimomo,Arubo"
 },
@@ -342,7 +342,7 @@ window.unknownNameBases = [
   "i": 200966,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "it",
   "m": 0,
   "b": "Itanagar,Ziro,Along,Pasighat,Roing,Tezu,Bomdila,Seppa,Daporijo,Yingkiong,Tawang,Bhalukpong,Bomdila,Dirang,Kalaktang,Rupa,Shergaon,Mechuka,Monigong,Pangin"
 },
@@ -351,7 +351,7 @@ window.unknownNameBases = [
   "i": 200967,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "p",
   "m": 0,
   "b": "Charlotte Amalie,Christiansted,Frederiksted,Cruz Bay,Road Town,Tortola,St. Thomas,St. John,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix,St. Croix"
 },
@@ -360,7 +360,7 @@ window.unknownNameBases = [
   "i": 200968,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Georgetown,New Amsterdam,Vreed en Hoop,Skeldon,Rose Hall,Anna Regina,Parika,Bartica,Linden,Mahaica,Berbice,Canje,Corentyne,Demerara,Essequibo,Pomeroon,Supenaam,Wakenaam,Leguan,Parika"
 },
@@ -369,7 +369,7 @@ window.unknownNameBases = [
   "i": 200969,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "aelnos",
   "m": 0,
   "b": "Nootka Sound,Vancouver Island,Clayoquot Sound,Barkley Sound,Tofino,Ucluelet,Port Alberni,Nanaimo,Victoria,Sooke,Saanich,Cowichan,Comox,Campbell River,Alert Bay,Port Hardy,Quatsino,Tahsis,Zeballos,Kyuquot"
 },
@@ -378,7 +378,7 @@ window.unknownNameBases = [
   "i": 200970,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "alo",
   "m": 0,
   "b": "Windhoek,Khauxanas,Gobabis,Rehoboth,Maltahöhe,Mariental,Kalkrand,Stampriet,Aranos,Leonardville,Aminuis,Rundu,Katima Mulio,Oshakati,Ongwediva,Oshikoto,Tsumeb,Grootfontein,Otjiwarongo,Okahandja"
 },
@@ -387,7 +387,7 @@ window.unknownNameBases = [
   "i": 200971,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lo",
   "m": 0,
   "b": "San Basilio de Palenque,Cartagena,Barranquilla,Turbaco,Arjona,Mahates,San Juan Nepomuceno,María La Baja,San Jacinto,El Carmen de Bolívar,Córdoba,Sincelejo,Tolú,Santiago de Tolú,San Onofre,Morroa,San Estanislao,Soplaviento,Villanueva,Santa Lucía"
 },
@@ -396,7 +396,7 @@ window.unknownNameBases = [
   "i": 200972,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lr",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Mount Hagen,Goroka,Kokopo,Popondetta,Alotau,Kimbe,Vanimo,Daru,Mendi,Tari,Kundiawa,Bulolo,Wau,Rabaul,Kavieng,Lorengau"
 },
@@ -405,7 +405,7 @@ window.unknownNameBases = [
   "i": 200973,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Port Moresby,Daru,Kerema,Kikori,Baimuru,Ihu,Kerema,Kokoda,Popondetta,Tufi,Samarai,Alotau,Misima,Woodlark,Kiriwina,Kaileuna,Tauwema,Kaduwaga,Bulakwa,Kaisiga"
 },
@@ -414,7 +414,7 @@ window.unknownNameBases = [
   "i": 200974,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "ot",
   "m": 0,
   "b": "Jakarta,Batavia,Bandung,Semarang,Surabaya,Yogyakarta,Solo,Malang,Bogor,Tegal,Pekalongan,Cirebon,Tasikmalaya,Banjarmasin,Pontianak,Medan,Palembang,Padang,Makassar,Manado"
 },
@@ -423,7 +423,7 @@ window.unknownNameBases = [
   "i": 200975,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Honolulu,Hilo,Kona,Kailua,Waikiki,Pearl City,Kaneohe,Wahiawa,Waimanalo,Kahului,Lihue,Kapaa,Hanalei,Lahaina,Kihei,Wailuku,Makawao,Paia,Kula,Hana"
 },
@@ -432,7 +432,7 @@ window.unknownNameBases = [
   "i": 200976,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "a",
   "m": 0,
   "b": "Fakfak,Kaimana,Bintuni,Sorong,Manokwari,Ransiki,Warmare,Kebar,Momi,Wamesa,Amberbaken,Aranday,Weriagar,Moswaren,Meninggo,Sumuri,Metamani,Irarutu,Kuri,Tobati"
 },
@@ -441,7 +441,7 @@ window.unknownNameBases = [
   "i": 200977,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Roebourne,Dampier,Karratha,Wickham,Point Samson,Cossack,Whim Creek,Pannawonica,Onslow,Exmouth,Carnarvon,Geraldton,Port Hedland,South Hedland,Newman,Tom Price,Paraburdoo,Pilbara,Burrup,Maitland"
 },
@@ -450,7 +450,7 @@ window.unknownNameBases = [
   "i": 200978,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "enors",
   "m": 0,
   "b": "Fakfak,Kokas,Bomberai,Kaimana,Bintuni,Sorong,Manokwari,Ransiki,Warmare,Kebar,Momi,Wamesa,Amberbaken,Aranday,Weriagar,Moswaren,Meninggo,Sumuri,Metamani,Irarutu"
 },
@@ -459,7 +459,7 @@ window.unknownNameBases = [
   "i": 200979,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "g",
   "m": 0,
   "b": "Dakar,Saint-Louis,Thiès,Kaolack,Ziguinchor,Touba,Rufisque,Mbour,Diourbel,Louga,Tambacounda,Kolda,Matam,Sédhiou,Kaffrine,Banjul,Serekunda,Brikama,Bakau,Farafenni"
 },
@@ -468,7 +468,7 @@ window.unknownNameBases = [
   "i": 200980,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "fn",
   "m": 0,
   "b": "Sydney,Parramatta,Newcastle,Wollongong,Gosford,Katoomba,Penrith,Liverpool,Campbelltown,Blacktown,Bondi,Manly,Cronulla,Botany Bay,Port Jackson,Hawkesbury,Windsor,Richmond,Blue Mountains,Woy Woy"
 },
@@ -477,7 +477,7 @@ window.unknownNameBases = [
   "i": 200981,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lort",
   "m": 0,
   "b": "Pretoria,Soshanguve,Mamelodi,Atteridgeville,Hammanskraal,Garankuwa,Mabopane,Temba,Ga-Rankuwa,Winterveld,Akasia,Centurion,Midrand,Kempton Park,Benoni,Boksburg,Germiston,Springs,Vanderbijlpark,Vereeniging"
 },
@@ -486,7 +486,7 @@ window.unknownNameBases = [
   "i": 200982,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "aelmt",
   "m": 0,
   "b": "Altay,Burqin,Fuyun,Habahe,Jeminay,Qinghe,Fuhai,Burultokay,Koktokay,Sharbakty,Tacheng,Emin,Tuoli,Usu,Shawan,Manas,Shihezi,Karamay,Bole,Wusu"
 },
@@ -504,7 +504,7 @@ window.unknownNameBases = [
   "i": 200984,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "lnos",
   "m": 0,
   "b": "Roquetas de Mar,Almería,El Ejido,Adra,Berja,Dalías,Enix,Felix,Gádor,Huércal de Almería,La Mojonera,Pechina,Rioja,Santa Fe de Mondújar,Vícar,Aguadulce,Balerma,Benahadux,Carboneras,Cuevas del Almanzora"
 },
@@ -522,7 +522,7 @@ window.unknownNameBases = [
   "i": 200986,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "mnp",
   "m": 0,
   "b": "Apia,Vaitele,Faleula,Leulumoega,Mulifanua,Fasito'o,Safotu,Saleaula,Safune,Fagamalo,Asau,Amanave,Falealupo,Neiafu,Pangai,Nuku'alofa,Ha'apai,Vava'u,Eua,Niuatoputapu"
 },
@@ -540,7 +540,7 @@ window.unknownNameBases = [
   "i": 200988,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "s",
   "m": 0,
   "b": "Tripoli,Benghazi,Misrata,Zliten,Khoms,Tarhuna,Bani Walid,Sabha,Ghat,Murzuk,Derna,Tobruk,Ajdabiya,Sirte,Zawiya,Gharyan,Yafran,Nalut,Jadu,Ghadames"
 },
@@ -558,7 +558,7 @@ window.unknownNameBases = [
   "i": 200990,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "aor",
   "m": 0,
   "b": "Georgetown,New Amsterdam,Vreed en Hoop,Skeldon,Rose Hall,Anna Regina,Parika,Bartica,Linden,Mahaica,Berbice,Canje,Corentyne,Demerara,Essequibo,Pomeroon,Supenaam,Wakenaam,Leguan,Parika"
 },
@@ -567,7 +567,7 @@ window.unknownNameBases = [
   "i": 200991,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "aelnos",
   "m": 0,
   "b": "Arkhangelsk,Solombala,Severodvinsk,Novodvinsk,Kholmogory,Onega,Mezen,Pinega,Kargopol,Nyandoma,Velsk,Kotlas,Krasnoborsk,Shenkursk,Yemetsk,Leshukonskoye,Obozersky,Plesetsk,Mirny,Naryan-Mar"
 },
@@ -621,7 +621,7 @@ window.unknownNameBases = [
   "i": 200997,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "aeo",
   "m": 0,
   "b": "Bangkok,Chiang Mai,Phuket,Pattaya,Hat Yai,Nakhon Ratchasima,Udon Thani,Khon Kaen,Chon Buri,Nakhon Si Thammarat,Songkhla,Surat Thani,Ubon Ratchathani,Nakhon Sawan,Lop Buri,Ayutthaya,Sukhothai,Lampang,Nakhon Pathom,Kanchanaburi"
 },
@@ -630,7 +630,7 @@ window.unknownNameBases = [
   "i": 200998,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "mt",
   "m": 0,
   "b": "Johannesburg,Soweto,Pretoria,Durban,Cape Town,Port Elizabeth,Bloemfontein,Kimberley,Pietermaritzburg,East London,Rustenburg,Polokwane,Nelspruit,Witbank,Vereeniging,Vanderbijlpark,Klerksdorp,Potchefstroom,Brits,Mmabatho"
 },
@@ -639,7 +639,7 @@ window.unknownNameBases = [
   "i": 200999,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "emno",
   "m": 0,
   "b": "Rabaul,Kokopo,Madang,Lae,Wewak,Mount Hagen,Goroka,Kundiawa,Mendi,Kimbe,Vanimo,Daru,Alotau,Popondetta,Bulolo,Wau,Kavieng,Lorengau,Manus,Buka"
 },
@@ -648,7 +648,7 @@ window.unknownNameBases = [
   "i": 201000,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "t",
   "m": 0,
   "b": "Dambana,Bibile,Monaragala,Mahiyanganaya,Padiyathalawa,Ampara,Kalmunai,Batticaloa,Trincomalee,Anuradhapura,Polonnaruwa,Kurunegala,Puttalam,Chilaw,Negombo,Gampaha,Kandy,Nuwara Eliya,Badulla,Bandarawela"
 },
@@ -657,7 +657,7 @@ window.unknownNameBases = [
   "i": 201001,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "elnt",
   "m": 0,
   "b": "Xiangxi,Jishou,Luxi,Baojing,Guzhang,Yuanlong,Fenghuang,Huayuan,Longshan,Yongshun,Zhangjiajie,Cili,Sangzhi,Shimen,Taoyuan,Hanshou,Anxiang,Jinshi,Linli,Li County"
 },
@@ -675,7 +675,7 @@ window.unknownNameBases = [
   "i": 201003,
   "min": 5,
   "max": 10,
-  "d": "",
+  "d": "ailmnoqstu",
   "m": 0,
   "b": "Xiehe,Linxia,Hezuo,Xiahe,Lintan,Zhuoni,Diebu,Zhouqu,Wudu,Wenxian,Kangxian,Chengxian,Hui County,Liangdang,Li County,Tianshui,Qinan,Gangu,Zhangjiachuan,Qingshui"
 }
