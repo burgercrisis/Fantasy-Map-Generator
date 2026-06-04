@@ -75,6 +75,15 @@ function runScript(relativePath, args = []) {
 /**
  * Check ISO coverage between map and catalog
  */
+function isFamilyMacro(entry) {
+  if (!entry) return false;
+  if (Array.isArray(entry.tags) && entry.tags.includes("family")) return true;
+  const iso = String(entry.iso || "").toLowerCase();
+  if (iso.endsWith("-family") || iso.endsWith("-languages") || iso.endsWith("-dialects")) return true;
+  if (entry.family && entry.category && entry.family === entry.category) return true;
+  return false;
+}
+
 function checkCoverage() {
   const map = readJson("config/language-mixer-map.json");
   const mixes = readJson("config/language-mixes.json");
@@ -83,7 +92,18 @@ function checkCoverage() {
   const mixIsos = new Set(mixes.map(e => e.iso));
 
   const inMapNotCatalog = [...mapIsos].filter(iso => !mixIsos.has(iso)).sort();
-  const inCatalogNotMap = [...mixIsos].filter(iso => !mapIsos.has(iso)).sort();
+  const inCatalogNotMap = [...mixIsos].filter(iso => {
+    if (mapIsos.has(iso)) return false;
+    // Family macro entries intentionally have no individual map entry
+    const entry = mixes.find(e => e.iso === iso);
+    return !isFamilyMacro(entry);
+  }).sort();
+
+  const familyExcluded = [...mixIsos].filter(iso => {
+    if (mapIsos.has(iso)) return false;
+    const entry = mixes.find(e => e.iso === iso);
+    return isFamilyMacro(entry);
+  }).length;
 
   return {
     name: "Coverage Check",
@@ -92,7 +112,8 @@ function checkCoverage() {
       totalInMap: mapIsos.size,
       totalInCatalog: mixIsos.size,
       missingFromCatalog: inMapNotCatalog.length,
-      missingFromMap: inCatalogNotMap.length
+      missingFromMap: inCatalogNotMap.length,
+      familyExcluded
     },
     details: {
       missingFromCatalog: inMapNotCatalog,
@@ -477,6 +498,9 @@ function main() {
     if (coverage.stats.missingFromMap > 0) {
       console.log(`  Missing from map: ${coverage.stats.missingFromMap}`);
       if (!options.json) coverage.details.missingFromMap.slice(0, 5).forEach(iso => console.log(`    - ${iso}`));
+    }
+    if (coverage.stats.familyExcluded > 0) {
+      console.log(`  Family macros excluded: ${coverage.stats.familyExcluded}`);
     }
     if (!options.strict && !coverage.passed) allPassed = true; // Coverage issues are warnings in non-strict mode
   }

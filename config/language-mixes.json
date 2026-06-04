@@ -2088,7 +2088,7 @@
     "family": "Chadic"
   },
   {
-    "name": "Kulung language (West Chadic)",
+    "name": "Wurkum",
     "iso": "kulung-west-chadic-language",
     "region": "Africa",
     "category": "Afroasiatic",
@@ -3101,7 +3101,7 @@
     "family": "Niger-Congo"
   },
   {
-    "name": "Samo (Burkina)",
+    "name": "Southern Samo",
     "iso": "samo-burkina",
     "region": "Africa",
     "category": "Niger-Congo",
@@ -5519,7 +5519,7 @@
     "family": "South-Central Dravidian"
   },
   {
-    "name": "Chepang (ISO)",
+    "name": "Chepang",
     "iso": "cdm",
     "region": "Asia",
     "category": "Sino-Tibetan",
@@ -6267,7 +6267,7 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Ho_language"
   },
   {
-    "name": "Ho (Munda)",
+    "name": "Ho-Munda",
     "iso": "ho-munda",
     "region": "Asia",
     "category": "Austroasiatic",
@@ -7160,7 +7160,7 @@
     "family": "South-Central Dravidian"
   },
   {
-    "name": "Kulung",
+    "name": "Kulung (Kiranti)",
     "iso": "kle",
     "region": "Asia",
     "category": "Sino-Tibetan",
@@ -7188,7 +7188,7 @@
     "family": "Indo-Aryan"
   },
   {
-    "name": "Kumhali (alias)",
+    "name": "Kumal",
     "iso": "kumhali",
     "region": "Asia",
     "category": "Indo-Aryan",
@@ -7498,7 +7498,7 @@
     "family": "Bihari"
   },
   {
-    "name": "Magar (Dhut)",
+    "name": "Eastern Magar",
     "iso": "mgp",
     "region": "Asia",
     "category": "Sino-Tibetan",
@@ -23983,7 +23983,7 @@
     "family": "Engan"
   },
   {
-    "name": "Samo",
+    "name": "Samo (Papua New Guinea)",
     "iso": "samo",
     "region": "Pacific",
     "category": "Papuan",
@@ -25173,7 +25173,7 @@
     "family": "Burmish"
   },
   {
-    "name": "Chepang",
+    "name": "Greater Chepang",
     "iso": "chepang",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",
@@ -25585,7 +25585,7 @@
     "family": "Sino-Tibetan"
   },
   {
-    "name": "Magar",
+    "name": "Magar (broad)",
     "iso": "magar",
     "region": "Sino-Tibetan region",
     "category": "Sino-Tibetan",

@@ -3058,4 +3058,2183 @@ window.oceaniaNameBases = [
   "m": 0,
   "b": "5284756,Buckeye,5287262,5287565,Casa Grande,5288636,Casas Adobes,5288661,Catalina Foothills,5288786,Chandler,5289282,Deer Valley,5292387,5293083,Drexel Heights,5293183,El Mirage,5293996,Eloy"
 }
+,
+{
+    "name": "Burarra",
+  "i": 200587,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Maningrida,Blyth,Cadell,Yinangarnduwa,Anbara,Marawuraba,Madia,Maringa,Gunadba,Gidjingali,Ngapanga,Dalabon,Nakkara,Gurrgoni,Ndjebbana,Liverpool,Arafura,Crocodile,Glyde,Ramingining,Milingimbi,Wessel,Yanhangu,Dangbon,Yolngu,Arnhem,Darwin,Gunbalanya,Oenpelli,Kakadu,Jabiru,Pine Creek,Katherine,Borroloola,Roper,Ngukurr,Numbulwar,Groote,Bickerton,Carpentaria,Gulf"
+},
+{
+    "name": "Dhuwal",
+  "i": 200588,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Gove,Nhulunbuy,Yirrkala,Rirratjingu,Gumatj,Gupapuyngu,Djambarrpuyngu,Djapu,Liyagalawumirr,Guyamirlili,Dhalwangu,Djarrwark,Dhayyi,Dhuwaya,Nhulun,Mount Saunders,Mount Dundas,Melville,Arnhem,Castlereagh,Port Bradshaw,Cape Shield,Koolatong,Giddy,Wonga,Bremer,Crocodile,Miwatj,Bawaka,Raymangirr,Dhamitjinya,Birritjimi,Djurruwu,Lombuy,Wandjukpuy,Ganarimi,Dimbukawuy,Dhalakarr,Raki"
+},
+{
+    "name": "Djaru",
+  "i": 200589,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Halls Creek,Kundat,Djaru,Tanami,Sturt,Billiluna,Katherine,Top Springs,Lajamanu,Willowra,Yuendumu,Balgo,Kiwirrkurra,Kunawarritji,Parnngurr,Pungurr,Gordon,Fitzroy,Christmas,Gregory,Wolf Creek,Kandimalal,Ngaimangaima,Ringer Soak,Old Halls Creek,Spring Creek,Lansdowne,Tableland,Chamberlain,Wilson,Macphee,Sugarloaf,Bluff Face,Durack,Lissadell,Turkey Creek,Warmun,Purnululu,Bungle Bungle,Ord,Argyle,Kununurra,Wyndham,Derby"
+},
+{
+    "name": "Djinang",
+  "i": 200590,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Ramingining,Milingimbi,Crocodile,Blyth,Glyde,Arafura,Maningrida,Manyarring,Murrungun,Marrangu,Wuḻaki,Ganalbingu,Djinba,Dabi,Manydjalpingu,Walmapuy,Yinbilngu,Dhabila,Mungi,Djinbi,Murwang,Wolkabi,Nanggalala,Gilibir,Milingi,Madakar,Djawitjibi,Manyim,Balmbi,Wora,Yatjilimiri,Munyibingi,Bilabila,Djongi,Guru,Goyder,Balawuy,Manjarngi,Wulaki,Wulagi,Ullaki,Yandjinung,Yandjinning,Yandjinang,Djinnang,Djinhang"
+},
+{
+    "name": "Gaagudju",
+  "i": 200591,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Kakadu,Alligator,Cannon Hill,Jabiru,Jabiluka,Mudginberri,Ja-Ja,Gunbalanya,Oenpelli,Cannon,Arnhem,Bunidj,Djindibi,Mirarr,Munmalarri,Amurdak,Kundjeyhmi,Giimbiyu,Umbugarla,Bininj,Nourlangie,Ubirr,Cahill,East Alligator,South Alligator,West Alligator,Jim Jim,Twin Falls,Yellow Water,Mary,Cooinda,Pine Creek,Rum Jungle,Batchelor,Berry Springs,Litchfield,Wangi,Florence,Tolmer,Buley"
+},
+{
+    "name": "Githabul",
+  "i": 200592,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Woodenbong,Kyogle,Bonalbo,Clarence,Drake,Killarney,Warwick,Rathdowney,Spicer,Tabulam,Tooloom,Unumgar,Urbenville,Lindsay,Bald Rock,Bulls Head,Toloom,Julian,Border Ranges,Toonumbar,Richmond,Logan,Paddys Flat,Stoney Gulley,Duck Creek,Gidabal,Gidabul,Gidjoobal,Kitabal,Kittabool,Galibal,Dinggabul,Geynyan,Kalibal,Noowidal,Guriarba,Gumanyargan,Juraveel,Butheram,Miwatj,Bundjalung,Yugambeh,Gumbainggirr,Ngarakbul,Wiyabal,Nganduwal,Minjangbal"
+},
+{
+    "name": "Iwaidja",
+  "i": 200593,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Croker,Minjilang,Cobourg,Mountnorris,Bowen,De Courcy,Wongarlu,Murganellam,Wongaran,Karik,Cape Don,Ngaadalwuli,Manduwit,Marrgu,Wurrugu,Amurdag,Maung,Warruwi,Goulburn,Kunwinjku,Kuninjku,Iwaidjic,Yiwaidjan,Tarula,Limba-Karadjee,Limbakaraja,Unalla,Eiwaja,Eaewardja,Uwaidja,Jiwadja,Juwadja,Iwaija,Iwaiji,Ji:wadja,Eae-warge-ga,Melville,Bathurst,Tiwi,Vernon,Anson,Dundas,Escape,Adelaide"
+},
+{
+    "name": "Kaytetye",
+  "i": 200594,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Barrow Creek,Tennant Creek,Neutral Junction,Stirling,Ali Curung,Alekarenge,Ankweleyelengkwe,Devils Marbles,Karlu Karlu,Elkerempelkere,Thangkenharenge,Hanson,Davenport,Murchison,Mount Singleton,Kelly Well,Mount Octy,Taylor,Forster,Elkedra,Frew,Whistleduck,Alyawarre,Anmatyerre,Warlpiri,Warumungu,Stuart,McLaren Creek,Murray Downs,Tea Tree,Milliken,Karlwe-karlwe,Apmere,Altyerre,Aknganentye,Ikwe,Altye,Artarre,Ilewarr,Mwengkart"
+},
+{
+    "name": "Kija",
+  "i": 200595,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Halls Creek,Kununurra,Warmun,Turkey Creek,Lansdowne,Tableland,Chamberlain,Wilson,Macphee,Sugarloaf,Bluff Face,Durack,Lissadell,Margaret,Ramsay,Alice Downs,Stony,Fig Tree Pool,Purnululu,Bungle Bungle,Boornooloo,Ord,Argyle,Lake Argyle,Warreranginy,Frog Hollow,Roogoon,Crocodile Hole,Joowoorlinji,Bow River,Yarangga,Chinaman Garden,Wurreranginy,Yarliyil,Warnmun,Warrnmarn,Baiambal,Burnana,Gidja,Gidya,Giidja,Kidja,Kitja,Kisha,Loonga,Lunga,Lungga"
+},
+{
+    "name": "Kukatja",
+  "i": 200596,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Balgo,Wirrimanu,Billiluna,Lake Gregory,Mulan,Kunawarritji,Kiwirrkurra,Lamarnparnta,Ngarantjadu,Ngirrpi,Piparr,Walkarli,Yaka Yaka,Malarn,Ngaimangaima,Kandimalal,Wolf Creek,Godfrey Tank,Koninara,Marawuru,Well 40,Canning,Nangatara,Jaru,Ringer Soak,Warlpiri,Yuendumu,Lajamanu,Walmajarri,Fitzroy,Martu,Pintupi,Wangkajunga,Yulparija,Pitjantjatjara,Ngalia,Mayutjarra,Gogoda,Gogodja,Gugadja,Ilbaridja,Julbaritja,Julbre,Kokatja,Kukuruba,Manggai,Nambulatji,Panara,Pardoo,Peedona"
+},
+{
+    "name": "Kuku Yalanji",
+  "i": 200597,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Mossman,Bloomfield,Daintree,Annan,Cooktown,Maytown,Palmer,Mitchell,Normanby,Jeannie,Jack,Battle Camp,Cape Flattery,Cape Bedford,Endeavour,Lizard,Wujal Wujal,Weary Bay,Yalanji,Nyungkul,Bidiji,Yalaja,Guugu Yimidhirr,Dyabugay,Yidiny,Gugu Warra,Gugu Mini,Mbabaram,Kuku Buyunji,Kuku Yalaja,Banabila,Yirmbal,Bubu,Wujalwujal,Mareeba,Kuranda,Chillagoe,Yarrabah,Palm Island,Byerstown,Mount Lukin,Mount Mulgrave,Welcome"
+},
+{
+    "name": "Kungarakany",
+  "i": 200598,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Adelaide River,Batchelor,Rum Jungle,Litchfield,Berry Springs,Darwin River,Wangi Falls,Wunggi,Buley Rockhole,Wujuluk,Tolmer Falls,Jejoobuh,Florence Falls,Elmulil,Laniyook,Finniss River,Reynolds,Tabletop,Bynoe Harbour,Wagait,Wagutj,Unrungkoolpum,Umoolmi,Umungul,Purlugutj,Poorugutj,Coomalie,Lake Deane,Woodfords Lagoon,Blackmore,Alyandabu,Gunerakan,Kangarraga,Kangarranga,Warnunger,Ungnakan,Gungarakany,Koongurrukuñ,Kumerakainj,Gundrakan,Gungaraganj,Gungaragany,Gungarakanj,Gungarakayn"
+},
+{
+    "name": "Kunwinjku",
+  "i": 200599,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Gunbalanya,Kunbarlanja,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Mumeka,Marrkolidjban,Mankorlod,Barrihdjowkkeng,Kakodbebuldi,Kurrurldul,Yikarrakkal,Kubumi,Kulmarru,Mann,Liverpool,Cadell,Blyth,Arafura,Kakadu,Nourlangie,Ubirr,Cahill,Jim Jim,Twin Falls,Yellow Water,Mary,South Alligator,East Alligator,Cooinda,Katherine,Pine Creek,Manyallaluk,Mayali,Kundjeyhmi,Kuninjku,Kune,Dulerayek,Narayek,Kundedjnjenghmi,Bininj,Gunwinyguan,Gunwinggic,Bolkngeybadjan,Bolkngeykimuk,Bolkngeyyahwurd,Mokurrkurr,Milmilngkan"
+},
+{
+    "name": "Kuuk Thaayore",
+  "i": 200600,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Pormpuraaw,Edward River,Thaayorre,Kuuk Thaayunth,Kuuk Thayem,Kuuk Thanon,Yak,Kirka,Thayem,Thayunth,Kugu Nganhcara,Cape York,Gulf of Carpentaria,Holroyd,Cole Mitchell,Archer,Wenlock,Ducie,Skardon,Kowanyama,Aurukun,Napranum,Mapoon,Weipa,Cooktown,Laura,Coen,Lockhart River,Hope Vale,Woorabinda,Doomadgee,Normanton,Karumba,Burketown,Cloncurry,Mount Isa,Boulia,Bedourie,Birdsville,Innamincka,Marree,Oodnadatta,Coober Pedy,Roxby Downs,Olympic Dam,Woomera,Port Augusta,Whyalla,Port Lincoln,Ceduna"
+},
+{
+    "name": "Laragia",
+  "i": 200601,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Darwin,Belyuen,Delissaville,Adelaide River,Woolna,Warrrai,Laragia,Danala,Daly,Moyle,Wageman,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri,Kamor,Nganygit,Marithiel,Brinken,Maretyabin,Maredan,Manda,Wogaity,Arnijangal,Arne,Bilawara,Lee,Larrakia,Wagait,Cox,Port Essington,Escape Cliffs,Adelaide,Howard Springs,Humpty Do,Berry Springs,Batchelor"
+},
+{
+    "name": "Luritja",
+  "i": 200602,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Papunya,Alice Springs,Haasts Bluff,Hermannsburg,Areyonga,Watarru,Amata,Ernabella,Fregon,Indulkana,Kalka,Pipalyatjara,Kaltjiti,Murray Town,Finke,Gosse Range,Palm Valley,Lake Amadeus,George Gill Range,Cleland Hills,Mount Forbes,Thomas Reservoir,Alala,Tempe Downs,MacDonnell Ranges,Palmer,Walker,Rudall,Mer-andji,Inindi,Ayers Rock,Uluru,Kata Tjuta,Olga,Kings Canyon,Petermann,Musgrave,Everard,De Rose,Oodnadatta,Marree,Coober Pedy,Roxby Downs,Andamooka,Woomera,Port Augusta,Quorn,Hawker,Wilpena,Blinman"
+},
+{
+    "name": "Manytjilyitjarra",
+  "i": 200603,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Balgo,Kiwirrkurra,Kunawarritji,Parnngurr,Pungurr,Gordon,Tanami,Great Sandy Desert,Canning Stock Route,Lake Mackay,Lake Macdonald,Lake Amadeus,Lake Neale,Lake Hopkins,Lake Carnegie,Lake Wells,Lake Gregory,Lake Argyle,Jigalong,Canning,Stock Route,Tanami Desert,Gibson Desert,Little Sandy Desert,Patjarr,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Karilywara,Yingun,Kurrawang,Punmu,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie"
+},
+{
+    "name": "Martu Wangka",
+  "i": 200604,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu"
+},
+{
+    "name": "Maung",
+  "i": 200605,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Warruwi,Goulburn Island,South Goulburn,Croker Island,Minjilang,Cobourg Peninsula,Mountnorris Bay,Bowen Strait,Iwaidja,Marrgu,Amurdag,Wurrugu,Kunwinjku,Kuninjku,Maung,Yiwaidjan,Iwaidjic,Warrkbi,Goulburn,Buchanan,Raffles Bay,Port Essington,Melville,Bathurst,Tiwi,Vernon,Anson,Dundas,Escape,Adelaide,Arafura,Van Diemen,Jabiru,Kakadu,Alligator,Cannon Hill,Arnhem,Liverpool,Mann,Cadell,Blyth,Glyde,Arafura Swamp,Milingimbi,Crocodile,Ramingining,Maningrida,Darwin,Palmerston,Howard Springs"
+},
+{
+    "name": "Murrinh Patha",
+  "i": 200606,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Wadeye,Port Keats,Daly River,Peppimenarti,Palumpa,Nauiyu,Daly,Fitzmaurice,Moyle,Buchanan,Reynolds,Finniss,Adelaide,Darwin,Belyuen,Cox Peninsula,Berry Springs,Batchelor,Litchfield,Pine Creek,Katherine,Kunbarlanja,Gunbalanya,Maningrida,Ramingining,Milingimbi,Croker,Goulburn,Warruwi,Minjilang,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Laragia,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri"
+},
+{
+    "name": "Ngaanyatjarra",
+  "i": 200607,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Warburton,Blackstone,Tjukurla,Warakurna,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles"
+},
+{
+    "name": "Ngarrindjeri",
+  "i": 200608,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Murray River,Lake Alexandrina,Lake Albert,Coorong,Encounter Bay,Goolwa,Meningie,Tailem Bend,Murray Bridge,Mannum,Swan Reach,Blanchetown,Morgan,Waikerie,Barmera,Berri,Renmark,Mildura,Robinvale,Horsham,Dimboola,Nhill,Bordertown,Keith,Naracoorte,Kingston,Robe,Beachport,Millicent,Mount Gambier,Penola,Coonawarra,Padthaway,Tintinara,Coonalpyn,Lameroo,Pinnaroo"
+},
+{
+    "name": "Nunggubuyu",
+  "i": 200609,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Numbulwar,Rose River,Roper,Ngukurr,Urapunga,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Elsey,Mataranka,Katherine,Pine Creek,Darwin,Arnhem,Cadell,Blyth,Glyde,Arafura,Maningrida,Ramingining,Milingimbi,Croker,Goulburn,Warruwi,Minjilang,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Laragia,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri,Kamor"
+},
+{
+    "name": "Nyangumarta",
+  "i": 200610,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Port Hedland,Marble Bar,Nullagine,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong"
+},
+{
+    "name": "palawa kani",
+  "i": 200611,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tasmania,Hobart,Launceston,Devonport,Burnie,Queenstown,Strahan,Zeehan,Rosebery,Tullah,Derwent,Huon,Tamar,Mersey,Forth,Leven,Pieman,Arthur,Gordon,Franklin,Mount Wellington,kunanyi,Cradle Mountain,Lake St Clair,Freycinet,Maria Island,Bruny Island,Flinders Island,King Island,Cape Barren,Claridge,Tarkine,Southwest,Central Highlands,Northern Midlands,Southern Midlands,Eastern Shore,Western Tamar,Mersey Valley,Huon Valley,Derwent Valley,Meander Valley,Fingal Valley,St Marys,St Helens,Bicheno,Orford,Triabunna,Nubeena,Port Arthur"
+},
+{
+    "name": "Panyjima",
+  "i": 200612,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Tom Price,Paraburdoo,Newman,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Pannawonica,Onslow,Exmouth,Carnarvon,Geraldton,Kalbarri,Denham,Shark Bay,Coral Bay,Ningaloo,Cape Range,Kennedy Range,Barlee Range,Hamersley,Ophthalmia,Weeli Wolli,Marandoo,Brockman,Nammuldi,Yandicoogina,Hope Downs,Roy Hill,Christmas Creek,Cloudbreak,Firetail,Gudai-Darri,Eliwana,Western Turner,Eastern Turner,Shay Gap,Yarrie,Packsaddle,Mount Whaleback,Mount Tom Price,Mount Brockman,Mount Meharry,Mount Bruce,Mount Augustus,Mount Edgar,Mount Clere,Mount Phillips"
+},
+{
+    "name": "Umbugarla",
+  "i": 200613,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Pine Creek,Rum Jungle,Batchelor,Berry Springs,Litchfield,Darwin,Adelaide River,Reynolds,Finniss,Mary,Wildman,South Alligator,East Alligator,Coomalie,Cossack,Victoria,Palmerston,Nightcliff,Fannie Bay,Parap,Ludmilla,Coconut Grove,Millner,Casuarina,Brinkin,Nakara,Leanyer,Marrara,Holmes,Wulagi,Anula,Karama,Malak,Katherine,Mataranka,Elsey,Roper,Ngukurr,Numbulwar,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Arnhem,Cadell,Blyth,Glyde"
+},
+{
+    "name": "Upper Arrernte",
+  "i": 200614,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alice Springs,Hermannsburg,Areyonga,Haasts Bluff,Papunya,Yuendumu,Lajamanu,Willowra,Nyirripi,Mount Liebig,Kintore,Kiwirrkurra,Balgo,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu"
+},
+{
+    "name": "Wadjiginy",
+  "i": 200615,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Darwin,Belyuen,Cox Peninsula,Berry Springs,Batchelor,Litchfield,Pine Creek,Katherine,Daly River,Wadeye,Port Keats,Peppimenarti,Palumpa,Nauiyu,Daly,Fitzmaurice,Moyle,Buchanan,Reynolds,Finniss,Adelaide,Delissaville,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Laragia,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri,Kamor,Nganygit,Marithiel,Brinken,Maretyabin,Maredan,Manda,Wogaity"
+},
+{
+    "name": "Wagiman",
+  "i": 200616,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Pine Creek,Rum Jungle,Batchelor,Berry Springs,Litchfield,Darwin,Adelaide River,Reynolds,Finniss,Mary,Wildman,South Alligator,East Alligator,Coomalie,Cossack,Victoria,Palmerston,Nightcliff,Fannie Bay,Parap,Ludmilla,Coconut Grove,Millner,Casuarina,Brinkin,Nakara,Leanyer,Marrara,Holmes,Wulagi,Anula,Karama,Malak,Katherine,Mataranka,Elsey,Roper,Ngukurr,Numbulwar,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Arnhem,Cadell,Blyth,Glyde"
+},
+{
+    "name": "Wajarri",
+  "i": 200617,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Geraldton,Mullewa,Morawa,Perenjori,Carnamah,Three Springs,Mingenew,Irwin,Dongara,Port Denison,Kalbarri,Ajana,Binnu,Northampton,Horrocks,Sandy Gully,Yuna,Mount Magnet,Cue,Meekatharra,Sandstone"
+},
+{
+    "name": "Walmatjarri",
+  "i": 200618,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Fitzroy Crossing,Noonkanbah,Yakanarra,Kandiwal,Ngumpan,Kungkaychi,Darwin,Broome,Derby,One Arm Point,Bidyadanga,Willare,Meda,Mount Anderson,St George Ranges,Mount Pierre,Bluff Range,Mount House,Mount Elizabeth,Mount Hart,Mount Bell,Mount Percy,Mount Frank,Mount Amherst,Mount Wynne,Mount Dromana,Mount Broome,Mount Hardman,Mount Solitaire,Mount Connelly,Mount Leake,Mount Behn,Mount Giles,Mount Olga,Mount Currie,Mount Woodroffe,Mount Kintore,Mount Leisler,Mount Palgrave,Mount Wedge"
+},
+{
+    "name": "Wangkatha",
+  "i": 200619,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Kalgoorlie,Leonora,Laverton,Menzies,Norseman,Kambalda,Widgiemooltha,Coolgardie,Bullabulling,Southern Cross,Moorine Rock,Mount Jackson,Mount Holland,Mount Palmer,Mount Ida,Mount Burges,Mount Leonora,Mount Malcolm,Mount Morgans,Mount Margaret,Mount Weld,Mount Celia,Mount Keith,Mount Sir Samuel"
+},
+{
+    "name": "Warumungu",
+  "i": 200620,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Tennant Creek,Banka Banka,Wycliffe Well,Barkly Homestead,Elliott,Newcastle Waters,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Elsey,Mataranka,Katherine,Pine Creek,Darwin,Ali Curung,Murray Downs,Stirling,Barrow Creek,Devils Marbles,Karlu Karlu,Stuart Highway,Stuart,Buchanan,Reynolds,Finniss,Adelaide,Belyuen,Cox Peninsula,Berry Springs,Batchelor,Litchfield,Daly River,Wadeye,Port Keats,Peppimenarti,Palumpa,Nauiyu,Daly,Fitzmaurice,Moyle,Delissaville,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu"
+},
+{
+    "name": "Wik Mungkan",
+  "i": 200621,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Aurukun,Pormpuraaw,Kowanyama,Napranum,Mapoon,Weipa,Cooktown,Laura,Coen,Lockhart River,Hope Vale,Woorabinda,Doomadgee,Normanton,Karumba,Burketown,Cloncurry,Mount Isa,Boulia,Bedourie,Birdsville,Innamincka,Marree,Oodnadatta,Coober Pedy,Roxby Downs,Olympic Dam,Woomera,Port Augusta,Whyalla,Port Lincoln,Ceduna,Streaky Bay,Elliston,Tumby Bay,Port Pirie,Gladstone,Rockhampton,Mackay,Townsville,Cairns,Innisfail,Atherton,Mareeba,Ravenshoe,Herberton,Georgetown,Croydon"
+},
+{
+    "name": "Yankunytjatjara",
+  "i": 200622,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Ernabella,Fregon,Indulkana,Kalka,Pipalyatjara,Kaltjiti,Murray Town,Finke,Aputula,Ali Curung,Murray Downs,Stirling,Barrow Creek,Tennant Creek,Wycliffe,Katherine,Lajamanu,Willowra,Yuendumu,Nyirripi,Mount Liebig,Kintore,Kiwirrkurra,Balgo,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles"
+},
+{
+    "name": "Yinjibarndi",
+  "i": 200623,
+  "min": 4,
+  "max": 10,
+  "d": "",
+  "m": 0,
+  "b": "Roebourne,Karratha,Dampier,Wittenoom,Tom Price,Paraburdoo,Newman,Pannawonica,Onslow,Exmouth,Carnarvon,Geraldton,Kalbarri,Denham,Shark Bay,Coral Bay,Ningaloo,Cape Range,Kennedy Range,Barlee Range,Hamersley,Ophthalmia,Weeli Wolli,Marandoo,Brockman,Nammuldi,Yandicoogina,Hope Downs,Roy Hill,Christmas Creek,Cloudbreak,Firetail,Gudai-Darri,Eliwana,Western Turner,Eastern Turner,Shay Gap,Yarrie,Packsaddle,Mount Whaleback,Mount Tom Price,Mount Brockman,Mount Meharry,Mount Bruce,Mount Augustus,Mount Edgar,Mount Clere,Mount Phillips,Mount Egerton,Mount Sandiman"
+},
+{
+    "name": "Yugambeh",
+  "i": 200624,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Southport,Gold Coast,Tweed Heads,Murwillumbah,Lismore,Byron Bay,Ballina,Grafton,Coffs Harbour,Yamba,Maclean,Evans Head,Coraki,Casino,Kyogle,Woodenbong,Bonalbo,Drake,Killarney,Warwick,Rathdowney,Spicer,Tabulam,Tooloom,Unumgar,Urbenville,Lindsay,Bald Rock,Bulls Head,Toloom,Julian,Border Ranges,Toonumbar,Richmond,Logan,Paddys Flat,Stoney Gulley,Duck Creek,Gidabal,Gidabul,Gidjoobal,Kitabal,Kittabool,Galibal,Dinggabul,Geynyan,Kalibal,Noowidal,Guriarba,Gumanyargan"
+},
+{
+    "name": "Alekano",
+  "i": 201037,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Aneme Wake",
+  "i": 201038,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ankave",
+  "i": 201039,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ari",
+  "i": 201040,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Asmat–Kamoro",
+  "i": 201041,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Atayal",
+  "i": 201042,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Atohwaim (Kaugat)",
+  "i": 201043,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Australian Kriol",
+  "i": 201044,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Darwin,Katherine,Alice Springs,Tennant Creek,Borroloola,Roper,Ngukurr,Numbulwar,Darwin8,Darwin9,Darwin10,Darwin11,Darwin12,Darwin13,Darwin14,Darwin15,Darwin16,Darwin17,Darwin18,Darwin19"
+},
+{
+    "name": "Auye",
+  "i": 201045,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Becking–Dawi",
+  "i": 201046,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Budai-Labuan-Taromak Rukai",
+  "i": 201047,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Cèmuhî",
+  "i": 201048,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Cheke Holo",
+  "i": 201049,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Ese Ömie",
+  "i": 201050,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Hagen",
+  "i": 201051,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Hoanya",
+  "i": 201052,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Hoia Hoia",
+  "i": 201053,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Isbukun Bunun",
+  "i": 201054,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Javanese macro entry",
+  "i": 201055,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Jakarta,Surabaya,Bandung,Yogyakarta,Semarang,Solo,Malang,Bali,Lombok,Sumbawa,Flores,Sumba,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru"
+},
+{
+    "name": "Kaera",
+  "i": 201056,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "Kafoa",
+  "i": 201057,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "Kaguel",
+  "i": 201058,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Kainantu",
+  "i": 201059,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Kalamian",
+  "i": 201060,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Kanakanavu",
+  "i": 201061,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Kawacha",
+  "i": 201062,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Kayagar (Kaygir)",
+  "i": 201063,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ke’yagana",
+  "i": 201064,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Ketagalan",
+  "i": 201065,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Kilivila",
+  "i": 201066,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Kimaama (Kimaghama)",
+  "i": 201067,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Kombai–Wanggom",
+  "i": 201068,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Kowiai",
+  "i": 201069,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Kulon",
+  "i": 201070,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Kunimaipa",
+  "i": 201071,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Lowland Iwur",
+  "i": 201072,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Madurese macro entry",
+  "i": 201073,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Madura,Sumenep,Pamekasan,Sampang,Bangkalan,Surabaya,Jakarta,Bandung,Yogyakarta,Semarang,Solo,Malang,Bali,Lombok,Sumbawa,Flores,Sumba,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru"
+},
+{
+    "name": "Maga-Tona Rukai",
+  "i": 201074,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Mailu",
+  "i": 201075,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Maiwa",
+  "i": 201076,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Makalero",
+  "i": 201077,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Makasae",
+  "i": 201078,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Makassar",
+  "i": 201079,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Makassar,Parepare,Pangkep,Maros,Bantaeng,Bulukumba,Sinjai,Bone,Wajo,Soppeng,Sidrap,Pinrang,Enrekang,Tana Toraja,Mamuju,Majene,Polewali,Mamasa,Bambang,Sumbawa,Lombok,Bima,Dompu"
+},
+{
+    "name": "Makayam",
+  "i": 201080,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mandobo",
+  "i": 201081,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mantauran Rukai",
+  "i": 201082,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Māori",
+  "i": 201083,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Mapena",
+  "i": 201084,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Maria",
+  "i": 201085,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Marind",
+  "i": 201086,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Maring",
+  "i": 201087,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Melanesian Pidgin",
+  "i": 201088,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Menya",
+  "i": 201089,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mian",
+  "i": 201090,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Moikodi",
+  "i": 201091,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mombum",
+  "i": 201092,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Momina",
+  "i": 201093,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Momuna",
+  "i": 201094,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Moni",
+  "i": 201095,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Moraori",
+  "i": 201096,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Morawa",
+  "i": 201097,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Morigi",
+  "i": 201098,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mountain",
+  "i": 201099,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Mountain Koiari",
+  "i": 201100,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mubami",
+  "i": 201101,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Mulaha",
+  "i": 201102,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Muna",
+  "i": 201103,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Muyu",
+  "i": 201104,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Nakai",
+  "i": 201105,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Namiae",
+  "i": 201106,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Namumi",
+  "i": 201107,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Narak",
+  "i": 201108,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Narom",
+  "i": 201109,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Nawaru",
+  "i": 201110,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ndom",
+  "i": 201111,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Nduga",
+  "i": 201112,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Nedebang",
+  "i": 201113,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "Nemi",
+  "i": 201114,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "New Zealand Pidgin English",
+  "i": 201115,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Dunedin,Palmerston North,Napier,Hastings,Nelson,Rotorua,New Plymouth,Whangarei,Invercargill,Gisborne,Taupo,Whanganui,Timaru,Masterton,Levin,Blenheim,Oamaru,Greymouth"
+},
+{
+    "name": "Ngalum",
+  "i": 201116,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Ngatikese Creole",
+  "i": 201117,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Pohnpei,Kolonia,Madolenihmw,U,Nett,Kitti,Sokehs,Net,Pohnpei8,Pohnpei9,Pohnpei10,Pohnpei11,Pohnpei12,Pohnpei13,Pohnpei14,Pohnpei15,Pohnpei16,Pohnpei17,Pohnpei18,Pohnpei19"
+},
+{
+    "name": "Nggem",
+  "i": 201118,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Nii",
+  "i": 201119,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ninggerum",
+  "i": 201120,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Nomane",
+  "i": 201121,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Northern and Central Bunun",
+  "i": 201122,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Nuaulu",
+  "i": 201123,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Odoodee",
+  "i": 201124,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Oirata",
+  "i": 201125,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ok–Oksapmin",
+  "i": 201126,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Oksapmin",
+  "i": 201127,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Omati",
+  "i": 201128,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Onjob",
+  "i": 201129,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Onobasulu",
+  "i": 201130,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Ontenu",
+  "i": 201131,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Orokaiva",
+  "i": 201132,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Oweina",
+  "i": 201133,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Pa",
+  "i": 201134,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Paiwan",
+  "i": 201135,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
+},
+{
+    "name": "Paniai Lakes",
+  "i": 201136,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Papora",
+  "i": 201137,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Papora-Hoanya",
+  "i": 201138,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Papuan Tip",
+  "i": 201139,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Pazeh",
+  "i": 201140,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Pisa",
+  "i": 201141,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Pitcairn-Norfolk",
+  "i": 201142,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Pitkin Island,Norfolk Island,Kingston,Phillip Island,Nepean Island,Pitkin Island5,Pitkin Island6,Pitkin Island7,Pitkin Island8,Pitkin Island9,Pitkin Island10,Pitkin Island11,Pitkin Island12,Pitkin Island13,Pitkin Island14,Pitkin Island15,Pitkin Island16,Pitkin Island17,Pitkin Island18,Pitkin Island19"
+},
+{
+    "name": "Pitkern",
+  "i": 201143,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Pitkin Island,Norfolk Island,Kingston,Phillip Island,Nepean Island,Pitkin Island5,Pitkin Island6,Pitkin Island7,Pitkin Island8,Pitkin Island9,Pitkin Island10,Pitkin Island11,Pitkin Island12,Pitkin Island13,Pitkin Island14,Pitkin Island15,Pitkin Island16,Pitkin Island17,Pitkin Island18,Pitkin Island19"
+},
+{
+    "name": "Pogaya",
+  "i": 201144,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Puyuma",
+  "i": 201145,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
+},
+{
+    "name": "Rapa Nui",
+  "i": 201146,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Hanga Roa,Vaihu,Anakena,Ahu Tongariki,Rano Raraku,Orongo,Ahu Akivi,Ahu Vinapu,Ahu Tahai,Ahu Ko Te Riku,Ahu Huri A Urenga,Ahu Akapu,Ahu Ature Huki,Ahu Vai Mata,Ahu Kihikihi,Ahu Te Pito Kura,Ahu Nau Nau,Ahu Raai,Ahu Ura Uranga Te Mahina,Ahu A Pite,Ahu O Pepe,Ahu Tautira,Ahu Vai Uri,Ahu Hanga Te Tenga"
+},
+{
+    "name": "Retta",
+  "i": 201147,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "Riantana",
+  "i": 201148,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Rotokas",
+  "i": 201149,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Rukai",
+  "i": 201150,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
+},
+{
+    "name": "Rumu",
+  "i": 201151,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Rusenu",
+  "i": 201152,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Saaroa",
+  "i": 201153,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Sabakor",
+  "i": 201154,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Safeyoka",
+  "i": 201155,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Saisiyat",
+  "i": 201156,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Sakizaya",
+  "i": 201157,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Salt-Yui",
+  "i": 201158,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Samberigi",
+  "i": 201159,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Samo",
+  "i": 201160,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Sawi",
+  "i": 201161,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Saʼban",
+  "i": 201162,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Seediq",
+  "i": 201163,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Sempan",
+  "i": 201164,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Setaman",
+  "i": 201165,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Shiaxa",
+  "i": 201166,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Siane",
+  "i": 201167,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Silimo",
+  "i": 201168,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Simbari",
+  "i": 201169,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Sinasina",
+  "i": 201170,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Singlish",
+  "i": 201171,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Singapore,Jurong,Tampines,Woodlands,Bedok,Punggol,Sengkang,Hougang,Pasir Ris,Sembawang,Yishun,Ang Mo Kio,Bishan,Toa Payoh,Novena,Orchard,Marina Bay,Sentosa,Changi,Paya Labar,Lavender,Kallang,Geylang,Marine Parade,Katong,Joo Chiat,Buangkok,Compassvale,Rivervale,Anchorvale,Fernvale,Jalan Kayu,Seletar,Choa Chu Kang,Bukit Batok,Bukit Panjang,Bukit Timah,Clementi,Dover,Buona Vista,Ghim Moh,Holland Village,One-North,Queenstown,Commonwealth"
+},
+{
+    "name": "Somahai",
+  "i": 201172,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Some",
+  "i": 201173,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Sonia",
+  "i": 201174,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Sonsorolese",
+  "i": 201175,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Koror,Melekeok,Ngerulmud,Airai,Ngardmau,Ngarchelong,Kayangel,Babeldaob,Peleliu,Angaur,Sonsorol,Pulo Anna,Merir,Tobi,Hatohobei,Fana,Koror16,Koror17,Koror18,Koror19"
+},
+{
+    "name": "Squliq Atayal",
+  "i": 201176,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Suena",
+  "i": 201177,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Suganga",
+  "i": 201178,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Suki",
+  "i": 201179,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Susuami",
+  "i": 201180,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Tainae",
+  "i": 201181,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Tairoa",
+  "i": 201182,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Tairora",
+  "i": 201183,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Tamagario",
+  "i": 201184,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Tangko",
+  "i": 201185,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Taokas",
+  "i": 201186,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Tauade",
+  "i": 201187,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Teiwa",
+  "i": 201188,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "Telefol",
+  "i": 201189,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Tembagla",
+  "i": 201190,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Thao",
+  "i": 201191,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Tifal",
+  "i": 201192,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Timor–Alor–Pantar",
+  "i": 201193,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Tirio (Lower Fly)",
+  "i": 201194,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Tobian",
+  "i": 201195,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Koror,Melekeok,Ngerulmud,Airai,Ngardmau,Ngarchelong,Kayangel,Babeldaob,Peleliu,Angaur,Sonsorol,Pulo Anna,Merir,Tobi,Hatohobei,Fana,Koror16,Koror17,Koror18,Koror19"
+},
+{
+    "name": "Tokano",
+  "i": 201196,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Torres Strait Creole",
+  "i": 201197,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Thursday Island,Horn Island,Badu Island,Mabuiag Island,Saibai Island,Boigu Island,Dauan Island,Erub Island,Ugar Island,Warraber Island,Poruma Island,Masig Island,Pulu Island,Sue Island,Thursday Island14,Thursday Island15,Thursday Island16,Thursday Island17,Thursday Island18,Thursday Island19"
+},
+{
+    "name": "Ts'ole' Atayal",
+  "i": 201198,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Tsaukambo",
+  "i": 201199,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Tsou",
+  "i": 201200,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
+},
+{
+    "name": "Turaka",
+  "i": 201201,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Turama-Kikorian",
+  "i": 201202,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Uab Meto",
+  "i": 201203,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Uare",
+  "i": 201204,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Umanakaina",
+  "i": 201205,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Urapmin",
+  "i": 201206,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Usarufa",
+  "i": 201207,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Vaeakau-Taumako",
+  "i": 201208,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Nifilolia,Nukapu,Nukulaelae,Atafu,Fakaofo,Nukunonu,Taumako,Duff,Tikopia,Anuta,Rennell,Bellona,Ontong Java,Sikaiana,Luangiua,Nukumanu,Takuu,Nukuria,Kapingamarangi,Nukuoro,Pileni,Lata,Santa Cruz,Vanikoro,Utupua,Nendö,Graciosa Bay"
+},
+{
+    "name": "Waboda",
+  "i": 201209,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Waffa",
+  "i": 201210,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Wahgi",
+  "i": 201211,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Waimoa",
+  "i": 201212,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Walak",
+  "i": 201213,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Wambon",
+  "i": 201214,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Wano",
+  "i": 201215,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Waruna",
+  "i": 201216,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Wayan",
+  "i": 201217,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Were",
+  "i": 201218,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Weri",
+  "i": 201219,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Wersing",
+  "i": 201220,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "West Bomberai",
+  "i": 201221,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Western",
+  "i": 201222,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Western Dani",
+  "i": 201223,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Western Pantar",
+  "i": 201224,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
+},
+{
+    "name": "Wiru",
+  "i": 201225,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Wolani",
+  "i": 201226,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Wolio",
+  "i": 201227,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
+},
+{
+    "name": "Yagaria",
+  "i": 201228,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Yagwoia",
+  "i": 201229,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Yali",
+  "i": 201230,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
+},
+{
+    "name": "Yaqay",
+  "i": 201231,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Yareba",
+  "i": 201232,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Yaweyuha",
+  "i": 201233,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Yekora",
+  "i": 201234,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Yipma",
+  "i": 201235,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Yogo (Tamagario)",
+  "i": 201236,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Yonggom",
+  "i": 201237,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
+},
+{
+    "name": "Zia",
+  "i": 201238,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "Zimakani",
+  "i": 201239,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
+},
+{
+    "name": "ꞌAreꞌare",
+  "i": 201240,
+  "min": 4,
+  "max": 12,
+  "d": "",
+  "m": 0,
+  "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
+}
 ];
