@@ -65,7 +65,7 @@ window.northAmericaNameBases = [
   "max": 15,
   "d": "alutsn",
   "m": 0,
-  "b": "3435910,Boedo,3436003,Berazategui,3436043,3436061,Belgrano,3436077,Barranqueras,3436124,Barracas,3436134,3436177,3436199,3436221,3436230,Aristóbulo del Valle,3436287,Apóstoles,3436311"
+  "b": "Akulivik,Arviat,Baker Lake,Cambridge Bay,Chesterfield Inlet,Coral Harbour,Gjoa Haven,Igloolik,Iqaluit,Kimmirut,Kugaaruk,Kugluktuk,Naujaat,Pangnirtung,Pond Inlet,Qikiqtarjuaq,Rankin Inlet,Repulse Bay,Sanikiluaq,Taloyoak,Whale Cove"
 },
 {
     "name": "Purépecha",
@@ -83,7 +83,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2063523,2065594,2065665,Morphett Vale,2065740,2067119,Kwinana,2068079,2068823,Gosnells,2070571,2070998,Gawler,2071059,2073124,Byford,2075230,2075265,2075432,Australind"
+  "b": "Abercorn,Acton Vale,Amqui,Anjou,Bathurst,Beauport,Brossard,Cap-de-la-Madeleine,Carleton,Chandler,Charlemagne,Châteauguay,Coaticook,Dieppe,Drummondville,Edmundston,Fredericton,Gaspé,Gatineau,Grande-Rivière,Joliette,Kuujjuaq,L'Assomption,Lachine,Lévis,Longueuil,Matane,Miramichi,Moncton,Mont-Laurier,Montmagny,Nicolet,Percé,Plessisville,Québec,Rimouski,Rivière-du-Loup,Rouyn-Noranda,Saguenay,Saint-Eustache,Saint-Hyacinthe,Saint-Jean-sur-Richelieu,Saint-Jérôme,Saint-Léonard,Saint-Lin-Laurentides,Salaberry-de-Valleyfield,Schefferville,Sept-Îles,Sorel-Tracy,Sherbrooke,Terrebonne,Thetford Mines,Tracy,Val-d'Or,Varennes,Verdun,Victoriaville"
 },
 {
     "name": "Acadian",
@@ -119,7 +119,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "cltr",
   "m": 0,
-  "b": "2146218,2146268,2146793,Thomastown,2146827,Templestowe,2147140,Tarneit,2147357,Taree,2147381,2147497,2147714,Surry Hills,2147821,Surfers Paradise,2147849,Sunbury,2147914,Strathfield"
+  "b": "Amecameca,Apizaco,Atlixco,Chalco,Cholula,Coatepec,Cuautla,Huamantla,Huexotla,Huejotzingo,Huehuetoca,Ixtapaluca,Malinalco,Metepec,Naucalpan,Nezahualcóyotl,Ocoyoacac,Puebla,San Gregorio Atzompa,San Martín Texmelucan,San Pedro Cholula,Tecamachalco,Tehuacán,Tepoztlán,Texcoco,Tlaxcala,Toluca,Xochimilco,Zacatlán"
 },
 {
     "name": "Franco-Ontarian",
@@ -200,7 +200,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2148088,Springvale,2148591,South Yarra,2148876,Southport,2148928,Shepparton,2149645,Seven Hills,2149847,2149975,Saint Kilda,2150660,Saint Ives,2150669,Saint Albans,2150717,Ryde,2150767"
+  "b": "Barre,Barton,Belmont,Calais,Claremont,Coventry,Danville,Derby,Enosburg,Fairfax,Franklin,Grafton,Grand Isle,Guilford,Hardwick,Isle La Motte,Jay,Johnson,Ludlow,Manchester,Middlebury,Montpelier,Morristown,Newport,Orleans,Plainfield,Poultney,Rutland,Springfield,St Johnsbury,Stowe,Swanton,Vergennes,Waterbury,Westfield,Williamstown,Woodstock"
 },
 {
     "name": "Newfoundland French",
@@ -209,7 +209,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rowville,2150894,Rockhampton,2151437,Rockdale,2151443,Ringwood,2151576,2151649,Reservoir,2151716,Quakers Hill,2152329,2152558,Port Melbourne,2152658,Port Macquarie,2152659,Point Cook,2152819"
+  "b": "Baie Verte,Bay Bulls,Beau Bois,Burin,Cape St George,Codroy,Conne River,Corner Brook,Fermeuse,Fortune,Grand Bank,Harbour Breton,Kippens,L'Anse-à-Canards,La Grand'Terre,La Scie,Mainland,Marystown,Mount Pearl,Oderin,Petite Forte,Placentia,Port au Port,Port aux Basques,Quirpon,St George's,St John's,Stephenville,Terra Nova,Twillingate,Winterhouse"
 },
 {
     "name": "Quebec French",
@@ -299,7 +299,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pascoe Vale,2153720,Palm Beach,2153925,Pakenham,2153953,2154219,Officer,2154481,North Melbourne,2154912,Northcote,2155001,Noble Park,2155204,2155472,Nerang,2155542,Narre Warren,2155718"
+  "b": "Brackettville,Cedar Creek,Chillicothe,Denton,Devine,Elgin,Fort Clark,Gonzales,Harlingen,Indianola,Kerrville,Laredo,Lockhart,Nacogdoches,New Braunfels,Oklahoma City,Presidio,San Antonio,Taft,Uvalde,Waco,Weatherford"
 },
 {
     "name": "Sierra Popoluca",
@@ -902,7 +902,7 @@ window.northAmericaNameBases = [
   "max": 13,
   "d": "l",
   "m": 0,
-  "b": "3184271,3184497,Patos Fshat,Fier County,3184517,Patos,3184518,Lushnjë,3184862,Lezhë,Lezhe County,3184935,Kuçovë,Berat County,3185060,Krujë,3185082,Kavajë,3185211,Fushë-Krujë"
+  "b": "Acatlán,Acaxochitlán,Actopan,Almoloya,Apan,Atotonilco,Chalma,Chapultepec,Chiautempan,Cholula,Coatzacoalcos,Cuautitlán,Cuautla,Cuernavaca,Ecatepec,Huehuetoca,Huejotzingo,Huexotla,Ixtlahuaca,Iztacala,Iztapaluca,Malinalco,Metepec,Naucalpan,Nezahualcóyotl,Oaxtepec,Pachuca,Puebla,San Andrés Cholula,San Juan Teotihuacán,Tecámac,Temoaya,Tenango del Valle,Tepoztlán,Texcoco,Tizayuca,Tlalnepantla,Toluca,Tula,Tulancingo,Tultepec,Xalapa,Xico,Zacatecas,Zumpango"
 },
 {
     "name": "Seri",
@@ -956,7 +956,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Narangba,2155787,Muswellbrook,2156034,Mulgrave,2156340,Mount Waverley,2156492,Mount Martha,2156578,Mount Gambier,2156643,Mount Eliza,2156663,Mount Druitt,2156671,Mosman,2156813,Mornington,2156878"
+  "b": "Acatenango,Almolonga,Chimaltenango,Chichicastenango,Cunén,Huehuetenango,Ixchiguán,Jacaltenango,La Libertad,Nebaj,Petapa,Quetzaltenango,Sacatepéquez,San Antonio Huista,San Cristóbal Totonicapán,San Marcos,Santa Cruz del Quiché,Sololá,Totonicapán,Zacapa"
 },
 {
     "name": "Cuicatec",

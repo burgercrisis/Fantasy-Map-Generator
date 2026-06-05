@@ -29,7 +29,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "l",
   "m": 0,
-  "b": "Londuimbali,3347880,Lobito,3347939,Cuíto,3348078,Catchiungo,3348094,Humbe,3348297,3348313,3348581,Gabela,3348613,Dombe Grande,3348896,Cuemba,3349181,Cubal do Lumbo,3349222"
+  "b": "Abancay,Andahuaylas,Arequipa,Ayacucho,Ayaviri,Bagua Grande,Cajamarca,Calca,Callao,Caraz,Catacaos,Cerro de Pasco,Chachapoyas,Chancay,Chepen,Chiclayo,Chimbote,Chincha,Chivay,Chosica,Chulucanas,Cuzco,Huacho,Huancavelica,Huancayo,Huanta,Huaral,Huaraz,Huarmay,Ica,Ilo,Imperial,Jaen,Jauja,Juliaca,La Oroya,Lambayeque,Lima,Los Aquijes,Mala,Matucana,Moche,Moyobamba,Nazca,Nueva Cajamarca,Pacasmayo,Paita,Pampas,Piura,Pucallpa,Puerto Maldonado,Puno,Quillabamba,Reque,Rioja,San Ramon,Santa,Sicuani,Sullana,Tacna,Talara,Tarapoto,Tarma,Tingo Maria,Tocache,Trujillo,Tumbes,Yauyos,Yungay"
 },
 {
     "name": "Kwaza-Xocó Amazonian",
@@ -56,7 +56,7 @@ window.southAmericaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "2764279,2764359,Simmering,2765028,2766429,Sankt Peter,2766446,2766447,Sankt Martin,2766522,State of Salzburg,2766824,Saalfelden am Steinernen Meer,2766922,Pradl,2768442,Perchtoldsdorf,2769110,Ottakring,2769359"
+  "b": "Amajari,Alto Alegre,Aracá,Balawaú,Boa Vista,Caracaraí,Catrimani,Demini,Iracema,Majaú,Marauiá,Mucajaí,Paapiú,Pico da Neblina,Roraima,Rorainópolis,Santa Isabel do Rio Negro,Serra Parima,Surucucus,Toototobi,Uraricaá,Uraricoera,Xitei,Ye'kwana"
 },
 {
     "name": "Tsimané",
@@ -74,7 +74,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mödling,2771335,Meidling,2771706,Lustenau,Vorarlberg,2772173,2772400,Klosterneuburg,2773913,2774326,2775220,2775260,2775371,2775479,2775742,2776421,2776488,2778067,2779139"
+  "b": "Baqueti,Buen Destino,Buenos Aires,Candelaria,Carmen Alto,Chacra,El Puenteado,Geneshuaya,Ixiamas,Jesús de Cavina,Las Islas,Madidi,Madre de Dios,Manuripi,Misión Cavinas,Palma Flor,Palmasola,Paraíso,Peya Guarayo,Puerto Cavinas,Reyes,Riberalta,San José,San Juan,San Miguel,Santa Catalina,Santa Elena,Santa Rosa,Tacana,Tres Estrellas,Windsor"
 },
 {
     "name": "Kallawaya",
@@ -119,7 +119,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2077454,2077895,2077963,2078025,Yarraville,2142457,Wollert,2143255,Wodonga,2143285,Wheelers Hill,2143887,Westmead,2143973,Werribee,2144095,2144502,Warrnambool,2144528,Warragul"
+  "b": "Antofagasta,Arica,Calama,Chillán,Chillán Viejo,Chuquicamata,Cobija,Coquimbo,Concepción,Constitución,Copiapó,Coronel,Coyhaique,Curicó,Huasco,Iquique,Llaillay,Los Andes,Los Ángeles,Maipú,Mejillones,Osorno,Ovalle,Pichilemu,Puerto Montt,Puerto Varas,Punta Arenas,Rancagua,Rengo,San Antonio,San Bernardo,San Felipe,San Fernando,Santiago,Talca,Talcahuano,Temuco,Valdivia,Valparaíso,Vallenar,Victoria,Viña del Mar"
 },
 {
     "name": "Chilote",
@@ -128,7 +128,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2144604,Wantirna South,2144728,Wangaratta,2144764,Wallan,2144949,Wahroonga,2145092,Upper Coomera,2145461,Tuggeranong Administrative District,2145936,Truganina,2145990,Traralgon,2146108,Townsville,2146142,Torquay"
+  "b": "Achao,Ancud,Calbuco,Castro,Chacao,Chonchi,Curaco de Vélez,Dalcahue,Lemuy,Quellón,Queilén,Quemchi,Quinchao,Rilán,Tenaún"
 },
 {
     "name": "Colombian Spanish",
@@ -1037,7 +1037,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Langwarrin,2160582,Lalor,2160706,Lakemba,2160744,2161185,2161532,2161540,2161608,2163055,2163137,2163355,2163776,2163782,2163990,2164129,2164422,2164495,2164515"
+  "b": "Auaris,Balawaú,Boa Vista,Caracaraí,Catrimani,Demini,Iracema,Majaú,Mucajaí,Paapiú,Roraima,Rorainópolis,Santa Isabel,Serra Parima,Surucucus,Toototobi,Uraricaá,Uraricoera,Xitei,Ye'kwana"
 },
 {
     "name": "Italo-Paulista",

@@ -11,7 +11,7 @@ window.asiaNameBases = [
   "max": 9,
   "d": "ae",
   "m": 0.2,
-  "b": "145778,Cassanguidi,145872,Lumbala,Moxico,876130,Luau,876177,Cazombo,876482,Nzagi,Cuanza Norte,2236360,2236500,2236568,Úcua,Bengo,2236587,Tombôco,Zaire"
+  "b": "Abha,Ajman,Al Ain,Al Khobar,Al Ula,Amman,Aqaba,Ar Riyad,Asilah,Baghdad,Beirut,Buraidah,Cairo,Dammam,Doha,Dubai,Fez,Ha'il,Hama,Isfahan,Jeddah,Jerusalem,Karachi,Khartoum,Kuwait City,Madinah,Makkah,Muscat,Najran,Nazareth,Palmyra,Qatif,Rabat,Ramallah,Sabha,Salalah,Samarra,Sana'a,Sharjah,Suhar,Sur,Tabuk,Ta'if,Tripoli,Tunis,Wahran,Yanbu"
 },
 {
     "name": "Adeni Arabic",
@@ -326,7 +326,7 @@ window.asiaNameBases = [
   "max": 9,
   "d": "ae",
   "m": 0,
-  "b": "1141269,Gereshk,1141540,1141857,1142170,1142264,Istālif,1142330,Eslam Qaleh,1142404,1145352,1147066,1147242,1147290,Bahārak,1147489,1147540,Ārt Khwājah,1148106,Āsmār"
+  "b": "Alexandria,Aswan,Asyut,Beni Suef,Cairo,Damanhur,Damietta,Faiyum,Giza,Hurghada,Ismailia,Kafr el-Sheikh,Luxor,Mansoura,Minya,Marsa Matruh,Nag Hammadi,Obour,Port Said,Qena,Rashid,Sharm el-Sheikh,Shibin el-Kom,Sohag,Suez,Tanta,Zagazig,Zefta"
 },
 {
     "name": "Ancient North Arabian",
@@ -353,7 +353,7 @@ window.asiaNameBases = [
   "max": 10,
   "d": "eo",
   "m": 0,
-  "b": "1148205,1148311,1148658,Bāzārak,1429434,Markaz-e Woluswalī-ye Āchīn,1469706,Saint John’s,Antigua and Barbuda,Saint John Parish,3576022,Anguilla,3573374,Sarandë,Vlore County,363243,Korce County,781988,Elbasan County,782519"
+  "b": "Akita,Aomori,Chiba,Fukui,Fukuoka,Fukushima,Gifu,Hakodate,Hiroshima,Ibaraki,Ishikawa,Kagoshima,Kanagawa,Kobe,Kumamoto,Kyoto,Maebashi,Matsue,Matsumoto,Matsuyama,Mito,Miyazaki,Morioka,Nagano,Nagasaki,Nagoya,Nara,Niigata,Oita,Okayama,Okinawa,Osaka,Saga,Saitama,Sapporo,Sendai,Shizuoka,Takamatsu,Tochigi,Tokushima,Tokyo,Toyama,Tsu,Utsunomiya,Wakayama,Yamagata,Yamaguchi,Yokohama"
 },
 {
     "name": "Mesopotamian",
@@ -362,7 +362,7 @@ window.asiaNameBases = [
   "max": 9,
   "d": "srpl",
   "m": 0.1,
-  "b": "2243092,Cacuso,2243127,2243173,2243271,Bula Atumba,2243421,Buco Zau,2243458,Belize,2243646,Barra do Dande,2243677,2243866,Gama,2591933,Cazenga,2591949,Golfe,2591953"
+  "b": "Abu Ghraib,Al Hillah,Al Kut,Al Musayyib,Amarah,Ar Ramadi,As Samawah,Babil,Baghdad,Balad,Chamchamal,Dahuk,Diwaniyah,Erbil,Fallujah,Haditha,Haqlaniyah,Hilla,Hit,Irbil,Karbala,Kirkuk,Kufa,Mahmudiyah,Mosul,Najaf,Nasiriyah,Qadisiyah,Ramadi,Raniyah,Rutbah,Samarra,Shirqat,Sulaymaniyah,Tikrit,Umm Qasr,Zakho"
 },
 {
     "name": "Iranian",
@@ -371,7 +371,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "r",
   "m": 0.1,
-  "b": "Camama,2591957,Talatona,2591976,Xangongo,Cunene,3345492,Alto Hama,3345495,Virei,3345517,3345668,Ucu Seles,3345669,Tômbua,3345790,3346015,Quipungo,Huila,3346497"
+  "b": "Abadan,Abadeh,Ahvaz,Amol,Andimeshk,Ardabil,Ardakan,Arak,Asaluyeh,Babol,Bandar Abbas,Bandar Anzali,Bandar-e Emam Khomeini,Behbahan,Birjand,Bojnurd,Borujerd,Bukan,Bushehr,Chabahar,Damghan,Dezful,Divandarreh,Fasa,Ferdows,Firuzabad,Gachsaran,Golpayegan,Gonabad,Gorgan,Hamadan,Iranshahr,Isfahan,Jahrom,Jask,Jiroft,Karaj,Kashan,Kashmar,Kazerun,Kerman,Kermanshah,Khomeyn,Khorramabad,Khorramshahr,Khoy,Lahijan,Langarud,Mahabad,Malayer,Manjil,Maragheh,Marand,Marivan,Mashhad,Mianeh,Najafabad,Namin,Natanz,Neyriz,Nishapur,Orumiyeh,Parsabad,Qaem Shahr,Qarchak,Qazvin,Qeshm,Qom,Rafsanjan,Rasht,Ray,Rezvanshahr,Sabzevar,Sanandaj,Sari,Sarpol-e Zahab,Saveh,Semnan,Shahr-e Kord,Shahrud,Shiraz,Shushtar,Tabriz,Taft,Talesh,Tehran,Torbat-e Heydarieh,Urmia,Yasuj,Yazd,Zabol,Zahedan,Zanjan,Zarand"
 },
 {
     "name": "Karnataka",
@@ -380,7 +380,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "tnl",
   "m": 0,
-  "b": "Quibala,3346598,Porto Amboim,3346661,3346821,Nharêa,Bie,3346942,Mossamedes,3347019,Mungo,3347111,3347353,Matala,3347424,Luquembo,3347615,3347719,3347762,3347853"
+  "b": "Badami,Bagalkot,Bailhongal,Bangalore,Bannur,Bantwal,Basavakalyan,Belgaum,Bellary,Belur,Bhadravati,Bhatkal,Bidar,Bijapur,Challakere,Chamrajnagar,Chikballapur,Chikmagalur,Chintamani,Chitradurga,Davanagere,Dharwad,Gadag,Gangawati,Gokak,Gulbarga,Hampi,Hanur,Harihar,Hassan,Haveri,Holenarasipur,Honnavar,Hospet,Hubli,Indi,Jagalur,Jamkhandi,Kadur,Kalghatgi,Kanakapura,Karwar,Kodagu,Kolar,Kollegal,Koppal,Krishnarajapet,Kudligi,Kumta,Kundapura,Lakshmeshwar,Lingsugur,Maddur,Madhugiri,Malavalli,Malleshwaram,Mandya,Mangalore,Manvi,Mudalgi,Mulbagal,Mundargi,Mysore,Nanjangud,Nargund,Navalgund,Nipani,Pavagada,Raichur,Ramanagara,Ranebennur,Ron,Sagar,Sakleshpur,Sandur,Savanur,Shahabad,Shahpur,Shikaripur,Shimoga,Shirahatti,Siddapur,Sindhnur,Sira,Sirsi,Sorab,Sringeri,Srirangapatna,Sullia,Talikota,Tarikere,Tiptur,Tumkur,Turuvekere,Udupi,Vijayapura,Yadgir,Yelburga,Yellapur"
 },
 {
     "name": "Vietnamese",
@@ -389,7 +389,7 @@ window.asiaNameBases = [
   "max": 12,
   "d": "s",
   "m": 1,
-  "b": "3351014,Caluquembe,3351023,Calulo,3351064,Caála,3351500,Bocoio,3351599,3351663,Balombo,3351764,Baía Farta,3351786,Andulo,3351884,Cambundi,7745410,Kikolo,7758790"
+  "b": "Bac Giang,Bac Kan,Bac Lieu,Bac Ninh,Ba Ria,Bien Hoa,Buon Ma Thuot,Ca Mau,Cam Pha,Cam Ranh,Can Tho,Cao Bang,Cao Lanh,Chau Doc,Da Lat,Da Nang,Dien Bien Phu,Dong Ha,Dong Hoi,Dong Thap,Gia Lai,Ha Giang,Ha Long,Ha Nam,Ha Noi,Ha Tinh,Hai Duong,Hai Phong,Hoa Binh,Ho Chi Minh,Hue,Hung Yen,Khanh Hoa,Kien Giang,Kon Tum,Lai Chau,Lam Dong,Lang Son,Lao Cai,Long An,Long Xuyen,My Tho,Nam Dinh,Nghe An,Nha Trang,Ninh Binh,Ninh Thuan,Phan Rang,Phan Thiet,Phu Ly,Phu Quoc,Phu Tho,Pleiku,Quang Binh,Quang Nam,Quang Ngai,Quang Ninh,Quy Nhon,Soc Trang,Son La,Tan An,Tay Ninh,Thai Binh,Thai Nguyen,Thanh Hoa,Thu Duc,Tien Giang,Tra Vinh,Tuy Hoa,Tuyen Quang,Uong Bi,Viet Tri,Vinh,Vinh Long,Vinh Yen,Yen Bai"
 },
 {
     "name": "Cantonese",
@@ -398,7 +398,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cafunfo,7768322,7855993,Quissecula,7860624,7900710,Mulenvos,8307074,Kilamba,10402606,Ingombota,10627325,Nova Vida,11592397,Zango,11592398,12170526,Rangel,13546341,13546342"
+  "b": "Chaozhou,Chenghai,Dongguan,Foshan,Gaozhou,Guangzhou,Haifeng,Heyuan,Heshan,Huizhou,Jiangmen,Jieyang,Kaiping,Leizhou,Lianjiang,Lianzhou,Lufeng,Maoming,Meizhou,Nanhai,Pingyuan,Qingyuan,Shantou,Shanwei,Shaoguan,Sihui,Taishan,Wuchuan,Xinhui,Xingning,Yangjiang,Yunfu,Zhanjiang,Zhaoqing,Zhongshan,Zhuhai"
 },
 {
     "name": "Ahirani",
@@ -425,7 +425,7 @@ window.asiaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3839479,Quitilipi,3839490,Punta Alta,3839982,Puerto Madryn,3840092,Profesor Salvador Mazza,3840259,Presidencia Roque Sáenz Peña,3840300,Pocito,3840860,Plottier,3840885,3841490,Pérez,3841500,Pehuajó,3841679"
+  "b": "Alor,Ambon,Atambua,Baa,Bajawa,Belu,Bima,Bitung,Borong,Dobo,Ende,Flores,Halmahera,Kalabahi,Kefamenanu,Kendari,Kolano,Kupang,Larantuka,Lembata,Labuan Bajo,Lewoleba,Maumere,Manggarai,Manado,Manokwari,Mataram,Merauke,Nabire,Nagekeo,Ngada,Oelamasi,Piru,Rote,Ruteng,Sabu,Saumlaki,Seram,Serui,Sikka,Soe,Sorong,Sumbawa,Tambolaka,Tanimbar,Timika,Tual,Waena,Waikabubak,Waiwerang"
 },
 {
     "name": "Koya-Konda-Manda-Pengo",
@@ -434,7 +434,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3866465,3866496,6693228,6693230,7116866,7645166,7647007,10172104,11146328,Ingeniero Pablo Nogués,11147723,Villa Sarmiento,11148100,José C. Paz,12076997,Eastern District,5881576,Döbling,State of Vienna,2600996"
+  "b": "Addateegala,Ailapur,Allamvari Ghanpur,Ananthagiri,Araku,Aswaraopeta,Bhadrachalam,Bhamini,Bheemunipatnam,Bhupalapally,Bodhan,Boinpally,Chalpaka,Chandrugonda,Chinnaboinapally,Chintakonda,Chintoor,Dasnapur,Deverapalli,Dornadula,Dummugudem,East Godavari,Eturnagaram,Gandhinagar,Gangaram,Ghanpur,Gogulapudi,Gondulur,Gudem,Gundala,Gurramkonda,Hasanparthy,Huzurabad,Ibrahimpatnam,Jagitial,Jammikunta,Jangaon,Jayashankar,Julurupadu,Kagaznagar,Kalwakurthy,Kamanpur,Kamareddy,Karimnagar,Kataram,Khammam,Kodad,Kodangal,Komaram Bheem,Koruturu,Kothagudem,Kothakota,Koya,Kunavaram,Kuravi,Lakshmipuram,Machareddy,Mahadevpur,Mahbubnagar,Makthal,Mallampalli,Mancherial,Manthani,Medak,Medaram,Mulugu,Nagaram,Nalgonda,Nallabelli,Narayanpet,Narsampet,Narsapur,Nirmal,Nizamabad,Oorattum,Palakurthi,Parkal,Peddapalli,Pedda Vadlapudi,Pochampally,Polavaram,Raghunathpalle,Rajanna Sircilla,Ramagundam,Rampachodavaram,Rangareddy,Rudrur,Sammakka,Sangareddy,Sathupalli,Shapally,Siddipet,Sircilla,Suryapet,Tadvai,Tandur,Tekumatla,Tiryal,Utnur,V Venkatapuram,Vangara,Vemulawada,Vikarabad,Wanaparthy,Warangal,Yellandu,Yellareddy,Yeleswaram,Yellur,Yenmal,Zaheerabad"
 },
 {
     "name": "Iban",
@@ -6671,7 +6671,7 @@ window.asiaNameBases = [
   "max": 10,
   "d": "lnot",
   "m": 0,
-  "b": "616631,Shirak,616635,616752,Davtashen,616758,Charentsavan,616785,Avan,616864,Aragatsotn,616877,Artik,616887,617026,Erebuni,866152,Nor Nork,866153,Ajapnyak"
+  "b": "Adana,Adıyaman,Afyon,Ağrı,Amasya,Antalya,Artvin,Aydın,Balıkesir,Bilecik,Bingöl,Bitlis,Bolu,Burdur,Bursa,Çanakkale,Çankırı,Çorum,Denizli,Diyarbakır,Düzce,Edirne,Elazığ,Erzincan,Erzurum,Eskişehir,Gaziantep,Giresun,Gümüşhane,Hakkâri,Hatay,Iğdır,İskenderun,Isparta,İstanbul,İzmir,Kahramanmaraş,Karaman,Kars,Kastamonu,Kayseri,Kırıkkale,Kırklareli,Kırşehir,Kilis,Kocaeli,Konya,Kütahya,Malatya,Manisa,Mardin,Mersin,Muğla,Muş,Nevşehir,Niğde,Ordu,Osmaniye,Rize,Sakarya,Samsun,Siirt,Sinop,Sivas,Şanlıurfa,Şırnak,Tekirdağ,Tokat,Trabzon,Tunceli,Uşak,Van,Yalova,Yozgat,Zonguldak"
 },
 {
     "name": "Archi",

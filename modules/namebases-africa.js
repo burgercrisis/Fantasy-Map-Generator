@@ -14,7 +14,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "s",
   "m": 0.2,
-  "b": "866164,Kanaker-Zeytun,7647071,Malatia-Sebastia,7670934,Kentron,7670941,Shengavit,11111027,Arabkir,13156582,Saurimo,Lunda Sul,145531,Lucapa,Luanda Norte,145724,Dundo,145757,Chitato"
+  "b": "Agadir,Al Hoceima,Azilal,Beni Mellal,Berkane,Bouarfa,Casablanca,Chefchaouen,Dakhla,El Jadida,Errachidia,Es Smara,Fès,Guelmim,Ifrane,Inezgane,Kénitra,Khouribga,Laâyoune,Marrakech,Meknès,Midelt,Nador,Ouarzazate,Oujda,Rabat,Settat,Sidi Ifni,Sidi Kacem,Sidi Slimane,Taourirt,Tan-Tan,Tanger,Taroudant,Tata,Taza,Tétouan,Tiznit,Zagora"
 },
 {
     "name": "Nigerian",
@@ -23,7 +23,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "lnrt",
   "m": 0.3,
-  "b": "2239520,Maquela do Zombo,2239732,2239862,Maianga,2239888,Mabubas,2240004,Lucala,2240393,Lubalo,2240416,2240449,Kunda dya Baze,2240686,Benfica,2240937,2240958,Golungo Alto,2240975"
+  "b": "Aba,Abakaliki,Abeokuta,Abuja,Akure,Asaba,Awka,Benin City,Calabar,Damaturu,Dutse,Ekpoma,Enugu,Gombe,Gusau,Ibadan,Ife,Ikeja,Ikorodu,Ille-Ife,Ilorin,Jalingo,Jos,Kaduna,Kano,Katsina,Lagos,Lokoja,Maiduguri,Makurdi,Minna,Nnewi,Nsukka,Ogbomosho,Onitsha,Oshogbo,Owerri,Oyo,Port Harcourt,Sokoto,Suleja,Umuahia,Uyo,Wukari,Yola,Zaria"
 },
 {
     "name": "Dendi",
@@ -41,7 +41,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Sambizanga,13546343,Navegantes,13607978,Kima Kieza,13608165,Panguíla,13631347,Ramiros,13631350,Hoji ya Henda,13631351,3427213,Colonia Wanda,3427327,Villa Ortúzar,Buenos Aires F.D.,3427387,Villa Ocampo,3427388"
+  "b": "Aboso,Adama,Addis Alem,Addis Zemen,Agaro,Akaki,Alaba Kulito,Alamata,Alem Ketema,Alemaya,Ambo,Arba Minch,Asaita,Asela,Asosa,Awassa,Baco,Bati,Bedele,Bekoji,Bichena,Bonga,Bulcha,Butajira,Chagni,Chilga,Chiro,Combolcha,Dangila,Dembidollo,Dera,Dessie,Dila,Dodola,Durame,Fiche,Finote Selam,Gebre Guracha,Gelemso,Ghimbi,Ginir,Goba,Gode,Gondar,Gore,Guder,Hagere Mariam,Hagere Selam,Harar,Hawassa,Hirna,Hosaena,Huruta,Jinka,Jimma,Kemise,Kersa,Kobo,Kombolcha,Konso,Kulubi,Lalibela,Limmu Genet,Maji,Maksegnit,Maychew,Mekelle,Mendi,Merawi,Metahara,Metu,Mieso,Mizan Teferi,Mojo,Mota,Nazret,Nekemte,Shashamane,Sodo,Sokota,Tepi,Waliso,Weldiya,Welenchiti,Welkite,Wendo Genet,Woldia,Wonji,Woreta,Yabelo,Yeha,Ziway"
 },
 {
     "name": "Berber (Maghreb)",
@@ -50,7 +50,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "lnrt",
   "m": 0.2,
-  "b": "3430340,Nogoyá,3430415,Necochea,3430443,Muñiz,3430513,3430545,Monte Caseros,3430598,3430601,3430697,3430708,3430709,Haedo,3430835,3430863,Mar de Ajó,3430866,3430988"
+  "b": "Agadir,Al Hoceima,Azilal,Beni Mellal,Berkane,Bouarfa,Casablanca,Chefchaouen,Dakhla,El Jadida,Errachidia,Es Smara,Fès,Guelmim,Ifrane,Inezgane,Kénitra,Khouribga,Laâyoune,Marrakech,Meknès,Midelt,Nador,Ouarzazate,Oujda,Rabat,Settat,Sidi Ifni,Sidi Kacem,Sidi Slimane,Taourirt,Tan-Tan,Tanger,Taroudant,Tata,Taza,Tétouan,Tiznit,Zagora"
 },
 {
     "name": "Sekele",
@@ -59,7 +59,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Los Polvorines,3431057,Lomas de Zamora,3431271,3432043,3432079,Jardín América,3433349,Ituzaingó,3433360,Hurlingham,3433522,Gualeguaychú,3433658,Gualeguay,3433663,Goya,3433715,Gobernador Virasora,3433753"
+  "b": "Bagani,Bukalo,Divundu,Gobabis,Grootfontein,Kamanjab,Karasburg,Katima Mulilo,Khorixas,Luderitz,Maltahohe,Mariental,Okahandja,Okakarara,Omaruru,Ongwediva,Oshakati,Oshikango,Otjiwarongo,Outapi,Outjo,Rehoboth,Rundu,Swakopmund,Tsumeb,Walvis Bay,Windhoek"
 },
 {
     "name": "Taa Click",
@@ -68,7 +68,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "General Pacheco,3433787,General Juan Madariaga,3433801,General José de San Martín,3433803,Garupá,3433836,3433899,3433901,Federal,3433956,Ezeiza,3433975,Esquina,3434095,El Soberbio,3434291,El Palomar,3434509"
+  "b": "Bagani,Bukalo,Divundu,Gobabis,Grootfontein,Kamanjab,Karasburg,Katima Mulilo,Khorixas,Luderitz,Maltahohe,Mariental,Okahandja,Okakarara,Omaruru,Ongwediva,Oshakati,Oshikango,Otjiwarongo,Outapi,Outjo,Rehoboth,Rundu,Swakopmund,Tsumeb,Walvis Bay,Windhoek"
 },
 {
     "name": "Ju/'hoan Click",
@@ -77,7 +77,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Zapala,3832132,Yerba Buena,3832260,Villa Regina,3832647,Villa Paula de Sarmiento,3832653,3832662,Villa María,3832694,Villa Dolores,3832756,Villa Constitución,3832778,3832791,Villa Ángela,3832811,Villa Allende,3832815"
+  "b": "Bagani,Bukalo,Divundu,Gobabis,Grootfontein,Kamanjab,Karasburg,Katima Mulilo,Khorixas,Luderitz,Maltahohe,Mariental,Okahandja,Okakarara,Omaruru,Ongwediva,Oshakati,Oshikango,Otjiwarongo,Outapi,Outjo,Rehoboth,Rundu,Swakopmund,Tsumeb,Walvis Bay,Windhoek"
 },
 {
     "name": "Hadza Click",
@@ -86,7 +86,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Viedma,3832899,3832934,Vera,3833027,Venado Tuerto,3833062,Veinticinco de Mayo,3833112,3833367,Unquillo,3833412,Tres Isletas,3833794,Tres Arroyos,3833859,3833875,Trelew,Chubut,3833883"
+  "b": "Babati,Bariadi,Bukoba,Chamwino,Dodoma,Geita,Iringa,Kahama,Kigoma,Kilwa,Korogwe,Lindi,Mafia,Manyara,Mbeya,Morogoro,Moshi,Mpanda,Mtwara,Mwanza,Njombe,Ruvuma,Shinyanga,Songea,Sumbawanga,Tabora,Tanga,Uvinza"
 },
 {
     "name": "Sandawe Click",
@@ -95,7 +95,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrtkxgms",
   "m": 0,
-  "b": "Termas de Río Hondo,3834502,3834601,Tafí Viejo,3834813,Sunchales,3834971,3835793,3835869,3835994,3836194,3836277,San Salvador de Jujuy,3836564,San Ramón de la Nueva Orán,3836620,3836669,San Pedro de Jujuy,3836772,San Nicolás de los Arroyos"
+  "b": "Babati,Bariadi,Bukoba,Chamwino,Dodoma,Geita,Iringa,Kahama,Kigoma,Kilwa,Korogwe,Lindi,Mafia,Manyara,Mbeya,Morogoro,Moshi,Mpanda,Mtwara,Mwanza,Njombe,Ruvuma,Shinyanga,Songea,Sumbawanga,Tabora,Tanga,Uvinza"
 },
 {
     "name": "Bemba-Bembe-Fwe",
@@ -104,7 +104,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Carinthia,2760910,Wilten,Tyrol,2761164,Lower Austria,2761353,2761369,Wetzelsdorf,Styria,2761436,Upper Austria,2761524,2762372,2763423,Telfs,2763810,Straßgang,2764178,Stockerau"
+  "b": "Buchi,Bulambia,Chadiza,Chama,Chavuma,Chembe,Chibombo,Chienge,Chilubi,Chingola,Chinsali,Chipata,Chirundu,Chisamba,Choma,Gwembe,Isoka,Kabompo,Kabwe,Kafue,Kalabo,Kalomo,Kalulushi,Kanyama,Kaoma,Kasama,Kasempa,Katete,Kitwe,Livingstone,Luanshya,Lundazi,Lusaka,Mambwe,Mansa,Mazabuka,Mbala,Mkushi,Mongu,Mpika,Mporokoso,Mpulungu,Mufulira,Mumbwa,Mungwi,Mwense,Nakonde,Ndola,Nchelenge,Ngoma,Petauke,Samfya,Senanga,Serenje,Sesheke,Shangombo,Siavonga,Sinazongwe,Solwezi,Zambezi"
 },
 {
     "name": "Southern Mongolic",
@@ -113,7 +113,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2779469,2779674,2779912,2780361,2780741,2781503,2781680,2782067,2782315,2782555,8063098,11903636,11903637,11903638,11903639,11903640,Andritz,11903641,Gries,11903642"
+  "b": "Baoan,Datong,Dongxiang,Gangou,Guanting,Heyan,Huzhu,Ledu,Linxia,Minhe,Mongghul,Monguor,Qinghai,Sanchuan,Santa,Shangchuan,Suonan,Tianzhu,Tongren,Wutun,Xiakou,Zhaomuchuan,Zhongchuan"
 },
 {
     "name": "Mandara Chadic",
@@ -122,7 +122,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Währing,12196319,Landstraße,12214069,Margareten,12214070,Mariahilf,12214071,Neubau,12214072,Josefstadt,12214073,Alsergrund,12214080,Brigittenau,12214081,2061840,2062338,Port Hedland,2063042"
+  "b": "Ashigashia,Bama,Cinene,Dghwede,Dikwa,Giziga,Glavda,Gwoza,Gvoko,Hdi,Kamwe,Kapsiki,Kerawa,Koza,Lamang,Mabas,Madagali,Mafa,Malgwa,Mandara,Maroua,Michika,Mora,Mozogo,Mura,Ngoshe,Podokwa,Sukur,Vemgo,Wandala,Zaladva"
 },
 {
     "name": "Warao Delta",
@@ -968,7 +968,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "lnrt",
   "m": 0,
-  "b": "3349229,Conda,3349324,Chitembo,3349515,Chinguar,3349723,Chindumbo,3349746,3350123,Catumbela,3350246,3350372,Capunda,3350550,Camucuio,3350867,Cambundi Catembo,3350917,Camacupa"
+  "b": "Arusha,Bagamoyo,Bukoba,Chake Chake,Dar es Salaam,Dodoma,Geita,Iringa,Kahama,Kasulu,Kigoma,Kilwa,Kinondoni,Korogwe,Lindi,Mafia,Manyara,Mbeya,Morogoro,Moshi,Mpanda,Mtwara,Mwanza,Njombe,Pemba,Ruvuma,Shinyanga,Songea,Sumbawanga,Tabora,Tanga,Uvinza,Wete,Zanzibar"
 },
 {
     "name": "Mandarin Global",

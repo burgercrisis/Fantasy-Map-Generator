@@ -140,7 +140,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3836846,San Miguel de Tucumán,3836873,3836951,3836992,3837056,3837124,3837213,San José de Jáchal,3837240,San Jorge,3837441,3837675,Catamarca,3837702,San Carlos de Bolívar,3837855,San Antonio Oeste,3837980,3838227"
+  "b": "Alotau,Arawa,Buka,Bulolo,Daru,Finschhafen,Goroka,Kainantu,Kiunga,Kokopo,Lae,Lorengau,Madang,Markham,Mendi,Mt Hagen,Popondetta,Port Moresby,Rabaul,Tari,Vanimo,Wabag,Wapenamanda,Weewak"
 },
 {
     "name": "Dani Papuan",
@@ -149,7 +149,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3838233,Rufino,3838506,3838583,Río Tercero,3838793,Río Segundo,3838797,3838854,Río Gallegos,3838859,Río Cuarto,3838874,Río Colorado,3838879,Río Ceballos,3838902,Rawson,3839307,Rafaela"
+  "b": "Abepura,Asologaima,Assologaima,Baliem,Bokondini,Dekai,Dela Soba,Duabelas,Duram,Elelim,Habema,Hitadipa,Holuwon,Ilu,Jayapura,Jiwika,Karubaga,Kenyam,Kimbin,Kiwirok,Kurulu,Lani,Lanny Jaya,Makki,Mulia,Nabire,Nduga,Ninia,Pelebaga,Pilimo,Puncak Jaya,Pyramid,Sentani,Tagime,Tolikara,Wamena,Waena,Wamarkasan,Web,Welles,Wenam,Wesaput,Wouma,Yahukimo,Yalimo,Yali,Yuruf,Zagagi"
 },
 {
     "name": "Melanesian Vanuatu",
@@ -158,7 +158,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3841956,Palpalá,3842190,3842670,Nueve de Julio,3842881,3843123,Morteros,3843619,Monteros,3843803,3844421,Marcos Juárez,3844899,Machagai,3845330,3846864,Libertador General San Martín,3846915,Las Breñas"
+  "b": "Avire,Bunlap,Butmas,Efate,Endu,Forari,Hog Harbour,Ipikil,Ipota,Isangel,Lakatoro,Lamap,Loltong,Longana,Lorevilko,Luganville,Lenakel,Norsup,Pango,Port Havannah,Port Olry,Port Vila,Rovo Bay,Sola,Sulphur Bay,Tanna,Tasiriki,Whitesands"
 },
 {
     "name": "Micronesian",
@@ -167,7 +167,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3848687,3848950,La Falda,3851331,La Calera,3852374,Laboulaye,3852468,3853354,Joaquín V. González,3853491,3853510,Granadero Baigorria,3854895,Gobernador Gálvez,3854985,General Villegas,3855041,General Roca,3855065"
+  "b": "Aimeliik,Airai,Babeldaob,Colonia,Eauripik,Kapingamarangi,Kayangel,Kolonia,Koror,Lelu,Melekeok,Mokil,Ngarchelong,Ngaraard,Ngardmau,Ngaremlengui,Ngatpang,Ngiwal,Nukuoro,Palikir,Peidi,Pingelap,Pohnpei,Rull,Sapwuahfik,Sokehs,Tofol,Tomil,Ulimang,Weno,Yap"
 },
 {
     "name": "Central Pacific",
@@ -176,7 +176,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3855074,General Pico,3855075,General Mosconi,3855116,3855244,Firmat,3855554,Famaillá,3855666,Esquel,3855974,Esperanza,3856022,Embarcación,3856231,Embalse,3856235,El Bolsón,3858765"
+  "b": "Abaiang,Abamaure,Abemama,Alapi,Ambo,Amatuku,Bairiki,Banaba,Betio,Bonriki,Buariki,Buota,Denigomodu,Eita,Ewa,Fongafale,Funafala,Funafuti,Ijuw,Kiribati,Kuria,Lofeagai,Majuro,Marakei,Maiana,Makin,Meang,Meneng,Merir,Napuka,Nauru,Nibok,Niulakita,Nui,Nukufetau,Nukulaelae,Oi,Onoun,Potufale,Rabi,Ronawi,Tabiteuea,Taerawa,Tamana,Tanin,Tarawa,Teinainano,Temwaiku,Tofol,Toku,Uaboe,Vaiaku,Wotje,Yangor"
 },
 {
     "name": "New Caledonia",
@@ -185,7 +185,7 @@ window.oceaniaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "3859384,Deán Funes,3859512,Cutral-Có,3859552,Cruz del Eje,3859828,Crespo,3859904,Cosquín,3859965,Coronel Suárez,3860164,Coronda,3860217,3860259,Comodoro Rivadavia,3860443,Cipolletti,3861056"
+  "b": "Belep,Boulouparis,Bourail,Canala,Dumbea,Farino,Hienghene,Houailou,Isle of Pines,Kone,Koumac,La Foa,Lifou,Mare,Moindou,Mont-Dore,Noumea,Ouegoa,Ouvea,Paita,Poindimie,Pouembout,Poum,Poya,Sarramea,Thio,Touho,Voh,Waala,Yate"
 },
 {
     "name": "Tokelauan",

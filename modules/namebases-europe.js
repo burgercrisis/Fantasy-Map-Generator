@@ -83,7 +83,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lr",
   "m": 0,
-  "b": "Don Torcuato,3435010,3435038,Curuzú Cuatiá,3435103,3435217,Concordia,3435261,Concepción del Uruguay,3435264,3435352,Colegiales,3435356,Chascomús,3435448,Chajarí,3435486,Castelar,3435607,3435810"
+  "b": "Alagón,Almudévar,Alquezar,Ayerbe,Barbastro,Benasque,Bielsa,Binéfar,Calatayud,Cariñena,Caspe,Chiprana,Ejea de los Caballeros,Fraga,Graus,Huesca,Jaca,Jadraque,La Almunia de Doña Godina,Lanaja,Leciñena,Monzón,Monzón,Robres,Sabiñánigo,Sariñena,Sos del Rey Católico,Tamarite de Litera,Tarazona,Teruel,Torla,Uncastillo,Utebo,Villanueva de Gállego,Zaragoza"
 },
 {
     "name": "Danish",
@@ -173,7 +173,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0.1,
-  "b": "Escaldes-Engordany,3040051,3041563,290503,290581,290594,290680,291061,291074,291580,291696,291763,291775,292223,292231,292239,292261,292672,292688,292862"
+  "b": "Ashford,Aylesbury,Bradford,Brighton,Bristol,Cambridge,Canterbury,Carlisle,Chester,Chichester,Coventry,Crawley,Dartford,Doncaster,Durham,Exeter,Gloucester,Harrogate,Hastings,Ipswich,Kendal,Lancaster,Leeds,Lincoln,Liverpool,Luton,Manchester,Newcastle,Norwich,Nottingham,Oxford,Plymouth,Portsmouth,Reading,Ripon,Salisbury,Scarborough,Sheffield,Shrewsbury,Southampton,Stoke,Sunderland,Swindon,Truro,Wakefield,Warwick,Winchester,Worcester,York"
 },
 {
     "name": "French",
@@ -182,7 +182,7 @@ window.europeNameBases = [
   "max": 13,
   "d": "nlrs",
   "m": 0.1,
-  "b": "292878,292913,292932,292953,292968,292991,385024,Al Ḩamīdīyah,414901,Al Waheda,6691079,Al Karama,6691091,Al Wasl,6691096,The Palm Jumeirah,6691113,Bur Dubai,7289825,Khalifah A City"
+  "b": "Aix-en-Provence,Amiens,Angers,Annecy,Antibes,Arles,Auxerre,Avignon,Avoriaz,Bayonne,Beaune,Besancon,Biarritz,Blois,Bordeaux,Boulogne,Brest,Brive,Caen,Calais,Cannes,Chambery,Chartres,Clermont-Ferrand,Colmar,Dijon,Dunkerque,Grenoble,La Rochelle,Le Havre,Le Mans,Lille,Limoges,Lorient,Lourdes,Lyon,Marseille,Metz,Montpellier,Mulhouse,Nancy,Nantes,Nice,Nimes,Orleans,Paris,Pau,Perpignan,Poitiers,Quimper,Reims,Rennes,Roubaix,Rouen,Saint-Etienne,Saint-Nazaire,Strasbourg,Tarbes,Toulon,Toulouse,Tours,Troyes,Valence,Valenciennes,Verdun,Versailles"
 },
 {
     "name": "Italian",
@@ -191,7 +191,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "cltr",
   "m": 0.1,
-  "b": "8057551,Mirdif,8200824,Hawr al ‘Anz,8201275,Mankhūl,8225407,Nāyf,8226485,Al Murar al Qadīm,8226590,Al Warqaa,8469658,International City,8469668,Dubai Marina,8469788,Dubai Internet City,8469811,8469819"
+  "b": "Agrigento,Ancona,Aosta,Bari,Bergamo,Bologna,Bolzano,Brescia,Cagliari,Catania,Catanzaro,Como,Cremona,Ferrara,Firenze,Foggia,Genova,Grosseto,Lecce,Livorno,Massa,Messina,Milano,Modena,Monza,Napoli,Padova,Palermo,Parma,Perugia,Pescara,Piacenza,Pisa,Prato,Ragusa,Ravenna,Rimini,Roma,Salerno,Sassari,Siena,Siracusa,Taranto,Teramo,Torino,Trento,Trieste,Udine,Varese,Venezia,Verona,Vicenza"
 },
 {
     "name": "Castillian",
@@ -200,7 +200,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lr",
   "m": 0,
-  "b": "Ar Rumaylah,8475866,Al Jurf,8475923,Al Majaz,8476509,Dubai Festival City,8541937,Dubai International Financial Centre,8541977,Dubai Investments Park,11048853,11524601,Bani Yas City,12042052,Musaffah,12042053,Al Shamkhah City,12047416,Reef Al Fujairah City"
+  "b": "Albacete,Alicante,Almeria,Avila,Badajoz,Barcelona,Bilbao,Burgos,Cadiz,Castellon,Ciudad Real,Cordoba,Donostia,Elche,Gijon,Granada,Guadalajara,Huelva,Huesca,Ibiza,Jaen,La Coruna,Leon,Lleida,Logrono,Lugo,Madrid,Malaga,Marbella,Murcia,Ourense,Oviedo,Palencia,Palma,Pamplona,Salamanca,San Sebastian,Santander,Segovia,Sevilla,Soria,Tarragona,Teruel,Toledo,Valencia,Valladolid,Vigo,Zamora,Zaragoza"
 },
 {
     "name": "Nordic",
@@ -209,7 +209,7 @@ window.europeNameBases = [
   "max": 10,
   "d": "kln",
   "m": 0.1,
-  "b": "12047417,Al Bada'a,13118420,Al Muteena,13118421,Al Mizhar First,13118422,Dubai Silicon Oasis,13118424,Al Furjan,13118431,Business Bay,13118432,Al Qusais 1,13118433,Halwan,13118437,Al Sajaah,13118438,Lahbab"
+  "b": "Aarhus,Bergen,Bodø,Esbjerg,Fredrikstad,Gävle,Gothenburg,Halmstad,Helsingborg,Helsinki,Jönköping,Karlstad,Kristiansand,Linköping,Lund,Malmö,Norrköping,Odense,Oslo,Ostersund,Pori,Reykjavik,Rovaniemi,Stavanger,Stockholm,Sundsvall,Tampere,Trondheim,Turku,Umeå,Uppsala,Västerås,Viborg"
 },
 {
     "name": "Greek",
@@ -218,7 +218,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "s",
   "m": 0.1,
-  "b": "13118439,Mohammed Bin Zayed City,13118447,Nimroz,1120985,Bāzār-e Yakāwlang,1121381,1123004,1125155,Shibirghān,1125444,Ghowr,1125896,Sar-e Pol Province,1127110,Sang-e Chārak,1127628,Samangan,1127768,1128265"
+  "b": "Agrinio,Alexandroupoli,Argos,Arta,Athens,Chalcis,Chania,Corinth,Drama,Florina,Giannitsa,Heraklion,Ioannina,Kalamata,Karditsa,Karpenisi,Kastoria,Katerini,Kavala,Kerkyra,Kilkis,Komotini,Kozani,Lamia,Larissa,Levadeia,Messolonghi,Nafplio,Patras,Piraeus,Preveza,Rethymno,Salonica,Serres,Thessaloniki,Trikala,Volos,Xanthi"
 },
 {
     "name": "Roman",
@@ -227,7 +227,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "ln",
   "m": 0.1,
-  "b": "Qarqīn,1129516,Qarāwul,1129648,1130490,Paghmān,1131316,1131833,Nahrīn,1132495,Maymana,1133453,Mehtar Lām,1133574,Mazār-e Sharīf,1133616,1134720,1135158,1135689,Khowst"
+  "b": "Antium,Aquileia,Beneventum,Brixia,Capua,Cremona,Mediolanum,Mutina,Neapolis,Novum Comum,Patavium,Pisae,Placentia,Ravenna,Roma,Salernum,Syracusae,Tarentum,Tarracina,Tergeste,Tibur,Tusculum,Verona,Vesuvium,Vicentia"
 },
 {
     "name": "Finnic",
@@ -236,7 +236,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "akiut",
   "m": 0,
-  "b": "1136469,1136575,1136863,Khān Neshīn,1137079,Khanabad,1137168,Karukh,1137807,1138336,1138958,Jurm,1139085,1139715,Jabal os Saraj,Parwan,1139807,1140026,Ghormach,1141089"
+  "b": "Espoo,Haapajärvi,Hamina,Heinola,Helsinki,Hyvinkää,Iisalmi,Imatra,Jyväskylä,Kajaani,Kemi,Kokkola,Kotka,Kuopio,Lahti,Lappeenranta,Lohja,Mikkeli,Nokia,Oulu,Pori,Porvoo,Raahe,Rovaniemi,Salo,Savonlinna,Seinäjoki,Tampere,Turku,Vaasa,Vantaa"
 },
 {
     "name": "Portuguese",
@@ -245,7 +245,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0.1,
-  "b": "Kukës,Kukes County,782661,782756,Gjirokastër,Gjirokaster County,783148,783263,Bulqizë,Diber County,783508,Vlorë,3183719,Tirana,3183875,Shkodër,Shkoder County,3184081,Rrashbull,Durres County"
+  "b": "Abrantes,Agualva,Alcobaça,Almada,Amadora,Arcos de Valdevez,Aveiro,Barcelos,Beja,Braga,Bragança,Caldas da Rainha,Cantanhede,Castelo Branco,Coimbra,Elvas,Entroncamento,Évora,Estremoz,Farim,Faro,Figueira da Foz,Funchal,Guarda,Guimarães,Lamego,Leiria,Lisboa,Loulé,Lourinhã,Loures,Mangualde,Marvão,Matosinhos,Mirandela,Montemor-o-Novo,Odivelas,Odemira,Oeiras,Oliveira de Azeméis,Olhão,Ourique,Paços de Ferreira,Paredes,Penafiel,Pombal,Ponta Delgada,Portalegre,Portimão,Porto,Póvoa de Varzim,Queluz,Rio Maior,Sabugal,Santarém,Seixal,Setúbal,Sines,Sintra,Tavira,Tomar,Tondela,Torres Novas,Torres Vedras,Trofa,Vale de Cambra,Valongo,Valpaços,Vendas Novas,Viana do Castelo,Vila Franca de Xira,Vila Nova de Famalicão,Vila Nova de Gaia,Vila Real,Vila Real de Santo António,Viseu"
 },
 {
     "name": "Hungarian",
@@ -254,7 +254,7 @@ window.europeNameBases = [
   "max": 13,
   "d": "lr",
   "m": 0.1,
-  "b": "3185638,Fier-Çifçi,3185670,3185672,Durrës,3185728,3186084,174875,174895,174979,174991,616052,616062,616250,Masis,616435,616530,616599,616627,616629"
+  "b": "Abony,Alsózsolca,Bácsalmás,Baja,Balassagyarmat,Balatonfüred,Balkány,Battonya,Békéscsaba,Bélapátfalva,Berettyóújfalu,Bicske,Bonyhád,Budakalász,Budakeszi,Celldömölk,Csenger,Csongrád,Csorna,Csurgó,Dabas,Debrecen,Derecske,Dombóvár,Dunakeszi,Dunaújváros,Eger,Encs,Érd,Esztergom,Fegyvernek,Fehérgyarmat,Fonyód,Fót,Füzesabony,Gödöllő,Gyál,Gyoma,Gyöngyös,Győr,Gyula,Hajdúböszörmény,Hajdúszoboszló,Halásztelek,Hatvan,Heves,Hódmezővásárhely,Ibrány,Isaszeg,Jánoshalma,Jászberény,Kalocsa,Kapuvár,Karcag,Kecel,Kecskemét,Kemecse,Kenderes,Keszthely,Kiskőrös,Kiskunfélegyháza,Kiskunhalas,Komárom,Komló,Körmend,Körös,Kőszeg,Kunhegyes,Lenti,Létavértes,Litér,Makó,Martonvásár,Mátészalka,Miskolc,Mohács,Monor,Mór,Mórahalom,Mosonmagyaróvár,Nagyatád,Nagykálló,Nagykanizsa,Nagykőrös,Nyíradony,Nyírbátor,Nyíregyháza,Ócsa,Ózd,Orosháza,Oroszlány,Paks,Pápa,Pásztó,Pécs,Pilis,Pilisvörösvár,Polgárdi,Püspökladány,Ráckeve,Salgótarján,Sárbogárd,Sarkad,Sárospatak,Sárvár,Sásd,Sellye,Siklós,Simontornya,Solymár,Sopron,Sümeg,Szabadszállás,Százhalombatta,Szarvas,Szécsény,Székesfehérvár,Szeged,Szendrő,Szentendre,Szentgotthárd,Szentes,Szigethalom,Szigetszentmiklós,Szikszó,Szob,Szolnok,Szombathely,Tamási,Tapolca,Tata,Tatabánya,Tét,Tiszakécske,Tokaj,Tolna,Törökbálint,Törökszentmiklós,Tura,Túrkeve,Újfehértó,Vác,Várpalota,Vásárosnamény,Vecsés,Veresegyház,Veszprém,Zalaegerszeg,Zalakaros,Zirc,Zsámbék"
 },
 {
     "name": "Basque",
@@ -263,7 +263,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "r",
   "m": 0.1,
-  "b": "2236716,2236967,2236991,Sanza Pombo,2237128,Piri,2238876,Pango Aluquém,2238951,N'zeto,2239001,Negage,2239069,N'dalatando,2239076,Muxaluando,2239106,Mussende,Kwanza Sul,2239149"
+  "b": "Abadiño,Abaltzisketa,Aduna,Agurain,Aia,Aiara,Aizarnazabal,Albiztur,Alegia,Alkiza,Altzaga,Altzo,Amezketa,Andoain,Anoeta,Antzuola,Arama,Aramaio,Arantzazu,Areatza,Aretxabaleta,Arrasate,Arratzu,Arrieta,Artea,Artziniega,Ascain,Asteasu,Ataun,Atxondo,Aulesti,Azkoitia,Azpeitia,Bakio,Baliarrain,Barakaldo,Barrika,Basauri,Bedia,Bergara,Bermeo,Berriatua,Berriz,Bidania,Bilar,Bilbao,Busturia,Deba,Derio,Donostia,Dulantzi,Durango,Ea,Eibar,Elantxongo,Elgeta,Elgoibar,Elorrio,Erandio,Ereño,Errenteria,Errezil,Eskoriatza,Eskuernaga,Etxebarri,Etxebarria,Ezkio,Forua,Fruiz,Gabiria,Gaintza,Galdakao,Gamiz-Fika,Garai,Gasteiz,Gatika,Gautegiz Arteaga,Gernika,Gizaburuago,Goiatz,Gorliz,Gorriao,Gueñes,Harana,Hondarribia,Ibarra,Ibarrangelu,Idiazabal,Iekora,Igorre,Ikaztegieta,Irun,Irura,Iruraiz-Gauna,Ispaster,Itsaso,Iurreta,Izurtza,Jatabe,Kanpezu,Karrantza Harana,Kortezubi,Lanestosa,Lantziego,Larrabetzu,Lasarte,Laukiz,Lazkao,Leaburu,Legazpi,Legorreta,Leintz-Gatzaga,Leioa,Lekeitio,Lemoa,Lemoiz,Leza,Lezama,Lizartza,Loiu,Lujaio,Lumo,Maestu,Mallabia,Manaria,Markina-Xemein,Maruri-Jatabe,Mauleon,Meñaka,Mendaro,Mendexa,Morga,Mundaka,Mungia,Munitibar,Murueta,Muskiz,Mutriku,Nabarniz,Oiartzun,Oion,Okondo,Olaberria,Ondarroa,Ordizia,Orendain,Orexa,Oria,Ormaiztegi,Orozko,Ortuella,Otxandio,Pasaia,Plentzia,Portugalete,Santurtzi,Sestao,Sondika,Soraluze,Sukarrieta,Tolosa,Trapagaran,Turtzioz,Ubide,Ugao-Miraballes,Urduliz,Urduña,Urkabustaiz,Urnieta,Urretxu,Usurbil,Uzturre,Villabona,Zaldibar,Zaldibia,Zamudio,Zarautz,Zeanuri,Zegama,Zerain,Zestoa,Zierbena,Zigoitia,Ziortza,Zuia,Zumaia,Zumarraga"
 },
 {
     "name": "Celtic",
@@ -272,7 +272,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "nld",
   "m": 0,
-  "b": "2241371,2241372,Cuímba,2241623,Cuilo,2241635,Cuango-Luzamba,2241668,2241954,Caxito,2242001,Cangandala,2242584,Canacassala,2242647,Camabatela,2242885,Calumbo,2242906,Cage Mazumbo"
+  "b": "Aberdeen,Aberfoyle,Angus,Arbroath,Ayr,Banff,Bathgate,Blantyre,Brechin,Buckie,Caithness,Callander,Campbeltown,Carmunnock,Clackmannan,Clydebank,Cumbernauld,Cupar,Dalkeith,Dingwall,Dornoch,Dumfries,Dundee,Dunfermline,Dunoon,East Kilbride,Edinburgh,Elgin,Eyemouth,Falkirk,Forres,Fort William,Fraserburgh,Gairloch,Girvan,Glasgow,Golspie,Greenock,Hamilton,Hawick,Helensburgh,Huntly,Inveraray,Inverness,Inverurie,Irvine,Kelso,Kilmarnock,Kinross,Kirkcaldy,Kirkcudbright,Kirkwall,Lanark,Largs,Larkhall,Lerwick,Livingstone,Lochgilphead,Maud,Maybole,Methil,Moffat,Motherwell,Nairn,Newton Stewart,Oban,Orkney,Paisley,Perth,Pitlochry,Portree,Rothesay,Rutherglen,Shetland,St Andrews,Stirling,Stonehaven,Stranraer,Sutherland,Thurso,Troon,Wick"
 },
 {
     "name": "Lechitic",
@@ -281,7 +281,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Villa Lugano,3427408,Villaguay,3427428,Villa Gesell,3427431,Villa de Mayo,3427453,Tristán Suárez,3427626,Tortuguitas,3427687,3427761,3427833,3428068,Santo Tomé,3428071,Santos Lugares,3428075,Santa Teresita"
+  "b": "Będzin,Biała Podlaska,Białystok,Bielsko-Biała,Bydgoszcz,Bytom,Chełm,Chorzów,Częstochowa,Dąbrowa Górnicza,Elbląg,Ełk,Gdańsk,Gdynia,Gliwice,Gorzów Wielkopolski,Grodzisk Wielkopolski,Jastrzębie-Zdrój,Jaworzno,Jelenia Góra,Kalisz,Katowice,Kędzierzyn-Koźle,Kielce,Konin,Koszalin,Kraków,Krosno,Legnica,Leszno,Łódź,Lublin,Mysłowice,Nowy Sącz,Olsztyn,Opole,Ostrołęka,Pabianice,Piekary Śląskie,Piotrków Trybunalski,Płock,Poznań,Przemyśl,Radom,Ruda Śląska,Rybnik,Rzeszów,Siedlce,Siemianowice Śląskie,Sieradz,Skierniewice,Słupsk,Sopot,Stalowa Wola,Suwałki,Szczecin,Tarnobrzeg,Tarnów,Tomaszów Mazowiecki,Toruń,Tychy,Wałbrzych,Warszawa,Włocławek,Wrocław,Zabrze,Zamość,Zawiercie,Zielona Góra,Żory,Żyrardów"
 },
 {
     "name": "Czech-Slovak",
@@ -290,7 +290,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3428123,3428359,3428576,3428577,San Luis del Palmar,3428708,3428759,San Justo,3428775,3428975,3428992,San Antonio de Padua,3429244,3429248,Saladillo,3429399,Saladas,3429403,Retiro,3429576"
+  "b": "Banská Bystrica,Bratislava,Brno,Břeclav,České Budějovice,Český Těšín,Chomutov,Decín,Domažlice,Frýdek-Místek,Havířov,Havlíčkův Brod,Hodonín,Hradec Králové,Hranice,Jablonec nad Nisou,Jihlava,Jindřichův Hradec,Karlovy Vary,Karviná,Kladno,Klatovy,Kolín,Komárno,Kopřivnice,Kralupy nad Vltavou,Krnov,Kroměříž,Kutná Hora,Liberec,Litoměřice,Litvínov,Mladá Boleslav,Most,Náchod,Nový Jičín,Olomouc,Opava,Ostrava,Pardubice,Pelhřimov,Plzeň,Praha,Prostějov,Přerov,Příbram,Rakovník,Rožnov pod Radhoštěm,Rychnov nad Kněžnou,Semily,Sokolov,Strakonice,Šumperk,Tábor,Tachov,Teplice,Třebíč,Třinec,Trutnov,Turnov,Uherské Hradiště,Ústí nad Labem,Ústí nad Orlicí,Vsetín,Zlín,Znojmo,Žďár nad Sázavou"
 },
 {
     "name": "South Slavic BCS",
@@ -299,7 +299,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3429577,Reconquista,3429594,3429652,3429732,Puerto Iguazú,3429777,3429786,Puerto Eldorado,3429790,3429886,3429902,Pirané,3429949,Pinamar,3429971,3429980,Paso de los Libres,3430104,Oberá"
+  "b": "Banja Luka,Bijeljina,Bihać,Brčko,Brod,Cazin,Doboj,Dubrovnik,Goražde,Gradiška,Istočno Sarajevo,Kakanj,Konjic,Laktaši,Livno,Mostar,Mrkonjić Grad,Neum,Novi Grad,Novi Travnik,Odzak,Prijedor,Prnjavor,Sarajevo,Siroki Brijeg,Split,Teslići,Travnik,Trebinje,Tuzla,Velika Kladuša,Vitez,Vogošća,Zagreb,Zenica,Zvornik,Čapljina,Čitluk,Široki Brijeg,Živinice"
 },
 {
     "name": "Bulgarian",
@@ -308,7 +308,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cinco Saltos,3861061,Chivilcoy,3861344,Chimbas,3861416,Chilecito,3861445,Charata,3861678,Chacabuco,3861953,Centenario,3862144,Caucete,3862240,Catriel,3862254,Juan José Castelli,3862320"
+  "b": "Asenovgrad,Blagoevgrad,Burgas,Dobrich,Dupnitsa,Gabrovo,Haskovo,Kardzhali,Kazanlak,Kyustendil,Lom,Montana,Nesebar,Nova Zagora,Pazardzhik,Pernik,Petrich,Pleven,Plovdiv,Razgrad,Ruse,Samokov,Shumen,Silistra,Sliven,Smolyan,Sofia,Stara Zagora,Sunny Beach,Sveliychvo,Targovishte,Troyan,Varna,Veliko Tarnovo,Velingrad,Vidin,Vratsa,Yambol"
 },
 {
     "name": "Ukrainian",
@@ -317,7 +317,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Casilda,3862351,Carmen de Patagones,3862583,3862655,3862738,3862981,3863379,3864331,3864375,3865086,3865385,3865424,3865436,3865840,3866163,Allen,3866242,3866367,3866425"
+  "b": "Berdyansk,Bila Tserkva,Brovary,Bucha,Cherkasy,Chernihiv,Chernivtsi,Chornomorsk,Dnipro,Donetsk,Drohobych,Horlivka,Ivano-Frankivsk,Kamianske,Kharkiv,Kherson,Khmelnytskyi,Kirovohrad,Konotop,Korosten,Kramatorsk,Kremenchuk,Kryvyi Rih,Kyiv,Luhansk,Lutsk,Lviv,Makiivka,Mariupol,Melitopol,Mykolaiv,Nizhyn,Nova Kakhovka,Odesa,Pavlohrad,Poltava,Rivne,Sevastopol,Shostka,Sloviansk,Sumy,Uzhhorod,Vinnytsia,Yalta,Yenakiieve,Zaporizhzhia,Zhytomyr"
 },
 {
     "name": "Irish Gaelic",
@@ -326,7 +326,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Morayfield,2156934,South Morang,2156942,Mooroolbark,2156977,Moonee Ponds,2157056,Mitcham,2157410,2157495,Mill Park,2157635,2157698,Merrylands,2157995,Mernda,2158051,2158177,Mascot"
+  "b": "An Daingean,An Spidéal,Baile Átha Cliath,Ballyvourney,An Bun Beag,An Cheathrú Rua,An Clochán Liath,An Fhairc,Béal an Mhuirthead,Béal Feirste,Buncrana,Carna,Casla,Cill Airne,Cill Chainnigh,Clifden,Clonakilty,Corcaigh,Dún na nGall,Dún Dealgan,Dún Laoghaire,Fanad,Gaillimh,Inis,Leitir Móir,Luimneach,Mullach Íde,Na Rosa,Ráth Cairn,Sligo,Trá Lí,Tuam,An Uaimh,Wexford"
 },
 {
     "name": "Scottish Gaelic",
@@ -335,7 +335,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2158538,Maryborough,2158562,Marrickville,2158626,Maroubra,2158651,Manly,2158867,Maitland,2159045,Mackay,2159220,2159851,Lilydale,2160188,Lidcombe,2160258,2160517,2160560"
+  "b": "Aberfeldy,Aberfoyle,Ballachulish,Barra,Bearsden,Benbecula,Braes,Càirnis,Calanais,Castlebay,Dingwall,Dornoch,Dunblane,Dundee,Dùn Èideann,Eilean Leòdhais,Fort William,Glaschu,Golspie,Inbhir Nis,Inveraray,Iona,Kilmuir,Kintyre,Lismore,Mingulay,Mull,Na Rosa,North Uist,Oban,Portree,Raasay,Stornoway,Tarbert,Tobermory,Uig,Wester Ross"
 },
 {
     "name": "South Estonian A",
