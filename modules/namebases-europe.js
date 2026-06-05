@@ -344,7 +344,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "akiut",
   "m": 0,
-  "b": "2173323,Buderim,2173605,Brunswick,2173741,2173911,2174003,2174039,Boronia,2174580,Blacktown,2175411,Bexley,2175974,2176031,Bentleigh East,2176122,Bentleigh,2176123,Bendigo"
+  "b": "Abja,Antsla,Elva,Haapsalu,Halliste,Jaama,Jogeva,Johtme,Juuru,Kadrina,Kaiu,Kallaste,Kehra,Kehtna,Kiidjarve,Kiisa,Kilingi-Nomme,Kohtla-Jarve,Kose,Kuressaare,Lihula,Loksa,Luunja,Maardu,Muhu,Mustvee,Nomme,Otepaa,Paide,Parnu,Poltsamaa,Polva,Rakvere,Rapla,Rouge,Rapina,Saaremaa,Sangaste,Saue,Sindi,Surju,Tallinn,Tamsalu,Tartu,Tori,Tsooru,Turi,Torma,Tostamaa,Urva,Valga,Viljandi,Virtsu,Vohma,Voru"
 },
 {
     "name": "South Estonian B",
@@ -353,7 +353,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "akiut",
   "m": 0,
-  "b": "2176187,Baulkham Hills,2176592,2176632,Batemans Bay,2176639,Banora Point,2176934,Bankstown,2176947,Ballarat,2177091,Bairnsdale,2177233,Bacchus Marsh,2177394,2177513,Ashfield,2177565,Ascot Vale"
+  "b": "Aegviidu,Alatskivi,Ambla,Aravete,Emmaste,Haanja,Halliste,Hanu,Hargi,Humala,Illuka,Ilmatsal,Jaama,Jaani,Jeelachtme,Jogeva,Johvi,Juuru,Kadrina,Kaiu,Kallaste,Kehra,Kehtna,Kiidjarve,Kiisa,Koeru,Kose-Konnu,Korgessaare,Koue,Kuusiku,Lavassaare,Lehtse,Lihula,Louna-Eesti,Luganuse,Muhu,Mustjoe,Moisakula,Narva,Nova,Paide,Palamuse,Pedja,Piirissaare,Puhalepa,Pulga,Pussi,Rakke,Rapina,Rid,Rongu,Saare,Sangaste,Someru,Suure-Jaani,Tabivere,Tammiku,Tapiku,Tarvasjogi,Tartu,Toravere,Tori,Tsooru,Tuhala,Tuhalaane,Tumala,Turi,Uraste,Urjaste,Vahenurme,Valga,Vaoke,Vastseliina,Viljandi,Virtsu,Vormsi,Voru"
 },
 {
     "name": "Middle English",
@@ -362,7 +362,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "cl",
   "m": 0.1,
-  "b": "2177576,2177671,Albany Creek,2178208,Maroochydore,2207268,Cheltenham,2207618,Randwick,2208285,Dee Why,2208305,Umina Beach,2208313,6301965,Hervey Bay,6354957,Blue Mountains,6615604,Sydney Central Business District"
+  "b": "Ashburnham,Aylesbury,Bamburgh,Banterbury,Beverley,Bewcastle,Bosham,Bramber,Bristol,Caistor,Cambridge,Canterbury,Carlisle,Chepstow,Chester,Chichester,Cirencester,Colchester,Cranborne,Dartmouth,Doncaster,Dover,Droitwich,Durham,Exeter,Faversham,Framlingham,Glastonbury,Gloucester,Grantham,Guildford,Hastings,Hereford,Hertford,Howden,Huntingdon,Hythe,Ilchester,Ipswich,Kendal,Kenilworth,Lancaster,Launceston,Leicester,Lewes,Lincoln,Louth,Ludlow,Lyneham,Maidstone,Maldon,Marlborough,Middleton,Monmouth,Newark,Newcastle,Norwich,Nottingham,Oakham,Oswestry,Oxford,Penzance,Pickering,Portsmouth,Preston,Reading,Richborough,Rochester,Romsey,Salisbury,Sandwich,Scarborough,Shrewsbury,Skipton,Somerton,Southwark,Stafford,Stamford,Stoke,Stratford,Sudbury,Taunton,Tewkesbury,Thetford,Totnes,Towcester,Uxbridge,Wallingford,Warwick,Wells,Westbury,Whitby,Wigmore,Winchester,Windsor,Worcester,Yarmouth,York"
 },
 {
     "name": "Old English",
@@ -371,7 +371,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "eos",
   "m": 0.1,
-  "b": "7932620,7932622,Balwyn North,7932629,Malvern East,7932638,Brighton East,7932646,Redbank Plains,7932670,Labrador,8012683,8015209,Central Coast,8310663,Endeavour Hills,8347325,Kellyville,8347736,Taylors Lakes"
+  "b": "Axminster,Bath,Bradford,Burton,Crediton,Devizes,Dorchester,Exeter,Glastonbury,Gloucester,Hamwic,Hereford,London,Lympstone,Malmesbury,North Petherton,Oxford,Peterborough,Plymouth,Salisbury,Sherborne,Shaftesbury,Southampton,Taunton,Tiverton,Totnes,Warwick,Wells,Winchester,Worcester,Yeovil"
 },
 {
     "name": "Samoyedic Arctic",
@@ -380,7 +380,7 @@ window.europeNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "8348477,Cranebrook,8348511,Greenacre,8348574,Greystanes,8348582,Ellenbrook,8348596,Alexandra Hills,8348615,Calamvale,8348765,Yagoona,8348768,Highton,8348824,Pacific Pines,8348920,8348930"
+  "b": "Amderma,Andeg,Arkhangelsk,Belushya Guba,Bolshaya Zemlya,Chizha,Dikson,Gydan,Kamenka,Kanin,Karabrotsevo,Karskaya Guba,Kazym,Khalmer-Yu,Khara-Lakh,Khatanga,Khokhorda,Khonorei,Khoruta,Kikkiakki,Kiyak,Kotkino,Krasnoe,Krasnoselkup,Malaya Zemlya,Mangazeya,Muromets,Nadymsk,Naryan-Mar,Nes,Nizhneye Shapkina,Nizhnyaya Pesha,Nizhnyaya Taimyra,Novaya Mydrlake,Novy Port,Noyabrsk,Oma,Omskoye,Pechora,Pervomaysk,Pesyakov,Pioner,Pur,Purovsk,Tarko-Sale,Taz,Tazovsky,Tiksi,Tyumen,Urengoy,Ust-Kara,Ust-Tsylma,Varnek,Velen,Verkhnyaya Pesha,Vorovoro,Yamburg,Yamal,Yar-Sale,Yartsevo,Yeloguyn,Yubileyny"
 },
 {
     "name": "Nenets",

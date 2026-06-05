@@ -131,7 +131,7 @@ window.africaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Devonport,2168943,Deer Park,2169145,Deception Bay,2169220,Dandenong,2169460,2169867,Cronulla,2169956,2170079,2170089,2170307,2170435,2170697,2171085,2171168,2171400,2171507"
+  "b": "Akurimo,Aruka,Assakata,Awema,Caburi,Cakumak,Curiapo,Delta Amacuro,Gamorimo,Guri,Hukumida,Ikaburu,Kamwatta Hill,Koriabo,Kumaka,Mabaruma,Morawhanna,Murao,Oronoque,Pacaraima,Paraunko,Puerto Ayacucho,Rio Cuyuni,Santa Elena de Uairen,Sokomoko,Tabalabo,Tucupita,Tukupita,Uriapido,Warimure,Whitewater,Yuipana"
 },
 {
     "name": "Arabic Global",
@@ -140,7 +140,7 @@ window.africaNameBases = [
   "max": 9,
   "d": "ae",
   "m": 0.2,
-  "b": "7281838,Carindale,7281839,Parramatta,7281840,Ferntree Gully,7281850,Adelaide Hills,7302628,Canning Vale,7302631,Glenmore Park,7302642,Southbank,7302683,Docklands,7521471,Helensvale,7576707,Elwood"
+  "b": "Abu Dhabi,Amman,Aleppo,Baghdad,Beirut,Cairo,Casablanca,Damascus,Doha,Dubai,Fez,Istanbul,Jeddah,Jerusalem,Karachi,Khartoum,Kuwait City,Makkah,Muscat,Nablus,Rabat,Riyadh,Salalah,Sharjah,Sulaimaniyah,Tabuk,Tripoli,Tunis,Yanbu,Zarqa"
 },
 {
     "name": "Temiar",
@@ -149,7 +149,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1188204,Sarishābāri,1188569,Sakhipur,1189056,Raojān,1189638,Phultala,1191139,Pālang,1191368,Pār Naogaon,1192366,Nagar Naluākot,1193745,Nabīnagar,1193823,Mohammadpur,1194041,Mātuail"
+  "b": "Kampung Peralong,Kampung Rek-Rek,Kampung Piah,Kampung Air Bah,Kampung Makmur,Hulu Kinta,Sungai Siput,Batu Gajah,Simpang Pulai,Kuala Betis,Kampung Pos Dipang,Kampung Sungai Gepai"
 },
 {
     "name": "Juk (Bahnaric)",
@@ -977,7 +977,7 @@ window.africaNameBases = [
   "max": 10,
   "d": "lnrt",
   "m": 0,
-  "b": "6619280,Kingsford,6621337,Springfield Lakes,6693094,Bracken Ridge,6943558,Kallangur,6943560,North Lakes,6943562,The Gap,6943585,Pittwater,6949382,Caroline Springs,7281805,Hoppers Crossing,7281807,Logan City"
+  "b": "Beijing,Changsha,Chengdu,Chongqing,Dalian,Dongguan,Foshan,Fuzhou,Guangzhou,Guiyang,Hangzhou,Harbin,Hefei,Jinan,Kunming,Lanzhou,Nanchang,Nanjing,Nanning,Ningbo,Qingdao,Shanghai,Shenyang,Shenzhen,Shijiazhuang,Suzhou,Taiyuan,Tianjin,Urumqi,Wenzhou,Wuhan,Wuxi,Xiamen,Xi'an,Yinchuan,Zhengzhou"
 },
 {
     "name": "Sabah Malay",
@@ -986,7 +986,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Melbourne City Centre,11523810,Adelaide city centre,11523825,Wollongong city centre,11523847,Tanki Leendert,Aruba,3577072,3577089,Oranjestad,3577154,Noord,3577159,Mariehamn,Åland Islands,3041732,Əhmədbəyli,Saatli,147059"
+  "b": "Beaufort,Belton,Beverly,Bongawan,Inanam,Keningau,Kota Belud,Kota Kinabalu,Kota Marudu,Kuala Penyu,Kudat,Labuan,Lahad Datu,Libaran,Nabawan,Papar,Penampang,Pitas,Putatan,Ranau,Sandakan,Semporna,Sipitang,Tambunan,Tandek,Tawau,Tenom,Telupid,Tuaran"
 },
 {
     "name": "Makassar Malay",
@@ -995,7 +995,7 @@ window.africaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yevlax City,584649,Göygöl,Goygol Rayon,584716,Xaçmaz,584717,Ujar,Ucar,584791,Tovuz,Tovuz District,584821,Terter,Tartar District,584871,Sumqayıt,Sumqayit,584923,Qaraçuxur"
+  "b": "Bailang,Bengkol,Biringkanaya,Bontoala,Bunaken,Karombasan,Kleak,Makassar,Malalayang,Mamajang,Manggala,Mariso,Panakkukang,Rappocini,Singkil,Tallo,Tamalanrea,Tamalate,Tuminting,Ujung Pandang,Ujung Tanah,Wajo,Wanea"
 },
 {
     "name": "Makassar Branch",

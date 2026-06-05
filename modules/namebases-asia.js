@@ -209,7 +209,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Narre Warren South,9972518,Dandenong North,9972522,Frankston South,9972527,Sunshine West,9972578,Altona Meadows,9972579,Taylors Hill,9972586,Hurstville,9972762,West Pennant Hills,9972964,City of Port Phillip,10300648,Sunshine Coast,10630449"
+  "b": "Asajaya,Bau,Bintulu,Bintulu,Dalat,Igan,Kanowit,Kapit,Kota Samarahan,Kuching,Limbang,Lundu,Marudi,Miri,Mukah,Oya,Padawan,Pakan,Samarahan,Sandakan,Sarikei,Sebuyau,Serian,Sibu,Simbeng,Song,Sri Aman,Tanjung Manis,Tatau,Telupid,Tg Manis"
 },
 {
     "name": "Malaysian Mandarin",
@@ -443,7 +443,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "8349003,8349017,8349051,8349052,8349083,8349108,8349177,8349222,8349238,8349243,8349321,8349354,8349381,9957340,9957350,9958114,9972422,9972515,9972516,9972517"
+  "b": "Asajaya,Batu Kawa,Bintulu,Engkilili,Kapit,Kota Samarahan,Kuching,Limbang,Lubok Antu,Lundu,Marudi,Miri,Samarahan,Sebuyau,Sibu,Song,Sri Aman,Stutong,Tabuan,Tanjung Aru"
 },
 {
     "name": "Standard Malay",
@@ -452,7 +452,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shusha,147105,Salyan District,147271,Saatlı,147288,Neftçala,147425,Naxçıvan,147429,Lerik,Lerik District,147611,147622,Imishli,Imisli,147982,Fizuli,Fuzuli District,148106"
+  "b": "Alor Setar,Batu Pahat,George Town,Ipoh,Johor Bahru,Kangar,Kota Bharu,Kuala Kangsar,Kuala Lumpur,Kuala Terengganu,Kuantan,Kuching,Malacca City,Pasir Gudang,Penang,Putrajaya,Sandakan,Seremban,Shah Alam,Sibu,Tawau"
 },
 {
     "name": "Kupang Malay",
@@ -461,7 +461,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jalilabad,148290,Pushkino,Bilasuvar District,148340,Beylagan,Beylaqan,148354,Astara,148445,Şirvan,148565,Ağdam,148619,Zaqatala,Zaqatala District,584596,Zabrat,584614,Yevlakh"
+  "b": "Alak,Amarasi,Amfoang,Babau,Batakte,Camplong,Fatuleu,Kelapa Lima,Komo Luar,Kota Lama,Kota Raja,Kupang Barat,Kupang Tengah,Kupang Timur,Maulafa,Nekamese,Oebobo,Semau,Sulamu,Taebenu,Takari,Tarus,Uitao,Wenang"
 },
 {
     "name": "Malaccan Creole Malay",
@@ -470,7 +470,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "585103,Shamkhor,Shamkir Rayon,585152,Samaxi,585156,Sheki,Shaki City,585170,Sabunçu,585184,Sabirabad,Sabirabad District,585187,Qusar,Qusar District,585220,585221,Hacıqabul,Haciqabul"
+  "b": "Alor Gajah,Asahan,Ayer Keroh,Banda Kaba,Bandar Hilir,Batu Berendam,Bemban,Brisu,Cheng,Durian Tunggal,Hang Tuah Jaya,Jasin,Kampung Jawa,Klebang,Kuala Sungai Baru,Lendu,Lubok China,Machap Baru,Masjid Tanah,Merlimau,Nyalas,Peringgit,Pulau Sebang,Ramuan China,Selandar,Serkam,Simpang Ampat,Sungai Rambai,Sungai Udang,Tanjung Bidara,Tanjung Kling,Telok Mas,Umbai"
 },
 {
     "name": "Manado Malay",
@@ -479,7 +479,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "585225,Qazax,585226,Hacı Zeynalabdin,585379,Mingacevir City,585514,Maştağa,585557,Mardakan,585568,Lokbatan,585630,Kyurdarmir,Kurdamir District,585763,Khirdalan,Abseron,585915,İsmayıllı"
+  "b": "Bahu,Bailang,Batu Kota,Bengkol,Bumi Beringin,Bumi Nyiur,Calaca,Karombasan,Kleak,Komo Luar,Mahakeret,Malalayang,Mapanget,Paal,Pakowa,Pinaesaan,Ranotana Weru,Sindulang,Singkil,Teling,Ternate Baru,Tikala Kumaraka,Tuminting,Wanea,Wenang,Winangun"
 },
 {
     "name": "Dura-Tandrange",
@@ -488,7 +488,7 @@ window.asiaNameBases = [
   "max": 12,
   "d": "lnrt",
   "m": 0,
-  "b": "Ismayilli District,586318,Yeni Suraxanı,586340,Göyçay,Goeycay,586427,Hövsan,586429,Ganja City,586523,Divichibazar,Shabran,586763,Buzovna,586925,Biny Selo,586968,587057,Bilajari"
+  "b": "Bangre,Bhorletar,Candigaun,Dhuseni,Duradanda,Jita,Khaje Gaun,Kunchha,Lamjung,Maling,Naske,Pokhari Thok,Purankot,Ratnadevi,Sindure,Tandrange,Turlung"
 },
 {
     "name": "Papuan Malay",
@@ -497,7 +497,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "587078,587084,Amirdzhan,587261,Aghsu,Agsu District,587361,Ağdaş,587378,Agdzhabedy,Aghjabadi Rayon,587384,Bakıxanov,824003,Federation of B&H,3186573,3187609,Velika Kladuša,3188225,3188582"
+  "b": "Biak,Depapre,Doreh,Jayapura,Keerom,Kobakma,Manokwari,Merauke,Mulia,Nabire,Numfor,Sarmi,Sentani,Sorong,Supiori,Teminabuan,Timika,Wamena,Waropen,Yapen"
 },
 {
     "name": "Serui Malay",
@@ -506,7 +506,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Srpska,3188893,Travnik,3188924,3191281,3192409,3194828,3196079,Ilidža,3199145,3199744,3199779,3200396,3201984,3202822,3203099,3203521,3203653,3204186,3204222"
+  "b": "Ambaidiru,Angkaisera,Ariepi,Aromarea,Borai,Dumani,Kabuaena,Kainui,Kontiunai,Kosiwo,Mambo,Menawi,Miosnum,Panduami,Poom,Ransarnoni,Roipi,Saweru,Serui,Serui Jaya,Serui Kota,Serui Laut,Tatui,Wadapi,Waniwon,Wawuti,Windesi,Wonawa"
 },
 {
     "name": "Sula Malay",
@@ -515,7 +515,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3204541,3337476,Barbados,3374036,Thākurgaon,Rangpur Division,1185092,1185095,Tungi,Dhaka Division,1185098,Sylhet Division,1185099,Dohār,1185100,1185105,Mymensingh Division,1185106,Shibganj,Rajshahi Division"
+  "b": "Bacan,Falahu,Gane,Laiolo,Mangoli,Marasabesi,Obi,Patani,Sanana,Sofifi,Taliabu,Ternate,Tidore,Weda"
 },
 {
     "name": "Batek",
@@ -524,7 +524,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1185107,1185108,Khulna Division,1185111,1185115,Netrakona,1185116,Narsingdi,1185117,1185120,Shāhzādpur,1185121,Rāmganj,1185127,1185128,Barisal Division,1185138,Panchagarh,1185141,1185148"
+  "b": "Batek Deq,Tembeling,Kuala Koh,Kuala Tahan,Taman Negara,Sungai Relau,Sungai Singah,Kampung Orang Asli"
 },
 {
     "name": "Mah Meri",
@@ -533,7 +533,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Parbatipur,1185149,1185155,Nālchiti,1185156,Nāgarpur,1185159,Nageswari,1185160,1185162,Muktāgācha,1185164,Mirzāpur,1185165,Maulavi Bāzār,1185166,Morrelgonj,1185167,Mehendiganj,1185171"
+  "b": "Sungai Pelek,Pulau Carey,Kuala Langat,Kampung Bukit Bangkong,Kampung Sungai Kurau,Kampung Sungai Judah,Kampung Sungai Bumbun,Kampung Sungai Jugra,Kampung Tanjung Sepat"
 },
 {
     "name": "Semai",
@@ -542,7 +542,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mathba,1185173,Lalmonirhat,1185181,Lākshām,1185183,1185186,1185188,1185191,Kālīganj,1185199,Jhingergācha,1185204,Joypur Hāt,1185206,Ishwardi,1185207,1185209,Gaurnadi,1185210"
+  "b": "Kampung Batu Empat Belas,Kampung Pos Woh,Kampung Ampang Woh,Kampung Tapah,Kampung Gopeng,Kampung Kampar,Kampung Chenderiang,Kampung Batu Kurau,Kampung Lenggong,Kampung Gerik"
 },
 {
     "name": "Semaq Beri",
@@ -551,7 +551,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gafargaon,1185218,1185224,1185236,Sarankhola,1185239,Ramna Maidan,1185240,1185241,Chilmāri,1185247,Chhāgalnāiya,1185249,Lālmohan,1185251,1185252,Chhātak,1185254,Bhātpāra Abhaynagar,1185260"
+  "b": "Kampung Sungai Berua,Kampung Sungai Pergam,Hulu Terengganu,Kemaman,Jerantut,Kuantan,Maran,Tembeling"
 },
 {
     "name": "Semelai",
@@ -560,7 +560,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bherāmāra,1185262,Bhairab Bāzār,1185263,1185270,Kālia,1185272,Baniachang,1185274,Bājitpur,1185276,1185281,Badarganj,1185283,1185293,Tungipara,1185920,Sonārgaon,1187530,Shāhbāzpur Town"
+  "b": "Tasik Bera,Sungai Bera,Sungai Teriang,Paya Besar,Paya Badak,Sungai Serting,Sungai Lui,Ulu Muar,Kampung Bukit Gemuruh,Kampung Putat,Kampung Baapak,Kampung Gau,Kampung Jelawat,Kampung Lengut,Kampung Kuin"
 },
 {
     "name": "Camorta Nicobarese",
@@ -569,7 +569,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1194575,Maijdi,1195434,1196292,Kesabpur,1197895,Kafrul,1199503,1200109,Hājīganj,1201753,Gopālganj,1202120,1203344,Dukuria,1203762,Dohazāri,1203878,1203891,Uttar Char Fasson"
+  "b": "Camorta,Katchall,Nancowry,Trinkat,Pulo Milo,Kondul,Little Nicobar,Great Nicobar,Car Nicobar,Chowra,Teressa,Bompoka"
 },
 {
     "name": "Chaura Nicobarese",
@@ -578,7 +578,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1205481,Chattogram,1205733,Char Bhadrāsan,1207047,Charāmaddi,1207144,1207337,Burirchar,1208011,Bhatara,1209106,1209562,Burhānuddin,1210565,Ayla Patakata,1212221,Ashuganj City,1212405,1336133"
+  "b": "Chowra,Sanenyö,Teressa,Luröö,Nancowry,Muöt,Camorta,Kinlaka,Trinkat,Laful,Katcall,Tehnyu"
 },
 {
     "name": "Nancowry Nicobarese",
@@ -587,7 +587,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1336134,1336135,1336136,Barishal,1336137,1336139,1336140,1336142,1336143,1336144,1337233,Pīrgaaj,1337239,1337240,Madaripur,1337245,1337248,Kishorganj,1337249,Mānikganj"
+  "b": "Nancowry,Muöt,Katchall,Camorta,Trinkat,Chowra,Teressa,Car Nicobar,Pulo Milo,Kondul,Little Nicobar"
 },
 {
     "name": "Nicobarese (macro)",
@@ -596,7 +596,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1348441,Savar,1349452,1462674,1462681,Bhāndāria,1477498,Bibir Hat,6414184,Saidpur,6545349,Taluker Char Doani,7475889,Natona,7476237,Puthia,7483743,Natore,7483813,Srimangal"
+  "b": "Car Nicobar,Chowra,Teressa,Nancowry,Camorta,Trinkat,Katchall,Pulo Milo,Kondul,Little Nicobar,Great Nicobar,Shompen"
 },
 {
     "name": "Orang Pulo",
@@ -605,7 +605,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "7646709,7646711,Dhanmondi,7683974,Pallabi,7696679,Azimpur,7701354,Paotana Hat,7926419,8299875,Bhanga,8740356,Paltan,9827976,Mirpur Model Thana,11395976,Motijheel,13589478,Zwijndrecht"
+  "b": "Pulau Panggang,Pulau Pramuka,Pulau Kelapa,Pulau Harapan,Pulau Tidung,Pulau Untung Jawa,Pulau Pari,Pulau Sebira,Pulau Lancang,Pulau Karya,Pulau Bidadari,Pulau Onrust"
 },
 {
     "name": "Peranakan",
@@ -614,7 +614,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Flanders,2783081,Zwevegem,2783089,Zottegem,2783175,Zonhoven,2783188,Zolder,2783197,Zemst,2783274,Zele,2783293,Zedelgem,2783308,Zaventem,2783310,Wondelgem,2783456"
+  "b": "Malacca,George Town,Singapore,Penang,Kuala Lumpur,Ipoh,Johor Bahru,Seremban,Kuching,Sibu,Miri"
 },
 {
     "name": "Shompen",
@@ -623,7 +623,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Woluwe-Saint-Lambert,Brussels Capital,2783476,Wilrijk,2783615,Willebroek,2783632,Wevelgem,2783759,Wetteren,2783763,Westerlo,2783801,Wervik,2783820,Wavre,Wallonia,2783941,Watermael-Boitsfort,2783979"
+  "b": "Shompen Hut,Shompen Village A,Shompen Village B,Great Nicobar,Takahanyilang,Lo'ong,Kalay,Keyet,Afrabay,Campbell Bay,Gandhi Nagar,Govinda Nagar,Laxmi Nagar,Sastri Nagar,Joginder Nagar,Vijoy Nagar"
 },
 {
     "name": "Southern Nicobarese",
@@ -632,7 +632,7 @@ window.asiaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2783985,2784068,2784189,Visé,2784548,Vilvoorde,2784604,2784821,Uccle,2785123,Turnhout,2785141,Tubize,2785169,2785341,Torhout,2785364,2785389,Tienen,2785470"
+  "b": "Great Nicobar,Little Nicobar,Pulo Milo,Kondul,Takahanyilang,Lo'ong,Campbell Bay,Shompen Hut,Afrabay,Alexandera River,Galathia River"
 },
 {
     "name": "Katchal Nicobarese",
@@ -6680,7 +6680,7 @@ window.asiaNameBases = [
   "max": 10,
   "d": "lnrt",
   "m": 0,
-  "b": "8347847,Cherrybrook,8347871,Roxburgh Park,8347896,Prestons,8347914,Wyndham Vale,8348078,Ballajura,8348081,Willetton,8348101,Glenwood,8348142,Cabramatta,8348460,Campsie,8348466,Casula"
+  "b": "Archi,Botlikh,Buynaksk,Dagestanskiye Ogni,Derbent,Gedzhukh,Gunib,Imam Khabibi,Karata,Khiv,Khuchni,Kizlyar,Kubachi,Kumukh,Lak,Makhachkala,Mamedkala,Rutul,Suleyman-Stalsky,Tabasaran,Tpig,Unkratl,Zhada"
 },
 {
     "name": "Abaza",

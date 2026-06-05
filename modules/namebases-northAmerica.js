@@ -128,7 +128,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2164691,2164771,2164837,2165087,2165171,2165200,2165290,2165329,2165478,2165798,2166143,Frankston,2166144,Footscray,2166370,Fairfield,2166952,Essendon,2167208,Epping"
+  "b": "Alfred,Almonte,Amherstview,Arnprior,Augusta,Aylmer,Bourget,Campbellford,Casselman,Champlain,Chapleau,Chelmsford,Cobalt,Collingwood,Cornwall,Cumberland,Dubreuilville,Embrun,Espanola,Fort Frances,Glengarry,Hearst,Hornepayne,Iroquois Falls,Kapuskasing,Kenora,Kirkland Lake,Larder Lake,L'Orignal,Madawaska,Madoc,Marathon,Merrickville,Mississauga,Moosonee,North Bay,Opasatika,Ottawa,Pembroke,Penetanguishene,Prescott,Renfrew,Rockland,Sarnia,Schreiber,Smooth Rock Falls,South Dundas,South Stormont,St Charles,Sturgeon Falls,Sudbury,Temiskaming,Timmins,Toronto,Trenton,Val Rita-Harty,Vanier,Welland,West Nipissing,Winchester,Windsor,York"
 },
 {
     "name": "Frenchville French",
@@ -137,7 +137,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2167279,2167280,Engadine,2167312,Eltham,2167445,Eight Mile Plains,2167651,Echuca,2167817,Eastwood,2167840,Earlwood,2167949,2168305,Doreen,2168537,Doncaster East,2168605,2168607"
+  "b": "Frenchville,Clearfield,Covington,DuBois,Houtzdale,Karthaus,Lecontes Mills,Lumber City,Madera,McGees Mills,Mineral Springs,Munson,New Millport,Penfield,Pottersdale,Rockton,Shawville,Smoke Run,Surveyor,Viola,Winburne,Woodland"
 },
 {
     "name": "Joual",
@@ -155,7 +155,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2171707,2171845,2171945,2172111,2172191,2172264,2172293,2172303,2172434,2172517,2172686,2172710,2172797,Caboolture,2172832,Burwood,2172995,Burnie,2173125,Bundaberg"
+  "b": "Abbeville,Amite,Arnaudville,Baker,Basile,Baton Rouge,Belle Chasse,Belle Rose,Bogalusa,Bossier City,Brusly,Buras,Cecilia,Chalmette,Chataignier,Cloutier,Coushatta,Crowley,Delcambre,Denham Springs,Des Allemands,DeRidder,Destrehan,Donaldsonville,Duson,Edgard,Erath,Eunice,Fordoche,Franklin,Galliano,Garyville,Gonzales,Gramercy,Grosse Tete,Hahnville,Houma,Jeanerette,Jennings,Kaplan,Kinder,Labadieville,Lacassine,Lacombe,Lafayette,Lafitte,Lake Charles,Larose,Leesville,Loreauville,Lutcher,Madisonville,Mandeville,Maringouin,Marksville,Melville,Merryville,Minden,Monroe,Montegut,Montz,Morgan City,Napoleonville,Natchitoches,New Iberia,New Orleans,New Roads,Oakdale,Opelousas,Ossun,Patterson,Paulina,Pine Prairie,Pineville,Plaquemine,Pointe Coupée,Ponchatoula,Port Barre,Prairieville,Presqu'Isle,Raceland,Rayne,Ringgold,Rosepine,Ruston,Saint Martinville,Schriever,Scott,Shreveport,Sibley,Sorrento,St James,St Landry,St Martin,Sulphur,Sunset,Thibodaux,Tickfaw,Vacherie,Vermilionville,Ville Platte,Washington,West Monroe,Westlake,Youngsville,Zachary"
 },
 {
     "name": "Magoua",
