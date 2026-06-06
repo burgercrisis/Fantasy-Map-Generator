@@ -1,218 +1,61 @@
 "use strict";
 
 window.oceaniaNameBases = [
-  
 
 
-
-
-
-{
-    "name": "North Sarawakan",
-  "i": 151,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Kouka,2358898,2358946,Korsimoro,2359042,Kongoussi,2359142,Kombissiri,2359227,Kokologo,2359317,Kindi,2359495,2359608,Karankasso,2359695,2360073,Gourcy,2360238,2360541"
-},
-{
-    "name": "Moklenic",
-  "i": 162,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2392319,2392505,2392595,Natitingou,2392601,Missérété,2392746,Matéri,2392781,Malanville,2392837,2392897,2393287,Kétou,2393551,Kérou,2393561,2393693,2393722,Godomè"
-},
-{
-    "name": "Kambaira",
-  "i": 2002,
-  "min": 4,
-  "max": 11,
-  "d": "ls",
-  "m": 0,
-  "b": "10281812,Goniāna Mandi,10303818,Singānuram,10337414,10347914,Sarwar,10347952,Ettumanoor,10376566,Benipur,10400284,Rosera,10400291,10400293,Mahnar Bazar,10400295,Jora Khurd,10431234,Gothara"
-},
-{
-    "name": "Mor",
-  "i": 2066,
-  "min": 4,
-  "max": 11,
-  "d": "ot",
-  "m": 0,
-  "b": "13494542,13494582,13494583,13494584,13494585,13494586,13494595,13494596,13494597,13494610,13494611,13494612,13494613,13494614,13494645,13494687,13494688,13494689,13494690,13494691"
-},
-{
-    "name": "Kuman",
-  "i": 2291,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2043572,Iwŏn-ŭp,2043677,Hyesan-dong,2043835,Hyesan,2043837,Hwadae,2043962,Hongwŏn,2044050,Hoeryŏng,2044091,Chunggang,2044489,2044757,Changam-ch’on,2045220,Aoji-ri,2045311"
-},
-{
-    "name": "Kelabit",
-  "i": 2308,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1524889,1524958,1525462,1525798,1525988,1526038,1526168,1526193,1526265,1526273,1526384,1526797,1526970,1526973,1537939,Lao People's Democratic Republic,Vientiane Prefecture,1651944,Houaphan,1652203"
-},
-{
-    "name": "Sabahan",
-  "i": 152,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2360615,Gaoua,Sud-Ouest,2360620,2360626,Fara Department,2360855,2360886,Dori,2361082,Djibo,2361177,Diébougou,2361342,2361373,2361477,Dano,2361586,Gomboussougou,2361778"
-},
-{
-    "name": "Rejang",
-  "i": 21085,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "4958141,4959473,4969398,4975802,Saco,4977222,4977762,South Portland,4979244,South Portland Gardens,4979245,4982236,West Scarborough,4982720,Westbrook,4982753,Adrian,4983811,Allen Park,4984016"
-},
-{
-    "name": "Saluan-Banggai",
-  "i": 160,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Zinvié,Atlantique,2390731,2390740,Kouffo,2391034,Toukountouna,Atakora,2391067,Tobré,2391170,Borgou,2391377,Tanguiéta,2391455,2391739,Semi,Oueme,2391833,Alibori"
-},
-{
-    "name": "Tagalog",
-  "i": 2584,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3354147,3354247,3354898,3355672,3356264,Katutura,3356294,3357114,3357247,3359638,Helao Nafidi,12718704,South Province,2139521,2140066,2141394,Birnin Gaouré,Dosso Region,2437731,Tahoua Region"
-},
-{
-    "name": "Indonesian",
-  "i": 2585,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2437732,Zinder Region,2437798,Youri Kourtéré,Tillaberi Region,2437934,Torodi,2438409,2438678,Tibiri,Maradi Region,2438774,2438823,2438855,2438974,2439155,2439376,2439812,2440485,2440495"
-},
-{
-    "name": "Malay",
-  "i": 2586,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2440921,Méhana,2440977,2441194,Matamey,2441217,2441291,2441447,2441482,2441526,2441530,2442248,2443304,2443623,2444219,Gazaoua,2444479,2444489,2444995,2445488"
-},
-{
-    "name": "Minkin",
-  "i": 20030,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "6354985,Turgutreis,6620290,Sarigerme,6692524,Ataşehir,6947637,Başakşehir,6947639,Beylikdüzü,6947640,Büyükçekmece,6947641,Çankaya,6955677,Yakınca,7458188,Bahçelievler,7627067,Sultangazi"
-},
-{
-    "name": "Papuan",
-  "i": 21003,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "4893171,Gage Park,4893365,Galesburg,4893392,4893591,Glen Ellyn,4893811,Glenview,4893886,Goodings Grove,4894061,Grand Boulevard,4894320,Grayslake,4894465,Gurnee,4894861,Hanover Park,4895066"
-},
 {
     "name": "Engan Papuan",
   "i": 50,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alotau,Arawa,Buka,Bulolo,Daru,Finschhafen,Goroka,Kainantu,Kiunga,Kokopo,Lae,Lorengau,Madang,Markham,Mendi,Mt Hagen,Popondetta,Port Moresby,Rabaul,Tari,Vanimo,Wabag,Wapenamanda,Weewak"
+  "b": "San Miguel de Tucumán,San José de Jáchal,San Jorge,Catamarca,San Carlos de Bolívar,San Antonio Oeste"
 },
 {
     "name": "Dani Papuan",
   "i": 51,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abepura,Asologaima,Assologaima,Baliem,Bokondini,Dekai,Dela Soba,Duabelas,Duram,Elelim,Habema,Hitadipa,Holuwon,Ilu,Jayapura,Jiwika,Karubaga,Kenyam,Kimbin,Kiwirok,Kurulu,Lani,Lanny Jaya,Makki,Mulia,Nabire,Nduga,Ninia,Pelebaga,Pilimo,Puncak Jaya,Pyramid,Sentani,Tagime,Tolikara,Wamena,Waena,Wamarkasan,Web,Welles,Wenam,Wesaput,Wouma,Yahukimo,Yalimo,Yali,Yuruf,Zagagi"
+  "b": "Rufino,Río Tercero,Río Segundo,Río Gallegos,Río Cuarto,Río Colorado,Río Ceballos,Rawson,Rafaela"
 },
 {
     "name": "Melanesian Vanuatu",
   "i": 53,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Avire,Bunlap,Butmas,Efate,Endu,Forari,Hog Harbour,Ipikil,Ipota,Isangel,Lakatoro,Lamap,Loltong,Longana,Lorevilko,Luganville,Lenakel,Norsup,Pango,Port Havannah,Port Olry,Port Vila,Rovo Bay,Sola,Sulphur Bay,Tanna,Tasiriki,Whitesands"
+  "b": "Palpalá,Nueve de Julio,Morteros,Monteros,Marcos Juárez,Machagai,Libertador General San Martín,Las Breñas"
 },
 {
     "name": "Micronesian",
   "i": 54,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aimeliik,Airai,Babeldaob,Colonia,Eauripik,Kapingamarangi,Kayangel,Kolonia,Koror,Lelu,Melekeok,Mokil,Ngarchelong,Ngaraard,Ngardmau,Ngaremlengui,Ngatpang,Ngiwal,Nukuoro,Palikir,Peidi,Pingelap,Pohnpei,Rull,Sapwuahfik,Sokehs,Tofol,Tomil,Ulimang,Weno,Yap"
+  "b": "La Falda,La Calera,Laboulaye,Joaquín V. González,Granadero Baigorria,Gobernador Gálvez,General Villegas,General Roca"
 },
 {
     "name": "Central Pacific",
   "i": 55,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abaiang,Abamaure,Abemama,Alapi,Ambo,Amatuku,Bairiki,Banaba,Betio,Bonriki,Buariki,Buota,Denigomodu,Eita,Ewa,Fongafale,Funafala,Funafuti,Ijuw,Kiribati,Kuria,Lofeagai,Majuro,Marakei,Maiana,Makin,Meang,Meneng,Merir,Napuka,Nauru,Nibok,Niulakita,Nui,Nukufetau,Nukulaelae,Oi,Onoun,Potufale,Rabi,Ronawi,Tabiteuea,Taerawa,Tamana,Tanin,Tarawa,Teinainano,Temwaiku,Tofol,Toku,Uaboe,Vaiaku,Wotje,Yangor"
+  "b": "General Pico,General Mosconi,Firmat,Famaillá,Esquel,Esperanza,Embarcación,Embalse,El Bolsón"
 },
 {
     "name": "New Caledonia",
   "i": 56,
   "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Belep,Boulouparis,Bourail,Canala,Dumbea,Farino,Hienghene,Houailou,Isle of Pines,Kone,Koumac,La Foa,Lifou,Mare,Moindou,Mont-Dore,Noumea,Ouegoa,Ouvea,Paita,Poindimie,Pouembout,Poum,Poya,Sarramea,Thio,Touho,Voh,Waala,Yate"
-},
-{
-    "name": "Tokelauan",
-  "i": 97905,
-  "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "5423908,Highlands Ranch,5425043,Ken Caryl,5427207,5427771,5427946,Littleton,5429032,5429522,Montrose,5431710,Northglenn,5433124,5434006,Pueblo,5435464,Pueblo West,5435477,Sherrelwood"
-},
-{
-    "name": "Nauruan",
-  "i": 97906,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5438567,Southglenn,5439752,5441492,5443910,Wheat Ridge,5443948,Dodge City,5445298,5445439,Liberal,5445820,Alamogordo,5454627,5454711,5460459,5462393,5467328,5468773,Hobbs"
-},
-{
-    "name": "Tuvaluan",
-  "i": 97908,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5471578,Las Cruces,5475352,Los Lunas,5476913,Rio Rancho,5487811,5488441,5490263,South Valley,5492450,Sunland Park,5493403,Boulder City,Nevada,5500539,Carson City,5501344,5503766,Fernley"
+  "b": "Deán Funes,Cutral-Có,Cruz del Eje,Crespo,Cosquín,Coronel Suárez,Coronda,Comodoro Rivadavia,Cipolletti"
 },
 {
     "name": "Lampung",
@@ -221,7 +64,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2790114,Nijlen,2790135,Neerpelt,2790357,2790471,Mouscron,2790595,Mortsel,2790676,Morlanwelz-Mariemont,2790697,Montignies-sur-Sambre,2790796,2790869,Molenbeek-Saint-Jean,2791018,Mol,2791067,Middelkerke"
+  "b": "Nijlen,Neerpelt,Mouscron,Mortsel,Morlanwelz-Mariemont,Montignies-sur-Sambre,Molenbeek-Saint-Jean,Mol,Middelkerke"
 },
 {
     "name": "Bima",
@@ -230,7 +73,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2791194,Merksem,2791301,Merelbeke,2791315,2791343,Meise,2791424,Mechelen-aan-de-Maas,2791534,2791537,Mariakerke,2791700,2791726,2791735,2791744,Manage,2791814,Maldegem,2791857"
+  "b": "Merksem,Merelbeke,Meise,Mechelen-aan-de-Maas,Mariakerke,Manage,Maldegem"
 },
 {
     "name": "Basap",
@@ -239,7 +82,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lebbeke,2793144,Lanaken,2793446,2793508,2794055,Kortenberg,2794070,Kontich,2794117,Koksijde,2794166,Koersel,2794179,Koekelberg,2794190,Knokke-Heist,2794210,Kessel-Lo,2794507"
+  "b": "Lebbeke,Lanaken,Kortenberg,Kontich,Koksijde,Koersel,Koekelberg,Knokke-Heist,Kessel-Lo"
 },
 {
     "name": "Selaru",
@@ -248,7 +91,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kasterlee,2794663,Kapellen,2794730,Kalmthout,2794788,2794860,Jette,2794914,Jambes,2794981,Izegem,2795009,Ixelles,2795011,2795100,2795113,Houthalen,2795261,Hoogstraten"
+  "b": "Kasterlee,Kapellen,Kalmthout,Jette,Jambes,Izegem,Ixelles,Houthalen,Hoogstraten"
 },
 {
     "name": "Land Dayak",
@@ -257,7 +100,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2795398,2795730,Heverlee,2795783,Heusy,2795795,Heusden,2795800,Herzele,2795908,Herve,2795912,Herstal,2795930,Herentals,2796009,Herent,2796012,Helchteren,2796132"
+  "b": "Heverlee,Heusy,Heusden,Herzele,Herve,Herstal,Herentals,Herent,Helchteren"
 },
 {
     "name": "Flores-Lembata",
@@ -266,7 +109,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Heist-op-den-Berg,2796153,2796491,Harelbeke,2796542,Hamme,2796637,Halle,2796696,Haaltert,2796833,Grivegnée,2797096,Grimbergen,2797114,Gilly,2797532,Geraardsbergen,2797638,Gentbrugge"
+  "b": "Heist-op-den-Berg,Harelbeke,Hamme,Halle,Haaltert,Grivegnée,Grimbergen,Gilly,Geraardsbergen,Gentbrugge"
 },
 {
     "name": "Kei-Tanimbar",
@@ -275,7 +118,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2797652,Gent,2797656,2797670,Gembloux,2797713,Geel,2797779,Ganshoren,2797844,Frameries,2798023,2798139,2798297,Fléron,2798301,Flémalle-Haute,2798307,Evergem,2798551"
+  "b": "Gent,Gembloux,Geel,Ganshoren,Frameries,Fléron,Flémalle-Haute,Evergem"
 },
 {
     "name": "Timoric",
@@ -284,7 +127,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Evere,2798554,Eupen,2798573,Etterbeek,2798578,Ekeren,2798873,Eeklo,2798987,Edegem,2799007,Duffel,2799090,2799226,Dilbeek,2799365,2799369,2799397,Diepenbeek"
+  "b": "Evere,Eupen,Etterbeek,Ekeren,Eeklo,Edegem,Duffel,Dilbeek,Diepenbeek"
 },
 {
     "name": "Sumba-Flores",
@@ -293,7 +136,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2799412,Deurne,2799478,Destelbergen,2799496,Dendermonde,2799645,Denderleeuw,2799647,Deinze,2799746,2800063,Colfontaine,2800220,Chaudfontaine,2800438,Châtelineau,2800445,Châtelet,2800448"
+  "b": "Deurne,Destelbergen,Dendermonde,Denderleeuw,Deinze,Colfontaine,Chaudfontaine,Châtelineau,Châtelet"
 },
 {
     "name": "Tomini-Tolitoli",
@@ -302,7 +145,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2800481,Brussels,2800866,Brugge,2800931,Brasschaat,2801117,Braine-le-Comte,2801150,Braine-l'Alleud,2801154,Boussu,2801226,Bornem,2801447,Borgerhout,2801471,2801494,Blauwput,2801824"
+  "b": "Brussels,Brugge,Brasschaat,Braine-le-Comte,Braine-l'Alleud,Boussu,Bornem,Borgerhout,Blauwput"
 },
 {
     "name": "Muna-Buton",
@@ -311,7 +154,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Blankenberge,2801858,Binche,2801922,Bilzen,2801924,Beveren,2802031,Bevere,2802039,Beringen,2802170,Berchem-Sainte-Agathe,2802247,Berchem,2802249,Beersel,2802433,Beerse,2802435"
+  "b": "Blankenberge,Binche,Bilzen,Beveren,Bevere,Beringen,Berchem-Sainte-Agathe,Berchem,Beersel,Beerse"
 },
 {
     "name": "Minahasan",
@@ -320,7 +163,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Balen,2802743,Auderghem,2802960,2803010,Assebroek,2803030,2803033,2803073,Antwerpen,2803138,2803160,Anderlecht,2803201,Andenne,2803204,Aarschot,2803429,Aalter,2803443"
+  "b": "Balen,Auderghem,Assebroek,Antwerpen,Anderlecht,Andenne,Aarschot,Aalter"
 },
 {
     "name": "Sangiric",
@@ -329,7 +172,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2803448,Plateau-Central,2353197,2353257,Zinguédéssé,Centre,2353332,Zabré,Centre-Est,2353436,Yalgo,Centre-Nord,2353670,Yako,Nord,2353688,Boucle du Mouhoun,2354176,2354265,Centre-Ouest"
+  "b": "Plateau-Central,Zinguédéssé,Centre,Zabré,Centre-Est,Yalgo,Centre-Nord,Yako,Nord,Boucle du Mouhoun,Centre-Ouest"
 },
 {
     "name": "Kayan-Murik",
@@ -338,7 +181,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2354340,Titao,2354349,Tita,2354351,2354675,2355404,2355869,Saonré,2355886,Sabou,2356136,Saaba,2356157,2356228,Pouytenga,2356300,Centre-Sud,2356454,Pissila"
+  "b": "Titao,Tita,Saonré,Sabou,Saaba,Pouytenga,Centre-Sud,Pissila"
 },
 {
     "name": "Melanau-Kajang",
@@ -347,7 +190,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2356467,2356765,2357043,2357048,Hauts-Bassins,2357062,Nioko I,2357109,Nouna,2357163,Cascades Region,2357371,Natiaboani,Est,2357487,Mogtédo,2357931,2358100,2358382,2358738"
+  "b": "Hauts-Bassins,Nioko I,Nouna,Cascades Region,Natiaboani,Est,Mogtédo"
+},
+{
+    "name": "North Sarawakan",
+  "i": 151,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kouka,Korsimoro,Kongoussi,Kombissiri,Kokologo,Kindi,Karankasso,Gourcy"
+},
+{
+    "name": "Sabahan",
+  "i": 152,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Gaoua,Sud-Ouest,Fara Department,Dori,Djibo,Diébougou,Dano,Gomboussougou"
 },
 {
     "name": "North Borneo",
@@ -356,7 +217,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2361845,Bourzanga,2361853,2361946,2362150,2362323,2362344,Bittou,2362376,Béguédo,2362626,Batié,2362669,Barogo,2362740,2362909,2362970,Aribinda,2363174,Mani"
+  "b": "Bourzanga,Bittou,Béguédo,Batié,Barogo,Aribinda,Mani"
 },
 {
     "name": "Greater North Borneo",
@@ -365,7 +226,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "10342754,Namponkoré,12217144,Cinkansé,12640343,Kompienga,12640344,725578,725712,725905,Velingrad,725988,Veliko Tŭrnovo,725993,726050,726174,Troyan,726320,726418,726534"
+  "b": "Namponkoré,Cinkansé,Kompienga,Velingrad,Veliko Tŭrnovo,Troyan"
 },
 {
     "name": "South Sulawesi",
@@ -374,7 +235,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "727886,Popovo,728075,728193,728203,Petrich,728288,Peshtera,728317,728330,728378,728448,Nova Zagora,728742,729114,729559,Lom,729581,729730,729794"
+  "b": "Popovo,Petrich,Peshtera,Nova Zagora,Lom"
 },
 {
     "name": "Northern South Sulawesi",
@@ -383,7 +244,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "730435,Harmanli,730442,730496,Karnobat,730559,Karlovo,730565,731108,Gorna Oryahovitsa,731233,731549,732263,Chirpan,732452,732770,733014,733191,Berkovitsa,733264"
+  "b": "Harmanli,Karnobat,Karlovo,Gorna Oryahovitsa,Chirpan,Berkovitsa"
 },
 {
     "name": "Central South Sulawesi",
@@ -392,7 +253,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aytos,733579,Asparuhovo,733606,733618,Sitrah,290104,Madīnat ‘Īsá,Southern Governorate,290187,Jidd Ḩafş,290215,290247,Dār Kulayb,290269,290332,290340,Ar Rifā‘,385038,Vyanda"
+  "b": "Aytos,Asparuhovo,Sitrah,Madīnat ‘Īsá,Southern Governorate,Jidd Ḩafş,Dār Kulayb,Ar Rifā‘,Vyanda"
 },
 {
     "name": "Kaili-Wolio",
@@ -401,7 +262,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "421930,423549,Gatumba,Bujumbura Rural,425309,Bujumbura Mairie,425378,426272,Zanandore,426423,Cendajuru,427204,Karusi,428219,428515,428632,430021,430569,430952,432456"
+  "b": "Gatumba,Bujumbura Rural,Bujumbura Mairie,Zanandore,Cendajuru,Karusi"
+},
+{
+    "name": "Saluan-Banggai",
+  "i": 160,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Zinvié,Atlantique,Kouffo,Toukountouna,Atakora,Tobré,Borgou,Tanguiéta,Semi,Oueme,Alibori"
 },
 {
     "name": "Seko-Badaic",
@@ -410,7 +280,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2391871,Mono,2391881,Collines,2391893,Savalou,2391895,2392009,2392087,Pobé,2392108,Pèrèrè,2392134,Péhonko,2392164,2392204,Ouinhi,2392303,2392308,Ouessé"
+  "b": "Mono,Collines,Savalou,Pobé,Pèrèrè,Péhonko,Ouinhi,Ouessé"
+},
+{
+    "name": "Moklenic",
+  "i": 162,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Natitingou,Missérété,Matéri,Malanville,Kétou,Kérou,Godomè"
 },
 {
     "name": "Nasal",
@@ -419,7 +298,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2394092,Glazoué,2394111,Ganvié,2394227,2394427,2394545,Djougou,2394560,Djidja,2394576,Djakotomé,2394597,Dassa-Zoumè,2394711,Cové,2394814,Littoral,2394819,Kopargo"
+  "b": "Glazoué,Ganvié,Djougou,Djidja,Djakotomé,Dassa-Zoumè,Cové,Littoral,Kopargo"
 },
 {
     "name": "Northwest Sumatra Barrier Islands",
@@ -428,7 +307,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2394822,Comé,2394824,Boukoumbé,2394914,Bohicon,2395049,2395182,Bassila,2395261,Banté,2395301,2395317,Banigbé,2395325,Avrankou,2395477,2395510,2395568,2395635"
+  "b": "Comé,Boukoumbé,Bohicon,Bassila,Banté,Banigbé,Avrankou"
 },
 {
     "name": "Sumatran",
@@ -437,7 +316,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2395870,Adjaouèrè,2395874,Abomey-Calavi,2395914,2395915,Ouaké,2596746,Cobly,10339095,10339148,Kpozoun,11427410,Gustavia,Saint Barthélemy,3579132,Bermuda,Hamilton city,3573197,Brunei Darussalam"
+  "b": "Adjaouèrè,Abomey-Calavi,Ouaké,Cobly,Kpozoun,Gustavia,Saint Barthélemy,Bermuda,Hamilton city,Brunei Darussalam"
 },
 {
     "name": "SHWNG",
@@ -446,7 +325,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1820071,Belait,1820187,1820491,1820557,Brunei-Muara District,1820574,1820575,1820635,1820906,Bolivia, Plurinational State of,Tarija Department,3901178,Warnes,Santa Cruz Department,3901301,Vinto,3901435,Villazón,Potosi Department"
+  "b": "Belait,Brunei-Muara District,Bolivia,Plurinational State of,Tarija Department,Warnes,Santa Cruz Department,Vinto,Villazón,Potosi Department"
 },
 {
     "name": "Barito",
@@ -455,7 +334,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3901501,Villa Yapacaní,3901504,3901547,La Paz Department,3901742,Tupiza,3902202,Beni Department,3902377,Tiquipaya,3902949,3903320,Chuquisaca Department,3903987,Sipe Sipe,3904221,El Torno,3904666,3904906"
+  "b": "Villa Yapacaní,La Paz Department,Tupiza,Beni Department,Tiquipaya,Chuquisaca Department,Sipe Sipe,El Torno"
 },
 {
     "name": "Bali Sasak Sumbawa",
@@ -464,7 +343,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3905658,3906194,3906466,3906791,Punata,3907080,3907584,3909234,3910027,Mizque,3910291,Llallagua,3911409,3911925,3912103,Huanuni,3914839,3915350,Cotoca,3918937"
+  "b": "Punata,Mizque,Llallagua,Huanuni,Cotoca"
 },
 {
     "name": "Malayo-Chamic",
@@ -473,7 +352,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3385467,3385469,Varjota,3385504,Vargem Grande,3385538,Valença do Piauí,Piaui,3385592,Urucurituba,3385645,Uruçuí,3385658,Urucará,3385670,Uruburetama,3385674,Urbano Santos,3385726,União dos Palmares"
+  "b": "Varjota,Vargem Grande,Valença do Piauí,Piaui,Urucurituba,Uruçuí,Urucará,Uruburetama,Urbano Santos,União dos Palmares"
 },
 {
     "name": "Malayo-Polynesian",
@@ -482,7 +361,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3385742,União,3385745,Umirim,3385758,Ubajara,3385873,Uauá,Bahia,3385883,Tutóia,3385899,Turiaçu,3385908,Turaru,3385910,Tupanatinga,3385920,Tuntum,3385922"
+  "b": "União,Umirim,Ubajara,Uauá,Bahia,Tutóia,Turiaçu,Turaru,Tupanatinga,Tuntum"
 },
 {
     "name": "Western Malayo-Polynesian",
@@ -491,7 +370,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tucuruí,3385935,Tucumã,3385980,3386042,Trairi,3386177,Traipu,3386198,Tracuateua,3386201,Touros,Rio Grande do Norte,3386213,Toritama,3386264,Tomé-Açu,3386279,3386309,Timon"
+  "b": "Suva,Lautoka,Labasa,Sigatoka,Nadi,Levuka,Savusvu,Taveuni,Korolevu,Deuba"
 },
 {
     "name": "North New Guinea",
@@ -500,16 +379,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Senador José Porfírio,3387928,Satuba,3387987,3388046,São Vicente Férrer,3388059,3388060,São Sebastião da Boa Vista,3388109,São Sebastião,3388112,São Raimundo Nonato,3388145,São Raimundo das Mangabeiras,3388147,São Paulo do Potengi,3388238,São Miguel do Tapuio,3388266"
+  "b": "Senador José Porfírio,Satuba,São Vicente Férrer,São Sebastião da Boa Vista,São Sebastião,São Raimundo Nonato,São Raimundo das Mangabeiras,São Paulo do Potengi,São Miguel do Tapuio"
 },
 {
     "name": "Sawila",
   "i": 179,
   "min": 4,
   "max": 11,
-  "d": "r",
+  "d": "lnrt",
   "m": 0,
-  "b": "São Miguel dos Campos,3388269,São Miguel do Guamá,3388270,3388301,São Mateus do Maranhão,3388318,São Luís do Quitunde,3388341,3388368,São Lourenço da Mata,3388376,São José do Egito,3388435,São José do Belmonte,3388440,São José de Ribamar,3388441,São José de Piranhas,3388442"
+  "b": "São Miguel dos Campos,São Miguel do Guamá,São Mateus do Maranhão,São Luís do Quitunde,São Lourenço da Mata,São José do Egito,São José do Belmonte,São José de Ribamar,São José de Piranhas"
 },
 {
     "name": "Tiwi",
@@ -518,7 +397,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3390907,Quipapá,3390965,3391040,Princesa Isabel,3391172,3391220,Prainha,3391287,Amapa,3391360,3391368,Porto Franco,3391371,Porto de Moz,3391387,Porto da Folha,Sergipe,3391395,Porto Calvo"
+  "b": "Quipapá,Princesa Isabel,Prainha,Amapa,Porto Franco,Porto de Moz,Porto da Folha,Sergipe,Porto Calvo"
 },
 {
     "name": "Ari (Papuan)",
@@ -527,16 +406,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3391397,3391412,Porteiras,3391420,Ponta de Pedras,3391523,Pombos,3391556,Pombal,3391571,Poço Redondo,3391609,Pocinhos,3391762,Poção de Pedras,3391774,Pitimbu,3391889,Piripiri,3391908"
-},
-{
-    "name": "Abui",
-  "i": 195,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3393848,3393876,3393922,3393929,3393972,3394023,3394116,3394326,3394380,3394432,3394453,3394500,3394549,3394591,3394605,3394618,3394640,3394649,3394661,3394682"
+  "b": "Porteiras,Ponta de Pedras,Pombos,Pombal,Poço Redondo,Pocinhos,Poção de Pedras,Pitimbu,Piripiri"
 },
 {
     "name": "Asmat Citak",
@@ -545,7 +415,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3394745,3394755,Miranda do Norte,3394796,Mirador,3394813,Miracema do Tocantins,3394817,Milagres,3394884,Miguel Alves,3394892,Messias,3394908,Meruoca,3394918,Melgaço,3394958,Mazagão,3395042"
+  "b": "Miranda do Norte,Mirador,Miracema do Tocantins,Milagres,Miguel Alves,Messias,Meruoca,Melgaço,Mazagão"
 },
 {
     "name": "Asmat-Kamoro",
@@ -554,7 +424,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mauriti,3395058,Maués,3395062,Matriz de Camaragibe,3395077,Matões,3395100,Matinha,3395122,Mata Grande,3395162,Massapê,3395239,3395380,Marechal Deodoro,3395395,Marco,3395404,Marapanim"
+  "b": "Port Moresby,Lae,Mount Hagen,Madang,Goroka,Kokopo,Kundiawa,Mendi,Popondetta,Wewak"
 },
 {
     "name": "Becking-Dawi",
@@ -563,34 +433,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3395440,Maranguape,3395449,Maragogi,3395458,Maracanaú,3395473,Maracanã,3395483,Maracaçumé,3395497,Marabá,3395503,3395686,Mamanguape,3395717,Major Isidoro,3395880,3395949,3395981"
-},
-{
-    "name": "Benabena",
-  "i": 21007,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "4901710,Melrose Park,4901868,Mokena,4902475,Moline,4902476,4902559,Morgan Park,4902667,Morton,4902754,Morton Grove,4902763,Mount Greenwood,4902900,Mount Prospect,4903024,Mundelein,4903184"
+  "b": "Maranguape,Maragogi,Maracanaú,Maracanã,Maracaçumé,Marabá,Mamanguape,Major Isidoro"
 },
 {
     "name": "Bimin",
   "i": 202,
   "min": 4,
   "max": 11,
-  "d": "eo",
+  "d": "lnrt",
   "m": 0,
-  "b": "3395998,Macaparana,3396009,3396016,Macaíba,3396048,Luzilândia,3396101,Luís Correia,3396121,Limoeiro do Norte,3396266,Limoeiro do Ajuru,3396268,Limoeiro de Anadia,3396270,Limoeiro,3396277,Lavras da Mangabeira,3396364"
+  "b": "Macaparana,Macaíba,Luzilândia,Luís Correia,Limoeiro do Norte,Limoeiro do Ajuru,Limoeiro de Anadia,Limoeiro,Lavras da Mangabeira"
 },
 {
     "name": "Gadsup",
   "i": 203,
   "min": 4,
   "max": 11,
-  "d": "r",
+  "d": "lnrt",
   "m": 0,
-  "b": "Lajedo,3396496,Lago da Pedra,3396601,3396620,3396662,3396675,3396769,3396786,3396877,3396979,3397055,3397063,3397108,3397119,3397147,3397154,3397230,3397263,3397277"
+  "b": "Lajedo,Lago da Pedra"
 },
 {
     "name": "Gahuku",
@@ -599,7 +460,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3397292,3397315,3397319,3397337,3397546,Jardim,3397577,Jaicós,3397660,Jaguaruana,3397665,Jaguaribe,3397675,Jaguaretama,3397680,Jacundá,3397702,Jacareacanga,3397763,Jaboatão"
+  "b": "Jardim,Jaicós,Jaguaruana,Jaguaribe,Jaguaretama,Jacundá,Jacareacanga,Jaboatão"
 },
 {
     "name": "Gogodala",
@@ -608,25 +469,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3397838,Itupiranga,3397851,Itatira,3397877,Itarema,3397883,Itaquitinga,3397886,3397893,Itapororoca,3397897,Itaporanga,3397898,Itapiúna,3397903,Itapissuma,3397904,Itapipoca,3397909"
+  "b": "Itupiranga,Itatira,Itarema,Itaquitinga,Itapororoca,Itaporanga,Itapiúna,Itapissuma,Itapipoca"
 },
 {
     "name": "Awiyaana",
   "i": 206,
   "min": 4,
   "max": 11,
-  "d": "s",
-  "m": 0,
-  "b": "Itapecuru Mirim,3397936,Itapagé,3397941,Ilha de Itamaracá,3397963,3397967,3397969,3397983,3398003,3398014,3398028,3398076,3398077,3398105,3398112,3398115,3398192,3398224,3398255"
-},
-{
-    "name": "Kasua",
-  "i": 207,
-  "min": 4,
-  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3398264,3398269,3398331,3398343,3398350,3398352,3398355,3398379,3398381,3398384,3398401,3398408,3398419,3398428,3398450,3398457,3398480,3398569,3398570,3398573"
+  "b": "Itapecuru Mirim,Itapagé,Ilha de Itamaracá"
 },
 {
     "name": "Kamoro",
@@ -635,7 +487,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3398584,3398614,3398691,3398706,3398856,3398902,3398904,3398920,3398923,Garanhuns,3399058,Gameleira,3399132,Frecheirinha,3399313,Fortuna,3399377,Fortim,3399380,3399415"
+  "b": "Garanhuns,Gameleira,Frecheirinha,Fortuna,Fortim"
 },
 {
     "name": "Kerewo",
@@ -644,16 +496,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Forquilha,3399445,Formosa da Serra Negra,3399464,Floriano,3399506,Floresta,3399518,3399539,Ferreiros,3399625,Feira Nova,3399679,Feira Grande,3399684,Farias Brito,3400497,Exu,3400541,Eusébio"
+  "b": "Forquilha,Formosa da Serra Negra,Floriano,Floresta,Ferreiros,Feira Nova,Feira Grande,Farias Brito,Exu,Eusébio"
 },
 {
     "name": "Kenati",
   "i": 210,
   "min": 4,
   "max": 11,
-  "d": "r",
+  "d": "lnrt",
   "m": 0,
-  "b": "3400558,Extremoz,3400567,3400617,Esperantinópolis,3400739,Esperantina,3400740,Esperança,3400752,Escada,3400804,Dom Pedro,3400969,Demerval Lobão,3401106,3401109,Custódia,3401138,Cururupu"
+  "b": "Extremoz,Esperantinópolis,Esperantina,Esperança,Escada,Dom Pedro,Demerval Lobão,Custódia,Cururupu"
 },
 {
     "name": "Bunun",
@@ -662,7 +514,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3401148,Curuçá,3401188,Curralinho,3401263,Currais Novos,3401283,Curaçá,3401331,Cupira,3401340,Cumaru,3401404,Cuité,3401419,Cruz do Espírito Santo,3401457,Croatá,3401511,Crato"
+  "b": "Curuçá,Curralinho,Currais Novos,Curaçá,Cupira,Cumaru,Cuité,Cruz do Espírito Santo,Croatá,Crato"
 },
 {
     "name": "Basay",
@@ -671,7 +523,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3402721,Carolina,3402724,Carnaubal,3402787,Carnaíba,3402849,Cariús,3402875,Caririaçu,3402882,Cariré,3402893,Caridade,3402906,Careiro da Várzea,3402920,Caraúbas,3402944,Capoeiras"
+  "b": "Squliq,Smangus,Alan,Chunli,Sanwan,Dawu,Chutung,Taiyi,Cardamom,Matu,Minsheng"
 },
 {
     "name": "Babuza",
@@ -680,25 +532,79 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3403082,Capitão Poço,3403127,Capistrano,3403146,Capela,3403200,Capanema,3403208,Canudos,3403214,Canto do Buriti,3403251,Cantanhede,3403309,Canindé de São Francisco,3403344,Canindé,3403353,Canhotinho"
+  "b": "Banxian,Dongluo,Xiluo,Erlin,Meili,Ashu,Mazhilin,Chaizikeng,Dawujun,Datu,Maoluo,Maowushu"
 },
 {
-    "name": "Amis",
-  "i": 97939,
+    "name": "Chambri",
+  "i": 275,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "5504003,5505411,Las Vegas,5506956,5508180,North Las Vegas,5509403,Pahrump,5509851,5509952,Reno,5511077,Spanish Springs,5512827,Sparks,5512862,5512909,Sun Valley,5513307,Sunrise Manor"
+  "b": "Luz,Lucélia,Lucas,Louveira,Lorena,Loanda,Livramento do Brumado,Lins,Linhares"
+},
+{
+    "name": "Iatm",
+  "i": 276,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Limeira,Lima Duarte,Leopoldina,Lençóis Paulista,Leme,Lavras,Laranjeiras do Sul,Laranjeiras,Laranjal Paulista,Lapão"
+},
+{
+    "name": "Hawaiian",
+  "i": 301,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Guaxupé,Guarujá,Guariba,Guareí,Guaratuba,Guaratinguetá,Guaratinga,Guararema,Guararapes"
+},
+{
+    "name": "Anindilyakwa",
+  "i": 305,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Goianira,Goianésia,Giruá,Getúlio Vargas,Gaspar,Garuva"
+},
+{
+    "name": "Gunwinggu",
+  "i": 306,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Fernandópolis"
+},
+{
+    "name": "Pohnpeian",
+  "i": 319,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Charqueada,Chapada dos Guimarães,Cesário Lange,Cerro Azul,Cerquilho,Cerqueira César,Ceres,Ceilândia"
+},
+{
+    "name": "Bundjalung",
+  "i": 340,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Assis,Arujá,Artur Nogueira,Arroio Grande,Balneário Arroio do Silva,Arroio do Meio,Arraial do Cabo,Armação dos Búzios,Arinos"
 },
 {
     "name": "Abaga",
   "i": 741,
   "min": 4,
   "max": 11,
-  "d": "l",
+  "d": "lnrt",
   "m": 0,
-  "b": "3068293,Pelhřimov,3068445,3068582,Otrokovice,3068690,Ostrov,3068766,3068799,Orlová,3068873,3068927,3069011,Nusle,3069247,Nový Jičín,3069305,Nové Město,3069467,Neratovice"
+  "b": "Pelhřimov,Otrokovice,Ostrov,Orlová,Nusle,Nový Jičín,Nové Město,Neratovice"
 },
 {
     "name": "Aboriginal Pidgin English",
@@ -707,7 +613,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3071961,Libeň,3071966,Letňany,3072137,3072463,Kroměříž,3072649,Krnov,3072656,Krč,3072826,Kralupy nad Vltavou,3072929,Královské Vinohrady,3072931,Královo Pole,3072934,3073193,Kopřivnice"
+  "b": "Libeň,Letňany,Kroměříž,Krnov,Krč,Kralupy nad Vltavou,Královské Vinohrady,Královo Pole,Kopřivnice"
 },
 {
     "name": "Adang",
@@ -716,7 +622,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3076028,3076127,Dejvice,3077216,3077244,Chrudim,3077539,3077685,Chodov,3077700,3077835,Český Těšín,3077882,3077916,Česká Třebová,3077920,Česká Lípa,3077929,Bystrc,3078308"
+  "b": "Dejvice,Chrudim,Chodov,Český Těšín,Česká Třebová,Česká Lípa,Bystrc"
 },
 {
     "name": "Adnyamathanha",
@@ -725,34 +631,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2805059,Xanten,2805385,Wurzen,2805597,2805615,2805644,2805753,Wunstorf,2805761,Wülfrath,2805910,Wörth am Rhein,2806081,2806142,2806654,Wolfratshausen,2806768,Wolfenbüttel,2806914"
+  "b": "Xanten,Wurzen,Wunstorf,Wülfrath,Wörth am Rhein,Wolfratshausen,Wolfenbüttel"
 },
 {
     "name": "Agarabi",
   "i": 762,
   "min": 4,
   "max": 11,
-  "d": "t",
+  "d": "lnrt",
   "m": 0,
-  "b": "Waldshut-Tiengen,2814791,Waldkraiburg,2814874,Waldkirch,2814883,Waldbröl,2815137,Waiblingen,2815330,Waghäusel,2815487,Wadgassen,2815559,Wadern,2815565,Wachtberg,2815678,Vreden,2815824"
+  "b": "Waldshut-Tiengen,Waldkraiburg,Waldkirch,Waldbröl,Waiblingen,Waghäusel,Wadgassen,Wadern,Wachtberg,Vreden"
 },
 {
     "name": "Aghu",
   "i": 764,
   "min": 4,
   "max": 11,
-  "d": "s",
+  "d": "lnrt",
   "m": 0,
-  "b": "Volksdorf,2816607,Völklingen,2816630,Voerde,2817065,Vlotho,2817105,Vilshofen,2817202,Villingen-Schwenningen,2817220,2817311,Viernheim,2817324,Versmold,2817537,Verl,2817576,Verden"
-},
-{
-    "name": "Aimele",
-  "i": 50023,
-  "min": 4,
-  "max": 11,
-  "d": "ln",
-  "m": 0,
-  "b": "Lennox,5365937,5366375,Linda,5366531,5367314,Livermore,5367440,5367565,Loma Linda,5367696,Lomita,5367767,Lompoc,5367788,5367929,Los Altos,5368335,5368361,Los Banos"
+  "b": "Volksdorf,Völklingen,Voerde,Vlotho,Vilshofen,Villingen-Schwenningen,Viernheim,Versmold,Verl,Verden"
 },
 {
     "name": "Nataoran",
@@ -761,25 +658,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2831924,Sindelfingen,2831948,Sigmaringen,2832232,Siegen,2832495,2832521,Langenhorn,2832561,Senftenberg,2833073,Senden,2833079,2833080,Selm,2833170,Seligenstadt,2833242,Selb"
-},
-{
-    "name": "Arafundi-Enga Pidgin",
-  "i": 50024,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5368453,Los Gatos,5368518,Lynwood,5369367,5369568,Manhattan Beach,5370082,Manteca,5370164,Marina,5370493,5370868,5371261,Mead Valley,5371858,Menifee,5372205,Menlo Park,5372223"
+  "b": "Sindelfingen,Sigmaringen,Siegen,Langenhorn,Senftenberg,Senden,Selm,Seligenstadt,Selb"
 },
 {
     "name": "Akoye",
   "i": 809,
   "min": 4,
   "max": 11,
-  "d": "elot",
+  "d": "lnrt",
   "m": 0,
-  "b": "2856075,Othmarschen,2856163,Osterholz-Scharmbeck,2856500,2856883,Osdorf,2856915,Oschersleben,2856930,Oschatz,2856944,Oranienburg,2857129,Opladen,2857185,Olsberg,2857291,Olpe,2857306"
+  "b": "Othmarschen,Osterholz-Scharmbeck,Osdorf,Oschersleben,Oschatz,Oranienburg,Opladen,Olsberg,Olpe"
 },
 {
     "name": "Alu",
@@ -788,25 +676,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Friedberg,2924802,2924803,Freudenstadt,2924894,Freudenberg,2924915,Freital,2925017,2925034,2925080,2925177,2925189,2925192,2925259,2925533,2925535,2925550,2925629,2925832"
-},
-{
-    "name": "Aneme-Wake",
-  "i": 50026,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Merced,5372253,Millbrae,5373129,Milpitas,5373327,Jurupa Valley,5373492,Mira Mesa,5373497,Mission District,5373628,Mission Viejo,5373763,Modesto,5373900,5374175,5374232,Montebello,5374322"
+  "b": "Friedberg,Freudenstadt,Freudenberg,Freital"
 },
 {
     "name": "Angaataha",
   "i": 915,
   "min": 4,
   "max": 11,
-  "d": "ls",
+  "d": "lnrt",
   "m": 0,
-  "b": "2622306,2622447,Charlottenlund,2623188,Brøndbyvester,2623340,Birkerød,2624112,Ballerup,2624341,Avedøre,2624427,Århus,2624652,Allerød,2624843,2624886,Albertslund,2624906,Aabenraa"
+  "b": "Charlottenlund,Brøndbyvester,Birkerød,Ballerup,Avedøre,Århus,Allerød,Albertslund,Aabenraa"
 },
 {
     "name": "Atohwaim-Kaugat",
@@ -815,34 +694,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Boudjima,2503237,Boû Arfa,2503468,Bordj Zemoura,2503620,Bordj Menaïel,2503641,Bordj Ghdir,2503654,Bordj el Kiffan,2503661,Bordj el Bahri,2503669,2503701,Boghni,2503755,2503769,2503826,Birkhadem"
-},
-{
-    "name": "Aws-Nian",
-  "i": 1007,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "360612,360615,360630,360686,360716,360748,360754,360761,360773,360819,360829,360890,360923,360928,360995,361029,361055,361058,361098,361103"
-},
-{
-    "name": "Barai",
-  "i": 1022,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2513436,2513465,2513477,2513509,2513601,2513604,2513703,2513759,2513791,2513798,2513811,2513882,2513885,2513917,2513947,2513983,2514042,2514066,2514073,2514097"
-},
-{
-    "name": "Baham",
-  "i": 1027,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2516336,2516345,2516395,2516431,2516443,2516452,2516474,2516479,2516480,2516542,2516548,2516797,2516852,2516860,2516902,2516925,2517111,2517117,2517367,2517436"
+  "b": "Boudjima,Boû Arfa,Bordj Zemoura,Bordj Menaïel,Bordj Ghdir,Bordj el Kiffan,Bordj el Bahri,Boghni,Birkhadem"
 },
 {
     "name": "Bami",
@@ -851,25 +703,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "345704,Ābīy Ādī,345731,Ābderafī,345818,Abala,345902,Qorof,444998,Kahandhale,6311119,Lasoano,6311120,Neefkuceliye,6311121,Yamarugley,6311122,6913519,7910079,Kobo"
+  "b": "Ābīy Ādī,Ābderafī,Abala,Qorof,Kahandhale,Lasoano,Neefkuceliye,Yamarugley,Kobo"
 },
 {
     "name": "Baramu",
   "i": 1124,
   "min": 4,
   "max": 11,
-  "d": "e",
+  "d": "lnrt",
   "m": 0,
-  "b": "633679,Lapland,634093,634963,Taka-Töölö,635080,Siilinjärvi,636947,637067,South Ostrobothnia,637219,South Savo,637292,637948,638936,Kanta-Haeme,639406,Satakunta,639734,Raseborg"
+  "b": "Lapland,Taka-Töölö,Siilinjärvi,South Ostrobothnia,South Savo,Kanta-Haeme,Satakunta,Raseborg"
 },
 {
     "name": "Bariji",
   "i": 1129,
   "min": 4,
   "max": 11,
-  "d": "i",
+  "d": "lnrt",
   "m": 0,
-  "b": "654706,654899,655130,Kaarela,655143,655194,655808,655958,656073,656083,Jakobstad,656130,656688,656820,Hyvinge,656913,657530,657531,Hervanta,658120"
+  "b": "Kaarela,Jakobstad,Hyvinge,Hervanta"
 },
 {
     "name": "Barikanchi Pidgin",
@@ -878,52 +730,52 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Herttoniemi,658132,658225,658288,658629,659169,659180,Haaga,659717,659935,660158,Laajasalo,660407,660561,661164,662095,Viikki,798763,Olari,843404"
+  "b": "Herttoniemi,Haaga,Laajasalo,Viikki,Olari"
 },
 {
     "name": "Baruga",
   "i": 1131,
   "min": 4,
   "max": 11,
-  "d": "aikt",
+  "d": "lnrt",
   "m": 0,
-  "b": "Myyrmäki,847422,Suutarila,847506,Suurmetsä,847507,Pohjois-Hervanta,6940573,Espoonlahti,7521636,Väståboland,7911309,8198723,Vartiokylä,11962456,East Helsinki,12747032,2198148,2198365,2202064"
+  "b": "Myyrmäki,Suutarila,Suurmetsä,Pohjois-Hervanta,Espoonlahti,Väståboland,Vartiokylä,East Helsinki"
 },
 {
     "name": "Bauwaki",
   "i": 1142,
   "min": 4,
   "max": 11,
-  "d": "ouy",
+  "d": "lnrt",
   "m": 0,
-  "b": "2970797,2970962,2971041,2971053,2971482,2971549,Tremblay-en-France,2971874,Trappes,2972049,2972191,Tournefeuille,2972237,Tourlaville,2972270,Tourcoing,2972284,2972315,2972328,Toul"
+  "b": "Tremblay-en-France,Trappes,Tournefeuille,Tourlaville,Tourcoing,Toul"
 },
 {
     "name": "Bayono",
   "i": 1144,
   "min": 4,
   "max": 11,
-  "d": "lp",
+  "d": "lnrt",
   "m": 0,
-  "b": "Sucy-en-Brie,2973745,2973783,Stains,2973841,Sotteville-lès-Rouen,2974153,Sorgues,2974188,Soisy-sous-Montmorency,2974385,2974389,Six-Fours-les-Plages,2974427,Sin-le-Noble,2974494,Seynod,2974655,Sèvres,2974678"
+  "b": "Sucy-en-Brie,Stains,Sotteville-lès-Rouen,Sorgues,Soisy-sous-Montmorency,Six-Fours-les-Plages,Sin-le-Noble,Seynod,Sèvres"
 },
 {
     "name": "Biangai",
   "i": 1280,
   "min": 4,
   "max": 11,
-  "d": "lt",
+  "d": "lnrt",
   "m": 0,
-  "b": "Leatherhead,2644726,Royal Leamington Spa,2644737,Larne,2644849,Larkhall,2644853,2644972,2645261,2645298,Kirkby in Ashfield,2645309,Kirkby,2645313,Kippax,2645347,Kingswood,2645418,Kingswinford"
+  "b": "Leatherhead,Royal Leamington Spa,Larne,Larkhall,Kirkby in Ashfield,Kirkby,Kippax,Kingswood,Kingswinford"
 },
 {
     "name": "Binahari",
   "i": 1306,
   "min": 4,
   "max": 11,
-  "d": "lop",
+  "d": "lnrt",
   "m": 0,
-  "b": "Farnworth,2649650,Farnham,2649660,Farnborough,2649672,Fareham,2649692,2649715,2649723,Exmouth,2649800,2649808,Evington,2649830,Evesham,2649833,Esher,2649911,Epsom"
+  "b": "Farnworth,Farnham,Farnborough,Fareham,Exmouth,Evington,Evesham,Esher,Epsom"
 },
 {
     "name": "Binandere",
@@ -932,16 +784,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2649957,Enfield Lock,2649996,Enfield Town,2649997,Emsworth,2650004,2650023,2650042,Ellesmere Port Town,2650096,Elland,2650110,2650122,Egham,2650188,2650209,2650225,2650278,Ebbw Vale"
+  "b": "Enfield Lock,Enfield Town,Emsworth,Ellesmere Port Town,Elland,Egham,Ebbw Vale"
 },
 {
     "name": "Binumarien",
   "i": 1308,
   "min": 4,
   "max": 11,
-  "d": "bl",
+  "d": "lnrt",
   "m": 0,
-  "b": "2650285,2650309,2650346,East Molesey,2650376,Eastleigh,2650396,East Kilbride,2650405,East Grinstead,2650435,East Dereham,2650470,Eastbourne,2650497,2650628,2650657,2650732,2650752,2650798"
+  "b": "East Molesey,Eastleigh,East Kilbride,East Grinstead,East Dereham,Eastbourne"
 },
 {
     "name": "Bipim",
@@ -950,7 +802,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2651269,Dewsbury,2651286,Devizes,2651294,2651347,Denton,2651357,2651468,Daventry,2651485,Darwen,2651495,Darton,2651497,Dartford,2651500,2651513,Dalserf,2651558"
+  "b": "Dewsbury,Devizes,Denton,Daventry,Darwen,Darton,Dartford,Dalserf"
 },
 {
     "name": "Bisorio",
@@ -959,61 +811,34 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dagenham,2651621,Cwmbran,2651654,2651715,2651817,Crowthorne,2651831,Crowborough,2651852,Cricklewood,2651984,Crewe,2652002,Crawley,2652053,Cramlington,2652095,Cowley,2652191"
+  "b": "Dagenham,Cwmbran,Crowthorne,Crowborough,Cricklewood,Crewe,Crawley,Cramlington,Cowley"
 },
 {
     "name": "Bitur",
   "i": 1327,
   "min": 4,
   "max": 11,
-  "d": "o",
+  "d": "lnrt",
   "m": 0,
-  "b": "Cowes,2652204,2652221,Coulsdon,2652249,Corby,2652381,Consett,2652437,Conisbrough,2652458,2652464,Colwyn Bay,2652513,Colne,2652544,Coleraine,2652586,2652618,2652622"
+  "b": "Cowes,Coulsdon,Corby,Consett,Conisbrough,Colwyn Bay,Colne,Coleraine"
 },
 {
     "name": "Blagar",
   "i": 1329,
   "min": 4,
   "max": 11,
-  "d": "t",
-  "m": 0,
-  "b": "2653229,Cheshunt,2653232,Chesham,2653235,Chertsey,2653239,2653261,Chelsea,2653265,Chelmsford,2653266,Cheadle Hulme,2653290,2653305,Chapeltown,2653353,Chalfont Saint Peter,2653393,Catford"
-},
-{
-    "name": "Bintulu",
-  "i": 21086,
-  "min": 4,
-  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Allendale,4984029,Ann Arbor,4984247,Auburn Hills,4984565,Battle Creek,4985153,4985180,Berkley,4985744,4986172,4987482,4987990,Clinton Township,4989133,Dearborn,4990510,Dearborn Heights,4990512"
-},
-{
-    "name": "Boazi",
-  "i": 21087,
-  "min": 4,
-  "max": 11,
-  "d": "elnt",
-  "m": 0,
-  "b": "4990729,East Lansing,4991640,Eastpointe,4991735,Farmington Hills,4992523,4992635,4992982,Forest Hills,4993125,Garden City,4993659,Grand Rapids,4994358,Grandville,4994391,Grosse Pointe Woods,4994871,Hamtramck"
-},
-{
-    "name": "Boazi Lake Murray",
-  "i": 21088,
-  "min": 4,
-  "max": 11,
-  "d": "los",
-  "m": 0,
-  "b": "4995197,Haslett,4995514,Hazel Park,4995664,Holland,4996248,Holt,4996306,4997384,Jenison,4997500,Kalamazoo,4997787,Kentwood,4998018,4998830,4999311,Livonia,4999837"
+  "b": "Cheshunt,Chesham,Chertsey,Chelsea,Chelmsford,Cheadle Hulme,Chapeltown,Chalfont Saint Peter,Catford"
 },
 {
     "name": "Bonin English",
   "i": 1359,
   "min": 4,
   "max": 11,
-  "d": "lot",
+  "d": "lnrt",
   "m": 0,
-  "b": "11549407,Manor Park,11550772,Allerton,11550900,Chadderton,11551009,Thamesmead,11551039,Brockley,11551040,11592111,Vale of Leven,11592272,Viewpark,11592296,Kirkdale,11669845,11669846,Belle Vale"
+  "b": "Manor Park,Allerton,Chadderton,Thamesmead,Brockley,Vale of Leven,Viewpark,Kirkdale,Belle Vale"
 },
 {
     "name": "Broome Pearling Lugger Pidgin",
@@ -1022,7 +847,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nkawkaw,12640506,12640508,13275281,2411585,3421319,2411700,2411805,2411880,Lower River,2411905,2411989,2412141,2412186,2412452,2412609,2412737,2412738,North Bank,2412749"
+  "b": "Nkawkaw,Lower River,North Bank"
 },
 {
     "name": "Bukawa",
@@ -1031,25 +856,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3578967,3578978,3579585,3579732,3579767,Kie-Ntem,2309332,Bioko Norte,2309527,Litoral,2310046,Djibloho,12226438,Attica,251780,Thessaly,251833,251948,252270,252601"
+  "b": "Kie-Ntem,Bioko Norte,Litoral,Djibloho,Attica,Thessaly"
 },
 {
     "name": "Bunak",
   "i": 1390,
   "min": 4,
   "max": 11,
-  "d": "st",
+  "d": "lnrt",
   "m": 0,
-  "b": "252664,Central Greece,252910,253394,254144,Crete,254352,Epirus,254698,West Greece,255229,255274,255377,255524,255588,255683,256075,256429,256575,256598"
+  "b": "Central Greece,Crete,Epirus,West Greece"
 },
 {
     "name": "Burumakok",
   "i": 1401,
   "min": 4,
   "max": 11,
-  "d": "e",
+  "d": "lnrt",
   "m": 0,
-  "b": "263312,263986,264111,264194,264371,264445,264516,264559,264670,264888,265243,265252,265488,265500,265533,265560,400666,Central Macedonia,733776,East Macedonia and Thrace"
+  "b": "Central Macedonia,East Macedonia and Thrace"
 },
 {
     "name": "Buruwai",
@@ -1058,7 +883,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "733840,733905,734077,734150,734301,734330,West Macedonia,734426,734538,734643,734712,734771,734880,734883,735030,735563,735640,735736,735861,735914"
+  "b": "West Macedonia"
 },
 {
     "name": "Cemuhî",
@@ -1067,7 +892,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3595725,3595783,3595803,3596041,3596421,3596644,3597078,3597587,3597804,Comitancillo,3598025,3598034,3598073,3598119,3598122,3598128,3598132,3598415,3598465,Chinautla"
+  "b": "Comitancillo,Chinautla"
 },
 {
     "name": "Carolinian",
@@ -1076,16 +901,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1818614,1818628,1818654,1818673,Tai Mei Tuk,1818695,Tai Kok Tsui,1818721,Siu Lek Yuen,1818781,Shuen Wan,1818817,North District,1818845,1818883,Shek Lei,1818892,Shek Kip Mei,Sham Shui Po District,1818905"
-},
-{
-    "name": "Ginuman",
-  "i": 21089,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Madison Heights,5000500,5000947,5001929,5002344,Mount Clemens,5002656,5002714,Muskegon,5003132,Norton Shores,5004005,Novi,5004062,5004188,Okemos,5004359,Pontiac,5006166,Port Huron"
+  "b": "Tai Mei Tuk,Tai Kok Tsui,Siu Lek Yuen,Shuen Wan,North District,Shek Lei,Shek Kip Mei,Sham Shui Po District"
 },
 {
     "name": "Gobasi",
@@ -1094,7 +910,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sidareja,1627267,Sewon,1627357,Serpong,1627459,1627549,Sepatan,1627610,1627896,1627957,Selogiri,1627969,Sawangan,1628453,Sangkapura,1628767,1628858,Central Kalimantan,1628884"
+  "b": "Sidareja,Sewon,Serpong,Sepatan,Selogiri,Sawangan,Sangkapura,Central Kalimantan"
 },
 {
     "name": "Chimbu",
@@ -1103,16 +919,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2962308,2962334,An Muileann gCearr,2962361,Malahide,2962725,Lucan,2962785,2962943,Ulster,2962961,Leixlip,2962974,2963398,Greystones,2963848,2964180,Finglas,2964303,2964405"
-},
-{
-    "name": "Chuave",
-  "i": 21090,
-  "min": 4,
-  "max": 11,
-  "d": "nr",
-  "m": 0,
-  "b": "5006233,5006250,Redford,5006917,Rochester Hills,5007402,Romulus,5007531,5007655,Royal Oak,5007804,5007989,5009586,Southfield,5010636,5010646,Saint Clair Shores,5010978,5011148,5011908"
+  "b": "An Muileann gCearr,Malahide,Lucan,Ulster,Leixlip,Greystones,Finglas"
 },
 {
     "name": "Kavalan",
@@ -1121,16 +928,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1254710,Tevāram,1254712,1254727,Teonthar,1254732,Thenkasi,1254744,Teni,1254745,Thenali,1254757,Tellicherry,1254780,Telhāra,1254787,Tekkali,1254794,1254795,Tekāri"
+  "b": "Tevāram,Teonthar,Thenkasi,Teni,Thenali,Tellicherry,Telhāra,Tekkali,Tekāri"
 },
 {
     "name": "Cook Islands Māori Pidgin",
   "i": 1634,
   "min": 4,
   "max": 11,
-  "d": "klr",
+  "d": "lnrt",
   "m": 0,
-  "b": "Sironj,1256064,Sirohi,1256067,Sir Muttra,1256070,Sīrkāzhi,1256075,Sirhind,1256087,1256100,1256104,Sinnar,1256119,Singur,1256124,Singarāyakonda,1256176,Singānallūr,1256184"
+  "b": "Sironj,Sirohi,Sir Muttra,Sīrkāzhi,Sirhind,Sinnar,Singur,Singarāyakonda,Singānallūr"
 },
 {
     "name": "Lonwolwol",
@@ -1139,7 +946,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shājāpur,1256693,Sheikhpura,1256698,Shāhpura,1256705,1256706,1256713,1256715,1256720,1256722,Shāhjānpur,1256728,Shāhi,1256731,Shāhgarh,1256734,Shāhganj,1256735,1256739"
+  "b": "Shājāpur,Sheikhpura,Shāhpura,Shāhjānpur,Shāhi,Shāhgarh,Shāhganj"
 },
 {
     "name": "Daga",
@@ -1148,7 +955,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1257528,Sāmbūrvadakara,1257530,Sāmbhar,1257539,Sambhal,1257540,1257542,1257545,1257551,Samāna,1257559,Sāmalkot,1257565,Samālkha,1257566,Samālka,1257567,1257587,Sālūmbar"
+  "b": "Sāmbūrvadakara,Sāmbhar,Sambhal,Samāna,Sāmalkot,Samālkha,Samālka,Sālūmbar"
 },
 {
     "name": "Dani",
@@ -1157,16 +964,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1258099,Robertsonpet,1258109,Robertsganj,1258111,Risod,1258124,Rishra,1258126,1258128,Reengus,1258140,Richha,1258164,Rewāri,1258178,1258182,Revelganj,1258186,Repalle"
+  "b": "Robertsonpet,Robertsganj,Risod,Rishra,Reengus,Richha,Rewāri,Revelganj,Repalle"
 },
 {
     "name": "Dano",
   "i": 1656,
   "min": 4,
   "max": 11,
-  "d": "ehl",
+  "d": "lnrt",
   "m": 0,
-  "b": "1258201,Reoti,1258203,Renukūt,1258207,Renigunta,1258213,Remuna,1258229,Rehli,1258247,Rāzām,1258270,1258278,1258289,Rāyadrug,1258290,Rayachoti,1258291,Rāya"
+  "b": "Reoti,Renukūt,Renigunta,Remuna,Rehli,Rāzām,Rāyadrug,Rayachoti,Rāya"
 },
 {
     "name": "Dap",
@@ -1175,16 +982,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1258366,Rasrā,1258380,Rasipuram,1258386,Rasapūdipalem,1258393,Rāpar,1258406,Rānpur,1258425,Rānīpur,1258449,Rānipet,1258451,1258455,Rānīganj,1258470,Ranebennur,1258474"
+  "b": "Rasrā,Rasipuram,Rasapūdipalem,Rāpar,Rānpur,Rānīpur,Rānipet,Rānīganj,Ranebennur"
 },
 {
     "name": "Densar",
   "i": 1670,
   "min": 4,
   "max": 11,
-  "d": "n",
+  "d": "lnrt",
   "m": 0,
-  "b": "1258932,Rāisinghnagar,1258950,Raisen,1258952,1258967,1258972,1258980,Rāikot,1258993,1259005,Rāiganj,1259009,1259012,Rāhuri,1259019,Rāhon,1259022,Rahimatpur,1259026"
+  "b": "Rāisinghnagar,Raisen,Rāikot,Rāiganj,Rāhuri,Rāhon,Rahimatpur"
 },
 {
     "name": "Dima",
@@ -1193,25 +1000,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1260833,Pahāsu,1260868,Padrauna,1260909,Padra,1260911,Padmapur,1260916,Padmanābhapuram,1260918,Pādiyanallūr,1260925,Padampur,1260938,1260940,Padam,1260942,Pachperwa,1260954"
+  "b": "Pahāsu,Padrauna,Padra,Padmapur,Padmanābhapuram,Pādiyanallūr,Padampur,Padam,Pachperwa"
 },
 {
     "name": "Dom",
   "i": 1709,
   "min": 4,
   "max": 11,
-  "d": "l",
+  "d": "lnrt",
   "m": 0,
-  "b": "1261696,Naubatpur,1261699,Natham,1261705,Nāthdwāra,1261711,Nāteputa,1261714,Nasrullāhganj,1261721,Nāsriganj,1261722,Nāspur,1261726,Nasīrābād,1261727,1261731,Narwar,1261736"
+  "b": "Naubatpur,Natham,Nāthdwāra,Nāteputa,Nasrullāhganj,Nāsriganj,Nāspur,Nasīrābād,Narwar"
 },
 {
     "name": "Domu",
   "i": 1710,
   "min": 4,
   "max": 11,
-  "d": "l",
+  "d": "lnrt",
   "m": 0,
-  "b": "Narwāna,1261739,Narsīpatnam,1261748,Narsinghgarh,1261752,Narsimhapur,1261754,Narsampet,1261760,Naroli,1261767,Nārnaund,1261771,Narnaul,1261772,Narkher,1261782,Narkatiāganj,1261784"
+  "b": "Narwāna,Narsīpatnam,Narsinghgarh,Narsimhapur,Narsampet,Naroli,Nārnaund,Narnaul,Narkher,Narkatiāganj"
 },
 {
     "name": "Doromu",
@@ -1220,16 +1027,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nāndūra,1261932,Nandikotkūr,1261957,Nandigāma,1261960,Nāndgaon,1261971,1261977,Nanauta,1261998,1262013,Nambiyūr,1262034,1262039,Nāmagiripettai,1262040,Nal Khera,1262060,Nalhāti"
+  "b": "Nāndūra,Nandikotkūr,Nandigāma,Nāndgaon,Nanauta,Nambiyūr,Nāmagiripettai,Nal Khera,Nalhāti"
 },
 {
     "name": "Duna",
   "i": 1723,
   "min": 4,
   "max": 11,
-  "d": "t",
+  "d": "lnrt",
   "m": 0,
-  "b": "Mubarakpur,1262678,Mothīhāri,1262710,Morwa,1262734,Morsi,1262740,1262771,Morvi,1262775,Morār,1262783,Moram,1262794,1262801,1262824,1262843,Mokameh,1262852"
+  "b": "Mubarakpur,Mothīhāri,Morwa,Morsi,Morvi,Morār,Moram,Mokameh"
 },
 {
     "name": "Duvle Wano Pidgin",
@@ -1238,7 +1045,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1263723,Maniar,1263730,Mangrūl Pīr,1263744,Māngrol,1263751,1263752,Manglaur,1263761,Mangalvedha,1263777,1263780,1263787,Mangalagiri,1263797,Maner,1263807,1263814,1263824"
+  "b": "Maniar,Mangrūl Pīr,Māngrol,Manglaur,Mangalvedha,Mangalagiri,Maner"
 },
 {
     "name": "Edolo",
@@ -1247,25 +1054,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1265828,1265830,1265852,1265854,Krishnanagar,1265859,1265863,1265873,Koynanagar,1265881,Kovvūr,1265886,Kovūr,1265888,Kovilpatti,1265891,1265905,1265910,1265911,Kottārakara"
+  "b": "Krishnanagar,Koynanagar,Kovvūr,Kovūr,Kovilpatti,Kottārakara"
 },
 {
     "name": "Ekari",
   "i": 1757,
   "min": 4,
   "max": 11,
-  "d": "tv",
+  "d": "lnrt",
   "m": 0,
-  "b": "1265916,1265932,Kottagūdem,1265938,Kotputli,1265961,Kotma,1265964,Kot Kapūra,1265973,Kotharia,1265989,Kothakota,1266000,Kotdwāra,1266014,Kotapārh,1266029,Kotamangalam,1266031"
+  "b": "Kottagūdem,Kotputli,Kotma,Kot Kapūra,Kotharia,Kothakota,Kotdwāra,Kotapārh,Kotamangalam"
 },
 {
     "name": "Enga",
   "i": 1767,
   "min": 4,
   "max": 11,
-  "d": "t",
+  "d": "lnrt",
   "m": 0,
-  "b": "Koāth,1266448,Kizhake Chālakudi,1266452,Kithor,1266461,1266475,Renwāl,1266485,Kishangarh,1266486,1266489,1266509,Kiraoli,1266510,Ulundurpet,1266511,Kinwat,1266518,1266575"
+  "b": "Koāth,Kizhake Chālakudi,Kithor,Renwāl,Kishangarh,Kiraoli,Ulundurpet,Kinwat"
 },
 {
     "name": "Ese'Ekit",
@@ -1274,7 +1081,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1266744,Khetia,1266746,Kheri,1266762,Kherālu,1266774,Khekra,1266794,Khedbrahma,1266806,Kheda,1266809,Khed,1266814,Khātra,1266838,1266843,Khātegaon,1266847"
+  "b": "Khetia,Kheri,Kherālu,Khekra,Khedbrahma,Kheda,Khed,Khātra,Khātegaon"
 },
 {
     "name": "Ewage",
@@ -1283,7 +1090,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1267115,Khali Kachigam,1267116,Khalāri,1267121,Khajuraho Group of Monuments,1267154,1267173,1267174,Khairābād,1267175,Khair,1267182,Khagaul,1267187,1267189,Khadki,1267195,Khada,1267202"
+  "b": "Khali Kachigam,Khalāri,Khajuraho Group of Monuments,Khairābād,Khair,Khagaul,Khadki,Khada"
 },
 {
     "name": "Faiwol",
@@ -1292,25 +1099,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kemrī,1267297,Kekri,1267336,1267360,Kayalpattinam,1267361,1267369,Kāveripatnam,1267385,Kāvali,1267394,Kattivākkam,1267433,Kattanam,1267435,Kātrās,1267439,Kātpādi,1267456"
+  "b": "Kemrī,Kekri,Kayalpattinam,Kāveripatnam,Kāvali,Kattivākkam,Kattanam,Kātrās,Kātpādi"
 },
 {
     "name": "Fasu",
   "i": 1789,
   "min": 4,
   "max": 11,
-  "d": "kt",
+  "d": "lnrt",
   "m": 0,
-  "b": "Kāramadai,1267869,Kāraikkudi,1267885,Kāraikāl,1267887,Karād,1267904,Kapurthala Town,1267911,Kāpren,1267923,Kapasan,1267934,Kapadvanj,1267939,Kānth,1267972,Kantai,1267976"
+  "b": "Kāramadai,Kāraikkudi,Kāraikāl,Karād,Kapurthala Town,Kāpren,Kapasan,Kapadvanj,Kānth,Kantai"
 },
 {
     "name": "Fataluku",
   "i": 1790,
   "min": 4,
   "max": 11,
-  "d": "k",
+  "d": "lnrt",
   "m": 0,
-  "b": "Kantābānji,1267978,Kānt,1267979,1267995,Kannod,1268007,Kanniyākumāri,1268008,Kannauj,1268011,Kanhangad,1268015,Kannad,1268020,1268031,1268032,Kankauli,1268035,Kanigiri"
+  "b": "Kantābānji,Kānt,Kannod,Kanniyākumāri,Kannauj,Kanhangad,Kannad,Kankauli,Kanigiri"
 },
 {
     "name": "Eibela",
@@ -1319,7 +1126,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jugsālai,1268799,1268810,1268820,Jora,1268823,Jalārpet,1268834,Jogipet,1268846,Jogbani,1268855,Jodiya Bandar,1268863,1268865,1268866,Jintūr,1268896,1268902,1268907"
+  "b": "Jugsālai,Jora,Jalārpet,Jogipet,Jogbani,Jodiya Bandar,Jintūr"
 },
 {
     "name": "Favorlang",
@@ -1328,7 +1135,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jigani,1268920,Jhūsi,1268929,Jhunjhunūn,1268936,Jhinjhāna,1268961,Jhīnjhak,1268962,1268977,Jharia,1268988,Jhārgrām,1268990,1269006,Jhanjhārpur,1269012,Jhālu,1269019"
+  "b": "Jigani,Jhūsi,Jhunjhunūn,Jhinjhāna,Jhīnjhak,Jharia,Jhārgrām,Jhanjhārpur,Jhālu"
 },
 {
     "name": "Golin",
@@ -1337,16 +1144,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jhālrapātan,1269020,Jhālod,1269023,Jhalidā,1269026,1269027,Jhajjar,1269042,Jhajha,1269046,1269053,1269056,1269057,Jetpur,1269065,1269092,1269093,1269094,1269102"
+  "b": "Jhālrapātan,Jhālod,Jhalidā,Jhajjar,Jhajha,Jetpur"
 },
 {
     "name": "Goroka",
   "i": 1824,
   "min": 4,
   "max": 11,
-  "d": "j",
+  "d": "lnrt",
   "m": 0,
-  "b": "1269126,1269135,1269153,1269154,1269158,1269168,1269175,1269177,1269179,1269183,1269217,1269227,1269239,1269247,1269256,1269267,Jandiāla,1269269,Jāmuria,1269280"
+  "b": "Jandiāla,Jāmuria"
 },
 {
     "name": "Grand Valley Dani",
@@ -1355,7 +1162,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jalpāiguri,1269388,Jalor,1269392,1269395,Jalgaon Jamod,1269406,1269407,Jaleshwar,1269413,Jalesar,1269415,Jālaun,1269422,Jalālpur,1269435,Jalalpore,1269439,Jalālī,1269441"
+  "b": "Jalpāiguri,Jalor,Jalgaon Jamod,Jaleshwar,Jalesar,Jālaun,Jalālpur,Jalalpore,Jalālī"
 },
 {
     "name": "Grass Koiari",
@@ -1364,7 +1171,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1269445,1269446,1269447,Jalakandapuram,1269449,1269477,Jaito,1269488,Jaitāran,1269498,Jaisingpur,1269502,1269507,Jais,1269509,1269515,Jahāzpur,1269545,Jahāngīrābād,1269551"
+  "b": "Jalakandapuram,Jaito,Jaitāran,Jaisingpur,Jais,Jahāzpur,Jahāngīrābād"
 },
 {
     "name": "Gauwa",
@@ -1373,43 +1180,43 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1270072,Hinganghāt,1270077,Hindupur,1270079,Hindoria,1270082,Hindaun,1270090,Himatnagar,1270099,Hilsa,1270102,1270164,1270171,Hatta,1270185,Hāt Piplia,1270190,Hāthras"
+  "b": "Hinganghāt,Hindupur,Hindoria,Hindaun,Himatnagar,Hilsa,Hatta,Hāt Piplia,Hāthras"
 },
 {
     "name": "Fembe",
   "i": 1842,
   "min": 4,
   "max": 11,
-  "d": "t",
+  "d": "lnrt",
   "m": 0,
-  "b": "1270718,1270722,Gumia,1270723,Guledagudda,1270750,1270752,Gulāothi,1270759,Gulābpura,1270763,Gūduvāncheri,1270787,Gūdūr,1270791,Gudiyatham,1270800,Gudivāda,1270801,1270819"
+  "b": "Gumia,Guledagudda,Gulāothi,Gulābpura,Gūduvāncheri,Gūdūr,Gudiyatham,Gudivāda"
 },
 {
     "name": "Fiwaga",
   "i": 1846,
   "min": 4,
   "max": 11,
-  "d": "d",
+  "d": "lnrt",
   "m": 0,
-  "b": "1270974,Gondiā,1270990,Gondal,1270994,Gondā City,1270996,Gomoh,1271005,Gola Gokarannāth,1271049,1271050,Gokavaram,1271062,1271064,1271067,Gohāna,1271079,Gohad,1271083"
+  "b": "Gondiā,Gondal,Gondā City,Gomoh,Gola Gokarannāth,Gokavaram,Gohāna,Gohad"
 },
 {
     "name": "Foe",
   "i": 1848,
   "min": 4,
   "max": 11,
-  "d": "n",
+  "d": "lnrt",
   "m": 0,
-  "b": "1271107,1271113,Gobindpur,1271131,Gobārdānga,1271142,1271151,1271175,Gingee,1271199,Giddarbāha,1271212,Giddalūr,1271213,Ghugus,1271244,Ghoti Budrukh,1271250,Ghosī,1271259"
+  "b": "Gobindpur,Gobārdānga,Gingee,Giddarbāha,Giddalūr,Ghugus,Ghoti Budrukh,Ghosī"
 },
 {
     "name": "Foia Foia",
   "i": 1849,
   "min": 4,
   "max": 11,
-  "d": "de",
+  "d": "lnrt",
   "m": 0,
-  "b": "Ghogardīha,1271286,Ghazīpur,1271306,Ghāziābād,1271308,Ghātsīla,1271319,Ghātanji,1271343,Ghātampur,1271345,1271346,Gharaunda,1271363,Gairtganj,1271396,Gevrai,1271413,1271439"
+  "b": "Ghogardīha,Ghazīpur,Ghāziābād,Ghātsīla,Ghātanji,Ghātampur,Gharaunda,Gairtganj,Gevrai"
 },
 {
     "name": "Fore",
@@ -1418,7 +1225,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gauripur,1271453,1271459,Gaurela,1271464,1271476,1271493,Garot,1271509,Gariadhar,1271533,Garhshankar,1271538,Garhmuktesar,1271543,Garhchiroli,1271558,Garhākota,1271563,Gannavaram"
+  "b": "Gauripur,Gaurela,Garot,Gariadhar,Garhshankar,Garhmuktesar,Garhchiroli,Garhākota,Gannavaram"
 },
 {
     "name": "Siraya",
@@ -1427,25 +1234,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1271722,1271729,Gajwel,1271777,Gajraula,1271780,1271789,Gadwāl,1271819,Gadhinglaj,1271834,Gadhada,1271839,Gādarwāra,1271847,1271850,Fort Gloster,1271871,Forbesganj,1271874"
-},
-{
-    "name": "Fuyug",
-  "i": 50028,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Newport Beach,5376890,Nipomo,5377100,Norco,5377199,North Highlands,5377640,North Hollywood,5377654,Northridge,5377985,5377995,Novato,5378044,5378500,5378538,Oakley,5378566,5378771"
+  "b": "Gajwel,Gajraula,Gadwāl,Gadhinglaj,Gadhada,Gādarwāra,Fort Gloster,Forbesganj"
 },
 {
     "name": "Gende",
   "i": 1864,
   "min": 4,
   "max": 11,
-  "d": "lo",
+  "d": "lnrt",
   "m": 0,
-  "b": "1272640,1272646,1272648,Dibai,1272653,Diamond Harbour,1272657,Dhūri,1272670,Dhupgāri,1272674,Dhuliān,1272689,1272691,1272694,1272699,1272701,1272720,1272722,1272733"
+  "b": "Dibai,Diamond Harbour,Dhūri,Dhupgāri,Dhuliān"
 },
 {
     "name": "Humene",
@@ -1454,7 +1252,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1275050,1275066,1275068,1275097,1275103,1275117,Bulandshahr,1275120,1275132,1275147,1275152,1275163,1275191,Brajarajnagar,1275194,1275198,1275218,Borsad,1275230,Borivli"
+  "b": "Bulandshahr,Brajarajnagar,Borsad,Borivli"
 },
 {
     "name": "Hupla",
@@ -1463,25 +1261,25 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1275248,Borāwar,1275302,1275321,1275339,Bolpur,1275346,1275362,1275364,Boisar,1275368,Bodināyakkanūr,1275388,Bodh Gaya,1275389,Bodhan,1275391,Bobbili,1275406,Biswān"
+  "b": "Borāwar,Bolpur,Boisar,Bodināyakkanūr,Bodh Gaya,Bodhan,Bobbili,Biswān"
 },
 {
     "name": "Iha",
   "i": 1914,
   "min": 4,
   "max": 11,
-  "d": "bk",
+  "d": "lnrt",
   "m": 0,
-  "b": "1275793,Bhoom,1275804,1275812,Bhudgaon,1275814,1275817,Bhuban,1275818,Bhor,1275836,1275841,Bhongīr,1275848,Bhongaon,1275849,Bhokardan,1275863,Bhokar,1275865"
+  "b": "Bhoom,Bhudgaon,Bhuban,Bhor,Bhongīr,Bhongaon,Bhokardan,Bhokar"
 },
 {
     "name": "Gimi",
   "i": 1918,
   "min": 4,
   "max": 11,
-  "d": "o",
+  "d": "lnrt",
   "m": 0,
-  "b": "1276027,1276032,Bhavāni,1276037,Bhattiprolu,1276054,Bhātpāra,1276058,1276067,1276070,1276084,Bhusawar,1276092,Bharwāri,1276095,1276100,Bharthana,1276103,1276128,Bhānvad"
+  "b": "Bhavāni,Bhattiprolu,Bhātpāra,Bhusawar,Bharwāri,Bharthana,Bhānvad"
 },
 {
     "name": "Gurindji Kriol",
@@ -1490,7 +1288,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1276147,Bhānpurī,1276151,Bhānpura,1276152,Bhanjanagar,1276159,Bhānder,1276178,1276191,1276219,Bhaisa,1276249,Bhainsdehi,1276265,1276300,Bhadreswar,1276320,1276321,1276325"
+  "b": "Bhānpurī,Bhānpura,Bhanjanagar,Bhānder,Bhaisa,Bhainsdehi,Bhadreswar"
 },
 {
     "name": "Hamtai",
@@ -1499,16 +1297,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1277022,Barddhamān,1277029,Bar Bigha,1277038,Baraut,1277044,Barauli,1277053,Bārāsat,1277065,Baranagar,1277082,1277084,Bāramūla,1277085,Bārāmati,1277091,Bārākpur,1277100"
+  "b": "Barddhamān,Bar Bigha,Baraut,Barauli,Bārāsat,Baranagar,Bāramūla,Bārāmati,Bārākpur"
 },
 {
     "name": "Inoke-Yate",
   "i": 1949,
   "min": 4,
   "max": 11,
-  "d": "d",
+  "d": "lnrt",
   "m": 0,
-  "b": "Amudālavalasa,1278698,Āmta,1278703,Amroli,1278707,Amroha,1278708,1278710,Amreli,1278715,1278718,Amod,1278742,Āmli,1278768,Āmlāgora,1278774,Amla,1278775"
+  "b": "Amudālavalasa,Āmta,Amroli,Amroha,Amreli,Amod,Āmli,Āmlāgora,Amla"
 },
 {
     "name": "Abinomn",
@@ -1517,7 +1315,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1348780,Pānchla,1348785,Pujali,1348820,Maheshtala,1348843,Monoharpur,1349041,Badāmibāgh,1429898,Soyībug,1430991,Brāhmanān di Bāri,1439850,Kheri Nāngal,1442266,Jharoda Kalān,1443367,Roshanpura"
+  "b": "Pānchla,Pujali,Maheshtala,Monoharpur,Badāmibāgh,Soyībug,Brāhmanān di Bāri,Kheri Nāngal,Jharoda Kalān,Roshanpura"
 },
 {
     "name": "Abun",
@@ -1526,52 +1324,61 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1443381,Dīndārpur,1443383,Singāpur,1445156,Nāgāvaram,1445335,Jilādiguda,1445348,Yamjāl,1445350,Ghatkesar,1445378,Kompalli,1445797,1462711,Adampur,1462733,Mullānwāla,1462735"
+  "b": "Dīndārpur,Singāpur,Nāgāvaram,Jilādiguda,Yamjāl,Ghatkesar,Kompalli,Adampur,Mullānwāla"
 },
 {
     "name": "Anem",
   "i": 1971,
   "min": 4,
   "max": 11,
-  "d": "l",
+  "d": "lnrt",
   "m": 0,
-  "b": "Chanaje,1463373,Madhavaram,1465594,Maduraivayal,1465621,Porur,1465622,Mugalivakkam,1465623,Virugambakkam,1465809,Madipakkam,1465825,Ullagaram,1465826,Perungudi,1465828,Kotivakkam,1465829"
+  "b": "Chanaje,Madhavaram,Maduraivayal,Porur,Mugalivakkam,Virugambakkam,Madipakkam,Ullagaram,Perungudi,Kotivakkam"
 },
 {
     "name": "Bilua",
   "i": 1972,
   "min": 4,
   "max": 11,
-  "d": "kl",
+  "d": "lnrt",
   "m": 0,
-  "b": "Rajakilpakkam,1465867,Meddappakkam,1465870,Kullattūr,1465872,Kavanur,1465873,Kallamchavadi,1465881,Unamaucheri,1465888,Perunkalattu,1465899,Madambakkam,1465910,Nalambūr,1466010,Nerkunram,1466012"
+  "b": "Rajakilpakkam,Meddappakkam,Kullattūr,Kavanur,Kallamchavadi,Unamaucheri,Perunkalattu,Madambakkam,Nalambūr,Nerkunram"
 },
 {
     "name": "Kuot",
   "i": 1973,
   "min": 4,
   "max": 11,
-  "d": "dklpt",
+  "d": "lnrt",
   "m": 0,
-  "b": "Kaikalapettai,1466019,Vīrarāghavapuram,1466021,Reddipālaiyam,1466025,Vengattūr,1466089,Tirumeshi,1466093,Powai,6324621,6619347,Chockli,6619506,Panoor,6619512,Panchkula,6690108,Sholinganallur"
+  "b": "Kaikalapettai,Vīrarāghavapuram,Reddipālaiyam,Vengattūr,Tirumeshi,Powai,Chockli,Panoor,Panchkula,Sholinganallur"
 },
 {
     "name": "Kamang",
   "i": 1999,
   "min": 4,
   "max": 11,
-  "d": "dlot",
+  "d": "lnrt",
   "m": 0,
-  "b": "Bāprola,10263061,Hashtsāl,10263066,Rijokri,10263096,Kāpas Herd,10263097,Malakpur Kohi Rangpur,10263098,Kirāri Sulemānnagar,10263153,Sāhibābād Daulotpur,10263162,Mukandpur,10263165,Bhālswa Jahangirpur,10263167,Murādābād Pahāri,10263225"
+  "b": "Bāprola,Hashtsāl,Rijokri,Kāpas Herd,Malakpur Kohi Rangpur,Kirāri Sulemānnagar,Sāhibābād Daulotpur,Mukandpur,Bhālswa Jahangirpur,Murādābād Pahāri"
 },
 {
     "name": "Kamasa",
   "i": 2000,
   "min": 4,
   "max": 11,
-  "d": "n",
+  "d": "lnrt",
   "m": 0,
-  "b": "10263232,Tighri,10263233,Saiyad-ul-ajaib,10263234,Sādatpur Gujran,10263300,Jharoda Mazra Burāri,10263301,Karāwalnagar,10265057,Mustafābād,10265061,Jīwanpur,10265066,Gokalpur,10265070,Mandoli,10265071,Bābarpur"
+  "b": "Tighri,Saiyad-ul-ajaib,Sādatpur Gujran,Jharoda Mazra Burāri,Karāwalnagar,Mustafābād,Jīwanpur,Gokalpur,Mandoli,Bābarpur"
+},
+{
+    "name": "Kambaira",
+  "i": 2002,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Goniāna Mandi,Singānuram,Sarwar,Ettumanoor,Benipur,Rosera,Mahnar Bazar,Jora Khurd,Gothara"
 },
 {
     "name": "Kamberau",
@@ -1580,7 +1387,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "10431770,Lālru,10436674,Kardhān,10436800,Bablāi,10436834,10447536,Birgaon,10448053,10453729,Borgaon,10453824,Sindi,10453829,10469677,Mahādula,10469681,Kanhān,10469715"
+  "b": "Lālru,Kardhān,Bablāi,Birgaon,Borgaon,Sindi,Mahādula,Kanhān"
 },
 {
     "name": "Karas",
@@ -1589,124 +1396,34 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "11184827,Mulavukad,11184889,Edavilangu,11185179,Elamkunnapuzha,11185182,Jalda,11185500,Jamjodhpur,11185501,11185528,Karthikappally,11185601,Kondalampatti,11185658,Koothappar,11185663,Koovappady,11185666"
+  "b": "Mulavukad,Edavilangu,Elamkunnapuzha,Jalda,Jamjodhpur,Karthikappally,Kondalampatti,Koothappar,Koovappady"
 },
 {
     "name": "Ikobi",
   "i": 2024,
   "min": 4,
-  "max": 12,
-  "d": "lnopt",
-  "m": 0,
-  "b": "Kizhuparamba,11452593,Peringottupulam,11452719,Kodur,11452749,Devarshola,11453083,Tondalam,11453263,Kollivāyal,11456498,Kērkandi,11460573,Vīrakeralam,11461632,Idaiyarpālaiyam,11461652,Chinnavādampatti,11461739"
-},
-{
-    "name": "Ipiko",
-  "i": 21091,
-  "min": 4,
-  "max": 12,
-  "d": "lnt",
-  "m": 0,
-  "b": "Traverse City,5012495,5012521,5012639,Walker,5013924,5014051,5014130,Waverly,5014208,Wayne,5014224,Westland,5014681,Wyandotte,5015599,Wyoming,5015618,Ypsilanti,5015688"
-},
-{
-    "name": "Ipili",
-  "i": 21092,
-  "min": 4,
-  "max": 12,
-  "d": "t",
-  "m": 0,
-  "b": "Albert Lea,Minnesota,5016024,5016374,Anoka,5016450,Apple Valley,5016494,5016884,Blaine,5018651,5018739,Brooklyn Center,5019330,Brooklyn Park,5019335,5019588,Burnsville,5019767,Champlin"
-},
-{
-    "name": "Isabi",
-  "i": 21093,
-  "min": 4,
-  "max": 12,
-  "d": "lnop",
-  "m": 0,
-  "b": "5020859,Chanhassen,5020881,Chaska,5020938,5021828,Coon Rapids,5022025,Cottage Grove,5022134,Crystal,5023571,5024719,Eagan,5024825,Eden Prairie,5025219,Edina,5025264,Elk River"
-},
-{
-    "name": "Jimi",
-  "i": 21096,
-  "min": 4,
-  "max": 12,
-  "d": "ost",
-  "m": 0,
-  "b": "5041926,5042373,5042561,5042773,5043193,5043473,5043779,5043799,5044407,5045021,5045258,5045360,5046001,5046063,5046997,5047234,5048033,5048814,5052361,5052467"
-},
-{
-    "name": "Ambakich",
-  "i": 21097,
-  "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "White Bear Lake,5052658,Willmar,5052916,Winona,5053156,5053358,Kirksville,5055787,North Dakota,5059163,5059429,5059836,West Fargo,5062458,Bellevue,Nebraska,5063805,5066001,Fremont"
-},
-{
-    "name": "Ap Ma",
-  "i": 21098,
-  "min": 4,
-  "max": 11,
-  "d": "l",
-  "m": 0,
-  "b": "5068725,Grand Island,5069297,5069802,Kearney,5071348,La Vista,5071665,5072006,5073965,Omaha,5074472,Papillion,5074792,New Hampshire,5083221,5084868,5085374,Derry Village,5085382"
-},
-{
-    "name": "Asabano",
-  "i": 21099,
-  "min": 4,
-  "max": 11,
-  "d": "lr",
-  "m": 0,
-  "b": "5085520,East Concord,5085688,Keene,5088262,5088438,5089178,Merrimack,5089478,Nashua,5090046,5091383,5091872,5092268,Asbury Park,5095281,Avenel,5095325,Basking Ridge,5095409"
-},
-{
-    "name": "Bogaya",
-  "i": 21100,
-  "min": 4,
-  "max": 11,
-  "d": "er",
-  "m": 0,
-  "b": "5095445,5095549,Bergenfield,5095611,5095779,Brick,5095947,Carteret,5096316,Cliffside Park,5096686,5096699,5096798,Cranford,5097017,Denville,5097239,5097315,Dumont,5097357"
-},
-{
-    "name": "Burmeso",
-  "i": 21101,
-  "min": 4,
-  "max": 11,
-  "d": "fl",
-  "m": 0,
-  "b": "East Brunswick,5097402,East Orange,5097441,Edison,5097529,5097598,5097627,5097672,Ewing,5097751,Fair Lawn,5097773,Fords,5098109,Fort Lee,5098135,Garfield,5098343,5098706"
+  "b": "Kizhuparamba,Peringottupulam,Kodur,Devarshola,Tondalam,Kollivāyal,Kērkandi,Vīrakeralam,Idaiyarpālaiyam,Chinnavādampatti"
 },
 {
     "name": "Mpur",
   "i": 2064,
   "min": 4,
   "max": 11,
-  "d": "e",
+  "d": "lnrt",
   "m": 0,
-  "b": "13353584,Cheruvannur,13353585,Bangawan,13353613,13353614,Amlai,13353615,Bijuri,13353616,Malajkhand,13353617,Dhanpuri,13353618,13353619,Kalher,13353675,Aurangabad Cantonment,13353676,Pasthal"
+  "b": "Cheruvannur,Bangawan,Amlai,Bijuri,Malajkhand,Dhanpuri,Kalher,Aurangabad Cantonment,Pasthal"
 },
 {
     "name": "Maibrat",
   "i": 2065,
   "min": 4,
   "max": 11,
-  "d": "n",
-  "m": 0,
-  "b": "13353677,Jalochi,13353678,Korochi,13353679,Ghulewadi,13353680,Pachgaon,13353681,13353682,13353683,13353684,13353685,13353686,13353687,13353688,13353689,13353690,13353691,13494539"
-},
-{
-    "name": "Elseng",
-  "i": 2067,
-  "min": 4,
-  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "13494692,13494693,13494694,13494695,13494696,13494697,13494698,13494699,13494700,13494701,13494702,13494703,13494704,13494705,13494706,13494707,13494708,13494709,13494710,13494711"
+  "b": "Jalochi,Korochi,Ghulewadi,Pachgaon"
 },
 {
     "name": "Kapauri",
@@ -1715,34 +1432,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "13494712,13494713,13494714,13494715,13494716,13494717,13494718,13494720,13494721,13494722,13494723,13494730,13494731,13494746,13494747,13494748,13494749,89570,89824,Salah ad Din"
-},
-{
-    "name": "Northern Formosan",
-  "i": 21118,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5124497,5125011,5125086,5125125,5125523,5125738,5125771,5126013,5126180,5126183,5126187,5126208,5126518,5126550,5126555,5126630,5126827,5126842,5127134,5127315"
-},
-{
-    "name": "Northern Luzon",
-  "i": 21119,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5127536,5127550,5127670,5127835,5128266,5128481,5128549,5128566,New York City,5128581,Newburgh,5128654,5128723,North Amityville,5128884,North Babylon,5128886,North Bay Shore,5128898,North Bellmore"
-},
-{
-    "name": "Northern Mindoro",
-  "i": 21120,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5128904,North Massapequa,5129134,5129245,North Valley Stream,5129248,Oceanside,5129603,Ossining,5130045,5130081,Ozone Park,5130334,Park Slope,5130561,Parkchester,5130572,5130780,Peekskill,5130831"
+  "b": "Salah ad Din"
 },
 {
     "name": "Philippine",
@@ -1751,43 +1441,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "97990,Baynjiwayn,98012,98112,Baḥarkah,98156,98182,Az Zubayr,98245,Aş Şuwayrah,98459,98463,As Samawah,Muthanna,98530,Nāḩiyat ash Shināfīyah,Al-Qadisiyah,98589,Ash Shaţrah,98622"
-},
-{
-    "name": "South Mindanao",
-  "i": 21121,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Plainview,5131638,Plattsburgh,5131692,Port Chester,5132002,5132028,Port Washington,5132029,Poughkeepsie,5132143,Queens Village,5133271,Queens,5133273,Queensbury,5133279,Rego Park,5133640,5133825"
-},
-{
-    "name": "Tsouic",
-  "i": 21122,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5133858,5134086,Rockville Centre,5134203,5134295,Ronkonkoma,5134316,Roosevelt,5134323,5134395,5134449,5134453,Rye,5134693,5136334,Sayville,5136421,Scarsdale,5136433,5136454"
-},
-{
-    "name": "Greater Central Philippine",
-  "i": 21123,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5137507,Selden,5137600,Sheepshead Bay,5137849,5138022,Smithtown,5138539,South Ozone Park,5138950,Springfield Gardens,5139287,Spring Valley,5139301,Staten Island,5139568,Sunnyside,5140221,Syosset,5140402"
-},
-{
-    "name": "Batanic",
-  "i": 21124,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5140405,Terrace Heights,5140675,Throgs Neck,5140945,Tremont,5141342,5141502,Uniondale,5141927,5141930,5141963,5142036,5142056,5142109,5142182,5142296,5143056,5143198,5143307"
+  "b": "Baynjiwayn,Baḥarkah,Az Zubayr,Aş Şuwayrah,As Samawah,Muthanna,Nāḩiyat ash Shināfīyah,Al-Qadisiyah,Ash Shaţrah"
 },
 {
     "name": "Central Luzon",
@@ -1796,7 +1450,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Āzādshahr,Hamadan Province,14256,Nūrābād,Lorestan Province,24851,Javānrūd,Kermanshah Province,25883,Īstgāh-e Rāh Āhan-e Garmsār,32723,32767,32843,32900,Shahre Jadide Andisheh,32909,32996,33069,East Azerbaijan,35017"
+  "b": "Āzādshahr,Hamadan Province,Nūrābād,Lorestan Province,Javānrūd,Kermanshah Province,Īstgāh-e Rāh Āhan-e Garmsār,Shahre Jadide Andisheh,East Azerbaijan"
 },
 {
     "name": "Kamono",
@@ -1805,34 +1459,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "135878,136014,136156,136256,136280,136399,Dehlorān,136702,Dehdasht,136987,Şafāshahr,137025,137057,Sūsangerd,137268,Darreh Shahr,137436,Dargaz,137585,137929"
+  "b": "Dehlorān,Dehdasht,Şafāshahr,Sūsangerd,Darreh Shahr,Dargaz"
 },
 {
     "name": "Kanak",
   "i": 2099,
   "min": 4,
   "max": 11,
-  "d": "r",
-  "m": 0,
-  "b": "Dārāb,137956,138025,138042,Choghādak,138381,Chenārān,138742,Charām,138989,Chālūs,139223,139706,139817,139879,Būkān,139889,Borūjerd,140044,Borūjen"
-},
-{
-    "name": "Kanasi",
-  "i": 2100,
-  "min": 4,
-  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "140046,140097,140380,140463,140521,140889,140918,140951,141015,141349,141407,141584,141653,141663,141665,141666,141673,141676,141679,141681"
-},
-{
-    "name": "Kandawo",
-  "i": 2101,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "141736,142000,142114,142247,142255,142358,142363,142496,142497,142554,142567,142676,142679,142768,142872,142958,143052,143073,143083,143122"
+  "b": "Dārāb,Choghādak,Chenārān,Charām,Chālūs,Būkān,Borūjerd,Borūjen"
 },
 {
     "name": "Kanite",
@@ -1841,16 +1477,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "145427,145449,145459,400771,400773,400809,400833,401118,Pāsārgād,401202,Vaḩīdīyeh,404592,406462,406472,Ovrīn,406487,406993,Shāhīn Shahr,417472,418418"
-},
-{
-    "name": "Kap",
-  "i": 2106,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1160110,1160120,1160500,1160544,1160571,1160907,1160939,1161724,6648117,6648621,6653052,6657205,6657461,6659672,6659958,6659981,6672633,6672634,6681051,6686961"
+  "b": "Pāsārgād,Vaḩīdīyeh,Ovrīn,Shāhīn Shahr"
 },
 {
     "name": "Loyalties-New Caledonia",
@@ -1859,7 +1486,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2524734,Favara,2524786,2524819,2524881,2524907,Comiso,2524955,2525059,2525068,2525070,2525083,2525207,2525350,2525362,Canicattì,2525405,2525448,2525450,2525473"
+  "b": "Favara,Comiso,Canicattì"
 },
 {
     "name": "North Vanuatu",
@@ -1868,7 +1495,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bronte,2525498,Biancavilla,2525560,Belpasso,2525571,2525597,2525628,Avola,2525643,2525646,2525655,2525755,2525764,Adrano,2525769,2525790,Aci Catena,2525791,Aci Castello"
+  "b": "Bronte,Biancavilla,Belpasso,Avola,Adrano,Aci Catena,Aci Castello"
 },
 {
     "name": "South Vanuatu",
@@ -1877,7 +1504,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2525792,3163853,Vomero,3163948,3163995,Vittorio Veneto,3164028,3164039,Vimodrone,3164080,3164083,Lancenigo-Villorba,3164090,Villaricca,3164153,Villafranca di Verona,3164241,Vignola,3164342,3164376"
+  "b": "Vomero,Vittorio Veneto,Vimodrone,Lancenigo-Villorba,Villaricca,Villafranca di Verona,Vignola"
 },
 {
     "name": "Southeast Solomonic",
@@ -1886,7 +1513,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3164419,3164433,3164440,3164527,3164565,3164582,3164603,3164617,3164630,3164672,3164699,Vanchiglia,3164741,Valenzano,3164919,Valenza,3164920,Valdagno,3164954,Friuli Venezia Giulia"
+  "b": "Vanchiglia,Valenzano,Valenza,Valdagno,Friuli Venezia Giulia"
 },
 {
     "name": "Southern Oceanic",
@@ -1895,7 +1522,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3165072,Triggiano,3165178,3165185,Trezzano sul Naviglio,3165198,3165201,3165207,Trentola-Ducenta,3165240,3165243,Trecate,3165275,Trani,3165322,3165340,Tortona,3165370,3165435,3165456"
+  "b": "Triggiano,Trezzano sul Naviglio,Trentola-Ducenta,Trecate,Trani,Tortona"
 },
 {
     "name": "St. Matthias",
@@ -1904,7 +1531,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3165475,3165524,The Marches,3165595,3165612,3165624,Thiene,3165698,Terzigno,3165737,3165762,3165771,3165773,Terlizzi,3165788,3165803,3165926,3166006,3166034,3166236"
+  "b": "The Marches,Thiene,Terzigno,Terlizzi"
 },
 {
     "name": "Temotu",
@@ -1913,7 +1540,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3166387,3166397,Somma Vesuviana,3166404,Soccavo,3166465,3166548,3166571,3166574,3166576,3166595,3166598,3166601,3166706,3166711,3166740,Senago,3166753,Segrate,3166808"
+  "b": "Somma Vesuviana,Soccavo,Senago,Segrate"
 },
 {
     "name": "Vanuatu",
@@ -1922,7 +1549,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Secondigliano,3166830,3166917,3166988,3166989,3167010,3167022,3167034,Sava,3167044,3167053,3167096,Sarzana,3167104,3167113,3167116,San Vito dei Normanni,3167184,Santeramo in Colle,3167327"
+  "b": "Secondigliano,Sava,Sarzana,San Vito dei Normanni,Santeramo in Colle"
 },
 {
     "name": "Western Oceanic",
@@ -1931,16 +1558,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sant'Antonio Abate,3167393,Sant'Antimo,3167419,Sant'Anastasia,3167509,Santa Maria Capua Vetere,3167561,3167731,3167744,3167751,3167777,Borgo San Paolo,3167895,San Nicandro Garganico,3167940,San Miniato,3167953,San Miniato Basso,3167954"
-},
-{
-    "name": "Admiralty",
-  "i": 2149,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3178619,3178631,3178650,3178671,3178738,3178745,3178784,3178796,3178818,3178832,3178850,3178956,3178957,3178972,3178998,3178999,3179066,3179075,3179109,3179162"
+  "b": "Sant'Antonio Abate,Sant'Antimo,Sant'Anastasia,Santa Maria Capua Vetere,Borgo San Paolo,San Nicandro Garganico,San Miniato,San Miniato Basso"
 },
 {
     "name": "Alor-Pantar",
@@ -1949,43 +1567,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "3179218,3179235,3179337,3179347,3179415,3179443,3179560,3179661,3179684,3179686,3179781,3179795,Casoria,3179806,3179866,3179977,3180133,3180172,3180208,3180224"
-},
-{
-    "name": "Anim languages",
-  "i": 2153,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3180240,3180389,3180423,3180445,3180496,3180541,3180581,3180601,3180733,3180758,3180792,3180991,3181018,3181125,3181258,3181355,3181359,3181471,3181495,3181528"
-},
-{
-    "name": "Aru",
-  "i": 2154,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3181548,3181550,3181554,3181631,3181641,3181683,3181790,3181913,3181928,3181931,3181995,3182007,3182043,3182164,3182179,3182210,3182272,3182289,3182297,3182336"
-},
-{
-    "name": "Awin-Pa",
-  "i": 2156,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3183005,3183063,3183072,3183089,3183178,3183187,3183284,3183299,3183319,3183343,3183356,3183364,3183412,3183455,3183472,3183490,3183494,3183539,3183541,3183573"
-},
-{
-    "name": "Awyu-Dumut",
-  "i": 2157,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3183587,3219114,6457398,6534216,6534228,6534232,6534234,6534235,6534252,6534253,6534256,6534264,6534267,6534268,6534275,6534280,6534284,6545157,6620312,6693840"
+  "b": "Casoria"
 },
 {
     "name": "Kimaama-Kimaghama",
@@ -1994,7 +1576,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "250267,250336,Ajloun,250420,250441,250461,250582,250624,250637,250718,250774,250799,6946409,Russeifa,7838895,Az̧ Z̧ulayl,10861986,Rukban,11428685,Ṣuwayliḥ"
+  "b": "Ajloun,Russeifa,Az̧ Z̧ulayl,Rukban,Ṣuwayliḥ"
 },
 {
     "name": "Central Vanuatu",
@@ -2003,7 +1585,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "13286467,Marj Al Hamam,13308287,Shingū,1847947,1847963,Akashi,1847966,Zushi,1847968,Zentsujichó,1847983,1848004,Gero,1848055,Yukuhashi,1848087,Yūki,1848096,1848113"
+  "b": "Marj Al Hamam,Shingū,Akashi,Zushi,Zentsujichó,Gero,Yukuhashi,Yūki"
 },
 {
     "name": "Eastern Oceanic",
@@ -2012,142 +1594,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Yotsutsuji,1848143,Yoshikawa,1848188,Yoshii,1848194,Yoshida-kasugachō,1848210,Yorii,1848243,Yono,1848254,Yonago,1848277,Yonabaru,1848281,1848305,1848313,1848354,1848373"
-},
-{
-    "name": "Meso-Melanesian",
-  "i": 2174,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1848375,1848382,1848439,1848445,1848447,1848482,1848498,1848499,1848522,1848550,1848573,1848593,1848618,1848633,1848689,1848705,1848717,1848774,1848776,1848825"
-},
-{
-    "name": "Oceanic",
-  "i": 2175,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1848852,1848859,1848933,1848976,1848991,1849038,1849053,1849069,1849073,1849094,1849154,1849155,1849183,1849186,1849237,1849299,1849306,1849367,1849372,1849407"
-},
-{
-    "name": "Binanderean",
-  "i": 2176,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1849414,1849424,1849429,1849498,1849519,1849539,1849561,1849563,1849584,1849592,1849594,1849647,1849661,1849675,1849706,1849729,1849733,1849782,1849788,1849796"
-},
-{
-    "name": "Kutubuan languages",
-  "i": 2177,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1849814,1849815,1849817,1849831,1849837,1849845,1849846,1849850,1849857,1849876,1849892,1849904,1850034,1850091,1850108,1850147,1850152,1850158,1850181,1850185"
-},
-{
-    "name": "Goilalan",
-  "i": 2178,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1850207,1850217,1850269,1850307,1850311,1850345,1850396,1850405,1850472,1850498,1850499,1850523,1850559,1850589,1850600,1850627,1850630,1850692,1850693,1850707"
-},
-{
-    "name": "Kolopom",
-  "i": 2179,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1850708,1850732,1850742,1850745,1850746,1850791,1850818,1850834,1850860,1850872,1850878,1850892,1850910,1851002,1851012,1851032,1851064,1851068,1851100,1851125"
-},
-{
-    "name": "Damal",
-  "i": 2180,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1851137,1851155,1851169,1851170,1851176,1851193,1851259,1851273,1851282,1851286,1851319,1851348,1851357,1851368,1851390,1851426,1851440,1851454,1851462,1851483"
-},
-{
-    "name": "Dem",
-  "i": 2181,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1851494,1851504,1851542,1851604,1851606,1851622,1851632,1851711,1851713,1851717,1851813,1851883,1851935,1851936,1851952,1852003,1852046,1852102,1852109,1852139"
-},
-{
-    "name": "Dibiyaso",
-  "i": 2182,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1852163,1852192,1852225,1852347,1852357,1852358,1852362,1852383,1852385,1852472,1852479,1852481,1852502,1852561,1852588,1852595,1852607,1852643,1852663,1852673"
-},
-{
-    "name": "Guriaso",
-  "i": 2183,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1852736,1852775,1852831,1852849,1852890,1852899,1852901,1852915,1852964,1852984,1853008,1853066,1853081,1853140,1853163,1853174,1853190,1853192,1853193,1853195"
-},
-{
-    "name": "Kaki Ae",
-  "i": 2184,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1853209,1853230,1853237,1853280,1853303,1853338,1853354,1853371,1853433,1853483,1853485,1853486,1853514,1853564,1853574,1853662,1853677,1853743,1853909,1853992"
-},
-{
-    "name": "Karami",
-  "i": 2185,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1854018,1854022,1854026,1854028,1854083,1854093,1854162,1854177,1854186,1854246,1854255,1854371,1854376,1854383,1854384,1854405,1854444,1854460,1854487,1854492"
-},
-{
-    "name": "Kehu",
-  "i": 2186,
-  "min": 4,
-  "max": 11,
-  "d": "r",
-  "m": 0,
-  "b": "1854530,1854629,1854648,1854665,1854667,1854703,1854747,1854774,1854803,1854807,1854849,1854868,1854902,1854905,1854923,1854979,1855066,1855078,1855087,1855095"
-},
-{
-    "name": "Kiwai",
-  "i": 2238,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2111656,2111669,2111677,2111684,2111704,2111725,2111749,2111781,2111809,2111824,2111831,2111834,2111836,2111855,2111859,2111884,2111901,2111943,2111964,2111999"
-},
-{
-    "name": "Klon",
-  "i": 2241,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2112521,2112527,2112539,2112555,2112570,2112571,2112576,2112583,2112624,2112656,2112664,2112688,2112692,2112694,2112708,2112758,2112802,2112823,2112899,2112903"
+  "b": "Yotsutsuji,Yoshikawa,Yoshii,Yoshida-kasugachō,Yorii,Yono,Yonago,Yonabaru"
 },
 {
     "name": "Koitabu",
@@ -2156,34 +1603,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sennan,6825500,Shijōnawate,6825501,Hokuto,6862586,6940394,Higashimurayama,7279570,Fujikawaguchiko,7281819,Yawatahama,7303003,Kirishima,7303138,7303145,Arashiyama,7303471,Dazaifu,7422816"
-},
-{
-    "name": "Komolom",
-  "i": 2256,
-  "min": 4,
-  "max": 11,
-  "d": "n",
-  "m": 0,
-  "b": "8573188,8573477,8573523,8573531,8573577,8573717,8573723,8576449,8576453,8576480,8576482,8576507,8576625,8576683,8611025,8659953,8715035,9017898,9188982,9190392"
-},
-{
-    "name": "Komyandaret",
-  "i": 2257,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "9192643,9192873,9197267,9199689,9277769,9288247,9290061,9291689,9633084,9633110,9633120,9633180,9633186,9634762,9635322,9865313,9888360,9890410,9891071,9891157"
-},
-{
-    "name": "Konai",
-  "i": 2258,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "9891173,10267168,10267209,10300676,10310759,10311179,10311204,10311513,10353044,10409864,10629856,10630004,10630007,10642464,10642471,10645302,10793741,10860988,10865202,10865210"
+  "b": "Sennan,Shijōnawate,Hokuto,Higashimurayama,Fujikawaguchiko,Yawatahama,Kirishima,Arashiyama,Dazaifu"
 },
 {
     "name": "Koneraw",
@@ -2192,34 +1612,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "11611474,11611475,11611476,11611477,11611478,11611479,11611483,11611486,11611487,11611608,Sagamihara,11611609,11611610,11611611,11611613,11611614,11611615,11611617,11611622,11611624"
-},
-{
-    "name": "Kopkaka",
-  "i": 2264,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "11611942,11611943,11611944,11611946,11611950,11612326,11612327,11612328,11612329,11612330,11612331,11612333,11612336,11612337,11612338,11612339,11612340,11612341,11612342,11612343"
-},
-{
-    "name": "Korafe",
-  "i": 2266,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "11612553,11612554,11612555,11612557,11612558,11612559,11612560,11612561,11612562,11612564,11612565,11612566,11612571,11612574,11612576,11612578,11612579,11612580,11612582,11612583"
-},
-{
-    "name": "Korowai",
-  "i": 2269,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "11777400,11777417,11790342,11790353,11790367,11790369,11790374,11790632,11808021,11809254,11809770,11836117,11837657,11837950,13118912,13132738,13132739,13132740,13132741,13132743"
+  "b": "Sagamihara"
 },
 {
     "name": "Kosraean",
@@ -2228,7 +1621,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kilifi County,178245,Kirinyaga County,178323,Wajir County,178443,Taita Taveta,178522,Kwale County,178792,Nairobi County,179330,Nyeri County,179438,179525,Kiambu County,181032,Migori County,181122,Nakuru County"
+  "b": "Kilifi County,Kirinyaga County,Wajir County,Taita Taveta,Kwale County,Nairobi County,Nyeri County,Kiambu County,Migori County,Nakuru County"
 },
 {
     "name": "Kosena",
@@ -2237,16 +1630,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "181135,Mandera County,181374,181501,Homa Bay County,181702,Kisii County,182498,182701,Nyamira county,182880,183027,183334,Kajiado County,183595,Narok County,184379,184433,184622,184707"
+  "b": "Mandera County,Homa Bay County,Kisii County,Nyamira county,Kajiado County,Narok County"
 },
 {
     "name": "Kovojab",
   "i": 2273,
   "min": 4,
   "max": 11,
-  "d": "i",
+  "d": "lnrt",
   "m": 0,
-  "b": "184745,Kitui County,184921,Machakos County,185131,185579,Kakamega County,185702,Kisumu County,185939,Marsabit County,186180,Mombasa County,186301,186315,186731,Meru County,186827,Vihiga County,187113"
+  "b": "Kitui County,Machakos County,Kakamega County,Kisumu County,Marsabit County,Mombasa County,Meru County,Vihiga County"
 },
 {
     "name": "Kubo",
@@ -2255,7 +1648,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1829516,1829773,1830040,Preah Vihear,1830098,1830194,1830205,1830338,1830377,1830467,1830468,1830564,1830783,1830784,1831112,1831125,1831133,1831142,1831167,1831173"
+  "b": "Preah Vihear"
 },
 {
     "name": "Kui Alor-Pantar",
@@ -2264,25 +1657,43 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1831732,1831797,1831898,1831940,8740221,11338545,11475247,11475280,2110257,Anjouan,921753,Grande Comore,921772,Moheli,921889,Saint Kitts and Nevis,Saint George Basseterre,3575551,Korea, Democratic People's Republic of,South Hwanghae"
+  "b": "Anjouan,Grande Comore,Moheli,Saint Kitts and Nevis,Saint George Basseterre,Korea,Democratic People's Republic of,South Hwanghae"
 },
 {
     "name": "Kula",
   "i": 2289,
   "min": 4,
   "max": 11,
-  "d": "rst",
+  "d": "lnrt",
   "m": 0,
-  "b": "2038854,North Hamgyong,2038902,2039589,2039623,Chagang,2040480,Rason,2040674,2040893,2040959,2041137,Yanggang-do,2041442,2041533,2041702,2042249,2042255,2042267,2042498"
+  "b": "North Hamgyong,Chagang,Rason,Yanggang-do"
+},
+{
+    "name": "Kuman",
+  "i": 2291,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Iwŏn-ŭp,Hyesan-dong,Hyesan,Hwadae,Hongwŏn,Hoeryŏng,Chunggang,Changam-ch’on,Aoji-ri"
 },
 {
     "name": "Kyaka",
   "i": 2303,
   "min": 4,
   "max": 11,
-  "d": "g",
+  "d": "lnrt",
   "m": 0,
-  "b": "Al Finţās,285812,285815,285839,Ad Dasmah,285856,Salwá,387958,Ar Rābiyah,388065,Şabāḩ as Sālim,Mubarak al Kabir,412800,West Bay,Cayman Islands,3580477,3580661,Zhanaozen,Mangystau,607610"
+  "b": "Al Finţās,Ad Dasmah,Salwá,Ar Rābiyah,Şabāḩ as Sālim,Mubarak al Kabir,West Bay,Cayman Islands,Zhanaozen,Mangystau"
+},
+{
+    "name": "Kelabit",
+  "i": 2308,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lao People's Democratic Republic,Vientiane Prefecture,Houaphan"
 },
 {
     "name": "Laua",
@@ -2291,7 +1702,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "12718650,Sangarébougou,12718651,Zigon,Bago Region,1283878,Zalun,Ayeyarwady,1284225,Ywar Ma West,1284569,Ye-u,Sagaing Region,1285002,1285094,Yenangyaung,1285173,Yedashe,1285457,1285606"
+  "b": "Sangarébougou,Zigon,Bago Region,Zalun,Ayeyarwady,Ywar Ma West,Ye-u,Sagaing Region,Yenangyaung,Yedashe"
 },
 {
     "name": "Lauje",
@@ -2300,61 +1711,61 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tangyan,1294547,1294761,Kone Ta La Paung,1294974,Taikkyi,1295087,Tachilek,1295301,1295395,1295765,1296536,1296614,Kachin State,1296645,1296736,1298482,1298824,1298911,Nay Pyi Taw"
+  "b": "Tangyan,Kone Ta La Paung,Taikkyi,Tachilek,Kachin State,Nay Pyi Taw"
 },
 {
-    "name": "Lembena",
-  "i": 2415,
-  "min": 4,
-  "max": 11,
-  "d": "k",
-  "m": 0,
-  "b": "1322148,1323815,1323949,1324385,1324494,1325211,1325259,1325443,1325814,1326703,1326951,1327659,1327854,1327995,1328121,1328218,1328421,1328865,1328872,1329221"
-},
-{
-    "name": "Light Warlpiri",
-  "i": 21102,
+    "name": "Tagalog",
+  "i": 2584,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Harrison,5098863,Hawthorne,5098909,5099079,5099093,5099133,Hopatcong Hills,5099292,Irvington,5099724,Iselin,5099738,5099836,Kearny,5099967,5100280,5100506,5100572,5100604"
+  "b": "Katutura,Helao Nafidi,South Province,Birnin Gaouré,Dosso Region,Tahoua Region"
+},
+{
+    "name": "Indonesian",
+  "i": 2585,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Zinder Region,Youri Kourtéré,Tillaberi Region,Torodi,Tibiri,Maradi Region"
+},
+{
+    "name": "Malay",
+  "i": 2586,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Méhana,Matamey,Gazaoua"
 },
 {
     "name": "Maori",
   "i": 2587,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "2445553,2445704,2446267,Baléyara,2447223,2447416,2447513,Alaghsas,2447938,2448024,2448085,2448245,2161314,Zuru,2317548,Zungeru,2317569,Kaduna State,2317765,2318044"
+  "b": "Baléyara,Alaghsas,Zuru,Zungeru,Kaduna State"
 },
 {
     "name": "Samoan",
   "i": 2588,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bayelsa State,2318123,Taraba State,2318921,2318933,2319133,Nasarawa State,2319257,Akwa Ibom State,2319480,Uromi,2319668,Abia State,2320576,Ughelli,2320829,Cross River State,2320831,2320920,2321031"
+  "b": "Bayelsa State,Taraba State,Nasarawa State,Akwa Ibom State,Uromi,Abia State,Ughelli,Cross River State"
 },
 {
     "name": "Fijian",
   "i": 2589,
   "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "2322263,2322495,Zamfara State,2322529,Benue State,2322552,2322733,2322794,2322911,2322957,2323090,Oyo State,2323390,Ogun State,2323411,2323675,2324504,2324575,Yobe State,2324767"
-},
-{
-    "name": "Awa",
-  "i": 2734,
-  "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1701472,1701500,1701516,1701537,1701668,1701692,1701872,1701947,1701966,1702002,1702032,1702077,1702096,1702263,1702372,1702413,1702425,1702442,1702540,1702649"
+  "b": "Zamfara State,Benue State,Oyo State,Ogun State,Yobe State"
 },
 {
     "name": "Awbono",
@@ -2363,16 +1774,7 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1702763,1702934,1703051,1703115,1703116,1703320,1703355,1703417,1703450,1703598,1703773,1704002,1704021,Magalang,1704067,1704271,1704703,1704758,1704781,1704968"
-},
-{
-    "name": "Awin",
-  "i": 2737,
-  "min": 4,
-  "max": 11,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1705190,1705357,1705367,1705440,1705536,1705572,1705771,1705871,1706090,1706188,1706361,1706393,1706402,1706609,1706684,1706889,1707049,1707123,1707174,1707267"
+  "b": "Magalang"
 },
 {
     "name": "Beami",
@@ -2381,628 +1783,367 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1707324,1707398,1707404,1707812,1708056,1708130,1708217,La Carlota,1708226,1708291,1708522,1708824,1709003,1709632,1709717,1709968,1710011,1710103,1710141,1710222"
+  "b": "La Carlota"
 },
 {
     "name": "Tongan",
   "i": 2744,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1711437,1711621,1711655,Himamaylan,1711718,Hermosa,1711829,Hagonoy,1711982,Guyong,1712051,Gumaca,1712162,Guiset East,1712232,Guimba,1712488,Guihulñgan,1712520,Guiguinto"
+  "b": "Himamaylan,Hermosa,Hagonoy,Guyong,Gumaca,Guiset East,Guimba,Guihulñgan,Guiguinto"
 },
 {
     "name": "Tahitian",
   "i": 2745,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1712531,Gubat,1712600,1712808,1712819,Gingoog,1712875,Gerona,1713004,General Trias,1713014,General Tinio,1713018,1713022,General Mamerto Natividad,1713027,General Emilio Aguinaldo,1713053,1713226,1713736"
+  "b": "Gubat,Gingoog,Gerona,General Trias,General Tinio,General Mamerto Natividad,General Emilio Aguinaldo"
 },
 {
     "name": "Marshallese",
   "i": 2746,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1713767,Escalante,1713818,Enrique B. Magalona,1713857,El Nido,1713917,Dupax del Sur,1714050,Dupax Del Norte,1714052,1714201,Don Carlos,1714441,Domalanoan,1714482,Dologon,1714519,1714674,Dinalupihan"
+  "b": "Escalante,Enrique B. Magalona,El Nido,Dupax del Sur,Dupax Del Norte,Don Carlos,Domalanoan,Dologon,Dinalupihan"
 },
 {
     "name": "Palauan",
   "i": 2747,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1714766,Dinaig,1714781,1714956,Diadi,1715094,Del Remedio,1715165,Del Pilar,1715169,1715348,1715430,Dapitan,1715542,1715804,1715812,Dagupan,1716198,1716287,Daanbantayan"
+  "b": "Dinaig,Diadi,Del Remedio,Del Pilar,Dapitan,Dagupan,Daanbantayan"
 },
 {
     "name": "Chamorro",
   "i": 2748,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1716388,Cupang,1716463,Culion,1716526,1716618,1716771,1716858,1716924,1716995,Concepcion Ibaba,1717008,1717051,1717053,1717512,Cavite City,1717641,1717911,Catarman,1717926"
+  "b": "Cupang,Culion,Concepcion Ibaba,Cavite City,Catarman"
 },
 {
     "name": "Kiribati",
   "i": 2749,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Catanauan,1717960,1718078,1718306,Cogan,1718328,1718393,1718426,1718436,1718722,1719053,1719274,1719329,1719683,1720034,1720052,1720151,1720402,1720464,1720472"
+  "b": "Catanauan,Cogan"
 },
 {
     "name": "Rarotongan",
   "i": 2750,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "1720499,1720508,1720561,1720681,1720751,1720793,1720840,1721077,1721080,1721168,1721281,1721636,1721695,1721906,1722005,1722032,1722186,Bustos,1722267,Boroon"
+  "b": "Bustos,Boroon"
+},
+{
+    "name": "Minkin",
+  "i": 20030,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Turgutreis,Sarigerme,Ataşehir,Başakşehir,Beylikdüzü,Büyükçekmece,Çankaya,Yakınca,Bahçelievler,Sultangazi"
+},
+{
+    "name": "Papuan",
+  "i": 21003,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Gage Park,Galesburg,Glen Ellyn,Glenview,Goodings Grove,Grand Boulevard,Grayslake,Gurnee,Hanover Park"
+},
+{
+    "name": "Benabena",
+  "i": 21007,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Melrose Park,Mokena,Moline,Morgan Park,Morton,Morton Grove,Mount Greenwood,Mount Prospect,Mundelein"
+},
+{
+    "name": "Kriol",
+  "i": 21008,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Naperville,Near North Side,Near South Side,New City,New Lenox,Niles,Normal,North Aurora,North Center,North Chicago"
+},
+{
+    "name": "Yolngu",
+  "i": 21009,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "North Lawndale,North Peoria,Northbrook,Oak Forest,Oak Lawn,Oak Park,Orland Park,Palatine,Palos Hills"
+},
+{
+    "name": "Wiradjuri",
+  "i": 21010,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Park Forest,Park Ridge,Pekin,Peoria"
+},
+{
+    "name": "Gamilaraay",
+  "i": 21011,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Urbana,Vernon Hills,Villa Park,Wasco"
+},
+{
+    "name": "Paakantyi",
+  "i": 21012,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Waukegan,West Chicago,West Elsdon,West Englewood,West Garfield Park,West Lawn,West Ridge,West Town,Westmont"
+},
+{
+    "name": "Wallisian",
+  "i": 21013,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Wheeling,Wilmette,Woodridge,Yorkville,Crawfordsville,Dyer,East Chicago"
+},
+{
+    "name": "Futunan",
+  "i": 21014,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Elkhart,Fort Wayne,Gary,Granger,Highland,Kokomo"
+},
+{
+    "name": "Tuvalu",
+  "i": 21015,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Logansport,Merrillville,Michigan City,Mishawaka,Muncie,Noblesville,Portage,Schererville"
+},
+{
+    "name": "Rejang",
+  "i": 21085,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Saco,South Portland,South Portland Gardens,West Scarborough,Westbrook,Adrian,Allen Park"
+},
+{
+    "name": "Bintulu",
+  "i": 21086,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Suva,Lautoka,Labasa,Sigatoka,Nadi,Levuka,Savusvu,Taveuni,Korolevu,Deuba"
+},
+{
+    "name": "Boazi",
+  "i": 21087,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "East Lansing,Eastpointe,Farmington Hills,Forest Hills,Garden City,Grand Rapids,Grandville,Grosse Pointe Woods,Hamtramck"
+},
+{
+    "name": "Boazi Lake Murray",
+  "i": 21088,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Haslett,Hazel Park,Holland,Holt,Jenison,Kalamazoo,Kentwood,Livonia"
+},
+{
+    "name": "Ginuman",
+  "i": 21089,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Madison Heights,Mount Clemens,Muskegon,Norton Shores,Novi,Okemos,Pontiac,Port Huron"
+},
+{
+    "name": "Chuave",
+  "i": 21090,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Redford,Rochester Hills,Romulus,Royal Oak,Southfield,Saint Clair Shores"
+},
+{
+    "name": "Ipiko",
+  "i": 21091,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Traverse City,Walker,Waverly,Wayne,Westland,Wyandotte,Wyoming,Ypsilanti"
+},
+{
+    "name": "Ipili",
+  "i": 21092,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Albert Lea,Minnesota,Anoka,Apple Valley,Blaine,Brooklyn Center,Brooklyn Park,Burnsville,Champlin"
+},
+{
+    "name": "Isabi",
+  "i": 21093,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Chanhassen,Chaska,Coon Rapids,Cottage Grove,Crystal,Eagan,Eden Prairie,Edina,Elk River"
+},
+{
+    "name": "Ambakich",
+  "i": 21097,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "White Bear Lake,Willmar,Winona,Kirksville,North Dakota,West Fargo,Bellevue,Nebraska,Fremont"
+},
+{
+    "name": "Ap Ma",
+  "i": 21098,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Grand Island,Kearney,La Vista,Omaha,Papillion,New Hampshire,Derry Village"
+},
+{
+    "name": "Asabano",
+  "i": 21099,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "East Concord,Keene,Merrimack,Nashua,Asbury Park,Avenel,Basking Ridge"
+},
+{
+    "name": "Bogaya",
+  "i": 21100,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bergenfield,Brick,Carteret,Cliffside Park,Cranford,Denville,Dumont"
+},
+{
+    "name": "Burmeso",
+  "i": 21101,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "East Brunswick,East Orange,Edison,Ewing,Fair Lawn,Fords,Fort Lee,Garfield"
+},
+{
+    "name": "Light Warlpiri",
+  "i": 21102,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Harrison,Hawthorne,Hopatcong Hills,Irvington,Iselin,Kearny"
+},
+{
+    "name": "Northern Luzon",
+  "i": 21119,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "New York City,Newburgh,North Amityville,North Babylon,North Bay Shore,North Bellmore"
+},
+{
+    "name": "Northern Mindoro",
+  "i": 21120,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "North Massapequa,North Valley Stream,Oceanside,Ossining,Ozone Park,Park Slope,Parkchester,Peekskill"
+},
+{
+    "name": "South Mindanao",
+  "i": 21121,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Plainview,Plattsburgh,Port Chester,Port Washington,Poughkeepsie,Queens Village,Queens,Queensbury,Rego Park"
+},
+{
+    "name": "Tsouic",
+  "i": 21122,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Rockville Centre,Ronkonkoma,Roosevelt,Rye,Sayville,Scarsdale"
+},
+{
+    "name": "Greater Central Philippine",
+  "i": 21123,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Ngerulmud,Melekeok,Ngchesar,Airai,Koror,Peleliu,Angaur,Sonsorol,Hatohobei"
+},
+{
+    "name": "Batanic",
+  "i": 21124,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Terrace Heights,Throgs Neck,Tremont,Uniondale"
 },
 {
     "name": "Pintupi",
   "i": 21126,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "5143396,5143620,5143630,5143832,5143866,5143992,5144040,5144336,5144400,5144580,5144736,5144975,5145028,5145034,5145067,5145215,5145476,5145607,5146055,Ashtabula"
-},
-{
-    "name": "Tok Pisin",
-  "i": 97969,
-  "min": 5,
-  "max": 15,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5513343,Whitney,5515110,5515345,5516233,Big Spring,5517061,5520076,5520552,5520677,5520993,5523074,Horizon City,5523369,Lubbock,5525577,5526337,5527554,5527953,5528450"
-},
-{
-    "name": "Hiri Motu",
-  "i": 97970,
-  "min": 5,
-  "max": 10,
-  "d": "b",
-  "m": 0,
-  "b": "5530022,5530932,Socorro Mission Number 1 Colonia,5530937,West Odessa,5533366,Cedar City,5536630,Hurricane,5540831,Saint George,5546220,5549222,5550368,5551123,Anthem,5551498,Apache Junction,5551535,5552301"
-},
-{
-    "name": "Chambri",
-  "i": 275,
-  "min": 5,
-  "max": 10,
-  "d": "rs",
-  "m": 0,
-  "b": "3458329,Luz,3458333,Lucélia,3458390,Lucas,3458397,Louveira,3458406,Lorena,3458425,3458449,Loanda,3458479,Livramento do Brumado,3458481,Lins,3458494,Linhares,3458498"
-},
-{
-    "name": "Iatm",
-  "i": 276,
-  "min": 5,
-  "max": 10,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Limeira,3458575,Lima Duarte,3458591,3458611,Leopoldina,3458632,Lençóis Paulista,3458645,Leme,3458662,Lavras,3458696,Laranjeiras do Sul,3458746,Laranjeiras,3458778,Laranjal Paulista,3458786,Lapão"
-},
-{
-    "name": "Angal",
-  "i": 97971,
-  "min": 5,
-  "max": 10,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Ahwatukee Foothills,5552450,5554072,Arcata,5558953,5559320,5563397,McKinleyville,5567770,Redding,5570160,Susanville,5572400,5574991,5576859,5576909,Fort Collins,5577147,Greeley,5577592"
-},
-{
-    "name": "Melpa",
-  "i": 97972,
-  "min": 5,
-  "max": 10,
-  "d": "delo",
-  "m": 0,
-  "b": "Longmont,5579276,Loveland,5579368,5583509,Boise,5586437,Caldwell,5587698,Coeur d'Alene,5589173,5589394,5591778,5596475,5597955,5598538,Lewiston Orchards,5598542,5600685,5601538"
-},
-{
-    "name": "Kewa",
-  "i": 97973,
-  "min": 5,
-  "max": 10,
-  "d": "l",
-  "m": 0,
-  "b": "Nampa,5601933,Pocatello,5604045,Post Falls,5604353,Rexburg,5605242,5610810,5640350,Bozeman,5641727,Butte,5642934,5655240,5656882,Kalispell,5660340,Missoula,5666639"
-},
-{
-    "name": "Huli",
-  "i": 97974,
-  "min": 5,
-  "max": 10,
-  "d": "lst",
-  "m": 0,
-  "b": "5688025,5688789,5690366,Minot,5690532,5692947,5697939,5703670,5710756,5711099,5711149,5711789,5713376,5713587,5713759,5717758,5718601,5720495,5720727,5722064"
-},
-{
-    "name": "Asaro",
-  "i": 97976,
-  "min": 5,
-  "max": 10,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Eugene,5725846,5727190,5727382,5729080,Gresham,5729485,5730183,5730675,5731070,5731371,5734711,5735238,5735724,5736218,Lents,5736378,McMinnville,5739936,5740099"
-},
-{
-    "name": "Kaluli",
-  "i": 97977,
-  "min": 5,
-  "max": 10,
-  "d": "ln",
-  "m": 0,
-  "b": "Milwaukie,5740900,Newberg,5742726,Oak Grove,5743731,Oregon City,5744253,Pendleton,5745380,5746545,Redmond,5747882,Roseburg,5749352,5750162,5751632,5754005,The Dalles,5756304"
-},
-{
-    "name": "Mekeo",
-  "i": 97978,
-  "min": 5,
-  "max": 10,
-  "d": "l",
-  "m": 0,
-  "b": "Tigard,5756758,Troutdale,5757477,Tualatin,5757506,West Linn,5760009,Wilsonville,5761287,Woodburn,5761708,5768233,Bountiful,5771826,Brigham City,5771960,5772654,Clearfield,5772959"
-},
-{
-    "name": "Koita",
-  "i": 97979,
-  "min": 5,
-  "max": 10,
-  "d": "lno",
-  "m": 0,
-  "b": "5773001,Cottonwood Heights,5773304,Draper,5774001,Eagle Mountain,5774215,East Millcreek,5774301,5774662,Herriman,5775782,5775863,Holladay,5776008,Kaysville,5776715,Kearns,5776727,Layton"
-},
-{
-    "name": "Arrernte",
-  "i": 97982,
-  "min": 10,
-  "max": 25,
-  "d": "elort",
-  "m": 0,
-  "b": "5777107,Lehi,5777224,5777544,Magna,5777793,Midvale,5778244,Millcreek,5778352,5778755,North Ogden,5779036,North Salt Lake,5779068,Ogden,5779206,Orem,5779334,5779548"
-},
-{
-    "name": "Warlpiri",
-  "i": 97983,
-  "min": 10,
-  "max": 25,
-  "d": "el",
-  "m": 0,
-  "b": "Pleasant Grove,5779816,Provo,5780026,Riverton,5780557,Roy,5780802,5780993,Sandy,5781061,Sandy Hills,5781070,5781087,South Jordan Heights,5781765,South Jordan,5781770,South Ogden,5781783"
-},
-{
-    "name": "Pitjantjatjara",
-  "i": 97984,
-  "min": 10,
-  "max": 25,
-  "d": "l",
-  "m": 0,
-  "b": "South Salt Lake,5781794,Spanish Fork,5781860,Springville,5781993,5782391,Taylorsville,5782476,Tooele,5783695,5784549,5784607,5785243,Anacortes,5785657,5785868,5785965,Battle Ground,5786485"
-},
-{
-    "name": "Yolŋu",
-  "i": 97985,
-  "min": 10,
-  "max": 25,
-  "d": "lot",
-  "m": 0,
-  "b": "5786882,5786899,Bonney Lake,5787776,Bothell,5787829,Bremerton,5788054,Burien,5788516,5788822,Centralia,5789683,Columbia City,5790600,Cottage Lake,5790971,5791159,5792244,5793427"
-},
-{
-    "name": "Miriwoong",
-  "i": 97986,
-  "min": 10,
-  "max": 20,
-  "d": "lnt",
-  "m": 0,
-  "b": "Ellensburg,5793639,5793933,Fairwood,5794097,Federal Way,5794245,Five Corners,5794559,Frederickson,5795011,5795906,Hazel Dell,5796984,Issaquah,5798487,5799587,Kennewick,5799610,5799625"
-},
-{
-    "name": "Gooniyandi",
-  "i": 97987,
-  "min": 10,
-  "max": 20,
-  "d": "lnos",
-  "m": 0,
-  "b": "5799841,Lacey,5800112,Lake Stevens,5800317,5800420,5801617,Lynnwood,5802049,Maple Valley,5802340,Martha Lake,5802493,5802570,Mercer Island,5803139,5803457,5803786,Moses Lake,5803990"
-},
-{
-    "name": "Walmajarri",
-  "i": 97988,
-  "min": 10,
-  "max": 20,
-  "d": "lno",
-  "m": 0,
-  "b": "5804127,Mountlake Terrace,5804191,Mukilteo,5804306,North Creek,5804953,Oak Harbor,5805441,5805687,Opportunity,5805782,Orchards,5805815,5806253,5806298,Port Angeles,5807212,Pullman,5807540"
-},
-{
-    "name": "Bunuba",
-  "i": 97989,
-  "min": 10,
-  "max": 20,
-  "d": "elpr",
-  "m": 0,
-  "b": "Puyallup,5807575,5808079,Renton,5808189,Richland,5808276,Salmon Creek,5809333,Sammamish,5809402,SeaTac,5809805,5809844,Shoreline,5810301,Silverdale,5810490,5811456,Spanaway"
-},
-{
-    "name": "Hawaiian",
-  "i": 301,
-  "min": 10,
-  "max": 30,
-  "d": "elm",
-  "m": 0,
-  "b": "3461677,3461724,Guaxupé,3461763,3461786,Guarujá,3461789,Guariba,3461824,Guareí,3461830,Guaratuba,3461857,Guaratinguetá,3461859,Guaratinga,3461860,Guararema,3461871,Guararapes"
-},
-{
-    "name": "Niuean",
-  "i": 97994,
-  "min": 10,
-  "max": 20,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5811581,5811696,Spokane Valley,5811729,5812604,Tacoma,5812944,Tukwila,5814043,Tumwater,5814095,University Place,5814450,5814616,Walla Walla,5814916,Washougal,5815136,Wenatchee,5815342"
-},
-{
-    "name": "Anindilyakwa",
-  "i": 305,
-  "min": 10,
-  "max": 20,
-  "d": "el",
-  "m": 0,
-  "b": "3462374,Goianira,3462376,3462377,Goianésia,3462378,Giruá,3462419,Getúlio Vargas,3462439,Gaspar,3462535,Garuva,3462536,3462549,3462557,3462580,3462601,3462672,3462759"
-},
-{
-    "name": "Gunwinggu",
-  "i": 306,
-  "min": 10,
-  "max": 25,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3462882,3462916,3462956,3462964,3462975,3462980,3462986,3462996,3463011,3463030,3463066,3463122,3463124,3463140,3463174,3463237,3463271,3463350,3463422,Fernandópolis"
-},
-{
-    "name": "Murrinhpatha",
-  "i": 97996,
-  "min": 10,
-  "max": 20,
-  "d": "lnrt",
-  "m": 0,
-  "b": "West Lake Sammamish,5815538,West Lake Stevens,5815539,Bainbridge Island,5816320,Yakima,5816605,Casper,5820705,5821086,Gillette,5826027,Laramie,5830062,Rock Springs,5836898,Sheridan,5838198,American Fork"
-},
-{
-    "name": "Kriol",
-  "i": 21008,
-  "min": 10,
-  "max": 25,
-  "d": "lmt",
-  "m": 0,
-  "b": "Naperville,4903279,Near North Side,4903360,Near South Side,4903363,New City,4903466,New Lenox,4903535,Niles,4903730,Normal,4903780,North Aurora,4903818,North Center,4903858,North Chicago,4903862"
-},
-{
-    "name": "Yolngu",
-  "i": 21009,
-  "min": 10,
-  "max": 25,
-  "d": "l",
-  "m": 0,
-  "b": "North Lawndale,4903940,North Peoria,4903976,Northbrook,4904056,Oak Forest,4904286,Oak Lawn,4904365,Oak Park,4904381,Orland Park,4904937,4904996,4905006,Palatine,4905211,Palos Hills,4905263"
-},
-{
-    "name": "Wiradjuri",
-  "i": 21010,
-  "min": 10,
-  "max": 25,
-  "d": "lo",
-  "m": 0,
-  "b": "Park Forest,4905337,Park Ridge,4905367,Pekin,4905599,Peoria,4905687,4906125,4906500,4906882,4907907,4907959,4908033,4908052,4908068,4908173,4908236,4908237,4908737"
-},
-{
-    "name": "Gamilaraay",
-  "i": 21011,
-  "min": 10,
-  "max": 20,
-  "d": "lnrt",
-  "m": 0,
-  "b": "4910713,4911418,4911600,4911863,4911893,4911934,4911951,4912013,4912499,4912691,4913110,4913723,4914557,Urbana,4914570,Vernon Hills,4914738,Villa Park,4914830,Wasco"
-},
-{
-    "name": "Kamilaroi",
-  "i": 97997,
-  "min": 10,
-  "max": 20,
-  "d": "l",
-  "m": 0,
-  "b": "5844096,5847411,5847486,Kaimukī,5847530,Kalihi-Palama,5847832,5848189,Diamond Head / Kapahulu / Saint Louis Heights,5848322,5849297,Makakilo City,5850554,Mililani Town,5851030,Mō‘ili‘ili,5851096,Niu Valley,5851484,5852275"
-},
-{
-    "name": "Paakantyi",
-  "i": 21012,
-  "min": 10,
-  "max": 20,
-  "d": "l",
-  "m": 0,
-  "b": "4915539,4915545,Waukegan,4915734,West Chicago,4915963,West Elsdon,4915987,West Englewood,4915989,West Garfield Park,4916003,West Lawn,4916028,West Ridge,4916079,West Town,4916118,4916140,Westmont"
-},
-{
-    "name": "Wallisian",
-  "i": 21013,
-  "min": 10,
-  "max": 20,
-  "d": "o",
-  "m": 0,
-  "b": "4916207,4916288,Wheeling,4916311,Wilmette,4916732,4917067,Woodridge,4917089,4917123,Yorkville,4917298,4917358,4917592,Crawfordsville,4919381,4919451,Dyer,4919820,East Chicago"
-},
-{
-    "name": "Futunan",
-  "i": 21014,
-  "min": 10,
-  "max": 20,
-  "d": "elot",
-  "m": 0,
-  "b": "4919857,Elkhart,4919987,Fort Wayne,4920423,4920473,Gary,4920607,4920808,Granger,4920869,4920986,4921100,Highland,4921402,4921476,4921725,Kokomo,4922388,4922462"
-},
-{
-    "name": "Chuukese",
-  "i": 98000,
-  "min": 10,
-  "max": 25,
-  "d": "lnrt",
-  "m": 0,
-  "b": "5853992,Waikīkī,5854380,5854496,5854686,5855051,‘Ewa Gentry,5855070,Hawai‘i Kai,5855754,5855927,5856195,5861187,5861897,5879400,5879898,6331908,6331909,6332309,6332419"
-},
-{
-    "name": "Pohnpeian",
-  "i": 319,
-  "min": 10,
-  "max": 20,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Charqueada,3466267,3466296,Chapada dos Guimarães,3466307,3466325,Cesário Lange,3466351,Cerro Azul,3466405,Cerquilho,3466429,Cerqueira César,3466430,Ceres,3466436,3466469,Ceilândia,3466489,3466537"
-},
-{
-    "name": "Yapese",
-  "i": 98001,
-  "min": 10,
-  "max": 20,
-  "d": "r",
-  "m": 0,
-  "b": "6332422,6332428,6332439,6332479,6332582,6332745,6640032,6690773,6930378,6941080,6946944,6957263,7147568,7160204,City of Sammamish,7174365,Silver Firs,7176035,Vineyard,7176039"
-},
-{
-    "name": "Tuvalu",
-  "i": 21015,
-  "min": 10,
-  "max": 20,
-  "d": "m",
-  "m": 0,
-  "b": "4922673,Logansport,4922968,4923210,Merrillville,4923482,Michigan City,4923531,Mishawaka,4923670,Muncie,4924006,4924014,4924104,Noblesville,4924198,Portage,4925006,Schererville,4926170"
-},
-{
-    "name": "Nauru",
-  "i": 98003,
-  "min": 10,
-  "max": 20,
-  "d": "lr",
-  "m": 0,
-  "b": "Gramercy Park,7184841,Kew Gardens Hills,7250691,Wallingford Center,7257422,7257540,North Attleborough Center,7257726,Bel Air North,7257991,Bel Air South,7257992,Mercerville-Hamilton Square,7258271,Oxon Hill-Glassmanor,7258432,Gates-North Gates,7258633,Greater Upper Marlboro"
-},
-{
-    "name": "Bislama",
-  "i": 98004,
-  "min": 10,
-  "max": 20,
-  "d": "lpst",
-  "m": 0,
-  "b": "7258671,West Falls Church,7258780,Lanham-Seabrook,7258832,Lutherville-Timonium,7258897,Setauket-East Setauket,7258965,7259034,Suitland-Silver Hill,7259061,Fort Leonard Wood,7259265,Saginaw Township North,7259480,West Bloomfield Township,7259621,East Lake-Orient Park,7259705"
-},
-{
-    "name": "Anejom",
-  "i": 98005,
-  "min": 10,
-  "max": 20,
-  "d": "lo",
-  "m": 0,
-  "b": "7259780,Greater Northdale,7259823,Candler-McAfee,7260019,Sandalfoot Cove,7260095,University,7260219,Vero Beach South,7260233,Kendall West,7260327,Palm River-Clair Mel,7260548,Arden-Arcade,7260806,Bryn Mawr-Skyway,7260966,Casa de Oro-Mount Helix"
-},
-{
-    "name": "Lenakel",
-  "i": 98006,
-  "min": 10,
-  "max": 20,
-  "d": "elo",
-  "m": 0,
-  "b": "7261029,Florence-Graham,7261268,Fort Cavazos,7261291,Inglewood-Finn Hill,7261476,La Crescenta-Montrose,7261553,East Hill-Meridian,7261759,Picnic Point-North Lynnwood,7262110,Security-Widefield,7262349,Union Hill-Novelty Hill,7262428,7262464,West Whittier-Los Nietos,7262518"
-},
-{
-    "name": "Kwamera",
-  "i": 98007,
-  "min": 10,
-  "max": 20,
-  "d": "lnot",
-  "m": 0,
-  "b": "Summerlin South,7262622,Makakilo,7262761,Schofield Barracks,7262790,Tri-Cities,7289169,San Tan Valley,7310164,Midway,7315234,Oakleaf Plantation,7315237,East Honolulu,7315245,Old Jamestown,7315274,Bothell West,7315409"
-},
-{
-    "name": "Nengone",
-  "i": 98008,
-  "min": 10,
-  "max": 20,
-  "d": "lmr",
-  "m": 0,
-  "b": "Eastmont,7315412,Mill Creek East,7315418,Enchanted Hills,7839240,West Hills,8030162,Detroit-Shoreway,8062662,Clark-Fulton,8062667,The Acreage,8096113,Eastvale,8096217,Oak Hill,8097131,Bridgewater,8299576"
-},
-{
-    "name": "Drehu",
-  "i": 98009,
-  "min": 10,
-  "max": 20,
-  "d": "el",
-  "m": 0,
-  "b": "Warren Township,8299577,Fairfield Heights,8347326,Chicago Loop,8436065,Greater Grand Crossing,8436083,Auburn Gresham,8436084,Financial District,8436473,Sunset Park,8436486,South Kingstown,8436572,Parkside,8449754,Noe Valley,8449772"
-},
-{
-    "name": "Xârâcùù",
-  "i": 98010,
-  "min": 10,
-  "max": 20,
-  "d": "lors",
-  "m": 0,
-  "b": "Visitacion Valley,8449777,8449910,8469295,8478941,Northdale,8479411,8480031,Meadowbrook,8480062,8531960,Fenway/Kenmore,8532040,Mission Hill,8532041,8604682,Dixiana,8605041,Cranberry Township,8643098"
-},
-{
-    "name": "Jawe",
-  "i": 98011,
-  "min": 10,
-  "max": 20,
-  "d": "lors",
-  "m": 0,
-  "b": "Kuliouou - Kalani Iki,9403721,Manoa,9409821,Makiki / Lower Punchbowl / Tantalus,9409823,Kalihi Valley,9534958,Center City,9958118,Silver Lake,10104153,Echo Park,10104154,Ala Moana - Kakaʻako,10172958,Joint Base Pearl Harbor Hickam,10173805,McCully - Moiliili,10173811"
-},
-{
-    "name": "Hinukh",
-  "i": 98012,
-  "min": 10,
-  "max": 20,
-  "d": "cil",
-  "m": 0,
-  "b": "Nuuanu - Punchbowl,10286555,Liliha - Kapalama,11071594,11704266,Stonecrest,11748973,Cortlandt Manor,11811570,Valley Glen,11838960,Encanto,11979227,Central City,11979238,11979894,Bayview-Hunters Point,12217929,South Fulton,12541728"
-},
-{
-    "name": "Lau",
-  "i": 98013,
-  "min": 10,
-  "max": 20,
-  "d": "lu",
-  "m": 0,
-  "b": "12750392,Westpark,12750396,UC Irvine,12750398,El Camino Real,12750403,Stonegate,12750405,Northwood,12750406,Tustin Legacy,12750416,Aliamanu / Salt Lakes / Foster Village,13100433,Mililani Mauka / Launani Valley,13100434,Koolauloa,13100438,Makakilo / Kapolei / Honokai Hale"
-},
-{
-    "name": "Hawaiian Pidgin",
-  "i": 98014,
-  "min": 4,
-  "max": 15,
-  "d": "lo",
-  "m": 0,
-  "b": "13100439,Vermont Square,13157324,Mid-City,13157343,Lower Moyamensing,13308200,Capitol Riverfront,13526886,Central 14th Street / Spring Road,13526888,Downtown DC,13526890,Golden Triangle,13526893,H Street NE,13526894,Kennedy Street,13526895,Mount Vernon Triangle"
-},
-{
-    "name": "Pijin",
-  "i": 98015,
-  "min": 4,
-  "max": 12,
-  "d": "en",
-  "m": 0,
-  "b": "13526896,NoMa,13526897,Northwest One,13526898,Southwest Waterfront,13526900,The Trails of Frisco,13561794,Longfellow Community,13562032,Airport,13589156,Dakota Ridge,13607888,Uruguay,Rio Negro Department,3439525,Flores Department,3439748"
-},
-{
-    "name": "Rotuman",
-  "i": 98016,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Treinta y Tres Department,3439781,Tacuarembo Department,3440034,3440571,San José de Mayo,San Jose Department,3440639,3440696,Salto Department,3440714,Rocha Department,3440777,Rivera Department,3440781,3440963,Paysandu Department,3441243,Paso de Carrasco,3441292"
-},
-{
-    "name": "Norfuk",
-  "i": 98017,
-  "min": 4,
-  "max": 12,
-  "d": "r",
-  "m": 0,
-  "b": "3441354,Montevideo Department,3441575,3441665,3441684,3441702,3441894,3442057,3442098,Fray Bentos,3442568,3442585,Durazno Department,3442727,3442750,Delta del Tigre,3442778,Colonia del Sacramento,3443013,Carmelo"
-},
-{
-    "name": "Bardi",
-  "i": 98018,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3443341,3443413,3443758,Barros Blancos,10098279,Karakalpakstan,601294,Qŭnghirot,601323,Xo‘jayli Shahri,601339,Oltinko‘l,601417,Zomin Shaharchasi,Jizzakh Region,1215694,Urgut Shahri,Samarqand Region,1215839,Tirmiz"
-},
-{
-    "name": "Bundjalung",
-  "i": 340,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "3471335,3471368,Assis,3471374,Arujá,3471393,Artur Nogueira,3471395,Arroio Grande,3471422,Balneário Arroio do Silva,3471427,Arroio do Meio,3471428,Arraial do Cabo,3471451,Armação dos Búzios,3471487,Arinos,3471522"
-},
-{
-    "name": "Gurindji",
-  "i": 98019,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Surxondaryo Region,1215957,Sho‘rchi,1216115,Qashqadaryo,1216187,1216265,1216311,Muborak,1216475,Kitob,1216787,Kattaqo’rg’on Shahri,1216982,Koson,1217007,Karakul’,1217084,Kogon Shahri,1217180"
-},
-{
-    "name": "Guugu Yimidhirr",
-  "i": 98020,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "G‘uzor,1217262,Juma Shahri,1217362,Denov,1217474,Chiroqchi,1217540,Chelak,1217569,Bulung’ur Shahri,1217658,1217662,Beshkent,1217703,Boysun,1217734,Oqtosh,1217926,Zafar"
-},
-{
-    "name": "Noongar",
-  "i": 98021,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Tashkent Region,1512287,Yunusobod,1512296,Yaypan,1512320,Yangiyŭl,1512339,Yangiyer,Sirdaryo Region,1512342,Yangirabot,Navoiy Region,1512348,Yangiqo‘rg‘on,1512350,Yangiobod,1512372,Vobkent Shahri,1512423"
-},
-{
-    "name": "Asmat",
-  "i": 98022,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Uychi,1512449,Urganch,Xorazm Region,1512473,Dashtobod,1512480,Uchqŭrghon Shahri,1512501,Uchkuduk,1512506,Tŭytepa,1512524,To‘rqao‘rg‘on,1512549,Toshloq,1512568,1512569,Toshbuloq,1512658"
-},
-{
-    "name": "Kokoda",
-  "i": 98023,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "Sirdaryo,1512770,Shovot,1512790,Shahrixon,Andijan Region,1512832,Shofirkon Shahri,1512838,Salor,1512934,Rishton,1512955,Qo’shko’pir,1512978,Qo‘qon,1512979,Piskent,1512986,Poytug‘"
-},
-{
-    "name": "Maisin",
-  "i": 98024,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1513010,Payshamba Shahri,1513011,Parkent,1513017,Pop,1513023,Paxtakor Shahri,1513038,Paxtaobod,1513040,Olmaliq,1513064,Ohangaron,1513072,Nurota,1513087,Novyy Turtkul’,1513092,1513131"
-},
-{
-    "name": "Motu",
-  "i": 98025,
-  "min": 4,
-  "max": 12,
-  "d": "lnrt",
-  "m": 0,
-  "b": "1513157,Marg‘ilon,1513243,Manghit,1513245,1513271,Quvasoy,1513331,Qo‘rg‘ontepa,1513364,Kirguli,1513555,Qibray,1513567,Xonobod,1513578,Xo‘jaobod,1513600,Xiva,1513604"
+  "b": "Ashtabula"
 },
 {
     "name": "Tok Pisin (Papua Coastal)",
@@ -3011,16 +2152,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "5162097,5162188,5162512,5162645,5162851,5163799,5164390,5164466,5164582,5164706,5164862,5164903,5164916,5165101,5165734,Painesville,5166009,5166177,5166184,5166516"
+  "b": "Painesville"
 },
 {
     "name": "Hiri Motu (Port Moresby Villages)",
   "i": 22004,
   "min": 4,
   "max": 11,
-  "d": "l",
+  "d": "lnrt",
   "m": 0,
-  "b": "5166819,5168491,Sandusky,5170691,Shaker Heights,5171728,Sidney,5172078,5172387,South Euclid,5172485,Steubenville,5173048,Stow,5173171,Streetsboro,5173210,Strongsville,5173237,Sylvania"
+  "b": "Sandusky,Shaker Heights,Sidney,South Euclid,Steubenville,Stow,Streetsboro,Strongsville,Sylvania"
 },
 {
     "name": "Hawaiian (Oahu Neighbor Islands)",
@@ -3029,16 +2170,16 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "5173572,Tallmadge,5173623,Tiffin,5173930,5174035,5174358,Twinsburg,5174550,Wadsworth,5175496,5175865,Westerville,5176472,Westlake,5176517,5176937,Wooster,5177358,5177568"
+  "b": "Tallmadge,Tiffin,Twinsburg,Wadsworth,Westerville,Westlake,Wooster"
 },
 {
     "name": "Huli (Tari Region)",
   "i": 23008,
   "min": 4,
   "max": 11,
-  "d": "flo",
+  "d": "lnrt",
   "m": 0,
-  "b": "5265838,5267403,5268249,5268986,5272893,5273812,5274644,5275020,Superior,5275191,5278005,Waukesha,5278052,Wausau,5278120,Wauwatosa,5278159,West Allis,5278420,West Bend"
+  "b": "Superior,Waukesha,Wausau,Wauwatosa,West Allis,West Bend"
 },
 {
     "name": "Hawaiian (Island Cities)",
@@ -3047,24 +2188,509 @@ window.oceaniaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "5278422,5278693,Wisconsin Rapids,5279436,Weirton,5280814,Weirton Heights,5280822,5280854,Ansonia,5281551,5281730,5282526,5282804,5282835,Branford,5283054,Cheshire,5283837,Fillmore"
+  "b": "Wisconsin Rapids,Weirton,Weirton Heights,Ansonia,Branford,Cheshire,Fillmore"
 },
 {
     "name": "Kewa (Southern Highlands Core)",
   "i": 23010,
   "min": 4,
   "max": 11,
-  "d": "l",
+  "d": "lnrt",
   "m": 0,
-  "b": "5284756,Buckeye,5287262,5287565,Casa Grande,5288636,Casas Adobes,5288661,Catalina Foothills,5288786,Chandler,5289282,Deer Valley,5292387,5293083,Drexel Heights,5293183,El Mirage,5293996,Eloy"
-}
-,
+  "b": "Buckeye,Casa Grande,Casas Adobes,Catalina Foothills,Chandler,Deer Valley,Drexel Heights,El Mirage,Eloy"
+},
+{
+    "name": "Aimele",
+  "i": 50023,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lennox,Linda,Livermore,Loma Linda,Lomita,Lompoc,Los Altos,Los Banos"
+},
+{
+    "name": "Arafundi-Enga Pidgin",
+  "i": 50024,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Los Gatos,Lynwood,Manhattan Beach,Manteca,Marina,Mead Valley,Menifee,Menlo Park"
+},
+{
+    "name": "Aneme-Wake",
+  "i": 50026,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Merced,Millbrae,Milpitas,Jurupa Valley,Mira Mesa,Mission District,Mission Viejo,Modesto,Montebello"
+},
+{
+    "name": "Fuyug",
+  "i": 50028,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Newport Beach,Nipomo,Norco,North Highlands,North Hollywood,Northridge,Novato,Oakley"
+},
+{
+    "name": "Tokelauan",
+  "i": 97905,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Highlands Ranch,Ken Caryl,Littleton,Montrose,Northglenn,Pueblo,Pueblo West,Sherrelwood"
+},
+{
+    "name": "Nauruan",
+  "i": 97906,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Southglenn,Wheat Ridge,Dodge City,Liberal,Alamogordo,Hobbs"
+},
+{
+    "name": "Tuvaluan",
+  "i": 97908,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tarawa,Betio,Bairiki,Bikenibeu,Eita,Tabiteuea,Abemama,Makin,Nonouti,Aranuka"
+},
+{
+    "name": "Amis",
+  "i": 97939,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Funafuti,Funafala,Asau,Savea,Fale,Apalolo,Vaipoa,Malo,Fenua,Fakaifou"
+},
+{
+    "name": "Tok Pisin",
+  "i": 97969,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Whitney,Big Spring,Horizon City,Lubbock"
+},
+{
+    "name": "Hiri Motu",
+  "i": 97970,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Socorro Mission Number 1 Colonia,West Odessa,Cedar City,Hurricane,Saint George,Anthem,Apache Junction"
+},
+{
+    "name": "Angal",
+  "i": 97971,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Ahwatukee Foothills,Arcata,McKinleyville,Redding,Susanville,Fort Collins,Greeley"
+},
+{
+    "name": "Melpa",
+  "i": 97972,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Longmont,Loveland,Boise,Caldwell,Coeur d'Alene,Lewiston Orchards"
+},
+{
+    "name": "Kewa",
+  "i": 97973,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Nampa,Pocatello,Post Falls,Rexburg,Bozeman,Butte,Kalispell,Missoula"
+},
+{
+    "name": "Huli",
+  "i": 97974,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Minot"
+},
+{
+    "name": "Asaro",
+  "i": 97976,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Eugene,Gresham,Lents,McMinnville"
+},
+{
+    "name": "Kaluli",
+  "i": 97977,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Milwaukie,Newberg,Oak Grove,Oregon City,Pendleton,Redmond,Roseburg,The Dalles"
+},
+{
+    "name": "Mekeo",
+  "i": 97978,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tigard,Troutdale,Tualatin,West Linn,Wilsonville,Woodburn,Bountiful,Brigham City,Clearfield"
+},
+{
+    "name": "Koita",
+  "i": 97979,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Cottonwood Heights,Draper,Eagle Mountain,East Millcreek,Herriman,Holladay,Kaysville,Kearns,Layton"
+},
+{
+    "name": "Arrernte",
+  "i": 97982,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lehi,Magna,Midvale,Millcreek,North Ogden,North Salt Lake,Ogden,Orem"
+},
+{
+    "name": "Warlpiri",
+  "i": 97983,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Pleasant Grove,Provo,Riverton,Roy,Sandy,Sandy Hills,South Jordan Heights,South Jordan,South Ogden"
+},
+{
+    "name": "Pitjantjatjara",
+  "i": 97984,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "South Salt Lake,Spanish Fork,Springville,Taylorsville,Tooele,Anacortes,Battle Ground"
+},
+{
+    "name": "Yolŋu",
+  "i": 97985,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bonney Lake,Bothell,Bremerton,Burien,Centralia,Columbia City,Cottage Lake"
+},
+{
+    "name": "Miriwoong",
+  "i": 97986,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Ellensburg,Fairwood,Federal Way,Five Corners,Frederickson,Hazel Dell,Issaquah,Kennewick"
+},
+{
+    "name": "Gooniyandi",
+  "i": 97987,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lacey,Lake Stevens,Lynnwood,Maple Valley,Martha Lake,Mercer Island,Moses Lake"
+},
+{
+    "name": "Walmajarri",
+  "i": 97988,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mountlake Terrace,Mukilteo,North Creek,Oak Harbor,Opportunity,Orchards,Port Angeles,Pullman"
+},
+{
+    "name": "Bunuba",
+  "i": 97989,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Puyallup,Renton,Richland,Salmon Creek,Sammamish,SeaTac,Shoreline,Silverdale,Spanaway"
+},
+{
+    "name": "Niuean",
+  "i": 97994,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Spokane Valley,Tacoma,Tukwila,Tumwater,University Place,Walla Walla,Washougal,Wenatchee"
+},
+{
+    "name": "Murrinhpatha",
+  "i": 97996,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "West Lake Sammamish,West Lake Stevens,Bainbridge Island,Yakima,Casper,Gillette,Laramie,Rock Springs,Sheridan,American Fork"
+},
+{
+    "name": "Kamilaroi",
+  "i": 97997,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kaimukī,Kalihi-Palama,Diamond Head / Kapahulu / Saint Louis Heights,Makakilo City,Mililani Town,Mō‘ili‘ili,Niu Valley"
+},
+{
+    "name": "Chuukese",
+  "i": 98000,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Waikīkī,‘Ewa Gentry,Hawai‘i Kai"
+},
+{
+    "name": "Yapese",
+  "i": 98001,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "City of Sammamish,Silver Firs,Vineyard"
+},
+{
+    "name": "Nauru",
+  "i": 98003,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Gramercy Park,Kew Gardens Hills,Wallingford Center,North Attleborough Center,Bel Air North,Bel Air South,Mercerville-Hamilton Square,Oxon Hill-Glassmanor,Gates-North Gates,Greater Upper Marlboro"
+},
+{
+    "name": "Bislama",
+  "i": 98004,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "West Falls Church,Lanham-Seabrook,Lutherville-Timonium,Setauket-East Setauket,Suitland-Silver Hill,Fort Leonard Wood,Saginaw Township North,West Bloomfield Township,East Lake-Orient Park"
+},
+{
+    "name": "Anejom",
+  "i": 98005,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Greater Northdale,Candler-McAfee,Sandalfoot Cove,University,Vero Beach South,Kendall West,Palm River-Clair Mel,Arden-Arcade,Bryn Mawr-Skyway,Casa de Oro-Mount Helix"
+},
+{
+    "name": "Lenakel",
+  "i": 98006,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Florence-Graham,Fort Cavazos,Inglewood-Finn Hill,La Crescenta-Montrose,East Hill-Meridian,Picnic Point-North Lynnwood,Security-Widefield,Union Hill-Novelty Hill,West Whittier-Los Nietos"
+},
+{
+    "name": "Kwamera",
+  "i": 98007,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Summerlin South,Makakilo,Schofield Barracks,Tri-Cities,San Tan Valley,Midway,Oakleaf Plantation,East Honolulu,Old Jamestown,Bothell West"
+},
+{
+    "name": "Nengone",
+  "i": 98008,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Eastmont,Mill Creek East,Enchanted Hills,West Hills,Detroit-Shoreway,Clark-Fulton,The Acreage,Eastvale,Oak Hill,Bridgewater"
+},
+{
+    "name": "Drehu",
+  "i": 98009,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Palikir,Kolonia,Weno,Truk,Pohnpei,Kosrae,Yap,Colonia,Chuuk,Mokil"
+},
+{
+    "name": "Xârâcùù",
+  "i": 98010,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Visitacion Valley,Northdale,Meadowbrook,Fenway/Kenmore,Mission Hill,Dixiana,Cranberry Township"
+},
+{
+    "name": "Jawe",
+  "i": 98011,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kuliouou - Kalani Iki,Manoa,Makiki / Lower Punchbowl / Tantalus,Kalihi Valley,Center City,Silver Lake,Echo Park,Ala Moana - Kakaʻako,Joint Base Pearl Harbor Hickam,McCully - Moiliili"
+},
+{
+    "name": "Hinukh",
+  "i": 98012,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Nuuanu - Punchbowl,Liliha - Kapalama,Stonecrest,Cortlandt Manor,Valley Glen,Encanto,Central City,Bayview-Hunters Point,South Fulton"
+},
+{
+    "name": "Lau",
+  "i": 98013,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Westpark,UC Irvine,El Camino Real,Stonegate,Northwood,Tustin Legacy,Aliamanu / Salt Lakes / Foster Village,Mililani Mauka / Launani Valley,Koolauloa,Makakilo / Kapolei / Honokai Hale"
+},
+{
+    "name": "Hawaiian Pidgin",
+  "i": 98014,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Vermont Square,Mid-City,Lower Moyamensing,Capitol Riverfront,Central 14th Street / Spring Road,Downtown DC,Golden Triangle,H Street NE,Kennedy Street,Mount Vernon Triangle"
+},
+{
+    "name": "Pijin",
+  "i": 98015,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "NoMa,Northwest One,Southwest Waterfront,The Trails of Frisco,Longfellow Community,Airport,Dakota Ridge,Uruguay,Rio Negro Department,Flores Department"
+},
+{
+    "name": "Rotuman",
+  "i": 98016,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Treinta y Tres Department,Tacuarembo Department,San José de Mayo,San Jose Department,Salto Department,Rocha Department,Rivera Department,Paysandu Department,Paso de Carrasco"
+},
+{
+    "name": "Norfuk",
+  "i": 98017,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Montevideo Department,Fray Bentos,Durazno Department,Delta del Tigre,Colonia del Sacramento,Carmelo"
+},
+{
+    "name": "Bardi",
+  "i": 98018,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Barros Blancos,Karakalpakstan,Qŭnghirot,Xo‘jayli Shahri,Oltinko‘l,Zomin Shaharchasi,Jizzakh Region,Urgut Shahri,Samarqand Region,Tirmiz"
+},
+{
+    "name": "Gurindji",
+  "i": 98019,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Surxondaryo Region,Sho‘rchi,Qashqadaryo,Muborak,Kitob,Kattaqo’rg’on Shahri,Koson,Karakul’,Kogon Shahri"
+},
+{
+    "name": "Guugu Yimidhirr",
+  "i": 98020,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "G‘uzor,Juma Shahri,Denov,Chiroqchi,Chelak,Bulung’ur Shahri,Beshkent,Boysun,Oqtosh,Zafar"
+},
+{
+    "name": "Noongar",
+  "i": 98021,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tashkent Region,Yunusobod,Yaypan,Yangiyŭl,Yangiyer,Sirdaryo Region,Yangirabot,Navoiy Region,Yangiqo‘rg‘on,Yangiobod,Vobkent Shahri"
+},
+{
+    "name": "Asmat",
+  "i": 98022,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Uychi,Urganch,Xorazm Region,Dashtobod,Uchqŭrghon Shahri,Uchkuduk,Tŭytepa,To‘rqao‘rg‘on,Toshloq,Toshbuloq"
+},
+{
+    "name": "Kokoda",
+  "i": 98023,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Sirdaryo,Shovot,Shahrixon,Andijan Region,Shofirkon Shahri,Salor,Rishton,Qo’shko’pir,Qo‘qon,Piskent,Poytug‘"
+},
+{
+    "name": "Maisin",
+  "i": 98024,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Payshamba Shahri,Parkent,Pop,Paxtakor Shahri,Paxtaobod,Olmaliq,Ohangaron,Nurota,Novyy Turtkul’"
+},
+{
+    "name": "Motu",
+  "i": 98025,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Marg‘ilon,Manghit,Quvasoy,Qo‘rg‘ontepa,Kirguli,Qibray,Xonobod,Xo‘jaobod,Xiva"
+},
 {
     "name": "Burarra",
   "i": 200587,
   "min": 4,
-  "max": 12,
-  "d": "elo",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Maningrida,Blyth,Cadell,Yinangarnduwa,Anbara,Marawuraba,Madia,Maringa,Gunadba,Gidjingali,Ngapanga,Dalabon,Nakkara,Gurrgoni,Ndjebbana,Liverpool,Arafura,Crocodile,Glyde,Ramingining,Milingimbi,Wessel,Yanhangu,Dangbon,Yolngu,Arnhem,Darwin,Gunbalanya,Oenpelli,Kakadu,Jabiru,Pine Creek,Katherine,Borroloola,Roper,Ngukurr,Numbulwar,Groote,Bickerton,Carpentaria,Gulf"
 },
@@ -3072,8 +2698,8 @@ window.oceaniaNameBases = [
     "name": "Dhuwal",
   "i": 200588,
   "min": 4,
-  "max": 12,
-  "d": "beklors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Gove,Nhulunbuy,Yirrkala,Rirratjingu,Gumatj,Gupapuyngu,Djambarrpuyngu,Djapu,Liyagalawumirr,Guyamirlili,Dhalwangu,Djarrwark,Dhayyi,Dhuwaya,Nhulun,Mount Saunders,Mount Dundas,Melville,Arnhem,Castlereagh,Port Bradshaw,Cape Shield,Koolatong,Giddy,Wonga,Bremer,Crocodile,Miwatj,Bawaka,Raymangirr,Dhamitjinya,Birritjimi,Djurruwu,Lombuy,Wandjukpuy,Ganarimi,Dimbukawuy,Dhalakarr,Raki"
 },
@@ -3081,8 +2707,8 @@ window.oceaniaNameBases = [
     "name": "Djaru",
   "i": 200589,
   "min": 4,
-  "max": 10,
-  "d": "dlory",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Halls Creek,Kundat,Djaru,Tanami,Sturt,Billiluna,Katherine,Top Springs,Lajamanu,Willowra,Yuendumu,Balgo,Kiwirrkurra,Kunawarritji,Parnngurr,Pungurr,Gordon,Fitzroy,Christmas,Gregory,Wolf Creek,Kandimalal,Ngaimangaima,Ringer Soak,Old Halls Creek,Spring Creek,Lansdowne,Tableland,Chamberlain,Wilson,Macphee,Sugarloaf,Bluff Face,Durack,Lissadell,Turkey Creek,Warmun,Purnululu,Bungle Bungle,Ord,Argyle,Kununurra,Wyndham,Derby"
 },
@@ -3090,8 +2716,8 @@ window.oceaniaNameBases = [
     "name": "Djinang",
   "i": 200590,
   "min": 4,
-  "max": 12,
-  "d": "eflnrs",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Ramingining,Milingimbi,Crocodile,Blyth,Glyde,Arafura,Maningrida,Manyarring,Murrungun,Marrangu,Wuḻaki,Ganalbingu,Djinba,Dabi,Manydjalpingu,Walmapuy,Yinbilngu,Dhabila,Mungi,Djinbi,Murwang,Wolkabi,Nanggalala,Gilibir,Milingi,Madakar,Djawitjibi,Manyim,Balmbi,Wora,Yatjilimiri,Munyibingi,Bilabila,Djongi,Guru,Goyder,Balawuy,Manjarngi,Wulaki,Wulagi,Ullaki,Yandjinung,Yandjinning,Yandjinang,Djinnang,Djinhang"
 },
@@ -3099,8 +2725,8 @@ window.oceaniaNameBases = [
     "name": "Gaagudju",
   "i": 200591,
   "min": 4,
-  "max": 10,
-  "d": "glnr",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Kakadu,Alligator,Cannon Hill,Jabiru,Jabiluka,Mudginberri,Ja-Ja,Gunbalanya,Oenpelli,Cannon,Arnhem,Bunidj,Djindibi,Mirarr,Munmalarri,Amurdak,Kundjeyhmi,Giimbiyu,Umbugarla,Bininj,Nourlangie,Ubirr,Cahill,East Alligator,South Alligator,West Alligator,Jim Jim,Twin Falls,Yellow Water,Mary,Cooinda,Pine Creek,Rum Jungle,Batchelor,Berry Springs,Litchfield,Wangi,Florence,Tolmer,Buley"
 },
@@ -3108,8 +2734,8 @@ window.oceaniaNameBases = [
     "name": "Githabul",
   "i": 200592,
   "min": 4,
-  "max": 12,
-  "d": "eilnor",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Woodenbong,Kyogle,Bonalbo,Clarence,Drake,Killarney,Warwick,Rathdowney,Spicer,Tabulam,Tooloom,Unumgar,Urbenville,Lindsay,Bald Rock,Bulls Head,Toloom,Julian,Border Ranges,Toonumbar,Richmond,Logan,Paddys Flat,Stoney Gulley,Duck Creek,Gidabal,Gidabul,Gidjoobal,Kitabal,Kittabool,Galibal,Dinggabul,Geynyan,Kalibal,Noowidal,Guriarba,Gumanyargan,Juraveel,Butheram,Miwatj,Bundjalung,Yugambeh,Gumbainggirr,Ngarakbul,Wiyabal,Nganduwal,Minjangbal"
 },
@@ -3117,8 +2743,8 @@ window.oceaniaNameBases = [
     "name": "Iwaidja",
   "i": 200593,
   "min": 4,
-  "max": 12,
-  "d": "deglort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Croker,Minjilang,Cobourg,Mountnorris,Bowen,De Courcy,Wongarlu,Murganellam,Wongaran,Karik,Cape Don,Ngaadalwuli,Manduwit,Marrgu,Wurrugu,Amurdag,Maung,Warruwi,Goulburn,Kunwinjku,Kuninjku,Iwaidjic,Yiwaidjan,Tarula,Limba-Karadjee,Limbakaraja,Unalla,Eiwaja,Eaewardja,Uwaidja,Jiwadja,Juwadja,Iwaija,Iwaiji,Ji:wadja,Eae-warge-ga,Melville,Bathurst,Tiwi,Vernon,Anson,Dundas,Escape,Adelaide"
 },
@@ -3126,8 +2752,8 @@ window.oceaniaNameBases = [
     "name": "Kaytetye",
   "i": 200594,
   "min": 4,
-  "max": 12,
-  "d": "aelr",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Barrow Creek,Tennant Creek,Neutral Junction,Stirling,Ali Curung,Alekarenge,Ankweleyelengkwe,Devils Marbles,Karlu Karlu,Elkerempelkere,Thangkenharenge,Hanson,Davenport,Murchison,Mount Singleton,Kelly Well,Mount Octy,Taylor,Forster,Elkedra,Frew,Whistleduck,Alyawarre,Anmatyerre,Warlpiri,Warumungu,Stuart,McLaren Creek,Murray Downs,Tea Tree,Milliken,Karlwe-karlwe,Apmere,Altyerre,Aknganentye,Ikwe,Altye,Artarre,Ilewarr,Mwengkart"
 },
@@ -3135,8 +2761,8 @@ window.oceaniaNameBases = [
     "name": "Kija",
   "i": 200595,
   "min": 4,
-  "max": 12,
-  "d": "elnr",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Halls Creek,Kununurra,Warmun,Turkey Creek,Lansdowne,Tableland,Chamberlain,Wilson,Macphee,Sugarloaf,Bluff Face,Durack,Lissadell,Margaret,Ramsay,Alice Downs,Stony,Fig Tree Pool,Purnululu,Bungle Bungle,Boornooloo,Ord,Argyle,Lake Argyle,Warreranginy,Frog Hollow,Roogoon,Crocodile Hole,Joowoorlinji,Bow River,Yarangga,Chinaman Garden,Wurreranginy,Yarliyil,Warnmun,Warrnmarn,Baiambal,Burnana,Gidja,Gidya,Giidja,Kidja,Kitja,Kisha,Loonga,Lunga,Lungga"
 },
@@ -3144,8 +2770,8 @@ window.oceaniaNameBases = [
     "name": "Kukatja",
   "i": 200596,
   "min": 4,
-  "max": 10,
-  "d": "efgilors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Balgo,Wirrimanu,Billiluna,Lake Gregory,Mulan,Kunawarritji,Kiwirrkurra,Lamarnparnta,Ngarantjadu,Ngirrpi,Piparr,Walkarli,Yaka Yaka,Malarn,Ngaimangaima,Kandimalal,Wolf Creek,Godfrey Tank,Koninara,Marawuru,Well 40,Canning,Nangatara,Jaru,Ringer Soak,Warlpiri,Yuendumu,Lajamanu,Walmajarri,Fitzroy,Martu,Pintupi,Wangkajunga,Yulparija,Pitjantjatjara,Ngalia,Mayutjarra,Gogoda,Gogodja,Gugadja,Ilbaridja,Julbaritja,Julbre,Kokatja,Kukuruba,Manggai,Nambulatji,Panara,Pardoo,Peedona"
 },
@@ -3153,8 +2779,8 @@ window.oceaniaNameBases = [
     "name": "Kuku Yalanji",
   "i": 200597,
   "min": 4,
-  "max": 12,
-  "d": "eglnor",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Mossman,Bloomfield,Daintree,Annan,Cooktown,Maytown,Palmer,Mitchell,Normanby,Jeannie,Jack,Battle Camp,Cape Flattery,Cape Bedford,Endeavour,Lizard,Wujal Wujal,Weary Bay,Yalanji,Nyungkul,Bidiji,Yalaja,Guugu Yimidhirr,Dyabugay,Yidiny,Gugu Warra,Gugu Mini,Mbabaram,Kuku Buyunji,Kuku Yalaja,Banabila,Yirmbal,Bubu,Wujalwujal,Mareeba,Kuranda,Chillagoe,Yarrabah,Palm Island,Byerstown,Mount Lukin,Mount Mulgrave,Welcome"
 },
@@ -3162,8 +2788,8 @@ window.oceaniaNameBases = [
     "name": "Kungarakany",
   "i": 200598,
   "min": 4,
-  "max": 12,
-  "d": "elnorstu",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Adelaide River,Batchelor,Rum Jungle,Litchfield,Berry Springs,Darwin River,Wangi Falls,Wunggi,Buley Rockhole,Wujuluk,Tolmer Falls,Jejoobuh,Florence Falls,Elmulil,Laniyook,Finniss River,Reynolds,Tabletop,Bynoe Harbour,Wagait,Wagutj,Unrungkoolpum,Umoolmi,Umungul,Purlugutj,Poorugutj,Coomalie,Lake Deane,Woodfords Lagoon,Blackmore,Alyandabu,Gunerakan,Kangarraga,Kangarranga,Warnunger,Ungnakan,Gungarakany,Koongurrukuñ,Kumerakainj,Gundrakan,Gungaraganj,Gungaragany,Gungarakanj,Gungarakayn"
 },
@@ -3171,8 +2797,8 @@ window.oceaniaNameBases = [
     "name": "Kunwinjku",
   "i": 200599,
   "min": 4,
-  "max": 12,
-  "d": "glnors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Gunbalanya,Kunbarlanja,Oenpelli,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Mumeka,Marrkolidjban,Mankorlod,Barrihdjowkkeng,Kakodbebuldi,Kurrurldul,Yikarrakkal,Kubumi,Kulmarru,Mann,Liverpool,Cadell,Blyth,Arafura,Kakadu,Nourlangie,Ubirr,Cahill,Jim Jim,Twin Falls,Yellow Water,Mary,South Alligator,East Alligator,Cooinda,Katherine,Pine Creek,Manyallaluk,Mayali,Kundjeyhmi,Kuninjku,Kune,Dulerayek,Narayek,Kundedjnjenghmi,Bininj,Gunwinyguan,Gunwinggic,Bolkngeybadjan,Bolkngeykimuk,Bolkngeyyahwurd,Mokurrkurr,Milmilngkan"
 },
@@ -3180,8 +2806,8 @@ window.oceaniaNameBases = [
     "name": "Kuuk Thaayore",
   "i": 200600,
   "min": 4,
-  "max": 12,
-  "d": "egklnory",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Pormpuraaw,Edward River,Thaayorre,Kuuk Thaayunth,Kuuk Thayem,Kuuk Thanon,Yak,Kirka,Thayem,Thayunth,Kugu Nganhcara,Cape York,Gulf of Carpentaria,Holroyd,Cole Mitchell,Archer,Wenlock,Ducie,Skardon,Kowanyama,Aurukun,Napranum,Mapoon,Weipa,Cooktown,Laura,Coen,Lockhart River,Hope Vale,Woorabinda,Doomadgee,Normanton,Karumba,Burketown,Cloncurry,Mount Isa,Boulia,Bedourie,Birdsville,Innamincka,Marree,Oodnadatta,Coober Pedy,Roxby Downs,Olympic Dam,Woomera,Port Augusta,Whyalla,Port Lincoln,Ceduna"
 },
@@ -3189,8 +2815,8 @@ window.oceaniaNameBases = [
     "name": "Laragia",
   "i": 200601,
   "min": 4,
-  "max": 10,
-  "d": "aelnortu",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Darwin,Belyuen,Delissaville,Adelaide River,Woolna,Warrrai,Laragia,Danala,Daly,Moyle,Wageman,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri,Kamor,Nganygit,Marithiel,Brinken,Maretyabin,Maredan,Manda,Wogaity,Arnijangal,Arne,Bilawara,Lee,Larrakia,Wagait,Cox,Port Essington,Escape Cliffs,Adelaide,Howard Springs,Humpty Do,Berry Springs,Batchelor"
 },
@@ -3198,8 +2824,8 @@ window.oceaniaNameBases = [
     "name": "Luritja",
   "i": 200602,
   "min": 4,
-  "max": 10,
-  "d": "efglors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Papunya,Alice Springs,Haasts Bluff,Hermannsburg,Areyonga,Watarru,Amata,Ernabella,Fregon,Indulkana,Kalka,Pipalyatjara,Kaltjiti,Murray Town,Finke,Gosse Range,Palm Valley,Lake Amadeus,George Gill Range,Cleland Hills,Mount Forbes,Thomas Reservoir,Alala,Tempe Downs,MacDonnell Ranges,Palmer,Walker,Rudall,Mer-andji,Inindi,Ayers Rock,Uluru,Kata Tjuta,Olga,Kings Canyon,Petermann,Musgrave,Everard,De Rose,Oodnadatta,Marree,Coober Pedy,Roxby Downs,Andamooka,Woomera,Port Augusta,Quorn,Hawker,Wilpena,Blinman"
 },
@@ -3207,8 +2833,8 @@ window.oceaniaNameBases = [
     "name": "Manytjilyitjarra",
   "i": 200603,
   "min": 4,
-  "max": 12,
-  "d": "aeflnorst",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Balgo,Kiwirrkurra,Kunawarritji,Parnngurr,Pungurr,Gordon,Tanami,Great Sandy Desert,Canning Stock Route,Lake Mackay,Lake Macdonald,Lake Amadeus,Lake Neale,Lake Hopkins,Lake Carnegie,Lake Wells,Lake Gregory,Lake Argyle,Jigalong,Canning,Stock Route,Tanami Desert,Gibson Desert,Little Sandy Desert,Patjarr,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Karilywara,Yingun,Kurrawang,Punmu,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie"
 },
@@ -3216,8 +2842,8 @@ window.oceaniaNameBases = [
     "name": "Martu Wangka",
   "i": 200604,
   "min": 4,
-  "max": 10,
-  "d": "elnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu"
 },
@@ -3225,8 +2851,8 @@ window.oceaniaNameBases = [
     "name": "Maung",
   "i": 200605,
   "min": 4,
-  "max": 10,
-  "d": "elnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Warruwi,Goulburn Island,South Goulburn,Croker Island,Minjilang,Cobourg Peninsula,Mountnorris Bay,Bowen Strait,Iwaidja,Marrgu,Amurdag,Wurrugu,Kunwinjku,Kuninjku,Maung,Yiwaidjan,Iwaidjic,Warrkbi,Goulburn,Buchanan,Raffles Bay,Port Essington,Melville,Bathurst,Tiwi,Vernon,Anson,Dundas,Escape,Adelaide,Arafura,Van Diemen,Jabiru,Kakadu,Alligator,Cannon Hill,Arnhem,Liverpool,Mann,Cadell,Blyth,Glyde,Arafura Swamp,Milingimbi,Crocodile,Ramingining,Maningrida,Darwin,Palmerston,Howard Springs"
 },
@@ -3234,8 +2860,8 @@ window.oceaniaNameBases = [
     "name": "Murrinh Patha",
   "i": 200606,
   "min": 4,
-  "max": 12,
-  "d": "flnors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Wadeye,Port Keats,Daly River,Peppimenarti,Palumpa,Nauiyu,Daly,Fitzmaurice,Moyle,Buchanan,Reynolds,Finniss,Adelaide,Darwin,Belyuen,Cox Peninsula,Berry Springs,Batchelor,Litchfield,Pine Creek,Katherine,Kunbarlanja,Gunbalanya,Maningrida,Ramingining,Milingimbi,Croker,Goulburn,Warruwi,Minjilang,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Laragia,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri"
 },
@@ -3243,8 +2869,8 @@ window.oceaniaNameBases = [
     "name": "Ngaanyatjarra",
   "i": 200607,
   "min": 4,
-  "max": 12,
-  "d": "eglnprs",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Warburton,Blackstone,Tjukurla,Warakurna,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles"
 },
@@ -3252,8 +2878,8 @@ window.oceaniaNameBases = [
     "name": "Ngarrindjeri",
   "i": 200608,
   "min": 4,
-  "max": 12,
-  "d": "elnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Murray River,Lake Alexandrina,Lake Albert,Coorong,Encounter Bay,Goolwa,Meningie,Tailem Bend,Murray Bridge,Mannum,Swan Reach,Blanchetown,Morgan,Waikerie,Barmera,Berri,Renmark,Mildura,Robinvale,Horsham,Dimboola,Nhill,Bordertown,Keith,Naracoorte,Kingston,Robe,Beachport,Millicent,Mount Gambier,Penola,Coonawarra,Padthaway,Tintinara,Coonalpyn,Lameroo,Pinnaroo"
 },
@@ -3261,8 +2887,8 @@ window.oceaniaNameBases = [
     "name": "Nunggubuyu",
   "i": 200609,
   "min": 4,
-  "max": 12,
-  "d": "lnor",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Numbulwar,Rose River,Roper,Ngukurr,Urapunga,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Elsey,Mataranka,Katherine,Pine Creek,Darwin,Arnhem,Cadell,Blyth,Glyde,Arafura,Maningrida,Ramingining,Milingimbi,Croker,Goulburn,Warruwi,Minjilang,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Laragia,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri,Kamor"
 },
@@ -3270,8 +2896,8 @@ window.oceaniaNameBases = [
     "name": "Nyangumarta",
   "i": 200610,
   "min": 4,
-  "max": 10,
-  "d": "eglor",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Hedland,Marble Bar,Nullagine,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong"
 },
@@ -3279,8 +2905,8 @@ window.oceaniaNameBases = [
     "name": "palawa kani",
   "i": 200611,
   "min": 4,
-  "max": 12,
-  "d": "elnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tasmania,Hobart,Launceston,Devonport,Burnie,Queenstown,Strahan,Zeehan,Rosebery,Tullah,Derwent,Huon,Tamar,Mersey,Forth,Leven,Pieman,Arthur,Gordon,Franklin,Mount Wellington,kunanyi,Cradle Mountain,Lake St Clair,Freycinet,Maria Island,Bruny Island,Flinders Island,King Island,Cape Barren,Claridge,Tarkine,Southwest,Central Highlands,Northern Midlands,Southern Midlands,Eastern Shore,Western Tamar,Mersey Valley,Huon Valley,Derwent Valley,Meander Valley,Fingal Valley,St Marys,St Helens,Bicheno,Orford,Triabunna,Nubeena,Port Arthur"
 },
@@ -3288,8 +2914,8 @@ window.oceaniaNameBases = [
     "name": "Panyjima",
   "i": 200612,
   "min": 4,
-  "max": 10,
-  "d": "elnr",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tom Price,Paraburdoo,Newman,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Pannawonica,Onslow,Exmouth,Carnarvon,Geraldton,Kalbarri,Denham,Shark Bay,Coral Bay,Ningaloo,Cape Range,Kennedy Range,Barlee Range,Hamersley,Ophthalmia,Weeli Wolli,Marandoo,Brockman,Nammuldi,Yandicoogina,Hope Downs,Roy Hill,Christmas Creek,Cloudbreak,Firetail,Gudai-Darri,Eliwana,Western Turner,Eastern Turner,Shay Gap,Yarrie,Packsaddle,Mount Whaleback,Mount Tom Price,Mount Brockman,Mount Meharry,Mount Bruce,Mount Augustus,Mount Edgar,Mount Clere,Mount Phillips"
 },
@@ -3297,8 +2923,8 @@ window.oceaniaNameBases = [
     "name": "Umbugarla",
   "i": 200613,
   "min": 4,
-  "max": 10,
-  "d": "delmnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Pine Creek,Rum Jungle,Batchelor,Berry Springs,Litchfield,Darwin,Adelaide River,Reynolds,Finniss,Mary,Wildman,South Alligator,East Alligator,Coomalie,Cossack,Victoria,Palmerston,Nightcliff,Fannie Bay,Parap,Ludmilla,Coconut Grove,Millner,Casuarina,Brinkin,Nakara,Leanyer,Marrara,Holmes,Wulagi,Anula,Karama,Malak,Katherine,Mataranka,Elsey,Roper,Ngukurr,Numbulwar,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Arnhem,Cadell,Blyth,Glyde"
 },
@@ -3306,8 +2932,8 @@ window.oceaniaNameBases = [
     "name": "Upper Arrernte",
   "i": 200614,
   "min": 4,
-  "max": 12,
-  "d": "eflnors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alice Springs,Hermannsburg,Areyonga,Haasts Bluff,Papunya,Yuendumu,Lajamanu,Willowra,Nyirripi,Mount Liebig,Kintore,Kiwirrkurra,Balgo,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles,Warakurna,Blackstone,Tjukurla,Warburton,Mantamaru,Tjirrkarli,Patjarr,Karilywara,Yingun,Kurrawang,Punmu"
 },
@@ -3315,8 +2941,8 @@ window.oceaniaNameBases = [
     "name": "Wadjiginy",
   "i": 200615,
   "min": 4,
-  "max": 10,
-  "d": "aeflnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Darwin,Belyuen,Cox Peninsula,Berry Springs,Batchelor,Litchfield,Pine Creek,Katherine,Daly River,Wadeye,Port Keats,Peppimenarti,Palumpa,Nauiyu,Daly,Fitzmaurice,Moyle,Buchanan,Reynolds,Finniss,Adelaide,Delissaville,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu,Maramanandji,Mullukmuluk,Yunggor,Matngala,Warat,Djeraity,Warrai,Kungarakany,Laragia,Tangural,Marengar,Tyemeri,Moil,Ngengomeri,Marewumiri,Kamor,Nganygit,Marithiel,Brinken,Maretyabin,Maredan,Manda,Wogaity"
 },
@@ -3324,8 +2950,8 @@ window.oceaniaNameBases = [
     "name": "Wagiman",
   "i": 200616,
   "min": 4,
-  "max": 10,
-  "d": "eglnprs",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Pine Creek,Rum Jungle,Batchelor,Berry Springs,Litchfield,Darwin,Adelaide River,Reynolds,Finniss,Mary,Wildman,South Alligator,East Alligator,Coomalie,Cossack,Victoria,Palmerston,Nightcliff,Fannie Bay,Parap,Ludmilla,Coconut Grove,Millner,Casuarina,Brinkin,Nakara,Leanyer,Marrara,Holmes,Wulagi,Anula,Karama,Malak,Katherine,Mataranka,Elsey,Roper,Ngukurr,Numbulwar,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Arnhem,Cadell,Blyth,Glyde"
 },
@@ -3333,8 +2959,8 @@ window.oceaniaNameBases = [
     "name": "Wajarri",
   "i": 200617,
   "min": 4,
-  "max": 10,
-  "d": "eflnors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Geraldton,Mullewa,Morawa,Perenjori,Carnamah,Three Springs,Mingenew,Irwin,Dongara,Port Denison,Kalbarri,Ajana,Binnu,Northampton,Horrocks,Sandy Gully,Yuna,Mount Magnet,Cue,Meekatharra,Sandstone"
 },
@@ -3342,8 +2968,8 @@ window.oceaniaNameBases = [
     "name": "Walmatjarri",
   "i": 200618,
   "min": 4,
-  "max": 12,
-  "d": "elnr",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Fitzroy Crossing,Noonkanbah,Yakanarra,Kandiwal,Ngumpan,Kungkaychi,Darwin,Broome,Derby,One Arm Point,Bidyadanga,Willare,Meda,Mount Anderson,St George Ranges,Mount Pierre,Bluff Range,Mount House,Mount Elizabeth,Mount Hart,Mount Bell,Mount Percy,Mount Frank,Mount Amherst,Mount Wynne,Mount Dromana,Mount Broome,Mount Hardman,Mount Solitaire,Mount Connelly,Mount Leake,Mount Behn,Mount Giles,Mount Olga,Mount Currie,Mount Woodroffe,Mount Kintore,Mount Leisler,Mount Palgrave,Mount Wedge"
 },
@@ -3351,8 +2977,8 @@ window.oceaniaNameBases = [
     "name": "Wangkatha",
   "i": 200619,
   "min": 4,
-  "max": 10,
-  "d": "flnors",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Kalgoorlie,Leonora,Laverton,Menzies,Norseman,Kambalda,Widgiemooltha,Coolgardie,Bullabulling,Southern Cross,Moorine Rock,Mount Jackson,Mount Holland,Mount Palmer,Mount Ida,Mount Burges,Mount Leonora,Mount Malcolm,Mount Morgans,Mount Margaret,Mount Weld,Mount Celia,Mount Keith,Mount Sir Samuel"
 },
@@ -3360,8 +2986,8 @@ window.oceaniaNameBases = [
     "name": "Warumungu",
   "i": 200620,
   "min": 4,
-  "max": 10,
-  "d": "los",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tennant Creek,Banka Banka,Wycliffe Well,Barkly Homestead,Elliott,Newcastle Waters,Borroloola,McArthur,Barkly,Tableland,Arnold,Hodgson,Strangways,Elsey,Mataranka,Katherine,Pine Creek,Darwin,Ali Curung,Murray Downs,Stirling,Barrow Creek,Devils Marbles,Karlu Karlu,Stuart Highway,Stuart,Buchanan,Reynolds,Finniss,Adelaide,Belyuen,Cox Peninsula,Berry Springs,Batchelor,Litchfield,Daly River,Wadeye,Port Keats,Peppimenarti,Palumpa,Nauiyu,Daly,Fitzmaurice,Moyle,Delissaville,Wagait,Larrakia,Wadjiginy,Pungupungu,Maranunggu"
 },
@@ -3369,8 +2995,8 @@ window.oceaniaNameBases = [
     "name": "Wik Mungkan",
   "i": 200621,
   "min": 4,
-  "max": 10,
-  "d": "efglnoprst",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Aurukun,Pormpuraaw,Kowanyama,Napranum,Mapoon,Weipa,Cooktown,Laura,Coen,Lockhart River,Hope Vale,Woorabinda,Doomadgee,Normanton,Karumba,Burketown,Cloncurry,Mount Isa,Boulia,Bedourie,Birdsville,Innamincka,Marree,Oodnadatta,Coober Pedy,Roxby Downs,Olympic Dam,Woomera,Port Augusta,Whyalla,Port Lincoln,Ceduna,Streaky Bay,Elliston,Tumby Bay,Port Pirie,Gladstone,Rockhampton,Mackay,Townsville,Cairns,Innisfail,Atherton,Mareeba,Ravenshoe,Herberton,Georgetown,Croydon"
 },
@@ -3378,8 +3004,8 @@ window.oceaniaNameBases = [
     "name": "Yankunytjatjara",
   "i": 200622,
   "min": 4,
-  "max": 12,
-  "d": "aelnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Ernabella,Fregon,Indulkana,Kalka,Pipalyatjara,Kaltjiti,Murray Town,Finke,Aputula,Ali Curung,Murray Downs,Stirling,Barrow Creek,Tennant Creek,Wycliffe,Katherine,Lajamanu,Willowra,Yuendumu,Nyirripi,Mount Liebig,Kintore,Kiwirrkurra,Balgo,Kunawarritji,Parnngurr,Pungurr,Gordon,Jigalong,Nullagine,Marble Bar,Port Hedland,Karratha,Dampier,Roebourne,Wittenoom,Tom Price,Paraburdoo,Newman,Meekatharra,Wiluna,Leonora,Laverton,Kalgoorlie,Norseman,Cundeelee,Coyote,Neale Junction,Serpentine Lakes,Giles"
 },
@@ -3387,8 +3013,8 @@ window.oceaniaNameBases = [
     "name": "Yinjibarndi",
   "i": 200623,
   "min": 4,
-  "max": 10,
-  "d": "eflnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Roebourne,Karratha,Dampier,Wittenoom,Tom Price,Paraburdoo,Newman,Pannawonica,Onslow,Exmouth,Carnarvon,Geraldton,Kalbarri,Denham,Shark Bay,Coral Bay,Ningaloo,Cape Range,Kennedy Range,Barlee Range,Hamersley,Ophthalmia,Weeli Wolli,Marandoo,Brockman,Nammuldi,Yandicoogina,Hope Downs,Roy Hill,Christmas Creek,Cloudbreak,Firetail,Gudai-Darri,Eliwana,Western Turner,Eastern Turner,Shay Gap,Yarrie,Packsaddle,Mount Whaleback,Mount Tom Price,Mount Brockman,Mount Meharry,Mount Bruce,Mount Augustus,Mount Edgar,Mount Clere,Mount Phillips,Mount Egerton,Mount Sandiman"
 },
@@ -3396,8 +3022,8 @@ window.oceaniaNameBases = [
     "name": "Yugambeh",
   "i": 200624,
   "min": 4,
-  "max": 12,
-  "d": "delmnort",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Southport,Gold Coast,Tweed Heads,Murwillumbah,Lismore,Byron Bay,Ballina,Grafton,Coffs Harbour,Yamba,Maclean,Evans Head,Coraki,Casino,Kyogle,Woodenbong,Bonalbo,Drake,Killarney,Warwick,Rathdowney,Spicer,Tabulam,Tooloom,Unumgar,Urbenville,Lindsay,Bald Rock,Bulls Head,Toloom,Julian,Border Ranges,Toonumbar,Richmond,Logan,Paddys Flat,Stoney Gulley,Duck Creek,Gidabal,Gidabul,Gidjoobal,Kitabal,Kittabool,Galibal,Dinggabul,Geynyan,Kalibal,Noowidal,Guriarba,Gumanyargan"
 },
@@ -3405,8 +3031,8 @@ window.oceaniaNameBases = [
     "name": "Alekano",
   "i": 201037,
   "min": 4,
-  "max": 12,
-  "d": "defglot",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -3414,8 +3040,8 @@ window.oceaniaNameBases = [
     "name": "Aneme Wake",
   "i": 201038,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3423,8 +3049,8 @@ window.oceaniaNameBases = [
     "name": "Ankave",
   "i": 201039,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3432,8 +3058,8 @@ window.oceaniaNameBases = [
     "name": "Ari",
   "i": 201040,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3441,8 +3067,8 @@ window.oceaniaNameBases = [
     "name": "Asmat–Kamoro",
   "i": 201041,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3450,8 +3076,8 @@ window.oceaniaNameBases = [
     "name": "Atayal",
   "i": 201042,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -3459,8 +3085,8 @@ window.oceaniaNameBases = [
     "name": "Atohwaim (Kaugat)",
   "i": 201043,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3468,8 +3094,8 @@ window.oceaniaNameBases = [
     "name": "Australian Kriol",
   "i": 201044,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Darwin,Katherine,Alice Springs,Tennant Creek,Borroloola,Roper,Ngukurr,Numbulwar,Darwin8,Darwin9,Darwin10,Darwin11,Darwin12,Darwin13,Darwin14,Darwin15,Darwin16,Darwin17,Darwin18,Darwin19"
 },
@@ -3477,8 +3103,8 @@ window.oceaniaNameBases = [
     "name": "Auye",
   "i": 201045,
   "min": 4,
-  "max": 12,
-  "d": "enor",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3486,8 +3112,8 @@ window.oceaniaNameBases = [
     "name": "Becking–Dawi",
   "i": 201046,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3495,8 +3121,8 @@ window.oceaniaNameBases = [
     "name": "Budai-Labuan-Taromak Rukai",
   "i": 201047,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -3504,8 +3130,8 @@ window.oceaniaNameBases = [
     "name": "Cèmuhî",
   "i": 201048,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -3513,7 +3139,7 @@ window.oceaniaNameBases = [
     "name": "Cheke Holo",
   "i": 201049,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
@@ -3522,7 +3148,7 @@ window.oceaniaNameBases = [
     "name": "Ese Ömie",
   "i": 201050,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -3531,8 +3157,8 @@ window.oceaniaNameBases = [
     "name": "Hagen",
   "i": 201051,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3540,8 +3166,8 @@ window.oceaniaNameBases = [
     "name": "Hoanya",
   "i": 201052,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -3549,8 +3175,8 @@ window.oceaniaNameBases = [
     "name": "Hoia Hoia",
   "i": 201053,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3558,8 +3184,8 @@ window.oceaniaNameBases = [
     "name": "Isbukun Bunun",
   "i": 201054,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -3567,8 +3193,8 @@ window.oceaniaNameBases = [
     "name": "Javanese macro entry",
   "i": 201055,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Jakarta,Surabaya,Bandung,Yogyakarta,Semarang,Solo,Malang,Bali,Lombok,Sumbawa,Flores,Sumba,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru"
 },
@@ -3576,7 +3202,7 @@ window.oceaniaNameBases = [
     "name": "Kaera",
   "i": 201056,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
@@ -3585,8 +3211,8 @@ window.oceaniaNameBases = [
     "name": "Kafoa",
   "i": 201057,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
 },
@@ -3594,8 +3220,8 @@ window.oceaniaNameBases = [
     "name": "Kaguel",
   "i": 201058,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3603,8 +3229,8 @@ window.oceaniaNameBases = [
     "name": "Kainantu",
   "i": 201059,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -3612,8 +3238,8 @@ window.oceaniaNameBases = [
     "name": "Kalamian",
   "i": 201060,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -3621,7 +3247,7 @@ window.oceaniaNameBases = [
     "name": "Kanakanavu",
   "i": 201061,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
@@ -3630,8 +3256,8 @@ window.oceaniaNameBases = [
     "name": "Kawacha",
   "i": 201062,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3639,8 +3265,8 @@ window.oceaniaNameBases = [
     "name": "Kayagar (Kaygir)",
   "i": 201063,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3648,8 +3274,8 @@ window.oceaniaNameBases = [
     "name": "Ke’yagana",
   "i": 201064,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -3657,8 +3283,8 @@ window.oceaniaNameBases = [
     "name": "Ketagalan",
   "i": 201065,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -3666,8 +3292,8 @@ window.oceaniaNameBases = [
     "name": "Kilivila",
   "i": 201066,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -3675,7 +3301,7 @@ window.oceaniaNameBases = [
     "name": "Kimaama (Kimaghama)",
   "i": 201067,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -3684,8 +3310,8 @@ window.oceaniaNameBases = [
     "name": "Kombai–Wanggom",
   "i": 201068,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3693,8 +3319,8 @@ window.oceaniaNameBases = [
     "name": "Kowiai",
   "i": 201069,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -3702,7 +3328,7 @@ window.oceaniaNameBases = [
     "name": "Kulon",
   "i": 201070,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
@@ -3711,8 +3337,8 @@ window.oceaniaNameBases = [
     "name": "Kunimaipa",
   "i": 201071,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3720,8 +3346,8 @@ window.oceaniaNameBases = [
     "name": "Lowland Iwur",
   "i": 201072,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -3729,8 +3355,8 @@ window.oceaniaNameBases = [
     "name": "Madurese macro entry",
   "i": 201073,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Madura,Sumenep,Pamekasan,Sampang,Bangkalan,Surabaya,Jakarta,Bandung,Yogyakarta,Semarang,Solo,Malang,Bali,Lombok,Sumbawa,Flores,Sumba,Timor,Roti,Savu,Alor,Pantar,Banda,Ambon,Ternate,Tidore,Halmahera,Seram,Buru"
 },
@@ -3738,7 +3364,7 @@ window.oceaniaNameBases = [
     "name": "Maga-Tona Rukai",
   "i": 201074,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
@@ -3747,8 +3373,8 @@ window.oceaniaNameBases = [
     "name": "Mailu",
   "i": 201075,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3756,8 +3382,8 @@ window.oceaniaNameBases = [
     "name": "Maiwa",
   "i": 201076,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3765,8 +3391,8 @@ window.oceaniaNameBases = [
     "name": "Makalero",
   "i": 201077,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3774,8 +3400,8 @@ window.oceaniaNameBases = [
     "name": "Makasae",
   "i": 201078,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3783,8 +3409,8 @@ window.oceaniaNameBases = [
     "name": "Makassar",
   "i": 201079,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Makassar,Parepare,Pangkep,Maros,Bantaeng,Bulukumba,Sinjai,Bone,Wajo,Soppeng,Sidrap,Pinrang,Enrekang,Tana Toraja,Mamuju,Majene,Polewali,Mamasa,Bambang,Sumbawa,Lombok,Bima,Dompu"
 },
@@ -3792,8 +3418,8 @@ window.oceaniaNameBases = [
     "name": "Makayam",
   "i": 201080,
   "min": 4,
-  "max": 12,
-  "d": "ps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3801,8 +3427,8 @@ window.oceaniaNameBases = [
     "name": "Mandobo",
   "i": 201081,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3810,8 +3436,8 @@ window.oceaniaNameBases = [
     "name": "Mantauran Rukai",
   "i": 201082,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -3819,8 +3445,8 @@ window.oceaniaNameBases = [
     "name": "Māori",
   "i": 201083,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -3828,7 +3454,7 @@ window.oceaniaNameBases = [
     "name": "Mapena",
   "i": 201084,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -3837,8 +3463,8 @@ window.oceaniaNameBases = [
     "name": "Maria",
   "i": 201085,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3846,8 +3472,8 @@ window.oceaniaNameBases = [
     "name": "Marind",
   "i": 201086,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3855,8 +3481,8 @@ window.oceaniaNameBases = [
     "name": "Maring",
   "i": 201087,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3864,8 +3490,8 @@ window.oceaniaNameBases = [
     "name": "Melanesian Pidgin",
   "i": 201088,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3873,8 +3499,8 @@ window.oceaniaNameBases = [
     "name": "Menya",
   "i": 201089,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3882,8 +3508,8 @@ window.oceaniaNameBases = [
     "name": "Mian",
   "i": 201090,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -3891,8 +3517,8 @@ window.oceaniaNameBases = [
     "name": "Moikodi",
   "i": 201091,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3900,8 +3526,8 @@ window.oceaniaNameBases = [
     "name": "Mombum",
   "i": 201092,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3909,8 +3535,8 @@ window.oceaniaNameBases = [
     "name": "Momina",
   "i": 201093,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3918,8 +3544,8 @@ window.oceaniaNameBases = [
     "name": "Momuna",
   "i": 201094,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3927,8 +3553,8 @@ window.oceaniaNameBases = [
     "name": "Moni",
   "i": 201095,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3936,8 +3562,8 @@ window.oceaniaNameBases = [
     "name": "Moraori",
   "i": 201096,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3945,8 +3571,8 @@ window.oceaniaNameBases = [
     "name": "Morawa",
   "i": 201097,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3954,8 +3580,8 @@ window.oceaniaNameBases = [
     "name": "Morigi",
   "i": 201098,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3963,8 +3589,8 @@ window.oceaniaNameBases = [
     "name": "Mountain",
   "i": 201099,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -3972,8 +3598,8 @@ window.oceaniaNameBases = [
     "name": "Mountain Koiari",
   "i": 201100,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3981,8 +3607,8 @@ window.oceaniaNameBases = [
     "name": "Mubami",
   "i": 201101,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3990,8 +3616,8 @@ window.oceaniaNameBases = [
     "name": "Mulaha",
   "i": 201102,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -3999,8 +3625,8 @@ window.oceaniaNameBases = [
     "name": "Muna",
   "i": 201103,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4008,7 +3634,7 @@ window.oceaniaNameBases = [
     "name": "Muyu",
   "i": 201104,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
@@ -4017,8 +3643,8 @@ window.oceaniaNameBases = [
     "name": "Nakai",
   "i": 201105,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4026,8 +3652,8 @@ window.oceaniaNameBases = [
     "name": "Namiae",
   "i": 201106,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4035,8 +3661,8 @@ window.oceaniaNameBases = [
     "name": "Namumi",
   "i": 201107,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4044,8 +3670,8 @@ window.oceaniaNameBases = [
     "name": "Narak",
   "i": 201108,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4053,8 +3679,8 @@ window.oceaniaNameBases = [
     "name": "Narom",
   "i": 201109,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4062,7 +3688,7 @@ window.oceaniaNameBases = [
     "name": "Nawaru",
   "i": 201110,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -4071,8 +3697,8 @@ window.oceaniaNameBases = [
     "name": "Ndom",
   "i": 201111,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4080,8 +3706,8 @@ window.oceaniaNameBases = [
     "name": "Nduga",
   "i": 201112,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
 },
@@ -4089,8 +3715,8 @@ window.oceaniaNameBases = [
     "name": "Nedebang",
   "i": 201113,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
 },
@@ -4098,8 +3724,8 @@ window.oceaniaNameBases = [
     "name": "Nemi",
   "i": 201114,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4107,7 +3733,7 @@ window.oceaniaNameBases = [
     "name": "New Zealand Pidgin English",
   "i": 201115,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Dunedin,Palmerston North,Napier,Hastings,Nelson,Rotorua,New Plymouth,Whangarei,Invercargill,Gisborne,Taupo,Whanganui,Timaru,Masterton,Levin,Blenheim,Oamaru,Greymouth"
@@ -4116,8 +3742,8 @@ window.oceaniaNameBases = [
     "name": "Ngalum",
   "i": 201116,
   "min": 4,
-  "max": 12,
-  "d": "l",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4125,8 +3751,8 @@ window.oceaniaNameBases = [
     "name": "Ngatikese Creole",
   "i": 201117,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Pohnpei,Kolonia,Madolenihmw,U,Nett,Kitti,Sokehs,Net,Pohnpei8,Pohnpei9,Pohnpei10,Pohnpei11,Pohnpei12,Pohnpei13,Pohnpei14,Pohnpei15,Pohnpei16,Pohnpei17,Pohnpei18,Pohnpei19"
 },
@@ -4134,8 +3760,8 @@ window.oceaniaNameBases = [
     "name": "Nggem",
   "i": 201118,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
 },
@@ -4143,8 +3769,8 @@ window.oceaniaNameBases = [
     "name": "Nii",
   "i": 201119,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4152,8 +3778,8 @@ window.oceaniaNameBases = [
     "name": "Ninggerum",
   "i": 201120,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4161,8 +3787,8 @@ window.oceaniaNameBases = [
     "name": "Nomane",
   "i": 201121,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4170,8 +3796,8 @@ window.oceaniaNameBases = [
     "name": "Northern and Central Bunun",
   "i": 201122,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4179,8 +3805,8 @@ window.oceaniaNameBases = [
     "name": "Nuaulu",
   "i": 201123,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4188,7 +3814,7 @@ window.oceaniaNameBases = [
     "name": "Odoodee",
   "i": 201124,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -4197,8 +3823,8 @@ window.oceaniaNameBases = [
     "name": "Oirata",
   "i": 201125,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4206,8 +3832,8 @@ window.oceaniaNameBases = [
     "name": "Ok–Oksapmin",
   "i": 201126,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4215,8 +3841,8 @@ window.oceaniaNameBases = [
     "name": "Oksapmin",
   "i": 201127,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4224,8 +3850,8 @@ window.oceaniaNameBases = [
     "name": "Omati",
   "i": 201128,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4233,8 +3859,8 @@ window.oceaniaNameBases = [
     "name": "Onjob",
   "i": 201129,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4242,8 +3868,8 @@ window.oceaniaNameBases = [
     "name": "Onobasulu",
   "i": 201130,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4251,8 +3877,8 @@ window.oceaniaNameBases = [
     "name": "Ontenu",
   "i": 201131,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4260,8 +3886,8 @@ window.oceaniaNameBases = [
     "name": "Orokaiva",
   "i": 201132,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4269,8 +3895,8 @@ window.oceaniaNameBases = [
     "name": "Oweina",
   "i": 201133,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4278,8 +3904,8 @@ window.oceaniaNameBases = [
     "name": "Pa",
   "i": 201134,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4287,8 +3913,8 @@ window.oceaniaNameBases = [
     "name": "Paiwan",
   "i": 201135,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
 },
@@ -4296,8 +3922,8 @@ window.oceaniaNameBases = [
     "name": "Paniai Lakes",
   "i": 201136,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4305,8 +3931,8 @@ window.oceaniaNameBases = [
     "name": "Papora",
   "i": 201137,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4314,8 +3940,8 @@ window.oceaniaNameBases = [
     "name": "Papora-Hoanya",
   "i": 201138,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4323,8 +3949,8 @@ window.oceaniaNameBases = [
     "name": "Papuan Tip",
   "i": 201139,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4332,7 +3958,7 @@ window.oceaniaNameBases = [
     "name": "Pazeh",
   "i": 201140,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
@@ -4341,8 +3967,8 @@ window.oceaniaNameBases = [
     "name": "Pisa",
   "i": 201141,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4350,8 +3976,8 @@ window.oceaniaNameBases = [
     "name": "Pitcairn-Norfolk",
   "i": 201142,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Pitkin Island,Norfolk Island,Kingston,Phillip Island,Nepean Island,Pitkin Island5,Pitkin Island6,Pitkin Island7,Pitkin Island8,Pitkin Island9,Pitkin Island10,Pitkin Island11,Pitkin Island12,Pitkin Island13,Pitkin Island14,Pitkin Island15,Pitkin Island16,Pitkin Island17,Pitkin Island18,Pitkin Island19"
 },
@@ -4359,8 +3985,8 @@ window.oceaniaNameBases = [
     "name": "Pitkern",
   "i": 201143,
   "min": 4,
-  "max": 12,
-  "d": "l",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Pitkin Island,Norfolk Island,Kingston,Phillip Island,Nepean Island,Pitkin Island5,Pitkin Island6,Pitkin Island7,Pitkin Island8,Pitkin Island9,Pitkin Island10,Pitkin Island11,Pitkin Island12,Pitkin Island13,Pitkin Island14,Pitkin Island15,Pitkin Island16,Pitkin Island17,Pitkin Island18,Pitkin Island19"
 },
@@ -4368,8 +3994,8 @@ window.oceaniaNameBases = [
     "name": "Pogaya",
   "i": 201144,
   "min": 4,
-  "max": 12,
-  "d": "l",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4377,8 +4003,8 @@ window.oceaniaNameBases = [
     "name": "Puyuma",
   "i": 201145,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
 },
@@ -4386,8 +4012,8 @@ window.oceaniaNameBases = [
     "name": "Rapa Nui",
   "i": 201146,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Hanga Roa,Vaihu,Anakena,Ahu Tongariki,Rano Raraku,Orongo,Ahu Akivi,Ahu Vinapu,Ahu Tahai,Ahu Ko Te Riku,Ahu Huri A Urenga,Ahu Akapu,Ahu Ature Huki,Ahu Vai Mata,Ahu Kihikihi,Ahu Te Pito Kura,Ahu Nau Nau,Ahu Raai,Ahu Ura Uranga Te Mahina,Ahu A Pite,Ahu O Pepe,Ahu Tautira,Ahu Vai Uri,Ahu Hanga Te Tenga"
 },
@@ -4395,8 +4021,8 @@ window.oceaniaNameBases = [
     "name": "Retta",
   "i": 201147,
   "min": 4,
-  "max": 12,
-  "d": "a",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
 },
@@ -4404,8 +4030,8 @@ window.oceaniaNameBases = [
     "name": "Riantana",
   "i": 201148,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4413,8 +4039,8 @@ window.oceaniaNameBases = [
     "name": "Rotokas",
   "i": 201149,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4422,8 +4048,8 @@ window.oceaniaNameBases = [
     "name": "Rukai",
   "i": 201150,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
 },
@@ -4431,8 +4057,8 @@ window.oceaniaNameBases = [
     "name": "Rumu",
   "i": 201151,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4440,8 +4066,8 @@ window.oceaniaNameBases = [
     "name": "Rusenu",
   "i": 201152,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4449,8 +4075,8 @@ window.oceaniaNameBases = [
     "name": "Saaroa",
   "i": 201153,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4458,8 +4084,8 @@ window.oceaniaNameBases = [
     "name": "Sabakor",
   "i": 201154,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4467,8 +4093,8 @@ window.oceaniaNameBases = [
     "name": "Safeyoka",
   "i": 201155,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4476,8 +4102,8 @@ window.oceaniaNameBases = [
     "name": "Saisiyat",
   "i": 201156,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4485,8 +4111,8 @@ window.oceaniaNameBases = [
     "name": "Sakizaya",
   "i": 201157,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4494,8 +4120,8 @@ window.oceaniaNameBases = [
     "name": "Salt-Yui",
   "i": 201158,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4503,8 +4129,8 @@ window.oceaniaNameBases = [
     "name": "Samberigi",
   "i": 201159,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4512,8 +4138,8 @@ window.oceaniaNameBases = [
     "name": "Samo",
   "i": 201160,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4521,8 +4147,8 @@ window.oceaniaNameBases = [
     "name": "Sawi",
   "i": 201161,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4530,8 +4156,8 @@ window.oceaniaNameBases = [
     "name": "Saʼban",
   "i": 201162,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4539,7 +4165,7 @@ window.oceaniaNameBases = [
     "name": "Seediq",
   "i": 201163,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
@@ -4548,8 +4174,8 @@ window.oceaniaNameBases = [
     "name": "Sempan",
   "i": 201164,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4557,8 +4183,8 @@ window.oceaniaNameBases = [
     "name": "Setaman",
   "i": 201165,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4566,8 +4192,8 @@ window.oceaniaNameBases = [
     "name": "Shiaxa",
   "i": 201166,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4575,8 +4201,8 @@ window.oceaniaNameBases = [
     "name": "Siane",
   "i": 201167,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4584,8 +4210,8 @@ window.oceaniaNameBases = [
     "name": "Silimo",
   "i": 201168,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
 },
@@ -4593,8 +4219,8 @@ window.oceaniaNameBases = [
     "name": "Simbari",
   "i": 201169,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4602,8 +4228,8 @@ window.oceaniaNameBases = [
     "name": "Sinasina",
   "i": 201170,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4611,8 +4237,8 @@ window.oceaniaNameBases = [
     "name": "Singlish",
   "i": 201171,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Singapore,Jurong,Tampines,Woodlands,Bedok,Punggol,Sengkang,Hougang,Pasir Ris,Sembawang,Yishun,Ang Mo Kio,Bishan,Toa Payoh,Novena,Orchard,Marina Bay,Sentosa,Changi,Paya Labar,Lavender,Kallang,Geylang,Marine Parade,Katong,Joo Chiat,Buangkok,Compassvale,Rivervale,Anchorvale,Fernvale,Jalan Kayu,Seletar,Choa Chu Kang,Bukit Batok,Bukit Panjang,Bukit Timah,Clementi,Dover,Buona Vista,Ghim Moh,Holland Village,One-North,Queenstown,Commonwealth"
 },
@@ -4620,8 +4246,8 @@ window.oceaniaNameBases = [
     "name": "Somahai",
   "i": 201172,
   "min": 4,
-  "max": 12,
-  "d": "eglmos",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4629,8 +4255,8 @@ window.oceaniaNameBases = [
     "name": "Some",
   "i": 201173,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4638,8 +4264,8 @@ window.oceaniaNameBases = [
     "name": "Sonia",
   "i": 201174,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4647,8 +4273,8 @@ window.oceaniaNameBases = [
     "name": "Sonsorolese",
   "i": 201175,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Koror,Melekeok,Ngerulmud,Airai,Ngardmau,Ngarchelong,Kayangel,Babeldaob,Peleliu,Angaur,Sonsorol,Pulo Anna,Merir,Tobi,Hatohobei,Fana,Koror16,Koror17,Koror18,Koror19"
 },
@@ -4656,8 +4282,8 @@ window.oceaniaNameBases = [
     "name": "Squliq Atayal",
   "i": 201176,
   "min": 4,
-  "max": 12,
-  "d": "n",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4665,8 +4291,8 @@ window.oceaniaNameBases = [
     "name": "Suena",
   "i": 201177,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4674,8 +4300,8 @@ window.oceaniaNameBases = [
     "name": "Suganga",
   "i": 201178,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4683,8 +4309,8 @@ window.oceaniaNameBases = [
     "name": "Suki",
   "i": 201179,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4692,8 +4318,8 @@ window.oceaniaNameBases = [
     "name": "Susuami",
   "i": 201180,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4701,8 +4327,8 @@ window.oceaniaNameBases = [
     "name": "Tainae",
   "i": 201181,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4710,8 +4336,8 @@ window.oceaniaNameBases = [
     "name": "Tairoa",
   "i": 201182,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4719,8 +4345,8 @@ window.oceaniaNameBases = [
     "name": "Tairora",
   "i": 201183,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4728,8 +4354,8 @@ window.oceaniaNameBases = [
     "name": "Tamagario",
   "i": 201184,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4737,8 +4363,8 @@ window.oceaniaNameBases = [
     "name": "Tangko",
   "i": 201185,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4746,8 +4372,8 @@ window.oceaniaNameBases = [
     "name": "Taokas",
   "i": 201186,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4755,8 +4381,8 @@ window.oceaniaNameBases = [
     "name": "Tauade",
   "i": 201187,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4764,8 +4390,8 @@ window.oceaniaNameBases = [
     "name": "Teiwa",
   "i": 201188,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
 },
@@ -4773,8 +4399,8 @@ window.oceaniaNameBases = [
     "name": "Telefol",
   "i": 201189,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4782,8 +4408,8 @@ window.oceaniaNameBases = [
     "name": "Tembagla",
   "i": 201190,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4791,8 +4417,8 @@ window.oceaniaNameBases = [
     "name": "Thao",
   "i": 201191,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4800,8 +4426,8 @@ window.oceaniaNameBases = [
     "name": "Tifal",
   "i": 201192,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4809,8 +4435,8 @@ window.oceaniaNameBases = [
     "name": "Timor–Alor–Pantar",
   "i": 201193,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4818,8 +4444,8 @@ window.oceaniaNameBases = [
     "name": "Tirio (Lower Fly)",
   "i": 201194,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4827,8 +4453,8 @@ window.oceaniaNameBases = [
     "name": "Tobian",
   "i": 201195,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Koror,Melekeok,Ngerulmud,Airai,Ngardmau,Ngarchelong,Kayangel,Babeldaob,Peleliu,Angaur,Sonsorol,Pulo Anna,Merir,Tobi,Hatohobei,Fana,Koror16,Koror17,Koror18,Koror19"
 },
@@ -4836,8 +4462,8 @@ window.oceaniaNameBases = [
     "name": "Tokano",
   "i": 201196,
   "min": 4,
-  "max": 12,
-  "d": "n",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4845,8 +4471,8 @@ window.oceaniaNameBases = [
     "name": "Torres Strait Creole",
   "i": 201197,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Thursday Island,Horn Island,Badu Island,Mabuiag Island,Saibai Island,Boigu Island,Dauan Island,Erub Island,Ugar Island,Warraber Island,Poruma Island,Masig Island,Pulu Island,Sue Island,Thursday Island14,Thursday Island15,Thursday Island16,Thursday Island17,Thursday Island18,Thursday Island19"
 },
@@ -4854,8 +4480,8 @@ window.oceaniaNameBases = [
     "name": "Ts'ole' Atayal",
   "i": 201198,
   "min": 4,
-  "max": 12,
-  "d": "r",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4863,8 +4489,8 @@ window.oceaniaNameBases = [
     "name": "Tsaukambo",
   "i": 201199,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4872,8 +4498,8 @@ window.oceaniaNameBases = [
     "name": "Tsou",
   "i": 201200,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taipei,Hualien,Taitung,Yilan,Nantou,Taichung,Chiayi,Pingtung,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Tainan,Kaohsiung,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu,Cimei,Baisha,Huxi"
 },
@@ -4881,8 +4507,8 @@ window.oceaniaNameBases = [
     "name": "Turaka",
   "i": 201201,
   "min": 4,
-  "max": 12,
-  "d": "ego",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4890,8 +4516,8 @@ window.oceaniaNameBases = [
     "name": "Turama-Kikorian",
   "i": 201202,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4899,8 +4525,8 @@ window.oceaniaNameBases = [
     "name": "Uab Meto",
   "i": 201203,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4908,7 +4534,7 @@ window.oceaniaNameBases = [
     "name": "Uare",
   "i": 201204,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -4917,8 +4543,8 @@ window.oceaniaNameBases = [
     "name": "Umanakaina",
   "i": 201205,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4926,8 +4552,8 @@ window.oceaniaNameBases = [
     "name": "Urapmin",
   "i": 201206,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4935,8 +4561,8 @@ window.oceaniaNameBases = [
     "name": "Usarufa",
   "i": 201207,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4944,8 +4570,8 @@ window.oceaniaNameBases = [
     "name": "Vaeakau-Taumako",
   "i": 201208,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Nifilolia,Nukapu,Nukulaelae,Atafu,Fakaofo,Nukunonu,Taumako,Duff,Tikopia,Anuta,Rennell,Bellona,Ontong Java,Sikaiana,Luangiua,Nukumanu,Takuu,Nukuria,Kapingamarangi,Nukuoro,Pileni,Lata,Santa Cruz,Vanikoro,Utupua,Nendö,Graciosa Bay"
 },
@@ -4953,8 +4579,8 @@ window.oceaniaNameBases = [
     "name": "Waboda",
   "i": 201209,
   "min": 4,
-  "max": 12,
-  "d": "flnu",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4962,8 +4588,8 @@ window.oceaniaNameBases = [
     "name": "Waffa",
   "i": 201210,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -4971,8 +4597,8 @@ window.oceaniaNameBases = [
     "name": "Wahgi",
   "i": 201211,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -4980,8 +4606,8 @@ window.oceaniaNameBases = [
     "name": "Waimoa",
   "i": 201212,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -4989,7 +4615,7 @@ window.oceaniaNameBases = [
     "name": "Walak",
   "i": 201213,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
@@ -4998,8 +4624,8 @@ window.oceaniaNameBases = [
     "name": "Wambon",
   "i": 201214,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5007,8 +4633,8 @@ window.oceaniaNameBases = [
     "name": "Wano",
   "i": 201215,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
 },
@@ -5016,8 +4642,8 @@ window.oceaniaNameBases = [
     "name": "Waruna",
   "i": 201216,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5025,8 +4651,8 @@ window.oceaniaNameBases = [
     "name": "Wayan",
   "i": 201217,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -5034,7 +4660,7 @@ window.oceaniaNameBases = [
     "name": "Were",
   "i": 201218,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
@@ -5043,8 +4669,8 @@ window.oceaniaNameBases = [
     "name": "Weri",
   "i": 201219,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5052,8 +4678,8 @@ window.oceaniaNameBases = [
     "name": "Wersing",
   "i": 201220,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
 },
@@ -5061,8 +4687,8 @@ window.oceaniaNameBases = [
     "name": "West Bomberai",
   "i": 201221,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5070,8 +4696,8 @@ window.oceaniaNameBases = [
     "name": "Western",
   "i": 201222,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -5079,8 +4705,8 @@ window.oceaniaNameBases = [
     "name": "Western Dani",
   "i": 201223,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
 },
@@ -5088,8 +4714,8 @@ window.oceaniaNameBases = [
     "name": "Western Pantar",
   "i": 201224,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Alor,Pantar,Kabola,Tanglapui,Kaera,Kafoa,Nedebang,Retta,Teiwa,Wersing,Western Pantar,Klon,Abui,Adang,Hamap,Kui,Kiramang,Sawila,Kalabahi,Lewoleba,Larantuka,Maumere,Ende,Bajawa,Ruteng,Labuan Bajo,Komodo,Rinca,Flores,Solor,Lembata,Adonara,Ile Ape,Lewotobi"
 },
@@ -5097,8 +4723,8 @@ window.oceaniaNameBases = [
     "name": "Wiru",
   "i": 201225,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5106,8 +4732,8 @@ window.oceaniaNameBases = [
     "name": "Wolani",
   "i": 201226,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5115,8 +4741,8 @@ window.oceaniaNameBases = [
     "name": "Wolio",
   "i": 201227,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Suva,Nadi,Lautoka,Labasa,Savusavu,Taveuni,Kadavu,Vanua Levu,Viti Levu,Rotuma,Lau,Lomaiviti,Ba,Nadroga,Navosa,Namosi,Serua,Tailevu,Naitasiri,Rewa,Macuata,Cakaudrove,Bua,Ra"
 },
@@ -5124,7 +4750,7 @@ window.oceaniaNameBases = [
     "name": "Yagaria",
   "i": 201228,
   "min": 4,
-  "max": 12,
+  "max": 11,
   "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
@@ -5133,8 +4759,8 @@ window.oceaniaNameBases = [
     "name": "Yagwoia",
   "i": 201229,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5142,8 +4768,8 @@ window.oceaniaNameBases = [
     "name": "Yali",
   "i": 201230,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Baliem,Wamena,Dekai,Megapura,Pilimo,Kurima,Hetigima,Tangma,Asolokobal,Bokondini,Kiwi,Nduga,Silimo,Walak,Wano,Yali,Jalemo,Pesegem,Grand Valley,Upper Bele,Lower Bele,Kibin,Pyramid,Hupla,Western Dani,Ngalik,North Ngalik,South Ngalik,Damal,Amung,Dem,Kapauku,Moni,Woda,Ekagi,Uhunduni,Paniai,Tigi,Kamu,Wissel,Enarotali,Ilaga,Urumusu,Beoga,Mulia,Ilu,Puncak,Carstensz,Trikora,Mandala"
 },
@@ -5151,8 +4777,8 @@ window.oceaniaNameBases = [
     "name": "Yaqay",
   "i": 201231,
   "min": 4,
-  "max": 12,
-  "d": "lps",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5160,8 +4786,8 @@ window.oceaniaNameBases = [
     "name": "Yareba",
   "i": 201232,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5169,8 +4795,8 @@ window.oceaniaNameBases = [
     "name": "Yaweyuha",
   "i": 201233,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -5178,8 +4804,8 @@ window.oceaniaNameBases = [
     "name": "Yekora",
   "i": 201234,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5187,8 +4813,8 @@ window.oceaniaNameBases = [
     "name": "Yipma",
   "i": 201235,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5196,8 +4822,8 @@ window.oceaniaNameBases = [
     "name": "Yogo (Tamagario)",
   "i": 201236,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5205,8 +4831,8 @@ window.oceaniaNameBases = [
     "name": "Yonggom",
   "i": 201237,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Tekin,Oksapmin,Telefol,Tifal,Faiwol,Mian,Bimin,Ngalum,Ninggerum,Yonggom,Muyu,Nakai,Suganga,Tangko,Urapmin,Setaman,Lowland Iwur,Mountain,Western,Sandaun,Fly,Strickland,Kiunga,Tabubil,Olsobip,Nuku,Telefomin,Frieda,Sepik,Green,Ramu,Yuat,Keram,Wosera,Maprik,Angoram,Murik,Karawari,Kambot,Yimas,Chambri,Iatmul,Abelam,Boiken,Gaikundi,Sos Kundi,Hewa,Vanimo,Aitape,Wewak"
 },
@@ -5214,8 +4840,8 @@ window.oceaniaNameBases = [
     "name": "Zia",
   "i": 201238,
   "min": 4,
-  "max": 12,
-  "d": "eg",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5223,8 +4849,8 @@ window.oceaniaNameBases = [
     "name": "Zimakani",
   "i": 201239,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Port Moresby,Lae,Madang,Wewak,Goroka,Mount Hagen,Rabaul,Kimbe,Kokopo,Popondetta,Alotau,Port Moresby11,Port Moresby12,Port Moresby13,Port Moresby14,Port Moresby15,Port Moresby16,Port Moresby17,Port Moresby18,Port Moresby19"
 },
@@ -5232,9 +4858,10 @@ window.oceaniaNameBases = [
     "name": "ꞌAreꞌare",
   "i": 201240,
   "min": 4,
-  "max": 12,
-  "d": "t",
+  "max": 11,
+  "d": "lnrt",
   "m": 0,
   "b": "Taitung,Hualien,Pingtung,Tainan,Kaohsiung,Taichung,Taipei,Yilan,Nantou,Chiayi,Taoyuan,Hsinchu,Miaoli,Changhua,Yunlin,Kinmen,Penghu,Green Island,Orchid Island,Sun Moon Lake,Alishan,Taroko,Yushan,Xueshan,Hehuanshan,Yangmingshan,Kenting,Chengwen,Wulai,Jiji,Ruisui,Fengjia,Puli,Renai,Xinyi,Datong,Yuli,Guanshan,Luye,Chenggong,Dulan,Sanxiantai,Shanyuan,Dawu,Taimali,Ludao,Lanyu"
-}
+},
+
 ];
