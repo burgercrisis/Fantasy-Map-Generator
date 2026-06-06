@@ -55,7 +55,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Langwarrin,Lalor,Lakemba"
+  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Ciudad Guayana,Maturín,Maracay,Barcelona,Puerto La Cruz,Cumaná"
 },
 {
     "name": "Terêna",
@@ -65,6 +65,33 @@ window.southAmericaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Tessenderlo,Tervuren,Temse,Stekene,Stabroek,Soumagne,Sint-Truiden,Sint-Pieters-Leeuw,Sint-Kruis"
+},
+{
+    "name": "Rioplatense Spanish",
+  "i": 237,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Buenos Aires,Montevideo,Cordoba,Rosario,Mendoza,La Plata,Mar del Plata,Salta,Tucuman,Santa Fe"
+},
+{
+    "name": "Tacana",
+  "i": 238,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+},
+{
+    "name": "Wiwa",
+  "i": 239,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Peruvian Ribereño",
@@ -181,7 +208,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Tequisquiapan,Cuautitlán Izcalli,Tepotzotlán"
+  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
 },
 {
     "name": "Nonuya",
@@ -190,7 +217,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moyotzingo,Santa María Chimalhuacán,Santa María Atzompa,Heroica Ciudad de Tlaxiaco"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Ocaina",
@@ -346,13 +373,40 @@ window.southAmericaNameBases = [
   "b": "Nowy Tomyśl,Nowogard,Nowa Sól,Nowa Ruda,Namysłów,Nakło nad Notecią,Myszków,Mysłowice,Myślenice"
 },
 {
+    "name": "Warízu",
+  "i": 5820,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
+},
+{
+    "name": "Wari'",
+  "i": 5821,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+},
+{
+    "name": "Sanumá",
+  "i": 5822,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
+},
+{
     "name": "Trinitario",
   "i": 5823,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Choszczno,Chodzież,Chełmża"
+  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
 },
 {
     "name": "Reyesano (Maropa)",
@@ -397,7 +451,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Surif City,Shu‘fāţ,Qalqīlyah,Qabāţīyah"
+  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
 },
 {
     "name": "Palikur",
@@ -427,13 +481,22 @@ window.southAmericaNameBases = [
   "b": "Carnide,Carnaxide,Carcavelos,Caparica,Caniço,Camarate,Câmara de Lobos"
 },
 {
+    "name": "Guajajara",
+  "i": 6620,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "São Luís,Imperatriz,Timon,São José de Ribamar,Caxias,Paço do Lumiar,Codó,Bacabal,Chapadinha,Coroatá"
+},
+{
     "name": "Língua Geral Amazônica",
   "i": 6621,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "São Tiago de Custoias,São Pedro da Cova,São Paulo de Frades,São Martinho do Bispo"
+  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
 },
 {
     "name": "Gwich'in",
@@ -460,7 +523,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Calarasi County,Harghita County,Constanta County,Bacau County"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Desano",
@@ -523,7 +586,16 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sremčica,Obrenovac,Nova Pazova"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+},
+{
+    "name": "Siriano",
+  "i": 6662,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Siona",
@@ -613,7 +685,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Staraya Derevnya,Sovetsk"
+  "b": "Santa Cruz de la Sierra,Cochabamba,La Paz,Sucre,Tarija,Oruro,Potosí,Montero,Trinidad,Riberalta"
 },
 {
     "name": "Guambiano",
@@ -694,7 +766,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Otradnyy,Otradnoye,Otradnaya,Oryol oblast"
+  "b": "Panama City,San Miguelito,Toclé,David,Santiago,Chitré,Colón,La Chorrera,Penonomé,Soná"
 },
 {
     "name": "Mapudungun",
@@ -703,7 +775,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Onega,Novozybkov,Novovoronezh"
+  "b": "Santiago,Buenos Aires,Mendoza,Córdoba,Rosario,La Plata,Mar del Plata,San Juan,Neuquén,Salta"
 },
 {
     "name": "Ona",
@@ -739,7 +811,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nartkala,Naro-Fominsk"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Kakwa (Cacua)",
@@ -748,7 +820,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Matveyevskoye,Marks"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Cuiba",
@@ -793,7 +865,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kovdor"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Guayabero",
@@ -829,7 +901,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Belorechensk,Beloozyorskiy,Belgorod"
+  "b": "Belmopan,San Ignacio,Orange Walk Town,Dangriga,Punta Gorda,Benque Viejo,Corozal Town,San Pedro,Placencia,Hopkins"
 },
 {
     "name": "Tojolab'al",
@@ -874,7 +946,25 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dalnegorsk,Khabarovsk Vtoroy,Sakhalin Oblast,Magadan Oblast"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+},
+{
+    "name": "Piapoco",
+  "i": 8653,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
+},
+{
+    "name": "Wapishana",
+  "i": 8655,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Georgetown,Lethem,New Amsterdam,Skeldon,Bartica,Mabaruma,Anna Regina,Fort Wellington,Pomeroon,Charity"
 },
 {
     "name": "Chorote",
@@ -928,7 +1018,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ranong province"
+  "b": "Bogotá,Medellín,Cali,Barranquilla,Cartagena,Santa Marta,Villavicencio,Pereira,Manizales,Neiva"
 },
 {
     "name": "Yanomami",
@@ -1000,7 +1090,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kebili,Kebili Governorate,Medenine Governorate"
+  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
 },
 {
     "name": "Língua Geral Paulista",
@@ -1081,7 +1171,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Blue Island,Burbank"
+  "b": "Belém,Manaus,São Paulo,Rio de Janeiro,Fortaleza,Salvador,Curitiba,Recife,Porto Alegre,Brasília"
 },
 {
     "name": "Shipibo-Conibo Amazonian",
@@ -1396,7 +1486,7 @@ window.southAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Barcelona,Puerto La Cruz,Maturin,Ciudad Guayana,Merida"
+  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Barcelona,Puerto La Cruz,Maturín,Ciudad Guayana,Mérida"
 },
 {
     "name": "Warao",

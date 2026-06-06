@@ -100,7 +100,16 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caboolture,Burwood,Burnie,Bundaberg"
+  "b": "New Orleans,Lafayette,Baton Rouge,Shreveport,Lake Charles,Houma,Thibodaux,Opelousas,Crowley,Eunice"
+},
+{
+    "name": "Chuj",
+  "i": 236,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "San Mateo Ixtatán,San Sebastián Coatán,Nentón,Barillas,Ixcán,Huehuetenango,San Juan Cotzal,Santa Cruz del Quiché,Chichicastenango,Antigua Guatemala"
 },
 {
     "name": "Seri",
@@ -110,6 +119,15 @@ window.northAmericaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Calgary,Camrose,Candiac,Cariboo,Cartierville,Central Saanich,Centretown,Chambly,Châteauguay"
+},
+{
+    "name": "Inuktitut",
+  "i": 728,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Iqaluit,Rankin Inlet,Arviat,Baker Lake,Pond Inlet,Cape Dorset,Pangnirtung,Igloolik,Clyde River,Kimmirut"
 },
 {
     "name": "Acadian",
@@ -379,7 +397,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Western North"
+  "b": "Prairie du Chien,Wisconsin Rapids,La Crosse,Green Bay,Milwaukee,Chicago,St. Louis,Davenport,Rock Island,Peoria"
 },
 {
     "name": "Broken Slavey",
@@ -388,7 +406,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aflao"
+  "b": "Whitehorse,Dawson City,Fort McPherson,Inuvik,Yellowknife,Norman Wells,Watson Lake,Mayo,Carmacks,Pelly Crossing"
 },
 {
     "name": "Chol",
@@ -397,7 +415,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Pedro Ayampuc"
+  "b": "Tuxtla Gutiérrez,San Cristóbal de las Casas,Comitán,Tapachula,Ocosingo,Palenque,Chiapa de Corzo,Tonala,Arrigain,Cacahoatán"
 },
 {
     "name": "Cahuilla",
@@ -406,7 +424,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Izabal Department"
+  "b": "Los Angeles,San Diego,Riverside,Palm Springs,Indio,Thermal,Anza,Mountain Center,Aguanga,Idyllwild"
 },
 {
     "name": "Huastec",
@@ -586,7 +604,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Al Mishkhāb,Al Miqdādīyah,Al Mawşil al Jadīdah,Al Maḩāwīl"
+  "b": "Mescalero,San Carlos,White Mountain,Fort Sill,Jicarilla,Lipan,Chiricahua,Warm Springs,Tonto,Cibecue"
 },
 {
     "name": "Athabaskan",
@@ -595,7 +613,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Al Başrah al Qadīmah,Khasnahzān,Khalīfān,Hajiawa"
+  "b": "Fairbanks,Anchorage,Bethel,Nome,Barrow,Kotzebue,Dillingham,Unalakleet,St. Mary's,Holy Cross"
 },
 {
     "name": "Navajo",
@@ -605,6 +623,24 @@ window.northAmericaNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "‘Anah,Simele,Shūrash,Abū al-Kahṣīb,Iran,Islamic Republic of,Alvand,Qazvin Province,Zīr Āb,Mazandaran"
+},
+{
+    "name": "Achi",
+  "i": 2223,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Salamá,Cubulco,Rabinal,San Miguel Chicaj,San Jerónimo,Purulhá,El Chol,Granados,Tactic,San Cristóbal"
+},
+{
+    "name": "Akatek",
+  "i": 2249,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "San Miguel Acatán,San Rafael La Independencia,Concepción Huista,Nentón,San Sebastián Coatán,San Mateo Ixtatán,Huehuetenango,Comitán,Tuxtla Gutiérrez,San Cristóbal de las Casas"
 },
 {
     "name": "Labrador Inuit Pidgin French (dedicated)",
@@ -622,7 +658,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Uva Province"
+  "b": "Pine Ridge,Rosebud,Standing Rock,Cheyenne River,Lower Brule,Crow Creek,Yankton,Flandreau,Marty,Wagner"
 },
 {
     "name": "Cuicatec",
@@ -631,7 +667,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Reforma"
+  "b": "Oaxaca City,Cuicatlán,Teotitlán del Valle,Miahuatlán,Tlaxiaco,Huatulco,Pochutla,Puerto Escondido,Salina Cruz,Juchitán"
 },
 {
     "name": "Ahtna",
@@ -703,7 +739,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ebute Ikorodu,Dutsen Wai,Burutu"
+  "b": "Juneau,Skagway,Sitka,Ketchikan,Haines,Angoon,Yakutat,Metlakatla,HAINES,Tenakee Springs"
 },
 {
     "name": "Salish",
@@ -748,7 +784,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Acapulco,Cancun,Guadalajara,Mazatlan,Merida,Monterrey,Puerto Vallarta,Tijuana,Toluca,Veracruz"
+  "b": "Acapulco,Cancun,Guadalajara,Mazatlán,Mérida,Monterrey,Puerto Vallarta,Tijuana,Toluca,Veracruz"
 },
 {
     "name": "Paipai",
@@ -775,7 +811,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quelfes"
+  "b": "Pine Ridge,Rosebud,Standing Rock,Cheyenne River,Lower Brule,Crow Creek,Yankton,Flandreau,Marty,Wagner"
 },
 {
     "name": "Crow",
@@ -784,7 +820,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lumiar,Loures,Loulé,Linda-a-Velha"
+  "b": "Crow Agency,Hardin,Lodge Grass,Pryor,St. Xavier,Wyola,Fort Smith,Burns Creek,Smith Creek,Soap Creek"
 },
 {
     "name": "Mixe",
@@ -811,7 +847,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fânzeres,Fafe"
+  "b": "Oaxaca City,Cuicatlán,Teotitlán del Valle,Miahuatlán,Tlaxiaco,Huatulco,Pochutla,Puerto Escondido,Salina Cruz,Juchitán"
 },
 {
     "name": "Ixcatec",
@@ -820,7 +856,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alfragide,Alvalade,Azores,São Jorge de Arroios"
+  "b": "Oaxaca City,Cuicatlán,Teotitlán del Valle,Miahuatlán,Tlaxiaco,Huatulco,Pochutla,Puerto Escondido,Salina Cruz,Juchitán"
 },
 {
     "name": "Q'anjob'al",
@@ -865,7 +901,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Farīj al Amīr,Réunion,Piton Saint-Leu"
+  "b": "Grayling,Anvik,Shageluk,Holy Cross,McGrath,Nikolai,Takotna,Lime Village,Red Devil,Sleetmute"
 },
 {
     "name": "Koyukon",
@@ -946,7 +982,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Severnyy,Setun’,Sestroretsk,Sertolovo"
+  "b": "Lawton,Frederick,Walters,Cache,Elgin,Fletcher,Indiahoma,Geronimo,Medicine Park,Meers"
 },
 {
     "name": "Hopi",
@@ -955,7 +991,16 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mordoviya Republic"
+  "b": "Oraibi,Hotevilla,Walpi,Shongopavi,Mishongnovi,First Mesa,Second Mesa,Third Mesa,Keams Canyon,Tuba City"
+},
+{
+    "name": "Shoshoni",
+  "i": 7837,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Reno,Carson City,Elko,Ely,Fallon,Winnemucca,Battle Mountain,Tonopah,Austin,Gabbs"
 },
 {
     "name": "Kalaallisut",
@@ -1039,13 +1084,22 @@ window.northAmericaNameBases = [
   "b": "Gusev,Gul’kevichi,Gukovo,Gubkin,Gubakha,Gryazovets,Gryazi,Gribanovskiy"
 },
 {
+    "name": "Yucatec Maya",
+  "i": 8128,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mérida,Valladolid,Tizimín,Progreso,Umán,Ticul,Halachó,Peto,Calkínu,Motul"
+},
+{
     "name": "Kaqchikel",
   "i": 8129,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalmykiya Republic"
+  "b": "Guatemala City,Antigua Guatemala,Chichicastenango,Sololá,Totonicapán,Quetzaltenango,Escuintla,Mazatenango,Retalhuleu,San Marcos"
 },
 {
     "name": "Ixil",
@@ -1054,7 +1108,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Davydkovo,Dankov,Danilov,Dachnoye"
+  "b": "Guatemala City,Nebaj,Chajul,Cotzal,Santa María Nebaj,Sacapulas,Canillá,San Juan Cotzal,Uspantán,Santa Cruz Barillas"
 },
 {
     "name": "Jakaltek",
@@ -1093,13 +1147,22 @@ window.northAmericaNameBases = [
   "b": "Bogorodsk,Bogoroditsk,Bobrov,Blagodarnyy,Biryulëvo,Bibirevo,Bezhetsk,Bezenchuk"
 },
 {
+    "name": "Poqomam",
+  "i": 8136,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Guatemala City,Mixco,San Lucas Sacatepéquez,Santiago Sacatepéquez,San Juan Sacatepéquez,Fraijanes,Villa Nueva,Chimaltenango,Amatitlán,Palin"
+},
+{
     "name": "Poqomchi'",
   "i": 8137,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Aleksandrovsk"
+  "b": "Guatemala City,Tucurú,Tamahú,San Cristóbal Verapaz,Purulhá,Tactic,San Miguel Chicaj,Rabinal,Salamá,San Jerónimo"
 },
 {
     "name": "Tz'utujil",
@@ -1144,7 +1207,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Khakasiya Republic,Polevskoy"
+  "b": "Toluca,Metepec,Tenancingo,San Mateo Atenco,Lerma,Temoaya,Calimaya,San Antonio la Isla,Santiago Tianguistenco,Xalatlaco"
 },
 {
     "name": "Mazahua",
@@ -1153,7 +1216,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Myski"
+  "b": "Toluca,Metepec,San Felipe del Progreso,Atlacomulco,Ixtlahuaca,Jiquipilco,San José del Rincón,Villa Victoria,El Oro,San Martín Otzoloapan"
 },
 {
     "name": "Mixtec",
@@ -1180,7 +1243,16 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kodinsk,Kochenëvo,Kiselëvsk,Kirovgrad"
+  "b": "Oaxaca City,Juchitán,Tehuantepec,Salina Cruz,Miahuatlán,Pochutla,Huatulco,Tlaxiaco,San Pedro Pochutla,Puerto Ángel"
+},
+{
+    "name": "Mayo",
+  "i": 8481,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Navojoa,Hermosillo,Guaymas,Ciudad Obregón,Los Mochis,Culiacán,Mazatlán,San Luis Río Colorado,Agua Prieta,Cananea"
 },
 {
     "name": "O'odham",
@@ -1207,7 +1279,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Akademgorodok,Snezhinsk,Ozersk"
+  "b": "Chihuahua,Ciudad Juárez,Delicias,Parral,Cuauhtémoc,Nuevo Casas Grandes,Camargo,Jiménez,Meoqui,Ojinaga"
 },
 {
     "name": "Huarijio",
@@ -1216,7 +1288,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Primorye,Buryatiya Republic"
+  "b": "Hermosillo,Ciudad Obregón,Navojoa,Guaymas,Nogales,San Luis Río Colorado,Caborca,Agua Prieta,Cananea,Peñasco"
 },
 {
     "name": "Yaqui",
@@ -1243,7 +1315,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Moïssala,Hadjer-Lamis,Tandjile,Mayo-Kebbi Est"
+  "b": "Inuvik,Tuktoyaktuk,Sachs Harbour,Paulatuk,Ulukhaktok,Aklavik,Fort McPherson,Whitehorse,Yellowknife,Norman Wells"
 },
 {
     "name": "Blackfoot",
@@ -1252,7 +1324,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ennedi-Est,French Southern Territories,Kerguelen"
+  "b": "Billings,Great Falls,Missoula,Bozeman,Helena,Butte,Kalispell,Whitefish,Havre,Glasgow"
 },
 {
     "name": "Haida",
@@ -1399,6 +1471,15 @@ window.northAmericaNameBases = [
   "b": "Radomyshl,Pyatykhatky,Pryluky,Chernihiv Oblast,Popasna,Polonne,Polohy,Podil,Pidhorodnye"
 },
 {
+    "name": "Rama Cay Creole (dedicated)",
+  "i": 20180,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Managua,Bluefields,Rama Cay,San Juan del Sur,Corinto,Puerto Cabezas,Bilwi,Siuna,Rosita,Bonanza"
+},
+{
     "name": "Saint Kitts Creole (dedicated)",
   "i": 20181,
   "min": 4,
@@ -1423,7 +1504,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lozova,Lysychansk,Ladyzhyn,Kupyansk"
+  "b": "Port of Spain,San Fernando,Chaguanas,Arima,Sangre Grande,Point Fortin,Tunapuna,Princes Town,Scarborough,Diego Martin"
 },
 {
     "name": "Turks and Caicos Creole (dedicated)",
@@ -1432,7 +1513,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kostyantynivka,Slobozhanske,Kolomyia,Khrestivka"
+  "b": "Cockburn Town,Providenciales,Grand Turk,South Caicos,North Caicos,Middle Caicos,Whitby,Kew,Blue Hills,Bottle Creek"
 },
 {
     "name": "Vincentian Creole (dedicated)",
@@ -1486,7 +1567,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dolton,Downers Grove,East Garfield Park"
+  "b": "Morelia,Uruapan,Zamora,Apatzingán,Lázaro Cárdenas,Pátzcuaro,Cuitzeo,Zinapécuaro,Tacámbaro,Ciudad Hidalgo"
 },
 {
     "name": "Huave",
@@ -1765,7 +1846,7 @@ window.northAmericaNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rio Grande,Porto Alegre,Natal,Pelotas,Sao Jose,Alegrete,Uruguaiana,Passo Fundo"
+  "b": "Ixtlan de Juarez,San Pablo Guelatao,Santa Cruz Yagavila,San Juan Yagila,Santa Maria Yahuiche,Santiago Teotlasco,Santo Domingo Cacalotepec,San Miguel Tiltepec,San Pedro Yaneri,Benito Juarez"
 },
 {
     "name": "Tlapanec (Meꞌphaa)",

@@ -1801,7 +1801,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Nouakchott,Nouadhibou,Rosso,Kaedi,Zouerate,Atar,Tidjikja,Kiffa,Adrar,Chinguetti"
+  "b": "Nouakchott,Nouadhibou,Rosso,Kaédi,Zouerate,Atar,Tidjikja,Kiffa,Adrar,Chinguetti"
 },
 {
     "name": "Tsuvan",
@@ -7327,7 +7327,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mossoro,Natal,Parnamirim,Macaiba,CearaMirim,SantaCruz,AreiaBranca"
+  "b": "Tavda,Kungur,Verkhoturye,Pelym,Nizhnyaya Tura,Tagil,Chusovaya,Iset,Tyumen,Tobolsk"
 },
 {
     "name": "Taygi",
@@ -7723,7 +7723,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Areia Branca,Mossoro,Natal,Parnamirim,Macaiba,CearaMirim,SantaCruz,SaoMiguel"
+  "b": "Cremona,Crema,Pizzighettone,Soresina,Casalmaggiore,Rivolta d'Adda,Castelleone,Cremosano,Formigara,Soncino"
 },
 {
     "name": "Crișana",
@@ -7750,7 +7750,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Dusseldorf,Dortmund,Essen,Leipzig"
+  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
 },
 {
     "name": "Icelandic",
@@ -7993,7 +7993,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Dusseldorf,Dortmund,Essen,Leipzig"
+  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
 },
 {
     "name": "Urum",
@@ -8074,7 +8074,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Conakry,Kindia,Labe,Nzerekore,Boke,Mamou,Faranah,Kankan,Kissidougou,Macenta"
+  "b": "Conakry,Kindia,Labe,Nzérékoré,Boké,Mamou,Faranah,Kankan,Kissidougou,Macenta"
 },
 {
     "name": "Principense Creole",
@@ -8137,7 +8137,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sao Bernardo,Sao Paulo,Santo Andre,SaoCaetano,Diadema,Maua,Ribeirao Preto,Sao Jose,SaoCarlos"
+  "b": "Noumea,Mont-Dore,Saint-Laurent,Dumbea,Kaala-Gomen,Pouembout,Bourail,La Foa,Paita,Thio"
 },
 {
     "name": "Ch'ol",
@@ -8191,7 +8191,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rio Grande,Porto Alegre,Natal,Pelotas,Sao Jose,Alegrete,Uruguaiana,Passo Fundo"
+  "b": "Ixtlan de Juarez,San Pablo Guelatao,Santa Cruz Yagavila,San Juan Yagila,Santa Maria Yahuiche,Santiago Teotlasco,Santo Domingo Cacalotepec,San Miguel Tiltepec,San Pedro Yaneri,Benito Juarez"
 },
 {
     "name": "Tlapanec (Meꞌphaa)",
@@ -8236,7 +8236,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Porto Alegre,Rio Grande,Pelotas,Canoas,Novo Hamburgo,Sao Jose,Passo Fundo,Alegrete"
+  "b": "Mosul,Kirkuk,Duhok,Erbil,Alqosh,Tel Keppe,Qaraqosh,Ankawa,Shaqlawa,Amadiya"
 },
 {
     "name": "Awsānian",
@@ -12025,7 +12025,7 @@ window.dedicatedNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Barcelona,Puerto La Cruz,Maturin,Ciudad Guayana,Merida"
+  "b": "Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,Barcelona,Puerto La Cruz,Maturín,Ciudad Guayana,Mérida"
 },
 {
     "name": "Warao",

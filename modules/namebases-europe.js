@@ -10,7 +10,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Escaldes-Engordany"
+  "b": "London,Manchester,Birmingham,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester"
 },
 {
     "name": "French",
@@ -91,7 +91,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Fier-Çifçi,Durrës,Masis"
+  "b": "Budapest,Debrecen,Szeged,Miskolc,Pécs,Győr,Nyíregyháza,Kecskemét,Székesfehérvár,Szombathely"
 },
 {
     "name": "Basque",
@@ -163,7 +163,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Casilda,Carmen de Patagones,Allen"
+  "b": "Kyiv,Kharkiv,Odesa,Dnipro,Donetsk,Lviv,Zaporizhzhia,Kryvyi Rih,Mykolaiv,Vinnytsia"
 },
 {
     "name": "Irish Gaelic",
@@ -371,6 +371,15 @@ window.europeNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Laiuse,Tartu,Tallinn,Narva,Pärnu,KohtlaJärve,Valga,Viljandi,Rakvere,Kohila,Lelle,Keila,Saue,Nissi"
+},
+{
+    "name": "Castrapo",
+  "i": 235,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Santiago de Compostela,A Coruna,Vigo,Pontevedra,Ourense,Lugo,Ferrol,Naron,Carballo,Arteixo"
 },
 {
     "name": "Norman",
@@ -679,6 +688,24 @@ window.europeNameBases = [
   "b": "Araxá,Araucária,Araruama,Araras,Araraquara,Araranguá,Araquari,Arapoti"
 },
 {
+    "name": "Pugliese",
+  "i": 342,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Bari,Brindisi,Lecce,Taranto,Foggia,Andria,Barletta,Trani,Monopoli,San Severo"
+},
+{
+    "name": "South Lucanian",
+  "i": 343,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Potenza,Matera,Melfi,Policoro,Venosa,Lagonegro,Lauria,Rotonda,Chiaromonte,Francavilla in Sinni"
+},
+{
     "name": "Southern Latian",
   "i": 344,
   "min": 4,
@@ -757,7 +784,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Alto Alegre do Maranhão,Alto Alegre do Pindaré,Alto Paraíso,Alumínio"
+  "b": "Besançon,Belfort,Montbéliard,Dole,Pontarlier,Lons-le-Saunier,Vesoul,Saint-Claude,Gray,Audincourt"
 },
 {
     "name": "Gallo",
@@ -793,7 +820,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rio de Janeiro,Sao Paulo,Belo Horizonte,Salvador,Fortaleza,Manaus,Curitiba,Recife,Belem,Porto Alegre"
+  "b": "Metz,Nancy,Bar-le-Duc,Thionville,Epinal,Toul,Verdun,Sarrebourg,Forbach,Hayange"
 },
 {
     "name": "Mayennais",
@@ -847,7 +874,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rorainópolis,Rosana,Rurópolis,Salto do Lontra"
+  "b": "Lipari,Malfa,Leni,Filicudi,Alicudi,Salina,Panarea,Stromboli,Vulcano,Panarea"
 },
 {
     "name": "Alentejan",
@@ -1099,7 +1126,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "London,Birmingham,Manchester,Liverpool,Leeds,Sheffield,Bristol,Newcastle,Nottingham,Leicester"
+  "b": "Oradea,Arad,Cluj-Napoca,Salonta,Beius,Alesd,Marghita,Stei,Chisineu-Cris,Curtea de Arges"
 },
 {
     "name": "Daco-Romanian",
@@ -1144,7 +1171,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saskatchewan"
+  "b": "Brescia,Bergamo,Monza,Como,Cremona,Lodi,Mantova,Pavia,Varese,Lecco"
+},
+{
+    "name": "Eastern Nonmetafonetica",
+  "i": 409,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Catania,Siracusa,Ragusa,Augusta,Lentini,Paterno,Carlentini,Militello,Francofonte,Scordia"
 },
 {
     "name": "Eastern Romanian",
@@ -1153,7 +1189,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Pierrefonds"
+  "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Galați,Ploiești,Oradea,Brăila"
 },
 {
     "name": "Ecuadorian Spanish",
@@ -1162,7 +1198,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Rouyn-Noranda"
+  "b": "Quito,Guayaquil,Cuenca,Santo Domingo,Machala,Durán,Portoviejo,Manta,Loja,Ambato"
 },
 {
     "name": "Emilian",
@@ -1171,7 +1207,52 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saint-Hyacinthe,Saint-Jean-sur-Richelieu,Saint-Laurent,Salaberry-de-Valleyfield"
+  "b": "Bologna,Modena,Parma,Reggio Emilia,Piacenza,Ferrara,Ravenna,Forlì,Cesena,Rimini"
+},
+{
+    "name": "Ennese",
+  "i": 420,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Enna,Piazza Armerina,Nicosia,Aidone,Sperlinga,Gangi,Valguarnera Caropepe,Barrafranca,Morgantina,Caltanissetta"
+},
+{
+    "name": "Eonavian",
+  "i": 421,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Boal,Castropol,Coaña,Eilao,El Franco,Grandas de Salime,Pezós,Taramundi,Tapia de Casariego,Vilanova de Ozcos"
+},
+{
+    "name": "Estremenho",
+  "i": 423,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lisbon,Coimbra,Santarem,Leiria,Torres Vedras,Caldas da Rainha,Setúbal,Almada,Amadora,Odivelas"
+},
+{
+    "name": "European Portuguese",
+  "i": 424,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lisbon,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu"
+},
+{
+    "name": "Extremaduran",
+  "i": 425,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Caceres,Plasencia,Mérida,Badajoz,Almendralejo,Don Benito,Navalmoral de la Mata,Miajadas,Coria,Guadalupe"
 },
 {
     "name": "Fabriano",
@@ -1198,7 +1279,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kasai-Central"
+  "b": "Cáceres,Plasencia,Mérida,Badajoz,Almendralejo,Don Benito,Navalmoral de la Mata,Miajadas,Coria,Guadalupe"
 },
 {
     "name": "Ferrarese",
@@ -1207,7 +1288,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kalima"
+  "b": "Ferrara,Cento,Comacchio,Argenta,Portomaggiore,Copparo,Bondeno,Poggio Renatico,Voghiera,Migliaro"
 },
 {
     "name": "Fiuman",
@@ -1216,7 +1297,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bondo,Basoko,Tshilenge"
+  "b": "Rijeka,Pula,Osijek,Zadar,Split,Dubrovnik,Varaždin,Karlovac,Šibenik,Slavonski Brod"
 },
 {
     "name": "Florentine",
@@ -1225,7 +1306,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sud-Ubangi,Bas-Congo,Kwilu,Mangai"
+  "b": "Florence,Pisa,Lucca,Arezzo,Siena,Prato,Livorno,Pistoia,Grosseto,Massa"
 },
 {
     "name": "Forlivese",
@@ -1234,7 +1315,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dungu,Bulungu"
+  "b": "Forlì,Cesena,Rimini,Ravenna,Faenza,Imola,San Marino,Forlimpopoli,Bertinoro,Castrocaro"
 },
 {
     "name": "Fornes",
@@ -1279,7 +1360,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Valais,Basel-Landschaft"
+  "b": "Oviedo,Gijón,Avilés,Mieres,Langreo,Siero,Cangas del Narcea,Llanes,Cudillero,Tineo"
 },
 {
     "name": "Gallo-Italic of Basilicata",
@@ -1288,7 +1369,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ticino,Lausanne,Thurgau"
+  "b": "Potenza,Matera,Melfi,Policoro,Venosa,Lagonegro,Lauria,Rotonda,Chiaromonte,Francavilla in Sinni"
 },
 {
     "name": "Gallo-Italic of Sicily",
@@ -1297,7 +1378,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Appenzell Ausserrhoden,Grisons"
+  "b": "Palermo,Catania,Messina,Syracuse,Agrigento,Trapani,Caltanissetta,Enna,Ragusa,Licata"
 },
 {
     "name": "Gallo-Picene",
@@ -1306,7 +1387,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Basel-City"
+  "b": "Ancona,Pesaro,Macerata,Fermo,Ascoli Piceno,Civitanova Marche,San Benedetto del Tronto,Recanati,Matelica,Cingoli"
 },
 {
     "name": "Gallurese",
@@ -1315,7 +1396,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sassandra-Marahoue,Zoukougbeu,Montagnes"
+  "b": "Sassari,Olbia,Alghero,Tempio Pausania,Palau,La Maddalino,Arzachena,Badesi,Oschiri,Luras"
 },
 {
     "name": "Gardiol",
@@ -1333,7 +1414,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Saïoua,Oumé,Goh-Djiboua"
+  "b": "Bordeaux,Toulouse,Pau,Auch,Arcachon,Biarritz,Bayonne,Dax,Mont-de-Marsan,Agen"
 },
 {
     "name": "Genoese",
@@ -1342,7 +1423,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Denguele District,Comoe District"
+  "b": "Genoa,Savona,La Spezia,Chiavari,Rapallo,Albenga,Loano,Varazze,Recco,Sestri Levante"
 },
 {
     "name": "Grossetano",
@@ -1351,7 +1432,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Abidjan Autonomous District"
+  "b": "Grosseto,Orbetello,Follonica,Porto Ercole,Castiglione della Pescaia,Massa Marittima,Scansano,Manciano,Sorano,Pitigliano"
 },
 {
     "name": "Haketia",
@@ -1360,7 +1441,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Guibéroua,Ferkessédougou"
+  "b": "Casablanca,Rabat,Marrakech,Fez,Tangier,Agadir,Meknes,Oujda,Kenitra,Tetouan"
 },
 {
     "name": "Intemelio",
@@ -1369,7 +1450,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Doukouya"
+  "b": "Genoa,Savona,La Spezia,Chiavari,Rapallo,Albenga,Loano,Varazze,Recco,Sestri Levante"
+},
+{
+    "name": "Istriot",
+  "i": 451,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Rovinj,Vodnjan,Bale,Fažana,Šišan,Galižana,Pula,Istria,Lim,Raša"
 },
 {
     "name": "Jauer",
@@ -1378,7 +1468,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arrah"
+  "b": "Chur,Davos,St. Moritz,Arosa,Landquart,Ilanz,Domleschg,Thusis,Surses,Albula"
+},
+{
+    "name": "Judeo-Catalan",
+  "i": 456,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Barcelona,Girona,Lleida,Tarragona,Valencia,Palma de Mallorca,Perpignan,Tortosa,Reus,Igualada"
 },
 {
     "name": "Judeo-Gascon",
@@ -1396,7 +1495,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Purranque,Los Lagos Region,Region of Magallanes,Aysen"
+  "b": "Bordeaux,Toulouse,Pau,Auch,Arcachon,Biarritz,Bayonne,Dax,Mont-de-Marsan,Agen"
 },
 {
     "name": "Languedocien",
@@ -1405,7 +1504,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Panguipulli,Padre Las Casas,Nueva Imperial"
+  "b": "Toulouse,Montpellier,Nîmes,Perpignan,Carcassonne,Béziers,Albi,Castres,Narbonne,Millau"
+},
+{
+    "name": "Latin",
+  "i": 468,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Rome,Ostia,Tivoli,Alba Longa,Lavinium,Tusculum,Aricia,Lanuvium,Praeneste,Tibur"
 },
 {
     "name": "Leonese",
@@ -1414,7 +1522,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Coquimbo"
+  "b": "León,Ponferrada,Astorga,Bembibre,Cistierna,La Bañeza,Sahagún,Villafranca del Bierzo,Benavente,Valencia de Don Juan"
 },
 {
     "name": "Ligurian",
@@ -1423,7 +1531,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Carahue"
+  "b": "Genoa,Savona,La Spezia,Chiavari,Rapallo,Albenga,Loano,Varazze,Recco,Sestri Levante"
 },
 {
     "name": "Limousin",
@@ -1432,7 +1540,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Arica y Parinacota Region"
+  "b": "Limoges,Brive-la-Gaillarde,Tulle,Ussel,Guéret,Saint-Junien,Aixe-sur-Vienne,Panazol,Issoire,Châteauroux"
 },
 {
     "name": "Llanito",
@@ -1441,7 +1549,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Far North,Adamaoua,South"
+  "b": "Gibraltar,Seville,Madrid,Barcelona,Valencia,Málaga,Córdoba,Granada,Bilbao,Zaragoza"
+},
+{
+    "name": "Logudorese",
+  "i": 473,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Sassari,Nuoro,Ozieri,Oliena,Macomer,Dorgali,Orune,Bitti,Ottana,Ittiri"
 },
 {
     "name": "Lombard",
@@ -1450,7 +1567,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makak,Lolodorf,Guidiguis"
+  "b": "Milan,Bergamo,Brescia,Como,Cremona,Lodi,Mantova,Pavia,Varese,Lecco"
 },
 {
     "name": "Lucchese",
@@ -1459,7 +1576,25 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bangangté"
+  "b": "Lucca,Pisa,Massa,Prato,Viareggio,Altopascio,Capannori,Porcari,Montecarlo,Castelnuovo di Garfagnana"
+},
+{
+    "name": "M-tis French",
+  "i": 477,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mont-Joli,Sainte-Flavie,Métis-sur-Mer,La Rédemption,Les Hauteurs,Padoue,Price,Saint-Donat,Sainte-Angèle-de-Mérici,Saint-Charles-Garnier"
+},
+{
+    "name": "Macerata",
+  "i": 478,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Macerata,Fermo,Camerino,Tolentino,Civitanova Marche,San Severino Marche,Recanati,Matelica,Cingoli,Esanatoglia"
 },
 {
     "name": "Mallorcan",
@@ -1984,6 +2119,15 @@ window.europeNameBases = [
   "b": "Jiexiu,Jieshou,Jieshi,Jielong,Jiehu,Jiazi,Jiayue,Jiawang"
 },
 {
+    "name": "Pistoiese",
+  "i": 557,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Pistoia,Montecatini Terme,Pescia,Lamporecchio,Larciano,Serravalle Pistoiese,Abetone,San Marcello Piteglio,Chiesina Uzzanese,Monsummano Terme"
+},
+{
     "name": "Poitevin-Saintongeais",
   "i": 558,
   "min": 4,
@@ -2335,13 +2479,49 @@ window.europeNameBases = [
   "b": "Tongyangdao,Lhoka,Huangpu,Xili,Chengxiang,Tangfang,Fengling"
 },
 {
+    "name": "Surmiran",
+  "i": 635,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Surmeir,Albula,Bever,Bivio,Marmorera,Mulegns,Tinizong-Rona,Surses,Ilanz,Chur"
+},
+{
+    "name": "Sursilvan",
+  "i": 636,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Disentis,Ilanz,Vrin,Lumnezia,Cumbel,Degen,Lumbrein,Morissen,Vignogn,Vella"
+},
+{
+    "name": "Sutsilvan",
+  "i": 637,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Domleschg,Schams,Heinzenberg,Bonaduz,Rhäzüns,Domat,Ems,Trin,Flims,Laax"
+},
+{
+    "name": "Tuatschin",
+  "i": 638,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tujetsch,Cadi,Val Medel,Sedrun,Disentis,Ilanz,Vrin,Lumnezia,Cumbel,Degen"
+},
+{
     "name": "Vallader",
   "i": 639,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mengman"
+  "b": "Chur,Davos,St. Moritz,Arosa,Landquart,Ilanz,Domleschg,Thusis,Surses,Albula"
 },
 {
     "name": "Standard French",
@@ -2350,7 +2530,43 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Lianyungang,Huocheng"
+  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille"
+},
+{
+    "name": "Standard Italian",
+  "i": 642,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Rome,Milan,Naples,Turin,Florence,Bologna,Genoa,Palermo,Catania,Bari"
+},
+{
+    "name": "Swiss Italian",
+  "i": 643,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Lugano,Bellinzona,Locarno,Ascona,Mendrisio,Chiasso,Biasca,Riviera,Balerna,Gordola"
+},
+{
+    "name": "Tuscan",
+  "i": 644,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Florence,Pisa,Lucca,Arezzo,Siena,Prato,Livorno,Pistoia,Grosseto,Massa"
+},
+{
+    "name": "Southern Cilentan",
+  "i": 645,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Agropoli,Salerno,Nocera Inferiore,Battipaglia,Eboli,Vallo della Lucania,Pollica,Stio,Omignano,Cicerale"
 },
 {
     "name": "Tabarchino",
@@ -2359,7 +2575,34 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Chenghai"
+  "b": "Sassari,Olbia,Alghero,Tempio Pausania,Palau,La Maddalino,Arzachena,Badesi,Oschiri,Luras"
+},
+{
+    "name": "Talian",
+  "i": 647,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Venice,Verona,Padua,Vicenza,Treviso,Rovigo,Chioggia,Mestre,Venezia,Marghera"
+},
+{
+    "name": "Transylvanian",
+  "i": 649,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Cluj-Napoca,Timișoara,Brașov,Sibiu,Târgu Mureș,Oradea,Baia Mare,Alba Iulia,Arad,Satu Mare"
+},
+{
+    "name": "Tuscia",
+  "i": 650,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Rome,Viterbo,Civitavecchia,Tarquinia,Montefiascone,Orte,Nepi,Valentano,Canino,Bolsena"
 },
 {
     "name": "Umbrian",
@@ -2368,7 +2611,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mianzhu,Deyang,Sichuan"
+  "b": "Perugia,Terni,Foligno,Spoleto,Assisi,Gubbio,Città di Castello,Orvieto,Spello,Bevagna"
+},
+{
+    "name": "Valdô",
+  "i": 654,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Aosta,Courmayeur,Chamois,La Thuile,Valtournenche,Saint-Vincent,Gressan,Quart,Pollein,Saint-Pierre"
 },
 {
     "name": "Valencian",
@@ -2377,7 +2629,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Cundinamarca,Valle del Cauca Department,Casanare Department"
+  "b": "Valencia,Alicante,Castellón,Elche,Gandia,Sagunto,Torrevieja,Benidorm,Dénia,Oropesa del Mar"
 },
 {
     "name": "Venetian",
@@ -2395,7 +2647,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Atlantico,Sitionuevo,Magdalena Department"
+  "b": "Viareggio,Pietrasanta,Forte dei Marmi,Massa,Carrara,Camaiore,Seravezza,Lucca,Pisa,Livorno"
 },
 {
     "name": "Viareggino",
@@ -2404,7 +2656,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Risaralda Department"
+  "b": "Viareggio,Massarosa,Camaiore,Pietrasanta,Forte dei Marmi,Lucca,Pisa,Massa,Carrara,Seravezza"
 },
 {
     "name": "Vivaro-Alpine",
@@ -2413,7 +2665,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Andres y Providencia,Sabaneta,Tolima Department"
+  "b": "Grenoble,Chambéry,Annecy,Nice,Toulon,Marseille,Aix-en-Provence,Digne-les-Bains,Valence,Avignon"
 },
 {
     "name": "Vosgien",
@@ -2422,7 +2674,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Quindio Department,Pupiales"
+  "b": "Épinal,Saint-Dié-des-Vosges,Neufchâteau,Remiremont,Gérardmer,Mirecourt,La Bresse,Thaon-les-Vosges,Vittel,Raon-l'Étape"
 },
 {
     "name": "Wallachian",
@@ -2431,7 +2683,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Putumayo Department,Vichada Department,Pizarro"
+  "b": "Bucharest,Craiova,Ploiești,Brăila,Galați,Constanța,Tulcea,Slatina,Pitești,Ruse"
 },
 {
     "name": "Welche",
@@ -2440,7 +2692,25 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Paz de Ariporo"
+  "b": "Strasbourg,Colmar,Mulhouse,Haguenau,Sélestat,Wissembourg,Thann,Obernai,Guebwiller,Saverne"
+},
+{
+    "name": "West Walloon",
+  "i": 664,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Namur,Charleroi,Liège,Mons,Tournai,La Louvière,Seraing,Verviers,Mouscron,Châtelet"
+},
+{
+    "name": "Western Aragonese",
+  "i": 733,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Jaca,Huesca,Barbastro,Monzón,Sabiñánigo,Biescas,Ansó,Hecho,Canfranc,Benasque"
 },
 {
     "name": "Western Catalan",
@@ -2449,7 +2719,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Curaçao,Christmas Island"
+  "b": "Barcelona,Girona,Lleida,Tarragona,Reus,Tortosa,Igualada,Manresa,Sabadell,Terrassa"
 },
 {
     "name": "Western Sicilian",
@@ -2803,13 +3073,112 @@ window.europeNameBases = [
   "b": "Didouche Mourad,Dellys,Debila,Dar el Beïda,Dar Chioukh,Chorfa,Chiffa,Chetouane,Cheria,Cherchell"
 },
 {
+    "name": "Central Transdanubian",
+  "i": 1068,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Budapest,Székesfehérvár,Pécs,Kaposvár,Veszprém,Dunaújváros,Székesfehérvár,Győr,Kecskemét,Szombathely"
+},
+{
+    "name": "Kárás",
+  "i": 1069,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kaposvár,Siófok,Marcali,Barcs,Nagyatád,Csurgó,Tab,Fonyód,Balatonlelle,Lengyeltóti"
+},
+{
+    "name": "Palóc",
+  "i": 1070,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Salgótarján,Balassagyarmat,Bátonyterenye,Pásztó,Szécsény,Losonc,Rétság,Diósjenő,Bercel,Nógrádsáp"
+},
+{
+    "name": "Southern Transdanubian",
+  "i": 1071,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Pécs,Kaposvár,Szekszárd,Dombóvár,Bonyhád,Paks,Szigetvár,Mohács,Simontornya,Sásd"
+},
+{
+    "name": "Southern Great Plain",
+  "i": 1072,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Szeged,Kecskemét,Hódmezővásárhely,Szolnok,Békéscsaba,Kiskunfélegyháza,Kiskunhalas,Jászberény,Cegléd,Kunszentmárton"
+},
+{
+    "name": "Proper Southeastern",
+  "i": 1080,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Debrecen,Nyíregyháza,Békéscsaba,Hajdúszoboszló,Kisvárda,Püspökladány,Hajdúböszörmény,Vásárosnamény,Mátészalka,Nyírbátor"
+},
+{
+    "name": "Standard Finnish",
+  "i": 1082,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Helsinki,Espoo,Tampere,Vantaa,Oulu,Turku,Jyväskylä,Kuopio,Lahti,Pori"
+},
+{
+    "name": "Udora",
+  "i": 1083,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Syktyvkar,Ukhta,Vorkuta,Inta,Pechora,Sosnogorsk,Ezhva,Mikun,Yemva,Ust-Tsilma"
+},
+{
+    "name": "Torne Sami",
+  "i": 1084,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kiruna,Gällivare,Haparanda,Tornio,Karesuando,Jukkasjärvi,Abisko,Nikkala,Låktatjåkka,Pältsa"
+},
+{
+    "name": "Tavastian",
+  "i": 1085,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Helsinki,Tampere,Lahti,Hämeenlinna,Riihimäki,Forssa,Valkeakoski,Akaa,Toijala,Hattula"
+},
+{
+    "name": "Tornio",
+  "i": 1086,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tornio,Haparanda,Kemi,Keminmaa,Tervola,Ylitornio,Pello,Kolari,Muonio,Ranua"
+},
+{
     "name": "Hevaha",
   "i": 1087,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Oromiya,South Ethiopia Regional State,Sidama Region"
+  "b": "Kikori,Baimuru,Ihu,Kerema,Port Moresby,Lae,Madang,Goroka,Mount Hagen,Wewak"
 },
 {
     "name": "Northern Karelian",
@@ -2891,6 +3260,15 @@ window.europeNameBases = [
   "d": "lnrt",
   "m": 0,
   "b": "Saint-Étienne-du-Rouvray,Saint-Étienne,Sainte-Marguerite,Sainte-Geneviève-des-Bois,Sainte-Foy-lès-Lyon,Saint-Égrève,Saint-Dié-des-Vosges,Saint-Cyr-sur-Loire"
+},
+{
+    "name": "Bjarmian",
+  "i": 1328,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Arkhangelsk,Severodvinsk,Novodvinsk,Kotlas,Pinega,Mezen,Kargopol,Onega,Shenkursk,Yemetsk"
 },
 {
     "name": "Central Erzya",
@@ -3124,7 +3502,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Hisar,Hinjilicut,Hingoli"
+  "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille"
 },
 {
     "name": "Finnish",
@@ -3223,7 +3601,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Madhapar,Manendragarh,Maradu,Marthandam"
+  "b": "Krasnoyarsk,Novosibirsk,Omsk,Tomsk,Barnaul,Irkutsk,Kemerovo,Abakan,Novokuznetsk,Kyzyl"
 },
 {
     "name": "Proto-Samoyedic",
@@ -3241,7 +3619,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Southern Peninsula,Italy"
+  "b": "Petrozavodsk,Kondupoga,Segezha,Medvezhyegorsk,Pudozh,Olonets,Vyborg,Sortavala,Lakhdenpokhya,Prionezhsky"
 },
 {
     "name": "Karelian proper",
@@ -3280,13 +3658,94 @@ window.europeNameBases = [
   "b": "Modugno,Mirano,Mirandola,Mira Taglio,Nizza Millefonti,Miano,Merano"
 },
 {
+    "name": "Gaelic",
+  "i": 2146,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Glasgow,Edinburgh,Aberdeen,Dundee,Inverness,Perth,Stirling,Hamilton,Dunfermline,Kilmarnock"
+},
+{
+    "name": "Southern Udmurt",
+  "i": 2227,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Izhevsk,Sarapul,Votkinsk,Glazov,Mozhga,Igra,Debyosy,Kez,Yar,Alnashi"
+},
+{
+    "name": "Northern Udmurt",
+  "i": 2228,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Izhevsk,Sarapul,Votkinsk,Glazov,Mozhga,Igra,Debyosy,Kez,Yar,Alnashi"
+},
+{
+    "name": "Meadow Mari",
+  "i": 2229,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Yoshkar-Ola,Volzhsk,Kozmodemyansk,Zvenigovo,Sernur,Kilemary,Mari-Turek,Paranga,Yurino,Orshanka"
+},
+{
+    "name": "Meadow Mari Proper",
+  "i": 2230,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Yoshkar-Ola,Volzhsk,Kozmodemyansk,Zvenigovo,Sernur,Kilemary,Mari-Turek,Paranga,Yurino,Orshanka"
+},
+{
+    "name": "Proto-Mari",
+  "i": 2232,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Yoshkar-Ola,Volzhsk,Kozmodemyansk,Zvenigovo,Sernur,Kilemary,Mari-Turek,Paranga,Yurino,Orshanka"
+},
+{
+    "name": "Kochevo",
+  "i": 2250,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Kudymkar,Kosa,Gaynya,Yurla,Kochevo,Kizel,Solikamsk,Berezniki,Perm,Chusovoy"
+},
+{
+    "name": "Koibal",
+  "i": 2252,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Krasnoyarsk,Novosibirsk,Omsk,Tomsk,Barnaul,Irkutsk,Kemerovo,Abakan,Novokuznetsk,Kyzyl"
+},
+{
     "name": "Komi-Permyak",
   "i": 2255,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Shinden,Washinomiya,Sashiōgi"
+  "b": "Kudymkar,Kosa,Gaynya,Yurla,Kochevo,Kizel,Solikamsk,Berezniki,Perm,Chusovoy"
+},
+{
+    "name": "Konda Khanty",
+  "i": 2260,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Pyt-Yakh,Yugorsk,Beloyarsky,Nyagan"
 },
 {
     "name": "Koryo-mar",
@@ -3295,7 +3754,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Makueni County,Bungoma County"
+  "b": "Tashkent,Almaty,Astana,Bishkek,Dushanbe,Ashgabat,Nur-Sultan,Shymkent,Osh,Karaganda"
 },
 {
     "name": "Kraasna",
@@ -3325,13 +3784,22 @@ window.europeNameBases = [
   "b": "Issyk-Kul,Chuy Region,Jalal-Abad Region,Talas Region,Osh Region,Naryn Region"
 },
 {
+    "name": "Kukkuzi",
+  "i": 2288,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "St. Petersburg,Moscow,Novgorod,Pskov,Tver,Yaroslavl,Vologda,Arkhangelsk,Murmansk,Petrozavodsk"
+},
+{
     "name": "Laiuse Romani",
   "i": 2315,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "North Western Province"
+  "b": "Tallinn,Tartu,Narva,Pärnu,Viljandi,Rakvere,Kohtla-Järve,Maardu,Saue,Haapsalu"
 },
 {
     "name": "Tura",
@@ -3358,7 +3826,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Taurage County,Klaipeda County,Marijampole County"
+  "b": "Makhachkala,Derbent,Kaspiysk,Buynaksk,Kizlyar,Hasavyurt,Tsumada,Karata,Akhvakh,Tindi"
 },
 {
     "name": "Southern Khanty",
@@ -3424,13 +3892,31 @@ window.europeNameBases = [
   "b": "Sidi Rahal,Bouknadel,Sidi Bennour,Sidi Allal El Bahraoui,Gueznaia,Selouane,Zeghanghane,Sebt Gzoula"
 },
 {
+    "name": "Southeastern Moksha",
+  "i": 2371,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Saransk,Ruzaevka,Kovylkino,Zubova Polyana,Temnikov,Chamzinka,Atyashevo,Insar,Kadoshkino,Tengushevo"
+},
+{
+    "name": "Western Moksha",
+  "i": 2372,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Saransk,Ruzaevka,Kovylkino,Zubova Polyana,Temnikov,Chamzinka,Atyashevo,Insar,Kadoshkino,Tengushevo"
+},
+{
     "name": "Syktyvkar",
   "i": 2373,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bni Bouayach"
+  "b": "Syktyvkar,Ukhta,Vorkuta,Inta,Pechora,Sosnogorsk,Ezhva,Mikun,Yemva,Ust-Tsilma"
 },
 {
     "name": "Sanchursk",
@@ -3475,7 +3961,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vatovavy Region,Analamanga,Menabe,Alaotra Mangoro"
+  "b": "Khanty-Mansiysk,Surgut,Nizhnevartovsk,Nefteyugansk,Langepas,Megion,Pyt-Yakh,Yugorsk,Beloyarsky,Nyagan"
 },
 {
     "name": "Sosva",
@@ -3484,7 +3970,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Melaky,Ihorombe,Upper Matsiatra"
+  "b": "Yekaterinburg,Nizhny Tagil,Kamensk-Uralsky,Pervouralsk,Serov,Ivdel,Achit,Turinsk,Irbit,Krasnouralsk"
+},
+{
+    "name": "Leivu",
+  "i": 2414,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Tartu,Põlva,Võru,Valga,Elva,Kanepi,Räpa,Haanja,Mõniste,Rõuge"
 },
 {
     "name": "Lemi region",
@@ -3511,7 +4006,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Kampung Baru Balakong"
+  "b": "Valletta,Birkirkara,Qormi,Mosta,Sliema,Żabbar,San Ġwann,Naxxar,Marsaskala,Paola"
 },
 {
     "name": "Scottish-Gaelic",
@@ -3529,7 +4024,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Jega,Isieke"
+  "b": "Tirana,Durrës,Vlorë,Elbasan,Shkodër,Korçë,Fier,Berat,Gjirokastër,Kukës"
 },
 {
     "name": "Estonian",
@@ -3538,7 +4033,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Eha Amufu,Egbe"
+  "b": "Tallinn,Tartu,Narva,Pärnu,Viljandi,Rakvere,Kohtla-Järve,Maardu,Saue,Haapsalu"
+},
+{
+    "name": "Sardinian",
+  "i": 2624,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Cagliari,Sassari,Olbia,Alghero,Quartu Sant'Elena,Carbonia,Oristano,Nuoro,Iglesias,Macomer"
 },
 {
     "name": "Romansh",
@@ -3547,7 +4051,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Friesland"
+  "b": "Chur,Davos,St. Moritz,Arosa,Landquart,Ilanz,Domleschg,Thusis,Surses,Albula"
 },
 {
     "name": "Faroese",
@@ -3619,7 +4123,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Dalfsen,Culemborg,Cranendonck"
+  "b": "Syktyvkar,Ukhta,Vorkuta,Inta,Pechora,Sosnogorsk,Ezhva,Mikun,Yemva,Ust-Tsilma"
 },
 {
     "name": "Asturian",
@@ -3646,7 +4150,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Bhimdatta,Khā̃dbāri̇̄,Koshi"
+  "b": "Katowice,Wrocław,Kraków,Łódź,Poznań,Gdańsk,Szczecin,Bytom,Zabrze,Gliwice"
 },
 {
     "name": "Kalmyk",
@@ -3730,6 +4234,15 @@ window.europeNameBases = [
   "b": "Nazca,Moquegua Department,Mollendo,Minas de Marcona,Lima Province,La Oroya,Villa Poeta José Gálvez Barrenechea,Jauja"
 },
 {
+    "name": "Elfdalian",
+  "i": 2702,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Mora,Orsa,Leksand,Rättvik,Säter,Falun,Borlänge,Ludvika,Smedjebacken,Gagnef"
+},
+{
     "name": "Welsh",
   "i": 2709,
   "min": 4,
@@ -3793,13 +4306,22 @@ window.europeNameBases = [
   "b": "Suay,Solano,Solana,Sitangkai,Sipalay,Siocon,Silang"
 },
 {
+    "name": "Serbian",
+  "i": 2723,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "Belgrade,Novi Sad,Niš,Kragujevac,Subotica,Zrenjanin,Pančevo,Čačak,Smederevo,Leskovac"
+},
+{
     "name": "Macedonian",
   "i": 2725,
   "min": 4,
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Sagay,Romblon,Rizal"
+  "b": "Skopje,Bitola,Kumanovo,Prilep,Tetovo,Veles,Ohrid,Strumica,Kavadarci,Gostivar"
 },
 {
     "name": "Slovene",
@@ -3808,7 +4330,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Porac"
+  "b": "Ljubljana,Maribor,Celje,Kranj,Koper,Novo Mesto,Velenje,Trbovlje,Kamnik,Murska Sobota"
 },
 {
     "name": "Dutch",
@@ -3817,7 +4339,16 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Passi"
+  "b": "Amsterdam,Rotterdam,The Hague,Utrecht,Eindhoven,Groningen,Tilburg,Almere,Breda,Nijmegen"
+},
+{
+    "name": "Yiddish",
+  "i": 2729,
+  "min": 4,
+  "max": 11,
+  "d": "lnrt",
+  "m": 0,
+  "b": "New York,Brooklyn,Chicago,Los Angeles,Miami,Toronto,Montreal,London,Paris,Buenos Aires"
 },
 {
     "name": "Frisian",
@@ -3844,7 +4375,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Meycauayan,Mendez-Nuñez,Mauban,Mati"
+  "b": "Glasgow,Edinburgh,Aberdeen,Dundee,Inverness,Perth,Stirling,Hamilton,Dunfermline,Kilmarnock"
 },
 {
     "name": "Moksha",
@@ -3880,7 +4411,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Holden,Jamaica Plain,Leominster,Longmeadow"
+  "b": "Rome,Milan,Florence,Venice,Turin,Genoa,Bologna,Palermo,Naples,Trieste"
 },
 {
     "name": "Judeo-Mantuan",
@@ -3925,7 +4456,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Wellesley,West Roxbury,Westford,Winthrop"
+  "b": "Istanbul,Thessaloniki,Izmir,Barcelona,Valencia,Salonika,Edirne,Bursa,Athens,Skopje"
 },
 {
     "name": "Izhma",
@@ -3943,7 +4474,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Long Branch,Marlboro"
+  "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Galați,Ploiești,Oradea,Brăila"
 },
 {
     "name": "Upper Sorbian",
@@ -3970,7 +4501,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Williamsport,Willow Grove,Wissinoming,Rhode Island"
+  "b": "Huesca,Jaca,Barbastro,Benasque,Graus,Sabiñánigo,Aínsa,Bielsa,Ansó,Alquézar"
 },
 {
     "name": "Judeo-Italian (Standard)",
@@ -3979,7 +4510,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Vermont,Wisconsin"
+  "b": "Rome,Milan,Florence,Venice,Turin,Genoa,Bologna,Palermo,Naples,Trieste"
 },
 {
     "name": "Judeo-Mantuan (Lombardy)",
@@ -3988,7 +4519,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Ashwaubenon,Caledonia,Howard"
+  "b": "Mantova,Cremona,Brescia,Verona,Vicenza,Padova,Ferrara,Parma,Modena,Rovigo"
 },
 {
     "name": "Judeo-Piedmontese (Turin)",
@@ -3997,7 +4528,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Milwaukee"
+  "b": "Turin,Novara,Alessandria,Asti,Cuneo,Vercelli,Biella,Verbania,Ivrea,Moncalieri"
 },
 {
     "name": "Molisan (Molise)",
@@ -4006,7 +4537,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Gilbert,Mesa"
+  "b": "Campobasso,Isernia,Termoli,Venafro,Larino,Bojano,Agnone,Sepino,Macchia d'Isernia,Mafalda"
 },
 {
     "name": "Moselle Romance (Lorraine)",
@@ -4015,7 +4546,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Phoenix,Tempe Junction"
+  "b": "Metz,Nancy,Thionville,Épinal,Bar-le-Duc,Verdun,Sarrebourg,Forbach,Hayange,Longwy"
 },
 {
     "name": "Moldavian (Moldova)",
@@ -4042,7 +4573,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Daly City"
+  "b": "Ljubljana,Maribor,Celje,Kranj,Koper,Novo Mesto,Velenje,Trbovlje,Kamnik,Murska Sobota"
 },
 {
     "name": "Swedish",
@@ -4105,7 +4636,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "San Gabriel,San Juan Capistrano,San Leandro,Sanger"
+  "b": "Istanbul,Thessaloniki,Izmir,Salonika,Edirne,Bursa,Antioch,Sidon,Tyre,Haifa"
 },
 {
     "name": "Latvian",
@@ -5104,7 +5635,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Mossoro,Natal,Parnamirim,Macaiba,CearaMirim,SantaCruz,AreiaBranca"
+  "b": "Tavda,Kungur,Verkhoturye,Pelym,Nizhnyaya Tura,Tagil,Chusovaya,Iset,Tyumen,Tobolsk"
 },
 {
     "name": "Taygi",
@@ -5500,7 +6031,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Areia Branca,Mossoro,Natal,Parnamirim,Macaiba,CearaMirim,SantaCruz,SaoMiguel"
+  "b": "Cremona,Crema,Pizzighettone,Soresina,Casalmaggiore,Rivolta d'Adda,Castelleone,Cremosano,Formigara,Soncino"
 },
 {
     "name": "Crișana",
@@ -5527,7 +6058,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Dusseldorf,Dortmund,Essen,Leipzig"
+  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
 },
 {
     "name": "Icelandic",
@@ -5770,7 +6301,7 @@ window.europeNameBases = [
   "max": 11,
   "d": "lnrt",
   "m": 0,
-  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Dusseldorf,Dortmund,Essen,Leipzig"
+  "b": "Berlin,Munich,Hamburg,Cologne,Frankfurt,Stuttgart,Düsseldorf,Dortmund,Essen,Leipzig"
 },
 {
     "name": "Urum",
