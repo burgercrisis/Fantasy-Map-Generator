@@ -1,0 +1,568 @@
+=== ZERO SEED ENTRIES (239) ===
+241|Bulu|namebases-africa.js
+242|Busa|namebases-africa.js
+454|Annobonese Palé|namebases-africa.js
+479|Principense Sundy|namebases-africa.js
+631|Nama Click|namebases-africa.js
+632|Naro Click|namebases-africa.js
+633|G!ui Click|namebases-africa.js
+634|Ju|'hoan Click|namebases-africa.js
+667|Liberian Interior Pidgin English|namebases-africa.js
+696|Fur|namebases-africa.js
+701|Gumuz|namebases-africa.js
+703|Gyong|namebases-africa.js
+1001|Jurchen|namebases-africa.js
+1065|El Molo|namebases-africa.js
+2033|Fongoro|namebases-africa.js
+2034|Fungor|namebases-africa.js
+2036|Ghomala'|namebases-africa.js
+2037|Gikuyu|namebases-africa.js
+2038|Goundo|namebases-africa.js
+2039|Gourmanché|namebases-africa.js
+2053|Tagwana|namebases-africa.js
+2054|Tuwat Berber|namebases-africa.js
+2056|Western Berber family|namebases-africa.js
+2058|Vengo|namebases-africa.js
+2059|Viemo|namebases-africa.js
+2060|Viti|namebases-africa.js
+2061|Vori|namebases-africa.js
+2062|Voro|namebases-africa.js
+2096|Soli|namebases-africa.js
+2196|Khamnigan Mongol|namebases-africa.js
+2535|Gamo-Gofa-Dawro|namebases-africa.js
+5631|Ayo|namebases-africa.js
+5632|Ba-Ari|namebases-africa.js
+5659|Baba|namebases-africa.js
+11030|Dry|namebases-africa.js
+11037|Ewondo|namebases-africa.js
+13446|Ron|namebases-africa.js
+20521|Bayot|namebases-africa.js
+20726|Cuvok|namebases-africa.js
+20741|Sanhaja de Srair|namebases-africa.js
+23001|Ethiopian Amharic|namebases-africa.js
+97|Iban|namebases-asia.js
+272|Caijia|namebases-asia.js
+414|Achhami Doteli|namebases-asia.js
+415|Baitadeli Doteli|namebases-asia.js
+417|Darchuleli Doteli|namebases-asia.js
+418|Bajureli Doteli|namebases-asia.js
+419|Dadeldhuri Doteli|namebases-asia.js
+995|Indian English|namebases-asia.js
+996|Korku|namebases-asia.js
+999|Sora (Savara)|namebases-asia.js
+1000|Chinese|namebases-asia.js
+1011|Man Met (Kemie)|namebases-asia.js
+1012|Hu (Angku, Kon Keu)|namebases-asia.js
+1013|U (Pouma)|namebases-asia.js
+1019|Baoan|namebases-asia.js
+1020|Baoanic|namebases-asia.js
+1024|Badong Yao|namebases-asia.js
+1030|Bengali Portuguese Creole|namebases-asia.js
+1054|Gelao|namebases-asia.js
+1055|Tongzha|namebases-asia.js
+1057|Then Kam Sui|namebases-asia.js
+1059|Vandu|namebases-asia.js
+1060|Chadong|namebases-asia.js
+1061|En Kra|namebases-asia.js
+1062|Nuoxi Naxi Yao|namebases-asia.js
+1063|Lauhut|namebases-asia.js
+1073|Bahrani Arabic|namebases-asia.js
+1075|Baima|namebases-asia.js
+1384|Bateri|namebases-asia.js
+1392|Bunu|namebases-asia.js
+1871|Gta|namebases-asia.js
+1926|Gowro|namebases-asia.js
+2006|Khmu|namebases-asia.js
+2089|Kerek|namebases-asia.js
+2092|Kott|namebases-asia.js
+2102|Kangjia|namebases-asia.js
+2107|Kapampangan|namebases-asia.js
+2143|Kusunda|namebases-asia.js
+2147|Gong|namebases-asia.js
+2148|Gongduk|namebases-asia.js
+2159|Khowar|namebases-asia.js
+2160|Khwarshi|namebases-asia.js
+2161|Kiautschou Pidgin German|namebases-asia.js
+2189|Khasi|namebases-asia.js
+2190|Lyngngam|namebases-asia.js
+2191|Khasi native-speakers subset|namebases-asia.js
+2192|Pnar|namebases-asia.js
+2193|War Khasi|namebases-asia.js
+2194|Khakas|namebases-asia.js
+2197|Khams Tibetan|namebases-asia.js
+2198|Khamti|namebases-asia.js
+2199|Khamyang|namebases-asia.js
+2200|Kharia|namebases-asia.js
+2202|Khe Khmer|namebases-asia.js
+2203|Northern Khmer|namebases-asia.js
+2205|Khori Buryat|namebases-asia.js
+2206|Khortha|namebases-asia.js
+2233|Khun|namebases-asia.js
+2240|Kulung|namebases-asia.js
+2242|Kalasha|namebases-asia.js
+2243|Mednyj Aleut|namebases-asia.js
+2251|Koho|namebases-asia.js
+2259|Konda|namebases-asia.js
+2262|Konkani|namebases-asia.js
+2265|Kor|namebases-asia.js
+2267|Korlai Portuguese Creole|namebases-asia.js
+2295|Kuril Ainu|namebases-asia.js
+2299|Bagvalal|namebases-asia.js
+2300|Parkari Koli|namebases-asia.js
+2307|Kurmali|namebases-asia.js
+2356|Adyghe|namebases-asia.js
+2370|Lao|namebases-asia.js
+2385|Kvx|namebases-asia.js
+2412|Lak|namebases-asia.js
+2451|Naic|namebases-asia.js
+2602|Pashto|namebases-asia.js
+2603|Persian|namebases-asia.js
+2742|Beary|namebases-asia.js
+21104|Hruso|namebases-asia.js
+235|Castrapo|namebases-europe.js
+342|Pugliese|namebases-europe.js
+343|South Lucanian|namebases-europe.js
+409|Eastern Nonmetafonetica|namebases-europe.js
+420|Ennese|namebases-europe.js
+421|Eonavian|namebases-europe.js
+423|Estremenho|namebases-europe.js
+424|European Portuguese|namebases-europe.js
+425|Extremaduran|namebases-europe.js
+451|Istriot|namebases-europe.js
+456|Judeo-Catalan|namebases-europe.js
+468|Latin|namebases-europe.js
+473|Logudorese|namebases-europe.js
+477|M-tis French|namebases-europe.js
+478|Macerata|namebases-europe.js
+557|Pistoiese|namebases-europe.js
+635|Surmiran|namebases-europe.js
+636|Sursilvan|namebases-europe.js
+637|Sutsilvan|namebases-europe.js
+638|Tuatschin|namebases-europe.js
+642|Standard Italian|namebases-europe.js
+643|Swiss Italian|namebases-europe.js
+644|Tuscan|namebases-europe.js
+645|Southern Cilentan|namebases-europe.js
+647|Talian|namebases-europe.js
+649|Transylvanian|namebases-europe.js
+650|Tuscia|namebases-europe.js
+654|Valdô|namebases-europe.js
+664|West Walloon|namebases-europe.js
+733|Western Aragonese|namebases-europe.js
+1068|Central Transdanubian|namebases-europe.js
+1069|Kárás|namebases-europe.js
+1070|Palóc|namebases-europe.js
+1071|Southern Transdanubian|namebases-europe.js
+1072|Southern Great Plain|namebases-europe.js
+1080|Proper Southeastern|namebases-europe.js
+1082|Standard Finnish|namebases-europe.js
+1083|Udora|namebases-europe.js
+1084|Torne Sami|namebases-europe.js
+1085|Tavastian|namebases-europe.js
+1086|Tornio|namebases-europe.js
+1328|Bjarmian|namebases-europe.js
+2146|Gaelic|namebases-europe.js
+2227|Southern Udmurt|namebases-europe.js
+2228|Northern Udmurt|namebases-europe.js
+2229|Meadow Mari|namebases-europe.js
+2230|Meadow Mari Proper|namebases-europe.js
+2232|Proto-Mari|namebases-europe.js
+2250|Kochevo|namebases-europe.js
+2252|Koibal|namebases-europe.js
+2260|Konda Khanty|namebases-europe.js
+2288|Kukkuzi|namebases-europe.js
+2371|Southeastern Moksha|namebases-europe.js
+2372|Western Moksha|namebases-europe.js
+2414|Leivu|namebases-europe.js
+2624|Sardinian|namebases-europe.js
+2702|Elfdalian|namebases-europe.js
+2723|Serbian|namebases-europe.js
+2729|Yiddish|namebases-europe.js
+236|Chuj|namebases-northAmerica.js
+728|Inuktitut|namebases-northAmerica.js
+2223|Achi|namebases-northAmerica.js
+2249|Akatek|namebases-northAmerica.js
+7837|Shoshoni|namebases-northAmerica.js
+8128|Yucatec Maya|namebases-northAmerica.js
+8136|Poqomam|namebases-northAmerica.js
+8481|Mayo|namebases-northAmerica.js
+20180|Rama Cay Creole (dedicated)|namebases-northAmerica.js
+195|Abui|namebases-oceania.js
+207|Kasua|namebases-oceania.js
+1007|Aws-Nian|namebases-oceania.js
+1022|Barai|namebases-oceania.js
+1027|Baham|namebases-oceania.js
+2066|Mor|namebases-oceania.js
+2067|Elseng|namebases-oceania.js
+2100|Kanasi|namebases-oceania.js
+2101|Kandawo|namebases-oceania.js
+2106|Kap|namebases-oceania.js
+2149|Admiralty|namebases-oceania.js
+2153|Anim languages|namebases-oceania.js
+2154|Aru|namebases-oceania.js
+2156|Awin-Pa|namebases-oceania.js
+2157|Awyu-Dumut|namebases-oceania.js
+2174|Meso-Melanesian|namebases-oceania.js
+2175|Oceanic|namebases-oceania.js
+2176|Binanderean|namebases-oceania.js
+2177|Kutubuan languages|namebases-oceania.js
+2178|Goilalan|namebases-oceania.js
+2179|Kolopom|namebases-oceania.js
+2180|Damal|namebases-oceania.js
+2181|Dem|namebases-oceania.js
+2182|Dibiyaso|namebases-oceania.js
+2183|Guriaso|namebases-oceania.js
+2184|Kaki Ae|namebases-oceania.js
+2185|Karami|namebases-oceania.js
+2186|Kehu|namebases-oceania.js
+2238|Kiwai|namebases-oceania.js
+2241|Klon|namebases-oceania.js
+2256|Komolom|namebases-oceania.js
+2257|Komyandaret|namebases-oceania.js
+2258|Konai|namebases-oceania.js
+2264|Kopkaka|namebases-oceania.js
+2266|Korafe|namebases-oceania.js
+2269|Korowai|namebases-oceania.js
+2415|Lembena|namebases-oceania.js
+2734|Awa|namebases-oceania.js
+2737|Awin|namebases-oceania.js
+21096|Jimi|namebases-oceania.js
+21118|Northern Formosan|namebases-oceania.js
+237|Rioplatense Spanish|namebases-southAmerica.js
+238|Tacana|namebases-southAmerica.js
+239|Wiwa|namebases-southAmerica.js
+5820|Warízu|namebases-southAmerica.js
+5821|Wari'|namebases-southAmerica.js
+5822|Sanumá|namebases-southAmerica.js
+6620|Guajajara|namebases-southAmerica.js
+6662|Siriano|namebases-southAmerica.js
+8653|Piapoco|namebases-southAmerica.js
+8655|Wapishana|namebases-southAmerica.js
+
+=== LOW SEED ENTRIES (1-4) (326) ===
+66|Southern Mongolic|namebases-africa.js|Andritz, Gries
+437|Angolar São Tomé|namebases-africa.js|Sangha, Niari, Bouenza, Plateaux
+462|Judeo-ProvenÃ§al|namebases-africa.js|O'Higgins Region, Nuble
+475|Forro São Tomé|namebases-africa.js|Foumbot, Buea
+666|Kru Pidgin English|namebases-africa.js|Amazonas Department
+702|Gwari|namebases-africa.js|Caldas, Bogota D.C.
+704|Hakaona|namebases-africa.js|Aguazul
+705|Hanga|namebases-africa.js|Guaviare Department, Cartago Province, Limon Province, Heredia Province
+706|Saari|namebases-africa.js|Alajuela Province, Puntarenas Province, Guanacaste Province
+707|Samwe|namebases-africa.js|Granma Province, Sancti Spiritus Province, Pinar del Rio
+709|Sighu|namebases-africa.js|Mayabeque, Cienfuegos Province, Guantanamo Province
+710|Siwu|namebases-africa.js|Las Tunas Province, Isla de la Juventud
+711|Southeast Ijo|namebases-africa.js|Matanzas
+713|Susu|namebases-africa.js|Esmeralda
+1067|Somali|namebases-africa.js|Sant Pere, Santa Caterina i La Ribera
+2005|Abron|namebases-africa.js|Bāspalli, Nivāri
+2105|Kanuri|namebases-africa.js|Sistan and Baluchestan
+2142|Kumaoni|namebases-africa.js|Marcianise
+2244|Mon|namebases-africa.js|Shimokizukuri, Kamiiso
+2282|Krio|namebases-africa.js|Kandal
+2487|Nam|namebases-africa.js|Penang, Donggongon, Tambunan, Bandar Nabawan
+2499|Mondzish|namebases-africa.js|Gurun, Yan Besar, Kepala Batas, Pasir Puteh
+2722|Montenegrin (dedicated)|namebases-africa.js|Santo Tomas
+3331|Anaang|namebases-africa.js|Toba Tek Singh
+5258|Aringa|namebases-africa.js|Rajanpur
+5366|Bambassi|namebases-africa.js|Manhala, Lodhran
+5379|Zarma|namebases-africa.js|Havelian
+5383|Tshiluba|namebases-africa.js|Fatehjang, Faruka
+5384|Sotho|namebases-africa.js|Chhor, Choa Saidan Shah, Chishtian, Chiniot
+5389|Shi|namebases-africa.js|Karimabad, Bahawalnagar, Arifwala
+10532|Dyula|namebases-africa.js|Al ‘Awwāmīyah, Al ‘Aqīq, Afif
+10533|Dzando|namebases-africa.js|Guadalcanal Province, La Riviere Anglaise, Northern State, Central Darfur
+10630|Dzodinka|namebases-africa.js|North Kordofan, Southern Darfur, Sinkat, River Nile
+10633|Ebira|namebases-africa.js|Northern Darfur, Southern Kordofan, West Kordofan
+10684|Eman|namebases-africa.js|Western Darfur
+10887|Farefare|namebases-africa.js|Gaevleborg, Jaemtland, OErebro
+10934|Doko-Uyanga|namebases-africa.js|Soedermanland, OEstergoetland, Dalarna
+10988|Douiret|namebases-africa.js|Vaermland, Blekinge
+11038|Ewondo Populaire|namebases-africa.js|Hong Kah, Geylang
+11284|Gendza|namebases-africa.js|Western Area
+11285|Gengele Creole|namebases-africa.js|San Marino, Diourbel Region
+13339|Omaio|namebases-africa.js|Maritime, Tsévié, Centrale, Savanes
+13340|Ongota|namebases-africa.js|Aného, Kanchanaburi
+13447|South Bauchi|namebases-africa.js|Phatthalung, Chachoengsao
+13745|Kikar|namebases-africa.js|Republican Subordination, Gorno-Badakhshan
+13911|Kunama|namebases-africa.js|Beja Governorate, Houmt Souk
+13954|Tima|namebases-africa.js|Afyonkarahisar Province, Agri
+14041|Liberian Kreyol|namebases-africa.js|Igdir, Hadim, Hacılar
+14151|Hadiyya|namebases-africa.js|Alanya, Akşehir, Zonguldak Province
+14152|Sidama|namebases-africa.js|Tokat Province, Bursa Province, Edirne, Ordu
+14279|Sango|namebases-africa.js|Kirklareli, Guemueshane Province, Duzce
+20104|Annobonese Creole|namebases-africa.js|Neili, Lugu, Linnei, Takao
+20124|Baca|namebases-africa.js|Mpwapwa, Mlimba
+20125|Bangala|namebases-africa.js|Pemba South, Misungwi
+20144|Cape Verdean Creole|namebases-africa.js|Ruvuma, Dar es Salaam Region
+20156|Avokaya|namebases-africa.js|Liwale, Kyela
+20162|Hozo|namebases-africa.js|Nachingwea
+20300|Amira|namebases-africa.js|Arkansas
+20512|Bamukumbit|namebases-africa.js|Lakeside, Land O' Lakes
+20520|Batu|namebases-africa.js|Sanford
+20551|Beja|namebases-africa.js|Alpharetta, Americus, Atlanta
+20711|Defaka|namebases-africa.js|College Station
+20723|Ciwogai|namebases-africa.js|Murphy, Plano
+20725|Coptic|namebases-africa.js|Port Arthur
+20727|Daba|namebases-africa.js|Centreville
+20728|Dahalik|namebases-africa.js|Chesapeake, Fredericksburg, Front Royal, Great Falls
+21112|Turku Arabic|namebases-africa.js|Elmont, Emerson Hill, Glendale
+21113|Juba Arabic|namebases-africa.js|Henrietta, Hicksville, Holbrook, Hollis
+22002|Yoruba (Nigeria Coastal)|namebases-africa.js|Findlay, Gahanna, Garfield Heights
+23000|Berber (Morocco)|namebases-africa.js|Allentown, Allison Park, Back Mountain, Bensalem
+113|Serui Malay|namebases-asia.js|Srpska, Travnik, Ilidža
+213|Bunun (Northern-Central)|namebases-asia.js|Chaves, Carutapera, Carpina
+273|Chepang|namebases-asia.js|Macaé, Luziânia
+413|Doteli|namebases-asia.js|Shawinigan, Sorel-Tracy
+416|Bajhangi Doteli|namebases-asia.js|Yukon
+833|Lower Yangtze Mandarin|namebases-asia.js|Limburg an der Lahn, Limbach-Oberfrohna, Lilienthal, Lichterfelde
+993|Hinglish|namebases-asia.js|South Sinai, Sharqia, North Sinai
+994|Hindko, Northern|namebases-asia.js|New Valley
+1016|Babylonian|namebases-asia.js|Villena, Castille-La Mancha
+1018|Badaga|namebases-asia.js|Tacoronte
+1021|Baoting Hlai|namebases-asia.js|Ontinyent, Mula
+1025|Baekje Korean|namebases-asia.js|Jumilla
+1028|Bahnar|namebases-asia.js|Elda
+1053|Coast Tsimshian|namebases-asia.js|Benidorm
+1056|Telue|namebases-asia.js|Castille and Leon
+1076|Baisha Hlai|namebases-asia.js|Centro
+1109|Pashto, Central|namebases-asia.js|Dodola, Dīla, Dembech’a, Degeh Bur
+1376|Brao|namebases-asia.js|Upper East, Ahafo, Volta
+1377|Baram|namebases-asia.js|Keta
+1382|Bru|namebases-asia.js|Upper River
+1386|Buginese|namebases-asia.js|Guadeloupe
+1391|Bundeli|namebases-asia.js|North Aegean, South Aegean
+1403|Buyang|namebases-asia.js|Ionian Islands
+1404|Buyeo Korean|namebases-asia.js|South Georgia and the South Sandwich Islands, Sacatepequez, Suchitepeque
+1418|Cai Long|namebases-asia.js|Santa Rosa Department
+1832|Gangwon Dialect|namebases-asia.js|Idappadi, Ichhāwar, Ichchāpuram, Hadagalli
+1869|Gurgula|namebases-asia.js|Dhaulpur
+1901|Huishui Miao|namebases-asia.js|Challapalle, Chalāla
+1944|Hayu (Vayu)|namebases-asia.js|Atarra, Āsind
+2015|Tibeto Burman|namebases-asia.js|Kuruvattūr, Perumanna, Kuttikkāttūr
+2025|Ilocano|namebases-asia.js|Vellakkinar, Rakkiyapālaiyam, Kāttipparutti, Kāladi
+2041|Joseon Korean Middle|namebases-asia.js|Lanka
+2082|Zan languages|namebases-asia.js|Kurdistan Province
+2083|Judaeo-Georgian|namebases-asia.js|Qom Province, Hormozgan, South Khorasan Province
+2128|Proto-Kra|namebases-asia.js|San Bonifacio, San Benedetto del Tronto, Ruvo di Puglia
+2129|Nadou|namebases-asia.js|Basilicate
+2130|Mulao Kra|namebases-asia.js|Piombino, Pioltello
+2144|Dura Tandrange|namebases-asia.js|Giovinazzo
+2155|Aslian languages|namebases-asia.js|Aosta Valley
+2167|Kim Mun|namebases-asia.js|Balqa, Tafielah
+2204|Kho Bwa|namebases-asia.js|Hiratsuka
+2247|Tai Hongjin|namebases-asia.js|Kasumigaura, Tsuchiura
+2248|Qabiao|namebases-asia.js|Misato, Saitama
+2280|Karachay-Balkar|namebases-asia.js|Juja
+2283|Kristang|namebases-asia.js|Tboung Khmum, Kampong Speu Province, Otar Meanchey
+2286|Kuki Chin|namebases-asia.js|Kangwon-do, South Pyongan, North Hwanghae
+2287|Kuki Chin Naga|namebases-asia.js|South Hamgyong, P'yongan-bukto
+2294|Kunduvadi|namebases-asia.js|Yangsan, Jeju-do
+2301|Kwoma-Manambu Pidgin|namebases-asia.js|Sejong-si, Al Farwaniyah
+2305|Kyowa-go|namebases-asia.js|Ulytau Region, Zhambyl, Zhetysu Region, Almaty Region
+2306|Kewat|namebases-asia.js|Aqmola, Abai Region, North Kazakhstan, Pavlodar Region
+2319|Lanping Bai dialect|namebases-asia.js|North Central Province, Grand Gedeh County, Nimba
+2343|Kurambhag Paharia|namebases-asia.js|Brak, Wadi ash Shati', Wadi al Hayat
+2351|Abkhaz|namebases-asia.js|Rich
+2362|Afro Seminole Creole|namebases-asia.js|Goulmima
+2384|Kva|namebases-asia.js|Amoron'i Mania
+2386|Kwoma Manambu Pidgin|namebases-asia.js|Marshall Islands, Majuro Atoll
+2389|Kyakhta Russian Chinese Pidgin|namebases-asia.js|Vrapchishte, Kichevo, Delchevo
+2390|Kyowa Go|namebases-asia.js|Centar Zhupa
+2391|Kyv|namebases-asia.js|Markala, Ké-Macina
+2411|Laz|namebases-asia.js|Kayin State, Mrauk U
+2413|Ladakhi|namebases-asia.js|Kayah State, Kyauktaw
+2418|Levantine Arabic|namebases-asia.js|Dzabkhan, Uvs Province, Bayan-OElgii Province, Govi-Altai Province
+2430|Yakkha|namebases-asia.js|Ciudad Valles, Zumpango, Zumpango del Río
+2447|Kiranti|namebases-asia.js|Huauchinango, Huatusco
+2448|Qiangic|namebases-asia.js|Contla, Coatzacoalcos, Coatepec, Coacalco
+2452|Naga|namebases-asia.js|Playas del Rosario
+2471|Dhimal|namebases-asia.js|Heróica Zitácuaro
+2475|Koro|namebases-asia.js|Víctor Rosales
+2482|Mru|namebases-asia.js|Las Pintitas, San Antonio Tecómitl
+2483|Karbi|namebases-asia.js|Kedah, Perak, Selangor
+2484|Tshangla|namebases-asia.js|Johor, Skudai, Kempas, Pelentong
+2502|Lhokpu|namebases-asia.js|Beluru, Ulu Tiram, Ulu Kelang, Tanjung Sepat
+2570|Khmer|namebases-asia.js|Cabo Delgado Province, Maputo Province
+2595|Gujarati|namebases-asia.js|Moriki, Borno State, Mokwa, Katsina State
+2601|Kurdish|namebases-asia.js|Ebonyi State, Ise-Ekiti
+2615|Armenian|namebases-asia.js|Amaigbo, Aliayabiagba, Afikpo
+2618|Kyrgyz|namebases-asia.js|Jinotega Department, Esteli Department, Boaco Department, Netherlands
+2658|Nogai|namebases-asia.js|Karnali Pradesh, Birgañj, Bāgluṅ, Birendranagar
+2675|Shan|namebases-asia.js|Cajamarca Department
+4205|Sri Lankan Malay|namebases-asia.js|Tando Adam
+4797|Gondi|namebases-asia.js|Gilgit-Baltistan
+8660|Brunei Malay|namebases-asia.js|Nyagatare
+20007|Japanese Pidgin English|namebases-asia.js|Çerkeş, Cankiri, Çayeli
+20158|Ao Naga|namebases-asia.js|Kilosa
+20214|Caribbean English Creole|namebases-asia.js|Namasuba, Nakaloke, Magamaga, Mabare
+20215|Pacific English Creole|namebases-asia.js|Lwakyomba, Luwero, Kyarusozi, Kyamahungu
+34834|Thai|namebases-asia.js|Chula Vista
+50003|Bahing/Bayung|namebases-asia.js|Downey, Elk Grove, Encinitas
+50008|Ahirani|namebases-asia.js|Huntington Beach
+50009|Ai Cham|namebases-asia.js|Lathrop, Lemon Grove, Lemoore
+50033|Burmese|namebases-asia.js|Rocklin, Rohnert Park
+1|English|namebases-europe.js|Escaldes-Engordany
+14|Hungarian|namebases-europe.js|Fier-Çifçi, Durrës, Masis
+58|Ukrainian|namebases-europe.js|Casilda, Carmen de Patagones, Allen
+352|Frainc-Comtou|namebases-europe.js|Alto Alegre do Maranhão, Alto Alegre do Pindaré, Alto Paraíso, Alumínio
+364|Aeolian|namebases-europe.js|Rorainópolis, Rosana, Rurópolis, Salto do Lontra
+408|Eastern Lombard|namebases-europe.js|Saskatchewan
+410|Eastern Romanian|namebases-europe.js|Pierrefonds
+411|Ecuadorian Spanish|namebases-europe.js|Rouyn-Noranda
+412|Emilian|namebases-europe.js|Saint-Hyacinthe, Saint-Jean-sur-Richelieu, Saint-Laurent, Salaberry-de-Valleyfield
+428|Fala|namebases-europe.js|Kasai-Central
+429|Ferrarese|namebases-europe.js|Kalima
+430|Fiuman|namebases-europe.js|Bondo, Basoko, Tshilenge
+431|Florentine|namebases-europe.js|Sud-Ubangi, Bas-Congo, Kwilu, Mangai
+432|Forlivese|namebases-europe.js|Dungu, Bulungu
+440|Galician-Asturian|namebases-europe.js|Valais, Basel-Landschaft
+441|Gallo-Italic of Basilicata|namebases-europe.js|Ticino, Lausanne, Thurgau
+442|Gallo-Italic of Sicily|namebases-europe.js|Appenzell Ausserrhoden, Grisons
+443|Gallo-Picene|namebases-europe.js|Basel-City
+444|Gallurese|namebases-europe.js|Sassandra-Marahoue, Zoukougbeu, Montagnes
+446|Gascon|namebases-europe.js|Saïoua, Oumé, Goh-Djiboua
+447|Genoese|namebases-europe.js|Denguele District, Comoe District
+448|Grossetano|namebases-europe.js|Abidjan Autonomous District
+449|Haketia|namebases-europe.js|Guibéroua, Ferkessédougou
+450|Intemelio|namebases-europe.js|Doukouya
+453|Jauer|namebases-europe.js|Arrah
+466|Landese|namebases-europe.js|Purranque, Los Lagos Region, Region of Magallanes, Aysen
+467|Languedocien|namebases-europe.js|Panguipulli, Padre Las Casas, Nueva Imperial
+469|Leonese|namebases-europe.js|Coquimbo
+470|Ligurian|namebases-europe.js|Carahue
+471|Limousin|namebases-europe.js|Arica y Parinacota Region
+472|Llanito|namebases-europe.js|Far North, Adamaoua, South
+474|Lombard|namebases-europe.js|Makak, Lolodorf, Guidiguis
+476|Lucchese|namebases-europe.js|Bangangté
+639|Vallader|namebases-europe.js|Mengman
+641|Standard French|namebases-europe.js|Lianyungang, Huocheng
+646|Tabarchino|namebases-europe.js|Chenghai
+651|Umbrian|namebases-europe.js|Mianzhu, Deyang, Sichuan
+655|Valencian|namebases-europe.js|Cundinamarca, Valle del Cauca Department, Casanare Department
+658|Versiliese|namebases-europe.js|Atlantico, Sitionuevo, Magdalena Department
+659|Viareggino|namebases-europe.js|Risaralda Department
+660|Vivaro-Alpine|namebases-europe.js|San Andres y Providencia, Sabaneta, Tolima Department
+661|Vosgien|namebases-europe.js|Quindio Department, Pupiales
+662|Wallachian|namebases-europe.js|Putumayo Department, Vichada Department, Pizarro
+663|Welche|namebases-europe.js|Paz de Ariporo
+734|Western Catalan|namebases-europe.js|Curaçao, Christmas Island
+1087|Hevaha|namebases-europe.js|Oromiya, South Ethiopia Regional State, Sidama Region
+1833|Gaulish|namebases-europe.js|Hisar, Hinjilicut, Hingoli
+2021|Karasuk|namebases-europe.js|Madhapar, Manendragarh, Maradu, Marthandam
+2109|Karelian|namebases-europe.js|Southern Peninsula, Italy
+2255|Komi-Permyak|namebases-europe.js|Shinden, Washinomiya, Sashiōgi
+2270|Koryo-mar|namebases-europe.js|Makueni County, Bungoma County
+2315|Laiuse Romani|namebases-europe.js|North Western Province
+2322|Sherkal|namebases-europe.js|Taurage County, Klaipeda County, Marijampole County
+2373|Syktyvkar|namebases-europe.js|Bni Bouayach
+2379|Northern Mansi|namebases-europe.js|Vatovavy Region, Analamanga, Menabe, Alaotra Mangoro
+2380|Sosva|namebases-europe.js|Melaky, Ihorombe, Upper Matsiatra
+2528|Maltese|namebases-europe.js|Kampung Baru Balakong
+2600|Albanian|namebases-europe.js|Jega, Isieke
+2606|Estonian|namebases-europe.js|Eha Amufu, Egbe
+2625|Romansh|namebases-europe.js|Friesland
+2646|Komi Zyryan|namebases-europe.js|Dalfsen, Culemborg, Cranendonck
+2657|Silesian|namebases-europe.js|Bhimdatta, Khā̃dbāri̇̄, Koshi
+2725|Macedonian|namebases-europe.js|Sagay, Romblon, Rizal
+2726|Slovene|namebases-europe.js|Porac
+2728|Dutch|namebases-europe.js|Passi
+2733|Scots|namebases-europe.js|Meycauayan, Mendez-Nuñez, Mauban, Mati
+21058|Judeo-Italian|namebases-europe.js|Holden, Jamaica Plain, Leominster, Longmeadow
+21063|Judeo-Spanish|namebases-europe.js|Wellesley, West Roxbury, Westford, Winthrop
+21103|Romanian|namebases-europe.js|Long Branch, Marlboro
+23004|Benasquese (Benasque Valley)|namebases-europe.js|Williamsport, Willow Grove, Wissinoming, Rhode Island
+23005|Judeo-Italian (Standard)|namebases-europe.js|Vermont, Wisconsin
+23006|Judeo-Mantuan (Lombardy)|namebases-europe.js|Ashwaubenon, Caledonia, Howard
+23007|Judeo-Piedmontese (Turin)|namebases-europe.js|Milwaukee
+23011|Molisan (Molise)|namebases-europe.js|Gilbert, Mesa
+23012|Moselle Romance (Lorraine)|namebases-europe.js|Phoenix, Tempe Junction
+44747|Slovenian|namebases-europe.js|Daly City
+50035|Ladino|namebases-europe.js|San Gabriel, San Juan Capistrano, San Leandro, Sanger
+86|Louisiana French|namebases-northAmerica.js|Caboolture, Burwood, Burnie, Bundaberg
+1379|Broken Oghibbeway|namebases-northAmerica.js|Western North
+1380|Broken Slavey|namebases-northAmerica.js|Aflao
+1412|Chol|namebases-northAmerica.js|San Pedro Ayampuc
+1417|Cahuilla|namebases-northAmerica.js|Izabal Department
+2074|Apache|namebases-northAmerica.js|Al Mishkhāb, Al Miqdādīyah, Al Mawşil al Jadīdah, Al Maḩāwīl
+2075|Athabaskan|namebases-northAmerica.js|Al Başrah al Qadīmah, Khasnahzān, Khalīfān, Hajiawa
+2316|Lakota|namebases-northAmerica.js|Uva Province
+2439|Cuicatec|namebases-northAmerica.js|Reforma
+2611|Tlingit|namebases-northAmerica.js|Ebute Ikorodu, Dutsen Wai, Burutu
+6110|Dakota|namebases-northAmerica.js|Quelfes
+6111|Crow|namebases-northAmerica.js|Lumiar, Loures, Loulé, Linda-a-Velha
+6624|Chochotec|namebases-northAmerica.js|Fânzeres, Fafe
+6625|Ixcatec|namebases-northAmerica.js|Alfragide, Alvalade, Azores, São Jorge de Arroios
+6636|Holikachuk|namebases-northAmerica.js|Farīj al Amīr, Réunion, Piton Saint-Leu
+7835|Comanche|namebases-northAmerica.js|Severnyy, Setun’, Sestroretsk, Sertolovo
+7836|Hopi|namebases-northAmerica.js|Mordoviya Republic
+8129|Kaqchikel|namebases-northAmerica.js|Kalmykiya Republic
+8130|Ixil|namebases-northAmerica.js|Davydkovo, Dankov, Danilov, Dachnoye
+8137|Poqomchi'|namebases-northAmerica.js|Aleksandrovsk
+8425|Matlatzinca|namebases-northAmerica.js|Khakasiya Republic, Polevskoy
+8426|Mazahua|namebases-northAmerica.js|Myski
+8430|Zapotec|namebases-northAmerica.js|Kodinsk, Kochenëvo, Kiselëvsk, Kirovgrad
+8485|Tarahumara|namebases-northAmerica.js|Akademgorodok, Snezhinsk, Ozersk
+8486|Huarijio|namebases-northAmerica.js|Primorye, Buryatiya Republic
+13195|Inuvialuktun|namebases-northAmerica.js|Moïssala, Hadjer-Lamis, Tandjile, Mayo-Kebbi Est
+13243|Blackfoot|namebases-northAmerica.js|Ennedi-Est, French Southern Territories, Kerguelen
+20184|Trinidadian Creole (dedicated)|namebases-northAmerica.js|Lozova, Lysychansk, Ladyzhyn, Kupyansk
+20185|Turks and Caicos Creole (dedicated)|namebases-northAmerica.js|Kostyantynivka, Slobozhanske, Kolomyia, Khrestivka
+21001|Purépecha|namebases-northAmerica.js|Dolton, Downers Grove, East Garfield Park
+203|Gadsup|namebases-oceania.js|Lajedo, Lago da Pedra
+206|Awiyaana|namebases-oceania.js|Itapecuru Mirim, Itapagé, Ilha de Itamaracá
+306|Gunwinggu|namebases-oceania.js|Fernandópolis
+860|Alu|namebases-oceania.js|Friedberg, Freudenstadt, Freudenberg, Freital
+1129|Bariji|namebases-oceania.js|Kaarela, Jakobstad, Hyvinge, Hervanta
+1381|Broome Pearling Lugger Pidgin|namebases-oceania.js|Nkawkaw, Lower River, North Bank
+1390|Bunak|namebases-oceania.js|Central Greece, Crete, Epirus, West Greece
+1401|Burumakok|namebases-oceania.js|Central Macedonia, East Macedonia and Thrace
+1402|Buruwai|namebases-oceania.js|West Macedonia
+1420|Cemuhî|namebases-oceania.js|Comitancillo, Chinautla
+1824|Goroka|namebases-oceania.js|Jandiāla, Jāmuria
+1903|Humene|namebases-oceania.js|Bulandshahr, Brajarajnagar, Borsad, Borivli
+2065|Maibrat|namebases-oceania.js|Jalochi, Korochi, Ghulewadi, Pachgaon
+2068|Kapauri|namebases-oceania.js|Salah ad Din
+2103|Kanite|namebases-oceania.js|Pāsārgād, Vaḩīdīyeh, Ovrīn, Shāhīn Shahr
+2118|Loyalties-New Caledonia|namebases-oceania.js|Favara, Comiso, Canicattì
+2123|St. Matthias|namebases-oceania.js|The Marches, Thiene, Terzigno, Terlizzi
+2124|Temotu|namebases-oceania.js|Somma Vesuviana, Soccavo, Senago, Segrate
+2151|Alor-Pantar|namebases-oceania.js|Casoria
+2261|Koneraw|namebases-oceania.js|Sagamihara
+2284|Kubo|namebases-oceania.js|Preah Vihear
+2289|Kula|namebases-oceania.js|North Hamgyong, Chagang, Rason, Yanggang-do
+2308|Kelabit|namebases-oceania.js|Lao People's Democratic Republic, Vientiane Prefecture, Houaphan
+2586|Malay|namebases-oceania.js|Méhana, Matamey, Gazaoua
+2736|Awbono|namebases-oceania.js|Magalang
+2741|Beami|namebases-oceania.js|La Carlota
+2749|Kiribati|namebases-oceania.js|Catanauan, Cogan
+2750|Rarotongan|namebases-oceania.js|Bustos, Boroon
+21010|Wiradjuri|namebases-oceania.js|Park Forest, Park Ridge, Pekin, Peoria
+21011|Gamilaraay|namebases-oceania.js|Urbana, Vernon Hills, Villa Park, Wasco
+21124|Batanic|namebases-oceania.js|Terrace Heights, Throgs Neck, Tremont, Uniondale
+21126|Pintupi|namebases-oceania.js|Ashtabula
+22003|Tok Pisin (Papua Coastal)|namebases-oceania.js|Painesville
+97969|Tok Pisin|namebases-oceania.js|Whitney, Big Spring, Horizon City, Lubbock
+97974|Huli|namebases-oceania.js|Minot
+97976|Asaro|namebases-oceania.js|Eugene, Gresham, Lents, McMinnville
+98000|Chuukese|namebases-oceania.js|Waikīkī, ‘Ewa Gentry, Hawai‘i Kai
+98001|Yapese|namebases-oceania.js|City of Sammamish, Silver Firs, Vineyard
+78|Sanöma|namebases-southAmerica.js|Langwarrin, Lalor, Lakemba
+2435|Movima|namebases-southAmerica.js|Tequisquiapan, Cuautitlán Izcalli, Tepotzotlán
+2436|Nonuya|namebases-southAmerica.js|Moyotzingo, Santa María Chimalhuacán, Santa María Atzompa, Heroica Ciudad de Tlaxiaco
+5823|Trinitario|namebases-southAmerica.js|Choszczno, Chodzież, Chełmża
+5831|Tiriyó|namebases-southAmerica.js|Surif City, Shu‘fāţ, Qalqīlyah, Qabāţīyah
+6621|Língua Geral Amazônica|namebases-southAmerica.js|São Tiago de Custoias, São Pedro da Cova, São Paulo de Frades, São Martinho do Bispo
+6654|Cubeo|namebases-southAmerica.js|Calarasi County, Harghita County, Constanta County, Bacau County
+6661|Tatuyo|namebases-southAmerica.js|Sremčica, Obrenovac, Nova Pazova
+7516|Yuracaré|namebases-southAmerica.js|Staraya Derevnya, Sovetsk
+7943|Wounaan|namebases-southAmerica.js|Otradnyy, Otradnoye, Otradnaya, Oryol oblast
+7944|Mapudungun|namebases-southAmerica.js|Onega, Novozybkov, Novovoronezh
+8053|Carijona|namebases-southAmerica.js|Nartkala, Naro-Fominsk
+8054|Kakwa (Cacua)|namebases-southAmerica.js|Matveyevskoye, Marks
+8113|Guahibo (Sikuani)|namebases-southAmerica.js|Kovdor
+8135|Mopán|namebases-southAmerica.js|Belorechensk, Beloozyorskiy, Belgorod
+8607|Yukpa|namebases-southAmerica.js|Dalnegorsk, Khabarovsk Vtoroy, Sakhalin Oblast, Magadan Oblast
+13341|Puinave|namebases-southAmerica.js|Ranong province
+13893|Karajá|namebases-southAmerica.js|Kebili, Kebili Governorate, Medenine Governorate
+21000|Kwaza-Xocó Amazonian|namebases-southAmerica.js|Blue Island, Burbank

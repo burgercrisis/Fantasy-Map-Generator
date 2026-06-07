@@ -1,0 +1,92 @@
+206|Awiyaana|namebases-oceania.js|Pacific|Kainantu–Goroka
+631|Nama Click|namebases-africa.js||
+860|Alu|namebases-oceania.js||
+1007|Aws-Nian|namebases-oceania.js||
+1056|Telue|namebases-asia.js|Asia|Kra
+1087|Hevaha|namebases-europe.js|Eurasia|Ingrian
+1129|Bariji|namebases-oceania.js|Pacific|Southeast Papuan
+1377|Baram|namebases-asia.js|Asia|Newaric
+1401|Burumakok|namebases-oceania.js|Pacific|Ok–Oksapmin
+1402|Buruwai|namebases-oceania.js|Pacific|Asmat–Kamoro
+1403|Buyang|namebases-asia.js|Asia|Kra
+1418|Cai Long|namebases-asia.js|Sino-Tibetan region|Sino-Tibetan
+1901|Huishui Miao|namebases-asia.js||
+1903|Humene|namebases-oceania.js|Pacific|Southeast Papuan
+2065|Maibrat|namebases-oceania.js|Pacific|West Papuan
+2066|Mor|namebases-oceania.js|Pacific|Trans-New Guinea
+2067|Elseng|namebases-oceania.js|Pacific|Isolate
+2068|Kapauri|namebases-oceania.js|Pacific|Kwerbic
+2074|Apache|namebases-northAmerica.js|North America|Na-Dene
+2075|Athabaskan|namebases-northAmerica.js|North America|Na-Dene
+2100|Kanasi|namebases-oceania.js|Pacific|Southeast Papuan
+2101|Kandawo|namebases-oceania.js|Pacific|Chimbu–Wahgi
+2106|Kap|namebases-oceania.js||
+2123|St. Matthias|namebases-oceania.js|Pacific|Austronesian
+2128|Proto-Kra|namebases-asia.js|Asia|Kra
+2129|Nadou|namebases-asia.js|Asia|Tai-Kadai
+2130|Mulao Kra|namebases-asia.js|Asia|Kra
+2153|Anim languages|namebases-oceania.js|Pacific|Papuan
+2155|Aslian languages|namebases-asia.js|Asia|Aslian
+2156|Awin-Pa|namebases-oceania.js|Pacific|Papuan
+2157|Awyu-Dumut|namebases-oceania.js||
+2167|Kim Mun|namebases-asia.js|East Asia|Mienic
+2174|Meso-Melanesian|namebases-oceania.js|Pacific|Austronesian
+2176|Binanderean|namebases-oceania.js|Pacific|Papuan
+2177|Kutubuan languages|namebases-oceania.js|Pacific|Trans–New Guinea
+2178|Goilalan|namebases-oceania.js|Pacific|Papuan
+2179|Kolopom|namebases-oceania.js|Pacific|Papuan
+2180|Damal|namebases-oceania.js|Pacific|Trans-New Guinea
+2181|Dem|namebases-oceania.js|Pacific|Trans-New Guinea
+2182|Dibiyaso|namebases-oceania.js|Pacific|Bosavi
+2183|Guriaso|namebases-oceania.js|Pacific|Kwomtari
+2184|Kaki Ae|namebases-oceania.js|Pacific|Eleman
+2185|Karami|namebases-oceania.js|Pacific|Lengu
+2186|Kehu|namebases-oceania.js|Pacific|Language Isolate
+2238|Kiwai|namebases-oceania.js|Pacific|Kiwaian
+2247|Tai Hongjin|namebases-asia.js|Asia|Tai-Kadai
+2248|Qabiao|namebases-asia.js|Asia|Kra
+2256|Komolom|namebases-oceania.js|Pacific|Bayono–Awbono
+2257|Komyandaret|namebases-oceania.js|Pacific|Greater Awyu
+2258|Konai|namebases-oceania.js|Pacific|East Strickland
+2264|Kopkaka|namebases-oceania.js|Pacific|Ok–Oksapmin
+2266|Korafe|namebases-oceania.js|Pacific|Binanderean
+2269|Korowai|namebases-oceania.js|Pacific|Greater Awyu
+2301|Kwoma-Manambu Pidgin|namebases-asia.js|Misc|Pidgin
+2316|Lakota|namebases-northAmerica.js|North America|Siouan
+2386|Kwoma Manambu Pidgin|namebases-asia.js||
+2415|Lembena|namebases-oceania.js|Pacific|Engan
+2452|Naga|namebases-asia.js|Sino-Tibetan region|Sino-Tibetan
+2487|Nam|namebases-africa.js|Sino-Tibetan region|Sino-Tibetan
+2734|Awa|namebases-oceania.js|Pacific|Kainantu–Goroka
+2736|Awbono|namebases-oceania.js|Pacific|Bayono–Awbono
+2737|Awin|namebases-oceania.js|Pacific|Awin–Pa
+2741|Beami|namebases-oceania.js|Pacific|Bosavi
+5379|Zarma|namebases-africa.js|Africa|Songhay
+6110|Dakota|namebases-northAmerica.js|North America|Siouan
+6111|Crow|namebases-northAmerica.js|North America|Siouan
+6636|Holikachuk|namebases-northAmerica.js|North America|Na-Dene
+7835|Comanche|namebases-northAmerica.js|North America|Uto-Aztecan
+7836|Hopi|namebases-northAmerica.js|North America|Uto-Aztecan
+10533|Dzando|namebases-africa.js|Africa|Niger-Congo
+11284|Gendza|namebases-africa.js|Africa|Niger-Congo
+11285|Gengele Creole|namebases-africa.js|Africa|Niger-Congo
+13339|Omaio|namebases-africa.js|Africa|Unclassified
+13340|Ongota|namebases-africa.js|Africa|Unclassified
+13446|Ron|namebases-africa.js|Africa|Chadic
+13447|South Bauchi|namebases-africa.js|Africa|Chadic
+13745|Kikar|namebases-africa.js|Misc|Pidgin
+13954|Tima|namebases-africa.js|Africa|Niger-Congo
+14151|Hadiyya|namebases-africa.js||
+14152|Sidama|namebases-africa.js||
+20125|Bangala|namebases-africa.js|Africa|Niger-Congo
+20156|Avokaya|namebases-africa.js|Africa|Nilo-Saharan
+20158|Ao Naga|namebases-asia.js||
+20162|Hozo|namebases-africa.js|Africa|Nilo-Saharan
+20300|Amira|namebases-africa.js|Africa|Niger-Congo
+20723|Ciwogai|namebases-africa.js|Africa|Chadic
+21096|Jimi|namebases-oceania.js|Pacific|Chimbu–Wahgi
+22003|Tok Pisin (Papua Coastal)|namebases-oceania.js||
+23001|Ethiopian Amharic|namebases-africa.js||
+97969|Tok Pisin|namebases-oceania.js|Pacific|English-based
+97974|Huli|namebases-oceania.js|Pacific|Engan
+97976|Asaro|namebases-oceania.js||
